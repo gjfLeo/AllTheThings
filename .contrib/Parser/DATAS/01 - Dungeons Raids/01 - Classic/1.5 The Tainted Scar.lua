@@ -16,6 +16,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				ru = "Гниющий Шрам",
 				ko = "타락의 흉터",
 				cn = "腐烂之痕",
+				tw = "腐爛之痕",
 			},
 			description = {
 				en = "The Tainted Scar is a small region in the western Blasted Lands, corrupted for years by the energies of the Dark Portal. Following the Third War, it became the demonic domain of Lord Kazzak and his army until the Invasion of Outland.",
