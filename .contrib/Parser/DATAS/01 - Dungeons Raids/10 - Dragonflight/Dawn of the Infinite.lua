@@ -456,6 +456,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134727),	-- Cold-Touched Endgame					(Removed)
 		ig(134757),	-- Covert Reprieve						(Removed)
 		ig(13371),	-- Father Flame							(Removed)
+		ig(134589),	-- Vanguard Reprieve					(Removed)
 	}),
 	i(208113, {	-- Quantum Greataxe		(Two-Handed)
 		q(77599, {	-- when you learn everything from Quantum Greataxe (Two-Handed)
@@ -610,7 +611,6 @@ local QUANTUM_GROUP = sharedData({
 		ig(134632),	-- Scorching Redoubt					(Removed)
 		ig(134803),	-- Seasoned Redoubt						(Removed)
 		ig(134603),	-- Vanguard Redoubt						(Removed)
-		ig(134589),	-- Vanguard Reprieve					(Removed)
 	}),
 	i(208115, {	-- Quantum Staff
 		q(77601, {	-- when you learn everything from Quantum Staff
