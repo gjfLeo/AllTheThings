@@ -117,9 +117,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					{ 53.2, 49.7, MECHAGON },
 				},
 				["g"] = {
-					i(167843),	-- Blueprint: Vaultbot Key
-					i(167796),	-- Paint Vial: Mechagon Gold
-					i(170072),	-- Armored Vaultbot (PET!)
+					o(322020, {	-- Pile of Coins
+						i(167843),	-- Blueprint: Vaultbot Key
+						i(167796),	-- Paint Vial: Mechagon Gold
+						i(170072),	-- Armored Vaultbot (PET!)
+					}),
 				},
 			}),
 			n(151308, {	-- Boggac Skullbash

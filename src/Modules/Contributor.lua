@@ -240,6 +240,7 @@ MobileDB.GameObject = {
 	[296855] = true,	-- Truffle
 	[310600] = true,	-- Ancient Kaldorei Tome @ 9.9, 13.9, 63 (q:53989)
 	[310603] = true,	-- "bow" @ 12, 15.4, 63 (q:53989)
+	[322020] = true,	-- Pile of Coins (Armored Vaultbot)
 	[327230] = true,	-- Jelly Deposit
 	[350978] = true,	-- Queen's Conservatory Cache
 	[353947] = true,	-- Discarded Vial
