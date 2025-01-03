@@ -2044,6 +2044,8 @@ root(ROOTS.Zones, {
 				}),
 				n(VENDORS, {
 					n(77465, {	-- "Wrong Knick" <Repairs>
+						["coord"] = { 28.2, 34.6, FROSTFIRE_RIDGE },
+						["races"] = HORDE_ONLY,
 						["sym"] = {
 							{"sub", "common_vendor", 64054},	-- Krogo Darkhide <Leatherworking & Skinning Supplies>
 						},
