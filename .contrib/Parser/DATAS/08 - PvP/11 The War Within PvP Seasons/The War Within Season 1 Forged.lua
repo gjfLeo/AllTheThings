@@ -667,48 +667,26 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 					i(218531),	-- Forged Gladiator's Leather Wristwraps
 				}),
 				cl(EVOKER, {
-					-- TODO: Move 10 pieces into NYI
 					i(218593),	-- Forged Gladiator's Armored Scales
 					i(218605),	-- Forged Gladiator's Chain Belt
-					i(218596),	-- Forged Gladiator's Chain Boots
-					i(218608),	-- Forged Gladiator's Chain Bracers
-					i(218602),	-- Forged Gladiator's Chain Breeches
-					i(218600),	-- Forged Gladiator's Chain Faceguard
 					i(218597),	-- Forged Gladiator's Chain Gauntlets
-					i(218606),	-- Forged Gladiator's Chain Girdle
-					i(218598),	-- Forged Gladiator's Chain Handguards
 					i(218599),	-- Forged Gladiator's Chain Helm
 					i(218601),	-- Forged Gladiator's Chain Leggings
 					i(218603),	-- Forged Gladiator's Chain Monnion
 					i(218595),	-- Forged Gladiator's Chain Sabatons
-					i(218604),	-- Forged Gladiator's Chain Shoulderguard
 					i(218607),	-- Forged Gladiator's Chain Wristguards
 					i(218609),	-- Forged Gladiator's Cloak
-					i(218610),	-- Forged Gladiator's Drape
-					i(218594),	-- Forged Gladiator's Scaleguard
-					i(218611),	-- Forged Gladiator's Shawl
 				}),
 				cl(HUNTER, {
-					-- TODO: Move 10 pieces into NYI
 					i(218624),	-- Forged Gladiator's Chain Belt
-					i(218615),	-- Forged Gladiator's Chain Boots
-					i(218627),	-- Forged Gladiator's Chain Bracers
-					i(218621),	-- Forged Gladiator's Chain Breeches
-					i(218619),	-- Forged Gladiator's Chain Faceguard
 					i(218616),	-- Forged Gladiator's Chain Gauntlets
-					i(218625),	-- Forged Gladiator's Chain Girdle
-					i(218617),	-- Forged Gladiator's Chain Handguards
 					i(218618),	-- Forged Gladiator's Chain Helm
 					i(218620),	-- Forged Gladiator's Chain Leggings
 					i(218622),	-- Forged Gladiator's Chain Monnion
 					i(218614),	-- Forged Gladiator's Chain Sabatons
-					i(218623),	-- Forged Gladiator's Chain Shoulderguard
-					i(218613),	-- Forged Gladiator's Chain Tunic
 					i(218612),	-- Forged Gladiator's Chain Vest
 					i(218626),	-- Forged Gladiator's Chain Wristguards
 					i(218628),	-- Forged Gladiator's Chain Cloak
-					i(218629),	-- Forged Gladiator's Chain Drape
-					i(218630),	-- Forged Gladiator's Chain Shawl
 				}),
 				cl(MAGE, {
 					i(218476),	-- Forged Gladiator's Cloak

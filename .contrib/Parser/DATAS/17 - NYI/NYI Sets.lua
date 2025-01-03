@@ -11998,10 +11998,28 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(218535),	-- Forged Gladiator's Shawl
 					}),
 					cl(EVOKER, {
-						-- TODO
+						i(218596),	-- Forged Gladiator's Chain Boots
+						i(218608),	-- Forged Gladiator's Chain Bracers
+						i(218602),	-- Forged Gladiator's Chain Breeches
+						i(218600),	-- Forged Gladiator's Chain Faceguard
+						i(218606),	-- Forged Gladiator's Chain Girdle
+						i(218598),	-- Forged Gladiator's Chain Handguards
+						i(218604),	-- Forged Gladiator's Chain Shoulderguard
+						i(218610),	-- Forged Gladiator's Drape
+						i(218594),	-- Forged Gladiator's Scaleguard
+						i(218611),	-- Forged Gladiator's Shawl
 					}),
 					cl(HUNTER, {
-						-- TODO
+						i(218623),	-- Forged Gladiator's Chain Shoulderguard
+						i(218613),	-- Forged Gladiator's Chain Tunic
+						i(218629),	-- Forged Gladiator's Chain Drape
+						i(218625),	-- Forged Gladiator's Chain Girdle
+						i(218615),	-- Forged Gladiator's Chain Boots
+						i(218617),	-- Forged Gladiator's Chain Handguards
+						i(218627),	-- Forged Gladiator's Chain Bracers
+						i(218619),	-- Forged Gladiator's Chain Faceguard
+						i(218621),	-- Forged Gladiator's Chain Breeches
+						i(218630),	-- Forged Gladiator's Chain Shawl
 					}),
 					cl(MAGE, {
 						i(218477),	-- Forged Gladiator's Drape
