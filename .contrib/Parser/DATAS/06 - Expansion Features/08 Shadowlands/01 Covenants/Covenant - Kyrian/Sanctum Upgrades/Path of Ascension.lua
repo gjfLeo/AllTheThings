@@ -763,6 +763,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 											BASTION,
 											REVENDRETH
 										},
+										["g"] = {
+											i(181683),	-- Anointed Talisman (QI!)
+											i(181699),	-- Echthra's Notes (QI!)
+										},
 									}),
 									q(60494, {	-- Your Friend, Dactylis
 										["sourceQuests"] = { 60493 },	-- Humble Gatherer
