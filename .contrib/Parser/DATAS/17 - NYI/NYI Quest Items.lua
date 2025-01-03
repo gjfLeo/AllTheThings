@@ -102,7 +102,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(174058),	-- Anima Reserve
 			i(175972),	-- Anima-Infused Venom
 			i(180447),	-- Animacone
-			i(181683),	-- Anointed Talisman
 			i(178031),	-- Anointing Chime
 			i(182473),	-- Archivam Tome
 			i(173013),	-- Bag of Faerie Dust
@@ -150,7 +149,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(171990),	-- Dormant Maldracite
 			i(174492),	-- Dripping Fangs
 			i(177894),	-- Earthen Jar
-			i(181699),	-- Echthra's Notes
 			i(175411),	-- Effused Powder
 			i(180809),	-- Elysian Horn
 			i(174075),	-- Emeni's Magnificent Skin
