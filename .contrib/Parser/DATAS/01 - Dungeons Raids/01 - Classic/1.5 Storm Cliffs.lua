@@ -16,6 +16,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				ru = "Штормовые утесы",
 				ko = "폭풍 절벽",
 				cn = "风暴悬崖",
+				tw = "暴風崖",
 			},
 			description = {
 				en = "The Storm Cliffs is a place in Azshara known for its weather and acts as the home away from home for the blue dragonflight.",
