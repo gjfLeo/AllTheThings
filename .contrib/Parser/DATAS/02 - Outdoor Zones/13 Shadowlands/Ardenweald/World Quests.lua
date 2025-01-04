@@ -12,7 +12,36 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 		}),
 		n(WORLD_QUESTS, sharedData({ ["isWorldQuest"] = true }, {
-			q(60872),	-- A Dangerous Harvest
+			q(60872, {	-- A Dangerous Harvest
+				o(353874, {	-- Animacone
+					["coords"] = {
+						{ 47.6, 37.3, ARDENWEALD },
+						{ 48.1, 35.8, ARDENWEALD },
+						{ 49.0, 35.8, ARDENWEALD },
+						{ 49.4, 36.8, ARDENWEALD },
+						{ 49.7, 39.4, ARDENWEALD },
+						{ 50.0, 37.6, ARDENWEALD },
+						{ 50.4, 36.7, ARDENWEALD },
+						{ 50.9, 37.0, ARDENWEALD },
+						{ 51.4, 38.1, ARDENWEALD },
+						{ 51.4, 41.3, ARDENWEALD },
+						{ 51.9, 38.7, ARDENWEALD },
+						{ 52.4, 35.3, ARDENWEALD },
+						{ 52.4, 36.2, ARDENWEALD },
+						{ 52.8, 37.3, ARDENWEALD },
+						{ 52.9, 38.9, ARDENWEALD },
+						{ 53.3, 38.4, ARDENWEALD },
+						{ 53.5, 35.5, ARDENWEALD },
+						{ 53.6, 35.3, ARDENWEALD },
+						{ 53.7, 34.3, ARDENWEALD },
+						{ 54.0, 37.5, ARDENWEALD },
+						{ 54.2, 37.1, ARDENWEALD },
+					},
+					["groups"] = {
+						i(180447),	-- Animacone (QI!)
+					},
+				}),
+			}),
 			q(60950),	-- A Matter of Stealth
 			q(60899),	-- A Night in the Woods
 			q(60649),	-- A Thorn In Their Side

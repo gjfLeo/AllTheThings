@@ -101,7 +101,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(181365),	-- Anh'Qiraj Statue
 			i(174058),	-- Anima Reserve
 			i(175972),	-- Anima-Infused Venom
-			i(180447),	-- Animacone
 			i(178031),	-- Anointing Chime
 			i(182473),	-- Archivam Tome
 			i(173013),	-- Bag of Faerie Dust

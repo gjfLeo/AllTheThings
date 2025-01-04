@@ -99,7 +99,8 @@ end
 -- typically we don't want the report to trigger even when interacting from max range
 -- so can adjust here
 local MapPrecisionOverrides = {
-	[1700] = 3,	-- Sinfall (not tested)
+	[1699] = 3,	-- Sinfall
+	[1700] = 3,	-- Sinfall
 }
 
 local function Check_coords(objRef, id, maxCoordDistance)
@@ -201,6 +202,11 @@ MobileDB.Creature = {
 	[153897] = true,	-- Blingtron 7000
 	[158544] = true,	-- Lord Herne
 	[158635] = true,	-- Xolartios <Eternal Traveler>
+	[161261] = true,	-- Kael'thas Sunstrider
+	[161427] = true,	-- Kael'thas Sunstrider
+	[161431] = true,	-- Kael'thas Sunstrider
+	[161436] = true,	-- Kael'thas Sunstrider
+	[161439] = true,	-- Kael'thas Sunstrider
 	[172854] = true,	-- Dredger Butler
 	[185749] = true,	-- Gnoll Mon-Ark
 	[191494] = true,	-- Khanam Matra Sarest
@@ -243,6 +249,7 @@ MobileDB.GameObject = {
 	[322020] = true,	-- Pile of Coins (Armored Vaultbot)
 	[327230] = true,	-- Jelly Deposit
 	[350978] = true,	-- Queen's Conservatory Cache
+	[353195] = true,	-- Locked Door @ 61.2 60.3 REVENDRETH (q:58391)
 	[353947] = true,	-- Discarded Vial
 	[376587] = true,	-- Expedition Scout's Pack
 	[383732] = true,	-- Tuskarr Tacklebox

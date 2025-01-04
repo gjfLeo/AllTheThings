@@ -399,7 +399,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(58426, {	-- In the Shadow of our Failures
 				["sourceQuests"] = { 58383 },	-- The Many Sins of Kael'thas Sunstrider
-				["provider"] = { "n", 161160 },	-- The Accuser
+				["provider"] = { "n", 161158 },	-- The Accuser
 				["coord"] = { 46.5, 32.2, SINFALL_DEPTHS },
 			}),
 			q(62903, {	-- Into the Reservoir
@@ -611,7 +611,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59324, 62921 },	-- Our True Purpose
 				["provider"] = { "n", 172605 },	-- Foreman Flatfinger <Sanctum Upgrades>
 				["isWeekly"] = true,
-				["coord"] = { 55.0, 26.8, SINFALL_REACHES },
+				["coord"] = { 55.5, 26.3, SINFALL_REACHES },
 			}),
 			q(58444, {	-- Return to Sinfall
 				["sourceQuests"] = { 58440 },	-- Mirror, Mirror...
@@ -898,7 +898,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				-- ["sourceQuests"] = {  },	-- TODO
 				["provider"] = { "n", 164738 },	-- Tenaval
 				["isWeekly"] = true,
-				["coord"] = { 46.0, 28.1, SINFALL_REACHES },
+				["coord"] = { 45.3, 28.5, SINFALL_REACHES },
 				["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_9_1_5 },
 			}),
 			q(62867, {	-- Return Lost Souls (10)
@@ -906,7 +906,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["description"] = "Requires Renown 15.",
 				["provider"] = { "n", 164738 },	-- Tenaval
 				["isWeekly"] = true,
-				["coord"] = { 46.0, 28.1, SINFALL_REACHES },
+				["coord"] = { 45.3, 28.5, SINFALL_REACHES },
 				["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_9_1_5 },
 			}),
 			q(62868, {	-- Return Lost Souls (15)
@@ -914,7 +914,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["description"] = "Requires Renown 24.",
 				["provider"] = { "n", 164738 },	-- Tenaval
 				["isWeekly"] = true,
-				["coord"] = { 46.0, 28.1, SINFALL_REACHES },
+				["coord"] = { 45.3, 28.5, SINFALL_REACHES },
 				["timeline"] = { ADDED_9_0_2_LAUNCH, REMOVED_9_1_5 },
 			}),
 			q(62869, {	-- Return Lost Souls (20)
@@ -922,12 +922,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["description"] = "Requires Renown 32.",
 				["provider"] = { "n", 164738 },	-- Tenaval
 				["isWeekly"] = true,
-				["coord"] = { 46.0, 28.1, SINFALL_REACHES },
+				["coord"] = { 45.3, 28.5, SINFALL_REACHES },
 			}),
 			q(65105, {	-- Return More Lost Souls
 				["sourceQuests"] = { 62869 },	-- Return Lost Souls (20)
 				["provider"] = { "n", 164738 },	-- Tenaval
-				["coord"] = { 46.0, 28.1, SINFALL_REACHES },
+				["coord"] = { 45.3, 28.5, SINFALL_REACHES },
 				["repeatable"] = true,
 				["timeline"] = { ADDED_9_1_5 },
 			}),
