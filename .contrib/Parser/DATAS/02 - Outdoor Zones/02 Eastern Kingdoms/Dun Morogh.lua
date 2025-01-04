@@ -1085,7 +1085,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 28.4, 67.6, DUN_MOROGH },
 							["timeline"] = { REMOVED_2_0_1 },
 							["classes"] = { ROGUE },
-							["races"] = { DWARF },
+							["races"] = { GNOME },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Shadowstrike
