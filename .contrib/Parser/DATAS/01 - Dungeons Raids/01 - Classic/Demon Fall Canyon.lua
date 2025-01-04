@@ -39,7 +39,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(231910),	-- Heart of Azgaloth
 				i(231912),	-- Blade of the Pit
 				i(231460),	-- Planebreaker of Azgaloth
-				i(4213),	-- Grimoire of Doom
+				i(4213, {	-- Grimoire of Doom
+					["classes"] = { WARLOCK },
+					["groups"] = {
+						["recipeID"] = 18540,	-- Ritual of Doom
+					},
+				}),	
 			}))), 
 			n(227140, {	-- Pyranis
 				i(228090),	-- Cenarion Ritual Dagger
