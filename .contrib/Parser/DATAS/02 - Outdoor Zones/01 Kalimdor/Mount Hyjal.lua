@@ -77,7 +77,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				explorationAch(4863),	-- Explore Hyjal
 				ach(5860, {		-- The 'Unbeatable?' Pterodactyl: BEATEN.
-					["description"] = "The daily quest 'Vigilance on Wings' is offered in Firelands Hatchery after completing the intial quest as part of the questline in Shrine of Aviana.",
+					["description"] = "The daily quest 'Vigilance on Wings' is offered in Firelands Hatchery after completing the intial quests as part of the questline in Shrine of Aviana.",
 					["groups"] = {
 						i(69838, {		-- Chirping Box (Blue / Gold Mini Jouster - which ever wasnt picked during !Vigilance on Wings)
 							["description"] = "Contains either the Blue or Gold Mini Jouster, whichever was not picked during the quest Vigilance on Wings.",
