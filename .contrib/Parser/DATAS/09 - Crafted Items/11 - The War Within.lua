@@ -2032,6 +2032,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(213768),	-- Elemental Focusing Lens+
 			i(213769),	-- Elemental Focusing Lens++
 			i(213770),	-- Elemental Focusing Lens+++
+			i(214043),	-- Glittering Gemdust
 			i(213777),	-- Magnificent Jeweler's Setting
 			i(213765),	-- Ominous Energy Crystal+
 			i(213766),	-- Ominous Energy Crystal++

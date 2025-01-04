@@ -65,7 +65,6 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 					i(215139),	-- Copy Copy Elemental Lariat
 					i(215143),	-- Copy Copy Elemental Lariat
-					i(214043),	-- Glittering Gemdust
 					i(215146),	-- JC Gemcutting Toy
 				})),
 			}),
