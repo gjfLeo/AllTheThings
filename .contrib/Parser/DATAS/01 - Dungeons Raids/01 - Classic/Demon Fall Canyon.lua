@@ -42,7 +42,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(4213, {	-- Grimoire of Doom
 					["classes"] = { WARLOCK },
 					["groups"] = {
-						["recipeID"] = 18540,	-- Ritual of Doom
+						recipe(18540),	-- Ritual of Doom
 					},
 				}),	
 			}))), 
