@@ -33,14 +33,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(228087),	-- Supercharged Silver Moebius
 				i(228084),	-- Miniaturized Fire Extinguisher
 			}),
-			applyclassicphase(SOD_PHASE_FIVE, n(232632, {	-- Azgaloth
+			applyclassicphase(SOD_PHASE_FIVE, n(232632, bubbleDownSelf({["timeline"] = { "added 1.15.4" }}, {	-- Azgaloth <Lord of the Pit>
 				i(231913),	-- Eye of the Observer
 				i(231911),	-- Signet of the Legion General
 				i(231910),	-- Heart of Azgaloth
 				i(231912),	-- Blade of the Pit
 				i(231460),	-- Planebreaker of Azgaloth
 				i(4213),	-- Grimoire of Doom
-			})), 
+			}))), 
 			n(227140, {	-- Pyranis
 				i(228090),	-- Cenarion Ritual Dagger
 				i(228092),	-- Druidic Mantle
