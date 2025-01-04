@@ -4,33 +4,8 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	applyclassicphase(SOD_PHASE_FIVE, inst(2804, bubbleDownSelf({["timeline"] = { "added 1.15.4" }}, {	-- The Crystal Vale
-		["npcID"] = createHeader({
-			readable = "The Crystal Vale",
-			text = {
-				en = "The Crystal Vale",
-				es = "La Vega de Cristal",
-				de = "Kristalltal",
-				fr = "La vallée des Cristaux",
-				it = "The Crystal Vale",
-				pt = "Vale de Cristal",
-				ru = "Долина Кристаллов",
-				ko = "수정 골짜기",
-				cn = "水晶谷",
-			},
-			description = {
-				en = "The Crystal Vale can be found near the northwest corner of Silithus.",
-				--[[
-				es = "",
-				de = "",
-				fr = "",
-				it = "",
-				pt = "",
-				ru = "",
-				ko = "",
-				cn = "",
-				]]--
-			},
-		}),
+		["zone-text-areaID"] = 15825,	-- The Crystal Vale
+		["lore"] = "The Crystal Vale can be found near the northwest corner of Silithus.",
 		["coord"] = { 22, 10, SILITHUS },
 		["isRaid"] = true,
 		["lvl"] = 60,
