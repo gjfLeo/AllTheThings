@@ -1967,7 +1967,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {{"select","itemID",
 						1198,	-- Claymore
-						821,	-- Cutlass
+						851,	-- Cutlass
 						922,	-- Dacian Falx
 						2024,	-- Espadon
 						2207,	-- Jambiya
