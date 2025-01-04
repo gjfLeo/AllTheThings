@@ -11143,7 +11143,7 @@ SlashCmdList.AllTheThings = function(cmd)
 			return true;
 		else
 			if cmd:sub(1, 6) == "mapid:" then
-				app:GetWindow("CurrentInstance"):SetMapID(tonumber(cmd:sub(7)));
+				app:GetWindow("CurrentInstance"):SetMapID(tonumber(cmd:sub(7)), true);
 				return true;
 			end
 		end
