@@ -9,6 +9,7 @@ GUEST_RELATIONS = createHeader({
 	text = {
 		en = "Guest Relations",
 		cn = "宾客关系",
+		tw = "公關",
 	},
 });
 root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
