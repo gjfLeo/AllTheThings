@@ -211,6 +211,9 @@ MobileDB.Creature = {
 	[185749] = true,	-- Gnoll Mon-Ark
 	[191494] = true,	-- Khanam Matra Sarest
 	[193985] = true,	-- Initiate Zorig
+	-- #if BEFORE 10.2.7
+	[205127] = true,	-- Newsy
+	-- #endif
 	[209681] = true,	-- Squally
 	[214890] = true,	-- Magni Bronzebeard
 	[214892] = true,	-- Dagran Thaurissan II
@@ -253,6 +256,10 @@ MobileDB.GameObject = {
 	[353947] = true,	-- Discarded Vial
 	[376587] = true,	-- Expedition Scout's Pack
 	[383732] = true,	-- Tuskarr Tacklebox
+	[387725] = true,	-- Glowing Crystal (q:74518)
+	[387727] = true,	-- Sulfuric Crystal (q:74518)
+	[387729] = true,	-- Magma Crystal (q:74518)
+	[401844] = true,	-- Smelly Trash Pile
 	[411930] = true,	-- Blackpowder Barrel
 	[413246] = true,	-- Elemental Silt Mound
 	[414699] = true,	-- Darkroot Persimmon

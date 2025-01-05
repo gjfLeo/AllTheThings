@@ -78,9 +78,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					i(204273),	-- Stolen Supplies (QI!)
 				}),
 				q(74518, {	-- Resistance Training
-					i(204067),	-- Glowing Crystal (QI!)
-					i(204070),	-- Magma Crystal (QI!)
-					i(204069),	-- Sulfuric Crystal (QI!)
+					o(387725, {	-- Glowing Crystal
+						i(204067),	-- Glowing Crystal (QI!)
+					}),
+					o(387729, {	-- Magma Crystal
+						i(204070),	-- Magma Crystal (QI!)
+					}),
+					o(387727, {	-- Sulfuric Crystal
+						i(204069),	-- Sulfuric Crystal (QI!)
+					}),
 				}),
 				q(74515),	-- Snail Mail
 				q(74514, {	-- The Slowest Fan Club

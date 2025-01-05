@@ -165,13 +165,16 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["g"] = {
 					bo(75326, true),
 					o(398828, {	-- Chest of Massive Gains
-						i(205114, {	-- Brul (PET!)
-							["description"] = "After defeating Brullo, eat Rocks on the Rocks to transform then open the chest.",
-							["cost"] = { { "i", 204845, 1 } },	-- 1x Rocks on the Rocks
-						}),
-						i(204847),	-- Recipe: Rocks on the Rocks (RECIPE!)
-						i(205313),	-- Brullo's Wristbraces
-						i(205320),	-- Greatbelt of the Stronk
+						["coord"] = { 41.5, 86.2, ZARALEK_CAVERN },
+						["g"] = {
+							i(205114, {	-- Brul (PET!)
+								["description"] = "After defeating Brullo, eat Rocks on the Rocks to transform then open the chest.",
+								["cost"] = { { "i", 204845, 1 } },	-- 1x Rocks on the Rocks
+							}),
+							i(204847),	-- Recipe: Rocks on the Rocks (RECIPE!)
+							i(205313),	-- Brullo's Wristbraces
+							i(205320),	-- Greatbelt of the Stronk
+						},
 					}),
 				},
 			}),

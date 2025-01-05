@@ -36,7 +36,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 2 --
 					q(76025, {	-- Dragon Isles Supplies
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 75721 },	-- Bartering 101 [Renown 3]
 						["DisablePartySync"] = true,
@@ -47,7 +51,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 3 --
 					q(75720, {	-- Care to Barter?
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["isBreadcrumb"] = true,
 					}),
 					q(75721, {	-- Bartering 101
@@ -66,15 +74,28 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 				}, {	-- RENOWN 4 --
+					-- #if BEFORE 11.0.2
 					q(75722, {	-- Drake's Shadowflame Crest
 						["provider"] = { "n", 205127 },	-- Newsy
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
 						["_drop"] = { "g" },	-- Drop Crest
 					}),
+					-- #else
+					-- Not sure if this is really necessary as its just a name change of the quest and addition of coords that came into effect in 10.2.7
+					q(75722, {	-- Bag of Gold
+						["provider"] = { "n", 204254 },	-- Mimuup
+						["coord"] = { 56.5, 55.7, ZARALEK_CAVERN },
+						["_drop"] = { "g" },	-- Drop Crest
+					}),
+					-- #endif
 				}, {	-- RENOWN 5 --
 					q(75723, {	-- Cavern Drakewatching
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							i(203310),	-- Winding Slitherdrake: Grand Chin Thorn (MM!)
 							i(203316),	-- Winding Slitherdrake: Large Finned Crest (MM!)
@@ -84,7 +105,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 6 --
 					q(75724, {	-- Like the Niffen Do
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							i(205255),	-- Niffen Diggin' Mitts (TOY!)
 						},
@@ -92,7 +117,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 7 --
 					q(75725, {	-- Off to the Track
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 					}),
 				}, {	-- RENOWN 8 --
 				}, {	-- RENOWN 9 --
@@ -107,7 +136,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 11 --
 					q(76028, {	-- Dragon Isles Supplies
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 75728 },	-- Bartering Boulders [Renown 12]
 						["DisablePartySync"] = true,
@@ -118,7 +151,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 12 --
 					q(75728, {	-- Bartering Boulders
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							i(205188),	-- Barter Boulder
 						},
@@ -126,7 +163,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 13 --
 					q(75730, {	-- Slitherdrake Watching
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							i(203323),	-- Winding Slitherdrake: Brown Hair
 							i(203335),	-- Winding Slitherdrake: Curved Horns
@@ -137,12 +178,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					-- currently bugged and awarded at renown 16 together with Airborne Winding
 					q(75731, {	-- Scented Boots
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 					}),
 				}, {	-- RENOWN 15 --
 					q(76029, {	-- Dragon Isles Supplies
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 76030 },	-- Airborne Winding [Renown 16]
 						["DisablePartySync"] = true,
@@ -153,12 +202,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 16 --
 					q(76030, {	-- Airborne Winding
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 					}),
 				}, {	-- RENOWN 17 --
 					q(75741, {	-- Bundle of Boulders
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							i(205188),	-- 10x Barter Boulder
 						}
@@ -166,7 +223,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 18 --
 					q(76031, {	-- Dragon Isles Supplies
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						-- technically not accurate, but no other way to lock this properly for first character
 						["lockCriteria"] = { 1, "questID", 75742 },	-- Drake Helms [Renown 19]
 						["DisablePartySync"] = true,
@@ -177,7 +238,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 19 --
 					q(75742, {    -- Drake Helms
 						["provider"] = { "n", 205127 },    -- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							spell(409471, {	-- Drake Helms
 								-- auto learns these Mount Mods
@@ -201,7 +266,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				}, {	-- RENOWN 20 --
 					q(75744, {	-- A Token of Our Gratitude
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							i(204682),	-- Enchanted Wyrm's Shadowflame Crest
 						},
@@ -209,7 +278,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					q(76067, {	-- Signed, Sealed, Self-Delivered
 						["sourceQuests"] = { 75744 },	-- A Token of Our Gratitude
 						["provider"] = { "n", 205127 },	-- Newsy
+						-- #if BEFORE 10.2.7
 						["maps"] = { ZARALEK_CAVERN },	-- Spawns everywhere, but keeping it only listed in the factions 'main zone'
+						-- #else
+						["coord"] = { 56.4, 56.7, ZARALEK_CAVERN },
+						-- #endif
 						["g"] = {
 							i(205937),	-- Newsy (PET!)
 						},
