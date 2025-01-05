@@ -2202,7 +2202,6 @@ i(234753);	-- Cracked Divining Scepter
 i(232637);	-- Cracked Pirate Skull
 i(233800);	-- Decorated Gunpowder Flask
 i(232634);	-- Emptied Turtle Shell
-i(234456);	-- Crystal-splintered Rubble
 i(234723);	-- Hollow Sigil
 i(234734);	-- Inscribed Drinking Horn
 i(232638);	-- Loosened Naga Scales

@@ -236,47 +236,6 @@ root(ROOTS.Unsorted, {
 				i(234060),	-- Lunar Festival Attire - Teal
 
 				-- Earthen?
-				i(234626),	-- Awakened Archivist Vestment
-				i(234627),	-- Awakened Peacekeeper's Chassis
-				i(234628),	-- Awakened Machinist Chain
-				i(234629),	-- Awakened Artisan Collar
-				i(234630),	-- Awakened Worker's Vest
-				i(234631),	-- Awakened Explorer's Tunic
-				i(234632),	-- Awakened Artisan Bracelets
-				i(234633),	-- Awakened Artisan Toolbelt
-				i(234634),	-- Awakened Artisan Waistcoat
-				i(234635),	-- Awakened Artisan Kilt
-				i(234636),	-- Awakened Artisan Footwraps
-				i(234637),	-- Awakened Machinist Wristchains
-				i(234638),	-- Awakened Machinist Girdle
-				i(234639),	-- Awakened Machinist Robe
-				i(234640),	-- Awakened Machinist Helmet
-				i(234641),	-- Awakened Machinist Anklewraps
-				i(234642),	-- Awakened Machinist Cog
-				i(234643),	-- Awakened Worker's Kilt
-				i(234644),	-- Awakened Worker's Waistcoat
-				i(234645),	-- Awakened Worker's Belt
-				i(234646),	-- Awakened Worker's Cuffs
-				i(234647),	-- Awakened Worker's Mantle
-				i(234648),	-- Awakened Worker's Boots
-				i(234649),	-- Awakened Peacekeeper Warkilt
-				i(234651),	-- Awakened Peacekeeper Waistguard
-				i(234652),	-- Awakened Peacekeeper Waistcoat
-				i(234653),	-- Awakened Peacekeeper Gauntlets
-				i(234654),	-- Awakened Peacekeeper Pauldrons
-				i(234655),	-- Awakened Peacekeeper Sabatons
-				i(234656),	-- Awakened Peacekeeper Greathelm
-				i(234657),	-- Awakened Explorer's Kilt
-				i(234658),	-- Awakened Explorer's Visor
-				i(234659),	-- Awakened Explorer's Treads
-				i(234660),	-- Awakened Explorer's Waistcoat
-				i(234661),	-- Awakened Explorer's Cinch
-				i(234662),	-- Awakened Explorer's Handwraps
-				i(234663),	-- Awakened Archivist's Robe
-				i(234664),	-- Awakened Archivist's Hood
-				i(234665),	-- Awakened Archivist's Sandals
-				i(234666),	-- Awakened Archivist's Cord
-				i(234667),	-- Awakened Archivist's Cuffs
 				i(234709),	-- Earthen Travel Kilt
 				i(234710),	-- Earthen Artisan Kilt
 				i(234711),	-- Earthen Peacekeeper Warkilt

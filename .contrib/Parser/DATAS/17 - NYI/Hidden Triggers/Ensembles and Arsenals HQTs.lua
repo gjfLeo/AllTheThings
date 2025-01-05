@@ -1123,6 +1123,7 @@ q(81545),	-- Woven Artisan's Talent
 -- Siren Isle
 q(86524),	-- Ensemble: Adventurous Lamplighter's Attire
 q(86523),	-- Ensemble: Awakened Ambassador's Uniform
+q(86668),	-- Ensemble: Awakened Earthen Regalia
 q(86532),	-- Ensemble: Bilgeswabby's Garb
 q(86499),	-- Ensemble: Bloodscout Outfit
 q(86500),	-- Ensemble: Hydraflayer Regalia

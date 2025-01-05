@@ -3290,7 +3290,6 @@ q(86454),	--
 q(86455),	--
 q(86493),	-- PTR:LFGDungeons - Timewalking "Heroic" Random - 1st
 q(86494),	-- PTR:LFGDungeons - Timewalking "Heroic" Random - Nth
-q(86496),	-- PTR:An Ordered Design
 11.0.7.57409
 q(86498),	--
 q(86499),	--
@@ -3315,7 +3314,6 @@ q(86586),	--
 q(86617),	--
 11.0.7.57528
 q(86651),	-- PTR:[DNT] Test
-q(86668),	--
 q(86731),	--
 q(86766),	--
 q(86768),	--

@@ -188,11 +188,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["races"] = { DARKIRON, DWARF, EARTHEN_ALLIANCE, EARTHEN_HORDE },
 				["g"] = {
 					i(234455),	-- Storm-flecked Debris (QI!)
-					sensemble(1215408, {	-- Ensemble: Stonebound Earthen Regalia
-					}),
+					sensemble(1215408),	-- Ensemble: Stonebound Earthen Regalia
 				},
 			}),
-
+			q(86496, {	-- An Ordered Design
+				["sourceQuests"] = { 84730 },	-- An Armored Charge
+				["provider"] = { "n", 230242 },	-- Bargus
+				["coord"] = { 67.5, 42.0, SIREN_ISLE },
+				["races"] = { DARKIRON, DWARF, EARTHEN_ALLIANCE, EARTHEN_HORDE },
+				["g"] = {
+					i(234456),	-- Crystal-splintered Rubble (QI!)
+					sensemble(1215407),	-- Ensemble: Awakened Earthen Regalia
+				},
+			}),
 			q(85876, {	-- Reading the Runes
 				--TODO: I'm still not sure what exactly trigger it. It could be first filled bar for special assigment?
 				["sourceQuests"] = { 84726 },	-- Uncovered Mysteries
