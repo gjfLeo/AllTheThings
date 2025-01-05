@@ -5,8 +5,7 @@ WARBAND = createHeader({
 	readable = "Warband",
 	icon = 4203076,
 	text = {
-		en = "Warband",
-		cn = "战团",
+		en = [[~ACCOUNT_QUEST_LABEL]],
 	},
 });
 root(ROOTS.Character, n(WARBAND, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
