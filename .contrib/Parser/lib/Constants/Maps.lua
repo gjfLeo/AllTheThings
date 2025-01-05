@@ -1,4 +1,9 @@
 -- Map Constants for quick and easy replacement when we can get mapIDs on live!
+-- The MapID in this file is the UiMapID, see the UiMap table in https://warcraft.wiki.gg/wiki/UiMapID.
+-- The MapID in this file should be obtained by https://wago.tools/db2/UiMap?build=11.0.7.58238
+-- The UiMapID is widely used in Cata Classic/Retail, almost all dungeons/outdoor areas have UiMapID, but in Classic Era/SoD, only outdoor areas have UiMapID.
+-- Please do not confuse it with the MapID in the Map table, see the Map table in https://wago.tools/db2/Map?build=11.0.7.58238.
+
 -- Raids (Classic)
 BLACKWING_LAIR = 287;
 MOLTEN_CORE = 232;
