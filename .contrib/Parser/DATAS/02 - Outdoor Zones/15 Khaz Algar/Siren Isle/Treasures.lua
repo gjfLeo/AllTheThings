@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				-- ["description"] = "Requires a character to have completed the Dipping a Toe quest at least once in order for chests to spawn on the map.",
 				["g"] = {
 					i(233501),	-- Sandy Snapdragon Treat
-					i(234231),	-- Technique: Glyph of the Admiral's Pistol Shot
+					i(234231),	-- Technique: Glyph of the Admiral's Pistol Shot (RECIPE!)
 					o(494499),	-- Seafarer's Cache
 					o(500682),	-- Seafarer's Cache
 					o(500683),	-- Seafarer's Cache
