@@ -120,8 +120,16 @@ do
 				return app.TypicalAccountCollected(CACHE, t[KEY])
 			end,
 			saved = function(t)
+				local saved = CollectedSpeciesHelper[t[KEY]] > 0
+				-- weird bug where ATT fails to scan battle pets,
+				-- can manually make it collected when checking the saved state (i.e. displayed in a row)
 				-- character collected
-				if CollectedSpeciesHelper[t[KEY]] > 0 then return 1 end
+				if saved then
+					if not t.collected then
+						app.SetThingCollected(KEY, t[KEY], true, true)
+					end
+					return 1
+				end
 			end,
 			costCollectibles = function(t)
 				return cache.GetCachedField(t, "costCollectibles", default_costCollectibles);

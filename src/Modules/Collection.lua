@@ -3,8 +3,8 @@ local L = app.L
 
 -- Dependencies: Locales, Modules.RetrievingData
 
-local pairs,coroutine_yield,type
-	= pairs,coroutine.yield,type
+local pairs,type
+	= pairs,type
 
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
 local Runner = app.CreateRunner("collection")
