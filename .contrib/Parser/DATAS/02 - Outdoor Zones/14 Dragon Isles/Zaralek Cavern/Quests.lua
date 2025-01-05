@@ -978,6 +978,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 				q(75836),	-- I can't afford that - 4999
 				q(75870),	-- Still too much! - 999
 				q(75871),	-- How about 50 boulders - 249
+
+				-- Brullo the Strong Pet?
+				q(75556),	-- Triggered after looting Brul i(205114) from the chest after beating Brullo the Strong
 			}),
 		}),
 	}),
