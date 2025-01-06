@@ -388,9 +388,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(54014, {	-- Wet Work: Blood in the Sand (Faction Assault WQ)
 				["races"] = ALLIANCE_ONLY,
 			}),
-			q(52864, {	-- What Do You Mean, Mind Controlling Plants?
+			petbattle(q(52864, {	-- What Do You Mean, Mind Controlling Plants?
 				["provider"] = { "n", 141969 },	-- Spineleaf
-			}),
+			})),
 			q(51315, {	-- Wild Flutterbies
 				["races"] = HORDE_ONLY,
 				["g"] = {
