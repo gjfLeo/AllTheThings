@@ -251,6 +251,7 @@ MobileDB.GameObject = {
 	[310603] = true,	-- "bow" @ 12, 15.4, 63 (q:53989)
 	[322020] = true,	-- Pile of Coins (Armored Vaultbot)
 	[327230] = true,	-- Jelly Deposit
+	[349274] = true,	-- Forgotten Memorandum (q:59717)
 	[350978] = true,	-- Queen's Conservatory Cache
 	[353195] = true,	-- Locked Door @ 61.2 60.3 REVENDRETH (q:58391)
 	[353947] = true,	-- Discarded Vial
