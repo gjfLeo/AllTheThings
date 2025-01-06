@@ -32,6 +32,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 60933,
 				["g"] = {
 					o(354175, {	-- Cache of the Ascended
+						["coord"] = { 53.5, 88.7, BASTION },
 						["questID"] = 60977,
 						["isDaily"] = true,
 						["g"] = {
