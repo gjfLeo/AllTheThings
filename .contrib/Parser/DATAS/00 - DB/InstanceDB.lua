@@ -1,3 +1,7 @@
+-- the journalInstanceID map file.
+-- the InstanceID used in Database file is the journalInstanceID, as know as ID in the JournalInstance table(https://wago.tools/db2/JournalInstance?build=11.0.7.58238).
+-- this DB file map the journalInstanceID to the real InstanceID, as know as ID in the Map table(https://wago.tools/db2/Map?build=11.0.7.58238).
+
 do
 local oldInst = inst;
 local InstanceDB = {};
