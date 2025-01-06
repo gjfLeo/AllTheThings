@@ -236,39 +236,39 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 		n(PLUNDERSTORE, {
 			filter(BATTLE_PETS, {
 				i(233251, {	-- Bubbles
-					["cost"] = {{"c", PLUNDER, 1000}},
-				}),
-				i(233248, {	-- Glamrok
-					["cost"] = {{"c", PLUNDER, 2000}},
-				}),
-				i(233252, {	-- Happy
 					["cost"] = {{"c", PLUNDER, 500}},
 				}),
-				--pet(???, {	-- Parley
-				--	["cost"] = {{"c", PLUNDER, 3000}},
-				--}),
+				i(233248, {	-- Glamrok
+					["cost"] = {{"c", PLUNDER, 1000}},
+				}),
+				i(233252, {	-- Happy
+					["cost"] = {{"c", PLUNDER, 250}},
+				}),
+				pet(4695, {	-- Parley
+					["cost"] = {{"c", PLUNDER, 2000}},
+				}),
 				i(233247, {	-- Sparklesnap
-					["cost"] = {{"c", PLUNDER, 3000}},
+					["cost"] = {{"c", PLUNDER, 2000}},
 				}),
 			}),
 			filter(COSMETIC, {
 				i(216777, {	-- Blacksteel Saber
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216778, {	-- Bloody Iron Cleaver
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216776, {	-- Calcified Claymore
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216779, {	-- Copper Cannon
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216775, {	-- Deadly Dagger
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(213436, {	-- Fine Crimson Doublet
-					["cost"] = {{"c", PLUNDER, 1000}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(232431, {	-- First Mate's Dashing Cap
 					["cost"] = {{"c", PLUNDER, 1000}},
@@ -277,19 +277,19 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(216990, {	-- Handwoven Trousers
-					["cost"] = {{"c", PLUNDER, 1000}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216780, {	-- Marvelous Multi-Shot
-					["cost"] = {{"c", PLUNDER, 1000}},
+					["cost"] = {{"c", PLUNDER, 500}},
 				}),
 				i(216731, {	-- Plunderlord's Cuffs
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216728, {	-- Plunderlord's Drapery
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(216729, {	-- Plunderlord's Fancy Trousers
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216756, {	-- Plunderlord's Fine Rapier
 					["cost"] = {{"c", PLUNDER, 1000}},
@@ -298,16 +298,16 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(216732, {	-- Plunderlord's Golden Cinch
-					["cost"] = {{"c", PLUNDER, 1000}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216774, {	-- Plunderlord's Hand Cannon
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(219348, {	-- Plunderlord's Monocle
-					["cost"] = {{"c", PLUNDER, 2000}},
+					["cost"] = {{"c", PLUNDER, 500}},
 				}),
 				i(216733, {	-- Plunderlord's Muckscrapers
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216765, {	-- Plunderlord's Neck-Severer
 					["cost"] = {{"c", PLUNDER, 1000}},
@@ -319,16 +319,16 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 2000}},
 				}),
 				i(216730, {	-- Plunderlord's Pilferers
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216763, {	-- Plunderlord's Silver Cutlass
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(232591, {	-- Plunderlord's Stormridden Cinch
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(232590, {	-- Plunderlord's Stormridden Cuffs
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(232581, {	-- Plunderlord's Stormridden Cutlass
 					["cost"] = {{"c", PLUNDER, 1500}},
@@ -340,13 +340,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 1500}},
 				}),
 				i(232593, {	-- Plunderlord's Stormridden Muckscrapers
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(232579, {	-- Plunderlord's Stormridden Neck-Severer
 					["cost"] = {{"c", PLUNDER, 1500}},
 				}),
 				i(232584, {	-- Plunderlord's Stormridden Pilferers
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(232580, {	-- Plunderlord's Stormridden Rapier
 					["cost"] = {{"c", PLUNDER, 1500}},
@@ -358,7 +358,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(232430, {	-- Plunderlord's Stormridden Tricorne
-					["cost"] = {{"c", PLUNDER, 1500}},
+					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(232592, {	-- Plunderlord's Stormridden Trousers
 					["cost"] = {{"c", PLUNDER, 500}},
@@ -370,34 +370,34 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 5000}},
 				}),
 				i(216727, {	-- Plunderlord's Tassled Spaulders
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216734, {	-- Plunderlord's Tricorne of Admiralty
-					["cost"] = {{"c", PLUNDER, 1000}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216735, {	-- Plunderlord's Waistcoat
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216989, {	-- Quilted Breeches
-					["cost"] = {{"c", PLUNDER, 1000}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216992, {	-- Silent Leathers
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216984, {	-- Skulker's Cloak
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216988, {	-- Spun Cotton Shirt
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216993, {	-- Storm Captain's Hat
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216991, {	-- Surefooted Boots
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216987, {	-- Swabbie's Gloves
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(232596, {	-- Swabbie's Oar
 					["cost"] = {{"c", PLUNDER, 1000}},
@@ -406,13 +406,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
 				i(216986, {	-- Swindler's Cutouts
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216994, {	-- Warm Woolen Cap
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 				i(216985, {	-- Weatherproven Drape
-					["cost"] = {{"c", PLUNDER, 500}},
+					["cost"] = {{"c", PLUNDER, 250}},
 				}),
 			}),
 			filter(MOUNTS, {
@@ -423,13 +423,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 5000}},
 				}),
 				i(233240, {	-- Polly Roger
-					["cost"] = {{"c", PLUNDER, 7500}},
+					["cost"] = {{"c", PLUNDER, 5000}},
 				}),
 				i(233242, {	-- Royal Seafeather
-					["cost"] = {{"c", PLUNDER, 7500}},
+					["cost"] = {{"c", PLUNDER, 5000}},
 				}),
 				i(233243, {	-- Silver Tidestallion
-					["cost"] = {{"c", PLUNDER, 3000}},
+					["cost"] = {{"c", PLUNDER, 1500}},
 				}),
 			}),
 			filter(TOYS, {
@@ -438,7 +438,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 500}},
 				}),
 				i(170197, {	-- Swarthy Warning Sign
-					["cost"] = {{"c", PLUNDER, 1000}},
+					["cost"] = {{"c", PLUNDER, 500}},
 				}),
 			}),
 		}),
