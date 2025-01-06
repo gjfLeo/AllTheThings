@@ -1111,7 +1111,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										i(176139, {	-- Contract: Stoneborn Reserves (EC!)
 											["questID"] = 59515,
 										}),
-										i(181500),	-- Stoneborn Glaive (QI!)
+										o(356561, {	-- Stoneborn Glaive
+											i(181500),	-- Stoneborn Glaive (QI!)
+										}),
 									},
 								}),
 								q(61398, {	-- Ember Court: Traditional
