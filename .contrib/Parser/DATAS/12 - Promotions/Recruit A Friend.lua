@@ -70,19 +70,8 @@ root(ROOTS.Promotions, {
 		}),
 
 		-- Desert Path
-		i(173300, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5, REMOVED_10_0_7 } }, {	-- Ensemble: Renowned Explorer's Attire
+		iensemble(173300, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5, REMOVED_10_0_7 } }, {	-- Ensemble: Renowned Explorer's Attire
 			["b"] = 1,	-- b for binding, to overcome Hide BoE items filter
-			["groups"] = {
-				i(171324),	-- Renowned Explorer's Akubra
-				i(171329),	-- Renowned Explorer's Canteen Pouch
-				i(171332),	-- Renowned Explorer's Dustcover
-				i(171328),	-- Renowned Explorer's Lucky Bangle
-				i(171327),	-- Renowned Explorer's Mantle
-				i(171325),	-- Renowned Explorer's Muckwaders
-				i(171330),	-- Renowned Explorer's Treasure-Snatchers
-				i(171326),	-- Renowned Explorer's Trousers
-				i(171331),	-- Renowned Explorer's Versatile Vest
-			}, -- TODO: iensemble also includes i(171333), i(171361)
 		})),
 		i(171363, {	-- Illusion: Stinging Sands (ILLUSION!)
 			["timeline"] = { ADDED_8_2_5, REMOVED_10_0_7 },

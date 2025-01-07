@@ -1045,6 +1045,8 @@ q(78844),	-- Ensemble: Heritage of the Draenei
 q(78845),	-- Ensemble: Heritage of the Draenei
 q(77884),	-- Ensemble: Kaldorei Protector's Adornment
 q(77783),	-- Traditionalist's Kaldorei Blades
+q(77830),	-- Upon "learning" Tyr's Titan Key (itemID 208831)
+q(78707),	-- Moonberry's Many Mischief Makers (itemID 210996)
 
 -- Engi Goggles
 q(78030),	-- Ensemble: Chromatically Calibrated Holo-Gogs

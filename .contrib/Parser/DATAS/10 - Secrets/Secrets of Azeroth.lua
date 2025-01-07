@@ -687,12 +687,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 							i(208830),	--  Reforged Titan Key (QI)
 						},
 					}),
-					i(208831, {	-- Tyr's Titan Key
-						i(208832),	-- Tyr's Titan Key
-						i(209038),	-- Tyr's Titan Key
-						i(209039),	-- Tyr's Titan Key
-						i(209040),	-- Tyr's Titan Key
-					}),
+					iensemble(208831),	-- Tyr's Titan Key
 				},
 			})),
 
@@ -1184,7 +1179,6 @@ root(ROOTS.HiddenQuestTriggers, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["
 	q(77576),	-- Upon completion of A Titanic Mold (QuestID 77822) (account-wide completion)
 	q(77577),	-- Upon completion of A Key To Reforging (QuestID 77831) (account-wide completion)
 	q(77893),	-- Upon completion of this quest and receiving the QI
-	q(77830),	-- Upon "learning" Tyr's Titan Key (itemID 208831)
 	q(78037),	-- Channeling 'Torch of Pyrreth' to Aged Marker [#5] (questID 78029)
 	q(77307),	-- Community Rumors (Achievement 18643) (account-wide completion)
 	q(78152),	-- Community Rumor Mill (Achievement 18644)

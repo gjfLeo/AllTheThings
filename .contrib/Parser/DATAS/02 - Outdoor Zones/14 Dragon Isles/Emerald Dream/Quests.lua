@@ -821,11 +821,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				["provider"] = { "n", 208669 },	-- Lady Moonberry
 				["coord"] = { 49.8, 62.5, EMERALD_DREAM },
 				["g"] = {
-					i(210996, {	-- Moonberry's Many Mischief Makers
-						i(210994),	-- Enchanting Dreamblade
-						i(210995),	-- Enchanting Dreambow
-						i(210993),	-- Enchanting Dreamstaff
-					}),
+					iensemble(210996),	-- Moonberry's Many Mischief Makers
 					i(210997),	-- Spare Party Hat
 				},
 			}),
@@ -1175,7 +1171,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 				q(77767),	-- after turn in qID 77711 (And a Pinch of Magic), when Professor Ash come to flower (spellIDs 421103 & 420717)
 				q(77759),	-- after turn in qID 77711 (And a Pinch of Magic), when animation start pop around flower (spellID 420720)
 				--
-				q(78707),	-- Moonberry's Many Mischief Makers (itemID 210996)
 			}),
 		}),
 	}),
