@@ -15489,3 +15489,5 @@
 40659@@@Prioress Murrpray kills (Mythic Priory of the Sacred Flame)
 11.0.7.57788
 40877@@@<Hidden> RR - 4b
+11.0.7.58187
+41052@@@Lingering Shadows
