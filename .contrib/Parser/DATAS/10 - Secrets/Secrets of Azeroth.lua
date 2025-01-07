@@ -1080,7 +1080,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 		n(COMMUNITY_CLUES_HEADER, {
 			header(HEADERS.Spell, 424082, {
 				o(408060, {	-- The First Clue
-					["coord"] = { 32.1, 66.9, VALDRAKKEN },
+					["coord"] = { 32.1, 61.9, VALDRAKKEN },
 				}),
 				o(408076, {	-- The Second Clue
 					["coord"] = { 81.6, 47.6, VALDRAKKEN },

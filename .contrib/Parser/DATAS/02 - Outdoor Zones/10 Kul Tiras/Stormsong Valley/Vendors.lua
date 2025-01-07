@@ -17,6 +17,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						i(162288, {	-- Recipe: Bountiful Captain's Feast [Rank 2] (RECIPE!)
 							["cost"] = 11000000,	-- 1,100g
 						}),
+						i(163215, {	-- Scroll of Combustible Critters
+							["cost"] = 480000,	-- 48g
+						}),
 						i(162373, {	-- Technique: Contract: Champions of Azeroth [Rank 2] (RECIPE!)
 							["cost"] = 11000000,	-- 1,100g
 						}),

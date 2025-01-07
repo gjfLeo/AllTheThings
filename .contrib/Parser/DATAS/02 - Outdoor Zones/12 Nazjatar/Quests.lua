@@ -763,24 +763,30 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["provider"] = { "o", 327591 },	-- Preserved Journal
 			["sourceQuest"] = 56242,	-- Preserved Clues
 		}),
-		q(56641, {	-- Disruption of Power
-			["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
-			["coord"] = { 48.7, 86.8, NAZJATAR },
-			["races"] = ALLIANCE_ONLY,
-			["sourceQuest"] = 54969,	-- Descent
-			["groups"] = {
-				o(322066),	-- Ley Line Accumulator
+		{	-- Disruption of Power
+			["allianceQuestData"] = q(56641, {	-- Disruption of Power (A)
+				["provider"] = { "n", 155482 },	-- Sentinel (Shandris Feathermoon)
+				["coord"] = { 48.7, 86.8, NAZJATAR },
+			}),
+			["hordeQuestData"] = q(55092, {	-- Disruption of Power (H)
+				["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
+				["coord"] = { 41.9, 80.6, NAZJATAR },
+			}),
+			["sourceQuests"] = {
+				54969,	-- Descent
+				54021,	-- The First Arcanist
 			},
-		}),
-		q(55092, {	-- Disruption of Power
-			["provider"] = { "n", 150196 },	-- First Arcanist Thalyssra
-			["coord"] = { 41.9, 80.6, NAZJATAR },
-			["races"] = HORDE_ONLY,
-			["sourceQuest"] = 54021,	-- The First Arcanist
 			["groups"] = {
-				o(322066),	-- Ley Line Accumulator
+				o(322066, {	-- Ley Line Accumulator
+					["coords"] = {
+						{ 41.3, 78.4, NAZJATAR },
+						{ 43.0, 73.8, NAZJATAR },
+						{ 44.6, 79.5, NAZJATAR },
+						{ 45.1, 78.9, NAZJATAR },
+					},
+				}),
 			},
-		}),
+		},
 		q(56236, {	-- Down But Not Out
 			["provider"] = { "n", 151848 },	-- Lor'themar Theron
 			["coord"] = { 48.5, 62.1, NAZJATAR },

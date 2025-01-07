@@ -1700,7 +1700,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(50956, {	-- Walking-Around Money
 				["sourceQuests"] = { 50742 },	-- All Laid Out For Us
-				["provider"] = { "n", 134720 },	-- Leo Shealds
+				["providers"] = {
+					{ "n", 134720 },	-- Leo Shealds
+					{ "o", 297071 },	-- Small Coin Bag
+				},
+				["coord"] = { 43.1, 56.5, STORMSONG_VALLEY },
 				["isWeekly"] = true,
 				["races"] = ALLIANCE_ONLY,
 			}),

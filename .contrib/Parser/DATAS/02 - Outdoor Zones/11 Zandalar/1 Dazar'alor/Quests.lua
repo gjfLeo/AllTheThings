@@ -721,7 +721,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(56044, {	-- Send the Fleet
 				["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
-				["coord"] = { 58.4, 62.6, DAZARALOR },
+				["coord"] = { 58.4, 62.6, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["sourceQuests"] = { 56030 },	-- The Warchief's Order
 			}),

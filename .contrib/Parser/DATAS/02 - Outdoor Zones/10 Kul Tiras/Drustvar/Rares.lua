@@ -77,6 +77,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			n(129805, {	-- Beshol
 				["description"] = "Interact with \"Obviously Safe Chest\" to spawn this mob.",
+				["provider"] = { "o", 278432 },	-- Obviously Safe Chest
 				["questID"] = 49481,
 				["coord"] = { 50.61, 30.01, DRUSTVAR },
 				["g"] = {
