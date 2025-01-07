@@ -35,7 +35,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			o_repeated({	-- Seafarer's Cache
 				-- ["description"] = "Requires a character to have completed the Dipping a Toe quest at least once in order for chests to spawn on the map.",
 				["g"] = {
-					i(233501),	-- Sandy Snapdragon Treat
+					i(233501, {	-- Sandy Snapdragon Treat
+						["description"] = "You must have the Prismatic Snapdragon Mount before this can drop.",
+					}),
 					i(234231),	-- Technique: Glyph of the Admiral's Pistol Shot (RECIPE!)
 					o(494499),	-- Seafarer's Cache
 					o(500682),	-- Seafarer's Cache
@@ -58,13 +60,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["g"] = {
 					i(233910), -- Salt-Stained Sweatcap (COSMETIC!)
 				},
-			}),
-			o(464233, {	-- Bilge Rat Supply Chest
-				-- Pirates
-				["coord"] = { 62.4, 90.8, SIREN_ISLE },
-				["questID"] = 84529,
-				["cost"] = {{ "i", 228621, 1 }},	-- Bilge Rat Supply Key
-				["isWeekly"] = true,
 			}),
 			o(465272, {	-- Empty Kaja'Cola Can
 				["coord"] = { 60.8, 62.9, SIREN_ISLE },

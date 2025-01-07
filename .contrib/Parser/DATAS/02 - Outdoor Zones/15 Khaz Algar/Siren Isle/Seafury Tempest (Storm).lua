@@ -132,7 +132,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			n(ZONE_DROPS, {
 				i(233498, {	-- Storminfused Snapdragon Treat
-					["description"] = "Can be looted from mobs during tempest",
+					["description"] = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from crab mobs during tempest.",
+					["crs"] = {
+						231986,	-- Deepwater Matriarch
+						232080,	-- Deepwater Eggtender
+						227625,	-- Seafury Spiker
+						227569,	-- Storm-touched Clawfiend
+						228547,	-- Slaughtershell
+					},
+					["coords"] = { 
+						{ 63.2, 83.4, SIREN_ISLE },
+						{ 56.0, 65.2, SIREN_ISLE },
+						{ 54.4, 74.6, SIREN_ISLE },
+					},
 					-- n: 227625 (from debugger)
 				}),
 				i(234328),	-- Torrential Fragment (TODO: probably need a better way to code it)
