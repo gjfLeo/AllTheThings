@@ -295,26 +295,32 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			n(226638, {	-- Abyssal Console
 				["coord"] = { 59.0, 93.4, THE_RINGING_DEEPS },
 				["questID"] = 83479,
+				["lockCriteria"] = { 1, "achID", 40473 },	-- Not So Quick Fix
 			}),
 			n(226642, {	-- Earthen Console
 				["coord"] = { 46.2, 14.0, THE_RINGING_DEEPS },
 				["questID"] = 83483,
+				["lockCriteria"] = { 1, "achID", 40473 },	-- Not So Quick Fix
 			}),
 			n(226641, {	-- Lost Console
-				["coord"] = { 56., 22.6, THE_RINGING_DEEPS },
+				["coord"] = { 56.0, 22.6, THE_RINGING_DEEPS },
 				["questID"] = 83482,
+				["lockCriteria"] = { 1, "achID", 40473 },	-- Not So Quick Fix
 			}),
 			n(226640, {	-- Obsidian Console
 				["coord"] = { 69.0, 48.8, THE_RINGING_DEEPS },
 				["questID"] = 83481,
+				["lockCriteria"] = { 1, "achID", 40473 },	-- Not So Quick Fix
 			}),
 			n(226639, {	-- Taelloch Console
 				["coord"] = { 63.6, 61.0, THE_RINGING_DEEPS },
 				["questID"] = 83480,
+				["lockCriteria"] = { 1, "achID", 40473 },	-- Not So Quick Fix
 			}),
 			n(226624, {	-- Water Console
 				["coord"] = { 45.2, 46.4, THE_RINGING_DEEPS },
 				["questID"] = 83475,
+				["lockCriteria"] = { 1, "achID", 40473 },	-- Not So Quick Fix
 			}),
 		}),
 	}),
