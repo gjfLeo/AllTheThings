@@ -13,14 +13,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			})),
 			n(QUESTS, {
 				q(84225, {	-- Eggstinction
-					-- TODO: STORM PHASE
 					["sourceQuests"] = { 84725 },	-- The Circlet Calls
 					["provider"] = { "n", 231937 },	-- Sally Boltwrench
 					["coord"] = { 63.4, 66.4, SIREN_ISLE },
 					["isWeekly"] = true,
 				}),
 				q(84241, {	-- Shoreline Stand
-					-- TODO: STORM PHASE
 					["sourceQuests"] = { 84725 },	-- The Circlet Calls
 					["provider"] = { "n", 232297 },	-- Regald Hornfyre
 					["coord"] = { 43.7, 23.9, SIREN_ISLE },
@@ -55,7 +53,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(RARES, sharedData({
 				["isDaily"] = true,
 			},{
-				-- STORM PHASE RARES
 				n(231356, {	-- Brinebough
 					["coord"] = { 56.1, 84.5, SIREN_ISLE },
 					["questID"] = 85404,
@@ -66,7 +63,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["questID"] = 85403,
 				}),
 				n(228547, {	-- Slaughtershell
-					["coord"] = { 73.5, 54.0, SIREN_ISLE },	-- TODO: it have more than one spawn point (?) and different pathways (at least 2)
+					["description"] = "Can spawn almost anywhere on the island.",
+					["coords"] = { 
+						{ 39.4, 18.0, SIREN_ISLE },
+						{ 49.8, 44.4, SIREN_ISLE },
+						{ 63.6, 88.2, SIREN_ISLE },
+						{ 52.0, 63.6, SIREN_ISLE },
+						{ 34.8, 80.6, SIREN_ISLE },
+						{ 73.5, 54.0, SIREN_ISLE },
+					},
 					["questID"] = 84798,
 				}),
 				n(231357, {	-- Zek'ul the Shipbreaker

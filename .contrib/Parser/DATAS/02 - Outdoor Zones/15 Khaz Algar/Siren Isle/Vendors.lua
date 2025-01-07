@@ -35,6 +35,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(234466),	-- Tattered Arathi Prayer Scroll
 				},
 			}),
+			n(228074, {	-- Angorla
+				["coord"] = { 71.2, 44.0, SIREN_ISLE },
+				["g"] = {
+					fbiron(50, i(228638, {	-- Stormbringer's Runed Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228639, {	-- Fathomdweller's Runed Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228640, {	-- Windsinger's Runed Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+				},
+			}),
+			n(231536, {	-- Apprentice Tanmar <Sacredite Gemwright>
+				["coords"] = { 
+					{ 72.0, 43.0, SIREN_ISLE },
+					{ 70.8, 40.6, SIREN_ISLE },
+				},
+				["g"] = {
+					fbiron(50, i(228642, {	-- Storm Sewer's Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228643, {	-- Old Salt's Bardic Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228644, {	-- Mariner's Hallowed Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+				},
+			}),
 			n(228093, {	-- Argarom
 				["coord"] = { 67.3, 41.7, SIREN_ISLE },
 				["g"] = {
@@ -137,6 +168,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(233497), -- Kaja'Cola-braised Snapdragon Treat
 				},
 			}),
+			n(231997, {	-- Didi the Wrench
+				["coord"] = { 71.2, 45.6, SIREN_ISLE },
+				["g"] = {
+					fbiron(50, i(228634, {	-- Thunderlord's Crackling Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228635, {	-- Squall Sailor's Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228636, {	-- Undersea Overseer's Citrine
+						["description"] = "You may have to acquire the gem as Bonus Objective Reward once before it appears on the vendor.",
+					})),
+
+				},
+			}),
 			n(228103, {	-- Flori
 				["coord"] = { 67.4, 40.0, SIREN_ISLE },
 				["g"] = {
@@ -228,6 +274,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(350, i(233832)),	-- Tidestalker's Gutter
 					fbiron(350, i(233818)),	-- Vrykul Blacksmith's Gavel
 					fbiron(350, i(233805)),	-- Vrykul Pyromancer's Wand
+					-- Gems
+					fbiron(50, i(228646, {	-- Legendary Skipper's Citrine
+						["description"] = "You may have to acquire the gem from the World Quest once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228647, {	-- Seabed Leviathan's Citrine
+						["description"] = "You may have to acquire the gem from the World Quest once before it appears on the vendor.",
+					})),
+					fbiron(50, i(228648, {	-- Roaring War-Queen's Citrine
+						["description"] = "You may have to acquire the gem from the World Quest once before it appears on the vendor.",
+					})),
 				},
 			}),
 		}),
