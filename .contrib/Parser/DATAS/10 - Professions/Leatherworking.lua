@@ -1483,6 +1483,67 @@ local applytraining = function(g)
 	return g;
 end
 
+-- Bloodied Crafted Gear was added with Cataclysm and then removed from the game after Firelands was released.
+-- #if ANYCLASSIC
+local BLOODIED_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. CATA_PHASE_ONE .. [[;
+		t.rwp = 40200;
+	end
+end]];
+-- #endif
+local function bloodied(t)
+	-- #if CATA
+	t.timeline = { ADDED_4_0_3_LAUNCH, REMOVED_5_0_4 };
+		-- #if ANYCLASSIC
+		t.OnUpdate = BLOODIED_ONUPDATE;
+		-- #endif
+	-- #else
+	t.timeline = { ADDED_4_0_3_LAUNCH, REMOVED_4_2_0 };
+	-- #endif
+	return t;
+end
+
+-- Bloodthirsty Crafted Gear was added with Firelands and then removed from the game after Dragon Soul was released.
+-- #if ANYCLASSIC
+local BLOODTHIRSTY_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_HOUR_OF_TWILIGHT .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[;
+		t.rwp = 40300;
+	end
+end]];
+-- #endif
+local function bloodthirsty(t)
+	-- #if CATA
+	t.timeline = { ADDED_4_2_0, REMOVED_5_0_4 };
+		-- #if ANYCLASSIC
+		t.OnUpdate = BLOODTHIRSTY_ONUPDATE;
+		-- #endif
+	-- #else
+	t.timeline = { ADDED_4_2_0, REMOVED_4_3_0 };
+	-- #endif
+	return applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, t);
+end
+
+local function moltenfront(t)
+	t.timeline = { ADDED_4_2_0 };
+	return applyclassicphase(CATA_PHASE_MOLTEN_FRONT, t);
+end
+local function firelands(t)
+	t.timeline = { ADDED_4_2_0 };
+	return applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, t);
+end
+local function dragonsoul(t)
+	t.timeline = { ADDED_4_3_0 };
+	return applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, t);
+end
+
 profession(LEATHERWORKING, {
 	applytraining({
 		["name"] = "Training",
@@ -5172,14 +5233,26 @@ profession(LEATHERWORKING, {
 					["name"] = "Twilight Dragonscale Cloak",
 					["recipeID"] = 78476,
 				},
-				{
+				-- #if ANYCLASSIC
+				--[[
+				dragonsoul({
+					["name"] = "Vicious Fur Cloak",
+					["recipeID"] = 99536,	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				dragonsoul({
+					["name"] = "Vicious Hide Cloak",
+					["recipeID"] = 99535,	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				]]--
+				-- #endif
+				bloodied({
 					["name"] = "Vicious Fur Cloak",
 					["recipeID"] = 99536,
-				},
-				{
+				}),
+				bloodied({
 					["name"] = "Vicious Hide Cloak",
 					["recipeID"] = 99535,
-				},
+				}),
 			},
 		},
 	})),
