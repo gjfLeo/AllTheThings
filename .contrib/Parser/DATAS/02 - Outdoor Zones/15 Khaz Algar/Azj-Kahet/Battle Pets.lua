@@ -39,7 +39,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["maps"] = { AZJ_KAHET },
 				}),
 				pet(4481, {	-- Voidling Ooze (PET!)
-					["description"] = "Interact with Black Blood Extractor objects in area until you reach at least 10x Unseeming Shift debuff to see this pet.",
+					["description"] = "Interact with Black Blood Extractor objects in area until you reach at least 10x Unseeming Shift debuff to see this pet. Can also be found as a backline pet around the zone.",
 					["coord"] = { 56.4, 48.3, AZJ_KAHET_LOWER },
 				}),
 			},

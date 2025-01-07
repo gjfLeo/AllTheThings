@@ -19,8 +19,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				pet(4498, {	-- Ebon Ploughworm (PET!)
 					["coord"] = { 43.4, 27.6, THE_RINGING_DEEPS },
 				}),
-				pet(3547, {	-- Mikah (PET!)
-					["description"] = "Rarespawn of Common Ploughworm in the backline",
+				pet(3547, {	-- Jade Cragviper (PET!)
+					["description"] = "Rarespawn in Ringing Deeps found only in the backline.",
 					-- ["coord"] = { X, Y, THE_RINGING_DEEPS },
 				}),
 				pet(4571, { -- Pinkskin Burrower (PET!)
@@ -30,7 +30,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					-- ["coord"] = { X, Y, THE_RINGING_DEEPS },
 				}),
 				pet(4574, {	-- Snuffling (PET!)
-					-- ["coord"] = { X, Y, THE_RINGING_DEEPS },
+					["description"] = "Found around the area of Taelloch/Obsidian Hollow.",
+					["coord"] = { 68, 47, THE_RINGING_DEEPS },
 				}),
 			},
 		})),
