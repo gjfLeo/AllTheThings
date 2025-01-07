@@ -4448,103 +4448,98 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 						i(234775, {	-- Amber Pandaren Fan
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
 						}),
 						i(234763, {	-- Bloody Expeditionary Cleaver
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234783, {	-- Caravan Guard's Buckler
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234774, {	-- Crimson Amber Incubator
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234796, {	-- Embroidered Shado-Pan Kilt
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 800 }},
 						}),
 						i(234762, {	-- Embroidered Shado-Pan Robes
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
 						}),
 						i(234764, {	-- Fist of Knives
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234767, {	-- Flame-Bladed Long Sword
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234765, {	-- Flame-Bladed Steel Sword
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234794, {	-- Gilded Shado-Pan Kilt
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 800 }},
 						}),
 						i(234759, {	-- Gilded Shado-Pan Robes
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
 						}),
 						i(234789, {	-- Gourd-Topped Mallet
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234773, {	-- Imperial Gut Render
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234768, {	-- Jungle Gourd Splitter
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
 						}),
 						i(234757, {	-- Kor'kron Pauldrons
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
-						}),
-						i(234758, {	-- Korkron Spaulders
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
 						}),
 						i(234756, {	-- Kor'kron Tabard
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
 						i(234772, {	-- Kris of the Mogu Shaman
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234771, {	-- Mogu Lightning Spitter
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1800 }},
 						}),
 						i(234781, {	-- Mogu'shan Vault's Improvised Shield
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234787, {	-- Mogu'shan Warden's Crystal Spear
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
-						}),
-						i(234957, {	-- Monstrous Gluttony
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1800 }},
 						}),
 						i(234784, {	-- Pandaran Bolt Thrower
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1800 }},
 						}),
 						i(234770, {	-- Pandaran Guard's Halberd
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234769, {	-- Pandaren Guard's Poleaxe
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234791, {	-- Reforged Harmonic Mallet
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 3000 }},
 						}),
 						i(234790, {	-- Restored Harmonic Mallet
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
 						}),
 						i(234766, {	-- Ringed Pandaran Falchion
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234776, {	-- Saurok Mystic's Voodoo Stick
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 						}),
 						i(234795, {	-- Shado-Pan Guise
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE, PANDAREN_HORDE },
 						}),
 						i(234778, {	-- Staff of the Jade Serpent
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234777, {	-- Stave-Master's Spire
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 						}),
 						i(234755, {	-- Tabard of the Pandaran Elders
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
 					})),
 					filter(BATTLE_PETS, {

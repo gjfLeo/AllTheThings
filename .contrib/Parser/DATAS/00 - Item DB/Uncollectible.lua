@@ -30,6 +30,7 @@ i(147349);	-- Spiked Armor Set
 i(169294);	-- Resilient Soul
 i(173888);	-- Shard of Self Sacrifice \\ Lingering Soul
 -- SL
+i(184412);	-- Title Reward: Spirestalker
 i(187499);	-- Sculpted Elethium Orb
 i(187501);	-- Understanding the Purpose
 i(187603);	-- The Mad Duke's Tea
@@ -51,6 +52,7 @@ i(189761);	-- Toxicialic Crystallic Spheroid
 i(189762);	-- Fortialic Crystallic Spheroid
 i(189763);	-- Efficialic Crystallic Spheroid
 i(189764);	-- Reflectialic Crystallic Spheroid
+i(190172);	-- Title Reward: Gauntlet Runner
 i(190658);	-- Resonant Gossamer Fluidic Spheroid
 i(190659);	-- Resonant Carapace Fluidic Spheroid
 i(190660);	-- Resonant Mucus Fluidic Spheroid

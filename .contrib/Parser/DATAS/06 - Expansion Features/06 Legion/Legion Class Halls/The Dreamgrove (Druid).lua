@@ -770,6 +770,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(42040, {	-- The Way to Nordrassil
 						["provider"] = { "n", 103832 },	-- Keeper Remulos
 						["coord"] = { 44.6, 50.0, THE_DREAMGROVE },
+						["sourceQuests"] = { 42037 },	-- Gathering the Dreamweavers
 					}),
 					q(46924, {	-- The Wolf's Tale
 						["providers"] = {

@@ -233,6 +233,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		["isRaid"] = true,
 		["coord"] = { 46.1, 41.5, REVENDRETH },
 		["maps"] = {
+			1734,	-- Revendreth (?)
 			1735,	-- The Grand Walk
 			1744,	-- The Purloined Stores
 			1745,	-- Halls of the Faithful

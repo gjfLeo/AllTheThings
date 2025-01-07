@@ -770,7 +770,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(184122),	-- Spare Foot
 			i(184119),	-- Spare Heart
 			i(184124),	-- Spare Stomach
-			i(184412),	-- Title Reward: Spirestalker
 			i(184611),	-- Tormentor's Notes
 			i(184607),	-- Words of the Warden
 		})),
@@ -904,7 +903,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(189573),	-- Tame Prime: Garudeon
 			i(189572),	-- Tame Prime: Hadeon the Stonebreaker
 			i(189561),	-- Tame Prime: Orixal
-			i(190172),	-- Title Reward: Gauntlet Runner
 			--- Spheroids ---
 			i(190665),	-- [PH] Epic 1 Fluidic Spheroid
 			i(190666),	-- [PH] Epic 2 Fluidic Spheroid

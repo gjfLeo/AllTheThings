@@ -548,5 +548,12 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(225496),	-- Unhinged Vault-Hatch
 			}),
 		})),
+		-- 11.0.7
+		expansion(EXPANSION.TWW, patch(0,07), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
+			n(ARMOR, {
+				i(234758),	-- Korkron Spaulders
+				i(234957),	-- Monstrous Gluttony
+			}),
+		})),
 	}),
 }));

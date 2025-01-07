@@ -218,7 +218,6 @@ root(ROOTS.NeverImplemented, n(MAPS, {
 			m(1813),	-- Bastion
 			m(1741),	-- Maldraxxus
 			m(1814),	-- Maldraxxus
-			m(1734),	-- Revendreth
 			m(1738),	-- Revendreth
 			m(1742),	-- Revendreth
 			m(1647),	-- The Shadowlands
