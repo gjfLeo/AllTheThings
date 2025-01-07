@@ -736,13 +736,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["coord"] = { 35.5, 52.4, AZJ_KAHET },
 					["g"] = {
 						o(465294, { -- Antonidas' Introduction to Arcane Magic
-							i(228820), -- Antonidas' Introduction to Arcane Magic (QI!)
+							["coord"] = { 35.7, 51.4, AZJ_KAHET },
+							["g"] = { i(228820), }, -- Antonidas' Introduction to Arcane Magic (QI!)
 						}),
 						o(465295, { -- Medivh's Karazhan Schematics
-							i(228821), -- Medivh's Karazhan Schematics (QI!)
+							["coord"] = { 35.1, 51.2, AZJ_KAHET },
+							["g"] = { i(228821), }, -- Medivh's Karazhan Schematics (QI!)
 						}),
 						o(465300, { -- Thalen Songweaver's Notes
-							i(228823), -- Thalen Songweaver's Notes (QI!)
+							["coord"] = { 36.1, 52.6, AZJ_KAHET },
+							["g"] = { i(228823), }, -- Thalen Songweaver's Notes (QI!)
 						}),
 					},
 				}),
@@ -758,9 +761,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					},
 					["provider"] = { "n", 227436 },	-- Archmage Khadgar
 					["coord"] = { 31.4, 50.9, ISLE_OF_DORN },
-					--["g"] = {
-					--	should be title
-					--},
 				}),
 			}),
 		})),
