@@ -770,6 +770,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 436,	-- Ironband's Excavation
 					["coord"] = { 64.9, 66.7, LOCH_MODAN },
 					["timeline"] = { REMOVED_4_0_3 },
+					-- #if AFTER 4.0.3
+					["description"] = "This quest gets marked as completed when you complete the quest 'Gathering Idols' (26961).",
+					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 13,
 					["groups"] = {
@@ -1520,6 +1523,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 258,	-- A Hunter's Challenge
 					["coord"] = { 81.8, 64.2, LOCH_MODAN },
 					["timeline"] = { REMOVED_4_0_3 },
+					-- #if AFTER 4.0.3
+					["description"] = "This quest gets marked as completed when you complete the quest 'Vyrin's Revenge (1/2)' (27036).",
+					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 15,
 					["groups"] = {
@@ -1693,6 +1699,36 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				o(207496, {	-- Dark Iron Treasure Chest
 					["coords"] = {
+						{ 36.6, 61.2, LOCH_MODAN },
+						{ 61.9, 75.0, LOCH_MODAN },
+						{ 80.3, 51.9, LOCH_MODAN },
+					},
+					["timeline"] = { ADDED_4_0_3 },
+					["groups"] = {
+						i(3292),	-- Ancestral Tunic
+						i(9775),	-- Bandit Cinch
+						i(5212),	-- Blazing Wand
+						i(3306),	-- Brackwater Vest
+						i(9763),	-- Cadet Leggings
+						i(2140),	-- Carving Knife
+						i(3314),	-- Ceremonial Leather Gloves
+						i(3196),	-- Edged Bastard Sword
+						i(15303),	-- Grizzly Pants
+						i(15508),	-- Grunt's Cape
+						i(7108),	-- Infantry Shield
+						i(6380),	-- Inscribed Buckler
+						i(4701),	-- Inscribed Cloak
+						i(15893),	-- Prospector's Buckler
+						i(4561),	-- Scalping Tomahawk
+						i(3192),	-- Short Bastard Sword
+						i(15933),	-- Simple Branch
+						i(6547),	-- Soldier's Gauntlets
+						-- Still available in some chests
+						i(4596),	-- Discolored Healing Potion
+					},
+				}),
+				o(207497, {	-- Dark Iron Treasure Chest
+					["coords"] = {	-- As opposed to 207496, this treasure chest spawns exclusively in Loch Modan
 						{ 36.6, 61.2, LOCH_MODAN },
 						{ 61.9, 75.0, LOCH_MODAN },
 						{ 80.3, 51.9, LOCH_MODAN },
@@ -2015,6 +2051,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						16059,	-- Common Brown Shirt
 						3428,	-- Common Grey Shirt
 						16060,	-- Common White Shirt
+						837,	-- Heavy Weave Armor
+						3589,	-- Heavy Weave Belt
+						3590,	-- Heavy Weave Bracers
+						839,	-- Heavy Weave Gloves
+						838,	-- Heavy Weave Pants
+						840,	-- Heavy Weave Shoes
 					}},
 					["groups"] = {
 						i(4782, {	-- Solstice Robe
@@ -2031,6 +2073,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(1687, {	-- Cliff Hadin <Bowyer>
 					["coord"] = { 83.0, 63.0, LOCH_MODAN },
 					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2507,	-- Laminated Recurve Bow
+						3026,	-- Reinforced Bow
+					}},
 					["groups"] = {
 						i(11304, {	-- Fine Longbow
 							["isLimited"] = true,
@@ -2044,9 +2090,25 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(6892),	-- Recipe: Smoked Bear Meat (RECIPE!)
 					},
 				}),
+				n(1686, {	-- Irene Sureshot <Gunsmith>
+					["coord"] = { 83.2, 63.5, LOCH_MODAN },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2511,	-- Hunter's Boomstick
+						3023,	-- Large Bore Blunderbuss
+					}},
+				}),
 				n(954, {	-- Kat Sampson <Leather Armor Merchant>
 					["coord"] = { 82.6, 64.0, LOCH_MODAN },
 					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						1843,	-- Tanned Leather Belt
+						843,	-- Tanned Leather Boots
+						1844,	-- Tanned Leather Bracers
+						844,	-- Tanned Leather Gloves
+						846,	-- Tanned Leather Jerkin
+						845,	-- Tanned Leather Pants
+					}},
 					["groups"] = {
 						i(4788, {	-- Agile Boots
 							["isLimited"] = true,
@@ -2133,8 +2195,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(222, {	-- Nillen Andemar <Macecrafter>
-					["coord"] = { 42.8, 10.0, LOCH_MODAN },
+					["coord"] = { 43.0, 10.0, LOCH_MODAN },
 					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2492,	-- Cudgel
+						1197,	-- Giant Mace
+						852,	-- Mace
+						2493,	-- Wooden Mallet
+					}},
 					["groups"] = {
 						i(4778, {	-- Heavy Spiked Mace
 							["isLimited"] = true,

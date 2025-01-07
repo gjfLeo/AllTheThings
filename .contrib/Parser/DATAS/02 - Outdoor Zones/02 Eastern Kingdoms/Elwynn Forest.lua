@@ -1321,7 +1321,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 45.6, 47.8, ELWYNN_FOREST },
 							-- #endif
 							["timeline"] = { REMOVED_6_0_2 },
+							-- #if AFTER 6.0.2
 							["description"] = "This quest gets marked as completed when you complete the quest 'Rest and Relaxation' (37112).",
+							-- #endif
 							["races"] = ALLIANCE_ONLY,
 							["groups"] = {
 								i(57395, {	-- Lion's Pride Bracer
