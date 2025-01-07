@@ -4275,6 +4275,17 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 		}),
 		-- #if BEFORE 5.0.4
 		n(RELICS, {
+			-- #if ANYCLASSIC
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, r(1216316, {	-- Bloodthirsty Charm of Triumph
+				["timeline"] = { ADDED_4_2_0, DELETED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, r(1216290, {	-- Bloodthirsty Eyeball of Dominance
+				["timeline"] = { ADDED_4_2_0, DELETED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, r(1216317, {	-- Bloodthirsty Jawbone of Conquest
+				["timeline"] = { ADDED_4_2_0, DELETED_5_0_4 },
+			})),
+			-- #endif
 			r(86647, {	-- Etched Horn
 				["timeline"] = { ADDED_4_0_3, DELETED_5_0_4 },
 			}),
@@ -4293,6 +4304,20 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 			r(86652, {	-- Tattooed Eyeball / Rosethorn Staff [5.0.4+]
 				["timeline"] = { ADDED_4_0_3 },
 			}),
+			-- #if ANYCLASSIC
+			--[[
+			-- TODO: Blizzard is gonna add new spellIDs because they can't be bothered to look up reference data from the OG builds. - Crieve
+			applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(99547, {	-- Vicious Charm of Triumph
+				["timeline"] = { ADDED_4_3_0, DELETED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(99548, {	-- Vicious Eyeball of Dominance
+				["timeline"] = { ADDED_4_3_0, DELETED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(99549, {	-- Vicious Jawbone of Conquest
+				["timeline"] = { ADDED_4_3_0, DELETED_5_0_4 },
+			})),
+			]]--
+			-- #endif
 			r(99547, {	-- Vicious Charm of Triumph
 				["timeline"] = { ADDED_4_0_3, DELETED_5_0_4 },
 			}),
