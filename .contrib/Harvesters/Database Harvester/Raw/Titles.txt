@@ -792,3 +792,25 @@
 601@@@%s the Treasured
 11.0.7.57409
 588@@@Zandalar Enthusiast %s
+11.1.0.58221
+580@@@Skyrocketer %s
+592@@@%s the Enterprising
+593@@@%s the Enterprising Hero
+597@@@Breaknecker %s
+598@@@Delver %s
+599@@@Infinite Delver %s
+602@@@High Roller %s
+603@@@%s the Explosive
+604@@@%s, Famed Slayer of The Chrome King
+605@@@%s, Liberator of Undermine
+606@@@Darkfuse Diplomat %s
+607@@@Trade-Duke %s
+608@@@Prized Gladiator %s
+609@@@Prized Warlord %s
+610@@@Prized Marshal %s
+611@@@Prized Legend %s
+612@@@%s, the Real Deal
+613@@@Junkmaestro %s
+616@@@Part-Timer %s
+617@@@%s, "Employee" of the Month
+618@@@%s, the Reel Deal

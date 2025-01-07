@@ -2043,3 +2043,33 @@
 1214974@@@Copper-Maned Quilen
 11.0.7.57641
 303767@@@Honeyback Hivemother
+11.1.0.58221
+465999@@@Crimson Armored Growler
+466002@@@Violet Armored Growler
+466013@@@Ocher Delivery Rocket
+466016@@@The Topskimmer Special
+466019@@@Blackwater Shredder Deluxe Mk 2
+466020@@@Personalized Goblin S.C.R.A.Per
+466026@@@Salvaged Goblin Gazillionaire's Flying Machine
+466028@@@Mean Green Flying Machine
+466133@@@Delver's Gob-Trotter
+466144@@@Prized Gladiator's Fel Bat
+466145@@@Vicious Electro Eel
+466146@@@Vicious Electro Eel
+466423@@@Unstable Rocket
+466464@@@Unstable Rocket
+468068@@@Junkmaestro's Magnetomech
+473188@@@Bronze Goblin Wave Shredder
+1217235@@@Crimson Shreddertank
+1217340@@@Midnight Darkmoon Charger
+1217341@@@Lively Darkmoon Charger
+1217342@@@Violet Darkmoon Charger
+1217343@@@Snowy Darkmoon Charger
+1217760@@@The Big G
+1217965@@@Shimmermist Free Runner
+1217994@@@Pearlescent Butterfly
+1218012@@@Ruby Butterfly
+1218013@@@Spring Butterfly
+1218014@@@Midnight Butterfly
+1218069@@@Emerald Snail
+1221155@@@Prototype A.S.M.R.

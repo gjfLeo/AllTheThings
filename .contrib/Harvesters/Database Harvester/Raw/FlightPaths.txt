@@ -2736,3 +2736,10 @@
 2987@@@The Congealing Pool (One-way)
 11.0.2.56110
 3003@@@The Crown of Shadows
+11.1.0.58221
+2988@@@The Incontinental Hotel
+2996@@@The Heaps
+2997@@@Slam Central Station
+2998@@@Demolition Dome
+2999@@@The Gallagio
+3000@@@Gutterville, The Ringing Deeps

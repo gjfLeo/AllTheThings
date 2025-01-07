@@ -22349,3 +22349,204 @@
 229203@@@Hannan
 230239@@@Moira Thaurissan
 230240@@@Dagran Thaurissan II
+11.1.0.58221
+220796@@@Delver's Gob-Trotter
+220835@@@Dagran Thaurissan II
+222592@@@Hemospore
+225648@@@Monte Gazlowe
+225747@@@Fishing
+225755@@@Renzik "The Shiv"
+225756@@@Monte Gazlowe
+225810@@@Stalking Assassin
+225864@@@Steamwheedle Alchemist
+226562@@@Blazefeather Peacock
+227543@@@Grimla Fizzlecrank
+227972@@@Grimla Fizzlecrank
+228008@@@Grimla Fizzlecrank
+228132@@@Renzik "The Shiv"
+229235@@@Monte Gazlowe
+229243@@@Renzik "The Shiv"
+230460@@@Renzik "The Shiv"
+230461@@@Monte Gazlowe
+230666@@@Demon Hunter Champion
+230670@@@Paladin Champion
+230689@@@Warrior Champion
+230693@@@Demon Hunter Champion
+230778@@@Ripsnoodle
+230779@@@Skedgit Cinderbangs
+230850@@@Darkfuse Re-grabber
+230856@@@Darkfuse Pursuit Mech
+230977@@@Overseer Dritz
+231071@@@Blastburn Roarcannon Stalker [DNT]
+231448@@@Tiny Torq
+231450@@@Rocketfist
+231451@@@Gorillion
+231453@@@Professor Punch
+231454@@@Fun-Size Flarendo
+231455@@@Crimson Mechasaur
+231456@@@Viridian Mechasaur
+231457@@@Wavebreaker Mechasaur
+231458@@@Bilgewater Junkhauler
+231459@@@Blackwater Kegmover
+231460@@@Venture Companyman
+231461@@@Steamwheedle Flunkie
+231462@@@Mr. DELVER
+231463@@@Personal-Use Sapper
+231464@@@Mutt
+231465@@@Grinner
+231466@@@Goggles
+231467@@@Scruff
+231468@@@Eepy
+231469@@@Foreman
+231470@@@Acid-Drenched Rat
+231471@@@Acid-Drenched Rat
+231477@@@Wily Rat
+231478@@@Wily Rat
+231479@@@Lab Rat
+231480@@@Underroach
+231481@@@Underroach
+231548@@@Cruncher
+231550@@@Bombshell Crab
+231559@@@Bombshell Crab
+231567@@@Venture Bombshell
+231568@@@Venture Bombshell
+231570@@@Cave Crab
+231571@@@Cave Crab
+231572@@@Kaja Crab
+231573@@@Kaja Crab
+231574@@@Paleshell Crab
+231575@@@Paleshell Crab
+231577@@@Varmint MK II
+231578@@@Varmint MK-II
+231579@@@Lime Roboclucker
+231593@@@Undermine Resident
+231604@@@Generic Bunny - (STM)
+231610@@@Lime Roboclucker
+231611@@@Copper Robochicken
+231612@@@Copper Robochicken
+231613@@@Yellow Tropical Frog
+231614@@@Yellow Tropical Frog
+231616@@@Tropical Frog
+231618@@@Tropical Frog
+231621@@@Iron Chick
+231622@@@Mechagopher
+231627@@@Black Cave Crab
+231628@@@Bawkinator 2000
+231666@@@Undermine Resident
+231684@@@Spring-Loaded Ribbitron
+231685@@@Spring-Loaded Ribbitron
+231686@@@Ultrahopper EX
+231687@@@Ultrahopper EX
+231712@@@Hemospore
+231728@@@Alchemical Runoff
+231729@@@Alchemical Runoff
+231756@@@Hermes
+231757@@@Cauldrone
+231758@@@Finnity
+231760@@@Crunchy
+231762@@@Dosh
+231763@@@FO-MO Mark II
+231769@@@Line Owner
+231798@@@Hotel Line
+231814@@@Unstable Rocket
+231932@@@Sentry Totem
+232184@@@Background
+232229@@@Delve Credit
+232233@@@Blingston Wrenchbreaker
+232296@@@Brann Bronzebeard
+232384@@@Dagran Thaurissan II
+232387@@@Bilgewater Mechanic
+232431@@@Delverbot5000
+232472@@@Delve Credit
+233153@@@Undermine Arena Center Stalker [DNT]
+233238@@@Phase-Thief Azir
+233242@@@Jastor Gallywix
+233243@@@Monte Gazlowe
+233245@@@Ultra-Deluxe Riotguard
+233285@@@Ball and chain bunny A
+233286@@@Ball and chain bunny B
+233311@@@Fire Wave Stalker [DNT]
+233352@@@Paladin Champion
+233353@@@Mage Champion
+233354@@@Demon Hunter Champion
+233355@@@Hunter Champion
+233447@@@Demoralized Mechanic
+233884@@@Overseer Dritz
+233961@@@Goblin Laborer
+233964@@@Goblin Laborer
+233966@@@Hobgoblin Laborer
+234023@@@Frenzied Bloodtick
+234056@@@Lord Ibelin Redmoore
+234071@@@Spotty
+234103@@@Bilgewater Assessor
+234161@@@Assessor McGravy
+234269@@@Craggle Fritzbrains
+234287@@@Craggle Fritzbrains
+234301@@@Overseer Dritz
+234339@@@Harbinger Ul'thul
+234340@@@The Underpin
+234355@@@Brann Bronzebeard
+234356@@@The Underpin
+234358@@@Bag of Curios
+234388@@@Brann's Hat
+234408@@@Rebellious Citizen
+234435@@@Xel'anegh the Many
+234436@@@Xel'anegh the Many
+234437@@@Xel'anegh the Many
+234438@@@Xel'anegh the Many
+234526@@@Subterranean Tinker
+234527@@@Summoning Candle
+234700@@@Orweyna
+234706@@@11.1 Delves - Nerubians01 - V05 - Web Shackles: Invisible Target (Hufton)
+234730@@@Black Blood Collector
+234921@@@Rebellion Protector
+234924@@@Treasure missile
+234945@@@Spinning Blade
+234953@@@Renzik "The Shiv"
+234981@@@Freeze-Resistant Flearoach
+234983@@@Anti-Anti-Freeze Shredder
+234988@@@Radicalized Underminer
+234989@@@Rebellious Citizen
+235029@@@Nikki the Fixer
+235033@@@Electro-Missile
+235060@@@Rebellious Citizen
+235133@@@Backup Assassin
+235139@@@Undermine Resident
+235141@@@Undermine Denizen
+235215@@@Orweyna
+235610@@@Undermine Resident
+235671@@@Undermine Resident
+236022@@@Invisibility bunny explosion TEST (Hufton)
+236554@@@Rebellious Citizen
+236721@@@Sprinkle Noggenfogger
+236724@@@Dirk Greasedealer
+236839@@@Pipe-Filled Chest
+236916@@@Overseer Dritz
+237376@@@Greater Dreadstalker
+237397@@@Generic Bunny
+237523@@@Demolition Fan
+237541@@@Demolition Fan
+237638@@@Heretic Detector
+237656@@@Zippy Breathington
+237701@@@Precision Powerdrill
+237706@@@Status Symbol
+237707@@@Fancier Rat
+237708@@@Handbag Hyena
+237713@@@Cannoneer
+237714@@@Lookout
+237715@@@Swabbie
+237719@@@Sooty Croach
+237720@@@Muddy Croach
+237721@@@Rusty Croach
+237722@@@Pipe Clog
+237976@@@Gleam
+238002@@@Monte Gazlowe
+238004@@@Grimla Fizzlecrank
+238005@@@Baron Revilgaz
+238240@@@Monte Gazlowe
+238290@@@Renzik "The Shiv"
+238297@@@Orweyna
+238344@@@Grimla Fizzlecrank
+238393@@@Craboom
+238446@@@Contraband Sniffer
+238485@@@Refinery Alarm

@@ -12594,3 +12594,8 @@
 7581@@@|C003fc7ebMariner's Hallowed Citrine
 7583@@@|C00f58cbaLegendary Skipper's Citrine
 7585@@@|C00fff569Roaring War-Queen's Citrine
+11.1.0.58221
+7640@@@Jackpot
+7652@@@+$k2 Agility/Strength/Intellect & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7653@@@+$k2 Agility/Strength/Intellect & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7654@@@+$k2 Agility/Strength/Intellect & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier3:20:20|a
