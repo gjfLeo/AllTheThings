@@ -11,9 +11,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			},
 			["g"] = {
 				i(157782, {	-- Pterrordax Egg
-					["questID"] = 50393,	-- A Child of Pa'ku
-					["races"] = HORDE_ONLY,
-					["lvl"] = 120,
 					["crs"] = {
 						126618,	-- Bloodrage Pterrordax
 						125207,	-- Peering Shrieker
@@ -23,9 +20,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						128343,	-- Skyterror Hatchling
 						135853,	-- Slateclaw Whelp
 						128653,	-- Young Seaspray
-					},
-					["g"] = {
-						i(159146),	-- Kua'fon (MOUNT!)
 					},
 				}),
 			},

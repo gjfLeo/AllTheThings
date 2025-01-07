@@ -466,7 +466,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(86385),	-- Royal Snapdragon Treat
 				q(86387),	-- Sandy Snapdragon Treat
 				q(86384),	-- Storminfused Snapdragon Treat
-				q(86373),	-- Teal Snapdragon Treat
+				-- q(86373),	-- Teal Snapdragon Treat (automated)
 				--
 				--It went live:
 				--it seems like questID fire per item drop for slot now

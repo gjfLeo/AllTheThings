@@ -26,11 +26,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(72888),	-- Ring of the Loyal Companion
 					},
 				}),
-				{	-- Urgent Twilight Missive > The Twilight Prophet
+				q(30105, {	-- The Twilight Prophet
 					["sourceQuest"] = 30102,	-- The Hour of Twilight (did not drop for me before completing the chain)
-					["questID"] = 30105,	-- The Twilight Prophet
-					["itemID"] = 77957,	-- Urgent Twilight Missive
 					["providers"] = {
+						{ "i", 77957 },	-- Urgent Twilight Missive
 						{ "n", 54590 },	-- Arcurion
 						{ "n", 54968 },	-- Asira Dawnslayer (apparently can drop from this boss if someone queues into the dungeon with the first boss dead)
 					},
@@ -39,7 +38,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(72886),	-- Thrall's Gratitude
 						i(76153),	-- Signet of the Twilight Prophet
 					},
-				},
+				}),
 			}),
 			n(ZONE_DROPS, sharedData({ ["modID"] = 2, }, {
 				i(76160, {	-- Drapes of the Dragonshrine

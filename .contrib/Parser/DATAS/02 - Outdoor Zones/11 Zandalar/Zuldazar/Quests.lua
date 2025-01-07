@@ -176,6 +176,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["lvl"] = 110,
 				}),
 			})),
+			q(50393, {	-- A Child of Pa'ku
+				["races"] = HORDE_ONLY,
+				["provider"] = { "i", 157782 },	-- Pterrordax Egg
+			}),
 			q(48399, {	-- A Dark (Iron) Tide
 				["sourceQuests"] = { 48317 },	-- A Nose for Magic
 				["provider"] = { "n", 131580 },	-- Apprentice Telemancer Astrandis
@@ -567,7 +571,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 70.6, 50.6, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(159146),	-- Kua'fon (MOUNT!)
+					i(159146, {	-- Kua'fon (MOUNT!)
+						-- using cost here to show the quest chain starting item
+						["cost"] = {{"i",157782,1}},	-- Pterrordax Egg
+					}),
 				},
 			}),
 			q(50942, {	-- Dress for the Slide, Not the Ride

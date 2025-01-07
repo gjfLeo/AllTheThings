@@ -119,6 +119,7 @@ iq(128444, 39561);					-- Blueprint: Oil Rig
 iq(113212, 39463);					-- Treasure Map: Tanaan Jungle
 iq(128251, 39359);					-- Equipment Blueprint: Tuskarr Fishing Net
 iq(128490, 39561);					-- Blueprint: Oil Rig
+iq(128446, 39564);					-- Saberstalker Teachings: Trailblazer
 
 -----------------
 -- PATCH 7.0.3 --
