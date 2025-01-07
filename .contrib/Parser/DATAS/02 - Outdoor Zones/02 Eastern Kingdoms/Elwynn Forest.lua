@@ -3093,8 +3093,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 38.1, 83.3, ELWYNN_FOREST },
 						-- #else
 						{ 41.2, 78.8, ELWYNN_FOREST },
+						-- #endif
 					},
-					-- #endif
 					["groups"] = {
 						i(6147, {	-- Ratty Old Belt
 							["timeline"] = { REMOVED_4_0_1, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
