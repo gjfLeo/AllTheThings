@@ -40,6 +40,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 			["provider"] = { "n", 214651 },	-- Moira Thaurissan
 			["coord"] = { 40.5, 57.7, AEGWYNNS_GALLERY },
 		}),
+		q(84446, {	-- Renown of Khaz Algar
+					["sourceQuests"] = { 79197 },	-- Surface Bound
+					["provider"] = { "n", 216149 },	-- Moira Thaurissan
+					["coord"] = { 36.1, 80.3, DORNOGAL },
+					["lockCriteria"] = { 1, "factionID", FACTION_COUNCIL_OF_DORNOGAL + 0.5 },    -- Council of Dornogal, Rank 5
+				}),
 		header(HEADERS.Achievement, 20597, {	-- The War Within
 			header(HEADERS.AchCriteria, 20597.01, {	-- Against the Current
 				------ Chapter 1 ------
@@ -50,13 +56,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["g"] = {
 						hqt(79573, name(HEADERS.AchCriteria, 40725.02)),	-- War Within Delves: Endgame [Complete Campaign]
 					},
-				}),
-				q(84446, {	-- Renown of Khaz Algar
-					-- Not part of the 'Against the Current' quest chain. I'll find it place somewhere else -Exodius
-					-- Apparently, it can be completed only if your renown reputations are below lvl4, needs more info
-					["sourceQuests"] = { 79197 },	-- Surface Bound
-					["provider"] = { "n", 216149 },	-- Moira Thaurissan
-					["coord"] = { 36.1, 80.3, DORNOGAL },
 				}),
 				q(79333, {	-- The Fleet Arrives
 					["sourceQuests"] = { 79197 },	-- Surface Bound
