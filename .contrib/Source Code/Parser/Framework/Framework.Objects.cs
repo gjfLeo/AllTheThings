@@ -187,7 +187,7 @@ namespace ATT
                     case 16: return Filters.Cloak;
                     case 18: return Filters.Bag;
                     case 19: return Filters.Tabard;
-                    case 22: return Filters.HeldInOffHand;
+                    //case 22: return Filters.HeldInOffHand;    // Causes off-hand axes and stuff to get flagged as held in offhand.
                     //case 23: return Filters.HeldInOffHand;    // causes un-bindable Fish to include a SourceID
                     case 29: return Filters.ProfessionEquipment;
                     case 30: return Filters.ProfessionEquipment;
