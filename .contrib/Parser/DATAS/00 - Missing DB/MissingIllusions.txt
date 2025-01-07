@@ -1,5 +1,7 @@
 11.0.0.54521
 ill(7521),	-- Holy Fire
+11.1.0.58221
+ill(7640),	-- Jackpot
 
 
 
@@ -8,3 +10,5 @@ Missing in IllusionDB.lua
 
 11.0.0.54521
 ill(7521),	-- Holy Fire
+11.1.0.58221
+ill(7640),	-- Jackpot

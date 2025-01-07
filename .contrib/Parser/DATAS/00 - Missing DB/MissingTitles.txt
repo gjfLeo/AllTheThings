@@ -1,4 +1,25 @@
 11.0.7.57361
-title(569),	-- %s, Witness of the Kirin Tor
 title(600),	-- Landlubber %s
 title(601),	-- %s the Treasured
+11.1.0.58221
+title(580),	-- Skyrocketer %s
+title(592),	-- %s the Enterprising
+title(593),	-- %s the Enterprising Hero
+title(597),	-- Breaknecker %s
+title(598),	-- Delver %s
+title(599),	-- Infinite Delver %s
+title(602),	-- High Roller %s
+title(603),	-- %s the Explosive
+title(604),	-- %s, Famed Slayer of The Chrome King
+title(605),	-- %s, Liberator of Undermine
+title(606),	-- Darkfuse Diplomat %s
+title(607),	-- Trade-Duke %s
+title(608),	-- Prized Gladiator %s
+title(609),	-- Prized Warlord %s
+title(610),	-- Prized Marshal %s
+title(611),	-- Prized Legend %s
+title(612),	-- %s, the Real Deal
+title(613),	-- Junkmaestro %s
+title(616),	-- Part-Timer %s
+title(617),	-- %s, "Employee" of the Month
+title(618),	-- %s, the Reel Deal

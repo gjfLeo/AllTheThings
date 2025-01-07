@@ -7809,6 +7809,744 @@ i(235529),	-- Obsidian Scope
 i(235530),	-- Schematic: Obsidian Scope
 1.15.5.57979
 i(235825),	-- Draught of the Sands
+1.15.6.58185
+i(213074),	-- Rune of Nourishing
+i(213086),	-- Rune of the Storm
+i(213090),	-- Rune of Synergy
+i(213093),	-- Rune of Power
+i(213094),	-- Rune of Fire Nova
+i(213096),	-- Rune of Decoys
+i(213098),	-- Rune of Invocation
+i(213101),	-- Rune of Shadowflames
+i(213102),	-- Rune of Wickedness
+i(213103),	-- Rune of Blood Surge
+i(213109),	-- Rune of Focused Rage
+i(213110),	-- Rune of the Commander
+i(213111),	-- Rune of Intervention
+i(213117),	-- Rune of Berserk
+i(213119),	-- Rune of Instinct
+i(213120),	-- Rune of the Dreamer
+i(213122),	-- Rune of Steady Shot
+i(213123),	-- Rune of Exposure
+i(213125),	-- Rune of Invigoration
+i(213126),	-- Rune of the Scrapper
+i(213128),	-- Rune of Piety
+i(213129),	-- Rune of Light's Embrace
+i(213131),	-- Rune of Sacred Shields
+i(213132),	-- Rune of the Guardian
+i(213136),	-- Rune of Subtlety
+i(213138),	-- Rune of the Southpaw
+i(213139),	-- Rune of the Assassin
+i(213140),	-- Prophecy of the Quickened Path
+i(213141),	-- Rune of Hope
+i(213142),	-- Prophecy of Imprisoned Malice
+i(213143),	-- Apocryphal Epiphany
+i(219147),	-- Rune of Grace
+i(220165),	-- Rune of Wrath
+i(235517),	-- Torch
+i(235583),	-- Test Dagger
+i(235597),	-- Spell Notes: Deep Freeze
+i(235598),	-- Spell Notes: Icy Veins
+i(235599),	-- Spell Notes: Temporal Anomaly
+i(235600),	-- Rune of Divine Storm
+i(235601),	-- Rune of Fanaticism
+i(235602),	-- Rune of Hammer of the Righteous
+i(235603),	-- Rune of Righteous Vengeance
+i(235604),	-- Rune of Shield of Righteousness
+i(235605),	-- Rune of Shock and Awe
+i(235785),	-- Deadwind Cage "Key"
+i(235786),	-- Karazhan Curio
+i(235787),	-- Ancient Ironwood Branch
+i(235788),	-- Enthusiastic Wisp
+i(235789),	-- Flame of Life
+i(235790),	-- Enchanted Firebrand
+i(235852),	-- Violet Satchel
+i(235867),	-- Scrap of Parchment
+i(235868),	-- Bulwark of Ire
+i(235869),	-- The Master's Cowl
+i(235870),	-- Rattlechain Helm
+i(235871),	-- Clutching Death Helm
+i(235872),	-- Stalker's Bands
+i(235873),	-- Crypt's Keepers
+i(235874),	-- Cultist's Handwraps
+i(235875),	-- Gravedigger's Gloves
+i(235876),	-- Sinner's Handguards
+i(235877),	-- Fanatic's Gauntlets
+i(235878),	-- Malefic Belt
+i(235879),	-- Nimble Links
+i(235880),	-- Pauper Soles
+i(235881),	-- Dreaded Treaders
+i(235882),	-- Clattering Steps
+i(235883),	-- Well Diver's Stumble
+i(235884),	-- Spectral Signet
+i(235885),	-- Ghastly Ring
+i(235886),	-- Kaigy's Clasp
+i(235887),	-- Barian's Choker
+i(235888),	-- Clobberclub
+i(235889),	-- Servant's Quarterstaff
+i(235890),	-- Shadow Weaver's Needle
+i(235891),	-- Ol' Reliable
+i(235892),	-- Darkrider's Spine
+i(235893),	-- Shadowbound Grimoire
+i(235894),	-- Doomsayer's Demise
+i(236005),	-- Dreadnaught Breastplate
+i(236006),	-- Dreadnaught Legplates
+i(236007),	-- Dreadnaught Helmet
+i(236008),	-- Dreadnaught Pauldrons
+i(236009),	-- Dreadnaught Sabatons
+i(236010),	-- Dreadnaught Gauntlets
+i(236011),	-- Dreadnaught Waistguard
+i(236012),	-- Dreadnaught Bracers
+i(236013),	-- Ring of the Dreadnaught
+i(236014),	-- Dreadnaught Cuirass
+i(236015),	-- Dreadnaught Tassets
+i(236016),	-- Dreadnaught Horns
+i(236017),	-- Dreadnaught Shoulders
+i(236018),	-- Dreadnaught Greaves
+i(236019),	-- Dreadnaught Grips
+i(236020),	-- Dreadnaught Belt
+i(236021),	-- Dreadnaught Wrists
+i(236022),	-- Band of the Dreadnaught
+i(236023),	-- Bonescythe Breastplate
+i(236024),	-- Bonescythe Legplates
+i(236025),	-- Bonescythe Helmet
+i(236026),	-- Bonescythe Pauldrons
+i(236027),	-- Bonescythe Sabatons
+i(236028),	-- Bonescythe Gauntlets
+i(236029),	-- Bonescythe Waistguard
+i(236030),	-- Bonescythe Bracers
+i(236031),	-- Bonescythe Ring
+i(236032),	-- Bonescythe Belt
+i(236033),	-- Bonescythe Treads
+i(236034),	-- Bonescythe Band
+i(236035),	-- Bonescythe Mantle
+i(236036),	-- Bonescythe Leggings
+i(236037),	-- Bonescythe Mask
+i(236038),	-- Bonescythe Grips
+i(236039),	-- Bonescythe Chestguard
+i(236040),	-- Bonescythe Wristguards
+i(236041),	-- Ring of the Cryptstalker
+i(236042),	-- Cryptstalker Wristguards
+i(236043),	-- Cryptstalker Tunic
+i(236044),	-- Cryptstalker Spaulders
+i(236045),	-- Cryptstalker Legguards
+i(236046),	-- Cryptstalker Headpiece
+i(236047),	-- Cryptstalker Handguards
+i(236048),	-- Cryptstalker Girdle
+i(236049),	-- Cryptstalker Boots
+i(236050),	-- Cryptstalker Vambraces
+i(236051),	-- Cryptstalker Belt
+i(236052),	-- Cryptstalker Pauldrons
+i(236053),	-- Cryptstalker Leggings
+i(236054),	-- Cryptstalker Visor
+i(236055),	-- Cryptstalker Gauntlets
+i(236056),	-- Band of the Cryptstalker
+i(236057),	-- Cryptstalker Greaves
+i(236058),	-- Cryptstalker Breastplate
+i(236059),	-- Plagueheart Sandals
+i(236060),	-- Plagueheart Leggings
+i(236061),	-- Plagueheart Bindings
+i(236062),	-- Plagueheart Robe
+i(236063),	-- Plagueheart Gloves
+i(236064),	-- Plagueheart Circlet
+i(236065),	-- Plagueheart Shoulderpads
+i(236066),	-- Plagueheart Belt
+i(236067),	-- Plagueheart Ring
+i(236068),	-- Plagueheart Wristguards
+i(236069),	-- Plagueheart Waistguard
+i(236070),	-- Plagueheart Mantle
+i(236071),	-- Plagueheart Pants
+i(236072),	-- Plagueheart Crown
+i(236073),	-- Plagueheart Handguards
+i(236074),	-- Plagueheart Loop
+i(236075),	-- Plagueheart Boots
+i(236076),	-- Plagueheart Garb
+i(236077),	-- Frostfire Bindings
+i(236078),	-- Frostfire Belt
+i(236079),	-- Frostfire Leggings
+i(236080),	-- Frostfire Sandals
+i(236081),	-- Frostfire Robe
+i(236082),	-- Frostfire Gloves
+i(236083),	-- Frostfire Circlet
+i(236084),	-- Frostfire Shoulderpads
+i(236085),	-- Frostfire Ring
+i(236087),	-- Frostfire Wristwraps
+i(236088),	-- Frostfire Waistguard
+i(236089),	-- Frostfire Mantle
+i(236090),	-- Frostfire Pants
+i(236091),	-- Frostfire Hood
+i(236092),	-- Frostfire Mitts
+i(236093),	-- Frostfire Band
+i(236094),	-- Frostfire Boots
+i(236095),	-- Frostfire Garb
+i(236097),	-- Robe of Faith
+i(236098),	-- Belt of Faith
+i(236099),	-- Sandals of Faith
+i(236100),	-- Bindings of Faith
+i(236101),	-- Leggings of Faith
+i(236102),	-- Shoulderpads of Faith
+i(236103),	-- Circlet of Faith
+i(236104),	-- Gloves of Faith
+i(236105),	-- Ring of Faith
+i(236106),	-- Wrists of Faith
+i(236107),	-- Girdle of Faith
+i(236108),	-- Mantle of Faith
+i(236109),	-- Pants of Faith
+i(236110),	-- Crown of Faith
+i(236111),	-- Hands of Faith
+i(236112),	-- Band of Faith
+i(236113),	-- Boots of Faith
+i(236114),	-- Garb of Faith
+i(236115),	-- Redemption Tunic
+i(236116),	-- Ring of Redemption
+i(236117),	-- Redemption Headpiece
+i(236118),	-- Redemption Handguards
+i(236119),	-- Redemption Wristguards
+i(236120),	-- Redemption Girdle
+i(236121),	-- Redemption Legguards
+i(236122),	-- Redemption Spaulders
+i(236123),	-- Redemption Boots
+i(236124),	-- Redemption Vambraces
+i(236125),	-- Redemption Belt
+i(236126),	-- Redemption Shoulderplates
+i(236127),	-- Redemption Leggings
+i(236128),	-- Redemption Helmet
+i(236129),	-- Redemption Gloves
+i(236130),	-- Band of Redemption
+i(236131),	-- Redemption Greaves
+i(236132),	-- Redemption Breastplate
+i(236133),	-- Redemption Bracers
+i(236134),	-- Redemption Waistguard
+i(236135),	-- Redemption Pauldrons
+i(236136),	-- Redemption Legplates
+i(236137),	-- Redemption Crown
+i(236138),	-- Redemption Gauntlets
+i(236139),	-- Loop of Redemption
+i(236140),	-- Redemption Sabatons
+i(236141),	-- Redemption Chestguard
+i(236142),	-- Earthshatter Handguards
+i(236143),	-- Earthshatter Legguards
+i(236144),	-- Earthshatter Headpiece
+i(236145),	-- Earthshatter Spaulders
+i(236146),	-- Earthshatter Boots
+i(236147),	-- Earthshatter Tunic
+i(236148),	-- Earthshatter Girdle
+i(236149),	-- Earthshatter Wristguards
+i(236150),	-- Ring of the Earthshatterer
+i(236151),	-- Earthshatter Bindings
+i(236152),	-- Earthshatter Cord
+i(236153),	-- Earthshatter Mantle
+i(236154),	-- Earthshatter Kilt
+i(236155),	-- Earthshatter Crown
+i(236156),	-- Earthshatter Mitts
+i(236157),	-- Band of the Earthshatterer
+i(236158),	-- Earthshatter Greaves
+i(236159),	-- Earthshatter Embrace
+i(236160),	-- Earthshatter Bracers
+i(236162),	-- Earthshatter Waistguard
+i(236163),	-- Earthshatter Pauldrons
+i(236164),	-- Earthshatter Legplates
+i(236165),	-- Earthshatter Faceguard
+i(236166),	-- Earthshatter Gloves
+i(236167),	-- Loop of the Earthshatterer
+i(236168),	-- Earthshatter Sabatons
+i(236169),	-- Earthshatter Chestguard
+i(236170),	-- Earthshatter Vambraces
+i(236171),	-- Earthshatter Belt
+i(236172),	-- Earthshatter Epaulets
+i(236173),	-- Earthshatter Leggings
+i(236174),	-- Earthshatter Helmet
+i(236175),	-- Earthshatter Grips
+i(236176),	-- Signet of the Earthshatterer
+i(236177),	-- Earthshatter Treads
+i(236179),	-- Earthshatter Armor
+i(236182),	-- Dreamwalker Headpiece
+i(236183),	-- Dreamwalker Wristguards
+i(236184),	-- Dreamwalker Handguards
+i(236185),	-- Dreamwalker Boots
+i(236186),	-- Dreamwalker Tunic
+i(236187),	-- Dreamwalker Girdle
+i(236188),	-- Dreamwalker Legguards
+i(236189),	-- Dreamwalker Spaulders
+i(236190),	-- Ring of the Dreamwalker
+i(236192),	-- Dreamwalker Bindings
+i(236193),	-- Dreamwalker Cord
+i(236194),	-- Dreamwalker Mantle
+i(236195),	-- Dreamwalker Kilt
+i(236196),	-- Dreamwalker Hood
+i(236197),	-- Dreamwalker Mitts
+i(236198),	-- Band of the Dreamwalker
+i(236199),	-- Dreamwalker Sandals
+i(236200),	-- Dreamwalker Leathers
+i(236201),	-- Dreamwalker Bracers
+i(236202),	-- Dreamwalker Waistguard
+i(236203),	-- Dreamwalker Pauldrons
+i(236204),	-- Dreamwalker Leggings
+i(236205),	-- Dreamwalker Headdress
+i(236206),	-- Dreamwalker Gauntlets
+i(236207),	-- Loop of the Dreamwalker
+i(236208),	-- Dreamwalker Sabatons
+i(236209),	-- Dreamwalker Armor
+i(236210),	-- Dreamwalker Wraps
+i(236211),	-- Dreamwalker Sash
+i(236212),	-- Dreamwalker Shoulderpads
+i(236213),	-- Dreamwalker Trousers
+i(236214),	-- Dreamwalker Cowl
+i(236215),	-- Dreamwalker Grips
+i(236216),	-- Signet of the Dreamwalker
+i(236217),	-- Dreamwalker Stompers
+i(236218),	-- Dreamwalker Vest
+i(236219),	-- Harbinger of Doom
+i(236220),	-- Necro-Knight's Garb
+i(236221),	-- Misplaced Servo Arm
+i(236222),	-- Ghoul Skin Tunic
+i(236223),	-- Ring of the Eternal Flame
+i(236224),	-- Stygian Buckler
+i(236225),	-- Girdle of Elemental Fury
+i(236226),	-- Pauldrons of Elemental Fury
+i(236227),	-- Belt of the Grand Crusader
+i(236228),	-- Spaulders of the Grand Crusader
+i(236229),	-- Leggings of the Grand Crusader
+i(236230),	-- Leggings of Elemental Fury
+i(236231),	-- Desecrated Breastplate
+i(236232),	-- Desecrated Waistguard
+i(236233),	-- Desecrated Gauntlets
+i(236234),	-- Desecrated Sabatons
+i(236235),	-- Desecrated Bracers
+i(236236),	-- Desecrated Helmet
+i(236237),	-- Desecrated Pauldrons
+i(236238),	-- Desecrated Legplates
+i(236239),	-- Desecrated Sandals
+i(236240),	-- Desecrated Shoulderpads
+i(236241),	-- Desecrated Circlet
+i(236242),	-- Desecrated Robe
+i(236243),	-- Desecrated Gloves
+i(236244),	-- Desecrated Belt
+i(236245),	-- Desecrated Bindings
+i(236246),	-- Desecrated Leggings
+i(236247),	-- Desecrated Wristguards
+i(236248),	-- Desecrated Boots
+i(236249),	-- Desecrated Headpiece
+i(236250),	-- Desecrated Handguards
+i(236251),	-- Desecrated Tunic
+i(236252),	-- Desecrated Girdle
+i(236253),	-- Desecrated Legguards
+i(236254),	-- Desecrated Spaulders
+i(236255),	-- Wristguards of Vengeance
+i(236256),	-- Touch of Frost
+i(236257),	-- Gem of Nerubis
+i(236258),	-- Cryptfiend Silk Cloak
+i(236259),	-- Band of Unanswered Prayers
+i(236260),	-- Icebane Pauldrons
+i(236261),	-- Malice Stone Pendant
+i(236262),	-- Polar Shoulder Pads
+i(236263),	-- Widow's Remorse
+i(236264),	-- The Widow's Embrace
+i(236265),	-- Wraith Blade
+i(236266),	-- Pendant of Forgotten Names
+i(236267),	-- Crystal Webbed Robe
+i(236268),	-- Kiss of the Spider
+i(236269),	-- Maexxna's Fang
+i(236270),	-- Hatchet of Sundered Bone
+i(236271),	-- Libram of Light
+i(236272),	-- Cloak of the Scourge
+i(236273),	-- Band of the Inevitable
+i(236274),	-- Hailstone Band
+i(236275),	-- Noth's Frigid Heart
+i(236276),	-- Totem of Flowing Water
+i(236277),	-- Necklace of Necropsy
+i(236278),	-- Glacial Headdress
+i(236279),	-- Preceptor's Hat
+i(236280),	-- Legplates of Carnage
+i(236281),	-- Icy Scale Coif
+i(236282),	-- Loatheb's Reflection
+i(236283),	-- Ring of Spiritual Fervor
+i(236284),	-- Brimstone Staff
+i(236285),	-- The Eye of Nerub
+i(236286),	-- Band of Unnatural Forces
+i(236287),	-- Severance
+i(236288),	-- The Plague Bearer
+i(236289),	-- Cloak of Suturing
+i(236290),	-- Wand of Fates
+i(236291),	-- Band of Reanimation
+i(236292),	-- Midnight Haze
+i(236293),	-- Toxin Injector
+i(236294),	-- Icy Scale Spaulders
+i(236295),	-- Glacial Mantle
+i(236296),	-- Death's Bargain
+i(236297),	-- The End of Dreams
+i(236298),	-- Rime Covered Mantle
+i(236299),	-- Claymore of Unholy Might
+i(236300),	-- Gluth's Missing Collar
+i(236301),	-- Digested Hand of Power
+i(236302),	-- Eye of Diminution
+i(236303),	-- Leggings of Polarity
+i(236304),	-- Plated Abomination Ribcage
+i(236305),	-- Spire of Twilight
+i(236306),	-- The Castigator
+i(236307),	-- Veil of Eclipse
+i(236308),	-- Idol of Longevity
+i(236309),	-- Girdle of the Mentor
+i(236310),	-- Wand of the Whispering Dead
+i(236311),	-- Signet of the Fallen Defender
+i(236312),	-- Iblis, Blade of the Fallen Seraph
+i(236313),	-- The Soul Harvester's Bindings
+i(236314),	-- Boots of Displacement
+i(236315),	-- Polar Helmet
+i(236316),	-- Sadist's Collar
+i(236317),	-- Corrupted Ashbringer
+i(236318),	-- Seal of the Damned
+i(236319),	-- Leggings of Apocalypse
+i(236320),	-- Warmth of Forgiveness
+i(236321),	-- Maul of the Redeemed Crusader
+i(236322),	-- Soulstring
+i(236323),	-- Resilience of the Scourge
+i(236324),	-- Power of the Scourge
+i(236325),	-- Fortitude of the Scourge
+i(236326),	-- Might of the Scourge
+i(236327),	-- Cloak of the Necropolis
+i(236328),	-- Sapphiron's Left Eye
+i(236329),	-- Eye of the Dead
+i(236330),	-- Sapphiron's Right Eye
+i(236331),	-- The Restrained Essence of Sapphiron
+i(236333),	-- Shroud of Dominion
+i(236334),	-- Slayer's Crest
+i(236335),	-- Fists of the Unrelenting
+i(236336),	-- The Face of Death
+i(236337),	-- Glyph of Deflection
+i(236338),	-- Claw of the Frost Wyrm
+i(236339),	-- Gressil, Dawn of Ruin
+i(236340),	-- Might of Menethil
+i(236341),	-- The Hungering Cold
+i(236342),	-- Stormrage's Talisman of Seething
+i(236343),	-- Kingsfall
+i(236344),	-- Nerubian Slavemaker
+i(236345),	-- Gem of Trapped Innocents
+i(236346),	-- Soulseeker
+i(236347),	-- Shield of Condemnation
+i(236348),	-- Hammer of the Twisting Nether
+i(236349),	-- Doomfinger
+i(236350),	-- The Phylactery of Kel'Thuzad
+i(236351),	-- Mark of the Champion
+i(236352),	-- Mark of the Champion
+i(236354),	-- Aspirant's Seal of the Dawn
+i(236355),	-- Initiate's Seal of the Dawn
+i(236356),	-- Squire's Seal of the Dawn
+i(236357),	-- Knight's Seal of the Dawn
+i(236358),	-- Templar's Seal of the Dawn
+i(236360),	-- Champion's Seal of the Dawn
+i(236361),	-- Vanguard's Seal of the Dawn
+i(236362),	-- Crusader's Seal of the Dawn
+i(236363),	-- Commander's Seal of the Dawn
+i(236364),	-- Highlord's Seal of the Dawn
+i(236374),	-- Commander's Seal of the Dawn
+i(236375),	-- Highlord's Seal of the Dawn
+i(236376),	-- Crusader's Seal of the Dawn
+i(236378),	-- Vanguard's Seal of the Dawn
+i(236379),	-- Champion's Seal of the Dawn
+i(236380),	-- Templar's Seal of the Dawn
+i(236382),	-- Knight's Seal of the Dawn
+i(236383),	-- Squire's Seal of the Dawn
+i(236384),	-- Initiate's Seal of the Dawn
+i(236385),	-- Aspirant's Seal of the Dawn
+i(236386),	-- Highlord's Seal of the Dawn
+i(236388),	-- Commander's Seal of the Dawn
+i(236389),	-- Crusader's Seal of the Dawn
+i(236390),	-- Vanguard's Seal of the Dawn
+i(236391),	-- Champion's Seal of the Dawn
+i(236392),	-- Templar's Seal of the Dawn
+i(236393),	-- Knight's Seal of the Dawn
+i(236394),	-- Squire's Seal of the Dawn
+i(236395),	-- Initiate's Seal of the Dawn
+i(236396),	-- Aspirant's Seal of the Dawn
+i(236397),	-- Remnants of Valor
+i(236398),	-- Atiesh, Greatstaff of the Guardian
+i(236399),	-- Atiesh, Greatstaff of the Guardian
+i(236400),	-- Atiesh, Greatstaff of the Guardian
+i(236401),	-- Atiesh, Greatstaff of the Guardian
+i(236414),	-- Damaged Undermine Supply Crate
+i(236417),	-- Soul of the Tactician
+i(236418),	-- Soul of the War Veteran
+i(236419),	-- Soul of the Battle Forecaster
+i(236420),	-- Soul of the Bloodseeker
+i(236421),	-- Soul of the Titan
+i(236422),	-- Soul of the Destroyer
+i(236423),	-- Soul of the Deathbound
+i(236424),	-- Soul of the Sanguinist
+i(236425),	-- Soul of the Pristine Blocker
+i(236426),	-- Soul of the Savage
+i(236427),	-- Soul of Enmity
+i(236428),	-- Soul of the Deflective
+i(236429),	-- Soul of the Revenger
+i(236430),	-- Soul of the Incessant
+i(236431),	-- Soul of the Thunderbringer
+i(236432),	-- Soul of the Sentinel
+i(236433),	-- Soul of the Southpaw
+i(236434),	-- Soul of the Gladiator
+i(236435),	-- Soul of the Aftershock
+i(236436),	-- Soul of the Avoidant
+i(236437),	-- Soul of the Toxicologist
+i(236438),	-- Soul of the Executioner
+i(236439),	-- Soul of the Opportunist
+i(236440),	-- Soul of the Butcher
+i(236441),	-- Soul of the Phantom
+i(236442),	-- Soul of the Scoundrel
+i(236443),	-- Soul of the Thrill Seeker
+i(236444),	-- Soul of the Shiv Savant
+i(236445),	-- Soul of the Stalker
+i(236446),	-- Soul of the Efficient
+i(236447),	-- Soul of the Knife Juggler
+i(236448),	-- Soul of the Shadow Master
+i(236449),	-- Soul of the Equilibrist
+i(236450),	-- Soul of the Poised Brawler
+i(236451),	-- Soul of the Black Belt
+i(236452),	-- Soul of the Fencer
+i(236453),	-- Soul of the Swashbuckler
+i(236454),	-- Soul of the Bloodthirsty
+i(236455),	-- Soul of the Transfusionist
+i(236456),	-- Soul of the Refined
+i(236457),	-- Soul of the Decimator
+i(236458),	-- Soul of the Rotbringer
+i(236459),	-- Soul of the Malevolent
+i(236460),	-- Soul of the Shadowmancer
+i(236461),	-- Soul of the Chaos Harbinger
+i(236462),	-- Soul of the Arsonist
+i(236463),	-- Soul of the Infernal Shepherd
+i(236464),	-- Soul of the Demonlord
+i(236465),	-- Soul of the Demonic Exorcist
+i(236466),	-- Soul of the Pained
+i(236467),	-- Soul of the Flamewraith
+i(236468),	-- Soul of the Fleshfeaster
+i(236469),	-- Soul of the Abyssal
+i(236470),	-- Soul of the Voidborne
+i(236471),	-- Soul of the Umbral Blade
+i(236472),	-- Soul of the Ritualist
+i(236473),	-- Soul of the Pain Spreader
+i(236474),	-- Soul of the Misleader
+i(236475),	-- Soul of the Preyseeker
+i(236476),	-- Soul of the Sharpshooter
+i(236477),	-- Soul of the Hazard Harrier
+i(236478),	-- Soul of the Alternator
+i(236479),	-- Soul of the Toxinologist
+i(236480),	-- Soul of the Bounty Hunter
+i(236481),	-- Soul of the Trick Shooter
+i(236482),	-- Soul of the Beast Tender
+i(236483),	-- Soul of the Hound Master
+i(236484),	-- Soul of the Alpha Tamer
+i(236485),	-- Soul of the Huntsman
+i(236487),	-- Soul of the Retaliator
+i(236488),	-- Soul of Echoes
+i(236489),	-- Soul of the Lethal Lasher
+i(236490),	-- Soul of the Kineticist
+i(236491),	-- Soul of the Strategist
+i(236492),	-- Soul of the Deadly Striker
+i(236493),	-- Soul of the Hastened Healer
+i(236494),	-- Soul of the Refined
+i(236495),	-- Soul of the Celebrant
+i(236496),	-- Soul of the Faithful
+i(236497),	-- Soul of the Serendipitous
+i(236498),	-- Soul of the Resonant
+i(236499),	-- Soul of the Devotee
+i(236500),	-- Soul of the Archbishop
+i(236501),	-- Soul of the Penitent
+i(236502),	-- Soul of the Soul Warder
+i(236503),	-- Soul of the Twilight Walker
+i(236504),	-- Soul of the Mind Breaker
+i(236505),	-- Soul of the Deathdealer
+i(236506),	-- Soul of the Spirit Font
+i(236507),	-- Soul of the Zealot
+i(236508),	-- Soul of the Unwavering Defiler
+i(236509),	-- Soul of the Contemnor
+i(236510),	-- Soul of the Plaguebringer
+i(236511),	-- Soul of the Reverberant
+i(236512),	-- Soul of the Chronohealer
+i(236513),	-- Soul of Temporal Longing
+i(236514),	-- Soul of the Precognitive
+i(236515),	-- Soul of the Arcanist
+i(236516),	-- Soul of the Eternal Caretaker
+i(236517),	-- Soul of the Spellbider
+i(236518),	-- Soul of the Wardshaper
+i(236519),	-- Soul of Winter's Grasp
+i(236520),	-- Soul of the Cryomancer
+i(236521),	-- Soul of the Evoker
+i(236522),	-- Soul of the Elementalist
+i(236523),	-- Soul of the Magical Armorer
+i(236524),	-- Soul of the Kindler
+i(236525),	-- Soul of Fiery Convergence
+i(236526),	-- Soul of the Perpetual Blaze
+i(236527),	-- Soul of the Pyromaniac
+i(236528),	-- Soul of the Igniter
+i(236529),	-- Soul of the Torcher
+i(236530),	-- Soul of the Pristine Blocker
+i(236531),	-- Soul of the Lightwarden
+i(236532),	-- Soul of the Radiant Defender
+i(236533),	-- Soul of the Shieldbearer
+i(236534),	-- Soul of the Bastion
+i(236535),	-- Soul of the Reckoner
+i(236536),	-- Soul of the Ironclad
+i(236537),	-- Soul of the Guardian
+i(236538),	-- Soul of the Peacekeeper
+i(236539),	-- Soul of the Refined
+i(236540),	-- Soul of the Exemplar
+i(236541),	-- Soul of the Inquisitor
+i(236542),	-- Soul of the Sovereign
+i(236543),	-- Soul of the Dominus
+i(236544),	-- Soul of the Vindicator
+i(236545),	-- Soul of the Altruist
+i(236546),	-- Soul of the Arbiter
+i(236547),	-- Soul of the Sealbearer
+i(236548),	-- Soul of the Justicar
+i(236549),	-- Soul of the Judicator
+i(236550),	-- Soul of the Ascendant
+i(236551),	-- Soul of the Retributor
+i(236552),	-- Soul of the Excommunicator
+i(236553),	-- Soul of the Lightbringer
+i(236554),	-- Soul of the Exile
+i(236555),	-- Soul of the Templar
+i(236556),	-- Soul of the Windwalker
+i(236557),	-- Soul of the Shield Master
+i(236558),	-- Soul of the Totemic Protector
+i(236559),	-- Soul of the Shock-Absorber
+i(236560),	-- Soul of the Spiritual Bulwark
+i(236561),	-- Soul of the Maelstrombringer
+i(236562),	-- Soul of the Lavawalker
+i(236563),	-- Soul of the True Alpha
+i(236564),	-- Soul of the Totemkeeper
+i(236565),	-- Soul of the Ancestors
+i(236566),	-- Soul of the Spiritweaver
+i(236567),	-- Soul of the Waterwalker
+i(236568),	-- Soul of the Stormtender
+i(236569),	-- Soul of the Elemental Seer
+i(236570),	-- Soul of the Vitalist
+i(236571),	-- Soul of the Spirithealer
+i(236572),	-- Soul of the Refined
+i(236573),	-- Soul of the Chieftain
+i(236574),	-- Soul of the Furycharged
+i(236575),	-- Soul of the Stormbreaker
+i(236576),	-- Soul of the Tempest
+i(236577),	-- Soul of the Seismic Smasher
+i(236578),	-- Soul of the Flamebringer
+i(236579),	-- Soul of the Volcano
+i(236580),	-- Soul of the Raging Flame
+i(236581),	-- Soul of the Elemental Master
+i(236582),	-- Soul of the Tribesman
+i(236583),	-- Soul of the Spirit Guide
+i(236584),	-- Soul of the Elder
+i(236585),	-- Soul of the Elements
+i(236586),	-- Soul of the Lava Sage
+i(236587),	-- Soul of the Ancestral Warden
+i(236588),	-- Soul of the Corrupt
+i(236589),	-- Soul of the Gentle Paw
+i(236590),	-- Soul of the Ferocious
+i(236591),	-- Soul of the Shifter
+i(236592),	-- Soul of the Territorial
+i(236593),	-- Soul of the Beast
+i(236594),	-- Soul of the Lacerator
+i(236595),	-- Soul of the Furious
+i(236596),	-- Soul of the Mangler
+i(236597),	-- Soul of the Innervator
+i(236598),	-- Soul of the Nurturer
+i(236599),	-- Soul of the Tranquil
+i(236600),	-- Soul of the Dreamwalker
+i(236601),	-- Soul of the Grove Tender
+i(236602),	-- Soul of the Feathered Sage
+i(236603),	-- Soul of the Benevolet Seer
+i(236604),	-- Soul of the Lifeweaver
+i(236605),	-- Soul of the Illuminator
+i(236606),	-- Soul of Predatory Instincts
+i(236607),	-- Soul of the Ripper
+i(236608),	-- Soul of the Claw
+i(236609),	-- Soul of the Prideful
+i(236610),	-- Soul of the Barbaric
+i(236611),	-- Soul of the Frenetic
+i(236612),	-- Soul of the Exsanguinator
+i(236613),	-- Soul of the Thornkeeper
+i(236614),	-- Soul of the Lunatic
+i(236615),	-- Soul of the Starcaller
+i(236616),	-- Soul of the Night
+i(236617),	-- Soul of the Keepers
+i(236618),	-- Soul of the Wrathful
+i(236619),	-- Soul of the Graceful
+i(236620),	-- Soul of the Astral Ascendant
+i(236621),	-- Soul of the Cometcaller
+i(236622),	-- Soul of the Forest
+i(236623),	-- Soul of Animalistic Expertise
+i(236642),	-- Mender's Handwraps
+i(236643),	-- Nightwatcher's Gloves
+i(236644),	-- Mourner's Handguards
+i(236645),	-- Lightwielder's Gauntlets
+i(236656),	-- Frozen Rune
+i(236657),	-- Bubbles' Rotting Branch
+i(236658),	-- Bubbles' Spine Trophy
+i(236660),	-- Bubbles' Troll Tusk
+i(236661),	-- Bubbles' Ribcage of Ribaldy
+i(236662),	-- Reins of War
+i(236663),	-- Reins of Conquest
+i(236664),	-- Reins of Death
+i(236665),	-- Reins of Famine
+i(236690),	-- Glacial Cloak
+i(236692),	-- Glacial Gloves
+i(236693),	-- Glacial Wrists
+i(236694),	-- Glacial Vest
+i(236695),	-- Icebane Breastplate
+i(236696),	-- Icebane Bracers
+i(236697),	-- Icebane Gauntlets
+i(236698),	-- Icy Scale Bracers
+i(236699),	-- Icy Scale Breastplate
+i(236700),	-- Icy Scale Gauntlets
+i(236701),	-- Polar Bracers
+i(236702),	-- Polar Tunic
+i(236703),	-- Polar Gloves
+i(236704),	-- Frosty Wrists
+i(236705),	-- Frosty Gloves
+i(236706),	-- Frosty Vest
+i(236707),	-- Tunic of Undead Slaying
+i(236708),	-- Breastplate of Undead Slaying
+i(236709),	-- Chestguard of Undead Slaying
+i(236710),	-- Wristguards of Undead Slaying
+i(236711),	-- Wristwraps of Undead Slaying
+i(236712),	-- Bracers of Undead Slaying
+i(236713),	-- Handwraps of Undead Slaying
+i(236714),	-- Gauntlets of Undead Slaying
+i(236715),	-- Handguards of Undead Slaying
+i(236716),	-- Bracers of Undead Cleansing
+i(236717),	-- Gloves of Undead Cleansing
+i(236718),	-- Robe of Undead Cleansing
+i(236719),	-- Bracers of Undead Purification
+i(236720),	-- Gloves of Undead Purification
+i(236721),	-- Robe of Undead Purification
+i(236722),	-- Bracers of Undead Warding
+i(236723),	-- Gloves of Undead Warding
+i(236724),	-- Robe of Undead Warding
+i(236725),	-- Wristwraps of Undead Cleansing
+i(236726),	-- Handwraps of Undead Cleansing
+i(236727),	-- Tunic of Undead Cleansing
+i(236728),	-- Wristwraps of Undead Purification
+i(236729),	-- Handwraps of Undead Purification
+i(236730),	-- Tunic of Undead Purification
+i(236731),	-- Wristwraps of Undead Warding
+i(236732),	-- Handwraps of Undead Warding
+i(236733),	-- Tunic of Undead Warding
+i(236734),	-- Wristguards of Undead Cleansing
+i(236735),	-- Handguards of Undead Cleansing
+i(236736),	-- Chestguard of Undead Cleansing
+i(236737),	-- Wristguards of Undead Warding
+i(236738),	-- Handguards of Undead Warding
+i(236739),	-- Chestguard of Undead Warding
+i(236740),	-- Wristguards of Undead Purification
+i(236741),	-- Handguards of Undead Purification
+i(236742),	-- Chestguard of Undead Purification
+i(236743),	-- Bracers of Undead Purification
+i(236744),	-- Gauntlets of Undead Purification
+i(236745),	-- Breastplate of Undead Purification
+i(236746),	-- Bracers of Undead Warding
+i(236747),	-- Gauntlets of Undead Warding
+i(236748),	-- Breastplate of Undead Warding
+i(236750),	-- Heart of Doom
+i(236782),	-- Sairuh's Collar
+i(236786),	-- Heart of Doom
+i(236871),	-- Creepy Censor Sensors
+i(236872),	-- Schematic: Creepy Censor Sensors
 2.5.1.38043
 i(20470),	-- nian's Scrying Orb \\ Solanian's Scrying Orb
 i(20471),	-- ll of Scourge Magic \\ Scroll of Scourge Magic
@@ -18447,41 +19185,41 @@ i(65732),	-- icious Badges \\ Suspicious Badges
 i(65733),	-- on's Prayer Book \\ Paxton's Prayer Book
 i(65734),	-- ight Documents \\ Twilight Documents
 i(65745),	-- ial Sandals \\ Martial Sandals
-i(65747),	--
-i(65748),	--
-i(65749),	--
-i(65750),	--
-i(65751),	--
-i(65752),	--
-i(65753),	--
-i(65754),	--
-i(65755),	--
-i(65756),	--
-i(65757),	--
-i(65758),	--
-i(65759),	--
-i(65760),	--
-i(65761),	--
-i(65762),	--
-i(65763),	--
-i(65764),	--
-i(65765),	--
-i(65766),	--
-i(65767),	--
-i(65768),	--
-i(65769),	--
-i(65770),	--
-i(65771),	--
-i(65772),	--
-i(65777),	--
-i(65778),	--
-i(65779),	--
-i(65780),	--
-i(65781),	--
-i(65782),	--
-i(65783),	--
-i(65784),	--
-i(65785),	--
+i(65747),	-- 
+i(65748),	-- 
+i(65749),	-- 
+i(65750),	-- 
+i(65751),	-- 
+i(65752),	-- 
+i(65753),	-- 
+i(65754),	-- 
+i(65755),	-- 
+i(65756),	-- 
+i(65757),	-- 
+i(65758),	-- 
+i(65759),	-- 
+i(65760),	-- 
+i(65761),	-- 
+i(65762),	-- 
+i(65763),	-- 
+i(65764),	-- 
+i(65765),	-- 
+i(65766),	-- 
+i(65767),	-- 
+i(65768),	-- 
+i(65769),	-- 
+i(65770),	-- 
+i(65771),	-- 
+i(65772),	-- 
+i(65777),	-- 
+i(65778),	-- 
+i(65779),	-- 
+i(65780),	-- 
+i(65781),	-- 
+i(65782),	-- 
+i(65783),	-- 
+i(65784),	-- 
+i(65785),	-- 
 i(65812),	-- hare's Cabochon Charm \\ Namkhare's Cabochon Charm
 i(65877),	-- lman's Choker \\ Wheelman's Choker
 i(65879),	-- on Stabilizer \\ Cannon Stabilizer
@@ -22325,7 +23063,7 @@ i(74847),	-- Jade Squash \\ Squash
 i(74848),	-- Striped Melon \\ ped Melon
 i(74849),	-- Pink Turnip \\ Turnip
 i(74850),	-- White Turnip \\ e Turnip
-i(74851),	-- Rice \\
+i(74851),	-- Rice \\ 
 i(74852),	-- Yak Milk \\ Milk
 i(74854),	-- Instant Noodles \\ ant Noodles
 i(74925),	-- Meditation Candle \\ tation Candle
@@ -25034,11 +25772,11 @@ i(114243),	-- Abu'Gar's Finest Reel \\ Gar's Finest Reel
 i(114244),	-- GG-117 Micro-Jetpack \\ 17 Micro-Jetpack
 i(114245),	-- Abu'Gar's Favorite Lure \\ Gar's Favorite Lure
 i(114246),	-- "Skyterror" Personal Delivery System \\ terror" Personal Delivery System
-i(114279),	-- Ring \\
-i(114280),	-- Ring \\
-i(114281),	-- Ring \\
-i(114282),	-- Ring \\
-i(114283),	-- Ring \\
+i(114279),	-- Ring \\ 
+i(114280),	-- Ring \\ 
+i(114281),	-- Ring \\ 
+i(114282),	-- Ring \\ 
+i(114283),	-- Ring \\ 
 i(114285),	-- Fangtooth Ring \\ tooth Ring
 i(114286),	-- Melting Pureice Band \\ ing Pureice Band
 i(114287),	-- Ivy Bloodring \\ Bloodring
@@ -25054,11 +25792,11 @@ i(114304),	-- Spectral Ghost of Insight \\ tral Ghost of Insight
 i(114305),	-- Spectral Whisper of Healing \\ tral Whisper of Healing
 i(114306),	-- Spectral Claw of Might \\ tral Claw of Might
 i(114307),	-- Spectral Miasma of Fortitude \\ tral Miasma of Fortitude
-i(114342),	-- Ring \\
-i(114343),	-- Ring \\
-i(114344),	-- Ring \\
-i(114345),	-- Ring \\
-i(114346),	-- Ring \\
+i(114342),	-- Ring \\ 
+i(114343),	-- Ring \\ 
+i(114344),	-- Ring \\ 
+i(114345),	-- Ring \\ 
+i(114346),	-- Ring \\ 
 i(114348),	-- Arrow-Kissed Loop \\ w-Kissed Loop
 i(114349),	-- Shadowflame Seal \\ owflame Seal
 i(114350),	-- Transluminescent Band \\ sluminescent Band
@@ -25069,36 +25807,36 @@ i(114355),	-- Locket of Crackling Lightning \\ et of Crackling Lightning
 i(114356),	-- Sea Foam Pendant \\ Foam Pendant
 i(114357),	-- Scytheblade Choker \\ heblade Choker
 i(114358),	-- Choker of Binding Steel \\ er of Binding Steel
-i(114403),	-- Ring \\
-i(114404),	-- Ring \\
-i(114405),	-- Ring \\
-i(114406),	-- Ring \\
-i(114407),	-- Ring \\
+i(114403),	-- Ring \\ 
+i(114404),	-- Ring \\ 
+i(114405),	-- Ring \\ 
+i(114406),	-- Ring \\ 
+i(114407),	-- Ring \\ 
 i(114409),	-- Poisoner's Ring \\ oner's Ring
 i(114410),	-- Loop of Frozen Leaves \\ of Frozen Leaves
 i(114411),	-- Windfire Band \\ fire Band
 i(114412),	-- Valiant Soldier's Signet \\ ant Soldier's Signet
 i(114413),	-- Doomed Guardian's Band \\ ed Guardian's Band
-i(114464),	-- Ring \\
-i(114465),	-- Ring \\
-i(114466),	-- Ring \\
-i(114467),	-- Ring \\
-i(114468),	-- Ring \\
+i(114464),	-- Ring \\ 
+i(114465),	-- Ring \\ 
+i(114466),	-- Ring \\ 
+i(114467),	-- Ring \\ 
+i(114468),	-- Ring \\ 
 i(114470),	-- Stealthy Hunter's Band \\ lthy Hunter's Band
 i(114471),	-- Mindstalker Seal \\ stalker Seal
 i(114472),	-- Loop of Soothing Visions \\ of Soothing Visions
 i(114473),	-- Calcified Finger of Dread \\ ified Finger of Dread
 i(114474),	-- Unbowed Signet \\ wed Signet
-i(114525),	-- Ring \\
-i(114526),	-- Ring \\
-i(114527),	-- Ring \\
-i(114528),	-- Ring \\
-i(114529),	-- Ring \\
-i(114586),	-- RING \\
-i(114587),	-- Ring \\
-i(114588),	-- RING \\
-i(114589),	-- RING \\
-i(114590),	-- RING \\
+i(114525),	-- Ring \\ 
+i(114526),	-- Ring \\ 
+i(114527),	-- Ring \\ 
+i(114528),	-- Ring \\ 
+i(114529),	-- Ring \\ 
+i(114586),	-- RING \\ 
+i(114587),	-- Ring \\ 
+i(114588),	-- RING \\ 
+i(114589),	-- RING \\ 
+i(114590),	-- RING \\ 
 i(114610),	-- Formidable Jar of Doom \\ idable Jar of Doom
 i(114611),	-- Formidable Orb of Putrescence \\ idable Orb of Putrescence
 i(114612),	-- Formidable Censer of Faith \\ idable Censer of Faith
@@ -25278,7 +26016,7 @@ i(115978),	-- Enchant Weapon - Glory of the Frostwolf \\ ant Weapon - Glory of t
 i(116020),	-- An Old Key \\ ld Key
 i(116024),	-- Holy Tome \\ Tome
 i(116054),	-- Garden \\ en
-i(116055),	-- Mine \\
+i(116055),	-- Mine \\ 
 i(116063),	-- Prestige Card: The Turn \\ tige Card: The Turn
 i(116068),	-- Ring of Promises \\ of Promises
 i(116069),	-- Misappropriated Draenic Texts \\ ppropriated Draenic Texts
@@ -25778,7 +26516,7 @@ i(120180),	-- Ogre Cage Key \\ Cage Key
 i(120181),	-- Giants' Stash of Weapons \\ ts' Stash of Weapons
 i(120183),	-- Excess Potion of Accumulated Power \\ ss Potion of Accumulated Power
 i(120204),	-- Forged Weapons and Armor \\ ed Weapons and Armor
-i(120205),	-- XP \\
+i(120205),	-- XP \\ 
 i(120263),	-- Unstable Ensorcelled Tarot \\ able Ensorcelled Tarot
 i(120264),	-- Unstable Greater Ensorcelled Tarot \\ able Greater Ensorcelled Tarot
 i(120269),	-- Autographed Portrait of Jaina Proudmoore \\ graphed Portrait of Jaina Proudmoore
@@ -26705,7 +27443,7 @@ i(130246),	-- Saber's Eye of Strength \\ r's Eye of Strength
 i(130247),	-- Saber's Eye of Agility \\ r's Eye of Agility
 i(130248),	-- Saber's Eye of Intellect \\ r's Eye of Intellect
 i(130250),	-- Jeweled Lockpick \\ led Lockpick
-i(130252),	-- Hack \\
+i(130252),	-- Hack \\ 
 i(130253),	-- Slash \\ h
 i(130255),	-- Latara's Bow \\ ra's Bow
 i(130257),	-- Pocket Friend \\ et Friend
@@ -27016,7 +27754,6 @@ i(133513),	-- Spikehide Dew \\ ehide Dew
 i(133514),	-- Rigid Stick \\ d Stick
 i(133515),	-- Mistbreaker Pheromones \\ breaker Pheromones
 i(133516),	-- Sakarthiss' Trident \\ rthiss' Trident
-i(133522),	-- Ring of Torn Flesh \\ of Torn Flesh
 i(133545),	-- "New!" Kaja'Cola \\ !" Kaja'Cola
 i(133552),	-- New Recruit \\ Recruit
 i(133553),	-- Damaged Night Elven Artifact \\ ged Night Elven Artifact
@@ -27030,7 +27767,7 @@ i(133583),	-- Warmongering Gladiator's Runeaxe \\ ongering Gladiator's Runeaxe
 i(133586),	-- Illidari Waterskin \\ dari Waterskin
 i(133587),	-- Broken Eye Protectors \\ en Eye Protectors
 i(133588),	-- Flaked Sea Salt \\ ed Sea Salt
-i(133589),	-- Dalape�o Pepper \\ Dalapeño Pepper \\ Dalape�o Pepper \\ pe�o Pepper
+i(133589),	-- Dalape�o Pepper \\ Dalapeño Pepper \\ Dalape�o Pepper \\ pe�o Pepper
 i(133590),	-- Muskenbutter \\ enbutter
 i(133591),	-- River Onion \\ r Onion
 i(133592),	-- Stonedark Snail \\ edark Snail
@@ -27585,7 +28322,7 @@ i(137597),	-- Oily Transmutagen \\ Transmutagen
 i(137598),	-- Pearl of Arcane Wisdom \\ l of Arcane Wisdom
 i(137601),	-- Stack of Letters \\ k of Letters
 i(137604),	-- Unstable Riftstone \\ able Riftstone
-i(137609),	-- Wood \\
+i(137609),	-- Wood \\ 
 i(137610),	-- Intact Greatstag Antler \\ ct Greatstag Antler
 i(137611),	-- Pristine Eagle Tailfeather \\ tine Eagle Tailfeather
 i(137612),	-- Raw Meat \\ Meat
@@ -27764,7 +28501,7 @@ i(138814),	-- Adventurer's Renown \\ nturer's Renown
 i(138815),	-- Old Grizzleback's Staff \\ Grizzleback's Staff
 i(138816),	-- Adventurer's Glory \\ nturer's Glory
 i(138817),	-- Demonic Runestone \\ nic Runestone
-i(138826),	-- ???? \\
+i(138826),	-- ???? \\ 
 i(138830),	-- Demonic Logbook on Uthalesh \\ nic Logbook on Uthalesh
 i(138839),	-- Valiant's Glory \\ ant's Glory
 i(138849),	-- Demonic Logbook on Thal'kiel \\ nic Logbook on Thal'kiel
@@ -28044,7 +28781,6 @@ i(139837),	-- Demon's Sigil \\ n's Sigil
 i(139838),	-- Essence of Malice \\ nce of Malice
 i(139839),	-- Voodoo Post \\ oo Post
 i(139840),	-- Earthly Pincer \\ hly Pincer
-i(139841),	-- Totem of the Earth \\ m of the Earth
 i(139842),	-- Furious Charge \\ ous Charge
 i(139843),	-- Conjurer's Bauble \\ urer's Bauble
 i(139844),	-- Arcanist's Trifle \\ nist's Trifle
@@ -28385,7 +29121,7 @@ i(140629),	-- Bottled Maelstrom \\ led Maelstrom
 i(140631),	-- Nightpear \\ tpear
 i(140635),	-- Notable Antiquities of Ancient Azeroth \\ ble Antiquities of Ancient Azeroth
 i(140654),	-- Pestilential Hide of Nythendra \\ ilential Hide of Nythendra
-i(140655),	-- Log \\
+i(140655),	-- Log \\ 
 i(140668),	-- Meaty Racks of Musken Ribs \\ y Racks of Musken Ribs
 i(140679),	-- NeverMelt Ice Cream \\ rMelt Ice Cream
 i(140685),	-- Enchanted Sunrunner Kidney \\ anted Sunrunner Kidney
@@ -29323,7 +30059,7 @@ i(147563),	-- Stone Totem \\ e Totem
 i(147564),	-- Diamond Stone \\ ond Stone
 i(147565),	-- Book of Lost Sermons \\ of Lost Sermons
 i(147566),	-- Horn of Valor \\ of Valor
-i(147567),	-- Soothing Focus \\
+i(147567),	-- Soothing Focus \\ 
 i(147568),	-- Essence of Nether \\ nce of Nether
 i(147569),	-- Arcane Trap \\ ne Trap
 i(147570),	-- Dreamgrove Leaf \\ mgrove Leaf
@@ -31220,9 +31956,6 @@ i(161989),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of the Feather
 i(161992),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of Resilience
 i(162001),	-- Heavy Iron Key
 i(162003),	-- Dread Combatant's Pummeler \\ PH Combatant's Pummeler
-i(162010),	-- Valley Truffle
-i(162011),	-- Violet Truffle
-i(162012),	-- Magic Truffle
 i(162014),	-- PH Gladiator's Reprieve
 i(162015),	-- PH Gladiator's Reprieve
 i(162018),	-- Dread Combatant's Shanker \\ PH Combatant's Shanker
@@ -31557,7 +32290,6 @@ i(163544),	-- Scroll of Agile Swimming
 i(163545),	-- Scroll of Ocean Ferocity
 i(163546),	-- Scroll of the Forked Tongue
 i(163547),	-- Mission Report
-i(163558),	-- Sporonite Bomb
 i(163562),	-- Blightcaller's Easy Death
 i(163563),	-- Primitive Watermelon
 i(163564),	-- Extra-dry Fruitcake
@@ -31600,10 +32332,6 @@ i(163726),	-- Dread Aspirant's Band
 i(163727),	-- Dread Aspirant's Signet
 i(163728),	-- Dread Aspirant's Seal
 i(163734),	-- Bulging Coin Purse
-i(163746),	-- Old Flask
-i(163747),	-- Old Knife
-i(163748),	-- Old Hat
-i(163749),	-- Old Crossbow
 i(163751),	-- Demolisher Controller
 i(163752),	-- Signet of Orgrimmar
 i(163753),	-- Deepforged Plating

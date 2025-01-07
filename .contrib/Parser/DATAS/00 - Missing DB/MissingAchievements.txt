@@ -1,1 +1,246 @@
-
+11.1.0.58221
+ach(40894),	-- Sojourner of Undermine
+ach(40900),	-- Undermined
+ach(40908),	-- Demolition Superdome matches
+ach(40909),	-- Demolition Superdome victories
+ach(40911),	-- The War Within Season 2: Master Blaster
+ach(40912),	-- Skyrocketing Sprint: Bronze
+ach(40913),	-- Skyrocketing Sprint: Silver
+ach(40914),	-- Skyrocketing Sprint: Gold
+ach(40915),	-- Skyrocketing Sprint Reverse: Bronze
+ach(40916),	-- Skyrocketing Sprint Reverse: Silver
+ach(40917),	-- Skyrocketing Sprint Reverse: Gold
+ach(40918),	-- The Heaps Leap: Bronze
+ach(40919),	-- The Heaps Leap: Silver
+ach(40920),	-- The Heaps Leap: Gold
+ach(40921),	-- The Heaps Leap Reverse: Bronze
+ach(40922),	-- The Heaps Leap Reverse: Silver
+ach(40923),	-- The Heaps Leap Reverse: Gold
+ach(40924),	-- Scrapshop Shot: Bronze
+ach(40925),	-- Scrapshop Shot: Silver
+ach(40926),	-- Scrapshop Shot: Gold
+ach(40927),	-- Scrapshop Shot Reverse: Bronze
+ach(40928),	-- Scrapshop Shot Reverse: Silver
+ach(40929),	-- Scrapshop Shot Reverse: Gold
+ach(40930),	-- Rags to Riches Rush: Bronze
+ach(40931),	-- Rags to Riches Rush: Silver
+ach(40932),	-- Rags to Riches Rush: Gold
+ach(40933),	-- Rags to Riches Rush Reverse: Bronze
+ach(40934),	-- Rags to Riches Rush Reverse: Silver
+ach(40935),	-- Rags to Riches Rush Reverse: Gold
+ach(40936),	-- Undermine Skyrocketing: Bronze
+ach(40937),	-- Undermine Skyrocketing: Silver
+ach(40938),	-- Undermine Skyrocketing: Gold
+ach(40942),	-- Weathered of the Undermine
+ach(40943),	-- Carved of the Undermine
+ach(40944),	-- Runed of the Undermine
+ach(40945),	-- Gilded of the Undermine
+ach(40948),	-- Nine-Tenths of the Law
+ach(40949),	-- The War Within Keystone Explorer: Season Two
+ach(40950),	-- The War Within Keystone Conqueror: Season Two
+ach(40951),	-- The War Within Keystone Legend: Season Two
+ach(40952),	-- The War Within Keystone Hero: Season Two
+ach(40954),	-- Enterprising Hero: The War Within Season Two
+ach(40965),	-- Keystone Hero: The MOTHERLODE!!
+ach(40966),	-- Keystone Hero: Operation: Mechagon - Workshop
+ach(41016),	-- Rival I: The War Within Season 2
+ach(41017),	-- Rival II: The War Within Season 2
+ach(41018),	-- Duelist: The War Within Season 2
+ach(41019),	-- Elite: The War Within Season 2
+ach(41020),	-- Combatant I: The War Within Season 2
+ach(41021),	-- Combatant II: The War Within Season 2
+ach(41022),	-- Challenger I: The War Within Season 2
+ach(41023),	-- Challenger II: The War Within Season 2
+ach(41032),	-- Gladiator: The War Within Season 2
+ach(41047),	-- Prized Weapons of Conquest
+ach(41057),	-- Breakneck Bolt: Bronze
+ach(41058),	-- Breakneck Bolt: Silver
+ach(41059),	-- Breakneck Bolt: Gold
+ach(41060),	-- Breakneck Bolt Reverse: Bronze
+ach(41061),	-- Breakneck Bolt Reverse: Silver
+ach(41062),	-- Breakneck Bolt Reverse: Gold
+ach(41063),	-- Junkyard Jaunt: Bronze
+ach(41064),	-- Junkyard Jaunt: Silver
+ach(41065),	-- Junkyard Jaunt: Gold
+ach(41066),	-- Junkyard Jaunt Reverse: Bronze
+ach(41067),	-- Junkyard Jaunt Reverse: Silver
+ach(41068),	-- Junkyard Jaunt Reverse: Gold
+ach(41069),	-- Casino Cruise: Bronze
+ach(41070),	-- Casino Cruise: Silver
+ach(41071),	-- Casino Cruise: Gold
+ach(41072),	-- Casino Cruise Reverse: Bronze
+ach(41073),	-- Casino Cruise Reverse: Silver
+ach(41074),	-- Casino Cruise Reverse: Gold
+ach(41075),	-- Sandy Scuttle: Bronze
+ach(41076),	-- Sandy Scuttle: Silver
+ach(41077),	-- Sandy Scuttle: Gold
+ach(41078),	-- Sandy Scuttle Reverse: Bronze
+ach(41079),	-- Sandy Scuttle Reverse: Silver
+ach(41080),	-- Sandy Scuttle Reverse: Gold
+ach(41081),	-- Undermine Breaknecking: Bronze
+ach(41083),	-- Undermine Breaknecking: Silver
+ach(41084),	-- Undermine Breaknecking: Gold
+ach(41086),	-- Ally of Undermine
+ach(41092),	-- Undermine Safari
+ach(41095),	-- Delve Beyond
+ach(41096),	-- Delve Infinite
+ach(41097),	-- Curiosity Never Killed the Looter
+ach(41098),	-- Excavation Site 9 Stories
+ach(41099),	-- Sidestreet Sluice Stories
+ach(41100),	-- Excavation Site 9 Discoveries
+ach(41101),	-- Sidestreet Sluice Discoveries
+ach(41102),	-- Excavation Site 9 clears
+ach(41103),	-- [PH] Undermine Delve clears
+ach(41104),	-- [PH] Demolition Dome clears
+ach(41105),	-- Prodigious Plentiful Perplexing Puzzles
+ach(41106),	-- Algari Delver Damage Dealer
+ach(41107),	-- Algari Delver Healer
+ach(41108),	-- Algari Delver Tank
+ach(41109),	-- Algari Delver Damage Dealer II
+ach(41110),	-- Algari Delver Damage Dealer III
+ach(41111),	-- Algari Delver Healer II
+ach(41112),	-- Algari Delver Healer III
+ach(41113),	-- Algari Delver Tank II
+ach(41114),	-- Algari Delver Tank III
+ach(41115),	-- Algari Delver
+ach(41116),	-- Algari Delver II
+ach(41119),	-- One Rank Higher
+ach(41120),	-- Two Ranks Higher
+ach(41121),	-- Three Ranks Higher
+ach(41122),	-- Best In Class
+ach(41128),	-- Prized Combatant
+ach(41129),	-- Prized Combatant
+ach(41191),	-- War Within Delves: Tier 4 (Season 2)
+ach(41192),	-- War Within Delves: Tier 5 (Season 2)
+ach(41193),	-- War Within Delves: Tier 7 (Season 2)
+ach(41194),	-- War Within Delves: Tier 8 (Season 2)
+ach(41195),	-- War Within Delves: Tier 9 (Season 2)
+ach(41196),	-- War Within Delves: Tier 10 (Season 2)
+ach(41197),	-- War Within Delves: Tier 11 (Season 2)
+ach(41198),	-- War Within Delves: Tier 6 (Season 2)
+ach(41208),	-- Hold My Gear!
+ach(41210),	-- Let Me Solo Him: The Underpin
+ach(41211),	-- A Good Day to Dye Hard
+ach(41214),	-- Under the Echoes
+ach(41215),	-- Echoes of Deeper Dangers
+ach(41216),	-- Adventurer of Undermine
+ach(41217),	-- Treasures of Undermine
+ach(41222),	-- Liberation of Undermine
+ach(41223),	-- Heroic: Liberation of Undermine
+ach(41224),	-- Mythic: Liberation of Undermine
+ach(41225),	-- Shock and Awesome
+ach(41226),	-- Maniacle Machinist
+ach(41227),	-- Beating the Odds
+ach(41228),	-- Fall of the Chrome King
+ach(41229),	-- Mythic: Vexie and the Geargrinders
+ach(41230),	-- Mythic: Cauldron of Carnage
+ach(41231),	-- Mythic: Rik Reverb
+ach(41232),	-- Mythic: Stix Bunkjunker
+ach(41233),	-- Mythic: Sprocketmonger Locknstock
+ach(41234),	-- Mythic: The One-Armed Bandit
+ach(41235),	-- Mythic: Mug'Zee, Heads of Security
+ach(41236),	-- Mythic: Chrome King Gallywix
+ach(41286),	-- Glory of the Liberation of Undermine Raider
+ach(41289),	-- Liberation of Undermine Guild Run
+ach(41290),	-- Heroic Liberation of Undermine Guild Run
+ach(41292),	-- Mythic: Chrome King Gallywix Guild Run
+ach(41296),	-- Hall of Fame: Chrome King Gallywix
+ach(41297),	-- Cutting Edge: Chrome King Gallywix
+ach(41298),	-- Ahead of the Curve: Chrome King Gallywix
+ach(41299),	-- Vexie and the Geargrinders (Raid Finder Liberation of Undermine)
+ach(41300),	-- Vexie and the Geargrinders (Normal Liberation of Undermine)
+ach(41301),	-- Vexie and the Geargrinders (Heroic Liberation of Undermine)
+ach(41302),	-- Vexie and the Geargrinders Mythic Liberation of Undermine)
+ach(41303),	-- Cauldron of Carnage (Raid Finder Liberation of Undermine)
+ach(41304),	-- Cauldron of Carnage (Normal Liberation of Undermine)
+ach(41305),	-- Cauldron of Carnage (Heroic Liberation of Undermine)
+ach(41306),	-- Cauldron of Carnage (Mythic Liberation of Undermine)
+ach(41307),	-- Rik Reverb (Raid Finder Liberation of Undermine)
+ach(41308),	-- Rik Reverb (Normal Liberation of Undermine)
+ach(41309),	-- Rik Reverb (Heroic Liberation of Undermine)
+ach(41310),	-- Rik Reverb (Mythic Liberation of Undermine)
+ach(41311),	-- Stix Bunkumker (Raid Finder Liberation of Undermine)
+ach(41312),	-- Stix Bunkumker (Normal Liberation of Undermine)
+ach(41313),	-- Stix Bunkumker (Heroic Liberation of Undermine)
+ach(41314),	-- Stix Bunkumker (Mythic Liberation of Undermine)
+ach(41315),	-- Sprocketmonger Locknstock (Raid Finder Liberation of Undermine)
+ach(41316),	-- Sprocketmonger Locknstock (Normal Liberation of Undermine)
+ach(41317),	-- Sprocketmonger Locknstock (Heroic Liberation of Undermine)
+ach(41318),	-- Sprocketmonger Locknstock (Mythic Liberation of Undermine)
+ach(41319),	-- The One-Armed Bandit (Raid Finder Liberation of Undermine)
+ach(41320),	-- The One-Armed Bandit (Normal Liberation of Undermine)
+ach(41321),	-- The One-Armed Bandit (Heroic Liberation of Undermine)
+ach(41322),	-- The One-Armed Bandit (Mythic Liberation of Undermine)
+ach(41323),	-- Mug'Zee, Heads of Security (Raid Finder Liberation of Undermine)
+ach(41324),	-- Mug'Zee, Heads of Security (Normal Liberation of Undermine)
+ach(41325),	-- Mug'Zee, Heads of Security (Heroic Liberation of Undermine)
+ach(41326),	-- Mug'Zee, Heads of Security (Mythic Liberation of Undermine)
+ach(41327),	-- Chrome King Gallywix (Raid Finder Liberation of Undermine)
+ach(41328),	-- Chrome King Gallywix (Normal Liberation of Undermine)
+ach(41329),	-- Chrome King Gallywix (Heroic Liberation of Undermine)
+ach(41330),	-- Chrome King Gallywix (Mythic Liberation of Undermine)
+ach(41331),	-- G-99 Breakneck <Tracking Achievement>
+ach(41337),	-- Sleep with the Fishes
+ach(41338),	-- Just /Dance
+ach(41339),	-- Operation: Floodgate
+ach(41340),	-- Heroic: Operation: Floodgate
+ach(41341),	-- Mythic: Operation: Floodgate
+ach(41342),	-- Geezle Gigazap (Normal Operation: Floodgate)
+ach(41343),	-- Geezle Gigazap (Heroic Operation: Floodgate)
+ach(41344),	-- Geezle Gigazap (Mythic Operation: Floodgate)
+ach(41347),	-- Scheming on a Thing
+ach(41348),	-- Keystone Hero: Operation: Floodgate
+ach(41349),	-- In with the Cartels
+ach(41350),	-- A Long Fuse
+ach(41351),	-- Cartels Bestie
+ach(41352),	-- Trade-Duke
+ach(41354),	-- Prized Gladiator: The War Within Season 2
+ach(41355),	-- Prized Legend: The War Within Season 2
+ach(41356),	-- Prized Warlord: The War Within Season 2
+ach(41357),	-- Prized Marshal: The War Within Season 2
+ach(41358),	-- Legend: The War Within Season 2
+ach(41359),	-- Battle Mender: The War Within Season 2
+ach(41360),	-- Hero of the Horde: Prized
+ach(41361),	-- Hero of the Alliance: Prized
+ach(41362),	-- Prized Gladiator's Fel Bat
+ach(41363),	-- Strategist: The War Within Season 2
+ach(41364),	-- Earn and Tutorialize First Warband Camp (Not Used!) (DNT)
+ach(41365),	-- Season 2 - Defeated Underpin
+ach(41522),	-- Tour of Duty: Undermine
+ach(41525),	-- Can You Please Spell "Gobanna?"
+ach(41529),	-- Breaking the Bank
+ach(41530),	-- My New Nemesis
+ach(41531),	-- The Hataclysm
+ach(41532),	-- I've Got a Flying Machine?
+ach(41533),	-- The War Within Keystone Master: Season Two
+ach(41537),	-- [NYI] Buddy System VII
+ach(41541),	-- Critter Battler of Undermine
+ach(41542),	-- Aquatic Battler of Undermine
+ach(41543),	-- Beast Battler of Undermine
+ach(41544),	-- Dragonkin Battler of Undermine
+ach(41545),	-- Elemental Battler of Undermine
+ach(41546),	-- Flying Battler of Undermine
+ach(41547),	-- Humanoid Battler of Undermine
+ach(41548),	-- Magic Battler of Undermine
+ach(41549),	-- Mechanical Battler of Undermine
+ach(41550),	-- Undead Battler of Undermine
+ach(41551),	-- Family Battler of Undermine
+ach(41554),	-- The Splash Zone
+ach(41555),	-- All That Khaz
+ach(41586),	-- Racing to a Revolution
+ach(41587),	-- Explore Undermine
+ach(41588),	-- Read Between the Lines
+ach(41589),	-- That Can-Do Attitude
+ach(41590),	-- No Littering
+ach(41591),	-- Really No Littering
+ach(41592),	-- Absolutely Zero Littering
+ach(41593),	-- Cleanin' the Streets
+ach(41594),	-- Can You Believe What People Throw Away?
+ach(41595),	-- Prized Guise
+ach(41596),	-- Garbage In, Garbage Out
+ach(41626),	-- C.H.E.T.T. a Look
+ach(41627),	-- C.H.E.T.T.ing it Twice
+ach(41629),	-- C.H.E.T.T.mate
+ach(41630),	-- "Employee" of the Month
+ach(41665),	-- Dressed to the Mines
+ach(41683),	-- Khaz Algar Safari (copy)

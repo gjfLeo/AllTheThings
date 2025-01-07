@@ -1,6 +1,8 @@
 1.15.5.57537
 r(470359),	-- Darkclaw Bisque
 r(470370),	-- Smoked Redgill
+11.1.0.58221
+r(1218414),	-- Authentic Undermine Clam Chowder
 
 
 
@@ -10,3 +12,5 @@ Missing in Cooking.lua
 1.15.5.57537
 r(470359),	-- Darkclaw Bisque
 r(470370),	-- Smoked Redgill
+11.1.0.58221
+r(1218414),	-- Authentic Undermine Clam Chowder

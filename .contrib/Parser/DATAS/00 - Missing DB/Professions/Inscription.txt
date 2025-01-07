@@ -646,11 +646,10 @@ r(382990),	-- Northrend Milling
 r(382991),	-- Outland Milling
 r(382994),	-- Classic Milling
 11.0.7.57361
-r(1213512),	-- Glyph of the Twilight Pistol Shot
-r(1213514),	-- Glyph of the Gilded Pistol Shot
-r(1213515),	-- Glyph of the Admiral's Pistol Shot
 r(1213516),	--
-r(1213517),	-- Glyph of the Ashvane Pistol Shot
+11.1.0.58221
+r(471132),	-- Contract: The Cartels of Undermine
+r(472951),	-- Vantus Rune: Undermine
 
 
 
@@ -668,8 +667,7 @@ r(1216290),	-- Bloodthirsty Eyeball of Dominance
 r(1216316),	-- Bloodthirsty Charm of Triumph
 r(1216317),	-- Bloodthirsty Jawbone of Conquest
 11.0.7.57361
-r(1213512),	-- Glyph of the Twilight Pistol Shot
-r(1213514),	-- Glyph of the Gilded Pistol Shot
-r(1213515),	-- Glyph of the Admiral's Pistol Shot
 r(1213516),	--
-r(1213517),	-- Glyph of the Ashvane Pistol Shot
+11.1.0.58221
+r(471132),	-- Contract: The Cartels of Undermine
+r(472951),	-- Vantus Rune: Undermine

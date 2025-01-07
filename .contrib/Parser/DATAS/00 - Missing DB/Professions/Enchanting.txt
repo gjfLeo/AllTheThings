@@ -29,6 +29,16 @@ r(1216024),	-- Idol of Ursin Power
 1.15.5.57716
 r(1217189),	-- Enchant Bracer - Spell Power
 r(1217203),	-- Enchant Bracer - Agility
+1.15.6.58185
+r(1219577),	-- Enchant Off-Hand - Superior Intellect
+r(1219578),	-- Enchant Off-Hand - Excellent Spirit
+r(1219579),	-- Enchant Off-Hand - Wisdom
+r(1219580),	-- Enchant 2H Weapon - Spellblasting
+r(1219581),	-- Enchant Shield - Excellent Stamina
+r(1219586),	-- Enchant Gloves - Superior Strength
+r(1219587),	-- Enchant Cloak - Agility
+r(1220623),	-- Enchant Shield - Critical Strike
+r(1220624),	-- Enchant Bracer - Greater Spellpower
 
 
 
@@ -64,3 +74,13 @@ r(1216024),	-- Idol of Ursin Power
 1.15.5.57716
 r(1217189),	-- Enchant Bracer - Spell Power
 r(1217203),	-- Enchant Bracer - Agility
+1.15.6.58185
+r(1219577),	-- Enchant Off-Hand - Superior Intellect
+r(1219578),	-- Enchant Off-Hand - Excellent Spirit
+r(1219579),	-- Enchant Off-Hand - Wisdom
+r(1219580),	-- Enchant 2H Weapon - Spellblasting
+r(1219581),	-- Enchant Shield - Excellent Stamina
+r(1219586),	-- Enchant Gloves - Superior Strength
+r(1219587),	-- Enchant Cloak - Agility
+r(1220623),	-- Enchant Shield - Critical Strike
+r(1220624),	-- Enchant Bracer - Greater Spellpower

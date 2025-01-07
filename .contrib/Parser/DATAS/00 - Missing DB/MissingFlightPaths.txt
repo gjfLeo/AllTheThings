@@ -9,3 +9,10 @@ fp(2967),	-- Quest Path 9870: 11.0 Raid - Nerubian - Zone - Thread Elevator - 04
 fp(2972),	-- Jeff the Flightmaster
 11.0.2.55665
 fp(2987),	-- The Congealing Pool (One-way)
+11.1.0.58221
+fp(2988),	-- The Incontinental Hotel
+fp(2996),	-- The Heaps
+fp(2997),	-- Slam Central Station
+fp(2998),	-- Demolition Dome
+fp(2999),	-- The Gallagio
+fp(3000),	-- Gutterville, The Ringing Deeps
