@@ -101,13 +101,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["coord"] = { 26.6, 23.9, 2375 },
 					["questID"] = 85859,
 				}),
-				-- seems like can be looted only in storm phase
 				n(230827, {	-- Stormtouched Pridetalon
 					i(234379),	-- Crackleroar (PET!)
 				}),
-				i(232605),	-- Thunderous Fragment (TODO: probably need a better way to code it)
-				i(232573, {	-- Thunderous Runekey
-					["cost"] = {{"i", 232605, 5 }},
+				i(234327, {	-- Turbulent Fragment
+					["coords"] = {
+						{ 38.19, 51.78, SIREN_ISLE },
+						{ 67.07, 78.44, SIREN_ISLE },
+						{ 52.39, 38.59, SIREN_ISLE },
+					},
+					["description"] = "Western coordinates fragment is gathered from a dirtpile, next to a Kul Tiran Ghost.\nSouthern coordinates Fragment in front of a ghost inside a cave.\nNorthern coordinates Fragment is found in the hands of a ghost in another cave.",
+					["groups"] = {
+						i(232570, {	-- Turbulent Runekey
+							["cost"] = {{"i", 234327, 3 }},
+						}),
+					},
+				}),
+				i(232605, {	-- Thunderous Fragment
+					i(232573, {	-- Thunderous Runekey
+						["cost"] = {{"i", 232605, 5 }},
+					}),
 				}),
 			}),
 			n(WORLD_QUESTS, {
