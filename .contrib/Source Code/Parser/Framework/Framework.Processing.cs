@@ -2626,16 +2626,39 @@ namespace ATT
             // See if there's a Spell and what it links to
             if (data.TryGetValue("spellID", out long spellID))
             {
-                if (!TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
+                if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
+                {
+                    foreach (SpellEffect spellEffect in spellEffects)
+                    {
+                        Incorporate_SpellEffect(data, spellEffect);
+                    }
+                }
+                else
                 {
                     // quite spammy now with all Items being incorporated
                     //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
-                    return;
                 }
+            }
 
-                foreach (SpellEffect spellEffect in spellEffects)
+            // See what direct ItemXItemEffects are linked to this Item
+            if (TryGetTypeDBObjectCollection(itemID, out List<ItemXItemEffect> itemXItemEffects))
+            {
+                foreach (ItemXItemEffect itemXItemEffect in itemXItemEffects)
                 {
-                    Incorporate_SpellEffect(data, spellEffect);
+                    if (!TryGetTypeDBObject(itemXItemEffect.ItemEffectID, out ItemEffect itemEffect))
+                        continue;
+
+                    // we may have already incorporated the specific SpellID above from the direct Item data
+                    if (itemEffect.SpellID == spellID)
+                        continue;
+
+                    if (TryGetTypeDBObjectCollection(itemEffect.SpellID, out List<SpellEffect> spellEffects))
+                    {
+                        foreach (SpellEffect spellEffect in spellEffects)
+                        {
+                            Incorporate_SpellEffect(data, spellEffect);
+                        }
+                    }
                 }
             }
         }

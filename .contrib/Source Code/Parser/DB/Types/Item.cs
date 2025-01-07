@@ -55,6 +55,8 @@ namespace ATT.DB.Types
             {
                 data["spellID"] = spellID.Value;
             }
+            // big spam!
+            //Framework.LogDebug("INFO: Using Wago Item Data", data);
             return data;
         }
     }
