@@ -41,11 +41,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 			["coord"] = { 40.5, 57.7, AEGWYNNS_GALLERY },
 		}),
 		q(84446, {	-- Renown of Khaz Algar
-					["sourceQuests"] = { 79197 },	-- Surface Bound
-					["provider"] = { "n", 216149 },	-- Moira Thaurissan
-					["coord"] = { 36.1, 80.3, DORNOGAL },
-					["lockCriteria"] = { 1, "factionID", FACTION_COUNCIL_OF_DORNOGAL + 0.5 },    -- Council of Dornogal, Rank 5
-				}),
+			["sourceQuests"] = { 79197 },	-- Surface Bound
+			["provider"] = { "n", 216149 },	-- Moira Thaurissan
+			["coord"] = { 36.1, 80.3, DORNOGAL },
+			["lockCriteria"] = { 1, "renownID", FACTION_COUNCIL_OF_DORNOGAL + 0.05 },    -- Council of Dornogal, Rank 5
+		}),
 		header(HEADERS.Achievement, 20597, {	-- The War Within
 			header(HEADERS.AchCriteria, 20597.01, {	-- Against the Current
 				------ Chapter 1 ------

@@ -1230,6 +1230,23 @@ local criteriaFuncs = {
         return L.LOCK_CRITERIA_FACTION_FORMAT:format(faction.rankText, faction.name, faction.standingText);
     end,
 
+    renownID = function(v)
+		-- v = factionID.levelRequiredToLock
+		local factionID = math_floor(v + 0.00001);
+		local lockStanding = math_floor((v - factionID) * 100 + 0.00001);
+        local standing = app.CreateFaction(factionID).standing;
+		-- app.PrintDebug(("Check Renown %s Standing (%d) is locked @ (%d)"):format(factionID, standing, lockStanding))
+		return standing >= lockStanding;
+    end,
+	label_renownID = L.LOCK_CRITERIA_FACTION_LABEL,
+    text_renownID = function(v)
+		-- v = factionID.standingRequiredToLock
+		local factionID = math_floor(v + 0.00001);
+		local faction = app.CreateFaction(factionID);
+		faction.rank = math_floor((v - factionID) * 100 + 0.00001);
+        return L.LOCK_CRITERIA_FACTION_FORMAT:format(faction.rankText, faction.name, faction.standingText);
+    end,
+
     sourceID = function(sourceID)
 		return app.IsAccountCached("Sources", sourceID)
 	end,
