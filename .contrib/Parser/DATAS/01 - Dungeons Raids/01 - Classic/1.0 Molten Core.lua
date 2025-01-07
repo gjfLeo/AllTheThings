@@ -422,133 +422,36 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(17011),	-- Lava Core
 			}),
 			n(COMMON_BOSS_DROPS, {
-				i(18260, {	-- Formula: Enchant Weapon - Healing Power (RECIPE!)
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(18259, {	-- Formula: Enchant Weapon - Spellpower (RECIPE!)
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(18252, {	-- Pattern: Core Armor Kit (RECIPE!)
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(21371, {	-- Pattern: Core Felcloth Bag
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(18265, {	-- Pattern: Flarecore Wraps
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(18264, {	-- Plans: Elemental Sharpening Stone (RECIPE!)
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(18257, {	-- Recipe: Major Rejuvenation Potion (RECIPE!)
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(18290, {	-- Schematic: Biznicks 247x128 Accurascope (RECIPE!)
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				i(18292, {	-- Schematic: Core Marksman Rifle (RECIPE!)
+				["crs"] = {
+					12118,	-- Lucifron
+					11982,	-- Magmadar
+					12259,	-- Gehennas
+					12057,	-- Garr
+					12264,	-- Shazzrah
+					12056,	-- Baron Geddon
+					11988,	-- Golemagg the Incinerator
+				},
+				["groups"] = {
+					i(18260),	-- Formula: Enchant Weapon - Healing Power (RECIPE!)
+					i(18259),	-- Formula: Enchant Weapon - Spellpower (RECIPE!)
+					i(18252),	-- Pattern: Core Armor Kit (RECIPE!)
+					i(21371),	-- Pattern: Core Felcloth Bag
+					i(18265),	-- Pattern: Flarecore Wraps
+					i(18264),	-- Plans: Elemental Sharpening Stone (RECIPE!)
+					i(18257),	-- Recipe: Major Rejuvenation Potion (RECIPE!)
+					i(18290),	-- Schematic: Biznicks 247x128 Accurascope (RECIPE!)
+					i(18292, {	-- Schematic: Core Marksman Rifle (RECIPE!)
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { "removed 1.15.3" },
+						-- #endif
+					}),
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					applyclassicphase(SOD_PHASE_FOUR, i(228304, {	-- Schematic: Schematic: Fiery Core Sharpshooter Rifle (RECIPE!)
+						["timeline"] = { "added 1.15.3" },
+					})),
 					-- #endif
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
-				-- #if SEASON_OF_DISCOVERY
-				applyclassicphase(SOD_PHASE_FOUR, i(228304, {	-- Schematic: Schematic: Fiery Core Sharpshooter Rifle (RECIPE!)
-					["timeline"] = { "added 1.15.3" },
-					["crs"] = {
-						228429,	-- Lucifron
-						228430,	-- Magmadar
-						228431,	-- Gehennas
-						228432,	-- Garr
-						228434,	-- Shazzrah
-						228433,	-- Baron Geddon
-						228435,	-- Golemagg the Incinerator
-					},
-				})),
-				-- #endif
-				i(18291, {	-- Schematic: Force Reactive Disk (RECIPE!)
-					["crs"] = {
-						12118,	-- Lucifron
-						11982,	-- Magmadar
-						12259,	-- Gehennas
-						12057,	-- Garr
-						12264,	-- Shazzrah
-						12056,	-- Baron Geddon
-						11988,	-- Golemagg the Incinerator
-					},
-				}),
+					i(18291),	-- Schematic: Force Reactive Disk (RECIPE!)
+				},
 			}),
 			prof(MINING, {
 				i(11382),	-- Blood of the Mountain
@@ -1350,7 +1253,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						tokencost(231216, i(232200)),	-- Cord of Ten Storms
 						tokencost(231218, i(232202)),	-- Kilt of Ten Storms
 						tokencost(231220, i(232205)),	-- Boots of Ten Storms
-						
+
 						-- Healer
 						tokencost(231203, i(232211)),	-- Helmet of Ten Storms
 						tokencost(231201, i(232209)),	-- Epaulets of Ten Storms

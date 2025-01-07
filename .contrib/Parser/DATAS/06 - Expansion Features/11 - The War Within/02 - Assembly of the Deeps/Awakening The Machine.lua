@@ -54,22 +54,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						o(465243, {	-- Awakened Cache
 							["coord"] = { 47.4, 31.9, THE_RINGING_DEEPS },
 							["questID"] = 84642,
-							--["isWeekly"] = true,
+							["isWeekly"] = true,
 						}),
 						o(465242, {	-- Awakened Cache
 							["coord"] = { 47.5, 32.0, THE_RINGING_DEEPS },
 							["questID"] = 84644,
-							--["isWeekly"] = true,
+							["isWeekly"] = true,
 						}),
 						o(465241, {	-- Awakened Cache
 							["coord"] = { 47.5, 31.9, THE_RINGING_DEEPS },
 							["questID"] = 84646,
-							--["isWeekly"] = true,
+							["isWeekly"] = true,
 						}),
 						o(464938, {	-- Awakened Cache
 							["coord"] = { 47.5, 31.9, THE_RINGING_DEEPS },
 							["questID"] = 84647,
-							--["isWeekly"] = true,
+							["isWeekly"] = true,
 						}),
 					}),
 				}),
