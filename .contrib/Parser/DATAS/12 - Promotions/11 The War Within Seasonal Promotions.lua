@@ -129,7 +129,7 @@ root(ROOTS.Promotions, {
 				["u"] = REAL_MONEY,
 			}),
 			i(228764, {	-- Classic Sunny Tabard
-				["description"] = "Krogers promotional item. You have to earn points before Jan 7, 2025 and redeem before Feb 7, 2025. Can be redeemed for 1500 rewards points from pointsrewardsplus.com. With a referral link, just signing up will earn you enough points to redeem the tabard for free. Access the code from the account page and then redeem on battle.net or in the launcher.",
+				["description"] = "Krogers promotional item. You have to earn points before Jan 8, 2025 and redeem before Feb 7, 2025. Can be redeemed for 1500 rewards points from pointsrewardsplus.com. With a referral link, just signing up will earn you enough points to redeem the tabard for free. Access the code from the account page and then redeem on battle.net or in the launcher.",
 				["timeline"] = { ADDED_11_0_2, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
@@ -210,7 +210,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(95341, {	-- Armored Bloodwing (MOUNT!)
 				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until January 6th.",
-				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.58238" },
 			}),
 
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE
