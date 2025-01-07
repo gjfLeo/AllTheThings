@@ -2600,6 +2600,233 @@
 7655@@@+12 Spell Damage
 7656@@@+9 Agility
 7657@@@Scope (+10 Damage)
+1.15.6.58185
+7659@@@+$k1 Intellect
+7660@@@+$k1 Spirit
+7661@@@+$k1 Intellect and +$k2 Spirit
+7662@@@+$k1 Spell Power
+7663@@@+$k1 Stamina
+7664@@@+$1220596M1% Critical Strike Chance
+7665@@@+$k1 Spell Power
+7666@@@+$k1 Strength
+7667@@@+$k1 Agility
+7668@@@Tactician
+7669@@@War Veteran
+7670@@@Battle Forecaster
+7671@@@Bloodseeker
+7672@@@Titan
+7673@@@Destroyer
+7674@@@Deathbound
+7675@@@Sanguinist
+7676@@@Pristine Blocker
+7677@@@Savage
+7678@@@Pillar of Enmity
+7679@@@Deflective Tendencies
+7680@@@Swift Revenge
+7681@@@Incessant Attacker
+7682@@@Thunderbringer
+7683@@@Sentinel
+7685@@@Southpaw
+7686@@@Gladiator
+7687@@@Aftershock
+7688@@@Avoidant
+7689@@@Toxicologist
+7690@@@Executioner
+7691@@@Opportunist
+7692@@@Butcher
+7693@@@Phantom
+7694@@@Scoundrel
+7695@@@Thrill Seeker
+7696@@@Shiv Savant
+7697@@@Stalker
+7698@@@Efficient Striking
+7699@@@Knife Juggler
+7700@@@Shadow Master
+7701@@@Equilibrist
+7702@@@Poised Brawler
+7703@@@Black Belt
+7704@@@Fencer
+7705@@@Swashbuckler
+7706@@@Bloodthirsty
+7707@@@Transfusionist
+7708@@@Refined Spells
+7709@@@Decimator
+7710@@@Rotbringer
+7711@@@Malevolent
+7712@@@Shadowmancer
+7713@@@Chaos Harbinger
+7714@@@Arsonist
+7715@@@Infernal Shepherd
+7716@@@Demonlord
+7717@@@Demonic Exorcist
+7718@@@Pain Siphon
+7719@@@Flamewraith
+7720@@@Fleshfeaster
+7721@@@Abyssal Essence
+7722@@@Voidborne
+7723@@@Umbral Blade
+7724@@@Ritualist
+7725@@@Pain Spreader
+7726@@@Misleader
+7727@@@Preyseeker
+7728@@@Sharpshooter
+7729@@@Hazard Harrier
+7730@@@Alternator
+7731@@@Toxinologist
+7732@@@Bounty Hunter
+7733@@@Trick Shooter
+7734@@@Beast Tender
+7735@@@Hound Master
+7736@@@Alpha Tamer
+7737@@@Huntsman
+7738@@@Preyseeker
+7739@@@Retaliator
+7740@@@Echoing Strikes
+7741@@@Lethal Lasher
+7742@@@Kineticist
+7743@@@Strategist
+7744@@@Deadly Striker
+7745@@@Hastened Healer
+7746@@@Refined Spells
+7747@@@Celebrant
+7748@@@Faithful
+7749@@@Serendipitous
+7750@@@Resonant
+7751@@@Devotee
+7752@@@Archbishop
+7753@@@Penitent
+7754@@@Soul Warder
+7755@@@Twilight Walker
+7756@@@Mind Breaker
+7757@@@Deathdealer
+7758@@@Spirit Font
+7759@@@Zealot
+7760@@@Unwavering Defiler
+7761@@@Contemnor
+7762@@@Plaguebringer
+7763@@@Reverberant
+7764@@@Chronohealer
+7765@@@Temporal Longing
+7766@@@Precognition
+7767@@@Arcanist
+7768@@@Eternal Caretaker
+7769@@@Spellbider
+7770@@@Wardshaper
+7771@@@Winter's Grasp
+7772@@@Cryomancer
+7773@@@Evoker
+7774@@@Elementalist
+7775@@@Magical Armaments
+7776@@@Kindler
+7777@@@Fiery Convergence
+7778@@@Perpetual Blaze
+7779@@@Pyromaniac
+7780@@@Igniter
+7781@@@Agonizing Torcher
+7782@@@Pristine Blocker
+7783@@@Lightwarden
+7784@@@Radiant Defender
+7785@@@Shieldbearer
+7786@@@Bastion
+7787@@@Reckoner
+7788@@@Ironclad
+7789@@@Guardian
+7790@@@Peacekeeper
+7791@@@Refined Spells
+7792@@@Exemplar
+7793@@@Inquisitor
+7794@@@Sovereign
+7795@@@Dominus
+7796@@@Vindicator
+7797@@@Altruist
+7798@@@Arbiter
+7799@@@Sealbearer
+7800@@@Justicar
+7801@@@Judicator
+7802@@@Ascendant
+7803@@@Retributor
+7804@@@Excommunicator
+7805@@@Lightbringer
+7806@@@Exile
+7807@@@Templar
+7808@@@Windwalker
+7809@@@Shield Master
+7810@@@Totemic Protector
+7811@@@Shock-Absorber
+7812@@@Spiritual Bulwark
+7813@@@Maelstrombringer
+7814@@@Lavawalker
+7815@@@True Alpha
+7816@@@Totemkeeper
+7817@@@Ancestral Invigoration
+7818@@@Spiritweaver
+7819@@@Waterwalker
+7820@@@Stormtender
+7821@@@Elemental Seer
+7822@@@Vitalist
+7823@@@Spirithealer
+7824@@@Refined Spells
+7825@@@Chieftain
+7826@@@Furycharged
+7827@@@Stormbreaker
+7828@@@Tempest
+7829@@@Seismic Smasher
+7830@@@Flamebringer
+7831@@@Volcano
+7832@@@Raging Flame
+7833@@@Elemental Master
+7834@@@Tribesman
+7835@@@Spirit Guide
+7836@@@Elder
+7837@@@Heir of the Elements
+7838@@@Lava Sage
+7839@@@Ancestral Warden
+7840@@@Power Corrupt
+7841@@@Gentle Paw
+7842@@@Ferocious Focus
+7843@@@Paw and Claw
+7844@@@Territorial
+7845@@@Beastly
+7846@@@Lacerator
+7847@@@Furious
+7848@@@Mangler
+7849@@@Innervator
+7850@@@Nurturer
+7851@@@Tranquil
+7852@@@Dreamwalker
+7853@@@Grove Tender
+7854@@@Feathered Sage
+7855@@@Benevolet Seer
+7856@@@Lifeweaver
+7857@@@Illuminator
+7858@@@Predatory Instincts
+7859@@@Rip and Tear
+7860@@@Mercy of the Claw
+7861@@@Prideful
+7862@@@Barbaric
+7863@@@Frenetic
+7864@@@Exsanguinator
+7865@@@Thornkeeper
+7866@@@Lunatic
+7867@@@Starcaller
+7868@@@Night
+7869@@@Keeper of the Grove
+7870@@@Wrathful
+7871@@@Graceful
+7872@@@Astral Ascendant
+7873@@@Cometcaller
+7874@@@Wrath of the Forest
+7875@@@Animalistic Expertise
+7876@@@Strangulate
+7877@@@Death Grip
+7878@@@Blood Plague
+7879@@@Frost Fever
+7880@@@Mark of Blood
+7881@@@Obliterate
+7882@@@Healing +$k1 and +$k2 mana per 5 sec.
+7883@@@Spell Damage +$1220735M1 and +$1220735M3% Critical Strike
+7884@@@Attack Power +$1220743M3 and +$1220743M2% Critical Strike
+7885@@@Stamina +$1220754s2 and Defense +$1220754s3
 2.0.0.6080
 13@@@Sharpened (+3 Damage)
 14@@@Sharpened (+4 Damage)
