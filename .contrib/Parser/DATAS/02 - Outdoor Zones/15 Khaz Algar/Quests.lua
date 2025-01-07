@@ -661,6 +661,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				------ Stay awhile and listen ------
 				hqt(86818, {	-- Stay awhile and listen: Archamge Aethas Sunreaver
 					["name"] = "Stay awhile and listen: Archamge Aethas Sunreaver",
+					["description"] = "Dialogue becomes available after accepting 'Magic-stealing Kobolds' (83553). Wait for Kalecgos to cast his Mirror Images and fly away.",
 					["sourceQuests"] = { 83539 },	-- Feeling Blue
 					["provider"] = { "n", 226895 },	-- Archmage Aethas Sunreaver
 					["coord"] = { 29.7, 57.9, ISLE_OF_DORN },
@@ -761,6 +762,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["provider"] = { "n", 227436 },	-- Archmage Khadgar
 					["coord"] = { 31.4, 50.9, ISLE_OF_DORN },
 				}),
+				------ Stay awhile and listen ------
+				hqt(86819, {	-- Stay awhile and listen: Archmage Khadgar
+					["name"] = "Stay awhile and listen: Archmage Khadgar",
+					["description"] = "Dialogue becomes available after completing 'Farewell, City of Magic' (83773). Go back to Khadgar in Foundation Hall, Dornogal.",
+					["sourceQuests"] = { 83773 },	-- Farewell, City of Magic
+					["provider"] = { "n", 227436 },	-- Archmage Khadgar
+					["coord"] = { 42.6, 27.2, DORNOGAL },
+				}),
+				--
 			}),
 		})),
 	}),
