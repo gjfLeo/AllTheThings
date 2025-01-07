@@ -100,12 +100,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(25868),	-- Skyfire Diamond
 		}),
 		filter(TRINKET_F, {
-			i(13503),	-- Alchemist Stone
-			applyclassicphase(TBC_PHASE_FIVE, i(35751, {["timeline"] = {ADDED_2_4_0}})),	-- Assassin's Alchemist Stone
-			applyclassicphase(TBC_PHASE_FIVE, i(35748, {["timeline"] = {ADDED_2_4_0}})),	-- Guardian's Alchemist Stone
-			applyclassicphase(TBC_PHASE_FIVE, i(35750, {["timeline"] = {ADDED_2_4_0}})),	-- Redeemer's Alchemist Stone
-			applyclassicphase(TBC_PHASE_FIVE, i(35749, {["timeline"] = {ADDED_2_4_0}})),	-- Sorcerer's Alchemist Stone
-			i(31080),	-- Mercurial Stone
+			["sharedDescription"] = "Alchemy Lab can be found on Aldor Rise and Scryer's Tier in Shattrath.",
+			["groups"] = { 
+				i(13503),	-- Alchemist Stone
+				applyclassicphase(TBC_PHASE_FIVE, i(35751, {["timeline"] = {ADDED_2_4_0}})),	-- Assassin's Alchemist Stone
+				applyclassicphase(TBC_PHASE_FIVE, i(35748, {["timeline"] = {ADDED_2_4_0}})),	-- Guardian's Alchemist Stone
+				applyclassicphase(TBC_PHASE_FIVE, i(35750, {["timeline"] = {ADDED_2_4_0}})),	-- Redeemer's Alchemist Stone
+				applyclassicphase(TBC_PHASE_FIVE, i(35749, {["timeline"] = {ADDED_2_4_0}})),	-- Sorcerer's Alchemist Stone
+				i(31080),	-- Mercurial Stone
+			},
 		}),
 	}),
 	prof(ARCHAEOLOGY, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
@@ -1095,8 +1098,27 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	prof(SKINNING, {
 		["description"] = "The following items can be gathered by skinning creatures out in the world.",
 		["groups"] = {
-			i(29539),	-- Cobra Scales
-			i(25699),	-- Crystal-Infused Leather
+			i(29539, {    -- Cobra Scales
+				["description"] = "Is an uncommon reagent skinned from snakes in Nagrand and Shadowmoon Valley.",
+				["crs"] = {
+					19784,	-- Coilskar Cobra
+					23020,	-- Shadow Serpent
+					23026,	-- Twilight Serpent
+				},
+				["coords"] = {
+					{ 11.4, 39.3, NAGRAND }, -- Twilight Ridge west
+					{ 19.4, 34.6, NAGRAND }, -- Twilight Ridge east
+					{ 45.5, 13.0, SHADOWMOON_VALLEY }, -- Coilskar Point, north of.
+					{ 65.25, 22.5, SHADOWMOON_VALLEY }, -- Altar of Sha'tar, north of.
+					{ 66.1, 30.0, SHADOWMOON_VALLEY }, -- Altar of Sha'tar, east of.
+					{ 71.8, 30.0, SHADOWMOON_VALLEY }, -- Black Temple, north of.
+					{ 53.05, 25.55, SHADOWMOON_VALLEY }, -- Coilskar Cistern
+					{ 45.8, 28.6, SHADOWMOON_VALLEY }, -- Coilskar Point
+				},
+			}),
+			i(25699, {    -- Crystal-Infused Leather
+				["description"] = "Is skinned from basilisks.",
+			}),
 			i(25707),	-- Fel Hide
 			i(25700),	-- Fel Scales
 			i(21887),	-- Knothide Leather
