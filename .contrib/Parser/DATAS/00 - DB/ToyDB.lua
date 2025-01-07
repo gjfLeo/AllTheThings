@@ -1418,3 +1418,8 @@ i(218308);	-- Winter Veil Cracker
 i(235041);	-- Cyrce's Circlet
 --- NYI ---
 i(235016);	-- Redeployment Module
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+i(235519);	-- Prized Legend's Pennant

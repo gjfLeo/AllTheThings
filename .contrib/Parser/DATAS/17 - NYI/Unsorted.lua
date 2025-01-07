@@ -78,672 +78,803 @@ root(ROOTS.Unsorted, {
 			i(228792),	-- Reactive Plating
 			i(228794),	-- Purloined Loot
 			i(228798),	-- Gob-Glider
-			i(228799),	-- Dreadful Greased Gallybux
-			i(228800),	-- Mystic Greased Gallybux
-			i(228801),	-- Venerated Greased Gallybux
-			i(228802),	-- Zenith Greased Gallybux
-			i(228803),	-- Dreadful Bloody Gallybux
-			i(228804),	-- Mystic Bloody Gallybux
-			i(228805),	-- Venerated Bloody Gallybux
-			i(228806),	-- Zenith Bloody Gallybux
-			i(228807),	-- Dreadful Gilded Gallybux
-			i(228808),	-- Mystic Gilded Gallybux
-			i(228809),	-- Venerated Gilded Gallybux
-			i(228810),	-- Zenith Gilded Gallybux
-			i(228811),	-- Dreadful Rusty Gallybux
-			i(228812),	-- Mystic Rusty Gallybux
-			i(228813),	-- Venerated Rusty Gallybux
-			i(228814),	-- Zenith Rusty Gallybux
-			i(228815),	-- Dreadful Polished Gallybux
-			i(228816),	-- Mystic Polished Gallybux
-			i(228817),	-- Venerated Polished Gallybux
-			i(228818),	-- Zenith Polished Gallybux
-			i(228819),	-- Excessively Bejeweled Curio
-			i(228822),	-- Burgled Art
-			i(228839),	-- Undercircuit Racing Flag
-			i(228840),	-- Faded Championship Ring
-			i(228841),	-- Semi-Charmed Amulet
-			i(228842),	-- Gobfather's Gifted Bling
-			i(228843),	-- Miniature Roulette Wheel
-			i(228844),	-- Test Pilot's Go-Pack
-			i(228845),	-- Sash of the Fierce Diva
-			i(228846),	-- Galvanic Graffiti Cuffs
-			i(228847),	-- Hotstep Heel-Turners
-			i(228848),	-- Darkfuse Racketeer's Tricorne
-			i(228849),	-- Dumpmech Compactors
-			i(228850),	-- Bottom-Dollar Blouse
-			i(228851),	-- 'Bullet-Proof' Vestplate
-			i(228852),	-- Blazer of Glory
-			i(228853),	-- Hired Muscle's Legguards
-			i(228854),	-- Bilgerat's Discarded Slacks
-			i(228855),	-- Paydirt Pauldrons
-			i(228856),	-- Competitor's Battle Cord
-			i(228857),	-- Underparty Admission Bracelet
-			i(228858),	-- Fullthrottle Facerig
-			i(228859),	-- Sanitized Scraphood
-			i(228860),	-- Epaulettes of Failed Enforcers
-			i(228861),	-- Tune-Up Toolbelt
-			i(228862),	-- Shrapnel-Ridden Sabatons
-			i(228863),	-- Enforcer's Sticky Fingers
-			i(228864),	-- "Streamlined" Cartel Uniform
-			i(228865),	-- Pit Doctor's Petticoat
-			i(228866),	-- Deep-Pocketed Pantaloons
-			i(228867),	-- Gravi-Gunk Handlers
-			i(228868),	-- Revved-Up Vambraces
-			i(228869),	-- Killer Queen's Wristflickers
-			i(228870),	-- Underboss's Tailored Mantle
-			i(228871),	-- Cleanup Crew's Wastemask
-			i(228872),	-- Golden Handshakers
-			i(228873),	-- Heaviestweight Title Belt
-			i(228874),	-- Rik's Walkin' Boots
-			i(228875),	-- Vandal's Skullplating
-			i(228876),	-- Dragster's Last Stride
-			i(228877),	-- Dealer's Covetous Chain
-			i(228878),	-- Made Manacles
-			i(228879),	-- Cemented Murloc-Swimmers
-			i(228880),	-- Hitman's Holster
-			i(228881),	-- Illicit Bankroll Bracers
-			i(228882),	-- Refiner's Conveyor Belt
-			i(228883),	-- Dubious Table-Runners
-			i(228884),	-- Test Subject's Clasps
-			i(228885),	-- Hustler's Ante-Uppers
-			i(228886),	-- Coin-Operated Girdle
-			i(228887),	-- Cutthroat Competition Stompers
-			i(228888),	-- Rushed Beta Launchers
-			i(228889),	-- Titan of Industry
-			i(228890),	-- Superfan's Beater-Buzzer
-			i(228891),	-- Capital Punisher
-			i(228892),	-- Greasemonkey's Shift-Stick
-			i(228893),	-- "Tiny Pal"
-			i(228894),	-- GIGADEATH Chainblade
-			i(228895),	-- Remixed Ignition Saber
-			i(228896),	-- Stix's Metal Detector
-			i(228897),	-- Pyrotechnic Needle-Dropper
-			i(228898),	-- Alphacoil Ba-Boom Stick
-			i(228899),	-- Gallywix's Iron Thumb
-			i(228900),	-- Tournament Arc
-			i(228901),	-- Big Earner's Bludgeon
-			i(228902),	-- Wiseguy's Refused Offer
-			i(228903),	-- Dumpster Diver
-			i(228904),	-- Crowd Favorite
-			i(228905),	-- Giga Bank-Breaker
-			i(228906),	-- Operator's Fraud Detector
-			i(228948),	-- Jazz's Shrink Ray
-			i(228975),	-- Blackwater Cannonball
-			i(228988),	-- Rock Reviver
-			i(229230),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Generic - Cloak
-			i(229231),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Wrist
-			i(229232),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Waist
-			i(229233),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Shoulder
-			i(229234),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Legs
-			i(229235),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Head
-			i(229236),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Hand
-			i(229237),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Feet
-			i(229238),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Chest
-			i(229239),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Generic - Cloak
-			i(229240),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Wrist
-			i(229241),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Waist
-			i(229242),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Shoulder
-			i(229243),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Legs
-			i(229244),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Head
-			i(229245),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Hand
-			i(229246),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Feet
-			i(229247),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Chest
-			i(229248),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Generic - Cloak
-			i(229249),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Wrist
-			i(229250),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Waist
-			i(229251),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Shoulder
-			i(229252),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Legs
-			i(229253),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Head
-			i(229254),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Hand
-			i(229255),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Feet
-			i(229256),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Chest
-			i(229257),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Generic - Cloak
-			i(229258),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Wrist
-			i(229259),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Waist
-			i(229260),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Shoulder
-			i(229261),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Legs
-			i(229262),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Head
-			i(229263),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Hand
-			i(229264),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Feet
-			i(229265),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Chest
-			i(229266),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Generic - Cloak
-			i(229267),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Wrist
-			i(229268),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Waist
-			i(229269),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Shoulder
-			i(229270),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Legs
-			i(229271),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Head
-			i(229272),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Hand
-			i(229273),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Feet
-			i(229274),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Chest
-			i(229275),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Generic - Cloak
-			i(229276),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Wrist
-			i(229277),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Waist
-			i(229278),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Shoulder
-			i(229279),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Legs
-			i(229280),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Head
-			i(229281),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Hand
-			i(229282),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Feet
-			i(229283),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Chest
-			i(229284),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Generic - Cloak
-			i(229285),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Wrist
-			i(229286),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Waist
-			i(229287),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Shoulder
-			i(229288),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Legs
-			i(229289),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Head
-			i(229290),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Hand
-			i(229291),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Feet
-			i(229292),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Chest
-			i(229293),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Generic - Cloak
-			i(229294),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Wrist
-			i(229295),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Waist
-			i(229296),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Shoulder
-			i(229297),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Legs
-			i(229298),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Head
-			i(229299),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Hand
-			i(229300),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Feet
-			i(229301),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Chest
-			i(229302),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Generic - Cloak
-			i(229303),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Wrist
-			i(229304),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Waist
-			i(229305),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Shoulder
-			i(229306),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Legs
-			i(229307),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Head
-			i(229308),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Hand
-			i(229309),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Feet
-			i(229310),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Chest
-			i(229311),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Generic - Cloak
-			i(229312),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Wrist
-			i(229313),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Waist
-			i(229314),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Shoulder
-			i(229315),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Legs
-			i(229316),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Head
-			i(229317),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Hand
-			i(229318),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Feet
-			i(229319),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Chest
-			i(229320),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Generic - Cloak
-			i(229321),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Wrist
-			i(229322),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Waist
-			i(229323),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Shoulder
-			i(229324),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Legs
-			i(229325),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Head
-			i(229326),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Hand
-			i(229327),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Feet
-			i(229328),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Robe
-			i(229329),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Generic - Cloak
-			i(229330),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Wrist
-			i(229331),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Waist
-			i(229332),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Shoulder
-			i(229333),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Legs
-			i(229334),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Head
-			i(229335),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Hand
-			i(229336),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Feet
-			i(229337),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Chest
-			i(229338),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Generic - Cloak
-			i(229339),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Wrist
-			i(229340),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Waist
-			i(229341),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Shoulder
-			i(229342),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Legs
-			i(229343),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Head
-			i(229344),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Hand
-			i(229345),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Feet
-			i(229346),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Chest
-			i(229388),	-- Prized Combatant's Heraldry
-			i(229389),	-- Prized Aspirant's Heraldry
-			i(229390),	-- Prized Gladiator's Heraldry
+			filter(MOUNTS, {
+				mount(466019),	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
+				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
+				i(229935),	-- Crimson Armored Growler (MOUNT!)
+				mount(1217235),	-- Crimson Shreddertank (MOUNT!) [Mythic+]
+				i(229974),	-- Delver's Gob-Trotter (MOUNT!)
+				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
+				mount(468068),	-- Junkmaestro's Magnetomech (MOUNT!)
+				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]
+				i(229956),	-- Mean Green Flying Machine (MOUNT!)
+				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
+				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
+				mount(466013),	-- Ocher Delivery Rocket (MOUNT!)
+				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
+				mount(466020),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
+				mount(1221155),	-- Prototype A.S.M.R. (MOUNT!) [Raid]
+
+				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
+				i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!) [Raid]
+				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
+				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
+				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
+				i(235626),	-- The Big G (MOUNT!) [Gallywix Mythic]
+				mount(466016),	-- The Topskimmer Special (MOUNT!)
+				mount(466146),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]
+				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]
+				mount(466002),	-- Violet Armored Growler (MOUNT!)
+				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
+				-- Probably not real
+				mount(466423),	-- Unstable Rocket
+				mount(466464),	-- Unstable Rocket
+			}),
+			n(ARMOR, {	-- Raid?
+				i(228799),	-- Dreadful Greased Gallybux
+				i(228800),	-- Mystic Greased Gallybux
+				i(228801),	-- Venerated Greased Gallybux
+				i(228802),	-- Zenith Greased Gallybux
+				i(228803),	-- Dreadful Bloody Gallybux
+				i(228804),	-- Mystic Bloody Gallybux
+				i(228805),	-- Venerated Bloody Gallybux
+				i(228806),	-- Zenith Bloody Gallybux
+				i(228807),	-- Dreadful Gilded Gallybux
+				i(228808),	-- Mystic Gilded Gallybux
+				i(228809),	-- Venerated Gilded Gallybux
+				i(228810),	-- Zenith Gilded Gallybux
+				i(228811),	-- Dreadful Rusty Gallybux
+				i(228812),	-- Mystic Rusty Gallybux
+				i(228813),	-- Venerated Rusty Gallybux
+				i(228814),	-- Zenith Rusty Gallybux
+				i(228815),	-- Dreadful Polished Gallybux
+				i(228816),	-- Mystic Polished Gallybux
+				i(228817),	-- Venerated Polished Gallybux
+				i(228818),	-- Zenith Polished Gallybux
+				i(228819),	-- Excessively Bejeweled Curio
+				i(228822),	-- Burgled Art
+				i(228839),	-- Undercircuit Racing Flag
+				i(228840),	-- Faded Championship Ring
+				i(228841),	-- Semi-Charmed Amulet
+				i(228842),	-- Gobfather's Gifted Bling
+				i(228843),	-- Miniature Roulette Wheel
+				i(228844),	-- Test Pilot's Go-Pack
+				i(228845),	-- Sash of the Fierce Diva
+				i(228846),	-- Galvanic Graffiti Cuffs
+				i(228847),	-- Hotstep Heel-Turners
+				i(228848),	-- Darkfuse Racketeer's Tricorne
+				i(228849),	-- Dumpmech Compactors
+				i(228850),	-- Bottom-Dollar Blouse
+				i(228851),	-- 'Bullet-Proof' Vestplate
+				i(228852),	-- Blazer of Glory
+				i(228853),	-- Hired Muscle's Legguards
+				i(228854),	-- Bilgerat's Discarded Slacks
+				i(228855),	-- Paydirt Pauldrons
+				i(228856),	-- Competitor's Battle Cord
+				i(228857),	-- Underparty Admission Bracelet
+				i(228858),	-- Fullthrottle Facerig
+				i(228859),	-- Sanitized Scraphood
+				i(228860),	-- Epaulettes of Failed Enforcers
+				i(228861),	-- Tune-Up Toolbelt
+				i(228862),	-- Shrapnel-Ridden Sabatons
+				i(228863),	-- Enforcer's Sticky Fingers
+				i(228864),	-- "Streamlined" Cartel Uniform
+				i(228865),	-- Pit Doctor's Petticoat
+				i(228866),	-- Deep-Pocketed Pantaloons
+				i(228867),	-- Gravi-Gunk Handlers
+				i(228868),	-- Revved-Up Vambraces
+				i(228869),	-- Killer Queen's Wristflickers
+				i(228870),	-- Underboss's Tailored Mantle
+				i(228871),	-- Cleanup Crew's Wastemask
+				i(228872),	-- Golden Handshakers
+				i(228873),	-- Heaviestweight Title Belt
+				i(228874),	-- Rik's Walkin' Boots
+				i(228875),	-- Vandal's Skullplating
+				i(228876),	-- Dragster's Last Stride
+				i(228877),	-- Dealer's Covetous Chain
+				i(228878),	-- Made Manacles
+				i(228879),	-- Cemented Murloc-Swimmers
+				i(228880),	-- Hitman's Holster
+				i(228881),	-- Illicit Bankroll Bracers
+				i(228882),	-- Refiner's Conveyor Belt
+				i(228883),	-- Dubious Table-Runners
+				i(228884),	-- Test Subject's Clasps
+				i(228885),	-- Hustler's Ante-Uppers
+				i(228886),	-- Coin-Operated Girdle
+				i(228887),	-- Cutthroat Competition Stompers
+				i(228888),	-- Rushed Beta Launchers
+				i(228889),	-- Titan of Industry
+				i(228890),	-- Superfan's Beater-Buzzer
+				i(228891),	-- Capital Punisher
+				i(228892),	-- Greasemonkey's Shift-Stick
+				i(228893),	-- "Tiny Pal"
+				i(228894),	-- GIGADEATH Chainblade
+				i(228895),	-- Remixed Ignition Saber
+				i(228896),	-- Stix's Metal Detector
+				i(228897),	-- Pyrotechnic Needle-Dropper
+				i(228898),	-- Alphacoil Ba-Boom Stick
+				i(228899),	-- Gallywix's Iron Thumb
+				i(228900),	-- Tournament Arc
+				i(228901),	-- Big Earner's Bludgeon
+				i(228902),	-- Wiseguy's Refused Offer
+				i(228903),	-- Dumpster Diver
+				i(228904),	-- Crowd Favorite
+				i(228905),	-- Giga Bank-Breaker
+				i(228906),	-- Operator's Fraud Detector
+				i(228948),	-- Jazz's Shrink Ray
+				i(228975),	-- Blackwater Cannonball
+				i(228988),	-- Rock Reviver
+			}),
+			n(SETS, {
+				i(229230),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Generic - Cloak
+				i(229231),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Wrist
+				i(229232),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Waist
+				i(229233),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Shoulder
+				i(229234),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Legs
+				i(229235),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Head
+				i(229236),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Hand
+				i(229237),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Feet
+				i(229238),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Chest
+				i(229239),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Generic - Cloak
+				i(229240),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Wrist
+				i(229241),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Waist
+				i(229242),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Shoulder
+				i(229243),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Legs
+				i(229244),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Head
+				i(229245),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Hand
+				i(229246),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Feet
+				i(229247),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Chest
+				i(229248),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Generic - Cloak
+				i(229249),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Wrist
+				i(229250),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Waist
+				i(229251),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Shoulder
+				i(229252),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Legs
+				i(229253),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Head
+				i(229254),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Hand
+				i(229255),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Feet
+				i(229256),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Chest
+				i(229257),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Generic - Cloak
+				i(229258),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Wrist
+				i(229259),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Waist
+				i(229260),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Shoulder
+				i(229261),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Legs
+				i(229262),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Head
+				i(229263),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Hand
+				i(229264),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Feet
+				i(229265),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Chest
+				i(229266),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Generic - Cloak
+				i(229267),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Wrist
+				i(229268),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Waist
+				i(229269),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Shoulder
+				i(229270),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Legs
+				i(229271),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Head
+				i(229272),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Hand
+				i(229273),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Feet
+				i(229274),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Chest
+				i(229275),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Generic - Cloak
+				i(229276),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Wrist
+				i(229277),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Waist
+				i(229278),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Shoulder
+				i(229279),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Legs
+				i(229280),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Head
+				i(229281),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Hand
+				i(229282),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Feet
+				i(229283),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Chest
+				i(229284),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Generic - Cloak
+				i(229285),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Wrist
+				i(229286),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Waist
+				i(229287),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Shoulder
+				i(229288),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Legs
+				i(229289),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Head
+				i(229290),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Hand
+				i(229291),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Feet
+				i(229292),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Chest
+				i(229293),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Generic - Cloak
+				i(229294),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Wrist
+				i(229295),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Waist
+				i(229296),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Shoulder
+				i(229297),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Legs
+				i(229298),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Head
+				i(229299),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Hand
+				i(229300),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Feet
+				i(229301),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Chest
+				i(229302),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Generic - Cloak
+				i(229303),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Wrist
+				i(229304),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Waist
+				i(229305),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Shoulder
+				i(229306),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Legs
+				i(229307),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Head
+				i(229308),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Hand
+				i(229309),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Feet
+				i(229310),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Chest
+				i(229311),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Generic - Cloak
+				i(229312),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Wrist
+				i(229313),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Waist
+				i(229314),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Shoulder
+				i(229315),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Legs
+				i(229316),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Head
+				i(229317),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Hand
+				i(229318),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Feet
+				i(229319),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Chest
+				i(229320),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Generic - Cloak
+				i(229321),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Wrist
+				i(229322),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Waist
+				i(229323),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Shoulder
+				i(229324),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Legs
+				i(229325),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Head
+				i(229326),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Hand
+				i(229327),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Feet
+				i(229328),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Robe
+				i(229329),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Generic - Cloak
+				i(229330),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Wrist
+				i(229331),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Waist
+				i(229332),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Shoulder
+				i(229333),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Legs
+				i(229334),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Head
+				i(229335),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Hand
+				i(229336),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Feet
+				i(229337),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Chest
+				i(229338),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Generic - Cloak
+				i(229339),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Wrist
+				i(229340),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Waist
+				i(229341),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Shoulder
+				i(229342),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Legs
+				i(229343),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Head
+				i(229344),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Hand
+				i(229345),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Feet
+				i(229346),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Chest
+			}),
+
 			i(229392),	-- Crumpled Delivery Note
 			i(229401),	-- Artisan's Consortium Pamphlet
 			i(229407),	-- Citrus Acid
 			i(229419),	-- Barrelbottom Deed
 			i(229422),	-- Undermine Equipment Chest
-			i(229427),	-- Prized Aspirant's Plate Helm
-			i(229428),	-- Prized Aspirant's Silk Robe
-			i(229429),	-- Prized Aspirant's Chestplate
-			i(229430),	-- Prized Aspirant's Armored Vest
-			i(229431),	-- Prized Aspirant's Leather Vest
-			i(229432),	-- Prized Aspirant's Plate Warboots
-			i(229433),	-- Prized Aspirant's Silk Treads
-			i(229434),	-- Prized Aspirant's Chain Sabatons
-			i(229435),	-- Prized Aspirant's Leather Boots
-			i(229436),	-- Prized Aspirant's Leather Gloves
-			i(229437),	-- Prized Aspirant's Plate Gauntlets
-			i(229438),	-- Prized Aspirant's Silk Gloves
-			i(229439),	-- Prized Aspirant's Chain Gauntlets
-			i(229440),	-- Prized Aspirant's Silk Hood
-			i(229441),	-- Prized Aspirant's Chain Helm
-			i(229442),	-- Prized Aspirant's Leather Helm
-			i(229443),	-- Prized Aspirant's Plate Legguards
-			i(229444),	-- Prized Aspirant's Silk Leggings
-			i(229445),	-- Prized Aspirant's Chain Leggings
-			i(229446),	-- Prized Aspirant's Leather Breeches
-			i(229447),	-- Prized Aspirant's Leather Spaulders
-			i(229448),	-- Prized Aspirant's Plate Shoulders
-			i(229449),	-- Prized Aspirant's Silk Mantle
-			i(229450),	-- Prized Aspirant's Chain Spaulders
-			i(229451),	-- Prized Aspirant's Plate Girdle
-			i(229452),	-- Prized Aspirant's Silk Cord
-			i(229453),	-- Prized Aspirant's Chain Belt
-			i(229454),	-- Prized Aspirant's Leather Belt
-			i(229455),	-- Prized Aspirant's Silk Wristwraps
-			i(229456),	-- Prized Aspirant's Plate Cuffs
-			i(229457),	-- Prized Aspirant's Chain Wristwraps
-			i(229458),	-- Prized Aspirant's Leather Wristwraps
-			i(229459),	-- Prized Aspirant's Plate Headguard
-			i(229460),	-- Prized Aspirant's Silk Shirt
-			i(229461),	-- Prized Aspirant's Plate Armor
-			i(229462),	-- Prized Aspirant's Armored Tunic
-			i(229463),	-- Prized Aspirant's Leather Tunic
-			i(229464),	-- Prized Aspirant's Plate Stompers
-			i(229465),	-- Prized Aspirant's Silk Footwraps
-			i(229466),	-- Prized Aspirant's Chain Stompers
-			i(229467),	-- Prized Aspirant's Leather Footpads
-			i(229468),	-- Prized Aspirant's Leather Grips
-			i(229469),	-- Prized Aspirant's Plate Handguards
-			i(229470),	-- Prized Aspirant's Silk Handwraps
-			i(229471),	-- Prized Aspirant's Chain Handguards
-			i(229472),	-- Prized Aspirant's Silk Cover
-			i(229473),	-- Prized Aspirant's Chain Headguard
-			i(229474),	-- Prized Aspirant's Leather Mask
-			i(229475),	-- Prized Aspirant's Plate Wargreaves
-			i(229476),	-- Prized Aspirant's Silk Legwraps
-			i(229477),	-- Prized Aspirant's Chain Wargreaves
-			i(229478),	-- Prized Aspirant's Leather Leggings
-			i(229479),	-- Prized Aspirant's Leather Mantle
-			i(229480),	-- Prized Aspirant's Plate Pauldrons
-			i(229481),	-- Prized Aspirant's Silk Shawl
-			i(229482),	-- Prized Aspirant's Chain Shoulderguards
-			i(229483),	-- Prized Aspirant's Plate Greatbelt
-			i(229484),	-- Prized Aspirant's Silk Belt
-			i(229485),	-- Prized Aspirant's Chain Clasp
-			i(229486),	-- Prized Aspirant's Leather Cord
-			i(229487),	-- Prized Aspirant's Silk Bindings
-			i(229488),	-- Prized Aspirant's Plate Armguards
-			i(229489),	-- Prized Aspirant's Chain Bracer
-			i(229490),	-- Prized Aspirant's Leather Armguards
-			i(229491),	-- Prized Aspirant's Badge of Ferocity
-			i(229492),	-- Prized Aspirant's Medallion
-			i(229493),	-- Prized Aspirant's Insignia of Alacrity
-			i(229494),	-- Prized Aspirant's Emblem
-			i(229495),	-- Prized Aspirant's Sigil of Adaptation
-			i(229496),	-- Prized Aspirant's Ring
-			i(229497),	-- Prized Aspirant's Band
-			i(229498),	-- Prized Aspirant's Signet
-			i(229499),	-- Prized Aspirant's Necklace
-			i(229500),	-- Prized Aspirant's Choker
-			i(229501),	-- Prized Aspirant's Pendant
-			i(229502),	-- Prized Aspirant's Drape
-			i(229503),	-- Prized Aspirant's Cloak
-			i(229504),	-- Prized Aspirant's Cape
-			i(229505),	-- Prized Aspirant's Greatcloak
-			i(229506),	-- Prized Aspirant's Battleaxe
-			i(229507),	-- Prized Aspirant's Dagger
-			i(229508),	-- Prized Aspirant's Hammer
-			i(229509),	-- Prized Aspirant's Polearm
-			i(229510),	-- Prized Aspirant's Staff
-			i(229511),	-- Prized Aspirant's Greatsword
-			i(229512),	-- Prized Aspirant's Molotov
-			i(229513),	-- Prized Aspirant's Rocketglaive
-			i(229514),	-- Prized Aspirant's Scepter
-			i(229515),	-- Prized Aspirant's Shield
-			i(229516),	-- Prized Aspirant's Rifle
-			i(229517),	-- Prized Aspirant's Halberd
-			i(229518),	-- Prized Aspirant's Mace
-			i(229519),	-- Prized Aspirant's Drill
-			i(229520),	-- Prized Aspirant's Chopper
-			i(229521),	-- Prized Aspirant's Blastoff Rod
-			i(229522),	-- Prized Gladiator's Silk Robe
-			i(229523),	-- Prized Gladiator's Silk Gown
-			i(229524),	-- Prized Gladiator's Silk Slippers
-			i(229525),	-- Prized Gladiator's Silk Treads
-			i(229526),	-- Prized Gladiator's Silk Gloves
-			i(229527),	-- Prized Gladiator's Silk Handwraps
-			i(229528),	-- Prized Gladiator's Silk Hat
-			i(229529),	-- Prized Gladiator's Silk Cap
-			i(229530),	-- Prized Gladiator's Silk Leggings
-			i(229531),	-- Prized Gladiator's Silk Trousers
-			i(229532),	-- Prized Gladiator's Silk Mantle
-			i(229533),	-- Prized Gladiator's Silk Amice
-			i(229534),	-- Prized Gladiator's Silk Cord
-			i(229535),	-- Prized Gladiator's Silk Belt
-			i(229536),	-- Prized Gladiator's Silk Wristwraps
-			i(229537),	-- Prized Gladiator's Silk Armbands
-			i(229538),	-- Prized Gladiator's Cloak
-			i(229539),	-- Prized Gladiator's Drape
-			i(229540),	-- Prized Gladiator's Shawl
-			i(229541),	-- Prized Gladiator's Silk Chestwrap
-			i(229542),	-- Prized Gladiator's Silk Vest
-			i(229543),	-- Prized Gladiator's Silk Slippers
-			i(229544),	-- Prized Gladiator's Silk Treads
-			i(229545),	-- Prized Gladiator's Silk Gloves
-			i(229546),	-- Prized Gladiator's Silk Handwraps
-			i(229547),	-- Prized Gladiator's Silk Hood
-			i(229548),	-- Prized Gladiator's Silk Guise
-			i(229549),	-- Prized Gladiator's Silk Leggings
-			i(229550),	-- Prized Gladiator's Silk Trousers
-			i(229551),	-- Prized Gladiator's Silk Mantle
-			i(229552),	-- Prized Gladiator's Silk Amice
-			i(229553),	-- Prized Gladiator's Silk Cord
-			i(229554),	-- Prized Gladiator's Silk Belt
-			i(229555),	-- Prized Gladiator's Silk Wristwraps
-			i(229556),	-- Prized Gladiator's Silk Armbands
-			i(229557),	-- Prized Gladiator's Cloak
-			i(229558),	-- Prized Gladiator's Drape
-			i(229559),	-- Prized Gladiator's Shawl
-			i(229560),	-- Prized Gladiator's Silk Raiment
-			i(229561),	-- Prized Gladiator's Silk Vestments
-			i(229562),	-- Prized Gladiator's Silk Slippers
-			i(229563),	-- Prized Gladiator's Silk Treads
-			i(229564),	-- Prized Gladiator's Silk Gloves
-			i(229565),	-- Prized Gladiator's Silk Handwraps
-			i(229566),	-- Prized Gladiator's Silk Hood
-			i(229567),	-- Prized Gladiator's Silk Guise
-			i(229568),	-- Prized Gladiator's Silk Leggings
-			i(229569),	-- Prized Gladiator's Silk Trousers
-			i(229570),	-- Prized Gladiator's Silk Mantle
-			i(229571),	-- Prized Gladiator's Silk Amice
-			i(229572),	-- Prized Gladiator's Silk Cord
-			i(229573),	-- Prized Gladiator's Silk Belt
-			i(229574),	-- Prized Gladiator's Silk Wristwraps
-			i(229575),	-- Prized Gladiator's Silk Armbands
-			i(229576),	-- Prized Gladiator's Cloak
-			i(229577),	-- Prized Gladiator's Drape
-			i(229578),	-- Prized Gladiator's Shawl
-			i(229579),	-- Prized Gladiator's Leather Vest
-			i(229580),	-- Prized Gladiator's Leather Vestments
-			i(229581),	-- Prized Gladiator's Leather Boots
-			i(229582),	-- Prized Gladiator's Leather Treads
-			i(229583),	-- Prized Gladiator's Leather Gloves
-			i(229584),	-- Prized Gladiator's Leather Grips
-			i(229585),	-- Prized Gladiator's Leather Helm
-			i(229586),	-- Prized Gladiator's Leather Mask
-			i(229587),	-- Prized Gladiator's Leather Breeches
-			i(229588),	-- Prized Gladiator's Leather Legwraps
-			i(229589),	-- Prized Gladiator's Leather Spaulders
-			i(229590),	-- Prized Gladiator's Leather Shoulderpads
-			i(229591),	-- Prized Gladiator's Leather Belt
-			i(229592),	-- Prized Gladiator's Leather Strap
-			i(229594),	-- Prized Gladiator's Leather Wristwraps
-			i(229595),	-- Prized Gladiator's Leather Wristguards
-			i(229596),	-- Prized Gladiator's Cloak
-			i(229597),	-- Prized Gladiator's Drape
-			i(229598),	-- Prized Gladiator's Shawl
-			i(229599),	-- Prized Gladiator's Leather Vest
-			i(229600),	-- Prized Gladiator's Leather Jerkin
-			i(229601),	-- Prized Gladiator's Leather Boots
-			i(229602),	-- Prized Gladiator's Leather Treads
-			i(229603),	-- Prized Gladiator's Leather Gloves
-			i(229604),	-- Prized Gladiator's Leather Grips
-			i(229605),	-- Prized Gladiator's Leather Helm
-			i(229606),	-- Prized Gladiator's Leather Mask
-			i(229607),	-- Prized Gladiator's Leather Breeches
-			i(229608),	-- Prized Gladiator's Leather Legwraps
-			i(229609),	-- Prized Gladiator's Leather Spaulders
-			i(229610),	-- Prized Gladiator's Leather Shoulderpads
-			i(229611),	-- Prized Gladiator's Leather Belt
-			i(229612),	-- Prized Gladiator's Leather Strap
-			i(229613),	-- Prized Gladiator's Leather Wristwraps
-			i(229614),	-- Prized Gladiator's Leather Wristguards
-			i(229615),	-- Prized Gladiator's Cloak
-			i(229616),	-- Prized Gladiator's Drape
-			i(229617),	-- Prized Gladiator's Shawl
-			i(229618),	-- Prized Gladiator's Leather Vest
-			i(229619),	-- Prized Gladiator's Leather Jerkin
-			i(229620),	-- Prized Gladiator's Leather Boots
-			i(229621),	-- Prized Gladiator's Leather Treads
-			i(229622),	-- Prized Gladiator's Leather Gloves
-			i(229623),	-- Prized Gladiator's Leather Grips
-			i(229624),	-- Prized Gladiator's Leather Helm
-			i(229625),	-- Prized Gladiator's Leather Mask
-			i(229626),	-- Prized Gladiator's Leather Breeches
-			i(229627),	-- Prized Gladiator's Leather Legwraps
-			i(229628),	-- Prized Gladiator's Leather Spaulders
-			i(229629),	-- Prized Gladiator's Leather Shoulderpads
-			i(229630),	-- Prized Gladiator's Leather Belt
-			i(229631),	-- Prized Gladiator's Leather Strap
-			i(229632),	-- Prized Gladiator's Leather Wristwraps
-			i(229633),	-- Prized Gladiator's Leather Wristguards
-			i(229634),	-- Prized Gladiator's Cloak
-			i(229635),	-- Prized Gladiator's Drape
-			i(229636),	-- Prized Gladiator's Shawl
-			i(229637),	-- Prized Gladiator's Leather Vest
-			i(229638),	-- Prized Gladiator's Leather Jerkin
-			i(229639),	-- Prized Gladiator's Leather Boots
-			i(229640),	-- Prized Gladiator's Leather Treads
-			i(229641),	-- Prized Gladiator's Leather Gloves
-			i(229642),	-- Prized Gladiator's Leather Grips
-			i(229643),	-- Prized Gladiator's Leather Helm
-			i(229644),	-- Prized Gladiator's Leather Mask
-			i(229645),	-- Prized Gladiator's Leather Breeches
-			i(229646),	-- Prized Gladiator's Leather Legwraps
-			i(229647),	-- Prized Gladiator's Leather Spaulders
-			i(229648),	-- Prized Gladiator's Leather Shoulderpads
-			i(229649),	-- Prized Gladiator's Leather Belt
-			i(229650),	-- Prized Gladiator's Leather Strap
-			i(229651),	-- Prized Gladiator's Leather Wristwraps
-			i(229652),	-- Prized Gladiator's Leather Wristguards
-			i(229653),	-- Prized Gladiator's Cloak
-			i(229654),	-- Prized Gladiator's Drape
-			i(229655),	-- Prized Gladiator's Shawl
-			i(229656),	-- Prized Gladiator's Armored Scales
-			i(229657),	-- Prized Gladiator's Scaleguard
-			i(229658),	-- Prized Gladiator's Chain Sabatons
-			i(229659),	-- Prized Gladiator's Chain Boots
-			i(229660),	-- Prized Gladiator's Chain Gauntlets
-			i(229661),	-- Prized Gladiator's Chain Handguards
-			i(229662),	-- Prized Gladiator's Chain Helm
-			i(229663),	-- Prized Gladiator's Chain Faceguard
-			i(229664),	-- Prized Gladiator's Chain Leggings
-			i(229665),	-- Prized Gladiator's Chain Breeches
-			i(229666),	-- Prized Gladiator's Chain Monnion
-			i(229667),	-- Prized Gladiator's Chain Shoulderguard
-			i(229668),	-- Prized Gladiator's Chain Belt
-			i(229669),	-- Prized Gladiator's Chain Girdle
-			i(229670),	-- Prized Gladiator's Chain Wristguards
-			i(229671),	-- Prized Gladiator's Chain Bracers
-			i(229672),	-- Prized Gladiator's Cloak
-			i(229673),	-- Prized Gladiator's Drape
-			i(229674),	-- Prized Gladiator's Shawl
-			i(229675),	-- Prized Gladiator's Chain Vest
-			i(229676),	-- Prized Gladiator's Chain Tunic
-			i(229677),	-- Prized Gladiator's Chain Sabatons
-			i(229678),	-- Prized Gladiator's Chain Boots
-			i(229679),	-- Prized Gladiator's Chain Gauntlets
-			i(229680),	-- Prized Gladiator's Chain Handguards
-			i(229681),	-- Prized Gladiator's Chain Helm
-			i(229682),	-- Prized Gladiator's Chain Faceguard
-			i(229683),	-- Prized Gladiator's Chain Leggings
-			i(229684),	-- Prized Gladiator's Chain Breeches
-			i(229685),	-- Prized Gladiator's Chain Monnion
-			i(229686),	-- Prized Gladiator's Chain Shoulderguard
-			i(229687),	-- Prized Gladiator's Chain Belt
-			i(229688),	-- Prized Gladiator's Chain Girdle
-			i(229689),	-- Prized Gladiator's Chain Wristguards
-			i(229690),	-- Prized Gladiator's Chain Bracers
-			i(229691),	-- Prized Gladiator's Cloak
-			i(229692),	-- Prized Gladiator's Drape
-			i(229693),	-- Prized Gladiator's Shawl
-			i(229694),	-- Prized Gladiator's Chain Vest
-			i(229695),	-- Prized Gladiator's Chain Tunic
-			i(229696),	-- Prized Gladiator's Chain Sabatons
-			i(229697),	-- Prized Gladiator's Chain Boots
-			i(229698),	-- Prized Gladiator's Chain Gauntlets
-			i(229699),	-- Prized Gladiator's Chain Handguards
-			i(229700),	-- Prized Gladiator's Chain Helm
-			i(229701),	-- Prized Gladiator's Chain Faceguard
-			i(229702),	-- Prized Gladiator's Chain Leggings
-			i(229703),	-- Prized Gladiator's Chain Breeches
-			i(229704),	-- Prized Gladiator's Chain Monnion
-			i(229705),	-- Prized Gladiator's Chain Shoulderguard
-			i(229706),	-- Prized Gladiator's Chain Belt
-			i(229707),	-- Prized Gladiator's Chain Girdle
-			i(229708),	-- Prized Gladiator's Chain Wristguards
-			i(229709),	-- Prized Gladiator's Chain Bracers
-			i(229710),	-- Prized Gladiator's Cloak
-			i(229711),	-- Prized Gladiator's Drape
-			i(229712),	-- Prized Gladiator's Shawl
-			i(229713),	-- Prized Gladiator's Chestguard
-			i(229715),	-- Prized Gladiator's Chestplate
-			i(229716),	-- Prized Gladiator's Plate Warboots
-			i(229717),	-- Prized Gladiator's Plate Stompers
-			i(229718),	-- Prized Gladiator's Plate Gauntlets
-			i(229719),	-- Prized Gladiator's Plate Handguards
-			i(229721),	-- Prized Gladiator's Plate Helm
-			i(229722),	-- Prized Gladiator's Plate Helmet
-			i(229723),	-- Prized Gladiator's Plate Legguards
-			i(229724),	-- Prized Gladiator's Plate Wargreaves
-			i(229725),	-- Prized Gladiator's Plate Shoulders
-			i(229726),	-- Prized Gladiator's Plate Pauldrons
-			i(229727),	-- Prized Gladiator's Plate Girdle
-			i(229728),	-- Prized Gladiator's Plate Greatbelt
-			i(229729),	-- Prized Gladiator's Plate Wristguards
-			i(229730),	-- Prized Gladiator's Plate Vambraces
-			i(229731),	-- Prized Gladiator's Cloak
-			i(229732),	-- Prized Gladiator's Drape
-			i(229733),	-- Prized Gladiator's Shawl
-			i(229734),	-- Prized Gladiator's Chestguard
-			i(229735),	-- Prized Gladiator's Chestplate
-			i(229736),	-- Prized Gladiator's Plate Warboots
-			i(229737),	-- Prized Gladiator's Plate Stompers
-			i(229738),	-- Prized Gladiator's Plate Gauntlets
-			i(229739),	-- Prized Gladiator's Plate Handguards
-			i(229740),	-- Prized Gladiator's Plate Helm
-			i(229741),	-- Prized Gladiator's Plate Helmet
-			i(229742),	-- Prized Gladiator's Plate Legguards
-			i(229743),	-- Prized Gladiator's Plate Tasses
-			i(229744),	-- Prized Gladiator's Plate Shoulders
-			i(229745),	-- Prized Gladiator's Plate Pauldrons
-			i(229746),	-- Prized Gladiator's Plate Girdle
-			i(229747),	-- Prized Gladiator's Plate Greatbelt
-			i(229748),	-- Prized Gladiator's Plate Wristguards
-			i(229750),	-- Prized Gladiator's Plate Vambraces
-			i(229751),	-- Prized Gladiator's Cloak
-			i(229752),	-- Prized Gladiator's Drape
-			i(229753),	-- Prized Gladiator's Shawl
-			i(229754),	-- Prized Gladiator's Chestguard
-			i(229755),	-- Prized Gladiator's Chestplate
-			i(229756),	-- Prized Gladiator's Plate Warboots
-			i(229757),	-- Prized Gladiator's Plate Stompers
-			i(229758),	-- Prized Gladiator's Plate Gauntlets
-			i(229759),	-- Prized Gladiator's Plate Handguards
-			i(229760),	-- Prized Gladiator's Plate Helm
-			i(229761),	-- Prized Gladiator's Plate Helmet
-			i(229762),	-- Prized Gladiator's Plate Legguards
-			i(229763),	-- Prized Gladiator's Plate Wargreaves
-			i(229765),	-- Prized Gladiator's Plate Shoulders
-			i(229766),	-- Prized Gladiator's Plate Pauldrons
-			i(229767),	-- Prized Gladiator's Plate Girdle
-			i(229768),	-- Prized Gladiator's Plate Greatbelt
-			i(229769),	-- Prized Gladiator's Plate Wristguards
-			i(229770),	-- Prized Gladiator's Plate Vambraces
-			i(229771),	-- Prized Gladiator's Cloak
-			i(229772),	-- Prized Gladiator's Drape
-			i(229773),	-- Prized Gladiator's Shawl
-			i(229774),	-- Prized Gladiator's Ring
-			i(229775),	-- Prized Gladiator's Band
-			i(229776),	-- Prized Gladiator's Signet
-			i(229777),	-- Prized Gladiator's Necklace
-			i(229778),	-- Prized Gladiator's Pendant
-			i(229779),	-- Prized Gladiator's Amulet
-			i(229780),	-- Prized Gladiator's Badge of Ferocity
-			i(229781),	-- Prized Gladiator's Insignia of Alacrity
-			i(229782),	-- Prized Gladiator's Emblem
-			i(229783),	-- Prized Gladiator's Medallion
-			i(229784),	-- Prized Gladiator's Sigil of Adaptation
-			i(229785),	-- Prized Gladiator's Last Resort
-			i(229786),	-- Prized Gladiator's Dagger
-			i(229787),	-- Prized Gladiator's Warglaive
-			i(229788),	-- Prized Gladiator's Drill
-			i(229789),	-- Prized Gladiator's Staff
-			i(229790),	-- Prized Gladiator's Bow
-			i(229791),	-- Prized Gladiator's Bludgeon
-			i(229792),	-- Prized Gladiator's Army Knife
-			i(229793),	-- Prized Gladiator's Gasket
-			i(229794),	-- Prized Gladiator's Flail
-			i(229795),	-- Prized Gladiator's Pincer
-			i(229796),	-- Prized Gladiator's Detonator
-			i(229797),	-- Prized Gladiator's Blaster
-			i(229798),	-- Prized Gladiator's Greatstaff
-			i(229799),	-- Prized Gladiator's Bulwark
-			i(229800),	-- Prized Gladiator's Greatsaw
-			i(229801),	-- Prized Gladiator's Pulverizer
-			i(229802),	-- Prized Gladiator's Torchblade
-			i(229803),	-- Prized Gladiator's Skewer
-			i(229804),	-- Prized Gladiator's Pylon
+			n(PVP, {
+				i(229388),	-- Prized Combatant's Heraldry
+				i(229389),	-- Prized Aspirant's Heraldry
+				i(229390),	-- Prized Gladiator's Heraldry
+				i(229427),	-- Prized Aspirant's Plate Helm
+				i(229428),	-- Prized Aspirant's Silk Robe
+				i(229429),	-- Prized Aspirant's Chestplate
+				i(229430),	-- Prized Aspirant's Armored Vest
+				i(229431),	-- Prized Aspirant's Leather Vest
+				i(229432),	-- Prized Aspirant's Plate Warboots
+				i(229433),	-- Prized Aspirant's Silk Treads
+				i(229434),	-- Prized Aspirant's Chain Sabatons
+				i(229435),	-- Prized Aspirant's Leather Boots
+				i(229436),	-- Prized Aspirant's Leather Gloves
+				i(229437),	-- Prized Aspirant's Plate Gauntlets
+				i(229438),	-- Prized Aspirant's Silk Gloves
+				i(229439),	-- Prized Aspirant's Chain Gauntlets
+				i(229440),	-- Prized Aspirant's Silk Hood
+				i(229441),	-- Prized Aspirant's Chain Helm
+				i(229442),	-- Prized Aspirant's Leather Helm
+				i(229443),	-- Prized Aspirant's Plate Legguards
+				i(229444),	-- Prized Aspirant's Silk Leggings
+				i(229445),	-- Prized Aspirant's Chain Leggings
+				i(229446),	-- Prized Aspirant's Leather Breeches
+				i(229447),	-- Prized Aspirant's Leather Spaulders
+				i(229448),	-- Prized Aspirant's Plate Shoulders
+				i(229449),	-- Prized Aspirant's Silk Mantle
+				i(229450),	-- Prized Aspirant's Chain Spaulders
+				i(229451),	-- Prized Aspirant's Plate Girdle
+				i(229452),	-- Prized Aspirant's Silk Cord
+				i(229453),	-- Prized Aspirant's Chain Belt
+				i(229454),	-- Prized Aspirant's Leather Belt
+				i(229455),	-- Prized Aspirant's Silk Wristwraps
+				i(229456),	-- Prized Aspirant's Plate Cuffs
+				i(229457),	-- Prized Aspirant's Chain Wristwraps
+				i(229458),	-- Prized Aspirant's Leather Wristwraps
+				i(229459),	-- Prized Aspirant's Plate Headguard
+				i(229460),	-- Prized Aspirant's Silk Shirt
+				i(229461),	-- Prized Aspirant's Plate Armor
+				i(229462),	-- Prized Aspirant's Armored Tunic
+				i(229463),	-- Prized Aspirant's Leather Tunic
+				i(229464),	-- Prized Aspirant's Plate Stompers
+				i(229465),	-- Prized Aspirant's Silk Footwraps
+				i(229466),	-- Prized Aspirant's Chain Stompers
+				i(229467),	-- Prized Aspirant's Leather Footpads
+				i(229468),	-- Prized Aspirant's Leather Grips
+				i(229469),	-- Prized Aspirant's Plate Handguards
+				i(229470),	-- Prized Aspirant's Silk Handwraps
+				i(229471),	-- Prized Aspirant's Chain Handguards
+				i(229472),	-- Prized Aspirant's Silk Cover
+				i(229473),	-- Prized Aspirant's Chain Headguard
+				i(229474),	-- Prized Aspirant's Leather Mask
+				i(229475),	-- Prized Aspirant's Plate Wargreaves
+				i(229476),	-- Prized Aspirant's Silk Legwraps
+				i(229477),	-- Prized Aspirant's Chain Wargreaves
+				i(229478),	-- Prized Aspirant's Leather Leggings
+				i(229479),	-- Prized Aspirant's Leather Mantle
+				i(229480),	-- Prized Aspirant's Plate Pauldrons
+				i(229481),	-- Prized Aspirant's Silk Shawl
+				i(229482),	-- Prized Aspirant's Chain Shoulderguards
+				i(229483),	-- Prized Aspirant's Plate Greatbelt
+				i(229484),	-- Prized Aspirant's Silk Belt
+				i(229485),	-- Prized Aspirant's Chain Clasp
+				i(229486),	-- Prized Aspirant's Leather Cord
+				i(229487),	-- Prized Aspirant's Silk Bindings
+				i(229488),	-- Prized Aspirant's Plate Armguards
+				i(229489),	-- Prized Aspirant's Chain Bracer
+				i(229490),	-- Prized Aspirant's Leather Armguards
+				i(229491),	-- Prized Aspirant's Badge of Ferocity
+				i(229492),	-- Prized Aspirant's Medallion
+				i(229493),	-- Prized Aspirant's Insignia of Alacrity
+				i(229494),	-- Prized Aspirant's Emblem
+				i(229495),	-- Prized Aspirant's Sigil of Adaptation
+				i(229496),	-- Prized Aspirant's Ring
+				i(229497),	-- Prized Aspirant's Band
+				i(229498),	-- Prized Aspirant's Signet
+				i(229499),	-- Prized Aspirant's Necklace
+				i(229500),	-- Prized Aspirant's Choker
+				i(229501),	-- Prized Aspirant's Pendant
+				i(229502),	-- Prized Aspirant's Drape
+				i(229503),	-- Prized Aspirant's Cloak
+				i(229504),	-- Prized Aspirant's Cape
+				i(229505),	-- Prized Aspirant's Greatcloak
+				i(229506),	-- Prized Aspirant's Battleaxe
+				i(229507),	-- Prized Aspirant's Dagger
+				i(229508),	-- Prized Aspirant's Hammer
+				i(229509),	-- Prized Aspirant's Polearm
+				i(229510),	-- Prized Aspirant's Staff
+				i(229511),	-- Prized Aspirant's Greatsword
+				i(229512),	-- Prized Aspirant's Molotov
+				i(229513),	-- Prized Aspirant's Rocketglaive
+				i(229514),	-- Prized Aspirant's Scepter
+				i(229515),	-- Prized Aspirant's Shield
+				i(229516),	-- Prized Aspirant's Rifle
+				i(229517),	-- Prized Aspirant's Halberd
+				i(229518),	-- Prized Aspirant's Mace
+				i(229519),	-- Prized Aspirant's Drill
+				i(229520),	-- Prized Aspirant's Chopper
+				i(229521),	-- Prized Aspirant's Blastoff Rod
+				i(229522),	-- Prized Gladiator's Silk Robe
+				i(229523),	-- Prized Gladiator's Silk Gown
+				i(229524),	-- Prized Gladiator's Silk Slippers
+				i(229525),	-- Prized Gladiator's Silk Treads
+				i(229526),	-- Prized Gladiator's Silk Gloves
+				i(229527),	-- Prized Gladiator's Silk Handwraps
+				i(229528),	-- Prized Gladiator's Silk Hat
+				i(229529),	-- Prized Gladiator's Silk Cap
+				i(229530),	-- Prized Gladiator's Silk Leggings
+				i(229531),	-- Prized Gladiator's Silk Trousers
+				i(229532),	-- Prized Gladiator's Silk Mantle
+				i(229533),	-- Prized Gladiator's Silk Amice
+				i(229534),	-- Prized Gladiator's Silk Cord
+				i(229535),	-- Prized Gladiator's Silk Belt
+				i(229536),	-- Prized Gladiator's Silk Wristwraps
+				i(229537),	-- Prized Gladiator's Silk Armbands
+				i(229538),	-- Prized Gladiator's Cloak
+				i(229539),	-- Prized Gladiator's Drape
+				i(229540),	-- Prized Gladiator's Shawl
+				i(229541),	-- Prized Gladiator's Silk Chestwrap
+				i(229542),	-- Prized Gladiator's Silk Vest
+				i(229543),	-- Prized Gladiator's Silk Slippers
+				i(229544),	-- Prized Gladiator's Silk Treads
+				i(229545),	-- Prized Gladiator's Silk Gloves
+				i(229546),	-- Prized Gladiator's Silk Handwraps
+				i(229547),	-- Prized Gladiator's Silk Hood
+				i(229548),	-- Prized Gladiator's Silk Guise
+				i(229549),	-- Prized Gladiator's Silk Leggings
+				i(229550),	-- Prized Gladiator's Silk Trousers
+				i(229551),	-- Prized Gladiator's Silk Mantle
+				i(229552),	-- Prized Gladiator's Silk Amice
+				i(229553),	-- Prized Gladiator's Silk Cord
+				i(229554),	-- Prized Gladiator's Silk Belt
+				i(229555),	-- Prized Gladiator's Silk Wristwraps
+				i(229556),	-- Prized Gladiator's Silk Armbands
+				i(229557),	-- Prized Gladiator's Cloak
+				i(229558),	-- Prized Gladiator's Drape
+				i(229559),	-- Prized Gladiator's Shawl
+				i(229560),	-- Prized Gladiator's Silk Raiment
+				i(229561),	-- Prized Gladiator's Silk Vestments
+				i(229562),	-- Prized Gladiator's Silk Slippers
+				i(229563),	-- Prized Gladiator's Silk Treads
+				i(229564),	-- Prized Gladiator's Silk Gloves
+				i(229565),	-- Prized Gladiator's Silk Handwraps
+				i(229566),	-- Prized Gladiator's Silk Hood
+				i(229567),	-- Prized Gladiator's Silk Guise
+				i(229568),	-- Prized Gladiator's Silk Leggings
+				i(229569),	-- Prized Gladiator's Silk Trousers
+				i(229570),	-- Prized Gladiator's Silk Mantle
+				i(229571),	-- Prized Gladiator's Silk Amice
+				i(229572),	-- Prized Gladiator's Silk Cord
+				i(229573),	-- Prized Gladiator's Silk Belt
+				i(229574),	-- Prized Gladiator's Silk Wristwraps
+				i(229575),	-- Prized Gladiator's Silk Armbands
+				i(229576),	-- Prized Gladiator's Cloak
+				i(229577),	-- Prized Gladiator's Drape
+				i(229578),	-- Prized Gladiator's Shawl
+				i(229579),	-- Prized Gladiator's Leather Vest
+				i(229580),	-- Prized Gladiator's Leather Vestments
+				i(229581),	-- Prized Gladiator's Leather Boots
+				i(229582),	-- Prized Gladiator's Leather Treads
+				i(229583),	-- Prized Gladiator's Leather Gloves
+				i(229584),	-- Prized Gladiator's Leather Grips
+				i(229585),	-- Prized Gladiator's Leather Helm
+				i(229586),	-- Prized Gladiator's Leather Mask
+				i(229587),	-- Prized Gladiator's Leather Breeches
+				i(229588),	-- Prized Gladiator's Leather Legwraps
+				i(229589),	-- Prized Gladiator's Leather Spaulders
+				i(229590),	-- Prized Gladiator's Leather Shoulderpads
+				i(229591),	-- Prized Gladiator's Leather Belt
+				i(229592),	-- Prized Gladiator's Leather Strap
+				i(229594),	-- Prized Gladiator's Leather Wristwraps
+				i(229595),	-- Prized Gladiator's Leather Wristguards
+				i(229596),	-- Prized Gladiator's Cloak
+				i(229597),	-- Prized Gladiator's Drape
+				i(229598),	-- Prized Gladiator's Shawl
+				i(229599),	-- Prized Gladiator's Leather Vest
+				i(229600),	-- Prized Gladiator's Leather Jerkin
+				i(229601),	-- Prized Gladiator's Leather Boots
+				i(229602),	-- Prized Gladiator's Leather Treads
+				i(229603),	-- Prized Gladiator's Leather Gloves
+				i(229604),	-- Prized Gladiator's Leather Grips
+				i(229605),	-- Prized Gladiator's Leather Helm
+				i(229606),	-- Prized Gladiator's Leather Mask
+				i(229607),	-- Prized Gladiator's Leather Breeches
+				i(229608),	-- Prized Gladiator's Leather Legwraps
+				i(229609),	-- Prized Gladiator's Leather Spaulders
+				i(229610),	-- Prized Gladiator's Leather Shoulderpads
+				i(229611),	-- Prized Gladiator's Leather Belt
+				i(229612),	-- Prized Gladiator's Leather Strap
+				i(229613),	-- Prized Gladiator's Leather Wristwraps
+				i(229614),	-- Prized Gladiator's Leather Wristguards
+				i(229615),	-- Prized Gladiator's Cloak
+				i(229616),	-- Prized Gladiator's Drape
+				i(229617),	-- Prized Gladiator's Shawl
+				i(229618),	-- Prized Gladiator's Leather Vest
+				i(229619),	-- Prized Gladiator's Leather Jerkin
+				i(229620),	-- Prized Gladiator's Leather Boots
+				i(229621),	-- Prized Gladiator's Leather Treads
+				i(229622),	-- Prized Gladiator's Leather Gloves
+				i(229623),	-- Prized Gladiator's Leather Grips
+				i(229624),	-- Prized Gladiator's Leather Helm
+				i(229625),	-- Prized Gladiator's Leather Mask
+				i(229626),	-- Prized Gladiator's Leather Breeches
+				i(229627),	-- Prized Gladiator's Leather Legwraps
+				i(229628),	-- Prized Gladiator's Leather Spaulders
+				i(229629),	-- Prized Gladiator's Leather Shoulderpads
+				i(229630),	-- Prized Gladiator's Leather Belt
+				i(229631),	-- Prized Gladiator's Leather Strap
+				i(229632),	-- Prized Gladiator's Leather Wristwraps
+				i(229633),	-- Prized Gladiator's Leather Wristguards
+				i(229634),	-- Prized Gladiator's Cloak
+				i(229635),	-- Prized Gladiator's Drape
+				i(229636),	-- Prized Gladiator's Shawl
+				i(229637),	-- Prized Gladiator's Leather Vest
+				i(229638),	-- Prized Gladiator's Leather Jerkin
+				i(229639),	-- Prized Gladiator's Leather Boots
+				i(229640),	-- Prized Gladiator's Leather Treads
+				i(229641),	-- Prized Gladiator's Leather Gloves
+				i(229642),	-- Prized Gladiator's Leather Grips
+				i(229643),	-- Prized Gladiator's Leather Helm
+				i(229644),	-- Prized Gladiator's Leather Mask
+				i(229645),	-- Prized Gladiator's Leather Breeches
+				i(229646),	-- Prized Gladiator's Leather Legwraps
+				i(229647),	-- Prized Gladiator's Leather Spaulders
+				i(229648),	-- Prized Gladiator's Leather Shoulderpads
+				i(229649),	-- Prized Gladiator's Leather Belt
+				i(229650),	-- Prized Gladiator's Leather Strap
+				i(229651),	-- Prized Gladiator's Leather Wristwraps
+				i(229652),	-- Prized Gladiator's Leather Wristguards
+				i(229653),	-- Prized Gladiator's Cloak
+				i(229654),	-- Prized Gladiator's Drape
+				i(229655),	-- Prized Gladiator's Shawl
+				i(229656),	-- Prized Gladiator's Armored Scales
+				i(229657),	-- Prized Gladiator's Scaleguard
+				i(229658),	-- Prized Gladiator's Chain Sabatons
+				i(229659),	-- Prized Gladiator's Chain Boots
+				i(229660),	-- Prized Gladiator's Chain Gauntlets
+				i(229661),	-- Prized Gladiator's Chain Handguards
+				i(229662),	-- Prized Gladiator's Chain Helm
+				i(229663),	-- Prized Gladiator's Chain Faceguard
+				i(229664),	-- Prized Gladiator's Chain Leggings
+				i(229665),	-- Prized Gladiator's Chain Breeches
+				i(229666),	-- Prized Gladiator's Chain Monnion
+				i(229667),	-- Prized Gladiator's Chain Shoulderguard
+				i(229668),	-- Prized Gladiator's Chain Belt
+				i(229669),	-- Prized Gladiator's Chain Girdle
+				i(229670),	-- Prized Gladiator's Chain Wristguards
+				i(229671),	-- Prized Gladiator's Chain Bracers
+				i(229672),	-- Prized Gladiator's Cloak
+				i(229673),	-- Prized Gladiator's Drape
+				i(229674),	-- Prized Gladiator's Shawl
+				i(229675),	-- Prized Gladiator's Chain Vest
+				i(229676),	-- Prized Gladiator's Chain Tunic
+				i(229677),	-- Prized Gladiator's Chain Sabatons
+				i(229678),	-- Prized Gladiator's Chain Boots
+				i(229679),	-- Prized Gladiator's Chain Gauntlets
+				i(229680),	-- Prized Gladiator's Chain Handguards
+				i(229681),	-- Prized Gladiator's Chain Helm
+				i(229682),	-- Prized Gladiator's Chain Faceguard
+				i(229683),	-- Prized Gladiator's Chain Leggings
+				i(229684),	-- Prized Gladiator's Chain Breeches
+				i(229685),	-- Prized Gladiator's Chain Monnion
+				i(229686),	-- Prized Gladiator's Chain Shoulderguard
+				i(229687),	-- Prized Gladiator's Chain Belt
+				i(229688),	-- Prized Gladiator's Chain Girdle
+				i(229689),	-- Prized Gladiator's Chain Wristguards
+				i(229690),	-- Prized Gladiator's Chain Bracers
+				i(229691),	-- Prized Gladiator's Cloak
+				i(229692),	-- Prized Gladiator's Drape
+				i(229693),	-- Prized Gladiator's Shawl
+				i(229694),	-- Prized Gladiator's Chain Vest
+				i(229695),	-- Prized Gladiator's Chain Tunic
+				i(229696),	-- Prized Gladiator's Chain Sabatons
+				i(229697),	-- Prized Gladiator's Chain Boots
+				i(229698),	-- Prized Gladiator's Chain Gauntlets
+				i(229699),	-- Prized Gladiator's Chain Handguards
+				i(229700),	-- Prized Gladiator's Chain Helm
+				i(229701),	-- Prized Gladiator's Chain Faceguard
+				i(229702),	-- Prized Gladiator's Chain Leggings
+				i(229703),	-- Prized Gladiator's Chain Breeches
+				i(229704),	-- Prized Gladiator's Chain Monnion
+				i(229705),	-- Prized Gladiator's Chain Shoulderguard
+				i(229706),	-- Prized Gladiator's Chain Belt
+				i(229707),	-- Prized Gladiator's Chain Girdle
+				i(229708),	-- Prized Gladiator's Chain Wristguards
+				i(229709),	-- Prized Gladiator's Chain Bracers
+				i(229710),	-- Prized Gladiator's Cloak
+				i(229711),	-- Prized Gladiator's Drape
+				i(229712),	-- Prized Gladiator's Shawl
+				i(229713),	-- Prized Gladiator's Chestguard
+				i(229715),	-- Prized Gladiator's Chestplate
+				i(229716),	-- Prized Gladiator's Plate Warboots
+				i(229717),	-- Prized Gladiator's Plate Stompers
+				i(229718),	-- Prized Gladiator's Plate Gauntlets
+				i(229719),	-- Prized Gladiator's Plate Handguards
+				i(229721),	-- Prized Gladiator's Plate Helm
+				i(229722),	-- Prized Gladiator's Plate Helmet
+				i(229723),	-- Prized Gladiator's Plate Legguards
+				i(229724),	-- Prized Gladiator's Plate Wargreaves
+				i(229725),	-- Prized Gladiator's Plate Shoulders
+				i(229726),	-- Prized Gladiator's Plate Pauldrons
+				i(229727),	-- Prized Gladiator's Plate Girdle
+				i(229728),	-- Prized Gladiator's Plate Greatbelt
+				i(229729),	-- Prized Gladiator's Plate Wristguards
+				i(229730),	-- Prized Gladiator's Plate Vambraces
+				i(229731),	-- Prized Gladiator's Cloak
+				i(229732),	-- Prized Gladiator's Drape
+				i(229733),	-- Prized Gladiator's Shawl
+				i(229734),	-- Prized Gladiator's Chestguard
+				i(229735),	-- Prized Gladiator's Chestplate
+				i(229736),	-- Prized Gladiator's Plate Warboots
+				i(229737),	-- Prized Gladiator's Plate Stompers
+				i(229738),	-- Prized Gladiator's Plate Gauntlets
+				i(229739),	-- Prized Gladiator's Plate Handguards
+				i(229740),	-- Prized Gladiator's Plate Helm
+				i(229741),	-- Prized Gladiator's Plate Helmet
+				i(229742),	-- Prized Gladiator's Plate Legguards
+				i(229743),	-- Prized Gladiator's Plate Tasses
+				i(229744),	-- Prized Gladiator's Plate Shoulders
+				i(229745),	-- Prized Gladiator's Plate Pauldrons
+				i(229746),	-- Prized Gladiator's Plate Girdle
+				i(229747),	-- Prized Gladiator's Plate Greatbelt
+				i(229748),	-- Prized Gladiator's Plate Wristguards
+				i(229750),	-- Prized Gladiator's Plate Vambraces
+				i(229751),	-- Prized Gladiator's Cloak
+				i(229752),	-- Prized Gladiator's Drape
+				i(229753),	-- Prized Gladiator's Shawl
+				i(229754),	-- Prized Gladiator's Chestguard
+				i(229755),	-- Prized Gladiator's Chestplate
+				i(229756),	-- Prized Gladiator's Plate Warboots
+				i(229757),	-- Prized Gladiator's Plate Stompers
+				i(229758),	-- Prized Gladiator's Plate Gauntlets
+				i(229759),	-- Prized Gladiator's Plate Handguards
+				i(229760),	-- Prized Gladiator's Plate Helm
+				i(229761),	-- Prized Gladiator's Plate Helmet
+				i(229762),	-- Prized Gladiator's Plate Legguards
+				i(229763),	-- Prized Gladiator's Plate Wargreaves
+				i(229765),	-- Prized Gladiator's Plate Shoulders
+				i(229766),	-- Prized Gladiator's Plate Pauldrons
+				i(229767),	-- Prized Gladiator's Plate Girdle
+				i(229768),	-- Prized Gladiator's Plate Greatbelt
+				i(229769),	-- Prized Gladiator's Plate Wristguards
+				i(229770),	-- Prized Gladiator's Plate Vambraces
+				i(229771),	-- Prized Gladiator's Cloak
+				i(229772),	-- Prized Gladiator's Drape
+				i(229773),	-- Prized Gladiator's Shawl
+				i(229774),	-- Prized Gladiator's Ring
+				i(229775),	-- Prized Gladiator's Band
+				i(229776),	-- Prized Gladiator's Signet
+				i(229777),	-- Prized Gladiator's Necklace
+				i(229778),	-- Prized Gladiator's Pendant
+				i(229779),	-- Prized Gladiator's Amulet
+				i(229780),	-- Prized Gladiator's Badge of Ferocity
+				i(229781),	-- Prized Gladiator's Insignia of Alacrity
+				i(229782),	-- Prized Gladiator's Emblem
+				i(229783),	-- Prized Gladiator's Medallion
+				i(229784),	-- Prized Gladiator's Sigil of Adaptation
+				i(229785),	-- Prized Gladiator's Last Resort
+				i(229786),	-- Prized Gladiator's Dagger
+				i(229787),	-- Prized Gladiator's Warglaive
+				i(229788),	-- Prized Gladiator's Drill
+				i(229789),	-- Prized Gladiator's Staff
+				i(229790),	-- Prized Gladiator's Bow
+				i(229791),	-- Prized Gladiator's Bludgeon
+				i(229792),	-- Prized Gladiator's Army Knife
+				i(229793),	-- Prized Gladiator's Gasket
+				i(229794),	-- Prized Gladiator's Flail
+				i(229795),	-- Prized Gladiator's Pincer
+				i(229796),	-- Prized Gladiator's Detonator
+				i(229797),	-- Prized Gladiator's Blaster
+				i(229798),	-- Prized Gladiator's Greatstaff
+				i(229799),	-- Prized Gladiator's Bulwark
+				i(229800),	-- Prized Gladiator's Greatsaw
+				i(229801),	-- Prized Gladiator's Pulverizer
+				i(229802),	-- Prized Gladiator's Torchblade
+				i(229803),	-- Prized Gladiator's Skewer
+				i(229804),	-- Prized Gladiator's Pylon
+
+				i(230106),	-- Prized Warmonger's Garb
+				i(230107),	-- Prized Warmonger's Slippers
+				i(230108),	-- Prized Warmonger's Gloves
+				i(230109),	-- Prized Warmonger's Crown
+				i(230110),	-- Prized Warmonger's Pants
+				i(230111),	-- Prized Warmonger's Cord
+				i(230112),	-- Prized Warmonger's Bindings
+				i(230113),	-- Prized Warmonger's Mantle
+				i(230114),	-- Prized Warmonger's Boots
+				i(230115),	-- Prized Warmonger's Handwraps
+				i(230116),	-- Prized Warmonger's Hood
+				i(230117),	-- Prized Warmonger's Breeches
+				i(230118),	-- Prized Warmonger's Belt
+				i(230119),	-- Prized Warmonger's Wraps
+				i(230120),	-- Prized Warmonger's Jerkin
+				i(230121),	-- Prized Warmonger's Shoulderguard
+				i(230122),	-- Prized Warmonger's Faceplate
+				i(230123),	-- Prized Warmonger's Cuirass
+				i(230124),	-- Prized Warmonger's Sabatons
+				i(230125),	-- Prized Warmonger's Gauntlets
+				i(230126),	-- Prized Warmonger's Legguards
+				i(230127),	-- Prized Warmonger's Spaulders
+				i(230128),	-- Prized Warmonger's Clasp
+				i(230129),	-- Prized Warmonger's Bracers
+				i(230130),	-- Prized Warmonger's Chestguard
+				i(230131),	-- Prized Warmonger's Greaves
+				i(230132),	-- Prized Warmonger's Grips
+				i(230133),	-- Prized Warmonger's Helm
+				i(230134),	-- Prized Warmonger's Leggings
+				i(230135),	-- Prized Warmonger's Epaulets
+				i(230136),	-- Prized Warmonger's Cinch
+				i(230137),	-- Prized Warmonger's Armguards
+				i(230138),	-- Prized Warmonger's Cape
+				i(230139),	-- Prized Warmonger's Shawl
+				i(230140),	-- Prized Warmonger's Cloak
+				i(230141),	-- Prized Warmonger's Drape
+				i(230142),	-- Prized Warmonger's Battleaxe
+				i(230143),	-- Prized Warmonger's Hatchet
+				i(230144),	-- Prized Warmonger's Carver
+				i(230145),	-- Prized Warmonger's Flameshot
+				i(230146),	-- Prized Warmonger's Twinblade
+				i(230147),	-- Prized Warmonger's Firebomb
+				i(230148),	-- Prized Warmonger's Spire
+				i(230149),	-- Prized Warmonger's Battlestaff
+				i(230150),	-- Prized Warmonger's Greatsword
+				i(230151),	-- Prized Warmonger's Broadsword
+				i(230153),	-- Prized Warmonger's Club
+				i(230154),	-- Prized Warmonger's Hammer
+				i(230155),	-- Prized Warmonger's Gavel
+				i(230156),	-- Prized Warmonger's Aegis
+				i(230157),	-- Prized Warmonger's Impaler
+				i(230158),	-- Prized Warmonger's Spear
+				i(230159),	-- Prized Warmonger's Wand
+				i(230160),	-- Prized Warmonger's Mace
+				i(230161),	-- Prized Warmonger's Crusher
+				i(230162),	-- Prized Warmonger's Scepter
+				i(230163),	-- Prized Warmonger's Dagger
+				i(230164),	-- Prized Warmonger's Dirk
+				i(230425),	-- Prized Jeweler's Setting
+				i(230721),	-- Prized Equipment Chest
+				i(230774),	-- Prized Gladiator's Bludgeon
+				i(230775),	-- Prized Gladiator's Pincer
+				i(230776),	-- Prized Gladiator's Blaster
+				i(230777),	-- Prized Gladiator's Warglaive
+				i(230778),	-- Prized Gladiator's Drill
+				i(230779),	-- Prized Gladiator's Staff
+				i(230780),	-- Prized Gladiator's Torchblade
+				i(230781),	-- Prized Gladiator's Pylon
+				i(230782),	-- Prized Gladiator's Dagger
+				i(230783),	-- Prized Gladiator's Flail
+				i(230784),	-- Prized Gladiator's Army Knife
+				i(230785),	-- Prized Gladiator's Conduit
+				i(230786),	-- Prized Gladiator's Gasket
+				i(230787),	-- Prized Gladiator's Detonator
+				i(230788),	-- Prized Gladiator's Bow
+				i(230789),	-- Prized Gladiator's Greatsaw
+				i(230790),	-- Prized Gladiator's Pulverizer
+
+				i(231637),	-- Prized Gladiator's Tabard
+
+				i(232664),	-- Ensemble: Forged Aspirant's Cloth Armor
+				i(232665),	-- Ensemble: Forged Aspirant's Leather Armor
+				i(232666),	-- Ensemble: Forged Aspirant's Mail Armor
+				i(232667),	-- Ensemble: Forged Aspirant's Plate Armor
+				i(232668),	-- Ensemble: Forged Gladiator's Death Knight Armor
+				i(232669),	-- Ensemble: Forged Gladiator's Demon Hunter Armor
+				i(232670),	-- Ensemble: Forged Gladiator's Druid Armor
+				i(232671),	-- Ensemble: Forged Gladiator's Evoker Armor
+				i(232672),	-- Ensemble: Forged Gladiator's Hunter Armor
+				i(232673),	-- Ensemble: Forged Gladiator's Mage Armor
+				i(232674),	-- Ensemble: Forged Gladiator's Monk Armor
+				i(232675),	-- Ensemble: Forged Gladiator's Paladin Armor
+				i(232676),	-- Ensemble: Forged Gladiator's Priest Armor
+				i(232677),	-- Ensemble: Forged Gladiator's Rogue Armor
+				i(232678),	-- Ensemble: Forged Gladiator's Shaman Armor
+				i(232679),	-- Ensemble: Forged Gladiator's Warlock Armor
+				i(232680),	-- Ensemble: Forged Gladiator's Warrior Armor
+				i(232681),	-- Ensemble: Elite Forged Gladiator's Death Knight Armor
+				i(232682),	-- Ensemble: Elite Forged Gladiator's Demon Hunter Armor
+				i(232683),	-- Ensemble: Elite Forged Gladiator's Druid Armor
+				i(232684),	-- Ensemble: Elite Forged Gladiator's Evoker Armor
+				i(232685),	-- Ensemble: Elite Forged Gladiator's Hunter Armor
+				i(232686),	-- Ensemble: Elite Forged Gladiator's Mage Armor
+				i(232687),	-- Ensemble: Elite Forged Gladiator's Monk Armor
+				i(232688),	-- Ensemble: Elite Forged Gladiator's Paladin Armor
+				i(232689),	-- Ensemble: Elite Forged Gladiator's Priest Armor
+				i(232690),	-- Ensemble: Elite Forged Gladiator's Rogue Armor
+				i(232691),	-- Ensemble: Elite Forged Gladiator's Shaman Armor
+				i(232692),	-- Ensemble: Elite Forged Gladiator's Warlock Armor
+				i(232693),	-- Ensemble: Elite Forged Gladiator's Warrior Armor
+				i(232695),	-- Ensemble: Prized Aspirant's Cloth Armor
+				i(232696),	-- Ensemble: Prized Aspirant's Leather Armor
+				i(232697),	-- Ensemble: Prized Aspirant's Mail Armor
+				i(232698),	-- Ensemble: Prized Aspirant's Plate Armor
+				i(232699),	-- Ensemble: Prized Gladiator's Death Knight Armor
+				i(232700),	-- Ensemble: Prized Gladiator's Demon Hunter Armor
+				i(232701),	-- Ensemble: Prized Gladiator's Druid Armor
+				i(232702),	-- Ensemble: Prized Gladiator's Evoker Armor
+				i(232703),	-- Ensemble: Prized Gladiator's Hunter Armor
+				i(232704),	-- Ensemble: Prized Gladiator's Mage Armor
+				i(232705),	-- Ensemble: Prized Gladiator's Monk Armor
+				i(232706),	-- Ensemble: Prized Gladiator's Paladin Armor
+				i(232707),	-- Ensemble: Prized Gladiator's Priest Armor
+				i(232708),	-- Ensemble: Prized Gladiator's Rogue Armor
+				i(232709),	-- Ensemble: Prized Gladiator's Shaman Armor
+				i(232710),	-- Ensemble: Prized Gladiator's Warlock Armor
+				i(232711),	-- Ensemble: Prized Gladiator's Warrior Armor
+				i(232712),	-- Ensemble: Elite Prized Gladiator's Death Knight Armor
+				i(232713),	-- Ensemble: Elite Prized Gladiator's Demon Hunter Armor
+				i(232714),	-- Ensemble: Elite Prized Gladiator's Druid Armor
+				i(232715),	-- Ensemble: Elite Prized Gladiator's Evoker Armor
+				i(232716),	-- Ensemble: Elite Prized Gladiator's Hunter Armor
+				i(232717),	-- Ensemble: Elite Prized Gladiator's Mage Armor
+				i(232718),	-- Ensemble: Elite Prized Gladiator's Monk Armor
+				i(232719),	-- Ensemble: Elite Prized Gladiator's Paladin Armor
+				i(232720),	-- Ensemble: Elite Prized Gladiator's Priest Armor
+				i(232721),	-- Ensemble: Elite Prized Gladiator's Rogue Armor
+				i(232722),	-- Ensemble: Elite Prized Gladiator's Shaman Armor
+				i(232723),	-- Ensemble: Elite Prized Gladiator's Warlock Armor
+				i(232724),	-- Ensemble: Elite Prized Gladiator's Warrior Armor
+
+				i(232620),	-- Prized Gladiator's Conduit
+				i(232864),	-- Arsenal: Forged Aspirant's Weapons
+				i(232865),	-- Arsenal: Forged Gladiator's Weapons
+				i(232866),	-- Arsenal: Elite Forged Gladiator's Weapons
+				i(232867),	-- Arsenal: Prized Aspirant's Weapons
+				i(232868),	-- Arsenal: Prized Gladiator's Weapons
+				i(232869),	-- Arsenal: Elite Prized Gladiator's Weapons
+			}),
 			i(229805),	-- Last Week's Undermine Inquirer
 			i(229809),	-- Weighted Metal Ball
 			i(229810),	-- Vintage Kaja'cola Can
 			i(229823),	-- Canister of Darkfuse Solution
 			i(229824),	-- Banana Peel
 			i(229825),	-- Dented Can of Kaja-Cola
-			i(229935),	-- Crimson Armored Growler
+
 			i(229945),	-- [PH] Goblin Rocket Mount - Red
-			i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine
-			i(229956),	-- Mean Green Flying Machine
-			i(229974),	-- Delver's Gob-Trotter
-			i(229987),	-- Prized Gladiator's Fel Bat
+
+
+
+
 			i(230017),	-- Master Blaster's Insignia
 			i(230019),	-- Vexie's Pit Whistle
 			i(230026),	-- Scrapfield 9001
 			i(230027),	-- House of Cards
 			i(230029),	-- Chromebustible Bomb Suit
-			i(230106),	-- Prized Warmonger's Garb
-			i(230107),	-- Prized Warmonger's Slippers
-			i(230108),	-- Prized Warmonger's Gloves
-			i(230109),	-- Prized Warmonger's Crown
-			i(230110),	-- Prized Warmonger's Pants
-			i(230111),	-- Prized Warmonger's Cord
-			i(230112),	-- Prized Warmonger's Bindings
-			i(230113),	-- Prized Warmonger's Mantle
-			i(230114),	-- Prized Warmonger's Boots
-			i(230115),	-- Prized Warmonger's Handwraps
-			i(230116),	-- Prized Warmonger's Hood
-			i(230117),	-- Prized Warmonger's Breeches
-			i(230118),	-- Prized Warmonger's Belt
-			i(230119),	-- Prized Warmonger's Wraps
-			i(230120),	-- Prized Warmonger's Jerkin
-			i(230121),	-- Prized Warmonger's Shoulderguard
-			i(230122),	-- Prized Warmonger's Faceplate
-			i(230123),	-- Prized Warmonger's Cuirass
-			i(230124),	-- Prized Warmonger's Sabatons
-			i(230125),	-- Prized Warmonger's Gauntlets
-			i(230126),	-- Prized Warmonger's Legguards
-			i(230127),	-- Prized Warmonger's Spaulders
-			i(230128),	-- Prized Warmonger's Clasp
-			i(230129),	-- Prized Warmonger's Bracers
-			i(230130),	-- Prized Warmonger's Chestguard
-			i(230131),	-- Prized Warmonger's Greaves
-			i(230132),	-- Prized Warmonger's Grips
-			i(230133),	-- Prized Warmonger's Helm
-			i(230134),	-- Prized Warmonger's Leggings
-			i(230135),	-- Prized Warmonger's Epaulets
-			i(230136),	-- Prized Warmonger's Cinch
-			i(230137),	-- Prized Warmonger's Armguards
-			i(230138),	-- Prized Warmonger's Cape
-			i(230139),	-- Prized Warmonger's Shawl
-			i(230140),	-- Prized Warmonger's Cloak
-			i(230141),	-- Prized Warmonger's Drape
-			i(230142),	-- Prized Warmonger's Battleaxe
-			i(230143),	-- Prized Warmonger's Hatchet
-			i(230144),	-- Prized Warmonger's Carver
-			i(230145),	-- Prized Warmonger's Flameshot
-			i(230146),	-- Prized Warmonger's Twinblade
-			i(230147),	-- Prized Warmonger's Firebomb
-			i(230148),	-- Prized Warmonger's Spire
-			i(230149),	-- Prized Warmonger's Battlestaff
-			i(230150),	-- Prized Warmonger's Greatsword
-			i(230151),	-- Prized Warmonger's Broadsword
-			i(230153),	-- Prized Warmonger's Club
-			i(230154),	-- Prized Warmonger's Hammer
-			i(230155),	-- Prized Warmonger's Gavel
-			i(230156),	-- Prized Warmonger's Aegis
-			i(230157),	-- Prized Warmonger's Impaler
-			i(230158),	-- Prized Warmonger's Spear
-			i(230159),	-- Prized Warmonger's Wand
-			i(230160),	-- Prized Warmonger's Mace
-			i(230161),	-- Prized Warmonger's Crusher
-			i(230162),	-- Prized Warmonger's Scepter
-			i(230163),	-- Prized Warmonger's Dagger
-			i(230164),	-- Prized Warmonger's Dirk
+
 			i(230186),	-- Mister Pick-Me-Up
 			i(230187),	-- Lucio Boombox
 			i(230188),	-- Gallagio Bottle Service
@@ -774,27 +905,10 @@ root(ROOTS.Unsorted, {
 			i(230232),	-- Comically Large Magnet
 			i(230233),	-- Biofuel Rocket Gear
 			i(230234),	-- Pinged Augment Chip
-			i(230425),	-- Prized Jeweler's Setting
-			i(230721),	-- Prized Equipment Chest
+
 			i(230727),	-- Explosive Victory
 			i(230731),	-- Pitz's Masterwork Invention
-			i(230774),	-- Prized Gladiator's Bludgeon
-			i(230775),	-- Prized Gladiator's Pincer
-			i(230776),	-- Prized Gladiator's Blaster
-			i(230777),	-- Prized Gladiator's Warglaive
-			i(230778),	-- Prized Gladiator's Drill
-			i(230779),	-- Prized Gladiator's Staff
-			i(230780),	-- Prized Gladiator's Torchblade
-			i(230781),	-- Prized Gladiator's Pylon
-			i(230782),	-- Prized Gladiator's Dagger
-			i(230783),	-- Prized Gladiator's Flail
-			i(230784),	-- Prized Gladiator's Army Knife
-			i(230785),	-- Prized Gladiator's Conduit
-			i(230786),	-- Prized Gladiator's Gasket
-			i(230787),	-- Prized Gladiator's Detonator
-			i(230788),	-- Prized Gladiator's Bow
-			i(230789),	-- Prized Gladiator's Greatsaw
-			i(230790),	-- Prized Gladiator's Pulverizer
+
 			i(230791),	-- [11.1 PVP] Gladiator's Wither-Blade <TEMPLATE>
 			i(230792),	-- X-Plo-Dar 64k
 			i(230793),	-- Algari Token of Merit
@@ -804,7 +918,7 @@ root(ROOTS.Unsorted, {
 			i(230799),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
 			i(230807),	-- Drill Hands
 			i(230850),	-- Delve-O-Bot 7001
-			i(230852),	-- Prized Gladiator's Weapon Token
+
 			i(230905),	-- Fractured Spark of Fortunes
 			i(230906),	-- Spark of Fortunes
 			i(230924),	-- Spotlight Materializer 1000
@@ -844,8 +958,7 @@ root(ROOTS.Unsorted, {
 			i(231550),	-- Darkfuse Lowdown Coat
 			i(231556),	-- Breakneck Cabbie's Coat
 			i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
-			i(231637),	-- Prized Gladiator's Tabard
-			i(231638),	-- Prized Gladiator's Prestigious Cloak
+
 			i(231733),	-- Black Bruiser's Tabard
 			i(231734),	-- Blackwater Bruiser's Tabard
 			i(231735),	-- Steamwheedle Bruiser's Tabard
@@ -963,9 +1076,9 @@ root(ROOTS.Unsorted, {
 			i(232545),	-- Gigazap's Zap-Cap
 			i(232546),	-- K.U.-J.0.'s Flame Vents
 			i(232547),	-- Omega Strike Force
-			i(232615),	-- Prized Gladiator's Coin Pouch
+
 			i(232619),	-- Gary the Goldfish
-			i(232620),	-- Prized Gladiator's Conduit
+
 			i(232651),	-- Faded Journal Page
 			i(232655),	-- Vatwork Janitor's Wasteband
 			i(232656),	-- Psychopath's Ravemantle
@@ -976,66 +1089,7 @@ root(ROOTS.Unsorted, {
 			i(232661),	-- Bootleg Wrynn Shoulderplates
 			i(232662),	-- Globlin-Fused Greatbelt
 			i(232663),	-- Undermine Merc's Dog Tags
-			i(232664),	-- Ensemble: Forged Aspirant's Cloth Armor
-			i(232665),	-- Ensemble: Forged Aspirant's Leather Armor
-			i(232666),	-- Ensemble: Forged Aspirant's Mail Armor
-			i(232667),	-- Ensemble: Forged Aspirant's Plate Armor
-			i(232668),	-- Ensemble: Forged Gladiator's Death Knight Armor
-			i(232669),	-- Ensemble: Forged Gladiator's Demon Hunter Armor
-			i(232670),	-- Ensemble: Forged Gladiator's Druid Armor
-			i(232671),	-- Ensemble: Forged Gladiator's Evoker Armor
-			i(232672),	-- Ensemble: Forged Gladiator's Hunter Armor
-			i(232673),	-- Ensemble: Forged Gladiator's Mage Armor
-			i(232674),	-- Ensemble: Forged Gladiator's Monk Armor
-			i(232675),	-- Ensemble: Forged Gladiator's Paladin Armor
-			i(232676),	-- Ensemble: Forged Gladiator's Priest Armor
-			i(232677),	-- Ensemble: Forged Gladiator's Rogue Armor
-			i(232678),	-- Ensemble: Forged Gladiator's Shaman Armor
-			i(232679),	-- Ensemble: Forged Gladiator's Warlock Armor
-			i(232680),	-- Ensemble: Forged Gladiator's Warrior Armor
-			i(232681),	-- Ensemble: Elite Forged Gladiator's Death Knight Armor
-			i(232682),	-- Ensemble: Elite Forged Gladiator's Demon Hunter Armor
-			i(232683),	-- Ensemble: Elite Forged Gladiator's Druid Armor
-			i(232684),	-- Ensemble: Elite Forged Gladiator's Evoker Armor
-			i(232685),	-- Ensemble: Elite Forged Gladiator's Hunter Armor
-			i(232686),	-- Ensemble: Elite Forged Gladiator's Mage Armor
-			i(232687),	-- Ensemble: Elite Forged Gladiator's Monk Armor
-			i(232688),	-- Ensemble: Elite Forged Gladiator's Paladin Armor
-			i(232689),	-- Ensemble: Elite Forged Gladiator's Priest Armor
-			i(232690),	-- Ensemble: Elite Forged Gladiator's Rogue Armor
-			i(232691),	-- Ensemble: Elite Forged Gladiator's Shaman Armor
-			i(232692),	-- Ensemble: Elite Forged Gladiator's Warlock Armor
-			i(232693),	-- Ensemble: Elite Forged Gladiator's Warrior Armor
-			i(232695),	-- Ensemble: Prized Aspirant's Cloth Armor
-			i(232696),	-- Ensemble: Prized Aspirant's Leather Armor
-			i(232697),	-- Ensemble: Prized Aspirant's Mail Armor
-			i(232698),	-- Ensemble: Prized Aspirant's Plate Armor
-			i(232699),	-- Ensemble: Prized Gladiator's Death Knight Armor
-			i(232700),	-- Ensemble: Prized Gladiator's Demon Hunter Armor
-			i(232701),	-- Ensemble: Prized Gladiator's Druid Armor
-			i(232702),	-- Ensemble: Prized Gladiator's Evoker Armor
-			i(232703),	-- Ensemble: Prized Gladiator's Hunter Armor
-			i(232704),	-- Ensemble: Prized Gladiator's Mage Armor
-			i(232705),	-- Ensemble: Prized Gladiator's Monk Armor
-			i(232706),	-- Ensemble: Prized Gladiator's Paladin Armor
-			i(232707),	-- Ensemble: Prized Gladiator's Priest Armor
-			i(232708),	-- Ensemble: Prized Gladiator's Rogue Armor
-			i(232709),	-- Ensemble: Prized Gladiator's Shaman Armor
-			i(232710),	-- Ensemble: Prized Gladiator's Warlock Armor
-			i(232711),	-- Ensemble: Prized Gladiator's Warrior Armor
-			i(232712),	-- Ensemble: Elite Prized Gladiator's Death Knight Armor
-			i(232713),	-- Ensemble: Elite Prized Gladiator's Demon Hunter Armor
-			i(232714),	-- Ensemble: Elite Prized Gladiator's Druid Armor
-			i(232715),	-- Ensemble: Elite Prized Gladiator's Evoker Armor
-			i(232716),	-- Ensemble: Elite Prized Gladiator's Hunter Armor
-			i(232717),	-- Ensemble: Elite Prized Gladiator's Mage Armor
-			i(232718),	-- Ensemble: Elite Prized Gladiator's Monk Armor
-			i(232719),	-- Ensemble: Elite Prized Gladiator's Paladin Armor
-			i(232720),	-- Ensemble: Elite Prized Gladiator's Priest Armor
-			i(232721),	-- Ensemble: Elite Prized Gladiator's Rogue Armor
-			i(232722),	-- Ensemble: Elite Prized Gladiator's Shaman Armor
-			i(232723),	-- Ensemble: Elite Prized Gladiator's Warlock Armor
-			i(232724),	-- Ensemble: Elite Prized Gladiator's Warrior Armor
+
 			i(232725),	-- Pilot's Oiled Trousers
 			i(232726),	-- Well-Trodden Mechanic's Shoes
 			i(232727),	-- Cavern Stalker's Trophy Girdle
@@ -1127,12 +1181,7 @@ root(ROOTS.Unsorted, {
 			i(232858),	-- Cruncher
 			i(232859),	-- Lab Rat
 			i(232863),	-- Darkfuse Research Notes
-			i(232864),	-- Arsenal: Forged Aspirant's Weapons
-			i(232865),	-- Arsenal: Forged Gladiator's Weapons
-			i(232866),	-- Arsenal: Elite Forged Gladiator's Weapons
-			i(232867),	-- Arsenal: Prized Aspirant's Weapons
-			i(232868),	-- Arsenal: Prized Gladiator's Weapons
-			i(232869),	-- Arsenal: Elite Prized Gladiator's Weapons
+
 			i(232874),	-- Undermine Stockpile
 			i(232883),	-- Turbo-Drain 5000
 			i(232886),	-- Ensemble: Algari Warmonger's Cloth Armor
@@ -1200,7 +1249,7 @@ root(ROOTS.Unsorted, {
 			i(233061),	-- Rock-in-a-Bottle
 			i(233062),	-- Pocket Pizza
 			i(233063),	-- Brann's Boomstick
-			i(233064),	-- Bronze Goblin Wave Shredder
+
 			i(233066),	-- Radioactive Rat's Head
 			i(233071),	-- Delver's Bounty
 			i(233113),	-- Crocodillian's Head
@@ -1674,12 +1723,9 @@ root(ROOTS.Unsorted, {
 			i(235507),	-- Might-Be-Invisible Drape
 			i(235508),	-- Might-Be-Invisible Cape
 			i(235516),	-- The Severance Package
-			i(235519),	-- Prized Legend's Pennant
+
 			i(235531),	-- Restored Coffer Key
-			i(235554),	-- Midnight Darkmoon Charger
-			i(235555),	-- Lively Darkmoon Charger
-			i(235556),	-- Violet Darkmoon Charger
-			i(235557),	-- Snowy Darkmoon Charger
+
 			i(235558),	-- Box of Darkfuse Miscellany
 			i(235559),	-- Hidden Trove
 			i(235563),	-- Forest Dweller's Garden Tunic
@@ -1726,7 +1772,7 @@ root(ROOTS.Unsorted, {
 			i(235622),	-- Bug Exterminator's Shoulderguards
 			i(235623),	-- Ruby Scale Treads
 			i(235624),	-- Sapphire Scale Treads
-			i(235626),	-- Keys to the Big G
+
 			i(235627),	-- Scribbles' Favorite Candies
 			i(235628),	-- Delver's Bounty
 			i(235639),	-- Seasoned Adventurer's Cache
@@ -1734,21 +1780,19 @@ root(ROOTS.Unsorted, {
 			i(235641),	-- Topsy Turvy Clown's Die
 			i(235642),	-- Topsy Turvy Jester's Die
 			i(235643),	-- Topsy Turvy Joker's Die
-			i(235646),	-- Shimmermist Free Runner
+
 			i(235647),	-- Gold-Plated Carver
 			i(235648),	-- Gold-Plated Hatchet
 			i(235649),	-- Gold-Plated Battleaxe
-			i(235650),	-- Pearlescent Butterfly
+
 			i(235652),	-- Pearlescent Monarch's Longbow
 			i(235653),	-- Spring Butterfly Longbow
 			i(235654),	-- Midnight Butterfly Longbow
 			i(235655),	-- Blood Monarch's Longbow
-			i(235657),	-- Ruby Butterfly
-			i(235658),	-- Spring Butterfly
-			i(235659),	-- Midnight Butterfly
+
 			i(235660),	-- Boreal Glaive
 			i(235661),	-- Grateful Goblin's Water Bottle
-			i(235662),	-- Emerald Snail
+
 			i(235664),	-- Ensemble: Topsy Turvy Mask Set
 			i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
 			i(235669),	-- Steamwheedle Cartel Banner

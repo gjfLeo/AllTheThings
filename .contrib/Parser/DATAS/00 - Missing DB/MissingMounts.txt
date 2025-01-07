@@ -6,36 +6,6 @@ mount(466977),	-- Chaos-Born Wind Rider
 mount(466980),	-- Chaos-Born Hippogryph
 mount(466983),	-- Chaos-Born Gryphon
 mount(471440),	-- Skybound Spectral Tiger
-11.1.0.58221
-mount(465999),	-- Crimson Armored Growler
-mount(466002),	-- Violet Armored Growler
-mount(466013),	-- Ocher Delivery Rocket
-mount(466016),	-- The Topskimmer Special
-mount(466019),	-- Blackwater Shredder Deluxe Mk 2
-mount(466020),	-- Personalized Goblin S.C.R.A.Per
-mount(466026),	-- Salvaged Goblin Gazillionaire's Flying Machine
-mount(466028),	-- Mean Green Flying Machine
-mount(466133),	-- Delver's Gob-Trotter
-mount(466144),	-- Prized Gladiator's Fel Bat
-mount(466145),	-- Vicious Electro Eel
-mount(466146),	-- Vicious Electro Eel
-mount(466423),	-- Unstable Rocket
-mount(466464),	-- Unstable Rocket
-mount(468068),	-- Junkmaestro's Magnetomech
-mount(473188),	-- Bronze Goblin Wave Shredder
-mount(1217235),	-- Crimson Shreddertank
-mount(1217340),	-- Midnight Darkmoon Charger
-mount(1217341),	-- Lively Darkmoon Charger
-mount(1217342),	-- Violet Darkmoon Charger
-mount(1217343),	-- Snowy Darkmoon Charger
-mount(1217760),	-- The Big G
-mount(1217965),	-- Shimmermist Free Runner
-mount(1217994),	-- Pearlescent Butterfly
-mount(1218012),	-- Ruby Butterfly
-mount(1218013),	-- Spring Butterfly
-mount(1218014),	-- Midnight Butterfly
-mount(1218069),	-- Emerald Snail
-mount(1221155),	-- Prototype A.S.M.R.
 
 
 
@@ -48,33 +18,3 @@ mount(466977),	-- Chaos-Born Wind Rider
 mount(466980),	-- Chaos-Born Hippogryph
 mount(466983),	-- Chaos-Born Gryphon
 mount(471440),	-- Skybound Spectral Tiger
-11.1.0.58221
-mount(465999),	-- Crimson Armored Growler
-mount(466002),	-- Violet Armored Growler
-mount(466013),	-- Ocher Delivery Rocket
-mount(466016),	-- The Topskimmer Special
-mount(466019),	-- Blackwater Shredder Deluxe Mk 2
-mount(466020),	-- Personalized Goblin S.C.R.A.Per
-mount(466026),	-- Salvaged Goblin Gazillionaire's Flying Machine
-mount(466028),	-- Mean Green Flying Machine
-mount(466133),	-- Delver's Gob-Trotter
-mount(466144),	-- Prized Gladiator's Fel Bat
-mount(466145),	-- Vicious Electro Eel
-mount(466146),	-- Vicious Electro Eel
-mount(466423),	-- Unstable Rocket
-mount(466464),	-- Unstable Rocket
-mount(468068),	-- Junkmaestro's Magnetomech
-mount(473188),	-- Bronze Goblin Wave Shredder
-mount(1217235),	-- Crimson Shreddertank
-mount(1217340),	-- Midnight Darkmoon Charger
-mount(1217341),	-- Lively Darkmoon Charger
-mount(1217342),	-- Violet Darkmoon Charger
-mount(1217343),	-- Snowy Darkmoon Charger
-mount(1217760),	-- The Big G
-mount(1217965),	-- Shimmermist Free Runner
-mount(1217994),	-- Pearlescent Butterfly
-mount(1218012),	-- Ruby Butterfly
-mount(1218013),	-- Spring Butterfly
-mount(1218014),	-- Midnight Butterfly
-mount(1218069),	-- Emerald Snail
-mount(1221155),	-- Prototype A.S.M.R.

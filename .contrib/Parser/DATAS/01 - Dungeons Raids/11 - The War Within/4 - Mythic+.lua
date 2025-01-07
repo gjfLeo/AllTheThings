@@ -47,16 +47,47 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				spell(445269),	-- Path of the Corrupted Foundry
 			}),
 		})),
-		-- Future season
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2, ADDED_11_1_0 } }, {
-			ach(20579),	-- Keystone Hero: The Rookery
-			spell(445443),	-- Path of the Fallen Stormriders
-			ach(20581),	-- Keystone Hero: Priory of the Sacred Flame
-			spell(445444),	-- Path of the Light's Reverence
-			ach(20583),	-- Keystone Hero: Cinderbrew Meadery
-			spell(445440),	-- Path of the Flaming Brewery
-			ach(20584),	-- Keystone Hero: Darkflame Cleft
-			spell(445441),	-- Path of the Warding Candles
+		header(HEADERS.Achievement, SEASON_ENTERPRISING, bubbleDownSelf({
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 }
+		},{
+			ach(40949),		-- The War Within Keystone Explorer: Season Two
+			ach(40950, {	-- The War Within Keystone Conqueror: Season Two
+				title(592),	-- <Name> the Enterprising
+			}),
+			ach(41533, {	-- The War Within Keystone Master: Season Two
+				--i(x),	-- mount
+			}),
+			ach(40952),		-- The War Within Keystone Hero: Season Two
+			ach(40951),		-- The War Within Keystone Legend: Season Two
+			ach(40954, {	-- Enterprising Hero: The War Within Season Two
+				title(593),	-- <Name> the Enterprising Hero
+			}),
+			ach(20583, {	-- Keystone Hero: Cinderbrew Meadery
+				spell(445440),	-- Path of the Flaming Brewery
+			}),
+			ach(20584, {	-- Keystone Hero: Darkflame Cleft
+				spell(445441),	-- Path of the Warding Candles
+			}),
+			ach(41348, {	-- Keystone Hero: Operation: Floodgate
+				spell(1216786),	-- Path of the Circuit Breaker
+			}),
+			ach(40966, {	-- Keystone Hero: Operation: Mechagon - Workshop
+				spell(373274),	-- Path of the Scrappy Prince
+			}),
+			ach(20581, {	-- Keystone Hero: Priory of the Sacred Flame
+				spell(445444),	-- Path of the Light's Reverence
+			}),
+			ach(40965, {	-- Keystone Hero: The MOTHERLODE!!
+				-- One is Alliance and One is Horde (Unsure which...)
+				spell(467553),	-- Path of the Azerite Refinery
+				spell(467555),	-- Path of the Azerite Refinery
+			}),
+			ach(20579, {	-- Keystone Hero: The Rookery
+				spell(445443),	-- Path of the Fallen Stormriders
+			}),
+			ach(15050, {	-- Keystone Hero: Theater of Pain
+				spell(354467),	-- Path of the Undefeated
+			}),
 		})),
 		n(COMMON_BOSS_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			i(234425, {	-- Forgotten Folio

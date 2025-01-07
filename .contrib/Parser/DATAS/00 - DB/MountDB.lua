@@ -1952,3 +1952,38 @@ i(232901, 472253);	-- Lunar Launcher
 i(233023, 472487);	-- Silvermoon Sweeper
 i(233019, 472489);	-- Sky Witch's Sweeper
 i(233020, 472488);	-- Twilight Witch's Sweeper
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+i(229987, 466144);	-- Prized Gladiator's Fel Bat
+--- UNSORTED ---
+i(0, 466019);		-- Blackwater Shredder Deluxe Mk 2
+i(233064, 473188);	-- Bronze Goblin Wave Shredder
+i(229935, 465999);	-- Crimson Armored Growler
+i(0, 1217235);		-- Crimson Shreddertank
+i(229974, 466133);	-- Delver's Gob-Trotter
+i(235662, 1218069);	-- Emerald Snail
+i(0, 468068);		-- Junkmaestro's Magnetomech
+i(235555, 1217341);	-- Lively Darkmoon Charger
+i(229956, 466028);	-- Mean Green Flying Machine
+i(235659, 1218014);	-- Midnight Butterfly
+i(235554, 1217340);	-- Midnight Darkmoon Charger
+i(0, 466013);		-- Ocher Delivery Rocket
+i(235650, 1217994);	-- Pearlescent Butterfly
+i(0, 466020);		-- Personalized Goblin S.C.R.A.Per
+i(0, 1221155);		-- Prototype A.S.M.R.
+i(235657, 1218012);	-- Ruby Butterfly
+i(229953, 466026);	-- Salvaged Goblin Gazillionaire's Flying Machine
+i(235646, 1217965);	-- Shimmermist Free Runner
+i(235557, 1217343);	-- Snowy Darkmoon Charger
+i(235658, 1218013);	-- Spring Butterfly
+i(235626, 1217760);	-- The Big G
+i(0, 466016);		-- The Topskimmer Special
+i(0, 466146);		-- Vicious Electro Eel [A]
+i(0, 466145);		-- Vicious Electro Eel [H]
+i(0, 466002);		-- Violet Armored Growler
+i(235556, 1217342);	-- Violet Darkmoon Charger
+--- Probably not real Mounts
+i(0, 466423);	-- Unstable Rocket
+i(0, 466464);	-- Unstable Rocket
