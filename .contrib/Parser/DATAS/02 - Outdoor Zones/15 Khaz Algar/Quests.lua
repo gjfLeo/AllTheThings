@@ -674,12 +674,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				}),
 				q(83554, {	-- Trinkets, Curios and Other Powerful Objects
 					["sourceQuests"] = { 83553 },	-- Magic-stealing Kobolds
-					["provider"] = { "n", 227067 },	-- Kalecgos
+					["provider"] = { "n", 227063 },	-- Kalecgos
 					["coord"] = { 61.7, 41.5, ISLE_OF_DORN },
 					["g"] = {
 						i(225920), -- Stolen Kirin Tor Artifacts (QI!)
 						o(454707, { -- Bag of Stolen Goods
-							i(226162), -- Arcane Manuscript (QI!)
+							["coords"] = {
+								{ 62.1, 40.6, ISLE_OF_DORN },
+								{ 64.3, 41.4, ISLE_OF_DORN },
+								{ 64.4, 44.1, ISLE_OF_DORN },
+								{ 64.3, 43.0, ISLE_OF_DORN },
+								{ 63.2, 45.2, ISLE_OF_DORN },
+							},
+							["g"] = { i(226162), }, -- Arcane Manuscript (QI!)
 						}),
 					},
 				}),
@@ -704,7 +711,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				q(83643, {	-- Somehow We Survived
 					["sourceQuests"] = { 83641 },	-- Trapped Between Life and Death
 					["provider"] = { "n", 227392 },	-- Kalecgos
-					--["coord"] = { ??, ??, ISLE_OF_DORN },
+					["coord"] = { 61.5, 42.8, ISLE_OF_DORN },
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40791.02, {	-- Strength Amidst Ruins
