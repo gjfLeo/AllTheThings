@@ -10,25 +10,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				})),
 				n(RARES, {
 					n(227545, {	-- Ikir the Flotsurge
-					-- vrykul
-					["coord"] = { 32.8, 73.7, SIREN_ISLE },
-					["questID"] = 84792,
-				}),
-				n(230137, {	-- Asbjorn the Bloodsoaked
-					-- vrykul
-					["coord"] = { 63.9, 87.3, SIREN_ISLE },
-					["questID"] = 84805,
-					["g"] = {
-						i(234972), -- Bloodwake Missive [book]
-					},
-				}),
-					-- The Forgotten Vault (non-storm, pirates theme)
-					n(228159, {	-- Gunnlod the Sea-Drinker
-						-- pirates
-						["coord"] = { 66.5, 55.9, 2375 },
-						["questID"] = 84797,
+						-- vrykul
+						["coord"] = { 32.8, 73.7, SIREN_ISLE },
+						["questID"] = 84792,
+					}),
+					n(230137, {	-- Asbjorn the Bloodsoaked
+						-- vrykul
+						["coord"] = { 63.9, 87.3, SIREN_ISLE },
+						["questID"] = 84805,
 						["g"] = {
-							i(235017),	-- Glittering Vault Shard (TOY!)
+							i(234972), -- Bloodwake Missive [book]
 						},
 					}),
 					n(227550, {	-- Shardsong
