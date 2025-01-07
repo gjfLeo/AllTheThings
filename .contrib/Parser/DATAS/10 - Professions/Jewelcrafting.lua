@@ -968,6 +968,67 @@ root(ROOTS.HiddenQuestTriggers, {
 	}),
 });
 
+-- Bloodied Crafted Gear was added with Cataclysm and then removed from the game after Firelands was released.
+-- #if ANYCLASSIC
+local BLOODIED_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. CATA_PHASE_ONE .. [[;
+		t.rwp = 40200;
+	end
+end]];
+-- #endif
+local function bloodied(t)
+	-- #if CATA
+	t.timeline = { ADDED_4_0_3_LAUNCH, REMOVED_5_0_4 };
+		-- #if ANYCLASSIC
+		t.OnUpdate = BLOODIED_ONUPDATE;
+		-- #endif
+	-- #else
+	t.timeline = { ADDED_4_0_3_LAUNCH, REMOVED_4_2_0 };
+	-- #endif
+	return t;
+end
+
+-- Bloodthirsty Crafted Gear was added with Firelands and then removed from the game after Dragon Soul was released.
+-- #if ANYCLASSIC
+local BLOODTHIRSTY_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_HOUR_OF_TWILIGHT .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[;
+		t.rwp = 40300;
+	end
+end]];
+-- #endif
+local function bloodthirsty(t)
+	-- #if CATA
+	t.timeline = { ADDED_4_2_0, REMOVED_5_0_4 };
+		-- #if ANYCLASSIC
+		t.OnUpdate = BLOODTHIRSTY_ONUPDATE;
+		-- #endif
+	-- #else
+	t.timeline = { ADDED_4_2_0, REMOVED_4_3_0 };
+	-- #endif
+	return applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, t);
+end
+
+local function moltenfront(t)
+	t.timeline = { ADDED_4_2_0 };
+	return applyclassicphase(CATA_PHASE_MOLTEN_FRONT, t);
+end
+local function firelands(t)
+	t.timeline = { ADDED_4_2_0 };
+	return applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, t);
+end
+local function dragonsoul(t)
+	t.timeline = { ADDED_4_3_0 };
+	return applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, t);
+end
+
 -- #if ANYCLASSIC
 local REMOVED_WITH_CATA = REMOVED_4_0_1;
 applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
@@ -3855,6 +3916,20 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Alicite Pendant",
 					["recipeID"] = 73496
 				},
+				-- #if ANYCLASSIC
+				firelands({
+					["name"] = "Bloodthirsty Amberjewel Pendant",
+					["recipeID"] = 1216321
+				}),
+				firelands({
+					["name"] = "Bloodthirsty Ruby Choker",
+					["recipeID"] = 1216331
+				}),
+				firelands({
+					["name"] = "Bloodthirsty Sapphire Necklace",
+					["recipeID"] = 1216330
+				}),
+				-- #endif
 				{
 					["name"] = "Brazen Elementium Medallion",
 					["recipeID"] = 73521
@@ -3875,18 +3950,34 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Nightstone Choker",
 					["recipeID"] = 73497
 				},
-				{
+				-- #if ANYCLASSIC
+				--[[
+				dragonsoul({
+					["name"] = "Vicious Amberjewel Pendant",
+					["recipeID"] = 99543	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				dragonsoul({
+					["name"] = "Vicious Ruby Choker",
+					["recipeID"] = 99544	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				dragonsoul({
+					["name"] = "Vicious Sapphire Necklace",
+					["recipeID"] = 99542	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				--]]
+				-- #endif
+				bloodied({
 					["name"] = "Vicious Amberjewel Pendant",
 					["recipeID"] = 99543
-				},
-				{
+				}),
+				bloodied({
 					["name"] = "Vicious Ruby Choker",
 					["recipeID"] = 99544
-				},
-				{
+				}),
+				bloodied({
 					["name"] = "Vicious Sapphire Necklace",
 					["recipeID"] = 99542
-				}
+				}),
 			}
 		},
 		{
@@ -3897,6 +3988,20 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Band of Blades",
 					["recipeID"] = 73498
 				},
+				-- #if ANYCLASSIC
+				firelands({
+					["name"] = "Bloodthirsty Amberjewel Band",
+					["recipeID"] = 1216328
+				}),
+				firelands({
+					["name"] = "Bloodthirsty Ruby Signet",
+					["recipeID"] = 1216329
+				}),
+				firelands({
+					["name"] = "Bloodthirsty Sapphire Ring",
+					["recipeID"] = 1216323
+				}),
+				-- #endif
 				{
 					["name"] = "Elementium Destroyer's Ring",
 					["recipeID"] = 73520
@@ -3921,18 +4026,34 @@ applyclassicphase(TBC_PHASE_ONE, profession(JEWELCRAFTING, {
 					["name"] = "Ring of Warring Elements",
 					["recipeID"] = 73502
 				},
-				{
+				-- #if ANYCLASSIC
+				--[[
+				dragonsoul({
+					["name"] = "Vicious Amberjewel Band",
+					["recipeID"] = 99540	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				dragonsoul({
+					["name"] = "Vicious Ruby Signet",
+					["recipeID"] = 99541	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				dragonsoul({
+					["name"] = "Vicious Sapphire Ring",
+					["recipeID"] = 99539	-- TODO: Get the spellID after Dragon Soul is launched.
+				}),
+				]]--
+				-- #endif
+				bloodied({
 					["name"] = "Vicious Amberjewel Band",
 					["recipeID"] = 99540
-				},
-				{
+				}),
+				bloodied({
 					["name"] = "Vicious Ruby Signet",
 					["recipeID"] = 99541
-				},
-				{
+				}),
+				bloodied({
 					["name"] = "Vicious Sapphire Ring",
 					["recipeID"] = 99539
-				}
+				}),
 			}
 		},
 		{
