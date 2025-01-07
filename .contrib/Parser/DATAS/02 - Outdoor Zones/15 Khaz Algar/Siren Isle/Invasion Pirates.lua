@@ -38,11 +38,33 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					}),
 				}),
 				n(TREASURES, {
+					o(464233, {	-- Bilge Rat Supply Chest
+						-- Pirates
+						["description"] = "Key drops from First Mate Shellshock\n/att n:228582",
+						["coord"] = { 62.4, 90.8, SIREN_ISLE },
+						["questID"] = 84529,
+						["cost"] = {{ "i", 228621, 1 }},	-- Bilge Rat Supply Key
+						["isWeekly"] = true,
+					}),
 				}),
 				n(ZONE_DROPS, {
-					i(233494, {	-- Muddy Snapdragon Treat
-						["description"] = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from Vrykuls.",
-						-- n: 232324 / n: 232323
+					i(233500, {	-- Crimson Snapdragon Treat
+						["description"] = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from Pirates.",
+					}),
+					i(166358, {	-- Proper Parrot (PET!)
+						["description"] = "Can be looted from Pirates.",
+					}),
+					i(234232, {	-- Technique: Glyph of the Ashvane Pistol Shot (RECIPE!)
+						["description"] = "Can be looted from Pirates.",
+					}),
+					n(228582, {	-- First Mate Shellshock
+						["coords"] = {
+							{ 60.2, 69.6, SIREN_ISLE, },
+							{ 61.2, 71.8, SIREN_ISLE, },
+						},
+						["groups"] = {
+							i(228621),	-- Bilge Rat Supply Key
+						},
 					}),
 				}),
 			},
