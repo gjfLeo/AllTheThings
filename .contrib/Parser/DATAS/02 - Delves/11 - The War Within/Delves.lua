@@ -903,7 +903,28 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 				}),
+				n(DELVERS_GOBTROTTER_SCHEMATIC, sharedDataSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+					i(230219, {	-- Delver's Gob-Trotter Schematic: Balloon (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(230217, {	-- Delver's Gob-Trotter Schematic: Flamethrower (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(230220, {	-- Delver's Gob-Trotter Schematic: Green (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(230216, {	-- Delver's Gob-Trotter Schematic: Harpoon (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(230218, {	-- Delver's Gob-Trotter Schematic: Pipes (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+				})),
 				filter(TOYS, {
+					i(230850, {	-- Delve-O-Bot 7001 (TOY!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(223312, {	-- Trusty Hat (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
@@ -1072,17 +1093,37 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["coord"] = { 47.6, 43.6, DORNOGAL },
 			["g"] = {
 				n(DELVERS_DIRIGIBLE_SCHEMATIC, {
+					i(235685, {	-- Delver's Dirigible Schematic: Drill (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(224771, {	-- Delver's Dirigible Schematic: Empennage (MM!)
 						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
 					i(224770, {	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
+					i(235684, {	-- Delver's Dirigible Schematic: Glider (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(224769, {	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 						["cost"] = {{"c", UNDERCOIN, 3000}},
 					}),
+					i(235687, {	-- Delver's Dirigible Schematic: Spoiler (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(235683, {	-- Delver's Dirigible Schematic: Turbine (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(224768, {	-- Delver's Dirigible Schematic: Wing-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
+					}),
+					i(235686, {	-- Delver's Dirigible Schematic: White Paint (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_1_0 },
 					}),
 				}),
 				filter(BATTLE_PETS, {
@@ -1124,6 +1165,43 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(232498, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
+					--- TODO: NEW STUFF ---
+					i(233792, {	-- Delver's Disguise
+						["cost"] = {{"c", UNDERCOIN, 500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234385, {	-- Ensemble: Aegis Of Hidden Stars
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234384, {	-- Ensemble: Chains Of The Stygian Sea
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234383, {	-- Ensemble: Myconic Shell
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234382, {	-- Ensemble: Unkindled Waxweave Panoply
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(235617, {	-- Lucky Goblin's Strapped Rockets (COSMETIC!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(235531, {	-- Restored Coffer Key
+						["cost"] = {{"c", UNDERCOIN, 2000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(233555, {	-- Restored Coffer Key
+						["cost"] = {{"c", UNDERCOIN, 2000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(233186, {	-- Wave Scrambler 2000 (junk?)
+						["cost"] = {{"c", UNDERCOIN, 1500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 				}),
 				filter(TOYS, {
 					i(211931, {	-- Abyss Caller Horn (TOY!)
@@ -1134,6 +1212,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(225910, {	-- Pileus Delight (TOY!)
 						["cost"] = {{"c", UNDERCOIN, 500}},
+					}),
+					i(230924, {	-- Spotlight Materializer 1000 (TOY!)
+						["cost"] = {{"c", UNDERCOIN, 500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(231064, {	-- Throwaway Gangster Disguise (TOY!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_1_0 },
 					}),
 				}),
 				n(ARMOR, {

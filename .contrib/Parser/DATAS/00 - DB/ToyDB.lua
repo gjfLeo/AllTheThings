@@ -1422,4 +1422,8 @@ i(235016);	-- Redeployment Module
 ------------------
 -- PATCH 11.1.0 --
 ------------------
+i(230850);	-- Delve-O-Bot 7001
+i(230727);	-- Explosive Victory
 i(235519);	-- Prized Legend's Pennant
+i(230924);	-- Spotlight Materializer 1000
+i(231064);	-- Throwaway Gangster Disguise

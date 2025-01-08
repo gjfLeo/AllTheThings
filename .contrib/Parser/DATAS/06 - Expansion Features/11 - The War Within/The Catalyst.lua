@@ -473,7 +473,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				q(82296, {	-- The Power of Creation
 					["provider"] = { "n", 223533 },	-- Custodian Khubon
 					["coord"] = { 49.8, 54.3, DORNOGAL },
-					--["timeline"] = { REMOVED_11_1_0 },	-- unsure
 				}),
 				q(82651, {	-- Omens Unified
 					--["sourceQuests"] = { 82296 },	-- The Power of Creation //not required?
@@ -482,6 +481,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["timeline"] = { REMOVED_11_1_0 },
 					["g"] = {
 						i(211297),	-- Fractured Spark of Omens
+					},
+				}),
+				q(86369, {	-- A Sparkling Fortune
+					["provider"] = { "n", 223533 },	-- Custodian Khubon
+					["coord"] = { 49.8, 54.1, DORNOGAL },
+					["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+					["g"] = {
+						i(230905),	-- Fractured Spark of Fortunes
 					},
 				}),
 			}),

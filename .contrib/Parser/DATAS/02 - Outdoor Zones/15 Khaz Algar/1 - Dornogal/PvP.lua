@@ -37,6 +37,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(81794, {	-- Sparks of War: The Ringing Deeps
 					i(219934),	-- Spark of War (QI!)
 				}),
+				q(86853, {	-- Sparks of War: Undermine
+					["timeline"] = { ADDED_11_1_0 },
+				}),
 			})),
 			n(VENDORS, {
 				n(219215, {	-- Hotharn <Competitor's Recipes>

@@ -26,8 +26,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(226245),	-- Hollow Ring
 				},
 			}),
+			q(86396, {	-- The Best Part of Valorstones
+				["provider"] = { "n", 219226 },	-- Vaskarn
+				["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+				["coord"] = { 52.1, 42.2, DORNOGAL },
+			}),
 			q(82042, {	-- The Better Part of Valorstones
 				["provider"] = { "n", 219226 },	-- Vaskarn
+				["timeline"] = { REMOVED_11_1_0 },
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 			}),
 			q(84490, {	-- The Great Vault

@@ -32,6 +32,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(82488),	-- Worldsoul: Darkflame Cleft [N]
 				q(82498),	-- Worldsoul: Darkflame Cleft [H]
 				q(82506),	-- Worldsoul: Darkflame Cleft [M]
+				q(87419, {	-- Worldsoul: Delves
+					["timeline"] = { ADDED_11_1_0 },
+				}),
 				q(82453),	-- Worldsoul: Encore!
 				q(82509),	-- Worldsoul: Nerub-ar Palace [LFR]
 				q(82659),	-- Worldsoul: Nerub-ar Palace [N]

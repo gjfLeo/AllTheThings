@@ -2216,3 +2216,8 @@ i(232632);	-- Spiral Mollusk Shell
 i(234719);	-- Storm-Etched Vambrace
 i(234736);	-- Tar-Sealed Scroll
 i(232635);	-- Torn Bilgewater Bandage
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+i(233029);	-- Cracked Core

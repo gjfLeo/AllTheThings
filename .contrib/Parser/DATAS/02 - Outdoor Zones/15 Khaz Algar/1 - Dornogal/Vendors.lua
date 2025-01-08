@@ -20,15 +20,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			n(219036, {	-- Ardgaz <Token Exchange>
 				["coord"] = { 54.8, 42.5, DORNOGAL },
 				["g"] = {
+					-- All seasons
+					i(226814, {	-- Chest of Gold
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S1, 2}},
+					}),
+					-- Season 1
 					i(220773, {	-- Celebratory Pack of Runed Harbinger Crests
 						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S1, 2}},
 						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 					}),
-					i(226814, {	-- Chest of Gold
-						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S1, 2}},
-					}),
 					i(226813, {	-- Golden Valorstone
 						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S1, 1}},
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 					}),
 					i(226505, {	-- Nerubian Gemweaver
 						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S1, 6}},
@@ -37,6 +40,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(220767, {	-- Triumphant Satchel of Carved Harbinger Crests
 						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S1, 1}},
 						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+					}),
+					-- Season 2
+					i(232382, {	-- Golden Valorstone
+						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+					}),
+					i(231153, {	-- Triumphant Satchel of Carved Undermine Crests
+						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+					}),
+					i(231154, {	-- Celebratory Pack of Runed Undermine Crests
+						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+					}),
+					i(232386, {	-- S.A.D.
+						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					}),
 				},
 			}),
@@ -420,6 +440,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["cost"] = {{ "c", RUNED_HARBINGER_CREST, 90 }},
 					}),
 					-- Season 2
+					-- Trade Down
+					i(231267, {	-- Pouch of Weathered Undermine Crests
+						["description"] = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Normal Crest\nReceive: LFR Crest",
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						--["cost"] = {{"c", CARVED_HARBINGER_CREST, 15}},
+					}),
+					i(231269, {	--  Satchel of Carved Undermine Crests
+						["description"] = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Heroic Crest\nReceive: Normal Crest",
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						--["cost"] = {{"c", CARVED_HARBINGER_CREST, 15}},
+					}),
+					--i(231270, {	--  Pack of Runed Undermine Crests
+					--	["description"] = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Mythic Crest\nReceive: Heroic Crest",
+					--	["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+					--	--["cost"] = {{"c", CARVED_HARBINGER_CREST, 15}},
+					--}),
 					-- Season 3
 				},
 			}),

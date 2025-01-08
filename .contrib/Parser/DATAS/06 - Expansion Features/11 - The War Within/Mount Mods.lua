@@ -5,15 +5,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 	n(DELVERS_DIRIGIBLE_SCHEMATIC, {
 		header(HEADERS.Item, 219391, {	-- Delver's Dirigible
 			i(224981),	-- Delver's Dirigible Schematic: Brown Paint (MM!)
+			i(235685, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Drill (MM!)
 			i(224771),	-- Delver's Dirigible Schematic: Empennage (MM!)
 			i(224982),	-- Delver's Dirigible Schematic: Exhaust (MM!)
 			i(224980),	-- Delver's Dirigible Schematic: Front-Mounted Lantern (MM!)
 			i(224770),	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
+			i(235684, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Glider (MM!)
 			i(224960),	-- Delver's Dirigible Schematic: Lantern Wing (MM!)
 			i(224769),	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
+			i(235687, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Spoiler (MM!)
+			i(235683, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Turbine (MM!)
 			i(225542),	-- Delver's Dirigible Schematic: Void (MM!)
 			i(224768),	-- Delver's Dirigible Schematic: Wing-Mounted Propeller (MM!)
+			i(235686, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: White Paint (MM!)
 			i(224979),	-- Delver's Dirigible Schematic: Zeppelin (MM!)
+		}),
+	}),
+	n(DELVERS_GOBTROTTER_SCHEMATIC, {
+		header(HEADERS.Item, 229974, {	-- Delver's Gob-Trotter
+			i(230219), -- Delver's Gob-Trotter Schematic: Balloon (MM!)
+			i(230217), -- Delver's Gob-Trotter Schematic: Flamethrower (MM!)
+			i(230220), -- Delver's Gob-Trotter Schematic: Green (MM!)
+			i(230216), -- Delver's Gob-Trotter Schematic: Harpoon (MM!)
+			i(230218), -- Delver's Gob-Trotter Schematic: Pipes (MM!)
 		}),
 	}),
 })));

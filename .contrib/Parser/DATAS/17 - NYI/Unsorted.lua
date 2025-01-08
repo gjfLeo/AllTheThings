@@ -83,7 +83,6 @@ root(ROOTS.Unsorted, {
 				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
 				i(229935),	-- Crimson Armored Growler (MOUNT!)
 				mount(1217235),	-- Crimson Shreddertank (MOUNT!) [Mythic+]
-				i(229974),	-- Delver's Gob-Trotter (MOUNT!)
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
 				mount(468068),	-- Junkmaestro's Magnetomech (MOUNT!)
 				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]
@@ -890,11 +889,6 @@ root(ROOTS.Unsorted, {
 			i(230199),	-- Zee's Thug Hotline
 			i(230203),	-- Taunting Note
 			i(230212),	-- Emergency Teleporter
-			i(230216),	-- Delver's Gob-Trotter Schematic: Harpoon
-			i(230217),	-- Delver's Gob-Trotter Schematic: Flamethrower
-			i(230218),	-- Delver's Gob-Trotter Schematic: Pipes
-			i(230219),	-- Delver's Gob-Trotter Schematic: Balloon
-			i(230220),	-- Delver's Gob-Trotter Schematic: Green
 			i(230225),	-- Kaja'Cola Carrier
 			i(230226),	-- Three Dimensional Bioprinter
 			i(230227),	-- Goblomagnetic Bouncing Grenade
@@ -906,7 +900,6 @@ root(ROOTS.Unsorted, {
 			i(230233),	-- Biofuel Rocket Gear
 			i(230234),	-- Pinged Augment Chip
 
-			i(230727),	-- Explosive Victory
 			i(230731),	-- Pitz's Masterwork Invention
 
 			i(230791),	-- [11.1 PVP] Gladiator's Wither-Blade <TEMPLATE>
@@ -917,11 +910,8 @@ root(ROOTS.Unsorted, {
 			i(230798),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
 			i(230799),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
 			i(230807),	-- Drill Hands
-			i(230850),	-- Delve-O-Bot 7001
-
-			i(230905),	-- Fractured Spark of Fortunes
+			i(230852),	-- Prized Gladiator's Weapon Token
 			i(230906),	-- Spark of Fortunes
-			i(230924),	-- Spotlight Materializer 1000
 			i(230931),	-- Formula: Enchanted Weathered Undermine Crest
 			i(230932),	-- Formula: Enchanted Runed Undermine Crest
 			i(230933),	-- Formula: Enchanted Gilded Undermine Crest
@@ -935,18 +925,13 @@ root(ROOTS.Unsorted, {
 			i(230990),	-- Set Keystone Map: Operation: Floodgate
 			i(231021),	-- Imported Brews
 			i(231022),	-- Bits o' Scrap
-			i(231064),	-- Throwaway Gangster Disguise
 			i(231089),	-- Correspondence from Zirdo
 			i(231099),	-- Back-Strapped Missile
-			i(231153),	-- Triumphant Satchel of Carved Undermine Crests
-			i(231154),	-- Celebratory Pack of Runed Undermine Crests
 			i(231164),	-- Goblin Grapnel
 			i(231264),	-- Glorious Cluster of Gilded Undermine Crests
 			i(231265),	-- The Jastor Diamond
 			i(231266),	-- Random Number Perforator
-			i(231267),	-- Pouch of Weathered Undermine Crests
 			i(231268),	-- Blastfurious Machete
-			i(231269),	-- Satchel of Carved Undermine Crests
 			i(231270),	-- Pack of Runed Undermine Crests
 			i(231291),	-- Radar
 			i(231311),	-- Frontman's Wondrous Wall
@@ -1005,10 +990,8 @@ root(ROOTS.Unsorted, {
 			i(232361),	-- Ruffled Pages
 			i(232379),	-- Slime-Slicked Slippers
 			i(232381),	-- Mostly Cobbled Shoes
-			i(232382),	-- Golden Valorstone
 			i(232383),	-- Soot-Encrusted Kickers
 			i(232384),	-- Aqirite-Toe Boots
-			i(232386),	-- S.A.D.
 			i(232393),	-- Zirdo's Dirty Grips
 			i(232394),	-- Silent Strike Leggings
 			i(232395),	-- Zirdo's Dirty Headgear
@@ -1029,8 +1012,6 @@ root(ROOTS.Unsorted, {
 			i(232411),	-- Goblin Boxer's Wraps
 			i(232412),	-- Undermine Smelter's Gloves
 			i(232413),	-- Retired Bouncer's Gauntlets
-			i(232417),	-- Circle of Cleansing
-			i(232418),	-- Ring of Purification
 			i(232425),	-- Boreal Spear
 			i(232435),	-- Boreal Spellstaff
 			i(232440),	-- [PH] Boreal Crossbow
@@ -1106,22 +1087,18 @@ root(ROOTS.Unsorted, {
 			i(232738),	-- Green Knight's Boots
 			i(232739),	-- Sash of Lost Inspiration
 			i(232740),	-- Desperate Goblin's Gloves
-			i(232741),	-- Suspiciously Stained Shoulderguards
 			i(232742),	-- Elite Golfer's Armbands
 			i(232743),	-- Apprentice Knight's Shirt
 			i(232744),	-- Green Knight's Wristguards
 			i(232745),	-- Apprentice Knight's Belt
 			i(232746),	-- Spaulders of Lost Inspiration
-			i(232747),	-- Suspiciously Stained Legguards
 			i(232748),	-- Desperate Goblin's Boots
 			i(232749),	-- Elite Golfer's Headgear
 			i(232750),	-- Desperate Goblin's Spaulders
 			i(232751),	-- Elite Golfer's Belt
-			i(232752),	-- Suspiciously Stained Greaves
 			i(232753),	-- Green Knight's Helm
 			i(232754),	-- Apprentice Knight's Wristguards
 			i(232755),	-- Chainmail of Lost Inspiration
-			i(232756),	-- Suspiciously Stained Wristwraps
 			i(232757),	-- Green Knight's Chestplate
 			i(232758),	-- Gauntlets of Lost Inspiration
 			i(232759),	-- Apprentice Knight's Sabatons
@@ -1221,7 +1198,6 @@ root(ROOTS.Unsorted, {
 			i(233022),	-- Technique: Vantus Rune: Undermine
 			i(233025),	-- Giant Pile of Gold
 			i(233026),	-- Johnny's Share of the Spoils
-			i(233029),	-- Cracked Core
 			i(233030),	-- Charged Cables
 			i(233031),	-- Intact Interlock
 			i(233032),	-- Shining Guise of the Heavens
@@ -1255,7 +1231,6 @@ root(ROOTS.Unsorted, {
 			i(233113),	-- Crocodillian's Head
 			i(233114),	-- The Captain's Head
 			i(233118),	-- Incontinental Takeout
-			i(233186),	-- Wave Scrambler 2000
 			i(233196),	-- Delver's Gob-Trotter Schematic: Gold
 			i(233202),	-- G.O.L.E.M Jr.
 			i(233205),	-- Go-Go Juice
@@ -1355,10 +1330,8 @@ root(ROOTS.Unsorted, {
 			i(233549),	-- Descaled Mantle
 			i(233550),	-- Descaled Girdle
 			i(233551),	-- Descaled Armplates
-			i(233555),	-- Restored Coffer Key
 			i(233557),	-- Sifted Pile of Scrap
 			i(233558),	-- S.C.R.A.P. Scrubber Deluxe
-			i(233792),	-- Delver's Disguise
 			i(233835),	-- Priory Tongs
 			i(233927),	-- Sacred Mantle of the Priory
 			i(233929),	-- Sacred Tabard of the Priory
@@ -1431,10 +1404,6 @@ root(ROOTS.Unsorted, {
 			i(234378),	-- Radiant Steelglaives
 			i(234380),	-- Steamboil Fuel Tank
 			i(234381),	-- Handcrank Fuel Tank
-			i(234382),	-- Ensemble: Unkindled Waxweave Panoply
-			i(234383),	-- Ensemble: Myconic Shell
-			i(234384),	-- Ensemble: Chains Of The Stygian Sea
-			i(234385),	-- Ensemble: Aegis Of Hidden Stars
 			i(234386),	-- Handcrank Fuel Injector
 			i(234387),	-- Steamboil Fuel Injector
 			i(234388),	-- Arsenal: Hallowfall Weaponry
@@ -1723,9 +1692,11 @@ root(ROOTS.Unsorted, {
 			i(235507),	-- Might-Be-Invisible Drape
 			i(235508),	-- Might-Be-Invisible Cape
 			i(235516),	-- The Severance Package
-
-			i(235531),	-- Restored Coffer Key
-
+			i(235519),	-- Prized Legend's Pennant
+			i(235554),	-- Midnight Darkmoon Charger
+			i(235555),	-- Lively Darkmoon Charger
+			i(235556),	-- Violet Darkmoon Charger
+			i(235557),	-- Snowy Darkmoon Charger
 			i(235558),	-- Box of Darkfuse Miscellany
 			i(235559),	-- Hidden Trove
 			i(235563),	-- Forest Dweller's Garden Tunic
@@ -1765,7 +1736,6 @@ root(ROOTS.Unsorted, {
 			i(235614),	-- Golden-Gob Propulsion Rig
 			i(235615),	-- Rusty Gobjets
 			i(235616),	-- True Speed Goblin-Thruster
-			i(235617),	-- Lucky Goblin's Strapped Rockets
 			i(235619),	-- Bug Exterminator's Gloves
 			i(235620),	-- Bug Exterminator's Pants
 			i(235621),	-- Bug Exterminator's Belt
@@ -1799,11 +1769,6 @@ root(ROOTS.Unsorted, {
 			i(235670),	-- Bilgewater Cartel Banner
 			i(235671),	-- Blackwater Cartel Banner
 			i(235672),	-- Venture Co. Banner
-			i(235683),	-- Delver's Dirigible Schematic: Turbine
-			i(235684),	-- Delver's Dirigible Schematic: Glider
-			i(235685),	-- Delver's Dirigible Schematic: Drill
-			i(235686),	-- Delver's Dirigible Schematic: White Paint
-			i(235687),	-- Delver's Dirigible Schematic: Spoiler
 			i(235688),	-- Delver's Dirigible Schematic: Fan
 			i(235689),	-- Delver's Dirigible Schematic: Kite
 			i(235690),	-- Delver's Dirigible Schematic: Harpoon
