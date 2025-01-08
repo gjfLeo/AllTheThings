@@ -2192,13 +2192,16 @@ namespace ATT
                     {
                         // instead merge the single provider onto the achievement itself
                         LogDebug($"INFO: Incorporating Provider Item {criteriaProviderItem} for Achievement {achID}");
-                        Objects.Merge(data, "provider", new List<object> { "i", criteriaProviderItem });
+                        var provider = new List<object> { "i", criteriaProviderItem };
+                        Objects.Merge(data, "provider", provider);
+                        TrackIncorporationData(data, "provider", provider);
                     }
                     else
                     {
                         // or merge the amount of items as a cost
                         LogDebug($"INFO: Incorporating Cost Item {criteriaProviderItem} x {criteriaTree.Amount} for Achievement {achID}");
                         Cost.Merge(data, "i", criteriaProviderItem, criteriaTree.Amount);
+                        TrackIncorporationData(data, "cost", data["cost"]);
                     }
                     incorporated = true;
                 }
@@ -2223,18 +2226,22 @@ namespace ATT
                         if (criteriaData.TryGetValue("cost", out object cost))
                         {
                             Cost.Merge(data, cost);
+                            TrackIncorporationData(data, "cost", cost);
                         }
                         if (criteriaData.TryGetValue("providers", out object providers))
                         {
                             Objects.Merge(data, "providers", providers);
+                            TrackIncorporationData(data, "providers", providers);
                         }
                         if (criteriaData.TryGetValue("_objects", out List<object> objects))
                         {
                             Objects.Merge(data, "provider", new List<object> { "o", objects[0] });
+                            TrackIncorporationData(data, "provider", new List<object> { "o", objects[0] });
                         }
                         if (criteriaData.TryGetValue("_npcs", out List<object> nps))
                         {
                             Objects.Merge(data, "provider", new List<object> { "n", nps[0] });
+                            TrackIncorporationData(data, "provider", new List<object> { "n", nps[0] });
                         }
                         if (criteriaData.TryGetValue("_quests", out List<object> quests))
                         {
@@ -2245,11 +2252,13 @@ namespace ATT
                                 {
                                     LogDebug($"INFO: Assigned Criteria {achID}:{criteria.ID} QuestID {questID} directly to stand-alone Achievement", data);
                                     Objects.Merge(data, "questID", questID);
+                                    TrackIncorporationData(data, "questID", questID);
                                 }
                                 else if (!data.TryGetValue("questID", out long dataQuestID) || dataQuestID != questID)
                                 {
                                     // otherwise just use sourceQuest
                                     Objects.Merge(data, "sourceQuest", questID);
+                                    TrackIncorporationData(data, "sourceQuest", questID);
                                 }
                             }
                         }
@@ -2298,11 +2307,13 @@ namespace ATT
                 {
                     extraData = extraData ?? new Dictionary<string, object>();
                     extraData["r"] = 2;
+                    TrackIncorporationData(data, "r", 2);
                 }
                 else if (criteriaTree.IsHordeOnlyFlags())
                 {
                     extraData = extraData ?? new Dictionary<string, object>();
                     extraData["r"] = 1;
+                    TrackIncorporationData(data, "r", 1);
                 }
 
                 foreach (CriteriaTree child in childTrees)
@@ -2408,15 +2419,18 @@ namespace ATT
                     // 19 (ITEM_IS_ITEMID)
                     case 19:
                         Objects.Merge(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                        TrackIncorporationData(data, "provider", new List<object> { "i", existingModifierTree.Asset });
                         break;
                     // 62 (GUILD_REPUTATION)
                     case 62:
                         Objects.Merge(data, "minReputation", new List<object> { 1168, existingModifierTree.Asset });
+                        TrackIncorporationData(data, "minReputation", new List<object> { 1168, existingModifierTree.Asset });
                         Objects.Merge(data, "_factions", 1168);
                         break;
                     // 75 (THE_TILLERS_REPUTATION)
                     case 75:
                         Objects.Merge(data, "minReputation", new List<object> { 1272, existingModifierTree.Asset });
+                        TrackIncorporationData(data, "minReputation", new List<object> { 1272, existingModifierTree.Asset });
                         Objects.Merge(data, "_factions", 1272);
                         break;
                     // 84 (IS_ON_QUEST)
@@ -2432,6 +2446,7 @@ namespace ATT
                     // 85 (EXALTED_WITH_FACTION)
                     case 85:
                         Objects.Merge(data, "minReputation", new List<object> { existingModifierTree.Asset, 42000 });
+                        TrackIncorporationData(data, "minReputation", new List<object> { existingModifierTree.Asset, 42000 });
                         Objects.Merge(data, "_factions", existingModifierTree.Asset);
                         break;
                     // 86 (HAS_ACHIEVEMENT)
@@ -2443,16 +2458,19 @@ namespace ATT
                     // 88 (CLOUD_SERPENT_REPUTATION)
                     case 88:
                         Objects.Merge(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
+                        TrackIncorporationData(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
                         Objects.Merge(data, "_factions", 1271);
                         break;
                     // 95 (FACTION_STANDING)
                     case 95:
                         Objects.Merge(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
+                        TrackIncorporationData(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
                         Objects.Merge(data, "_factions", existingModifierTree.Asset);
                         break;
                     // 99 (SKILL)
                     case 99:
                         Objects.Merge(data, "requireSkill", existingModifierTree.Asset);
+                        TrackIncorporationData(data, "requireSkill", existingModifierTree.Asset);
                         // SecondaryAsset = skill level
                         break;
                     // 105 (ITEM_COUNT)
@@ -2460,27 +2478,33 @@ namespace ATT
                         if (existingModifierTree.SecondaryAsset == 1)
                         {
                             Objects.Merge(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                            TrackIncorporationData(data, "provider", new List<object> { "i", existingModifierTree.Asset });
                         }
                         else
                         {
                             Cost.Merge(data, "i", existingModifierTree.Asset, existingModifierTree.SecondaryAsset);
+                            TrackIncorporationData(data, "cost", data["cost"]);
                         }
                         break;
                     // 119 (CURRENCY_AMOUNT)
                     case 119:
                         Cost.Merge(data, "c", existingModifierTree.Asset, existingModifierTree.SecondaryAsset);
+                        TrackIncorporationData(data, "cost", data["cost"]);
                         break;
                     // 191 (PLAYER_RACE_IS)
                     case 191:
                         Objects.Merge(data, "races", existingModifierTree.Asset);
+                        TrackIncorporationData(data, "races", existingModifierTree.Asset);
                         break;
                     // 199 (HAS_TOY)
                     case 199:
                         Objects.Merge(data, "provider", new List<object> { "i", existingModifierTree.Asset });
+                        TrackIncorporationData(data, "provider", new List<object> { "i", existingModifierTree.Asset });
                         break;
                     // 221 (PARAGON_LEVEL_WITH_FACTION_EQUAL_OR_GREATER)
                     case 221:
                         Objects.Merge(data, "minReputation", new List<object> { existingModifierTree.SecondaryAsset, existingModifierTree.Asset });
+                        TrackIncorporationData(data, "provider", new List<object> { existingModifierTree.SecondaryAsset, existingModifierTree.Asset });
                         Objects.Merge(data, "_factions", existingModifierTree.SecondaryAsset);
                         break;
                     default:
@@ -2530,6 +2554,7 @@ namespace ATT
                 if (tmogSet.TrackingQuestID > 0)
                 {
                     Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
+                    TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
 
                     // check if other Ensembles have the same name as well. this could be a case where alternate Ensembles are auto-learned via server-side
                     // spellID triggers which may need to be added into the 'real' Ensemble Item to pull in the proper set of learned Sources
@@ -2606,6 +2631,7 @@ namespace ATT
             }
 
             Objects.Merge(data, "_sourceIDs", allSourceIDs);
+            TrackIncorporationData(data, "_sourceIDs", allSourceIDs);
             LogDebug($"INFO: Ensemble {type} with TransmogSet {tmogSetID} merged {allSourceIDs.Count} SourceIDs", data);
 
             //foreach (long sourceID in )
@@ -2699,6 +2725,7 @@ namespace ATT
                                 Objects.Merge(data, "questID", questID);
                                 LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
                                 Objects.MergeQuestData(data);
+                                TrackIncorporationData(data, "questID", questID);
                             }
                         }
                     }
@@ -2715,6 +2742,7 @@ namespace ATT
                 if (!data.ContainsKey("tmogSetID"))
                 {
                     Objects.Merge(data, "tmogSetID", tmogSetID);
+                    TrackIncorporationData(data, "tmogSetID", tmogSetID);
                     LogDebug($"INFO: Assigned 'tmogSetID' {tmogSetID}", data);
                 }
                 Incorporate_Item_TransmogSetItems(data, tmogSetID);

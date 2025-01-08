@@ -354,6 +354,8 @@ namespace ATT
 
         private static IDictionary<string, object> Exports { get; } = new Dictionary<string, object>();
 
+        private static IDictionary<string, object> IncorporationReferences { get; } = new Dictionary<string, object>();
+
         /// <summary>
         /// Assign the custom headers to the Framework's internal reference.
         /// </summary>
@@ -809,6 +811,35 @@ namespace ATT
                     ObjectData.Insert(objectConfig["objectType"], objectConfig["shortcut"], "_." + objectConfig["function"], objectConfig["convertedKey"], objectConfig["ignoredFields"]);
                 }
             }
+        }
+        private static void TrackIncorporationData(IDictionary<string, object> root, string field, object data)
+        {
+            if (ObjectData.TryGetMostSignificantObjectType(root, out ObjectData objectData, out var id))
+            {
+                id.TryConvert(out long idval);
+                TrackIncorporationData(objectData.ObjectType, idval, field, data);
+            }
+        }
+
+        private static void TrackIncorporationData(string idtype, long id, string field, object data)
+        {
+            if (!(IncorporationReferences.TryGetValue(idtype, out object fieldreferencesObj) && fieldreferencesObj is IDictionary<long, object> fieldreferences))
+            {
+                IncorporationReferences[idtype] = fieldreferences = new Dictionary<long, object>();
+            }
+
+            if (!(fieldreferences.TryGetValue(id, out object idreferenceObj) && idreferenceObj is IDictionary<string, object> idreference))
+            {
+                fieldreferences[id] = idreference = new Dictionary<string, object> { { idtype, id } };
+                if (idtype == "itemID")
+                {
+                    Items.TryGetName(idreference, out string name);
+                    idreference.Remove("_modItemID");
+                    Objects.Merge(idreference, "name", name);
+                }
+            }
+
+            Objects.Merge(idreference, field, data);
         }
 
         /// <summary>
@@ -3801,6 +3832,22 @@ setmetatable(_.HeaderConstants, {
                 }
                 IncludePureNewlines = true;
                 WriteIfDifferent(referenceDBFilename, referenceDB.ToString());
+
+                // General Incorporation data references
+                var incorporationFolder = Path.Combine(addonRootFolder, $".contrib/Debugging/IncorporationRefs", dbRootFolder);
+                Directory.CreateDirectory(incorporationFolder);
+                foreach (var incorporationData in IncorporationReferences)
+                {
+                    var incorporationDB = new StringBuilder();
+                    incorporationDB.AppendLine("-- For reference only! Not used for Parsing! Contains information which was Incorporated from external DBs or other sources");
+                    if (incorporationData.Key.StartsWith("_"))
+                        continue;
+
+                    incorporationDB.Append("_=").Append(ExportPureLua(incorporationData.Value));
+
+                    var incorporationDBFilename = Path.Combine(incorporationFolder, $"{incorporationData.Key}.lua");
+                    WriteIfDifferent(incorporationDBFilename, incorporationDB.ToString());
+                }
 
                 CurrentParseStage = ParseStage.ExportAddonData;
                 IncludeRawNewlines = false;
