@@ -464,7 +464,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 225523 },	-- Monte Gazlowe
 				["coord"] = { 39.6, 24.2, UNDERMINE },
 			}),
-			q(83196, {	-- 
+			q(83196, {	--
 				["sourceQuests"] = { 85174 },	-- Get Out There
 				["provider"] = { "n", 226660 },	-- Dirk Greasedealer
 				["coord"] = { 48.6, 40.7, UNDERMINE },
@@ -507,7 +507,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			--- no futher progress due to bug with 83198 (Backyard Navy)
 
-			
+
 			-- Misc
 			-- Open portal in/from Dornogal
 			q(86535, {	-- Test Run (TODO: check if account wide)
@@ -533,7 +533,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 225531 },	-- Gas Grimeshank
 				["coord"] = { 42.6, 51.1, UNDERMINE },
 				["g"] = {
-					-- listed as spell reward 460013 and didn't give actual mount/item
+					i(232523),	-- G-99 Breakneck (MOUNT!)
 				},
 			}),
 			q(86618, {	-- License Not Required

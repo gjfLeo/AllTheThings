@@ -705,3 +705,14 @@ iq(219289, 81618);	-- Puntable Tiny Snowman
 is(0, 467553);	-- Path of the Azerite Refinery [A?H?]
 is(0, 467555);	-- Path of the Azerite Refinery [A?H?]
 is(0, 1216786);	-- Path of the Circuit Breaker
+iq(232499, 85734);	-- Undermine Treatise on Alchemy
+iq(232500, 85735);	-- Undermine Treatise on Blacksmithing
+iq(232501, 85736);	-- Undermine Treatise on Enchanting
+iq(232507, 85737);	-- Undermine Treatise on Engineering
+iq(232503, 85738);	-- Undermine Treatise on Herbalism
+iq(232508, 85739);	-- Undermine Treatise on Inscription
+iq(232504, 85740);	-- Undermine Treatise on Jewelcrafting
+iq(232505, 85741);	-- Undermine Treatise on Leatherworking
+iq(232509, 85742);	-- Undermine Treatise on Mining
+iq(232506, 85744);	-- Undermine Treatise on Skinning
+iq(232502, 85745);	-- Undermine Treatise on Tailoring

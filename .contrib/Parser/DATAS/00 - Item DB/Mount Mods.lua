@@ -468,3 +468,47 @@ i(224769, 82183);	-- Delver's Dirigible Schematic: Rotor Blades
 i(225542, 83308);	-- Delver's Dirigible Schematic: Void
 i(224768, 82171);	-- Delver's Dirigible Schematic: Wing-Mounted Propeller
 i(224979, 82185);	-- Delver's Dirigible Schematic: Zeppelin
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+i(235685, 82168);	-- Delver's Dirigible Schematic: Drill
+i(235684, 82182);	-- Delver's Dirigible Schematic: Glider
+i(235687, 82180);	-- Delver's Dirigible Schematic: Spoiler
+i(235683, 82173);	-- Delver's Dirigible Schematic: Turbine
+i(235686, 82190);	-- Delver's Dirigible Schematic: White Paint
+i(230219, 85181);	-- Delver's Gob-Trotter Schematic: Balloon
+i(230217, 85177);	-- Delver's Gob-Trotter Schematic: Flamethrower
+i(230220, 85183);	-- Delver's Gob-Trotter Schematic: Green
+i(230216, 85175);	-- Delver's Gob-Trotter Schematic: Harpoon
+i(230218, 85179);	-- Delver's Gob-Trotter Schematic: Pipes
+--- UNSORTED ---
+i(235697, 82192);	-- Delver's Dirigible Schematic: Alliance Decal
+i(235694, 82117);	-- Delver's Dirigible Schematic: Blue Paint
+i(235696, 82193);	-- Delver's Dirigible Schematic: Explorer Decal
+i(235688, 82174);	-- Delver's Dirigible Schematic: Fan
+i(235690, 82169);	-- Delver's Dirigible Schematic: Harpoon
+i(235698, 82194);	-- Delver's Dirigible Schematic: Horde Decal
+i(235689, 82186);	-- Delver's Dirigible Schematic: Kite
+i(235695, 82189);	-- Delver's Dirigible Schematic: Red Paint
+i(235693, 82175);	-- Delver's Dirigible Schematic: Rocket
+i(235692, 82177);	-- Delver's Dirigible Schematic: Thrusters
+i(235691, 82191);	-- Delver's Dirigible Schematic: Yellow Paint
+i(233196, 86296);	-- Delver's Gob-Trotter Schematic: Gold
+i(232980, 85787);	-- Axel Sneakfoot
+i(232979, 85785);	-- Jaks Jabberjaw
+i(236672, 85785);	-- Lil' Squeaker
+i(232978, 85786);	-- Louie Firehands
+i(236670, 85787);	-- Maniacal Melodies
+i(236671, 85786);	-- The Whole Brass Band
+i(232982, 85775);	-- G77C Ultra
+i(232981, 85776);	-- GNZ Airmaster 9000
+i(232983, 85783);	-- Steamboil
+i(232984, 85784);	-- Handcrank
+i(232985, 85782);	-- 22H Slicks
+i(232986, 85781);	-- GE86 Advance
+i(235390, 86771);	-- Paint: Body Roll Blue
+i(235389, 86772);	-- Paint: Goblin Green
+i(235388, 86773);	-- Paint: Redlining Red
+i(235391, 86774);	-- Paint: Yellow Cake Yellow
+

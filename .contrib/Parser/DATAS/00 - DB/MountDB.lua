@@ -1958,6 +1958,7 @@ i(233020, 472488);	-- Twilight Witch's Sweeper
 ------------------
 i(0, 1217235);		-- Crimson Shreddertank
 i(229974, 466133);	-- Delver's Gob-Trotter
+i(232523, 460013);	-- G-99 Breakneck
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
 i(0, 1221155);		-- Prototype A.S.M.R.
 i(235626, 1217760);	-- The Big G

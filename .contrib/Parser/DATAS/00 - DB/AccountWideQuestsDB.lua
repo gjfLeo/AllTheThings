@@ -447,6 +447,19 @@ ExportDB.AccountWideQuestsDB = {
 	[83308] = true,	-- Delver's Dirigible Schematic: Void
 	[82171] = true,	-- Delver's Dirigible Schematic: Wing-Mounted Propeller
 	[82185] = true,	-- Delver's Dirigible Schematic: Zeppelin
+
+	-- 11.1.0
+	[82168] = true,	-- Delver's Dirigible Schematic: Drill
+	[82182] = true,	-- Delver's Dirigible Schematic: Glider
+	[82180] = true,	-- Delver's Dirigible Schematic: Spoiler
+	[82173] = true,	-- Delver's Dirigible Schematic: Turbine
+	[82190] = true,	-- Delver's Dirigible Schematic: White Paint
+	[85181] = true,	-- Delver's Gob-Trotter Schematic: Balloon
+	[85177] = true,	-- Delver's Gob-Trotter Schematic: Flamethrower
+	[85183] = true,	-- Delver's Gob-Trotter Schematic: Green
+	[85175] = true,	-- Delver's Gob-Trotter Schematic: Harpoon
+	[85179] = true,	-- Delver's Gob-Trotter Schematic: Pipes
+
 	-- #ENDIF
 
 	-- Manual scrape from a brand new character & 86000 scan of C_QuestLog.IsAccountQuest
