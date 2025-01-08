@@ -1,3 +1,9 @@
+---------------------------------------------------
+--          Z O N E S        M O D U L E         --
+---------------------------------------------------
+local function bo(questID, isDaily)
+    return { ["questID"] = questID, ["isDaily"] = isDaily };
+end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	m(SIREN_ISLE, {
 		n(-1208, {    -- Vrykul
@@ -59,12 +65,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["isDaily"] = true,
 				},{
 					n(227545, {	-- Ikir the Flotsurge
-						-- vrykul
 						["coord"] = { 32.8, 73.7, SIREN_ISLE },
 						["questID"] = 84792,
 					}),
 					n(230137, {	-- Asbjorn the Bloodsoaked
-						-- vrykul
 						["coord"] = { 63.9, 87.3, SIREN_ISLE },
 						["questID"] = 84805,
 						["g"] = {
