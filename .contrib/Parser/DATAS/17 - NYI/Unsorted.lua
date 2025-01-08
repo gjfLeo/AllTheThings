@@ -5,101 +5,764 @@
 root(ROOTS.Unsorted, {
 	expansion(EXPANSION.TWW, {
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			n(ARMOR, {
+				-- Quest Rewards?
+				i(232354),	-- Robe of the Liberator
+				i(232355),	-- Guardbreaker's Chestplate
+				i(232356),	-- Chainmail of the Undermine Revolutionary
+				i(232379),	-- Slime-Slicked Slippers
+				i(232381),	-- Mostly Cobbled Shoes
+				i(232383),	-- Soot-Encrusted Kickers
+				i(232384),	-- Aqirite-Toe Boots
+				i(232393),	-- Zirdo's Dirty Grips
+				i(232395),	-- Zirdo's Dirty Headgear
+				i(232397),	-- Zirdo's Dirty Mantle
+				i(232399),	-- Zirdo's Dirty Greaves
+				i(232400),	-- Guardbreaker's Boots
+				i(232401),	-- Shoulderguards of the Liberator
+				i(232402),	-- Guardbreaker's Wristwraps
+				i(232403),	-- Sabatons of the Liberator
+				i(232404),	-- Guardbreaker's Helm
+				i(232405),	-- Cinch of the Liberator
+				i(232406),	-- Headgear of the Undermine Revolutionary
+				i(232407),	-- Boots of the Undermine Revolutionary
+				i(232408),	-- Legguards of the Undermine Revolutionary
+				i(232410),	-- Craftsman's Repurposed Mitts
+				i(232411),	-- Goblin Boxer's Wraps
+				i(232412),	-- Undermine Smelter's Gloves
+				i(232413),	-- Retired Bouncer's Gauntlets
+				i(232440),	-- [PH] Boreal Crossbow
+				i(232448),	-- Grateful Goblin's Shield
+				i(232449),	-- Grateful Goblin's Dagger
+				i(232450),	-- Grateful Goblin's Sword
+				i(232451),	-- Grateful Goblin's Mallet
+				i(232452),	-- Grateful Goblin's Cudgel
+				i(232453),	-- Grateful Goblin's Wand
+				i(235146),	-- Maniac Biker's Wristguards
+				i(235147),	-- Maniac Biker's Shoulderguards
+				i(235148),	-- Maniac Biker's Legguards
+				i(235149),	-- Maniac Biker's Boots
+				i(235619),	-- Bug Exterminator's Gloves
+				i(235620),	-- Bug Exterminator's Pants
+				i(235621),	-- Bug Exterminator's Belt
+				i(235622),	-- Bug Exterminator's Shoulderguards
+				i(235647),	-- Gold-Plated Carver
+				i(235648),	-- Gold-Plated Hatchet
+				i(235649),	-- Gold-Plated Battleaxe
+				i(235661),	-- Grateful Goblin's Water Bottle
+
+				-- Trinkets
+				i(232883),	-- Turbo-Drain 5000
+				i(234717),	-- Blastmaster3000
+				i(234821),	-- Papa's Prized Putter
+				i(235283),	-- Bashful Book
+				i(235984),	-- Garbagemancer's Last Resort
+
+
+				-- Weird Armor
+				i(234511),	-- Corrupted Cuirass
+				i(234525),	-- Corrupted Crown
+
+				-- Raid Loot?
+				i(232725),	-- Pilot's Oiled Trousers
+				i(232726),	-- Well-Trodden Mechanic's Shoes
+				i(232727),	-- Cavern Stalker's Trophy Girdle
+				i(232728),	-- Darkfuse Dinner Jacket
+				i(232729),	-- Horn-Adorned Chausses
+				i(232730),	-- Cauldron Master Cleats
+				i(232731),	-- Steadfast Contender's Breastplate
+				i(232732),	-- Champion's Gilded Stompers
+				i(232733),	-- Gobfather's Gold Medal
+
+				-- Mythic + Mechagon?
+				i(232546),	-- K.U.-J.0.'s Flame Vents
+				i(232547),	-- Omega Strike Force
+
+				-- wtf is this :( Zonedrop/Zone rewards
+				i(233260),	-- Laundered Vestment
+				i(233261),	-- Laundered Sandals
+				i(233262),	-- Laundered Handwraps
+				i(233263),	-- Laundered Cowl
+				i(233264),	-- Laundered Leggings
+				i(233265),	-- Laundered Shoulderpads
+				i(233266),	-- Laundered Cord
+				i(233267),	-- Laundered Cuffs
+				i(233335),	-- Upcycled Jerkin
+				i(233336),	-- Upcycled Waders
+				i(233337),	-- Upcycled Gloves
+				i(233338),	-- Upcycled Helm
+				i(233339),	-- Upcycled Breeches
+				i(233340),	-- Upcycled Epaulets
+				i(233341),	-- Upcycled Sash
+				i(233342),	-- Upcycled Bindings
+				i(233343),	-- Power-Washed Chainmail
+				i(233344),	-- Power-Washed Striders
+				i(233345),	-- Power-Washed Grips
+				i(233346),	-- Power-Washed Coif
+				i(233347),	-- Power-Washed Greaves
+				i(233348),	-- Power-Washed Shoulderguards
+				i(233349),	-- Power-Washed Belt
+				i(233350),	-- Power-Washed Bracers
+				i(233448),	-- Mechforged Armplates
+				i(233449),	-- Mechforged Girdle
+				i(233450),	-- Mechforged Mantle
+				i(233451),	-- Mechforged Legguards
+				i(233452),	-- Mechforged Helm
+				i(233453),	-- Mechforged Gauntlets
+				i(233454),	-- Mechforged Sabatons
+				i(233455),	-- Mechforged Chestplate
+				i(233456),	-- Scrapcoil Bracers
+				i(233457),	-- Scrapcoil Belt
+				i(233458),	-- Scrapcoil Shoulderguards
+				i(233459),	-- Scrapcoil Greaves
+				i(233460),	-- Scrapcoil Coif
+				i(233461),	-- Scrapcoil Grips
+				i(233462),	-- Scrapcoil Striders
+				i(233463),	-- Scrapcoil Chainmail
+				i(233464),	-- Rebel Spike Bindings
+				i(233465),	-- Rebel Spike Sash
+				i(233466),	-- Rebel Spike Epaulets
+				i(233467),	-- Rebel Spike Breeches
+				i(233468),	-- Rebel Spike Headgear
+				i(233469),	-- Rebel Spike Grips
+				i(233470),	-- Rebel Spike Waders
+				i(233471),	-- Rebel Spike Vest
+				i(233472),	-- Shimmerthread Wristwraps
+				i(233473),	-- Shimmerthread Cord
+				i(233474),	-- Shimmerthread Shoulderpads
+				i(233475),	-- Shimmerthread Leggings
+				i(233476),	-- Shimmerthread Cowl
+				i(233477),	-- Shimmerthread Handwraps
+				i(233478),	-- Shimmerthread Sandals
+				i(233479),	-- Shimmerthread Robes
+				i(233480),	-- Lucky-Streak Pendant
+				i(233481),	-- Might-Be-Invisible Cloak
+				i(233482),	-- Might-Be-Invisible Shawl
+				i(233483),	-- Lucky-Streak Ring
+				i(233484),	-- Lucky-Streak Signet
+				i(233485),	-- Lucky-Streak Band
+				i(233527),	-- Gold-Plated Glaive
+				i(233528),	-- Gold-Plated Shield
+				i(233529),	-- Gold-Plated Cinderbrew Bottle
+				i(233530),	-- Gold-Plated Spellstaff
+				i(233531),	-- Gold-Plated Staff
+				i(233532),	-- Gold-Plated Polearm
+				i(233533),	-- Gold-Plated Spear
+				i(233534),	-- Gold-Plated Broadsword
+				i(233535),	-- Gold-Plated Greatsword
+				i(233536),	-- Gold-Plated Rifle
+				i(233537),	-- Gold-Plated Sword
+				i(233538),	-- Gold-Plated Blade
+				i(233539),	-- Gold-Plated Hammer
+				i(233540),	-- Gold-Plated Cudgel
+				i(233541),	-- Gold-Plated Knife
+				i(233542),	-- Gold-Plated Shank
+				i(233544),	-- Descaled Breastplate
+				i(233545),	-- Descaled Sabatons
+				i(233546),	-- Descaled Gauntlets
+				i(233547),	-- Descaled Helm
+				i(233548),	-- Descaled Legguards
+				i(233549),	-- Descaled Mantle
+				i(233550),	-- Descaled Girdle
+				i(233551),	-- Descaled Armplates
+
+				-- Delve Loot?
+				i(234125),	-- Public Defender's Coat
+				i(234185),	-- Dr. Scrapheal
+				i(234217),	-- Funhouse Lens
+				i(234218),	-- Goo-blin Grenade
+				i(234281),	-- Undermine Cartel Work
+				i(234326),	-- Core Recycling Unit
+
+				-- Zone Rewards? Delves?
+				i(235421),	-- Noxious Injector Sheen
+				i(235422),	-- Venture Co Seal
+				i(235423),	-- Expensive Gemstone Ring
+				i(235424),	-- Rich Uncle's Endowment
+				i(235425),	-- Dumpsterdelver's Loop
+				i(235426),	-- Nitroclad Wrap
+				i(235427),	-- Blastborne Shroud
+				i(235428),	-- Gobtastic Bling
+				i(235429),	-- Moneymaker's Collar
+				i(235430),	-- Junkreaver's Overcloak
+				i(235431),	-- Noxious Injector Harness
+				i(235432),	-- Noxious Injector Footpads
+				i(235433),	-- Noxious Injector Hands
+				i(235434),	-- Noxious Injector Brainbulb
+				i(235435),	-- Noxious Injector Trousers
+				i(235436),	-- Noxious Injector Mantle
+				i(235437),	-- Noxious Injector Tube
+				i(235438),	-- Noxious Injector Manacles
+				i(235439),	-- Nitroclad Bodice
+				i(235440),	-- Nitroclad Striders
+				i(235441),	-- Nitroclad Grips
+				i(235442),	-- Nitroclad Hood
+				i(235443),	-- Nitroclad Breeches
+				i(235444),	-- Nitroclad Motorpads
+				i(235445),	-- Nitroclad Strap
+				i(235446),	-- Nitroclad Armguards
+				i(235447),	-- Blastborne Hauberk
+				i(235448),	-- Blastborne Greaves
+				i(235449),	-- Blastborne Grips
+				i(235450),	-- Blastborne Targeting Visor
+				i(235451),	-- Blastborne Legguards
+				i(235452),	-- Blastborne Missile Pads
+				i(235453),	-- Blastborne Links
+				i(235454),	-- Blastborne Vambraces
+				i(235455),	-- Junkreaver's Breastplate
+				i(235456),	-- Junkreaver's Crushers
+				i(235457),	-- Junkreaver's Gauntlets
+				i(235458),	-- Junkreaver's Scrapgaze
+				i(235459),	-- Junkreaver's Legplates
+				i(235461),	-- Junkreaver's Shoulderplates
+				i(235462),	-- Junkreaver's Girdle
+				i(235463),	-- Junkreaver's Coils
+				i(235467),	-- Ominous Oil Residue
+				i(235484),	-- Razor-sharp Desk Fan
+				i(235485),	-- Oil Gouger
+				i(235486),	-- Springloaded Kneecap Breaker
+				i(235487),	-- Interest Compounder
+				i(235488),	-- Rocket Taped to a Screwdriver
+				i(235489),	-- Bullet Biter
+				i(235490),	-- Clawbacker Halberd
+				i(235491),	-- Immolation Warning
+				i(235492),	-- Oscillating Scrapcleaver
+				i(235493),	-- Ignited Flare Jar
+				i(235494),	-- Biker Gang's Spare Tire
+				i(235495),	-- Missile Guided Throat Slitter
+
+				i(235415),	-- Skyscorcher Pauldrons
+				i(235416),	-- Crashguard Spaulders
+				i(235417),	-- Venture Co. Plenipotentiary Vest
+				i(235418),	-- Exquisitely Aerodynamic Shoulderpads
+				i(235419),	-- High Altitude Turban
+				i(235420),	-- Petticoat of the Self-Stylized Azerite Baron
+				i(235460),	-- Shrapnel-Dampening Chestguard
+				i(235809),	-- Mechanized Plate Chasse
+				i(235810),	-- Circuit-Linked Chainmail
+				i(235811),	-- Extravagant Epaulets
+				i(235812),	-- Shoulderguards of Fraying Sanity
+
+				-- Armor/Cosmetic Delves or Quest?
+				i(235507),	-- Might-Be-Invisible Drape
+				i(235508),	-- Might-Be-Invisible Cape
+				i(235516),	-- The Severance Package
+				i(235614),	-- Golden-Gob Propulsion Rig
+				i(235615),	-- Rusty Gobjets
+				i(235616),	-- True Speed Goblin-Thruster
+			}),
+			filter(BATTLE_PETS, {
+				i(232806),	-- Tiny Torq
+				i(232807),	-- Iron Chick
+				i(232838),	-- Viridian Mechasaur
+				i(232839),	-- Wavebreaker Mechasaur
+				i(232840),	-- Mechagopher
+				i(232841),	-- Professor Punch
+				i(232842),	-- Crimson Mechasaur
+				i(232843),	-- Gorillion
+				i(232844),	-- Fuz-Size Flarendo
+				i(232845),	-- Bilgewater Junkhauler
+				i(232846),	-- Steamwheedle Flunkie
+				i(232847),	-- Personal-Use Sapper
+				i(232848),	-- Mr. DELVER
+				i(232849),	-- Venture Companyman
+				i(232850),	-- Blackwater Kegmover
+				i(232851),	-- Rocketfist
+				i(232852),	-- Mutt
+				i(232853),	-- Eepy
+				i(232854),	-- Grinner
+				i(232855),	-- Foreman
+				i(232856),	-- Scruff
+				i(232857),	-- Goggles
+				i(232858),	-- Cruncher
+				i(232859),	-- Lab Rat
+				i(232895),	-- Spotty
+				i(235909),	-- Gleam
+				i(235988),	-- Parley
+				i(235989),	-- Parley
+			}),
+			filter(COSMETIC, {
+				-- Cartel Cosmetics?
+				i(231526),	-- Bilgewater Undermine Tabard
+				i(231527),	-- Steamwheedle Undermine Tabard
+				i(231528),	-- Blackwater Undermine Tabard
+				i(231542),	-- Venture Co. Undermine Tabard
+				i(231550),	-- Darkfuse Lowdown Coat
+				i(231556),	-- Breakneck Cabbie's Coat
+				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
+				i(231733),	-- Black Bruiser's Tabard
+				i(231734),	-- Blackwater Bruiser's Tabard
+				i(231735),	-- Steamwheedle Bruiser's Tabard
+				i(231736),	-- Bilgewater Bruiser's Tabard
+				i(231737),	-- Undermine Enforcer's Padding
+				i(231738),	-- Venture Co. Bruiser's Tabard
+				i(231739),	-- Black Bruiser's Helm
+				i(231740),	-- Steamwheedle Bruiser's Helm
+				i(231741),	-- Blackwater Bruiser's Helm
+				i(231742),	-- Bilgewater Bruiser's Helm
+				i(231743),	-- Undermine Enforcer's Helmet
+				i(231744),	-- Venture Co. Bruiser's Helm
+				i(231745),	-- Black Bruiser's Shoulderspikes
+				i(231746),	-- Blackwater Bruiser's Spaulders
+				i(231747),	-- Steamwheedle Bruiser's Spaulders
+				i(231748),	-- Bilgewater Bruiser's Spaulders
+				i(231749),	-- Undermine Enforcer's Spikes
+				i(231750),	-- Venture Co. Bruiser's Spaulders
 
 
 
+				-- Trading Post
+				i(233032),	-- Shining Guise of the Heavens
+				i(233033),	-- Shining Pauldrons of the Sunlit Heavens
+				i(233034),	-- Shining Pauldrons of the Twilight Heavens
+				i(233035),	-- Shining Chestguard of the Heavens
+				i(233036),	-- Shining Greaves of the Heavens
+				i(233037),	-- Shining Belt of the Heavens
+				i(233038),	-- Shining Gloves of the Heavens
+				i(233039),	-- Shining Treads of the Heavens
+				i(233040),	-- Shining Cloak of the Heavens
+				i(233041),	-- Radiant Guise of the Heavens
+				i(233042),	-- Radiant Pauldrons of the Sunlit Heavens
+				i(233043),	-- Radiant Pauldrons of the Twilight Heavens
+				i(233044),	-- Radiant Chestguard of the Heavens
+				i(233045),	-- Radiant Greaves of the Heavens
+				i(233046),	-- Radiant Belt of the Heavens
+				i(233047),	-- Radiant Gloves of the Heavens
+				i(233048),	-- Radiant Treads of the Heavens
+				i(233049),	-- Radiant Cloak of the Heavens
+				i(233050),	-- Ensemble: Shining Vestments of the Heavens
+				i(233052),	-- Ensemble: Radiant Vestments of the Heavens
+				i(234572),	-- Topsy Turvy Fool's Blade
+				i(234573),	-- Topsy Turvy Clown's Blade
+				i(234575),	-- Topsy Turvy Jester's Blade
+				i(234577),	-- Topsy Turvy Joker's Blade
+				i(234601),	-- Wings of the Icy Rose Monarch
+				i(234602),	-- Wings of the Blood Monarch
+				i(234603),	-- Wings of the Pearlescent Monarch
+				i(234609),	-- Double-Bladed Forest Garden Trowel
+				i(234611),	-- Double-Bladed Butterfly Garden Trowel
+				i(234612),	-- Double-Bladed Blooming Garden Trowel
+				i(234613),	-- Double-Bladed Rooted Garden Trowel
+				i(234724),	-- Topsy Turvy Clown's Cleaver
+				i(234725),	-- Topsy Turvy Jester's Cleaver
+				i(234726),	-- Topsy Turvy Joker's Cleaver
+				i(234727),	-- Topsy Turvy Fool's Cleaver
+				i(235019),	-- Vigilante's Midnight Mask
+				i(235020),	-- Vigilante's Azure Mask
+				i(235021),	-- Vigilante's Sepia Mask
+				i(235022),	-- Vigilante's Grassy Mask
+				i(235023),	-- Vigilante's Cloudy Mask
+				i(235024),	-- Vigilante's Deep Mask
+				i(235025),	-- Vigilante's Camo Mask
+				i(235026),	-- Vigilante's Brick Mask
+				i(235027),	-- Vigilante's Lively Mask
+				i(235028),	-- Vigilante's Faded Mask
+				i(235029),	-- Vigilante's Carrot Mask
+				i(235030),	-- Vigilante's Rosy Mask
+				i(235031),	-- Vigilante's Plum Mask
+				i(235032),	-- Vigilante's Crimson Mask
+				i(235033),	-- Vigilante's Violet Mask
+				i(235034),	-- Vigilante's Aquatic Mask
+				i(235035),	-- Vigilante's Snowy Mask
+				i(235036),	-- Vigilante's Sunny Mask
+				i(235150),	-- Spring Butterfly Helm
+				i(235152),	-- Pearlescent Monarch Helm
+				i(235153),	-- Midnight Butterfly Helm
+				i(235154),	-- Blood Monarch Helm
+				i(235155),	-- Midnight Butterfly Pauldrons
+				i(235210),	-- Blood Monarch Pauldrons
+				i(235211),	-- Pearlescent Monarch Pauldrons
+				i(235212),	-- Spring Butterfly Pauldrons
+				i(235213),	-- Pearlescent Monarch Belt
+				i(235214),	-- Spring Butterfly Belt
+				i(235215),	-- Midnight Butterfly Belt
+				i(235216),	-- Blood Monarch Belt
+				i(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
+				i(235227),	-- Ensemble: Ornaments of the Spring Butterfly
+				i(235228),	-- Ensemble: Ornaments of the Blood Monarch
+				i(235229),	-- Ensemble: Ornaments of the Midnight Butterfly
+				i(235269),	-- Spring Butterfly Mace
+				i(235270),	-- Pearlescent Monarch's Mace
+				i(235271),	-- Midnight Butterfly Mace
+				i(235272),	-- Blood Monarch's Mace
+				i(235279),	-- Scorched Shorts
+				i(235289),	-- Spring Butterfly Sword
+				i(235290),	-- Pearlescent Monarch's Sword
+				i(235291),	-- Blood Monarch's Sword
+				i(235292),	-- Midnight Butterfly Sword
+				i(235293),	-- Spring Butterfly Wand
+				i(235294),	-- Pearlescent Monarch's Wand
+				i(235295),	-- Blood Monarch's Wand
+				i(235296),	-- Midnight Butterfly Wand
+				i(235340),	-- Topsy Turvy Fool's Mask
+				i(235341),	-- Topsy Turvy Clown's Mask
+				i(235342),	-- Topsy Turvy Jester's Mask
+				i(235343),	-- Topsy Turvy Joker's Mask
+				i(235399),	-- Spring Butterfly Polearm
+				i(235400),	-- Midnight Butterfly Polearm
+				i(235401),	-- Blood Monarch's Polearm
+				i(235402),	-- Pearlescent Monarch's Polearm
+				i(235563),	-- Forest Dweller's Garden Tunic
+				i(235564),	-- Forest Dweller's Butterfly Tunic
+				i(235565),	-- Forest Dweller's Blooming Tunic
+				i(235566),	-- Forest Dweller's Rooted Tunic
+				i(235567),	-- Forest Dweller's Garden Boots
+				i(235568),	-- Forest Dweller's Butterfly Boots
+				i(235569),	-- Forest Dweller's Blooming Boots
+				i(235570),	-- Forest Dweller's Rooted Boots
+				i(235571),	-- Forest Dweller's Garden Glove
+				i(235572),	-- Forest Dweller's Butterfly Glove
+				i(235573),	-- Forest Dweller's Blooming Glove
+				i(235574),	-- Forest Dweller's Rooted Glove
+				i(235575),	-- Forest Dweller's Garden Cap
+				i(235576),	-- Forest Dweller's Butterfly Cap
+				i(235577),	-- Forest Dweller's Blooming Cap
+				i(235578),	-- Forest Dweller's Rooted Cap
+				i(235579),	-- Forest Dweller's Garden Pants
+				i(235580),	-- Forest Dweller's Butterfly Pants
+				i(235581),	-- Forest Dweller's Blooming Pants
+				i(235582),	-- Forest Dweller's Rooted Pants
+				i(235584),	-- Forest Dweller's Garden Mantle
+				i(235585),	-- Forest Dweller's Butterfly Mantle
+				i(235586),	-- Forest Dweller's Blooming Mantle
+				i(235587),	-- Forest Dweller's Rooted Mantle
+				i(235588),	-- Forest Dweller's Garden Belt
+				i(235589),	-- Forest Dweller's Butterfly Belt
+				i(235590),	-- Forest Dweller's Blooming Belt
+				i(235591),	-- Forest Dweller's Rooted Belt
+				i(235592),	-- Ensemble: Forest Dweller's Garden Attire
+				i(235593),	-- Ensemble: Forest Dweller's Butterfly Attire
+				i(235594),	-- Ensemble: Forest Dweller's Blooming Attire
+				i(235595),	-- Ensemble: Forest Dweller's Rooted Attire
+				i(235623),	-- Ruby Scale Treads
+				i(235624),	-- Sapphire Scale Treads
+				i(235640),	-- Topsy Turvy Fool's Die
+				i(235641),	-- Topsy Turvy Clown's Die
+				i(235642),	-- Topsy Turvy Jester's Die
+				i(235643),	-- Topsy Turvy Joker's Die
+				i(235652),	-- Pearlescent Monarch's Longbow
+				i(235653),	-- Spring Butterfly Longbow
+				i(235654),	-- Midnight Butterfly Longbow
+				i(235655),	-- Blood Monarch's Longbow
+				i(235664),	-- Ensemble: Topsy Turvy Mask Set
 
-			-- QI
-			i(216915),	-- Excavator
-			i(224797),	-- Zirdo's Ledger
-			i(225931),	-- Contract Fee
-			i(225971),	-- Feathered Pelt
-			i(226192),	-- Electric Eel Meat
-			i(226203),	-- Sliced Lime
-			i(226215),	-- Kaja'mite Powder
-			i(226216),	-- Kaja'Cola Can
-			i(226217),	-- Lime
-			i(226219),	-- Kaja'mite Fragment
-			i(226223),	-- Stinging Residue
-			i(226358),	-- Spare Venture Co. Uniform
-			i(226372),	-- Noggenfogger Deluxe with Lime
-			i(226380),	-- Employee Schedule
-			i(226391),	-- Sputtering Taserblade
-			i(226393),	-- Jetpack-in-a-Box
-			i(226522),	-- Demolition Controller Fragment
-			i(226525),	-- Demolition Control Code
-			i(226823),	-- Bilgewater Auto-Grappler
-			i(226824),	-- Handful of B.I.R.D. Parts
-			i(226854),	-- Crumpled Paystub
-			i(227386),	-- R.P.E.L
-			i(227540),	-- Skimmed Profits
-			i(227674),	-- Gobdre's Prized Pan
-			i(227702),	-- Crumpled Report (TRAINING, DNT)
-			i(227708),	-- Raw Kaja'mite Chunk
-			i(228196),	-- Anti-Darkfuse Pamphlets
-			i(228215),	-- Jazz's Report
-			i(228549),	-- Massive Kaja'mite Chunk
-			i(228614),	-- Comprehend Rat Language Potion
-			i(228771),	-- Holey Grail
+				-- Old Delve Loot as cosmetic?
+				i(234331),	-- Unkindled Waxweave Mitts
+				i(234332),	-- Unkindled Waxweave Mozzetta
+				i(234333),	-- Myconic Wrap
+				i(234334),	-- Serape of the Stygian Sea
+				i(234335),	-- Amice of Hidden Stars
+				i(234336),	-- Unkindled Waxweave Garb
+				i(234337),	-- Unkindled Waxweave Slippers
+				i(234338),	-- Unkindled Waxweave Veil
+				i(234339),	-- Unkindled Waxweave Buskins
+				i(234340),	-- Unkindled Waxweave Shoulderpads
+				i(234341),	-- Unkindled Waxweave Belt
+				i(234342),	-- Unkindled Waxweave Clasps
+				i(234343),	-- Myconic Frock
+				i(234344),	-- Myconic Waders
+				i(234345),	-- Myconic Clutches
+				i(234346),	-- Myconic Hood
+				i(234347),	-- Myconic Chausses
+				i(234348),	-- Myconic Shoulderstrap
+				i(234349),	-- Myconic Strap
+				i(234350),	-- Myconic Wristbands
+				i(234351),	-- Hauberk of the Stygian Sea
+				i(234352),	-- Treads of the Stygian Sea
+				i(234353),	-- Grasps of the Stygian Sea
+				i(234354),	-- Bascinet of the Stygian Sea
+				i(234355),	-- Poleyns of the Stygian Sea
+				i(234356),	-- Spaulders of the Stygian Sea
+				i(234357),	-- Sash of the Stygian Sea
+				i(234358),	-- Wrist Bindings of the Stygian Sea
+				i(234359),	-- Raiment of Hidden Stars
+				i(234360),	-- Sollerets of Hidden Stars
+				i(234361),	-- Fists of Hidden Stars
+				i(234362),	-- Visage of Hidden Stars
+				i(234363),	-- Legplates of Hidden Stars
+				i(234364),	-- Pauldrons of Hidden Stars
+				i(234365),	-- Charmbelt of Hidden Stars
+				i(234366),	-- Handguards of Hidden Stars
+				i(234367),	-- Sanctifier's Startierce
+				i(234368),	-- Worshipper's Poniard
+				i(234369),	-- Pyretic Star
+				i(234370),	-- Flame-Bearing Crozier
+				i(234371),	-- Hand of Piety
+				i(234372),	-- Shooting Starquebus
+				i(234373),	-- Imperial Flarebolt
+				i(234374),	-- Arathi Holy Standard
+				i(234375),	-- Lamplighter's Mercy
+				i(234376),	-- Vessel of Sacred Flame
+				i(234377),	-- Unscathed Rampart
+				i(234378),	-- Radiant Steelglaives
+				i(234388),	-- Arsenal: Hallowfall Weaponry
 
 
-			i(228792),	-- Reactive Plating
-			i(228794),	-- Purloined Loot
-			i(228822),	-- Burgled Art
-			i(228948),	-- Jazz's Shrink Ray
-			i(228975),	-- Blackwater Cannonball
-			i(228988),	-- Rock Reviver
-			i(229392),	-- Crumpled Delivery Note
-			i(229401),	-- Artisan's Consortium Pamphlet
-			i(229407),	-- Citrus Acid
-			i(229419),	-- Barrelbottom Deed
-			-- Misc
-			i(225766),	-- Zoom-Zoom Boosters
-			i(227541),	-- Miner's Debt Marker
-			i(227547),	-- Kayjay's Debt Marker
-			i(227548),	-- Fantastic Davey's Debt Marker
-			i(227663),	-- Noggenfogger's Recommendation
-			i(227666),	-- Diner Review Cards
-			i(228798),	-- Gob-Glider
-			i(226373),	-- Everlasting Noggenfogger Elixir
+				i(235854),	-- Gold-Inlaid Jetpack
+				i(236161),	-- Broiler Supreme 300
+				i(236178),	-- Gammy's Hand-Me-Down Bow
+				i(236180),	-- Swabbie's Shovel
+				i(236181),	-- Center-Stage Remover
+				i(236191),	-- Mechanic's Best Motivator
+			}),
+			n(CURIO, {
+				i(230225),	-- Kaja'Cola Carrier
+				i(230226),	-- Three Dimensional Bioprinter
+				i(230227),	-- Goblomagnetic Bouncing Grenade
+				i(230228),	-- Pocket Factory
+				i(230229),	-- Impact Conversion Matrix
+				i(230230),	-- L00T RAID-R
+				i(230231),	-- Reverse Engineered Goblin Death Bomb
+				i(230232),	-- Comically Large Magnet
+				i(230233),	-- Biofuel Rocket Gear
+				i(230234),	-- Pinged Augment Chip
+				i(230950),	-- Overdrive Pylon
+				i(232891),	-- Amorphous Relic
+				i(234013),	-- Pacifist Rig
+				i(234014),	-- Automatic Footbomb Dispenser
+				i(234015),	-- Mechasaur EZ-Build Kit
+				i(234329),	-- Ancient Curio
+				i(234330),	-- Ancient Curio
+			}),
+			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
+				-- DRIVE
+				i(232523),	-- G-99 Breakneck
+				i(232978),	-- Louie Firehands
+				i(232979),	-- Jaks Jabberjaw
+				i(232980),	-- Axel Sneakfoot
+				i(232981),	-- GNZ Airmaster 9000
+				i(232982),	-- G77C Ultra
+				i(232983),	-- Steamboil
+				i(232984),	-- Handcrank
+				i(232985),	-- 22H Slicks
+				i(232986),	-- GE86 Advance
+				i(234380),	-- Steamboil Fuel Tank
+				i(234381),	-- Handcrank Fuel Tank
+				i(234386),	-- Handcrank Fuel Injector
+				i(234387),	-- Steamboil Fuel Injector
+				i(234415),	-- Handcrank Casing
+				i(234416),	-- Steamboil Casing
+				i(234417),	-- Handcrank Gears
+				i(234418),	-- Steamboil Gears
+				i(234419),	-- Steamboil Mounting System
+				i(234420),	-- Handcrank Mounting System
+				i(235388),	-- Paint: Redlining Red
+				i(235389),	-- Paint: Goblin Green
+				i(235390),	-- Paint: Body Roll Blue
+				i(235391),	-- Paint: Yellow Cake Yellow
+				i(236670),	-- Maniacal Melodies
+				i(236671),	-- The Whole Brass Band
+				i(236672),	-- Lil' Squeaker
+				-- Gobbo Flyer
+				i(233196),	-- Delver's Gob-Trotter Schematic: Gold
+				-- Mount Mods
+				i(235688),	-- Delver's Dirigible Schematic: Fan
+				i(235689),	-- Delver's Dirigible Schematic: Kite
+				i(235690),	-- Delver's Dirigible Schematic: Harpoon
+				i(235691),	-- Delver's Dirigible Schematic: Yellow Paint
+				i(235692),	-- Delver's Dirigible Schematic: Thrusters
+				i(235693),	-- Delver's Dirigible Schematic: Rocket
+				i(235694),	-- Delver's Dirigible Schematic: Blue Paint
+				i(235695),	-- Delver's Dirigible Schematic: Red Paint
+				i(235696),	-- Delver's Dirigible Schematic: Explorer Decal
+				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal
+				i(235698),	-- Delver's Dirigible Schematic: Horde Decal
+			}),
+			filter(MISC, {	-- More known
+				-- Chestos
+				i(229422),	-- Undermine Equipment Chest
+				i(234729),	-- Cache of Undermine Treasures
+				i(234731),	-- Cache of Undermine Treasures
+				i(234743),	-- Steamwheedle's Trove (Revered)
+				i(234744),	-- Blackwater's Trove (Honored)
+				i(234745),	-- Bilgewater's Trove (Honored)
+				i(234746),	-- Venture Co.'s Trove (Honored)
+				i(235151),	-- Distinguished Actor's Chest
+				i(235258),	-- Bilgewater's Trove (Revered)
+				i(235259),	-- Bilgewater's Trove (Exalted)
+				i(235260),	-- Blackwater's Trove (Revered)
+				i(235261),	-- Blackwater's Trove (Exalted)
+				i(235262),	-- Steamwheedle's Trove (Honored)
+				i(235263),	-- Steamwheedle's Trove (Exalted)
+				i(235264),	-- Venture Co.'s Trove (Revered)
+				i(235265),	-- Venture Co.'s Trove (Exalted)
+				i(235610),	-- Seasoned Adventurer's Cache
+				i(235639),	-- Seasoned Adventurer's Cache
+				i(236689),	-- Finder's Fee
+				i(236756),	-- Socially Expected Tip Chest
+				i(236757),	-- Generous Tip Chest
+				i(236758),	-- Extravagant Tip Chest
+				i(236763),	-- Finder's Fee
+				i(236764),	-- Finder's Fee
+				i(236765),	-- Finder's Fee
+				-- Crests
+				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
+				i(231270),	-- Pack of Runed Undermine Crests
+				-- From Meta Achievements
+				i(230017),	-- Master Blaster's Insignia
+				i(236852),	-- Gallagio Highroller's Boomstone
+				i(236877),	-- Crystallized Essence of Kaja'mite
+				-- Probably Delves
+				i(232068),	-- Adventurer's Warbound Chestpiece
+				i(232069),	-- Adventurer's Warbound Boots
+				i(232070),	-- Adventurer's Warbound Gloves
+				i(232071),	-- Adventurer's Warbound Headpiece
+				i(232072),	-- Adventurer's Warbound Legs
+				i(232073),	-- Adventurer's Warbound Shoulders
+				i(232074),	-- Adventurer's Warbound Waist
+				i(232075),	-- Adventurer's Warbound Wrists
+				i(232076),	-- Adventurer's Warbound Battlegear Drop
+				--
+				-- Cartel Rep?
+				i(232463),	-- Overflowing Undermine Trove
+				i(232465),	-- The Cartel's Trove
+				i(232485),	-- Mechano-Core Amplifier
+				i(232486),	-- Noggenfogger Ultimate Deluxe
+				i(232499),	-- Undermine Treatise on Alchemy
+				i(232500),	-- Undermine Treatise on Blacksmithing
+				i(232501),	-- Undermine Treatise on Enchanting
+				i(232502),	-- Undermine Treatise on Tailoring
+				i(232503),	-- Undermine Treatise on Herbalism
+				i(232504),	-- Undermine Treatise on Jewelcrafting
+				i(232505),	-- Undermine Treatise on Leatherworking
+				i(232506),	-- Undermine Treatise on Skinning
+				i(232507),	-- Undermine Treatise on Engineering
+				i(232508),	-- Undermine Treatise on Inscription
+				i(232509),	-- Undermine Treatise on Mining
+				i(232515),	-- Experimental Goblin Jetpack
 
-			-- Chesto
-			i(229422),	-- Undermine Equipment Chest
+				-- Delves
+				i(232898),	-- Delver's Bounty
+				i(233071),	-- Delver's Bounty
+				i(233276),	-- Delver's Starter Kit
+				i(233281),	-- Delver's Cosmetic Surprise Bag
+				i(235502),	-- Chunk of Companion Experience
+				i(235503),	-- Chunk of Companion Experience
+				i(235504),	-- Chunk of Companion Experience
+				i(235559),	-- Hidden Trove
+				i(235607),	-- Chunk of Companion Experience
+				i(235628),	-- Delver's Bounty
+				i(235896),	-- Radiant Echo
+				i(235897),	-- Radiant Echo
 
-			-- Mark for Tier Meta achievement
-			i(230017),	-- Master Blaster's Insignia
+				-- CHETT
+				i(235053),	-- Completed C.H.E.T.T. List
+				i(236668),	-- C.H.E.T.T. Card
+				i(236669),	-- The Ol' Low-and-Slow
+				i(236682),	-- C.H.E.T.T. List
+				i(236785),	-- C.H.E.T.T. Card
+				-- Raid Achievement
+				i(236412),	-- "Fireproof" Punch
+				i(236413),	-- "Shockproof" Soda
 
-			n(PROFESSIONS, {
-				i(230906),	-- Spark of Fortunes
-				prof(FISHING, {
-					i(227673),	-- "Gold" Fish
-				}),
-				prof(ENCHANTING, {
+				-- Valorstones
+				i(236953),	-- Crimson Valorstone
+				i(236954),	-- Void-Touched Valorstone
+				i(236955),	-- Crimson Valorstone
+				i(236956),	-- Void-Touched Valorstone
 
-					i(230931),	-- Formula: Enchanted Weathered Undermine Crest
-					i(230932),	-- Formula: Enchanted Runed Undermine Crest
-					i(230933),	-- Formula: Enchanted Gilded Undermine Crest
-					i(230935),	-- Enchanted Gilded Undermine Crest
-					i(230936),	-- Enchanted Runed Undermine Crest
-					i(230937),	-- Enchanted Weathered Undermine Crest
+				-- Weird wep again from delve?
+				i(236003),	-- Fate Weaver
 
-					i(230985),	-- Nascent Runed Undermine Crest
-					i(230986),	-- Nascent Gilded Undermine Crest
-					i(230987),	-- Nascent Weathered Undermine Crest
-				}),
-				prof(INSCRIPTION, {
-					i(232532),	-- Contract: The Cartels of Undermine+
-					i(232533),	-- Contract: The Cartels of Undermine++
-					i(232534),	-- Contract: The Cartels of Undermine+++
-					i(232535),	-- Technique: Contract: The Cartels of Undermine
-					i(232936),	-- Vantus Rune: Undermine+
-					i(232935),	-- Vantus Rune: Undermine++
-					i(232937),	-- Vantus Rune: Undermine+++
-					i(233022),	-- Technique: Vantus Rune: Undermine
-				}),
-				prof(ENGINEERING, {
-					i(234274),	-- Schematic: 22H Slicks
-				}),
+				-- New Shards
+				i(236096),	-- Coffer Key Shard
+			}),
+			filter(MISC, {
+				i(225766),	-- Zoom-Zoom Boosters
+				i(227541),	-- Miner's Debt Marker
+				i(227547),	-- Kayjay's Debt Marker
+				i(227548),	-- Fantastic Davey's Debt Marker
+				i(227663),	-- Noggenfogger's Recommendation
+				i(227666),	-- Diner Review Cards
+				i(228798),	-- Gob-Glider
+				i(226373),	-- Everlasting Noggenfogger Elixir
+				i(229809),	-- Weighted Metal Ball
+				i(229810),	-- Vintage Kaja'cola Can
+				i(229823),	-- Canister of Darkfuse Solution
+				i(230187),	-- Lucio Boombox
+				i(230807),	-- Drill Hands
+				i(230990),	-- Set Keystone Map: Operation: Floodgate
+				i(231099),	-- Back-Strapped Missile
+				i(231291),	-- Radar
+				i(231787),	-- Vigilante's Disposable Falling Shadow Grapple Gun
+				i(231899),	-- Trash
+				i(232874),	-- Undermine Stockpile
+				i(232927),	-- [DNT] Small Surge Chest
+				i(232928),	-- [DNT] Medium Surge Chest
+				i(232929),	-- [DNT] Large Surge Chest
+				i(232930),	-- Zaps Leadfoot
+				i(233006),	-- Container of Highly Profitable Sludge
+				i(233007),	-- Crate of Somewhat Profitable Sludge
+				i(233008),	-- Box of Lightly Profitable Sludge
+				i(233021),	-- Grappling-Grabber 9000
+				i(233025),	-- Giant Pile of Gold
+				i(233026),	-- Johnny's Share of the Spoils
+				i(233030),	-- Charged Cables
+				i(233031),	-- Intact Interlock
+				i(233054),	-- Wonder Ball
+				i(233055),	-- Corpse Cleaner
+				i(233061),	-- Rock-in-a-Bottle
+				i(233062),	-- Pocket Pizza
+				i(233118),	-- Incontinental Takeout
+				i(233205),	-- Go-Go Juice
+				i(233210),	-- Pungent Putrigill
+				i(233246),	-- Gunk-Covered Thingy
+				i(233444),	-- Kaja'Cola X-Treme
+				i(233445),	-- Kaja'Cola X-Treme Mega-Can
+				i(233446),	-- Multi-Pack of Kaja'Cola
+				i(233557),	-- Sifted Pile of Scrap
+				i(233558),	-- S.C.R.A.P. Scrubber Deluxe
+				i(234197),	-- Gilded Screwdriver
+				i(234203),	-- Clay-Speckled Metal Slug
+				i(234204),	-- Depleted Battery
+				i(234205),	-- Bent Lever
+				i(234212),	-- "Beaten by the House"
+				i(234421),	-- Web Bomb
+				i(234451),	-- Stolen Goods
+				i(234454),	-- Remote Teleporter
+				i(234970),	-- Partially-Drained Battery
+				i(234971),	-- Chunk of Charged Glass
+				i(234616),	-- Supreme Mangoro Madness
+				i(234617),	-- Dulux Bluesberry Blast
+				i(234618),	-- Omega Oyster Outbreak
+				i(234619),	-- Ultimate Orange O-pocalypse
+				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
+				i(234741),	-- Miscellaneous Mechanica
+				i(235042),	-- Imminently Exploding Fireworks
+				i(235221),	-- Particularly Bright Lightbulb
+				i(235230),	-- Impotent Potable
+				i(235238),	-- Exploded Plunger
+				i(235255),	-- Durable Dice
+				i(235257),	-- Plundered Artifact
+				i(235268),	-- Misprinted Card
+				i(235273),	-- Distracting Floatmingo
+				i(235280),	-- Extra Crispy Laundry
+				i(235558),	-- Box of Darkfuse Miscellany
+				i(235627),	-- Scribbles' Favorite Candies
+				i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
+				i(235703),	-- Noggenfogger Select DOWN
+				i(235704),	-- Noggenfogger Select UP
+				i(235710),	-- Noggenfogger Select FRESH
+				i(235713),	-- Weird Sand
+				i(235895),	-- Bloodstone
+				i(235910),	-- Mint Condition Gallagio Anniversary Coin
+				i(236633),	-- Low-Town Fizz
+				i(236634),	-- Itty Bitty Bonsai
+				i(236635),	-- Uncut Semi-Smoky Quartz
+				i(236636),	-- Cracked Crysoberyl
+				i(236637),	-- Not-Quite-Crystal Ball
+				i(236638),	-- Bundle of Kaja-Scented Incense
+				i(236639),	-- Dented Censer
+				i(236640),	-- Cracked Earthen Singing Bowl
+				i(236646),	-- Gallagio Especial
+				i(236647),	-- Coin and Kaja
+				i(236648),	-- Liquid Nitro
+				i(236649),	-- Few Screws Loose
+				i(236650),	-- Paincracker
+				i(236651),	-- Vince's Old Left Shoe
+				i(236652),	-- Re-Down-Upcycled Salvage
+				i(236680),	-- Imitation Crab Meat
+				i(236681),	-- Liquid Gold
 			}),
 			filter(MOUNTS, {
 				mount(466019),	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
@@ -114,13 +777,11 @@ root(ROOTS.Unsorted, {
 				mount(466013),	-- Ocher Delivery Rocket (MOUNT!)
 				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
 				mount(466020),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
-
 				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
 				i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!) [Raid]
 				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
-
 				mount(466016),	-- The Topskimmer Special (MOUNT!)
 				mount(466146),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]
 				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]
@@ -129,154 +790,63 @@ root(ROOTS.Unsorted, {
 				-- Probably not real
 				mount(466423),	-- Unstable Rocket
 				mount(466464),	-- Unstable Rocket
-
+				-- just item
 				i(229945),	-- [PH] Goblin Rocket Mount - Red
 			}),
-			n(SETS, {
-				i(228799),	-- Dreadful Greased Gallybux
-				i(228800),	-- Mystic Greased Gallybux
-				i(228801),	-- Venerated Greased Gallybux
-				i(228802),	-- Zenith Greased Gallybux
-				i(228803),	-- Dreadful Bloody Gallybux
-				i(228804),	-- Mystic Bloody Gallybux
-				i(228805),	-- Venerated Bloody Gallybux
-				i(228806),	-- Zenith Bloody Gallybux
-				i(228807),	-- Dreadful Gilded Gallybux
-				i(228808),	-- Mystic Gilded Gallybux
-				i(228809),	-- Venerated Gilded Gallybux
-				i(228810),	-- Zenith Gilded Gallybux
-				i(228811),	-- Dreadful Rusty Gallybux
-				i(228812),	-- Mystic Rusty Gallybux
-				i(228813),	-- Venerated Rusty Gallybux
-				i(228814),	-- Zenith Rusty Gallybux
-				i(228815),	-- Dreadful Polished Gallybux
-				i(228816),	-- Mystic Polished Gallybux
-				i(228817),	-- Venerated Polished Gallybux
-				i(228818),	-- Zenith Polished Gallybux
-				i(229230),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Generic - Cloak
-				i(229231),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Wrist
-				i(229232),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Waist
-				i(229233),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Shoulder
-				i(229234),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Legs
-				i(229235),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Head
-				i(229236),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Hand
-				i(229237),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Feet
-				i(229238),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Chest
-				i(229239),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Generic - Cloak
-				i(229240),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Wrist
-				i(229241),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Waist
-				i(229242),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Shoulder
-				i(229243),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Legs
-				i(229244),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Head
-				i(229245),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Hand
-				i(229246),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Feet
-				i(229247),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Chest
-				i(229248),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Generic - Cloak
-				i(229249),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Wrist
-				i(229250),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Waist
-				i(229251),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Shoulder
-				i(229252),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Legs
-				i(229253),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Head
-				i(229254),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Hand
-				i(229255),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Feet
-				i(229256),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Chest
-				i(229257),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Generic - Cloak
-				i(229258),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Wrist
-				i(229259),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Waist
-				i(229260),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Shoulder
-				i(229261),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Legs
-				i(229262),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Head
-				i(229263),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Hand
-				i(229264),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Feet
-				i(229265),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Chest
-				i(229266),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Generic - Cloak
-				i(229267),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Wrist
-				i(229268),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Waist
-				i(229269),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Shoulder
-				i(229270),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Legs
-				i(229271),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Head
-				i(229272),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Hand
-				i(229273),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Feet
-				i(229274),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Chest
-				i(229275),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Generic - Cloak
-				i(229276),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Wrist
-				i(229277),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Waist
-				i(229278),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Shoulder
-				i(229279),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Legs
-				i(229280),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Head
-				i(229281),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Hand
-				i(229282),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Feet
-				i(229283),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Chest
-				i(229284),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Generic - Cloak
-				i(229285),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Wrist
-				i(229286),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Waist
-				i(229287),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Shoulder
-				i(229288),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Legs
-				i(229289),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Head
-				i(229290),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Hand
-				i(229291),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Feet
-				i(229292),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Chest
-				i(229293),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Generic - Cloak
-				i(229294),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Wrist
-				i(229295),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Waist
-				i(229296),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Shoulder
-				i(229297),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Legs
-				i(229298),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Head
-				i(229299),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Hand
-				i(229300),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Feet
-				i(229301),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Chest
-				i(229302),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Generic - Cloak
-				i(229303),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Wrist
-				i(229304),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Waist
-				i(229305),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Shoulder
-				i(229306),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Legs
-				i(229307),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Head
-				i(229308),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Hand
-				i(229309),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Feet
-				i(229310),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Chest
-				i(229311),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Generic - Cloak
-				i(229312),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Wrist
-				i(229313),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Waist
-				i(229314),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Shoulder
-				i(229315),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Legs
-				i(229316),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Head
-				i(229317),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Hand
-				i(229318),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Feet
-				i(229319),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Chest
-				i(229320),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Generic - Cloak
-				i(229321),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Wrist
-				i(229322),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Waist
-				i(229323),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Shoulder
-				i(229324),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Legs
-				i(229325),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Head
-				i(229326),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Hand
-				i(229327),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Feet
-				i(229328),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Robe
-				i(229329),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Generic - Cloak
-				i(229330),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Wrist
-				i(229331),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Waist
-				i(229332),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Shoulder
-				i(229333),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Legs
-				i(229334),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Head
-				i(229335),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Hand
-				i(229336),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Feet
-				i(229337),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Chest
-				i(229338),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Generic - Cloak
-				i(229339),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Wrist
-				i(229340),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Waist
-				i(229341),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Shoulder
-				i(229342),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Legs
-				i(229343),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Head
-				i(229344),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Hand
-				i(229345),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Feet
-				i(229346),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Chest
+			n(PROFESSIONS, {
+				i(230906),	-- Spark of Fortunes
+				prof(COOKING, {
+					i(235800),	-- Recipe: Authentic Undermine Clam Chowder
+					i(235805),	-- Authentic Undermine Clam Chowder
+					i(235845),	-- Undermine Clam Meat
+					i(235846),	-- Undermine Clam
+					i(235853),	-- Hearty Authentic Undermine Clam Chowder
+				}),
+				prof(ENCHANTING, {
+					i(230931),	-- Formula: Enchanted Weathered Undermine Crest
+					i(230932),	-- Formula: Enchanted Runed Undermine Crest
+					i(230933),	-- Formula: Enchanted Gilded Undermine Crest
+					i(230935),	-- Enchanted Gilded Undermine Crest
+					i(230936),	-- Enchanted Runed Undermine Crest
+					i(230937),	-- Enchanted Weathered Undermine Crest
+					i(230985),	-- Nascent Runed Undermine Crest
+					i(230986),	-- Nascent Gilded Undermine Crest
+					i(230987),	-- Nascent Weathered Undermine Crest
+				}),
+				prof(ENGINEERING, {
+					i(234274),	-- Schematic: 22H Slicks
+					i(235037),	-- Crumpled Schematic: Wormhole Generator: Undermine
+					i(235038),	-- Crumpled Schematic
 
-				i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket
+					-- Engineering Googles
+					i(235222),	-- Apogee Inventor's Goggles
+					i(235223),	-- Psychogenic Prognosticator's Lenses
+					i(235224),	-- Mekgineer's Mindbending Headgear
+					i(235226),	-- Inventor's Ingenious Trifocals
+				}),
+				prof(FISHING, {
+					i(227673),	-- "Gold" Fish
+				}),
+				prof(INSCRIPTION, {
+					i(232532),	-- Contract: The Cartels of Undermine+
+					i(232533),	-- Contract: The Cartels of Undermine++
+					i(232534),	-- Contract: The Cartels of Undermine+++
+					i(232535),	-- Technique: Contract: The Cartels of Undermine
+					i(232936),	-- Vantus Rune: Undermine+
+					i(232935),	-- Vantus Rune: Undermine++
+					i(232937),	-- Vantus Rune: Undermine+++
+					i(233022),	-- Technique: Vantus Rune: Undermine
+				}),
+				prof(LEATHERWORKING, {
+					i(235335),	-- Charged Armor Kit
+					i(235336),	-- Charged Armor Kit
+					i(235337),	-- Charged Armor Kit
+					i(235338),	-- Pattern: Charged Armor Kit
+				}),
 			}),
-
-
-
 			n(PVP, {
+				i(236936),	-- Conqueror's Prized Varnish
+				i(236938),	-- Conqueror's Prized Lacquer
 				i(232886),	-- Ensemble: Algari Warmonger's Cloth Armor
 				i(232887),	-- Ensemble: Algari Warmonger's Leather Armor
 				i(232888),	-- Ensemble: Algari Warmonger's Mail Armor
@@ -814,1204 +1384,453 @@ root(ROOTS.Unsorted, {
 				i(230798),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
 				i(230799),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
 			}),
-
-			-- QI
-			i(229805),	-- Last Week's Undermine Inquirer
-			i(229824),	-- Banana Peel
-			i(229825),	-- Dented Can of Kaja-Cola
-			i(230203),	-- Taunting Note
-			i(230212),	-- Emergency Teleporter
-			i(230731),	-- Pitz's Masterwork Invention
-			i(230792),	-- X-Plo-Dar 64k
-			i(231021),	-- Imported Brews
-			i(231022),	-- Bits o' Scrap
-			i(231164),	-- Goblin Grapnel
-			i(231369),	-- Redberry
-			-- MISC
-			i(229809),	-- Weighted Metal Ball
-			i(229810),	-- Vintage Kaja'cola Can
-			i(229823),	-- Canister of Darkfuse Solution
-			i(230187),	-- Lucio Boombox
-			i(230807),	-- Drill Hands
-			i(230990),	-- Set Keystone Map: Operation: Floodgate
-
-			i(231099),	-- Back-Strapped Missile
-			i(231291),	-- Radar
-			-- Curios
-			i(230225),	-- Kaja'Cola Carrier
-			i(230226),	-- Three Dimensional Bioprinter
-			i(230227),	-- Goblomagnetic Bouncing Grenade
-			i(230228),	-- Pocket Factory
-			i(230229),	-- Impact Conversion Matrix
-			i(230230),	-- L00T RAID-R
-			i(230231),	-- Reverse Engineered Goblin Death Bomb
-			i(230232),	-- Comically Large Magnet
-			i(230233),	-- Biofuel Rocket Gear
-			i(230234),	-- Pinged Augment Chip
-			i(230950),	-- Overdrive Pylon
-			-- Crests
-			i(231264),	-- Glorious Cluster of Gilded Undermine Crests
-			i(231270),	-- Pack of Runed Undermine Crests
-
-
-			-- Cartel Cosmetics?
-			i(231526),	-- Bilgewater Undermine Tabard
-			i(231527),	-- Steamwheedle Undermine Tabard
-			i(231528),	-- Blackwater Undermine Tabard
-			i(231542),	-- Venture Co. Undermine Tabard
-			i(231550),	-- Darkfuse Lowdown Coat
-			i(231556),	-- Breakneck Cabbie's Coat
-			i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
-			i(231733),	-- Black Bruiser's Tabard
-			i(231734),	-- Blackwater Bruiser's Tabard
-			i(231735),	-- Steamwheedle Bruiser's Tabard
-			i(231736),	-- Bilgewater Bruiser's Tabard
-			i(231737),	-- Undermine Enforcer's Padding
-			i(231738),	-- Venture Co. Bruiser's Tabard
-			i(231739),	-- Black Bruiser's Helm
-			i(231740),	-- Steamwheedle Bruiser's Helm
-			i(231741),	-- Blackwater Bruiser's Helm
-			i(231742),	-- Bilgewater Bruiser's Helm
-			i(231743),	-- Undermine Enforcer's Helmet
-			i(231744),	-- Venture Co. Bruiser's Helm
-			i(231745),	-- Black Bruiser's Shoulderspikes
-			i(231746),	-- Blackwater Bruiser's Spaulders
-			i(231747),	-- Steamwheedle Bruiser's Spaulders
-			i(231748),	-- Bilgewater Bruiser's Spaulders
-			i(231749),	-- Undermine Enforcer's Spikes
-			i(231750),	-- Venture Co. Bruiser's Spaulders
-			--
-			-- Misc
-			i(231787),	-- Vigilante's Disposable Falling Shadow Grapple Gun
-			i(231899),	-- Trash
-			-- QI
-			i(231889),	-- New-To-You Mechanical Parts
-			i(231893),	-- Grease Residue
-			i(231894),	-- Useful Trash
-			i(231895),	-- Leftover Mocktail
-			i(231896),	-- Unused Jar
-			i(231897),	-- Rusted Coin
-			i(231898),	-- Industrial-Grade Makeup Remover
-
-			i(231900),	-- Sample Potion
-			i(232053),	-- Electro-Gland
-			i(232054),	-- Depleted Hotrod Battery
-			i(232464),	-- Crumpled Paystub
-			i(232619),	-- Gary the Goldfish
-
-			i(232651),	-- Faded Journal Page
-
-			-- Probably Delves
-			i(232068),	-- Adventurer's Warbound Chestpiece
-			i(232069),	-- Adventurer's Warbound Boots
-			i(232070),	-- Adventurer's Warbound Gloves
-			i(232071),	-- Adventurer's Warbound Headpiece
-			i(232072),	-- Adventurer's Warbound Legs
-			i(232073),	-- Adventurer's Warbound Shoulders
-			i(232074),	-- Adventurer's Warbound Waist
-			i(232075),	-- Adventurer's Warbound Wrists
-			i(232076),	-- Adventurer's Warbound Battlegear Drop
-			--
-
-			-- Quest Rewards?
-			i(232354),	-- Robe of the Liberator
-			i(232355),	-- Guardbreaker's Chestplate
-			i(232356),	-- Chainmail of the Undermine Revolutionary
-			i(232379),	-- Slime-Slicked Slippers
-			i(232381),	-- Mostly Cobbled Shoes
-			i(232383),	-- Soot-Encrusted Kickers
-			i(232384),	-- Aqirite-Toe Boots
-			i(232393),	-- Zirdo's Dirty Grips
-			i(232395),	-- Zirdo's Dirty Headgear
-			i(232397),	-- Zirdo's Dirty Mantle
-			i(232399),	-- Zirdo's Dirty Greaves
-			i(232400),	-- Guardbreaker's Boots
-			i(232401),	-- Shoulderguards of the Liberator
-			i(232402),	-- Guardbreaker's Wristwraps
-			i(232403),	-- Sabatons of the Liberator
-			i(232404),	-- Guardbreaker's Helm
-			i(232405),	-- Cinch of the Liberator
-			i(232406),	-- Headgear of the Undermine Revolutionary
-			i(232407),	-- Boots of the Undermine Revolutionary
-			i(232408),	-- Legguards of the Undermine Revolutionary
-			i(232410),	-- Craftsman's Repurposed Mitts
-			i(232411),	-- Goblin Boxer's Wraps
-			i(232412),	-- Undermine Smelter's Gloves
-			i(232413),	-- Retired Bouncer's Gauntlets
-			i(232440),	-- [PH] Boreal Crossbow
-			i(232448),	-- Grateful Goblin's Shield
-			i(232449),	-- Grateful Goblin's Dagger
-			i(232450),	-- Grateful Goblin's Sword
-			i(232451),	-- Grateful Goblin's Mallet
-			i(232452),	-- Grateful Goblin's Cudgel
-			i(232453),	-- Grateful Goblin's Wand
-			--
-
-			-- Cartel Rep?
-			i(232463),	-- Overflowing Undermine Trove
-			i(232465),	-- The Cartel's Trove
-			i(232485),	-- Mechano-Core Amplifier
-			i(232486),	-- Noggenfogger Ultimate Deluxe
-			i(232499),	-- Undermine Treatise on Alchemy
-			i(232500),	-- Undermine Treatise on Blacksmithing
-			i(232501),	-- Undermine Treatise on Enchanting
-			i(232502),	-- Undermine Treatise on Tailoring
-			i(232503),	-- Undermine Treatise on Herbalism
-			i(232504),	-- Undermine Treatise on Jewelcrafting
-			i(232505),	-- Undermine Treatise on Leatherworking
-			i(232506),	-- Undermine Treatise on Skinning
-			i(232507),	-- Undermine Treatise on Engineering
-			i(232508),	-- Undermine Treatise on Inscription
-			i(232509),	-- Undermine Treatise on Mining
-			i(232515),	-- Experimental Goblin Jetpack
-
-			-- DRIVE
-			i(232523),	-- G-99 Breakneck
-
-
-
-
-			-- Mythic + Mechagon?
-			i(232546),	-- K.U.-J.0.'s Flame Vents
-			i(232547),	-- Omega Strike Force
-
-
-
-			-- Raid Loot?
-			i(232725),	-- Pilot's Oiled Trousers
-			i(232726),	-- Well-Trodden Mechanic's Shoes
-			i(232727),	-- Cavern Stalker's Trophy Girdle
-			i(232728),	-- Darkfuse Dinner Jacket
-			i(232729),	-- Horn-Adorned Chausses
-			i(232730),	-- Cauldron Master Cleats
-			i(232731),	-- Steadfast Contender's Breastplate
-			i(232732),	-- Champion's Gilded Stompers
-			i(232733),	-- Gobfather's Gold Medal
-
-			-- Quest Rewards? Rares?
-			i(232734),	-- Enshrouded Cloak
-			i(232735),	-- Silent Veil
-			i(232736),	-- Pendant of Enduring Promise
-			i(232737),	-- Necklace of Eternal Love
-			i(232738),	-- Green Knight's Boots
-			i(232739),	-- Sash of Lost Inspiration
-			i(232740),	-- Desperate Goblin's Gloves
-			i(232742),	-- Elite Golfer's Armbands
-			i(232743),	-- Apprentice Knight's Shirt
-			i(232744),	-- Green Knight's Wristguards
-			i(232745),	-- Apprentice Knight's Belt
-			i(232746),	-- Spaulders of Lost Inspiration
-			i(232748),	-- Desperate Goblin's Boots
-			i(232749),	-- Elite Golfer's Headgear
-			i(232750),	-- Desperate Goblin's Spaulders
-			i(232751),	-- Elite Golfer's Belt
-			i(232753),	-- Green Knight's Helm
-			i(232754),	-- Apprentice Knight's Wristguards
-			i(232755),	-- Chainmail of Lost Inspiration
-			i(232757),	-- Green Knight's Chestplate
-			i(232758),	-- Gauntlets of Lost Inspiration
-			i(232759),	-- Apprentice Knight's Sabatons
-			i(232760),	-- Elite Golfer's Legguards
-			i(232761),	-- Desperate Goblin's Belt
-			i(232762),	-- Dust-Covered Cloak
-			i(232763),	-- Kaja-Infused Cloak
-			i(232764),	-- Pendant of Shrouded Secrets
-			i(232765),	-- Truthseeker's Necklace
-			i(232766),	-- Band of the Last Hope
-			i(232767),	-- Ring of the Last Gambit
-			i(232768),	-- Trigger-Sniffer's Hood
-			i(232769),	-- Stagecrasher's Gloves
-			i(232770),	-- Sewer Wanderer's Shoulderpads
-			i(232771),	-- Belt of the Certified Hunter
-			i(232772),	-- Slimediver's Trousers
-			i(232773),	-- Trigger-Sniffer's Spaulders
-			i(232774),	-- Stagecrasher's Wristband
-			i(232775),	-- Helm of the Certified Hunter
-			i(232776),	-- Sewer Wanderer's Gloves
-			i(232777),	-- Slimediver's Girdle
-			i(232778),	-- Stagecrasher's Shoulderguards
-			i(232779),	-- Boots of the Certified Hunter
-			i(232780),	-- Slimediver's Gloves
-			i(232781),	-- Sewer Wanderer's Bracers
-			i(232782),	-- Trigger-Sniffer's Greaves
-			i(232783),	-- Sewer Wanderer's Belt
-			i(232784),	-- Stagecrasher's Legguards
-			i(232785),	-- Slimediver's Vest
-			i(232786),	-- Trigger-Sniffer's Handwraps
-			i(232787),	-- Wristwraps of the Certified Hunter
-			------
-
-
-
-
-			filter(BATTLE_PETS, {
-				i(232806),	-- Tiny Torq
-				i(232807),	-- Iron Chick
-				i(232838),	-- Viridian Mechasaur
-				i(232839),	-- Wavebreaker Mechasaur
-				i(232840),	-- Mechagopher
-				i(232841),	-- Professor Punch
-				i(232842),	-- Crimson Mechasaur
-				i(232843),	-- Gorillion
-				i(232844),	-- Fuz-Size Flarendo
-				i(232845),	-- Bilgewater Junkhauler
-				i(232846),	-- Steamwheedle Flunkie
-				i(232847),	-- Personal-Use Sapper
-				i(232848),	-- Mr. DELVER
-				i(232849),	-- Venture Companyman
-				i(232850),	-- Blackwater Kegmover
-				i(232851),	-- Rocketfist
-				i(232852),	-- Mutt
-				i(232853),	-- Eepy
-				i(232854),	-- Grinner
-				i(232855),	-- Foreman
-				i(232856),	-- Scruff
-				i(232857),	-- Goggles
-				i(232858),	-- Cruncher
-				i(232859),	-- Lab Rat
-				i(232895),	-- Spotty
+			filter(QUEST_ITEMS, {
+				i(216915),	-- Excavator
+				i(224797),	-- Zirdo's Ledger
+				i(225931),	-- Contract Fee
+				i(225971),	-- Feathered Pelt
+				i(226192),	-- Electric Eel Meat
+				i(226203),	-- Sliced Lime
+				i(226215),	-- Kaja'mite Powder
+				i(226216),	-- Kaja'Cola Can
+				i(226217),	-- Lime
+				i(226219),	-- Kaja'mite Fragment
+				i(226223),	-- Stinging Residue
+				i(226358),	-- Spare Venture Co. Uniform
+				i(226372),	-- Noggenfogger Deluxe with Lime
+				i(226380),	-- Employee Schedule
+				i(226391),	-- Sputtering Taserblade
+				i(226393),	-- Jetpack-in-a-Box
+				i(226522),	-- Demolition Controller Fragment
+				i(226525),	-- Demolition Control Code
+				i(226823),	-- Bilgewater Auto-Grappler
+				i(226824),	-- Handful of B.I.R.D. Parts
+				i(226854),	-- Crumpled Paystub
+				i(227386),	-- R.P.E.L
+				i(227540),	-- Skimmed Profits
+				i(227674),	-- Gobdre's Prized Pan
+				i(227702),	-- Crumpled Report (TRAINING, DNT)
+				i(227708),	-- Raw Kaja'mite Chunk
+				i(228196),	-- Anti-Darkfuse Pamphlets
+				i(228215),	-- Jazz's Report
+				i(228549),	-- Massive Kaja'mite Chunk
+				i(228614),	-- Comprehend Rat Language Potion
+				i(228771),	-- Holey Grail
+				i(228792),	-- Reactive Plating
+				i(228794),	-- Purloined Loot
+				i(228822),	-- Burgled Art
+				i(228948),	-- Jazz's Shrink Ray
+				i(228975),	-- Blackwater Cannonball
+				i(228988),	-- Rock Reviver
+				i(229392),	-- Crumpled Delivery Note
+				i(229401),	-- Artisan's Consortium Pamphlet
+				i(229407),	-- Citrus Acid
+				i(229419),	-- Barrelbottom Deed
+				i(229805),	-- Last Week's Undermine Inquirer
+				i(229824),	-- Banana Peel
+				i(229825),	-- Dented Can of Kaja-Cola
+				i(230203),	-- Taunting Note
+				i(230212),	-- Emergency Teleporter
+				i(230731),	-- Pitz's Masterwork Invention
+				i(230792),	-- X-Plo-Dar 64k
+				i(231021),	-- Imported Brews
+				i(231022),	-- Bits o' Scrap
+				i(231164),	-- Goblin Grapnel
+				i(231369),	-- Redberry
+				i(231889),	-- New-To-You Mechanical Parts
+				i(231893),	-- Grease Residue
+				i(231894),	-- Useful Trash
+				i(231895),	-- Leftover Mocktail
+				i(231896),	-- Unused Jar
+				i(231897),	-- Rusted Coin
+				i(231898),	-- Industrial-Grade Makeup Remover
+				i(231900),	-- Sample Potion
+				i(232053),	-- Electro-Gland
+				i(232054),	-- Depleted Hotrod Battery
+				i(232464),	-- Crumpled Paystub
+				i(232619),	-- Gary the Goldfish
+				i(232651),	-- Faded Journal Page
+				i(232863),	-- Darkfuse Research Notes
+				i(232897),	-- Blood-B-Gone
+				i(232902),	-- Spy-copter Footage Roll
+				i(232907),	-- Unseemly Growth
+				i(232944),	-- Ethereal Warning Letter
+				i(233066),	-- Radioactive Rat's Head
+				i(233113),	-- Crocodillian's Head
+				i(233114),	-- The Captain's Head
+				i(233512),	-- Kaja'fused Coupling
+				i(233513),	-- Coolant Core
+				i(234188),	-- Slot Chits
+				i(234426),	-- Kaja'Cola-Braised Meat
+				i(234489),	-- Dented Bloodhose
+				i(235346),	-- Shiny Treasure
+				i(236773),	-- Swallowed Kaja'mite
 			}),
-
-			-- Misc
-			i(232874),	-- Undermine Stockpile
-			i(232927),	-- [DNT] Small Surge Chest
-			i(232928),	-- [DNT] Medium Surge Chest
-			i(232929),	-- [DNT] Large Surge Chest
-			i(232930),	-- Zaps Leadfoot
-			i(233006),	-- Container of Highly Profitable Sludge
-			i(233007),	-- Crate of Somewhat Profitable Sludge
-			i(233008),	-- Box of Lightly Profitable Sludge
-			i(233021),	-- Grappling-Grabber 9000
-			i(233025),	-- Giant Pile of Gold
-			i(233026),	-- Johnny's Share of the Spoils
-			i(233030),	-- Charged Cables
-			i(233031),	-- Intact Interlock
-			i(233054),	-- Wonder Ball
-			i(233055),	-- Corpse Cleaner
-			i(233061),	-- Rock-in-a-Bottle
-			i(233062),	-- Pocket Pizza
-			i(233118),	-- Incontinental Takeout
-			i(233205),	-- Go-Go Juice
-			i(233210),	-- Pungent Putrigill
-			i(233246),	-- Gunk-Covered Thingy
-			i(233444),	-- Kaja'Cola X-Treme
-			i(233445),	-- Kaja'Cola X-Treme Mega-Can
-			i(233446),	-- Multi-Pack of Kaja'Cola
-			-- QI
-			i(232863),	-- Darkfuse Research Notes
-			i(232897),	-- Blood-B-Gone
-			i(232902),	-- Spy-copter Footage Roll
-			i(232907),	-- Unseemly Growth
-			i(232944),	-- Ethereal Warning Letter
-			i(233066),	-- Radioactive Rat's Head
-
-			i(233113),	-- Crocodillian's Head
-			i(233114),	-- The Captain's Head
-			i(233512),	-- Kaja'fused Coupling
-			i(233513),	-- Coolant Core
-			-- Trinket
-			i(232883),	-- Turbo-Drain 5000
-
-
-			-- Curio
-			i(232891),	-- Amorphous Relic
-
-			-- Delves
-			i(232898),	-- Delver's Bounty
-			i(233071),	-- Delver's Bounty
-			i(233276),	-- Delver's Starter Kit
-			i(233281),	-- Delver's Cosmetic Surprise Bag
-			-- wep
-			i(232932),	-- Brann Bronzebeard's Mace
-			i(232987),	-- Brann Bronzebeard's Shield
-			i(233063),	-- Brann's Boomstick
-			-- DRIVE
-			i(232978),	-- Louie Firehands
-			i(232979),	-- Jaks Jabberjaw
-			i(232980),	-- Axel Sneakfoot
-			i(232981),	-- GNZ Airmaster 9000
-			i(232982),	-- G77C Ultra
-			i(232983),	-- Steamboil
-			i(232984),	-- Handcrank
-			i(232985),	-- 22H Slicks
-			i(232986),	-- GE86 Advance
-			--
-
-
-
-
-
-			-- Cosmetic
-			i(233032),	-- Shining Guise of the Heavens
-			i(233033),	-- Shining Pauldrons of the Sunlit Heavens
-			i(233034),	-- Shining Pauldrons of the Twilight Heavens
-			i(233035),	-- Shining Chestguard of the Heavens
-			i(233036),	-- Shining Greaves of the Heavens
-			i(233037),	-- Shining Belt of the Heavens
-			i(233038),	-- Shining Gloves of the Heavens
-			i(233039),	-- Shining Treads of the Heavens
-			i(233040),	-- Shining Cloak of the Heavens
-			i(233041),	-- Radiant Guise of the Heavens
-			i(233042),	-- Radiant Pauldrons of the Sunlit Heavens
-			i(233043),	-- Radiant Pauldrons of the Twilight Heavens
-			i(233044),	-- Radiant Chestguard of the Heavens
-			i(233045),	-- Radiant Greaves of the Heavens
-			i(233046),	-- Radiant Belt of the Heavens
-			i(233047),	-- Radiant Gloves of the Heavens
-			i(233048),	-- Radiant Treads of the Heavens
-			i(233049),	-- Radiant Cloak of the Heavens
-			i(233050),	-- Ensemble: Shining Vestments of the Heavens
-			i(233052),	-- Ensemble: Radiant Vestments of the Heavens
-			---
-
-
-
-
-
-
-			-- Gobbo Flyer
-			i(233196),	-- Delver's Gob-Trotter Schematic: Gold
-
-			-- toy
-			i(233202),	-- G.O.L.E.M Jr.
-
-
-			-- wtf is this :( Zonedrop/Zone rewards
-			i(233260),	-- Laundered Vestment
-			i(233261),	-- Laundered Sandals
-			i(233262),	-- Laundered Handwraps
-			i(233263),	-- Laundered Cowl
-			i(233264),	-- Laundered Leggings
-			i(233265),	-- Laundered Shoulderpads
-			i(233266),	-- Laundered Cord
-			i(233267),	-- Laundered Cuffs
-			i(233335),	-- Upcycled Jerkin
-			i(233336),	-- Upcycled Waders
-			i(233337),	-- Upcycled Gloves
-			i(233338),	-- Upcycled Helm
-			i(233339),	-- Upcycled Breeches
-			i(233340),	-- Upcycled Epaulets
-			i(233341),	-- Upcycled Sash
-			i(233342),	-- Upcycled Bindings
-			i(233343),	-- Power-Washed Chainmail
-			i(233344),	-- Power-Washed Striders
-			i(233345),	-- Power-Washed Grips
-			i(233346),	-- Power-Washed Coif
-			i(233347),	-- Power-Washed Greaves
-			i(233348),	-- Power-Washed Shoulderguards
-			i(233349),	-- Power-Washed Belt
-			i(233350),	-- Power-Washed Bracers
-			i(233448),	-- Mechforged Armplates
-			i(233449),	-- Mechforged Girdle
-			i(233450),	-- Mechforged Mantle
-			i(233451),	-- Mechforged Legguards
-			i(233452),	-- Mechforged Helm
-			i(233453),	-- Mechforged Gauntlets
-			i(233454),	-- Mechforged Sabatons
-			i(233455),	-- Mechforged Chestplate
-			i(233456),	-- Scrapcoil Bracers
-			i(233457),	-- Scrapcoil Belt
-			i(233458),	-- Scrapcoil Shoulderguards
-			i(233459),	-- Scrapcoil Greaves
-			i(233460),	-- Scrapcoil Coif
-			i(233461),	-- Scrapcoil Grips
-			i(233462),	-- Scrapcoil Striders
-			i(233463),	-- Scrapcoil Chainmail
-			i(233464),	-- Rebel Spike Bindings
-			i(233465),	-- Rebel Spike Sash
-			i(233466),	-- Rebel Spike Epaulets
-			i(233467),	-- Rebel Spike Breeches
-			i(233468),	-- Rebel Spike Headgear
-			i(233469),	-- Rebel Spike Grips
-			i(233470),	-- Rebel Spike Waders
-			i(233471),	-- Rebel Spike Vest
-			i(233472),	-- Shimmerthread Wristwraps
-			i(233473),	-- Shimmerthread Cord
-			i(233474),	-- Shimmerthread Shoulderpads
-			i(233475),	-- Shimmerthread Leggings
-			i(233476),	-- Shimmerthread Cowl
-			i(233477),	-- Shimmerthread Handwraps
-			i(233478),	-- Shimmerthread Sandals
-			i(233479),	-- Shimmerthread Robes
-			i(233480),	-- Lucky-Streak Pendant
-			i(233481),	-- Might-Be-Invisible Cloak
-			i(233482),	-- Might-Be-Invisible Shawl
-			i(233483),	-- Lucky-Streak Ring
-			i(233484),	-- Lucky-Streak Signet
-			i(233485),	-- Lucky-Streak Band
-			i(233527),	-- Gold-Plated Glaive
-			i(233528),	-- Gold-Plated Shield
-			i(233529),	-- Gold-Plated Cinderbrew Bottle
-			i(233530),	-- Gold-Plated Spellstaff
-			i(233531),	-- Gold-Plated Staff
-			i(233532),	-- Gold-Plated Polearm
-			i(233533),	-- Gold-Plated Spear
-			i(233534),	-- Gold-Plated Broadsword
-			i(233535),	-- Gold-Plated Greatsword
-			i(233536),	-- Gold-Plated Rifle
-			i(233537),	-- Gold-Plated Sword
-			i(233538),	-- Gold-Plated Blade
-			i(233539),	-- Gold-Plated Hammer
-			i(233540),	-- Gold-Plated Cudgel
-			i(233541),	-- Gold-Plated Knife
-			i(233542),	-- Gold-Plated Shank
-			i(233544),	-- Descaled Breastplate
-			i(233545),	-- Descaled Sabatons
-			i(233546),	-- Descaled Gauntlets
-			i(233547),	-- Descaled Helm
-			i(233548),	-- Descaled Legguards
-			i(233549),	-- Descaled Mantle
-			i(233550),	-- Descaled Girdle
-			i(233551),	-- Descaled Armplates
-			--
-
-			-- misc
-			i(233557),	-- Sifted Pile of Scrap
-			i(233558),	-- S.C.R.A.P. Scrubber Deluxe
-			i(234197),	-- Gilded Screwdriver
-			i(234203),	-- Clay-Speckled Metal Slug
-			i(234204),	-- Depleted Battery
-			i(234205),	-- Bent Lever
-			i(234212),	-- "Beaten by the House"
-			-- curio
-			i(234013),	-- Pacifist Rig
-			i(234014),	-- Automatic Footbomb Dispenser
-			i(234015),	-- Mechasaur EZ-Build Kit
-			i(234329),	-- Ancient Curio
-			i(234330),	-- Ancient Curio
-			-- delve loot?
-			i(234125),	-- Public Defender's Coat
-			i(234185),	-- Dr. Scrapheal
-			i(234217),	-- Funhouse Lens
-			i(234218),	-- Goo-blin Grenade
-
-			i(234281),	-- Undermine Cartel Work
-			i(234326),	-- Core Recycling Unit
-			-- qi
-			i(234188),	-- Slot Chits
-
-
-			-- Old Delve Loot as cosmetic?
-			i(234331),	-- Unkindled Waxweave Mitts
-			i(234332),	-- Unkindled Waxweave Mozzetta
-			i(234333),	-- Myconic Wrap
-			i(234334),	-- Serape of the Stygian Sea
-			i(234335),	-- Amice of Hidden Stars
-			i(234336),	-- Unkindled Waxweave Garb
-			i(234337),	-- Unkindled Waxweave Slippers
-			i(234338),	-- Unkindled Waxweave Veil
-			i(234339),	-- Unkindled Waxweave Buskins
-			i(234340),	-- Unkindled Waxweave Shoulderpads
-			i(234341),	-- Unkindled Waxweave Belt
-			i(234342),	-- Unkindled Waxweave Clasps
-			i(234343),	-- Myconic Frock
-			i(234344),	-- Myconic Waders
-			i(234345),	-- Myconic Clutches
-			i(234346),	-- Myconic Hood
-			i(234347),	-- Myconic Chausses
-			i(234348),	-- Myconic Shoulderstrap
-			i(234349),	-- Myconic Strap
-			i(234350),	-- Myconic Wristbands
-			i(234351),	-- Hauberk of the Stygian Sea
-			i(234352),	-- Treads of the Stygian Sea
-			i(234353),	-- Grasps of the Stygian Sea
-			i(234354),	-- Bascinet of the Stygian Sea
-			i(234355),	-- Poleyns of the Stygian Sea
-			i(234356),	-- Spaulders of the Stygian Sea
-			i(234357),	-- Sash of the Stygian Sea
-			i(234358),	-- Wrist Bindings of the Stygian Sea
-			i(234359),	-- Raiment of Hidden Stars
-			i(234360),	-- Sollerets of Hidden Stars
-			i(234361),	-- Fists of Hidden Stars
-			i(234362),	-- Visage of Hidden Stars
-			i(234363),	-- Legplates of Hidden Stars
-			i(234364),	-- Pauldrons of Hidden Stars
-			i(234365),	-- Charmbelt of Hidden Stars
-			i(234366),	-- Handguards of Hidden Stars
-			i(234367),	-- Sanctifier's Startierce
-			i(234368),	-- Worshipper's Poniard
-			i(234369),	-- Pyretic Star
-			i(234370),	-- Flame-Bearing Crozier
-			i(234371),	-- Hand of Piety
-			i(234372),	-- Shooting Starquebus
-			i(234373),	-- Imperial Flarebolt
-			i(234374),	-- Arathi Holy Standard
-			i(234375),	-- Lamplighter's Mercy
-			i(234376),	-- Vessel of Sacred Flame
-			i(234377),	-- Unscathed Rampart
-			i(234378),	-- Radiant Steelglaives
-			i(234388),	-- Arsenal: Hallowfall Weaponry
-			--
-
-			-- DRIVE
-			i(234380),	-- Steamboil Fuel Tank
-			i(234381),	-- Handcrank Fuel Tank
-			i(234386),	-- Handcrank Fuel Injector
-			i(234387),	-- Steamboil Fuel Injector
-			i(234415),	-- Handcrank Casing
-			i(234416),	-- Steamboil Casing
-			i(234417),	-- Handcrank Gears
-			i(234418),	-- Steamboil Gears
-			i(234419),	-- Steamboil Mounting System
-			i(234420),	-- Handcrank Mounting System
-
-			-- Interesting hmmm
-			i(234389),	-- Gallagio Loyalty Rewards Card: Silver
-			i(234390),	-- Gallagio Loyalty Rewards Card: Gold
-			i(234391),	-- Gallagio Loyalty Rewards Card: Platinum
-			i(234392),	-- Gallagio Loyalty Rewards Card: Black
-			i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
-			i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
-
-			-- Misc
-			i(234421),	-- Web Bomb
-			i(234451),	-- Stolen Goods
-			i(234454),	-- Remote Teleporter
-			i(234970),	-- Partially-Drained Battery
-			i(234971),	-- Chunk of Charged Glass
-			-- QI
-			i(234426),	-- Kaja'Cola-Braised Meat
-			i(234489),	-- Dented Bloodhose
-			i(235346),	-- Shiny Treasure
-			-- Special
-			i(234427),	-- Gorillion Fork
-			i(234430),	-- Gorillion Grease
-			i(234431),	-- Gorillion Batteries
-			i(234432),	-- Gorillion Engine
-			i(234433),	-- Gorillion Chasis
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			-- Weird Armor
-			i(234511),	-- Corrupted Cuirass
-			i(234525),	-- Corrupted Crown
-
-			-- Trading Post?
-			i(234572),	-- Topsy Turvy Fool's Blade
-			i(234573),	-- Topsy Turvy Clown's Blade
-			i(234575),	-- Topsy Turvy Jester's Blade
-			i(234577),	-- Topsy Turvy Joker's Blade
-			i(234601),	-- Wings of the Icy Rose Monarch
-			i(234602),	-- Wings of the Blood Monarch
-			i(234603),	-- Wings of the Pearlescent Monarch
-			i(234609),	-- Double-Bladed Forest Garden Trowel
-			i(234611),	-- Double-Bladed Butterfly Garden Trowel
-			i(234612),	-- Double-Bladed Blooming Garden Trowel
-			i(234613),	-- Double-Bladed Rooted Garden Trowel
-			i(234724),	-- Topsy Turvy Clown's Cleaver
-			i(234725),	-- Topsy Turvy Jester's Cleaver
-			i(234726),	-- Topsy Turvy Joker's Cleaver
-			i(234727),	-- Topsy Turvy Fool's Cleaver
-			i(235019),	-- Vigilante's Midnight Mask
-			i(235020),	-- Vigilante's Azure Mask
-			i(235021),	-- Vigilante's Sepia Mask
-			i(235022),	-- Vigilante's Grassy Mask
-			i(235023),	-- Vigilante's Cloudy Mask
-			i(235024),	-- Vigilante's Deep Mask
-			i(235025),	-- Vigilante's Camo Mask
-			i(235026),	-- Vigilante's Brick Mask
-			i(235027),	-- Vigilante's Lively Mask
-			i(235028),	-- Vigilante's Faded Mask
-			i(235029),	-- Vigilante's Carrot Mask
-			i(235030),	-- Vigilante's Rosy Mask
-			i(235031),	-- Vigilante's Plum Mask
-			i(235032),	-- Vigilante's Crimson Mask
-			i(235033),	-- Vigilante's Violet Mask
-			i(235034),	-- Vigilante's Aquatic Mask
-			i(235035),	-- Vigilante's Snowy Mask
-			i(235036),	-- Vigilante's Sunny Mask
-			i(235150),	-- Spring Butterfly Helm
-			i(235152),	-- Pearlescent Monarch Helm
-			i(235153),	-- Midnight Butterfly Helm
-			i(235154),	-- Blood Monarch Helm
-			i(235155),	-- Midnight Butterfly Pauldrons
-			i(235210),	-- Blood Monarch Pauldrons
-			i(235211),	-- Pearlescent Monarch Pauldrons
-			i(235212),	-- Spring Butterfly Pauldrons
-			i(235213),	-- Pearlescent Monarch Belt
-			i(235214),	-- Spring Butterfly Belt
-			i(235215),	-- Midnight Butterfly Belt
-			i(235216),	-- Blood Monarch Belt
-			i(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
-			i(235227),	-- Ensemble: Ornaments of the Spring Butterfly
-			i(235228),	-- Ensemble: Ornaments of the Blood Monarch
-			i(235229),	-- Ensemble: Ornaments of the Midnight Butterfly
-			--
-
-			-- Misc
-			i(234616),	-- Supreme Mangoro Madness
-			i(234617),	-- Dulux Bluesberry Blast
-			i(234618),	-- Omega Oyster Outbreak
-			i(234619),	-- Ultimate Orange O-pocalypse
-			i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
-			i(234741),	-- Miscellaneous Mechanica
-			-- Trinket
-			i(234717),	-- Blastmaster3000
-			i(234821),	-- Papa's Prized Putter
-
-			-- Chesto
-			i(234729),	-- Cache of Undermine Treasures
-			i(234731),	-- Cache of Undermine Treasures
-			i(234743),	-- Steamwheedle's Trove (Revered)
-			i(234744),	-- Blackwater's Trove (Honored)
-			i(234745),	-- Bilgewater's Trove (Honored)
-			i(234746),	-- Venture Co.'s Trove (Honored)
-			i(235151),	-- Distinguished Actor's Chest
-			i(235258),	-- Bilgewater's Trove (Revered)
-			i(235259),	-- Bilgewater's Trove (Exalted)
-			i(235260),	-- Blackwater's Trove (Revered)
-			i(235261),	-- Blackwater's Trove (Exalted)
-			i(235262),	-- Steamwheedle's Trove (Honored)
-			i(235263),	-- Steamwheedle's Trove (Exalted)
-			i(235264),	-- Venture Co.'s Trove (Revered)
-			i(235265),	-- Venture Co.'s Trove (Exalted)
-			-- Toy
-			i(234950),	-- Atomic Regoblinator
-			i(234951),	-- Uncracked Cold Ones
-			i(235018),	-- Cracked Cold One [From toy?]
-
-
-
-			-- TELEPORT ENGINEERING
-			i(235037),	-- Crumpled Schematic: Wormhole Generator: Undermine
-			i(235038),	-- Crumpled Schematic
-
-			-- misc
-			i(235042),	-- Imminently Exploding Fireworks
-			i(235221),	-- Particularly Bright Lightbulb
-			i(235230),	-- Impotent Potable
-			i(235238),	-- Exploded Plunger
-			i(235255),	-- Durable Dice
-			i(235257),	-- Plundered Artifact
-			-- chett
-			i(235053),	-- Completed C.H.E.T.T. List
-
-			-- quest reward
-			i(235146),	-- Maniac Biker's Wristguards
-			i(235147),	-- Maniac Biker's Shoulderguards
-			i(235148),	-- Maniac Biker's Legguards
-			i(235149),	-- Maniac Biker's Boots
-
-
-			-- toy
-			i(235219),	-- Fireworks Hat
-			i(235220),	-- Fireworks Hat
-			i(235266),	-- Fireworked Hat
-
-			-- Engineering Googles
-			i(235222),	-- Apogee Inventor's Goggles
-			i(235223),	-- Psychogenic Prognosticator's Lenses
-			i(235224),	-- Mekgineer's Mindbending Headgear
-			i(235226),	-- Inventor's Ingenious Trifocals
-
-
-
-			-- misc
-			i(235268),	-- Misprinted Card
-			i(235273),	-- Distracting Floatmingo
-			i(235280),	-- Extra Crispy Laundry
-			-- tp
-			i(235269),	-- Spring Butterfly Mace
-			i(235270),	-- Pearlescent Monarch's Mace
-			i(235271),	-- Midnight Butterfly Mace
-			i(235272),	-- Blood Monarch's Mace
-			i(235279),	-- Scorched Shorts
-			i(235289),	-- Spring Butterfly Sword
-			i(235290),	-- Pearlescent Monarch's Sword
-			i(235291),	-- Blood Monarch's Sword
-			i(235292),	-- Midnight Butterfly Sword
-			i(235293),	-- Spring Butterfly Wand
-			i(235294),	-- Pearlescent Monarch's Wand
-			i(235295),	-- Blood Monarch's Wand
-			i(235296),	-- Midnight Butterfly Wand
-
-
-			-- trinket
-			i(235283),	-- Bashful Book
-
-			-- Rares?
-			i(235300),	-- Cloak of Mecha Shards
-			i(235301),	-- Drape of the Dazzling Feather
-			i(235302),	-- Shockwave Pendant
-			i(235303),	-- Seafused Brimstone Band
-			i(235304),	-- Gutter Rat Mask
-			i(235305),	-- Golfer's Truestrike Gloves
-			i(235306),	-- Ooze-fused Mantle
-			i(235307),	-- Smoketrail Belt
-			i(235308),	-- Filthtread Boots
-			i(235309),	-- Gloomshroud Robe
-			i(235310),	-- Flashy Patchwork Trousers
-			i(235311),	-- Rocket-Powered Shoulderguards
-			i(235312),	-- Snooty's Aviator Bindings
-			i(235313),	-- Shockproof Helm
-			i(235314),	-- Knightrider's Steelfists
-			i(235315),	-- Rocketstep Boots
-			i(235316),	-- Whirly-Giggle Windwhir Wrap
-			i(235317),	-- Chestplate of the Ultimatum
-			i(235318),	-- Ironfang Plate Legguards
-			i(235319),	-- Tidebomb Chestpiece
-			i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
-			i(235321),	-- Feather-Spike Girdle
-			i(235322),	-- Junkyard Clawguards
-			i(235323),	-- Blastshell Bracers
-			i(235324),	-- Scavenger's Lost Bind
-			i(235325),	-- Rusthide Gloves
-			i(235326),	-- Ratspit's Heirloom Wristwraps
-			i(235327),	-- Mend-and-Match Shoulderpads
-			i(235328),	-- Boots of the Silver Tongue
-			i(235329),	-- Cowl of Acidic Mire
-			i(235347),	-- 100% Sharp Glimmerblade
-			i(235348),	-- Back Alley Shank
-			i(235349),	-- Shadowfume Club
-			i(235350),	-- Void-forged Cudgel
-			i(235351),	-- Hypersteel CX4 Greatsword
-			i(235352),	-- Netherflare Wand
-			i(235353),	-- Debtsmasher Axe
-			i(235354),	-- Scrapblaster Lance
-			i(235355),	-- Gossi-blin's Baton
-			i(235356),	-- Sapper's Spark Reactor
-			i(235357),	-- Bulletscar Barricade
-			i(235359),	-- Ratfang Toxin
-			i(235363),	-- Suspicious Energy Drink
-			i(235373),	-- Abyssal Volt
-			--- LW
-			i(235335),	-- Charged Armor Kit
-			i(235336),	-- Charged Armor Kit
-			i(235337),	-- Charged Armor Kit
-			i(235338),	-- Pattern: Charged Armor Kit
-			-- TP
-
-			i(235340),	-- Topsy Turvy Fool's Mask
-			i(235341),	-- Topsy Turvy Clown's Mask
-			i(235342),	-- Topsy Turvy Jester's Mask
-			i(235343),	-- Topsy Turvy Joker's Mask
-			i(235399),	-- Spring Butterfly Polearm
-			i(235400),	-- Midnight Butterfly Polearm
-			i(235401),	-- Blood Monarch's Polearm
-			i(235402),	-- Pearlescent Monarch's Polearm
-			-- DRIVE
-			i(235388),	-- Paint: Redlining Red
-			i(235389),	-- Paint: Goblin Green
-			i(235390),	-- Paint: Body Roll Blue
-			i(235391),	-- Paint: Yellow Cake Yellow
-
-			-- Mythic+ SHenangngignians
-			i(235415),	-- Skyscorcher Pauldrons
-			i(235416),	-- Crashguard Spaulders
-			i(235417),	-- Venture Co. Plenipotentiary Vest
-			i(235418),	-- Exquisitely Aerodynamic Shoulderpads
-			i(235419),	-- High Altitude Turban
-			i(235420),	-- Petticoat of the Self-Stylized Azerite Baron
-			i(235460),	-- Shrapnel-Dampening Chestguard
-
-			-- Zone Rewards? Delves?
-			i(235421),	-- Noxious Injector Sheen
-			i(235422),	-- Venture Co Seal
-			i(235423),	-- Expensive Gemstone Ring
-			i(235424),	-- Rich Uncle's Endowment
-			i(235425),	-- Dumpsterdelver's Loop
-			i(235426),	-- Nitroclad Wrap
-			i(235427),	-- Blastborne Shroud
-			i(235428),	-- Gobtastic Bling
-			i(235429),	-- Moneymaker's Collar
-			i(235430),	-- Junkreaver's Overcloak
-			i(235431),	-- Noxious Injector Harness
-			i(235432),	-- Noxious Injector Footpads
-			i(235433),	-- Noxious Injector Hands
-			i(235434),	-- Noxious Injector Brainbulb
-			i(235435),	-- Noxious Injector Trousers
-			i(235436),	-- Noxious Injector Mantle
-			i(235437),	-- Noxious Injector Tube
-			i(235438),	-- Noxious Injector Manacles
-			i(235439),	-- Nitroclad Bodice
-			i(235440),	-- Nitroclad Striders
-			i(235441),	-- Nitroclad Grips
-			i(235442),	-- Nitroclad Hood
-			i(235443),	-- Nitroclad Breeches
-			i(235444),	-- Nitroclad Motorpads
-			i(235445),	-- Nitroclad Strap
-			i(235446),	-- Nitroclad Armguards
-			i(235447),	-- Blastborne Hauberk
-			i(235448),	-- Blastborne Greaves
-			i(235449),	-- Blastborne Grips
-			i(235450),	-- Blastborne Targeting Visor
-			i(235451),	-- Blastborne Legguards
-			i(235452),	-- Blastborne Missile Pads
-			i(235453),	-- Blastborne Links
-			i(235454),	-- Blastborne Vambraces
-			i(235455),	-- Junkreaver's Breastplate
-			i(235456),	-- Junkreaver's Crushers
-			i(235457),	-- Junkreaver's Gauntlets
-			i(235458),	-- Junkreaver's Scrapgaze
-			i(235459),	-- Junkreaver's Legplates
-
-			i(235461),	-- Junkreaver's Shoulderplates
-			i(235462),	-- Junkreaver's Girdle
-			i(235463),	-- Junkreaver's Coils
-			i(235467),	-- Ominous Oil Residue
-			i(235484),	-- Razor-sharp Desk Fan
-			i(235485),	-- Oil Gouger
-			i(235486),	-- Springloaded Kneecap Breaker
-			i(235487),	-- Interest Compounder
-			i(235488),	-- Rocket Taped to a Screwdriver
-			i(235489),	-- Bullet Biter
-			i(235490),	-- Clawbacker Halberd
-			i(235491),	-- Immolation Warning
-			i(235492),	-- Oscillating Scrapcleaver
-			i(235493),	-- Ignited Flare Jar
-			i(235494),	-- Biker Gang's Spare Tire
-			i(235495),	-- Missile Guided Throat Slitter
-			--
-
-			-- Delves
-			i(235502),	-- Chunk of Companion Experience
-			i(235503),	-- Chunk of Companion Experience
-			i(235504),	-- Chunk of Companion Experience
-			i(235559),	-- Hidden Trove
-			-- Armor/Cosmetic Delves or Quest?
-			i(235507),	-- Might-Be-Invisible Drape
-			i(235508),	-- Might-Be-Invisible Cape
-			i(235516),	-- The Severance Package
-
-			-- Misc
-			i(235558),	-- Box of Darkfuse Miscellany
-
-			-- TP
-			i(235563),	-- Forest Dweller's Garden Tunic
-			i(235564),	-- Forest Dweller's Butterfly Tunic
-			i(235565),	-- Forest Dweller's Blooming Tunic
-			i(235566),	-- Forest Dweller's Rooted Tunic
-			i(235567),	-- Forest Dweller's Garden Boots
-			i(235568),	-- Forest Dweller's Butterfly Boots
-			i(235569),	-- Forest Dweller's Blooming Boots
-			i(235570),	-- Forest Dweller's Rooted Boots
-			i(235571),	-- Forest Dweller's Garden Glove
-			i(235572),	-- Forest Dweller's Butterfly Glove
-			i(235573),	-- Forest Dweller's Blooming Glove
-			i(235574),	-- Forest Dweller's Rooted Glove
-			i(235575),	-- Forest Dweller's Garden Cap
-			i(235576),	-- Forest Dweller's Butterfly Cap
-			i(235577),	-- Forest Dweller's Blooming Cap
-			i(235578),	-- Forest Dweller's Rooted Cap
-			i(235579),	-- Forest Dweller's Garden Pants
-			i(235580),	-- Forest Dweller's Butterfly Pants
-			i(235581),	-- Forest Dweller's Blooming Pants
-			i(235582),	-- Forest Dweller's Rooted Pants
-			i(235584),	-- Forest Dweller's Garden Mantle
-			i(235585),	-- Forest Dweller's Butterfly Mantle
-			i(235586),	-- Forest Dweller's Blooming Mantle
-			i(235587),	-- Forest Dweller's Rooted Mantle
-			i(235588),	-- Forest Dweller's Garden Belt
-			i(235589),	-- Forest Dweller's Butterfly Belt
-			i(235590),	-- Forest Dweller's Blooming Belt
-			i(235591),	-- Forest Dweller's Rooted Belt
-			i(235592),	-- Ensemble: Forest Dweller's Garden Attire
-			i(235593),	-- Ensemble: Forest Dweller's Butterfly Attire
-			i(235594),	-- Ensemble: Forest Dweller's Blooming Attire
-			i(235595),	-- Ensemble: Forest Dweller's Rooted Attire
-			i(235623),	-- Ruby Scale Treads
-			i(235624),	-- Sapphire Scale Treads
-			i(235640),	-- Topsy Turvy Fool's Die
-			i(235641),	-- Topsy Turvy Clown's Die
-			i(235642),	-- Topsy Turvy Jester's Die
-			i(235643),	-- Topsy Turvy Joker's Die
-			i(235652),	-- Pearlescent Monarch's Longbow
-			i(235653),	-- Spring Butterfly Longbow
-			i(235654),	-- Midnight Butterfly Longbow
-			i(235655),	-- Blood Monarch's Longbow
-			i(235664),	-- Ensemble: Topsy Turvy Mask Set
-			--- Delves
-			i(235607),	-- Chunk of Companion Experience
-			i(235628),	-- Delver's Bounty
-			-- Chesto
-			i(235610),	-- Seasoned Adventurer's Cache
-			i(235639),	-- Seasoned Adventurer's Cache
-			-- Delves Rewards?
-			i(235614),	-- Golden-Gob Propulsion Rig
-			i(235615),	-- Rusty Gobjets
-			i(235616),	-- True Speed Goblin-Thruster
-
-			-- Quest Rewards?
-			i(235619),	-- Bug Exterminator's Gloves
-			i(235620),	-- Bug Exterminator's Pants
-			i(235621),	-- Bug Exterminator's Belt
-			i(235622),	-- Bug Exterminator's Shoulderguards
-
-			-- Misc
-			i(235627),	-- Scribbles' Favorite Candies
-			i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
-
-
-			-- Quest?
-			i(235647),	-- Gold-Plated Carver
-			i(235648),	-- Gold-Plated Hatchet
-			i(235649),	-- Gold-Plated Battleaxe
-			i(235661),	-- Grateful Goblin's Water Bottle
-
-
-			-- Toy
-			i(235669),	-- Steamwheedle Cartel Banner
-			i(235670),	-- Bilgewater Cartel Banner
-			i(235671),	-- Blackwater Cartel Banner
-			i(235672),	-- Venture Co. Banner
-
-			-- Mount Mods
-			i(235688),	-- Delver's Dirigible Schematic: Fan
-			i(235689),	-- Delver's Dirigible Schematic: Kite
-			i(235690),	-- Delver's Dirigible Schematic: Harpoon
-			i(235691),	-- Delver's Dirigible Schematic: Yellow Paint
-			i(235692),	-- Delver's Dirigible Schematic: Thrusters
-			i(235693),	-- Delver's Dirigible Schematic: Rocket
-			i(235694),	-- Delver's Dirigible Schematic: Blue Paint
-			i(235695),	-- Delver's Dirigible Schematic: Red Paint
-			i(235696),	-- Delver's Dirigible Schematic: Explorer Decal
-			i(235697),	-- Delver's Dirigible Schematic: Alliance Decal
-			i(235698),	-- Delver's Dirigible Schematic: Horde Decal
-			--
-			-- Misc
-			i(235703),	-- Noggenfogger Select DOWN
-			i(235704),	-- Noggenfogger Select UP
-			i(235710),	-- Noggenfogger Select FRESH
-			i(235713),	-- Weird Sand
-
-			-- Remix Mop
-			i(235716),	-- Ensemble: Cloak of Infinite Potential
-			i(235717),	-- Hood of the Burning Scroll
-			i(235718),	-- Crown of the Burning Scroll
-			i(235719),	-- Mitts of the Burning Scroll
-			i(235720),	-- Guardian Serpent Cowl
-			i(235721),	-- Mantle of the Thousandfold Blades
-			i(235722),	-- Cover of the Thousandfold Blades
-			i(235723),	-- Red Crane Legguards
-			i(235724),	-- Red Crane Spaulders
-			i(235725),	-- Red Crane Cover
-			i(235726),	-- Eternal Blossom Bindings
-			i(235727),	-- Eternal Blossom Tunic
-			i(235728),	-- Eternal Blossom Jerkin
-			i(235729),	-- Eternal Blossom Mantle
-			i(235730),	-- Eternal Blossom Tunic
-			i(235731),	-- Sha-Skin Mitts
-			i(235732),	-- Sha-Skin Vestment
-			i(235733),	-- Sha-Skin Mantle
-			i(235734),	-- Sha-Skin Shirt
-			i(235735),	-- Sha-Skin Amice
-			i(235736),	-- Guardian Serpent Crown
-			i(235737),	-- Guardian Serpent Leggings
-			i(235738),	-- Guardian Serpent Pants
-			i(235739),	-- White Tiger Greaves
-			i(235740),	-- White Tiger Legplates
-			i(235741),	-- White Tiger Spaulders
-			i(235742),	-- White Tiger Shoulderguards
-			i(235743),	-- Breastplate of the Lost Catacomb
-			i(235744),	-- Chestguard of the Lost Catacomb
-			i(235745),	-- Firebird's Cuirass
-			i(235746),	-- Firebird's Legguards
-			i(235747),	-- Firebird's Shirt
-			i(235748),	-- Firebird's Legwraps
-			i(235749),	-- Firebird's Breastplate
-			i(235750),	-- Yaungol Slayer's Belt
-			i(235751),	-- Yaungol Slayer's Spaulders
-			i(235752),	-- Warhelm of Resounding Rings
-			i(235753),	-- Raiment of the Chromatic Hydra
-			i(235754),	-- Vest of the Thousandfold Hells
-			i(235755),	-- Shirt of the Thousandfold Hells
-			i(235756),	-- Cover of the Haunted Forest
-			i(235757),	-- Vest of the Haunted Forest
-			i(235758),	-- Cap of the Haunted Forest
-			i(235759),	-- Jerkin of the Haunted Forest
-			i(235760),	-- Helm of the Haunted Forest
-			i(235761),	-- Vest of the Haunted Forest
-			i(235762),	-- Vestments of the Witch Doctor
-			i(235763),	-- Robeguard of the Witch Doctor
-			i(235764),	-- Breastplate of the Witch Doctor
-			i(235765),	-- Chronomancer Shirt
-			i(235766),	-- Chronomancer Pants
-			i(235767),	-- Chronomancer Vest
-			i(235768),	-- Chronomancer Trousers
-			i(235769),	-- Shirt of the Chronomancer
-			i(235770),	-- Chronomancer Leggings
-			i(235771),	-- Leggings of the Ternion Glory
-			i(235772),	-- Trousers of the Ternion Glory
-			i(235773),	-- Pants of the Ternion Glory
-			i(235774),	-- Shirt of the Horned Nightmare
-			i(235775),	-- Vestments of the Shattered Vale
-			i(235776),	-- Leggings of the Shattered Vale
-			i(235777),	-- Pants of the Shattered Vale
-			i(235778),	-- Legguards of the Shattered Vale
-			i(235779),	-- Tunic of Seven Sacred Seals
-			i(235780),	-- Vest of Seven Sacred Seals
-			i(235781),	-- Jerkin of Seven Sacred Seals
-			i(235782),	-- Battleplate of Winged Triumph
-			i(235783),	-- Breastplate of Winged Triumph
-			i(235784),	-- Chestguard of Winged Triumph
-
-			-- Toy
-			i(235799),	-- Throwin' Sawblade
-			i(235801),	-- Personal Fishing Barge
-			i(235807),	-- Storefront-in-a-Box
-			-- Cooking
-			i(235800),	-- Recipe: Authentic Undermine Clam Chowder
-			i(235805),	-- Authentic Undermine Clam Chowder
-
-
-			-- Mythic+ Shehenaignia
-			i(235809),	-- Mechanized Plate Chasse
-			i(235810),	-- Circuit-Linked Chainmail
-			i(235811),	-- Extravagant Epaulets
-			i(235812),	-- Shoulderguards of Fraying Sanity
-
-			-- Rares
-			i(235813),	-- Machine Gob's Iron Grin
-			i(235819),	-- Lucky Penny Locket
-			i(235820),	-- Hole-Punched Doubloon
-			i(235821),	-- Pressed-Gold Pantaloons
-			i(235822),	-- Coin-Woven Shawl
-			i(235823),	-- Scrap-Plated Pants
-			i(235824),	-- Flame Sputterer
-			i(235826),	-- Electric Wristrags
-			i(235827),	-- Statically Charged Vest
-			i(235828),	-- Electrocution Warning
-			i(235829),	-- Welded Scrap Hood
-			i(235830),	-- Unstable Missilecaps
-			i(235831),	-- Battery-Powered Longshank
-			i(235832),	-- Oil-Splattered Cloak
-			i(235833),	-- Serrated Slickgrip
-			i(235834),	-- Rocketgrip Turboslicer
-			i(235835),	-- Braided Wire Wrap
-			i(235836),	-- Gas-Powered Chainblade
-			--
-
-			-- Cooking
-			i(235845),	-- Undermine Clam Meat
-			i(235846),	-- Undermine Clam
-			i(235853),	-- Hearty Authentic Undermine Clam Chowder
-
-			-- Cosmetic
-			i(235854),	-- Gold-Inlaid Jetpack
-
-			-- Misc
-			i(235895),	-- Bloodstone
-			i(235910),	-- Mint Condition Gallagio Anniversary Coin
-			-- Delves
-			i(235896),	-- Radiant Echo
-			i(235897),	-- Radiant Echo
-
-			-- Battle Pet
-			i(235909),	-- Gleam
-			i(235988),	-- Parley
-			i(235989),	-- Parley
-			-- Trinket
-			i(235984),	-- Garbagemancer's Last Resort
-
-			-- Weird wep again from delve?
-			i(236003),	-- Fate Weaver
-
-			-- New Shards
-			i(236096),	-- Coffer Key Shard
-
-			-- Cosmetics
-			i(236161),	-- Broiler Supreme 300
-			i(236178),	-- Gammy's Hand-Me-Down Bow
-			i(236180),	-- Swabbie's Shovel
-			i(236181),	-- Center-Stage Remover
-			i(236191),	-- Mechanic's Best Motivator
-			--
-
-			-- Raid Achievement
-			i(236412),	-- "Fireproof" Punch
-			i(236413),	-- "Shockproof" Soda
-			--
-
-			-- Misc
-			i(236633),	-- Low-Town Fizz
-			i(236634),	-- Itty Bitty Bonsai
-			i(236635),	-- Uncut Semi-Smoky Quartz
-			i(236636),	-- Cracked Crysoberyl
-			i(236637),	-- Not-Quite-Crystal Ball
-			i(236638),	-- Bundle of Kaja-Scented Incense
-			i(236639),	-- Dented Censer
-			i(236640),	-- Cracked Earthen Singing Bowl
-			i(236646),	-- Gallagio Especial
-			i(236647),	-- Coin and Kaja
-			i(236648),	-- Liquid Nitro
-			i(236649),	-- Few Screws Loose
-			i(236650),	-- Paincracker
-			i(236651),	-- Vince's Old Left Shoe
-			i(236652),	-- Re-Down-Upcycled Salvage
-			i(236680),	-- Imitation Crab Meat
-			i(236681),	-- Liquid Gold
-			-- Chett
-			i(236668),	-- C.H.E.T.T. Card
-			i(236669),	-- The Ol' Low-and-Slow
-			i(236682),	-- C.H.E.T.T. List
-			i(236785),	-- C.H.E.T.T. Card
-			-- Drive
-			i(236670),	-- Maniacal Melodies
-			i(236671),	-- The Whole Brass Band
-			i(236672),	-- Lil' Squeaker
-
-
-
-
-			-- Chesto
-			i(236689),	-- Finder's Fee
-			i(236756),	-- Socially Expected Tip Chest
-			i(236757),	-- Generous Tip Chest
-			i(236758),	-- Extravagant Tip Chest
-			i(236763),	-- Finder's Fee
-			i(236764),	-- Finder's Fee
-			i(236765),	-- Finder's Fee
-			-- Toy
-			i(236749),	-- Take-Home Torq
-			i(236751),	-- Take-Home Flarendo
-
-
-			-- QI
-			i(236773),	-- Swallowed Kaja'mite
-
-
-			-- Meta achieveo reeward
-			i(236852),	-- Gallagio Highroller's Boomstone
-			i(236877),	-- Crystallized Essence of Kaja'mite
-
-			-- uncollcetible
-			i(236921),	-- Triumphant Satchel of Carved Harbinger Crests
-			i(236922),	-- Celebratory Pack of Runed Harbinger Crests
-			i(236923),	-- Glorious Cluster of Gilded Harbinger Crests
-			i(236924),	-- Pouch of Weathered Harbinger Crests
-			i(236925),	-- Satchel of Carved Harbinger Crests
-			i(236926),	-- Pack of Runed Harbinger Crests
-
-			-- PvP
-			i(236936),	-- Conqueror's Prized Varnish
-			i(236938),	-- Conqueror's Prized Lacquer
-
-
-			-- Valorstones
-			i(236953),	-- Crimson Valorstone
-			i(236954),	-- Void-Touched Valorstone
-			i(236955),	-- Crimson Valorstone
-			i(236956),	-- Void-Touched Valorstone
-
-			--Special
-			i(236961),	-- Inoperative Gorillion
+			n(RARES, {
+				i(232734),	-- Enshrouded Cloak
+				i(232735),	-- Silent Veil
+				i(232736),	-- Pendant of Enduring Promise
+				i(232737),	-- Necklace of Eternal Love
+				i(232738),	-- Green Knight's Boots
+				i(232739),	-- Sash of Lost Inspiration
+				i(232740),	-- Desperate Goblin's Gloves
+				i(232742),	-- Elite Golfer's Armbands
+				i(232743),	-- Apprentice Knight's Shirt
+				i(232744),	-- Green Knight's Wristguards
+				i(232745),	-- Apprentice Knight's Belt
+				i(232746),	-- Spaulders of Lost Inspiration
+				i(232748),	-- Desperate Goblin's Boots
+				i(232749),	-- Elite Golfer's Headgear
+				i(232750),	-- Desperate Goblin's Spaulders
+				i(232751),	-- Elite Golfer's Belt
+				i(232753),	-- Green Knight's Helm
+				i(232754),	-- Apprentice Knight's Wristguards
+				i(232755),	-- Chainmail of Lost Inspiration
+				i(232757),	-- Green Knight's Chestplate
+				i(232758),	-- Gauntlets of Lost Inspiration
+				i(232759),	-- Apprentice Knight's Sabatons
+				i(232760),	-- Elite Golfer's Legguards
+				i(232761),	-- Desperate Goblin's Belt
+				i(232762),	-- Dust-Covered Cloak
+				i(232763),	-- Kaja-Infused Cloak
+				i(232764),	-- Pendant of Shrouded Secrets
+				i(232765),	-- Truthseeker's Necklace
+				i(232766),	-- Band of the Last Hope
+				i(232767),	-- Ring of the Last Gambit
+				i(232768),	-- Trigger-Sniffer's Hood
+				i(232769),	-- Stagecrasher's Gloves
+				i(232770),	-- Sewer Wanderer's Shoulderpads
+				i(232771),	-- Belt of the Certified Hunter
+				i(232772),	-- Slimediver's Trousers
+				i(232773),	-- Trigger-Sniffer's Spaulders
+				i(232774),	-- Stagecrasher's Wristband
+				i(232775),	-- Helm of the Certified Hunter
+				i(232776),	-- Sewer Wanderer's Gloves
+				i(232777),	-- Slimediver's Girdle
+				i(232778),	-- Stagecrasher's Shoulderguards
+				i(232779),	-- Boots of the Certified Hunter
+				i(232780),	-- Slimediver's Gloves
+				i(232781),	-- Sewer Wanderer's Bracers
+				i(232782),	-- Trigger-Sniffer's Greaves
+				i(232783),	-- Sewer Wanderer's Belt
+				i(232784),	-- Stagecrasher's Legguards
+				i(232785),	-- Slimediver's Vest
+				i(232786),	-- Trigger-Sniffer's Handwraps
+				i(232787),	-- Wristwraps of the Certified Hunter
+				i(235300),	-- Cloak of Mecha Shards
+				i(235301),	-- Drape of the Dazzling Feather
+				i(235302),	-- Shockwave Pendant
+				i(235303),	-- Seafused Brimstone Band
+				i(235304),	-- Gutter Rat Mask
+				i(235305),	-- Golfer's Truestrike Gloves
+				i(235306),	-- Ooze-fused Mantle
+				i(235307),	-- Smoketrail Belt
+				i(235308),	-- Filthtread Boots
+				i(235309),	-- Gloomshroud Robe
+				i(235310),	-- Flashy Patchwork Trousers
+				i(235311),	-- Rocket-Powered Shoulderguards
+				i(235312),	-- Snooty's Aviator Bindings
+				i(235313),	-- Shockproof Helm
+				i(235314),	-- Knightrider's Steelfists
+				i(235315),	-- Rocketstep Boots
+				i(235316),	-- Whirly-Giggle Windwhir Wrap
+				i(235317),	-- Chestplate of the Ultimatum
+				i(235318),	-- Ironfang Plate Legguards
+				i(235319),	-- Tidebomb Chestpiece
+				i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
+				i(235321),	-- Feather-Spike Girdle
+				i(235322),	-- Junkyard Clawguards
+				i(235323),	-- Blastshell Bracers
+				i(235324),	-- Scavenger's Lost Bind
+				i(235325),	-- Rusthide Gloves
+				i(235326),	-- Ratspit's Heirloom Wristwraps
+				i(235327),	-- Mend-and-Match Shoulderpads
+				i(235328),	-- Boots of the Silver Tongue
+				i(235329),	-- Cowl of Acidic Mire
+				i(235347),	-- 100% Sharp Glimmerblade
+				i(235348),	-- Back Alley Shank
+				i(235349),	-- Shadowfume Club
+				i(235350),	-- Void-forged Cudgel
+				i(235351),	-- Hypersteel CX4 Greatsword
+				i(235352),	-- Netherflare Wand
+				i(235353),	-- Debtsmasher Axe
+				i(235354),	-- Scrapblaster Lance
+				i(235355),	-- Gossi-blin's Baton
+				i(235356),	-- Sapper's Spark Reactor
+				i(235357),	-- Bulletscar Barricade
+				i(235359),	-- Ratfang Toxin
+				i(235363),	-- Suspicious Energy Drink
+				i(235373),	-- Abyssal Volt
+				i(235813),	-- Machine Gob's Iron Grin
+				i(235819),	-- Lucky Penny Locket
+				i(235820),	-- Hole-Punched Doubloon
+				i(235821),	-- Pressed-Gold Pantaloons
+				i(235822),	-- Coin-Woven Shawl
+				i(235823),	-- Scrap-Plated Pants
+				i(235824),	-- Flame Sputterer
+				i(235826),	-- Electric Wristrags
+				i(235827),	-- Statically Charged Vest
+				i(235828),	-- Electrocution Warning
+				i(235829),	-- Welded Scrap Hood
+				i(235830),	-- Unstable Missilecaps
+				i(235831),	-- Battery-Powered Longshank
+				i(235832),	-- Oil-Splattered Cloak
+				i(235833),	-- Serrated Slickgrip
+				i(235834),	-- Rocketgrip Turboslicer
+				i(235835),	-- Braided Wire Wrap
+				i(235836),	-- Gas-Powered Chainblade
+			}),
+			n(SETS, {	-- Tier Sets/Raid
+				i(228799),	-- Dreadful Greased Gallybux
+				i(228800),	-- Mystic Greased Gallybux
+				i(228801),	-- Venerated Greased Gallybux
+				i(228802),	-- Zenith Greased Gallybux
+				i(228803),	-- Dreadful Bloody Gallybux
+				i(228804),	-- Mystic Bloody Gallybux
+				i(228805),	-- Venerated Bloody Gallybux
+				i(228806),	-- Zenith Bloody Gallybux
+				i(228807),	-- Dreadful Gilded Gallybux
+				i(228808),	-- Mystic Gilded Gallybux
+				i(228809),	-- Venerated Gilded Gallybux
+				i(228810),	-- Zenith Gilded Gallybux
+				i(228811),	-- Dreadful Rusty Gallybux
+				i(228812),	-- Mystic Rusty Gallybux
+				i(228813),	-- Venerated Rusty Gallybux
+				i(228814),	-- Zenith Rusty Gallybux
+				i(228815),	-- Dreadful Polished Gallybux
+				i(228816),	-- Mystic Polished Gallybux
+				i(228817),	-- Venerated Polished Gallybux
+				i(228818),	-- Zenith Polished Gallybux
+				i(229230),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Generic - Cloak
+				i(229231),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Wrist
+				i(229232),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Waist
+				i(229233),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Shoulder
+				i(229234),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Legs
+				i(229235),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Head
+				i(229236),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Hand
+				i(229237),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Feet
+				i(229238),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Chest
+				i(229239),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Generic - Cloak
+				i(229240),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Wrist
+				i(229241),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Waist
+				i(229242),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Shoulder
+				i(229243),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Legs
+				i(229244),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Head
+				i(229245),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Hand
+				i(229246),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Feet
+				i(229247),	-- 11.1 Raid - Undermine - Class Set - Paladin - Armor - Plate - Chest
+				i(229248),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Generic - Cloak
+				i(229249),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Wrist
+				i(229250),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Waist
+				i(229251),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Shoulder
+				i(229252),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Legs
+				i(229253),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Head
+				i(229254),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Hand
+				i(229255),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Feet
+				i(229256),	-- 11.1 Raid - Undermine - Class Set - Death Knight - Armor - Plate - Chest
+				i(229257),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Generic - Cloak
+				i(229258),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Wrist
+				i(229259),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Waist
+				i(229260),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Shoulder
+				i(229261),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Legs
+				i(229262),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Head
+				i(229263),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Hand
+				i(229264),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Feet
+				i(229265),	-- 11.1 Raid - Undermine - Class Set - Shaman - Armor - Mail - Chest
+				i(229266),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Generic - Cloak
+				i(229267),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Wrist
+				i(229268),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Waist
+				i(229269),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Shoulder
+				i(229270),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Legs
+				i(229271),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Head
+				i(229272),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Hand
+				i(229273),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Feet
+				i(229274),	-- 11.1 Raid - Undermine - Class Set - Hunter - Armor - Mail - Chest
+				i(229275),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Generic - Cloak
+				i(229276),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Wrist
+				i(229277),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Waist
+				i(229278),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Shoulder
+				i(229279),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Legs
+				i(229280),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Head
+				i(229281),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Hand
+				i(229282),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Feet
+				i(229283),	-- 11.1 Raid - Undermine - Class Set - Evoker - Armor - Mail - Chest
+				i(229284),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Generic - Cloak
+				i(229285),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Wrist
+				i(229286),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Waist
+				i(229287),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Shoulder
+				i(229288),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Legs
+				i(229289),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Head
+				i(229290),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Hand
+				i(229291),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Feet
+				i(229292),	-- 11.1 Raid - Undermine - Class Set - Rogue - Armor - Leather - Chest
+				i(229293),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Generic - Cloak
+				i(229294),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Wrist
+				i(229295),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Waist
+				i(229296),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Shoulder
+				i(229297),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Legs
+				i(229298),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Head
+				i(229299),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Hand
+				i(229300),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Feet
+				i(229301),	-- 11.1 Raid - Undermine - Class Set - Monk - Armor - Leather - Chest
+				i(229302),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Generic - Cloak
+				i(229303),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Wrist
+				i(229304),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Waist
+				i(229305),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Shoulder
+				i(229306),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Legs
+				i(229307),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Head
+				i(229308),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Hand
+				i(229309),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Feet
+				i(229310),	-- 11.1 Raid - Undermine - Class Set - Druid - Armor - Leather - Chest
+				i(229311),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Generic - Cloak
+				i(229312),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Wrist
+				i(229313),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Waist
+				i(229314),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Shoulder
+				i(229315),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Legs
+				i(229316),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Head
+				i(229317),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Hand
+				i(229318),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Feet
+				i(229319),	-- 11.1 Raid - Undermine - Class Set - Demon Hunter - Armor - Leather - Chest
+				i(229320),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Generic - Cloak
+				i(229321),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Wrist
+				i(229322),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Waist
+				i(229323),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Shoulder
+				i(229324),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Legs
+				i(229325),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Head
+				i(229326),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth -  Hand
+				i(229327),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Feet
+				i(229328),	-- 11.1 Raid - Undermine - Class Set - Warlock - Armor - Cloth - Robe
+				i(229329),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Generic - Cloak
+				i(229330),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Wrist
+				i(229331),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Waist
+				i(229332),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Shoulder
+				i(229333),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Legs
+				i(229334),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Head
+				i(229335),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth -  Hand
+				i(229336),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Feet
+				i(229337),	-- 11.1 Raid - Undermine - Class Set - Priest - Armor - Cloth - Chest
+				i(229338),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Generic - Cloak
+				i(229339),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Wrist
+				i(229340),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Waist
+				i(229341),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Shoulder
+				i(229342),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Legs
+				i(229343),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Head
+				i(229344),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth -  Hand
+				i(229345),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Feet
+				i(229346),	-- 11.1 Raid - Undermine - Class Set - Mage - Armor - Cloth - Chest
+
+				i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket
+			}),
+			n(SPECIAL, {
+				-- Interesting hmmm
+				i(234389),	-- Gallagio Loyalty Rewards Card: Silver
+				i(234390),	-- Gallagio Loyalty Rewards Card: Gold
+				i(234391),	-- Gallagio Loyalty Rewards Card: Platinum
+				i(234392),	-- Gallagio Loyalty Rewards Card: Black
+				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
+				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
+				-- Special
+				i(234427),	-- Gorillion Fork
+				i(234430),	-- Gorillion Grease
+				i(234431),	-- Gorillion Batteries
+				i(234432),	-- Gorillion Engine
+				i(234433),	-- Gorillion Chasis
+				i(236961),	-- Inoperative Gorillion
+			}),
+			n(SPECIAL, {	-- Remix
+				i(235716),	-- Ensemble: Cloak of Infinite Potential
+				i(235717),	-- Hood of the Burning Scroll
+				i(235718),	-- Crown of the Burning Scroll
+				i(235719),	-- Mitts of the Burning Scroll
+				i(235720),	-- Guardian Serpent Cowl
+				i(235721),	-- Mantle of the Thousandfold Blades
+				i(235722),	-- Cover of the Thousandfold Blades
+				i(235723),	-- Red Crane Legguards
+				i(235724),	-- Red Crane Spaulders
+				i(235725),	-- Red Crane Cover
+				i(235726),	-- Eternal Blossom Bindings
+				i(235727),	-- Eternal Blossom Tunic
+				i(235728),	-- Eternal Blossom Jerkin
+				i(235729),	-- Eternal Blossom Mantle
+				i(235730),	-- Eternal Blossom Tunic
+				i(235731),	-- Sha-Skin Mitts
+				i(235732),	-- Sha-Skin Vestment
+				i(235733),	-- Sha-Skin Mantle
+				i(235734),	-- Sha-Skin Shirt
+				i(235735),	-- Sha-Skin Amice
+				i(235736),	-- Guardian Serpent Crown
+				i(235737),	-- Guardian Serpent Leggings
+				i(235738),	-- Guardian Serpent Pants
+				i(235739),	-- White Tiger Greaves
+				i(235740),	-- White Tiger Legplates
+				i(235741),	-- White Tiger Spaulders
+				i(235742),	-- White Tiger Shoulderguards
+				i(235743),	-- Breastplate of the Lost Catacomb
+				i(235744),	-- Chestguard of the Lost Catacomb
+				i(235745),	-- Firebird's Cuirass
+				i(235746),	-- Firebird's Legguards
+				i(235747),	-- Firebird's Shirt
+				i(235748),	-- Firebird's Legwraps
+				i(235749),	-- Firebird's Breastplate
+				i(235750),	-- Yaungol Slayer's Belt
+				i(235751),	-- Yaungol Slayer's Spaulders
+				i(235752),	-- Warhelm of Resounding Rings
+				i(235753),	-- Raiment of the Chromatic Hydra
+				i(235754),	-- Vest of the Thousandfold Hells
+				i(235755),	-- Shirt of the Thousandfold Hells
+				i(235756),	-- Cover of the Haunted Forest
+				i(235757),	-- Vest of the Haunted Forest
+				i(235758),	-- Cap of the Haunted Forest
+				i(235759),	-- Jerkin of the Haunted Forest
+				i(235760),	-- Helm of the Haunted Forest
+				i(235761),	-- Vest of the Haunted Forest
+				i(235762),	-- Vestments of the Witch Doctor
+				i(235763),	-- Robeguard of the Witch Doctor
+				i(235764),	-- Breastplate of the Witch Doctor
+				i(235765),	-- Chronomancer Shirt
+				i(235766),	-- Chronomancer Pants
+				i(235767),	-- Chronomancer Vest
+				i(235768),	-- Chronomancer Trousers
+				i(235769),	-- Shirt of the Chronomancer
+				i(235770),	-- Chronomancer Leggings
+				i(235771),	-- Leggings of the Ternion Glory
+				i(235772),	-- Trousers of the Ternion Glory
+				i(235773),	-- Pants of the Ternion Glory
+				i(235774),	-- Shirt of the Horned Nightmare
+				i(235775),	-- Vestments of the Shattered Vale
+				i(235776),	-- Leggings of the Shattered Vale
+				i(235777),	-- Pants of the Shattered Vale
+				i(235778),	-- Legguards of the Shattered Vale
+				i(235779),	-- Tunic of Seven Sacred Seals
+				i(235780),	-- Vest of Seven Sacred Seals
+				i(235781),	-- Jerkin of Seven Sacred Seals
+				i(235782),	-- Battleplate of Winged Triumph
+				i(235783),	-- Breastplate of Winged Triumph
+				i(235784),	-- Chestguard of Winged Triumph
+			}),
+			filter(TOYS, {
+				i(233202),	-- G.O.L.E.M Jr.
+				i(235669),	-- Steamwheedle Cartel Banner
+				i(235670),	-- Bilgewater Cartel Banner
+				i(235671),	-- Blackwater Cartel Banner
+				i(235672),	-- Venture Co. Banner
+				i(235799),	-- Throwin' Sawblade
+				i(235801),	-- Personal Fishing Barge
+				i(235807),	-- Storefront-in-a-Box
+				i(236749),	-- Take-Home Torq
+				i(236751),	-- Take-Home Flarendo
+				i(234950),	-- Atomic Regoblinator
+				i(234951),	-- Uncracked Cold Ones
+				i(235018),	-- Cracked Cold One [From toy?]
+				i(235219),	-- Fireworks Hat
+				i(235220),	-- Fireworks Hat
+				i(235266),	-- Fireworked Hat
+			}),
+			n(WEAPONS, {
+				i(232932),	-- Brann Bronzebeard's Mace
+				i(232987),	-- Brann Bronzebeard's Shield
+				i(233063),	-- Brann's Boomstick
+			}),
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old
