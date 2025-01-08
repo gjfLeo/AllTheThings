@@ -54,6 +54,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						}),
 					},
 				}),
+				-- TW MOP Quest under level 80
+				q(86560, {	-- A Shrouded Journey Through Time
+					["timeline"] = { ADDED_11_0_7 },
+					["repeatable"] = true,
+					["g"] = {
+						i(232877, {	-- Timely Goodie Bag
+							["sym"] = {
+								{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+								{ "pop" },
+							},
+						}),
+					},
+				}),
 			}),
 		}),
 	}),

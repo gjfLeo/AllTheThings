@@ -101,6 +101,7 @@ end
 local MapPrecisionOverrides = {
 	[1699] = 3,	-- Sinfall
 	[1700] = 3,	-- Sinfall
+	[2328] = 3,	-- The Proscenium
 }
 
 local function Check_coords(objRef, id, maxCoordDistance)

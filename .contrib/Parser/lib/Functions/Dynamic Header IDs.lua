@@ -74,6 +74,7 @@ HeaderAssignments = {
 	["Call of the Scarab"] = -1000199,
 	["Capital Gardens"] = -1000175,
 	["Captains"] = -1000166,
+	["Cartels of Undermine"] = -1001065,
 	["Cartographer's Flag"] = -1000943,
 	["Cata Classic Blazing Upgrade"] = -1000249,
 	["Cataclysmic Gladiator"] = -1000862,
@@ -546,4 +547,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001065;
+NextHeaderID = -1001066;
