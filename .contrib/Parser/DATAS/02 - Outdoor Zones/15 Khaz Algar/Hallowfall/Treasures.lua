@@ -106,6 +106,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			o(457062, {	-- Sky-Captain Lancekat's Curse
 				["questID"] = 84289,
 				["coord"] = { 42.6, 53.7, HALLOWFALL },
+				["isWeekly"] = true,	-- unflagged at some point (Runaway)
 				["g"] = {
 					i(225213),	-- Sky-Captain Lancekat's Curse
 				}

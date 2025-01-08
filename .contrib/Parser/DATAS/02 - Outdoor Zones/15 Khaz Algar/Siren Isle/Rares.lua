@@ -146,6 +146,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 27.3, 65.5, SIREN_ISLE },
 				["questID"] = 85938,
 			}),
+			n(227550, {	-- Shardsong
+				["description"] = "In non-Storm phase of the Vault.",
+				["coord"] = { 28.1, 24.9, 2375 },
+				["questID"] = 86779,
+				["g"] = {
+					i(235017),	-- Glittering Vault Shard (TOY!)
+				},
+			}),
 			n(231090, {	-- Snacker
 				["coord"] = { 67.8, 20.7, SIREN_ISLE },
 				["questID"] = 86933,

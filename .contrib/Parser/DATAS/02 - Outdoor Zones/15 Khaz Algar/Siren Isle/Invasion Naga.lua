@@ -55,7 +55,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["isWeekly"] = true,
 					}),
 				}),
-				n(RARES, {
+				n(RARES, sharedData({
+					["isDaily"] = true,
+				},{
 					n(229852, {	-- Coralweaver Calliso
 						-- naga
 						["coord"] = { 61.5, 89.4, SIREN_ISLE },
@@ -72,7 +74,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 							i(234973),	-- Pearlshell Scroll Case [book]
 						},
 					}),
-				}),
+				})),
 				n(TREASURES, {
 				}),
 				n(WORLD_QUESTS, {

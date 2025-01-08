@@ -129,10 +129,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(233027),	-- Well Loved Squeaky Toy
 				},
 			}),
-			i(232605),	-- Thunderous Fragment (TODO: probably need a better way to code it)
-			i(232573, {	-- Thunderous Runekey
-				["cost"] = {{"i", 232605, 5 }},
-			}),
 		}),
 	}),
 })));

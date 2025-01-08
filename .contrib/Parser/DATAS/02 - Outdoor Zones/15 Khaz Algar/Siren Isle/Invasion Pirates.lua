@@ -84,7 +84,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARES, sharedData({
+					["isDaily"] = true,
+				},{
 					n(228583, {	-- Chef Chum Platter
 						-- pirates
 						["coord"] = { 66.4, 85.5, SIREN_ISLE },
@@ -98,21 +100,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					-- The Forgotten Vault (non-storm, pirates theme)
 					n(228159, {	-- Gunnlod the Sea-Drinker
 						-- pirates
+						["description"] = "In non-Storm phase of the Vault.",
 						["coord"] = { 66.5, 55.9, 2375 },
 						["questID"] = 84797,
 						["g"] = {
 							i(235017),	-- Glittering Vault Shard (TOY!)
 						},
 					}),
-					n(227550, {	-- Shardsong
-						-- pirates / vrykul
-						["coord"] = { 28.1, 24.9, 2375 },
-						["questID"] = 86779,
-						["g"] = {
-							i(235017),	-- Glittering Vault Shard (TOY!)
-						},
-					}),
-				}),
+				})),
 				n(TREASURES, {
 					o(464233, {	-- Bilge Rat Supply Chest
 						-- Pirates

@@ -1300,6 +1300,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				o(237452, {	-- Iron Horde Chest
 					["coord"] = { 51.8, 44.9, 599 },	-- Iron Assembly
 					["questID"] = 34405,
+					["isWeekly"] = true,
 				}),
 			}),
 		},

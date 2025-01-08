@@ -55,7 +55,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARES, sharedData({
+					["isDaily"] = true,
+				},{
 					n(227545, {	-- Ikir the Flotsurge
 						-- vrykul
 						["coord"] = { 32.8, 73.7, SIREN_ISLE },
@@ -69,15 +71,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 							i(234972), -- Bloodwake Missive [book]
 						},
 					}),
-					n(227550, {	-- Shardsong
-						-- pirates / vrykul
-						["coord"] = { 28.1, 24.9, 2375 },
-						["questID"] = 86779,
-						["g"] = {
-							i(235017),	-- Glittering Vault Shard (TOY!)
-						},
-					}),
-				}),
+				})),
 				n(TREASURES, {
 				}),
 				n(WORLD_QUESTS, {

@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				}),
 				n(228547, {	-- Slaughtershell
 					["description"] = "Can spawn almost anywhere on the island.",
-					["coords"] = { 
+					["coords"] = {
 						{ 39.4, 18.0, SIREN_ISLE },
 						{ 49.8, 44.4, SIREN_ISLE },
 						{ 63.6, 88.2, SIREN_ISLE },
@@ -116,16 +116,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						{ 52.39, 38.59, SIREN_ISLE },
 					},
 					["description"] = "Western coordinates fragment is gathered from a dirtpile, next to a Kul Tiran Ghost.\nSouthern coordinates Fragment in front of a ghost inside a cave.\nNorthern coordinates Fragment is found in the hands of a ghost in another cave.",
-					["groups"] = {
-						i(232570, {	-- Turbulent Runekey
-							["cost"] = {{"i", 234327, 3 }},
-						}),
-					},
+				}),
+				i(232570, {	-- Turbulent Runekey
+					["cost"] = {{"i", 234327, 3 }},
 				}),
 				i(232605, {	-- Thunderous Fragment
-					i(232573, {	-- Thunderous Runekey
-						["cost"] = {{"i", 232605, 5 }},
-					}),
+					-- description on how to get these?
+				}),
+				i(232573, {	-- Thunderous Runekey
+					["cost"] = {{"i", 232605, 5 }},
 				}),
 			}),
 			n(WORLD_QUESTS, {
@@ -158,7 +157,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						227569,	-- Storm-touched Clawfiend
 						228547,	-- Slaughtershell
 					},
-					["coords"] = { 
+					["coords"] = {
 						{ 63.2, 83.4, SIREN_ISLE },
 						{ 56.0, 65.2, SIREN_ISLE },
 						{ 54.4, 74.6, SIREN_ISLE },
