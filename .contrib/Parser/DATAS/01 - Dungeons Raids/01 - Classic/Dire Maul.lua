@@ -180,7 +180,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					["OnTooltip"] = OnTooltipForShendralar,
 					-- #endif
 				}),
-				faction(FACTION_STEAMWHEEDLE_CARTEL, {	-- Steamweedle Cartel
+				faction(FACTION_STEAMWHEEDLE_CARTEL, {	-- Steamwheedle Cartel
 					["icon"] = 133784,
 					-- #if BEFORE 4.0.3
 					["OnTooltip"] = OnTooltipForSteamweedle,
@@ -490,7 +490,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					["description"] = "Freeing him gets you access to his Cache.\n\nNOTE: Do not free him until after you have finished your Tribute Run!",
 					["cost"] = { { "i", 18250, 1 } },	-- Gordok Shackle Key
 					-- #endif
-					["maxReputation"] = { FACTION_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamweedle Cartel, Exalted.
+					["maxReputation"] = { FACTION_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamwheedle Cartel, Exalted.
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = GORDOK_COMMONS_MAPS,
 					["repeatable"] = true,
@@ -885,7 +885,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 				q(5519, {	-- The Gordok Ogre Suit
 					["qg"] = 14338,	-- Knot Thimblejack
 					["sourceQuest"] = 5518,	-- The Gordok Ogre Suit
-					["maxReputation"] = { FACTION_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamweedle Cartel, Exalted.
+					["maxReputation"] = { FACTION_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamwheedle Cartel, Exalted.
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = GORDOK_COMMONS_MAPS,
 					["cost"] = {
