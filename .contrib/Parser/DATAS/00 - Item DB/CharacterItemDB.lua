@@ -698,3 +698,10 @@ iq(219286, 81617);	-- Puntable Globe Yeti
 iq(234127, 86423);	-- Puntable Grumpling
 iq(219255, 81616);	-- Puntable Rotten Little Helper
 iq(219289, 81618);	-- Puntable Tiny Snowman
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+is(0, 467553);	-- Path of the Azerite Refinery [A?H?]
+is(0, 467555);	-- Path of the Azerite Refinery [A?H?]
+is(0, 1216786);	-- Path of the Circuit Breaker
