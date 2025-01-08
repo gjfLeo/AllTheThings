@@ -968,10 +968,9 @@ root(ROOTS.Unsorted, {
 			i(232533),	-- Contract: The Cartels of Undermine
 			i(232534),	-- Contract: The Cartels of Undermine
 			i(232535),	-- Technique: Contract: The Cartels of Undermine
-			i(232541),	-- Improvised Seaforium Pacemaker
-			i(232542),	-- Darkfuse Medichopper
-			i(232543),	-- Ringing Ritual Mud
-			i(232545),	-- Gigazap's Zap-Cap
+
+
+
 			i(232546),	-- K.U.-J.0.'s Flame Vents
 			i(232547),	-- Omega Strike Force
 
@@ -1338,24 +1337,23 @@ root(ROOTS.Unsorted, {
 			i(234451),	-- Stolen Goods
 			i(234454),	-- Remote Teleporter
 			i(234489),	-- Dented Bloodhose
-			i(234490),	-- Circuit Breaker
-			i(234491),	-- Sonic Ka-BOOM!-erang
-			i(234492),	-- Keeza's 'B.' B.B.B.F.G
-			i(234493),	-- Geezle's Coercive Volt-ohmmeter
-			i(234494),	-- Gallytech Turbo-Tiller
-			i(234495),	-- Razorchoke Slacks
-			i(234496),	-- Saboteur's Rubber Jacket
-			i(234497),	-- Nonconductive Kill-o-Socks
-			i(234498),	-- Waterworks Filtration Mask
-			i(234499),	-- Disturbed Kelp Wraps
-			i(234500),	-- Mechanized Junkpads
-			i(234501),	-- Portable Power Generator
-			i(234502),	-- Bront's Singed Blastcoat
-			i(234503),	-- Skystreak's Hidden Missiles
-			i(234504),	-- Jumpstarter's Scaffold-Scrapers
-			i(234505),	-- Venture Contractor's Floodlight
-			i(234506),	-- Muckdiver's Wading Plate
-			i(234507),	-- Electrician's Siphoning Filter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			i(234511),	-- Corrupted Cuirass
 			i(234525),	-- Corrupted Crown
 			i(234572),	-- Topsy Turvy Fool's Blade
@@ -1842,7 +1840,7 @@ root(ROOTS.Unsorted, {
 			i(236763),	-- Finder's Fee
 			i(236764),	-- Finder's Fee
 			i(236765),	-- Finder's Fee
-			i(236768),	-- Craboom
+
 
 			i(236773),	-- Swallowed Kaja'mite
 			i(236785),	-- C.H.E.T.T. Card

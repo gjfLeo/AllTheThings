@@ -4304,11 +4304,12 @@ i(234396, 4728);	-- Teatuft Tamer
 -- PATCH 11.1.0 --
 ------------------
 --- ITEM ---
+i(236768, 4759);	-- Craboom
 --- NPC ---
 --- UNSORTED ---
 i(232845, 4645);	-- Bilgewater Junkhauler
 i(232850, 4649);	-- Blackwater Kegmover
-i(236768, 4759);	-- Craboom
+
 i(232842, 4638);	-- Crimson Mechasaur
 i(232858, 4655);	-- Cruncher
 i(232853, 4632);	-- Eepy
