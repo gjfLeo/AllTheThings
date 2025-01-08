@@ -1959,6 +1959,8 @@ i(233020, 472488);	-- Twilight Witch's Sweeper
 i(0, 1217235);		-- Crimson Shreddertank
 i(229974, 466133);	-- Delver's Gob-Trotter
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
+i(0, 1221155);		-- Prototype A.S.M.R.
+i(235626, 1217760);	-- The Big G
 --- UNSORTED ---
 i(0, 466019);		-- Blackwater Shredder Deluxe Mk 2
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
@@ -1972,13 +1974,11 @@ i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(0, 466013);		-- Ocher Delivery Rocket
 i(235650, 1217994);	-- Pearlescent Butterfly
 i(0, 466020);		-- Personalized Goblin S.C.R.A.Per
-i(0, 1221155);		-- Prototype A.S.M.R.
 i(235657, 1218012);	-- Ruby Butterfly
 i(229953, 466026);	-- Salvaged Goblin Gazillionaire's Flying Machine
 i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly
-i(235626, 1217760);	-- The Big G
 i(0, 466016);		-- The Topskimmer Special
 i(0, 466146);		-- Vicious Electro Eel [A]
 i(0, 466145);		-- Vicious Electro Eel [H]

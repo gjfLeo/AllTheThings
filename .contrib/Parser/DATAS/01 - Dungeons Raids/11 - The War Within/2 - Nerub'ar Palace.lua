@@ -13,31 +13,17 @@ local ANSUREK = 2602;
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
-	[ULGRAX] = {
-		228713,	-- Ulgrax the Devourer (?)
-		215657,	-- Ulgrax the Devourer (N/H)
-	},
+	[ULGRAX] = { 215657 },	-- Ulgrax the Devourer
 	[BLOODBOUND_HORROR] = { 214502 },	-- The Bloodbound Horror
 	[SIKRAN] = { 214503 },	-- Sikran <Captain of the Sureki>
-	[RASHANAN] = {
-		224552,	-- Rasha'nan (?)
-		214504,	-- Rasha'nan (N/H)
-	},
+	[RASHANAN] = { 214504 },	-- Rasha'nan
 	[OVINAX] = { 214506 },	-- Broodtwister Ovi'nax
-	[KYVEZA] = {
-		218425,	-- Nexus-Princess Ky'veza (?)
-		217748,	-- Nexus-Princess Ky'veza (N/H)
-	},
+	[KYVEZA] = { 217748 },	-- Nexus-Princess Ky'veza
 	[SILKEN_COURT] = {
-		223779,	-- Anub'arash <The Thousand Scars> (?)
-		217489,	-- Anub'arash <The Thousand Scars> (N/H)
-		223781,	-- Skeinspinner Takazj (?)
-		217491,	-- Skeinspinner Takazj (N/H)
+		217489,	-- Anub'arash <The Thousand Scars>
+		217491,	-- Skeinspinner Takazj
 	},
-	[ANSUREK] = {
-		227323,	-- Queen Ansurek (?)
-		218370,	-- Queen Ansurek (N/H)
-	},
+	[ANSUREK] = { 218370 },	-- Queen Ansurek
 };
 
 ------ EncounterToLoot ------
@@ -261,7 +247,7 @@ local ZoneDropLoot = {
 	i(225724),	-- Shrillwing Hunter's Prey
 	i(225723),	-- Venom Stalker's Strap
 	i(225720),	-- Web Acolyte's Hood
-}
+};
 
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot, ZoneDropLoot)
@@ -392,8 +378,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						40262,	-- Cowabunga
 						40263,	-- Would You Still /love Me if I Was a Worm...
 						40264,	-- Kill Streak
-						40265,	-- [PH] The Silken Court Achievement
-						40730,	-- Love is in the Lair (TODO: verify, atm it lists [PH] The Silken Court Achievement)
+						40730,	-- Love is in the Lair
 						40266,	-- Missed 'Em by That Much
 					}},
 					["g"] = {

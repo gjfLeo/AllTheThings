@@ -1423,7 +1423,9 @@ i(235016);	-- Redeployment Module
 -- PATCH 11.1.0 --
 ------------------
 i(230850);	-- Delve-O-Bot 7001
+i(236687);	-- Explosive Hearthstone
 i(230727);	-- Explosive Victory
+i(236769);	-- Gallagio Pipeline Rerouter
 i(235519);	-- Prized Legend's Pennant
 i(230924);	-- Spotlight Materializer 1000
 i(231064);	-- Throwaway Gangster Disguise
@@ -1431,10 +1433,8 @@ i(231064);	-- Throwaway Gangster Disguise
 i(234950);	-- Atomic Regoblinator
 i(235670);	-- Bilgewater Cartel Banner
 i(235671);	-- Blackwater Cartel Banner
-i(236687);	-- Explosive Hearthstone
 i(235220);	-- Fireworks Hat
 i(233202);	-- G.O.L.E.M Jr.
-i(236769);	-- Gallagio Pipeline Rerouter
 i(235801);	-- Personal Fishing Barge
 i(235669);	-- Steamwheedle Cartel Banner
 i(235807);	-- Storefront-in-a-Box

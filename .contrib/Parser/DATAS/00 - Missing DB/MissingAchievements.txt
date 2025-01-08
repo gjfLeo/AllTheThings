@@ -87,10 +87,6 @@ ach(41113),	-- Algari Delver Tank II
 ach(41114),	-- Algari Delver Tank III
 ach(41115),	-- Algari Delver
 ach(41116),	-- Algari Delver II
-ach(41119),	-- One Rank Higher
-ach(41120),	-- Two Ranks Higher
-ach(41121),	-- Three Ranks Higher
-ach(41122),	-- Best In Class
 ach(41191),	-- War Within Delves: Tier 4 (Season 2)
 ach(41192),	-- War Within Delves: Tier 5 (Season 2)
 ach(41193),	-- War Within Delves: Tier 7 (Season 2)
@@ -99,35 +95,11 @@ ach(41195),	-- War Within Delves: Tier 9 (Season 2)
 ach(41196),	-- War Within Delves: Tier 10 (Season 2)
 ach(41197),	-- War Within Delves: Tier 11 (Season 2)
 ach(41198),	-- War Within Delves: Tier 6 (Season 2)
-ach(41208),	-- Hold My Gear!
 ach(41210),	-- Let Me Solo Him: The Underpin
-ach(41211),	-- A Good Day to Dye Hard
 ach(41214),	-- Under the Echoes
 ach(41215),	-- Echoes of Deeper Dangers
 ach(41216),	-- Adventurer of Undermine
 ach(41217),	-- Treasures of Undermine
-ach(41222),	-- Liberation of Undermine
-ach(41223),	-- Heroic: Liberation of Undermine
-ach(41224),	-- Mythic: Liberation of Undermine
-ach(41225),	-- Shock and Awesome
-ach(41226),	-- Maniacle Machinist
-ach(41227),	-- Beating the Odds
-ach(41228),	-- Fall of the Chrome King
-ach(41229),	-- Mythic: Vexie and the Geargrinders
-ach(41230),	-- Mythic: Cauldron of Carnage
-ach(41231),	-- Mythic: Rik Reverb
-ach(41232),	-- Mythic: Stix Bunkjunker
-ach(41233),	-- Mythic: Sprocketmonger Locknstock
-ach(41234),	-- Mythic: The One-Armed Bandit
-ach(41235),	-- Mythic: Mug'Zee, Heads of Security
-ach(41236),	-- Mythic: Chrome King Gallywix
-ach(41286),	-- Glory of the Liberation of Undermine Raider
-ach(41289),	-- Liberation of Undermine Guild Run
-ach(41290),	-- Heroic Liberation of Undermine Guild Run
-ach(41292),	-- Mythic: Chrome King Gallywix Guild Run
-ach(41296),	-- Hall of Fame: Chrome King Gallywix
-ach(41297),	-- Cutting Edge: Chrome King Gallywix
-ach(41298),	-- Ahead of the Curve: Chrome King Gallywix
 ach(41299),	-- Vexie and the Geargrinders (Raid Finder Liberation of Undermine)
 ach(41300),	-- Vexie and the Geargrinders (Normal Liberation of Undermine)
 ach(41301),	-- Vexie and the Geargrinders (Heroic Liberation of Undermine)
@@ -161,15 +133,12 @@ ach(41328),	-- Chrome King Gallywix (Normal Liberation of Undermine)
 ach(41329),	-- Chrome King Gallywix (Heroic Liberation of Undermine)
 ach(41330),	-- Chrome King Gallywix (Mythic Liberation of Undermine)
 ach(41331),	-- G-99 Breakneck <Tracking Achievement>
-ach(41337),	-- Sleep with the Fishes
-ach(41338),	-- Just /Dance
 ach(41339),	-- Operation: Floodgate
 ach(41340),	-- Heroic: Operation: Floodgate
 ach(41341),	-- Mythic: Operation: Floodgate
 ach(41342),	-- Geezle Gigazap (Normal Operation: Floodgate)
 ach(41343),	-- Geezle Gigazap (Heroic Operation: Floodgate)
 ach(41344),	-- Geezle Gigazap (Mythic Operation: Floodgate)
-ach(41347),	-- Scheming on a Thing
 ach(41349),	-- In with the Cartels
 ach(41350),	-- A Long Fuse
 ach(41351),	-- Cartels Bestie
@@ -194,7 +163,6 @@ ach(41548),	-- Magic Battler of Undermine
 ach(41549),	-- Mechanical Battler of Undermine
 ach(41550),	-- Undead Battler of Undermine
 ach(41551),	-- Family Battler of Undermine
-ach(41554),	-- The Splash Zone
 ach(41555),	-- All That Khaz
 ach(41586),	-- Racing to a Revolution
 ach(41587),	-- Explore Undermine
@@ -205,7 +173,6 @@ ach(41591),	-- Really No Littering
 ach(41592),	-- Absolutely Zero Littering
 ach(41593),	-- Cleanin' the Streets
 ach(41594),	-- Can You Believe What People Throw Away?
-ach(41596),	-- Garbage In, Garbage Out
 ach(41626),	-- C.H.E.T.T. a Look
 ach(41627),	-- C.H.E.T.T.ing it Twice
 ach(41629),	-- C.H.E.T.T.mate

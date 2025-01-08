@@ -90,14 +90,13 @@ root(ROOTS.Unsorted, {
 				mount(466013),	-- Ocher Delivery Rocket (MOUNT!)
 				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
 				mount(466020),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
-				mount(1221155),	-- Prototype A.S.M.R. (MOUNT!) [Raid]
 
 				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
 				i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!) [Raid]
 				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
-				i(235626),	-- The Big G (MOUNT!) [Gallywix Mythic]
+
 				mount(466016),	-- The Topskimmer Special (MOUNT!)
 				mount(466146),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]
 				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]
@@ -108,6 +107,14 @@ root(ROOTS.Unsorted, {
 				mount(466464),	-- Unstable Rocket
 			}),
 			n(ARMOR, {	-- Raid?
+
+
+				i(228822),	-- Burgled Art
+				i(228948),	-- Jazz's Shrink Ray
+				i(228975),	-- Blackwater Cannonball
+				i(228988),	-- Rock Reviver
+			}),
+			n(SETS, {
 				i(228799),	-- Dreadful Greased Gallybux
 				i(228800),	-- Mystic Greased Gallybux
 				i(228801),	-- Venerated Greased Gallybux
@@ -128,81 +135,6 @@ root(ROOTS.Unsorted, {
 				i(228816),	-- Mystic Polished Gallybux
 				i(228817),	-- Venerated Polished Gallybux
 				i(228818),	-- Zenith Polished Gallybux
-				i(228819),	-- Excessively Bejeweled Curio
-				i(228822),	-- Burgled Art
-				i(228839),	-- Undercircuit Racing Flag
-				i(228840),	-- Faded Championship Ring
-				i(228841),	-- Semi-Charmed Amulet
-				i(228842),	-- Gobfather's Gifted Bling
-				i(228843),	-- Miniature Roulette Wheel
-				i(228844),	-- Test Pilot's Go-Pack
-				i(228845),	-- Sash of the Fierce Diva
-				i(228846),	-- Galvanic Graffiti Cuffs
-				i(228847),	-- Hotstep Heel-Turners
-				i(228848),	-- Darkfuse Racketeer's Tricorne
-				i(228849),	-- Dumpmech Compactors
-				i(228850),	-- Bottom-Dollar Blouse
-				i(228851),	-- 'Bullet-Proof' Vestplate
-				i(228852),	-- Blazer of Glory
-				i(228853),	-- Hired Muscle's Legguards
-				i(228854),	-- Bilgerat's Discarded Slacks
-				i(228855),	-- Paydirt Pauldrons
-				i(228856),	-- Competitor's Battle Cord
-				i(228857),	-- Underparty Admission Bracelet
-				i(228858),	-- Fullthrottle Facerig
-				i(228859),	-- Sanitized Scraphood
-				i(228860),	-- Epaulettes of Failed Enforcers
-				i(228861),	-- Tune-Up Toolbelt
-				i(228862),	-- Shrapnel-Ridden Sabatons
-				i(228863),	-- Enforcer's Sticky Fingers
-				i(228864),	-- "Streamlined" Cartel Uniform
-				i(228865),	-- Pit Doctor's Petticoat
-				i(228866),	-- Deep-Pocketed Pantaloons
-				i(228867),	-- Gravi-Gunk Handlers
-				i(228868),	-- Revved-Up Vambraces
-				i(228869),	-- Killer Queen's Wristflickers
-				i(228870),	-- Underboss's Tailored Mantle
-				i(228871),	-- Cleanup Crew's Wastemask
-				i(228872),	-- Golden Handshakers
-				i(228873),	-- Heaviestweight Title Belt
-				i(228874),	-- Rik's Walkin' Boots
-				i(228875),	-- Vandal's Skullplating
-				i(228876),	-- Dragster's Last Stride
-				i(228877),	-- Dealer's Covetous Chain
-				i(228878),	-- Made Manacles
-				i(228879),	-- Cemented Murloc-Swimmers
-				i(228880),	-- Hitman's Holster
-				i(228881),	-- Illicit Bankroll Bracers
-				i(228882),	-- Refiner's Conveyor Belt
-				i(228883),	-- Dubious Table-Runners
-				i(228884),	-- Test Subject's Clasps
-				i(228885),	-- Hustler's Ante-Uppers
-				i(228886),	-- Coin-Operated Girdle
-				i(228887),	-- Cutthroat Competition Stompers
-				i(228888),	-- Rushed Beta Launchers
-				i(228889),	-- Titan of Industry
-				i(228890),	-- Superfan's Beater-Buzzer
-				i(228891),	-- Capital Punisher
-				i(228892),	-- Greasemonkey's Shift-Stick
-				i(228893),	-- "Tiny Pal"
-				i(228894),	-- GIGADEATH Chainblade
-				i(228895),	-- Remixed Ignition Saber
-				i(228896),	-- Stix's Metal Detector
-				i(228897),	-- Pyrotechnic Needle-Dropper
-				i(228898),	-- Alphacoil Ba-Boom Stick
-				i(228899),	-- Gallywix's Iron Thumb
-				i(228900),	-- Tournament Arc
-				i(228901),	-- Big Earner's Bludgeon
-				i(228902),	-- Wiseguy's Refused Offer
-				i(228903),	-- Dumpster Diver
-				i(228904),	-- Crowd Favorite
-				i(228905),	-- Giga Bank-Breaker
-				i(228906),	-- Operator's Fraud Detector
-				i(228948),	-- Jazz's Shrink Ray
-				i(228975),	-- Blackwater Cannonball
-				i(228988),	-- Rock Reviver
-			}),
-			n(SETS, {
 				i(229230),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Generic - Cloak
 				i(229231),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Wrist
 				i(229232),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Waist
@@ -867,24 +799,24 @@ root(ROOTS.Unsorted, {
 
 
 			i(230017),	-- Master Blaster's Insignia
-			i(230019),	-- Vexie's Pit Whistle
-			i(230026),	-- Scrapfield 9001
-			i(230027),	-- House of Cards
-			i(230029),	-- Chromebustible Bomb Suit
 
-			i(230186),	-- Mister Pick-Me-Up
+
+
+
+
+
 			i(230187),	-- Lucio Boombox
-			i(230188),	-- Gallagio Bottle Service
-			i(230189),	-- Junkmaestro's Mega Magnet
-			i(230190),	-- Torq's Big Red Button
-			i(230191),	-- Flarendo's Pilot Light
-			i(230192),	-- Mug's Moxie Jug
-			i(230193),	-- Mister Lock-N-Stalk
-			i(230194),	-- Reverb Radio
+
+
+
+
+
+
+
 			i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket
-			i(230197),	-- Geargrinder's Spare Keys
-			i(230198),	-- Eye of Kezan
-			i(230199),	-- Zee's Thug Hotline
+
+
+
 			i(230203),	-- Taunting Note
 			i(230212),	-- Emergency Teleporter
 			i(230225),	-- Kaja'Cola Carrier
@@ -926,12 +858,12 @@ root(ROOTS.Unsorted, {
 			i(231099),	-- Back-Strapped Missile
 			i(231164),	-- Goblin Grapnel
 			i(231264),	-- Glorious Cluster of Gilded Undermine Crests
-			i(231265),	-- The Jastor Diamond
-			i(231266),	-- Random Number Perforator
-			i(231268),	-- Blastfurious Machete
+
+
+
 			i(231270),	-- Pack of Runed Undermine Crests
 			i(231291),	-- Radar
-			i(231311),	-- Frontman's Wondrous Wall
+
 			i(231369),	-- Redberry
 			i(231526),	-- Bilgewater Undermine Tabard
 			i(231527),	-- Steamwheedle Undermine Tabard
@@ -1031,7 +963,7 @@ root(ROOTS.Unsorted, {
 			i(232509),	-- Undermine Treatise on Mining
 			i(232515),	-- Experimental Goblin Jetpack
 			i(232523),	-- G-99 Breakneck
-			i(232526),	-- Best-in-Slots
+
 			i(232532),	-- Contract: The Cartels of Undermine
 			i(232533),	-- Contract: The Cartels of Undermine
 			i(232534),	-- Contract: The Cartels of Undermine
@@ -1046,15 +978,7 @@ root(ROOTS.Unsorted, {
 			i(232619),	-- Gary the Goldfish
 
 			i(232651),	-- Faded Journal Page
-			i(232655),	-- Vatwork Janitor's Wasteband
-			i(232656),	-- Psychopath's Ravemantle
-			i(232657),	-- Mechgineer's Blowtorch Cover
-			i(232658),	-- Firebug's Anklegear
-			i(232659),	-- Loyalist's Holdout Hood
-			i(232660),	-- Midnight Lounge Cummerbund
-			i(232661),	-- Bootleg Wrynn Shoulderplates
-			i(232662),	-- Globlin-Fused Greatbelt
-			i(232663),	-- Undermine Merc's Dog Tags
+
 
 			i(232725),	-- Pilot's Oiled Trousers
 			i(232726),	-- Well-Trodden Mechanic's Shoes
@@ -1116,8 +1040,8 @@ root(ROOTS.Unsorted, {
 			i(232786),	-- Trigger-Sniffer's Handwraps
 			i(232787),	-- Wristwraps of the Certified Hunter
 			i(232790),	-- Medal of Conquest
-			i(232804),	-- Capo's Molten Knuckles
-			i(232805),	-- Best-in-Slots
+
+
 			i(232806),	-- Tiny Torq
 			i(232807),	-- Iron Chick
 			i(232838),	-- Viridian Mechasaur
@@ -1908,7 +1832,7 @@ root(ROOTS.Unsorted, {
 			i(236680),	-- Imitation Crab Meat
 			i(236681),	-- Liquid Gold
 			i(236682),	-- C.H.E.T.T. List
-			i(236687),	-- Explosive Hearthstone
+
 			i(236689),	-- Finder's Fee
 			i(236749),	-- Take-Home Torq
 			i(236751),	-- Take-Home Flarendo
@@ -1919,7 +1843,7 @@ root(ROOTS.Unsorted, {
 			i(236764),	-- Finder's Fee
 			i(236765),	-- Finder's Fee
 			i(236768),	-- Craboom
-			i(236769),	-- Gallagio Pipeline Rerouter
+
 			i(236773),	-- Swallowed Kaja'mite
 			i(236785),	-- C.H.E.T.T. Card
 			i(236852),	-- Gallagio Highroller's Boomstone
