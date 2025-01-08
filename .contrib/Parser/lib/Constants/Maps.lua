@@ -563,3 +563,6 @@ THE_UNDERKEEP = 2299;
 THE_WATERWORKS = 2251;
 ZEKVIRS_LAIR = 2348;
 THE_WAR_CRECHE = 2373;	-- Starting zone for non-evoker Dracthyr
+
+
+UNDERMINE = 9999 -- someone fix this pls, it's being used but not defined
