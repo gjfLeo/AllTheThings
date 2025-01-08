@@ -82,7 +82,6 @@ root(ROOTS.Unsorted, {
 				mount(466019),	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
 				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
 				i(229935),	-- Crimson Armored Growler (MOUNT!)
-				mount(1217235),	-- Crimson Shreddertank (MOUNT!) [Mythic+]
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
 				mount(468068),	-- Junkmaestro's Magnetomech (MOUNT!)
 				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]

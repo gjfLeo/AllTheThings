@@ -4106,7 +4106,6 @@ i(0, 4502);			-- Kaheti Bull Worm
 i(0, 4493);			-- Redthroat Skipling
 i(0, 4509);			-- Sporbit [Blue]
 i(0, 4505);			-- Sporbit [Orange]
-i(0, 4507);			-- Sporbit [Purple]
 i(0, 4504);			-- Sporbit [Red]
 i(0, 4503);			-- Sporbit [Teal]
 i(0, 4508);			-- Sporbit [Yellow]
@@ -4307,41 +4306,53 @@ i(234396, 4728);	-- Teatuft Tamer
 --- ITEM ---
 --- NPC ---
 --- UNSORTED ---
---i(232845, ???);	-- Bilgewater Junkhauler
---i(232850, ???);	-- Blackwater Kegmover
+i(232845, 4645);	-- Bilgewater Junkhauler
+i(232850, 4649);	-- Blackwater Kegmover
 i(236768, 4759);	-- Craboom
---i(232842, ???);	-- Crimson Mechasaur
---i(232858, ???);	-- Cruncher
---i(232853, ???);	-- Eepy
+i(232842, 4638);	-- Crimson Mechasaur
+i(232858, 4655);	-- Cruncher
+i(232853, 4632);	-- Eepy
 --i(???, 4739);	-- Fancier Rat
---i(232855, ???);	-- Foreman
---i(232844, ???);	-- Fuz-Size Flarendo
+i(232855, 4631);	-- Foreman
+i(232844, 4640);	-- Fuz-Size Flarendo
 i(235909, 4755);	-- Gleam
---i(232857, ???);	-- Goggles
---i(232843, ???);	-- Gorillion
---i(232854, ???);	-- Grinner
+i(232857, 4635);	-- Goggles
+i(232843, 4642);	-- Gorillion
+i(232854, 4634);	-- Grinner
 --i(???, 4740);	-- Handbag Hyena
---i(232807, ???);	-- Iron Chick
---i(232859, ???);	-- Lab Rat
---i(232840, ???);	-- Mechagopher
---i(232848, ???);	-- Mr. DELVER
---i(232852, ???);	-- Mutt
---i(232847, ???);	-- Personal-Use Sapper
---i(232841, ???);	-- Professor Punch
---i(232851, ???);	-- Rocketfist
---i(232856, ???);	-- Scruff
---i(232895, ???);	-- Spotty
+i(232807, 4664);	-- Iron Chick
+i(232859, 4653);	-- Lab Rat
+i(232840, 4661);	-- Mechagopher
+i(232848, 4647);	-- Mr. DELVER
+i(232852, 4636);	-- Mutt
+i(232847, 4646);	-- Personal-Use Sapper
+i(232841, 4644);	-- Professor Punch
+i(232851, 4641);	-- Rocketfist
+i(232856, 4633);	-- Scruff
+i(232895, 4701);	-- Spotty
 --i(???, 4738);	-- Status Symbol
---i(232846, ???);	-- Steamwheedle Flunkie
---i(232806, ???);	-- Tiny Torq
---i(232849, ???);	-- Venture Companyman
---i(232838, ???);	-- Viridian Mechasaur
---i(232839, ???);	-- Wavebreaker Mechasaur
+i(232846, 4648);	-- Steamwheedle Flunkie
+i(232806, 4643);	-- Tiny Torq
+i(232849, 4650);	-- Venture Companyman
+i(232838, 4639);	-- Viridian Mechasaur
+i(232839, 4637);	-- Wavebreaker Mechasaur
 --- UNSORTED WILD ---
+n(231550, 4656);	-- Bombshell Crab
 n(237713, 4741);	-- Cannoneer
+n(231570, 4658);	-- Cave Crab
+n(222420, 4484);	-- Frenzied Bloodtick
+n(222592, 4507);	-- Hemospore/Sporbit [Purple] (?)
+n(231572, 4659);	-- Kaja Crab
+n(231579, 4663);	-- Lime Roboclucker
 n(237714, 4742);	-- Lookout
 n(237720, 4744);	-- Muddy Croach
 n(237701, 4737);	-- Precision Powerdrill
 n(237721, 4745);	-- Rusty Croach
 n(237719, 4746);	-- Sooty Croach
+n(231684, 4667);	-- Spring-Loaded Ribbitron
 n(237715, 4743);	-- Swabbie
+n(231616, 4666);	-- Tropical Frog
+n(231481, 4654);	-- Underroach
+n(231577, 4662);	-- Varmint MK II
+n(231567, 4657);	-- Venture Crab/Bombshell (?)
+n(231477, 4651);	-- Wily Rat
