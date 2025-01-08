@@ -228,16 +228,19 @@ local function FilterItemSourceUnique(sourceInfo, allSources)
 	if sourceInfo.isCollected then return true end
 
 	-- If at least one of the sources of this visual ID was collected, that means that we've collected the provided source
-	local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
+	local checkSourceID = sourceInfo.sourceID
+	local item = SearchForSourceIDQuickly(checkSourceID);
 	if not item then return end
 
 	local knownItem, knownSource, valid;
+	-- app.PrintDebug("FISU",checkSourceID,item.f,item.races,item.c,item.r)
 	local factionRaces = app.Modules.FactionData.FACTION_RACES;
 	for _,sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 		-- only compare against other Sources of the VisualID which the Account knows
-		if sourceID ~= sourceInfo.sourceID and AccountSources[sourceID] == 1 then
+		if sourceID ~= checkSourceID and AccountSources[sourceID] == 1 then
 			knownItem = SearchForSourceIDQuickly(sourceID);
 			if knownItem then
+				-- app.PrintDebug("FISU?",sourceID,knownItem.f,knownItem.races,knownItem.c,knownItem.r)
 				-- filter matches or one item is Cosmetic
 				if item.f == knownItem.f or item.f == 2 or knownItem.f == 2 then
 					valid = true;
@@ -298,7 +301,7 @@ local function FilterItemSourceUnique(sourceInfo, allSources)
 				then
 					-- print("OH NOES! MISSING SOURCE ID ", sourceID, " FOUND THAT YOU HAVE COLLECTED, BUT ATT DOESNT HAVE!!!!");
 					return true;
-				-- else print(knownSource.sourceID, sourceInfo.sourceID, "share appearances, but one is ", sourceInfo.invType, "and the other is", knownSource.invType, sourceInfo.categoryID);
+				-- else print(knownSource.sourceID, checkSourceID, "share appearances, but one is ", sourceInfo.invType, "and the other is", knownSource.invType, sourceInfo.categoryID);
 				end
 			end
 		end
@@ -330,16 +333,19 @@ local function GetUniqueUnlockedSourceIDs(sourceID, visualID, filter)
 	local unlockedSourceIDs, allSources = {}, C_TransmogCollection_GetAllAppearanceSources(visualID)
 	for _,otherSourceID in ipairs(allSources) do
 		-- If this isn't the source we already did work on and we haven't already completed it
-		if not AccountSources[otherSourceID] then
+		-- app.PrintDebug("CheckUniqueUnlock",otherSourceID,AccountSources[otherSourceID],AccountUniqueSources[otherSourceID])
+		if not AccountSources[otherSourceID] or otherSourceID == sourceID then
 			local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID)
 			if otherSourceInfo then
 				if otherSourceInfo.isCollected then
-					AccountSources[otherSourceID] = 1
+					-- app.PrintDebug("CheckUniqueUnlock isCollected")
+					-- AccountSources is already set via collection logic
 					if not AccountUniqueSources[otherSourceID] then
 						unlockedSourceIDs[#unlockedSourceIDs + 1] = otherSourceID
 					end
 					AccountUniqueSources[otherSourceID] = nil
 				elseif filter(otherSourceInfo, allSources) then
+					-- app.PrintDebug("CheckUniqueUnlock from filter")
 					AccountUniqueSources_ADD(otherSourceID)
 					-- if this otherSourceID was collected only from this new sourceID, then track it
 					if AccountUniqueSources[otherSourceID] == 1 then
@@ -359,7 +365,7 @@ local function GetUniqueRemovedSourceIDs(sourceID, visualID, filter)
 			-- app.PrintDebug("UniqueRemove?",otherSourceID,otherSourceInfo.isCollected,filter(otherSourceInfo, allSources))
 			if otherSourceInfo and not otherSourceInfo.isCollected and not filter(otherSourceInfo, allSources) then
 				-- if the otherSourceID will be no longer unique collected due to this removal, then track it
-				if otherSourceID ~= sourceID and AccountUniqueSources[otherSourceID] == 1 then
+				if otherSourceID == sourceID or AccountUniqueSources[otherSourceID] == 1 then
 					removedSourceIDs[#removedSourceIDs + 1] = otherSourceID
 				end
 				AccountUniqueSources_REM(otherSourceID)
