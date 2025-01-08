@@ -71,16 +71,16 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
 		}),
 		i(230200, {	-- Chaos-Forged Dreadwing (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
 		}),
 		i(230184, {	-- Chaos-Forged Gryphon (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
 		}),
 		i(230185, {	-- Chaos-Forged Hippogryph (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
 		}),
 		i(230201, {	-- Chaos-Forged Wind Rider (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
 		}),
 		i(109013, {	-- Dread Raven (MOUNT!)
 			["timeline"] = { ADDED_5_4_7, REMOVED_8_3_0, ADDED_10_1_0 },
@@ -151,7 +151,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_0 },
 		}),
 		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
 		}),
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
@@ -270,7 +270,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_0 },
 		}),
 		i(231294, {	-- Reven (PET!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 7, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 7, 2025
 		}),
 		i(151234, {	-- Shadow (PET!)
 			["timeline"] = { ADDED_7_3_0 },
@@ -552,7 +552,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
 		}),
 		i(231290, {	-- Reven's Comfy Carrier
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 7, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 7, 2025
 		}),
 		i(188260, {	-- Ruby Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
