@@ -130,7 +130,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(228764, {	-- Classic Sunny Tabard
 				["description"] = "Krogers promotional item. You have to earn points before Jan 8, 2025 and redeem before Feb 7, 2025. Can be redeemed for 1500 rewards points from pointsrewardsplus.com. With a referral link, just signing up will earn you enough points to redeem the tabard for free. Access the code from the account page and then redeem on battle.net or in the launcher.",
-				["timeline"] = { ADDED_11_0_2, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.7.58238" },
 				["u"] = REAL_MONEY,
 			}),
 			i(225250, {	-- Startouched Furline (MOUNT!)
