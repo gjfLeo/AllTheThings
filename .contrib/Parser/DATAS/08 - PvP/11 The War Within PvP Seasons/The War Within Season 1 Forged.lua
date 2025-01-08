@@ -825,7 +825,6 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 					moh(5, i(225857)),	-- Forged Gladiator's Dagger
 					moh(5, i(225866)),	-- Forged Gladiator's Focus
 					moh(10, i(225871)),	-- Forged Gladiator's Greataxe
-					moh(10, i(225862)),	-- Forged Gladiator's Greatstaff
 					moh(5, i(225858)),	-- Forged Gladiator's Pincer
 					moh(10, i(225872)),	-- Forged Gladiator's Pulverizer
 					moh(5, i(225865)),	-- Forged Gladiator's Scepter

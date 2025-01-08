@@ -843,6 +843,8 @@ root(ROOTS.NeverImplemented, {
 
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+			-- Reported in Discord
+			moh(10, i(225862)),	-- Forged Gladiator's Greatstaff
 			-- Leave this for Darkal //Braghe
 			i(219780),	-- 11.0 Leveling Quest Template - Axe2H - Str
 			i(219781),	-- 11.0 Leveling Quest Template - FistWeapon - Agi
