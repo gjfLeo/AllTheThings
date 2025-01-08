@@ -459,7 +459,7 @@ ExportDB.AccountWideQuestsDB = {
 	[85183] = true,	-- Delver's Gob-Trotter Schematic: Green
 	[85175] = true,	-- Delver's Gob-Trotter Schematic: Harpoon
 	[85179] = true,	-- Delver's Gob-Trotter Schematic: Pipes
-
+	[85775] = true,	-- G77C Ultra
 	-- #ENDIF
 
 	-- Manual scrape from a brand new character & 86000 scan of C_QuestLog.IsAccountQuest

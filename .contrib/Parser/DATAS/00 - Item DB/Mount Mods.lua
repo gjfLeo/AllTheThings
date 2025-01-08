@@ -482,6 +482,7 @@ i(230217, 85177);	-- Delver's Gob-Trotter Schematic: Flamethrower
 i(230220, 85183);	-- Delver's Gob-Trotter Schematic: Green
 i(230216, 85175);	-- Delver's Gob-Trotter Schematic: Harpoon
 i(230218, 85179);	-- Delver's Gob-Trotter Schematic: Pipes
+i(232982, 85775);	-- G77C Ultra
 --- UNSORTED ---
 i(235697, 82192);	-- Delver's Dirigible Schematic: Alliance Decal
 i(235694, 82117);	-- Delver's Dirigible Schematic: Blue Paint
@@ -501,7 +502,7 @@ i(236672, 85785);	-- Lil' Squeaker
 i(232978, 85786);	-- Louie Firehands
 i(236670, 85787);	-- Maniacal Melodies
 i(236671, 85786);	-- The Whole Brass Band
-i(232982, 85775);	-- G77C Ultra
+
 i(232981, 85776);	-- GNZ Airmaster 9000
 i(232983, 85783);	-- Steamboil
 i(232984, 85784);	-- Handcrank

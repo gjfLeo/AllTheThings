@@ -31,10 +31,9 @@ faction(2647),	-- The Vizier (Paragon) \\ The Vizier (Notoriety), Paragon
 faction(2648),	-- The Weaver (Paragon) \\ The Weaver (Notoriety), Paragon
 faction(2649),	-- The General (Paragon) \\ The General (Notoriety), Paragon
 11.0.5.56487
-faction(2682),	-- 
+faction(2682),	--
 11.1.0.58221
 faction(2652),	-- Darkfuse Enforcement
-faction(2653),	-- The Cartels of Undermine
 faction(2667),	-- The Cartels of Undermine (Paragon)
 faction(2668),	-- Darkfuse Solutions (Paragon)
 faction(2669),	-- Darkfuse Solutions

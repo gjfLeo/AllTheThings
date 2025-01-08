@@ -8,17 +8,11 @@ root(ROOTS.Unsorted, {
 			n(ARMOR, {
 				-- Quest Rewards?
 				i(232356),	-- Chainmail of the Undermine Revolutionary
-				i(232379),	-- Slime-Slicked Slippers
-				i(232381),	-- Mostly Cobbled Shoes
-				i(232383),	-- Soot-Encrusted Kickers
-				i(232384),	-- Aqirite-Toe Boots
+
 				i(232406),	-- Headgear of the Undermine Revolutionary
 				i(232407),	-- Boots of the Undermine Revolutionary
 				i(232408),	-- Legguards of the Undermine Revolutionary
-				i(232410),	-- Craftsman's Repurposed Mitts
-				i(232411),	-- Goblin Boxer's Wraps
-				i(232412),	-- Undermine Smelter's Gloves
-				i(232413),	-- Retired Bouncer's Gauntlets
+
 				i(232440),	-- [PH] Boreal Crossbow
 				i(235146),	-- Maniac Biker's Wristguards
 				i(235147),	-- Maniac Biker's Shoulderguards
@@ -280,13 +274,13 @@ root(ROOTS.Unsorted, {
 				i(231740),	-- Steamwheedle Bruiser's Helm
 				i(231741),	-- Blackwater Bruiser's Helm
 				i(231742),	-- Bilgewater Bruiser's Helm
-				i(231743),	-- Undermine Enforcer's Helmet
+
 				i(231744),	-- Venture Co. Bruiser's Helm
 				i(231745),	-- Black Bruiser's Shoulderspikes
 				i(231746),	-- Blackwater Bruiser's Spaulders
 				i(231747),	-- Steamwheedle Bruiser's Spaulders
 				i(231748),	-- Bilgewater Bruiser's Spaulders
-				i(231749),	-- Undermine Enforcer's Spikes
+
 				i(231750),	-- Venture Co. Bruiser's Spaulders
 
 
@@ -515,7 +509,7 @@ root(ROOTS.Unsorted, {
 				i(236671),	-- The Whole Brass Band (MM!)
 
 				-- Engines
-				i(232982),	-- G77C Ultra (MM!)
+
 				i(232981),	-- GNZ Airmaster 9000 (MM!)
 
 				-- Turbos
@@ -610,17 +604,7 @@ root(ROOTS.Unsorted, {
 				i(232465),	-- The Cartel's Trove
 				i(232485),	-- Mechano-Core Amplifier
 				i(232486),	-- Noggenfogger Ultimate Deluxe
-				i(232499),	-- Undermine Treatise on Alchemy
-				i(232500),	-- Undermine Treatise on Blacksmithing
-				i(232501),	-- Undermine Treatise on Enchanting
-				i(232507),	-- Undermine Treatise on Engineering
-				i(232503),	-- Undermine Treatise on Herbalism
-				i(232508),	-- Undermine Treatise on Inscription
-				i(232504),	-- Undermine Treatise on Jewelcrafting
-				i(232505),	-- Undermine Treatise on Leatherworking
-				i(232509),	-- Undermine Treatise on Mining
-				i(232506),	-- Undermine Treatise on Skinning
-				i(232502),	-- Undermine Treatise on Tailoring
+
 				i(232515),	-- Experimental Goblin Jetpack
 
 				-- Delves
@@ -772,10 +756,10 @@ root(ROOTS.Unsorted, {
 				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
-				mount(466016),	-- The Topskimmer Special (MOUNT!)
+
 				mount(466146),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]
 				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]
-				mount(466002),	-- Violet Armored Growler (MOUNT!)
+
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
 				-- Probably not real
 				mount(466423),	-- Unstable Rocket
@@ -804,7 +788,7 @@ root(ROOTS.Unsorted, {
 					i(230987),	-- Nascent Weathered Undermine Crest
 				}),
 				prof(ENGINEERING, {
-					i(234274),	-- Schematic: 22H Slicks
+
 					i(235037),	-- Crumpled Schematic: Wormhole Generator: Undermine
 					i(235038),	-- Crumpled Schematic
 
@@ -821,17 +805,17 @@ root(ROOTS.Unsorted, {
 					i(232532),	-- Contract: The Cartels of Undermine+
 					i(232533),	-- Contract: The Cartels of Undermine++
 					i(232534),	-- Contract: The Cartels of Undermine+++
-					i(232535),	-- Technique: Contract: The Cartels of Undermine
+
 					i(232936),	-- Vantus Rune: Undermine+
 					i(232935),	-- Vantus Rune: Undermine++
 					i(232937),	-- Vantus Rune: Undermine+++
-					i(233022),	-- Technique: Vantus Rune: Undermine
+
 				}),
 				prof(LEATHERWORKING, {
 					i(235335),	-- Charged Armor Kit
 					i(235336),	-- Charged Armor Kit
 					i(235337),	-- Charged Armor Kit
-					i(235338),	-- Pattern: Charged Armor Kit
+
 				}),
 			}),
 			n(PVP, {

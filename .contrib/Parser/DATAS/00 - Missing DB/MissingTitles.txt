@@ -7,7 +7,6 @@ title(597),	-- Breaknecker %s
 title(598),	-- Delver %s
 title(599),	-- Infinite Delver %s
 title(602),	-- High Roller %s
-title(603),	-- %s the Explosive
 title(606),	-- Darkfuse Diplomat %s
 title(607),	-- Trade-Duke %s
 title(612),	-- %s, the Real Deal

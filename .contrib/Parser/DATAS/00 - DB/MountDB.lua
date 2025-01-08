@@ -1962,6 +1962,8 @@ i(232523, 460013);	-- G-99 Breakneck
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
 i(0, 1221155);		-- Prototype A.S.M.R.
 i(235626, 1217760);	-- The Big G
+i(229944, 466016);	-- The Topskimmer Special
+i(229936, 466002);	-- Violet Armored Growler
 --- UNSORTED ---
 i(0, 466019);		-- Blackwater Shredder Deluxe Mk 2
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
@@ -1980,10 +1982,9 @@ i(229953, 466026);	-- Salvaged Goblin Gazillionaire's Flying Machine
 i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly
-i(0, 466016);		-- The Topskimmer Special
+
 i(0, 466146);		-- Vicious Electro Eel [A]
 i(0, 466145);		-- Vicious Electro Eel [H]
-i(0, 466002);		-- Violet Armored Growler
 i(235556, 1217342);	-- Violet Darkmoon Charger
 --- Probably not real Mounts
 i(0, 466423);	-- Unstable Rocket
