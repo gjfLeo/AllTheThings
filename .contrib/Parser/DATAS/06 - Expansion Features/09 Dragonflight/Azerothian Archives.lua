@@ -437,6 +437,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					},
 					["coords"] = {
 						{ 61.6, 31.3, THALDRASZUS },
+						{ 27, 46.5, THE_AZURE_SPAN },
 						{ 55.3, 51.4, 2262 },	-- Traitor's Rest
 					},
 					["isWeekly"] = true,

@@ -171,6 +171,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}),
 				},
 			}),
+			n(133833, {	-- Rikati
+				["coord"] = { 40.4, 55.4, VOLDUN },
+				["g"] = {
+					i(163567),	-- Snake on a Stick
+				},
+			}),
 		}),
 	}),
 })));

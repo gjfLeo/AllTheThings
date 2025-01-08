@@ -18,6 +18,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(163510, {	-- Crimson Frog (PET!)
 						["cost"] = { { "i", POLISHED_PET_CHARM, 100 }, },
 					}),
+					i(163563),	-- Primitive Watermelon
 				},
 			}),
 			n(148810, {	-- Gottum <Da Frogman>

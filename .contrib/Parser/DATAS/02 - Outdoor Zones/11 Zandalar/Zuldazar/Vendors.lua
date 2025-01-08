@@ -130,6 +130,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					},
 				}),
 			}),
+			n(124034, {	-- Golkada
+				["coord"] = { 71.2, 29.6, ZULDAZAR },	-- Golkada
+				["g"] = {
+					i(163564),	-- Extra-dry Fruitcake
+				},
+			}),
 			n(138099, {	-- Isabel Marigan <Alchemy Supplies>
 				["coord"] = { 76.4, 49.0, ZULDAZAR },
 				["races"] = HORDE_ONLY,

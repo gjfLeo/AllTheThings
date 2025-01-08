@@ -135,34 +135,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 		ach(13029, {	-- Eating Out of the Palm of My Tiny Hand
 			crit(41575, {	-- Brutosaur of Nazmir Fed
 				["description"] = "Buy Primitive Watermelon from Blind Wunja inside the cave at 34.6, 54.9 and feed it to Goramor.",
-				["coords"] = {
-					{ 34.6, 54.9, NAZMIR },	-- Blind Wunja
-					{ 32.3, 35.3, NAZMIR },	-- Goramor
-				},
+				["cost"] = { { "i", 163563, 1 } },	-- Primitive Watermelon
+				["coord"] = { 32.3, 35.3, NAZMIR },	-- Goramor
 				["crs"] = {
-					126833,	-- Blind Wunja
 					143644,	-- Goramor
 				},
 			}),
 			crit(41578, {	-- Brutosaur of Vol'dun Fed
 				["description"] = "Buy Snake on a Stick from Rikati at 40.4, 55.4 and feed it to Ol' Stompy.",
-				["coords"] = {
-					{ 40.4, 55.4, VOLDUN },	-- Rikati
-					{ 62.0, 9.20, VOLDUN },	-- Ol' Stompy
-				},
+				["cost"] = { { "i", 163567, 1 } },	-- Snake on a Stick
+				["coord"] = { 62.0, 9.20, VOLDUN },	-- Ol' Stompy
 				["crs"] = {
-					133833,	-- Rikati
 					143332,	-- Ol' Stompy
 				},
 			}),
 			crit(41580, {	-- Brutosaur of Zuldazar Fed
 				["description"] = "Buy Extra-Dry Fruitcake from Golkada at 71.2, 29.6 and feed it to Irritable Maka'fon.",
-				["coords"] = {
-					{ 71.2, 29.6, ZULDAZAR },	-- Golkada
-					{ 64.0, 39.2, ZULDAZAR },	-- Irritable Maka'fon
-				},
+				["coord"] = { 64.0, 39.2, ZULDAZAR },	-- Irritable Maka'fon
 				["crs"] = {
-					124034,	-- Golkada <Tasty Morsels>
 					130922,	-- Irritable Maka'fon
 				},
 			}),
