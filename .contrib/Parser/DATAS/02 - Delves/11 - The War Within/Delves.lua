@@ -1131,7 +1131,33 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", UNDERCOIN, 10000}},
 					}),
 				}),
+				filter(COSMETIC, {
+					i(234385, {	-- Ensemble: Aegis Of Hidden Stars
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234384, {	-- Ensemble: Chains Of The Stygian Sea
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234383, {	-- Ensemble: Myconic Shell
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234382, {	-- Ensemble: Unkindled Waxweave Panoply
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(235617, {	-- Lucky Goblin's Strapped Rockets (COSMETIC!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 				filter(MISC, {
+					i(233792, {	-- Delver's Disguise
+						["cost"] = {{"c", UNDERCOIN, 500}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(226258, {	-- Delver's Pouch of Reagents
 						["cost"] = {{"c", UNDERCOIN, 1500}},
 					}),
@@ -1164,31 +1190,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(232498, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-					}),
-					--- TODO: NEW STUFF ---
-					i(233792, {	-- Delver's Disguise
-						["cost"] = {{"c", UNDERCOIN, 500}},
-						["timeline"] = { ADDED_11_1_0 },
-					}),
-					i(234385, {	-- Ensemble: Aegis Of Hidden Stars
-						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
-					}),
-					i(234384, {	-- Ensemble: Chains Of The Stygian Sea
-						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
-					}),
-					i(234383, {	-- Ensemble: Myconic Shell
-						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
-					}),
-					i(234382, {	-- Ensemble: Unkindled Waxweave Panoply
-						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
-					}),
-					i(235617, {	-- Lucky Goblin's Strapped Rockets (COSMETIC!)
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
-						["timeline"] = { ADDED_11_1_0 },
 					}),
 					i(235531, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
