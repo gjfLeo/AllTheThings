@@ -2220,7 +2220,9 @@ i(232635);	-- Torn Bilgewater Bandage
 ------------------
 -- PATCH 11.1.0 --
 ------------------
+i(233030);	-- Charged Cables
 i(233029);	-- Cracked Core
+i(233031);	-- Intact Interlock
 
 i(236921);	-- Triumphant Satchel of Carved Harbinger Crests
 i(236922);	-- Celebratory Pack of Runed Harbinger Crests

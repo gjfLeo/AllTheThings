@@ -7,23 +7,11 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			n(ARMOR, {
 				-- Quest Rewards?
-				i(232354),	-- Robe of the Liberator
-				i(232355),	-- Guardbreaker's Chestplate
 				i(232356),	-- Chainmail of the Undermine Revolutionary
 				i(232379),	-- Slime-Slicked Slippers
 				i(232381),	-- Mostly Cobbled Shoes
 				i(232383),	-- Soot-Encrusted Kickers
 				i(232384),	-- Aqirite-Toe Boots
-				i(232393),	-- Zirdo's Dirty Grips
-				i(232395),	-- Zirdo's Dirty Headgear
-				i(232397),	-- Zirdo's Dirty Mantle
-				i(232399),	-- Zirdo's Dirty Greaves
-				i(232400),	-- Guardbreaker's Boots
-				i(232401),	-- Shoulderguards of the Liberator
-				i(232402),	-- Guardbreaker's Wristwraps
-				i(232403),	-- Sabatons of the Liberator
-				i(232404),	-- Guardbreaker's Helm
-				i(232405),	-- Cinch of the Liberator
 				i(232406),	-- Headgear of the Undermine Revolutionary
 				i(232407),	-- Boots of the Undermine Revolutionary
 				i(232408),	-- Legguards of the Undermine Revolutionary
@@ -32,12 +20,6 @@ root(ROOTS.Unsorted, {
 				i(232412),	-- Undermine Smelter's Gloves
 				i(232413),	-- Retired Bouncer's Gauntlets
 				i(232440),	-- [PH] Boreal Crossbow
-				i(232448),	-- Grateful Goblin's Shield
-				i(232449),	-- Grateful Goblin's Dagger
-				i(232450),	-- Grateful Goblin's Sword
-				i(232451),	-- Grateful Goblin's Mallet
-				i(232452),	-- Grateful Goblin's Cudgel
-				i(232453),	-- Grateful Goblin's Wand
 				i(235146),	-- Maniac Biker's Wristguards
 				i(235147),	-- Maniac Biker's Shoulderguards
 				i(235148),	-- Maniac Biker's Legguards
@@ -49,10 +31,8 @@ root(ROOTS.Unsorted, {
 				i(235647),	-- Gold-Plated Carver
 				i(235648),	-- Gold-Plated Hatchet
 				i(235649),	-- Gold-Plated Battleaxe
-				i(235661),	-- Grateful Goblin's Water Bottle
 
 				-- Trinkets
-				i(232883),	-- Turbo-Drain 5000
 				i(234717),	-- Blastmaster3000
 				i(234821),	-- Papa's Prized Putter
 				i(235283),	-- Bashful Book
@@ -697,8 +677,6 @@ root(ROOTS.Unsorted, {
 				i(233021),	-- Grappling-Grabber 9000
 				i(233025),	-- Giant Pile of Gold
 				i(233026),	-- Johnny's Share of the Spoils
-				i(233030),	-- Charged Cables
-				i(233031),	-- Intact Interlock
 				i(233054),	-- Wonder Ball
 				i(233055),	-- Corpse Cleaner
 				i(233061),	-- Rock-in-a-Bottle
@@ -1386,32 +1364,23 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(QUEST_ITEMS, {
 				i(216915),	-- Excavator
-				i(224797),	-- Zirdo's Ledger
 				i(225931),	-- Contract Fee
 				i(225971),	-- Feathered Pelt
 				i(226192),	-- Electric Eel Meat
-				i(226203),	-- Sliced Lime
 				i(226215),	-- Kaja'mite Powder
 				i(226216),	-- Kaja'Cola Can
-				i(226217),	-- Lime
 				i(226219),	-- Kaja'mite Fragment
 				i(226223),	-- Stinging Residue
-				i(226358),	-- Spare Venture Co. Uniform
 				i(226372),	-- Noggenfogger Deluxe with Lime
-				i(226380),	-- Employee Schedule
-				i(226391),	-- Sputtering Taserblade
 				i(226393),	-- Jetpack-in-a-Box
 				i(226522),	-- Demolition Controller Fragment
 				i(226525),	-- Demolition Control Code
-				i(226823),	-- Bilgewater Auto-Grappler
-				i(226824),	-- Handful of B.I.R.D. Parts
 				i(226854),	-- Crumpled Paystub
 				i(227386),	-- R.P.E.L
 				i(227540),	-- Skimmed Profits
 				i(227674),	-- Gobdre's Prized Pan
 				i(227702),	-- Crumpled Report (TRAINING, DNT)
 				i(227708),	-- Raw Kaja'mite Chunk
-				i(228196),	-- Anti-Darkfuse Pamphlets
 				i(228215),	-- Jazz's Report
 				i(228549),	-- Massive Kaja'mite Chunk
 				i(228614),	-- Comprehend Rat Language Potion
@@ -1420,7 +1389,6 @@ root(ROOTS.Unsorted, {
 				i(228794),	-- Purloined Loot
 				i(228822),	-- Burgled Art
 				i(228948),	-- Jazz's Shrink Ray
-				i(228975),	-- Blackwater Cannonball
 				i(228988),	-- Rock Reviver
 				i(229392),	-- Crumpled Delivery Note
 				i(229401),	-- Artisan's Consortium Pamphlet
@@ -1447,14 +1415,11 @@ root(ROOTS.Unsorted, {
 				i(231900),	-- Sample Potion
 				i(232053),	-- Electro-Gland
 				i(232054),	-- Depleted Hotrod Battery
-				i(232464),	-- Crumpled Paystub
 				i(232619),	-- Gary the Goldfish
 				i(232651),	-- Faded Journal Page
 				i(232863),	-- Darkfuse Research Notes
 				i(232897),	-- Blood-B-Gone
-				i(232902),	-- Spy-copter Footage Roll
 				i(232907),	-- Unseemly Growth
-				i(232944),	-- Ethereal Warning Letter
 				i(233066),	-- Radioactive Rat's Head
 				i(233113),	-- Crocodillian's Head
 				i(233114),	-- The Captain's Head
@@ -1473,15 +1438,12 @@ root(ROOTS.Unsorted, {
 				i(232737),	-- Necklace of Eternal Love
 				i(232738),	-- Green Knight's Boots
 				i(232739),	-- Sash of Lost Inspiration
-				i(232740),	-- Desperate Goblin's Gloves
 				i(232742),	-- Elite Golfer's Armbands
 				i(232743),	-- Apprentice Knight's Shirt
 				i(232744),	-- Green Knight's Wristguards
 				i(232745),	-- Apprentice Knight's Belt
 				i(232746),	-- Spaulders of Lost Inspiration
-				i(232748),	-- Desperate Goblin's Boots
 				i(232749),	-- Elite Golfer's Headgear
-				i(232750),	-- Desperate Goblin's Spaulders
 				i(232751),	-- Elite Golfer's Belt
 				i(232753),	-- Green Knight's Helm
 				i(232754),	-- Apprentice Knight's Wristguards
@@ -1490,7 +1452,6 @@ root(ROOTS.Unsorted, {
 				i(232758),	-- Gauntlets of Lost Inspiration
 				i(232759),	-- Apprentice Knight's Sabatons
 				i(232760),	-- Elite Golfer's Legguards
-				i(232761),	-- Desperate Goblin's Belt
 				i(232762),	-- Dust-Covered Cloak
 				i(232763),	-- Kaja-Infused Cloak
 				i(232764),	-- Pendant of Shrouded Secrets
