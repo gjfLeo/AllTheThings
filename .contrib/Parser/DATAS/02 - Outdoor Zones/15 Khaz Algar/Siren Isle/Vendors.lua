@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(750, i(233486)),	-- Hallowfall Supply Cache (TOY!)
 					fbiron(350, i(233823)),	-- Mereldar Smithing Mallet
 					fbiron(200, i(235412)),	-- Mereldar Smithing Mallet
-					fbiron(200, i(233835)),	-- Priori Tongs
+					fbiron(200, i(233835)),	-- Priory Tongs
 					fbiron(350, i(233919)),	-- Sacredite Expedionary Hood
 					fbiron(350, i(233918)),	-- Sacredite Scholar's Hood
 					fbiron(200, i(233828)),	-- Sacredite's Ceremonial Brush
@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			n(231536, {	-- Apprentice Tanmar <Sacredite Gemwright>
-				["coords"] = { 
+				["coords"] = {
 					{ 72.0, 43.0, SIREN_ISLE },
 					{ 70.8, 40.6, SIREN_ISLE },
 				},
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				--["lockCriteria"] = {1, "questID", 86485 },	-- TODO: probably a spellID will be better?
 				["coord"] = { 69.2, 45.8, SIREN_ISLE },
 				["g"] = {
-					i(233497), -- Kaja'Cola-braised Snapdragon Treat
+					i(233497), -- Kaja'Cola-Braised Snapdragon Treat
 				},
 			}),
 			n(231997, {	-- Didi the Wrench

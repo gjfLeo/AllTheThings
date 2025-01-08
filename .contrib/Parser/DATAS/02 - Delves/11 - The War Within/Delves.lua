@@ -1636,7 +1636,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(MISC, {
 				i(215466),	-- Sanctified Supplies (QI!)
-				i(216420),	-- Signal Flare (QI!)
+				i(216420),	-- Symbol of Light (QI!)
 				i(216433),	-- Stolen Relic (QI!)
 			}),
 			n(QUESTS, {
@@ -1963,7 +1963,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(MISC, {
 				i(217715),	-- Key Scroll (QI!)
-				i(217895),	-- Pheromone Bottle (QI!)
+				i(217895),	-- Volatile Pheromone (QI!)
 				i(217897),	-- Volatile Pheromone (QI!)
 			}),
 			n(QUESTS, {

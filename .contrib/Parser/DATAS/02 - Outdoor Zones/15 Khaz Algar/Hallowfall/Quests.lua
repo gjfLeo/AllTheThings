@@ -535,7 +535,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["g"] = {
 						--i(223638),	-- Arathi Trade Goods (QI!)
 						i(223892),	-- Assorted Spices (QI!)
-						i(223889),	-- Flame Touched Weaponry (QI!)
+						i(223889),	-- Flame-Touched Weaponry (QI!)
 						i(223890),	-- Tough Ivy Rope (QI!)
 					},
 				}),

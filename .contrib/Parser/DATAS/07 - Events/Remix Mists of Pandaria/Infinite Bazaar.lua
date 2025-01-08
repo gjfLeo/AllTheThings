@@ -269,7 +269,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 					}),
 				}),
 				clWithoutLock(PRIEST, {
-					iensemble(215198, { -- Ensemble: Guardian Serpent Regalia (Normal)
+					iensemble(215198, { -- Ensemble: Timeworn Malevolent Mooncloth Regalia (Normal)
 						["cost"] = {{"c", BRONZE, 5000}},
 					}),
 					iensemble(215202, { -- Ensemble: Regalia of the Exorcist (Normal)
@@ -1081,7 +1081,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 					}),
 				}),
 				clWithoutLock(PRIEST, {
-					iensemble(215200, { -- Ensemble: Guardian Serpent Regalia (Heroic)
+					iensemble(215200, { -- Ensemble: Timeworn Dreadful Mooncloth Regalia (Heroic)
 						["cost"] = {{"c", BRONZE, 5000}},
 					}),
 					iensemble(215203, { -- Ensemble: Regalia of the Exorcist (Heroic)

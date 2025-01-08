@@ -204,14 +204,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 						i(213733),	-- Sash of the Burning Scroll
 						i(213734),	-- Wristwraps of the Burning Scroll
 						-- PRIEST
-						i(213843),	-- Guardian Serpent Bracers
-						i(213844),	-- Guardian Serpent Cord
-						i(213845),	-- Guardian Serpent Shoulderpads
-						i(213846),	-- Guardian Serpent Leggings
-						i(213847),	-- Guardian Serpent Hood
-						i(213848),	-- Guardian Serpent Gloves
-						i(213849),	-- Guardian Serpent Sandals
-						i(213850),	-- Guardian Serpent Robe
+						i(213843),	-- Timeworn Malevolent Mooncloth Bracers
+						i(213844),	-- Timeworn Malevolent Mooncloth Cord
+						i(213845),	-- Timeworn Malevolent Mooncloth Amice
+						i(213846),	-- Timeworn Malevolent Mooncloth Pants
+						i(213847),	-- Timeworn Malevolent Mooncloth Crown
+						i(213848),	-- Timeworn Malevolent Mooncloth Gloves
+						i(213849),	-- Timeworn Malevolent Mooncloth Boots
+						i(213850),	-- Timeworn Malevolent Mooncloth Robe
 						-- WARLOCK
 						i(213931),	-- Sha-Skin Vestment
 						i(213932),	-- Sha-Skin Slippers
@@ -349,14 +349,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 						i(213725),	-- Treads of the Burning Scroll
 						i(213726),	-- Raiment of the Burning Scroll
 						-- PRIEST
-						i(213859),	-- Guardian Serpent Wristwraps
-						i(213860),	-- Guardian Serpent Sash
-						i(213861),	-- Guardian Serpent Mantle
-						i(213862),	-- Guardian Serpent Trousers
-						i(213863),	-- Guardian Serpent Crown
-						i(213864),	-- Guardian Serpent Mitts
-						i(213865),	-- Guardian Serpent Slippers
-						i(213866),	-- Guardian Serpent Vestment
+						i(213859),	-- Timeworn Dreadful Mooncloth Wristwraps
+						i(213860),	-- Timeworn Dreadful Mooncloth Sash
+						i(213861),	-- Timeworn Dreadful Mooncloth Mantle
+						i(213862),	-- Timeworn Dreadful Mooncloth Trousers
+						i(213863),	-- Timeworn Dreadful Mooncloth Crest
+						i(213864),	-- Timeworn Dreadful Mooncloth Mitts
+						i(213865),	-- Timeworn Dreadful Mooncloth Slippers
+						i(213866),	-- Timeworn Dreadful Mooncloth Vestment
 						-- WARLOCK
 						i(213915),	-- Sha-Skin Robe
 						i(213916),	-- Sha-Skin Sandals

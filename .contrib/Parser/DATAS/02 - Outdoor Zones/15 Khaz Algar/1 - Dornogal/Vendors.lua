@@ -2,7 +2,7 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 local ALGARI_TOKEN_OF_MERIT_S1 = 220769;
---local ALGARI_TOKEN_OF_MERIT_S2 = xx;
+local ALGARI_TOKEN_OF_MERIT_S2 = 230793;
 --local ALGARI_TOKEN_OF_MERIT_S3 = xx;
 --local ALGARI_TOKEN_OF_MERIT_S4 = xx;
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
@@ -22,7 +22,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["g"] = {
 					-- All seasons
 					i(226814, {	-- Chest of Gold
-						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S1, 2}},
+						["cost"] = {
+							-- #if BEFORE 11.1.0
+							{"i", ALGARI_TOKEN_OF_MERIT_S1, 2},
+							-- #else
+							{"i", ALGARI_TOKEN_OF_MERIT_S2, 2},
+							-- #endif
+						},
 					}),
 					-- Season 1
 					i(220773, {	-- Celebratory Pack of Runed Harbinger Crests
@@ -43,19 +49,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					-- Season 2
 					i(232382, {	-- Golden Valorstone
-						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					}),
 					i(231153, {	-- Triumphant Satchel of Carved Undermine Crests
-						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					}),
 					i(231154, {	-- Celebratory Pack of Runed Undermine Crests
-						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					}),
 					i(232386, {	-- S.A.D.
-						--["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					}),
 				},
