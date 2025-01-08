@@ -32,7 +32,6 @@ root(ROOTS.Unsorted, {
 			i(223889),	-- Flame-Touched Weaponry
 			i(224772),	-- Bounty from Gallywix
 			i(224797),	-- Zirdo's Ledger
-			i(224846),	-- Chillburst Canister
 			i(225493),	-- Cracked Medal of Conquest
 			i(225766),	-- Zoom-Zoom Boosters
 			i(225931),	-- Contract Fee
@@ -924,7 +923,6 @@ root(ROOTS.Unsorted, {
 			i(230990),	-- Set Keystone Map: Operation: Floodgate
 			i(231021),	-- Imported Brews
 			i(231022),	-- Bits o' Scrap
-			i(231089),	-- Correspondence from Zirdo
 			i(231099),	-- Back-Strapped Missile
 			i(231164),	-- Goblin Grapnel
 			i(231264),	-- Glorious Cluster of Gilded Undermine Crests
@@ -982,7 +980,6 @@ root(ROOTS.Unsorted, {
 			i(232074),	-- Adventurer's Warbound Waist
 			i(232075),	-- Adventurer's Warbound Wrists
 			i(232076),	-- Adventurer's Warbound Battlegear Drop
-			i(232353),	-- Silent Strike Chestguard
 			i(232354),	-- Robe of the Liberator
 			i(232355),	-- Guardbreaker's Chestplate
 			i(232356),	-- Chainmail of the Undermine Revolutionary
@@ -992,11 +989,8 @@ root(ROOTS.Unsorted, {
 			i(232383),	-- Soot-Encrusted Kickers
 			i(232384),	-- Aqirite-Toe Boots
 			i(232393),	-- Zirdo's Dirty Grips
-			i(232394),	-- Silent Strike Leggings
 			i(232395),	-- Zirdo's Dirty Headgear
-			i(232396),	-- Silent Strike Helmet
 			i(232397),	-- Zirdo's Dirty Mantle
-			i(232398),	-- Silent Strike Gloves
 			i(232399),	-- Zirdo's Dirty Greaves
 			i(232400),	-- Guardbreaker's Boots
 			i(232401),	-- Shoulderguards of the Liberator
@@ -1011,15 +1005,7 @@ root(ROOTS.Unsorted, {
 			i(232411),	-- Goblin Boxer's Wraps
 			i(232412),	-- Undermine Smelter's Gloves
 			i(232413),	-- Retired Bouncer's Gauntlets
-			i(232425),	-- Boreal Spear
-			i(232435),	-- Boreal Spellstaff
 			i(232440),	-- [PH] Boreal Crossbow
-			i(232441),	-- Boreal Battleaxe
-			i(232442),	-- Boreal Blade
-			i(232444),	-- Boreal Spellsword
-			i(232445),	-- Boreal Thumper
-			i(232446),	-- Boreal Rifle
-			i(232447),	-- Boreal Shank
 			i(232448),	-- Grateful Goblin's Shield
 			i(232449),	-- Grateful Goblin's Dagger
 			i(232450),	-- Grateful Goblin's Sword
@@ -1759,7 +1745,6 @@ root(ROOTS.Unsorted, {
 			i(235654),	-- Midnight Butterfly Longbow
 			i(235655),	-- Blood Monarch's Longbow
 
-			i(235660),	-- Boreal Glaive
 			i(235661),	-- Grateful Goblin's Water Bottle
 
 			i(235664),	-- Ensemble: Topsy Turvy Mask Set

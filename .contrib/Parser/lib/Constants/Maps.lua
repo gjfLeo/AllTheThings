@@ -547,6 +547,7 @@ NERUBAR_LOWER = 2216;
 SIREN_ISLE = 2369;
 THE_PROSCENIUM = 2328;	-- Theatre Troupe location
 THE_RINGING_DEEPS = 2214;
+UNDERMINE = 2346
 VAULT_OF_MEMORY = 2367;
 
 EARTHCRAWL_MINES = 2269;
@@ -563,6 +564,3 @@ THE_UNDERKEEP = 2299;
 THE_WATERWORKS = 2251;
 ZEKVIRS_LAIR = 2348;
 THE_WAR_CRECHE = 2373;	-- Starting zone for non-evoker Dracthyr
-
-
-UNDERMINE = 9999 -- someone fix this pls, it's being used but not defined
