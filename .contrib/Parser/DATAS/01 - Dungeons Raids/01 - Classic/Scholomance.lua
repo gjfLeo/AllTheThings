@@ -2330,7 +2330,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 			},
 		}),
 		n(59369, {	-- Doctor Theolen Krastinov
-			["description"] = "This is a rare that is not always present.",
+			["description"] = "This is a Rare Creature and is not always present.",
 			["timeline"] = { ADDED_5_0_4 },
 			["groups"] = {
 				ach(6396),	-- Sanguinarian

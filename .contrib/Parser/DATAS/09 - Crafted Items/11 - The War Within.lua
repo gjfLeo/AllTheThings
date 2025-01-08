@@ -2736,7 +2736,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			-- q(84476),	-- Contract: The Severed Threads [Rank 3] (spellID 454942)
 			-- Craftable / Sparks
 			q(82039),	-- first Fractured Spark of Omens
-			q(83280, name(HEADERS.Item,211297,{["isWeekly"]=true,})),	-- Fractured Spark of Omens
 			q(83281, name(HEADERS.Item,211297,{["isWeekly"]=true,})),	-- Fractured Spark of Omens
 		}),
 	}),

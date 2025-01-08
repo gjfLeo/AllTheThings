@@ -184,7 +184,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 	expansion(EXPANSION.CLASSIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 		n(GROUP_FINDER, {
 			i(225348, {	-- Ancient Timewarped Scroll
-				["description"] = "Drops from the last boss from any classic timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Classic Timewalking' dungeon.",
 			}),
 		}),
 		n(QUESTS, {
@@ -641,10 +641,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 		n(GROUP_FINDER, {
 			i(187902, {	-- Sporebat Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss from any bc timewalking dungeon with the nightfae covenant active.",
+				["description"] = "Can drop from the last boss of any 'The Burning Crusade Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
 			}),
 			i(129747, {	-- Swirling Timewarped Vial
-				["description"] = "Drops from the last boss from any bc timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'The Burning Crusade Timewalking' dungeon.",
 			}),
 		}),
 		n(QUESTS, {
@@ -1847,11 +1847,11 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 	expansion(EXPANSION.WRATH, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {
 		n(GROUP_FINDER, {
 			i(129928, {	-- Frigid Timewarped Prism
-				["description"] = "Drops from the last boss from any WotLK timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Wrath of the Lich King Timewalking' dungeon.",
 			}),
 			i(187903, {	-- Jormungar Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from any last boss of each dungeon with the nightfae covenant active.",
+				["description"] = "Can drop from the last boss of any 'Wrath of the Lich King Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
 			}),
 		}),
 		n(QUESTS, {
@@ -3396,13 +3396,13 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 		n(GROUP_FINDER, {
 			i(185053, {	-- Kodo Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss from any cata timewalking dungeon with the nightfae covenant active.",
+				["description"] = "Can drop from the last boss of any 'Cataclysm Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
 			}),
 			i(133378, {	-- Smoldering Timewarped Ember (A)
-				["description"] = "Drops from the last boss from any cata timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Cataclysm Timewalking' dungeon.",
 			}),
 			i(133377, {	-- Smoldering Timewarped Ember (H)
-				["description"] = "Drops from the last boss from any cata timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Cataclysm Timewalking' dungeon.",
 			}),
 		}),
 		n(QUESTS, {
@@ -3417,7 +3417,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 				["g"] = {
 					i(172506),	-- Time-Locked Cinder (QI!)
 					i(208095, sharedDataSelf({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Cache of Timewarped Treasures (Cata)
-						["description"] = "This bag contains an item from Firelands or an item from the WoW's 15th Birthday Event Bosses Chogath or Nefarian.\nThe droprate for the mounts seems rather high (5-10%).",
+						["description"] = "This bag contains an item from Firelands or an item from the WoW's 15th Birthday Event Bosses Cho'gall or Nefarian.\nThe droprate for the mounts seems rather high (5-10%).",
 						["sym"] = {{"select","itemID",
 							152978,		-- Infernal Pyreclaw (PET!)
 							152966,		-- Tinytron (PET!)
@@ -4348,10 +4348,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		n(GROUP_FINDER, {
 			i(187904, {	-- Cloud Serpent Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss from any mop timewalking dungeon with the nightfae covenant active.",
+				["description"] = "Can drop from the last boss of any 'Mists of Pandaria Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
 			}),
 			i(143776, {	-- Shrouded Timewarped Coin
-				["description"] = "Drops from the last boss from any mop timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Mists of Pandaria Timewalking' dungeon.",
 			}),
 		}),
 		n(QUESTS, {
@@ -4748,7 +4748,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 				},
 			}),
 			n(59369, {	-- Doctor Theolen Krastinov
-				["description"] = "This is a rare that is not always present.",
+				["description"] = "This is a Rare Creature and is not always present.",
 				["g"] = {
 					i(88566),	-- Krastinov's Bag of Horrors (TOY!)
 				},
@@ -4954,19 +4954,19 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 }},{
 		n(GROUP_FINDER, {
 			i(210062, {	-- Ironbound Satchel of Helpful Goods // Draenor TW Daily Reward
-				["description"] = "Rewarded for completing any Draenor timewalking dungeon.\nAvailable once per day.",
+				["description"] = "Rewarded for completing any 'Warlords of Draenor Timewalking' dungeon.\nAvailable once per day.",
 				["timeline"] = { ADDED_10_1_7 },
 				["sym"] = { { "select", "itemID", 156698 }, {"pop"} },	-- Tranquil Satchel of Helpful Goods
 			}),
 			i(187905, {	-- Boar Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss from any wod timewalking dungeon with the nightfae covenant active.",
+				["description"] = "Can drop from the last boss of any 'Warlords of Draenor Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
 			}),
 			i(167921, {	-- Shimmering Timewarped Crystal (A)
-				["description"] = "Drops from the last boss from any wod timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Warlords of Draenor Timewalking' dungeon.",
 			}),
 			i(167922, {	-- Shimmering Timewarped Crystal (H)
-				["description"] = "Drops from the last boss from any wod timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Warlords of Draenor Timewalking' dungeon.",
 			}),
 		}),
 		n(QUESTS, {
@@ -5922,7 +5922,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 }},{
 		n(GROUP_FINDER, {
 			i(210063, {	-- Invader's Satchel of Helpful Goods // Legion TW Daily Reward
-				["description"] = "Rewarded for completing any legion timewalking dungeon.\nAvailable once per day.",
+				["description"] = "Rewarded for completing any 'Legion Timewalking' dungeon.\nAvailable once per day.",
 				["timeline"] = { ADDED_10_1_7 },
 				["g"] = {
 					i(113788),	-- Blossoming Belt*
@@ -5965,10 +5965,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 				},
 			}),
 			i(187906, {	-- Owl Serpent Soul (SS!)
-				["description"] = "Can drop from the last boss from any legion timewalking dungeon with the nightfae covenant active.",
+				["description"] = "Can drop from the last boss of any 'Legion Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
 			}),
 			i(187611, {	-- Whispering Felflame Crystal
-				["description"] = "Drops from the last boss from any legion timewalking dungeon.",
+				["description"] = "Drops from the last boss of any 'Legion Timewalking' dungeon.",
 			}),
 		}),
 		n(QUESTS, {
