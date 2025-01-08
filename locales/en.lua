@@ -118,7 +118,9 @@ for key, value in pairs({
 		[-1130] = 4687629,										-- Iskaara Tuskarr
 		[-1150] = 5140835,										-- Loamm Niffen
 	-- The War Within
-		[-1208] = 236421,										-- Vrykul
+		[-1208] = 236421,										-- Invasion: Vrykul
+		[-1209] = 236422,										-- Invasion: Naga
+		[-1210] = 133168,										-- Invasion: Pirate
 	};
 	["HEADER_NAMES"] = {
 	-- Class Trial
@@ -235,7 +237,9 @@ for key, value in pairs({
 		[-1130] = "Iskaara Tuskarr",												-- Iskaara Tuskarr
 		[-1150] = "Loamm Niffen",													-- Loamm Niffen
 	-- The War Within
-		[-1208] = "Vrykul",															-- Vrykul
+		[-1208] = "Invasion: Vrykul",												-- Vrykul
+		[-1209] = "Invasion: Naga",													-- Naga
+		[-1210] = "Invasion: Pirate",												-- Pirate
 	-- Tier/Dungeon/Event/Holiday Sets
 		-- Artifact Strings, These IDs are used in src/Expansion/Legion [Ask Runaway about removing them]
 		[-5200] = "Base Appearance",											-- Base Appearance

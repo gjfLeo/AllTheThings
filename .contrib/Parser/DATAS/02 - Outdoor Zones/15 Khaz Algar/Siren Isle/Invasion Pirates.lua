@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	m(SIREN_ISLE, {
-		header(HEADERS.Spell, 219322, {    -- Pirates
+		n(-1210, {   -- Invasion: Pirate
 			["description"] = "Every week a type of mobs invades the island.\n\nThe rotation is Vrykul>Naga>Pirates repeat.\n\nIf the invasion isnt active, everything listed here isnt available.",
 			["groups"] = {
 				petbattle(filter(BATTLE_PETS, {
