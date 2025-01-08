@@ -51,10 +51,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isDaily"] = true,
 			}),
 			o(353231, {		-- Bonebound Chest
-				["description"] = "There are 2 versions of this chest. One is at the cave entrance at |cFFFFFFFF37.9, 76.3|r. One is at the Unyielding Assembly at building entrance |cFFFFFFFF35.9, 80.2|r.",
 				["coords"] = {
+					{ 30.4, 77.7, MALDRAXXUS },
+					{ 33.3, 81.6, MALDRAXXUS },
+					{ 33.8, 76.4, MALDRAXXUS },
 					{ 36.2, 81.6, MALDRAXXUS },
-					{ 61.1, 22.6, 1651 },	-- Molten Forge
 				},
 				["questID"] = 60662,	-- same quest triggers for both versions of chest
 				["isDaily"] = true,
