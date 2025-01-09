@@ -279,6 +279,18 @@ root(ROOTS.WorldDrops, {
 					i(43613, {	-- The Dusk Blade
 						["timeline"] = { ADDED_3_0_2 },
 					}),
+					i(2892, {	-- Empty Poison Vial
+						["timeline"] = { ADDED_5_0_4 },
+					}),
+					i(6947, {	-- Empty Poison Vial
+						["timeline"] = { ADDED_5_0_4 },
+					}),
+					i(5237, {	-- Empty Poison Vial
+						["timeline"] = { ADDED_5_0_4 },
+					}),
+					i(10918, {	-- Empty Poison Vial
+						["timeline"] = { ADDED_5_0_4 },
+					}),
 				},
 			}),
 			i(4638, {	-- Reinforced Steel Lockbox
