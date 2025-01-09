@@ -104,7 +104,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 				e(341, {	-- Archbishop Benedictus
 					["crs"] = { 54938 },	-- Archbishop Benedictus
 					["groups"] = {
-						ach(6132),	-- Eclipse
+						ach(6132, {	-- Eclipse
+							["description"] = "You need to get Benedictus down to 60% to trigger stage two and surrounding Twilight Sparks.",
+						}),
 						ach(6119),	-- Heroic: Hour of Twilight
 						ach(6122),	-- Heroic: Hour of Twilight Guild Run
 						i(72870), -- Betrayer's Pauldrons
