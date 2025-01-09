@@ -208,7 +208,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 67.5, 42.0, SIREN_ISLE },
 			}),
 			q(85653, {	-- Dipping a Toe
-				["sourceQuests"] = { 85876 },	-- Reading the Runes
+				["sourceQuests"] = { 84726 },	-- Uncovered Mysteries
 				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["coord"] = { 72.3, 42.9, SIREN_ISLE },
 				["g"] = {
