@@ -3830,12 +3830,14 @@ local function UpdateSearchResults(searchResults)
 	local hashes = {};
 	local found = {};
 	local UpdateCostGroup = app.UpdateCostGroup;
+	local UpdateUpgradeGroup = app.UpdateUpgradeGroup
 	-- Directly update the Source groups of the search results, and collect their hashes for updates in other windows
 	for _,result in ipairs(searchResults) do
 		hashes[result.hash] = true;
 		found[#found + 1] = result;
-		-- Make sure any cost data is updated for this specific group since it was updated
-		UpdateCostGroup(result);
+		-- Make sure any cost/upgrade data is updated for this specific group since it was updated
+		UpdateCostGroup(result)
+		UpdateUpgradeGroup(result)
 	end
 
 	-- loop through visible ATT windows and collect matching groups
