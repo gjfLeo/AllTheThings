@@ -29,7 +29,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 		}),
-		n(QUESTS, {
+		n(QUESTS, bubbleDownSelf({ ["timeline"] = { "removed 11.0.7.58238" } }, {
 			-- Tutorial Questline
 			q(84143, {	-- Lost and Busy
 				["provider"] = { "n", 226683 },	-- Alyx <Volunteer Assistant Guest Relations Manager>
@@ -131,12 +131,13 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-		}),
+		})),
 		n(VENDORS, {
 			n(226766, {	-- Benatauk <Unco Benny>
 				["description"] = "You need to get up to the quest 'A Whiff of Help' in the chain and accept it in order to buy the items.",
 				["sourceQuest"] = 84868,	-- A Whiff of Help (Quest Accepted)
 				["coord"] = { 63.3, 52.4, TANARIS },
+				["timeline"] = { "removed 11.0.7.58238" },
 				["g"] = {
 					i(229351),	-- Spiritual Incense
 					i(229375),	-- Neural Enlarger
