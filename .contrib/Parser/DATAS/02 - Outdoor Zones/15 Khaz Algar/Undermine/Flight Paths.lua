@@ -4,11 +4,10 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(FLIGHT_PATHS, {
-			--fp(xx, {	-- Demolition Dome, Undermine
-			--	["sourceQuest"] = { xx },
-			--	["coord"] = { 58.0, 8.8, UNDERMINE },
-			--	["cr"] = xx,	-- xx
-			--}),
+			fp(2998, {	-- Demolition Dome, Undermine
+				["coord"] = { 58.0, 8.8, UNDERMINE },
+				["cr"] = 230881,	-- Jenni Cogshatter
+			}),
 			fp(2997, {	-- Slam Central Station, Undermine
 				["coord"] = { 24.5, 52.4, UNDERMINE },
 				["cr"] = 231003,	-- Feffick Blindside

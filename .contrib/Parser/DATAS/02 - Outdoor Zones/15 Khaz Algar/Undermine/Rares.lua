@@ -11,6 +11,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(231288, {	-- Swogs Farsight
 				["coord"] = { 41.3, 43.6, UNDERMINE },
 				["questID"] = 85004,	-- Swigs Farsight
+				["g"] = {
+					i(234387),	-- Steamboil Fuel Injector
+					i(235307),	-- Smoketrail Belt
+				},
 			}),
 			n(230995, {	-- Nitro
 				["coord"] = { 47.0, 55.7, UNDERMINE },
@@ -36,6 +40,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84921,	-- Thwack
 				["g"] = {
 					i(234418),	-- Steamboil Gears
+					i(234419),	-- Steamboil Mounting System
 				},
 			}),
 			n(230940, {	-- Tally Doublespeak
@@ -46,19 +51,77 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(230934, {	-- Ratspit
-				--["coord"] = { x, y, UNDERMINE },
-				--["questID"] = xx,
-				--["g"] = {
-				--	i(),	-- 
-				--},
+				["crs"] = {
+					230935,	-- Grease
+					230936,	-- Grime
+				},
+				["coord"] = { 25.3, 36.7, UNDERMINE },
+				["questID"] = 84918,	-- Court of Rats
 			}),
-			--n(xx, {	-- ??
-			--	["coord"] = { x, y, UNDERMINE },
-			--	["questID"] = xx,
-			--	["g"] = {
-			--		i(),	-- 
-			--	},
-			--}),
+			n(230979, {	-- S.A.L.
+				["coord"] = { 41.8, 25.3, UNDERMINE },
+				["questID"] = 84922,
+				["g"] = {
+					i(234417),	-- Handcrank Gears (could be shared between any rare or specific group?)
+				},
+			}),
+			n(230828, {	-- Chief Foreman Gutso
+				["coord"] = { 59.5, 84.7, UNDERMINE },
+				["questID"] = 84907,
+				["g"] = {
+					i(234381),	-- Handcrank Fuel Tank
+				},
+			}),
+			n(230793, {	-- The Junk-Wall
+				["coord"] = { 63.6, 50.3, UNDERMINE },
+				["questID"] = 84884,	-- Junk Wall
+			}),
+			n(231017, {	-- Grimewick
+				["coord"] = { 67.5, 33.5, UNDERMINE },
+				["questID"] = 84928,	-- Longwick
+				["g"] = {
+					i(235319),	-- Tidebomb Chestpiece
+				},
+			}),
+			n(230840, {	-- Flyboy Snooty
+				["coord"] = { 60.6, 9.6, UNDERMINE },
+				["questID"] = 84911,
+				["g"] = {
+					i(234387),	-- Steamboil Fuel Injector
+				},
+			}),
+			n(230800, {	-- Slugger the Smart
+				["coord"] = { 52.3, 40.8, UNDERMINE },
+				["questID"] = 84895,
+				["g"] = {
+					i(234418),	-- Steamboil Gears
+				},
+			}),
+			--[[
+			n(230746, {	-- Ephemeral Agent Lathyd
+				["coord"] = { x, y, UNDERMINE },
+				["questID"] = xx,
+			}),
+			n(xx, {	-- Aurumensis
+				["coord"] = { x, y, UNDERMINE },
+				["questID"] = xx,
+			}),
+			n(xx, {	-- Glovante
+				["coord"] = { x, y, UNDERMINE },
+				["questID"] = xx,
+			}),
+			n(xx, {	-- Scrapchewer
+				["coord"] = { x, y, UNDERMINE },
+				["questID"] = xx,
+			}),
+			n(xx, {	-- Volstrike the Charged
+				["coord"] = { x, y, UNDERMINE },
+				["questID"] = xx,
+			}),
+			n(xx, {	-- The Darkfuse Precipitant
+				["coord"] = { x, y, UNDERMINE },
+				["questID"] = xx,
+			}),]]--
 		}),
 	}),
 })));

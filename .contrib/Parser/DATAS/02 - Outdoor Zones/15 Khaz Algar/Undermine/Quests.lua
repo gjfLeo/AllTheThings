@@ -505,8 +505,107 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(480708),	-- Overpriced Tropical Punch
 				},
 			}),
-			--- no futher progress due to bug with 83198 (Backyard Navy)
-
+			q(83200, {	-- A Vast, Ye Swabs
+				["sourceQuests"] = {
+					83198,	-- Backyard Navy
+					83199,	-- Been Savin' This One
+				},
+				["provider"] = { "n", 225870 },	-- Fleet Master Seahorn
+				["coord"] = { 63.9, 17.1, UNDERMINE },
+				["g"] = {
+					i(226372),	-- Noggenfogger Deluxe with Lime (QI!)
+				},
+			}),
+			q(85724, {	-- Repel the Invaders
+				["sourceQuests"] = { 83200 },	-- A Vast, Ye Swabs
+				["provider"] = { "n", 233296 },	-- Fleet Master Seahorn
+				["coord"] = { 63.9, 17.1, UNDERMINE },
+				["g"] = {
+					i(232486), -- Noggenfogger Ultimate Deluxe
+				},
+			}),
+			q(85562, {	-- Tougher Than We Thought
+				["sourceQuests"] = { 83200 },	-- A Vast, Ye Swabs
+				["provider"] = { "n", 233296 },	-- Fleet Master Seahorn
+				["coord"] = { 63.9, 17.1, UNDERMINE },
+			}),
+			q(83201, {	-- Expedited Delivery
+				["sourceQuests"] = {
+					85724,	-- Repel the Invaders
+					85562,	-- Tougher Than We Thought
+				},
+				["provider"] = { "n", 235849 },	-- Fleet Master Seahorn (mobile)
+			}),
+			q(83202, {	-- Punching Up
+				["sourceQuests"] = { 83201 },	-- Expedited Delivery
+				["provider"] = { "n", 225871 },	-- Grimla Fizzlecrank
+				["coord"] = { 45.2, 57.5, UNDERMINE },
+			}),
+			q(83203, {	-- Weapons Hot
+				["sourceQuests"] = { 83201 },	-- Expedited Delivery
+				["provider"] = { "n", 225873 },	-- Orweyna
+				["coord"] = { 45.2, 57.5, UNDERMINE },
+			}),
+			q(83205, {	-- Production Halted
+				["sourceQuests"] = {
+					83202,	-- Punching Up
+					83203,	-- Weapons Hot
+				},
+				["provider"] = { "n", 234728 },	-- Orweyna
+				["coord"] = { 48.5, 77.3, UNDERMINE },
+			}),
+			q(83204, {	-- The Thingamajig
+				["sourceQuests"] = {
+					83202,	-- Punching Up
+					83203,	-- Weapons Hot
+				},
+				["provider"] = { "n", 233390 },	-- Pamsy
+				["coord"] = { 48.5, 77.6, UNDERMINE },
+				["g"] = {
+					i(233513),	-- Coolant Core (QI!)
+					i(234489),	-- Dented Bloodhose (QI!)
+					i(233512),	-- Kaja'fused Coupling (QI!)
+					i(228792),	-- Reactive Plating (QI!)
+				},
+			}),
+			q(86417, {	-- Ready Check
+				["sourceQuests"] = {
+					83205,	-- Production Halted
+					83204,	-- The Thingamajig
+				},
+				["provider"] = { "n", 225876 },	-- Grimla Fizzlecrank
+				["coord"] = { 56.4, 67.7, UNDERMINE },
+			}),
+			q(83206, {	-- We Own the Streets
+				["sourceQuests"] = { 86417 },	-- Ready Check
+				["provider"] = { "n", 230268 },	-- Monte Gazlowe
+				["coord"] = { 56.3, 67.2, UNDERMINE },
+				["g"] = {
+					i(232356),	-- Chainmail of the Undermine Revolutionary
+					i(232406),	-- Headgear of the Undermine Revolutionary
+					i(232407),	-- Boots of the Undermine Revolutionary
+					i(232408),	-- Legguards of the Undermine Revolutionary
+				},
+			}),
+			q(83207, {	-- My Top Gal
+				["sourceQuests"] = { 83206 },	-- We Own the Streets
+				["provider"] = { "n", 225878 },	-- Monte Gazlowe
+				["coord"] = { 56.5, 44.7, UNDERMINE },
+				["g"] = {
+					i(235516),	-- The Severance Package (COSMETIC!)
+				},
+			}),
+			q(85780, {	-- Right Where We Want Him
+				["sourceQuests"] = { 83207 },	-- My Top Gal
+				["provider"] = { "n", 235238 },	-- Monte Gazlowe
+				["coord"] = { 56.5, 44.7, UNDERMINE },
+				["g"] = {
+					-- crit 5 - Ignite the Fuel of Change - zone main story quest chain
+				},
+			}),
+			--- Chapter 6 ---
+			--- missing on ptr, seems like will be available only on live?
+			--- Side quests
 
 			-- Misc
 			-- Open portal in/from Dornogal
@@ -541,7 +640,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 227210 },	-- Nanny Talullah
 				["coord"] = { 37.4, 48.8, UNDERMINE },
 			}),
-			--
+			-- Gorillon
+			q(86204, {	-- Liberation of Undermine: The House Loses
+				["provider"] = { "i", 236961 },	-- Inoperative Gorillion
+				["g"] = {
+					i(232843),	-- Gorillion (PET!)
+				},
+			}),
+			-- Raid
+			q(86204, {	-- Liberation of Undermine: The House Loses
+				["sourceQuests"] = { 85780 },	-- Right Where We Want Him
+				["provider"] = { "n", 233482 },	-- Monte Gazlowe
+				["coord"] = { 37.4, 48.8, UNDERMINE },
+				["g"] = {
+					i(230936),	-- Enchanted Runed Undermine Crest
+					i(236954),	-- Void-Touched Valorstone
+				},
+			}),
 		}),
 	}),
 })));
@@ -566,8 +681,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				--q(86318),	-- Tailgater Troubles
 				--q(85861),	-- Rug Monster!!!
 				-- Special Assigment Unlock trackers
-				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assigment - Special Assignment: Boom! Headshot! (questID 85487))
-				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for SPecial Assigment - ?)
+				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
+				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
 				-- ??
 				q(85813),	-- after interact with Pipe Valve @ 39.1, 59.1
 				-- ???

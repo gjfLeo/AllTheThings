@@ -4304,37 +4304,36 @@ i(234396, 4728);	-- Teatuft Tamer
 -- PATCH 11.1.0 --
 ------------------
 --- ITEM ---
-i(236768, 4759);	-- Craboom
-i(232853, 4632);	-- Eepy
---- NPC ---
---- UNSORTED ---
 i(232845, 4645);	-- Bilgewater Junkhauler
 i(232850, 4649);	-- Blackwater Kegmover
-
+i(236768, 4759);	-- Craboom
 i(232842, 4638);	-- Crimson Mechasaur
 i(232858, 4655);	-- Cruncher
+i(232853, 4632);	-- Eepy
+i(232843, 4642);	-- Gorillion
+i(232859, 4653);	-- Lab Rat
+i(232840, 4661);	-- Mechagopher
+i(232841, 4644);	-- Professor Punch
+i(232851, 4641);	-- Rocketfist
+i(232846, 4648);	-- Steamwheedle Flunkie
+i(232849, 4650);	-- Venture Companyman
+--- NPC ---
+--- UNSORTED ---
 --i(???, 4739);	-- Fancier Rat
 i(232855, 4631);	-- Foreman
 i(232844, 4640);	-- Fuz-Size Flarendo
 i(235909, 4755);	-- Gleam
 i(232857, 4635);	-- Goggles
-i(232843, 4642);	-- Gorillion
 i(232854, 4634);	-- Grinner
 --i(???, 4740);	-- Handbag Hyena
 i(232807, 4664);	-- Iron Chick
-i(232859, 4653);	-- Lab Rat
-i(232840, 4661);	-- Mechagopher
 i(232848, 4647);	-- Mr. DELVER
 i(232852, 4636);	-- Mutt
 i(232847, 4646);	-- Personal-Use Sapper
-i(232841, 4644);	-- Professor Punch
-i(232851, 4641);	-- Rocketfist
 i(232856, 4633);	-- Scruff
 i(232895, 4701);	-- Spotty
 --i(???, 4738);	-- Status Symbol
-i(232846, 4648);	-- Steamwheedle Flunkie
 i(232806, 4643);	-- Tiny Torq
-i(232849, 4650);	-- Venture Companyman
 i(232838, 4639);	-- Viridian Mechasaur
 i(232839, 4637);	-- Wavebreaker Mechasaur
 --- UNSORTED WILD ---

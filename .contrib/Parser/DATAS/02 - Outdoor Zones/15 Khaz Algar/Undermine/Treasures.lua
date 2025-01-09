@@ -41,14 +41,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 32.8, 58.9, UNDERMINE },
 				["questID"] = 86571,
 			}),
-			--o(??, {	-- Unexploded Fireworks
-			-- bugged - phase out
-			--	["coord"] = { x, y, UNDERMINE },
-			--	["questID"] = xx,
-			--	["g"] = {
-			--		i(),	-- 
-			--	},
-			--}),
+			o(490816, {	-- Unexploded Fireworks
+				["coord"] = { 48.4, 43.1, UNDERMINE },
+				["questID"] = 85683,
+				["g"] = {
+					i(235042),	-- Imminently Exploding Fireworks
+				},
+			}),
 			o(499207, {	-- Suspicious Book
 				["provider"] = { "n", 233775 },	-- vignette
 				["coord"] = { 49.8, 65.5, UNDERMINE },
@@ -142,13 +141,51 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234427),	-- Gorillion Fork
 				},
 			}),
-			--o(xx, {	-- ??
-			--	["coord"] = { x, y, UNDERMINE },
-			--	["questID"] = xx,
-			--	["g"] = {
-			--		i(),	-- 
-			--	},
-			--}),
+			o(499119, {	-- Lonely Tub
+				["coord"] = { 59.3, 19.0, UNDERMINE },
+				["questID"] = 85860,
+				["g"] = {
+					q(85858, {
+						["name"] = "Take water can and run into tub",
+						["coord"] = { 58.8, 18.0, UNDERMINE },
+					}),
+					--
+					i(235279),	-- Scorched Shorts (COSMETIC!)
+				},
+			}),
+			o(502893, {	-- First Half of Noggenfogger's Journal [lore]
+				["coord"] = { 39.6, 26.9, UNDERMINE },
+				["questID"] = 86572,
+			}),
+			o(476066, {	-- Abandoned Toolbox
+				["coord"] = { 40.8, 21.3, UNDERMINE },
+				["questID"] = 85422,
+			}),
+			o(502917, {	-- Misplaced Work Order [lore]
+				["coord"] = { 65.6, 14.2, UNDERMINE },
+				--["questID"] = xx,	-- currently missing hqt
+			}),
+			o(476070, {	-- Potent Potable
+				["coord"] = { 69.6, 21.4, UNDERMINE },
+				["questID"] = 85426,
+				["g"] = {
+					i(235230),	-- Impotent Potable
+				},
+			}),
+			o(477373, {	-- Marooned Floatmingo
+				["coord"] = { 63.8, 32.2, UNDERMINE },
+				["questID"] = 85494,
+				["g"] = {
+					i(235273),	-- Distracting Floatmingo
+				},
+			}),
+			o(474396, {	-- Muff's Atuo-Locker
+				["coord"] = { 75.1, 23.0, UNDERMINE },
+				["questID"] = 85115,
+				["g"] = {
+					i(234431),	-- Gorillion Batteries
+				},
+			}),
 		}),
 	}),
 })));

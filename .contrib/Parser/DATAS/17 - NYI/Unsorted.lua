@@ -7,12 +7,6 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			n(ARMOR, {
 				-- Quest Rewards?
-				i(232356),	-- Chainmail of the Undermine Revolutionary
-
-				i(232406),	-- Headgear of the Undermine Revolutionary
-				i(232407),	-- Boots of the Undermine Revolutionary
-				i(232408),	-- Legguards of the Undermine Revolutionary
-
 				i(232440),	-- [PH] Boreal Crossbow
 				i(235146),	-- Maniac Biker's Wristguards
 				i(235147),	-- Maniac Biker's Shoulderguards
@@ -216,7 +210,6 @@ root(ROOTS.Unsorted, {
 				-- Armor/Cosmetic Delves or Quest?
 				i(235507),	-- Might-Be-Invisible Drape
 				i(235508),	-- Might-Be-Invisible Cape
-				i(235516),	-- The Severance Package
 				i(235614),	-- Golden-Gob Propulsion Rig
 				i(235615),	-- Rusty Gobjets
 				i(235616),	-- True Speed Goblin-Thruster
@@ -226,26 +219,14 @@ root(ROOTS.Unsorted, {
 				i(232807),	-- Iron Chick
 				i(232838),	-- Viridian Mechasaur
 				i(232839),	-- Wavebreaker Mechasaur
-				i(232840),	-- Mechagopher
-				i(232841),	-- Professor Punch
-				i(232842),	-- Crimson Mechasaur
-				i(232843),	-- Gorillion
 				i(232844),	-- Fuz-Size Flarendo
-				i(232845),	-- Bilgewater Junkhauler
-				i(232846),	-- Steamwheedle Flunkie
 				i(232847),	-- Personal-Use Sapper
 				i(232848),	-- Mr. DELVER
-				i(232849),	-- Venture Companyman
-				i(232850),	-- Blackwater Kegmover
-				i(232851),	-- Rocketfist
 				i(232852),	-- Mutt
-				i(232853),	-- Eepy
 				i(232854),	-- Grinner
 				i(232855),	-- Foreman
 				i(232856),	-- Scruff
 				i(232857),	-- Goggles
-				i(232858),	-- Cruncher
-				i(232859),	-- Lab Rat
 				i(232895),	-- Spotty
 				i(235909),	-- Gleam
 				i(235988),	-- Parley
@@ -253,31 +234,15 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(COSMETIC, {
 				-- Cartel Cosmetics?
-				i(231526),	-- Bilgewater Undermine Tabard
-				i(231527),	-- Steamwheedle Undermine Tabard
 				i(231528),	-- Blackwater Undermine Tabard
-				i(231542),	-- Venture Co. Undermine Tabard
 				i(231550),	-- Darkfuse Lowdown Coat
 				i(231556),	-- Breakneck Cabbie's Coat
 				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
 				i(231733),	-- Black Bruiser's Tabard
-				i(231734),	-- Blackwater Bruiser's Tabard
-				i(231735),	-- Steamwheedle Bruiser's Tabard
-				i(231736),	-- Bilgewater Bruiser's Tabard
 				i(231737),	-- Undermine Enforcer's Padding
-				i(231738),	-- Venture Co. Bruiser's Tabard
 				i(231739),	-- Black Bruiser's Helm
-				i(231740),	-- Steamwheedle Bruiser's Helm
-				i(231741),	-- Blackwater Bruiser's Helm
-				i(231742),	-- Bilgewater Bruiser's Helm
 
-				i(231744),	-- Venture Co. Bruiser's Helm
 				i(231745),	-- Black Bruiser's Shoulderspikes
-				i(231746),	-- Blackwater Bruiser's Spaulders
-				i(231747),	-- Steamwheedle Bruiser's Spaulders
-				i(231748),	-- Bilgewater Bruiser's Spaulders
-
-				i(231750),	-- Venture Co. Bruiser's Spaulders
 
 
 
@@ -355,7 +320,6 @@ root(ROOTS.Unsorted, {
 				i(235270),	-- Pearlescent Monarch's Mace
 				i(235271),	-- Midnight Butterfly Mace
 				i(235272),	-- Blood Monarch's Mace
-				i(235279),	-- Scorched Shorts
 				i(235289),	-- Spring Butterfly Sword
 				i(235290),	-- Pearlescent Monarch's Sword
 				i(235291),	-- Blood Monarch's Sword
@@ -499,9 +463,7 @@ root(ROOTS.Unsorted, {
 				-- Employeee
 				i(232980),	-- Axel Sneakfoot (MM!)
 				i(232979),	-- Jaks Jabberjaw (MM!)
-				i(236672),	-- Lil' Squeaker (MM!)
 				i(232978),	-- Louie Firehands (MM!)
-				i(236670),	-- Maniacal Melodies (MM!)
 				i(236671),	-- The Whole Brass Band (MM!)
 
 				-- Engines
@@ -514,20 +476,14 @@ root(ROOTS.Unsorted, {
 
 				-- Wheels
 				i(232985),	-- 22H Slicks (MM!)
-				i(232986),	-- GE86 Advance (MM!)
 
 				-- Paint
 				i(235390),	-- Paint: Body Roll Blue (MM!)
-				i(235389),	-- Paint: Goblin Green (MM!)
-				i(235388),	-- Paint: Redlining Red (MM!)
-				i(235391),	-- Paint: Yellow Cake Yellow (MM!)
 
 				-- Buil Turbos?
 				i(234416),	-- Steamboil Casing
-				i(234387),	-- Steamboil Fuel Injector
 				i(234380),	-- Steamboil Fuel Tank
 				i(234386),	-- Handcrank Fuel Injector
-				i(234381),	-- Handcrank Fuel Tank
 				i(234420),	-- Handcrank Mounting System
 
 
@@ -551,21 +507,11 @@ root(ROOTS.Unsorted, {
 				i(229422),	-- Undermine Equipment Chest
 				i(234729),	-- Cache of Undermine Treasures
 				i(234731),	-- Cache of Undermine Treasures
-				i(234743),	-- Steamwheedle's Trove (Revered)
 				i(234744),	-- Blackwater's Trove (Honored)
-				i(234745),	-- Bilgewater's Trove (Honored)
-				i(234746),	-- Venture Co.'s Trove (Honored)
 				i(235151),	-- Distinguished Actor's Chest
-				i(235258),	-- Bilgewater's Trove (Revered)
-				i(235259),	-- Bilgewater's Trove (Exalted)
 				i(235260),	-- Blackwater's Trove (Revered)
 				i(235261),	-- Blackwater's Trove (Exalted)
-				i(235262),	-- Steamwheedle's Trove (Honored)
-				i(235263),	-- Steamwheedle's Trove (Exalted)
-				i(235264),	-- Venture Co.'s Trove (Revered)
-				i(235265),	-- Venture Co.'s Trove (Exalted)
 				i(235610),	-- Seasoned Adventurer's Cache
-				i(235639),	-- Seasoned Adventurer's Cache
 				i(236689),	-- Finder's Fee
 				i(236756),	-- Socially Expected Tip Chest
 				i(236757),	-- Generous Tip Chest
@@ -595,7 +541,6 @@ root(ROOTS.Unsorted, {
 				i(232463),	-- Overflowing Undermine Trove
 				i(232465),	-- The Cartel's Trove
 				i(232485),	-- Mechano-Core Amplifier
-				i(232486),	-- Noggenfogger Ultimate Deluxe
 
 				i(232515),	-- Experimental Goblin Jetpack
 
@@ -616,7 +561,6 @@ root(ROOTS.Unsorted, {
 				-- CHETT
 				i(235053),	-- Completed C.H.E.T.T. List
 				i(236668),	-- C.H.E.T.T. Card
-				i(236669),	-- The Ol' Low-and-Slow
 				i(236682),	-- C.H.E.T.T. List
 				i(236785),	-- C.H.E.T.T. Card
 				-- Raid Achievement
@@ -625,7 +569,6 @@ root(ROOTS.Unsorted, {
 
 				-- Valorstones
 				i(236953),	-- Crimson Valorstone
-				i(236954),	-- Void-Touched Valorstone
 				i(236955),	-- Crimson Valorstone
 				i(236956),	-- Void-Touched Valorstone
 
@@ -643,7 +586,6 @@ root(ROOTS.Unsorted, {
 				i(227663),	-- Noggenfogger's Recommendation
 				i(227666),	-- Diner Review Cards
 				i(228798),	-- Gob-Glider
-				i(226373),	-- Everlasting Noggenfogger Elixir
 				i(229809),	-- Weighted Metal Ball
 				i(229810),	-- Vintage Kaja'cola Can
 				i(229823),	-- Canister of Darkfuse Solution
@@ -672,11 +614,6 @@ root(ROOTS.Unsorted, {
 				i(233205),	-- Go-Go Juice
 				i(233210),	-- Pungent Putrigill
 				i(233246),	-- Gunk-Covered Thingy
-				i(233444),	-- Kaja'Cola X-Treme
-				i(233445),	-- Kaja'Cola X-Treme Mega-Can
-				i(233446),	-- Multi-Pack of Kaja'Cola
-				i(233557),	-- Sifted Pile of Scrap
-				i(233558),	-- S.C.R.A.P. Scrubber Deluxe
 				i(234197),	-- Gilded Screwdriver
 				i(234203),	-- Clay-Speckled Metal Slug
 				i(234204),	-- Depleted Battery
@@ -693,10 +630,7 @@ root(ROOTS.Unsorted, {
 				i(234619),	-- Ultimate Orange O-pocalypse
 				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
 				i(234741),	-- Miscellaneous Mechanica
-				i(235042),	-- Imminently Exploding Fireworks
-				i(235230),	-- Impotent Potable
 				i(235257),	-- Plundered Artifact
-				i(235273),	-- Distracting Floatmingo
 				i(235280),	-- Extra Crispy Laundry
 				i(235558),	-- Box of Darkfuse Miscellany
 				i(235627),	-- Scribbles' Favorite Candies
@@ -706,10 +640,6 @@ root(ROOTS.Unsorted, {
 				i(235895),	-- Bloodstone
 				i(235910),	-- Mint Condition Gallagio Anniversary Coin
 				i(236633),	-- Low-Town Fizz
-				i(236634),	-- Itty Bitty Bonsai
-				i(236635),	-- Uncut Semi-Smoky Quartz
-				i(236636),	-- Cracked Crysoberyl
-				i(236637),	-- Not-Quite-Crystal Ball
 				i(236646),	-- Gallagio Especial
 				i(236647),	-- Coin and Kaja
 				i(236648),	-- Liquid Nitro
@@ -723,14 +653,11 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				mount(466019),	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
 				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
-				i(229935),	-- Crimson Armored Growler (MOUNT!)
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
 				mount(468068),	-- Junkmaestro's Magnetomech (MOUNT!)
 				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]
-				i(229956),	-- Mean Green Flying Machine (MOUNT!)
 				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
-				mount(466013),	-- Ocher Delivery Rocket (MOUNT!)
 				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
 				mount(466020),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
 				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
@@ -1348,7 +1275,6 @@ root(ROOTS.Unsorted, {
 				i(226216),	-- Kaja'Cola Can
 				i(226219),	-- Kaja'mite Fragment
 				i(226223),	-- Stinging Residue
-				i(226372),	-- Noggenfogger Deluxe with Lime
 				i(226393),	-- Jetpack-in-a-Box
 				i(226522),	-- Demolition Controller Fragment
 				i(226525),	-- Demolition Control Code
@@ -1362,7 +1288,6 @@ root(ROOTS.Unsorted, {
 				i(228549),	-- Massive Kaja'mite Chunk
 				i(228614),	-- Comprehend Rat Language Potion
 				i(228771),	-- Holey Grail
-				i(228792),	-- Reactive Plating
 				i(228794),	-- Purloined Loot
 				i(228822),	-- Burgled Art
 				i(228948),	-- Jazz's Shrink Ray
@@ -1380,7 +1305,6 @@ root(ROOTS.Unsorted, {
 				i(230792),	-- X-Plo-Dar 64k
 				i(231021),	-- Imported Brews
 				i(231022),	-- Bits o' Scrap
-				i(231164),	-- Goblin Grapnel
 				i(231369),	-- Redberry
 				i(231889),	-- New-To-You Mechanical Parts
 				i(231893),	-- Grease Residue
@@ -1400,11 +1324,8 @@ root(ROOTS.Unsorted, {
 				i(233066),	-- Radioactive Rat's Head
 				i(233113),	-- Crocodillian's Head
 				i(233114),	-- The Captain's Head
-				i(233512),	-- Kaja'fused Coupling
-				i(233513),	-- Coolant Core
 				i(234188),	-- Slot Chits
 				i(234426),	-- Kaja'Cola-Braised Meat
-				i(234489),	-- Dented Bloodhose
 				i(235346),	-- Shiny Treasure
 				i(236773),	-- Swallowed Kaja'mite
 			}),
@@ -1462,7 +1383,6 @@ root(ROOTS.Unsorted, {
 				i(235304),	-- Gutter Rat Mask
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235306),	-- Ooze-fused Mantle
-				i(235307),	-- Smoketrail Belt
 				i(235308),	-- Filthtread Boots
 				i(235309),	-- Gloomshroud Robe
 				i(235310),	-- Flashy Patchwork Trousers
@@ -1474,7 +1394,6 @@ root(ROOTS.Unsorted, {
 				i(235316),	-- Whirly-Giggle Windwhir Wrap
 				i(235317),	-- Chestplate of the Ultimatum
 				i(235318),	-- Ironfang Plate Legguards
-				i(235319),	-- Tidebomb Chestpiece
 				i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				i(235321),	-- Feather-Spike Girdle
 				i(235322),	-- Junkyard Clawguards
@@ -1666,9 +1585,6 @@ root(ROOTS.Unsorted, {
 				i(234392),	-- Gallagio Loyalty Rewards Card: Black
 				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
 				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
-				-- Special
-				i(234431),	-- Gorillion Batteries
-				i(236961),	-- Inoperative Gorillion
 			}),
 			n(SPECIAL, {	-- Remix
 				i(235716),	-- Ensemble: Cloak of Infinite Potential
@@ -1743,13 +1659,8 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(TOYS, {
 				i(233202),	-- G.O.L.E.M Jr.
-				i(235669),	-- Steamwheedle Cartel Banner
-				i(235670),	-- Bilgewater Cartel Banner
 				i(235671),	-- Blackwater Cartel Banner
-				i(235672),	-- Venture Co. Banner
-				i(235799),	-- Throwin' Sawblade
 				i(235801),	-- Personal Fishing Barge
-				i(235807),	-- Storefront-in-a-Box
 				i(236749),	-- Take-Home Torq
 				i(236751),	-- Take-Home Flarendo
 				i(234950),	-- Atomic Regoblinator
