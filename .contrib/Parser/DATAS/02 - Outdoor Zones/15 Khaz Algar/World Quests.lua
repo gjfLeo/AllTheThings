@@ -13,7 +13,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(WORLD_QUESTS, {
 		m(KHAZ_ALGAR, {
-			q(83280, name(HEADERS.Item,228361,{["isWeekly"]=true,})),	-- Seasoned Adventurer's Cache
+			q(83280, name(HEADERS.Item,228361,{["isWeekly"]=true,})),	-- Granted additional reward from weekly caches #1
+			q(83281, name(HEADERS.Item,228361,{["isWeekly"]=true,})),	-- Granted additional reward from weekly caches #2
 		}),
 	}),
 })));
