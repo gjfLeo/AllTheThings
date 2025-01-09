@@ -86,6 +86,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 77.2, 15.4, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 			}),
+			-- These FlightPaths are not collectible, but are faked on the map by Blizzard
+			fp(2066, {["collectible"] = false}),	-- Atal'Gral, Zuldazar
+			fp(2071, {["collectible"] = false}),	-- Dreadpearl, Zuldazar
 		}),
 	}),
 })));

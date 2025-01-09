@@ -263,6 +263,8 @@ root(ROOTS.Zones, {
 						["coord"] = { 40.6, 55.2, DRAENOR_SHADOWMOON_VALLEY },
 						["races"] = ALLIANCE_ONLY,
 					}),
+					-- This FlightPath is not collectible, but is faked on the map by Blizzard
+					fp(1567, {["collectible"] = false}),	-- Temple of Karabor, Shadowmoon Valley
 				}),
 				petbattles({ ADDED_6_0_2 }, {
 					n(87124, {	-- Ashlei <Grand Master Pet Tamer>

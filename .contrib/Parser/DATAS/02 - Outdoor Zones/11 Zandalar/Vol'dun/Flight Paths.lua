@@ -45,6 +45,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 53.6, 37.6, VOLDUN },
 				["races"] = ALLIANCE_ONLY,
 			}),
+			-- This FlightPath is not collectible, but is faked on the map by Blizzard
+			fp(2162, {["collectible"] = false}),	-- Devoted Sanctuary, Vol'dun
 		}),
 	}),
 })));
