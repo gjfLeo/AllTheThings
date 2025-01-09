@@ -482,7 +482,7 @@ local function CheckIsUpgrade(t)
 	end
 end
 
-app.UpdateUpgradeGroup = function(t)
+local function OnSearchResultUpdate(t)
 	-- app.PrintDebug("UpdateUpgradeGroup",app:SearchLink(t))
 	local sources = UpgradeSources[t.hash]
 	if not sources then return end
@@ -491,6 +491,7 @@ app.UpdateUpgradeGroup = function(t)
 		CheckIsUpgrade(upgradeSource)
 	end
 end
+app.AddEventHandler("OnSearchResultUpdate", OnSearchResultUpdate)
 
 local function UpdateUpgradeGroups(refs)
 	-- app.PrintDebug("Upgrade Updates",#refs)

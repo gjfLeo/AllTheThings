@@ -272,10 +272,11 @@ local function UpdateCostGroup(c)
 	end
 	-- app.PrintDebug("UCG:Done",c.hash,app._SettingsRefresh)
 end
-app.UpdateCostGroup = function(group)
+local function OnSearchResultUpdate(group)
 	CacheFilters()
 	UpdateCostGroup(group)
 end
+app.AddEventHandler("OnSearchResultUpdate", OnSearchResultUpdate)
 
 -- Returns whether 't' should be considered collectible based on the set of costCollectibles already assigned to this 't'
 app.CollectibleAsCost = function(t)

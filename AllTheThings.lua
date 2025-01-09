@@ -1549,7 +1549,7 @@ if GetAchievementNumCriteria then
 				CacheFields(criteriaObject);
 				-- this criteria object may have been turned into a cost via costs/providers assignment, so make sure we update those respective costs via the Cost Runner
 				-- if settings are changed while this is running, it's ok because it refreshes costs from the cache
-				app.FillRunner.Run(app.UpdateCostGroup, criteriaObject)
+				app.HandleEvent("OnSearchResultUpdate", criteriaObject)
 				tinsert(searchResults, criteriaObject);
 			end
 		end
@@ -3829,15 +3829,13 @@ local function UpdateSearchResults(searchResults)
 	-- Update all the results within visible windows
 	local hashes = {};
 	local found = {};
-	local UpdateCostGroup = app.UpdateCostGroup;
-	local UpdateUpgradeGroup = app.UpdateUpgradeGroup
+	local HandleEvent = app.HandleEvent
 	-- Directly update the Source groups of the search results, and collect their hashes for updates in other windows
 	for _,result in ipairs(searchResults) do
 		hashes[result.hash] = true;
 		found[#found + 1] = result;
-		-- Make sure any cost/upgrade data is updated for this specific group since it was updated
-		UpdateCostGroup(result)
-		UpdateUpgradeGroup(result)
+		-- Make sure any update events are handled for this Thing
+		HandleEvent("OnSearchResultUpdate", result)
 	end
 
 	-- loop through visible ATT windows and collect matching groups
