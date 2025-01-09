@@ -585,6 +585,7 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			["coord"] = { 56.2, 66.8, KROKUUN },
 			["groups"] = {
 				i(151657),	-- Recipe: Lightblood Elixir [Rank 1] (RECIPE!)
+				i(151845),	-- Used Vial (QI!)
 			},
 		})),
 		q(48013, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Tracking the Trackers

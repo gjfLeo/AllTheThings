@@ -37,7 +37,11 @@ root(ROOTS.Zones, {
 				}),
 				petbattle(q(41914)),	-- Clear the Catacombs
 				q(42151),	-- Clear the Skies
-				q(44067),	-- Consolidating Power
+				q(44067, {	-- Consolidating Power
+					["g"] = {
+						i(141253),	-- Nightblade Pendant (QI!)
+					},
+				}),
 				q(44867),	-- Contain their Advance
 				q(44816),	-- Continued Exposure
 				q(41195),	-- Culling Ambervale

@@ -8,6 +8,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sourceQuests"] = { 47219 },	-- A Vessel Made Ready
 				["provider"] = { "n", 121230 },	-- Alleria Windrunner
 				["coord"] = { 28.3, 47.0, EREDATH },
+				["g"] = {
+					i(152602),	-- Remnant of Nhal'athoth (QI!)
+				},
 			}),
 			q(47856, {	-- Across the Universe
 				["sourceQuests"] = { 47855 },
@@ -75,11 +78,18 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sourceQuests"] = { 47686 },	-- Not-So-Humble Beginnings
 				["provider"] = { "n", 123413 },	-- Archmage Y'mera
 				["coord"] = { 59.5, 50.5, EREDATH },
+				["g"] = {
+					i(151624),	-- Y'mera's Arcanocrystal (QI!)
+				},
 			}),
 			q(46818, {	-- Defenseless and Afraid
 				["sourceQuests"] = { 46815 },	-- Eredath, Jewel of Argus
 				["provider"] = { "n", 120533 },	-- Prophet Velen
 				["coord"] = { 54.5, 78.0, EREDATH },
+				["g"] = {
+					i(152408),	-- Stolen Pylon Core (QI!)
+					i(153052),	-- Depleted Pylon Core
+				},
 			}),
 			q(47853, {	-- Flanking Maneuvers
 				["sourceQuests"] = {
@@ -114,6 +124,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sourceQuests"] = { 47686 },	-- Not-So-Humble Beginnings
 				["provider"] = { "n", 123413 },	-- Archmage Y'mera
 				["coord"] = { 59.5, 50.5, EREDATH },
+				["g"] = {
+					i(151366),	-- Partially Digested Arcana (QI!)
+				},
 			}),
 			q(46834, {	-- Khazaduum, First of His Name
 				["sourceQuests"] = { 46815 },	-- Eredath, Jewel of Argus
@@ -189,6 +202,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				},
 				["provider"] = { "n", 124070 },	-- Vigilant Quoram
 				["coord"] = { 59.8, 50.5, EREDATH },
+				["g"] = {
+					i(151476),	-- Sigil of Awakening (QI!)
+				},
 			}),
 			q(47883, {	-- The Longest Vigil
 				["sourceQuests"] = {

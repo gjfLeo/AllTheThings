@@ -395,6 +395,9 @@ root(ROOTS.Zones, {
 						["lvl"] = 110,
 						["provider"] = { "o", 258980 },	-- Cursed Tome
 						["coord"] = { 37.6, 59.3, DRAENOR_SHADOWMOON_VALLEY },
+						["g"] = {
+							i(141361),	-- Cursed Tome (QI!)
+						},
 					}),
 					q(33765, {	-- Dark Enemies
 						["sourceQuests"] = { 33075 },	-- A Hero's Welcome

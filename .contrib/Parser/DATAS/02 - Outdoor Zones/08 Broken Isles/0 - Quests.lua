@@ -627,13 +627,17 @@ root(ROOTS.Zones, {
 						["coord"] = { 38.6, 40.8, LEGION_DALARAN },
 						["maps"] = { 701 },	-- Icecrown Citadel (scenario version)
 						["g"] = {
-							i(134857),	-- Invincible's Reins
+							i(134857),	-- Invincible's Reins (QI!)
 						},
 					}),
 					q(41394, {	-- Service with a Smile
 						["sourceQuests"] = { 41367 },	-- Priority Delivery
 						["provider"] = { "n", 52562 },	-- Johnny Awesome
 						["coord"] = { 68.6, 73.1, FERALAS },
+						["g"] = {
+							i(135464),	-- Bulging Sack of Gold (QI!)
+							i(135463),	-- Invincible's Reins (QI!)
+						},
 					}),
 					q(41395, {	-- Due Reward
 						["sourceQuests"] = { 41394 },	-- Service with a Smile

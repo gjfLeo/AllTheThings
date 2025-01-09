@@ -90,6 +90,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sym"] = {{"select","npcID",125497}},	-- Select the WQ NPC
 			}),
 			q(48105, {	-- Peer Review
+				["g"] = {
+					i(153249),	-- Y'mera's Attuning Crystal (QI!)
+				},
 			}),
 			q(47844, {	-- Recurring Madness
 				["g"] = {
@@ -105,6 +108,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				},
 			}),
 			q(47858, {	-- Security: Engaged
+				["g"] = {
+					i(152357),	-- Vigilant Power Crystal (QI!)
+				},
 			}),
 			q(49050, {	-- Shadeflicker
 			}),

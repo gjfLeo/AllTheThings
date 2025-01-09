@@ -64,11 +64,19 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			q(48526),	-- Scuttled
 			q(48662),	-- Short Fuses
 			q(48514),	-- Slumbering Behemoths
-			q(48691),	-- Soul Chain
+			q(48691, {	-- Soul Chain
+				["g"] = {
+					i(152971),	-- Talisman of the Prophet (QI!)
+				},
+			}),
 			q(48358),	-- Supplies Needed: Empyrium
 			q(48360),	-- Supplies Needed: Fiendish Leather
 			q(48374),	-- Supplies Needed: Lightweave Cloth
-			q(48640),	-- The Immortal Squadron
+			q(48640, {	-- The Immortal Squadron
+				["g"] = {
+					i(152657),	-- Target Designator (QI!)
+				},
+			}),
 			q(48952),	-- Throw Them a Bone
 			q(48827, {	-- Varga
 				["sym"] = {{"select","npcID",126208}},	-- Select the WQ NPC

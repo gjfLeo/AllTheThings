@@ -98,7 +98,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 				q(49077, {	-- Moments of Reflection
 					["provider"] = { "n", 129429 },	-- Alor'idal Crystal
 					["g"] = {
-						i(153555),	-- Alor'idal Crystal (quest item in bags)
+						i(153555),	-- Alor'idal Crystal (QI!)
 					},
 				}),
 			}),

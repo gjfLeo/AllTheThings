@@ -3162,6 +3162,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 19.8, 34.9, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["g"] = {
+						i(132251),	-- Letter to Anduin (QI!)
+					},
 				}),
 				q(6182, {	-- The First and the Last
 					-- #if AFTER WRATH

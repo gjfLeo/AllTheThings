@@ -639,6 +639,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 			["repeatable"] = true,
 			["g"] = {
+				i(146709),	-- Ancient Demonsteel (QI!)
 				i(146708),	-- Ancient Demonsteel Armor (QI!)
 			},
 		})),

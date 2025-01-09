@@ -520,6 +520,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 36.1, 27.4, STORMHEIM },
 					["provider"] = { "n", 91590 },	-- Apothecary Withers
 					["g"] = {
+						i(122702),	-- Containment Unit (QI!)
 						i(134554),	-- Runespeaker's Gloves
 						i(134555),	-- Runesworn Grips
 						i(134556),	-- Stormborn Gloves

@@ -637,6 +637,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 98008 },	-- Brightwing
 						["coord"] = { 39.6, 45.5, 715 },
 						["sourceQuests"] = { 42045 },	-- Communing with Malorne
+						["g"] = {
+							i(139380),	-- Dream Seeds (QI!)
+						},
 					}),
 					q(40838, {	-- The Dark Riders
 						["sourceQuests"] = { 40837 },	-- The Deadwind Hunt

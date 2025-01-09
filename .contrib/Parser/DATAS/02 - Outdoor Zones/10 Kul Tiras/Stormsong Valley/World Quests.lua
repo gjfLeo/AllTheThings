@@ -233,10 +233,16 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(52328, {	-- Ice Sickle
 			}),
 			q(53108, {	-- Iconoclasm
-				ach(13042),	-- About To Break
+				["g"] = {
+					ach(13042),	-- About To Break
+					i(157771),	-- Holy Water (QI!)
+				},
 			}),
 			q(53344, {	-- Iconoclasm
 				["sym"] = {{"select","achievementID",13042}},	-- About To Break
+				["g"] = {
+					i(157771),	-- Holy Water (QI!)
+				},
 			}),
 			q(52115, {	-- In the Shadow of the Kraken
 			}),

@@ -87,6 +87,8 @@ root(ROOTS.Instances, { expansion(EXPANSION.LEGION, {
 						iensemble(152244, {	-- Ensemble: Venerated Triumvirate Battleplate
 							["description"] = "May require relogging to gain all appearances.",
 						}),
+						i(152202),	-- Armor of the Triumvirate (QI!)
+						i(152203),	-- Reforged Armory Key (QI!)
 					},
 				}),
 			}),

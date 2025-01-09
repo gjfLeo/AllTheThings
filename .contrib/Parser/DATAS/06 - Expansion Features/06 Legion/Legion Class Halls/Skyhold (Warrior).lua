@@ -442,6 +442,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42194,	-- Stolen Honor
 						["provider"] = { "n", 106720 },	-- Svergan Stormcloak
 						["coord"] = { 63.8, 47.2, STORMHEIM },
+						["g"] = {
+							i(138204),	-- Svergan's Belongings (QI!)
+						},
 					}),
 					q(42651, {	-- Svergan's Promise
 						["sourceQuest"] = 42650,	-- Break the Bonds
@@ -478,6 +481,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["coord"] = { 53.8, 87.8, HIGHMOUNTAIN },
 						["g"] = {
 							i(139501),	-- Frostcrag Drums (QI!)
+							i(138205),	-- The Gjallarhorn (QI!)
 							follower(711),	-- Hymdall
 							artifact(793),	-- Strom'kar, the Warbreaker
 							artifact(656),	-- Warswords of the Valarjar [Main Hand]

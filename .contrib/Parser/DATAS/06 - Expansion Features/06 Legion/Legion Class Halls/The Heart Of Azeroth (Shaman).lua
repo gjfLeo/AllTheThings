@@ -650,6 +650,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 117715 },	-- Therazane
 						["coord"] = { 60.4, 51.6, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = {
+							i(146888),	-- Fire Power Core (QI!)
+							i(146889),	-- Water Power Core (QI!)
+							i(146890),	-- Earth Power Core (QI!)
+							i(146891),	-- Air Power Core (QI!)
+						},
 					}),
 					q(45883, {	-- The Firelord's Offense
 						["sourceQuests"] = {

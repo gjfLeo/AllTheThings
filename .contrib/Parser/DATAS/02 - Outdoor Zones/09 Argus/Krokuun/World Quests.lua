@@ -70,6 +70,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sym"] = {{"select","npcID",123464}},	-- Select the WQ NPC
 			}),
 			q(47563, {	-- Spirits of the Fallen
+				["g"] = {
+					i(152995),	-- Sacred Stone (QI!)
+				},
 			}),
 			q(48338, {	-- Supplies Needed: Astral Glory
 			}),

@@ -178,6 +178,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sourceQuests"] = { 47892 },	-- Storming the Citadel
 				["provider"] = { "n", 124974 },	-- Prophet Velen
 				["coord"] = { 61.1, 47.7, KROKUUN },
+				["g"] = {
+					i(152110),	-- Talisman of the Prophet (QI!)
+				},
 			}),
 			q(46840, {	-- Prisoners No More
 				["sourceQuests"] = { 46839 },	-- From Darkness
@@ -243,7 +246,10 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sourceQuests"] = { 47994 },	-- Forming a Bond
 				["provider"] = { "n", 121260 },	-- Lightforged Courier
 				["coord"] = { 40.6, 70.0, KROKUUN },
-				["lvl"] = 110,
+				["lvl"] = 45,
+				["g"] = {
+					i(147491),	-- Sealed Missive (QI!)
+				},
 			}),
 			q(46732, {	-- The Prophet's Gambit
 				["sourceQuests"] = { 47641 },	-- Signs of Resistance

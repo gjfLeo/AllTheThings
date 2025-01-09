@@ -648,6 +648,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 48.2, 41.0, LEGION_DALARAN },
+						["g"] = {
+							i(143845),	-- "Jewelry" (QI!)
+						},
 					}),
 					q(45566, {	-- A Knight's Belongings
 						["sourceQuests"] = { 45562 },	-- Kneel and Be Squired!

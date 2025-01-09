@@ -155,6 +155,9 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 100499 },	-- Jabrul <Jewelcrafting Master>
 						["coord"] = { 42.2, 35.0, STORMHEIM },
 						["sourceQuests"] = { 40540 },	-- Come at Me, Brul
+						["g"] = {
+							i(132760),	-- Conducting Jewel (QI!)
+						},
 					}),
 					q(40546, {	-- Mysteries of Nature
 						["provider"] = { "n", 100499 },	-- Jabrul <Jewelcrafting Master>

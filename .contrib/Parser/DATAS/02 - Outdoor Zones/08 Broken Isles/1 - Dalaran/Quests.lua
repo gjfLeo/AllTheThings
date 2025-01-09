@@ -165,6 +165,9 @@ root(ROOTS.Zones, {
 					["provider"] = { "n", 113986 },	-- Archmage Khadgar
 					["sourceQuests"] = { 44182 },	-- City Under Siege
 					["coord"] = { 47.6, 74.6, DEADWIND_PASS },
+					["g"] = {
+						i(141411),	-- Translocation Anomaly Neutralization Crystal (QI!)
+					},
 				}),
 				q(45482, {	-- Arcane: Fate of the Tideskorn
 					["sourceQuests"] = {
@@ -804,6 +807,9 @@ root(ROOTS.Zones, {
 						MAGE,		-- Frost
 						PRIEST,		-- Shadow
 						WARLOCK,	-- Affliction
+					},
+					["g"] = {
+						i(143494),	-- A Mysterious Note (QI!)
 					},
 				}),
 				q(47005, {	-- Mistweaver: The Bradensbrook Investigation

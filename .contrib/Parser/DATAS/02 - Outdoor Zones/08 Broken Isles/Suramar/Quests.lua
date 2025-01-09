@@ -396,10 +396,16 @@ root(ROOTS.Zones, {
 					["coord"] = { 48.4, 83.2, SURAMAR },
 					["provider"] = { "n", 107598 },	-- Vanthir
 					["sourceQuest"] = 40746,	-- One of the People
+					["g"] = {
+						i(138308),	-- Mana Wine Flask (QI!)
+					},
 				}),
 				q(42396, {	-- Do The Thing! -- aa
 					["coord"] = { 15.8, 54.8, SURAMAR },
 					["provider"] = { "n", 107302 },	-- Pearlhunter Phin
+					["g"] = {
+						i(137383),	-- Speckled Pearl (QI!)
+					},
 				}),
 				q(43810, {	-- Down to Business (A)
 					["coord"] = { 41.6, 51.5, SURAMAR },
@@ -826,6 +832,9 @@ root(ROOTS.Zones, {
 					["coord"] = { 36.4, 22.3, SURAMAR },
 					["provider"] = { "n", 101768 },	-- Lothrius Mooncaller
 					["sourceQuest"] = 40964,	-- The Rift Between
+					["g"] = {
+						i(133882),	-- Trap Rune (QI!)
+					},
 				}),
 				q(44830, {	-- Learning From the Dead
 					["coord"] = { 39.9, 50.9, SURAMAR },
@@ -1116,6 +1125,9 @@ root(ROOTS.Zones, {
 					["coord"] = { 32.2, 12.7, SURAMAR },
 					["provider"] = { "n", 101765 },	-- Syrana Starweaver
 					["sourceQuest"] = 40969,	-- Starweaver's Fate
+					["g"] = {
+						i(133999),	-- Inert Crystal (QI!)
+					},
 				}),
 				q(41214, {	-- Parts Unknown
 					["coord"] = { 34.2, 74.0, SURAMAR },
@@ -1522,6 +1534,10 @@ root(ROOTS.Zones, {
 					["coord"] = { 36.8, 46.6, SURAMAR },
 					["provider"] = { "n", 97140 },	-- First Arcanist Thalyssra
 					["sourceQuest"] = 42487,	-- Friends On the Outside
+					["g"] = {
+						i(138392),	-- Amplifier Fragment (QI!)
+						i(138391),	-- Arcane Amplifier (QI!)
+					},
 				}),
 				q(42489, {	-- Thalyssra's Drawers
 					["coord"] = { 65.6, 62.7, SURAMAR },
@@ -1650,6 +1666,9 @@ root(ROOTS.Zones, {
 					["coord"] = { 19.5, 22.3, SURAMAR },
 					["provider"] = { "n", 106696 },	-- Kalendros Irongrove
 					["sourceQuest"] = 41464,	-- Not here, Not Now, Not Ever
+					["g"] = {
+						i(135534),	-- Heavy Torch (QI!)
+					},
 				}),
 				q(40008, {	-- The Only Way Out is Through
 					["coord"] = { 34.6, 53.3, SURAMAR },

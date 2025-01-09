@@ -922,6 +922,7 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				["coord"] = { 38.6, 25.0, LEGION_DALARAN },
 				["g"] = {
 					r(247717),	-- Gravitational Reduction Slippers (RECIPE!)
+					i(151927),	-- Prototype Gravitational Reduction Slippers (QI!)
 				},
 			})),
 			q(48065, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Extraterrestrial Exploration

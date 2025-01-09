@@ -704,6 +704,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["repeatable"] = true,
 				["g"] = {
 					i(146693),	-- Ancient Dreadleather (QI!)
+					i(146692),	-- Ancient Dreadleather Armor (QI!)
 				},
 			})),
 			q(46687, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- The Wisp and the Nightmare
@@ -767,6 +768,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["repeatable"] = true,
 				["g"] = {
 					i(146701),	-- Ancient Gravenscale (QI!)
+					i(146700),	-- Ancient Gravenscale Armor (QI!)
 				},
 			})),
 			q(46692, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- The Owl and the Dreadlord
@@ -828,7 +830,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(151740),	-- Pattern: Fiendish Shoulderguards [Rank 1] (RECIPE!)
 					i(151743),	-- Pattern: Fiendish Spaulders [Rank 1] (RECIPE!)
 					i(151880),	-- Enstraa's Tanning Oil (QI!)
-					i(151879),	-- Purified Fiendish Leather
+					i(151879),	-- Purified Fiendish Leather (QI!)
 				},
 			})),
 		}),

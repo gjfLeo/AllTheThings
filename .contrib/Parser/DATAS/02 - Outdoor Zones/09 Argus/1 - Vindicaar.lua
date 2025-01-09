@@ -184,6 +184,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 						i(151738),	-- Design: Masterful Argulite (RECIPE!)
 						i(151737),	-- Design: Quick Lightsphene (RECIPE!)
 						i(151739),	-- Design: Versatile Labradorite (RECIPE!)
+						i(151876),	-- Vorel's Design Book (QI!)
 					},
 				}),
 				q(48076, {	-- A Crowning Achievment
@@ -234,6 +235,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					["sourceQuests"] = { 47743 },	-- The Child of Light and Shadow
 					["provider"] = { "n", 126307 },	-- Prophet Velen
 					["coord"] = { 45.9, 34.0, THE_VINDICAAR_KROKUUN_UPPER },
+					["g"] = {
+						i(153125),	-- Vestige of Light (QI!)
+					},
 				}),
 				q(47134, {	-- Foiling the Legion's Jailbreak
 					["sourceQuests"] = { 47104 },	-- Imprisoned Inquisitor
@@ -262,6 +266,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					["coords"] = {
 						{ 46.7, 24.6, THE_VINDICAAR_KROKUUN_UPPER },
 						{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
+					},
+					["g"] = {
+						i(153014),	-- Pristine Argunite (QI!)
 					},
 				}),
 				q(48636, {	-- Fueling the Antoran Campaign
@@ -303,13 +310,17 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					["sourceQuests"] = { 47134 },	-- Foiling the Legion's Jailbreak
 					["provider"] = { "n", 121263 },	-- Grand Artificer Romuul
 					["coord"] = { 43.3, 23.2, THE_VINDICAAR_KROKUUN_UPPER },
-					["lvl"] = 110,
+					["lvl"] = 45,
+					["g"] = {
+						i(147906),	-- Fel Heart of Argus (QI!)
+					},
 				}),
 				q(48074, {	-- Looming Over Me
 					["requireSkill"] = TAILORING,
 					["sourceQuests"] = { 46941 },	-- The Path Forward
 					["g"] = {
 						recipe(247807),	-- Lightweave Breeches [Rank 1]
+						i(151874),	-- Lightweave Loom (QI!)
 					},
 				}),
 				q(46815, {	-- Eredath, Jewel of Argus
@@ -333,6 +344,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					["sourceQuests"] = { 47220 },	-- A Beacon in the Dark
 					["provider"] = { "n", 128722 },	-- Prophet Velen
 					["coord"] = { 53.1, 48.8, THE_VINDICAAR_EREDATH_UPPER },
+					["g"] = {
+						i(151090),	-- The Crest of Knowledge (QI!)
+					},
 				}),
 				q(48200, {	-- Securing a Foothold
 					["sourceQuests"] = { 48199 },	-- The Burning Heart
