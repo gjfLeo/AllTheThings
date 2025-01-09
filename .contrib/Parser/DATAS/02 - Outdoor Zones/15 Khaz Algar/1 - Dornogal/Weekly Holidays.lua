@@ -56,6 +56,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				-- TW MOP Quest under level 80
 				q(86560, {	-- A Shrouded Journey Through Time
+					["provider"] = { "n", 118828 },	-- Mistweaver
+					["coord"] = { 43.1, 55.3, TIMELESS_ISLE },
 					["timeline"] = { ADDED_11_0_7 },
 					["repeatable"] = true,
 					["g"] = {
