@@ -169,6 +169,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 						{ "n", 32914 },	-- Elder Stonebark
 					},
 				}),
+				ach(11751),	-- Mogg-Saron
 			}),
 			n(COMMON_BOSS_DROPS, {
 				["crs"] = {

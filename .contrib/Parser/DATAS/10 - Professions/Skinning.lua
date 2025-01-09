@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --       P R O F E S S I O N S   M O D U L E       --
 -----------------------------------------------------
-local DF_SKINNING_KNOWLEDGE = 2033;	-- CHECK!
+local DF_SKINNING_KNOWLEDGE = 2033;
 local TWW_SKINNING_KNOWLEDGE = 2794;
 -- Skinning - Skill ID 393 / Spell ID 8613
 root(ROOTS.Professions, prof(SKINNING, {

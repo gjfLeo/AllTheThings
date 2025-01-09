@@ -973,13 +973,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2024, {	-- Dragon Isles Alchemy Knowledge
+					currency(2024, {	-- DF Alchemy Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = ALCHEMY,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2785, {	-- TWW Alchemy Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = ALCHEMY,
 					}),
 				},
@@ -1088,13 +1093,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {	-- Artisan's Mettle
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2023, {	-- Dragon Isles Blacksmithing Knowledge
+					currency(2023, {	-- DF Blacksmithing Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = BLACKSMITHING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2786, {	-- TWW Blacksmithing Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = BLACKSMITHING,
 					}),
 				},
@@ -1121,13 +1131,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2026, {	-- Dragon Isles Tailoring Knowledge
+					currency(2026, {	-- DF Tailoring Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = TAILORING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2795, {	-- TWW Tailoring Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = TAILORING,
 					}),
 				},
@@ -1926,13 +1941,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {	-- Artisan's Mettle
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2025, {	-- Dragon Isles Leatherworking Knowledge
+					currency(2025, {	-- DF Leatherworking Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = LEATHERWORKING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2792, {	-- TWW Leatherworking Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = LEATHERWORKING,
 					}),
 				},
@@ -2077,13 +2097,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2034, {	-- Dragon Isles Herbalism Knowledge
+					currency(2034, {	-- DF Herbalism Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = HERBALISM,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2789, {	-- TWW Herbalism Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = HERBALISM,
 					}),
 				},
@@ -2105,13 +2130,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2029, {	-- Dragon Isles Jewelcrafting Knowledge
+					currency(2029, {	-- DF Jewelcrafting Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = JEWELCRAFTING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2791, {	-- TWW Jewelcrafting Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = JEWELCRAFTING,
 					}),
 				},
@@ -2350,13 +2380,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2030, {	-- Dragon Isles Enchanting Knowledge
+					currency(2030, {	-- DF Enchanting Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = ENCHANTING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2787, {	-- TWW Enchanting Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = ENCHANTING,
 					}),
 				},
@@ -2377,13 +2412,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2035, {	-- Dragon Isles Mining Knowledge
+					currency(2035, {	-- DF Mining Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = MINING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2793, {	-- TWW Mining Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = MINING,
 					}),
 				},
@@ -2606,13 +2646,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2027, {	-- Dragon Isles Engineering Knowledge
+					currency(2027, {	-- DF Engineering Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = ENGINEERING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2788, {	-- TWW Engineering Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = ENGINEERING,
 					}),
 				},
@@ -2630,13 +2675,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2033, {	-- Dragon Isles Skinning Knowledge
+					currency(2033, {	-- DF Skinning Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = SKINNING,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2794, {	-- TWW Skinning Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = SKINNING,
 					}),
 				},
@@ -2937,13 +2987,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
-					-- TODO: Verify the rewards of this quest after Dragonflight is over.
-					-- It is likely that this will change.
-					i(190456, {	-- Artisan's Mettle
+					i(ARTISANS_METTLE, {
 						["timeline"] = { ADDED_10_0_0 },
 					}),
-					currency(2028, {	-- Dragon Isles Inscription Knowledge
+					currency(2028, {	-- DF Inscription Knowledge
 						["timeline"] = { ADDED_10_0_0 },
+						["requireSkill"] = INSCRIPTION,
+					}),
+					i(ARTISANS_ACUITY, {
+						["timeline"] = { ADDED_11_0_2 },
+					}),
+					currency(2790, {	-- TWW Incription Knowledge
+						["timeline"] = { ADDED_11_0_2 },
 						["requireSkill"] = INSCRIPTION,
 					}),
 				},

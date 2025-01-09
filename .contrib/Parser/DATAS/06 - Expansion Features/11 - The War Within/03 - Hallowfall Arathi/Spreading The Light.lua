@@ -197,7 +197,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 64.5, 18.8, HALLOWFALL },
 						["g"] = {
 							i(219198),	-- Attica's Cave Torch (QI!)
-							i(206203),	-- Dauntless Draught (QI!)
+							o(403458, {	-- Dauntless Draught
+								i(206203),	-- Dauntless Draught (QI!)
+							}),
 							i(217342),	-- Dauntless Draught
 						},
 					}),
