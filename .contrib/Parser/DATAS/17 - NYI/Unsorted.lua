@@ -28,8 +28,6 @@ root(ROOTS.Unsorted, {
 
 				-- Trinkets
 				i(234717),	-- Blastmaster3000
-				i(234821),	-- Papa's Prized Putter
-				i(235283),	-- Bashful Book
 				i(235984),	-- Garbagemancer's Last Resort
 
 
@@ -112,7 +110,6 @@ root(ROOTS.Unsorted, {
 				i(233480),	-- Lucky-Streak Pendant
 				i(233481),	-- Might-Be-Invisible Cloak
 				i(233482),	-- Might-Be-Invisible Shawl
-				i(233483),	-- Lucky-Streak Ring
 				i(233484),	-- Lucky-Streak Signet
 				i(233485),	-- Lucky-Streak Band
 				i(233527),	-- Gold-Plated Glaive
@@ -145,7 +142,6 @@ root(ROOTS.Unsorted, {
 				i(234185),	-- Dr. Scrapheal
 				i(234217),	-- Funhouse Lens
 				i(234218),	-- Goo-blin Grenade
-				i(234281),	-- Undermine Cartel Work
 				i(234326),	-- Core Recycling Unit
 
 				-- Zone Rewards? Delves?
@@ -530,12 +526,8 @@ root(ROOTS.Unsorted, {
 				i(234416),	-- Steamboil Casing
 				i(234387),	-- Steamboil Fuel Injector
 				i(234380),	-- Steamboil Fuel Tank
-				i(234418),	-- Steamboil Gears
-				i(234419),	-- Steamboil Mounting System
-				i(234415),	-- Handcrank Casing
 				i(234386),	-- Handcrank Fuel Injector
 				i(234381),	-- Handcrank Fuel Tank
-				i(234417),	-- Handcrank Gears
 				i(234420),	-- Handcrank Mounting System
 
 
@@ -677,7 +669,6 @@ root(ROOTS.Unsorted, {
 				i(233055),	-- Corpse Cleaner
 				i(233061),	-- Rock-in-a-Bottle
 				i(233062),	-- Pocket Pizza
-				i(233118),	-- Incontinental Takeout
 				i(233205),	-- Go-Go Juice
 				i(233210),	-- Pungent Putrigill
 				i(233246),	-- Gunk-Covered Thingy
@@ -703,19 +694,13 @@ root(ROOTS.Unsorted, {
 				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
 				i(234741),	-- Miscellaneous Mechanica
 				i(235042),	-- Imminently Exploding Fireworks
-				i(235221),	-- Particularly Bright Lightbulb
 				i(235230),	-- Impotent Potable
-				i(235238),	-- Exploded Plunger
-				i(235255),	-- Durable Dice
 				i(235257),	-- Plundered Artifact
-				i(235268),	-- Misprinted Card
 				i(235273),	-- Distracting Floatmingo
 				i(235280),	-- Extra Crispy Laundry
 				i(235558),	-- Box of Darkfuse Miscellany
 				i(235627),	-- Scribbles' Favorite Candies
 				i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
-				i(235703),	-- Noggenfogger Select DOWN
-				i(235704),	-- Noggenfogger Select UP
 				i(235710),	-- Noggenfogger Select FRESH
 				i(235713),	-- Weird Sand
 				i(235895),	-- Bloodstone
@@ -725,9 +710,6 @@ root(ROOTS.Unsorted, {
 				i(236635),	-- Uncut Semi-Smoky Quartz
 				i(236636),	-- Cracked Crysoberyl
 				i(236637),	-- Not-Quite-Crystal Ball
-				i(236638),	-- Bundle of Kaja-Scented Incense
-				i(236639),	-- Dented Censer
-				i(236640),	-- Cracked Earthen Singing Bowl
 				i(236646),	-- Gallagio Especial
 				i(236647),	-- Coin and Kaja
 				i(236648),	-- Liquid Nitro
@@ -790,7 +772,6 @@ root(ROOTS.Unsorted, {
 				prof(ENGINEERING, {
 
 					i(235037),	-- Crumpled Schematic: Wormhole Generator: Undermine
-					i(235038),	-- Crumpled Schematic
 
 					-- Engineering Googles
 					i(235222),	-- Apogee Inventor's Goggles
@@ -1505,7 +1486,6 @@ root(ROOTS.Unsorted, {
 				i(235328),	-- Boots of the Silver Tongue
 				i(235329),	-- Cowl of Acidic Mire
 				i(235347),	-- 100% Sharp Glimmerblade
-				i(235348),	-- Back Alley Shank
 				i(235349),	-- Shadowfume Club
 				i(235350),	-- Void-forged Cudgel
 				i(235351),	-- Hypersteel CX4 Greatsword
@@ -1687,11 +1667,7 @@ root(ROOTS.Unsorted, {
 				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
 				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
 				-- Special
-				i(234427),	-- Gorillion Fork
-				i(234430),	-- Gorillion Grease
 				i(234431),	-- Gorillion Batteries
-				i(234432),	-- Gorillion Engine
-				i(234433),	-- Gorillion Chasis
 				i(236961),	-- Inoperative Gorillion
 			}),
 			n(SPECIAL, {	-- Remix
@@ -1777,7 +1753,6 @@ root(ROOTS.Unsorted, {
 				i(236749),	-- Take-Home Torq
 				i(236751),	-- Take-Home Flarendo
 				i(234950),	-- Atomic Regoblinator
-				i(234951),	-- Uncracked Cold Ones
 				i(235018),	-- Cracked Cold One [From toy?]
 				i(235219),	-- Fireworks Hat
 				i(235220),	-- Fireworks Hat

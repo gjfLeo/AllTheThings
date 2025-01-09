@@ -4305,6 +4305,7 @@ i(234396, 4728);	-- Teatuft Tamer
 ------------------
 --- ITEM ---
 i(236768, 4759);	-- Craboom
+i(232853, 4632);	-- Eepy
 --- NPC ---
 --- UNSORTED ---
 i(232845, 4645);	-- Bilgewater Junkhauler
@@ -4312,7 +4313,6 @@ i(232850, 4649);	-- Blackwater Kegmover
 
 i(232842, 4638);	-- Crimson Mechasaur
 i(232858, 4655);	-- Cruncher
-i(232853, 4632);	-- Eepy
 --i(???, 4739);	-- Fancier Rat
 i(232855, 4631);	-- Foreman
 i(232844, 4640);	-- Fuz-Size Flarendo

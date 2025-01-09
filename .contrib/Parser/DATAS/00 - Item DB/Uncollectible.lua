@@ -2220,9 +2220,14 @@ i(232635);	-- Torn Bilgewater Bandage
 ------------------
 -- PATCH 11.1.0 --
 ------------------
+i(236638);	-- Bundle of Kaja-Scented Incense
 i(233030);	-- Charged Cables
 i(233029);	-- Cracked Core
+i(236640);	-- Cracked Earthen Singing Bowl
+i(235038);	-- Crumpled Schematic
+i(236639);	-- Dented Censer
 i(233031);	-- Intact Interlock
+i(235268);	-- Misprinted Card
 
 i(236921);	-- Triumphant Satchel of Carved Harbinger Crests
 i(236922);	-- Celebratory Pack of Runed Harbinger Crests

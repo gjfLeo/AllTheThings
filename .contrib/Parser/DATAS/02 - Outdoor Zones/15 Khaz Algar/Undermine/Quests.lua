@@ -565,6 +565,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				-- Bonus objective during DRIVE?
 				--q(86318),	-- Tailgater Troubles
 				--q(85861),	-- Rug Monster!!!
+				-- Special Assigment Unlock trackers
+				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assigment - Special Assignment: Boom! Headshot! (questID 85487))
+				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for SPecial Assigment - ?)
+				-- ??
+				q(85813),	-- after interact with Pipe Valve @ 39.1, 59.1
+				-- ???
+				q(84953),	-- after you open up WQs in zone/pickup one of 4 faction/Venture Co picked up
 			}),
 		}),
 	}),

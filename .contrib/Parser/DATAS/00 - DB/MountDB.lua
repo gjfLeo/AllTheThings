@@ -1959,6 +1959,7 @@ i(233020, 472488);	-- Twilight Witch's Sweeper
 i(0, 1217235);		-- Crimson Shreddertank
 i(229974, 466133);	-- Delver's Gob-Trotter
 i(232523, 460013);	-- G-99 Breakneck
+i(229956, 466028);	-- Mean Green Flying Machine
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
 i(0, 1221155);		-- Prototype A.S.M.R.
 i(235626, 1217760);	-- The Big G
@@ -1971,7 +1972,6 @@ i(229935, 465999);	-- Crimson Armored Growler
 i(235662, 1218069);	-- Emerald Snail
 i(0, 468068);		-- Junkmaestro's Magnetomech
 i(235555, 1217341);	-- Lively Darkmoon Charger
-i(229956, 466028);	-- Mean Green Flying Machine
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(0, 466013);		-- Ocher Delivery Rocket

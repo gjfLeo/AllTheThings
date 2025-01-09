@@ -483,6 +483,8 @@ i(230220, 85183);	-- Delver's Gob-Trotter Schematic: Green
 i(230216, 85175);	-- Delver's Gob-Trotter Schematic: Harpoon
 i(230218, 85179);	-- Delver's Gob-Trotter Schematic: Pipes
 i(232982, 85775);	-- G77C Ultra
+
+i(235389, 86772);	-- Paint: Goblin Green
 --- UNSORTED ---
 i(235697, 82192);	-- Delver's Dirigible Schematic: Alliance Decal
 i(235694, 82117);	-- Delver's Dirigible Schematic: Blue Paint
@@ -509,7 +511,6 @@ i(232984, 85784);	-- Handcrank
 i(232985, 85782);	-- 22H Slicks
 i(232986, 85781);	-- GE86 Advance
 i(235390, 86771);	-- Paint: Body Roll Blue
-i(235389, 86772);	-- Paint: Goblin Green
 i(235388, 86773);	-- Paint: Redlining Red
 i(235391, 86774);	-- Paint: Yellow Cake Yellow
 

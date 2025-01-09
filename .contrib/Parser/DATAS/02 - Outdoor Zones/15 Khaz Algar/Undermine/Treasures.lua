@@ -1,11 +1,154 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
---[[
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(TREASURES, {
+			o(477376, {	-- Trick Deck of Cards
+				["coord"] = { 43.6, 51.5, UNDERMINE },
+				["questID"] = 85496,
+			}),
+			o(477363, {	-- Particularly Nice Lamp
+				["coord"] = { 39.4, 61, UNDERMINE },
+				["questID"] = 85492,
+				["g"] = {
+					i(235221),	-- Particularly Bright Lightbulb
+				},
+			}),
+			o(495592, {	-- Blackened Dice
+				["coord"] = { 39.0, 59.6, UNDERMINE },
+				["questID"] = 85814,
+				["g"] = {
+					i(235255),	-- Durable Dice
+				},
+			}),
+			o(504096, {	-- Crumpled Schematics
+				["coord"] = { 42.3, 82.2, UNDERMINE },
+				["questID"] = 86487,
+			}),
+			o(474398, {	-- Muff's Auto-Locker
+				["coord"] = { 34.3, 82.7, UNDERMINE },
+				["questID"] = 85117,
+				["g"] = {
+					i(234433),	-- Gorillion Chasis
+				},
+			}),
+			o(502908, {	-- A Threatening Letter [lore]
+				["coord"] = { 27.3, 70.6, UNDERMINE },
+				["questID"] = 86567,
+			}),
+			o(502902, {	-- Second Half of Noggenfogger's Journal [lore]
+				["coord"] = { 32.8, 58.9, UNDERMINE },
+				["questID"] = 86571,
+			}),
+			--o(??, {	-- Unexploded Fireworks
+			-- bugged - phase out
+			--	["coord"] = { x, y, UNDERMINE },
+			--	["questID"] = xx,
+			--	["g"] = {
+			--		i(),	-- 
+			--	},
+			--}),
+			o(499207, {	-- Suspicious Book
+				["provider"] = { "n", 233775 },	-- vignette
+				["coord"] = { 49.8, 65.5, UNDERMINE },
+				["questID"] = 85868,
+				["g"] = {
+					-- TODO: probably need another look
+					q(85866, {
+						["name"] = "Original spot",
+						["coord"] = { 49.8, 66.2, UNDERMINE },
+					}),
+					q(85867, {
+						["name"] = "Next spot",
+						["coord"] = { 49.5, 64.5, UNDERMINE },
+					}),
+					--
+					i(235283),	-- Bashful Book
+				},
+			}),
+			o(493307, {	-- Inert Plunger?
+				["coord"] = { 49.7, 90.2, UNDERMINE },
+				["questID"] = 85694,
+			}),
+			o(493305, {	-- Exploded Plunger
+				["coord"] = { 49.6, 90.2, UNDERMINE },
+				["questID"] = 85698,
+				["g"] = {
+					i(235238),	-- Exploded Plunger
+				},
+			}),
+			o(474393, {	-- Muff's Auto-Locker
+				["coord"] = { 71.3, 85.7, UNDERMINE },
+				["questID"] = 85114,
+				["g"] = {
+					i(234430),	-- Gorillion Grease
+				},
+			}),
+			o(476068, {	-- Papa's Prized Putter
+				["coord"] = { 74.6, 79.9, UNDERMINE },
+				["questID"] = 85424,
+				["g"] = {
+					i(234821),	-- Papa's Prized Putter
+				},
+			}),
+			o(502903, {	-- Gallywix's Notes [lore]
+				["coord"] = { 60.9, 64.3, UNDERMINE },
+				["questID"] = 86573,
+			}),
+			o(499090, {	-- Fireworks Hat
+				["provider"] = { "n", 233720 },	-- vignette
+				["coord"] = { 55.9, 51.7, UNDERMINE },
+				["questID"] = 85856,
+				["g"] = {
+					-- missing loot table
+					-- TODO: same as for book, take another look
+					q(85838, {
+						["name"] = "Original spot",
+						["coord"] = { 57.9, 52.9, UNDERMINE },
+					}),
+					q(85839, {
+						["name"] = "Next spot",
+						["coord"] = { 55.9, 51.7, UNDERMINE },
+					}),
+				},
+			}),
+			o(474397, {	-- Muff's Auto-Locker
+				["coord"] = { 56.6, 55.3, UNDERMINE },
+				["questID"] = 85116,
+				["g"] = {
+					i(234432),	-- Gorillion Engine
+				},
+			}),
+			o(477374, {	-- Uncracked Cold Ones
+				["coord"] = { 53.3, 52.6, UNDERMINE },
+				["questID"] = 85495,
+				["g"] = {
+					i(234951),	-- Uncracked Cold Ones (TOY!)
+				},
+			}),
+			o(476071, {	-- Unsupervised Takeout
+				["coord"] = { 26.7, 42.6, UNDERMINE },
+				["questID"] = 85425,
+				["g"] = {
+					i(233118),	-- Incontinental Takeout
+					--i(7341),	-- Cubic Zirconia Ring (probably placeholder?)
+				},
+			}),
+			o(467468, {	-- Muff's Auto-Locker
+				["coord"] = { 23.8, 45.4, UNDERMINE },
+				["questID"] = 85072,
+				["g"] = {
+					i(234427),	-- Gorillion Fork
+				},
+			}),
+			--o(xx, {	-- ??
+			--	["coord"] = { x, y, UNDERMINE },
+			--	["questID"] = xx,
+			--	["g"] = {
+			--		i(),	-- 
+			--	},
+			--}),
 		}),
 	}),
 })));
---]]
