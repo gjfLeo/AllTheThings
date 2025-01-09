@@ -188,7 +188,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 		}),
-		header(HEADERS.Achievement, 40872, {	-- I Saved the Party and All I Got Was This Lousy Hat
+		header(HEADERS.Achievement, 40872, bubbleDownSelf({ ["timeline"] = { "removed 11.0.7.58238" } }, {	-- I Saved the Party and All I Got Was This Lousy Hat
 			ach(40872, {	-- I Saved the Party and All I Got Was This Lousy Hat (automated)
 				i(234448),	-- Bright Ideas Thinking Cap
 				i(231906),	-- High-Alert Thinking Cap
@@ -582,8 +582,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-		}),
-		header(HEADERS.Achievement, 40871, {	-- Assistant to the Assistant Guest Relations Manager
+		})),
+		header(HEADERS.Achievement, 40871, bubbleDownSelf({ ["timeline"] = { "removed 11.0.7.58238" } }, {	-- Assistant to the Assistant Guest Relations Manager
 			ach(40871, {	-- Assistant to the Assistant Guest Relations Manager (automated)
 				i(231907),	-- Tricked-Out Thinking Cap
 			}),
@@ -964,7 +964,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-		}),
+		})),
 		header(HEADERS.Achievement, 40979, {	-- No Crate Left Behind
 			ach(40979, {	-- No Crate Left Behind
 				["sourceQuests"] = {

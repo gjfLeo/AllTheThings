@@ -641,7 +641,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 		n(GROUP_FINDER, {
 			i(187902, {	-- Sporebat Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss of any 'The Burning Crusade Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
+				["description"] = "Can drop from the last boss of any 'The Burning Crusade Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 			}),
 			i(129747, {	-- Swirling Timewarped Vial
 				["description"] = "Drops from the last boss of any 'The Burning Crusade Timewalking' dungeon.",
@@ -1851,7 +1851,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 			}),
 			i(187903, {	-- Jormungar Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss of any 'Wrath of the Lich King Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
+				["description"] = "Can drop from the last boss of any 'Wrath of the Lich King Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 			}),
 		}),
 		n(QUESTS, {
@@ -3396,7 +3396,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 		n(GROUP_FINDER, {
 			i(185053, {	-- Kodo Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss of any 'Cataclysm Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
+				["description"] = "Can drop from the last boss of any 'Cataclysm Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 			}),
 			i(133378, {	-- Smoldering Timewarped Ember (A)
 				["description"] = "Drops from the last boss of any 'Cataclysm Timewalking' dungeon.",
@@ -4348,7 +4348,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 		n(GROUP_FINDER, {
 			i(187904, {	-- Cloud Serpent Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss of any 'Mists of Pandaria Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
+				["description"] = "Can drop from the last boss of any 'Mists of Pandaria Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 			}),
 			i(143776, {	-- Shrouded Timewarped Coin
 				["description"] = "Drops from the last boss of any 'Mists of Pandaria Timewalking' dungeon.",
@@ -4960,7 +4960,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 			}),
 			i(187905, {	-- Boar Soul (SS!)
 				["timeline"] = { ADDED_9_1_5 },
-				["description"] = "Can drop from the last boss of any 'Warlords of Draenor Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
+				["description"] = "Can drop from the last boss of any 'Warlords of Draenor Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 			}),
 			i(167921, {	-- Shimmering Timewarped Crystal (A)
 				["description"] = "Drops from the last boss of any 'Warlords of Draenor Timewalking' dungeon.",
@@ -5965,7 +5965,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 				},
 			}),
 			i(187906, {	-- Owl Serpent Soul (SS!)
-				["description"] = "Can drop from the last boss of any 'Legion Timewalking' dungeon if you are aligned with 'Night Fae Covenant' in the realm of Ardenweald, Shadowlands.",
+				["description"] = "Can drop from the last boss of any 'Legion Timewalking' dungeon if you are aligned with the 'Night Fae Covenant'.",
 			}),
 			i(187611, {	-- Whispering Felflame Crystal
 				["description"] = "Drops from the last boss of any 'Legion Timewalking' dungeon.",

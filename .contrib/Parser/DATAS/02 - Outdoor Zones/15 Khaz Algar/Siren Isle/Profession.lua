@@ -7,6 +7,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			prof(FISHING, {
 				i(232569, { -- Cyclonic Runekey
 					["description"] = "Can be fished with any skill and also drops from the rare Zek'ul.\n\nRecommened to fish while waiting for Zek'ul respawn.",
+					["g"] = {
+						hqt(85800, {	-- Use the Cyclonic Runekey in The Forgotten Vault
+							["name"] = "Use the Cyclonic Runekey in The Forgotten Vault (Storm Phase)",
+						})
+					},
 				}),
 			}),
 		}),

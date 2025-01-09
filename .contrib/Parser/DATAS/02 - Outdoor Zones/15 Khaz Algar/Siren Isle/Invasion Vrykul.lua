@@ -7,7 +7,7 @@ end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	m(SIREN_ISLE, {
 		n(-1208, {   -- Invasion: Vrykul
-			["description"] = "Every week a type of mobs invades the island.\n\nThe rotation is Vrykul>Naga>Pirates repeat.\n\nIf the invasion isnt active, everything listed here isnt available.",
+			["description"] = "Every week a faction invades the island.\n\nThe rotation is Vrykul>Naga>Pirates repeat.\n\nIf the invasion isnt active, everything listed here isnt available.",
 			["groups"] = {
 				petbattle(filter(BATTLE_PETS, {
 					pet(4724, {	-- Battleboar Piglet
@@ -93,7 +93,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				}),
 				n(ZONE_DROPS, {
 					i(233494, {	-- Muddy Snapdragon Treat
-						["description"] = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from Vrykuls.",
+						["description"] = "You must have the Prismatic Snapdragon Mount before this can drop.\n\nCan be looted from Vrykul.",
 						-- n: 232324 / n: 232323
 					}),
 				}),

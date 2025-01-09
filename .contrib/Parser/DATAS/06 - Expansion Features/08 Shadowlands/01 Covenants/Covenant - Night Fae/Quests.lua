@@ -156,7 +156,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 62899 },	-- The Endless Forest  [after switching Covenant]
 				["provider"] = { "n", 167196 },	-- Sesselie
 				["isWeekly"] = true,
-				["coord"] = { 33.9, 43.5, THE_ROOTS },
+				["coord"] = { 50.5, 62.9, THE_ROOTS },
 			}),
 			q(61331, {	-- Return Lost Souls (5 soul version)
 				["sourceQuests"] = { 58160 },	-- For Queen and Grove!

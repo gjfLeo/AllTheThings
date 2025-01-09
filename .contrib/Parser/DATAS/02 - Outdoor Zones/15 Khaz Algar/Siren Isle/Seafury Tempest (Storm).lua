@@ -28,8 +28,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				-- Birdy (move to special?)
 				q(85811, {	-- Thrayir, Eyes of the Siren
 					["sourceQuests"] = {
-					--	TODO: hqts as sourceQuest since you cannot take this quest without unlocking them
-					--	probably gonna need to add as cost runekeys, dunno
 						85800,	-- Cyclonic (spellID 471163)
 						85803,	-- Thunderous (spellID 471169)
 						85801,	-- Torrential (spellID 471166)
@@ -37,13 +35,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						85802,	-- Whirling (spellID 471167)
 					},
 					["provider"] = { "n", 233582 },	-- Thrayir, Eyes of the Siren
-					["cost"] = {
-						{ "i", 232569, 1 },	-- Cyclonic Runekey
-						{ "i", 232573, 1 },	-- Thunderous Runekey
-						{ "i", 232572, 1 },	-- Torrential Runekey
-						{ "i", 232570, 1 },	-- Turbulent Runekey
-						{ "i", 232571, 1 },	-- Whirling Runekey
-					},
 					["coord"] = { 72.5, 61.3, 2375 },
 					["g"] = {
 						i(232639),	-- Thrayir, Eyes of the Siren (MOUNT!)
@@ -81,13 +72,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						i(232569), -- Cyclonic Runekey
 					},
 				}),
-				-- The Forgotten Vault (during storm)
+				-- The Forgotten Vault
 				n(231368, {	-- Ksvir the Forgotten
 					["coord"] = { 37.9, 76.1, 2375 },
 					["questID"] = 85406,
 					["g"] = {
 						i(235017),	-- Glittering Vault Shard (TOY!)
-						i(232571),	-- Whirling Runekey
+						i(232571, {	-- Whirling Runekey
+							["g"] = {
+								hqt(85802, {	-- Use the Whirling Runekey in The Forgotten Vault
+									["name"] = "Use the Whirling Runekey in The Forgotten Vault (Storm Phase)",
+								})
+							},
+						}),
 					},
 				}),
 			})),
@@ -110,21 +107,31 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(234379),	-- Crackleroar (PET!)
 				}),
 				i(234327, {	-- Turbulent Fragment
+					["description"] = "Western coordinates fragment is gathered from a dirtpile, next to a Kul Tiran Ghost.\nSouthern coordinates Fragment in front of a ghost inside a cave.\nNorthern coordinates Fragment is found in the hands of a ghost in another cave.",
 					["coords"] = {
 						{ 38.19, 51.78, SIREN_ISLE },
 						{ 67.07, 78.44, SIREN_ISLE },
 						{ 52.39, 38.59, SIREN_ISLE },
 					},
-					["description"] = "Western coordinates fragment is gathered from a dirtpile, next to a Kul Tiran Ghost.\nSouthern coordinates Fragment in front of a ghost inside a cave.\nNorthern coordinates Fragment is found in the hands of a ghost in another cave.",
 				}),
 				i(232570, {	-- Turbulent Runekey
 					["cost"] = {{"i", 234327, 3 }},
+					["g"] = {
+						hqt(85799, {	-- Use the Turbulent Runekey in The Forgotten Vault
+							["name"] = "Use the Turbulent Runekey in The Forgotten Vault (Storm Phase)",
+						})
+					},
 				}),
 				i(232605, {	-- Thunderous Fragment
-					-- description on how to get these?
+					["description"] = "Found in chests and treasures during a storm.",
 				}),
 				i(232573, {	-- Thunderous Runekey
 					["cost"] = {{"i", 232605, 5 }},
+					["g"] = {
+						hqt(85803, {	-- Use the Thunderous Runekey in The Forgotten Vault
+							["name"] = "Use the Thunderous Runekey in The Forgotten Vault (Storm Phase)",
+						})
+					},
 				}),
 			}),
 			n(WORLD_QUESTS, {
@@ -164,9 +171,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					},
 					-- n: 227625 (from debugger)
 				}),
-				i(234328),	-- Torrential Fragment (TODO: probably need a better way to code it)
+				i(234328, {
+					["description"] = "Drops rarely from any enemies on the island during a storm.",
+				}),
 				i(232572, {	-- Torrential Runekey
 					["cost"] = {{"i", 234328, 7 }},
+					["g"] = {
+						hqt(85801, {	-- Use the Torrential Runekey in The Forgotten Vault
+							["name"] = "Use the Torrential Runekey in The Forgotten Vault (Storm Phase)",
+						})
+					},
 				}),
 			}),
 		}),
@@ -181,13 +195,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(86437),	-- after interact with Runic Fragment (npcID 234934) @ 67.1, 78.5 (spellID 1213217 - Take Fragment)
 				q(86435),	-- after interact with Runic Fragment (npcID 234934) @ 52.6, 38.7 / was able to loot it again but didn't fire questID
 				q(86436),	-- after interact with Dirt Pile (npcID 235134) @ 38.2, 51.8
-				-- Runestone activation questIDs in The Forgotten Vault (stormed phase) for Thrayir, Eyes of the Siren (npcID 233540)
-				-- despite Thrayir quest is once per account, hqts are not
-				q(85800),	-- Cyclonic (spellID 471163)
-				q(85803),	-- Thunderous (spellID 471169)
-				q(85801),	-- Torrential (spellID 471166)
-				q(85799),	-- Turbulent (spellID 471162)
-				q(85802),	-- Whirling (spellID 471167)
 			}),
 			n(RARES, {
 				-- Need more data / confirmation, current data is mess
