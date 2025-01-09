@@ -116,7 +116,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				q(13204, {	-- Funky Fungi
 					["provider"] = { "i", 43512 },	-- Ooze-Covered Fungus
 					["timeline"] = { REMOVED_4_3_0 },
-					["cr"] = 30329,	-- Savage Cave Beast
 					["lvl"] = lvlsquish(73, 73, 15),
 					["groups"] = {
 						objective(1, {	-- 0/6 Grotesque Fungus
@@ -174,13 +173,17 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					},
 				}),
 			}),
-			-- #if AFTER 7.3.5
 			n(ZONE_DROPS, {
+				i(43512, {	-- Ooze-Covered Fungus
+					["cr"] = 30329,	-- Savage Cave Beast
+					["timeline"] = { REMOVED_4_3_0 },
+				}),
+				-- #if AFTER 7.3.5
 				i(35616, {	-- Spored Tendrils Spaulders
 					["timeline"] = { CREATED_3_0_2, ADDED_7_3_5 },
 				}),
+				-- #endif
 			}),
-			-- #endif
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				n(ZONE_DROPS, {
 					i(35615),	-- Glowworm Cavern Bindings

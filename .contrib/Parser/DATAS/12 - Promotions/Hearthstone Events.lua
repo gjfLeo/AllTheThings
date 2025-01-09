@@ -224,7 +224,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 	n(HEARTHSTONE, {
 		q(79451),	-- After first daily kill of Dr. Boom (maybe bag loot trigger?)
 		q(79452),	-- After first daily kill of Dr. Boom (maybe something else trigger?)
-		q(79441),	-- Looted Sarge (itemID 212606)
+		-- q(79441),	-- Looted Sarge (itemID 212606) (automated)
 		q(79186),	-- Completing 'Hearthstone's Anniversary!' (questID 79184)
 		q(79189),	-- Completing 'Hearthstone's Anniversary!' (questID 79184)
 		-- Account lockout from getting the same card again

@@ -397,28 +397,27 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				e(566, {	-- Grand Warlock Nethekurse
 					["creatureID"] = 16807,
 					["groups"] = {
-						-- #if AFTER 7.3.5
-						i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved from Warchief Kargath Bladefist)
-						-- #endif
-						i(27520),	-- Greathelm of the Unbreakable
-						i(27519),	-- Cloak of Malice
 						i(27517),	-- Bands of Nethekurse
-						i(27521),	-- Telaari Hunting Girdle
-						-- #if AFTER 7.3.5
-						i(27529),	-- Figurine of the Colossus
-						-- #endif
-						-- #if BEFORE MOP
-						i(27518, {	-- Ivory Idol of the Moongoddess
-							["timeline"] = { REMOVED_5_0_4 },
-						}),
-						-- #endif
-						i(24312),	-- Pattern: Spellstrike Hood (RECIPE!)
+						i(27519),	-- Cloak of Malice
 						i(23726, {	-- Fel Ember
 							["description"] = "Use the Amulet that he drops on the brazier near his throne to gather the ember.",
 							["cost"] = {
 								{ "i", 23735, 1 },	-- Grand Warlock's Amulet
 							},
 						}),
+						i(23735),	-- Grand Warlock's Amulet
+						i(27520),	-- Greathelm of the Unbreakable
+						i(24312),	-- Pattern: Spellstrike Hood (RECIPE!)
+						i(27521),	-- Telaari Hunting Girdle
+						-- #if BEFORE MOP
+						i(27518, {	-- Ivory Idol of the Moongoddess
+							["timeline"] = { REMOVED_5_0_4 },
+						}),
+						-- #endif
+						-- #if AFTER 7.3.5
+						i(27529),	-- Figurine of the Colossus
+						i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved from Warchief Kargath Bladefist)
+						-- #endif
 					},
 				}),
 				e(568, {	-- Warbringer O'mrogg
@@ -458,28 +457,24 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						}),
 						i(27533),	-- Demonblood Eviscerator
 						i(27538),	-- Lightsworn Hammer
-						-- #if AFTER 7.3.5
-						i(29348),	-- The Bladefist
-						-- #endif
 						i(27540),	-- Nexus Torch
-						-- #if BEFORE 7.3.5
-						i(27474),	-- Beast Lord Handguards  (7.3.5 - Moved to Blood Guard Porung)
-						i(27536),	-- Hallowed Handwraps  (7.3.5 - Moved to Blood Guard Porung)
-						i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved to Grand Warlock Nethekurse)
-						-- #endif
-						-- #if AFTER 7.3.5
-						i(27802),	-- Tidefury Shoulderguards  (7.3.5 - Moved from Warbringer O'mrogg)
-						i(29255),	-- Bands of Rarefied Magic
-						-- #endif
 						i(27528),	-- Gauntlets of Desolation
 						i(27535),	-- Gauntlets of the Righteous
 						i(27537),	-- Gloves of Oblivion
 						i(27531),	-- Wastewalker Gloves
 						i(27527),	-- Greaves of the Shatterer
-						-- #if BEFORE 7.3.5
-						i(27529),	-- Figurine of the Colossus
-						-- #endif
 						i(23723),	-- Warchief Kargath's Fist
+						-- #if BEFORE 7.3.5
+						i(27474),	-- Beast Lord Handguards  (7.3.5 - Moved to Blood Guard Porung)
+						i(27529),	-- Figurine of the Colossus
+						i(27536),	-- Hallowed Handwraps  (7.3.5 - Moved to Blood Guard Porung)
+						i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved to Grand Warlock Nethekurse)
+						-- #endif
+						-- #if AFTER 7.3.5
+						i(29255),	-- Bands of Rarefied Magic
+						i(29348),	-- The Bladefist
+						i(27802),	-- Tidefury Shoulderguards  (7.3.5 - Moved from Warbringer O'mrogg)
+						-- #endif
 					},
 				}),
 			}),
@@ -512,31 +507,30 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					e(566, {	-- Grand Warlock Nethekurse
 						["creatureID"] = 16807,
 						["groups"] = {
-							-- #if AFTER 7.3.5
-							i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved from Warchief Kargath Bladefist)
-							-- #endif
-							i(27520),	-- Greathelm of the Unbreakable
-							i(27519),	-- Cloak of Malice
 							i(27517),	-- Bands of Nethekurse
-							i(27521),	-- Telaari Hunting Girdle
-							-- #if AFTER 7.3.5
-							i(27529),	-- Figurine of the Colossus
-							-- #endif
-							-- #if BEFORE MOP
-							i(27518, {	-- Ivory Idol of the Moongoddess
-								["timeline"] = { REMOVED_5_0_4 },
-							}),
-							-- #endif
-							i(24312),	-- Pattern: Spellstrike Hood (RECIPE!)
+							i(27519),	-- Cloak of Malice
 							i(23726, {	-- Fel Ember
 								["description"] = "Use the Amulet that he drops on the brazier near his throne to gather the ember.",
 								["cost"] = {
 									{ "i", 23735, 1 },	-- Grand Warlock's Amulet
 								},
 							}),
+							i(23735),	-- Grand Warlock's Amulet
+							i(27520),	-- Greathelm of the Unbreakable
+							i(24312),	-- Pattern: Spellstrike Hood (RECIPE!)
+							i(27521),	-- Telaari Hunting Girdle
 							i(25462, {	-- Tome of Dusk
 								["timeline"] = { REMOVED_7_1_0 },
 							}),
+							-- #if BEFORE MOP
+							i(27518, {	-- Ivory Idol of the Moongoddess
+								["timeline"] = { REMOVED_5_0_4 },
+							}),
+							-- #endif
+							-- #if AFTER 7.3.5
+							i(27529),	-- Figurine of the Colossus
+							i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved from Warchief Kargath Bladefist)
+							-- #endif
 						},
 					}),
 					e(728, {	-- Blood Guard Porung
@@ -593,28 +587,26 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(27538),	-- Lightsworn Hammer
 							i(29348),	-- The Bladefist
 							i(27540),	-- Nexus Torch
-							-- #if BEFORE 7.3.5
-							i(29254),	-- Boots of the Righteous Path (7.3.5 - Moved to Warbringer O'mrogg)
-							i(29263),	-- Forestheart Bracers (7.3.5 - Moved to Warbringer O'mrogg)
-							i(27474),	-- Beast Lord Handguards  (7.3.5 - Moved to Blood Guard Porung)
-							i(27536),	-- Hallowed Handwraps  (7.3.5 - Moved to Blood Guard Porung)
-							i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved to Grand Warlock Nethekurse)
-							-- #endif
-							-- #if AFTER 7.3.5
-							i(27802),	-- Tidefury Shoulderguards  (7.3.5 - Moved from Warbringer O'mrogg)
-							-- #endif
 							i(29255),	-- Bands of Rarefied Magic
 							i(27528),	-- Gauntlets of Desolation
 							i(27535),	-- Gauntlets of the Righteous
 							i(27537),	-- Gloves of Oblivion
 							i(27531),	-- Wastewalker Gloves
 							i(27527),	-- Greaves of the Shatterer
-							-- #if BEFORE 7.3.5
-							i(27529),	-- Figurine of the Colossus
-							-- #endif
 							applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
 							i(33815),	-- Bladefist's Seal
 							i(23723),	-- Warchief Kargath's Fist
+							-- #if BEFORE 7.3.5
+							i(27474),	-- Beast Lord Handguards  (7.3.5 - Moved to Blood Guard Porung)
+							i(29254),	-- Boots of the Righteous Path (7.3.5 - Moved to Warbringer O'mrogg)
+							i(27529),	-- Figurine of the Colossus
+							i(29263),	-- Forestheart Bracers (7.3.5 - Moved to Warbringer O'mrogg)
+							i(27536),	-- Hallowed Handwraps  (7.3.5 - Moved to Blood Guard Porung)
+							i(27534),	-- Hortus' Seal of Brilliance (7.3.5 - Moved to Grand Warlock Nethekurse)
+							-- #endif
+							-- #if AFTER 7.3.5
+							i(27802),	-- Tidefury Shoulderguards  (7.3.5 - Moved from Warbringer O'mrogg)
+							-- #endif
 						},
 					}),
 					n(17301, {	-- Shattered Hand Executioner

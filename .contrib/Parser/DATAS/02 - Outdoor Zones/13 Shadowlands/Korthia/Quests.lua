@@ -1816,6 +1816,42 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 		})),
+		n(QUESTS, {
+			hqt(64335, {	-- Stay awhile and listen: Alexandros
+				["name"] = "Stay awhile and listen: Alexandros",
+				-- ["provider"] = { "n",  },	-- Alexandros
+				-- ["sourceQuests"] = {
+				-- },
+				-- ["coord"] = { x, x, KORTHIA },
+			}),
+			hqt(64533, {	-- Stay awhile and listen: Primus
+				["name"] = "Stay awhile and listen: Primus",
+				-- ["provider"] = { "n",  },	-- Primus
+				["sourceQuests"] = 64314,	-- Covenants Renewed
+				-- ["coord"] = { x, x, KORTHIA },
+			}),
+			hqt(64577, {	-- Stay awhile and listen: Tal-Galan
+				["name"] = "Stay awhile and listen: Tal-Galan",
+				["provider"] = { "n", 177927 },	-- Tal-Galan
+				-- ["sourceQuests"] = {
+				-- },
+				["coord"] = { 62.6, 24.8, KORTHIA },
+			}),
+			hqt(64377, {	-- Stay awhile and listen: Thrall
+				["name"] = "Stay awhile and listen: Thrall",
+				["provider"] = { "n", 180073 },	-- Thrall
+				-- ["sourceQuests"] = {
+				-- },
+				["coord"] = { 60.7, 27.9, KORTHIA },
+			}),
+			hqt(64429, {	-- Stay awhile and listen: Uther
+				["name"] = "Stay awhile and listen: Uther",
+				["provider"] = { "n", 180080 },	-- Uther
+				-- ["sourceQuests"] = {
+				-- },
+				["coord"] = { 63.0, 24.1, KORTHIA },
+			}),
+		}),
 	}),
 })));
 
@@ -1823,9 +1859,4 @@ root(ROOTS.HiddenQuestTriggers, {
 	q(64563),	-- triggered when turning in 'In Need of Assistance' (questID 64556) (spellID 357754)
 	q(64737),	-- triggered when turning in 'A More Civilized Way' (questID 64271) - received i(185115), Redeemed Inquisitor's Drape - perhaps a universal 'received covenant transmog' tracking quest?  got it the next day on my Kyrian shaman, who received i(184989), Forsworn Aspirant's Wraps.  was the first covenant mog for both characters ever but perhaps could be a weekly lockout or something? (See Errors for other ways to get this)
 	q(64507),	-- triggered after picking up 'Doorway in the Dark' (questID 64211) (spellID 356686)
-	q(64533),	-- triggered after listening to the entirety of the Primus's RP after turning in "Covenants Renewed"
-	q(64377),	-- triggered after watching Thrall/Draka RP about Garrosh (spellID 356325)
-	q(64335),	-- triggered after watching Alexandros/Darion Mograine RP about Tirion
-	q(64429),	-- triggered after watching Jaina/Uther RP about Arthas (spellID 356398)
-	q(64577),	-- triggered after watching Tal-Galan/Ve'nari RP about Zereth Mortis (spellID 358146)
 });

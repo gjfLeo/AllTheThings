@@ -209,6 +209,7 @@ MobileDB.Creature = {
 	[161436] = true,	-- Kael'thas Sunstrider
 	[161439] = true,	-- Kael'thas Sunstrider
 	[172854] = true,	-- Dredger Butler
+	[181085] = true,	-- Stratholme Supply Crate
 	[185749] = true,	-- Gnoll Mon-Ark
 	[191494] = true,	-- Khanam Matra Sarest
 	[193985] = true,	-- Initiate Zorig

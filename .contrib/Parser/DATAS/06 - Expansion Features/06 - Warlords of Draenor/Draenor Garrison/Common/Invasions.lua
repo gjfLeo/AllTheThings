@@ -281,6 +281,13 @@ root(ROOTS.ExpansionFeatures,
 							i(122184),	-- Eye of the Unseen Star
 						},
 					}),
+					-- Items that drop at end of invasion that are used to spawn the bosses
+					i(122474),	-- Arcane Highmaul Relic
+					i(122472),	-- Bloodied Iron Horde Banner
+					i(122466),	-- Heart of Oak
+					i(122473),	-- Legion Beacon
+					i(122468),	-- Runed Greatstone
+					i(122475),	-- Void Prison
 				}),
 			}),
 		})),
