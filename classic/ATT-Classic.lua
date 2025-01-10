@@ -3469,6 +3469,7 @@ local nameFromSpellID = function(t)
 	return app.GetSpellName(t.spellID) or GetSpellLink(t.spellID) or RETRIEVING_DATA;
 end;
 local spellFields = {
+	CACHE = function() return "Spells" end,
 	["text"] = function(t)
 		return t.link;
 	end,
@@ -3562,6 +3563,7 @@ local SetMountCollected = function(t, spellID, collected)
 	return app.SetCollected(t, "Spells", spellID, collected, "Mounts");
 end
 local speciesFields = {
+	CACHE = function() return "BattlePets" end,
 	["f"] = function(t)
 		return app.FilterConstants.BATTLE_PETS;
 	end,
@@ -3590,6 +3592,7 @@ local speciesFields = {
 };
 local mountFields = {
 	IsClassIsolated = true,
+	CACHE = function() return "Spells" end,
 	["text"] = function(t)
 		return "|cffb19cd9" .. t.name .. "|r";
 	end,
