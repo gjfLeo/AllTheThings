@@ -1209,6 +1209,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(14438, {	-- Sharing the Land
+							-- For some reason, on Retail this quest got marked as completed when [The Angerfang Menace (26189)] in Wetlands got turned in. Check if it happens vice-versa. -Exo 10-01-25
 					["qg"] = 36644,	-- Ahmo Thunderhorn
 					["coord"] = { 47.6, 59.5, MULGORE },
 					["timeline"] = { ADDED_4_0_1 },

@@ -1077,6 +1077,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 285,	-- Search More Hovels
 					["coord"] = { 14.0, 34.8, WETLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
+					-- #if AFTER 4.0.3
+					["description"] = "This quest gets marked as completed when you complete the quest 'Return the Statuette (25805).",
+					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 20,
 					["groups"] = {
@@ -1873,42 +1876,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 58.0, 8.6, WETLANDS },
 					["timeline"] = { ADDED_5_1_0 },
 				}),
-				o(207496, {	-- Dark Iron Treasure Chest
-					["timeline"] = { ADDED_4_0_3 },
-					["modelScale"] = 1.5,
-					["coords"] = {
-						{ 63.9, 78.2, WETLANDS },
-						{ 60.0, 24.5, WETLANDS },
-						{ 44.3, 24.7, WETLANDS },
-						{ 41.5, 21.7, WETLANDS },
-						{ 48.1, 18.8, WETLANDS },
-						{ 46.5, 18.8, WETLANDS },
-						{ 45.6, 16.5, WETLANDS },
-						{ 47.4, 15.4, WETLANDS },
-						{ 48.1, 14.9, WETLANDS },
-					},
-					["groups"] = {
-						i(2878),	-- Bearded Boneaxe
-						i(13024),	-- Beazel's Basher
-						i(13057),	-- Bloodpike
-						i(12987),	-- Darkweave Breeches
-						i(2194),	-- Diamond Hammer
-						i(1717),	-- Double Link Tunic
-						-- #if AFTER SHADOWLANDS
-						i(2098),	-- Double-Barreled Shotgun
-						-- #endif
-						i(12999),	-- Drakewing Bands
-						i(2911),	-- Keller's Girdle
-						i(3021),	-- Ranger Bow
-						i(12990),	-- Razor's Edge
-						i(12984),	-- Skycaller
-						i(13131),	-- Sparkleshell Mantle
-						i(12988),	-- Starsight Tunic
-						i(13032),	-- Sword of Corruption
-						i(13062),	-- Thunderwood
-						i(13114),	-- Troll's Bane Leggings
-					},
-				}),
 				n(1037, {	-- Dragonmaw Battlemaster
 					["coords"] = {
 						{ 42.8, 43.8, WETLANDS },
@@ -2063,8 +2030,53 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_1 },
 				}),
 			}),
-			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
+				o(207496, {	-- Dark Iron Treasure Chest
+					["timeline"] = { ADDED_4_0_3 },
+					["modelScale"] = 1.5,
+					["coords"] = {
+						{ 63.9, 78.2, WETLANDS },
+						{ 60.0, 24.5, WETLANDS },
+						{ 44.3, 24.7, WETLANDS },
+						{ 41.5, 21.7, WETLANDS },
+						{ 48.1, 18.8, WETLANDS },
+						{ 46.5, 18.8, WETLANDS },
+						{ 45.6, 16.5, WETLANDS },
+						{ 47.4, 15.4, WETLANDS },
+						{ 48.1, 14.9, WETLANDS },
+					},
+					["groups"] = {
+						i(2878),	-- Bearded Boneaxe
+						i(13024),	-- Beazel's Basher
+						i(13057),	-- Bloodpike
+						i(12987),	-- Darkweave Breeches
+						i(2194),	-- Diamond Hammer
+						i(1717),	-- Double Link Tunic
+						-- #if AFTER SHADOWLANDS
+						i(2098),	-- Double-Barreled Shotgun
+						-- #endif
+						i(12999),	-- Drakewing Bands
+						i(2911),	-- Keller's Girdle
+						i(3021),	-- Ranger Bow
+						i(12990),	-- Razor's Edge
+						i(12984),	-- Skycaller
+						i(13131),	-- Sparkleshell Mantle
+						i(12988),	-- Starsight Tunic
+						i(13032),	-- Sword of Corruption
+						i(13062),	-- Thunderwood
+						i(13114),	-- Troll's Bane Leggings
+					},
+				}),
+				o(207498, {	-- Dark Iron Treasure Chest
+					["coords"] = {	-- As opposed to 207496, this one spawns exclusively in Wetlands
+						{ 36.6, 61.2, LOCH_MODAN },
+						{ 61.9, 75.0, LOCH_MODAN },
+						{ 80.3, 51.9, LOCH_MODAN },
+					},
+					["timeline"] = { ADDED_4_0_3 },
+					["sym"] = {{ "select", "objectID", 207496 }, {"pop"}},
+				}),
+				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209848, {	-- Goaz Scrolls
 					["provider"] = { "o", 409717 },	-- Scrolls
 					["coord"] = { 33.6, 47.9, WETLANDS },
@@ -2092,12 +2104,36 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						recipe(424718),	-- Engrave Pants - Starsurge
 					},
 				})),
+				-- #endif
 			}),
-			-- #endif
 			n(VENDORS, {
-				n(1441, {	-- Brak Durnad <Weaponsmith>
-					["coord"] = { 11.5, 59.6, WETLANDS },
+				n(1450, {	-- Brahnmar <Armorer>
+					["coord"] = { 11.6, 59.9, WETLANDS },
 					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2446,	-- Kite Shield
+						2148,	-- Polished Scale Belt
+						2149,	-- Polished Scale Boots
+						2150,	-- Polished Scale Bracers
+						2151,	-- Polished Scale Gloves
+						2152,	-- Polished Scale Leggings
+						2153,	-- Polished Scale Vest
+						17192,	-- Reinforced Targe
+					}},
+				}),
+				n(1441, {	-- Brak Durnad <Weaponsmith>
+					["coord"] = { 11.6, 59.5, WETLANDS },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						926,	-- Battle Axe
+						922,	-- Dacian Falx
+						927,	-- Double Axe
+						925,	-- Flail
+						2209,	-- Kris
+						923,	-- Longsword
+						928,	-- Long Staff
+						924,	-- Maul
+					}},
 					["groups"] = {
 						i(4817, {	-- Blessed Claymore
 							["isLimited"] = true,
@@ -2145,6 +2181,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
+				n(1462, {	-- Edwina Monzor <Bowyer>
+					["coord"] = { 11.1, 58.0, WETLANDS },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						3027,	-- Heavy Recurve Bow
+						3026,	-- Reinforced Bow
+					}},
+				}),
 				n(2682, {	-- Fradd Swiftgear <Engineering Supplies>
 					["coord"] = { 26.4, 25.8, WETLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
@@ -2188,13 +2232,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(6275, {	-- Pattern: Greater Adept's Robe
+						i(6275, {	-- Pattern: Greater Adept's Robe (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(5772, {	-- Pattern: Red Woolen Bag
+						i(5772, {	-- Pattern: Red Woolen Bag (RECIPE!)
+							["isLimited"] = true,
+						}),
+						i(4829, {	-- Dreamer's Belt
 							["isLimited"] = true,
 						}),
 						i(4790, {	-- Inferno Cloak
+							["isLimited"] = true,
+						}),
+						i(4828, {	-- Nightwind Belt
 							["isLimited"] = true,
 						}),
 						i(4792, {	-- Spirit Cloak
@@ -2203,16 +2253,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(4793, {	-- Sylvan Cloak
 							["isLimited"] = true,
 						}),
-						i(4829, {	-- Dreamer's Belt
-							["isLimited"] = true,
-						}),
-						i(4828, {	-- Nightwind Belt
-							["isLimited"] = true,
-						}),
 						i(4827, {	-- Wizard's Belt
 							["isLimited"] = true,
 						}),
 					},
+				}),
+				n(1461, {	-- Murndan Derth <Gunsmith>
+					["coord"] = { 11.3, 59.6, WETLANDS },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						3024,	-- BKP 2700 "Enforcer"
+						3023,	-- Large Bore Blunderbuss
+					}},
 				}),
 				n(1459, {	-- Naela Trance <Bowyer>
 					["coords"] = {
@@ -2223,6 +2275,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2507,	-- Laminated Recurve Bow
+						3026,	-- Reinforced Bow
+					}},
 					["groups"] = {
 						i(11304, {	-- Fine Longbow
 							["isLimited"] = true,
@@ -2245,10 +2301,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				n(1457, {	-- Samor Festivus <Shady Dealer>
+					["coord"] = { 10.5, 60.2, WETLANDS },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						4565,	-- Simple Dagger
+					}},
+				}),
 				n(3178, {	-- Stuart Fleming <Fisherman>
 					["coords"] = {
 						-- #if AFTER CATA
-						{ 6.4, 57.6, WETLANDS },
+						{ 6.3, 57.4, WETLANDS },
 						-- #else
 						{ 8.0, 58.3, WETLANDS },
 						-- #endif
@@ -2284,6 +2347,29 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(2414),	-- Pinto (MOUNT!)
 					},
 				}),
+				n(41622, {	-- Victorina <Weaponsmith>
+					["coord"] = { 58.0, 40.7, WETLANDS },
+					["timeline"] = { ADDED_4_0_3 },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						926,	-- Battle Axe
+						2025,	-- Bearded Axe
+						2029,	-- Cleaver
+						922,	-- Dacian Falx
+						927,	-- Double Axe
+						2024,	-- Espadon
+						925,	-- Flail
+						2030,	-- Gnarled Staff
+						2028,	-- Hammer
+						2209,	-- Kris
+						923,	-- Longsword
+						928,	-- Long Staff
+						924,	-- Maul
+						2208,	-- Poniard
+						2026,	-- Rock Hammer
+						2027,	-- Scimitar
+					}},
+				}),
 				n(2679, {	-- Wenna Silkbeard <Special Goods Dealer>
 					["coord"] = { 25.6, 25.8, WETLANDS },
 					["races"] = ALLIANCE_ONLY,
@@ -2297,28 +2383,31 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(7290, {	-- Pattern: Red Whelp Gloves (RECIPE!)
 							["isLimited"] = true,
 						}),
+						i(4829, {	-- Dreamer's Belt
+							["isLimited"] = true,
+						}),
 						i(4835, {	-- Elite Shoulders
 							["isLimited"] = true,
 						}),
 						i(4833, {	-- Glorious Shoulders
 							["isLimited"] = true,
 						}),
-						i(4829, {	-- Dreamer's Belt
-							["isLimited"] = true,
-						}),
-						i(4828, {	-- Nightwind Belt
-							["isLimited"] = true,
-						}),
-						i(4827, {	-- Wizard's Belt
+						i(3429, {	-- Guardsman Belt
 							["isLimited"] = true,
 						}),
 						i(4832, {	-- Mystic Sarong
+							["isLimited"] = true,
+						}),
+						i(4828, {	-- Nightwind Belt
 							["isLimited"] = true,
 						}),
 						i(4830, {	-- Saber Leggings
 							["isLimited"] = true,
 						}),
 						i(4831, {	-- Stalking Pants
+							["isLimited"] = true,
+						}),
+						i(4827, {	-- Wizard's Belt
 							["isLimited"] = true,
 						}),
 					},

@@ -1697,66 +1697,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				o(207496, {	-- Dark Iron Treasure Chest
-					["coords"] = {
-						{ 36.6, 61.2, LOCH_MODAN },
-						{ 61.9, 75.0, LOCH_MODAN },
-						{ 80.3, 51.9, LOCH_MODAN },
-					},
-					["timeline"] = { ADDED_4_0_3 },
-					["groups"] = {
-						i(3292),	-- Ancestral Tunic
-						i(9775),	-- Bandit Cinch
-						i(5212),	-- Blazing Wand
-						i(3306),	-- Brackwater Vest
-						i(9763),	-- Cadet Leggings
-						i(2140),	-- Carving Knife
-						i(3314),	-- Ceremonial Leather Gloves
-						i(3196),	-- Edged Bastard Sword
-						i(15303),	-- Grizzly Pants
-						i(15508),	-- Grunt's Cape
-						i(7108),	-- Infantry Shield
-						i(6380),	-- Inscribed Buckler
-						i(4701),	-- Inscribed Cloak
-						i(15893),	-- Prospector's Buckler
-						i(4561),	-- Scalping Tomahawk
-						i(3192),	-- Short Bastard Sword
-						i(15933),	-- Simple Branch
-						i(6547),	-- Soldier's Gauntlets
-						-- Still available in some chests
-						i(4596),	-- Discolored Healing Potion
-					},
-				}),
-				o(207497, {	-- Dark Iron Treasure Chest
-					["coords"] = {	-- As opposed to 207496, this treasure chest spawns exclusively in Loch Modan
-						{ 36.6, 61.2, LOCH_MODAN },
-						{ 61.9, 75.0, LOCH_MODAN },
-						{ 80.3, 51.9, LOCH_MODAN },
-					},
-					["timeline"] = { ADDED_4_0_3 },
-					["groups"] = {
-						i(3292),	-- Ancestral Tunic
-						i(9775),	-- Bandit Cinch
-						i(5212),	-- Blazing Wand
-						i(3306),	-- Brackwater Vest
-						i(9763),	-- Cadet Leggings
-						i(2140),	-- Carving Knife
-						i(3314),	-- Ceremonial Leather Gloves
-						i(3196),	-- Edged Bastard Sword
-						i(15303),	-- Grizzly Pants
-						i(15508),	-- Grunt's Cape
-						i(7108),	-- Infantry Shield
-						i(6380),	-- Inscribed Buckler
-						i(4701),	-- Inscribed Cloak
-						i(15893),	-- Prospector's Buckler
-						i(4561),	-- Scalping Tomahawk
-						i(3192),	-- Short Bastard Sword
-						i(15933),	-- Simple Branch
-						i(6547),	-- Soldier's Gauntlets
-						-- Still available in some chests
-						i(4596),	-- Discolored Healing Potion
-					},
-				}),
 				n(14267, {  -- Emogg the Crusher
 					["coords"] = {
 						-- #if AFTER CATA
@@ -1955,8 +1895,47 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 			}),
-			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
+				o(207496, {	-- Dark Iron Treasure Chest
+					["coords"] = {
+						{ 36.6, 61.2, LOCH_MODAN },
+						{ 61.9, 75.0, LOCH_MODAN },
+						{ 80.3, 51.9, LOCH_MODAN },
+					},
+					["timeline"] = { ADDED_4_0_3 },
+					["groups"] = {
+						i(3292),	-- Ancestral Tunic
+						i(9775),	-- Bandit Cinch
+						i(5212),	-- Blazing Wand
+						i(3306),	-- Brackwater Vest
+						i(9763),	-- Cadet Leggings
+						i(2140),	-- Carving Knife
+						i(3314),	-- Ceremonial Leather Gloves
+						i(3196),	-- Edged Bastard Sword
+						i(15303),	-- Grizzly Pants
+						i(15508),	-- Grunt's Cape
+						i(7108),	-- Infantry Shield
+						i(6380),	-- Inscribed Buckler
+						i(4701),	-- Inscribed Cloak
+						i(15893),	-- Prospector's Buckler
+						i(4561),	-- Scalping Tomahawk
+						i(3192),	-- Short Bastard Sword
+						i(15933),	-- Simple Branch
+						i(6547),	-- Soldier's Gauntlets
+						-- Still available in some chests
+						i(4596),	-- Discolored Healing Potion
+					},
+				}),
+				o(207497, {	-- Dark Iron Treasure Chest
+					["coords"] = {	-- As opposed to 207496, this one spawns exclusively in Loch Modan
+						{ 36.6, 61.2, LOCH_MODAN },
+						{ 61.9, 75.0, LOCH_MODAN },
+						{ 80.3, 51.9, LOCH_MODAN },
+					},
+					["timeline"] = { ADDED_4_0_3 },
+					["sym"] = {{ "select", "objectID", 207496 }, {"pop"}},
+				}),
+				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208689, {	-- Ferocious Idol
 					["provider"] = { "o", 408004 },	-- Tangled Blight Pile
 					["coord"] = { 71.8, 21.6, LOCH_MODAN },
@@ -2041,8 +2020,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				})),
+				-- #endif
 			}),
-			-- #endif
 			n(VENDORS, {
 				n(1214, {	-- Aldren Cordon <Clothier>
 					["coord"] = { 64.8, 66.0, LOCH_MODAN },
