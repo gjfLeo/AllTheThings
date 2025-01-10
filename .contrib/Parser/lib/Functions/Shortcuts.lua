@@ -1623,6 +1623,12 @@ regionUnavailable = function(region, t)
 end]];
 	return t;
 end
+krONLY = function(t)
+	return regionExclusive("KR", t);
+end
+krUnavailable = function(t)
+	return regionUnavailable("KR", t);
+end
 cnONLY = function(t)
 	return regionExclusive("CN", t);
 end
