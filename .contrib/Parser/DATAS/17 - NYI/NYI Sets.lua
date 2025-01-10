@@ -11983,7 +11983,16 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						-- TODO
 					}),
 					cl(DEMONHUNTER, {
-						-- TODO
+						i(218547),	-- Forged Gladiator's Leather Shoulderpads
+						i(218543),	-- Forged Gladiator's Leather Mask
+						i(218545),	-- Forged Gladiator's Leather Legwraps
+						i(218549),	-- Forged Gladiator's Leather Strap
+						i(218539),	-- Forged Gladiator's Leather Treads
+						i(218551),	-- Forged Gladiator's Leather Wristguards
+						i(218537),	-- Forged Gladiator's Leather Jerkin
+						i(218541),	-- Forged Gladiator's Leather Grips
+						i(218553),	-- Forged Gladiator's Drape
+						i(218554),	-- Forged Gladiator's Shawl
 					}),
 					cl(DRUID, {
 						i(218534),	-- Forged Gladiator's Drape
@@ -12058,10 +12067,28 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(218687),	-- Forged Gladiator's Shawl
 					}),
 					cl(PRIEST, {
-						-- TODO
+						i(218484),	-- Forged Gladiator's Silk Handwraps
+						i(218482),	-- Forged Gladiator's Silk Treads
+						i(218488),	-- Forged Gladiator's Silk Trousers
+						i(218480),	-- Forged Gladiator's Silk Vestments
+						i(218486),	-- Forged Gladiator's Silk Guise
+						i(218496),	-- Forged Gladiator's Drape
+						i(218497),	-- Forged Gladiator's Shawl
+						i(218490),	-- Forged Gladiator's Silk Amice
+						i(218494),	-- Forged Gladiator's Silk Armbands
+						i(218492),	-- Forged Gladiator's Silk Belt
 					}),
 					cl(ROGUE, {
-						-- TODO
+						i(218585),	-- Forged Gladiator's Leather Shoulderpads
+						i(218581),	-- Forged Gladiator's Leather Mask
+						i(218583),	-- Forged Gladiator's Leather Legwraps
+						i(218587),	-- Forged Gladiator's Leather Strap
+						i(218577),	-- Forged Gladiator's Leather Treads
+						i(218589),	-- Forged Gladiator's Leather Wristguards
+						i(218575),	-- Forged Gladiator's Leather Jerkin
+						i(218579),	-- Forged Gladiator's Leather Grips
+						i(218591),	-- Forged Gladiator's Drape
+						i(218592),	-- Forged Gladiator's Shawl
 					}),
 					cl(SHAMAN, {
 						i(218634),	-- Forged Gladiator's Chain Boots
