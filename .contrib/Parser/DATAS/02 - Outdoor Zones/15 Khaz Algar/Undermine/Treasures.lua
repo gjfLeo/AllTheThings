@@ -100,7 +100,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 55.9, 51.7, UNDERMINE },
 				["questID"] = 85856,
 				["g"] = {
-					-- missing loot table
 					-- TODO: same as for book, take another look
 					q(85838, {
 						["name"] = "Original spot",
@@ -110,6 +109,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["name"] = "Next spot",
 						["coord"] = { 55.9, 51.7, UNDERMINE },
 					}),
+					--
+					i(235220),	-- Fireworks Hat (TOY!)
 				},
 			}),
 			o(474397, {	-- Muff's Auto-Locker

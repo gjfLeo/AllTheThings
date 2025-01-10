@@ -12,6 +12,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 41.3, 43.6, UNDERMINE },
 				["questID"] = 85004,	-- Swigs Farsight
 				["g"] = {
+					i(234415),	-- Handcrank Casing
 					i(234387),	-- Steamboil Fuel Injector
 					i(235307),	-- Smoketrail Belt
 				},
@@ -20,20 +21,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 47.0, 55.7, UNDERMINE },
 				["questID"] = 84926,	-- Nitro
 				["g"] = {
-					i(234419), -- Steamboil Mounting System
+					i(234415),	-- Handcrank Casing
+					i(235325),	-- Rusthide Gloves
+					i(234419),	-- Steamboil Mounting System
 				},
 			}),
 			n(231012, {	-- Candy Stickemup
 				["coord"] = { 42.2, 76.7, UNDERMINE },
 				["questID"] = 84927,	-- Candy Stickemup
 				["g"] = {
-					i(235348), -- Back Alley Shank
-					i(234415), -- Handcrank Casing
+					i(235348),	-- Back Alley Shank
+					i(234415),	-- Handcrank Casing
 				},
 			}),
 			n(230931, {	-- Scrapbeak
 				["coord"] = { 68.6, 81.2, UNDERMINE },
 				["questID"] = 84917,	-- Scrapbeak
+				["g"] = {
+					i(234417),	-- Handcrank Gears
+				},
 			}),
 			n(230951, {	-- Thwack
 				["coord"] = { 54.1, 50.3, UNDERMINE },
@@ -47,6 +53,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 36.2, 43.3, UNDERMINE },
 				["questID"] = 84919,	-- Tally Doublespeak
 				["g"] = {
+					i(235355),	-- Gossi-blin's Baton
 					i(234417),	-- Handcrank Gears
 				},
 			}),
@@ -97,11 +104,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234418),	-- Steamboil Gears
 				},
 			}),
-			--[[
 			n(230746, {	-- Ephemeral Agent Lathyd
-				["coord"] = { x, y, UNDERMINE },
-				["questID"] = xx,
+				["coord"] = { 26.5, 68.4, UNDERMINE },
+				["questID"] = 84877,
+				["g"] = {
+					i(234418),	-- Steamboil Gears
+					i(235309),	-- Gloomshroud Robe
+				},
 			}),
+			--[[ According to Renown 6 description (Big Game Hunter) - could be locked behind it?
 			n(xx, {	-- Aurumensis
 				["coord"] = { x, y, UNDERMINE },
 				["questID"] = xx,

@@ -4,7 +4,10 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(ZONE_REWARDS, {
-			i(233483),	-- Lucky-Streak Ring
+			-- Gear
+			i(233531),	-- Gold-Plated Staff (cache)
+			i(233483),	-- Lucky-Streak Ring (wq)
+			i(235359),	-- Ratfang Toxin (cache)
 			-- unsure where to put it atm
 			i(236961, {	-- Inoperative Gorillion (QS!)
 				["cost"] = {

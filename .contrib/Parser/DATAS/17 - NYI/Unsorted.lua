@@ -8,10 +8,6 @@ root(ROOTS.Unsorted, {
 			n(ARMOR, {
 				-- Quest Rewards?
 				i(232440),	-- [PH] Boreal Crossbow
-				i(235146),	-- Maniac Biker's Wristguards
-				i(235147),	-- Maniac Biker's Shoulderguards
-				i(235148),	-- Maniac Biker's Legguards
-				i(235149),	-- Maniac Biker's Boots
 				i(235619),	-- Bug Exterminator's Gloves
 				i(235620),	-- Bug Exterminator's Pants
 				i(235621),	-- Bug Exterminator's Belt
@@ -110,7 +106,6 @@ root(ROOTS.Unsorted, {
 				i(233528),	-- Gold-Plated Shield
 				i(233529),	-- Gold-Plated Cinderbrew Bottle
 				i(233530),	-- Gold-Plated Spellstaff
-				i(233531),	-- Gold-Plated Staff
 				i(233532),	-- Gold-Plated Polearm
 				i(233533),	-- Gold-Plated Spear
 				i(233534),	-- Gold-Plated Broadsword
@@ -1270,11 +1265,9 @@ root(ROOTS.Unsorted, {
 				i(216915),	-- Excavator
 				i(225931),	-- Contract Fee
 				i(225971),	-- Feathered Pelt
-				i(226192),	-- Electric Eel Meat
 				i(226215),	-- Kaja'mite Powder
 				i(226216),	-- Kaja'Cola Can
 				i(226219),	-- Kaja'mite Fragment
-				i(226223),	-- Stinging Residue
 				i(226393),	-- Jetpack-in-a-Box
 				i(226522),	-- Demolition Controller Fragment
 				i(226525),	-- Demolition Control Code
@@ -1283,25 +1276,14 @@ root(ROOTS.Unsorted, {
 				i(227540),	-- Skimmed Profits
 				i(227674),	-- Gobdre's Prized Pan
 				i(227702),	-- Crumpled Report (TRAINING, DNT)
-				i(227708),	-- Raw Kaja'mite Chunk
-				i(228215),	-- Jazz's Report
-				i(228549),	-- Massive Kaja'mite Chunk
 				i(228614),	-- Comprehend Rat Language Potion
 				i(228771),	-- Holey Grail
 				i(228794),	-- Purloined Loot
 				i(228822),	-- Burgled Art
-				i(228948),	-- Jazz's Shrink Ray
 				i(228988),	-- Rock Reviver
-				i(229392),	-- Crumpled Delivery Note
 				i(229401),	-- Artisan's Consortium Pamphlet
 				i(229407),	-- Citrus Acid
-				i(229419),	-- Barrelbottom Deed
-				i(229805),	-- Last Week's Undermine Inquirer
-				i(229824),	-- Banana Peel
-				i(229825),	-- Dented Can of Kaja-Cola
-				i(230203),	-- Taunting Note
 				i(230212),	-- Emergency Teleporter
-				i(230731),	-- Pitz's Masterwork Invention
 				i(230792),	-- X-Plo-Dar 64k
 				i(231021),	-- Imported Brews
 				i(231022),	-- Bits o' Scrap
@@ -1318,40 +1300,21 @@ root(ROOTS.Unsorted, {
 				i(232054),	-- Depleted Hotrod Battery
 				i(232619),	-- Gary the Goldfish
 				i(232651),	-- Faded Journal Page
-				i(232863),	-- Darkfuse Research Notes
 				i(232897),	-- Blood-B-Gone
-				i(232907),	-- Unseemly Growth
-				i(233066),	-- Radioactive Rat's Head
-				i(233113),	-- Crocodillian's Head
-				i(233114),	-- The Captain's Head
 				i(234188),	-- Slot Chits
 				i(234426),	-- Kaja'Cola-Braised Meat
 				i(235346),	-- Shiny Treasure
 				i(236773),	-- Swallowed Kaja'mite
 			}),
 			n(RARES, {
-				i(232734),	-- Enshrouded Cloak
-				i(232735),	-- Silent Veil
-				i(232736),	-- Pendant of Enduring Promise
-				i(232737),	-- Necklace of Eternal Love
 				i(232738),	-- Green Knight's Boots
-				i(232739),	-- Sash of Lost Inspiration
-				i(232742),	-- Elite Golfer's Armbands
 				i(232743),	-- Apprentice Knight's Shirt
 				i(232744),	-- Green Knight's Wristguards
 				i(232745),	-- Apprentice Knight's Belt
-				i(232746),	-- Spaulders of Lost Inspiration
-				i(232749),	-- Elite Golfer's Headgear
-				i(232751),	-- Elite Golfer's Belt
 				i(232753),	-- Green Knight's Helm
 				i(232754),	-- Apprentice Knight's Wristguards
-				i(232755),	-- Chainmail of Lost Inspiration
 				i(232757),	-- Green Knight's Chestplate
-				i(232758),	-- Gauntlets of Lost Inspiration
 				i(232759),	-- Apprentice Knight's Sabatons
-				i(232760),	-- Elite Golfer's Legguards
-				i(232762),	-- Dust-Covered Cloak
-				i(232763),	-- Kaja-Infused Cloak
 				i(232764),	-- Pendant of Shrouded Secrets
 				i(232765),	-- Truthseeker's Necklace
 				i(232766),	-- Band of the Last Hope
@@ -1359,23 +1322,15 @@ root(ROOTS.Unsorted, {
 				i(232768),	-- Trigger-Sniffer's Hood
 				i(232769),	-- Stagecrasher's Gloves
 				i(232770),	-- Sewer Wanderer's Shoulderpads
-				i(232771),	-- Belt of the Certified Hunter
-				i(232772),	-- Slimediver's Trousers
 				i(232773),	-- Trigger-Sniffer's Spaulders
 				i(232774),	-- Stagecrasher's Wristband
-				i(232775),	-- Helm of the Certified Hunter
 				i(232776),	-- Sewer Wanderer's Gloves
-				i(232777),	-- Slimediver's Girdle
 				i(232778),	-- Stagecrasher's Shoulderguards
-				i(232779),	-- Boots of the Certified Hunter
-				i(232780),	-- Slimediver's Gloves
 				i(232781),	-- Sewer Wanderer's Bracers
 				i(232782),	-- Trigger-Sniffer's Greaves
 				i(232783),	-- Sewer Wanderer's Belt
 				i(232784),	-- Stagecrasher's Legguards
-				i(232785),	-- Slimediver's Vest
 				i(232786),	-- Trigger-Sniffer's Handwraps
-				i(232787),	-- Wristwraps of the Certified Hunter
 				i(235300),	-- Cloak of Mecha Shards
 				i(235301),	-- Drape of the Dazzling Feather
 				i(235302),	-- Shockwave Pendant
@@ -1384,7 +1339,6 @@ root(ROOTS.Unsorted, {
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235306),	-- Ooze-fused Mantle
 				i(235308),	-- Filthtread Boots
-				i(235309),	-- Gloomshroud Robe
 				i(235310),	-- Flashy Patchwork Trousers
 				i(235311),	-- Rocket-Powered Shoulderguards
 				i(235312),	-- Snooty's Aviator Bindings
@@ -1399,7 +1353,6 @@ root(ROOTS.Unsorted, {
 				i(235322),	-- Junkyard Clawguards
 				i(235323),	-- Blastshell Bracers
 				i(235324),	-- Scavenger's Lost Bind
-				i(235325),	-- Rusthide Gloves
 				i(235326),	-- Ratspit's Heirloom Wristwraps
 				i(235327),	-- Mend-and-Match Shoulderpads
 				i(235328),	-- Boots of the Silver Tongue
@@ -1411,10 +1364,8 @@ root(ROOTS.Unsorted, {
 				i(235352),	-- Netherflare Wand
 				i(235353),	-- Debtsmasher Axe
 				i(235354),	-- Scrapblaster Lance
-				i(235355),	-- Gossi-blin's Baton
 				i(235356),	-- Sapper's Spark Reactor
 				i(235357),	-- Bulletscar Barricade
-				i(235359),	-- Ratfang Toxin
 				i(235363),	-- Suspicious Energy Drink
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
@@ -1658,7 +1609,6 @@ root(ROOTS.Unsorted, {
 				i(235784),	-- Chestguard of Winged Triumph
 			}),
 			filter(TOYS, {
-				i(233202),	-- G.O.L.E.M Jr.
 				i(235671),	-- Blackwater Cartel Banner
 				i(235801),	-- Personal Fishing Barge
 				i(236749),	-- Take-Home Torq
@@ -1666,7 +1616,6 @@ root(ROOTS.Unsorted, {
 				i(234950),	-- Atomic Regoblinator
 				i(235018),	-- Cracked Cold One [From toy?]
 				i(235219),	-- Fireworks Hat
-				i(235220),	-- Fireworks Hat
 				i(235266),	-- Fireworked Hat
 			}),
 			n(WEAPONS, {
