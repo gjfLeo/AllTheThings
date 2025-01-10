@@ -1744,6 +1744,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26341, {	-- The Stone Shards
 					["qg"] = 2789,	-- Skuerto
 					["coord"] = { 40.3, 49.1, ARATHI_HIGHLANDS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'The Stone Shards' (26909) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -1751,6 +1752,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26909, {	-- The Stone Shards
 					["qg"] = 2787,	-- Zaruk
 					["coord"] = { 69.6, 36.5, ARATHI_HIGHLANDS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'The Stone Shards' (26341) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
@@ -2411,7 +2413,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(2816, {	-- Androd Fadran <Leatherworking Supplies>
 					["coords"] = {
 						-- #if AFTER CATA
-						{ 39.2, 48.2, ARATHI_HIGHLANDS },
+						{ 39.2, 48.1, ARATHI_HIGHLANDS },
 						-- #else
 						{ 45.1, 46.8, ARATHI_HIGHLANDS },
 						-- #endif
@@ -2429,7 +2431,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if AFTER 4.0.3
 				n(3180, {	-- Dark Iron Entrepreneur <Speciality Goods>
-					["coord"] = { 42.6, 90.6, ARATHI_HIGHLANDS },
+					["coord"] = { 42.7, 90.3, ARATHI_HIGHLANDS },
 					["groups"] = {
 						i(11150),	-- Formula: Enchant Gloves - Mining (RECIPE!)
 						i(4824, {	-- Blurred Axe
@@ -2506,33 +2508,41 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(2810, {	-- Hammon Karwn <Superior Tradesman>
 					["coords"] = {
 						-- #if AFTER CATA
-						{ 40.4, 48.8, ARATHI_HIGHLANDS },
+						{ 40.5, 48.9, ARATHI_HIGHLANDS },
 						-- #else
 						{ 46.5, 47.4, ARATHI_HIGHLANDS },
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{"select", "itemID",
-						5973,	-- Pattern: Barbaric Leggings (RECIPE!)
-					}},
 					["groups"] = {
 						-- #if AFTER TBC
 						i(21942, {	-- Design: Ruby Crown of Restoration
 							["isLimited"] = true,
 						}),
 						-- #endif
+						i(5973, {	-- Pattern: Barbaric Leggings (RECIPE!)
+							["isLimited"] = true,
+						}),
 						i(12228),	-- Recipe: Roast Raptor (RECIPE!)
 					},
 				}),
 				n(1471, {	-- Jannos Ironwill <Superior Macecrafter>
 					["coords"] = {
 						-- #if AFTER CATA
-						{ 40.8, 48.0, ARATHI_HIGHLANDS },
+						{ 40.8, 48.1, ARATHI_HIGHLANDS },
 						-- #else
 						{ 46.0, 47.7, ARATHI_HIGHLANDS },
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2527,	-- Battle Staff
+						2532,	-- Morning Star
+						2524,	-- Truncheon
+						2525,	-- War Hammer
+						2533,	-- War Maul
+						2535,	-- War Staff
+					}},
 					["groups"] = {
 						i(10858, {	-- Plans: Solid Iron Maul (RECIPE!)
 							["isLimited"] = true,
@@ -2597,7 +2607,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(2814, {	-- Narj Deepslice <Butcher>
 					["coords"] = {
 						-- #if AFTER CATA
-						{ 39.6, 48.8, ARATHI_HIGHLANDS },
+						{ 39.7, 48.9, ARATHI_HIGHLANDS },
 						-- #else
 						{ 45.6, 47.6, ARATHI_HIGHLANDS },
 						-- #endif

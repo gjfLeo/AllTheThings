@@ -151,6 +151,7 @@ end
 local MobileDB = {}
 MobileDB.Creature = {
 	   [951] = true,	-- Brother Paxton
+	  [2608] = true,	-- Commander Amaren
 	 [19644] = true,	-- Image of Archmage Vargoth
 	 [19935] = true,	-- Soridormi
 	 [23870] = true,	-- Ember Clutch Ancient
@@ -235,9 +236,16 @@ MobileDB.Creature = {
 -- either by following the player or having player-based decisions that cause them to have any coordinates
 -- but also quests objects that are not sourced elsewhere..
 MobileDB.GameObject = {
-	[119] = true,		-- Abercrombie's Crate (q:26680)
-	[17155] = true,		-- Large Battered Chest (Deadmines)
-	[19019] = true,		-- Box of Assorted Parts
+	   [119] = true,	-- Abercrombie's Crate (q:26680)
+	  [2689] = true,	-- Stone of West Binding (q:26041)
+	  [2690] = true,	-- Stone of Outer Binding (q:26041)
+	  [2691] = true,	-- Stone of East Binding (q:26041)
+	  [2712] = true,	-- Calcified Elven Gem (q:26051)
+	  [2716] = true,	-- Trelane's Chest (q:26038)
+	  [2717] = true,	-- Trelane's Footlocker (q:26038)
+	  [2718] = true,	-- Trelane's Lockbox (q:26038)
+	 [17155] = true,	-- Large Battered Chest (Deadmines)
+	 [19019] = true,	-- Box of Assorted Parts
 	[148499] = true,	-- Felix's Box (q:3361)
 	[169243] = true,	-- Chest of The Seven (BRD)
 	[178084] = true,	-- Felix's Chest (q:3361)
