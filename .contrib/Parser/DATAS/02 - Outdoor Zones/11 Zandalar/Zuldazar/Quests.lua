@@ -1856,7 +1856,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(52210, {	-- Sending Out An SOS
 				["sourceQuests"] = {
-					47528,	-- Mistress of Lies (lq of inaccurate quest dialog)
+					-- 47528,	-- Mistress of Lies (lq of inaccurate quest dialog / On Jan 9 2025 this was reported as not required)
+					47741,	-- To Sacrifice a Loa (Based on wowhead comment section)
 					49310,	-- The Prophet's Ploy (guessed)
 				},
 				["isBreadcrumb"] = true,
