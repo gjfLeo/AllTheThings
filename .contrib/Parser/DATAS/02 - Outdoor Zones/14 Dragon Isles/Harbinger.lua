@@ -50,7 +50,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }
 		}),
 		q(79014, {	-- Walk a Mile in Her Shadows
 			["sourceQuests"] = { 79013 },	-- Galakrond's Unrest
-			["provider"] = { "n", 214698 },	-- Alleria Windrunner
+			["provider"] = { "n", 214634 },	-- Alleria Windrunner
 			["coord"] = { 56.6, 39, DRAGONBLIGHT },
 		}),
 		q(79015, {	-- Dark Descension

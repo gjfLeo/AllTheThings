@@ -99,6 +99,7 @@ end
 -- typically we don't want the report to trigger even when interacting from max range
 -- so can adjust here
 local MapPrecisionOverrides = {
+	[629] = 3,	-- Aegwynn's Gallery
 	[1699] = 3,	-- Sinfall
 	[1700] = 3,	-- Sinfall
 	[2328] = 3,	-- The Proscenium
@@ -219,6 +220,7 @@ MobileDB.Creature = {
 	[209681] = true,	-- Squally
 	[214890] = true,	-- Magni Bronzebeard
 	[214892] = true,	-- Dagran Thaurissan II
+	[221539] = true,	-- Alleria Winderunner
 	[220307] = true,	-- Holiday Enthusiast
 	[220859] = true,	-- Amy Lychenstone
 	[221492] = true,	-- Baron Sybaestan Braunpyke
