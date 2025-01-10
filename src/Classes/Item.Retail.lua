@@ -332,7 +332,8 @@ local function default_link(t)
 		-- local link = "|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r";
 		-- This is weird...
 	end
-	return UNKNOWN;
+	-- i don't know why this was returning Unknown... bad! default funcs should only return nil or a real value
+	-- return UNKNOWN;
 end
 local function default_icon(t)
 	return t.itemID and GetItemIcon(t.itemID) or 134400;
