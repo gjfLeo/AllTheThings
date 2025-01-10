@@ -1623,10 +1623,10 @@ regionUnavailable = function(region, t)
 end]];
 	return t;
 end
-chinaONLY = function(t)
+cnONLY = function(t)
 	return regionExclusive("CN", t);
 end
-chinaUnavailable = function(t)
+cnUnavailable = function(t)
 	return regionUnavailable("CN", t);
 end
 twONLY = function(t)

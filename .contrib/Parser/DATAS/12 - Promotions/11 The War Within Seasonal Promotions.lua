@@ -70,21 +70,21 @@ root(ROOTS.Promotions, {
 				}),
 			}));
 			-- "Pre Season"
-			chinaONLY(ach(40910, {	-- Successfully Stress Test CN Realms
+			cnONLY(ach(40910, {	-- Successfully Stress Test CN Realms
 				["description"] = "Rewarded for the Aid in the stress testing of the realms in China",
 				["timeline"] = { ADDED_11_0_0, REMOVED_11_0_5 },
 			})),
-			chinaONLY(i(190231, {	-- Ash'adar, Harbinger of Dawn (MOUNT!)
+			cnONLY(i(190231, {	-- Ash'adar, Harbinger of Dawn (MOUNT!)
 				["description"] = "Rewarded for returning to World of Warcraft in 2024. China Only.",
 				["timeline"] = { ADDED_11_0_0 },
 				["u"] = REMOVED_FROM_GAME,	-- Probably removed in 2025
 			})),
-			chinaONLY(i(210409, {	-- Aura (PET!)
+			cnONLY(i(210409, {	-- Aura (PET!)
 				["description"] = "Rewarded for returning to World of Warcraft in 2024. China Only.",
 				["timeline"] = { ADDED_11_0_0 },
 				["u"] = REMOVED_FROM_GAME,	-- Probably removed in 2025
 			})),
-			chinaONLY(i(229128, {	-- Harmonious Salutations Bear (MOUNT!)
+			cnONLY(i(229128, {	-- Harmonious Salutations Bear (MOUNT!)
 				["description"] = "Rewarded for returning to World of Warcraft in 2024. China Only.",
 				["timeline"] = { ADDED_11_0_0 },
 				["u"] = REMOVED_FROM_GAME,	-- Probably removed in 2025
