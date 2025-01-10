@@ -1074,6 +1074,7 @@ root(ROOTS.ExpansionFeatures,
 									["coord"] = { 66.01, 26.01, BORALUS },
 									["races"] = ALLIANCE_ONLY,
 									["isWeekly"] = true,
+									["_drop"] = { "g" }, -- bnet api has horde box
 									["g"] = {
 										i(169197, {	-- Warfronts Equipment Cache
 											["modID"] = 23,	-- iLvl 430
@@ -1160,6 +1161,7 @@ root(ROOTS.ExpansionFeatures,
 									["coord"] = { 66.01, 26.01, BORALUS },
 									["races"] = ALLIANCE_ONLY,
 									["isWeekly"] = true,
+									["_drop"] = { "g" }, -- bnet api has horde box
 									["g"] = {
 										i(164578, {	-- Warfronts Equipment Cache
 											["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 6),	-- iLvl 370
@@ -1405,33 +1407,18 @@ root(ROOTS.ExpansionFeatures,
 												i(163873),	-- Honorbound Wand
 												i(163872),	-- Honorbound War Staff
 												i(163877),	-- Honorbound Warglaive
+												i(166337),	-- Honorbound Warhammer
 												i(163357, {	-- Honorbound Artificer's Cloak
-													["classes"] = {
-														PRIEST,
-														MAGE,
-														WARLOCK,
-													},
+													["classes"] = CLOTH_CLASSES,
 												}),
 												i(163360, {	-- Honorbound Outrider's Drape
-													["classes"] = {
-														DRUID,
-														ROGUE,
-														MONK,
-														DEMONHUNTER,
-													},
+													["classes"] = LEATHER_CLASSES,
 												}),
 												i(163366, {	-- Honorbound Vanguard's Cloak
-													["classes"] = {
-														HUNTER,
-														SHAMAN,
-													},
+													["classes"] = MAIL_CLASSES,
 												}),
 												i(163368, {	-- Honorbound Centurion's Long Cloak
-													["classes"] = {
-														PALADIN,
-														WARRIOR,
-														DEATHKNIGHT,
-													},
+													["classes"] = PLATE_CLASSES,
 												}),
 												i(163426),	-- Honorbound Artificer's Guise
 												i(163424),	-- Honorbound Artificer's Amice
@@ -1539,10 +1526,16 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = ALLIANCE_ONLY,
 									["repeatable"] = true,
 									["u"] = REMOVED_FROM_GAME,
+									["_drop"] = { "g" }, -- bnet api has horde box
 									["g"] = {
+										-- #IF BEFORE SHADOWLANDS
+										-- this is distorting actual live rewards
 										i(164578, {	-- Warfronts Equipment Cache (A)
 											["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 5),	-- iLvl 340
 										}),
+										-- #ELSE
+										i(164578),	-- Warfronts Equipment Cache (A)
+										-- #ENDIF
 									},
 								}),
 								q(53197, {	-- Touring the Front (A)
@@ -1564,9 +1557,14 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = HORDE_ONLY,
 									["repeatable"] = true,
 									["g"] = {
+										-- #IF BEFORE SHADOWLANDS
+										-- this is distorting actual live rewards
 										i(164577, {	-- Warfronts Equipment Cache (H)
 											["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_HORDE, 5),	-- iLvl 340
 										}),
+										-- #ELSE
+										i(164577),	-- Warfronts Equipment Cache (H)
+										-- #ENDIF
 									},
 								}),
 
