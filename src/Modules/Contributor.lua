@@ -220,6 +220,7 @@ MobileDB.Creature = {
 	[209681] = true,	-- Squally
 	[214890] = true,	-- Magni Bronzebeard
 	[214892] = true,	-- Dagran Thaurissan II
+	[215597] = true,	-- Alleria Winderunner
 	[221539] = true,	-- Alleria Winderunner
 	[220307] = true,	-- Holiday Enthusiast
 	[220859] = true,	-- Amy Lychenstone
