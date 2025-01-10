@@ -3534,15 +3534,15 @@ local createRecipe = app.CreateClass("Recipe", "spellID", recipeFields,
 		return app.Settings.AccountWide.Recipes and 2;
 	end,
 }, (function(t) return t.itemID; end));
-local createItem = app.CreateItem;	-- Temporary Recipe fix until someone fixes parser.
-app.CreateItem = function(id, t)
-	if t and t.spellID and t.f == app.FilterConstants.RECIPES then	-- This is pretty slow, would be great it someone fixes it.
-		t.f = nil;
-		t.itemID = id;
-		return createRecipe(t.spellID, t);
-	end
-	return createItem(id, t);
-end
+-- local createItem = app.CreateItem;	-- Temporary Recipe fix until someone fixes parser.
+-- app.CreateItem = function(id, t)
+-- 	if t and t.spellID and t.f == app.FilterConstants.RECIPES then	-- This is pretty slow, would be great it someone fixes it.
+-- 		t.f = nil;
+-- 		t.itemID = id;
+-- 		return createRecipe(t.spellID, t);
+-- 	end
+-- 	return createItem(id, t);
+-- end
 app.CreateRecipe = createRecipe;
 app.CreateSpell = function(id, t)
 	if t and t.itemID then
