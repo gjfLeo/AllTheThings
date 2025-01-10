@@ -86,7 +86,10 @@ root(ROOTS.ExpansionFeatures, {
 				["provider"] = { "n", 135793 },	-- Collector Kojo
 				["classes"] = exclude(PRIEST, ALL_CLASSES),
 				["g"] = {
-					i(164761),	-- Xal'atath, Blade of the Black Empire (QI!)
+					o(307091, {	-- Ominous Whispering Dagger
+						["coord"] = { 40.5, 36.5, STORMSONG_VALLEY },
+						["g"] = { i(164761) },	-- Xal'atath, Blade of the Black Empire (QI!)
+					}),
 				},
 			}),
 			q(54174, {	-- Orders from Azshara
@@ -96,7 +99,10 @@ root(ROOTS.ExpansionFeatures, {
 				["provider"] = { "n", 134345 },	-- Collector Kojo
 				["classes"] = exclude(PRIEST, ALL_CLASSES),
 				["g"] = {
-					i(164761),	-- Xal'atath, Blade of the Black Empire (QI!)
+					o(307091, {	-- Ominous Whispering Dagger
+						["coord"] = { 40.5, 36.5, STORMSONG_VALLEY },
+						["g"] = { i(164761) },	-- Xal'atath, Blade of the Black Empire (QI!)
+					}),
 				},
 			}),
 			q(54265, {	-- Orders from Azshara

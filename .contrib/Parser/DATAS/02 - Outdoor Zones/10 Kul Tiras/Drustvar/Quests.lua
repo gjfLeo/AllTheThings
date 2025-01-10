@@ -1633,6 +1633,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["sourceQuests"] = { 50253 },	-- An Improvised Arsenal
 				["g"] = {
+					i(156926),	-- Witchrend (QI!)
 					i(158584),	-- Wickerwoven Sandals
 					i(158585),	-- Banisher Walkers
 					i(158586),	-- Crone-Seeker's Walkers

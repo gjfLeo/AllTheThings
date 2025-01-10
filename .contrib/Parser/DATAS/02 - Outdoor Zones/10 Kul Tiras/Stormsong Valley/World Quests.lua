@@ -92,6 +92,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(53288, {	-- Overgrown Anchor Weed
 				["requireSkill"] = HERBALISM,
+				["g"] = { i(163601) },	-- Overgrown Anchor Weed (QI!)
 			}),
 			q(52045, {	-- Boarder Patrol
 				["races"] = ALLIANCE_ONLY,
@@ -128,9 +129,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			})),
 			q(53106, {	-- Censership
 				["races"] = ALLIANCE_ONLY,
+				["g"] = { i(163212) },	-- Cleansing Thurible (QI!)
 			}),
 			q(53343, {	-- Censership
 				["races"] = HORDE_ONLY,
+				["g"] = { i(163212) },	-- Cleansing Thurible (QI!)
 			}),
 			q(52882, {	-- Controlled Burn
 				["races"] = HORDE_ONLY,
@@ -557,9 +560,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(53983, {	-- Wet Work: Fort Knight (Faction Assault WQ)
 				["races"] = HORDE_ONLY,
-				["g"] = {
-					i(164731),	-- Enchanted Shroud (QI!)
-				},
+				["g"] = { i(164731) },	-- Enchanted Shroud (QI!)
 			}),
 			q(52299, {	-- Whiplash
 				["g"] = {

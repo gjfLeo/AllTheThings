@@ -214,6 +214,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(51495),	-- Old Rotana
 			q(53305, {	-- Overgrown Anchor Weed
 				["requireSkill"] = HERBALISM,
+				["g"] = { i(163601) },	-- Overgrown Anchor Weed (QI!)
 			}),
 			q(54535, {	-- Portal Keeper Romiir (Faction Assault WQ)
 				["lvl"] = 45,

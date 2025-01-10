@@ -321,7 +321,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 14347 },	-- Highlord Demitrian
 						["coord"] = { 29.6, 10.6, SILITHUS },
 						["g"] = {
-							i(139000),	-- Damaged Thunderfury
+							i(139000),	-- Damaged Thunderfury (QI!)
 						},
 					}),
 					q(41770, {	-- The Skies Above
@@ -333,6 +333,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 41770 },	-- The Skies Above
 						["provider"] = { "n", 104797 },	-- Consular Celestos
 						["coord"] = { 55.2, 18.4, 737 },	-- The Vortex Pinnacle (Scenario Map)
+						["g"] = {
+							i(139000),	-- Damaged Thunderfury (QI!)
+							i(135589),	-- Heart of Skywall (QI!)
+							i(139037),	-- Thunderfury, Blessed Blade of the Windseeker (QI!)
+						},
 					}),
 					q(41776, {	-- Return of the Windlord
 						["sourceQuests"] = { 41771 },	-- Recharging the Blade

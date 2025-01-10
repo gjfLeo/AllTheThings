@@ -1092,7 +1092,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					q(65764, {	-- Sepulcher of the First Ones - Heavy is the Crown [N]
 						["provider"] = { "n", 184601 },	-- Highlord Bolvar Fordragon
 						["g"] = {
-							i(190967),	-- Mourne Fragment (QI)!
+							i(190967),	-- Mourne Fragment (QI!)
 						},
 					}),
 				}),

@@ -346,6 +346,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 				["sourceQuests"] = { 46251 },	-- Shard Times
 				["provider"] = { "n", 117873 },	-- Illidan Stormrage
 				["coord"] = { 44.6, 63.1, BROKEN_SHORE },
+				["g"] = { i(147582) },	-- Mark of the Sentinax (QI!)
 			}),
 			q(45193, {	-- One Step Behind
 				["sourceQuests"] = { 45192 },	-- Runes of Rending

@@ -1048,6 +1048,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 				["coord"] = { 78.5, 54.8, STORMSONG_VALLEY },
 				["lvl"] = 120,
+				["g"] = { i(163212) },	-- Cleansing Thurible (QI!)
 			}),
 			q(52069, {	-- More Fodder
 				["sourceQuests"] = { 49831 },	-- From the Depths

@@ -516,6 +516,10 @@ root(ROOTS.Zones, {
 					["coord"] = { 42.7, 28.4, LEGION_DALARAN },
 					["lvl"] = 45,
 					["timeline"] = { REMOVED_9_1_0 },
+					["g"] = {
+						i(136352),	-- Archmage Karlain's Imbued Silkweave Robe (QI!)
+						i(136351),	-- Handful of Obliterum Ash (QI!)
+					},
 				}),
 				q(45917, {	-- Following the Scent
 					["sourceQuests"] = { 45125 },	-- Dabbling in the Demonic

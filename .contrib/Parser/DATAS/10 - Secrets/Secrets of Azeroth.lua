@@ -602,13 +602,13 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 						},
 					}),
 					i(208146, {	-- Incomplete Tablet (QI!)
-						["cost"] = {{"i",208191,3}},	-- Time Lost Fragment (QI)
+						["cost"] = {{"i",208191,3}},	-- Time Lost Fragment (QI!)
 					}),
 				},
 			}),
 			OneTimeAccountLocked(76508,	-- Out of the Sands (Account-Wide Lock)
 			q(77305, {	-- Out of the Sands
-				["provider"] = { "i", 208146 },	-- Incomplete Tablet (QI)
+				["provider"] = { "i", 208146 },	-- Incomplete Tablet (QI!)
 			})),
 
 			-- Day 8 --
@@ -654,7 +654,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 						},
 						["provider"] = { "i", 207730 },	-- Idol of Ohn'ahra
 						["g"] = {
-							i(208835),	-- Rose Gold Dust (QI)
+							i(208835),	-- Rose Gold Dust (QI!)
 						},
 					}),
 					o(407692, {	-- Igneous Flux
@@ -666,7 +666,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 							{ 23.8, 78.8, THE_WAKING_SHORES },
 						},
 						["g"] = {
-							i(208836),	-- Igneous Flux (QI)
+							i(208836),	-- Igneous Flux (QI!)
 						},
 					}),
 				},
@@ -676,15 +676,15 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 				["qg"] = 210837,	-- Weaponsmith Koref
 				["coord"] = { 24.5, 60.7, THE_WAKING_SHORES },
 				["cost"] = {
-					{"i",208835,50},	-- Rose Gold Dust (QI)
-					{"i",208836, 8},	-- Igneous Flux (QI)
+					{"i",208835,50},	-- Rose Gold Dust (QI!)
+					{"i",208836, 8},	-- Igneous Flux (QI!)
 					{"i",208092, 1},	-- Torch of Pyrreth
 				},
 				["groups"] = {
 					o(408754, {	-- Reforged Titan Key
 						["coord"] = { 24.5, 60.7, THE_WAKING_SHORES },
 						["g"] = {
-							i(208830),	--  Reforged Titan Key (QI)
+							i(208830),	--  Reforged Titan Key (QI!)
 						},
 					}),
 					iensemble(208831),	-- Tyr's Titan Key
@@ -853,7 +853,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 50.1, 80.9, THALDRASZUS },
 							}))),
-							i(209795),	--  Piece of the Orb of Rathmus (QI)
+							i(209795),	--  Piece of the Orb of Rathmus (QI!)
 						},
 					}),
 					o(409329, {	-- Buried Object
@@ -864,7 +864,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 46.6, 77.6, THALDRASZUS },
 							}))),
-							i(209797),	--  Piece of the Orb of Rathmus (QI)
+							i(209797),	--  Piece of the Orb of Rathmus (QI!)
 						},
 					}),
 					o(409333, {	-- Buried Object
@@ -875,14 +875,14 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 48.6, 76.3, THALDRASZUS },
 							}))),
-							i(209799),	--  Piece of the Orb of Rathmus (QI)
+							i(209799),	--  Piece of the Orb of Rathmus (QI!)
 						},
 					}),
 					i(208944, {	-- A Curious Orb (QI!)
 						["cost"] = {
-							{"i",209795,1},	--  Piece of the Orb of Rathmus (QI)
-							{"i",209797,1},	--  Piece of the Orb of Rathmus (QI)
-							{"i",209799,1},	--  Piece of the Orb of Rathmus (QI)
+							{"i",209795,1},	--  Piece of the Orb of Rathmus (QI!)
+							{"i",209797,1},	--  Piece of the Orb of Rathmus (QI!)
+							{"i",209799,1},	--  Piece of the Orb of Rathmus (QI!)
 						},
 					}),
 				},
@@ -1066,12 +1066,12 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 				},
 				["groups"] = {
 					n(210674, {	-- Tithris
-						i(209555),	--  Orb of Rathmus (QI)
+						i(209555),	--  Orb of Rathmus (QI!)
 					}),
 					o(409120, {	-- Cache of Cosmic Mysteries
 						["coord"] = { 60.2, 58.7, THALDRASZUS },
 						["g"] = {
-							i(208980),	--  Cache of Cosmic Curiosities (QI)
+							i(208980),	--  Cache of Cosmic Curiosities (QI!)
 						},
 					}),
 				},

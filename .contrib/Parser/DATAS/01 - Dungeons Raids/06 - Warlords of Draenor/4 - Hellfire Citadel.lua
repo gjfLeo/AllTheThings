@@ -437,6 +437,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 							39505,	-- The Fel Spire (Mythic)
 						},
 						["provider"] = { "n", 95659 },	-- Archmage Khadgar
+						["g"] = { i(128419) },	-- Fel Essence (QI!)
 					}),
 					q(39499, {	-- Well of Souls
 						["description"] = "Finishing this quest will grant you immediate access to the Upper Citadel on Normal difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Heroic or Mythic version first.|r\n",
@@ -445,6 +446,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 							39501,	-- Well of Souls (Mythic)
 						},
 						["provider"] = { "n", 95659 },	-- Archmage Khadgar
+						["g"] = { i(128416) },	-- Soul Remnant (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {
@@ -947,11 +949,13 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["sourceQuests"] = { 39500 },	-- Well of Souls (Heroic)
 						["altQuests"] = { 39505 },	-- The Fel Spire (Mythic)
 						["provider"] = { "n", 95659 },	-- Archmage Khadgar
+						["g"] = { i(128420) },	-- Fel Essence (QI!)
 					}),
 					q(39500, {	-- Well of Souls (Heroic)
 						["description"] = "Finishing this quest will grant you immediate access to the Upper Citadel on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 						["altQuests"] = { 39501 },	-- Well of Souls (Mythic)
 						["provider"] = { "n", 95659 },	-- Archmage Khadgar
+						["g"] = { i(128417) },	-- Soul Remnant (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {
@@ -1440,10 +1444,12 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["provider"] = { "n", 95659 },	-- Archmage Khadgar
 						["sourceQuests"] = { 39501 },	-- Well of Souls (Mythic)
 						["description"] = "Finishing this quest will grant you immediate access to the Destructor's Rise on Mythic difficulty each week.",
+						["g"] = { i(128421) },	-- Fel Essence (QI!)
 					}),
 					q(39501, {	-- Well of Souls (Mythic)
 						["provider"] = { "n", 95659 },	-- Archmage Khadgar
 						["description"] = "Finishing this quest will grant you immediate access to the Upper Citadel on Mythic difficulty each week.",
+						["g"] = { i(128418) },	-- Soul Remnant (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {

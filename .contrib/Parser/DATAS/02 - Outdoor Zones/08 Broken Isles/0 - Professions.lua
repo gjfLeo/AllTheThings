@@ -81,6 +81,7 @@ root(ROOTS.Zones, {
 							40525,	-- Getting the Band Back Together
 						},
 						["g"] = {
+							i(137215),	-- Cut Azsunite (QI!)
 							i(137794),	-- Design: Azsunite Loop [Rank 1] (RECIPE!)
 						},
 					}),
@@ -93,6 +94,7 @@ root(ROOTS.Zones, {
 							40525,	-- Getting the Band Back Together
 						},
 						["g"] = {
+							i(137212),	-- Cut Skystone (QI!)
 							i(137793),	-- Design: Skystone Loop [Rank 1] (RECIPE!)
 						},
 					}),
@@ -105,6 +107,7 @@ root(ROOTS.Zones, {
 							40525,	-- Getting the Band Back Together
 						},
 						["g"] = {
+							i(137214),	-- Cut Deep Amber (QI!)
 							i(137792),	-- Design: Deep Amber Loop [Rank 1] (RECIPE!)
 						},
 					}),

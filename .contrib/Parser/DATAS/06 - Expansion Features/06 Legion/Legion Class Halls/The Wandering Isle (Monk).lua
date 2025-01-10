@@ -210,6 +210,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["sourceQuests"] = { 40633 },	-- Off To Adventure!
 							["provider"] = { "n", 47684 },	-- King Phaoris
 							["coord"] = { 54.9, 32.8, ULDUM },
+							["g"] = { i(132560) },	-- Essence of the Whirlwind (QI!)
 						}),
 						q(40570, {	-- Into The Heavens
 							["sourceQuests"] = { 40634 },	-- Thunder on the Sands
@@ -217,6 +218,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 54.9, 32.8, ULDUM },
 							["maps"] = { 716 },	-- Skywall (Scenario Map)
 							["g"] = {
+								i(132745),	-- Essence of the Whirlwind (QI!)
 								i(128940, {	-- Fists of the Heavens [Main Hand]
 									artifact(290),	-- Fists of the Heavens [Main Hand]
 								}),
@@ -647,6 +649,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 117305 },	-- Brewer Almai
 						["coord"] = { 53.6, 53.3, BROKEN_SHORE },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = { i(146308) },	-- Barrel of Storm Brew (QI!)
 					}),
 					q(45449, {	-- Alchemist Koryla
 						["sourceQuests"] = { 45459 },	-- Storming the Legion

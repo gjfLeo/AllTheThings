@@ -731,8 +731,8 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["sourceQuest"] = 55397,	-- Before I Wake
 							["g"] = {
 								i(167831),	-- Emerald Shards (QI!)
-								i(167875),	-- Reforged Dreamglow Dragonscale (QI!)
 								i(168612),	-- Dreamglow Dragonscale
+								i(167875),	-- Reforged Dreamglow Dragonscale (QI!)
 							},
 						}),
 						q(61872, {	-- To Current Matters (A)

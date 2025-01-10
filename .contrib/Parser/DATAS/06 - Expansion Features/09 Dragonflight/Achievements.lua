@@ -383,7 +383,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				i(204843),	-- Draconic Mark of Mastery
 			},
 		})),
-		ach(18380, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_11_0_0 } }, {	-- Dragonflight Season 2 Hero
+		ach(18380, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Dragonflight Season 2 Hero
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
 				18159,	-- Mythic: Scalecommander Sarkareth
@@ -724,7 +724,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				i(210944),	-- Emerald Mark of Mastery
 			},
 		})),
-		ach(19420, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0, REMOVED_11_0_0 } }, {	-- Dragonflight Season 3 Hero
+		ach(19420, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {	-- Dragonflight Season 3 Hero
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
 				19343,	-- Mythic: Fyrakk the Blazing

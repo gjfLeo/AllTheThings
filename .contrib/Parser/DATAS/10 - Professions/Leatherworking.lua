@@ -715,6 +715,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["repeatable"] = true,
 				["g"] = {
 					i(146691),	-- Immaculate Spellsash (QI!)
+					i(146690);	-- Xavius' Torn Spellsash (QI!)
 				},
 			})),
 			q(46686, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- The Wisp and the Sea
@@ -725,6 +726,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["repeatable"] = true,
 				["g"] = {
 					i(146689),	-- Oiled Handmaiden's Gloves (QI!)
+					i(146688),	-- Waterlogged Handmaiden's Gloves (QI!)
 				},
 			})),
 			q(46685, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- The Wisp and the Shadow
@@ -734,6 +736,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["maps"] = { 733 },	-- Darkheart Thicket
 				["repeatable"] = true,
 				["g"] = {
+					i(146686),	-- Colorless Shroud of Xavius (QI!)
 					i(146687),	-- Dyed Shroud of Xavius (QI!)
 				},
 			})),
@@ -748,9 +751,9 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 				["repeatable"] = true,
 				["g"] = {
-					i(146712),	-- Wisp-Touched Elderhide
 					i(147438),	-- Bag of Wisp-Touched Elderhide (QI!)
 					i(146977),	-- Legendary Tanner's Kit (QI!)
+					i(146712),	-- Wisp-Touched Elderhide
 				},
 			})),
 			-- Vigilance Perch Questline
@@ -760,6 +763,10 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.2, 59.4, BROKEN_SHORE },
 				["repeatable"] = true,
 				["timeline"] = { ADDED_7_2_0 },
+				["g"] = {
+					i(147116),	-- Captured Spirit of the Father of Owls (QI!)
+					i(147075),	-- Spirit Net (QI!)
+				}
 			}),
 			q(46694, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Mail of the Ancients
 				["sourceQuests"] = { 46690 },	-- The Legend of the Wardenscale
@@ -779,6 +786,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["repeatable"] = true,
 				["g"] = {
 					i(146697),	-- Refinished Legplates of Mephistroth (QI!)
+					i(146696),	-- Rusted Legplates of Mephistroth (QI!)
 				},
 			})),
 			q(46693, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- The Owl and the Observer
@@ -789,6 +797,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["repeatable"] = true,
 				["g"] = {
 					i(146699),	-- Gleaming Bracers of the First War (QI!)
+					i(146698),	-- Torn Bracers of the First War (QI!)
 				},
 			})),
 			q(46691, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- The Owl and the Traitor
@@ -798,6 +807,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["maps"] = { 710, 711, 712, },	-- Vault of the Wardens
 				["repeatable"] = true,
 				["g"] = {
+					i(146694),	-- Chipped Felsong Mantle (QI!)
 					i(146695),	-- Immaculate Felsong Mantle (QI!)
 				},
 			})),
@@ -812,9 +822,9 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 41.1, 59.3, BROKEN_SHORE },
 				["repeatable"] = true,
 				["g"] = {
-					i(146713),	-- Prime Wardenscale
 					i(147439),	-- Box of Completed Prime Wardenscale (QI!)
 					i(147209),	-- Legendary Wardenscale Supplies (QI!)
+					i(146713),	-- Prime Wardenscale
 				},
 			})),
 			-- 7.3.0
@@ -827,9 +837,9 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					{ "i", 151567, 12 },	-- 12x Lightweave Cloth
 				},
 				["g"] = {
+					i(151880),	-- Enstraa's Tanning Oil (QI!)
 					i(151740),	-- Pattern: Fiendish Shoulderguards [Rank 1] (RECIPE!)
 					i(151743),	-- Pattern: Fiendish Spaulders [Rank 1] (RECIPE!)
-					i(151880),	-- Enstraa's Tanning Oil (QI!)
 					i(151879),	-- Purified Fiendish Leather (QI!)
 				},
 			})),

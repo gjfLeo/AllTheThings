@@ -1670,7 +1670,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							i(172139),	-- Cold Forged Hammer
 							i(172121),	-- Ice Barbed Spear
 							i(172123),	-- Wand of Biting Cold
-							i(18150),	-- Rune of Recall
+							i(18149);	-- Rune of Recall
 						},
 					}),
 					q(57303, {	-- The Quartermaster
@@ -1699,6 +1699,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["qg"] = 13377,	-- Master Engineer Zinfizzlex
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = 10,
+						["g"] = { i(17410) },	-- Zinfizzlex's Portable Shredder Unit
 					}),
 					q(57731, {	-- Zinfizzlex's Portable Shredder Unit (H)
 						["description"] = "Questgiver is west of Korrak (over the bridge) and you have to escort him to your base. After bringing him to safety he offers the quest.",
@@ -1706,6 +1707,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["qg"] = 13377,	-- Master Engineer Zinfizzlex
 						["races"] = HORDE_ONLY,
 						["lvl"] = 10,
+						["g"] = { i(17384) },	-- Zinfizzlex's Portable Shredder Unit
 					}),
 				}),
 				n(VENDORS, {

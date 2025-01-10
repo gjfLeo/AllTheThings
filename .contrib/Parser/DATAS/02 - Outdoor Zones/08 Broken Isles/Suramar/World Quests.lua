@@ -43,7 +43,9 @@ root(ROOTS.Zones, {
 					},
 				}),
 				q(44867),	-- Contain their Advance
-				q(44816),	-- Continued Exposure
+				q(44816, {	-- Continued Exposure
+					["g"] = { i(142509) },	-- Withered Targeting Orb (QI!)
+				}),
 				q(41195),	-- Culling Ambervale
 				q(44856),	-- Cut the Cattitude
 				q(44113),	-- DANGER: Achronos (rare wq)

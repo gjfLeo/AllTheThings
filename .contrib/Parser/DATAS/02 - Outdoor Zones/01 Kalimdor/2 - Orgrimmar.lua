@@ -2211,7 +2211,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_8_1_5 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(166805, {	-- Blood-Soaked Invitation (QI)
+						i(166805, {	-- Blood-Soaked Invitation (QI!)
 							["timeline"] = { ADDED_8_1_5 },
 						}),
 					},

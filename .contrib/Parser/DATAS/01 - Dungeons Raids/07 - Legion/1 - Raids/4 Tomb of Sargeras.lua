@@ -465,6 +465,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 							47727,	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
 						},
 						["provider"] = { "n", 119723 },	-- Image of Aegwynn
+						["g"] = { i(151248) },	-- Fragment of the Guardian's Seal (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {
@@ -762,6 +763,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 						["description"] = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 						["altQuests"] = { 47727 },	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
 						["provider"] = { "n", 119723 },	-- Image of Aegwynn
+						["g"] = { i(151249) },	-- Fragment of the Guardian's Seal (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {
@@ -1047,6 +1049,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 						["description"] = "Finishing this quest will grant you access to Maiden of Vigilance after killing Goroth on Mythic difficulty each week.\n",
 						["altQuests"] = { 47727 },	-- Tomb of Sargeras: Aegwynn's Path (Mythic)
 						["provider"] = { "n", 119723 },	-- Image of Aegwynn
+						["g"] = { i(151250) },	-- Fragment of the Guardian's Seal (QI!)
 					}),
 				}),
 				n(ZONE_DROPS, {

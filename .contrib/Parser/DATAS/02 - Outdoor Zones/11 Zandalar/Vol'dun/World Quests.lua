@@ -258,6 +258,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(53300, {	-- Overgrown Anchor Weed
 				["requireSkill"] = HERBALISM,
+				["g"] = { i(163601) },	-- Overgrown Anchor Weed (QI!)
 			}),
 			q(51850, {	-- Preserve the Oasis
 				["races"] = HORDE_ONLY,

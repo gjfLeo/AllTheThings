@@ -273,7 +273,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 8399,	-- Nyrill <Xylem's Apprentice>
 					["coord"] = { 26.4, 46.2, AZSHARA },
 					["timeline"] = { REMOVED_1_7_0 },
-					["repeatable"] = true,
 					["lvl"] = 45,
 				}),
 				q(14432, {	-- A Pale Brew

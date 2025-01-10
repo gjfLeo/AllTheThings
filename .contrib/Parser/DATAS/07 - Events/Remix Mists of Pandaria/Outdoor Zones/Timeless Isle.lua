@@ -112,7 +112,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 							["bonusID"] = 10972,
 						}),
 						i(215438),	-- Chronobadge (QI!)
-						i(215442),	-- Cloak of Infinite Potential (QI)
+						i(215442),	-- Cloak of Infinite Potential (QI!)
 					},
 				}),
 				q(80380, {	-- Cloak and Needle

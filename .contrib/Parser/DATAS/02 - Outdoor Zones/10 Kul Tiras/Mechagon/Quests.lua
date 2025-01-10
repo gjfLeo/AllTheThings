@@ -23,25 +23,19 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 			q(55688, {	-- A Growing Mystery
 				["description"] = "This quest is only available if you pick up the clue from the |cFFFfffffDirt Pile|r while on |cFFefc400Clues Abound|r.",
 				["isDaily"] = true,
-				["g"] = {
-					i(168243),	-- Runestone Fragments (QI!)
-				},
+				["g"] = { i(168243) },	-- Runestone Fragments (QI!)
 			}),
 			q(56373, {	-- A Gulper Ate The Rolly
 				["provider"] = { "n", 151462 },	-- Danielle Anglers
 				["coord"] = { 37.0, 47.1, MECHAGON },
 				["isDaily"] = true,
-				["g"] = {
-					i(169391),	-- Bubble-eyed Rolly (QI!)
-				},
+				["g"] = { i(169391) },	-- Bubble-eyed Rolly (QI!)
 			}),
 			q(55672, {	-- A Historical Mess
 				["description"] = "This quest is only available if you pick up the clue from the |cFFffffffWaterlogged Scroll Case|r while on |cFFefc400Clues Abound|r.",
 				["provider"] = { "n", 152633 },	-- Sir Finley Mrrgglton
 				["isDaily"] = true,
-				["g"] = {
-					i(168224),	-- Tortollan Relics (QI!)
-				},
+				["g"] = { i(168224) },	-- Tortollan Relics (QI!)
 			}),
 			q(55697, {	-- A Little Leg Work
 				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
@@ -120,6 +114,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 				["isDaily"] = true,
 				--["sourceQuest"] =
+				["g"] = { i(169867) },	-- Visual Holo Sphere (QI!)
 			}),
 			q(56082, {	-- Bot Rampage
 			--	don't know if there are SQs or a reputation requirement.  i was at 2,500 Honored and this quest was up as a daily when i flew to the island.
@@ -437,9 +432,34 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["coord"] = { 71.2, 32.3, MECHAGON },
 				["minReputation"] = { FACTION_RUSTBOLT_RESISTANCE, REVERED },
 				["g"] = {
+					i(169251),	-- Ancient Insect (QI!)
+					i(169224),	-- Big Red Button (QI!)
+					i(169248),	-- Broken Sandals (QI!)
+					i(169235),	-- Confusing Spring Box (QI!)
+					i(169250),	-- Crude Eating Utensil (QI!)
+					i(169229),	-- Exhaust Aromatics (QI!)
+					i(169232),	-- Dud Blast Canister (QI!)
+					i(169228),	-- Hazardous Container (QI!)
 					i(170542),	-- Idea Starter (QI!)
 					i(170541),	-- Idea Starter (QI!)
 					i(169240),	-- Idea Starter (QI!)
+					i(169233),	-- Infinite Loop Spring (QI!)
+					i(169227),	-- Irradiated Bolts (QI!)
+					i(169257),	-- Jagged Rune (QI!)
+					i(169236),	-- Latch-and-Lock Trigger (QI!)
+					i(169238),	-- Modified Radio Receiver (QI!)
+					i(169231),	-- Optical Override Drive (QI!)
+					i(169237),	-- Pulsating Marble (QI!)
+					i(169230),	-- Reflective Plating (QI!)
+					i(169252),	-- Resonant Pearl (QI!)
+					i(169249),	-- Shark Tooth Necklace (QI!)
+					i(169253),	-- Shell Horn (QI!)
+					i(169246),	-- Strangely Seasoned Meat (QI!)
+					i(169247),	-- Throwing Rocks (QI!)
+					i(169226),	-- Torn Sheet Music (QI!)
+					i(169255),	-- Tuft of Red Fur (QI!)
+					i(169239),	-- Unknowable Cube (QI!)
+					i(169225),	-- Unstoppable Countdown Clock (QI!)
 				},
 			}),
 			q(55101, {	-- Junkyard Tinkering and You -- also triggered 56902 for alliance -- slumber note: maybe not on live?  didn't get it on my priest.
@@ -633,9 +653,18 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["coord"] = { 71.7, 38.8, MECHAGON },
 				["isDaily"] = true,
 				["g"] = {
-					i(169164),	-- Father's Bones (QI!)
-					i(169166),	-- Father's Clothes (QI!)
-					i(169165),	-- Father's Sword (QI!)
+					o(327569, {	-- Pirate Chest
+						["coord"] = { 14.7, 82.4, MECHAGON },
+						["g"] = { i(169164) },	-- Father's Bones (QI!)
+					}),
+					o(327568, {	-- Pirate Chest
+						["coord"] = { 21.0, 71.4, MECHAGON },
+						["g"] = { i(169165) },	-- Father's Sword (QI!)
+					}),
+					o(327570, {	-- Pirate Chest
+						["coord"] = { 24.0, 83.5, MECHAGON },
+						["g"] = { i(169166) },	-- Father's Clothes (QI!)
+					}),
 				},
 			}),
 			q(55528, {	-- Playtime's Over

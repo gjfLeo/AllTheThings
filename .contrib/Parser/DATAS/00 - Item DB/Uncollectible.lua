@@ -145,76 +145,10 @@ i(128851);	-- Roasted juicycrunch carrots
 -- "Mount Equipment"
 i(141593);	-- Dro's Key
 -- Quest Items
-i(164778);	-- Abyssal Scepter
-i(146692);	-- Ancient Dreadleather Armor
-i(146700);	-- Ancient Gravenscale Armor
-i(169251);	-- Ancient Insect
-i(168234);	-- Ancient Runestone
-i(147438);	-- Bag of Wisp-Touched Elderhide
-i(146308);	-- Barrel of Storm Brew
-i(169224);	-- Big Red Button
-i(147439);	-- Box of Completed Prime Wardenscale
-i(169248);	-- Broken Sandals
-i(169391);	-- Bubble-eyed Rolly
-i(169292);	-- Charged Scale of the Blue Aspect
-i(146694);	-- Chipped Felsong Mantle
-i(163212);	-- Cleansing Thurible
-i(146686);	-- Colorless Shroud of Xavius
-i(169235);	-- Confusing Spring Box
-i(169250);	-- Crude Eating Utensil
 i(9265);	-- Cuergo's Hidden Treasure
-i(169232);	-- Dud Blast Canister
-i(143656);	-- Echo of Time (N)
-i(143657);	-- Echo of Time (H)
-i(143658);	-- Echo of Time (M)
-i(118382);	-- Ember of the Mountain (N)
-i(118387);	-- Ember of the Mountain (H)
-i(118390);	-- Ember of the Mountain (M)
-i(164731);	-- Enchanted Shroud
-i(169778);	-- Enchanting Crystal
-i(141303);	-- Essence of Clarity (N)
-i(141304);	-- Essence of Clarity (H)
-i(141305);	-- Essence of Clarity (M)
-i(132560);	-- Essence of the Whirlwind
-i(132745);	-- Essence of the Whirlwind
-i(169229);	-- Exhaust Aromatics
-i(169164);	-- Father's Bones
-i(169166);	-- Father's Clothes
-i(169165);	-- Father's Sword
-i(128419);	-- Fel Essence (N)
-i(128420);	-- Fel Essence (H)
-i(128421);	-- Fel Essence (M)
-i(169228);	-- Hazardous Container
-i(118383);	-- Heart of Stone (N)
-i(118386);	-- Heart of Stone (H)
-i(118389);	-- Heart of Stone (M)
-i(169240);	-- Idea Starter
-i(169233);	-- Infinite Loop Spring
-i(169227);	-- Irradiated Bolts
-i(169257);	-- Jagged Rune
-i(169236);	-- Latch-and-Lock Trigger
-i(146952);	-- Legendary Tailor's Materials
-i(146977);	-- Legendary Tanner's Kit
-i(147209);	-- Legendary Wardenscale Supplies
-i(168280);	-- Lost Scale of the Scarlet Broodmother
-i(147582);	-- Mark of the Sentinax
-i(146680);	-- Melandrus' Star-Touched Bracers
 i(122618);	-- Misprinted Draenic Coin
-i(169238);	-- Modified Radio Receiver
-i(169222);	-- Murloc Treasure
-i(169231);	-- Optical Override Drive
-i(163601);	-- Overgrown Anchor Weed
-i(167830);	-- Petrified Ebony Scale
 i(169325);	-- Petrified Ebony Scale
-i(169237);	-- Pulsating Marble
 i(160983);	-- Recruitment Orders
-i(169230);	-- Reflective Plating
-i(167875);	-- Reforged Dreamglow Dragonscale
-i(169252);	-- Resonant Pearl
-i(18149);	-- Rune of Recall
-i(146696);	-- Rusted Legplates of Mephistroth
-i(147437);	-- Satchel of Starweave and Shadowcloth
-i(157539);	-- Scroll of Storm Control
 i(17224);	-- Scrying Scope
 i(17364);	-- Scrying Scope
 i(146906);	-- Sentinax Beacon of Carnage
@@ -232,52 +166,12 @@ i(146907);	-- Sentinax Beacon of Warbeasts
 i(147355);	-- Sentinax Beacon of the Bloodstrike
 i(146905);	-- Sentinax Beacon of the Firestorm
 i(146911);	-- Sentinax Beacon of the Greater Firestorm
-i(169249);	-- Shark Tooth Necklace
-i(169253);	-- Shell Horn
-i(168817);	-- Siphoning Crystal
-i(118384);	-- Sliver of Iron (N)
-i(118385);	-- Sliver of Iron (H)
-i(118388);	-- Sliver of Iron (M)
-i(128416);	-- Soul Remnant (N)
-i(128417);	-- Soul Remnant (H)
-i(128418);	-- Soul Remnant (M)
-i(147075);	-- Spirit Net
-i(169246);	-- Strangely Seasoned Meat
-i(146682);	-- Suramari Soul-Wraps
-i(169247);	-- Throwing Rocks
-i(146698);	-- Torn Bracers of the First War
-i(169226);	-- Torn Sheet Music
-i(169255);	-- Tuft of Red Fur
 i(118377);	-- Universal Language Module
-i(169239);	-- Unknowable Cube
-i(169225);	-- Unstoppable Countdown Clock
-i(169867);	-- Visual Holo Sphere
-i(146688);	-- Waterlogged Handmaiden's Gloves
-i(156926);	-- Witchrend
-i(142509);	-- Withered Targeting Orb
-i(164761);	-- Xal'atath, Blade of the Black Empire
-i(146690);	-- Xavius' Torn Spellsash
-i(17384);	-- Zinfizzlex's Portable Shredder Unit
-i(17410);	-- Zinfizzlex's Portable Shredder Unit
-i(135463);	-- Invincible's Reins
-i(136351);	-- Handful of Obliterum Ash
-i(136352);	-- Archmage Karlain's Imbued Silkweave Robe
-i(139037);	-- Thunderfury, Blessed Blade of the Windseeker
 i(139400);	-- [Ancient Magic and How to Wield It Without Destroying the World]
 i(139401);	-- [The Fate of Aegwynn]
 i(139402);	-- [The Fel Tome of Vorgalus Dor]
 i(139671);	-- [Deathglare Iris]
-i(151248);	-- Fragment of the Guardian's Seal (normal)
-i(151249);	-- Fragment of the Guardian's Seal (hc)
-i(151250);	-- Fragment of the Guardian's Seal (mythic)
-i(152902);	-- Rune of Passage (normal)
-i(152908);	-- Sigil of the Dark Titan (normal)
-i(152909);	-- Sigil of the Dark Titan (heroic)
-i(152910);	-- Sigil of the Dark Titan (mythic)
 i(135511);	-- Thick Slab of Bacon. You get it for a split second after completing a bacon wq
-i(137212);	-- Cut Skystone. You get it for a split second after completing the jewelcrafter daily
-i(137214);	-- Cut Deep Amber. You get it for a split second after completing the jewelcrafter daily
-i(137215);	-- Cut Azsunite.  You get it for a split second after completing the jewelcrafter daily
 -- Recipes (Not actual recipes)
 i(168326);	-- Eye of Theras
 -- Mount

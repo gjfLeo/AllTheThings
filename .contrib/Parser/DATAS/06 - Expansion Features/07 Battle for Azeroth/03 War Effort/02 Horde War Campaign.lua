@@ -882,18 +882,14 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 134711 },	-- Lady Sylvanas Windrunner
 							["coord"] = { 48.4, 71.4, ORGRIMMAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(164778),	-- Abyssal Scepter (QI!)
-							},
+							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53851, {	-- Our War Continues
 							["sourceQuests"] = { 53003 },	-- A Cycle of Hatred
 							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 							["coord"] = { 58.4, 62.6, ZULDAZAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(164778),	-- Abyssal Scepter (QI!)
-							},
+							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53852, {	-- Azerite Denied
 							["sourceQuests"] = {
@@ -903,18 +899,14 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 							["coord"] = { 58.4, 62.6, ZULDAZAR },
 							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(164778),	-- Abyssal Scepter (QI!)
-							},
+							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53856, {	-- The Fury of the Horde
 							["sourceQuests"] = { 53852 },	-- Azerite Denied
 							["provider"] = { "n", 145422 },	-- Rexxar
 							["coord"] = { 47.5, 21.8, TIRAGARDE_SOUND },
 							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(164778),	-- Abyssal Scepter (QI!)
-							},
+							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
 						}),
 						q(53879, {	-- Cleaning Out the Estate
 							["sourceQuests"] = { 53856 },	-- The Fury of the Horde

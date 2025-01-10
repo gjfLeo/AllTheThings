@@ -95,7 +95,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 						["coord"] = { 34.0, 41.2, ZARALEK_CAVERN },
 						["g"] = {
 							i(204314),	-- Corehound Hide (QI!)
-							i(204315),	-- Zaqali Bone Needle (QI)
+							i(204315),	-- Zaqali Bone Needle (QI!)
 						},
 					}),
 					q(74945, {	-- Guanite Gambit

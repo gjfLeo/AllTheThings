@@ -329,10 +329,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(53274, {	-- Overgrown Anchor Weed
 				["requireSkill"] = HERBALISM,
 				["races"] = ALLIANCE_ONLY,	-- probably?  reported as seen on an alliance character
+				["g"] = { i(163601) },	-- Overgrown Anchor Weed (QI!)
 			}),
 			q(53282, {	-- Overgrown Anchor Weed
 				["requireSkill"] = HERBALISM,
 				["races"] = HORDE_ONLY,	-- probably?
+				["g"] = { i(163601) },	-- Overgrown Anchor Weed (QI!)
 			}),
 			q(54666, {	-- Packmaster Swiftarrow (Faction Assault WQ)
 				["races"] = ALLIANCE_ONLY,

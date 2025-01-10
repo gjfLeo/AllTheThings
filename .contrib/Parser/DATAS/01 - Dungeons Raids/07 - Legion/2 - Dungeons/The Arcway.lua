@@ -188,7 +188,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 					i(137417),	-- Treads of Fates Entwined
 					i(137421),	-- Accelerating Torrent
 					i(137420),	-- Split Second
-					i(146678),	-- Vandros' Shadoweave Robes (Tailoring QI)
+					i(146678),	-- Vandros' Shadoweave Robes (Tailoring QI!)
 				})),
 			}),
 		},

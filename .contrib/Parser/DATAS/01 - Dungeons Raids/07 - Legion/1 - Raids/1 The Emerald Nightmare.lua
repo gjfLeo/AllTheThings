@@ -307,6 +307,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 							44285,	-- The Emerald Nightmare: Piercing the Veil (Mythic)
 						},
 						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
+						["g"] = { i(141303) },	-- Essence of Clarity (QI!)
 					}),
 				}),
 				n(COMMON_BOSS_DROPS, {
@@ -506,6 +507,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 						["description"] = "Finishing this quest will grant you immediate access to Cenarius on Heroic difficulty each week.\n\n|cfffd1818This quest becomes unobtainable if you complete the Mythic version first.|r\n",
 						["altQuests"] = { 44285 },	-- The Emerald Nightmare: Piercing the Veil (Mythic)
 						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
+						["g"] = { i(141304) },	-- Essence of Clarity (QI!)
 					}),
 				}),
 				n(COMMON_BOSS_DROPS, {
@@ -675,6 +677,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 					q(44285, {	-- The Emerald Nightmare: Piercing the Veil [Mythic]
 						["description"] = "Finishing this quest will grant you immediate access to Cenarius on Mythic difficulty each week.\n",
 						["provider"] = { "n", 106482 },	-- Malfurion Stormrage
+						["g"] = { i(141305) },	-- Essence of Clarity (QI!)
 					}),
 				}),
 				n(COMMON_BOSS_DROPS, {

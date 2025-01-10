@@ -815,7 +815,7 @@ root(ROOTS.Professions, prof(HERBALISM, bubbleDownSelf({ ["requireSkill"] = HERB
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						r(252410),	-- Star Moss [Rank 3]
-						i(160299),	-- Smoldering Bundle of Star Moss (QI)
+						i(160299),	-- Smoldering Bundle of Star Moss (QI!)
 					},
 				}),
 			},

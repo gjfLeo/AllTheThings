@@ -1513,8 +1513,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				["coord"] = { 34.3, 51.6, ELWYNN_FOREST },
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
-					i(211923),	-- Sealed Letter (QI)
-					i(211922),	-- Bouquet of Flowers (QI)
+					i(211923),	-- Sealed Letter (QI!)
+					i(211922),	-- Bouquet of Flowers (QI!)
 				},
 			}),
 			q(78988, {	-- Getaway to Scenic Feralas! (H)
@@ -1522,8 +1522,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				["coord"] = { 41.5, 16.1, DUROTAR },
 				["races"] = HORDE_ONLY,
 				["groups"] = {
-					i(211923),	-- Sealed Letter (QI)
-					i(211922),	-- Bouquet of Flowers (QI)
+					i(211923),	-- Sealed Letter (QI!)
+					i(211922),	-- Bouquet of Flowers (QI!)
 				},
 			}),
 			q(78565, {	-- Getaway to Scenic Grizzly Hills! (A)

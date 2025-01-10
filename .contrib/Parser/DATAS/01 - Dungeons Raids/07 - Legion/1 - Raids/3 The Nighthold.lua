@@ -478,6 +478,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 						},
 						["provider"] = { "n", 110791 },	-- First Arcanist Thalyssra
 						["g"] = {
+							i(143656),	-- Echo of Time (QI!)
 							ig(141324),	-- Talisman of the Shal'dorei (Normal)
 						},
 					}),
@@ -762,6 +763,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 						["altQuests"] = { 45383 },	-- The Nighthold: Talisman of the Shal'dorei (Mythic)
 						["provider"] = { "n", 110791 },	-- First Arcanist Thalyssra
 						["g"] = {
+							i(143657),	-- Echo of Time (QI!)
 							ig(141325),	-- Talisman of the Shal'dorei (Heroic)
 						},
 					}),
@@ -1048,6 +1050,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 						["description"] = "Finishing this quest will grant you immediate access to Spellblade Aluriel, Krosus, and/or Elisande on Mythic difficulty each week.\n",
 						["provider"] = { "n", 110791 },	-- First Arcanist Thalyssra
 						["g"] = {
+							i(143658),	-- Echo of Time (QI!)
 							ig(141326),	-- Talisman of the Shal'dorei (Mythic)
 						},
 					}),

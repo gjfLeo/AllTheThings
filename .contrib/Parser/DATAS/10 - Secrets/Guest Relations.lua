@@ -105,7 +105,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["sourceQuest"] = 84363,	-- Tweasure Hunt
 				["coord"] = { 63.3, 52.4, TANARIS },
 				["g"] = {
-					i(228617),	-- Benatauk's Clue Book (QI)
+					i(228617),	-- Benatauk's Clue Book (QI!)
 					i(228618, {	-- Benatauk's Crystal Ocular Lenses (QI!)
 						["coord"] = { 64.2, 50.0, TANARIS },
 						["description"] = "Go to Isaandrae <Skyway Balloonist>. Maru will find and give you [Benatauk's Crystal Ocular Lenses].",
