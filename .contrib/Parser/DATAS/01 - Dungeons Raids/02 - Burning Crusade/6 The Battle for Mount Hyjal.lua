@@ -948,7 +948,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 					i(32303),	-- Design: Inscribed Pyrestone
 					i(32295),	-- Design: Mystic Lionseye
 					-- #if AFTER CATA
+					-- #if BEFORE MOP
+					-- not sure when removed but this ItemID doesn't exist in Retail
 					i(32296),	-- Design: Rigid Empyrean Sapphire [CATA+] / Design: Great Lionseye [TBC]
+					-- #endif
 					-- #endif
 					i(32298),	-- Design: Shifting Shadowsong Amethyst
 					i(32297),	-- Design: Sovereign Shadowsong Amethyst
