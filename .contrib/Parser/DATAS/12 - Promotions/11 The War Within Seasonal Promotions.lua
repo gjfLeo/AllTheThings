@@ -209,8 +209,12 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- 19th December 2024
 			}),
 			i(95341, {	-- Armored Bloodwing (MOUNT!)
-				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until January 6th.",
-				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.58238" },
+				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until an unknown date.",
+				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" },
+			}),
+			i(233207, {	-- The Coward's Azure Target (COSMETIC!)
+				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between January 14th, 10:00 a.m. & February 4th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" },
 			}),
 
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE

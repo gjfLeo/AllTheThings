@@ -1832,7 +1832,6 @@ root(ROOTS.Unsorted, {
 				i(233182),	-- Banded Violet War Slippers
 				i(233183),	-- Banded Aquatic War Slippers
 				i(233184),	-- Banded Snowy War Slippers
-				i(233207),	-- The Coward's Azure Target
 				i(233218),	-- Crimson Lunar Lantern
 				i(233219),	-- Azure Lunar Lantern
 				i(233220),	-- Lively Lunar Lantern
