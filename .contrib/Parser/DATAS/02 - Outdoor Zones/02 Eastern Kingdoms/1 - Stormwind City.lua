@@ -5153,6 +5153,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = TIER_THIRTEEN_GROUPS,
+					-- #if AFTER 4.3.0
+					["description"] = "Sells gear related to Cataclysm raid tier 13 (Dragon Soul).",
+					-- #endif
 				}),
 				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(56925, {	-- Farrah Facet <Epic Gem Recipes>
 					["coord"] = { 63.8, 61.6, STORMWIND_CITY },
@@ -6192,6 +6195,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = TIER_TWELVE_GROUPS,
+					-- #if AFTER 4.2.0
+					["description"] = "Sells gear related to Cataclysm raid tier 12 (Firelands) as well as Baradin Hold.",
+					-- #endif
 				}),
 				n(1313, {	-- Maria Lumere <Alchemy Supplies>
 					["coords"] = {
@@ -6916,6 +6922,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_3_0 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = TIER_ELEVEN_GROUPS,
+					["description"] = "Sells gear related to Cataclysm raid tier 11 (Throne of the Four Winds, Blackwing Descent, and Bastion of Twilight) as well as Baradin Hold.",
 				}),
 				n(1341, {	-- Wilhelm Strang <Mail Armor Merchant>
 					["coords"] = {

@@ -2808,6 +2808,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,
 					["groups"] = TIER_TWELVE_GROUPS,
+					-- #if AFTER 4.2.0
+					["description"] = "Sells gear related to Cataclysm raid tier 12 (Firelands) as well as Baradin Hold.",
+					-- #endif
 				}),
 				n(3335, {	-- Hagrus <Reagents>
 					["coords"] = {
@@ -2894,6 +2897,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = HORDE_ONLY,
 					["groups"] = TIER_THIRTEEN_GROUPS,
+					-- #if AFTER 4.3.0
+					["description"] = "Sells gear related to Cataclysm raid tier 13 (Dragon Soul).",
+					-- #endif
 				}),
 				n(3410, {	-- Jin'sora <Bow Merchant>
 					["coord"] = { 77.8, 38.6, ORGRIMMAR },
@@ -4237,6 +4243,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_3_0 },
 					["races"] = HORDE_ONLY,
 					["groups"] = TIER_ELEVEN_GROUPS,
+					["description"] = "Sells gear related to Cataclysm raid tier 11 (Throne of the Four Winds, Blackwing Descent, and Bastion of Twilight) as well as Baradin Hold.",
 				}),
 				-- #if AFTER 10.0.5
 				n(3319, {	-- Sana <Mail Armor Merchant>
