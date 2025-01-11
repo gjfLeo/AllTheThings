@@ -14,7 +14,7 @@ struct = function(field, id, t)
 		print("Missing ID for",field,"group");
 	end
 	if t[field] and t[field] ~= id then
-		print("ERROR: Don't reuse tables within constructed objects! Fix Group: "..field..":"..id)
+		print("ERROR: Don't reuse tables within constructed objects! Fix Group: "..field..":"..id.." which has "..t[field].." already assigned!")
 	end
 	t[field] = id;
 	return t;
@@ -25,7 +25,7 @@ clone = function(t, c)
 	c = c or {};
 
 	for key,value in pairs(t) do
-		if not c[key] then
+		if c[key] == nil then
 			c[key] = type(value) == "table" and clone(value) or value;
 		end
 	end
