@@ -566,9 +566,32 @@ root(ROOTS.ExpansionFeatures,
 						}),
 					}),
 					n(TREASURES, sharedData({["isDaily"] = true},{
-						o(319222, {	-- Treasure Chest
+						o(319222, {	-- Darkshore Cache
 							["questID"] = 54880,
 							["coord"] = { 44.3, 53.4, DARKSHORE },
+						}),
+						o(320514, {	-- Darkshore Cache
+							["questID"] = 54908,
+							["coords"] = {
+								{ 58.4, 10.0, DARKSHORE },
+								{ 60.8, 22.2, DARKSHORE },
+							},
+						}),
+						o(320515, {	-- Darkshore Cache
+							["questID"] = 54909,
+							["coord"] = { 50.5, 22.8, DARKSHORE },
+						}),
+						o(320516, {	-- Darkshore Cache
+							["questID"] = 54910,
+							["coord"] = { 41.1, 41.6, DARKSHORE },
+						}),
+						o(320517, {	-- Darkshore Cache
+							["questID"] = 54911,
+							["coord"] = { 45.8, 44.1, DARKSHORE },
+						}),
+						o(320518, {	-- Darkshore Cache
+							["questID"] = 54912,
+							["coord"] = { 41.8, 84.6, DARKSHORE },
 						}),
 					})),
 					n(WORLD_QUESTS, sharedData({	-- Alliance
@@ -1640,6 +1663,26 @@ root(ROOTS.ExpansionFeatures,
 								}),
 							})),
 							n(SCENARIO_COMPLETION, {
+								-- 1 SourceIDs: Weapons (3/5/6/23)
+								-- 2 SourceIDs: Cloaks/Armor (3/5) (6/23)
+								-- 1 VisualIDs: Cloaks (3/5/6/23)
+								-- 2 VisualIDs: Armor (3/5) (6/23)
+
+								-- Sources (Confirmed:[x])
+								-- [ ] Normal Warfront Victory (3)
+								-- [x] Rares/Treasures (3)
+								-- [ ] Normal Quest (6)
+								-- [ ] Heroic Quest (23)
+
+								-- Ideal Sources:
+								-- [ ] Rares/Treasures (3) [Cloaks/Armor/Weapons]
+								-- [ ] Normal Quest (6) [Cloaks/Armor]
+
+								-- Symlink/Additional Sources:
+								-- [ ] Normal Warfront Victory (3) [Cloaks/Armor/Weapons]
+								-- [ ] Normal Quest (6) [Weapons]
+								-- [ ] Heroic Quest (23) [Cloaks/Armor/Weapons]
+
 								["description"] = "These are obtained by winning the warfront and can be awarded multiple times a week.",
 								["g"] = bubbleDown({["modID"] = 3}, {
 									-- ALLIANCE SET --
@@ -1779,7 +1822,6 @@ root(ROOTS.ExpansionFeatures,
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
 	n(WAR_EFFORT, {
 		n(WARFRONT_BATTLE_FOR_DARKSHORE, {
-			q(54908),	-- Opening Darkshore Cache 60.8,22.2 (TODO: move to actual object above)
 			q(53801),	-- The Battle for Darkshore (Heroic, Horde)
 			q(53800),	-- Battle for Darkshore — triggered after defeating Sira Moonwarden in Darkshore warfront
 		}),

@@ -963,10 +963,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54877),	-- Opening a Darkshore chest
 		q(54879),	-- Opening a Darkshore chest
 		q(54881),	-- Opening a Darkshore chest
-		q(54909),	-- Opening a Darkshore chest
-		q(54910),	-- Opening a Darkshore chest
-		q(54911),	-- Opening a Darkshore chest
-		q(54912),	-- Opening a Darkshore chest
 		q(49695, {	-- immediately after channeling on the drum finishes during "A Tribute For Death"
 			["isWorldQuest"] = true, -- haunted HQT that shows in /attwq
 		}),
