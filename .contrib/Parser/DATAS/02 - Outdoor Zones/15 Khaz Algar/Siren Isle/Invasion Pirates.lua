@@ -103,16 +103,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["coord"] = { 59.7, 87.8, SIREN_ISLE },
 						["questID"] = 84799,
 					}),
-					-- The Forgotten Vault (non-storm, pirates theme)
-					n(228159, {	-- Gunnlod the Sea-Drinker
-						-- pirates
-						["description"] = "In non-Storm phase of the Vault.",
-						["coord"] = { 66.5, 55.9, 2375 },
-						["questID"] = 84797,
-						["g"] = {
-							i(235017),	-- Glittering Vault Shard (TOY!)
-						},
-					}),
 				})),
 				n(TREASURES, {
 					o(464233, {	-- Bilge Rat Supply Chest

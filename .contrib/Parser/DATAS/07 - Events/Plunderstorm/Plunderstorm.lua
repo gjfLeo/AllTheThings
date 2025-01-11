@@ -233,6 +233,10 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(41163),	-- Lord of the Bling
 			ach(41160),	-- It's a Plunderful Life
 		}),
+		filter(MISC, {
+			i(234423),	-- Keg-Leg's Silver Spoils
+			i(234424),	-- Keg-Leg's Bronze Spoils
+		}),
 		n(PLUNDERSTORE, {
 			filter(BATTLE_PETS, {
 				i(233251, {	-- Bubbles
@@ -440,6 +444,19 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 				i(170197, {	-- Swarthy Warning Sign
 					["cost"] = {{"c", PLUNDER, 500}},
 				}),
+			}),
+		}),
+		n(VENDORS, {
+			n(219760, {	-- Da'kash Grimledger <Quartermaster>
+				["coord"] = { 57.1, 61.6, DORNOGAL },
+				["groups"] = {
+					i(234450, {	-- Pirate's Booty
+						["cost"] = { {"i", 234423, 1} },	-- 1x Keg-Leg's Silver Spoils
+					}),
+					i(234453, {	-- Swabbie's Lockbox
+						["cost"] = { {"i", 234424, 1} },	-- 1x Keg-Leg's Bronze Spoils
+					}),
+				},
 			}),
 		}),
 	}),

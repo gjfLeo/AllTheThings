@@ -1849,10 +1849,6 @@ root(ROOTS.Unsorted, {
 
 				-- Plunderstorm?
 				i(234422),	-- Storm-Singed Plunder
-				i(234423),	-- Keg-Leg's Silver Spoils
-				i(234424),	-- Keg-Leg's Bronze Spoils
-				i(234450),	-- Pirate's Booty
-				i(234453),	-- Swabbie's Lockbox
 				i(234470),	-- Forgemaster's Focus
 
 				-- Plunderstorm Abilities?

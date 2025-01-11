@@ -141,6 +141,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 37.2, 21.8, SIREN_ISLE },
 				["questID"] = 84796,
 			}),
+			n(228159, {	-- Gunnlod the Sea-Drinker
+				["description"] = "In non-Storm phase of the Vault.",
+				["coord"] = { 66.5, 55.9, 2375 },
+				["questID"] = 84797,
+				["g"] = {
+					i(235017),	-- Glittering Vault Shard (TOY!)
+				},
+			}),
 			n(229982, {	-- Nerathor
 				["description"] = "Available during The Drowned Lair objective",
 				["coord"] = { 27.3, 65.5, SIREN_ISLE },
