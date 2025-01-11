@@ -187,7 +187,7 @@ local function GetMapName(mapID)
 	end
 end
 local function GetPlayerPosition()
-	local mapID = app.CurrentMapID;
+	local mapID = app.RealMapID;
 	if mapID then
 		local pos = C_Map_GetPlayerMapPosition(mapID, "player");
 		if pos then
