@@ -29,21 +29,25 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					n(213114, {	-- Memory of Landeron Felfury
 						["name"] = "Step 2. Watch RP located in cave at Broken Shore.",
 						["questID"] = 78622,
+						["sourceQuest"] = 78606,
 						["coord"] = { 71.6, 41.5, BROKEN_SHORE },
 					}),
 					n(213186, {	-- Memory of Landeron Felfury
 						["name"] = "Step 3. Watch RP located in Temple of Elune in Val'sharah.",
 						["questID"] = 78623,
+						["sourceQuest"] = 78622,
 						["coord"] = { 51.2, 56.8, VALSHARAH },
 					}),
 					n(213308, {	-- Warglaive
 						["name"] = "Step 4. Wait when deer bring warglaive and interact with it.",
 						["questID"] = 78677,
+						["sourceQuest"] = 78623,
 						["coord"] = { 51.1, 57.1, VALSHARAH },
 					}),
 					n(213381, {	-- Warglaive
 						["name"] = "Step 5. Interact with warglaive again and loot Alara'shinu.",
 						["questID"] = 78678,
+						["sourceQuest"] = 78677,
 						["coord"] = { 51.1, 57.1, VALSHARAH },
 						["g"] = {
 							i(210961),	-- Alara'shinu
