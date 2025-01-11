@@ -826,6 +826,33 @@ local function GetLinkTooltipInfo(sourceGroup, useItemIDs, sameItem)
 	}
 end
 
+-- If data for an Item group is modified in certain ways, we may need to refresh that group
+-- This also may take multiple frames since it may rely on SourceID or game API results which are not yet available
+app.RefreshItemGroup = function(item)
+	if not item or type(item) ~= "table" or not item.itemID then return end
+
+	-- reset dynamic item group information
+	item.hash = nil
+	item.modItemID = nil
+	item.rawlink = nil
+	item.link = nil
+
+	if item.sourceID then
+		-- app.PrintDebug("RefreshItemGroup.sourceID",item.hash,item.sourceID,"=>",app.GetSourceID(item.link))
+		local sourceID, success = GetSourceID(item.link)
+		if not success then
+			-- app.PrintDebug("RefreshItemGroup.FR")
+			app.FunctionRunner.Run(app.RefreshItemGroup, item)
+			return
+		end
+		if sourceID ~= item.sourceID then
+			-- app.PrintDebug("RefreshItemGroup.newsourceID",app:SearchLink(item),sourceID)
+			item.sourceID = sourceID
+			app.DirectGroupUpdate(item)
+		end
+	end
+end
+
 -- InformationType Functionality
 local function AddSourceInformation(sourceID, info, sourceGroup)
 	local sourceInfo = sourceID and C_TransmogCollection_GetSourceInfo(sourceID);
