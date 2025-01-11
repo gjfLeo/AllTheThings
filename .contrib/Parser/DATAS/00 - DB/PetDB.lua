@@ -4315,9 +4315,19 @@ i(232859, 4653);	-- Lab Rat
 i(232840, 4661);	-- Mechagopher
 i(232841, 4644);	-- Professor Punch
 i(232851, 4641);	-- Rocketfist
+i(232895, 4701);	-- Spotty
 i(232846, 4648);	-- Steamwheedle Flunkie
 i(232849, 4650);	-- Venture Companyman
+i(232839, 4637);	-- Wavebreaker Mechasaur
 --- NPC ---
+n(231550, 4656);	-- Bombshell Crab
+n(231570, 4658);	-- Cave Crab
+n(231574, 4660);	-- Paleshell Crab
+n(231686, 4668);	-- Ultrahopper EX
+n(231481, 4654);	-- Underroach
+n(231577, 4662);	-- Varmint MK II
+n(231567, 4657);	-- Venture Bombshell
+n(231477, 4651);	-- Wily Rat
 --- UNSORTED ---
 --i(???, 4739);	-- Fancier Rat
 i(232855, 4631);	-- Foreman
@@ -4331,15 +4341,11 @@ i(232848, 4647);	-- Mr. DELVER
 i(232852, 4636);	-- Mutt
 i(232847, 4646);	-- Personal-Use Sapper
 i(232856, 4633);	-- Scruff
-i(232895, 4701);	-- Spotty
 --i(???, 4738);	-- Status Symbol
 i(232806, 4643);	-- Tiny Torq
 i(232838, 4639);	-- Viridian Mechasaur
-i(232839, 4637);	-- Wavebreaker Mechasaur
 --- UNSORTED WILD ---
-n(231550, 4656);	-- Bombshell Crab
 n(237713, 4741);	-- Cannoneer
-n(231570, 4658);	-- Cave Crab
 n(222420, 4484);	-- Frenzied Bloodtick
 n(222592, 4507);	-- Hemospore/Sporbit [Purple] (?)
 n(231572, 4659);	-- Kaja Crab
@@ -4352,7 +4358,3 @@ n(237719, 4746);	-- Sooty Croach
 n(231684, 4667);	-- Spring-Loaded Ribbitron
 n(237715, 4743);	-- Swabbie
 n(231616, 4666);	-- Tropical Frog
-n(231481, 4654);	-- Underroach
-n(231577, 4662);	-- Varmint MK II
-n(231567, 4657);	-- Venture Crab/Bombshell (?)
-n(231477, 4651);	-- Wily Rat

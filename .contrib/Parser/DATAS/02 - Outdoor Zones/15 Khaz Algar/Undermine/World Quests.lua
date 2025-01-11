@@ -8,6 +8,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85398, {	-- Bomb Voyage!
 					["coord"] = { 65.5, 15.2, UNDERMINE },
 				}),
+				q(85263, {	-- Boomball
+					["coord"] = { 66.0, 60.3, UNDERMINE },
+				}),
 				q(84948, {	-- Contract Work
 					-- This one is 'forge a pact'?
 					["coord"] = { 42.9, 52.3, UNDERMINE },
@@ -34,10 +37,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 43.7, 75.7, UNDERMINE },
 				}),
 				q(85474, {	-- Rat Pack Attack
-					["coord"] = { 36.6, 59.2, UNDERMINE },
+					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
 				}),
 				q(85400, {	-- Reduce, Re-ooze, Recycle
-					["coord"] = { 36.6, 59.2, UNDERMINE },
+					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
+				}),
+				q(85526, {	-- Scum Bag
+					["coord"] = { 36.2, 66.5, UNDERMINE },
 				}),
 				q(85397, {	-- What Plants Crave
 					["coord"] = { 65.2, 59.4, UNDERMINE },

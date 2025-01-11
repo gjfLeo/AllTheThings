@@ -8,10 +8,6 @@ root(ROOTS.Unsorted, {
 			n(ARMOR, {
 				-- Quest Rewards?
 				i(232440),	-- [PH] Boreal Crossbow
-				i(235619),	-- Bug Exterminator's Gloves
-				i(235620),	-- Bug Exterminator's Pants
-				i(235621),	-- Bug Exterminator's Belt
-				i(235622),	-- Bug Exterminator's Shoulderguards
 				i(235647),	-- Gold-Plated Carver
 				i(235648),	-- Gold-Plated Hatchet
 				i(235649),	-- Gold-Plated Battleaxe
@@ -213,7 +209,6 @@ root(ROOTS.Unsorted, {
 				i(232806),	-- Tiny Torq
 				i(232807),	-- Iron Chick
 				i(232838),	-- Viridian Mechasaur
-				i(232839),	-- Wavebreaker Mechasaur
 				i(232844),	-- Fuz-Size Flarendo
 				i(232847),	-- Personal-Use Sapper
 				i(232848),	-- Mr. DELVER
@@ -222,14 +217,12 @@ root(ROOTS.Unsorted, {
 				i(232855),	-- Foreman
 				i(232856),	-- Scruff
 				i(232857),	-- Goggles
-				i(232895),	-- Spotty
 				i(235909),	-- Gleam
 				i(235988),	-- Parley
 				i(235989),	-- Parley
 			}),
 			filter(COSMETIC, {
 				-- Cartel Cosmetics?
-				i(231528),	-- Blackwater Undermine Tabard
 				i(231550),	-- Darkfuse Lowdown Coat
 				i(231556),	-- Breakneck Cabbie's Coat
 				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
@@ -459,7 +452,6 @@ root(ROOTS.Unsorted, {
 				i(232980),	-- Axel Sneakfoot (MM!)
 				i(232979),	-- Jaks Jabberjaw (MM!)
 				i(232978),	-- Louie Firehands (MM!)
-				i(236671),	-- The Whole Brass Band (MM!)
 
 				-- Engines
 
@@ -472,13 +464,8 @@ root(ROOTS.Unsorted, {
 				-- Wheels
 				i(232985),	-- 22H Slicks (MM!)
 
-				-- Paint
-				i(235390),	-- Paint: Body Roll Blue (MM!)
-
 				-- Buil Turbos?
-				i(234416),	-- Steamboil Casing
 				i(234380),	-- Steamboil Fuel Tank
-				i(234386),	-- Handcrank Fuel Injector
 				i(234420),	-- Handcrank Mounting System
 
 
@@ -502,10 +489,7 @@ root(ROOTS.Unsorted, {
 				i(229422),	-- Undermine Equipment Chest
 				i(234729),	-- Cache of Undermine Treasures
 				i(234731),	-- Cache of Undermine Treasures
-				i(234744),	-- Blackwater's Trove (Honored)
 				i(235151),	-- Distinguished Actor's Chest
-				i(235260),	-- Blackwater's Trove (Revered)
-				i(235261),	-- Blackwater's Trove (Exalted)
 				i(235610),	-- Seasoned Adventurer's Cache
 				i(236689),	-- Finder's Fee
 				i(236756),	-- Socially Expected Tip Chest
@@ -563,7 +547,6 @@ root(ROOTS.Unsorted, {
 				i(236413),	-- "Shockproof" Soda
 
 				-- Valorstones
-				i(236953),	-- Crimson Valorstone
 				i(236955),	-- Crimson Valorstone
 				i(236956),	-- Void-Touched Valorstone
 
@@ -646,7 +629,6 @@ root(ROOTS.Unsorted, {
 				i(236681),	-- Liquid Gold
 			}),
 			filter(MOUNTS, {
-				mount(466019),	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
 				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
 				mount(468068),	-- Junkmaestro's Magnetomech (MOUNT!)
@@ -1262,7 +1244,6 @@ root(ROOTS.Unsorted, {
 				i(230799),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
 			}),
 			filter(QUEST_ITEMS, {
-				i(216915),	-- Excavator
 				i(225931),	-- Contract Fee
 				i(225971),	-- Feathered Pelt
 				i(226215),	-- Kaja'mite Powder
@@ -1276,8 +1257,6 @@ root(ROOTS.Unsorted, {
 				i(227540),	-- Skimmed Profits
 				i(227674),	-- Gobdre's Prized Pan
 				i(227702),	-- Crumpled Report (TRAINING, DNT)
-				i(228614),	-- Comprehend Rat Language Potion
-				i(228771),	-- Holey Grail
 				i(228794),	-- Purloined Loot
 				i(228822),	-- Burgled Art
 				i(228988),	-- Rock Reviver
@@ -1307,28 +1286,16 @@ root(ROOTS.Unsorted, {
 				i(236773),	-- Swallowed Kaja'mite
 			}),
 			n(RARES, {
-				i(232738),	-- Green Knight's Boots
-				i(232743),	-- Apprentice Knight's Shirt
-				i(232744),	-- Green Knight's Wristguards
-				i(232745),	-- Apprentice Knight's Belt
-				i(232753),	-- Green Knight's Helm
-				i(232754),	-- Apprentice Knight's Wristguards
-				i(232757),	-- Green Knight's Chestplate
-				i(232759),	-- Apprentice Knight's Sabatons
 				i(232764),	-- Pendant of Shrouded Secrets
 				i(232765),	-- Truthseeker's Necklace
 				i(232766),	-- Band of the Last Hope
 				i(232767),	-- Ring of the Last Gambit
 				i(232768),	-- Trigger-Sniffer's Hood
 				i(232769),	-- Stagecrasher's Gloves
-				i(232770),	-- Sewer Wanderer's Shoulderpads
 				i(232773),	-- Trigger-Sniffer's Spaulders
 				i(232774),	-- Stagecrasher's Wristband
-				i(232776),	-- Sewer Wanderer's Gloves
 				i(232778),	-- Stagecrasher's Shoulderguards
-				i(232781),	-- Sewer Wanderer's Bracers
 				i(232782),	-- Trigger-Sniffer's Greaves
-				i(232783),	-- Sewer Wanderer's Belt
 				i(232784),	-- Stagecrasher's Legguards
 				i(232786),	-- Trigger-Sniffer's Handwraps
 				i(235300),	-- Cloak of Mecha Shards
@@ -1609,8 +1576,6 @@ root(ROOTS.Unsorted, {
 				i(235784),	-- Chestguard of Winged Triumph
 			}),
 			filter(TOYS, {
-				i(235671),	-- Blackwater Cartel Banner
-				i(235801),	-- Personal Fishing Barge
 				i(236749),	-- Take-Home Torq
 				i(236751),	-- Take-Home Flarendo
 				i(234950),	-- Atomic Regoblinator

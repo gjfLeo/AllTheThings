@@ -1956,6 +1956,7 @@ i(233020, 472488);	-- Twilight Witch's Sweeper
 ------------------
 -- PATCH 11.1.0 --
 ------------------
+i(229948, 466019);	-- Blackwater Shredder Deluxe Mk 2
 i(229935, 465999);	-- Crimson Armored Growler
 i(0, 1217235);		-- Crimson Shreddertank
 i(229974, 466133);	-- Delver's Gob-Trotter
@@ -1968,7 +1969,6 @@ i(235626, 1217760);	-- The Big G
 i(229944, 466016);	-- The Topskimmer Special
 i(229936, 466002);	-- Violet Armored Growler
 --- UNSORTED ---
-i(0, 466019);		-- Blackwater Shredder Deluxe Mk 2
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(235662, 1218069);	-- Emerald Snail
 i(0, 468068);		-- Junkmaestro's Magnetomech

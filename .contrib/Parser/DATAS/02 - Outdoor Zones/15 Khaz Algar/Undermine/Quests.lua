@@ -947,7 +947,184 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			--- End of G.E.T.A.
- 
+			--- Oh, Rats! (missing highlight on map for it)
+			q(83484, {	-- Oh, Rats!
+				--["sourceQuests"] = { xx },	-- TODO: ??
+				["provider"] = { "n", 226728 },	-- Humphrey Shortswig
+				["coord"] = { 38.1, 88.4, UNDERMINE },
+				["g"] = {
+					i(228614),	-- Comprehend Rat Language Potion (QI!)
+				},
+			}),
+			q(83485, {	-- Potent Potables
+				["sourceQuests"] = { 83484 },	-- Oh, Rats!
+				["provider"] = { "n", 226710 },	-- Alice Grillspark
+				["coord"] = { 33.0, 84.3, UNDERMINE },
+				["g"] = {
+					i(228614),	-- Comprehend Rat Language Potion (QI!)
+				},
+			}),
+			q(83486, {	-- Remote Work
+				["sourceQuests"] = { 83485 },	-- Potent Potables
+				["provider"] = { "o", 454456 },	-- Note
+				["coord"] = { 32.4, 55.9, UNDERMINE },
+				["g"] = {
+					i(232783),	-- Sewer Wanderer's Belt
+					i(232781),	-- Sewer Wanderer's Bracers
+					i(232776),	-- Sewer Wanderer's Gloves
+					i(232770),	-- Sewer Wanderer's Shoulderpads
+				},
+			}),
+			q(83487, {	-- Occupational Hazard
+				["sourceQuests"] = { 83486 },	-- Remote Work
+				["provider"] = { "o", 466110 },	-- Getry's Pack
+				["coord"] = { 20.9, 58.8, ZULDAZAR },
+				["g"] = {
+					i(231369),	-- Redberry (QI!)
+					o(454311),	-- Redberry
+					o(454312),	-- Redberry
+				},
+			}),
+			q(85711, {	-- Unsolicited Feedback
+				["sourceQuests"] = { 83487 },	-- Occupational Hazard
+				["provider"] = { "n", 226728 },	-- Humphrey Shortswig
+				["coord"] = { 38.1, 88.4, UNDERMINE },
+				["g"] = {
+					i(232895),	-- Spotty (PET!)
+				},
+			}),
+			--- End of Oh, Rats!
+			--- The Verdigrease Knight
+			q(79559, {	-- The Verdigrease Knight
+				--["sourceQuests"] = { xx },	-- TODO: probably after chapter 1?
+				["provider"] = { "n", 230841 },	-- The Verdigrease Knight
+				["coord"] = { 72.2, 80.4, THE_RINGING_DEEPS },
+			}),
+			q(84621, {	-- Squire's Spurs
+				["sourceQuests"] = { 79559 },	-- The Verdigrease Knight
+				["provider"] = { "n", 218864 },	-- Gullhead
+				["coord"] = { 70.9, 78.5, THE_RINGING_DEEPS },
+			}),
+			q(84821, {	-- Biological Quintainment
+				["sourceQuests"] = { 84621 },	-- Squire's Spurs
+				["provider"] = { "n", 218866 },	-- Walkmay
+				["coord"] = { 70.9, 78.5, THE_RINGING_DEEPS },
+			}),
+			q(79561, {	-- Lord of the Giants
+				["sourceQuests"] = { 84621 },	-- Squire's Spurs
+				["provider"] = { "n", 218866 },	-- Walkmay
+				["coord"] = { 70.9, 78.5, THE_RINGING_DEEPS },
+				["g"] = {
+					i(232759),	-- Apprentice Knight's Sabatons
+					i(232743),	-- Apprentice Knight's Shirt
+					i(232754),	-- Apprentice Knight's Wristguards
+					i(232745),	-- Apprentice Knight's Belt
+				},
+			}),
+			q(80144, {	-- The Holey Grail
+				["sourceQuests"] = {
+					84821,	-- Biological Quintainment
+					79561,	-- Lord of the Giants
+				},
+				["provider"] = { "n", 218878 },	-- Marline
+				["coord"] = { 70.9, 78.4, THE_RINGING_DEEPS },
+				["g"] = {
+					i(228771),	-- Holey Grail (QI!)
+				},
+			}),
+			q(80096, {	-- The Shovel in the Stone
+				["sourceQuests"] = {
+					84821,	-- Biological Quintainment
+					79561,	-- Lord of the Giants
+				},
+				["provider"] = { "n", 218878 },	-- Marline
+				["coord"] = { 70.9, 78.4, THE_RINGING_DEEPS },
+				["g"] = {
+					i(216915),	-- Excavator (QI!)
+				},
+			}),
+			q(79564, {	-- The Verdigrease Knight Returns
+				["sourceQuests"] = {
+					80144,	-- The Holey Grail
+					80096,	-- The Shovel in the Stone
+				},
+				["provider"] = { "n", 216566 },	-- The Verdigrease Knight
+				["coord"] = { 71.0, 78.5, THE_RINGING_DEEPS },
+			}),
+			q(79563, {	-- Lady of the Lake
+				["sourceQuests"] = { 79564 },	-- The Verdigrease Knight Returns
+				["provider"] = { "n", 218837 },	-- Arfur
+				["coord"] = { 70.8, 78.4, THE_RINGING_DEEPS },
+				["g"] = {
+					i(232738),	-- Green Knight's Boots
+					i(232757),	-- Green Knight's Chestplate
+					i(232753),	-- Green Knight's Helm
+					i(232744),	-- Green Knight's Wristguards
+				},
+			}),
+			--- End of The Verdigrease Knight
+			--- Sanity's Rest
+			q(86271, {	-- Sanity's Rest
+				--["sourceQuests"] = { xx },	-- TODO: main story chapter 1?
+				["provider"] = { "n", 233420 },	-- Benny Gooserocket
+				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+			}),
+			q(86272, {	-- Counteracting the Black Blood
+				["sourceQuests"] = { 86271 },	-- Sanity's Rest
+				["provider"] = { "n", 234293 },	-- Stitchoaf
+				["coord"] = { 71.6, 96.9, THE_RINGING_DEEPS },
+			}),
+			q(86273, {	-- Visit to the Shop
+				["sourceQuests"] = { 86272 },	-- Counteracting the Black Blood
+				["provider"] = { "n", 234293 },	-- Stitchoaf
+				["coord"] = { 71.6, 96.9, THE_RINGING_DEEPS },
+			}),
+			q(86274, {	-- Automation Solution
+				["sourceQuests"] = { 86273 },	-- Visit to the Shop
+				["provider"] = { "n", 234294 },	-- Trixxie Boltcrank
+				["coord"] = { 71.4, 98.1, THE_RINGING_DEEPS },
+				["g"] = {
+					o(500640, {	-- Metal Scrap
+						i(233015),	-- Metal Scrap (QI!)
+					}),
+				},
+			}),
+			q(86275, {	-- Bug Exterminator Needed
+				["sourceQuests"] = { 86273 },	-- Visit to the Shop
+				["provider"] = { "n", 234294 },	-- Trixxie Boltcrank
+				["coord"] = { 71.4, 98.1, THE_RINGING_DEEPS },
+			}),
+			q(86575, {	-- Rocket Roll
+				["sourceQuests"] = {
+					86274,	-- Automation Solution
+					86275,	-- Bug Exterminator Needed
+				},
+				["provider"] = { "n", 234294 },	-- Trixxie Boltcrank
+				["coord"] = { 71.4, 98.1, THE_RINGING_DEEPS },
+			}),
+			q(86276, {	-- Out in the Fields
+				["sourceQuests"] = { 86575 },	-- Rocket Roll
+				["provider"] = { "n", 233420 },	-- Benny Gooserocket
+				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+			}),
+			q(86697, {	-- The Cleanup Crew
+				["sourceQuests"] = { 86575 },	-- Rocket Roll
+				["provider"] = { "n", 233420 },	-- Benny Gooserocket
+				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+			}),
+			q(86277, {	-- "Worm" Food No More
+				["sourceQuests"] = { 86575 },	-- Rocket Roll
+				["provider"] = { "n", 233420 },	-- Benny Gooserocket
+				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+				["g"] = {
+					i(235621),	-- Bug Exterminator's Belt
+					i(235619),	-- Bug Exterminator's Gloves
+					i(235620),	-- Bug Exterminator's Pants
+					i(235622),	-- Bug Exterminator's Shoulderguards
+				},
+			}),
+			--- End of Sanity's Rest
+			--- missing one quest chain for achievement 
 			-- Misc
 			-- Open portal in/from Dornogal
 			q(86535, {	-- Test Run (TODO: check if account wide)
@@ -1073,9 +1250,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
 				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
 				-- ??
-				q(85813),	-- after interact with Pipe Valve @ 39.1, 59.1
-				-- ???
-				q(84953),	-- after you open up WQs in zone/pickup one of 4 faction/Venture Co picked up
+				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
+				-- When you pick up one of 4 cartel faction for a week
+				--q(84951),	-- Bilgewater Cartel?
+				--q(84952),	-- Blackwater Cartel?
+				--q(84954),	-- Steamwheedle Cartel?
+				q(84953),	-- Venture Co.
 			}),
 		}),
 	}),

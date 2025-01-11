@@ -1,0 +1,62 @@
+﻿local ObjectDB = ObjectDB; for objectID,objectData in pairs({
+	[454311] = {
+		readable = "Redberry",
+		text = {
+			en = "Redberry",
+			es = "Redberry",
+			de = "Redberry",
+			fr = "Redberry",
+			it = "Redberry",
+			pt = "Redberry",
+			ru = "Redberry",
+			ko = "Redberry",
+			cn = "Redberry",
+		},
+	},
+	[454312] = {
+		readable = "Redberry",
+		model = 1586163,
+		text = {
+			en = "Redberry",
+			es = "Redberry",
+			de = "Redberry",
+			fr = "Redberry",
+			it = "Redberry",
+			pt = "Redberry",
+			ru = "Redberry",
+			ko = "Redberry",
+			cn = "Redberry",
+		},
+	},
+	[454456] = {
+		readable = "Note",
+		model = 943682,
+		text = {
+			en = "Note",
+			es = "Note",
+			de = "Note",
+			fr = "Note",
+			it = "Note",
+			pt = "Note",
+			ru = "Note",
+			ko = "Note",
+			cn = "Note",
+		},
+	},
+	[500640] = {
+		readable = "Metal Scrap",
+		model = 2068148,
+		text = {
+			en = "Metal Scrap",
+			es = "Metal Scrap",
+			de = "Metal Scrap",
+			fr = "Metal Scrap",
+			it = "Metal Scrap",
+			pt = "Metal Scrap",
+			ru = "Metal Scrap",
+			ko = "Metal Scrap",
+			cn = "Metal Scrap",
+		},
+	},
+})
+do ObjectDB[objectID] = objectData; end

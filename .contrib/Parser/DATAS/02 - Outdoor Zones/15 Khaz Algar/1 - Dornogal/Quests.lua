@@ -5,10 +5,30 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 	m(DORNOGAL, {
 		n(QUESTS, {
 			------ Miscellaneous ------
+			q(86401, {	-- Crests Transmutation
+				["sourceQuests"] = { 86399 },	-- Don't Undermine the Crests
+				["provider"] = { "n", 219226 },	-- Vaskarn
+				["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+				["coord"] = { 52.1, 42.2, DORNOGAL },
+				["g"] = {
+					i(236953),	-- Crimson Valorstone
+					i(231269),	-- Satchel of Carved Undermine Crests
+				},
+			}),
 			q(82747, {	-- Crossroads Plaza
 				["provider"] = { "n", 224544 },	-- Rannida
 				["coord"] = { 46.8, 33.0, DORNOGAL },
 				["isBreadcrumb"] = true,	-- but need to confirm
+			}),
+			q(86399, {	-- Don't Undermine the Crests
+				["sourceQuests"] = { 86396 },	-- The Best Part of Valorstones
+				["provider"] = { "n", 219226 },	-- Vaskarn
+				["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+				["coord"] = { 52.1, 42.2, DORNOGAL },
+				["g"] = {
+					i(236953),	-- Crimson Valorstone
+					i(231269),	-- Satchel of Carved Undermine Crests
+				},
 			}),
 			q(84438, {	-- Easy Win
 				["provider"] = { "n", 229128 },	-- Valeera Sanguinar
@@ -124,6 +144,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["provider"] = { "n", 226623 },	-- Biergoth
 				["coord"] = { 46.6, 48.2, DORNOGAL },
 			}),
+			q(86203, {	-- Operation: Floodgate
+				["provider"] = { "n", 226623 },	-- Biergoth
+				["coord"] = { 46.6, 48.2, DORNOGAL },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
 			q(83458, {	-- Priory of the Sacred Flame
 				["provider"] = { "n", 226623 },	-- Biergoth
 				["coord"] = { 46.6, 48.2, DORNOGAL },
@@ -184,6 +209,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(65440),	-- provided 15x Carved Harbinger Crest (spellID 446407 Satchel of Carved Harbinger Crests)
 				-- 83275 (Gear Enchanting)
 				q(85588),	-- provided ring + enchant (spellID 469629)
+				-- 86401 (Crests Transmutation)
+				q(86400),	-- provided 15x Carved Undermine Crest
 			}),
 		}),
 	}),

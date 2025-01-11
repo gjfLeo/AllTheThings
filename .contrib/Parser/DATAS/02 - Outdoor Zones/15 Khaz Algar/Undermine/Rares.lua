@@ -32,6 +32,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235348),	-- Back Alley Shank
 					i(234415),	-- Handcrank Casing
+					i(234416),	-- Steamboil Casing
 				},
 			}),
 			n(230931, {	-- Scrapbeak
@@ -70,6 +71,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84922,
 				["g"] = {
 					i(234417),	-- Handcrank Gears (could be shared between any rare or specific group?)
+					i(234386),	-- Handcrank Fuel Injector
 				},
 			}),
 			n(230828, {	-- Chief Foreman Gutso

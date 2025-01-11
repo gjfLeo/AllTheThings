@@ -487,6 +487,8 @@ i(232986, 85781);	-- GE86 Advance
 
 i(236672, 85785);	-- Lil' Squeaker
 i(236670, 85787);	-- Maniacal Melodies
+i(236671, 85786);	-- The Whole Brass Band
+i(235390, 86771);	-- Paint: Body Roll Blue
 i(235389, 86772);	-- Paint: Goblin Green
 i(235388, 86773);	-- Paint: Redlining Red
 i(235391, 86774);	-- Paint: Yellow Cake Yellow
@@ -506,11 +508,9 @@ i(233196, 86296);	-- Delver's Gob-Trotter Schematic: Gold
 i(232980, 85787);	-- Axel Sneakfoot
 i(232979, 85785);	-- Jaks Jabberjaw
 i(232978, 85786);	-- Louie Firehands
-i(236671, 85786);	-- The Whole Brass Band
 
 i(232981, 85776);	-- GNZ Airmaster 9000
 i(232983, 85783);	-- Steamboil
 i(232984, 85784);	-- Handcrank
 i(232985, 85782);	-- 22H Slicks
-i(235390, 86771);	-- Paint: Body Roll Blue
 
