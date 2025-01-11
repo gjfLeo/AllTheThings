@@ -305,6 +305,7 @@ MobileDB.GameObject = {
 	[387729] = true,	-- Magma Crystal (q:74518)
 	[401844] = true,	-- Smelly Trash Pile
 	[403458] = true,	-- Dauntless Draught
+	[404923] = true,	-- Lost Chest (Hallowfall)
 	[405303] = true,	-- Dreamseed Cache
 	[405320] = true,	-- Dreamseed Cache
 	[405321] = true,	-- Dreamseed Cache
