@@ -49,6 +49,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 65.2, 59.4, UNDERMINE },
 				}),
 				-- Racings
+				q(85925, {	-- Breakneck Racing - Breakneck Bolt
+					["coord"] = { 24.8, 51.1, UNDERMINE },
+				}),
 				q(85926, {	-- Breakneck Racing - Junkyard Jaunt
 					["coord"] = { 43.2, 76.8, UNDERMINE },
 				}),

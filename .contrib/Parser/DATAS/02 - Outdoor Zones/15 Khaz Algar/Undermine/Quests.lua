@@ -1138,7 +1138,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.7, UNDERMINE },
 			}),
-			-- Not sure what it is currently
+			-- C.H.E.T.T.
 			q(87374, {	-- C.H.E.T.T.ing In
 				["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
 				["provider"] = { "n", 238029 },	-- C.H.E.T.T.
@@ -1231,21 +1231,26 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 		m(UNDERMINE, {
 			n(QUESTS, {
 				-- During main story
-				q(85463),	-- Cartel faction unlock
-				-- CHETT?
-				q(87296),	-- after you press 'I would like to new chett list' and give i(235053),	-- C.H.E.T.T. List
-				-- and roll set of quest in zone?
-				--q(86915),	-- Side with a Cartel
-				--q(86919),	-- Side Gig
-				--q(86920),	-- War Mode Violence
-				--q(87307),	-- Garbage Day
-				--q(87305),	-- Desire to D.R.I.V.E.
-				--q(86917),	-- Ship Right
-				--q(86923),	-- Go Fish
-				--q(87304),	-- Time to Vacate
-				-- Bonus objective during DRIVE?
-				--q(86318),	-- Tailgater Troubles
+				q(85463),	-- [DNT] The Cartels of Undermine Renown Unlock (spellID 1213980)
+				-- CHETT
+				q(87296),	-- C.H.E.T.T. List (spellID 1219077)
+				-- Bonus objective during DRIVE? Probably gonna throw under special header too
+				-- Temporary sorting via questID for easy and quick check up new one
+				--q(83055),	-- Signed, Sealed
+				--q(84788),	-- Hotrocket Hot Dogs
+				--q(85732),	-- Express Extermination
+				--q(85733),	-- Daquiri Disaster
+				--q(85758),	-- Sweeping Up
+				--q(85769),	-- The Party Must Go On
+				--q(85826),	-- Granny Crossing
 				--q(85861),	-- Rug Monster!!!
+				--q(85874, {i(232619),}),	-- Goldfish Rescue (+ Gary the Goldfish (QI!))
+				--q(85888),	-- Artistic License
+				--q(86315),	-- Chaos in the Streets
+				--q(86318),	-- Tailgater Troubles
+				--q(86320),	-- Bully For You!
+				--q(86321),	-- Door to Door
+				--q(86410),	-- Slime Wranglin'
 				-- Special Assigment Unlock trackers
 				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
 				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))

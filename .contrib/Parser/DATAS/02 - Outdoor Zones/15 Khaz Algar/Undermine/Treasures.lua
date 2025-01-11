@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			o(502917, {	-- Misplaced Work Order [lore]
 				["coord"] = { 65.6, 14.2, UNDERMINE },
-				--["questID"] = xx,	-- currently missing hqt
+				--["questID"] = 86568,	-- currently missing hqt (spellID 1214841)
 			}),
 			o(476070, {	-- Potent Potable
 				["coord"] = { 69.6, 21.4, UNDERMINE },

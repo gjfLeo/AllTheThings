@@ -7,8 +7,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			{		-- RENOWN 1 --
 			}, {	-- RENOWN 2 --
 			}, {	-- RENOWN 3 --
+				q(86934, {	-- Trash to Profit
+					["provider"] = { "n", 237649 },	-- Renzi Boltcutter
+					["coord"] = { 42.8, 50.4, UNDERMINE },
+				}),
+				q(86935, {	-- On-the-Job Training
+					["sourceQuests"] = { 86934 },	-- Trash to Profit
+					["provider"] = { "n", 237659 },	-- Carlo Greasegrind
+					["coord"] = { 26.6, 37.2, UNDERMINE },
+				}),
 			}, {	-- RENOWN 4 --
+				q(85815, {	-- A Small Pouch of Crystals
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+				}),
 			}, {	-- RENOWN 5 --
+				q(85816, {	-- Valorstones
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+				}),
 			}, {	-- RENOWN 6 --
 			}, {	-- RENOWN 7 --
 			}, {	-- RENOWN 8 --
