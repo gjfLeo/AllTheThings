@@ -23,6 +23,7 @@ i(102144);	-- Kor'kron Cage Key
 i(118067);	-- Old Chain Link
 i(180786);	-- Empty Binding
 -- Legion
+i(138293);	-- Explorer's Pack
 i(139398);	-- Pant Loaf
 i(147348);	-- Bulky Armor Set
 i(147349);	-- Spiked Armor Set
