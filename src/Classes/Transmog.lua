@@ -838,9 +838,9 @@ app.RefreshItemGroup = function(item)
 	item.link = nil
 
 	if item.sourceID then
-		-- app.PrintDebug("RefreshItemGroup.sourceID",item.hash,item.sourceID,"=>",app.GetSourceID(item.link))
+		-- app.PrintDebug("RefreshItemGroup.sourceID",item.hash,item.sourceID,"=>",GetSourceID(item.link))
 		local sourceID, success = GetSourceID(item.link)
-		if not success then
+		if not sourceID or not success then
 			-- app.PrintDebug("RefreshItemGroup.FR")
 			app.FunctionRunner.Run(app.RefreshItemGroup, item)
 			return

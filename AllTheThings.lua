@@ -1845,8 +1845,10 @@ ResolveSymbolicLink = function(o)
 			cloned[#cloned + 1] = clone
 
 			-- Apply any modID if necessary
-			if FinalizeModID and clone.itemID then
+			if FinalizeModID and clone.itemID and clone.modID ~= FinalizeModID then
 				clone.modID = FinalizeModID;
+				-- refresh the item group since certain metadata may be different now
+				app.RefreshItemGroup(clone)
 			end
 			if PruneFinalized then
 				for _,field in ipairs(PruneFinalized) do
