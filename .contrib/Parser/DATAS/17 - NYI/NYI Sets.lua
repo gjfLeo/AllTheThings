@@ -11980,7 +11980,16 @@ root(ROOTS.NeverImplemented, n(SETS, {
 			n(SEASON_FORGED, {
 				n(PVP_ELITE, bubbleDownSelf({ ["bonusID"] = 7532 }, {
 					cl(DEATHKNIGHT, {
-						-- TODO
+						i(218651),	-- Forged Gladiator's Chestplate
+						i(218667),	-- Forged Gladiator's Drape
+						i(218663),	-- Forged Gladiator's Plate Greatbelt
+						i(218655),	-- Forged Gladiator's Plate Handguards
+						i(218657),	-- Forged Gladiator's Plate Helmet
+						i(218661),	-- Forged Gladiator's Plate Pauldrons
+						i(218653),	-- Forged Gladiator's Plate Stompers
+						i(218665),	-- Forged Gladiator's Plate Vambraces
+						i(218659),	-- Forged Gladiator's Plate Wargreaves
+						i(218668),	-- Forged Gladiator's Shawl
 					}),
 					cl(DEMONHUNTER, {
 						i(218547),	-- Forged Gladiator's Leather Shoulderpads

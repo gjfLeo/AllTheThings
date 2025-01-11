@@ -210,7 +210,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				-- 83275 (Gear Enchanting)
 				q(85588),	-- provided ring + enchant (spellID 469629)
 				-- 86401 (Crests Transmutation)
-				q(86400),	-- provided 15x Carved Undermine Crest
+				q(86400, {["timeline"] = {ADDED_11_1_0}}),	-- provided 15x Carved Undermine Crest
 			}),
 		}),
 	}),

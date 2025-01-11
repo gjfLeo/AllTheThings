@@ -612,26 +612,15 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 		n(PVP_ELITE, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 }, ["bonusID"] = 7532 }, {
 			n(CLASSES, {
 				cl(DEATHKNIGHT, {
-					-- TODO: Move 10 pieces into NYI
 					i(218650),	-- Forged Gladiator's Chestguard
-					i(218651),	-- Forged Gladiator's Chestplate
 					i(218666),	-- Forged Gladiator's Cloak
-					i(218667),	-- Forged Gladiator's Drape
 					i(218654),	-- Forged Gladiator's Plate Gauntlets
 					i(218662),	-- Forged Gladiator's Plate Girdle
-					i(218663),	-- Forged Gladiator's Plate Greatbelt
-					i(218655),	-- Forged Gladiator's Plate Handguards
 					i(218656),	-- Forged Gladiator's Plate Helm
-					i(218657),	-- Forged Gladiator's Plate Helmet
 					i(218658),	-- Forged Gladiator's Plate Legguards
-					i(218661),	-- Forged Gladiator's Plate Pauldrons
 					i(218660),	-- Forged Gladiator's Plate Shoulders
-					i(218653),	-- Forged Gladiator's Plate Stompers
-					i(218665),	-- Forged Gladiator's Plate Vambraces
 					i(218652),	-- Forged Gladiator's Plate Warboots
-					i(218659),	-- Forged Gladiator's Plate Wargreaves
 					i(218664),	-- Forged Gladiator's Plate Wristguards
-					i(218668),	-- Forged Gladiator's Shawl
 				}),
 				cl(DEMONHUNTER, {
 					i(218552),	-- Forged Gladiator's Cloak

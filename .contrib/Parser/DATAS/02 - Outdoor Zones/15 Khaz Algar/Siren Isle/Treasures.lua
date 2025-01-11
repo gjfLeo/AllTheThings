@@ -50,6 +50,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			o(505503, {	-- Ashvane Issued Workboots
 				["coord"] = { 41.7, 45.9, SIREN_ISLE },
 				["questID"] = 86766,
+				["lockCriteria"] = { 1, "sourceID", 231365 },
 				["g"] = {
 					i(233916),	-- Ashvane Issued Workboots (COSMETIC!)
 				},
@@ -57,6 +58,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			o(505510, {	-- Barnacle-Encrusted Chest
 				["coord"] = { 74.1, 53.2, SIREN_ISLE },
 				["questID"] = 86768,
+				["lockCriteria"] = { 1, "sourceID", 231359 },
 				["g"] = {
 					i(233910), -- Salt-Stained Sweatcap (COSMETIC!)
 				},
@@ -71,6 +73,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["description"] = "In cave.",
 				["coord"] = { 37.0, 53.1, SIREN_ISLE },
 				["questID"] = 87446,
+				["lockCriteria"] = { 1, "sourceID", 233955 },
 				["g"] = {
 					i(233955),	-- Iron Mining Pick (COSMETIC!)
 				},
