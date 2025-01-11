@@ -1,33 +1,39 @@
 -------------------------------------------------------------------
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
-local function GenerateRewardsSymlinkForModID(factionHeader, modID)
-	return {
+local function GenerateRewardsSymlinkForModID(factionHeader, modID, ...)
+	local sym = {
 		{"select", "headerID", WAR_EFFORT },	-- Find the War Effort Header
 		{"find", "mapID", ARATHI_HIGHLANDS },	-- Find Arathi Highlands
 		{"find", "headerID", COMMON_BOSS_DROPS},	-- Find the Common Boss Drop Header.
 		{"find", "headerID", factionHeader},	-- Select the Faction Header.
+		-- potential to select only specific sub-headers
 		{"extract","sourceID"},	-- Extract Sources
 		{"modID", modID},	-- Apply specific modID
 	};
+	if select("#",...) > 0 then
+		table.insert(sym, 5, {"pop"})
+		table.insert(sym, 6, {"whereany","headerID",...})
+	end
+	return sym
 end
-local ALLIANCE_WARFRONT_EQUIPMENT = {
-	i(163891),	-- 7th Legionnaire's Aegis
-	i(163884),	-- 7th Legionnaire's Battle Hammer
-	i(163892),	-- 7th Legionnaire's Censer
-	i(163890),	-- 7th Legionnaire's Claymore
-	i(163882),	-- 7th Legionnaire's Dagger
-	i(163885),	-- 7th Legionnaire's Halberd
-	i(163889),	-- 7th Legionnaire's Hand Cannon
-	i(163881),	-- 7th Legionnaire's Longbow
-	i(163887),	-- 7th Legionnaire's Longsword
-	i(163895),	-- 7th Legionnaire's Shield
-	i(166336),	-- 7th Legionnaire's Skullcleaver
-	i(163894),	-- 7th Legionnaire's Spellhammer
-	i(163886),	-- 7th Legionnaire's Stave
-	i(163888),	-- 7th Legionnaire's Wand
-	i(163893),	-- 7th Legionnaire's Warglaive
-	i(163883),	-- 7th Legionnaire's Warhammer
+local function GenerateSharedRewardsSymlinkForModID(modID, ...)
+	local sym = {
+		{"select", "headerID", WAR_EFFORT },	-- Find the War Effort Header
+		{"find", "mapID", ARATHI_HIGHLANDS },	-- Find Arathi Highlands
+		{"find", "headerID", COMMON_BOSS_DROPS},	-- Find the Common Boss Drop Header.
+		{"pop"},	-- Pop the CBD header.
+		{"pop"},	-- Pop both Faction Headers.
+		-- potential to select only specific sub-headers
+		{"extract","sourceID"},	-- Extract Sources
+		{"modID", modID},	-- Apply specific modID
+	};
+	if select("#",...) > 0 then
+		table.insert(sym, 6, {"whereany","headerID",...})
+	end
+	return sym
+end
+local ALLIANCE_WARFRONT_BACKS = {
 	i(163355, {	-- 7th Legionnaire's Bloody Drape
 		["classes"] = PLATE_CLASSES,
 	}),
@@ -40,6 +46,8 @@ local ALLIANCE_WARFRONT_EQUIPMENT = {
 	i(163246, {	-- 7th Legionnaire's Silk Cloak
 		["classes"] = CLOTH_CLASSES,
 	}),
+}
+local ALLIANCE_WARFRONT_ARMOR = {
 	i(163339),	-- 7th Legionnaire's Hood
 	i(163337),	-- 7th Legionnaire's Amice
 	i(163248),	-- 7th Legionnaire's Robes
@@ -72,24 +80,26 @@ local ALLIANCE_WARFRONT_EQUIPMENT = {
 	i(163422),	-- 7th Legionnaire's Greatbelt
 	i(163409),	-- 7th Legionnaire's Legguards
 	i(163421),	-- 7th Legionnaire's Greaves
-};
-local HORDE_WARFRONT_EQUIPMENT = {
-	i(163878),	-- Honorbound Barrier
-	i(163870),	-- Honorbound Bonebreaker
-	i(163868),	-- Honorbound Dagger
-	i(163874),	-- Honorbound Decapitator
-	i(163876),	-- Honorbound Focus
-	i(163880),	-- Honorbound Gladius
-	i(163867),	-- Honorbound Longbow
-	i(163871),	-- Honorbound Pigsticker
-	i(163879),	-- Honorbound Portable Cannon
-	i(163875),	-- Honorbound Protectorate
-	i(163866),	-- Honorbound Skullcleaver
-	i(163869),	-- Honorbound Skullcrusher
-	i(163873),	-- Honorbound Wand
-	i(163872),	-- Honorbound War Staff
-	i(163877),	-- Honorbound Warglaive
-	i(166337),	-- Honorbound Warhammer
+}
+local ALLIANCE_WARFRONT_WEAPONS = {
+	i(163891),	-- 7th Legionnaire's Aegis
+	i(163884),	-- 7th Legionnaire's Battle Hammer
+	i(163892),	-- 7th Legionnaire's Censer
+	i(163890),	-- 7th Legionnaire's Claymore
+	i(163882),	-- 7th Legionnaire's Dagger
+	i(163885),	-- 7th Legionnaire's Halberd
+	i(163889),	-- 7th Legionnaire's Hand Cannon
+	i(163881),	-- 7th Legionnaire's Longbow
+	i(163887),	-- 7th Legionnaire's Longsword
+	i(163895),	-- 7th Legionnaire's Shield
+	i(166336),	-- 7th Legionnaire's Skullcleaver
+	i(163894),	-- 7th Legionnaire's Spellhammer
+	i(163886),	-- 7th Legionnaire's Stave
+	i(163888),	-- 7th Legionnaire's Wand
+	i(163893),	-- 7th Legionnaire's Warglaive
+	i(163883),	-- 7th Legionnaire's Warhammer
+}
+local HORDE_WARFRONT_BACKS = {
 	i(163357, {	-- Honorbound Artificer's Cloak
 		["classes"] = CLOTH_CLASSES,
 	}),
@@ -102,6 +112,8 @@ local HORDE_WARFRONT_EQUIPMENT = {
 	i(163366, {	-- Honorbound Vanguard's Cloak
 		["classes"] = MAIL_CLASSES,
 	}),
+}
+local HORDE_WARFRONT_ARMOR = {
 	i(163426),	-- Honorbound Artificer's Guise
 	i(163424),	-- Honorbound Artificer's Amice
 	i(163280),	-- Honorbound Artificer's Robes
@@ -134,7 +146,25 @@ local HORDE_WARFRONT_EQUIPMENT = {
 	i(163461),	-- Honorbound Centurion's Greatbelt
 	i(163455),	-- Honorbound Centurion's Legplates
 	i(163460),	-- Honorbound Centurion's Greaves
-};
+}
+local HORDE_WARFRONT_WEAPONS = {
+	i(163878),	-- Honorbound Barrier
+	i(163870),	-- Honorbound Bonebreaker
+	i(163868),	-- Honorbound Dagger
+	i(163874),	-- Honorbound Decapitator
+	i(163876),	-- Honorbound Focus
+	i(163880),	-- Honorbound Gladius
+	i(163867),	-- Honorbound Longbow
+	i(163871),	-- Honorbound Pigsticker
+	i(163879),	-- Honorbound Portable Cannon
+	i(163875),	-- Honorbound Protectorate
+	i(163866),	-- Honorbound Skullcleaver
+	i(163869),	-- Honorbound Skullcrusher
+	i(163873),	-- Honorbound Wand
+	i(163872),	-- Honorbound War Staff
+	i(163877),	-- Honorbound Warglaive
+	i(166337),	-- Honorbound Warhammer
+}
 root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.BFA, {
 		n(WAR_EFFORT, {
@@ -235,8 +265,14 @@ root(ROOTS.ExpansionFeatures,
 							142682,	-- Zalas Witherbark <Warband Leader>
 						},
 						["g"] = {
-							n(FACTION_HEADER_ALLIANCE, ALLIANCE_WARFRONT_EQUIPMENT),
-							n(FACTION_HEADER_HORDE, HORDE_WARFRONT_EQUIPMENT),
+							-- Alliance
+							n(FACTION_HEADER_ALLIANCE, { n(BACK, clone(ALLIANCE_WARFRONT_BACKS))}),
+							n(FACTION_HEADER_ALLIANCE, { n(ARMOR, clone(ALLIANCE_WARFRONT_ARMOR))}),
+							n(FACTION_HEADER_ALLIANCE, { n(WEAPONS, clone(ALLIANCE_WARFRONT_WEAPONS))}),
+							-- Horde
+							n(FACTION_HEADER_HORDE, { n(BACK, clone(HORDE_WARFRONT_BACKS))}),
+							n(FACTION_HEADER_HORDE, { n(ARMOR, clone(HORDE_WARFRONT_ARMOR))}),
+							n(FACTION_HEADER_HORDE, { n(WEAPONS, clone(HORDE_WARFRONT_WEAPONS))}),
 						},
 					}),
 					n(RARES, {
@@ -1077,70 +1113,15 @@ root(ROOTS.ExpansionFeatures,
 									["_drop"] = { "g" }, -- bnet api has horde box
 									["g"] = {
 										i(169197, {	-- Warfronts Equipment Cache
-											["modID"] = 23,	-- iLvl 430
-											["groups"] = {
-												-- ALLIANCE SET --
-												i(163891),	-- 7th Legionnaire's Aegis
-												i(163884),	-- 7th Legionnaire's Battle Hammer
-												i(163892),	-- 7th Legionnaire's Censer
-												i(163890),	-- 7th Legionnaire's Claymore
-												i(163882),	-- 7th Legionnaire's Dagger
-												i(163885),	-- 7th Legionnaire's Halberd
-												i(163889),	-- 7th Legionnaire's Hand Cannon
-												i(163881),	-- 7th Legionnaire's Longbow
-												i(163887),	-- 7th Legionnaire's Longsword
-												i(163895),	-- 7th Legionnaire's Shield
-												i(166336),	-- 7th Legionnaire's Skullcleaver
-												i(163894),	-- 7th Legionnaire's Spellhammer
-												i(163886),	-- 7th Legionnaire's Stave
-												i(163888),	-- 7th Legionnaire's Wand
-												i(163893),	-- 7th Legionnaire's Warglaive
-												i(163883),	-- 7th Legionnaire's Warhammer
-												i(163246, {	-- 7th Legionnaire's Silk Cloak
-													["classes"] = CLOTH_CLASSES,
-												}),
-												i(163347, {	-- 7th Legionnaire's Long Cloak
-													["classes"] = LEATHER_CLASSES,
-												}),
-												i(163351, {	-- 7th Legionnaire's Chain Drape
-													["classes"] = MAIL_CLASSES,
-												}),
-												i(163355, {	-- 7th Legionnaire's Bloody Drape
-													["classes"] = PLATE_CLASSES,
-												}),
-												i(163339),	-- 7th Legionnaire's Hood
-												i(163337),	-- 7th Legionnaire's Amice
-												i(163248),	-- 7th Legionnaire's Robes
-												i(163275),	-- 7th Legionnaire's Cuffs
-												i(163341),	-- 7th Legionnaire's Handwraps
-												i(163342),	-- 7th Legionnaire's Cord
-												i(163264),	-- 7th Legionnaire's Legwraps
-												i(163253),	-- 7th Legionnaire's Slippers
-												i(163380),	-- 7th Legionnaire's Visage
-												i(163377),	-- 7th Legionnaire's Leather Mantle
-												i(163251),	-- 7th Legionnaire's Vest
-												i(163278),	-- 7th Legionnaire's Bracers
-												i(163256),	-- 7th Legionnaire's Gloves
-												i(163384),	-- 7th Legionnaire's Buckle
-												i(163266),	-- 7th Legionnaire's Britches
-												i(163383),	-- 7th Legionnaire's Boots
-												i(163394),	-- 7th Legionnaire's Helm
-												i(163389),	-- 7th Legionnaire's Monnion
-												i(163398),	-- 7th Legionnaire's Chainmail
-												i(163277),	-- 7th Legionnaire's Bindings
-												i(163397),	-- 7th Legionnaire's Handguards
-												i(163401),	-- 7th Legionnaire's Cincture
-												i(163265),	-- 7th Legionnaire's Leggings
-												i(163400),	-- 7th Legionnaire's Sabatons
-												i(163410),	-- 7th Legionnaire's Headpiece
-												i(163405),	-- 7th Legionnaire's Shoulderplates
-												i(163418),	-- 7th Legionnaire's Chestguard
-												i(163403),	-- 7th Legionnaire's Armguards
-												i(163414),	-- 7th Legionnaire's Gauntlets
-												i(163422),	-- 7th Legionnaire's Greatbelt
-												i(163409),	-- 7th Legionnaire's Legguards
-												i(163421),	-- 7th Legionnaire's Greaves
-											},
+											n(BACK, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 23, BACK),
+											}),
+											n(ARMOR, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 23, ARMOR),
+											}),
+											n(WEAPONS, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 23, WEAPONS),
+											}),
 										}),
 									},
 								}),
@@ -1164,7 +1145,14 @@ root(ROOTS.ExpansionFeatures,
 									["_drop"] = { "g" }, -- bnet api has horde box
 									["g"] = {
 										i(164578, {	-- Warfronts Equipment Cache
-											["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 6),	-- iLvl 370
+											["modID"] = 6,
+											["g"] = {
+												n(BACK, clone(ALLIANCE_WARFRONT_BACKS)),
+												n(ARMOR, clone(ALLIANCE_WARFRONT_ARMOR)),
+												n(WEAPONS, {
+													["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 6, WEAPONS),
+												}),
+											},
 										}),
 									},
 								}),
@@ -1389,70 +1377,15 @@ root(ROOTS.ExpansionFeatures,
 									["isWeekly"] = true,
 									["g"] = {
 										i(169196, {	-- Warfronts Equipment Cache
-											["modID"] = 23,	-- iLvl 430
-											["groups"] = {
-												-- HORDE SET --
-												i(163878),	-- Honorbound Barrier
-												i(163870),	-- Honorbound Bonebreaker
-												i(163868),	-- Honorbound Dagger
-												i(163874),	-- Honorbound Decapitator
-												i(163876),	-- Honorbound Focus
-												i(163880),	-- Honorbound Gladius
-												i(163867),	-- Honorbound Longbow
-												i(163871),	-- Honorbound Pigsticker
-												i(163879),	-- Honorbound Portable Cannon
-												i(163875),	-- Honorbound Protectorate
-												i(163866),	-- Honorbound Skullcleaver
-												i(163869),	-- Honorbound Skullcrusher
-												i(163873),	-- Honorbound Wand
-												i(163872),	-- Honorbound War Staff
-												i(163877),	-- Honorbound Warglaive
-												i(166337),	-- Honorbound Warhammer
-												i(163357, {	-- Honorbound Artificer's Cloak
-													["classes"] = CLOTH_CLASSES,
-												}),
-												i(163360, {	-- Honorbound Outrider's Drape
-													["classes"] = LEATHER_CLASSES,
-												}),
-												i(163366, {	-- Honorbound Vanguard's Cloak
-													["classes"] = MAIL_CLASSES,
-												}),
-												i(163368, {	-- Honorbound Centurion's Long Cloak
-													["classes"] = PLATE_CLASSES,
-												}),
-												i(163426),	-- Honorbound Artificer's Guise
-												i(163424),	-- Honorbound Artificer's Amice
-												i(163280),	-- Honorbound Artificer's Robes
-												i(163306),	-- Honorbound Artificer's Cuffs
-												i(163428),	-- Honorbound Artificer's Mitts
-												i(163430),	-- Honorbound Artificer's Cord
-												i(163296),	-- Honorbound Artificer's Legwraps
-												i(163285),	-- Honorbound Artificer's Sandals
-												i(163435),	-- Honorbound Outrider's Headpiece
-												i(163432),	-- Honorbound Outrider's Shoulderguards
-												i(163283),	-- Honorbound Outrider's Tunic
-												i(163309),	-- Honorbound Outrider's Bracers
-												i(163437),	-- Honorbound Outrider's Gloves
-												i(163439),	-- Honorbound Outrider's Buckle
-												i(163298),	-- Honorbound Outrider's Pants
-												i(163438),	-- Honorbound Outrider's Boots
-												i(163446),	-- Honorbound Vanguard's Skullguard
-												i(163441),	-- Honorbound Vanguard's Shoulderguards
-												i(163282),	-- Honorbound Vanguard's Chainmail
-												i(163308),	-- Honorbound Vanguard's Bindings
-												i(163448),	-- Honorbound Vanguard's Handguards
-												i(163451),	-- Honorbound Vanguard's Clasp
-												i(163445),	-- Honorbound Vanguard's Leggings
-												i(163449),	-- Honorbound Vanguard's Sabatons
-												i(163456),	-- Honorbound Centurion's Greathelm
-												i(163453),	-- Honorbound Centurion's Shoulderplates
-												i(163459),	-- Honorbound Centurion's Breastplate
-												i(163307),	-- Honorbound Centurion's Vambraces
-												i(163458),	-- Honorbound Centurion's Gauntlets
-												i(163461),	-- Honorbound Centurion's Greatbelt
-												i(163455),	-- Honorbound Centurion's Legplates
-												i(163460),	-- Honorbound Centurion's Greaves
-											},
+											n(BACK, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_HORDE, 23, BACK),
+											}),
+											n(ARMOR, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_HORDE, 23, ARMOR),
+											}),
+											n(WEAPONS, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_HORDE, 23, WEAPONS),
+											}),
 										}),
 									},
 								}),
@@ -1481,7 +1414,14 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = HORDE_ONLY,
 									["g"] = {
 										i(164577, {	-- Warfronts Equipment Cache
-											["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_HORDE, 6),	-- iLvl 370
+											["modID"] = 6,
+											["g"] = {
+												n(BACK, clone(HORDE_WARFRONT_BACKS)),
+												n(ARMOR, clone(HORDE_WARFRONT_ARMOR)),
+												n(WEAPONS, {
+													["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_HORDE, 6, WEAPONS),
+												}),
+											},
 										}),
 									},
 								}),
@@ -1646,123 +1586,49 @@ root(ROOTS.ExpansionFeatures,
 								-- 3 SourceIDs: Cloaks, Armor (3) (5) (6/23)
 								-- 2 VisualIDs: Armor (3/5) (6/23)
 								-- 3 VisualIDs: Cloaks (3) (5) (6/23)
+
 								-- Sources:
 								-- Normal Warfront Victory (3)
-								-- Honorbound Emissary Equipment Box (5)
+								-- Honorbound/7th Legion Equipment Cache (5)
 								-- Incursion Equipment Box (5)
 								-- Rares/Treasures (5)
 								-- Normal Quest (6)
 								-- Heroic Quest (23)
+
+								-- Ideal Sources:
+								-- [x] Normal Warfront Victory (3) [Cloaks/Armor]
+								-- [x] Rares/Treasures (5) [Cloaks/Armor/Weapons]
+								-- [x] Normal Quest (6) [Cloaks/Armor]
+
+								-- Symlink/Additional Sources:
+								-- [x] Normal Warfront Victory (3) [Weapons]
+								-- [x] Honorbound/7th Legion Equipment Cache (5) [Cloaks/Armor/Weapons]
+								-- [x] Incursion Equipment Box (5) [Cloaks/Armor/Weapons]
+								-- [x] Normal Quest (6) [Weapons]
+								-- [x] Heroic Quest (23) [Cloaks/Armor/Weapons]
+
 								["description"] = "These are obtained by winning the warfront and can be awarded multiple times a week.",
-								["modID"] = 3,
 								["groups"] = {
-									-- ALLIANCE SET --
-									i(163891),	-- 7th Legionnaire's Aegis
-									i(163884),	-- 7th Legionnaire's Battle Hammer
-									i(163892),	-- 7th Legionnaire's Censer
-									i(163890),	-- 7th Legionnaire's Claymore
-									i(163882),	-- 7th Legionnaire's Dagger
-									i(163885),	-- 7th Legionnaire's Halberd
-									i(163889),	-- 7th Legionnaire's Hand Cannon
-									i(163881),	-- 7th Legionnaire's Longbow
-									i(163887),	-- 7th Legionnaire's Longsword
-									i(163895),	-- 7th Legionnaire's Shield
-									i(166336),	-- 7th Legionnaire's Skullcleaver
-									i(163894),	-- 7th Legionnaire's Spellhammer
-									i(163886),	-- 7th Legionnaire's Stave
-									i(163888),	-- 7th Legionnaire's Wand
-									i(163893),	-- 7th Legionnaire's Warglaive
-									i(163883),	-- 7th Legionnaire's Warhammer
-									i(163355),	-- 7th Legionnaire's Bloody Drape
-									i(163351),	-- 7th Legionnaire's Chain Drape
-									i(163347),	-- 7th Legionnaire's Long Cloak
-									i(163246),	-- 7th Legionnaire's Silk Cloak
-									i(163339),	-- 7th Legionnaire's Hood
-									i(163337),	-- 7th Legionnaire's Amice
-									i(163248),	-- 7th Legionnaire's Robes
-									i(163275),	-- 7th Legionnaire's Cuffs
-									i(163341),	-- 7th Legionnaire's Handwraps
-									i(163342),	-- 7th Legionnaire's Cord
-									i(163264),	-- 7th Legionnaire's Legwraps
-									i(163253),	-- 7th Legionnaire's Slippers
-									i(163380),	-- 7th Legionnaire's Visage
-									i(163377),	-- 7th Legionnaire's Leather Mantle
-									i(163251),	-- 7th Legionnaire's Vest
-									i(163278),	-- 7th Legionnaire's Bracers
-									i(163256),	-- 7th Legionnaire's Gloves
-									i(163384),	-- 7th Legionnaire's Buckle
-									i(163266),	-- 7th Legionnaire's Britches
-									i(163383),	-- 7th Legionnaire's Boots
-									i(163394),	-- 7th Legionnaire's Helm
-									i(163389),	-- 7th Legionnaire's Monnion
-									i(163398),	-- 7th Legionnaire's Chainmail
-									i(163277),	-- 7th Legionnaire's Bindings
-									i(163397),	-- 7th Legionnaire's Handguards
-									i(163401),	-- 7th Legionnaire's Cincture
-									i(163265),	-- 7th Legionnaire's Leggings
-									i(163400),	-- 7th Legionnaire's Sabatons
-									i(163410),	-- 7th Legionnaire's Headpiece
-									i(163405),	-- 7th Legionnaire's Shoulderplates
-									i(163418),	-- 7th Legionnaire's Chestguard
-									i(163403),	-- 7th Legionnaire's Armguards
-									i(163414),	-- 7th Legionnaire's Gauntlets
-									i(163422),	-- 7th Legionnaire's Greatbelt
-									i(163409),	-- 7th Legionnaire's Legguards
-									i(163421),	-- 7th Legionnaire's Greaves
-									-- HORDE SET --
-									i(163878),	-- Honorbound Barrier
-									i(163870),	-- Honorbound Bonebreaker
-									i(163868),	-- Honorbound Dagger
-									i(163874),	-- Honorbound Decapitator
-									i(163876),	-- Honorbound Focus
-									i(163880),	-- Honorbound Gladius
-									i(163867),	-- Honorbound Longbow
-									i(163871),	-- Honorbound Pigsticker
-									i(163879),	-- Honorbound Portable Cannon
-									i(163875),	-- Honorbound Protectorate
-									i(163866),	-- Honorbound Skullcleaver
-									i(163869),	-- Honorbound Skullcrusher
-									i(163873),	-- Honorbound Wand
-									i(163872),	-- Honorbound War Staff
-									i(163877),	-- Honorbound Warglaive
-									i(166337),	-- Honorbound Warhammer
-									i(170275),	-- Honorbound Warmaul
-									i(163357),	-- Honorbound Artificer's Cloak
-									i(163368),	-- Honorbound Centurion's Long Cloak
-									i(163360),	-- Honorbound Outrider's Drape
-									i(163366),	-- Honorbound Vanguard's Cloak
-									i(163426),	-- Honorbound Artificer's Guise
-									i(163424),	-- Honorbound Artificer's Amice
-									i(163280),	-- Honorbound Artificer's Robes
-									i(163306),	-- Honorbound Artificer's Cuffs
-									i(163428),	-- Honorbound Artificer's Mitts
-									i(163430),	-- Honorbound Artificer's Cord
-									i(163296),	-- Honorbound Artificer's Legwraps
-									i(163285),	-- Honorbound Artificer's Sandals
-									i(163435),	-- Honorbound Outrider's Headpiece
-									i(163432),	-- Honorbound Outrider's Shoulderguards
-									i(163283),	-- Honorbound Outrider's Tunic
-									i(163309),	-- Honorbound Outrider's Bracers
-									i(163437),	-- Honorbound Outrider's Gloves
-									i(163439),	-- Honorbound Outrider's Buckle
-									i(163298),	-- Honorbound Outrider's Pants
-									i(163438),	-- Honorbound Outrider's Boots
-									i(163446),	-- Honorbound Vanguard's Skullguard
-									i(163441),	-- Honorbound Vanguard's Shoulderguards
-									i(163282),	-- Honorbound Vanguard's Chainmail
-									i(163308),	-- Honorbound Vanguard's Bindings
-									i(163448),	-- Honorbound Vanguard's Handguards
-									i(163451),	-- Honorbound Vanguard's Clasp
-									i(163445),	-- Honorbound Vanguard's Leggings
-									i(163449),	-- Honorbound Vanguard's Sabatons
-									i(163456),	-- Honorbound Centurion's Greathelm
-									i(163453),	-- Honorbound Centurion's Shoulderplates
-									i(163459),	-- Honorbound Centurion's Breastplate
-									i(163307),	-- Honorbound Centurion's Vambraces
-									i(163458),	-- Honorbound Centurion's Gauntlets
-									i(163461),	-- Honorbound Centurion's Greatbelt
-									i(163455),	-- Honorbound Centurion's Legplates
-									i(163460),	-- Honorbound Centurion's Greaves
+									i(164578, {	-- Warfronts Equipment Cache [A]
+										["modID"] = 3,
+										["g"] = {
+											n(BACK, clone(ALLIANCE_WARFRONT_BACKS)),
+											n(ARMOR, clone(ALLIANCE_WARFRONT_ARMOR)),
+											n(WEAPONS, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_ALLIANCE, 6, WEAPONS),
+											}),
+										},
+									}),
+									i(164577, {	-- Warfronts Equipment Cache [H]
+										["modID"] = 3,
+										["g"] = {
+											n(BACK, clone(HORDE_WARFRONT_BACKS)),
+											n(ARMOR, clone(HORDE_WARFRONT_ARMOR)),
+											n(WEAPONS, {
+												["sym"] = GenerateRewardsSymlinkForModID(FACTION_HEADER_HORDE, 6, WEAPONS),
+											}),
+										},
+									}),
 								},
 							}),
 						},
