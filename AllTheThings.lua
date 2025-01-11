@@ -2307,7 +2307,7 @@ app.AddEventHandler("OnLoad", function()
 		HideCheckBox = true,
 		Process = function(t, reference, tooltipInfo)
 			local key = reference.key
-			local id = reference[key]
+			local id = key == "itemID" and reference.modItemID or reference[key]
 			if key and id and SourceShowKeys[key] then
 				if tooltipInfo.hasSourceLocations then return end
 				if AddSourceLinesForTooltip(tooltipInfo, key, id) then
