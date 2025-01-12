@@ -1122,7 +1122,12 @@ illusion = function(id, t)								-- Create an ILLUSION Object (only necessary f
 	return struct("illusionID", id, t);
 end
 ill = illusion;											-- Create an ILLUSION Object
-item = function(id, t)									-- Create an ITEM Object
+
+-- Create an ITEM Object
+---@param id number
+---@param t? table
+---@return table
+item = function(id, t)
 	return struct("itemID", id, t);
 end
 i = item;												-- Create an ITEM Object (alternative shortcut)
