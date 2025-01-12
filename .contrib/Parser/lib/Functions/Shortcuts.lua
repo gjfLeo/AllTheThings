@@ -3,7 +3,7 @@
 ---@param field string
 ---@param id number
 ---@param t? table
----@return table
+---@return table|nil
 struct = function(field, id, t)
 	if not t then t = {};
 	elseif (t.g or t.groups) and t[1] then
@@ -1126,7 +1126,7 @@ ill = illusion;											-- Create an ILLUSION Object
 -- Create an ITEM Object
 ---@param id number
 ---@param t? table
----@return table
+---@return table|nil
 item = function(id, t)
 	return struct("itemID", id, t);
 end
