@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["description"] = "In cave.",
 				["coord"] = { 37.0, 53.1, SIREN_ISLE },
 				["questID"] = 87446,
-				["lockCriteria"] = { 1, "sourceID", 233955 },
+				["lockCriteria"] = { 1, "sourceID", 231404 },
 				["g"] = {
 					i(233955),	-- Iron Mining Pick (COSMETIC!)
 				},
