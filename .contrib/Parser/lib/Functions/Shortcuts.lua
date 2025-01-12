@@ -1,10 +1,10 @@
 ---@diagnostic disable: lowercase-global
--- Construct a commonly formatted object.
+
 ---@param field string
 ---@param id number
 ---@param t? table
 ---@return table|nil
-struct = function(field, id, t)
+struct = function(field, id, t)		-- Construct a commonly formatted object.
 	if not t then t = {};
 	elseif (t.g or t.groups) and t[1] then
 		print("ERROR: Don't use 'g' or 'groups' with an array of objects! Fix Group: "..field..":"..id);
