@@ -23,8 +23,11 @@ struct = function(field, id, t)		-- Construct a commonly formatted object.
 	t[field] = id;
 	return t;
 end
--- Clone a piece of data as a separate table (t => c, return c)
-clone = function(t, c)
+
+---@param t table
+---@param c? table
+---@return table
+clone = function(t, c)	-- Clone a piece of data as a separate table (t => c, return c)
 	if type(t) ~= "table" then return t end
 	c = c or {};
 
