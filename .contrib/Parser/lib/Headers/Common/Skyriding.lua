@@ -12,3 +12,11 @@ SKYRIDING = createHeader({
 		en = WOWAPI_GetSpellName(415581),
 	},
 });
+-- TODO: Better icon and spell name for text
+DRIVE_RACING = createHeader({
+	readable = "D.R.I.V.E. Racing",
+	icon = 1100022,
+	text = {
+		en = "D.R.I.V.E. Racing",
+	},
+});

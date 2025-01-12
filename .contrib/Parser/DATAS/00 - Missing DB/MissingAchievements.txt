@@ -1,63 +1,9 @@
 11.1.0.58221
-ach(40912),	-- Skyrocketing Sprint: Bronze
-ach(40913),	-- Skyrocketing Sprint: Silver
-ach(40914),	-- Skyrocketing Sprint: Gold
-ach(40915),	-- Skyrocketing Sprint Reverse: Bronze
-ach(40916),	-- Skyrocketing Sprint Reverse: Silver
-ach(40917),	-- Skyrocketing Sprint Reverse: Gold
-ach(40918),	-- The Heaps Leap: Bronze
-ach(40919),	-- The Heaps Leap: Silver
-ach(40920),	-- The Heaps Leap: Gold
-ach(40921),	-- The Heaps Leap Reverse: Bronze
-ach(40922),	-- The Heaps Leap Reverse: Silver
-ach(40923),	-- The Heaps Leap Reverse: Gold
-ach(40924),	-- Scrapshop Shot: Bronze
-ach(40925),	-- Scrapshop Shot: Silver
-ach(40926),	-- Scrapshop Shot: Gold
-ach(40927),	-- Scrapshop Shot Reverse: Bronze
-ach(40928),	-- Scrapshop Shot Reverse: Silver
-ach(40929),	-- Scrapshop Shot Reverse: Gold
-ach(40930),	-- Rags to Riches Rush: Bronze
-ach(40931),	-- Rags to Riches Rush: Silver
-ach(40932),	-- Rags to Riches Rush: Gold
-ach(40933),	-- Rags to Riches Rush Reverse: Bronze
-ach(40934),	-- Rags to Riches Rush Reverse: Silver
-ach(40935),	-- Rags to Riches Rush Reverse: Gold
-ach(40936),	-- Undermine Skyrocketing: Bronze
-ach(40937),	-- Undermine Skyrocketing: Silver
-ach(40938),	-- Undermine Skyrocketing: Gold
 ach(40942),	-- Weathered of the Undermine
 ach(40943),	-- Carved of the Undermine
 ach(40944),	-- Runed of the Undermine
 ach(40945),	-- Gilded of the Undermine
 ach(40948),	-- Nine-Tenths of the Law
-ach(41057),	-- Breakneck Bolt: Bronze
-ach(41058),	-- Breakneck Bolt: Silver
-ach(41059),	-- Breakneck Bolt: Gold
-ach(41060),	-- Breakneck Bolt Reverse: Bronze
-ach(41061),	-- Breakneck Bolt Reverse: Silver
-ach(41062),	-- Breakneck Bolt Reverse: Gold
-ach(41063),	-- Junkyard Jaunt: Bronze
-ach(41064),	-- Junkyard Jaunt: Silver
-ach(41065),	-- Junkyard Jaunt: Gold
-ach(41066),	-- Junkyard Jaunt Reverse: Bronze
-ach(41067),	-- Junkyard Jaunt Reverse: Silver
-ach(41068),	-- Junkyard Jaunt Reverse: Gold
-ach(41069),	-- Casino Cruise: Bronze
-ach(41070),	-- Casino Cruise: Silver
-ach(41071),	-- Casino Cruise: Gold
-ach(41072),	-- Casino Cruise Reverse: Bronze
-ach(41073),	-- Casino Cruise Reverse: Silver
-ach(41074),	-- Casino Cruise Reverse: Gold
-ach(41075),	-- Sandy Scuttle: Bronze
-ach(41076),	-- Sandy Scuttle: Silver
-ach(41077),	-- Sandy Scuttle: Gold
-ach(41078),	-- Sandy Scuttle Reverse: Bronze
-ach(41079),	-- Sandy Scuttle Reverse: Silver
-ach(41080),	-- Sandy Scuttle Reverse: Gold
-ach(41081),	-- Undermine Breaknecking: Bronze
-ach(41083),	-- Undermine Breaknecking: Silver
-ach(41084),	-- Undermine Breaknecking: Gold
 ach(41092),	-- Undermine Safari
 ach(41095),	-- Delve Beyond
 ach(41096),	-- Delve Infinite

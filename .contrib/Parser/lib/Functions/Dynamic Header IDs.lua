@@ -114,6 +114,7 @@ HeaderAssignments = {
 	["Crimson Gladiator: Dragonflight Season 1"] = -1000914,
 	["Cruel Gladiator: Legion Season 3"] = -1000991,
 	["Curio"] = -1001014,
+	["D.R.I.V.E. Racing"] = -1001066,
 	["Daily Dreamway Event Roll"] = -1000329,
 	["Daily Event Roll"] = -1000316,
 	["Darkmoon Dance"] = -1000203,
@@ -547,4 +548,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001066;
+NextHeaderID = -1001067;
