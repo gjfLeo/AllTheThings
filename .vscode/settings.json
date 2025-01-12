@@ -22,5 +22,6 @@
     "Lua.workspace.ignoreDir": [
         ".vscode",
         "db"
-    ]
+    ],
+    "Lua.diagnostics.enable": false
 }
