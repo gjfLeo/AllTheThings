@@ -45,6 +45,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			crit(67597), -- Defeated Queen Ansurek on Heroic or Mythic difficulty
 			i(226206),	-- Mark of the Spelunker Supreme
 		})),
+		-- INFO: Verified 2025-01-12, shows no criteria without achraw
+		achraw(40911, bubbleDownSelf({ ["timeline"] = { REMOVED_11_2_0 }, }, {	-- The War Within Season 2: Master Blaster
+			crit(70046), -- Attained 1600+ Rated PVP rating
+			crit(70053), -- Attained 2000+ Mythic Plus rating
+			crit(70052), -- Defeated Gallywix on Heroic or Mythic difficulty
+			i(236877),	-- Crystallized Essence of Kaja'mite
+		})),
 		ach(40723, {	-- Web-Wrapped in the Finest Silks (automated)
 			["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {

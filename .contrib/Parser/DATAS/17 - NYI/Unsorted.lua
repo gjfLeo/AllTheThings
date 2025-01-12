@@ -503,7 +503,6 @@ root(ROOTS.Unsorted, {
 				-- From Meta Achievements
 				i(230017),	-- Master Blaster's Insignia
 				i(236852),	-- Gallagio Highroller's Boomstone
-				i(236877),	-- Crystallized Essence of Kaja'mite
 				-- Probably Delves
 				i(232068),	-- Adventurer's Warbound Chestpiece
 				i(232069),	-- Adventurer's Warbound Boots

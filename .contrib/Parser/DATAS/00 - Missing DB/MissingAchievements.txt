@@ -1,9 +1,4 @@
 11.1.0.58221
-ach(40894),	-- Sojourner of Undermine
-ach(40900),	-- Undermined
-ach(40908),	-- Demolition Superdome matches
-ach(40909),	-- Demolition Superdome victories
-ach(40911),	-- The War Within Season 2: Master Blaster
 ach(40912),	-- Skyrocketing Sprint: Bronze
 ach(40913),	-- Skyrocketing Sprint: Silver
 ach(40914),	-- Skyrocketing Sprint: Gold

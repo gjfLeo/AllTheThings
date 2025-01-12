@@ -1125,7 +1125,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			--- End of Sanity's Rest
-			--- missing one quest chain for achievement 
+			--- missing one quest chain for achievement
 			-- Misc
 			-- Open portal in/from Dornogal
 			q(86535, {	-- Test Run (TODO: check if account wide)
@@ -1224,6 +1224,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(500096),	-- Unseemly Growth
 				},
 			}),
+			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
+			q(87297),	-- ???
+			q(83566),	-- ???
+			q(83447),	-- ???
 		}),
 	}),
 })));
