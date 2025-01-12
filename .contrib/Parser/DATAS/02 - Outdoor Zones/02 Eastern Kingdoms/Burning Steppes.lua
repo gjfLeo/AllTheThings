@@ -130,8 +130,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(QUESTS, {
 				q(28316, {	-- A Deal With a Dragon (A)
-					["providers"] = {
+					["providers"] = {	-- Accepting any quest from the NPC turns him into a mobileNPC
 						{ "n", 48306 },	-- John J. Keeshan
+						{ "n", 48346 },	-- John J. Keeshan (Mobile)
 						{ "i", 63431 },	-- Rescued Whelplings
 					},
 					["sourceQuests"] = {
@@ -316,7 +317,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Humans, Dwarfs, Void Elves, Kul Tirans, and Dark Iron Dwarfs. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution for Human, Dwarf and Dark Iron Dwarf:\n2 Hides, 4 handfulls of Mud, and 2 spools of Thread.\n\nSolution for Void Elf:\n3 Hides, 2 handfulls of Mud, and 1 spool of Thread.\n\nSolution for Kul Tiran:\n4 Hides, 1 handfull of Mud, and 3 spools of Thread.\n\n",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Humans, Dwarfs, Void Elves, Kul Tirans, and Dark Iron Dwarfs. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution for Human, Dwarf and Dark Iron Dwarf:\n2 Hides, 4 Handfulls of Mud, and 2 Spools of Thread.\n\nSolution for Void Elf:\n3 Hides, 2 Handfulls of Mud, and 1 Spool of Thread.\n\nSolution for Kul Tiran:\n4 Hides, 1 Handfull of Mud, and 3 Spools of Thread.\n\n",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -347,7 +348,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Draenei, Worgen, Tushui Pandaren, Lightforged Draenei, and Alliance Dracthyr. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n4 Hides\n1 handfull of Mud\n3 spools of Thread",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Draenei, Worgen, Tushui Pandaren, Lightforged Draenei, and Alliance Dracthyr. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n4 Hides\n1 Handfull of Mud\n3 Spools of Thread",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -371,7 +372,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Gnomes and Mechagnomes. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n1 Hide\n3 handfulls of Mud\n4 spools of Thread",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Gnomes and Mechagnomes. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n1 Hide\n3 Handfulls of Mud\n4 Spools of Thread",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -395,7 +396,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Night Elves. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n3 Hides\n2 handfulls of Mud\n1 spool of Thread",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Night Elves. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n3 Hides\n2 Handfulls of Mud\n1 Spool of Thread",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -419,7 +420,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Orcs, Undead, and Mag'har Orcs. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n2 Hides\n4 handfulls of Mud\n2 spools of Thread",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Orcs, Undead, and Mag'har Orcs. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n2 Hides\n4 Handfulls of Mud\n2 Spools of Thread",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -443,7 +444,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Tauren, Huojin Pandaren, Highmountain Tauren, and Horde Dracthyr. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n4 Hides\n1 handfull of Mud\n3 spools of Thread",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Tauren, Huojin Pandaren, Highmountain Tauren, and Horde Dracthyr. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n4 Hides\n1 Handfull of Mud\n3 Spools of Thread",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -467,7 +468,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Goblins and Vulperas. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n1 Hide\n3 handfulls of Mud\n4 spools of Thread",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Goblins and Vulperas. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n1 Hide\n3 Handfulls of Mud\n4 Spools of Thread",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -491,7 +492,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if NOT ANYCLASSIC
 					-- CRIEVE NOTE: The solution is on the objective, once objectives are supported by Retail ATT, get rid of this.
 					-- The following description is accurate for retail per 10.2.5, but it is unknown how accurate it will be for the coming Classic Cataclysm.
-					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Trolls, Blood Elves, Nightborne Elves, and Zandalari Trolls. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n3 Hides\n2 handfulls of Mud\n1 spool of Thread",
+					["description"] = "This is a race-specific quest where different races get different versions of this quest. This particurlar version is only available for Trolls, Blood Elves, Nightborne Elves, and Zandalari Trolls. Completing this quest might give completion credit to other versions of this quest, and vice versa.\n\n\nSolution:\n\n3 Hides\n2 Handfulls of Mud\n1 Spool of Thread",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Blackrock Disguise
@@ -631,7 +632,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				},
 				{	-- Blood Tour
 					["allianceQuestData"] = q(28314, {	-- Blood Tour (A)
-						["qg"] = 48306,	-- John J. Keeshan
+						["providers"] = {	-- Accepting any quest from the NPC turns him into a mobileNPC
+						{ "n", 48306 },	-- John J. Keeshan
+						{ "n", 48346 },	-- John J. Keeshan (Mobile)
+					},
 						["sourceQuests"] = {
 							28313,	-- A Heap of Delicious Worg (A)
 							28311,	-- Blackened Ashes (A)
@@ -681,7 +685,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(28174, {	-- Burning Vengeance (A)
 					["qg"] = 47811,	-- John J. Keeshan
 					["sourceQuest"] = 28666,	-- Hero's Call: Burning Steppes!
-					["description"] = "Provided to players who DID NOT complete John J. Keeshan's questline in Redridge Mountains.",
+					["description"] = "Provided to players who DID NOT complete John J. Keeshan's questline in Redridge Mountains.\n\nThis quest gets marked as completed when you complete the quest 'Burning Vengeance (28416).",
 					["coord"] = { 17.2, 52.0, BURNING_STEPPES },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
@@ -697,7 +701,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(28416, {	-- Burning Vengeance (A)
 					["qg"] = 47811,	-- John J. Keeshan
 					["sourceQuest"] = 28666,	-- Hero's Call: Burning Steppes!
-					["description"] = "Provided to players who DID complete John J. Keeshan's questline in Redridge Mountains.",
+					["description"] = "Provided to players who DID complete John J. Keeshan's questline in Redridge Mountains.\n\nThis quest gets marked as completed when you complete the quest 'Burning Vengeance (28174).",
 					["coord"] = { 17.2, 52.0, BURNING_STEPPES },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -899,7 +903,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				{	-- Draconic Vanguard
 					["allianceQuestData"] = q(28315, {	-- Draconic Vanguard (A)
-						["qg"] = 48306,	-- John J. Keeshan
+						["providers"] = {	-- Accepting any quest from the NPC turns him into a mobileNPC
+						{ "n", 48306 },	-- John J. Keeshan
+						{ "n", 48346 },	-- John J. Keeshan (Mobile)
+					},
 						["sourceQuests"] = {
 							28313,	-- A Heap of Delicious Worg (A)
 							28311,	-- Blackened Ashes (A)
@@ -1466,6 +1473,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(28310, {	-- Morgan's Vigil
 					["qg"] = 48110,	-- Colonel Troteman
 					["sourceQuest"] = 28286,	-- Enough Damage for One Day (A)
+					["coord"] = { 46.3, 46.0, BURNING_STEPPES },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2318,6 +2326,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #endif
 			n(VENDORS, {
+				n(1296, {	-- Felder Stover <Weaponsmith>
+					["coord"] = { 72.9, 65.8, BURNING_STEPPES },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2528,	-- Falchion
+						2530,	-- Francisca
+						2531,	-- Great Axe
+						2532,	-- Morning Star
+						2534,	-- Rondel
+						2533,	-- War Maul
+						2535,	-- War Staff
+						2529,	-- Zweihander
+					}},
+				}),
 				n(14437, {	-- Gorzeeki Wildeyes
 					-- #if AFTER 4.0.3
 					["description"] = "The following items are only available to Warlocks that completed the original Dreadsteed of Xoroth quest chain.",

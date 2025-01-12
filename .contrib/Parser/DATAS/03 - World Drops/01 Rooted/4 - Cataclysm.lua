@@ -701,6 +701,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 		i(66987),	-- Band of the Virtuous
 		i(67139),	-- Blauvelt's Family Crest
 		i(67136),	-- Gilnean Ring of Ruination
+		i(67116),	-- Heartbinder Ring
 		i(66942),	-- Immaculate Br'etc Signet
 		i(55419),	-- Mirkfallon Ring
 		i(55416),	-- Moonbrook Ring
