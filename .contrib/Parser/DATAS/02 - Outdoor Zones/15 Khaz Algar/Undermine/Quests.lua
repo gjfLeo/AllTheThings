@@ -1275,6 +1275,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				--q(84952),	-- Blackwater Cartel?
 				--q(84954),	-- Steamwheedle Cartel?
 				q(84953),	-- Venture Co.
+				-- Muff's Auto-Locker (Nine-Tenths of the Law achievement)
+				q(85114),	-- Muff's Auto-Locker
+				q(85115),	-- Muff's Auto-Locker
+				q(85116),	-- Muff's Auto-Locker
+				q(85117),	-- Muff's Auto-Locker
+				q(85072),	-- Muff's Auto-Locker
 			}),
 		}),
 	}),

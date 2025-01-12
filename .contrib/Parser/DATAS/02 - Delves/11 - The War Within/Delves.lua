@@ -31,6 +31,10 @@ local ALL_REGULAR_DELVES = {
 	THE_SPIRAL_WEAVE,
 	THE_UNDERKEEP,
 	THE_WATERWORKS,
+	-- #if AFTER 11.1.0
+	EXCAVATION_SITE_9,
+	SIDESTREET_SLUICE,
+	-- #endif
 };
 local ALL_THE_DELVES = {
 	EARTHCRAWL_MINES,
@@ -45,7 +49,11 @@ local ALL_THE_DELVES = {
 	THE_SPIRAL_WEAVE,
 	THE_UNDERKEEP,
 	THE_WATERWORKS,
-	ZEKVIRS_LAIR
+	ZEKVIRS_LAIR,
+	-- #if AFTER 11.1.0
+	EXCAVATION_SITE_9,
+	SIDESTREET_SLUICE,
+	-- #endif
 };
 local mapped = function(t)
 	if not t.maps then
@@ -58,12 +66,214 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		ach(40817, {	-- A Delver's Bounty
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
+		ach(41115, {	-- Algari Delver
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			-- Meta Achievement
+			["sym"] = {{"meta_achievement",
+				41106,	-- Algari Delver Damage Dealer
+				41107,	-- Algari Delver Healer
+				41108,	-- Algari Delver Tank
+			}},
+		}),
+		ach(41116, {	-- Algari Delver II
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			-- Meta Achievement
+			["sym"] = {{"meta_achievement",
+				41109,	-- Algari Delver Damage Dealer II
+				41111,	-- Algari Delver Healer II
+				41113,	-- Algari Delver Tank II
+			}},
+		}),
+		ach(41106, {	-- Algari Delver Damage Dealer
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71057),	-- Earthcrawl Mines
+				crit(70995),	-- Fungal Folly
+				crit(70996),	-- Kriegval's Rest
+				crit(70997),	-- Mycomancer Cavern
+				crit(70998),	-- Nightfall Sanctum
+				crit(70999),	-- Skittering Breach
+				crit(71000),	-- Tak-Rethan Abyss
+				crit(71001),	-- The Dread Pit
+				crit(71002),	-- The Sinkhole
+				crit(71003),	-- The Spiral Weave
+				crit(71004),	-- The Underkeep
+				crit(71005),	-- The Waterworks
+				crit(71006),	-- Sidestreet Sluice
+				crit(71007),	-- Excavation Site 9
+			},
+		}),
+		ach(41109, {	-- Algari Delver Damage Dealer II
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71043),	-- Earthcrawl Mines
+				crit(71044),	-- Fungal Folly
+				crit(71045),	-- Kriegval's Rest
+				crit(71046),	-- Mycomancer Cavern
+				crit(71047),	-- Nightfall Sanctum
+				crit(71048),	-- Skittering Breach
+				crit(71049),	-- Tak-Rethan Abyss
+				crit(71050),	-- The Dread Pit
+				crit(71051),	-- The Sinkhole
+				crit(71052),	-- The Spiral Weave
+				crit(71053),	-- The Underkeep
+				crit(71054),	-- The Waterworks
+				crit(71055),	-- Sidestreet Sluice
+				crit(71056),	-- Excavation Site 9
+			},
+		}),
+		ach(41110, {	-- Algari Delver Damage Dealer III
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71058),	-- Earthcrawl Mines
+				crit(71059),	-- Fungal Folly
+				crit(71060),	-- Kriegval's Rest
+				crit(71061),	-- Mycomancer Cavern
+				crit(71062),	-- Nightfall Sanctum
+				crit(71063),	-- Skittering Breach
+				crit(71064),	-- Tak-Rethan Abyss
+				crit(71065),	-- The Dread Pit
+				crit(71066),	-- The Sinkhole
+				crit(71067),	-- The Spiral Weave
+				crit(71068),	-- The Underkeep
+				crit(71069),	-- The Waterworks
+				crit(71070),	-- Sidestreet Sluice
+				crit(71071),	-- Excavation Site 9
+			},
+		}),
+		ach(41107, {	-- Algari Delver Healer
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71008),	-- Earthcrawl Mines
+				crit(71009),	-- Fungal Folly
+				crit(71010),	-- Kriegval's Rest
+				crit(71011),	-- Mycomancer Cavern
+				crit(71012),	-- Nightfall Sanctum
+				crit(71013),	-- Skittering Breach
+				crit(71014),	-- Tak-Rethan Abyss
+				crit(71015),	-- The Dread Pit
+				crit(71016),	-- The Sinkhole
+				crit(71017),	-- The Spiral Weave
+				crit(71018),	-- The Underkeep
+				crit(71019),	-- The Waterworks
+				crit(71020),	-- Sidestreet Sluice
+				crit(71021),	-- Excavation Site 9
+			},
+		}),
+		ach(41111, {	-- Algari Delver Healer II
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71072),	-- Earthcrawl Mines
+				crit(71073),	-- Fungal Folly
+				crit(71074),	-- Kriegval's Rest
+				crit(71075),	-- Mycomancer Cavern
+				crit(71076),	-- Nightfall Sanctum
+				crit(71077),	-- Skittering Breach
+				crit(71078),	-- Tak-Rethan Abyss
+				crit(71079),	-- The Dread Pit
+				crit(71080),	-- The Sinkhole
+				crit(71081),	-- The Spiral Weave
+				crit(71082),	-- The Underkeep
+				crit(71083),	-- The Waterworks
+				crit(71084),	-- Sidestreet Sluice
+				crit(71085),	-- Excavation Site 9
+			},
+		}),
+		ach(41112, {	-- Algari Delver Healer III
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71086),	-- Earthcrawl Mines
+				crit(71087),	-- Fungal Folly
+				crit(71088),	-- Kriegval's Rest
+				crit(71089),	-- Mycomancer Cavern
+				crit(71090),	-- Nightfall Sanctum
+				crit(71091),	-- Skittering Breach
+				crit(71092),	-- Tak-Rethan Abyss
+				crit(71093),	-- The Dread Pit
+				crit(71094),	-- The Sinkhole
+				crit(71095),	-- The Spiral Weave
+				crit(71096),	-- The Underkeep
+				crit(71097),	-- The Waterworks
+				crit(71098),	-- Sidestreet Sluice
+				crit(71099),	-- Excavation Site 9
+			},
+		}),
+		ach(41108, {	-- Algari Delver Tank
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71022),	-- Earthcrawl Mines
+				crit(71023),	-- Fungal Folly
+				crit(71024),	-- Kriegval's Rest
+				crit(71025),	-- Mycomancer Cavern
+				crit(71026),	-- Nightfall Sanctum
+				crit(71027),	-- Skittering Breach
+				crit(71028),	-- Tak-Rethan Abyss
+				crit(71029),	-- The Dread Pit
+				crit(71030),	-- The Sinkhole
+				crit(71031),	-- The Spiral Weave
+				crit(71032),	-- The Underkeep
+				crit(71033),	-- The Waterworks
+				crit(71034),	-- Sidestreet Sluice
+				crit(71035),	-- Excavation Site 9
+			},
+		}),
+		ach(41113, {	-- Algari Delver Tank II
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71100),	-- Earthcrawl Mines
+				crit(71101),	-- Fungal Folly
+				crit(71102),	-- Kriegval's Rest
+				crit(71103),	-- Mycomancer Cavern
+				crit(71104),	-- Nightfall Sanctum
+				crit(71105),	-- Skittering Breach
+				crit(71106),	-- Tak-Rethan Abyss
+				crit(71107),	-- The Dread Pit
+				crit(71108),	-- The Sinkhole
+				crit(71109),	-- The Spiral Weave
+				crit(71110),	-- The Underkeep
+				crit(71111),	-- The Waterworks
+				crit(71112),	-- Sidestreet Sluice
+				crit(71113),	-- Excavation Site 9
+			},
+		}),
+		ach(41114, {	-- Algari Delver Tank III
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				crit(71114),	-- Earthcrawl Mines
+				crit(71115),	-- Fungal Folly
+				crit(71116),	-- Kriegval's Rest
+				crit(71117),	-- Mycomancer Cavern
+				crit(71118),	-- Nightfall Sanctum
+				crit(71119),	-- Skittering Breach
+				crit(71120),	-- Tak-Rethan Abyss
+				crit(71121),	-- The Dread Pit
+				crit(71122),	-- The Sinkhole
+				crit(71123),	-- The Spiral Weave
+				crit(71124),	-- The Underkeep
+				crit(71125),	-- The Waterworks
+				crit(71126),	-- Sidestreet Sluice
+				crit(71127),	-- Excavation Site 9
+			},
+		}),
 		ach(40538, {	-- Brann Development
-			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40635, {	-- Branntastic
-			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+			["maps"] = ALL_THE_DELVES,
+		}),
+		ach(41537, {	-- Buddy System VII
+			["timeline"] = { ADDED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40461, {	-- Buddy System VI
@@ -90,6 +300,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				title(575),	-- <Name> the Bountiful
 			},
 		}),
+		ach(41097, {	-- Curiosity Never Killed the Looter
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
 		ach(40437, {	-- Delver of the Depths (automated)
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
@@ -112,6 +326,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40463, {	-- Delve Deepest
+			["maps"] = ALL_THE_DELVES,
+		}),
+		ach(41095, {	-- Delve Beyond
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_THE_DELVES,
+		}),
+		ach(41096, {	-- Delve Infinite
+			["timeline"] = { ADDED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40537, {	-- Delve Loremaster: War Within
@@ -199,7 +421,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 		ach(40523, {	-- On Brand
-			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40863, {	-- Perplexing Puzzle
@@ -211,8 +432,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				225401,	-- Wrapped Spool
 			},
 		}),
+		ach(41105, {	-- Prodigious Plentiful Perplexing Puzzles
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+			["crs"] = {
+				225401,	-- Wrapped Spool
+			},
+		}),
 		ach(40820, {	-- Raisin' Brann
-			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40819, {	-- Ready to Turn
@@ -234,7 +461,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		ach(40725, {	-- War Within Delves: Endgame (automated)
-			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		ach(40631, {	-- War Within Delves: Tier 1
@@ -246,32 +472,72 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		ach(40514, {	-- War Within Delves: Tier 3
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40515, {	-- War Within Delves: Tier 4
+		ach(40515, {	-- War Within Delves: Tier 4 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40516, {	-- War Within Delves: Tier 5
+		ach(40516, {	-- War Within Delves: Tier 5 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40517, {	-- War Within Delves: Tier 6
+		ach(40517, {	-- War Within Delves: Tier 6 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40518, {	-- War Within Delves: Tier 7
+		ach(40518, {	-- War Within Delves: Tier 7 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40519, {	-- War Within Delves: Tier 8
+		ach(40519, {	-- War Within Delves: Tier 8 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40520, {	-- War Within Delves: Tier 9
+		ach(40520, {	-- War Within Delves: Tier 9 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40521, {	-- War Within Delves: Tier 10
+		ach(40521, {	-- War Within Delves: Tier 10 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(40726, {	-- War Within Delves: Tier 11
+		ach(40726, {	-- War Within Delves: Tier 11 (Season 1)
+			["timeline"] = { REMOVED_11_1_0 },
 			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
 				title(550),	-- High Explorer <Name>
 			},
+		}),
+		ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
+		ach(41192, {	-- War Within Delves: Tier 5 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
+		ach(41198, {	-- War Within Delves: Tier 6 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
+		ach(41193, {	-- War Within Delves: Tier 7 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
+		ach(41194, {	-- War Within Delves: Tier 8 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
+		ach(41195, {	-- War Within Delves: Tier 9 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
+		ach(41196, {	-- War Within Delves: Tier 10 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
+		}),
+		ach(41197, {	-- War Within Delves: Tier 11 (Season 2)
+			["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
+			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		ach(40436, {	-- You're Getting a Delve!
 			["maps"] = ALL_REGULAR_DELVES,
@@ -1348,7 +1614,17 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40806),	-- Earthcrawl Mines Discoveries
-				ach(40527),	-- Earthcrawl Mines Stories (automated)
+				ach(40527, {	-- Earthcrawl Mines Stories
+					crit(68758),  -- Kidnapped Earthen
+					crit(68759),  -- Precious Ores
+					crit(68760),  -- Fiery Grounds
+					crit(102963, { -- Looking for Treasure
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					crit(102964, { -- Bugs and Grubs
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1403,13 +1679,34 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 		},
 	}),
+	m(EXCAVATION_SITE_9, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+		--["icon"] = [[~_.asset("Delves_Nerubian")]],
+		--["coord"] = { ?, ?, THE_RINGING_DEEPS },
+		["g"] = {
+			n(ACHIEVEMENTS, {
+				ach(41100),	-- Excavation Site 9 Discoveries
+				ach(41098, {	-- Excavation Site 9 Stories
+					crit(70985),	-- Lost Excavators
+					crit(70986),	-- Black Blood Profits
+					crit(70987),	-- Rowdy Rifts
+				}),
+			}),
+		},
+	})),
 	m(FUNGAL_FOLLY, {
 		["icon"] = [[~_.asset("Delves_Fungarian")]],
 		["coord"] = { 51.9, 65.5, ISLE_OF_DORN },
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40803),	-- Fungal Folly Discoveries
-				ach(40525),	-- Fungal Folly Stories (automated)
+				ach(40525, {	-- Fungal Folly Stories
+					crit(68752),	-- Lost Miners
+					crit(68753),	-- Spreading Decay
+					crit(68754),	-- Explorer's Competition
+					crit(102965, {	-- Oversparked Operation
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1475,7 +1772,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40807),	-- Kriegval's Rest Discoveries
-				ach(40526),	-- Kriegval's Rest Stories (automated)
+				ach(40526, {	-- Kriegval's Rest Stories
+					crit(68755), -- Lost Keepsakes
+					crit(68756), -- Swarming Kobolds
+					crit(68757), -- Dagran's Day Out
+					crit(102967, {	-- Corrupted Candles
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1534,7 +1838,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40808),	-- Mycomancer Cavern Discoveries
-				ach(40531),	-- Mycomancer Cavern Stories (automated)
+				ach(40531, {	-- Mycomancer Cavern Stories
+					crit(68770), -- Missing Pigs
+					crit(68771), -- The Great Scavenger Hunt
+					crit(68772), -- Mushroom Morsel
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1623,7 +1931,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40809),	-- Nightfall Sanctum Discoveries
-				ach(40530),	-- Nightfall Sanctum Stories (automated)
+				ach(40530, {	-- Nightfall Sanctum Stories
+					crit(68767), -- Dark Ritual
+					crit(68768), -- Kyron's Assault
+					crit(68769), -- Signal Noise
+					crit(102975, {	-- Aiming to get Even
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1670,13 +1985,35 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 		},
 	}),
+	m(SIDESTREET_SLUICE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+		["timeline"] = { ADDED_11_1_0 },
+		--["icon"] = [[~_.asset("Delves_Nerubian")]],
+		--["coord"] = { ?, ?, UNDERMINE },
+		["g"] = {
+			n(ACHIEVEMENTS, {
+				ach(41101),	-- Sidestreet Sluice Discoveries
+				ach(41099, {	-- Sidestreet Sluice Stories
+					crit(70988),	-- All That Glitters
+					crit(70989),	-- Mr. DELVER
+					crit(70990),	-- Teleporter Tantrums
+				}),
+			}),
+		},
+	})),
 	m(SKITTERING_BREACH, {
 		["icon"] = [[~_.asset("Delves_Nerubian")]],
 		["coord"] = { 65.5, 61.5, HALLOWFALL },
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40810),	-- Skittering Breach Discoveries
-				ach(40533),	-- Skittering Breach Stories (automated)
+				ach(40533, {	-- Skittering Breach Stories
+					crit(68776), -- Old Rituals
+					crit(68777), -- Renilash Beckons
+					crit(68778), -- Shadow Realm
+					crit(102972, {	-- Relics of the Old Gods
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1727,7 +2064,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40811),	-- Tak-Rethan Abyss Discoveries
-				ach(40535),	-- Tak-Rethan Abyss Stories (automated)
+				ach(40535, {	-- Tak-Rethan Abyss Stories
+					crit(68783), -- Goblin Mischief
+					crit(68784), -- Niffen Napping
+					crit(68785), -- Pheromone Fury
+					crit(102966, {	-- Pump the Brakes
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1781,7 +2125,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40812),	-- The Dread Pit Discoveries
-				ach(40529),	-- The Dread Pit Stories (automated)
+				ach(40529, {	-- The Dread Pit Stories
+					crit(68764), -- Lost Gems
+					crit(68765), -- Smashing Skardyn
+					crit(68766), -- Kobold Kidnapping
+					crit(102969, {	-- Darkfuse Disruption
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1832,7 +2183,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40813),	-- The Sinkhole Discoveries
-				ach(40532),	-- The Sinkhole Stories (automated)
+				ach(40532, {	-- The Sinkhole Stories
+					crit(68773), -- Illusory Rescue
+					crit(68774), -- Raen's Gambit
+					crit(68775), -- Lurking Terror
+					crit(102970, {	-- Orphan's Holiday
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1891,7 +2249,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40814),	-- The Spiral Weave Discoveries
-				ach(40536),	-- The Spiral Weave Stories (automated)
+				ach(40536, {	-- The Spiral Weave Stories
+					crit(68786), -- Tortured Hostages
+					crit(68787), -- From the Weaver with Love
+					crit(68788), -- Strange Disturbances
+					crit(102973, {	-- Down to Size
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -1948,7 +2313,15 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40815),	-- The Underkeep Discoveries
-				ach(40534),	-- The Underkeep Stories (automated)
+				ach(40534, {	-- The Underkeep Stories
+					crit(68779), -- Torture Victims
+					crit(68780), -- Weaver Rescue
+					crit(68781), -- Evolved Research
+					crit(68782), -- Runaway Evolution
+					crit(102974, {	-- Third Party Operation
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -2003,7 +2376,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40816),	-- The Waterworks Discoveries
-				ach(40528),	-- The Waterworks Stories (automated)
+				ach(40528, {	-- The Waterworks Stories
+					crit(68761), -- Captured Engineers
+					crit(68762), -- Trust Issues
+					crit(68763), -- Stomping Some Sense
+					crit(102968, {	-- Put a Wrench on It!
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
@@ -2047,6 +2427,19 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 		},
 	}),
+	-- Boss delves
+	m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 , REMOVED_11_2_0} }, {
+		--["icon"] = [[~_.asset("Delves_Nerubian")]],
+		--["coord"] = { ?, ?, UNDERMINE },
+		["g"] = {
+			n(ACHIEVEMENTS, {
+				ach(41529),	-- Breaking the Bank
+				ach(41210),	-- Let Me Solo Him: The Underpin
+				ach(41530),	-- My New Nemesis
+				ach(41531),	-- The Hataclysm
+			}),
+		},
+	})),
 	m(ZEKVIRS_LAIR, {
 		["icon"] = [[~_.asset("Delves_Nerubian")]],
 		["coord"] = { 6.7, 33.9, NERUBAR },

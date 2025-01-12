@@ -1,41 +1,5 @@
 11.1.0.58221
-ach(40942),	-- Weathered of the Undermine
-ach(40943),	-- Carved of the Undermine
-ach(40944),	-- Runed of the Undermine
-ach(40945),	-- Gilded of the Undermine
-ach(40948),	-- Nine-Tenths of the Law
 ach(41092),	-- Undermine Safari
-ach(41095),	-- Delve Beyond
-ach(41096),	-- Delve Infinite
-ach(41097),	-- Curiosity Never Killed the Looter
-ach(41098),	-- Excavation Site 9 Stories
-ach(41099),	-- Sidestreet Sluice Stories
-ach(41100),	-- Excavation Site 9 Discoveries
-ach(41101),	-- Sidestreet Sluice Discoveries
-ach(41102),	-- Excavation Site 9 clears
-ach(41103),	-- [PH] Undermine Delve clears
-ach(41104),	-- [PH] Demolition Dome clears
-ach(41105),	-- Prodigious Plentiful Perplexing Puzzles
-ach(41106),	-- Algari Delver Damage Dealer
-ach(41107),	-- Algari Delver Healer
-ach(41108),	-- Algari Delver Tank
-ach(41109),	-- Algari Delver Damage Dealer II
-ach(41110),	-- Algari Delver Damage Dealer III
-ach(41111),	-- Algari Delver Healer II
-ach(41112),	-- Algari Delver Healer III
-ach(41113),	-- Algari Delver Tank II
-ach(41114),	-- Algari Delver Tank III
-ach(41115),	-- Algari Delver
-ach(41116),	-- Algari Delver II
-ach(41191),	-- War Within Delves: Tier 4 (Season 2)
-ach(41192),	-- War Within Delves: Tier 5 (Season 2)
-ach(41193),	-- War Within Delves: Tier 7 (Season 2)
-ach(41194),	-- War Within Delves: Tier 8 (Season 2)
-ach(41195),	-- War Within Delves: Tier 9 (Season 2)
-ach(41196),	-- War Within Delves: Tier 10 (Season 2)
-ach(41197),	-- War Within Delves: Tier 11 (Season 2)
-ach(41198),	-- War Within Delves: Tier 6 (Season 2)
-ach(41210),	-- Let Me Solo Him: The Underpin
 ach(41214),	-- Under the Echoes
 ach(41215),	-- Echoes of Deeper Dangers
 ach(41216),	-- Adventurer of Undermine
@@ -44,13 +8,7 @@ ach(41349),	-- In with the Cartels
 ach(41350),	-- A Long Fuse
 ach(41351),	-- Cartels Bestie
 ach(41352),	-- Trade-Duke
-ach(41365),	-- Season 2 - Defeated Underpin
 ach(41522),	-- Tour of Duty: Undermine
-ach(41529),	-- Breaking the Bank
-ach(41530),	-- My New Nemesis
-ach(41531),	-- The Hataclysm
-ach(41532),	-- I've Got a Flying Machine?
-ach(41537),	-- [NYI] Buddy System VII
 ach(41541),	-- Critter Battler of Undermine
 ach(41542),	-- Aquatic Battler of Undermine
 ach(41543),	-- Beast Battler of Undermine

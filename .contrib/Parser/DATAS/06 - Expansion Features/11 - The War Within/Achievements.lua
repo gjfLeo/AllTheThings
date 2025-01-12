@@ -16,6 +16,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 		ach(40939, {	-- Harbinger of the Gilded
 			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 		}),
+		ach(40942, {	-- Weathered of the Undermine
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+		}),
+		ach(40943, {	-- Carved of the Undermine
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+		}),
+		ach(40944, {	-- Runed of the Undermine
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+		}),
+		ach(40945, {	-- Gilded of the Undermine
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+		}),
 		ach(40591, {	-- Khaz Algar Diplomat
             -- Unfun fact: Blizzard isn't currently showing these criteria ingame, and manually adding them doesn't properly fetch their names, I'm just gonna leave them here for reference for when they fix this. It can be either automated, or written out in full.
             -- Unfun fact the second: They never fixed the achievement, they just remade it.

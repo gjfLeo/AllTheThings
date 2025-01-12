@@ -3660,6 +3660,9 @@ root(ROOTS.HiddenAchievementTriggers, {
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			ach(40908),	-- Demolition Superdome matches
 			ach(40909),	-- Demolition Superdome victories
+			ach(41102),	-- Excavation Site 9 clears
+			ach(41103),	-- [PH] Undermine Delve clears
+			ach(41104),	-- [PH] Demolition Dome clears
 			ach(41299),	-- Vexie and the Geargrinders (Raid Finder Liberation of Undermine)
 			ach(41300),	-- Vexie and the Geargrinders (Normal Liberation of Undermine)
 			ach(41301),	-- Vexie and the Geargrinders (Heroic Liberation of Undermine)
@@ -3697,6 +3700,7 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41343),	-- Geezle Gigazap (Heroic Operation: Floodgate)
 			ach(41344),	-- Geezle Gigazap (Mythic Operation: Floodgate)
 			ach(41364),	-- Earn and Tutorialize First Warband Camp (Not Used!) (DNT)
+			ach(41365),	-- Season 2 - Defeated Underpin
 			ach(41683),	-- Khaz Algar Safari (copy)
 		})),
 	}),
