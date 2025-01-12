@@ -13,6 +13,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(15030),	-- Deepforge Golemworks
 			visit_exploration(14821,{coord={65.0,41.2,2214}}),	-- Fetid Grotto
 			exploration(14796),	-- Gundargaz
+			visit_exploration(15528,{coord={75.2,83.0,THE_RINGING_DEEPS}, timeline={ADDED_11_1_0}}),	-- Gutterville
 			exploration(14797),	-- Ironhaul Station
 			exploration(14813),	-- Lightless Chasm
 			exploration(14802),	-- Lost Mines
@@ -20,6 +21,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14816),	-- Obsidian Hollow
 			exploration(14812),	-- Opportunity Point
 			visit_exploration(14822,{coord={53.7,44.1,2214}}),	-- Pillarstone Spire
+			visit_exploration(15526,{coord={72.1,96.6,THE_RINGING_DEEPS}, timeline={ADDED_11_1_0}}),	-- Sanity's Rest
 			exploration(15031),	-- Shadowvein Extraction Site
 			visit_exploration(14820,{coord={60.5,45.6,2214}}),	-- Shadowvein Point
 			exploration(15345),	-- Shimmermist Falls
@@ -31,14 +33,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14811),	-- The Living Grotto
 			exploration(14808),	-- The Rumbling Wastes
 			exploration(14817),	-- The Stonevault Exterior
+			visit_exploration(15519,{coord={75.8,75.3,THE_RINGING_DEEPS}, timeline={ADDED_11_1_0}}),	-- The Verdant Gutters
+			visit_exploration(15520,{coord={74.3,86.5,THE_RINGING_DEEPS}, timeline={ADDED_11_1_0}}),	-- The Writhing Fields
 			exploration(14803),	-- The Warrens
 			visit_exploration(15099,{coord={48.2,40.8,THE_RINGING_DEEPS}}),	-- The Waterworks
-			-- #if AFTER 11.1.0
-			visit_exploration(15528,{coord={75.2,83.0,THE_RINGING_DEEPS}}),	-- Gutterville
-			visit_exploration(15526,{coord={72.1,96.6,THE_RINGING_DEEPS}}),	-- Sanity's Rest
-			visit_exploration(15519,{coord={75.8,75.3,THE_RINGING_DEEPS}}),	-- The Verdant Gutters
-			visit_exploration(15520,{coord={74.3,86.5,THE_RINGING_DEEPS}}),	-- The Writhing Fields
-			-- #endif
 		}),
 	}),
 })));
