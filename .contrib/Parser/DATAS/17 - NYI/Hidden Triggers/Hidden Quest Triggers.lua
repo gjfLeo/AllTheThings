@@ -1838,7 +1838,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(72821),	-- Shadowlands (60) E
 		}),
 		n(PVP, {
-			q(79332, {["timeline"] = {ADDED_10_2_0}}, {["repeatable"]=true}),	-- Triggers after winning a Brawl: Battleground Blitz (possibly only when theres an elistment bonus?)
+			q(79332, {["timeline"] = {ADDED_10_2_0}, ["repeatable"] = true}),	-- Triggers after winning a Brawl: Battleground Blitz (possibly only when theres an elistment bonus?)
 		}),
 		applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
 			q(78204, {["timeline"] = {ADDED_10_1_7}}),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways I (spellID 423861)
