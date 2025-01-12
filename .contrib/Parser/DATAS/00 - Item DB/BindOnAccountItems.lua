@@ -1000,12 +1000,12 @@ i(99713);	-- Leggings of the Cursed Protector
 i(99726);	-- Leggings of the Cursed Vanquisher
 
 -- Tier 17 N [BRF]
-i(120277)	-- Essence of the Iron Conqueror [A]
-i(119310)	-- Essence of the Iron Conqueror [H]
-i(120279)	-- Essence of the Iron Protector [A]
-i(119323)	-- Essence of the Iron Protector [H]
-i(120278)	-- Essence of the Iron Vanquisher [A]
-i(119316)	-- Essence of the Iron Vanquisher [H]
+i(120277);	-- Essence of the Iron Conqueror [A]
+i(119310);	-- Essence of the Iron Conqueror [H]
+i(120279);	-- Essence of the Iron Protector [A]
+i(119323);	-- Essence of the Iron Protector [H]
+i(120278);	-- Essence of the Iron Vanquisher [A]
+i(119316);	-- Essence of the Iron Vanquisher [H]
 -- Bonus Roll Tokens
 i(119308, { ["modID"] = 3, });	-- Helm of the Iron Conqueror
 i(119321, { ["modID"] = 3, });	-- Helm of the Iron Protector
@@ -1023,29 +1023,29 @@ i(119307, { ["modID"] = 3, });	-- Leggings of the Iron Conqueror
 i(119320, { ["modID"] = 3, });	-- Leggings of the Iron Protector
 i(119313, { ["modID"] = 3, });	-- Leggings of the Iron Vanquisher
 -- Quest Reward Tokens
-i(120215)	-- Helm of the Iron Conqueror
-i(120216)	-- Shoulders of the Iron Conqueror
-i(120212)	-- Chest of the Iron Conqueror
-i(120213)	-- Gauntlets of the Iron Conqueror
-i(120214)	-- Leggings of the Iron Conqueror
-i(120225)	-- Helm of the Iron Protector
-i(120226)	-- Shoulders of the Iron Protector
-i(120222)	-- Chest of the Iron Protector
-i(120223)	-- Gauntlets of the Iron Protector
-i(120224)	-- Leggings of the Iron Protector
-i(120218)	-- Helm of the Iron Vanquisher
-i(120220)	-- Shoulders of the Iron Vanquisher
-i(120221)	-- Chest of the Iron Vanquisher
-i(120217)	-- Gauntlets of the Iron Vanquisher
-i(120219)	-- Leggings of the Iron Vanquisher
+i(120215);	-- Helm of the Iron Conqueror
+i(120216);	-- Shoulders of the Iron Conqueror
+i(120212);	-- Chest of the Iron Conqueror
+i(120213);	-- Gauntlets of the Iron Conqueror
+i(120214);	-- Leggings of the Iron Conqueror
+i(120225);	-- Helm of the Iron Protector
+i(120226);	-- Shoulders of the Iron Protector
+i(120222);	-- Chest of the Iron Protector
+i(120223);	-- Gauntlets of the Iron Protector
+i(120224);	-- Leggings of the Iron Protector
+i(120218);	-- Helm of the Iron Vanquisher
+i(120220);	-- Shoulders of the Iron Vanquisher
+i(120221);	-- Chest of the Iron Vanquisher
+i(120217);	-- Gauntlets of the Iron Vanquisher
+i(120219);	-- Leggings of the Iron Vanquisher
 
 -- Tier 17 H [BRF]
-i(120280)	-- Essence of the Iron Conqueror [A]
-i(120206)	-- Essence of the Iron Conqueror [H]
-i(120281)	-- Essence of the Iron Protector [A]
-i(120207)	-- Essence of the Iron Protector [H]
-i(120282)	-- Essence of the Iron Vanquisher [A]
-i(120208)	-- Essence of the Iron Vanquisher [H]
+i(120280);	-- Essence of the Iron Conqueror [A]
+i(120206);	-- Essence of the Iron Conqueror [H]
+i(120281);	-- Essence of the Iron Protector [A]
+i(120207);	-- Essence of the Iron Protector [H]
+i(120282);	-- Essence of the Iron Vanquisher [A]
+i(120208);	-- Essence of the Iron Vanquisher [H]
 -- Bonus Roll Tokens
 i(119308, { ["modID"] = 5, });	-- Helm of the Iron Conqueror
 i(119321, { ["modID"] = 5, });	-- Helm of the Iron Protector
@@ -1063,29 +1063,29 @@ i(119307, { ["modID"] = 5, });	-- Leggings of the Iron Conqueror
 i(119320, { ["modID"] = 5, });	-- Leggings of the Iron Protector
 i(119313, { ["modID"] = 5, });	-- Leggings of the Iron Vanquisher
 -- Quest Reward Tokens
-i(120230)	-- Helm of the Iron Conqueror
-i(120231)	-- Shoulders of the Iron Conqueror
-i(120227)	-- Chest of the Iron Conqueror
-i(120228)	-- Gauntlets of the Iron Conqueror
-i(120229)	-- Leggings of the Iron Conqueror
-i(120240)	-- Helm of the Iron Protector
-i(120241)	-- Shoulders of the Iron Protector
-i(120237)	-- Chest of the Iron Protector
-i(120238)	-- Gauntlets of the Iron Protector
-i(120239)	-- Leggings of the Iron Protector
-i(120233)	-- Helm of the Iron Vanquisher
-i(120235)	-- Shoulders of the Iron Vanquisher
-i(120236)	-- Chest of the Iron Vanquisher
-i(120232)	-- Gauntlets of the Iron Vanquisher
-i(120234)	-- Leggings of the Iron Vanquisher
+i(120230);	-- Helm of the Iron Conqueror
+i(120231);	-- Shoulders of the Iron Conqueror
+i(120227);	-- Chest of the Iron Conqueror
+i(120228);	-- Gauntlets of the Iron Conqueror
+i(120229);	-- Leggings of the Iron Conqueror
+i(120240);	-- Helm of the Iron Protector
+i(120241);	-- Shoulders of the Iron Protector
+i(120237);	-- Chest of the Iron Protector
+i(120238);	-- Gauntlets of the Iron Protector
+i(120239);	-- Leggings of the Iron Protector
+i(120233);	-- Helm of the Iron Vanquisher
+i(120235);	-- Shoulders of the Iron Vanquisher
+i(120236);	-- Chest of the Iron Vanquisher
+i(120232);	-- Gauntlets of the Iron Vanquisher
+i(120234);	-- Leggings of the Iron Vanquisher
 
 -- Tier 17 M [BRF]
-i(120283)	-- Essence of the Iron Conqueror [A]
-i(120209)	-- Essence of the Iron Conqueror [H]
-i(120284)	-- Essence of the Iron Protector [A]
-i(120210)	-- Essence of the Iron Protector [H]
-i(120285)	-- Essence of the Iron Vanquisher [A]
-i(120211)	-- Essence of the Iron Vanquisher [H]
+i(120283);	-- Essence of the Iron Conqueror [A]
+i(120209);	-- Essence of the Iron Conqueror [H]
+i(120284);	-- Essence of the Iron Protector [A]
+i(120210);	-- Essence of the Iron Protector [H]
+i(120285);	-- Essence of the Iron Vanquisher [A]
+i(120211);	-- Essence of the Iron Vanquisher [H]
 -- Bonus Roll Tokens
 i(119310, { ["modID"] = 6, });	-- Essence of the Iron Conqueror
 i(119323, { ["modID"] = 6, });	-- Essence of the Iron Protector
@@ -1106,21 +1106,21 @@ i(119307, { ["modID"] = 6, });	-- Leggings of the Iron Conqueror
 i(119320, { ["modID"] = 6, });	-- Leggings of the Iron Protector
 i(119313, { ["modID"] = 6, });	-- Leggings of the Iron Vanquisher
 -- Quest Reward Tokens
-i(120245)	-- Helm of the Iron Conqueror
-i(120246)	-- Shoulders of the Iron Conqueror
-i(120242)	-- Chest of the Iron Conqueror
-i(120243)	-- Gauntlets of the Iron Conqueror
-i(120244)	-- Leggings of the Iron Conqueror
-i(120255)	-- Helm of the Iron Protector
-i(120256)	-- Shoulders of the Iron Protector
-i(120252)	-- Chest of the Iron Protector
-i(120253)	-- Gauntlets of the Iron Protector
-i(120254)	-- Leggings of the Iron Protector
-i(120248)	-- Helm of the Iron Vanquisher
-i(120250)	-- Shoulders of the Iron Vanquisher
-i(120251)	-- Chest of the Iron Vanquisher
-i(120247)	-- Gauntlets of the Iron Vanquisher
-i(120249)	-- Leggings of the Iron Vanquisher
+i(120245);	-- Helm of the Iron Conqueror
+i(120246);	-- Shoulders of the Iron Conqueror
+i(120242);	-- Chest of the Iron Conqueror
+i(120243);	-- Gauntlets of the Iron Conqueror
+i(120244);	-- Leggings of the Iron Conqueror
+i(120255);	-- Helm of the Iron Protector
+i(120256);	-- Shoulders of the Iron Protector
+i(120252);	-- Chest of the Iron Protector
+i(120253);	-- Gauntlets of the Iron Protector
+i(120254);	-- Leggings of the Iron Protector
+i(120248);	-- Helm of the Iron Vanquisher
+i(120250);	-- Shoulders of the Iron Vanquisher
+i(120251);	-- Chest of the Iron Vanquisher
+i(120247);	-- Gauntlets of the Iron Vanquisher
+i(120249);	-- Leggings of the Iron Vanquisher
 
 -- Castle Nathria LFR Weapon Tokens
 i(183893, { ["modID"] = 4, });	-- Abominable Anima Spherule
