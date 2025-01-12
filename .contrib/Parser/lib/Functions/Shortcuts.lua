@@ -3,7 +3,7 @@
 ---@param field string
 ---@param id number
 ---@param t? table
----@return table
+---@return table|nil
 struct = function(field, id, t)
 	if not t then t = {};
 	elseif (t.g or t.groups) and t[1] then
@@ -1126,7 +1126,7 @@ ill = illusion;											-- Create an ILLUSION Object
 -- Create an ITEM Object
 ---@param id number
 ---@param t? table
----@return table
+---@return table|nil
 item = function(id, t)
 	return struct("itemID", id, t);
 end
@@ -1591,9 +1591,9 @@ name = function(type, id, t)
 end
 -- Converts 3 separate patch values into a single patch decimal for use within expansion() groups
 patch = function(major,minor,build)
-	major = math.floor(tonumber(major or 0))
-	minor = math.floor(tonumber(minor or 0))
-	build = math.floor(tonumber(build or 0))
+	major = math.floor(tonumber(major) or 0)
+	minor = math.floor(tonumber(minor) or 0)
+	build = math.floor(tonumber(build) or 0)
 	if major >= PatchShift then
 		print("Using a Major Patch with too many digits! It will not be represented properly in-game",major)
 	end
