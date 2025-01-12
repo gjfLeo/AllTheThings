@@ -21,7 +21,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			i(224979),	-- Delver's Dirigible Schematic: Zeppelin (MM!)
 		}),
 	}),
-	n(DELVERS_GOBTROTTER_SCHEMATIC, {
+	n(DELVERS_GOBTROTTER_SCHEMATIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 		header(HEADERS.Item, 229974, {	-- Delver's Gob-Trotter
 			i(230219), -- Delver's Gob-Trotter Schematic: Balloon (MM!)
 			i(230217), -- Delver's Gob-Trotter Schematic: Flamethrower (MM!)
@@ -29,5 +29,5 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			i(230216), -- Delver's Gob-Trotter Schematic: Harpoon (MM!)
 			i(230218), -- Delver's Gob-Trotter Schematic: Pipes (MM!)
 		}),
-	}),
+	})),
 })));

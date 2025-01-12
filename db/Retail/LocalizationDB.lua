@@ -664,7 +664,6 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "Sandstorms",
 	[-1001061] = "Snowstorms",
 	[-1001062] = "Thunderstorms",
-	[-1001063] = C_Spell.GetSpellName(466133),
 	[-1001066] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
 	[-1001067] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
