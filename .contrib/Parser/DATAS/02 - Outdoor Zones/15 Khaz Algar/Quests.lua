@@ -624,7 +624,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 		header(HEADERS.Achievement, 40791, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {	-- Fate of the Kirin Tor
 			header(HEADERS.AchCriteria, 40791.01, {	-- Arcane Desolation
 				q(84223, {	-- Survivor's Guilt
-					["sourceQuest"] = 83503,	-- Return to Dornogal (TODO: unavailable on character without finished TWW capmaign quests)
+					["sourceQuests"] = {
+						83503,	-- Return to Dornogal
+						84701,	-- The Speaker
+					},
 					["provider"] = { "n", 227436 },	-- Archmage Khadgar
 					["coord"] = { 42.5, 27.1, DORNOGAL },
 					--["g"] = {

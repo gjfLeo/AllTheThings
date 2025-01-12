@@ -195,10 +195,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(750, i(235015)),	-- Awakened Supply Crate (TOY!)
 					fbiron(500, i(224165)),	-- Dornogal Tabard
 					fbiron(500, i(224168)),	-- Earthen Expedition Tabard
-					fbiron(350, i(233978)),	-- Earthen Soot-Stained Workpack
+					fbiron(500, i(233978)),	-- Earthen Soot-Stained Workpack
 					fbiron(3000, iensemble(234524)),	-- Ensemble: Awakened Ambassador's Uniform
 					fbiron(500, i(224167)),	-- Gundargaz Tabard
-					fbiron(350, i(233980)),	-- Noble's Forgegrounds Worksack
+					fbiron(500, i(233980)),	-- Noble's Forgegrounds Worksack
 					--fbiron(1000, i(235016)),	-- Redeployment Module (TOY!) (57788 - NYI?)
 					fbiron(350, i(235297)),	-- Smuggled Councilor's Chalice
 					fbiron(200, i(233829)),	-- Smuggled Councilor's Chalice
@@ -206,8 +206,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(200, i(233824)),	-- Smuggled Forgegrounds Hammer
 					fbiron(350, i(235299)),	-- Smuggled Meadery Pitcher
 					fbiron(200, i(233822)),	-- Smuggled Meadery Pitcher
-					fbiron(350, i(233979)),	-- Stonebound Worker's Backpack
-					fbiron(350, i(233981)),	-- Underground Machinist Toolbag
+					fbiron(500, i(233979)),	-- Stonebound Worker's Backpack
+					fbiron(500, i(233981)),	-- Underground Machinist Toolbag
 				},
 			}),
 			n(227814, {	-- Sally Boltwrench
