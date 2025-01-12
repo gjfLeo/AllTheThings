@@ -7,25 +7,26 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 		["maps"] = { 323 },
 		["coord"] = { 71.00, 29.00, VASHJIR_ABYSSAL_DEPTHS },	-- Abyssal Depths, Vashj'ir
 		["groups"] = {
-			n(QUESTS, {
+			n(QUESTS, sharedData({
+				-- #if AFTER 6.0.3
+				["description"] = "Be careful not to oneshot the boss, otherwise you might not be able to turn in the quest.",
+				-- #endif
+				["groups"] = {
+					i(65654),	-- Belt of a Thousand Deaths
+					i(65655),	-- Leggings of Opportune Strikes
+					i(65656),	-- Sea Witch Charm
+				},
+			}, {
 				q(28834, {	-- Rescue the Earthspeaker!
 					["races"] = ALLIANCE_ONLY,
 					["qg"] = 50270,	-- Captain Taylor
-					["groups"] = {
-						i(65654),	-- Belt of a Thousand Deaths
-						i(65655),	-- Leggings of Opportune Strikes
-						i(65656),	-- Sea Witch Charm
-					},
 				}),
 				q(28833, {	-- Rescue the Earthspeaker!
 					["races"] = HORDE_ONLY,
 					["qg"] = 50272,	-- Legionnaire Nazgrim
-					["groups"] = {
-						i(65654),	-- Belt of a Thousand Deaths
-						i(65655),	-- Leggings of Opportune Strikes
-						i(65656),	-- Sea Witch Charm
-					},
 				}),
+			})),
+			n(QUESTS, {
 				q(28836, {	-- Sins of the Sea Witch
 					["races"] = ALLIANCE_ONLY,
 					["qg"] = 50270,	-- Captain Taylor

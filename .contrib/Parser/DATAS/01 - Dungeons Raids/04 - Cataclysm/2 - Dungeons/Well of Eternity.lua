@@ -137,6 +137,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					},
 				}),
 			})),
+			n(55500, {	-- Illidan Stormrage
+				["sharedDescription"] = "|CFFFF0000Listen to Illidan, these mobs do have lethal abilities!|r",
+				["groups"] = {
+					n(54927),	-- Guardian Demon
+					n(54500),	-- Legion Demon
+				},
+			}),
 		},
 	})),
 })));
