@@ -663,7 +663,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(213404),	-- Incriminating Script
 			i(213424),	-- Keg of Cinderbrew Mead
 			i(217400),	-- Kobyss Lure
-			i(222963),	-- Lava Globs
 			i(213557),	-- Lost Journal Tablet
 			i(212519),	-- Nebb's Key
 			i(212521),	-- Nebb's "Treasure" [DNT]

@@ -112,7 +112,17 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(183614),	-- Gavel of Harmonious Wisdom
 					i(183611),	-- Humble Ophelia's Greatblade
 					i(183604),	-- Piercing Timbre Crossbow
-					i(180569),	-- Mercia's Legacy: Chapter Seven (so the item is associated with the rare)
+					o(354467, {	-- Mercia's Legacy: Chapter Seven
+						["coords"] = {
+							{ 65.3, 44.4, BASTION },
+							{ 65.4, 42.9, BASTION },
+							{ 65.8, 44.4, BASTION },
+							{ 66.4, 43.0, BASTION },
+							{ 67.3, 43.6, BASTION },
+							{ 67.4, 42.8, BASTION },
+						},
+						["g"] = { i(180569), },	-- Mercia's Legacy: Chapter Seven (so the item is associated with the rare)
+					}),
 					i(183613),	-- Glinting Daybreak Dagger
 					i(183612),	-- Loyal Champion's Hammer
 					i(183609),	-- Re-Powered Goliath Fists

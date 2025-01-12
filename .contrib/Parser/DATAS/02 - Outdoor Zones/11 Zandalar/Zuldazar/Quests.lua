@@ -806,6 +806,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(159153),	-- Zanchuli Grips
 					i(159154),	-- Rastari Gloves
 					i(159155),	-- Jambani Handguards
+					i(160090, {	-- Outrigger Graspers (confirmed)
+						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
+					}),
 					i(160091, {	-- Sea Raider's Grips (confirmed)
 						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
 					}),

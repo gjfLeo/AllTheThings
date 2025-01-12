@@ -44,7 +44,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			}),
 			q(56391),	-- Frenzied Knifefang
 			q(55895),	-- Frozen Winds of Zhiela
-			q(56392),	-- Giant Opaline Conch
+			petbattle(q(56392)),	-- Giant Opaline Conch
 			q(56041),	-- Give 'Em Shell
 			q(55997),	-- Hungry Hungry Hydras
 			q(55884),	-- Infestation of Madness

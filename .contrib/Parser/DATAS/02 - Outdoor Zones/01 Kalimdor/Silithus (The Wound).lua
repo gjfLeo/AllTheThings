@@ -242,10 +242,11 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["sourceQuest"] = 57222,	-- Investigating the Halls
 							["cost"] = { { "i", 171219, 1 } },	-- Corrupt Black Dragonscales
 							["g"] = {
-								i(171219),	-- Corrupt Black Dragonscales (QI!)
 								i(169223, {	-- Ashjra'kamas, Shroud of Resolve
 									["bonusID"] = 6272,	-- Rank 1 Appearance
 								}),
+								i(171219),	-- Corrupt Black Dragonscales (QI!)
+								i(172072),	-- Experimental Vial
 							},
 						}),
 						q(56187, {	-- Black Winged Shadow

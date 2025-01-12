@@ -65,6 +65,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				q(82238, {	-- Lava Glob Lobbin'
 					["coord"] = { 52.2, 16.7, THE_RINGING_DEEPS },
+					["g"] = { i(222963) },	-- Lava Globs (QI!)
 				}),
 				q(83079, {	-- Mineral Buildup
 					["coord"] = { 45.8, 42.8, THE_RINGING_DEEPS },
