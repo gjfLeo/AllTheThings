@@ -2342,24 +2342,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(2821, {	-- Mo'grosh Masher
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
-					["crs"] = {
-						14267,  -- Emogg the Crusher
-						44758, -- Mo'grosh Darkmauler
-					},
 					-- #if BEFORE 4.0.3
-					["coords"] = {
-						{ 71.4, 21.2, LOCH_MODAN },
-						{ 68.8, 22.4, LOCH_MODAN },
-						{ 68.8, 25.4, LOCH_MODAN },
-						{ 74.8, 25.0, LOCH_MODAN },
-						{ 76.6, 16.0, LOCH_MODAN },
-					},
 					["cr"] = 1179,	-- Mo'grosh Enforcer
 					["coords"] = {
 						{ 74.2, 28.4, LOCH_MODAN },
 						{ 69.4, 22.2, LOCH_MODAN },
 						{ 64.4, 20.6, LOCH_MODAN },
 					},
+					-- #elseif AFTER 10.1.7
+					["crs"] = {
+						14267,  -- Emogg the Crusher
+						44758, -- Mo'grosh Darkmauler
+					},
+					["coord"] = { 70.0, 24.6, LOCH_MODAN },
 					-- #endif
 				}),
 				i(2822, {	-- Mo'grosh Toothpick
