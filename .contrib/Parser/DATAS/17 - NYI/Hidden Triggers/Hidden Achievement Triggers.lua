@@ -3655,5 +3655,47 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41218),	-- <DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power
 			ach(40877),	-- <Hidden> RR - 4b
 		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			ach(41299),	-- Vexie and the Geargrinders (Raid Finder Liberation of Undermine)
+			ach(41300),	-- Vexie and the Geargrinders (Normal Liberation of Undermine)
+			ach(41301),	-- Vexie and the Geargrinders (Heroic Liberation of Undermine)
+			ach(41302),	-- Vexie and the Geargrinders Mythic Liberation of Undermine)
+			ach(41303),	-- Cauldron of Carnage (Raid Finder Liberation of Undermine)
+			ach(41304),	-- Cauldron of Carnage (Normal Liberation of Undermine)
+			ach(41305),	-- Cauldron of Carnage (Heroic Liberation of Undermine)
+			ach(41306),	-- Cauldron of Carnage (Mythic Liberation of Undermine)
+			ach(41307),	-- Rik Reverb (Raid Finder Liberation of Undermine)
+			ach(41308),	-- Rik Reverb (Normal Liberation of Undermine)
+			ach(41309),	-- Rik Reverb (Heroic Liberation of Undermine)
+			ach(41310),	-- Rik Reverb (Mythic Liberation of Undermine)
+			ach(41311),	-- Stix Bunkumker (Raid Finder Liberation of Undermine)
+			ach(41312),	-- Stix Bunkumker (Normal Liberation of Undermine)
+			ach(41313),	-- Stix Bunkumker (Heroic Liberation of Undermine)
+			ach(41314),	-- Stix Bunkumker (Mythic Liberation of Undermine)
+			ach(41315),	-- Sprocketmonger Locknstock (Raid Finder Liberation of Undermine)
+			ach(41316),	-- Sprocketmonger Locknstock (Normal Liberation of Undermine)
+			ach(41317),	-- Sprocketmonger Locknstock (Heroic Liberation of Undermine)
+			ach(41318),	-- Sprocketmonger Locknstock (Mythic Liberation of Undermine)
+			ach(41319),	-- The One-Armed Bandit (Raid Finder Liberation of Undermine)
+			ach(41320),	-- The One-Armed Bandit (Normal Liberation of Undermine)
+			ach(41321),	-- The One-Armed Bandit (Heroic Liberation of Undermine)
+			ach(41322),	-- The One-Armed Bandit (Mythic Liberation of Undermine)
+			ach(41323),	-- Mug'Zee, Heads of Security (Raid Finder Liberation of Undermine)
+			ach(41324),	-- Mug'Zee, Heads of Security (Normal Liberation of Undermine)
+			ach(41325),	-- Mug'Zee, Heads of Security (Heroic Liberation of Undermine)
+			ach(41326),	-- Mug'Zee, Heads of Security (Mythic Liberation of Undermine)
+			ach(41327),	-- Chrome King Gallywix (Raid Finder Liberation of Undermine)
+			ach(41328),	-- Chrome King Gallywix (Normal Liberation of Undermine)
+			ach(41329),	-- Chrome King Gallywix (Heroic Liberation of Undermine)
+			ach(41330),	-- Chrome King Gallywix (Mythic Liberation of Undermine)
+			ach(41331),	-- G-99 Breakneck <Tracking Achievement>
+			ach(41342),	-- Geezle Gigazap (Normal Operation: Floodgate)
+			ach(41343),	-- Geezle Gigazap (Heroic Operation: Floodgate)
+			ach(41344),	-- Geezle Gigazap (Mythic Operation: Floodgate)
+			ach(41364),	-- Earn and Tutorialize First Warband Camp (Not Used!) (DNT)
+			ach(41683),	-- Khaz Algar Safari (copy)
+		})),
 	}),
 });
