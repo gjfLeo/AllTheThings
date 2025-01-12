@@ -4320,6 +4320,7 @@ i(232846, 4648);	-- Steamwheedle Flunkie
 i(232849, 4650);	-- Venture Companyman
 i(232839, 4637);	-- Wavebreaker Mechasaur
 --- NPC ---
+n(231470, 4652);	-- Acid-Drenched Rat
 n(231550, 4656);	-- Bombshell Crab
 n(231570, 4658);	-- Cave Crab
 n(231574, 4660);	-- Paleshell Crab

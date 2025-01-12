@@ -6,8 +6,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		n(QUESTS, {
 			-- Chapter 1? --
 			q(83137, {	-- When Opportunity Explodes
-				--["sourceQuests"] = { xx },	-- Seems like haranyr quest chain?
-				--["provider"] = { "n", xx },	-- picked up from adventure journal
+				--["sourceQuests"] = { xx },	-- Lingering Shadows?
+				["provider"] = { "n", 225571 },	-- Renzik "The Shiv"
+				["coord"] = { 42.2, 27.0, DORNOGAL },
 			}),
 			q(83139, {	-- Mixed Messages
 				["sourceQuests"] = { 83137 },	-- When Opportunity Explodes
@@ -1242,15 +1243,24 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				--q(85733),	-- Daquiri Disaster
 				--q(85758),	-- Sweeping Up
 				--q(85769),	-- The Party Must Go On
+				--q(85771),	-- Paper Delivery
+				--q(85797),	-- Knife Fight
 				--q(85826),	-- Granny Crossing
+				--q(85854),	-- For Want of a Name
 				--q(85861),	-- Rug Monster!!!
 				--q(85874, {i(232619),}),	-- Goldfish Rescue (+ Gary the Goldfish (QI!))
 				--q(85888),	-- Artistic License
+				--q(86311),	-- Heaps of Trouble
+				--q(86313),	-- Darkfuse Cleanup
+				--q(86314),	-- Ooze on Aisle 3
 				--q(86315),	-- Chaos in the Streets
 				--q(86318),	-- Tailgater Troubles
+				--q(86319),	-- Eyes of the Sky
 				--q(86320),	-- Bully For You!
 				--q(86321),	-- Door to Door
 				--q(86410),	-- Slime Wranglin'
+				--q(86412),	-- Fancy Pants
+				--q(86418),	-- Fresh Towel?
 				-- Special Assigment Unlock trackers
 				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
 				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))

@@ -33,6 +33,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14817),	-- The Stonevault Exterior
 			exploration(14803),	-- The Warrens
 			visit_exploration(15099,{coord={48.2,40.8,THE_RINGING_DEEPS}}),	-- The Waterworks
+			-- #if AFTER 11.1.0
+			visit_exploration(15528,{coord={75.2,83.0,THE_RINGING_DEEPS}}),	-- Gutterville
+			visit_exploration(15526,{coord={72.1,96.6,THE_RINGING_DEEPS}}),	-- Sanity's Rest
+			visit_exploration(15519,{coord={75.8,75.3,THE_RINGING_DEEPS}}),	-- The Verdant Gutters
+			visit_exploration(15520,{coord={74.3,86.5,THE_RINGING_DEEPS}}),	-- The Writhing Fields
+			-- #endif
 		}),
 	}),
 })));

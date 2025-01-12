@@ -465,7 +465,6 @@ root(ROOTS.Unsorted, {
 				i(232985),	-- 22H Slicks (MM!)
 
 				-- Buil Turbos?
-				i(234380),	-- Steamboil Fuel Tank
 				i(234420),	-- Handcrank Mounting System
 
 
@@ -1322,14 +1321,12 @@ root(ROOTS.Unsorted, {
 				i(235324),	-- Scavenger's Lost Bind
 				i(235326),	-- Ratspit's Heirloom Wristwraps
 				i(235327),	-- Mend-and-Match Shoulderpads
-				i(235328),	-- Boots of the Silver Tongue
 				i(235329),	-- Cowl of Acidic Mire
 				i(235347),	-- 100% Sharp Glimmerblade
 				i(235349),	-- Shadowfume Club
 				i(235350),	-- Void-forged Cudgel
 				i(235351),	-- Hypersteel CX4 Greatsword
 				i(235352),	-- Netherflare Wand
-				i(235353),	-- Debtsmasher Axe
 				i(235354),	-- Scrapblaster Lance
 				i(235356),	-- Sapper's Spark Reactor
 				i(235357),	-- Bulletscar Barricade

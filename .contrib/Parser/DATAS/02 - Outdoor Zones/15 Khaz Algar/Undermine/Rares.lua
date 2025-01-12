@@ -4,6 +4,9 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(RARES, {
+			-- currently daily lockout:
+			-- Candy Stickemup, Court of Rats, Grimewick, Nitro, S.A.L.,
+			-- Scrapbeak, Swigs Farsight, Tally Doublespeak, Thwack, V.V. Goosworth
 			n(230946, {	-- V.V. Goosworth
 				["coord"] = { 36.9, 78.2, UNDERMINE },
 				["questID"] = 84920,	-- Rogue Alchemist Vaz (questID on kill have name from Blizzard and it is different from rare name)
@@ -46,6 +49,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 54.1, 50.3, UNDERMINE },
 				["questID"] = 84921,	-- Thwack
 				["g"] = {
+					i(235353),	-- Debtsmasher Axe
 					i(234418),	-- Steamboil Gears
 					i(234419),	-- Steamboil Mounting System
 				},
@@ -54,6 +58,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 36.2, 43.3, UNDERMINE },
 				["questID"] = 84919,	-- Tally Doublespeak
 				["g"] = {
+					i(235328),	-- Boots of the Silver Tongue
 					i(235355),	-- Gossi-blin's Baton
 					i(234417),	-- Handcrank Gears
 				},
@@ -65,6 +70,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 				["coord"] = { 25.3, 36.7, UNDERMINE },
 				["questID"] = 84918,	-- Court of Rats
+				["g"] = {
+					i(235359),	-- Ratfang Toxin (share with zone reward from cache)
+					i(234380),	-- Steamboil Fuel Tank
+				},
 			}),
 			n(230979, {	-- S.A.L.
 				["coord"] = { 41.8, 25.3, UNDERMINE },
