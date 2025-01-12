@@ -1,5 +1,9 @@
 ---@diagnostic disable: lowercase-global
 -- Construct a commonly formatted object.
+---@param field string
+---@param id number
+---@param t? table
+---@return table
 struct = function(field, id, t)
 	if not t then t = {};
 	elseif (t.g or t.groups) and t[1] then
