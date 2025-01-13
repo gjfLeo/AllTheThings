@@ -815,15 +815,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27957, {	-- Lunk No Kill
-					["qg"] = 47429,	-- Lunk
+					["qg"] = 47269,	-- Lunk
 					["sourceQuest"] = 27956,	-- Lunk's Task
 					["coord"] = { 68.9, 53.2, SEARING_GORGE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(27983, {	-- Lunk's Adventure: Cranky Little Dwarfs
-					["qg"] = 47429,	-- Lunk
+					["qg"] = 47332,	-- Lunk
 					["sourceQuest"] = 27965, -- Thorium Point: The Seat of the Brotherhood
-					["description"] = "Must be on |cFFFFD700Recon Essentials|r to get this quest.",
+					["description"] = "Must be on |cFFFFD700Recon Essentials|r to get this quest. Lunk will appear when you kill a Dark Iron Dwarf.\n\nHigh-level players must unequip their weapons, hit the Dwarf once with auto-attack and stop after 1 hit.",
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/7 Dark Iron Steamsmiths put to sleep
@@ -843,9 +843,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27959, {	-- Lunk's Adventure: Spider Rider
-					["qg"] = 47429,	-- Lunk
+					["qg"] = 47280,	-- Lunk
 					["sourceQuest"] = 27957,	-- Lunk No Kill
-					["description"] = "Must be on |cFFFFD700A Proper Antivenom|r to get this quest.",
+					["description"] = "Must be on |cFFFFD700A Proper Antivenom|r to get this quest. Lunk will appear when you kill a Glassweb Spider.",
+					-- #if AFTER 7.0.3
+					["description"] = "Must be on |cFFFFD700A Proper Antivenom|r to get this quest. Lunk will appear when you kill a Glassweb Spider.\n\nHigh-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
+					-- #endif
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/7 Spiders riden
@@ -854,7 +857,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27956, {	-- Lunk's Task
-					["qg"] = 47429,	-- Lunk
+					["qg"] = 47269,	-- Lunk
 					["coord"] = { 68.9, 53.2, SEARING_GORGE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
@@ -1715,57 +1718,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 66.8, 43.8, SEARING_GORGE },
 					},
 				}),
-				o(207496, {	-- Dark Iron Treasure Chest
-					["timeline"] = { ADDED_4_0_3 },
-					["modelScale"] = 1.5,
-					["coords"] = {
-						{ 73.6, 82.2, SEARING_GORGE },
-						{ 63.6, 60.5, SEARING_GORGE },
-						{ 49.0, 55.5, SEARING_GORGE },
-						{ 49.4, 39.5, SEARING_GORGE },
-						{ 44.0, 33.5, SEARING_GORGE },
-						{ 37.9, 37.4, SEARING_GORGE },
-						{ 40.4, 50.5, SEARING_GORGE },
-						{ 38.9, 66.3, SEARING_GORGE },
-						{ 36.9, 60.0, SEARING_GORGE },
-						{ 33.2, 54.0, SEARING_GORGE },
-						{ 17.8, 38.3, SEARING_GORGE },
-						{ 14.5, 37.0, SEARING_GORGE },
-					},
-					["groups"] = {
-						i(1718),	-- Basilisk Hide Pants
-						i(13109),	-- Blackflame Cape
-						i(13043),	-- Blade of the Titans
-						i(13102),	-- Cassandra's Grace
-						i(13199),	-- Crushridge Bindings
-						i(9434),	-- Elemental Raiment
-						i(13125),	-- Elven Chain Boots
-						i(13018),	-- Executioner's Cleaver
-						i(9433),	-- Forgotten Wraps
-						i(13100),	-- Furen's Boots
-						i(13074),	-- Golem Shard Leggings
-						i(13139),	-- Guttbuster
-						i(13026),	-- Heaven's Light
-						i(13128),	-- High Bergg Helm
-						i(13064),	-- Jaina's Firestarter
-						i(13082),	-- Mountainside Buckler
-						i(4090),	-- Mug O' Hurt
-						i(13068),	-- Obsidian Greaves
-						i(13071),	-- Plated Fist of Hakoo
-						i(1715),	-- Polished Jazeraint Armor
-						i(13115),	-- Sheepshear Mantle
-						i(754),	-- Shortsword of Vengeance
-						i(13132),	-- Skeletal Shoulders
-						i(13039),	-- Skull Splitting Crossbow
-						i(13042),	-- Sword of the Magistrate
-						i(1720),	-- Tanglewood Staff
-						i(13138),	-- The Silencer
-						i(13065),	-- Wand of Allistarj
-						i(4091),	-- Widowmaker
-						i(13112),	-- Winged Helm
-						i(13051),	-- Witchfury
-					},
-				}),
 				n(8279, {	-- Faulty War Golem
 					-- #if AFTER CATA
 					["coords"] = {
@@ -1887,6 +1839,77 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(51010, {	-- Snips
 					["timeline"] = { ADDED_5_1_0 },
 					["coord"] = { 35.0, 52.0, SEARING_GORGE },
+				}),
+			}),
+			n(TREASURES, {
+				o(207496, {	-- Dark Iron Treasure Chest
+					["timeline"] = { ADDED_4_0_3 },
+					["modelScale"] = 1.5,
+					["coords"] = {
+						{ 73.6, 82.2, SEARING_GORGE },
+						{ 63.6, 60.5, SEARING_GORGE },
+						{ 49.0, 55.5, SEARING_GORGE },
+						{ 49.4, 39.5, SEARING_GORGE },
+						{ 44.0, 33.5, SEARING_GORGE },
+						{ 37.9, 37.4, SEARING_GORGE },
+						{ 40.4, 50.5, SEARING_GORGE },
+						{ 38.9, 66.3, SEARING_GORGE },
+						{ 36.9, 60.0, SEARING_GORGE },
+						{ 33.2, 54.0, SEARING_GORGE },
+						{ 17.8, 38.3, SEARING_GORGE },
+						{ 14.5, 37.0, SEARING_GORGE },
+					},
+					["groups"] = {
+						i(1718),	-- Basilisk Hide Pants
+						i(13109),	-- Blackflame Cape
+						i(13043),	-- Blade of the Titans
+						i(13102),	-- Cassandra's Grace
+						i(13199),	-- Crushridge Bindings
+						i(9434),	-- Elemental Raiment
+						i(13125),	-- Elven Chain Boots
+						i(13018),	-- Executioner's Cleaver
+						i(9433),	-- Forgotten Wraps
+						i(13100),	-- Furen's Boots
+						i(13074),	-- Golem Shard Leggings
+						i(13139),	-- Guttbuster
+						i(13026),	-- Heaven's Light
+						i(13128),	-- High Bergg Helm
+						i(13064),	-- Jaina's Firestarter
+						i(13082),	-- Mountainside Buckler
+						i(4090),	-- Mug O' Hurt
+						i(13068),	-- Obsidian Greaves
+						i(13071),	-- Plated Fist of Hakoo
+						i(1715),	-- Polished Jazeraint Armor
+						i(13115),	-- Sheepshear Mantle
+						i(754),	-- Shortsword of Vengeance
+						i(13132),	-- Skeletal Shoulders
+						i(13039),	-- Skull Splitting Crossbow
+						i(13042),	-- Sword of the Magistrate
+						i(1720),	-- Tanglewood Staff
+						i(13138),	-- The Silencer
+						i(13065),	-- Wand of Allistarj
+						i(4091),	-- Widowmaker
+						i(13112),	-- Winged Helm
+						i(13051),	-- Witchfury
+					},
+				}),
+				o(207500, {	-- Dark Iron Treasure Chest
+					["coords"] = {	-- As opposed to 207496, this one spawns exclusively in Searing Gorge
+						{ 73.6, 82.2, SEARING_GORGE },
+						{ 63.6, 60.5, SEARING_GORGE },
+						{ 49.0, 55.5, SEARING_GORGE },
+						{ 49.4, 39.5, SEARING_GORGE },
+						{ 44.0, 33.5, SEARING_GORGE },
+						{ 37.9, 37.4, SEARING_GORGE },
+						{ 40.4, 50.5, SEARING_GORGE },
+						{ 38.9, 66.3, SEARING_GORGE },
+						{ 36.9, 60.0, SEARING_GORGE },
+						{ 33.2, 54.0, SEARING_GORGE },
+						{ 17.8, 38.3, SEARING_GORGE },
+						{ 14.5, 37.0, SEARING_GORGE },
+					},
+					["timeline"] = { ADDED_4_0_3 },
+					["sym"] = {{ "select", "objectID", 207496 }, {"pop"}},
 				}),
 			}),
 			-- #if AFTER 7.1.5.23360
