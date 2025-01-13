@@ -1,6 +1,4 @@
 11.1.0.58221
-ach(41214),	-- Under the Echoes
-ach(41215),	-- Echoes of Deeper Dangers
 ach(41216),	-- Adventurer of Undermine
 ach(41217),	-- Treasures of Undermine
 ach(41349),	-- In with the Cartels

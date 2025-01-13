@@ -20,11 +20,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				ach(40222, {	-- Echoes of Danger (automated)
 					title(576),	-- Echochaser <Name>
 				}),
+				ach(41215),	-- Echoes of Deeper Dangers (automated)
 				ach(40314, {	-- Fragments of Memories (automated)
 					i(224251),	-- Memory Chord (TOY!)
 				}),
 				ach(40251),	-- Many Echoes
 				ach(40250),	-- The First Echo
+				ach(41214),	-- Under the Echoes
 			}),
 			n(QUESTS, {
 				q(84542, {	-- A Radiant Echo
@@ -39,7 +41,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 							["crs"] = { 224282 },	-- Soulboil
 						}),
 						n(222667),	-- Heartsear
-						n(222620),	-- Shard of Gorribal
+						n(222660),	-- Shard of Gorribal
+						n(224282),	-- Soulboil
 						n(222671),	-- Windowcore
 						i(225237),	-- Echoing Fragment: Azj-Kahet (CI!)
 					},
@@ -51,6 +54,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						n(222733),	-- Stormlord Kao'dor
 						n(222723),	-- Conqueror Or'sosh
 						n(222659),	-- Toaka the Explorer
+						n(223896),	-- Warmonger Ogli
 						n(222728),	-- Wavecrusher Jurvak
 						i(225236),	-- Echoing Fragment: Isle of Dorn (CI!)
 					},
@@ -61,7 +65,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["g"] = {
 						n(222637),	-- Ankoan Champion Utaari
 						n(222655),	-- Gurl The Feaster
-						n(222661),	-- Hand of Azshara
+						n(222621),	-- Hand of Azshara
 						n(222627),	-- Utmoth the Tidetwister
 						n(222639),	-- Zaniga The Tracker
 						i(225218),	-- Echoing Fragment: Hallowfall (CI!)
@@ -83,10 +87,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 43.6, 10.7, THE_RINGING_DEEPS },
 					["repeatable"] = true,
 					["g"] = {
+						n(222791),	-- Crateron
 						n(222756),	-- Deepwalker Cavelord
+						n(222741),	-- Earthfury Cragshar
+						n(222762),	-- Flame Viscerator Ignes
 						n(222743),	-- Oremex Flamebreaker
 						n(228141),	-- Treasure Elemental
 						i(225219),	-- Echoing Fragment: The Ringing Deeps (CI!)
+					},
+				}),
+				q(86477, {	-- Worldsoul Memory: Kaja'mite Contact
+					--["coord"] = { 43.3, 14.4, UNDERMINE },
+					["repeatable"] = true,
+					["timeline"] = { ADDED_11_1_0 },
+					["g"] = {
+						n(235113),	-- Deep-King Grobrosh
+						n(235116),	-- Geomancer Keeri
+						n(235115),	-- Massive Kaja'mental
+						n(235112),	-- Roxarix the CaveBorer
+						n(235117),	-- Taskmaster Zendu
 					},
 				}),
 				q(82286, {	-- Worldsoul Memory: Old Gods Forsaken
@@ -96,7 +115,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						n(222654),	-- Spiz'na the Traitor
 						n(222616),	-- The Rebellious Queen
 						n(222626),	-- Vil'vim The Mindtwister
-						n(222628),	-- Vin'ris The Corruptor
+						n(222630),	-- Vin'ris The Corruptor
 						n(222628),	-- Yoh'nath The Ender
 						i(225237),	-- Echoing Fragment: Azj-Kahet (CI!)
 					},
@@ -131,8 +150,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["repeatable"] = true,
 					["g"] = {
 						n(221970),	-- First Blade Grimskarn
+						n(221974),	-- Gong'tze the Riverhewer
 						n(221972),	-- Talinhet
 						n(221973),	-- Temaya
+						n(221975),	-- Zeeben
+						n(221976),	-- Zillix
 						i(225236),	-- Echoing Fragment: Isle of Dorn (CI!)
 					},
 				}),
