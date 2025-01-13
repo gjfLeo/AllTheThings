@@ -1881,9 +1881,7 @@ root(ROOTS.Zones, {
 
 				-- },
 			}),
-			i(205013, {	-- Lettuce (PET!)
-				["displayID"] = 112149,
-			}),
+			i(205013),	-- Lettuce (PET!)
 		}))),
 		applyclassicphase(WRATH_PHASE_ONE, ach(46, {	-- Universal Explorer [7.0.3] / World Explorer
 			-- Meta Achievement

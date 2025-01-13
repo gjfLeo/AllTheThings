@@ -3950,7 +3950,6 @@ i(205008, 3514);	-- Emerald Swoglet
 i(205018, 3520);	-- Jade Skitterbug
 i(205116, 3534);	-- Jerrie
 i(205166, 3556);	-- Kromos
-i(205013, 3518);	-- Lettuce
 i(205149, 3543);	-- Ravenous Shalewing
 i(205122, 3539);	-- Roseshell
 i(205053, 3531);	-- Rusty
@@ -4312,6 +4311,7 @@ i(232858, 4655);	-- Cruncher
 i(232853, 4632);	-- Eepy
 i(232843, 4642);	-- Gorillion
 i(232859, 4653);	-- Lab Rat
+i(205013, 3518);	-- Lettuce
 i(232840, 4661);	-- Mechagopher
 i(232841, 4644);	-- Professor Punch
 i(232851, 4641);	-- Rocketfist

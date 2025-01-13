@@ -20,13 +20,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				ach(40222, {	-- Echoes of Danger (automated)
 					title(576),	-- Echochaser <Name>
 				}),
-				ach(41215),	-- Echoes of Deeper Dangers (automated)
+				ach(41215, {["timeline"] = {ADDED_11_1_0}}),	-- Echoes of Deeper Dangers (automated)
 				ach(40314, {	-- Fragments of Memories (automated)
 					i(224251),	-- Memory Chord (TOY!)
 				}),
 				ach(40251),	-- Many Echoes
 				ach(40250),	-- The First Echo
-				ach(41214),	-- Under the Echoes
+				ach(41214, {["timeline"] = {ADDED_11_1_0}}),	-- Under the Echoes
 			}),
 			n(QUESTS, {
 				q(84542, {	-- A Radiant Echo
