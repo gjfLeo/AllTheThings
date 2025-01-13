@@ -4,7 +4,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
 		ach(41665, {	-- Dressed to the Mines (automated)
-			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				i(236852),	-- Gallagio Highroller's Boomstone
 			},
@@ -71,7 +71,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			i(236877),	-- Crystallized Essence of Kaja'mite
 		})),
 		ach(40723, {	-- Web-Wrapped in the Finest Silks (automated)
-			["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {
 				i(226224, {	-- Luminous Nerubian Catalyst Stone
 					d(DIFFICULTY.RAID.LFR, bubbleDown({ ["bonusID"] = 6894, ["modID"] = 0, }, {
