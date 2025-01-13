@@ -3,6 +3,12 @@
 -------------------------------------------------------------------
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
+		ach(41665, {	-- Dressed to the Mines (automated)
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+			["g"] = {
+				i(236852),	-- Gallagio Highroller's Boomstone
+			},
+		}),
 		ach(40107, {	-- Harbinger of the Weatherd
             -- INFO: The 4 harbinger achievements (which are feats of strength) were added at the start of 11.0.2 but didn't fire and showed a TODO in the name. They were corrected before 11.0.5. They could be timelined to the exact build if prefered but this is good enough.
 			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },

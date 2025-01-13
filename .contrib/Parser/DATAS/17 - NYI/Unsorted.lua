@@ -498,7 +498,6 @@ root(ROOTS.Unsorted, {
 				i(231270),	-- Pack of Runed Undermine Crests
 				-- From Meta Achievements
 				i(230017),	-- Master Blaster's Insignia
-				i(236852),	-- Gallagio Highroller's Boomstone
 				-- Probably Delves
 				i(232068),	-- Adventurer's Warbound Chestpiece
 				i(232069),	-- Adventurer's Warbound Boots

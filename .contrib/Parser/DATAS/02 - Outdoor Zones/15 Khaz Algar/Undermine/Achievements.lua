@@ -21,6 +21,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 	m(UNDERMINE, {
 		n(ACHIEVEMENTS, {
 			ach(41216),	-- Adventurer of Undermine (automated)
+			ach(41587),	-- Explore Undermine (automated)
 			header(HEADERS.Achievement, 41551, {	-- Family Battler of Undermine
 				petbattle(ach(41551, {	-- Family Battler of Undermine
 					-- Meta Achievement
@@ -220,6 +221,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			ach(40948),	-- Nine-Tenths of the Law
 			ach(40894),	-- Sojourner of Undermine (automaded)
+			ach(41586, {	-- Racing to a Revolution
+				-- Meta Achievement
+				["sym"] = {{"meta_achievement",
+					41216,	-- Adventurer of Undermine
+					40948,	-- Nine-Tenths of the Law
+					41589,	-- That Can-Do Attitude
+					41588,	-- Read Between the Lines
+					41217,	-- Treasures of Undermine
+				}},
+				-- TODO reward: Warband Campite: Gallagio Grand Gallery
+			}),
+			ach(41588),	-- Read Between the Lines (automated)
+			ach(41589),	-- That Can-Do Attitude
+			pvp(ach(41522)),	-- Tour of Duty: Undermine
 			ach(41217),	-- Treasures of Undermine (automated)
 			ach(40900),	-- Undermined (automated)
 		}),
