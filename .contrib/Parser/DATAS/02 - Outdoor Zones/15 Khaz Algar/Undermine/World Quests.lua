@@ -18,6 +18,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(234281),	-- Undermine Cartel Work
 					},
 				}),
+				q(85524, {	-- Disarming the Darkfuse
+					["coord"] = { 43.7, 27.0, UNDERMINE },
+				}),
 				q(85467, {	-- Dumpster Fire
 					["coord"] = { 51.6, 88.6, UNDERMINE },
 				}),
@@ -54,6 +57,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85926, {	-- Breakneck Racing - Junkyard Jaunt
 					["coord"] = { 43.2, 76.8, UNDERMINE },
+				}),
+				q(85105, {	-- Skyrider Racing - The Heaps Leap
+					["coord"] = { 34.8, 75.3, UNDERMINE },
 				}),
 				-- Special Assigments
 				q(85487, {	-- Special Assignment: Boom! Headshot!

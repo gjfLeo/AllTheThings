@@ -178,13 +178,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 229246 },	-- Grimla Fizzlecrank
 				["coord"] = { 45.2, 42.1, UNDERMINE },
 				["g"] = {
-					i(232452), -- Grateful Goblin's Cudgel
-					i(232449), -- Grateful Goblin's Dagger
-					i(232451), -- Grateful Goblin's Mallet
-					i(232448), -- Grateful Goblin's Shield
-					i(232450), -- Grateful Goblin's Sword
-					i(232453), -- Grateful Goblin's Wand (agility wand?)
-					i(235661), -- Grateful Goblin's Water Bottle
+					i(232452),	-- Grateful Goblin's Cudgel
+					i(232449),	-- Grateful Goblin's Dagger
+					i(232451),	-- Grateful Goblin's Mallet
+					i(232448),	-- Grateful Goblin's Shield
+					i(232450),	-- Grateful Goblin's Sword
+					i(232453),	-- Grateful Goblin's Wand (agility wand?)
+					i(235661),	-- Grateful Goblin's Water Bottle
 				},
 			}),
 			q(83167, {	-- Eyes from Above
@@ -215,10 +215,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 225686 },	-- Baron Revilgaz
 				["coord"] = { 30.7, 39.4, UNDERMINE },
 				["g"] = {
-					i(232761), -- Desperate Goblin's Belt
-					i(232750), -- Desperate Goblin's Spaulders
-					i(232740), -- Desperate Goblin's Gloves
-					i(232748), -- Desperate Goblin's Boots
+					i(232761),	-- Desperate Goblin's Belt
+					i(232750),	-- Desperate Goblin's Spaulders
+					i(232740),	-- Desperate Goblin's Gloves
+					i(232748),	-- Desperate Goblin's Boots
 				},
 			}),
 			q(83170, {	-- Not Again!
@@ -244,10 +244,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 229235 },	-- Monte Gazlowe
 				["coord"] = { 61.7, 72.0, UNDERMINE },
 				["g"] = {
-					i(232399), -- Zirdo's Dirty Greaves
-					i(232393), -- Zirdo's Dirty Grips
-					i(232395), -- Zirdo's Dirty Headgear
-					i(232397), -- Zirdo's Dirty Mantle
+					i(232399),	-- Zirdo's Dirty Greaves
+					i(232393),	-- Zirdo's Dirty Grips
+					i(232395),	-- Zirdo's Dirty Headgear
+					i(232397),	-- Zirdo's Dirty Mantle
 				},
 			}),
 			q(83175, {	-- Another Piece of the Puzzle
@@ -255,7 +255,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "o", 500619 },	-- Zirdo's Ledger
 				["coord"] = { 65.6, 80.8, UNDERMINE },
 				["g"] = {
-					i(224797), -- Zirdo's Ledger (QI!)
+					i(224797),	-- Zirdo's Ledger (QI!)
 				},
 			}),
 			q(83176, {	-- Just a Hunch
@@ -302,7 +302,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 46.0, 78.6, UNDERMINE },
 				["g"] = {
 					o(452867, {	-- Employee Schedule
-						i(226380), -- Employee Schedule (QI!)
+						i(226380),	-- Employee Schedule (QI!)
 					}),
 				},
 			}),
@@ -311,7 +311,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 225637 },	-- Grimla Fizzlecrank
 				["coord"] = { 45.9, 78.9, UNDERMINE },
 				["g"] = {
-					i(226358), -- Spare Venture Co. Uniform (QI!)
+					i(226358),	-- Spare Venture Co. Uniform (QI!)
 				},
 			}),
 			q(83120, {	-- Stealing the Keys
@@ -323,13 +323,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 53.4, 71.0, UNDERMINE },
 				["g"] = {
 					o(456073, {	-- Sputtering Taserblade
-						i(226391), -- Sputtering Taserblade (QI!)
+						i(226391),	-- Sputtering Taserblade (QI!)
 					}),
 					--
-					i(232400), -- Guardbreaker's Boots
-					i(232355), -- Guardbreaker's Chestplate
-					i(232404), -- Guardbreaker's Helm
-					i(232402), -- Guardbreaker's Wristwraps
+					i(232400),	-- Guardbreaker's Boots
+					i(232355),	-- Guardbreaker's Chestplate
+					i(232404),	-- Guardbreaker's Helm
+					i(232402),	-- Guardbreaker's Wristwraps
 				},
 			}),
 			q(83933, {	-- The Kaja'Coast
@@ -358,6 +358,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 				["provider"] = { "n", 228132 },	-- Renzik "The Shiv"
 				["coord"] = { 22.0, 57.6, ZULDAZAR },
+				["g"] = {
+					n(225847, {	-- Venture Supervisor
+						i(226854),	-- Crumpled Paystub (QS!)
+					}),
+				},
 			}),
 			q(83122, {	-- Crashing the Market
 				["sourceQuests"] = {
@@ -373,7 +378,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					84121,	-- Blowing a Path Through
 					84122,	-- Cut the Cameras
 				},
-				["provider"] = { "i", 226854 },	-- Crumpled Paystub (QS!) (TODO: add drop to 225847/225849)
+				["provider"] = { "i", 226854 },	-- Crumpled Paystub (QS!)
 				["g"] = {
 					i(232464),	-- Crumpled Paystub (QI!)
 				},
@@ -393,7 +398,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 22.0, 57.7, ZULDAZAR },
 				["g"] = {
 					-- crit 3 - Uncovering the Truth - for zone quest achievement
-					i(232883), -- Turbo-Drain 5000
+					i(232883),	-- Turbo-Drain 5000
 				},
 			}),
 			--- Chapter 4 ---
@@ -465,7 +470,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 225523 },	-- Monte Gazlowe
 				["coord"] = { 39.6, 24.2, UNDERMINE },
 			}),
-			q(83196, {	--
+			q(83196, {	-- Disperse!
 				["sourceQuests"] = { 85174 },	-- Get Out There
 				["provider"] = { "n", 226660 },	-- Dirk Greasedealer
 				["coord"] = { 48.6, 40.7, UNDERMINE },
@@ -475,7 +480,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 226660 },	-- Dirk Greasedealer
 				["coord"] = { 48.6, 40.7, UNDERMINE },
 				["g"] = {
-					i(228196), -- Anti-Darkfuse Pamphlets (QI!)
+					i(228196),	-- Anti-Darkfuse Pamphlets (QI!)
 				},
 			}),
 			q(83197, {	-- Who Owns the Streets?
@@ -492,7 +497,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 58.4, 33.1, UNDERMINE },
 				["g"] = {
 					o(482270, {	-- Blackwater Ordinance
-						i(228975), -- Blackwater Cannonball (QI!)
+						i(228975),	-- Blackwater Cannonball (QI!)
 					}),
 				},
 			}),
@@ -522,7 +527,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 233296 },	-- Fleet Master Seahorn
 				["coord"] = { 63.9, 17.1, UNDERMINE },
 				["g"] = {
-					i(232486), -- Noggenfogger Ultimate Deluxe
+					i(232486),	-- Noggenfogger Ultimate Deluxe
 				},
 			}),
 			q(85562, {	-- Tougher Than We Thought
@@ -858,7 +863,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 228566 },	-- Jazz Mokkitz
 				["coord"] = { 19.8, 56.4, ZULDAZAR },
 				["g"] = {
-					i(228215), -- Jazz's Report (QI!)
+					i(228215),	-- Jazz's Report (QI!)
 				},
 			}),
 			--- End of Kaja'Curiosity
@@ -1241,30 +1246,31 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(87296),	-- C.H.E.T.T. List (spellID 1219077)
 				-- Bonus objective during DRIVE? Probably gonna throw under special header too
 				-- Temporary sorting via questID for easy and quick check up new one
-				--q(83055),	-- Signed, Sealed
-				--q(84788),	-- Hotrocket Hot Dogs
-				--q(85732),	-- Express Extermination
-				--q(85733),	-- Daquiri Disaster
-				--q(85758),	-- Sweeping Up
-				--q(85769),	-- The Party Must Go On
-				--q(85771),	-- Paper Delivery
-				--q(85797),	-- Knife Fight
-				--q(85826),	-- Granny Crossing
-				--q(85854),	-- For Want of a Name
-				--q(85861),	-- Rug Monster!!!
-				--q(85874, {i(232619),}),	-- Goldfish Rescue (+ Gary the Goldfish (QI!))
-				--q(85888),	-- Artistic License
-				--q(86311),	-- Heaps of Trouble
-				--q(86313),	-- Darkfuse Cleanup
-				--q(86314),	-- Ooze on Aisle 3
-				--q(86315),	-- Chaos in the Streets
-				--q(86318),	-- Tailgater Troubles
-				--q(86319),	-- Eyes of the Sky
-				--q(86320),	-- Bully For You!
-				--q(86321),	-- Door to Door
-				--q(86410),	-- Slime Wranglin'
-				--q(86412),	-- Fancy Pants
-				--q(86418),	-- Fresh Towel?
+				q(83055),	-- Signed, Sealed
+				q(84788),	-- Hotrocket Hot Dogs
+				q(84791),	-- Hotrocket Burgers
+				q(85732),	-- Express Extermination
+				q(85733),	-- Daquiri Disaster
+				q(85758),	-- Sweeping Up
+				q(85769),	-- The Party Must Go On
+				q(85771),	-- Paper Delivery
+				q(85797),	-- Knife Fight
+				q(85826),	-- Granny Crossing
+				q(85854),	-- For Want of a Name
+				q(85861),	-- Rug Monster!!!
+				q(85874, {i(232619),}),	-- Goldfish Rescue (+ Gary the Goldfish (QI!))
+				q(85888),	-- Artistic License
+				q(86311),	-- Heaps of Trouble
+				q(86313),	-- Darkfuse Cleanup
+				q(86314),	-- Ooze on Aisle 3
+				q(86315),	-- Chaos in the Streets
+				q(86318),	-- Tailgater Troubles
+				q(86319),	-- Eyes of the Sky
+				q(86320),	-- Bully For You!
+				q(86321),	-- Door to Door
+				q(86410),	-- Slime Wranglin'
+				q(86412),	-- Fancy Pants
+				q(86418),	-- Fresh Towel?
 				-- Special Assigment Unlock trackers
 				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
 				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))

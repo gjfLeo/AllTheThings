@@ -10,6 +10,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230946, {	-- V.V. Goosworth
 				["coord"] = { 36.9, 78.2, UNDERMINE },
 				["questID"] = 84920,	-- Rogue Alchemist Vaz (questID on kill have name from Blizzard and it is different from rare name)
+				["g"] = {
+					i(234419),	-- Steamboil Mounting System
+				},
 			}),
 			n(231288, {	-- Swogs Farsight
 				["coord"] = { 41.3, 43.6, UNDERMINE },
@@ -26,6 +29,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(234415),	-- Handcrank Casing
 					i(235325),	-- Rusthide Gloves
+					i(234416),	-- Steamboil Casing
 					i(234419),	-- Steamboil Mounting System
 				},
 			}),
@@ -35,6 +39,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235348),	-- Back Alley Shank
 					i(234415),	-- Handcrank Casing
+					i(234386),	-- Handcrank Fuel Injector
 					i(234416),	-- Steamboil Casing
 				},
 			}),
@@ -49,6 +54,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 54.1, 50.3, UNDERMINE },
 				["questID"] = 84921,	-- Thwack
 				["g"] = {
+					i(235317),	-- Chestplate of the Ultimatum
 					i(235353),	-- Debtsmasher Axe
 					i(234418),	-- Steamboil Gears
 					i(234419),	-- Steamboil Mounting System
@@ -61,6 +67,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235328),	-- Boots of the Silver Tongue
 					i(235355),	-- Gossi-blin's Baton
 					i(234417),	-- Handcrank Gears
+					i(234416),	-- Steamboil Casing
 				},
 			}),
 			n(230934, {	-- Ratspit
@@ -73,6 +80,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235359),	-- Ratfang Toxin (share with zone reward from cache)
 					i(234380),	-- Steamboil Fuel Tank
+					i(234419),	-- Steamboil Mounting System
 				},
 			}),
 			n(230979, {	-- S.A.L.
@@ -81,11 +89,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(234417),	-- Handcrank Gears (could be shared between any rare or specific group?)
 					i(234386),	-- Handcrank Fuel Injector
+					i(234418),	-- Steamboil Gears
 				},
 			}),
 			n(230828, {	-- Chief Foreman Gutso
 				["coord"] = { 59.5, 84.7, UNDERMINE },
 				["questID"] = 84907,
+				["isWeekly"] = true,
 				["g"] = {
 					i(234381),	-- Handcrank Fuel Tank
 				},
@@ -93,6 +103,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230793, {	-- The Junk-Wall
 				["coord"] = { 63.6, 50.3, UNDERMINE },
 				["questID"] = 84884,	-- Junk Wall
+				["isWeekly"] = true,
 			}),
 			n(231017, {	-- Grimewick
 				["coord"] = { 67.5, 33.5, UNDERMINE },
@@ -104,6 +115,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230840, {	-- Flyboy Snooty
 				["coord"] = { 60.6, 9.6, UNDERMINE },
 				["questID"] = 84911,
+				["isWeekly"] = true,
 				["g"] = {
 					i(234387),	-- Steamboil Fuel Injector
 				},
@@ -111,6 +123,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230800, {	-- Slugger the Smart
 				["coord"] = { 52.3, 40.8, UNDERMINE },
 				["questID"] = 84895,
+				["isWeekly"] = true,
 				["g"] = {
 					i(234418),	-- Steamboil Gears
 				},
@@ -118,6 +131,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230746, {	-- Ephemeral Agent Lathyd
 				["coord"] = { 26.5, 68.4, UNDERMINE },
 				["questID"] = 84877,
+				["isWeekly"] = true,
 				["g"] = {
 					i(234418),	-- Steamboil Gears
 					i(235309),	-- Gloomshroud Robe

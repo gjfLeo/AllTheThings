@@ -67,6 +67,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(225218),	-- Echoing Fragment: Hallowfall (CI!)
 					},
 				}),
+				q(86476, {	-- Worldsoul Memory: Early Cartel Wars
+					["coord"] = { 43.3, 14.4, UNDERMINE },
+					["repeatable"] = true,
+					["timeline"] = { ADDED_11_1_0 },
+					["g"] = {
+						n(235071),	-- Peet the Wheedler
+						n(235072),	-- Vynnie Samophlangus
+						n(235073),	-- Madam Colada
+						n(235074),	-- Mookcenary Captain Freg (Freg)
+						n(235075),	-- Prototype Shredder Unit (Prototype of Mass Destruction)
+					},
+				}),
 				q(82263, {	-- Worldsoul Memory: Elemental Fury
 					["coord"] = { 43.6, 10.7, THE_RINGING_DEEPS },
 					["repeatable"] = true,

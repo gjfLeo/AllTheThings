@@ -524,8 +524,6 @@ root(ROOTS.Unsorted, {
 				-- Delves
 				i(232898),	-- Delver's Bounty
 				i(233071),	-- Delver's Bounty
-				i(233276),	-- Delver's Starter Kit
-				i(233281),	-- Delver's Cosmetic Surprise Bag
 				i(235502),	-- Chunk of Companion Experience
 				i(235503),	-- Chunk of Companion Experience
 				i(235504),	-- Chunk of Companion Experience
@@ -581,13 +579,10 @@ root(ROOTS.Unsorted, {
 				i(233007),	-- Crate of Somewhat Profitable Sludge
 				i(233008),	-- Box of Lightly Profitable Sludge
 				i(233021),	-- Grappling-Grabber 9000
-				i(233025),	-- Giant Pile of Gold
-				i(233026),	-- Johnny's Share of the Spoils
 				i(233054),	-- Wonder Ball
 				i(233055),	-- Corpse Cleaner
 				i(233061),	-- Rock-in-a-Bottle
 				i(233062),	-- Pocket Pizza
-				i(233205),	-- Go-Go Juice
 				i(233210),	-- Pungent Putrigill
 				i(233246),	-- Gunk-Covered Thingy
 				i(234197),	-- Gilded Screwdriver
@@ -596,8 +591,6 @@ root(ROOTS.Unsorted, {
 				i(234205),	-- Bent Lever
 				i(234212),	-- "Beaten by the House"
 				i(234421),	-- Web Bomb
-				i(234451),	-- Stolen Goods
-				i(234454),	-- Remote Teleporter
 				i(234970),	-- Partially-Drained Battery
 				i(234971),	-- Chunk of Charged Glass
 				i(234616),	-- Supreme Mangoro Madness
@@ -1250,7 +1243,6 @@ root(ROOTS.Unsorted, {
 				i(226393),	-- Jetpack-in-a-Box
 				i(226522),	-- Demolition Controller Fragment
 				i(226525),	-- Demolition Control Code
-				i(226854),	-- Crumpled Paystub
 				i(227386),	-- R.P.E.L
 				i(227540),	-- Skimmed Profits
 				i(227674),	-- Gobdre's Prized Pan
@@ -1275,7 +1267,6 @@ root(ROOTS.Unsorted, {
 				i(231900),	-- Sample Potion
 				i(232053),	-- Electro-Gland
 				i(232054),	-- Depleted Hotrod Battery
-				i(232619),	-- Gary the Goldfish
 				i(232651),	-- Faded Journal Page
 				i(232897),	-- Blood-B-Gone
 				i(234188),	-- Slot Chits
@@ -1311,7 +1302,6 @@ root(ROOTS.Unsorted, {
 				i(235314),	-- Knightrider's Steelfists
 				i(235315),	-- Rocketstep Boots
 				i(235316),	-- Whirly-Giggle Windwhir Wrap
-				i(235317),	-- Chestplate of the Ultimatum
 				i(235318),	-- Ironfang Plate Legguards
 				i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				i(235321),	-- Feather-Spike Girdle

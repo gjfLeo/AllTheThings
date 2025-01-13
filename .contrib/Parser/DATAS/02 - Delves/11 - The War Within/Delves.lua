@@ -1013,6 +1013,34 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		hqt(83330),	-- Level 60
 	}),
 	n(QUESTS, {
+		q(84519, {	-- Ancient Curiosity: Combat
+			["provider"] = { "i", 228560 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				-- I don't think this is the curio everyone gets from this quest... is it RNG or only this one
+				-- that wowhead claims?
+				-- i(228580),	-- Brute Force Idol
+				-- i(225897, {	-- Brute Force Idol [Rank 1]
+				-- 	["bonusID"] = 11235
+				-- }),
+				i(228984),	-- Unbreakable Iron Idol
+			},
+		}),
+		q(84520, {	-- Ancient Curiosity: Utility
+			["provider"] = { "i", 228581 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
+			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				i(228582),	-- Streamlined Relic
+				-- i(225901, {	-- Streamlined Relic [Rank 1] (only tracking Rank 4 curios)
+				-- 	["bonusID"] = 11255,
+				-- }),
+			},
+		}),
+		q(84370, {	-- The Key to Success
+			["provider"] = { "i", 227794 },	-- Archaic Cipher Key
+			["isWeekly"] = true,
+		}),
+		-- Season 1 (probably gonna need to sort out stuff out side of it)
 		q(81514, {	-- Bountiful Delves
 			["sourceQuests"] = { 83315 },	-- Preparing for the Unknown
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
@@ -1058,32 +1086,48 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(225547),	-- Toxic Victory (TOY!)
 			},
 		}),
-		q(84519, {	-- Ancient Curiosity: Combat
-			["provider"] = { "i", 228560 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
-			["maps"] = ALL_REGULAR_DELVES,
+		-- Season 2
+		q(85242, {	-- Seasonal Refresher
+			--["sourceQuests"] = { xx },	-- ??
+			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+			["coord"] = { 47.4, 44.4, DORNOGAL },
+			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
-				-- I don't think this is the curio everyone gets from this quest... is it RNG or only this one
-				-- that wowhead claims?
-				-- i(228580),	-- Brute Force Idol
-				-- i(225897, {	-- Brute Force Idol [Rank 1]
-				-- 	["bonusID"] = 11235
-				-- }),
-				i(228984),	-- Unbreakable Iron Idol
+				i(233281, {	-- Delver's Cosmetic Surprise Bag
+					-- it seems like give you as reward any cosmetic from s1 delves that wasn't looted before
+					-- was Shadowlit Haversack (itemID 225067) for me
+				}),
+				i(233276, {	-- Delver's Starter Kit
+					-- TODO: remove if it is generic s2 delves reward
+					i(233118),	-- Incontinental Takeout
+					i(233205),	-- Go-Go Juice
+				}),
 			},
 		}),
-		q(84520, {	-- Ancient Curiosity: Utility
-			["provider"] = { "i", 228581 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
-			["maps"] = ALL_REGULAR_DELVES,
+		q(85243, {	-- I Want My Hat Back
+			["sourceQuests"] = { 85242 },	-- Seasonal Refresher
+			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+			["coord"] = { 47.4, 44.4, DORNOGAL },
+			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
-				i(228582),	-- Streamlined Relic
-				-- i(225901, {	-- Streamlined Relic [Rank 1] (only tracking Rank 4 curios)
-				-- 	["bonusID"] = 11255,
-				-- }),
+				o(500694, {	-- Nerubian Lord
+					i(233025),	-- Giant Pile of Gold (QI!)
+					i(233026),	-- Johnny's Share of the Spoils (QI!)
+				}),
+				--
+				ach(41532),	-- I've Got a Flying Machine?
+				i(229974),	-- Delver's Gob-Trotter (MOUNT!)
 			},
 		}),
-		q(84370, {	-- The Key to Success
-			["provider"] = { "i", 227794 },	-- Archaic Cipher Key
-			["repeatable"] = true,	-- TODO: weekly? seasonal?
+		q(85244, {	-- Defeating the Underpin
+			["sourceQuests"] = { 85243 },	-- I Want My Hat Back
+			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+			["coord"] = { 47.4, 44.4, DORNOGAL },
+			["timeline"] = { ADDED_11_1_0 },
+			["g"] = {
+				i(212170),	-- Brann's Spare Hat (COSMETIC!)
+				i(230727),	-- Explosive Victory (TOY!)
+			},
 		}),
 	}),
 	n(QUESTS, sharedData({
@@ -1681,7 +1725,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 	m(EXCAVATION_SITE_9, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 		--["icon"] = [[~_.asset("Delves_Nerubian")]],
-		--["coord"] = { ?, ?, THE_RINGING_DEEPS },
+		["coord"] = { 81.0, 98.2, THE_RINGING_DEEPS },
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(41100),	-- Excavation Site 9 Discoveries
@@ -1689,6 +1733,20 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					crit(70985),	-- Lost Excavators
 					crit(70986),	-- Black Blood Profits
 					crit(70987),	-- Rowdy Rifts
+				}),
+			}),
+			n(TREASURES, {
+				o(503011, {	-- Sturdy Chest
+					["coord"] = { 57.0, 46.8, EXCAVATION_SITE_9 },
+					["questID"] = 86345,
+				}),
+				o(503012, {	-- Sturdy Chest
+					["coord"] = { 33.5, 59.2, EXCAVATION_SITE_9 },
+					["questID"] = 86346,
+				}),
+				o(502995, {	-- Sturdy Chest
+					["coord"] = { 73.4, 39.6, EXCAVATION_SITE_9 },
+					["questID"] = 86343,
 				}),
 			}),
 		},
@@ -1988,7 +2046,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	m(SIDESTREET_SLUICE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 		["timeline"] = { ADDED_11_1_0 },
 		--["icon"] = [[~_.asset("Delves_Nerubian")]],
-		--["coord"] = { ?, ?, UNDERMINE },
+		["coord"] = { 35.2, 52.2, UNDERMINE },
+		["maps"] = {
+			--2420,	-- The Pits (constant mapID)
+			2421,	-- The Low Decks
+			2422,	-- The High Decks
+			2423,	-- Entrance
+		},
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(41101),	-- Sidestreet Sluice Discoveries
@@ -1996,6 +2060,28 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					crit(70988),	-- All That Glitters
 					crit(70989),	-- Mr. DELVER
 					crit(70990),	-- Teleporter Tantrums
+				}),
+			}),
+			n(MISC, {
+				i(234454),	-- Remote Teleporter (QI!)
+				i(234451),	-- Stolen Goods (QI!)
+			}),
+			n(TREASURES, {
+				o(503157, {	-- Sturdy Chest
+					--["coord"] = { ?, ?, 2421 },	-- coord:?? in report
+					["questID"] = 86787,
+				}),
+				o(507226, {	-- Sturdy Chest
+					--["coord"] = { ?, ?, 2421 },
+					["questID"] = 86789,
+				}),
+				o(507227, {	-- Sturdy Chest
+					--["coord"] = { ?, ?, 2421 },
+					["questID"] = 86790,
+				}),
+				o(507221, {	-- Sturdy Chest
+					["coord"] = { 74.7, 74.3, 2420 },
+					["questID"] = 86788,
 				}),
 			}),
 		},
@@ -2430,7 +2516,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	-- Boss delves
 	m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 , REMOVED_11_2_0} }, {
 		--["icon"] = [[~_.asset("Delves_Nerubian")]],
-		--["coord"] = { ?, ?, UNDERMINE },
+		["coord"] = { 52.7, 9.4, UNDERMINE },
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(41529),	-- Breaking the Bank
@@ -2469,12 +2555,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(82772),	-- First Delve of the day
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
+		q(86329, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Cosmetic Surprise Bag (itemID 233281)
+		q(86328, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Starter Kit (itemID 233276)
 		-- Bountiful Delve runs
 		q(82944),	-- Earthcrawl Mines
 		q(82939),	-- Fungal Folly
 		q(82941),	-- Kriegval's Rest
 		q(82940),	-- Mycomancer Cavern
 		q(82777),	-- Nightfall Sanctum
+		q(85668, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice (or Cartel bonus rep bonus)
 		q(78508),	-- Skittering Breach
 		q(82776),	-- Tak-Rethan Abyss
 		q(82938),	-- The Dread Pit
@@ -2499,7 +2588,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		-- q(85743),	-- itemID 232496 (Restored Coffer Key)
 		-- q(85746),	-- itemID 232497 (Restored Coffer Key)
 		-- q(85747),	-- itemID 232498 (Restored Coffer Key)
-		-- Seasonal Rewards
+		-- Season 1 Rewards
 		q(83158),	-- Adventurer's Warbound Battlegear Drop (spellID 453929)
 		q(83235),	-- Airship: Wings 05 - Lantern Wing (spellID 454473)
 		q(83236),	-- Airship: Top 03 - Zeppelin (spellID 454476)
@@ -2510,6 +2599,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(83180),	-- Hidden Stash from Deep Within (5k crystals)
 		q(83156),	-- Purchaseable Restored Coffer Key (spellID 453933)
 		q(83193),	-- Trusty Hat (spellID 454301)
+		-- Season 2 Rewards
 		-- Zekvir
 		q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
 		q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)
