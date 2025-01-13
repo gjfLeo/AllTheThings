@@ -1380,3 +1380,9 @@ i(0, 447355);		-- Impeccable Cogwheel
 i(0, 447354);		-- Overclocked Cogwheel
 i(0, 447352);		-- P.0.W. x2
 i(0, 447353);		-- Serrated Cogwheel
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+--- ITEM ---
+i(234274, 1213620);	-- 22H Slicks

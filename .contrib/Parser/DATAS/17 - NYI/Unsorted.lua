@@ -461,9 +461,6 @@ root(ROOTS.Unsorted, {
 				i(232983),	-- Steamboil (MM!)
 				i(232984),	-- Handcrank (MM!)
 
-				-- Wheels
-				i(232985),	-- 22H Slicks (MM!)
-
 				-- Buil Turbos?
 				i(234420),	-- Handcrank Mounting System
 
@@ -645,7 +642,6 @@ root(ROOTS.Unsorted, {
 				i(229945),	-- [PH] Goblin Rocket Mount - Red
 			}),
 			n(PROFESSIONS, {
-				i(230906),	-- Spark of Fortunes
 				prof(COOKING, {
 					i(235800),	-- Recipe: Authentic Undermine Clam Chowder
 					i(235805),	-- Authentic Undermine Clam Chowder
@@ -676,22 +672,6 @@ root(ROOTS.Unsorted, {
 				}),
 				prof(FISHING, {
 					i(227673),	-- "Gold" Fish
-				}),
-				prof(INSCRIPTION, {
-					i(232532),	-- Contract: The Cartels of Undermine+
-					i(232533),	-- Contract: The Cartels of Undermine++
-					i(232534),	-- Contract: The Cartels of Undermine+++
-
-					i(232936),	-- Vantus Rune: Undermine+
-					i(232935),	-- Vantus Rune: Undermine++
-					i(232937),	-- Vantus Rune: Undermine+++
-
-				}),
-				prof(LEATHERWORKING, {
-					i(235335),	-- Charged Armor Kit
-					i(235336),	-- Charged Armor Kit
-					i(235337),	-- Charged Armor Kit
-
 				}),
 			}),
 			n(PVP, {

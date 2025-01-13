@@ -668,6 +668,3 @@ r(1216316),	-- Bloodthirsty Charm of Triumph
 r(1216317),	-- Bloodthirsty Jawbone of Conquest
 11.0.7.57361
 r(1213516),	--
-11.1.0.58221
-r(471132),	-- Contract: The Cartels of Undermine
-r(472951),	-- Vantus Rune: Undermine

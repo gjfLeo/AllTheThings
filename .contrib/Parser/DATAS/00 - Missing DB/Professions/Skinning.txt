@@ -116,5 +116,3 @@ r(302014),	-- Cragscale
 r(302016),	-- Cragscale
 9.0.1.33978
 r(308569),	-- Skinning
-11.0.5.56487
-r(469989),	-- Toughened Tempest Pelt

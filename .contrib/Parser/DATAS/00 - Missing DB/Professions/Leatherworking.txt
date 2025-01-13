@@ -75,5 +75,3 @@ r(1213736),	-- Bramblewood Boots
 r(1213738),	-- Bramblewood Helm
 r(1213751),	-- Dreamscale Breastplate
 r(1214303),	-- Dreamscale Kilt
-11.1.0.58221
-r(1216520),	-- Charged Armor Kit

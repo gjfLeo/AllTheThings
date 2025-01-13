@@ -35,6 +35,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 	i(211296, {	-- Spark of Omens
 		["cost"] = {{"i", 211297, 2}},	-- Fractured Spark of Omens
 	}),
+	i(230906, {	-- Spark of Fortunes
+		["cost"] = {{"i", 230905, 2}},	-- Fractured Spark of Fortunes
+		["timeline"] = { ADDED_11_1_0 },
+	}),
 	prof(ALCHEMY, {
 		n(DISCOVERY, {
 			spell(430345, {	-- Meticulous Experimentation
@@ -1168,6 +1172,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			["requireSkill"] = ENGINEERING,
 		},{
 			-- Miscellaneous
+			--FirstCraft(XXXXX, 1213620, ADDED_11_1_0),	-- 22H Slicks
 			FirstCraft(81356, 447367),	-- Algari Repair Bot 11O
 			FirstCraft(81347, 447358),	-- Blame Redirection Device
 			FirstCraft(81363, 447374),	-- Box o' Booms
@@ -1257,6 +1262,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(221910),	-- Tinker: Heartseeking Health Injector+++
 		}),
 		filter(MISC, {
+			i(232985, {["timeline"] = {ADDED_11_1_0}}),	-- 22H Slicks
 			i(221920),	-- Adjustable Cogwheel+
 			i(221921),	-- Adjustable Cogwheel++
 			i(221922),	-- Adjustable Cogwheel+++
@@ -1596,9 +1602,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(80724, 444215); -- Algari Missive of the Quickblade
 			-- Contracts
 			FirstCraft(80725, 444217); -- Contract: Assembly of the Deeps
+			--FirstCraft(XXXXX, 471132, ADDED_11_1_0);	-- Contract: The Cartels of Undermine
+			FirstCraft(80728, 444220); -- Contract: Council of Dornogal
 			FirstCraft(80726, 444218); -- Contract: Hallowfall Arathi
 			FirstCraft(80727, 444219); -- Contract: The Severed Threads
-			FirstCraft(80728, 444220); -- Contract: Council of Dornogal
 			-- Embellishments
 			FirstCraft(80704, 444195); -- Darkmoon Sigil: Vivacity
 			FirstCraft(80701, 444192); -- Darkmoon Sigil: Ascension
@@ -1617,6 +1624,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(80700, 444191); -- Boundless Cipher
 			-- Runes
 			FirstCraft(80712, 444203); -- Vantus Rune: Nerub-ar Palace
+			--FirstCraft(XXXXX, 472951, ADDED_11_1_0); -- Vantus Rune: Undermine
 			-- Profession Stats
 			FirstCraft(80735, 444232); -- Algari Missive of Crafting Speed
 			FirstCraft(80738, 444235); -- Algari Missive of Deftness
@@ -1712,6 +1720,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222600),	-- Contract: Assembly of the Deeps+
 			i(222601),	-- Contract: Assembly of the Deeps++
 			i(222602),	-- Contract: Assembly of the Deeps+++
+			i(232532, {["timeline"] = {ADDED_11_1_0}}),	-- Contract: The Cartels of Undermine+
+			i(232533, {["timeline"] = {ADDED_11_1_0}}),	-- Contract: The Cartels of Undermine++
+			i(232534, {["timeline"] = {ADDED_11_1_0}}),	-- Contract: The Cartels of Undermine+++
 			i(222597),	-- Contract: Council of Dornogal+
 			i(222598),	-- Contract: Council of Dornogal++
 			i(222599),	-- Contract: Council of Dornogal+++
@@ -1736,6 +1747,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(226034),	-- Vantus Rune: Nerub-ar Palace+
 			i(226035),	-- Vantus Rune: Nerub-ar Palace++
 			i(226036),	-- Vantus Rune: Nerub-ar Palace+++
+			i(232936, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Undermine+
+			i(232935, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Undermine++
+			i(232937, {["timeline"] = {ADDED_11_1_0}}),	-- Vantus Rune: Undermine+++
 		}),
 		filter(PROFESSION_EQUIPMENT, {
 			i(222577),	-- Burnt Rolling Pin
@@ -2174,6 +2188,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(80974, 438911);	-- Algari Competitor's Chain Leggings
 			FirstCraft(80970, 438906);	-- Algari Competitor's Chain Treads
 			-- Consumables
+			--FirstCraft(XXXXX, 1216520, ADDED_11_1_0);	-- Charged Armor Kit
 			FirstCraft(80953, 444103);	-- Defender's Armor Kit
 			FirstCraft(80955, 444104);	-- Dual Layered Armor Kit
 			FirstCraft(80954, 444102);	-- Stormbound Armor Kit
@@ -2246,6 +2261,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(219495),	-- Blessed Weapon Grip+
 			i(219496),	-- Blessed Weapon Grip++
 			i(219497),	-- Blessed Weapon Grip+++
+			i(235335, {["timeline"] = {ADDED_11_1_0}}),	-- Charged Armor Kit+
+			i(235337, {["timeline"] = {ADDED_11_1_0}}),	-- Charged Armor Kit++
+			i(235336, {["timeline"] = {ADDED_11_1_0}}),	-- Charged Armor Kit+++
 			i(219906),	-- Defender's Armor Kit+
 			i(219907),	-- Defender's Armor Kit++
 			i(219908),	-- Defender's Armor Kit+++

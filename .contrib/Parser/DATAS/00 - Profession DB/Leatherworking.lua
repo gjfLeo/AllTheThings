@@ -2489,3 +2489,9 @@ i(0, 443951);		-- Weathered Stormfront Vest
 i(0, 441461);		-- Writhing Armor Banding
 --- NYI ---
 i(0, 444085);		-- Deepfury Hide
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+--- ITEM ---
+i(235338, 1216520); -- Charged Armor Kit
