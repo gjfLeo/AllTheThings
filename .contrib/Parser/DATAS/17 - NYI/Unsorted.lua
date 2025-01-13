@@ -207,7 +207,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(BATTLE_PETS, {
 				i(232806),	-- Tiny Torq
-				i(232807),	-- Iron Chick
 				i(232838),	-- Viridian Mechasaur
 				i(232844),	-- Fuz-Size Flarendo
 				i(232847),	-- Personal-Use Sapper

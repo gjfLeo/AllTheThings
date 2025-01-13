@@ -10,28 +10,49 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				faction(FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL),	-- Steamwheedle Cartel
 				faction(FACTION_VENTURE_CO),	-- Venture Co
 				ach(41349, {	-- In with the Cartels
-					-- ["minReputations"] = {
-					-- 	{ FACTION_UNDERMINE_BILGEWATER_CARTEL, HONORED },	-- Bilgewater Cartel Honored
-					-- 	{ FACTION_BLACKWATER_CARTEL, HONORED },	-- Blackwater Cartel Honored
-					-- 	{ FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, HONORED },	-- Steamwheedle Cartel Honored
-					-- 	{ FACTION_VENTURE_CO, HONORED },	-- Venture Co Honored
-					-- },
+					crit(102751, {	-- Bilgewater Cartel
+						["minReputation"] = { FACTION_UNDERMINE_BILGEWATER_CARTEL, HONORED },	-- Bilgewater Cartel Honored
+					}),
+					crit(102752, {	-- Blackwater Cartel
+						["minReputation"] = { FACTION_BLACKWATER_CARTEL, HONORED },	-- Blackwater Cartel Honored
+					}),
+					crit(102753, {	-- Steamwheedle Cartel
+						["minReputation"] = { FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, HONORED },	-- Steamwheedle Cartel Honored
+					}),
+					crit(102754, {	-- Venture Co
+						["minReputation"] = { FACTION_VENTURE_CO, HONORED },	-- Venture Co Honored
+					}),
+					i(232807),	-- Iron Chick
 				}),
 				ach(41351, {	-- Cartels Bestie
-					-- ["minReputations"] = {
-					-- 	{ FACTION_UNDERMINE_BILGEWATER_CARTEL, REVERED },	-- Bilgewater Cartel Revered
-					-- 	{ FACTION_BLACKWATER_CARTEL, REVERED },	-- Blackwater Cartel Revered
-					-- 	{ FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, REVERED },	-- Steamwheedle Cartel Revered
-					-- 	{ FACTION_VENTURE_CO, REVERED },	-- Venture Co Revered
-					-- },
+					crit(102751, {	-- Bilgewater Cartel
+						["minReputation"] = { FACTION_UNDERMINE_BILGEWATER_CARTEL, REVERED },	-- Bilgewater Cartel Revered
+					}),
+					crit(102752, {	-- Blackwater Cartel
+						["minReputation"] = { FACTION_BLACKWATER_CARTEL, REVERED },	-- Blackwater Cartel Revered
+					}),
+					crit(102753, {	-- Steamwheedle Cartel
+						["minReputation"] = { FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, REVERED },	-- Steamwheedle Cartel Revered
+					}),
+					crit(102754, {	-- Venture Co
+						["minReputation"] = { FACTION_VENTURE_CO, REVERED },	-- Venture Co Revered
+					}),
+					-- TODO: Ensemble: Goblin Bruiser's Attire
 				}),
 				ach(41352, {	-- Trade-Duke
-					-- ["minReputations"] = {
-					-- 	{ FACTION_UNDERMINE_BILGEWATER_CARTEL, EXALTED },	-- Bilgewater Cartel Exalted
-					-- 	{ FACTION_BLACKWATER_CARTEL, EXALTED },	-- Blackwater Cartel Exalted
-					-- 	{ FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamwheedle Cartel Exalted
-					-- 	{ FACTION_VENTURE_CO, EXALTED },	-- Venture Co Exalted
-					-- },
+					crit(102751, {	-- Bilgewater Cartel
+						["minReputation"] = { FACTION_UNDERMINE_BILGEWATER_CARTEL, EXALTED },	-- Bilgewater Cartel Exalted
+					}),
+					crit(102752, {	-- Blackwater Cartel
+						["minReputation"] = { FACTION_BLACKWATER_CARTEL, EXALTED },	-- Blackwater Cartel Exalted
+					}),
+					crit(102753, {	-- Steamwheedle Cartel
+						["minReputation"] = { FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamwheedle Cartel Exalted
+					}),
+					crit(102754, {	-- Venture Co
+						["minReputation"] = { FACTION_VENTURE_CO, EXALTED },	-- Venture Co Exalted
+					}),
+					-- TODO: Title: Trade-duke
 				}),
 				ach(41086, {	-- Ally of Undermine
 					["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 20 },	-- Cartels of Undermine 20
