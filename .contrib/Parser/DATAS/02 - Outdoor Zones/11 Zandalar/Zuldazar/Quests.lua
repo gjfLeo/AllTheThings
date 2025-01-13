@@ -1498,7 +1498,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 64.1, 35.3, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(155916),	-- Fragrant Rushes (QI!)
+					o(279044, {	-- Zandalari Rushes
+						["g"] = { i(155916) },	-- Fragrant Rushes (QI!)
+					}),
 				},
 			}),
 			q(47739, {	-- The Scent of Vengeance
@@ -1810,7 +1812,22 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = { 49488 },	-- Tal'gurub
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(154901),	-- Voodoo Totem (QI!)
+					o(278453, {	-- Voodoo Totem
+						["coords"] = {
+							{ 62.4, 28.5, ZULDAZAR },
+							{ 62.5, 28.4, ZULDAZAR },
+							{ 62.7, 29.1, ZULDAZAR },
+							{ 63.1, 30.2, ZULDAZAR },
+							{ 63.1, 31.3, ZULDAZAR },
+							{ 63.7, 30.9, ZULDAZAR },
+							{ 63.8, 30.2, ZULDAZAR },
+							{ 63.9, 31.9, ZULDAZAR },
+							{ 64.2, 32.8, ZULDAZAR },
+							{ 64.4, 33.9, ZULDAZAR },
+							{ 64.7, 33.0, ZULDAZAR },
+						},
+						["g"] = { i(154901) },	-- Voodoo Totem (QI!)
+					}),
 				},
 			}),
 			q(53452, {	-- Gorilla Warfare (A)

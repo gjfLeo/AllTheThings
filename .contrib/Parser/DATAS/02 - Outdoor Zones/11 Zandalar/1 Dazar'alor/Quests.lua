@@ -979,9 +979,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(47433, {	-- Offensively Defensive
-				["provider"] = { "n", 126564 },	-- Hexlord Raal
-				["races"] = HORDE_ONLY,
 				["sourceQuests"] = { 47423 },	-- Forbidden Practices
+				["provider"] = { "n", 126564 },	-- Hexlord Raal
+				["coord"] = { 51.8, 11.9, DAZARALOR },
+				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(155246),	-- Jambani Grips
 					i(155247),	-- Rastari Gauntlets
@@ -1036,7 +1037,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 136683 },	-- Trade Prince Gallywix
 				["races"] = HORDE_ONLY,
 			}),
-
 			q(75874, {	-- Time to Fly
 				["description"] = "Reaching Level 30 will make this quest pop up.",
 				["races"] = HORDE_ONLY,
