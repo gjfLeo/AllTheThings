@@ -1362,9 +1362,6 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			i(205166, {	-- Kromos (PET!)
 				["displayID"] = 112205,
 			}),
-			i(205013, {	-- Lettuce (PET!)
-				["displayID"] = 112149,
-			}),
 			i(205149, {	-- Ravenous Shalewing (PET!)
 				["displayID"] = 112187,
 			}),

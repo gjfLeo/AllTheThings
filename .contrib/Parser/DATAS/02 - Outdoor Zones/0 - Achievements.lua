@@ -1806,8 +1806,85 @@ root(ROOTS.Zones, {
 			}),
 		})),
 		ach(1244, bubbleDownSelf({["timeline"] = { ADDED_3_0_2 } }, {	-- Well Read
-			
+
 		})),
+		petbattle(ach(41092, bubbleDownSelf({["timeline"] = { ADDED_11_1_0 } }, {	-- Undermine Safari (also includes Zandalar locations)
+			crit(70951, {	-- Wily Rat
+				["crs"] = { 231477 },	-- Wily Rat
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70952, {	-- Underroach
+				["crs"] = { 231481 },	-- Underroach
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70953, {	-- Bombshell Crab
+				["crs"] = { 231550 },	-- Bombshell Crab
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70954, {	-- Venture Crab
+				["crs"] = { 231567 },	-- Venture Crab
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70955, {	-- Cave Crab
+				["crs"] = { 231570 },	-- Cave Crab
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70956, {	-- Kaja Crab
+				["crs"] = { 231572 },	-- Kaja Crab
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70957, {	-- Varmint Mark II
+				["crs"] = { 231577 },	-- Varmint Mark II
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70958, {	-- Lime Roboclucker
+				["crs"] = { 231579 },	-- Lime Roboclucker
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70959, {	-- Tropical Frog
+				["crs"] = { 231616 },	-- Tropical Frog
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70960, {	-- Spring-Loaded Ribbitron
+				["crs"] = { 231684 },	-- Spring-Loaded Ribbitron
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70961, {	-- Hemospore
+				["crs"] = { 222592 },	-- Hemospore
+				-- ["coords"] = {
+
+				-- },
+			}),
+			crit(70962, {	-- Frenzied Bloodtick
+				["crs"] = { 222420 },	-- Frenzied Bloodtick
+				-- ["coords"] = {
+
+				-- },
+			}),
+			i(205013, {	-- Lettuce (PET!)
+				["displayID"] = 112149,
+			}),
+		}))),
 		applyclassicphase(WRATH_PHASE_ONE, ach(46, {	-- Universal Explorer [7.0.3] / World Explorer
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
