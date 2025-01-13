@@ -9,17 +9,6 @@ ach(41350),	-- A Long Fuse
 ach(41351),	-- Cartels Bestie
 ach(41352),	-- Trade-Duke
 ach(41522),	-- Tour of Duty: Undermine
-ach(41541),	-- Critter Battler of Undermine
-ach(41542),	-- Aquatic Battler of Undermine
-ach(41543),	-- Beast Battler of Undermine
-ach(41544),	-- Dragonkin Battler of Undermine
-ach(41545),	-- Elemental Battler of Undermine
-ach(41546),	-- Flying Battler of Undermine
-ach(41547),	-- Humanoid Battler of Undermine
-ach(41548),	-- Magic Battler of Undermine
-ach(41549),	-- Mechanical Battler of Undermine
-ach(41550),	-- Undead Battler of Undermine
-ach(41551),	-- Family Battler of Undermine
 ach(41555),	-- All That Khaz
 ach(41586),	-- Racing to a Revolution
 ach(41587),	-- Explore Undermine

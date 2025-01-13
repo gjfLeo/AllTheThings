@@ -1841,7 +1841,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(49282, {	-- Morgrum's Extended Survey
 				["coord"] = { 44.4, 73.4, ZULDAZAR },
 				["races"] = ALLIANCE_ONLY,
-				["providers"] = { "n", 131763 },	-- Excavator Morgrum Emberflint
+				["provider"] = { "n", 131763 },	-- Excavator Morgrum Emberflint
 				["sourceQuests"] = {
 					49060,	-- Xibalan Ecology
 					49274,	-- Morgrum's Survey
