@@ -40,11 +40,9 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["timeline"] = { ADDED_11_0_7 },
 							-- Meta Achievement
 							["sym"] = {{"meta_achievement",
-								13772,	-- Essence Essentials
 								12918,	-- Have a Heart
 								13777,	-- My Heart Container is Full
 								13771,	-- Power Is Beautiful
-								13998,	-- Pure of Heart
 								13572,	-- The Heart Forge
 							}},
 						}),
@@ -1201,6 +1199,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 				q(50374, {	-- The Blood of Azeroth (A)
 					["qg"] = 130216,	-- Magni Bronzebeard
 					["sourceQuest"] = 50049,	-- The Speaker's Perspective (A)
+					["coord"] = { 42.2, 44.2, SILITHUS },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(50364, {	-- The Blood of Azeroth (H)
@@ -1268,6 +1267,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 				q(50049, {	-- The Speaker's Perspective (A)
 					["qg"] = 130032,	-- Archmage Khadgar
 					["sourceQuest"] = 50373,	-- A Recent Arrival
+					["coord"] = { 68.9, 19.2, SILITHUS },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(50055, {	-- The Speaker's Perspective (H)
