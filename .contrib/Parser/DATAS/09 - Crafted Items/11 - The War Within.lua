@@ -2405,6 +2405,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(86795, 228601, ADDED_11_0_7),	-- Skinning Ghostmaker
 			FirstSkin(83402, 221668),	-- Skinning Horror of the Shallows
 			FirstSkin(83413, 221327),	-- Skinning Kaheti Silk Hauler
+			FirstSkin(81455, 220275),	-- Skinning King Splash
 			FirstSkin(83409, 220285),	-- Skinning Lurker of the Deeps
 			FirstSkin(83400, 221534),	-- Skinning Lytfang the Lost
 			FirstSkin(83416, 216044),	-- Skinning Maddened Siegebomber
