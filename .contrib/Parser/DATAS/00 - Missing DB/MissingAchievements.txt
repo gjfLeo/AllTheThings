@@ -1,21 +1,11 @@
 11.1.0.58221
-ach(41349),	-- In with the Cartels
-ach(41350),	-- A Long Fuse
-ach(41351),	-- Cartels Bestie
-ach(41352),	-- Trade-Duke
 ach(41522),	-- Tour of Duty: Undermine
+
 ach(41555),	-- All That Khaz
+
 ach(41586),	-- Racing to a Revolution
-ach(41587),	-- Explore Undermine
 ach(41588),	-- Read Between the Lines
 ach(41589),	-- That Can-Do Attitude
-ach(41590),	-- No Littering
-ach(41591),	-- Really No Littering
-ach(41592),	-- Absolutely Zero Littering
-ach(41593),	-- Cleanin' the Streets
-ach(41594),	-- Can You Believe What People Throw Away?
-ach(41626),	-- C.H.E.T.T. a Look
-ach(41627),	-- C.H.E.T.T.ing it Twice
-ach(41629),	-- C.H.E.T.T.mate
-ach(41630),	-- "Employee" of the Month
+ach(41587),	-- Explore Undermine
+
 ach(41665),	-- Dressed to the Mines
