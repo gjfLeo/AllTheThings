@@ -184,7 +184,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(160073),	-- Outrigger Skullguard
 					i(160074),	-- Outrigger Shoulderguards
 					i(160080),	-- Outrigger Chain Leggings
-					i(160090),	-- Outrigger Graspers
+					--i(160090),	-- Outrigger Graspers
 					i(160856),	-- Outrigger Spaulders
 					i(160893),	-- Outrigger Breastplate
 				}),
