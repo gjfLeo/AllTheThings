@@ -301,7 +301,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(54188, {	-- Scrambled Bots (Faction Assault WQ)
 				["races"] = ALLIANCE_ONLY,
 				["g"] = {
-					i(165841),	-- Bot Scrambler (QI!)
+					o(311822, {	-- Bot Scrambler
+						["coord"] = { 39.5, 53.7, VOLDUN },
+						["g"] = { i(165841), },	-- Bot Scrambler (QI!)
+					}),
 				},
 			}),
 			q(51629),	-- Shell Game

@@ -1788,7 +1788,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(53449, {	-- Apes of Wrath
 				["isBreadcrumb"] = true,
 				["provider"] = { "n", 129589 },	-- The Monkey King
-				["coord"] = { 47.0, 88.4, DAZARALOR },
+				["coords"] = {
+					{ 47.0, 88.4, DAZARALOR },
+					{ 57, 58.5, ZULDAZAR },
+				},
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(50044, {	-- Archaeological Efficiency (A)
@@ -1811,7 +1814,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(53452, {	-- Gorilla Warfare (A)
-				["provider"] = { "n", 130947 },	-- Tsunga
+				["provider"] = { "n", 143792 },	-- Tsunga
 				["coord"] = { 50.2, 54.6, ZULDAZAR },
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -1830,7 +1833,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(53450, {	-- King Da'ka (A)
-				["provider"] = { "n", 129589 },	-- The Monkey King
+				["provider"] = { "n", 143787 },	-- Flap-Flap
 				["coord"] = { 51.4, 53.0, ZULDAZAR },
 				["sourceQuests"] = { 53449 },	-- Apes of Wrath
 				["races"] = ALLIANCE_ONLY,
@@ -1838,7 +1841,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(49282, {	-- Morgrum's Extended Survey
 				["coord"] = { 44.4, 73.4, ZULDAZAR },
 				["races"] = ALLIANCE_ONLY,
-				["provider"] = { "n", 131763 },	-- Excavator Morgrum Emberflint
+				["providers"] = { "n", 131763 },	-- Excavator Morgrum Emberflint
 				["sourceQuests"] = {
 					49060,	-- Xibalan Ecology
 					49274,	-- Morgrum's Survey
