@@ -137,27 +137,30 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235309),	-- Gloomshroud Robe
 				},
 			}),
-			--[[ According to Renown 6 description (Big Game Hunter) - could be locked behind it?
-			n(xx, {	-- Aurumensis
-				["coord"] = { x, y, UNDERMINE },
-				["questID"] = xx,
+			n(234480, {	-- M.A.G.N.O. (Aurumensis)
+				--["coord"] = { x, y, UNDERMINE },
+				--["questID"] = xx,
 			}),
-			n(xx, {	-- Glovante
-				["coord"] = { x, y, UNDERMINE },
-				["questID"] = xx,
+			n(234499, {	-- Glovante
+				--["coord"] = { x, y, UNDERMINE },
+				--["questID"] = xx,
 			}),
-			n(xx, {	-- Scrapchewer
-				["coord"] = { x, y, UNDERMINE },
-				["questID"] = xx,
+			n(233471, {	-- Scrapchewer
+				--["coord"] = { x, y, UNDERMINE },
+				--["questID"] = xx,
 			}),
-			n(xx, {	-- Volstrike the Charged
-				["coord"] = { x, y, UNDERMINE },
-				["questID"] = xx,
+			n(230947, {	-- Slimesby
+				--["coord"] = { x, y, UNDERMINE },
+				--["questID"] = xx,
 			}),
-			n(xx, {	-- The Darkfuse Precipitant
-				["coord"] = { x, y, UNDERMINE },
-				["questID"] = xx,
-			}),]]--
+			n(231310, {	-- The Darkfuse Precipitant
+				--["coord"] = { x, y, UNDERMINE },
+				--["questID"] = xx,
+			}),
+			n(233472, {	-- Volstrike the Charged
+				--["coord"] = { x, y, UNDERMINE },
+				--["questID"] = xx,
+			}),
 		}),
 	}),
 })));

@@ -20,6 +20,7 @@ local CREECH = {
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(ACHIEVEMENTS, {
+			ach(41216),	-- Adventurer of Undermine (automated)
 			header(HEADERS.Achievement, 41551, {	-- Family Battler of Undermine
 				petbattle(ach(41551, {	-- Family Battler of Undermine
 					-- Meta Achievement
@@ -219,6 +220,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			ach(40948),	-- Nine-Tenths of the Law
 			ach(40894),	-- Sojourner of Undermine (automaded)
+			ach(41217),	-- Treasures of Undermine (automated)
 			ach(40900),	-- Undermined (automated)
 		}),
 	}),
