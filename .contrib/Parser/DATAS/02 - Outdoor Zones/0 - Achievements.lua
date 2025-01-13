@@ -84,7 +84,9 @@ root(ROOTS.Zones, {
 		}),
 		ach(31, {		-- A Simple Re-Quest
 			["timeline"] = { ADDED_3_0_2 },
-			crit(72),
+			["groups"] = {
+				crit(72),
+			},
 		}),
 		applyclassicphase(PHASE_ONE, achWithReps(948, {	-- Ambassador of the Alliance
 		FACTION_DARNASSUS, FACTION_GNOMEREGAN, FACTION_IRONFORGE, FACTION_STORMWIND,		-- Exalted Darnassus, Gnomeregan, Ironforge, Stormwind City
