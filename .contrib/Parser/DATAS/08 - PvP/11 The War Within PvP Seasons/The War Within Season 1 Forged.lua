@@ -744,26 +744,15 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 					i(218512),	-- Forged Gladiator's Silk Wristwraps
 				}),
 				cl(WARRIOR, {
-					-- TODO: Move 10 pieces into NYI
 					i(218688),	-- Forged Gladiator's Chestguard
-					i(218689),	-- Forged Gladiator's Chestplate
 					i(218704),	-- Forged Gladiator's Cloak
-					i(218705),	-- Forged Gladiator's Drape
 					i(218692),	-- Forged Gladiator's Plate Gauntlets
 					i(218700),	-- Forged Gladiator's Plate Girdle
-					i(218701),	-- Forged Gladiator's Plate Greatbelt
-					i(218693),	-- Forged Gladiator's Plate Handguards
 					i(218694),	-- Forged Gladiator's Plate Helm
-					i(218695),	-- Forged Gladiator's Plate Helmet
 					i(218696),	-- Forged Gladiator's Plate Legguards
-					i(218699),	-- Forged Gladiator's Plate Pauldrons
 					i(218698),	-- Forged Gladiator's Plate Shoulders
-					i(218691),	-- Forged Gladiator's Plate Stompers
-					i(218703),	-- Forged Gladiator's Plate Vambraces
 					i(218690),	-- Forged Gladiator's Plate Warboots
-					i(218697),	-- Forged Gladiator's Plate Wargreaves
 					i(218702),	-- Forged Gladiator's Plate Wristguards
-					i(218706),	-- Forged Gladiator's Shawl
 				}),
 			}),
 			n(219216, {	-- Rogurn <Elite Conquest Quartermaster>

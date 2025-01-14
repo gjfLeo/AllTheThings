@@ -12124,7 +12124,16 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(218499),	-- Forged Gladiator's Silk Vestments
 					}),
 					cl(WARRIOR, {
-						-- TODO
+						i(218689),	-- Forged Gladiator's Chestplate
+						i(218705),	-- Forged Gladiator's Drape
+						i(218701),	-- Forged Gladiator's Plate Greatbelt
+						i(218693),	-- Forged Gladiator's Plate Handguards
+						i(218695),	-- Forged Gladiator's Plate Helmet
+						i(218699),	-- Forged Gladiator's Plate Pauldrons
+						i(218691),	-- Forged Gladiator's Plate Stompers
+						i(218703),	-- Forged Gladiator's Plate Vambraces
+						i(218697),	-- Forged Gladiator's Plate Wargreaves
+						i(218706),	-- Forged Gladiator's Shawl
 					}),
 				})),
 			}),
