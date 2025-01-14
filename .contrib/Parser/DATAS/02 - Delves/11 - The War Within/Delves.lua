@@ -2147,6 +2147,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	m(TAK_RETHAN_ABYSS, {
 		["icon"] = [[~_.asset("Delves_Kobyss")]],
 		["coord"] = { 55.5, 74.9, AZJ_KAHET },
+		["maps"] = {
+			2314,
+		},
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(40811),	-- Tak-Rethan Abyss Discoveries
