@@ -1410,6 +1410,7 @@ ExportDB.AccountWideQuestsDB = {
 	[78889] = true,
 	[78904] = true,
 	[78938] = true,	-- Champion of the Waterlords
+	[79081] = true,	-- Daily lockout for Flamegard's Hope credit
 	[79142] = true,
 	[79178] = true,
 	[79184] = true,

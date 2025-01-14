@@ -1261,7 +1261,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(83288),	-- system become unfair
 				q(83289),	-- reject work and blame Edwyn in addition
 				--questID 82894 (The Price of Hope)
-				q(79081),	-- after using Cobbled Together Bandage on injured Soldier @ 43.3, 51.7
 				-- questID 82479 (The Sword is Mightier)
 				q(82728),	-- 4 page / 1 node (The work...)
 				q(82738),	-- 4 page / 1 node (The work...)

@@ -10,6 +10,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			ach(20594, {	-- Flamegard's Hope
 				["description"] = "Use healing spells, bandages or Algari Healing Potion to heal 20 patients over 20 days. This does not have to be done on consecutive days.",
 				["coord"] = { 43.2, 51.8, HALLOWFALL },
+				["crs"] = {
+					213306,	-- Injured Solider
+					215678,	-- Injured Soldier
+					220225,	-- Injured Soldier
+				},
 			}),
 			ach(20598),		-- Hallowfall (automated)
 			ach(40704, {	-- Hallowfall Glyph Hunter
@@ -36,8 +41,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			ach(40618, {	-- Lost and Found (automated)
 				iensemble(219105),	-- Sandy Quotidian Wear
 			}),
-			ach(40151),		-- Mereldar Menace
-			ach(40082),		-- Never Enough
+			ach(40151, {	-- Mereldar Menace
+				["description"] = "Use Throwing Stone at the 3 coordinates to hit nearby targets. Chat dialogs will indicate success per target.",
+				["provider"] = { "o", 412066 },	-- Throwing Stone
+				["coords"] = {
+					{ 41.9, 55.5, HALLOWFALL },	-- Throwing Stone
+					{ 42.3, 52.5, HALLOWFALL },	-- Throwing Stone
+					{ 44.2, 51.2, HALLOWFALL },	-- Throwing Stone
+				},
+			}),
+			ach(40082, {	-- Never Enough
+				["crs"] = {
+					215254,	-- Alyza Bowblaze (minion)
+					219368,	-- Alyza Bowblaze
+				},
+			}),
 			ach(40685, {	-- Skyriding Glyphs: Bleak Sand
 				["coord"] = { 62.8, 7.2, HALLOWFALL },
 			}),
@@ -125,6 +143,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	m(KHAZ_ALGAR, {
 		m(HALLOWFALL, {
 			n(ACHIEVEMENTS, {
+				q(79081,name(HEADERS.Achievement,20594,{isDaily=true})),	-- daily progress on 'Flamegard's Hope'
+				q(82131, name(HEADERS.NPC,215254)),	-- talking to Alyza Bowblaze and telling her to 'go away'
 				q(83624),	-- Choosing 'Novice Formation' difficulty for 'Light's Gambit Champion' (achievementID 40729)
 				q(83625),	-- Choosing 'Adept Formation' difficulty for 'Light's Gambit Champion' (achievementID 40729)
 				q(83626),	-- Choosing 'Master Formation' difficulty for 'Light's Gambit Champion' (achievementID 40729)
