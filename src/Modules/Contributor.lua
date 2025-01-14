@@ -336,7 +336,7 @@ MobileDB.GameObject = {
 	[356560] = true,	-- Explosive Animastore (q:60532)
 	[356561] = true,	-- Everburn Lantern (q:60532)
 	[356562] = true,	-- Emberlight Lantern (q:60532)
-	[356562] = true,	-- Sanguine Rose (q:60532)
+	[356563] = true,	-- Sanguine Rose (q:60532)
 	[376587] = true,	-- Expedition Scout's Pack
 	[378802] = true,	-- Corrupted Dragon Egg
 	[383732] = true,	-- Tuskarr Tacklebox
@@ -636,7 +636,7 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- close enough to an object to open, track potential looting via mouseclick for a few seconds
 	RegisterUNIT_SPELLCAST_START(10)
 
-	local objRef = app.SearchForObject("objectID", id, "field")
+	local objRef = app.SearchForObject("objectID", id)
 	-- only check sourced objects
 	if not objRef then return end
 	-- app.PrintDebug("GameObject",app:SearchLink(objRef))
