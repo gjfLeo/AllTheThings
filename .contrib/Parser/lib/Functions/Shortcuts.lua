@@ -1233,6 +1233,10 @@ end
 mount = function(id, t)									-- Create a MOUNT Object, which is just a spellID with a filter.
 	return struct("mountID", id, t);
 end
+
+---@param id number
+---@param t? table
+---@return table|nil
 npc = function(id, t)									-- Create an NPC Object (negative indicates that it is custom)
 	if not id then
 		print("NPC ID Missing for n() header");
