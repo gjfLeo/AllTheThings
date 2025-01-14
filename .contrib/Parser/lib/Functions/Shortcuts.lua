@@ -1187,6 +1187,10 @@ inst = function(id, t)									-- Create an INSTANCE Object
 	-- #endif
 	return t;
 end
+
+---@param id number
+---@param t? table
+---@return table|nil
 map = function(id, t)									-- Create a MAP Object
 	if t then
 		-- do not attach achievements to maps
