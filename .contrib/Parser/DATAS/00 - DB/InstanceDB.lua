@@ -223,7 +223,21 @@ inst(1274, 2669);	-- City of Threads
 inst(1276, 429);	-- Dire Maul - Warpwood Quarter
 inst(1277, 429);	-- Dire Maul - Gordok Commons
 inst(1278, 2774);	-- Khaz Algar
+inst(1279, 2664);	-- Fungal Folly
+inst(1280, 2679);	-- Mycomancer Cavern
+inst(1281, 2681);	-- Kriegval's Rest
+inst(1282, 2683);	-- The Waterworks
+inst(1283, 2687);	-- The Sinkhole
+inst(1284, 2689);	-- Tak-Rethan Abyss
+inst(1285, 2686);	-- Nightfall Sanctum
+inst(1286, 2690);	-- The Underkeep
+inst(1287, 2680);	-- Earthcrawl Mines
+inst(1288, 2684);	-- The Dread Pit
+inst(1289, 2685);	-- Skittering Breach
+inst(1290, 2688);	-- The Spiral Weave
+inst(1291, 2682);	-- Zekvir's Lair
 inst(1292, 329);	-- Stratholme - Service Entrance
+inst(1293, 2690);	-- The Underkeep
 inst(1301, 2792);	-- Blackrock Depths
 
 -- Reassign the instance function
