@@ -700,7 +700,16 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["sourceQuests"] = { 50446 },	-- Witchrending
 				["g"] = {
-					i(157840),	-- Falconer's Key (QI!)
+					o(281326, {	-- Falcon Cage
+						["coords"] = {
+							{ 31.8, 25.5, DRUSTVAR },
+							{ 31.9, 24.2, DRUSTVAR },
+							{ 31.6, 24.9, DRUSTVAR },
+							{ 31.4, 24.2, DRUSTVAR },
+							{ 31.3, 24.8, DRUSTVAR },
+						},
+						["g"] = { i(157840) },	-- Falconer's Key (QI!)
+					}),
 				},
 				-- May be available earlier; needs confirmation.
 				-- Not required for "Drust Do It."

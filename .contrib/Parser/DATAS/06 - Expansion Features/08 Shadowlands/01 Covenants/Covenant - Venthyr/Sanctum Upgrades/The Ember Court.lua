@@ -1111,7 +1111,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										i(176139, {	-- Contract: Stoneborn Reserves (EC!)
 											["questID"] = 59515,
 										}),
-										o(356561, {	-- Stoneborn Glaive
+										o(355971, {	-- Stoneborn Glaive
 											i(181500),	-- Stoneborn Glaive (QI!)
 										}),
 									},

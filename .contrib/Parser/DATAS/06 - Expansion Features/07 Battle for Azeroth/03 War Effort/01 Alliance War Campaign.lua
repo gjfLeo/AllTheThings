@@ -1573,9 +1573,18 @@ root(ROOTS.ExpansionFeatures,
 							["coord"] = { 11.5, 17.6, ASHENVALE },
 							["races"] = ALLIANCE_ONLY,
 							["g"] = {
-								i(165232),	-- Ancient Kaldorei Tome (QI!)
-								i(165233),	-- Discarded Nightsaber Bridle (QI!)
-								i(165250),	-- Elun'tara, Bow of the High Priestess (QI!)
+								o(310600, {	-- Ancient Kaldorei Tome
+									["coord"] = { 9.9, 13.9, ASHENVALE },
+									["g"] = { i(165232) },	-- Ancient Kaldorei Tome (QI!)
+								}),
+								o(310601, {	-- Discarded Nightsaber Bridle
+									["coord"] = { 11.3, 13.7, ASHENVALE },
+									["g"] = { i(165233) },	-- Discarded Nightsaber Bridle (QI!)
+								}),
+								o(310603, {	-- Bow of the High Priestess
+									["coord"] = { 12.0, 15.4, ASHENVALE },
+									["g"] = { i(165250) },	-- Elun'tara, Bow of the High Priestess (QI!)
+								}),
 							},
 						}),
 						q(54041, {	-- No Survivors

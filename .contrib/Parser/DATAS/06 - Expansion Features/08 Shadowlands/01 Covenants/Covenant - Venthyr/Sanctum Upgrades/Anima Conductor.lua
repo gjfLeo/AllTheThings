@@ -12,7 +12,7 @@ local HARIKA_THE_HORRID = n(165290, {	-- Harika the Horrid
 	["coord"] = { 45.8, 79.0, REVENDRETH },
 	["g"] = {
 		q(59607, {	-- Takin' Down the Beast
-			["description"] = "If this quest is offered, it must be completed to spawn the rare.",
+			["description"] = "If this quest is offered, it must be completed to spawn the rare.\n\nAfter completing the quest, talk to Wingsmash and tell him to load the Ballista.",
 			["providers"] = {
 				{ "n", 165327 },	-- Wingsmash
 				{ "o", 348676 },	-- Dredhollow Bolt
@@ -21,8 +21,20 @@ local HARIKA_THE_HORRID = n(165290, {	-- Harika the Horrid
 			["coord"] = { 46.30, 77.86, REVENDRETH },
 			["cost"] = { { "i", 176397, 1 } },	-- 1x Dredhollow Bolt
 		}),
-		i(176397, {	-- Dredhollow Bolt
-			["coord"] = { 43.2, 77.6, REVENDRETH },	-- Dredhollow Bolt
+		o(348676, {	-- Ballista Bolt
+			["coords"] = {
+				{ 41.0, 73.7, REVENDRETH },
+				{ 42.6, 73.3, REVENDRETH },
+				{ 42.2, 73.6, REVENDRETH },
+				{ 41.5, 74.8, REVENDRETH },
+				{ 40.9, 73.8, REVENDRETH },
+				{ 42.0, 77.4, REVENDRETH },
+				{ 43.5, 76.0, REVENDRETH },
+				{ 43.2, 77.7, REVENDRETH },
+				{ 43.3, 78.4, REVENDRETH },
+				{ 42.2, 80.6, REVENDRETH },
+			},
+			["g"] = { i(176397) },	-- Dredhollow Bolt (QI!)
 		}),
 		SHRIEKERS_VOICEBOX,
 		i(180461),	-- Horrid Dredwing (MOUNT!)
