@@ -28,11 +28,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				-- TODO: Only 3 piles per week fire hqts? Counter for weekly?
 				q(86414, {	-- Magno-Scrapper 9000
 					["coord"] = { 36.7, 26.3, UNDERMINE },
-					["g"] = {
-						--bonus objective with rare? n: 234480 M.A.G.N.O. (86298 kill questID?)
-					},
 				}),
 				-- Location quests
+				-- TODO: there questID with reward chest per spot in the end which flag when spawned and unflag when looted
 				q(87310),	-- Hovel Hill (North)
 				q(87311),	-- Hovel Hill (South)
 				q(87312),	-- The VatWorks
@@ -44,9 +42,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can
 				--
-				i(236178),	-- Gammy's Hand-Me-Down Bow
-				i(236181),	-- Center-Stage Remover
-				i(236191),	-- Mechanic's Best Motivator
+				i(236181),	-- Center-Stage Remover (COSMETIC!)
+				i(236178),	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
+				i(236191),	-- Mechanic's Best Motivator (COSMETIC!)
 			}),
 			n(VENDORS, {
 			}),

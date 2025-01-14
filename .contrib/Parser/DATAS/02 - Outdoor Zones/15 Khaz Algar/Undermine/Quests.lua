@@ -1245,13 +1245,16 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				-- CHETT
 				q(87296),	-- C.H.E.T.T. List (spellID 1219077)
 				-- Bonus objective during DRIVE? Probably gonna throw under special header too
-				-- Temporary sorting via questID for easy and quick check up new one
+				-- TODO: Temporary sorting via questID for easy and quick check up new one
+				-- TODO: don't forget to add repeatable - true for them
 				q(83055),	-- Signed, Sealed
 				q(84788),	-- Hotrocket Hot Dogs
 				q(84791),	-- Hotrocket Burgers
+				q(85715),	-- Muse Wanted
 				q(85732),	-- Express Extermination
 				q(85733),	-- Daquiri Disaster
 				q(85758),	-- Sweeping Up
+				q(85759),	-- Crystal Alignment
 				q(85769),	-- The Party Must Go On
 				q(85771),	-- Paper Delivery
 				q(85797),	-- Knife Fight
@@ -1260,14 +1263,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85861),	-- Rug Monster!!!
 				q(85874, {i(232619),}),	-- Goldfish Rescue (+ Gary the Goldfish (QI!))
 				q(85888),	-- Artistic License
+				q(85946),	-- The Great Crab Breakout
 				q(86311),	-- Heaps of Trouble
 				q(86313),	-- Darkfuse Cleanup
 				q(86314),	-- Ooze on Aisle 3
 				q(86315),	-- Chaos in the Streets
+				q(86317),	-- Black Blood by Sea
 				q(86318),	-- Tailgater Troubles
 				q(86319),	-- Eyes of the Sky
 				q(86320),	-- Bully For You!
 				q(86321),	-- Door to Door
+				q(86370),	-- Clean Sweep
 				q(86410),	-- Slime Wranglin'
 				q(86412),	-- Fancy Pants
 				q(86418),	-- Fresh Towel?

@@ -200,7 +200,6 @@ root(ROOTS.Unsorted, {
 
 				-- Armor/Cosmetic Delves or Quest?
 				i(235507),	-- Might-Be-Invisible Drape
-				i(235508),	-- Might-Be-Invisible Cape
 				i(235614),	-- Golden-Gob Propulsion Rig
 				i(235615),	-- Rusty Gobjets
 				i(235616),	-- True Speed Goblin-Thruster
@@ -421,10 +420,7 @@ root(ROOTS.Unsorted, {
 
 				i(235854),	-- Gold-Inlaid Jetpack
 				i(236161),	-- Broiler Supreme 300
-				i(236178),	-- Gammy's Hand-Me-Down Bow
 				i(236180),	-- Swabbie's Shovel
-				i(236181),	-- Center-Stage Remover
-				i(236191),	-- Mechanic's Best Motivator
 			}),
 			n(CURIO, {
 				i(230225),	-- Kaja'Cola Carrier
@@ -453,16 +449,7 @@ root(ROOTS.Unsorted, {
 				i(232978),	-- Louie Firehands (MM!)
 
 				-- Engines
-
 				i(232981),	-- GNZ Airmaster 9000 (MM!)
-
-				-- Turbos
-				i(232983),	-- Steamboil (MM!)
-				i(232984),	-- Handcrank (MM!)
-
-				-- Buil Turbos?
-				i(234420),	-- Handcrank Mounting System
-
 
 				-- Gob-Trotter
 				i(233196),	-- Delver's Gob-Trotter Schematic: Gold (MM!)
@@ -529,7 +516,6 @@ root(ROOTS.Unsorted, {
 				i(235897),	-- Radiant Echo
 
 				-- CHETT
-				i(235053),	-- Completed C.H.E.T.T. List
 				i(236668),	-- C.H.E.T.T. Card
 				i(236682),	-- C.H.E.T.T. List
 				i(236785),	-- C.H.E.T.T. Card
@@ -1280,9 +1266,7 @@ root(ROOTS.Unsorted, {
 				i(235314),	-- Knightrider's Steelfists
 				i(235315),	-- Rocketstep Boots
 				i(235316),	-- Whirly-Giggle Windwhir Wrap
-				i(235318),	-- Ironfang Plate Legguards
 				i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
-				i(235321),	-- Feather-Spike Girdle
 				i(235322),	-- Junkyard Clawguards
 				i(235323),	-- Blastshell Bracers
 				i(235324),	-- Scavenger's Lost Bind
