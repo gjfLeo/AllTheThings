@@ -1944,6 +1944,7 @@ i(233243, 300154);	-- Silver Tidestallion
 i(233058, 473137);	-- Soweezi's Vintage Waveshredder
 i(232991, 472752);	-- The Breaker's Song
 i(232639, 471562);	-- Thrayir, Eyes of the Siren
+i(231297, 468205);	-- Timbered Sky Snake
 i(232624, 471538);	-- Timely Buzzbee
 i(234721, 1214940);	-- Ur'zul Fleshripper
 --- UNSORTED ---

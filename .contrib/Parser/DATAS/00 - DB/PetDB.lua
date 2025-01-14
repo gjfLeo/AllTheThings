@@ -4278,6 +4278,7 @@ i(166358, 2541);	-- Proper Parrot
 i(232519, 4690);	-- Razeshi B.
 i(234395, 4727);	-- Skitterbite
 i(233247, 4692);	-- Sparklesnap
+i(231310, 4684);	-- Timbered Sky Snakelet
 i(233366, 4719);	-- Wind-Up Woofer
 i(233361, 4718);	-- Wind-Up Wuffi
 --- NPC ---

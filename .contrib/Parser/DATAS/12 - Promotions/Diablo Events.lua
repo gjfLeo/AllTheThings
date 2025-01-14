@@ -148,7 +148,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 	}),
 	n(DIABLO_IV, {
 		["description"] = "Granted to players who owned WoW: The War Within and Diablo IV: Vessel of Hatred before January 7th, 2025.",
-		["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" },
+		["timeline"] = { ADDED_11_0_7, "removed 11.0.7.58608" },
 		["g"] = {
 			i(191114),	-- Amalgam of Rage (MOUNT!)
 			i(206018),	-- Baa'lial (PET!)

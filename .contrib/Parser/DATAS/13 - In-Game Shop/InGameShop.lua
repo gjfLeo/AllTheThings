@@ -278,6 +278,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(78916, {	-- Soul of the Aspects (PET!)
 			["timeline"] = { ADDED_4_3_0 },
 		})),
+		i(231310, {	-- Timbered Sky Snakelet (PET!)
+			["timeline"] = { ADDED_11_0_7 },
+		}),
 		i(147900, {	-- Twilight (PET!)
 			["timeline"] = { ADDED_7_3_0 },
 		}),
