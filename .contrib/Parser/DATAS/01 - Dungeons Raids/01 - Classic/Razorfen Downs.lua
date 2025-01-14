@@ -336,7 +336,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(7356, {	-- Plaguemaw the Rotting
 				["sourceQuests"] = {
 					3525,	-- Extinguishing the Idol (Before Cataclysm)
+					-- #if ATFER CATA
 					27022,	-- Extinguishing the Idol (After Cataclysm)
+					-- #endif
 				},
 				["timeline"] = { REMOVED_6_0_2 },
 				["groups"] = {
