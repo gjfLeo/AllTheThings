@@ -16,16 +16,18 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 	["g"] = {
 		n(ACHIEVEMENTS, {
 			ach(14222, {	-- Exile's Reach
-				["sourceQuests"] = {
-					-- #IF BEFORE 11.0.2
-					59641,	-- The Nation of Kul Tiras
-					60361,	-- Battle for Azeroth: Mission Statement
-					-- #ELSE
-					55991,	-- An End to Beginnings [A]
-					59985,	-- An End to Beginnings [H]
-					-- #ENDIF
-				},
-				["sourceQuestNumRequired"] = 1,
+				crit(47974, {	-- Alliance NPE - "The Nation of Kul Tiras"
+					["sourceQuests"] = {
+						62802,	-- Triggered after going to Stormwind for An End to Beginnings
+						55991,	-- An End to Beginnings [A]
+					},
+				}),
+				crit(48307, {	-- Horde NPE - "Mission Statement"
+					["sourceQuests"] = {
+						62803,	-- Triggered after going to Orgrimmar for An End to Beginnings
+						59985,	-- An End to Beginnings [H]
+					},
+				}),
 			}),
 		}),
 		m(DARKMAUL_CITADEL, {
