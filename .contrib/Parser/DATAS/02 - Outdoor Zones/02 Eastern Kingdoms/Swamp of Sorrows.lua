@@ -205,6 +205,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27795,	-- Tides of Darkness (A)
 					},
 					["coord"] = { 68.2, 36.1, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'We're Under Attack!' (27857) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -686,6 +687,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27822, {	-- Lumbering Oafs (A)
 					["qg"] = 46676,	-- Joanna Blueheart
 					["coord"] = { 68.2, 36.1, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'Lumbering Oafs' (27853) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -706,6 +708,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27853, {	-- Lumbering Oafs (H)
 					["qg"] = 7623,	-- Dispatch Commander Ruag
 					["coord"] = { 49.3, 55.3, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'Lumbering Oafs' (27822) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -750,6 +753,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27822,	-- Lumbering Oafs (A)
 					},
 					["coord"] = { 68.1, 36.1, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'Marking the Fallen' (27856) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -768,6 +772,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27852,	-- Orcs and Humans (H)
 					},
 					["coord"] = { 49.3, 55.3, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'Marking the Fallen' (27845) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -868,6 +873,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 46676,	-- Joanna Blueheart
 					["sourceQuest"] = 27870,	-- To Marshtide Watch
 					["coord"] = { 68.2, 36.1, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'Orcs and Humans' (27852) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -880,6 +886,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 7623,	-- Dispatch Commander Ruag
 					["sourceQuest"] = 27871,	-- To Stonard
 					["coord"] = { 49.3, 55.3, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'Orcs and Humans' (27821) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -955,11 +962,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["allianceQuestData"] = q(27875, {	-- Prayerblossom (A)
 						["qg"] = 17127,	-- Anchorite Avuun
 						["coord"] = { 26.8, 33.5, SWAMP_OF_SORROWS },
+						["description"] = "This quest gets marked as completed when its Horde counterpart 'Prayerblossom' (27907) is handed in.",
 					}),
 					["hordeQuestData"] = q(27907, {	-- Prayerblossom (H)
 						["qg"] = 47041,	-- Neeka Bloodscar
 						["sourceQuest"] = 27906,	-- Neeka Bloodscar
 						["coord"] = { 21.2, 51.7, SWAMP_OF_SORROWS },
+						["description"] = "This quest gets marked as completed when its Alliance counterpart 'Prayerblossom' (27875) is handed in.",
 					}),
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
@@ -979,6 +988,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27822,	-- Lumbering Oafs (A)
 					},
 					["coord"] = { 68.1, 36.1, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'Reinforcements Denied' (27855) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -994,6 +1004,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27852,	-- Orcs and Humans (H)
 					},
 					["coord"] = { 49.3, 55.3, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'Reinforcements Denied' (27843) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -1040,12 +1051,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["allianceQuestData"] = q(27876, {	-- Secrets of the Mire (A)
 						["qg"] = 17127,	-- Anchorite Avuun
 						["coord"] = { 26.8, 33.5, SWAMP_OF_SORROWS },
+						["description"] = "This quest gets marked as completed when its Horde counterpart 'Secrets of the Mire' (27908) is handed in.",
 						["timeline"] = { ADDED_4_0_3 },
 					}),
 					["hordeQuestData"] = q(27908, {	-- Secrets of the Mire (H)
 						["qg"] = 47041,	-- Neeka Bloodscar
 						["sourceQuest"] = 27906,	-- Neeka Bloodscar
 						["coord"] = { 21.2, 51.7, SWAMP_OF_SORROWS },
+						["description"] = "This quest gets marked as completed when its Alliance counterpart 'Secrets of the Mire' (27876) is handed in.",
 					}),
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
@@ -1277,6 +1290,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							27876,	-- Secrets of the Mire (A)
 						},
 						["coord"] = { 26.8, 33.5, SWAMP_OF_SORROWS },
+						["description"] = "This quest gets marked as completed when its Horde counterpart 'The Purespring' (27909) is handed in.",
 					}),
 					["hordeQuestData"] = q(27909, {	-- The Purespring (H)
 						["qg"] = 47041,	-- Neeka Bloodscar
@@ -1285,6 +1299,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							27908,	-- Secrets of the Mire (H)
 						},
 						["coord"] = { 21.2, 51.7, SWAMP_OF_SORROWS },
+						["description"] = "This quest gets marked as completed when its Alliance counterpart 'The Purespring' (27902) is handed in.",
 					}),
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
@@ -1414,6 +1429,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27822,	-- Lumbering Oafs (A)
 					},
 					["coord"] = { 68.1, 36.1, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'Tides of Darkness' (27854) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1444,6 +1460,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27852,	-- Orcs and Humans (H)
 					},
 					["coord"] = { 49.3, 55.3, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'Tides of Darkness' (27795) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -1471,6 +1488,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 46071,	-- Lord Itharius
 					["sourceQuest"] = 27914,	-- Blessing of the Green Dragonflight
 					["coord"] = { 69.4, 54.5, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Horde counterpart 'To Stonard' (27871) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["maps"] = { TEMPLE_OF_ATALHAKKAR },
 					["races"] = ALLIANCE_ONLY,
@@ -1480,6 +1498,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 46071,	-- Lord Itharius
 					["sourceQuest"] = 27914,	-- Blessing of the Green Dragonflight
 					["coord"] = { 69.4, 54.5, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'To Marshtide Watch' (27870) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["maps"] = { TEMPLE_OF_ATALHAKKAR },
 					["races"] = HORDE_ONLY,
@@ -1562,6 +1581,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27854,	-- Tides of Darkness (H)
 					},
 					["coord"] = { 49.3, 55.3, SWAMP_OF_SORROWS },
+					["description"] = "This quest gets marked as completed when its Alliance counterpart 'Assault on Stonard' (27849) is handed in.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
