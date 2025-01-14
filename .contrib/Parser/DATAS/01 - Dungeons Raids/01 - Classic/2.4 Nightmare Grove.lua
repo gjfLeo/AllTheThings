@@ -4,7 +4,35 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	applyclassicphase(SOD_PHASE_SIX, inst(2832, bubbleDownSelf({["timeline"] = { "added 1.15.5" }}, {	-- Nightmare Grove
-		["lore"] = "Nightmare Grove can be found near the portals to the Emerald Dream.",
+		["npcID"] = createHeader({
+			readable = "Nightmare Grove",
+			text = {
+				en = "Nightmare Grove",
+				es = "Arboleda de la Pesadilla",
+				de = "Alptraumhain",
+				fr = "Bosquet du cauchemar",
+				--it = "",
+				mx = "Arboleda de las Pesadillas",
+				pt = "Bosque do Pesadelo",
+				ru = "Роща Кошмаров",
+				ko = "악몽의 숲",
+				cn = "梦魇林地",
+				tw = "夢魘林地",
+			},
+			description = {
+				en = "Nightmare Grove can be found near the portals to the Emerald Dream.",
+				--[[
+				es = "",
+				de = "",
+				fr = "",
+				it = "",
+				pt = "",
+				ru = "",
+				ko = "",
+				cn = "",
+				]]--
+			},
+		}),
 		["coords"] = {
 			{ 51.2, 10.9, FERALAS },
 			{ 63.3, 27.8, THE_HINTERLANDS },
