@@ -665,7 +665,7 @@ local SpellIDHandlers = {
 		local id = LastSoftInteract.ID
 		if not id or IgnoredChecksByType.GameObject.coord(id) then return end
 
-		local objRef = app.SearchForObject("objectID", id, "field")
+		local objRef = app.SearchForObject("objectID", id)
 		-- if it's Sourced, we've already checked it via PLAYER_SOFT_INTERACT_CHANGED
 		if objRef then return end
 
