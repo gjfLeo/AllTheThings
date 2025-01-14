@@ -38,7 +38,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(83715, {	-- Claimed Salvage
 					["coord"] = { 59.7, 80.6, THE_RINGING_DEEPS },
 					["g"] = {
-						i(226020),	-- Ancient Titan Salvage (QI!)
+						o(455204, {	-- Salvage Crate
+							i(226020),	-- Ancient Titan Salvage (QI!)
+						}),
 					},
 				}),
 				q(81750, {	-- Cloud Farming

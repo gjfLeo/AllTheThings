@@ -578,6 +578,10 @@ root(ROOTS.ExpansionFeatures,
 							["sourceQuests"] = { 37162 },	-- Damsels and Dragons
 							["repeatable"] = true,
 							["g"] = {
+								o(237469, {	-- Shed Proto-Dragon Claw
+									["maps"] = { 618 },	-- Upper Blackrock Spire
+									["g"] = { i(118624) },	-- Shed Proto-Dragon Claw (QI!)
+								}),
 								i(119037),	-- Supply of Storied Rarities
 							},
 						}),
@@ -586,6 +590,10 @@ root(ROOTS.ExpansionFeatures,
 							["sourceQuests"] = { 37159 },	-- Aviana's Request
 							["repeatable"] = true,
 							["g"] = {
+								o(237467, {	-- Pristine Plumage
+									["maps"] = { 601 },	-- Skyreach
+									["g"] = { i(118622) },	-- Pristine Plumage (QI!)
+								}),
 								i(119037),	-- Supply of Storied Rarities
 							},
 						}),
@@ -600,6 +608,10 @@ root(ROOTS.ExpansionFeatures,
 						q(37167, {	-- And No Maces!
 							["provider"] = { "n", 88006 },	-- Lonika Stillblade
 							["g"] = {
+								o(237474, {	-- Huge Crate of Weapons
+									["maps"] = { 609 },	-- Grimrail Depot
+									["g"] = { i(118643) },	-- Huge Crate of Weapons (QI!)
+								}),
 								i(118924, {	-- Cache of Arms
 									i(114073, {	-- Turbulent Hood
 										i(114448),	-- Fireflash Hood
@@ -633,6 +645,10 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 87999 },	--  Skylord Omnuron
 							["maps"] = { 601, 602 },	-- Skyreach
 							["g"] = {
+								o(237467, {	-- Pristine Plumage
+									["maps"] = { 601 },	-- Skyreach
+									["g"] = { i(118622) },	-- Pristine Plumage (QI!)
+								}),
 								i(119093),	-- Aviana's Feather (TOY!)
 							},
 						}),
@@ -706,6 +722,10 @@ root(ROOTS.ExpansionFeatures,
 						q(37162, {	-- Damsels and Dragons
 							["provider"] = { "n", 88001 },	-- Maximillian of Northshire
 							["g"] = {
+								o(237469, {	-- Shed Proto-Dragon Claw
+									["maps"] = { 618 },	-- Upper Blackrock Spire
+									["g"] = { i(118624) },	-- Shed Proto-Dragon Claw (QI!)
+								}),
 								i(118927),	-- Maximillian's Laundry
 							},
 						}),
@@ -751,6 +771,10 @@ root(ROOTS.ExpansionFeatures,
 							["sourceQuests"] = { 37148 },	-- Oralius' Adventure
 							["repeatable"] = true,
 							["g"] = {
+								o(237481, {	-- Bottled Flamefly
+									["maps"] = { 616 },	-- Upper Blackrock Spire
+									["g"] = { i(118650) },	-- Spire Flamefly (QI!)
+								}),
 								i(119036),	-- Box of Storied Treasures
 							},
 						}),
@@ -804,6 +828,10 @@ root(ROOTS.ExpansionFeatures,
 							["sourceQuests"] = { 37167 },	-- And No Maces!
 							["repeatable"] = true,
 							["g"] = {
+								o(237474, {	-- Huge Crate of Weapons
+									["maps"] = { 609 },	-- Grimrail Depot
+									["g"] = { i(118643) },	-- Huge Crate of Weapons (QI!)
+								}),
 								i(119037),	-- Supply of Storied Rarities
 							},
 						}),
@@ -835,6 +863,10 @@ root(ROOTS.ExpansionFeatures,
 							["provider"] = { "n", 88013 },	-- Lunk
 							["isDaily"] = true,
 							["g"] = {
+								o(237477, {	-- Ogre Family Tree
+									["maps"] = { 573 },	-- Bloodmaul Slag Mines
+									["g"] = { i(118646) },	-- Ogre Family Tree (QI!)
+								}),
 								i(119040, {	-- Cache of Mingled Treasures
 									["sym"] = {
 										{"sub", "common_wod_dungeon_drop", 1, HANDS},
@@ -858,6 +890,10 @@ root(ROOTS.ExpansionFeatures,
 						q(37148, {	-- Oralius' Adventure
 							["provider"] = { "n", 88024 },	-- Oralius
 							["g"] = {
+								o(237481, {	-- Bottled Flamefly
+									["maps"] = { 616 },	-- Upper Blackrock Spire
+									["g"] = { i(118650) },	-- Spire Flamefly (QI!)
+								}),
 								i(118922),	-- Oralius' Whispering Crystal
 							},
 						}),
