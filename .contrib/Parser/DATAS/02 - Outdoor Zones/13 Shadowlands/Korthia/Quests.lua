@@ -1534,7 +1534,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["coord"] = { 60.1, 27.5, KORTHIA },
 			}),
 			q(64065, {	-- Local Reagents
-				["sourceQuests"] = { 64556 },	-- In Need of Assistance
+				["sourceQuests"] = { 63727 },	-- The Primus Returns
 				["provider"] = { "n", 178806 },	-- Plague Deviser Marileth
 				["coord"] = { 60.5, 27.7, KORTHIA },
 				["g"] = {
@@ -1630,11 +1630,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(64017, {	-- Oozing with Character (Bloop)
-				["sourceQuests"] = { 64556 },	-- In Need of Assistance
+				["sourceQuests"] = { 63727 },	-- The Primus Returns
 				["provider"] = { "n", 178806 },	-- Plague Deviser Marileth
 				["coord"] = { 60.5, 27.6, KORTHIA },
 				["g"] = {
-					ach(15056),		-- Friend of Bloop
+					ach(15056),	-- Friend of Bloop
 					i(187000),	-- Pattern: Elusive Pet Treat (RECIPE!)
 				},
 			}),
@@ -1648,11 +1648,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			q(63989, {	-- Oozing with Character (Plaguey)
-				["sourceQuests"] = { 64556 },	-- In Need of Assistance
+				["sourceQuests"] = { 63727 },	-- The Primus Returns
 				["provider"] = { "n", 178806 },	-- Plague Deviser Marileth
 				["coord"] = { 60.5, 27.6, KORTHIA },
 				["g"] = {
-					ach(15057),		-- Friend of Plaguey
+					ach(15057),	-- Friend of Plaguey
 					i(187000),	-- Pattern: Elusive Pet Treat (RECIPE!)
 				},
 			}),
@@ -1855,8 +1855,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	q(64563),	-- triggered when turning in 'In Need of Assistance' (questID 64556) (spellID 357754)
-	q(64737),	-- triggered when turning in 'A More Civilized Way' (questID 64271) - received i(185115), Redeemed Inquisitor's Drape - perhaps a universal 'received covenant transmog' tracking quest?  got it the next day on my Kyrian shaman, who received i(184989), Forsworn Aspirant's Wraps.  was the first covenant mog for both characters ever but perhaps could be a weekly lockout or something? (See Errors for other ways to get this)
-	q(64507),	-- triggered after picking up 'Doorway in the Dark' (questID 64211) (spellID 356686)
-});
+root(ROOTS.HiddenQuestTriggers, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
+	m(KORTHIA, {
+		n(QUESTS, {
+			q(64563),	-- triggered when turning in 'In Need of Assistance' (questID 64556) (spellID 357754)
+			q(64737),	-- triggered when turning in 'A More Civilized Way' (questID 64271) - received i(185115), Redeemed Inquisitor's Drape - perhaps a universal 'received covenant transmog' tracking quest?  got it the next day on my Kyrian shaman, who received i(184989), Forsworn Aspirant's Wraps.  was the first covenant mog for both characters ever but perhaps could be a weekly lockout or something? (See Errors for other ways to get this)
+			q(64507),	-- triggered after picking up 'Doorway in the Dark' (questID 64211) (spellID 356686)
+		}),
+	}),
+})))

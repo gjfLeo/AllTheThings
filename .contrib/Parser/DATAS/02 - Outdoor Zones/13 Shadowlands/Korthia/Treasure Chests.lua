@@ -272,6 +272,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			o(369297, {	-- Pile of Bones
 				["description"] = "Piles of Bones, Relic Caches, and Shardhide Stashes all share a series of 5 daily quests.\n\nThe daily lockout is ONLY for receiving Relic Fragments - you can still loot the treasures after the final quest is collected for the day; you just won't receive any fragments.",
+				["providers"] = {
+					{ "o", 369295 },	-- Pile of Bones
+				},
 				["coords"] = {
 					{ 27.2, 48.3, KORTHIA },
 					{ 28.2, 50.7, KORTHIA },
@@ -303,6 +306,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			o(369292, {	-- Relic Cache
 				["description"] = "Piles of Bones, Relic Caches, and Shardhide Stashes all share a series of 5 daily quests.\n\nThe daily lockout is ONLY for receiving Relic Fragments - you can still loot the treasures after the final quest is collected for the day; you just won't receive any fragments.",
+				["providers"] = {
+					{ "o", 369294 },	-- Relic Cache
+				},
 				["coords"] = {
 					{ 44.0, 56.0, KORTHIA },
 					{ 44.4, 77.3, KORTHIA },
@@ -408,20 +414,24 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	q(64316),	-- 1st loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
-	q(64317),	-- 2nd loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
-	q(64318),	-- 3rd loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
-	q(64564),	-- 4th loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash) - this # loot used to be 64309, but they changed it at some point on PTR
-	q(64310),	-- looting a Repaired Riftkey (also pops when looting one from rares)
-	q(64311),	-- looting a Teleporter Repair Kit (also pops looting one from rares)
-	q(64700),	-- looting 100-research item Ripped Cosmology Chart
-	q(64702),	-- looting 48-research item Scroll of Shadowlands Fables
-	q(64705),	-- looting 150-research item from a treasure
-	q(64787),	-- Korthia treasure repeatable quest
-	q(64788),	-- Pile of Bones repeatable quest (37.1, 53.6)
-	q(64789),	-- Shardhide Stash repeatable quest (49.6, 26.8; 50.4, 31.2)
-	q(64790),	-- Relic Cache repeatable quest (59.8, 36.0; 61.4, 38.1)
-	q(64791),	-- Relic Cache repeatable quest
-	q(64792),	-- Relic Cache repeatable quest
-});
+root(ROOTS.HiddenQuestTriggers, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
+	m(KORTHIA, {
+		n(TREASURES, {
+			q(64316),	-- 1st loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
+			q(64317),	-- 2nd loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
+			q(64318),	-- 3rd loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
+			q(64564),	-- 4th loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash) - this # loot used to be 64309, but they changed it at some point on PTR
+			q(64310, name(HEADERS.Item, 186731)),	-- looting a Repaired Riftkey (also pops when looting one from rares)
+			q(64311, name(HEADERS.Item, 186718)),	-- looting a Teleporter Repair Kit (also pops looting one from rares)
+			q(64700, name(HEADERS.Item, 187328)),	-- looting 100-research item Ripped Cosmology Chart
+			q(64702, name(HEADERS.Item, 187462)),	-- looting 48-research item Scroll of Shadowlands Fables
+			q(64705),	-- looting 150-research item from a treasure
+			q(64787),	-- Korthia treasure repeatable quest
+			q(64788),	-- Pile of Bones repeatable quest (37.1, 53.6)
+			q(64789),	-- Shardhide Stash repeatable quest (49.6, 26.8; 50.4, 31.2)
+			q(64790),	-- Relic Cache repeatable quest (59.8, 36.0; 61.4, 38.1)
+			q(64791),	-- Relic Cache repeatable quest
+			q(64792),	-- Relic Cache repeatable quest
+		}),
+	}),
+})))

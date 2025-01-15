@@ -29,9 +29,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	q(64286),	-- Paragon of Death's Advance
-	q(64287),	-- Paragon of The Archivists' Codex
-	q(64670),	-- triggered when turning in Supplies of the Archivists' Codex
-	q(64669),	-- triggered when turning in Supplies from Death's Advance
-});
+root(ROOTS.HiddenQuestTriggers, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
+	m(KORTHIA, {
+		n(EMISSARY_QUESTS, {
+			q(64286),	-- Paragon of Death's Advance
+			q(64287),	-- Paragon of The Archivists' Codex
+			q(64670),	-- triggered when turning in Supplies of the Archivists' Codex
+			q(64669),	-- triggered when turning in Supplies from Death's Advance
+		}),
+	}),
+})))
