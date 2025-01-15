@@ -1,8 +1,4 @@
 1.13.0.28211
-q(614),	-- The Captain's Chest	 CLASSIC:The Captain's Chest	 TBC:The Captain's Chest	 WOTLK:The Captain's Chest	 CATA:The Captain's Chest
-q(615),	-- The Captain's Cutlass	 CLASSIC:The Captain's Cutlass	 TBC:The Captain's Cutlass	 WOTLK:The Captain's Cutlass	 CATA:The Captain's Cutlass
-q(618),	-- Facing Negolash	 CLASSIC:Facing Negolash	 TBC:Facing Negolash	 WOTLK:Facing Negolash	 CATA:Facing Negolash
-q(620),	-- The Monogrammed Sash	 CLASSIC:The Monogrammed Sash	 TBC:The Monogrammed Sash	 WOTLK:The Monogrammed Sash	 CATA:The Monogrammed Sash
 q(7487),	-- Attunement to the Core	 CLASSIC:Attunement to the Core	 TBC:Attunement to the Core	 WOTLK:Attunement to the Core	 CATA:Attunement to the Core
 q(9378),	-- DND FLAG The Dread Citadel - Naxxramas
 1.13.2.30073

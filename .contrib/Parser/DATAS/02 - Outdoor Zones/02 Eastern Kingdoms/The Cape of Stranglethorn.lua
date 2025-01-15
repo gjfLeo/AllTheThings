@@ -759,7 +759,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(8554, {	-- Facing Negolash
 					["qg"] = 2594,	-- Sprogger
 					["sourceQuest"] = 8553,	-- The Captain's Cutlass
-					["altQuests"] = { 618 },	-- Facing Negolash
+					["altQuests"] = { 618 },	-- Facing Negolash [Old]
 					["coord"] = { 26.7, 73.6, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 35,
@@ -2096,7 +2096,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(8553, {	-- The Captain's Cutlass
 					["qg"] = 2500,	-- Captain Hecklebury Smotts
 					["sourceQuest"] = 8552,	-- The Monogrammed Sash
-					["altQuests"] = { 615 },	-- The Captain's Cutlass
+					["altQuests"] = { 615 },	-- The Captain's Cutlass [Old]
 					["coord"] = { 26.6, 73.6, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 35,
@@ -2240,7 +2240,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(8552, {	-- The Monogrammed Sash
 					["provider"] = { "i", 3985 },	-- Monogrammed Sash
-					["altQuests"] = { 620 },	-- The Monogrammed Sash
+					["altQuests"] = { 620 },	-- The Monogrammed Sash [Old]
 					["coord"] = { 23.0, 71.4, STRANGLETHORN_VALE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["cr"] = 1493,	-- Mok'rash
