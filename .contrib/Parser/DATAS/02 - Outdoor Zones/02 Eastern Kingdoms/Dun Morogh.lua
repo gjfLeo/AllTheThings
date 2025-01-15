@@ -1926,7 +1926,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								26421,	-- Meet the High Tinker (Mage)
 								26425,	-- Meet the High Tinker (Warrior)
 								26424,	-- Meet the High Tinker (Warlock)
+								-- #if AFTER 7.0.3
 								41218,	-- Meet the High Tinker (Hunter)
+								-- #endif
 							},
 							-- #if AFTER MOP
 							["coord"] = { 38.7, 32.7, NEW_TINKERTOWN },
