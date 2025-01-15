@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				q(82120, {	-- Pool Cleaner
 					["coord"] = { 51.1, 50.9, HALLOWFALL },
-					["sym"] = {{"select","achID",40082}},	-- Never Enough
+					["sym"] = {{"select","achievementID",40082}},	-- Never Enough
 				}),
 				q(81620, {	-- Recovery Job
 					["coord"] = { 56.0, 67.1, HALLOWFALL },
