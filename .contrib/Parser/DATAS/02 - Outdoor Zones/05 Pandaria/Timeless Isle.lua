@@ -118,7 +118,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					ach(8715),	-- Emperor Shaohao
-					ach(8726),	-- Extreme Treasure Hunter
+					ach(8726),	-- Extreme Treasure Hunter (automated)
 					ach(8725, {	-- Eyes On The Ground
 						crit(24011, {	-- Giant Clam
 							["provider"] = {"o",223193},
@@ -1917,25 +1917,13 @@ root(ROOTS.Zones, {
 					}),
 					o(220903, {	-- Gleaming Crane Statue
 						["description"] = "Click the statue, and you will be thrown up into the air and given a slow-fall buff.  Land on any of the platforms and loot any of the |cFFFFFFFFMist-Covered Treasure Chests|r to get credit for the achievement criteria.",
-						["isWeekly"] = true,
-						["questID"] = 32971,
 						["coord"] = { 58.4, 60.0, TIMELESS_ISLE },
-						["g"] = {
-							crit(24020, {	-- Mist-Covered Treasure Chest
-								["achievementID"] = 8726,	-- Extreme Treasure Hunter
-							}),
-						},
 					}),
 					o(220901, {	-- Gleaming Treasure Chest
 						["description"] = "Coordinates are for the side of the hill, where you start to jump across the pillars toward the treasure.",
 						["isWeekly"] = true,
 						["questID"] = 32969,
 						["coord"] = { 51.5, 73.4, TIMELESS_ISLE },
-						["g"] = {
-							crit(24018, {	-- Gleaming Treasure Chest
-								["achievementID"] = 8726,	-- Extreme Treasure Hunter
-							}),
-						},
 					}),
 					o(221036, {	-- Gleaming Treasure Satchel
 						["description"] = "Starting at around |cFFFFFFFF71.5, 79.8|r, mount up and do a running jump off the corner of the back platform.  Landing successfully on the beam may take a couple tries, depending on the angle and the point at which you jump.  Once you're on the beam, dismount and walk carefully toward the treasure.",
@@ -2008,6 +1996,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(220908, {	-- Mist-Covered Treasure Chest
+						["provider"] = { "o", 220903, },	-- Gleaming Crane Statue
+						["isWeekly"] = true,
 						["questID"] = 32971,
 						["coord"] = { 59.0, 60.0, TIMELESS_ISLE },
 						["description"] = "Coordinates are for the Gleaming Crane Statue which allows you to fly up to the chests.",
@@ -2158,11 +2148,6 @@ root(ROOTS.Zones, {
 						["isWeekly"] = true,
 						["questID"] = 32968,
 						["coord"] = { 60.1, 45.9, TIMELESS_ISLE },
-						["g"] = {
-							crit(24019, {	-- Rope-Bound Treasure Chest
-								["achievementID"] = 8726,	-- Extreme Treasure Hunter
-							}),
-						},
 					}),
 					o(221690),	-- Sand-Covered Egg
 					o(221617, {	-- Skull-Covered Chest
