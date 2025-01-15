@@ -237,7 +237,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								14289,	-- Safety in Numbers [Priest]
 								14290,	-- Safety in Numbers [Hunter]
 								14291,	-- Safety in Numbers [Druid]
+								-- #if AFTER 10.0.7
 								75189,	-- Safety in Numbers [Monk]
+								-- #endif
 							},
 							["coord"] = { 65.83, 77.84, 202 },
 							["races"] = { WORGEN },
