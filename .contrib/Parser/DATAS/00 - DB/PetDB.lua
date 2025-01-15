@@ -4324,7 +4324,9 @@ i(232839, 4637);	-- Wavebreaker Mechasaur
 n(231470, 4652);	-- Acid-Drenched Rat
 n(231550, 4656);	-- Bombshell Crab
 n(231570, 4658);	-- Cave Crab
+n(231572, 4659);	-- Kaja Crab
 n(231574, 4660);	-- Paleshell Crab
+n(231616, 4666);	-- Tropical Frog
 n(231686, 4668);	-- Ultrahopper EX
 n(231481, 4654);	-- Underroach
 n(231577, 4662);	-- Varmint MK II
@@ -4350,7 +4352,6 @@ i(232838, 4639);	-- Viridian Mechasaur
 n(237713, 4741);	-- Cannoneer
 n(222420, 4484);	-- Frenzied Bloodtick
 n(222592, 4507);	-- Hemospore/Sporbit [Purple] (?)
-n(231572, 4659);	-- Kaja Crab
 n(231579, 4663);	-- Lime Roboclucker
 n(237714, 4742);	-- Lookout
 n(237720, 4744);	-- Muddy Croach
@@ -4359,4 +4360,3 @@ n(237721, 4745);	-- Rusty Croach
 n(237719, 4746);	-- Sooty Croach
 n(231684, 4667);	-- Spring-Loaded Ribbitron
 n(237715, 4743);	-- Swabbie
-n(231616, 4666);	-- Tropical Frog

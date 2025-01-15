@@ -5,8 +5,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 	m(UNDERMINE, {
 		n(WORLD_QUESTS, {
 			["g"] = bubbleDownFiltered({ ["isWorldQuest"] = true, },FILTERFUNC_questID,{
+				q(85497, {	-- Blown a Gasket
+					["coord"] = { 42.2, 76.7, UNDERMINE },
+				}),
 				q(85398, {	-- Bomb Voyage!
 					["coord"] = { 65.5, 15.2, UNDERMINE },
+				}),
+				q(85519, {	-- Boom and Burst
+					["coord"] = { 64.9, 70.8, UNDERMINE },
+					["g"] = {
+						o(478679, {	-- Salvage Part
+							i(231889),	-- New-To-You Mechanical Parts (QI!)
+						}),
+					},
 				}),
 				q(85263, {	-- Boomball
 					["coord"] = { 66.0, 60.3, UNDERMINE },
@@ -27,6 +38,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85473, {	-- Extra! Extra!
 					["coord"] = { 36.5, 79.6, UNDERMINE },
 				}),
+				q(85500, {	-- Hazardous Waste
+					["coord"] = { 56.6, 30.4, UNDERMINE },
+					["g"] = {
+						o(232054, {	-- Depleted Hotrod Battery
+							i(232054),	-- Depleted Hotrod Battery (QI!)
+						}),
+						i(232053),	-- Electro-Gland (QI!)
+					},
+				}),
 				q(85396, {	-- Heaps o' Scrap
 					["coord"] = { 44.2, 78.6, UNDERMINE },
 					["g"] = {
@@ -42,8 +62,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85474, {	-- Rat Pack Attack
 					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
 				}),
+				q(85499, {	-- One Goblin's Trash
+					["coord"] = { 68.5, 63.5, UNDERMINE },	-- TODO: one of it is wrong
+				}),
 				q(85400, {	-- Reduce, Re-ooze, Recycle
 					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
+				}),
+				q(85518, {	-- Scalper Scum
+					["coord"] = { 49.9, 33.1, UNDERMINE },
+					["g"] = {
+						o(500203, {	-- Resold Goods
+							i(232922),	-- Resold Goods (QI!)
+						}),
+					},
 				}),
 				q(85526, {	-- Scum Bag
 					["coord"] = { 36.2, 66.5, UNDERMINE },
@@ -57,6 +88,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85926, {	-- Breakneck Racing - Junkyard Jaunt
 					["coord"] = { 43.2, 76.8, UNDERMINE },
+				}),
+				q(85928, {	-- Breakneck Racing - Sandy Scuttle
+					["coord"] = { 46.5, 43.7, UNDERMINE },
+				}),
+				q(85104, {	-- Skyrider Racing - Skyrocketing Sprint
+					["coord"] = { 38.4, 29.8, UNDERMINE },
 				}),
 				q(85105, {	-- Skyrider Racing - The Heaps Leap
 					["coord"] = { 34.8, 75.3, UNDERMINE },

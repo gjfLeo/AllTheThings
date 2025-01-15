@@ -14,8 +14,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(237784, {	-- Alchemist Pestlezugg
 				["coord"] = { 28.0, 73.9, UNDERMINE },
 				["g"] = {
-					i(235703), -- Noggenfogger Select DOWN
-					i(235704), -- Noggenfogger Select UP
+					i(235703),	-- Noggenfogger Select DOWN
+					i(235710, {	-- Noggenfogger Select FRESH
+						["races"] = { GOBLIN },	-- TODO: I don't have any goblin
+					}),
+					i(235704),	-- Noggenfogger Select UP
+
 				},
 			}),
 			n(236411, {	-- Ditty Fuzeboy
@@ -61,37 +65,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(231738),	-- Venture Co. Bruiser's Tabard
 					i(231750),	-- Venture Co. Bruiser's Spaulders
 					i(231744),	-- Venture Co. Bruiser's Helm
-				},
-			}),
-			n(234776, {	-- Angelo Rustbin <S.C.R.A.P. Exchange>
-				["coord"] = { 25.8, 38.1, UNDERMINE },
-				["g"] = {
-					i(233557, {	-- Sifted Pile of Scrap
-						["cost"] = {{ "c", 3218, 333 }},	-- Empty Kaja'Cola Can
-					}),
-					--i(233557, {	-- Sifted Pile of Scrap
-					--	["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can (TODO: assume it will change with renown level?)
-					--}),
-					i(232858, {	-- Cruncher (PET!)
-						["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
-					}),
-					i(232859, {	-- Lab Rat (PET!)
-						["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
-					}),
-					i(232986, {	-- GE86 Advance (MM!)
-						["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
-					}),
-					i(233558, {	-- S.C.R.A.P. Scrubber Deluxe (TODO: some exchange game thing?)
-						["cost"] = {{ "i", 233246, 1 }},	-- S.C.R.A.P. Scrubber Deluxe
-					}),
-				},
-			}),
-			n(234362, {	-- Kaja'Cola Dispenser
-				["coord"] = { 67.3, 28.5, UNDERMINE },
-				["g"] = {
-					i(233444),	-- Kaja'Cola X-Treme [reqire renown 7]
-					i(233445),	-- Kaja'Cola X-Treme Mega-Can [reqire renown 16]
-					i(233446),	-- Multi-Pack of Kaja'Cola [reqire renown 16]
 				},
 			}),
 			n(231408, {	-- Lab Assistant Laszly <Steamwheedle Quartermaster>

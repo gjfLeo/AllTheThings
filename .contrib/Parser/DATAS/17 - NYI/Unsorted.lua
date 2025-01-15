@@ -579,13 +579,11 @@ root(ROOTS.Unsorted, {
 				i(234618),	-- Omega Oyster Outbreak
 				i(234619),	-- Ultimate Orange O-pocalypse
 				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
-				i(234741),	-- Miscellaneous Mechanica
 				i(235257),	-- Plundered Artifact
 				i(235280),	-- Extra Crispy Laundry
 				i(235558),	-- Box of Darkfuse Miscellany
 				i(235627),	-- Scribbles' Favorite Candies
 				i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
-				i(235710),	-- Noggenfogger Select FRESH
 				i(235713),	-- Weird Sand
 				i(235895),	-- Bloodstone
 				i(235910),	-- Mint Condition Gallagio Anniversary Coin
@@ -1221,7 +1219,6 @@ root(ROOTS.Unsorted, {
 				i(231021),	-- Imported Brews
 				i(231022),	-- Bits o' Scrap
 				i(231369),	-- Redberry
-				i(231889),	-- New-To-You Mechanical Parts
 				i(231893),	-- Grease Residue
 				i(231894),	-- Useful Trash
 				i(231895),	-- Leftover Mocktail
@@ -1229,13 +1226,10 @@ root(ROOTS.Unsorted, {
 				i(231897),	-- Rusted Coin
 				i(231898),	-- Industrial-Grade Makeup Remover
 				i(231900),	-- Sample Potion
-				i(232053),	-- Electro-Gland
-				i(232054),	-- Depleted Hotrod Battery
 				i(232651),	-- Faded Journal Page
 				i(232897),	-- Blood-B-Gone
 				i(234188),	-- Slot Chits
 				i(234426),	-- Kaja'Cola-Braised Meat
-				i(235346),	-- Shiny Treasure
 				i(236773),	-- Swallowed Kaja'mite
 			}),
 			n(RARES, {
@@ -1257,17 +1251,13 @@ root(ROOTS.Unsorted, {
 				i(235303),	-- Seafused Brimstone Band
 				i(235304),	-- Gutter Rat Mask
 				i(235305),	-- Golfer's Truestrike Gloves
-				i(235306),	-- Ooze-fused Mantle
 				i(235308),	-- Filthtread Boots
 				i(235310),	-- Flashy Patchwork Trousers
-				i(235311),	-- Rocket-Powered Shoulderguards
 				i(235312),	-- Snooty's Aviator Bindings
 				i(235313),	-- Shockproof Helm
 				i(235314),	-- Knightrider's Steelfists
 				i(235315),	-- Rocketstep Boots
-				i(235316),	-- Whirly-Giggle Windwhir Wrap
 				i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
-				i(235322),	-- Junkyard Clawguards
 				i(235323),	-- Blastshell Bracers
 				i(235324),	-- Scavenger's Lost Bind
 				i(235326),	-- Ratspit's Heirloom Wristwraps

@@ -13,6 +13,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			pet(4662),	-- Varmint MK II
 			pet(4657),	-- Venture Bombshell
 			pet(4651),	-- Wily Rat
+			-- in Zuldazar
+			pet(4659, {	-- Kaja Crab
+				["coord"] = { 22.5, 59.8, ZULDAZAR },
+			}),
+			pet(4666, {	-- Tropical Frog
+				["coord"] = { 21.9, 56.1, ZULDAZAR },
+			}),
 		})),
 	}),
 })));

@@ -1196,19 +1196,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 43.8, 50.8, UNDERMINE },
 				["isWeekly"] = true,
 			}),
-			-- Side Gig stuff (weekly for new area in Ringing Deeps)
-			q(85913, {	-- Side Gig: Cleanup Detail
-				--["sourceQuests"] = { xx },	-- ??
-				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
-				["coord"] = { 16.7, 52.3, UNDERMINE },
-				["isWeekly"] = true,
-			}),
-			q(85960, {	-- Side Gig: Lost in the Sauce
-				--["sourceQuests"] = { xx },	-- ??
-				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
-				["coord"] = { 16.7, 52.3, UNDERMINE },
-				["isWeekly"] = true,
-			}),
+			-- Side Gig stuff (weekly for new area in Ringing Deeps/Kaja-Coast)
+			-- doesn't required to sign up contract (choose faction)
+			-- possible sourceQuest is cartel faction unlock hqt?
 			q(85944, {	-- Side Gig: Blood Type
 				--["sourceQuests"] = { xx },	-- ??
 				["provider"] = { "n", 231062 },	-- Torky Greasepalm
@@ -1217,6 +1207,50 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(232863),	-- Darkfuse Research Notes (QI!)
 					o(499928),	-- Darkfuse Research Notes
+				},
+			}),
+			q(86178, {	-- Side Gig: Cleanin' the Coast
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231065 },	-- Freddi Powergrind
+				["coord"] = { 19.7, 53.0, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(85913, {	-- Side Gig: Cleanup Detail
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
+				["coord"] = { 16.7, 52.3, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(85553, {	-- Side Gig: Feeling Crabby
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231064 },	-- Captain Crudeshank
+				["coord"] = { 19.8, 52.9, UNDERMINE },
+				["isWeekly"] = true,
+				["g"] = {
+					i(235339),	-- Powdery Crab Meat (QI!)
+				},
+			}),
+			q(85960, {	-- Side Gig: Lost in the Sauce
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
+				["coord"] = { 16.7, 52.3, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(86179, {	-- Side Gig: Lucky Break's Big Break
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231065 },	-- Freddi Powergrind
+				["coord"] = { 19.7, 53.0, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(86177, {	-- Side Gig: The Tides Provide
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231064 },	-- Captain Crudeshank
+				["coord"] = { 19.8, 52.9, UNDERMINE },
+				["isWeekly"] = true,
+				["g"] = {
+					o(506696, {	-- Buried Treasure
+						i(235346),	-- Shiny Treasure (QI!)
+					}),
 				},
 			}),
 			q(85962, {	-- Side Gig: Unseemly Reagents
@@ -1230,6 +1264,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
+			-- Alex TODO: all 3 NYI in-game, not returning name for quests
 			q(87297),	-- ???
 			q(83566),	-- ???
 			q(83447),	-- ???
@@ -1283,9 +1318,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				-- ??
 				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
 				-- When you pick up one of 4 cartel faction for a week
-				--q(84951),	-- Bilgewater Cartel?
-				--q(84952),	-- Blackwater Cartel?
-				--q(84954),	-- Steamwheedle Cartel?
+				q(84951),	-- Bilgewater Cartel
+				q(84952),	-- Blackwater Cartel
+				q(84954),	-- Steamwheedle Cartel
 				q(84953),	-- Venture Co.
 			}),
 		}),
