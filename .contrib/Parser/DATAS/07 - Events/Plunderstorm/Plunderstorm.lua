@@ -224,14 +224,16 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	n(PLUNDERSTORM, {
 		n(ACHIEVEMENTS, {
+			ach(20508),	-- Plunder Wonder (Win)
 			-- INFO: Sorted in ascending order of plunder to collect, just makes more sense this way
 			ach(41152),	-- Lub and Plunder
 			ach(41153),	-- Swabbie Swag
 			ach(41154),	-- Decked Out
 			ach(41156),	-- Buckled Up
 			ach(41157),	-- Plunder Siege
-			ach(41163),	-- Lord of the Bling
-			ach(41160),	-- It's a Plunderful Life
+			ach(41163),	-- Lord of the Bling (150k)
+			ach(41160),	-- It's a Plunderful Life (250k)
+			ach(20509),	-- Plunderking (1000k)
 		}),
 		filter(MISC, {
 			i(234423),	-- Keg-Leg's Silver Spoils
