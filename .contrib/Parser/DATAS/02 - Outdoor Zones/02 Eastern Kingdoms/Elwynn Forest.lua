@@ -236,7 +236,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuests"] = {
 								28819,	-- The Rear is Clear (human paladin)
 								28822,	-- The Rear is Clear (human warlock)
+								-- #if AFTER 5.0.4
 								31145,	-- The Rear is Clear (human monk)
+								-- #endif
 								28821,	-- The Rear is Clear (human rogue)
 								28817,	-- The Rear is Clear (human hunter)
 								28823,	-- The Rear is Clear (human warrior)
@@ -483,7 +485,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuests"] = {
 								28819,	-- The Rear is Clear (human paladin)
 								28822,	-- The Rear is Clear (human warlock)
+								-- #if AFTER 5.0.4
 								31145,	-- The Rear is Clear (human monk)
+								-- #endif
 								28821,	-- The Rear is Clear (human rogue)
 								28817,	-- The Rear is Clear (human hunter)
 								28823,	-- The Rear is Clear (human warrior)
