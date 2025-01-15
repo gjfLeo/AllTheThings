@@ -2387,7 +2387,7 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 	},
 	"WithIndex", {
 		GetInfo = function()
-			return GetAchievementCriteriaInfoByID;
+			return GetAchievementCriteriaInfo;
 		end;
 	}, (function(t) return t.criteriaID < 100; end));
 	app.CreateGuildAchievementCriteria = app.ExtendClass("AchievementCriteria", "GuildAchievementCriteria", "guildCriteriaID", {
