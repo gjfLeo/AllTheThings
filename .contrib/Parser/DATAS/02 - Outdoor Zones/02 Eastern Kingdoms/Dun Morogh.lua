@@ -1921,7 +1921,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["qg"] = 42317,	-- High Tinker Mekkatorque
 							["sourceQuests"] = {
 								26423,	-- Meet the High Tinker (Rogue)
+								-- #if AFTER 5.0.4
 								31137,	-- Meet the High Tinker (Monk)
+								-- #endif
 								26422,	-- Meet the High Tinker (Priest)
 								26421,	-- Meet the High Tinker (Mage)
 								26425,	-- Meet the High Tinker (Warrior)
