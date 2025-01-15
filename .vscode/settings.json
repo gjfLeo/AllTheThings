@@ -23,5 +23,7 @@
         ".vscode",
         "db"
     ],
-    "Lua.diagnostics.enable": false
+    "Lua.diagnostics.enable": false,
+    "Lua.diagnostics.ignoredFiles": "Disable",
+    "Lua.diagnostics.libraryFiles": "Disable"
 }
