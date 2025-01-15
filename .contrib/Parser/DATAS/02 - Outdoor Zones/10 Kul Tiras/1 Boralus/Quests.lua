@@ -833,23 +833,27 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	-- Missions
-	q(53746),	-- Verdant Hollow completed
-	q(53747),	-- Veiled Grotto completed
-	q(53748),	-- Mugamba Overlook completed
-	q(53749),	-- Mistvine Ledge completed
-	q(53750),	-- Vulture's Nest completed
-	q(53751),	-- Grimwatt's Crash completed
-	-- Outpost Upgrades
-	q(54292),	-- Brennadam completed
-	q(54261),	-- Upgrade: Brennadam started
-	q(54296),	-- Castaway Point completed
-	q(54305),	-- Mission Report: Arom's Stand
-	q(54293),	-- Mission Report: Castaway Point
-	q(54283),	-- Upgrade: Castaway Point started
-	q(54304),	-- Upgrade: Arom's Stand started
-	-- Misc
-	q(54870),	-- "Stay a while and listen" type conversation between Jaina and Katherine Proudmoore next to the flight master. Available during the war campaign after Clearing Out the Cache.
-	q(55464),	-- "Stay a while and listen" type conversation between Jaina and Tandred Proudmoore in Proudmoore Keep at 48, 60. Obtainable after Sail with the Tides completed.
-});
+root(ROOTS.HiddenQuestTriggers, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(BORALUS, {
+		n(QUESTS, {
+			-- Missions
+			q(53746),	-- Verdant Hollow completed
+			q(53747),	-- Veiled Grotto completed
+			q(53748),	-- Mugamba Overlook completed
+			q(53749),	-- Mistvine Ledge completed
+			q(53750),	-- Vulture's Nest completed
+			q(53751),	-- Grimwatt's Crash completed
+			-- Outpost Upgrades
+			q(54292),	-- Brennadam completed
+			q(54261),	-- Upgrade: Brennadam started
+			q(54296),	-- Castaway Point completed
+			q(54305),	-- Mission Report: Arom's Stand
+			q(54293),	-- Mission Report: Castaway Point
+			q(54283),	-- Upgrade: Castaway Point started
+			q(54304),	-- Upgrade: Arom's Stand started
+			-- Misc
+			q(54870),	-- "Stay a while and listen" type conversation between Jaina and Katherine Proudmoore next to the flight master. Available during the war campaign after Clearing Out the Cache.
+			q(55464),	-- "Stay a while and listen" type conversation between Jaina and Tandred Proudmoore in Proudmoore Keep at 48, 60. Obtainable after Sail with the Tides completed.
+		}),
+	}),
+})))
