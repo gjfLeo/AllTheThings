@@ -217,7 +217,6 @@ root(ROOTS.Unsorted, {
 				i(232857),	-- Goggles
 				i(235909),	-- Gleam
 				i(235988),	-- Parley
-				i(235989),	-- Parley
 			}),
 			filter(COSMETIC, {
 				-- Cartel Cosmetics?

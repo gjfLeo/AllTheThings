@@ -664,11 +664,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(59040),	--
 				q(55614),	-- Tracking Quest
 			})),
-
-			-- 8.3.7
-			expansion(EXPANSION.BFA, patch(3,7), bubbleDownSelf({ ["timeline"] = { ADDED_8_3_7 } }, {
-				q(59553),	--	On learning Finger-Bone Trophy of Battle (169902) ??
-			})),
 		}),
 		expansion(EXPANSION.SL, {
 			-- 9.0.1

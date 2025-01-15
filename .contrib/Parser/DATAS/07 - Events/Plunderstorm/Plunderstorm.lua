@@ -248,7 +248,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 				i(233252, {	-- Happy
 					["cost"] = {{"c", PLUNDER, 250}},
 				}),
-				pet(4695, {	-- Parley
+				i(235989, {	-- Parley
 					["cost"] = {{"c", PLUNDER, 2000}},
 				}),
 				i(233247, {	-- Sparklesnap

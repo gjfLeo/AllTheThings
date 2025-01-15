@@ -673,13 +673,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	inst(1273, bubbleDown({	-- Nerub'ar Palace
 		["isWeekly"] = true,
 	},{
-		-- LFR/Normal
+		-- LFR/Normal/Heroic
 		q(83508),	-- First trash pack
 		q(83515),	-- Xur'khun the Defiled (trash)
 		q(83505),	-- Foreseer Xix'amon (trash)
 		q(83511),	-- Terrace of Majesty FP unlock
 		q(83507),	-- trash after Rasha'nan
-
 		q(84261),	-- Ulgrax the Devourer
 		q(84263),	-- The Bloodbound Horror
 		q(84265),	-- Sikran
@@ -688,9 +687,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(84269),	-- Nexus-Princess Ky'veza
 		q(84273),	-- The Silken Court
 		q(84276),	-- Queen Ansurek
-
-		-- Heroic
-			-- Shared with LFR/Normal?
 		-- Mythic
 		q(84262),	-- Ulgrax the Devourer
 		q(84264),	-- The Bloodbound Horror
@@ -698,9 +694,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(84268),	-- Rasha'nan
 		q(84272),	-- Bloodtwister Ovi'nax
 		q(84270),	-- Nexus-Princess Ky'veza
-		-- verify
 		q(84275),	-- The Silken Court
-		-- q(84277),	-- Queen Ansurek
+		q(84277),	-- Queen Ansurek
 
 		q(84597, {["timeline"] = { ADDED_11_0_5 }}),	-- Bronze Celebration Token (Queen Ansurek [H])
 	})),

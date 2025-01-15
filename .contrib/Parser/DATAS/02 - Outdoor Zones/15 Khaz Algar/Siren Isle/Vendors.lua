@@ -266,7 +266,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(350, i(233845)),	-- Quilted Long-Sleeved Sea Tunic
 					fbiron(350, i(233844)),	-- Quilted Sea Vest
 					fbiron(350, i(233892)),	-- Quilted Waist Wrap
-					fbiron(350, i(234414)),	-- Runescribe's Ritual Tunic
+					fbiron(500, i(234414)),	-- Runescribe's Ritual Tunic
 					fbiron(350, i(233819)),	-- Stormtouched Blacksmith's Gavel
 					fbiron(350, i(233902)),	-- Tattered Rat Hat
 					fbiron(350, i(234230)),	-- Technique: Glyph of the Twilight Pistol Shot (RECIPE!)
