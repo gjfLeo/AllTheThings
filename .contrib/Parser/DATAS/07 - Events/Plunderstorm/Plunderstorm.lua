@@ -226,25 +226,28 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 		n(ACHIEVEMENTS, {
 			ach(20508),	-- Plunder Wonder (Win)
 			-- INFO: Sorted in ascending order of plunder to collect, just makes more sense this way
-			ach(41152),	-- Lub and Plunder
-			ach(41153),	-- Swabbie Swag
-			ach(41154),	-- Decked Out
-			ach(41156),	-- Buckled Up
-			ach(41157),	-- Plunder Siege
-			ach(41163),	-- Lord of the Bling (150k)
-			ach(41160),	-- It's a Plunderful Life (250k)
-			ach(20509),	-- Plunderking (1000k)
-			
-			-- ToDo: Add titles
-			 --[[   Lub and Plunder Lub and Plunder - Collect 2,500 Plunder. Title reward: NEW Landlubber %s
-    Swabbie Swag Swabbie Swag - Collect 10,000 Plunder. Title reward: Swabbie %s
-    Decked Out Decked Out - Collect 25,000 Plunder. Title reward: Deck Hand %s
-    Buckled Up Buckled Up - Collect 50,000 Plunder. Title reward: Swashbuckler %s
-    Plunder Siege Plunder Siege - Collect 100,000 Plunder. Title reward: Buccaneer %s
-    Lord of the Bling Lord of the Bling - Collect 150,000 Plunder. Title reward: First Mate %s
-    It's a Plunderful Life It's a Plunderful Life - Collect 250,000 Plunder. Title reward: NEW %s the Treasured
-	https://www.wowhead.com/news/rewards-from-the-plunderstorm-event-new-plunderlord-set-mounts-battle-pets-and-361555#news-post-361555
-	--]]
+			ach(41152, {	-- Lub and Plunder
+				["g"] = { title(875) },	-- Landlubber <Name>
+			}),
+			ach(41153, {	-- Swabbie Swag
+				["g"] = { title(815) },	-- Swabbie <Name>
+			}),
+			ach(41154, {	-- Decked Out
+				["g"] = { title(816) },	-- Deck Hand <Name>
+			}),
+			ach(41156, {	-- Buckled Up
+				["g"] = { title(817) },	-- Swashbuckler <Name>
+			}),
+			ach(41157, {	-- Plunder Siege
+				["g"] = { title(818) },	-- Buccaneer <Name>
+			}),
+			ach(41163, {	-- Lord of the Bling
+				["g"] = { title(819) },	-- First Mate <Name>
+			}),
+			ach(41160, {	-- It's a Plunderful Life
+				["g"] = { title(876) },	-- <Name> the Treasured
+			}),
+			ach(20509), 	-- Plunderkind
 		}),
 		filter(MISC, {
 			i(234423),	-- Keg-Leg's Silver Spoils
