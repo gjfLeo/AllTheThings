@@ -234,6 +234,17 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(41163),	-- Lord of the Bling (150k)
 			ach(41160),	-- It's a Plunderful Life (250k)
 			ach(20509),	-- Plunderking (1000k)
+			
+			-- ToDo: Add titles
+			 --[[   Lub and Plunder Lub and Plunder - Collect 2,500 Plunder. Title reward: NEW Landlubber %s
+    Swabbie Swag Swabbie Swag - Collect 10,000 Plunder. Title reward: Swabbie %s
+    Decked Out Decked Out - Collect 25,000 Plunder. Title reward: Deck Hand %s
+    Buckled Up Buckled Up - Collect 50,000 Plunder. Title reward: Swashbuckler %s
+    Plunder Siege Plunder Siege - Collect 100,000 Plunder. Title reward: Buccaneer %s
+    Lord of the Bling Lord of the Bling - Collect 150,000 Plunder. Title reward: First Mate %s
+    It's a Plunderful Life It's a Plunderful Life - Collect 250,000 Plunder. Title reward: NEW %s the Treasured
+	https://www.wowhead.com/news/rewards-from-the-plunderstorm-event-new-plunderlord-set-mounts-battle-pets-and-361555#news-post-361555
+	--]]
 		}),
 		filter(MISC, {
 			i(234423),	-- Keg-Leg's Silver Spoils
