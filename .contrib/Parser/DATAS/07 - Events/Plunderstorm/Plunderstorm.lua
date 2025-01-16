@@ -10,9 +10,9 @@ PLUNDERSTORM = createHeader({
 	-- #endif
 	eventID = EVENTS.PLUNDERSTORM,
 	eventSchedule = {
-		0, -- March 19th to supposedly April 30th 2024
-		2024, 03, 19,	-- 19/03/2024
-		2024, 04, 30,	-- 30/04/2024
+		0, -- January 14 unknown end date
+		2025, 01, 14,	-- 15/01/2025
+		2025, 04, 30,	-- 30/04/2024
 	},
 	text = {
 		en = [[~WOWLABS_GAMEMODE_HEADER]],
