@@ -5055,26 +5055,20 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 						}),
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
-						i(234955, {	-- Hate-Sculpted Magma
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
-						}),
 						iensemble(234903, {	-- Ensemble: Gorgrond Cragstalker's Hunting Gear
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						iensemble(234901, {	-- Ensemble: Karabor Priest's Vestments
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						iensemble(234904, {	-- Ensemble: Shadowmoon Anchorite's Guardplate
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						iensemble(234902, {	-- Ensemble: Shattrath Artificer's Regalia
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
-						}),
-						i(234955, {	-- Hate-Sculpted Magma
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						i(234907, {	-- Tattered Iron Horde Tabard
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
 					})),
 					filter(MISC, {
@@ -5204,26 +5198,23 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 						i(234906, {	-- Auchenai Tabard
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 							["minReputation"] = { FACTION_COUNCIL_OF_EXARCHS, EXALTED },
 						}),
 						iensemble(234903, {	-- Ensemble: Gorgrond Cragstalker's Hunting Gear
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						iensemble(234901, {	-- Ensemble: Karabor Priest's Vestments
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						iensemble(234904, {	-- Ensemble: Shadowmoon Anchorite's Guardplate
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						iensemble(234902, {	-- Ensemble: Shattrath Artificer's Regalia
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
-						}),
-						i(234955, {	-- Hate-Sculpted Magma
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
 						i(234907, {	-- Tattered Iron Horde Tabard
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
 					})),
 					filter(MISC, {

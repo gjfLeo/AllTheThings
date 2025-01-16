@@ -554,6 +554,9 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234758),	-- Korkron Spaulders
 				i(234957),	-- Monstrous Gluttony
 			}),
+			n(WEAPONS, {
+				i(234955),	-- Hate-Sculpted Magma
+			}),
 		})),
 	}),
 }));
