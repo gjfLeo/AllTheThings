@@ -523,10 +523,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
 						["coord"] = { 66.56, 15.14, HALLOWFALL },
 						["questID"] = 81612,
-						["g"] = {
-							i(226016),	-- Darkened Tabard of the Arathi (COSMETIC!)
-							i(224466),	-- Wilber The Chicken (QS!)
-						},
+						-- using sym for non-guaranteed
+						["sym"] = {{"select","itemID",
+							226016,	-- Darkened Tabard of the Arathi (COSMETIC!)
+							224466,	-- Wilber The Chicken (QS!)
+						}},
 					}),
 					o(419714, {	-- Expedition Pack
 						["coord"] = { 61.1, 9.6, HALLOWFALL },

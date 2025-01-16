@@ -26,6 +26,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["isWeekly"] = true,
 				}),
 				-- Birdy (move to special?)
+				hqt(85802, {	-- Use the Whirling Runekey in The Forgotten Vault
+					["name"] = "Use the Whirling Runekey in The Forgotten Vault (Storm Phase)",
+					["cost"] = {{"i",232571,1}},	-- Whirling Runekey
+				}),
+				hqt(85801, {	-- Use the Torrential Runekey in The Forgotten Vault
+					["name"] = "Use the Torrential Runekey in The Forgotten Vault (Storm Phase)",
+					["cost"] = {{"i",232572,1}},	-- Torrential Runekey
+				}),
+				hqt(85799, {	-- Use the Turbulent Runekey in The Forgotten Vault
+					["name"] = "Use the Turbulent Runekey in The Forgotten Vault (Storm Phase)",
+					["cost"] = {{"i",232570,1}},	-- Turbulent Runekey
+				}),
+				hqt(85803, {	-- Use the Thunderous Runekey in The Forgotten Vault
+					["name"] = "Use the Thunderous Runekey in The Forgotten Vault (Storm Phase)",
+					["cost"] = {{"i",232573,1}},	-- Thunderous Runekey
+				}),
+				hqt(85800, {	-- Use the Cyclonic Runekey in The Forgotten Vault
+					["name"] = "Use the Cyclonic Runekey in The Forgotten Vault (Storm Phase)",
+					["cost"] = {{"i",232569,1}},	-- Cyclonic Runekey
+				}),
 				q(85811, {	-- Thrayir, Eyes of the Siren
 					["sourceQuests"] = {
 						85800,	-- Cyclonic (spellID 471163)
@@ -78,13 +98,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["questID"] = 85406,
 					["g"] = {
 						i(235017),	-- Glittering Vault Shard (TOY!)
-						i(232571, {	-- Whirling Runekey
-							["g"] = {
-								hqt(85802, {	-- Use the Whirling Runekey in The Forgotten Vault
-									["name"] = "Use the Whirling Runekey in The Forgotten Vault (Storm Phase)",
-								})
-							},
-						}),
+						i(232571),	-- Whirling Runekey
 					},
 				}),
 			})),
@@ -116,22 +130,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				}),
 				i(232570, {	-- Turbulent Runekey
 					["cost"] = {{"i", 234327, 3 }},
-					["g"] = {
-						hqt(85799, {	-- Use the Turbulent Runekey in The Forgotten Vault
-							["name"] = "Use the Turbulent Runekey in The Forgotten Vault (Storm Phase)",
-						})
-					},
 				}),
 				i(232605, {	-- Thunderous Fragment
 					["description"] = "Found in chests and treasures during a storm.",
 				}),
 				i(232573, {	-- Thunderous Runekey
 					["cost"] = {{"i", 232605, 5 }},
-					["g"] = {
-						hqt(85803, {	-- Use the Thunderous Runekey in The Forgotten Vault
-							["name"] = "Use the Thunderous Runekey in The Forgotten Vault (Storm Phase)",
-						})
-					},
 				}),
 			}),
 			n(WORLD_QUESTS, {
@@ -176,11 +180,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				}),
 				i(232572, {	-- Torrential Runekey
 					["cost"] = {{"i", 234328, 7 }},
-					["g"] = {
-						hqt(85801, {	-- Use the Torrential Runekey in The Forgotten Vault
-							["name"] = "Use the Torrential Runekey in The Forgotten Vault (Storm Phase)",
-						})
-					},
 				}),
 			}),
 		}),
