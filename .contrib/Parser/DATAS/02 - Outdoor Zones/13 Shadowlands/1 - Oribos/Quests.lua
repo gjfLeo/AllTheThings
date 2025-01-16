@@ -271,6 +271,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				-- character so it isn't actually a Threads quest
 				["customCollect"] = IGNORED_VALUE,
 				["altQuests"] = { 60129 },	-- Stranger in an Even Stranger Land
+				["DisablePartySync"] = true,
 			}),
 			q(63771, {	-- Fate's Reminder
 				["description"] = "To get this Quest, you have to choose 'Replay Storyline' and pick 'Skip Storyline' right after.",
@@ -296,6 +297,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["provider"] = { "n", 159478 },	-- Tal-Inara
 				["coord"] = { 38.8, 70.0, ORIBOS },
 				["altQuests"] = { 57878 },	-- Choosing Your Purpose
+				["DisablePartySync"] = true,
 			}),
 			------ Zone Choice Quests ------
 			q(62159, {	-- Aiding the Shadowlands
@@ -304,6 +306,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["provider"] = { "n", 159478 },	-- Tal-Inara
 				["coord"] = { 38.8, 70.0, ORIBOS },
 				["isBreadcrumb"] = true,
+				["DisablePartySync"] = true,
 				["lockCriteria"] = { 1,	-- Completing 1 Zone Meta Quest
 					"questID", 62763,	-- Support the Court
 					"questID", 62723,	-- Bolstering Bastion
@@ -946,15 +949,22 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 				q(65757, {["timeline"] = {ADDED_9_2_0}}),	-- triggered with 'A New Deal', selected 'Cosmic Gladiator's Fastidious Resolve'
 				q(66047, {["timeline"] = {ADDED_9_2_0}}),	-- Solo Shuffle Completion? /First win
 				q(70704, {["timeline"] = {ADDED_9_2_0}}),	-- Tracking quest for Vessel of Profound Possibilities (spellID 367898)
-				------ Stay awhile and listen ------
-				hqt(65511, {["timeline"] = {ADDED_9_2_0}}),	-- Stay awhile and listen with Vareesa Windrunner (spellID 366650)
-				hqt(65618, {["timeline"] = {ADDED_9_2_0}}),	-- Stay awhile and listen with Bolvar (9.2.0) (spellID 367008)
-				hqt(65612, {["timeline"] = {ADDED_9_2_0}}),	-- Stay awhile and listen with Baine (spellID 366952)
-				hqt(65609, {["timeline"] = {ADDED_9_2_0}}),	-- Stay awhile and listen with Lor'themar (spellID 366932)
-				hqt(65607, {["timeline"] = {ADDED_9_2_0}}),	-- Stay awhile and listen with King Greymane (spellID 366925)
-				hqt(65614, {["timeline"] = {ADDED_9_2_0}}),	-- Stay awhile and listen with Arbiter Pelagos (spellID 366958)
-				hqt(66316, {["timeline"] = {ADDED_9_2_5}}),	-- Stay awhile and listen with Bolvar (9.2.5)
-				hqt(66313, {["timeline"] = {ADDED_9_2_5}}),	-- Stay awhile and listen with Proundmoore
+				------ Stay awhile and listen ------ (TODO upgrade to proper HQT in Oribos)
+				hqt(65511, {	-- Stay awhile and listen with Vareesa Windrunner (spellID 366650)
+					["timeline"] = {ADDED_9_2_0},
+				}),
+				hqt(65618, {	-- Stay awhile and listen with Bolvar (9.2.0) (spellID 367008)
+					["timeline"] = {ADDED_9_2_0},
+				}),
+				hqt(65614, {	-- Stay awhile and listen with Arbiter Pelagos (spellID 366958)
+					["timeline"] = {ADDED_9_2_0},
+				}),
+				hqt(66316, {	-- Stay awhile and listen with Bolvar (9.2.5)
+					["timeline"] = {ADDED_9_2_5},
+				}),
+				hqt(66313, {	-- Stay awhile and listen with Proundmoore
+					["timeline"] = {ADDED_9_2_5},
+				}),
 			}),
 		}),
 	}),
