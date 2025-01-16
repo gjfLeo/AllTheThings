@@ -3173,11 +3173,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 })));
 
 -- #if AFTER TBC
-root(ROOTS.HiddenQuestTriggers, {
-	m(COILFANG_RESERVOIR_SLAVE_PENS, {
-		q(11976),	-- Cross completes on completion of Shards of Ahune
-	}),
-});
+root(ROOTS.HiddenQuestTriggers, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
+	q(11976),	-- Cross completes on completion of Shards of Ahune
+}))
 -- #endif
 
 -- Remove the holiday flag.

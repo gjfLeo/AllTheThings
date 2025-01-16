@@ -420,6 +420,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	q(53448),	-- Spooky Bundle of Sticks Crafting [Wicker Pup]
-});
+root(ROOTS.HiddenQuestTriggers, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(DRUSTVAR, {
+		n(ACHIEVEMENTS, {
+			q(53448),	-- Spooky Bundle of Sticks Crafting [Wicker Pup]
+		}),
+	}),
+})))

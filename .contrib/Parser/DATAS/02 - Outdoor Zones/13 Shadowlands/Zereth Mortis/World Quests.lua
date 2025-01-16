@@ -131,6 +131,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	q(65418),	-- Triggered when completing a puzzle WQ
-});
+root(ROOTS.HiddenQuestTriggers, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, {
+	m(ZERETH_MORTIS, {
+		n(WORLD_QUESTS, {
+			q(65418),	-- Triggered when completing a puzzle WQ
+		}),
+	}),
+})))

@@ -1682,9 +1682,13 @@ root(ROOTS.ExpansionFeatures,
 	})
 );
 
-root(ROOTS.HiddenQuestTriggers, {
-	q(54316),	-- 7500/12000 Honored with Honorbound. unlock for storyline quests
-	q(54319),	-- triggered when reaching Revered with Honorbound. unlock for storyline quests
-	q(55029),	-- tracking quest in Sylvanas Loyalist questline
-	q(55620),	-- tracking quest in Sylvanas Loyalist questline
-});
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+	n(WAR_EFFORT, {
+		n(-253, {	-- Horde War Campaign
+			q(54316),	-- 7500/12000 Honored with Honorbound. unlock for storyline quests
+			q(54319),	-- triggered when reaching Revered with Honorbound. unlock for storyline quests
+			q(55029),	-- tracking quest in Sylvanas Loyalist questline
+			q(55620),	-- tracking quest in Sylvanas Loyalist questline
+		}),
+	}),
+}));

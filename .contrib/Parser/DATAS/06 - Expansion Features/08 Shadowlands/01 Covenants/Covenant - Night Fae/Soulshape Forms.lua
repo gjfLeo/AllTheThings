@@ -249,6 +249,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	q(65029),	-- when learning about 'random' soulshape selection option (spellID 360630)
-});
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCollect"] = "SL_COV_NFA" }, {
+	n(NIGHT_FAE, {
+		n(SOULSHAPES, {
+			q(65029),	-- when learning about 'random' soulshape selection option (spellID 360630)
+		}),
+	}),
+})))

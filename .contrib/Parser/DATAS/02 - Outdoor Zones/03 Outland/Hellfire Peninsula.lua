@@ -3679,6 +3679,10 @@ appendGroups({
 -- #if AFTER TBC
 -- These quests trigger after specific events occur in the zone.
 root(ROOTS.HiddenQuestTriggers, {
-	q(10454),	-- Hellfire Peninsula - Flag: OFF THE RAILS. Triggered just after turning in quest 10124 & 10143
+	m(OUTLAND, {
+		m(HELLFIRE_PENINSULA, {
+			q(10454),	-- Hellfire Peninsula - Flag: OFF THE RAILS. Triggered just after turning in quest 10124 & 10143
+		}),
+	}),
 });
 -- #endif

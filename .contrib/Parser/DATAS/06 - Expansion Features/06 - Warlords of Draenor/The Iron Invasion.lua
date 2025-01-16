@@ -1,29 +1,30 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
+local IRON_INVASION = createHeader({
+	readable = "The Iron Invasion",
+	icon = 132396,
+	text = {
+		en = "The Iron Invasion",
+		es = "La invasión de Hierro",
+		de = "Die Eiserne Invasion",
+		fr = "L’invasion de Fer",
+		it = "L'invasione di ferro",
+		pt = "A invasão de ferro",
+		ru = "Железное вторжение",
+		ko = "강철의 침략",
+		cn = "钢铁入侵",
+		tw = "鋼鐵入侵",
+	},
+	description = {
+		en = "If you are phased into the Invasion Blasted Lands and need to go to the pre-Invasion Blasted Lands, then you need to speak with Zidormi, who is standing on a small hill near the entrance of the zone from Swamp of Sorrows.",
+	},
+	lore = {
+		en = "The Iron Horde have activated their Dark Portal and have begun streaming through it in the Blasted Lands. They've made it all the way to Blackrock Spire and have designs on the rest of Azeroth. In the Blasted Lands, Nethergarde Keep has fallen, Okril'lon Hold (previously Dreadmaul Hold) has been taken over, and the Dreadmaul tribe have taken up with the Iron Horde as endless numbers of orcs stream from the Dark Portal.",
+	},
+})
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
-	n(createHeader({
-		readable = "The Iron Invasion",
-		icon = 132396,
-		text = {
-			en = "The Iron Invasion",
-			es = "La invasión de Hierro",
-			de = "Die Eiserne Invasion",
-			fr = "L’invasion de Fer",
-			it = "L'invasione di ferro",
-			pt = "A invasão de ferro",
-			ru = "Железное вторжение",
-			ko = "강철의 침략",
-			cn = "钢铁入侵",
-			tw = "鋼鐵入侵",
-		},
-		description = {
-			en = "If you are phased into the Invasion Blasted Lands and need to go to the pre-Invasion Blasted Lands, then you need to speak with Zidormi, who is standing on a small hill near the entrance of the zone from Swamp of Sorrows.",
-		},
-		lore = {
-			en = "The Iron Horde have activated their Dark Portal and have begun streaming through it in the Blasted Lands. They've made it all the way to Blackrock Spire and have designs on the rest of Azeroth. In the Blasted Lands, Nethergarde Keep has fallen, Okril'lon Hold (previously Dreadmaul Hold) has been taken over, and the Dreadmaul tribe have taken up with the Iron Horde as endless numbers of orcs stream from the Dark Portal.",
-		},
-	}), {
+	n(IRON_INVASION, {
 		-- This redirects the mini list to use this header instead when this quest is NOT active and the original mapID is the map that is is currently active
 		["zone-artIDs"] = { 628 },
 		["timeline"] = { ADDED_6_0_2 },
@@ -680,15 +681,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 }));
 
 -- #if AFTER 6.0
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, {
+	n(IRON_INVASION, {
 		q(37677),	-- Blasted Land 6.0:JP3 - Invasion - Tracking Quest - See Maraad
 		q(37676),	-- Blasted Land 6.0:JP3 - Invasion - Tracking Quest - See Thrall
-	}),
-	m(BLASTED_LANDS, {
 		q(66560, {	-- Changing time of zone from Present to Past through Zidormi
 			["timeline"] = { ADDED_9_2_5 },
 		}),
 	}),
-});
+}))
 -- #endif

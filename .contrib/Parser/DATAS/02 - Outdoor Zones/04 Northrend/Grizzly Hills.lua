@@ -2280,5 +2280,10 @@ root(ROOTS.Zones, {
 
 -- #if AFTER WRATH
 root(ROOTS.HiddenQuestTriggers, {
-	q(13524),	-- Escape from Silverbrook (Triggered when you complete the other Escape from Silverbrook quest.)
-});
+	m(NORTHREND, {
+		m(GRIZZLY_HILLS, {
+			q(13524),	-- Escape from Silverbrook (Triggered when you complete the other Escape from Silverbrook quest.)
+		}),
+	}),
+})
+-- #ENDIF

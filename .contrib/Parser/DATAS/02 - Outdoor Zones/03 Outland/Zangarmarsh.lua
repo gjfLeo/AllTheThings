@@ -2284,9 +2284,14 @@ root(ROOTS.Zones, {
 	})),
 });
 
--- #if AFTER TBC
+-- #IF AFTER TBC
 -- These quests trigger after specific events occur in the zone.
 root(ROOTS.HiddenQuestTriggers, {
-	q(9734),	-- Return to the Marsh (NYI) - completed with quest 9732
-	q(9733),	-- Warning the Cenarion Circle (NYI) - completed with quest 9724
+	m(OUTLAND, {
+		m(ZANGARMARSH, {
+			q(9734),	-- Return to the Marsh (NYI) - completed with quest 9732
+			q(9733),	-- Warning the Cenarion Circle (NYI) - completed with quest 9724
+		}),
+	}),
 });
+-- #ENDIF

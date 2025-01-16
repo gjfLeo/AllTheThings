@@ -386,9 +386,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-		q(62034),	-- unlocking Soulbreaker's Burnished Vestments set (TransmogSetID 2064, Soulbreaker's Burnished items)
-		q(62030),	-- unlocking Burnished Death Shroud Armor set (TransmogSetID 2069, Burnished Death Shroud items)
-		q(62025),	-- unlocking Fearstalker's Burnished Battlegear set (TransmogSetID 2073, Fearstalker's Burnished items)
-		q(62022),	-- unlocking Dread Sentinel's Burnished Battleplate set (TransmogSetID 2076, Dread Sentinel's Burnished items)
-});
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
+	n(VENTHYR, {
+		n(SANCTUM_UPGRADES, {
+			n(TRANSPORT_NETWORK, {
+				q(62034),	-- unlocking Soulbreaker's Burnished Vestments set (TransmogSetID 2064, Soulbreaker's Burnished items)
+				q(62030),	-- unlocking Burnished Death Shroud Armor set (TransmogSetID 2069, Burnished Death Shroud items)
+				q(62025),	-- unlocking Fearstalker's Burnished Battlegear set (TransmogSetID 2073, Fearstalker's Burnished items)
+				q(62022),	-- unlocking Dread Sentinel's Burnished Battleplate set (TransmogSetID 2076, Dread Sentinel's Burnished items)
+			}),
+		}),
+	}),
+})))

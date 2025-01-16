@@ -1966,11 +1966,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 	-- #endif
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
+root(ROOTS.HiddenQuestTriggers, n(CHILDRENS_WEEK_HEADER, {
 	q(55376, {	-- completing Hunting for Gold (53969)
 		["timeline"] = { ADDED_8_0_1 },
 	}),
 	q(55377, {	-- completing Hunting for Gold (53969)
 		["timeline"] = { ADDED_8_0_1 },
 	}),
-});
+}))
