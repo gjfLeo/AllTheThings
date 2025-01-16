@@ -1641,6 +1641,7 @@ local createQuest = app.CreateClass("Quest", "questID", {
 }, (function(t) return t.maxReputation; end),
 "AsHQT", {
 	CollectibleType = function() return "QuestsHidden" end,
+	isHQT = app.ReturnTrue,
 	variants = {
 		app.GlobalVariants.AndLockCriteriaWithAutoName,
 		app.GlobalVariants.AndLockCriteria,
