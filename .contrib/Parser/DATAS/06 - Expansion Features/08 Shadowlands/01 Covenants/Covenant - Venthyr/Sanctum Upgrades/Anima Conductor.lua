@@ -6,19 +6,16 @@ local SHRIEKERS_VOICEBOX = i(180713);
 local DREDBATSKIN_JERKIN = i(183720);
 local FORGEMASTERS_MANYFOLD_RAPIER = i(180489);
 local HARIKA_THE_HORRID = n(165290, {	-- Harika the Horrid
-	["description"] = "Can be killed and looted by any Covenant, but a member of the |cFFfe040fVenthyr Covenant|r must channel anima to Wanecrypt Hill to summon it. Use the Dredterror Ballista to make her attackable.",
+	["description"] = "Can be killed and looted by any Covenant, but a member of the |cFFfe040fVenthyr Covenant|r must channel anima to Wanecrypt Hill to summon it. Find a Dredhollow Bolt and give it to Wingsmash.",
 	["questID"] = 59612,
 	["isDaily"] = true,
 	["coord"] = { 45.8, 79.0, REVENDRETH },
 	["g"] = {
 		q(59607, {	-- Takin' Down the Beast
-			["description"] = "If this quest is offered, it must be completed to spawn the rare.\n\nAfter completing the quest, talk to Wingsmash and tell him to load the Ballista.",
-			["providers"] = {
-				{ "n", 165327 },	-- Wingsmash
-				{ "o", 348676 },	-- Dredhollow Bolt
-			},
+			["description"] = "This quest is offered in order to make Harika attackable.\n\nSeek out a Dredhollow Bolt in Dredhollow north-east from here.\nAfter completing the quest, talk to Wingsmash and tell him to Smash.",
+			["provider"] = { "n", 165327 },	-- Wingsmash
 			["repeatable"] = true,
-			["coord"] = { 46.30, 77.86, REVENDRETH },
+			["coord"] = { 46.30, 77.7, REVENDRETH },
 			["cost"] = { { "i", 176397, 1 } },	-- 1x Dredhollow Bolt
 		}),
 		o(348676, {	-- Ballista Bolt
