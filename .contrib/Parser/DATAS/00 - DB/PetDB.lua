@@ -4297,6 +4297,7 @@ i(232923, 4704);	-- Living Rose
 i(234905, 4730);	-- Mech-Friend Maya
 i(233057, 4709);	-- Rock Hound Mica
 i(234396, 4728);	-- Teatuft Tamer
+i(233190, 4717);	-- Wanderer Liu
 --- NYI? ---
 --i(???, 4725);	-- Titan Orb
 

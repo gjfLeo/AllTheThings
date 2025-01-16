@@ -305,7 +305,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				BossOnly(BANDIT),
 				BossOnly(MUGZEE),
 				BossOnly(GALLYWIX, {
-					mount(1221155),	-- Prototype A.S.M.R. (MOUNT!)
+					i(236960),	-- Prototype A.S.M.R. (MOUNT!)
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({

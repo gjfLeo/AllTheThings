@@ -227,25 +227,25 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(20508),	-- Plunder Wonder (Win)
 			-- INFO: Sorted in ascending order of plunder to collect, just makes more sense this way
 			ach(41152, {	-- Lub and Plunder
-				["g"] = { title(600) },	-- Landlubber <Name>
+				title(600),	-- Landlubber <Name>
 			}),
 			ach(41153, {	-- Swabbie Swag
-				["g"] = { title(542) },	-- Swabbie <Name>
+				title(542),	-- Swabbie <Name>
 			}),
 			ach(41154, {	-- Decked Out
-				["g"] = { title(543) },	-- Deck Hand <Name>
+				title(543),	-- Deck Hand <Name>
 			}),
 			ach(41156, {	-- Buckled Up
-				["g"] = { title(544) },	-- Swashbuckler <Name>
+				title(544),	-- Swashbuckler <Name>
 			}),
 			ach(41157, {	-- Plunder Siege
-				["g"] = { title(545) },	-- Buccaneer <Name>
+				title(545),	-- Buccaneer <Name>
 			}),
 			ach(41163, {	-- Lord of the Bling
-				["g"] = { title(546) },	-- First Mate <Name>
+				title(546),	-- First Mate <Name>
 			}),
 			ach(41160, {	-- It's a Plunderful Life
-				["g"] = { title(601) },	-- <Name> the Treasured
+				title(601),	-- <Name> the Treasured
 			}),
 			ach(20509), 	-- Plunderkind
 		}),

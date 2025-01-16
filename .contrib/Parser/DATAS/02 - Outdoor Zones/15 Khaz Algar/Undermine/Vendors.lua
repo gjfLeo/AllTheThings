@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(232853, {	-- Eepy (PET!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
 					}),
-					i(226373, {	-- Everlasting Noggenfogger Elixir
+					i(226373, {	-- Everlasting Noggenfogger Elixir (TOY!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Exalted
