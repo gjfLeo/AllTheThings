@@ -327,6 +327,7 @@ MobileDB.GameObject = {
 	[293449] = true,	-- Truffle
 	[296855] = true,	-- Truffle
 	[322020] = true,	-- Pile of Coins (Armored Vaultbot)
+	[326594] = true,	-- Arcane Tome
 	[327230] = true,	-- Jelly Deposit
 	[349274] = true,	-- Forgotten Memorandum (q:59717)
 	[350978] = true,	-- Queen's Conservatory Cache

@@ -122,7 +122,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					i(167079),	-- Battered Supplies (QI!)
 				},
 			}),
-			q(56384),	-- Shadowspike Lurker
+			petbattle(q(56384)),	-- Shadowspike Lurker
 			q(56383),	-- Silence
 			q(55899),	-- Starseeker of the Shirakess
 			q(55897),	-- Szun, Breaker of Slaves

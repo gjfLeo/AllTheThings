@@ -107,7 +107,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["g"] = {
 				i(168169),	-- Ancient Scroll (QI!)
-				i(168170),	-- Arcane Tome (QI!)
+				o(326594, {	-- Arcane Tome
+					i(168170),	-- Arcane Tome (QI!)
+				}),
 			},
 		}),
 		q(55993, {	-- A Little Edge

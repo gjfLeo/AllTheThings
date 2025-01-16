@@ -522,13 +522,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						n(163042, {	-- Ivory Cloud Serpent
 							["coord"] = { 29.0, 53.0, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["description"] = "Requires a Zan-Tien Lasso to wrangle!",
+							["cost"] = {{ "i", 174927, 1 }},	-- Zan-Tien Lasso
 							["g"] = {
-								i(174927, {	-- Zan-Tien Lasso
-									["description"] = "The lasso is a zone drop from various Mogu mobs.",
-									["g"] = {
-										i(174752),	-- Ivory Cloud Serpent (MOUNT!)
-									},
-								}),
+								i(174752),	-- Ivory Cloud Serpent (MOUNT!)
 							},
 						}),
 						n(157162, {	-- Rei Lun
@@ -623,6 +619,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							["cost"] = { { "i", 174759, 6 } },	-- 6x Mogu Relic Fragment
 						}),
 						i(174759),	-- Mogu Relic Fragment
+						i(174927, {	-- Zan-Tien Lasso
+							["description"] = "The lasso is a zone drop from various Mogu mobs.",
+							["crs"] = {
+								153095,	-- Zan-Tien Caller
+								153094,	-- Zan-Tien Raider
+								156675,	-- Zan-Tien Scout
+								157345,	-- Zan-Tien Subjugator
+							},
+						}),
 					}),
 					i(174958),	-- Cache of the Fallen Mogu
 				},
