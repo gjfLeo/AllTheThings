@@ -414,7 +414,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #else
 					i(12471, {	-- Desertwalker Cane
 						-- #if AFTER LEGION
-						["description"] = "This item is available only in personal loot.",
+						["description"] = "This item is available only in personal loot, and requires a class with an Intellect-using loot spec.",
 						-- #endif
 					}),
 					-- #endif
