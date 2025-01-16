@@ -644,9 +644,11 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- check sourced object coords
 	if not IgnoredChecksByType[guidtype].coord(id) then
 		-- object auto-detect can happen from rather far, so using 2 distance
-		if not Check_coords(objRef, objRef[objRef.key], 2) then
-			AddReportData(objRef.__type,id,{
-				[objRef.key or "ID"] = id,
+		local objID = objRef[objRef.key]
+		if not Check_coords(objRef, objID, 2) then
+			AddReportData(objRef.__type,objID,{
+				[objRef.key or "ID"] = objID,
+				["objectID"] = id,
 				MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type),
 			})
 		end
@@ -671,9 +673,11 @@ local SpellIDHandlers = {
 
 		local tooltipName = GameTooltipTextLeft1:GetText()
 		objRef = app.CreateObject(id)
+		local objID = objRef[objRef.key]
 		-- report openable object
-		AddReportData(objRef.__type,id,{
-			[objRef.key or "ID"] = id,
+		AddReportData(objRef.__type,objID,{
+			[objRef.key or "ID"] = objID,
+			["objectID"] = id,
 			NotSourced = "Openable Object not Sourced!",
 			Name = tooltipName or "(No Tooltip Text Available)",
 		})
