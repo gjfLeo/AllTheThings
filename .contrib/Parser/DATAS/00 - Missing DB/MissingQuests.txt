@@ -1,5 +1,4 @@
 1.13.0.28211
-q(7487),	-- Attunement to the Core	 CLASSIC:Attunement to the Core	 TBC:Attunement to the Core	 WOTLK:Attunement to the Core	 CATA:Attunement to the Core
 q(9378),	-- DND FLAG The Dread Citadel - Naxxramas
 1.13.2.30073
 q(55296),	--

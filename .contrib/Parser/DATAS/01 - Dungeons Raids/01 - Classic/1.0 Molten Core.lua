@@ -264,9 +264,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["classes"] = { HUNTER },
 					["lvl"] = 60,
 				})),
+				q(7487, {	-- Attunement to the Core [Old]
+					["qg"] = 14387,	-- Lothos Riftwaker
+					["timeline"] = { ADDED_1_1_0, REMOVED_1_3_0 },
+					["description"] = "Complete this quest to be able to quickly teleport to Molten Core by simply talking to Lothos.",
+					["coord"] = { 54.2, 83.3, BLACKROCK_MOUNTAIN },
+					["maps"] = { BLACKROCK_DEPTHS },
+					["lvl"] = 55,
+					["groups"] = {
+						objective(1, {	-- 0/1 Core Fragment
+							["providers"] = {
+								{ "o", 179553 },	-- Core Fragment
+								{ "i",  18412 },	-- Core Fragment
+							},
+						}),
+					},
+				}),
 				q(7848, {	-- Attunement to the Core
 					["qg"] = 14387,	-- Lothos Riftwaker
-					["altQuests"] = { 7487 },	-- Attunement to the Core [Original??]
+					["timeline"] = { ADDED_1_3_0 },
 					-- #if BEFORE 5.4.0
 					["description"] = "Complete this quest to be able to quickly teleport to Molten Core by simply talking to Lothos.",
 					-- #else
