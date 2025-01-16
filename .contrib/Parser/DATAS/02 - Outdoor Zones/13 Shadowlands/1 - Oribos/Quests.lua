@@ -956,9 +956,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 				hqt(65618, {	-- Stay awhile and listen with Bolvar (9.2.0) (spellID 367008)
 					["timeline"] = {ADDED_9_2_0},
 				}),
-				hqt(65614, {	-- Stay awhile and listen with Arbiter Pelagos (spellID 366958)
-					["timeline"] = {ADDED_9_2_0},
-				}),
 				hqt(66316, {	-- Stay awhile and listen with Bolvar (9.2.5)
 					["timeline"] = {ADDED_9_2_5},
 				}),
