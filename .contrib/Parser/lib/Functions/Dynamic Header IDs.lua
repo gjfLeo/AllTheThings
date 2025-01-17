@@ -483,6 +483,7 @@ HeaderAssignments = {
 	["Unchained Gladiator: Shadowlands Season 2"] = -1000911,
 	["Unique Appearance"] = -1000163,
 	["Unommon"] = -1000111,
+	["Upgrade"] = -1001070,
 	["Uuna's World Tour"] = -1000362,
 	["Valdrakken Accord"] = -1000081,
 	["Vendors"] = -1000039,
@@ -550,4 +551,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001070;
+NextHeaderID = -1001071;
