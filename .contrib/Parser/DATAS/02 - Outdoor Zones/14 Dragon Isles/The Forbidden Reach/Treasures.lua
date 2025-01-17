@@ -28,6 +28,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 			}),
 			o(384763, {	-- Forbidden Hoard
 				["coords"] = {
+					{ 45.9, 16.0, THE_FORBIDDEN_REACH },
 					{ 55.5, 93.6, THE_FORBIDDEN_REACH },
 					{ 53.6, 76.7, THE_FORBIDDEN_REACH },
 				},
