@@ -775,11 +775,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(45854, {	-- Rituals of the New Moon
 				["description"] = "This version of the trinket is a placeholder for the four available versions of it, and crafting it gives you a random one of the four. The four available versions of the trinket have the same stats, but offer a different coloured giant wholf.",
 				["timeline"] = { CREATED_3_1_0 },
+				["groups"] = {
+					i(45850),	-- Rituals of the New Moon (red wolf)
+					i(45851),	-- Rituals of the New Moon (white wolf)
+					i(45852),	-- Rituals of the New Moon (grey wolf)
+					i(45853),	-- Rituals of the New Moon (black wolf)
+				},
 			}),
-			i(45850),	-- Rituals of the New Moon
-			i(45851),	-- Rituals of the New Moon
-			i(45852),	-- Rituals of the New Moon
-			i(45853),	-- Rituals of the New Moon
 			i(45849),	-- Twilight Tome
 		}),
 	}),
