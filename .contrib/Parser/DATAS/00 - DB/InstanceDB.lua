@@ -16,6 +16,8 @@ inst(2791, 2791);	-- Storm Cliffs
 inst(2784, 2784);	-- Demon Fall Canyon
 inst(2804, 2804);	-- The Crystal Vale
 inst(2832, 2832);	-- Nightmare Grove
+inst(2875, 2875);	-- Karazhan Crypts
+
 -- #endif
 
 -- This list was exported using excel manually using data from this url:
