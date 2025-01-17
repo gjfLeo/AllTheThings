@@ -11,6 +11,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					{ 70.0, 53.8, ISLE_OF_DORN },
 				},
 			}),
+			o(444066, {	-- Keeper's Stash
+				["coord"] = { 62.4, 38.3, ISLE_OF_DORN },
+			}),
 			--
 			o(442814, {	-- Boskroot Cap
 				["coords"] = {

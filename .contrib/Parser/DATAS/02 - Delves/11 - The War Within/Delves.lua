@@ -1863,7 +1863,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 			}),
 			filter(MISC, {
-				i(209788),	-- Dispersion Crystal (QI!)
+				o(409302, {	-- Dispersal Crystal
+					["coord"] = { 63, 54.3, FUNGAL_FOLLY },
+					["g"] = {
+						i(209788),	-- Dispersion Crystal (QI!)
+					},
+				}),
 				i(210017),	-- Fungal Fish (QI!)
 			}),
 			n(QUESTS, {
@@ -2144,7 +2149,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					crit(70990),	-- Teleporter Tantrums
 				}),
 			}),
-			n(MISC, {
+			filter(MISC, {
 				i(234454),	-- Remote Teleporter (QI!)
 				i(234451),	-- Stolen Goods (QI!)
 			}),

@@ -21,12 +21,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(224466),	-- Wilber The Chicken (QS!)
 				},
 			}),
-			o(444801, {	-- Brimming Arathi Treasure Hoard // not sure what about brimming stuff
-				["coord"] = { 53.6, 63.0, HALLOWFALL },
-				--["questID"] = xx,
-				["g"] = {
-					--
-				},
+			o(444801, {	-- Brimming Arathi Treasure Hoard
+				["maps"] = { HALLOWFALL },
 			}),
 			n(225948, {	-- Caesper
 				["description"] = "Bring Caesper Meaty Haunch and follow him, he will dig up treasure for you.",

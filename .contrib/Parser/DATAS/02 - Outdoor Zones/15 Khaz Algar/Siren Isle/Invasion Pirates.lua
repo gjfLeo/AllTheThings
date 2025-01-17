@@ -21,7 +21,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["coord"] = { 69.3, 43.4, SIREN_ISLE },
 						["isWeekly"] = true,
 						["g"] = {
-							i(226133),	-- Blacksteel Cannonball (QI!)
+							o(499551,{	-- Blacksteel Cannonballs
+								["coord"] = { 47.8, 64.8, SIREN_ISLE },
+								["g"] = {
+									i(226133),	-- Blacksteel Cannonball (QI!)
+								},
+							}),
 						},
 					}),
 					q(84001, {	-- Cart Blanche
