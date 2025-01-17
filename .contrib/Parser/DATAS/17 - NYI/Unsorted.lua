@@ -93,7 +93,6 @@ root(ROOTS.Unsorted, {
 				i(233477),	-- Shimmerthread Handwraps
 				i(233478),	-- Shimmerthread Sandals
 				i(233479),	-- Shimmerthread Robes
-				i(233480),	-- Lucky-Streak Pendant
 				i(233481),	-- Might-Be-Invisible Cloak
 				i(233482),	-- Might-Be-Invisible Shawl
 				i(233484),	-- Lucky-Streak Signet
@@ -126,7 +125,6 @@ root(ROOTS.Unsorted, {
 				i(234125),	-- Public Defender's Coat
 				i(234185),	-- Dr. Scrapheal
 				i(234217),	-- Funhouse Lens
-				i(234218),	-- Goo-blin Grenade
 				i(234326),	-- Core Recycling Unit
 
 				-- Zone Rewards? Delves?
@@ -421,25 +419,6 @@ root(ROOTS.Unsorted, {
 				i(236161),	-- Broiler Supreme 300
 				i(236180),	-- Swabbie's Shovel
 			}),
-			n(CURIO, {
-				i(230225),	-- Kaja'Cola Carrier
-				i(230226),	-- Three Dimensional Bioprinter
-				i(230227),	-- Goblomagnetic Bouncing Grenade
-				i(230228),	-- Pocket Factory
-				i(230229),	-- Impact Conversion Matrix
-				i(230230),	-- L00T RAID-R
-				i(230231),	-- Reverse Engineered Goblin Death Bomb
-				i(230232),	-- Comically Large Magnet
-				i(230233),	-- Biofuel Rocket Gear
-				i(230234),	-- Pinged Augment Chip
-				i(230950),	-- Overdrive Pylon
-				i(232891),	-- Amorphous Relic
-				i(234013),	-- Pacifist Rig
-				i(234014),	-- Automatic Footbomb Dispenser
-				i(234015),	-- Mechasaur EZ-Build Kit
-				i(234329),	-- Ancient Curio
-				i(234330),	-- Ancient Curio
-			}),
 			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
 				-- D.R.I.V.E.
 				-- Employeee
@@ -540,7 +519,6 @@ root(ROOTS.Unsorted, {
 				i(227663),	-- Noggenfogger's Recommendation
 				i(227666),	-- Diner Review Cards
 				i(228798),	-- Gob-Glider
-				i(229809),	-- Weighted Metal Ball
 				i(229810),	-- Vintage Kaja'cola Can
 				i(229823),	-- Canister of Darkfuse Solution
 				i(230187),	-- Lucio Boombox
@@ -549,7 +527,6 @@ root(ROOTS.Unsorted, {
 				i(231099),	-- Back-Strapped Missile
 				i(231291),	-- Radar
 				i(231787),	-- Vigilante's Disposable Falling Shadow Grapple Gun
-				i(231899),	-- Trash
 				i(232874),	-- Undermine Stockpile
 				i(232927),	-- [DNT] Small Surge Chest
 				i(232928),	-- [DNT] Medium Surge Chest
@@ -562,13 +539,9 @@ root(ROOTS.Unsorted, {
 				i(233054),	-- Wonder Ball
 				i(233055),	-- Corpse Cleaner
 				i(233061),	-- Rock-in-a-Bottle
-				i(233062),	-- Pocket Pizza
 				i(233210),	-- Pungent Putrigill
 				i(233246),	-- Gunk-Covered Thingy
 				i(234197),	-- Gilded Screwdriver
-				i(234203),	-- Clay-Speckled Metal Slug
-				i(234204),	-- Depleted Battery
-				i(234205),	-- Bent Lever
 				i(234212),	-- "Beaten by the House"
 				i(234421),	-- Web Bomb
 				i(234970),	-- Partially-Drained Battery
@@ -1218,12 +1191,7 @@ root(ROOTS.Unsorted, {
 				i(231021),	-- Imported Brews
 				i(231022),	-- Bits o' Scrap
 				i(231369),	-- Redberry
-				i(231893),	-- Grease Residue
 				i(231894),	-- Useful Trash
-				i(231895),	-- Leftover Mocktail
-				i(231896),	-- Unused Jar
-				i(231897),	-- Rusted Coin
-				i(231898),	-- Industrial-Grade Makeup Remover
 				i(231900),	-- Sample Potion
 				i(232651),	-- Faded Journal Page
 				i(232897),	-- Blood-B-Gone
@@ -1256,7 +1224,6 @@ root(ROOTS.Unsorted, {
 				i(235313),	-- Shockproof Helm
 				i(235314),	-- Knightrider's Steelfists
 				i(235315),	-- Rocketstep Boots
-				i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				i(235323),	-- Blastshell Bracers
 				i(235324),	-- Scavenger's Lost Bind
 				i(235326),	-- Ratspit's Heirloom Wristwraps

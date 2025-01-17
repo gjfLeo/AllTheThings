@@ -19,7 +19,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["races"] = { GOBLIN },	-- TODO: I don't have any goblin
 					}),
 					i(235704),	-- Noggenfogger Select UP
-
+				},
+			}),
+			n(239112, {	-- Bombin' Bert
+				["coord"] = { 50.9, 31.8, UNDERMINE },
+				["g"] = {
+					i(237306),	-- NEW Goblin Hot Potato
 				},
 			}),
 			n(236411, {	-- Ditty Fuzeboy

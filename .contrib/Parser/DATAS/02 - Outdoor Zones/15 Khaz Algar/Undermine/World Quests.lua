@@ -5,6 +5,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 	m(UNDERMINE, {
 		n(WORLD_QUESTS, {
 			["g"] = bubbleDownFiltered({ ["isWorldQuest"] = true, },FILTERFUNC_questID,{
+				petbattle(q(86943, {	-- Drilling Down
+					--["cr"] = 237701,
+					["coord"] = { 53.4, 71.2, UNDERMINE },
+				})),
 				q(85497, {	-- Blown a Gasket
 					["coord"] = { 42.2, 76.7, UNDERMINE },
 				}),
@@ -38,6 +42,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85473, {	-- Extra! Extra!
 					["coord"] = { 36.5, 79.6, UNDERMINE },
 				}),
+				q(84994, {	-- Evidence of Effect
+					["coord"] = { 45.6, 48.8, UNDERMINE },
+				}),
 				q(85500, {	-- Hazardous Waste
 					["coord"] = { 56.6, 30.4, UNDERMINE },
 					["g"] = {
@@ -59,6 +66,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85466, {	-- Hob or Cold
 					["coord"] = { 43.7, 75.7, UNDERMINE },
 				}),
+				q(85514, {	-- If They're Not Using It...
+					["coord"] = { 48.7, 49.3, UNDERMINE },
+					["g"] = {
+						i(231898),	-- Industrial-Grade Makeup Remover (QI!)
+						i(231895),	-- Leftover Mocktail (QI!)
+						i(231897),	-- Rusted Coin (QI!)
+						i(231896),	-- Unused Jar (QI!)
+						o(478435),	-- Waiting Garbage Can
+						o(478436),	-- Waiting Garbage Can
+						o(478437),	-- Waiting Garbage Can
+						o(478438),	-- Waiting Garbage Can
+					},
+				}),
+				q(85472, {	-- It's Free Reagents!
+					["coord"] = { 54.6, 85.6, UNDERMINE },
+				}),
 				q(85474, {	-- Rat Pack Attack
 					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
 				}),
@@ -78,6 +101,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85526, {	-- Scum Bag
 					["coord"] = { 36.2, 66.5, UNDERMINE },
+				}),
+				q(85513, {	-- Underrider Grease
+					["coord"] = { 47.1, 55.7, UNDERMINE },
+					["g"] = {
+						i(231893),	-- Grease Residue (QI!)
+					},
 				}),
 				q(85397, {	-- What Plants Crave
 					["coord"] = { 65.2, 59.4, UNDERMINE },

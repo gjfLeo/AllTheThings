@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		n(QUESTS, {
 			-- Chapter 1? --
 			q(83137, {	-- When Opportunity Explodes
-				--["sourceQuests"] = { xx },	-- Lingering Shadows?
+				--["sourceQuests"] = { xx },	-- TODO: build 58626 - completing level up campaign
 				["provider"] = { "n", 225571 },	-- Renzik "The Shiv"
 				["coord"] = { 42.2, 27.0, DORNOGAL },
 			}),
@@ -1263,6 +1263,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(500096),	-- Unseemly Growth
 				},
 			}),
+			-- Delves
+			q(87582, {	-- Delves: Site of Madness
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231045 },	-- Paks Topskimmer
+				["coord"] = { 43.5, 51.6, UNDERMINE },
+			}),
+			q(87583, {	-- Delves: The Sluice Contains the Juice
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231045 },	-- Paks Topskimmer
+				["coord"] = { 43.5, 51.6, UNDERMINE },
+			}),
+			-- Unsure (warbound?)
+			q(87496, {	-- Benefit Packages
+				--["sourceQuests"] = { xx },	-- TODO: was up with new build, could be part of some chain?
+				["provider"] = { "n", 231049 },	-- Kaydee Racketting
+				["coord"] = { 42.8, 52.2, UNDERMINE },
+			}),
 			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
 			-- Alex TODO: all 3 NYI in-game, not returning name for quests
 			q(87297),	-- ???
@@ -1286,6 +1303,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(84788),	-- Hotrocket Hot Dogs
 				q(84791),	-- Hotrocket Burgers
 				q(85715),	-- Muse Wanted
+				q(85717),	-- Precarious Pet
 				q(85732),	-- Express Extermination
 				q(85733),	-- Daquiri Disaster
 				q(85758),	-- Sweeping Up
@@ -1319,7 +1337,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
 				-- When you pick up one of 4 cartel faction for a week
 				q(84951),	-- Bilgewater Cartel
-				q(84952),	-- Blackwater Cartel
+				q(84952),	-- Blackwater Cartel (could be Steamwheedle?)
 				q(84954),	-- Steamwheedle Cartel
 				q(84953),	-- Venture Co.
 			}),

@@ -4,6 +4,15 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(TREASURES, {
+			o_repeated({	-- Shiny Trash Can
+				["g"] = {
+					o(469858, {	-- Shiny Trash Can
+						-- entire map, basically
+						-- trash items, crystals, valorstones
+					}),
+				},
+			}),
+			--
 			o(477376, {	-- Trick Deck of Cards
 				["coord"] = { 43.6, 51.5, UNDERMINE },
 				["questID"] = 85496,

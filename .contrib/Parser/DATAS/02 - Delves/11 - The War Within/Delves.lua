@@ -601,6 +601,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(TRINKET_F, {
 				i(215170),	-- Abyssal Trap
+				i(232891, {	-- Amorphous Relic
+					["timeline"] = { ADDED_11_1_0 },
+				}),
 				i(215174),	-- Concoction: Kiss of Death
 				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
@@ -616,8 +619,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		},FILTERFUNC_itemID,{
 			["provider"] = { "o", 413590 },	-- Bountiful Coffer
 			["g"] = {
-				i(220520),	-- Radiant Echo
-				i(228958),	-- Radiant Echo (QS!)
+				i(220520, {["timeline"]={ REMOVED_11_1_0}}),	-- Radiant Echo
+				i(235897, {["timeline"]={ ADDED_11_1_0}}),	-- Radiant Echo
+				i(228958, {["timeline"]={ REMOVED_11_1_0}}),	-- Radiant Echo (QS!)
+				i(235896, {["timeline"]={ ADDED_11_1_0}}),	-- Radiant Echo (QS!)
 				filter(BATTLE_PETS, {
 					i(221820),	-- Chester (PET!)
 				}),
@@ -853,8 +858,24 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(225903, {	-- Amorphous Relic [Rank 4]
 						["bonusID"] = 11268,
 					}),
+					i(234014, {	-- Automatic Footbomb Dispenser [Rank 4]
+						["bonusID"] = 12160,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(230233, {	-- Biofuel Rocket Gear [Rank 4]
+						["bonusID"] = 12124,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(225897, {	-- Brute Force Idol [Rank 4]
 						["bonusID"] = 11238
+					}),
+					i(230232, {	-- Comically Large Magnet [Rank 4]
+						["bonusID"] = 12120,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(230227, {	-- Goblomagnetic Bouncing Grenade [Rank 4]
+						["bonusID"] = 12148,
+						["timeline"] = { ADDED_11_1_0 },
 					}),
 					i(225902, {	-- Idol of Final Will [Rank 4]
 						["bonusID"] = 11263,
@@ -862,14 +883,46 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(225898, {	-- Idol of the Earthmother [Rank 4]
 						["bonusID"] = 11243,
 					}),
+					i(230229, {	-- Impact Conversion Matrix [Rank 4]
+						["bonusID"] = 12156,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(230225, {	-- Kaja'Cola Carrier [Rank 4]
+						["bonusID"] = 12116,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(230230, {	-- L00T RAID-R [Rank 4]
+						["bonusID"] = 12105,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(225906, {	-- Lifeless Necrotic Relic [Rank 4]
 						["bonusID"] = 11283,
 					}),
 					i(225900, {	-- Light-Touched Idol [Rank 4]
 						["bonusID"] = 11253,
 					}),
+					i(234015, {	-- Mechasaur EZ-Build Kit [Rank 4]
+						["bonusID"] = 12164,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(225905, {	-- Olden Seeker Relic [Rank 4]
 						["bonusID"] = 11278,
+					}),
+					i(230950, {	-- Overdrive Pylon [Rank 4]
+						["bonusID"] = 12132,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(234013, {	-- Pacifist Rig [Rank 4]
+						["bonusID"] = 12136,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(230234, {	-- Pinged Augment Chip [Rank 4]
+						["bonusID"] = 12144,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+					i(230228, {	-- Pocket Factory [Rank 4]
+						["bonusID"] = 12152,
+						["timeline"] = { ADDED_11_1_0 },
 					}),
 					i(218129, {	-- Porcelain Arrowhead Idol [Rank 4]
 						["bonusID"] = 11233,
@@ -883,8 +936,16 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(225908, {	-- Relicblood of Zekvir [Rank 4]
 						["bonusID"] = 11293,
 					}),
+					i(230231, {	-- Reverse Engineered Goblin Death Bomb [Rank 4]
+						["bonusID"] = 12140,
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(225901, {	-- Streamlined Relic [Rank 4]
 						["bonusID"] = 11258,
+					}),
+					i(230226, {	-- Three Dimensional Bioprinter [Rank 4]
+						["bonusID"] = 12128,
+						["timeline"] = { ADDED_11_1_0 },
 					}),
 					i(225904, {	-- Time Lost Relic [Rank 4]
 						["bonusID"] = 11273,
@@ -901,6 +962,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(224411),	-- Companion Experience (Tier 3)
 			i(224412),	-- Companion Experience (every tier)
 			i(227784, {["timeline"]={ REMOVED_11_1_0 }}),	-- Delver's Bounty
+			--i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty
 			i(222922),	-- Expeditionary Spoils (Tier 1)
 			i(222923),	-- Expeditionary Spoils (Tier 2)
 			i(225178),	-- Expeditionary Spoils (Tier 3)
@@ -924,6 +986,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			--
 			i(228560),	-- Ancient Curio (QI!/QS!)
 			i(228581),	-- Ancient Curio (QI!/QS!)
+			i(234329, {	-- Ancient Curio (QS!)
+				["timeline"] = { ADDED_11_1_0 },
+			}),
+			i(234330, {	-- Ancient Curio (QS!)
+				["timeline"] = { ADDED_11_1_0 },
+			}),
 			--
 			currency(2803),	-- Undercoin
 		}),
@@ -1013,9 +1081,15 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		hqt(83330),	-- Level 60
 	}),
 	n(QUESTS, {
+		q(84370, {	-- The Key to Success
+			["provider"] = { "i", 227794 },	-- Archaic Cipher Key
+			["isWeekly"] = true,
+		}),
+		-- Season 1 (probably gonna need to sort out stuff out side of it)
 		q(84519, {	-- Ancient Curiosity: Combat
 			["provider"] = { "i", 228560 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
 			["maps"] = ALL_REGULAR_DELVES,
+			["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {
 				-- I don't think this is the curio everyone gets from this quest... is it RNG or only this one
 				-- that wowhead claims?
@@ -1029,6 +1103,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		q(84520, {	-- Ancient Curiosity: Utility
 			["provider"] = { "i", 228581 },	-- Ancient Curio (TODO: providers ids could be swapped) (TODO: MIGHT CHANGED ITEMID)
 			["maps"] = ALL_REGULAR_DELVES,
+			["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {
 				i(228582),	-- Streamlined Relic
 				-- i(225901, {	-- Streamlined Relic [Rank 1] (only tracking Rank 4 curios)
@@ -1036,11 +1111,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				-- }),
 			},
 		}),
-		q(84370, {	-- The Key to Success
-			["provider"] = { "i", 227794 },	-- Archaic Cipher Key
-			["isWeekly"] = true,
-		}),
-		-- Season 1 (probably gonna need to sort out stuff out side of it)
 		q(81514, {	-- Bountiful Delves
 			["sourceQuests"] = { 83315 },	-- Preparing for the Unknown
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
@@ -1087,6 +1157,16 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 		-- Season 2
+		q(86461, {	-- Ancient Curiosity: Combat
+			["provider"] = { "i", 234330 },	-- Ancient Curio
+			["maps"] = ALL_REGULAR_DELVES,	-- s2 delves or all delves?
+			["timeline"] = { ADDED_11_1_0 },
+		}),
+		q(86462, {	-- Ancient Curiosity: Utility
+			["provider"] = { "i", 234329 },	-- Ancient Curio
+			["maps"] = ALL_REGULAR_DELVES,	-- s2 delves or all delves?
+			["timeline"] = { ADDED_11_1_0 },
+		}),
 		q(85242, {	-- Seasonal Refresher
 			--["sourceQuests"] = { xx },	-- ??
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
@@ -1097,11 +1177,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					-- it seems like give you as reward any cosmetic from s1 delves that wasn't looted before
 					-- was Shadowlit Haversack (itemID 225067) for me
 				}),
-				i(233276, {	-- Delver's Starter Kit
-					-- TODO: remove if it is generic s2 delves reward
-					i(233118),	-- Incontinental Takeout
-					i(233205),	-- Go-Go Juice
-				}),
+				i(233276),	-- Delver's Starter Kit
 			},
 		}),
 		q(85243, {	-- I Want My Hat Back
@@ -1175,6 +1251,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(232047),	-- Chunk of Companion Experience (Uncommon)
 				i(232046),	-- Chunk of Companion Experience (Rare)
 				i(232045),	-- Chunk of Companion Experience (Epic)
+				-- Misc
+				-- TODO: move it under delve completion, if it will be here
+				-- TODO: objectID 478443 for Mislaid Curiosity in s2
+				i(233118, {["timeline"]={ ADDED_11_1_0}}),	-- Incontinental Takeout
+				i(233205, {["timeline"]={ ADDED_11_1_0}}),	-- Go-Go Juice
+				i(233062, {["timeline"]={ ADDED_11_1_0}}),	-- Pocket Pizza
 			},
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
@@ -2603,6 +2685,16 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(83156),	-- Purchaseable Restored Coffer Key (spellID 453933)
 		q(83193),	-- Trusty Hat (spellID 454301)
 		-- Season 2 Rewards
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Flamethrower
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Pipes
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Harpoon
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Baloon
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Purchaseable Restored Coffer Keys
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Green Paint
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delve-O-Bot 7001
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Warbound Equipment Set
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Discounted Restored Coffer Key
+		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Where We Thrive (camp site)
 		-- Zekvir
 		q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
 		q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)

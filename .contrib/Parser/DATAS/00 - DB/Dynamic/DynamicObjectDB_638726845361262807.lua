@@ -1,0 +1,73 @@
+﻿local ObjectDB = ObjectDB; for objectID,objectData in pairs({
+	[469858] = {
+		readable = "Shiny Trash Can",
+		text = {
+			en = "Shiny Trash Can",
+			es = "Shiny Trash Can",
+			de = "Shiny Trash Can",
+			fr = "Shiny Trash Can",
+			it = "Shiny Trash Can",
+			pt = "Shiny Trash Can",
+			ru = "Shiny Trash Can",
+			ko = "Shiny Trash Can",
+			cn = "Shiny Trash Can",
+		},
+	},
+	[478435] = {
+		readable = "Waiting Garbage Can",
+		text = {
+			en = "Waiting Garbage Can",
+			es = "Waiting Garbage Can",
+			de = "Waiting Garbage Can",
+			fr = "Waiting Garbage Can",
+			it = "Waiting Garbage Can",
+			pt = "Waiting Garbage Can",
+			ru = "Waiting Garbage Can",
+			ko = "Waiting Garbage Can",
+			cn = "Waiting Garbage Can",
+		},
+	},
+	[478436] = {
+		readable = "Waiting Garbage Can",
+		text = {
+			en = "Waiting Garbage Can",
+			es = "Waiting Garbage Can",
+			de = "Waiting Garbage Can",
+			fr = "Waiting Garbage Can",
+			it = "Waiting Garbage Can",
+			pt = "Waiting Garbage Can",
+			ru = "Waiting Garbage Can",
+			ko = "Waiting Garbage Can",
+			cn = "Waiting Garbage Can",
+		},
+	},
+	[478437] = {
+		readable = "Waiting Garbage Can",
+		text = {
+			en = "Waiting Garbage Can",
+			es = "Waiting Garbage Can",
+			de = "Waiting Garbage Can",
+			fr = "Waiting Garbage Can",
+			it = "Waiting Garbage Can",
+			pt = "Waiting Garbage Can",
+			ru = "Waiting Garbage Can",
+			ko = "Waiting Garbage Can",
+			cn = "Waiting Garbage Can",
+		},
+	},
+	[478438] = {
+		readable = "Waiting Garbage Can",
+		text = {
+			en = "Waiting Garbage Can",
+			es = "Waiting Garbage Can",
+			de = "Waiting Garbage Can",
+			fr = "Waiting Garbage Can",
+			it = "Waiting Garbage Can",
+			pt = "Waiting Garbage Can",
+			ru = "Waiting Garbage Can",
+			ko = "Waiting Garbage Can",
+			cn = "Waiting Garbage Can",
+		},
+	},
+})
+do ObjectDB[objectID] = objectData; end

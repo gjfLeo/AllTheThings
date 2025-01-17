@@ -3,7 +3,7 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 	inst(1298, {	-- Operation: Floodgate
-		--["coord"] = { X, Y, THE_RINGING_DEEPS },
+		["coord"] = { 42.2, 39.6, THE_RINGING_DEEPS },
 		["maps"] = {
 			2387,	-- The Waterworks
 			2388,	-- The G.R.I.D

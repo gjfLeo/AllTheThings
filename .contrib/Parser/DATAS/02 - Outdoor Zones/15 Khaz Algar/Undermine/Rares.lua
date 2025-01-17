@@ -52,6 +52,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84927,	-- Candy Stickemup
 				["g"] = {
 					i(235348),	-- Back Alley Shank
+					i(234218),	-- Goo-blin Grenade
 				},
 			}),
 			n(230828, {	-- Chief Foreman Gutso
@@ -135,6 +136,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 41.3, 43.6, UNDERMINE },
 				["questID"] = 85004,	-- Swigs Farsight
 				["g"] = {
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 					i(235307),	-- Smoketrail Belt
 				},
 			}),

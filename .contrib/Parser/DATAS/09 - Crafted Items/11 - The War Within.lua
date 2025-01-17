@@ -2421,6 +2421,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(81451, 219265),	-- Skinning Emperor Pitfang
 			FirstSkin(85548, 220492),	-- Skinning Finclaw Bloodtide
 			FirstSkin(86795, 228601, ADDED_11_0_7),	-- Skinning Ghostmaker
+			FirstSkin(87592, 230935, ADDED_11_1_0),	-- Skinning Grease
+			FirstSkin(87593, 230936, ADDED_11_1_0),	-- Skinning Grime
+			FirstSkin(87590, 231017, ADDED_11_1_0),	-- Skinning Grimewick
 			FirstSkin(83402, 221668),	-- Skinning Horror of the Shallows
 			FirstSkin(83413, 221327),	-- Skinning Kaheti Silk Hauler
 			FirstSkin(81455, 220275),	-- Skinning King Splash
@@ -2431,7 +2434,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(81458, 218452),	-- Skinning Murkshade
 			FirstSkin(81452, 219267),	-- Skinning Plaguehart
 			FirstSkin(83403, 221786),	-- Skinning Pride of Beledar
+			FirstSkin(87591, 230934, ADDED_11_1_0),	-- Skinning Ratspit
 			FirstSkin(85547, 207826),	-- Skinning Ravageant
+			FirstSkin(87594, 230931, ADDED_11_1_0),	-- Skinning Scrapbeak
 			FirstSkin(85550, 219278),	-- Skinning Shallowshell the Clacker
 			FirstSkin(84259, 228439),	-- Skinning Slatefang
 			FirstSkin(83405, 221217),	-- Skinning Spore-infused Shalewing

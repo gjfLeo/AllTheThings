@@ -18,16 +18,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				ach(41629),	-- C.H.E.T.T.mate
 				ach(41630),	-- "Employee" of the Month
 			}),
-			n(QUESTS, {
+			n(QUESTS, sharedData({["isWeekly"]=true,}, {
 				q(87305),	-- Desire to D.R.I.V.E.
 				q(87307),	-- Garbage Day
 				q(86923),	-- Go Fish
+				q(87306),	-- Kaja Cruising
+				q(86918),	-- Reclaimed Scrap
 				q(86915),	-- Side with a Cartel
 				q(86919),	-- Side Gig
 				q(86917),	-- Ship Right
 				q(87304),	-- Time to Vacate
 				q(86920),	-- War Mode Violence
-			}),
+			})),
 			n(REWARDS, {
 				i(235053),	-- C.H.E.T.T. List
 			}),
