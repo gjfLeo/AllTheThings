@@ -734,20 +734,38 @@ do
 		local sourceID = t[KEY]
 		return (AccountSources[sourceID] and 1) or (AccountUniqueSources[sourceID] and 2)
 	end
-	-- An appearance must be associated with an item since the Item link is displayed in Transmog UI
-	local createItemWithAppearance = app.ExtendClass("Item", "ItemWithAppearance", KEY, {
-		CACHE = function() return CACHE end,
-		-- this is swapped based on settings
-		collectible = app.ReturnTrue,
+
+	-- Appearance-based Classes
+	local AppearanceVariantClasses = { CLASSNAME }
+
+	local AndAppearance = {
+		__name = "AndAppearance",
+		collectible = function(t) return app.Settings.Collectibles.Transmog end,
 		collected = collected_Completionist,
-		collectedwarband = app.IsClassic and app.EmptyFunction or
-		function(t)
-			return app.IsAccountCached("SourceItemsOnCharacter", t[KEY])
-		end,
 		visualID = function(t)
 			local sourceInfo = C_TransmogCollection_GetSourceInfo(t[KEY])
 			return sourceInfo and sourceInfo.visualID
 		end,
+		__condition = function(t) return t.sourceID end,
+		__onclassgenerated = function(variantName)
+			AppearanceVariantClasses[#AppearanceVariantClasses + 1] = variantName
+			-- any appearance-based variant is tracked based on 'Transmog' setting
+			app.AddSimpleCollectibleSwap(variantName, SETTING)
+		end,
+	}
+	app.GlobalVariants.AndAppearance = AndAppearance
+
+	-- An appearance must be associated with an item since the Item link is displayed in Transmog UI
+	local createItemWithAppearance = app.ExtendClass("Item", CLASSNAME, KEY, {
+		CACHE = function() return CACHE end,
+		-- this is swapped based on settings
+		collectible = AndAppearance.collectible,
+		collected = AndAppearance.collected,
+		collectedwarband = app.IsClassic and app.EmptyFunction or
+		function(t)
+			return app.IsAccountCached("SourceItemsOnCharacter", t[KEY])
+		end,
+		visualID = AndAppearance.visualID,
 		-- directly-created source objects can attempt to determine & save their providing ItemID to benefit from the attached Item fields
 		itemID = app.IsRetail and function(t)
 			if t.__autolink then return; end
@@ -795,10 +813,14 @@ do
 			else
 				app.ItemSourceFilter = FilterItemSourceUnique;
 			end
-			app.SwapClassDefinitionMethod(CLASSNAME, "collected", collected_Unique)
+			for _,classname in ipairs(AppearanceVariantClasses) do
+				app.SwapClassDefinitionMethod(classname, "collected", collected_Unique)
+			end
 		else
 			app.ItemSourceFilter = FilterItemSource;
-			app.SwapClassDefinitionMethod(CLASSNAME, "collected", collected_Completionist)
+			for _,classname in ipairs(AppearanceVariantClasses) do
+				app.SwapClassDefinitionMethod(classname, "collected", collected_Completionist)
+			end
 		end
 	end
 end
