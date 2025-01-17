@@ -118,6 +118,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								},
 								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 							}),
+							i(230425, {	-- Prized Jeweler's Setting
+								["cost"] = {
+									{"i", 215236, 3},	-- Vicious Bloodstone x3
+									{"c", HONOR, 5000},
+								},
+								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+							}),
 						}),
 						filter(REAGENTS, {
 							i(210232, {	-- Forged Aspirant's Heraldry
@@ -131,6 +138,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							i(210233, {	-- Forged Gladiator's Heraldry
 								["cost"] = {{"c", CONQUEST, 175}},
 								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+							}),
+							i(229389, {	-- Prized Aspirant's Heraldry
+								["cost"] = {{"c", HONOR, 175}},
+								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+							}),
+							i(229388, {	-- Prized Combatant's Heraldry
+								["cost"] = {{"c", HONOR, 350}},
+								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+							}),
+							i(229390, {	-- Prized Gladiator's Heraldry
+								["cost"] = {{"c", CONQUEST, 175}},
+								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 							}),
 							i(215236, {	-- Vicious Bloodstone
 								["cost"] = {{"c", HONOR, 2500}},

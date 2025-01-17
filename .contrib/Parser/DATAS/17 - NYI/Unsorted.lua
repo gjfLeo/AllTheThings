@@ -636,104 +636,7 @@ root(ROOTS.Unsorted, {
 				i(232888),	-- Ensemble: Algari Warmonger's Mail Armor
 				i(232889),	-- Ensemble: Algari Warmonger's Plate Armor
 				i(232890),	-- Arsenal: Algari Warmonger's Weapons
-				i(229388),	-- Prized Combatant's Heraldry
-				i(229389),	-- Prized Aspirant's Heraldry
-				i(229390),	-- Prized Gladiator's Heraldry
-				i(229427),	-- Prized Aspirant's Plate Helm
-				i(229428),	-- Prized Aspirant's Silk Robe
-				i(229429),	-- Prized Aspirant's Chestplate
-				i(229430),	-- Prized Aspirant's Armored Vest
-				i(229431),	-- Prized Aspirant's Leather Vest
-				i(229432),	-- Prized Aspirant's Plate Warboots
-				i(229433),	-- Prized Aspirant's Silk Treads
-				i(229434),	-- Prized Aspirant's Chain Sabatons
-				i(229435),	-- Prized Aspirant's Leather Boots
-				i(229436),	-- Prized Aspirant's Leather Gloves
-				i(229437),	-- Prized Aspirant's Plate Gauntlets
-				i(229438),	-- Prized Aspirant's Silk Gloves
-				i(229439),	-- Prized Aspirant's Chain Gauntlets
-				i(229440),	-- Prized Aspirant's Silk Hood
-				i(229441),	-- Prized Aspirant's Chain Helm
-				i(229442),	-- Prized Aspirant's Leather Helm
-				i(229443),	-- Prized Aspirant's Plate Legguards
-				i(229444),	-- Prized Aspirant's Silk Leggings
-				i(229445),	-- Prized Aspirant's Chain Leggings
-				i(229446),	-- Prized Aspirant's Leather Breeches
-				i(229447),	-- Prized Aspirant's Leather Spaulders
-				i(229448),	-- Prized Aspirant's Plate Shoulders
-				i(229449),	-- Prized Aspirant's Silk Mantle
-				i(229450),	-- Prized Aspirant's Chain Spaulders
-				i(229451),	-- Prized Aspirant's Plate Girdle
-				i(229452),	-- Prized Aspirant's Silk Cord
-				i(229453),	-- Prized Aspirant's Chain Belt
-				i(229454),	-- Prized Aspirant's Leather Belt
-				i(229455),	-- Prized Aspirant's Silk Wristwraps
-				i(229456),	-- Prized Aspirant's Plate Cuffs
-				i(229457),	-- Prized Aspirant's Chain Wristwraps
-				i(229458),	-- Prized Aspirant's Leather Wristwraps
-				i(229459),	-- Prized Aspirant's Plate Headguard
-				i(229460),	-- Prized Aspirant's Silk Shirt
-				i(229461),	-- Prized Aspirant's Plate Armor
-				i(229462),	-- Prized Aspirant's Armored Tunic
-				i(229463),	-- Prized Aspirant's Leather Tunic
-				i(229464),	-- Prized Aspirant's Plate Stompers
-				i(229465),	-- Prized Aspirant's Silk Footwraps
-				i(229466),	-- Prized Aspirant's Chain Stompers
-				i(229467),	-- Prized Aspirant's Leather Footpads
-				i(229468),	-- Prized Aspirant's Leather Grips
-				i(229469),	-- Prized Aspirant's Plate Handguards
-				i(229470),	-- Prized Aspirant's Silk Handwraps
-				i(229471),	-- Prized Aspirant's Chain Handguards
-				i(229472),	-- Prized Aspirant's Silk Cover
-				i(229473),	-- Prized Aspirant's Chain Headguard
-				i(229474),	-- Prized Aspirant's Leather Mask
-				i(229475),	-- Prized Aspirant's Plate Wargreaves
-				i(229476),	-- Prized Aspirant's Silk Legwraps
-				i(229477),	-- Prized Aspirant's Chain Wargreaves
-				i(229478),	-- Prized Aspirant's Leather Leggings
-				i(229479),	-- Prized Aspirant's Leather Mantle
-				i(229480),	-- Prized Aspirant's Plate Pauldrons
-				i(229481),	-- Prized Aspirant's Silk Shawl
-				i(229482),	-- Prized Aspirant's Chain Shoulderguards
-				i(229483),	-- Prized Aspirant's Plate Greatbelt
-				i(229484),	-- Prized Aspirant's Silk Belt
-				i(229485),	-- Prized Aspirant's Chain Clasp
-				i(229486),	-- Prized Aspirant's Leather Cord
-				i(229487),	-- Prized Aspirant's Silk Bindings
-				i(229488),	-- Prized Aspirant's Plate Armguards
-				i(229489),	-- Prized Aspirant's Chain Bracer
-				i(229490),	-- Prized Aspirant's Leather Armguards
-				i(229491),	-- Prized Aspirant's Badge of Ferocity
-				i(229492),	-- Prized Aspirant's Medallion
-				i(229493),	-- Prized Aspirant's Insignia of Alacrity
-				i(229494),	-- Prized Aspirant's Emblem
-				i(229495),	-- Prized Aspirant's Sigil of Adaptation
-				i(229496),	-- Prized Aspirant's Ring
-				i(229497),	-- Prized Aspirant's Band
-				i(229498),	-- Prized Aspirant's Signet
-				i(229499),	-- Prized Aspirant's Necklace
-				i(229500),	-- Prized Aspirant's Choker
-				i(229501),	-- Prized Aspirant's Pendant
-				i(229502),	-- Prized Aspirant's Drape
-				i(229503),	-- Prized Aspirant's Cloak
-				i(229504),	-- Prized Aspirant's Cape
-				i(229505),	-- Prized Aspirant's Greatcloak
-				i(229506),	-- Prized Aspirant's Battleaxe
-				i(229507),	-- Prized Aspirant's Dagger
-				i(229508),	-- Prized Aspirant's Hammer
-				i(229509),	-- Prized Aspirant's Polearm
-				i(229510),	-- Prized Aspirant's Staff
-				i(229511),	-- Prized Aspirant's Greatsword
-				i(229512),	-- Prized Aspirant's Molotov
-				i(229513),	-- Prized Aspirant's Rocketglaive
-				i(229514),	-- Prized Aspirant's Scepter
-				i(229515),	-- Prized Aspirant's Shield
-				i(229516),	-- Prized Aspirant's Rifle
-				i(229517),	-- Prized Aspirant's Halberd
-				i(229518),	-- Prized Aspirant's Mace
-				i(229519),	-- Prized Aspirant's Drill
-				i(229520),	-- Prized Aspirant's Chopper
-				i(229521),	-- Prized Aspirant's Blastoff Rod
+
 				i(229522),	-- Prized Gladiator's Silk Robe
 				i(229523),	-- Prized Gladiator's Silk Gown
 				i(229524),	-- Prized Gladiator's Silk Slippers
@@ -981,17 +884,7 @@ root(ROOTS.Unsorted, {
 				i(229771),	-- Prized Gladiator's Cloak
 				i(229772),	-- Prized Gladiator's Drape
 				i(229773),	-- Prized Gladiator's Shawl
-				i(229774),	-- Prized Gladiator's Ring
-				i(229775),	-- Prized Gladiator's Band
-				i(229776),	-- Prized Gladiator's Signet
-				i(229777),	-- Prized Gladiator's Necklace
-				i(229778),	-- Prized Gladiator's Pendant
-				i(229779),	-- Prized Gladiator's Amulet
-				i(229780),	-- Prized Gladiator's Badge of Ferocity
-				i(229781),	-- Prized Gladiator's Insignia of Alacrity
-				i(229782),	-- Prized Gladiator's Emblem
-				i(229783),	-- Prized Gladiator's Medallion
-				i(229784),	-- Prized Gladiator's Sigil of Adaptation
+				
 				i(229785),	-- Prized Gladiator's Last Resort
 				i(229786),	-- Prized Gladiator's Dagger
 				i(229787),	-- Prized Gladiator's Warglaive
@@ -1013,85 +906,7 @@ root(ROOTS.Unsorted, {
 				i(229803),	-- Prized Gladiator's Skewer
 				i(229804),	-- Prized Gladiator's Pylon
 
-				i(230106),	-- Prized Warmonger's Garb
-				i(230107),	-- Prized Warmonger's Slippers
-				i(230108),	-- Prized Warmonger's Gloves
-				i(230109),	-- Prized Warmonger's Crown
-				i(230110),	-- Prized Warmonger's Pants
-				i(230111),	-- Prized Warmonger's Cord
-				i(230112),	-- Prized Warmonger's Bindings
-				i(230113),	-- Prized Warmonger's Mantle
-				i(230114),	-- Prized Warmonger's Boots
-				i(230115),	-- Prized Warmonger's Handwraps
-				i(230116),	-- Prized Warmonger's Hood
-				i(230117),	-- Prized Warmonger's Breeches
-				i(230118),	-- Prized Warmonger's Belt
-				i(230119),	-- Prized Warmonger's Wraps
-				i(230120),	-- Prized Warmonger's Jerkin
-				i(230121),	-- Prized Warmonger's Shoulderguard
-				i(230122),	-- Prized Warmonger's Faceplate
-				i(230123),	-- Prized Warmonger's Cuirass
-				i(230124),	-- Prized Warmonger's Sabatons
-				i(230125),	-- Prized Warmonger's Gauntlets
-				i(230126),	-- Prized Warmonger's Legguards
-				i(230127),	-- Prized Warmonger's Spaulders
-				i(230128),	-- Prized Warmonger's Clasp
-				i(230129),	-- Prized Warmonger's Bracers
-				i(230130),	-- Prized Warmonger's Chestguard
-				i(230131),	-- Prized Warmonger's Greaves
-				i(230132),	-- Prized Warmonger's Grips
-				i(230133),	-- Prized Warmonger's Helm
-				i(230134),	-- Prized Warmonger's Leggings
-				i(230135),	-- Prized Warmonger's Epaulets
-				i(230136),	-- Prized Warmonger's Cinch
-				i(230137),	-- Prized Warmonger's Armguards
-				i(230138),	-- Prized Warmonger's Cape
-				i(230139),	-- Prized Warmonger's Shawl
-				i(230140),	-- Prized Warmonger's Cloak
-				i(230141),	-- Prized Warmonger's Drape
-				i(230142),	-- Prized Warmonger's Battleaxe
-				i(230143),	-- Prized Warmonger's Hatchet
-				i(230144),	-- Prized Warmonger's Carver
-				i(230145),	-- Prized Warmonger's Flameshot
-				i(230146),	-- Prized Warmonger's Twinblade
-				i(230147),	-- Prized Warmonger's Firebomb
-				i(230148),	-- Prized Warmonger's Spire
-				i(230149),	-- Prized Warmonger's Battlestaff
-				i(230150),	-- Prized Warmonger's Greatsword
-				i(230151),	-- Prized Warmonger's Broadsword
-				i(230153),	-- Prized Warmonger's Club
-				i(230154),	-- Prized Warmonger's Hammer
-				i(230155),	-- Prized Warmonger's Gavel
-				i(230156),	-- Prized Warmonger's Aegis
-				i(230157),	-- Prized Warmonger's Impaler
-				i(230158),	-- Prized Warmonger's Spear
-				i(230159),	-- Prized Warmonger's Wand
-				i(230160),	-- Prized Warmonger's Mace
-				i(230161),	-- Prized Warmonger's Crusher
-				i(230162),	-- Prized Warmonger's Scepter
-				i(230163),	-- Prized Warmonger's Dagger
-				i(230164),	-- Prized Warmonger's Dirk
-				i(230425),	-- Prized Jeweler's Setting
 				i(230721),	-- Prized Equipment Chest
-				i(230774),	-- Prized Gladiator's Bludgeon
-				i(230775),	-- Prized Gladiator's Pincer
-				i(230776),	-- Prized Gladiator's Blaster
-				i(230777),	-- Prized Gladiator's Warglaive
-				i(230778),	-- Prized Gladiator's Drill
-				i(230779),	-- Prized Gladiator's Staff
-				i(230780),	-- Prized Gladiator's Torchblade
-				i(230781),	-- Prized Gladiator's Pylon
-				i(230782),	-- Prized Gladiator's Dagger
-				i(230783),	-- Prized Gladiator's Flail
-				i(230784),	-- Prized Gladiator's Army Knife
-				i(230785),	-- Prized Gladiator's Conduit
-				i(230786),	-- Prized Gladiator's Gasket
-				i(230787),	-- Prized Gladiator's Detonator
-				i(230788),	-- Prized Gladiator's Bow
-				i(230789),	-- Prized Gladiator's Greatsaw
-				i(230790),	-- Prized Gladiator's Pulverizer
-
-				i(231637),	-- Prized Gladiator's Tabard
 
 				i(232664),	-- Ensemble: Forged Aspirant's Cloth Armor
 				i(232665),	-- Ensemble: Forged Aspirant's Leather Armor

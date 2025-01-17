@@ -161,7 +161,6 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 						bloody(875, i(223848)),		-- Forged Warmonger's Twinblade
 						bloody(1225, i(223862)),	-- Forged Warmonger's Wand
 					}),
-
 				},
 			}),
 		})),

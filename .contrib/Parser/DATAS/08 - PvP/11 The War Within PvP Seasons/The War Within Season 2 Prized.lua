@@ -80,5 +80,319 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 			-- Fashion
 			ach(41595),	-- Prized Guise
 		})),
+		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
+			--i(XXXXXX, {	-- Vicious Electro Eel [A]
+			--	["races"] = ALLIANCE_ONLY,
+			--}),
+			--i(229988, {	-- Vicious Electro Eel [H]
+			--	["races"] = HORDE_ONLY,
+			--}),
+		})),
+		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
+			n(219213, {	-- Gilderann <War Mode Quartermaster>
+				["coord"] = { 55.2, 76.8, DORNOGAL },
+				["g"] = {
+					filter(BACK_F, {
+						bloody(525, i(230138)),	-- Prized Warmonger's Cape
+						bloody(525, i(230140)),	-- Prized Warmonger's Cloak
+						bloody(525, i(230141)),	-- Prized Warmonger's Drape
+						bloody(525, i(230139)),	-- Prized Warmonger's Shawl
+					}),
+					filter(CLOTH, {
+						bloody(525, i(230112)),	-- Prized Warmonger's Bindings
+						bloody(700, i(230111)),	-- Prized Warmonger's Cord
+						bloody(875, i(230109)),	-- Prized Warmonger's Crown
+						bloody(875, i(230106)),	-- Prized Warmonger's Garb
+						bloody(700, i(230108)),	-- Prized Warmonger's Gloves
+						bloody(700, i(230113)),	-- Prized Warmonger's Mantle
+						bloody(875, i(230110)),	-- Prized Warmonger's Pants
+						bloody(700, i(230107)),	-- Prized Warmonger's Slippers
+					}),
+					filter(LEATHER, {
+						bloody(700, i(230118)),	-- Prized Warmonger's Belt
+						bloody(700, i(230114)),	-- Prized Warmonger's Boots
+						bloody(875, i(230117)),	-- Prized Warmonger's Breeches
+						bloody(700, i(230115)),	-- Prized Warmonger's Handwraps
+						bloody(875, i(230116)),	-- Prized Warmonger's Hood
+						bloody(875, i(230120)),	-- Prized Warmonger's Jerkin
+						bloody(700, i(230121)),	-- Prized Warmonger's Shoulderguard
+						bloody(525, i(230119)),	-- Prized Warmonger's Wraps
+					}),
+					filter(MAIL, {
+						bloody(525, i(230137)),	-- Prized Warmonger's Armguards
+						bloody(875, i(230130)),	-- Prized Warmonger's Chestguard
+						bloody(700, i(230136)),	-- Prized Warmonger's Cinch
+						bloody(700, i(230135)),	-- Prized Warmonger's Epaulets
+						bloody(700, i(230131)),	-- Prized Warmonger's Greaves
+						bloody(700, i(230132)),	-- Prized Warmonger's Grips
+						bloody(875, i(230133)),	-- Prized Warmonger's Helm
+						bloody(875, i(230134)),	-- Prized Warmonger's Leggings
+					}),
+					filter(PLATE, {
+						bloody(525, i(230129)),	-- Prized Warmonger's Bracers
+						bloody(700, i(230128)),	-- Prized Warmonger's Clasp
+						bloody(875, i(230123)),	-- Prized Warmonger's Cuirass
+						bloody(875, i(230122)),	-- Prized Warmonger's Faceplate
+						bloody(700, i(230125)),	-- Prized Warmonger's Gauntlets
+						bloody(875, i(230126)),	-- Prized Warmonger's Legguards
+						bloody(700, i(230124)),	-- Prized Warmonger's Sabatons
+						bloody(700, i(230127)),	-- Prized Warmonger's Spaulders
+					}),
+					n(WEAPONS, {
+						bloody(525, i(230156)),		-- Prized Warmonger's Aegis
+						bloody(875, i(230142)),		-- Prized Warmonger's Battleaxe
+						bloody(1750, i(230149)),	-- Prized Warmonger's Battlestaff
+						bloody(1750, i(230151)),	-- Prized Warmonger's Broadsword
+						bloody(875, i(230144)),		-- Prized Warmonger's Carver
+						bloody(1225, i(230153)),	-- Prized Warmonger's Club
+						bloody(875, i(230161)),		-- Prized Warmonger's Crusher
+						bloody(1225, i(230163)),	-- Prized Warmonger's Dagger
+						bloody(875, i(230164)),		-- Prized Warmonger's Dirk
+						bloody(525, i(230147)),		-- Prized Warmonger's Firebomb
+						bloody(1750, i(230145)),	-- Prized Warmonger's Flameshot
+						bloody(875, i(230155)),		-- Prized Warmonger's Gavel
+						bloody(1750, i(230150)),	-- Prized Warmonger's Greatsword
+						bloody(875, i(230154)),		-- Prized Warmonger's Hammer
+						bloody(1225, i(230143)),	-- Prized Warmonger's Hatchet
+						bloody(1750, i(230157)),	-- Prized Warmonger's Impaler
+						bloody(875, i(230160)),		-- Prized Warmonger's Mace
+						bloody(1225, i(230162)),	-- Prized Warmonger's Scepter
+						bloody(1750, i(230158)),	-- Prized Warmonger's Spear
+						bloody(1750, i(230148)),	-- Prized Warmonger's Spire
+						bloody(875, i(230146)),		-- Prized Warmonger's Twinblade
+						bloody(1225, i(230159)),	-- Prized Warmonger's Wand
+					}),
+				},
+			}),
+		})),
+		n(PVP_ASPIRANT, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
+			n(219217, {	-- Velerd <Honor Quartermaster>
+				["coord"] = { 55.0, 76.5, DORNOGAL },
+				["g"] = {
+					filter(BACK_F, {
+						honor(525, i(229504)),	-- Prized Aspirant's Cape
+						honor(525, i(229503)),	-- Prized Aspirant's Cloak
+						honor(525, i(229502)),	-- Prized Aspirant's Drape
+						honor(525, i(229505)),	-- Prized Aspirant's Greatcloak
+					}),
+					filter(CLOTH, {
+						honor(700, i(229484)),	-- Prized Aspirant's Silk Belt
+						honor(525, i(229487)),	-- Prized Aspirant's Silk Bindings
+						honor(700, i(229452)),	-- Prized Aspirant's Silk Cord
+						honor(875, i(229472)),	-- Prized Aspirant's Silk Cover
+						honor(700, i(229465)),	-- Prized Aspirant's Silk Footwraps
+						honor(700, i(229438)),	-- Prized Aspirant's Silk Gloves
+						honor(700, i(229470)),	-- Prized Aspirant's Silk Handwraps
+						honor(875, i(229440)),	-- Prized Aspirant's Silk Hood
+						honor(875, i(229444)),	-- Prized Aspirant's Silk Leggings
+						honor(875, i(229476)),	-- Prized Aspirant's Silk Legwraps
+						honor(700, i(229449)),	-- Prized Aspirant's Silk Mantle
+						honor(875, i(229428)),	-- Prized Aspirant's Silk Robe
+						honor(700, i(229481)),	-- Prized Aspirant's Silk Shawl
+						honor(875, i(229460)),	-- Prized Aspirant's Silk Shirt
+						honor(700, i(229433)),	-- Prized Aspirant's Silk Treads
+						honor(525, i(229455)),	-- Prized Aspirant's Silk Wristwraps
+					}),
+					filter(FINGER_F, {
+						honor(525, i(229497)),	-- Prized Aspirant's Band
+						honor(525, i(229496)),	-- Prized Aspirant's Ring i(
+						honor(525, i(229498)),	-- Prized Aspirant's Signet
+					}),
+					filter(LEATHER, {
+						honor(525, i(229490)),	-- Prized Aspirant's Leather Armguards
+						honor(700, i(229454)),	-- Prized Aspirant's Leather Belt
+						honor(700, i(229435)),	-- Prized Aspirant's Leather Boots
+						honor(875, i(229446)),	-- Prized Aspirant's Leather Breeches
+						honor(700, i(229486)),	-- Prized Aspirant's Leather Cord
+						honor(700, i(229467)),	-- Prized Aspirant's Leather Footpads
+						honor(700, i(229436)),	-- Prized Aspirant's Leather Gloves
+						honor(700, i(229468)),	-- Prized Aspirant's Leather Grips
+						honor(875, i(229442)),	-- Prized Aspirant's Leather Helm
+						honor(875, i(229478)),	-- Prized Aspirant's Leather Leggings
+						honor(700, i(229479)),	-- Prized Aspirant's Leather Mantle
+						honor(875, i(229474)),	-- Prized Aspirant's Leather Mask
+						honor(700, i(229447)),	-- Prized Aspirant's Leather Spaulders
+						honor(875, i(229463)),	-- Prized Aspirant's Leather Tunic
+						honor(875, i(229431)),	-- Prized Aspirant's Leather Vest
+						honor(525, i(229458)),	-- Prized Aspirant's Leather Wristwraps
+					}),
+					filter(MAIL, {
+						honor(875, i(229462)),	-- Prized Aspirant's Armored Tunic
+						honor(875, i(229430)),	-- Prized Aspirant's Armored Vest
+						honor(700, i(229453)),	-- Prized Aspirant's Chain Belt
+						honor(525, i(229489)),	-- Prized Aspirant's Chain Bracer
+						honor(700, i(229485)),	-- Prized Aspirant's Chain Clasp
+						honor(700, i(229439)),	-- Prized Aspirant's Chain Gauntlets
+						honor(700, i(229471)),	-- Prized Aspirant's Chain Handguards
+						honor(875, i(229473)),	-- Prized Aspirant's Chain Headguard
+						honor(875, i(229441)),	-- Prized Aspirant's Chain Helm
+						honor(875, i(229445)),	-- Prized Aspirant's Chain Leggings
+						honor(700, i(229434)),	-- Prized Aspirant's Chain Sabatons
+						honor(700, i(229482)),	-- Prized Aspirant's Chain Shoulderguards
+						honor(700, i(229450)),	-- Prized Aspirant's Chain Spaulders
+						honor(700, i(229466)),	-- Prized Aspirant's Chain Stompers
+						honor(875, i(229477)),	-- Prized Aspirant's Chain Wargreaves
+						honor(525, i(229457)),	-- Prized Aspirant's Chain Wristwraps
+					}),
+					filter(NECK_F, {
+						honor(525, i(229500)),	-- Prized Aspirant's Choker
+						honor(525, i(229499)),	-- Prized Aspirant's Necklace
+						honor(525, i(229501)),	-- Prized Aspirant's Pendant
+					}),
+					filter(PLATE, {
+						honor(875, i(229429)),	-- Prized Aspirant's Chestplate
+						honor(525, i(229488)),	-- Prized Aspirant's Plate Armguards
+						honor(875, i(229461)),	-- Prized Aspirant's Plate Armor
+						honor(525, i(229456)),	-- Prized Aspirant's Plate Cuffs
+						honor(700, i(229437)),	-- Prized Aspirant's Plate Gauntlets
+						honor(700, i(229451)),	-- Prized Aspirant's Plate Girdle
+						honor(700, i(229483)),	-- Prized Aspirant's Plate Greatbelt
+						honor(700, i(229469)),	-- Prized Aspirant's Plate Handguards
+						honor(875, i(229459)),	-- Prized Aspirant's Plate Headguard
+						honor(875, i(229427)),	-- Prized Aspirant's Plate Helm
+						honor(875, i(229443)),	-- Prized Aspirant's Plate Legguards
+						honor(700, i(229480)),	-- Prized Aspirant's Plate Pauldrons
+						honor(700, i(229448)),	-- Prized Aspirant's Plate Shoulders
+						honor(700, i(229464)),	-- Prized Aspirant's Plate Stompers
+						honor(700, i(229432)),	-- Prized Aspirant's Plate Warboots
+						honor(875, i(229475)),	-- Prized Aspirant's Plate Wargreaves
+					}),
+					filter(TRINKET_F, {
+						honor(700, i(229491)),	-- Prized Aspirant's Badge of Ferocity
+						honor(700, i(229494)),	-- Prized Aspirant's Emblem
+						honor(700, i(229493)),	-- Prized Aspirant's Insignia of Alacrity
+						honor(525, i(229492)),	-- Prized Aspirant's Medallion
+						honor(525, i(229495)),	-- Prized Aspirant's Sigil of Adaptation
+					}),
+					n(WEAPONS, {
+						honor(875, i(229506)),	-- Prized Aspirant's Battleaxe
+						honor(1225, i(229521)),	-- Prized Aspirant's Blastoff Rod
+						honor(875, i(229520)),	-- Prized Aspirant's Chopper
+						honor(875, i(229507)),	-- Prized Aspirant's Dagger
+						honor(1225, i(229519)),	-- Prized Aspirant's Drill
+						honor(1750, i(229511)),	-- Prized Aspirant's Greatsword
+						honor(1750, i(229517)),	-- Prized Aspirant's Halberd
+						honor(875, i(229508)),	-- Prized Aspirant's Hammer
+						honor(875, i(229518)),	-- Prized Aspirant's Mace
+						honor(525, i(229512)),	-- Prized Aspirant's Molotov
+						honor(1750, i(229509)),	-- Prized Aspirant's Polearm
+						honor(1750, i(229516)),	-- Prized Aspirant's Rifle
+						honor(875, i(229513)),	-- Prized Aspirant's Rocketglaive
+						honor(1225, i(229514)),	-- Prized Aspirant's Scepter
+						honor(525, i(229515)),	-- Prized Aspirant's Shield
+						honor(1750, i(229510)),	-- Prized Aspirant's Staff
+					}),
+				},
+			})
+		})),
+		n(PVP_GLADIATOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
+			n(219222, {	-- Lalandi <Conquest Quartermaster>
+				["coord"] = { 55.1, 76.2, DORNOGAL },
+				["g"] = {
+					n(CLASSES, {
+						cl(DEATHKNIGHT, {
+						}),
+						cl(DEMONHUNTER, {
+						}),
+						cl(DRUID, {
+						}),
+						cl(EVOKER, {
+						}),
+						cl(HUNTER, {
+						}),
+						cl(MAGE, {
+						}),
+						cl(MONK, {
+						}),
+						cl(PALADIN, {
+						}),
+						cl(PRIEST, {
+						}),
+						cl(ROGUE, {
+						}),
+						cl(SHAMAN, {
+						}),
+						cl(WARLOCK, {
+						}),
+						cl(WARRIOR, {
+						}),
+					}),
+					filter(FINGER_F, {
+						conquest(525, i(229775)),	-- Prized Gladiator's Band
+						conquest(525, i(229774)),	-- Prized Gladiator's Ring
+						conquest(525, i(229776)),	-- Prized Gladiator's Signet
+					}),
+					filter(NECK_F, {
+						conquest(525, i(229779)),	-- Prized Gladiator's Amulet
+						conquest(525, i(229777)),	-- Prized Gladiator's Necklace
+						conquest(525, i(229778)),	-- Prized Gladiator's Pendant
+					}),
+					filter(TRINKET_F, {
+						conquest(700, i(229780)),	-- Prized Gladiator's Badge of Ferocity
+						conquest(700, i(229782)),	-- Prized Gladiator's Emblem
+						conquest(700, i(229781)),	-- Prized Gladiator's Insignia of Alacrity
+						conquest(525, i(229783)),	-- Prized Gladiator's Medallion
+						conquest(525, i(229784)),	-- Prized Gladiator's Sigil of Adaptation
+					}),
+					n(WEAPONS, {
+					}),
+				},
+			}),
+		})),
+		n(PVP_ELITE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {	-- , ["bonusID"] = XXXX
+			n(CLASSES, {
+				cl(DEATHKNIGHT, {
+				}),
+				cl(DEMONHUNTER, {
+				}),
+				cl(DRUID, {
+				}),
+				cl(EVOKER, {
+				}),
+				cl(HUNTER, {
+				}),
+				cl(MAGE, {
+				}),
+				cl(MONK, {
+				}),
+				cl(PALADIN, {
+				}),
+				cl(PRIEST, {
+				}),
+				cl(ROGUE, {
+				}),
+				cl(SHAMAN, {
+				}),
+				cl(WARLOCK, {
+				}),
+				cl(WARRIOR, {
+				}),
+			}),
+			n(219216, {	-- Rogurn <Elite Conquest Quartermaster>
+				["coord"] = { 59.8, 69.3, DORNOGAL },
+				["g"] = {
+					honor(100, i(231637, {	-- Prized Gladiator's Tabard
+						["sourceAchievements"] = { 41019 },	-- Elite: The War Within Season 2
+					})),
+					moh(5, i(230784)),	-- Prized Gladiator's Army Knife
+					moh(10, i(230776)),	-- Prized Gladiator's Blaster
+					moh(5, i(230774)),	-- Prized Gladiator's Bludgeon
+					moh(10, i(230788)),	-- Prized Gladiator's Bow
+					moh(5, i(230785)),	-- Prized Gladiator's Conduit
+					moh(10, i(230782)),	-- Prized Gladiator's Dagger
+					moh(5, i(230787)),	-- Prized Gladiator's Detonator
+					moh(10, i(230778)),	-- Prized Gladiator's Drill
+					moh(5, i(230783)),	-- Prized Gladiator's Flail
+					moh(5, i(230786)),	-- Prized Gladiator's Gasket
+					moh(10, i(230789)),	-- Prized Gladiator's Greatsaw
+					moh(5, i(230775)),	-- Prized Gladiator's Pincer
+					moh(10, i(230790)),	-- Prized Gladiator's Pulverizer
+					moh(10, i(230781)),	-- Prized Gladiator's Pylon
+					moh(10, i(230779)),	-- Prized Gladiator's Staff
+					moh(10, i(230780)),	-- Prized Gladiator's Torchblade
+					moh(5, i(230777)),	-- Prized Gladiator's Warglaive
+				},
+			}),
+		})),
 	}),
 }))));
