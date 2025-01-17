@@ -1570,7 +1570,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		i(199345),	-- Rimefin Tuna
 		i(199346),	-- Rotten Rimefin Tuna
 		i(202105),	-- Rusted Coin of the Isles
-		i(194730),	-- Scalebelly Mackeral
+		i(194730),	-- Scalebelly Mackerel
 		i(199339),	-- Silver Coin of the Isles
 		i(198614),	-- Soggy Clump of Darkmoon Cards
 		i(194969),	-- Temporal Dragonhead

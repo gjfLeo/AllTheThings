@@ -232,12 +232,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					16551,	-- Giving More Back to Nature
 				}},
 			}, {
-				q(70201),	-- Catch and Release: Aileron Seamoth
-				q(70202),	-- Catch and Release: Cerulean Spinefish
-				q(70935),	-- Catch and Release: Islefin Dorado
-				q(70199),	-- Catch and Release: Scalebelly Mackerel
-				q(70203),	-- Catch and Release: Temporal Dragonhead
-				q(70200),	-- Catch and Release: Thousandbite Piranha
+				q(70201, {	-- Catch and Release: Aileron Seamoth
+					["cost"] = {{"i",194967,20}},	-- Aileron Seamoth
+				}),
+				q(70202, {	-- Catch and Release: Cerulean Spinefish
+					["cost"] = {{"i",194968,20}},	-- Cerulean Spinefish
+				}),
+				q(70935, {	-- Catch and Release: Islefin Dorado
+					["cost"] = {{"i",194970,20}},	-- Islefin Dorado
+				}),
+				q(70199, {	-- Catch and Release: Scalebelly Mackerel
+					["cost"] = {{"i",194730,20}},	-- Scalebelly Mackerel
+				}),
+				q(70203, {	-- Catch and Release: Temporal Dragonhead
+					["cost"] = {{"i",194969,20}},	-- Temporal Dragonhead
+				}),
+				q(70200, {	-- Catch and Release: Thousandbite Piranha
+					["cost"] = {{"i",194966,20}},	-- Thousandbite Piranha
+				}),
 			})),
 			n(QUESTS, sharedData({
 				["minReputation"] = { FACTION_ISKAARA_TUSKARR, 13 },
