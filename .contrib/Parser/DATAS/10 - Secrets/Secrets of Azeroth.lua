@@ -753,17 +753,17 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 					-- 1 object with name on WH... 408976
 					-- using Type-named HQTs to show the objects available to click
 					OneTimeAccountLocked(77579,	-- A Legacy of Secrets (Account-Wide Lock)
-					q(78050, name(HEADERS.Object, 408976, {	-- Ancient Tome [#1]
+					hqt(78050, name(HEADERS.Object, 408976, {	-- Ancient Tome [#1]
 						["provider"] = { "o", 408976 },	-- Ancient Tome
 						["coord"] = { 32.1, 49.3, KARAZHAN },
 					}))),
 					OneTimeAccountLocked(77579,	-- A Legacy of Secrets (Account-Wide Lock)
-					q(78051, name(HEADERS.Object, 408976, {	-- Ancient Tome [#2]
+					hqt(78051, name(HEADERS.Object, 408976, {	-- Ancient Tome [#2]
 						["provider"] = { "o", 408976 },	-- Ancient Tome
 						["coord"] = { 36.6, 37.1, KARAZHAN },
 					}))),
 					OneTimeAccountLocked(77579,	-- A Legacy of Secrets (Account-Wide Lock)
-					q(78052, name(HEADERS.Object, 408976, {	-- Ancient Tome [#3]
+					hqt(78052, name(HEADERS.Object, 408976, {	-- Ancient Tome [#3]
 						["provider"] = { "o", 408976 },	-- Ancient Tome
 						["coord"] = { 47.2, 64.4, KARAZHAN },
 					}))),
@@ -790,32 +790,32 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 				["groups"] = {
 					i(208929),	-- Great Places to Visit in Valdrakken (QI!)
 					OneTimeAccountLocked(77580,	-- A Complete Inventory (Account-Wide Lock)
-					q(78053, name(HEADERS.Object, 409012, {	-- Clicking on 'Auction House Bill of Sale' during day 12
+					hqt(78053, name(HEADERS.Object, 409012, {	-- Clicking on 'Auction House Bill of Sale' during day 12
 						["provider"] = { "o", 409012 },	-- Auction House Bill of Sale
 						["coord"] = { 44.1, 60.3, VALDRAKKEN },
 					}))),
 					OneTimeAccountLocked(77580,	-- A Complete Inventory (Account-Wide Lock)
-					q(78054, name(HEADERS.Object, 409016, {	-- Clicking on 'Void Storage Receipt' during day 12
+					hqt(78054, name(HEADERS.Object, 409016, {	-- Clicking on 'Void Storage Receipt' during day 12
 						["provider"] = { "o", 409016 },	-- Void Storage Receipt
 						["coord"] = { 73.9, 57.4, VALDRAKKEN },
 					}))),
 					OneTimeAccountLocked(77580,	-- A Complete Inventory (Account-Wide Lock)
-					q(78055, name(HEADERS.Object, 409017, {	-- Clicking on 'Garden Supply Receipt' during day 12
+					hqt(78055, name(HEADERS.Object, 409017, {	-- Clicking on 'Garden Supply Receipt' during day 12
 						["provider"] = { "o", 409017 },	-- Garden Supply Receipt
 						["coord"] = { 53.0, 28.4, VALDRAKKEN },
 					}))),
 					OneTimeAccountLocked(77580,	-- A Complete Inventory (Account-Wide Lock)
-					q(78056, name(HEADERS.Object, 409018, {	-- Clicking on 'Researcher's Note' during day 12
+					hqt(78056, name(HEADERS.Object, 409018, {	-- Clicking on 'Researcher's Note' during day 12
 						["provider"] = { "o", 409018 },	-- Researcher's Note
 						["coord"] = { 37.6, 37.1, VALDRAKKEN },
 					}))),
 					OneTimeAccountLocked(77580,	-- A Complete Inventory (Account-Wide Lock)
-					q(78057, name(HEADERS.Object, 409019, {	-- Clicking on 'Hastily Scrawled Note' during day 12
+					hqt(78057, name(HEADERS.Object, 409019, {	-- Clicking on 'Hastily Scrawled Note' during day 12
 						["provider"] = { "o", 409019 },	-- Hastily Scrawled Note
 						["coord"] = { 31.6, 70.2, VALDRAKKEN },
 					}))),
 					OneTimeAccountLocked(77580,	-- A Complete Inventory (Account-Wide Lock)
-					q(78058, name(HEADERS.Object, 409020, {	-- Clicking on 'Note to Kritha' during day 12 (automatically accepted 'A Complete Inventory' (questID 77934)) / not for me!
+					hqt(78058, name(HEADERS.Object, 409020, {	-- Clicking on 'Note to Kritha' during day 12 (automatically accepted 'A Complete Inventory' (questID 77934)) / not for me!
 						["provider"] = { "o", 409020 },	-- Note to Kritha
 						["coord"] = { 46.0, 41.4, VALDRAKKEN },
 					}))),
@@ -849,7 +849,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 						["coord"] = { 49.5, 79.7, THALDRASZUS },
 						["g"] = {
 							OneTimeAccountLocked(77520,	-- A Curious Orb (Account-Wide Lock)
-							q(78108, name(HEADERS.Item, 208092, {	-- Using torch at (50.1, 80.9 Thaldraszus - in a cave)Eastern Cave
+							hqt(78108, name(HEADERS.Item, 208092, {	-- Using torch at (50.1, 80.9 Thaldraszus - in a cave)Eastern Cave
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 50.1, 80.9, THALDRASZUS },
 							}))),
@@ -860,7 +860,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 						["coord"] = { 45.9, 79.7, THALDRASZUS },
 						["g"] = {
 							OneTimeAccountLocked(77520,	-- A Curious Orb (Account-Wide Lock)
-							q(78109, name(HEADERS.Item, 208092, {	-- Using torch at (46.6 77.6 Thaldraszus - in a cave) Western Cave
+							hqt(78109, name(HEADERS.Item, 208092, {	-- Using torch at (46.6 77.6 Thaldraszus - in a cave) Western Cave
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 46.6, 77.6, THALDRASZUS },
 							}))),
@@ -871,7 +871,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 						["coord"] = { 50.1, 78.0, THALDRASZUS },
 						["g"] = {
 							OneTimeAccountLocked(77520,	-- A Curious Orb (Account-Wide Lock)
-							q(78111, name(HEADERS.Item, 208092, {	-- Using torch at (48.6 76.3 Thaldraszus - in a cave) Northern Cave
+							hqt(78111, name(HEADERS.Item, 208092, {	-- Using torch at (48.6 76.3 Thaldraszus - in a cave) Northern Cave
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 48.6, 76.3, THALDRASZUS },
 							}))),
@@ -902,58 +902,58 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 				["groups"] = {
 					i(208958),	-- Ancient Tyrhold Artifact Notes (QI!)
 					OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-					q(77974, {
+					hqt(77974, {
 						["name"] = "First Lock",	-- not sure how else to name this trigger
 						["description"] = "Unlock the first lock by using your torch at all 8 Tyrhold staute.",
 						["groups"] = {
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77964, name(HEADERS.Item, 208092, {	-- Orb #1
+							hqt(77964, name(HEADERS.Item, 208092, {	-- Orb #1
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 59.9, 61.0, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77960, name(HEADERS.Item, 208092, {	-- Orb #2
+							hqt(77960, name(HEADERS.Item, 208092, {	-- Orb #2
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 57.1, 64.4, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77961, name(HEADERS.Item, 208092, {	-- Orb #3
+							hqt(77961, name(HEADERS.Item, 208092, {	-- Orb #3
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 57.1, 62.9, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77962, name(HEADERS.Item, 208092, {	-- Orb #4
+							hqt(77962, name(HEADERS.Item, 208092, {	-- Orb #4
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 57.9, 61.8, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77963, name(HEADERS.Item, 208092, {	-- Orb #5
+							hqt(77963, name(HEADERS.Item, 208092, {	-- Orb #5
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 57.9, 60.5, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77965, name(HEADERS.Item, 208092, {	-- Orb #6
+							hqt(77965, name(HEADERS.Item, 208092, {	-- Orb #6
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 58.0, 56.9, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77966, name(HEADERS.Item, 208092, {	-- Orb #7
+							hqt(77966, name(HEADERS.Item, 208092, {	-- Orb #7
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 57.9, 56.0, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77967, name(HEADERS.Item, 208092, {	-- Orb #8
+							hqt(77967, name(HEADERS.Item, 208092, {	-- Orb #8
 								["provider"] = {"i",208092},	-- Torch of Pyrreth
 								["coord"] = { 59.8, 56.4, THALDRASZUS },
 							}))),
 						},
 					})),
 					OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-					q(77975, name(HEADERS.Spell, 423792, {	-- Receiving 'Tyr's Favor' buff (spellID 423792)
+					hqt(77975, name(HEADERS.Spell, 423792, {	-- Receiving 'Tyr's Favor' buff (spellID 423792)
 						["coord"] = { 61.1, 58.7, THALDRASZUS },
 					}))),
 					OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-					q(77973, {
+					hqt(77973, {
 						["name"] = "Third Lock",	-- not sure how else to name this trigger
 						["description"] = "Use your idol at each Ring/Room location to find Broken Urn's",
 						["groups"] = {
@@ -1020,7 +1020,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 							-- 4 object with name on WH... 409166, 409191, 409192, 409193
 							-- using Type-named HQTs to show the objects available to click
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77968, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#1]
+							hqt(77968, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#1]
 								["providers"] = {
 									{ "i", 208960 },	-- Titan Focusing Crystal
 									{ "o", 409166 },	-- Titan Power Relay
@@ -1028,7 +1028,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 								["coord"] = { 59.3, 56.8, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77970, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#2]
+							hqt(77970, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#2]
 								["providers"] = {
 									{ "i", 208969 },	-- Titan Energy Cube
 									{ "o", 409166 },	-- Titan Power Relay
@@ -1036,7 +1036,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 								["coord"] = { 59.5, 60.6, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77971, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#3]
+							hqt(77971, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#3]
 								["providers"] = {
 									{ "i", 208973 },	-- Large Titan Capacitor
 									{ "o", 409166 },	-- Titan Power Relay
@@ -1044,7 +1044,7 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 								["coord"] = { 61.0, 62.4, THALDRASZUS },
 							}))),
 							OneTimeAccountLocked(77308,	-- An Ominous Artifact (Account-Wide Lock)
-							q(77969, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#4]
+							hqt(77969, name(HEADERS.Object, 409166, {	-- Titan Power Relay [#4]
 								["providers"] = {
 									{ "i", 208965 },	-- Titan Block Key
 									{ "o", 409166 },	-- Titan Power Relay

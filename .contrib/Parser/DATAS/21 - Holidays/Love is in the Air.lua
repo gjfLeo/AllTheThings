@@ -3100,16 +3100,14 @@ for i,o in ipairs({
 						["timeline"] = { ADDED_3_3_0 },
 						["filterID"] = MOUNTS,
 					}),
-					q(74957, {	-- Increased X-45 Heartbreaker Droprate (Daily Accountwide)
+					hqt(74957, {	-- Increased X-45 Heartbreaker Droprate (Daily Accountwide)
 						["name"] = "Increased X-45 Heartbreaker Droprate (Daily Accountwide)",
 						["timeline"] = { ADDED_10_0_5 },
-						["collectible"] = false,
 						["isDaily"] = true,
 					}),
-					q(79104, {	-- Increased Renewed Proto-Drake: Love Armor Droprate (Daily Accountwide)
+					hqt(79104, {	-- Increased Renewed Proto-Drake: Love Armor Droprate (Daily Accountwide)
 						["name"] = "Increased Renewed Proto-Drake: Love Armor Droprate (Daily Accountwide)",
 						["timeline"] = { ADDED_10_2_5 },
-						["collectible"] = false,
 						["isDaily"] = true,
 					}),
 					i(50250, {	-- X-45 Heartbreaker (MOUNT!)

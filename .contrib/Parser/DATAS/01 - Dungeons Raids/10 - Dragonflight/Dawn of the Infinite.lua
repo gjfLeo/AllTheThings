@@ -19,7 +19,7 @@ local QUANTUM_GROUP = sharedData({
 	-- Which items you could get between 10.1.5 & 10.1.7 are saved at the bottom of the file as history
 	i(208061, {	-- Quantum Headpiece
 		filter(CLOTH, {
-			q(77629, {	-- when you learn everything from Quantum Headpiece (Cloth)
+			hqt(77629, {	-- when you learn everything from Quantum Headpiece (Cloth)
 				["name"] = "Quantum Headpiece (Cloth) completed.",
 				["collectible"] = false,
 			}),
@@ -36,7 +36,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134615),	-- Inflammatory Hood				(Removed)
 		}),
 		filter(LEATHER, {
-			q(77628, {	-- when you learn everything from Quantum Headpiece (Leather)
+			hqt(77628, {	-- when you learn everything from Quantum Headpiece (Leather)
 				["name"] = "Quantum Headpiece (Leather) completed.",
 				["collectible"] = false,
 			}),
@@ -51,7 +51,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134794),	-- Ruinous Helm						(Removed)
 		}),
 		filter(MAIL, {
-			q(77627, {	-- when you learn everything from Quantum Headpiece (Mail)
+			hqt(77627, {	-- when you learn everything from Quantum Headpiece (Mail)
 				["name"] = "Quantum Headpiece (Mail) completed.",
 				["collectible"] = false,
 			}),
@@ -63,7 +63,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134798),	-- Ironbranded Ringmail Helm		(Removed)
 		}),
 		filter(PLATE, {
-			q(77626, {	-- when you learn everything from Quantum Headpiece (Plate)
+			hqt(77626, {	-- when you learn everything from Quantum Headpiece (Plate)
 				["name"] = "Quantum Headpiece (Plate) completed.",
 				["collectible"] = false,
 			}),
@@ -85,7 +85,7 @@ local QUANTUM_GROUP = sharedData({
 	}),
 	i(208062, {	-- Quantum Shoulders
 		filter(CLOTH, {
-			q(77641, {	-- when you learn everything from Quantum Shoulders (Cloth)
+			hqt(77641, {	-- when you learn everything from Quantum Shoulders (Cloth)
 				["name"] = "Quantum Shoulders (Cloth) completed.",
 				["collectible"] = false,
 			}),
@@ -98,7 +98,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134753),	-- Veiled Mantle					(Removed)
 		}),
 		filter(LEATHER, {
-			q(77640, {	-- when you learn everything from Quantum Shoulders (Leather)
+			hqt(77640, {	-- when you learn everything from Quantum Shoulders (Leather)
 				["name"] = "Quantum Shoulders (Leather) completed.",
 				["collectible"] = false,
 			}),
@@ -111,7 +111,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(51998),	-- Vigorous Spaulders				(Removed)
 		}),
 		filter(MAIL, {
-			q(77639, {	-- when you learn everything from Quantum Shoulders (Mail)
+			hqt(77639, {	-- when you learn everything from Quantum Shoulders (Mail)
 				["name"] = "Quantum Shoulders (Mail) completed.",
 				["collectible"] = false,
 			}),
@@ -125,7 +125,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(19111),	-- Winteraxe Epaulets				(Removed)
 		}),
 		filter(PLATE, {
-			q(77638 , {	-- when you learn everything from Quantum Shoulders (Plate)
+			hqt(77638 , {	-- when you learn everything from Quantum Shoulders (Plate)
 				["name"] = "Quantum Shoulders (Plate) completed.",
 				["collectible"] = false,
 			}),
@@ -146,7 +146,7 @@ local QUANTUM_GROUP = sharedData({
 	}),
 	i(208064, {	-- Quantum Chestpiece
 		filter(CLOTH, {
-			q(77637, {	-- when you learn everything from Quantum Chestpiece (Cloth)
+			hqt(77637, {	-- when you learn everything from Quantum Chestpiece (Cloth)
 				["name"] = "Quantum Chestpiece (Cloth) completed.",
 				["collectible"] = false,
 			}),
@@ -162,7 +162,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134751),	-- Veiled Raiment					(Removed)
 		}),
 		filter(LEATHER, {
-			q(77636, {	-- when you learn everything from Quantum Chestpiece (Leather)
+			hqt(77636, {	-- when you learn everything from Quantum Chestpiece (Leather)
 				["name"] = "Quantum Chestpiece (Leather) completed.",
 				["collectible"] = false,
 			}),
@@ -179,7 +179,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134791),	-- Ruinous Tunic					(Removed)
 		}),
 		filter(MAIL, {
-			q(77635, {	-- when you learn everything from Quantum Chestpiece (Mail)
+			hqt(77635, {	-- when you learn everything from Quantum Chestpiece (Mail)
 				["name"] = "Quantum Chestpiece (Mail) completed.",
 				["collectible"] = false,
 			}),
@@ -196,7 +196,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134763),	-- Overgrown Armor					(Removed)
 		}),
 		filter(PLATE, {
-			q(77634, {	-- when you learn everything from Quantum Chestpiece (Plate)
+			hqt(77634, {	-- when you learn everything from Quantum Chestpiece (Plate)
 				["name"] = "Quantum Chestpiece (Plate) completed.",
 				["collectible"] = false,
 			}),
@@ -218,7 +218,7 @@ local QUANTUM_GROUP = sharedData({
 	}),
 	i(208063, {	-- Quantum Gloves
 		filter(CLOTH, {
-			q(77633 , {	-- when you learn everything from Quantum Gloves (Cloth)
+			hqt(77633 , {	-- when you learn everything from Quantum Gloves (Cloth)
 				["name"] = "Quantum Gloves (Cloth) completed.",
 				["collectible"] = false,
 			}),
@@ -238,7 +238,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134723),	-- Icyweave Gloves					(Removed)
 		}),
 		filter(LEATHER, {
-			q(77632 , {	-- when you learn everything from Quantum Gloves (Leather)
+			hqt(77632 , {	-- when you learn everything from Quantum Gloves (Leather)
 				["name"] = "Quantum Gloves (Leather) completed.",
 				["collectible"] = false,
 			}),
@@ -258,7 +258,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134793),	-- Ruinous Gloves					(Removed)
 		}),
 		filter(MAIL, {
-			q(77631 , {	-- when you learn everything from Quantum Gloves (Mail)
+			hqt(77631 , {	-- when you learn everything from Quantum Gloves (Mail)
 				["name"] = "Quantum Gloves (Mail) completed.",
 				["collectible"] = false,
 			}),
@@ -279,7 +279,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(23170),	-- The Frozen Clutch				(Removed)
 		}),
 		filter(PLATE, {
-			q(77630, {	-- when you learn everything from Quantum Gloves (Plate)
+			hqt(77630, {	-- when you learn everything from Quantum Gloves (Plate)
 				["name"] = "Quantum Gloves (Plate) completed.",
 				["collectible"] = false,
 			}),
@@ -310,7 +310,7 @@ local QUANTUM_GROUP = sharedData({
 	}),
 	i(208065, {	-- Quantum Legs
 		filter(CLOTH, {
-			q(77625, {	-- when you learn everything from Quantum Legs (Cloth)
+			hqt(77625, {	-- when you learn everything from Quantum Legs (Cloth)
 				["name"] = "Quantum Legs (Cloth) completed.",
 				["collectible"] = false,
 			}),
@@ -326,7 +326,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134752),	-- Veiled Leggings					(Removed)
 		}),
 		filter(LEATHER, {
-			q(77624, {	-- when you learn everything from Quantum Legs (Leather)
+			hqt(77624, {	-- when you learn everything from Quantum Legs (Leather)
 				["name"] = "Quantum Legs (Leather) completed.",
 				["collectible"] = false,
 			}),
@@ -339,7 +339,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134701),	-- Swarming Legguards				(Removed)
 		}),
 		filter(MAIL, {
-			q(77623, {	-- when you learn everything from Quantum Legs (Mail)
+			hqt(77623, {	-- when you learn everything from Quantum Legs (Mail)
 				["name"] = "Quantum Legs (Mail) completed.",
 				["collectible"] = false,
 			}),
@@ -357,7 +357,7 @@ local QUANTUM_GROUP = sharedData({
 			ig(134705),	-- Surging Chain Leggings			(Removed)
 		}),
 		filter(PLATE, {
-			q(77622, {	-- when you learn everything from Quantum Legs (Plate)
+			hqt(77622, {	-- when you learn everything from Quantum Legs (Plate)
 				["name"] = "Quantum Legs (Plate) completed.",
 				["collectible"] = false,
 			}),
@@ -381,7 +381,7 @@ local QUANTUM_GROUP = sharedData({
 		}),
 	}),
 	i(208111, {	-- Quantum Axe			(One-Handed)
-		q(77597, {	-- when you learn everything from Quantum Axe (One-Handed)
+		hqt(77597, {	-- when you learn everything from Quantum Axe (One-Handed)
 			["name"] = "Quantum Axe (One-Handed) completed.",
 			["collectible"] = false,
 		}),
@@ -400,7 +400,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134604),	-- Vanguard Hacker						(Removed)
 	}),
 	i(208117, {	-- Quantum Bow
-		q(77603, {	-- when you learn everything from Quantum Bow
+		hqt(77603, {	-- when you learn everything from Quantum Bow
 			["name"] = "Quantum Bow completed.",
 			["collectible"] = false,
 		}),
@@ -423,7 +423,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134608),	-- Scorching Longbow					(Removed)
 	}),
 	i(208118, {	-- Quantum Crossbow
-		q(77604, {	-- when you learn everything from Quantum Crossbow
+		hqt(77604, {	-- when you learn everything from Quantum Crossbow
 			["name"] = "Quantum Crossbow completed.",
 			["collectible"] = false,
 		}),
@@ -431,7 +431,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134580),	-- Vanguard Heavy Crossbow				(Removed)
 	}),
 	i(208119, {	-- Quantum Firearm
-		q(77605, {	-- when you learn everything from Quantum Firearm/Gun
+		hqt(77605, {	-- when you learn everything from Quantum Firearm/Gun
 			["name"] = "Quantum Firearm/Gun completed.",
 			["collectible"] = false,
 		}),
@@ -445,7 +445,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(56376),	-- Thundercall							(Removed)
 	}),
 	i(208125, {	-- Quantum Focus
-		q(77609, {	-- when you learn everything from Quantum Focus (Off-hand)
+		hqt(77609, {	-- when you learn everything from Quantum Focus (Off-hand)
 			["name"] = "Quantum Focus/Off-hand completed.",
 			["collectible"] = false,
 		}),
@@ -459,7 +459,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134589),	-- Vanguard Reprieve					(Removed)
 	}),
 	i(208113, {	-- Quantum Greataxe		(Two-Handed)
-		q(77599, {	-- when you learn everything from Quantum Greataxe (Two-Handed)
+		hqt(77599, {	-- when you learn everything from Quantum Greataxe (Two-Handed)
 			["name"] = "Quantum Greataxe (Two-Handed) completed.",
 			["collectible"] = false,
 		}),
@@ -478,13 +478,13 @@ local QUANTUM_GROUP = sharedData({
 		ig(134577),	-- Vanguard Decapitator					(Removed)
 	}),
 	i(208114, {	-- Quantum Greathammer	(Two-Handed) (Mace)
-		q(77600, {	-- when you learn everything from Quantum Greathammer (Two-Handed) (Mace)
+		hqt(77600, {	-- when you learn everything from Quantum Greathammer (Two-Handed) (Mace)
 			["name"] = "Quantum Greathammer/Mace (Two-Handed) completed.",
 			["collectible"] = false,
 		}),
 	}),
 	i(208112, {	-- Quantum Greatsword	(Two-Handed)
-		q(77598, {	-- when you learn everything from Quantum Greatsword	(Two-Handed)
+		hqt(77598, {	-- when you learn everything from Quantum Greatsword	(Two-Handed)
 			["name"] = "Quantum Greatsword (Two-Handed) completed.",
 			["collectible"] = false,
 		}),
@@ -512,7 +512,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134606),	-- Scorching Greatsword					(Removed)
 	}),
 	i(208120, {	-- Quantum Knife
-		q(77606, {	-- when you learn everything from Quantum Knife (Dagger)
+		hqt(77606, {	-- when you learn everything from Quantum Knife (Dagger)
 			["name"] = "Quantum Knife/Dagger completed.",
 			["collectible"] = false,
 		}),
@@ -540,7 +540,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134581),	-- Vanguard Shanker						(Removed)
 	}),
 	i(208121, {	-- Quantum Knuckles
-		q(77607, {	-- when you learn everything from Quantum Knuckles (Fist Weapon)
+		hqt(77607, {	-- when you learn everything from Quantum Knuckles (Fist Weapon)
 			["name"] = "Quantum Knuckles/Fist Weapon completed.",
 			["collectible"] = false,
 		}),
@@ -549,7 +549,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134780),	-- Seasoned Ripper						(Removed)
 	}),
 	i(208110, {	-- Quantum Mace			(One-Handed)
-		q(77596, {	-- when you learn everything from Quantum Mace (One-Handed)
+		hqt(77596, {	-- when you learn everything from Quantum Mace (One-Handed)
 			["name"] = "Quantum Mace (One-Handed) completed.",
 			["collectible"] = false,
 		}),
@@ -579,7 +579,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134588),	-- Vanguard Gavel						(Removed)
 	}),
 	i(208116, {	-- Quantum Polearm
-		q(77602, {	-- when you learn everything from Quantum Polearm
+		hqt(77602, {	-- when you learn everything from Quantum Polearm
 			["name"] = "Quantum Polearm completed.",
 			["collectible"] = false,
 		}),
@@ -591,7 +591,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134782),	-- Seasoned Pike						(Removed)
 	}),
 	i(208126, {	-- Quantum Shield
-		q(77611, {	-- when you learn everything from Quantum Shield
+		hqt(77611, {	-- when you learn everything from Quantum Shield
 			["name"] = "Quantum Shield completed.",
 			["collectible"] = false,
 		}),
@@ -613,7 +613,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134603),	-- Vanguard Redoubt						(Removed)
 	}),
 	i(208115, {	-- Quantum Staff
-		q(77601, {	-- when you learn everything from Quantum Staff
+		hqt(77601, {	-- when you learn everything from Quantum Staff
 			["name"] = "Quantum Staff completed.",
 			["collectible"] = false,
 		}),
@@ -629,7 +629,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134582),	-- Vanguard Staff						(Removed)
 	}),
 	i(208109, {	-- Quantum Sword		(One-Handed)
-		q(77595, {	-- when you learn everything from Quantum Sword (One-Handed)
+		hqt(77595, {	-- when you learn everything from Quantum Sword (One-Handed)
 			["name"] = "Quantum Sword (One-Handed) completed.",
 			["collectible"] = false,
 		}),
@@ -646,7 +646,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134783),	-- Seasoned Quickblade					(Removed)
 	}),
 	i(208123, {	-- Quantum Wand
-		q(77610, {	-- when you learn everything from Quantum Wand
+		hqt(77610, {	-- when you learn everything from Quantum Wand
 			["name"] = "Quantum Wand completed.",
 			["collectible"] = false,
 		}),
@@ -654,7 +654,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134590),	--Vanguard Baton of Light				(Removed)
 	}),
 	i(208122, {	-- Quantum Warglaives
-		q(77608, {	-- when you learn everything from Quantum Warglaives
+		hqt(77608, {	-- when you learn everything from Quantum Warglaives
 			["name"] = "Quantum Warglaives completed.",
 			["collectible"] = false,
 		}),
@@ -689,115 +689,115 @@ local QUANTUM_GROUP = sharedData({
 	n(QUESTS, sharedData({
 		["collectible"] = false,
 	},{
-		q(77629, {	-- when you learn everything from Quantum Headpiece (Cloth)
+		hqt(77629, {	-- when you learn everything from Quantum Headpiece (Cloth)
 			["name"] = "Quantum Headpiece (Cloth) completed.",
 		}),
-		q(77628, {	-- when you learn everything from Quantum Headpiece (Leather)
+		hqt(77628, {	-- when you learn everything from Quantum Headpiece (Leather)
 			["name"] = "Quantum Headpiece (Leather) completed.",
 		}),
-		q(77627, {	-- when you learn everything from Quantum Headpiece (Mail)
+		hqt(77627, {	-- when you learn everything from Quantum Headpiece (Mail)
 			["name"] = "Quantum Headpiece (Mail) completed.",
 		}),
-		q(77626, {	-- when you learn everything from Quantum Headpiece (Plate)
+		hqt(77626, {	-- when you learn everything from Quantum Headpiece (Plate)
 			["name"] = "Quantum Headpiece (Plate) completed.",
 		}),
-		q(77641, {	-- when you learn everything from Quantum Shoulders (Cloth)
+		hqt(77641, {	-- when you learn everything from Quantum Shoulders (Cloth)
 			["name"] = "Quantum Shoulders (Cloth) completed.",
 		}),
-		q(77640, {	-- when you learn everything from Quantum Shoulders (Leather)
+		hqt(77640, {	-- when you learn everything from Quantum Shoulders (Leather)
 			["name"] = "Quantum Shoulders (Leather) completed.",
 		}),
-		q(77639 , {	-- when you learn everything from Quantum Shoulders (Mail)
+		hqt(77639 , {	-- when you learn everything from Quantum Shoulders (Mail)
 			["name"] = "Quantum Shoulders (Mail) completed.",
 		}),
-		q(77638 , {	-- when you learn everything from Quantum Shoulders (Plate)
+		hqt(77638 , {	-- when you learn everything from Quantum Shoulders (Plate)
 			["name"] = "Quantum Shoulders (Plate) completed.",
 		}),
-		q(77637, {	-- when you learn everything from Quantum Chestpiece (Cloth)
+		hqt(77637, {	-- when you learn everything from Quantum Chestpiece (Cloth)
 			["name"] = "Quantum Chestpiece (Cloth) completed.",
 		}),
-		q(77636, {	-- when you learn everything from Quantum Chestpiece (Leather)
+		hqt(77636, {	-- when you learn everything from Quantum Chestpiece (Leather)
 			["name"] = "Quantum Chestpiece (Leather) completed.",
 		}),
-		q(77635, {	-- when you learn everything from Quantum Chestpiece (Mail)
+		hqt(77635, {	-- when you learn everything from Quantum Chestpiece (Mail)
 			["name"] = "Quantum Chestpiece (Mail) completed.",
 		}),
-		q(77634, {	-- when you learn everything from Quantum Chestpiece (Plate)
+		hqt(77634, {	-- when you learn everything from Quantum Chestpiece (Plate)
 			["name"] = "Quantum Chestpiece (Plate) completed.",
 		}),
-		q(77633 , {	-- when you learn everything from Quantum Gloves (Cloth)
+		hqt(77633 , {	-- when you learn everything from Quantum Gloves (Cloth)
 			["name"] = "Quantum Gloves (Cloth) completed.",
 		}),
-		q(77632 , {	-- when you learn everything from Quantum Gloves (Leather)
+		hqt(77632 , {	-- when you learn everything from Quantum Gloves (Leather)
 			["name"] = "Quantum Gloves (Leather) completed.",
 		}),
-		q(77631 , {	-- when you learn everything from Quantum Gloves (Mail)
+		hqt(77631 , {	-- when you learn everything from Quantum Gloves (Mail)
 			["name"] = "Quantum Gloves (Mail) completed.",
 		}),
-		q(77630, {	-- when you learn everything from Quantum Gloves (Plate)
+		hqt(77630, {	-- when you learn everything from Quantum Gloves (Plate)
 			["name"] = "Quantum Gloves (Plate) completed.",
 		}),
-		q(77625, {	-- when you learn everything from Quantum Legs (Cloth)
+		hqt(77625, {	-- when you learn everything from Quantum Legs (Cloth)
 			["name"] = "Quantum Legs (Cloth) completed.",
 		}),
-		q(77624, {	-- when you learn everything from Quantum Legs (Leather)
+		hqt(77624, {	-- when you learn everything from Quantum Legs (Leather)
 			["name"] = "Quantum Legs (Leather) completed.",
 		}),
-		q(77623, {	-- when you learn everything from Quantum Legs (Mail)
+		hqt(77623, {	-- when you learn everything from Quantum Legs (Mail)
 			["name"] = "Quantum Legs (Mail) completed.",
 		}),
-		q(77622, {	-- when you learn everything from Quantum Legs (Plate)
+		hqt(77622, {	-- when you learn everything from Quantum Legs (Plate)
 			["name"] = "Quantum Legs (Plate) completed.",
 		}),
-		q(77597, {	-- when you learn everything from Quantum Axe (One-Handed)
+		hqt(77597, {	-- when you learn everything from Quantum Axe (One-Handed)
 			["name"] = "Quantum Axe (One-Handed) completed.",
 		}),
-		q(77603, {	-- when you learn everything from Quantum Bow
+		hqt(77603, {	-- when you learn everything from Quantum Bow
 			["name"] = "Quantum Bow completed.",
 		}),
-		q(77604, {	-- when you learn everything from Quantum Crossbow
+		hqt(77604, {	-- when you learn everything from Quantum Crossbow
 			["name"] = "Quantum Crossbow completed.",
 		}),
-		q(77605, {	-- when you learn everything from Quantum Firearm/Gun
+		hqt(77605, {	-- when you learn everything from Quantum Firearm/Gun
 			["name"] = "Quantum Firearm/Gun completed.",
 		}),
-		q(77609, {	-- when you learn everything from Quantum Focus (Off-hand)
+		hqt(77609, {	-- when you learn everything from Quantum Focus (Off-hand)
 			["name"] = "Quantum Focus/Off-hand completed.",
 		}),
-		q(77599, {	-- when you learn everything from Greataxe (Two-Handed)
+		hqt(77599, {	-- when you learn everything from Greataxe (Two-Handed)
 			["name"] = "Quantum Greataxe (Two-Handed) completed.",
 		}),
-		q(77600, {	-- when you learn everything from Quantum Greathammer (Two-Handed) (Mace)
+		hqt(77600, {	-- when you learn everything from Quantum Greathammer (Two-Handed) (Mace)
 			["name"] = "Quantum Greathammer/Mace (Two-Handed) completed.",
 		}),
-		q(77598, {	-- when you learn everything from Quantum Greatsword	(Two-Handed)
+		hqt(77598, {	-- when you learn everything from Quantum Greatsword	(Two-Handed)
 			["name"] = "Quantum Greatsword (Two-Handed) completed.",
 		}),
-		q(77606, {	-- when you learn everything from Quantum Knife (Dagger)
+		hqt(77606, {	-- when you learn everything from Quantum Knife (Dagger)
 			["name"] = "Quantum Knife/Dagger completed.",
 		}),
-		q(77607, {	-- when you learn everything from Quantum Knuckles (Fist Weapon)
+		hqt(77607, {	-- when you learn everything from Quantum Knuckles (Fist Weapon)
 			["name"] = "Quantum Knuckles/Fist Weapon completed.",
 		}),
-		q(77596, {	-- when you learn everything from Quantum Mace (One-Handed)
+		hqt(77596, {	-- when you learn everything from Quantum Mace (One-Handed)
 			["name"] = "Quantum Mace (One-Handed) completed.",
 		}),
-		q(77602, {	-- when you learn everything from Quantum Polearm
+		hqt(77602, {	-- when you learn everything from Quantum Polearm
 			["name"] = "Quantum Polearm completed.",
 		}),
-		q(77611, {	-- when you learn everything from Quantum Shield
+		hqt(77611, {	-- when you learn everything from Quantum Shield
 			["name"] = "Quantum Shield completed.",
 		}),
-		q(77601, {	-- when you learn everything from Quantum Staff
+		hqt(77601, {	-- when you learn everything from Quantum Staff
 			["name"] = "Quantum Staff completed.",
 		}),
-		q(77595, {	-- when you learn everything from Quantum Sword (One-Handed)
+		hqt(77595, {	-- when you learn everything from Quantum Sword (One-Handed)
 			["name"] = "Quantum Sword (One-Handed) completed.",
 		}),
-		q(77610, {	-- when you learn everything from Quantum Wand
+		hqt(77610, {	-- when you learn everything from Quantum Wand
 			["name"] = "Quantum Wand completed.",
 		}),
-		q(77608, {	-- when you learn everything from Quantum Warglaives
+		hqt(77608, {	-- when you learn everything from Quantum Warglaives
 			["name"] = "Quantum Warglaives completed.",
 		}),
 	})),

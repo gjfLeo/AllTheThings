@@ -98,24 +98,24 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				["questID"] = 74995,
 				["cost"] = {{"i",204323,1}},	-- Old Trunk Key
 				["g"] = {
-					q(75526, {	-- First Rock Mouse
+					hqt(75526, {	-- First Rock Mouse
 						["name"] = "First Rock Mouse",
 						["provider"] = { "n", 203073 },
 						["coord"] = { 43.0, 82.6, ZARALEK_CAVERN },
 					}),
-					q(75527, {	-- Second Rock Mouse
+					hqt(75527, {	-- Second Rock Mouse
 						["name"] = "Second Rock Mouse",
 						["provider"] = { "n", 204277 },
 						["coord"] = { 42.1, 80.2, ZARALEK_CAVERN },
 						["sourceQuest"] = 75526,	-- First Rock Mouse
 					}),
-					q(75534, {	-- Third Rock Mouse
+					hqt(75534, {	-- Third Rock Mouse
 						["name"] = "Third Rock Mouse",
 						["provider"] = { "n", 204279 },
 						["coord"] = { 41.7, 81.5, ZARALEK_CAVERN },
 						["sourceQuest"] = 75527,	-- Second Rock Mouse
 					}),
-					q(75535, {	-- Fourth Rock Mouse
+					hqt(75535, {	-- Fourth Rock Mouse
 						["name"] = "Fourth Rock Mouse",
 						["provider"] = { "n", 204280 },
 						["coord"] = { 42.8, 82.2, ZARALEK_CAVERN },

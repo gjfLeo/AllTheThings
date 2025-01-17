@@ -3635,7 +3635,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					},
 				}, true),
 			}),
-			applyclassicphase(WRATH_PHASE_FOUR, i(50379, bubbleDownSelf({ ["races"] = ALLIANCE_ONLY }, {	-- Battered Hilt (A)
+			applyclassicphase(WRATH_PHASE_FOUR, header(HEADERS.Item, 50379,	-- Battered Hilt (A)
+			bubbleDownSelf({ ["races"] = ALLIANCE_ONLY }, {
 				["groups"] = {
 					a(q(14443, {	-- The Battered Hilt (A)
 						["provider"] = { "i", 50379 },	-- Battered Hilt (A)
@@ -3827,19 +3828,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 					}),
 				},
 			}))),
-			applyclassicphase(WRATH_PHASE_FOUR, i(50380, {	-- Battered Hilt (H)
+			applyclassicphase(WRATH_PHASE_FOUR, header(HEADERS.Item, 50380,	-- Battered Hilt (H)
+			bubbleDownSelf({ ["races"] = HORDE_ONLY }, {
 				["groups"] = {
-					h(q(24554, {	-- The Battered Hilt (H)
+					q(24554, {	-- The Battered Hilt (H)
 						["provider"] = { "i", 50380 },	-- Battered Hilt (H)
 						["coord"] = { 74.2, 31.2, ICECROWN },
 						["description"] = "The Battered Hilt is a somewhat rare drop from the Icecrown dungeons 'The Forge of Souls', 'The Pit of Saron', and 'The Halls of Reflection'. Alternatively it can also be bought from the Auction House.",
-					})),
+					}),
 					q(24555, {	-- What The Dragons Know (H)
 						["qg"] = 36642,	-- Myralion Sunblaze <Sunreavers>
 						["sourceQuest"] = 24554,	-- The Battered Hilt (H)
 						["coord"] = { 74.2, 31.2, ICECROWN },
 						["maps"] = { DRAGONBLIGHT },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- Ask Krasus about the hilt's origins
 								["provider"] = { "n", 27990 },	-- Krasus
@@ -3852,7 +3853,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["sourceQuest"] = 24555,	-- What The Dragons Know
 						["coord"] = { 69.8, 31.6, NORTHREND_DALARAN },
 						["maps"] = { NORTHREND_THE_UNDERBELLY },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- 0/1 Silver Covenant Orders
 								["provider"] = { "i", 49872 },	-- Silver Covenant Orders
@@ -3865,7 +3865,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 36670,	-- Magister Hathorel <The Sunreavers>
 						["sourceQuest"] = 24557,	-- The Silver Covenant's Scheme (H)
 						["coord"] = { 69.8, 31.6, NORTHREND_DALARAN },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- 0/1 Borrowed Tabard
 								["provider"] = { "i", 49648 },	-- Borrowed Tabard
@@ -3878,7 +3877,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 36670,	-- Magister Hathorel <The Sunreavers>
 						["sourceQuest"] = 24556,	-- A Suitable Disguise (H)
 						["coord"] = { 69.8, 31.6, NORTHREND_DALARAN },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- 0/1 Ancient Dragonforged Blades
 								["provider"] = { "i", 49698 },	-- Ancient Dragonforged Blades
@@ -3894,7 +3892,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						},
 						["sourceQuest"] = 24451,	-- An Audience With The Arcanist (H)
 						["coord"] = { 69.8, 31.6, NORTHREND_DALARAN },
-						["races"] = HORDE_ONLY,
 						["description"] = "Turning in this quest triggers a lore exposition.",
 					}),
 					q(24559, {	-- Reforging The Sword (H)
@@ -3902,7 +3899,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["sourceQuest"] = 24558,	-- Return To Myralion Sunblaze (H)
 						["coord"] = { 74.2, 31.2, ICECROWN },
 						["maps"] = { PIT_OF_SARON },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- 0/1 Reforged Quel'Delar
 								["provider"] = { "i", 49739 },	-- Reforged Quel'Delar
@@ -3920,7 +3916,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["sourceQuest"] = 24559,	-- Reforging The Sword (H)
 						["coord"] = { 74.2, 31.2, ICECROWN },
 						["maps"] = { THE_FORGE_OF_SOULS },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- 0/1 Tempered Quel'Delar
 								["providers"] = {
@@ -3936,7 +3931,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["sourceQuest"] = 24560,	-- Tempering The Blade (H)
 						["coord"] = { 74.2, 31.2, ICECROWN },
 						["maps"] = { HALLS_OF_REFLECTION },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- 0/1 Subdued Quel'Delar
 								["providers"] = {
@@ -3956,14 +3950,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["sourceQuest"] = 24561,	-- The Halls Of Reflection (H)
 						["coord"] = { 74.2, 31.2, ICECROWN },
 						["maps"] = { ISLE_OF_QUELDANAS },
-						["races"] = HORDE_ONLY,
 						["description"] = "If you accidentally enter the raid before turning in the quest, you will have to use your hearthstone to get out or walk through the whole empty instance to a portal at the end.",
 					}),
 					q(24563, {	-- Thalorien Dawnseeker (H)
 						["qg"] = 37527,	-- Halduron Brightwing <Ranger-General of Silvermoon>
 						["sourceQuest"] = 24562,	-- Journey To The Sunwell
 						["coord"] = { 44.6, 45.4, ISLE_OF_QUELDANAS },
-						["races"] = HORDE_ONLY,
 						["groups"] = {
 							objective(1, {	-- 0/1 Thalorien's Blessing obtained
 								["providers"] = {
@@ -4086,7 +4078,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["_drop"] = { "g" },
 					}),
 				},
-			})),
+			}))),
 			n(VENDORS, {
 				n(COMMON_VENDOR_ITEMS, {
 					champ(150, i(45725, {	-- Argent Hippogryph (MOUNT!)

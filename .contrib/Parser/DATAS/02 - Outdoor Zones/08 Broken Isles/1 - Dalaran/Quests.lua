@@ -451,6 +451,16 @@ root(ROOTS.Zones, {
 					},
 					["coord"] = { 28.5, 48.9, LEGION_DALARAN },
 				}),
+				q(44412, {	-- Enemies Everywhere
+					["sourceQuest"] = 44411,    -- Strange Humming Crystal
+					["provider"] = { "n", 90417 },	-- Archmage Khadgar
+					["g"] = {
+						i(141348, {	-- Wondrous Wisdomball (PET!)
+							-- added cost of original quest chain start item
+							["cost"] = {{"i",141349,1}},	-- Strange Humming Crystal
+						}),
+					},
+				}),
 				q(47050, {	-- Enhancement: Fate of the Tideskorn
 					["sourceQuests"] = {
 						44821,	-- In Dire Need

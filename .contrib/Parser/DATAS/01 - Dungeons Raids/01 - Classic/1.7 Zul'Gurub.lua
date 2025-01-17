@@ -829,6 +829,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 						i(19858),	-- Zandalar Honor Token
 					}
 				}),
+				q(8227, {	-- Nat's Measuring Tape
+					["provider"] = { "i", 19973 },	-- Nat's Measuring Tape
+					["requireSkill"] = FISHING,
+					["lvl"] = 58,
+				}),
 				q(8239, {	-- Sandfury, Skullsplitter, and Bloodscalp Coins
 					["qg"] = 15070,		-- Vinchaxa <Servitor of Zanza>
 					["coord"] = { 14.5, 15.8, STRANGLETHORN_VALE },
@@ -1445,11 +1450,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 				["description"] = "Fishermen with 300 skill can interact with this to receive the quest item.",
 				["requireSkill"] = FISHING,
 				["groups"] = {
-					q(8227, {	-- Nat's Measuring Tape
-						["provider"] = { "i", 19973 },	-- Nat's Measuring Tape
-						["requireSkill"] = FISHING,
-						["lvl"] = 58,
-					}),
+					i(19973),	-- Nat's Measuring Tape
 				},
 			}),
 			n(15114, {	-- Gahz'ranka

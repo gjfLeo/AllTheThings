@@ -765,9 +765,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["_drop"] = { "g" },	-- Drop Brightly Colored Egg
 			["groups"] = {
 				i(216874, {	-- Loot-Filled Basket
-					q(82543, {	-- Increased Noble Flying Carpet Droprate (Daily Accountwide)
+					hqt(82543, {	-- Increased Noble Flying Carpet Droprate (Daily Accountwide)
 						["name"] = "Increased Noble Flying Carpet Droprate (Daily Accountwide)",
-						["collectible"] = false,
 						["isDaily"] = true,
 					}),
 					i(212599),	-- Noble Flying Carpet (MOUNT!)
@@ -798,9 +797,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["_drop"] = { "g" },	-- Drop Brightly Colored Egg
 			["groups"] = {
 				i(216874, {	-- Loot-Filled Basket
-					q(82543, {	-- Increased Noble Flying Carpet Droprate (Daily Accountwide)
+					hqt(82543, {	-- Increased Noble Flying Carpet Droprate (Daily Accountwide)
 						["name"] = "Increased Noble Flying Carpet Droprate (Daily Accountwide)",
-						["collectible"] = false,
 						["isDaily"] = true,
 					}),
 					i(212599),	-- Noble Flying Carpet (MOUNT!)

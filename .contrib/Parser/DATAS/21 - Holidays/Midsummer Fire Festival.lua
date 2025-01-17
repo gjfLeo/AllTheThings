@@ -379,10 +379,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					i(224163, {	-- Cliffside Wylderdrake: Midsummer Fire Festival Armor (MM!)
 						["timeline"] = { ADDED_10_2_7 },
 					}),
-					q(83134, {	-- Increased Cliffside Wylderdrake: Midsummer Fire Festival Armor Droprate (Daily Accountwide)
+					hqt(83134, {	-- Increased Cliffside Wylderdrake: Midsummer Fire Festival Armor Droprate (Daily Accountwide)
 						["name"] = "Increased Cliffside Wylderdrake: Midsummer Fire Festival Armor Droprate (Daily Accountwide)",
 						["timeline"] = { ADDED_10_2_7 },
-						["collectible"] = false,
 						["isDaily"] = true,
 					}),
 				},
