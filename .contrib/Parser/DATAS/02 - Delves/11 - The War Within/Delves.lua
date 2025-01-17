@@ -2690,16 +2690,19 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(83156),	-- Purchaseable Restored Coffer Key (spellID 453933)
 		q(83193),	-- Trusty Hat (spellID 454301)
 		-- Season 2 Rewards
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Flamethrower
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Pipes
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Harpoon
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Baloon
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Purchaseable Restored Coffer Keys
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Green Paint
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Delve-O-Bot 7001
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Warbound Equipment Set
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Discounted Restored Coffer Key
-		--q(, {["timeline"]={ADDED_11_1_0}}),	-- Where We Thrive (camp site)
+		q(85204, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Flamethrower (spellID 467083)
+		q(85203, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Pipes (spellID 467082)
+		q(85202, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Harpoon (spellID 467081)
+		q(85201, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Baloon (spellID 467080)
+		q(85207, {["timeline"]={ADDED_11_1_0}}),	-- Purchaseable Restored Coffer Keys (spellID 467093)
+		q(85200, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Green Paint (spellID 467076)
+		q(85210, {["timeline"]={ADDED_11_1_0}}),	-- Delve-O-Bot 7001 (spellID 467097)
+		q(85206, {["timeline"]={ADDED_11_1_0}}),	-- Warbound Equipment Set (spellID 467089)
+		q(85205, {["timeline"]={ADDED_11_1_0}}),	-- Discounted Restored Coffer Key (spellID 467087)
+		--q(86878, {["timeline"]={ADDED_11_1_0}}),	-- Where We Thrive (camp site) (spellID 1217505?)
+		-- Season 2 Restored Keys (unsure if it will be automated or not)
+		--q(86402),	-- Delves - Purchaseable Rare Delve Key - 1 (spellID 467087) (itemID 233555?)
+		--q(86403),	-- Delves - Purchaseable Rare Delve Key - 2 (spellID 1217225) (itemID 235531?)
 		-- Zekvir
 		q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
 		q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)
