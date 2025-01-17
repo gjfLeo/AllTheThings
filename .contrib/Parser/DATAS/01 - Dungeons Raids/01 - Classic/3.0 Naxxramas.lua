@@ -14,6 +14,7 @@ THE_FOUR_HORSEMEN = createHeader({
 		ru = "Четыре Всадника",
 		ko = "4인 기사단",
 		cn = "四骑士",
+		tw = "四騎士",
 	},
 });
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC,
