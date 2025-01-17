@@ -33,7 +33,9 @@ root(ROOTS.Professions, prof(SKINNING, {
 				["provider"] = { "i", 139893 },	-- Skinning Technique: Unbroken Tooth
 			}),
 		}),
-		ach(18831, {	-- Elusive Beasts of the Dragon Isles (15)
+		ach(18831, sharedData({	-- Elusive Beasts of the Dragon Isles (15)
+			["cost"] = {{"i",193906,1}},	-- Elusive Creature Bait
+		},{
 			crit(61435, {	-- Elusive Salamanther
 				["crs"] = { 193854 },	-- Elusive Salamanther
 			}),
@@ -142,48 +144,62 @@ root(ROOTS.Professions, prof(SKINNING, {
 			crit(61472, {	-- Elusive Colossal Sulfurstrider
 				["crs"] = { 204841 },	-- Elusive Colossal Sulfurstrider
 			}),
-		}),
+		})),
 		ach(18832, {	-- Elusive Legend of the Dragon Isles (1)
 			["sym"] = {{"partial_achievement",18833}},	-- Elusive Legends of the Dragon Isles
 		}),
-		ach(18833, {	-- Elusive Legends of the Dragon Isles
+		ach(18833, sharedData({	-- Elusive Legends of the Dragon Isles
+			["cost"] = {{"i",193906,1}},	-- Elusive Creature Bait
+		},{
 			crit(61473, {	-- Elusive Elder Drake
 				["crs"] = { 194489 },	-- Elusive Elder Drake
+				["coord"] = { 23.2, 33.8, THE_AZURE_SPAN },
 			}),
 			crit(61474, {	--  Elusive Elder Frigidpelt
 				["crs"] = { 194491 },	-- Elusive Elder Frigidpelt
+				["coord"] = { 64.7, 30.7, THE_AZURE_SPAN },
 			}),
 			crit(61475, {	-- Elusive Tempest Lizard
 				["crs"] = { 195465 },	-- Elusive Tempest Lizard
+				["coord"] = { 55.0, 55.2, OHNAHRAN_PLAINS },
 			}),
 			crit(61476, {	-- Elusive Ferocious Titanfang
 				["crs"] = { 195472 },	-- Elusive Ferocious Titanfang
+				["coord"] = { 48.2, 50.7, THALDRASZUS },
 			}),
 			crit(61477, {	-- Elusive Deepwater Salamanther
 				["crs"] = { 195492 },	-- Elusive Deepwater Salamanther
+				["coord"] = { 54.7, 58.8, THE_WAKING_SHORES },
 			}),
 			crit(61478, {	-- Elusive Proto Skyterror
 				["crs"] = { 195509 },	-- Elusive Proto Skyterror
+				["coord"] = { 44.8, 78.2, THE_WAKING_SHORES },
 			}),
 			crit(61479, {	-- Elusive Cliffdweller Vorquin
 				["crs"] = { 195518 },	-- Elusive Cliffdweller Vorquin
+				["coord"] = { 56.2, 70.6, THALDRASZUS },
 			}),
 			crit(61480, {	-- Elusive Flourishing Quillbloom
 				["crs"] = { 195541 },	-- Elusive Flourishing Quillbloom
+				["coord"] = { 24.7, 58.7, OHNAHRAN_PLAINS },
 			}),
 			crit(61481, {	-- Elusive Frenzied Amberfur
 				["crs"] = { 202436 },	-- Elusive Frenzied Amberfur
+				["coord"] = { 40.8, 60.7, THE_FORBIDDEN_REACH },
 			}),
 			crit(61482, {	-- Elusive Auric Argali
 				["crs"] = { 202441 },	-- Elusive Auric Argali
+				["coord"] = { 44.7, 40.0, THE_FORBIDDEN_REACH },
 			}),
 			crit(61483, {	-- Elusive Crystalscale Stonecleaver
 				["crs"] = { 204821 },	-- Elusive Crystalscale Stonecleaver
+				["coord"] = { 59.6, 39.5, ZARALEK_CAVERN },
 			}),
 			crit(61484, {	-- Elusive Magma Cobra
 				["crs"] = { 204831 },	-- Elusive Magma Cobra
+				["coord"] = { 43.8, 48.0, ZARALEK_CAVERN },
 			}),
-		}),
+		})),
 		ach(18835, {	-- Fourth War Skinning Techniques
 			crit(61493, {	-- Cragscale
 				["sourceQuests"] = {
@@ -210,16 +226,6 @@ root(ROOTS.Professions, prof(SKINNING, {
 			}),
 		}),
 	})),
-	--[[
-	["maps"] = {
-		DRUSTVAR,
-		TIRAGARDE_SOUND,
-		STORMSONG_VALLEY,
-		VOLDUN,
-		ZULDAZAR,
-		NAZMIR,
-	},
-	--]]
 	q(52213, {	-- Ancient Skinning Knife
 		["provider"] = { "i", 161431 },	-- Ancient Skinning Knife
 		["sourceQuest"] = 51575,	-- Lost But Not Forgotten
