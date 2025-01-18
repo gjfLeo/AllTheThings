@@ -5,6 +5,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	applyclassicphase(SOD_PHASE_SEVEN, inst(2875, bubbleDownSelf({["timeline"] = { "added 1.15.6" }}, {	-- Karazhan Crypts
 		["zone-text-areaID"] = 16074,	-- Karazhan Crypts
+		-- ["coord"] = { 50.0, 50.0, DEADWIND_PASS },
 	}))),
 }));
 -- #endif
