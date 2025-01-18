@@ -863,7 +863,7 @@ SOD_PHASE_FIVE = createClassicPhaseForSOD({
 		tw = "第5階段",
 	},
 	lore = {
-		en = "Included Blackwing Lair, the new Crystal Vale raid, and Zul'Gurub.",
+		en = "Included Blackwing Lair, Zul'Gurub, and the new Crystal Vale raid.",
 	},
 });
 SOD_PHASE_SIX = createClassicPhaseForSOD({
@@ -876,7 +876,7 @@ SOD_PHASE_SIX = createClassicPhaseForSOD({
 		tw = "第6階段",
 	},
 	lore = {
-		en = "Included Ahn'Qiraj.",
+		en = "Included Ahn'Qiraj, and the new Nightmare Grove raid",
 	},
 });
 SOD_PHASE_SEVEN = createClassicPhaseForSOD({
@@ -889,7 +889,7 @@ SOD_PHASE_SEVEN = createClassicPhaseForSOD({
 		tw = "第7階段",
 	},
 	lore = {
-		en = "Included Naxxramas.",
+		en = "Included Naxxramas, and the new Karazhan Crypts dungeon",
 	},
 });
 SOD_PHASE_EIGHT = createClassicPhaseForSOD({
