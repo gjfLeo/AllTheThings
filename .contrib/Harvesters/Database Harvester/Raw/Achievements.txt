@@ -15496,6 +15496,8 @@
 40877@@@<Hidden> RR - 4b
 11.0.7.58187
 41052@@@Lingering Shadows
+11.0.7.58533
+41683@@@Khaz Algar Safari (copy)
 11.1.0.58221
 40103@@@My First Nemesis
 40433@@@Let Me Solo Him: Zekvir
@@ -15751,4 +15753,3 @@
 41629@@@C.H.E.T.T.mate
 41630@@@"Employee" of the Month
 41665@@@Dressed to the Mines
-41683@@@Khaz Algar Safari (copy)
