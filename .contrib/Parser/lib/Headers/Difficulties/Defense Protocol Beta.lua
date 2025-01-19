@@ -11,6 +11,6 @@ DEFENSE_PROTOCOL_BETA = createHeader({
 		ru = "Защитный протокол \"Бета\"",
 		ko = "방어 프로토콜 베타",
 		cn = "防御协议贝塔",
-		tw = "防禦系統 Beta",
+		tw = "貝塔防禦系統",
 	},
 });
