@@ -3778,6 +3778,11 @@
 41146@@@Protocol Inferno: Deadmines
 41147@@@Protocol Inferno: Shadowfang Keep
 41148@@@Protocol Inferno: Terminated
+4.4.2.58486
+41332@@@Rival: Season 10
+41333@@@Duelist: Season 10
+41334@@@Challenger: Season 10
+41336@@@Gladiator: Season 10
 5.0.3.15882
 110@@@Lich King 5-player boss defeated the most
 131@@@Journeyman Medic
