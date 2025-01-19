@@ -902,6 +902,18 @@ root("Achievements", {
 			},
 		})),
 	}),
+	-- #if ANYCLASSIC
+	achcat(ACHIEVEMENT_CATEGORY_CHARACTER, {
+		petbattle(ach(5875, {	-- Littlest Pet Shop (150)
+			["timeline"] = { ADDED_4_4_0 },
+			["groups"] = {
+				i(54810, {	-- Celestial Dragon (PET!)
+					["timeline"] = { CREATED_3_4_0, ADDED_4_4_0 },
+				}),
+			},
+		})),
+	}),
+	-- #endif 
 	-- #endif
 });
 
