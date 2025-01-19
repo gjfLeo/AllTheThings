@@ -14,6 +14,7 @@ ELEMENTAL_BONDS = createHeader({
 		ru = "Власть стихий",
 		ko = "정령의 속박",
 		cn = "元素誓约",
+		tw = "元素桎梏",
 	},
 	description = {
 		en = "The Elemental Bonds questline is an epic series of quests to restore Thrall to his former self after Majordomo Staghelm splits him into 4 essences of elements.",
