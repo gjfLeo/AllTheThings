@@ -316,6 +316,9 @@
 466980@@@Chaos-Born Hippogryph
 466983@@@Chaos-Born Gryphon
 471440@@@Skybound Spectral Tiger
+3.4.3.58528
+473478@@@Sha-Touched Riding Tiger
+473487@@@Sha-Touched Cloud Serpent
 4.4.0.53627
 10790@@@Tiger
 13819@@@Summon Warhorse
