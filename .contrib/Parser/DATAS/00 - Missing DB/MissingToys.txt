@@ -1,50 +1,16 @@
+3.4.3.58528
+i(235464),	-- Sha-Touched Tea Set
 7.3.0.24473
 i(130157),	-- Syxsehnz Rod \\ ehnz Rod
-11.1.0.58221
+11.0.7.58533
 i(228966),	-- Starry-Eyed Goggles
-i(230727),	-- Explosive Victory
-i(230850),	-- Delve-O-Bot 7001
-i(230924),	-- Spotlight Materializer 1000
-i(231064),	-- Throwaway Gangster Disguise
-i(233202),	-- G.O.L.E.M Jr.
-i(234950),	-- Atomic Regoblinator
-i(234951),	-- Uncracked Cold Ones
-i(235220),	-- Fireworks Hat
-i(235669),	-- Steamwheedle Cartel Banner
-i(235670),	-- Bilgewater Cartel Banner
-i(235671),	-- Blackwater Cartel Banner
-i(235672),	-- Venture Co. Banner
-i(235799),	-- Throwin' Sawblade
-i(235801),	-- Personal Fishing Barge
-i(235807),	-- Storefront-in-a-Box
-i(236687),	-- Explosive Hearthstone
-i(236749),	-- Take-Home Torq
-i(236751),	-- Take-Home Flarendo
-i(236769),	-- Gallagio Pipeline Rerouter
 
 
 
 
 Missing in ToyDB.lua
 
-11.1.0.58221
+3.4.3.58528
+i(235464),	-- Sha-Touched Tea Set
+11.0.7.58533
 i(228966),	-- Starry-Eyed Goggles
-i(230727),	-- Explosive Victory
-i(230850),	-- Delve-O-Bot 7001
-i(230924),	-- Spotlight Materializer 1000
-i(231064),	-- Throwaway Gangster Disguise
-i(233202),	-- G.O.L.E.M Jr.
-i(234950),	-- Atomic Regoblinator
-i(234951),	-- Uncracked Cold Ones
-i(235220),	-- Fireworks Hat
-i(235669),	-- Steamwheedle Cartel Banner
-i(235670),	-- Bilgewater Cartel Banner
-i(235671),	-- Blackwater Cartel Banner
-i(235672),	-- Venture Co. Banner
-i(235799),	-- Throwin' Sawblade
-i(235801),	-- Personal Fishing Barge
-i(235807),	-- Storefront-in-a-Box
-i(236687),	-- Explosive Hearthstone
-i(236749),	-- Take-Home Torq
-i(236751),	-- Take-Home Flarendo
-i(236769),	-- Gallagio Pipeline Rerouter

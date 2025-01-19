@@ -40,8 +40,6 @@ r(1214303),	-- Dreamscale Kilt
 4.4.1.57916
 r(1216335),	-- Bloodthirsty Fur Cloak
 r(1216336),	-- Bloodthirsty Hide Cloak
-11.1.0.58221
-r(1216520),	-- Charged Armor Kit
 
 
 

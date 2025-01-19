@@ -6,6 +6,23 @@ mount(466977),	-- Chaos-Born Wind Rider
 mount(466980),	-- Chaos-Born Hippogryph
 mount(466983),	-- Chaos-Born Gryphon
 mount(471440),	-- Skybound Spectral Tiger
+3.4.3.58528
+mount(473478),	-- Sha-Touched Riding Tiger
+mount(473487),	-- Sha-Touched Cloud Serpent
+11.0.7.58608
+mount(459784),	-- Golden Ashes of Al'ar
+mount(1216542),	-- Blazing Royal Fire Hawk
+11.1.0.58626
+mount(466001),	-- Blackwater Bonecrusher
+mount(466014),	-- Steamwheedle Supplier
+mount(466017),	-- Innovation Investigator
+mount(466018),	-- Darkfuse Demolisher
+mount(466021),	-- Violet Goblin Shredder
+mount(466022),	-- Venture Co-ordinator
+mount(466023),	-- Asset Advocator
+mount(466024),	-- Bilgewater Bombardier
+mount(466025),	-- Margin Manipulator
+mount(1221694),	-- Enterprising Shreddertank
 
 
 
@@ -18,3 +35,6 @@ mount(466977),	-- Chaos-Born Wind Rider
 mount(466980),	-- Chaos-Born Hippogryph
 mount(466983),	-- Chaos-Born Gryphon
 mount(471440),	-- Skybound Spectral Tiger
+3.4.3.58528
+mount(473478),	-- Sha-Touched Riding Tiger
+mount(473487),	-- Sha-Touched Cloud Serpent

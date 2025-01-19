@@ -10,8 +10,6 @@ r(1214145),	-- Obsidian Shotgun
 r(1217207),	-- Obsidian Scope
 1.15.6.58185
 r(1221012),	-- Creepy Censor Sensors
-11.1.0.58221
-r(1213620),	-- 22H Slicks
 
 
 

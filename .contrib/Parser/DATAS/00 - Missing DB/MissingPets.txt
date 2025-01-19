@@ -2,45 +2,10 @@
 pet(2535),	-- Wicker Wraith
 11.0.7.57361
 pet(4725),	-- Titan Orb
+11.0.7.58533
+pet(4717),	-- Wanderer Liu
 11.1.0.58221
-pet(4631),	-- Foreman
-pet(4632),	-- Eepy
-pet(4633),	-- Scruff
-pet(4634),	-- Grinner
-pet(4635),	-- Goggles
-pet(4636),	-- Mutt
-pet(4637),	-- Wavebreaker Mechasaur
-pet(4638),	-- Crimson Mechasaur
-pet(4639),	-- Viridian Mechasaur
-pet(4640),	-- Fun-Size Flarendo
-pet(4641),	-- Rocketfist
-pet(4642),	-- Gorillion
-pet(4643),	-- Tiny Torq
-pet(4644),	-- Professor Punch
-pet(4645),	-- Bilgewater Junkhauler
-pet(4646),	-- Personal-Use Sapper
-pet(4647),	-- Mr. DELVER
-pet(4648),	-- Steamwheedle Flunkie
-pet(4649),	-- Blackwater Kegmover
-pet(4650),	-- Venture Companyman
-pet(4651),	-- Wily Rat
-pet(4652),	-- Acid-Drenched Rat
-pet(4653),	-- Lab Rat
-pet(4654),	-- Underroach
-pet(4655),	-- Cruncher
-pet(4656),	-- Bombshell Crab
-pet(4657),	-- Venture Bombshell
-pet(4658),	-- Cave Crab
-pet(4659),	-- Kaja Crab
-pet(4660),	-- Paleshell Crab
-pet(4661),	-- Mechagopher
-pet(4662),	-- Varmint MK II
-pet(4663),	-- Lime Roboclucker
-pet(4664),	-- Iron Chick
 pet(4665),	-- Yellow Tropical Frog
-pet(4666),	-- Tropical Frog
-pet(4667),	-- Spring-Loaded Ribbitron
-pet(4668),	-- Ultrahopper EX
 pet(4670),	-- Hermes
 pet(4671),	-- Cauldrone
 pet(4672),	-- Finnity
@@ -50,19 +15,9 @@ pet(4675),	-- FO-MO Mark II
 pet(4676),	-- Bawkinator 2000
 pet(4677),	-- Black Cave Crab
 pet(4693),	-- Alchemical Runoff
-pet(4701),	-- Spotty
-pet(4737),	-- Precision Powerdrill
 pet(4738),	-- Status Symbol
 pet(4739),	-- Fancier Rat
 pet(4740),	-- Handbag Hyena
-pet(4741),	-- Cannoneer
-pet(4742),	-- Lookout
-pet(4743),	-- Swabbie
-pet(4744),	-- Muddy Croach
-pet(4745),	-- Rusty Croach
-pet(4746),	-- Sooty Croach
-pet(4755),	-- Gleam
-pet(4759),	-- Craboom
 
 
 
@@ -72,44 +27,7 @@ Missing in PetDB.lua
 11.0.7.57361
 pet(4725),	-- Titan Orb
 11.1.0.58221
-pet(4631),	-- Foreman
-pet(4632),	-- Eepy
-pet(4633),	-- Scruff
-pet(4634),	-- Grinner
-pet(4635),	-- Goggles
-pet(4636),	-- Mutt
-pet(4637),	-- Wavebreaker Mechasaur
-pet(4638),	-- Crimson Mechasaur
-pet(4639),	-- Viridian Mechasaur
-pet(4640),	-- Fun-Size Flarendo
-pet(4641),	-- Rocketfist
-pet(4642),	-- Gorillion
-pet(4643),	-- Tiny Torq
-pet(4644),	-- Professor Punch
-pet(4645),	-- Bilgewater Junkhauler
-pet(4646),	-- Personal-Use Sapper
-pet(4647),	-- Mr. DELVER
-pet(4648),	-- Steamwheedle Flunkie
-pet(4649),	-- Blackwater Kegmover
-pet(4650),	-- Venture Companyman
-pet(4651),	-- Wily Rat
-pet(4652),	-- Acid-Drenched Rat
-pet(4653),	-- Lab Rat
-pet(4654),	-- Underroach
-pet(4655),	-- Cruncher
-pet(4656),	-- Bombshell Crab
-pet(4657),	-- Venture Bombshell
-pet(4658),	-- Cave Crab
-pet(4659),	-- Kaja Crab
-pet(4660),	-- Paleshell Crab
-pet(4661),	-- Mechagopher
-pet(4662),	-- Varmint MK II
-pet(4663),	-- Lime Roboclucker
-pet(4664),	-- Iron Chick
 pet(4665),	-- Yellow Tropical Frog
-pet(4666),	-- Tropical Frog
-pet(4667),	-- Spring-Loaded Ribbitron
-pet(4668),	-- Ultrahopper EX
 pet(4670),	-- Hermes
 pet(4671),	-- Cauldrone
 pet(4672),	-- Finnity
@@ -119,16 +37,6 @@ pet(4675),	-- FO-MO Mark II
 pet(4676),	-- Bawkinator 2000
 pet(4677),	-- Black Cave Crab
 pet(4693),	-- Alchemical Runoff
-pet(4701),	-- Spotty
-pet(4737),	-- Precision Powerdrill
 pet(4738),	-- Status Symbol
 pet(4739),	-- Fancier Rat
 pet(4740),	-- Handbag Hyena
-pet(4741),	-- Cannoneer
-pet(4742),	-- Lookout
-pet(4743),	-- Swabbie
-pet(4744),	-- Muddy Croach
-pet(4745),	-- Rusty Croach
-pet(4746),	-- Sooty Croach
-pet(4755),	-- Gleam
-pet(4759),	-- Craboom
