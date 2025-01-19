@@ -661,7 +661,7 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 77417 },	-- Image of Archmage Khadgar
 					}),
 					heroscall(q(49562, {	-- Hero's Call: Shadowmoon Valley! (Draenor)
-						["description"] = "Abandon quest 'Step Three: Prophet!' after the 'Assault on the Dark Portal' scenario and visit a Hero's Call Board to pick this quest up.",
+						["description"] = "After the 'Assault on the Dark Portal' scenario, turn in quest 'Step Three: Prophet!' without accepting the following quest, then visit a Hero's Call Board to pick this quest up.",
 						["timeline"] = { ADDED_7_3_5 },
 						["DisablePartySync"] = true,
 						["isBreadcrumb"] = true,
