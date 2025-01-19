@@ -1112,3 +1112,6 @@
 2694@@@UNUSED - Brann Bronzebeard (Season 2)
 2695@@@Test Account Wide Stormwind (DNT)
 2697@@@Chase's test faction (DNT)
+11.1.0.58626
+2670@@@Venture Company (Paragon)
+2671@@@Venture Company

@@ -634,7 +634,7 @@ root(ROOTS.Unsorted, {
 				i(232888),	-- Ensemble: Algari Warmonger's Mail Armor
 				i(232889),	-- Ensemble: Algari Warmonger's Plate Armor
 				i(232890),	-- Arsenal: Algari Warmonger's Weapons
-				
+
 				i(229785),	-- Prized Gladiator's Last Resort
 				i(229786),	-- Prized Gladiator's Dagger
 				i(229787),	-- Prized Gladiator's Warglaive
@@ -1057,6 +1057,253 @@ root(ROOTS.Unsorted, {
 				i(232987),	-- Brann Bronzebeard's Shield
 				i(233063),	-- Brann's Boomstick
 			}),
+			--
+			i(226148),	-- Wax-Sealed Weathered Crests
+			i(228851),	-- "Bullet-Proof" Vestplate
+			i(229230),	-- Enforcer's Backalley Allegiance
+			i(229231),	-- Enforcer's Backalley Bindings
+			i(229232),	-- Enforcer's Backalley Girdle
+			i(229233),	-- Enforcer's Backalley Shoulderplates
+			i(229234),	-- Enforcer's Backalley Chausses
+			i(229235),	-- Enforcer's Backalley Faceshield
+			i(229236),	-- Enforcer's Backalley Crushers
+			i(229237),	-- Enforcer's Backalley Stompers
+			i(229238),	-- Enforcer's Backalley Vestplate
+			i(229239),	-- Aureate Sentry's Gilded Cloak
+			i(229240),	-- Aureate Sentry's Clasps
+			i(229241),	-- Aureate Sentry's Greatbelt
+			i(229242),	-- Aureate Sentry's Roaring Will
+			i(229243),	-- Aureate Sentry's Legguards
+			i(229244),	-- Aureate Sentry's Pledge
+			i(229245),	-- Aureate Sentry's Gauntlets
+			i(229246),	-- Aureate Sentry's Greaves
+			i(229247),	-- Aureate Sentry's Encasement
+			i(229248),	-- Cauldron Champion's Spined Cloak
+			i(229249),	-- Cauldron Champion's Wraps
+			i(229250),	-- Cauldron Champion's Title Belt
+			i(229251),	-- Cauldron Champion's Screamplate
+			i(229252),	-- Cauldron Champion's Tattered Cuisses
+			i(229253),	-- Cauldron Champion's Crown
+			i(229254),	-- Cauldron Champion's Fistguards
+			i(229255),	-- Cauldron Champion's Greatboots
+			i(229256),	-- Cauldron Champion's Ribcage
+			i(229257),	-- Gale Sovereign's Breeze
+			i(229258),	-- Gale Sovereign's Bracers
+			i(229259),	-- Gale Sovereign's Ritual Belt
+			i(229260),	-- Gale Sovereign's Zephyrs
+			i(229261),	-- Gale Sovereign's Pantaloons
+			i(229262),	-- Gale Sovereign's Charged Hood
+			i(229263),	-- Gale Sovereign's Grasps
+			i(229264),	-- Gale Sovereign's Stormboots
+			i(229265),	-- Gale Sovereign's Clouded Hauberk
+			i(229266),	-- Tireless Collector's Veilmesh
+			i(229267),	-- Tireless Collector's Manacles
+			i(229268),	-- Tireless Collector's First Kill
+			i(229269),	-- Tireless Collector's Hunted Heads
+			i(229270),	-- Tireless Collector's Armored Breeches
+			i(229271),	-- Tireless Collector's Chained Cowl
+			i(229272),	-- Tireless Collector's Gauntlets
+			i(229273),	-- Tireless Collector's Spiked Cleats
+			i(229274),	-- Tireless Collector's Battlegear
+			i(229275),	-- Opulent Treasurescale's Scalecloak
+			i(229276),	-- Opulent Treasurescale's Vambraces
+			i(229277),	-- Opulent Treasurescale's Radiant Chain
+			i(229278),	-- Opulent Treasurescale's Gleaming Mantle
+			i(229279),	-- Opulent Treasurescale's Petticoat
+			i(229280),	-- Opulent Treasurescale's Crowned Jewel
+			i(229281),	-- Opulent Treasurescale's Gold-Counters
+			i(229282),	-- Opulent Treasurescale's Boots
+			i(229283),	-- Opulent Treasurescale's Tunic
+			i(229284),	-- Spectral Gambler's Shawl
+			i(229285),	-- Spectral Gambler's Shackles
+			i(229286),	-- Spectral Gambler's Pocket Ace
+			i(229287),	-- Spectral Gambler's Bladed Mantle
+			i(229288),	-- Spectral Gambler's Pantaloons
+			i(229289),	-- Spectral Gambler's Damned Visage
+			i(229290),	-- Spectral Gambler's Gloves
+			i(229291),	-- Spectral Gambler's Cavaliers
+			i(229292),	-- Spectral Gambler's Vest
+			i(229293),	-- Ageless Serpent's Flowing Grace
+			i(229294),	-- Ageless Serpent's Cuffs
+			i(229295),	-- Ageless Serpent's Rope Belt
+			i(229296),	-- Ageless Serpent's Shoulderpads
+			i(229297),	-- Ageless Serpent's Leggings
+			i(229298),	-- Ageless Serpent's Mane
+			i(229299),	-- Ageless Serpent's Handguards
+			i(229300),	-- Ageless Serpent's Ankleweights
+			i(229301),	-- Ageless Serpent's Inked Coils
+			i(229302),	-- Leaves of Reclaiming Blight
+			i(229303),	-- Knots of Reclaiming Blight
+			i(229304),	-- Wickerbelt of Reclaiming Blight
+			i(229305),	-- Jaws of Reclaiming Blight
+			i(229306),	-- Moccasins of Reclaiming Blight
+			i(229307),	-- Branches of Reclaiming Blight
+			i(229308),	-- Grips of Reclaiming Blight
+			i(229309),	-- Breeches of Reclaiming Blight
+			i(229310),	-- Robes of Reclaiming Blight
+			i(229311),	-- Fel-Dealer's Fur Shawl
+			i(229312),	-- Fel-Dealer's Cuffs
+			i(229313),	-- Fel-Dealer's Waistwrap
+			i(229314),	-- Fel-Dealer's Recycled Reavers
+			i(229315),	-- Fel-Dealer's Fur Kilt
+			i(229316),	-- Fel-Dealer's Visor
+			i(229317),	-- Fel-Dealer's Underhandlers
+			i(229318),	-- Fel-Dealer's Smugglers
+			i(229319),	-- Fel-Dealer's Soul Engine
+			i(229320),	-- Spliced Fiendtrader's Shady Cover
+			i(229321),	-- Spliced Fiendtrader's Skinbands
+			i(229322),	-- Spliced Fiendtrader's Sash
+			i(229323),	-- Spliced Fiendtrader's Loyal Servants
+			i(229324),	-- Spliced Fiendtrader's Skin Tights
+			i(229325),	-- Spliced Fiendtrader's Transcendence
+			i(229326),	-- Spliced Fiendtrader's Demonic Grasp
+			i(229327),	-- Spliced Fiendtrader's Soles
+			i(229328),	-- Spliced Fiendtrader's Surgical Gown
+			i(229329),	-- Confessor's Unshakable Lightcover
+			i(229330),	-- Confessor's Unshakable Faulds
+			i(229331),	-- Confessor's Unshakable Ornament
+			i(229332),	-- Confessor's Unshakable Radiance
+			i(229333),	-- Confessor's Unshakable Leggings
+			i(229334),	-- Confessor's Unshakable Halo
+			i(229335),	-- Confessor's Unshakable Mitts
+			i(229336),	-- Confessor's Unshakable Boots
+			i(229337),	-- Confessor's Unshakable Vestment
+			i(229338),	-- Aspectral Emissary's Chosen Drape
+			i(229339),	-- Aspectral Emissary's Gembands
+			i(229340),	-- Aspectral Emissary's Cummerbund
+			i(229341),	-- Aspectral Emissary's Arcane Vents
+			i(229342),	-- Aspectral Emissary's Trousers
+			i(229343),	-- Aspectral Emissary's Crystalline Cowl
+			i(229344),	-- Aspectral Emissary's Hardened Grasp
+			i(229345),	-- Aspectral Emissary's Slippers
+			i(229346),	-- Aspectral Emissary's Primal Robes
+			i(229810),	-- Vintage Kaja'Cola Can
+			i(229825),	-- Dented Can of Kaja'Cola
+			i(232465),	-- Darkfuse Trove
+			i(232935),	-- Vantus Rune: Liberation of Undermine
+			i(232936),	-- Vantus Rune: Liberation of Undermine
+			i(232937),	-- Vantus Rune: Liberation of Undermine
+			i(233022),	-- Technique: Vantus Rune: Liberation of Undermine
+			i(233064),	-- Bronze Goblin Waveshredder
+			i(233113),	-- Crocodilian's Head
+			i(233172),	-- Banded Grassy War Slippers
+			i(233479),	-- Shimmerthread Robe
+			i(234384),	-- Ensemble: Chains of the Stygian Sea
+			i(234385),	-- Ensemble: Aegis of Hidden Stars
+			i(234733),	-- Bloodwake Ritual Bowl
+			i(234743),	-- Steamwheedle's Trove
+			i(234744),	-- Blackwater's Trove
+			i(234745),	-- Bilgewater's Trove
+			i(234746),	-- Venture Co.'s Trove
+			i(235258),	-- Bilgewater's Trove
+			i(235259),	-- Bilgewater's Trove
+			i(235260),	-- Blackwater's Trove
+			i(235261),	-- Blackwater's Trove
+			i(235262),	-- Steamwheedle's Trove
+			i(235263),	-- Steamwheedle's Trove
+			i(235264),	-- Venture Co.'s Trove
+			i(235265),	-- Venture Co.'s Trove
+			i(236960),	-- Prototype A.S.M.R.
+			i(237014),	-- Severed Threads Commendation
+			i(237025),	-- Smartest in Town's Visor
+			i(237026),	-- Smartest in Town's Drape
+			i(237027),	-- Slickest in Town's Vest
+			i(237028),	-- Smartest in Town's Cord
+			i(237029),	-- Smartest in Town's Legwraps
+			i(237031),	-- Smartest in Town's Sandals
+			i(237032),	-- Smartest in Town's Bangles
+			i(237033),	-- Smartest in Town's Gloves
+			i(237034),	-- Smartest in Town's Attire
+			i(237035),	-- Smartest in Town's Cape
+			i(237036),	-- Golden Valorstone
+			i(237094),	-- Slickest in Town's Hood
+			i(237095),	-- Slickest in Town's Soulderspikes
+			i(237096),	-- Slickest in Town's Belt
+			i(237097),	-- Slickest in Town's Breeches
+			i(237098),	-- Slickest in Town's Boots
+			i(237099),	-- Slickest in Town's Armlets
+			i(237100),	-- Slickest in Town's Grips
+			i(237101),	-- Slickest in Town's Drape
+			i(237102),	-- Slickest in Town's Attire
+			i(237103),	-- Craftiest in Town's Helmet
+			i(237104),	-- Craftiest in Town's Rocketguards
+			i(237105),	-- Craftiest in Town's Greatbelt
+			i(237106),	-- Craftiest in Town's Legguards
+			i(237107),	-- Craftiest in Town's Waders
+			i(237108),	-- Craftiest in Town's Bracers
+			i(237109),	-- Craftiest in Town's Gauntlets
+			i(237110),	-- Craftiest in Town's Shroud
+			i(237111),	-- Craftiest in Town's Mail
+			i(237112),	-- Craftiest in Town's Attire
+			i(237113),	-- Toughest in Town's Spiked Helm
+			i(237114),	-- Toughest in Town's Pauldrons
+			i(237115),	-- Toughest in Town's Girdle
+			i(237116),	-- Toughest in Town's Cuisses
+			i(237117),	-- Toughest in Town's Jackboots
+			i(237118),	-- Toughest in Town's Armplates
+			i(237119),	-- Toughest in Town's Graspers
+			i(237120),	-- Toughest in Town's Cloak
+			i(237121),	-- Toughest in Town's Cuirass
+			i(237122),	-- Toughest in Town's Attire
+			i(237123),	-- Descaled Capelet
+			i(237124),	-- Power-Washed Drape
+			i(237125),	-- Upcycled Cloak
+			i(237126),	-- Laundered Cape
+			i(237128),	-- Smartest in Town's Shirt
+			i(237129),	-- Tarnished Undermine Real
+			i(237130),	-- Undermine Undershirt
+			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
+			i(237132),	-- Bilgewater Trove
+			i(237133),	-- Venture Co. Trove
+			i(237134),	-- Steamwheedle Trove
+			i(237135),	-- Blackwater Trove
+			i(237240),	-- Banded Sepia War Legwraps
+			i(237241),	-- Banded Sunny War Legwraps
+			i(237242),	-- Banded Snowy War Legwraps
+			i(237243),	-- Banded Aquatic War Legwraps
+			i(237244),	-- Banded Violet War Legwraps
+			i(237245),	-- Banded Plum War Legwraps
+			i(237246),	-- Banded Rosy War Legwraps
+			i(237247),	-- Banded Carrot War Legwraps
+			i(237248),	-- Banded Faded War Legwraps
+			i(237249),	-- Banded Lively War Legwraps
+			i(237250),	-- Banded Brick War Legwraps
+			i(237251),	-- Banded Camo War Legwraps
+			i(237252),	-- Banded Deep War Legwraps
+			i(237253),	-- Banded Cloudy War Legwraps
+			i(237254),	-- Banded Azure War Legwraps
+			i(237255),	-- Banded Midnight War Legwraps
+			i(237256),	-- Banded Crimson War Legwraps
+			i(237257),	-- Banded Grassy War Legwraps
+			i(237259),	-- Kapow Kanapes
+			i(237260),	-- Glass of Daylight Dew
+			i(237267),	-- Spare Uncrowned Vest
+			i(237268),	-- How to Get Out of Parking Tickets More Than Once
+			i(237276),	-- Refurbished Rocket Glider
+			i(237305),	-- Chalky Shungite
+			i(237306),	-- NEW Goblin Hot Potato
+			i(237313),	-- Totally Legit Samophlange
+			i(237314),	-- Fighting Guide: Unarmed Combat
+			i(237315),	-- Fighting Guide: Armed Combat
+			i(237316),	-- Injury Guide: Stunned
+			i(237317),	-- Injury Guide: Play Dead
+			i(237318),	-- Injury Guide: Knockdown
+			i(237319),	-- Fighting Guide: Magical Combat
+			i(237320),	-- Fighting Guide: Grappling Combat
+			i(237321),	-- Scoring Guide: Start Counter
+			i(237322),	-- Scoring Guide: Remove Point
+			i(237323),	-- Scoring Guide: Add Point
+			i(237330),	-- Disposable Hamburger
+			i(237331),	-- Disposable Hotdog
+			i(237332),	-- Single-Use Grill
+			i(237333),	-- Undermine Crate
+			i(237334),	-- Half-Eaten Takeout
+			i(237335),	-- Collectible Pineappletini Mug
+			i(237345),	-- Limited Edition Rocket Bobber
+			i(237346),	-- Artisan Beverage Goblet Bobber
+			i(237347),	-- Organically-Sourced Wellington Bobber
+			i(237355),	-- Golden Coffer Key
+			i(237358),	-- Siilver Coffer Key
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old

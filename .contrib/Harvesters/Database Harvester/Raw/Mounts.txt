@@ -2080,3 +2080,15 @@
 1218014@@@Midnight Butterfly
 1218069@@@Emerald Snail
 1221155@@@Prototype A.S.M.R.
+11.1.0.58626
+466001@@@Blackwater Bonecrusher
+466014@@@Steamwheedle Supplier
+466017@@@Innovation Investigator
+466018@@@Darkfuse Demolisher
+466021@@@Violet Goblin Shredder
+466022@@@Venture Co-ordinator
+466023@@@Asset Advocator
+466024@@@Bilgewater Bombardier
+466025@@@Margin Manipulator
+473188@@@Bronze Goblin Waveshredder
+1221694@@@Enterprising Shreddertank
