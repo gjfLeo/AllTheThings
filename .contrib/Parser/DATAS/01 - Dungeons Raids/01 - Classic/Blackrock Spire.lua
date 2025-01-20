@@ -2922,7 +2922,14 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						{ "i", 22057, 1 },	-- Brazier of Invocation
 					},
 					-- #endif
+					-- #if AFTER 4.0.3
+					-- This init function unmarks the removed from game flag for folks with the brazier.
+					["OnInit"] = FUNCTION_TEMPLATES.OnInit.BrazierAccess,
+					-- #endif
 					["timeline"] = { REMOVED_6_0_2 },
+					-- #if NOT ANYCLASSIC
+					["u"] = CONDITIONALLY_AVAILABLE,
+					-- #endif
 					["groups"] = {
 						i(22336, {	-- Draconian Aegis of the Legion
 							["timeline"] = { REMOVED_6_0_2 },
