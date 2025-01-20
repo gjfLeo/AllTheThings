@@ -3048,7 +3048,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["groups"] = {
 						i(38513, {	-- Boarhide Leggings
-							["timeline"] = { ADDED_3_0_2 },
+							["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3, ADDED_8_0_1 },
 						}),
 					},
 				}),
