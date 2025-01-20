@@ -1,7 +1,7 @@
 -- This funny play on words amuses me.
-COMMON_DUNGEON_DROP = createHeader({
-	readable = "Common Dungeon Drop",
-	constant = "COMMON_DUNGEON_DROP",
+COMMON_DUNGEON_DROPS = createHeader({
+	readable = "Common Dungeon Drops",
+	constant = "COMMON_DUNGEON_DROPS",
 	-- #if AFTER WOD
 	export = true,
 	-- #endif

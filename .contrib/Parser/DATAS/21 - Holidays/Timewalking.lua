@@ -5277,7 +5277,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 				},
 			}),
 		}),
-		n(COMMON_DUNGEON_DROP, {
+		n(COMMON_DUNGEON_DROPS, {
 			n(HANDS, sharedData({ ["crs"] = { AUCH, BSM, RAIL, DOCKS, SBG, SKY, BLOOM }, },{
 				i(109861),	-- Felflame Grips
 				i(109845),	-- Frost-Touched Gloves

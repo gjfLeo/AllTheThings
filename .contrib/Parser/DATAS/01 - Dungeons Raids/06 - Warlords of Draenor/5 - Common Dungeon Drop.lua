@@ -10,7 +10,7 @@ local SKY = -145;
 local BLOOM = -146;
 local UBRS = -147;
 root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
-	n(COMMON_DUNGEON_DROP, {
+	n(COMMON_DUNGEON_DROPS, {
 		["description"] = "tbd",
 		["g"] = {
 			i(141643, {	-- Technique: Codex of the Clear Mind (RECIPE!)

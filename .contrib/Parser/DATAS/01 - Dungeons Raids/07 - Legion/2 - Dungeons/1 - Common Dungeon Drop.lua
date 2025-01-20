@@ -3,7 +3,7 @@
 -----------------------------------------------------
 
 root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
-	n(COMMON_DUNGEON_DROP, {
+	n(COMMON_DUNGEON_DROPS, {
 		i(141591, {	-- Technique: Codex of the Tranquil Mind [Rank 2] (RECIPE!)
 			["crs"] = {
 				102387,	-- Sael'orn
