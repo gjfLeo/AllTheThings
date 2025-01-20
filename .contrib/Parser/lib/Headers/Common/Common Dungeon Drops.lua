@@ -7,7 +7,7 @@ COMMON_DUNGEON_DROPS = createHeader({
 	-- #endif
 	icon = 3753263,
 	text = {
-		en = "Common Dungeon Drop",
+		en = "Common Dungeon Drops",
 		fr = "Objet commun de donjon",
 		ru = "Обычная добыча с боссов",
 		cn = "地下城共同掉落",
