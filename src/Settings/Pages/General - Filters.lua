@@ -53,10 +53,7 @@ end
 
 for i,filterID in ipairs({
 	21, 22, 23, 24, 25, 26,	-- 1H Axes, 2H Axes, 1H Maces, 2H Maces, 1H Swords, 2H Swords
-	20, 34, 29, 28 			-- Daggers, Fist Weapons, Polearms, Staves
-	-- #if AFTER LEGION
-	,35						-- Warglaives
-	-- #endif
+	20, 34, 29, 28, 35		-- Daggers, Fist Weapons, Polearms, Staves, Warglaives
 }) do
 	local filter = child:CreateCheckBox(itemFilterNames[filterID], ItemFilterOnRefresh, ItemFilterOnClick)
 	-- Start
