@@ -683,6 +683,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_SPOREGGAR, NEUTRAL },	-- Sporeggar, Neutral.
 						["cost"] = { { "i", 24449, 6 } },	-- Fertile Spore
 						["lvl"] = lvlsquish(62, 62, 10),
+						["_drop"] = { "g" },	-- Glowcap added from API
 					}),
 					q(9729, {	-- Fhwoor Smash!
 						["qg"] = 17877,	-- Fhwoor
@@ -974,6 +975,7 @@ root(ROOTS.Zones, {
 						["cost"] = { { "i", 24449, 6 } },	-- Fertile Spore
 						["repeatable"] = true,
 						["lvl"] = lvlsquish(62, 62, 10),
+						["_drop"] = { "g" },	-- Glowcap added from API
 						-- #if NOT ANYCLASSIC
 						["lockCriteria"] = { 1, "factionID", 970.8 },	-- Sporeggar, Exalted
 						-- #endif
@@ -1887,6 +1889,11 @@ root(ROOTS.Zones, {
 						["g"] = {
 							i(187915),	-- Pungent Blobfish
 						},
+					}),
+				}),
+				n(TREASURES, {
+					o(182053, {	-- Glowcap
+						i(24245),	-- Glowcap
 					}),
 				}),
 				n(VENDORS, {

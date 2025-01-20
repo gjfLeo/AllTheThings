@@ -1192,9 +1192,9 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			m(46, {	-- Karazhan Catacombs (this makes sense to have as a root map when it's the minilist)
 				["description"] = "Deep into the catacombs the bike is just sitting there out of reach, but is surrounded by 12 basins which can light up with orbs if enough actions are performed.",
 				["coord"] = { 46.3, 69.1, DEADWIND_PASS },
-				["cost"] = {
-					{ "i", 44124, 1 }, -- Peculiar Key
-					{ "i", 208092, 1 },	-- Torch of Pyrreth
+				["providers"] = {
+					{ "i",  44124 },	-- Peculiar Key
+					{ "i", 208092 },	-- Torch of Pyrreth
 				},
 				["g"] = {
 					--1 O'clock Basin
@@ -1225,10 +1225,12 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["g"] = {
 							n(153297, {	-- Ny'Alotha Obelisk
 								["coord"] = { 83.7, 27.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
+								["providers"] = {
+									{ "i", 175140 },	-- All Seeing Eyes
+									{ "i", 168123 },	-- Twitching Eyeball
+								},
 								["cost"] = {
-									{ "i", 175140, 1 },	-- All Seeing Eyes
 									{ "i", 229413, 1 },	-- "Dogg-Saron" Costume
-									{ "i", 168123, 1 },	-- Twitching Eyeball
 									{ "i", 116812, 1 },	-- "Yipp-Saron" Costume
 								},
 								["g"] = {

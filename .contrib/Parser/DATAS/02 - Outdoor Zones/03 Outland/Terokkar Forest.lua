@@ -2079,6 +2079,17 @@ root(ROOTS.Zones, {
 						["cr"] = 24920,	-- Razorthorn Flayer
 					})),
 					UNHOLY_ENCHANT,
+					i(32388, {	-- Shadow Dust
+						["crs"] = {
+							21911,	-- Skettis Soulcaller
+							21650,	-- Skettis Talonite
+							21649,	-- Skettis Windwalker
+							21644,	-- Skettis Wing Guard
+							23066,	-- Talonpriest Ishaal
+							23067,	-- Talonpriest Skizzik
+							23068,	-- Talonpriest Zellek
+						},
+					}),
 					i(32620, {	-- Time-Lost Scroll
 						["cost"] = {
 							{ "i", 32446, 1 },	-- Elixir of Shadows

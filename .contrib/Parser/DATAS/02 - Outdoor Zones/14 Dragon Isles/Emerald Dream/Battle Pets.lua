@@ -41,7 +41,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 			}),
 			pet(4302, {	-- Pale Slumbertooth (PET!)
 				["description"] = "Requires the Friendsurge Defenders toy to see.",
-				["provider"] = { "i", 209944 },
+				["provider"] = { "i", 209944 },	-- Friendsurge Defenders (TOY!)
 				["coords"] = {
 					{ 35.7, 62.3, EMERALD_DREAM },
 					{ 53.6, 65.3, EMERALD_DREAM },
