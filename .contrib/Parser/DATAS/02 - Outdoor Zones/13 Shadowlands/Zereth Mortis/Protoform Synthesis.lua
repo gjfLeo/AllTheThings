@@ -359,6 +359,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 						recipe(365051),	-- Mawdapted Raptora
 					},
 				}),
+				q(65375, {	-- Schematic Reassimilation: Pale Regal Cervid
+					["provider"] = { "i", 189455 },
+					["g"] = {
+						recipe(365040),	-- Pale Regal Cervid (QI!)
+					},
+				}),
 				q(65393, {	-- Schematic Reassimilation: Prototype Leaper
 					["sourceQuests"] = { 65427 },	-- A New Architect
 					["provider"] = { "i", 189469 },	-- Schematic: Prototype Leaper
