@@ -7144,7 +7144,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(64006, { ["name"] = "Nav Test: Zereth Mortis", }),	-- Nav Test: Zereth Mortis
 			q(64582, { ["name"] = "Yuni-Test", }),	-- Yuni-Test
 
-			q(65375),	-- Schematic Reassimilation: Pale Regal Cervid
 			q(65392),	-- Schematic Reassimilation: Patient Bufonid
 			-- Quest from WoW.Tools
 			-- 9.2.0.41089
