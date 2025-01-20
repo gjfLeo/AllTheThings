@@ -196,6 +196,7 @@ _.HeaderConstants = {
 	TREASURES = -1000038,
 	UI_BOUNTY_WINDOW = -1000380,
 	UNIQUE_APPEARANCE = -1000163,
+	UPGRADE = -1001070,
 	VENDORS = -1000039,
 	WEAPONS = -1000073,
 	WORLD_BOSSES = -1000042,
@@ -338,13 +339,11 @@ localize(L.HEADER_NAMES, {
 	[-1000986] = "Inspiration Rank Two",
 	[-1000987] = "Aeonas: Trust in a Friend",
 	[-1000988] = "Gregory: You Can Trust Me... Probably.",
-	[-1000996] = "Storm Cliffs",
 	[-1000997] = "Blackrock Eruption",
-	[-1000998] = "The Tainted Scar",
 	[-1001035] = "Seasonal Fish: Summer Bass",
 	[-1001036] = "Seasonal Fish: Winter Squid",
-	[-1001042] = "The Crystal Vale",
 	[-1001058] = "Nightmare Grove",
+	[-1001070] = UPGRADE,
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000015] = "Warlocks can teach their demons new tricks. Some of the higher level grimoires can only be purchased from the Demon Trainer in your faction's capital cities.",
@@ -381,10 +380,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000980] = "You need to be debuffed from the Nightmare Amalgam to proc this quest. (do not engage it, just run away)",
 	[-1000984] = "Starting at level 50, Paladins can complete a quest chain in Western Plaguelands that will give them a Relic that calls forth their own personal Squire. This Squire can level up by fighting in combat as well as by being healed by the Paladin's spells. (Get into combat and just spam rank 1 Flash of Light while he attacks the mobs.)",
 	[-1000985] = "After receiving your squire, summon him forth using the Relic and then level him up by getting into combat and keeping him alive.",
-	[-1000996] = "The Storm Cliffs is a place in Azshara known for its weather and acts as the home away from home for the blue dragonflight.",
 	[-1000997] = "This event occurs every 2 hours from Midnight and lasts 60 minutes. While this event is active, Daily Quests will be available in Searing Gorge for the Thorium Brotherhood. Traditionally Thorium Brotherhood can be quite a grind to achieve reputation with so this addition of a Daily Quest Hub will be very welcome.\nWhen the event is active, new NPCs will spawn and some environmental changes will occur to the outside area of Searing Gorge.",
-	[-1000998] = "The Tainted Scar is a small region in the western Blasted Lands, corrupted for years by the energies of the Dark Portal. Following the Third War, it became the demonic domain of Lord Kazzak and his army until the Invasion of Outland.",
-	[-1001042] = "The Crystal Vale can be found near the northwest corner of Silithus.",
 	[-1001058] = "Nightmare Grove can be found near the portals to the Emerald Dream.",
 });
 localize(L.HEADER_LORE, {
@@ -530,6 +526,7 @@ localize(L.HEADER_ICONS, {
 	[-1000997] = 237588,
 	[-1001035] = 133889,
 	[-1001036] = 133899,
+	[-1001070] = _.asset("interface_upgrade"),
 });
 localize(L.HEADER_EVENTS, {
 	[-1000200] = 201,
@@ -554,7 +551,7 @@ localize(L.EVENT_REMAPPING, {
 
 -- Programmatic Event Scheduling
 _.Modules.Events.SetEventInformation(446916, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=19,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=30,["weekday"]=3,["year"]=2024})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=30,["weekday"]=4,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(181, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=17,["weekday"]=4,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=18,["weekday"]=5,["year"]=2024}),
@@ -592,7 +589,6 @@ _.Modules.Events.SetEventInformation(141, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=4,["year"]=2026},{["hour"]=6,["minute"]=0,["month"]=1,["monthDay"]=2,["weekday"]=7,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(479, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=30,["weekday"]=2,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=6,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=13,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=20,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=27,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=3,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=10,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=17,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
@@ -618,7 +614,8 @@ _.Modules.Events.SetEventInformation(479, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=17,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=24,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=1,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=8,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=15,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=22,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=29,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=5,["weekday"]=2,["year"]=2026},{["remappedID"]=375})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=29,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=5,["weekday"]=2,["year"]=2026},{["remappedID"]=375}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=12,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=19,["weekday"]=2,["year"]=2026},{["remappedID"]=374})
 });
 _.Modules.Events.SetEventInformation(201, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=3,["year"]=2024}),
@@ -1540,6 +1537,7 @@ local ObjectNames = {
 	[181073] = "Fragrant Cauldron",
 	[181074] = "Arena Spoils",
 	[181083] = "Sothos and Jarien's Heirlooms",
+	[181085] = "Stratholme Supply Crate",
 	[181098] = "Volcanic Ash",
 	[181366] = "Four Horsemen Chest",
 	[181597] = "Silithyst Mound",
@@ -2686,6 +2684,7 @@ local ObjectModels = {
 	[181073] = 198100,
 	[181074] = 196976,
 	[181083] = 196976,
+	[181085] = 199636,
 	[181098] = 204112,
 	[181366] = 200953,
 	[181597] = 200156,
@@ -2926,7 +2925,7 @@ local phases = {
 	[1609] = {
 		name = "Phase 5",
 		description = "|cFFAAFFAAThis was not available until Phase 5 of Season of Discovery.|r",
-		lore = "|cFFFFAAAAIncluded Blackwing Lair, the new Crystal Vale raid, and Zul'Gurub.|r",
+		lore = "|cFFFFAAAAIncluded Blackwing Lair, Zul'Gurub, and the new Crystal Vale raid.|r",
 		minimumBuildVersion = 11500,
 		buildVersion = 11504,
 		state = 2,
@@ -2934,7 +2933,7 @@ local phases = {
 	[1610] = {
 		name = "Phase 6",
 		description = "|cFFAAFFAAThis was not available until Phase 6 of Season of Discovery.|r",
-		lore = "|cFFFFAAAAIncluded Ahn'Qiraj.|r",
+		lore = "|cFFFFAAAAIncluded Ahn'Qiraj, and the new Nightmare Grove raid|r",
 		minimumBuildVersion = 11500,
 		buildVersion = 11505,
 		state = 2,
@@ -2942,7 +2941,7 @@ local phases = {
 	[1611] = {
 		name = "Phase 7",
 		description = "|cFFAAFFAAThis was not available until Phase 7 of Season of Discovery.|r",
-		lore = "|cFFFFAAAAIncluded Naxxramas.|r",
+		lore = "|cFFFFAAAAIncluded Naxxramas, and the new Karazhan Crypts dungeon|r",
 		minimumBuildVersion = 11500,
 		buildVersion = 11506,
 		state = 2,
@@ -3893,11 +3892,8 @@ localize(L.HEADER_NAMES, {
 	[-1000378] = "Seelenvermittler",
 	[-1000380] = "Kopfgeld",
 	[-1000970] = "Stufe 3",
-	[-1000996] = "Sturmklippen",
-	[-1000998] = "Die Faulende Narbe",
 	[-1001035] = "Saisonfisch: Sommerbarsch",
 	[-1001036] = "Saisonfisch: Winterkalmar",
-	[-1001042] = "Kristalltal",
 	[-1001058] = "Alptraumhain",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -4573,6 +4569,7 @@ localize(ObjectNames, {
 	[181073] = "Duftender Kessel",
 	[181074] = "Arenabeute",
 	[181083] = "Sothos' und Jariens Erbstücke",
+	[181085] = "Vorratskiste von Stratholme",
 	[181098] = "Vulkanasche",
 	[181366] = "Truhe der Vier Reiter",
 	[181597] = "Silithysthaufen",
@@ -5082,11 +5079,8 @@ localize(L.HEADER_NAMES, {
 	[-1000378] = "Courtiers D'âmes",
 	[-1000380] = "Prime",
 	[-1000970] = "Étage 3",
-	[-1000996] = "Falaises de la Tempête",
-	[-1000998] = "La Balafre impure",
 	[-1001035] = "Poisson de saison : bar d'été",
 	[-1001036] = "Poisson de saison : calmar d'hiver",
-	[-1001042] = "La vallée des Cristaux",
 	[-1001058] = "Bosquet du cauchemar",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -5761,6 +5755,7 @@ localize(ObjectNames, {
 	[181073] = "Chaudron parfumé",
 	[181074] = "Butin de l'arène",
 	[181083] = "Possessions de Sothos et Jarien",
+	[181085] = "Caisse de fournitures de Stratholme",
 	[181098] = "Cendre volcanique",
 	[181366] = "Coffre des quatre cavaliers",
 	[181597] = "Monticule de silithyste",
@@ -6596,6 +6591,7 @@ localize(ObjectNames, {
 	[180901] = "Rottami dei Velerosse",
 	[181053] = "Cesto di Algasangue",
 	[181073] = "Calderone Profumato",
+	[181085] = "Cassa di Rifornimenti di Stratholme",
 	[181366] = "Cassa dei Cavalieri dell'Apocalisse",
 	[181597] = "Mucchio di Silitisti",
 	[181598] = "Geyser Silitista",
@@ -6670,11 +6666,8 @@ localize(L.HEADER_NAMES, {
 	[-1000378] = "Corretores de Almas",
 	[-1000380] = "Recompensa",
 	[-1000970] = "Nível 3",
-	[-1000996] = "Penhascos Tempestuosos",
-	[-1000998] = "Rasgo Infecto",
 	[-1001035] = "Peixe sazonal: robalo de verão",
 	[-1001036] = "Peixe sazonal: Lula de Inverno",
-	[-1001042] = "Vale de Cristal",
 	[-1001058] = "Bosque do Pesadelo",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -7282,6 +7275,7 @@ localize(ObjectNames, {
 	[180901] = "Destroços dos Vela Sangrenta",
 	[181053] = "Cesta de Algassangue",
 	[181073] = "Caldeirão Cheiroso",
+	[181085] = "Caixote de Suprimentos de Stratholme",
 	[181098] = "Cinza Vulcânica",
 	[181366] = "Baú dos Quatro Cavaleiros",
 	[181597] = "Monte de Terra Silitista",
@@ -7711,11 +7705,8 @@ localize(L.HEADER_NAMES, {
 	[-1000378] = "Душевные брокеры",
 	[-1000380] = "Премия",
 	[-1000970] = "Уровень 3",
-	[-1000996] = "Штормовые утесы",
-	[-1000998] = "Гниющий Шрам",
 	[-1001035] = "Сезонная рыба: летний окунь",
 	[-1001036] = "Сезонная рыба: зимний кальмар",
-	[-1001042] = "Долина Кристаллов",
 	[-1001058] = "Роща Кошмаров",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -8394,6 +8385,7 @@ localize(ObjectNames, {
 	[181073] = "Котел Ароматов",
 	[181074] = "Трофеи арены",
 	[181083] = "Наследие Сотоса и Джариена",
+	[181085] = "Стратхольм - ящик с припасами",
 	[181098] = "Вулканический пепел",
 	[181366] = "Сундук четырех всадников",
 	[181597] = "Курган силитиста",
@@ -8951,11 +8943,8 @@ localize(L.HEADER_NAMES, {
 	[-1000378] = "소울 브로커",
 	[-1000380] = "하사품",
 	[-1000970] = "층 3",
-	[-1000996] = "폭풍 절벽",
-	[-1000998] = "타락의 흉터",
 	[-1001035] = "제철 생선: 여름 농어",
 	[-1001036] = "제철 생선: 겨울 오징어",
-	[-1001042] = "수정 골짜기",
 	[-1001058] = "악몽의 숲",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -9574,6 +9563,7 @@ localize(ObjectNames, {
 	[181053] = "붉은물풀 광주리",
 	[181073] = "맛있는 향기의 가마솥",
 	[181074] = "투기장 전리품",
+	[181085] = "스트라솔름 보급품 상자",
 	[181098] = "화산재",
 	[181366] = "4인 기사단 궤짝",
 	[181598] = "실리시스트 모래기둥",
@@ -10028,11 +10018,8 @@ localize(L.HEADER_NAMES, {
 	[-1000378] = "Corredores de Almas",
 	[-1000380] = "Prima",
 	[-1000970] = "Nivel 3",
-	[-1000996] = "Acantilados Tormentosos",
-	[-1000998] = "Escara Impía",
 	[-1001035] = "Pescado de temporada: lubina de verano",
 	[-1001036] = "Pescado de temporada: calamares de invierno",
-	[-1001042] = "La Vega de Cristal",
 	[-1001058] = "Arboleda de la Pesadilla",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -10701,6 +10688,7 @@ localize(ObjectNames, {
 	[181053] = "Cesta de algas de sangre",
 	[181073] = "Caldera apetitosa",
 	[181074] = "Botín de la arena",
+	[181085] = "Cajón de suministros de Stratholme",
 	[181098] = "Ceniza volcánica",
 	[181366] = "Cofre de los Cuatro Jinetes",
 	[181597] = "Túmulo de silitista",
@@ -11216,19 +11204,16 @@ localize(L.HEADER_NAMES, {
 	[-1000276] = "等级 2",
 	[-1000277] = "怪物狩猎",
 	[-1000278] = "铭刻",
-	[-1000279] = "伏击补给品",
+	[-1000279] = "遭劫货物",
 	[-1000373] = "新角色",
 	[-1000376] = "魁梧斗殴",
 	[-1000377] = "野生多晶型物",
-	[-1000378] = "灵魂经纪人",
+	[-1000378] = "灵魂掮客",
 	[-1000380] = "赏金任务",
 	[-1000969] = "梦魇入侵",
 	[-1000970] = "等级 3",
-	[-1000996] = "风暴悬崖",
-	[-1000998] = "腐烂之痕",
 	[-1001035] = "时令鱼类：夏季鲈鱼",
 	[-1001036] = "时令鱼类：冬鱿鱼",
-	[-1001042] = "水晶谷",
 	[-1001058] = "梦魇林地",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -11240,7 +11225,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000163] = "此列表中的物品是独特外观。你必须专门收藏这个物品以获得外观。",
 	[-1000273] = "本赛季带来了 25 级的初始等级上限和新的 25 级终局游戏，包括 10 名玩家的 Blackfathom Deeps 突袭，其中包含新的机制、新的和重新设计的 Boss 来挑战玩家的战术和策略，以及新鲜的奖励。",
 	[-1000278] = "铭刻是最近在发现季节宣布的一个新系统。它允许每个班级通过解锁新的独特能力来定制他们的游戏体验！",
-	[-1000279] = "伏击补给品任务物品从艾泽拉斯 6 级及以上的小怪中掉落。这些任务要求将路障补给品交付给组织代表，以换取一些银币、经验和声望。当然，补给中也有缺少的物品，你可以补充以获得更大的声望奖励。",
+	[-1000279] = "'遭劫货物'任务物品从艾泽拉斯 6 级及以上的小怪中掉落。这些任务要求将'遭劫货物'交付给组织代表，以换取一些银币、经验和声望。当然，货物中也有缺少的物品，你可以补充以获得更大的声望奖励。",
 	[-1000376] = "无论谁先击中目标，只有最终击中醉汉的人才会获得荣誉。对此没有团体信用。",
 	[-1000377] = "对受到野生变形术影响的小动物施放变形术，将它们变回学徒。每个人都会给你一张纸条。收集 6 个笔记来学习符文。",
 	[-1000380] = "此列表包含 ATT Discord 报告的无法获取的物品，这些物品是暴雪尚未修复的错误。\n\n注意：在此列表中忽略所有过滤器以获得可见性。此列表中仅显示因疏忽而从游戏中移除的物品。\n\n致暴雪开发者：请修复下面列出的物品和事件。",
@@ -11819,6 +11804,7 @@ localize(ObjectNames, {
 	[181053] = "一篮血藻",
 	[181073] = "薰炉",
 	[181074] = "竞技场的泥土",
+	[181085] = "斯坦索姆物资箱",
 	[181098] = "火山灰",
 	[181597] = "水晶尘土堆",
 	[181598] = "水晶尘喷孔",
@@ -12213,6 +12199,7 @@ do achievementCategories[key].name = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
 localize(_.CategoryNames, {
 	[106] = "卡片",
+	[227] = "武器",
 	[233] = "背包",
 	[250] = "背包",
 });
@@ -12232,6 +12219,7 @@ localize(L.HEADER_NAMES, {
 	[-1000162] = "共享外觀",
 	[-1000163] = "獨特外觀",
 	[-1000165] = "T0.5套裝",
+	[-1000168] = "四騎士",
 	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
 	[-1000201] = "暗月馬戲團",
 	[-1000215] = "冬幕節",
@@ -12240,14 +12228,17 @@ localize(L.HEADER_NAMES, {
 	[-1000227] = "荊棘谷釣魚大賽",
 	[-1000234] = "安其拉之戰捐獻",
 	[-1000236] = "流沙節杖",
-	[-1000237] = "天譴入侵",
+	[-1000237] = "天譴軍團入侵",
 	[-1000243] = "暴雪嘉年華",
 	[-1000273] = "探索賽季",
 	[-1000275] = "等級 1",
 	[-1000276] = "等級 2",
+	[-1000277] = "怪物狩獵",
 	[-1000278] = "紋刻",
+	[-1000279] = "遭攔截的物資",
 	[-1000280] = "製作",
 	[-1000281] = "採集",
+	[-1000378] = "靈魂仲介者",
 	[-1000969] = "夢魘入侵",
 	[-1000970] = "等級 3",
 	[-1001035] = "季節性魚類：夏日鱸魚",
@@ -12263,6 +12254,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000175] = "副本的這部分可以從最西邊的傳送門進入。（左側）",
 	[-1000273] = "這個賽季起初將會有 25 級的上限，還會帶來全新的 25 級終局內容，包括帶有全新機制的 10 人玩家黑澗深淵副本、全新設計的首領來挑戰玩家的戰術實力，同時還會給予新獎勵。",
 	[-1000278] = "紋刻是最近在探索賽季實現的一個新系統，它允許每個職業通過解鎖新的獨特能力來自訂他們的遊戲體驗！",
+	[-1000279] = "'遭攔截的物資'任務物品會從艾澤拉斯各地6級及以上的怪物掉落。這些任務要求將'遭攔截的物資'交付給某個組織的代表，以換取少量銀幣、經驗值和聲望。當然，物資運送中有一些物品遺失，你可以補充這些物品以獲得更多的聲望獎勵。",
 });
 localize(L.HEADER_LORE, {
 	[-1000048] = "這些龍中的一隻會在艾澤拉斯的相關座標隨機生成。",

@@ -195,6 +195,7 @@ _.HeaderConstants = {
 	TREASURES = -1000038,
 	UI_BOUNTY_WINDOW = -1000380,
 	UNIQUE_APPEARANCE = -1000163,
+	UPGRADE = -1001070,
 	VENDORS = -1000039,
 	WEAPONS = -1000073,
 	WORLD_BOSSES = -1000042,
@@ -307,6 +308,7 @@ localize(L.HEADER_NAMES, {
 	[-1000904] = "Source IDs",
 	[-1001035] = "Seasonal Fish: Summer Bass",
 	[-1001036] = "Seasonal Fish: Winter Squid",
+	[-1001070] = UPGRADE,
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000015] = "Warlocks can teach their demons new tricks. Some of the higher level grimoires can only be purchased from the Demon Trainer in your faction's capital cities.",
@@ -444,6 +446,7 @@ localize(L.HEADER_ICONS, {
 	[-1000904] = 134400,
 	[-1001035] = 133889,
 	[-1001036] = 133899,
+	[-1001070] = _.asset("interface_upgrade"),
 });
 localize(L.HEADER_EVENTS, {
 	[-1000200] = 201,
@@ -468,7 +471,7 @@ localize(L.EVENT_REMAPPING, {
 
 -- Programmatic Event Scheduling
 _.Modules.Events.SetEventInformation(446916, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=19,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=30,["weekday"]=3,["year"]=2024})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=30,["weekday"]=4,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(181, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=17,["weekday"]=4,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=18,["weekday"]=5,["year"]=2024}),
@@ -1435,6 +1438,7 @@ local ObjectNames = {
 	[181073] = "Fragrant Cauldron",
 	[181074] = "Arena Spoils",
 	[181083] = "Sothos and Jarien's Heirlooms",
+	[181085] = "Stratholme Supply Crate",
 	[181098] = "Volcanic Ash",
 	[181366] = "Four Horsemen Chest",
 	[181597] = "Silithyst Mound",
@@ -2416,6 +2420,7 @@ local ObjectModels = {
 	[181073] = 198100,
 	[181074] = 196976,
 	[181083] = 196976,
+	[181085] = 199636,
 	[181098] = 204112,
 	[181366] = 200953,
 	[181597] = 200156,
@@ -4169,6 +4174,7 @@ localize(ObjectNames, {
 	[181073] = "Duftender Kessel",
 	[181074] = "Arenabeute",
 	[181083] = "Sothos' und Jariens Erbstücke",
+	[181085] = "Vorratskiste von Stratholme",
 	[181098] = "Vulkanasche",
 	[181366] = "Truhe der Vier Reiter",
 	[181597] = "Silithysthaufen",
@@ -5183,6 +5189,7 @@ localize(ObjectNames, {
 	[181073] = "Chaudron parfumé",
 	[181074] = "Butin de l'arène",
 	[181083] = "Possessions de Sothos et Jarien",
+	[181085] = "Caisse de fournitures de Stratholme",
 	[181098] = "Cendre volcanique",
 	[181366] = "Coffre des quatre cavaliers",
 	[181597] = "Monticule de silithyste",
@@ -5847,6 +5854,7 @@ localize(ObjectNames, {
 	[180901] = "Rottami dei Velerosse",
 	[181053] = "Cesto di Algasangue",
 	[181073] = "Calderone Profumato",
+	[181085] = "Cassa di Rifornimenti di Stratholme",
 	[181366] = "Cassa dei Cavalieri dell'Apocalisse",
 	[181597] = "Mucchio di Silitisti",
 	[181598] = "Geyser Silitista",
@@ -6503,6 +6511,7 @@ localize(ObjectNames, {
 	[180901] = "Destroços dos Vela Sangrenta",
 	[181053] = "Cesta de Algassangue",
 	[181073] = "Caldeirão Cheiroso",
+	[181085] = "Caixote de Suprimentos de Stratholme",
 	[181098] = "Cinza Vulcânica",
 	[181366] = "Baú dos Quatro Cavaleiros",
 	[181597] = "Monte de Terra Silitista",
@@ -7530,6 +7539,7 @@ localize(ObjectNames, {
 	[181073] = "Котел Ароматов",
 	[181074] = "Трофеи арены",
 	[181083] = "Наследие Сотоса и Джариена",
+	[181085] = "Стратхольм - ящик с припасами",
 	[181098] = "Вулканический пепел",
 	[181366] = "Сундук четырех всадников",
 	[181597] = "Курган силитиста",
@@ -8564,6 +8574,7 @@ localize(ObjectNames, {
 	[181053] = "붉은물풀 광주리",
 	[181073] = "맛있는 향기의 가마솥",
 	[181074] = "투기장 전리품",
+	[181085] = "스트라솔름 보급품 상자",
 	[181098] = "화산재",
 	[181366] = "4인 기사단 궤짝",
 	[181598] = "실리시스트 모래기둥",
@@ -9561,6 +9572,7 @@ localize(ObjectNames, {
 	[181053] = "Cesta de algas de sangre",
 	[181073] = "Caldera apetitosa",
 	[181074] = "Botín de la arena",
+	[181085] = "Cajón de suministros de Stratholme",
 	[181098] = "Ceniza volcánica",
 	[181366] = "Cofre de los Cuatro Jinetes",
 	[181597] = "Túmulo de silitista",
@@ -10549,6 +10561,7 @@ localize(ObjectNames, {
 	[181053] = "一篮血藻",
 	[181073] = "薰炉",
 	[181074] = "竞技场的泥土",
+	[181085] = "斯坦索姆物资箱",
 	[181098] = "火山灰",
 	[181597] = "水晶尘土堆",
 	[181598] = "水晶尘喷孔",
@@ -10882,6 +10895,7 @@ do achievementCategories[key].name = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
 localize(_.CategoryNames, {
 	[106] = "卡片",
+	[227] = "武器",
 	[233] = "背包",
 	[250] = "背包",
 });
@@ -10901,6 +10915,7 @@ localize(L.HEADER_NAMES, {
 	[-1000162] = "共享外觀",
 	[-1000163] = "獨特外觀",
 	[-1000165] = "T0.5套裝",
+	[-1000168] = "四騎士",
 	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
 	[-1000201] = "暗月馬戲團",
 	[-1000215] = "冬幕節",
@@ -10909,7 +10924,7 @@ localize(L.HEADER_NAMES, {
 	[-1000227] = "荊棘谷釣魚大賽",
 	[-1000234] = "安其拉之戰捐獻",
 	[-1000236] = "流沙節杖",
-	[-1000237] = "天譴入侵",
+	[-1000237] = "天譴軍團入侵",
 	[-1000243] = "暴雪嘉年華",
 	[-1001035] = "季節性魚類：夏日鱸魚",
 	[-1001036] = "季節性魚類：冬魷魚",
