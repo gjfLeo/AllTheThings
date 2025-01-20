@@ -475,9 +475,13 @@ app.IsQuestAvailable = function(t)
 	questID
 	and
 	(
-		-- Repeatable quests cannot ever 'really' be completed, though sometimes their saved state persists
+		-- Non-Locked Repeatable quests cannot ever 'really' be completed, though sometimes their saved state persists
 		-- until manually started via an Item
-		rawget(t, "repeatable")
+		(
+			rawget(t, "repeatable")
+			and
+			not t.locked
+		)
 		or
 		(
 			-- not already completed by current character
