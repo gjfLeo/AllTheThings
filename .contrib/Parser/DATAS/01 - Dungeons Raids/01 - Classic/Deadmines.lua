@@ -442,9 +442,9 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				-- #if BEFORE 4.0.3
 				["cr"] = 3947,	-- Goblin Shipbuilder
 				-- #elseif AFTER 10.1.7
-				["description"] = "The item drops from Goblins between 1st and 2nd boss.",
+				["description"] = "Drops from Goblin Engineer's around 2nd Boss or Goblin Overseer's around last Boss.",
 				["crs"] = {
-					48279,	-- Goblin Overseer	-- Not 100% sure
+					48279,	-- Goblin Overseer
 					48439,	-- Goblin Engineer
 				},
 				-- #endif
