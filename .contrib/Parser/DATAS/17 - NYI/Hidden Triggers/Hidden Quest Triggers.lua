@@ -1932,6 +1932,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(3911),	-- The Last Element - completed with quest 4641
 		q(9030),	-- Anthion's Parting Words - completed with quest 8951, 8952, 8953, 8954, 8955, 8956, 8957, 8958, 8959, 9016, 9017, 9018, 9019, 9020, 9021, 9022, 10496, 10497
 		q(9031),	-- Anthion's Parting Words - completed with quest 8951, 8952, 8953, 8954, 8955, 8956, 8957, 8958, 8959, 9016, 9017, 9018, 9019, 9020, 9021, 9022, 10496, 10497
+		q(9378),	-- DND FLAG The Dread Citadel - Naxxramas - completed with quest 9121, 9122, 9123
 		q(9749),	-- They're Alive! Maybe... - completed with quest 9670
 		q(9989),	-- Alien Spirits - completed with quest 10917
 		q(10061),	-- The Unyielding - completed with quest 10050
