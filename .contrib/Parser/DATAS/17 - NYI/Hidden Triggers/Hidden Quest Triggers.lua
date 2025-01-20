@@ -1927,10 +1927,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	-- TEMPORARY SOLUTION AS HQT FOR NOW
 	-- SORTED BY ID
 	n(SPECIAL, {
-		q(614),		-- The Captain's Chest [Old] - completed with quest 8551
-		q(615),		-- The Captain's Cutlass [Old] - completed with quest 8553
-		q(618),		-- Facing Negolash [Old] - completed with quest 8554
-		q(620),		-- The Monogrammed Sash [Old] - completed with quest 8552
 		q(909),		-- Baron Aquanis - completed with quest 6922
 		q(3366),	-- The Glowing Shard - completed with quest 6981
 		q(3911),	-- The Last Element - completed with quest 4641

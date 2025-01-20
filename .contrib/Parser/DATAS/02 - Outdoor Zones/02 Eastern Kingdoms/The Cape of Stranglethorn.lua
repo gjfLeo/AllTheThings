@@ -2955,6 +2955,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 
 root(ROOTS.HiddenQuestTriggers, m(EASTERN_KINGDOMS, {
 	m(THE_CAPE_OF_STRANGLETHORN, {
+		q(614),		-- The Captain's Chest [Old] - completed with quest 8551
+		q(615),		-- The Captain's Cutlass [Old] - completed with quest 8553
+		q(618),		-- Facing Negolash [Old] - completed with quest 8554
+		q(620),		-- The Monogrammed Sash [Old] - completed with quest 8552
 		q(7908),	-- triggered when completing 7810 'Arena Master'
 	}),
 }));
