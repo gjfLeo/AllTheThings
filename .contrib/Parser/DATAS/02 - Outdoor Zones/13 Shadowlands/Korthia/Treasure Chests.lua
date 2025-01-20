@@ -365,11 +365,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				},
 			}),
 			n(179772, {	-- Spectral Bound Chest
+				-- Object 369200
 				["description"] = "Requires collecting three |cFFFFFFFFSpectral Keys|r.  Use your preferred method of daily quest tracking to see the locations of the keys.",
 				["isDaily"] = true,
 				["questID"] = 64247,
 				["coord"] = { 62.1, 55.4, KORTHIA },
 				["g"] = {
+					-- Object 369290
 					q(64249, {	-- First Chain
 						["name"] = "First Chain",
 						["coords"] = {
@@ -380,6 +382,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						},
 						["isDaily"] = true,
 					}),
+					-- Object 369291
 					q(64250, {	-- Second Chain
 						["name"] = "Second Chain",
 						["coords"] = {
@@ -390,6 +393,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						},
 						["isDaily"] = true,
 					}),
+					-- Object 369289
 					q(64248, {	-- Third Chain
 						["name"] = "Third Chain",
 						["coords"] = {

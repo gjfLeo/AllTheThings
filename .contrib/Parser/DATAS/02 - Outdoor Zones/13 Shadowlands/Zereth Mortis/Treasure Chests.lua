@@ -398,7 +398,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				},
 			}),
 			o(375950, {	-- Bauble of Pure Innovation
-				["description"] = "Multiple spawn places?",
 				["coord"] = { 34.5, 49.7, ZERETH_MORTIS },
 				["g"] = {
 					i(189171),	-- Bauble of Pure Innovation

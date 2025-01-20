@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			q(56385),	-- Pearlhusk Crawler
 			petbattle(q(56381)),	-- Prince Wiggletail
 			q(57336),	-- Putting the Past to Rest
-			q(56387),	-- Ravenous Scalespawn
+			petbattle(q(56387)),	-- Ravenous Scalespawn
 			q(56003, {	-- Runelocked Chest
 				["sourceQuests"] = { 56248 },	-- Treasure Tale
 			}),

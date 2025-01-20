@@ -501,6 +501,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(181432),	-- Duskwarder Spellthorn
 					i(179547),	-- Duskwarder Warclub
 					i(179508),	-- Duskwarder Warglaive
+					i(184379);	-- Queen's Frozen Tear (ANIMA!)
 				},
 			}),
 			------ Bastion ------

@@ -295,9 +295,6 @@ i(175242);	-- Waterlogged Supplies
 -----------------
 -- PATCH 9.0.2 --
 -----------------
--- Anima Providers (Quest Rewards and sourced by API)
--- i(184379);	-- Queen's Frozen Tear
---
 i(180686);	-- "Borrowed" Soulstone
 i(183936);	-- A Curt Note
 i(183928);	-- A Polite, But Short Thank You Note
