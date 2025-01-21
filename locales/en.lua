@@ -124,8 +124,6 @@ for key, value in pairs({
 		[-1210] = 133168,										-- Invasion: Pirate
 	};
 	["HEADER_NAMES"] = {
-	-- Class Trial
-		[-138] = sformat(SPELLBOOK_AVAILABLE_AT, 100),					-- Level 100
 	-- WoD Dungeons(Fake npcid)
 		[-140] = GetRealZoneText(1182),									-- Auchindoun
 		[-141] = GetRealZoneText(1175),									-- Bloodmaul Slag Mines
