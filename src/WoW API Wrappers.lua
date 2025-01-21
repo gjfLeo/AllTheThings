@@ -33,7 +33,7 @@ app.WOWAPI = lib;
 local function AssignAPIWrapper(name, ...)
     for i = 1, select("#", ...) do
         local api = select(i, ...)  -- Get API Function
-        if type(api) == "function" then
+        if api then
             if rawget(lib, name) then
                 print("Warning: existing ATT.WOWAPI replaced!", name)
             end
