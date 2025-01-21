@@ -1006,22 +1006,22 @@ i(120279);	-- Essence of the Iron Protector [A]
 i(119323);	-- Essence of the Iron Protector [H]
 i(120278);	-- Essence of the Iron Vanquisher [A]
 i(119316);	-- Essence of the Iron Vanquisher [H]
--- Bonus Roll Tokens
-i(119308, { ["modID"] = 3, });	-- Helm of the Iron Conqueror
-i(119321, { ["modID"] = 3, });	-- Helm of the Iron Protector
-i(119312, { ["modID"] = 3, });	-- Helm of the Iron Vanquisher
-i(119309, { ["modID"] = 3, });	-- Shoulders of the Iron Conqueror
-i(119322, { ["modID"] = 3, });	-- Shoulders of the Iron Protector
-i(119314, { ["modID"] = 3, });	-- Shoulders of the Iron Vanquisher
-i(119305, { ["modID"] = 3, });	-- Chest of the Iron Conqueror
-i(119318, { ["modID"] = 3, });	-- Chest of the Iron Protector
-i(119315, { ["modID"] = 3, });	-- Chest of the Iron Vanquisher
-i(119306, { ["modID"] = 3, });	-- Gauntlets of the Iron Conqueror
-i(119319, { ["modID"] = 3, });	-- Gauntlets of the Iron Protector
-i(119311, { ["modID"] = 3, });	-- Gauntlets of the Iron Vanquisher
-i(119307, { ["modID"] = 3, });	-- Leggings of the Iron Conqueror
-i(119320, { ["modID"] = 3, });	-- Leggings of the Iron Protector
-i(119313, { ["modID"] = 3, });	-- Leggings of the Iron Vanquisher
+-- Bonus Roll Tokens (All Diffs)
+i(119308);	-- Helm of the Iron Conqueror
+i(119321);	-- Helm of the Iron Protector
+i(119312);	-- Helm of the Iron Vanquisher
+i(119309);	-- Shoulders of the Iron Conqueror
+i(119322);	-- Shoulders of the Iron Protector
+i(119314);	-- Shoulders of the Iron Vanquisher
+i(119305);	-- Chest of the Iron Conqueror
+i(119318);	-- Chest of the Iron Protector
+i(119315);	-- Chest of the Iron Vanquisher
+i(119306);	-- Gauntlets of the Iron Conqueror
+i(119319);	-- Gauntlets of the Iron Protector
+i(119311);	-- Gauntlets of the Iron Vanquisher
+i(119307);	-- Leggings of the Iron Conqueror
+i(119320);	-- Leggings of the Iron Protector
+i(119313);	-- Leggings of the Iron Vanquisher
 -- Quest Reward Tokens
 i(120215);	-- Helm of the Iron Conqueror
 i(120216);	-- Shoulders of the Iron Conqueror
@@ -1046,22 +1046,6 @@ i(120281);	-- Essence of the Iron Protector [A]
 i(120207);	-- Essence of the Iron Protector [H]
 i(120282);	-- Essence of the Iron Vanquisher [A]
 i(120208);	-- Essence of the Iron Vanquisher [H]
--- Bonus Roll Tokens
-i(119308, { ["modID"] = 5, });	-- Helm of the Iron Conqueror
-i(119321, { ["modID"] = 5, });	-- Helm of the Iron Protector
-i(119312, { ["modID"] = 5, });	-- Helm of the Iron Vanquisher
-i(119309, { ["modID"] = 5, });	-- Shoulders of the Iron Conqueror
-i(119322, { ["modID"] = 5, });	-- Shoulders of the Iron Protector
-i(119314, { ["modID"] = 5, });	-- Shoulders of the Iron Vanquisher
-i(119305, { ["modID"] = 5, });	-- Chest of the Iron Conqueror
-i(119318, { ["modID"] = 5, });	-- Chest of the Iron Protector
-i(119315, { ["modID"] = 5, });	-- Chest of the Iron Vanquisher
-i(119306, { ["modID"] = 5, });	-- Gauntlets of the Iron Conqueror
-i(119319, { ["modID"] = 5, });	-- Gauntlets of the Iron Protector
-i(119311, { ["modID"] = 5, });	-- Gauntlets of the Iron Vanquisher
-i(119307, { ["modID"] = 5, });	-- Leggings of the Iron Conqueror
-i(119320, { ["modID"] = 5, });	-- Leggings of the Iron Protector
-i(119313, { ["modID"] = 5, });	-- Leggings of the Iron Vanquisher
 -- Quest Reward Tokens
 i(120230);	-- Helm of the Iron Conqueror
 i(120231);	-- Shoulders of the Iron Conqueror
@@ -1086,25 +1070,6 @@ i(120284);	-- Essence of the Iron Protector [A]
 i(120210);	-- Essence of the Iron Protector [H]
 i(120285);	-- Essence of the Iron Vanquisher [A]
 i(120211);	-- Essence of the Iron Vanquisher [H]
--- Bonus Roll Tokens
-i(119310, { ["modID"] = 6, });	-- Essence of the Iron Conqueror
-i(119323, { ["modID"] = 6, });	-- Essence of the Iron Protector
-i(119316, { ["modID"] = 6, });	-- Essence of the Iron Vanquisher
-i(119308, { ["modID"] = 6, });	-- Helm of the Iron Conqueror
-i(119321, { ["modID"] = 6, });	-- Helm of the Iron Protector
-i(119312, { ["modID"] = 6, });	-- Helm of the Iron Vanquisher
-i(119309, { ["modID"] = 6, });	-- Shoulders of the Iron Conqueror
-i(119322, { ["modID"] = 6, });	-- Shoulders of the Iron Protector
-i(119314, { ["modID"] = 6, });	-- Shoulders of the Iron Vanquisher
-i(119305, { ["modID"] = 6, });	-- Chest of the Iron Conqueror
-i(119318, { ["modID"] = 6, });	-- Chest of the Iron Protector
-i(119315, { ["modID"] = 6, });	-- Chest of the Iron Vanquisher
-i(119306, { ["modID"] = 6, });	-- Gauntlets of the Iron Conqueror
-i(119319, { ["modID"] = 6, });	-- Gauntlets of the Iron Protector
-i(119311, { ["modID"] = 6, });	-- Gauntlets of the Iron Vanquisher
-i(119307, { ["modID"] = 6, });	-- Leggings of the Iron Conqueror
-i(119320, { ["modID"] = 6, });	-- Leggings of the Iron Protector
-i(119313, { ["modID"] = 6, });	-- Leggings of the Iron Vanquisher
 -- Quest Reward Tokens
 i(120245);	-- Helm of the Iron Conqueror
 i(120246);	-- Shoulders of the Iron Conqueror
@@ -1122,148 +1087,39 @@ i(120251);	-- Chest of the Iron Vanquisher
 i(120247);	-- Gauntlets of the Iron Vanquisher
 i(120249);	-- Leggings of the Iron Vanquisher
 
--- Castle Nathria LFR Weapon Tokens
-i(183893, { ["modID"] = 4, });	-- Abominable Anima Spherule
-i(183896, { ["modID"] = 4, });	-- Abominable Anima Spherule
-i(183888, { ["modID"] = 4, });	-- Apogee Anima Bead
-i(183895, { ["modID"] = 4, });	-- Apogee Anima Bead
-i(183897, { ["modID"] = 4, });	-- Mystic Anima Spherule
-i(183892, { ["modID"] = 4, });	-- Mystic Anima Spherule
-i(183894, { ["modID"] = 4, });	-- Thaumaturgic Anima Bead
-i(183889, { ["modID"] = 4, });	-- Thaumaturgic Anima Bead
-i(183891, { ["modID"] = 4, });	-- Venerated Anima Spherule
-i(183898, { ["modID"] = 4, });	-- Venerated Anima Spherule
-i(183899, { ["modID"] = 4, });	-- Zenith Anima Spherule
-i(183890, { ["modID"] = 4, });	-- Zenith Anima Spherule
+-- Castle Nathria Weapon Tokens
+i(183893);	-- Abominable Anima Spherule
+i(183896);	-- Abominable Anima Spherule
+i(183888);	-- Apogee Anima Bead
+i(183895);	-- Apogee Anima Bead
+i(183897);	-- Mystic Anima Spherule
+i(183892);	-- Mystic Anima Spherule
+i(183894);	-- Thaumaturgic Anima Bead
+i(183889);	-- Thaumaturgic Anima Bead
+i(183891);	-- Venerated Anima Spherule
+i(183898);	-- Venerated Anima Spherule
+i(183899);	-- Zenith Anima Spherule
+i(183890);	-- Zenith Anima Spherule
 
--- Castle Nathria N Weapon Tokens
-i(183893, { ["modID"] = 3, });	-- Abominable Anima Spherule
-i(183896, { ["modID"] = 3, });	-- Abominable Anima Spherule
-i(183888, { ["modID"] = 3, });	-- Apogee Anima Bead
-i(183895, { ["modID"] = 3, });	-- Apogee Anima Bead
-i(183897, { ["modID"] = 3, });	-- Mystic Anima Spherule
-i(183892, { ["modID"] = 3, });	-- Mystic Anima Spherule
-i(183894, { ["modID"] = 3, });	-- Thaumaturgic Anima Bead
-i(183889, { ["modID"] = 3, });	-- Thaumaturgic Anima Bead
-i(183891, { ["modID"] = 3, });	-- Venerated Anima Spherule
-i(183898, { ["modID"] = 3, });	-- Venerated Anima Spherule
-i(183899, { ["modID"] = 3, });	-- Zenith Anima Spherule
-i(183890, { ["modID"] = 3, });	-- Zenith Anima Spherule
-
--- Castle Nathria H Weapon Tokens
-i(183893, { ["modID"] = 5, });	-- Abominable Anima Spherule
-i(183896, { ["modID"] = 5, });	-- Abominable Anima Spherule
-i(183888, { ["modID"] = 5, });	-- Apogee Anima Bead
-i(183895, { ["modID"] = 5, });	-- Apogee Anima Bead
-i(183897, { ["modID"] = 5, });	-- Mystic Anima Spherule
-i(183892, { ["modID"] = 5, });	-- Mystic Anima Spherule
-i(183894, { ["modID"] = 5, });	-- Thaumaturgic Anima Bead
-i(183889, { ["modID"] = 5, });	-- Thaumaturgic Anima Bead
-i(183891, { ["modID"] = 5, });	-- Venerated Anima Spherule
-i(183898, { ["modID"] = 5, });	-- Venerated Anima Spherule
-i(183899, { ["modID"] = 5, });	-- Zenith Anima Spherule
-i(183890, { ["modID"] = 5, });	-- Zenith Anima Spherule
-
--- Castle Nathria M Weapon Tokens
-i(183893, { ["modID"] = 6, });	-- Abominable Anima Spherule
-i(183896, { ["modID"] = 6, });	-- Abominable Anima Spherule
-i(183888, { ["modID"] = 6, });	-- Apogee Anima Bead
-i(183895, { ["modID"] = 6, });	-- Apogee Anima Bead
-i(183897, { ["modID"] = 6, });	-- Mystic Anima Spherule
-i(183892, { ["modID"] = 6, });	-- Mystic Anima Spherule
-i(183894, { ["modID"] = 6, });	-- Thaumaturgic Anima Bead
-i(183889, { ["modID"] = 6, });	-- Thaumaturgic Anima Bead
-i(183891, { ["modID"] = 6, });	-- Venerated Anima Spherule
-i(183898, { ["modID"] = 6, });	-- Venerated Anima Spherule
-i(183899, { ["modID"] = 6, });	-- Zenith Anima Spherule
-i(183890, { ["modID"] = 6, });	-- Zenith Anima Spherule
-
--- Tier 22 LFR [SotFO]
-i(191005, { ["modID"] = 4, });	-- Dreadful Helm Module
-i(191002, { ["modID"] = 4, });	-- Mystic Helm Module
-i(191003, { ["modID"] = 4, });	-- Venerated Helm Module
-i(191004, { ["modID"] = 4, });	-- Zenith Helm Module
-i(191006, { ["modID"] = 4, });	-- Dreadful Shoulder Module
-i(191007, { ["modID"] = 4, });	-- Mystic Shoulder Module
-i(191008, { ["modID"] = 4, });	-- Venerated Shoulder Module
-i(191009, { ["modID"] = 4, });	-- Zenith Shoulder Module
-i(191010, { ["modID"] = 4, });	-- Dreadful Chest Module
-i(191011, { ["modID"] = 4, });	-- Mystic Chest Module
-i(191012, { ["modID"] = 4, });	-- Venerated Chest Module
-i(191013, { ["modID"] = 4, });	-- Zenith Chest Modulefs
-i(191014, { ["modID"] = 4, });	-- Dreadful Hand Module
-i(191015, { ["modID"] = 4, });	-- Mystic Hand Module
-i(191016, { ["modID"] = 4, });	-- Venerated Hand Module
-i(191017, { ["modID"] = 4, });	-- Zenith Hand Module
-i(191018, { ["modID"] = 4, });	-- Dreadful Leg Module
-i(191019, { ["modID"] = 4, });	-- Mystic Leg Module
-i(191020, { ["modID"] = 4, });	-- Venerated Leg Module
-i(191021, { ["modID"] = 4, });	-- Zenith Leg Module
-
-
--- Tier 22 N [SotFO]
-i(191005, { ["modID"] = 3, });	-- Dreadful Helm Module
-i(191002, { ["modID"] = 3, });	-- Mystic Helm Module
-i(191003, { ["modID"] = 3, });	-- Venerated Helm Module
-i(191004, { ["modID"] = 3, });	-- Zenith Helm Module
-i(191006, { ["modID"] = 3, });	-- Dreadful Shoulder Module
-i(191007, { ["modID"] = 3, });	-- Mystic Shoulder Module
-i(191008, { ["modID"] = 3, });	-- Venerated Shoulder Module
-i(191009, { ["modID"] = 3, });	-- Zenith Shoulder Module
-i(191010, { ["modID"] = 3, });	-- Dreadful Chest Module
-i(191011, { ["modID"] = 3, });	-- Mystic Chest Module
-i(191012, { ["modID"] = 3, });	-- Venerated Chest Module
-i(191013, { ["modID"] = 3, });	-- Zenith Chest Module
-i(191014, { ["modID"] = 3, });	-- Dreadful Hand Module
-i(191015, { ["modID"] = 3, });	-- Mystic Hand Module
-i(191016, { ["modID"] = 3, });	-- Venerated Hand Module
-i(191017, { ["modID"] = 3, });	-- Zenith Hand Module
-i(191018, { ["modID"] = 3, });	-- Dreadful Leg Module
-i(191019, { ["modID"] = 3, });	-- Mystic Leg Module
-i(191020, { ["modID"] = 3, });	-- Venerated Leg Module
-i(191021, { ["modID"] = 3, });	-- Zenith Leg Module
-
--- Tier 22 H [SotFO]
-i(191005, { ["modID"] = 5, });	-- Dreadful Helm Module
-i(191002, { ["modID"] = 5, });	-- Mystic Helm Module
-i(191003, { ["modID"] = 5, });	-- Venerated Helm Module
-i(191004, { ["modID"] = 5, });	-- Zenith Helm Module
-i(191006, { ["modID"] = 5, });	-- Dreadful Shoulder Module
-i(191007, { ["modID"] = 5, });	-- Mystic Shoulder Module
-i(191008, { ["modID"] = 5, });	-- Venerated Shoulder Module
-i(191009, { ["modID"] = 5, });	-- Zenith Shoulder Module
-i(191010, { ["modID"] = 5, });	-- Dreadful Chest Module
-i(191011, { ["modID"] = 5, });	-- Mystic Chest Module
-i(191012, { ["modID"] = 5, });	-- Venerated Chest Module
-i(191013, { ["modID"] = 5, });	-- Zenith Chest Module
-i(191014, { ["modID"] = 5, });	-- Dreadful Hand Module
-i(191015, { ["modID"] = 5, });	-- Mystic Hand Module
-i(191016, { ["modID"] = 5, });	-- Venerated Hand Module
-i(191017, { ["modID"] = 5, });	-- Zenith Hand Module
-i(191018, { ["modID"] = 5, });	-- Dreadful Leg Module
-i(191019, { ["modID"] = 5, });	-- Mystic Leg Module
-i(191020, { ["modID"] = 5, });	-- Venerated Leg Module
-i(191021, { ["modID"] = 5, });	-- Zenith Leg Module
-
--- Tier 22 M [SotFO]
-i(191005, { ["modID"] = 6, });	-- Dreadful Helm Module
-i(191002, { ["modID"] = 6, });	-- Mystic Helm Module
-i(191003, { ["modID"] = 6, });	-- Venerated Helm Module
-i(191004, { ["modID"] = 6, });	-- Zenith Helm Module
-i(191006, { ["modID"] = 6, });	-- Dreadful Shoulder Module
-i(191007, { ["modID"] = 6, });	-- Mystic Shoulder Module
-i(191008, { ["modID"] = 6, });	-- Venerated Shoulder Module
-i(191009, { ["modID"] = 6, });	-- Zenith Shoulder Module
-i(191010, { ["modID"] = 6, });	-- Dreadful Chest Module
-i(191011, { ["modID"] = 6, });	-- Mystic Chest Module
-i(191012, { ["modID"] = 6, });	-- Venerated Chest Module
-i(191013, { ["modID"] = 6, });	-- Zenith Chest Module
-i(191014, { ["modID"] = 6, });	-- Dreadful Hand Module
-i(191015, { ["modID"] = 6, });	-- Mystic Hand Module
-i(191016, { ["modID"] = 6, });	-- Venerated Hand Module
-i(191017, { ["modID"] = 6, });	-- Zenith Hand Module
-i(191018, { ["modID"] = 6, });	-- Dreadful Leg Module
-i(191019, { ["modID"] = 6, });	-- Mystic Leg Module
-i(191020, { ["modID"] = 6, });	-- Venerated Leg Module
-i(191021, { ["modID"] = 6, });	-- Zenith Leg Module
+-- Tier 22 [SotFO]
+i(191005);	-- Dreadful Helm Module
+i(191002);	-- Mystic Helm Module
+i(191003);	-- Venerated Helm Module
+i(191004);	-- Zenith Helm Module
+i(191006);	-- Dreadful Shoulder Module
+i(191007);	-- Mystic Shoulder Module
+i(191008);	-- Venerated Shoulder Module
+i(191009);	-- Zenith Shoulder Module
+i(191010);	-- Dreadful Chest Module
+i(191011);	-- Mystic Chest Module
+i(191012);	-- Venerated Chest Module
+i(191013);	-- Zenith Chest Modulefs
+i(191014);	-- Dreadful Hand Module
+i(191015);	-- Mystic Hand Module
+i(191016);	-- Venerated Hand Module
+i(191017);	-- Zenith Hand Module
+i(191018);	-- Dreadful Leg Module
+i(191019);	-- Mystic Leg Module
+i(191020);	-- Venerated Leg Module
+i(191021);	-- Zenith Leg Module
 -- #endif

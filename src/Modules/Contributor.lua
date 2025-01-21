@@ -263,6 +263,7 @@ MobileDB.GameObject = {
 	[178144] = true,	-- Troll Chest (q:13874 [A], q:6462 [H])
 	[179828] = true,	-- Dark Iron Pillow (q:28057)
 	[179832] = true,	-- Pillamaster's Ornate Pillow (starts q:28058)
+	[182053] = true,	-- Glowcap
 	[195012] = true,	-- Sunken Scrap Metal (q:13883)
 	[195077] = true,	-- Moon-kissed Clay (q:13942)
 	[195135] = true,	-- Locking Bolt (q:13983)
