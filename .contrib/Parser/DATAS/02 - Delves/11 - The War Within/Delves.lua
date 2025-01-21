@@ -2195,6 +2195,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
+						i(212162),	-- Bitter Shroom Cap
 						i(212173),	-- Rulk'Nerub Raptorial Spine
 					}),
 				}),

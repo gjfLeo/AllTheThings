@@ -1515,6 +1515,7 @@ ExportDB.AccountWideQuestsDB = {
 	[81896] = true,	-- New and Improved
 	[81993] = true,
 	[81994] = true,
+	[82045] = true,	-- Titan Console
 	[82296] = true,	-- The Power of Creation
 	[82335] = true,	-- Crystals
 	[82342] = true,	-- A Small Bundle of Goods

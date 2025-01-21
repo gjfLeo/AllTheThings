@@ -49,7 +49,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(82658, {	-- Drop and Go
 					--["coord"] = { 45.2, 65.0, ISLE_OF_DORN },	-- could be wrong, all Isle of Dorn missing quest zone highlights
 					["g"] = {
-						i(224074),	-- Opal-Mining Tools (QI!)
+						o(449528, {	-- Opal-Mining Tools
+							i(224074),	-- Opal-Mining Tools (QI!)
+						})
 					}
 				}),
 				q(80395, {	-- Elemental Excavation
