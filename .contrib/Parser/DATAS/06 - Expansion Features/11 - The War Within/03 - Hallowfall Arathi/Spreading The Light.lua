@@ -1249,7 +1249,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(85552),	-- triggered on opening a Lamplighter Supply Satchel, first & second in week - x3 reports
 			-- q(79177),	-- After looting Blueprint Bundle (211968) (automated)
 			-- q(79179),	-- After looting Spider Touched Bag (211973) (automated)
-			q(79188),	-- after turning in 79173 Supply the Effort"
+			q(79188),	-- after turning in 79173 Supply the Effort
 			-- Vendor
 			q(83341),	-- after turn in 78933 (The Sweet Eclipse), unlock ability to buy Sweet Eclipse from vendor
 			q(83342),	-- after turn in 76394 (Shadows of Flavor), unlock ability to buy Twilight-Spiced Grouper from vendor

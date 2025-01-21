@@ -536,15 +536,12 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 				------ Patched Harvest Golem Set ------
 				i(226471),	-- Ensemble: Patched Harvest Golem
-
 			}),
 			n(WEAPONS, {
 				i(225495),	-- Brilliant Beacon
 				i(226425),	-- Harvester's Claw
 				i(226426),	-- Harvester's Claw
 				i(217706),	-- Learn Warglaives Test Item (DNT)
-				i(227294),	-- Ravencrest's Wrath
-				i(227287),	-- Skovald's Resolve
 				i(225496),	-- Unhinged Vault-Hatch
 			}),
 		})),
@@ -552,10 +549,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		expansion(EXPANSION.TWW, patch(0,07), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
 			n(ARMOR, {
 				i(234758),	-- Korkron Spaulders
-				i(234957),	-- Monstrous Gluttony
-			}),
-			n(WEAPONS, {
-				i(234955),	-- Hate-Sculpted Magma
 			}),
 		})),
 	}),

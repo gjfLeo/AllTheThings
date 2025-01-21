@@ -1589,9 +1589,6 @@ root(ROOTS.Unsorted, {
 				i(232654),	-- Compiled Tattered Journal
 				i(231760),	-- Notes on Ancient Treasure
 			}),
-			filter(TOYS, {
-				i(235041),	-- Cyrce's Circlet (TOY!) [Reward Week 6?]
-			}),
 			n(WEAPONS, {
 				-- Huuuhhh Weird
 				i(232946),	-- Verus

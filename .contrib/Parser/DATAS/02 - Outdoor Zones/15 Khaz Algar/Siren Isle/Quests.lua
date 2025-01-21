@@ -268,6 +268,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 71.2, 45.8, SIREN_ISLE },
 				["g"] = {
 					--spell(470170),	-- Wings of the Siren
+					i(235041),	-- Cyrce's Circlet (TOY!)
 				},
 			}),
 			--
