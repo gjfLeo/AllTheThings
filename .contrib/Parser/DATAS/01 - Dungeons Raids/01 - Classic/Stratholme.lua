@@ -1433,8 +1433,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				-- #if AFTER 4.0.3
 				["mapID"] = 318, -- Service Entrance
 				["sym"] = {
-					{"select","instanceID",236},{"pop"},	-- Select the overall Stratholme instance
-					{"contains","headerID",ACHIEVEMENTS,QUESTS,ZONE_DROPS},	-- Select the common Achievements/Quests/Zone Drops
+					{ "select", "instanceID", 236 }, { "pop" },						-- Select the overall Stratholme instance
+					{ "contains", "headerID", ACHIEVEMENTS, QUESTS, ZONE_DROPS },	-- Select the common Achievements/Quests/Zone Drops
 				},
 				-- #endif
 				["coords"] = {
