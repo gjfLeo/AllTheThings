@@ -137,9 +137,6 @@ for key, value in pairs({
 		[-153] = CAPACITANCE_WORK_ORDERS,										-- Work Orders
 	-- Class Trial
 		[-154] = sformat(SPELLBOOK_AVAILABLE_AT, 48),						-- Level 48
-		[-156] = sformat(SPELLBOOK_AVAILABLE_AT, 60).." Character Boost",	-- Level 60 Character Boost
-	-- Class Trial
-		[-160] = sformat(SPELLBOOK_AVAILABLE_AT, 60).." Class Trial",	-- Level 60 Class Trial
 	-- PvP
 		[-216] = PVP_PRESTIGE_RANK_UP_TITLE,									-- Prestige
 	-- War Campaign
