@@ -417,7 +417,6 @@ root(ROOTS.Unsorted, {
 
 				i(235854),	-- Gold-Inlaid Jetpack
 				i(236161),	-- Broiler Supreme 300
-				i(236180),	-- Swabbie's Shovel
 			}),
 			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
 				-- D.R.I.V.E.
@@ -1342,7 +1341,6 @@ root(ROOTS.Unsorted, {
 				i(234982),	-- Spare Sailor's Short-Sleeved Tunic
 
 				-- Plunderstorm?
-				i(232597),	-- Swabbie's Oar
 				i(232924),	-- Sailor's Belt
 				i(234074),	-- Gold-Plated Cushioned Boots
 
