@@ -620,6 +620,13 @@ hooksecurefunc("SetItemRef", function(link, text)
 			app.SetSkipLevel(2);
 			local group = app.GetCachedSearchResults(app.SearchForLink, cmd);
 			app.SetSkipLevel(0);
+
+			if IsShiftKeyDown() then
+				-- If this reference has a link, then attempt to preview the appearance or write to the chat window.
+				local link = group.link or group.silentLink;
+				if (link and HandleModifiedItemClick(link)) or ChatEdit_InsertLink(link) then return true; end
+			end
+
 			app:CreateMiniListForGroup(group);
 			return true;
 		elseif data1 == "dialog" then
