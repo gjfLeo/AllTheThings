@@ -778,14 +778,20 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				["timeline"] = { CREATED_3_1_0 },
 				-- #else
 				["timeline"] = { ADDED_3_1_0 },
-				-- #endif
 				["groups"] = {
 					i(45850),	-- Rituals of the New Moon (red wolf)
 					i(45851),	-- Rituals of the New Moon (white wolf)
 					i(45852),	-- Rituals of the New Moon (grey wolf)
 					i(45853),	-- Rituals of the New Moon (black wolf)
 				},
+				-- #endif
 			}),
+			-- #if BEFORE 10.1.7
+			i(45850),	-- Rituals of the New Moon (red wolf)
+			i(45851),	-- Rituals of the New Moon (white wolf)
+			i(45852),	-- Rituals of the New Moon (grey wolf)
+			i(45853),	-- Rituals of the New Moon (black wolf)
+			-- #endif
 			i(45849),	-- Twilight Tome
 		}),
 	}),
