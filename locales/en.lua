@@ -125,7 +125,6 @@ for key, value in pairs({
 	};
 	["HEADER_NAMES"] = {
 	-- Class Trial
-		[-137] = sformat(SPELLBOOK_AVAILABLE_AT, 90),						-- Level 90
 		[-138] = sformat(SPELLBOOK_AVAILABLE_AT, 100),					-- Level 100
 	-- WoD Dungeons(Fake npcid)
 		[-140] = GetRealZoneText(1182),									-- Auchindoun
