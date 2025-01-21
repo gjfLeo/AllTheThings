@@ -134,11 +134,9 @@ for key, value in pairs({
 		[-146] = GetRealZoneText(1279),									-- The Everbloom
 		[-147] = GetRealZoneText(1358),									-- Upper Blackrock Spire
 	-- Class Trial
-		[-148] = sformat(SPELLBOOK_AVAILABLE_AT, 50).." Class Trial",	-- Level 50 Class Trial
 		[-153] = CAPACITANCE_WORK_ORDERS,										-- Work Orders
 	-- Class Trial
 		[-154] = sformat(SPELLBOOK_AVAILABLE_AT, 48),						-- Level 48
-		[-155] = sformat(SPELLBOOK_AVAILABLE_AT, 50).." Character Boost",	-- Level 50 Character Boost
 		[-156] = sformat(SPELLBOOK_AVAILABLE_AT, 60).." Character Boost",	-- Level 60 Character Boost
 	-- Class Trial
 		[-160] = sformat(SPELLBOOK_AVAILABLE_AT, 60).." Class Trial",	-- Level 60 Class Trial
