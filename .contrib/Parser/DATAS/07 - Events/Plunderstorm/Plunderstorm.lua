@@ -10,9 +10,9 @@ PLUNDERSTORM = createHeader({
 	-- #endif
 	eventID = EVENTS.PLUNDERSTORM,
 	eventSchedule = {
-		0, -- January 14 unknown end date
+		0, -- 
 		2025, 01, 14,	-- 15/01/2025
-		2025, 04, 30,	-- 30/04/2024
+		2025, 02, 18,	-- 18/02/2024
 	},
 	text = {
 		en = [[~WOWLABS_GAMEMODE_HEADER]],
@@ -238,13 +238,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(41156, {	-- Buckled Up
 				title(544),	-- Swashbuckler <Name>
 			}),
-			ach(41157, {	-- Plunder Siege
+			ach(41157, {	-- Plunder Siege (100k)
 				title(545),	-- Buccaneer <Name>
 			}),
-			ach(41163, {	-- Lord of the Bling
+			ach(41163, {	-- Lord of the Bling (150k)
 				title(546),	-- First Mate <Name>
 			}),
-			ach(41160, {	-- It's a Plunderful Life
+			ach(41160, {	-- It's a Plunderful Life (250k)
 				title(601),	-- <Name> the Treasured
 			}),
 			ach(20509), 	-- Plunderkind
