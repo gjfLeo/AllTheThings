@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}, {
 				q(83363),					-- A Burning Path Through Time
-				--q(TODO),					-- A Fel Path Through Time
+				q(83360),					-- A Fel Path Through Time
 				q(83365),					-- A Frozen Path Through Time
 				q(83364),					-- A Savage Path Through Time
 				q(83359),					-- A Shattered Path Through Time
@@ -58,6 +58,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(86560, {	-- A Shrouded Journey Through Time
 					["provider"] = { "n", 118828 },	-- Mistweaver
 					["coord"] = { 43.1, 55.3, TIMELESS_ISLE },
+					["timeline"] = { ADDED_11_0_7 },
+					["repeatable"] = true,
+					["g"] = {
+						i(232877, {	-- Timely Goodie Bag
+							["sym"] = {
+								{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+								{ "pop" },
+							},
+						}),
+					},
+				}),
+				-- TW Legion Quest under level 80
+				q(86564, {	-- A Fel Journey Through Time
+					["provider"] = { "n", 180899 },	-- Aridormi
+					["coord"] = { 68.6, 49.2, LEGION_DALARAN },
 					["timeline"] = { ADDED_11_0_7 },
 					["repeatable"] = true,
 					["g"] = {
