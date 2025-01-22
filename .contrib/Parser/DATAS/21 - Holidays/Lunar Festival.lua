@@ -10,8 +10,8 @@ LUNAR_FESTIVAL_HEADER = createHeader({
 	-- #if BEFORE WRATH
 	eventSchedule = {
 		1, -- Recurring
-		1, 20, 10, 0,	-- 02/06 at 10:00 AM
-		2, 3, 10, 0	-- 02/20 at 10:00 AM
+		1, 28, 10, 0,	-- 01/28 at 10:00 AM
+		2, 18, 10, 0	-- 02/18 at 10:00 AM
 	},
 	-- #endif
 	text = {
