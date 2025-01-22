@@ -2702,8 +2702,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85205, {["timeline"]={ADDED_11_1_0}}),	-- Discounted Restored Coffer Key (spellID 467087)
 		--q(86878, {["timeline"]={ADDED_11_1_0}}),	-- Where We Thrive (camp site) (spellID 1217505?)
 		-- Season 2 Restored Keys (unsure if it will be automated or not)
-		--q(86402),	-- Delves - Purchaseable Rare Delve Key - 1 (spellID 467087) (itemID 233555?)
-		--q(86403),	-- Delves - Purchaseable Rare Delve Key - 2 (spellID 1217225) (itemID 235531?)
+		--q(86402, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 1 (spellID 467087) (itemID 233555?)
+		--q(86403, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 2 (spellID 1217225) (itemID 235531?)
 		-- Zekvir
 		q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
 		q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)

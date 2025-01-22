@@ -10,6 +10,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					230828,	-- Chief Foreman Gutso
 					230746,	-- Ephemeral Agent Lathyd
 					230840,	-- Flyboy Snooty
+					234499,	-- Glovante
 					--230935,	-- Grease
 					--230936,	-- Grime
 					231017,	-- Grimewick
@@ -26,7 +27,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					230951,	-- Thwack
 					230946,	-- V.V. Goosworth
 					--TODO: unsorted
-					--234499,	-- Glovante
 					--233471,	-- Scrapchewer
 					--231310,	-- The Darkfuse Precipitant
 					--233472,	-- Volstrike the Charged
@@ -79,15 +79,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235316),	-- Whirly-Giggle Windwhir Wrap
 				},
 			}),
+			n(234499, {	-- Glovante
+				--["description"] = "Can be summoned by someone who has contract with Steamwheedle Cartel"
+				["coord"] = { 32.0, 76.5, UNDERMINE },
+				["questID"] = 86307,
+				["isWeekly"] = true,
+			}),
 			n(231017, {	-- Grimewick
 				["coord"] = { 67.5, 33.5, UNDERMINE },
 				["questID"] = 84928,	-- Longwick
 				["g"] = {
+					i(235303),	-- Seafused Brimstone Band
 					i(235319),	-- Tidebomb Chestpiece
 				},
 			}),
 			n(234480, {	-- M.A.G.N.O. (Aurumensis)
-				--["description"] = "Spawn only in the end of SCRAP event",
+				--["description"] = "Can be summoned by someone who has contract with Bilgewater Cartel",
 				["coord"] = { 36.7, 26.3, UNDERMINE },
 				["questID"] = 86298,
 				["isWeekly"] = true,
@@ -130,6 +137,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84895,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235363),	-- Suspicious Energy Drink
 				},
 			}),
 			n(231288, {	-- Swogs Farsight
@@ -170,10 +178,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			-- TODO: Sort it when you find them
-			n(234499, {	-- Glovante
-				--["coord"] = { x, y, UNDERMINE },
-				--["questID"] = xx,
-			}),
 			n(233471, {	-- Scrapchewer
 				--["coord"] = { x, y, UNDERMINE },
 				--["questID"] = xx,

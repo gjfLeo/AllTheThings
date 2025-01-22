@@ -2112,6 +2112,7 @@ i(232635);	-- Torn Bilgewater Bandage
 ------------------
 -- PATCH 11.1.0 --
 ------------------
+i(234212);	-- "Beaten by the House"
 i(234205);	-- Bent Lever
 i(236638);	-- Bundle of Kaja-Scented Incense
 i(236922);	-- Celebratory Pack of Runed Harbinger Crests

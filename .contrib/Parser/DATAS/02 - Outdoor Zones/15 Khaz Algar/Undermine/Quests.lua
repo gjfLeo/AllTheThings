@@ -1209,6 +1209,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(499928),	-- Darkfuse Research Notes
 				},
 			}),
+			q(85945, {	-- Side Gig: Blood-B-Gone
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231062 },	-- Torky Greasepalm
+				["coord"] = { 16.7, 52.2, UNDERMINE },
+				["isWeekly"] = true,
+				["g"] = {
+					i(232897),	-- Blood-B-Gone (QI!)
+				},
+			}),
 			q(86178, {	-- Side Gig: Cleanin' the Coast
 				--["sourceQuests"] = { xx },	-- ??
 				["provider"] = { "n", 231065 },	-- Freddi Powergrind
@@ -1216,6 +1225,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["isWeekly"] = true,
 			}),
 			q(85913, {	-- Side Gig: Cleanup Detail
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
+				["coord"] = { 16.7, 52.3, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(85914, {	-- Side Gig: Coolant Matters
 				--["sourceQuests"] = { xx },	-- ??
 				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
 				["coord"] = { 16.7, 52.3, UNDERMINE },
@@ -1280,6 +1295,36 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 231049 },	-- Kaydee Racketting
 				["coord"] = { 42.8, 52.2, UNDERMINE },
 			}),
+			-- Renown 6 + one of cartel hqt locked
+			q(86414, {	-- Magno-Scrapper 9000
+				["sourceQuests"] = { 84951 },	-- HQT: Bilgewater Cartel weekly contract
+				["provider"] = { "n", 234819 },	-- Ragzy Cashgrab
+				["coord"] = { 40.0, 22.4, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(86390, {	-- Noggenfogger Nuisance
+				["sourceQuests"] = { 84952 },	-- HQT: Steamwheedle Cartel weekly contract
+				["provider"] = { "n", 234751 },	-- Noggenfogger Recall Technician
+				["coord"] = { 32.0, 76.5, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(86428, {	-- Voltstrike the Charged
+				["sourceQuests"] = { 84954 },	-- HQT: Blackwater Cartel weekly contract
+				["provider"] = { "n", 234834 },	-- Boatwright Frankle
+				["coord"] = { 61.4, 25.2, UNDERMINE },
+				["isWeekly"] = true,
+				["g"] = {
+					i(234971),	-- Chunk of Charged Glass (QI!)
+					o(503450),	-- Chunk of Charged Glass
+					--TODO: re-do in future build - bugged
+				},
+			}),
+			--q(XXXX, {	-- XXXX
+			--	["sourceQuests"] = { 84953 },	-- HQT: Venture Co. weekly contract
+			--	["provider"] = { "n", 236035 },	-- Scrapminer Krazzik
+			--	["coord"] = { 56.7, 79.1, UNDERMINE },
+			--	["isWeekly"] = true,
+			--}),
 			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
 			-- Alex TODO: all 3 NYI in-game, not returning name for quests
 			q(87297),	-- ???
@@ -1330,15 +1375,18 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(86410),	-- Slime Wranglin'
 				q(86412),	-- Fancy Pants
 				q(86418),	-- Fresh Towel?
+				-- Surge Pricing event rewards (TODO: move to better place as all quests above)
+				--i(236757),	-- Generous Tip Chest
+				--i(236758),	-- Extravagant Tip Chest
 				-- Special Assigment Unlock trackers
-				q(85489),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
-				q(85490),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
+				q(85489, {["repeatable"]=true}),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
+				q(85490, {["repeatable"]=true}),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
 				-- ??
 				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
 				-- When you pick up one of 4 cartel faction for a week
 				q(84951),	-- Bilgewater Cartel
-				q(84952),	-- Blackwater Cartel (could be Steamwheedle?)
-				q(84954),	-- Steamwheedle Cartel
+				q(84954),	-- Blackwater Cartel
+				q(84952),	-- Steamwheedle Cartel
 				q(84953),	-- Venture Co.
 			}),
 		}),

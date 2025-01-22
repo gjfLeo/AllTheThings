@@ -2432,6 +2432,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(83416, 216044),	-- Skinning Maddened Siegebomber
 			FirstSkin(83406, 220890),	-- Skinning Matriarch Charfuria
 			FirstSkin(81458, 218452),	-- Skinning Murkshade
+			FirstSkin(87589, 230995, ADDED_11_1_0),	-- Skinning Nitro
 			FirstSkin(81452, 219267),	-- Skinning Plaguehart
 			FirstSkin(83403, 221786),	-- Skinning Pride of Beledar
 			FirstSkin(87591, 230934, ADDED_11_1_0),	-- Skinning Ratspit

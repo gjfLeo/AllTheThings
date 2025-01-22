@@ -163,8 +163,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				224703,	-- Ancient Forged Sword
 				224706,	-- Ancient Forged Warhammer
 			}},
+			--["timeline"] = { REMOVED_11_1_0 },
 		}),
 		i(235639, {	-- Seasoned Adventurer's Cache
+			--TODO: could be NYI on release?
+			["timeline"] = { ADDED_11_1_0 },
+		}),
+		i(235610, {	-- Seasoned Adventurer's Cache
 			["timeline"] = { ADDED_11_1_0 },
 		}),
 	}),

@@ -20,6 +20,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			pet(4666, {	-- Tropical Frog
 				["coord"] = { 21.9, 56.1, ZULDAZAR },
 			}),
+			-- in Ringing Deeps
+			pet(4507, {	-- Hemospore
+				["coord"] = { 73.6, 95.0, THE_RINGING_DEEPS },
+			}),
 		})),
 	}),
 })));

@@ -31,11 +31,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					},
 					["isWeekly"] = true,
 				}),
-				-- Bonus objective?
-				q(86414, {	-- Magno-Scrapper 9000
-					["coord"] = { 36.7, 26.3, UNDERMINE },
-					["isWeekly"] = true,
-				}),
 			}),
 			n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can

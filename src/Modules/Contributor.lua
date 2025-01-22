@@ -482,6 +482,7 @@ MobileDB.GameObject = {
 	[500685] = true,	-- Seafarer's Cache
 	[500686] = true,	-- Seafarer's Cache
 	[503329] = true,	-- Corroded Plaque
+	[503450] = true,	-- Chunk of Charged Glass
 	[506640] = true,	-- Faded Journal Page @ 39.3, 54.2, 2369 (q:85571)
 	[506696] = true,	-- Buried Treasure
 	[507867] = true,	-- Soggy Journal Page @ 51.4, 75.8, 2369 (q:85571)

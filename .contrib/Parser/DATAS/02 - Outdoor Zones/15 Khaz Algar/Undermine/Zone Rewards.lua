@@ -7,6 +7,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			-- Gear
 			i(233531),	-- Gold-Plated Staff (cache)
 			i(233480),	-- Lucky-Streak Pendant (cache)
+			i(233484),	-- Lucky-Streak	Signet (wq)
 			i(233483),	-- Lucky-Streak Ring (wq)
 			i(235508),	-- Might-Be-Invisible Cape (wq)
 			i(235359),	-- Ratfang Toxin (cache)

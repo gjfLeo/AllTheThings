@@ -6,8 +6,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		n(WORLD_QUESTS, {
 			["g"] = bubbleDownFiltered({ ["isWorldQuest"] = true, },FILTERFUNC_questID,{
 				petbattle(q(86943, {	-- Drilling Down
-					--["cr"] = 237701,
+					--["cr"] = 237701,	-- Precision Powerdrill
 					["coord"] = { 53.4, 71.2, UNDERMINE },
+				})),
+				petbattle(q(86949, {	-- Loyal Crewmates
+					--["cr"] = 237712,	-- Prezly Wavecutter
+					["coord"] = { 58.2, 28.4, UNDERMINE },
+				})),
+				petbattle(q(86947, {	-- Tiny, Expensive, and Deadly
+					--["cr"] = 237703,	-- Baxx the Purveyor
+					["coord"] = { 40.1, 18.6, UNDERMINE },
 				})),
 				q(85497, {	-- Blown a Gasket
 					["coord"] = { 42.2, 76.7, UNDERMINE },
@@ -25,6 +33,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85263, {	-- Boomball
 					["coord"] = { 66.0, 60.3, UNDERMINE },
+				}),
+				q(85270, {	-- Cold as Ice
+					["coord"] = { 39.2, 31.5, UNDERMINE },
+				}),
+				q(84955, {	-- Contraband Banned
+					["coord"] = { 23.7, 51.2, UNDERMINE },
 				}),
 				q(84948, {	-- Contract Work
 					-- This one is 'forge a pact'?
@@ -79,14 +93,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						o(478438),	-- Waiting Garbage Can
 					},
 				}),
+				q(85402, {	-- In The Heights
+					["coord"] = { 53.0, 45.1, UNDERMINE },
+				}),
 				q(85472, {	-- It's Free Reagents!
 					["coord"] = { 54.6, 85.6, UNDERMINE },
+				}),
+				q(84929, {	-- Lifeguard On Duty
+					["coord"] = { 56.6, 32.7, UNDERMINE },
 				}),
 				q(85474, {	-- Rat Pack Attack
 					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
 				}),
 				q(85499, {	-- One Goblin's Trash
-					["coord"] = { 68.5, 63.5, UNDERMINE },	-- TODO: one of it is wrong
+					["coord"] = { 68.5, 63.5, UNDERMINE },
+				}),
+				q(84995, {	-- Pictures! Pictures of Undermine!
+					["coord"] = { 42.1, 52.1, UNDERMINE },
 				}),
 				q(85400, {	-- Reduce, Re-ooze, Recycle
 					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
@@ -101,6 +124,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85526, {	-- Scum Bag
 					["coord"] = { 36.2, 66.5, UNDERMINE },
+				}),
+				q(85390, {	-- Sunrise Sudser
+					["coord"] = { 59.5, 38.7, UNDERMINE },
 				}),
 				q(85513, {	-- Underrider Grease
 					["coord"] = { 47.1, 55.7, UNDERMINE },
@@ -120,6 +146,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85928, {	-- Breakneck Racing - Sandy Scuttle
 					["coord"] = { 46.5, 43.7, UNDERMINE },
+				}),
+				q(85107, {	-- Skyrider Racing - Rags to Riches Rush
+					["coord"] = { 25.9, 41.7, UNDERMINE },
 				}),
 				q(85104, {	-- Skyrider Racing - Skyrocketing Sprint
 					["coord"] = { 38.4, 29.8, UNDERMINE },

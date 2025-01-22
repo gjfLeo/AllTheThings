@@ -95,7 +95,6 @@ root(ROOTS.Unsorted, {
 				i(233479),	-- Shimmerthread Robes
 				i(233481),	-- Might-Be-Invisible Cloak
 				i(233482),	-- Might-Be-Invisible Shawl
-				i(233484),	-- Lucky-Streak Signet
 				i(233485),	-- Lucky-Streak Band
 				i(233527),	-- Gold-Plated Glaive
 				i(233528),	-- Gold-Plated Shield
@@ -489,8 +488,6 @@ root(ROOTS.Unsorted, {
 				i(235559),	-- Hidden Trove
 				i(235607),	-- Chunk of Companion Experience
 				i(235628),	-- Delver's Bounty
-				i(235896),	-- Radiant Echo
-				i(235897),	-- Radiant Echo
 
 				-- CHETT
 				i(236668),	-- C.H.E.T.T. Card
@@ -507,8 +504,6 @@ root(ROOTS.Unsorted, {
 				-- Weird wep again from delve?
 				i(236003),	-- Fate Weaver
 
-				-- New Shards
-				i(236096),	-- Coffer Key Shard
 			}),
 			filter(MISC, {
 				i(225766),	-- Zoom-Zoom Boosters
@@ -541,10 +536,8 @@ root(ROOTS.Unsorted, {
 				i(233210),	-- Pungent Putrigill
 				i(233246),	-- Gunk-Covered Thingy
 				i(234197),	-- Gilded Screwdriver
-				i(234212),	-- "Beaten by the House"
 				i(234421),	-- Web Bomb
 				i(234970),	-- Partially-Drained Battery
-				i(234971),	-- Chunk of Charged Glass
 				i(234616),	-- Supreme Mangoro Madness
 				i(234617),	-- Dulux Bluesberry Blast
 				i(234618),	-- Omega Oyster Outbreak
@@ -758,7 +751,6 @@ root(ROOTS.Unsorted, {
 				i(231894),	-- Useful Trash
 				i(231900),	-- Sample Potion
 				i(232651),	-- Faded Journal Page
-				i(232897),	-- Blood-B-Gone
 				i(234188),	-- Slot Chits
 				i(234426),	-- Kaja'Cola-Braised Meat
 				i(236773),	-- Swallowed Kaja'mite
@@ -779,7 +771,6 @@ root(ROOTS.Unsorted, {
 				i(235300),	-- Cloak of Mecha Shards
 				i(235301),	-- Drape of the Dazzling Feather
 				i(235302),	-- Shockwave Pendant
-				i(235303),	-- Seafused Brimstone Band
 				i(235304),	-- Gutter Rat Mask
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235308),	-- Filthtread Boots
@@ -801,7 +792,6 @@ root(ROOTS.Unsorted, {
 				i(235354),	-- Scrapblaster Lance
 				i(235356),	-- Sapper's Spark Reactor
 				i(235357),	-- Bulletscar Barricade
-				i(235363),	-- Suspicious Energy Drink
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
