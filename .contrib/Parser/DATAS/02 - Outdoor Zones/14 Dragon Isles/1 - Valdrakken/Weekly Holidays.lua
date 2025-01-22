@@ -60,6 +60,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["provider"] = { "n", 199526 },	-- Kazra
 				["coord"] = { 49.5, 59.9, VALDRAKKEN },
 				["isWeekly"] = true,
+				["u"] = REMOVED_FROM_GAME,
 			}, {
 				q(72727),					-- A Burning Path Through Time
 				q(72719),					-- A Fel Path Through Time
