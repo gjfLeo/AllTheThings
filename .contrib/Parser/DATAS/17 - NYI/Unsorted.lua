@@ -1344,7 +1344,6 @@ root(ROOTS.Unsorted, {
 				i(232924),	-- Sailor's Belt
 				i(234074),	-- Gold-Plated Cushioned Boots
 
-
 				-- Trading Post?
 				i(232909),	-- Sky Witch's Heartfelt Shoulder Cape
 				i(232910),	-- Vivid Heartfelt Shoulder Cape
@@ -1548,7 +1547,6 @@ root(ROOTS.Unsorted, {
 				i(228645),	-- Delete Me
 				i(228649),	-- Delete Me
 				i(230207),	-- N.U.K.U.L.A.R. Target Painter
-				i(233495),	-- [PH] Snapdragon Treat 03
 				i(234313),	-- [DNT] Item
 				i(234471),	-- Earthen Device
 				i(234472),	-- Earthen Crystal

@@ -425,7 +425,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 				}),
 				i(232595, {	-- Swabbie's Shovel
 					["cost"] = {{"c", PLUNDER, 1000}},
-					["g"] = { i(236180 },	-- Swabbie's Shovel (Bonus)
+					["g"] = { i(236180) },	-- Swabbie's Shovel (Bonus)
 				}),
 				i(216986, {	-- Swindler's Cutouts
 					["cost"] = {{"c", PLUNDER, 250}},
