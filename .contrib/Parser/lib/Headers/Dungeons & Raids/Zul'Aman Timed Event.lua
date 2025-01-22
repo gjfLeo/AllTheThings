@@ -6,7 +6,7 @@ ZULAMAN_TIMED_EVENT = createHeader({
 		fr = "Événement chronométré",
 		ru = "Временное Событие",
 		cn = "限时事件",
-		tw = "限時事件",
+		tw = "限時救援事件",
 	},
 });
 ZULAMAN_CHEST_1 = createHeader({
@@ -17,7 +17,7 @@ ZULAMAN_CHEST_1 = createHeader({
 		fr = "Premier coffre",
 		ru = "Первый Сундук",
 		cn = "一箱",
-		tw = "第一個寶箱",
+		tw = "第一個箱子",
 	},
 });
 ZULAMAN_CHEST_2 = createHeader({
@@ -28,7 +28,7 @@ ZULAMAN_CHEST_2 = createHeader({
 		fr = "Second coffre",
 		ru = "Второй Сундук",
 		cn = "二箱",
-		tw = "第二個寶箱",
+		tw = "第二個箱子",
 	},
 });
 ZULAMAN_CHEST_3 = createHeader({
@@ -39,7 +39,7 @@ ZULAMAN_CHEST_3 = createHeader({
 		fr = "Troisième coffre",
 		ru = "Третий Сундук",
 		cn = "三箱",
-		tw = "第三個寶箱",
+		tw = "第三個箱子",
 	},
 });
 ZULAMAN_CHEST_4 = createHeader({
@@ -56,6 +56,6 @@ ZULAMAN_CHEST_4 = createHeader({
 		fr = "Coffre final",
 		ru = "Последний Сундук",
 		cn = "最终宝箱",
-		tw = "最後的寶箱",
+		tw = "最後的箱子",
 	},
 });
