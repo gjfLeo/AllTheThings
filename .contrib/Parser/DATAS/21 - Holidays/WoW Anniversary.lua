@@ -2374,14 +2374,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					}),
 				}),
 				n(QUESTS, {
-					q(83274, {	-- An Original Path Through Time
-						-- TODO: Move out of here if it will be up after anniversary
-						["provider"] = { "n", 223884 },	-- Bobadormu
-						["coord"] = { 62.7, 50.3, TANARIS },
-						["isWeekly"] = true,
-						["lvl"] = 80,
-						["sym"] = { { "select", "itemID", 232877 } },	-- Timely Goodie Bag
-					}),
 					q(82817, {	-- Disturbance Detected: Blackrock Depths
 						["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
 						["coord"] = { 63.0, 49.7, TANARIS },

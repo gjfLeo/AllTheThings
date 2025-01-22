@@ -341,6 +341,7 @@ MobileDB.GameObject = {
 	[349136] = true,	-- Forgotten Memorandum (q:59717)
 	[349274] = true,	-- Forgotten Memorandum (q:59717)
 	[350978] = true,	-- Queen's Conservatory Cache
+	[352095] = true,	-- Soulbreaker Trap
 	[353195] = true,	-- Locked Door @ 61.2 60.3 REVENDRETH (q:58391)
 	[353947] = true,	-- Discarded Vial
 	[355971] = true,	-- Stoneborn Glaive (q:61402)

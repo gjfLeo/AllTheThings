@@ -1107,6 +1107,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 									["cost"] = { { "c", 1719, 5000 }, },	-- 5,000 Corrupted Mementos
 								}),
 								i(174770, {	-- Wicked Swarmer (MOUNT!)
+									["modelScale"] = 1.5,
 									["cost"] = { { "c", 1719, 100000 }, },	-- 100,000 Corrupted Mementos
 								}),
 							},

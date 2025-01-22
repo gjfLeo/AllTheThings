@@ -188,11 +188,270 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 			}),
 		}),
 		n(QUESTS, {
+			-- TW Classic Quest under level 80
+			q(85947, {	-- An Original Journey Through Time
+				["provider"] = { "n", 234555 },	-- Bobadormu
+				["coords"] = {
+					{ 56.0, 19.0, STORMWIND_CITY },
+					{ 52.8, 83.0, ORGRIMMAR },
+				},
+				["isWeekly"] = true,
+				["timeline"] = { ADDED_11_0_5 },
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+					i(232877, {	-- Timely Goodie Bag
+						["sym"] = {
+							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "pop" },
+						},
+					}),
+				},
+			}),
+			q(83274, {	-- An Original Path Through Time
+				["provider"] = { "n", 234555 },	-- Bobadormu
+				["coords"] = {
+					{ 56.0, 19.0, STORMWIND_CITY },
+					{ 52.8, 83.0, ORGRIMMAR },
+				},
+				["isWeekly"] = true,
+				["timeline"] = { ADDED_11_0_5 },
+				["lvl"] = 80,
+				["sym"] = { { "select", "itemID", 232877 } },	-- Timely Goodie Bag
+			}),
 			q(83285, {	-- The Ancient Scroll
 				["provider"] = { "i", 225348 },	-- Ancient Timewarped Scroll
 				["isWeekly"] = true,
 				["groups"] = {
 					currency(TIMEWARPED_BADGE),
+				},
+			}),
+		}),
+		n(VENDORS, {
+			n(234555, {	--  Bobadormu
+				["coords"] = {
+					{ 56.0, 19.0, STORMWIND_CITY },
+					{ 52.8, 83.0, ORGRIMMAR },
+				},
+				["timeline"] = { ADDED_11_0_7 },
+				["g"] = {
+					n(ARMOR, bubbleDownFiltered({
+						["cost"] = {{"c", TIMEWARPED_BADGE, 25}},
+					},FILTERFUNC_itemID,{
+						filter(BACK_F, {
+							i(225187),	-- Blackmetal Cape
+						}),
+						filter(CLOTH, {
+							i(225182),	-- Aristocratic Cuffs
+							i(224858),	-- Coldstone Slippers
+							i(224854),	-- Holy Shroud
+						}),
+						filter(FINGER_F, {
+							i(225186),	-- Freezing Band
+						}),
+						filter(LEATHER, {
+							i(224853),	-- Adventurer's Pith Helmet
+							i(224857),	-- Feet of the Lynx
+							i(225181),	-- Unearthed Bands
+						}),
+						filter(MAIL, {
+							i(224859),	-- Caverndeep Trudgers
+							i(224855),	-- Helm of Narv
+							i(225183),	-- Slimescale Bracers
+						}),
+						filter(PLATE, {
+							i(224860),	-- Boots of Avoidance
+							i(224856),	-- Mugthol's Helm
+							i(234862, {	-- Ogre Captains Armor
+								["modID"] = 22,
+								["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+								["timeline"] = { ADDED_11_0_7 },
+							}),
+							i(225184),	-- Runed Golem Shackles
+						}),
+					})),
+					filter(BATTLE_PETS, {
+						i(224410, {	-- Craggles (PET!)
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2200}}
+						}),
+						i(224406, {	-- Misty (PET!)
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2200}}
+						}),
+					}),
+					filter(COSMETIC, {
+						i(227718, {	-- Bearded Branch of Lore
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}}
+						}),
+						i(227704, {	-- Claymore of the Knight's Pledge
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}}
+						}),
+						i(227706, {	-- Doomreaper's Scythe
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}}
+						}),
+						i(227707, {	-- Doomwail Reaper
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}}
+						}),
+						i(227712, {	-- Emberswirl Bulwark
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2000}}
+						}),
+						i(227703, {	-- Farstrider's Huntsblade
+							["cost"] = {{"c", TIMEWARPED_BADGE, 1500}}
+						}),
+						i(227714, {	-- Gilded Drakecrest Shield
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2000}}
+						}),
+						i(227709, {	-- Kirin Tor Adept's Stave
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}}
+						}),
+						i(227705, {	-- Runed-Ice Dirk
+							["cost"] = {{"c", TIMEWARPED_BADGE, 1500}}
+						}),
+						i(227717, {	-- Sermons of the Naaru
+							["cost"] = {{"c", TIMEWARPED_BADGE, 1500}}
+						}),
+						i(227711, {	-- Tusked Branch of War
+							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}}
+						}),
+					}),
+					filter(MISC, sharedData({
+						["cost"] = {{"c", TIMEWARPED_BADGE, 50}},
+					}, {
+						i(224567),	-- Commendation of the Argent Dawn
+						i(224558),	-- Commendation of the Brood of Nozdormu
+						i(224561),	-- Commendation of the Hydraxian Waterlords
+						i(224571),	-- Commendation of the Thorium Brotherhood
+						i(224566),	-- Commendation of the Timbermaw Hold
+						i(224565, {	-- Commendation of the Wintersaber Trainers
+							["races"] = ALLIANCE_ONLY,
+						}),
+						i(224570),	-- Commendation of the Zandalar Tribe
+					})),
+					filter(MISC, {	-- Might be unecessary..
+						i(122338, {	-- Ancient Heirloom Armor Casing
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 750 }},
+							["sym"] = {{ "fill" }},
+						}),
+						i(122339, {	-- Ancient Heirloom Scabbard
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 900 }},
+							["sym"] = {{ "fill" }},
+						}),
+						i(204336, {	-- Awakened Heirloom Armor Casing
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_10_0_7 },
+							["sym"] = {{ "fill" }},
+						}),
+						i(204337, {	-- Awakened Heirloom Scabbard
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_10_0_7 },
+							["sym"] = {{ "fill" }},
+						}),
+						i(167731, {	-- Battle-Hardened Heirloom Armor Casing
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_8_1_5 },
+							["sym"] = {{ "fill" }},
+						}),
+						i(167732, {	-- Battle-Hardened Heirloom Scabbard
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_8_1_5 },
+							["sym"] = {{ "fill" }},
+						}),
+						i(187997, {	-- Eternal Heirloom Armor Casing
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_9_1_5 },
+							["sym"] = {{ "fill" }},
+						}),
+						i(187998, {	-- Eternal Heirloom Scabbard
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_9_1_5 },
+							["sym"] = {{ "fill" }},
+						}),
+						i(122340, {	-- Timeworn Heirloom Armor Casing
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["sym"] = {{ "fill" }},
+						}),
+						i(122341, {	-- Timeworn Heirloom Scabbard
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["sym"] = {{ "fill" }},
+						}),
+						i(151614, {	-- Weathered Heirloom Armor Casing
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_7_2_5 },
+							["sym"] = {{ "fill" }},
+						}),
+						i(151615, {	-- Weathered Heirloom Scabbard
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_7_2_5 },
+							["sym"] = {{ "fill" }},
+						}),
+					}),
+					filter(MISC, {
+						i(224190, {	-- Kreeg's Hardy Draught
+							["cost"] = {{"c", TIMEWARPED_BADGE, 25}}
+						}),
+						i(225378, {	-- Mohawk Grenade
+							["cost"] = {{"c", TIMEWARPED_BADGE, 200}}
+						}),
+					}),
+					filter(MOUNTS, {
+						i(224398, {	-- Frayfeather Hippogryph (MOUNT!)
+							["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
+						}),
+						i(205208, {	-- Sandy Shalewing (MOUNT!)
+							["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
+						}),
+					}),
+					filter(TOYS, {
+						i(224192, {	-- Practice Ravager (TOY!)
+							["cost"] = {{"c", TIMEWARPED_BADGE, 200}}
+						}),
+					}),
+					n(WEAPONS, {
+						i(225200, {	-- Alcor's Sunrazor
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}}
+						}),
+						i(225195, {	-- Axe of the Deep Woods
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}}
+						}),
+						i(225192, {	-- Bow of Searing Arrows
+							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+						i(225197, {	-- Crimson Shocker
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}}
+						}),
+						i(225193, {	-- Elemental Mage Staff
+							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+						i(225199, {	-- Flurry Axe
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}}
+						}),
+						i(225196, {	-- Grimlok's Charge
+							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+						i(225191, {	-- Gut Ripper
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}}
+						}),
+						i(225188, {	-- Lefty's Brass Knuckle
+							["cost"] = {{"c", TIMEWARPED_BADGE, 50}}
+						}),
+						i(225189, {	-- Lightforged Blade
+							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+						i(234624, {	-- Longsword of the Knight's Pledge
+							["cost"] = {{"c", TIMEWARPED_BADGE, 1500}},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(225190, {	-- Pendulum of Doom
+							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+						i(225201, {	-- Precisely Calibrated Rifle
+							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+						i(225194, {	-- Redbeard Crest
+							["cost"] = {{"c", TIMEWARPED_BADGE, 35}}
+						}),
+						i(225198, {	-- Warden Staff
+							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+					}),
 				},
 			}),
 		}),
@@ -648,6 +907,22 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 			}),
 		}),
 		n(QUESTS, {
+			-- TW TBC Quest under level 80
+			q(85948, {	-- A Burning Journey Through Time
+				["provider"] = { "n", 98685 },	-- Cupri
+				["coord"] = { 54.4, 38.8,  SHATTRATH_CITY },
+				["timeline"] = { ADDED_11_0_5 },
+				["isWeekly"] = true,
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+					i(232877, {	-- Timely Goodie Bag
+						["sym"] = {
+							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "pop" },
+						},
+					}),
+				},
+			}),
 			q(47523, {	-- Disturbance Detected: Black Temple
 				["coord"] = { 54.6, 39,  SHATTRATH_CITY },
 				["provider"] = { "n", 123252 },	-- Vormu
@@ -1855,6 +2130,22 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 			}),
 		}),
 		n(QUESTS, {
+			-- TW WotLK Quest under level 80
+			q(85949, {	-- A Frozen Journey Through Time
+				["provider"] = { "n", 98690 },	-- Auzin
+				["coord"] = { 50.6, 46.4, NORTHREND_DALARAN },
+				["timeline"] = { ADDED_11_0_5 },
+				["isWeekly"] = true,
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+					i(232877, {	-- Timely Goodie Bag
+						["sym"] = {
+							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "pop" },
+						},
+					}),
+				},
+			}),
 			q(50316, {	-- Disturbance Detected: Ulduar
 				["provider"] = { "n", 130654 },	-- Vormu
 				["coord"] = { 49.5, 45.7, NORTHREND_DALARAN },
@@ -3406,6 +3697,25 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 			}),
 		}),
 		n(QUESTS, {
+			-- TW Cata Quest under level 80
+			q(86556, {	-- -- A Shattered Journey Through Time
+				["provider"] = { "n", 101759 },	-- Kiatke
+				["coords"] = {
+					{ 76.6, 16.6, STORMWIND_CITY },
+					{ 52.1, 41.6, ORGRIMMAR },
+				},
+				["timeline"] = { ADDED_11_0_7 },
+				["isWeekly"] = true,
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+					i(232877, {	-- Timely Goodie Bag
+						["sym"] = {
+							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "pop" },
+						},
+					}),
+				},
+			}),
 			q(57637, {	-- Disturbance Detected: Firelands
 				["provider"] = { "n", 158276 },	-- Vormu
 				["coords"] = {
@@ -4355,6 +4665,22 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 			}),
 		}),
 		n(QUESTS, {
+			-- TW MoP Quest under level 80
+			q(86560, {	-- A Shrouded Journey Through Time
+				["provider"] = { "n", 118828 },	-- Mistweaver
+				["coord"] = { 43.1, 55.3, TIMELESS_ISLE },
+				["timeline"] = { ADDED_11_0_7 },
+				["weekly"] = true,
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+					i(232877, {	-- Timely Goodie Bag
+						["sym"] = {
+							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "pop" },
+						},
+					}),
+				},
+			}),
 			q(45563, {	-- The Shrouded Coin
 				["provider"] = { "i", 143776 },	-- Shrouded Timewarped Coin
 				["isWeekly"] = true,
@@ -4970,6 +5296,28 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 			}),
 		}),
 		n(QUESTS, {
+			-- TW WoD Quest under level 80
+			q(86563, {	-- A Savage Journey Through Time
+				["providers"] = {
+					{ "n", 151955 },	-- Tempra
+					{ "n", 151987 },	-- Kronnus
+				},
+				["coords"] = {
+					{ 37.0, 72.4, STORMSHIELD },
+					{ 42.8, 54.4, WARSPEAR },
+				},
+				["timeline"] = { ADDED_11_0_7 },
+				["weekly"] = true,
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+					i(232877, {	-- Timely Goodie Bag
+						["sym"] = {
+							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "pop" },
+						},
+					}),
+				},
+			}),
 			q(55498, {	-- The Shimmering Crystal (A)
 				["provider"] = { "i", 167921 },		-- Shimmering Timewarped Crystal (A)
 				["isWeekly"] = true,
@@ -5963,6 +6311,22 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 			}),
 		}),
 		n(QUESTS, {
+			-- TW Legion Quest under level 80
+			q(86564, {	-- A Fel Journey Through Time
+				["provider"] = { "n", 180899 },	-- Aridormi
+				["coord"] = { 68.6, 49.2, LEGION_DALARAN },
+				["timeline"] = { ADDED_11_0_7 },
+				["weekly"] = true,
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+					i(232877, {	-- Timely Goodie Bag
+						["sym"] = {
+							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "pop" },
+						},
+					}),
+				},
+			}),
 			q(64710, {	-- Whispering Felflame Crystal
 				["provider"] = { "i", 187611 },	-- Whispering Felflame Crystal
 				["isWeekly"] = true,

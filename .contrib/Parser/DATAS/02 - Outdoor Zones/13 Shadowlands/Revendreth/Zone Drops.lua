@@ -189,7 +189,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["description"] = "Used to summon the Worldedge Gorger.",
 				["crs"] = {
 					159676,	-- Animus Mite
+					156061,	-- Devourer Mite
+					175077,	-- Devourer Mite
 					160815,	-- Encroaching Gorger
+					168345,	-- Parched Gorger
 				},
 			}),
 			i(179329),	-- Gargoyle Heartpiercer
