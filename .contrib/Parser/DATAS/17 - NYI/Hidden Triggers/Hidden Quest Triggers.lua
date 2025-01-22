@@ -1854,6 +1854,8 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(83707),	-- LFGDungeons - 11.0 The War Within - Raid Finder - 1st
 			q(83708),	-- LFGDungeons - 11.0 The War Within - Raid Finder - Nth
 			q(78169),	-- LFGDungeons - Timewalking "Heroic" Random - 1st
+			q(86493, {["timeline"] = { ADDED_11_0_7 }}),	-- LFGDungeons - Timewalking "Heroic" Random - 1st
+			q(86494, {["timeline"] = { ADDED_11_0_7 }}),	-- LFGDungeons - Timewalking "Heroic" Random - Nth
 			q(83021),	-- LFGDungeons - TWW - Normal Random - 1st
 			q(83022),	-- LFGDungeons - TWW - Normal Random - Nth
 			q(83027),	-- LFGDungeons - TWW - Heroic Random - 1st

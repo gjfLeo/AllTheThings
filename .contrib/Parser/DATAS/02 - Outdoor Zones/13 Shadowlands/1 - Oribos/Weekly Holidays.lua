@@ -223,9 +223,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["isWeekly"] = true,
 				["_drop"] = { "g" },	-- Drop Trash
 			}, {
-				pvp(q(47148, {			-- Something Different
-					["timeline"] = { ADDED_9_0_2, REMOVED_10_0_2_LAUNCH },
-				})),
+				pvp(q(47148)),			-- Something Different
 			})),
 			-- #ENDIF
 			-- #ENDIF
