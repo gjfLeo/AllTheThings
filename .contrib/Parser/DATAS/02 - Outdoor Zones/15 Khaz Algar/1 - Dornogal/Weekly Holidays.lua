@@ -66,6 +66,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						{ 56.0, 19.0, STORMWIND_CITY },
 						{ 52.8, 83.0, ORGRIMMAR },
 					},
+					["timeline"] = { ADDED_11_0_5 },
 					["isWeekly"] = true,
 					["lockCriteria"] = { 1, "lvl", 80 },
 					["g"] = {
