@@ -2297,6 +2297,7 @@ if app.IsRetail then
 				OnClick = app.UI.OnClick.IgnoreRightClick,
 				-- sourceIgnored = true,
 				skipFill = true,
+				skipContains = true,
 				SortPriority = 1.0,	-- follow any raw content in group
 				SortType = "Total",
 				-- copy any sourceQuests into the header incase the root is not actually a quest

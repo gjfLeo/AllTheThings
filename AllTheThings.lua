@@ -1935,7 +1935,7 @@ local function BuildContainsInfo(subgroups, entries, indent, layer)
 
 	for _,group in ipairs(subgroups) do
 		-- If there's progress to display for a non-sourceIgnored group, then let's summarize a bit better.
-		if group.visible and not group.sourceIgnored then
+		if group.visible and not group.sourceIgnored and not group.skipContains then
 			-- Count it, but don't actually add it to entries if it meets the limit
 			if #entries >= ContainsLimit then
 				ContainsExceeded = ContainsExceeded + 1;
