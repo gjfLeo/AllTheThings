@@ -106,16 +106,19 @@ local function SetCostTotals(costs, isCost, refresh)
 		-- app.PrintDebug("Force Cost",c.hash,isCost)
 		c._SettingsRefresh = refresh;
 		if isCost then
-			parent = c.parent
-			blockedBy = GetRelativeByFunc(parent, BlockedParent)
-			if not blockedBy then
-				c.isCost = isCost;
-				-- app.PrintDebug("Unblocked Cost",app:SearchLink(c))
-			else
-				c.isCost = nil;
-				-- app.PrintDebug("Skipped cost under locked/saved parent"
-				-- 	,app:SearchLink(c)
-				-- 	,app:SearchLink(blockedBy))
+			-- only mark cost on visible content
+			if RecursiveGroupRequirementsFilter(c, ExtraFilters) then
+				parent = c.parent
+				blockedBy = GetRelativeByFunc(parent, BlockedParent)
+				if not blockedBy then
+					c.isCost = isCost;
+					-- app.PrintDebug("Unblocked Cost",app:SearchLink(c))
+				else
+					c.isCost = nil;
+					-- app.PrintDebug("Skipped cost under locked/saved parent"
+					-- 	,app:SearchLink(c)
+					-- 	,app:SearchLink(blockedBy))
+				end
 			end
 		else
 			-- app.PrintDebug("Not a cost",app:SearchLink(c))
