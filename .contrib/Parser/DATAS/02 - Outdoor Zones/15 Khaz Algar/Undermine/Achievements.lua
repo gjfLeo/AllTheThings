@@ -37,6 +37,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						41549,	-- Mechanical Battler of Undermine
 						41550,	-- Undead Battler of Undermine
 					}},
+					["g"] = {
+						i(232855),	-- Foreman
+					},
 				})),
 				petbattle(ach(41542, {	-- Aquatic Battler of Undermine
 					crit(102982, {	-- Precision Powerdrill

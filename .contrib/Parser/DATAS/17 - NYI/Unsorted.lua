@@ -209,7 +209,6 @@ root(ROOTS.Unsorted, {
 				i(232848),	-- Mr. DELVER
 				i(232852),	-- Mutt
 				i(232854),	-- Grinner
-				i(232855),	-- Foreman
 				i(232856),	-- Scruff
 				i(232857),	-- Goggles
 				i(235909),	-- Gleam

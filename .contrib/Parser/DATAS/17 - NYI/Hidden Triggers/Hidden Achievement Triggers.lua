@@ -3670,8 +3670,8 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(40908),	-- Demolition Superdome matches
 			ach(40909),	-- Demolition Superdome victories
 			ach(41102),	-- Excavation Site 9 clears
-			ach(41103),	-- [PH] Undermine Delve clears
-			ach(41104),	-- [PH] Demolition Dome clears
+			ach(41103),	-- Sidestreet Sluice clears
+			ach(41104),	-- Demolition Dome clears
 			ach(41299),	-- Vexie and the Geargrinders (Raid Finder Liberation of Undermine)
 			ach(41300),	-- Vexie and the Geargrinders (Normal Liberation of Undermine)
 			ach(41301),	-- Vexie and the Geargrinders (Heroic Liberation of Undermine)
