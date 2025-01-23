@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						41550,	-- Undead Battler of Undermine
 					}},
 					["g"] = {
-						i(232855),	-- Foreman
+						i(232855),	-- Foreman (PET!)
 					},
 				})),
 				petbattle(ach(41542, {	-- Aquatic Battler of Undermine
@@ -236,7 +236,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			ach(40948),	-- Nine-Tenths of the Law
 			ach(40894),	-- Sojourner of Undermine (automated)
 			ach(41588, {	-- Read Between the Lines (automated)
-				i(235050),	-- Desk-In-A-Box
+				i(235050),	-- Desk-In-A-Box (TOY!)
 			}),
 			ach(41589),	-- That Can-Do Attitude
 			pvp(ach(41522)),	-- Tour of Duty: Undermine
