@@ -42,7 +42,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					i(171254),	-- Fathom Ray Meat (QI!)
 				},
 			}),
-			q(56391),	-- Frenzied Knifefang
+			petbattle(q(56391)),	-- Frenzied Knifefang
 			q(55895),	-- Frozen Winds of Zhiela
 			petbattle(q(56392)),	-- Giant Opaline Conch
 			q(56041),	-- Give 'Em Shell

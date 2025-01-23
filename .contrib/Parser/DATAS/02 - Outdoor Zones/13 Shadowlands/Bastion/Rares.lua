@@ -102,7 +102,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					{ "o", 354286 },	-- Mercia's Legacy: Chapter Four
 					{ "o", 354287 },	-- Mercia's Legacy: Chapter Five
 					{ "o", 354288 },	-- Mercia's Legacy: Chapter Six
-					{ "o", 354467 },	-- Mercia's Legacy: Chapter Seven
 					{ "i", 180569 },	-- Mercia's Legacy: Chapter Seven
 				},
 				["g"] = {

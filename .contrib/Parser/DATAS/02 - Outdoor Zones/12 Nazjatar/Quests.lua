@@ -1378,7 +1378,26 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["sourceQuest"] = 56156,	-- A Tempered Blade
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["g"] = {
-				i(168158),	-- Enchanted Pearl (QI!)
+				o(325759, {	-- Mana-Infused Clam
+					["coords"] = {
+						{ 28.8, 47.7, NAZJATAR },
+						{ 29.0, 44.8, NAZJATAR },
+						{ 29.9, 47.4, NAZJATAR },
+						{ 30.3, 42.4, NAZJATAR },
+						{ 30.3, 45.2, NAZJATAR },
+						{ 31.6, 42.7, NAZJATAR },
+						{ 31.9, 44.3, NAZJATAR },
+						{ 32.3, 45.4, NAZJATAR },
+						{ 32.3, 46.7, NAZJATAR },
+						{ 33.0, 47.1, NAZJATAR },
+						{ 33.0, 47.9, NAZJATAR },
+						{ 34.4, 44.4, NAZJATAR },
+						{ 37.0, 45.7, NAZJATAR },
+					},
+					["g"] = {
+						i(168158),	-- Enchanted Pearl (QI!)
+					},
+				}),
 			},
 		}),
 		q(55845, {	-- Plans of Attack
@@ -2548,6 +2567,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		q(55714, {	-- Void Cache (A)
 			["sourceQuests"] = { 56156 },	-- A Tempered Blade (maybe add 57041 for selecting Farseer Ori for the day?)
+			["provider"] = { "o", 326026 },	-- Void Cache
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["isDaily"] = true,
 			["coord"] = { 56.3, 15.0, NAZJATAR },

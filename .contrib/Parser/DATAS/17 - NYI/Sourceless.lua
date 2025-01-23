@@ -430,7 +430,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(158518),	-- Harbormaster's Lantern
 				i(159079),	-- Captivating Glowfly Lantern
 				i(161290),	-- Grimestone Greatmace
-				i(161291),	-- Grimestone Spellmace
 				i(161292),	-- Grimestone Spellmaul
 				i(158579),	-- Scalawag's Warglaive
 				i(153400),	-- Scalawag's Bolt-Thrower

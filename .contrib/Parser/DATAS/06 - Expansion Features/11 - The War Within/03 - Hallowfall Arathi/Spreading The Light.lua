@@ -132,7 +132,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 206533 },	-- Chef Dinaire
 						["coord"] = { 64.5, 31.1, HALLOWFALL },
 						["g"] = {
-							i(218127),	-- Ever-Blossoming Fungi (QI!)
+							o(434861, {	-- Ever-Blossoming Fungi
+								["maps"] = { MYCOMANCER_CAVERN },
+								["g"] = { i(218127) },	-- Ever-Blossoming Fungi (QI!)
+							}),
 						},
 					}),
 					q(79346, {	-- Chew On That
