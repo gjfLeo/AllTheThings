@@ -1976,6 +1976,7 @@ i(0, 466001);		-- Blackwater Bonecrusher
 i(235344, 1216542);	-- Blazing Royal Fire Hawk
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(0, 466018);		-- Darkfuse Demolisher
+i(229955, 466027);	-- Darkfuse Spy-Eye
 i(235662, 1218069);	-- Emerald Snail
 i(0, 1221694);		-- Enterprising Shreddertank
 i(227362, 459784);	-- Golden Ashes of Al'ar
