@@ -278,6 +278,7 @@ local function OnSearchResultUpdate(group)
 end
 app.AddEventHandler("OnSearchResultUpdate", OnSearchResultUpdate)
 
+local CACChain = {}
 -- Returns whether 't' should be considered collectible based on the set of costCollectibles already assigned to this 't'
 app.CollectibleAsCost = function(t)
 	local collectibles = t.costCollectibles;
@@ -289,9 +290,16 @@ app.CollectibleAsCost = function(t)
 	local lastSettings, appSettings = t._SettingsRefresh, app._SettingsRefresh
 	-- previously checked without Settings changed
 	if lastSettings and lastSettings == appSettings then
-		-- app.PrintDebug("CAC:Cached",t.hash,t.isCost,settingsChange)
+		-- app.PrintDebug("CAC:Cached",t.hash,t.isCost,lastSettings)
 		return t.isCost;
 	end
+	local thash = t.hash
+	if CACChain[thash] then
+		app.PrintDebug("Recursive collectibleAsCost encountered!",app:SearchLink(t))
+		t.collectibleAsCost = false
+		return
+	end
+	CACChain[thash] = true
 	-- app.PrintDebug("CAC:Check",app:SearchLink(t))
 	t._SettingsRefresh = appSettings;
 	t.isCost = nil;
@@ -304,12 +312,14 @@ app.CollectibleAsCost = function(t)
 		if CheckCollectible(ref) then
 			t.isCost = true;
 			t.collectibleAsCost = nil;
+			CACChain[thash] = nil
 			-- app.PrintDebug("CAC:Set",app:SearchLink(t),"from",app:SearchLink(ref),"@",t._SettingsRefresh)
 			return true;
 		end
 	end
 	-- app.PrintDebug("CAC:nil",t.hash)
 	t.collectibleAsCost = nil;
+	CACChain[thash] = nil
 end
 
 -- Costs API Implementation
