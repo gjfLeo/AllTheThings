@@ -357,7 +357,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}),
 				}),
 				BossOnly(LOCKENSTOCK, {
-					--ach(x),
+					ach(41711),	-- Conveyor Slayer
 				}),
 				BossOnly(BANDIT, {
 					ach(41119),	-- One Rank Higher

@@ -3667,8 +3667,8 @@ root(ROOTS.HiddenAchievementTriggers, {
 
 		-- 11.1.0
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-			ach(40908),	-- Demolition Superdome matches
-			ach(40909),	-- Demolition Superdome victories
+			ach(40908),	-- SuperdomCage of Carnage matches
+			ach(40909),	-- SuperdomCage of Carnage victories
 			ach(41102),	-- Excavation Site 9 clears
 			ach(41103),	-- Sidestreet Sluice clears
 			ach(41104),	-- Demolition Dome clears

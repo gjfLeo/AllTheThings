@@ -1540,7 +1540,6 @@ root(ROOTS.Unsorted, {
 				i(234471),	-- Earthen Device
 				i(234472),	-- Earthen Crystal
 				i(234969),	-- Archivist Chassis
-				i(235050),	-- Desk-In-A-Box
 				i(232005),	-- Cryptic Crostini
 				i(232006),	-- Detective's Delight
 				i(232007),	-- Sleuth's Sip
