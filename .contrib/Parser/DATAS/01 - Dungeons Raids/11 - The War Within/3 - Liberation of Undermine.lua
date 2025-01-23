@@ -273,7 +273,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						41236,	-- Mythic: Chrome King Gallywix
 					}},
 				}),
-				ach(40232, {	-- Glory of the Nerub-ar Raider
+				ach(41286, {	-- Glory of the Liberation of Undermine Raider
 					-- Meta Achievement
 					["sym"] = {{"meta_achievement",
 						41208,	-- Hold My Gear!
@@ -344,7 +344,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					ach(41208),	-- Hold My Gear!
 				}),
 				BossOnly(CARNAGE, {
+					ach(41694),	-- Flarendo's Biggest Fan
 					ach(41554),	-- The Splash Zone
+					ach(41695),	-- Torq's Biggest Fan
 				}),
 				BossOnly(RIK, {
 					ach(41338),	-- Just /Dance

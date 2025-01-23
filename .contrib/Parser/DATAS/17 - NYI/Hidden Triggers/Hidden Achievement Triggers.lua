@@ -739,6 +739,15 @@ root(ROOTS.HiddenAchievementTriggers, {
 		ach(41134),	-- [DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden)
 		-- #endif
 		-- #endif
+		-- 4.4.2.58486
+		-- #if ANYCLASSIC
+		-- #if AFTER 4.4.2
+		ach(41332),	-- Rival: Season 10
+		ach(41333),	-- Duelist: Season 10
+		ach(41334),	-- Challenger: Season 10
+		ach(41336),	-- Gladiator: Season 10
+		-- #endif
+		-- #endif
 	}),
 	expansion(EXPANSION.MOP, {
 		ach(6337),	-- Ossirian kills (Ruins of Ahn'Qiraj)
@@ -3702,6 +3711,11 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41364),	-- Earn and Tutorialize First Warband Camp (Not Used!) (DNT)
 			ach(41365),	-- Season 2 - Defeated Underpin
 			ach(41683),	-- Khaz Algar Safari (copy)
+			-- 11.1.0.58626
+			ach(41696),	-- Vicious Saddle (40)
+			ach(41697),	-- Vicious Saddle (40)
+			ach(41698),	-- Vicious Saddle (41)
+			ach(41699),	-- Vicious Saddle (41)
 		})),
 	}),
 });
