@@ -761,6 +761,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(159122, {	-- Wildtusk Ivory Headcracker
 						["races"] = HORDE_ONLY,
 					}),
+					-- Earned as Alliance Character
+					-- along with i(15117)
+					i(161291),	-- Grimestone Spellmace
 				},
 			}),
 			q(47736, {	-- Heads Will Roll
@@ -841,7 +844,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					47585,	-- Predatory
 				},
 				["provider"] = { "n", 123019 },	-- Huntmaster Vol'ka
-				["coord"] = { 57.5, 17.6, ZULDAZAR },
+				["coord"] = { 67.5, 17.7, ZULDAZAR },
 			}),
 			q(49678, {	-- I Spy a Spire
 				["sourceQuests"] = { 49940 },	-- Sandscar Breach (breadcrumb)
