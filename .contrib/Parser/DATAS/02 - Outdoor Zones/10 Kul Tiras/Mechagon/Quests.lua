@@ -373,9 +373,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["sym"] = {
 					{"select","questID",55743},{"pop"},	-- Sub-groups from Quest 55743 (More Recycling)
 				},
-				["g"] = {
-					i(168946),	-- Bundle of Recyclable Parts (QI!)
-				},
 			}),
 			q(56168, {	-- Factory Refurbished
 				["provider"] = { "n", 150573 },	-- Recycler Kerchunk
@@ -505,7 +502,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["cost"] = { { "i", 168946, 1 } },	-- Bundle of Recyclable Parts
 				["isDaily"] = true,
 				["g"] = {
-					i(168946),	-- Bundle of Recyclable Parts (QI!)
 					i(168264, {	-- Recycling Requisition
 						["repeatable"] = true,
 						["questID"] = 55148,
