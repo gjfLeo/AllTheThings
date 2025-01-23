@@ -1801,12 +1801,15 @@ end or function(finalized, searchResults, o, oSym)
 	end
 end
 local ResolveCache = {};
-ResolveSymbolicLink = function(o)
+ResolveSymbolicLink = function(o, refonly)
 	local oSym = o.sym
 	if not oSym then return end
 
 	local oHash, oKey = o.hash, o.key;
 	if o.resolved or (oKey and app.ThingKeys[oKey] and ResolveCache[oHash]) then
+		if refonly then
+			return o.resolved or ResolveCache[oHash]
+		end
 		-- app.PrintDebug(o.resolved and "Object Resolve" or "Cache Resolve",oHash,#(o.resolved or ResolveCache[oHash]))
 		local cloned = {};
 		MergeObjects(cloned, o.resolved or ResolveCache[oHash], true);
