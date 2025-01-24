@@ -7,6 +7,7 @@ SEVERED_THREADS_PACT = createHeader({
 	text = {
 		en = "Severed Threads Pact",
 		cn = "斩离之丝契约",
+		tw = "斷裂絲線合約",
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {

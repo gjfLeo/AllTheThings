@@ -5,5 +5,6 @@ THE_ASSEMBLY_OF_THE_DEEPS = createHeader({
 		en = "The Assembly of the Deeps",
 		cn = "邃渊协盟",
 		ru = "Ассамблея глубин",
+		tw = "深淵集會",
 	},
 });

@@ -489,10 +489,10 @@ if app.IsRetail then
 			[-971] = "組 D",											-- Set D
 	-- Dragonflight
 
-		[-1102] = "怒西昂和薩貝里安",										-- Wrathion & Sabellian
+		[-1102] = "怒西昂和賽柏利安",										-- Wrathion & Sabellian
 		[-1120] = "莫魯克半人馬",											-- Maruuk Centaur
 		[-1130] = "伊斯凱拉巨牙海民",										-- Iskaara Tuskarr
-		[-1150] = "洛姆鼻鼴",											-- Loamm Niffen
+		[-1150] = "洛姆鼴鼠人",											-- Loamm Niffen
 	-- Tier/Dungeon/Event/Holiday Sets
 		-- Artifact Strings
 			[-5200] = "基礎外觀",										-- Base Appearance

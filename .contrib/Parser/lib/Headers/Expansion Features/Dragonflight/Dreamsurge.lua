@@ -5,5 +5,6 @@ DREAMSURGE = createHeader({
 		en = "Dreamsurge",
 		ru = "Приливы снов",
 		cn = "梦涌",
+		tw = "湧動夢境",
 	},
 });

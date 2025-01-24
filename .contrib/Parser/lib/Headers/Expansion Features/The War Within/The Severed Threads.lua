@@ -5,5 +5,6 @@ THE_SEVERED_THREADS = createHeader({
 		en = "The Severed Threads",
 		cn = "斩离之丝",
 		ru = "Отрезанные нити",
+		tw = "斷裂絲線",
 	},
 });
