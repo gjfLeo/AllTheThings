@@ -6,8 +6,8 @@ AWAKENING_THE_MACHINE = createHeader({
 	icon = 5768149,
 	text = {
 		en = "Awakening The Machine",
-		cn = "主机觉醒",
 		ru = "Пробуждение Машины",
+		cn = "主机觉醒",
 		tw = "甦醒機械",
 	},
 });

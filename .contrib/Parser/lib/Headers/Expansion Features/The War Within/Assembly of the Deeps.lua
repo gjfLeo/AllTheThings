@@ -3,8 +3,8 @@ THE_ASSEMBLY_OF_THE_DEEPS = createHeader({
 	icon = 5891367,
 	text = {
 		en = "The Assembly of the Deeps",
-		cn = "邃渊协盟",
 		ru = "Ассамблея глубин",
+		cn = "邃渊协盟",
 		tw = "深淵集會",
 	},
 });

@@ -3,8 +3,8 @@ THE_SEVERED_THREADS = createHeader({
 	icon = 5891370,
 	text = {
 		en = "The Severed Threads",
-		cn = "斩离之丝",
 		ru = "Отрезанные нити",
+		cn = "斩离之丝",
 		tw = "斷裂絲線",
 	},
 });
