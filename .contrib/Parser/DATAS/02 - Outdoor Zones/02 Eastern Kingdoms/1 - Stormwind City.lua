@@ -6005,7 +6005,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "select", "expansionID", EXPANSION.TBC },	{ "pop" },
 						{ "contains", "headerID", SEASON_BRUTAL, SEASON_VENGEFUL, SEASON_MERCILESS, SEASON_GLADIATOR }, { "pop" },
 						{ "where", "headerID", PVP_GLADIATOR }, { "pop" },
-						{ "exclude", "headerID", WEAPONS },
 						{ "postprocess" },
 					},
 					-- #ENDIF
