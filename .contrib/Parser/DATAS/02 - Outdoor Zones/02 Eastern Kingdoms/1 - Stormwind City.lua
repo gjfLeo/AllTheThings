@@ -5997,6 +5997,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					}),
 				}),
+				n(12778, {	-- Lieutenant Rachel Vaccar <Outland Armor Quartermaster>
+					["coord"] = { 75.2, 67.2, STORMWIND_CITY },
+					["timeline"] = { ADDED_3_0_1, REMOVED_5_0_4 },
+					-- #IF ANYCLASSIC
+					["sym"] = {
+						{ "select", "expansionID", EXPANSION.TBC },	{ "pop" },
+						{ "contains", "headerID", SEASON_BRUTAL, SEASON_VENGEFUL, SEASON_MERCILESS, SEASON_GLADIATOR }, { "pop" },
+						{ "where", "headerID", PVP_GLADIATOR }, { "pop" },
+						{ "exclude", "headerID", WEAPONS },
+						{ "postprocess" },
+					},
+					-- #ENDIF
+					["races"] = ALLIANCE_ONLY,
+				}),
 				-- #if AFTER LEGION
 				n(54660, {	-- Lieutenant Tristia <Vicious Gladiator>
 					["coord"] = { 75.0, 67.0, STORMWIND_CITY },
