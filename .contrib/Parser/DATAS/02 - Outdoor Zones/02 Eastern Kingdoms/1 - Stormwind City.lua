@@ -5999,7 +5999,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(12778, {	-- Lieutenant Rachel Vaccar <Outland Armor Quartermaster>
 					["coord"] = { 75.2, 67.2, STORMWIND_CITY },
-					["timeline"] = { ADDED_3_0_1, REMOVED_5_0_4 },
+					["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 					-- #IF ANYCLASSIC
 					["sym"] = {
 						{ "select", "expansionID", EXPANSION.TBC },	{ "pop" },
