@@ -2221,7 +2221,7 @@ SourceSearcher.heirloomID = SourceSearcher.itemID
 
 local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB)
 	-- Create a list of sources
-	-- app.PrintDebug("SourceLocations",paramA,SourceLocationSettingsKey[paramA])
+	-- app.PrintDebug("SourceLocations",paramA,paramB,SourceLocationSettingsKey[paramA])
 	if not app.ThingKeys[paramA] then return end
 	local settings = app.Settings
 	if not settings:GetTooltipSetting("SourceLocations") or not settings:GetTooltipSetting(SourceLocationSettingsKey[paramA]) then return end
@@ -2431,21 +2431,21 @@ local function GetSearchResults(method, paramA, paramB, options)
 	end
 
 	-- Determine if this is a cache for an item
-	local itemID, sourceID, modID, bonusID, itemString;
-	if not paramB then
-		if rawlink then
-			-- paramA
-			itemString = rawlink:match("item[%-?%d:]+");
+	local itemString
+	if rawlink then
+		-- paramA
+		itemString = rawlink:match("item[%-?%d:]+");
+		if not paramB then
 			if itemString then
-				sourceID = app.GetSourceID(rawlink);
 				-- app.PrintDebug("Rawlink SourceID",sourceID,rawlink)
-				local _, itemID2, enchantId, gemId1, gemId2, gemId3, gemId4, suffixId, uniqueId, linkLevel, specializationID, upgradeId, linkModID, numBonusIds, bonusID1 = (":"):split(itemString);
-				if itemID2 then
-					itemID = tonumber(itemID2);
-					modID = tonumber(linkModID) or 0;
+				local _, itemID, enchantId, gemId1, gemId2, gemId3, gemId4, suffixId, uniqueId, linkLevel, specializationID, upgradeId, linkModID, numBonusIds, bonusID1 = (":"):split(itemString);
+				if itemID then
+					itemID = tonumber(itemID);
+					local modID = tonumber(linkModID) or 0;
 					if modID == 0 then modID = nil; end
-					bonusID = (tonumber(numBonusIds) or 0) > 0 and tonumber(bonusID1) or 3524;
+					local bonusID = (tonumber(numBonusIds) or 0) > 0 and tonumber(bonusID1) or 3524;
 					if bonusID == 3524 then bonusID = nil; end
+					local sourceID = app.GetSourceID(rawlink);
 					if sourceID then
 						paramA = "sourceID"
 						paramB = sourceID
@@ -2463,7 +2463,6 @@ local function GetSearchResults(method, paramA, paramB, options)
 				if kind == "itemid" then
 					paramA = "itemID";
 					paramB = id;
-					itemID = id;
 				elseif kind == "questid" then
 					paramA = "questID";
 					paramB = id;
@@ -2475,11 +2474,7 @@ local function GetSearchResults(method, paramA, paramB, options)
 					paramB = id;
 				end
 			end
-		elseif paramA == "itemID" then
-			-- itemID should only be the itemID, not including modID
-			itemID = GetItemIDAndModID(paramB) or paramB;
 		end
-	-- else app.PrintDebug("Skip search rawlink check",rawlink)
 	end
 
 	-- Create clones of the search results
