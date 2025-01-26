@@ -2438,6 +2438,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(87591, 230934, ADDED_11_1_0),	-- Skinning Ratspit
 			FirstSkin(85547, 207826),	-- Skinning Ravageant
 			FirstSkin(87594, 230931, ADDED_11_1_0),	-- Skinning Scrapbeak
+			FirstSkin(87596, 233471, ADDED_11_1_0),	-- Skinning Scrapchewer
 			FirstSkin(85550, 219278),	-- Skinning Shallowshell the Clacker
 			FirstSkin(84259, 228439),	-- Skinning Slatefang
 			FirstSkin(83405, 221217),	-- Skinning Spore-infused Shalewing

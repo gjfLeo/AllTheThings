@@ -470,11 +470,13 @@ MobileDB.GameObject = {
 	[474084] = true,	-- Salvageable Scrap (q:85051)
 	[474086] = true,	-- Salvageable Scrap (q:85051)
 	[474822] = true,	-- Runed Storm Cache (Treasure)
+	[475990] = true,	-- Junk Pile
 	[478443] = true,	-- Mislaid Curiosity (delve object)
 	[487825] = true,	-- Ruffled Pages (q:85589)
 	[494499] = true,	-- Seafarer's Cache
 	[499620] = true,	-- Runed Storm Cache @ 68.4, 73.8, 2369 (q:84726)
 	[499863] = true,	-- Runed Storm Cache @ 39.4, 20.1, 2369 (q:84726)
+	[500096] = true,	-- Unseemly Growth
 	[500203] = true,	-- Resold Goods
 	[500407] = true,	-- Runed Storm Cache (Treasure)
 	[500682] = true,	-- Seafarer's Cache
@@ -490,6 +492,7 @@ MobileDB.GameObject = {
 	[507868] = true,	-- Stained Journal Page @ 55.8, 14.7, 2369 (q:85571)
 	[507869] = true,	-- Torn Journal Page @ 46.1, 47.1, 2369 (q:85571)
 	[507870] = true,	-- Weathered Journal Page @ 71, 59.2, 2369 (q:85571)
+	[508727] = true,	-- Partially-Drained Battery
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}
