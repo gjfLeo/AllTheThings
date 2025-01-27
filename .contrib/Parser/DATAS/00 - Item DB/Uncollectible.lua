@@ -27,6 +27,8 @@ i(138293);	-- Explorer's Pack
 i(139398);	-- Pant Loaf
 i(147348);	-- Bulky Armor Set
 i(147349);	-- Spiked Armor Set
+-- BFA Vendor
+i(162588);	-- Weathered Scrollcase
 -- BFA Minor Visions
 i(169294);	-- Resilient Soul
 i(173888);	-- Shard of Self Sacrifice \\ Lingering Soul
