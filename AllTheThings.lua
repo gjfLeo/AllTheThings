@@ -3407,14 +3407,16 @@ local function BuildSourceParent(group)
 						---@type any
 						local pRef = (type == "i" and SearchForObject("itemID", id, "field"))
 								or   (type == "o" and SearchForObject("objectID", id, "field"))
-								or   (type == "n" and SearchForObject("npcID", id, "field"));
+								or   (type == "n" and SearchForObject("npcID", id, "field"))
+								or   (type == "s" and SearchForObject("spellID", id, "field"));
 						if pRef then
 							pRef = CreateObject(pRef);
 							tinsert(parents, pRef);
 						else
 							pRef = (type == "i" and app.CreateItem(id))
 								or   (type == "o" and app.CreateObject(id))
-								or   (type == "n" and app.CreateNPC(id));
+								or   (type == "n" and app.CreateNPC(id))
+								or   (type == "s" and app.CreateNPC(id));
 							tinsert(parents, pRef);
 						end
 					end

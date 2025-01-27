@@ -5,7 +5,7 @@
 -- ex. FirstCraft(QUESTID, RECIPEID);	-- RECIPE_NAME
 local function FirstCraft(questID, recipeID, added, removed)
 	local t = hqt(questID, name(HEADERS.Spell, recipeID))
-	-- TODO: t.provider = { "spellID", recipeID };
+	t.provider = { "s", recipeID };
 	if added then
 		t.timeline = { added };
 	end
