@@ -3416,7 +3416,7 @@ local function BuildSourceParent(group)
 							pRef = (type == "i" and app.CreateItem(id))
 								or   (type == "o" and app.CreateObject(id))
 								or   (type == "n" and app.CreateNPC(id))
-								or   (type == "s" and app.CreateNPC(id));
+								or   (type == "s" and app.CreateSpell(id));
 							tinsert(parents, pRef);
 						end
 					end
