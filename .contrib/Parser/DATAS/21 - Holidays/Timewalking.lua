@@ -247,9 +247,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 							i(224854),	-- Holy Shroud
 						}),
 						filter(FINGER_F, {
-							i(225186, {	-- Freezing Band
-								["modID"] = 22,
-							}),
+							i(225186),	-- Freezing Band
 						}),
 						filter(LEATHER, {
 							i(224853),	-- Adventurer's Pith Helmet
