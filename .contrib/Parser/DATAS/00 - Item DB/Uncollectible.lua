@@ -1275,6 +1275,10 @@ i(201968);	-- Enormous Grain of Salt
 i(200818);	-- Eternal Flame
 i(192691);	-- Eternal Ice Stalactite
 i(200929);	-- Everglow Nectar
+i(199904);	-- Extraction: Awakened Air
+i(199905);	-- Extraction: Awakened Earth
+i(199901);	-- Extraction: Awakened Fire
+i(199903);	-- Extraction: Awakened Frost
 i(194036);	-- Exquisite Necklace
 i(192692);	-- Faerie Dust
 i(200805);	-- Fallen Watcher Remains
@@ -2039,6 +2043,10 @@ i(228481);	-- Tiny Fathomclam
 i(227309);	-- Titanshake
 i(220223);	-- Torn Gossamer Scrap
 i(220272);	-- Torn Manuscript Page
+i(222622);	-- Transcribe to Ascension
+i(222625);	-- Transcribe to Radiance
+i(222624);	-- Transcribe to Symbiosis
+i(222623);	-- Transcribe to Vivacity
 i(220300);	-- Translucent Wing
 i(220282);	-- Tuft of Whiskers
 i(213266);	-- Twitching Snack
