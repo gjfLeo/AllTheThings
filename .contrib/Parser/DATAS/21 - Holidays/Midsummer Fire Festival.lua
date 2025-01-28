@@ -925,7 +925,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			["icon"] = 134467,
 			-- #endif
 			["timeline"] = { REMOVED_2_4_0 },
-			["isYearly"] = true,
 			["lvl"] = 1,
 			-- #if BEFORE TBC
 			["groups"] = {
@@ -964,7 +963,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			["icon"] = 134467,
 			-- #endif
 			["timeline"] = { REMOVED_2_4_0 },
-			["isYearly"] = true,
 			["lvl"] = 1,
 			-- #if BEFORE TBC
 			["groups"] = {
