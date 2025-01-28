@@ -1656,11 +1656,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 				o(207496, {	-- Dark Iron Treasure Chest
 					--["modelScale"] = 1.5,
 					["coords"] = {
-						{ 34.3, 48.3, THE_MOLTEN_FRONT },
-						{ 33.9, 53.8, THE_MOLTEN_FRONT },
-						{ 49.9, 47.2, THE_MOLTEN_FRONT },
-						{ 65.8, 55.0, THE_MOLTEN_FRONT },
-						{ 68.5, 64.9, THE_MOLTEN_FRONT },
+						{ 34.3, 48.3, THE_MOLTEN_FRONT },	-- Floating rock on the way to Fireplume Peak?
+						{ 33.9, 53.8, THE_MOLTEN_FRONT },	-- Floating rock on the way to Fireplume Peak?
+						{ 49.9, 47.2, THE_MOLTEN_FRONT },	-- Inside Molten Flow?
+						{ 65.8, 55.0, THE_MOLTEN_FRONT },	-- Middle of the spider hill (confirmed january 2025)
+						{ 68.5, 64.9, THE_MOLTEN_FRONT },	-- Upon Forlorn Spire, or inside Igneous Depths?
 					},
 					["sym"] = {{"select","itemID",
 						67121,	-- Chestguard of the Caring Ursine
@@ -1832,145 +1832,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					}),
 					i(71631, {	-- Zen'Vorka's Cache
 						["cost"] = { { "c", 416, 30 }, },	-- 30x Mark of the World Tree
-						["sym"] = {{"select","itemID",
-							55405,	-- Blackwolf Amulet
-							55315,	-- Blackwolf Cloak
-							55378,	-- Blackwolf Crystal
-							55423,	-- Blackwolf Ring
-							55369,	-- Blackwolf Scepter
-							55441,	-- Blackwolf Spellblade
-							55486,	-- Blackwolf Wand
-							55296,	-- Bladefist Broadaxe
-							55332,	-- Bladefist Dagger
-							55350,	-- Bladefist Knuckles
-							55386,	-- Bladefist Mace
-							55458,	-- Bladefist Sword
-							55774,	-- Bluefen Cord
-							55747,	-- Bluefen Cowl
-							55738,	-- Bluefen Handwraps
-							55756,	-- Bluefen Leggings
-							55720,	-- Bluefen Robe
-							55729,	-- Bluefen Sandals
-							55765,	-- Bluefen Shoulderpads
-							55711,	-- Bluefen Wristwraps
-							55504,	-- Crystalvein Breastplate
-							55522,	-- Crystalvein Gauntlets
-							55558,	-- Crystalvein Girdle
-							55531,	-- Crystalvein Helm
-							55540,	-- Crystalvein Legplates
-							55549,	-- Crystalvein Pauldrons
-							55513,	-- Crystalvein Sabatons
-							55432,	-- Crystalvein Shield
-							55495,	-- Crystalvein Vambraces
-							55637,	-- Dandred Bindings
-							55655,	-- Dandred Boots
-							55682,	-- Dandred Britches
-							55664,	-- Dandred Gloves
-							55673,	-- Dandred Hood
-							55646,	-- Dandred Jerkin
-							55691,	-- Dandred Shoulders
-							55700,	-- Dandred Waistband
-							55772,	-- Everstill Cord
-							55745,	-- Everstill Cowl
-							55736,	-- Everstill Handwraps
-							55754,	-- Everstill Leggings
-							55718,	-- Everstill Robe
-							55727,	-- Everstill Sandals
-							55763,	-- Everstill Shoulderpads
-							55709,	-- Everstill Wristwraps
-							55638,	-- Haldarr Bindings
-							55656,	-- Haldarr Boots
-							55683,	-- Haldarr Britches
-							55665,	-- Haldarr Gloves
-							55674,	-- Haldarr Hood
-							55647,	-- Haldarr Jerkin
-							55692,	-- Haldarr Shoulders
-							55701,	-- Haldarr Waistband
-							55628,	-- Highperch Belt
-							55565,	-- Highperch Bracers
-							55592,	-- Highperch Gauntlets
-							55583,	-- Highperch Greaves
-							55601,	-- Highperch Helm
-							55610,	-- Highperch Legguards
-							55619,	-- Highperch Spaulders
-							55574,	-- Highperch Vest
-							55333,	-- Irontree Dagger
-							55351,	-- Irontree Knuckles
-							55387,	-- Irontree Mace
-							55450,	-- Irontree Staff
-							55459,	-- Irontree Sword
-							55286,	-- Mardenholde Axe
-							55295,	-- Mardenholde Broadaxe
-							55331,	-- Mardenholde Dagger
-							55349,	-- Mardenholde Knuckles
-							55385,	-- Mardenholde Mace
-							55412,	-- Mardenholde Spear
-							55457,	-- Mardenholde Sword
-							55403,	-- Mereldar Amulet
-							55313,	-- Mereldar Cloak
-							55376,	-- Mereldar Crystal
-							55421,	-- Mereldar Ring
-							55367,	-- Mereldar Scepter
-							55439,	-- Mereldar Spellblade
-							55484,	-- Mereldar Wand
-							55773,	-- Mystral Cord
-							55746,	-- Mystral Cowl
-							55737,	-- Mystral Handwraps
-							55755,	-- Mystral Leggings
-							55719,	-- Mystral Robe
-							55728,	-- Mystral Sandals
-							55764,	-- Mystral Shoulderpads
-							55710,	-- Mystral Wristwraps
-							55502,	-- Ravencrest Breastplate
-							55520,	-- Ravencrest Gauntlets
-							55556,	-- Ravencrest Girdle
-							55529,	-- Ravencrest Helm
-							55538,	-- Ravencrest Legplates
-							55547,	-- Ravencrest Pauldrons
-							55511,	-- Ravencrest Sabatons
-							55430,	-- Ravencrest Shield
-							55493,	-- Ravencrest Vambraces
-							55639,	-- Ravenholdt Bindings
-							55657,	-- Ravenholdt Boots
-							55684,	-- Ravenholdt Britches
-							55666,	-- Ravenholdt Gloves
-							55675,	-- Ravenholdt Hood
-							55648,	-- Ravenholdt Jerkin
-							55693,	-- Ravenholdt Shoulders
-							55702,	-- Ravenholdt Waistband
-							55503,	-- Stonewrought Breastplate
-							55521,	-- Stonewrought Gauntlets
-							55557,	-- Stonewrought Girdle
-							55530,	-- Stonewrought Helm
-							55539,	-- Stonewrought Legplates
-							55548,	-- Stonewrought Pauldrons
-							55512,	-- Stonewrought Sabatons
-							55431,	-- Stonewrought Shield
-							55494,	-- Stonewrought Vambraces
-							55630,	-- Talondeep Belt
-							55567,	-- Talondeep Bracers
-							55594,	-- Talondeep Gauntlets
-							55585,	-- Talondeep Greaves
-							55603,	-- Talondeep Helm
-							55612,	-- Talondeep Legguards
-							55621,	-- Talondeep Spaulders
-							55576,	-- Talondeep Vest
-							55404,	-- Thondroril Amulet
-							55314,	-- Thondroril Cloak
-							55377,	-- Thondroril Crystal
-							55422,	-- Thondroril Ring
-							55368,	-- Thondroril Scepter
-							55440,	-- Thondroril Spellblade
-							55485,	-- Thondroril Wand
-							55629,	-- Thornsnarl Belt
-							55566,	-- Thornsnarl Bracers
-							55593,	-- Thornsnarl Gauntlets
-							55584,	-- Thornsnarl Greaves
-							55602,	-- Thornsnarl Helm
-							55611,	-- Thornsnarl Legguards
-							55620,	-- Thornsnarl Spaulders
-							55575,	-- Thornsnarl Vest
-						}},
+						-- Danny Donkey: Rumours about greenies from this cache being of different ilvl and/or sourceID than ordinary world drops seems to be pre-release speculations only. No reports confirms this ever being the case from back when 4.2 released on retail, and likewise with Cata Classic.
+						["description"] = "Contains a random uncommon quality Cataclysm world drop. Also have a chance of containing the pet Searing Scorchling.",
 						["groups"] = {
 							i(34955),	-- Searing Scorchling (PET!)
 						},
