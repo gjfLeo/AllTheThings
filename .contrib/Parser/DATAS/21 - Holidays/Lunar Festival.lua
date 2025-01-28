@@ -1274,7 +1274,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		q(8619, {	-- Morndeep the Elder
 			["qg"] = 15549,	-- Elder Morndeep
 			["coord"] = { 39.06, 18.12, BLACKROCK_MOUNTAIN_LEVEL3 },
-			["description"] = "Located inside Blackrock Depths at the Ring of Law.\n\nWARNING: Approaching the Elder will also start the encounter.",
+			["description"] = "Located inside Blackrock Depths at the Ring of Law, accessed through the Detention Block. From the entrance walk straight forward across the big central floor into the facing cave, and the Ring of Law can be accessed on the immediate left. \n\nWARNING: Approaching the Elder will also start the encounter, but you can escape the way you came before the gate closes.",
 			["maps"] = { BLACKROCK_DEPTHS },
 			["isYearly"] = true,
 		}),
