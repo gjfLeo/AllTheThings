@@ -559,34 +559,50 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		-- Elders of Khaz Algar
 		q(85929, {	-- Archivist Rubbleglint on The Isle of Dorn
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233971,	-- Archivist Rubbleglint
+			["coord"] = { 40.91, 87.35, ISLE_OF_DORN },
 			["isYearly"] = true,
 		}),
 		q(85930, {	-- Archivist Coppermoss on The Isle of Dorn
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233972,	-- Archivist Coppermoss
+			["coord"] = { 48.62, 13.95, ISLE_OF_DORN },
 			["isYearly"] = true,
 		}),
 		q(85931, {	-- Archivist Farolt in The Ringing Deeps
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233973,	-- Archivist Farolt
+			["coord"] = { 48.9, 67.3, THE_RINGING_DEEPS },
 			["isYearly"] = true,
 		}),
 		q(85932, {	-- Archivist Silsigra in The Ringing Deeps
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233974,	-- Archivist Silsigra
+			["coord"] = { 67.29, 52.98, THE_RINGING_DEEPS },
 			["isYearly"] = true,
 		}),
 		q(85933, {	-- Elder Knythall in Hallowfall
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233975,	-- Elder Knythall
+			["coord"] = { 25.88, 51.93, HALLOWFALL },
 			["isYearly"] = true,
 		}),
 		q(85934, {	-- Elder Swornvow in Hallowfall
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233976,	-- Elder Swornvow
+			["coord"] = { 66.27, 46.28, HALLOWFALL },
 			["isYearly"] = true,
 		}),
 		q(85935, {	-- Elder Ikk'zivan in Azj-Kahet
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233977,	-- Elder Ikk'zivan
+			["coord"] = { 66.91, 85.53, AZJ_KAHET },
 			["isYearly"] = true,
 		}),
 		q(85936, {	-- Elder Ikk'xataz in Azj-Kahet
 			["timeline"] = { ADDED_11_0_7 },
+			["qg"] = 233978,	-- Elder Ikk'xataz
+			["coord"] = { 46.82, 57.21, AZJ_KAHET },
 			["isYearly"] = true,
 		}),
 
