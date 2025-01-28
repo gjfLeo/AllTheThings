@@ -51,7 +51,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 						19977,	-- Hidden Treasures: The Jade Forest
 					}},
 				}),
-
 			}),
 			n(FACTIONS, {
 				faction(FACTION_ORDER_OF_THE_CLOUD_SERPENT, {	-- Order of the Cloud Serpent
@@ -160,11 +159,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 					["sourceQuests"] = { 83776 },	-- Infinite Growth III
 					["provider"] = { "n", 213664 },	-- Momentus
 					["coord"] = { 42.5, 27.3, THE_JADE_FOREST },
-				}),
-				q(80311, {	-- Order of the Cloud Serpent
-					["provider"] = { "n", 63900 },	-- Toortle Wider
-					["coord"] = { 49, 46, THE_JADE_FOREST },
-					["isBreadcrumb"] = true,
 				}),
 				q(80441, {	-- Aid the Order of the Cloud Serpent
 					["provider"] = { "n", 58564 },	-- Elder Anli

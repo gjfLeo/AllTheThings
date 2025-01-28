@@ -1966,6 +1966,12 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					q(80311, {	-- Order of the Cloud Serpent
+						["provider"] = { "n", 63900 },	-- Toortle Wider
+						["coord"] = { 49, 46, THE_JADE_FOREST },
+						["isBreadcrumb"] = true,
+						["timeline"] = { ADDED_MOP_REMIX },
+					}),
 					q(29935, {	-- Orders are Orders
 						["sourceQuests"] = { 29879 },	-- Swallowed Whole
 						["provider"] = { "n", 56313 },	-- Tooki Tooki

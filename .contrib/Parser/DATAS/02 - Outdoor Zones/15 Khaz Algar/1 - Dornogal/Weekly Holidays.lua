@@ -23,6 +23,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(83364, {["timeline"] = { ADDED_11_0_7 }}),	-- A Savage Path Through Time
 				q(83359, {["timeline"] = { ADDED_11_0_7 }}),	-- A Shattered Path Through Time
 				q(83362, {["timeline"] = { ADDED_11_0_7 }}),	-- A Shrouded Path Through Time
+				q(86731, {["timeline"] = { ADDED_11_0_7 }}),	-- An Original Path Through Time
 			})),
 			n(QUESTS, sharedData({			-- No Cache Quests
 				["provider"] = { "n", 226919 },	-- Archivist Frithrun

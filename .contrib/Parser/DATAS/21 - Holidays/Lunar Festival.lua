@@ -521,8 +521,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["isYearly"] = true,
 		}),
 		q(73169, {	-- The Lunar Festival (A)
-			["qg"] = 199261,	-- Holiday Enthusiast
-			["maps"] = { VALDRAKKEN },
+			["qgs"] = {
+				199261,	-- Holiday Enthusiast
+				-- #if AFTER TWW
+				220307,	-- Holiday Enthusiast
+				-- #endif
+			},
+			["maps"] = {
+				VALDRAKKEN,
+				-- #if AFTER TWW
+				DORNOGAL,
+				-- #endif
+			},
 			["races"] = ALLIANCE_ONLY,
 			["isBreadcrumb"] = true,
 			["isYearly"] = true,
@@ -1386,7 +1396,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		q(8646, {	-- Hammershout the Elder
 			["qg"] = 15562,	-- Elder Hammershout
 			["coords"] = {
-				-- #if AFTER CATA
+				-- #if AFTER TWW
+				{ 32.1, 52.8, ELWYNN_FOREST },
+				-- #elseif AFTER CATA
 				{ 34.5, 50.3, ELWYNN_FOREST },
 				-- #elseif AFTER WRATH
 				{ 36.3, 66.1, STORMWIND_CITY },

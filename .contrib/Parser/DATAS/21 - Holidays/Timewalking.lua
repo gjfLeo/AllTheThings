@@ -2167,7 +2167,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 							i(133543),	-- Infinite Timereaver (MOUNT!)
 							i(50818),	-- Invincible (MOUNT!)
 							i(45693),	-- Mimiron's Head (MOUNT!)
-
 							i(224547, {	-- Timewarped Pouch
 								["timeline"] = { ADDED_10_2_7 }, -- Dropping in place of a pet
 							}),
