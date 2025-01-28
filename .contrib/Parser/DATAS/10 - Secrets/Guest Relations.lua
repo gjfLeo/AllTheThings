@@ -713,9 +713,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					i(226237, {	-- Green Hills of Stranglethorn - Page 25 (QI!)
 						["description"] = "Drops from Sand Devils In the Timeless Tunnel.",
+						["crs"] = { 227795 },	-- Sand Devil
 					}),
 					i(226238, {	-- Green Hills of Stranglethorn - Page 27 (QI!)
 						["description"] = "Drops from Sand Devils In the Timeless Tunnel.",
+						["crs"] = { 227795 },	-- Sand Devil
 					}),
 					o(456038, {	-- Wet Paper
 						["description"] = "Behind the Story Time Stage, next to the Hearthstone Table.",

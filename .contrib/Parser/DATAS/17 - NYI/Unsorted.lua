@@ -1514,7 +1514,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MOUNTS, {
 				i(232926),	-- Love Witch's Sweeper (MOUNT!) [Love in the Air]
-				i(232901),	-- Lunar Launcher (MOUNT!) [Love in the Air]
 				i(233023),	-- Silvermoon Sweeper (MOUNT!)
 				i(233019),	-- Sky Witch's Sweeper (MOUNT!) [Love in the Air]
 				i(233020),	-- Twilight Witch's Sweeper (MOUNT!) [Love in the Air]
