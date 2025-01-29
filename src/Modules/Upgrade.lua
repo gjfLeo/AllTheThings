@@ -37,6 +37,8 @@ end)
 local BonusIDNextUnlock = {
 
 	-- 10.0.7
+	-- Primalist 1/3 (Vendor)
+	[9340] = 9344,
 	-- Primalist 1/3
 	[9342] = 9344,
 	-- Primalist 2/3
