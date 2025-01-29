@@ -12,7 +12,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["groups"] = {
 			n(QUESTS, {
 				q(86964, {	-- For Gold and Glory!
-					["coord"] = { 75.5, 52.9, EASTERN_PLAGUELANDS },
+					["coord"] = { 81.3, 58.8, EASTERN_PLAGUELANDS },
 					["lvl"] = 60,
 				}),	
 				q(86965, {	-- No Ordinary Shadows
