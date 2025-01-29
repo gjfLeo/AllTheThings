@@ -8,7 +8,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["description"] = "[TBC] This is a new dungeon added in SoD Phase 7. \nThere is no detailed information yet. \nIt will be added after the wowhead guide is updated. \nIf you have any information, please leave a message under \"Karazhan Crypts Dungeon Overview - Season of Discovery\" on wowhead.",
 		["lvl"] = 58,
 		["coord"] = { 39.8, 73.6, DEADWIND_PASS },
-		["sourcequest"] = 86964,
+		["sourceQuest"] = 86964,
 	}))),
 }));
 -- #endif
