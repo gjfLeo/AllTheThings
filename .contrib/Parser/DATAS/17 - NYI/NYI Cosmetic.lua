@@ -451,7 +451,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			}),
 			n(WEAPONS, {
 				------ Single Pieces ------
-				i(220655),	-- Water Blaster P.K.
 				i(220690),	-- Water Blaster P.R.
 				i(220691),	-- Water Blaster Y.L.
 			}),
@@ -461,12 +460,9 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			n(ARMOR, {
-				i(212170),	-- Brann's Spare Hat
-				i(224165),	-- Dornogal Tabard
+				i(212170),	-- Bronzebeard's Spare Hat
 				i(224869),	-- Earthen Drape
-				i(224169),	-- Freywold Tabard
-				i(224167),	-- Gundargaz Tabard
-				i(224168),	-- Stonebound Tabard
+				i(224169),	-- Stonebound Tabard
 			}),
 			n(SETS, {
 				i(226000),	-- Ensemble: Earthen Adventurer's Copper Drapery

@@ -18,11 +18,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			})),
 		}),
 		expansion(EXPANSION.WOD, {
-			-- 6.0.2
-			expansion(EXPANSION.WOD, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
-				i(113710),	-- Ravaged Leather Leggings
-			})),
-
 			-- 6.2.0
 			expansion(EXPANSION.WOD, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_6_2_0 } }, {
 				i(127103),	-- Gladiator's Plate Shoulders
@@ -346,14 +341,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				}),
 			})),
 		}),
-		expansion(EXPANSION.SL, {
-			-- 9.0.1
-			expansion(EXPANSION.SL, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {
-				i(179775),	-- Conservator's Leather Tunic
-				i(179659),	-- Conservator's Silken Tunic
-				i(179660),	-- Winterborn Tunic
-			})),
-		}),
 	}),
 	f(MISC, {
 		expansion(EXPANSION.DF, {
@@ -381,12 +368,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 		}),
 	}),
 	n(WEAPONS, {
-		expansion(EXPANSION.WRATH, {
-			-- 3.0.2
-			expansion(EXPANSION.WRATH, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
-				i(42214),	-- Savage Gladiator's Waraxe
-			})),
-		}),
 		expansion(EXPANSION.MOP, {
 			-- 5.1.0
 			expansion(EXPANSION.MOP, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {
