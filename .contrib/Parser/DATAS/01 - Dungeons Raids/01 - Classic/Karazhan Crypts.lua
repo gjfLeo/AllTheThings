@@ -8,7 +8,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["description"] = "[TBC] \nThis is a new dungeon added in SoD Phase 7. \nThere is no detailed information yet. \nIt will be added after the wowhead guide is updated.",
 		["lvl"] = 58,
 		["coord"] = { 39.8, 73.6, DEADWIND_PASS },
-		["sourceQuest"] = 86964,
+		["sourceQuest"] = 86969,
 	}))),
 }));
 -- #endif
