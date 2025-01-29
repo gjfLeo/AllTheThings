@@ -8,7 +8,42 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["description"] = "[TBC] \nThis is a new dungeon added in SoD Phase 7. \nThere is no detailed information yet. \nIt will be added after the wowhead guide is updated.",
 		["lvl"] = 58,
 		["coord"] = { 39.8, 73.6, DEADWIND_PASS },
-		["sourceQuest"] = 86969,
+		["sourceQuest"] = 86970,
+		["groups"] = {
+			n(QUESTS, {
+				q(86964, {	-- For Gold and Glory!
+					["coord"] = { 75.5, 52.9, EASTERN_PLAGUELANDS },
+					["lvl"] = 60,
+				}),	
+				q(86965, {	-- No Ordinary Shadows
+					["coord"] = { 39.0, 74.0, DEADWIND_PASS },
+					["sourceQuest"] = 86964,	-- For Gold and Glory!
+					["lvl"] = 60,
+				}),
+				q(86966, {	-- Seeking Survivors
+					["coord"] = { 52.0, 34.0, DEADWIND_PASS },
+					["sourceQuest"] = 86965,	-- No Ordinary Shadows
+					["lvl"] = 60,
+				}),
+				q(86967, {	-- To the Rescue
+					["coord"] = { 59.2, 73.4, DEADWIND_PASS },
+					["sourceQuest"] = 86966,	-- Seeking Survivors
+					["lvl"] = 60,
+				}),
+				q(86968, {	-- Are You Afraid of the Dark?
+					["sourceQuest"] = 86967,	-- To the Rescue
+					["lvl"] = 60,
+				}),
+				q(86969, {	-- The Hypothesis
+					["sourceQuest"] = 86968,	-- Are You Afraid of the Dark?
+					["lvl"] = 60,
+				}),
+				q(86970, {	-- Testing Our Hypothesis
+					["sourceQuest"] = 86969,	-- The Hypothesis
+					["lvl"] = 60,
+				}),
+			}),
+		},
 	}))),
 }));
 -- #endif
