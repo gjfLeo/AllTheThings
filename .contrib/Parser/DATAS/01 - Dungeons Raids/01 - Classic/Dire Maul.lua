@@ -2199,6 +2199,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 								["timeline"] = { "removed 1.15.3" },
 								-- #endif
 							}),
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SEVEN, i(235787, {	-- Ancient Ironwood Branch (QI!)
+								["timeline"] = { ADDED_1_15_6 },
+							})),
+							-- #endif
 						},
 					}),
 					e(409, {	-- Immol'thar

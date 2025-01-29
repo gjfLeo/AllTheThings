@@ -42,6 +42,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["qg"] = 218920,	-- Dalaran Agent <Violet Eye>
 					["sourceQuest"] = 86968,	-- Are You Afraid of the Dark?
 					["lvl"] = 60,
+					["groups"] = {
+						i(235787, {	-- Ancient Ironwood Branch (QI!)
+							["providers"] = {
+								{ "n", 226923 },	-- Grimroot <The Mourning Guardian>
+								{ "n", 11489 },		-- Tendris Warpwood
+							},
+						}),
+						i(235788),	-- Enthusiastic Wisp (QI!)
+						i(235789, {	-- Flame of Life (QI!)
+							["description"] = "Can be found on the right side of Wetland, level 60 Elite Dragon",
+							["providers"] = {
+								{ "n", 1045 },	-- Red Dragonspawn
+								{ "n", 1047 },	-- Red Scalebane
+								{ "n", 1048 },	-- Scalebane Lieutenant
+								{ "n", 1049 },	-- Wyrmkin Firebrand
+								{ "n", 1050 },	-- Scalebane Royal Guard
+							},
+						}),
+					},
 				}),
 				q(86970, {	-- Testing Our Hypothesis
 					["qg"] = 218920,	-- Dalaran Agent <Violet Eye>

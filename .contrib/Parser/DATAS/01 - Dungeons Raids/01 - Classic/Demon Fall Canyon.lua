@@ -17,6 +17,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(228080),	-- Resin Loop
 				i(228081),	-- Germinating Poisonseed
 				i(228083),	-- Gloaming Treeheart
+				applyclassicphase(SOD_PHASE_SEVEN, i(235787, {	-- Ancient Ironwood Branch (QI!)
+					["timeline"] = { ADDED_1_15_6 },
+				})),
 			}),
 			n(228022, {	-- The Destructor's Wraith
 				i(228075),	-- Spear of Destiny
