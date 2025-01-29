@@ -1971,19 +1971,19 @@ i(235626, 1217760);	-- The Big G
 i(229944, 466016);	-- The Topskimmer Special
 i(229936, 466002);	-- Violet Armored Growler
 --- UNSORTED ---
-i(0, 466023);		-- Asset Advocator
+i(229952, 466023);	-- Asset Advocator
 i(0, 466024);		-- Bilgewater Bombardier
 i(0, 466001);		-- Blackwater Bonecrusher
 i(235344, 1216542);	-- Blazing Royal Fire Hawk
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
-i(0, 466018);		-- Darkfuse Demolisher
+i(229950, 466018);	-- Darkfuse Demolisher
 i(229955, 466027);	-- Darkfuse Spy-Eye
 i(235662, 1218069);	-- Emerald Snail
 i(227362, 459784);	-- Golden Ashes of Al'ar
-i(0, 466017);		-- Innovation Investigator
+i(229941, 466017);	-- Innovation Investigator
 i(0, 468068);		-- Junkmaestro's Magnetomech
 i(235555, 1217341);	-- Lively Darkmoon Charger
-i(0, 466025);		-- Margin Manipulator
+i(229954, 466025);	-- Margin Manipulator
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(235650, 1217994);	-- Pearlescent Butterfly
