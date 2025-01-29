@@ -627,9 +627,13 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
-root(ROOTS.HiddenQuestTriggers,{
-	expansion(EXPANSION.MOP, {
-		q(30454),	-- Pandaren Alliance Tracking Quest - triggers after choosing Alliance faction
-		q(30455),	-- Pandaren Horde Tracking Quest - triggers after choosing Horde faction
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
+	m(PANDARIA, {
+		m(THE_WANDERING_ISLE, {
+			n(QUESTS, {
+				q(30454),	-- Pandaren Alliance Tracking Quest - triggers after choosing Alliance faction
+				q(30455),	-- Pandaren Horde Tracking Quest - triggers after choosing Horde faction
+			}),
+		}),
 	}),
-});
+})));

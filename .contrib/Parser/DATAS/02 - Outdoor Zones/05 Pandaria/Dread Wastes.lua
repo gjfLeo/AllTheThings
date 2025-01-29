@@ -1801,19 +1801,31 @@ root(ROOTS.Zones, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers,{
-	expansion(EXPANSION.MOP, {
-		q(31666),	-- FLAG - Wind-Reaver's Dagger - second trigger for Wind-Reaver's Dagger of Quick Strikes treasure
-		q(31282),	-- Kaz'tik Tracking Quest - triggers after freeing Kaz'tik from amber
-		q(31343),	-- Kovok Tracking - triggers after turning in "Reunited" (questID 31091), allows Kovok to follow you
-		q(31484),	-- Hisek Tracking Quest
-		q(32012),	-- Kovok tracking [GROWING]
-		q(31115),	-- FLAG - Freed Han
-		q(31992),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 01 - Angel of Death
-		q(31993),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 02 - Iron Mantid
-		q(31994),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 03 - Raining Blood
-		q(31995),	-- [FLAG] Dread Wastes Buff Bitflag - Augmentation 01 - Speed King
-		q(31996),	-- [FLAG] Dread Wastes Buff Bitflag - Augmentation 02 - Seek and Destroy
-		q(31997),	-- [FLAG] Dread Wastes Buff Bitflag - Augmentation 03 - Speed King
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
+	m(PANDARIA, {
+		m(DREAD_WASTES, {
+			n(FACTIONS, {
+				faction(FACTION_THE_KLAXXI, {
+					q(31992),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 01 - Angel of Death
+					q(31993),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 02 - Iron Mantid
+					q(31994),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 03 - Raining Blood
+					q(31995),	-- [FLAG] Dread Wastes Buff Bitflag - Augmentation 01 - Speed King
+					q(31996),	-- [FLAG] Dread Wastes Buff Bitflag - Augmentation 02 - Seek and Destroy
+					q(31997),	-- [FLAG] Dread Wastes Buff Bitflag - Augmentation 03 - Speed King
+					n(QUESTS, {
+						q(31484),	-- Hisek Tracking Quest
+						q(31282),	-- Kaz'tik Tracking Quest - triggers after freeing Kaz'tik from amber
+						q(31343),	-- Kovok Tracking - triggers after turning in "Reunited" (questID 31091), allows Kovok to follow you
+						q(32012),	-- Kovok tracking [GROWING]
+					}),
+				}),
+			}),
+			n(QUESTS, {
+				q(31115),	-- FLAG - Freed Han
+			}),
+			n(TREASURES, {
+				q(31666),	-- FLAG - Wind-Reaver's Dagger - second trigger for Wind-Reaver's Dagger of Quick Strikes treasure
+			}),
+		}),
 	}),
-});
+})));

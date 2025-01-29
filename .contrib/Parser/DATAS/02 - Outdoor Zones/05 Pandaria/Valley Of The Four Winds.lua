@@ -6510,39 +6510,75 @@ root(ROOTS.Zones, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers,{
-	expansion(EXPANSION.MOP, {
-		q(30566),	-- FLAG - Pest Problems Training — triggered after turning in daily quest "Pest Problems" (questID 30319)
-		q(30629),	-- FLAG - Player Began Finale - triggered after cutscene prompted by turning in "Stoneplow Thirsts" (questID 30117)
-		q(30536),	-- FLAG - Weed War Training — triggered after turning in daily quest "Weed War II" (questID 30321)
-		q(31344),	-- Tracking Event: Chee Chee Exalted
-		q(30365),	-- Tracking Event: Chee Chee is Farmhand
-		q(31345),	-- Tracking Event: Ella Exalted
-		q(30366),	-- Tracking Event: Ella is Farmhand
-		q(31346),	-- Tracking Event: Farmer Fung Exalted
-		q(30370),	-- Tracking Event: Farmer Fung is Farmhand
-		q(30531),	-- Tracking Event: Finished First Expansion
-		q(30533),	-- Tracking Event: Finished Second Expansion
-		q(30574),	-- Tracking Event: Finished Third Expansion
-		q(31347),	-- Tracking Event: Fish Fellreed Exalted
-		q(30372),	-- Tracking Event: Fish Fellreed is Farmhand
-		q(31317),	-- Tracking Event: Found Entrance - triggers during "Old Man Thistle's Treasure" (questID 31314)
-		q(31318),	-- Tracking Event: Found Treasure - triggers during "Old Man Thistle's Treasure" (questID 31314)
-		q(31348),	-- Tracking Event: Gina Mudclaw Exalted
-		q(30374),	-- Tracking Event: Gina Mudclaw is Farmhand
-		q(31349),	-- Tracking Event: Haohan Mudclaw Exalted
-		q(30369),	-- Tracking Event: Haohan Mudclaw is Farmhand
-		q(31350),	-- Tracking Event: Jogu the Drunk Exalted
-		q(30373),	-- Tracking Event: Jogu the Drunk is Farmhand
-		q(31351),	-- Tracking Event: Old Hillpaw Exalted
-		q(30368),	-- Tracking Event: Old Hillpaw is Farmhand
-		q(31352),	-- Tracking Event: Sho Exalted
-		q(30367),	-- Tracking Event: Sho is Farmhand
-		q(30530),	-- Tracking Event: Started First Expansion — triggers after turning in "Growing the Farm I: A Little Problem" (questID 30516)
-		q(30532),	-- Tracking Event: Started Second Expansion — triggers after turning in "???" (questID ???)	-- TODO
-		q(30573),	-- Tracking Event: Started Third Expansion — triggers after turning in "???" (questID ???)	-- TODO
-		q(31353),	-- Tracking Event: Tina Mudclaw Exalted
-		q(30371),	-- Tracking Event: Tina Mudclaw is Farmhand
-		q(31950),	-- Tracking Quest: Move NPCs to Dais — triggered after turning in "Learn and Grow VI: Gina's Vote" (questID 31945)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
+	m(PANDARIA, {
+		m(VALLEY_OF_THE_FOUR_WINDS, {
+			n(FACTIONS, {
+				faction(FACTION_THE_TILLERS, {
+					faction(FACTION_CHEE_CHEE, {
+						q(31344),	-- Tracking Event: Chee Chee Exalted
+						q(30365),	-- Tracking Event: Chee Chee is Farmhand
+					}),
+					faction(FACTION_ELLA, {
+						q(31345),	-- Tracking Event: Ella Exalted
+						q(30366),	-- Tracking Event: Ella is Farmhand
+					}),
+					faction(FACTION_FARMER_FUNG, {
+						q(31346),	-- Tracking Event: Farmer Fung Exalted
+						q(30370),	-- Tracking Event: Farmer Fung is Farmhand
+					}),
+					faction(FACTION_FISH_FELLREED, {
+						q(31347),	-- Tracking Event: Fish Fellreed Exalted
+						q(30372),	-- Tracking Event: Fish Fellreed is Farmhand
+					}),
+					faction(FACTION_GINA_MUDCLAW, {
+						q(31348),	-- Tracking Event: Gina Mudclaw Exalted
+						q(30374),	-- Tracking Event: Gina Mudclaw is Farmhand
+						n(QUESTS, {
+							q(31950),	-- Tracking Quest: Move NPCs to Dais — triggered after turning in "Learn and Grow VI: Gina's Vote" (questID 31945)
+						}),
+					}),
+					faction(FACTION_HAOHAN_MUDCLAW, {
+						q(31349),	-- Tracking Event: Haohan Mudclaw Exalted
+						q(30369),	-- Tracking Event: Haohan Mudclaw is Farmhand
+						n(QUESTS, {
+							q(30566),	-- FLAG - Pest Problems Training — triggered after turning in daily quest "Pest Problems" (questID 30319)
+						}),
+					}),
+					faction(FACTION_JOGU_THE_DRUNK, {
+						q(31350),	-- Tracking Event: Jogu the Drunk Exalted
+						q(30373),	-- Tracking Event: Jogu the Drunk is Farmhand
+						n(QUESTS, {
+							q(30536),	-- FLAG - Weed War Training — triggered after turning in daily quest "Weed War II" (questID 30321)
+						}),
+					}),
+					faction(FACTION_OLD_HILLPAW, {
+						q(31351),	-- Tracking Event: Old Hillpaw Exalted
+						q(30368),	-- Tracking Event: Old Hillpaw is Farmhand
+					}),
+					faction(FACTION_SHO, {
+						q(31352),	-- Tracking Event: Sho Exalted
+						q(30367),	-- Tracking Event: Sho is Farmhand
+					}),
+					faction(FACTION_TINA_MUDCLAW, {
+						q(31353),	-- Tracking Event: Tina Mudclaw Exalted
+						q(30371),	-- Tracking Event: Tina Mudclaw is Farmhand
+					}),
+					n(QUESTS, {
+						q(30531),	-- Tracking Event: Finished First Expansion
+						q(30533),	-- Tracking Event: Finished Second Expansion
+						q(30574),	-- Tracking Event: Finished Third Expansion
+						q(31317),	-- Tracking Event: Found Entrance - triggers during "Old Man Thistle's Treasure" (questID 31314)
+						q(31318),	-- Tracking Event: Found Treasure - triggers during "Old Man Thistle's Treasure" (questID 31314)
+						q(30530),	-- Tracking Event: Started First Expansion — triggers after turning in "Growing the Farm I: A Little Problem" (questID 30516)
+						q(30532),	-- Tracking Event: Started Second Expansion — triggers after turning in "???" (questID ???)	-- TODO
+						q(30573),	-- Tracking Event: Started Third Expansion — triggers after turning in "???" (questID ???)	-- TODO
+					}),
+				}),
+			}),
+			n(QUESTS, {
+				q(30629),	-- FLAG - Player Began Finale - triggered after cutscene prompted by turning in "Stoneplow Thirsts" (questID 30117)
+			}),
+		}),
 	}),
-});
+})));
