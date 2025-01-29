@@ -790,13 +790,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		}),
 		q(8722, {	-- Meadowrun the Elder
 			["qg"] = 15602,	-- Elder Meadowrun
-			["coords"] = {
-				-- #if AFTER CATA
-				{ 63.5, 36.2, WESTERN_PLAGUELANDS },
-				-- #else
-				{ 66.0, 47.8, WESTERN_PLAGUELANDS },
-				-- #endif
-			},
+			-- #if AFTER CATA
+			["description"] = "Found inside the Weeping Cave.",
+			["coord"] = { 63.5, 36.2, WESTERN_PLAGUELANDS },
+			-- #else
+			["coord"] = { 66.0, 47.8, WESTERN_PLAGUELANDS },
+			-- #endif
 			["isYearly"] = true,
 		}),
 		q(8714, {	-- Moonstrike the Elder
