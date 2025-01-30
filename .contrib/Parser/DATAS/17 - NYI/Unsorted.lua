@@ -1789,9 +1789,6 @@ root(ROOTS.Unsorted, {
 				i(232338),	-- Creche-Magus's Cinch
 			}),
 			n(WEAPONS, {
-				-- Starter Weps or Boost/Trial Weps
-				i(231839),	-- Trailseeker Longbow
-				i(231840),	-- Trailseeker Crossbow
 				-- Duplicated dagger from BRD loottable
 				i(231490),	-- Arbiter's Blade
 			}),
