@@ -1230,7 +1230,6 @@ root(ROOTS.Unsorted, {
 				i(231751),	-- Earthen Backpack
 			}),
 			filter(BATTLE_PETS, {
-				i(234397),	-- Fullbelly Rollingpaw (PET!) [Trading Post]
 				i(232923),	-- Living Rose (PET!)
 				i(234905),	-- Mech-Friend Maya (PET!)
 				i(233057),	-- Rock Hound Mica (PET!)
@@ -1260,12 +1259,10 @@ root(ROOTS.Unsorted, {
 				i(232915),	-- Twilight Witch's Heartfelt Spaulders
 				i(232916),	-- Vivid Heartfelt Spaulders
 				i(232925),	-- Ensemble: Truly Heartfelt Shoulders
-
 				i(232933),	-- Ensemble: Sky Witch's Heartfelt Shoulders
 				i(232934),	-- Ensemble: Twilight Witch's Heartfelt Shoulders
 				i(233072),	-- Short Crimson War Skirt
 				i(233073),	-- Long Crimson War Skirt
-				i(233074),	-- Short Crimson War Skirt and Leg Wraps
 				i(233075),	-- Long Crimson War Skirt and Leg Wraps
 				i(233076),	-- Banded Crimson War Wraps
 				i(233078),	-- Banded Crimson War Slippers
@@ -1365,7 +1362,6 @@ root(ROOTS.Unsorted, {
 				i(233182),	-- Banded Violet War Slippers
 				i(233183),	-- Banded Aquatic War Slippers
 				i(233184),	-- Banded Snowy War Slippers
-				i(233218),	-- Crimson Lunar Lantern
 				i(233219),	-- Azure Lunar Lantern
 				i(233220),	-- Lively Lunar Lantern
 				i(233221),	-- Violet Lunar Lantern
@@ -1377,11 +1373,9 @@ root(ROOTS.Unsorted, {
 				i(233229),	-- Silver Lunar Polearm
 				i(233230),	-- Gold Lunar Polearm
 				i(233231),	-- Steel Lunar Polearm
-				i(233232),	-- Crimson Lunar Firewhacker
 				i(233233),	-- Azure Lunar Firewhacker
 				i(233234),	-- Lively Lunar Firewhacker
 				i(233235),	-- Violet Lunar Firewhacker
-				i(233236),	-- Crimson Pack of Lunar Explosives
 				i(233237),	-- Lively Pack of Lunar Explosives
 				i(233238),	-- Azure Pack of Lunar Explosives
 				i(233239),	-- Sunny Pack of Lunar Explosives
@@ -1414,27 +1408,21 @@ root(ROOTS.Unsorted, {
 				i(233327),	-- Cobalt Clockwork Attire
 				i(233330),	-- Violet Clockwork Attire
 				i(234037),	-- Lunar Festival Slippers
-				i(234038),	-- Lunar Festival Slippers - Pink
 				i(234039),	-- Lunar Festival Slippers - Purple
 				i(234040),	-- Lunar Festival Slippers - Teal
 				i(234041),	-- Lunar Festival Belt
-				i(234042),	-- Lunar Festival Belt - Pink
 				i(234043),	-- Lunar Festival Belt - Purple
 				i(234044),	-- Lunar Festival Belt - Teal
 				i(234045),	-- Lunar Festival Robe
-				i(234046),	-- Lunar Festival Robe - Pink
 				i(234047),	-- Lunar Festival Robe - Purple
 				i(234048),	-- Lunar Festival Robe - Teal
 				i(234049),	-- Lunar Festival Spaulders
-				i(234050),	-- Lunar Festival Spaulders - Pink
 				i(234051),	-- Lunar Festival Spaulders - Purple
 				i(234052),	-- Lunar Festival Spaulders - Teal
 				i(234053),	-- Lunar Festival Crown
-				i(234054),	-- Lunar Festival Crown - Pink
 				i(234055),	-- Lunar Festival Crown - Purple
 				i(234056),	-- Lunar Festival Crown - Teal
 				i(234057),	-- Lunar Festival Attire
-				i(234058),	-- Lunar Festival Attire - Pink
 				i(234059),	-- Lunar Festival Attire - Purple
 				i(234060),	-- Lunar Festival Attire - Teal
 
@@ -1480,7 +1468,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MOUNTS, {
 				i(232926),	-- Love Witch's Sweeper (MOUNT!) [Love in the Air]
-				i(233023),	-- Silvermoon Sweeper (MOUNT!)
 				i(233019),	-- Sky Witch's Sweeper (MOUNT!) [Love in the Air]
 				i(233020),	-- Twilight Witch's Sweeper (MOUNT!) [Love in the Air]
 			}),

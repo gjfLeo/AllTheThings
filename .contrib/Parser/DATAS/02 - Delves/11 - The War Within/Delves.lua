@@ -2202,6 +2202,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				n(TREASURES, {
 					filter(BATTLE_PETS, {
 						i(222971),	-- Bouncer (PET!)
+						i(221496),	-- Wriggle (PET!)
 					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine

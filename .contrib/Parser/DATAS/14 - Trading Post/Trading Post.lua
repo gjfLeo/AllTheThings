@@ -2455,6 +2455,35 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
+		n(FEBRUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58238", "removed 11.0.7.99999" } }, {	-- TODO: Timeline out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				iensemble(234058),	-- Ensemble: Ornate Pink Lunar Festival Attire
+			}),
+			filter(BATTLE_PETS, {
+				i(234397, {	-- Fullbelly Rollingpaw (PET!)
+					["cost"] = {{"c", TRADERS_TENDER, 999}},
+				}),
+			}),
+			filter(MOUNTS, {
+				i(233023, {	-- Silvermoon Sweeper (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 999}},
+				}),
+			}),
+			filter(COSMETIC, {
+				i(233232, {	-- Crimson Lunar Firewhacker
+					["cost"] = {{"c", TRADERS_TENDER, 999}},
+				}),
+				i(233218, { -- Crimson Lunar Lantern
+					["cost"] = {{"c", TRADERS_TENDER, 999}},
+				}),
+				i(233236, {	-- Crimson Pack of Lunar Explosives
+					["cost"] = {{"c", TRADERS_TENDER, 999}},
+				}),
+				i(233074, {	-- Short Crimson War Skirt and Leg Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 999}},
+				}),
+			}),
+		})),
 	}),
 }));
 
