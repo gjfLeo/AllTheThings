@@ -586,29 +586,27 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 						conquest(525, i(229784)),	-- Prized Gladiator's Sigil of Adaptation
 					}),
 					n(WEAPONS, {
-						-- TODO: need to fix price, you aren't able to see them in vendor without achievement
-						-- TODO: don't forget to remove from unsorted too, something could be NYI
-						conquest(0, i(229792)),	-- Prized Gladiator's Army Knife
-						conquest(0, i(229797)),	-- Prized Gladiator's Blaster
-						conquest(0, i(229791)),	-- Prized Gladiator's Bludgeon
-						conquest(0, i(229790)),	-- Prized Gladiator's Bow
-						conquest(0, i(229799)),	-- Prized Gladiator's Bulwark
-						conquest(0, i(232620)),	-- Prized Gladiator's Conduit
-						conquest(0, i(229786)),	-- Prized Gladiator's Dagger
-						conquest(0, i(229796)),	-- Prized Gladiator's Detonator
-						conquest(0, i(229788)),	-- Prized Gladiator's Drill
-						conquest(0, i(229794)),	-- Prized Gladiator's Flail
-						conquest(0, i(229793)),	-- Prized Gladiator's Gasket
-						conquest(0, i(229800)),	-- Prized Gladiator's Greatsaw
-						conquest(0, i(229798)),	-- Prized Gladiator's Greatstaff
-						conquest(0, i(229785)),	-- Prized Gladiator's Last Resort
-						conquest(0, i(229795)),	-- Prized Gladiator's Pincer
-						conquest(0, i(229801)),	-- Prized Gladiator's Pulverizer
-						conquest(0, i(229804)),	-- Prized Gladiator's Pylon
-						conquest(0, i(229803)),	-- Prized Gladiator's Skewer
-						conquest(0, i(229789)),	-- Prized Gladiator's Staff
-						conquest(0, i(229802)),	-- Prized Gladiator's Torchblade
-						conquest(0, i(229787)),	-- Prized Gladiator's Warglaive
+						conquest(525, i(229792)),	-- Prized Gladiator's Army Knife
+						conquest(1750, i(229797)),	-- Prized Gladiator's Blaster
+						conquest(1225, i(229791)),	-- Prized Gladiator's Bludgeon
+						conquest(1750, i(229790)),	-- Prized Gladiator's Bow
+						conquest(525, i(229799)),	-- Prized Gladiator's Bulwark
+						conquest(525, i(232620)),	-- Prized Gladiator's Conduit
+						conquest(875, i(229786)),	-- Prized Gladiator's Dagger
+						conquest(875, i(229796)),	-- Prized Gladiator's Detonator
+						conquest(1750, i(229788)),	-- Prized Gladiator's Drill
+						conquest(875, i(229794)),	-- Prized Gladiator's Flail
+						conquest(525, i(229793)),	-- Prized Gladiator's Gasket
+						conquest(1750, i(229800)),	-- Prized Gladiator's Greatsaw
+						conquest(1750, i(229798)),	-- Prized Gladiator's Greatstaff
+						conquest(875, i(229785)),	-- Prized Gladiator's Last Resort
+						conquest(1225, i(229795)),	-- Prized Gladiator's Pincer
+						conquest(1750, i(229801)),	-- Prized Gladiator's Pulverizer
+						conquest(1750, i(229804)),	-- Prized Gladiator's Pylon
+						conquest(900, i(229803)),	-- Prized Gladiator's Skewer
+						conquest(1750, i(229789)),	-- Prized Gladiator's Staff
+						conquest(900, i(229802)),	-- Prized Gladiator's Torchblade
+						conquest(875, i(229787)),	-- Prized Gladiator's Warglaive
 					}),
 				},
 			}),

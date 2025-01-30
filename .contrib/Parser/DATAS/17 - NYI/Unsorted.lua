@@ -77,14 +77,6 @@ root(ROOTS.Unsorted, {
 				i(233461),	-- Scrapcoil Grips
 				i(233462),	-- Scrapcoil Striders
 				i(233463),	-- Scrapcoil Chainmail
-				i(233464),	-- Rebel Spike Bindings
-				i(233465),	-- Rebel Spike Sash
-				i(233466),	-- Rebel Spike Epaulets
-				i(233467),	-- Rebel Spike Breeches
-				i(233468),	-- Rebel Spike Headgear
-				i(233469),	-- Rebel Spike Grips
-				i(233470),	-- Rebel Spike Waders
-				i(233471),	-- Rebel Spike Vest
 				i(233472),	-- Shimmerthread Wristwraps
 				i(233473),	-- Shimmerthread Cord
 				i(233474),	-- Shimmerthread Shoulderpads
@@ -447,7 +439,6 @@ root(ROOTS.Unsorted, {
 				i(236756),	-- Socially Expected Tip Chest
 				i(236757),	-- Generous Tip Chest
 				i(236758),	-- Extravagant Tip Chest
-				i(236763),	-- Finder's Fee
 				i(236764),	-- Finder's Fee
 				-- Crests
 				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
@@ -612,27 +603,6 @@ root(ROOTS.Unsorted, {
 				i(232889),	-- Ensemble: Algari Warmonger's Plate Armor
 				i(232890),	-- Arsenal: Algari Warmonger's Weapons
 
-				i(229785),	-- Prized Gladiator's Last Resort
-				i(229786),	-- Prized Gladiator's Dagger
-				i(229787),	-- Prized Gladiator's Warglaive
-				i(229788),	-- Prized Gladiator's Drill
-				i(229789),	-- Prized Gladiator's Staff
-				i(229790),	-- Prized Gladiator's Bow
-				i(229791),	-- Prized Gladiator's Bludgeon
-				i(229792),	-- Prized Gladiator's Army Knife
-				i(229793),	-- Prized Gladiator's Gasket
-				i(229794),	-- Prized Gladiator's Flail
-				i(229795),	-- Prized Gladiator's Pincer
-				i(229796),	-- Prized Gladiator's Detonator
-				i(229797),	-- Prized Gladiator's Blaster
-				i(229798),	-- Prized Gladiator's Greatstaff
-				i(229799),	-- Prized Gladiator's Bulwark
-				i(229800),	-- Prized Gladiator's Greatsaw
-				i(229801),	-- Prized Gladiator's Pulverizer
-				i(229802),	-- Prized Gladiator's Torchblade
-				i(229803),	-- Prized Gladiator's Skewer
-				i(229804),	-- Prized Gladiator's Pylon
-
 				i(230721),	-- Prized Equipment Chest
 
 				i(232664),	-- Ensemble: Forged Aspirant's Cloth Armor
@@ -696,7 +666,6 @@ root(ROOTS.Unsorted, {
 				i(232723),	-- Ensemble: Elite Prized Gladiator's Warlock Armor
 				i(232724),	-- Ensemble: Elite Prized Gladiator's Warrior Armor
 
-				i(232620),	-- Prized Gladiator's Conduit
 				i(232864),	-- Arsenal: Forged Aspirant's Weapons
 				i(232865),	-- Arsenal: Forged Gladiator's Weapons
 				i(232866),	-- Arsenal: Elite Forged Gladiator's Weapons
@@ -761,7 +730,6 @@ root(ROOTS.Unsorted, {
 				i(235310),	-- Flashy Patchwork Trousers
 				i(235312),	-- Snooty's Aviator Bindings
 				i(235313),	-- Shockproof Helm
-				i(235315),	-- Rocketstep Boots
 				i(235323),	-- Blastshell Bracers
 				i(235324),	-- Scavenger's Lost Bind
 				i(235326),	-- Ratspit's Heirloom Wristwraps
@@ -1160,8 +1128,6 @@ root(ROOTS.Unsorted, {
 			i(233113),	-- Crocodilian's Head
 			i(233172),	-- Banded Grassy War Slippers
 			i(233479),	-- Shimmerthread Robe
-			i(234384),	-- Ensemble: Chains of the Stygian Sea
-			i(234385),	-- Ensemble: Aegis of Hidden Stars
 			i(234733),	-- Bloodwake Ritual Bowl
 			i(236960),	-- Prototype A.S.M.R.
 			i(237014),	-- Severed Threads Commendation

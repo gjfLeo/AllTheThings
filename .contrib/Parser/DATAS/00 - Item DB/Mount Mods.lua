@@ -494,7 +494,7 @@ i(235389, 86772);	-- Paint: Goblin Green
 i(235388, 86773);	-- Paint: Redlining Red
 i(235391, 86774);	-- Paint: Yellow Cake Yellow
 i(232983, 85783);	-- Steamboil
-i(236671, 85786);	-- The Whole Brass Band
+i(236671, 85786);	-- The Buzzer
 --- UNSORTED ---
 i(235697, 82192);	-- Delver's Dirigible Schematic: Alliance Decal
 i(235694, 82117);	-- Delver's Dirigible Schematic: Blue Paint

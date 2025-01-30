@@ -1190,11 +1190,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["isWeekly"] = true,
 			}),
 			q(86775, {	-- Urge to Surge
-				--TODO: weekly for NYI feature in zone/locked behind something?
+				--TODO: DRIVE public event, bugged on ptr
+				--TODO: EF > Cartels > own file with all repeatable quests in hqts here
+				--TODO: and rewards from public event itself?
 				--["sourceQuests"] = { xx },	-- ??
 				["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 				["coord"] = { 43.8, 50.8, UNDERMINE },
 				["isWeekly"] = true,
+				["g"] = {
+					i(238208),	-- Nanny's Surge Dividends
+				},
 			}),
 			-- Side Gig stuff (weekly for new area in Ringing Deeps/Kaja-Coast)
 			-- doesn't required to sign up contract (choose faction)
@@ -1243,6 +1248,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["isWeekly"] = true,
 				["g"] = {
 					i(235339),	-- Powdery Crab Meat (QI!)
+				},
+			}),
+			q(86180, {	-- Side Gig: Infested Waters
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231065 },	-- Freddi Powergrind
+				["coord"] = { 19.7, 53.0, UNDERMINE },
+				["isWeekly"] = true,
+			}),
+			q(85554, {	-- Side Gig: It's Always Sunny Side Up
+				--["sourceQuests"] = { xx },	-- ??
+				["provider"] = { "n", 231064 },	-- Captain Crudeshank
+				["coord"] = { 19.8, 52.9, UNDERMINE },
+				["isWeekly"] = true,
+				["g"] = {
+					o(506696, {	-- Buried Treasure
+						i(235346),	-- Shiny Treasure (QI!)
+					}),
 				},
 			}),
 			q(85960, {	-- Side Gig: Lost in the Sauce

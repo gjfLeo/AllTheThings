@@ -44,7 +44,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					-- This one is 'forge a pact'?
 					["coord"] = { 42.9, 52.3, UNDERMINE },
 					["g"] = {
-						i(234281),	-- Undermine Cartel Work
+						i(234281),	-- Undermine Cartel Work (TODO: seems like NYI as of 58819 build)
 					},
 				}),
 				q(85524, {	-- Disarming the Darkfuse
@@ -111,6 +111,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(84995, {	-- Pictures! Pictures of Undermine!
 					["coord"] = { 42.1, 52.1, UNDERMINE },
 				}),
+				q(85268, {	-- Pow-Arr Wash Simulator
+					["coord"] = { 65.4, 12.7, UNDERMINE },
+				}),
+				q(85528, {	-- Recrewtment
+					["coord"] = { 39.5, 45.8, UNDERMINE },
+				}),
 				q(85400, {	-- Reduce, Re-ooze, Recycle
 					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
 				}),
@@ -140,6 +146,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				-- Racings
 				q(85925, {	-- Breakneck Racing - Breakneck Bolt
 					["coord"] = { 24.8, 51.1, UNDERMINE },
+				}),
+				q(85927, {	-- Breakneck Racing - Casino Cruise
+					["coord"] = { 39.8, 52.7, UNDERMINE },
 				}),
 				q(85926, {	-- Breakneck Racing - Junkyard Jaunt
 					["coord"] = { 43.2, 76.8, UNDERMINE },

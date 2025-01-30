@@ -190,9 +190,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234746, {	-- Venture Co.'s Trove
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
 					}),
-					i(236671, {	-- The Whole Brass Band (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-					}),
 					i(235672, {	-- Venture Co. Banner (TOY!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
@@ -224,11 +221,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(231405, {	-- Boatswain Hardee <Blackwater Quartermaster>
 				["coord"] = { 63.4, 16.7, UNDERMINE },
 				["g"] = {
+					-- Friendly
+					i(236763),	-- Finder's Fee
 					-- Honored
 					i(234744, {	-- Blackwater's Trove
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
 					}),
-					-- TODO: The Buzzer?
+					i(236671, {	-- The Buzzer (MM!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
+					}),
 					i(235671, {	-- Blackwater Cartel Banner (TOY!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),

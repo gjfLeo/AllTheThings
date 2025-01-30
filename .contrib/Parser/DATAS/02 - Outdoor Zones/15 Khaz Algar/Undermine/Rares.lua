@@ -123,6 +123,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84922,
 				["g"] = {
 					i(235322),	-- Junkyard Clawguards
+					i(235315),	-- Rocketstep Boots
 				},
 			}),
 			n(230931, {	-- Scrapbeak
@@ -190,10 +191,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			-- TODO: Sort it when you find them
 			n(231310, {	-- The Darkfuse Precipitant
+				-- NYI?
 				--["coord"] = { x, y, UNDERMINE },
 				--["questID"] = xx,
 			}),
 			n(233472, {	-- Volstrike the Charged
+				--["description"] = "Can be summoned by someone who has contract with Blackwater Cartel",
 				--["coord"] = { x, y, UNDERMINE },
 				--["questID"] = xx,
 			}),

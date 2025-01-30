@@ -25,6 +25,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				q(86923),	-- Go Fish
 				q(86924),	-- Gotta Catch at Least a Few
 				q(87306),	-- Kaja Cruising
+				q(87302),	-- Rare Rivals
 				q(86918),	-- Reclaimed Scrap
 				q(86915),	-- Side with a Cartel
 				q(86919),	-- Side Gig
