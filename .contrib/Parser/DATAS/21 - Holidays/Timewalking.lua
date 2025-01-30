@@ -182,6 +182,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 -- Classic Timewalking
 root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC_DUNGEON_EVENT, {
 	expansion(EXPANSION.CLASSIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
+		n(ACHIEVEMENTS, {
+			achWithRep(957, FACTION_ZANDALAR_TRIBE),	-- Hero of the Zandalar Tribe
+		}),
 		n(GROUP_FINDER, {
 			i(225348, {	-- Ancient Timewarped Scroll
 				["description"] = "Drops from the last boss of any 'Classic Timewalking' dungeon.",
@@ -265,7 +268,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 							i(234862, {	-- Ogre Captains Armor
 								["modID"] = 22,
 								["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
-								["timeline"] = { ADDED_11_0_7 },
 							}),
 							i(225184),	-- Runed Golem Shackles
 						}),
@@ -438,7 +440,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 						}),
 						i(234624, {	-- Longsword of the Knight's Pledge
 							["cost"] = {{"c", TIMEWARPED_BADGE, 1500}},
-							["timeline"] = { ADDED_11_0_7 },
 						}),
 						i(225190, {	-- Pendulum of Doom
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}

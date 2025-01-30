@@ -1136,6 +1136,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["isYearly"] = true,
 		}),
 		q(13026, {	-- Bluewolf the Elder
+			["description"] = "Inside the Wintergrasp Antechamber, inaccessible unless your faction controls the area.",
 			["qg"] = 30368,	-- Elder Bluewolf
 			["coord"] = { 49.0, 14.0, WINTERGRASP },
 			["timeline"] = { ADDED_3_0_8 },

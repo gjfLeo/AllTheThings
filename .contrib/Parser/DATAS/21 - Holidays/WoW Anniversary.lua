@@ -2616,7 +2616,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				crit(70548, {["crs"]={225252}}),	-- Gold Balloon
 				crit(70551, {["crs"]={228530}}),	-- Light Blue Balloon
 			}),
-			achWithRep(957, FACTION_ZANDALAR_TRIBE),	-- Hero of the Zandalar Tribe
 			ach(40985),		-- I Have That One!
 			ach(40986),		-- Mount Master
 			ach(40992),		-- Peanut Gallery

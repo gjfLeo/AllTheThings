@@ -3663,6 +3663,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13880,	-- Hot Lava
 						13884,	-- Put Out The Fire
 					},
+					["coord"] = { 52.3, 56.8, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
