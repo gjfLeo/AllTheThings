@@ -1231,14 +1231,34 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 		}),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers,{
-	expansion(EXPANSION.MOP, {
-		q(33226),	-- Short-Supply Reward - Celestials bonus roll
-		q(32923),	-- Short-Supply Reward - Galleon bonus roll
-		q(32919),	-- Short-Supply Reward - Nalak bonus roll
-		q(33109),	-- Short-Supply Reward - Nalak secondary killID
-		q(32922),	-- Short-Supply Reward - Oondasta bonus roll
-		q(33225),	-- Short-Supply Reward - Ordos bonus roll
-		q(32924),	-- Short-Supply Reward - Sha of Anger bonus roll
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0 } }, {
+	m(PANDARIA, {
+		m(ISLE_OF_GIANTS, {
+			n(WORLD_BOSSES, {
+				q(32922),	-- Short-Supply Reward - Oondasta bonus roll
+			}),
+		}),
+		m(ISLE_OF_THUNDER, {
+			n(WORLD_BOSSES, {
+				q(32919),	-- Short-Supply Reward - Nalak bonus roll
+				q(33109),	-- Short-Supply Reward - Nalak secondary killID
+			}),
+		}),
+		m(KUN_LAI_SUMMIT, {
+			n(WORLD_BOSSES, {
+				q(32924),	-- Short-Supply Reward - Sha of Anger bonus roll
+			}),
+		}),
+		m(TIMELESS_ISLE, {
+			n(WORLD_BOSSES, {
+				q(33226),	-- Short-Supply Reward - Celestials bonus roll
+				q(33225),	-- Short-Supply Reward - Ordos bonus roll
+			}),
+		}),
+		m(VALLEY_OF_THE_FOUR_WINDS, {
+			n(WORLD_BOSSES, {
+				q(32923),	-- Short-Supply Reward - Galleon bonus roll
+			}),
+		}),
 	}),
-});
+})));

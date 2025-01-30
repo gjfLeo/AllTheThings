@@ -2118,20 +2118,20 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.MOP, {
-		q(32752),	-- Dark Animus Dead - triggers on the first kill of the week
-		q(32750),	-- Durumu Dead - triggers on the first kill of the week
-		q(32755),	-- Empyreal Queens Dead - triggers on the first kill of the week
-		q(32745),	-- Horridon Dead - triggers on the first kill of the week
-		q(32754),	-- Iron Qon Dead - triggers on the first kill of the week
-		q(32749),	-- Ji'kun Dead - triggers on the first kill of the week
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {
+	inst(362, {
 		q(32744),	-- Jin'rokh Dead - triggers on the first kill of the week
-		q(32756),	-- Lei Shen Dead - triggers on the first kill of the week
-		q(32748),	-- Maegaera Dead - triggers on the first kill of the week
-		q(32751),	-- Primordious Dead - triggers on the first kill of the week
-		q(32753),	-- Ra-den Dead - triggers on the first kill of the week
-		q(32747),	-- Tortos Dead - triggers on the first kill of the week
+		q(32745),	-- Horridon Dead - triggers on the first kill of the week
 		q(32746),	-- Zandalari Council Dead - triggers on the first kill of the week
+		q(32747),	-- Tortos Dead - triggers on the first kill of the week
+		q(32748),	-- Maegaera Dead - triggers on the first kill of the week
+		q(32749),	-- Ji'kun Dead - triggers on the first kill of the week
+		q(32750),	-- Durumu Dead - triggers on the first kill of the week
+		q(32751),	-- Primordious Dead - triggers on the first kill of the week
+		q(32752),	-- Dark Animus Dead - triggers on the first kill of the week
+		q(32754),	-- Iron Qon Dead - triggers on the first kill of the week
+		q(32755),	-- Empyreal Queens Dead - triggers on the first kill of the week
+		q(32756),	-- Lei Shen Dead - triggers on the first kill of the week
+		q(32753),	-- Ra-den Dead - triggers on the first kill of the week
 	}),
-});
+})));

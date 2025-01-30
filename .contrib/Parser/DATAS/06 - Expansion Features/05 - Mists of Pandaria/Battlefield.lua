@@ -342,13 +342,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 		},
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers,{
-	expansion(EXPANSION.MOP, {
-		q(32860),	-- Battle of Razor Hill Tracking Quest
-		q(32890),	-- FLAG - Caravan Tutorial
-		q(32891),	-- FLAG - Commander Tutorial
-		q(32865),	-- Gathering Intelligence - Nazgrim Tracking
-		q(32864),	-- Gathering Intelligence - Riko Tracking
-		q(32866),	-- Gathering Intelligence - Zaela Tracking
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_3_0 } }, {
+	m(KALIMDOR, {
+		m(DUROTAR, {
+			n(BATTLEFIELD_BARRENS, {
+				n(QUESTS, {
+					q(32860),	-- Battle of Razor Hill Tracking Quest
+					q(32890),	-- FLAG - Caravan Tutorial
+					q(32891),	-- FLAG - Commander Tutorial
+					q(32865),	-- Gathering Intelligence - Nazgrim Tracking
+					q(32864),	-- Gathering Intelligence - Riko Tracking
+					q(32866),	-- Gathering Intelligence - Zaela Tracking
+				}),
+			}),
+		}),
 	}),
-});
+})));

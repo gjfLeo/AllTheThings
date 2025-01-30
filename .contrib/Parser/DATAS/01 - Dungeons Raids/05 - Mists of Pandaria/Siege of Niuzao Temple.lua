@@ -407,14 +407,18 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.MOP, {
-		q(31633),	-- Siege of Niuzao Temple Challenge Mode - Bronze Addition (Nth)
-		q(31626),	-- Siege of Niuzao Temple Challenge Mode - Consolation (Nth)
-		q(31647),	-- Siege of Niuzao Temple Challenge Mode - Gold Addition (Nth)
-		q(31640),	-- Siege of Niuzao Temple Challenge Mode - Silver Addition (Nth)
-	}),
-	expansion(EXPANSION.WOD, {
-		q(35312),	-- Siege of Niuzao Reward Quest
-		q(35461),	-- Siege of Niuzao Reward Quest
-	}),
+	expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
+		inst(324, {
+			q(31633),	-- Siege of Niuzao Temple Challenge Mode - Bronze Addition (Nth)
+			q(31626),	-- Siege of Niuzao Temple Challenge Mode - Consolation (Nth)
+			q(31647),	-- Siege of Niuzao Temple Challenge Mode - Gold Addition (Nth)
+			q(31640),	-- Siege of Niuzao Temple Challenge Mode - Silver Addition (Nth)
+		}),
+	})),
+	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+		inst(324, {
+			q(35312),	-- Siege of Niuzao Reward Quest
+			q(35461),	-- Siege of Niuzao Reward Quest
+		}),
+	})),
 });
