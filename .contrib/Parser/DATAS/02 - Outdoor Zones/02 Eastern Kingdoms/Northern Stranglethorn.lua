@@ -2563,7 +2563,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26782, {	-- The Mosh'Ogg Bounty (A)
 					["qg"] = 44018,	-- Wulfred Harrys
-					["description"] = "This quest is offered to players that HAVE completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.\n\n Also, it gets marked as completed when following quests are handed in:\n- |cffe50d12The Mosh'Ogg Bounty|r (26399);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26783).",
+					["description"] = "This quest is offered to players that HAVE completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.\n\n Also, it gets marked as completed when one of the following quests is handed in:\n- |cffe50d12The Mosh'Ogg Bounty|r (26399);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26783).",
 					["coord"] = { 53.4, 66.3, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2579,7 +2579,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26783, {	-- The Mosh'Ogg Bounty (A)
 					["qg"] = 44018,	-- Wulfred Harrys
-					["description"] = "This quest is offered to players that HAVE NOT completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.\n\n Also, it gets marked as completed when following quests are handed in:\n- |cffe50d12The Mosh'Ogg Bounty|r (26399);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26782).",
+					["description"] = "This quest is offered to players that HAVE NOT completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.\n\n Also, it gets marked as completed when one of the following quests is handed in:\n- |cffe50d12The Mosh'Ogg Bounty|r (26399);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26782).",
 					["coord"] = { 53.4, 66.3, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2595,7 +2595,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26399, {	-- The Mosh'Ogg Bounty (H)
 					["qg"] = 42814,	-- Skeezy Whillzap
-					["description"] = "This quest gets marked as completed when following quests are handed in:\n- |cff4a54e8The Mosh'Ogg Bounty|r (26782);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26783).",
+					["description"] = "This quest gets marked as completed when one of its Alliance counterparts is handed in:\n- |cff4a54e8The Mosh'Ogg Bounty|r (26782);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26783).",
 					["sourceQuest"] = 26407,	-- Mosh'Ogg Handiwork
 					["coord"] = { 63.4, 41.1, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
