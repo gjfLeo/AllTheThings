@@ -7,8 +7,8 @@
 local appName, app = ...;
 local L = app.L;
 
-local AssignChildren, CloneClassInstance, GetRelativeValue = app.AssignChildren, app.CloneClassInstance, app.GetRelativeValue;
-local IsQuestFlaggedCompleted = app.IsQuestFlaggedCompleted
+local AssignChildren, GetRelativeValue, IsQuestFlaggedCompleted
+	= app.AssignChildren, app.GetRelativeValue, app.IsQuestFlaggedCompleted
 
 -- Abbreviations
 L.ABBREVIATIONS[L.UNSORTED .. " %> " .. L.UNSORTED] = "|T" .. app.asset("WindowIcon_Unsorted") .. ":0|t " .. L.SHORTTITLE .. " %> " .. L.UNSORTED;
@@ -65,7 +65,6 @@ local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
 local GetProgressColorText = app.Modules.Color.GetProgressColorText;
 local TryColorizeName = app.TryColorizeName;
 local DESCRIPTION_SEPARATOR = app.DESCRIPTION_SEPARATOR;
-local GetDisplayID = app.GetDisplayID
 local ATTAccountWideData;
 
 -- Color Lib
@@ -4410,40 +4409,10 @@ end -- Processing Functions
 
 -- Panel Class Library
 (function()
-local function StopMovingOrSizing(self)
-	self:StopMovingOrSizing();
-	self.isMoving = nil;
-	-- store the window position if the window is visible (this is called on new popouts prior to becoming visible for some reason)
-	if self:IsVisible() then
-		self:StorePosition();
-	end
-end
-local function StartMovingOrSizing(self, fromChild)
-	if not (self:IsMovable() or self:IsResizable()) or self.isLocked then
-		return
-	end
-	if self.isMoving then
-		StopMovingOrSizing(self);
-	else
-		self.isMoving = true;
-		if ((select(2, GetCursorPosition()) / self:GetEffectiveScale()) < math.max(self:GetTop() - 40, self:GetBottom() + 10)) then
-			self:StartSizing();
-			Push(self, "StartMovingOrSizing (Sizing)", function()
-				if self.isMoving then
-					-- keeps the rows within the window fitting to the window as it resizes
-					self:Refresh();
-					return true;
-				end
-			end);
-		elseif self:IsMovable() then
-			self:StartMoving();
-		end
-	end
-end
 -- Adds ATT information about the list of Achievements into the provided tooltip
 local function AddAchievementInfoToTooltip(info, achievements, reference)
 	if achievements then
-		local text, mapID;
+		local text
 		for _,ach in ipairs(achievements) do
 			text = ach.text;
 			if not text then
@@ -4926,9 +4895,9 @@ app.AddEventHandler("RowOnClick", function(self, button)
 				else
 					self:SetScript("OnMouseUp", function(self)
 						self:SetScript("OnMouseUp", nil);
-						StopMovingOrSizing(window);
+						window:StopATTMoving()
 					end);
-					StartMovingOrSizing(window, true);
+					window:ToggleATTMoving()
 				end
 			end
 		end
