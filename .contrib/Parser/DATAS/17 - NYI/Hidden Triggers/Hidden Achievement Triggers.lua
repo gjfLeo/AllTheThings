@@ -3716,6 +3716,8 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41697),	-- Vicious Saddle (40)
 			ach(41698),	-- Vicious Saddle (41)
 			ach(41699),	-- Vicious Saddle (41)
+			-- 11.1.0.58819
+			ach(41723),	-- Buddy System VII (copy)
 		})),
 	}),
 });
