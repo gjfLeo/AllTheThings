@@ -684,6 +684,7 @@ app.ExtendClass = function(baseClassName, className, classKey, fields, ...)
 	if baseClass then
 		fields = CloneDictionary(baseClass, fields)
 		fields.__type = nil;
+		fields.variants = nil
 		fields.key = nil;
 		fields.conditionals = nil;
 		fields.simplemeta = nil;
