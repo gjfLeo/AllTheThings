@@ -1439,6 +1439,7 @@ i(235807);	-- Storefront-in-a-Box
 i(231064);	-- Throwaway Gangster Disguise
 i(235799);	-- Throwin' Sawblade
 i(234951);	-- Uncracked Cold Ones
+i(237382);	-- Undermine Supply Crate
 i(235672);	-- Venture Co. Banner
 --- UNSORTED ---
 i(237346);	-- Artisan Beverage Goblet Bobber
@@ -1447,4 +1448,3 @@ i(237345);	-- Limited Edition Rocket Bobber
 i(237347);	-- Organically-Sourced Wellington Bobber
 i(236751);	-- Take-Home Flarendo
 i(236749);	-- Take-Home Torq
-i(237382);	-- Undermine Supply Crate

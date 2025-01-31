@@ -105,10 +105,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(231408, {	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
 				["coord"] = { 27.5, 72.8, UNDERMINE },
 				["g"] = {
+					-- Friendly
+					i(236689),	-- Finder's Fee
 					-- Honored
-					i(235262, {	-- Steamwheedle's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(236670, {	-- Maniacal Melodies (MM!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
 					}),
@@ -116,9 +115,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Revered
-					i(234743, {	-- Steamwheedle's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(232853, {	-- Eepy (PET!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
 					}),
@@ -126,9 +122,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Exalted
-					i(235263, {	-- Steamwheedle's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(229956, {	-- Mean Green Flying Machine (MOUNT!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
 					}),
@@ -143,23 +136,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(231406, {	-- Rocco Razzboom <Bilgewater Quartermaster>
 				["coord"] = { 39.2, 22.2, UNDERMINE },
 				["g"] = {
+					-- Friendly
+					i(236764),	-- Finder's Fee
 					-- Honored
-					i(234745, {	-- Bilgewater's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
-					i(236669, {	-- The Ol' Low-and-Slow (?)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-					}),
-					i(236672, {	-- Lil' Squeaker (MM!) (?)
+					i(236672, {	-- The Ol' Low-and-Slow (MM!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
 					}),
 					i(235670, {	-- Bilgewater Cartel Banner (TOY!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Revered
-					i(235258, {	-- Bilgewater's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(232845, {	-- Bilgewater Junkhauler (PET!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
 					}),
@@ -167,9 +153,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Exalted
-					i(235259, {	-- Bilgewater's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(229935, {	-- Crimson Armored Growler (MOUNT!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
 					}),
@@ -187,16 +170,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					-- Friendly
 					i(236765),	-- Finder's Fee
 					-- Honored
-					i(234746, {	-- Venture Co.'s Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
+					i(236669, {	-- The Whole Brass Band (MM!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
 					}),
 					i(235672, {	-- Venture Co. Banner (TOY!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Revered
-					i(235264, {	-- Venture Co.'s Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(232851, {	-- Rocketfist (PET!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
 					}),
@@ -204,9 +184,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Exalted
-					i(235265, {	-- Venture Co.'s Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(229946, {	-- Ocher Delivery Rocket (MOUNT!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
 					}),
@@ -224,9 +201,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					-- Friendly
 					i(236763),	-- Finder's Fee
 					-- Honored
-					i(234744, {	-- Blackwater's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(236671, {	-- The Buzzer (MM!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
 					}),
@@ -234,9 +208,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Revered
-					i(235260, {	-- Blackwater's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(232839, {	-- Wavebreaker Mechasaur (PET!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
 					}),
@@ -244,9 +215,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 					}),
 					-- Exalted
-					i(235261, {	-- Blackwater's Trove
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 10 }},
-					}),
 					i(229948, {	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
 					}),

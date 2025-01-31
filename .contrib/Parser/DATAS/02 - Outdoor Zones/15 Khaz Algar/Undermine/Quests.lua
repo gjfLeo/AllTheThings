@@ -1133,7 +1133,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- missing one quest chain for achievement
 			-- Misc
 			-- Open portal in/from Dornogal
-			q(86535, {	-- Test Run (TODO: check if account wide)
+			q(86535, {	-- Test Run
 				["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
 				["provider"] = { "n", 235402 },	-- Rustol
 				["coord"] = { 27.6, 54.2, UNDERMINE },
@@ -1145,6 +1145,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 43.5, 51.7, UNDERMINE },
 			}),
 			-- C.H.E.T.T.
+			-- TODO: account wide
 			q(87374, {	-- C.H.E.T.T.ing In
 				["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
 				["provider"] = { "n", 238029 },	-- C.H.E.T.T.
@@ -1165,7 +1166,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 37.4, 48.8, UNDERMINE },
 			}),
 			-- Gorillon
-			q(86204, {	-- Liberation of Undermine: The House Loses
+			q(87406, {	-- Inoperative Gorillion
 				["provider"] = { "i", 236961 },	-- Inoperative Gorillion
 				["g"] = {
 					i(232843),	-- Gorillion (PET!)
@@ -1188,18 +1189,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 				["coord"] = { 43.8, 50.8, UNDERMINE },
 				["isWeekly"] = true,
-			}),
-			q(86775, {	-- Urge to Surge
-				--TODO: DRIVE public event, bugged on ptr
-				--TODO: EF > Cartels > own file with all repeatable quests in hqts here
-				--TODO: and rewards from public event itself?
-				--["sourceQuests"] = { xx },	-- ??
-				["provider"] = { "n", 231409 },	-- Smaks Topskimmer
-				["coord"] = { 43.8, 50.8, UNDERMINE },
-				["isWeekly"] = true,
-				["g"] = {
-					i(238208),	-- Nanny's Surge Dividends
-				},
 			}),
 			-- Side Gig stuff (weekly for new area in Ringing Deeps/Kaja-Coast)
 			-- doesn't required to sign up contract (choose faction)
@@ -1255,6 +1244,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 231065 },	-- Freddi Powergrind
 				["coord"] = { 19.7, 53.0, UNDERMINE },
 				["isWeekly"] = true,
+				["g"] = {
+					i(236773),	-- Swallowed Kaja'mite (QI!)
+				},
 			}),
 			q(85554, {	-- Side Gig: It's Always Sunny Side Up
 				--["sourceQuests"] = { xx },	-- ??
@@ -1311,7 +1303,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),
-			-- Unsure (warbound?)
+			-- Unsure
+			-- TODO: account wide
 			q(87496, {	-- Benefit Packages
 				--["sourceQuests"] = { xx },	-- TODO: was up with new build, could be part of some chain?
 				["provider"] = { "n", 231049 },	-- Kaydee Racketting
@@ -1351,6 +1344,108 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(508727),	-- Partially-Drained Battery
 				},
 			}),
+			--- Factions trove quests
+			--- TODO: account wide
+			-- Bilgewater Cartel
+			q(88870, {	-- Honored with the Bilgewater Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231406 },	-- Rocco Razzboom
+				["coord"] = { 39.2, 22.2, UNDERMINE },
+				["g"] = {
+					i(234745),	-- Bilgewater's Trove
+				},
+			}),
+			q(88871, {	-- Revered with the Bilgewater Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231406 },	-- Rocco Razzboom
+				["coord"] = { 39.2, 22.2, UNDERMINE },
+				["g"] = {
+					i(235258),	-- Bilgewater's Trove
+				},
+			}),
+			q(88872, {	-- Exalted with the Bilgewater Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231406 },	-- Rocco Razzboom
+				["coord"] = { 39.2, 22.2, UNDERMINE },
+				["g"] = {
+					i(235259),	-- Bilgewater's Trove
+				},
+			}),
+			-- Blackwater Cartel
+			q(88876, {	-- Honored with the Blackwater Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231405 },	-- Boatswain Hardee
+				["coord"] = { 63.4, 16.7, UNDERMINE },
+				["g"] = {
+					i(234744),	-- Blackwater's Trove
+				},
+			}),
+			q(88877, {	-- Revered with the Blackwater Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231405 },	-- Boatswain Hardee
+				["coord"] = { 63.4, 16.7, UNDERMINE },
+				["g"] = {
+					i(235260),	-- Blackwater's Trove
+				},
+			}),
+			q(88878, {	-- Exalted with the Blackwater Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231405 },	-- Boatswain Hardee
+				["coord"] = { 63.4, 16.7, UNDERMINE },
+				["g"] = {
+					i(235261),	-- Blackwater's Trove
+				},
+			}),
+			-- Steamwheedle Cartel
+			q(88873, {	-- Honored with the Steamwheedle Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231408 },	-- Lab Assistant Laszly
+				["coord"] = { 27.5, 72.8, UNDERMINE },
+				["g"] = {
+					i(235262),	-- Steamwheedle's Trove
+				},
+			}),
+			q(88874, {	-- Revered with the Steamwheedle Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231408 },	-- Lab Assistant Laszly
+				["coord"] = { 27.5, 72.8, UNDERMINE },
+				["g"] = {
+					i(234743),	-- Steamwheedle's Trove
+				},
+			}),
+			q(88875, {	-- Exalted with the Steamwheedle Cartel
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231408 },	-- Lab Assistant Laszly
+				["coord"] = { 27.5, 72.8, UNDERMINE },
+				["g"] = {
+					i(235263),	-- Steamwheedle's Trove
+				},
+			}),
+			-- Venture Co.
+			q(88879, {	-- Honored with Venture Co.
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231407 },	-- Shredz the Scrapper
+				["coord"] = { 53.3, 72.7, UNDERMINE },
+				["g"] = {
+					i(234746),	-- Venture Co.'s Trove
+				},
+			}),
+			q(88880, {	-- Revered with Venture Co.
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231407 },	-- Shredz the Scrapper
+				["coord"] = { 53.3, 72.7, UNDERMINE },
+				["g"] = {
+					i(235264),	-- Venture Co.'s Trove
+				},
+			}),
+			q(88881, {	-- Exalted with Venture Co.
+				--["sourceQuests"] = { XXX },
+				["provider"] = { "n", 231407 },	-- Shredz the Scrapper
+				["coord"] = { 53.3, 72.7, UNDERMINE },
+				["g"] = {
+					i(235265),	-- Venture Co.'s Trove
+				},
+			}),
 			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
 			-- Alex TODO: all 3 NYI in-game, not returning name for quests
 			q(87297),	-- ???
@@ -1364,55 +1459,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 		m(UNDERMINE, {
 			n(QUESTS, {
 				-- During main story
-				q(85463),	-- [DNT] The Cartels of Undermine Renown Unlock (spellID 1213980)
-				-- CHETT
-				q(87296),	-- C.H.E.T.T. List (spellID 1219077)
-				-- Bonus objective during DRIVE? Probably gonna throw under special header too
-				-- TODO: Temporary sorting via questID for easy and quick check up new one
-				-- TODO: don't forget to add repeatable - true for them
-				q(83055),	-- Signed, Sealed
-				q(84788),	-- Hotrocket Hot Dogs
-				q(84791),	-- Hotrocket Burgers
-				q(85715),	-- Muse Wanted
-				q(85717),	-- Precarious Pet
-				q(85732),	-- Express Extermination
-				q(85733),	-- Daquiri Disaster
-				q(85758),	-- Sweeping Up
-				q(85759),	-- Crystal Alignment
-				q(85769),	-- The Party Must Go On
-				q(85771),	-- Paper Delivery
-				q(85797),	-- Knife Fight
-				q(85826),	-- Granny Crossing
-				q(85854),	-- For Want of a Name
-				q(85861),	-- Rug Monster!!!
-				q(85874, {i(232619),}),	-- Goldfish Rescue (+ Gary the Goldfish (QI!))
-				q(85888),	-- Artistic License
-				q(85946),	-- The Great Crab Breakout
-				q(86311),	-- Heaps of Trouble
-				q(86313),	-- Darkfuse Cleanup
-				q(86314),	-- Ooze on Aisle 3
-				q(86315),	-- Chaos in the Streets
-				q(86317),	-- Black Blood by Sea
-				q(86318),	-- Tailgater Troubles
-				q(86319),	-- Eyes of the Sky
-				q(86320),	-- Bully For You!
-				q(86321),	-- Door to Door
-				q(86370),	-- Clean Sweep
-				q(86410),	-- Slime Wranglin'
-				q(86412),	-- Fancy Pants
-				q(86418),	-- Fresh Towel?
-				q(87569),	-- Legally Mandated Break
-				q(87588),	-- Bash that Trash
-				-- Surge Pricing event rewards (TODO: move to better place as all quests above)
-				--i(236757),	-- Generous Tip Chest
-				--i(236758),	-- Extravagant Tip Chest
-				-- Job Streak give reward after first 10 job in row per character (was itemID 233264 for me), no hqt
+				q(85463),	-- [DNT] The Cartels of Undermine Renown Unlock (spellID 1213980) (TODO: account wide)
 				-- Special Assigment Unlock trackers
 				q(85489, {["repeatable"]=true}),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
 				q(85490, {["repeatable"]=true}),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
 				-- ??
 				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
 				-- When you pick up one of 4 cartel faction for a week
+				-- TODO: account wide
 				q(84951),	-- Bilgewater Cartel
 				q(84954),	-- Blackwater Cartel
 				q(84952),	-- Steamwheedle Cartel

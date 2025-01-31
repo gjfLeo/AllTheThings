@@ -18,6 +18,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				ach(41593),	-- Cleanin' the Streets
 				ach(41594),	-- Can You Believe What People Throw Away?
 			}),
+			n(TREASURES, sharedData({ ["repeatable"] = true, }, {
+				o(516166, {	-- Dented Crate (Blackwater Marina)
+					["coord"] = { 67.4, 29.3, UNDERMINE },
+					["questID"] = 87281,
+				}),
+				o(516164, {	-- Dented Crate (Emerald Hills Golf Course)
+					["coord"] = { 69.7, 76.5, UNDERMINE },
+					["questID"] = 87279,
+				}),
+				o(516153, {	-- Dented Crate (Hovel Hill (North))
+					["coord"] = { 31.9, 21.3, UNDERMINE },
+					["questID"] = 87269,
+				}),
+				o(516155, {	-- Dented Crate (Hovel Hill (South))
+					["coord"] = { 36.1, 45.1, UNDERMINE },
+					["questID"] = 87271,
+				}),
+				--o(XXXXX, {	-- Dented Crate (The Heaps)
+				--	["coord"] = { X, Y, UNDERMINE },
+				--	["questID"] = XXXXX,
+				--}),
+				o(516157, {	-- Dented Crate (The VatWorks)
+					["coord"] = { 38.4, 80.9, UNDERMINE },
+					["questID"] = 87273,
+				}),
+				o(516159, {	-- Dented Crate (Venturewood)
+					["coord"] = { 50.6, 63.8, UNDERMINE },
+					["questID"] = 87275,
+				}),
+			})),
 			n(QUESTS, {
 				q(85879, {	-- Reduce, Reuse, Resell
 					["sourceQuests"] = { 86934 },	-- Trash to Profit
@@ -45,6 +75,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["g"] = {
 						i(233557, {	-- Sifted Pile of Scrap
 							["cost"] = {{ "c", 3218, 333 }},	-- Empty Kaja'Cola Can
+						}),
+						i(237382, {	-- Undermine Supply Crate (TOY!)
+							["cost"] = {{ "c", 3218, 999 }},	-- Empty Kaja'Cola Can
 						}),
 						--i(233557, {	-- Sifted Pile of Scrap
 						--	["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can (TODO: assume it will change with renown level?)
@@ -87,14 +120,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 			q(87314),	-- The Heaps
 			q(87312),	-- The VatWorks
 			q(87313),	-- Venturewood
-			-- Dented Crates (repeatable)
-			q(87269),	-- 516153 @ 31.9, 21.3, UNDERMINE (Hovel Hill (North))
-			q(87273),	-- 516157 @ 38.4, 80.9, UNDERMINE (The VatWorks)
-			q(87275),	-- 516159 @ 50.6, 63.8, UNDERMINE (Venturewood)
-			q(87279),	-- 516164 @ 69.7, 76.5, UNDERMINE (Emerald Hills Golf Course)
-			q(87281),	-- 516166 @ 67.4, 29.3, UNDERMINE (Blackwater Marina)
-			--q(),	-- objectID @ x, y, UNDERMINE (The Heaps)
-			q(87271),	-- objectID @ x, y, UNDERMINE (Hovel Hill (South))
 		}),
 	}),
 })));

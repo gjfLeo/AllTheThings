@@ -970,6 +970,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(224412),	-- Companion Experience (every tier)
 			i(227784, {["timeline"]={ REMOVED_11_1_0 }}),	-- Delver's Bounty
 			--i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty
+			i(235628, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (Tier 5, veteran 4/8)
 			i(222922),	-- Expeditionary Spoils (Tier 1)
 			i(222923),	-- Expeditionary Spoils (Tier 2)
 			i(225178),	-- Expeditionary Spoils (Tier 3)
@@ -1328,6 +1329,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 				}),
+				filter(MISC, {
+					i(235608, {	-- Nightfall Sanctum Campsite
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+						["timeline"] = { ADDED_11_1_0 },
+					}),
+				}),
 				n(ARMOR, {
 					filter(BACK_F, {
 						i(225414, {	-- Cave Topographer's Drape
@@ -1531,19 +1538,19 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 				}),
 				filter(COSMETIC, {
-					i(234385, {	-- Ensemble: Aegis Of Hidden Stars
+					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0 },
 					}),
-					i(234384, {	-- Ensemble: Chains Of The Stygian Sea
+					iensemble(234384, {	-- Ensemble: Chains Of The Stygian Sea
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0 },
 					}),
-					i(234383, {	-- Ensemble: Myconic Shell
+					iensemble(234383, {	-- Ensemble: Myconic Shell
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0 },
 					}),
-					i(234382, {	-- Ensemble: Unkindled Waxweave Panoply
+					iensemble(234382, {	-- Ensemble: Unkindled Waxweave Panoply
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0 },
 					}),

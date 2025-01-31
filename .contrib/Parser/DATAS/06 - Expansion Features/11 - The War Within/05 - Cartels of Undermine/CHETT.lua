@@ -39,3 +39,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 		}),
 	}),
 })));
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
+	n(CARTELS_OF_UNDERMINE, {
+		n(CHETT, {
+			q(87296),	-- C.H.E.T.T. List (spellID 1219077)
+		}),
+	}),
+})));

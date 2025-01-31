@@ -61,30 +61,6 @@ root(ROOTS.Unsorted, {
 				i(233348),	-- Power-Washed Shoulderguards
 				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
-				i(233448),	-- Mechforged Armplates
-				i(233449),	-- Mechforged Girdle
-				i(233450),	-- Mechforged Mantle
-				i(233451),	-- Mechforged Legguards
-				i(233452),	-- Mechforged Helm
-				i(233453),	-- Mechforged Gauntlets
-				i(233454),	-- Mechforged Sabatons
-				i(233455),	-- Mechforged Chestplate
-				i(233456),	-- Scrapcoil Bracers
-				i(233457),	-- Scrapcoil Belt
-				i(233458),	-- Scrapcoil Shoulderguards
-				i(233459),	-- Scrapcoil Greaves
-				i(233460),	-- Scrapcoil Coif
-				i(233461),	-- Scrapcoil Grips
-				i(233462),	-- Scrapcoil Striders
-				i(233463),	-- Scrapcoil Chainmail
-				i(233472),	-- Shimmerthread Wristwraps
-				i(233473),	-- Shimmerthread Cord
-				i(233474),	-- Shimmerthread Shoulderpads
-				i(233475),	-- Shimmerthread Leggings
-				i(233476),	-- Shimmerthread Cowl
-				i(233477),	-- Shimmerthread Handwraps
-				i(233478),	-- Shimmerthread Sandals
-				i(233479),	-- Shimmerthread Robes
 				i(233481),	-- Might-Be-Invisible Cloak
 				i(233482),	-- Might-Be-Invisible Shawl
 				i(233485),	-- Lucky-Streak Band
@@ -212,9 +188,7 @@ root(ROOTS.Unsorted, {
 				i(231556),	-- Breakneck Cabbie's Coat
 				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
 				i(231733),	-- Black Bruiser's Tabard
-				i(231737),	-- Undermine Enforcer's Padding
 				i(231739),	-- Black Bruiser's Helm
-
 				i(231745),	-- Black Bruiser's Shoulderspikes
 
 
@@ -433,13 +407,8 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {	-- More known
 				-- Chestos
 				i(229422),	-- Undermine Equipment Chest
-				i(234731),	-- Cache of Undermine Treasures
+				i(234731),	-- Cache of Undermine Treasures [H]
 				i(235151),	-- Distinguished Actor's Chest
-				i(236689),	-- Finder's Fee
-				i(236756),	-- Socially Expected Tip Chest
-				i(236757),	-- Generous Tip Chest
-				i(236758),	-- Extravagant Tip Chest
-				i(236764),	-- Finder's Fee
 				-- Crests
 				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
 				i(231270),	-- Pack of Runed Undermine Crests
@@ -471,7 +440,6 @@ root(ROOTS.Unsorted, {
 				i(235504),	-- Chunk of Companion Experience
 				i(235559),	-- Hidden Trove
 				i(235607),	-- Chunk of Companion Experience
-				i(235628),	-- Delver's Bounty
 
 				-- CHETT
 				i(236668),	-- C.H.E.T.T. Card
@@ -696,7 +664,6 @@ root(ROOTS.Unsorted, {
 				i(228822),	-- Burgled Art
 				i(228988),	-- Rock Reviver
 				i(229401),	-- Artisan's Consortium Pamphlet
-				i(229407),	-- Citrus Acid
 				i(230212),	-- Emergency Teleporter
 				i(230792),	-- X-Plo-Dar 64k
 				i(231021),	-- Imported Brews
@@ -706,7 +673,6 @@ root(ROOTS.Unsorted, {
 				i(232651),	-- Faded Journal Page
 				i(234188),	-- Slot Chits
 				i(234426),	-- Kaja'Cola-Braised Meat
-				i(236773),	-- Swallowed Kaja'mite
 			}),
 			n(RARES, {
 				i(232764),	-- Pendant of Shrouded Secrets
@@ -731,10 +697,7 @@ root(ROOTS.Unsorted, {
 				i(235312),	-- Snooty's Aviator Bindings
 				i(235313),	-- Shockproof Helm
 				i(235323),	-- Blastshell Bracers
-				i(235324),	-- Scavenger's Lost Bind
-				i(235326),	-- Ratspit's Heirloom Wristwraps
 				i(235327),	-- Mend-and-Match Shoulderpads
-				i(235329),	-- Cowl of Acidic Mire
 				i(235347),	-- 100% Sharp Glimmerblade
 				i(235349),	-- Shadowfume Club
 				i(235350),	-- Void-forged Cudgel

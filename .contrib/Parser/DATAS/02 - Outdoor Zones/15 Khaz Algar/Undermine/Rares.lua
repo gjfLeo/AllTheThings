@@ -105,6 +105,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235318),	-- Ironfang Plate Legguards
 					i(235325),	-- Rusthide Gloves
+					i(235324),	-- Scavenger's Lost Bind
 				},
 			}),
 			n(230934, {	-- Ratspit
@@ -116,6 +117,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84918,	-- Court of Rats
 				["g"] = {
 					i(235359),	-- Ratfang Toxin (share with zone reward from cache)
+					i(235326),	-- Ratspit's Heirloom Wristwraps
 				},
 			}),
 			n(230979, {	-- S.A.L.
@@ -186,6 +188,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 36.9, 78.2, UNDERMINE },
 				["questID"] = 84920,
 				["g"] = {
+					i(235329),	-- Cowl of Acidic Mire
 					i(235306),	-- Ooze-fused Mantle
 				},
 			}),

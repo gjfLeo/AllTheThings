@@ -419,6 +419,7 @@ HeaderAssignments = {
 	["Storm Cliffs"] = -1000996,
 	["Storming the Citadel"] = -1000186,
 	["Stranglethorn Fishing Extravaganza"] = -1000227,
+	["Surge Pricing"] = -1001073,
 	["Tanks"] = -1000148,
 	["TBC Classic Deluxe Edition"] = -1000247,
 	["The Ahn'Qiraj War Effort"] = -1000234,
@@ -552,4 +553,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001072;
+NextHeaderID = -1001074;

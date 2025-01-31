@@ -59,6 +59,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(84994, {	-- Evidence of Effect
 					["coord"] = { 45.6, 48.8, UNDERMINE },
 				}),
+				q(84971, {	-- For Love of Grog
+					["coord"] = { 44.6, 78.4, UNDERMINE },
+					["g"] = {
+						i(229407),	-- Citrus Acid (QI!)
+					},
+				}),
 				q(85500, {	-- Hazardous Waste
 					["coord"] = { 56.6, 30.4, UNDERMINE },
 					["g"] = {

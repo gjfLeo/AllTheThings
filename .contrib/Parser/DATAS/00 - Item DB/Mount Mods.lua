@@ -487,7 +487,6 @@ i(232985, 85782);	-- 22H Slicks
 i(232982, 85775);	-- G77C Ultra
 i(232986, 85781);	-- GE86 Advance
 i(232984, 85784);	-- Handcrank
-i(236672, 85785);	-- Lil' Squeaker
 i(236670, 85787);	-- Maniacal Melodies
 i(235390, 86771);	-- Paint: Body Roll Blue
 i(235389, 86772);	-- Paint: Goblin Green
@@ -495,6 +494,8 @@ i(235388, 86773);	-- Paint: Redlining Red
 i(235391, 86774);	-- Paint: Yellow Cake Yellow
 i(232983, 85783);	-- Steamboil
 i(236671, 85786);	-- The Buzzer
+i(236672, 85785);	-- The Ol' Low-and-Slow
+i(236669, 85788);	-- The Whole Brass Band
 --- UNSORTED ---
 i(235697, 82192);	-- Delver's Dirigible Schematic: Alliance Decal
 i(235694, 82117);	-- Delver's Dirigible Schematic: Blue Paint

@@ -38,11 +38,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 43.8, 50.8, UNDERMINE },
 				}),
 			}, {	-- RENOWN 9 --
+				-- TODO: missing restored key quest
 				q(85819, {	-- Weathered Crests
 					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 					["coord"] = { 43.8, 50.8, UNDERMINE },
 				}),
 			}, {	-- RENOWN 10 --
+				q(86555, {	-- Undermine Benefactor
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+					["g"] = {
+						i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
+					},
+				}),
 			}, {	-- RENOWN 11 --
 			}, {	-- RENOWN 12 --
 			}, {	-- RENOWN 13 --
