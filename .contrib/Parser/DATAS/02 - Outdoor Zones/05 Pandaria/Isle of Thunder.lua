@@ -394,6 +394,7 @@ root(ROOTS.Zones, {
 								}),
 								q(32589, {	-- Life Blood (H)
 									["provider"] = { "n", 67990 },	-- Lor'themar Theron
+									["coord"] = { 32.6, 35.5, ISLE_OF_THUNDER },
 									["minReputation"] = { FACTION_SUNREAVER_ONSLAUGHT, EXALTED },	-- Sunreaver Onslaught
 									["g"] = {
 										i(95590),	-- Glorious Standard of the Sunreaver Onslaught (TOY!)
