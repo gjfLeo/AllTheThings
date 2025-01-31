@@ -544,31 +544,31 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(592, {	-- Slad'ran
 						["creatureID"] = 29304,	-- Slad'ran
 						["groups"] = {
-							
+
 						},
 					}),
 					e(593, {	-- Drakkari Colossus
 						["creatureID"] = 29307,	-- Drakkari Colossus
 						["groups"] = {
-							
+
 						},
 					}),
 					e(594, {	-- Moorabi
 						["creatureID"] = 29305,	-- Moorabi
 						["groups"] = {
-							
+
 						},
 					}),
 					e(595, {	-- Eck the Ferocious
 						["creatureID"] = 29932,	-- Eck the Ferocious
 						["groups"] = {
-							
+
 						},
 					}),
 					e(596, {	-- Gal'darah
 						["creatureID"] = 29306,	-- Gal'darah
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -578,12 +578,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(284, {
 		q(35475),	-- Gundrak Reward Quest - Normal completion
 		q(35476),	-- Gundrak Reward Quest - Heroic completion
 		q(35477),	-- Gundrak Bonus Objective - kill Eck the Ferocious (Heroic only)
 	}),
-});
--- #endif
+})));

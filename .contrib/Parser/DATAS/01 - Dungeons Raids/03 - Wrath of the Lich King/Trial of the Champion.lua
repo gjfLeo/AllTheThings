@@ -766,7 +766,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 					e(637, {	-- The Black Knight
 						["creatureID"] = 35451,	-- The Black Knight
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -776,10 +776,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(284, {
 		q(35950),	-- Trial of the Champion Reward Quest - Normal / Heroic completion
 	}),
-});
--- #endif
+})));

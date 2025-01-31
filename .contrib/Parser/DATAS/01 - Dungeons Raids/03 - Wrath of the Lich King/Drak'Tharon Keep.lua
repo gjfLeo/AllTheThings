@@ -470,25 +470,25 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(588, {	-- Trollgore
 						["creatureID"] = 26630,	-- Trollgore
 						["groups"] = {
-							
+
 						},
 					}),
 					e(589, {	-- Novos the Summoner
 						["creatureID"] = 26631,	-- Novos the Summoner
 						["groups"] = {
-							
+
 						},
 					}),
 					e(590, {	-- King Dred
 						["creatureID"] = 27483,	-- King Dred
 						["groups"] = {
-							
+
 						},
 					}),
 					e(591, {	-- The Prophet Tharon'ja
 						["creatureID"] = 26632,	-- The Prophet Tharon'ja
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -498,11 +498,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(273, {
 		q(35483),	-- Drak'Tharon Keep Reward Quest - Normal completion
 		q(35484),	-- Drak'Tharon Keep Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

@@ -471,31 +471,31 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(580, {	-- Elder Nadox
 						["creatureID"] = 29309,	-- Elder Nadox
 						["groups"] = {
-							
+
 						},
 					}),
 					e(581, {	-- Prince Taldaram
 						["creatureID"] = 29308,	-- Prince Taldaram
 						["groups"] = {
-							
+
 						},
 					}),
 					e(583, {	-- Amanitar
 						["creatureID"] = 30258,	-- Amanitar
 						["groups"] = {
-							
+
 						},
 					}),
 					e(582, {	-- Jedoga Shadowseeker
 						["creatureID"] = 29310,	-- Jedoga Shadowseeker
 						["groups"] = {
-							
+
 						},
 					}),
 					e(584, {	-- Herald Volazj
 						["creatureID"] = 29311,	-- Herald Volazj
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -505,12 +505,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(271, {
 		q(35489),	-- Ahn'kahet: The Old Kingdom Reward Quest - Normal completion
 		q(35490),	-- Ahn'kahet: The Old Kingdom Reward Quest - Heroic completion
 		q(35493),	-- Ahn'kahet: The Old Kingdom Bonus Reward - kill Amanitar (Heroic only)
 	}),
-});
--- #endif
+})));

@@ -494,25 +494,25 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(622, {	-- Drakos the Interrogator
 						["creatureID"] = 27654,	-- Drakos the Interrogator
 						["groups"] = {
-							
+
 						},
 					}),
 					e(623, {	-- Varos Cloudstrider
 						["creatureID"] = 27447,	-- Varos Cloudstrider
 						["groups"] = {
-							
+
 						},
 					}),
 					e(624, {	-- Mage-Lord Urom
 						["creatureID"] = 27655,	-- Mage-Lord Urom
 						["groups"] = {
-							
+
 						},
 					}),
 					e(625, {	-- Ley-Guardian Eregos
 						["creatureID"] = 27656,	-- Ley-Guardian Eregos
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -522,11 +522,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(282, {
 		q(35446),	-- The Oculus Reward Quest - Normal completion
 		q(35447),	-- The Oculus Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

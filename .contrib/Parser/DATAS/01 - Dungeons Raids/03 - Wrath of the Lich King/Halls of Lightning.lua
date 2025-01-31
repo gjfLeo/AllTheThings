@@ -490,25 +490,25 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(597, {	-- General Bjarngrim
 						["creatureID"] = 28586,	-- General Bjarngrim
 						["groups"] = {
-							
+
 						},
 					}),
 					e(598, {	-- Volkhan
 						["creatureID"] = 28587,	-- Volkhan
 						["groups"] = {
-							
+
 						},
 					}),
 					e(599, {	-- Ionar
 						["creatureID"] = 28546,	-- Ionar
 						["groups"] = {
-							
+
 						},
 					}),
 					e(600, {	-- Loken
 						["creatureID"] = 28923,	-- Loken
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -518,12 +518,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(275, {
 		q(35456),	-- Halls of Lightning Reward Quest - Normal completion
 		q(35457),	-- Halls of Lightning Reward Quest - ?
 		q(35458),	-- Halls of Lightning Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

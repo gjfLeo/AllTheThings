@@ -306,9 +306,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 	})),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(69, {
 		q(35413),	-- Lost City of the Tol'vir Reward Quest
 		q(35414),	-- Lost City of the Tol'vir Reward Quest
 	}),
-});
+})));

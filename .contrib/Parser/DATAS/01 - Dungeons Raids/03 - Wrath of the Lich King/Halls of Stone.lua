@@ -383,25 +383,25 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(604, {	-- Krystallus
 						["creatureID"] = 27977,	-- Krystallus
 						["groups"] = {
-							
+
 						},
 					}),
 					e(605, {	-- Maiden of Grief
 						["creatureID"] = 27975,	-- Maiden of Grief
 						["groups"] = {
-							
+
 						},
 					}),
 					e(606, {	-- Tribunal of Ages
 						["creatureID"] = 28234,	-- Tribunal of Ages
 						["groups"] = {
-							
+
 						},
 					}),
 					e(607, {	-- Sjonnir The Ironshaper
 						["creatureID"] = 27978,	-- Sjonnir The Ironshaper
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -411,11 +411,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(277, {
 		q(35465),	-- Halls of Stone Reward Quest - Normal completion
 		q(35468),	-- Halls of Stone Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

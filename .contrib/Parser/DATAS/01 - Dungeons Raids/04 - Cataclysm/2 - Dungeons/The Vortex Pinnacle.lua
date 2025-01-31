@@ -278,9 +278,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 	})),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(68, {
 		q(35401),	-- The Vortex Pinnacle Reward Quest
 		q(35403),	-- The Vortex Pinnacle Reward Quest
 	}),
-});
+})));

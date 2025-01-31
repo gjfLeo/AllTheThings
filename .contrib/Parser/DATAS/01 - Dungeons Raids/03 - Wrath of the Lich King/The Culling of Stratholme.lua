@@ -442,25 +442,25 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(611, {	-- Meathook
 						["creatureID"] = 26529,	-- Meathook
 						["groups"] = {
-							
+
 						},
 					}),
 					e(612, {	-- Salramm the Fleshcrafter
 						["creatureID"] = 26530,	-- Salramm the Fleshcrafter
 						["groups"] = {
-							
+
 						},
 					}),
 					e(613, {	-- Chrono-Lord Epoch
 						["creatureID"] = 26532,	-- Chrono-Lord Epoch
 						["groups"] = {
-							
+
 						},
 					}),
 					e(614, {	-- Mal'Ganis
 						["creatureID"] = 26533,	-- Mal'Ganis
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -470,12 +470,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(279, {
 		q(35472),	-- Culling of Stratholme Reward Quest - Normal completion
 		q(35474),	-- Culling of Stratholme Reward Quest - Heroic completion
 		q(35473),	-- Culling of Stratholme - Bonus Objective Reward - kill Infinite Corruptor (Heroic only)
 	}),
-});
--- #endif
+})));

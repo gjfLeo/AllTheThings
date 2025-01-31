@@ -411,19 +411,19 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(585, {	-- Krik'thir the Gatewatcher
 						["creatureID"] = 28684,	-- Krik'thir the Gatewatcher
 						["groups"] = {
-							
+
 						},
 					}),
 					e(586, {	-- Hadronox
 						["creatureID"] = 28921,	-- Hadronox
 						["groups"] = {
-							
+
 						},
 					}),
 					e(587, {	-- Anub'arak
 						["creatureID"] = 29120,	-- Anub'arak
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -433,11 +433,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(272, {
 		q(35497),	-- Azjol-Nerub Reward Quest - Normal completion
 		q(35498),	-- Azjol-Nerub Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

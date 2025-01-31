@@ -465,7 +465,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(638, {	-- Prince Keleseth <The San'layn>
 						["creatureID"] = 23953,	-- Prince Keleseth <The San'layn>
 						["groups"] = {
-							
+
 						},
 					}),
 					e(639, {	-- Skarvald the Constructor and Dalronn the Controller
@@ -474,13 +474,13 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							24201,	-- Dalronn the Controller
 						},
 						["groups"] = {
-							
+
 						},
 					}),
 					e(640, {	-- Ingvar the Plunderer
 						["creatureID"] = 23954,	-- Ingvar the Plunderer
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -490,11 +490,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(285, {
 		q(35502),	-- Utgarde Keep Reward Quest - Normal completion
 		q(35512),	-- Utgarde Keep Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

@@ -281,11 +281,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(276, {
 		q(35441),	-- Halls of Reflection Reward Quest - Normal completion
 		q(35442),	-- Halls of Reflection Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

@@ -481,37 +481,37 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(626, {	-- Erekem
 						["creatureID"] = 29315,	-- Erekem
 						["groups"] = {
-							
+
 						},
 					}),
 					e(627, {	-- Moragg
 						["creatureID"] = 29316,	-- Moragg
 						["groups"] = {
-							
+
 						},
 					}),
 					e(628, {	-- Ichoron
 						["creatureID"] = 29313,	-- Ichoron
 						["groups"] = {
-							
+
 						},
 					}),
 					e(629, {	-- Xevozz
 						["creatureID"] = 29266,	-- Xevozz
 						["groups"] = {
-							
+
 						},
 					}),
 					e(630, {	-- Levanthor
 						["creatureID"] = 29312,	-- Levanthor
 						["groups"] = {
-							
+
 						},
 					}),
 					e(631, {	-- Zuramat the Obliterator
 						["creatureID"] = 29314,	-- Zuramat the Obliterator
 						["groups"] = {
-							
+
 						},
 					}),
 					e(632, {	-- Cyanigosa
@@ -542,11 +542,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(283, {
 		q(35478),	-- The Violet Hold Reward Quest - Normal completion
 		q(35480),	-- The Violet Hold Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

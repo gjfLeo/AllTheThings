@@ -519,25 +519,25 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(618, {	-- Grand Magus Telestra
 						["creatureID"] = 26731,	-- Grand Magus Telestra
 						["groups"] = {
-							
+
 						},
 					}),
 					e(619, {	-- Anomalus
 						["creatureID"] = 26763,	-- Anomalus
 						["groups"] = {
-							
+
 						},
 					}),
 					e(620, {	-- Ormorok the Tree-Shaper
 						["creatureID"] = 26794,	-- Ormorok the Tree-Shaper
 						["groups"] = {
-							
+
 						},
 					}),
 					e(621, {	-- Keristrasza
 						["creatureID"] = 26723,	-- Keristrasza
 						["groups"] = {
-							
+
 						},
 					}),
 				},
@@ -547,12 +547,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(281, {
 		q(35513),	-- The Nexus - Reward Quest - Normal completion
 		q(35514),	-- The Nexus - Reward Quest - Heroic completion
 		q(35515),	-- The Nexus - Bonus Objective Reward Quest - kill Commander Stoutbeard (A) / Commander Kolurg (H) (Heroic only)
 	}),
-});
--- #endif
+})));

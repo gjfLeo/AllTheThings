@@ -305,11 +305,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 	}),
 })));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(278, {
 		q(35438),	-- Pit of Saron Reward Quest - Normal completion
 		q(35440),	-- Pit of Saron Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));
