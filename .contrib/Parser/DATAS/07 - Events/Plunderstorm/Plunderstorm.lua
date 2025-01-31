@@ -10,7 +10,7 @@ PLUNDERSTORM = createHeader({
 	-- #endif
 	eventID = EVENTS.PLUNDERSTORM,
 	eventSchedule = {
-		0, -- 
+		0, --
 		2025, 01, 14,	-- 15/01/2025
 		2025, 02, 18,	-- 18/02/2024
 	},
@@ -250,8 +250,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(20509), 	-- Plunderkind
 		}),
 		filter(MISC, {
-			i(234423),	-- Keg-Leg's Silver Spoils
-			i(234424),	-- Keg-Leg's Bronze Spoils
+			i(234422, { -- Storm-Singed Plunder
+				["description"] = "Contains 1 Silver and 2 Bronze Spoils.",
+				["g"] = {
+					i(234423),	-- Keg-Leg's Silver Spoils
+					i(234424),	-- Keg-Leg's Bronze Spoils
+				}, -- Wowhead reports this is given from a(41218)?
+			}),
 		}),
 		n(PLUNDERSTORE, {
 			filter(BATTLE_PETS, {

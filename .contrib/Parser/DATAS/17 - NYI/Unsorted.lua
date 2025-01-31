@@ -1416,7 +1416,6 @@ root(ROOTS.Unsorted, {
 				i(235378),	-- Landro's Loot Box
 
 				-- Plunderstorm?
-				i(234422),	-- Storm-Singed Plunder
 				i(234470),	-- Forgemaster's Focus
 
 				-- Plunderstorm Abilities?
