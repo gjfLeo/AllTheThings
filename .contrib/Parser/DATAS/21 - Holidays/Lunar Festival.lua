@@ -427,23 +427,25 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				73170,	-- The Lunar Festival (H)
 				-- #endif
 			},
-			["maps"] = {
-				ELWYNN_FOREST,
-				UNDERCITY,
-				IRONFORGE,
-				ORGRIMMAR,
-				THUNDER_BLUFF,
-				DARNASSUS,
+			["coords"] = {
+				{ 32.5, 53.0, ELWYNN_FOREST },
+				{ 28.8, 16.2, IRONFORGE },
+				{ 65.6, 36.0, UNDERCITY },
+				{ 71.1, 28.2, THUNDER_BLUFF },
+				{ 49.1, 55.8, ORGRIMMAR },
+				{ 38.6, 30.3, DARNASSUS },
 				-- #if AFTER TBC
-				SILVERMOON_CITY,
-				THE_EXODAR,
-				SHATTRATH_CITY,
+				{ 74.0, 57.5, THE_EXODAR },
+				{ 73.0, 82.6, SILVERMOON_CITY },
+				{ 53.3, 33.1, SHATTRATH_CITY },
+				{ 48.1, 36.9, SHATTRATH_CITY },
 				-- #endif
 				-- #if AFTER WRATH
-				NORTHREND_DALARAN,
+				{ 47.6, 43.8, NORTHREND_DALARAN },
 				-- #endif
 				-- #if AFTER MOP
-				VALE_OF_ETERNAL_BLOSSOMS,
+				{ 85.3, 64.9, VALE_OF_ETERNAL_BLOSSOMS },
+				{ 62.9, 19.3, VALE_OF_ETERNAL_BLOSSOMS },
 				-- #endif
 			},
 			["isYearly"] = true,
@@ -548,19 +550,28 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		}),
 		q(8883, {	-- Valadar Starsong
 			["qg"] = 15895,	-- Lunar Festival Harbinger
+			["description"] = "Picking up this Quest from a Quest Giver makes it unavailable at another one.\nIt does not matter which one.\nThere is no need (or point) to visit all of them. You need only one.",
 			["sourceQuest"] = 8867,	-- Lunar Fireworks
-			["maps"] = {
-				ELWYNN_FOREST,
-				UNDERCITY,
-				IRONFORGE,
-				ORGRIMMAR,
-				THUNDER_BLUFF,
-				DARNASSUS,
-				SILVERMOON_CITY,
-				THE_EXODAR,
-				SHATTRATH_CITY,
-				NORTHREND_DALARAN,
-				VALE_OF_ETERNAL_BLOSSOMS,
+			["coords"] = {
+				{ 32.5, 53.0, ELWYNN_FOREST },
+				{ 28.8, 16.2, IRONFORGE },
+				{ 65.6, 36.0, UNDERCITY },
+				{ 71.1, 28.2, THUNDER_BLUFF },
+				{ 49.1, 55.8, ORGRIMMAR },
+				{ 38.6, 30.3, DARNASSUS },
+				-- #if AFTER TBC
+				{ 74.0, 57.5, THE_EXODAR },
+				{ 73.0, 82.6, SILVERMOON_CITY },
+				{ 53.3, 33.1, SHATTRATH_CITY },
+				{ 48.1, 36.9, SHATTRATH_CITY },
+				-- #endif
+				-- #if AFTER WRATH
+				{ 47.6, 43.8, NORTHREND_DALARAN },
+				-- #endif
+				-- #if AFTER MOP
+				{ 85.3, 64.9, VALE_OF_ETERNAL_BLOSSOMS },
+				{ 62.9, 19.3, VALE_OF_ETERNAL_BLOSSOMS },
+				-- #endif
 			},
 			["isBreadcrumb"] = true,
 			["isYearly"] = true,
