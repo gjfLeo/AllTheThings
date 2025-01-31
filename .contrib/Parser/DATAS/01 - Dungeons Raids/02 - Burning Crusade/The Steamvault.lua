@@ -309,11 +309,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 	})),
 })));
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(261, {
 		q(35533),	-- The Steamvault Reward Quest - Normal completion
 		q(35534),	-- The Steamvault Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

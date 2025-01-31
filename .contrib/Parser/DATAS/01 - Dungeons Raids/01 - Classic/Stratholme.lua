@@ -586,7 +586,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(18745),	-- Sacred Cloth Leggings
 				i(18742),	-- Stratholme Militia Shoulderguard
-				
+
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, i(226717, {	-- Beaststalker's Bindings
 					["timeline"] = { "added 1.15.3" },
@@ -1380,7 +1380,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							})),
 							-- #endif
 							i(22329, {	-- Scepter of Interminable Focus
-								["timeline"] = { 
+								["timeline"] = {
 									-- #if SEASON_OF_DISCOVERY
 									"removed 1.15.3",
 									-- #else
@@ -1397,7 +1397,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							})),
 							-- #endif
 							i(22301, {	-- Ironweave Robe
-								["timeline"] = { 
+								["timeline"] = {
 									-- #if SEASON_OF_DISCOVERY
 									"removed 1.15.3",
 									-- #else
@@ -1943,13 +1943,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	}),
 }));
 
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(236, {
 		q(35563),	-- Stratholme - Main Gate - Reward Quest - Normal completion
 		q(35564),	-- Stratholme - Main Gate - Bonus Objective Reward Quest
 		q(35574),	-- Stratholme - Service Entrance Reward Quest - Normal completion
 		q(35575),	-- Stratholme - Service Entrance Bonus Objective Reward Quest
 	}),
-});
--- #endif
+})));

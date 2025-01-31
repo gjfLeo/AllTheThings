@@ -567,14 +567,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		},
 	}),
 }));
--- #if AFTER 6.0.1
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(232, {
 		q(35885),	-- Maraudon (Wicked Grotto) Reward Quest - Normal completion
 		q(35886),	-- Maraudon (Foulspore Cavern) Reward Quest - Normal completion
 		q(35887),	-- Maraudon (Earth Song Falls) Reward Quest - Normal completion
 		q(35888),	-- Maraudon (Everything) Reward Quest
 		q(35889),	-- Maraudon (Bonus) Reward Quest
 	}),
-});
--- #endif
+})));

@@ -343,12 +343,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 	}),
 })));
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(252, {
 		q(35541),	-- Sethekk Halls Bonus Objective
 		q(35539),	-- Sethekk Halls Reward Quest - Normal completion
 		q(35540),	-- Sethekk Halls Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

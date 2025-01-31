@@ -272,16 +272,16 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 	}),
 })));
 
--- #if AFTER TBC
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.TBC, {
-		q(10737),	-- The Master's Touch Quest Completion Credit?
-	}),
-	-- #if AFTER WOD
-	expansion(EXPANSION.WOD, {
-		q(35521),	-- The Black Morass Reward Quest - Normal completion
-		q(35522),	-- The Black Morass Reward Quest - Heroic completion
-	}),
-	-- #endif
+	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_5_1 } }, {
+		inst(255, {
+			q(10737),	-- The Master's Touch Quest Completion Credit?
+		}),
+	})),
+	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+		inst(255, {
+			q(35521),	-- The Black Morass Reward Quest - Normal completion
+			q(35522),	-- The Black Morass Reward Quest - Heroic completion
+		}),
+	})),
 });
--- #endif

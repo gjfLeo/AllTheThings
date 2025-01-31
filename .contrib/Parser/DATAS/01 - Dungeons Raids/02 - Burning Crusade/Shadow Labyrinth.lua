@@ -391,11 +391,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 	}),
 })));
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(253, {
 		q(35519),	-- The Shadow Labyrinth Reward Quest - Normal completion
 		q(35520),	-- The Shadow Labyrinth Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

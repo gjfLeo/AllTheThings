@@ -390,11 +390,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 	}),
 })));
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(262, {
 		q(35559),	-- The Underbog Reward Quest - Normal completion
 		q(35560),	-- The Underbog Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

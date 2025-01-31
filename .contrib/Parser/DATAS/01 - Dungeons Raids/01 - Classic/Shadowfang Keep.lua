@@ -300,7 +300,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				q(27435, {	-- A Seer's Staff [Tauren]
-					["providers"] = {	
+					["providers"] = {
 						-- #if AFTER SHADOWLANDS
 						{ "n", 168621 },	-- Martin Goodchilde <Priest Trainer>
 						-- #else
@@ -633,7 +633,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 					},
 					["sourceQuest"] = 27280,	-- The Dreamseeker Calls [CATA] / The Earthbreaker Calls [MOP] / The Riverspeaker Calls [SL+]
-					["coords"] = {	
+					["coords"] = {
 						-- #if AFTER SHADOWLANDS
 						{ 73.6, 43.4, ORGRIMMAR },
 						-- #elseif AFTER MOP
@@ -2256,13 +2256,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		},
 	}),
 }));
--- #if AFTER 6.0.1
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(64, {
 		q(35304),	-- Shadowfang Keep Reward Quest - Normal completion
 		q(35309),	-- Shadowfang Keep Reward Quest - Heroic completion
 		q(35311),	-- Commander Springvale Reward Quest
 		q(35305),	-- Defeat Baron Silverlaine Reward
 	}),
-});
--- #endif
+})));

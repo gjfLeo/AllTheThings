@@ -868,13 +868,11 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 	DEADMINES_INSTANCE,
 }));
-
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		inst(63, {	-- Deadmines
-			q(35586),	-- Deadmines Reward Quest - Normal completion
-			q(35587),	-- Deadmines Reward Quest - Heroic completion
-		}),
-	}),
-});
 -- #endif
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(63, {	-- Deadmines
+		q(35586),	-- Deadmines Reward Quest - Normal completion
+		q(35587),	-- Deadmines Reward Quest - Heroic completion
+	}),
+})));

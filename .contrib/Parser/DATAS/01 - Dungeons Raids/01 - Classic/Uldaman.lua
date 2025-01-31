@@ -887,11 +887,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		},
 	}),
 }));
--- #if AFTER 6.0.1
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(239, {
 		q(35605),	-- Uldaman Reward Quest - Normal completion
 		q(35610),	-- Uldaman Bonus Reward
 	}),
-});
--- #endif
+})));

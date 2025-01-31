@@ -1288,19 +1288,20 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		},
 	}),
 }));
--- #if AFTER MOP
+
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.MOP, {
-		q(31637),	-- Scarlet Monastery Challenge Mode - Bronze Addition (Nth)
-		q(31629),	-- Scarlet Monastery Challenge Mode - Consolation (Nth)
-		q(31651),	-- Scarlet Monastery Challenge Mode - Gold Addition (Nth)
-		q(31644),	-- Scarlet Monastery Challenge Mode - Silver Addition (Nth)
-	}),
-	-- #if AFTER WOD
-	expansion(EXPANSION.WOD, {
-		q(35612),	-- Scarlet Monastery Reward Quest - Normal completion
-		q(35613),	-- Scarlet Monastery Reward Quest - Heroic completion
-	}),
-	-- #endif
+	expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
+		inst(316, {
+			q(31637),	-- Scarlet Monastery Challenge Mode - Bronze Addition (Nth)
+			q(31629),	-- Scarlet Monastery Challenge Mode - Consolation (Nth)
+			q(31651),	-- Scarlet Monastery Challenge Mode - Gold Addition (Nth)
+			q(31644),	-- Scarlet Monastery Challenge Mode - Silver Addition (Nth)
+		}),
+	})),
+	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+		inst(316, {
+			q(35612),	-- Scarlet Monastery Reward Quest - Normal completion
+			q(35613),	-- Scarlet Monastery Reward Quest - Heroic completion
+		}),
+	})),
 });
--- #endif

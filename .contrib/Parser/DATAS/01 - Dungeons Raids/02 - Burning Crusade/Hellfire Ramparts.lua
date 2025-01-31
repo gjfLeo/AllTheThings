@@ -404,11 +404,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 	}),
 })));
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(248, {
 		q(35572),	-- Hellfire Ramparts Reward Quest - Normal completion
 		q(35573),	-- Hellfire Ramparts Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

@@ -292,11 +292,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 	})),
 })));
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(247, {
 		q(35544),	-- Auchinai Crypts Reward Quest - Normal completion
 		q(35545),	-- Auchinai Crypts Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));

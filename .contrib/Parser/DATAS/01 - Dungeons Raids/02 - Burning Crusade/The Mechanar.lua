@@ -97,7 +97,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					["cr"] = 19168,	-- Sunseeker Astromage
 				}),
 			}),
-			o(184465, bubbleDownSelf({ 
+			o(184465, bubbleDownSelf({
 				-- #if ANYCLASSIC
 				["timeline"] = { REMOVED_4_0_3 },
 				["isBounty"] = true,
@@ -301,11 +301,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 	}),
 })));
--- #if AFTER WOD
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(258, {
 		q(35528),	-- The Mechanar Reward Quest - Normal completion
 		q(35529),	-- The Mechanar Reward Quest - Heroic completion
 	}),
-});
--- #endif
+})));
