@@ -1360,8 +1360,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		},
 	}),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {
+	inst(786, {
 		q(45318),	-- Skorpyron
 		q(45319),	-- Chronomatic Anomaly
 		q(45320),	-- Triliax
@@ -1378,4 +1378,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(45328),	-- Triggers when the door to Chronomatic Anomaly opens
 		q(46328),	-- Triggers when the port to Elisande is activated
 	}),
-});
+})));

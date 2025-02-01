@@ -374,7 +374,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_5_1 } }, {
+	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {
 		inst(260, {
 			q(11115),	-- The Mark of Vashj (FLAG ONLY)
 		}),

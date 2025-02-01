@@ -1096,9 +1096,9 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_0 } }, {
 	inst(1176, {	-- Battle of Dazar'alor
 		q(55026),	-- Killing Opulence (H)
 		q(55027),	-- Killing Opulence (M)
 	}),
-}));
+})));

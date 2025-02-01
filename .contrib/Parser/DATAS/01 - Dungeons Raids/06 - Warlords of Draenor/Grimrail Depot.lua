@@ -161,11 +161,11 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(536, {
 		q(34548),	-- Iron Depot Challenge Mode - Bronze Addition (Nth)
 		q(34529),	-- Iron Depot Challenge Mode - Consolation (Nth)
 		q(34550),	-- Iron Depot Challenge Mode - Gold Addition (Nth)
 		q(34549),	-- Iron Depot Challenge Mode - Silver Addition (Nth)
 	}),
-});
+})));

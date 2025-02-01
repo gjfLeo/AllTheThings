@@ -273,7 +273,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_5_1 } }, {
+	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {
 		inst(255, {
 			q(10737),	-- The Master's Touch Quest Completion Credit?
 		}),

@@ -183,12 +183,12 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(547, {
 		q(35960),	-- Auchindoun Reward Quest
 		q(34539),	-- Draenor Challenge Mode - Bronze Addition (Nth)
 		q(34527),	-- Draenor Challenge Mode - Consolation (Nth)
 		q(34541),	-- Draenor Challenge Mode - Gold Addition (Nth)
 		q(34540),	-- Draenor Challenge Mode - Silver Addition (Nth)
 	}),
-});
+})));

@@ -431,8 +431,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
+	inst(959, {
 		--	secondary quests trigger multiple times throughout the week (aka if you complete it on tuesday and wednesday, both official + secondary quest pop both days).
 		--	secondary quests don't seem to be tied to which boss you kill OR loot (have gotten them when receiving rep tokens, unsullied tokens, blue drops, and even just AP/a grey item).
 		q(49195),	-- Greater Invasion Point: Occularus - weekly completion
@@ -460,4 +460,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(49214),	-- triggered upon completing Naigtal, but not the official quest
 		q(49215),	-- triggered upon completing Bonich, but not the official quest
 	}),
-});
+})));

@@ -220,12 +220,12 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(558, {
 		q(34536),	-- Iron Docks Challenge Mode - Bronze Addition (Nth)
 		q(34526),	-- Iron Docks Challenge Mode - Consolation (Nth)
 		q(34538),	-- Iron Docks Challenge Mode - Gold Addition (Nth)
 		q(34537),	-- Iron Docks Challenge Mode - Silver Addition (Nth)
 		q(35958),	-- Iron Docks Reward Quest
 	}),
-});
+})));

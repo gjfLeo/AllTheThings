@@ -287,8 +287,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(559, {
 		q(36865),	-- UBRS Event Dungeon Reward Quest
 		q(34554),	-- Upper Blackrock Spire Challenge Mode - Bronze Addition (Nth)
 		q(34531),	-- Upper Blackrock Spire Challenge Mode - Consolation (Nth)
@@ -296,4 +296,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(34556),	-- Upper Blackrock Spire Challenge Mode - Gold Addition (Nth)
 		q(34555),	-- Upper Blackrock Spire Challenge Mode - Silver Addition (Nth)
 	}),
-});
+})));

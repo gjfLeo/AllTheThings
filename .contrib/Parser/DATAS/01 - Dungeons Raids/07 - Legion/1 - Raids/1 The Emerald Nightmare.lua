@@ -861,8 +861,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		},
 	}),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	inst(768, {
 		q(44142),	-- Nythendra
 		q(44143),	-- Il'gynoth, Heart of Corruption
 		q(44144),	-- Elerethe Renferal
@@ -871,4 +872,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(44147),	-- Cenarius
 		q(44148),	-- Xavius
 	}),
-});
+})));

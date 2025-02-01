@@ -239,11 +239,11 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	inst(556, {
 		q(34551),	-- Shaper Dungeon [PH] Challenge Mode - Bronze Addition (Nth)
 		q(34530),	-- Shaper Dungeon [PH] Challenge Mode - Consolation (Nth)
 		q(34553),	-- Shaper Dungeon [PH] Challenge Mode - Gold Addition (Nth)
 		q(34552),	-- Shaper Dungeon [PH] Challenge Mode - Silver Addition (Nth)
 	}),
-});
+})));

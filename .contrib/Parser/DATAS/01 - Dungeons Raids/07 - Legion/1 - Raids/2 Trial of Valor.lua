@@ -415,8 +415,8 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		},
 	}),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_5 } }, {
+	inst(861, {
 		q(46661),	-- Odyn LFR
 		q(46662),	-- Odyn Normal
 		q(46663),	-- Odyn Heroic
@@ -425,4 +425,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(45430),	-- Guarm
 		q(45431),	-- Helya
 	}),
-});
+})));

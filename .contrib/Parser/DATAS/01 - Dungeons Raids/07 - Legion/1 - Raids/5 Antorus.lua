@@ -1582,8 +1582,9 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		},
 	}),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
+	inst(946, {
 		q(45460),	-- Garothi Worldbreaker
 		q(48420),	-- Garothi Worldbreaker (triggered at the same time as above)
 		q(45461),	-- Felhounds of Sargeras
@@ -1622,4 +1623,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(48570),	-- Tracking Quest - triggers when the door opens to Kin'garoth
 		q(77246, {["timeline"]={ADDED_10_1_5}}),	-- after <Channel the power of your weapon into the gateway.> for Grimoire of the Xorothian Felhunter (itemID 208050)
 	}),
-});
+})));

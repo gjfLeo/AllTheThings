@@ -937,7 +937,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	inst(1179, {	-- The Eternal Palace
 		q(56948),	-- creating rank 1 Condensed Life-Force from Aqueous Reliquaries
 		q(56949),	-- creating rank 2 Condensed Life-Force from Aqueous Reliquaries
@@ -956,4 +956,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
 		q(55761),	-- Queen Azshara killed (Heroic)
 		q(56524),	-- Queen Azshara killed (Mythic)
 	}),
-}));
+})));

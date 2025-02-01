@@ -1087,7 +1087,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {
 	inst(1180, {	-- Ny'alotha
 		q(58550),	-- Mythic: Prophet Skitra
 		q(58542),	-- Mythic: Vexiona
@@ -1095,4 +1095,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
 		q(58538),	-- Mythic: Il'gynoth
 		q(58534),	-- Mythic: N'zoth
 	}),
-}));
+})));

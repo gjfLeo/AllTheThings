@@ -603,11 +603,12 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		},
 	}),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {
+	inst(860, {
 		q(45393),	-- Moroes cutscene
 		q(45394),	-- Maiden of Virtue Kill
 		q(45395),	-- Shade of Medivh Kill
 		q(45396),	-- Mana Devourer Kill
 	}),
-});
+})));
