@@ -2352,7 +2352,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 		})),
 	}),
 	n(YEAR2025, {
-		n(JANUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58238", "removed 11.0.7.99999" } }, {	-- TODO: Timeline out correctly
+		n(JANUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58238", "removed 11.0.7.58867" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(233359),	-- Green Clockwork Contraptions Collection
 			}),
@@ -2455,7 +2455,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(FEBRUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58238", "removed 11.0.7.99999" } }, {	-- TODO: Timeline out correctly
+		n(FEBRUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58867", "removed 11.0.7.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(234058),	-- Ensemble: Ornate Pink Lunar Festival Attire
 			}),
@@ -2504,6 +2504,9 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
 				iensemble(232933, {	-- Ensemble: Sky Witch's Heartfelt Shoulders
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				iensemble(232934, {	-- Ensemble: Twilight Witch's Heartfelt Shoulders
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
 				i(234074, {	-- Gold-Plated Cushioned Boots

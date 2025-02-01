@@ -1213,12 +1213,9 @@ root(ROOTS.Unsorted, {
 				-- Trading Post?
 				i(232910),	-- Vivid Heartfelt Shoulder Cape
 				i(232911),	-- Truly Heartfelt Shoulder Cape
-				i(232912),	-- Twilight Witch's Heartfelt Shoulder Cape
 				i(232914),	-- Truly Heartfelt Spaulders
-				i(232915),	-- Twilight Witch's Heartfelt Spaulders
 				i(232916),	-- Vivid Heartfelt Spaulders
 				i(232925),	-- Ensemble: Truly Heartfelt Shoulders
-				i(232934),	-- Ensemble: Twilight Witch's Heartfelt Shoulders
 				i(233079),	-- Short Midnight War Skirt
 				i(233080),	-- Short Azure War Skirt
 				i(233081),	-- Short Sepia War Skirt
@@ -1321,7 +1318,6 @@ root(ROOTS.Unsorted, {
 				i(233224),	-- Obsidian Lunar Blade
 				i(233225),	-- Cobalt Lunar Blade
 				i(233227),	-- Gold Lunar Blade
-				i(233228),	-- Jade Lunar Polearm
 				i(233229),	-- Silver Lunar Polearm
 				i(233230),	-- Gold Lunar Polearm
 				i(233231),	-- Steel Lunar Polearm
