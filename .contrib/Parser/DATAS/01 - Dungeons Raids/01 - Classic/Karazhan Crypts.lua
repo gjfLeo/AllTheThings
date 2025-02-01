@@ -68,6 +68,17 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["lvl"] = 60,
 				}),
 			}),
+			n(238233),	-- Kaigy Maryla <The Failed Apprentice>		(9)
+			n(238213),	-- Sairuh Maryla <The Failed Apprentice>	(10)
+			n(238234),	-- Barian Maryla <The Failed Apprentice>	(11)
+			n(238024),	-- Creeping Malison	(5)
+			n(237964),	-- Harbinger of Sin	(0)
+			n(237439),	-- Kharon			(2)
+			n(238365),	-- Dark Rider		(4)
+			n(238428),	-- Trizivast
+			n(238560),	-- The Warden
+			n(238678),	-- Unk'omon <The Winged Sorrow>	(6)
+			n(238644),	-- Unrepentant Criminal	(1)
 		},
 	}))),
 }));
