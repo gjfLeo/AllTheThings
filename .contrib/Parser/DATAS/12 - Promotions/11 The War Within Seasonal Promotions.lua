@@ -150,37 +150,37 @@ root(ROOTS.Promotions, {
 			}),
 			i(228907, {	-- Bot Wrangler’s Belt
 				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228909, {	-- Bot Wrangler’s Crimson Apron
 				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228908, {	-- Bot Wrangler’s Violet Apron
 				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228793, {	-- Chillbot 9000 (PET!)
 				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228790, {	-- Thrillbot 9000 (PET!)
 				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
 			i(211087, {	-- Hateforged Blazecycle (MOUNT!)
 				["description"] = "Available to redeem for 600 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
 			i(68385, {	-- Lil' Ragnaros (PET!)
 				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58867" },
 				["u"] = REAL_MONEY,
 			}),
 			i(229366, {	-- Brrrgl (PET!)
