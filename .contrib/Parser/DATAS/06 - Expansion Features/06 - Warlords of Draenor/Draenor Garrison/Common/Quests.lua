@@ -1219,7 +1219,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					["description"] = "Muradin Bronzebeard has a chance to spawn in your garrison daily, or you can find someone with him spawned and join their garrison. He starts a weekly raid quest which will either have Greater Bounty Spoils or Apexis Crystals as a reward.",
 					["crs"] = { 91196 },	-- Muradin Bronzebeard
 					["races"] = ALLIANCE_ONLY,
-					["g"] = bubbleDownFiltered({ ["coord"] = { 34.1, 32.6, LUNARFALL }, ["races"] = ALLIANCE_ONLY, ["qg"] = 91196 },FILTERFUNC_questID,{
+					["g"] = bubbleDownFiltered({ ["coord"] = { 34.1, 32.6, LUNARFALL }, ["races"] = ALLIANCE_ONLY, ["qgs"] = { 91196, 89763 }},FILTERFUNC_questID,{
 						i(123975, {	-- Greater Bounty Spoils
 							["sym"] = { { "fill" } },	-- simply fill this item
 						}),

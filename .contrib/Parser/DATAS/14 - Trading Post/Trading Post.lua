@@ -2461,26 +2461,86 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			}),
 			filter(BATTLE_PETS, {
 				i(234397, {	-- Fullbelly Rollingpaw (PET!)
-					["cost"] = {{"c", TRADERS_TENDER, 999}},
+					["cost"] = {{"c", TRADERS_TENDER, 350}},
+				}),
+				i(234396, {	-- Teatuft Tamer (PET!)
+					["cost"] = {{"c", TRADERS_TENDER, 350}},
 				}),
 			}),
 			filter(MOUNTS, {
+				i(212227, {	-- Fur-endship Fox (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 750}},
+				}),
 				i(233023, {	-- Silvermoon Sweeper (MOUNT!)
-					["cost"] = {{"c", TRADERS_TENDER, 999}},
+					["cost"] = {{"c", TRADERS_TENDER, 600}},
 				}),
 			}),
 			filter(COSMETIC, {
+				i(233078, {	-- Banded Crimson War Slippers
+					["cost"] = {{"c", TRADERS_TENDER, 20}},
+				}),
+				i(233076, {	-- Banded Crimson War Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 20}},
+				}),
+				i(212369, {	-- Battlefield Lover's Bow
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
 				i(233232, {	-- Crimson Lunar Firewhacker
-					["cost"] = {{"c", TRADERS_TENDER, 999}},
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
 				}),
 				i(233218, { -- Crimson Lunar Lantern
-					["cost"] = {{"c", TRADERS_TENDER, 999}},
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
 				}),
 				i(233236, {	-- Crimson Pack of Lunar Explosives
-					["cost"] = {{"c", TRADERS_TENDER, 999}},
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				iensemble(212220, {	-- Ensemble: Love Witch's Attire
+					["cost"] = {{"c", TRADERS_TENDER, 750}},
+				}),
+				iensemble(234057, {	-- Ensemble: Ornate Crimson Lunar Festival Attire
+					["cost"] = {{"c", TRADERS_TENDER, 600}},
+				}),
+				iensemble(230175, {	-- Ensemble: Prowler's Pink Headgear
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				iensemble(232933, {	-- Ensemble: Sky Witch's Heartfelt Shoulders
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				i(234074, {	-- Gold-Plated Cushioned Boots
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(233223, {	-- Jade Lunar Blade
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+				i(233228, {	-- Jade Lunar Polearm
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+				i(233073, {	-- Long Crimson War Skirt
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(233075, {	-- Long Crimson War Skirt and Leg Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 50}},
+				}),
+				i(212379, {	-- Love Witch's Rosy Stave
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(212377, {	-- Love Witch's Rosy Wand
+					["cost"] = {{"c", TRADERS_TENDER, 200}},
+				}),
+				i(212375, {	-- Lovely Rosy Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+				i(230044, {	-- Prowler's Pink Shoulder Cape
+					["cost"] = {{"c", TRADERS_TENDER, 75}},
+				}),
+				i(190855, {	-- Rosy Corsage
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				i(233072, {	-- Short Crimson War Skirt
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
 				}),
 				i(233074, {	-- Short Crimson War Skirt and Leg Wraps
-					["cost"] = {{"c", TRADERS_TENDER, 999}},
+					["cost"] = {{"c", TRADERS_TENDER, 50}},
 				}),
 			}),
 		})),

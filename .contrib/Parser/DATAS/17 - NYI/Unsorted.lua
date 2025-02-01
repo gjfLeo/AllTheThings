@@ -1196,7 +1196,6 @@ root(ROOTS.Unsorted, {
 				i(232923),	-- Living Rose (PET!)
 				i(234905),	-- Mech-Friend Maya (PET!)
 				i(233057),	-- Rock Hound Mica (PET!)
-				i(234396),	-- Teatuft Tamer (PET!) [Trading Post]
 			}),
 			filter(COSMETIC, {
 				i(233913),	-- [PH] Shield
@@ -1210,25 +1209,16 @@ root(ROOTS.Unsorted, {
 
 				-- Plunderstorm?
 				i(232924),	-- Sailor's Belt
-				i(234074),	-- Gold-Plated Cushioned Boots
 
 				-- Trading Post?
-				i(232909),	-- Sky Witch's Heartfelt Shoulder Cape
 				i(232910),	-- Vivid Heartfelt Shoulder Cape
 				i(232911),	-- Truly Heartfelt Shoulder Cape
 				i(232912),	-- Twilight Witch's Heartfelt Shoulder Cape
-				i(232913),	-- Sky Witch's Heartfelt Spaulders
 				i(232914),	-- Truly Heartfelt Spaulders
 				i(232915),	-- Twilight Witch's Heartfelt Spaulders
 				i(232916),	-- Vivid Heartfelt Spaulders
 				i(232925),	-- Ensemble: Truly Heartfelt Shoulders
-				i(232933),	-- Ensemble: Sky Witch's Heartfelt Shoulders
 				i(232934),	-- Ensemble: Twilight Witch's Heartfelt Shoulders
-				i(233072),	-- Short Crimson War Skirt
-				i(233073),	-- Long Crimson War Skirt
-				i(233075),	-- Long Crimson War Skirt and Leg Wraps
-				i(233076),	-- Banded Crimson War Wraps
-				i(233078),	-- Banded Crimson War Slippers
 				i(233079),	-- Short Midnight War Skirt
 				i(233080),	-- Short Azure War Skirt
 				i(233081),	-- Short Sepia War Skirt
@@ -1328,7 +1318,6 @@ root(ROOTS.Unsorted, {
 				i(233219),	-- Azure Lunar Lantern
 				i(233220),	-- Lively Lunar Lantern
 				i(233221),	-- Violet Lunar Lantern
-				i(233223),	-- Jade Lunar Blade
 				i(233224),	-- Obsidian Lunar Blade
 				i(233225),	-- Cobalt Lunar Blade
 				i(233227),	-- Gold Lunar Blade
@@ -1370,22 +1359,16 @@ root(ROOTS.Unsorted, {
 				i(233325),	-- Violet Clockwork Boots
 				i(233327),	-- Cobalt Clockwork Attire
 				i(233330),	-- Violet Clockwork Attire
-				i(234037),	-- Lunar Festival Slippers
 				i(234039),	-- Lunar Festival Slippers - Purple
 				i(234040),	-- Lunar Festival Slippers - Teal
-				i(234041),	-- Lunar Festival Belt
 				i(234043),	-- Lunar Festival Belt - Purple
 				i(234044),	-- Lunar Festival Belt - Teal
-				i(234045),	-- Lunar Festival Robe
 				i(234047),	-- Lunar Festival Robe - Purple
 				i(234048),	-- Lunar Festival Robe - Teal
-				i(234049),	-- Lunar Festival Spaulders
 				i(234051),	-- Lunar Festival Spaulders - Purple
 				i(234052),	-- Lunar Festival Spaulders - Teal
-				i(234053),	-- Lunar Festival Crown
 				i(234055),	-- Lunar Festival Crown - Purple
 				i(234056),	-- Lunar Festival Crown - Teal
-				i(234057),	-- Lunar Festival Attire
 				i(234059),	-- Lunar Festival Attire - Purple
 				i(234060),	-- Lunar Festival Attire - Teal
 
@@ -1632,7 +1615,6 @@ root(ROOTS.Unsorted, {
 				i(230039),	-- Prowler's Brick Shoulder Cape
 				i(230040),	-- Prowler's Camo Shoulder Cape
 				i(230041),	-- Prowler's Lively Shoulder Cape
-				i(230044),	-- Prowler's Pink Shoulder Cape
 				i(230046),	-- Prowler's Rosy Shoulder Cape
 				i(230047),	-- Prowler's Plum Shoulder Cape
 				i(230050),	-- Prowler's Aquatic Shoulder Cape
@@ -1645,7 +1627,6 @@ root(ROOTS.Unsorted, {
 				i(230060),	-- Prowler's Camo Cowl
 				i(230061),	-- Prowler's Brick Cowl
 				i(230062),	-- Prowler's Lively Cowl
-				i(230065),	-- Prowler's Pink Cowl
 				i(230067),	-- Prowler's Rosy Cowl
 				i(230068),	-- Prowler's Plum Cowl
 				i(230069),	-- Prowler's Crimson Cowl
@@ -1661,7 +1642,6 @@ root(ROOTS.Unsorted, {
 				i(230080),	-- Prowler's Camo Mask
 				i(230081),	-- Prowler's Brick Mask
 				i(230082),	-- Prowler's Lively Mask
-				i(230085),	-- Prowler's Pink Mask
 				i(230087),	-- Prowler's Rosy Mask
 				i(230088),	-- Prowler's Plum Mask
 				i(230089),	-- Prowler's Crimson Mask
@@ -1676,7 +1656,6 @@ root(ROOTS.Unsorted, {
 				i(230170),	-- Ensemble: Prowler's Camo Headgear
 				i(230171),	-- Ensemble: Prowler's Brick Headgear
 				i(230172),	-- Ensemble: Prowler's Lively Headgear
-				i(230175),	-- Ensemble: Prowler's Pink Headgear
 				i(230177),	-- Ensemble: Prowler's Rosy Headgear
 				i(230178),	-- Ensemble: Prowler's Plum Headgear
 				i(230181),	-- Ensemble: Prowler's Aquatic Headgear

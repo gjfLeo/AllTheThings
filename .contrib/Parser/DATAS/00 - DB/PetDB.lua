@@ -4279,6 +4279,7 @@ i(166358, 2541);	-- Proper Parrot
 i(232519, 4690);	-- Razeshi B.
 i(234395, 4727);	-- Skitterbite
 i(233247, 4692);	-- Sparklesnap
+i(234396, 4728);	-- Teatuft Tamer
 i(231310, 4684);	-- Timbered Sky Snakelet
 i(233366, 4719);	-- Wind-Up Woofer
 i(233361, 4718);	-- Wind-Up Wuffi
@@ -4296,7 +4297,6 @@ n(230394, 4628);	-- Tidal Kroling
 i(232923, 4704);	-- Living Rose
 i(234905, 4730);	-- Mech-Friend Maya
 i(233057, 4709);	-- Rock Hound Mica
-i(234396, 4728);	-- Teatuft Tamer
 i(233190, 4717);	-- Wanderer Liu
 --- NYI? ---
 --i(???, 4725);	-- Titan Orb
