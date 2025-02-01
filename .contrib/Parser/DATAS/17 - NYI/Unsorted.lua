@@ -1373,9 +1373,6 @@ root(ROOTS.Unsorted, {
 				i(234710),	-- Earthen Artisan Kilt
 				i(234711),	-- Earthen Peacekeeper Warkilt
 				i(234712),	-- Earthen Explorer's Kilt
-				i(234713),	-- Dornogal Waistcoat
-				i(234714),	-- Gundargaz Waistcoat
-				i(234715),	-- Freywold Waistcoat
 			}),
 			filter(MISC, {
 				i(228637),	-- Delete Me
