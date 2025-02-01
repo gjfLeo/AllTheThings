@@ -287,8 +287,12 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(49204),	-- Arriving in Eredath
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
+	m(ARGUS, {
+		m(EREDATH, {
+			n(QUESTS, {
+				q(49204),	-- Arriving in Eredath
+			}),
+		}),
 	}),
-});
+})));

@@ -54,11 +54,17 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(48984),	-- Triggers when combining the Smashed Portal Generator and other parts to make Vishak's Portal Generator
-		q(49023),	-- Triggers when looting Ancient Legion War Cache. Probably achievement criteria as chests have their own questIDs
-		q(49024),	-- Triggers when looting Fel-Bound Chest. Probably achievement criteria as chests have their own questIDs
-		q(49162),	-- Triggers when completing 'Sizing Up The Opposition' (questID 48929) (spellID 254549)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
+	m(ARGUS, {
+		m(ANTORAN_WASTES, {
+			n(QUESTS, {
+				q(48984),	-- Triggers when combining the Smashed Portal Generator and other parts to make Vishak's Portal Generator
+				q(49162),	-- Triggers when completing 'Sizing Up The Opposition' (questID 48929) (spellID 254549)
+			}),
+			n(TREASURES, {
+				q(49023),	-- Triggers when looting Ancient Legion War Cache. Probably achievement criteria as chests have their own questIDs
+				q(49024),	-- Triggers when looting Fel-Bound Chest. Probably achievement criteria as chests have their own questIDs
+			}),
+		}),
 	}),
-});
+})));
