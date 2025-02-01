@@ -206,7 +206,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(190846, {	-- Shattered Voidspire
 					["cost"] = {{"c", TRADERS_TENDER, 500}},
 				}),
-				i(189871, {	-- Squire's Etched Warhammer
+				i(189871, {	-- Squire's Warhammer
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
 			}),
@@ -578,10 +578,10 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(208040, {	-- Queens Conservatory Ball Gloves
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
-				i(190909, {	-- Ruby Felfire Splitblade
+				i(190910, {	-- Ruby Felfire Bulwark
 					["cost"] = {{"c", TRADERS_TENDER, 400}},
 				}),
-				i(190910, {	-- Ruby Felfire Bulwark
+				i(190909, {	-- Ruby Felfire Splitblade
 					["cost"] = {{"c", TRADERS_TENDER, 400}},
 				}),
 				i(190143, {	-- Shard of Frozen Secrets
@@ -594,7 +594,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(190168),	-- Crusty Crawler (MOUNT!)
 			}),
 			filter(BATTLE_PETS, {
-				i(208045, {	-- Slyvy (PET!) (650)
+				i(208045, {	-- Slyvy (PET!)
 					["cost"] = {{"c", TRADERS_TENDER, 650}},
 				}),
 			}),
@@ -2534,7 +2534,10 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 					["cost"] = {{"c", TRADERS_TENDER, 75}},
 				}),
 				i(190855, {	-- Rosy Corsage
-					["cost"] = {{"c", TRADERS_TENDER, 100}},
+					-- #if BEFORE 11.1.0
+					["description"] = "This is also sold at the discount vendor, no reason to buy it from the main trading post offering."
+					-- #endif
+					--["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
 				i(233072, {	-- Short Crimson War Skirt
 					["cost"] = {{"c", TRADERS_TENDER, 40}},
@@ -2543,6 +2546,311 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 					["cost"] = {{"c", TRADERS_TENDER, 50}},
 				}),
 			}),
+			n(VENDORS, {
+				n(234747, {	-- Supplier Felina <Trading Post Outlet Completionist>
+					["coord"] = { 48.16, 51.99, DORNOGAL },
+					["g"] = {
+						filter(BATTLE_PETS, {
+							i(190925, {	-- Buttercup (PET!)
+								["cost"] = {{"c", TRADERS_TENDER, 350}},
+							}),
+						}),
+						filter(MOUNTS, {
+							i(190231, {	-- Ash'adar, Harbinger of Dawn (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 900}},
+							}),
+							i(190169, {	-- Quawks (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 750}},
+							}),
+						}),
+						filter(COSMETIC, {
+							iensemble(208943, {	-- Arsenal: Cosmic Weapons Cache
+								["cost"] = {{"c", TRADERS_TENDER, 700}},
+							}),
+							iensemble(190797, {	-- Ensemble: Bones of the Bloodhunter
+								["cost"] = {{"c", TRADERS_TENDER, 800}},
+							}),
+							iensemble(190504, {	-- Ensemble: Darkmoon Harlequin's Bells
+								["cost"] = {{"c", TRADERS_TENDER, 750}},
+							}),
+						}),
+					},
+				}),
+				n(234746, {	-- Supplier Mizix <Trading Post Outlet Creatures and Toys>
+					["coord"] = { 48.07, 52.16, DORNOGAL },
+					["g"] = {
+						filter(BATTLE_PETS, {
+							i(190604, {	-- Buzzworth (PET!)
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190176, {	-- Drazka'zet the Wrathful (PET!)
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190603, {	-- Egbob (PET!)
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(208045, {	-- Slyvy (PET!)
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(49343, {	-- Spectral Tiger Cub (PET!)
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+						}),
+						filter(MOUNTS, {
+							i(207821, {	-- Ancestral Clefthoof (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 500}},
+							}),
+							i(210919, {	-- Crimson Glimmerfur (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 500}},
+							}),
+							i(206027, {	-- Felcrystal Scorpion (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 500}},
+							}),
+							i(189978, {	-- Reins of the Magenta Cloud Serpent (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 500}},
+							}),
+							i(206976, {	-- Royal Swarmer's Reins (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 500}},
+							}),
+							i(76889, {	-- Spectral Gryphon (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 500}},
+							}),
+							i(76902, {	-- Spectral Wind Rider (MOUNT!)
+								["cost"] = {{"c", TRADERS_TENDER, 500}},
+							}),
+						}),
+						filter(TOYS, {
+							i(206268, {	-- Ethereal Transmogrifier (TOY!)
+								["cost"] = {{"c", TRADERS_TENDER, 300}},
+							}),
+							i(45063, {	-- Foam Toy Rack (TOY!)
+								["cost"] = {{"c", TRADERS_TENDER, 300}},
+							}),
+							i(32542, {	-- Imp in a Ball (TOY!)
+								["cost"] = {{"c", TRADERS_TENDER, 300}},
+							}),
+						}),
+					},
+				}),
+				n(234744, {	-- Supplier Offa <Trading Post Outlet Wearables>
+					["coord"] = { 47.57, 52.76, DORNOGAL },
+					["g"] = {
+						filter(COSMETIC, {
+							i(190712, {	-- Ancestral Skychaser Totem
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(208148, {	-- Burgundy Cap
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190899, {	-- Crimson Bicorne
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190130, {	-- Drape of Foreboding Mists
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(189882, {	-- Dread Admiral's Bicorne
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190869, {	-- Emberstone Dress
+								["cost"] = {{"c", TRADERS_TENDER, 75}},
+							}),
+							iensemble(189938, {	-- Ensemble: Fel-Automaton Exoplate
+								["cost"] = {{"c", TRADERS_TENDER, 350}},
+							}),
+							iensemble(200884, {	-- Ensemble: Glorious Dragonrider's Mail
+								["cost"] = {{"c", TRADERS_TENDER, 350}},
+							}),
+							iensemble(210883, {	-- Ensemble: Scarlet Zealots Trappings
+								["cost"] = {{"c", TRADERS_TENDER, 350}},
+							}),
+							iensemble(190799, {	-- Ensemble: Swashbuckling Buccaneer's Slops
+								["cost"] = {{"c", TRADERS_TENDER, 350}},
+							}),
+							iensemble(200915, {	-- Ensemble: Sylvan Stalker’s Leathers
+								["cost"] = {{"c", TRADERS_TENDER, 350}},
+							}),
+							i(190097, {	-- Fabulously Flashy Finery
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190800, {	-- Gleaming Mail Tabard
+								["cost"] = {{"c", TRADERS_TENDER, 70}},
+							}),
+							i(190063, {	-- Greatcloak of the Virtuous Protector
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190808, {	-- High Priestess's Ceremonial Drape
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(97213, {	-- Hood of Hungering Darkness
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(189897, {	-- Infiltrator's Bandolier
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190434, {	-- Iridescent Warcloak
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190144, {	-- Irontide Raiders Bicorne
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190215, {	-- Lost Crown of the Arcane
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190599, {	-- Operative's Bandolier
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190898, {	-- Red Pith Helmet
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190855, {	-- Rosy Corsage
+								["cost"] = {{"c", TRADERS_TENDER, 60}},
+							}),
+							i(190801, {	-- Shadowy Mail Tabard
+								["cost"] = {{"c", TRADERS_TENDER, 70}},
+							}),
+							i(190829, {	-- Shawl of Flowing Magic
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190433, {	-- Shifty Merchant's Tunic
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190806, {	-- Tidecaller’s Cinch
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(208147, {	-- Yellow Tweed Cap
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+						}),
+					},
+				}),
+				n(234742, {	-- Supplier Toffa <Trading Post Outlet Weapons>
+					["coord"] = { 47.79, 52.55, DORNOGAL },
+					["g"] = {
+						filter(COSMETIC, {
+							i(190832, {	-- Acolyte’s Etched Warhammer
+								["cost"] = {{"c", TRADERS_TENDER, 50}},
+							}),
+							i(190562, {	-- Aldori War Mace
+								["cost"] = {{"c", TRADERS_TENDER, 225}},
+							}),
+							i(190146, {	-- Antoran Felspire
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(207957, {	-- Aquamarine Felfire Bulwark
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(207959, {	-- Aquamarine Felfire Splitblade
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190812, {	-- Azure Nexus Crescent
+								["cost"] = {{"c", TRADERS_TENDER, 150}},
+							}),
+							i(190071, {	-- Azure Scalesworn Longbow
+								["cost"] = {{"c", TRADERS_TENDER, 125}},
+							}),
+							i(190441, {	-- Black Iron Blunderbuss
+								["cost"] = {{"c", TRADERS_TENDER, 125}},
+							}),
+							i(190078, {	-- Blade of Brutal Sacrifice
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190560, {	-- Conquest
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190689, {	-- Corrupted Bladefist
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190438, {	-- Crimson Nexus Crescent
+								["cost"] = {{"c", TRADERS_TENDER, 150}},
+							}),
+							i(190217, {	-- Fang of the Mountain
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190856, {	-- Fetid Bouquet
+								["cost"] = {{"c", TRADERS_TENDER, 50}},
+							}),
+							i(190876, {	-- Filigreed Lion's Maw
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190690, {	-- Flame-Forged Fel Fang
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(189896, {	-- Forsaken Cresset
+								["cost"] = {{"c", TRADERS_TENDER, 75}},
+							}),
+							i(202248, {	-- Frozen Shadow
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190698, {	-- Gently Used Cleaver
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190145, {	-- Gilded Drakkonid Morningstar
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190065, {	-- Gnomish Liquid Transfer Apparatus
+								["cost"] = {{"c", TRADERS_TENDER, 50}},
+							}),
+							i(190204, {	-- Huntsman's Recurve Bow
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190153, {	-- Libram of Righteous Light
+								["cost"] = {{"c", TRADERS_TENDER, 75}},
+							}),
+							i(190147, {	-- Longbow of the Twisted Grove
+								["cost"] = {{"c", TRADERS_TENDER, 125}},
+							}),
+							i(190685, {	-- Lost Crusaders Azure Battleaxe
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190814, {	-- Mephistroth's Razor
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190546, {	-- Polished Shortsword
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190443, {	-- Pustulent Demonheart Fetish
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190831, {	-- Razor-Edged Kukri
+								["cost"] = {{"c", TRADERS_TENDER, 40}},
+							}),
+							i(190910, {	-- Ruby Felfire Bulwark
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190909, {	-- Ruby Felfire Splitblade
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190817, {	-- Sentinel's Tower Shield
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190846, {	-- Shattered Voidspire
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190557, {	-- Sinister Fel Staff
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190447, {	-- Soulburner Bardiche
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(189871, {	-- Squire's Warhammer
+								["cost"] = {{"c", TRADERS_TENDER, 50}},
+							}),
+							i(190821, {	-- Sunspire Battle Staff
+								["cost"] = {{"c", TRADERS_TENDER, 200}},
+							}),
+							i(190214, {	-- Tiercel's Wing
+								["cost"] = {{"c", TRADERS_TENDER, 100}},
+							}),
+							i(190154, {	-- Tome of Sin'dorei Secrets
+								["cost"] = {{"c", TRADERS_TENDER, 75}},
+							}),
+							i(189895, {	-- Watchman's Flare
+								["cost"] = {{"c", TRADERS_TENDER, 75}},
+							}),
+						}),
+					},
+				}),
+			})
 		})),
 	}),
 }));

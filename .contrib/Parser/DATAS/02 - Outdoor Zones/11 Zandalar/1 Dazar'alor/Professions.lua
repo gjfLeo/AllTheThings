@@ -185,10 +185,14 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH }
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
-	m(THE_GREAT_SEAL, {
-		n(PROFESSIONS, {
-			q(55240),	--  triggered after destroying all portals during Seam Stress quest (55214)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(THE_GREAT_SEAL, {
+			n(PROFESSIONS, {
+				n(QUESTS, {
+					q(55240),	--  triggered after destroying all portals during Seam Stress quest (55214)
+				}),
+			}),
 		}),
 	}),
-})))
+})));
