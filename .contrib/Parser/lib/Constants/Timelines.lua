@@ -107,6 +107,12 @@ REMOVED_1_15_3 = "removed 1.15.3.55515";					-- World of Warcraft Classic 1.15.3
 CREATED_1_15_4 = "created 1.15.4.56738";					-- World of Warcraft Classic 1.15.4 Launch on September 26, 2024
 ADDED_1_15_4 = "added 1.15.4.56738";						-- World of Warcraft Classic 1.15.4 Launch on September 26, 2024
 REMOVED_1_15_4 = "removed 1.15.4.56738";					-- World of Warcraft Classic 1.15.4 Launch on September 26, 2024
+CREATED_1_15_5 = "created 1.15.5.57638";					-- World of Warcraft Classic 1.15.5 Launch on November 21, 2024
+ADDED_1_15_5 = "added 1.15.5.57638";						-- World of Warcraft Classic 1.15.5 Launch on November 21, 2024
+REMOVED_1_15_5 = "removed 1.15.5.57638";					-- World of Warcraft Classic 1.15.5 Launch on November 21, 2024
+CREATED_1_15_6 = "created 1.15.6.58844";					-- World of Warcraft Classic 1.15.6 Launch on January 28, 2025
+ADDED_1_15_6 = "added 1.15.6.58844";						-- World of Warcraft Classic 1.15.6 Launch on January 28, 2025
+REMOVED_1_15_6 = "removed 1.15.6.58844";					-- World of Warcraft Classic 1.15.6 Launch on January 28, 2025
 
 -------------------------
 -- THE BURNING CRUSADE --
