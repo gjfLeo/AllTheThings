@@ -1137,11 +1137,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 				q(77572),	-- 'Make player eligible for superbloom' (spellID 425375)
 				q(77887),	-- 'World Quest Unlock' (spellID 421687)
 				q(78904),	-- 'Local Stories Quest Unlock' (spellID 429258) (after qID 77178 'Tactical Withdrawal')
-				q(77769),	-- 'Stay a while and listen' Delaryn Summermoon (n: 206930) during qID 76281 (Something Worth Celebrating)
-				q(77768),	-- 'Stay a while and listen' Tyrande Whisperwind (n: 206402) during qID 76281 (Something Worth Celebrating)
-				q(77771),	-- 'Stay a while and listen' Lady Jaina Proudmoore (n: 206943) during qID 76281 (Something Worth Celebrating)
-				q(77770),	-- 'Stay a while and listen' Lady Jaina Proudmoore (n: 209610) during qID 76283 (Andu-falah-dor)
-				q(77772),	-- 'Stay a while and listen' Watcher Koranos (n: 209334) during qID 76283 (Andu-falah-dor)
+				------ Stay awhile and listen ------ (TODO upgrade to proper HQT in Emerald Dream)
+				hqt(77769),	-- 'Stay a while and listen' Delaryn Summermoon (n: 206930) during qID 76281 (Something Worth Celebrating)
+				hqt(77768),	-- 'Stay a while and listen' Tyrande Whisperwind (n: 206402) during qID 76281 (Something Worth Celebrating)
+				hqt(77771),	-- 'Stay a while and listen' Lady Jaina Proudmoore (n: 206943) during qID 76281 (Something Worth Celebrating)
+				hqt(77770),	-- 'Stay a while and listen' Lady Jaina Proudmoore (n: 209610) during qID 76283 (Andu-falah-dor)
+				hqt(77772),	-- 'Stay a while and listen' Watcher Koranos (n: 209334) during qID 76283 (Andu-falah-dor)
 				-- Dryad Garden
 				q(77808),	-- Quest "What Do I Call You?": Pick the title of "Mother"
 				q(77809),	-- Quest "What Do I Call You?": Pick the title of "Father"

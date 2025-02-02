@@ -350,7 +350,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					i(224865),	-- Dornogal Legcoat
 					i(224862),	-- Dornogal Mantle
 					i(224866),	-- Dornogal Sabatons
-					i(234713),	-- Dornogal Waistcoat
+					i(234713, {["timeline"] = {ADDED_11_0_7}}),	-- Dornogal Waistcoat
 					------ Freywold Set ------
 					i(224878),	-- Freywold Cheststraps
 					i(224876),	-- Freywold Crown
@@ -360,7 +360,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					i(224880),	-- Freywold Legcoat
 					i(224877),	-- Freywold Mantle
 					i(224881),	-- Freywold Sabatons
-					i(234715),	-- Freywold Waistcoat
+					i(234715, {["timeline"] = {ADDED_11_0_7}}),	-- Freywold Waistcoat
 					------ Gundargaz Set ------
 					i(224886),	-- Gundargaz Cheststraps
 					i(224884),	-- Gundargaz Crown
@@ -370,7 +370,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 					i(224888),	-- Gundargaz Legcoat
 					i(224885),	-- Gundargaz Mantle
 					i(224889),	-- Gundargaz Sabatons
-					i(234714),	-- Gundargaz Waistcoat
+					i(234714, {["timeline"] = {ADDED_11_0_7}}),	-- Gundargaz Waistcoat
 				},
 			}),
 		},
