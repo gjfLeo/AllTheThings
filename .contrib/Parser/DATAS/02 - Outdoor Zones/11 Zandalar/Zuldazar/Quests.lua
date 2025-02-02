@@ -1332,7 +1332,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 47.1, 60.5, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					o(277886, {	-- Grimoire of the Other Side 
+					o(277886, {	-- Grimoire of the Other Side
 						["coord"] = { 46.8, 61.9, ZULDAZAR },
 						["g"] = { i(153526) },	-- Grimoire of the Other Side (QI!)
 					}),
@@ -2004,8 +2004,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
-	m(ZULDAZAR, {
-		q(54738),	-- Loa Changer Jani to Paku
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(ZULDAZAR, {
+			n(QUESTS, {
+				q(54738),	-- Loa Changer Jani to Paku
+			}),
+		}),
 	}),
 })));

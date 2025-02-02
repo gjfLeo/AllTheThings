@@ -79,8 +79,13 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.BFA, {
-		q(54423),	-- Completing A Shady Character
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(BORALUS, {
+			n(138704, {
+				q(54423),	-- Completing A Shady Character
+			}),
+		}),
 	}),
-});
+})));

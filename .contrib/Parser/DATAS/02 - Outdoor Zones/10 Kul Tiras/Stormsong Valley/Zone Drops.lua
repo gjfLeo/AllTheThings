@@ -87,13 +87,15 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(KUL_TIRAS, {
-	m(STORMSONG_VALLEY, {
-		n(QUESTS, {
-			-- HQTs for Nazjatar Blood Serpent - TODO: Move the mount with these questIDs into the secrets?
-			q(53428),	-- Using 'Abhorrent Essence of the Abyss' (itemID 161345), 'Offer Abhorrent Essence' (spellID 277122))
-			q(53429),	-- Killing 'Adherent of the Abyss' (npcID 140474) / Looting Nazjatar Blood Serpent
-			q(53477),	-- Using 'Aether of the Abyss' (itemID 163929), 'Absorbing' (spellID 280636)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(STORMSONG_VALLEY, {
+			n(QUESTS, {
+				-- HQTs for Nazjatar Blood Serpent - TODO: Move the mount with these questIDs into the secrets?
+				q(53428),	-- Using 'Abhorrent Essence of the Abyss' (itemID 161345), 'Offer Abhorrent Essence' (spellID 277122))
+				q(53429),	-- Killing 'Adherent of the Abyss' (npcID 140474) / Looting Nazjatar Blood Serpent
+				q(53477),	-- Using 'Aether of the Abyss' (itemID 163929), 'Absorbing' (spellID 280636)
+			}),
 		}),
 	}),
-}));
+})));

@@ -1318,134 +1318,74 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(KUL_TIRAS, {
-	m(MECHAGON, {
-		n(QUESTS, {
-			-- Paints Hovercraft
-			q(56251),	-- Remove all paint (hovercraft)
-			q(56252),	-- Paint my hovercraft Electric Blue
-			q(56253),	-- Paint my hovercraft Goblin Green
-			q(56254),	-- Paint my hovercraft Nukular Red
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
+	m(KUL_TIRAS, {
+		m(MECHAGON, {
+			n(QUESTS, {
+				-- Paints Hovercraft
+				q(56251),	-- Remove all paint (hovercraft)
+				q(56252),	-- Paint my hovercraft Electric Blue
+				q(56253),	-- Paint my hovercraft Goblin Green
+				q(56254),	-- Paint my hovercraft Nukular Red
 
-			-- Paints Mechanocat
-			q(55415),	-- Paint my mechanocat Battletorn Blue
-			q(55416),	-- Paint my mechanocat Fireball Red
-			q(55417),	-- Paint my mechanocat Big-ol Bronze
-			q(55418),	-- Paint my mechanocat Lemonade Steel
-			q(55419),	-- Paint my mechanocat Copper Trim
-			q(55420),	-- Paint my mechanocat Machagon Gold
-			q(55421),	-- Paint my mechanocat Fel Mint Green
-			q(55422),	-- Paint my mechanocat Overload Orange
+				-- Paints Mechanocat
+				q(55415),	-- Paint my mechanocat Battletorn Blue
+				q(55416),	-- Paint my mechanocat Fireball Red
+				q(55417),	-- Paint my mechanocat Big-ol Bronze
+				q(55418),	-- Paint my mechanocat Lemonade Steel
+				q(55419),	-- Paint my mechanocat Copper Trim
+				q(55420),	-- Paint my mechanocat Machagon Gold
+				q(55421),	-- Paint my mechanocat Fel Mint Green
+				q(55422),	-- Paint my mechanocat Overload Orange
 
-			-- Playing on the Rustbolt Gramophone
-			q(56435),	-- Grahophone, play "Ode to Tinkertown."
-			q(56509),	-- Grahophone, play "Gnomeregan Forever."
-			q(56510),	-- Grahophone, play "Mimiron's Brainstorm."
-			q(56511),	-- Grahophone, play "Battle of Gnomeregan."
-			q(56512),	-- Grahophone, play "Depths of Ulduar."
-			q(56513),	-- Grahophone, play "Triumph of Gnomeregan."
-			q(56514),	-- Grahophone, play all of my music.
+				-- Playing on the Rustbolt Gramophone
+				q(56435),	-- Grahophone, play "Ode to Tinkertown."
+				q(56509),	-- Grahophone, play "Gnomeregan Forever."
+				q(56510),	-- Grahophone, play "Mimiron's Brainstorm."
+				q(56511),	-- Grahophone, play "Battle of Gnomeregan."
+				q(56512),	-- Grahophone, play "Depths of Ulduar."
+				q(56513),	-- Grahophone, play "Triumph of Gnomeregan."
+				q(56514),	-- Grahophone, play all of my music.
 
-			-- Achievement 'Armed for Action' (achievementID 13790)
-			hqt(55260, name(HEADERS.AchCriteria, 13790.01)),	-- Volatile Blaster
-			hqt(55261, name(HEADERS.AchCriteria, 13790.02)),	-- Lightning Zap 5000
-			hqt(55903, name(HEADERS.AchCriteria, 13790.03)),	-- Boltspitter
-			hqt(55414, name(HEADERS.AchCriteria, 13790.04)),	-- Ricket's Special Delivery
-			hqt(55902, name(HEADERS.AchCriteria, 13790.05)),	-- Supercollider
+				-- Completed with quest
+				q(56745),	-- Triggered when completed 'Other Interests' (questID 56174)
+				q(56054),	-- Triggered when completed 'Recharging Rustbolt' (questID 55211)
+				q(56208),	-- Triggered when completed 'Ideas Can Come from Anywhere' (questID 55103)
+				q(56662),	-- Triggered when completed 'Real Ultimate Power' (questID 56621)
+				q(56333),	-- Triggered when completed 'Your First Charge is Free!' (questID 56320)
+				q(56329),	-- Triggered when completed 'Do Not Drink' (questID 56328)
+				q(55161),	-- Triggered when completed 'Shop Project' (questID 55608)
+				q(56360),	-- Triggered when completed 'Other Interests' (questID ?)
+				--q(56742),	-- ?
+				q(56743),	-- Triggered when completed 'Other Interests' (questID ?)
+				--q(56744),	-- ?
 
-			-- Achievement 'Most Minis Wins' (achievementID 13708)
-			hqt(56624, name(HEADERS.AchCriteria, 13708.01)),	-- Collected Izira Gearsworn
-			hqt(56625, name(HEADERS.AchCriteria, 13708.02)),	-- Collected Bondo Grosbloc
-			hqt(56626, name(HEADERS.AchCriteria, 13708.03)),	-- Collected Wrenchbot
-			hqt(56627, name(HEADERS.AchCriteria, 13708.04)),	-- Collected Roadtrogg
-			hqt(56628, name(HEADERS.AchCriteria, 13708.05)),	-- Collected Overspark
-			hqt(56629, name(HEADERS.AchCriteria, 13708.06)),	-- Collected Gazlowe
-			hqt(56630, name(HEADERS.AchCriteria, 13708.07)),	-- Collected HK-8
-			hqt(56631, name(HEADERS.AchCriteria, 13708.08)),	-- Collected King Mechagon
-			hqt(56632, name(HEADERS.AchCriteria, 13708.09)),	-- Collected Prince Erazmin
-			hqt(56633, name(HEADERS.AchCriteria, 13708.10)),	-- Collected Cork Stuttguard
-			hqt(56634, name(HEADERS.AchCriteria, 13708.11)),	-- Collected Naeno Megacrash
-			hqt(56635, name(HEADERS.AchCriteria, 13708.12)),	-- Collected Cogstar
-			hqt(56652, name(HEADERS.AchCriteria, 13708.13)),	-- Collected Blastatron
-			hqt(56729, name(HEADERS.AchCriteria, 13708.14)),	-- Collected Sapphronetta
+				-- Various
+				q(56426),	-- After killing Data Anomaly while doing 'Discs of Norgannon' (questID 56410)
+				q(55480),	-- After charging very first Energy Cell during 'Your First Charge is Free!' (questID 56320)
+				q(56427),	-- Popped up when looting and accepting Cracked Numeric Cylinder for the 'Discs of Norgannon' (questID 56410) summoning function
+				q(55453),	-- HQT for 'Battletorn Blue' rewarded by 'Available in Eight Colors' (achievementID 13513)
+				q(56238),	-- Triggered in the alternative world
+				--q(56742),	-- Blueprint: Black Market Radio?
+				q(56089),	-- triggered on first rare kill — possibly blueprint looting?
+				q(56506),	-- triggered on third rare kill — was Mr. Fixthis for me, but someone else had it trigger on Arachnoid Harvester.  looted Performant Refined Logic Board and a Chain Ignitercoil
+				q(55848),	-- Reclamation Rig hardmode — putting here because with both quests attached with altQuests it doesn't roll over like dailies should
 
-			-- First rare kill
-			q(55913),	-- Arachnoid Harvester
-			q(56996),	-- Armored Vaultbot
-			q(56997),	-- Armored Vaultbot (Alternate timeline)
-			-- q(TODO),	-- Boilburn (maybe no ID)
-			q(55920),	-- Boggac Skullbash
-			q(55919),	-- Bonepicker
-			-- q(TODO),	-- Caustic Mechaslime
-			q(55927),	-- Crazed Trogg
-			q(55917),	-- Deepwater Maw
-			-- q(55544),	-- Doppel Ganger
-			q(55932),	-- Earthbreaker Gulroc
-			q(56994),	-- Enforcer KX-T57
-			q(55916),	-- Foul Manifestation
-			q(55915),	-- Fungarian Furor
-			q(55934),	-- Gear Checker Cogstar
-			q(55929),	-- Gemicide
-			-- q(TODO),	-- Gorged Gear-Cruncher
-			q(55910),	-- Jawbreaker
-			q(55914),	-- Killsaw
-			q(55926),	-- Malfunctioning Beastbot
-			q(55907),	-- Mechagonian Nullifier
-			q(55909),	-- Mecharantula
-			q(55935),	-- Mr. Fixthis
-			q(55928),	-- Ol' Big Tusk
-			q(55918),	-- OOX-Avenger/MG
-			q(55936),	-- Oxidized Leachbest
-			q(55911),	-- Paol Pondwader
-			q(55912),	-- Rumblerocks
-			q(55924),	-- Rustfeather
-			q(57084),	-- Scrapclaw
-			q(55922),	-- Seaspit
-			q(55923),	-- Sparkqueen P'Emp
-			q(55933),	-- Steel Singer Freza
-			q(55931),	-- The Kleptoboss
-			q(56995),	-- The Rusty Prince
-			q(55908),	-- The Scrap King
-			q(55921),	-- Uncle T'Rogg
-
-			-- Completed with quest
-			q(56745),	-- Triggered when completed 'Other Interests' (questID 56174)
-			q(56054),	-- Triggered when completed 'Recharging Rustbolt' (questID 55211)
-			q(56208),	-- Triggered when completed 'Ideas Can Come from Anywhere' (questID 55103)
-			q(56662),	-- Triggered when completed 'Real Ultimate Power' (questID 56621)
-			q(56333),	-- Triggered when completed 'Your First Charge is Free!' (questID 56320)
-			q(56329),	-- Triggered when completed 'Do Not Drink' (questID 56328)
-			q(55161),	-- Triggered when completed 'Shop Project' (questID 55608)
-			q(56360),	-- Triggered when completed 'Other Interests' (questID ?)
-			--q(56742),	-- ?
-			q(56743),	-- Triggered when completed 'Other Interests' (questID ?)
-			--q(56744),	-- ?
-
-			-- Various
-			q(56426),	-- After killing Data Anomaly while doing 'Discs of Norgannon' (questID 56410)
-			q(55480),	-- After charging very first Energy Cell during 'Your First Charge is Free!' (questID 56320)
-			q(56427),	-- Popped up when looting and accepting Cracked Numeric Cylinder for the 'Discs of Norgannon' (questID 56410) summoning function
-			q(55453),	-- HQT for 'Battletorn Blue' rewarded by 'Available in Eight Colors' (achievementID 13513)
-			q(56238),	-- Triggered in the alternative world
-			--q(56742),	-- Blueprint: Black Market Radio?
-			q(56089),	-- triggered on first rare kill — possibly blueprint looting?
-			q(56506),	-- triggered on third rare kill — was Mr. Fixthis for me, but someone else had it trigger on Arachnoid Harvester.  looted Performant Refined Logic Board and a Chain Ignitercoil
-			q(55848),	-- Reclamation Rig hardmode — putting here because with both quests attached with altQuests it doesn't roll over like dailies should
-
-			q(56713),	-- seems to trigger on every Rusty Prince kill, along with 56182
-			q(56564),	-- First Fight Club Treasure Chest of the day
-			q(57081),	-- First Mechanized Chest of the week(Minipack: Mechagon)-- Still need to narrow down exact trigger
-			q(57133),	-- First Mechanized Chest of the week(Minipack: Mechagon)-- Still need to narrow down exact trigger
-			q(56100),	-- First Beastbot kill of the week(Minipack: Bondo's Yard)-- Still need to narrow down exact trigger(First rare kill of the week possibly)
-			q(57135),	-- First Beastbot kill of the week(Minipack: Bondo's Yard)-- Still need to narrow down exact trigger
-			q(57134),	-- First Recycling Requisition of the week (contains Azeroth Mini Pack: Bondo's Yard)
-			q(56004),	-- looting Energy Cell while on the quest "We Can Fix It"
-			q(55495),	-- repelling HK-8 Aerial Oppression Unit during "Send My Father a Message"
-			q(55623),	-- Seems to trigger after completion of the WQ zone daily.  Mechanized chests and Rustbolt Rebellion WQ confirmed triggering this.
-			q(56307),	-- Opened the mechanized supply chest
-			q(56330),	-- Triggered shortly after completing "Chopped Bots". Possibly shuts down the magnet?
-			q(56660),	-- Triggered on Mechagon randomly
-			q(56840),	-- Toys of Destruction - made the Volatile Blaster. Maybe triggers for all the toys to indicate the toy extra action button is available?
+				q(56713),	-- seems to trigger on every Rusty Prince kill, along with 56182
+				q(56564),	-- First Fight Club Treasure Chest of the day
+				q(57081),	-- First Mechanized Chest of the week(Minipack: Mechagon)-- Still need to narrow down exact trigger
+				q(57133),	-- First Mechanized Chest of the week(Minipack: Mechagon)-- Still need to narrow down exact trigger
+				q(56100),	-- First Beastbot kill of the week(Minipack: Bondo's Yard)-- Still need to narrow down exact trigger(First rare kill of the week possibly)
+				q(57135),	-- First Beastbot kill of the week(Minipack: Bondo's Yard)-- Still need to narrow down exact trigger
+				q(57134),	-- First Recycling Requisition of the week (contains Azeroth Mini Pack: Bondo's Yard)
+				q(56004),	-- looting Energy Cell while on the quest "We Can Fix It"
+				q(55495),	-- repelling HK-8 Aerial Oppression Unit during "Send My Father a Message"
+				q(55623),	-- Seems to trigger after completion of the WQ zone daily.  Mechanized chests and Rustbolt Rebellion WQ confirmed triggering this.
+				q(56307),	-- Opened the mechanized supply chest
+				q(56330),	-- Triggered shortly after completing "Chopped Bots". Possibly shuts down the magnet?
+				q(56660),	-- Triggered on Mechagon randomly
+				q(56840),	-- Toys of Destruction - made the Volatile Blaster. Maybe triggers for all the toys to indicate the toy extra action button is available?
+			}),
 		}),
 	}),
-}));
+})));

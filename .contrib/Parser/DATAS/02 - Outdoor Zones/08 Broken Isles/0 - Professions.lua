@@ -508,10 +508,16 @@ root(ROOTS.Zones, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers, {
-	n(PROFESSIONS, {
-		prof(ALCHEMY, {
-			q(42083),	-- on turn-in of (42081)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(LEGION_DALARAN, {
+			n(PROFESSIONS, {
+				prof(ALCHEMY, {
+					n(QUESTS, {
+						q(42083),	-- on turn-in of (42081)
+					}),
+				}),
+			}),
 		}),
 	}),
-});
+})));

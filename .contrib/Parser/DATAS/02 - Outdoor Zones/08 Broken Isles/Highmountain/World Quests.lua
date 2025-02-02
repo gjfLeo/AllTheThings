@@ -311,14 +311,19 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(45513),	-- Highmountain - WQ rare: Defilia
-		q(45512),	-- Highmountain - WQ rare: Mawat'aki
-		q(48381),	-- Highmountain - WQ rare: Obsidian Deathwarder
-		q(45511),	-- Highmountain - WQ rare: Olokk the Shipbreaker
-		q(45510),	-- Highmountain - WQ rare: Ormagrogg
-		q(44039),	-- Highmountain - WQ rare: Sea King Tidross
-		q(44879),	-- Highmountain - WQ rare: Snowfeather Matriarch
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(HIGHMOUNTAIN, {
+			n(WORLD_QUESTS, {
+				q(45513),	-- Highmountain - WQ rare: Defilia
+				q(45512),	-- Highmountain - WQ rare: Mawat'aki
+				q(48381),	-- Highmountain - WQ rare: Obsidian Deathwarder
+				q(45511),	-- Highmountain - WQ rare: Olokk the Shipbreaker
+				q(45510),	-- Highmountain - WQ rare: Ormagrogg
+				q(44039),	-- Highmountain - WQ rare: Sea King Tidross
+				q(44879),	-- Highmountain - WQ rare: Snowfeather Matriarch
+			}),
+		}),
 	}),
-});
+})));

@@ -997,17 +997,22 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(40609),	-- 7.0 Highmountain - Vignette - Windripper Peak - Taurson - Tracking Quest Credit - See Treasure (JLW/RKS). Triggered after killing The Beastly Boxer
-		q(40610),	-- 7.0 Highmountain - Vignette - Worm Treasure - Tracking Quest Credit - See Treasure (JLW/RKS). Triggered after killing Treasure Worm
-		q(40612),	-- 7.0 Highmountain - Vignette - Amateur Hunters - Tracking Quest Credit - See Treasure (JAP) - NYI. Triggered after killing Irewing during Scout It Out
-		q(39991),	-- Blessing of Cenarius - being blessed by Cenarius during "Huln's War - Shadowsong" (questID 40388)
-		q(43957),	-- Jade Darkhaven
-		q(42571),	-- Shaman Shrine - Highmountain Earth 01
-		q(42572),	-- Shaman Shrine - Highmountain Earth 02
-		q(42578),	-- Shaman Shrine - Highmountain Wind 01
-		q(42579),	-- Shaman Shrine - Highmountain Wind 02
-		q(41246),	-- Snowblind Mesa Phased Terrain Tracking Quest - when Snowblind Mesa phases during "Highmountain Stands" (questID 42512)
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(HIGHMOUNTAIN, {
+			n(QUESTS, {
+				q(40609),	-- 7.0 Highmountain - Vignette - Windripper Peak - Taurson - Tracking Quest Credit - See Treasure (JLW/RKS). Triggered after killing The Beastly Boxer
+				q(40610),	-- 7.0 Highmountain - Vignette - Worm Treasure - Tracking Quest Credit - See Treasure (JLW/RKS). Triggered after killing Treasure Worm
+				q(40612),	-- 7.0 Highmountain - Vignette - Amateur Hunters - Tracking Quest Credit - See Treasure (JAP) - NYI. Triggered after killing Irewing during Scout It Out
+				q(39991),	-- Blessing of Cenarius - being blessed by Cenarius during "Huln's War - Shadowsong" (questID 40388)
+				q(43957),	-- Jade Darkhaven
+				q(42571),	-- Shaman Shrine - Highmountain Earth 01
+				q(42572),	-- Shaman Shrine - Highmountain Earth 02
+				q(42578),	-- Shaman Shrine - Highmountain Wind 01
+				q(42579),	-- Shaman Shrine - Highmountain Wind 02
+				q(41246),	-- Snowblind Mesa Phased Terrain Tracking Quest - when Snowblind Mesa phases during "Highmountain Stands" (questID 42512)
+			}),
+		}),
 	}),
-});
+})));

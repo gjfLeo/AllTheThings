@@ -1299,18 +1299,29 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
+
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(46955),	-- Akazamzarak Silenced
-		q(40340),	-- Alard Schmied Greeting Seen - "Well, I'll be... the Ashbringer. ...' in Dalaran
-		q(45518),	-- First Aid Shop Searched - triggered after searching first aid shop during "Confirming Suspicions" (questID 45414)
-		q(47282),	-- First Aid Shop Searched - triggered after searching first aid shop during "Confirming Suspicions" (questID 45414)
-		q(46321),	-- Krasus Landing Searched - triggered when finding Velen during "Confirming Suspicions" (questID 45414)
-		q(46312),	-- Triggered after completing 'Where it's Thinnest' (questID 45190)
-		q(46835),	-- Whispers of a Frightened World Tracking - triggers while doing "Whispers of a Frightened World" (questID 46206)
-		q(41694),	-- World Quests Available - triggers when turning in "Uniting the Isles" (questID 45727)
-	}),
-	expansion(EXPANSION.BFA, {
-		q(58658),	-- Selecting an option to hide Vulpera hyena mount canopy/sunshade
-	}),
+	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+		m(BROKEN_ISLES, {
+			m(LEGION_DALARAN, {
+				q(46955),	-- Akazamzarak Silenced
+				q(40340),	-- Alard Schmied Greeting Seen - "Well, I'll be... the Ashbringer. ...' in Dalaran
+				n(QUESTS, {
+					q(45518),	-- First Aid Shop Searched - triggered after searching first aid shop during "Confirming Suspicions" (questID 45414)
+					q(47282),	-- First Aid Shop Searched - triggered after searching first aid shop during "Confirming Suspicions" (questID 45414)
+					q(46321),	-- Krasus Landing Searched - triggered when finding Velen during "Confirming Suspicions" (questID 45414)
+					q(46312),	-- Triggered after completing 'Where it's Thinnest' (questID 45190)
+					q(46835),	-- Whispers of a Frightened World Tracking - triggers while doing "Whispers of a Frightened World" (questID 46206)
+					q(41694),	-- World Quests Available - triggers when turning in "Uniting the Isles" (questID 45727)
+				}),
+			}),
+		}),
+	})),
+	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {
+		m(BROKEN_ISLES, {
+			m(LEGION_DALARAN, {
+				q(58658),	-- Selecting an option to hide Vulpera hyena mount canopy/sunshade
+			}),
+		}),
+	})),
 });

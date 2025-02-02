@@ -313,10 +313,15 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(44880),	-- Stormheim - WQ rare: Direbeak Matriarch
-		q(45507),	-- Stormheim - WQ rare: Fjorlag
-		q(42721),	-- Stormheim - WQ rare: Urgev the Flaye
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(STORMHEIM, {
+			n(WORLD_QUESTS, {
+				q(44880),	-- Stormheim - WQ rare: Direbeak Matriarch
+				q(45507),	-- Stormheim - WQ rare: Fjorlag
+				q(42721),	-- Stormheim - WQ rare: Urgev the Flaye
+			}),
+		}),
 	}),
-});
+})));

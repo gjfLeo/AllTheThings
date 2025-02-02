@@ -313,16 +313,22 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(43961),	-- Azsuna - WQ rare: Bestrix
-		q(44882),	-- Azsuna - WQ rare: Bloodgazer Matriarch
-		q(43960),	-- Azsuna - WQ rare: Cinderwing
-		q(42699),	-- Azsuna - WQ rare: Coura, Mistress of Arcana
-		q(45489),	-- Azsuna - WQ rare: Deepclaw
-		q(45499),	-- Azsuna - WQ rare: Fjordun
-		q(45516),	-- Azsuna - WQ rare: Mortiferous
-		q(45497),	-- Azsuna - WQ rare: Stormfeather
-		q(44035),	-- Azsuna - WQ rare: Torrentius
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(AZSUNA, {
+			n(WORLD_QUESTS, {
+				q(43961),	-- Azsuna - WQ rare: Bestrix
+				q(44882),	-- Azsuna - WQ rare: Bloodgazer Matriarch
+				q(43960),	-- Azsuna - WQ rare: Cinderwing
+				q(42699),	-- Azsuna - WQ rare: Coura, Mistress of Arcana
+				q(45489),	-- Azsuna - WQ rare: Deepclaw
+				q(45499),	-- Azsuna - WQ rare: Fjordun
+				q(45516),	-- Azsuna - WQ rare: Mortiferous
+				q(45497),	-- Azsuna - WQ rare: Stormfeather
+				q(44035),	-- Azsuna - WQ rare: Torrentius
+				q(45492),	-- Marlblub the Massive - triggered during WQ (questID 43098)
+			}),
+		}),
 	}),
-});
+})));

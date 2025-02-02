@@ -44730,7 +44730,7 @@ localize(L.HEADER_NAMES, {
 	[-1000163] = "独特外观",
 	[-1000165] = "T0.5套装",
 	[-1000166] = "船长",
-	[-1000168] = "四骑士",
+	[-1000168] = "天啓四骑士",
 	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (东)",
 	[-1000174] = DUNGEON_FLOOR_DIREMAUL1.." (北)",
 	[-1000175] = DUNGEON_FLOOR_DIREMAUL2.." (西)",

@@ -184,10 +184,16 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH 
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	n(PROFESSIONS, {
-		prof(TAILORING, {
-			q(55236),	-- while closing time rifts during (55214)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(BORALUS, {
+			n(PROFESSIONS, {
+				prof(TAILORING, {
+					n(QUESTS, {
+						q(55236),	-- while closing time rifts during (55214)
+					}),
+				}),
+			}),
 		}),
 	}),
-});
+})));

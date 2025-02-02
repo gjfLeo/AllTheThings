@@ -149,8 +149,13 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(45500),	-- Shalas'aman, I see there is a vignette in Todo about this
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(VALSHARAH, {
+			n(RARES, {
+				q(45500),	-- Shalas'aman, I see there is a vignette in Todo about this
+				q(43447),	-- Vignette: Wraithtalon - secondary trigger for Wraithtalon rare in Val'sharah
+			}),
+		}),
 	}),
-});
+})));

@@ -1769,10 +1769,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
-	m(VOLDUN, {
-		n(QUESTS, {
-			q(54525),	-- looting Loose Parts from the bridge elites during the Vol'dun incursion, as Horde (the associated WQ wasn't up, not sure if that makes a difference)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(VOLDUN, {
+			n(QUESTS, {
+				q(54525),	-- looting Loose Parts from the bridge elites during the Vol'dun incursion, as Horde (the associated WQ wasn't up, not sure if that makes a difference)
+			}),
 		}),
 	}),
-})))
+})));

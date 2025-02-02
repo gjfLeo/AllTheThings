@@ -1900,31 +1900,36 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(44677),	-- Ancient Mana Tutorial Chest A - triggers during "Ancient Mana" (questID 44672)
-		q(44678),	-- Ancient Mana Tutorial Chest B - triggers during "Ancient Mana" (questID 44672)
-		q(44679),	-- Ancient Mana Tutorial Chest C - triggers during "Ancient Mana" (questID 44672)
-		q(40975),	-- Arluin Bribe Tracking - give Arluin 800 ancient mana during "If Words Don't Work..." (questID 42840)
-		q(42649),	-- Arluin Bribe Tracker 2 - give Arluin 1200 ancient mana during "Or Against Us" (questID 43311)
-		q(42443),	-- Arluin Wants In (Tracking Quest) - Arluin shows up at Shal'Aran after you turn in "Giving It All We've Got" (questID 43562) and completing the follow-up quests
-		q(41137),	-- Fall of the King - triggeres when killing Cora'kar
-		q(43703),	-- Hub Mana Tree Tracking - Stage 01
-		q(43704),	-- Hub Mana Tree Tracking - Stage 02
-		q(43706),	-- Hub Mana Tree Tracking - Stage 03 - triggered after turning in "Make Your Mark" (questID 42792)
-		q(43707),	-- Hub Mana Tree Tracking - Stage 04 - triggered after turning in "Make Your Mark" (questID 42792)
-		q(43708),	-- Hub Mana Tree Tracking - Stage 05 - triggered after turning in "Make Your Mark" (questID 42792)
-		q(43589),	-- Leyline 03
-		q(43840),	-- Treasure 008 - Collapse Depths - secondary trigger for Small Treasure Chest (questID 43839)
-		q(43857),	-- Treasure 022 - Crimson Thicket Cave - secondary trigger for Small Treasure Chest (questID 43855)
-		q(40317),	-- Tree Destroyed
-		q(41212),	-- Triggered when turning in "Scattered Memories". Maybe a quest from beta?
-		q(44071),	-- Vignette: Maia the White Wolf - secondary trigger for Maia the White rare
-		q(41117),	-- Seen Thalrenus Iceblock Shenanigans - saw Thalrenus Rivertree break out of iceblock at Moonfall Approach
-		q(40765),	-- Syrana Tracker - triggers during "Starweaver's Fate" (questID 40969) when finding Syrana and she kills the Imperial Conjurers
-		q(43566),	-- Withered Progress
-		-- #if AFTER LEGION
-		q(24661),	-- Theryn Fed Tracker - (reused ID from WotLK NYI quest)
-		-- #endiff
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(SURAMAR, {
+			n(QUESTS, {
+				q(44677),	-- Ancient Mana Tutorial Chest A - triggers during "Ancient Mana" (questID 44672)
+				q(44678),	-- Ancient Mana Tutorial Chest B - triggers during "Ancient Mana" (questID 44672)
+				q(44679),	-- Ancient Mana Tutorial Chest C - triggers during "Ancient Mana" (questID 44672)
+				q(40975),	-- Arluin Bribe Tracking - give Arluin 800 ancient mana during "If Words Don't Work..." (questID 42840)
+				q(42649),	-- Arluin Bribe Tracker 2 - give Arluin 1200 ancient mana during "Or Against Us" (questID 43311)
+				q(42443),	-- Arluin Wants In (Tracking Quest) - Arluin shows up at Shal'Aran after you turn in "Giving It All We've Got" (questID 43562) and completing the follow-up quests
+				q(41137),	-- Fall of the King - triggeres when killing Cora'kar
+				q(43703),	-- Hub Mana Tree Tracking - Stage 01
+				q(43704),	-- Hub Mana Tree Tracking - Stage 02
+				q(43706),	-- Hub Mana Tree Tracking - Stage 03 - triggered after turning in "Make Your Mark" (questID 42792)
+				q(43707),	-- Hub Mana Tree Tracking - Stage 04 - triggered after turning in "Make Your Mark" (questID 42792)
+				q(43708),	-- Hub Mana Tree Tracking - Stage 05 - triggered after turning in "Make Your Mark" (questID 42792)
+				q(43589),	-- Leyline 03
+				q(43840),	-- Treasure 008 - Collapse Depths - secondary trigger for Small Treasure Chest (questID 43839)
+				q(43857),	-- Treasure 022 - Crimson Thicket Cave - secondary trigger for Small Treasure Chest (questID 43855)
+				q(40317),	-- Tree Destroyed
+				q(41212),	-- Triggered when turning in "Scattered Memories". Maybe a quest from beta?
+				q(44071),	-- Vignette: Maia the White Wolf - secondary trigger for Maia the White rare
+				q(41117),	-- Seen Thalrenus Iceblock Shenanigans - saw Thalrenus Rivertree break out of iceblock at Moonfall Approach
+				q(40765),	-- Syrana Tracker - triggers during "Starweaver's Fate" (questID 40969) when finding Syrana and she kills the Imperial Conjurers
+				q(43566),	-- Withered Progress
+				-- #if AFTER LEGION
+				q(24661),	-- Theryn Fed Tracker - (reused ID from WotLK NYI quest)
+				-- #endiff
+			}),
+		}),
 	}),
-});
+})));

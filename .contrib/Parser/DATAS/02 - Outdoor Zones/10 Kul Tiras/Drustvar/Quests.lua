@@ -1718,8 +1718,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.BFA, {
-		q(52934),	-- Spell 277753 & 278578 granting access to NPC 127156 during quest 48853
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(DRUSTVAR, {
+			n(QUESTS, {
+				q(52934),	-- Spell 277753 & 278578 granting access to NPC 127156 during quest 48853
+			}),
+		}),
 	}),
-});
+})));

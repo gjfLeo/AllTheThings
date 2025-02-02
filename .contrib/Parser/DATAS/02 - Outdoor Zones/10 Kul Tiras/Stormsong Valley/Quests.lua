@@ -1836,20 +1836,22 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(KUL_TIRAS, {
-	m(STORMSONG_VALLEY, {
-		n(QUESTS, {
-			q(51354),	-- Anger in a Bottle (seems to just be a duplicate version)
-			q(51845),	-- Storm's End - completed with quest 50824
-			q(51846),	-- popped with completion of (50824) [VOIDELF] [MAGE]
-			q(54852),	-- naming the ship "Anduin's Wrath" during Blessing of the Tides quest to recruit Kul Tirans
-			q(54853),	-- naming the ship "Dawnsailor" during Blessing of the Tides quest to recruit Kul Tirans
-			q(54854),	-- naming the ship "Tiffin's Melody" during Blessing of the Tides quest to recruit Kul Tirans
-			q(54855),	-- naming the ship "The Lionheart" during Blessing of the Tides quest to recruit Kul Tirans
-			q(54775),	-- Warmode Storm's Rage
-			q(54716),	-- Secret Chest during Stormsong Valley Incursion in Warmode
-			q(54317),	-- BfA Alliance Stormsong "Invasion"
-			q(50694),	-- triggers with / alternate way of completing 'A Bloody Mess' (50593)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(STORMSONG_VALLEY, {
+			n(QUESTS, {
+				q(51354),	-- Anger in a Bottle (seems to just be a duplicate version)
+				q(51845),	-- Storm's End - completed with quest 50824
+				q(51846),	-- popped with completion of (50824) [VOIDELF] [MAGE]
+				q(54852),	-- naming the ship "Anduin's Wrath" during Blessing of the Tides quest to recruit Kul Tirans
+				q(54853),	-- naming the ship "Dawnsailor" during Blessing of the Tides quest to recruit Kul Tirans
+				q(54854),	-- naming the ship "Tiffin's Melody" during Blessing of the Tides quest to recruit Kul Tirans
+				q(54855),	-- naming the ship "The Lionheart" during Blessing of the Tides quest to recruit Kul Tirans
+				q(54775),	-- Warmode Storm's Rage
+				q(54716),	-- Secret Chest during Stormsong Valley Incursion in Warmode
+				q(54317),	-- BfA Alliance Stormsong "Invasion"
+				q(50694),	-- triggers with / alternate way of completing 'A Bloody Mess' (50593)
+			}),
 		}),
 	}),
-}));
+})));

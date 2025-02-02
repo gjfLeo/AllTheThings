@@ -86,10 +86,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(ZANDALAR, {
-	m(ZULDAZAR, {
-		n(TREASURES, {
-			q(50950),	-- for using the Incense prior to opening Gift of the Brokenhearted for achievement Treasures of Zuldaza
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(ZULDAZAR, {
+			n(TREASURES, {
+				q(50950),	-- for using the Incense prior to opening Gift of the Brokenhearted for achievement Treasures of Zuldazar
+			}),
 		}),
 	}),
-}));
+})));
