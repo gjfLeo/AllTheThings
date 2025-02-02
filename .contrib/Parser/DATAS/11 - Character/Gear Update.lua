@@ -203,8 +203,8 @@ root(ROOTS.Character, n(GEAR_UPDATE, bubbleDownSelf({ ["timeline"] = { ADDED_10_
 		]]--
 		cl(HUNTER, {
 			i(205877, {	-- Adventurer's Footlocker
-				i(231840),	-- Trailseeker Crossbow
-				i(231839),	-- Trailseeker Longbow
+				i(231840, {["timeline"] = {ADDED_11_0_5}}),	-- Trailseeker Crossbow
+				i(231839, {["timeline"] = {ADDED_11_0_5}}),	-- Trailseeker Longbow
 				i(170638),	-- Trailseeker Shotgun
 				i(170639),	-- Trailseeker Spear
 			}),
