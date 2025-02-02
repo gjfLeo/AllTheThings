@@ -193,6 +193,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["races"] = { DWARF },
 							["classes"] = { MAGE },
 						}),
+						q(24526, {	-- Filling Up the Spellbook
+							["qg"] = 37121,	-- Teegli Merrowith <Mage Trainer>
+							["sourceQuest"] = 24496,	-- Arcane Rune
+							-- #if AFTER MOP
+							-- TODO: confirm coord after MOP.
+							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
+							-- #else
+							["coord"] = { 35.7, 64.8, DUN_MOROGH },
+							-- #endif
+							-- TODO: confirm remove patch.
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { DWARF },
+							["classes"] = { MAGE },
+						}),
 						q(1599, {	-- Beginnings
 							["qg"] = 460,	-- Alamar Grimm <Warlock Trainer>
 							["coord"] = { 28.6, 66.1, DUN_MOROGH },
@@ -928,7 +942,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								-- #endif
 								{ "i", 9577 },	-- Tainted Memorandum
 							},
-							["sourceQuest"] = 179,	-- Dwarven Outfitters
+							-- #if AFTER CATA
+							["sourceQuest"] = 24473,	-- Lockdown in Anvilmar
+							-- #else
+							["sourceQuest"] = 179,		-- Dwarven Outfitters
+							-- #endif
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
@@ -936,8 +954,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
-							["timeline"] = { REMOVED_4_0_3 },
+							["timeline"] = { REMOVED_7_0_3 },
+							-- #if AFTER CATA
+							["races"] = { DWARF },
+							-- #else
 							["races"] = { GNOME },
+							-- #endif
+							["classes"] = { WARLOCK },
+						}),
+						q(26904, {	-- Harnessing the Flames
+							["qg"] = 43455,				-- Saripal Smolderbrew <Warlock Trainer>
+							["sourceQuest"] = 3115,		-- Tainted Memorandum
+							["coord"] = { 35.7, 65.3, DUN_MOROGH },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { DWARF },
 							["classes"] = { WARLOCK },
 						}),
 						q(183, {	-- The Boar Hunter
