@@ -224,7 +224,7 @@ root(ROOTS.ExpansionFeatures,
 						q(51987, {	-- Champion: Hobart Grapplehammer
 							["sourceQuests"] = { 51234 },	-- Krazzlefrazz Outpost
 							["provider"] = { "n", 137613 },	-- Hobart Grapplehammer
-							["coord"] = { 33.6, 37.8, DRUSTVAR },
+							["coord"] = { 36.9, 27.1, DRUSTVAR },
 							["races"] = HORDE_ONLY,
 							["g"] = {
 								follower(1068),	-- Hobart Grapplehammer

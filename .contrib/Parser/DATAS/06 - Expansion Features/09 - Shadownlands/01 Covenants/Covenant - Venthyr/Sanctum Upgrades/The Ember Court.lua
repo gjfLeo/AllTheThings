@@ -1080,7 +1080,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 											["questID"] = 59500,
 										}),
 										i(181828),	-- Disgusting Foraging Bag (QI!)
-										i(181829),	-- Feather Cap (QI!)
+										o(356596, {	-- Feather Cap
+											i(181829),	-- Feather Cap (QI!)
+										}),
 										i(181830),	-- Lacy Bell Morel (QI!)
 										i(181839),	-- Violet Frill (QI!)
 									},

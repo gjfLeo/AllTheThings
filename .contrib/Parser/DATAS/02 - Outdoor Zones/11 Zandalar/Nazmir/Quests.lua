@@ -607,9 +607,18 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(155341, {	-- Nazmani Warplate Vambraces
 						["races"] = HORDE_ONLY,
 					}),
-					i(154136),	-- Ancient Phylactery (QI!)
-					i(154137),	-- Pristine Phylactery (QI!)
-					i(152468),	-- Repaired Phylactery (QI!)
+					o(278341, {	-- Ancient Phylactery
+						["coord"] = { 39.4, 57.4, NAZMIR },
+						["g"] = { i(154136) },	-- Ancient Phylactery (QI!)
+					}),
+					o(278342, {	-- Pristine Phylactery
+						["coord"] = { 38.4, 54.5, NAZMIR },
+						["g"] = { i(154137) },	-- Pristine Phylactery (QI!)
+					}),
+					o(278337, {	-- Repaired Phylactery
+						["coord"] = {  40.9, 52, NAZMIR },
+						["g"] = { i(152468) },	-- epaired Phylactery (QI!)
+					}),
 					i(154130),	-- Spirit Powder (QI!)
 				},
 			}),
@@ -931,6 +940,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(48473, {	-- Respecting the Rites
 				["provider"] = { "n", 130481 },	-- Shinga Deathwalker
 				["coord"] = { 39.0, 59.9, NAZMIR },
+				["g"] = {
+					o(281361, {	-- Ritual Powder
+						["coord"] = { 41.3, 62.7, NAZMIR },
+						["g"] = { i(157793) },	-- Ritual Powder (QI!)
+					}),
+				}
 			}),
 			q(48499, {	-- Return to Dust
 				["sourceQuests"] = { 49479 },	-- Didn't Stop to Think if They Should

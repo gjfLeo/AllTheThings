@@ -1591,6 +1591,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 19.57, 43.65, DRUSTVAR },
 			}),
 			q(53459, {	-- WANTED: Sister Lilias
+				["provider"] = { "o", 298858 },	-- Wanted Poster
+				["sourceQuests"] = { 51234 },	-- Krazzlefrazz Outpost
 				["races"] = HORDE_ONLY,
 				["lvl"] = 20,
 				["coord"] = { 37.51, 25.8, DRUSTVAR },
@@ -1602,9 +1604,15 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 19.57, 43.65, DRUSTVAR },
 			}),
 			q(53456, {	-- WANTED: The Rime Huntress
+				["provider"] = { "o", 298858 },	-- Wanted Poster
+				["sourceQuests"] = { 51234 },	-- Krazzlefrazz Outpost
+				["races"] = HORDE_ONLY,
 				["coord"] = { 37.51, 25.8, DRUSTVAR },
 			}),
 			q(53458, {	-- WANTED: The Rindlewoe
+				["provider"] = { "o", 298858 },	-- Wanted Poster
+				["sourceQuests"] = { 51234 },	-- Krazzlefrazz Outpost
+				["races"] = HORDE_ONLY,
 				["coord"] = { 37.51, 25.8, DRUSTVAR },
 			}),
 			q(52486, {	-- Waycrest Manor: Draining the Heartsbane
