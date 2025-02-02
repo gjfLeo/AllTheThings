@@ -461,6 +461,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				i(170084),	-- Blessed Staff of Moonflowers (QI!)
 				i(170083),	-- Staff of Moonflowers (QI!)
 			},
+			["description"] = "Only a very few moonwells in faction-neutral locations counts for this quest.",
 		}),
 		q(8876, {	-- Small Rockets
 			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
@@ -779,7 +780,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				-- #endif
 			},
 			-- #if AFTER BFA
-			["description"] = "In order to view this Elder, visit Zidormi at 69.4, 62.7 to see Tirisfal Glades before the Battle for Lordaeron.",
+			["description"] = "In order to view this Elder, visit Zidormi at 69.4, 62.7 to see Tirisfal Glades before the Battle for Lordaeron. If Zidormi does not offer any dialogue options, travel towards Western Plaguelands and see if you get phased into pre-BfA Tirisfal.",
 			-- #endif
 			["isYearly"] = true,
 		}),
@@ -1395,14 +1396,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 		}),
 		q(8866, {	-- Bronzebeard the Elder
 			["qg"] = 15871,	-- Elder Bronzebeard
-			["coords"] = {
-				-- #if AFTER CATA
-				{ 29.4, 17.1, IRONFORGE },
-				-- #else
-				{ 29.1, 17.0, IRONFORGE },
-				-- #endif
-			},
 			["isYearly"] = true,
+			-- #if BEFORE CATA
+			["coord"] = { 29.1, 17.0, IRONFORGE },	-- The Mystic Ward
+			-- #else
+			["coord"] = { 29.4, 17.1, IRONFORGE },	-- The Mystic Ward
+			["description"] = "Can be challenging for Horde players. Fly in and fly high without hesitation. Watch out for guard movements in The Mystic Ward.",
+			-- #endif
 		}),
 		q(8646, {	-- Hammershout the Elder
 			["qg"] = 15562,	-- Elder Hammershout
@@ -1430,7 +1430,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				-- #endif
 			},
 			-- #if AFTER BFA
-			["description"] = "In order to view this Elder, visit Zidormi at 69.4, 62.7 to see Tirisfal Glades before the Battle for Lordaeron.  The Elder is just inside the front door of the city.",
+			["description"] = "In order to view this Elder, visit Zidormi at 69.4, 62.7 to see Tirisfal Glades before the Battle for Lordaeron. If Zidormi does not offer any dialogue options, travel towards Western Plaguelands and see if you get phased into pre-BfA Tirisfal.\n\nThe Elder is just inside the front door of the city. Alliance players can fly through the broken roof in front of the room. There are no guards in this area.",
 			-- #endif
 			["isYearly"] = true,
 		}),
@@ -1438,22 +1438,21 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["qg"] = 15579,	-- Elder Darkhorn
 			-- #if AFTER CATA
 			["coord"] = { 52.1, 59.8, ORGRIMMAR },
-			["description"] = "The Elder is on the central upper platform in Orgrimmar near the flight master.",
+			["description"] = "The Elder is on the southern end of the central upper platform in Orgrimmar near the flight master. A visual clue for flying Alliance players is to look for the towering gate seperating Valley of Strength and the Drag.",
 			-- #else
 			["coord"] = { 40.9, 33.9, ORGRIMMAR },
 			-- #endif
 			["isYearly"] = true,
 		}),
 		q(8678, {	-- Wheathoof the Elder [Wrath+] / Proudhorn the Elder [Classic]
-			["qg"] = 15580,	-- Elder Wheathoof [Wrath+] / Elder Proudhorn [Classic]
-			["coords"] = {
-				-- #if AFTER CATA
-				{ 72.8, 22.8, THUNDER_BLUFF },
-				-- #else
-				{ 73.0, 23.4, THUNDER_BLUFF },
-				-- #endif
-			},
+			["qg"] = 15580,	-- Elder Ezra Wheathoof [Wrath+] / Elder Proudhorn [Classic]
 			["isYearly"] = true,
+			-- #if BEFORE CATA
+			["coord"] = { 73.0, 23.4, THUNDER_BLUFF },	-- The Elder Rise
+			-- #else
+			["coord"] = { 72.8, 22.8, THUNDER_BLUFF },	-- The Elder Rise
+			["description"] = "Found on the northern side of The Elder Rise, easily accessible for flying players.",
+			-- #endif
 		}),
 	}),
 	n(REWARDS, {
