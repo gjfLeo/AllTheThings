@@ -3251,6 +3251,23 @@ for i,o in ipairs({
 			i(68175, {	-- Winking Eye of Love [Level 85]
 				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
 			}),
+			-- #if ANYCLASSIC
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(238334, {	-- Heartbreak Charm [Level 85, 378 ilvl]
+				["timeline"] = { "added 4.4.2", REMOVED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(238337, {	-- Choker of the Pure Heart [Level 85, 378 ilvl]
+				["timeline"] = { "added 4.4.2", REMOVED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(238338, {	-- Shard of Pirouetting Happiness [Level 85, 378 ilvl]
+				["timeline"] = { "added 4.4.2", REMOVED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(238336, {	-- Sweet Perfume Brooch [Level 85, 378 ilvl]
+				["timeline"] = { "added 4.4.2", REMOVED_5_0_4 },
+			})),
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(238335, {	-- Winking Eye of Love [Level 85, 378 ilvl]
+				["timeline"] = { "added 4.4.2", REMOVED_5_0_4 },
+			})),
+			-- #endif
 
 			-- Wrath
 			i(51808, {	-- Choker of the Pure Heart [Level 80]
