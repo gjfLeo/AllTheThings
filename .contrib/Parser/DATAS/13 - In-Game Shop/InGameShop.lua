@@ -70,18 +70,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(219450, {	-- Charming Courier (MOUNT!)
 			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
 		}),
-		i(230200, {	-- Chaos-Forged Dreadwing (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
-		}),
-		i(230184, {	-- Chaos-Forged Gryphon (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
-		}),
-		i(230185, {	-- Chaos-Forged Hippogryph (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
-		}),
-		i(230201, {	-- Chaos-Forged Wind Rider (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
-		}),
 		i(109013, {	-- Dread Raven (MOUNT!)
 			["timeline"] = { ADDED_5_4_7, REMOVED_8_3_0, ADDED_10_1_0 },
 		}),
@@ -150,9 +138,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		mount(359843, {	-- Tangled Dreamweaver (MOUNT!)
 			["timeline"] = { ADDED_10_2_0 },
 		}),
-		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
-		}),
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
 		}),
@@ -184,6 +169,18 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(54811, {	-- Celestial Steed (MOUNT!)
 			["timeline"] = { ADDED_3_3_3, REMOVED_10_0_2_LAUNCH },	-- Removed from shop on Jan 2 2023, will be offered sometimes in Trading Post
 		}),
+		i(230200, {	-- Chaos-Forged Dreadwing (MOUNT!)
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
+		}),
+		i(230184, {	-- Chaos-Forged Gryphon (MOUNT!)
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
+		}),
+		i(230185, {	-- Chaos-Forged Hippogryph (MOUNT!)
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
+		}),
+		i(230201, {	-- Chaos-Forged Wind Rider (MOUNT!)
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
+		}),
 		i(208598, {	-- Eve's Ghastly Rider (MOUNT!)
 			["timeline"] = { ADDED_11_0_2, REMOVED_11_0_5 }, -- 1st October 2024 until 5th November 2024
 		}),
@@ -206,6 +203,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(153539, {	-- Seabraid Stallion (MOUNT!)
 			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- 17th April 2023
 			["races"] = ALLIANCE_ONLY,
+		}),
+		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Removed January 6, 2025
 		}),
 		i(160589, {	-- The Dreadwake (MOUNT!)
 			["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_10_1_7 },	-- Removed Sep 17th, 2023
@@ -268,9 +268,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		pet(3175, {	-- Murkastrasza (PET!)
 			["timeline"] = { ADDED_10_2_0 },
-		}),
-		i(231294, {	-- Reven (PET!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 7, 2025
 		}),
 		i(151234, {	-- Shadow (PET!)
 			["timeline"] = { ADDED_7_3_0 },
@@ -345,6 +342,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		i(49665, {	-- Pandaren Monk
 			["timeline"] = { ADDED_3_2_2, REMOVED_10_0_2_LAUNCH },	-- Removed from shop on Jan 2 2023, will be offered through Trading Post in 10.0.5
+		}),
+		i(231294, {	-- Reven (PET!)
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- removed January 7, 2025
 		}),
 		i(190601, {	-- Sunny
 			["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },	-- Aug 29th, 2023
@@ -444,32 +444,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_0_2_LAUNCH },
 		}),
 
-		------ Gladiator's Ragged Armor Set ------
-		iensemble(217029, {	-- Ensemble: Gladiator's Ragged Armor
-			["timeline"] = { ADDED_10_2_6, REMOVED_10_2_6 },
-		}),
-
 		------ Green Snugglefin Murloc Romper Set ------
 		iensemble(223485, {	-- Ensemble: Green Snugglefin Murloc Romper
 			["timeline"] = { ADDED_10_2_7 },
 		}),
-
-		------ Guardian Set ------
-		i(190216, {	-- Feathered Cowl of the Guardian
-			["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
-		}),
-		i(190200, {	-- Feathered Drape of the Guardian
-			["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
-		}),
-		i(190220, {	-- Standard of the Guardian
-			["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
-		}),
-
-		------ High Scholar's Arcana Set ------
-		iensemble(208412, {	-- High Scholar's Arcana
-			["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },	-- Removed Oct 31st, 2023
-		}),
-
 		------ Murloc Shells Set ------
 		i(188135, {	-- Frrgl's Shaking Shell
 			["timeline"] = { ADDED_9_1_5 },
@@ -479,21 +457,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		i(188136, {	-- Mrrgl's Shiny Shell
 			["timeline"] = { ADDED_9_1_5 },
-		}),
-
-		------ Sky Witch's Attire Set ------
-		iensemble(212221, {	-- Ensemble: Sky Witch's Attire
-			["timeline"] = { ADDED_11_0_5, "removed 11.1.7.99999" },	-- Removed March 31, 2025
-		}),
-
-		------ Sky-Captain's Masquerade Attire Set ------
-		iensemble(210079, {	-- Sky-Captain's Masquerade Attire
-			["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 },	-- Removed Jan 1st, 2024
-		}),
-
-		------ Sprite Darter Set ------
-		iensemble(200925, {	-- Ensemble: Solemn Watchman's Garb
-			["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },
 		}),
 
 		------ Sprite Darter Set ------
@@ -522,11 +485,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_8_3_0 },
 		}),
 
-		------ Twilight Witch's Attire Set ------
-		iensemble(212222, {	-- Ensemble: Twilight Witch's Attire
-			["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },	-- Removed Feb 29th, 2024
-		}),
-
 		------ Waveborne Diplomat's Regalia Set ------
 		iensemble(204888, {	-- Ensemble: Waveborne Diplomat's Regalia
 			["timeline"] = { ADDED_10_0_7 },
@@ -539,23 +497,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(188258, {	-- Bronze Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
 		}),
-		i(95475, {	-- Crown of Eternal Winter
-			["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
-		}),
 		i(193610, {	-- Diadem of the Spell-Keeper
 			["timeline"] = { ADDED_10_2_0 },
 		}),
 		i(188259, {	-- Emerald Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
-		}),
-		i(97213, {	-- Hood of Hungering Darkness
-			["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
-		}),
-		i(95474, {	-- Jewel of the Firelord
-			["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
-		}),
-		i(231290, {	-- Reven's Comfy Carrier
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 7, 2025
 		}),
 		i(188260, {	-- Ruby Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
@@ -563,6 +509,61 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(188256, {	-- Obsidian Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
 		}),
+		filter(COSMETIC, bubbleDown({ ["u"] = REMOVED_FROM_GAME, }, {	-- REMOVED --
+			------ Gladiator's Ragged Armor Set ------
+			iensemble(217029, {	-- Ensemble: Gladiator's Ragged Armor
+				["timeline"] = { ADDED_10_2_6, REMOVED_10_2_6 },
+			}),
+			------ Guardian Set ------
+			i(190216, {	-- Feathered Cowl of the Guardian
+				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
+			}),
+			i(190200, {	-- Feathered Drape of the Guardian
+				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
+			}),
+			i(190220, {	-- Standard of the Guardian
+				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
+			}),
+
+			------ High Scholar's Arcana Set ------
+			iensemble(208412, {	-- High Scholar's Arcana
+				["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },	-- Removed Oct 31st, 2023
+			}),
+
+			------ Sky Witch's Attire Set ------
+			iensemble(212221, {	-- Ensemble: Sky Witch's Attire
+				["timeline"] = { ADDED_11_0_5, "removed 11.1.7.99999" },	-- Removed March 31, 2025
+			}),
+
+			------ Sky-Captain's Masquerade Attire Set ------
+			iensemble(210079, {	-- Sky-Captain's Masquerade Attire
+				["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 },	-- Removed Jan 1st, 2024
+			}),
+
+			------ Sprite Darter Set ------
+			iensemble(200925, {	-- Ensemble: Solemn Watchman's Garb
+				["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },
+			}),
+		
+			------ Twilight Witch's Attire Set ------
+			iensemble(212222, {	-- Ensemble: Twilight Witch's Attire
+				["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },	-- Removed Feb 29th, 2024
+			}),
+		
+			------ Single Pieces ------
+			i(97213, {	-- Hood of Hungering Darkness
+				["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
+			}),
+			i(95474, {	-- Jewel of the Firelord
+				["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
+			}),
+			i(95475, {	-- Crown of Eternal Winter
+				["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
+			}),
+			i(231290, {	-- Reven's Comfy Carrier
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 7, 2025
+			}),
+		})),
 	}),
 	-- #endif
 	-- #if AFTER 8.1.5.29737
@@ -589,7 +590,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	-- #endif
 	-- #if AFTER 5.4.0.17153
 	filter(CONSUMABLES, {
+		-- #if BEFORE 6.0.2
 		["description"] = "Only available in the Asian In-Game Shop.",
+		-- #endif
 		["groups"] = {
 			i(103557, {	-- Enduring Elixir of Wisdom
 				["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
