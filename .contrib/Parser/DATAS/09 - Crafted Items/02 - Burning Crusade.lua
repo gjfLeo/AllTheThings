@@ -1123,11 +1123,40 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(25700),	-- Fel Scales
 			i(21887),	-- Knothide Leather
 			i(25649),	-- Knothide Leather Scraps
-			i(29548),	-- Nether Dragonscales
+			i(29548, {    -- Nether Dragonscales
+				["description"] = "Is skinned from Netherwing drakes in Outland. Characters who have started the Netherwing questline can only kill Netherwing drakes in Blade's Edge Nountains and Netherstorm, and then it requires the player to toggle 'At War' with the Netherwing in the reputation panel. Killing Netherwing drakes does not lower the reputation with the faction.",
+				["crs"] = {
+					21722,	-- Enslaved Netherwing Drake
+					21004,	-- Lesser Nether Drake
+					20332,	-- Nether Dragon
+					18877,	-- Nether Drake
+				},
+				["coords"] = {
+					{ 62.3, 77.0, BLADES_EDGE_MOUNTAINS }, -- Singing Ridge
+					{ 72.5, 38.4, NETHERSTORM }, -- Celestial Ridge
+					{ 68.35, 61.0, SHADOWMOON_VALLEY }, -- Dragonmaw Fortress
+				},
+			}),
 			i(35229),	-- Nether Residue
 			i(32470),	-- Nethermine Flayer Hide
 			i(25708),	-- Thick Clefthoof Leather
-			i(29547),	-- Wind Scales
+			i(29547, {    -- Wind Scales
+				["description"] = "Is skinned from wind serpents in Outland.",
+				["crs"] = {
+					20502,	-- Eclipsion Dragonhawk
+					21123,	-- Felsworn Scalewing
+					20749,	-- Scalewing Serpent
+					20673,	-- Swiftwing Shredder
+				},
+				["coords"] = {
+					{ 68.5, 70.55, BLADES_EDGE_MOUNTAINS }, -- Scalewing Shelf
+					{ 66.0, 52.6, BLADES_EDGE_MOUNTAINS }, -- Razor Ridge
+					{ 71.5, 30.1, BLADES_EDGE_MOUNTAINS }, -- Bladed Gulch
+					{ 56.4, 60.0, NETHERSTORM }, -- The Vortex Fields west
+					{ 66.3, 61.8, NETHERSTORM }, -- The Vortex Fields east
+					{ 47.0, 64.5, SHADOWMOON_VALLEY }, -- Eclipse Point
+				},
+			}),
 		},
 	}),
 	prof(TAILORING, {
