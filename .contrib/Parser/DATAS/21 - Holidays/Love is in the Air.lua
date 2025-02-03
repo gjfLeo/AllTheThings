@@ -3132,11 +3132,11 @@ for i,o in ipairs({
 						["timeline"] = { ADDED_10_0_5 },
 						["isDaily"] = true,
 					}),
-					--[[hqt(?????, {	-- Increased Love Witch's Sweeper Droprate (Daily Accountwide)
+					hqt(86172, {	-- Increased Love Witch's Sweeper Droprate (Daily Accountwide)
 						["name"] = "Increased Love Witch's Sweeper Droprate (Daily Accountwide)",
 						["timeline"] = { ADDED_11_0_7 },
 						["isDaily"] = true,
-					}),]]--
+					}),
 					hqt(79104, {	-- Increased Renewed Proto-Drake: Love Armor Droprate (Daily Accountwide)
 						["name"] = "Increased Renewed Proto-Drake: Love Armor Droprate (Daily Accountwide)",
 						["timeline"] = { ADDED_10_2_5 },
