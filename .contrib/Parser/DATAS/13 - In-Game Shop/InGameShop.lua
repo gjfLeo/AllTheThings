@@ -182,7 +182,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 6, 2025
 		}),
 		i(208598, {	-- Eve's Ghastly Rider (MOUNT!)
-			["timeline"] = { ADDED_11_0_2, REMOVED_11_0_5 }, -- 1st October 2024 until 5th November 2024
+			["timeline"] = { ADDED_11_0_2, REMOVED_11_0_5 },	-- 1st October 2024 until 5th November 2024
 		}),
 		i(112327, {	-- Grinning Reaver (MOUNT!)
 			["timeline"] = { ADDED_6_0_2, REMOVED_8_3_0 },
@@ -544,12 +544,12 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			iensemble(200925, {	-- Ensemble: Solemn Watchman's Garb
 				["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },
 			}),
-		
+
 			------ Twilight Witch's Attire Set ------
 			iensemble(212222, {	-- Ensemble: Twilight Witch's Attire
 				["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },	-- Removed Feb 29th, 2024
 			}),
-		
+
 			------ Single Pieces ------
 			i(97213, {	-- Hood of Hungering Darkness
 				["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },

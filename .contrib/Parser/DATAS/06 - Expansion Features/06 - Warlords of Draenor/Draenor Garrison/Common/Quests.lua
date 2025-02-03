@@ -546,7 +546,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					["sourceQuest"] = 38421,	-- Garrison Campaign: Onslaught at Auchindoun (A)
 					["g"] = {
 						i(124552, {	-- Baleful Treads
-							i(124573),  -- Axeclaw Boots
+							i(124573),	-- Axeclaw Boots
 							i(124572),	-- Bladefang Boots
 							i(124574),	-- Felbane Greaves
 							i(124571),	-- Felcast Sandals
@@ -560,7 +560,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					["sourceQuest"] = 38415,	-- Garrison Campaign: Onslaught at Auchindoun (H)
 					["g"] = {
 						i(124552, {	-- Baleful Treads
-							i(124573),  -- Axeclaw Boots
+							i(124573),	-- Axeclaw Boots
 							i(124572),	-- Bladefang Boots
 							i(124574),	-- Felbane Greaves
 							i(124571),	-- Felcast Sandals

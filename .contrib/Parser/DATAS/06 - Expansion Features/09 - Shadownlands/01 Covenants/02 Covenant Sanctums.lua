@@ -234,7 +234,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			-- Calling Boxes
 			n(COVENANT_CALLINGS, sharedData({
 					["sym"] = {
-						{ "select", "headerID", COVENANT_SANCTUMS },{"pop"}, -- Covenant Sanctum groups
+						{ "select", "headerID", COVENANT_SANCTUMS },{"pop"},	-- Covenant Sanctum groups
 						{ "where", "headerID", COVENANT_CALLINGS },{"pop"},	-- Covenant Callings groups
 						{ "where", "headerID", COMMON_BOX_DROPS },	-- Common Box Drops
 					},

@@ -120,7 +120,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(1519, {	-- Call of Earth (1/3)
 							["qg"] = 5888,	-- Seer Ravenfeather
-							["altQuests"] = { 1516 }, -- Call of Earth (1/3 Durotar)
+							["altQuests"] = { 1516 },	-- Call of Earth (1/3 Durotar)
 							["coord"] = { 44.8, 76.2, MULGORE },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = HORDE_ONLY,
@@ -139,7 +139,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 6635 },	-- Earth Sapta
 							},
 							["sourceQuest"] = 1519,	-- Call of Earth (1/3)
-							["altQuests"] = { 1517 }, -- Call of Earth (2/3 Durotar)
+							["altQuests"] = { 1517 },	-- Call of Earth (2/3 Durotar)
 							["coord"] = { 44.8, 76.2, MULGORE },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = HORDE_ONLY,
@@ -152,7 +152,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 6656 },	-- Rough Quartz
 							},
 							["sourceQuest"] = 1520,	-- Call of Earth (2/3)
-							["altQuests"] = { 1518 }, -- Call of Earth (3/3 Durotar)
+							["altQuests"] = { 1518 },	-- Call of Earth (3/3 Durotar)
 							["coord"] = { 53.8, 80.4, MULGORE },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = HORDE_ONLY,
@@ -185,7 +185,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(1462, {	-- Earth Sapta
 							["qg"] = 5888,	-- Seer Ravenfeather
 							["sourceQuest"] = 1519,	-- Call of Earth (1/3)
-							["altQuests"] = { 1463 }, -- Earth Sapta (Durotar)
+							["altQuests"] = { 1463 },	-- Earth Sapta (Durotar)
 							["coord"] = { 44.8, 76.2, MULGORE },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = HORDE_ONLY,

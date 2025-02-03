@@ -538,40 +538,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1298, {	-- The Emerald Nightmare: Il'gynoth
 						["groups"] = {
-							i(139480), -- Corrupted Egg Fragment [Raid Finder]
+							i(139480),	-- Corrupted Egg Fragment [Raid Finder]
 							q(43546, {	-- Il'gynoth [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 139480 }, -- Corrupted Egg Fragment [Raid Finder]
+								["provider"] = { "i", 139480 },	-- Corrupted Egg Fragment [Raid Finder]
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139484)), -- Cache of Nightmarish Treasures [Raid Finder]
+									un(REMOVED_FROM_GAME, i(139484)),	-- Cache of Nightmarish Treasures [Raid Finder]
 								},
 							}),
-							i(139481), -- Corrupted Egg Fragment (Normal)
+							i(139481),	-- Corrupted Egg Fragment (Normal)
 							q(43547, {	-- Il'gynoth (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 139481 }, -- Corrupted Egg Fragment (Normal)
+								["provider"] = { "i", 139481 },	-- Corrupted Egg Fragment (Normal)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139486)), -- Cache of Nightmarish Treasures (Normal)
+									un(REMOVED_FROM_GAME, i(139486)),	-- Cache of Nightmarish Treasures (Normal)
 								},
 							}),
-							i(139482), -- Corrupted Egg Fragment (Heroic)
+							i(139482),	-- Corrupted Egg Fragment (Heroic)
 							q(43548, {	-- Il'gynoth (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 139482 }, -- Corrupted Egg Fragment (Heroic)
+								["provider"] = { "i", 139482 },	-- Corrupted Egg Fragment (Heroic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139487)), -- Cache of Nightmarish Treasures (Heroic)
+									un(REMOVED_FROM_GAME, i(139487)),	-- Cache of Nightmarish Treasures (Heroic)
 								},
 							}),
-							i(139483), -- Corrupted Egg Fragment (Mythic)
+							i(139483),	-- Corrupted Egg Fragment (Mythic)
 							q(43549, {	-- Il'gynoth (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 139483 }, -- Corrupted Egg Fragment (Mythic)
+								["provider"] = { "i", 139483 },	-- Corrupted Egg Fragment (Mythic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139488)), -- Cache of Nightmarish Treasures (Mythic)
+									un(REMOVED_FROM_GAME, i(139488)),	-- Cache of Nightmarish Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -584,40 +584,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1300, {	-- The Emerald Nightmare: Fall of Cenarius
 						["groups"] = {
-							i(140163), -- Tainted Moonglade Leaf [Raid Finder]
+							i(140163),	-- Tainted Moonglade Leaf [Raid Finder]
 							q(43902, {	-- Fall of Cenarius [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 140163 }, -- Tainted Moonglade Leaf [Raid Finder]
+								["provider"] = { "i", 140163 },	-- Tainted Moonglade Leaf [Raid Finder]
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139484)), -- Cache of Nightmarish Treasures [Raid Finder]
+									un(REMOVED_FROM_GAME, i(139484)),	-- Cache of Nightmarish Treasures [Raid Finder]
 								},
 							}),
-							i(140165), -- Tainted Moonglade Leaf (Normal)
+							i(140165),	-- Tainted Moonglade Leaf (Normal)
 							q(43904, {	-- Fall of Cenarius (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 140165 }, -- Tainted Moonglade Leaf (Normal)
+								["provider"] = { "i", 140165 },	-- Tainted Moonglade Leaf (Normal)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139486)), -- Cache of Nightmarish Treasures (Normal)
+									un(REMOVED_FROM_GAME, i(139486)),	-- Cache of Nightmarish Treasures (Normal)
 								},
 							}),
-							i(140167), -- Tainted Moonglade Leaf (Heroic)
+							i(140167),	-- Tainted Moonglade Leaf (Heroic)
 							q(43906, {	-- Fall of Cenarius (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140167 }, -- Tainted Moonglade Leaf (Heroic)
+								["provider"] = { "i", 140167 },	-- Tainted Moonglade Leaf (Heroic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139487)), -- Cache of Nightmarish Treasures (Heroic)
+									un(REMOVED_FROM_GAME, i(139487)),	-- Cache of Nightmarish Treasures (Heroic)
 								},
 							}),
-							i(140169), -- Tainted Moonglade Leaf (Mythic)
+							i(140169),	-- Tainted Moonglade Leaf (Mythic)
 							q(43908, {	-- Fall of Cenarius (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140169 }, -- Tainted Moonglade Leaf (Mythic)
+								["provider"] = { "i", 140169 },	-- Tainted Moonglade Leaf (Mythic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139488)), -- Cache of Nightmarish Treasures (Mythic)
+									un(REMOVED_FROM_GAME, i(139488)),	-- Cache of Nightmarish Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -630,40 +630,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1302, {	-- The Emerald Nightmare: Xavius
 						["groups"] = {
-							i(140164), -- Vial of Swirling Shadow [Raid Finder]
+							i(140164),	-- Vial of Swirling Shadow [Raid Finder]
 							q(43903, {	-- Xavius [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 140164 }, -- Vial of Swirling Shadow [Raid Finder]
+								["provider"] = { "i", 140164 },	-- Vial of Swirling Shadow [Raid Finder]
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139484)), -- Cache of Nightmarish Treasures [Raid Finder]
+									un(REMOVED_FROM_GAME, i(139484)),	-- Cache of Nightmarish Treasures [Raid Finder]
 								},
 							}),
-							i(140166), -- Vial of Swirling Shadow (Normal)
+							i(140166),	-- Vial of Swirling Shadow (Normal)
 							q(43905, {	-- Xavius (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 140166 }, -- Vial of Swirling Shadow (Normal)
+								["provider"] = { "i", 140166 },	-- Vial of Swirling Shadow (Normal)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139486)), -- Cache of Nightmarish Treasures (Normal)
+									un(REMOVED_FROM_GAME, i(139486)),	-- Cache of Nightmarish Treasures (Normal)
 								},
 							}),
-							i(140168), -- Vial of Swirling Shadow (Heroic)
+							i(140168),	-- Vial of Swirling Shadow (Heroic)
 							q(43907, {	-- Xavius (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140168 }, -- Vial of Swirling Shadow (Heroic)
+								["provider"] = { "i", 140168 },	-- Vial of Swirling Shadow (Heroic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139487)), -- Cache of Nightmarish Treasures (Heroic)
+									un(REMOVED_FROM_GAME, i(139487)),	-- Cache of Nightmarish Treasures (Heroic)
 								},
 							}),
-							i(140170), -- Vial of Swirling Shadow (Mythic)
+							i(140170),	-- Vial of Swirling Shadow (Mythic)
 							q(43909, {	-- Xavius (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140170 }, -- Vial of Swirling Shadow (Mythic)
+								["provider"] = { "i", 140170 },	-- Vial of Swirling Shadow (Mythic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(139488)), -- Cache of Nightmarish Treasures (Mythic)
+									un(REMOVED_FROM_GAME, i(139488)),	-- Cache of Nightmarish Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -676,40 +676,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1303, {	-- The Nighthold: Vaults
 						["groups"] = {
-							i(140147), -- Pulsauron Bindings [Raid Finder]
+							i(140147),	-- Pulsauron Bindings [Raid Finder]
 							q(43882, {	-- Vaults [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 140147 }, -- Pulsauron Bindings [Raid Finder]
+								["provider"] = { "i", 140147 },	-- Pulsauron Bindings [Raid Finder]
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140148)), -- Cache of Nightborne Treasures [Raid Finder]
+									un(REMOVED_FROM_GAME, i(140148)),	-- Cache of Nightborne Treasures [Raid Finder]
 								},
 							}),
-							i(140149), -- Pulsauron Bindings (Normal)
+							i(140149),	-- Pulsauron Bindings (Normal)
 							q(43889, {	-- Vaults (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 140149 }, -- Pulsauron Bindings (Normal)
+								["provider"] = { "i", 140149 },	-- Pulsauron Bindings (Normal)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140150)), -- Cache of Nightborne Treasures (Normal)
+									un(REMOVED_FROM_GAME, i(140150)),	-- Cache of Nightborne Treasures (Normal)
 								},
 							}),
-							i(140151), -- Pulsauron Bindings (Heroic)
+							i(140151),	-- Pulsauron Bindings (Heroic)
 							q(43890, {	-- Vaults (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140151 }, -- Pulsauron Bindings (Heroic)
+								["provider"] = { "i", 140151 },	-- Pulsauron Bindings (Heroic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140152)), -- Cache of Nightborne Treasures (Heroic)
+									un(REMOVED_FROM_GAME, i(140152)),	-- Cache of Nightborne Treasures (Heroic)
 								},
 							}),
-							i(140153), -- Pulsauron Bindings (Mythic)
+							i(140153),	-- Pulsauron Bindings (Mythic)
 							q(43891, {	-- Vaults (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140153 }, -- Pulsauron Bindings (Mythic)
+								["provider"] = { "i", 140153 },	-- Pulsauron Bindings (Mythic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140154)), -- Cache of Nightborne Treasures (Mythic)
+									un(REMOVED_FROM_GAME, i(140154)),	-- Cache of Nightborne Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -722,40 +722,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1304, {	-- The Nighthold: High Botanist Tel'arn
 						["groups"] = {
-							i(140171), -- Glowing Lily [Raid Finder]
+							i(140171),	-- Glowing Lily [Raid Finder]
 							q(43910, {	-- High Botanist Tel'arn [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 140171 }, -- Glowing Lily [Raid Finder]
+								["provider"] = { "i", 140171 },	-- Glowing Lily [Raid Finder]
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140148)), -- Cache of Nightborne Treasures [Raid Finder]
+									un(REMOVED_FROM_GAME, i(140148)),	-- Cache of Nightborne Treasures [Raid Finder]
 								},
 							}),
-							i(140174), -- Glowing Lily (Normal)
+							i(140174),	-- Glowing Lily (Normal)
 							q(43913, {	-- High Botanist Tel'arn (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 140174 }, -- Glowing Lily (Normal)
+								["provider"] = { "i", 140174 },	-- Glowing Lily (Normal)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140150)), -- Cache of Nightborne Treasures (Normal)
+									un(REMOVED_FROM_GAME, i(140150)),	-- Cache of Nightborne Treasures (Normal)
 								},
 							}),
-							i(140178), -- Glowing Lily (Heroic)
+							i(140178),	-- Glowing Lily (Heroic)
 							q(43916, {	-- High Botanist Tel'arn (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140178 }, -- Glowing Lily (Heroic)
+								["provider"] = { "i", 140178 },	-- Glowing Lily (Heroic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140152)), -- Cache of Nightborne Treasures (Heroic)
+									un(REMOVED_FROM_GAME, i(140152)),	-- Cache of Nightborne Treasures (Heroic)
 								},
 							}),
-							i(140182), -- Glowing Lily (Mythic)
+							i(140182),	-- Glowing Lily (Mythic)
 							q(43920, {	-- High Botanist Tel'arn (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140182 }, -- Glowing Lily (Mythic)
+								["provider"] = { "i", 140182 },	-- Glowing Lily (Mythic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140154)), -- Cache of Nightborne Treasures (Mythic)
+									un(REMOVED_FROM_GAME, i(140154)),	-- Cache of Nightborne Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -768,40 +768,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1305, {	-- The Nighthold: Elisande
 						["groups"] = {
-							i(140172), -- Ancient Nightborne Tome [Raid Finder]
+							i(140172),	-- Ancient Nightborne Tome [Raid Finder]
 							q(43911, {	-- Elisande [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 140172 }, -- Ancient Nightborne Tome [Raid Finder]
+								["provider"] = { "i", 140172 },	-- Ancient Nightborne Tome [Raid Finder]
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140148)), -- Cache of Nightborne Treasures [Raid Finder]
+									un(REMOVED_FROM_GAME, i(140148)),	-- Cache of Nightborne Treasures [Raid Finder]
 								},
 							}),
-							i(140175), -- Ancient Nightborne Tome (Normal)
+							i(140175),	-- Ancient Nightborne Tome (Normal)
 							q(43914, {	-- Elisande (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 140175 }, -- Ancient Nightborne Tome (Normal)
+								["provider"] = { "i", 140175 },	-- Ancient Nightborne Tome (Normal)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140150)), -- Cache of Nightborne Treasures (Normal)
+									un(REMOVED_FROM_GAME, i(140150)),	-- Cache of Nightborne Treasures (Normal)
 								},
 							}),
-							i(140472), -- Ancient Nightborne Tome (Heroic)
+							i(140472),	-- Ancient Nightborne Tome (Heroic)
 							q(43917, {	-- Elisande (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140472 }, -- Ancient Nightborne Tome (Heroic)
+								["provider"] = { "i", 140472 },	-- Ancient Nightborne Tome (Heroic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140152)), -- Cache of Nightborne Treasures (Heroic)
+									un(REMOVED_FROM_GAME, i(140152)),	-- Cache of Nightborne Treasures (Heroic)
 								},
 							}),
-							i(140182), -- Ancient Nightborne Tome (Mythic)
+							i(140182),	-- Ancient Nightborne Tome (Mythic)
 							q(43920, {	-- Elisande (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140182 }, -- Ancient Nightborne Tome (Mythic)
+								["provider"] = { "i", 140182 },	-- Ancient Nightborne Tome (Mythic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140154)), -- Cache of Nightborne Treasures (Mythic)
+									un(REMOVED_FROM_GAME, i(140154)),	-- Cache of Nightborne Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -814,40 +814,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1306, {	-- The Nighthold: Gul'dan
 						["groups"] = {
-							i(140173), -- Shred of Tattered Robe [Raid Finder]
+							i(140173),	-- Shred of Tattered Robe [Raid Finder]
 							q(43912, {	-- Gul'dan [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 140173 }, -- Shred of Tattered Robe [Raid Finder]
+								["provider"] = { "i", 140173 },	-- Shred of Tattered Robe [Raid Finder]
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140148)), -- Cache of Nightborne Treasures [Raid Finder]
+									un(REMOVED_FROM_GAME, i(140148)),	-- Cache of Nightborne Treasures [Raid Finder]
 								},
 							}),
-							i(140177), -- Shred of Tattered Robe (Normal)
+							i(140177),	-- Shred of Tattered Robe (Normal)
 							q(43915, {	-- Gul'dan (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 140177 }, -- Shred of Tattered Robe (Normal)
+								["provider"] = { "i", 140177 },	-- Shred of Tattered Robe (Normal)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140150)), -- Cache of Nightborne Treasures (Normal)
+									un(REMOVED_FROM_GAME, i(140150)),	-- Cache of Nightborne Treasures (Normal)
 								},
 							}),
-							i(140180), -- Shred of Tattered Robe (Heroic)
+							i(140180),	-- Shred of Tattered Robe (Heroic)
 							q(43918, {	-- Gul'dan (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140180 }, -- Shred of Tattered Robe (Heroic)
+								["provider"] = { "i", 140180 },	-- Shred of Tattered Robe (Heroic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140152)), -- Cache of Nightborne Treasures (Heroic)
+									un(REMOVED_FROM_GAME, i(140152)),	-- Cache of Nightborne Treasures (Heroic)
 								},
 							}),
-							i(140183), -- Shred of Tattered Robe (Mythic)
+							i(140183),	-- Shred of Tattered Robe (Mythic)
 							q(43921, {	-- Gul'dan (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 140183 }, -- Shred of Tattered Robe (Mythic)
+								["provider"] = { "i", 140183 },	-- Shred of Tattered Robe (Mythic)
 								["u"] = REMOVED_FROM_GAME,
 								["g"] = {
-									un(REMOVED_FROM_GAME, i(140154)), -- Cache of Nightborne Treasures (Mythic)
+									un(REMOVED_FROM_GAME, i(140154)),	-- Cache of Nightborne Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -860,36 +860,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1680, {	-- Tomb of Sargeras: The Tomb's Mistress [Mistress]
 						["groups"] = {
-							i(147497), -- Encrusted Naga Scale [Raid Finder]
+							i(147497),	-- Encrusted Naga Scale [Raid Finder]
 							q(47114, {	-- The Tomb's Mistress [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 147497 }, -- Encrusted Naga Scale [Raid Finder]
+								["provider"] = { "i", 147497 },	-- Encrusted Naga Scale [Raid Finder]
 								["g"] = {
-									i(147518), -- Cache of Fel Treasures [Raid Finder]
+									i(147518),	-- Cache of Fel Treasures [Raid Finder]
 								},
 							}),
-							i(147498), -- Encrusted Naga Scale (Normal)
+							i(147498),	-- Encrusted Naga Scale (Normal)
 							q(47115, {	-- The Tomb's Mistress (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 147498 }, -- Encrusted Naga Scale (Normal)
+								["provider"] = { "i", 147498 },	-- Encrusted Naga Scale (Normal)
 								["g"] = {
-									i(147519), -- Cache of Fel Treasures (Normal)
+									i(147519),	-- Cache of Fel Treasures (Normal)
 								},
 							}),
-							i(147499), -- Encrusted Naga Scale (Heroic)
+							i(147499),	-- Encrusted Naga Scale (Heroic)
 							q(47116, {	-- The Tomb's Mistress (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147499 }, -- Encrusted Naga Scale (Heroic)
+								["provider"] = { "i", 147499 },	-- Encrusted Naga Scale (Heroic)
 								["g"] = {
-									i(147520), -- Cache of Fel Treasures (Heroic)
+									i(147520),	-- Cache of Fel Treasures (Heroic)
 								},
 							}),
-							i(147500), -- Encrusted Naga Scale (Mythic)
+							i(147500),	-- Encrusted Naga Scale (Mythic)
 							q(47117, {	-- The Tomb's Mistress (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147500 }, -- Encrusted Naga Scale (Mythic)
+								["provider"] = { "i", 147500 },	-- Encrusted Naga Scale (Mythic)
 								["g"] = {
-									i(147521), -- Cache of Fel Treasures (Mythic)
+									i(147521),	-- Cache of Fel Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -902,36 +902,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1681, {	-- Tomb of Sargeras: Free The Tormented [Desolate Host]
 						["groups"] = {
-							i(147501), -- Worshipper's Scrawlings [Raid Finder]
+							i(147501),	-- Worshipper's Scrawlings [Raid Finder]
 							q(47118, {	-- Free The Tormented [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 147501 }, -- Worshipper's Scrawlings [Raid Finder]
+								["provider"] = { "i", 147501 },	-- Worshipper's Scrawlings [Raid Finder]
 								["g"] = {
-									i(147518), -- Cache of Fel Treasures [Raid Finder]
+									i(147518),	-- Cache of Fel Treasures [Raid Finder]
 								},
 							}),
-							i(147502), -- Worshipper's Scrawlings (Normal)
+							i(147502),	-- Worshipper's Scrawlings (Normal)
 							q(47119, {	-- Free The Tormented (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 147502 }, -- Worshipper's Scrawlings (Normal)
+								["provider"] = { "i", 147502 },	-- Worshipper's Scrawlings (Normal)
 								["g"] = {
-									i(147519), -- Cache of Fel Treasures (Normal)
+									i(147519),	-- Cache of Fel Treasures (Normal)
 								},
 							}),
-							i(147503), -- Worshipper's Scrawlings (Heroic)
+							i(147503),	-- Worshipper's Scrawlings (Heroic)
 							q(47120, {	-- Free The Tormented (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147503 }, -- Worshipper's Scrawlings (Heroic)
+								["provider"] = { "i", 147503 },	-- Worshipper's Scrawlings (Heroic)
 								["g"] = {
-									i(147520), -- Cache of Fel Treasures (Heroic)
+									i(147520),	-- Cache of Fel Treasures (Heroic)
 								},
 							}),
-							i(147504), -- Worshipper's Scrawlings (Mythic)
+							i(147504),	-- Worshipper's Scrawlings (Mythic)
 							q(47121, {	-- Free The Tormented (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147504 }, -- Worshipper's Scrawlings (Mythic)
+								["provider"] = { "i", 147504 },	-- Worshipper's Scrawlings (Mythic)
 								["g"] = {
-									i(147521), -- Cache of Fel Treasures (Mythic)
+									i(147521),	-- Cache of Fel Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -944,36 +944,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1682, {	-- Tomb of Sargeras: The Fallen Avatar
 						["groups"] = {
-							i(147505), -- Wailing Soul [Raid Finder]
+							i(147505),	-- Wailing Soul [Raid Finder]
 							q(47122, {	-- The Fallen Avatar [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 147505 }, -- Wailing Soul [Raid Finder]
+								["provider"] = { "i", 147505 },	-- Wailing Soul [Raid Finder]
 								["g"] = {
-									i(147518), -- Cache of Fel Treasures [Raid Finder]
+									i(147518),	-- Cache of Fel Treasures [Raid Finder]
 								},
 							}),
-							i(147506), -- Wailing Soul (Normal)
+							i(147506),	-- Wailing Soul (Normal)
 							q(47123, {	-- The Fallen Avatar (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 147506 }, -- Wailing Soul (Normal)
+								["provider"] = { "i", 147506 },	-- Wailing Soul (Normal)
 								["g"] = {
-									i(147519), -- Cache of Fel Treasures (Normal)
+									i(147519),	-- Cache of Fel Treasures (Normal)
 								},
 							}),
-							i(147507), -- Wailing Soul (Heroic)
+							i(147507),	-- Wailing Soul (Heroic)
 							q(47124, {	-- The Fallen Avatar (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147507 }, -- Wailing Soul (Heroic)
+								["provider"] = { "i", 147507 },	-- Wailing Soul (Heroic)
 								["g"] = {
-									i(147520), -- Cache of Fel Treasures (Heroic)
+									i(147520),	-- Cache of Fel Treasures (Heroic)
 								},
 							}),
-							i(147508), -- Wailing Soul (Mythic)
+							i(147508),	-- Wailing Soul (Mythic)
 							q(47125, {	-- The Fallen Avatar (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147508 }, -- Wailing Soul (Mythic)
+								["provider"] = { "i", 147508 },	-- Wailing Soul (Mythic)
 								["g"] = {
-									i(147521), -- Cache of Fel Treasures (Mythic)
+									i(147521),	-- Cache of Fel Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work
@@ -986,36 +986,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					}),
 					mission(1683, {	-- Tomb of Sargeras: The Deceiver
 						["groups"] = {
-							i(147509), -- Seal of the Deceiver [Raid Finder]
+							i(147509),	-- Seal of the Deceiver [Raid Finder]
 							q(47126, {	-- The Deceiver [Raid Finder]
 								["repeatable"] = true,
-								["provider"] = { "i", 147509 }, -- Seal of the Deceiver [Raid Finder]
+								["provider"] = { "i", 147509 },	-- Seal of the Deceiver [Raid Finder]
 								["g"] = {
-									i(147518), -- Cache of Fel Treasures [Raid Finder]
+									i(147518),	-- Cache of Fel Treasures [Raid Finder]
 								},
 							}),
-							i(147510), -- Seal of the Deceiver (Normal)
+							i(147510),	-- Seal of the Deceiver (Normal)
 							q(47127, {	-- The Deceiver (Normal)
 								["repeatable"] = true,
-								["provider"] = { "i", 147510 }, -- Seal of the Deceiver (Normal)
+								["provider"] = { "i", 147510 },	-- Seal of the Deceiver (Normal)
 								["g"] = {
-									i(147519), -- Cache of Fel Treasures (Normal)
+									i(147519),	-- Cache of Fel Treasures (Normal)
 								},
 							}),
-							i(147511), -- Seal of the Deceiver (Heroic)
+							i(147511),	-- Seal of the Deceiver (Heroic)
 							q(47128, {	-- The Deceiver (Heroic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147511 }, -- Seal of the Deceiver (Heroic)
+								["provider"] = { "i", 147511 },	-- Seal of the Deceiver (Heroic)
 								["g"] = {
-									i(147520), -- Cache of Fel Treasures (Heroic)
+									i(147520),	-- Cache of Fel Treasures (Heroic)
 								},
 							}),
-							i(147512), -- Seal of the Deceiver (Mythic)
+							i(147512),	-- Seal of the Deceiver (Mythic)
 							q(47129, {	-- The Deceiver (Mythic)
 								["repeatable"] = true,
-								["provider"] = { "i", 147512 }, -- Seal of the Deceiver (Mythic)
+								["provider"] = { "i", 147512 },	-- Seal of the Deceiver (Mythic)
 								["g"] = {
-									i(147521), -- Cache of Fel Treasures (Mythic)
+									i(147521),	-- Cache of Fel Treasures (Mythic)
 								},
 							}),
 							-- Every Mission can return any Cache, but they all return the same name ingame, so its cleaner to list them under the mission. Description also clarifies how the boxes work

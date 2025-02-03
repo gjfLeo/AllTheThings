@@ -520,12 +520,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["coord"] = { 43.4, 26.4, TRUESHOT_LODGE },
 					}),
 					q(42401, {	-- The Scent of Magic
-						["sourceQuest"] = 42400,  -- Missing Mages
+						["sourceQuest"] = 42400,	-- Missing Mages
 						["provider"] = { "n", 107966 },	-- Archmage Khadgar
 						["coord"] = { 38.1, 47.1, SURAMAR },
 					}),
 					q(42404, {	-- Assisting the Archmage
-						["sourceQuest"] = 42401,  -- The Scent of Magic
+						["sourceQuest"] = 42401,	-- The Scent of Magic
 						["provider"] = { "n", 108089 },	-- Archmage Khadgar
 						["coord"] = { 33.1, 57.0, SURAMAR },
 					}),
@@ -881,7 +881,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						}),
 					}),
 					gt(375, {	-- Eagle Ally
-						i(140216), -- Eagle Feather
+						i(140216),	-- Eagle Feather
 					}),
 				}),
 				n(VENDORS, {

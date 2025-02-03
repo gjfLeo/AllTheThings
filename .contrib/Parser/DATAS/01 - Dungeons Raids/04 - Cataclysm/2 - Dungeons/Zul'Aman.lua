@@ -237,62 +237,62 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					n(ZULAMAN_TIMED_EVENT, {
 						["sharedDescription"] = "Stay with the captives after their release to get additional loot.",
 						["groups"] = {
-							n(52941), -- Bakkal'zu
-							n(52939), -- Hazlek
-							n(52945), -- Kasha
-							n(52943), -- Norkani
+							n(52941),	-- Bakkal'zu
+							n(52939),	-- Hazlek
+							n(52945),	-- Kasha
+							n(52943),	-- Norkani
 						},
 					}),
 					e(186, {	-- Akil'zon
 						["crs"] = { 23574 },	-- Akil'zon
 						["groups"] = {
-							i(69552), -- Bracers of Hidden Purpose
-							i(69551), -- Feathers of Akil'zon
-							i(69550), -- Leggings of Ancient Magics
-							i(69553), -- Talonguard Band
-							i(69549), -- Wristguards of the Predator
+							i(69552),	-- Bracers of Hidden Purpose
+							i(69551),	-- Feathers of Akil'zon
+							i(69550),	-- Leggings of Ancient Magics
+							i(69553),	-- Talonguard Band
+							i(69549),	-- Wristguards of the Predator
 						},
 					}),
 					e(187, {	-- Nalorakk
 						["crs"] = { 23576 },	-- Nalorakk
 						["groups"] = {
-							i(69556), -- Armbands of the Bear Spirit
-							i(69555), -- Boots of the Ursine
-							i(69557), -- Jungle Striders
-							i(69554), -- Pauldrons of Nalorakk
-							i(69558), -- Spiritshield Mask
+							i(69556),	-- Armbands of the Bear Spirit
+							i(69555),	-- Boots of the Ursine
+							i(69557),	-- Jungle Striders
+							i(69554),	-- Pauldrons of Nalorakk
+							i(69558),	-- Spiritshield Mask
 						},
 					}),
 					e(188, {	-- Jan'alai
 						["crs"] = { 23578 },	-- Jan'alai
 						["groups"] = {
-							i(69559), -- Amani'shi Bracers
-							i(69562), -- Boots of Bad Mojo
-							i(69561), -- Hawkscale Waistguard
-							i(69560), -- Jan'alai's Spaulders
-							i(69563), -- Ring of the Numberless Brood
+							i(69559),	-- Amani'shi Bracers
+							i(69562),	-- Boots of Bad Mojo
+							i(69561),	-- Hawkscale Waistguard
+							i(69560),	-- Jan'alai's Spaulders
+							i(69563),	-- Ring of the Numberless Brood
 						},
 					}),
 					e(189, {	-- Halazzi
 						["crs"] = { 23577 },	-- Halazzi
 						["groups"] = {
 							ach(5750),	-- Tunnel Vision
-							i(69565), -- Breastplate of Primal Fury
-							i(69568), -- Shadowmender Wristguards
-							i(69566), -- Shimmerclaw Band
-							i(69564), -- The Savager's Mask
-							i(69567), -- Wristwraps of Departed Spirits
+							i(69565),	-- Breastplate of Primal Fury
+							i(69568),	-- Shadowmender Wristguards
+							i(69566),	-- Shimmerclaw Band
+							i(69564),	-- The Savager's Mask
+							i(69567),	-- Wristwraps of Departed Spirits
 						},
 					}),
 					e(190, {	-- Hex Lord Malacrass
 						["crs"] = { 24239 },	-- Hex Lord Malacrass
 						["groups"] = {
-							i(69572), -- Hex Lord's Bloody Cloak
-							i(69573), -- Pauldrons of Sacrifice
-							i(70080), -- Reforged Heartless
-							i(69569), -- Shadowtooth Trollskin Breastplate
-							i(69571), -- Soul Drain Signet
-							i(69570), -- Waistband of Hexes
+							i(69572),	-- Hex Lord's Bloody Cloak
+							i(69573),	-- Pauldrons of Sacrifice
+							i(70080),	-- Reforged Heartless
+							i(69569),	-- Shadowtooth Trollskin Breastplate
+							i(69571),	-- Soul Drain Signet
+							i(69570),	-- Waistband of Hexes
 						},
 					}),
 					e(191, {	-- Daakara
@@ -301,16 +301,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							ach(5769),	-- Heroic: Zul'Aman
 							ach(5771),	-- Heroic: Zul'Aman Guild Run
 							ach(5760),	-- Ring Out!
-							i(69579), -- Amani Headdress
-							i(69581), -- Amani Scepter of Rites
-							i(69577), -- Collar of Bones
-							i(69576), -- Headdress of Sharpened Vision
-							i(69578), -- Hexing Robes
-							i(69583), -- Legguards of the Unforgiving
-							i(69575), -- Mace of the Sacrificed
-							i(69580), -- Mask of Restless Spirits
-							i(69582), -- Skullpiercer Pauldrons
-							i(69574), -- Tusked Shoulderpads
+							i(69579),	-- Amani Headdress
+							i(69581),	-- Amani Scepter of Rites
+							i(69577),	-- Collar of Bones
+							i(69576),	-- Headdress of Sharpened Vision
+							i(69578),	-- Hexing Robes
+							i(69583),	-- Legguards of the Unforgiving
+							i(69575),	-- Mace of the Sacrificed
+							i(69580),	-- Mask of Restless Spirits
+							i(69582),	-- Skullpiercer Pauldrons
+							i(69574),	-- Tusked Shoulderpads
 						},
 					}),
 				},

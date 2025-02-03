@@ -139,95 +139,95 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56466, {	-- Crackling Mandible (H)
-				["provider"] = {"i",169637},  -- Crackling Mandible
+				["provider"] = {"i",169637},	-- Crackling Mandible
 				["races"] = HORDE_ONLY,
 			}),
 			q(56450, {	-- Eel Jelly (A)
-				["provider"] = {"i",169628},  -- Eel Jelly
+				["provider"] = {"i",169628},	-- Eel Jelly
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56462, {	-- Eel Jelly (H)
-				["provider"] = {"i",169641},  -- Eel Jelly
+				["provider"] = {"i",169641},	-- Eel Jelly
 				["races"] = HORDE_ONLY,
 			}),
 			q(56455, {	-- Frenzy Fang (A)
-				["provider"] = {"i",169633},  -- Frenzy Fang
+				["provider"] = {"i",169633},	-- Frenzy Fang
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56467, {	-- Frenzy Fang (H)
-				["provider"] = {"i",169636},  -- Frenzy Fang
+				["provider"] = {"i",169636},	-- Frenzy Fang
 				["races"] = HORDE_ONLY,
 			}),
 			q(56447, {	-- Half-Digested Deepcoral Pod (A)
-				["provider"] = {"i",169625},  -- Half-Digested Deepcoral Pod
+				["provider"] = {"i",169625},	-- Half-Digested Deepcoral Pod
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56459, {	-- Half-Digested Deepcoral Pod (H)
-				["provider"] = {"i",169644},  -- Half-Digested Deepcoral Pod
+				["provider"] = {"i",169644},	-- Half-Digested Deepcoral Pod
 				["races"] = HORDE_ONLY,
 			}),
 			q(56446, {	-- Leathery Venom Gland (A)
-				["provider"] = {"i",169624},  -- Leathery Venom Gland
+				["provider"] = {"i",169624},	-- Leathery Venom Gland
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56457, {	-- Leathery Venom Gland (H)
-				["provider"] = {"i",169645},  -- Leathery Venom Gland
+				["provider"] = {"i",169645},	-- Leathery Venom Gland
 				["races"] = HORDE_ONLY,
 			}),
 			q(56448, {	-- Molted Spineshell (A)
-				["provider"] = {"i",169626},  -- Molted Spineshell
+				["provider"] = {"i",169626},	-- Molted Spineshell
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56460, {	-- Molted Spineshell (H)
-				["provider"] = {"i",169643},  -- Molted Spineshell
+				["provider"] = {"i",169643},	-- Molted Spineshell
 				["races"] = HORDE_ONLY,
 			}),
 			q(56451, {	-- Mottled Hydra Scale (A)
-				["provider"] = {"i",169629},  -- Mottled Hydra Scale
+				["provider"] = {"i",169629},	-- Mottled Hydra Scale
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56463, {	-- Mottled Hydra Scale (H)
-				["provider"] = {"i",169640},  -- Mottled Hydra Scale
+				["provider"] = {"i",169640},	-- Mottled Hydra Scale
 				["races"] = HORDE_ONLY,
 			}),
 			q(56456, {	-- Opaline Conch (A)
-				["provider"] = {"i",169634},  -- Opaline Conch
+				["provider"] = {"i",169634},	-- Opaline Conch
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56458, {	-- Opaline Conch (H)
-				["provider"] = {"i",169635},  -- Opaline Conch
+				["provider"] = {"i",169635},	-- Opaline Conch
 				["races"] = HORDE_ONLY,
 			}),
 			q(56453, {	-- Overgrown Stone (A)
-				["provider"] = {"i",169631},  -- Overgrown Stone
+				["provider"] = {"i",169631},	-- Overgrown Stone
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56465, {	-- Overgrown Stone (H)
-				["provider"] = {"i",169638},  -- Overgrown Stone
+				["provider"] = {"i",169638},	-- Overgrown Stone
 				["races"] = HORDE_ONLY,
 			}),
 			q(56449, {	-- Pearlescent Shell (A)
-				["provider"] = {"i",169627},  -- Pearlescent Shell
+				["provider"] = {"i",169627},	-- Pearlescent Shell
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56461, {	-- Pearlescent Shell (H)
-				["provider"] = {"i",169642},  -- Pearlescent Shell
+				["provider"] = {"i",169642},	-- Pearlescent Shell
 				["races"] = HORDE_ONLY,
 			}),
 			q(56452, {	-- Strange Organ (A)
-				["provider"] = {"i",169630},  -- Strange Organ
+				["provider"] = {"i",169630},	-- Strange Organ
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56464, {	-- Strange Organ (H)
-				["provider"] = {"i",169639},  -- Strange Organ
+				["provider"] = {"i",169639},	-- Strange Organ
 				["races"] = HORDE_ONLY,
 			}),
 			q(56444, {	-- Wiggletail's Poking Fork (A)
-				["provider"] = {"i",169623},  -- Wiggletail's Poking Fork
+				["provider"] = {"i",169623},	-- Wiggletail's Poking Fork
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(56445, {	-- Wiggletail's Poking Fork (H)
-				["provider"] = {"i",169646},  -- Wiggletail's Poking Fork
+				["provider"] = {"i",169646},	-- Wiggletail's Poking Fork
 				["races"] = HORDE_ONLY,
 			}),
 		}),

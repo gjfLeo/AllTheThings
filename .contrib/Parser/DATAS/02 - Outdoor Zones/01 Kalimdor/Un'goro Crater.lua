@@ -55,8 +55,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					pet(632, {	-- Ash Lizard (PET!)
 						["description"] = "Found around Fire Plum Ridge in Un'goro Crater and around fiery and dry areas in lower Mount Hyjal.",
 						["coords"] = {
-							{ 50.0, 49.0, UNGORO_CRATER }, -- Fire Plum Ridge
-							{ 60.0, 70.0, MOUNT_HYJAL }, -- Fiery Mount Hyjal
+							{ 50.0, 49.0, UNGORO_CRATER },	-- Fire Plum Ridge
+							{ 60.0, 70.0, MOUNT_HYJAL },	-- Fiery Mount Hyjal
 						},
 					}),
 					pet(504, {	-- Diemetradon Hatchling (PET!)
@@ -304,7 +304,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				applyclassicphase(PHASE_FOUR_SUNKEN_TEMPLE_CLASS_QUESTS, q(9052, {	-- Bloodpetal Poison
 					["qg"] = 9619,	-- Torwa Pathfinder
-					["sourceQuest"] = 9063,  -- Torwa Pathfinder
+					["sourceQuest"] = 9063,	-- Torwa Pathfinder
 					["coord"] = { 71.6, 76.0, UNGORO_CRATER },
 					["timeline"] = { REMOVED_4_0_3 },
 					["classes"] = { DRUID },
@@ -1898,7 +1898,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(PHASE_FOUR_SUNKEN_TEMPLE_CLASS_QUESTS, q(9051, {	-- Toxic Test
 					["qg"] = 9619,	-- Torwa Pathfinder
-					["sourceQuest"] = 9052,  -- Bloodpetal Poison
+					["sourceQuest"] = 9052,	-- Bloodpetal Poison
 					["coord"] = { 71.6, 76.0, UNGORO_CRATER },
 					["timeline"] = { REMOVED_4_0_3 },
 					["classes"] = { DRUID },
@@ -1918,7 +1918,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = lvlsquish(48, 48, 15),
 					["groups"] = {
 						objective(1, {	-- 0/20 Splashed with Venomhide blood
-							["provider"] = { "n", 6508 }, -- Venomhide Ravasaur
+							["provider"] = { "n", 6508 },	-- Venomhide Ravasaur
 						}),
 					},
 				}),

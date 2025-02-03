@@ -99,74 +99,74 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					pet(540, {	-- Carrion Rat (PET!)
 						["description"] = "Only found at the given coords, and as secondary pet.",
 						["coords"] = {
-							{ 79.1, 49.3, MOUNT_HYJAL }, -- Seat of the Chosen
-							{ 55.0, 86.0, MOUNT_HYJAL }, -- Ascendant's Rise, west of.
-							{ 31.0, 86.0, MOUNT_HYJAL }, -- Sethria's Roost
+							{ 79.1, 49.3, MOUNT_HYJAL },	-- Seat of the Chosen
+							{ 55.0, 86.0, MOUNT_HYJAL },	-- Ascendant's Rise, west of.
+							{ 31.0, 86.0, MOUNT_HYJAL },	-- Sethria's Roost
 						},
 					}),
 					pet(755, {	-- Death's Head Cockroach (PET!)
 						["description"] = "Can be found in areas where the Twilight Hammer have set up camp in Mount Hyjal, as well as common secondary pet to other critters.",
 						["coords"] = {
-							{ 57.0, 68.75, MOUNT_HYJAL }, -- Ascendant's Rise, north of
-							{ 58.4, 80.8, MOUNT_HYJAL }, -- Ascendant's Rise, south
-							{ 28.0, 35.6, MOUNT_HYJAL }, -- Gar'gol's Hovel
-							{ 29.0, 40.0, MOUNT_HYJAL }, -- Lightning Ledge
-							{ 43.7, 21.0, MOUNT_HYJAL }, -- Twilight Command Post
+							{ 57.0, 68.75, MOUNT_HYJAL },	-- Ascendant's Rise, north of
+							{ 58.4, 80.8, MOUNT_HYJAL },	-- Ascendant's Rise, south
+							{ 28.0, 35.6, MOUNT_HYJAL },	-- Gar'gol's Hovel
+							{ 29.0, 40.0, MOUNT_HYJAL },	-- Lightning Ledge
+							{ 43.7, 21.0, MOUNT_HYJAL },	-- Twilight Command Post
 						},
 					}),
 					pet(479, {	-- Elfin Rabbit (PET!)
 						["description"] = "Found mostly around Nordrassil in Mount Hyjal, as well as Teldrassil.",
 						["coords"] = {
-							{ 40.7, 43.55, MOUNT_HYJAL }, -- Shrine of Aviana
-							{ 50.0, 20.0, MOUNT_HYJAL }, -- Ruins of Lar'donir
-							{ 62.7, 28.6, MOUNT_HYJAL }, -- Nordrassil south
-							{ 58.7, 21.25, MOUNT_HYJAL }, -- Nordrassil west
+							{ 40.7, 43.55, MOUNT_HYJAL },	-- Shrine of Aviana
+							{ 50.0, 20.0, MOUNT_HYJAL },	-- Ruins of Lar'donir
+							{ 62.7, 28.6, MOUNT_HYJAL },	-- Nordrassil south
+							{ 58.7, 21.25, MOUNT_HYJAL },	-- Nordrassil west
 						},
 					}),
 					pet(415, {	-- Fire Beetle (PET!)
 						["description"] = "Common around fiery and dry areas of Mount Hyjal, as well as around Searing Gorge, Blasted Lands and Burning Steppes",
 						["coords"] = {
-							{ 60.0, 70.0, MOUNT_HYJAL }, -- Fiery Mount Hyjal
+							{ 60.0, 70.0, MOUNT_HYJAL },	-- Fiery Mount Hyjal
 						},
 					}),
 					pet(541, {	-- Fire-Proof Roach (PET!)
 						["description"] = "Common around fiery and dry areas of Mount Hyjal.",
 						["coords"] = {
-							{ 60.0, 70.0, MOUNT_HYJAL }, -- Fiery Mount Hyjal
+							{ 60.0, 70.0, MOUNT_HYJAL },	-- Fiery Mount Hyjal
 						},
 					}),
 					pet(539, {	-- Grotto Vole (PET!)
 						["description"] = "Can be found in the Hyjal Barrow Dens.",
 						["coords"] = {
-							{ 52.5, 17.3, MOUNT_HYJAL }, -- Hyjal Barrow Dens entrance.
+							{ 52.5, 17.3, MOUNT_HYJAL },	-- Hyjal Barrow Dens entrance.
 						},
 					}),
 					pet(547, {	-- Nordrassil Wisp (PET!)
 						["description"] = "Can be found around the Nordrassil pond.",
 						["coords"] = {
-							{ 60.55, 26.35, MOUNT_HYJAL }, -- Nordrassil
+							{ 60.55, 26.35, MOUNT_HYJAL },	-- Nordrassil
 						},
 					}),
 					pet(503, {	-- Silky Moth (PET!)
 						["description"] = "Can be found around the Nordrassil pond, as well as in Moonglade and Un'Goro Crater.",
 						["coords"] = {
-							{ 62.7, 28.6, MOUNT_HYJAL }, -- Nordrassil south
-							{ 58.7, 21.25, MOUNT_HYJAL }, -- Nordrassil west
-							{ 48.6, 24.3, MOUNT_HYJAL }, -- The Verdant Thicket
+							{ 62.7, 28.6, MOUNT_HYJAL },	-- Nordrassil south
+							{ 58.7, 21.25, MOUNT_HYJAL },	-- Nordrassil west
+							{ 48.6, 24.3, MOUNT_HYJAL },	-- The Verdant Thicket
 						},
 					}),
 					pet(469, {	-- Twilight Beetle (PET!)
 						["description"] = "Can be found in areas where the Twilight Hammer have set up camp.",
 						["coords"] = {
-							{ 58.4, 80.8, MOUNT_HYJAL }, -- Ascendant's Rise
-							{ 57.0, 68.75, MOUNT_HYJAL }, -- Ascendant's Rise, north of
-							{ 28.0, 35.6, MOUNT_HYJAL }, -- Gar'gol's Hovel
-							{ 29.0, 40.0, MOUNT_HYJAL }, -- Lightning Ledge
-							{ 43.7, 21.0, MOUNT_HYJAL }, -- Twilight Command Post
-							{ 68.5, 16.0, AZSHARA }, -- Sable Ridge
-							{ 40.1, 71.0, DEEPHOLM }, -- Master's Gate
-							{ 60.3, 44.9, DEEPHOLM }, -- Lorthuna's Gate
-							{ 63.0, 33.1, DEEPHOLM }, -- Twilight's Precipice
+							{ 58.4, 80.8, MOUNT_HYJAL },	-- Ascendant's Rise
+							{ 57.0, 68.75, MOUNT_HYJAL },	-- Ascendant's Rise, north of
+							{ 28.0, 35.6, MOUNT_HYJAL },	-- Gar'gol's Hovel
+							{ 29.0, 40.0, MOUNT_HYJAL },	-- Lightning Ledge
+							{ 43.7, 21.0, MOUNT_HYJAL },	-- Twilight Command Post
+							{ 68.5, 16.0, AZSHARA },	-- Sable Ridge
+							{ 40.1, 71.0, DEEPHOLM },	-- Master's Gate
+							{ 60.3, 44.9, DEEPHOLM },	-- Lorthuna's Gate
+							{ 63.0, 33.1, DEEPHOLM },	-- Twilight's Precipice
 						},
 					}),
 				},

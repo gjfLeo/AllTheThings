@@ -16,11 +16,11 @@ root(ROOTS.Zones, {
 					["coords"] = {
 						{ 37.9, 29.0, LEGION_DALARAN },
 						{ 41.1, 54.3, LEGION_DALARAN },
-						{ 42.9, 43.2, LEGION_DALARAN }, -- unconf.
+						{ 42.9, 43.2, LEGION_DALARAN },	-- unconf.
 						{ 44.0, 17.4, LEGION_DALARAN },
 						{ 46.5, 53.5, LEGION_DALARAN },
-						{ 47.6, 28.9, LEGION_DALARAN }, -- unconf.
-						{ 49.0, 70.3, LEGION_DALARAN }, -- unconf.
+						{ 47.6, 28.9, LEGION_DALARAN },	-- unconf.
+						{ 49.0, 70.3, LEGION_DALARAN },	-- unconf.
 						{ 52.0, 61.8, LEGION_DALARAN },
 						{ 54.2, 40.5, LEGION_DALARAN },
 						{ 54.9, 52.5, LEGION_DALARAN },

@@ -35,7 +35,7 @@ root(ROOTS.ExpansionFeatures,
 					q(46205, {	-- A Conduit No More
 						["sourceQuests"] = { 45795 },	-- Presence of Power
 						["repeatable"] = true,
-						["provider"] = { "n", 117774 }, -- Prince Farondis
+						["provider"] = { "n", 117774 },	-- Prince Farondis
 					}),
 					q(45838, {	-- Assault on Azsuna
 						["repeatable"] = true,
@@ -150,7 +150,7 @@ root(ROOTS.ExpansionFeatures,
 					},
 				}),
 				n(WORLD_QUESTS, {
-					i(146766),  -- Nethercaller Cloak
+					i(146766),	-- Nethercaller Cloak
 					i(146786),	-- Vileweave Cap
 					i(146791),	-- Vileweave Amice
 					i(146789),	-- Vileweave Robes

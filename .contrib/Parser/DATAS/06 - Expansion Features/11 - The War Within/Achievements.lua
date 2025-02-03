@@ -49,25 +49,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
         ach(41169, {	-- Khaz Algar Diplomat
             ["timeline"] = { ADDED_11_0_7 },
             ["g"] = {
-                crit(71181), -- Council of Dornogal
-                crit(71180), -- The Assembly of the Deeps
-                crit(71179), -- Hallowfall Arathi
-                crit(71177), -- The Severed Threads
+                crit(71181),	-- Council of Dornogal
+                crit(71180),	-- The Assembly of the Deeps
+                crit(71179),	-- Hallowfall Arathi
+                crit(71177),	-- The Severed Threads
                 iensemble(219110),	-- Vermillion Patron's Elegance
             },
 		}),
         -- INFO: Verified 2024-10-04, only shows one criteria without achraw
 		achraw(40660, bubbleDownSelf({ ["timeline"] = { REMOVED_11_1_0 }, }, {	-- The War Within Season 1: Spelunker Supreme
-			crit(67375), -- Attained 1600+ Rated PVP rating
-			crit(66890), -- Attained 2000+ Mythic Plus rating
-			crit(67597), -- Defeated Queen Ansurek on Heroic or Mythic difficulty
+			crit(67375),	-- Attained 1600+ Rated PVP rating
+			crit(66890),	-- Attained 2000+ Mythic Plus rating
+			crit(67597),	-- Defeated Queen Ansurek on Heroic or Mythic difficulty
 			i(226206),	-- Mark of the Spelunker Supreme
 		})),
 		-- INFO: Verified 2025-01-12, shows no criteria without achraw
 		achraw(40911, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 }, }, {	-- The War Within Season 2: Master Blaster
-			crit(70046), -- Attained 1600+ Rated PVP rating
-			crit(70053), -- Attained 2000+ Mythic Plus rating
-			crit(70052), -- Defeated Gallywix on Heroic or Mythic difficulty
+			crit(70046),	-- Attained 1600+ Rated PVP rating
+			crit(70053),	-- Attained 2000+ Mythic Plus rating
+			crit(70052),	-- Defeated Gallywix on Heroic or Mythic difficulty
 			i(236877),	-- Crystallized Essence of Kaja'mite
 		})),
 		ach(40723, {	-- Web-Wrapped in the Finest Silks (automated)
@@ -428,10 +428,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
 				41189,	-- Azj the World Turns
-                41188,  -- Crystal Chronicled
-                41133,  -- Isle Remember You
-                41187,  -- Rage Aside the Machine
-                41186,  -- Slate of the Union
+                41188,	-- Crystal Chronicled
+                41133,	-- Isle Remember You
+                41187,	-- Rage Aside the Machine
+                41186,	-- Slate of the Union
 			}},
 			["groups"] = {
 				i(223313),	-- Shadow of Doubt (MOUNT!)

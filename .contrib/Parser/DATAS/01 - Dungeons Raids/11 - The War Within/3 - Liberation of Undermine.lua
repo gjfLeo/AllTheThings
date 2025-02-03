@@ -353,7 +353,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				}),
 				BossOnly(STIX, {
 					ach(41596, {	-- Garbage In, Garbage Out
-						title(613),	 -- Junkmaestro <Name>
+						title(613),	-- Junkmaestro <Name>
 					}),
 				}),
 				BossOnly(LOCKENSTOCK, {

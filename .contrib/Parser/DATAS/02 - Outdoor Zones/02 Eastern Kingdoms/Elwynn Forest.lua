@@ -3556,7 +3556,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						478,	-- Riverpaw Outrunner
 						97,		-- Riverpaw Runt
 						-- #ELSE
-						13159,  -- James Clark
+						13159,	-- James Clark
 						-- #ENDIF
 					},
 					--[[["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023

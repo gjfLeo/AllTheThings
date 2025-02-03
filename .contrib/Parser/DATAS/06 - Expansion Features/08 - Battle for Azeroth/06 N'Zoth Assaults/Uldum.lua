@@ -1017,7 +1017,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						}),
 						n(162141, {	-- Zuythiz
 							["questID"] = 58695,
-							["coord"] = { 41.1, 41.8, NZOTH_ASSAULT_ULDUM }, -- probably circles around Orsis
+							["coord"] = { 41.1, 41.8, NZOTH_ASSAULT_ULDUM },	-- probably circles around Orsis
 						}),
 					})),
 					n(TREASURES, sharedData({

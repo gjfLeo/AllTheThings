@@ -166,7 +166,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["coord"] = { 73.9, 49.0, LEGION_DALARAN },
 						}),
 						q(42005, {	-- The End of the Saga
-							["sourceQuests"] = { 42002 }, -- To Northrend
+							["sourceQuests"] = { 42002 },	-- To Northrend
 							["provider"] = { "n", 105724 },	-- Orik Trueheart
 							["coord"] = { 56.8, 78.7, HOWLING_FJORD },
 						}),
@@ -645,7 +645,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(45645, {	-- A Fool's Errand
 						["sourceQuests"] = { 45644 },	-- Oh Doloria, My Sweet Doloria
 						["provider"] = { "n", 117438 },	-- Doloria
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 48.2, 41.0, LEGION_DALARAN },
 						["g"] = {
@@ -655,7 +655,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(45566, {	-- A Knight's Belongings
 						["sourceQuests"] = { 45562 },	-- Kneel and Be Squired!
 						["provider"] = { "n", 117226 },	-- Maximillian of Northshire
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
 					}),
@@ -665,7 +665,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(45565, {	-- Further Training
 						["sourceQuests"] = { 45562 },	-- Kneel and Be Squired!
 						["provider"] = { "n", 117226 },	-- Maximillian of Northshire
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
 					}),
@@ -676,7 +676,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(45562, {	-- Kneel and Be Squired!
 						["sourceQuests"] = { 45561 },	-- Seek Me Out
 						["provider"] = { "n", 117226 },	-- Maximillian of Northshire
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
 					}),
@@ -688,7 +688,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(45567, {	-- My Kingdom for a Horse
 						["sourceQuests"] = { 45562 },	-- Kneel and Be Squired!
 						["provider"] = { "n", 117226 },	-- Maximillian of Northshire
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
 					}),
@@ -700,7 +700,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							45568,	-- They Stole Excaliberto!
 						},
 						["provider"] = { "n", 118009 },	-- Maximillian of Northshire
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
 					}),
@@ -711,7 +711,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							46045,	-- Champion: Nerus Moonfang
 						},
 						["provider"] = { "i", 143900 },	-- Letter from Maximillian
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 					}),
 					q(45770, {	-- Stirring in the Shadows
@@ -730,7 +730,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					q(45568, {	-- They Stole Excaliberto!
 						["sourceQuests"] = { 45562 },	-- Kneel and Be Squired
 						["provider"] = { "n", 117226 },	-- Maximillian of Northshire
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
 					}),
@@ -738,7 +738,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuests"] = { 45645 },	-- A Fool's Errand
 						["provider"] = { "n", 118088 },	-- Maximillian of Northshire <Knight-Errant>
 						["maps"] = { LEGION_DALARAN },
-						["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["g"] = {
 							follower(1001),	-- Maximillian of Northshire

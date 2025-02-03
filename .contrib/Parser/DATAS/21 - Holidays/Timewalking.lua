@@ -2169,7 +2169,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 							i(50818),	-- Invincible (MOUNT!)
 							i(45693),	-- Mimiron's Head (MOUNT!)
 							i(224547, {	-- Timewarped Pouch
-								["timeline"] = { ADDED_10_2_7 }, -- Dropping in place of a pet
+								["timeline"] = { ADDED_10_2_7 },	-- Dropping in place of a pet
 							}),
 
 							-- Anub'Arak

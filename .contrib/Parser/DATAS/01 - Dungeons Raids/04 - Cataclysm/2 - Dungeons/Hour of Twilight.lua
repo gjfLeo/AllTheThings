@@ -79,12 +79,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 				e(322, {	-- Arcurion
 					["crs"] = { 54590 },	-- Arcurion
 					["groups"] = {
-						i(72853), -- Arcurion Legguards
-						i(72851), -- Chillbane Belt
-						i(76150), -- Evergreen Wristbands
-						i(72854), -- Iceward Cloak
-						i(72850), -- Surestride Boots
-						i(72849), -- Wayfinder Boots
+						i(72853),	-- Arcurion Legguards
+						i(72851),	-- Chillbane Belt
+						i(76150),	-- Evergreen Wristbands
+						i(72854),	-- Iceward Cloak
+						i(72850),	-- Surestride Boots
+						i(72849),	-- Wayfinder Boots
 					},
 				}),
 				e(342, {	-- Asira Dawnslayer
@@ -93,12 +93,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(157616, {	-- Chestguard of Futility
 							["timeline"] = { ADDED_7_3_5 },
 						}),
-						i(76151), -- Cloak of Subtle Light
-						i(72855), -- Corrupted Carapace
-						i(72859), -- Dawnslayer Helm
-						i(72857), -- Leggings of Blinding Speed
-						i(72860), -- Mandible of the Old Ones
-						i(72856), -- Pauldrons of Midnight Whispers
+						i(76151),	-- Cloak of Subtle Light
+						i(72855),	-- Corrupted Carapace
+						i(72859),	-- Dawnslayer Helm
+						i(72857),	-- Leggings of Blinding Speed
+						i(72860),	-- Mandible of the Old Ones
+						i(72856),	-- Pauldrons of Midnight Whispers
 					},
 				}),
 				e(341, {	-- Archbishop Benedictus
@@ -109,18 +109,18 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						}),
 						ach(6119),	-- Heroic: Hour of Twilight
 						ach(6122),	-- Heroic: Hour of Twilight Guild Run
-						i(72870), -- Betrayer's Pauldrons
-						i(72867), -- Clattering Claw
-						i(72868), -- Desecrated Shoulderguards
-						i(72869), -- Dragonsmaw Blaster
-						i(72862), -- Fanged Tentacle
-						i(72865), -- Mantle of False Virtue
-						i(72861), -- Pauldrons of the Dragonblight
-						i(72864), -- Pauldrons of Conviction
-						i(72901), -- Rosary of Light
-						i(72863), -- Stalk of Corruption
-						i(72866), -- Treachery's Bite
-						i(72900), -- Veil of Lies
+						i(72870),	-- Betrayer's Pauldrons
+						i(72867),	-- Clattering Claw
+						i(72868),	-- Desecrated Shoulderguards
+						i(72869),	-- Dragonsmaw Blaster
+						i(72862),	-- Fanged Tentacle
+						i(72865),	-- Mantle of False Virtue
+						i(72861),	-- Pauldrons of the Dragonblight
+						i(72864),	-- Pauldrons of Conviction
+						i(72901),	-- Rosary of Light
+						i(72863),	-- Stalk of Corruption
+						i(72866),	-- Treachery's Bite
+						i(72900),	-- Veil of Lies
 					},
 				}),
 			}),

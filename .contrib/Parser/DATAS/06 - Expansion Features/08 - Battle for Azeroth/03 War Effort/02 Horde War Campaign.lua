@@ -1569,21 +1569,21 @@ root(ROOTS.ExpansionFeatures,
 						q(54754, {	-- For the Queen
 							["sourceQuests"] = { 54106 },	-- Tracking Tipoff
 							["description"] = "Your options are remaining loyal to Sylvanas or betraying her to help Saurfang.  |cfffd1818You can only get the \"Worn Cloak\" toy if you betray Sylvanas.|r\n\nTo help Sylvanas, choose \"I won't betray my Warchief, Troll.\" when you speak to Zekhan.\n\nTo help Saurfang, pick up the quest \"Grim Tidings\".\n",
-							["altQuests"] = { 54107 },  -- Grim Tidings
+							["altQuests"] = { 54107 },	-- Grim Tidings
 							["coord"] = { 81.4, 52.4, REDRIDGE_MOUNTAINS },
 							["races"] = HORDE_ONLY,
 						}),
 						q(54107, {	-- Grim Tidings
 							["sourceQuests"] = { 54106 },	-- Tracking Tipoff
 							["description"] = "Your options are remaining loyal to Sylvanas or betraying her to help Saurfang.  |cfffd1818You can only get the \"Worn Cloak\" toy if you betray Sylvanas.|r\n\nTo help Sylvanas, choose \"I won't betray my Warchief, Troll.\" when you speak to Zekhan.\n\nTo help Saurfang, pick up the quest \"Grim Tidings\".\n",
-							["altQuests"] = { 54754 },  -- For the Queen
+							["altQuests"] = { 54754 },	-- For the Queen
 							["provider"] = { "n", 146012 },	-- Zekhan
 							["coord"] = { 81.4, 52.4, REDRIDGE_MOUNTAINS },
 							["races"] = HORDE_ONLY,
 						}),
 						q(54108, {	-- A Warrior's Death
 							["sourceQuests"] = { 54107 },	-- Grim Tidings
-							["altQuests"] = { 54754 },  -- For the Queen
+							["altQuests"] = { 54754 },	-- For the Queen
 							["provider"] = { "n", 147297 },	-- Zekhan
 							["coord"] = { 79.7, 74.7, SWAMP_OF_SORROWS },
 							["races"] = HORDE_ONLY,
@@ -1593,7 +1593,7 @@ root(ROOTS.ExpansionFeatures,
 						}),
 						q(54109, {	-- Queen's Favor
 							["sourceQuests"] = { 54108 },	-- A Warrior's Death
-							["altQuests"] = { 54754 },  -- For the Queen
+							["altQuests"] = { 54754 },	-- For the Queen
 							["provider"] = { "n", 146011 },	-- Varok Saurfang
 							["coord"] = { 80.8, 78.7, SWAMP_OF_SORROWS },
 							["races"] = HORDE_ONLY,

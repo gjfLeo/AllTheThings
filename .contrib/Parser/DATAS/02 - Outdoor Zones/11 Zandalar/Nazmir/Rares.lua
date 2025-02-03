@@ -213,7 +213,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["achievementID"] = 12942,	-- Adventurer of Nazmir
 					}),
 					i(163703, {	-- Crawag Gnawed Femur
-						["crs"] = { 128930 },  -- Rohnkor
+						["crs"] = { 128930 },	-- Rohnkor
 					}),
 				},
 			}),

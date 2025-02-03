@@ -149,13 +149,13 @@ root(ROOTS.ExpansionFeatures, {
 				["races"] = HORDE_ONLY,
 				["sourceQuests"] = { 54439 },    -- Crucible of Storms: Relics of Shadow
 				["provider"] = { "o", 316443 },    -- Xal'atath, Blade of the Black Empire
-				["coord"] = { 27.0, 54.0, 1346 }, -- Tendril of Corruption
+				["coord"] = { 27.0, 54.0, 1346 },	-- Tendril of Corruption
 			}),
 			q(54682, {    -- The Missing Blade
 				["races"] = ALLIANCE_ONLY,
 				["sourceQuests"] = { 54438 },    -- Crucible of Storms: Relics of Shadow
 				["provider"] = { "o", 316443 },    -- Xal'atath, Blade of the Black Empire
-				["coord"] = { 27.0, 54.0, 1346 }, -- Tendril of Corruption
+				["coord"] = { 27.0, 54.0, 1346 },	-- Tendril of Corruption
 			}),
 			q(53761, {	-- The Pirate's Treasure
 				["sourceQuests"] = {

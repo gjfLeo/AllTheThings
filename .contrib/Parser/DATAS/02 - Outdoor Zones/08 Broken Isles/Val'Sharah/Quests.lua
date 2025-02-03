@@ -697,21 +697,21 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["lvl"] = 110,
 				}),
 				q(46082, {	-- Shadowsong's Return
-					["sourceQuests"] = { 46079 }, -- Aid on the Front Lines
+					["sourceQuests"] = { 46079 },	-- Aid on the Front Lines
 					["_drop"] = { "classes" },	-- bad API data
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["provider"] = { "n", 118752 },	-- Mayor Heathrow
 					["lvl"] = 110,
 				}),
 				q(46106, {	-- Cutting off the Heads
-					["sourceQuests"] = { 46082 }, -- Shadowsong's Return
+					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
 					["provider"] = { "n", 118947 },	-- Commander Jarod Shadowsong
 					["_drop"] = { "classes" },	-- bad API data
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes
 					["lvl"] = 110,
 				}),
 				q(46080, {	-- Quieting the Spirits
-					["sourceQuests"] = { 46082 }, -- Shadowsong's Return
+					["sourceQuests"] = { 46082 },	-- Shadowsong's Return
 					["provider"] = { "n", 118954 },	-- Commander Jarod Shadowsong
 					["_drop"] = { "classes" },	-- bad API data
 					["classes"] = { DRUID, MONK, PRIEST, PALADIN, SHAMAN },	-- Legion healing classes

@@ -51,8 +51,8 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				}),
 				cl(DRUID, {
 					i(171988, {	-- Adventurer's Footlocker
-						i(170617), -- Springrain Spear
-						i(170611), -- Springrain Stave
+						i(170617),	-- Springrain Spear
+						i(170611),	-- Springrain Stave
 					}),
 					cl(DRUID, BALANCE, {
 						i(170611),	-- Springrain Stave
@@ -376,7 +376,7 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				}),
 				cl(WARRIOR, {
 					i(171988, {	-- Adventurer's Footlocker
-						i(170745),  -- Oathsworn Axe
+						i(170745),	-- Oathsworn Axe
 						i(170743),	-- Oathsworn Greataxe
 						i(170744),	-- Oathsworn Headchopper
 						i(170746),	-- Oathsworn Bulwark

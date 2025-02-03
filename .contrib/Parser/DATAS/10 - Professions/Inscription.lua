@@ -4981,7 +4981,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 					49694,	-- Turn to Drust [A]
 					49944,	-- Turn to Drust [H]
 				},
-				["provider"] = { "o", 279647 }, -- Tome of Sacrifice
+				["provider"] = { "o", 279647 },	-- Tome of Sacrifice
 				["coord"] = { 20.6, 44, DRUSTVAR },
 				["groups"] = {
 					r(259665),	-- Blood Contract: Sacrifice
@@ -4993,7 +4993,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 				["sourceQuests"] = { 49873 },	-- Sacrificial Writes
 				["provider"] = { "n", 131657 },	-- Bloodshed Compendium
 				["coord"] = { 20.7, 44, DRUSTVAR },
-				["maps"] = { 1407 }, -- Prison of Ink (Scenario Map)
+				["maps"] = { 1407 },	-- Prison of Ink (Scenario Map)
 				["groups"] = {
 					r(292012),	-- Blood Contract: Bloodshed
 					i(156509),	-- Sanguine Ink (QI!)
@@ -5020,7 +5020,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 				},
 				["provider"] = { "n", 150318 },	-- Veriss
 				["coord"] = { 27.6, 52.3, VOLDUN },
-				["maps"] = { 1038, 1043 }, -- Temple of Sethraliss
+				["maps"] = { 1038, 1043 },	-- Temple of Sethraliss
 				["timeline"] = { ADDED_8_1_5 },
 				["g"] = {
 					i(156512),	-- Tome of Oblivion (QI!)
@@ -5028,7 +5028,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 			}),
 			q(49879, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Brush With Death
 				["sourceQuests"] = { 49877 },	-- Temple of Sethraliss: Booking on a Favor
-				["provider"] = { "o", 279645 }, -- Tome of Oblivion
+				["provider"] = { "o", 279645 },	-- Tome of Oblivion
 				["coord"] = { 27.6, 52.3, VOLDUN },
 				["groups"] = {
 					r(292322),	-- Blood Contract: Oblivion
@@ -5036,7 +5036,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 			})),
 			q(49878, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	--Penning In Protection
 				["sourceQuests"] = { 49877 },	-- Temple of Sethraliss: Booking on a Favor
-				["provider"] = { "o", 279646 }, -- Bloodguard Chronicles
+				["provider"] = { "o", 279646 },	-- Bloodguard Chronicles
 				["coord"] = { 27.6, 52.2, VOLDUN },
 				["groups"] = {
 					r(292320),	-- Blood Contract: Bloodguard

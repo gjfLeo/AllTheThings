@@ -270,7 +270,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					ach(7249),	-- Unga Ingoo
 				}),
 				n(TREASURES, {
-					o(212278), -- Protected Unga Keg
+					o(212278),	-- Protected Unga Keg
 				}),
 			}),
 			n(SCENARIO_COMPLETION, {

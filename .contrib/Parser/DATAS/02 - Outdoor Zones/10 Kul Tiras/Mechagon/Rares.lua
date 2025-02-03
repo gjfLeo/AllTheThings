@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["g"] = {
 							i(167846),	-- Blueprint: Mechano-Treat
 							i(169691),    -- Vinyl: Depths of Ulduar
-							i(170466),  -- Junkyard Motivator
+							i(170466),	-- Junkyard Motivator
 						},
 					}),
 					n(152113, {	-- The Kleptoboss
@@ -154,9 +154,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					i(169674),	-- Green Paint Filled Bladder
 					i(167792),	-- Paint Vial: Fel Mint Green
 					i(169169),	-- Blueprint: Blue Spraybot
-					i(169168),  -- Blueprint: Green Spraybot
+					i(169168),	-- Blueprint: Green Spraybot
 					i(169167),	-- Blueprint: Orange Spraybot
-					i(167793),  -- Paint Vial: Overload Orange
+					i(167793),	-- Paint Vial: Overload Orange
 				},
 			}),
 			n(151569, {	-- Deepwater Maw
@@ -207,7 +207,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				["crs"] = { 135497 },	-- Mushroom that spawns the rare
 				["g"] = {
 					i(169379),	-- Snowsoft Nibbler
-					i(167793),  -- Paint Vial: Overload Orange
+					i(167793),	-- Paint Vial: Overload Orange
 				},
 			}),
 			n(153228, {	-- Gear Checker Cogstar -- possibly 154184?

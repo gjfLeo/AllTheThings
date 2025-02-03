@@ -316,12 +316,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(53773, {	-- Naga Attack!
 				["g"] = {
-					i(165605),  -- Azsharan Medallion
+					i(165605),	-- Azsharan Medallion
 				},
 			}),
 			q(53945, {	-- Naga Attack!
 				["g"] = {
-					i(165605),  -- Azsharan Medallion
+					i(165605),	-- Azsharan Medallion
 				},
 			}),
 			q(54468, {	-- Nalaess Featherseeker (Faction Assault WQ)

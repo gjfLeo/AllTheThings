@@ -2194,7 +2194,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 35.6, 19.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 						["sym"] = {
-							{"sub", "common_recipes_vendor", 28701}, -- Timothy Jones <Jewelcrafting Trainer>
+							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
 					}),
 					-- #endif
@@ -2228,7 +2228,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 58.6, 75.2, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["sym"] = {
-							{"sub", "common_recipes_vendor", 28701}, -- Timothy Jones <Jewelcrafting Trainer>
+							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
 					}),
 					-- #endif
@@ -2270,7 +2270,7 @@ root(ROOTS.Zones, {
 					n(52278, {	-- Linsa <Tabard Vendor>
 						["coord"] = { 58.8, 46.4, SHATTRATH_CITY },
 						["sym"] = {
-							{"sub", "common_vendor", 28776}, -- Elizabeth Ross <Tabard Vendor>
+							{"sub", "common_vendor", 28776},	-- Elizabeth Ross <Tabard Vendor>
 						},
 					}),
 					-- #endif
@@ -2420,7 +2420,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 36.2, 47.0, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 						["sym"] = {
-							{"sub", "common_recipes_vendor", 28701}, -- Timothy Jones <Jewelcrafting Trainer>
+							{"sub", "common_recipes_vendor", 28701},	-- Timothy Jones <Jewelcrafting Trainer>
 						},
 					}),
 					-- #endif

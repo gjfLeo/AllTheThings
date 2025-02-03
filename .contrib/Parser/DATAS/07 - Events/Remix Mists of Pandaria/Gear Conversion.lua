@@ -89,8 +89,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 			}),
 			cl(DRUID, {
 				i(218130, {	-- Adventurer's Footlocker
-					i(170617), -- Springrain Spear
-					i(170611), -- Springrain Stave
+					i(170617),	-- Springrain Spear
+					i(170611),	-- Springrain Stave
 				}),
 				cl(DRUID, BALANCE, {
 					i(153760),	-- Springrain Stave

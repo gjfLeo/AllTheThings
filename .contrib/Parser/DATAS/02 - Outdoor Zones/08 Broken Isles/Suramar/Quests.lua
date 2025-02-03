@@ -7,7 +7,7 @@ root(ROOTS.Zones, {
 		m(SURAMAR, {
 			n(QUESTS, {
 				q(41916, {	-- A Better Future
-					["coord"] = { 40.5, 53.0, SURAMAR }, -- horde coordinate. Possibly different for alliance?
+					["coord"] = { 40.5, 53.0, SURAMAR },	-- horde coordinate. Possibly different for alliance?
 					["provider"] = { "n", 114908 },	-- First Arcanist Thalyssra
 					["sourceQuest"] = 40632,	-- Take Me To Your Leader
 				}),

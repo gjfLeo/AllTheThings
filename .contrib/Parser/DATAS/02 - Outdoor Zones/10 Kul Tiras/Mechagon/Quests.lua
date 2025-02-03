@@ -425,7 +425,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 				},
 			}),
 			q(55103, {	-- Ideas Can Come from Anywhere
-				["provider"] = { "n", 152295 }, -- Pascal
+				["provider"] = { "n", 152295 },	-- Pascal
 				["coord"] = { 71.2, 32.3, MECHAGON },
 				["minReputation"] = { FACTION_RUSTBOLT_RESISTANCE, REVERED },
 				["g"] = {

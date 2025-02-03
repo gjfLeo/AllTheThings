@@ -89,7 +89,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["coord"] = { 32.7, 73.0, SIREN_ISLE },
 					["questID"] = 85405,
 					["g"] = {
-						i(232569), -- Cyclonic Runekey
+						i(232569),	-- Cyclonic Runekey
 					},
 				}),
 				-- The Forgotten Vault
@@ -197,9 +197,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 			}),
 			n(RARES, {
 				-- Need more data / confirmation, current data is mess
-				-- after kill Bloodbrine (228154) - 84795 (on re-kill), 84871 (one of it is i(229172), -- Earthen Deckhand's Halberd drop?)
-				-- after kill Gravesludge (228201) - 84872 (i(229178), -- Earthen Scallywag's Gavel drop?, 85669 (speculated - gem looted and unlocked on vendor), 85937 (on re-kill)
-				-- after kill Nerathor (229982) - 84841 (i(229023), -- Earthen Deckhand's Breeches drop?), 85672 (citrine?), 85938 (on re-kill)
+				-- after kill Bloodbrine (228154) - 84795 (on re-kill), 84871 (one of it is i(229172),	-- Earthen Deckhand's Halberd drop?)
+				-- after kill Gravesludge (228201) - 84872 (i(229178),	-- Earthen Scallywag's Gavel drop?, 85669 (speculated - gem looted and unlocked on vendor), 85937 (on re-kill)
+				-- after kill Nerathor (229982) - 84841 (i(229023),	-- Earthen Deckhand's Breeches drop?), 85672 (citrine?), 85938 (on re-kill)
 			}),
 		}),
 	}),

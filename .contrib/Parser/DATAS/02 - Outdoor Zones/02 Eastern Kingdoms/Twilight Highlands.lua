@@ -212,85 +212,85 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					pet(550, {	-- Highlands Mouse (PET!)
 						["description"] = "Most common as secondary pet in Twilight Highlands. The given coordinates only indicates the wider areas where they can be found as primary pets.",
 						["coords"] = {
-							{ 45.6, 41.3, TWILIGHT_HIGHLANDS }, -- Southwestern Ruins of Thundermar
-							{ 50.6, 32.2, TWILIGHT_HIGHLANDS }, -- Northeastern Ruins of Thundermar
-							{ 38.5, 30.1, TWILIGHT_HIGHLANDS }, -- Glopgut's Hollow
-							{ 19.65, 17.45, TWILIGHT_HIGHLANDS }, -- Northwestern Vermillion Redoubt
-							{ 44.6, 26.0, STORMHEIM }, -- Nastrondir
+							{ 45.6, 41.3, TWILIGHT_HIGHLANDS },	-- Southwestern Ruins of Thundermar
+							{ 50.6, 32.2, TWILIGHT_HIGHLANDS },	-- Northeastern Ruins of Thundermar
+							{ 38.5, 30.1, TWILIGHT_HIGHLANDS },	-- Glopgut's Hollow
+							{ 19.65, 17.45, TWILIGHT_HIGHLANDS },	-- Northwestern Vermillion Redoubt
+							{ 44.6, 26.0, STORMHEIM },	-- Nastrondir
 						},
 					}),
 					pet(823, {	-- Highlands Skunk (PET!)
 						["description"] = "Commonly found in the forests of Twilight Highlands.",
 						["coords"] = {
-							{ 45.6, 41.3, TWILIGHT_HIGHLANDS }, -- Southwestern Ruins of Thundermar
-							{ 50.6, 32.2, TWILIGHT_HIGHLANDS }, -- Northeastern Ruins of Thundermar
-							{ 46.5, 25.1, TWILIGHT_HIGHLANDS }, -- North of Thundermaw
-							{ 65.5, 58.0, TWILIGHT_HIGHLANDS }, -- East of Firebeards Patrol
-							{ 71.6, 66.65, TWILIGHT_HIGHLANDS }, -- West of Beach Head
-							{ 56.6, 71.0, TWILIGHT_HIGHLANDS }, -- East of Dunwald Ruins
+							{ 45.6, 41.3, TWILIGHT_HIGHLANDS },	-- Southwestern Ruins of Thundermar
+							{ 50.6, 32.2, TWILIGHT_HIGHLANDS },	-- Northeastern Ruins of Thundermar
+							{ 46.5, 25.1, TWILIGHT_HIGHLANDS },	-- North of Thundermaw
+							{ 65.5, 58.0, TWILIGHT_HIGHLANDS },	-- East of Firebeards Patrol
+							{ 71.6, 66.65, TWILIGHT_HIGHLANDS },	-- West of Beach Head
+							{ 56.6, 71.0, TWILIGHT_HIGHLANDS },	-- East of Dunwald Ruins
 						},
 					}),
 					pet(645, {	-- Highlands Turkey (PET!)
 						["description"] = "Commonly found around Vermillion Redoubt in Twilight Highlands.",
 						["coords"] = {
-							{ 46.5, 25.1, TWILIGHT_HIGHLANDS }, -- North of Thundermaw
-							{ 29.8, 25.13, TWILIGHT_HIGHLANDS }, -- Vermillion Redoubt
-							{ 68.25, 40.0, STORMHEIM }, -- Northern Field of Fallen Kings
-							{ 60.78, 54.4, STORMHEIM }, -- South of Valdisdall
+							{ 46.5, 25.1, TWILIGHT_HIGHLANDS },	-- North of Thundermaw
+							{ 29.8, 25.13, TWILIGHT_HIGHLANDS },	-- Vermillion Redoubt
+							{ 68.25, 40.0, STORMHEIM },	-- Northern Field of Fallen Kings
+							{ 60.78, 54.4, STORMHEIM },	-- South of Valdisdall
 						},
 					}),
 					pet(431, {	-- Rattlesnake (PET!)
 						["description"] = "Most commonly found thorough the Verall River valley in Twilight Highlands. Can also be found scattered around north of the river valley, as well as around Badlands and Tanaris.",
 						["coords"] = {
-							{ 48.9, 36.55, TANARIS }, -- South of Gadgetzan
-							{ 65.75, 41.0, TWILIGHT_HIGHLANDS }, -- Verall Delta
-							{ 57.0, 38.7, TWILIGHT_HIGHLANDS }, -- Lower Verall River
-							{ 42.85, 53.3, TWILIGHT_HIGHLANDS }, -- Upper Verall River
+							{ 48.9, 36.55, TANARIS },	-- South of Gadgetzan
+							{ 65.75, 41.0, TWILIGHT_HIGHLANDS },	-- Verall Delta
+							{ 57.0, 38.7, TWILIGHT_HIGHLANDS },	-- Lower Verall River
+							{ 42.85, 53.3, TWILIGHT_HIGHLANDS },	-- Upper Verall River
 						},
 					}),
 					pet(552, {	-- Twilight Fiendling (PET!)
 						["description"] = "Found within the breaches caused by Twilight cultists.",
 						["coords"] = {
-							{ 59.6, 51.0, TWILIGHT_HIGHLANDS }, -- The Devouring Breach
-							{ 40.2, 47.6, TWILIGHT_HIGHLANDS }, -- The Twilight Breach
-							{ 58.2, 29.8, TWILIGHT_HIGHLANDS }, -- The Black Breach
+							{ 59.6, 51.0, TWILIGHT_HIGHLANDS },	-- The Devouring Breach
+							{ 40.2, 47.6, TWILIGHT_HIGHLANDS },	-- The Twilight Breach
+							{ 58.2, 29.8, TWILIGHT_HIGHLANDS },	-- The Black Breach
 						},
 					}),
 					pet(470, {	-- Twilight Spider (PET!)
 						["description"] = "Commonly found in areas defiled by Twilight cultists or their allies in Twilight Highlands and Deepholm.",
 						["coords"] = {
-							{ 68.5, 16.0, AZSHARA }, -- Sable Ridge
-							{ 40.1, 71.0, DEEPHOLM }, -- Master's Gate
-							{ 60.3, 44.9, DEEPHOLM }, -- Lorthuna's Gate
-							{ 63.0, 33.1, DEEPHOLM }, -- Twilight's Precipice
-							{ 59.6, 51.0, TWILIGHT_HIGHLANDS }, -- The Devouring Breach
-							{ 40.2, 47.6, TWILIGHT_HIGHLANDS }, -- The Twilight Breach
-							{ 58.2, 29.8, TWILIGHT_HIGHLANDS }, -- The Black Breach
-							{ 63.9, 77.0, TWILIGHT_HIGHLANDS }, -- Obsidian Forest
-							{ 36.6, 74.0, TWILIGHT_HIGHLANDS }, -- The Twilight Citadel
+							{ 68.5, 16.0, AZSHARA },	-- Sable Ridge
+							{ 40.1, 71.0, DEEPHOLM },	-- Master's Gate
+							{ 60.3, 44.9, DEEPHOLM },	-- Lorthuna's Gate
+							{ 63.0, 33.1, DEEPHOLM },	-- Twilight's Precipice
+							{ 59.6, 51.0, TWILIGHT_HIGHLANDS },	-- The Devouring Breach
+							{ 40.2, 47.6, TWILIGHT_HIGHLANDS },	-- The Twilight Breach
+							{ 58.2, 29.8, TWILIGHT_HIGHLANDS },	-- The Black Breach
+							{ 63.9, 77.0, TWILIGHT_HIGHLANDS },	-- Obsidian Forest
+							{ 36.6, 74.0, TWILIGHT_HIGHLANDS },	-- The Twilight Citadel
 						},
 					}),
 					pet(2677, {	-- Twilight Whelpling (PET!)
 						["description"] = "Found outside Grim Batol, phasing might require questing through Twilight Highlands. Only spawns as Uncommon pets, if you want a Rare quality pet you have to upgrade with a battlestone.",
-						["coord"] = { 19.5, 58.6, TWILIGHT_HIGHLANDS }, -- Outside Grim Batol
+						["coord"] = { 19.5, 58.6, TWILIGHT_HIGHLANDS },	-- Outside Grim Batol
 						["timeline"] = { ADDED_8_2_0 },
 					}),
 					pet(548, {	-- Wildhammer Gryphon Hatchling (PET!)
 						["description"] = "Found in the Alliance villages Kirthaven and Thundermar. Horde players CANNOT interact with the hatchlings to intitiate pet battle due to faction alignment, any attempts will only attack them. If you absolutely want to get this pet with a Horde character, they can appear as secondary pets near the villages.",
 						["coords"] = {
-							{ 56.4, 15.8, TWILIGHT_HIGHLANDS }, -- Kirthaven
-							{ 48.4, 28.6, TWILIGHT_HIGHLANDS }, -- Thundermar
+							{ 56.4, 15.8, TWILIGHT_HIGHLANDS },	-- Kirthaven
+							{ 48.4, 28.6, TWILIGHT_HIGHLANDS },	-- Thundermar
 						},
 					}),
 					pet(549, {	-- Yellow-Bellied Marmot (PET!)
 						["description"] = "Very common pet in the forests of Twilight Highlands.",
 						["coords"] = {
-							{ 45.6, 41.3, TWILIGHT_HIGHLANDS }, -- Southwestern Ruins of Thundermar
-							{ 50.6, 32.2, TWILIGHT_HIGHLANDS }, -- Northeastern Ruins of Thundermar
-							{ 46.5, 25.1, TWILIGHT_HIGHLANDS }, -- North of Thundermaw
-							{ 65.5, 58.0, TWILIGHT_HIGHLANDS }, -- East of Firebeards Patrol
-							{ 71.6, 66.65, TWILIGHT_HIGHLANDS }, -- West of Beach Head
-							{ 56.6, 71.0, TWILIGHT_HIGHLANDS }, -- East of Dunwald Ruins
+							{ 45.6, 41.3, TWILIGHT_HIGHLANDS },	-- Southwestern Ruins of Thundermar
+							{ 50.6, 32.2, TWILIGHT_HIGHLANDS },	-- Northeastern Ruins of Thundermar
+							{ 46.5, 25.1, TWILIGHT_HIGHLANDS },	-- North of Thundermaw
+							{ 65.5, 58.0, TWILIGHT_HIGHLANDS },	-- East of Firebeards Patrol
+							{ 71.6, 66.65, TWILIGHT_HIGHLANDS },	-- West of Beach Head
+							{ 56.6, 71.0, TWILIGHT_HIGHLANDS },	-- East of Dunwald Ruins
 						},
 					}),
 				},
@@ -988,8 +988,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if AFTER 9.0.3
 					["sharedDescription"] = "Welcome to the buggy part of the questline!\n\nYou are supposed to become overwhelmed and die during the quest 'Devoured'. Then you spawn by Thrall in The Maelstrom for a bugged nightmare scenario. Get gaslighted during the whole quest event 'The Worldbreaker', and get stuck there after accepting 'The Terrors of Iso'rath'. Use your hearthstone to leave the place, and return to Twilight Highlands.",
 					["groups"] = {
-						n(47991),  -- Earthcaller Yevaa
-						n(45435),  -- Earthen Ring Gryphon
+						n(47991),	-- Earthcaller Yevaa
+						n(45435),	-- Earthen Ring Gryphon
 					},
 					-- #endif
 				}),
@@ -3278,7 +3278,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 76.8, 49.4, TWILIGHT_HIGHLANDS },
 					["races"] = HORDE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3346}, -- Kithas <Enchanting Supplies>
+						{"sub", "common_recipes_vendor", 3346},	-- Kithas <Enchanting Supplies>
 						{"select", "itemID", 67312},	-- Formula: Magic Lamp (RECIPE!)
 						{"exclude","itemID",6343},	-- Formula: Enchant Chest - Lesser Mana
 					},
@@ -3287,7 +3287,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 75.3, 50.0, TWILIGHT_HIGHLANDS },
 					["races"] = HORDE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3364}, -- Borya <Tailoring Supplies>
+						{"sub", "common_recipes_vendor", 3364},	-- Borya <Tailoring Supplies>
 					},
 				}),
 				n(49605, {	-- Brian Terrel <Bowyer>
@@ -3305,7 +3305,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 79.0, 76.6, TWILIGHT_HIGHLANDS },
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3356}, -- Sumi <Blacksmithing Supplies>
+						{"sub", "common_recipes_vendor", 3356},	-- Sumi <Blacksmithing Supplies>
 					},
 				}),
 				-- #if BEFORE 6.0.2
@@ -3400,28 +3400,28 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 77.2, 53.0, TWILIGHT_HIGHLANDS },
 					["races"] = HORDE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3356}, -- Sumi <Blacksmithing Supplies>
+						{"sub", "common_recipes_vendor", 3356},	-- Sumi <Blacksmithing Supplies>
 					},
 				}),
 				n(50381, {	-- Misty Merriweather <Hide & Leather Trader>
 					["coord"] = { 78.6, 76.2, TWILIGHT_HIGHLANDS },
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3366}, -- Tamar <Leatherworking Supplies>
+						{"sub", "common_recipes_vendor", 3366},	-- Tamar <Leatherworking Supplies>
 					},
 				}),
 				n(50386, {	-- Sal Ferraga <Cloth Trader>
 					["coord"] = { 78.6, 76.8, TWILIGHT_HIGHLANDS },
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3364}, -- Borya <Tailoring Supplies>
+						{"sub", "common_recipes_vendor", 3364},	-- Borya <Tailoring Supplies>
 					},
 				}),
 				n(50134, {	-- Senthii <Shard Trader>
 					["coord"] = { 78.6, 77.0, TWILIGHT_HIGHLANDS },
 					["races"] = ALLIANCE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3346}, -- Kithas <Enchanting Supplies>
+						{"sub", "common_recipes_vendor", 3346},	-- Kithas <Enchanting Supplies>
 						{"select", "itemID", 67312},	-- Formula: Magic Lamp (RECIPE!)
 						{"exclude","itemID",
 							6343,	-- Formula: Enchant Chest - Lesser Mana
@@ -3433,7 +3433,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 75.2, 50.0, TWILIGHT_HIGHLANDS },
 					["races"] = HORDE_ONLY,
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3366}, -- Tamar <Leatherworking Supplies>
+						{"sub", "common_recipes_vendor", 3366},	-- Tamar <Leatherworking Supplies>
 					},
 				}),
 				-- #if BEFORE 6.0.2

@@ -313,12 +313,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(53979, {	-- Naga Attack!
 				["g"] = {
-					i(165605),  -- Azsharan Medallion
+					i(165605),	-- Azsharan Medallion
 				},
 			}),
 			q(53963, {	-- Naga Attack!
 				["g"] = {
-					i(165605),  -- Azsharan Medallion
+					i(165605),	-- Azsharan Medallion
 				},
 			}),
 			q(51620, {	-- Natural Resources

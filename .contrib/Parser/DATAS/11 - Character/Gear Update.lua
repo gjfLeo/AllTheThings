@@ -107,8 +107,8 @@ root(ROOTS.Character, n(GEAR_UPDATE, bubbleDownSelf({ ["timeline"] = { ADDED_10_
 		}),
 		cl(DRUID, {
 			i(205877, {	-- Adventurer's Footlocker
-				i(170617), -- Springrain Spear
-				i(170611), -- Springrain Stave
+				i(170617),	-- Springrain Spear
+				i(170611),	-- Springrain Stave
 			}),
 			cl(DRUID, BALANCE, {
 				i(153760),	-- Springrain Stave

@@ -835,7 +835,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
 
 		-- 9.1.5
 		--q(64848), Enter Torghast as lvl 56 NF Druid
-		q(65308), -- Leveling in Torghast / Maw Jump to Torghast (spellID 359581)
+		q(65308),	-- Leveling in Torghast / Maw Jump to Torghast (spellID 359581)
 
 		-- 9.2
 		-- Jailers Gauntlet

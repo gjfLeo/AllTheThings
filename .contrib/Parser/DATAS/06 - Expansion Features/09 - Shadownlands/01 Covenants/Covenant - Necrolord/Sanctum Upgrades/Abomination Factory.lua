@@ -121,70 +121,70 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 								i(183599),	-- Tossable Head
 							}),
 							filter(RECIPES, {
-								r(327091), -- Abominable Backup
-								r(326903), -- Anima-bound Wraps
-								r(342849), -- Armor Plating
-								r(344796), -- Back Mushrooms
-								r(338057), -- Backbone
-								r(326762), -- Bag of Creepy Crawlies
-								r(338059), -- Bag of Twigin Treats
-								r(344110), -- Barrel O' Fish
-								r(338046, {["u"]=TRAINING}), -- Bindings of Wellbeing
-								r(338052, {["u"]=TRAINING}), -- Bonesewn Fleshroc
-								r(342846), -- Butterflies
-								r(344100), -- Chef Hat
-								r(342841), -- Collector Kash's Pack
-								r(325454, {["u"]=TRAINING}), -- Construct Body: "Atticus"
-								r(325284, {["u"]=TRAINING}), -- Construct Body: "Chordy"
-								r(325453, {["u"]=TRAINING}), -- Construct Body: "Flytrap"
-								r(326380, {["u"]=TRAINING}), -- Construct Body: "Gas Bag"
-								r(338039, {["u"]=TRAINING}), -- Construct Body: "Guillotine"
-								r(338037, {["u"]=TRAINING}), -- Construct Body: "Iron Phillip"
-								r(326408, {["u"]=TRAINING}), -- Construct Body: "Mama Tomalin"
-								r(325452, {["u"]=TRAINING}), -- Construct Body: "Marz"
-								r(325458, {["u"]=TRAINING}), -- Construct Body: "Miru"
-								r(338043, {["u"]=TRAINING}), -- Construct Body: "Naxx"
-								r(326379, {["u"]=TRAINING}), -- Construct Body: "Neena"
-								r(326406, {["u"]=TRAINING}), -- Construct Body: "Professor"
-								r(325451, {["u"]=TRAINING}), -- Construct Body: "Roseboil"
-								r(338040, {["u"]=TRAINING}), -- Construct Body: "Sabrina"
-								r(326407, {["u"]=TRAINING}), -- Construct Body: "Toothpick"
-								r(331404), -- Construct Disguise
-								r(342803), -- Construct's Best Friend
-								r(337535), -- Dapper Top Hat
-								r(344095), -- Dundae's Hat
-								r(344101), -- Egg Hat
-								r(342418), -- Engineering Pack
-								r(342843, {["u"]=TRAINING}), -- Faction Flag
-								r(342447), -- Flower Crown
-								r(342448), -- Halo of Purity
-								r(342468), -- Happiness Bird
-								r(342902), -- Hitchhiker
-								r(338383), -- Holiday Hat
-								r(331403), -- Lil' Eddie
-								r(344096), -- Lovely Candle Display
-								r(342851), -- Magician's Hat
-								r(338058), -- Mu'dud
-								r(342421), -- Operational Instructions
-								r(337540), -- Outlaw Flag
-								r(344769), -- Pirate Hat
-								r(342850), -- Plague Pack
-								r(342455), -- Red Eye Lens
-								r(327090), -- Restore Construct
-								r(342842), -- Safe Fall Pack
-								r(344798), -- Shoulder Sprouts
-								r(342483), -- Six-League Pack
-								r(344766), -- Skull Fungus
-								r(342454), -- Skull Protector
-								r(342899), -- Spare Weapon
-								r(342845), -- Sticky Cat
-								r(347024), -- Tighter Stitching
-								r(342782), -- Tossable Head
-								r(344097), -- Trained Corpselice
-								r(337554), -- Trustworthy Doll
-								r(344797), -- Underpowered Gravity Pack
-								r(344770), -- Unworthy Crown
-								r(342417), -- Vestigial Wings
+								r(327091),	-- Abominable Backup
+								r(326903),	-- Anima-bound Wraps
+								r(342849),	-- Armor Plating
+								r(344796),	-- Back Mushrooms
+								r(338057),	-- Backbone
+								r(326762),	-- Bag of Creepy Crawlies
+								r(338059),	-- Bag of Twigin Treats
+								r(344110),	-- Barrel O' Fish
+								r(338046, {["u"]=TRAINING}),	-- Bindings of Wellbeing
+								r(338052, {["u"]=TRAINING}),	-- Bonesewn Fleshroc
+								r(342846),	-- Butterflies
+								r(344100),	-- Chef Hat
+								r(342841),	-- Collector Kash's Pack
+								r(325454, {["u"]=TRAINING}),	-- Construct Body: "Atticus"
+								r(325284, {["u"]=TRAINING}),	-- Construct Body: "Chordy"
+								r(325453, {["u"]=TRAINING}),	-- Construct Body: "Flytrap"
+								r(326380, {["u"]=TRAINING}),	-- Construct Body: "Gas Bag"
+								r(338039, {["u"]=TRAINING}),	-- Construct Body: "Guillotine"
+								r(338037, {["u"]=TRAINING}),	-- Construct Body: "Iron Phillip"
+								r(326408, {["u"]=TRAINING}),	-- Construct Body: "Mama Tomalin"
+								r(325452, {["u"]=TRAINING}),	-- Construct Body: "Marz"
+								r(325458, {["u"]=TRAINING}),	-- Construct Body: "Miru"
+								r(338043, {["u"]=TRAINING}),	-- Construct Body: "Naxx"
+								r(326379, {["u"]=TRAINING}),	-- Construct Body: "Neena"
+								r(326406, {["u"]=TRAINING}),	-- Construct Body: "Professor"
+								r(325451, {["u"]=TRAINING}),	-- Construct Body: "Roseboil"
+								r(338040, {["u"]=TRAINING}),	-- Construct Body: "Sabrina"
+								r(326407, {["u"]=TRAINING}),	-- Construct Body: "Toothpick"
+								r(331404),	-- Construct Disguise
+								r(342803),	-- Construct's Best Friend
+								r(337535),	-- Dapper Top Hat
+								r(344095),	-- Dundae's Hat
+								r(344101),	-- Egg Hat
+								r(342418),	-- Engineering Pack
+								r(342843, {["u"]=TRAINING}),	-- Faction Flag
+								r(342447),	-- Flower Crown
+								r(342448),	-- Halo of Purity
+								r(342468),	-- Happiness Bird
+								r(342902),	-- Hitchhiker
+								r(338383),	-- Holiday Hat
+								r(331403),	-- Lil' Eddie
+								r(344096),	-- Lovely Candle Display
+								r(342851),	-- Magician's Hat
+								r(338058),	-- Mu'dud
+								r(342421),	-- Operational Instructions
+								r(337540),	-- Outlaw Flag
+								r(344769),	-- Pirate Hat
+								r(342850),	-- Plague Pack
+								r(342455),	-- Red Eye Lens
+								r(327090),	-- Restore Construct
+								r(342842),	-- Safe Fall Pack
+								r(344798),	-- Shoulder Sprouts
+								r(342483),	-- Six-League Pack
+								r(344766),	-- Skull Fungus
+								r(342454),	-- Skull Protector
+								r(342899),	-- Spare Weapon
+								r(342845),	-- Sticky Cat
+								r(347024),	-- Tighter Stitching
+								r(342782),	-- Tossable Head
+								r(344097),	-- Trained Corpselice
+								r(337554),	-- Trustworthy Doll
+								r(344797),	-- Underpowered Gravity Pack
+								r(344770),	-- Unworthy Crown
+								r(342417),	-- Vestigial Wings
 							}),
 						}),
 						n(ACHIEVEMENTS, {
@@ -655,7 +655,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										},
 										["_drop"] = { "g" },
 										["g"] = {
-											i(183743), -- Malleable Flesh (QI!)
+											i(183743),	-- Malleable Flesh (QI!)
 										},
 									}),
 									q(60195, {	-- Build One More

@@ -907,7 +907,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(46957, {	-- Welcome to Zuldazar
 				["provider"] = { "n", 132332 },	-- Princess Talanji
 				["coord"] = { 57.9, 62.4, ZULDAZAR },
-				["sourceQuest"] = 50769,  -- The Stormwind Extraction
+				["sourceQuest"] = 50769,	-- The Stormwind Extraction
 				["races"] = HORDE_ONLY,
 			}),
 			q(52131, {	-- We Need Each Other

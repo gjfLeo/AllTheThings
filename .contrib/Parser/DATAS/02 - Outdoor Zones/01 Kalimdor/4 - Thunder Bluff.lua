@@ -1017,7 +1017,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						928,	-- Long Staff
 						852,	-- Mace
 						924,	-- Maul
-						20981,  -- Neophyte's Mace
+						20981,	-- Neophyte's Mace
 						854,	-- Quarter Staff
 						2026,	-- Rock Hammer
 					}},

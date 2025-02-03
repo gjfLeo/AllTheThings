@@ -900,8 +900,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coord"] = { 60.0, 58.0, REVENDRETH },	-- rough coords where NPC will spawn for quest
 					["g"] = {
 						i(182586, {	-- A Venthyr Arm Holding a Cudgel
-							i(182588), -- A Bloody Hand
-							i(182587), -- Gorger Slobbered Cudgel
+							i(182588),	-- A Bloody Hand
+							i(182587),	-- Gorger Slobbered Cudgel
 						}),
 					}
 				}),

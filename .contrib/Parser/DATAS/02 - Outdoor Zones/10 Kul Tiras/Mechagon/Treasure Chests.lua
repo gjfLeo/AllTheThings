@@ -147,7 +147,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						{ 72.3, 65.5, MECHAGON },
 						{ 81.2, 72.3, MECHAGON },
 						{ 85.1, 63.5, MECHAGON },
-						{ 76.5, 65.9, MECHAGON }, -- Possibly bloat from another chest
+						{ 76.5, 65.9, MECHAGON },	-- Possibly bloat from another chest
 					},
 				}),
 				o(325668, {	-- Mechanized Chest

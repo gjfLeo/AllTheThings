@@ -54,38 +54,38 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(83741, {	-- Step 1: Interact with the Fleshy Grimoire
 					["name"] = "|cFFFFFFFFStep 1|r: Interact with the Fleshy Grimoire",
 					["description"] = "Enter the cave then walk around to the back where you will find a climbable wall marked by three tiny non-targetable spiders on the ledges. Climb up and near the top will be a small hole, fall through then interact with the book on your left.",
-					["provider"] = { "o", 455288 }, -- Fleshy Grimoire
+					["provider"] = { "o", 455288 },	-- Fleshy Grimoire
 					["coords"] = {
-						{ 56.7, 85.1, AZJ_KAHET }, -- Cave Entrance
-						{ 66.77, 56.26, NERUBAR_LOWER }, -- Void Hole
+						{ 56.7, 85.1, AZJ_KAHET },	-- Cave Entrance
+						{ 66.77, 56.26, NERUBAR_LOWER },	-- Void Hole
 					},
 				}),
 				q(83746, {	-- Step 2A: Find Another You in Mmarl
 					["name"] = "|cFFFFFFFFStep 2A|r: Find Another You in Mmarl",
 					["description"] = "One of your shades escaped to Mmarl, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 					["sourceQuests"] = { 83741 },
-					["provider"] = { "n", 227452 }, -- Another You
+					["provider"] = { "n", 227452 },	-- Another You
 					["coord"] = { 78.7, 62.1, AZJ_KAHET },
 				}),
 				q(83747, {	-- Step 2B: Find Another You in The Weaver's Lair
 					["name"] = "|cFFFFFFFFStep 2B|r: Find Another You in The Weaver's Lair",
 					["description"] = "One of your shades escaped to The Weaver's Lair, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 					["sourceQuests"] = { 83741 },
-					["provider"] = { "n", 227452 }, -- Another You
+					["provider"] = { "n", 227452 },	-- Another You
 					["coord"] = { 57.1, 44.2, AZJ_KAHET },
 				}),
 				q(83745, {	-- Step 2C: Fin Another You in Faerin's Advance
 					["name"] = "|cFFFFFFFFStep 2C|r: Find Another You in Faerin's Advance",
 					["description"] = "One of your shades escaped to The Faerin's Advance, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 					["sourceQuests"] = { 83741 },
-					["provider"] = { "n", 227452 }, -- Another You
+					["provider"] = { "n", 227452 },	-- Another You
 					["coord"] = { 58.7, 20.1, AZJ_KAHET },
 				}),
 				q(83744, {	-- Step 2D: Find Another You in Wildcamp Or'lay
 					["name"] = "|cFFFFFFFFStep 2D|r: Find Another You in Wildcamp Or'lay",
 					["description"] = "One of your shades escaped to Wildcamp Or'lay, use /target Another to find them then speak with them to send them back. The shades must be interacted with in order, but that order is random. If you cannot see them, try finding another shade first or approach from a different direction.",
 					["sourceQuests"] = { 83741 },
-					["provider"] = { "n", 227452 }, -- Another You
+					["provider"] = { "n", 227452 },	-- Another You
 					["coord"] = { 24.1, 52.6, AZJ_KAHET },
 				}),
 				q(83724, {	-- Step 3: Return to the Grimoire
@@ -97,10 +97,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						83745,	-- Step 2C
 						83744,	-- Step 2D
 					},
-					["provider"] = { "n", 227421 }, -- Another You
+					["provider"] = { "n", 227421 },	-- Another You
 					["coords"] = {
-						{ 56.7, 85.1, AZJ_KAHET }, -- Cave Entrance
-						{ 66.77, 56.26, NERUBAR_LOWER }, -- Void Hole
+						{ 56.7, 85.1, AZJ_KAHET },	-- Cave Entrance
+						{ 66.77, 56.26, NERUBAR_LOWER },	-- Void Hole
 					},
 					["g"] = {
 						ach(40632),		-- No Harm Ever Came From Reading A Book

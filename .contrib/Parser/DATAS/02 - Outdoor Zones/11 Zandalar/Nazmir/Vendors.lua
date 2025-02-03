@@ -68,13 +68,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 14000000,	-- 1,400g
 						}),
 						i(161538, {	-- Gloomplate Gauntlets
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 8/12/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 8/12/18)
 						}),
 						i(165248, {	-- Gloomplate Girdle
 							["cost"] = 14000000,	-- 1,400g
 						}),
 						i(161528, {	-- Grips of the Swamp Hunter
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(162768, {	-- Pattern: Hardened Tempest Knuckles [Rank 3] (RECIPE!)
 							["cost"] = 14000000,	-- 1,400g
@@ -101,7 +101,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 14000000,	-- 1,400g
 						}),
 						i(161493, {	-- Swamp Medic's Leggings
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(163501, {	-- Tragg the Curious (PET!)
 							["cost"] = { { "i", POLISHED_PET_CHARM, 75 }, },
@@ -111,13 +111,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(161520, {	-- Hir'eek Hide Leggings
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165244, {	-- Torga Scale Boots
 							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(161536, {	-- Torga Scale Girdle
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(161666, {	-- Reins of the Captured Swampstalker (MOUNT!)
 							["cost"] = 900000000,	-- 90,000g
@@ -126,7 +126,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 125000000,	-- 12,500g
 						}),
 						i(161506, {	-- Swampstalker Footpads [Was in beta, not there on 9/16/18]
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165239, {	-- Swampstalker Leggings
 							["cost"] = 14000000,	-- 1,400g
@@ -135,7 +135,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 6250000,	-- 625g
 						}),
 						i(161492, {	-- Zo'bal Spirit Gloves
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165237, {	-- Zo'bal Spirit Sash
 							["cost"] = 19000000,	-- 1,900g
@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(161551, {	-- Zul'jan Camp Stalkers
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 					},
 				}),

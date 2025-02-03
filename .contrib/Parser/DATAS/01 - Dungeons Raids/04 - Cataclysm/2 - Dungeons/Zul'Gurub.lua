@@ -765,27 +765,27 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 								52286,	-- Wushoolay
 							},
 							["groups"] = {
-								i(69630), -- Handguards of the Tormented
-								i(69632), -- Lost Bag of Whammies
-								i(69633), -- Plunderer's Gauntlets
-								i(69631), -- Zulian Voodoo Stick
+								i(69630),	-- Handguards of the Tormented
+								i(69632),	-- Lost Bag of Whammies
+								i(69633),	-- Plunderer's Gauntlets
+								i(69631),	-- Zulian Voodoo Stick
 							},
 						}),
 						n(52258, {	-- Gri'lek
-							i(69635), -- Amulet of Protection
-							i(69634), -- Fasc's Preserved Boots
+							i(69635),	-- Amulet of Protection
+							i(69634),	-- Fasc's Preserved Boots
 						}),
 						n(52271, {	-- Hazza'rah
-							i(69637), -- Gurubashi Destroyer
-							i(69636), -- Thekal's Claws
+							i(69637),	-- Gurubashi Destroyer
+							i(69636),	-- Thekal's Claws
 						}),
 						n(52269, {	-- Renataki
-							i(69638), -- Arlokk's Claws
-							i(69639), -- Renataki's Soul Slicer
+							i(69638),	-- Arlokk's Claws
+							i(69639),	-- Renataki's Soul Slicer
 						}),
 						n(52286, {	-- Wushoolay
-							i(69640), -- Kilt of Forgotten Rites
-							i(69641), -- Troll Skull Chestplate
+							i(69640),	-- Kilt of Forgotten Rites
+							i(69641),	-- Troll Skull Chestplate
 						}),
 					},
 				}),

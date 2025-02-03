@@ -75,7 +75,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				})),
 				n(DROPS, {
 					i(216528, {	-- Faded Supply Chest Key
-						["crs"] = { 218024 }, -- Drowned Arathi
+						["crs"] = { 218024 },	-- Drowned Arathi
 					}),
 					i(224545, {	-- Plowhead
 						["crs"] = {
@@ -84,10 +84,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 					i(212330, {	-- Shadow-Hardened Mainspring
-						["crs"] = { 206067 }, -- Dark-Crazed Harvester
+						["crs"] = { 206067 },	-- Dark-Crazed Harvester
 					}),
 					i(224486, {	-- Uncle's Eye
-						["crs"] = { 206194 }, -- Invasive Lashroom
+						["crs"] = { 206194 },	-- Invasive Lashroom
 					}),
 				}),
 				i(228741, {	-- Lamplighter Supply Satchel

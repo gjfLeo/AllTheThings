@@ -354,7 +354,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				-- #if NOT SEASON_OF_DISCOVERY
 				q(3765, {	-- The Corruption Abroad
-					["qg"] = 4984,  -- Argos Nightwhisper
+					["qg"] = 4984,	-- Argos Nightwhisper
 					["coords"] = {
 						-- #if AFTER WRATH
 						{ 36.2, 67.6, STORMWIND_CITY },
@@ -829,7 +829,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							},
 						}),
 						q(3765, {	-- The Corruption Abroad
-							["qg"] = 4984,  -- Argos Nightwhisper
+							["qg"] = 4984,	-- Argos Nightwhisper
 							["coords"] = {
 								-- #if AFTER WRATH
 								{ 36.2, 67.6, STORMWIND_CITY },

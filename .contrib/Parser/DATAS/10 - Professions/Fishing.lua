@@ -886,7 +886,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 			i(225760),	-- Dornogal Spear (COSMETIC!)
 			i(225884),	-- Extra Large Leek (COSMETIC!)
 			i(225763),	-- Fallen Dalaran Defender (COSMETIC!)
-			i(225758),  -- Hallowfall Harvester's Pitchfork (COSMETIC!)
+			i(225758),	-- Hallowfall Harvester's Pitchfork (COSMETIC!)
 			i(225761),	-- Jeweler's Careful Crusher (COSMETIC!)
 			i(226385),	-- Oxidized Wrench	(COSMETIC!)
 		}),

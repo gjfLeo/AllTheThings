@@ -2002,7 +2002,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				i(2274, {	-- Sapper's Gloves
 					["timeline"] = { ADDED_10_1_7 },
-					["cr"] = 5840,  -- Dark Iron Steamsmith
+					["cr"] = 5840,	-- Dark Iron Steamsmith
 					["coords"] = {
 						{ 42.8, 51.6, SEARING_GORGE },
 						{ 38.0, 49.8, SEARING_GORGE },

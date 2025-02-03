@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				--["lockCriteria"] = {1, "questID", 86485 },	-- TODO: probably a spellID will be better?
 				["coord"] = { 69.2, 45.8, SIREN_ISLE },
 				["g"] = {
-					i(233497), -- Kaja'Cola-Braised Snapdragon Treat
+					i(233497),	-- Kaja'Cola-Braised Snapdragon Treat
 				},
 			}),
 			n(231997, {	-- Didi the Wrench
@@ -219,7 +219,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(228390, {	-- Snizzle Fumblecrank
 				["coord"] = { 69.0, 46.4, SIREN_ISLE },
 				["g"] = {
-					i(234282), -- Decorative Yard Flamingo (TODO: unsure at what point it pop here)
+					i(234282),	-- Decorative Yard Flamingo (TODO: unsure at what point it pop here)
 				},
 			}),
 			n(234390, {	-- Soweezi

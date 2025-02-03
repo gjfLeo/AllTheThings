@@ -410,8 +410,8 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			q(40176, {	-- From Head to Toe
 				["sourceQuests"] = {
 					40179,	-- Stormheim Savagery
-					40181,  -- Black Rook Bandit
-					40182,  -- Too Good To Pass Up
+					40181,	-- Black Rook Bandit
+					40182,	-- Too Good To Pass Up
 				},
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -460,8 +460,8 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			}),
 			q(40190, {	-- Hardening the Hide
 				["sourceQuests"] = {
-					40185,  -- Shoulder the Burden
-					40186,  -- Drogbar Durability
+					40185,	-- Shoulder the Burden
+					40186,	-- Drogbar Durability
 				},
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -4214,11 +4214,11 @@ profession(LEATHERWORKING, {
 					["recipeID"] = 50944,
 				},
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Crusader's Dragonscale Breastplate [Alliance]
-					["recipeID"] = 67082,  -- Crusader's Dragonscale Breastplate
+					["recipeID"] = 67082,	-- Crusader's Dragonscale Breastplate
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Crusader's Dragonscale Breastplate [Horde]
-					["recipeID"] = 67138,  -- Crusader's Dragonscale Breastplate
+					["recipeID"] = 67138,	-- Crusader's Dragonscale Breastplate
 					["races"] = HORDE_ONLY,
 				}),
 				{
@@ -4238,11 +4238,11 @@ profession(LEATHERWORKING, {
 					["recipeID"] = 60629,
 				},
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Ensorcelled Nerubian Breastplate [Alliance]
-					["recipeID"] = 67080,  -- Ensorcelled Nerubian Breastplate
+					["recipeID"] = 67080,	-- Ensorcelled Nerubian Breastplate
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Ensorcelled Nerubian Breastplate [Horde]
-					["recipeID"] = 67136,  -- Ensorcelled Nerubian Breastplate
+					["recipeID"] = 67136,	-- Ensorcelled Nerubian Breastplate
 					["races"] = HORDE_ONLY,
 				}),
 				{
@@ -4262,19 +4262,19 @@ profession(LEATHERWORKING, {
 					["recipeID"] = 60999,
 				},
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Knightbane Carapace [Alliance]
-					["recipeID"] = 67086,  -- Knightbane Carapace
+					["recipeID"] = 67086,	-- Knightbane Carapace
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Knightbane Carapace [Horde]
-					["recipeID"] = 67142,  -- Knightbane Carapace
+					["recipeID"] = 67142,	-- Knightbane Carapace
 					["races"] = HORDE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Lunar Eclipse Robes [Alliance]
-					["recipeID"] = 67084,  -- Lunar Eclipse Robes
+					["recipeID"] = 67084,	-- Lunar Eclipse Robes
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Lunar Eclipse Robes [Horde]
-					["recipeID"] = 67140,  -- Lunar Eclipse Robes
+					["recipeID"] = 67140,	-- Lunar Eclipse Robes
 					["races"] = HORDE_ONLY,
 				}),
 				{
@@ -4320,27 +4320,27 @@ profession(LEATHERWORKING, {
 					["recipeID"] = 51571,
 				},
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Black Chitin Bracers [Alliance]
-					["recipeID"] = 67081,  -- Black Chitin Bracers
+					["recipeID"] = 67081,	-- Black Chitin Bracers
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Black Chitin Bracers [Horde]
-					["recipeID"] = 67137,  -- Black Chitin Bracers
+					["recipeID"] = 67137,	-- Black Chitin Bracers
 					["races"] = HORDE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Bracers of Swift Death [Alliance]
-					["recipeID"] = 67087,  -- Bracers of Swift Death
+					["recipeID"] = 67087,	-- Bracers of Swift Death
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Bracers of Swift Death [Horde]
-					["recipeID"] = 67139,  -- Bracers of Swift Death
+					["recipeID"] = 67139,	-- Bracers of Swift Death
 					["races"] = HORDE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Crusader's Dragonscale Bracers [Alliance]
-					["recipeID"] = 67083,  -- Crusader's Dragonscale Bracers
+					["recipeID"] = 67083,	-- Crusader's Dragonscale Bracers
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Crusader's Dragonscale Bracers [Horde]
-					["recipeID"] = 67143,  -- Crusader's Dragonscale Bracers
+					["recipeID"] = 67143,	-- Crusader's Dragonscale Bracers
 					["races"] = HORDE_ONLY,
 				}),
 				{
@@ -4364,11 +4364,11 @@ profession(LEATHERWORKING, {
 					["recipeID"] = 60607,
 				},
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Moonshadow Armguards [Alliance]
-					["recipeID"] = 67085,  -- Moonshadow Armguards
+					["recipeID"] = 67085,	-- Moonshadow Armguards
 					["races"] = ALLIANCE_ONLY,
 				}),
 				applyclassicphase(WRATH_PHASE_THREE, {	-- Moonshadow Armguards [Horde]
-					["recipeID"] = 67141,  -- Moonshadow Armguards
+					["recipeID"] = 67141,	-- Moonshadow Armguards
 					["races"] = HORDE_ONLY,
 				}),
 				{

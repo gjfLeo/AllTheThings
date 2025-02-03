@@ -24,7 +24,7 @@ local TINDRAL = 2565;
 ------ SlotToCRS ------
 local SlotToCRS = {
 	HEAD = {
-		[RASZAGETH] = { 193909, 189492 }, -- Raszageth the Storm-Eater
+		[RASZAGETH] = { 193909, 189492 },	-- Raszageth the Storm-Eater
 		[MAGMORAX] = { 201579 },	-- Magmorax
 		[TINDRAL] = { 210601, 209090 },	-- Tindral Sageswift <Seer of Flame>
 	},
@@ -35,7 +35,7 @@ local SlotToCRS = {
 	},
 	CHEST = {
 		[KUROG] = { 181378 },	-- Kurog Grimtotem
-		[ZSKARN] = { 202637, 202375 }, -- Zskarn <the Vigilant Steward>
+		[ZSKARN] = { 202637, 202375 },	-- Zskarn <the Vigilant Steward>
 		[NYMUE] = { 206172 },	-- Nymue <Weaver of the Cycle>
 	},
 	HANDS = {

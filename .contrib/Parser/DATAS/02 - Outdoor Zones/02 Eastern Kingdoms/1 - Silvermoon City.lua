@@ -530,7 +530,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 56.0, 51.8, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = { { "sub", "common_recipes_vendor", 3364 } }, -- Borya <Tailoring Supplies>
+					["sym"] = { { "sub", "common_recipes_vendor", 3364 } },	-- Borya <Tailoring Supplies>
 					-- #endif
 					["groups"] = {
 						i(21892),	-- Pattern: Bolt of Imbued Netherweave (RECIPE!)
@@ -545,7 +545,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 80.6, 37.0, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = { { "sub", "common_recipes_vendor", 3356 } }, -- Sumi <Blacksmithing Supplies>
+					["sym"] = { { "sub", "common_recipes_vendor", 3356 } },	-- Sumi <Blacksmithing Supplies>
 					-- #endif
 					["groups"] = {
 						i(23591, {	-- Plans: Adamantite Cleaver (RECIPE!)
@@ -576,7 +576,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 90.8, 73.6, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = { { "sub", "common_recipes_vendor", 50482 } }, -- Marith Lazuria <Jewelcrafting Supplies>
+					["sym"] = { { "sub", "common_recipes_vendor", 50482 } },	-- Marith Lazuria <Jewelcrafting Supplies>
 					-- #endif
 					["groups"] = {
 						i(20854, {	-- Design: Amulet of the Moon
@@ -619,14 +619,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 				}),
 				n(16610, {	-- Kredis <Tabard Vendor>
 					["coord"] = { 78.6, 84.6, SILVERMOON_CITY },
-					["sym"] = {{"sub", "common_vendor", 5188}}, -- Garyl <Tabard Vendor>
+					["sym"] = {{"sub", "common_vendor", 5188}},	-- Garyl <Tabard Vendor>
 					["races"] = HORDE_ONLY,
 				}),
 				n(16635, {	-- Lyna <Enchanting Supplies>
 					["coord"] = { 70.0, 24.6, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = { { "sub", "common_recipes_vendor", 3346 } }, -- Kithas <Enchanting Supplies>
+					["sym"] = { { "sub", "common_recipes_vendor", 3346 } },	-- Kithas <Enchanting Supplies>
 					-- #endif
 					["groups"] = LYNA_GROUPS,
 				}),
@@ -788,7 +788,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 84.6, 78.8, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = { { "sub", "common_recipes_vendor", 3366 } }, -- Tamar <Leatherworking Supplies>
+					["sym"] = { { "sub", "common_recipes_vendor", 3366 } },	-- Tamar <Leatherworking Supplies>
 					-- #endif
 					["groups"] = {
 						i(25726, {	-- Pattern: Comfortable Insoles (RECIPE!)

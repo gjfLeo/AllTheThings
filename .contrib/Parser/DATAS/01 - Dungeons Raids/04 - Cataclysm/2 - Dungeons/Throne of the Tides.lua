@@ -74,30 +74,30 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 				e(101, {	-- Lady Naz'jar
 					["crs"] = { 40586 },	-- Lady Naz'jar
 					["groups"] = {
-						i(55198), -- Aurelian Mitre
-						i(55201), -- Entwined Nereis
-						i(55203), -- Lightning Whelk Axe
-						i(55202), -- Periwinkle Cloak
-						i(55195), -- Wrasse Handwraps
+						i(55198),	-- Aurelian Mitre
+						i(55201),	-- Entwined Nereis
+						i(55203),	-- Lightning Whelk Axe
+						i(55202),	-- Periwinkle Cloak
+						i(55195),	-- Wrasse Handwraps
 					},
 				}),
 				e(102, {	-- Commander Ulthok
 					["crs"] = { 40765 },	-- Commander Ulthok
 					["groups"] = {
-						i(55204), -- Caridean Epaulets
-						i(55228), -- Cerith Spire Staff
-						i(55205), -- Chromis Chestpiece
-						i(55206), -- Eagle Ray Cloak
-						i(55207), -- Harp Shell Pauldrons
+						i(55204),	-- Caridean Epaulets
+						i(55228),	-- Cerith Spire Staff
+						i(55205),	-- Chromis Chestpiece
+						i(55206),	-- Eagle Ray Cloak
+						i(55207),	-- Harp Shell Pauldrons
 					},
 				}),
 				e(103, {	-- Mindbender Ghur'sha
 					["crs"] = { 40788 },	-- Mindbender Ghur'sha
 					["groups"] = {
-						i(55229), -- Anomuran Helm
-						i(55236), -- Anthia's Ring
-						i(55235), -- Decapod Slippers
-						i(55237), -- Porcelain Crab
+						i(55229),	-- Anomuran Helm
+						i(55236),	-- Anthia's Ring
+						i(55235),	-- Decapod Slippers
+						i(55237),	-- Porcelain Crab
 						-- #if BEFORE MOP
 						i(55248, {	-- Conch of Thundering Waves
 							["timeline"] = { REMOVED_5_0_4 },
@@ -111,16 +111,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						-- #if BEFORE 7.3.5
 						ach(4839),	-- Throne of the Tides
 						-- #endif
-						i(55254), -- Abalone Plate Armor
-						i(55259), -- Bioluminescent Lamp
-						i(55251), -- Might of the Ocean
-						i(55255), -- Mnemiopsis Gloves
-						i(55250), -- Nautilus Ring
-						i(55258), -- Pipefish Cord
-						i(55256), -- Sea Star
-						i(55249), -- Triton Legplates
-						i(55253), -- Wentletrap Vest
-						i(55252), -- Whitefin Axe
+						i(55254),	-- Abalone Plate Armor
+						i(55259),	-- Bioluminescent Lamp
+						i(55251),	-- Might of the Ocean
+						i(55255),	-- Mnemiopsis Gloves
+						i(55250),	-- Nautilus Ring
+						i(55258),	-- Pipefish Cord
+						i(55256),	-- Sea Star
+						i(55249),	-- Triton Legplates
+						i(55253),	-- Wentletrap Vest
+						i(55252),	-- Whitefin Axe
 					},
 				}),
 			})),
@@ -130,30 +130,30 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					["crs"] = { 40586 },	-- Lady Naz'jar
 					["groups"] = {
 						ach(5285),	-- Old Faithful
-						i(56269), -- Aurelian Mitre
-						i(56270), -- Entwined Nereis
-						i(56266), -- Lightning Whelk Axe
-						i(56267), -- Periwinkle Cloak
-						i(56268), -- Wrasse Handwraps
+						i(56269),	-- Aurelian Mitre
+						i(56270),	-- Entwined Nereis
+						i(56266),	-- Lightning Whelk Axe
+						i(56267),	-- Periwinkle Cloak
+						i(56268),	-- Wrasse Handwraps
 					},
 				}),
 				e(102, {	-- Commander Ulthok
 					["crs"] = { 40765 },	-- Commander Ulthok
 					["groups"] = {
-					i(56273), -- Caridean Epaulets
-					i(56271), -- Cerith Spire Staff
-					i(56274), -- Chromis Chestpiece
-					i(56275), -- Eagle Ray Cloak
-					i(56272), -- Harp Shell Pauldrons
+					i(56273),	-- Caridean Epaulets
+					i(56271),	-- Cerith Spire Staff
+					i(56274),	-- Chromis Chestpiece
+					i(56275),	-- Eagle Ray Cloak
+					i(56272),	-- Harp Shell Pauldrons
 					},
 				}),
 				e(103, {	-- Mindbender Ghur'sha
 					["crs"] = { 40788 },	-- Mindbender Ghur'sha
 					["groups"] = {
-						i(56278), -- Anomuran Helm
-						i(56276), -- Anthia's Ring
-						i(56277), -- Decapod Slippers
-						i(56280), -- Porcelain Crab
+						i(56278),	-- Anomuran Helm
+						i(56276),	-- Anthia's Ring
+						i(56277),	-- Decapod Slippers
+						i(56280),	-- Porcelain Crab
 						-- #if BEFORE MOP
 						i(56279, {	-- Conch of Thundering Waves
 							["timeline"] = { REMOVED_5_0_4 },
@@ -167,16 +167,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						ach(5061),	-- Heroic: Throne of the Tides
 						ach(5135),	-- Heroic: Throne of the Tides Guild Run
 						ach(5286),	-- Prince of Tides
-						i(56291), -- Abalone Plate Armor
-						i(56289), -- Bioluminescent Lamp
-						i(56285), -- Might of the Ocean
-						i(56286), -- Mnemiopsis Gloves
-						i(56282), -- Nautilus Ring
-						i(56288), -- Pipefish Cord
-						i(56290), -- Sea Star
-						i(56283), -- Triton Legplates
-						i(56281), -- Wentletrap Vest
-						i(56284), -- Whitefin Axe
+						i(56291),	-- Abalone Plate Armor
+						i(56289),	-- Bioluminescent Lamp
+						i(56285),	-- Might of the Ocean
+						i(56286),	-- Mnemiopsis Gloves
+						i(56282),	-- Nautilus Ring
+						i(56288),	-- Pipefish Cord
+						i(56290),	-- Sea Star
+						i(56283),	-- Triton Legplates
+						i(56281),	-- Wentletrap Vest
+						i(56284),	-- Whitefin Axe
 					},
 				}),
 			}),
@@ -185,36 +185,36 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 				e(101, {	-- Lady Naz'jar
 					["crs"] = { 40586 },	-- Lady Naz'jar
 					["groups"] = {
-						i(56269), -- Aurelian Mitre
-						i(56270), -- Entwined Nereis
+						i(56269),	-- Aurelian Mitre
+						i(56270),	-- Entwined Nereis
 						i(157588, {	-- Ironshell Pendant
 							["timeline"] = { ADDED_7_3_5 },
 						}),
-						i(56266), -- Lightning Whelk Axe
+						i(56266),	-- Lightning Whelk Axe
 						i(157587, {	-- Old One Eye's Cowl
 							["timeline"] = { ADDED_7_3_5 },
 						}),
-						i(56267), -- Periwinkle Cloak
-						i(56268), -- Wrasse Handwraps
+						i(56267),	-- Periwinkle Cloak
+						i(56268),	-- Wrasse Handwraps
 					},
 				}),
 				e(102, {	-- Commander Ulthok
 					["crs"] = { 40765 },	-- Commander Ulthok
 					["groups"] = {
-						i(56273), -- Caridean Epaulets
-						i(56271), -- Cerith Spire Staff
-						i(56274), -- Chromis Chestpiece
-						i(56275), -- Eagle Ray Cloak
-						i(56272), -- Harp Shell Pauldrons
+						i(56273),	-- Caridean Epaulets
+						i(56271),	-- Cerith Spire Staff
+						i(56274),	-- Chromis Chestpiece
+						i(56275),	-- Eagle Ray Cloak
+						i(56272),	-- Harp Shell Pauldrons
 					},
 				}),
 				e(103, {	-- Mindbender Ghur'sha
 					["crs"] = { 40788 },	-- Mindbender Ghur'sha
 					["groups"] = {
-						i(56278), -- Anomuran Helm
-						i(56276), -- Anthia's Ring
-						i(56277), -- Decapod Slippers
-						i(56280), -- Porcelain Crab
+						i(56278),	-- Anomuran Helm
+						i(56276),	-- Anthia's Ring
+						i(56277),	-- Decapod Slippers
+						i(56280),	-- Porcelain Crab
 						i(157586, {	-- Stonespeaker's Spare Cinch
 							["timeline"] = { ADDED_7_3_5 },
 						}),
@@ -224,19 +224,19 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					["crs"] = { 44566 },	-- Ozumat
 					["groups"] = {
 						ach(4839),	-- Throne of the Tides
-						i(56291), -- Abalone Plate Armor
-						i(56289), -- Bioluminescent Lamp
-						i(56285), -- Might of the Ocean
-						i(56286), -- Mnemiopsis Gloves
-						i(56282), -- Nautilus Ring
-						i(56288), -- Pipefish Cord
+						i(56291),	-- Abalone Plate Armor
+						i(56289),	-- Bioluminescent Lamp
+						i(56285),	-- Might of the Ocean
+						i(56286),	-- Mnemiopsis Gloves
+						i(56282),	-- Nautilus Ring
+						i(56288),	-- Pipefish Cord
 						i(157589, {	-- Salty Shell-Studded Girdle
 							["timeline"] = { ADDED_7_3_5 },
 						}),
-						i(56290), -- Sea Star
-						i(56283), -- Triton Legplates
-						i(56281), -- Wentletrap Vest
-						i(56284), -- Whitefin Axe
+						i(56290),	-- Sea Star
+						i(56283),	-- Triton Legplates
+						i(56281),	-- Wentletrap Vest
+						i(56284),	-- Whitefin Axe
 					},
 				}),
 			}),

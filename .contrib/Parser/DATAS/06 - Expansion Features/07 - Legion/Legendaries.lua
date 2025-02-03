@@ -145,7 +145,7 @@ root(ROOTS.ExpansionFeatures,
 				i(137076),	-- Obsidian Stone Spaulders
 				i(151812),	-- Pillars of Inmost Light
 				i(137020),	-- Whisper  of the Nathrezim
-				i(144273),  -- Maraad's Dying Breath
+				i(144273),	-- Maraad's Dying Breath
 				i(137017),	-- Breastplate of the Golden Val'kyr
 				i(151813),	-- Scarlet Inquisitor's Expurgation
 				i(140846),	-- Aegisjalmur, the Armguards of Awe
@@ -287,7 +287,7 @@ root(ROOTS.ExpansionFeatures,
 				["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT, MONK, DRUID, DEMONHUNTER },
 			}),
 			i(154172),	-- Aman'Thul's Vision
-			i(144259),  -- Kil'jaeden's Burning Wish
+			i(144259),	-- Kil'jaeden's Burning Wish
 			i(144258, {	-- Velen's Future Sight
 				["classes"] = { PALADIN, PRIEST, SHAMAN, MONK, DRUID, EVOKER },
 			}),

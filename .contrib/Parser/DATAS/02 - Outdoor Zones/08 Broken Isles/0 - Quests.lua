@@ -388,7 +388,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 28.9, 48.4, LEGION_DALARAN },
 						}),
 						q(44257, {	-- A Falling Star (Paladin)
-							["sourceQuests"] = { 42866 }, -- A Sign From The Sky
+							["sourceQuests"] = { 42866 },	-- A Sign From The Sky
 							["provider"] = { "n", 90417 },	-- Archmage Khadgar
 							["classes"] = { PALADIN },
 							["coord"] = { 28.9, 48.4, LEGION_DALARAN },

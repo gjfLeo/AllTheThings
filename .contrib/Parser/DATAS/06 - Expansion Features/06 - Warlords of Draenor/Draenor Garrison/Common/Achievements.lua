@@ -333,7 +333,7 @@ root(ROOTS.ExpansionFeatures,
 							["_quests"] = { 37516 },	-- News for Nixxie
 						}),
 						crit(24518, {	-- Ours is the Fury
-							["_quests"] = { 33427 }, -- Ours is the Fury
+							["_quests"] = { 33427 },	-- Ours is the Fury
 						}),
 						crit(25874, {	-- Heart of the Breakers
 							["_quests"] = { 34341 },	-- The Beating Heart

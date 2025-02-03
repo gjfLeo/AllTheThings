@@ -110,7 +110,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					azeriteItem(160890),	-- Waycrest Militia Battleplate
 					azeriteItem(160889),	-- Crone-Seeker's Chainmail
 					azeriteItem(155106),	-- Crone-Seeker's Helm
-					azeriteItem(160891, { ["timeline"] = { CREATED_8_0_1 }}), -- Wickerwoven Robe
+					azeriteItem(160891, { ["timeline"] = { CREATED_8_0_1 }}),	-- Wickerwoven Robe
 					azeriteItem(160887),	-- Wickerwoven Vestments
 					azeriteItem(155105),	-- Wickerwoven Crown
 					azewrongItem(175301),	-- Banisher Cowl (no azerite version)

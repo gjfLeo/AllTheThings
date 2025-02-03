@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				------ Chapter 1 ------
 				q(76317, {	-- Call of the Dream
 					["g"] = {
-						i(208181), -- Shandris's Scouting Report (QI!)
+						i(208181),	-- Shandris's Scouting Report (QI!)
 					},
 				}),
 				q(76318, {	-- Emerald Welcome
@@ -1120,7 +1120,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 				--
 				q(78890, {	--Emerald Frenzy
 					--["sourceQuests"] = {  },	-- ?
-					["coord"] = { 55.5, 50.0, EMERALD_DREAM }, -- 47.1, 30.3
+					["coord"] = { 55.5, 50.0, EMERALD_DREAM },	-- 47.1, 30.3
 					["repeatable"] = true,
 				}),
 				--probably move big rares here, since they have seems like weekly lockout?

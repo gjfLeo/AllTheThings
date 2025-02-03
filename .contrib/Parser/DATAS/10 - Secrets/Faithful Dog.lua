@@ -28,7 +28,7 @@ root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 			["name"] = "|cFFFFFFFFStep 2|r: Show the Pebble to Dog",
 			["description"] = "You need to have an Herb Garden in your garrison. Show the Pebble to Dog by speaking with them. Do not throw the pebble at Dog.",
 			["sourceQuests"] = {
-				30526,  -- Lost and Lonely
+				30526,	-- Lost and Lonely
 				36404,	-- Clearing the Garden [A]
 				34193,	-- Clearing the Garden [H]
 			},

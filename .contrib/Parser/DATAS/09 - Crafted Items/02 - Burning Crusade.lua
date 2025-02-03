@@ -101,7 +101,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		filter(TRINKET_F, {
 			["sharedDescription"] = "Alchemy Lab can be found on Aldor Rise and Scryer's Tier in Shattrath.",
-			["groups"] = { 
+			["groups"] = {
 				i(13503),	-- Alchemist Stone
 				applyclassicphase(TBC_PHASE_FIVE, i(35751, {["timeline"] = {ADDED_2_4_0}})),	-- Assassin's Alchemist Stone
 				applyclassicphase(TBC_PHASE_FIVE, i(35748, {["timeline"] = {ADDED_2_4_0}})),	-- Guardian's Alchemist Stone
@@ -1106,14 +1106,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					23026,	-- Twilight Serpent
 				},
 				["coords"] = {
-					{ 11.4, 39.3, NAGRAND }, -- Twilight Ridge west
-					{ 19.4, 34.6, NAGRAND }, -- Twilight Ridge east
-					{ 45.5, 13.0, SHADOWMOON_VALLEY }, -- Coilskar Point, north of.
-					{ 65.25, 22.5, SHADOWMOON_VALLEY }, -- Altar of Sha'tar, north of.
-					{ 66.1, 30.0, SHADOWMOON_VALLEY }, -- Altar of Sha'tar, east of.
-					{ 71.8, 30.0, SHADOWMOON_VALLEY }, -- Black Temple, north of.
-					{ 53.05, 25.55, SHADOWMOON_VALLEY }, -- Coilskar Cistern
-					{ 45.8, 28.6, SHADOWMOON_VALLEY }, -- Coilskar Point
+					{ 11.4, 39.3, NAGRAND },	-- Twilight Ridge west
+					{ 19.4, 34.6, NAGRAND },	-- Twilight Ridge east
+					{ 45.5, 13.0, SHADOWMOON_VALLEY },	-- Coilskar Point, north of.
+					{ 65.25, 22.5, SHADOWMOON_VALLEY },	-- Altar of Sha'tar, north of.
+					{ 66.1, 30.0, SHADOWMOON_VALLEY },	-- Altar of Sha'tar, east of.
+					{ 71.8, 30.0, SHADOWMOON_VALLEY },	-- Black Temple, north of.
+					{ 53.05, 25.55, SHADOWMOON_VALLEY },	-- Coilskar Cistern
+					{ 45.8, 28.6, SHADOWMOON_VALLEY },	-- Coilskar Point
 				},
 			}),
 			i(25699, {    -- Crystal-Infused Leather

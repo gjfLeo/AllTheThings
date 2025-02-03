@@ -24,7 +24,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					154991,	-- Lesser Pyroclasmic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169333, 1 }, -- Strange Volcanic Rock
+					{ "i", 169333, 1 },	-- Strange Volcanic Rock
 				},
 				["g"] = {
 					i(170126),	-- Igneous Longbow
@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					155009,	-- Lesser Lithic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169334, 1 }, -- Strange Oceanic Sediment
+					{ "i", 169334, 1 },	-- Strange Oceanic Sediment
 				},
 				["g"] = {
 					i(170383),	-- Coralspine Bulwark
@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					155031,	-- Greater Lithic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169334, 2 }, -- Strange Oceanic Sediment
+					{ "i", 169334, 2 },	-- Strange Oceanic Sediment
 				},
 				["g"] = {
 					i(170125),	-- Behemoth Claw of the Abyss
@@ -62,8 +62,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					155031,	-- Greater Lithic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169333, 1 }, -- Strange Volcanic Rock
-					{ "i", 169334, 1 }, -- Strange Oceanic Sediment
+					{ "i", 169333, 1 },	-- Strange Volcanic Rock
+					{ "i", 169334, 1 },	-- Strange Oceanic Sediment
 				},
 				["g"] = {
 					i(170128),	-- Majestic Shirakess Greatstaff
@@ -76,8 +76,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					155025,	-- Greater Pyroclasmic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169332, 1 }, -- Strange Mineralized Water
-					{ "i", 169333, 1 }, -- Strange Volcanic Rock
+					{ "i", 169332, 1 },	-- Strange Mineralized Water
+					{ "i", 169333, 1 },	-- Strange Volcanic Rock
 				},
 				["g"] = {
 					i(170132),	-- Slicer of Omus
@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					154979,	-- Greater Benthic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169332, 2 }, -- Strange Mineralized Water
+					{ "i", 169332, 2 },	-- Strange Mineralized Water
 				},
 				["g"] = {
 					i(170130),	-- Glaive of Swells
@@ -104,8 +104,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					155025,	-- Greater Pyroclasmic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169333, 1 }, -- Strange Volcanic Rock
-					{ "i", 169334, 1 }, -- Strange Oceanic Sediment
+					{ "i", 169333, 1 },	-- Strange Volcanic Rock
+					{ "i", 169334, 1 },	-- Strange Oceanic Sediment
 				},
 				["g"] = {
 					i(170129),	-- Salgos' Volatile Basher
@@ -118,8 +118,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					154979,	-- Greater Benthic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169332, 1 }, -- Strange Mineralized Water
-					{ "i", 169334, 1 }, -- Strange Oceanic Sediment
+					{ "i", 169332, 1 },	-- Strange Mineralized Water
+					{ "i", 169334, 1 },	-- Strange Oceanic Sediment
 				},
 				["g"] = {
 					i(170124),	-- Coral-Sharpened Greatsword
@@ -132,7 +132,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					155025,	-- Greater Pyroclasmic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169333, 2 }, -- Strange Volcanic Rock
+					{ "i", 169333, 2 },	-- Strange Volcanic Rock
 				},
 				["g"] = {
 					i(170131),	-- Tidal Wand of Malevolence
@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					154970,	-- Lesser Benthic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169332, 1 }, -- Strange Mineralized Water
+					{ "i", 169332, 1 },	-- Strange Mineralized Water
 				},
 				["g"] = {
 					i(170138),	-- Scroll of Violent Tides
@@ -157,8 +157,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					154979,	-- Greater Benthic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169332, 1 }, -- Strange Mineralized Water
-					{ "i", 169333, 1 }, -- Strange Volcanic Rock
+					{ "i", 169332, 1 },	-- Strange Mineralized Water
+					{ "i", 169333, 1 },	-- Strange Volcanic Rock
 				},
 				["g"] = {
 					i(170127),	-- Pyroclastic Halberd
@@ -172,8 +172,8 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 					155031,	-- Greater Lithic Arcanocrystal
 				},
 				["cost"] = {
-					{ "i", 169332, 1 }, -- Strange Mineralized Water
-					{ "i", 169334, 1 }, -- Strange Oceanic Sediment
+					{ "i", 169332, 1 },	-- Strange Mineralized Water
+					{ "i", 169334, 1 },	-- Strange Oceanic Sediment
 				},
 				["g"] = {
 					i(170137),	-- Azerite-Infused Crystal Flayer

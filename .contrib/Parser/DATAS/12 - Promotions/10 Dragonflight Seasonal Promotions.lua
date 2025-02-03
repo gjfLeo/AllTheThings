@@ -117,7 +117,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(32566, {	-- Picnic Basket (TOY!)
 				["description"] = "Obtained through watching select Twitch Streamers with Drops enabled for at least 4 hours between July 11th, 10:00 a.m. & July 18th, 10:00 a.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				["timeline"] = { ADDED_10_1_5 }, -- REMOVED_10_1_0 },
+				["timeline"] = { ADDED_10_1_5 },	-- REMOVED_10_1_0 },
 				["u"] = REMOVED_FROM_GAME,	-- 18th July 2023
 			}),
 			iensemble(190923, {	-- Ensemble: Dashing Buccaneer's Slops

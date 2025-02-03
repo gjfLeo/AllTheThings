@@ -4,7 +4,7 @@
 -- Contains a set of Quests which are known to be saved Account-Wide
 -- Discrepancies per WoW Version can be toggled using a custom function which returns the flag status for that version
 -- Or entire ranges of quests can simply be excluded using preprocessors in the main assignment table
--- ex. [###] = AfterMOP(), -- a quest which wasn't account-wide until after MOP
+-- ex. [###] = AfterMOP(),	-- a quest which wasn't account-wide until after MOP
 -- local function AfterMOP()
 -- 	local a
 -- 	-- #IF AFTER MOP

@@ -431,12 +431,12 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		}),
 		q(44112, {	-- Trading for Dreams
 			["sourceQuests"] = { 39431 },	-- Mending the Filter
-			["provider"] = { "n", 93974 }, -- Leyweaver Erenyi
+			["provider"] = { "n", 93974 },	-- Leyweaver Erenyi
 			["coord"] = { 70.5, 46.4, VALSHARAH },
 		}),
 		q(39338, {	-- Return the Filter
 			["sourceQuests"] = { 44112 },	-- Trading for Dreams
-			["provider"] = { "n", 93974 }, -- Leyweaver Erenyi
+			["provider"] = { "n", 93974 },	-- Leyweaver Erenyi
 			["coord"] = { 70.5, 46.4, VALSHARAH },
 		}),
 		q(39339, {	-- A Fragile Crucible

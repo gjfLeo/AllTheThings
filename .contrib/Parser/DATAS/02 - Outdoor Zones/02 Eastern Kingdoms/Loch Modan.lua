@@ -2242,13 +2242,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(5319, {	-- Bashing Pauldrons
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
-					["cr"] = 2478,  -- Haren Swifthoof <Horde Runner>
+					["cr"] = 2478,	-- Haren Swifthoof <Horde Runner>
 					["coords"] = {
 						{ 55.2, 68.2, LOCH_MODAN },
 						{ 66.0, 37.8, LOCH_MODAN },
 					},
 					-- #elseif AFTER 10.1.7
-					["cr"] = 1186,  -- Black Bear
+					["cr"] = 1186,	-- Black Bear
 					["coords"] = {
 						{ 40.6, 10.4, LOCH_MODAN },
 						{ 24.8, 13.2, LOCH_MODAN },
@@ -2306,7 +2306,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { MAGE },
-					["cr"] = 1166,  -- Stonesplinter Seer
+					["cr"] = 1166,	-- Stonesplinter Seer
 				})),
 				-- #endif
 				i(769, {	-- Chunk of Boar Meat
@@ -2321,7 +2321,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(2823, {	-- Mo'grosh Can Opener
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
-					["cr"] = 1180,  -- Mo'grosh Brute
+					["cr"] = 1180,	-- Mo'grosh Brute
 					["coords"] = {
 						{ 79.6, 16.0, LOCH_MODAN },
 						{ 76.6, 16.0, LOCH_MODAN },
@@ -2351,7 +2351,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #elseif AFTER 10.1.7
 					["crs"] = {
-						14267,  -- Emogg the Crusher
+						14267,	-- Emogg the Crusher
 						44758, -- Mo'grosh Darkmauler
 					},
 					["coord"] = { 70.0, 24.6, LOCH_MODAN },
@@ -2360,7 +2360,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(2822, {	-- Mo'grosh Toothpick
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
-					["cr"] = 1178,  -- Mo'grosh Ogre
+					["cr"] = 1178,	-- Mo'grosh Ogre
 					["coords"] = {
 						{ 79.6, 16.0, LOCH_MODAN },
 						{ 76.6, 16.0, LOCH_MODAN },
@@ -2397,13 +2397,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(4949, {	-- Orcish Cleaver
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
-					["cr"] = 7170,  -- Thragomm <Horde Runner>
+					["cr"] = 7170,	-- Thragomm <Horde Runner>
 					["coords"] = {
 						{ 55.2, 68.2, LOCH_MODAN },
 						{ 66.0, 37.8, LOCH_MODAN },
 					},
 					-- #elseif AFTER 10.1.7
-					["cr"] = 1186,  -- Black Bear
+					["cr"] = 1186,	-- Black Bear
 					["coords"] = {
 						{ 40.6, 10.4, LOCH_MODAN },
 						{ 24.8, 13.2, LOCH_MODAN },
@@ -2418,7 +2418,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				i(2283, {	-- Rat Cloth Belt
-					["cr"] = 1177,  -- Tunnel Rat Surveyor
+					["cr"] = 1177,	-- Tunnel Rat Surveyor
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["coords"] = {
@@ -2440,8 +2440,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["crs"] = {
-						1176,  -- Tunnel Rat Forager
-						1202,  -- Tunnel Rat Kobold
+						1176,	-- Tunnel Rat Forager
+						1202,	-- Tunnel Rat Kobold
 					},
 					["coords"] = {
 						{ 38.4, 16.0, LOCH_MODAN },
@@ -2450,7 +2450,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 27.6, 44.8, LOCH_MODAN },
 					},
 					-- #elseif AFTER 10.1.7
-					["cr"] = 1176,  -- Tunnel Rat Forager
+					["cr"] = 1176,	-- Tunnel Rat Forager
 					["coords"] = {
 						{ 38.4, 16.0, LOCH_MODAN },
 						{ 32.6, 26.4, LOCH_MODAN },
@@ -2460,8 +2460,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(2282, {	-- Rodentia Shortsword
 					["crs"] = {
-						1173,  -- Tunnel Rat Scout
-						1172,  -- Tunnel Rat Vermin
+						1173,	-- Tunnel Rat Scout
+						1172,	-- Tunnel Rat Vermin
 					},
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
@@ -2489,7 +2489,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_2_0_1 },
 					["classes"] = { WARRIOR },
 					["races"] = ALLIANCE_ONLY,
-					["cr"] = 2478,  -- Haren Swifthoof <Horde Runner>
+					["cr"] = 2478,	-- Haren Swifthoof <Horde Runner>
 					["groups"] = {
 						recipe(403489),	-- Engrave Gloves - Endless Rage
 					},
@@ -2499,7 +2499,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- Moved to Searing Gorge in 10.1.7
 				i(2274, {	-- Sapper's Gloves
 					["timeline"] = { REMOVED_4_0_3 },
-					["cr"] = 1222,  -- Dark Iron Sapper
+					["cr"] = 1222,	-- Dark Iron Sapper
 				}),
 				-- #endif
 				-- #if SEASON_OF_DISCOVERY
@@ -2529,7 +2529,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(2265, {	-- Stonesplinter Axe
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
-					["cr"] = 1163,  -- Stonesplinter Skullthumper
+					["cr"] = 1163,	-- Stonesplinter Skullthumper
 					["coords"] = {
 						{ 51.6, 24.6, LOCH_MODAN },
 						{ 48.8, 29.6, LOCH_MODAN },
@@ -2550,23 +2550,23 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(2268, {	-- Stonesplinter Blade
 					["crs"] = {
-						1162,  -- Stonesplinter Scout
+						1162,	-- Stonesplinter Scout
 						-- #if BEFORE 4.0.3
-						1161,  -- Stonesplinter Trogg
+						1161,	-- Stonesplinter Trogg
 						-- #endif
 					},
 				}),
 				i(2266, {	-- Stonesplinter Dagger
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
-					["cr"] = 1166,  -- Stonesplinter Seer
+					["cr"] = 1166,	-- Stonesplinter Seer
 					["coords"] = {
 						{ 36.2, 86.0, LOCH_MODAN },
 						{ 30.0, 83.8, LOCH_MODAN },
 						{ 51.2, 23.6, LOCH_MODAN },
 					},
 					-- #elseif AFTER 10.1.7
-					["cr"] = 1162,  -- Stonesplinter Scout
+					["cr"] = 1162,	-- Stonesplinter Scout
 					["coords"] = {
 						{ 40.2, 72.0, LOCH_MODAN },
 						{ 32.6, 71.8, LOCH_MODAN },
@@ -2575,7 +2575,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				i(2267, {	-- Stonesplinter Mace
-					["cr"] = 1197,  -- Stonesplinter Shaman
+					["cr"] = 1197,	-- Stonesplinter Shaman
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
 					-- #if BEFORE 4.0.3
 					["coords"] = {

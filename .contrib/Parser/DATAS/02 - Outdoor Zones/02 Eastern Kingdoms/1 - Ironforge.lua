@@ -1491,7 +1491,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 40.2, 33.4, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = { {"sub", "common_recipes_vendor", 3366} }, -- Tamar <Leatherworking Supplies>
+					["sym"] = { {"sub", "common_recipes_vendor", 3366} },	-- Tamar <Leatherworking Supplies>
 					-- #endif
 					["groups"] = {
 						i(18731, {	-- Pattern: Heavy Leather Ball (RECIPE!)
@@ -1641,7 +1641,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 60.6, 38.2, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER CATA
-					["sym"] = {{"sub", "common_recipes_vendor", 49701}}, -- Jon Casper <Sous Chef>
+					["sym"] = {{"sub", "common_recipes_vendor", 49701}},	-- Jon Casper <Sous Chef>
 					-- #endif
 					["groups"] = {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
@@ -1955,7 +1955,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 50.6, 27.0, IRONFORGE },
 					["timeline"] = { ADDED_4_1_0 },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = { {"sub", "common_recipes_vendor", 50482} }, -- Marith Lazuria <Jewelcrafting Supplies>
+					["sym"] = { {"sub", "common_recipes_vendor", 50482} },	-- Marith Lazuria <Jewelcrafting Supplies>
 				}),
 				n(5129, {	-- Lissyphus Finespindle
 					["coord"] = { 54.6, 88.2, IRONFORGE },
@@ -1986,7 +1986,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(5049, {	-- Lyesa Steelbrow <Tabard Vendor>
 					["coord"] = { 36.4, 84.4, IRONFORGE },
-					["sym"] = { {"sub", "common_vendor", 5193} }, -- Rebecca Laughlin <Tabard Designer>
+					["sym"] = { {"sub", "common_vendor", 5193} },	-- Rebecca Laughlin <Tabard Designer>
 					["races"] = ALLIANCE_ONLY,
 				}),
 				n(5156, {	-- Maeva Snowbraid
@@ -2096,7 +2096,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(5154, {	-- Poranna Snowbraid <Tailoring Supplies>
 					["coord"] = { 43.8, 29.6, IRONFORGE },
 					-- #if AFTER CATA
-					["sym"] = { {"sub", "common_recipes_vendor", 3364} }, -- Borya <Tailoring Supplies>
+					["sym"] = { {"sub", "common_recipes_vendor", 3364} },	-- Borya <Tailoring Supplies>
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2191,14 +2191,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(4259, {	-- Thurgrum Deepforge <Blacksmithing Supplies>
 					["coord"] = { 51.8, 41.2, IRONFORGE },
 					-- #if AFTER CATA
-					["sym"] = { {"sub", "common_recipes_vendor", 3356} }, -- Sumi <Blacksmithing Supplies>
+					["sym"] = { {"sub", "common_recipes_vendor", 3356} },	-- Sumi <Blacksmithing Supplies>
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
 				}),
 				n(5158, {	-- Tilli Thistlefuzz <Enchanting Supplies>
 					["coord"] = { 60.8, 44.2, IRONFORGE },
 					-- #if AFTER CATA
-					["sym"] = { { "sub", "common_recipes_vendor", 1318 } }, -- Jessara Cordell <Enchanting Supplies>
+					["sym"] = { { "sub", "common_recipes_vendor", 1318 } },	-- Jessara Cordell <Enchanting Supplies>
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

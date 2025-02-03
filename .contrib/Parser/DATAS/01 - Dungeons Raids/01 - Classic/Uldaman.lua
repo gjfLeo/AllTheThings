@@ -600,10 +600,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #elseif AFTER 10.1.7
 					["description"] = "This guy spawns outside of the instance, inside the halls or cave ends surrounding Dig One. All locations can be reached with '/tar Digmaster Shovelphlange' from the cave leading in to the North Common Hall.",
 					["coords"] = {
-						{ 62.0, 51.5, 16 }, -- Spur cave
-						{ 51.8, 68.5, 16 }, -- The Sealed Hall
-						{ 34.0, 84.5, 16 }, -- North Common Hall
-						{ 32.4, 62.4, 16 }, -- South Common Hall
+						{ 62.0, 51.5, 16 },	-- Spur cave
+						{ 51.8, 68.5, 16 },	-- The Sealed Hall
+						{ 34.0, 84.5, 16 },	-- North Common Hall
+						{ 32.4, 62.4, 16 },	-- South Common Hall
 					},
 					-- #endif
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023

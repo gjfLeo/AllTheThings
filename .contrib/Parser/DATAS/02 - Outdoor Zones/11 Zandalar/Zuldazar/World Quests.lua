@@ -193,12 +193,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(50876),	-- Murderbeak
 			q(54051, {	-- Naga Attack!
 				["g"] = {
-					i(165605),  -- Azsharan Medallion
+					i(165605),	-- Azsharan Medallion
 				},
 			}),
 			q(54060, {	-- Naga Attack!
 				["g"] = {
-					i(165605),  -- Azsharan Medallion
+					i(165605),	-- Azsharan Medallion
 				},
 			}),
 			q(54508, {	-- No Bridge Too Dire (Faction Assault WQ)

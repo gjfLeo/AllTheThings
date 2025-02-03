@@ -426,10 +426,10 @@ WRATH_ENGINEERING = applyclassicphase(WRATH_PHASE_ONE, bubbleDown({ ["timeline"]
 	}),
 }));
 WRATH_GNOMISH_ENGINEERING = applyclassicphase(TBC_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_3_0_3 } }, {
-	r(56473), -- Gnomish X-Ray Specs
+	r(56473),	-- Gnomish X-Ray Specs
 }));
 WRATH_GOBLIN_ENGINEERING = applyclassicphase(TBC_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_3_0_3 } }, {
-	r(56514), -- Global Thermal Sapper Charge
+	r(56514),	-- Global Thermal Sapper Charge
 }));
 ALL_GNOMISH_ENGINEERING = appendGroups(CLASSIC_TBC_GNOMISH_ENGINEERING,
 -- #if AFTER 3.0.3

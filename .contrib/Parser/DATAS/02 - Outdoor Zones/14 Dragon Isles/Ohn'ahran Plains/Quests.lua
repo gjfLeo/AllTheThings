@@ -371,12 +371,12 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				q(66335, {	-- Deconstruct Additional Pylons
 					["sourceQuests"] = { 66333 },	-- Justice for Solethus
 					["provider"] = { "n", 191494 },	-- Khanam Matra Sares
-					["coord"] = { 25.2, 38.5, OHNAHRAN_PLAINS }, -- Follows You
+					["coord"] = { 25.2, 38.5, OHNAHRAN_PLAINS },	-- Follows You
 				}),
 				q(66784, {	-- Starve the Storm
 					["sourceQuests"] = { 66333 },	-- Justice for Solethus
 					["provider"] = { "n", 191494 },	-- Khanam Matra Sares
-					["coord"] = { 25.2, 38.5, OHNAHRAN_PLAINS }, -- Follows You
+					["coord"] = { 25.2, 38.5, OHNAHRAN_PLAINS },	-- Follows You
 				}),
 				q(66337, {	-- Stormbreaker
 					["sourceQuests"] = {

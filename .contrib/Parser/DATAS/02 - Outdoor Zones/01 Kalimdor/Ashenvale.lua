@@ -2291,7 +2291,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["cr"] = 3696,	-- Ran Bloodtooth
 						}),
 						objective(2, {	-- 0/4 Bloodtooth Guard
-							["provider"] = { "n", 3932 }, -- Bloodtooth Guard
+							["provider"] = { "n", 3932 },	-- Bloodtooth Guard
 						}),
 					},
 				}),

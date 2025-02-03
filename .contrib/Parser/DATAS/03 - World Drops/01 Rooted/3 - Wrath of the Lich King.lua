@@ -642,7 +642,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(36598),	-- Scarlet Battle Axe
 			i(37811),	-- Captain Carver's Persuader
 			i(36589, {	-- Segmenting Broadaxe
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		filter(BOWS, {
@@ -661,10 +661,10 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(36626),	-- Military Compound Bow
 			i(37809),	-- Roc-Feather Longbow
 			i(36618, {	-- Twisted Longbow
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 			i(36617, {	-- Yielding Bow
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		filter(CROSSBOWS, {
@@ -719,7 +719,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(36676),	-- Water Blade
 			i(36681),	-- Wisdom Carver
 			i(36673, {	-- Wise Dagger
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		filter(FIST_WEAPONS, {
@@ -738,7 +738,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(36570),	-- Corrupted Scythes
 			i(37749),	-- Shocking Claws
 			i(36561, {	-- Mummified Paw
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		filter(GUNS, {
@@ -757,7 +757,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(36653),	-- Precipice Longrifle
 			i(36654),	-- Harsh-Winter Rifle
 			i(36645, {	-- Tuskarr Boomstick
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		filter(ONE_HANDED_MACES, {
@@ -791,13 +791,13 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(37805),	-- Melia's Magnificent Scepter
 			i(37808),	-- Dragonjaw Mauler
 			i(36505, {	-- Frosted Steel Mallet
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 			i(36493, {	-- Furbolg Truncheon
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 			i(36491, {	-- Serrated Maul
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		filter(TWO_HANDED_MACES, {
@@ -872,7 +872,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 				["timeline"] = { CREATED_2_0_3, ADDED_3_0_2, REMOVED_6_0_3, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 			i(36701, {	-- Pine Needle Staff
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 			i(36549, {	-- Pulsing Quarterstaff
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_3, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
@@ -896,7 +896,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(37807),	-- Lydia's Sharpened Swordbreaker
 			i(44311),	-- Avool's Sword of Jin
 			i(36519, {	-- Moonlit Katana
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		filter(TWO_HANDED_SWORDS, {
@@ -934,7 +934,7 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(36668),	-- Mindless Wand
 			i(37824),	-- Gwyneth's Runed Dragonwand
 			i(36659, {	-- Shivery Wand
-				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 }, -- Maybe never removed, have to check in WoD Classic
+				["timeline"] = { ADDED_3_0_2, REMOVED_6_0_2, ADDED_10_0_7 },	-- Maybe never removed, have to check in WoD Classic
 			}),
 		}),
 		-- #if BEFORE MOP

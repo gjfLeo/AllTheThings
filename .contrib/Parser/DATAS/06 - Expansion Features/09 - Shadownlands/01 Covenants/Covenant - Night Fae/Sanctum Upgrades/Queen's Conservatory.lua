@@ -474,7 +474,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["sourceQuests"] = { 62625 },	-- A Rare and Unusual Spirit (4)
 										["provider"] = { "n", 174511 },	-- Lia the Curious
 										["coord"] = { 26.0, 63.8, 1662 },
-										["cost"] = { { "i", 183806, 1 } }, -- 1 Energetic Spirit of Curiosity
+										["cost"] = { { "i", 183806, 1 } },	-- 1 Energetic Spirit of Curiosity
 										["maps"] = { FROSTFIRE_RIDGE },
 									}),
 									q(62629, {	-- All Spirits Great and Small (2)

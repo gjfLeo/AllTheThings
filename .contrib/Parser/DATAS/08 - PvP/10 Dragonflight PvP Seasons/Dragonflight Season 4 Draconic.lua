@@ -797,25 +797,25 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_
 					i(216154),	-- Draconic Gladiator's Leather Wristwraps
 				}),
 				cl(SHAMAN, {
-					i(216213), -- Draconic Gladiator's Cloak
-					i(216214), -- Draconic Gladiator's Drape
-					i(216215), -- Draconic Gladiator's Shawl
-					i(216209), -- Draconic Gladiator's Chain Belt
-					i(216200), -- Draconic Gladiator's Chain Boots
-					i(216212), -- Draconic Gladiator's Chain Bracers
-					i(216206), -- Draconic Gladiator's Chain Breeches
-					i(216204), -- Draconic Gladiator's Chain Faceguard
-					i(216201), -- Draconic Gladiator's Chain Gauntlets
-					i(216210), -- Draconic Gladiator's Chain Girdle
-					i(216202), -- Draconic Gladiator's Chain Handguards
-					i(216203), -- Draconic Gladiator's Chain Helm
-					i(216205), -- Draconic Gladiator's Chain Leggings
-					i(216207), -- Draconic Gladiator's Chain Monnion
-					i(216199), -- Draconic Gladiator's Chain Sabatons
-					i(216208), -- Draconic Gladiator's Chain Shoulderguard
-					i(216198), -- Draconic Gladiator's Chain Tunic
-					i(216197), -- Draconic Gladiator's Chain Vest
-					i(216211), -- Draconic Gladiator's Chain Wristguards
+					i(216213),	-- Draconic Gladiator's Cloak
+					i(216214),	-- Draconic Gladiator's Drape
+					i(216215),	-- Draconic Gladiator's Shawl
+					i(216209),	-- Draconic Gladiator's Chain Belt
+					i(216200),	-- Draconic Gladiator's Chain Boots
+					i(216212),	-- Draconic Gladiator's Chain Bracers
+					i(216206),	-- Draconic Gladiator's Chain Breeches
+					i(216204),	-- Draconic Gladiator's Chain Faceguard
+					i(216201),	-- Draconic Gladiator's Chain Gauntlets
+					i(216210),	-- Draconic Gladiator's Chain Girdle
+					i(216202),	-- Draconic Gladiator's Chain Handguards
+					i(216203),	-- Draconic Gladiator's Chain Helm
+					i(216205),	-- Draconic Gladiator's Chain Leggings
+					i(216207),	-- Draconic Gladiator's Chain Monnion
+					i(216199),	-- Draconic Gladiator's Chain Sabatons
+					i(216208),	-- Draconic Gladiator's Chain Shoulderguard
+					i(216198),	-- Draconic Gladiator's Chain Tunic
+					i(216197),	-- Draconic Gladiator's Chain Vest
+					i(216211),	-- Draconic Gladiator's Chain Wristguards
 				}),
 				cl(WARLOCK, {
 					i(216080),	-- Draconic Gladiator's Cloak

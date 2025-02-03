@@ -205,16 +205,16 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			n(176197, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Griftah <Amazing Amulets>
 				["coord"] = { 51.0, 43.4, ORIBOS },
 				["g"] = {
-					i(188226), -- Boots o' Maw Walkin
-					i(188224), -- Darling Maldraxxi Doll
-					i(188217), -- De Purpose
-					i(188221), -- Eye of the Wailer
-					i(188219), -- Garlic Pendant of Fang-Warding
-					i(188218), -- Korthian Secret-Keeping Journal
-					i(188223), -- Stain of Domination
-					i(188222), -- Steward Wings
-					i(188220), -- Torghast Ash Globe
-					i(188225), -- Worneblade
+					i(188226),	-- Boots o' Maw Walkin
+					i(188224),	-- Darling Maldraxxi Doll
+					i(188217),	-- De Purpose
+					i(188221),	-- Eye of the Wailer
+					i(188219),	-- Garlic Pendant of Fang-Warding
+					i(188218),	-- Korthian Secret-Keeping Journal
+					i(188223),	-- Stain of Domination
+					i(188222),	-- Steward Wings
+					i(188220),	-- Torghast Ash Globe
+					i(188225),	-- Worneblade
 				},
 			})),
 			n(156769, {	-- Keeper Ta'hult <Pet Vendor>

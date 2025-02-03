@@ -58,9 +58,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								--10462,	-- Champion's Pledge
-								10460,  -- Defender's Pledge
-								10461,  -- Restorer's Pledge
-								10463,  -- Sage's Pledge
+								10460,	-- Defender's Pledge
+								10461,	-- Restorer's Pledge
+								10463,	-- Sage's Pledge
 							},
 							["groups"] = {
 								i(29298),	-- Band of Eternity
@@ -81,9 +81,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10462,	-- Champion's Pledge
-								--10460,  -- Defender's Pledge
-								10461,  -- Restorer's Pledge
-								10463,  -- Sage's Pledge
+								--10460,	-- Defender's Pledge
+								10461,	-- Restorer's Pledge
+								10463,	-- Sage's Pledge
 							},
 							["groups"] = {
 								i(29294),	-- Band of Eternity
@@ -104,9 +104,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10462,	-- Champion's Pledge
-								10460,  -- Defender's Pledge
-								--10461,  -- Restorer's Pledge
-								10463,  -- Sage's Pledge
+								10460,	-- Defender's Pledge
+								--10461,	-- Restorer's Pledge
+								10463,	-- Sage's Pledge
 							},
 							["groups"] = {
 								i(29307),	-- Band of Eternity
@@ -127,9 +127,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10462,	-- Champion's Pledge
-								10460,  -- Defender's Pledge
-								10461,  -- Restorer's Pledge
-								--10463,  -- Sage's Pledge
+								10460,	-- Defender's Pledge
+								10461,	-- Restorer's Pledge
+								--10463,	-- Sage's Pledge
 							},
 							["groups"] = {
 								i(29302),	-- Band of Eternity
@@ -145,9 +145,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								--10466,	-- Champion's Vow
-								10467,  -- Defender's Vow
-								10465,  -- Restorer's Vow
-								10464,  -- Sage's Vow
+								10467,	-- Defender's Vow
+								10465,	-- Restorer's Vow
+								10464,	-- Sage's Vow
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -165,9 +165,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10466,	-- Champion's Vow
-								--10467,  -- Defender's Vow
-								10465,  -- Restorer's Vow
-								10464,  -- Sage's Vow
+								--10467,	-- Defender's Vow
+								10465,	-- Restorer's Vow
+								10464,	-- Sage's Vow
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -185,9 +185,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10466,	-- Champion's Vow
-								10467,  -- Defender's Vow
-								--10465,  -- Restorer's Vow
-								10464,  -- Sage's Vow
+								10467,	-- Defender's Vow
+								--10465,	-- Restorer's Vow
+								10464,	-- Sage's Vow
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -205,9 +205,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10466,	-- Champion's Vow
-								10467,  -- Defender's Vow
-								10465,  -- Restorer's Vow
-								--10464,  -- Sage's Vow
+								10467,	-- Defender's Vow
+								10465,	-- Restorer's Vow
+								--10464,	-- Sage's Vow
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -226,9 +226,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								--10470,	-- Champion's Oath
-								10471,  -- Defender's Oath
-								10469,  -- Restorer's Oath
-								10468,  -- Sage's Oath
+								10471,	-- Defender's Oath
+								10469,	-- Restorer's Oath
+								10468,	-- Sage's Oath
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -246,9 +246,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10470,	-- Champion's Oath
-								--10471,  -- Defender's Oath
-								10469,  -- Restorer's Oath
-								10468,  -- Sage's Oath
+								--10471,	-- Defender's Oath
+								10469,	-- Restorer's Oath
+								10468,	-- Sage's Oath
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -266,9 +266,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10470,	-- Champion's Oath
-								10471,  -- Defender's Oath
-								--10469,  -- Restorer's Oath
-								10468,  -- Sage's Oath
+								10471,	-- Defender's Oath
+								--10469,	-- Restorer's Oath
+								10468,	-- Sage's Oath
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -286,9 +286,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10470,	-- Champion's Oath
-								10471,  -- Defender's Oath
-								10469,  -- Restorer's Oath
-								--10468,  -- Sage's Oath
+								10471,	-- Defender's Oath
+								10469,	-- Restorer's Oath
+								--10468,	-- Sage's Oath
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -327,9 +327,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								--10474,	-- Champion's Covenant
-								10475,  -- Defender's Covenant
-								10473,  -- Restorer's Covenant
-								10472,  -- Sage's Covenant
+								10475,	-- Defender's Covenant
+								10473,	-- Restorer's Covenant
+								10472,	-- Sage's Covenant
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -367,9 +367,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10474,	-- Champion's Covenant
-								--10475,  -- Defender's Covenant
-								10473,  -- Restorer's Covenant
-								10472,  -- Sage's Covenant
+								--10475,	-- Defender's Covenant
+								10473,	-- Restorer's Covenant
+								10472,	-- Sage's Covenant
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -407,9 +407,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10474,	-- Champion's Covenant
-								10475,  -- Defender's Covenant
-								--10473,  -- Restorer's Covenant
-								10472,  -- Sage's Covenant
+								10475,	-- Defender's Covenant
+								--10473,	-- Restorer's Covenant
+								10472,	-- Sage's Covenant
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity
@@ -447,9 +447,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["maps"] = { CAVERNS_OF_TIME },
 							["altQuests"] = {
 								10474,	-- Champion's Covenant
-								10475,  -- Defender's Covenant
-								10473,  -- Restorer's Covenant
-								--10472,  -- Sage's Covenant
+								10475,	-- Defender's Covenant
+								10473,	-- Restorer's Covenant
+								--10472,	-- Sage's Covenant
 							},
 							["groups"] = {
 								objective(1, {	-- 0/1 Band of Eternity

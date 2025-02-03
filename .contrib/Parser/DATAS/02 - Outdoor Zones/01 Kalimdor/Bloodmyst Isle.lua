@@ -1342,7 +1342,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						{ 14.4, 54.6, BLOODMYST_ISLE },	-- vector coil, bottom
 						{ 25.6, 50.8, BLOODMYST_ISLE },	-- top camp
 						{ 24.3, 56.5, BLOODMYST_ISLE },	-- middle camp
-						{ 21.1, 60.9, BLOODMYST_ISLE }, -- bottom camp
+						{ 21.1, 60.9, BLOODMYST_ISLE },	-- bottom camp
 						{ 36.3, 62.7, BLOODMYST_ISLE },	-- cryo-core, left
 						{ 37.8, 58.4, BLOODMYST_ISLE },	-- cryo-core, mid
 						{ 40.1, 61.2, BLOODMYST_ISLE },	-- cryo-core, right

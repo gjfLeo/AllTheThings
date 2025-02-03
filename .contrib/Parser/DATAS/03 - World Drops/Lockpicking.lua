@@ -69,7 +69,7 @@ root(ROOTS.WorldDrops, {
 					i(2567),	-- Evocator's Blade
 					i(5756),	-- Sliverblade
 					i(4454, {	-- Talon of Vultros
-						["timeline"] = { ADDED_7_2_5 }, -- Unclear when exactly. Going with the big return of items in 7.2.5
+						["timeline"] = { ADDED_7_2_5 },	-- Unclear when exactly. Going with the big return of items in 7.2.5
 					}),
 				},
 				["sym"] = { {
@@ -81,9 +81,9 @@ root(ROOTS.WorldDrops, {
 					12054,	-- Demon Band
 					6375,   -- Formula: Enchant Bracer - Lesser Versatility / CLASSIC: Formula: Enchant Bracer - Lesser Spirit (RECIPE!)
 					5002,   -- Glowing Green Talisman
-					11969,  -- Jacinth Circle
+					11969,	-- Jacinth Circle
 					6454,   -- Manual: Strong Anti-Venom
-					12006,  -- Meadow Ring
+					12006,	-- Meadow Ring
 					7360,   -- Pattern: Dark Leather Gloves (RECIPE!)
 					5972,   -- Pattern: Fine Leather Pants (RECIPE!)
 					2601,   -- Pattern: Gray Woolen Robe
@@ -96,12 +96,12 @@ root(ROOTS.WorldDrops, {
 					6044,   -- Plans: Iron Shield Spike (RECIPE!)
 					3608,   -- Plans: Mighty Iron Hammer (RECIPE!)
 					5578,   -- Plans: Silvered Bronze Breastplate (RECIPE!)
-					10424,  -- Plans: Silvered Bronze Leggings (RECIPE!)
+					10424,	-- Plans: Silvered Bronze Leggings (RECIPE!)
 					2882,   -- Plans: Silvered Bronze Shoulders (RECIPE!)
-					12007,  -- Prairie Ring
+					12007,	-- Prairie Ring
 					3396,   -- Recipe: Elixir of Lesser Agility (RECIPE!)
-					12008,  -- Savannah Ring
-					11967,  -- Zircon Band
+					12008,	-- Savannah Ring
+					11967,	-- Zircon Band
 				}},
 			}),
 			i(5760, {	-- Eternium Lockbox
@@ -132,50 +132,50 @@ root(ROOTS.WorldDrops, {
 				["sym"] = { {
 					"select", "itemID",
 					1728,   -- Teebu's Blazing Longsword [Discord Confirmation - Luce]
-					16215,  -- Formula: Enchant Boots Greater Stamina (RECIPE!)
-					16218,  -- Formula: Enchant Bracer Superior Versatility / CLASSIC: Formula: Enchant Bracer - Superior Spirit (RECIPE!)
-					14494,  -- Pattern: Brightcloth Pants
-					15746,  -- Pattern: Chimeric Leggings (RECIPE!)
-					15755,  -- Pattern: Chimeric Vest (RECIPE!)
-					15743,  -- Pattern: Heavy Scorpid Belt (RECIPE!)
-					14499,  -- Pattern: Mooncloth Bag
-					12689,  -- Plans: Radiant Breastplate (RECIPE!)
-					12695,  -- Plans: Radiant Gloves (RECIPE!)
-					12683,  -- Plans: Thorium Belt (RECIPE!)
-					12693,  -- Plans: Thorium Boots (RECIPE!)
-					12684,  -- Plans: Thorium Bracers (RECIPE!)
-					12694,  -- Plans: Thorium Helm (RECIPE!)
-					12704,  -- Plans: Thorium Leggings (RECIPE!)
-					12691,  -- Plans: Wildthorn Mail (RECIPE!)
+					16215,	-- Formula: Enchant Boots Greater Stamina (RECIPE!)
+					16218,	-- Formula: Enchant Bracer Superior Versatility / CLASSIC: Formula: Enchant Bracer - Superior Spirit (RECIPE!)
+					14494,	-- Pattern: Brightcloth Pants
+					15746,	-- Pattern: Chimeric Leggings (RECIPE!)
+					15755,	-- Pattern: Chimeric Vest (RECIPE!)
+					15743,	-- Pattern: Heavy Scorpid Belt (RECIPE!)
+					14499,	-- Pattern: Mooncloth Bag
+					12689,	-- Plans: Radiant Breastplate (RECIPE!)
+					12695,	-- Plans: Radiant Gloves (RECIPE!)
+					12683,	-- Plans: Thorium Belt (RECIPE!)
+					12693,	-- Plans: Thorium Boots (RECIPE!)
+					12684,	-- Plans: Thorium Bracers (RECIPE!)
+					12694,	-- Plans: Thorium Helm (RECIPE!)
+					12704,	-- Plans: Thorium Leggings (RECIPE!)
+					12691,	-- Plans: Wildthorn Mail (RECIPE!)
 					2163,   -- Shadowblade
-					12044,  -- Arctic Pendant
-					12014,  -- Arctic Ring
+					12044,	-- Arctic Pendant
+					12014,	-- Arctic Ring
 					-- #if AFTER TBC
-					21953,  -- Design: Emerald Owl
-					21949,  -- Design: Ruby Serpent
+					21953,	-- Design: Emerald Owl
+					21949,	-- Design: Ruby Serpent
 					-- #endif
-					12057,  -- Dragonscale Band
-					12046,  -- Jungle Necklace
-					12002,  -- Marble Circle
-					12034,  -- Marble Necklace
-					12004,  -- Obsidian Band
-					12035,  -- Obsidian Pendant
-					12026,  -- Quicksilver Pendant
-					11991,  -- Quicksilver Ring
-					12056,  -- Ring Of The Heavens
-					11976,  -- Sardonyx Knuckle
-					12025,  -- Selenium Chain
-					11990,  -- Selenium Loop
-					11977,  -- Serpentine Loop
-					12055,  -- Stardust Band
-					12015,  -- Swamp Ring
-					11989,  -- Vanadium Loop
+					12057,	-- Dragonscale Band
+					12046,	-- Jungle Necklace
+					12002,	-- Marble Circle
+					12034,	-- Marble Necklace
+					12004,	-- Obsidian Band
+					12035,	-- Obsidian Pendant
+					12026,	-- Quicksilver Pendant
+					11991,	-- Quicksilver Ring
+					12056,	-- Ring Of The Heavens
+					11976,	-- Sardonyx Knuckle
+					12025,	-- Selenium Chain
+					11990,	-- Selenium Loop
+					11977,	-- Serpentine Loop
+					12055,	-- Stardust Band
+					12015,	-- Swamp Ring
+					11989,	-- Vanadium Loop
 				}},
 			}),
 			i(4634,	{	-- Iron Lockbox
 				["sym"] = { {
 					"select", "itemID",
-					11164,  -- Formula: Enchant Weapon - Lesser Beastslayer (RECIPE!)
+					11164,	-- Formula: Enchant Weapon - Lesser Beastslayer (RECIPE!)
 					7449,   -- Pattern: Dusky Leather Leggings (RECIPE!)
 					5774,   -- Pattern: Green Silk Pack
 					7450,   -- Pattern: Green Whelp Armor (RECIPE!)
@@ -189,10 +189,10 @@ root(ROOTS.WorldDrops, {
 					3870,   -- Plans: Green Iron Shoulders (RECIPE!)
 					6045,   -- Plans: Iron Counterweight (RECIPE!)
 					3830,   -- Recipe: Elixir of Fortitude (RECIPE!)
-					10601,  -- Schematic: Bright-Eye Goggles
+					10601,	-- Schematic: Bright-Eye Goggles
 					4416,   -- Schematic: Goblin Land Mine
 					4414,   -- Schematic: Portable Bronze Mortar
-					13063,  -- Starfaller
+					13063,	-- Starfaller
 				}},
 				["groups"] = {
 					i(7678,	{	-- Recipe: Thistle Tea (RECIPE!)
@@ -335,45 +335,45 @@ root(ROOTS.WorldDrops, {
 			i(4637, {	-- Steel Lockbox
 				["sym"] = { {
 					"select", "itemID",
-					11204,  -- Formula: Enchant Bracer - Greater Versatility / CLASSIC: Formula: Enchant Bracer - Greater Versatility (RECIPE!)
-					11202,  -- Formula: Enchant Shield - Stamina (RECIPE!)
+					11204,	-- Formula: Enchant Bracer - Greater Versatility / CLASSIC: Formula: Enchant Bracer - Greater Versatility (RECIPE!)
+					11202,	-- Formula: Enchant Shield - Stamina (RECIPE!)
 					8387,   -- Pattern: Big Voodoo Mask (RECIPE!)
 					8386,   -- Pattern: Big Voodoo Robe (RECIPE!)
-					10312,  -- Pattern: Red Mageweave Gloves
-					10300,  -- Pattern: Red Mageweave Vest
+					10312,	-- Pattern: Red Mageweave Gloves
+					10300,	-- Pattern: Red Mageweave Vest
 					8385,   -- Pattern: Turtle Scale Gloves (RECIPE!)
-					10301,  -- Pattern: White Bandit Mask
+					10301,	-- Pattern: White Bandit Mask
 					7992,   -- Plans: Blue Glittering Axe (RECIPE!)
 					7975,   -- Plans: Heavy Mithril Pants (RECIPE!)
 					7976,   -- Plans: Mithril Shield Spike (RECIPE!)
 					3874,   -- Plans: Polished Steel Boots (RECIPE!)
 					8029,   -- Plans: Wicked Mithril Blade (RECIPE!)
 					9295,   -- Recipe: Invisibility Potion (RECIPE!)
-					10603,  -- Schematic: Catseye Ultra Goggles
+					10603,	-- Schematic: Catseye Ultra Goggles
 					10606   -- Schematic: Parachute Cloak
 				}},
 			}),
 			i(4636, {	-- Strong Iron Lockbox
 				["sym"] = { {
 					"select", "itemID",
-					11167,  -- Formula: Enchant Boots - Lesser Versatility / CLASSIC: Formula: Enchant Boots - Lesser Spirit (RECIPE!)
-					11165,  -- Formula: Enchant Weapon - Lesser Elemental Slayer (RECIPE!)
+					11167,	-- Formula: Enchant Boots - Lesser Versatility / CLASSIC: Formula: Enchant Boots - Lesser Spirit (RECIPE!)
+					11165,	-- Formula: Enchant Weapon - Lesser Elemental Slayer (RECIPE!)
 					7085,   -- Pattern: Azure Shoulders
 					7086,   -- Pattern: Earthen Silk Belt
 					5974,   -- Pattern: Guardian Cloak (RECIPE!)
 					4300,   -- Pattern: Guardian Leather Bracers (RECIPE!)
-					10300,  -- Pattern: Red Mageweave Vest
+					10300,	-- Pattern: Red Mageweave Vest
 					4353,   -- Pattern: Spider Belt
 					8385,   -- Pattern: Turtle Scale Gloves (RECIPE!)
-					10301,  -- Pattern: White Bandit Mask
+					10301,	-- Pattern: White Bandit Mask
 					3874,   -- Plans: Polished Steel Boots (RECIPE!)
 					3869,   -- Plans: Shadow Crescent Axe (RECIPE!)
 					3830,   -- Recipe: Elixir of Fortitude (RECIPE!)
 					3831,   -- Recipe: Major Troll's Blood Elixir (RECIPE!)
-					10601,  -- Schematic: Bright-Eye Goggles
+					10601,	-- Schematic: Bright-Eye Goggles
 					4416,   -- Schematic: Goblin Land Mine
 					4417,   -- Schematic: Large Seaforium Charge
-					10606,  -- Schematic: Parachute Cloak
+					10606,	-- Schematic: Parachute Cloak
 					4414    -- Schematic: Portable Bronze Mortar
 				}},
 				["groups"] = {
@@ -387,19 +387,19 @@ root(ROOTS.WorldDrops, {
 				["sym"] = { {
 					"select", "itemID",
 					4354,   -- Pattern: Rich Purple Silk Shirt [Discord Confirmation - Luce]
-					12002,  -- Formula: Enchant Bracer Superior Stamina
-					12713,  -- Plans: Radiant Leggings (RECIPE!)
+					12002,	-- Formula: Enchant Bracer Superior Stamina
+					12713,	-- Plans: Radiant Leggings (RECIPE!)
 					2163,   -- The Night Blade
-					12046,  -- Dragonscale Band
-					12034,  -- Granite Necklace
-					12004,  -- Jungle Ring
-					12035,  -- Obsidian Band
-					14494,  -- Obsidian Pendant
-					12048,  -- Prismatic Pendant
-					12026,  -- Quicksilver Pendant
-					14499,  -- Quicksilver Ring
-					12056,  -- Ring Of The Heavens
-					12045,  -- Swamp Pendant
+					12046,	-- Dragonscale Band
+					12034,	-- Granite Necklace
+					12004,	-- Jungle Ring
+					12035,	-- Obsidian Band
+					14494,	-- Obsidian Pendant
+					12048,	-- Prismatic Pendant
+					12026,	-- Quicksilver Pendant
+					14499,	-- Quicksilver Ring
+					12056,	-- Ring Of The Heavens
+					12045,	-- Swamp Pendant
 					12027   -- Vermilion Necklace
 				}},
 				-- #if BEFORE MOP
@@ -414,39 +414,39 @@ root(ROOTS.WorldDrops, {
 			i(16884, {	-- Sturdy Junkbox
 				["sym"] = { {
 					"select", "itemID",
-					11974,  -- Aquamarine Ring
-					12043,  -- Desert Choker
+					11974,	-- Aquamarine Ring
+					12043,	-- Desert Choker
 					-- #if AFTER TBC
-					21947,  -- Design: Gem Studded Band
-					21945,  -- Design: The Aquamarine Ward
-					21944,  -- Design: Truesilver Boar
+					21947,	-- Design: Gem Studded Band
+					21945,	-- Design: The Aquamarine Ward
+					21944,	-- Design: Truesilver Boar
 					-- #endif
 					7552,   -- Falcon's Hook
-					12011,  -- Forest Loop
-					11225,  -- Formula: Enchant Bracer - Greater Stamina (RECIPE!)
-					11204,  -- Formula: Enchant Bracer - Greater Versatility / CLASSIC: Formula: Enchant Bracer - Greater Versatility (RECIPE!)
-					11973,  -- Hematite Link
-					11987,  -- Iridium Circle
-					11999,  -- Lodestone Hoop
-					12031,  -- Lodestone Necklace
-					12042,  -- Marsh Chain
-					12012,  -- Marsh Ring
-					12001,  -- Onyx Ring
+					12011,	-- Forest Loop
+					11225,	-- Formula: Enchant Bracer - Greater Stamina (RECIPE!)
+					11204,	-- Formula: Enchant Bracer - Greater Versatility / CLASSIC: Formula: Enchant Bracer - Greater Versatility (RECIPE!)
+					11973,	-- Hematite Link
+					11987,	-- Iridium Circle
+					11999,	-- Lodestone Hoop
+					12031,	-- Lodestone Necklace
+					12042,	-- Marsh Chain
+					12012,	-- Marsh Ring
+					12001,	-- Onyx Ring
 					8387,   -- Pattern: Big Voodoo Mask (RECIPE!)
 					8389,   -- Pattern: Big Voodoo Pants (RECIPE!)
 					8386,   -- Pattern: Big Voodoo Robe (RECIPE!)
-					10320,  -- Pattern: Red Mageweave Headband
+					10320,	-- Pattern: Red Mageweave Headband
 					8385,   -- Pattern: Turtle Scale Gloves (RECIPE!)
-					10301,  -- Pattern: White Bandit Mask
+					10301,	-- Pattern: White Bandit Mask
 					7990,   -- Plans: Heavy Mithril Helm (RECIPE!)
 					8029,   -- Plans: Wicked Mithril Blade (RECIPE!)
 					9298,   -- Recipe: Elixir of Giants (RECIPE!)
 					9295,   -- Recipe: Invisibility Potion (RECIPE!)
 					3395,   -- Recipe: Limited Invulnerability Potion (RECIPE!)
-					10603,  -- Schematic: Catseye Ultra Goggles
-					10606,  -- Schematic: Parachute Cloak
-					11988,  -- Tellurium Band
-					11975,  -- Topaz  Ring
+					10603,	-- Schematic: Catseye Ultra Goggles
+					10606,	-- Schematic: Parachute Cloak
+					11988,	-- Tellurium Band
+					11975,	-- Topaz  Ring
 					12024   -- Vanadium Talisman
 				}},
 			}),
@@ -495,10 +495,10 @@ root(ROOTS.WorldDrops, {
 					116724, -- Oshu'gun Basin
 					116636, -- Oshu'gun Scepter
 					116632, -- Oshu'gun Spellblade
-					116643,  -- Oshu'gun Wand
+					116643,	-- Oshu'gun Wand
 				--	filter(CLOAKS, {
 					116720, -- Ancestral Cloak
-					116723,  -- Oshu'gun Cloak
+					116723,	-- Oshu'gun Cloak
 				--	filter(CLOTH, {
 					106737, -- Dark Star Cord
 					106738, -- Dark Star Cowl
@@ -515,7 +515,7 @@ root(ROOTS.WorldDrops, {
 					106708, -- Voidwrap Robe
 					106709, -- Voidwrap Sandals
 					106710, -- Voidwrap Shoulderpads
-					106711,  -- Voidwrap Wristwraps
+					106711,	-- Voidwrap Wristwraps
 				--	filter(LEATHER, {
 					106729, -- Meadowstomper Bindings
 					106730, -- Meadowstomper Boots
@@ -532,7 +532,7 @@ root(ROOTS.WorldDrops, {
 					106700, -- Sabermaw Hood
 					106701, -- Sabermaw Jerkin
 					106702, -- Sabermaw Shoulders
-					106703,  -- Sabermaw Waistband
+					106703,	-- Sabermaw Waistband
 				--	filter(MAIL, {
 					106745, -- Packrunner Belt
 					106746, -- Packrunner Bracers
@@ -549,7 +549,7 @@ root(ROOTS.WorldDrops, {
 					106716, -- Sunspring Helm
 					106717, -- Sunspring Legguards
 					106718, -- Sunspring Spaulders
-					106719,  -- Sunspring Vest
+					106719,	-- Sunspring Vest
 				--	filter(PLATE, {
 					106687, -- Ironfist Breastplate
 					106688, -- Ironfist Gauntlets
@@ -566,7 +566,7 @@ root(ROOTS.WorldDrops, {
 					106724, -- Stonecrag Legplates
 					106725, -- Stonecrag Pauldrons
 					106726, -- Stonecrag Sabatons
-					106728,  -- Stonecrag Vambraces
+					106728,	-- Stonecrag Vambraces
 				}},
 			}),
 			i(88165, {	-- Vine-Cracked Junkbox

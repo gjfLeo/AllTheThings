@@ -267,14 +267,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 						}),
 						filter(MAIL, {
 							-- HUNTER
-							i(214617), -- Wristguards of the Unblinking Vigil
-							i(214618), -- Breastplate of the Unblinking Vigil
-							i(214619), -- Feet of the Unblinking Vigil
-							i(214620), -- Helmet of the Unblinking Vigil
-							i(214621), -- Grips of the Unblinking Vigil
-							i(214622), -- Girdle of the Unblinking Vigil
-							i(214623), -- Mantle of the Unblinking Vigil
-							i(214624), -- Legwraps of the Unblinking Vigil
+							i(214617),	-- Wristguards of the Unblinking Vigil
+							i(214618),	-- Breastplate of the Unblinking Vigil
+							i(214619),	-- Feet of the Unblinking Vigil
+							i(214620),	-- Helmet of the Unblinking Vigil
+							i(214621),	-- Grips of the Unblinking Vigil
+							i(214622),	-- Girdle of the Unblinking Vigil
+							i(214623),	-- Mantle of the Unblinking Vigil
+							i(214624),	-- Legwraps of the Unblinking Vigil
 							-- SHAMAN
 							i(214695),	-- Breastplate of Celestial Harmony
 							i(214694),	-- Footguards of Celestial Harmony
@@ -485,14 +485,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 						}),
 						filter(MAIL, {
 							-- HUNTER
-							i(214606), -- Legguards of the Unblinking Vigil
-							i(214607), -- Pauldrons of the Unblinking Vigil
-							i(214608), -- Chain of the Unblinking Vigil
-							i(214610), -- Gloves of the Unblinking Vigil
-							i(214611), -- Headguard of the Unblinking Vigil
-							i(214612), -- Sabatons of the Unblinking Vigil
-							i(214613), -- Chestguard of the Unblinking Vigil
-							i(214614), -- Armbands of the Unblinking Vigil
+							i(214606),	-- Legguards of the Unblinking Vigil
+							i(214607),	-- Pauldrons of the Unblinking Vigil
+							i(214608),	-- Chain of the Unblinking Vigil
+							i(214610),	-- Gloves of the Unblinking Vigil
+							i(214611),	-- Headguard of the Unblinking Vigil
+							i(214612),	-- Sabatons of the Unblinking Vigil
+							i(214613),	-- Chestguard of the Unblinking Vigil
+							i(214614),	-- Armbands of the Unblinking Vigil
 							-- SHAMAN
 							i(214681),	-- Armbands of Celestial Harmony
 							i(214686),	-- Chain of Celestial Harmony
@@ -699,14 +699,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 						}),
 						filter(MAIL, {
 							-- HUNTER
-							i(214625), -- Leggings of the Unblinking Vigil
-							i(214626), -- Spaulders of the Unblinking Vigil
-							i(214627), -- Belt of the Unblinking Vigil
-							i(214628), -- Gauntlets of the Unblinking Vigil
-							i(214629), -- Helm of the Unblinking Vigil
-							i(214630), -- Boots of the Unblinking Vigil
-							i(214631), -- Hauberk of the Unblinking Vigil
-							i(214632), -- Bracers of the Unblinking Vigil
+							i(214625),	-- Leggings of the Unblinking Vigil
+							i(214626),	-- Spaulders of the Unblinking Vigil
+							i(214627),	-- Belt of the Unblinking Vigil
+							i(214628),	-- Gauntlets of the Unblinking Vigil
+							i(214629),	-- Helm of the Unblinking Vigil
+							i(214630),	-- Boots of the Unblinking Vigil
+							i(214631),	-- Hauberk of the Unblinking Vigil
+							i(214632),	-- Bracers of the Unblinking Vigil
 							-- SHAMAN
 							i(214702),	-- Belt of Celestial Harmony
 							i(214699),	-- Boots of Celestial Harmony
@@ -967,14 +967,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 						}),
 						filter(MAIL, {
 							-- HUNTER
-							i(214606), -- Legguards of the Unblinking Vigil
-							i(214607), -- Pauldrons of the Unblinking Vigil
-							i(214608), -- Chain of the Unblinking Vigil
-							i(214610), -- Gloves of the Unblinking Vigil
-							i(214611), -- Headguard of the Unblinking Vigil
-							i(214612), -- Sabatons of the Unblinking Vigil
-							i(214613), -- Chestguard of the Unblinking Vigil
-							i(214614), -- Armbands of the Unblinking Vigil
+							i(214606),	-- Legguards of the Unblinking Vigil
+							i(214607),	-- Pauldrons of the Unblinking Vigil
+							i(214608),	-- Chain of the Unblinking Vigil
+							i(214610),	-- Gloves of the Unblinking Vigil
+							i(214611),	-- Headguard of the Unblinking Vigil
+							i(214612),	-- Sabatons of the Unblinking Vigil
+							i(214613),	-- Chestguard of the Unblinking Vigil
+							i(214614),	-- Armbands of the Unblinking Vigil
 							-- SHAMAN
 							i(214681),	-- Armbands of Celestial Harmony
 							i(214686),	-- Chain of Celestial Harmony
@@ -985,14 +985,14 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 							i(214687),	-- Pauldrons of Celestial Harmony
 							i(214683),	-- Sabatons of Celestial Harmony
 							-- HUNTER (shared with HC)
-							i(214625), -- Leggings of the Unblinking Vigil
-							i(214626), -- Spaulders of the Unblinking Vigil
-							i(214627), -- Belt of the Unblinking Vigil
-							i(214628), -- Gauntlets of the Unblinking Vigil
-							i(214629), -- Helm of the Unblinking Vigil
-							i(214630), -- Boots of the Unblinking Vigil
-							i(214631), -- Hauberk of the Unblinking Vigil
-							i(214632), -- Bracers of the Unblinking Vigil
+							i(214625),	-- Leggings of the Unblinking Vigil
+							i(214626),	-- Spaulders of the Unblinking Vigil
+							i(214627),	-- Belt of the Unblinking Vigil
+							i(214628),	-- Gauntlets of the Unblinking Vigil
+							i(214629),	-- Helm of the Unblinking Vigil
+							i(214630),	-- Boots of the Unblinking Vigil
+							i(214631),	-- Hauberk of the Unblinking Vigil
+							i(214632),	-- Bracers of the Unblinking Vigil
 							-- SHAMAN (shared with HC)
 							i(214702),	-- Belt of Celestial Harmony
 							i(214699),	-- Boots of Celestial Harmony

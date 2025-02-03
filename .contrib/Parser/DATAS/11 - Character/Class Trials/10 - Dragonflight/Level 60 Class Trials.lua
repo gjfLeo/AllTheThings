@@ -12,7 +12,7 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 			["description"] = "These are gained by creating a Level 60 Trial of that particular class.  Each class has one default spec except Shamans, Druids and Hunters.",
 			["lvl"] = 60,
 			["groups"] = {
-				i(185940), -- Pristine Survival Kit
+				i(185940),	-- Pristine Survival Kit
 				cl(DEATHKNIGHT, {
 					i(187659, {	-- Adventurer's Footlocker
 						i(170591),	-- Heart-Lesion Blade
@@ -57,8 +57,8 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				}),
 				cl(DRUID, {
 					i(187659, {	-- Adventurer's Footlocker
-						i(170617), -- Springrain Spear
-						i(170611), -- Springrain Stave
+						i(170617),	-- Springrain Spear
+						i(170611),	-- Springrain Stave
 					}),
 					cl(DRUID, BALANCE, {
 						i(153760),	-- Springrain Stave

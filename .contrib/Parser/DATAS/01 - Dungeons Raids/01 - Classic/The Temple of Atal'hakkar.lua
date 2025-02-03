@@ -107,7 +107,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(QUESTS, {
 				applyclassicphase(PHASE_FOUR_SUNKEN_TEMPLE_CLASS_QUESTS, q(9053, {	-- A Better Ingredient
 					["qg"] = 9619,	-- Torwa Pathfinder
-					["sourceQuest"] = 9051,  -- Toxic Test
+					["sourceQuest"] = 9051,	-- Toxic Test
 					["coord"] = { 71.6, 76.0, UNGORO_CRATER },
 					["timeline"] = { REMOVED_4_0_3 },
 					["classes"] = { DRUID },
@@ -794,7 +794,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					n(QUESTS, {
 						q(82112, {	-- A Better Ingredient
 							["qg"] = 9619,	-- Torwa Pathfinder
-							--["sourceQuest"] = 9051,  -- Toxic Test
+							--["sourceQuest"] = 9051,	-- Toxic Test
 							["coord"] = { 71.6, 76.0, UNGORO_CRATER },
 							["classes"] = { DRUID },
 							["lvl"] = 50,

@@ -1796,7 +1796,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(1194, {	-- Rizzle's Schematics
 					["providers"] = {
-						{ "o", 20805 }, -- Rizzle's Unguarded Plans
+						{ "o", 20805 },	-- Rizzle's Unguarded Plans
 						{ "i", 5866 },	-- Sample of Indurium Ore
 					},
 					["sourceQuest"] = 1190,	-- Keeping Pace

@@ -2821,7 +2821,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(4962, {	-- Shard of a Felhound
 					["qg"] = 6254,	-- Acolyte Wytula
-					["altQuests"] = { 4963 }, -- Shard of an Infernal
+					["altQuests"] = { 4963 },	-- Shard of an Infernal
 					["coord"] = { 62.5, 35.5, THE_BARRENS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { DESOLACE },
@@ -2846,7 +2846,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(4963, {   -- Shard of an Infernal
 					["qg"] = 6252, -- Acolyte Magaz
-					["altQuests"] = { 4962 }, -- Shard of a Felhound
+					["altQuests"] = { 4962 },	-- Shard of a Felhound
 					["coord"] = { 62.6, 35.2, THE_BARRENS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { DESOLACE },
@@ -3935,8 +3935,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 					["description"] = "Roams around the waterfall just outside the Wailing Caverns dungeon portal.",
 					["groups"] = {
-						i(5423),  -- Boahn's Fang
-						i(5422),  -- Brambleweed Leggings
+						i(5423),	-- Boahn's Fang
+						i(5422),	-- Brambleweed Leggings
 					},
 				}),
 				n(5838, {	-- Brokespear

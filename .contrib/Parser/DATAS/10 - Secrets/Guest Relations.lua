@@ -344,7 +344,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							["coord"] = { 54.0, 72.8, BORALUS },
 							["g"] = {
 								i(232363, {	-- Half-Eaten Mouse
-									["cost"] = {{ "i", 232362, 1 }}, -- Deluxe Tuna
+									["cost"] = {{ "i", 232362, 1 }},	-- Deluxe Tuna
 								}),
 							},
 						}),
@@ -1193,7 +1193,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			i(44124, {	-- Peculiar Key
 				["description"] = "Once reformed, go to the entrance of the Karazhan Catacombs in Deadwind Pass and use your Torch of Pyrreth by the gate to teleport into a secret scenario.",
 				["cost"] = {
-					{ "i", 228941, 1 }, -- Inert Peculiar Key
+					{ "i", 228941, 1 },	-- Inert Peculiar Key
 					{ "i", 228938, 1 },	-- Peculiar Gem
 				},
 			}),
@@ -1446,7 +1446,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 									{ 50.45, 91.67, AZSUNA },
 									{ 47.48, 84.74, AZSUNA },
 									{ 45.97, 84.06, AZSUNA },
-								}, -- TODO: if we REALLY want to, we could source objectids for each statue but it'd be trial and error with coordinates since wowhead is missing data and debugger doesn't report.
+								},	-- TODO: if we REALLY want to, we could source objectids for each statue but it'd be trial and error with coordinates since wowhead is missing data and debugger doesn't report.
 								["g"] = {
 									hqt(39353, {	-- Empower your owl with the red statue aura
 										["name"] = "Empower your owl with the red statue aura",

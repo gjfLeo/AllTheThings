@@ -1490,7 +1490,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["coord"] = { 54.6, 18.4, STORMWIND_CITY },
 			}),
 			q(54977, {	-- Into Duskwood
-				["sourceQuests"] = { 54976 }, -- The Shadow of Gilneas
+				["sourceQuests"] = { 54976 },	-- The Shadow of Gilneas
 				["provider"] = { "n", 151784 },	-- Mia Greymane
 				["coord"] = { 82.3, 27.8, STORMWIND_CITY },
 			}),

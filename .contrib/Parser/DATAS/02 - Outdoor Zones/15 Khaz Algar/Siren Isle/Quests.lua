@@ -374,8 +374,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["provider"] = { "n", 235250 },	-- Mature Prismatic Snapdragon
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["g"] = {
-					i(233489), -- Prismatic Snapdragon (MOUNT!)
-					i(233493), -- Teal Snapdragon Treat TODO: need a better way to solve this, since it will (un)flag this item after changing colors.
+					i(233489),	-- Prismatic Snapdragon (MOUNT!)
+					i(233493),	-- Teal Snapdragon Treat TODO: need a better way to solve this, since it will (un)flag this item after changing colors.
 				},
 			}),
 			q(86486, {	-- Hungry, Hungry Snapdragon

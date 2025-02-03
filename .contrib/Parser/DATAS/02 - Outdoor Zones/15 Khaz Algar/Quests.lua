@@ -644,10 +644,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["provider"] = { "n", 225355 },	-- Archmage Aethas Sunreaver
 					["coord"] = { 29.5, 58.1, ISLE_OF_DORN },
 					["g"] = {
-						i(225662), -- Arcane Dust (QI!)
-						i(225895), -- Frostfire Essence (QI!)
+						i(225662),	-- Arcane Dust (QI!)
+						i(225895),	-- Frostfire Essence (QI!)
 						o(454205, { -- Radiant Prism Crystals
-							i(225663), -- Radiant Prism Crystals (QI!)
+							i(225663),	-- Radiant Prism Crystals (QI!)
 						}),
 					},
 				}),
@@ -680,7 +680,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["provider"] = { "n", 227063 },	-- Kalecgos
 					["coord"] = { 61.7, 41.5, ISLE_OF_DORN },
 					["g"] = {
-						i(225920), -- Stolen Kirin Tor Artifacts (QI!)
+						i(225920),	-- Stolen Kirin Tor Artifacts (QI!)
 						o(454707, { -- Bag of Stolen Goods
 							["coords"] = {
 								{ 62.1, 40.6, ISLE_OF_DORN },
@@ -689,7 +689,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 								{ 64.3, 43.0, ISLE_OF_DORN },
 								{ 63.2, 45.2, ISLE_OF_DORN },
 							},
-							["g"] = { i(226162), }, -- Arcane Manuscript (QI!)
+							["g"] = { i(226162), },	-- Arcane Manuscript (QI!)
 						}),
 					},
 				}),
@@ -740,15 +740,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["g"] = {
 						o(465294, { -- Antonidas' Introduction to Arcane Magic
 							["coord"] = { 35.7, 51.4, AZJ_KAHET },
-							["g"] = { i(228820), }, -- Antonidas' Introduction to Arcane Magic (QI!)
+							["g"] = { i(228820), },	-- Antonidas' Introduction to Arcane Magic (QI!)
 						}),
 						o(465295, { -- Medivh's Karazhan Schematics
 							["coord"] = { 35.1, 51.2, AZJ_KAHET },
-							["g"] = { i(228821), }, -- Medivh's Karazhan Schematics (QI!)
+							["g"] = { i(228821), },	-- Medivh's Karazhan Schematics (QI!)
 						}),
 						o(465300, { -- Thalen Songweaver's Notes
 							["coord"] = { 36.1, 52.6, AZJ_KAHET },
-							["g"] = { i(228823), }, -- Thalen Songweaver's Notes (QI!)
+							["g"] = { i(228823), },	-- Thalen Songweaver's Notes (QI!)
 						}),
 					},
 				}),

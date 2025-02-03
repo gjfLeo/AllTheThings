@@ -160,7 +160,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 	}),
 	n(QUESTS, {
 		q(8882, {	-- Cluster Launcher
-			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
+			["qg"] = 15909,	-- Fariel Starsong <Coin of Ancestry Collector>
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["timeline"] = { REMOVED_3_0_8 },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
@@ -176,7 +176,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(8880, {	-- Cluster Rockets
-			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
+			["qg"] = 15909,	-- Fariel Starsong <Coin of Ancestry Collector>
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["timeline"] = { REMOVED_3_0_8 },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
@@ -287,7 +287,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(8862, {	-- Elune's Candle
-			["qg"] = 15864,  -- Valadar Starsong
+			["qg"] = 15864,	-- Valadar Starsong
 			["coord"] = { 53.6, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -301,7 +301,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			-- #endif
 		}),
 		q(8863, {	-- Festival Dumplings
-			["qg"] = 15864,  -- Valadar Starsong
+			["qg"] = 15864,	-- Valadar Starsong
 			["coord"] = { 53.6, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 1 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -313,7 +313,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			-- #endif
 		}),
 		q(8864, {	-- Festive Lunar Dresses
-			["qg"] = 15864,  -- Valadar Starsong
+			["qg"] = 15864,	-- Valadar Starsong
 			["coord"] = { 53.6, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -328,7 +328,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			-- #endif
 		}),
 		q(8865, {	-- Festive Lunar Pant Suits
-			["qg"] = 15864,  -- Valadar Starsong
+			["qg"] = 15864,	-- Valadar Starsong
 			["coord"] = { 53.6, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -343,7 +343,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			-- #endif
 		}),
 		q(8878, {	-- Festive Recipes
-			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
+			["qg"] = 15909,	-- Fariel Starsong <Coin of Ancestry Collector>
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -362,7 +362,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(8877, {	-- Firework Launcher
-			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
+			["qg"] = 15909,	-- Fariel Starsong <Coin of Ancestry Collector>
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -378,7 +378,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			},
 		}),
 		q(8881, {	-- Large Cluster Rockets
-			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
+			["qg"] = 15909,	-- Fariel Starsong <Coin of Ancestry Collector>
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -396,7 +396,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			-- #endif
 		}),
 		q(8879, {	-- Large Rockets
-			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
+			["qg"] = 15909,	-- Fariel Starsong <Coin of Ancestry Collector>
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -464,7 +464,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["description"] = "Only a very few moonwells in faction-neutral locations counts for this quest. If you happen to lose the 'Blessing of the Moon'-buff due to death, you can continue as you still have the buff and turn in the quest without having to revisit moonwells.",
 		}),
 		q(8876, {	-- Small Rockets
-			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
+			["qg"] = 15909,	-- Fariel Starsong <Coin of Ancestry Collector>
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["cost"] = { { "i", 21100, 5 } },	-- Coin of Ancestry
 			["timeline"] = { REMOVED_3_0_8 },
@@ -1499,33 +1499,33 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				i(21740, {	-- Small Rocket Recipes
 					["cost"] = { { "i", 21100, 5 } },	-- 5x Coin of Ancestry
 					["groups"] = {
-						i(21724),  -- Schematic: Small Blue Rocket (RECIPE!)
-						i(21725),  -- Schematic: Small Green Rocket (RECIPE!)
-						i(21726),  -- Schematic: Small Red Rocket (RECIPE!)
+						i(21724),	-- Schematic: Small Blue Rocket (RECIPE!)
+						i(21725),	-- Schematic: Small Green Rocket (RECIPE!)
+						i(21726),	-- Schematic: Small Red Rocket (RECIPE!)
 					},
 				}),
 				i(21742, {	-- Large Rocket Recipes
 					["cost"] = { { "i", 21100, 5 } },	-- 5x Coin of Ancestry
 					["groups"] = {
-						i(21727),  -- Schematic: Large Blue Rocket (RECIPE!)
-						i(21728),  -- Schematic: Large Green Rocket (RECIPE!)
-						i(21729),  -- Schematic: Large Red Rocket (RECIPE!)
+						i(21727),	-- Schematic: Large Blue Rocket (RECIPE!)
+						i(21728),	-- Schematic: Large Green Rocket (RECIPE!)
+						i(21729),	-- Schematic: Large Red Rocket (RECIPE!)
 					},
 				}),
 				i(21741, {	-- Cluster Rocket Recipes
 					["cost"] = { { "i", 21100, 5 } },	-- 5x Coin of Ancestry
 					["groups"] = {
-						i(21730),  -- Schematic: Blue Rocket Cluster (RECIPE!)
-						i(21731),  -- Schematic: Green Rocket Cluster (RECIPE!)
-						i(21732),  -- Schematic: Red Rocket Cluster (RECIPE!)
+						i(21730),	-- Schematic: Blue Rocket Cluster (RECIPE!)
+						i(21731),	-- Schematic: Green Rocket Cluster (RECIPE!)
+						i(21732),	-- Schematic: Red Rocket Cluster (RECIPE!)
 					},
 				}),
 				i(21743, {	-- Large Cluster Rocket Recipes
 					["cost"] = { { "i", 21100, 5 } },	-- 5x Coin of Ancestry
 					["groups"] = {
-						i(21733),  -- Schematic: Large Blue Rocket Cluster (RECIPE!)
-						i(21734),  -- Schematic: Large Green Rocket Cluster (RECIPE!)
-						i(21735),  -- Schematic: Large Red Rocket Cluster (RECIPE!)
+						i(21733),	-- Schematic: Large Blue Rocket Cluster (RECIPE!)
+						i(21734),	-- Schematic: Large Green Rocket Cluster (RECIPE!)
+						i(21735),	-- Schematic: Large Red Rocket Cluster (RECIPE!)
 					},
 				}),
 				i(44919, {	-- Schematic: Firework Launcher (RECIPE!)

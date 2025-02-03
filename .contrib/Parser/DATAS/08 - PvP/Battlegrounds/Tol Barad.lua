@@ -49,7 +49,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				ach(5486),	-- Tol Barad All-Star
 				ach(5487),	-- Tol Barad Saboteur
 				a(ach(5417)),	-- Tol Barad Veteran
-				h(ach(5418)), -- Tol Barad Veteran
+				h(ach(5418)),	-- Tol Barad Veteran
 				ach(5412),	-- Tol Barad Victory
 				ach(5488),	-- Towers of Power
 				ach(5415),	-- Tower Plower
@@ -415,12 +415,12 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 			n(QUESTS, sharedData({ -- Rotating questgivers in Tol Barad
 				["sharedDescription"] = "This questgiver shares it's spawn with two other quest givers. Win the battle of Tol Barad to have a chance at getting a different questgiver offering other quests in it's place.",
 			}, {
-				n(48039), -- Commander Stevens
-				n(48061), -- 2nd Lieutenant Wansworth
-				n(48062), -- Staff Sergeant Lazgar
-				n(48070), -- Drillmaster Razgoth
-				n(48071), -- Private Garnoth
-				n(48074), -- Marshal Fallows
+				n(48039),	-- Commander Stevens
+				n(48061),	-- 2nd Lieutenant Wansworth
+				n(48062),	-- Staff Sergeant Lazgar
+				n(48070),	-- Drillmaster Razgoth
+				n(48071),	-- Private Garnoth
+				n(48074),	-- Marshal Fallows
 			})),
 			-- Helpful event descriptions
 			n(45344, {	-- Abandoned Siege Engine

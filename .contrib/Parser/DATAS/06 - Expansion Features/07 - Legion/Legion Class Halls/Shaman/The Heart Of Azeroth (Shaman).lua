@@ -79,7 +79,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							{ "n", 106519 },	-- Farseer Nobundo
 						},
 						["coords"] = {
-							{ 30.3, 51.6, 725 }, -- The Maelstrom (Scenario Map)
+							{ 30.3, 51.6, 725 },	-- The Maelstrom (Scenario Map)
 							{ 31.6, 76.2, THE_HEART_Of_AZEROTH },
 						},
 					}),

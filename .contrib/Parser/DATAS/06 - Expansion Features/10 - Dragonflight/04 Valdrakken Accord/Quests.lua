@@ -483,7 +483,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 								},
 							}),
 							q(77341, {	-- Logotyrapy
-								["sourceQuests"] = { 77344 }, -- Time to Process
+								["sourceQuests"] = { 77344 },	-- Time to Process
 								["provider"] = { "i", 208826 },	-- Letter from Valunei (QI!)
 								["maps"] = { THALDRASZUS },
 								["groups"] = {

@@ -2269,7 +2269,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(27593, {	-- Rebirth of the K.E.F
 					["qg"] = 45840,	-- Warlord Goretooth
-					["sourceQuest"] = 27591,  -- The Dark Iron Pact [Horde]
+					["sourceQuest"] = 27591,	-- The Dark Iron Pact [Horde]
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {

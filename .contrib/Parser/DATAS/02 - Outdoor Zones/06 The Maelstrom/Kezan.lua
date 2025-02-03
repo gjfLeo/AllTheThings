@@ -241,7 +241,7 @@ root(ROOTS.Zones, {
 				n(VENDORS, {
 					n(37761, {	--	Sally "Salvager" Sandscrew <Armor Vendor>
 						["coord"] = { 59.8, 72.6, KEZAN },
-						["sym"] = { { "sub", "common_vendor", 49884 } }, -- Sally "Salvager" Sandscrew <Armor Vendor>
+						["sym"] = { { "sub", "common_vendor", 49884 } },	-- Sally "Salvager" Sandscrew <Armor Vendor>
 					}),
 				}),
 			},

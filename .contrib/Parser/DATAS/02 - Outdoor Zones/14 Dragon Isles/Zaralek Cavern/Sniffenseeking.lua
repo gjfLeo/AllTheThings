@@ -152,7 +152,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 					}),
 					q(76014, {  -- Living Statue
 						["g"] = {
-							i(205938),  -- Heated Titan Key
+							i(205938),	-- Heated Titan Key
 						},
 					}),
 					q(76027, {	-- Flapping and Screaming
@@ -165,7 +165,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 					}),
 					q(76016, {  -- The Living Drill
 						["g"] = {
-							i(205941),  -- Spit-covered Key
+							i(205941),	-- Spit-covered Key
 						},
 					}),
 				})),

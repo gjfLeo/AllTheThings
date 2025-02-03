@@ -106,47 +106,47 @@ root(ROOTS.Zones, {
 						pet(838, {	-- Amethyst Shale Hatchling (PET!)
 							["description"] = "The biggest concentration can be found in Desolace, the purple section of open world Maraudon. Can also be found in Deepholm around Therazane's Throne, in Silvermarsh, as well as scattered around Temple of Earth.",
 							["coords"] = {
-								{ 26.8, 43.5, DESOLACE }, -- Maraudon entrance
-								{ 57.0, 13.2, DEEPHOLM }, -- Therazane's Throne
-								{ 72.0, 62.7, DEEPHOLM }, -- Silvermarsh
+								{ 26.8, 43.5, DESOLACE },	-- Maraudon entrance
+								{ 57.0, 13.2, DEEPHOLM },	-- Therazane's Throne
+								{ 72.0, 62.7, DEEPHOLM },	-- Silvermarsh
 							},
 						}),
 						pet(559, {	-- Crimson Geode (PET!)
 							["description"] = "Found around Crimson Expanse.",
-							["coord"] = { 73.0, 42.0, DEEPHOLM }, -- Crimson Expanse
+							["coord"] = { 73.0, 42.0, DEEPHOLM },	-- Crimson Expanse
 						}),
 						pet(554, {	-- Crimson Shale Hatchling (PET!)
 							["description"] = "Found around Crimson Expanse.",
-							["coord"] = { 73.0, 42.0, DEEPHOLM }, -- Crimson Expanse
+							["coord"] = { 73.0, 42.0, DEEPHOLM },	-- Crimson Expanse
 						}),
 						pet(556, {	-- Crystal Beetle (PET!)
 							["description"] = "Found scattered around Temple of Earth.",
-							["coord"] = { 53.0, 42.0, DEEPHOLM }, -- Northeast of Temple of Earth
+							["coord"] = { 53.0, 42.0, DEEPHOLM },	-- Northeast of Temple of Earth
 						}),
 						pet(555, {	-- Deepholm Cockroach (PET!)
 							["description"] = "Found scattered around Temple of Earth.",
-							["coord"] = { 53.0, 42.0, DEEPHOLM }, -- Northeast of Temple of Earth
+							["coord"] = { 53.0, 42.0, DEEPHOLM },	-- Northeast of Temple of Earth
 						}),
 						pet(837, {	-- Emerald Shale Hatchling (PET!)
 							["description"] = "Found around The Quaking Fields, as well as in smaller concentrations elsewhere in Deepholm.",
 							["coords"] = {
-								{ 38.5, 84.0, DEEPHOLM }, -- The Quaking Fields
-								{ 29.9, 47.9, DEEPHOLM }, -- East of Needlerock Slag
-								{ 44.9, 43.5, DEEPHOLM }, -- Northwest of Temple of Earth
-								{ 60.4, 45.8, DEEPHOLM }, -- Rift east of Temple of Earth
+								{ 38.5, 84.0, DEEPHOLM },	-- The Quaking Fields
+								{ 29.9, 47.9, DEEPHOLM },	-- East of Needlerock Slag
+								{ 44.9, 43.5, DEEPHOLM },	-- Northwest of Temple of Earth
+								{ 60.4, 45.8, DEEPHOLM },	-- Rift east of Temple of Earth
 							},
 						}),
 						pet(756, {	-- Fungal Moth (PET!)
 							["description"] = "Found scattered around Silvermarsh, Needlerock Slag and Chasm, as well as Verlok Stand.",
 							["coords"] = {
-								{ 23.7, 44.7, DEEPHOLM }, -- Needlerock
-								{ 70.9, 25.4, DEEPHOLM }, -- Verlok Stand
-								{ 72.0, 62.7, DEEPHOLM }, -- Silvermarsh
+								{ 23.7, 44.7, DEEPHOLM },	-- Needlerock
+								{ 70.9, 25.4, DEEPHOLM },	-- Verlok Stand
+								{ 72.0, 62.7, DEEPHOLM },	-- Silvermarsh
 							},
 						}),
 						pet(553, {	-- Stowaway Rat (PET!)
 							["description"] = "Is most commonly found as secondary pet in Deepholm.",
-							["coord"] = { 56.45, 74.5, DEEPHOLM }, -- Storm's Fury Wreckage
+							["coord"] = { 56.45, 74.5, DEEPHOLM },	-- Storm's Fury Wreckage
 						}),
 					},
 				}),

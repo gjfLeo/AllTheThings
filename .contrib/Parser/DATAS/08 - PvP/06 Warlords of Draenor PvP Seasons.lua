@@ -126,120 +126,120 @@ root(ROOTS.PVP, {
 				["g"] = {
 					n(PVP_ASPIRANT, {
 						cl(DEATHKNIGHT, {
-							un(REMOVED_FROM_GAME, i(115197)), -- Primal Aspirant's Dreadplate Chestpiece (A)
-							un(REMOVED_FROM_GAME, i(115198)), -- Primal Aspirant's Dreadplate Gauntlets (A)
-							un(REMOVED_FROM_GAME, i(115199)), -- Primal Aspirant's Dreadplate Helm (A)
-							un(REMOVED_FROM_GAME, i(115200)), -- Primal Aspirant's Dreadplate Legguards (A)
-							un(REMOVED_FROM_GAME, i(115201)), -- Primal Aspirant's Dreadplate Shoulders (A)
+							un(REMOVED_FROM_GAME, i(115197)),	-- Primal Aspirant's Dreadplate Chestpiece (A)
+							un(REMOVED_FROM_GAME, i(115198)),	-- Primal Aspirant's Dreadplate Gauntlets (A)
+							un(REMOVED_FROM_GAME, i(115199)),	-- Primal Aspirant's Dreadplate Helm (A)
+							un(REMOVED_FROM_GAME, i(115200)),	-- Primal Aspirant's Dreadplate Legguards (A)
+							un(REMOVED_FROM_GAME, i(115201)),	-- Primal Aspirant's Dreadplate Shoulders (A)
 						}),
 						cl(DRUID, {
-							un(REMOVED_FROM_GAME, i(115202)), -- Primal Aspirant's Dragonhide Gloves (A)
-							un(REMOVED_FROM_GAME, i(115203)), -- Primal Aspirant's Dragonhide Helm (A)
-							un(REMOVED_FROM_GAME, i(115204)), -- Primal Aspirant's Dragonhide Legguards (A)
-							un(REMOVED_FROM_GAME, i(115205)), -- Primal Aspirant's Dragonhide Tunic (A)
-							un(REMOVED_FROM_GAME, i(115206)), -- Primal Aspirant's Dragonhide Spaulders (A)
+							un(REMOVED_FROM_GAME, i(115202)),	-- Primal Aspirant's Dragonhide Gloves (A)
+							un(REMOVED_FROM_GAME, i(115203)),	-- Primal Aspirant's Dragonhide Helm (A)
+							un(REMOVED_FROM_GAME, i(115204)),	-- Primal Aspirant's Dragonhide Legguards (A)
+							un(REMOVED_FROM_GAME, i(115205)),	-- Primal Aspirant's Dragonhide Tunic (A)
+							un(REMOVED_FROM_GAME, i(115206)),	-- Primal Aspirant's Dragonhide Spaulders (A)
 						}),
 						cl(HUNTER, {
-							un(REMOVED_FROM_GAME, i(115207)), -- Primal Aspirant's Chain Armor (A)
-							un(REMOVED_FROM_GAME, i(115208)), -- Primal Aspirant's Chain Gauntlets (A)
-							un(REMOVED_FROM_GAME, i(115209)), -- Primal Aspirant's Chain Helm (A)
-							un(REMOVED_FROM_GAME, i(115210)), -- Primal Aspirant's Chain Leggings (A)
-							un(REMOVED_FROM_GAME, i(115211)), -- Primal Aspirant's Chain Spaulders (A)
+							un(REMOVED_FROM_GAME, i(115207)),	-- Primal Aspirant's Chain Armor (A)
+							un(REMOVED_FROM_GAME, i(115208)),	-- Primal Aspirant's Chain Gauntlets (A)
+							un(REMOVED_FROM_GAME, i(115209)),	-- Primal Aspirant's Chain Helm (A)
+							un(REMOVED_FROM_GAME, i(115210)),	-- Primal Aspirant's Chain Leggings (A)
+							un(REMOVED_FROM_GAME, i(115211)),	-- Primal Aspirant's Chain Spaulders (A)
 						}),
 						cl(MAGE, {
-							un(REMOVED_FROM_GAME, i(115220)), -- Primal Aspirant's Silk Handguards (A)
-							un(REMOVED_FROM_GAME, i(115221)), -- Primal Aspirant's Silk Cowl (A)
-							un(REMOVED_FROM_GAME, i(115222)), -- Primal Aspirant's Silk Trousers (A)
-							un(REMOVED_FROM_GAME, i(115223)), -- Primal Aspirant's Silk Robe (A)
-							un(REMOVED_FROM_GAME, i(115224)), -- Primal Aspirant's Silk Amice (A)
+							un(REMOVED_FROM_GAME, i(115220)),	-- Primal Aspirant's Silk Handguards (A)
+							un(REMOVED_FROM_GAME, i(115221)),	-- Primal Aspirant's Silk Cowl (A)
+							un(REMOVED_FROM_GAME, i(115222)),	-- Primal Aspirant's Silk Trousers (A)
+							un(REMOVED_FROM_GAME, i(115223)),	-- Primal Aspirant's Silk Robe (A)
+							un(REMOVED_FROM_GAME, i(115224)),	-- Primal Aspirant's Silk Amice (A)
 						}),
 						cl(MONK, {
-							un(REMOVED_FROM_GAME, i(115228)), -- Primal Aspirant's Ironskin Gloves (A)
-							un(REMOVED_FROM_GAME, i(115229)), -- Primal Aspirant's Ironskin Helm (A)
-							un(REMOVED_FROM_GAME, i(115230)), -- Primal Aspirant's Ironskin Legguards (A)
-							un(REMOVED_FROM_GAME, i(115231)), -- Primal Aspirant's Ironskin Spaulders (A)
-							un(REMOVED_FROM_GAME, i(115232)), -- Primal Aspirant's Ironskin Tunic (A)
+							un(REMOVED_FROM_GAME, i(115228)),	-- Primal Aspirant's Ironskin Gloves (A)
+							un(REMOVED_FROM_GAME, i(115229)),	-- Primal Aspirant's Ironskin Helm (A)
+							un(REMOVED_FROM_GAME, i(115230)),	-- Primal Aspirant's Ironskin Legguards (A)
+							un(REMOVED_FROM_GAME, i(115231)),	-- Primal Aspirant's Ironskin Spaulders (A)
+							un(REMOVED_FROM_GAME, i(115232)),	-- Primal Aspirant's Ironskin Tunic (A)
 						}),
 						cl(PALADIN, {
-							un(REMOVED_FROM_GAME, i(115233)), -- Primal Aspirant's Scaled Chestpiece (A)
-							un(REMOVED_FROM_GAME, i(115234)), -- Primal Aspirant's Scaled Gauntlets (A)
-							un(REMOVED_FROM_GAME, i(115235)), -- Primal Aspirant's Scaled Helm (A)
-							un(REMOVED_FROM_GAME, i(115236)), -- Primal Aspirant's Scaled Legguards (A)
-							un(REMOVED_FROM_GAME, i(115237)), -- Primal Aspirant's Scaled Shoulders (A)
+							un(REMOVED_FROM_GAME, i(115233)),	-- Primal Aspirant's Scaled Chestpiece (A)
+							un(REMOVED_FROM_GAME, i(115234)),	-- Primal Aspirant's Scaled Gauntlets (A)
+							un(REMOVED_FROM_GAME, i(115235)),	-- Primal Aspirant's Scaled Helm (A)
+							un(REMOVED_FROM_GAME, i(115236)),	-- Primal Aspirant's Scaled Legguards (A)
+							un(REMOVED_FROM_GAME, i(115237)),	-- Primal Aspirant's Scaled Shoulders (A)
 						}),
 						cl(PRIEST, {
-							un(REMOVED_FROM_GAME, i(115241)), -- Primal Aspirant's Satin Gloves (A)
-							un(REMOVED_FROM_GAME, i(115242)), -- Primal Aspirant's Satin Hood (A)
-							un(REMOVED_FROM_GAME, i(115243)), -- Primal Aspirant's Satin Leggings (A)
-							un(REMOVED_FROM_GAME, i(115244)), -- Primal Aspirant's Satin Robe (A)
-							un(REMOVED_FROM_GAME, i(115245)), -- Primal Aspirant's Satin Mantle (A)
+							un(REMOVED_FROM_GAME, i(115241)),	-- Primal Aspirant's Satin Gloves (A)
+							un(REMOVED_FROM_GAME, i(115242)),	-- Primal Aspirant's Satin Hood (A)
+							un(REMOVED_FROM_GAME, i(115243)),	-- Primal Aspirant's Satin Leggings (A)
+							un(REMOVED_FROM_GAME, i(115244)),	-- Primal Aspirant's Satin Robe (A)
+							un(REMOVED_FROM_GAME, i(115245)),	-- Primal Aspirant's Satin Mantle (A)
 						}),
 						cl(ROGUE, {
-							un(REMOVED_FROM_GAME, i(115246)), -- Primal Aspirant's Leather Tunic (A)
-							un(REMOVED_FROM_GAME, i(115247)), -- Primal Aspirant's Leather Gloves (A)
-							un(REMOVED_FROM_GAME, i(115248)), -- Primal Aspirant's Leather Helm (A)
-							un(REMOVED_FROM_GAME, i(115249)), -- Primal Aspirant's Leather Legguards (A)
-							un(REMOVED_FROM_GAME, i(115250)), -- Primal Aspirant's Leather Spaulders (A)
+							un(REMOVED_FROM_GAME, i(115246)),	-- Primal Aspirant's Leather Tunic (A)
+							un(REMOVED_FROM_GAME, i(115247)),	-- Primal Aspirant's Leather Gloves (A)
+							un(REMOVED_FROM_GAME, i(115248)),	-- Primal Aspirant's Leather Helm (A)
+							un(REMOVED_FROM_GAME, i(115249)),	-- Primal Aspirant's Leather Legguards (A)
+							un(REMOVED_FROM_GAME, i(115250)),	-- Primal Aspirant's Leather Spaulders (A)
 						}),
 						cl(SHAMAN, {
-							un(REMOVED_FROM_GAME, i(115251)), -- Primal Aspirant's Ringmail Armor (A)
-							un(REMOVED_FROM_GAME, i(115252)), -- Primal Aspirant's Ringmail Gauntlets (A)
-							un(REMOVED_FROM_GAME, i(115253)), -- Primal Aspirant's Ringmail Helm (A)
-							un(REMOVED_FROM_GAME, i(115254)), -- Primal Aspirant's Ringmail Leggings (A)
-							un(REMOVED_FROM_GAME, i(115255)), -- Primal Aspirant's Ringmail Spaulders (A)
+							un(REMOVED_FROM_GAME, i(115251)),	-- Primal Aspirant's Ringmail Armor (A)
+							un(REMOVED_FROM_GAME, i(115252)),	-- Primal Aspirant's Ringmail Gauntlets (A)
+							un(REMOVED_FROM_GAME, i(115253)),	-- Primal Aspirant's Ringmail Helm (A)
+							un(REMOVED_FROM_GAME, i(115254)),	-- Primal Aspirant's Ringmail Leggings (A)
+							un(REMOVED_FROM_GAME, i(115255)),	-- Primal Aspirant's Ringmail Spaulders (A)
 						}),
 						cl(WARLOCK, {
-							un(REMOVED_FROM_GAME, i(115258)), -- Primal Aspirant's Felweave Handguards (A)
-							un(REMOVED_FROM_GAME, i(115259)), -- Primal Aspirant's Felweave Cowl (A)
-							un(REMOVED_FROM_GAME, i(115260)), -- Primal Aspirant's Felweave Trousers (A)
-							un(REMOVED_FROM_GAME, i(115261)), -- Primal Aspirant's Felweave Raiment (A)
-							un(REMOVED_FROM_GAME, i(115262)), -- Primal Aspirant's Felweave Amice (A)
+							un(REMOVED_FROM_GAME, i(115258)),	-- Primal Aspirant's Felweave Handguards (A)
+							un(REMOVED_FROM_GAME, i(115259)),	-- Primal Aspirant's Felweave Cowl (A)
+							un(REMOVED_FROM_GAME, i(115260)),	-- Primal Aspirant's Felweave Trousers (A)
+							un(REMOVED_FROM_GAME, i(115261)),	-- Primal Aspirant's Felweave Raiment (A)
+							un(REMOVED_FROM_GAME, i(115262)),	-- Primal Aspirant's Felweave Amice (A)
 						}),
 						cl(WARRIOR, {
-							un(REMOVED_FROM_GAME, i(115263)), -- Primal Aspirant's Plate Chestpiece (A)
-							un(REMOVED_FROM_GAME, i(115264)), -- Primal Aspirant's Plate Gauntlets (A)
-							un(REMOVED_FROM_GAME, i(115265)), -- Primal Aspirant's Plate Helm (A)
-							un(REMOVED_FROM_GAME, i(115266)), -- Primal Aspirant's Plate Legguards (A)
-							un(REMOVED_FROM_GAME, i(115267)), -- Primal Aspirant's Plate Shoulders (A)
+							un(REMOVED_FROM_GAME, i(115263)),	-- Primal Aspirant's Plate Chestpiece (A)
+							un(REMOVED_FROM_GAME, i(115264)),	-- Primal Aspirant's Plate Gauntlets (A)
+							un(REMOVED_FROM_GAME, i(115265)),	-- Primal Aspirant's Plate Helm (A)
+							un(REMOVED_FROM_GAME, i(115266)),	-- Primal Aspirant's Plate Legguards (A)
+							un(REMOVED_FROM_GAME, i(115267)),	-- Primal Aspirant's Plate Shoulders (A)
 						}),
 						n(BACK, {
-							un(REMOVED_FROM_GAME, i(115268)), -- Primal Aspirant's Cape of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115269)), -- Primal Aspirant's Drape of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115270)), -- Primal Aspirant's Drape of Meditation (A)
-							un(REMOVED_FROM_GAME, i(115271)), -- Primal Aspirant's Cloak of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115268)),	-- Primal Aspirant's Cape of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115269)),	-- Primal Aspirant's Drape of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115270)),	-- Primal Aspirant's Drape of Meditation (A)
+							un(REMOVED_FROM_GAME, i(115271)),	-- Primal Aspirant's Cloak of Cruelty (A)
 						}),
 						n(WRIST, {
-							un(REMOVED_FROM_GAME, i(115196)), -- Primal Aspirant's Cuffs of Prowess (A)
-							un(REMOVED_FROM_GAME, i(115219)), -- Primal Aspirant's Bindings of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115227)), -- Primal Aspirant's Armbands of Prowess (A)
-							un(REMOVED_FROM_GAME, i(115240)), -- Primal Aspirant's Armplates of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115196)),	-- Primal Aspirant's Cuffs of Prowess (A)
+							un(REMOVED_FROM_GAME, i(115219)),	-- Primal Aspirant's Bindings of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115227)),	-- Primal Aspirant's Armbands of Prowess (A)
+							un(REMOVED_FROM_GAME, i(115240)),	-- Primal Aspirant's Armplates of Cruelty (A)
 						}),
 						n(WAIST, {
-							un(REMOVED_FROM_GAME, i(115194)), -- Primal Aspirant's Cord of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115217)), -- Primal Aspirant's Belt of Prowess (A)
-							un(REMOVED_FROM_GAME, i(115225)), -- Primal Aspirant's Waistguard of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115238)), -- Primal Aspirant's Girdle of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115194)),	-- Primal Aspirant's Cord of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115217)),	-- Primal Aspirant's Belt of Prowess (A)
+							un(REMOVED_FROM_GAME, i(115225)),	-- Primal Aspirant's Waistguard of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115238)),	-- Primal Aspirant's Girdle of Cruelty (A)
 						}),
 						n(FEET, {
-							un(REMOVED_FROM_GAME, i(115195)), -- Primal Aspirant's Treads of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115218)), -- Primal Aspirant's Boots of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115226)), -- Primal Aspirant's Footguards of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115239)), -- Primal Aspirant's Warboots of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115195)),	-- Primal Aspirant's Treads of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115218)),	-- Primal Aspirant's Boots of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115226)),	-- Primal Aspirant's Footguards of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115239)),	-- Primal Aspirant's Warboots of Cruelty (A)
 						}),
 						n(NECK, {
-							un(REMOVED_FROM_GAME, i(115191)), -- Primal Aspirant's Necklace of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115212)), -- Primal Aspirant's Pendant of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115256)), -- Primal Aspirant's Choker of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115191)),	-- Primal Aspirant's Necklace of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115212)),	-- Primal Aspirant's Pendant of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115256)),	-- Primal Aspirant's Choker of Cruelty (A)
 						}),
 						n(FINGER, {
-							un(REMOVED_FROM_GAME, i(115192)), -- Primal Aspirant's Ring of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115193)), -- Primal Aspirant's Ring of Prowess (A)
-							un(REMOVED_FROM_GAME, i(115213)), -- Primal Aspirant's Band of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(115214)), -- Primal Aspirant's Band of Prowess (A)
-							un(REMOVED_FROM_GAME, i(115215)), -- Primal Aspirant's Band of Meditation (A)
-							un(REMOVED_FROM_GAME, i(115216)), -- Primal Aspirant's Band of Contemplation (A)
-							un(REMOVED_FROM_GAME, i(115257)), -- Primal Aspirant's Signet of Cruelty (A)
-							un(REMOVED_FROM_GAME, i(127116)), -- Primal Aspirant's Signet of Accuracy (A)
+							un(REMOVED_FROM_GAME, i(115192)),	-- Primal Aspirant's Ring of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115193)),	-- Primal Aspirant's Ring of Prowess (A)
+							un(REMOVED_FROM_GAME, i(115213)),	-- Primal Aspirant's Band of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(115214)),	-- Primal Aspirant's Band of Prowess (A)
+							un(REMOVED_FROM_GAME, i(115215)),	-- Primal Aspirant's Band of Meditation (A)
+							un(REMOVED_FROM_GAME, i(115216)),	-- Primal Aspirant's Band of Contemplation (A)
+							un(REMOVED_FROM_GAME, i(115257)),	-- Primal Aspirant's Signet of Cruelty (A)
+							un(REMOVED_FROM_GAME, i(127116)),	-- Primal Aspirant's Signet of Accuracy (A)
 						}),
 					}),
 					n(PVP_COMBATANT, {
@@ -1581,120 +1581,120 @@ root(ROOTS.PVP, {
 				["g"] = {
 					n(PVP_ASPIRANT, {
 						cl(DEATHKNIGHT, {
-							un(REMOVED_FROM_GAME, i(119974)), -- Primal Aspirant's Dreadplate Chestpiece (H)
-							un(REMOVED_FROM_GAME, i(119975)), -- Primal Aspirant's Dreadplate Gauntlets (H)
-							un(REMOVED_FROM_GAME, i(119976)), -- Primal Aspirant's Dreadplate Helm (H)
-							un(REMOVED_FROM_GAME, i(119977)), -- Primal Aspirant's Dreadplate Legguards (H)
-							un(REMOVED_FROM_GAME, i(119978)), -- Primal Aspirant's Dreadplate Shoulders (H)
+							un(REMOVED_FROM_GAME, i(119974)),	-- Primal Aspirant's Dreadplate Chestpiece (H)
+							un(REMOVED_FROM_GAME, i(119975)),	-- Primal Aspirant's Dreadplate Gauntlets (H)
+							un(REMOVED_FROM_GAME, i(119976)),	-- Primal Aspirant's Dreadplate Helm (H)
+							un(REMOVED_FROM_GAME, i(119977)),	-- Primal Aspirant's Dreadplate Legguards (H)
+							un(REMOVED_FROM_GAME, i(119978)),	-- Primal Aspirant's Dreadplate Shoulders (H)
 						}),
 						cl(DRUID, {
-							un(REMOVED_FROM_GAME, i(119979)), -- Primal Aspirant's Dragonhide Gloves (H)
-							un(REMOVED_FROM_GAME, i(119980)), -- Primal Aspirant's Dragonhide Helm (H)
-							un(REMOVED_FROM_GAME, i(119981)), -- Primal Aspirant's Dragonhide Legguards (H)
-							un(REMOVED_FROM_GAME, i(119982)), -- Primal Aspirant's Dragonhide Tunic (H)
-							un(REMOVED_FROM_GAME, i(119983)), -- Primal Aspirant's Dragonhide Spaulders (H)
+							un(REMOVED_FROM_GAME, i(119979)),	-- Primal Aspirant's Dragonhide Gloves (H)
+							un(REMOVED_FROM_GAME, i(119980)),	-- Primal Aspirant's Dragonhide Helm (H)
+							un(REMOVED_FROM_GAME, i(119981)),	-- Primal Aspirant's Dragonhide Legguards (H)
+							un(REMOVED_FROM_GAME, i(119982)),	-- Primal Aspirant's Dragonhide Tunic (H)
+							un(REMOVED_FROM_GAME, i(119983)),	-- Primal Aspirant's Dragonhide Spaulders (H)
 						}),
 						cl(HUNTER, {
-							un(REMOVED_FROM_GAME, i(119984)), -- Primal Aspirant's Chain Armor (H)
-							un(REMOVED_FROM_GAME, i(119985)), -- Primal Aspirant's Chain Gauntlets (H)
-							un(REMOVED_FROM_GAME, i(119988)), -- Primal Aspirant's Chain Spaulders (H)
-							un(REMOVED_FROM_GAME, i(119987)), -- Primal Aspirant's Chain Leggings (H)
-							un(REMOVED_FROM_GAME, i(119986)), -- Primal Aspirant's Chain Helm (H)
+							un(REMOVED_FROM_GAME, i(119984)),	-- Primal Aspirant's Chain Armor (H)
+							un(REMOVED_FROM_GAME, i(119985)),	-- Primal Aspirant's Chain Gauntlets (H)
+							un(REMOVED_FROM_GAME, i(119988)),	-- Primal Aspirant's Chain Spaulders (H)
+							un(REMOVED_FROM_GAME, i(119987)),	-- Primal Aspirant's Chain Leggings (H)
+							un(REMOVED_FROM_GAME, i(119986)),	-- Primal Aspirant's Chain Helm (H)
 						}),
 						cl(MAGE, {
-							un(REMOVED_FROM_GAME, i(119997)), -- Primal Aspirant's Silk Handguards (H)
-							un(REMOVED_FROM_GAME, i(119998)), -- Primal Aspirant's Silk Cowl (H)
-							un(REMOVED_FROM_GAME, i(119999)), -- Primal Aspirant's Silk Trousers (H)
-							un(REMOVED_FROM_GAME, i(120000)), -- Primal Aspirant's Silk Robe (H)
-							un(REMOVED_FROM_GAME, i(120001)), -- Primal Aspirant's Silk Amice (H)
+							un(REMOVED_FROM_GAME, i(119997)),	-- Primal Aspirant's Silk Handguards (H)
+							un(REMOVED_FROM_GAME, i(119998)),	-- Primal Aspirant's Silk Cowl (H)
+							un(REMOVED_FROM_GAME, i(119999)),	-- Primal Aspirant's Silk Trousers (H)
+							un(REMOVED_FROM_GAME, i(120000)),	-- Primal Aspirant's Silk Robe (H)
+							un(REMOVED_FROM_GAME, i(120001)),	-- Primal Aspirant's Silk Amice (H)
 						}),
 						cl(MONK, {
-							un(REMOVED_FROM_GAME, i(120005)), -- Primal Aspirant's Ironskin Gloves (H)
-							un(REMOVED_FROM_GAME, i(120006)), -- Primal Aspirant's Ironskin Helm (H)
-							un(REMOVED_FROM_GAME, i(120007)), -- Primal Aspirant's Ironskin Legguards (H)
-							un(REMOVED_FROM_GAME, i(120008)), -- Primal Aspirant's Ironskin Spaulders (H)
-							un(REMOVED_FROM_GAME, i(120009)), -- Primal Aspirant's Ironskin Tunic (H)
+							un(REMOVED_FROM_GAME, i(120005)),	-- Primal Aspirant's Ironskin Gloves (H)
+							un(REMOVED_FROM_GAME, i(120006)),	-- Primal Aspirant's Ironskin Helm (H)
+							un(REMOVED_FROM_GAME, i(120007)),	-- Primal Aspirant's Ironskin Legguards (H)
+							un(REMOVED_FROM_GAME, i(120008)),	-- Primal Aspirant's Ironskin Spaulders (H)
+							un(REMOVED_FROM_GAME, i(120009)),	-- Primal Aspirant's Ironskin Tunic (H)
 						}),
 						cl(PALADIN, {
-							un(REMOVED_FROM_GAME, i(120010)), -- Primal Aspirant's Scaled Chestpiece (H)
-							un(REMOVED_FROM_GAME, i(120011)), -- Primal Aspirant's Scaled Gauntlets (H)
-							un(REMOVED_FROM_GAME, i(120012)), -- Primal Aspirant's Scaled Helm (H)
-							un(REMOVED_FROM_GAME, i(120013)), -- Primal Aspirant's Scaled Legguards (H)
-							un(REMOVED_FROM_GAME, i(120014)), -- Primal Aspirant's Scaled Shoulders (H)
+							un(REMOVED_FROM_GAME, i(120010)),	-- Primal Aspirant's Scaled Chestpiece (H)
+							un(REMOVED_FROM_GAME, i(120011)),	-- Primal Aspirant's Scaled Gauntlets (H)
+							un(REMOVED_FROM_GAME, i(120012)),	-- Primal Aspirant's Scaled Helm (H)
+							un(REMOVED_FROM_GAME, i(120013)),	-- Primal Aspirant's Scaled Legguards (H)
+							un(REMOVED_FROM_GAME, i(120014)),	-- Primal Aspirant's Scaled Shoulders (H)
 						}),
 						cl(PRIEST, {
-							un(REMOVED_FROM_GAME, i(120018)), -- Primal Aspirant's Satin Gloves (H)
-							un(REMOVED_FROM_GAME, i(120019)), -- Primal Aspirant's Satin Hood (H)
-							un(REMOVED_FROM_GAME, i(120020)), -- Primal Aspirant's Satin Leggings (H)
-							un(REMOVED_FROM_GAME, i(120021)), -- Primal Aspirant's Satin Robe (H)
-							un(REMOVED_FROM_GAME, i(120022)), -- Primal Aspirant's Satin Mantle (H)
+							un(REMOVED_FROM_GAME, i(120018)),	-- Primal Aspirant's Satin Gloves (H)
+							un(REMOVED_FROM_GAME, i(120019)),	-- Primal Aspirant's Satin Hood (H)
+							un(REMOVED_FROM_GAME, i(120020)),	-- Primal Aspirant's Satin Leggings (H)
+							un(REMOVED_FROM_GAME, i(120021)),	-- Primal Aspirant's Satin Robe (H)
+							un(REMOVED_FROM_GAME, i(120022)),	-- Primal Aspirant's Satin Mantle (H)
 						}),
 						cl(ROGUE, {
-							un(REMOVED_FROM_GAME, i(120026)), -- Primal Aspirant's Leather Legguards (H)
-							un(REMOVED_FROM_GAME, i(120024)), -- Primal Aspirant's Leather Gloves (H)
-							un(REMOVED_FROM_GAME, i(120023)), -- Primal Aspirant's Leather Tunic (H)
-							un(REMOVED_FROM_GAME, i(120025)), -- Primal Aspirant's Leather Helm (H)
-							un(REMOVED_FROM_GAME, i(120027)), -- Primal Aspirant's Leather Spaulders (H)
+							un(REMOVED_FROM_GAME, i(120026)),	-- Primal Aspirant's Leather Legguards (H)
+							un(REMOVED_FROM_GAME, i(120024)),	-- Primal Aspirant's Leather Gloves (H)
+							un(REMOVED_FROM_GAME, i(120023)),	-- Primal Aspirant's Leather Tunic (H)
+							un(REMOVED_FROM_GAME, i(120025)),	-- Primal Aspirant's Leather Helm (H)
+							un(REMOVED_FROM_GAME, i(120027)),	-- Primal Aspirant's Leather Spaulders (H)
 						}),
 						cl(SHAMAN, {
-							un(REMOVED_FROM_GAME, i(120028)), -- Primal Aspirant's Ringmail Armor (H)
-							un(REMOVED_FROM_GAME, i(120029)), -- Primal Aspirant's Ringmail Gauntlets (H)
-							un(REMOVED_FROM_GAME, i(120030)), -- Primal Aspirant's Ringmail Helm (H)
-							un(REMOVED_FROM_GAME, i(120031)), -- Primal Aspirant's Ringmail Leggings (H)
-							un(REMOVED_FROM_GAME, i(120032)), -- Primal Aspirant's Ringmail Spaulders (H)
+							un(REMOVED_FROM_GAME, i(120028)),	-- Primal Aspirant's Ringmail Armor (H)
+							un(REMOVED_FROM_GAME, i(120029)),	-- Primal Aspirant's Ringmail Gauntlets (H)
+							un(REMOVED_FROM_GAME, i(120030)),	-- Primal Aspirant's Ringmail Helm (H)
+							un(REMOVED_FROM_GAME, i(120031)),	-- Primal Aspirant's Ringmail Leggings (H)
+							un(REMOVED_FROM_GAME, i(120032)),	-- Primal Aspirant's Ringmail Spaulders (H)
 						}),
 						cl(WARLOCK, {
-							un(REMOVED_FROM_GAME, i(120035)), -- Primal Aspirant's Felweave Handguards (H)
-							un(REMOVED_FROM_GAME, i(120036)), -- Primal Aspirant's Felweave Cowl (H)
-							un(REMOVED_FROM_GAME, i(120037)), -- Primal Aspirant's Felweave Trousers (H)
-							un(REMOVED_FROM_GAME, i(120038)), -- Primal Aspirant's Felweave Raiment (H)
-							un(REMOVED_FROM_GAME, i(120039)), -- Primal Aspirant's Felweave Amice (H)
+							un(REMOVED_FROM_GAME, i(120035)),	-- Primal Aspirant's Felweave Handguards (H)
+							un(REMOVED_FROM_GAME, i(120036)),	-- Primal Aspirant's Felweave Cowl (H)
+							un(REMOVED_FROM_GAME, i(120037)),	-- Primal Aspirant's Felweave Trousers (H)
+							un(REMOVED_FROM_GAME, i(120038)),	-- Primal Aspirant's Felweave Raiment (H)
+							un(REMOVED_FROM_GAME, i(120039)),	-- Primal Aspirant's Felweave Amice (H)
 						}),
 						cl(WARRIOR, {
-							un(REMOVED_FROM_GAME, i(120040)), -- Primal Aspirant's Plate Chestpiece (H)
-							un(REMOVED_FROM_GAME, i(120041)), -- Primal Aspirant's Plate Gauntlets (H)
-							un(REMOVED_FROM_GAME, i(120042)), -- Primal Aspirant's Plate Helm (H)
-							un(REMOVED_FROM_GAME, i(120043)), -- Primal Aspirant's Plate Legguards (H)
-							un(REMOVED_FROM_GAME, i(120044)), -- Primal Aspirant's Plate Shoulders (H)
+							un(REMOVED_FROM_GAME, i(120040)),	-- Primal Aspirant's Plate Chestpiece (H)
+							un(REMOVED_FROM_GAME, i(120041)),	-- Primal Aspirant's Plate Gauntlets (H)
+							un(REMOVED_FROM_GAME, i(120042)),	-- Primal Aspirant's Plate Helm (H)
+							un(REMOVED_FROM_GAME, i(120043)),	-- Primal Aspirant's Plate Legguards (H)
+							un(REMOVED_FROM_GAME, i(120044)),	-- Primal Aspirant's Plate Shoulders (H)
 						}),
 						n(BACK, {
-							un(REMOVED_FROM_GAME, i(120045)), -- Primal Aspirant's Cape of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(120046)), -- Primal Aspirant's Drape of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(120047)), -- Primal Aspirant's Drape of Meditation (H)
-							un(REMOVED_FROM_GAME, i(120048)), -- Primal Aspirant's Cloak of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120045)),	-- Primal Aspirant's Cape of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120046)),	-- Primal Aspirant's Drape of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120047)),	-- Primal Aspirant's Drape of Meditation (H)
+							un(REMOVED_FROM_GAME, i(120048)),	-- Primal Aspirant's Cloak of Cruelty (H)
 						}),
 						n(WRIST, {
-							un(REMOVED_FROM_GAME, i(119973)), -- Primal Aspirant's Cuffs of Prowess (H)
-							un(REMOVED_FROM_GAME, i(119996)), -- Primal Aspirant's Bindings of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(120004)), -- Primal Aspirant's Armbands of Prowess (H)
-							un(REMOVED_FROM_GAME, i(120017)), -- Primal Aspirant's Armplates of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119973)),	-- Primal Aspirant's Cuffs of Prowess (H)
+							un(REMOVED_FROM_GAME, i(119996)),	-- Primal Aspirant's Bindings of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120004)),	-- Primal Aspirant's Armbands of Prowess (H)
+							un(REMOVED_FROM_GAME, i(120017)),	-- Primal Aspirant's Armplates of Cruelty (H)
 						}),
 						n(WAIST, {
-							un(REMOVED_FROM_GAME, i(119971)), -- Primal Aspirant's Cord of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(119994)), -- Primal Aspirant's Belt of Prowess (H)
-							un(REMOVED_FROM_GAME, i(120002)), -- Primal Aspirant's Waistguard of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(120015)), -- Primal Aspirant's Girdle of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119971)),	-- Primal Aspirant's Cord of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119994)),	-- Primal Aspirant's Belt of Prowess (H)
+							un(REMOVED_FROM_GAME, i(120002)),	-- Primal Aspirant's Waistguard of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120015)),	-- Primal Aspirant's Girdle of Cruelty (H)
 						}),
 						n(FEET, {
-							un(REMOVED_FROM_GAME, i(120003)), -- Primal Aspirant's Footguards of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(119995)), -- Primal Aspirant's Boots of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(120016)), -- Primal Aspirant's Warboots of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(119972)), -- Primal Aspirant's Treads of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120003)),	-- Primal Aspirant's Footguards of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119995)),	-- Primal Aspirant's Boots of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120016)),	-- Primal Aspirant's Warboots of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119972)),	-- Primal Aspirant's Treads of Cruelty (H)
 						}),
 						n(NECK, {
-							un(REMOVED_FROM_GAME, i(119968)), -- Primal Aspirant's Necklace of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(119989)), -- Primal Aspirant's Pendant of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(120033)), -- Primal Aspirant's Choker of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119968)),	-- Primal Aspirant's Necklace of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119989)),	-- Primal Aspirant's Pendant of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(120033)),	-- Primal Aspirant's Choker of Cruelty (H)
 						}),
 						n(FINGER, {
-							un(REMOVED_FROM_GAME, i(119969)), -- Primal Aspirant's Ring of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(119970)), -- Primal Aspirant's Ring of Prowess (H)
-							un(REMOVED_FROM_GAME, i(119990)), -- Primal Aspirant's Band of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(119991)), -- Primal Aspirant's Band of Prowess (H)
-							un(REMOVED_FROM_GAME, i(119992)), -- Primal Aspirant's Band of Meditation (H)
-							un(REMOVED_FROM_GAME, i(119993)), -- Primal Aspirant's Band of Contemplation (H)
-							un(REMOVED_FROM_GAME, i(120034)), -- Primal Aspirant's Signet of Cruelty (H)
-							un(REMOVED_FROM_GAME, i(127117)), -- Primal Aspirant's Signet of Accuracy (H)
+							un(REMOVED_FROM_GAME, i(119969)),	-- Primal Aspirant's Ring of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119970)),	-- Primal Aspirant's Ring of Prowess (H)
+							un(REMOVED_FROM_GAME, i(119990)),	-- Primal Aspirant's Band of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(119991)),	-- Primal Aspirant's Band of Prowess (H)
+							un(REMOVED_FROM_GAME, i(119992)),	-- Primal Aspirant's Band of Meditation (H)
+							un(REMOVED_FROM_GAME, i(119993)),	-- Primal Aspirant's Band of Contemplation (H)
+							un(REMOVED_FROM_GAME, i(120034)),	-- Primal Aspirant's Signet of Cruelty (H)
+							un(REMOVED_FROM_GAME, i(127117)),	-- Primal Aspirant's Signet of Accuracy (H)
 						}),
 					}),
 					n(PVP_COMBATANT, {
@@ -3585,11 +3585,11 @@ root(ROOTS.PVP, {
 									i(124917, {	-- Wild Combatant's Dreadplate Shoulders (A)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
-									i(124997), -- Wild Combatant's Plate Helmet (A)
-									i(124999), -- Wild Combatant's Shoulderplates (A)
-									i(124995), -- Wild Combatant's Plate Breastplate (A)
-									i(124996), -- Wild Combatant's Plate Gloves (A)
-									i(124998), -- Wild Combatant's Legplates (A)
+									i(124997),	-- Wild Combatant's Plate Helmet (A)
+									i(124999),	-- Wild Combatant's Shoulderplates (A)
+									i(124995),	-- Wild Combatant's Plate Breastplate (A)
+									i(124996),	-- Wild Combatant's Plate Gloves (A)
+									i(124998),	-- Wild Combatant's Legplates (A)
 								},
 							}),
 						}),
@@ -3618,11 +3618,11 @@ root(ROOTS.PVP, {
 									i(124922, {	-- Wild Combatant's Dragonhide Spaulders (A)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
-									i(124961), -- Wild Combatant's Legguards (A)
-									i(124959), -- Wild Combatant's Gloves (A)
-									i(124958), -- Wild Combatant's Armor (A)
-									i(124962), -- Wild Combatant's Spaulders (A)
-									i(124960), -- Wild Combatant's Helm (A)
+									i(124961),	-- Wild Combatant's Legguards (A)
+									i(124959),	-- Wild Combatant's Gloves (A)
+									i(124958),	-- Wild Combatant's Armor (A)
+									i(124962),	-- Wild Combatant's Spaulders (A)
+									i(124960),	-- Wild Combatant's Helm (A)
 								},
 							}),
 						}),
@@ -3651,11 +3651,11 @@ root(ROOTS.PVP, {
 									i(124927, {	-- Wild Combatant's Chain Spaulders (A)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
-									i(124977), -- Wild Combatant's Leggings (A)
-									i(124975), -- Wild Combatant's Gauntlets (A)
-									i(124974), -- Wild Combatant's Tunic (A)
-									i(124978), -- Wild Combatant's Spaulders (A)
-									i(124976), -- Wild Combatant's Helm (A)
+									i(124977),	-- Wild Combatant's Leggings (A)
+									i(124975),	-- Wild Combatant's Gauntlets (A)
+									i(124974),	-- Wild Combatant's Tunic (A)
+									i(124978),	-- Wild Combatant's Spaulders (A)
+									i(124976),	-- Wild Combatant's Helm (A)
 								},
 							}),
 						}),
@@ -3717,11 +3717,11 @@ root(ROOTS.PVP, {
 									i(124983, {	-- Wild Combatant's Ironskin Tunic (A)
 										["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 									}),
-									i(124961), -- Wild Combatant's Legguards (A)
-									i(124959), -- Wild Combatant's Gloves (A)
-									i(124958), -- Wild Combatant's Armor (A)
-									i(124962), -- Wild Combatant's Spaulders (A)
-									i(124960), -- Wild Combatant's Helm (A)
+									i(124961),	-- Wild Combatant's Legguards (A)
+									i(124959),	-- Wild Combatant's Gloves (A)
+									i(124958),	-- Wild Combatant's Armor (A)
+									i(124962),	-- Wild Combatant's Spaulders (A)
+									i(124960),	-- Wild Combatant's Helm (A)
 								},
 							}),
 						}),
@@ -3750,11 +3750,11 @@ root(ROOTS.PVP, {
 									i(124988, {	-- Wild Combatant's Scaled Shoulders (A)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
-									i(124997), -- Wild Combatant's Plate Helmet (A)
-									i(124999), -- Wild Combatant's Shoulderplates (A)
-									i(124995), -- Wild Combatant's Plate Breastplate (A)
-									i(124996), -- Wild Combatant's Plate Gloves (A)
-									i(124998), -- Wild Combatant's Legplates (A)
+									i(124997),	-- Wild Combatant's Plate Helmet (A)
+									i(124999),	-- Wild Combatant's Shoulderplates (A)
+									i(124995),	-- Wild Combatant's Plate Breastplate (A)
+									i(124996),	-- Wild Combatant's Plate Gloves (A)
+									i(124998),	-- Wild Combatant's Legplates (A)
 								},
 							}),
 						}),
@@ -3785,7 +3785,7 @@ root(ROOTS.PVP, {
 									}),
 									i(124909),	-- Wild Combatant's Hood of Prowess (A)
 									i(124912),	-- Wild Combatant's Amice of Prowess (A)
-									i(124911),  -- Wild Combatant's Robes of Prowess (A)
+									i(124911),	-- Wild Combatant's Robes of Prowess (A)
 									i(124908),	-- Wild Combatant's Gloves of Prowess (A)
 									i(124910),	-- Wild Combatant's Leggings of Prowess (A)
 								},
@@ -3816,11 +3816,11 @@ root(ROOTS.PVP, {
 									i(125005, {	-- Wild Combatant's Leather Tunic (A)
 										["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 									}),
-									i(124961), -- Wild Combatant's Legguards (A)
-									i(124959), -- Wild Combatant's Gloves (A)
-									i(124958), -- Wild Combatant's Armor (A)
-									i(124962), -- Wild Combatant's Spaulders (A)
-									i(124960), -- Wild Combatant's Helm (A)
+									i(124961),	-- Wild Combatant's Legguards (A)
+									i(124959),	-- Wild Combatant's Gloves (A)
+									i(124958),	-- Wild Combatant's Armor (A)
+									i(124962),	-- Wild Combatant's Spaulders (A)
+									i(124960),	-- Wild Combatant's Helm (A)
 								},
 							}),
 						}),
@@ -3849,11 +3849,11 @@ root(ROOTS.PVP, {
 									i(125014, {	-- Wild Combatant's Ringmail Spaulders (A)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
-									i(124977), -- Wild Combatant's Leggings (A)
-									i(124975), -- Wild Combatant's Gauntlets (A)
-									i(124974), -- Wild Combatant's Tunic (A)
-									i(124978), -- Wild Combatant's Spaulders (A)
-									i(124976), -- Wild Combatant's Helm (A)
+									i(124977),	-- Wild Combatant's Leggings (A)
+									i(124975),	-- Wild Combatant's Gauntlets (A)
+									i(124974),	-- Wild Combatant's Tunic (A)
+									i(124978),	-- Wild Combatant's Spaulders (A)
+									i(124976),	-- Wild Combatant's Helm (A)
 								},
 							}),
 						}),
@@ -3915,11 +3915,11 @@ root(ROOTS.PVP, {
 									i(125062, {	-- Wild Combatant's Plate Shoulders (A)
 										["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 									}),
-									i(124997), -- Wild Combatant's Plate Helmet (A)
-									i(124999), -- Wild Combatant's Shoulderplates (A)
-									i(124995), -- Wild Combatant's Plate Breastplate (A)
-									i(124996), -- Wild Combatant's Plate Gloves (A)
-									i(124998), -- Wild Combatant's Legplates (A)
+									i(124997),	-- Wild Combatant's Plate Helmet (A)
+									i(124999),	-- Wild Combatant's Shoulderplates (A)
+									i(124995),	-- Wild Combatant's Plate Breastplate (A)
+									i(124996),	-- Wild Combatant's Plate Gloves (A)
+									i(124998),	-- Wild Combatant's Legplates (A)
 								},
 							}),
 						}),
@@ -9605,13 +9605,13 @@ root(ROOTS.PVP, {
 					un(REMOVED_FROM_GAME, i(126879)),	-- Warmongering Gladiator's Baton of Light
 				}),
 				cl(DEATHKNIGHT, {
-					un(REMOVED_FROM_GAME, i(126765)), -- Warmongering Gladiator's Dreadplate Chestpiece
-					un(REMOVED_FROM_GAME, i(126766)), -- Warmongering Gladiator's Dreadplate Gauntlets
-					un(REMOVED_FROM_GAME, i(126767)), -- Warmongering Gladiator's Dreadplate Helm
-					un(REMOVED_FROM_GAME, i(126768)), -- Warmongering Gladiator's Dreadplate Legguards
-					un(REMOVED_FROM_GAME, i(126769)), -- Warmongering Gladiator's Dreadplate Shoulders
-					un(REMOVED_FROM_GAME, i(126834)), -- Warmongering Gladiator's Dreadplate Girdle
-					un(REMOVED_FROM_GAME, i(126837)), -- Warmongering Gladiator's Dreadplate Warboots
+					un(REMOVED_FROM_GAME, i(126765)),	-- Warmongering Gladiator's Dreadplate Chestpiece
+					un(REMOVED_FROM_GAME, i(126766)),	-- Warmongering Gladiator's Dreadplate Gauntlets
+					un(REMOVED_FROM_GAME, i(126767)),	-- Warmongering Gladiator's Dreadplate Helm
+					un(REMOVED_FROM_GAME, i(126768)),	-- Warmongering Gladiator's Dreadplate Legguards
+					un(REMOVED_FROM_GAME, i(126769)),	-- Warmongering Gladiator's Dreadplate Shoulders
+					un(REMOVED_FROM_GAME, i(126834)),	-- Warmongering Gladiator's Dreadplate Girdle
+					un(REMOVED_FROM_GAME, i(126837)),	-- Warmongering Gladiator's Dreadplate Warboots
 				}),
 				cl(DRUID, {
 					un(REMOVED_FROM_GAME, i(126899)),	-- Warmongering Gladiator's Dragonhide Belt
@@ -9671,20 +9671,20 @@ root(ROOTS.PVP, {
 					un(REMOVED_FROM_GAME, i(126895)),	-- Warmongering Gladiator's Copperskin Waistband
 				}),
 				cl(PALADIN, {
-					un(REMOVED_FROM_GAME, i(126826)), -- Warmongering Gladiator's Ornamented Clasp
-					un(REMOVED_FROM_GAME, i(126827)), -- Warmongering Gladiator's Ornamented Greaves
-					un(REMOVED_FROM_GAME, i(126829)), -- Warmongering Gladiator's Ornamented Chestguard
-					un(REMOVED_FROM_GAME, i(126830)), -- Warmongering Gladiator's Ornamented Gloves
-					un(REMOVED_FROM_GAME, i(126831)), -- Warmongering Gladiator's Ornamented Headcover
-					un(REMOVED_FROM_GAME, i(126832)), -- Warmongering Gladiator's Ornamented LegPlates
-					un(REMOVED_FROM_GAME, i(126833)), -- Warmongering Gladiator's Ornamented Spaulders
-					un(REMOVED_FROM_GAME, i(126820)), -- Warmongering Gladiator's Scaled Chestpiece
-					un(REMOVED_FROM_GAME, i(126821)), -- Warmongering Gladiator's Scaled Gauntlets
-					un(REMOVED_FROM_GAME, i(126822)), -- Warmongering Gladiator's Scaled Helm
-					un(REMOVED_FROM_GAME, i(126823)), -- Warmongering Gladiator's Scaled Legguards
-					un(REMOVED_FROM_GAME, i(126824)), -- Warmongering Gladiator's Scaled Shoulders
-					un(REMOVED_FROM_GAME, i(126825)), -- Warmongering Gladiator's Scaled Clasp
-					un(REMOVED_FROM_GAME, i(126828)), -- Warmongering Gladiator's Scaled Greaves
+					un(REMOVED_FROM_GAME, i(126826)),	-- Warmongering Gladiator's Ornamented Clasp
+					un(REMOVED_FROM_GAME, i(126827)),	-- Warmongering Gladiator's Ornamented Greaves
+					un(REMOVED_FROM_GAME, i(126829)),	-- Warmongering Gladiator's Ornamented Chestguard
+					un(REMOVED_FROM_GAME, i(126830)),	-- Warmongering Gladiator's Ornamented Gloves
+					un(REMOVED_FROM_GAME, i(126831)),	-- Warmongering Gladiator's Ornamented Headcover
+					un(REMOVED_FROM_GAME, i(126832)),	-- Warmongering Gladiator's Ornamented LegPlates
+					un(REMOVED_FROM_GAME, i(126833)),	-- Warmongering Gladiator's Ornamented Spaulders
+					un(REMOVED_FROM_GAME, i(126820)),	-- Warmongering Gladiator's Scaled Chestpiece
+					un(REMOVED_FROM_GAME, i(126821)),	-- Warmongering Gladiator's Scaled Gauntlets
+					un(REMOVED_FROM_GAME, i(126822)),	-- Warmongering Gladiator's Scaled Helm
+					un(REMOVED_FROM_GAME, i(126823)),	-- Warmongering Gladiator's Scaled Legguards
+					un(REMOVED_FROM_GAME, i(126824)),	-- Warmongering Gladiator's Scaled Shoulders
+					un(REMOVED_FROM_GAME, i(126825)),	-- Warmongering Gladiator's Scaled Clasp
+					un(REMOVED_FROM_GAME, i(126828)),	-- Warmongering Gladiator's Scaled Greaves
 				}),
 				cl(PRIEST, {
 					un(REMOVED_FROM_GAME, i(126754)),	-- Warmongering Gladiator's Mooncloth Cord
@@ -9744,13 +9744,13 @@ root(ROOTS.PVP, {
 					un(REMOVED_FROM_GAME, i(126886)),	-- Warmongering Gladiator's Felweave Trousers
 				}),
 				cl(WARRIOR, {
-					un(REMOVED_FROM_GAME, i(126835)), -- Warmongering Gladiator's Plate Girdle
-					un(REMOVED_FROM_GAME, i(126836)), -- Warmongering Gladiator's Plate Warboots
-					un(REMOVED_FROM_GAME, i(126889)), -- Warmongering Gladiator's Plate Chestpiece
-					un(REMOVED_FROM_GAME, i(126890)), -- Warmongering Gladiator's Plate Gauntlets
-					un(REMOVED_FROM_GAME, i(126891)), -- Warmongering Gladiator's Plate Helm
-					un(REMOVED_FROM_GAME, i(126892)), -- Warmongering Gladiator's Plate Legguards
-					un(REMOVED_FROM_GAME, i(126893)), -- Warmongering Gladiator's Plate Shoulders
+					un(REMOVED_FROM_GAME, i(126835)),	-- Warmongering Gladiator's Plate Girdle
+					un(REMOVED_FROM_GAME, i(126836)),	-- Warmongering Gladiator's Plate Warboots
+					un(REMOVED_FROM_GAME, i(126889)),	-- Warmongering Gladiator's Plate Chestpiece
+					un(REMOVED_FROM_GAME, i(126890)),	-- Warmongering Gladiator's Plate Gauntlets
+					un(REMOVED_FROM_GAME, i(126891)),	-- Warmongering Gladiator's Plate Helm
+					un(REMOVED_FROM_GAME, i(126892)),	-- Warmongering Gladiator's Plate Legguards
+					un(REMOVED_FROM_GAME, i(126893)),	-- Warmongering Gladiator's Plate Shoulders
 				}),
 			}),
 		}),

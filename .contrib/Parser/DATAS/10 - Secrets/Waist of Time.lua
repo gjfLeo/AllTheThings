@@ -143,7 +143,7 @@ root(ROOTS.Secrets, header(HEADERS.Item, 162690, bubbleDown({ ["timeline"] = { A
 			["modelScale"] = 2,
 			["questID"] = 52912,
 			["sourceQuests"] = { 52911 },
-			["description"] = "Northrend Dalaran\n\nIn front of the left planter.\n\nThe Leafy Leaf reads:\n\n\"<Something is written here.>\n\nPhantasmal Hosts?\"",  -- Punctured Pelt purchase while on this?
+			["description"] = "Northrend Dalaran\n\nIn front of the left planter.\n\nThe Leafy Leaf reads:\n\n\"<Something is written here.>\n\nPhantasmal Hosts?\"",	-- Punctured Pelt purchase while on this?
 			["coord"] = { 42.75, 20.18, NORTHREND_DALARAN },	-- Leafy Leaf
 		}),
 		o(294113, {	-- Musty Cloth

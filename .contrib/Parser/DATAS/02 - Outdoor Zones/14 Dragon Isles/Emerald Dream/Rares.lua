@@ -187,8 +187,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 			n(210045, {	-- Moragh the Slothful
 				["questID"] = 78210,
 				["coords"] = {
-					{ 38.8, 71.6, EMERALD_DREAM }, -- Entrance
-					{ 40.5, 72.6, EMERALD_DREAM }, -- Moragh
+					{ 38.8, 71.6, EMERALD_DREAM },	-- Entrance
+					{ 40.5, 72.6, EMERALD_DREAM },	-- Moragh
 				},
 				["g"] = {
 					i(210729),	-- Mark of the Verdant Bristlebruin (CI!)

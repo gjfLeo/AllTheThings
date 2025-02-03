@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			["timeline"] = { ADDED_11_1_0 },
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
-				40307, 	-- Allied Races: Earthen
+				40307,	-- Allied Races: Earthen
 				40430,	-- Khaz Algar Flight Master
 				40702,	-- Khaz Algar Glyph Hunter
 				40762,	-- Khaz Algar Lore Hunter

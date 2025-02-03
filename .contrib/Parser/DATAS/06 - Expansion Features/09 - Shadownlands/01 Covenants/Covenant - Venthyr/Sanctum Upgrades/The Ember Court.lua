@@ -968,17 +968,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(63694, {	-- Choofa's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Choofa?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Choofa?
 									["provider"] = { "n", 160814 },	-- Choofa
 									["coord"] = { 63.7, 36.6, ARDENWEALD },
 								}),
 								q(63685, {	-- Cryptkeeper Kassir's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Cryptkeeper Kassir?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Cryptkeeper Kassir?
 									["provider"] = { "n", 163073 },	-- Cryptkeeper Kassir
 									["coord"] = { 70.1, 56.1, REVENDRETH },
 								}),
 								q(63695, {	-- Droman Aliothe's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Droman Aliothe?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Droman Aliothe?
 									["provider"] = { "n", 160894 },	-- Droman Aliothe
 									["coord"] = { 60.0, 53.8, ARDENWEALD },
 								}),
@@ -1211,7 +1211,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 30.9, 57.6, REVENDRETH },
 								}),
 								q(63696, {	-- Grandmaster Vole's Best Friend
-									-- ["minReputation"] = { FACTION_EMBER_COURT_VOLE,  }, -- TODO, Best Friend w/ Grandmaster Vole?
+									-- ["minReputation"] = { FACTION_EMBER_COURT_VOLE,  },	-- TODO, Best Friend w/ Grandmaster Vole?
 									["provider"] = { "n", 163019 },	-- Grandmaster Vole
 									["coord"] = { 52.8, 49.2, MALDRAXXUS },
 								}),
@@ -1221,7 +1221,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 70.0, 56.2, REVENDRETH },
 								}),
 								q(63697, {	-- Kleia and Pelagos's Best Friend
-									-- ["minReputation"] = { FACTION_EMBER_COURT_KLEIA_PELAGOS,  }, -- TODO, Best Friend w/ Kleia and Pelagos?
+									-- ["minReputation"] = { FACTION_EMBER_COURT_KLEIA_PELAGOS,  },	-- TODO, Best Friend w/ Kleia and Pelagos?
 									["provider"] = { "n", 174916 },	-- Kleia
 									["coord"] = { 55.8, 86.4, BASTION },
 								}),
@@ -1239,7 +1239,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(63698, {	-- Plague Deviser Marileth's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Plague Deviser Marileth?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Plague Deviser Marileth?
 									["provider"] = { "n", 159930 },	-- Plague Deviser Marileth
 									["coord"] = { 60.4, 71.6, MALDRAXXUS },
 								}),
@@ -1593,7 +1593,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 55.5, 27.0, SINFALL_REACHES },
 								}),
 								q(63699, {	-- Sika's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Sika?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Sika?
 									["provider"] = { "n", 166577 },	-- Sika
 									["coord"] = { 52.6, 82.5, BASTION },
 								}),
@@ -1612,7 +1612,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(63700, {	-- Stonehead's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Stonehead?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Stonehead?
 									["provider"] = { "n", 157199 },	-- Stonehead
 									["coord"] = { 39.0, 66.0, REVENDRETH },
 								}),
@@ -1837,7 +1837,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							["icon"] = 3750311,
 							["g"] = {
 								q(63690, {	-- Alexandros Mograine's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Alexandros Mograine?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Alexandros Mograine?
 									["provider"] = { "n", 171933 },	-- Alexandros Mograine
 									["coord"] = { 50.4, 67.4, MALDRAXXUS },
 								}),
@@ -1868,7 +1868,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["maps"] = { REVENDRETH },
 								}),
 								q(63691, {	-- Hunt-Captain Korayn's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Hunt-Captain Korayn?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Hunt-Captain Korayn?
 									["provider"] = { "n", 171319 },	-- Hunt-Captain Korayn
 									["coord"] = { 50.8, 70.4, ARDENWEALD },
 								}),
@@ -1893,12 +1893,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(63692, {	-- Polemarch Adrestes's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Polemarch Adrestes?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Polemarch Adrestes?
 									["provider"] = { "n", 171385 },	-- Polemarch Adrestes
 									["coord"] = { 51.8, 47.6, BASTION },
 								}),
 								q(63693, {	-- Rendle and Cudgelface's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Rendle and Cudgelface?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Rendle and Cudgelface?
 									["provider"] = { "n", 171190 },	-- Alexandros Mograine
 									["coord"] = { 31.0, 40.0, REVENDRETH },
 								}),
@@ -1995,7 +1995,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(63686, {	-- Baroness Vashj's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Baroness Vashj?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Baroness Vashj?
 									["provider"] = { "n", 162487 },	-- Baroness Vashj
 									["coord"] = { 67.6, 45.9, MALDRAXXUS },
 								}),
@@ -2010,12 +2010,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(63687, {	-- Lady Moonberry's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Lady Moonberry?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Lady Moonberry?
 									["provider"] = { "n", 172098 },	-- Lady Moonberry
 									["coord"] = { 48.9, 51.0, ARDENWEALD },
 								}),
 								q(63688, {	-- Mikanikos's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ Mikanikos?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ Mikanikos?
 									["provider"] = { "n", 171647 },	-- Mikanikos
 									["coord"] = { 50.1, 21.0, BASTION },
 								}),
@@ -2062,7 +2062,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									},
 								}),
 								q(63689, {	-- The Countess's Best Friend
-									-- ["minReputation"] = { ,  }, -- TODO, Best Friend w/ The Countess?
+									-- ["minReputation"] = { ,  },	-- TODO, Best Friend w/ The Countess?
 									["provider"] = { "n", 171106 },	-- The Countess
 									["coord"] = { 58.0, 27.4, REVENDRETH },
 								}),

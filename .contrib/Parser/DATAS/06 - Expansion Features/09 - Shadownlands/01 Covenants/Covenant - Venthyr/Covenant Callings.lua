@@ -24,7 +24,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 165302 },	-- Rendle
 					["coord"] = { 61.6, 75.6, SINFALL_DEPTHS },
 					["g"] = {
-						i(181556), -- Tribute of the Court
+						i(181556),	-- Tribute of the Court
 					},
 				}),
 				q(60422, {	-- A Call to Ardenweald

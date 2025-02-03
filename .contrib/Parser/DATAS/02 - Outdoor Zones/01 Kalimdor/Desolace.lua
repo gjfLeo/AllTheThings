@@ -99,10 +99,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					pet(480, {	-- Topaz Shale Hatchling (PET!)
 						["description"] = "The biggest concentration can be found in Desolace, the orange section of open world Maraudon. Can also be found in Deepholm around Therazane's Throne, beneath Silvermarsh, as well as inside Fungal Deep.",
 						["coords"] = {
-							{ 26.8, 43.5, DESOLACE }, -- Maraudon entrance
-							{ 69.4, 68.2, DEEPHOLM }, -- Cavern beneath Silvermarsh
-							{ 68.65, 28.5, DEEPHOLM }, -- Fungal Deep cavern entrance
-							{ 57.0, 13.2, DEEPHOLM }, -- Therazane's Throne
+							{ 26.8, 43.5, DESOLACE },	-- Maraudon entrance
+							{ 69.4, 68.2, DEEPHOLM },	-- Cavern beneath Silvermarsh
+							{ 68.65, 28.5, DEEPHOLM },	-- Fungal Deep cavern entrance
+							{ 57.0, 13.2, DEEPHOLM },	-- Therazane's Throne
 						},
 					}),
 				},
@@ -1114,7 +1114,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["maps"] = { DARNASSUS, THE_EXODAR },	-- Only found in Darnassus & The Exodar in Cataclysm.
 					["isBreadcrumb"] = true,
-					["lockCriteria"] = { 1, "questID", 25938 },	 -- Help for Desolace
+					["lockCriteria"] = { 1, "questID", 25938 },	-- Help for Desolace
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 29. (TODO: Confirm this.)
 					-- Cataclysm: Maximum is level 33 (TODO: Test max level between 32 and 37)

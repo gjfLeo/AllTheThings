@@ -512,7 +512,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(635, {	-- Crystal in the Mountains
-					["provider"] = { "i", 4614 },  -- Pendant of Myzrael
+					["provider"] = { "i", 4614 },	-- Pendant of Myzrael
 					["description"] = "If you miss out on picking up the necklace first, you can still complete this quest even after finishing the rest of the chain.",
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 30,

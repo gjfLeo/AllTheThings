@@ -1068,7 +1068,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(1516, {	-- Call of Earth (1/3)
 							["qg"] = 5887,	-- Canaga Earthcaller
-							["altQuests"] = { 1519 }, -- Call to Earth (1/3 Mulgore)
+							["altQuests"] = { 1519 },	-- Call to Earth (1/3 Mulgore)
 							["coord"] = { 42.4, 69.0, DUROTAR },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = HORDE_ONLY,
@@ -1087,7 +1087,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 6635 },	-- Earth Sapta
 							},
 							["sourceQuest"] = 1516,	-- Call of Earth (1/3)
-							["altQuests"] = { 1520 }, -- Call to Earth (2/3 Mulgore)
+							["altQuests"] = { 1520 },	-- Call to Earth (2/3 Mulgore)
 							["coord"] = { 42.4, 69.0, DUROTAR },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = HORDE_ONLY,
@@ -1101,7 +1101,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 6656 },	-- Rough Quartz
 							},
 							["sourceQuest"] = 1517,	-- Call of Earth (2/3)
-							["altQuests"] = { 1521 }, -- Call to Earth (3/3 Mulgore)
+							["altQuests"] = { 1521 },	-- Call to Earth (3/3 Mulgore)
 							["coord"] = { 44.0, 76.0, DUROTAR },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = HORDE_ONLY,
@@ -1159,7 +1159,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = HORDE_ONLY,
 							["groups"] = {
 								objective(1, {	-- 0/10 (8 in Wrath) Mottled Boar
-									["provider"] = { "n", 3098 }, -- Mottled Boar
+									["provider"] = { "n", 3098 },	-- Mottled Boar
 								}),
 								i(4915, {	-- Soft Wool Boots
 									["timeline"] = { REMOVED_4_0_3 },
@@ -2173,7 +2173,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/5 Crawler Mucus
-							["provider"] = { "i", 4888 }, -- Crawler Mucus
+							["provider"] = { "i", 4888 },	-- Crawler Mucus
 							["crs"] = {
 								3107,	-- Mature Surf Crawler
 								3108,	-- Encrusted Surf Crawler

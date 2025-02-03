@@ -181,7 +181,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					q(40643, {	-- A Summons From Moonglade
 						["sourceQuests"] = { 44663 },	-- In the Blink of an Eye
-						["provider"] = { "n", 101061 },  -- Archdruid Hamuul Runetotem
+						["provider"] = { "n", 101061 },	-- Archdruid Hamuul Runetotem
 						["coord"] = { 57.8, 45.8, LEGION_DALARAN },
 						["g"] = {
 							i(173716),	-- Mossy Hearthstone (QI!)

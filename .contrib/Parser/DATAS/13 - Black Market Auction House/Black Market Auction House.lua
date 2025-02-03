@@ -104,7 +104,7 @@ root(ROOTS.BlackMarket, bubbleDown({ ["u"] = BLACK_MARKET, },{
 		i(168826, {	-- Mechagon Peacekeeper
 			["timeline"] = { ADDED_10_1_5 },
 		}),
-		i(163042),  -- Mighty Caravan Brutosaur (MOUNT!)
+		i(163042),	-- Mighty Caravan Brutosaur (MOUNT!)
 		i(159921, {	-- Mummified Raptor Skull
 			["timeline"] = { ADDED_10_1_5 },
 		}),

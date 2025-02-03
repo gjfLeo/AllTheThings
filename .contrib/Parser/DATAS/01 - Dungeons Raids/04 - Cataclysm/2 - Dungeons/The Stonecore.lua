@@ -121,15 +121,15 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						-- #if BEFORE 7.3.5
 						ach(4846),	-- The Stonecore
 						-- #endif
-						i(55818), -- Cowl of the Unseen World
-						i(55815), -- Darkling Staff
-						i(55813), -- Elementium Fang
-						i(55812), -- Helm of Numberless Shadow
-						i(55816), -- Leaden Despair
-						i(55814), -- Magnetite Mirror
-						i(55820), -- Prophet Scepter
-						i(55817), -- Slippers of the Twilight Prophet
-						i(55819), -- Tear of Blood
+						i(55818),	-- Cowl of the Unseen World
+						i(55815),	-- Darkling Staff
+						i(55813),	-- Elementium Fang
+						i(55812),	-- Helm of Numberless Shadow
+						i(55816),	-- Leaden Despair
+						i(55814),	-- Magnetite Mirror
+						i(55820),	-- Prophet Scepter
+						i(55817),	-- Slippers of the Twilight Prophet
+						i(55819),	-- Tear of Blood
 						-- #if BEFORE MOP
 						i(55821, {	-- Book of Dark Prophecies
 							["timeline"] = { REMOVED_5_0_4 },

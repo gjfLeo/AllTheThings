@@ -887,7 +887,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				q(65690, {	-- A Cultist's Misgivings
 					["sourceQuests"] = {
 						65444,	-- To the Dragon Isles! (H)
-						67700,  -- To the Dragon Isles! (A)
+						67700,	-- To the Dragon Isles! (A)
 						DF_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,
@@ -905,7 +905,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				q(65687, {	-- Punching Up
 					["sourceQuests"] = {
 						65444,	-- To the Dragon Isles! (H)
-						67700,  -- To the Dragon Isles! (A)
+						67700,	-- To the Dragon Isles! (A)
 						DF_ACCOUNT_CAMPAIGN_QUEST,
 					},
 					["sourceQuestNumRequired"] = 1,

@@ -146,7 +146,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(66, {	-- Chillwind Camp, Western Plaguelands
-					["cr"] = 12596,  -- Bibilfaz Featherwhistle <Gryphon Master>
+					["cr"] = 12596,	-- Bibilfaz Featherwhistle <Gryphon Master>
 					["coord"] = { 42.8, 85.0, WESTERN_PLAGUELANDS },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -3357,7 +3357,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1791,	-- Slavering Ghoul
 					},
 					-- #endif
-					["timeline"] = { REMOVED_4_0_3 }, -- Maybe still drops, this tag will help with reporting if somebody does get a drop
+					["timeline"] = { REMOVED_4_0_3 },	-- Maybe still drops, this tag will help with reporting if somebody does get a drop
 				}),
 				i(13496, {	-- Recipe: Greater Nature Protection Potion (RECIPE!)
 					["crs"] = {

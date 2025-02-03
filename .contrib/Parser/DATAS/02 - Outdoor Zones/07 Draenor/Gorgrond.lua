@@ -465,7 +465,7 @@ root(ROOTS.Zones, {
 							["races"] = HORDE_ONLY,
 							["sourceQuests"] = {
 								35400,	-- The Infected
-								35406,  -- Super Seeds (H)
+								35406,	-- Super Seeds (H)
 							},
 						}),
 						q(35208, {	-- Dark Iron Down
@@ -1218,7 +1218,7 @@ root(ROOTS.Zones, {
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuests"] = {
 								35702,	-- Chains of Iron
-								35137,  -- The Sparring Arena (A)
+								35137,	-- The Sparring Arena (A)
 							},
 							["g"] = {
 								i(112885),	-- Commander Gar's Iron Insignia
@@ -3065,8 +3065,8 @@ root(ROOTS.Zones, {
 							["description"] = "Inside The Forgotten Caves with Pale and Spiders.",
 							["questID"] = 36713,
 							["coords"] = {
-								{ 53.0, 79.0, GORGROND }, -- Egg Location
-								{ 51.4, 77.6, GORGROND }, -- Cave Entrance
+								{ 53.0, 79.0, GORGROND },	-- Egg Location
+								{ 51.4, 77.6, GORGROND },	-- Cave Entrance
 							},
 							["g"] = {
 								currency(824),	-- Garrison Resources
@@ -3115,8 +3115,8 @@ root(ROOTS.Zones, {
 						["description"] = "Inside Glut's burrow.",
 						["questID"] = 36651,
 						["coords"] = {
-							{ 46.1, 50.0, GORGROND },  -- Crystal
-							{ 44.5, 50.75, GORGROND }, -- Glut's Burrow Entrance
+							{ 46.1, 50.0, GORGROND },	-- Crystal
+							{ 44.5, 50.75, GORGROND },	-- Glut's Burrow Entrance
 						},
 						["g"] = {
 							currency(824),	-- Garrison Resources
@@ -3201,8 +3201,8 @@ root(ROOTS.Zones, {
 						["description"] = "Inside The Forgotten Caves with Pale and Spiders.",
 						["questID"] = 34940,
 						["coords"] = {
-							{ 53.0, 80.0, GORGROND }, -- Dagger Location
-							{ 51.4, 77.6, GORGROND }, -- Cave Entrance
+							{ 53.0, 80.0, GORGROND },	-- Dagger Location
+							{ 51.4, 77.6, GORGROND },	-- Cave Entrance
 						},
 						["g"] = {
 							i(118718),	-- Pale Bloodthief Dagger

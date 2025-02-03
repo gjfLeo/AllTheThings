@@ -230,11 +230,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(160373),	-- Tidespeaker Waistwrap
 					i(160376),	-- Darkwater Clasp
 					i(160379),	-- Stormchaser Buckle
-					i(160382), -- Dread Corsair Cincture
+					i(160382),	-- Dread Corsair Cincture
 					-- Horde sourceid's(not actual reward)
-					i(161280), -- Lastwind Shoes
-					i(161283), -- Exiled Veteran's Sabatons
-					i(161282), -- Resilient Outcast's Footguards
+					i(161280),	-- Lastwind Shoes
+					i(161283),	-- Exiled Veteran's Sabatons
+					i(161282),	-- Resilient Outcast's Footguards
 				}),
 			}),
 			q(52070, {	-- Bauer Backup

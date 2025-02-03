@@ -253,7 +253,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 204094 },	-- Roska Rocktooth
 					["coord"] = { 67.3, 47.5, OHNAHRAN_PLAINS },
 					["groups"] = {
-						i(210435), -- Archivist's Water Totem
+						i(210435),	-- Archivist's Water Totem
 					},
 				}),
 				q(75518, {	-- The Body on the Banks
@@ -333,7 +333,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 77.1, 38.4, THE_FORBIDDEN_REACH },
 					["g"] = {
 						o(405943, {	-- Drakonid Scroll Case
-							i(208202), -- Neltharion Agent Instructions (QI!)
+							i(208202),	-- Neltharion Agent Instructions (QI!)
 						}),
 						--spell(431593),	-- Azerothian Archives: Dragonskull Island, Forbidden Reach Site (WQ unlock)
 					},

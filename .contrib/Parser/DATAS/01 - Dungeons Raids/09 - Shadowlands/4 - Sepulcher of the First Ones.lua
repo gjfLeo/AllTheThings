@@ -22,7 +22,7 @@ local EncounterToCRS = {
 		184522,	-- Vigilant Custodian
 	},
 	[SKOLEX_THE_INSATIABLE_RAVENER] = { 181395 },	-- Skolex
-	[ARTIFICER_XYMOX] = { 183501 }, -- Artificer Xy'mox
+	[ARTIFICER_XYMOX] = { 183501 },	-- Artificer Xy'mox
 	[DAUSEGNE_THE_FALLEN_ORACLE] = { 181224 },	-- Dausegne, the Fallen Oracle
 	[PROTOTYPE_PANTHEON] = {
 		181551,	-- Prototype of Duty

@@ -29,7 +29,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 50442,	-- Cutwater Treasure Chest
 				["coord"] = { 72.5, 58.1, TIRAGARDE_SOUND },
 				["g"] = {
-					i(155381),  -- Cutwater-Captain's Sapphire Ring
+					i(155381),	-- Cutwater-Captain's Sapphire Ring
 				},
 			}),
 			o(297933, {	-- Dusty Songbook

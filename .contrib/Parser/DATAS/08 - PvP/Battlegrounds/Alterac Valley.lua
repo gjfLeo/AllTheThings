@@ -425,7 +425,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 39.6, 81.0, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["minReputation"] = { FACTION_STORMPIKE_GUARD, REVERED },  -- Stormpike Guard, Revered
+					["minReputation"] = { FACTION_STORMPIKE_GUARD, REVERED },	-- Stormpike Guard, Revered
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Stormpike Insignia Rank 3
@@ -559,7 +559,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						objective(1, {	-- 0/1 Frostwolf Insignia Rank 2
 							["provider"] = { "i", 17905 },	-- Frostwolf Insignia Rank 2
 						}),
-						i(17906),  -- Frostwolf Insignia Rank 3
+						i(17906),	-- Frostwolf Insignia Rank 3
 					},
 				}),
 				q(7169, {	-- Honored Amongst the Guard
@@ -572,7 +572,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 39.6, 81.0, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["minReputation"] = { FACTION_STORMPIKE_GUARD, HONORED },  -- Stormpike Guard, Honored
+					["minReputation"] = { FACTION_STORMPIKE_GUARD, HONORED },	-- Stormpike Guard, Honored
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Stormpike Insignia Rank 2
@@ -665,7 +665,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 39.6, 81.0, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["minReputation"] = { FACTION_STORMPIKE_GUARD, EXALTED },  -- Stormpike Guard, Exalted
+					["minReputation"] = { FACTION_STORMPIKE_GUARD, EXALTED },	-- Stormpike Guard, Exalted
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Stormpike Insignia Rank 4
@@ -690,7 +690,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						objective(1, {	-- 0/1 Frostwolf Insignia Rank 4
 							["provider"] = { "i", 17907 },	-- Frostwolf Insignia Rank 4
 						}),
-						i(17908),  -- Frostwolf Insignia Rank 5
+						i(17908),	-- Frostwolf Insignia Rank 5
 					},
 				}),
 				q(6801, {	-- Lokholar the Ice Lord
@@ -771,8 +771,8 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 							["provider"] = { "i", 17850 },	-- Frostwolf Banner
 							["coord"] = { 50.7, 93.3, ALTERAC_VALLEY },
 						}),
-						i(17690),  -- Frostwolf Insignia Rank 1
-						i(19483),  -- Peeling the Onion
+						i(17690),	-- Frostwolf Insignia Rank 1
+						i(19483),	-- Peeling the Onion
 					},
 				}),
 				q(7002, {	-- Ram Hide Harnesses
@@ -816,7 +816,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 39.6, 81.0, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["minReputation"] = { FACTION_STORMPIKE_GUARD, FRIENDLY },  -- Stormpike Guard, Friendly
+					["minReputation"] = { FACTION_STORMPIKE_GUARD, FRIENDLY },	-- Stormpike Guard, Friendly
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Stormpike Insignia Rank 1
@@ -841,7 +841,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						objective(1, {	-- 0/1 Frostwolf Insignia Rank 1
 							["provider"] = { "i", 17690 },	-- Frostwolf Insignia Rank 1
 						}),
-						i(17905),  -- Frostwolf Insignia Rank 2
+						i(17905),	-- Frostwolf Insignia Rank 2
 					},
 				}),
 				q(7123, {	-- Speak with our Quartermaster
@@ -907,7 +907,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["sourceQuest"] = 7171,	-- Legendary Heroes
 					["coord"] = { 39.6, 81.0, ALTERAC_MOUNTAINS },
 					-- #if AFTER SHADOWLANDS
-					["minReputation"] = { FACTION_STORMPIKE_GUARD, EXALTED },  -- Stormpike Guard, Exalted
+					["minReputation"] = { FACTION_STORMPIKE_GUARD, EXALTED },	-- Stormpike Guard, Exalted
 					-- #else
 					["minReputation"] = { FACTION_STORMPIKE_GUARD, EXALTED + 998 },    -- Stormpike Guard, 999/1000 Exalted
 					-- #endif
@@ -933,7 +933,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						objective(1, {	-- 0/1 Frostwolf Insignia Rank 5
 							["provider"] = { "i", 17908 },	-- Frostwolf Insignia Rank 5
 						}),
-						i(17909),  -- Frostwolf Insignia Rank 6
+						i(17909),	-- Frostwolf Insignia Rank 6
 					},
 				}),
 				q(7082, {	-- The Graveyards of Alterac
@@ -1172,7 +1172,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 62.8, 59.4, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["sym"] = { { "sub", "common_vendor", 13218 } }, -- Grunnda Wolfheart
+					["sym"] = { { "sub", "common_vendor", 13218 } },	-- Grunnda Wolfheart
 					["races"] = HORDE_ONLY,
 				}),
 				n(154478, {	-- Prospector Stonehewer
@@ -1194,7 +1194,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 39.6, 81.6, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["sym"] = { { "sub", "common_vendor", 13216 } }, -- Gaelden Hammersmith <Stormpike Supply Officer>
+					["sym"] = { { "sub", "common_vendor", 13216 } },	-- Gaelden Hammersmith <Stormpike Supply Officer>
 					["races"] = ALLIANCE_ONLY,
 				}),
 				n(154473, {	-- Voggah Deathgrip

@@ -56,13 +56,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 				q(80430, {	-- Aid the August Celestials
 					["provider"] = { "n", 61584 },	-- Sentinel Commander Qipan
 					["coord"] = { 39.3, 62.0, TOWNLONG_STEPPES },
-					["cost"] = { { "c", 738, 10 } },  -- 10x Lesser Charm of Good Fortune
+					["cost"] = { { "c", 738, 10 } },	-- 10x Lesser Charm of Good Fortune
 					["repeatable"] = true,
 				}),
 				q(80426, {	-- Aid the Shado-Pan
 					["provider"] = { "n", 63009 },	-- Master Snowdrift
 					["coord"] = { 49.3, 70.6, TOWNLONG_STEPPES },
-					["cost"] = { { "c", 738, 10 } },  -- 10x Lesser Charm of Good Fortune
+					["cost"] = { { "c", 738, 10 } },	-- 10x Lesser Charm of Good Fortune
 					["repeatable"] = true,
 				}),
 			}),

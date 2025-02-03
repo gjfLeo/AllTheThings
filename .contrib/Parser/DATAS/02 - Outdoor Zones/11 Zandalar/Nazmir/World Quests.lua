@@ -199,10 +199,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 141529 },	-- Lozu
 			})),
 			q(54267, {	-- Naga Attack!
-				i(165605),  -- Azsharan Medallion
+				i(165605),	-- Azsharan Medallion
 			}),
 			q(54236, {	-- Naga Attack!
-				i(165605),  -- Azsharan Medallion
+				i(165605),	-- Azsharan Medallion
 			}),
 			q(51548, {	-- Nagative Feedback (A)
 				["races"] = ALLIANCE_ONLY,
@@ -232,7 +232,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(50501),	-- Queen Tzxi'kik
 			h(q(50786, {	-- Revenge of Krag'wa
-				h(ach(13022)), -- Revenge is Best Served Speedily
+				h(ach(13022)),	-- Revenge is Best Served Speedily
 			})),
 			q(54839, {	-- Rightfully Ours (Faction Assault WQ)
 				["races"] = ALLIANCE_ONLY,

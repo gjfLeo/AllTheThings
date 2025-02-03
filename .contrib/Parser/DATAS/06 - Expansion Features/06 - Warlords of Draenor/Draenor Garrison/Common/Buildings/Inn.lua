@@ -786,7 +786,7 @@ root(ROOTS.ExpansionFeatures,
 						q(37239, {	-- Fate of the Fallen
 							["sourceQuest"] = 37164,	-- The Huntress
 							["provider"] = { "n", 88003 },	--  Cowled Ranger
-							["maps"] = { 574, 575, 576 }, -- Shadowmoon Burial Grounds
+							["maps"] = { 574, 575, 576 },	-- Shadowmoon Burial Grounds
 							["repeatable"] = true,
 							["g"] = {
 								o(237471, {	-- Silver-Lined Arrow
@@ -977,7 +977,7 @@ root(ROOTS.ExpansionFeatures,
 						q(37238, {	-- Secrets of Soulbinding
 							["sourceQuest"] = 37163,	-- Shadowy Secrets
 							["provider"] = { "n", 88002 },	--  Highlord Darion Mograine
-							["maps"] = { 574, 575, 576 }, -- Shadowmoon Burial Grounds
+							["maps"] = { 574, 575, 576 },	-- Shadowmoon Burial Grounds
 							["repeatable"] = true,
 							["g"] = {
 								o(237470, {	-- Dark Parchment

@@ -836,7 +836,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							},
 						}),
 						q(58615, {	-- Whispers in the Dark
-							["coord"] = { 50.1, 59.1, REPAIRED_CHAMBER_OF_HEART }, -- technicaly 1604?
+							["coord"] = { 50.1, 59.1, REPAIRED_CHAMBER_OF_HEART },	-- technicaly 1604?
 							["provider"] = { "n", 161805 },	-- Magni Bronzebeard
 							["sourceQuest"] = 57374,	-- Into the Darkest Depths
 						}),
@@ -958,7 +958,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["coord"] = { 48.2, 72.5, REPAIRED_CHAMBER_OF_HEART },
 							["g"] = {
 								i(173363, {	-- Vessel of Horrific Visions
-									["cost"] = { { "c", 1803, 1750 }, }, -- 1750 Echoes of Ny'alotha
+									["cost"] = { { "c", 1803, 1750 }, },	-- 1750 Echoes of Ny'alotha
 								}),
 								i(175062, {	-- Malefic Core
 									["cost"] = { { "c", 1803, 2000 } },	-- 2000 Echoes of Ny'alotha
@@ -1350,7 +1350,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 				n(132139, {	-- Hagras Wartaker <Blacksmith> (Silithus)
 					["coord"] = { 66.2, 55.2, SILITHUS },
 					["sym"] = {
-						{"sub", "common_recipes_vendor", 3356}, -- Sumi <Blacksmithing Supplies>
+						{"sub", "common_recipes_vendor", 3356},	-- Sumi <Blacksmithing Supplies>
 					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {

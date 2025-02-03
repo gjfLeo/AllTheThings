@@ -542,7 +542,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 			o(213362, {	-- Ship's Locker
 				["questID"] = 31396, -- Ship's Locker
 				["description"] = "Located underwater in a boat.",
-				["coord"] = { 51.28, 100.54, THE_JADE_FOREST }, -- Can't use Uncharted Sea MapID, plots the point incorrectly.
+				["coord"] = { 51.28, 100.54, THE_JADE_FOREST },	-- Can't use Uncharted Sea MapID, plots the point incorrectly.
 			}),
 			o(214325, {	-- Forgotten Lockbox
 				["questID"] = 31867, -- Forgotten Lockbox

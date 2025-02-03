@@ -245,8 +245,8 @@ root(ROOTS.Zones, {
 						pet(536, {	-- Tundra Penguin (PET!)
 							["description"] = "There is only a few spawns of this pet, which can be found by the shore in the westernmost part of Dragonblight. However, it is a common secondary pet in both Borean Tundra and Dragonblight!",
 							["coords"] = {
-								{ 9.0, 60.0, DRAGONBLIGHT }, -- Coldwind Pass
-								{ 18.7, 63.3, DRAGONBLIGHT }, -- Moonrest Gardens
+								{ 9.0, 60.0, DRAGONBLIGHT },	-- Coldwind Pass
+								{ 18.7, 63.3, DRAGONBLIGHT },	-- Moonrest Gardens
 							},
 						}),
 					},

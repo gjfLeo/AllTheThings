@@ -51,7 +51,7 @@ root(ROOTS.Promotions, {
 		["timeline"] = { ADDED_5_3_0 },
 		["groups"] = {
 			ach(8345),	-- Hearthstoned
-			i(98618), -- Hearthsteed (MOUNT!)
+			i(98618),	-- Hearthsteed (MOUNT!)
 		},
 	})),
 	n(HEARTHSTONE_MERCENARIES_MODE, bubbleDown({ ["u"] = REAL_MONEY }, {

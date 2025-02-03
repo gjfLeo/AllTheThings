@@ -2167,8 +2167,8 @@ root(ROOTS.PVP, {
 					i(65607),	-- Vicious Gladiator's Warboots of Cruelty
 				}),
 				filter(HELD_IN_OFF_HAND, {
-					i(67467), -- Vicious Gladiator's War Edge (Throw wep) wrong label by blizz
-					i(67466), -- Vicious Gladiator's Hatchet (Throw wep) wrong label by blizz
+					i(67467),	-- Vicious Gladiator's War Edge (Throw wep) wrong label by blizz
+					i(67466),	-- Vicious Gladiator's Hatchet (Throw wep) wrong label by blizz
 				}),
 			}))),
 		}),

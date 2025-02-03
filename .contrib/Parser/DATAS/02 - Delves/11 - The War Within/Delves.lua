@@ -354,7 +354,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}},
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(41714, { 	-- From Trash to Treasure (automated)
+		ach(41714, {	-- From Trash to Treasure (automated)
 			["timeline"] = { ADDED_11_1_0 },
 		}),
 		ach(40438, {	-- Glory of the Delver
@@ -399,7 +399,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		ach(40788, {	-- I Got the Keys
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
-		ach(41709, { 	-- Journey's End (Season 2)
+		ach(41709, {	-- Journey's End (Season 2)
 			["timeline"] = { ADDED_11_1_0 },
 		}),
 		ach(40452, {	-- Just Keep Swimming
@@ -1755,9 +1755,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40806),	-- Earthcrawl Mines Discoveries
 				ach(40527, {	-- Earthcrawl Mines Stories
-					crit(68758),  -- Kidnapped Earthen
-					crit(68759),  -- Precious Ores
-					crit(68760),  -- Fiery Grounds
+					crit(68758),	-- Kidnapped Earthen
+					crit(68759),	-- Precious Ores
+					crit(68760),	-- Fiery Grounds
 					crit(102963, { -- Looking for Treasure
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -1932,9 +1932,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40807),	-- Kriegval's Rest Discoveries
 				ach(40526, {	-- Kriegval's Rest Stories
-					crit(68755), -- Lost Keepsakes
-					crit(68756), -- Swarming Kobolds
-					crit(68757), -- Dagran's Day Out
+					crit(68755),	-- Lost Keepsakes
+					crit(68756),	-- Swarming Kobolds
+					crit(68757),	-- Dagran's Day Out
 					crit(102967, {	-- Corrupted Candles
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -1998,9 +1998,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40808),	-- Mycomancer Cavern Discoveries
 				ach(40531, {	-- Mycomancer Cavern Stories
-					crit(68770), -- Missing Pigs
-					crit(68771), -- The Great Scavenger Hunt
-					crit(68772), -- Mushroom Morsel
+					crit(68770),	-- Missing Pigs
+					crit(68771),	-- The Great Scavenger Hunt
+					crit(68772),	-- Mushroom Morsel
 				}),
 			}),
 			n(DELVE_COMPLETION, {
@@ -2091,9 +2091,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40809),	-- Nightfall Sanctum Discoveries
 				ach(40530, {	-- Nightfall Sanctum Stories
-					crit(68767), -- Dark Ritual
-					crit(68768), -- Kyron's Assault
-					crit(68769), -- Signal Noise
+					crit(68767),	-- Dark Ritual
+					crit(68768),	-- Kyron's Assault
+					crit(68769),	-- Signal Noise
 					crit(102975, {	-- Aiming to get Even
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -2197,9 +2197,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40810),	-- Skittering Breach Discoveries
 				ach(40533, {	-- Skittering Breach Stories
-					crit(68776), -- Old Rituals
-					crit(68777), -- Renilash Beckons
-					crit(68778), -- Shadow Realm
+					crit(68776),	-- Old Rituals
+					crit(68777),	-- Renilash Beckons
+					crit(68778),	-- Shadow Realm
 					crit(102972, {	-- Relics of the Old Gods
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -2260,9 +2260,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40811),	-- Tak-Rethan Abyss Discoveries
 				ach(40535, {	-- Tak-Rethan Abyss Stories
-					crit(68783), -- Goblin Mischief
-					crit(68784), -- Niffen Napping
-					crit(68785), -- Pheromone Fury
+					crit(68783),	-- Goblin Mischief
+					crit(68784),	-- Niffen Napping
+					crit(68785),	-- Pheromone Fury
 					crit(102966, {	-- Pump the Brakes
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -2321,9 +2321,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40812),	-- The Dread Pit Discoveries
 				ach(40529, {	-- The Dread Pit Stories
-					crit(68764), -- Lost Gems
-					crit(68765), -- Smashing Skardyn
-					crit(68766), -- Kobold Kidnapping
+					crit(68764),	-- Lost Gems
+					crit(68765),	-- Smashing Skardyn
+					crit(68766),	-- Kobold Kidnapping
 					crit(102969, {	-- Darkfuse Disruption
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -2380,9 +2380,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40813),	-- The Sinkhole Discoveries
 				ach(40532, {	-- The Sinkhole Stories
-					crit(68773), -- Illusory Rescue
-					crit(68774), -- Raen's Gambit
-					crit(68775), -- Lurking Terror
+					crit(68773),	-- Illusory Rescue
+					crit(68774),	-- Raen's Gambit
+					crit(68775),	-- Lurking Terror
 					crit(102970, {	-- Orphan's Holiday
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -2446,9 +2446,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40814),	-- The Spiral Weave Discoveries
 				ach(40536, {	-- The Spiral Weave Stories
-					crit(68786), -- Tortured Hostages
-					crit(68787), -- From the Weaver with Love
-					crit(68788), -- Strange Disturbances
+					crit(68786),	-- Tortured Hostages
+					crit(68787),	-- From the Weaver with Love
+					crit(68788),	-- Strange Disturbances
 					crit(102973, {	-- Down to Size
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -2510,10 +2510,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40815),	-- The Underkeep Discoveries
 				ach(40534, {	-- The Underkeep Stories
-					crit(68779), -- Torture Victims
-					crit(68780), -- Weaver Rescue
-					crit(68781), -- Evolved Research
-					crit(68782), -- Runaway Evolution
+					crit(68779),	-- Torture Victims
+					crit(68780),	-- Weaver Rescue
+					crit(68781),	-- Evolved Research
+					crit(68782),	-- Runaway Evolution
 					crit(102974, {	-- Third Party Operation
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -2573,9 +2573,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(ACHIEVEMENTS, {
 				ach(40816),	-- The Waterworks Discoveries
 				ach(40528, {	-- The Waterworks Stories
-					crit(68761), -- Captured Engineers
-					crit(68762), -- Trust Issues
-					crit(68763), -- Stomping Some Sense
+					crit(68761),	-- Captured Engineers
+					crit(68762),	-- Trust Issues
+					crit(68763),	-- Stomping Some Sense
 					crit(102968, {	-- Put a Wrench on It!
 						["timeline"] = { ADDED_11_1_0 },
 					}),

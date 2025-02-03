@@ -104,8 +104,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				},
 				q(5931, {	-- Back to Darnassus
-					["qg"] = 11802,  -- Dendrite Starblaze
-					["sourceQuest"] = 5929,  -- Great Bear Spirit [A]
+					["qg"] = 11802,	-- Dendrite Starblaze
+					["sourceQuest"] = 5929,	-- Great Bear Spirit [A]
 					["coord"] = { 56.2, 30.4, MOONGLADE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { DARNASSUS },
@@ -114,8 +114,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 10,
 				}),
 				q(5932, {	-- Back to Thunder Bluff
-					["qg"] = 11802,  -- Dendrite Starblaze
-					["sourceQuest"] = 5930,  -- Great Bear Spirit [H]
+					["qg"] = 11802,	-- Dendrite Starblaze
+					["sourceQuest"] = 5930,	-- Great Bear Spirit [H]
 					["coord"] = { 56.2, 30.4, MOONGLADE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { THUNDER_BLUFF },
@@ -295,7 +295,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 14,
 				}),
 				q(5921, {	-- Moonglade [A]
-					["qg"] = 4217,  -- Mathrengyl Bearwalker <Druid Trainer>
+					["qg"] = 4217,	-- Mathrengyl Bearwalker <Druid Trainer>
 					["sourceQuests"] = {
 						5923,	-- Heeding the Call [Darnassus]
 						5924,   -- Heeding the Call [Stormwind City]
@@ -307,7 +307,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["classes"] = { DRUID },
 				}),
 				q(5922, {	-- Moonglade [H]
-					["qg"] = 3033,  -- Turak Runetotem <Druid Trainer>
+					["qg"] = 3033,	-- Turak Runetotem <Druid Trainer>
 					["sourceQuests"] = {
 						5926,	-- Heeding the Call [Thunder Bluff]
 						5927,   -- Heeding the Call [Orgrimmar]
@@ -388,7 +388,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				},
 				q(6762, {	-- Rabine Saturna [A]
-					["qg"] = 4217,  -- Mathrengyl Bearwalker <Druid Trainer>
+					["qg"] = 4217,	-- Mathrengyl Bearwalker <Druid Trainer>
 					["sourceQuest"] = 6761,	-- The New Frontier (2/2) [Darnassus]
 					["coord"] = { 35.2, 8.0, DARNASSUS },
 					["timeline"] = { REMOVED_4_0_3 },

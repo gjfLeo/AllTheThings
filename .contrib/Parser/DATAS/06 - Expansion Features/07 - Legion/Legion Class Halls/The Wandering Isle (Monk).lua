@@ -322,7 +322,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					}),
 					-- Chap 1
 					q(41905, {	-- Report from Tian Monastery
-						["sourceQuests"] = { 42191 }, -- Tech It Up a Notch
+						["sourceQuests"] = { 42191 },	-- Tech It Up a Notch
 						["provider"] = { "n", 100438 },	-- Iron-Body Ponshu
 						["coord"] = { 51.4, 48.5, THE_WANDERING_ISLE },
 						["g"] = {
@@ -777,14 +777,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 				n(SPECIAL,{
 					gt(257, {	-- Celestial Favor
 						q(44239, {	-- Echo of a Celestial
-							["sourceQuests"] = { 42191 }, -- Tech It Up a Notch
+							["sourceQuests"] = { 42191 },	-- Tech It Up a Notch
 							["provider"] = { "n", 106538 },	-- Tianili
 							["coord"] = { 54.4, 58.8, THE_WANDERING_ISLE },
 						}),
 					}),
 					gt(256, {	-- One with Destiny
 						q(44238, {	-- Meditations on Fate
-							["sourceQuests"] = { 42191 }, -- Tech It Up a Notch
+							["sourceQuests"] = { 42191 },	-- Tech It Up a Notch
 							["provider"] = { "n", 110817 },	-- Yushi
 							["coord"] = { 53.4, 57.8, THE_WANDERING_ISLE },
 						}),

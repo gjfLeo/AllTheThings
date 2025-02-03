@@ -279,7 +279,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["lvl"] = 110,
 					}),
 					q(42682, {	-- Additional Accoutrements
-						["provider"] = { "n", 98632 },  -- Matron Mother Malevolence
+						["provider"] = { "n", 98632 },	-- Matron Mother Malevolence
 						["sourceQuests"] = { 42683 },	-- Demonic Improvements
 						["coord"] = { 59.9, 48.7, 720 },
 					}),
@@ -350,7 +350,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							42671,	-- Rise, Champions (Kayn) — must be on this quest
 							42670,	-- Rise, Champions (Altruis) — must be on this quest
 						},
-						["provider"] = { "n", 108326 },  -- Asha Ravensong
+						["provider"] = { "n", 108326 },	-- Asha Ravensong
 						["coord"] = { 56.2, 38.9, 720 },
 						["lvl"] = 101,
 						["g"] = {
@@ -1005,7 +1005,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(140964, {	-- Slayer's Lesser Armor Kit
 								["cost"] = { { "c", 1220, 500 }, },		-- 500x Order Resources
 							}),
-							i(133670),  -- Slayer's Tabard
+							i(133670),	-- Slayer's Tabard
 							i(139720, {	-- Spaulders of the Shattered Abyss
 								["cost"] = 5000000,	-- 500g
 							}),

@@ -1059,7 +1059,7 @@ root(ROOTS.Zones, {
 						-- #if AFTER 7.0.3
 						["description"] = "High-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
 						-- #endif
-						["crs"] = { 78390 }, -- Frenzied Manafeeder NPC
+						["crs"] = { 78390 },	-- Frenzied Manafeeder NPC
 						["coord"] = { 49.8, 56.1, TALADOR },
 					}),
 					q(34777, {	-- Gatekeepers of Auchindoun
@@ -2416,8 +2416,8 @@ root(ROOTS.Zones, {
 						["description"] = "Inside Aruuna Crystal Mine.",
 						["questID"] = 34260,
 						["coords"] = {
-							{ 78.1, 35.6, TALADOR }, -- Aruuna Crystal Mine Entrance
-							{ 81.8, 34.9, TALADOR }, -- Aruuna Mining Cart
+							{ 78.1, 35.6, TALADOR },	-- Aruuna Crystal Mine Entrance
+							{ 81.8, 34.9, TALADOR },	-- Aruuna Mining Cart
 						},
 						["g"] = {
 							--i(109118),	-- Blackrock Ore

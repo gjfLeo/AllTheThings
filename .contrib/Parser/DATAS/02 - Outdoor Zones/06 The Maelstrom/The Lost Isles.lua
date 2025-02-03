@@ -622,15 +622,15 @@ root(ROOTS.Zones, {
 				n(VENDORS, {
 					n(36432, {	--	Chawg <Armor Vendor>
 						["coord"] = { 37.0, 77.8, THE_LOST_ISLES },
-						["sym"] = { { "sub", "common_vendor", 49884 } }, -- Sally "Salvager" Sandscrew <Armor Vendor>
+						["sym"] = { { "sub", "common_vendor", 49884 } },	-- Sally "Salvager" Sandscrew <Armor Vendor>
 					}),
 					n(36465, {	--	Chawg <Armor Vendor>
 						["coord"] = { 35.8, 67.0, THE_LOST_ISLES },
-						["sym"] = { { "sub", "common_vendor", 49884 } }, -- Sally "Salvager" Sandscrew <Armor Vendor>
+						["sym"] = { { "sub", "common_vendor", 49884 } },	-- Sally "Salvager" Sandscrew <Armor Vendor>
 					}),
 					n(36464, {	--	Chawg <Armor Vendor>
 						["coord"] = { 24.4, 64.2, THE_LOST_ISLES },
-						["sym"] = { { "sub", "common_vendor", 49884 } }, -- Sally "Salvager" Sandscrew <Armor Vendor>
+						["sym"] = { { "sub", "common_vendor", 49884 } },	-- Sally "Salvager" Sandscrew <Armor Vendor>
 					}),
 					n(39063, {	--	Chawg <Armor Vendor>
 						["coords"] = {
@@ -638,7 +638,7 @@ root(ROOTS.Zones, {
 							{ 43.6, 25.2, THE_LOST_ISLES },
 							{ 42.6, 16.2, THE_LOST_ISLES },
 						},
-						["sym"] = { { "sub", "common_vendor", 49884 } }, -- Sally "Salvager" Sandscrew <Armor Vendor>
+						["sym"] = { { "sub", "common_vendor", 49884 } },	-- Sally "Salvager" Sandscrew <Armor Vendor>
 					}),
 					n(45286, {	-- KTC Train-a-Tron Deluxe <Professions Trainer & Vendor>
 						["coord"] = { 45.7, 65.8, THE_LOST_ISLES },

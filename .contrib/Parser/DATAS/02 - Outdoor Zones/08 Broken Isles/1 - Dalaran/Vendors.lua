@@ -491,7 +491,7 @@ root(ROOTS.Zones, {
 				n(96812, {	-- Elizabeth Ross <Tabard Vendor>
 					["coord"] = { 50.8, 55.6, LEGION_DALARAN },
 					["sym"] = {
-						{"sub", "common_vendor", 28776}, -- Elizabeth Ross <Tabard Vendor>
+						{"sub", "common_vendor", 28776},	-- Elizabeth Ross <Tabard Vendor>
 					},
 				}),
 				n(96779, {	-- Dagna Flintlock <Gunsmith>

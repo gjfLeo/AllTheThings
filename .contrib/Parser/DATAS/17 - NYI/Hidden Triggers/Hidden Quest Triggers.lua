@@ -2145,8 +2145,8 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(38845),	-- Unused
 		--q(59038),	-- Got suddenly appeared. Same time as I was chatting. We finished Temple of Jade Serpent, lvl 16, 22, 46 (I'm the 46). Goblin in group with Vulpera Party Sync enabled
 		--q(63389),	-- Person in Errors doesnt really remember
-		--q(63390), -- Person in Errors doesnt really remember
-		--q(63391), -- Person in Errors doesnt really remember
+		--q(63390),	-- Person in Errors doesnt really remember
+		--q(63391),	-- Person in Errors doesnt really remember
 		--q(54324),	-- Triggered in BfA
 		--q(54317),	-- BfA Alliance Stormsong "Invasion"
 		--q(62521),	-- unknown tracking

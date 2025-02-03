@@ -29,13 +29,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						}),
 					}, {	-- Revered
 						i(161489, {	-- Alpaca Wool Gloves
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165236, {	-- Alpaca Wool Leggings
 							["cost"] = 14000000,	-- 1,400g
 						}),
 						i(161527, {	-- Bracers of Zem'lan
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(162763, {	-- Design: Royal Quartz Loop [Rank 3] (RECIPE!)
 							["cost"] = 14000000,	-- 1,400g
@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["filterID"] = CONSUMABLES,	-- They may change it to a toy?
 						}),
 						i(161545, {	-- Girdle of Scavenged Plates
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165243, {	-- Grips of Zem'lan
 							["cost"] = 14000000,	-- 1,400g
@@ -95,23 +95,23 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 14000000,	-- 1,400g
 						}),
 						i(161507, {	-- Silent Scavenger Leggings
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 					}, {	-- Exalted
 						i(161531, {	-- Akunda's Grounding Boots
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165245, {	-- Akunda's Grounding Girdle
 							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(161542, {	-- Gauntlets of the Scorched Sands
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165235, {	-- Gloves of the Scaled Devoted
 							["cost"] = 19000000,	-- 1,900g
 						}),
 						i(161511, {	-- Kimbul's Cuffs of Redemption
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165241, {	-- Kimbul's Leggings of Redemption
 							["cost"] = 19000000,	-- 1,900g
@@ -123,7 +123,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 							["cost"] = 900000000,	-- 90,000g
 						}),
 						i(161502, {	-- Sash of the Scaled Devoted
-							["timeline"] = { CREATED_8_0_1 }, -- (Was in beta, not there on 9/16/18)
+							["timeline"] = { CREATED_8_0_1 },	-- (Was in beta, not there on 9/16/18)
 						}),
 						i(165249, {	-- Scorched Sandstalkers
 							["cost"] = 19000000,	-- 1,900g

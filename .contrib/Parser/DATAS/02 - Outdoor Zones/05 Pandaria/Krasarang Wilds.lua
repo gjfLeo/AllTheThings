@@ -2210,7 +2210,7 @@ root(ROOTS.Zones, {
 					}),
 					q(30081, {	-- Materia Medica
 						["sourceQuests"] = {
-							30079,  -- What's Eating Zhu's Watch?
+							30079,	-- What's Eating Zhu's Watch?
 							30082,	-- Cheer Up, Yi-Mo
 						},
 						["provider"] = { "n", 56115 },	-- Ken-ken
@@ -2291,7 +2291,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(30169, {	-- Raid Leader Slovan
-						["provider"] = { "n", 58278 }, -- Tired Shushen <Waterspeaker>
+						["provider"] = { "n", 58278 },	-- Tired Shushen <Waterspeaker>
 						["coord"] = { 29.7, 39, KRASARANG_WILDS },
 						["g"] = {
 							i(88387),	-- Shushen's Spittoon (TOY!)
@@ -2439,7 +2439,7 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(30669, {	-- The Lorewalker on the Lake
-						["sourceQuests"] = { 30668 }, -- Build Your Own Raft
+						["sourceQuests"] = { 30668 },	-- Build Your Own Raft
 						["provider"] = { "n", 60173 },	-- Jay Cloudfall
 						["coord"] = { 51.6, 76.8, KRASARANG_WILDS },
 					}),

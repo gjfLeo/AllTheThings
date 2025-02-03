@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["questID"] = 86768,
 				["lockCriteria"] = { 1, "sourceID", 231359 },
 				["g"] = {
-					i(233910), -- Salt-Stained Sweatcap (COSMETIC!)
+					i(233910),	-- Salt-Stained Sweatcap (COSMETIC!)
 				},
 			}),
 			o(465272, {	-- Empty Kaja'Cola Can
@@ -90,7 +90,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 39.3, 53.8, SIREN_ISLE },
 				["questID"] = 86767,
 				["g"] = {
-					i(233831), -- Minnow's Favorite Blade (COSMETIC!)
+					i(233831),	-- Minnow's Favorite Blade (COSMETIC!)
 				},
 			}),
 			o(463539, {	-- Pilfered Earthen Chest

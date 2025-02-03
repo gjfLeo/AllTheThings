@@ -168,13 +168,13 @@ root(ROOTS.Zones, {
 						["cr"] = 19581,	-- Maddix <Flight Master>
 						["coord"] = { 63.2, 30.4, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
-						["altQuests"] = { 10553 }, -- Voren'thal the Seer
+						["altQuests"] = { 10553 },	-- Voren'thal the Seer
 					}),
 					fp(159, {	-- Sanctum of the Stars, Shadowmoon Valley
 						["cr"] = 21766,	-- Alieshor <Flight Master>
 						["coord"] = { 56.2, 57.8, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
-						["altQuests"] = { 10554 }, -- Ishanah
+						["altQuests"] = { 10554 },	-- Ishanah
 					}),
 					fp(123, {	-- Shadowmoon Village, Shadowmoon Valley
 						["cr"] = 19317,	-- Drek'Gol <Wind Rider Master>
@@ -576,13 +576,13 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	--	0/20 Eclipsion Soldier slain
-								["provider"] = { "n", 22016 }, -- Eclipsion Soldier
+								["provider"] = { "n", 22016 },	-- Eclipsion Soldier
 							}),
 							objective(2, {	--	0/10 Eclipsion Cavalier slain
-								["provider"] = { "n", 22018 }, -- Eclipsion Cavalier
+								["provider"] = { "n", 22018 },	-- Eclipsion Cavalier
 							}),
 							objective(3, {	--	0/5 Son of Corok slain
-								["provider"] = { "n", 19824 }, -- Son of Corok
+								["provider"] = { "n", 19824 },	-- Son of Corok
 							}),
 						},
 					}),
@@ -2808,10 +2808,10 @@ root(ROOTS.Zones, {
 				}),
 				n(ZONE_DROPS, {
 					i(34689, {	-- Design: Chaotic Skyfire Diamond
-						["crs"] = { 19768 },  -- Coilskar Siren
+						["crs"] = { 19768 },	-- Coilskar Siren
 					}),
 					i(24158, {  -- Design: Khorium Band of Shadows
-						["crs"] = { 19826 },  -- Dark Conclave Shadowmancer
+						["crs"] = { 19826 },	-- Dark Conclave Shadowmancer
 					}),
 					i(28276, {	-- Formula: Enchant Cloak - Greater Arcane Resistance (RECIPE!)
 						["timeline"] = { ADDED_2_0_1, REMOVED_5_0_4 },

@@ -113,7 +113,7 @@ root(ROOTS.Promotions, n(WARCRAFT_RUMBLE, bubbleDownSelf({ ["timeline"] = { ADDE
             ["coords"] = {
                 { 48.0, 46.4, VALDRAKKEN },
             },
-            ["cost"] = {{"i",202162,1}}, -- Rumble Coin
+            ["cost"] = {{"i",202162,1}},	-- Rumble Coin
             ["repeatable"] = true,
             ["groups"] = {
                 i(202163, {	-- Rumble Prize Box
@@ -133,7 +133,7 @@ root(ROOTS.Promotions, n(WARCRAFT_RUMBLE, bubbleDownSelf({ ["timeline"] = { ADDE
 				{ 28.6, 41.6, STORMWIND_CITY },
 			},
 			["races"] = ALLIANCE_ONLY,
-			["cost"] = {{"i",202162,1}}, -- Rumble Coin
+			["cost"] = {{"i",202162,1}},	-- Rumble Coin
 			["repeatable"] = true,
 			["groups"] = {
 				i(202163, {	-- Rumble Prize Box
@@ -153,7 +153,7 @@ root(ROOTS.Promotions, n(WARCRAFT_RUMBLE, bubbleDownSelf({ ["timeline"] = { ADDE
                 { 50.8, 82.2, ORGRIMMAR },
             },
 			["races"] = HORDE_ONLY,
-            ["cost"] = {{"i",202162,1}}, -- Rumble Coin
+            ["cost"] = {{"i",202162,1}},	-- Rumble Coin
             ["repeatable"] = true,
             ["groups"] = {
                 i(202163, {	-- Rumble Prize Box
@@ -168,7 +168,7 @@ root(ROOTS.Promotions, n(WARCRAFT_RUMBLE, bubbleDownSelf({ ["timeline"] = { ADDE
             },
         }),
         q(72809, {	-- Insert Coin
-            ["cost"] = {{"i",202162,1}}, -- Rumble Coin
+            ["cost"] = {{"i",202162,1}},	-- Rumble Coin
             ["repeatable"] = true,
             ["groups"] = {
                 i(202163) -- Rumble Prize Box
@@ -182,7 +182,7 @@ root(ROOTS.Promotions, n(WARCRAFT_RUMBLE, bubbleDownSelf({ ["timeline"] = { ADDE
         }),
     }),
     n(QUESTS, sharedData({	-- Common Objects
-        ["provider"] = { "o", 384744 }, -- Warcraft Rumble Machine
+        ["provider"] = { "o", 384744 },	-- Warcraft Rumble Machine
         ["cost"] = {{"i",202395,1}},	-- Rumble Foil
     },{
 		-- Silver Looks

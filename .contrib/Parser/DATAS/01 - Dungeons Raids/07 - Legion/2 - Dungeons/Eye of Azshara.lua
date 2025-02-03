@@ -52,10 +52,10 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				cr(91784, e(1480, {	-- Warlord Parjesh
-					i(139574), -- Coil of the Drowned Queen (shaman appearance)
+					i(139574),	-- Coil of the Drowned Queen (shaman appearance)
 				})),
 				cr(91789, e(1490, {	-- Lady Hatecoil
-					i(139574), -- Coil of the Drowned Queen (shaman appearance)
+					i(139574),	-- Coil of the Drowned Queen (shaman appearance)
 				})),
 				cr(96028, e(1492, {	-- Wrath of Azshara
 					ach(10780),	-- Eye of Azshara

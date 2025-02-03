@@ -333,8 +333,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							ach(1871, {	-- Experienced Drake Rider
 								crit(7177, {	-- Amber Drake
 									["providers"] = {
-										{ "n", 27755 }, -- Amber Drake
-										{ "i", 37859 }, -- Amber Essence
+										{ "n", 27755 },	-- Amber Drake
+										{ "i", 37859 },	-- Amber Essence
 										{ "n", 27659 },	-- Eternos
 									},
 								}),

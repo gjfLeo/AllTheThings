@@ -248,7 +248,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(41160, {	-- It's a Plunderful Life (250k)
 				title(601),	-- <Name> the Treasured
 			}),
-			ach(20509), 	-- Plunderkind
+			ach(20509),	-- Plunderkind
 		}),
 		filter(MISC, {
 			i(234422, { -- Storm-Singed Plunder
@@ -256,7 +256,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 				["g"] = {
 					i(234423),	-- Keg-Leg's Silver Spoils
 					i(234424),	-- Keg-Leg's Bronze Spoils
-				}, -- Wowhead reports this is given from a(41218)?
+				},	-- Wowhead reports this is given from a(41218)?
 			}),
 		}),
 		n(PLUNDERSTORE, {

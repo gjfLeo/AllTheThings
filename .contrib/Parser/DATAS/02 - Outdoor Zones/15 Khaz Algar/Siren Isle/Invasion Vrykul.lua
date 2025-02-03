@@ -72,7 +72,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["coord"] = { 63.9, 87.3, SIREN_ISLE },
 						["questID"] = 84805,
 						["g"] = {
-							i(234972), -- Bloodwake Missive [book]
+							i(234972),	-- Bloodwake Missive [book]
 						},
 					}),
 				})),

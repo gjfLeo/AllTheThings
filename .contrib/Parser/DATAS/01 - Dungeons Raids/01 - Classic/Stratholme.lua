@@ -822,11 +822,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							["timeline"] = { REMOVED_4_0_3 },
 						}),
 						i(16249, {	-- Formula: Enchant 2H Weapon - Major Intellect (RECIPE!)
-							["cr"] = 10422,  -- Crimson Sorcerer / Risen Sorcerer [CATA+]
+							["cr"] = 10422,	-- Crimson Sorcerer / Risen Sorcerer [CATA+]
 						}),
 						i(14495, {	-- Pattern: Ghostweave Pants
 							["timeline"] = { REMOVED_4_0_3 },	-- Moved to Trainer
-							["cr"] = 10384,  -- Spectral Citizen
+							["cr"] = 10384,	-- Spectral Citizen
 						}),
 						i(15777, {	-- Pattern: Runic Leather Shoulders (RECIPE!)
 							["timeline"] = { REMOVED_4_0_3 },	-- Moved to Trainer

@@ -6,7 +6,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }
 		q(79009, {	-- The Harbinger
 			-- Auto accepted when logging in
 			["groups"] = {
-				i(223988),  -- Dalaran Hearthstone (QI!)
+				i(223988),	-- Dalaran Hearthstone (QI!)
 			},
 		}),
 		q(81654, {	-- The Harbinger
@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }
 				["coord"] = { 41.4, 75.6, ORGRIMMAR },
 			},
 			["groups"] = {
-				i(223988),  -- Dalaran Hearthstone (QI!)
+				i(223988),	-- Dalaran Hearthstone (QI!)
 			},
 		}),
 		q(79010, {	-- Door to the Ren'dorei
@@ -96,7 +96,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }
 			["coord"] = { 50.2, 75.2, TELOGRUS_RIFT },
 			["groups"] = {
 				i(213561),	-- Winding Slitherdrake: Void Scales (MM!)
-                ach(40382), -- Hunt the Harbinger
+				ach(40382),	-- Hunt the Harbinger
 			},
 		}),
 	}),

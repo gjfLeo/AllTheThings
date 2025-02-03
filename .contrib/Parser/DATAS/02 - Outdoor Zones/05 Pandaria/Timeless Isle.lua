@@ -1888,7 +1888,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(221673, {	-- Blazing Chest
-						["questID"] = 33210,  -- One-Time Chest - Blazing Chest
+						["questID"] = 33210,	-- One-Time Chest - Blazing Chest
 						["coord"] = { 47.3, 26.9, TIMELESS_ISLE },
 						["g"] = {
 							i(103982),	-- Burden of Eternity

@@ -502,12 +502,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["isBreadcrumb"] = true,
 				}),
 				q(80564, {	-- Field Research
-					["sourceQuests"] = { 83306 }, -- Where the Wild Things Camp
+					["sourceQuests"] = { 83306 },	-- Where the Wild Things Camp
 					["provider"] = { "n", 220595 },	-- Orweyna
 					["coord"] = { 44.6, 66.4, AZJ_KAHET },
 				}),
 				q(80563, {	-- Tool of Attunement
-					["sourceQuests"] = { 83306 }, -- Where the Wild Things Camp
+					["sourceQuests"] = { 83306 },	-- Where the Wild Things Camp
 					["provider"] = { "n", 220595 },	-- Orweyna
 					["coord"] = { 44.6, 66.4, AZJ_KAHET },
 					["g"] = {
@@ -737,7 +737,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["isBreadcrumb"] = true,
 				}),
 				q(83628, {	-- Tense Recovery
-					["sourceQuests"] = { 83716 }, -- Beneath the Roots
+					["sourceQuests"] = { 83716 },	-- Beneath the Roots
 					["provider"] = { "n", 227222 },	-- Ysabel Gleamgaard
 					["coord"] = { 23.6, 52.2, AZJ_KAHET },
 				}),

@@ -640,7 +640,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					},
 				}),
 				n(SHOOTING_GALLERY_HEADER, {
-					["cr"] = 14841,  -- Rinling
+					["cr"] = 14841,	-- Rinling
 					["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 					["timeline"] = { ADDED_4_3_0 },
 					["groups"] = {
@@ -650,7 +650,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 							}),
 						}),
 						q(29438, {	-- He Shoots, He Scores!
-							["qg"] = 14841,  -- Rinling
+							["qg"] = 14841,	-- Rinling
 							["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 							["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 							["timeline"] = { ADDED_4_3_0 },
@@ -666,7 +666,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					},
 				}),
 				n(WHACK_A_GNOLL_HEADER, {
-					["cr"] = 54601,  -- Mola <Whack-a-Gnoll>
+					["cr"] = 54601,	-- Mola <Whack-a-Gnoll>
 					["coord"] = { 53.2, 54.3, DARKMOON_ISLAND },
 					["timeline"] = { ADDED_4_3_0 },
 					["groups"] = {
@@ -703,7 +703,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		-- #endif
 		n(QUESTS, {
 			q(7930, {	-- 5 Tickets - Darkmoon Flower
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -724,7 +724,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7931, {	-- 5 Tickets - Minor Darkmoon Prize
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -748,7 +748,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7935, {	-- 10 Tickets - Last Month's Mutton
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -770,7 +770,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7932, {	-- 12 Tickets - Lesser Darkmoon Prize
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -793,7 +793,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7933, {	-- 40 Tickets - Greater Darkmoon Prize
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -816,7 +816,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(9249, {	-- 40 Tickets - Schematic: Steam Tonk Controller
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -838,7 +838,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7934, {	-- 50 Tickets - Darkmoon Storage Box
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -858,7 +858,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7936, {	-- 50 Tickets - Last Year's Mutton
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -880,7 +880,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7981, {	-- 1200 Tickets - Amulet of the Darkmoon
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -902,7 +902,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7940, {	-- 1200 Tickets - Orb of the Darkmoon
-				["qg"] = 14828,  -- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
+				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.0, 64.8, DARKMOON_ISLAND },
 				-- #else
@@ -1051,7 +1051,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7885, {	-- Armor Kits [Tier 5]
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				-- #else
@@ -1148,7 +1148,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7892, {	-- Big Black Mace [Tier 4]
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.2, 67.6, DARKMOON_ISLAND },
 				-- #else
@@ -1170,7 +1170,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7881, {	-- Carnival Boots [Tier 1]
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				-- #else
@@ -1198,7 +1198,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			-- CRIEVE NOTE: I don't know what the difference is.
 			-- Might be reputation maximums? The rep awarded is the same.
 			q(79595, {	-- Carnival Boots [Tier 1]
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				["coords"] = {
 					{ 43.5, 71.1, ELWYNN_FOREST },
 					{ 36.2, 35.2, MULGORE },
@@ -1213,7 +1213,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 			-- #endif
 			q(7882, {	-- Carnival Jerkins [Tier 2]
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				-- #else
@@ -1242,7 +1242,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			-- CRIEVE NOTE: I don't know what the difference is.
 			-- Might be reputation maximums? The rep awarded is the same.
 			q(79592, {	-- Carnival Jerkins [Tier 2]
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				["coords"] = {
 					{ 43.5, 71.1, ELWYNN_FOREST },
 					{ 36.2, 35.2, MULGORE },
@@ -1258,7 +1258,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 			-- #endif
 			q(7889, {	-- Coarse Weightstone [Tier 1]
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.2, 67.6, DARKMOON_ISLAND },
 				-- #else
@@ -1286,7 +1286,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			-- CRIEVE NOTE: I don't know what the difference is.
 			-- Might be reputation maximums? The rep awarded is the same.
 			q(79593, {	-- Coarse Weightstone [Tier 1]
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				["coords"] = {
 					{ 40.5, 69.9, ELWYNN_FOREST },
 					{ 37.8, 39.8, MULGORE },
@@ -1301,7 +1301,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 			-- #endif
 			q(7894, {	-- Copper Modulator [Tier 1]
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				-- #if AFTER 4.3.0
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				-- #else
@@ -1329,7 +1329,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			-- CRIEVE NOTE: I don't know what the difference is.
 			-- Might be reputation maximums? The rep awarded is the same.
 			q(79594, {	-- Copper Modulator [Tier 1]
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				["coords"] = {
 					{ 41.7, 70.7, ELWYNN_FOREST },
 					{ 37.1, 37.2, MULGORE },
@@ -1344,7 +1344,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 			-- #endif
 			q(7884, {	-- Crocolisk Boy and the Bearded Murloc [Tier 4]
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				-- #else
@@ -1899,7 +1899,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7903, {	-- Evil Bat Eyes [Tier 5]
-				["qg"] = 14829,  -- Yebb Neblegear
+				["qg"] = 14829,	-- Yebb Neblegear
 				-- #if AFTER 4.3.0
 				["coord"] = { 51.6, 81.8, DARKMOON_ISLAND },
 				-- #else
@@ -1921,7 +1921,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(29517, {	-- Eyes on the Prizes
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
@@ -1993,7 +1993,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7896, {	-- Green Fireworks [Tier 3]
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				-- #if AFTER 4.3.0
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				-- #else
@@ -2015,7 +2015,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7891, {	-- Green Iron Bracers [Tier 3]
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.2, 67.6, DARKMOON_ISLAND },
 				-- #else
@@ -2037,7 +2037,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7890, {	-- Heavy Grinding Stone [Tier 2]
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.2, 67.6, DARKMOON_ISLAND },
 				-- #else
@@ -2066,7 +2066,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			-- CRIEVE NOTE: I don't know what the difference is.
 			-- Might be reputation maximums? The rep awarded is the same.
 			q(79590, {	-- Heavy Grinding Stone [Tier 2]
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				["coords"] = {
 					{ 40.5, 69.9, ELWYNN_FOREST },
 					{ 37.8, 39.8, MULGORE },
@@ -2082,7 +2082,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 			-- #endif
 			q(29514, {	-- Herbs for Healing
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
@@ -2114,7 +2114,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(29516, {	-- Keeping the Faire Sparkling
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
@@ -2179,7 +2179,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}))),
 			q(7897, {	-- Mechanical Repair Kits [Tier 4]
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				-- #if AFTER 4.3.0
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				-- #else
@@ -2201,7 +2201,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7941, {	-- More Armor Kits [Tier 5] (Not Really)
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				["sourceQuest"] = 7885,	-- Armor Kits
 				-- #if AFTER 4.3.0
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
@@ -2223,7 +2223,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7943, {	-- More Bat Eyes [Tier 5] (Not Really)
-				["qg"] = 14829,  -- Yebb Neblegear
+				["qg"] = 14829,	-- Yebb Neblegear
 				["sourceQuest"] = 7903,	-- Evil Bat Eyes
 				-- #if AFTER 4.3.0
 				["coord"] = { 51.6, 81.8, DARKMOON_ISLAND },
@@ -2245,7 +2245,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7939, {	-- More Dense Grinding Stones [Tier 5] (Not Really)
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				["sourceQuest"] = 7893,	-- Rituals of Strength
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.2, 67.6, DARKMOON_ISLAND },
@@ -2267,7 +2267,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(8223, {	-- More Glowing Scorpid Blood [Tier 5] (Not Really)
-				["qg"] = 14829,  -- Yebb Neblegear
+				["qg"] = 14829,	-- Yebb Neblegear
 				["sourceQuest"] = 8222,	-- Glowing Scorpid Blood
 				-- #if AFTER 4.3.0
 				["coord"] = { 51.6, 81.8, DARKMOON_ISLAND },
@@ -2289,7 +2289,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7942, {	-- More Thorium Widgets [Tier 5] (Not Really)
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				["sourceQuest"] = 7898,	-- Thorium Widget
 				-- #if AFTER 4.3.0
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
@@ -2324,7 +2324,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}))),
 			q(29512, {	-- Putting the Carnies Back Together Again
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0, REMOVED_8_0_1 },
@@ -2397,7 +2397,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(29518, {	-- Rearm, Reuse, Recycle
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
@@ -2440,7 +2440,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7893, {	-- Rituals of Strength [Tier 5]
-				["qg"] = 14832,  -- Kerri Hicks <The Strongest Woman Alive!>
+				["qg"] = 14832,	-- Kerri Hicks <The Strongest Woman Alive!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 48.2, 67.6, DARKMOON_ISLAND },
 				-- #else
@@ -2567,7 +2567,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7946, {	-- Spawn of Jubjub
-				["qg"] = 14871,  -- Morja
+				["qg"] = 14871,	-- Morja
 				-- #if AFTER 4.3.0
 				["coord"] = { 55.9, 70.7, DARKMOON_ISLAND },
 				-- #else
@@ -2631,7 +2631,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			})),
 			q(29511, {	-- Talkin' Tonks
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
@@ -2663,7 +2663,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(29519, {	-- Tan My Hide
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
@@ -2800,7 +2800,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7883, {	-- The World's Largest Gnome! [Tier 3]
-				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
+				["qg"] = 14833,	-- Chronos <He Who Never Forgets!>
 				-- #if AFTER 4.3.0
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
 				-- #else
@@ -2822,7 +2822,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				},
 			}),
 			q(7898, {	-- Thorium Widgets [Tier 5]
-				["qg"] = 14841,  -- Rinling
+				["qg"] = 14841,	-- Rinling
 				-- #if AFTER 4.3.0
 				["coord"] = { 49.6, 60.8, DARKMOON_ISLAND },
 				-- #else
@@ -4266,10 +4266,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 					iensemble(138430, {	-- Ensemble: Chain of the Scarlet Crusade
 						["cost"] = 100000000,	-- 10,000g
-					}), --No questid attached to this ensemble
+					}),	--No questid attached to this ensemble
 					iensemble(138431, {	-- Ensemble: Scale of the Scarlet Crusade
 						["cost"] = 100000000,	-- 10,000g
-					}), --No questid attached to this ensemble
+					}),	--No questid attached to this ensemble
 				},
 			})),
 			n(14845, {	-- Stamp Thunderhorn <Food Vendor>

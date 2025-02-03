@@ -1439,7 +1439,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 56.2, 60.4, THE_JADE_FOREST },
 					}),
 					q(31771, {	-- Face to Face With Consequence
-						["sourceQuests"] = { 31769 }, -- The Final Blow!
+						["sourceQuests"] = { 31769 },	-- The Final Blow!
 						["provider"] = { "n", 66657 },	-- Taran Zhu
 						["coord"] = { 33.7, 10.6, THE_JADE_FOREST },
 						["races"] = HORDE_ONLY,
@@ -1792,7 +1792,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 					q(31740, {	-- Koukou's Rampage
-						["sourceQuests"] = { 31739 },  -- Priorities!
+						["sourceQuests"] = { 31739 },	-- Priorities!
 						["provider"] = { "n", 66199 },	-- Lin Applebloom
 						["coord"] = { 39.6, 90.0, THE_JADE_FOREST },
 						["races"] = ALLIANCE_ONLY,

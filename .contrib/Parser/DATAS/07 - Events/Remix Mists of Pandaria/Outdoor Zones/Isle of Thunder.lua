@@ -130,28 +130,28 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 					["provider"] = { "n", 67933 },	-- Vereesa Windrunner
 					["coord"] = { 63.2, 72.1, ISLE_OF_THUNDER },
 					["races"] = ALLIANCE_ONLY,
-					["cost"] = { { "c", 738, 10 } },  -- 10x Lesser Charm of Good Fortune
+					["cost"] = { { "c", 738, 10 } },	-- 10x Lesser Charm of Good Fortune
 					["isDaily"] = true,
 				}),
 				q(81749, {	-- Aid the Kirin Tor Offensive [A]
 					["provider"] = { "n", 67933 },	-- Vereesa Windrunner
 					["coord"] = { 63.2, 72.1, ISLE_OF_THUNDER },
 					["races"] = ALLIANCE_ONLY,
-					["cost"] = { { "c", 738, 10 } },  -- 10x Lesser Charm of Good Fortune
+					["cost"] = { { "c", 738, 10 } },	-- 10x Lesser Charm of Good Fortune
 					["repeatable"] = true,
 				}),
 				q(80442, {	-- Aid the Sunreavers Onslaught [H]
 					["provider"] = { "n", 70520 },	-- Halduron Brightwing
 					["coord"] = { 32.5, 35.5, ISLE_OF_THUNDER },
 					["races"] = HORDE_ONLY,
-					["cost"] = { { "c", 738, 10 } },  -- 10x Lesser Charm of Good Fortune
+					["cost"] = { { "c", 738, 10 } },	-- 10x Lesser Charm of Good Fortune
 					["isDaily"] = true,
 				}),
 				q(81748, {	-- Aid the Sunreavers Onslaught [H]
 					["provider"] = { "n", 70520 },	-- Halduron Brightwing
 					["coord"] = { 32.5, 35.5, ISLE_OF_THUNDER },
 					["races"] = HORDE_ONLY,
-					["cost"] = { { "c", 738, 10 } },  -- 10x Lesser Charm of Good Fortune
+					["cost"] = { { "c", 738, 10 } },	-- 10x Lesser Charm of Good Fortune
 					["repeatable"] = true,
 				}),
 			}),

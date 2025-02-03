@@ -222,7 +222,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["qg"] = 53009,	-- Kalecgos
 						["sourceQuest"] = 29234,	-- Delegation
 						["groups"] = {
-							i(71084),  -- Branch of Nordrassil
+							i(71084),	-- Branch of Nordrassil
 						},
 					}),
 					q(29240, {	-- Emergency Extraction

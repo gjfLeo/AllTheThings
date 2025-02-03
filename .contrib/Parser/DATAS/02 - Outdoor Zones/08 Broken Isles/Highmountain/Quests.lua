@@ -53,7 +53,7 @@ root(ROOTS.Zones, {
 				}),
 				q(45841, {	-- A Triumphant Report
 					["sourceQuests"] = { 45796 },	-- Destroying the Nest
-					["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
 						MONK,		-- Windwalker
@@ -250,7 +250,7 @@ root(ROOTS.Zones, {
 				}),
 				q(45796, {	-- Destroying the Nest
 					["sourceQuests"] = { 45587 },	-- The Feltotem Menace
-					["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
 						MONK,		-- Windwalker
@@ -725,7 +725,7 @@ root(ROOTS.Zones, {
 						47020,	-- Discipline: Rumblings Near Feltotem
 						47019,	-- Windwalker: Rumblings Near Feltotem
 					},
-					["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
 						MONK,		-- Windwalker
@@ -742,7 +742,7 @@ root(ROOTS.Zones, {
 				}),
 				q(45587, {	-- The Feltotem Menace
 					["sourceQuests"] = { 45575 },	-- Village of the Corruptors
-					["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
 						MONK,		-- Windwalker
@@ -810,7 +810,7 @@ root(ROOTS.Zones, {
 				}),
 				q(45726, {	-- The Tainted Marsh
 					["sourceQuests"] = { 45564 },	-- The Burning Birds
-					["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
 						MONK,		-- Windwalker
@@ -933,7 +933,7 @@ root(ROOTS.Zones, {
 				}),
 				q(45575, {	-- Village of the Corruptors
 					["sourceQuests"] = { 45726 },	-- The Tainted Marsh
-					["_drop"] = { "classes", "c" }, -- Hide classes Blizz API insists can get the quest
+					["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 					["classes"] = {
 						HUNTER,		-- Beast Mastery
 						MONK,		-- Windwalker

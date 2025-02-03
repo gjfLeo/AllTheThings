@@ -461,7 +461,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		i(169495),	-- Recipe: Superior Battle Potion of Agility [Rank 3] (RECIPE!)
 		i(169499),	-- Recipe: Superior Battle Potion of Strength [Rank 3] (RECIPE!)
 		i(169497),	-- Recipe: Superior Battle Potion of Intellect [Rank 3] (RECIPE!)
-		i(169498),  -- Recipe: Superior Battle Potion of Stamina [Rank 3] (RECIPE!)
+		i(169498),	-- Recipe: Superior Battle Potion of Stamina [Rank 3] (RECIPE!)
 		i(169496),	-- Recipe: Superior Steelskin Potion [Rank 3] (RECIPE!)
 	}),
 	--	Gear
@@ -511,7 +511,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			i(169427),	-- Wavecrash Shoulderplates
 			i(169422),	-- Wavecrash Smashers
 			i(169429),	-- Wavecrash Wristguards
-			i(170118),  -- Centurion's Shortsword
+			i(170118),	-- Centurion's Shortsword
 		},
 	}),
 })));

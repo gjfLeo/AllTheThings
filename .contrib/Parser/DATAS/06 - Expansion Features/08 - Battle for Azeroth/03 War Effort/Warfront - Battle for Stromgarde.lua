@@ -1110,7 +1110,7 @@ root(ROOTS.ExpansionFeatures,
 									["coord"] = { 66.01, 26.01, BORALUS },
 									["races"] = ALLIANCE_ONLY,
 									["isWeekly"] = true,
-									["_drop"] = { "g" }, -- bnet api has horde box
+									["_drop"] = { "g" },	-- bnet api has horde box
 									["g"] = {
 										i(169197, {	-- Warfronts Equipment Cache
 											n(BACK, {
@@ -1142,7 +1142,7 @@ root(ROOTS.ExpansionFeatures,
 									["coord"] = { 66.01, 26.01, BORALUS },
 									["races"] = ALLIANCE_ONLY,
 									["isWeekly"] = true,
-									["_drop"] = { "g" }, -- bnet api has horde box
+									["_drop"] = { "g" },	-- bnet api has horde box
 									["g"] = {
 										i(164578, {	-- Warfronts Equipment Cache
 											["modID"] = 6,
@@ -1466,7 +1466,7 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = ALLIANCE_ONLY,
 									["repeatable"] = true,
 									["u"] = REMOVED_FROM_GAME,
-									["_drop"] = { "g" }, -- bnet api has horde box
+									["_drop"] = { "g" },	-- bnet api has horde box
 									["g"] = {
 										-- #IF BEFORE SHADOWLANDS
 										-- this is distorting actual live rewards

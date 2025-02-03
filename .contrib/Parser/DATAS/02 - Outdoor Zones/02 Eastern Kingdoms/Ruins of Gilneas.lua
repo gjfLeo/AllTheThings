@@ -314,7 +314,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						78183,	-- Scarlet Blood
 						78184,	-- Smokepowder and Mirrors
 					},
-					-- ["coord"] = { 57, 53, RUINS_OF_GILNEAS }, -- Spawns with you.
+					-- ["coord"] = { 57, 53, RUINS_OF_GILNEAS },	-- Spawns with you.
 				}),
 				q(78186, {	-- Crushing the Crusade
 					["qg"] = 210964,	-- Lillian Voss

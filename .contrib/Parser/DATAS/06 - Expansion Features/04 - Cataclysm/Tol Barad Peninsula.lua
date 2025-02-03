@@ -611,14 +611,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"
 			n(QUESTS, sharedData({ -- Questgivers in Tol Barad Peninsula with rotating quests
 				["sharedDescription"] = "Due to how sharding works, you will usually only get the same eight daily quests from the camp in Tol Barad Peninsula. The trick for having a chance at getting offered some of the other quests in rotation is to have zoned into Tol Barad Peninsula a few minutes before the daily reset occurs. Then you can wait for the daily reset, or leave the zone for up to 15 minutes before returning. Protip: Do the same with Warmode on, which zones you to a different shard. Quests picked up in Warmode can be completed and turned in outside Warmode.",
 			},{
-				n(47240), -- Commander Marcus Johnson
-				n(48250), -- Lieutenant Farnsworth
-				n(48254), -- Sergeant Gray
-				n(48255), -- Camp Coordinator Brack
-				n(48358), -- Commander Larmash
-				n(48360), -- 3rd Officer Kronkar
-				n(48361), -- Private Sarlosk
-				n(48363), -- Captain Prug
+				n(47240),	-- Commander Marcus Johnson
+				n(48250),	-- Lieutenant Farnsworth
+				n(48254),	-- Sergeant Gray
+				n(48255),	-- Camp Coordinator Brack
+				n(48358),	-- Commander Larmash
+				n(48360),	-- 3rd Officer Kronkar
+				n(48361),	-- Private Sarlosk
+				n(48363),	-- Captain Prug
 			})),
 			-- #endif
 			n(PROFESSIONS, {

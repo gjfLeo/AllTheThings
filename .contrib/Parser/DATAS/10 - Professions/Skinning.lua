@@ -401,7 +401,7 @@ root(ROOTS.Professions, prof(SKINNING, {
 				["coord"] = { 42.2, 53.9, HALLOWFALL },
 				["questID"] = 83919,
 				["g"] = {
-					i(226345), -- Arathi Craftsman's Spokeshave
+					i(226345),	-- Arathi Craftsman's Spokeshave
 				},
 			}),
 			o(455949, {	-- Arathi Tanning Agent
@@ -415,42 +415,42 @@ root(ROOTS.Professions, prof(SKINNING, {
 				["coord"] = { 47.3, 28.3, THE_RINGING_DEEPS },
 				["questID"] = 83916,
 				["g"] = {
-					i(226342), -- Artisan's Drawing Knife
+					i(226342),	-- Artisan's Drawing Knife
 				},
 			}),
 			o(455946, {	-- Carapace Shiner
 				["coord"] = { 56.5, 55.2, AZJ_KAHET },
 				["questID"] = 83921,
 				["g"] = {
-					i(226347), -- Carapace Shiner
+					i(226347),	-- Carapace Shiner
 				},
 			}),
 			o(455953, {	-- Dornogal Carving Knife
 				["coord"] = { 28.7, 51.7, DORNOGAL },
 				["questID"] = 83914,
 				["g"] = {
-					i(226340), -- Dornogal Carving Knife
+					i(226340),	-- Dornogal Carving Knife
 				},
 			}),
 			o(455952, {	-- Earthen Worker's Beam
 				["coord"] = { 60.0, 28.0, ISLE_OF_DORN },
 				["questID"] = 83915,
 				["g"] = {
-					i(226341), -- Earthen Worker's Beams
+					i(226341),	-- Earthen Worker's Beams
 				},
 			}),
 			o(455950, {	-- Fungarian's Rich Tannin
 				["coord"] = { 65.7, 61.9, THE_RINGING_DEEPS },
 				["questID"] = 83917,
 				["g"] = {
-					i(226343), -- Fungarian's Rich Tannin
+					i(226343),	-- Fungarian's Rich Tannin
 				},
 			}),
 			o(455947, {	-- Nerubian's Slicking Iron
 				["coord"] = { 45.5, 49.4, NERUBAR },
 				["questID"] = 83920,
 				["g"] = {
-					i(226346), -- Nerubian's Slicking Iron
+					i(226346),	-- Nerubian's Slicking Iron
 				},
 			}),
 		}),
