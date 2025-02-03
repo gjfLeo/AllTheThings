@@ -1193,7 +1193,6 @@ root(ROOTS.Unsorted, {
 				i(231751),	-- Earthen Backpack
 			}),
 			filter(BATTLE_PETS, {
-				i(232923),	-- Living Rose (PET!)
 				i(234905),	-- Mech-Friend Maya (PET!)
 				i(233057),	-- Rock Hound Mica (PET!)
 			}),
@@ -1212,10 +1211,7 @@ root(ROOTS.Unsorted, {
 
 				-- Trading Post?
 				i(232910),	-- Vivid Heartfelt Shoulder Cape
-				i(232911),	-- Truly Heartfelt Shoulder Cape
-				i(232914),	-- Truly Heartfelt Spaulders
 				i(232916),	-- Vivid Heartfelt Spaulders
-				i(232925),	-- Ensemble: Truly Heartfelt Shoulders
 				i(233079),	-- Short Midnight War Skirt
 				i(233080),	-- Short Azure War Skirt
 				i(233081),	-- Short Sepia War Skirt
@@ -1405,7 +1401,6 @@ root(ROOTS.Unsorted, {
 				i(232629),	-- Distilled Knowledge of Timeways
 			}),
 			filter(MOUNTS, {
-				i(232926),	-- Love Witch's Sweeper (MOUNT!) [Love in the Air]
 				i(233019),	-- Sky Witch's Sweeper (MOUNT!) [Love in the Air]
 				i(233020),	-- Twilight Witch's Sweeper (MOUNT!) [Love in the Air]
 			}),

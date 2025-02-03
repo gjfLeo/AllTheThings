@@ -4272,6 +4272,7 @@ i(234397, 4729);	-- Fullbelly Rollingpaw
 i(233248, 4425);	-- Glamrok
 i(232531, 4691);	-- Grunch
 i(233252, 4435);	-- Happy
+i(232923, 4704);	-- Living Rose
 i(233056, 4708);	-- Marmaduke
 i(235989, 4695);	-- Parley
 i(232653, 4694);	-- Portentous Present
@@ -4294,7 +4295,6 @@ n(234369, 4711);	-- Snapdragon Pup
 n(236040, 4731);	-- Storminfused Snapdragon
 n(230394, 4628);	-- Tidal Kroling
 --- UNSORTED ---
-i(232923, 4704);	-- Living Rose
 i(234905, 4730);	-- Mech-Friend Maya
 i(233057, 4709);	-- Rock Hound Mica
 i(233190, 4717);	-- Wanderer Liu

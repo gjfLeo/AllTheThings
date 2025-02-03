@@ -2022,6 +2022,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					i(205156, {	-- Heartseeker Moth (PET!)
 						["cost"] = {{"i", LOVE_TOKEN, 40}},
 					}),
+					i(232923, {	-- Living Rose (PET!)
+						["timeline"] = { ADDED_11_0_7 },
+						["cost"] = {{"i", LOVE_TOKEN, 40}},
+					}),
 					i(116155, {	-- Lovebird Hatchling (PET!)
 						["cost"] = {{"i", LOVE_TOKEN, 40}},
 					}),
@@ -2121,6 +2125,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 						["cost"] = {{"i", LOVE_TOKEN, 10}},
 					}),
 				}),
+				filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+					iensemble(232925, {	-- Ensemble: Truly Heartfelt Shoulders
+						["cost"] = {{"i", LOVE_TOKEN, 40}},
+					}),
+				})),
 			},
 		})),
 		n(37674, bubbleDownSelf({ ["timeline"] = { ADDED_3_3_2, REMOVED_10_2_5 } }, {	-- Lovely Merchant <Crown Chemical Co.>
@@ -2337,6 +2346,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					i(205156, {	-- Heartseeker Moth (PET!)
 						["cost"] = {{"i", LOVE_TOKEN, 40}},
 					}),
+					i(232923, {	-- Living Rose (PET!)
+						["timeline"] = { ADDED_11_0_7 },
+						["cost"] = {{"i", LOVE_TOKEN, 40}},
+					}),
 					i(116155, {	-- Lovebird Hatchling (PET!)
 						["cost"] = {{"i", LOVE_TOKEN, 40}},
 					}),
@@ -2436,6 +2449,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 						["cost"] = {{"i", LOVE_TOKEN, 10}},
 					}),
 				}),
+				filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+					iensemble(232925, {	-- Ensemble: Truly Heartfelt Shoulders
+						["cost"] = {{"i", LOVE_TOKEN, 40}},
+					}),
+				})),
 			},
 		})),
 		n(211864, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Maurice Guichi <House of Chocolates>
@@ -3114,6 +3132,11 @@ for i,o in ipairs({
 						["timeline"] = { ADDED_10_0_5 },
 						["isDaily"] = true,
 					}),
+					--[[hqt(?????, {	-- Increased Love Witch's Sweeper Droprate (Daily Accountwide)
+						["name"] = "Increased Love Witch's Sweeper Droprate (Daily Accountwide)",
+						["timeline"] = { ADDED_11_0_7 },
+						["isDaily"] = true,
+					}),]]--
 					hqt(79104, {	-- Increased Renewed Proto-Drake: Love Armor Droprate (Daily Accountwide)
 						["name"] = "Increased Renewed Proto-Drake: Love Armor Droprate (Daily Accountwide)",
 						["timeline"] = { ADDED_10_2_5 },
@@ -3136,6 +3159,9 @@ for i,o in ipairs({
 					}),
 					i(211812, {	-- Renewed Proto-Drake: Love Armor (MM!)
 						["timeline"] = { ADDED_10_2_5 },
+					}),
+					i(232926, {	-- Love Witch's Sweeper (MOUNT!)
+						["timeline"] = { ADDED_11_0_7 },
 					}),
 				},
 			}),
