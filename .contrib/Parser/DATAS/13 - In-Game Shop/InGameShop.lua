@@ -358,7 +358,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 	})),
 	-- #if AFTER 5.4.0.17227
-	filter(COSMETIC, {
+	filter(COSMETIC, {	-- AVAILABLE --
 		------ Cosmic Weapons Set ------
 		iensemble(208943, {	-- Arsenal: Cosmic Weapons Cache
 			["timeline"] = { ADDED_11_0_0 },
