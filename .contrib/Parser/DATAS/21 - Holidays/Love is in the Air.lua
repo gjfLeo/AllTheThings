@@ -3081,7 +3081,7 @@ for i,o in ipairs({
 				["timeline"] = { ADDED_3_3_2 },
 			}),
 
-			-- #if ANYCLASSIC
+			-- #if BEFORE CATA
 			i(54537, {	-- Heart-Shaped Box
 				["description"] = "This box doesn't actually exist without RDF. The loot normally contained within drop directly from the boss this year.",
 				["sym"] = {{ "select", "itemID", 50250, 49715, 50446, 50741, 50471 }},
