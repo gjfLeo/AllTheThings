@@ -5471,6 +5471,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
+				n(164947, { -- Gerald Black <Shady Dealer>
+					["coord"] = { 78.8, 70.6, STORMWIND_CITY },
+					["timeline"] = { ADDED_9_0_1 },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{ "select", "npcID", 99863 }, { "pop" }},    -- Jenri <Spymaster>
+				}),
 				n(1333, {	-- Gerik Koen <Two Handed Weapon Merchant>
 					["coords"] = {
 						-- #if AFTER WRATH

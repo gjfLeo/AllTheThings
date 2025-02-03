@@ -2206,6 +2206,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			-- #endif
 			n(VENDORS, {
+				n(171691, { -- Alpheus Cain <Shady Dealer>
+					["coord"] = { 75.35, 45.8, ORGRIMMAR },
+					["timeline"] = { ADDED_9_0_1 },
+					["races"] = HORDE_ONLY,
+					["sym"] = {{"select","npcID",99863},{"pop"}},    -- Jenri <Spymaster>
+				}),
 				n(149806, {	-- A. Shady
 					["coord"] = { 76.7, 35.6, ORGRIMMAR },
 					["timeline"] = { ADDED_8_1_5 },
@@ -5285,25 +5291,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				-- #ENDIF
-				n(171691, { -- Alpheus Cain <Shady Dealer>
-					["coord"] = { 75.35, 45.8, ORGRIMMAR },
-					["timeline"] = { ADDED_9_0_1 },
-					["races"] = HORDE_ONLY,
-					["groups"] = bubbleDown({ ["classes"] = { ROGUE } }, {
-						i(7676, { -- Thistle Tea
-							["cost"] = 120 -- 1s 20c
-						}),
-						i(130325, { -- Shoulder of Artful Dodging
-							["cost"] = 1093 -- 10s 93c
-						}),
-						i(130323, { -- Vest of Artful Dodging 
-							["cost"] = 1450 -- 14s 50c
-						}),
-						i(130329, { -- Gloves of Artful Dodging
-							["cost"] = 746 -- 7s 46c
-						})
-					})
-				}),
 			}),
 			-- #if NOT ANYCLASSIC
 			-- CRIEVE NOTE: I'm going to solve this a different way eventually.
