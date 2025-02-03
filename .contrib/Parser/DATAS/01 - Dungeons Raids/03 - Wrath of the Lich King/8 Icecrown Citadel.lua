@@ -84,17 +84,23 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					q(24545, {	-- The Sacred and the Corrupt
 						["qg"] = 37120,	-- Highlord Darion Mograine
 						["minReputation"] = { FACTION_THE_ASHEN_VERDICT, FRIENDLY },	-- The Ashen Verdict
+						["maps"] = { DRAGONBLIGHT },
 						["groups"] = {
-							i(49869, {	-- Light's Vengeance
-								["description"] = "Fly out to Dragonblight and collect this item from a cave after some short RP.",
+							objective(1, {	-- 0/1 Light's Vengeance
+								["providers"] = {
+									{ "i",  49869 },	-- Light's Vengeance
+									{ "o", 201937 },	-- Light's Vengeance
+								},
+								["coord"] = { 75.9, 20.8, DRAGONBLIGHT },
 							}),
-							i(50226, {	-- Festergut's Acidic Blood
-								["description"] = "This can drop from Festergut on 25-Man Normal or Heroic.",
-								["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT },
+							objective(2, {	-- 0/25 Primordial Saronite
+								["provider"] = { "i", 49908 },	-- Primordial Saronite
 							}),
-							i(50231, {	-- Rotface's Acidic Blood
-								["description"] = "This can drop from Rotface on 25-Man Normal or Heroic.",
-								["classes"] = { WARRIOR, PALADIN, DEATHKNIGHT },
+							objective(3, {	-- 0/1 Festergut's Acidic Blood
+								["provider"] = { "i", 50226 },	-- Festergut's Acidic Blood
+							}),
+							objective(4, {	-- 0/1 Rotface's Acidic Blood
+								["provider"] = { "i", 50231 },	-- Rotface's Acidic Blood
 							}),
 						},
 					}),
@@ -108,40 +114,55 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					q(24547, {	-- A Feast of Souls
 						["qg"] = 37120,	-- Highlord Darion Mograine
 						["sourceQuest"] = 24743,	-- Shadow's Edge
+						["groups"] = {
+							objective(1, {	-- 0/50 Souls fed to Shadow's Edge
+								["provider"] = { "i", 49888 },	-- Shadow's Edge
+							}),
+						},
 					}),
 					q(24749, {	-- Unholy Infusion
 						["qg"] = 37120,	-- Highlord Darion Mograine
 						["sourceQuest"] = 24547,	-- A Feast of Souls
+						["groups"] = {
+							objective(1, {	-- Infuse Shadow's Edge with Unholy power then slay Putricide.
+								["providers"] = {
+									{ "i", 49888 },	-- Shadow's Edge
+									{ "n", 36678 },	-- Professor Putricide
+								},
+							}),
+						},
 					}),
 					q(24756, {	-- Blood Infusion
 						["qg"] = 37120,	-- Highlord Darion Mograine
 						["sourceQuest"] = 24749,	-- Unholy Infusion
+						["groups"] = {
+							objective(1, {	-- Infuse Shadow's Edge with Blood then defeat Lana'thel.
+								["providers"] = {
+									{ "i", 49888 },	-- Shadow's Edge
+									{ "n", 37955 },	-- Blood-Queen Lana'thel
+								},
+							}),
+						},
 					}),
 					q(24757, {	-- Frost Infusion
 						["qg"] = 37120,	-- Highlord Darion Mograine
 						["sourceQuest"] = 24756,	-- Blood Infusion
+						["groups"] = {
+							objective(1, {	-- Infuse Shadow's Edge with Frost then slay Sindragosa.
+								["providers"] = {
+									{ "i", 49888 },	-- Shadow's Edge
+									{ "n", 36853 },	-- Sindragosa
+								},
+							}),
+						},
 					}),
 					q(24548, {	-- The Splintered Throne
 						["qg"] = 37120,	-- Highlord Darion Mograine
 						["sourceQuest"] = 24757,	-- Frost Infusion
+						["description"] = "These can drop from any of the bosses on 25-Man Normal or Heroic. You need 50 of these, so this quest will take you several weeks to finish.",
 						["groups"] = {
-							i(50274, {	-- Shadowfrost Shard
-								["description"] = "These can drop from any of the bosses on 25-Man Normal or Heroic. You need 50 of these, so this quest will take you several weeks to finish.",
-								["crs"] = {
-									36612,	-- Lord Marrowgar
-									36855,	-- Lady Deathwhisper
-									36939,	-- High Overlord Saurfang
-									36948,	-- Muradin Bronzebeard
-									37813,	-- Deathbringer Saurfang
-									36626,	-- Festergut
-									36627,	-- Rotface
-									36678,	-- Professor Putricide
-									37970,	-- Blood Prince Council
-									37955,	-- Blood-Queen Lana'thel
-									36789,	-- Valithria Dreamwalker
-									36853,	-- Sindragosa
-									36597,	-- The Lich King
-								},
+							objective(1, {	-- 0/50 Shadowfrost Shard
+								["provider"] = { "i", 50274 },	-- Shadowfrost Shard
 							}),
 						},
 					}),
@@ -160,6 +181,11 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					q(24748, {	-- The Lich King's Last Stand
 						["qg"] = 37120,	-- Highlord Darion Mograine
 						["sourceQuest"] = 24549,	-- Shadowmourne...
+						["groups"] = {
+							objective(1, {	-- Lich King Defeated
+								["provider"] = { "n", 36597 },	-- The Lich King
+							}),
+						},
 					}),
 					i(51315, {	-- Sealed Chest
 						["qg"] = 36597,	-- The Lich King
@@ -1766,6 +1792,26 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				}),
 			}),
 			d(DIFFICULTY.LEGACY_RAID.PLAYER25_NORMAL, {
+				n(COMMON_BOSS_DROPS, {
+					["crs"] = {
+						36612,	-- Lord Marrowgar
+						36855,	-- Lady Deathwhisper
+						36939,	-- High Overlord Saurfang
+						36948,	-- Muradin Bronzebeard
+						37813,	-- Deathbringer Saurfang
+						36626,	-- Festergut
+						36627,	-- Rotface
+						36678,	-- Professor Putricide
+						37970,	-- Blood Prince Council
+						37955,	-- Blood-Queen Lana'thel
+						36789,	-- Valithria Dreamwalker
+						36853,	-- Sindragosa
+						36597,	-- The Lich King
+					},
+					["groups"] = {
+						i(50274),	-- Shadowfrost Shard
+					},
+				}),
 				n(STORMING_THE_CITADEL, {
 					ach(4604, {	-- Storming the Citadel (25 player)
 						crit(12945, {	-- Lord Marrowgar
@@ -2113,6 +2159,26 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				}),
 			}),
 			d(DIFFICULTY.LEGACY_RAID.PLAYER25_HEROIC, {
+				n(COMMON_BOSS_DROPS, {
+					["crs"] = {
+						36612,	-- Lord Marrowgar
+						36855,	-- Lady Deathwhisper
+						36939,	-- High Overlord Saurfang
+						36948,	-- Muradin Bronzebeard
+						37813,	-- Deathbringer Saurfang
+						36626,	-- Festergut
+						36627,	-- Rotface
+						36678,	-- Professor Putricide
+						37970,	-- Blood Prince Council
+						37955,	-- Blood-Queen Lana'thel
+						36789,	-- Valithria Dreamwalker
+						36853,	-- Sindragosa
+						36597,	-- The Lich King
+					},
+					["groups"] = {
+						i(50274),	-- Shadowfrost Shard
+					},
+				}),
 				n(STORMING_THE_CITADEL, {
 					ach(4632, {	-- Heroic: Storming the Citadel (25 player)
 						crit(13091, {	-- Lord Marrowgar
