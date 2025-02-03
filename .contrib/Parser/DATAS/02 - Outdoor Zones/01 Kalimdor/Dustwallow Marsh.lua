@@ -7,6 +7,7 @@ ALCAZ_ISLAND = createHeader({
 	text = {
 		en = "Alcaz Island",
 		cn = "奥卡兹岛",
+		tw = "奧卡茲島",
 	},
 	description = {
 		en = "Return to Alcaz Island to get to get to the bottom of Dr. Weavil's insidious plans, and perhaps you will take home a nice souvenir.",
