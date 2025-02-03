@@ -461,7 +461,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				i(170084),	-- Blessed Staff of Moonflowers (QI!)
 				i(170083),	-- Staff of Moonflowers (QI!)
 			},
-			["description"] = "Only a very few moonwells in faction-neutral locations counts for this quest.",
+			["description"] = "Only a very few moonwells in faction-neutral locations counts for this quest. If you happen to lose the 'Blessing of the Moon'-buff due to death, you can continue as you still have the buff and turn in the quest without having to revisit moonwells.",
 		}),
 		q(8876, {	-- Small Rockets
 			["qg"] = 15909,  -- Fariel Starsong <Coin of Ancestry Collector>
