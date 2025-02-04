@@ -1802,7 +1802,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["maps"] = { AZUREMYST_ISLE, THE_EXODAR, ELWYNN_FOREST, DARNASSUS, TELDRASSIL, SHATTRATH_CITY },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 3.2.0.10314
-					["cost"] = { { "i", 46735, 1 } },	-- Synthebrew Goggles
+					["provider"] = { "i", 46735 },	-- Synthebrew Goggles
 					-- #endif
 					["isYearly"] = true,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
@@ -1843,7 +1843,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					["maps"] = { EVERSONG_WOODS, MULGORE, TIRISFAL_GLADES },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER 3.2.0.10314
-					["cost"] = { { "i", 46735, 1 } },	-- Synthebrew Goggles
+					["provider"] = { "i", 46735 },	-- Synthebrew Goggles
 					-- #endif
 					["isYearly"] = true,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
