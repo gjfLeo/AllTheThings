@@ -2763,12 +2763,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 
 root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
-		q(37247)	-- Angry Brewfest Letter - triggers when using "Angry Brewfest Letter" to cancel Brew of the Month subscription
+		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
+			n(QUESTS, {
+				q(37247)	-- Angry Brewfest Letter - triggers when using "Angry Brewfest Letter" to cancel Brew of the Month subscription
+			})
+		})),
 	})),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
-		q(77775, {	-- Daily kill of Coren Direbrew
-			["name"] = "Coren Direbrew killed. Cheers...",
-		}),
+		applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
+			q(77775, {	-- Daily kill of Coren Direbrew
+				["name"] = "Coren Direbrew killed. Cheers...",
+			}),
+		})),
 	})),
 });
 -- #endif
