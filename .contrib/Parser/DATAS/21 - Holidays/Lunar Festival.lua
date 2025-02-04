@@ -542,8 +542,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["timeline"] = { ADDED_10_0_5 },
 		}),
 		q(73170, {	-- The Lunar Festival (H)
-			["qg"] = 199261,	-- Holiday Enthusiast
-			["maps"] = { VALDRAKKEN },
+			["qgs"] = {
+				199261,	-- Holiday Enthusiast
+				-- #if AFTER TWW
+				220307,	-- Holiday Enthusiast
+				-- #endif
+			},
+			["maps"] = {
+				VALDRAKKEN,
+				-- #if AFTER TWW
+				DORNOGAL,
+				-- #endif
+			},
 			["races"] = HORDE_ONLY,
 			["isBreadcrumb"] = true,
 			["isYearly"] = true,

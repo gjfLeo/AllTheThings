@@ -1394,8 +1394,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		-----------------
 		n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 }, }, {
 			q(78329, {	-- Love is in the Air (A)
-				["qg"] = 215197,	-- Gabbo Blinkwink
-				["coord"] = { 54.3, 60.3, VALDRAKKEN },
+				["qgs"] = {
+					215197,	-- Gabbo Blinkwink
+					-- #if AFTER TWW
+					220307,	-- Holiday Enthusiast
+					-- #endif
+				},
+				["coords"] = {
+					{ 54.3, 60.3, VALDRAKKEN },
+					-- #if AFTER TWW
+					{ 48.4, 48.3, DORNOGAL },
+					-- #endif
+				},
 				["isBreadcrumb"] = true,
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -1427,7 +1437,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				},
 			}),
 			q(78337, {	-- An Unwelcome Gift (A)
-				["qg"] = 213560,	-- Inspector Snip Snagglebolt (portable version)
+				["qg"] = 213560,	-- Inspector Snip Snagglebolt (MobileNPC)
 				["sourceQuest"] = 78332,	-- I Smell Trouble (A)
 				["races"] = ALLIANCE_ONLY,
 				["groups"] = {
@@ -1437,7 +1447,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				},
 			}),
 			q(78729, {	-- Raising a Stink (A)
-				["qg"] = 213560,	-- Inspector Snip Snagglebolt (portable version)
+				["qg"] = 213560,	-- Inspector Snip Snagglebolt (MobileNPC)
 				["sourceQuest"] = 78337,	-- An Unwelcome Gift (A)
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -1462,8 +1472,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				["groups"] = { i(LOVE_TOKEN) },
 			}),
 			q(78981, {	-- Love is in the Air (H)
-				["qg"] = 215196,	-- Aurora Vabsley
-				["coord"] = { 54.3, 62.7, VALDRAKKEN },
+				["qgs"] = {
+					215196,	-- Aurora Vabsley
+					-- #if AFTER TWW
+					220307,	-- Holiday Enthusiast
+					-- #endif
+				},
+				["coords"] = {
+					{ 54.3, 62.7, VALDRAKKEN },
+					-- #if AFTER TWW
+					{ 48.9, 48.3, DORNOGAL },
+					-- #endif
+				},
 				["isBreadcrumb"] = true,
 				["races"] = HORDE_ONLY,
 			}),
@@ -1480,11 +1500,22 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				["races"] = HORDE_ONLY,
 				["groups"] = {
 					i(LOVE_TOKEN),
+					i(210658),	-- Discarded Perfume Bottle
+					o(410998, {	-- Formula: Intoxicating Toxic Perfume
+						i(210416),	-- Formula: Intoxicating Toxic Perfume (QI!)
+					}),
+					o(410994, {	-- Map of Shadowfang Keep Security
+						i(210413),	-- Map of Shadowfang Keep Security (QI!)
+					}),
+					o(410999, {	-- Memo from Apothecary Hummel
+						i(210417),	-- Memo from Apothecary Hummel (QI!) [book]
+					}),
+					i(213091),	-- Memo from Apothecary Hummel [book] (awared to player after turn in this quest)
 					i(211778),	-- O.D.I.E.'s Remote Control (QI!)
 				},
 			}),
 			q(78983, {	-- An Unwelcome Gift (H)
-				["qg"] = 214707,	-- Detective Snip Snagglebolt (portable version)
+				["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
 				["sourceQuest"] = 78982,	-- I Smell Trouble (H)
 				["races"] = HORDE_ONLY,
 				["groups"] = {
@@ -1493,7 +1524,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				},
 			}),
 			q(78978, {	-- Raising a Stink (H)
-				["qg"] = 214707,	-- Detective Snip Snagglebolt (portable version)
+				["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
 				["sourceQuest"] = 78983,	-- I Smell Trouble (H)
 				["races"] = HORDE_ONLY,
 			}),
