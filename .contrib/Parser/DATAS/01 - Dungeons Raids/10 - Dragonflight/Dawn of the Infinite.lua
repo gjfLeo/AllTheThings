@@ -398,6 +398,7 @@ local QUANTUM_GROUP = sharedData({
 		}),
 		ig(115294),	-- Spectral Longbow						(NYI)
 
+		ig(22318),	-- Malgen's Long Bow					(Removed)
 		ig(134608),	-- Scorching Longbow					(Removed)
 	}),
 	i(208118, {	-- Quantum Crossbow

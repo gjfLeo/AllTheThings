@@ -362,8 +362,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				q(65375, {	-- Schematic Reassimilation: Pale Regal Cervid
 					["lockCriteria"] = { 1, "spellID", 365040 },	-- Pale Regal Cervid (RECIPE!)
 					["provider"] = { "i", 189455 },
+					["timeline"] = { ADDED_11_0_2 },	-- Added few years later as a fix for not auto-receiving the recipe
 					["g"] = {
-						recipe(365040),	-- Pale Regal Cervid (QI!)
+						recipe(365040),	-- Pale Regal Cervid
 					},
 				}),
 				q(65393, {	-- Schematic Reassimilation: Prototype Leaper
