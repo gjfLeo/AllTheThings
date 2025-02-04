@@ -1396,10 +1396,6 @@ root(ROOTS.Unsorted, {
 				-- Turbulent Timeways??
 				i(232629),	-- Distilled Knowledge of Timeways
 			}),
-			filter(MOUNTS, {
-				i(233019),	-- Sky Witch's Sweeper (MOUNT!) [Love in the Air]
-				i(233020),	-- Twilight Witch's Sweeper (MOUNT!) [Love in the Air]
-			}),
 			filter(QUEST_ITEMS, {
 				i(230211),	-- Singing Citrine
 				i(232654),	-- Compiled Tattered Journal

@@ -116,6 +116,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(156564, {	-- Shu-zen, the Divine Sentinel (MOUNT!)
 			["timeline"] = { ADDED_8_0_1 },
 		}),
+		i(233019, {	-- Sky Witch's Sweeper (MOUNT!)
+			["timeline"] = { ADDED_11_0_7, "removed 11.1.7.99999" },	-- Removed March 31, 2025
+		}),
 		i(212228, {	-- Soaring Sky Fox (MOUNT!)
 			["timeline"] = { ADDED_11_0_5, "removed 11.1.7.99999" },	-- Removed March 31, 2025
 		}),
@@ -137,6 +140,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),--]]
 		mount(359843, {	-- Tangled Dreamweaver (MOUNT!)
 			["timeline"] = { ADDED_10_2_0 },
+		}),
+		i(233020, {	-- Twilight Witch's Sweeper (MOUNT!)
+			["timeline"] = { ADDED_11_0_7, "removed 11.1.7.99999" },	-- Removed March 31, 2025
 		}),
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.
