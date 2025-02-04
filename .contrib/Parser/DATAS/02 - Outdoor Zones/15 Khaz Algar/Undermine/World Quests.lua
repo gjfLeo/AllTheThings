@@ -5,6 +5,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 	m(UNDERMINE, {
 		n(WORLD_QUESTS, {
 			["g"] = bubbleDownFiltered({ ["isWorldQuest"] = true, },FILTERFUNC_questID,{
+				petbattle(q(86952, {	-- Approach the Croach
+					--["cr"] = 237718,	-- Creech
+					["coord"] = { 31.8, 79.6, UNDERMINE },
+				})),
 				petbattle(q(86943, {	-- Drilling Down
 					--["cr"] = 237701,	-- Precision Powerdrill
 					["coord"] = { 53.4, 71.2, UNDERMINE },
@@ -33,6 +37,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85263, {	-- Boomball
 					["coord"] = { 66.0, 60.3, UNDERMINE },
+				}),
+				q(85527, {	-- Buccaneer Bonzai
+					["coord"] = { 68.8, 81.5, UNDERMINE },
 				}),
 				q(85270, {	-- Cold as Ice
 					["coord"] = { 39.2, 31.5, UNDERMINE },
@@ -164,6 +171,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85107, {	-- Skyrider Racing - Rags to Riches Rush
 					["coord"] = { 25.9, 41.7, UNDERMINE },
+				}),
+				q(85106, {	-- Skyrider Racing - Scrapshop Shot
+					["coord"] = { 39.7, 12.2, UNDERMINE },
 				}),
 				q(85104, {	-- Skyrider Racing - Skyrocketing Sprint
 					["coord"] = { 38.4, 29.8, UNDERMINE },

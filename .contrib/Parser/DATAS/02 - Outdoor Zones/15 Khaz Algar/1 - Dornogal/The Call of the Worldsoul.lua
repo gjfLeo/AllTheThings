@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["timeline"] = { ADDED_11_1_0 },
 				}),
 				q(82512),	-- Worldsoul: World Boss
-				q(82512, {	-- Worldsoul: World Bosses
+				q(87424, {	-- Worldsoul: World Bosses
 					["timeline"] = { ADDED_11_1_0 },
 				}),
 				q(82452),	-- Worldsoul: World Quests

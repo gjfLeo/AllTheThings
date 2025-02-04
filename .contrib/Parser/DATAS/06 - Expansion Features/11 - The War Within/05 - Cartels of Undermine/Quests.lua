@@ -52,7 +52,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					},
 				}),
 			}, {	-- RENOWN 11 --
+				-- TODO: missing Scrappy S.C.R.A.P.per II
+				q(85820, {	-- Valorstones
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+					["g"] = {
+						i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
+					},
+				}),
 			}, {	-- RENOWN 12 --
+				-- TODO: missing Master Negotiator
+				q(85821, {	-- Valorstones
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+					["g"] = {
+						i(231737),	-- Undermine Enforcer's Padding (COSMETIC!)
+					},
+				}),
 			}, {	-- RENOWN 13 --
 			}, {	-- RENOWN 14 --
 			}, {	-- RENOWN 15 --

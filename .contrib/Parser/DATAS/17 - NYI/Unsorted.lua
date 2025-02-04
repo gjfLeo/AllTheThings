@@ -14,7 +14,6 @@ root(ROOTS.Unsorted, {
 
 				-- Trinkets
 				i(234717),	-- Blastmaster3000
-				i(235984),	-- Garbagemancer's Last Resort
 
 
 				-- Weird Armor
@@ -91,10 +90,9 @@ root(ROOTS.Unsorted, {
 				-- Delve Loot?
 				i(234125),	-- Public Defender's Coat
 				i(234185),	-- Dr. Scrapheal
-				i(234217),	-- Funhouse Lens
 				i(234326),	-- Core Recycling Unit
 
-				-- Zone Rewards? Delves?
+				-- Delves / Bountiful Season 2
 				i(235421),	-- Noxious Injector Sheen
 				i(235422),	-- Venture Co Seal
 				i(235423),	-- Expensive Gemstone Ring
@@ -434,7 +432,6 @@ root(ROOTS.Unsorted, {
 
 				-- Delves
 				i(232898),	-- Delver's Bounty
-				i(233071),	-- Delver's Bounty
 				i(235502),	-- Chunk of Companion Experience
 				i(235503),	-- Chunk of Companion Experience
 				i(235504),	-- Chunk of Companion Experience
@@ -486,7 +483,6 @@ root(ROOTS.Unsorted, {
 				i(233055),	-- Corpse Cleaner
 				i(233061),	-- Rock-in-a-Bottle
 				i(233210),	-- Pungent Putrigill
-				i(233246),	-- Gunk-Covered Thingy
 				i(234197),	-- Gilded Screwdriver
 				i(234421),	-- Web Bomb
 				i(234616),	-- Supreme Mangoro Madness

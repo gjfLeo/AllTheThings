@@ -613,6 +613,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(215174),	-- Concoction: Kiss of Death
 				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
+				i(234217, {	-- Funhouse Lens
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(235984, {	-- Garbagemancer's Last Resort
+					["timeline"] = { ADDED_11_1_0 },
+				}),
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
 				i(215172),	-- Silken Chain Weaver
@@ -969,8 +975,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(224411),	-- Companion Experience (Tier 3)
 			i(224412),	-- Companion Experience (every tier)
 			i(227784, {["timeline"]={ REMOVED_11_1_0 }}),	-- Delver's Bounty
-			--i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty
-			i(235628, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (Tier 5, veteran 4/8)
+			i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (actual item, looted from Jettisoned Pile of Goblin-Bucks)
+			i(235628, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (probably exist only to display rewards)
 			i(222922),	-- Expeditionary Spoils (Tier 1)
 			i(222923),	-- Expeditionary Spoils (Tier 2)
 			i(225178),	-- Expeditionary Spoils (Tier 3)
@@ -1241,15 +1247,22 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	n(RARES, {
 		-- TODO: These might not appear in all delves, look into refining these down
 		n(207482),	-- Invasive Sporecap
+		n(236895, {	-- Malfuctioning Pummeler
+			["timeline"] = { ADDED_11_1_0 },
+		}),
 		n(209721),	-- Secret Treasure
 		n(228030),	-- Sir Finley Mrgglton
 		n(223541),	-- Stolen Loader
+		n(236892, {	-- Treasure Crab
+			["timeline"] = { ADDED_11_1_0 },
+		}),
 		n(208728),	-- Treasure Wraith
 	}),
 	mapped(n(TREASURES, {
 		-- Mislaid Curiosities can be found throughout all Delves, random coordinates
 		o(455914, {	-- Mislaid Curiosity
 			["description"] = "Contains Chunk of Companion Experience tokens.",
+			--["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {
 				-- First versions
 				i(228071),	-- Chunk of Companion Experience (Uncommon)
@@ -1259,16 +1272,25 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(232047),	-- Chunk of Companion Experience (Uncommon)
 				i(232046),	-- Chunk of Companion Experience (Rare)
 				i(232045),	-- Chunk of Companion Experience (Epic)
-				-- Misc
-				-- TODO: move it under delve completion, if it will be here
-				-- TODO: objectID 478443 for Mislaid Curiosity in s2
-				i(233118, {["timeline"]={ ADDED_11_1_0}}),	-- Incontinental Takeout
-				i(233205, {["timeline"]={ ADDED_11_1_0}}),	-- Go-Go Juice
-				i(233062, {["timeline"]={ ADDED_11_1_0}}),	-- Pocket Pizza
+			},
+		}),
+		o(478443, {	-- Mislaid Curiosity
+			["description"] = "Contains Chunk of Companion Experience tokens.",
+			["timeline"] = { ADDED_11_1_0 },
+			["g"] = {
+				-- Brann Experience
+				i(235504),	-- Chunk of Companion Experience (Uncommon)
+				i(235503),	-- Chunk of Companion Experience (Rare)
+				i(235502),	-- Chunk of Companion Experience (Epic)
+				-- Miscellaneous
+				i(233118),	-- Incontinental Takeout
+				i(233205),	-- Go-Go Juice
+				i(233062),	-- Pocket Pizza
 			},
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
 			["description"] = "Left behind by Zekvir when he invades a delve.",
+			--["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {
 				i(218126),	-- Befouler's Syringe
 				i(219381, {	-- Fate Weaver
@@ -1279,6 +1301,34 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					},
 				}),
 				i(218125),	-- Reactive Webbed Escutcheon
+			},
+		}),
+		o(507768, {	-- Jettisoned Pile of Goblin-Bucks
+			["description"] = "Left behind by Underpin when he was defeated in a delve.",
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+			["g"] = {
+				--i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0}}), -- Delver's Bounty
+			},
+		}),
+		o(503871, {	-- Nemesis Strongbox
+			["timeline"] = { ADDED_11_1_0 },
+			["g"] = {
+				-- gold bag
+				-- TODO: add to mobile?
+			},
+		}),
+		o(503868, {	-- Nemesis Strongbox
+			["timeline"] = { ADDED_11_1_0 },
+			["g"] = {
+				-- gold bag, delves reagents
+				-- TODO: add to mobile?
+			},
+		}),
+		o(503869, {	-- Nemesis Strongbox
+			["timeline"] = { ADDED_11_1_0 },
+			["g"] = {
+				-- gold bag, delves reagents
+				-- TODO: add to mobile?
 			},
 		}),
 	})),
@@ -1843,6 +1893,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				o(502995, {	-- Sturdy Chest
 					["coord"] = { 73.4, 39.6, EXCAVATION_SITE_9 },
 					["questID"] = 86343,
+				}),
+				o(503013, {	-- Sturdy Chest
+					["coord"] = { 50.8, 61.3, EXCAVATION_SITE_9 },
+					["questID"] = 86347,
 				}),
 			}),
 		},
@@ -2675,18 +2729,22 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 })));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
-		q(82772),	-- First Delve of the day
+		q(82772, {["timeline"]={REMOVED_11_1_0}}),	-- First Delve of the day (Season 1)
+		q(85668, {["timeline"]={ADDED_11_1_0}}),	-- First Delve of day (Season 2)
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
 		q(86329, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Cosmetic Surprise Bag (itemID 233281)
 		q(86328, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Starter Kit (itemID 233276)
+		--q(87287, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in Fungal Folly Tier 7
+		--q(87286, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in The Sinkhole Tier 8
+		q(86371, {["timeline"]={ADDED_11_1_0}}),	-- after Delver's Bounty was looted from objectID 507768
 		-- Bountiful Delve runs
 		q(82944),	-- Earthcrawl Mines
 		q(82939),	-- Fungal Folly
 		q(82941),	-- Kriegval's Rest
 		q(82940),	-- Mycomancer Cavern
 		q(82777),	-- Nightfall Sanctum
-		q(85668, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice (or Cartel bonus rep bonus)
+		q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice
 		q(78508),	-- Skittering Breach
 		q(82776),	-- Tak-Rethan Abyss
 		q(82938),	-- The Dread Pit

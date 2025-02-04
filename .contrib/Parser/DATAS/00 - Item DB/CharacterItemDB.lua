@@ -705,7 +705,7 @@ iq(219289, 81618);	-- Puntable Tiny Snowman
 --iq(234745, XXX);	-- Bilgewater's Trove (Honored)
 --iq(235258, XXX);	-- Bilgewater's Trove (Revered)
 --iq(235259, XXX);	-- Bilgewater's Trove (Exalted)
---iq(234744, XXX);	-- Blackwater's Trove (Honored)
+iq(234744, 86750);	-- Blackwater's Trove (Honored)
 --iq(235260, XXX);	-- Blackwater's Trove (Revered)
 --iq(235261, XXX);	-- Blackwater's Trove (Exalted)
 is(0, 467553);	-- Path of the Azerite Refinery [A?H?]

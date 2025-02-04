@@ -68,6 +68,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				i(236181),	-- Center-Stage Remover (COSMETIC!)
 				i(236178),	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
 				i(236191),	-- Mechanic's Best Motivator (COSMETIC!)
+				-- locked with Renown 11, reward from Dented Crate
+				i(233246),	-- Gunk-Covered Thingy
 			}),
 			n(VENDORS, {
 				n(234776, {	-- Angelo Rustbin <S.C.R.A.P. Exchange>
