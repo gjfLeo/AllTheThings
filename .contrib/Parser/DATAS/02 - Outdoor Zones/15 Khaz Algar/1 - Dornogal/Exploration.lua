@@ -2,7 +2,7 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
-	m(ISLE_OF_DORN, {
+	m(DORNOGAL, {
 		explorationHeader({
 			visit_exploration(15110,{coord={55.7,70.6,DORNOGAL}}),	-- Contender's Gate
 			visit_exploration(15044,{coord={36.7,24.1,DORNOGAL}}),	-- Foundation Hall
