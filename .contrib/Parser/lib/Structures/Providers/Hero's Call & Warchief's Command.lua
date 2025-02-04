@@ -235,9 +235,6 @@ local ALL_HEROS_CALL_QUESTS = {
 	-- #endif
 	28702,	-- Hero's Call: The Cape of Stranglethorn!
 	26542,	-- Hero's Call: The Hinterlands!
-	-- #if AFTER 6.2.2
-	38931,	-- Hero's Call: The Hinterlands!
-	-- #endif
 	28503,	-- Hero's Call: Thousand Needles!
 	-- #if AFTER 7.3.5
 	49560,	-- Hero's Call: Townlong Steppes!

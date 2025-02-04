@@ -1974,7 +1974,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(26178),	-- Planning for the Future - completed with 11960
 		q(26379),	-- In Aid of the Refugees - completed with quest 13601
 		q(26398),	-- Walk With The Earth Mother - completed with 26397
-		q(26522),	-- Faces of Evil - completed with 26357 & 26521
 		q(26756),	-- Nessa Shadowsong - completed with 6344
 		q(26757),	-- The Bounty of Teldrassil - completed with 6341
 		q(26758),	-- Flight to Auberdine - completed with 6342
@@ -2103,7 +2102,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(38008),	-- The Road of Glory - completed with quest 36125 & 36227
 		q(38305),	-- Cenarius, Keeper of the Grove - completed with quest 40122
 		q(38713),	-- The Crusade Calls - completed with quest 38710
-		q(38931),	-- Hero's Call: The Hinterlands! - completed with quest 26542
 		q(39058),	-- Critters of Draenor - completed with quest 38299 & 38300
 		q(39127),	-- Beyond the Wall - completed with quest 31386 & 31388
 		q(39189),	-- Warchief's Command: Nagrand! - completed with quest 9957 & 9960 & 9961 & 39182 & 39188
