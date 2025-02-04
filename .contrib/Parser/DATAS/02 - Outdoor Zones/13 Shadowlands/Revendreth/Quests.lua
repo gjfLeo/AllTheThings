@@ -1156,9 +1156,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			q(60517, {	-- The Toll of the Road
 				["provider"] = { "i", 179363 },	-- 'Misplaced' Anima Tolls
-				["g"] = {
-					i(179363),	-- 'Misplaced' Anima Tolls (QI!)
-				},
 			}),
 		})),
 		-- Dailies that become available once unlocking the BMAH
