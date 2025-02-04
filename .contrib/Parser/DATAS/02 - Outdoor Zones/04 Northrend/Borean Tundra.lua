@@ -3360,8 +3360,12 @@ root(ROOTS.Zones, {
 	})),
 });
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		q(39783),	-- Battle Pet - Terky
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {
+	m(NORTHREND, {
+		m(BOREAN_TUNDRA, {
+			n(TREASURES, {
+				q(39783),	-- Battle Pet - Terky
+			}),
+		}),
 	}),
-});
+})));

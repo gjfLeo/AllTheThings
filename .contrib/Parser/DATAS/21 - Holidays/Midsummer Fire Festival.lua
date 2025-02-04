@@ -3169,11 +3169,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 	}),
 })));
 
--- #if AFTER TBC
-root(ROOTS.HiddenQuestTriggers, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
-	q(11976),	-- Cross completes on completion of Shards of Ahune
-}))
--- #endif
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_0 } }, {
+	applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
+		n(QUESTS, {
+			q(11976),	-- Cross completes on completion of Shards of Ahune
+		}),
+	})),
+})));
 
 -- Remove the holiday flag.
 HUGE_SNOWBALL.u = nil;

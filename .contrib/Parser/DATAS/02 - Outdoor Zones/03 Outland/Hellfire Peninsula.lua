@@ -3676,13 +3676,12 @@ appendGroups({
 	-- #endif
 }, FELANNIA_JOHAN_GROUPS);
 
--- #if AFTER TBC
--- These quests trigger after specific events occur in the zone.
-root(ROOTS.HiddenQuestTriggers, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {
 	m(OUTLAND, {
 		m(HELLFIRE_PENINSULA, {
-			q(10454),	-- Hellfire Peninsula - Flag: OFF THE RAILS. Triggered just after turning in quest 10124 & 10143
+			n(QUESTS, {
+				q(10454),	-- Hellfire Peninsula - Flag: OFF THE RAILS. Triggered just after turning in quest 10124 & 10143
+			}),
 		}),
 	}),
-});
--- #endif
+})));

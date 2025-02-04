@@ -1811,8 +1811,12 @@ root(ROOTS.Zones, {
 	})),
 });
 
-root(ROOTS.HiddenQuestTriggers, m(NORTHREND, {
-	m(THE_STORM_PEAKS, {
-		a(q(13417)),	-- The Brothers Bronzebeard	-- scrapped version? no qg on wowhead, and this isn't the version of the quest i received (i got the next quest, 12973)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WRATH, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
+	m(NORTHREND, {
+		m(THE_STORM_PEAKS, {
+			n(QUESTS, {
+				a(q(13417)),	-- The Brothers Bronzebeard	-- scrapped version? no qg on wowhead, and this isn't the version of the quest i received (i got the next quest, 12973)
+			}),
+		}),
 	}),
-}));
+})));

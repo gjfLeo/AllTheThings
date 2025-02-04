@@ -416,8 +416,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 		},
 	})),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.SL, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {
+	n(MAGE_TOWER, {
 		q(64923),	-- unlocking Gravewarden Armaments set
 		q(64924),	-- unlocking Demonbane Armor set
 		q(64925),	-- unlocking Stormheart Raiment set
@@ -432,4 +433,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(64934),	-- unlocking Titanic Onslaught Armor set
 		q(64922),	-- unlocking what I assume is the Fel Bear druid form, popped at the same time as 64925
 	}),
-});
+})));

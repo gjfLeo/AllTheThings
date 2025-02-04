@@ -3252,26 +3252,30 @@ root(ROOTS.Zones, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		q(36249),	-- Active Choice: Lumbermill - triggers if the Lumbermill is currently active
-		q(36250),	-- Active Choice: Lumbermill - triggers if the Lumbermill is currently active
-		q(36251),	-- Active Choice: Sparring Arena - triggers if the Sparring Arena is currently active
-		q(36252),	-- Active Choice: Sparring Arena - triggers if the Sparring Arena is currently active
-		q(39309),	-- Arcane Orb
-		q(39310),	-- Artillery Strike
-		q(39308),	-- Bodyguard
-		q(36426),	-- Dueling Orbs - triggers when completing "Mysterious Ring" (questID 34463)
-		q(34992),	-- Lumber Mill
-		q(35049),	-- Lumber Mill
-		q(36619),	-- Lumber Mill
-		q(39307),	-- Mechasuit
-		q(36712),	-- Mill Treasure 1 - triggers when looting Ancient Titan Chest (questID 35701)
-		q(36886),	-- Ogre Waygate
-		q(35946),	-- Peckers the Majestic - triggers if you free Peckers from his cage in Kor'gall's Hovel with the Sparring Arena active (37.3, 70.7)
-		q(33820),	-- Tracking Quest: Seen Escape Cinematic — triggeres with cinematic during "The Descent" (questID 34338)
-		q(36588),	-- Tracking - See Closed Chest — triggeres immediately after accepting "The Beating Heart" (questID 34410)
-		q(35064),	-- Sparring Arena
-		q(35149),	-- Sparring Arena - triggers if you choose to build the Sparring Arena for the first time
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	m(DRAENOR, {
+		m(GORGROND, {
+			n(QUESTS, {
+				q(36249),	-- Active Choice: Lumbermill - triggers if the Lumbermill is currently active
+				q(36250),	-- Active Choice: Lumbermill - triggers if the Lumbermill is currently active
+				q(36251),	-- Active Choice: Sparring Arena - triggers if the Sparring Arena is currently active
+				q(36252),	-- Active Choice: Sparring Arena - triggers if the Sparring Arena is currently active
+				q(39309),	-- Arcane Orb
+				q(39310),	-- Artillery Strike
+				q(39308),	-- Bodyguard
+				q(36426),	-- Dueling Orbs - triggers when completing "Mysterious Ring" (questID 34463)
+				q(34992),	-- Lumber Mill
+				q(35049),	-- Lumber Mill
+				q(36619),	-- Lumber Mill
+				q(39307),	-- Mechasuit
+				q(36712),	-- Mill Treasure 1 - triggers when looting Ancient Titan Chest (questID 35701)
+				q(36886),	-- Ogre Waygate
+				q(35946),	-- Peckers the Majestic - triggers if you free Peckers from his cage in Kor'gall's Hovel with the Sparring Arena active (37.3, 70.7)
+				q(33820),	-- Tracking Quest: Seen Escape Cinematic — triggeres with cinematic during "The Descent" (questID 34338)
+				q(36588),	-- Tracking - See Closed Chest — triggeres immediately after accepting "The Beating Heart" (questID 34410)
+				q(35064),	-- Sparring Arena
+				q(35149),	-- Sparring Arena - triggers if you choose to build the Sparring Arena for the first timeMgrAlarmEnabled
+			}),
+		}),
 	}),
-});
+})));

@@ -2336,28 +2336,34 @@ root(ROOTS.Zones, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		q(35874),	-- Apparatus - triggers after finishing "The Ebon Hunter" (questID 35835 & 35797)
-		q(35290),	-- Inn - Inn selected (A)
-		q(37315),	-- Inn - Inn selected (A)
-		q(35283),	-- Inn - Inn selected (H)
-		q(37313),	-- Inn - Inn selected (H)
-		q(37417),	-- Feast of the Spires - put down by the barkeep if you have the brewery (A)
-		q(37416),	-- Feast of the Spires - put down by the barkeep if you have the brewery (H)
-		q(36111),	-- Flight Home
-		q(36112),	-- Flight Home
-		q(36577),	-- Flying Machine Completed - triggers after landing during "Flame On" (questID 35298)
-		q(35028),	-- Krikka and Vakora Tracking - triggers during "The Bloodmane" (questID 34923) and "Words of the Raven Mother" (questID 34922)
-		q(35201),	-- Krixel
-		q(36184),	-- Mother Lode - triggers when you accept "The Mother Lode" quest and the crash happens (questID 35080)
-		q(36885),	-- Ogre Waygate
-		q(36724),	-- Reshad Tracking - triggers after turning in "Call of the Raven Mother" (questID 35009)
-		q(36798),	-- Rooby Roo - fed 3x to reveal the treasure
-		q(37317),	-- Talon King Ikiss - killed during "The False Talon King" (questID 35011)
-		q(35291),	-- Trading Post - Trading Post selected (A)
-		q(37316),	-- Trading Post - Trading Post selected (A)
-		q(35284),	-- Trading Post - Trading Post selected (H)
-		q(37314),	-- Trading Post - Trading Post selected (H)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	m(DRAENOR, {
+		m(SPIRES_OF_ARAK, {
+			n(QUESTS, {
+				q(35874),	-- Apparatus - triggers after finishing "The Ebon Hunter" (questID 35835 & 35797)
+				q(35290),	-- Inn - Inn selected (A)
+				q(37315),	-- Inn - Inn selected (A)
+				q(35283),	-- Inn - Inn selected (H)
+				q(37313),	-- Inn - Inn selected (H)
+				q(37417),	-- Feast of the Spires - put down by the barkeep if you have the brewery (A)
+				q(37416),	-- Feast of the Spires - put down by the barkeep if you have the brewery (H)
+				q(36111),	-- Flight Home
+				q(36112),	-- Flight Home
+				q(36577),	-- Flying Machine Completed - triggers after landing during "Flame On" (questID 35298)
+				q(35028),	-- Krikka and Vakora Tracking - triggers during "The Bloodmane" (questID 34923) and "Words of the Raven Mother" (questID 34922)
+				q(35201),	-- Krixel
+				q(36184),	-- Mother Lode - triggers when you accept "The Mother Lode" quest and the crash happens (questID 35080)
+				q(36885),	-- Ogre Waygate
+				q(36724),	-- Reshad Tracking - triggers after turning in "Call of the Raven Mother" (questID 35009)
+				q(37317),	-- Talon King Ikiss - killed during "The False Talon King" (questID 35011)
+				q(35291),	-- Trading Post - Trading Post selected (A)
+				q(37316),	-- Trading Post - Trading Post selected (A)
+				q(35284),	-- Trading Post - Trading Post selected (H)
+				q(37314),	-- Trading Post - Trading Post selected (H)
+			}),
+			n(TREASURES, {
+				q(36798),	-- Rooby Roo - fed 3x to reveal the treasure
+			}),
+		}),
 	}),
-});
+})));

@@ -2278,12 +2278,12 @@ root(ROOTS.Zones, {
 	})),
 });
 
--- #if AFTER WRATH
-root(ROOTS.HiddenQuestTriggers, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WRATH, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
 	m(NORTHREND, {
 		m(GRIZZLY_HILLS, {
-			q(13524),	-- Escape from Silverbrook (Triggered when you complete the other Escape from Silverbrook quest.)
+			n(QUESTS, {
+				q(13524),	-- Escape from Silverbrook (Triggered when you complete the other Escape from Silverbrook quest.)
+			}),
 		}),
 	}),
-})
--- #ENDIF
+})));

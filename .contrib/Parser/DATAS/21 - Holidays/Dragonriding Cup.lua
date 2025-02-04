@@ -3037,11 +3037,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 	},
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.DF, {
-		q(79142, {["timeline"] = { ADDED_10_2_5 }, }),	-- Triggers with 'Outland Racing Completionist: Gold' (achievementID 19107)
-		q(80201, {["timeline"] = { ADDED_10_2_5 }, }),	-- Triggers with when using 'Endless Possibility'
-		q(79142, {["timeline"] = { ADDED_10_2_5 }, }),	-- Ensemble: Ruby Riders of Azeroth Tabard
-		q(79702, {["timeline"] = { ADDED_10_2_6 }, }),	-- Ensemble: Frosted Riders of Azeroth Tabard
-	}),
-});
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
+	applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT, {
+		q(79142),	-- Triggers with 'Outland Racing Completionist: Gold' (achievementID 19107)
+		q(80201),	-- Triggers with when using 'Endless Possibility'
+		q(79142),	-- Ensemble: Ruby Riders of Azeroth Tabard
+		q(79702),	-- Ensemble: Frosted Riders of Azeroth Tabard
+	})),
+})));

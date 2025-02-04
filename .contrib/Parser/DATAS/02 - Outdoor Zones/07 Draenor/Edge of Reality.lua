@@ -54,8 +54,11 @@ root(ROOTS.Zones, {
 		})
 	}),
 });
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		q(37864),	-- Voidtalon of the Dark Star - triggers after the player leaves the scenario
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	n(RARES, {
+		o(239828, {	-- Edge of Reality
+			q(37864),	-- Voidtalon of the Dark Star - triggers after the player leaves the scenario
+		}),
 	}),
-});
+})));

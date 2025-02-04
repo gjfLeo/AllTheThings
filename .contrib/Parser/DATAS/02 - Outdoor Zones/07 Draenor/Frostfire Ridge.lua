@@ -2056,34 +2056,42 @@ root(ROOTS.Zones, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		q(33443),	-- Barrier Destroyed - triggers upon reaching the top of the walkway with rolling fireballs in Bladespire Citadel during "Great Balls of Fire!" (questID 33408)
-		q(33847),	-- Flag: Seen Ga'nar Rolling Out - triggers when going into Chillfang's cave immediately upon getting to Draenor
-		q(33909),	-- Flag: Seen Ga'nar Rolling Out to Bladespire - triggers shortly after reaching Wor'gol during "Den of Wolves" (questID 34379)
-		q(33846),	-- Flag: Seen Thrall Cyclone - triggers during "These Colors Don't Run" (questID 33526)
-		q(36793),	-- Founded Garrison - triggers after building Horde Garrison
-		q(37544),	-- Garrison Follower: Greatmother Geyah - Greatmother Geyah selected during "The Frostwolves Stand Ready" (questID 37563)
-		q(37545),	-- Garrison Follower: Kal'gor the Honorable - Kal'gor the Honorable selected during "The Frostwolves Stand Ready" (questID 37563)
-		q(34730),	-- Garrison Follower: Lokra - Lokra selected during "The Frostwolves Stand Ready" (questID 37563)
-		q(36904),	-- Ogre Waygate
-		q(34313),	-- Orlana Strongbrow - triggers during "The Shadow Gate" (questID 34381)
-		q(34329),	-- Shamanstone: Buffeting Galefury selected. Only procs once
-		q(34330),	-- Shamanstone: Ogrish Fortitude selected. Only procs once
-		q(34456),	-- Shamanstone: Spirit of the Wolf. Popped when approaching the Frostwolf shamanstone
-		q(34331),	-- Shamanstone: Spirit of the Wolf selected. Only procs once
-		q(34332),	-- Shamanstone: Touched By Fire selected. Only procs once
-		q(34333),	-- Shamanstone: Touched By Ice selected. Only procs once
-		q(34328),	-- Shamanstone: Blessing of the WOlf selected. Only procs once
-		q(34312),	-- The Magma Lord - triggers when Molthron first appears at 43.6, 15.6
-		q(34510),	-- Tracking Event: Catapuls 'n' Clefthoof - triggers after riding the wolf down Bladespire Citadel during "Moving In" (questID 33657)
-		q(34453),	-- Tracking Event: Gazlowe Arrived
-		q(34511),	-- Tracking Event: Ogre Drag - triggers after riding the wolf down Bladespire Citadel during "Moving In" (questID 33657)
-		q(34715),	-- Tracking Flag: Shamanstone Summons - appoach the frostwolf shaman stone in Wor'gol while on "Honor Has Its Rewards" to start the dialog (questID 33816)
-		q(34521),	-- Treasure: Glowing Obsidian Shard - secondary quest triggered when looting Burning Pearl in Frostfire Ridge
-		q(34968),	-- Treasure: Ice-Covered Supplies - secondary quest triggered when looting Forgotten Supplies in Frostfire Ridge
-		q(34519),	-- Vignette: Brotoculus - tertiary trigger for g'lok the Frozen rare
-		q(34517),	-- Vignette: Gargantuan Frostbeak - secondary trigger for Ug'lok the Frozen rare
-		q(37652),	-- Vignette: Jabberjaw - secondary trigger for Jabberjaw rare
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	m(DRAENOR, {
+		m(FROSTFIRE_RIDGE, {
+			n(QUESTS, {
+				q(33443),	-- Barrier Destroyed - triggers upon reaching the top of the walkway with rolling fireballs in Bladespire Citadel during "Great Balls of Fire!" (questID 33408)
+				q(33847),	-- Flag: Seen Ga'nar Rolling Out - triggers when going into Chillfang's cave immediately upon getting to Draenor
+				q(33909),	-- Flag: Seen Ga'nar Rolling Out to Bladespire - triggers shortly after reaching Wor'gol during "Den of Wolves" (questID 34379)
+				q(33846),	-- Flag: Seen Thrall Cyclone - triggers during "These Colors Don't Run" (questID 33526)
+				q(36793),	-- Founded Garrison - triggers after building Horde Garrison
+				q(37544),	-- Garrison Follower: Greatmother Geyah - Greatmother Geyah selected during "The Frostwolves Stand Ready" (questID 37563)
+				q(37545),	-- Garrison Follower: Kal'gor the Honorable - Kal'gor the Honorable selected during "The Frostwolves Stand Ready" (questID 37563)
+				q(34730),	-- Garrison Follower: Lokra - Lokra selected during "The Frostwolves Stand Ready" (questID 37563)
+				q(36904),	-- Ogre Waygate
+				q(34313),	-- Orlana Strongbrow - triggers during "The Shadow Gate" (questID 34381)
+				q(34312),	-- The Magma Lord - triggers when Molthron first appears at 43.6, 15.6
+				q(34510),	-- Tracking Event: Catapuls 'n' Clefthoof - triggers after riding the wolf down Bladespire Citadel during "Moving In" (questID 33657)
+				q(34453),	-- Tracking Event: Gazlowe Arrived
+				q(34511),	-- Tracking Event: Ogre Drag - triggers after riding the wolf down Bladespire Citadel during "Moving In" (questID 33657)
+				q(34715),	-- Tracking Flag: Shamanstone Summons - appoach the frostwolf shaman stone in Wor'gol while on "Honor Has Its Rewards" to start the dialog (questID 33816)
+			}),
+			n(RARES, {
+				q(34519),	-- Vignette: Brotoculus - tertiary trigger for g'lok the Frozen rare
+				q(34517),	-- Vignette: Gargantuan Frostbeak - secondary trigger for Ug'lok the Frozen rare
+				q(37652),	-- Vignette: Jabberjaw - secondary trigger for Jabberjaw rare
+			}),
+			n(TREASURES, {
+				q(34329),	-- Shamanstone: Buffeting Galefury selected. Only procs once
+				q(34330),	-- Shamanstone: Ogrish Fortitude selected. Only procs once
+				q(34456),	-- Shamanstone: Spirit of the Wolf. Popped when approaching the Frostwolf shamanstone
+				q(34331),	-- Shamanstone: Spirit of the Wolf selected. Only procs once
+				q(34332),	-- Shamanstone: Touched By Fire selected. Only procs once
+				q(34333),	-- Shamanstone: Touched By Ice selected. Only procs once
+				q(34328),	-- Shamanstone: Blessing of the WOlf selected. Only procs once
+				q(34521),	-- Treasure: Glowing Obsidian Shard - secondary quest triggered when looting Burning Pearl in Frostfire Ridge
+				q(34968),	-- Treasure: Ice-Covered Supplies - secondary quest triggered when looting Forgotten Supplies in Frostfire Ridge
+			}),
+		}),
 	}),
-});
+})));

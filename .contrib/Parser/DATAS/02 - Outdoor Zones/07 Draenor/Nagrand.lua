@@ -2658,28 +2658,30 @@ root(ROOTS.Zones, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		hqt(37250, name(HEADERS.AchCriteria, 9610.01)),	-- Krog the Dominator's Hammer
-		hqt(37251, name(HEADERS.AchCriteria, 9610.02)),	-- Thak the Conqueror's Bust
-		hqt(37252, name(HEADERS.AchCriteria, 9610.03)),	-- Thurg the Slave Lord's Necklace
-		hqt(37253, name(HEADERS.AchCriteria, 9610.04)),	-- Gorg the Subjugator's Idol
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	m(DRAENOR, {
+		m(DRAENOR_NAGRAND, {
+			n(QUESTS, {
+				q(34679),	-- Alliance Stables Tracking Event
+				q(34680),	-- Alliance Workshop Tracking Event
+				q(37202),	-- Hemet Nesingwary Visitor Tracking Event
+				q(34812),	-- Horde Stables Tracking Event
+				q(34813),	-- Horde Workshop Tracking Event
+				q(34518),	-- Nagrand Corral
+				q(36906),	-- Ogre Waygate
+				q(37802),	-- Gutrek's Hilt Looted - triggers during "Gutrek's Cleaver: The First Piece" (questID 37797)
+				q(37803),	-- Gutrek's Pommel Looted - triggers during "Gutrek's Cleaver: The Second Piece" (questID 37798)
+				q(37804),	-- Gutrek's Blade Looted - triggers during "Gutrek's Cleaver: The Final Piece" (questID 37799)
+				q(37671),	-- Nagrand 6.0:JP3 - Broken Precipice - Tracking Quest - See Greblin Fastfizzle - triggers during "Garrison Campaign: The Broken Precipice" (questID 35985 & 36117)
+				-- TODO: verify
+				--q(37805),	-- Goblin Looted - triggers during "Gutrek's Cleaver: The Spirit Forge" (questID 37811 & 37992)
+			}),
+			n(TREASURES, {
+				hqt(37250, name(HEADERS.AchCriteria, 9610.01)),	-- Krog the Dominator's Hammer
+				hqt(37251, name(HEADERS.AchCriteria, 9610.02)),	-- Thak the Conqueror's Bust
+				hqt(37252, name(HEADERS.AchCriteria, 9610.03)),	-- Thurg the Slave Lord's Necklace
+				hqt(37253, name(HEADERS.AchCriteria, 9610.04)),	-- Gorg the Subjugator's Idol
+			}),
+		}),
 	}),
-});
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		q(34679),	-- Alliance Stables Tracking Event
-		q(34680),	-- Alliance Workshop Tracking Event
-		q(37202),	-- Hemet Nesingwary Visitor Tracking Event
-		q(34812),	-- Horde Stables Tracking Event
-		q(34813),	-- Horde Workshop Tracking Event
-		q(34518),	-- Nagrand Corral
-		q(36906),	-- Ogre Waygate
-		q(37802),	-- Gutrek's Hilt Looted - triggers during "Gutrek's Cleaver: The First Piece" (questID 37797)
-		q(37803),	-- Gutrek's Pommel Looted - triggers during "Gutrek's Cleaver: The Second Piece" (questID 37798)
-		q(37804),	-- Gutrek's Blade Looted - triggers during "Gutrek's Cleaver: The Final Piece" (questID 37799)
-		q(37671),	-- Nagrand 6.0:JP3 - Broken Precipice - Tracking Quest - See Greblin Fastfizzle - triggers during "Garrison Campaign: The Broken Precipice" (questID 35985 & 36117)
-		-- TODO: verify
-		--q(37805),	-- Goblin Looted - triggers during "Gutrek's Cleaver: The Spirit Forge" (questID 37811 & 37992)
-	}),
-});
+})));
