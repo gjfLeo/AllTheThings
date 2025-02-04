@@ -1978,7 +1978,7 @@ i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(229950, 466018);	-- Darkfuse Demolisher
 i(229955, 466027);	-- Darkfuse Spy-Eye
 i(235662, 1218069);	-- Emerald Snail
-i(0, 466011;		-- Flarendo the Furious
+i(0, 466011);		-- Flarendo the Furious
 i(227362, 459784);	-- Golden Ashes of Al'ar
 i(229941, 466017);	-- Innovation Investigator
 i(0, 468068);		-- Junkmaestro's Magnetomech
