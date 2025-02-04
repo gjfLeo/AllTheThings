@@ -85,17 +85,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 		["isRaid"] = true,
 		["lvl"] = 85,
 		["groups"] = {
-			header(HEADERS.Item, 71086,	-- Dragonwrath, Tarecgosa's Rest
-			sharedDataSelf({["classes"] = { PRIEST, SHAMAN, MAGE, WARLOCK, DRUID, EVOKER }},{
+			header(HEADERS.Item, 71086, {	-- Dragonwrath, Tarecgosa's Rest
+				["classes"] = { PRIEST, SHAMAN, MAGE, WARLOCK, DRUID, EVOKER },
 				["isRaid"] = true,
 				["lvl"] = 85,
-				-- TODO: coords for all these quests
 				["groups"] = {
-					-- the achieve is a little out of place but FL is structured quite differently with the legendary quest line so eh....
-					ach(5839, {	-- Dragonwrath, Tarecgosa's Rest
-						["provider"] = { "i", 71086 },	-- Dragonwrath, Tarecgosa's Rest
-						["classes"] = { PRIEST, SHAMAN, MAGE, WARLOCK, MONK, DRUID, EVOKER },
-					}),
 					a(q(29453, {	-- Your Time Has Come [A]
 						["qg"] = 53115,	-- Molten Lord
 						["description"] = "This quest is auto accepted upon killing a Molten Lord.",
@@ -123,11 +117,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					})),
 					q(29134, {	-- A Wrinkle in Time
 						["qg"] = 15192,	-- Anachronos
-						["coord"] = { 41.8, 49.8, CAVERNS_OF_TIME },
 						["sourceQuests"] = {
 							29129,	-- A Legendary Engagement [H]
 							29132,	-- A Legendary Engagement [A]
 						},
+						["coord"] = { 41.8, 49.8, CAVERNS_OF_TIME },
 					}),
 					q(29135, {	-- All-Seeing Eye
 						["qg"] = 15192,	-- Anachronos
@@ -152,124 +146,112 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					q(29193, {	-- On a Wing and a Prayer
 						["qg"] = 15192,	-- Anachronos
 						["sourceQuest"] = 29135,	-- All-Seeing Eye
+						["groups"] = {
+							objective(1, {	-- Brought Timeless Eye to Coldarra
+								["provider"] = { "i", 69238 },	-- Timeless Eye
+							}),
+						},
 					}),
 					q(29194, {	-- Through a Glass, Darkly
 						["qg"] = 52835,	-- Tarecgosa
 						["sourceQuest"] = 29193,	-- On a Wing and a Prayer
-						["maps"] = { 370 },				-- The Nexus (Scenario Map)
+						["maps"] = { 370 },		-- The Nexus (Scenario Map)
 					}),
 					q(29225, {	-- Actionable Intelligence
 						["qg"] = 53567,	-- Tarecgosa
 						["sourceQuest"] = 29194,	-- Through a Glass, Darkly
+						["maps"] = { 370 },		-- The Nexus (Scenario Map)
 					}),
 					q(29234, {	-- Delegation
 						["qg"] = 52995,	-- Kalecgos
-						["sourceQuest"] = 29225,	-- Actionable Intelligence
-						["description"] = "This is exactly how to do the quest... Start by walking into Firelands. DO NOT KILL ANY OF THE BOSSES. You will need them alive so that you can loot the items for the next phase of the quest after this one.\n\nMouse over each of the requirements below for further instructions.\n\nAfter you are finished, go to Borean Tundra.",
+						["sourceQuests"] = {
+							29225,	-- Actionable Intelligence
+							29432,	-- Circle of Thorns Portal (Delegation Tracker HQT)
+						},
+						["description"] = "Defeat Volcanus and recover the Branch of Nordrassil. In order to summon him, you need to open the Circle of Thorns portal. You can do this by completing the Delgation Tracker quest or by having someone else that has previously opened their own portal open the portal for you.\n\nNOTE: You will be locked out of doing the same for others should you choose to go this route.",
 						["groups"] = {
-							i(71008, {	-- Charged Rhyolite Focus
-								["description"] = "While fighting Lord Rhyolith you loot the Rhyolite Fragments which randomly spawn around the edge of the area (note: possible link to the volcano spawns, but those are random as well). Gather three of these and create a Dull Rhyolite Focus, which is then used just before he uses Concussive Stomp. (STOMP NOW!) He has to stand on it almost directly so make sure you're pretty close before using it. Loot the Charged Rhyolite Focus afterwards.",
-								["crs"] = { 52558 },	-- Lord Rhyolith
-								["questID"] = 29432,	-- Delegation Tracker (For opening the actual portal using all 4 Charged Focii)
-								["classes"] = { PRIEST, SHAMAN, MAGE, WARLOCK, DRUID, EVOKER },
-								["cost"] = {
-									{ "i", 71017, 1 },	-- Charged Chitinous Focus
-									{ "i", 71015, 1 },	-- Charged Emberstone Focus
-									{ "i", 71016, 1 },	-- Charged Pyreshell Focus
-								},
-								["groups"] = {
-									i(70997),	-- Rhyolite Fragment
-									i(70996),	-- Dull Rhyolite Focus
-								},
+							objective(1, {	-- Branch of Nordrassil
+								["provider"] = { "i", 69646 },	-- Branch of Nordrassil
 							}),
-							i(71017, {	-- Charged Chitinous Focus
-								["description"] = "While fighting Beth'tilac you loot the Obsidian-Flecked Chitin Fragments, three of which spawn when a Cinderweb Drone is killed. Gather them and create a Dull Chitinous Focus, which is then used on top of the web just before she uses Smoldering Devastation at 0 Energy.\n\nThis may take a while, just keep an eye on her energy bar and don't fall through the holes created by the meteors.",
-								["crs"] = { 52498 },	-- Beth'tilac <The Red Widow>
-								["classes"] = { PRIEST, SHAMAN, MAGE, WARLOCK, DRUID, EVOKER },
-								["groups"] = {
-									i(70999),	-- Obsidian-Flecked Chitin Fragment
-									i(70998),	-- Dull Chitinous Focus
-								},
-							}),
-							i(71015, {	-- Charged Emberstone Focus
-								["description"] = "While fighting Shannox you loot the Emberstone Fragments, one of which spawns when a Crystal Prison Trap is destroyed. Gather three of them and create a Dull Emberstone Focus, which is then used just before he uses Hurl Spear. The spear has to hit the focus so make sure you're close. Once the fire has died down loot the Charged Emberstone Focus.\n\nNOTE: This requires at least two targets:\nA mage can use the Frost Elemental.\nA shaman can summon the Earth Elemental.\nA Warlock can use its pet.\nA Priest or Druid needs a friend. :(",
-								["crs"] = { 53691 },	-- Shannox
-								["classes"] = { PRIEST, SHAMAN, MAGE, WARLOCK, DRUID, EVOKER },
-								["groups"] = {
-									i(71000),	-- Emberstone Fragment
-									i(71001),	-- Dull Emberstone Focus
-								},
-							}),
-							i(71016, {	-- Charged Pyreshell Focus
-								["description"] = "While fighting Alysrazor you loot the Pyreshell Fragments, one of which spawns when a Molten Egg hatches. Gather three and create a Dull Pyreshell Focus, to be used when she is on the ground and close to full resources during Burnout.\n\nIf she stays grounded and you need more fragments or need to charge your focus, you can fly out of the instance to reset, no more Eggs will spawn at this time.",
-								["crs"] = { 52530 },	-- Alysrazor
-								["classes"] = { PRIEST, SHAMAN, MAGE, WARLOCK, DRUID, EVOKER },
-								["groups"] = {
-									i(70994),	-- Pyreshell Fragment
-									i(70995),	-- Dull Pyreshell Focus
-								},
-							}),
-							i(69646, {	-- Branch of Nordrassil
-								["crs"] = { 53833 },	-- Volcanus <Firelord>
-							}),
-							un(REMOVED_FROM_GAME, title(146, {	-- <Name>, Blessed Defender of Nordrassil
-								["collectible"] = false,
-								["description"] = "You only have this title for as long as you are in tree form. :(",
-							})),
+						},
+					}),
+					o(209098, {	-- Circle of Thorns Portal
+						["questID"] = 29432,	-- Delegation Tracker HQT
+						["lockCriteria"] = { 1, "questID", 29234 },	-- Delegation
+						["description"] = "Completing this quest means that you personally unlocked the Circle of Thorns Portal and can open the portal for others in the future instead of taking the lazy route and having someone else open the portal for you.",
+						["cost"] = {
+							{ "i", 71017, 1 },	-- Charged Chitinous Focus
+							{ "i", 71015, 1 },	-- Charged Emberstone Focus
+							{ "i", 71016, 1 },	-- Charged Pyreshell Focus
+							{ "i", 71008, 1 },	-- Charged Rhyolite Focus
 						},
 					}),
 					q(29239, {	-- Nordrassil's Bough
 						["qg"] = 53009,	-- Kalecgos
 						["sourceQuest"] = 29234,	-- Delegation
+						["coord"] = { 46.4, 35.4, BOREAN_TUNDRA },
 						["groups"] = {
-							i(71084),	-- Branch of Nordrassil
+							i(71084, {	-- Branch of Nordrassil
+								["cr"] = 54233,	-- Branch of Nordrassil
+							}),
 						},
 					}),
 					q(29240, {	-- Emergency Extraction
 						["qg"] = 53009,	-- Kalecgos
 						["sourceQuest"] = 29239,	-- Nordrassil's Bough
+						["coord"] = { 46.4, 35.4, BOREAN_TUNDRA },
 					}),
 					q(29269, {	-- At One
 						["qg"] = 53149,	-- Kalecgos
 						["sourceQuest"] = 29240,	-- Emergency Extraction
+						["coord"] = { 31, 24, BOREAN_TUNDRA },
+						["groups"] = {
+							objective(1, {	-- Bonded with Tarecgosa's Essence
+								["provider"] = { "n", 52835 },	-- Tarecgosa
+							}),
+							objective(2, {	-- Speak to Kalecgos in Coldarra.
+								["provider"] = { "n", 53210 },	-- Kalecgos
+							}),
+						},
 					}),
 					q(29270, {	-- Time Grows Short
 						["qg"] = 53210,	-- Kalecgos
 						["sourceQuest"] = 29269,	-- At One
-						-- If someone wants to re-write this description to be 'accurate' for current content, feel free
-						-- ["description"] = "You should clear this raid on 25H difficulty for the most gain per boss:\n\n10 Man\n    Normal ---- 18-23\n    Heroic ------ 23-26\n\n25 Man\n    Normal ---- 48-55\n    Heroic ----- 55-66",
+						["coord"] = { 31, 24, BOREAN_TUNDRA },
 						["groups"] = {
-							i(69815, {	-- Seething Cinder
-								["description"] = "Need 1000 of these for the Time Grows Short quest.",
-								["crs"] = {
-									53691,	-- Shannox
-									52498,	-- Beth'tilac <The Red Widow>
-									52530,	-- Alysrazor
-									52558,	-- Lord Rhyolith
-									53494,	-- Baleroc <The Gatekeeper>
-									52571,	-- Majordomo Staghelm <Archdruid of the Flame>
-									52409,	-- Ragnaros
-								},
+							objective(1, {	-- 0/1000 Seething Cinder
+								["provider"] = { "i", 69815 },	-- Seething Cinder
 							}),
 						},
 					}),
 					q(29285, {	-- Alignment
 						["qg"] = 53215,	-- Kalecgos
 						["sourceQuest"] = 29270,	-- Time Grows Short
+						["coord"] = { 23, 30.8, BOREAN_TUNDRA },
 						["groups"] = {
+							objective(1, {	-- Witnessed Kalecgos's Ascension
+								["provider"] = { "n", 53227 },	-- Kalecgos
+							}),
+							objective(2, {	-- 0/1 Branch of Nordrassil
+								["provider"] = { "i", 71084 },	-- Branch of Nordrassil
+							}),
 							i(71085),	-- Runestaff of Nordrassil
 						},
 					}),
-					q(29307, {	-- Heart of Flame [A]
+					{	-- Heart of Flame
 						["qg"] = 53349,	-- Kalecgos
 						["sourceQuest"] = 29285,	-- Alignment
-						["altQuests"] = {
-							29308,	-- Heart of Flame [H]
-						},
-						["races"] = ALLIANCE_ONLY,
+						["allianceQuestData"] = q(29307, {	-- Heart of Flame [A]
+							["maps"] = { STORMWIND_CITY },
+						}),
+						["hordeQuestData"] = q(29308, {	-- Heart of Flame [H]
+							["maps"] = { ORGRIMMAR },
+						}),
+						["coord"] = { 23.2, 22.8, BOREAN_TUNDRA },
 						["groups"] = {
-							i(69848, {	-- Heart of Flame
-								["description"] = "The heart has 100% drop rate from Ragnaros for anyone on the quest once you have obtained 250 smoldering essences, regardless of raid size or difficulty.\n\nGather Essences by killing the bosses and syphoning the essences with your staff.",
+							objective(1, {	-- 0/250 Smouldering Essences Collected
+								["provider"] = { "i", 71085 },	-- Runestaff of Nordrassil
+								["description"] = "Gather Essences by killing the bosses and syphoning the essences with your staff.",
 								["crs"] = {
 									53691,	-- Shannox
 									52498,	-- Beth'tilac <The Red Widow>
@@ -277,59 +259,42 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 									52558,	-- Lord Rhyolith
 									53494,	-- Baleroc <The Gatekeeper>
 									52571,	-- Majordomo Staghelm <Archdruid of the Flame>
-									54198,	-- Smoldering Essence
-									52409,	-- Ragnaros
 								},
 							}),
-						},
-					}),
-					q(29308, {	-- Heart of Flame [H]
-						["qg"] = 53349,	-- Kalecgos
-						["sourceQuest"] = 29285,	-- Alignment
-						["altQuests"] = {
-							29307,	-- Heart of Flame [A]
-						},
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(69848, {	-- Heart of Flame
-								["description"] = "The heart has 100% drop rate from Ragnaros for anyone on the quest once you have obtained 250 smoldering essences, regardless of raid size or difficulty.\n\nGather Essences by killing the bosses and syphoning the essences with your staff.",
-								["crs"] = {
-									53691,	-- Shannox
-									52498,	-- Beth'tilac <The Red Widow>
-									52530,	-- Alysrazor
-									52558,	-- Lord Rhyolith
-									53494,	-- Baleroc <The Gatekeeper>
-									52571,	-- Majordomo Staghelm <Archdruid of the Flame>
-									54198,	-- Smoldering Essence
-									52409,	-- Ragnaros
+							objective(2, {	-- 0/1 Heart of Flame
+								["providers"] = {
+									{ "i", 69848 },	-- Heart of Flame
+									{ "n", 54293 },	-- Heart of Ragnaros
 								},
+								["description"] = "The heart spawns after killing Ragnaros for anyone on the quest once you have obtained 250 smoldering essences, regardless of raid size or difficulty. Only one person can loot the heart per lockout.",
 							}),
 						},
-					}),
-					q(29312, {	-- The Stuff of Legends [A]
+					},
+					{	-- The Stuff of Legends
 						["qg"] = 53466,	-- Hallegosa
-						["sourceQuest"] = 29307,	-- Heart of Flame
-						["altQuests"] = {
-							29309,	-- The Stuff of Legends [H]
-						},
-						["races"] = ALLIANCE_ONLY,
+						["allianceQuestData"] = q(29312, {	-- The Stuff of Legends [A]
+							["sourceQuest"] = 29307,	-- Heart of Flame [A]
+							["coord"] = { 54.6, 56, STORMWIND_CITY },
+						}),
+						["hordeQuestData"] = q(29309, {	-- The Stuff of Legends [H]
+							["sourceQuest"] = 29308,	-- Heart of Flame [H]
+							["coord"] = { 48.4, 71.6, ORGRIMMAR },
+						}),
 						["groups"] = {
+							objective(1, {	-- Witnessed Dragonwrath Ceremony
+								["providers"] = {
+									{ "i", 71085 },	-- Runestaff of Nordrassil
+									{ "n", 53715 },	-- Tarecgosa
+								},
+							}),
 							i(71086),	-- Dragonwrath, Tarecgosa's Rest
+							ach(5839, {	-- Dragonwrath, Tarecgosa's Rest
+								["provider"] = { "i", 71086 },	-- Dragonwrath, Tarecgosa's Rest
+							}),
 						},
-					}),
-					q(29309, {	-- The Stuff of Legends [H]
-						["qg"] = 53466,	-- Hallegosa
-						["sourceQuest"] = 29308,	-- Heart of Flame
-						["altQuests"] = {
-							29312,	-- The Stuff of Legends [A]
-						},
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(71086),	-- Dragonwrath, Tarecgosa's Rest
-						},
-					}),
+					},
 				},
-			})),
+			}),
 			n(ACHIEVEMENTS, {
 				ach(5828, {	-- Glory of the Firelands Raider
 					-- Meta Achievement
@@ -460,6 +425,17 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							52409,	-- Ragnaros
 						},
 					}),
+					i(69815, {	-- Seething Cinder
+						["crs"] = {
+							53691,	-- Shannox
+							52498,	-- Beth'tilac <The Red Widow>
+							52530,	-- Alysrazor
+							52558,	-- Lord Rhyolith
+							53494,	-- Baleroc <The Gatekeeper>
+							52571,	-- Majordomo Staghelm <Archdruid of the Flame>
+							52409,	-- Ragnaros
+						},
+					}),
 				}),
 				e(192, {	-- Beth'tilac
 					["creatureID"] = 52498,
@@ -468,12 +444,54 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						i(152976, {	-- Cinderweb Recluse (PET!)
 							["timeline"] = { ADDED_7_3_0 },
 						}),
+						i(71017, {	-- Charged Chitinous Focus
+							["providers"] = {
+								{ "i", 70998 },	-- Dull Chitinous Focus
+								{ "n", 53971 },	-- Charged Chitinous Focus
+							},
+						}),
+						i(70998, {	-- Dull Chitinous Focus
+							["cost"] = {{ "i", 70999, 3 }},	-- Obsidian-Flecked Chitin Fragment
+							["description"] = "Use on top of the web just before she uses Smoldering Devastation at 0 Energy. Loot the Charged Chitinous Focus afterwards.",
+						}),
+						i(70999, {	-- Obsidian-Flecked Chitin Fragment
+							["provider"] = { "o", 209037 },	-- Obsidian-Flecked Chitin
+							["description"] = "While fighting Beth'tilac you loot the Obsidian-Flecked Chitin Fragments, three of which spawn when a Cinderweb Drone is killed. Gather them and create a Dull Chitinous Focus.",
+							["cr"] = 52581,	-- Cinderweb Drone
+						}),
+					},
+				}),
+				n(53833, {	-- Volcanus <Firelord>
+					["sourceQuest"] = 29432,	-- Circle of Thorns Portal (Delegation Tracker HQT)
+					["description"] = "This encounter does not drop any loot directly, instead, the Branch of Nordrassil is spawned on the ground after he is defeated.\n\nOnly available when someone in your party that has completed their Circle of Thorns Portal quest opens the portal. NOTE: You can have someone that has completed their staff AND opened THEIR OWN PORTAL during Delegation open the portal for you. HOWEVER, this means that you specifically will not be able to do the same for other players in the future.",
+					["groups"] = {
+						title(146, {	-- <Name>, Blessed Defender of Nordrassil
+							["description"] = "You only have this title for as long as you are in tree form. :(",
+							["collectible"] = false,
+						}),
+						i(69646, {	-- Branch of Nordrassil
+							["provider"] = { "o", 209100 },	-- Branch of Nordrassil
+						}),
 					},
 				}),
 				e(193, {	-- Lord Rhyolith
 					["creatureID"] = 52558,
 					["groups"] = {
 						ach(5810),	-- Not an Ambi-Turner
+						i(71008, {	-- Charged Rhyolite Focus
+							["providers"] = {
+								{ "i", 70996 },	-- Dull Rhyolite Focus
+								{ "n", 53955 },	-- Charged Rhyolite Focus
+							},
+						}),
+						i(70996, {	-- Dull Rhyolite Focus
+							["cost"] = {{ "i", 70997, 3 }},	-- Rhyolite Fragment
+							["description"] = "Use just before he uses Concussive Stomp. (STOMP NOW!) He has to stand on it almost directly so make sure you're pretty close before using it. Loot the Charged Rhyolite Focus afterwards.",
+						}),
+						i(70997, {	-- Rhyolite Fragment
+							["description"] = "Rhyolite Fragments which randomly spawn around the edge of the area after killing mobs spawned during the encounter. Gather three of them and create a Dull Rhyolite Focus.",
+							["provider"] = { "o", 209033 },	-- Rhyolite Fragment
+						}),
 					},
 				}),
 				e(194, {	-- Alysrazor
@@ -486,6 +504,20 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							crit(17538),	-- Fiery Tornado
 						}),
 						i(71665),	-- Flametalon of Alysrazor (MOUNT!)
+						i(71016, {	-- Charged Pyreshell Focus
+							["providers"] = {
+								{ "i", 70995 },	-- Dull Pyreshell Focus
+								{ "n", 53967 },	-- Charged Pyreshell Focus
+							},
+						}),
+						i(70995, {	-- Dull Pyreshell Focus
+							["cost"] = {{ "i", 70994, 3 }},	-- Pyreshell Fragment
+							["description"] = "Use when she is on the ground and close to full resources during Burnout. Loot the Charged Pyreshell Focus afterwards.\n\nIf she stays grounded and you need more fragments or need to charge your focus, you can fly out of the instance to reset, no more Eggs will spawn at this time.",
+						}),
+						i(70994, {	-- Pyreshell Fragment
+							["provider"] = { "o", 209036 },	-- Pyreshell Fragment
+							["description"] = "A Pyreshell Fragment spawns whenever a Molten Egg hatches during the encounter. Gather three and create a Dull Pyreshell Focus.",
+						}),
 					},
 				}),
 				e(195, {	-- Shannox
@@ -501,6 +533,20 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						}),
 						i(152975, {	-- Blazehound (PET!)
 							["timeline"] = { ADDED_7_3_0 },
+						}),
+						i(71015, {	-- Charged Emberstone Focus
+							["providers"] = {
+								{ "i", 71001 },	-- Dull Emberstone Focus
+								{ "n", 53969 },	-- Charged Emberstone Focus
+							},
+						}),
+						i(71001, {	-- Dull Emberstone Focus
+							["cost"] = {{ "i", 71000, 3 }},	-- Emberstone Fragment
+							["description"] = "Use just before he uses Hurl Spear. The spear has to hit the focus so make sure you're close. Once the fire has died down loot the Charged Emberstone Focus.\n\nNOTE: This requires at least two targets:\nA mage can use the Frost Elemental.\nA shaman can summon the Earth Elemental.\nA Warlock can use its pet.\nA Priest or Druid needs a friend. :(",
+						}),
+						i(71000, {	-- Emberstone Fragment
+							["provider"] = { "o", 209035 },	-- Emberstone Fragment
+							["description"] = "An Emberstone Fragment spawns whenever a Crystal Prison Trap is destroyed. Gather three of them and create a Dull Emberstone Focus.",
 						}),
 					},
 				}),
