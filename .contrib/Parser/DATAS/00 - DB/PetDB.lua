@@ -4350,6 +4350,7 @@ i(232847, 4646);	-- Personal-Use Sapper
 i(232856, 4633);	-- Scruff
 --i(???, 4738);	-- Status Symbol
 i(232806, 4643);	-- Tiny Torq
+i(238261, 4762);	-- Tock the Clocker Spaniel
 i(232838, 4639);	-- Viridian Mechasaur
 --- UNSORTED WILD ---
 n(237713, 4741);	-- Cannoneer
