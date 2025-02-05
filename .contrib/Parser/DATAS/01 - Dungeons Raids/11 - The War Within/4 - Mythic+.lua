@@ -90,6 +90,20 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			ach(15050, {	-- Keystone Hero: Theater of Pain
 				spell(354467),	-- Path of the Undefeated
 			}),
+			ach(41724),		-- The War Within Season 2: Resilient Keystone 12 (automated)
+			ach(41726),		-- The War Within Season 2: Resilient Keystone 13 (automated)
+			ach(41727),		-- The War Within Season 2: Resilient Keystone 14 (automated)
+			ach(41728),		-- The War Within Season 2: Resilient Keystone 15 (automated)
+			ach(41729),		-- The War Within Season 2: Resilient Keystone 16 (automated)
+			ach(41730),		-- The War Within Season 2: Resilient Keystone 17 (automated)
+			ach(41731),		-- The War Within Season 2: Resilient Keystone 18 (automated)
+			ach(41732),		-- The War Within Season 2: Resilient Keystone 19 (automated)
+			ach(41733),		-- The War Within Season 2: Resilient Keystone 20 (automated)
+			ach(41734),		-- The War Within Season 2: Resilient Keystone 21 (automated)
+			ach(41735),		-- The War Within Season 2: Resilient Keystone 22 (automated)
+			ach(41736),		-- The War Within Season 2: Resilient Keystone 23 (automated)
+			ach(41737),		-- The War Within Season 2: Resilient Keystone 24 (automated)
+			ach(41738),		-- The War Within Season 2: Resilient Keystone 25 (automated)
 		})),
 		n(COMMON_BOSS_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			i(234425, {	-- Forgotten Folio

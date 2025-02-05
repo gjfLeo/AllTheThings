@@ -6362,18 +6362,18 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Vicious Saddle (4)",,13523,-1,0,13522,15270,0,0,1179648,19,1379171,103533,79583,0,0,0,0
 ,"Vicious Saddle (5)",,13524,-1,0,13523,15270,0,0,1179648,20,1379171,103533,79585,0,0,0,0
 ,"Vicious Saddle (6)",,13525,-1,0,13524,15270,0,0,1179648,21,1379171,103533,79587,0,0,0,0
-,"Vicious Saddle (7)",,13526,-1,0,13525,15270,0,0,1179648,22,1379171,103533,79589,0,0,0,0
-,"Vicious Saddle (8)",,13527,-1,0,13526,15270,0,0,1179648,23,1379171,103533,79591,0,0,0,0
-,"Vicious Saddle (9)",,13528,-1,0,13527,15270,0,0,1179648,24,1379171,103533,79593,0,0,0,0
+,"Vicious Saddle (7)",,13526,-1,0,13525,15270,0,0,1180672,22,1379171,103533,79589,0,0,0,0
+,"Vicious Saddle (8)",,13527,-1,0,13526,15270,0,0,1180672,23,1379171,103533,79591,0,0,0,0
+,"Vicious Saddle (9)",,13528,-1,0,13527,15270,0,0,1180672,24,1379171,103533,79593,0,0,0,0
 ,"Vicious Saddle (10)",,13529,-1,0,13528,15270,0,0,1179648,25,1379171,103533,79595,0,0,0,0
 ,"Vicious Saddle (2)",,13530,-1,1,13452,15270,0,0,1179648,86,1379171,103533,79597,0,0,0,0
 ,"Vicious Saddle (3)",,13531,-1,1,13530,15270,0,0,1179648,87,1379171,103533,79599,0,0,0,0
 ,"Vicious Saddle (4)",,13532,-1,1,13531,15270,0,0,1179648,88,1379171,103533,79601,0,0,0,0
-,"Vicious Saddle (5)",,13533,-1,1,13532,15270,0,0,1179648,89,1379171,103533,79603,0,0,0,0
-,"Vicious Saddle (6)",,13534,-1,1,13533,15270,0,0,1179648,90,1379171,103533,79605,0,0,0,0
-,"Vicious Saddle (7)",,13535,-1,1,13534,15270,0,0,1179648,91,1379171,103533,79607,0,0,0,0
-,"Vicious Saddle (8)",,13536,-1,1,13535,15270,0,0,1179648,92,1379171,103533,79609,0,0,0,0
-,"Vicious Saddle (9)",,13537,-1,1,13536,15270,0,0,1179648,93,1379171,103533,79611,0,0,0,0
+,"Vicious Saddle (5)",,13533,-1,1,13532,15270,0,0,1180672,89,1379171,103533,79603,0,0,0,0
+,"Vicious Saddle (6)",,13534,-1,1,13533,15270,0,0,1180672,90,1379171,103533,79605,0,0,0,0
+,"Vicious Saddle (7)",,13535,-1,1,13534,15270,0,0,1180672,91,1379171,103533,79607,0,0,0,0
+,"Vicious Saddle (8)",,13536,-1,1,13535,15270,0,0,1180672,92,1379171,103533,79609,0,0,0,0
+,"Vicious Saddle (9)",,13537,-1,1,13536,15270,0,0,1180672,93,1379171,103533,79611,0,0,0,0
 ,"Vicious Saddle (10)",,13538,-1,1,13537,15270,0,0,1179648,94,1379171,103533,79613,0,0,0,0
 "Loa currently selected if you're a Zandalari Troll.","8.1.5 - Zandalari Troll - Loa Selected",,13539,-1,-1,0,130,0,0,3145733,6,136243,0,79617,0,0,0,0
 "Complete the Mechagon achievements listed below.",Mecha-Done,"Mount: Keys to the Model W",13541,1554,-1,0,15298,0,20,131072,112,2902390,168329,80063,0,0,0,0
@@ -8303,7 +8303,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Kill 30 bosses in Grand Hunts.","The Best at What I Do",,16545,-1,-1,0,15466,0,15,131200,65,4622465,0,138970,0,0,0,0
 "2 Massive Lunkers found at a Large Fish Sighting.","What's Down There?",,16546,-1,-1,0,15466,0,10,131072,25,2057311,0,138968,0,0,0,0
 "Get knocked down while harpoon fishing.",Pulled!,,16547,-1,-1,0,15466,0,10,0,28,135860,0,139006,0,0,0,0
-"Catch a fish with a friend.","It Takes a Tuskarr Buddy",,16548,-1,-1,0,15466,0,10,0,29,1911518,0,0,0,0,0,0
+"Catch a fish with a friend.","It Takes a Tuskarr Buddy",,16548,-1,-1,0,15466,0,10,131072,29,1911518,0,0,0,0,0,0
 "Restock 100 fish in Tuskarr Fishing holes.","Giving Back to Nature",,16550,-1,-1,0,15466,0,10,131072,21,236572,0,139168,0,0,0,0
 "Restock 1000 fish in Tuskarr Fishing holes.","Giving More Back to Nature",,16551,-1,-1,16550,15466,0,10,131072,22,236572,0,139170,0,0,0,0
 "Restock 5000 fish in Tuskarr Fishing holes.","Giving Even More Back to Nature",,16552,-1,-1,16551,15466,0,10,131072,23,236572,0,139172,0,0,0,0
@@ -10637,14 +10637,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<DNT> Plunderstorm Tutorial Tracker - Objective 001 - Complete",,20087,-1,-1,0,15455,0,0,3276804,104,136243,0,156142,0,0,0,0
 ,"<DNT> Plunderstorm Tutorial Tracker - Objective 002 - Complete",,20088,-1,-1,0,15455,0,0,3276804,105,136243,0,156144,0,0,0,0
 ,"<DNT> Plunderstorm Tutorial Tracker - Objective 003 - Complete",,20089,-1,-1,0,15455,0,0,3276804,106,136243,0,156146,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 004 - Complete",,20090,-1,-1,0,15455,0,0,3276804,108,136243,0,156148,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 005 - Complete",,20091,-1,-1,0,15455,0,0,3276804,109,136243,0,156150,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 006 - Complete",,20092,-1,-1,0,15455,0,0,3276804,110,136243,0,156152,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 007 - Complete",,20093,-1,-1,0,15455,0,0,3276804,111,136243,0,156154,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 008 - Complete",,20094,-1,-1,0,15455,0,0,3276804,112,136243,0,156156,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 009 - Complete",,20095,-1,-1,0,15455,0,0,3276804,113,136243,0,156158,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 010 - Complete",,20096,-1,-1,0,15455,0,0,3276804,114,136243,0,156160,0,0,0,0
-,"<DNT> Plunderstorm Tutorial Tracker - Objective 011 - Complete",,20097,-1,-1,0,15455,0,0,3276804,115,136243,0,156162,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 004 - Complete",,20090,-1,-1,0,15455,0,0,3276804,109,136243,0,156148,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 005 - Complete",,20091,-1,-1,0,15455,0,0,3276804,110,136243,0,156150,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 006 - Complete",,20092,-1,-1,0,15455,0,0,3276804,111,136243,0,156152,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 007 - Complete",,20093,-1,-1,0,15455,0,0,3276804,112,136243,0,156154,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 008 - Complete",,20094,-1,-1,0,15455,0,0,3276804,113,136243,0,156156,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 009 - Complete",,20095,-1,-1,0,15455,0,0,3276804,114,136243,0,156158,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 010 - Complete",,20096,-1,-1,0,15455,0,0,3276804,115,136243,0,156160,0,0,0,0
+,"<DNT> Plunderstorm Tutorial Tracker - Objective 011 - Complete",,20097,-1,-1,0,15455,0,0,3276804,116,136243,0,156162,0,0,0,0
 "Complete the following storylines in the Isle of Dorn.","The Isle of Dorn",,20118,-1,-1,0,15506,0,10,0,1,5770811,0,156244,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - Tender - Level 1",,20201,-1,-1,0,81,0,0,3276804,24,4696085,0,156527,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - Tender - Level 2",,20202,-1,-1,0,81,0,0,3276804,25,4696085,0,156529,0,0,0,0
@@ -11107,8 +11107,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat every Dungeon in Khaz Algar on Mythic or Mythic Keystone difficulty as a Damage Dealer.","Algari Dungeon Damage Dealer",,40139,-1,-1,0,15524,0,10,131072,2,135718,0,161593,0,0,0,0
 "Defeat every Dungeon in Khaz Algar on Mythic or Mythic Keystone difficulty as a Healer.","Algari Dungeon Healer",,40140,-1,-1,0,15524,0,10,131072,3,648207,0,161602,0,0,0,0
 "Defeat every Dungeon in Khaz Algar on Mythic or Mythic Keystone difficulty as a Tank.","Algari Dungeon Tank",,40141,-1,-1,0,15524,0,10,131072,4,134950,0,161611,0,0,0,0
-"Buy your first tab in the Warband Bank.","Learning to Share",,40142,-1,-1,0,92,0,10,1179648,27,1542856,0,0,0,0,0,0
-"Buy five Warband Bank tabs.","So Much Sharing",,40145,-1,-1,40142,92,0,20,1179648,28,4203076,0,0,0,0,0,0
+"Buy your first tab in the Warband Bank.","Learning to Share",,40142,-1,-1,0,92,0,10,131072,27,1542856,0,161624,0,0,0,0
+"Buy five Warband Bank tabs.","So Much Sharing",,40145,-1,-1,40142,92,0,20,131072,28,4203076,0,161626,0,0,0,0
 "Equip a Superior or better item, with a minimum item level of 564, in every slot.","War Within Superior",,40146,-1,-1,0,92,0,10,0,42,135865,0,161636,0,0,0,0
 "Equip an Epic or better item, with a minimum item level of 584, in every slot.","War Within Epic",,40147,-1,-1,0,92,0,10,0,43,132885,0,161652,0,0,0,0
 "Play every game with the orphans of Mereldar.","Children's Entertainer",,40150,-1,-1,0,15506,0,5,131072,13,134506,0,161700,0,0,0,0
@@ -11163,7 +11163,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Win a Deephaul Ravine battle without letting the enemy team capture a mine cart.","Deephaul Ravine Shutout",,40215,2656,-1,0,15525,0,20,0,3,236348,0,162062,0,0,0,0
 "Win Deephaul Ravine in under 7 minutes.","Deephaul Ravine Expedience",,40216,2656,-1,0,15525,0,10,0,4,236398,0,162064,0,0,0,0
 "Win a Battleground Blitz match in under 6 minutes.","Battleground Blitzer",,40217,-1,-1,0,15092,0,5,0,221,236387,0,162081,0,0,0,0
-"Win a Battleground Blitz match on each map in under 6 minutes.","Battleground Blitzest",,40219,-1,-1,40217,15092,0,10,131072,224,236387,0,162085,0,0,0,0
+"Win a Battleground Blitz match on each map in under 7 minutes.","Battleground Blitzest",,40219,-1,-1,40217,15092,0,10,131072,224,236387,0,162085,0,0,0,0
 "Participate in 300 matches in Battleground Blitz.","Setting Records",,40220,-1,-1,19418,15092,0,15,131072,223,236378,0,162105,0,0,0,0
 "Complete 150 victories in Battleground Blitz.","Battleground Blitz Master",,40221,-1,-1,19413,15092,0,15,131072,218,236380,0,162109,0,0,0,0
 "On Radiant Discord difficulty, defeat each of the following rare creatures encountered during the Worldsoul Memory events in Khaz Algar.","Echoes of Danger","Title: Echochaser",40222,-1,-1,0,15521,0,15,135168,39,255345,0,162197,0,0,0,0
@@ -11321,7 +11321,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the War Within delves listed below.","Delver of the Depths",,40437,-1,-1,0,15523,0,10,143360,61,1786405,0,163440,0,0,0,0
 "Complete the War Within delve achievements listed below.","Glory of the Delver","Mount: Ivory Goliathus",40438,-1,-1,0,15523,0,25,143360,65,6025441,224415,163437,0,0,0,0
 "Successfully complete a Fungarian delve without being hit by Explosive Spores on Tier 8 or higher.",Sporesweeper,,40445,-1,-1,0,15523,0,10,0,40,5789328,0,164004,0,0,0,0
-"Successfully complete a Kobold delve without exhausting an Enchanted Candle or Air Totem on Tier 8 or higher.","I TAKE Candle!",,40446,-1,-1,0,15531,0,10,0,27,2061718,0,164005,0,0,0,0
+"Successfully complete a Kobold delve without exhausting an Enchanted Candle or Air Totem on Tier 8 or higher.","I TAKE Candle!",,40446,-1,-1,0,15531,0,10,2048,27,2061718,0,164005,0,0,0,0
 "Complete the War Within delves listed below on Tier 4 or higher with lives remaining.","Delver of the Depths II",,40447,-1,-1,40437,15523,0,10,143360,62,1786405,0,163454,0,0,0,0
 "Complete the War Within delves listed below on Tier 8 or higher with lives remaining.","Delver of the Depths III",,40448,-1,-1,40447,15523,0,25,143360,63,1786405,0,163467,0,0,0,0
 "Complete the War Within delves listed below on Tier 11 with lives remaining.","Delver of the Depths IV",,40449,-1,-1,40448,15523,0,25,131072,64,1786405,0,163480,0,0,0,0
@@ -11333,7 +11333,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Raise a companion to level 10.","Buddy System",,40455,-1,-1,0,15522,0,10,131072,7,236562,0,163513,0,0,0,0
 "Raise a companion to level 40.","Buddy System IV",,40456,-1,-1,40451,15522,0,10,131072,10,236565,0,163515,0,0,0,0
 "Raise a companion to level 50.","Buddy System V",,40457,-1,-1,40456,15522,0,10,131072,11,236566,0,163517,0,0,0,0
-"Defeat a strange disturbance in a delve 10 times.","Stranger Delves",,40458,-1,-1,0,15522,0,10,131200,14,237551,0,163521,0,0,0,0
+"Defeat a strange disturbance in a delve 10 times.","Stranger Delves",,40458,-1,-1,0,15522,0,10,131200,15,237551,0,163521,0,0,0,0
 "Obtain the Delver's Dirigible.","I've Got a Flying Machine!",,40459,-1,-1,0,15523,0,10,131072,22,6029241,0,163537,0,0,0,0
 "Complete 10 delves.","Delve Deep",,40460,-1,-1,40436,15522,0,10,131200,2,651436,0,163539,0,0,0,0
 "Raise a companion to level 60.","Buddy System VI",,40461,-1,-1,40457,15522,0,10,131072,12,236567,0,163541,0,0,0,0
@@ -11374,13 +11374,13 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete The Ringing Deeps world quest ""Reaching for Resources"" while leaping to 25 handholds or less.","Hanging Tight",,40507,-1,-1,0,15506,0,5,0,31,236316,0,164007,0,0,0,0
 "Complete a Tier 2 delve.","War Within Delves: Tier 2","Unlock: Tier 3 delves in The War Within",40512,-1,-1,40631,15523,0,10,131072,3,6025441,0,166446,0,0,0,0
 "Complete a Tier 3 delve.","War Within Delves: Tier 3",,40514,-1,-1,40512,15523,0,10,131072,4,6025441,0,164035,0,0,0,0
-"Complete a Tier 4 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 4 (Season 1)",,40515,-1,-1,0,15531,0,0,131072,10,6025441,0,164037,0,0,0,0
-"Complete a Tier 5 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 5 (Season 1)","Unlock: Tier 6 delves in The War Within",40516,-1,-1,40515,15531,0,0,131072,12,6025441,0,164039,0,0,0,0
-"Complete a Tier 6 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 6 (Season 1)","Unlock: Tier 7 delves in The War Within",40517,-1,-1,40516,15531,0,0,131072,13,6025441,0,164041,0,0,0,0
-"Complete a Tier 7 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 7 (Season 1)","Unlock: Tier 8 delves in The War Within",40518,-1,-1,40517,15531,0,0,131072,14,6025441,0,164043,0,0,0,0
-"Complete a Tier 8 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 8 (Season 1)","Unlock: Tier 9 delves in The War Within",40519,-1,-1,40518,15531,0,0,131072,15,6025441,0,164045,0,0,0,0
-"Complete a Tier 9 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 9 (Season 1)","Unlock: Tier 10 delves in The War Within",40520,-1,-1,40519,15531,0,0,131072,16,6025441,0,164047,0,0,0,0
-"Complete a Tier 10 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 10 (Season 1)","Unlock: Tier 11 delves in The War Within",40521,-1,-1,40520,15531,0,0,131072,17,6025441,0,164049,0,0,0,0
+"Complete a Tier 4 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 4 (Season 1)",,40515,-1,-1,0,15531,0,0,133120,10,6025441,0,164037,0,0,0,0
+"Complete a Tier 5 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 5 (Season 1)","Unlock: Tier 6 delves in The War Within",40516,-1,-1,40515,15531,0,0,133120,12,6025441,0,164039,0,0,0,0
+"Complete a Tier 6 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 6 (Season 1)","Unlock: Tier 7 delves in The War Within",40517,-1,-1,40516,15531,0,0,133120,13,6025441,0,164041,0,0,0,0
+"Complete a Tier 7 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 7 (Season 1)","Unlock: Tier 8 delves in The War Within",40518,-1,-1,40517,15531,0,0,133120,14,6025441,0,164043,0,0,0,0
+"Complete a Tier 8 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 8 (Season 1)","Unlock: Tier 9 delves in The War Within",40519,-1,-1,40518,15531,0,0,133120,15,6025441,0,164045,0,0,0,0
+"Complete a Tier 9 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 9 (Season 1)","Unlock: Tier 10 delves in The War Within",40520,-1,-1,40519,15531,0,0,133120,16,6025441,0,164047,0,0,0,0
+"Complete a Tier 10 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 10 (Season 1)","Unlock: Tier 11 delves in The War Within",40521,-1,-1,40520,15531,0,0,133120,17,6025441,0,164049,0,0,0,0
 "Obtain all curios that are available for Brann Bronzebeard.","On Brand",,40523,-1,-1,0,15523,0,10,131072,20,973911,0,164139,0,0,0,0
 "Complete 5 Delver's Call quests in the War Within.","Good Deed Delver",,40524,-1,-1,0,15506,0,5,131200,40,237554,0,166268,0,0,0,0
 "Complete each story variant of Fungal Folly.","Fungal Folly Stories",,40525,-1,-1,0,15523,0,5,131072,26,5789324,0,164059,0,0,0,0
@@ -11525,7 +11525,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete one of the achievements or feats of strength listed below:","Web-Wrapped in the Finest Silks","Reward: Luminous Nerubian Catalyst Stone",40723,-1,-1,0,15259,0,10,131072,53,5857267,0,166425,0,0,0,0
 "Discover the hidden treasures across The Ringing Deeps.","Treasures of The Ringing Deeps",,40724,-1,-1,0,15521,0,5,131072,36,1542858,0,166437,0,0,0,0
 "Reach level 80 and complete the Khaz Algar main story campaign on your Warband.","War Within Delves: Endgame","Unlock: Tier 4 delves in The War Within",40725,-1,-1,40514,15523,0,10,131072,5,6025441,0,164017,0,0,0,0
-"Complete a Tier 11 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 11 (Season 1)","Title: High Explorer",40726,-1,-1,40521,15531,0,0,131072,18,6025441,0,166448,0,0,0,0
+"Complete a Tier 11 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 11 (Season 1)","Title: High Explorer",40726,-1,-1,40521,15531,0,0,133120,18,6025441,0,166448,0,0,0,0
 "Ride the High Hollows Skittershaw for a full lap around the district.","Skittershaw Spin",,40727,-1,-1,0,15506,0,5,0,32,879828,0,166453,0,0,0,0
 "Collect any armor set from The War Within PvP Season 1.","Forged Finery",,40728,-1,-1,0,15259,0,10,131072,87,5771687,0,166455,0,0,0,0
 "Win a game of Light's Gambit on Hard Difficulty.","Light's Gambit Champion",,40729,-1,-1,0,15506,0,10,0,30,135986,0,166458,0,0,0,0
@@ -11555,7 +11555,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Returned by evokers","Returned by evokers",,40760,-1,-1,0,122,0,0,1,20,136243,0,166599,0,0,0,0
 ,"Restored by paladins",,40761,-1,-1,0,122,0,0,1,15,136243,0,166604,0,0,0,0
 "Discover the following lore objects across Khaz Algar.","Khaz Algar Lore Hunter",,40762,-1,-1,0,15521,0,10,131072,53,4419344,0,166622,0,0,0,0
-"Loot 25 mislaid curiosities within delves.","I'm not a Thief, I'm a Treasure Hunter",,40763,-1,-1,0,15522,0,10,131200,23,4549238,0,166643,0,0,0,0
+"Loot 25 mislaid curiosities within delves.","I'm not a Thief, I'm a Treasure Hunter",,40763,-1,-1,0,15522,0,10,131200,24,4549238,0,166643,0,0,0,0
 ,"Powers from Strange Disturbances obtained",,40764,-1,-1,0,15533,0,0,1,3,136243,0,166655,0,0,0,0
 ,"The War Within treasures found",,40765,-1,-1,0,15534,0,0,1048577,18,136243,0,166661,0,0,0,0
 ,"Tier 1 delves completed",,40766,-1,-1,0,15533,0,0,1,5,136243,0,166667,0,0,0,0
@@ -11580,7 +11580,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"The War Within Tier 9 delves completed",,40785,-1,-1,0,15534,0,0,1048577,29,136243,0,166705,0,0,0,0
 ,"The War Within Tier 10 delves completed",,40786,-1,-1,0,15534,0,0,1048577,30,136243,0,166707,0,0,0,0
 ,"The War Within Tier 11 delves completed",,40787,-1,-1,0,15534,0,0,1048577,31,136243,0,166709,0,0,0,0
-"Open 50 Bountiful Coffers with Restored Coffer Keys.","I Got the Keys",,40788,-1,-1,40819,15522,0,10,131200,19,348554,0,166711,0,0,0,0
+"Open 50 Bountiful Coffers with Restored Coffer Keys.","I Got the Keys",,40788,-1,-1,40819,15522,0,10,131200,20,348554,0,166711,0,0,0,0
 "Collect the following cosmetic unlocks for the Delver's Dirigible.","Flying in Style",,40789,-1,-1,40459,15523,0,10,131072,25,132241,0,166714,0,0,0,0
 "Explore the regions of Khaz Algar.","Khaz Algar Explorer",,40790,-1,-1,0,97,0,25,131072,12,5901551,0,166824,0,0,0,0
 "Complete the following storylines listed below.","Fate of the Kirin Tor","Title: Witness of the Kirin Tor",40791,-1,-1,0,15506,0,10,0,26,236693,0,166838,0,0,0,0
@@ -11601,8 +11601,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Find and open all Sturdy Chests hidden in The Spiral Weave.","The Spiral Weave Discoveries",,40814,-1,-1,0,15523,0,5,131200,54,4203076,0,167535,0,0,0,0
 "Find and open all Sturdy Chests hidden in The Underkeep.","The Underkeep Discoveries",,40815,-1,-1,0,15523,0,5,131200,55,4203076,0,167540,0,0,0,0
 "Find and open all Sturdy Chests hidden in The Waterworks.","The Waterworks Discoveries",,40816,-1,-1,0,15523,0,5,131200,56,4203076,0,167545,0,0,0,0
-"Find and open 10 Hidden Troves using Delver's Bounties.","A Delver's Bounty",,40817,-1,-1,0,15522,0,10,131072,22,1064187,0,167550,0,0,0,0
-"Open a Bountiful Coffer with a Restored Coffer Key.","Ready to Turn",,40819,-1,-1,0,15522,0,5,131072,18,2032583,0,167595,0,0,0,0
+"Find and open 10 Hidden Troves using Delver's Bounties.","A Delver's Bounty",,40817,-1,-1,0,15522,0,10,131072,23,1064187,0,167550,0,0,0,0
+"Open a Bountiful Coffer with a Restored Coffer Key.","Ready to Turn",,40819,-1,-1,0,15522,0,5,131072,19,2032583,0,167595,0,0,0,0
 "Revive Brann Bronzebeard after he has fallen unconscious.","Raisin' Brann",,40820,-1,-1,0,15523,0,5,131072,18,132132,0,167599,0,0,0,0
 "Explore the Azj-Kahet, revealing the covered areas of the world map.","Explore Azj-Kahet",,40822,-1,-1,0,15521,0,10,131072,16,5770809,0,167601,0,0,0,0
 "Explore the Ringing Deeps, revealing the covered areas of the world map.","Explore the Ringing Deeps",,40825,-1,-1,0,15521,0,10,131072,14,5770812,0,167625,0,0,0,0
@@ -11624,8 +11624,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Unlock all actor perks for the Theater Troupe.","A Star of Dorn",,40860,-1,-1,0,15521,0,5,131072,31,134927,0,167870,0,0,0,0
 ,"Mislaid Curiosities looted",,40861,-1,-1,0,15533,0,0,1,2,136243,0,167876,0,0,0,0
 "Visit the Candy Buckets in the Khaz Algar zones.","Tricks and Treats of Khaz Algar",,40862,-1,-1,0,158,0,10,131072,30,1500966,0,167886,0,0,0,0
-"Successfully complete a puzzle within a delve.","Perplexing Puzzle",,40863,-1,-1,0,15522,0,10,131072,15,4238930,0,167909,0,0,0,0
-"Successfully complete 25 puzzles within a delve.","Plentiful Perplexing Puzzles",,40864,-1,-1,40863,15522,0,10,131200,16,4239319,0,167913,0,0,0,0
+"Successfully complete a puzzle within a delve.","Perplexing Puzzle",,40863,-1,-1,0,15522,0,10,131072,16,4238930,0,167909,0,0,0,0
+"Successfully complete 25 puzzles within a delve.","Plentiful Perplexing Puzzles",,40864,-1,-1,40863,15522,0,10,131200,17,4239319,0,167913,0,0,0,0
 ,"Puzzles completed",,40865,-1,-1,0,15533,0,0,1,4,136243,0,167911,0,0,0,0
 "Complete the following quests in Rak-Ush and the Wormlands.","Worm Theory","Pet: Lil' Bonechewer",40869,-1,-1,0,15521,0,10,196608,23,5659382,0,167954,0,0,0,0
 "Complete two of the following achievements:","Azeroth's Greatest Detective","Title: Detective",40870,-1,-1,0,15532,0,25,131072,11,5208393,0,168932,0,0,0,0
@@ -11636,8 +11636,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach the maximum reputation with the General in Azj'Kahet.","True Strength","Title: Anub",40875,-1,-1,0,15530,0,10,131072,11,5862762,0,167980,0,0,0,0
 "Reach the maximum reputation with the Vizier in Azj'Kahet.","Vox Arachni","Title: Hand of the Vizier",40876,-1,-1,0,15530,0,10,131072,12,5862763,0,167982,0,0,0,0
 ,"<Hidden> RR - 4b",,40877,-1,-1,0,15532,0,0,11534340,4,136243,0,168013,0,0,0,0
-"Open 250 Bountiful Coffers with Restored Coffer Keys.","Copious Coffers","Title: The Bountiful & Reward: Silver Coffer Key",40882,-1,-1,40788,15522,0,10,131200,20,4622271,237358,168040,0,0,0,0
-"Open 500 Bountiful Coffers with Restored Coffer Keys.","The Key to Madness","Reward: Golden Coffer Key",40885,-1,-1,40882,15522,0,25,131200,21,4622270,237355,168042,0,0,0,0
+"Open 250 Bountiful Coffers with Restored Coffer Keys.","Copious Coffers","Title: The Bountiful & Reward: Silver Coffer Key",40882,-1,-1,40788,15522,0,10,131200,21,4622271,237358,168040,0,0,0,0
+"Open 500 Bountiful Coffers with Restored Coffer Keys.","The Key to Madness","Reward: Golden Coffer Key",40885,-1,-1,40882,15522,0,25,131200,22,4622270,237355,168042,0,0,0,0
 ,"<Hidden> Is Dracthyr For Soar Wingman",,40886,-1,-1,0,81,0,0,3145732,218,136243,0,168129,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Vault of the Incarnates is an Awakened raid.","Heroic: Awakened Storms (DNT) (Character specific hidden copy)",,40888,-1,-1,0,81,0,0,1048576,154,4630363,0,168140,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Aberrus is an Awakened raid.","Heroic: Awakened Shadows (DNT) (Character specific copy)",,40892,-1,-1,0,81,0,0,1048576,151,5161748,0,168152,0,0,0,0
@@ -11645,7 +11645,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the optional Undermine storylines listed below.","Sojourner of Undermine",,40894,-1,-1,0,15506,0,10,131072,19,463874,0,168182,0,0,0,0
 "Complete the achievements listed below:","Don't Call Me Junior (DNT) (Character Specific Hidden Copy)","Follower: Harrison Jones",40895,-1,0,0,15303,0,0,1048576,9,133799,0,168184,0,0,0,0
 "Complete the achievements listed below:","Don't Call Me Junior (DNT) (Character specific hidden copy)","Follower: Harrison Jones",40896,-1,1,0,15303,0,0,1048576,11,133799,0,168186,0,0,0,0
-"Complete the War Within storylines listed below.","Allied Races: Earthen (copy)","Reward: Earthen Race Unlocked",40899,-1,-1,0,15506,0,10,1179648,42,5930319,223572,168204,0,0,0,0
+"Complete the War Within storylines listed below.","Allied Races: Earthen (copy)","Reward: Earthen Race Unlocked",40899,-1,-1,0,15506,0,0,1179648,42,5930319,223572,168204,0,0,0,0
 "Complete the following storylines in Undermine.",Undermined,,40900,-1,-1,0,15506,0,10,131072,10,6392630,0,168211,0,0,0,0
 "Cage of Carnage matches","Cage of Carnage matches",,40908,-1,-1,0,152,0,0,1,17,136243,0,168402,0,0,0,0
 "Cage of Carnage victories","Cage of Carnage victories",,40909,-1,-1,0,152,0,0,1,18,136243,0,168404,0,0,0,0
@@ -11686,10 +11686,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Successfully unlock all five of Muff's Auto-Lockers throughout Undermine.","Nine-Tenths of the Law",,40948,-1,-1,0,15521,0,10,131072,7,2201832,0,168566,0,0,0,0
 "Complete a Mythic+ dungeon within the time limit during The War Within Season Two.","The War Within Keystone Explorer: Season Two",,40949,-1,-1,0,15272,0,0,133120,120,618860,0,168577,0,0,0,0
 "Attain a Mythic+ Rating of at least 1500 during The War Within Season Two.","The War Within Keystone Conqueror: Season Two","Title: The Enterprising",40950,-1,-1,40949,15272,0,0,133120,121,618860,0,168579,0,0,0,0
-"Attain a Mythic+ Rating of at least 2850 during The War Within Season Two.","The War Within Keystone Legend: Season Two","Mount: Enterprising Shreddertank",40951,-1,-1,40952,15272,0,0,2048,124,648758,237141,206629,0,0,0,0
+"Attain a Mythic+ Rating of at least 3000 during The War Within Season Two.","The War Within Keystone Legend: Season Two","Mount: Enterprising Shreddertank",40951,-1,-1,40952,15272,0,0,2048,124,648758,237141,206629,0,0,0,0
 "Attain a Mythic+ Rating of at least 2500 during The War Within Season Two.","The War Within Keystone Hero: Season Two",,40952,-1,-1,41533,15272,0,0,133120,123,648760,0,168583,0,0,0,0
 "Put an end to the Battle for Azeroth by completing the following achievements.","A Farewell to Arms","Mount Reward: Jani's Trashpile",40953,-1,-1,0,15301,0,100,131072,4,2065618,235515,168588,0,0,0,0
-"End The War Within Mythic+ Season 2 with a Mythic+ Rating in the top 0.1% of all players in your region.","Enterprising Hero: The War Within Season Two","Title: The Enterprising Hero",40954,-1,-1,0,15272,0,0,14336,125,618859,0,168585,0,0,0,0
+"End The War Within Mythic+ Season 2 with a Mythic+ Rating in the top 0.1% of all players in your region.","Enterprising Hero: The War Within Season Two","Title: The Enterprising Hero",40954,-1,-1,0,15272,0,0,14336,139,618859,0,168585,0,0,0,0
 "Complete each of the Battle for Azeroth Quest Achievements listed below.","War Stories",,40955,-1,-1,0,15284,0,20,131072,1,2437241,0,170397,0,0,0,0
 "Aid Zandalar and Kul Tiras by completing the achievements below.","I'm On Island Time","Mount Reward: Honeyback Hivemother",40956,-1,-1,0,15298,0,40,131072,1,236817,170070,170347,0,0,0,0
 "Complete each of the War Effort achievements listed below.","Maximum Effort",,40957,-1,-1,0,15308,0,30,131072,1,1126583,0,170443,0,0,0,0
@@ -11769,15 +11769,15 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the Sandy Scuttle Reverse.","Sandy Scuttle Reverse: Bronze",,41078,-1,-1,0,15462,0,0,1048576,1816,1002572,0,0,0,0,0,0
 "Get Silver ranked time for the Sandy Scuttle Reverse.","Sandy Scuttle Reverse: Silver",,41079,-1,-1,41078,15462,0,0,1048576,1817,1002575,0,0,0,0,0,0
 "Get Gold ranked time for the Sandy Scuttle Reverse.","Sandy Scuttle Reverse: Gold",,41080,-1,-1,41079,15462,0,0,1048576,1818,1002573,0,0,0,0,0,0
-"Complete all normal Breakneck races in Undermine.","Undermine Breaknecking: Bronze",,41081,-1,-1,0,15462,0,10,131072,1819,1002572,232982,169700,0,0,0,0
+"Complete all normal Breakneck races in Undermine.","Undermine Breaknecking: Bronze","D.R.I.V.E. Engine: the Pozzik Standard",41081,-1,-1,0,15462,0,10,131072,1819,1002572,232982,169700,0,0,0,0
 "Obtain silver in all Breakneck races in Undermine.","Undermine Breaknecking: Silver",,41083,-1,-1,41081,15462,0,10,131072,1820,1002575,0,169713,0,0,0,0
 "Obtain gold in all Breakneck races in Undermine.","Undermine Breaknecking: Gold","Reward: Breaknecker Title and GNZ Airmaster 9000",41084,-1,-1,41083,15462,0,10,131072,1821,1002573,0,169722,0,0,0,0
-"Complete the following quests in Rak-Ush and the Wormlands.","Worm Theory (copy)","Pet: Lil' Bonechewer",41085,-1,-1,0,15521,0,10,1245184,22,5659382,225934,169739,0,0,0,0
+"Complete the following quests in Rak-Ush and the Wormlands.","Worm Theory (copy)","Pet: Lil' Bonechewer",41085,-1,-1,0,15521,0,0,1245184,22,5659382,225934,169739,0,0,0,0
 "Reach Rank 20 with the Cartels of Undermine.","Ally of Undermine","Title: ""the Explosive""",41086,-1,-1,0,15530,0,10,131072,13,6252691,0,169741,0,0,0,0
 "In Undermine, Zandalar, and The Ringing Deeps, catch all of the battle pets listed below.","Undermine Safari","Pet: Lettuce",41092,-1,-1,0,15118,0,5,131072,52,5874200,0,169863,0,0,0,0
 "Complete 500 delves.","Delve Beyond","Title: Delver",41095,-1,-1,40463,15522,0,10,131200,5,1005972,0,169929,0,0,0,0
 "Complete 1000 delves.","Delve Infinite","Title: Infinite Delver",41096,-1,-1,41095,15522,0,10,131200,6,1005970,0,169931,0,0,0,0
-"Loot 100 mislaid curiosities within delves.","Curiosity Never Killed the Looter",,41097,-1,-1,40763,15522,0,10,131200,24,132118,0,169933,0,0,0,0
+"Loot 100 mislaid curiosities within delves.","Curiosity Never Killed the Looter",,41097,-1,-1,40763,15522,0,10,131072,25,132118,0,169933,0,0,0,0
 "Complete each story variant of Excavation Site 9.","Excavation Site 9 Stories",,41098,-1,-1,0,15523,0,5,131072,38,534176,0,169935,0,0,0,0
 "Complete each story variant of Sidestreet Sluice.","Sidestreet Sluice Stories",,41099,-1,-1,0,15523,0,5,131072,39,5768515,0,169939,0,0,0,0
 "Find and open all Sturdy Chests hidden in Excavation Site 9.","Excavation Site 9 Discoveries",,41100,-1,-1,0,15523,0,5,131200,57,4203076,0,169943,0,0,0,0
@@ -11785,7 +11785,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Excavation Site 9 clears",,41102,-1,-1,0,15534,0,0,1,13,136243,0,169945,0,0,0,0
 ,"Sidestreet Sluice clears",,41103,-1,-1,0,15534,0,0,1,14,136243,0,169947,0,0,0,0
 ,"Demolition Dome clears",,41104,-1,-1,0,15534,0,0,1,16,136243,0,169949,0,0,0,0
-"Successfully complete 100 puzzles within a delve.","Prodigious Plentiful Perplexing Puzzles",,41105,-1,-1,40864,15522,0,10,131200,17,4239318,0,169952,0,0,0,0
+"Successfully complete 100 puzzles within a delve.","Prodigious Plentiful Perplexing Puzzles",,41105,-1,-1,40864,15522,0,10,131072,18,4239318,0,169952,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a damage dealer.","Algari Delver Damage Dealer",,41106,-1,-1,0,15523,0,10,131072,7,135989,0,169954,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a healer.","Algari Delver Healer",,41107,-1,-1,0,15523,0,10,131072,10,135915,0,169969,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a tank.","Algari Delver Tank",,41108,-1,-1,0,15523,0,10,131072,13,136112,0,169984,0,0,0,0
@@ -11796,7 +11796,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a tank.","Algari Delver Tank II",,41113,-1,-1,41108,15523,0,10,131072,14,135881,0,170061,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 11 with lives remaining as a tank.","Algari Delver Tank III",,41114,-1,-1,41113,15523,0,25,131072,15,979587,0,170076,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a Damage Dealer, Healer, and Tank.","Algari Delver",,41115,-1,-1,0,15523,0,30,131072,16,2578727,0,170091,0,0,0,0
-"Reach maximum Renown level with each of the four major factions.","Popular Around the Isles",,41179,-1,-1,0,15466,0,40,131072,43,1380676,0,139163,0,0,0,0
+"Defeat Geezle Gigazap in Operation: Floodgate.","Operation: Floodgate",,41339,2773,-1,0,15524,0,10,0,29,6392629,0,206299,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a Damage Dealer, Healer, and Tank.","Algari Delver II",,41116,-1,-1,41115,15523,0,30,131072,17,4887539,0,170095,0,0,0,0
 "Defeat the One-Armed Bandit after activating one Chip Defense Machine in Liberation of Undermine on Normal difficulty or higher.","One Rank Higher",,41119,2769,-1,0,15526,0,10,0,28,901746,0,170101,0,0,0,0
 "Defeat the One-Armed Bandit after activating two Chip Defense Machines in Liberation of Undermine on Normal difficulty or higher.","Two Ranks Higher",,41120,2769,-1,41119,15526,0,10,0,29,901746,0,170103,0,0,0,0
@@ -11831,6 +11831,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach rank 15 renown with the Loamm Niffen.","Friends in Loamm Places",,41175,-1,-1,0,15466,0,5,2228224,39,5140835,0,144709,0,0,0,0
 "Reach rank 15 renown with the Dream Wardens.","Friends in the Dream",,41176,-1,-1,0,15466,0,5,2228224,40,5244643,0,150858,0,0,0,0
 "Reach rank 20 renown with the Dream Wardens.","Warden of the Dream",,41177,-1,-1,41176,15466,0,5,2228224,41,5244643,0,150863,0,0,0,0
+"Reach maximum Renown level with each of the four major factions.","Popular Around the Isles",,41179,-1,-1,0,15466,0,40,131072,43,1380676,0,139163,0,0,0,0
 "Reach Renown level 25 with the Maruuk Centaur.","Joining the Khansguard",,41180,-1,-1,0,15466,0,5,131072,47,4687627,0,138932,0,0,0,0
 "Reach Renown level 30 with the Iskaara Tuskarr.","Joining the Community",,41181,-1,-1,0,15466,0,5,131072,48,4687629,0,138934,0,0,0,0
 "Reach Renown level 30 with the Valdrakken Accord.","Ally of the Flights",,41182,-1,-1,0,15466,0,5,131072,49,4687630,0,138940,0,0,0,0
@@ -11841,14 +11842,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Aid the Assembly of the Deeps by completing the achievements below.","Rage Aside the Machine",,41187,-1,-1,0,15521,0,20,131072,3,5770812,0,170240,0,0,0,0
 "Aid the Hallowfall Arathi by completing the achievements below.","Crystal Chronicled",,41188,-1,-1,0,15521,0,20,131072,4,5770810,0,170248,0,0,0,0
 "Experience life in Azj-Kahet by completing the achievements below.","Azj the World Turns",,41189,-1,-1,0,15521,0,20,131072,5,5770809,0,170377,0,0,0,0
-"Complete a Tier 4 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 4 (Season 2)","Unlock: Tier 5 delves in The War Within",41191,-1,-1,0,15531,0,0,131072,19,6025441,0,170263,0,0,0,0
-"Complete a Tier 5 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 5 (Season 2)","Unlock: Tier 6 delves in The War Within",41192,-1,-1,41191,15531,0,0,131072,20,6025441,0,170265,0,0,0,0
-"Complete a Tier 6 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 7 (Season 2)","Unlock: Tier 7 delves in The War Within",41193,-1,-1,41198,15531,0,0,131072,22,6025441,0,170269,0,0,0,0
-"Complete a Tier 8 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 8 (Season 2)","Unlock: Tier 9 delves in The War Within",41194,-1,-1,41193,15531,0,0,131072,23,6025441,0,170271,0,0,0,0
-"Complete a Tier 9 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 9 (Season 2)","Unlock: Tier 10 delves in The War Within",41195,-1,-1,41194,15531,0,0,131072,24,6025441,0,170273,0,0,0,0
-"Complete a Tier 10 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 10 (Season 2)","Unlock: Tier 11 delves in The War Within",41196,-1,-1,41195,15531,0,0,131072,25,6025441,0,170275,0,0,0,0
-"Complete a Tier 11 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 11 (Season 2)","Title: High Explorer",41197,-1,-1,41196,15531,0,0,131072,26,6025441,0,170277,0,0,0,0
-"Complete a Tier 6 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 6 (Season 2)","Unlock: Tier 7 delves in The War Within",41198,-1,-1,41192,15531,0,0,131072,21,6025441,0,170267,0,0,0,0
+"Complete a Tier 4 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 4 (Season 2)","Unlock: Tier 5 delves in The War Within",41191,-1,-1,0,15531,0,0,133120,19,6025441,0,170263,0,0,0,0
+"Complete a Tier 5 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 5 (Season 2)","Unlock: Tier 6 delves in The War Within",41192,-1,-1,41191,15531,0,0,133120,20,6025441,0,170265,0,0,0,0
+"Complete a Tier 6 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 7 (Season 2)","Unlock: Tier 7 delves in The War Within",41193,-1,-1,41198,15531,0,0,133120,22,6025441,0,170269,0,0,0,0
+"Complete a Tier 8 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 8 (Season 2)","Unlock: Tier 9 delves in The War Within",41194,-1,-1,41193,15531,0,0,133120,23,6025441,0,170271,0,0,0,0
+"Complete a Tier 9 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 9 (Season 2)","Unlock: Tier 10 delves in The War Within",41195,-1,-1,41194,15531,0,0,133120,24,6025441,0,170273,0,0,0,0
+"Complete a Tier 10 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 10 (Season 2)","Unlock: Tier 11 delves in The War Within",41196,-1,-1,41195,15531,0,0,133120,25,6025441,0,170275,0,0,0,0
+"Complete a Tier 11 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 11 (Season 2)","Title: High Explorer",41197,-1,-1,41196,15531,0,0,133120,26,6025441,0,170277,0,0,0,0
+"Complete a Tier 6 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 6 (Season 2)","Unlock: Tier 7 delves in The War Within",41198,-1,-1,41192,15531,0,0,133120,21,6025441,0,170267,0,0,0,0
 "Complete the quest ""Grand, Gutsy Solutions.""","Grand, Gutsy Solutions","Pet: Slim",41200,-1,-1,0,15521,0,0,1245184,99,2027953,222980,170300,0,0,0,0
 "End Xal'atath's schemes (for now) by completing the achievements below.","You Xal Not Pass","Mount Reward: Shadow of Doubt",41201,-1,-1,0,15521,0,40,131072,11,4913234,223313,170302,0,0,0,0
 "Experience Zandalari culture by completing the achievements listed below.","Hot Tropic",,41202,-1,-1,0,15298,0,20,131072,2,2065640,0,170508,0,0,0,0
@@ -11861,12 +11862,12 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete 4 of the Battle for Azeroth appearance achievements listed below.","Dressed to Kill: Battle for Azeroth",,41209,-1,-1,0,15259,0,20,131072,44,456568,0,170386,0,0,0,0
 "Defeat The Underpin in his lair on Tier ?? without any other players in your party, before the release of the next season of delves.","Let Me Solo Him: The Underpin","Reward: Delver's Gob-Trotter Schematic: Gold",41210,-1,-1,0,15531,0,0,14336,8,6100921,0,170618,0,0,0,0
 "Defeat Mug'Zee, Heads of Security while all players are dyed the same color in Liberation of Undermine on Normal difficulty or higher.","A Good Day to Dye Hard","Toy: Pipeline Rerouter",41211,2769,-1,0,15526,0,10,0,32,1035053,236769,205764,0,0,0,0
-"Complete the following achievements.","Family Battler of Khaz Algar (copy)","Pet: Fuzzy",41213,-1,-1,0,15119,0,10,1179648,142,5755548,222970,205777,0,0,0,0
+"Complete the following achievements.","Family Battler of Khaz Algar (copy)","Pet: Fuzzy",41213,-1,-1,0,15119,0,0,1179648,142,5755548,222970,205777,0,0,0,0
 "Complete each of these Worldsoul Memory events in Undermine.","Under the Echoes",,41214,-1,-1,0,15521,0,5,131072,104,2967105,0,205790,0,0,0,0
 "On Radiant Discord difficulty, defeat each of the following rare creatures encountered during the Worldsoul Memory events in Undermine.","Echoes of Deeper Dangers",,41215,-1,-1,0,15521,0,10,135168,105,255345,0,205793,0,0,0,0
 "Complete 10 of the following special encounters across Undermine.","Adventurer of Undermine",,41216,-1,-1,0,15521,0,5,131072,102,5792125,0,205804,0,0,0,0
 "Discover the hidden treasures across Undermine.","Treasures of Undermine",,41217,-1,-1,0,15521,0,10,131072,103,1518646,0,205827,0,0,0,0
-,"<DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power",,41218,-1,-1,0,15455,0,0,3276804,107,136243,234422,205853,0,0,0,0
+,"<DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power",,41218,-1,-1,0,15455,0,0,3276804,107,136243,234422,207975,0,0,0,0
 "Logged in during WoW's 20th Anniversary.","WoW's 20th Anniversary",,41220,-1,-1,0,15274,0,0,2048,76,6036545,0,205956,0,0,0,0
 "Defeat the following bosses on any difficulty.","Liberation of Undermine",,41222,2769,-1,0,15526,0,10,131072,35,6392630,0,205973,0,0,0,0
 "Defeat the following bosses on Heroic difficulty.","Heroic: Liberation of Undermine",,41223,2769,-1,41222,15526,0,10,131072,36,6392630,0,205982,0,0,0,0
@@ -11889,6 +11890,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Chrome King Gallywix in the Liberation of Undermine on Mythic difficulty while in a guild group.","Mythic: Chrome King Gallywix Guild Run",,41292,2769,-1,0,15529,0,10,61440,6,136243,0,206135,0,0,0,0
 "Among the first two hundred guilds worldwide to defeat Chrome King Gallywix on Mythic difficulty.","Hall of Fame: Chrome King Gallywix","Title: Famed Slayer of The Chrome King",41296,2769,-1,0,15093,0,0,4258304,50,6392621,0,206143,0,0,0,0
 "Defeat Chrome King Gallywix in the Liberation of Undermine on Mythic difficulty, before the release of the next raid tier.","Cutting Edge: Chrome King Gallywix",,41297,2769,-1,41298,15271,0,0,6144,92,6392621,0,206145,0,0,0,0
+"Defeat Geezle Gigazap in Operation: Floodgate on Heroic difficulty or higher.","Heroic: Operation: Floodgate",,41340,2773,-1,0,15524,0,10,0,30,6392629,0,206301,0,0,0,0
 "Defeat Chrome King Gallywix in the Liberation of Undermine on Heroic difficulty or higher, before the release of the next raid tier.","Ahead of the Curve: Chrome King Gallywix",,41298,2769,-1,0,15271,0,0,6144,91,6392621,0,206147,0,0,0,0
 ,"Vexie and the Geargrinders (Raid Finder Liberation of Undermine)",,41299,2769,-1,0,15520,0,0,1,60,136243,0,206149,0,0,0,0
 ,"Vexie and the Geargrinders (Normal Liberation of Undermine)",,41300,2769,-1,0,15520,0,0,1,61,136243,0,206151,0,0,0,0
@@ -11925,8 +11927,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"G-99 Breakneck <Tracking Achievement>",,41331,-1,-1,0,15248,0,0,1179652,33,1408996,0,206252,0,0,0,0
 "Defeat Mug'Zee, Heads of Security while all players have slept with the fishes in Liberation of Undermine on Normal difficulty or higher.","Sleep with the Fishes",,41337,2769,-1,0,15526,0,10,0,33,134169,0,206292,0,0,0,0
 "Defeat Rik Reverb after activating both D.I.S.C.O.s during Hype Hustle in the Liberation of Undermine on Normal difficulty or higher.","Just /Dance",,41338,2769,-1,0,15526,0,10,0,26,133836,0,206294,0,0,0,0
-"Defeat Geezle Gigazap in Operation: Floodgate.","Operation: Floodgate",,41339,2773,-1,0,15524,0,10,0,29,6392629,0,206299,0,0,0,0
-"Defeat Geezle Gigazap in Operation: Floodgate on Heroic difficulty or higher.","Heroic: Operation: Floodgate",,41340,2773,-1,0,15524,0,10,0,30,6392629,0,206301,0,0,0,0
 "Defeat Geezle Gigazap in Operation: Floodgate on Mythic or Mythic Keystone difficulty.","Mythic: Operation: Floodgate",,41341,2773,-1,0,15524,0,10,0,31,6392629,0,206303,0,0,0,0
 ,"Geezle Gigazap (Normal Operation: Floodgate)",,41342,2773,-1,0,15520,0,0,1,25,136243,0,206305,0,0,0,0
 ,"Geezle Gigazap (Heroic Operation: Floodgate)",,41343,2773,-1,0,15520,0,0,1,26,136243,0,206307,0,0,0,0
@@ -11953,7 +11953,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect an armor set from the Liberation of Undermine.","Can You Please Spell ""Gobanna?""",,41525,-1,-1,0,15259,0,10,131072,54,6392630,0,206447,0,0,0,0
 "Defeat The Underpin in his lair on Tier ?? before the release of the next season of delves.","Breaking the Bank","Title: The Real Deal",41529,-1,-1,0,15531,0,0,14336,6,6124649,0,206449,0,0,0,0
 "Defeat The Underpin in his lair before the release of the next season of delves.","My New Nemesis","Reward: Golden-Gob Propulsion Rig",41530,-1,-1,0,15531,0,0,14336,4,5393730,0,206451,0,0,0,0
-"Ask Brann to change his hat ten times after recovering it from the Underpin during the War Within Season 2.","The Hataclysm",,41531,-1,-1,0,15531,0,0,131072,11,5221397,0,206454,0,0,0,0
+"Ask Brann to change his hat ten times after recovering it from the Underpin during the War Within Season 2.","The Hataclysm",,41531,-1,-1,0,15531,0,0,133120,11,5221397,0,206454,0,0,0,0
 "Obtain the Delver's Gob-Trotter.","I've Got a Flying Machine?",,41532,-1,-1,0,15523,0,10,131072,23,5917277,0,206461,0,0,0,0
 "Attain a Mythic+ Rating of at least 2000 during The War Within Season Two.","The War Within Keystone Master: Season Two","Mount: Crimson Shreddertank",41533,-1,-1,40950,15272,0,0,133120,122,618859,235549,168581,0,0,0,0
 "Raise a companion to level 70.","Buddy System VII",,41537,-1,-1,40461,15522,0,10,131072,13,236568,0,206696,0,0,0,0
@@ -11982,11 +11982,11 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect any armor set from The War Within PvP Season 2.","Prized Guise",,41595,-1,-1,0,15259,0,10,131072,88,6055037,0,207024,0,0,0,0
 "Defeat Stix Bunkjunker after absorbing or incinerating every Garbage Pile created by Electromagnetic Sorting before the next cast of Electromagnetic Sorting in Liberation of Undermine on Normal difficulty or higher.","Garbage In, Garbage Out","Title: Junkmaestro",41596,2769,-1,0,15526,0,10,0,2,252179,0,207030,0,0,0,0
 "Turn in a completed C.H.E.T.T. List.","C.H.E.T.T. a Look",,41626,-1,-1,0,15521,0,5,131072,111,134393,0,207246,0,0,0,0
-"Turn in two completed C.H.E.T.T. Lists.","C.H.E.T.T.ing it Twice",,41627,-1,-1,41626,15521,0,10,131072,112,134390,0,207248,0,0,0,0
+"Turn in two completed C.H.E.T.T. Lists.","C.H.E.T.T.ing it Twice",,41627,-1,-1,41626,15521,0,10,131200,112,134390,0,207248,0,0,0,0
 "Turn in 100 completed C.H.E.T.T. Lists or become ""Employee"" of the Month.",C.H.E.T.T.mate,"Title: Part-Timer",41629,-1,-1,41627,15521,0,10,131072,113,134391,0,207250,0,0,0,0
 "Prove yourself as C.H.E.T.T.'s most dedicated and hardest working ""employee"" of the last pay period.","""Employee"" of the Month",,41630,-1,-1,0,81,0,0,133120,222,134391,0,207254,0,0,0,0
 "Complete one of the achievements or feats of strength listed below:","Dressed to the Mines","Reward: Gallagio Highroller's Bombstone",41665,-1,-1,0,15259,0,10,131072,55,6392630,0,207347,0,0,0,0
-"Catch every battle pet on Khaz Algar.","Khaz Algar Safari (copy)","Pet: Waxwick",41683,-1,-1,0,15118,0,5,1179648,55,5777860,221821,207362,0,0,0,0
+"Catch every battle pet on Khaz Algar.","Khaz Algar Safari (copy)","Pet: Waxwick",41683,-1,-1,0,15118,0,0,1179648,55,5777860,221821,207362,0,0,0,0
 "Defeat the Cauldron of Carnage while being Flarendo's Biggest Fan in Liberation of Undermine on Normal difficulty or higher.","Flarendo's Biggest Fan",,41694,2769,-1,0,15526,0,10,0,50,6123444,0,207437,0,0,0,0
 "Defeat the Cauldron of Carnage while being Torq's Biggest Fan in Liberation of Undermine on Normal difficulty or higher.","Torq's Biggest Fan",,41695,2769,-1,0,15526,0,10,0,51,133979,0,207439,0,0,0,0
 ,"Vicious Saddle (40)",,41696,-1,1,19551,15270,0,0,1179648,124,1379171,103533,207458,0,0,0,0
@@ -11994,9 +11994,26 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Vicious Saddle (41)",,41698,-1,1,41696,15270,0,0,1179648,125,1379171,103533,207462,0,0,0,0
 ,"Vicious Saddle (41)",,41699,-1,0,41697,15270,0,0,1179648,64,1379171,103533,207464,0,0,0,0
 "Make friends with all 5 Grabbable Rats in Undermine.","You're My Friend Now",,41708,-1,-1,0,15521,0,5,0,2,6351952,0,207587,0,0,0,0
-"Complete the Delver's Journey before Season 2 ends.","Journey's End (Season 2)",,41709,-1,-1,0,15531,0,0,131072,9,6025441,0,207593,0,0,0,0
+"Complete the Delver's Journey before Season 2 ends.","Journey's End (Season 2)",,41709,-1,-1,0,15531,0,0,133120,9,6025441,0,207593,0,0,0,0
 "Defeat Sprocketmonger Lockenstock without being struck by Blazing Beam, Rocket Barrage, Mega Magnetize, Jumbo Void Beam, or Void Barrage on Normal difficulty or higher.","Conveyor Slayer",,41711,2769,-1,0,15526,0,10,0,27,132996,0,207600,0,0,0,0
 "Collect the following cosmetic unlocks for the Delver's Gob-Trotter.","From Trash to Treasure",,41714,-1,-1,41532,15523,0,10,131072,24,132241,0,207651,0,0,0,0
+"Raise a companion to level 80.","Buddy System VIII",,41723,-1,-1,41537,15522,0,10,131072,14,236569,0,207767,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 12 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 12","Keystones will no longer deplete below level 12 during the War Within Season 2.",41724,-1,-1,0,15272,0,0,1050624,125,648754,0,207769,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 13 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 13","Keystones will no longer deplete below level 13 during the War Within Season 2.",41726,-1,-1,0,15272,0,0,1050624,126,648754,0,207785,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 14 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 14","Keystones will no longer deplete below level 14 during the War Within Season 2.",41727,-1,-1,0,15272,0,0,1050624,127,648754,0,207794,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 14 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 15","Keystones will no longer deplete below level 15 during the War Within Season 2.",41728,-1,-1,0,15272,0,0,1050624,128,648754,0,207803,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 16 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 16","Keystones will no longer deplete below level 16 during the War Within Season 2.",41729,-1,-1,0,15272,0,0,1050624,129,648754,0,207812,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 17 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 17","Keystones will no longer deplete below level 17 during the War Within Season 2.",41730,-1,-1,0,15272,0,0,1050624,130,648754,0,207821,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 18 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 18","Keystones will no longer deplete below level 18 during the War Within Season 2.",41731,-1,-1,0,15272,0,0,1050624,131,648754,0,207830,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 19 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 19","Keystones will no longer deplete below level 19 during the War Within Season 2.",41732,-1,-1,0,15272,0,0,1050624,132,648754,0,207839,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 20 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 20","Keystones will no longer deplete below level 20 during the War Within Season 2.",41733,-1,-1,0,15272,0,0,1050624,133,648754,0,207848,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 21 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 21","Keystones will no longer deplete below level 21 during the War Within Season 2.",41734,-1,-1,0,15272,0,0,1050624,134,648754,0,207857,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 22 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 22","Keystones will no longer deplete below level 22 during the War Within Season 2.",41735,-1,-1,0,15272,0,0,1050624,135,648754,0,207866,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 23 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 23","Keystones will no longer deplete below level 23 during the War Within Season 2.",41736,-1,-1,0,15272,0,0,1050624,136,648754,0,207875,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 24 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 24","Keystones will no longer deplete below level 24 during the War Within Season 2.",41737,-1,-1,0,15272,0,0,1050624,137,648754,0,207884,0,0,0,0
+"Complete all Mythic+ dungeons within the time limit at keystone level 25 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 25","Keystones will no longer deplete below level 25 during the War Within Season 2.",41738,-1,-1,0,15272,0,0,1050624,138,648754,0,207893,0,0,0,0
+"Has completed quest Ship it! and does not have mount.","Delver's Dirigible Recovery",,41751,-1,-1,0,15523,0,0,1179652,66,136243,219391,207943,0,0,0,0
+,"<DNT> Plunderstorm Plunder Tracker - Mainline Power Rewards",,41752,-1,-1,0,15455,0,0,3276804,108,136243,0,205853,0,0,0,0
 "Collect all seven Warcraft Rumble Minis.","Warcraft Rumble Minis, Get 'Em All!",,17344,-1,-1,0,15247,0,10,131072,9,5149946,0,142780,0,0,0,0
 "Upgrade Maiev once.","Warcraft Rumble Minis, Maiev's New Look",,17346,-1,-1,0,15247,0,5,131072,12,5149946,0,142790,0,0,0,0
 "Upgrade Sneed once.","Warcraft Rumble Minis, Sneed's New Look",,17347,-1,-1,0,15247,0,5,131072,14,5149948,0,142792,0,0,0,0

@@ -55,7 +55,10 @@ namespace ATT.DB.Types
             GetRecruitFollowerID() > 0 ||
             GetGarrisonMissionID() > 0 ||
             GetModifierTreeID() > 0 ||
-            Type == 43;    // Exploration stuff, not really used specifically for exploration currently
+            // Reveal world map overlay "{WorldMapOverlay}" (Exploration stuff)
+            Type == 43 ||
+            // Mythic Plus Completed
+            Type == 216;
 
         public long GetSourceQuest() =>
             Type == 27 ? Asset : 0;
