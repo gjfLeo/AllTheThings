@@ -73,7 +73,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["coord"] = { 48.1, 70.5, ORGRIMMAR },
 					["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
 					["races"] = HORDE_ONLY,
-					["u"] = REMOVED_FROM_GAME,
 				}),
 				q(31034, {	-- Enemies Below [Orgrimmar]
 					["qgs"] = {
