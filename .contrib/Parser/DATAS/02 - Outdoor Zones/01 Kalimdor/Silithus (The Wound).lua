@@ -1384,13 +1384,13 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_8_3_0 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {
+	m(KALIMDOR, {
 		n(SILITHUS_THE_WOUND, {
 			m(CHAMBER_OF_HEART, {
 				q(59133),	-- Upgrading Ashjra'kamas from 122 -> 125 corruption
 				q(59553),	-- Entering the Chamber of Heart for the first time
 			}),
 		}),
-	})),
-});
+	}),
+})));

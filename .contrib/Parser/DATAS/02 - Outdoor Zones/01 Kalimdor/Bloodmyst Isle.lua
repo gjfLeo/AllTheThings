@@ -1384,8 +1384,10 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, m(KALIMDOR, {
-	m(BLOODMYST_ISLE, {
-		q(9750),	-- UNUSED Urgent Delivery
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {
+	m(KALIMDOR, {
+		m(BLOODMYST_ISLE, {
+			q(9750),	-- UNUSED Urgent Delivery
+		}),
 	}),
-}))
+})));

@@ -5170,13 +5170,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	}),
 }));
 
--- #if AFTER 4.0.3
-root(ROOTS.HiddenQuestTriggers, bubbleDown({ ["timeline"] = { ADDED_4_0_3 } }, m(EASTERN_KINGDOMS, {
-	m(EASTERN_PLAGUELANDS, {
-		q(27552),	-- Triggers on changing buffs at Fiona's Caravan
-		q(27553),	-- Triggers on changing buffs at Fiona's Caravan
-		q(27554),	-- Triggers on changing buffs at Fiona's Caravan
-		q(27563),	-- [FLAG] Beezil's Flag
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
+	m(EASTERN_KINGDOMS, {
+		m(EASTERN_PLAGUELANDS, {
+			q(27552),	-- Triggers on changing buffs at Fiona's Caravan
+			q(27553),	-- Triggers on changing buffs at Fiona's Caravan
+			q(27554),	-- Triggers on changing buffs at Fiona's Caravan
+			q(27563),	-- [FLAG] Beezil's Flag
+		}),
 	}),
 })));
--- #endif

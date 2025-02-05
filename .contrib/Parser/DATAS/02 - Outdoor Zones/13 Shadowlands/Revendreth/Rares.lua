@@ -184,7 +184,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 66.4, 71.4, REVENDRETH },
 				["questID"] = 59595,
 				["g"] = {
-					i(179363),	-- Misplaced Anima Tolls
+					i(179363),	-- 'Misplaced' Anima Tolls (QS!)
 				},
 			}),
 			n(155779, {	-- Tomb Burster <Dread Crawler Queen>

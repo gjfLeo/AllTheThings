@@ -293,3 +293,14 @@ root(ROOTS.ExpansionFeatures,
 		})),
 	})
 );
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	n(GARRISONS, {
+		n(GARRISON_INVASIONS, {
+			q(38276, { ["timeline"] = { ADDED_6_1_0 } }),	-- 6.1 Garrison - World Boss Invasion Loot - killing Commander Dro'gan
+			q(37198),	-- Garrison Visitor: Sappy - triggered during Goren invasion in Garrison
+			q(37199),	-- Garrison Visitor: Sappy - triggered during Goren invasion in Garrison
+			q(35914),	-- Internal: Default Invasion Reward - triggers during the first garrison invasion as part of Draenor's base intro
+		}),
+	}),
+})));

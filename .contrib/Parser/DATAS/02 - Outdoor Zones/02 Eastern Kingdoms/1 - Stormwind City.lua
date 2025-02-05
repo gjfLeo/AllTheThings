@@ -7050,13 +7050,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	}),
 }));
 
--- #if AFTER 8.0.1.27291
-root(ROOTS.HiddenQuestTriggers, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(EASTERN_KINGDOMS, {
 		m(STORMWIND_CITY, {
-			q(53645),	-- triggered during 'Molten Core' (53342) when porting to Molten Core
-			q(59255),	-- completed when turning in 'Fame Waits for Gnome One' (58708)
+			n(QUESTS, {
+				q(53645),	-- triggered during 'Molten Core' (53342) when porting to Molten Core
+				q(59255),	-- completed when turning in 'Fame Waits for Gnome One' (58708)
+			}),
 		}),
 	}),
-});
--- #endif
+})));

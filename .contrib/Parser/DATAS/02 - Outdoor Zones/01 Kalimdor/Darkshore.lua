@@ -3205,12 +3205,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 	}),
 }));
 
--- #if AFTER 8.0.1.27404
-root(ROOTS.HiddenQuestTriggers, m(KALIMDOR, {
-	m(DARKSHORE, {
-		q(52759, {	-- Talked to Zom in Darkshore, which normally has 1 option. But this time had 2 "see past" options.
-			["timeline"] = { ADDED_8_0_1_LAUNCH },
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
+	m(KALIMDOR, {
+		m(DARKSHORE, {
+			q(52759),	-- Talked to Zom in Darkshore, which normally has 1 option. But this time had 2 "see past" options.
 		}),
-	}),
-}))
--- #endif
+	})
+})));

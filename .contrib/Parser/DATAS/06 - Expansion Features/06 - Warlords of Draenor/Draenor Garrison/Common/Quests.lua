@@ -3428,66 +3428,38 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 	})),
 }));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 	n(GARRISONS, {
-		q(38276),	-- 6.1 Garrison - World Boss Invasion Loot - killing Commander Dro'gan
-		q(38315),	-- DEPRECATED - triggered when turning in "Bringing the Bass" on alliance
-		q(38401),	-- DEPRECATED - triggered when turning in "Bringing the Bass" on alliance
-		q(37311),	-- Drafting Table Interact
-		q(36640),	-- Followers Obtained
-		q(36530),	-- Garrison Max-level Choice Tracker: Frostfire Iron Siegeworks
-		q(36550),	-- Garrison Max-level Choice Tracker: Frostfire Iron Siegeworks
-		q(36529),	-- Garrison Max-level Choice Tracker: Frostfire Magnarok
-		q(36551),	-- Garrison Max-level Choice Tracker: Frostfire Magnarok
-		q(36538),	-- Garrison Max-level Choice Tracker: Spires Upper Skettis
-		q(36559),	-- Garrison Max-level Choice Tracker: Spires Upper Skettis
-		q(36560),	-- Garrison Max-level Choice Tracker: Talador Shattrath City, East
-		q(36561),	-- Garrison Max-level Choice Tracker: Talador Shattrath City, East
-		q(37198),	-- Garrison Visitor: Sappy - triggered during Goren invasion in Garrison
-		q(37199),	-- Garrison Visitor: Sappy - triggered during Goren invasion in Garrison
-		q(36799),	-- Garrison Nodes - Tracking Quest - triggers after unlocking the mine, picking herbs
-		q(36492),	-- Garrison Pet Battle — discord report, "for today's EU garrison menagerie fight, the Blingtron/protectron one"
-		q(35914),	-- Internal: Default Invasion Reward - triggers during the first garrison invasion as part of Draenor's base intro
-		q(36894),	-- Nemesis Flag, Draenei/Blood Elf — burning effigy in the Gladiator Sanctum
-		q(36891),	-- Nemesis Flag, Dwarf/Forsaken — burning effigy in the Gladiator Sanctum
-		q(36892),	-- Nemesis Flag, Gnome/Tauren — burning effigy in the Gladiator Sanctum
-		q(36956),	-- Nemesis Flag, Human — burning effigy in the Gladiator Sanctum
-		q(36890),	-- Nemesis Flag, Human/Orc — burning effigy in the Gladiator Sanctum
-		q(36893),	-- Nemesis Flag, Night Elf/Troll — burning effigy in the Gladiator Sanctum
-		q(36896),	-- Nemesis Flag, Pandaren (A/H) — burning effigy in the Gladiator Sanctum
-		q(36895),	-- Nemesis Flag, Worgen/Goblin — burning effigy in the Gladiator Sanctum
-		q(36294),	-- Phylarch the Evergreen A - Lumber Mill first attack
-		q(36295),	-- Phylarch the Evergreen B - Lumber Mill second attack
-		q(36058),	-- Seal of Tempered Fate: Armory
-		q(37197),	-- See Rexxar Quest Giver 002 - Garrison Campaign for Darktide Roost
-		q(39829),	-- Sleigh and Guards Shared Criteria - Winter Veil
-		q(39406),	-- Tracking Quest - related to weekly naval mission in the shipyard
-		q(39407),	-- Tracking Quest - related to weekly naval mission in the shipyard
-		q(39408),	-- Tracking Quest - interact with the mission table.
-		q(39409),	-- Tracking Quest - after completing the WoD mission "Ghost Wrangler" (mission ID: 305), although not sure why that would be tracked.
-		q(39410),	-- Tracking Quest - first interaction with the Garrison Mission Table this week. Completed a bunch of mission + one of the followers leveled up
-		q(39411),	-- Tracking Quest - related to weekly naval mission in the shipyard
-		q(39412),	-- Tracking Quest - something having to do with Naval Missions most likely (triggered with 39414)
-		q(39413),	-- Tracking Quest - Garrison/Shipyard Mission Table
-		q(39414),	-- Tracking Quest - Gladiator's Sanctum - Triggers on construction of the gladiator's sanctum (Lunarfall)
-		q(39415),	-- Tracking Quest - Garrison/Shipyard Mission Table
-		q(37647),	-- Tracking Quest - Hide Old Baros / Thorn / Brightstone - after picking up the rose quest item during quest "Garrison Campaign: Every Rose Has Its Thorn" (questID 36160)
-		q(39709),	-- Tracking Quest - first time this quest popped in WoD Garrison after opening some salvage crates. Then it unflagged on fresh toon, after I walked a little it got completed again
-		q(39710),	-- Tracking Quest - related to the Garrison/Shipyard Mission Table
-		q(39711),	-- Tracking Quest - related to the Garrison/Shipyard Mission Table
-		q(39723),	-- Tracking Quest - related to rare naval missions in the shipyard
-		q(39724),	-- Tracking Quest - related to rare naval missions in the shipyard
-		q(39725),	-- Tracking Quest - related to rare naval missions in the shipyard
-		q(39748),	-- Tracking Quest - related to (rare?) mission table in the Garrison
-		q(39749),	-- Tracking Quest - related to (rare?) mission table in the Garrison
-		q(39750),	-- Tracking Quest - related to rare naval missions in the shipyard
-		q(36902),	-- Tracking Quest: Aeda Brightdawn — assigned Aeda Brightdawn as bodyguard
-		q(36898),	-- Tracking Quest: Delvar Ironfist - assigned Delvar Ironfist as a bodyguard/wingman
-		q(36877),	-- Tracking Quest: Tormmok — assigned Tormmok as a bodyguard/wingman
-		q(36901),	-- Tracking Quest: Vivianne — assigned Vivianne as bodyguard
-		q(38348),	-- Unlock "Silvermoon" - triggers when using "Music Roll: Silvermoon" or "Music Roll: Exodar", appears to be a duplicate ID
-		q(39609),	-- Hallow's End decorations active
-		q(39610),	-- Winter Veil decorations active
-		q(37670),	-- [Deprecated] Tracking Quest - Hide Old Baros / Thorn / Brightstone - after picking up the rose quest item during quest "Garrison Campaign: Every Rose Has Its Thorn" (questID 36160)
+		n(HOLIDAYS, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {
+			q(39609),	-- Hallow's End Active
+			q(39610),	-- Winter Veil Active
+			q(39829),	-- Sleigh and Guards Shared Criteria - Winter Veil
+		})),
+		n(QUESTS, {
+			n(GARRISON_CAMPAIGN, {
+				q(37647),	-- Tracking Quest - Hide Old Baros / Thorn / Brightstone - after picking up the rose quest item during quest "Garrison Campaign: Every Rose Has Its Thorn" (questID 36160)
+				q(37670),	-- [Deprecated] Tracking Quest - Hide Old Baros / Thorn / Brightstone - after picking up the rose quest item during quest "Garrison Campaign: Every Rose Has Its Thorn" (questID 36160)
+				q(37197),	-- See Rexxar Quest Giver 002 - Garrison Campaign for Darktide Roost
+			}),
+			q(38315, { ["timeline"] = { ADDED_6_1_0 } }),	-- DEPRECATED - triggered when turning in "Bringing the Bass" on alliance
+			q(38401, { ["timeline"] = { ADDED_6_1_0 } }),	-- DEPRECATED - triggered when turning in "Bringing the Bass" on alliance
+			q(38348, { ["timeline"] = { ADDED_6_1_0 } }),	-- Unlock "Silvermoon" - triggers when using "Music Roll: Silvermoon" or "Music Roll: Exodar", appears to be a duplicate ID
+			q(37311),	-- Drafting Table Interact
+			q(36640),	-- Followers Obtained
+			q(36530),	-- Garrison Max-level Choice Tracker: Frostfire Iron Siegeworks
+			q(36550),	-- Garrison Max-level Choice Tracker: Frostfire Iron Siegeworks
+			q(36529),	-- Garrison Max-level Choice Tracker: Frostfire Magnarok
+			q(36551),	-- Garrison Max-level Choice Tracker: Frostfire Magnarok
+			q(36538),	-- Garrison Max-level Choice Tracker: Spires Upper Skettis
+			q(36559),	-- Garrison Max-level Choice Tracker: Spires Upper Skettis
+			q(36560),	-- Garrison Max-level Choice Tracker: Talador Shattrath City, East
+			q(36561),	-- Garrison Max-level Choice Tracker: Talador Shattrath City, East
+			q(36799),	-- Garrison Nodes - Tracking Quest - triggers after unlocking the mine, picking herbs
+			q(36492),	-- Garrison Pet Battle — discord report, "for today's EU garrison menagerie fight, the Blingtron/protectron one"
+			q(39408, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - interact with the mission table.
+			q(39409, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - after completing the WoD mission "Ghost Wrangler" (mission ID: 305), although not sure why that would be tracked.
+			q(39410, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - first interaction with the Garrison Mission Table this week. Completed a bunch of mission + one of the followers leveled up
+			q(39709, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - first time this quest popped in WoD Garrison after opening some salvage crates. Then it unflagged on fresh toon, after I walked a little it got completed again
+		}),
 	}),
-}));
+})));

@@ -127,16 +127,18 @@ root(ROOTS.ExpansionFeatures,
 	})
 );
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		n(GARRISONS, {
-			n(BUILDINGS, {	-- Buildings
-				garrisonBuilding(28, {	-- Barracks
-					q(36899),	-- Tracking Quest: Defender Illona (use as Body Guard)
-					q(36936),	-- Tracking Quest: Leorajh (use as Body Guard)
-					q(36900),	-- Tracking Quest: Talonpriest Ishaal (use as Body Guard)
-				}),
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	n(GARRISONS, {
+		n(BUILDINGS, {	-- Buildings
+			garrisonBuilding(28, {	-- Barracks
+				q(36902),	-- Tracking Quest: Aeda Brightdawn (use as Body Guard)
+				q(36899),	-- Tracking Quest: Defender Illona (use as Body Guard)
+				q(36898),	-- Tracking Quest: Delvar Ironfist (use as Body Guard)
+				q(36936),	-- Tracking Quest: Leorajh (use as Body Guard)
+				q(36900),	-- Tracking Quest: Talonpriest Ishaal (use as Body Guard)
+				q(36877),	-- Tracking Quest: Tormmok (use as Body Guard)
+				q(36901),	-- Tracking Quest: Vivianne (use as Body Guard)
 			}),
 		}),
 	}),
-});
+})));

@@ -5316,17 +5316,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 	}),
 }));
 
--- #if AFTER 8.0.1.27291
-root(ROOTS.HiddenQuestTriggers, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(KALIMDOR, {
 		m(ORGRIMMAR, {
+			q(51766),	-- cinematic during Horde BFA intro scenario quest
 			q(54948, {	-- something in orgrimmar on lvl 60 necrolord goblin warlock
 				["timeline"] = { ADDED_8_2_0 },
 			}),
-			q(51766, {	-- cinematic during Horde BFA intro scenario quest
-				["timeline"] = { ADDED_8_0_1 },
-			}),
 		}),
 	}),
-});
--- #endif
+})));

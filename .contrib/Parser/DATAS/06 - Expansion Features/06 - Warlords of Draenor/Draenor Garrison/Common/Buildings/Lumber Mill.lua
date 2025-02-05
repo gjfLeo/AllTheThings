@@ -145,3 +145,14 @@ root(ROOTS.ExpansionFeatures,
 		})),
 	})
 );
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	n(GARRISONS, {
+		n(BUILDINGS, {	-- Buildings
+			garrisonBuilding(138, {	-- Lumber Mill
+				q(36294),	-- Phylarch the Evergreen A - Lumber Mill first attack
+				q(36295),	-- Phylarch the Evergreen B - Lumber Mill second attack
+			}),
+		}),
+	}),
+})));

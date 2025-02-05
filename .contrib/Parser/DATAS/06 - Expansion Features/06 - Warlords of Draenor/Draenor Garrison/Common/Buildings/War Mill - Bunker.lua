@@ -382,3 +382,13 @@ root(ROOTS.ExpansionFeatures,
 		})),
 	})
 );
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
+	n(GARRISONS, {
+		n(BUILDINGS, {	-- Buildings
+			garrisonBuilding(10, {	-- War Mill / Bunker
+				q(36058),	-- Seal of Tempered Fate: Armory
+			}),
+		}),
+	}),
+})));

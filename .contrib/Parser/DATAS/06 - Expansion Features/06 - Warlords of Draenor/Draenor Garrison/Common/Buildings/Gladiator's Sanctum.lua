@@ -451,14 +451,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 		}),
 	})),
 }));
-root(ROOTS.HiddenQuestTriggers,  expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers,  expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 	n(GARRISONS, {
 		n(BUILDINGS, {
 			garrisonBuilding(161, pvp({	-- Gladiator's Sanctum (rank 1: 159, rank 2: 160, rank 3: 161)
 				q(37294),	-- COLISEUM BOOBY PRIZE FLAG (DAILY RESET)
 				q(37283),	-- COLISEUM LOSER FLAG (DAILY RESET)
 				q(37255),	-- COLISEUM WINNER FLAG (WEEKLY RESET)
+				q(39414),	-- Tracking Quest - Gladiator's Sanctum - Triggers on construction of the gladiator's sanctum (Lunarfall)
+				q(36894),	-- Nemesis Flag, Draenei/Blood Elf — burning effigy in the Gladiator Sanctum
+				q(36891),	-- Nemesis Flag, Dwarf/Forsaken — burning effigy in the Gladiator Sanctum
+				q(36892),	-- Nemesis Flag, Gnome/Tauren — burning effigy in the Gladiator Sanctum
+				q(36956),	-- Nemesis Flag, Human — burning effigy in the Gladiator Sanctum
+				q(36890),	-- Nemesis Flag, Human/Orc — burning effigy in the Gladiator Sanctum
+				q(36893),	-- Nemesis Flag, Night Elf/Troll — burning effigy in the Gladiator Sanctum
+				q(36896),	-- Nemesis Flag, Pandaren (A/H) — burning effigy in the Gladiator Sanctum
+				q(36895),	-- Nemesis Flag, Worgen/Goblin — burning effigy in the Gladiator Sanctum
 			})),
 		}),
 	}),
-}));
+})));

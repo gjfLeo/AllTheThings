@@ -1301,10 +1301,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	}),
 }));
 
--- #if AFTER CATA
-root(ROOTS.HiddenQuestTriggers, m(EASTERN_KINGDOMS, {
-	m(179, {	-- Gilneas
-		q(25331),	-- Grandma's Cat (when completing 14401)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
+	m(EASTERN_KINGDOMS, {
+		m(179, {	-- Gilneas
+			n(QUESTS, {
+				q(25331),	-- Grandma's Cat (when completing 14401)
+			})
+		}),
 	}),
-}));
--- #endif
+})));

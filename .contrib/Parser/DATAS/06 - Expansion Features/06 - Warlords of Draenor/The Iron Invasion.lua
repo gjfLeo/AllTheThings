@@ -680,14 +680,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 	}),
 }));
 
--- #if AFTER 6.0
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 	n(IRON_INVASION, {
 		q(37677),	-- Blasted Land 6.0:JP3 - Invasion - Tracking Quest - See Maraad
 		q(37676),	-- Blasted Land 6.0:JP3 - Invasion - Tracking Quest - See Thrall
-		q(66560, {	-- Changing time of zone from Present to Past through Zidormi
-			["timeline"] = { ADDED_9_2_5 },
-		}),
+		q(66560, { ["timeline"] = { ADDED_9_2_5 } }),	-- Changing time of zone from Present to Past through Zidormi
 	}),
-}))
--- #endif
+})));

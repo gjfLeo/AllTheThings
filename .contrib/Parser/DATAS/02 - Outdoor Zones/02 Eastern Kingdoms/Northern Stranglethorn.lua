@@ -3439,10 +3439,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, m(EASTERN_KINGDOMS, {
-	m(NORTHERN_STRANGLETHORN, {
-		q(26412),	-- The Mosh'Ogg Bounty triggers with 'The Mosh'Ogg Bounty' (q:26782, 26783, 26399)
-		q(28855),	-- Triggers when you collect the 7th "Jungle Remedy" during the Bad Medicine (q:26732). A Lashtail Hatchling will start following you
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
+	m(EASTERN_KINGDOMS, {
+		m(NORTHERN_STRANGLETHORN, {
+			n(QUESTS, {
+				q(26412),	-- The Mosh'Ogg Bounty triggers with 'The Mosh'Ogg Bounty' (q:26782, 26783, 26399)
+				q(28855),	-- Triggers when you collect the 7th "Jungle Remedy" during the Bad Medicine (q:26732). A Lashtail Hatchling will start following you
+			}),
+		}),
 	}),
-}));
+})));
 -- #endif

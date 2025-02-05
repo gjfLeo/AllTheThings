@@ -2635,9 +2635,23 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, m(EASTERN_KINGDOMS, {
-	m(THE_HINTERLANDS, {
-		q(26522),	-- Triggering after completing 'Faces of Evil' (q:26357 [H] & 26521 [A])
-		q(38931),	-- Hero's Call: The Hinterlands! - completed with q:26542
-	}),
-}));
+root(ROOTS.HiddenQuestTriggers, {
+	expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
+		m(EASTERN_KINGDOMS, {
+			m(THE_HINTERLANDS, {
+				n(QUESTS, {
+					q(26522),	-- Triggering after completing 'Faces of Evil' (q:26357 [H] & 26521 [A])
+				}),
+			}),
+		}),
+	})),
+	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {
+		m(EASTERN_KINGDOMS, {
+			m(THE_HINTERLANDS, {
+				n(QUESTS, {
+					q(38931),	-- Hero's Call: The Hinterlands! - completed with q:26542
+				}),
+			}),
+		}),
+	})),
+});

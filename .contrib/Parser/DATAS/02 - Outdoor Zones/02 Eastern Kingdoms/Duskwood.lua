@@ -2831,16 +2831,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	}),
 }));
 
--- #if AFTER 4.0.3
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.CATA, {
-		q(26673),	-- REUSE - BREADCRUMB (completed when turning in "Roland's Doom" (26670)
-	}),
-	-- #if AFTER LEGION
-	expansion(EXPANSION.LEGION, {
+	expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
+		m(EASTERN_KINGDOMS, {
+			m(DUSKWOOD, {
+				n(QUESTS, {
+					q(26673),	-- REUSE - BREADCRUMB (completed when turning in "Roland's Doom" (26670)
+				}),
+			}),
+		}),
+	})),
+	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 		q(40937),	-- Tracking: Revil Defeated
 		q(41153),	-- Revil Defeated
-	}),
-	-- #endif
+	})),
 });
--- #endif
