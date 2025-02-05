@@ -15,6 +15,12 @@ root(ROOTS.Character, n(WARBAND, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 
 		ach(19475),	-- Three Warband Mentors: The War Within
 		ach(19476),	-- Four Warband Mentors: The War Within
 		ach(19477),	-- Five Warband Mentors: The War Within
+		ach(40142, {	-- Learning to Share
+			["timeline"] = { CREATED_11_0_0, ADDED_11_1_0 },
+		}),
+		ach(40145, {	-- So Much Sharing
+			["timeline"] = { CREATED_11_0_0, ADDED_11_1_0 },
+		}),
 	}),
 	n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
 		q(83492, {	-- Warbanding Together

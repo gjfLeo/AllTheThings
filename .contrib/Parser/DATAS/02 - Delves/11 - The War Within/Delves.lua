@@ -272,6 +272,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		ach(40635, {	-- Branntastic
 			["maps"] = ALL_THE_DELVES,
 		}),
+		ach(41723, {	-- Buddy System VIII
+			["timeline"] = { ADDED_11_1_0 },
+			["maps"] = ALL_THE_DELVES,
+		}),
 		ach(41537, {	-- Buddy System VII
 			["timeline"] = { ADDED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,

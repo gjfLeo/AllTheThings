@@ -3524,7 +3524,6 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(20490),	-- Carved Harbinger Crests earned
 			ach(20491),	-- Runed Harbinger Crests earned
 			ach(20492),	-- Gilded Harbinger Crests earned
-			ach(40145),	-- So Much Sharing
 
 			-- 11.0.0.54774
 			ach(40543),	-- <DNT> Patient 1 - Mereldar Infirmary
@@ -3716,8 +3715,9 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41697),	-- Vicious Saddle (40)
 			ach(41698),	-- Vicious Saddle (41)
 			ach(41699),	-- Vicious Saddle (41)
-			-- 11.1.0.58819
-			ach(41723),	-- Buddy System VII (copy)
+			-- 11.1.0.58945
+			ach(41751),	-- Delver's Dirigible Recovery
+			ach(41752),	-- <DNT> Plunderstorm Plunder Tracker - Mainline Power Rewards
 		})),
 	}),
 });

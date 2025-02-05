@@ -17,6 +17,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						41075,	-- Sandy Scuttle: Bronze
 						41078,	-- Sandy Scuttle Reverse: Bronze
 					}},
+					["g"] = {
+						-- TODO: D.R.I.V.E. Engine: the Pozzik Standard
+					},
 				}),
 				ach(41083, {	-- Undermine Breaknecking: Silver
 					-- Meta Achievement
