@@ -10,7 +10,7 @@ WEAPON_MASTER = createHeader({
 		ru = "Эксперт по оружию",
 		ko = "무기 전문가",
 		cn = "武器大师",
-		tw = "武器大師"
+		tw = "武器大師",
 	},
 	description = {
 		en = "A weapon master is an NPC that offers characters the opportunity to learn specific weapon skills, the availability of which varies from one weapon master to another. All weapon skills can be trained at level 1, except for Polearms which require level 20.\n\nTraining with a weapon master became obsolete in Patch 4.0.1, as all class-appropriate weapon proficiencies are now learned by each class upon creation. Weapon masters were removed from the game shortly after.",
