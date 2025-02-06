@@ -3412,6 +3412,28 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			}),
 		},
 	})),
+
+	n(createHeader({	-- Tier-Set Shoulder Enchants
+		readable = "Tier-Set Shoulder Enchants",
+		text = {
+			en = "Tier-Set Shoulder Enchants",
+		},
+	}), {
+		["groups"] = {
+			n(QUESTS, {
+				applyclassicphase(SOD_PHASE_SEVEN, q(88745, {	-- Shadows of Doom
+					["qg"] = 16361,	-- Commander Thomas Helleran <The Argent Dawn>
+					["lvl"] = 50,
+				})),
+				applyclassicphase(SOD_PHASE_SEVEN, q(87361, {	-- Laid to Rest
+					["provider"] = { "i", 236750},	-- Heart of Doom
+					["sourceQuest"] = 88745,	-- Shadows of Doom
+					["lvl"] = 60,
+				})),
+			}),
+		},
+	}),
+
 	n(createHeader({	-- Waylaid Supplies
 		readable = "Waylaid Supplies",
 		icon = 132763,
