@@ -874,7 +874,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { REMOVED_7_0_3 },
-							["races"] = { DWARF, NIGHTELF },
+							["races"] = { DWARF },
 							["classes"] = { WARRIOR },
 						}),
 						-- #if SEASON_OF_DISCOVERY
