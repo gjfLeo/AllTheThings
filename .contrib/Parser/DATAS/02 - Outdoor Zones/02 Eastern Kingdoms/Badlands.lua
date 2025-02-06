@@ -131,7 +131,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(633, {	-- Dustwind Dig, Badlands
-					["coord"] = { 48.8, 36.2, BADLANDS },
+					["coord"] = { 49.0, 36.2, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["cr"] = 44409,	-- Nancy Skybrew <Flight Master>
 					["races"] = ALLIANCE_ONLY,
@@ -188,7 +188,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(27823, {	-- A Dwarf's Got Needs
 					["qg"] = 2860,	-- Sigrun Ironhew
-					["coord"] = { 49.4, 37.0, BADLANDS },
+					["coord"] = { 49.5, 37.0, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -246,7 +246,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27792, {	-- All's Fair in Love, War, and Archaeology
 					["qg"] = 46760,	-- Lead Prospector Durdin
 					["sourceQuest"] = 27791,	-- Dustwind Dig
-					["coord"] = { 49.2, 36.9, BADLANDS },
+					["coord"] = { 49.3, 36.9, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -443,7 +443,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27881, {	-- Bloodwatcher Point
 					["qg"] = 46664,	-- Dr. Hieronymus Blam
 					["sourceQuest"] = 27789,	-- Troggish Troubles
-					["coord"] = { 46.8, 56.2, BADLANDS },
+					["coord"] = { 46.8, 56.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
@@ -519,13 +519,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["provider"] = { "o", 206504 },	-- Rhea's Final Note
 					["sourceQuests"] = { 27858, 27898 },	-- Rheastrasza's Gift (A, H)
 					["description"] = "If you abandon this quest, leave the area then return to the cave.",
-					["coord"] = { 15.9, 33.2, BADLANDS },
+					["coord"] = { 18.9, 30.3, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(27927, {	-- Down to the Scar
 					["allianceQuestData"] = {
 						["qg"] = 46930,	-- Victoria Dolen (A)
-						["coord"] = { 20.8, 55.7, BADLANDS },
+						["coord"] = { 20.9, 55.7, BADLANDS },
 					},
 					["hordeQuestData"] = {
 						["qg"] = 46660,	-- Aidan Summerwind (H)
@@ -544,7 +544,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27791, {	-- Dustwind Dig
 					["qg"] = 46664,	-- Dr. Hieronymus Blam
 					["sourceQuest"] = 27789,	-- Troggish Troubles
-					["coord"] = { 46.8, 56.2, BADLANDS },
+					["coord"] = { 46.8, 56.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -567,7 +567,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27828, {	-- Eric, the Utility Dwarf
 					["qgs"] = { 46852, 46855 },	-- Eric "The Swift"
 					["sourceQuest"] = 27827,	-- The Swift, the Fierce, and the Stout
-					["coord"] = { 20.5, 56.0, BADLANDS },
+					["coord"] = { 20.6, 56.1, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -596,7 +596,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27765, {	-- First Sample: Wild Eggs
 					["qg"] = 46654,	-- Rhea
 					["sourceQuest"] = 27764,	-- A Strange Request
-					["coord"] = { 66.3, 55.4, BADLANDS },
+					["coord"] = { 66.4, 55.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/6 Wild Black Dragon Egg
@@ -792,7 +792,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 62513 },	-- Purified Black Dragon Egg
 					},
 					["sourceQuest"] = 27794,	-- Return to Blam
-					["coord"] = { 46.8, 56.2, BADLANDS },
+					["coord"] = { 46.8, 56.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -861,7 +861,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						27765,	-- First Sample: Wild Eggs
 						27766,	-- Second Sample: Whelps
 					},
-					["coord"] = { 66.3, 55.4, BADLANDS },
+					["coord"] = { 66.4, 55.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- Witness the final piece of Rhea's studies
@@ -934,7 +934,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 62513 },	-- Purified Black Dragon Egg
 					},
 					["sourceQuest"] = 27888,	-- Return to Blam
-					["coord"] = { 46.8, 56.2, BADLANDS },
+					["coord"] = { 46.8, 56.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
@@ -1119,7 +1119,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i",  62497 },	-- Eye of the Watchers
 					},
 					["sourceQuest"] = 27912,	-- The Titans' Trove
-					["coord"] = { 50.2, 53.2, BADLANDS },
+					["coord"] = { 50.3, 53.3, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1161,13 +1161,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27769, {	-- Rhea Revealed
 					["qg"] = 46654,	-- Rhea
 					["sourceQuest"] = 27771,	-- Third Sample: Implanted Eggs
-					["coord"] = { 66.3, 55.4, BADLANDS },
+					["coord"] = { 66.4, 55.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(27858, {	-- Rheastrasza's Gift (A)
 					["qg"] = 46654,	-- Rhea
 					["sourceQuest"] = 27832,	-- The Hidden Clutch
-					["coord"] = { 15.9, 33.3, BADLANDS },
+					["coord"] = { 16.0, 33.4, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1255,7 +1255,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27766, {	-- Second Sample: Whelps
 					["qg"] = 46654,	-- Rhea
 					["sourceQuest"] = 27764,	-- A Strange Request
-					["coord"] = { 66.3, 55.4, BADLANDS },
+					["coord"] = { 66.4, 55.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/10 Scalding Whelp Corpse
@@ -1340,7 +1340,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				{
 					["allianceQuestData"] = q(27825, {	-- Survival of the Fattest [A]
 						["qg"] = 46930,	-- Victoria Delen
-						["coord"] = { 20.8, 55.7, BADLANDS },
+						["coord"] = { 20.9, 55.7, BADLANDS },
 					}),
 					["hordeQuestData"] = q(27879, {	-- Survival of the Fattest [H]
 						["qg"] = 46660,	-- Aidan Summerwind
@@ -1376,7 +1376,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27713, {	-- The Day that Deathwing Came
 					["qg"] = 2785,	-- Theldurin the Lost
 					["sourceQuest"] = 27927,	-- Down to the Scar
-					["coord"] = { 26.2, 62.2, BADLANDS },
+					["coord"] = { 26.2, 62.3, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/5 Dang-Blasted Rock Elemental slain
@@ -1390,7 +1390,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27714, {	-- The Day that Deathwing Came: The Real Story
 					["qg"] = 2920,	-- Lucien Tosselwrench
 					["sourceQuest"] = 27713,	-- The Day that Deathwing Came
-					["coord"] = { 26.2, 62.5, BADLANDS },
+					["coord"] = { 26.3, 62.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- Grow large enough to reach the clouds
@@ -1404,7 +1404,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27715, {	-- The Day that Deathwing Came: What Really Happened
 					["qg"] = 4618,	-- Martek the Exiled
 					["sourceQuest"] = 27714,	-- The Day that Deathwing Came: The Real Story
-					["coord"] = { 26.1, 62.4, BADLANDS },
+					["coord"] = { 26.2, 62.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- Choose an admirer to save
@@ -1446,7 +1446,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27824, {	-- The Good Stuff
 					["qg"] = 2860,	-- Sigrun Ironhew
 					["sourceQuest"] = 27823,	-- A Dwarf's Got Needs
-					["coord"] = { 49.4, 36.9, BADLANDS },
+					["coord"] = { 49.5, 37.0, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1455,6 +1455,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "i",  62509 },	-- Engraved Tablets of Golganneth
 								{ "o", 206388 },	-- Angor's Coffer
 							},
+							["coord"] = { 40.1, 25.1, BADLANDS },
 						}),
 						i(63168, {	-- Ironhew Cloak
 							["timeline"] = { ADDED_4_0_3 },
@@ -1545,7 +1546,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 62490 },	-- Sentinel's Pawn
 					},
 					["sourceQuest"] = 27792,	-- All's Fair in Love, War, and Archaeology
-					["coord"] = { 49.2, 36.9, BADLANDS },
+					["coord"] = { 49.3, 36.9, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1623,7 +1624,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27827, {	-- The Swift, the Fierce, and the Stout
 					["qg"] = 46654,	-- Rhea
 					["sourceQuest"] = 27826,	-- Into the Dragon's Mouth
-					["coord"] = { 21.1, 57.7, BADLANDS },
+					["coord"] = { 21.2, 57.8, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1647,7 +1648,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 62395 },	-- Black Dragon Samples
 					},
 					["sourceQuest"] = 27769,	-- Rhea Revealed
-					["coord"] = { 66.4, 55.5, BADLANDS },
+					["coord"] = { 66.5, 55.6, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(27693, {	-- The Warden's Game (A)
@@ -1670,7 +1671,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 62489 },	-- Warden's Pawn
 					},
 					["sourceQuest"] = 27792,	-- All's Fair in Love, War, and Archaeology
-					["coord"] = { 49.2, 36.9, BADLANDS },
+					["coord"] = { 49.3, 36.9, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1770,7 +1771,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27771, {	-- Third Sample: Implanted Eggs
 					["qg"] = 46654,	-- Rhea
 					["sourceQuest"] = 27770,	-- Lifting the Veil
-					["coord"] = { 66.3, 55.4, BADLANDS },
+					["coord"] = { 66.4, 55.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/3 Nyxondra's Egg
@@ -1919,7 +1920,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27789, {	-- Troggish Troubles
 					["qg"] = 46664,	-- Dr. Hieronymus Blam
 					["sourceQuest"] = 27772,	-- The Venerable Doctor Blam
-					["coord"] = { 46.8, 56.2, BADLANDS },
+					["coord"] = { 46.8, 56.5, BADLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(63182, {	-- Anti-Trogg Shield
@@ -2211,6 +2212,23 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(10858),	-- Plans: Solid Iron Maul (RECIPE!)
 					},
 					-- #endif
+				}),
+				n(48096, {	-- "Snake" Sanders <Weaponsmith>
+					["coord"] = { 21.3, 58.0, BADLANDS },
+					["timeline"] = { ADDED_4_0_3 },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2527,	-- Battle Staff
+						2520,	-- Broadsword
+						2528,	-- Falchion
+						2526,	-- Main Gauche
+						2532,	-- Morning Star
+						2534,	-- Rondel
+						2524,	-- Truncheon
+						2525,	-- War Hammer
+						2533,	-- War Maul
+						2535,	-- War Staff
+					}},
 				}),
 			}),
 			n(ZONE_DROPS, {
