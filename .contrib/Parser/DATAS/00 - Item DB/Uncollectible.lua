@@ -27,6 +27,8 @@ i(138293);	-- Explorer's Pack
 i(139398);	-- Pant Loaf
 i(147348);	-- Bulky Armor Set
 i(147349);	-- Spiked Armor Set
+-- Legion Mission Table Items
+i(152442);	-- Impervious Shadoweave Hood \\ rvious Shadowweave Hood \\ rvious Hood
 -- BFA Vendor
 i(162588);	-- Weathered Scrollcase
 -- BFA Minor Visions

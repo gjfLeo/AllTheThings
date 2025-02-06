@@ -1622,6 +1622,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 						o(416450),	-- Lush Orange Illicium
 						o(411562),	-- Orange Illicium
 						o(411561),	-- Sugar Orchid
+						o(416449),	-- Lush Sugar Orchid
 					}),
 				},
 			}),

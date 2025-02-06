@@ -182,6 +182,11 @@ root(ROOTS.Zones, {
 				}),
 				q(41278, {	-- Slippery Stormrays
 					["requireSkill"] = FISHING,
+					["g"] = {
+						o(247875, {	-- Boom Bait
+							i(135496), -- Boom Bait (QI)
+						}),
+					},
 				}),
 				q(41343, {	-- Solid Crabshell Fragment
 					["requireSkill"] = SKINNING,

@@ -1083,8 +1083,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										o(356596, {	-- Feather Cap
 											i(181829),	-- Feather Cap (QI!)
 										}),
-										i(181830),	-- Lacy Bell Morel (QI!)
-										i(181839),	-- Violet Frill (QI!)
+										o(356597, {	-- Lacy Bell Morel
+											i(181830),	-- Lacy Bell Morel (QI!)
+										}),
+										o(356607, {	-- Violet Frill
+											["coords"] = {
+												{ 65.6, 35.4, ARDENWEALD },
+												{ 65.6, 43.8, ARDENWEALD },
+												{ 65.8, 39.0, ARDENWEALD },
+												{ 66.4, 42.2, ARDENWEALD },
+												{ 67.2, 35.4, ARDENWEALD },
+												{ 67.3, 38.6, ARDENWEALD },
+												{ 67.8, 33.2, ARDENWEALD },
+												{ 69.5, 33.9, ARDENWEALD },
+											},
+											["g"] = { i(181839) },	-- Violet Frill (QI!)
+										}),
 									},
 								}),
 								q(61400, {	-- Ember Court: Mystery Mirrors
