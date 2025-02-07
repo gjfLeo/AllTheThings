@@ -849,24 +849,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(40127),	-- Da-Nel's Quest - Da-Nel sends you from Dalaran to Peak of Serenity
-		q(40655),	-- Li Li - hopping on kite during "Off to Adventure!" (questID 40633)
-		q(40516),	-- The Dawning Bit -  triggered after accepting "The Dawning Light" (questID 40236)
-		q(46939),	-- Monk Finale - Ban-Lu mount cutscene
-		q(44646),	-- Tracking Quest: 7.0 Class Hall - Monk - Pacing Mission 1 - Unlocks Ch 2
-		q(44647),	-- Tracking Quest: 7.0 Class Hall - Monk - Pacing Mission 3A-6 - Unlocks Final Quest - completed the "Impending Danger" mission
-		q(43129),	-- Tracking Quest: Freya's Spring 1 - completed the "Freya's Spring: The Mountain" mission
-		q(43130),	-- Tracking Quest: Freya's Spring 2 - completed the "Freya's Spring: Snowblind Mesa" mission
-		q(43131),	-- Tracking Quest: Freya's Spring 3 - completed the "Freya's Spring: The Mountain King" mission
-		q(43132),	-- Tracking Quest: Freya's Spring 4 - completed the "Freya's Spring: Ice Furies" mission
-		q(43133),	-- Tracking Quest: Freya's Spring 5 - completed the "Freya's Spring: Harpy Mother" mission
-		q(41812),	-- Tracking Quest: Saw Boss Cinematic - cinematic during "The Hand of Keletress" (questID 41732)
-		q(43065),	-- Tracking Quest: Vrykul Scouting 1 - completed the "Tracking the Tideskorn: Highlands" mission
-		q(43066),	-- Tracking Quest: Vrykul Scouting 2 - completed the "Tracking the Tideskorn: Restless Dead" mission
-		q(43067),	-- Tracking Quest: Vrykul Scouting 3 - completed the "Tracking the Tideskorn: Savage Beasts" mission
-		q(43068),	-- Tracking Quest: Vrykul Scouting 4 - completed the "Tracking the Tideskorn: The Gates of Valor" mission
-		q(43069),	-- Tracking Quest: Vrykul Scouting 5 - completed the "Tracking the Tideskorn: Storm Drakes" mission
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(MONK, bubbleDownSelf({ ["classes"] = { MONK } }, {
+			q(40127),	-- Da-Nel's Quest - Da-Nel sends you from Dalaran to Peak of Serenity
+			q(40655),	-- Li Li - hopping on kite during "Off to Adventure!" (questID 40633)
+			q(40516),	-- The Dawning Bit -  triggered after accepting "The Dawning Light" (questID 40236)
+			q(46939, { ["timeline"] = { ADDED_7_2_0 } }),	-- Monk Finale - Ban-Lu mount cutscene
+			q(44646),	-- Tracking Quest: 7.0 Class Hall - Monk - Pacing Mission 1 - Unlocks Ch 2
+			q(44647),	-- Tracking Quest: 7.0 Class Hall - Monk - Pacing Mission 3A-6 - Unlocks Final Quest - completed the "Impending Danger" mission
+			q(43129),	-- Tracking Quest: Freya's Spring 1 - completed the "Freya's Spring: The Mountain" mission
+			q(43130),	-- Tracking Quest: Freya's Spring 2 - completed the "Freya's Spring: Snowblind Mesa" mission
+			q(43131),	-- Tracking Quest: Freya's Spring 3 - completed the "Freya's Spring: The Mountain King" mission
+			q(43132),	-- Tracking Quest: Freya's Spring 4 - completed the "Freya's Spring: Ice Furies" mission
+			q(43133),	-- Tracking Quest: Freya's Spring 5 - completed the "Freya's Spring: Harpy Mother" mission
+			q(41812),	-- Tracking Quest: Saw Boss Cinematic - cinematic during "The Hand of Keletress" (questID 41732)
+			q(43065),	-- Tracking Quest: Vrykul Scouting 1 - completed the "Tracking the Tideskorn: Highlands" mission
+			q(43066),	-- Tracking Quest: Vrykul Scouting 2 - completed the "Tracking the Tideskorn: Restless Dead" mission
+			q(43067),	-- Tracking Quest: Vrykul Scouting 3 - completed the "Tracking the Tideskorn: Savage Beasts" mission
+			q(43068),	-- Tracking Quest: Vrykul Scouting 4 - completed the "Tracking the Tideskorn: The Gates of Valor" mission
+			q(43069),	-- Tracking Quest: Vrykul Scouting 5 - completed the "Tracking the Tideskorn: Storm Drakes" mission
+		})),
 	}),
-});
+})));

@@ -844,21 +844,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(41116),	-- 7.0 Artifacts - Shaman - Puzzle Room - Treasure - DGK - looting the Maelstrom Chest containing the Lave Fountain toy from Puzzlemaster Lo
-		q(44653),	-- Tracking Quest: 7.0 Class Hall - Shaman - Pacing Mission 1
-		q(44654),	-- Tracking Quest: 7.0 Class Hall - Shaman - Pacing Mission 2A-5
-		q(38275),	-- Tracking Quest: Return to Firelands 1 Mission Completed - completed the "Return to the Firelands" mission
-		q(42998),	-- Tracking Quest: Return to Firelands 2 Mission Completed - completed the "Janai's Famous Flaming Omelettes" mission
-		q(42999),	-- Tracking Quest: Return to Firelands 3 Mission Completed - completed the "Troubling Tremors" mission
-		q(43000),	-- Tracking Quest: Return to Firelands 4 Mission Completed - completed the "Twilight's Return" mission
-		q(43001),	-- Tracking Quest: Return to Firelands 5 Mission Completed - completed the "Trial of the Firelord" mission
-		q(44396),	-- Tracking Quest: Thunderaan's Enemies 1 - commpleted the "Thunderaan's Enemies: Mistius" mission
-		q(44397),	-- Tracking Quest: Thunderaan's Enemies 2 - commpleted the "Thunderaan's Enemies: Zeph" mission
-		q(44398),	-- Tracking Quest: Thunderaan's Enemies 3 - commpleted the "Thunderaan's Enemies: Alacris" mission
-		q(44399),	-- Tracking Quest: Thunderaan's Enemies 4 - commpleted the "Thunderaan's Enemies: Tulmos" mission
-		q(44499),	-- Snowfang Tracking Quest - triggeres after defeating Snowfang battle pet
-		q(44068),	-- Tell Morgl he can have the Doomhammer
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(SHAMAN, bubbleDownSelf({ ["classes"] = { SHAMAN } }, {
+			q(41116),	-- 7.0 Artifacts - Shaman - Puzzle Room - Treasure - DGK - looting the Maelstrom Chest containing the Lave Fountain toy from Puzzlemaster Lo
+			q(44653),	-- Tracking Quest: 7.0 Class Hall - Shaman - Pacing Mission 1
+			q(44654),	-- Tracking Quest: 7.0 Class Hall - Shaman - Pacing Mission 2A-5
+			q(38275),	-- Tracking Quest: Return to Firelands 1 Mission Completed - completed the "Return to the Firelands" mission
+			q(42998),	-- Tracking Quest: Return to Firelands 2 Mission Completed - completed the "Janai's Famous Flaming Omelettes" mission
+			q(42999),	-- Tracking Quest: Return to Firelands 3 Mission Completed - completed the "Troubling Tremors" mission
+			q(43000),	-- Tracking Quest: Return to Firelands 4 Mission Completed - completed the "Twilight's Return" mission
+			q(43001),	-- Tracking Quest: Return to Firelands 5 Mission Completed - completed the "Trial of the Firelord" mission
+			q(44396),	-- Tracking Quest: Thunderaan's Enemies 1 - commpleted the "Thunderaan's Enemies: Mistius" mission
+			q(44397),	-- Tracking Quest: Thunderaan's Enemies 2 - commpleted the "Thunderaan's Enemies: Zeph" mission
+			q(44398),	-- Tracking Quest: Thunderaan's Enemies 3 - commpleted the "Thunderaan's Enemies: Alacris" mission
+			q(44399),	-- Tracking Quest: Thunderaan's Enemies 4 - commpleted the "Thunderaan's Enemies: Tulmos" mission
+			q(44499),	-- Snowfang Tracking Quest - triggeres after defeating Snowfang battle pet
+			q(44068),	-- Tell Morgl he can have the Doomhammer
+		})),
 	}),
-});
+})));

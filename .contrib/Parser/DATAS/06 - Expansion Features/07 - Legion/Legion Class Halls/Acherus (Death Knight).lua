@@ -801,19 +801,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(40936),	-- Tracking: Revil Convinced - triggered during "Apocalypse" (questID 40930)
-		q(44587),	-- Tracking Quest: Fallen Steeds A - completed the "Fallen Steeds: Saddle of the Frozen Crown" mission
-		q(44588),	-- Tracking Quest: Fallen Steeds B - completed the "Fallen Steeds: The Baron's Saddle" mission
-		q(44589),	-- Tracking Quest: Fallen Steeds C - completed the "Fallen Steeds: Saddle of the Headless Horseman" mission
-		q(44590),	-- Tracking Quest: Fallen Steeds D - completed the "Fallen Steeds: Saddle of the Huntsman" mission
-		q(44591),	-- Tracking Quest: Fallen Steeds E - completed the "Fallen Steeds: Reins of Shadow" mission
-		q(44592),	-- Tracking Quest: Unholy Attainment A - completed the "Unholy Attainment: Essence of Undeath" mission
-		q(44593),	-- Tracking Quest: Unholy Attainment B - completed the "Unholy Attainment: Essence of Fear" mission
-		q(44594),	-- Tracking Quest: Unholy Attainment C - completed the "Unholy Attainment: Essence of Shadow" mission
-		q(44595),	-- Tracking Quest: Unholy Attainment D - completed the "Unholy Attainment: Essence of Hatred" mission
-		q(44596),	-- Tracking Quest: Unholy Attainment E - completed the "Unholy Attainment: Essence of Darkness" mission
-		q(44637),	-- Track Quest: 7.0 Class Hall - Death Knight - Pacing Mission 1 (Ch 1.5) - triggers when "Salanar the Horseman" mission is completed
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(DEATHKNIGHT, bubbleDownSelf({ ["classes"] = { DEATHKNIGHT } }, {
+			q(40936),	-- Tracking: Revil Convinced - triggered during "Apocalypse" (questID 40930)
+			q(44587),	-- Tracking Quest: Fallen Steeds A - completed the "Fallen Steeds: Saddle of the Frozen Crown" mission
+			q(44588),	-- Tracking Quest: Fallen Steeds B - completed the "Fallen Steeds: The Baron's Saddle" mission
+			q(44589),	-- Tracking Quest: Fallen Steeds C - completed the "Fallen Steeds: Saddle of the Headless Horseman" mission
+			q(44590),	-- Tracking Quest: Fallen Steeds D - completed the "Fallen Steeds: Saddle of the Huntsman" mission
+			q(44591),	-- Tracking Quest: Fallen Steeds E - completed the "Fallen Steeds: Reins of Shadow" mission
+			q(44592),	-- Tracking Quest: Unholy Attainment A - completed the "Unholy Attainment: Essence of Undeath" mission
+			q(44593),	-- Tracking Quest: Unholy Attainment B - completed the "Unholy Attainment: Essence of Fear" mission
+			q(44594),	-- Tracking Quest: Unholy Attainment C - completed the "Unholy Attainment: Essence of Shadow" mission
+			q(44595),	-- Tracking Quest: Unholy Attainment D - completed the "Unholy Attainment: Essence of Hatred" mission
+			q(44596),	-- Tracking Quest: Unholy Attainment E - completed the "Unholy Attainment: Essence of Darkness" mission
+			q(44637),	-- Track Quest: 7.0 Class Hall - Death Knight - Pacing Mission 1 (Ch 1.5) - triggers when "Salanar the Horseman" mission is completed
+		})),
 	}),
-});
+})));

@@ -1286,8 +1286,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 		}),
 	})),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
 		q(48308),	-- Tracking Quest - triggered after obtaining "Azeroth Invasion Plans" (itemID 152316)
 		q(48309),	-- Tracking Quest - triggered after obtaining "Discharged Shock Lance" (itemID 152320)
 		q(48310),	-- Tracking Quest - triggered after obtaining "Sargerei Manifesto"  (itemID 152324)
@@ -1297,4 +1297,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(44705),	-- Tracking Quest - 7.0 Special - iLevel 750 - 750 - Fox Mount 3 (44057 - A "Noble" Event)
 		q(44706),	-- Tracking Quest - 7.0 Special - iLevel 750 - 750 - Fox Mount 4 (44057 - A "Noble" Event)
 	}),
-});
+})));

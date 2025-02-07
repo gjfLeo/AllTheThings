@@ -1682,7 +1682,7 @@ root(ROOTS.ExpansionFeatures,
 	})
 );
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 	n(WAR_EFFORT, {
 		n(-253, {	-- Horde War Campaign
 			q(54316),	-- 7500/12000 Honored with Honorbound. unlock for storyline quests
@@ -1691,4 +1691,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
 			q(55620),	-- tracking quest in Sylvanas Loyalist questline
 		}),
 	}),
-}));
+})));

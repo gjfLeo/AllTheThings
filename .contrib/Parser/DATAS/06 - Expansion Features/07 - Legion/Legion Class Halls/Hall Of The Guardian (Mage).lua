@@ -982,23 +982,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(46768),	-- Akazamzarak 1 Week Cooldown - triggered after completing "Champion: Aethas Sunreaver"
-		q(46776),	-- Akazamzarak 1 Week Cooldown - triggered after completing "Champion: Aethas Sunreaver"
-		q(45914),	-- Ch 5 Soulstone Shielded Tracking Quest - triggers after completing "Keep it Secret, Keep it Safe" (questID 46351)
-		q(42976),	-- Mage Ch 3 Tracking Quest	- completed "Three Is a Lucky Number" (questID 42959) and saw the Arcane Destroyer be summoned
-		q(44645),	-- Tracking Quest: 7.0 Class Hall - Mage - Pacing Mission 1 - Unlocks Ch 2 - SBV - completed the "Ancient Magic" mission
-		q(44474),	-- Tracking Quest: Following In His Footsteps 1 - completed the "Archmage Vargoth's Travels: The Nightborne Vault" mission
-		q(44475),	-- Tracking Quest: Following In His Footsteps 2 - completed the "Archmage Vargoth's Travels: Ruins of Nar'thalas" mission
-		q(44476),	-- Tracking Quest: Following In His Footsteps 3 - completed the "Archmage Vargoth's Travels: The Scholars of Tel'anor" mission
-		q(44477),	-- Tracking Quest: Following In His Footsteps 4 - completed the "Archmage Vargoth's Travels: The Forests of Ashenvale" mission
-		q(44478),	-- Tracking Quest: Following In His Footsteps 5 - completed the "Archmage Vargoth's Travels: Best Friends Forever" mission
-		q(44467),	-- Tracking Quest: When There's a Will, There's a Way 1 - completed the "Oculus Preparations: A Nightmarish Situation" mission
-		q(44468),	-- Tracking Quest: When There's a Will, There's a Way 2 - completed the "Oculus Preparations: Communication Disruption" mission
-		q(44469),	-- Tracking Quest: When There's a Will, There's a Way 3 - completed the "Oculus Preparations: Ley Them Down" mission
-		q(44470),	-- Tracking Quest: When There's a Will, There's a Way 4 - completed the "Oculus Preparations: Eternos" mission
-		q(44472),	-- Tracking Quest: When There's a Will, There's a Way 5 - completed the "Oculus Preparations: On The Offensive" mission
-		q(42727),	-- Transition to Forge Quests - triggered after completing The Mage Hunter as first artifact weapon
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(MAGE, bubbleDownSelf({ ["classes"] = { MAGE } }, {
+			q(46768, { ["timeline"] = { ADDED_7_2_0 } }),	-- Akazamzarak 1 Week Cooldown - triggered after completing "Champion: Aethas Sunreaver"
+			q(46776, { ["timeline"] = { ADDED_7_2_0 } }),	-- Akazamzarak 1 Week Cooldown - triggered after completing "Champion: Aethas Sunreaver"
+			q(45914, { ["timeline"] = { ADDED_7_2_0 } }),	-- Ch 5 Soulstone Shielded Tracking Quest - triggers after completing "Keep it Secret, Keep it Safe" (questID 46351)
+			q(42976),	-- Mage Ch 3 Tracking Quest	- completed "Three Is a Lucky Number" (questID 42959) and saw the Arcane Destroyer be summoned
+			q(44645),	-- Tracking Quest: 7.0 Class Hall - Mage - Pacing Mission 1 - Unlocks Ch 2 - SBV - completed the "Ancient Magic" mission
+			q(44474),	-- Tracking Quest: Following In His Footsteps 1 - completed the "Archmage Vargoth's Travels: The Nightborne Vault" mission
+			q(44475),	-- Tracking Quest: Following In His Footsteps 2 - completed the "Archmage Vargoth's Travels: Ruins of Nar'thalas" mission
+			q(44476),	-- Tracking Quest: Following In His Footsteps 3 - completed the "Archmage Vargoth's Travels: The Scholars of Tel'anor" mission
+			q(44477),	-- Tracking Quest: Following In His Footsteps 4 - completed the "Archmage Vargoth's Travels: The Forests of Ashenvale" mission
+			q(44478),	-- Tracking Quest: Following In His Footsteps 5 - completed the "Archmage Vargoth's Travels: Best Friends Forever" mission
+			q(44467),	-- Tracking Quest: When There's a Will, There's a Way 1 - completed the "Oculus Preparations: A Nightmarish Situation" mission
+			q(44468),	-- Tracking Quest: When There's a Will, There's a Way 2 - completed the "Oculus Preparations: Communication Disruption" mission
+			q(44469),	-- Tracking Quest: When There's a Will, There's a Way 3 - completed the "Oculus Preparations: Ley Them Down" mission
+			q(44470),	-- Tracking Quest: When There's a Will, There's a Way 4 - completed the "Oculus Preparations: Eternos" mission
+			q(44472),	-- Tracking Quest: When There's a Will, There's a Way 5 - completed the "Oculus Preparations: On The Offensive" mission
+			q(42727),	-- Transition to Forge Quests - triggered after completing The Mage Hunter as first artifact weapon
+		})),
 	}),
-});
+})));

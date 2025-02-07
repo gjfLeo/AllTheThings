@@ -189,7 +189,7 @@ root(ROOTS.ExpansionFeatures,
 		}),
 	})
 );
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
 	m(BROKEN_ISLES, {
 		m(AZSUNA, {
 			n(-543, {

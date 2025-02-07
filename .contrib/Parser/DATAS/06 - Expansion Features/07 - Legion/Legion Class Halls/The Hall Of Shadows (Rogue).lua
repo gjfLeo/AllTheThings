@@ -1148,28 +1148,31 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(44871),	-- 7.1 World - 850 - Special - Moroes 1
-		q(44872),	-- 7.1 World - 850 - Special - Moroes 2
-		q(42061),	-- Charge Trigger Hit - triggered after leaving the citadel during the Fangs of the Devourer scenario
-		q(43634),	-- Looted Rogue Vault
-		q(50804),	-- Opened the way to the order hall for the first time during "Call of The Uncrowned" (questID 40832)
-		q(43716),	-- Rogue Vault Rare Triggered
-		q(43719),	-- Rare Item One Obtained - looted the "Suspicious Crate" toy (itemID 139587)
-		q(43720),	-- Rare Item Two Obtained - picking up the "Scroll of Teleport: Ravenholdt" (itemID 139590) in the Uncrowned Vault
-		q(44615),	-- Tracking Quest: Mission 1 - completed the "Throwing SI:7 Off the Trail: Dalaran" mission
-		q(44617),	-- Tracking Quest: Mission 2 - completed the "Throwing SI:7 Off the Trail: Stormheim" mission
-		q(44618),	-- Tracking Quest: Mission 3 - completed the "Throwing SI:7 Off the Trail: Azsuna" mission
-		q(44619),	-- Tracking Quest: Mission 4 - completed the "Throwing SI:7 Off the Trail: Highmountain" mission
-		q(44620),	-- Tracking Quest: Mission 5 - completed the "Throwing SI:7 Off the Trail: Suramar" mission
-		q(44621),	-- Tracking Quest: Mission 1 - completed the "Where In the World is Mathias?: Obvious Start" mission
-		q(44622),	-- Tracking Quest: Mission 2 - completed the "Where In the World is Mathias?: Black Rook Hold" mission
-		q(44623),	-- Tracking Quest: Mission 3 - completed the "Where In the World is Mathias?: Altar of End Times" mission
-		q(44625),	-- Tracking Quest: Mission 4 - completed the "Where In the World is Mathias?: Gates of Valor" mission
-		q(44626),	-- Tracking Quest: Mission 5 - completed the "Where In the World is Mathias?: SI:7" mission
-		q(44651),	-- Tracking Quest: 7.0 Class Hall - Rogue - Chapter 1.5 - Pacing Mission - completed the "Spy Vs Spy" mission
-		q(44652),	-- Tracking Quest: 7.0 Class Hall - Rogue - Chapter 2 - Troop B Recruiter Acquisition - completed the "Convincin' Old Yancey" mission
-		q(45447),	-- Turned In Marin's Coin - give a Noggenfogger coin to Marin Noggenfogger
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(ROGUE, bubbleDownSelf({ ["classes"] = { ROGUE } }, {
+			q(44871, { ["timeline"] = { ADDED_7_1_0 } }),	-- 7.1 World - 850 - Special - Moroes 1
+			q(44872, { ["timeline"] = { ADDED_7_1_0 } }),	-- 7.1 World - 850 - Special - Moroes 2
+			q(42061),	-- Charge Trigger Hit - triggered after leaving the citadel during the Fangs of the Devourer scenario
+			q(43634),	-- Looted Rogue Vault
+			q(50804),	-- Opened the way to the order hall for the first time during "Call of The Uncrowned" (questID 40832)
+			q(43716),	-- Rogue Vault Rare Triggered
+			q(43719),	-- Rare Item One Obtained - looted the "Suspicious Crate" toy (itemID 139587)
+			q(43720),	-- Rare Item Two Obtained - picking up the "Scroll of Teleport: Ravenholdt" (itemID 139590) in the Uncrowned Vault
+			q(44615),	-- Tracking Quest: Mission 1 - completed the "Throwing SI:7 Off the Trail: Dalaran" mission
+			q(44617),	-- Tracking Quest: Mission 2 - completed the "Throwing SI:7 Off the Trail: Stormheim" mission
+			q(44618),	-- Tracking Quest: Mission 3 - completed the "Throwing SI:7 Off the Trail: Azsuna" mission
+			q(44619),	-- Tracking Quest: Mission 4 - completed the "Throwing SI:7 Off the Trail: Highmountain" mission
+			q(44620),	-- Tracking Quest: Mission 5 - completed the "Throwing SI:7 Off the Trail: Suramar" mission
+			q(44621),	-- Tracking Quest: Mission 1 - completed the "Where In the World is Mathias?: Obvious Start" mission
+			q(44622),	-- Tracking Quest: Mission 2 - completed the "Where In the World is Mathias?: Black Rook Hold" mission
+			q(44623),	-- Tracking Quest: Mission 3 - completed the "Where In the World is Mathias?: Altar of End Times" mission
+			q(44625),	-- Tracking Quest: Mission 4 - completed the "Where In the World is Mathias?: Gates of Valor" mission
+			q(44626),	-- Tracking Quest: Mission 5 - completed the "Where In the World is Mathias?: SI:7" mission
+			q(44651),	-- Tracking Quest: 7.0 Class Hall - Rogue - Chapter 1.5 - Pacing Mission - completed the "Spy Vs Spy" mission
+			q(44652),	-- Tracking Quest: 7.0 Class Hall - Rogue - Chapter 2 - Troop B Recruiter Acquisition - completed the "Convincin' Old Yancey" mission
+			q(45447),	-- Turned In Marin's Coin - give a Noggenfogger coin to Marin Noggenfogger
+		})),
 	}),
-});
+})));

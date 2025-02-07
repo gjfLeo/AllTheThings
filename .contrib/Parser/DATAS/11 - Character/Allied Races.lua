@@ -1460,11 +1460,11 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 } }, {
 	n(ALLIED_RACES, {
 		q(48575),	-- Turned in "The Call for Allies" in stormwind. Possibly used to denote flag activity? Maybe an alliance/horde equivalent?
 		q(53441),	-- Turned in "The Call for Allies" in stormwind. Possibly used to denote flag activity?
 		q(53468),	-- Turned in "The Call for Allies" (49930) Orgrimmar
 		q(48432),	-- Unknown. Triggered as horde sometime after turning in "The Call for Allies" at 110 and before turning in "Hour of Reckoning." Could be phasing related?
 	}),
-}));
+})));

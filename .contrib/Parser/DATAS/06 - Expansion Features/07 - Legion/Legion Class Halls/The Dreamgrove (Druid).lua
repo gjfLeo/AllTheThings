@@ -1073,20 +1073,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(42513),	-- Ashamane's Fall - landing and approaching RPing NPCs at the start of "The Shrine of Ashamane" (questID 42428)
-		q(41885),	-- Naralex Kneel Seen - drinking the potion while next to Naralex during "In Deep Slumber" (questID 41436)
-		q(41194),	-- Remulos Tracker - entering the Emerald Dreamway for the first time
-		q(44642),	-- Tracking Quest: 7.0 Class Hall - Druid - Pacing Mission 1A - completed the "Sampling the Nightmare" mission
-		q(42360),	-- Tracking Quest: Chose Broll - part of "Defenders of the Dream" (questID 42050)
-		q(42361),	-- Tracking Quest: Chose Sylendra - part of "Defenders of the Dream" (questID 42050)
-		q(42362),	-- Tracking Quest: Chose Zen'tabra - part of "Defenders of the Dream" (questID 42050)
-		q(42363),	-- Tracking Quest: Chose Mylune - part of "Defenders of the Dream" (questID 42050)
-		q(43353),	-- Tracking Quest: Celestine of the Harvest - completed the "Gathering the Dreamweavers: Celestine of the Harvest" mission
-		q(43354),	-- Tracking Quest: Thisalee Crow - completed the "Gathering the Dreamweavers: Thisalee Crow" mission
-		q(43355),	-- Tracking Quest: Matoclaw - completed the "Gathering the Dreamweavers: Matoclaw" mission
-		q(43356),	-- Tracking Quest: Talza - completed the "Gathering the Dreamweavers: Talza" mission
-		q(43357),	-- Tracking Quest: Graham Silverclaw - completed the "Gathering the Dreamweavers: Graham Silverclaw" mission
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(DRUID, bubbleDownSelf({ ["classes"] = { DRUID } }, {
+			q(42513),	-- Ashamane's Fall - landing and approaching RPing NPCs at the start of "The Shrine of Ashamane" (questID 42428)
+			q(41885),	-- Naralex Kneel Seen - drinking the potion while next to Naralex during "In Deep Slumber" (questID 41436)
+			q(41194),	-- Remulos Tracker - entering the Emerald Dreamway for the first time
+			q(44642),	-- Tracking Quest: 7.0 Class Hall - Druid - Pacing Mission 1A - completed the "Sampling the Nightmare" mission
+			q(42360),	-- Tracking Quest: Chose Broll - part of "Defenders of the Dream" (questID 42050)
+			q(42361),	-- Tracking Quest: Chose Sylendra - part of "Defenders of the Dream" (questID 42050)
+			q(42362),	-- Tracking Quest: Chose Zen'tabra - part of "Defenders of the Dream" (questID 42050)
+			q(42363),	-- Tracking Quest: Chose Mylune - part of "Defenders of the Dream" (questID 42050)
+			q(43353),	-- Tracking Quest: Celestine of the Harvest - completed the "Gathering the Dreamweavers: Celestine of the Harvest" mission
+			q(43354),	-- Tracking Quest: Thisalee Crow - completed the "Gathering the Dreamweavers: Thisalee Crow" mission
+			q(43355),	-- Tracking Quest: Matoclaw - completed the "Gathering the Dreamweavers: Matoclaw" mission
+			q(43356),	-- Tracking Quest: Talza - completed the "Gathering the Dreamweavers: Talza" mission
+			q(43357),	-- Tracking Quest: Graham Silverclaw - completed the "Gathering the Dreamweavers: Graham Silverclaw" mission
+		})),
 	}),
-});
+})));

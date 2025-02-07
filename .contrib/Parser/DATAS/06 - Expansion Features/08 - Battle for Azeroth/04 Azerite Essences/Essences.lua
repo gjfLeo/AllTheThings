@@ -85,7 +85,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["provider"] = { "i", 168617 },	-- Fluctuating Worldvein
 					}),
 				}),
-				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 } }, {
+				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0, REMOVED_9_0_1 } }, {
 					elitepvp(az(32, 4, {	-- Conflict and Strife (Rank 4)
 						["provider"] = { "i", 169899 },	-- Polished Skull Trophy
 					})),
@@ -179,7 +179,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["provider"] = { "i", 168865 },	-- Polazired Azerite Slivershards
 					}),
 				}),
-				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 } }, {
+				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0, REMOVED_9_0_1 } }, {
 					az(23, 4, {	-- Blood of the Enemy (Rank 4)
 						["provider"] = { "i", 168814 },	-- Animated Blood of the Decimated
 					}),
@@ -275,7 +275,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["provider"] = { "i", 168943 },	-- Grid of Bursting Vitality
 					}),
 				}),
-				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 } }, {
+				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0, REMOVED_9_0_1 } }, {
 					az(18, 4, {	-- Artifice of Time (Rank 4)
 						["provider"] = { "i", 168923 },	-- Unburdened Azerite Timequartz
 					}),
@@ -371,7 +371,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["provider"] = { "i", 168575 },	-- Branch of Rejuvenating Rings
 					}),
 				}),
-				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 } }, {
+				n(RANK_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0, REMOVED_9_0_1 } }, {
 					az(25, 4, {	-- Aegis of the Deep (Rank 4)
 						["provider"] = { "i", 168840 },	-- Resplendent Bastion of the Depths
 					}),
@@ -399,7 +399,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	n(AZERITE_ESSENCES, {
 		q(56951),	-- triggered when making r2 of the Eternal Palace HoA essence
 		q(56944),	-- triggered when making r2 of the Eternal Palace HoA essence
@@ -412,4 +412,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
 		q(62689),	-- R2 Magnifying Lens of the Focusing
 		q(57034),	-- R2 Replicating Seed of Abundance
 	}),
-}));
+})));

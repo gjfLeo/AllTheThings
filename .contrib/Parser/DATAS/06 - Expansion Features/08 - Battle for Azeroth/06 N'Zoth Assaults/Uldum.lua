@@ -1715,10 +1715,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {
 	m(NZOTH_ASSAULT_ULDUM, {	-- Uldum (under assault)
 		n(NZOTH_ASSAULTS, {
 			q(59061),	-- hatching Shadowbarb drone after the first phase
 		}),
 	}),
-}));
+})));

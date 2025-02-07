@@ -891,26 +891,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(41154),	-- Attacking Revil Kost During Artifact Quest
-		q(42205),	-- Entrance Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)
-		q(40514),	-- Revil convinced
-		q(42203),	-- Ritual Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)
-		q(42084),	-- Selecting a Sixth: Kira
-		q(42085),	-- Selecting a Sixth: Lulubelle
-		q(44655),	-- Tracking Quest: 7.0 Class Hall - Warlock - Pacing Mission 1 - completed the "Searching the Archives" mission
-		q(44656),	-- Tracking Quest: 7.0 Class Hall - Warlock - Pacing Mission 2a
-		q(44657),	-- Tracking Quest: 7.0 Class Hall - Warlock - Tutorial 1 - Information at Any Cost - completed the "Information at any Cost" mission
-		q(44628),	-- Tracking Quest: Empowering the Soul 1 - completed the "The Harpies' Curse" mission
-		q(44629),	-- Tracking Quest: Empowering the Soul 2 - completed the "Bradensbrook Under Attack" mission
-		q(44630),	-- Tracking Quest: Empowering the Soul 3 - completed the "Cleansing the Vale" mission
-		q(44631),	-- Tracking Quest: Empowering the Soul 4 - completed the "Pesky Pest Problem" mission
-		q(44632),	-- Tracking Quest: Empowering the Soul 5 - completed the "Hunting the Hunters" mission
-		q(44438),	-- Tracking Quest: New Blood 1 - completed the "One Who's Worthy" mission
-		q(44439),	-- Tracking Quest: New Blood 2 - completed the "One Who's Worthy" mission
-		q(44440),	-- Tracking Quest: New Blood 3 - completed the "One Who's Worthy" mission
-		q(44441),	-- Tracking Quest: New Blood 4 - completed the "One Who's Worthy" mission
-		q(44442),	-- Tracking Quest: New Blood 5 - completed the "One Who's Worthy" mission
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(WARLOCK, bubbleDownSelf({ ["classes"] = { WARLOCK } }, {
+			q(41154),	-- Attacking Revil Kost During Artifact Quest
+			q(42205),	-- Entrance Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)
+			q(40514),	-- Revil convinced
+			q(42203),	-- Ritual Bit -  using Portal to Scenario during "Dark Whispers" (questID 42125)
+			q(42084),	-- Selecting a Sixth: Kira
+			q(42085),	-- Selecting a Sixth: Lulubelle
+			q(44655),	-- Tracking Quest: 7.0 Class Hall - Warlock - Pacing Mission 1 - completed the "Searching the Archives" mission
+			q(44656),	-- Tracking Quest: 7.0 Class Hall - Warlock - Pacing Mission 2a
+			q(44657),	-- Tracking Quest: 7.0 Class Hall - Warlock - Tutorial 1 - Information at Any Cost - completed the "Information at any Cost" mission
+			q(44628),	-- Tracking Quest: Empowering the Soul 1 - completed the "The Harpies' Curse" mission
+			q(44629),	-- Tracking Quest: Empowering the Soul 2 - completed the "Bradensbrook Under Attack" mission
+			q(44630),	-- Tracking Quest: Empowering the Soul 3 - completed the "Cleansing the Vale" mission
+			q(44631),	-- Tracking Quest: Empowering the Soul 4 - completed the "Pesky Pest Problem" mission
+			q(44632),	-- Tracking Quest: Empowering the Soul 5 - completed the "Hunting the Hunters" mission
+			q(44438),	-- Tracking Quest: New Blood 1 - completed the "One Who's Worthy" mission
+			q(44439),	-- Tracking Quest: New Blood 2 - completed the "One Who's Worthy" mission
+			q(44440),	-- Tracking Quest: New Blood 3 - completed the "One Who's Worthy" mission
+			q(44441),	-- Tracking Quest: New Blood 4 - completed the "One Who's Worthy" mission
+			q(44442),	-- Tracking Quest: New Blood 5 - completed the "One Who's Worthy" mission
+		})),
 	}),
-});
+})));

@@ -974,22 +974,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 		})),
 	}),
 }));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(43366),	-- Talked With Mimiron
-		q(43158),	-- Tracking Quest - conversation flag for a hidden romance quest
-		q(43159),	-- Tracking Quest - triggered after Death Hunter Moorgoth / Dark Ranger Velonara stories
-		q(44702),	-- Tracking Quest - triggered after Death Hunter Moorgoth / Dark Ranger Velonara stories
-		q(44643),	-- Tracking Quest: 7.0 Class Hall - Hunter - Pacing Mission 1 (JAP)
-		q(44644),	-- Tracking Quest: 7.0 Class Hall - Hunter - Pacing Mission 3a (JAP)
-		q(44333),	-- Tracking Quest: The Missing Vessel 1 - completed the "The Missing Vessel: Highmountain" mission
-		q(44334),	-- Tracking Quest: The Missing Vessel 2 - completed the "The Missing Vessel: Stormheim" mission
-		q(44335),	-- Tracking Quest: The Missing Vessel 3 - completed the "The Missing Vessel: Val'sharah" mission
-		q(44336),	-- Tracking Quest: The Missing Vessel 4 - completed the "The Missing Vessel: Azsuna" mission
-		q(44391),	-- Tracking Quest: Unseen Protection 1 - completed the "Unseen Protection: Defending Dalaran" mission
-		q(44392),	-- Tracking Quest: Unseen Protection 2 - completed the "Unseen Protection: The Mother of Imps" mission
-		q(44393),	-- Tracking Quest: Unseen Protection 3 - completed the "Unseen Protection: Infernal Waves" mission
-		q(44394),	-- Tracking Quest: Unseen Protection 4 - completed the "Unseen Protection: Coastal Invasion" mission
-		q(44395),	-- Tracking Quest: Unseen Protection 5 - completed the "Unseen Protection: Drogbar Delicacy" mission
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(HUNTER, bubbleDownSelf({ ["classes"] = { HUNTER } }, {
+			q(43366),	-- Talked With Mimiron
+			q(43158),	-- Tracking Quest - conversation flag for a hidden romance quest
+			q(43159),	-- Tracking Quest - triggered after Death Hunter Moorgoth / Dark Ranger Velonara stories
+			q(44702),	-- Tracking Quest - triggered after Death Hunter Moorgoth / Dark Ranger Velonara stories
+			q(44643),	-- Tracking Quest: 7.0 Class Hall - Hunter - Pacing Mission 1 (JAP)
+			q(44644),	-- Tracking Quest: 7.0 Class Hall - Hunter - Pacing Mission 3a (JAP)
+			q(44333),	-- Tracking Quest: The Missing Vessel 1 - completed the "The Missing Vessel: Highmountain" mission
+			q(44334),	-- Tracking Quest: The Missing Vessel 2 - completed the "The Missing Vessel: Stormheim" mission
+			q(44335),	-- Tracking Quest: The Missing Vessel 3 - completed the "The Missing Vessel: Val'sharah" mission
+			q(44336),	-- Tracking Quest: The Missing Vessel 4 - completed the "The Missing Vessel: Azsuna" mission
+			q(44391),	-- Tracking Quest: Unseen Protection 1 - completed the "Unseen Protection: Defending Dalaran" mission
+			q(44392),	-- Tracking Quest: Unseen Protection 2 - completed the "Unseen Protection: The Mother of Imps" mission
+			q(44393),	-- Tracking Quest: Unseen Protection 3 - completed the "Unseen Protection: Infernal Waves" mission
+			q(44394),	-- Tracking Quest: Unseen Protection 4 - completed the "Unseen Protection: Coastal Invasion" mission
+			q(44395),	-- Tracking Quest: Unseen Protection 5 - completed the "Unseen Protection: Drogbar Delicacy" mission
+		})),
 	}),
-});
+})));

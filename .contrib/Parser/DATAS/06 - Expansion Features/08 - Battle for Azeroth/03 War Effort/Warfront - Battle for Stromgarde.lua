@@ -1639,12 +1639,10 @@ root(ROOTS.ExpansionFeatures,
 	})
 );
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.BFA, {
-		n(WAR_EFFORT, {
-			n(WARFRONT_BATTLE_FOR_STROMGARDE, {
-				q(51342, {["repeatable"]=true}),	-- completion of Normal warfront
-			}),
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	n(WAR_EFFORT, {
+		n(WARFRONT_BATTLE_FOR_STROMGARDE, {
+			q(51342, {["repeatable"]=true}),	-- completion of Normal warfront
 		}),
 	}),
-});
+})));

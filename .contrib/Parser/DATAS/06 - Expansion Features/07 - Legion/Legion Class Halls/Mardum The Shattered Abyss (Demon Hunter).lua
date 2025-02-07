@@ -1023,26 +1023,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(43467),	-- Boarding the Fel Hammer - triggers when entering Mardum for the first time
-		q(41129),	-- Demon Hunter Altruis - wrong answer chosen at the violet citadel during "By Any Means"
-		q(41045),	-- Matron Moves - triggers after walking into the Fel Hammer
-		q(44638),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Chapter 1.5 - Pacing Mission — triggers when "Additional Accoutrements" (questID 42682) is completed
-		q(44639),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Chapter 2 - Story Mission
-		q(44640),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Tutorial 1 - Spread the Word - Altruis
-		q(44641),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Tutorial 1 - Spread the Word - Kayn
-		q(44597),	-- Tracking Quest: Working with the Wardens 1 - completed the "Working With the Wardens: Isle of the Watchers" mission
-		q(44598),	-- Tracking Quest: Working with the Wardens 2 - completed the "Working With the Wardens: Skul'vrax" mission
-		q(44599),	-- Tracking Quest: Working with the Wardens 3 - completed the "Working With the Wardens: Mellok, Son of Torok" mission
-		q(44600),	-- Tracking Quest: Working with the Wardens 4 - completed the "Working With the Wardens: Fathnyr" mission
-		q(44601),	-- Tracking Quest: Working with the Wardens 5 - completed the "Working With the Wardens: Mal'Dreth the Corruptor" mission
-		q(44602),	-- Tracking Quest: Preparations for Invasion 1  - completed the "Preparations for Invasion: Scouting their Hold" mission
-		q(44604),	-- Tracking Quest: Preparations for Invasion 2 - completed the "Preparations for Invasion: Weapon Improvements" mission
-		q(44605),	-- Tracking Quest: Preparations for Invasion 3 - completed the "Preparations for Invasion: Snatch and Grab" mission
-		q(44606),	-- Tracking Quest: Preparations for Invasion 4 - completed the "Preparations for Invasion: Ship-Shape" mission
-		q(44607),	-- Tracking Quest: Preparations for Invasion 5 - completed the "Preparations for Invasion: Where Are the Felsouls?!" mission
-		q(45117),	-- TRACKING - triggered when returning to the Fel Hammer while on "Defense of the Fel Hammer" (questID 45339)
-		q(49238),	-- Triggers immediately after completing the "Things Gaardoun Needs" mission
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(DEMONHUNTER, bubbleDownSelf({ ["classes"] = { DEMONHUNTER } }, {
+			q(43467),	-- Boarding the Fel Hammer - triggers when entering Mardum for the first time
+			q(41129),	-- Demon Hunter Altruis - wrong answer chosen at the violet citadel during "By Any Means"
+			q(41045),	-- Matron Moves - triggers after walking into the Fel Hammer
+			q(44638),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Chapter 1.5 - Pacing Mission — triggers when "Additional Accoutrements" (questID 42682) is completed
+			q(44639),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Chapter 2 - Story Mission
+			q(44640),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Tutorial 1 - Spread the Word - Altruis
+			q(44641),	-- Tracking Quest: 7.0 Class Hall - Demon Hunter - Tutorial 1 - Spread the Word - Kayn
+			q(44597),	-- Tracking Quest: Working with the Wardens 1 - completed the "Working With the Wardens: Isle of the Watchers" mission
+			q(44598),	-- Tracking Quest: Working with the Wardens 2 - completed the "Working With the Wardens: Skul'vrax" mission
+			q(44599),	-- Tracking Quest: Working with the Wardens 3 - completed the "Working With the Wardens: Mellok, Son of Torok" mission
+			q(44600),	-- Tracking Quest: Working with the Wardens 4 - completed the "Working With the Wardens: Fathnyr" mission
+			q(44601),	-- Tracking Quest: Working with the Wardens 5 - completed the "Working With the Wardens: Mal'Dreth the Corruptor" mission
+			q(44602),	-- Tracking Quest: Preparations for Invasion 1  - completed the "Preparations for Invasion: Scouting their Hold" mission
+			q(44604),	-- Tracking Quest: Preparations for Invasion 2 - completed the "Preparations for Invasion: Weapon Improvements" mission
+			q(44605),	-- Tracking Quest: Preparations for Invasion 3 - completed the "Preparations for Invasion: Snatch and Grab" mission
+			q(44606),	-- Tracking Quest: Preparations for Invasion 4 - completed the "Preparations for Invasion: Ship-Shape" mission
+			q(44607),	-- Tracking Quest: Preparations for Invasion 5 - completed the "Preparations for Invasion: Where Are the Felsouls?!" mission
+			q(45117, { ["timeline"] = { ADDED_7_2_0 } }),	-- TRACKING - triggered when returning to the Fel Hammer while on "Defense of the Fel Hammer" (questID 45339)
+			q(49238),	-- Triggers immediately after completing the "Things Gaardoun Needs" mission
+		})),
 	}),
-});
+})));

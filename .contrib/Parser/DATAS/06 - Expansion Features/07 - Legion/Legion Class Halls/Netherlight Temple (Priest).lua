@@ -733,22 +733,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(42072),	-- Boros Tracker - triggers during "Out of the Darkness" (questID 41967)
-		q(44059),	-- Legion Attacks
-		q(43507),	-- Looted Priest Altar
-		q(42328),	-- Tracking Quest: Lumenstone 1 - completed the "Lumenstone: Faronaar" mission
-		q(42329),	-- Tracking Quest: Lumenstone 2 - completed the "Lumenstone: Suramar City" mission
-		q(42330),	-- Tracking Quest: Lumenstone 3 - completed the "Lumenstone: Stormheim" mission
-		q(42331),	-- Tracking Quest: Lumenstone 4 - completed the "Lumenstone: Broken Shore" mission
-		q(42332),	-- Tracking Quest: Lumenstone 5 - completed the "Lumenstone: Vashj'ir" mission
-		q(44608),	-- Tracking Quest: Holy Ground 1 - completed the "Holy Ground: Light's Hope Chapel" mission
-		q(44609),	-- Tracking Quest: Holy Ground 2 - completed the "Holy Ground: The Exodar" mission
-		q(44610),	-- Tracking Quest: Holy Ground 3 - completed the "Holy Ground: Uther's Tomb" mission
-		q(44611),	-- Tracking Quest: Holy Ground 4 - completed the "Holy Ground: Auchindoun" mission
-		q(44612),	-- Tracking Quest: Holy Ground 5 - completed the "Holy Ground: The Sunwell" mission
-		q(44649),	-- Tracking Quest: 7.0 Class Hall - Priest - One-Time Quest Mission - Chapter 3 (JAP) - completed the "Infiltrating Our Enemies" mission
-		q(44650),	-- Tracking Quest: 7.0 Class Hall - Priest - Pacing Mission 1 (JAP) - completed the "Relieving the Front Lines" mission
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(PRIEST, bubbleDownSelf({ ["classes"] = { PRIEST } }, {
+			q(42072),	-- Boros Tracker - triggers during "Out of the Darkness" (questID 41967)
+			q(44059),	-- Legion Attacks
+			q(43507),	-- Looted Priest Altar
+			q(42328),	-- Tracking Quest: Lumenstone 1 - completed the "Lumenstone: Faronaar" mission
+			q(42329),	-- Tracking Quest: Lumenstone 2 - completed the "Lumenstone: Suramar City" mission
+			q(42330),	-- Tracking Quest: Lumenstone 3 - completed the "Lumenstone: Stormheim" mission
+			q(42331),	-- Tracking Quest: Lumenstone 4 - completed the "Lumenstone: Broken Shore" mission
+			q(42332),	-- Tracking Quest: Lumenstone 5 - completed the "Lumenstone: Vashj'ir" mission
+			q(44608),	-- Tracking Quest: Holy Ground 1 - completed the "Holy Ground: Light's Hope Chapel" mission
+			q(44609),	-- Tracking Quest: Holy Ground 2 - completed the "Holy Ground: The Exodar" mission
+			q(44610),	-- Tracking Quest: Holy Ground 3 - completed the "Holy Ground: Uther's Tomb" mission
+			q(44611),	-- Tracking Quest: Holy Ground 4 - completed the "Holy Ground: Auchindoun" mission
+			q(44612),	-- Tracking Quest: Holy Ground 5 - completed the "Holy Ground: The Sunwell" mission
+			q(44649),	-- Tracking Quest: 7.0 Class Hall - Priest - One-Time Quest Mission - Chapter 3 (JAP) - completed the "Infiltrating Our Enemies" mission
+			q(44650),	-- Tracking Quest: 7.0 Class Hall - Priest - Pacing Mission 1 (JAP) - completed the "Relieving the Front Lines" mission
+		})),
 	}),
-});
+})));

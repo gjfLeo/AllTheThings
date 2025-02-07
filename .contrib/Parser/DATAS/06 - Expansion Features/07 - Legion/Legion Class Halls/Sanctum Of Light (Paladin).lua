@@ -857,26 +857,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(43578),	-- Looted Paladin Daily Mount
-		q(46767),	-- Maximillian 1 Week Cooldown - triggered after turning in "Champion: Nerus Moonfang" (questID 46045)
-		q(43688),	-- Shard Delivered - unlocking the Walking in the Shadows quest
-		q(44426),	-- Talking Pair Flavor Heard - triggered after Silver Hand Protector said "All the world's paladins united under one..." in the paladin order hall
-		q(44458),	-- Tracking Quest: Blood of Our Enemy 1 - completed the "Blood of Our Enemy: Stormheim" mission
-		q(44459),	-- Tracking Quest: Blood of Our Enemy 2 - completed the "Blood of Our Enemy: Val'sharah" mission
-		q(44460),	-- Tracking Quest: Blood of Our Enemy 3 - completed the "Blood of Our Enemy: Highmountain" mission
-		q(44461),	-- Tracking Quest: Blood of Our Enemy 4 - completed the "Blood of Our Enemy: Azsuna" mission
-		q(44462),	-- Tracking Quest: Blood of Our Enemy 5 - completed the "Blood of Our Enemy: Suramar" mission
-		q(42136),	-- Tracking Quest: Chose Strategy A - choice for "The Scion's Legacy" (questID 42919)
-		q(42960),	-- Tracking Quest: Chose Strategy B - choice for "The Scion's Legacy" (questID 42919)
-		q(42135),	-- Tracking Quest: Chose Strategy C - choice for "The Scion's Legacy" (questID 42919)
-		q(42961),	-- Tracking Quest: Chose Strategy D - choice for "The Scion's Legacy" (questID 42919)
-		q(43696),	-- Tracking Quest: Lumenstone 1 - completed the "Lumenstone: Faronaar" mission
-		q(42980),	-- Tracking Quest: Lumenstone 2 - completed the "Lumenstone: Suramar City" mission
-		q(42352),	-- Tracking Quest: Lumenstone 3 - completed the "Lumenstone: Stormheim" mission
-		q(42353),	-- Tracking Quest: Lumenstone 4 - completed the "Lumenstone: Broken Shore" mission
-		q(42354),	-- Tracking Quest: Lumenstone 5 - completed the "Lumenstone: Val'sharah" mission
-		q(38229),	-- Triggered after recruiting Lord Maxwell Tyrosus for paladin order hall
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(PALADIN, bubbleDownSelf({ ["classes"] = { PALADIN } }, {
+			q(43578),	-- Looted Paladin Daily Mount
+			q(46767),	-- Maximillian 1 Week Cooldown - triggered after turning in "Champion: Nerus Moonfang" (questID 46045)
+			q(43688),	-- Shard Delivered - unlocking the Walking in the Shadows quest
+			q(44426),	-- Talking Pair Flavor Heard - triggered after Silver Hand Protector said "All the world's paladins united under one..." in the paladin order hall
+			q(44458),	-- Tracking Quest: Blood of Our Enemy 1 - completed the "Blood of Our Enemy: Stormheim" mission
+			q(44459),	-- Tracking Quest: Blood of Our Enemy 2 - completed the "Blood of Our Enemy: Val'sharah" mission
+			q(44460),	-- Tracking Quest: Blood of Our Enemy 3 - completed the "Blood of Our Enemy: Highmountain" mission
+			q(44461),	-- Tracking Quest: Blood of Our Enemy 4 - completed the "Blood of Our Enemy: Azsuna" mission
+			q(44462),	-- Tracking Quest: Blood of Our Enemy 5 - completed the "Blood of Our Enemy: Suramar" mission
+			q(42136),	-- Tracking Quest: Chose Strategy A - choice for "The Scion's Legacy" (questID 42919)
+			q(42960),	-- Tracking Quest: Chose Strategy B - choice for "The Scion's Legacy" (questID 42919)
+			q(42135),	-- Tracking Quest: Chose Strategy C - choice for "The Scion's Legacy" (questID 42919)
+			q(42961),	-- Tracking Quest: Chose Strategy D - choice for "The Scion's Legacy" (questID 42919)
+			q(43696),	-- Tracking Quest: Lumenstone 1 - completed the "Lumenstone: Faronaar" mission
+			q(42980),	-- Tracking Quest: Lumenstone 2 - completed the "Lumenstone: Suramar City" mission
+			q(42352),	-- Tracking Quest: Lumenstone 3 - completed the "Lumenstone: Stormheim" mission
+			q(42353),	-- Tracking Quest: Lumenstone 4 - completed the "Lumenstone: Broken Shore" mission
+			q(42354),	-- Tracking Quest: Lumenstone 5 - completed the "Lumenstone: Val'sharah" mission
+			q(38229),	-- Triggered after recruiting Lord Maxwell Tyrosus for paladin order hall
+		})),
 	}),
-});
+})));

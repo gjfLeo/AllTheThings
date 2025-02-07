@@ -887,20 +887,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 		})),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
-		q(39174),	-- Guiding Light Tutorialized - triggers when you get your first artifact weapon and go back to Skyhold
-		q(44060),	-- Azsuna Teleport Learned - in Azurewing Repose
-		q(41359),	-- Highmountain Teleport Learned - in Thunder Totem
-		q(41360),	-- Stormheim Teleport Learned - in Valdisdall
-		q(44062),	-- Suramar Teleport Learned - in Meredil
-		q(44061),	-- Val'sharah Teleport Learned - in Loriathil
-		q(44658),	-- Tracking Quest: 7.0 Class Hall - Warrior - Ch1 Trail - completed the "On the Trail of the Great Worm" mission
-		q(44551),	-- Tracking Quest: Capturing the Gateway 1 - completed the "Investigate Felsoul Hold" mission
-		q(44552),	-- Tracking Quest: Capturing the Gateway 2 - completed the "Preparing Our Arrival" mission
-		q(44553),	-- Tracking Quest: Capturing the Gateway 3 - completed the "Last Chance" mission
-		q(44633),	-- Tracking Quest: Preparing for War 1 - completed the "Aiding the Valkyra" mission
-		q(44634),	-- Tracking Quest: Preparing for War 2 - completed the "Lost at Sea" mission
-		q(44635),	-- Tracking Quest: Preparing for War 3 - completed the "Enslaved by Sea Giants" mission
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	n(CLASS_HALL, {
+		cl(WARRIOR, bubbleDownSelf({ ["classes"] = { WARRIOR } }, {
+			q(39174),	-- Guiding Light Tutorialized - triggers when you get your first artifact weapon and go back to Skyhold
+			q(44060),	-- Azsuna Teleport Learned - in Azurewing Repose
+			q(41359),	-- Highmountain Teleport Learned - in Thunder Totem
+			q(41360),	-- Stormheim Teleport Learned - in Valdisdall
+			q(44062),	-- Suramar Teleport Learned - in Meredil
+			q(44061),	-- Val'sharah Teleport Learned - in Loriathil
+			q(44658),	-- Tracking Quest: 7.0 Class Hall - Warrior - Ch1 Trail - completed the "On the Trail of the Great Worm" mission
+			q(44551),	-- Tracking Quest: Capturing the Gateway 1 - completed the "Investigate Felsoul Hold" mission
+			q(44552),	-- Tracking Quest: Capturing the Gateway 2 - completed the "Preparing Our Arrival" mission
+			q(44553),	-- Tracking Quest: Capturing the Gateway 3 - completed the "Last Chance" mission
+			q(44633),	-- Tracking Quest: Preparing for War 1 - completed the "Aiding the Valkyra" mission
+			q(44634),	-- Tracking Quest: Preparing for War 2 - completed the "Lost at Sea" mission
+			q(44635),	-- Tracking Quest: Preparing for War 3 - completed the "Enslaved by Sea Giants" mission
+		})),
 	}),
-});
+})));
