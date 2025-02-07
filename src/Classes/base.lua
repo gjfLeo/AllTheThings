@@ -682,12 +682,15 @@ end
 app.ExtendClass = function(baseClassName, className, classKey, fields, ...)
 	local baseClass = classDefinitions[baseClassName];
 	if baseClass then
-		fields = CloneDictionary(baseClass, fields)
-		fields.__type = nil;
-		fields.variants = nil
-		fields.key = nil;
-		fields.conditionals = nil;
-		fields.simplemeta = nil;
+		-- clone the base fields and make sure to remove fields we don't want to inherit in the extended classes
+		local basefields = CloneDictionary(baseClass)
+		basefields.__type = nil;
+		basefields.variants = nil
+		basefields.key = nil;
+		basefields.conditionals = nil;
+		basefields.simplemeta = nil;
+		-- then clone those into the extended class
+		fields = CloneDictionary(basefields, fields)
 	else
 		ClassError("Could not find specified base class:", baseClassName);
 	end
