@@ -3423,13 +3423,39 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			n(QUESTS, {
 				applyclassicphase(SOD_PHASE_SEVEN, q(88745, {	-- Shadows of Doom
 					["qg"] = 16361,	-- Commander Thomas Helleran <The Argent Dawn>
+					["coord"] = { 80.8, 60.2, EASTERN_PLAGUELANDS },
 					["lvl"] = 50,
+					["groups"] = {
+						objective(1, {	-- 0/1 Shadow of Doom
+							["provider"] = { "n", 16143 },	-- Shadow of Doom
+						}),
+					},
 				})),
 				applyclassicphase(SOD_PHASE_SEVEN, q(87361, {	-- Laid to Rest
-					["provider"] = { "i", 236750},	-- Heart of Doom
+					["provider"] = { "i", 236750},		-- Heart of Doom
 					["sourceQuest"] = 88745,	-- Shadows of Doom
 					["lvl"] = 60,
+					["groups"] = {
+						objective(1, {
+							["provider"] = { "n", 238376 },		-- Brother Luctus <Soul Seer>
+							["coord"] = { 80.6, 65.4 , EASTERN_PLAGUELANDS },
+						}),
+					},
 				})),
+			}),
+			n(238376, {		-- Brother Luctus <Soul Seer>
+				["coord"] = { 80.6, 65.4 , EASTERN_PLAGUELANDS },
+				["groups"] = {
+					i(236589, {		-- Soul of the Gentle Paw
+						["cost"] = { { "i", 12844, 5 } },	-- Argent Dawn Valor Token
+					}),
+					i(236590, {		-- Soul of the Ferocious
+						["cost"] = { { "i", 12844, 5 } },	-- Argent Dawn Valor Token
+					}),
+					i(236591, {		-- Soul of the Shifter
+						["cost"] = { { "i", 12844, 5 } },	-- Argent Dawn Valor Token
+					}),
+				},
 			}),
 		},
 	}),
