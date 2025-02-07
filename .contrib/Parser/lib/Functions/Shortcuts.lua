@@ -1611,6 +1611,7 @@ end
 -- NOTE: The base Type must support: GlobalVariants.WithAutoName as a Class Variant for the 'autoname' field to be recognized in the addon to generate a 'name'
 -- ref. Classes/Quest.lua
 name = function(type, id, t)
+	if not type or not id then return t end
 	t = t or {}
 	if t.autoname then
 		error("Cannot use name() when the contained data includes 'autoname' field! "..type..":"..id)
