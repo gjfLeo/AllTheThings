@@ -158,12 +158,14 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			--["sourceQuests"] = { xx },	-- probably some hqt or something like from adventure mode (if they didn't change requirement?)
 			["provider"] = { "n", 221839 },	-- Dawn
 			["coord"] = { 89.4, 48.0, 2322 },
+			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 		}),
 		q(79201, {	-- The Analysis Interface (non-Hunter)
 			["sourceQuests"] = { 79200 },	-- Who am I?
 			["provider"] = { "n", 221891 },	-- Foreman Uzjax
 			["coord"] = { 62.6, 49.2, 2322 },	-- Hall of Awakening
 			["classes"] = exclude({ HUNTER }, EARTHEN_CLASSES),
+			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 			["g"] = {
 				-- bag
 				i(222982),	-- Earthen Satchel
@@ -235,6 +237,7 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			["provider"] = { "n", 221891 },	-- Foreman Uzjax
 			["coord"] = { 62.6, 49.2, 2322 },	-- Hall of Awakening
 			["classes"] = HUNTER,
+			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 			["g"] = {
 				-- bag
 				i(222982),	-- Earthen Satchel
@@ -257,16 +260,19 @@ root(ROOTS.Character, n(ALLIED_RACES, {
 			["sourceQuestNumRequired"] = 1,
 			["provider"] = { "n", 221888 },	-- Dawn
 			["coord"] = { 47.7, 54.7, 2322 },
+			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 		}),
 		q(79203, {	-- Authorization: Negated
 			["sourceQuests"] = { 79202 },	-- Rock Beats Rock
 			["provider"] = { "n", 221898 },	-- Speaker Kuldas
 			["coord"] = { 30.9, 48.5, 2322 },
+			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 		}),
 		q(79204, {	-- Whoever You Want to Be
 			["sourceQuests"] = { 79203 },	-- Authorization: Negated
 			["provider"] = { "n", 221900 },	-- Speaker Kuldas
 			["coord"] = { 16.3, 48.1, 2322 },
+			["races"] = { EARTHEN_ALLIANCE, EARTHEN_HORDE },
 			["g"] = {
 				i(224166),	-- Awakened Tabard
 			},
