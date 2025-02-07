@@ -1010,6 +1010,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 152522 },	-- Gazlowe
 				["coord"] = { 53.0, 43.2, DAZARALOR },
 				["races"] = HORDE_ONLY,
+				["sourceQuest"] = 57024,	-- Rumors of Mechagon
 			}),
 			q(56379, {	-- The Missing Crew
 				["provider"] = { "n", 135690 },	-- Dread-Admiral Tattersail
