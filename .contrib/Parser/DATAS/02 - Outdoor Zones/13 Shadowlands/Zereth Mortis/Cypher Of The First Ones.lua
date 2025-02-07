@@ -8,7 +8,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			n(ACHIEVEMENTS, {
 				ach(15542),	-- Apocopocolypse Now
 				ach(15402, {	-- Cyphers of the First Ones
-					recipe(365040),	-- Pale Regal Cervid
+					recipe(365040, {	-- Pale Regal Cervid
+						["timeline"] = { REMOVED_11_0_2 },	-- No longer auto-receiving the recipe??
+					}),
+					i(189455, {	-- Schematic: Pale Regal Cervid
+						["timeline"] = { ADDED_11_0_2 },	-- Added few years later as a fix for not auto-receiving the recipe
+					}),
 					crit(1, {	-- All Metrial Cyphers
 						["_noautomation"] = true,
 					}),
