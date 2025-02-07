@@ -256,9 +256,10 @@ namespace ATT
                     if (Convert.ToInt64(objRef) < 0) fields.Remove("f");
                 }
 
-                // Keep the name field for quests, so long as they don't have an item.
+                // Keep the name field for quest types, so long as they don't have an item.
                 // They are generally manually assigned in the database.
-                if (!data.ContainsKey("questID") || data.ContainsKey("itemID"))
+                if (!(data.ContainsKey("questID") || data.ContainsKey("vignetteID") || data.ContainsKey("characterUnlockQuestID"))
+                    || data.ContainsKey("itemID"))
                 {
                     fields.Remove("name");
                 }
