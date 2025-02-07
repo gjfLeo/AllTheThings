@@ -1116,7 +1116,6 @@ heir = function(id, t)									-- Create an HEIRLOOM Object(NOTE: You should onl
 	return struct("itemID", id, t);
 end
 hqt = function(id, t)									-- Create a HQT (Hidden Quest Tracker) Object
-	-- currently this is simply a 'Quest' but will soon be an actual new Type to track
 	t = q(id, t);
 	t.type = "hqt"
 	return t
@@ -1209,9 +1208,10 @@ mission = function(id, t)								-- Create an MISSION Object
 	return struct("missionID", id, t);
 end
 mi = mission											-- Create a MISSION Object (Alternative)
-molemachine = function(questID, name, t)				-- Create a MOLE MACHINE Quest Object
+molemachine = function(questID, explorationID, t)		-- Create a MOLE MACHINE Quest Object
 	if questID then
-		t = struct("questID", questID, t);
+		t = q(questID, name(HEADERS.Exploration, explorationID, t))
+		t.type = "characterUnlockQuestID"
 		if t and not t.provider then
 			t.provider = { "n", 143925 };	-- Dark Iron Mole Machine
 		end
@@ -1224,13 +1224,6 @@ molemachine = function(questID, name, t)				-- Create a MOLE MACHINE Quest Objec
 		end
 		if not t.timeline then
 			t._defaulttimeline = { ADDED_8_0_1 };
-		end
-		-- TODO: Do we really need the location as a description if its in each zone?
-		-- CRIEVE NOTE: Perhaps make an areaID-based class that can do header things?
-		-- CRIEVE NOTE2: ... Hell yeah, when I get time I'm converting those names to areaID!
-		if name then
-			t.name = name;
-			t.description = name;
 		end
 		if not t.races then
 			t.races = { DARKIRON };

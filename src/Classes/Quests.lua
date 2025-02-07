@@ -1409,17 +1409,13 @@ app.GlobalVariants.WithAutoName = {
 	name = function(t)
 		local type, id = (":"):split(t.an)
 		local data = app.GetAutomaticHeaderData(id,type)
-		for key,value in pairs(data) do
-			t[key] = value;
-		end
+		app.CloneDictionary(data, t)
 		return data.name
 	end,
 	icon = function(t)
 		local type, id = (":"):split(t.an)
 		local data = app.GetAutomaticHeaderData(id,type)
-		for key,value in pairs(data) do
-			t[key] = value;
-		end
+		app.CloneDictionary(data, t)
 		return data.icon
 	end,
 	__condition = function(t)
