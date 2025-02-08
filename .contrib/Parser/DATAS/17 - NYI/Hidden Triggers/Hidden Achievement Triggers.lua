@@ -3718,6 +3718,12 @@ root(ROOTS.HiddenAchievementTriggers, {
 			-- 11.1.0.58945
 			ach(41751),	-- Delver's Dirigible Recovery
 			ach(41752),	-- <DNT> Plunderstorm Plunder Tracker - Mainline Power Rewards
+			-- 11.1.0.58999
+			ach(41786),	-- Weathered Undermine Crests earned
+			ach(41789),	-- Carved Undermine Crests earned
+			ach(41790),	-- Runed Undermine Crests earned
+			ach(41791),	-- Gilded Undermine Crests earned
+			ach(41793),	-- [HIDDEN] Renown 20 with Gallagio Loyalty Rewards / Teach Raid Teleport Spell
 		})),
 	}),
 });
