@@ -124,23 +124,94 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					["groups"] = {
 						filter(MOUNTS, {
 							["providers"] = {
-								-- Neck
-								{ "i",  },	-- Satchel of the 
-								{ "i",  },	-- Satchel of the 
-								{ "i",  },	-- Satchel of the 
-								{ "i",  },	-- Satchel of the 
-								-- Cloaks
-								{ "i",  },	-- Satchel of the 
-								{ "i",  },	-- Satchel of the 
-								{ "i",  },	-- Satchel of the 
-								{ "i",  },	-- Satchel of the 
+								{ "i",  },	-- Satchel of the Flickering Cowl (Cloth)
+								{ "i",  },	-- Satchel of the Flickering Shoulderpads (Leather)
+								{ "i",  },	-- Satchel of the Flickering Shoulders (Mail)
+								{ "i",  },	-- Satchel of the Flickering Wristbands (Leather)
+								{ "i",  },	-- Satchel of the Flickering Handguards (Plate)
 							},
 							description = "The randomized satchels whose loot originates from Heroic Firelands all have a chance to contain the Alysrazor mount.",
 							["groups"] = {
 								i(71665),	-- Flametalon of Alysrazor (MOUNT!)
 							},
 						}),
+						-- CRIEVE NOTE: Costs are NOT accurate as there is no vendor on PTR yet.
+						-- Mounts
+						frags(250, i(69224)),	-- Pureblood Fire Hawk (MOUNT!) [Smoldering Egg of Millagazor]
+						-- Normal Tier 12 Helm Tokens
+						frags(32, i(71675)),	-- Helm of the Fiery Conqueror
+						frags(32, i(71682)),	-- Helm of the Fiery Protector
+						frags(32, i(71668)),	-- Helm of the Fiery Vanquisher
+						-- Normal Tier 12 Shoulder Tokens
+						frags(32, i(71681)),	-- Mantle of the Fiery Conqueror
+						frags(32, i(71688)),	-- Mantle of the Fiery Protector
+						frags(32, i(71674)),	-- Mantle of the Fiery Vanquisher
+						-- Heroic Trinkets (Might also be Normal mode instead, but we'll see.)
+						frags(80, i(69150)),	-- Matrix Restabilizer [Heroic]
+						frags(80, i(69110)),	-- Variable Pulse Lightning Capacitor [Heroic]
+						frags(80, i(69167)),	-- Vessel of Acceleration [Heroic]
+						frags(80, i(69111)),	-- Jaws of Defeat [Heroic]
+						frags(80, i(69112)),	-- The Hungerer [Heroic]
+						frags(80, i(69149)),	-- Eye of Blazing Power [Heroic]
+						frags(80, i(69138)),	-- Spidersilk Spindle [Heroic]
+						frags(80, i(69109)),	-- Scales of Life [Heroic]
+						-- Normal Difficulty Ragnaros loot
+						frags(50, i(71353)),	-- Arathar, the Eye of Flame
+						frags(50, i(71356)),	-- Crown of Flame
+						frags(50, i(71354)),	-- Choker of the Vanquished Lord
+						frags(50, i(70921)),	-- Pauldrons of Roaring Flame
+						frags(50, i(71358)),	-- Fingers of Incineration
+						frags(50, i(71357)),	-- Majordomo's Chain of Office
+						-- All Normal Difficulty Firelands Weapons (ilvl 378 and 384)
+						frags(50, i(71798)),	-- Sho'ravon, Greatstaff of Annihilation [384]
+						frags(50, i(71352)),	-- Sulfuras, the Extinguished Hand [384]
+						frags(50, i(71355)),	-- Ko'gun, Hammer of the Firelord [384]
+						frags(25, i(69897)),	-- Fandral's Flamescythe
+						frags(25, i(71347)),	-- Stinger of the Flaming Scorpion
+						frags(25, i(71312)),	-- Gatecrasher
+						frags(25, i(70915)),	-- Shard of Torment
+						frags(25, i(71323)),	-- Molten Scream
+						frags(25, i(71014)),	-- Skullstealer Greataxe
+						frags(25, i(71013)),	-- Feeding Frenzy
+						frags(25, i(71022)),	-- Goblet of Anger
+						frags(25, i(70733)),	-- Alysra's Razor
+						frags(25, i(71006)),	-- Volcanospike
+						frags(25, i(71039)),	-- Funeral Pyre
+						frags(25, i(70922)),	-- Mandible of Beth'tilac
+						frags(25, i(71038)),	-- Ward of the Red Widow
+						frags(25, i(71779)),	-- Avool's Incendiary Shanker
+						frags(25, i(71787)),	-- Entrail Disgorger
+						frags(25, i(71776)),	-- Eye of Purification
+						frags(25, i(71785)),	-- Firethorn Mindslicer
+						frags(25, i(71782)),	-- Shatterskull Bonecrusher
+						frags(25, i(71775)),	-- Smoldering Censer of Purity
+						frags(25, i(71780)),	-- Zoid's Firelit Greatsword
+						-- All BoP random statted items (aka Flickering gear) from Heroic Firelands.
+						-- 	This gear will be purchased via a satchel, and the item stats will be generated once the item is removed from the bag.
+						-- 	The satchel also contains a chance to drop one the following mounts:
+						-- 		Flametalon of Alysrazor
+						frags(12, i(, {	-- Satchel of the Flickering Cowl
+							i(71421),	-- Flickering Cowl (Cloth)
+						})),
+						frags(12, i(, {	-- Satchel of the Flickering Shoulderpads
+							i(71450),	-- Flickering Shoulderpads (Leather)
+						})),
+						frags(12, i(, {	-- Satchel of the Flickering Shoulders
+							i(71403),	-- Flickering Shoulders (Mail)
+						})),
+						frags(12, i(, {	-- Satchel of the Flickering Wristbands
+							i(71428),	-- Flickering Wristbands (Leather)
+						})),
+						frags(12, i(, {	-- Satchel of the Flickering Handguards
+							i(71458),	-- Flickering Handguards (Plate)
+						})),
+						-- Dragon Soul LFR Gear
 						
+						-- CRIEVE NOTE: Check to see if the Commendation of Service is the same as Protocol Inferno or a new itemID, also check if the old one is still on the other vendor.
+						frags(1, i(234446, {	-- Commendation of Service
+							currency(395),	-- Justice Points
+						})),
+						frags(1, currency(3148)),	-- Fissure Stone Fragment
 					},
 				}),
 				]]--
