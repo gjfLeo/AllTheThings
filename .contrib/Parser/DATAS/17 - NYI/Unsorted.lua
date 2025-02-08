@@ -60,7 +60,6 @@ root(ROOTS.Unsorted, {
 				i(233348),	-- Power-Washed Shoulderguards
 				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
-				i(233481),	-- Might-Be-Invisible Cloak
 				i(233482),	-- Might-Be-Invisible Shawl
 				i(233485),	-- Lucky-Streak Band
 				i(233527),	-- Gold-Plated Glaive
@@ -405,7 +404,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {	-- More known
 				-- Chestos
 				i(229422),	-- Undermine Equipment Chest
-				i(234731),	-- Cache of Undermine Treasures [H]
 				i(235151),	-- Distinguished Actor's Chest
 				-- Crests
 				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
@@ -436,7 +434,6 @@ root(ROOTS.Unsorted, {
 				i(235503),	-- Chunk of Companion Experience
 				i(235504),	-- Chunk of Companion Experience
 				i(235559),	-- Hidden Trove
-				i(235607),	-- Chunk of Companion Experience
 
 				-- CHETT
 				i(236668),	-- C.H.E.T.T. Card
@@ -690,18 +687,15 @@ root(ROOTS.Unsorted, {
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235308),	-- Filthtread Boots
 				i(235310),	-- Flashy Patchwork Trousers
-				i(235312),	-- Snooty's Aviator Bindings
 				i(235313),	-- Shockproof Helm
 				i(235323),	-- Blastshell Bracers
 				i(235327),	-- Mend-and-Match Shoulderpads
 				i(235347),	-- 100% Sharp Glimmerblade
-				i(235349),	-- Shadowfume Club
 				i(235350),	-- Void-forged Cudgel
 				i(235351),	-- Hypersteel CX4 Greatsword
 				i(235352),	-- Netherflare Wand
 				i(235354),	-- Scrapblaster Lance
 				i(235356),	-- Sapper's Spark Reactor
-				i(235357),	-- Bulletscar Barricade
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
@@ -1089,7 +1083,6 @@ root(ROOTS.Unsorted, {
 			i(233479),	-- Shimmerthread Robe
 			i(234733),	-- Bloodwake Ritual Bowl
 			i(236960),	-- Prototype A.S.M.R.
-			i(237014),	-- Severed Threads Commendation
 			i(237025),	-- Smartest in Town's Visor
 			i(237026),	-- Smartest in Town's Drape
 			i(237027),	-- Slickest in Town's Vest

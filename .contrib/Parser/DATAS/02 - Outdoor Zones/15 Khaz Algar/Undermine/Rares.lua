@@ -60,6 +60,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84907,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235357),	-- Bulletscar Barricade
 					i(235311),	-- Rocket-Powered Shoulderguards
 				},
 			}),
@@ -76,6 +77,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84911,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235312),	-- Snooty's Aviator Bindings
 					i(235316),	-- Whirly-Giggle Windwhir Wrap
 				},
 			}),
@@ -150,6 +152,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84895,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235349),	-- Shadowfume Club
 					i(235363),	-- Suspicious Energy Drink
 				},
 			}),
@@ -158,7 +161,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 85004,	-- Swigs Farsight
 				["g"] = {
 					i(235314),	-- Knightrider's Steelfists
-					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots (TODO: could be wrongly placed .-.)
 					i(235307),	-- Smoketrail Belt
 				},
 			}),
@@ -168,6 +171,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235328),	-- Boots of the Silver Tongue
 					i(235355),	-- Gossi-blin's Baton
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				},
 			}),
 			n(230793, {	-- The Junk-Wall

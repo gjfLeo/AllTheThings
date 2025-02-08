@@ -43,6 +43,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			i(224687),	-- Chitinoid Shoulderguards
 			i(224683),	-- Chitinoid Striders
 		}),
+		filter(MISC, {
+			i(237014, {["timeline"]={ADDED_11_1_0}}),	-- Severed Threads Commendation
+		}),
 		filter(NECK_F, {
 			i(224665),	-- Gem-Studded Pendant
 			i(224594),	-- Spinner's Amulet

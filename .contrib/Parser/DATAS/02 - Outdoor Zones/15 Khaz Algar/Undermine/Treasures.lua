@@ -12,6 +12,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 				},
 			}),
+			o_repeated({	-- Overflowing Dumpster
+				["g"] = {
+					o(469857, {	-- Overflowing Dumpster
+						-- entire map
+					}),
+				},
+			}),
 			--
 			o(477376, {	-- Trick Deck of Cards
 				["coord"] = { 43.6, 51.5, UNDERMINE },

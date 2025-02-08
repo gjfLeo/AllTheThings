@@ -41,6 +41,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85527, {	-- Buccaneer Bonzai
 					["coord"] = { 68.8, 81.5, UNDERMINE },
 				}),
+				q(85399, {	-- Caddyshock
+					["coord"] = { 69.7, 81.6, UNDERMINE },
+				}),
 				q(85270, {	-- Cold as Ice
 					["coord"] = { 39.2, 31.5, UNDERMINE },
 				}),

@@ -7,6 +7,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(ARMOR, {
 				filter(BACK_F, {
 					i(235508),	-- Might-Be-Invisible Cape (wq)
+					i(233481),	-- Might-Be-Invisible Cloak (cache)
 				}),
 				filter(CLOTH, {
 					-- speculated --

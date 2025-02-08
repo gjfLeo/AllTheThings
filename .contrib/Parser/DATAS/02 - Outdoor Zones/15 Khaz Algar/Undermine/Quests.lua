@@ -1465,6 +1465,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85490, {["repeatable"]=true}),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
 				-- ??
 				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
+				--q(86608),	-- pop after wq 85466 (Hob or Cold) - some kind of counter/tracker for something?
 				-- When you pick up one of 4 cartel faction for a week
 				-- TODO: account wide
 				q(84951),	-- Bilgewater Cartel
