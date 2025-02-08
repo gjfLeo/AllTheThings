@@ -767,6 +767,7 @@ localize(L.HEADER_NAMES, {
 	[-1001053] = "Defense Protocol Gamma",
 	[-1001054] = "Protocol Inferno",
 	[-1001070] = UPGRADE,
+	[-1001074] = "Protocol Twilight",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
@@ -989,6 +990,7 @@ localize(L.HEADER_ICONS, {
 	[-1001053] = 236521,
 	[-1001054] = 512617,
 	[-1001070] = _.asset("interface_upgrade"),
+	[-1001074] = 512617,
 });
 localize(L.HEADER_EVENTS, {
 	[-1000200] = 201,
@@ -6944,6 +6946,7 @@ localize(L.HEADER_NAMES, {
 	[-1001052] = "Verteidigungsprotokoll Beta",
 	[-1001053] = "Verteidigungsprotokoll Gamma",
 	[-1001054] = "Protokoll Inferno",
+	[-1001074] = "Protokoll Twilight",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -8891,6 +8894,7 @@ localize(L.HEADER_NAMES, {
 	[-1001052] = "Protocole de défense Bêta",
 	[-1001053] = "Protocole de défense Gamma",
 	[-1001054] = "Protocole Inferno",
+	[-1001074] = "Protocole Twilight",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -18253,6 +18257,7 @@ localize(L.HEADER_NAMES, {
 	[-1001052] = "Protocolo de defensa Beta",
 	[-1001053] = "Protocolo de defensa Gamma",
 	[-1001054] = "Protocolo Inferno",
+	[-1001074] = "Protocolo Twilight",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "Los elementos de esta lista son apariencias compartidas del elemento anterior. En el modo de apariencia única, esta lista puede ayudarlo a comprender por qué o no un elemento específico se marcaría como recopilado.",

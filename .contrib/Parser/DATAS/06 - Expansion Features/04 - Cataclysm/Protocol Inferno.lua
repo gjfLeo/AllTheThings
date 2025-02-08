@@ -27,6 +27,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 				}),
 			}),
 			n(COMMON_BOSS_DROPS, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
+					470595	-- Fury of the Firelord [Protocol Infero buff]
+					--XXXXXXXX,	-- Fury of the Destroyer? [Protocol Twilight]
+				),
 				["description"] = "If you do every Protocol Inferno Dungeon, you can earn a total of 129 of these per day, as you get 2 for each boss, and 5 for endbosses. If you use the dungeon finder, there is no limit, as you don't get saved that way.",
 				["maps"] = {
 					DEADMINES, 292,	-- Deadmines

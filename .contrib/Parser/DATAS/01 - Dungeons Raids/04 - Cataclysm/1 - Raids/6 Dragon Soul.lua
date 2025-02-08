@@ -227,52 +227,56 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				}),
 			}),
 			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
-				["groups"] = {
-					cr(55265, e(311, {	-- Morchok
-						-- Placeholder for criteria
-					})),
-					cr(55308, e(324, {	-- Warlord Zon'ozz
-						-- Placeholder for criteria
-					})),
-					cr(55312, e(325, {	-- Yor'sahj the Unsleeping
-					--	i(152979, {	-- Faceless Mindlasher (PET!)
-					--		["timeline"] = { ADDED_7_3_0 },
-					--	}),
-					})),
-					cr(55689, e(317, {	-- Hagara the Stormbinder
-						-- Placeholder for criteria
-					})),
-					cr(55294, e(331, {	-- Ultraxion
-						-- Placeholder for criteria
-					})),
-					cr(56427, e(332, {	-- Warmaster Blackthorn
-						-- Placeholder for criteria
-					})),
-					cr(53879, e(318, {	-- Spine of Deathwing
-					--	i(152980, {	-- Corrupted Blood (PET!)
-					--		["timeline"] = { ADDED_7_3_0 },
-					--	}),
-					--	i(122198, {	-- Music Roll: The Shattering [Note: Crieve got on stream]
-					--		["timeline"] = { ADDED_6_1_0 },
-					--	}),
-					})),
-					cr(56173, e(333, {	-- Madness of Deathwing
-					--	i(152981, {	-- Unstable Tendril (PET!)
-					--		["timeline"] = { ADDED_7_3_0 },
-					--	}),
-					--	i(122198, {	-- Music Roll: The Shattering [Confirmed in #errors]
-					--		["timeline"] = { ADDED_6_1_0 },
-					--	}),
-						-- #if AFTER 9.1.5
-						currency(615),	-- Essence of Corrupted Deathwing
-						-- #endif
-					})),
-				},
+				cr(55265, e(311, {	-- Morchok
+					-- Placeholder for criteria
+				})),
+				cr(55308, e(324, {	-- Warlord Zon'ozz
+					-- Placeholder for criteria
+				})),
+				cr(55312, e(325, {	-- Yor'sahj the Unsleeping
+				--	i(152979, {	-- Faceless Mindlasher (PET!)
+				--		["timeline"] = { ADDED_7_3_0 },
+				--	}),
+				})),
+				cr(55689, e(317, {	-- Hagara the Stormbinder
+					-- Placeholder for criteria
+				})),
+				cr(55294, e(331, {	-- Ultraxion
+					-- Placeholder for criteria
+				})),
+				cr(56427, e(332, {	-- Warmaster Blackthorn
+					-- Placeholder for criteria
+				})),
+				cr(53879, e(318, {	-- Spine of Deathwing
+				--	i(152980, {	-- Corrupted Blood (PET!)
+				--		["timeline"] = { ADDED_7_3_0 },
+				--	}),
+				--	i(122198, {	-- Music Roll: The Shattering [Note: Crieve got on stream]
+				--		["timeline"] = { ADDED_6_1_0 },
+				--	}),
+				})),
+				cr(56173, e(333, {	-- Madness of Deathwing
+				--	i(152981, {	-- Unstable Tendril (PET!)
+				--		["timeline"] = { ADDED_7_3_0 },
+				--	}),
+				--	i(122198, {	-- Music Roll: The Shattering [Confirmed in #errors]
+				--		["timeline"] = { ADDED_6_1_0 },
+				--	}),
+					-- #if AFTER 9.1.5
+					currency(615),	-- Essence of Corrupted Deathwing
+					-- #endif
+				})),
 			}),
+			-----------------------------------------------------------------------------------------------------------------------------
+			-- CRIEVE TODO: After I add the vendor data for Protocol Twilight, this section can likely be excluded for Cataclysm Classic.
+			-----------------------------------------------------------------------------------------------------------------------------
 			d(DIFFICULTY.RAID.FINDER, {
 				-- #if AFTER 6.0.1.18322
 				["crs"] = { 80675 },	-- Auridormi <Raid Finder Guardian>
 				["coord"] = { 63.0, 27.6, CAVERNS_OF_TIME },
+				-- #endif
+				-- #if ANYCLASSIC
+				["description"] = "Blizzard decided that they didn't want to provide access to LFR to Cataclysm Classic players. Instead, refer to this list as what you can get from Protocol Twilight heroics & the vendor instead.",
 				-- #endif
 				["ignoreBonus"] = true,
 				["groups"] = {
@@ -293,7 +297,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							i(78876),	-- Shoulders of the Corrupted Protector
 							i(78874),	-- Shoulders of the Corrupted Vanquisher
 							i(78863, {	-- Chest of the Corrupted Conqueror
+								-- #if AFTER LEGION
 								["description"] = "Paladin Completionists will want to take this item to the vendor to get the specific item they want.  Right-clicking can award the Holy piece regardless of your spec.",
+								-- #endif
 							}),
 							i(78864),	-- Chest of the Corrupted Protector
 							i(78862),	-- Chest of the Corrupted Vanquisher
@@ -433,6 +439,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					}),
 				},
 			}),
+			-----------------------------------------------------------------------------------------------------------------------------
+			-- CRIEVE TODO: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+			-----------------------------------------------------------------------------------------------------------------------------
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				["ignoreBonus"] = true,
 				["groups"] = {

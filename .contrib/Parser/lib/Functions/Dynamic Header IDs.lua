@@ -332,6 +332,7 @@ HeaderAssignments = {
 	["Prized Gladiator: The War Within Season 2"] = -1001064,
 	["Professions"] = -1000030,
 	["Protocol Inferno"] = -1001054,
+	["Protocol Twilight"] = -1001074,
 	["Proving Grounds"] = -1000084,
 	["PvP"] = -1000144,
 	["Quests"] = -1000031,
@@ -553,4 +554,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001074;
+NextHeaderID = -1001075;
