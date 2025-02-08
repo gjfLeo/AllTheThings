@@ -32,6 +32,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["cost"] = {
 							{ "i", 74752, 1 },	-- Solved Cipher
 						},
+						["description"] = "Yes, you actually have to pay the 10 000 gold to progress on this questline.",
 						["groups"] = {
 							i(74749, {	-- Charging Decoder Ring
 								["description"] = "Just log out for 12 hours. Read a book or something!",
@@ -213,13 +214,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					56427,	-- Warmaster Blackhorn
 				},
 				["groups"] = {
-					currency(614),	-- Mote of Darkness
+					currency(614, {	-- Mote of Darkness
+						["description"] = "Used to buy uncut gems contaned in Crystalline Geode from vendor Dasnurimi in Wyrmrest Temple.",
+					}),
 				},
 			}),
 			n(VENDORS, {
 				n(58153, {	-- Dasnurimi <Geologist & Conservator>
 					i(78890, {	-- Crystalline Geode
 						["cost"] = {{ "c", 614, 1 }},	-- Mote of Darkness
+						["description"] = "Contains random uncut Cataclysm gems.",
 					}),
 					i(78891, {	-- Elementium-coated Geode
 						["cost"] = {{ "c", 615, 1 }},	-- Essence of Corrupted Deathwing
@@ -263,7 +267,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				--		["timeline"] = { ADDED_6_1_0 },
 				--	}),
 					-- #if AFTER 9.1.5
-					currency(615),	-- Essence of Corrupted Deathwing
+					currency(615, {	-- Essence of Corrupted Deathwing
+						["description"] = "Used to buy random epic uncut gems contaned in Elementium-Coated Geode from vendor Dasnurimi in Wyrmrest Temple.",
+					}),
 					-- #endif
 				})),
 			}),
@@ -568,7 +574,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["timeline"] = { ADDED_6_1_0 },
 						}),
 						-- #if BEFORE 9.1.5
-						currency(615),	-- Essence of Corrupted Deathwing
+						currency(615, {	-- Essence of Corrupted Deathwing
+							["description"] = "Used to buy random epic uncut gems contaned in Elementium-Coated Geode from vendor Dasnurimi in Wyrmrest Temple.",
+						}),
 						-- #endif
 					})),
 				},
@@ -890,6 +898,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					})),
 				},
 			}),
+			--	Misc descriptions
+			n(53879, { -- Spine of Deathwing
+				["sharedDescription"] = "For the encounter Spine of Deathwing:\n\nKill the Corruption tentacles on Deathwing's back and stay in it's place to be secured by Grasping Tendrils during Deathwing's rolls. The objective is to allow Hideous Amangamations to consume Corrupted Blood, and kill them when facing the forward armour plating on Deathwing's back. Then kill the revealed Burning Tendon, move forward and repeat the process.",
+				["groups"] = {
+					n(55891), -- Ka'anu Reevs
+					n(55870), -- Sky Captain Swayze
+				},
+			})
 		},
 	}))),
 }));
