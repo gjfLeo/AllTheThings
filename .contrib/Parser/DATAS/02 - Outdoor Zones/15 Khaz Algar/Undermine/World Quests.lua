@@ -21,6 +21,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					--["cr"] = 237703,	-- Baxx the Purveyor
 					["coord"] = { 40.1, 18.6, UNDERMINE },
 				})),
+				pvp(q(85479, {	-- Rock 'Em, Explode 'Em
+					["coord"] = { 36.6, 24.2, UNDERMINE },
+				})),
 				q(85497, {	-- Blown a Gasket
 					["coord"] = { 42.2, 76.7, UNDERMINE },
 				}),
@@ -40,6 +43,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85527, {	-- Buccaneer Bonzai
 					["coord"] = { 68.8, 81.5, UNDERMINE },
+				}),
+				q(85399, {	-- Caddyshock
+					["coord"] = { 69.7, 81.6, UNDERMINE },
 				}),
 				q(85270, {	-- Cold as Ice
 					["coord"] = { 39.2, 31.5, UNDERMINE },

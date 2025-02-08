@@ -4324,6 +4324,7 @@ i(232849, 4650);	-- Venture Companyman
 i(232839, 4637);	-- Wavebreaker Mechasaur
 --- NPC ---
 n(231470, 4652);	-- Acid-Drenched Rat
+n(231728, 4693);	-- Alchemical Runoff
 n(231550, 4656);	-- Bombshell Crab
 n(231570, 4658);	-- Cave Crab
 n(222420, 4484);	-- Frenzied Bloodtick

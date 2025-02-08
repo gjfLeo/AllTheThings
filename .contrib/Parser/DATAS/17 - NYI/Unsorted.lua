@@ -60,7 +60,6 @@ root(ROOTS.Unsorted, {
 				i(233348),	-- Power-Washed Shoulderguards
 				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
-				i(233481),	-- Might-Be-Invisible Cloak
 				i(233482),	-- Might-Be-Invisible Shawl
 				i(233485),	-- Lucky-Streak Band
 				i(233527),	-- Gold-Plated Glaive
@@ -405,7 +404,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {	-- More known
 				-- Chestos
 				i(229422),	-- Undermine Equipment Chest
-				i(234731),	-- Cache of Undermine Treasures [H]
 				i(235151),	-- Distinguished Actor's Chest
 				-- Crests
 				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
@@ -426,17 +424,12 @@ root(ROOTS.Unsorted, {
 				-- Cartel Rep?
 				i(232463),	-- Overflowing Undermine Trove
 				i(232465),	-- The Cartel's Trove
-				i(232485),	-- Mechano-Core Amplifier
 
 				i(232515),	-- Experimental Goblin Jetpack
 
 				-- Delves
 				i(232898),	-- Delver's Bounty
-				i(235502),	-- Chunk of Companion Experience
-				i(235503),	-- Chunk of Companion Experience
-				i(235504),	-- Chunk of Companion Experience
 				i(235559),	-- Hidden Trove
-				i(235607),	-- Chunk of Companion Experience
 
 				-- CHETT
 				i(236668),	-- C.H.E.T.T. Card
@@ -483,7 +476,6 @@ root(ROOTS.Unsorted, {
 				i(233055),	-- Corpse Cleaner
 				i(233061),	-- Rock-in-a-Bottle
 				i(233210),	-- Pungent Putrigill
-				i(234197),	-- Gilded Screwdriver
 				i(234421),	-- Web Bomb
 				i(234616),	-- Supreme Mangoro Madness
 				i(234617),	-- Dulux Bluesberry Blast
@@ -500,7 +492,6 @@ root(ROOTS.Unsorted, {
 				i(235910),	-- Mint Condition Gallagio Anniversary Coin
 				i(236651),	-- Vince's Old Left Shoe
 				i(236652),	-- Re-Down-Upcycled Salvage
-				i(236680),	-- Imitation Crab Meat
 			}),
 			filter(MOUNTS, {
 				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
@@ -686,22 +677,18 @@ root(ROOTS.Unsorted, {
 				i(235300),	-- Cloak of Mecha Shards
 				i(235301),	-- Drape of the Dazzling Feather
 				i(235302),	-- Shockwave Pendant
-				i(235304),	-- Gutter Rat Mask
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235308),	-- Filthtread Boots
 				i(235310),	-- Flashy Patchwork Trousers
-				i(235312),	-- Snooty's Aviator Bindings
 				i(235313),	-- Shockproof Helm
 				i(235323),	-- Blastshell Bracers
 				i(235327),	-- Mend-and-Match Shoulderpads
 				i(235347),	-- 100% Sharp Glimmerblade
-				i(235349),	-- Shadowfume Club
 				i(235350),	-- Void-forged Cudgel
 				i(235351),	-- Hypersteel CX4 Greatsword
 				i(235352),	-- Netherflare Wand
 				i(235354),	-- Scrapblaster Lance
 				i(235356),	-- Sapper's Spark Reactor
-				i(235357),	-- Bulletscar Barricade
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
@@ -709,7 +696,6 @@ root(ROOTS.Unsorted, {
 				i(235821),	-- Pressed-Gold Pantaloons
 				i(235822),	-- Coin-Woven Shawl
 				i(235823),	-- Scrap-Plated Pants
-				i(235824),	-- Flame Sputterer
 				i(235826),	-- Electric Wristrags
 				i(235827),	-- Statically Charged Vest
 				i(235828),	-- Electrocution Warning
@@ -1079,17 +1065,12 @@ root(ROOTS.Unsorted, {
 			i(229810),	-- Vintage Kaja'Cola Can
 			i(229825),	-- Dented Can of Kaja'Cola
 			i(232465),	-- Darkfuse Trove
-			i(232935),	-- Vantus Rune: Liberation of Undermine
-			i(232936),	-- Vantus Rune: Liberation of Undermine
-			i(232937),	-- Vantus Rune: Liberation of Undermine
-			i(233022),	-- Technique: Vantus Rune: Liberation of Undermine
 			i(233064),	-- Bronze Goblin Waveshredder
 			i(233113),	-- Crocodilian's Head
 			i(233172),	-- Banded Grassy War Slippers
 			i(233479),	-- Shimmerthread Robe
 			i(234733),	-- Bloodwake Ritual Bowl
 			i(236960),	-- Prototype A.S.M.R.
-			i(237014),	-- Severed Threads Commendation
 			i(237025),	-- Smartest in Town's Visor
 			i(237026),	-- Smartest in Town's Drape
 			i(237027),	-- Slickest in Town's Vest
@@ -1162,7 +1143,6 @@ root(ROOTS.Unsorted, {
 			i(237268),	-- How to Get Out of Parking Tickets More Than Once
 			i(237276),	-- Refurbished Rocket Glider
 			i(237305),	-- Chalky Shungite
-			i(237333),	-- Undermine Crate
 			i(237345),	-- Limited Edition Rocket Bobber
 			i(237346),	-- Artisan Beverage Goblet Bobber
 			i(237347),	-- Organically-Sourced Wellington Bobber

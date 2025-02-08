@@ -61,6 +61,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(226194, {	-- Cache of Nerubian Treasures (H)
 							["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
 						}),
+						i(234731, {	-- Cache of Undermine Treasures (H)
+							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						}),
 					},
 				}),
 			}),

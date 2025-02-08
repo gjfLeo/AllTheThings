@@ -372,6 +372,7 @@ MobileDB.GameObject = {
 	[279044] = true,	-- Zandalari Rushes
 	[279346] = true,	-- Urn of Voices
 	[269026] = true,	-- Ancient Gong
+	[272780] = true,	-- Empyrium Seam
 	[273660] = true,	-- Mysterious Trashpile
 	[276238] = true,	-- Winters Kiss
 	[278459] = true,	-- Treasure Chest (Zuldazar)

@@ -706,8 +706,8 @@ iq(219289, 81618);	-- Puntable Tiny Snowman
 --iq(235258, XXX);	-- Bilgewater's Trove (Revered)
 --iq(235259, XXX);	-- Bilgewater's Trove (Exalted)
 iq(234744, 86750);	-- Blackwater's Trove (Honored)
---iq(235260, XXX);	-- Blackwater's Trove (Revered)
---iq(235261, XXX);	-- Blackwater's Trove (Exalted)
+--iq(235260, 86751?);	-- Blackwater's Trove (Revered)
+--iq(235261, 86752?);	-- Blackwater's Trove (Exalted)
 is(0, 467553);	-- Path of the Azerite Refinery [A?H?]
 is(0, 467555);	-- Path of the Azerite Refinery [A?H?]
 is(0, 1216786);	-- Path of the Circuit Breaker
@@ -726,5 +726,5 @@ iq(232509, 85742);	-- Undermine Treatise on Mining
 iq(232506, 85744);	-- Undermine Treatise on Skinning
 iq(232502, 85745);	-- Undermine Treatise on Tailoring
 iq(234746, 86755);	-- Venture Co.'s Trove (Honored)
---iq(235264, XXX);	-- Venture Co.'s Trove (Revered)
---iq(235265, XXX);	-- Venture Co.'s Trove (Exalted)
+iq(235264, 86756);	-- Venture Co.'s Trove (Revered)
+--iq(235265, 86757?);	-- Venture Co.'s Trove (Exalted)

@@ -1311,6 +1311,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 42.8, 52.2, UNDERMINE },
 			}),
 			-- Renown 6 + one of cartel hqt locked
+			-- TODO: as of 58999 (rc build) this can pop for you, but if you are with wrong contract - rare kill won't count
+			-- unless this will be fixed later on - comment out sourceQuest
 			q(86414, {	-- Magno-Scrapper 9000
 				["sourceQuests"] = { 84951 },	-- HQT: Bilgewater Cartel weekly contract
 				["provider"] = { "n", 234819 },	-- Ragzy Cashgrab
@@ -1446,6 +1448,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235265),	-- Venture Co.'s Trove
 				},
 			}),
+			-- pop after learning Handcrank/Steamboil or Handcrank AND Steamboil
+			q(89250, {	-- Burning Rubber
+				--["sourceQuests"] = { XXX },
+				--["provider"] = { "i", xxx },	-- TODO: ???
+			}),
 			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
 			-- Alex TODO: all 3 NYI in-game, not returning name for quests
 			q(87297),	-- ???
@@ -1465,6 +1472,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85490, {["repeatable"]=true}),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
 				-- ??
 				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
+				--q(86608),	-- pop after wq 85466 (Hob or Cold) - some kind of counter/tracker for something?
 				-- When you pick up one of 4 cartel faction for a week
 				-- TODO: account wide
 				q(84951),	-- Bilgewater Cartel

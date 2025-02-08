@@ -2139,8 +2139,10 @@ i(236639);	-- Dented Censer
 i(234204);	-- Depleted Battery
 i(237330);	-- Disposable Hamburger
 i(237331);	-- Disposable Hotdog
+i(234197);	-- Gilded Screwdriver
 i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
 i(237334);	-- Half-Eaten Takeout
+i(236680);	-- Imitation Crab Meat
 i(233031);	-- Intact Interlock
 i(236634);	-- Itty Bitty Bonsai
 i(235268);	-- Misprinted Card

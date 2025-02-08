@@ -1250,6 +1250,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	})),
 	n(RARES, {
 		-- TODO: These might not appear in all delves, look into refining these down
+		n(236886, {	-- Hovering Menace
+			["timeline"] = { ADDED_11_1_0 },
+		}),
 		n(207482),	-- Invasive Sporecap
 		n(236895, {	-- Malfuctioning Pummeler
 			["timeline"] = { ADDED_11_1_0 },
@@ -1307,6 +1310,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(218125),	-- Reactive Webbed Escutcheon
 			},
 		}),
+		o(506498, {	-- Gilded Stash
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+			["g"] = {
+				-- gilded undermine crest x7
+			},
+		}),
 		o(507768, {	-- Jettisoned Pile of Goblin-Bucks
 			["description"] = "Left behind by Underpin when he was defeated in a delve.",
 			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
@@ -1314,25 +1323,36 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				--i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0}}), -- Delver's Bounty
 			},
 		}),
-		o(503871, {	-- Nemesis Strongbox
+		o(503871, {	-- Nemesis Strongbox (gray)
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- gold bag
 				-- TODO: add to mobile?
+				-- TODO: have other chunk of exp too?
 			},
 		}),
-		o(503868, {	-- Nemesis Strongbox
+		o(503868, {	-- Nemesis Strongbox (uncommon)
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- gold bag, delves reagents
 				-- TODO: add to mobile?
+				-- TODO: have other chunk of exp too?
 			},
 		}),
-		o(503869, {	-- Nemesis Strongbox
+		o(503869, {	-- Nemesis Strongbox (rare)
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- gold bag, delves reagents
 				-- TODO: add to mobile?
+				-- TODO: have other chunk of exp too?
+			},
+		}),
+		o(503870, {	-- Nemesis Strongbox (epic)
+			["timeline"] = { ADDED_11_1_0 },
+			["g"] = {
+				-- gold bag, delves reagents
+				-- TODO: add to mobile?
+				i(235607),	-- Chunk of Companion Experience (epic)
 			},
 		}),
 	})),
@@ -2742,8 +2762,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		--q(87287, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in Fungal Folly Tier 7
 		--q(87286, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in The Sinkhole Tier 8
 		q(86371, {["timeline"]={ADDED_11_1_0}}),	-- after Delver's Bounty was looted from objectID 507768
+		--q(86438, {["timeline"]={ADDED_11_1_0}}),	-- when open up nemesis strongbox (first purple on account) in Excavation Site 9 - Tier 10
 		-- Bountiful Delve runs
 		q(82944),	-- Earthcrawl Mines
+		q(85187, {["timeline"]={ADDED_11_1_0}}),	-- Excavation Site 9
 		q(82939),	-- Fungal Folly
 		q(82941),	-- Kriegval's Rest
 		q(82940),	-- Mycomancer Cavern

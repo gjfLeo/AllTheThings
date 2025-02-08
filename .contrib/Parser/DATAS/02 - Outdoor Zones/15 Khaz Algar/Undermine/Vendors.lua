@@ -44,6 +44,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(237321),	-- Scoring Guide: Start Counter
 				},
 			}),
+			n(239523, {	-- Brondo Packrat
+				["coord"] = { 29.0, 53.8, UNDERMINE },
+				["g"] = {
+					-- TODO: move into uncollectible?
+					i(237333),	-- Undermine Crate
+				},
+			}),
 			n(236411, {	-- Ditty Fuzeboy
 				["coord"] = { 35.4, 41.4, UNDERMINE },
 				["g"] = {
@@ -129,7 +136,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
 					}),
 					i(235389, {	-- Paint: Goblin Green (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
 					}),
 				}
 			}),
@@ -160,7 +167,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
 					}),
 					i(235388, {	-- Paint: Redlining Red (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
 					}),
 				}
 			}),
@@ -191,7 +198,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
 					}),
 					i(235391, {	-- Paint: Yellow Cake Yellow (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
 					}),
 				}
 			}),
@@ -222,7 +229,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
 					}),
 					i(235390, {	-- Paint: Body Roll Blue (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 2600 }},
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
 					}),
 				}
 			}),

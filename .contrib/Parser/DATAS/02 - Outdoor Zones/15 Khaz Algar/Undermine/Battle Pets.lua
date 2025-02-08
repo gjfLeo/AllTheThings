@@ -5,6 +5,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 	m(UNDERMINE, {
 		petbattle(filter(BATTLE_PETS, {
 			pet(4652),	-- Acid-Drenched Rat
+			pet(4693),	-- Alchemical Runoff
 			pet(4656),	-- Bombshell Crab
 			pet(4658),	-- Cave Crab
 			pet(4660),	-- Paleshell Crab
