@@ -1662,18 +1662,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			-- #endif
 			["groups"] = {
 				i(74611, {	-- Festival Lantern (PET!)
-					-- #if AFTER 8.1.0
-					["races"] = HORDE_ONLY,
-					-- #endif
 					["timeline"] = { ADDED_4_3_0 },
 					["cost"] = { { "i", 21100, 50 } },	-- 50x Coin of Ancestry
+					["races"] = HORDE_ONLY,
 				}),
 				i(74610, {	-- Lunar Lantern (PET!)
-					-- #if AFTER 8.1.0
-					["races"] = ALLIANCE_ONLY,
-					-- #endif
 					["timeline"] = { ADDED_4_3_0 },
 					["cost"] = { { "i", 21100, 50 } },	-- 50x Coin of Ancestry
+					["races"] = ALLIANCE_ONLY,
 				}),
 				i(21157, {	-- Festive Green Dress
 					["cost"] = { { "i", 21100, 5 } },	-- 5x Coin of Ancestry
