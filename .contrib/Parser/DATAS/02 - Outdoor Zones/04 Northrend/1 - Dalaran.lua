@@ -1369,6 +1369,12 @@ root(ROOTS.Zones, {
 					["skipFill"] = true,
 				}),
 				-- #endif
+				n(32838, {	-- Minigob Manabonk
+					["timeline"] = { ADDED_3_1_0 },
+					["groups"] = {
+						i(44817),	-- The Mischief Maker
+					},
+				}),
 				n(PROFESSIONS, {
 					prof(ALCHEMY, {
 						n(28703, {	-- Linzy Blackbolt <Alchemy Trainer>
