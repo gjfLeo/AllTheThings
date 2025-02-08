@@ -130,12 +130,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(229944, {	-- The Topskimmer Special (MOUNT!)
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 11375}},
 						}),
-						--now missing instead new item?
+						--now missing, instead new item?
 						--i(232982, {	-- G77C Ultra (MM!)
 						--	["cost"] = {{"c", RESONANCE_CRYSTALS, 975}},
 						--}),
-						i(232981, {	-- GNZ Airmaster 9000 (MM!) (TODO: didn't added into mount mod)
-							--["cost"] = {{"c", RESONANCE_CRYSTALS, 0}},
+						i(232981, {	-- GNZ Airmaster 9000 (MM!)
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 					}, {	-- RENOWN 20 --
 					},

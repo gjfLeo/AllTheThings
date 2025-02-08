@@ -35,10 +35,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 36.1, 45.1, UNDERMINE },
 					["questID"] = 87271,
 				}),
-				--o(XXXXX, {	-- Dented Crate (The Heaps)
-				--	["coord"] = { X, Y, UNDERMINE },
-				--	["questID"] = XXXXX,
-				--}),
+				o(516162, {	-- Dented Crate (The Heaps)
+					["coord"] = { 52.4, 83.0, UNDERMINE },
+					["questID"] = 87277,
+				}),
 				o(516157, {	-- Dented Crate (The VatWorks)
 					["coord"] = { 38.4, 80.9, UNDERMINE },
 					["questID"] = 87273,

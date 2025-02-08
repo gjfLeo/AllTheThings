@@ -21,6 +21,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					--["cr"] = 237703,	-- Baxx the Purveyor
 					["coord"] = { 40.1, 18.6, UNDERMINE },
 				})),
+				pvp(q(85479, {	-- Rock 'Em, Explode 'Em
+					["coord"] = { 36.6, 24.2, UNDERMINE },
+				})),
 				q(85497, {	-- Blown a Gasket
 					["coord"] = { 42.2, 76.7, UNDERMINE },
 				}),

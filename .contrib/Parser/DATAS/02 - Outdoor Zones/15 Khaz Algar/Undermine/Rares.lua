@@ -53,6 +53,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235348),	-- Back Alley Shank
 					i(234218),	-- Goo-blin Grenade
+					i(235304),	-- Gutter Rat Mask
 				},
 			}),
 			n(230828, {	-- Chief Foreman Gutso
@@ -86,6 +87,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 32.0, 76.5, UNDERMINE },
 				["questID"] = 86307,
 				["isWeekly"] = true,
+				["g"] = {
+					i(235824),	-- Flame Sputterer
+				},
 			}),
 			n(231017, {	-- Grimewick
 				["coord"] = { 67.5, 33.5, UNDERMINE },

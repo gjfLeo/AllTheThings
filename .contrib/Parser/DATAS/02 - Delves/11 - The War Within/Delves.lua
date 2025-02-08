@@ -1250,6 +1250,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	})),
 	n(RARES, {
 		-- TODO: These might not appear in all delves, look into refining these down
+		n(236886, {	-- Hovering Menace
+			["timeline"] = { ADDED_11_1_0 },
+		}),
 		n(207482),	-- Invasive Sporecap
 		n(236895, {	-- Malfuctioning Pummeler
 			["timeline"] = { ADDED_11_1_0 },

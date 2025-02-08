@@ -484,8 +484,8 @@ i(230216, 85175);	-- Delver's Gob-Trotter Schematic: Harpoon
 i(230218, 85179);	-- Delver's Gob-Trotter Schematic: Pipes
 
 i(232985, 85782);	-- 22H Slicks
-i(232982, 85775);	-- G77C Ultra
 i(232986, 85781);	-- GE86 Advance
+i(232981, 85776);	-- GNZ Airmaster 9000
 i(232984, 85784);	-- Handcrank
 i(236670, 85787);	-- Maniacal Melodies
 i(235390, 86771);	-- Paint: Body Roll Blue
@@ -513,4 +513,4 @@ i(232980, 85787);	-- Axel Sneakfoot
 i(232979, 85785);	-- Jaks Jabberjaw
 i(232978, 85786);	-- Louie Firehands
 
-i(232981, 85776);	-- GNZ Airmaster 9000
+i(232982, 85775);	-- G77C Ultra

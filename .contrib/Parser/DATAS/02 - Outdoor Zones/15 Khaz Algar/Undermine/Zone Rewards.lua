@@ -62,6 +62,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				filter(TRINKET_F, {
 					i(232883),	-- Turbo-Drain 5000 (cache)
 					i(235359),	-- Ratfang Toxin (cache)
+					i(232485),	-- Mechano-Core Amplifier (wq)
 				}),
 			}),
 			n(WEAPONS, {
