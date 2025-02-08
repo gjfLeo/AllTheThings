@@ -667,8 +667,8 @@ localize(L.HEADER_NAMES, {
 	[-1001062] = "Thunderstorms",
 	[-1001070] = UPGRADE,
 	[-1001071] = "Alcaz Island",
-	[-1001074] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-1001075] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-1001075] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-1001076] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "These items can be obtained by doing Emissary Quests or gaining a paragon box.",
@@ -1279,6 +1279,9 @@ localize(L.EVENT_TIMERUNNING_SEASONS, {
 });
 
 -- Programmatic Event Scheduling
+_.Modules.Events.SetEventInformation(1509, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025})
+});
 _.Modules.Events.SetEventInformation(1525, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=16,["weekday"]=5,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=20,["weekday"]=3,["year"]=2024})
 });
@@ -1319,9 +1322,6 @@ _.Modules.Events.SetEventInformation(590, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=4,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=4,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
-});
-_.Modules.Events.SetEventInformation(1509, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -15360,7 +15360,7 @@ L.QUEST_NAMES = {
 	[50185] = "Green Crystal Monocle",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-1001075],
+	[52819] = _.L.HEADER_NAMES[-1001076],
 	[52917] = "Grimmy Dialogue",
 	[53568] = "Kill Credit 1",
 	[53569] = "Kill Credit 2",
@@ -15375,23 +15375,6 @@ L.QUEST_NAMES = {
 	[53578] = "Power Increased to Level 8",
 	[53579] = "Power Increased to Level 9",
 	[53580] = "Power Increased to Level 10",
-	[53585] = "Aerie Peak",
-	[53586] = "Argent Tournament Grounds",
-	[53587] = "Blackrock Depths",
-	[53588] = "The Pit",
-	[53589] = "Aalgen Point",
-	[53590] = "Elemental Plateau",
-	[53591] = "Fire Plume Ridge",
-	[53592] = "Honor Hold",
-	[53593] = "Neltharion's Vault",
-	[53594] = "Nethergarde Keep",
-	[53595] = "One Keg",
-	[53596] = "Ruby Dragonshrine",
-	[53597] = "Skald",
-	[53598] = "Stormstout Brewery",
-	[53599] = "The Hand of Gul'dan",
-	[53600] = "Honor's Stand",
-	[53601] = "Sulfuron Spire",
 	[55424] = "Aspirant Elynna",
 	[55660] = "Time Trials",
 	[56070] = "Vengeance for the Venthyr",
@@ -15932,17 +15915,6 @@ L.QUEST_NAMES = {
 	[79706] = "Stay awhile and listen: Faerin Lothar",
 	[79971] = "Stay awhile and listen: Alleria Windrunner",
 	[80020] = "Stay awhile and listen: Locus-Walker",
-	[80099] = "Zalamar Invasion",
-	[80100] = "Xibala Incursion",
-	[80101] = "Wailing Tideways",
-	[80102] = "Tidebreak Summit",
-	[80103] = "Valley of a Thousand Legs",
-	[80104] = "Scorched Crypt",
-	[80105] = "The Eternal Forge",
-	[80106] = "Soryn's Meadow",
-	[80107] = "The Slagmire",
-	[80108] = "Vakthros Summit",
-	[80109] = "Obsidian Rest",
 	[80413] = "First War Supply Chest of the Day!",
 	[80414] = "First War Supply Chest of the Day!",
 	[80415] = "First War Supply Chest of the Day!",
@@ -16443,8 +16415,8 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "Sandstürme",
 	[-1001061] = "Schneestürme",
 	[-1001062] = "Gewitterstürme",
-	[-1001074] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-1001075] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-1001075] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-1001076] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -20727,8 +20699,8 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "Tempêtes de sable",
 	[-1001061] = "Tempêtes de neige",
 	[-1001062] = "Coups de tonnerre",
-	[-1001074] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-1001075] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-1001075] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-1001076] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "Ces objets peuvent être obtenus en effectuant des quêtes d’émissaire ou en l’obtaenant via un coffre de parangon.",
@@ -24913,8 +24885,8 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "Tempeste di Sabbia",
 	[-1001061] = "Tempeste di Neve",
 	[-1001062] = "Tempeste di Fulmini",
-	[-1001074] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-1001075] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-1001075] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-1001076] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "Gli elementi in questo elenco sono aspetti condivisi per l'elemento precedente. Nella modalità Aspetto unico, questo elenco può aiutarti a capire perché o perché un oggetto specifico verrebbe contrassegnato come Raccolto.",
@@ -28706,8 +28678,8 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "Tempestades de Areia",
 	[-1001061] = "Nevascas",
 	[-1001062] = "Tempestades Relampejantes",
-	[-1001074] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-1001075] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-1001075] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-1001076] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "Os itens nesta lista são aparências compartilhadas do item acima. No Modo de Aparência Única, esta lista pode ajudá-lo a entender por que ou não um item específico seria marcado como Coletado.",
@@ -32868,8 +32840,8 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "Песчаные бури",
 	[-1001061] = "Снежные бури",
 	[-1001062] = "Грозовые бури",
-	[-1001074] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-1001075] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-1001075] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-1001076] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "Эти предметы можно получить в награду Заданий эмиссаров или из припасов.",
@@ -37147,8 +37119,8 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "모래폭풍",
 	[-1001061] = "눈폭풍",
 	[-1001062] = "천둥폭풍",
-	[-1001074] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-1001075] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-1001075] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-1001076] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "이 목록의 항목은 위 항목의 공유 모양입니다. 고유 외형 모드에서 이 목록은 특정 항목이 수집됨으로 표시되는 이유와 이유를 이해하는 데 도움이 될 수 있습니다.",
@@ -40843,8 +40815,8 @@ localize(L.HEADER_NAMES, {
 	[-1001060] = "Tormentas de arena",
 	[-1001061] = "Tormentas de nieve",
 	[-1001062] = "Tormentas de truenos",
-	[-1001074] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-1001075] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-1001075] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-1001076] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "Los elementos de esta lista son apariencias compartidas del elemento anterior. En el modo de apariencia única, esta lista puede ayudarlo a comprender por qué o no un elemento específico se marcaría como recopilado.",
@@ -45049,8 +45021,8 @@ localize(L.HEADER_NAMES, {
 	[-1001061] = "雪暴",
 	[-1001062] = "雷暴",
 	[-1001071] = "奥卡兹岛",
-	[-1001074] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-1001075] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-1001075] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-1001076] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "这些物品可以通过做大使任务或获得巅峰宝箱来获得。",
