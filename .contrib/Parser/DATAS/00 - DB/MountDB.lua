@@ -1975,6 +1975,7 @@ i(0, 466024);		-- Bilgewater Bombardier
 i(0, 466001);		-- Blackwater Bonecrusher
 i(235344, 1216542);	-- Blazing Royal Fire Hawk
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
+i(0, 466000);		-- Darkfuse Chompactor
 i(229950, 466018);	-- Darkfuse Demolisher
 i(229955, 466027);	-- Darkfuse Spy-Eye
 i(235662, 1218069);	-- Emerald Snail
@@ -1994,6 +1995,7 @@ i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly
 i(0, 466014);		-- Steamwheedle Supplier
+i(0, 466012);		-- Thunderdrum Misfire
 i(0, 466022);		-- Venture Co-ordinator
 i(0, 466146);		-- Vicious Electro Eel [A]
 i(0, 466145);		-- Vicious Electro Eel [H]
