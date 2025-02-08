@@ -2048,7 +2048,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				})),
 				-- #endif
 				n(3872, {	-- Deathsworn Captain
-					["description"] = "This is a rare that is not always present.",
+					["description"] = "This is a rare that is not always present. Can be found in place of a Tormented Officer patrolling the outdoor wall section just after the boss Commander Springvale, and is targetable from the dungeon entrance.",
 					["groups"] = {
 						i(6641),	-- Haunting Blade
 						i(6642),	-- Phantom Armor
