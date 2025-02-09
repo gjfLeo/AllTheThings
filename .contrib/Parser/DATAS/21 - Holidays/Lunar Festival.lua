@@ -285,6 +285,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				i(21540),	-- Elune's Lantern (TOY!)
 				i(21640),	-- Lunar Festival Fireworks Pack
 			},
+			["description"] = "In order to summon Omen you need to fire 30 cluster rockets from the launcer at 63.73, 62.41. Any will do. The spawns Minion of Omen can be ignored.\n\nElune's Blessing is obtained from a ring of light appearing on Omen's corpse. The light does not disappear when the corpse despawns, so you might not need to fight Omen at all.",
 		}),
 		q(8862, {	-- Elune's Candle
 			["qg"] = 15864,	-- Valadar Starsong
