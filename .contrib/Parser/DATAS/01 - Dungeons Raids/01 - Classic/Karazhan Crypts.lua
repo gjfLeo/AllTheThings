@@ -75,10 +75,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(237964),	-- Harbinger of Sin	(0)
 			n(237439),	-- Kharon			(2)
 			n(238365),	-- Dark Rider		(4)
-			n(238428),	-- Trizivast
-			n(238560),	-- The Warden
 			n(238678),	-- Unk'omon <The Winged Sorrow>	(6)
-			n(238644),	-- Unrepentant Criminal	(1)
 		},
 	}))),
 }));
