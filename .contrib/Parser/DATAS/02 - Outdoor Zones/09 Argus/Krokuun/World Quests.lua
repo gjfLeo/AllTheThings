@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			["isWorldQuest"] = true,
 		},{
 			q(48285),	-- Aerial Superiority
-			q(49043),	-- Baneglow
+			petbattle(q(49043)),	-- Baneglow
 			q(47724),	-- Besieged
 			q(47496),	-- Bunker Buster
 			q(47624, {	-- Bury It
@@ -25,10 +25,10 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sym"] = {{"select","npcID",122911}},	-- Select the WQ NPC
 			}),
 			q(48286),	-- Crystal Methods
-			q(49045),	-- Deathscreech
+			petbattle(q(49045)),	-- Deathscreech
 			q(47720),	-- Eternal Vengeance
-			q(49042),	-- Foulclaw
-			q(49046),	-- Gnasher
+			petbattle(q(49042)),	-- Foulclaw
+			petbattle(q(49046)),	-- Gnasher
 			q(48287),	-- Harvesters of Sorrow
 			q(48592),	-- Holding the Spire
 			q(48282, {	-- Imp Mother Laglath

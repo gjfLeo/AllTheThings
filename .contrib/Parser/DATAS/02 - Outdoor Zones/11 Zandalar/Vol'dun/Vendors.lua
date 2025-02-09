@@ -177,6 +177,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(163567),	-- Snake on a Stick
 				},
 			}),
+			n(138919, {	-- Tukuku <Ancient Scrolls>
+				["coord"] = { 62.0, 20.8, VOLDUN },
+				["g"] = {
+					-- Common Vendor Item added here so theres at least one source for cost item same zone as the rare
+					i(161128),	-- Seaside Leafy Greens Mix
+				},
+			}),
 		}),
 	}),
 })));

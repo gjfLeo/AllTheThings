@@ -28,6 +28,7 @@ i(139398);	-- Pant Loaf
 i(147348);	-- Bulky Armor Set
 i(147349);	-- Spiked Armor Set
 -- Legion Mission Table Items
+i(139845);	-- Band of Primordial Strength
 i(152442);	-- Impervious Shadoweave Hood \\ rvious Shadowweave Hood \\ rvious Hood
 -- BFA Vendor
 i(162588);	-- Weathered Scrollcase
