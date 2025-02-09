@@ -346,8 +346,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(27760, {	-- Artificial Intelligence
 					["provider"] = { "i", 62483 },	-- A.I.D.A. Communicator
-					["description"] = "Drops while on |cFFFFD700The Curse of the Tombs|r",
-					["sourceQuest"] = 28501,	-- The Defense of Nahom
 					["crs"] = {
 						46920,	-- Expedition Member
 						46590,	-- Crazed Digger
