@@ -202,9 +202,6 @@ root(ROOTS.Zones, {
 							r(44157),	-- Turbo-Charged Flying Machine
 						}),
 					}),
-					prof(FISHING, {
-						i(34867),	-- Monstrous Felblood Snapper
-					}),
 					prof(HERBALISM, {
 						applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32506)),	-- Netherwing Egg
 						applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32468)),	-- Netherdust Pollen

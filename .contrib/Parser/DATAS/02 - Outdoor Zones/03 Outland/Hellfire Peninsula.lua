@@ -415,9 +415,6 @@ root(ROOTS.Zones, {
 						},
 						["groups"] = TBC_FIRST_AID,
 					}),
-					prof(FISHING, {
-						i(34867),	-- Monstrous Felblood Snapper
-					}),
 					prof(ENCHANTING, {
 						["crs"] = {
 							18773,	-- Johan Barnes <Enchanting Trainer> (A)

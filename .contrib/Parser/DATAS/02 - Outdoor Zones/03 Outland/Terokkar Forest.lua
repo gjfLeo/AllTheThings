@@ -35,6 +35,7 @@ root(ROOTS.Zones, {
 					ach(726, {	-- Mr. Pinchy's Magical Crawdad Box
 						["provider"] = { "i", 27445 },	-- Magical Crawdad Box
 						["requireSkill"] = FISHING,
+						["timeline"] = { ADDED_3_0_2 },
 					}),
 					ach(905, {	-- Old Man Barlowned
 						["timeline"] = { ADDED_3_0_2 },
@@ -327,9 +328,10 @@ root(ROOTS.Zones, {
 					})),
 				}),
 				prof(FISHING, {
-					i(34865),	-- Blackfin Darter
+					o(182954, {	-- Brackish Mixed School
+						["requireSkill"] = FISHING,
+					}),
 					o(182957, {	-- Highland Mixed School
-						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
 					}),
 					i(27388, {	-- Mr. Pinchy
@@ -346,7 +348,6 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(182956, {	-- School of Darter
-						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
 					}),
 				}),

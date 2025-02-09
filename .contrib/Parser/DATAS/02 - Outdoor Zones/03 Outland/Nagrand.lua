@@ -317,11 +317,9 @@ root(ROOTS.Zones, {
 				}),
 				prof(FISHING, {
 					o(182959, {	-- Bluefish School
-						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
 					}),
 					o(182958, {	-- Mudfish School
-						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
 					}),
 					i(34868),	-- World's Largest Mudfish
