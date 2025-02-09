@@ -98,6 +98,25 @@ ObjectDB[57] = {
 };
 -- #endif
 
+-- #if BEFORE MOP
+-- During Cataclysm Classic, the name of this object had extra spaces in it. Silly Blizzard.
+-- NOTE: Check this again during MOP.
+ObjectDB[206293] = {
+	readable = "A.I.D.A. Terminal",
+	model = 201023,
+	text = {
+		en = "A. I. D.A. Terminal",
+		es = "Terminal A. I. D.A.",
+		de = "A. I. D.A.-Terminal",
+		fr = "Terminal A. I. D.A.",
+		it = "Terminale A. I. D.A.",
+		pt = "Terminal A. I. D.A.",
+		ru = "Терминал АИДА",
+		ko = "인공지능 단말기",
+	},
+};
+-- #endif
+
 -- TODO: Change the headers for this stuff to a custom header and allow the object localizer to translate the object so it appears on the tooltip.
 -- Item 1: Scintillating Murloc Skin Lotion
 local locales = ObjectDB[13000002].text;
