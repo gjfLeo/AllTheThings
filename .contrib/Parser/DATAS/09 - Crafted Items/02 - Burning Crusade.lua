@@ -757,15 +757,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					COILFANG_RESERVOIR_STEAMVAULT,
 					COILFANG_RESERVOIR_UNDERBOG,
 				},
-				--["maps"] = {
-					--BLADES_EDGE_MOUNTAINS,
-					--HELLFIRE_PENINSULA,
-					--NETHERSTORM,
-					--NAGRAND,
-					--SHADOWMOON_VALLEY,
-					--TEROKKAR_FOREST,
-					--ZANGARMARSH,
-				--},
 			}),
 			i(108348, {	-- Ancient Lichen Petal
 				["timeline"] = { ADDED_6_0_2 },
@@ -1201,16 +1192,90 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	}),
 	prof(MINING, {
 		spell(2575, {	-- Mining
-			i(23425),	-- Adamantite Ore
-			i(108302, {["timeline"] = {ADDED_6_0_2}}),	-- Adamantite Ore Nugget
-			i(23427),	-- Eternium Ore
-			i(108303, {["timeline"] = {ADDED_6_0_2}}),	-- Eternium Ore Nugget
-			i(23424),	-- Fel Iron Ore
-			i(108301, {["timeline"] = {ADDED_6_0_2}}),	-- Fel Iron Ore Nugget
-			i(23426),	-- Khorium Ore
-			i(108304, {["timeline"] = {ADDED_6_0_2}}),	-- Khorium Ore Nugget
-			i(35229, {["timeline"] = {ADDED_2_4_0}}),	-- Nether Residue
-			i(32464, {["timeline"] = {ADDED_2_1_0}}),	-- Nethercite Ore
+			i(23425, {	-- Adamantite Ore
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					ISLE_OF_QUELDANAS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+			}),
+			i(108302, {	-- Adamantite Ore Nugget
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(23425),	-- Adamantite Ore
+				}
+			}),
+			i(23427, {	-- Eternium Ore
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					ISLE_OF_QUELDANAS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+				["providers"] = {
+					{ "o", 181556 },	-- Adamantite Deposit
+					{ "o", 181557 },	-- Khorium Vein
+					{ "o", 181569 },	-- Rich Adamantite Deposit
+				},
+			}),
+			i(108303, {	-- Eternium Ore Nugget
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(23427),	-- Eternium Ore
+				}
+			}),
+			i(23424, {	-- Fel Iron Ore
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					HELLFIRE_PENINSULA,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+			}),
+			i(108301, {	-- Fel Iron Ore Nugget
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(23424),	-- Fel Iron Ore
+				}
+			}),
+			i(23426, {	-- Khorium Ore
+				["maps"] = {
+					AUCHINDOUN_AUCHENAI_CRYPTS,
+					AUCHINDOUN_MANA_TOMBS,
+					AUCHINDOUN_SETHEKK_HALLS,
+					AUCHINDOUN_SHADOW_LABYRINTH,
+					BLADES_EDGE_MOUNTAINS,
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+					ISLE_OF_QUELDANAS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+				},
+			}),
+			i(108304, {	-- Khorium Ore Nugget
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(23426),	-- Khorium Ore
+				}
+			}),
+			i(35229, {["timeline"] = {ADDED_2_4_0}}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
+			i(32464, {	-- Nethercite Ore (Quest Item for Netherwing daily q(11018))
+				["timeline"] = { ADDED_2_1_0 },
+				["coord"] = { 70.0, 85.0, SHADOWMOON_VALLEY },	-- Netherwing Ledge
+			}),
 			--	Not Ore
 			--[[	No need to list Tradegoods w/ many other sources
 			i(23117),	-- Azure Moonstone
