@@ -43,7 +43,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sym"] = {{"select","npcID",126419}},	-- Select the WQ NPC
 			}),
 			q(48284),	-- Reap the Fields
-			q(49044),	-- Retch
+			petbattle(q(49044)),	-- Retch
 			q(47646),	-- Rope Around
 			petbattle(q(49041)),	-- Ruinhoof
 			q(47542, {	-- Siegemaster Voraan

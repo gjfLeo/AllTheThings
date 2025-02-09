@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			q(55889),	-- Champion Kyx'zhul the Deepspeaker
 			q(55888),	-- Champion Qalina, Spear of Ice
 			q(55890),	-- Champion Vyz'olgo the Mind-Taker
-			q(56382),	-- Chomp
+			petbattle(q(56382)),	-- Chomp
 			q(57353, {	-- Deepcoil Cleansing
 				["g"] = {
 					i(171257),	-- Voidtinged Substance (QI!)

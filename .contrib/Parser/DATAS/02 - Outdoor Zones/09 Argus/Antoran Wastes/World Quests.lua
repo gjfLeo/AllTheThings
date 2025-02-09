@@ -29,7 +29,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["sym"] = {{"select","npcID",127084}},	-- Select the WQ NPC
 			}),
 			q(48777),	-- Den of Fiends
-			q(49055),	-- Earseeker
+			petbattle(q(49055)),	-- Earseeker
 			q(47566, {	-- Gar'zoth
 				["sym"] = {{"select","npcID",122999}},	-- Select the WQ NPC
 			}),

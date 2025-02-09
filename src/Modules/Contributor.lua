@@ -292,6 +292,7 @@ MobileDB.GameObject = {
 	[195138] = true,	-- Copper Plating (q:13983)
 	[201615] = true,	-- Ooze Release Valve (Rotface)
 	[201616] = true,	-- Gas Release Valve (Festergut)
+	[203071] = true,	-- Night Elf Archaeology Find
 	[203179] = true,	-- Sediment Deposit (q:25722)
 	[203182] = true,	-- Fenberries (q:25725)
 	[203247] = true,	-- Fitzsimmon's Mead (q:25815)

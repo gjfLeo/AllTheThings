@@ -298,78 +298,81 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
 			}),
 			ach(10596, {	-- Bigger Fish to Fry
-				crit(29912, {	-- Ancient Black Barracuda
-					["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
-					["provider"] = { "i", 133742 },
-				}),
-				crit(29909, {	-- Ancient Highmountain Salmon
-					["maps"] = { HIGHMOUNTAIN },
-					["provider"] = { "i", 133733 },
-				}),
-				crit(29921, {	-- Ancient Mossgill
-					["maps"] = { VALSHARAH },
-					["provider"] = { "i", 133730 },
-				}),
-				crit(29910, {	-- Axefish
-					["maps"] = { AZSUNA },
-					["provider"] = { "i", 133740 },
-				}),
-				crit(29908, {	-- Coldriver Carp
-					["maps"] = { HIGHMOUNTAIN },
-					["provider"] = { "i", 133732 },
-				}),
-				crit(29905, {	-- Ghostly Queenfish
-					["maps"] = { AZSUNA },
-					["provider"] = { "i", 133727 },
-				}),
-				crit(29914, {	-- Graybelly Lobster
-					["maps"] = { STORMHEIM },
-					["provider"] = { "i", 133735 },
-				}),
-				crit(29903, {	-- Leyshimmer Blenny
-					["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
-					["provider"] = { "i", 133725 },
-				}),
-				crit(29916, {	-- Magic-Eater Frog
-					["maps"] = { SURAMAR },
-					["provider"] = { "i", 133737 },
-				}),
-				crit(29907, {	-- Mountain Puffer
-					["maps"] = { HIGHMOUNTAIN },
-					["provider"] = { "i", 133731 },
-				}),
-				crit(29904, {	-- Nar'thalas Hermit
-					["maps"] = { AZSUNA },
-					["provider"] = { "i", 133726 },
-				}),
-				crit(29913, {	-- Oodelfjisk
-					["maps"] = { STORMHEIM },
-					["provider"] = { "i", 133734 },
-				}),
-				crit(29911, {	-- Seabottom Squid
-					["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
-					["provider"] = { "i", 133741 },
-				}),
-				crit(29918, {	-- Tainted Runescale Koi
-					["maps"] = { SURAMAR },
-					["provider"] = { "i", 133739 },
-				}),
-				crit(29915, {	-- Thundering Stormray
-					["maps"] = { STORMHEIM },
-					["provider"] = { "i", 133736 },
-				}),
-				crit(29917, {	-- Seerspine Puffer
-					["maps"] = { SURAMAR },
-					["provider"] = { "i", 133738 },
-				}),
-				crit(29919, {	-- Terrorfin
-					["maps"] = { VALSHARAH },
-					["provider"] = { "i", 133728 },
-				}),
-				crit(29920, {	-- Thorned Flounder
-					["maps"] = { VALSHARAH },
-					["provider"] = { "i", 133729 },
-				}),
+				["_noautomation"] = true,
+				["g"] = {
+					crit(29912, {	-- Ancient Black Barracuda
+						["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
+						["provider"] = { "i", 133742 },
+					}),
+					crit(29909, {	-- Ancient Highmountain Salmon
+						["maps"] = { HIGHMOUNTAIN },
+						["provider"] = { "i", 133733 },
+					}),
+					crit(29921, {	-- Ancient Mossgill
+						["maps"] = { VALSHARAH },
+						["provider"] = { "i", 133730 },
+					}),
+					crit(29910, {	-- Axefish
+						["maps"] = { AZSUNA },
+						["provider"] = { "i", 133740 },
+					}),
+					crit(29908, {	-- Coldriver Carp
+						["maps"] = { HIGHMOUNTAIN },
+						["provider"] = { "i", 133732 },
+					}),
+					crit(29905, {	-- Ghostly Queenfish
+						["maps"] = { AZSUNA },
+						["provider"] = { "i", 133727 },
+					}),
+					crit(29914, {	-- Graybelly Lobster
+						["maps"] = { STORMHEIM },
+						["provider"] = { "i", 133735 },
+					}),
+					crit(29903, {	-- Leyshimmer Blenny
+						["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
+						["provider"] = { "i", 133725 },
+					}),
+					crit(29916, {	-- Magic-Eater Frog
+						["maps"] = { SURAMAR },
+						["provider"] = { "i", 133737 },
+					}),
+					crit(29907, {	-- Mountain Puffer
+						["maps"] = { HIGHMOUNTAIN },
+						["provider"] = { "i", 133731 },
+					}),
+					crit(29904, {	-- Nar'thalas Hermit
+						["maps"] = { AZSUNA },
+						["provider"] = { "i", 133726 },
+					}),
+					crit(29913, {	-- Oodelfjisk
+						["maps"] = { STORMHEIM },
+						["provider"] = { "i", 133734 },
+					}),
+					crit(29911, {	-- Seabottom Squid
+						["maps"] = { AZSUNA, VALSHARAH, HIGHMOUNTAIN, STORMHEIM, BROKEN_SHORE, SURAMAR, BROKEN_ISLES },
+						["provider"] = { "i", 133741 },
+					}),
+					crit(29918, {	-- Tainted Runescale Koi
+						["maps"] = { SURAMAR },
+						["provider"] = { "i", 133739 },
+					}),
+					crit(29915, {	-- Thundering Stormray
+						["maps"] = { STORMHEIM },
+						["provider"] = { "i", 133736 },
+					}),
+					crit(29917, {	-- Seerspine Puffer
+						["maps"] = { SURAMAR },
+						["provider"] = { "i", 133738 },
+					}),
+					crit(29919, {	-- Terrorfin
+						["maps"] = { VALSHARAH },
+						["provider"] = { "i", 133728 },
+					}),
+					crit(29920, {	-- Thorned Flounder
+						["maps"] = { VALSHARAH },
+						["provider"] = { "i", 133729 },
+					}),
+				},
 			}),
 			ach(11725, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Fisherfriend of the Isles
 				["description"] = "The Fishing Masters are on a daily rotation, so only one is up at a time.  The order is:\n\n1. Sha'leth\n2. Impus\n3. Ilyssia of the Waters\n4. Keeper Raynae\n5. Akule Riverhorn\n6. Corbyn\n\nMake sure you're close enough to the Fishing Master to get the |cFFFFD700Something's Fishy|r buff, or you won't be able to fish up the items (the buff may not show up until you dismount).\n\nThe quickest way to reach Best Friend is to fish in a group.\n",
