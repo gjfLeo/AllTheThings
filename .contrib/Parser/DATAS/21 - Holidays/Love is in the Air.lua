@@ -3385,7 +3385,7 @@ for i,o in ipairs({
 				}),
 			},
 		}),
-		inst(184, {	-- End Time
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, inst(184, {	-- End Time
 			["maps"] = { 401, 402, 403, 404, 405, 406 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.HEROIC, {
@@ -3397,7 +3397,7 @@ for i,o in ipairs({
 					}),
 				}),
 			},
-		}),
+		})),
 		inst(71, {	-- Grim Batol
 			["maps"] = { 293 },
 			["groups"] = {
@@ -3413,7 +3413,7 @@ for i,o in ipairs({
 				}),
 			},
 		}),
-		inst(186, {	-- Hour of Twilight
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, inst(186, {	-- Hour of Twilight
 			["maps"] = { 399, 400 },
 			["groups"] = {
 				d(DIFFICULTY.DUNGEON.HEROIC, {
@@ -3422,7 +3422,7 @@ for i,o in ipairs({
 					}),
 				}),
 			},
-		}),
+		})),
 		inst(64, {	-- Shadowfang Keep
 			["maps"] = {
 				SHADOWFANG_KEEP,
