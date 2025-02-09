@@ -687,12 +687,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(27778, {	-- Hacking the Wibson
-					["coord"] = { 74.1, 64.4, ULDUM },
 					["provider"] = { "o", 206293 },	-- A.I.D.A. Terminal
 					["sourceQuests"] = {
 						27761,	-- A Disarming Distraction
 						27777,	-- Core Access Codes
 					},
+					["coord"] = { 74.1, 64.4, ULDUM },
 					["groups"] = {
 						objective(1, {	-- 0/1 Wibson Mainframe hacked
 							["providers"] = {
