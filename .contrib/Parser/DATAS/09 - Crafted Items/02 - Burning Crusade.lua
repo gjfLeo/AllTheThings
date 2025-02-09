@@ -626,23 +626,23 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 		}),
 		i(34865, {	-- Blackfin Darter (Quest Item for Terokkar Forest fishing daily q(11666) Bait Bandits)
-			["maps"] = TEROKKAR_FOREST,
-			["timeline"] = {ADDED_2_4_0},
+			["maps"] = { TEROKKAR_FOREST } ,
+			["timeline"] = { ADDED_2_4_0 },
 		}),
 		i(35313, {	-- Bloated Barbed Gill Trout (Quest Item for Terokkar Forest fishing daily q(11668) Shrimpin' Ain't Easy)
 			["maps"] = ZANGARMARSH,
-			["timeline"] = {ADDED_2_4_0},
+			["timeline"] = { ADDED_2_4_0 },
 			["groups"] = {
 				i(34866),	-- Giant Freshwater Shrimp
 			},
 		}),
 		applyclassicphase(TBC_PHASE_FOUR, i(33823, {	-- Bloodfin Catfish
-			["maps"] = DEADWIND_PASS,
-			["timeline"] = {ADDED_2_3_0},
+			["maps"] = { DEADWIND_PASS },
+			["timeline"] = { ADDED_2_3_0 },
 		})),
 		applyclassicphase(TBC_PHASE_FOUR, i(33824, {	-- Crescent-Tail Skullfish
-			["maps"] = DEADWIND_PASS,
-			["timeline"] = {ADDED_2_3_0},
+			["maps"] = { DEADWIND_PASS },
+			["timeline"] = { ADDED_2_3_0 },
 		})),
 		i(27513),	-- Curious Crate
 		i(27516, {	-- Enormous Barbed Gill Trout
@@ -663,7 +663,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		i(27435, {	-- Figluster's Mudfish
 			["provider"] = { "o", 182958 },	-- Mudfish School
-			["maps"] = NAGRAND,
+			["maps"] = { NAGRAND },
 		}),
 		i(27439, {	-- Furious Crawdad
 			["provider"] = { "o", 182957 },	-- Highland Mixed School
@@ -674,7 +674,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		applyclassicphase(TBC_PHASE_FIVE, i(35285, {	-- Giant Sunfish
 			["maps"] = ISLE_OF_QUELDANAS,
-			["timeline"] = {ADDED_2_4_0},
+			["timeline"] = { ADDED_2_4_0 },
 		})),
 		i(27438, {	-- Golden Darter
 			["providers"] = {
@@ -703,7 +703,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		i(27437, {	-- Icefin Bluefish
 			["provider"] = { "o", 182959 },	-- Bluefish School
-			["maps"] = NAGRAND,
+			["maps"] = { NAGRAND },
 		}),
 		i(27511, {	-- Inscribed Scrollcase
 			["providers"] = {
@@ -726,7 +726,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				HELLFIRE_PENINSULA,
 				SHADOWMOON_VALLEY,
 			},
-			["timeline"] = {ADDED_2_4_0},
+			["timeline"] = { ADDED_2_4_0 },
 		}),
 		i(27425, {	-- Spotted Feltail
 			["maps"] = {
@@ -736,7 +736,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		}),
 		i(27429, {	-- Zangarian Sporefish
 			["provider"] = { "o", 182953 },	-- Sporefish School
-			["maps"] = ZANGARMARSH,
+			["maps"] = { ZANGARMARSH },
 		}),
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
@@ -768,7 +768,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				--},
 			}),
 			i(108348, {	-- Ancient Lichen Petal
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22790)	-- Ancient Lichen
 				},
@@ -784,7 +784,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(108345, {	-- Dreaming Glory Petal
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22786),	-- Dreaming Glory
 				},
@@ -803,7 +803,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(108344, {	-- Felweed Stalk
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22785),	-- Felweed
 				},
@@ -815,33 +815,33 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["maps"] = ISLE_OF_QUELDANAS,
 			}),
 			i(108351, {	-- Mana Thistle Leaf
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22793),	-- Mana Thistle
 				},
 			}),
-			i(35229, {["timeline"] = {ADDED_2_4_0}}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage) 
+			i(35229, {["timeline"] = { ADDED_2_4_0 }}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage) 
 			i(22791, {	-- Netherbloom
 				["maps"] = NETHERSTORM,
 			}),
 			i(108349, {	-- Netherbloom Leaf
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22791),	-- Netherbloom
 				},
 			}),
 			i(32468, {	-- Netherdust Pollen (Quest Item for Netherwing daily q(11017))
-				["timeline"] = {ADDED_2_1_0},
+				["timeline"] = { ADDED_2_1_0 },
 				["coord"] = { 70.0, 85.0, SHADOWMOON_VALLEY },	-- Netherwing Ledge
 			}),
 			i(22797, {	-- Nightmare Seed
-				["timeline"] = {REMOVED_3_3_0}, -- Danny Donkey: Must confirm how this applies to Classic!
+				["timeline"] = { REMOVED_3_3_0 }, -- Danny Donkey: Must confirm how this applies to Classic!
 			}),
 			i(22792, {	-- Nightmare Vine
 				["maps"] = ISLE_OF_QUELDANAS,
 			}),
 			i(108350, {	-- Nightmare Vine Stem
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22792),	-- Nightmare Vine
 				},
@@ -850,7 +850,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["maps"] = ZANGARMARSH,
 			}),
 			i(108346, {	-- Ragveil Cap
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22787),	-- Ragveil
 				},
@@ -859,7 +859,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["maps"] = TEROKKAR_FOREST,
 			}),
 			i(108347, {	-- Terocone Leaf
-				["timeline"] = {ADDED_6_0_2},
+				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22789),	-- Terocone
 				},
@@ -1323,7 +1323,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					19183,	-- Clefthoof Calf
 					18205,	-- Clefthoof
 				},
-				["maps"] = NAGRAND,
+				["maps"] = { NAGRAND },
 			}),
 			i(29547, {    -- Wind Scales
 				["crs"] = {

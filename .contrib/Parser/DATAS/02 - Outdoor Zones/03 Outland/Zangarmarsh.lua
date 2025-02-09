@@ -281,11 +281,7 @@ root(ROOTS.Zones, {
 						["groups"] = TBC_FISHING,
 					}),
 					prof(FISHING, {
-						i(35313, {	-- Bloated Barbed Gill Trout
-							i(34866),	-- Giant Freshwater Shrimp
-						}),
 						o(182954, {	-- Brackish Mixed School
-							["timeline"] = { ADDED_3_0_2 },
 							["requireSkill"] = FISHING,
 						}),
 						o(182952, {	-- Steam Pump Flotsam
@@ -296,7 +292,6 @@ root(ROOTS.Zones, {
 							}),
 						}),
 						o(182953, {	-- Sporefish School
-							["timeline"] = { ADDED_3_0_2 },
 							["requireSkill"] = FISHING,
 						}),
 					}),
