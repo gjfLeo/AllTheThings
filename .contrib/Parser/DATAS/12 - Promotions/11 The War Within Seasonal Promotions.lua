@@ -216,7 +216,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(233207, {	-- The Coward's Azure Target (COSMETIC!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between January 14th, 10:00 a.m. & February 4th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" },
+				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.58911" },
 			}),
 			i(231297, {	-- Timbered Sky Snake (MOUNT!)
 				["description"] = "Obtained if you set up a 6-Month WoW Subscription.",
