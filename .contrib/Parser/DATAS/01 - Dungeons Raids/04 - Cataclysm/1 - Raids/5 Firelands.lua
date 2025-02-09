@@ -146,9 +146,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					q(29193, {	-- On a Wing and a Prayer
 						["qg"] = 15192,	-- Anachronos
 						["sourceQuest"] = 29135,	-- All-Seeing Eye
+						["coord"] = { 41.8, 49.8, CAVERNS_OF_TIME },
 						["groups"] = {
 							objective(1, {	-- Brought Timeless Eye to Coldarra
-								["provider"] = { "i", 69238 },	-- Timeless Eye
+								["providers"] = {
+									{ "i",  69238 },	-- Timeless Eye
+									{ "o", 208430 },	-- Timeless Eye
+								},
 							}),
 						},
 					}),
