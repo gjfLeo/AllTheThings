@@ -1928,7 +1928,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(43566),	-- Withered Progress
 				-- #if AFTER LEGION
 				q(24661),	-- Theryn Fed Tracker - (reused ID from WotLK NYI quest)
-				-- #endiff
+				-- #endif
 			}),
 		}),
 	}),

@@ -1389,464 +1389,464 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			},
 			-- #endif
 		}),
-		-----------------
-		-- 2024 Update --
-		-----------------
-		n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 }, }, {
-			q(78329, {	-- Love is in the Air (A)
-				["qgs"] = {
-					215197,	-- Gabbo Blinkwink
-					-- #if AFTER TWW
-					220307,	-- Holiday Enthusiast
-					-- #endif
-				},
-				["coords"] = {
-					{ 54.3, 60.3, VALDRAKKEN },
-					-- #if AFTER TWW
-					{ 48.4, 48.3, DORNOGAL },
-					-- #endif
-				},
-				["isBreadcrumb"] = true,
-				["races"] = ALLIANCE_ONLY,
-			}),
-			q(78328, {	-- Take a Look Around (A)
-				["qg"] = 211802,	-- Luciana Delgado
-				["coord"] = { 32.3, 49.4, ELWYNN_FOREST },
-				["sourceQuest"] = 78329,	-- Love is in the Air (A)
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = { i(LOVE_TOKEN) },
-			}),
-			q(78332, {	-- I Smell Trouble (A)
-				["qg"] = 38066,	-- Inspector Snip Snagglebolt
-				["coord"] = { 32.2, 50.1, ELWYNN_FOREST },
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					i(LOVE_TOKEN),
-					i(210658),	-- Discarded Perfume Bottle
-					o(410998, {	-- Formula: Intoxicating Toxic Perfume
-						i(210416),	-- Formula: Intoxicating Toxic Perfume (QI!)
-					}),
-					o(410994, {	-- Map of Shadowfang Keep Security
-						i(210413),	-- Map of Shadowfang Keep Security (QI!)
-					}),
-					o(410999, {	-- Memo from Apothecary Hummel
-						i(210417),	-- Memo from Apothecary Hummel (QI!) [book]
-					}),
-					i(213091),	-- Memo from Apothecary Hummel [book] (awared to player after turn in this quest)
-					i(210332),	-- O.D.I.E.'s Remote Control (QI!)
-				},
-			}),
-			q(78337, {	-- An Unwelcome Gift (A)
-				["qg"] = 213560,	-- Inspector Snip Snagglebolt (MobileNPC)
-				["sourceQuest"] = 78332,	-- I Smell Trouble (A)
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					i(LOVE_TOKEN),
-					i(210688),	-- Manufacturing Oil
-					i(211208),	-- O.D.I.E.'s Remote Control (QI!)
-				},
-			}),
-			q(78729, {	-- Raising a Stink (A)
-				["qg"] = 213560,	-- Inspector Snip Snagglebolt (MobileNPC)
-				["sourceQuest"] = 78337,	-- An Unwelcome Gift (A)
-				["races"] = ALLIANCE_ONLY,
-			}),
-			q(78369, {	-- Crushing the Crown (A)
-				["qg"] = 38066,	-- Inspector Snap Snagglebolt
-				["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
-				["sourceQuest"] = 78729,	-- Raising a Stink (A)
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					i(LOVE_TOKEN),
-					o(413126, {	-- Box of Artisanal Goods})
-						i(210431),	-- Artisanal Bon-Bombs (QI!)
-						i(211127),	-- Note from Bang Sparknozzle (QI!) [book]
-					}),
-				},
-			}),
-			q(78379, {	-- The Stench of Revenge (A)
-				["qg"] = 38066,	-- Inspector Snap Snagglebolt
-				["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
-				["sourceQuest"] = 78369,	-- Crushing the Crown (A)
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = { i(LOVE_TOKEN) },
-			}),
-			q(78981, {	-- Love is in the Air (H)
-				["qgs"] = {
-					215196,	-- Aurora Vabsley
-					-- #if AFTER TWW
-					220307,	-- Holiday Enthusiast
-					-- #endif
-				},
-				["coords"] = {
-					{ 54.3, 62.7, VALDRAKKEN },
-					-- #if AFTER TWW
-					{ 48.9, 48.3, DORNOGAL },
-					-- #endif
-				},
-				["isBreadcrumb"] = true,
-				["races"] = HORDE_ONLY,
-			}),
-			q(78980, {	-- Take a Look Around (H)
-				["qg"] = 214477,	-- Mahaja Cloudsong
-				["coord"] = { 41.8, 18.0, DUROTAR },
-				["sourceQuest"] = 78981,	-- Love is in the Air (H)
-				["races"] = HORDE_ONLY,
-				["groups"] = { i(LOVE_TOKEN) },
-			}),
-			q(78982, {	-- I Smell Trouble (H)
-				["qg"] = 37172,	-- Detective Snip Snagglebolt
-				["coord"] = { 41.6, 17.7, DUROTAR },
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(LOVE_TOKEN),
-					i(210658),	-- Discarded Perfume Bottle
-					o(410998, {	-- Formula: Intoxicating Toxic Perfume
-						i(210416),	-- Formula: Intoxicating Toxic Perfume (QI!)
-					}),
-					o(410994, {	-- Map of Shadowfang Keep Security
-						i(210413),	-- Map of Shadowfang Keep Security (QI!)
-					}),
-					o(410999, {	-- Memo from Apothecary Hummel
-						i(210417),	-- Memo from Apothecary Hummel (QI!) [book]
-					}),
-					i(213091),	-- Memo from Apothecary Hummel [book] (awared to player after turn in this quest)
-					i(211778),	-- O.D.I.E.'s Remote Control (QI!)
-				},
-			}),
-			q(78983, {	-- An Unwelcome Gift (H)
-				["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
-				["sourceQuest"] = 78982,	-- I Smell Trouble (H)
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(LOVE_TOKEN),
-					i(211781),	-- O.D.I.E.'s Remote Control (QI!)
-				},
-			}),
-			q(78978, {	-- Raising a Stink (H)
-				["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
-				["sourceQuest"] = 78983,	-- I Smell Trouble (H)
-				["races"] = HORDE_ONLY,
-			}),
-			q(78984, {	-- Crushing the Crown (H)
-				["qg"] = 37172,	-- Detective Snap Snagglebolt
-				["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
-				["sourceQuest"] = 78978,	-- Raising a Stink (H)
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(LOVE_TOKEN),
-					i(211782),	-- Note from Zikky (QI!) [book]
-				},
-			}),
-			q(78985, {	-- The Stench of Revenge (H)
-				["qg"] = 37172,	-- Detective Snap Snagglebolt
-				["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
-				["sourceQuest"] = 78984,	-- Crushing the Crown (H)
-				["races"] = HORDE_ONLY,
-				["groups"] = { i(LOVE_TOKEN) },
-			}),
-		})),
-		n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 }, ["isDaily"] = true, },
-		sharedData({ ["groups"] = { i(LOVE_TOKEN) }, },{
-			q(78594, {	-- Getaway to Scenic Feralas! (A)
-				["qg"] = 212677,	-- Gabbo Blinkwink
-				["coord"] = { 34.3, 51.6, ELWYNN_FOREST },
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					i(211923),	-- Sealed Letter (QI!)
-					i(211922),	-- Bouquet of Flowers (QI!)
-				},
-			}),
-			q(78988, {	-- Getaway to Scenic Feralas! (H)
-				["qg"] = 214497,	-- Aurora Vabsley
-				["coord"] = { 41.5, 16.1, DUROTAR },
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(211923),	-- Sealed Letter (QI!)
-					i(211922),	-- Bouquet of Flowers (QI!)
-				},
-			}),
-			q(78565, {	-- Getaway to Scenic Grizzly Hills! (A)
-				["qg"] = 212677,	-- Gabbo Blinkwink
-				["coord"] = { 34.3, 51.6, ELWYNN_FOREST },
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					--[[
-					-- CRIEVE NOTE: I wanted to show how you'd add the section below as an objective.
-					objective(1, {	-- 0/12 Grizzly Hills Flower
-						-- All this does it make the tooltip for the objective show up when showing the tooltip for anything listed in the provider and also gives the objective entry the icon of whatever is first in the provider's list, which is the flower item itself. Once you've completed the objective, all of the associated things would appear as completed in their tooltips!
-						["providers"] = {
-							{ "i", 210719 },	-- Grizzly Hills Flower
-							{ "o", 411560 },	-- Lavenbloom
-							{ "o", 416448 },	-- Lush Lavenbloom
-							{ "o", 416450 },	-- Lush Orange Illicium
-							{ "o", 416449 },	-- Lush Sugar Orchid
-							{ "o", 411562 },	-- Orange Illicium
-							{ "o", 411561 },	-- Sugar Orchid
-						},
-					}),
-					]]--
-					o_repeated({
-						i(210719),	-- Grizzly Hills Flower (QI!)
-						o(411560),	-- Lavenbloom
-						o(416448),	-- Lush Lavenbloom
-						o(416450),	-- Lush Orange Illicium
-						o(411562),	-- Orange Illicium
-						o(411561),	-- Sugar Orchid
-					}),
-				},
-			}),
-			q(78986, {	-- Getaway to Scenic Grizzly Hills! (H)
-				["qg"] = 214497,	-- Aurora Vabsley
-				["coord"] = { 41.5, 16.1, DUROTAR },
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					--[[
-					-- CRIEVE NOTE: I wanted to show how you'd add the section below as an objective.
-					objective(1, {	-- 0/12 Grizzly Hills Flower
-						["providers"] = {
-							{ "i", 210719 },	-- Grizzly Hills Flower
-							{ "o", 411560 },	-- Lavenbloom
-							{ "o", 416448 },	-- Lush Lavenbloom
-							{ "o", 416450 },	-- Lush Orange Illicium
-							{ "o", 416449 },	-- Lush Sugar Orchid
-							{ "o", 411562 },	-- Orange Illicium
-							{ "o", 411561 },	-- Sugar Orchid
-						},
-					}),
-					]]--
-					o_repeated({
-						i(210719),	-- Grizzly Hills Flower (QI!)
-						o(411560),	-- Lavenbloom
-						o(416448),	-- Lush Lavenbloom
-						o(416450),	-- Lush Orange Illicium
-						o(411562),	-- Orange Illicium
-						o(411561),	-- Sugar Orchid
-						o(416449),	-- Lush Sugar Orchid
-					}),
-				},
-			}),
-			q(78591, {	-- Getaway to Scenic Nagrand! (A)
-				["qg"] = 212677,	-- Gabbo Blinkwink
-				["coord"] = { 34.3, 51.6, ELWYNN_FOREST },
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					i(210743),	-- Borrowed Camera (QI!)
-				},
-			}),
-			q(78987, {	-- Getaway to Scenic Nagrand! (H)
-				["qg"] = 214497,	-- Aurora Vabsley
-				["coord"] = { 41.5, 16.1, DUROTAR },
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(210743),	-- Borrowed Camera (QI!)
-				},
-			}),
-			q(78724, {	-- Loving Yourself, Your Way (A)
-				["qg"] = 213262,	-- Ying
-				["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
-				["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
-				["races"] = ALLIANCE_ONLY,
-			}),
-			q(78726, {	-- Loving Yourself, Your Way (A)
-				["qg"] = 213262,	-- Ying
-				["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
-				["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					objective(1, {	-- 0/15 Treats Consumed
+	}),
+	-----------------
+	-- 2024 Update --
+	-----------------
+	n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 }, }, {
+		q(78329, {	-- Love is in the Air (A)
+			["qgs"] = {
+				215197,	-- Gabbo Blinkwink
+				-- #if AFTER TWW
+				220307,	-- Holiday Enthusiast
+				-- #endif
+			},
+			["coords"] = {
+				{ 54.3, 60.3, VALDRAKKEN },
+				-- #if AFTER TWW
+				{ 48.4, 48.3, DORNOGAL },
+				-- #endif
+			},
+			["isBreadcrumb"] = true,
+			["races"] = ALLIANCE_ONLY,
+		}),
+		q(78328, {	-- Take a Look Around (A)
+			["qg"] = 211802,	-- Luciana Delgado
+			["coord"] = { 32.3, 49.4, ELWYNN_FOREST },
+			["sourceQuest"] = 78329,	-- Love is in the Air (A)
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = { i(LOVE_TOKEN) },
+		}),
+		q(78332, {	-- I Smell Trouble (A)
+			["qg"] = 38066,	-- Inspector Snip Snagglebolt
+			["coord"] = { 32.2, 50.1, ELWYNN_FOREST },
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				i(LOVE_TOKEN),
+				i(210658),	-- Discarded Perfume Bottle
+				o(410998, {	-- Formula: Intoxicating Toxic Perfume
+					i(210416),	-- Formula: Intoxicating Toxic Perfume (QI!)
+				}),
+				o(410994, {	-- Map of Shadowfang Keep Security
+					i(210413),	-- Map of Shadowfang Keep Security (QI!)
+				}),
+				o(410999, {	-- Memo from Apothecary Hummel
+					i(210417),	-- Memo from Apothecary Hummel (QI!) [book]
+				}),
+				i(213091),	-- Memo from Apothecary Hummel [book] (awared to player after turn in this quest)
+				i(210332),	-- O.D.I.E.'s Remote Control (QI!)
+			},
+		}),
+		q(78337, {	-- An Unwelcome Gift (A)
+			["qg"] = 213560,	-- Inspector Snip Snagglebolt (MobileNPC)
+			["sourceQuest"] = 78332,	-- I Smell Trouble (A)
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				i(LOVE_TOKEN),
+				i(210688),	-- Manufacturing Oil
+				i(211208),	-- O.D.I.E.'s Remote Control (QI!)
+			},
+		}),
+		q(78729, {	-- Raising a Stink (A)
+			["qg"] = 213560,	-- Inspector Snip Snagglebolt (MobileNPC)
+			["sourceQuest"] = 78337,	-- An Unwelcome Gift (A)
+			["races"] = ALLIANCE_ONLY,
+		}),
+		q(78369, {	-- Crushing the Crown (A)
+			["qg"] = 38066,	-- Inspector Snap Snagglebolt
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
+			["sourceQuest"] = 78729,	-- Raising a Stink (A)
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				i(LOVE_TOKEN),
+				o(413126, {	-- Box of Artisanal Goods})
+					i(210431),	-- Artisanal Bon-Bombs (QI!)
+					i(211127),	-- Note from Bang Sparknozzle (QI!) [book]
+				}),
+			},
+		}),
+		q(78379, {	-- The Stench of Revenge (A)
+			["qg"] = 38066,	-- Inspector Snap Snagglebolt
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
+			["sourceQuest"] = 78369,	-- Crushing the Crown (A)
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = { i(LOVE_TOKEN) },
+		}),
+		q(78981, {	-- Love is in the Air (H)
+			["qgs"] = {
+				215196,	-- Aurora Vabsley
+				-- #if AFTER TWW
+				220307,	-- Holiday Enthusiast
+				-- #endif
+			},
+			["coords"] = {
+				{ 54.3, 62.7, VALDRAKKEN },
+				-- #if AFTER TWW
+				{ 48.9, 48.3, DORNOGAL },
+				-- #endif
+			},
+			["isBreadcrumb"] = true,
+			["races"] = HORDE_ONLY,
+		}),
+		q(78980, {	-- Take a Look Around (H)
+			["qg"] = 214477,	-- Mahaja Cloudsong
+			["coord"] = { 41.8, 18.0, DUROTAR },
+			["sourceQuest"] = 78981,	-- Love is in the Air (H)
+			["races"] = HORDE_ONLY,
+			["groups"] = { i(LOVE_TOKEN) },
+		}),
+		q(78982, {	-- I Smell Trouble (H)
+			["qg"] = 37172,	-- Detective Snip Snagglebolt
+			["coord"] = { 41.6, 17.7, DUROTAR },
+			["races"] = HORDE_ONLY,
+			["groups"] = {
+				i(LOVE_TOKEN),
+				i(210658),	-- Discarded Perfume Bottle
+				o(410998, {	-- Formula: Intoxicating Toxic Perfume
+					i(210416),	-- Formula: Intoxicating Toxic Perfume (QI!)
+				}),
+				o(410994, {	-- Map of Shadowfang Keep Security
+					i(210413),	-- Map of Shadowfang Keep Security (QI!)
+				}),
+				o(410999, {	-- Memo from Apothecary Hummel
+					i(210417),	-- Memo from Apothecary Hummel (QI!) [book]
+				}),
+				i(213091),	-- Memo from Apothecary Hummel [book] (awared to player after turn in this quest)
+				i(211778),	-- O.D.I.E.'s Remote Control (QI!)
+			},
+		}),
+		q(78983, {	-- An Unwelcome Gift (H)
+			["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
+			["sourceQuest"] = 78982,	-- I Smell Trouble (H)
+			["races"] = HORDE_ONLY,
+			["groups"] = {
+				i(LOVE_TOKEN),
+				i(211781),	-- O.D.I.E.'s Remote Control (QI!)
+			},
+		}),
+		q(78978, {	-- Raising a Stink (H)
+			["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
+			["sourceQuest"] = 78983,	-- I Smell Trouble (H)
+			["races"] = HORDE_ONLY,
+		}),
+		q(78984, {	-- Crushing the Crown (H)
+			["qg"] = 37172,	-- Detective Snap Snagglebolt
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
+			["sourceQuest"] = 78978,	-- Raising a Stink (H)
+			["races"] = HORDE_ONLY,
+			["groups"] = {
+				i(LOVE_TOKEN),
+				i(211782),	-- Note from Zikky (QI!) [book]
+			},
+		}),
+		q(78985, {	-- The Stench of Revenge (H)
+			["qg"] = 37172,	-- Detective Snap Snagglebolt
+			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
+			["sourceQuest"] = 78984,	-- Crushing the Crown (H)
+			["races"] = HORDE_ONLY,
+			["groups"] = { i(LOVE_TOKEN) },
+		}),
+	})),
+	n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 }, ["isDaily"] = true, },
+	sharedData({ ["groups"] = { i(LOVE_TOKEN) }, },{
+		q(78594, {	-- Getaway to Scenic Feralas! (A)
+			["qg"] = 212677,	-- Gabbo Blinkwink
+			["coord"] = { 34.3, 51.6, ELWYNN_FOREST },
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				i(211923),	-- Sealed Letter (QI!)
+				i(211922),	-- Bouquet of Flowers (QI!)
+			},
+		}),
+		q(78988, {	-- Getaway to Scenic Feralas! (H)
+			["qg"] = 214497,	-- Aurora Vabsley
+			["coord"] = { 41.5, 16.1, DUROTAR },
+			["races"] = HORDE_ONLY,
+			["groups"] = {
+				i(211923),	-- Sealed Letter (QI!)
+				i(211922),	-- Bouquet of Flowers (QI!)
+			},
+		}),
+		q(78565, {	-- Getaway to Scenic Grizzly Hills! (A)
+			["qg"] = 212677,	-- Gabbo Blinkwink
+			["coord"] = { 34.3, 51.6, ELWYNN_FOREST },
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				--[[
+				-- CRIEVE NOTE: I wanted to show how you'd add the section below as an objective.
+				objective(1, {	-- 0/12 Grizzly Hills Flower
+					-- All this does it make the tooltip for the objective show up when showing the tooltip for anything listed in the provider and also gives the objective entry the icon of whatever is first in the provider's list, which is the flower item itself. Once you've completed the objective, all of the associated things would appear as completed in their tooltips!
 					["providers"] = {
-						{ "i", 210929 },	-- Comfort Food Package
-						{ "i", 210928 },	-- Healthy Body Package
-						{ "i", 210926 },	-- Me, Myself, and Chocolate Package
+						{ "i", 210719 },	-- Grizzly Hills Flower
+						{ "o", 411560 },	-- Lavenbloom
+						{ "o", 416448 },	-- Lush Lavenbloom
+						{ "o", 416450 },	-- Lush Orange Illicium
+						{ "o", 416449 },	-- Lush Sugar Orchid
+						{ "o", 411562 },	-- Orange Illicium
+						{ "o", 411561 },	-- Sugar Orchid
 					},
 				}),
+				]]--
+				o_repeated({
+					i(210719),	-- Grizzly Hills Flower (QI!)
+					o(411560),	-- Lavenbloom
+					o(416448),	-- Lush Lavenbloom
+					o(416450),	-- Lush Orange Illicium
+					o(411562),	-- Orange Illicium
+					o(411561),	-- Sugar Orchid
+				}),
+			},
+		}),
+		q(78986, {	-- Getaway to Scenic Grizzly Hills! (H)
+			["qg"] = 214497,	-- Aurora Vabsley
+			["coord"] = { 41.5, 16.1, DUROTAR },
+			["races"] = HORDE_ONLY,
+			["groups"] = {
+				--[[
+				-- CRIEVE NOTE: I wanted to show how you'd add the section below as an objective.
+				objective(1, {	-- 0/12 Grizzly Hills Flower
+					["providers"] = {
+						{ "i", 210719 },	-- Grizzly Hills Flower
+						{ "o", 411560 },	-- Lavenbloom
+						{ "o", 416448 },	-- Lush Lavenbloom
+						{ "o", 416450 },	-- Lush Orange Illicium
+						{ "o", 416449 },	-- Lush Sugar Orchid
+						{ "o", 411562 },	-- Orange Illicium
+						{ "o", 411561 },	-- Sugar Orchid
+					},
+				}),
+				]]--
+				o_repeated({
+					i(210719),	-- Grizzly Hills Flower (QI!)
+					o(411560),	-- Lavenbloom
+					o(416448),	-- Lush Lavenbloom
+					o(416450),	-- Lush Orange Illicium
+					o(411562),	-- Orange Illicium
+					o(411561),	-- Sugar Orchid
+					o(416449),	-- Lush Sugar Orchid
+				}),
+			},
+		}),
+		q(78591, {	-- Getaway to Scenic Nagrand! (A)
+			["qg"] = 212677,	-- Gabbo Blinkwink
+			["coord"] = { 34.3, 51.6, ELWYNN_FOREST },
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				i(210743),	-- Borrowed Camera (QI!)
+			},
+		}),
+		q(78987, {	-- Getaway to Scenic Nagrand! (H)
+			["qg"] = 214497,	-- Aurora Vabsley
+			["coord"] = { 41.5, 16.1, DUROTAR },
+			["races"] = HORDE_ONLY,
+			["groups"] = {
+				i(210743),	-- Borrowed Camera (QI!)
+			},
+		}),
+		q(78724, {	-- Loving Yourself, Your Way (A)
+			["qg"] = 213262,	-- Ying
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
+			["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
+			["races"] = ALLIANCE_ONLY,
+		}),
+		q(78726, {	-- Loving Yourself, Your Way (A)
+			["qg"] = 213262,	-- Ying
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
+			["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				objective(1, {	-- 0/15 Treats Consumed
+				["providers"] = {
+					{ "i", 210929 },	-- Comfort Food Package
+					{ "i", 210928 },	-- Healthy Body Package
+					{ "i", 210926 },	-- Me, Myself, and Chocolate Package
 				},
 			}),
-			q(78727, {	-- Loving Yourself, Your Way (A)
-				["qg"] = 213262,	-- Ying
-				["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
-				["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
-				["races"] = ALLIANCE_ONLY,
-			}),
-			q(78979, {	-- Loving Yourself, Your Way (H)
-				["qg"] = 214591,	-- Ning
-				["coord"] = { 41.9, 16.2, DUROTAR },
-				["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
-				["races"] = HORDE_ONLY,
-			}),
-			q(78992, {	-- Loving Yourself, Your Way (H)
-				["qg"] = 214591,	-- Ning
-				["coord"] = { 41.9, 16.2, DUROTAR },
-				["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
-				["races"] = HORDE_ONLY,
-			}),
-			q(78993, {	-- Loving Yourself, Your Way (H)
-				["qg"] = 214591,	-- Ning
-				["coord"] = { 41.9, 16.2, DUROTAR },
-				["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
-				["races"] = HORDE_ONLY,
-			}),
-			q(78679, {	-- The Gift of Relaxation (A)
-				["qg"] = 213262,	-- Ying
-				["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
-				["races"] = ALLIANCE_ONLY,
-				["groups"] = {
-					i(145277),	-- Aftermath of the Second War
-					i(145289),	-- Arathor and the Troll Wars
-					i(145307),	-- The Betrayer Ascendant
-					i(145312),	-- The Twin Empires
-					i(145297),	-- The Dark Portal and the Fall of Stormwind
-					i(212468),	-- Copy of Blinking Rules & Regulations
-					i(212465),	-- Copy of Bundle of Romantic Correspondences
-					i(212463),	-- Copy of Common / Orcish Dictionary
-					i(212460),	-- Copy of Excerpts from the Journal of Archmage Vargoth
-					i(212469),	-- Copy of Polymorphic Rules & Regulations
-					i(212473),	-- Copy of The Archmage Antonidas - Part I
-					i(212474),	-- Copy of The Archmage Antonidas - Part II
-					i(212462),	-- Copy of Remedial Magic 101: Tips from the Pros
-					i(212489),	-- Copy of a Damaged Apprentice Journal
-					i(212466),	-- Copy of Losses of the Third War
-					i(212461),	-- Copy of Kirin Tor Monthly (March Issue)
-					i(212464),	-- Copy of Kirin Tor Monthly (November Issue)
-					i(212475),	-- Copy of The Archmage Antonidas - Part III
-					i(212476),	-- Copy of The Dangers of Magic Abuse
-					i(212472),	-- Copy of The Fluffy Bunny
-					i(212471),	-- Copy of the Journal of Archmage Antonidas
-					i(212459),	-- Copy of The Old Wizard's Almanac
-					i(212477),	-- Copy of The Schools of Arcane Magic - Introduction
-					i(212478),	-- Copy of The Schools of Arcane Magic - Abjuration
-					i(212479),	-- Copy of The Schools of Arcane Magic - Conjuration
-					i(212480),	-- Copy of The Schools of Arcane Magic - Divination
-					i(212481),	-- Copy of The Schools of Arcane Magic - Enchantment
-					i(212482),	-- Copy of The Schools of Arcane Magic - Illusion
-					i(212483),	-- Copy of The Schools of Arcane Magic - Necromancy
-					i(212484),	-- Copy of The Schools of Arcane Magic - Transmutation
-					i(212486),	-- Copy of The Worst Mage in Dalaran: A Children's Book
-					i(212487),	-- Copy of On the Virtues of Magic
-					i(212488),	-- Copy of Kirin Tor Monthly (May Issue)
-					i(212470),	-- Copy of Thinking with Portals - A Memorandum on Proper Portal Usage
-					i(212485),	-- Copy of Weathered Diary - Dates from the Third War
-					i(212467),	-- Discarded Advertisement
-					i(3899),	-- Legends of the Gurubashi, Volume 3
-					i(142250),	-- Aegwynn and the Dragon Hunt
-					i(145306),	-- Archimonde's Return and the Flight to Kalimdor
-					i(145278),	-- Beyond the Dark Portal
-					i(145282),	-- Charge of the Dragonflights
-					i(145309),	-- Civil War in the Plaguelands
-					i(145313),	-- Empires' Fall
-					i(145286),	-- Exile of the High Elves
-					i(145284),	-- Mount Hyjal and Illidan's Gift
-					i(145308),	-- Rise of the Blood Elves
-					i(145296),	-- Rise of the Horde
-					i(145280),	-- Sargeras and the Betrayal
-					i(145298),	-- The Alliance of Lordaeron
-					i(145300),	-- The Battle of Grim Batol
-					i(145273),	-- The Birth of the Lich King
-					i(145294),	-- The Last Guardian
-					i(145302),	-- The New Horde
-					i(145281),	-- The Old Gods and the Ordering of Azeroth
-					i(145304),	-- The Scourge of Lordaeron
-					i(145287),	-- The Sentinels and the Long Vigil
-					i(145292),	-- The Seven Kingdoms
-					i(145285),	-- The World Tree and the Emerald Dream
-					i(145293),	-- War of the Three Hammers
-					i(145314),	-- Wrath of Soulflayer
-					i(203932),	-- Sentient Book
-					-- got tired of clicking books kek
-				},
-			}),
-			q(78991, {	-- The Gift of Relaxation (H)
-				["qg"] = 214591,	-- Ning
-				["coord"] = { 41.9, 16.2, DUROTAR },
-				["races"] = HORDE_ONLY,
-				["groups"] = {
-					i(145277),	-- Aftermath of the Second War
-					i(145289),	-- Arathor and the Troll Wars
-					i(145307),	-- The Betrayer Ascendant
-					i(145312),	-- The Twin Empires
-					i(145297),	-- The Dark Portal and the Fall of Stormwind
-					i(212468),	-- Copy of Blinking Rules & Regulations
-					i(212465),	-- Copy of Bundle of Romantic Correspondences
-					i(212463),	-- Copy of Common / Orcish Dictionary
-					i(212460),	-- Copy of Excerpts from the Journal of Archmage Vargoth
-					i(212469),	-- Copy of Polymorphic Rules & Regulations
-					i(212473),	-- Copy of The Archmage Antonidas - Part I
-					i(212474),	-- Copy of The Archmage Antonidas - Part II
-					i(212462),	-- Copy of Remedial Magic 101: Tips from the Pros
-					i(212489),	-- Copy of a Damaged Apprentice Journal
-					i(212466),	-- Copy of Losses of the Third War
-					i(212461),	-- Copy of Kirin Tor Monthly (March Issue)
-					i(212464),	-- Copy of Kirin Tor Monthly (November Issue)
-					i(212475),	-- Copy of The Archmage Antonidas - Part III
-					i(212476),	-- Copy of The Dangers of Magic Abuse
-					i(212472),	-- Copy of The Fluffy Bunny
-					i(212471),	-- Copy of the Journal of Archmage Antonidas
-					i(212459),	-- Copy of The Old Wizard's Almanac
-					i(212477),	-- Copy of The Schools of Arcane Magic - Introduction
-					i(212478),	-- Copy of The Schools of Arcane Magic - Abjuration
-					i(212479),	-- Copy of The Schools of Arcane Magic - Conjuration
-					i(212480),	-- Copy of The Schools of Arcane Magic - Divination
-					i(212481),	-- Copy of The Schools of Arcane Magic - Enchantment
-					i(212482),	-- Copy of The Schools of Arcane Magic - Illusion
-					i(212483),	-- Copy of The Schools of Arcane Magic - Necromancy
-					i(212484),	-- Copy of The Schools of Arcane Magic - Transmutation
-					i(212486),	-- Copy of The Worst Mage in Dalaran: A Children's Book
-					i(212487),	-- Copy of On the Virtues of Magic
-					i(212488),	-- Copy of Kirin Tor Monthly (May Issue)
-					i(212470),	-- Copy of Thinking with Portals - A Memorandum on Proper Portal Usage
-					i(212485),	-- Copy of Weathered Diary - Dates from the Third War
-					i(212467),	-- Discarded Advertisement
-					i(3899),	-- Legends of the Gurubashi, Volume 3
-					i(142250),	-- Aegwynn and the Dragon Hunt
-					i(145306),	-- Archimonde's Return and the Flight to Kalimdor
-					i(145278),	-- Beyond the Dark Portal
-					i(145282),	-- Charge of the Dragonflights
-					i(145309),	-- Civil War in the Plaguelands
-					i(145313),	-- Empires' Fall
-					i(145286),	-- Exile of the High Elves
-					i(145284),	-- Mount Hyjal and Illidan's Gift
-					i(145308),	-- Rise of the Blood Elves
-					i(145296),	-- Rise of the Horde
-					i(145280),	-- Sargeras and the Betrayal
-					i(145298),	-- The Alliance of Lordaeron
-					i(145300),	-- The Battle of Grim Batol
-					i(145273),	-- The Birth of the Lich King
-					i(145294),	-- The Last Guardian
-					i(145302),	-- The New Horde
-					i(145281),	-- The Old Gods and the Ordering of Azeroth
-					i(145304),	-- The Scourge of Lordaeron
-					i(145287),	-- The Sentinels and the Long Vigil
-					i(145292),	-- The Seven Kingdoms
-					i(145285),	-- The World Tree and the Emerald Dream
-					i(145293),	-- War of the Three Hammers
-					i(145314),	-- Wrath of Soulflayer
-					i(203932),	-- Sentient Book
-					-- got tired of clicking books kek
-				},
-			}),
-			q(78674, {	-- The Gift of Relief (A)
-				["qg"] = 213262,	-- Ying
-				["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
-				["races"] = ALLIANCE_ONLY,
-			}),
-			q(78990, {	-- The Gift of Relief (H)
-				["qg"] = 214591,	-- Ning
-				["coord"] = { 41.9, 16.2, DUROTAR },
-				["races"] = HORDE_ONLY,
-			}),
-			q(78664, {	-- The Gift of Self-Care (A)
-				["qg"] = 213262,	-- Ying
-				["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
-				["races"] = ALLIANCE_ONLY,
-			}),
-			q(78989, {	-- The Gift of Self-Care (H)
-				["qg"] = 214591,	-- Ning
-				["coord"] = { 41.9, 16.2, DUROTAR },
-				["races"] = HORDE_ONLY,
-			}),
-		}))),
-	}),
+			},
+		}),
+		q(78727, {	-- Loving Yourself, Your Way (A)
+			["qg"] = 213262,	-- Ying
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
+			["sourceQuest"] = 78664,	-- The Gift of Self-Care (A)
+			["races"] = ALLIANCE_ONLY,
+		}),
+		q(78979, {	-- Loving Yourself, Your Way (H)
+			["qg"] = 214591,	-- Ning
+			["coord"] = { 41.9, 16.2, DUROTAR },
+			["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
+			["races"] = HORDE_ONLY,
+		}),
+		q(78992, {	-- Loving Yourself, Your Way (H)
+			["qg"] = 214591,	-- Ning
+			["coord"] = { 41.9, 16.2, DUROTAR },
+			["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
+			["races"] = HORDE_ONLY,
+		}),
+		q(78993, {	-- Loving Yourself, Your Way (H)
+			["qg"] = 214591,	-- Ning
+			["coord"] = { 41.9, 16.2, DUROTAR },
+			["sourceQuest"] = 78989,	-- The Gift of Self-Care (H)
+			["races"] = HORDE_ONLY,
+		}),
+		q(78679, {	-- The Gift of Relaxation (A)
+			["qg"] = 213262,	-- Ying
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
+			["races"] = ALLIANCE_ONLY,
+			["groups"] = {
+				i(145277),	-- Aftermath of the Second War
+				i(145289),	-- Arathor and the Troll Wars
+				i(145307),	-- The Betrayer Ascendant
+				i(145312),	-- The Twin Empires
+				i(145297),	-- The Dark Portal and the Fall of Stormwind
+				i(212468),	-- Copy of Blinking Rules & Regulations
+				i(212465),	-- Copy of Bundle of Romantic Correspondences
+				i(212463),	-- Copy of Common / Orcish Dictionary
+				i(212460),	-- Copy of Excerpts from the Journal of Archmage Vargoth
+				i(212469),	-- Copy of Polymorphic Rules & Regulations
+				i(212473),	-- Copy of The Archmage Antonidas - Part I
+				i(212474),	-- Copy of The Archmage Antonidas - Part II
+				i(212462),	-- Copy of Remedial Magic 101: Tips from the Pros
+				i(212489),	-- Copy of a Damaged Apprentice Journal
+				i(212466),	-- Copy of Losses of the Third War
+				i(212461),	-- Copy of Kirin Tor Monthly (March Issue)
+				i(212464),	-- Copy of Kirin Tor Monthly (November Issue)
+				i(212475),	-- Copy of The Archmage Antonidas - Part III
+				i(212476),	-- Copy of The Dangers of Magic Abuse
+				i(212472),	-- Copy of The Fluffy Bunny
+				i(212471),	-- Copy of the Journal of Archmage Antonidas
+				i(212459),	-- Copy of The Old Wizard's Almanac
+				i(212477),	-- Copy of The Schools of Arcane Magic - Introduction
+				i(212478),	-- Copy of The Schools of Arcane Magic - Abjuration
+				i(212479),	-- Copy of The Schools of Arcane Magic - Conjuration
+				i(212480),	-- Copy of The Schools of Arcane Magic - Divination
+				i(212481),	-- Copy of The Schools of Arcane Magic - Enchantment
+				i(212482),	-- Copy of The Schools of Arcane Magic - Illusion
+				i(212483),	-- Copy of The Schools of Arcane Magic - Necromancy
+				i(212484),	-- Copy of The Schools of Arcane Magic - Transmutation
+				i(212486),	-- Copy of The Worst Mage in Dalaran: A Children's Book
+				i(212487),	-- Copy of On the Virtues of Magic
+				i(212488),	-- Copy of Kirin Tor Monthly (May Issue)
+				i(212470),	-- Copy of Thinking with Portals - A Memorandum on Proper Portal Usage
+				i(212485),	-- Copy of Weathered Diary - Dates from the Third War
+				i(212467),	-- Discarded Advertisement
+				i(3899),	-- Legends of the Gurubashi, Volume 3
+				i(142250),	-- Aegwynn and the Dragon Hunt
+				i(145306),	-- Archimonde's Return and the Flight to Kalimdor
+				i(145278),	-- Beyond the Dark Portal
+				i(145282),	-- Charge of the Dragonflights
+				i(145309),	-- Civil War in the Plaguelands
+				i(145313),	-- Empires' Fall
+				i(145286),	-- Exile of the High Elves
+				i(145284),	-- Mount Hyjal and Illidan's Gift
+				i(145308),	-- Rise of the Blood Elves
+				i(145296),	-- Rise of the Horde
+				i(145280),	-- Sargeras and the Betrayal
+				i(145298),	-- The Alliance of Lordaeron
+				i(145300),	-- The Battle of Grim Batol
+				i(145273),	-- The Birth of the Lich King
+				i(145294),	-- The Last Guardian
+				i(145302),	-- The New Horde
+				i(145281),	-- The Old Gods and the Ordering of Azeroth
+				i(145304),	-- The Scourge of Lordaeron
+				i(145287),	-- The Sentinels and the Long Vigil
+				i(145292),	-- The Seven Kingdoms
+				i(145285),	-- The World Tree and the Emerald Dream
+				i(145293),	-- War of the Three Hammers
+				i(145314),	-- Wrath of Soulflayer
+				i(203932),	-- Sentient Book
+				-- got tired of clicking books kek
+			},
+		}),
+		q(78991, {	-- The Gift of Relaxation (H)
+			["qg"] = 214591,	-- Ning
+			["coord"] = { 41.9, 16.2, DUROTAR },
+			["races"] = HORDE_ONLY,
+			["groups"] = {
+				i(145277),	-- Aftermath of the Second War
+				i(145289),	-- Arathor and the Troll Wars
+				i(145307),	-- The Betrayer Ascendant
+				i(145312),	-- The Twin Empires
+				i(145297),	-- The Dark Portal and the Fall of Stormwind
+				i(212468),	-- Copy of Blinking Rules & Regulations
+				i(212465),	-- Copy of Bundle of Romantic Correspondences
+				i(212463),	-- Copy of Common / Orcish Dictionary
+				i(212460),	-- Copy of Excerpts from the Journal of Archmage Vargoth
+				i(212469),	-- Copy of Polymorphic Rules & Regulations
+				i(212473),	-- Copy of The Archmage Antonidas - Part I
+				i(212474),	-- Copy of The Archmage Antonidas - Part II
+				i(212462),	-- Copy of Remedial Magic 101: Tips from the Pros
+				i(212489),	-- Copy of a Damaged Apprentice Journal
+				i(212466),	-- Copy of Losses of the Third War
+				i(212461),	-- Copy of Kirin Tor Monthly (March Issue)
+				i(212464),	-- Copy of Kirin Tor Monthly (November Issue)
+				i(212475),	-- Copy of The Archmage Antonidas - Part III
+				i(212476),	-- Copy of The Dangers of Magic Abuse
+				i(212472),	-- Copy of The Fluffy Bunny
+				i(212471),	-- Copy of the Journal of Archmage Antonidas
+				i(212459),	-- Copy of The Old Wizard's Almanac
+				i(212477),	-- Copy of The Schools of Arcane Magic - Introduction
+				i(212478),	-- Copy of The Schools of Arcane Magic - Abjuration
+				i(212479),	-- Copy of The Schools of Arcane Magic - Conjuration
+				i(212480),	-- Copy of The Schools of Arcane Magic - Divination
+				i(212481),	-- Copy of The Schools of Arcane Magic - Enchantment
+				i(212482),	-- Copy of The Schools of Arcane Magic - Illusion
+				i(212483),	-- Copy of The Schools of Arcane Magic - Necromancy
+				i(212484),	-- Copy of The Schools of Arcane Magic - Transmutation
+				i(212486),	-- Copy of The Worst Mage in Dalaran: A Children's Book
+				i(212487),	-- Copy of On the Virtues of Magic
+				i(212488),	-- Copy of Kirin Tor Monthly (May Issue)
+				i(212470),	-- Copy of Thinking with Portals - A Memorandum on Proper Portal Usage
+				i(212485),	-- Copy of Weathered Diary - Dates from the Third War
+				i(212467),	-- Discarded Advertisement
+				i(3899),	-- Legends of the Gurubashi, Volume 3
+				i(142250),	-- Aegwynn and the Dragon Hunt
+				i(145306),	-- Archimonde's Return and the Flight to Kalimdor
+				i(145278),	-- Beyond the Dark Portal
+				i(145282),	-- Charge of the Dragonflights
+				i(145309),	-- Civil War in the Plaguelands
+				i(145313),	-- Empires' Fall
+				i(145286),	-- Exile of the High Elves
+				i(145284),	-- Mount Hyjal and Illidan's Gift
+				i(145308),	-- Rise of the Blood Elves
+				i(145296),	-- Rise of the Horde
+				i(145280),	-- Sargeras and the Betrayal
+				i(145298),	-- The Alliance of Lordaeron
+				i(145300),	-- The Battle of Grim Batol
+				i(145273),	-- The Birth of the Lich King
+				i(145294),	-- The Last Guardian
+				i(145302),	-- The New Horde
+				i(145281),	-- The Old Gods and the Ordering of Azeroth
+				i(145304),	-- The Scourge of Lordaeron
+				i(145287),	-- The Sentinels and the Long Vigil
+				i(145292),	-- The Seven Kingdoms
+				i(145285),	-- The World Tree and the Emerald Dream
+				i(145293),	-- War of the Three Hammers
+				i(145314),	-- Wrath of Soulflayer
+				i(203932),	-- Sentient Book
+				-- got tired of clicking books kek
+			},
+		}),
+		q(78674, {	-- The Gift of Relief (A)
+			["qg"] = 213262,	-- Ying
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
+			["races"] = ALLIANCE_ONLY,
+		}),
+		q(78990, {	-- The Gift of Relief (H)
+			["qg"] = 214591,	-- Ning
+			["coord"] = { 41.9, 16.2, DUROTAR },
+			["races"] = HORDE_ONLY,
+		}),
+		q(78664, {	-- The Gift of Self-Care (A)
+			["qg"] = 213262,	-- Ying
+			["coord"] = { 35.2, 50.5, ELWYNN_FOREST },
+			["races"] = ALLIANCE_ONLY,
+		}),
+		q(78989, {	-- The Gift of Self-Care (H)
+			["qg"] = 214591,	-- Ning
+			["coord"] = { 41.9, 16.2, DUROTAR },
+			["races"] = HORDE_ONLY,
+		}),
+	}))),
 	n(REWARDS, {
 		-- #if BEFORE 3.3.2.11403
 		["providers"] = {
@@ -3541,9 +3541,17 @@ for i,o in ipairs({
 	table.insert(BOSS_GROUPS, o);
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
+-- #if AFTER 3.3.0
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, {
 	applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_HEADER, {
+		-- #if BEFORE LEGION
 		n(QUESTS, {
+			q(24661, {	-- Crush the Crown Daily Tracker / Theryn Fed Tracker [LEGION]
+				["timeline"] = { ADDED_3_3_0 },
+			}),
+		}),
+		-- #endif
+		n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }, {
 			q(79143),	-- Completed alongside Love is in the Air (A)
 			q(79144),	-- Completed alongside Love is in the Air (H)
 			q(78734),	-- After choosing "a challenge" for The Gift of Self-Care
@@ -3551,6 +3559,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 			q(78736),	-- After choosing "a nap" for The Gift of Self-Care
 			q(78475),	-- Interacting with a bottle of perfume during I Smell Trouble (A)
 			q(78476),	-- Interacting with a box during I Smell Trouble (A)
-		}),
-	})),
+		})),
+	}),
 })));
+-- #endif
