@@ -2311,7 +2311,7 @@ root(ROOTS.Zones, {
 		}),
 		o(175747, {	-- The Invasion of Draenor
 			-- #if AFTER CATA
-			["description"] = "Scholomance: West side wall, near north-west corner of Lilian Voss encounter room.",
+			["description"] = "Scholomance: East side wall, near north-east corner of Lilian Voss encounter room.",
 			-- #endif
 			["maps"] = { SCHOLOMANCE },
 		}),

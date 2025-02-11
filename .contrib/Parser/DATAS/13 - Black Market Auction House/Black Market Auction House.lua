@@ -49,6 +49,14 @@ root(ROOTS.BlackMarket, {
 	})),
 });
 root(ROOTS.BlackMarket, bubbleDown({ ["u"] = BLACK_MARKET, },{
+	n(ACHIEVEMENTS, {
+		ach(881, {	-- Swift Razzashi Raptor
+			["provider"] = { "i", 19872 },	-- Swift Razzashi Raptor
+		}),
+		ach(880, {	-- Swift Zulian Tiger
+			["provider"] = { "i", 19902 },	-- Swift Zulian Tiger
+		}),
+	}),
 	filter(BAGS, {
 		i(183634),	-- Papa's Mint Condition Bag (9.1)
 	}),

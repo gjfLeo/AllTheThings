@@ -3560,6 +3560,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, {
 			q(78475),	-- Interacting with a bottle of perfume during I Smell Trouble (A)
 			q(78476),	-- Interacting with a box during I Smell Trouble (A)
 		})),
-	}),
-})));
+	})),
+}));
 -- #endif
