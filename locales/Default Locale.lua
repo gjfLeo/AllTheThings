@@ -1128,6 +1128,7 @@ L.TOOLTIP_MODULE = {
 		COLLECTOR = "Collector";
 	},
 	TITLES = {
+		XX_BRINGER_OF_FLAMES = "%s, Bringer of Flames";
 		XX_THE_COMPLETIONIST = "%s the Completionist";
 		XX_THE_CONTRIBUTOR = "%s";	-- NOTE: Contributors didn't want a different title.
 		XX_THE_EXTERMINATOR = "%s the Exterminator";

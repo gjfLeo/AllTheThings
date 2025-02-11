@@ -476,6 +476,27 @@ for i,guid in ipairs({
 	PLAYER_TOOLTIPS[guid] = tooltipFunction;
 end
 
+-- BRINGER_OF_FLAMES GUID
+local BRINGER_OF_FLAMES_TITLE = app.Modules.Color.Colorize(L.TOOLTIP_MODULE.TITLES.XX_BRINGER_OF_FLAMES, "ffa335ee");
+tooltipFunction = function(self, locClass, engClass, locRace, engRace, gender, name, server)
+	local leftSide = _G[self:GetName() .. "TextLeft1"];
+	if leftSide then leftSide:SetText(BRINGER_OF_FLAMES_TITLE:format(name)); end
+end
+for i,guid in ipairs({
+	"Player-4372-03E59723",	-- Sarkan-Atiesh
+	"Player-4372-03E59B16",	-- Vapid-Atiesh
+	"Player-4372-03FB9D25",	-- Psark-Atiesh
+	"Player-4372-03E59A2D",	-- Trite-Atiesh
+	"Player-4372-03F43929",	-- Faletupe-Atiesh
+	"Player-4372-03F6DD89",	-- Toiletcat-Atiesh
+	"Player-4372-03F6AF1A",	-- Hoofsies-Atiesh
+	"Player-4372-03E59A78",	-- Xisis-Atiesh
+	"Player-4372-03E6CD1C",	-- Quickibanki-Atiesh
+	"Player-4372-03FDCBF9",	-- Muttstuff-Atiesh
+}) do
+	PLAYER_TOOLTIPS[guid] = tooltipFunction;
+end
+
 -- Pinkey GUID
 tooltipFunction = function(self, locClass, engClass, locRace, engRace, gender, name, server)
 	local leftSide = _G[self:GetName() .. "TextLeft1"];
