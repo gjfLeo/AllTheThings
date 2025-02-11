@@ -1303,8 +1303,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 
 MEMORY_OF_A_VITAL_SACRIFICE.customCollect = nil;
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCollect"] = "SL_COV_NFA" }, {
-	n(NIGHT_FAE, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(NIGHT_FAE,  bubbleDown({ ["customCollect"] = "SL_COV_NFA" }, {
 		q(61901),	-- unlocking Faewoven Regalia/Oakheart Raiment sets (TransmogSetID 2047/2051, Faewoven/Oakheart items)
 		q(61907),	-- unlocking Night Courtier's Regalia set (TransmogSetID 2048, Night Courtier's cloth items)
 		q(61906),	-- unlocking Night Courtier's Raiment set (TransmogSetID 2054, Night Courtier's leather items)
@@ -1314,5 +1314,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCol
 		q(61904),	-- unlocking Night Courtier's Warbark set (TransmogSetID 2060, Night Courtier's plate items)
 		q(62410),	-- unlocking Night Courtier's Bulb
 		q(62412),	-- unlocking Night Courtier's Pack
-	}),
-})))
+	})),
+})));

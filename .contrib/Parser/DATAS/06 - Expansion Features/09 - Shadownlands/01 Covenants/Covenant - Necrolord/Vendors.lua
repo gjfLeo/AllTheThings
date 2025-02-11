@@ -1304,8 +1304,8 @@ for _,t in ipairs({CHRONICLE_OF_LOST_MEMORIES, MEMORY_OF_A_VITAL_SACRIFICE}) do
 	t.customCollect = nil;
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(NECROLORD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(NECROLORD,  bubbleDown({ ["customCollect"] = "SL_COV_NEC" }, {
 		n(VENDORS, {
 			q(62005),	-- unlocking Rationale of Maldraxxus set (TransmogSetID 2031, Prime Conjurer's items)
 			q(62009),	-- unlocking Wisdom of Maldraxxus set (TransmogSetID 2032, Bladesworn Conjurer's items)
@@ -1316,5 +1316,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 			q(62006),	-- unlocking Might of Maldraxxus set (TransmogSetID 2043, Bladesworn Harbinger's items)
 			q(62002),	-- unlocking Authority of Maldraxxus set (TransmogSetID 2044, Prime Harbinger's items)
 		}),
-	}),
+	})),
 })));

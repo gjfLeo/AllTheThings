@@ -1752,8 +1752,8 @@ for _,g in ipairs({ECHTHRA_GROUP,BINKIROS_GROUP,PHIXIN_GROUP,ZELESKOS_GROUP,{BRI
 	end
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(KYRIAN, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(KYRIAN,  bubbleDown({ ["customCollect"] = "SL_COV_KYR" }, {
 		n(SANCTUM_UPGRADES, {
 			n(PATH_OF_ASCENSION, {
 				q(60936),	-- Completed when crafting "Herald's Footpads" with Ascension Crafting
@@ -1891,5 +1891,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 				q(63165),	-- after earning "To the Moon" (achievementID 14887) (spellID 347027)
 			}),
 		}),
-	}),
+	})),
 })));

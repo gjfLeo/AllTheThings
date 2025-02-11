@@ -168,10 +168,8 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 }));
 -- #endif
 
--- #if AFTER 10.1.0
-root(ROOTS.HiddenQuestTriggers, m(DRAGON_ISLES, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0} }, {
 	n(DIABLO_EVENTS, {
 		q(76216),	-- 'Bonus loot' if Tyrael's Charger unlearned / first goblin kill per day for account
 	}),
-}));
--- #endif
+})));

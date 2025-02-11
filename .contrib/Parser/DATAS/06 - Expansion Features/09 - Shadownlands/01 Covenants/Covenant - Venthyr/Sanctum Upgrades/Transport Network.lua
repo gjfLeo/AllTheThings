@@ -386,8 +386,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
-	n(VENTHYR, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(VENTHYR, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
 		n(SANCTUM_UPGRADES, {
 			n(TRANSPORT_NETWORK, {
 				q(62034),	-- unlocking Soulbreaker's Burnished Vestments set (TransmogSetID 2064, Soulbreaker's Burnished items)
@@ -396,5 +396,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCol
 				q(62022),	-- unlocking Dread Sentinel's Burnished Battleplate set (TransmogSetID 2076, Dread Sentinel's Burnished items)
 			}),
 		}),
-	}),
-})))
+	})),
+})));

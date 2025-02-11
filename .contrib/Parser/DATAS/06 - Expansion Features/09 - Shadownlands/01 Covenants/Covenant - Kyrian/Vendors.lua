@@ -1474,10 +1474,10 @@ for _,t in ipairs({CHRONICLE_OF_LOST_MEMORIES, MEMORY_OF_A_VITAL_SACRIFICE}) do
 	t.customCollect = nil;
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(KYRIAN, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(KYRIAN,  bubbleDown({ ["customCollect"] = "SL_COV_KYR" }, {
 		n(VENDORS, {
 			q(60595),	-- unlocking 12 Kyrian sets, no idea why they all have the same TrackingQuestID: https://wow.tools/dbc/?dbc=transmogset&build=9.1.5.40944#page=1&colFilter[3]=60595
 		}),
-	}),
+	})),
 })));

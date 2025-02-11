@@ -65,7 +65,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 WISPS_OF_MEMORY.customCollect = nil;
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(NECROLORD, {
+	n(NECROLORD,  bubbleDown({ ["customCollect"] = "SL_COV_NEC" }, {
 		n(RENOWN, {
 			q(62753),	-- Reaching Renown 19 / unlocking Deepening Bond 4% stam increase
 			q(62754),	-- Reaching Renown 35 / unlocking Deepening Bond 6% stam increase
@@ -95,5 +95,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 			q(65109, {["timeline"] = {ADDED_9_1_5}}),	-- hitting Renown 15 (Anima instead of Soulkeeper Upgrade)
 			q(65110, {["timeline"] = {ADDED_9_1_5}}),	-- hitting Renown 24 (Anima instead of Soulkeeper Upgrade)
 		}),
-	}),
+	})),
 })));

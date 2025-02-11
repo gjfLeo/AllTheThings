@@ -220,7 +220,7 @@ root(ROOTS.Promotions, {
 	}),
 });
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
 	n(HEARTHSTONE, {
 		q(79451),	-- After first daily kill of Dr. Boom (maybe bag loot trigger?)
 		q(79452),	-- After first daily kill of Dr. Boom (maybe something else trigger?)

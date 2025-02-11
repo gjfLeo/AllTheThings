@@ -2392,185 +2392,190 @@ for _,g in ipairs({ALEXANDROS_GROUP, VASHJ_GROUP, CHOOFA_GROUP, KASSIR_GROUP, DO
 	end
 end
 
-root(ROOTS.HiddenQuestTriggers, {
-	n(EMBER_COURT, {
-	-- Dredger Butler Appearance
-		q(61581),	-- Choosing Purple during "Shades of Muck" (questID 61851)
-		q(61584),	-- Choosing Blue during "Shades of Muck" (questID 61851)
-		q(61579),	-- Choosing Green during "Shades of Muck" (questID 61851)
-		q(61580),	-- Choosing Red during "Shades of Muck" (questID 61851)
-		q(61583),	-- When completing "Shades of Muck" (questID 61851) with Purple chosen (spellID 348799)
-		q(61793),	-- Choosing name 'Rogi' during 'Dredging up a Name' (61764)
-		q(61794),	-- Choosing name 'Grubber' during 'Dredging up a Name' (61764)
-		q(61795),	-- Choosing name 'Jeebs' during 'Dredging up a Name' (61764)
-		q(61796),	-- Choosing name 'Smither' during 'Dredging up a Name' (61764)
-		q(61797),	-- Choosing name 'Higgs' during 'Dredging up a Name' (61764)
-		q(61798),	-- Choosing name 'Muckworth Muddington III' during 'Dredging up a Name' (61764)
-		q(61799),	-- Choosing name 'Belvy' during 'Dredging up a Name' (61764)
-		q(61800),	-- Choosing name 'Wustur' during 'Dredging up a Name' (61764)
-		q(61801),	-- Choosing name 'Riff' during 'Dredging up a Name' (61764)
-		q(61802),	-- Choosing name 'Egor' during 'Dredging up a Name' (61764)
-		q(61803),	-- Choosing name 'Dredgeworth' during 'Dredging up a Name' (61764)
-		q(61804),	-- Choosing name 'Furgus' during 'Dredging up a Name' (61764)
-		q(61805),	-- Choosing name 'Colem' during 'Dredging up a Name' (61764)
-		q(61806),	-- Choosing name 'Panns' during 'Dredging up a Name' (61764)
-		q(61807),	-- Choosing name 'Mucky' during 'Dredging up a Name' (61764)
-		q(61808),	-- Choosing name 'Dobb' during 'Dredging up a Name' (61764)
-		q(61809),	-- Choosing name 'Sweepy' during 'Dredging up a Name' (61764)
-		q(61810),	-- Choosing name 'Copperworth' during 'Dredging up a Name' (61764)
-		q(61811),	-- Choosing name 'Fred' during 'Dredging up a Name' (61764)
-		q(61812),	-- Choosing name 'Raff' during 'Dredging up a Name' (61764)
-		q(61582),	-- Let's get your hair sorted. > Let's trim it off ... (spellID 348799)
-		q(61572),	-- Let's get your hair sorted. > A little grease and the proper Igor cut.
-		q(61571),	-- Let's get your hair sorted. > How about you grow it out full?
-		q(61573),	-- Let's get your hair sorted. > Let's go wild and spikey!
-		q(61570),	-- Let's get your hair sorted. > I swear you will look great in a cap.
-		q(63926),	-- Let's get your hair sorted. > [Party Hat]
-		q(63927),	-- Let's get your hair sorted. > It's time to don the Bewitching Little Hat
-		q(61575),	-- Let's update your clothes. > How about we try the long sleeved doublet.
-		q(61574),	-- Let's update your clothes. > Why don't you try on the short sleeved doublet.
-		q(61585),	-- It's time to dye your clothes. > Let's dye them black. (spellID 348799)
-		q(61578),	-- It's time to dye your clothes. > Let's dye them green.
-		q(61576),	-- It's time to dye your clothes. > Let's dye them red.
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(VENTHYR, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
+		n(SANCTUM_UPGRADES, {
+			n(EMBER_COURT, {
+			-- Dredger Butler Appearance
+				q(61581),	-- Choosing Purple during "Shades of Muck" (questID 61851)
+				q(61584),	-- Choosing Blue during "Shades of Muck" (questID 61851)
+				q(61579),	-- Choosing Green during "Shades of Muck" (questID 61851)
+				q(61580),	-- Choosing Red during "Shades of Muck" (questID 61851)
+				q(61583),	-- When completing "Shades of Muck" (questID 61851) with Purple chosen (spellID 348799)
+				q(61793),	-- Choosing name 'Rogi' during 'Dredging up a Name' (61764)
+				q(61794),	-- Choosing name 'Grubber' during 'Dredging up a Name' (61764)
+				q(61795),	-- Choosing name 'Jeebs' during 'Dredging up a Name' (61764)
+				q(61796),	-- Choosing name 'Smither' during 'Dredging up a Name' (61764)
+				q(61797),	-- Choosing name 'Higgs' during 'Dredging up a Name' (61764)
+				q(61798),	-- Choosing name 'Muckworth Muddington III' during 'Dredging up a Name' (61764)
+				q(61799),	-- Choosing name 'Belvy' during 'Dredging up a Name' (61764)
+				q(61800),	-- Choosing name 'Wustur' during 'Dredging up a Name' (61764)
+				q(61801),	-- Choosing name 'Riff' during 'Dredging up a Name' (61764)
+				q(61802),	-- Choosing name 'Egor' during 'Dredging up a Name' (61764)
+				q(61803),	-- Choosing name 'Dredgeworth' during 'Dredging up a Name' (61764)
+				q(61804),	-- Choosing name 'Furgus' during 'Dredging up a Name' (61764)
+				q(61805),	-- Choosing name 'Colem' during 'Dredging up a Name' (61764)
+				q(61806),	-- Choosing name 'Panns' during 'Dredging up a Name' (61764)
+				q(61807),	-- Choosing name 'Mucky' during 'Dredging up a Name' (61764)
+				q(61808),	-- Choosing name 'Dobb' during 'Dredging up a Name' (61764)
+				q(61809),	-- Choosing name 'Sweepy' during 'Dredging up a Name' (61764)
+				q(61810),	-- Choosing name 'Copperworth' during 'Dredging up a Name' (61764)
+				q(61811),	-- Choosing name 'Fred' during 'Dredging up a Name' (61764)
+				q(61812),	-- Choosing name 'Raff' during 'Dredging up a Name' (61764)
+				q(61582),	-- Let's get your hair sorted. > Let's trim it off ... (spellID 348799)
+				q(61572),	-- Let's get your hair sorted. > A little grease and the proper Igor cut.
+				q(61571),	-- Let's get your hair sorted. > How about you grow it out full?
+				q(61573),	-- Let's get your hair sorted. > Let's go wild and spikey!
+				q(61570),	-- Let's get your hair sorted. > I swear you will look great in a cap.
+				q(63926),	-- Let's get your hair sorted. > [Party Hat]
+				q(63927),	-- Let's get your hair sorted. > It's time to don the Bewitching Little Hat
+				q(61575),	-- Let's update your clothes. > How about we try the long sleeved doublet.
+				q(61574),	-- Let's update your clothes. > Why don't you try on the short sleeved doublet.
+				q(61585),	-- It's time to dye your clothes. > Let's dye them black. (spellID 348799)
+				q(61578),	-- It's time to dye your clothes. > Let's dye them green.
+				q(61576),	-- It's time to dye your clothes. > Let's dye them red.
 
-	-- Ember Court
-		-- Guest Selections
-			q(59626),	-- Guest Selected for Ember Court: Baroness Vashj
-			q(59627),	-- Guest Selected for Ember Court: Lady Moonberry
-			q(59628),	-- Guest Selected for Ember Court: Mikanikos
-			q(59629),	-- Guest Selected for Ember Court: The Countess
-			q(59630),	-- Guest Selected for Ember Court: Alexandros Morgraine
-			q(59631),	-- Guest Selected for Ember Court: Hunt-Captain Korayn
-			q(59632),	-- Guest Selected for Ember Court: Polemarch Adrestes
-			q(59633),	-- Guest Selected for Ember Court: Rendle and Cudgelface
-			q(59634),	-- Guest Selected for Ember Court: Choofa
-			q(59635),	-- Guest Selected for Ember Court: Cryptkeeper Kassir
-			q(59636),	-- Guest Selected for Ember Court: Droman Aliothe
-			q(59637),	-- Guest Selected for Ember Court: Grandmaster Vole
-			q(59638),	-- Guest Selected for Ember Court: Kleia and Pelagos
-			q(59639),	-- Guest Selected for Ember Court: Plague Deviser Marileth
-			q(59640),	-- Guest Selected for Ember Court: Sika
-			q(60319),	-- Guest Selected for Ember Court: Stonehead
+			-- Ember Court
+				-- Guest Selections
+					q(59626),	-- Guest Selected for Ember Court: Baroness Vashj
+					q(59627),	-- Guest Selected for Ember Court: Lady Moonberry
+					q(59628),	-- Guest Selected for Ember Court: Mikanikos
+					q(59629),	-- Guest Selected for Ember Court: The Countess
+					q(59630),	-- Guest Selected for Ember Court: Alexandros Morgraine
+					q(59631),	-- Guest Selected for Ember Court: Hunt-Captain Korayn
+					q(59632),	-- Guest Selected for Ember Court: Polemarch Adrestes
+					q(59633),	-- Guest Selected for Ember Court: Rendle and Cudgelface
+					q(59634),	-- Guest Selected for Ember Court: Choofa
+					q(59635),	-- Guest Selected for Ember Court: Cryptkeeper Kassir
+					q(59636),	-- Guest Selected for Ember Court: Droman Aliothe
+					q(59637),	-- Guest Selected for Ember Court: Grandmaster Vole
+					q(59638),	-- Guest Selected for Ember Court: Kleia and Pelagos
+					q(59639),	-- Guest Selected for Ember Court: Plague Deviser Marileth
+					q(59640),	-- Guest Selected for Ember Court: Sika
+					q(60319),	-- Guest Selected for Ember Court: Stonehead
 
-		-- Free RSVP Revokes
-			q(61389),	-- 1st free revoke RSVP per week
-			q(61390),	-- 2nd free revoke RSVP per week
-			q(61889),	-- 3rd free revoke RSVP per week
-			q(61890),	-- 4th free revoke RSVP per week
+				-- Free RSVP Revokes
+					q(61389),	-- 1st free revoke RSVP per week
+					q(61390),	-- 2nd free revoke RSVP per week
+					q(61889),	-- 3rd free revoke RSVP per week
+					q(61890),	-- 4th free revoke RSVP per week
 
-		-- First Time Elated
-			q(62507),	-- First time Elated with 'Rendle & Cudgelface'
+				-- First Time Elated
+					q(62507),	-- First time Elated with 'Rendle & Cudgelface'
 
-		-- Events
-			q(60785),	-- 'Party Crashers' started
+				-- Events
+					q(60785),	-- 'Party Crashers' started
 
-		-- RSVPs
-			q(59382),	-- when using "RSVP: Baroness Vashj" — every time
-			q(59383),	-- when using "RSVP: Baroness Vashj" — first time only
-			q(59406),	-- when using "RSVP: Choofa" — every time
-			q(59407),	-- when using "RSVP: Choofa" — first time only
-			q(59409),	-- when using "RSVP: Cryptkeeper Kassir" — every time
-			q(59410),	-- when using "RSVP: Cryptkeeper Kassir" — first time only
-			q(59412),	-- when using "RSVP: Droman Aliothe" — every time
-			q(59413),	-- when using "RSVP: Droman Aliothe" — first time only
-			q(59415),	-- when using "RSVP: Grandmaster Vole" — every time
-			q(59416),	-- when using "RSVP: Grandmaster Vole" — first time only
-			q(59397),	-- when using "RSVP: Hunt-Captain Korayn" — every time
-			q(59398),	-- when using "RSVP: Hunt-Captain Korayn" — first time only
-			q(59418),	-- when using "RSVP: Kleia and Pelagos" — every time
-			q(59419),	-- when using "RSVP: Kleia and Pelagos" — first time only
-			q(59385),	-- when using "RSVP: Lady Moonberry" — every time
-			q(59386),	-- when using "RSVP: Lady Moonberry" — first time only
-			q(59388),	-- when using "RSVP: Mikanikos" — every time
-			q(59389),	-- when using "RSVP: Mikanikos" — first time only
-			q(59421),	-- when using "RSVP: Plague Deviser Marileth" (176124) — every time
-			q(59422),	-- when using "RSVP: Plague Deviser Marileth" (176124) — first time only
-			q(59400),	-- when using 'RSVP: Polemarch Adrestes' (176117) — every time
-			q(59401),	-- when using 'RSVP: Polemarch Adrestes' (176117) — first time only
-			q(59403),	-- when using "RSVP: Rendle and Cudgelface" (176118) — every time
-			q(59404),	-- when using "RSVP: Rendle and Cudgelface" (176118) — first time only
-			q(59424),	-- when using "RSVP: Sika" — every time
-			q(59425),	-- when using "RSVP: Sika" — first time only
-			q(59618),	-- when using "RSVP: Stonehead" — every time
-			q(59619),	-- when using "RSVP: Stonehead" — first time only
-			q(59394),	-- when using "RSVP: Alexandros Morgraine" — every time
-			q(59395),	-- when using "RSVP: Alexandros Morgraine" — first time only
-			q(59391),	-- when using "RSVP: The Countess" — every time
-			q(59392),	-- when using "RSVP: The Countess" — first time only
+				-- RSVPs
+					q(59382),	-- when using "RSVP: Baroness Vashj" — every time
+					q(59383),	-- when using "RSVP: Baroness Vashj" — first time only
+					q(59406),	-- when using "RSVP: Choofa" — every time
+					q(59407),	-- when using "RSVP: Choofa" — first time only
+					q(59409),	-- when using "RSVP: Cryptkeeper Kassir" — every time
+					q(59410),	-- when using "RSVP: Cryptkeeper Kassir" — first time only
+					q(59412),	-- when using "RSVP: Droman Aliothe" — every time
+					q(59413),	-- when using "RSVP: Droman Aliothe" — first time only
+					q(59415),	-- when using "RSVP: Grandmaster Vole" — every time
+					q(59416),	-- when using "RSVP: Grandmaster Vole" — first time only
+					q(59397),	-- when using "RSVP: Hunt-Captain Korayn" — every time
+					q(59398),	-- when using "RSVP: Hunt-Captain Korayn" — first time only
+					q(59418),	-- when using "RSVP: Kleia and Pelagos" — every time
+					q(59419),	-- when using "RSVP: Kleia and Pelagos" — first time only
+					q(59385),	-- when using "RSVP: Lady Moonberry" — every time
+					q(59386),	-- when using "RSVP: Lady Moonberry" — first time only
+					q(59388),	-- when using "RSVP: Mikanikos" — every time
+					q(59389),	-- when using "RSVP: Mikanikos" — first time only
+					q(59421),	-- when using "RSVP: Plague Deviser Marileth" (176124) — every time
+					q(59422),	-- when using "RSVP: Plague Deviser Marileth" (176124) — first time only
+					q(59400),	-- when using 'RSVP: Polemarch Adrestes' (176117) — every time
+					q(59401),	-- when using 'RSVP: Polemarch Adrestes' (176117) — first time only
+					q(59403),	-- when using "RSVP: Rendle and Cudgelface" (176118) — every time
+					q(59404),	-- when using "RSVP: Rendle and Cudgelface" (176118) — first time only
+					q(59424),	-- when using "RSVP: Sika" — every time
+					q(59425),	-- when using "RSVP: Sika" — first time only
+					q(59618),	-- when using "RSVP: Stonehead" — every time
+					q(59619),	-- when using "RSVP: Stonehead" — first time only
+					q(59394),	-- when using "RSVP: Alexandros Morgraine" — every time
+					q(59395),	-- when using "RSVP: Alexandros Morgraine" — first time only
+					q(59391),	-- when using "RSVP: The Countess" — every time
+					q(59392),	-- when using "RSVP: The Countess" — first time only
 
-		-- Preparations
-			q(59474),	-- selecting Decoration: Traditional for Ember Court
-			q(59475),	-- selecting Decoration: Mortal Reminders for Ember Court
-			q(59478),	-- selecting Decoration: Mystery Mirrors for Ember Court
-			q(59493),	-- selecting Entertainment: Atoning Rituals for Ember Court
-			q(59490),	-- selecting Entertainment: Glimpse of the Wilds for Ember Court
-			q(59487),	-- selecting Entertainment: Lost Chalice Band for Ember Court
-			q(59505),	-- selecting Refreshment: Tubbins's Tea Party for Ember Court
-			q(59502),	-- selecting Refreshment: Divine Desserts for Embert Court
-			q(59499),	-- selecting Refreshment: Mushroom Surprise for Embrt Court
-			q(59517),	-- selecting Security: Venthyr Volunteers for Embrt Court
-			q(59514),	-- selecting Security: Stoneborn Reserves for Embrt Court
-			q(59511),	-- selecting Security: Maldraxxian Army for Embrt Court
+				-- Preparations
+					q(59474),	-- selecting Decoration: Traditional for Ember Court
+					q(59475),	-- selecting Decoration: Mortal Reminders for Ember Court
+					q(59478),	-- selecting Decoration: Mystery Mirrors for Ember Court
+					q(59493),	-- selecting Entertainment: Atoning Rituals for Ember Court
+					q(59490),	-- selecting Entertainment: Glimpse of the Wilds for Ember Court
+					q(59487),	-- selecting Entertainment: Lost Chalice Band for Ember Court
+					q(59505),	-- selecting Refreshment: Tubbins's Tea Party for Ember Court
+					q(59502),	-- selecting Refreshment: Divine Desserts for Embert Court
+					q(59499),	-- selecting Refreshment: Mushroom Surprise for Embrt Court
+					q(59517),	-- selecting Security: Venthyr Volunteers for Embrt Court
+					q(59514),	-- selecting Security: Stoneborn Reserves for Embrt Court
+					q(59511),	-- selecting Security: Maldraxxian Army for Embrt Court
 
-		-- Unlocks
-			q(59472),	-- using Contract: Traditional Theme
-			q(59477),	-- using Contract: Mortal Reminders
-			q(59516),	-- using Contract: Stoneborn Reserves
-			q(59489),	-- using Contract: Lost Chalice Band
-			q(59519),	-- using Contract: Venthyr Volunteers
-			q(59513),	-- using Contract: Maldraxxian Army
-			q(59501),	-- using Contract: Mushroom Surprise
-			q(59480),	-- using Contract: Mystery Mirrors
-			q(59492),	-- using Contract: Glimpse of the Wilds
-			q(59504),	-- using Contract: Divine Desserts
+				-- Unlocks
+					q(59472),	-- using Contract: Traditional Theme
+					q(59477),	-- using Contract: Mortal Reminders
+					q(59516),	-- using Contract: Stoneborn Reserves
+					q(59489),	-- using Contract: Lost Chalice Band
+					q(59519),	-- using Contract: Venthyr Volunteers
+					q(59513),	-- using Contract: Maldraxxian Army
+					q(59501),	-- using Contract: Mushroom Surprise
+					q(59480),	-- using Contract: Mystery Mirrors
+					q(59492),	-- using Contract: Glimpse of the Wilds
+					q(59504),	-- using Contract: Divine Desserts
 
-		-- Misc.
-			q(61918),	-- unflagged when completing Restock: Fashion Accessories (62078)
-			q(61919),	-- unflagged when completing Restock: Exploratory Meals (62094)
-			q(61938),	-- unflagged when completing Restock: My Favorite Table (62065)
-			q(61922),	-- seems to be an indicator that Restock: Stolen Rugs will be required for the next Ember Court (spellID 345206)
-			q(61937),	-- seems to be an indicator that Restock: Statues will be required for the next Ember Court
-			q(61925),	-- completed when completing a 'Restock' quest
-			q(62524),	-- triggered at end of Ember Court (Vashj/Koryan/Choofa/Stonehead)
-			q(62521),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
-			q(62523),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
-			q(62525),	-- 'Relaxing' criteria for It's Certainly Never Boring
-			q(62526),	-- 'Exciting' criteria for It's Certainly Never Boring
-			q(62520),	-- 'Clean' criteria for It's Certainly Never Boring
-			q(61930),	-- Triggered after Restock: Medic's Tent
-			q(61931),	-- Restocked Ember Court security
-			q(61934),	-- triggered on first non-tutorial ember court when the preparation timer finished
-			q(61935),	-- Triggered after Restock: Imported Dinnerware
-			q(61936),	-- Triggered after Restock: Surveillance
-			q(61940),	-- Triggered after Restock: Fine Cutlery (Unflagged)
-			q(61932),	-- Triggered after Restock: Unconventional Weapons
-			--q(61825),	-- During Ember Court after finishin Glimpse of the Wilds Niya's minigame
-			q(61941),	-- Flagged at start and unflagged at end of Ember Court
-			q(61926),	-- Maybe Revendreth Etiquette?
-			q(63353),	-- Triggered after turning in Red Noggin Candle as criteria for Rendle's Big Day
-			q(61414),	-- Faulty Fireworks (+Safe)
+				-- Misc.
+					q(61918),	-- unflagged when completing Restock: Fashion Accessories (62078)
+					q(61919),	-- unflagged when completing Restock: Exploratory Meals (62094)
+					q(61938),	-- unflagged when completing Restock: My Favorite Table (62065)
+					q(61922),	-- seems to be an indicator that Restock: Stolen Rugs will be required for the next Ember Court (spellID 345206)
+					q(61937),	-- seems to be an indicator that Restock: Statues will be required for the next Ember Court
+					q(61925),	-- completed when completing a 'Restock' quest
+					q(62524),	-- triggered at end of Ember Court (Vashj/Koryan/Choofa/Stonehead)
+					q(62521),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
+					q(62523),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
+					q(62525),	-- 'Relaxing' criteria for It's Certainly Never Boring
+					q(62526),	-- 'Exciting' criteria for It's Certainly Never Boring
+					q(62520),	-- 'Clean' criteria for It's Certainly Never Boring
+					q(61930),	-- Triggered after Restock: Medic's Tent
+					q(61931),	-- Restocked Ember Court security
+					q(61934),	-- triggered on first non-tutorial ember court when the preparation timer finished
+					q(61935),	-- Triggered after Restock: Imported Dinnerware
+					q(61936),	-- Triggered after Restock: Surveillance
+					q(61940),	-- Triggered after Restock: Fine Cutlery (Unflagged)
+					q(61932),	-- Triggered after Restock: Unconventional Weapons
+					--q(61825),	-- During Ember Court after finishin Glimpse of the Wilds Niya's minigame
+					q(61941),	-- Flagged at start and unflagged at end of Ember Court
+					q(61926),	-- Maybe Revendreth Etiquette?
+					q(63353),	-- Triggered after turning in Red Noggin Candle as criteria for Rendle's Big Day
+					q(61414),	-- Faulty Fireworks (+Safe)
 
-		-- Baroness Vashj Decrees
-			q(60471),	-- Decree: Baroness Vashj's Favor
-			q(60472),	-- Decree: Baroness Vashj's Esteem
-			q(60473),	-- Decree: Baroness Vashj's Boon
-		-- The Countess Decrees
-			q(61533),	-- Decree: The Countess's Favor
-			q(61532),	-- Decree: The Countess's Esteem
-			q(61531),	-- Decree: The Countess's Boon
-		-- Lady Moonberry Decrees
-			q(61529),	-- Decree: Lady Moonberry's Favor
-			q(61528),	-- Decree: Lady Moonberry's Esteem
-			q(61527),	-- Decree: Lady Moonberry's Boon
-		-- Mikanikos Decrees
-			q(61536),	-- Decree: Mikanikos's Favor
-			q(61535),	-- Decree: Mikanikos's Esteem
-			q(61534),	-- Decree: Mikanikos's Boon
+				-- Baroness Vashj Decrees
+					q(60471),	-- Decree: Baroness Vashj's Favor
+					q(60472),	-- Decree: Baroness Vashj's Esteem
+					q(60473),	-- Decree: Baroness Vashj's Boon
+				-- The Countess Decrees
+					q(61533),	-- Decree: The Countess's Favor
+					q(61532),	-- Decree: The Countess's Esteem
+					q(61531),	-- Decree: The Countess's Boon
+				-- Lady Moonberry Decrees
+					q(61529),	-- Decree: Lady Moonberry's Favor
+					q(61528),	-- Decree: Lady Moonberry's Esteem
+					q(61527),	-- Decree: Lady Moonberry's Boon
+				-- Mikanikos Decrees
+					q(61536),	-- Decree: Mikanikos's Favor
+					q(61535),	-- Decree: Mikanikos's Esteem
+					q(61534),	-- Decree: Mikanikos's Boon
 
-	-- Misc
-		q(62035),	-- unlocking Soulbreaker's Court Vestments set (TransmogSetID 2065, Soulbreaker's Court items)
-		q(62031),	-- unlocking Court Death Shroud Armor set (TransmogSetID 2068, Court Death Shroud items)
-		q(62026),	-- unlocking Fearstalker's Court Battlegear set (TransmogSetID 2072, Fearstalker's Court items)
-		q(62018),	-- unlocking Dread Sentinel's Court Battleplate set (TransmogSetID 2077, Dread Sentinel's Court items)
-	}),
-});
+			-- Misc
+				q(62035),	-- unlocking Soulbreaker's Court Vestments set (TransmogSetID 2065, Soulbreaker's Court items)
+				q(62031),	-- unlocking Court Death Shroud Armor set (TransmogSetID 2068, Court Death Shroud items)
+				q(62026),	-- unlocking Fearstalker's Court Battlegear set (TransmogSetID 2072, Fearstalker's Court items)
+				q(62018),	-- unlocking Dread Sentinel's Court Battleplate set (TransmogSetID 2077, Dread Sentinel's Court items)
+				q(61923),	-- Restock: Broken Mirror's completed?
+			}),
+		}),
+	})),
+})));

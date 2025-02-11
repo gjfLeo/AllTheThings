@@ -1022,8 +1022,8 @@ for _,g in ipairs({CONDUIT_GROUP,LFR_WEAPON_GROUP}) do
 	end
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(NECROLORD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(NECROLORD,  bubbleDown({ ["customCollect"] = "SL_COV_NEC" }, {
 		n(QUESTS, {
 			-- Campaign quests
 			q(62982),	-- triggers when searching the storeroom on "Gharmal's Tower" (#57530)
@@ -1048,5 +1048,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 			--q(60773),	-- Renown 30/Channeling anima
 			--q(60873),	-- Flying around in necrolord base
 		}),
-	}),
+	})),
 })));

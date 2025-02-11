@@ -773,8 +773,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
-	m(1627, {	-- Torghast
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	m(TORGHAST, {	-- Torghast
 	-- Various Triggers
 		q(59987),	-- Tracking Quest (Finished Mort'regar Layer 1)
 		q(59988),	-- Tracking Quest (Finished The Soulforges Layer 1)
@@ -791,9 +791,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
 		q(62978),	-- Twisting Corridors, Layer 4
 		q(62979),	-- Twisting Corridors, Layer 6
 		q(62980),	-- Twisting Corridors, Layer 8
-		q(64347, {	-- Adamant Vaults
-			["timeline"] = { ADDED_9_1_0 },
-		}),
+		q(64347, { ["timeline"] = { ADDED_9_1_0 } }),	-- Adamant Vaults
 
 	-- Follower Access Triggers
 		q(61951),	-- Triggered when completing 61958 (Champion: Gorgelimb)
@@ -825,32 +823,26 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
 		q(61954),	-- triggered when completing #62227, "Xertora's Construct"
 
 		-- 9.1.0
-		q(64176),	-- New Night Fae Follower triggered when completing 64184, "Missing Friend".
-		q(64178),	-- New Kyrian Follower Triggered when completing 64186, "ELGU - 007's Missing Power Core"
-		q(64180),	-- triggered when completing #64188, "Ryuja's Supplies"
-		q(64181),	-- triggered when completing #64189, "Kinessa's Support"
-		q(64182),	-- triggered when completing #64174, "Champion: Steadyhands"
-		q(64179),	-- Triggered when completing 64187 Kiaranyka's Search / 64171 Champion: Kiaranyka
-		q(64177),	-- Triggered when completing 64185 Assist Ella With ?/64169 Champion: Ella
+		q(64176, { ["timeline"] = { ADDED_9_1_0 } }),	-- New Night Fae Follower triggered when completing 64184, "Missing Friend".
+		q(64178, { ["timeline"] = { ADDED_9_1_0 } }),	-- New Kyrian Follower Triggered when completing 64186, "ELGU - 007's Missing Power Core"
+		q(64180, { ["timeline"] = { ADDED_9_1_0 } }),	-- triggered when completing #64188, "Ryuja's Supplies"
+		q(64181, { ["timeline"] = { ADDED_9_1_0 } }),	-- triggered when completing #64189, "Kinessa's Support"
+		q(64182, { ["timeline"] = { ADDED_9_1_0 } }),	-- triggered when completing #64174, "Champion: Steadyhands"
+		q(64179, { ["timeline"] = { ADDED_9_1_0 } }),	-- Triggered when completing 64187 Kiaranyka's Search / 64171 Champion: Kiaranyka
+		q(64177, { ["timeline"] = { ADDED_9_1_0 } }),	-- Triggered when completing 64185 Assist Ella With ?/64169 Champion: Ella
 
 		-- 9.1.5
-		--q(64848), Enter Torghast as lvl 56 NF Druid
-		q(65308),	-- Leveling in Torghast / Maw Jump to Torghast (spellID 359581)
+		--q(64848, { ["timeline"] = { ADDED_9_1_5 } }), Enter Torghast as lvl 56 NF Druid
+		q(65308, { ["timeline"] = { ADDED_9_1_5 } }),	-- Leveling in Torghast / Maw Jump to Torghast (spellID 359581)
 
 		-- 9.2
 		-- Jailers Gauntlet
-		q(65275),	-- Layer 2 (Weird) PET?
-
-		--q(64347),	-- Layer 3 (Already in AV probably because it ended in AV) /Might be Death-Bound Shard
-
-		q(65276),	-- Layer 4 (Weird) Toy?
-
-		q(65277),	-- Layer 6 (Werid) Title?
-
-		q(65278),	-- Layer 8 (Weird) Mount?
-
-		q(65298),	-- Unlocking Layer 5-8
-
-		q(65681),	-- Unlocking 'Unity' Legendary power (spellID 367716)
+		q(65275, { ["timeline"] = { ADDED_9_2_0 } }),	-- Layer 2 (Weird) PET?
+		--q(64347, { ["timeline"] = { ADDED_9_2_0 } }),	-- Layer 3 (Already in AV probably because it ended in AV) /Might be Death-Bound Shard
+		q(65276, { ["timeline"] = { ADDED_9_2_0 } }),	-- Layer 4 (Weird) Toy?
+		q(65277, { ["timeline"] = { ADDED_9_2_0 } }),	-- Layer 6 (Werid) Title?
+		q(65278, { ["timeline"] = { ADDED_9_2_0 } }),	-- Layer 8 (Weird) Mount?
+		q(65298, { ["timeline"] = { ADDED_9_2_0 } }),	-- Unlocking Layer 5-8
+		q(65681, { ["timeline"] = { ADDED_9_2_0 } }),	-- Unlocking 'Unity' Legendary power (spellID 367716)
 	}),
-}));
+})));

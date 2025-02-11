@@ -56,8 +56,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 
 WISPS_OF_MEMORY.customCollect = nil;
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(KYRIAN, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(KYRIAN,  bubbleDown({ ["customCollect"] = "SL_COV_KYR" }, {
 		n(RENOWN, {
 			q(62756),	-- Reaching Renown 19 / unlocking Deepening Bond 4% stam increase
 			q(62757),	-- Reaching Renown 35 / unlocking Deepening Bond 6% stam increase
@@ -86,5 +86,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 			q(65107, {["timeline"] = {ADDED_9_1_5}}),	-- hitting Renown 15 (Anima instead of Soulkeeper Upgrade)
 			q(65108, {["timeline"] = {ADDED_9_1_5}}),	-- hitting Renown 24 (Anima instead of Soulkeeper Upgrade)
 		}),
-	}),
+	})),
 })));
