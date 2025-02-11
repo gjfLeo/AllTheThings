@@ -472,7 +472,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26190, {	-- A Fisherman's Feast
 					["qg"] = 42288,	-- Robby Flay
-					["coord"] = { 50.6, 71.6, STORMWIND_CITY },
+					["coords"] = {
+						-- #if AFTER 9.2.5
+						{ 50.7, 73.8, STORMWIND_CITY },
+						-- #else
+						{ 50.6, 71.9, STORMWIND_CITY },
+						-- #endif
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["requireSkill"] = COOKING,
 					["races"] = ALLIANCE_ONLY,
@@ -1539,7 +1545,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26177, {	-- Feeling Crabby?
 					["qg"] = 42288,	-- Robby Flay
-					["coord"] = { 50.6, 71.6, STORMWIND_CITY },
+					["coords"] = {
+						-- #if AFTER 9.2.5
+						{ 50.7, 73.8, STORMWIND_CITY },
+						-- #else
+						{ 50.6, 71.9, STORMWIND_CITY },
+						-- #endif
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["requireSkill"] = COOKING,
 					["races"] = ALLIANCE_ONLY,
@@ -2484,7 +2496,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26192, {	-- Orphans Like Cookies Too!
 					["qg"] = 42288,	-- Robby Flay
-					["coord"] = { 50.6, 71.6, STORMWIND_CITY },
+					["coords"] = {
+						-- #if AFTER 9.2.5
+						{ 50.7, 73.8, STORMWIND_CITY },
+						-- #else
+						{ 50.6, 71.9, STORMWIND_CITY },
+						-- #endif
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["requireSkill"] = COOKING,
 					["races"] = ALLIANCE_ONLY,
@@ -2528,7 +2546,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26153, {	-- Penny's Pumpkin Pancakes
 					["qg"] = 42288,	-- Robby Flay
-					["coord"] = { 50.6, 71.6, STORMWIND_CITY },
+					["coords"] = {
+						-- #if AFTER 9.2.5
+						{ 50.7, 73.8, STORMWIND_CITY },
+						-- #else
+						{ 50.6, 71.9, STORMWIND_CITY },
+						-- #endif
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["requireSkill"] = COOKING,
 					["races"] = ALLIANCE_ONLY,
@@ -3194,7 +3218,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26183, {	-- The King's Cider
 					["qg"] = 42288,	-- Robby Flay
-					["coord"] = { 50.6, 71.6, STORMWIND_CITY },
+					["coords"] = {
+						-- #if AFTER 9.2.5
+						{ 50.7, 73.8, STORMWIND_CITY },
+						-- #else
+						{ 50.6, 71.9, STORMWIND_CITY },
+						-- #endif
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["requireSkill"] = COOKING,
 					["races"] = ALLIANCE_ONLY,
@@ -5667,7 +5697,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				n(49701, {	-- Jon Casper <Sous Chef>
-					["coord"] = { 50.6, 71.6, STORMWIND_CITY },
+					["coords"] = {
+						-- #if AFTER 9.2.5
+						{ 50.5, 73.9, STORMWIND_CITY },
+						-- #else
+						{ 50.6, 71.6, STORMWIND_CITY },
+						-- #endif
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
