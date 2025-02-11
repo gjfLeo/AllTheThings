@@ -223,7 +223,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 		})),
 	}),
 })));
-root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
+root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"] = { ADDED_11_0_7, REMOVED_11_1_0 } }, {
 	n(PLUNDERSTORM, {
 		n(ACHIEVEMENTS, {
 			ach(20508),	-- Plunder Wonder (Win)

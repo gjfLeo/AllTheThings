@@ -1382,7 +1382,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				i(210656),	-- Winter Veil Socks (TOY!)
 			},
 		})),
-		q(80684, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" } }, {	-- A Gently Shaken Gift (2024)
+		q(80684, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, REMOVED_11_0_7 } }, {	-- A Gently Shaken Gift (2024)
 			["providers"] = {
 				{ "o", 180746 },	-- Gently Shaken Gift
 				{ "i", 218309 },	-- Gently Shaken Gift
@@ -1748,7 +1748,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				i(208825),	-- Junior Timekeeper's Racing Belt (TOY!)
 			},
 		})),
-		q(80685, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" } }, {	-- A Winter Veil Gift (2024)
+		q(80685, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, REMOVED_11_0_7 } }, {	-- A Winter Veil Gift (2024)
 			["providers"] = {
 				{ "o", 187236 },	-- Winter Veil Gift
 				{ "i", 218311 },	-- Winter Veil Gift
