@@ -3410,14 +3410,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_FOUR, q(84418, {	-- The Missing Knight
 					["qg"] = 5492,	-- Katherine the Pure <Paladin Trainer>
 					["coord"] = { 37.4, 32, STORMWIND_CITY },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 48,
 					["groups"] = {
 						i(228238, {	-- Testament of Divine Steed
 							["spellID"] = 461607,	-- Divine Steed
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 							["f"] = RECIPES,
 						}),
 					},
@@ -3448,7 +3448,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.1",
+						REMOVED_1_15_1,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif
@@ -3471,7 +3471,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_TWO, q(80241, {	-- The Origins of Smithing
 					["qg"] = 7798,	-- Hank the Hammer
 					["coord"] = { 56.0, 16.0, STORMWIND_CITY },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["requireSkill"] = BLACKSMITHING,
 					["learnedAt"] = 210,
 					["cost"] = { { "i", 6040, 6 } },	-- Golden Scale Bracers
@@ -3479,7 +3479,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 40,
 					["groups"] = {
 						i(217274, {	-- Plans: Golden Scale Gauntlets (RECIPE!)
-							["timeline"] = { "added 1.15.1" },
+							["timeline"] = { ADDED_1_15_1 },
 							["description"] = "This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",
 						}),
 					},
@@ -6942,12 +6942,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_FOUR, n(17804, {	-- Squire Rowe
 					["sourceQuest"] = 6502,	-- Drakefire Amulet
 					["coord"] = { 70.6, 86.0, STORMWIND_CITY },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(226500),	-- Chipped Drakefire Amulet
 						i(228222, {	-- Handbook of Valor of Azeroth
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 							["spellID"] = 461475,	-- Valor of Azeroth
 							["f"] = RECIPES,
 						}),

@@ -192,7 +192,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sourceQuest"] = 8460,	-- Timbermaw Ally
 					["coord"] = { 64.8, 8.2, FELWOOD },
 					["maxReputation"] = { FACTION_TIMBERMAW_HOLD, EXALTED },	-- Timbermaw Hold, Exalted.
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["cost"] = {{ "i", 21377, 5 }},	-- Deadwood Headdress Feather
 					["repeatable"] = true,
 					["lvl"] = 45,
@@ -205,7 +205,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["maxReputation"] = { FACTION_TIMBERMAW_HOLD, EXALTED },	-- Timbermaw Hold, Exalted.
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif
@@ -482,7 +482,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #if SEASON_OF_DISCOVERY
 							-- EPIC CRAFTED ITEMS UPGRADES
 							applyclassicphase(SOD_PHASE_FOUR, i(227807, {	-- Dense Timbermaw Belt
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = BLACKSMITHING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -492,7 +492,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227810, {	-- Dense Timbermaw Boots
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = BLACKSMITHING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -502,7 +502,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227803, {	-- Dire Warbear Harness
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = LEATHERWORKING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -512,7 +512,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227804, {	-- Dire Warbear Woolies
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = LEATHERWORKING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -522,7 +522,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227805, {	-- Ferocity of the Timbermaw
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = LEATHERWORKING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -532,7 +532,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227862, {	-- Incandescent Mooncloth Boots
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = TAILORING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -542,7 +542,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(228190, {	-- Knowledge of the Timbermaw
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = TAILORING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -552,7 +552,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227808, {	-- Rugged Mantle of the Timbermaw
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = TAILORING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -562,7 +562,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227809, {	-- Studded Timbermaw Brawlers
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = LEATHERWORKING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -576,7 +576,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{	-- Revered
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_FOUR, i(228982, {	-- Formula: Enchant Shield - Law of Nature
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 							})),
 							-- #endif
 							applyclassicphase(PHASE_THREE_RECIPES, i(19218)),	-- Pattern: Mantle of the Timbermaw

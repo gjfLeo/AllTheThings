@@ -126,7 +126,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["sourceQuest"] = 80411,	-- The Talisman of Kazdor
 					["coord"] = { 84.4, 80.2, ALTERAC_MOUNTAINS },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["classes"] = { ROGUE },
 					["lvl"] = 45,
 				})),
@@ -134,7 +134,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["provider"] = { "o", 410369 },	-- Dead Drop
 					["sourceQuest"] = 80454,	-- One Last Drop
 					["coord"] = { 47.1, 71.1, SILVERPINE_FOREST },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { ALTERAC_MOUNTAINS },
 					["classes"] = { ROGUE },
 					["lvl"] = 45,
@@ -341,7 +341,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_THREE, q(80526, {	-- Fool Me Twice
 					["qg"] = 6707,	-- Fahrad <Grand Master Rogue>
 					["coord"] = { 84.4, 80.2, ALTERAC_MOUNTAINS },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["classes"] = { ROGUE },
 					["lvl"] = 45,
 				})),
@@ -483,7 +483,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["sourceQuest"] = 80453,	-- Best Laid Plans
 					["coord"] = { 86, 80, ALTERAC_MOUNTAINS },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { SILVERPINE_FOREST },
 					["classes"] = { ROGUE },
 					["lvl"] = 45,
@@ -723,7 +723,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 80526,	-- Fool Me Twice
 					["coord"] = { 84.4, 80.2, ALTERAC_MOUNTAINS },
 					["description"] = "You'll need to find 2 Vile Concoctions and the Hollow Emblem.\n\n- The Hollow Emblem is on the second from the left upper hut on the right wall if you're facing the pyramid. You can climb the hill to the right of the pyramid to get there.\n\n- 1 Vile Concoction is inside the hut closest to the pyramid and the other is inside a hut on the corner of the left path after the first fork of the dungeon(that left path that no group ever takes).\n\n- Use one Vile Concoction on the cauldron of Witch Doctor Zum'rah (it doesn't break stealth) to kill him and loot the satchel beside him to loot a trinket. Equip the trinket to see which grave contains the Offering of Blood.\n\n- Use the other Vile Concoction on the cauldron of Antu'sul and loot the Offering of Bone beside him.\n\n- Combine both offerings, then use the Hollow Emblem to make the Emblem of Blood Magic Emblem of Blood Magic. This is the key to open the chest on the top of the pyramid to finally get the Talisman for the quest.",
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { ZULFARRAK },
 					["classes"] = { ROGUE },
 					["lvl"] = 45,
@@ -855,7 +855,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["provider"] = { "o", 423841 },	-- Frozen Remains
 					["coord"] = { 39.7, 60.8, ALTERAC_MOUNTAINS },
 					["description"] = "Once you have this rune in your inventory, use Divine Intervention on a healer friend. Have them resurrect you to receive the rune upon resurrection.",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

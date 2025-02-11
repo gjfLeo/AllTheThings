@@ -2468,12 +2468,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_FOUR, n(3144, {	-- Eitrigg
 					["sourceQuest"] = 6602,	-- Blood of the Black Dragon Champion
 					["coord"] = { 34.6, 38.6, ORGRIMMAR },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(226500),	-- Chipped Drakefire Amulet
 						i(228222, {	-- Handbook of Valor of Azeroth
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 							["spellID"] = 461475,	-- Valor of Azeroth
 							["f"] = RECIPES,
 						}),

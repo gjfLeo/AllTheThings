@@ -66,7 +66,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(17182, {	-- Sulfuras, Hand of Ragnaros
 						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 						["cost"] = {
 							{ "i", 17204, 1 },	-- Eye of Sulfuras
@@ -76,7 +76,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_FIVE, i(227683, {	-- Sulfuras, Hand of Ragnaros
 						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
-						["timeline"] = { "added 1.15.4" },
+						["timeline"] = { ADDED_1_15_4 },
 						["cost"] = {
 							{ "i", 227728, 1 },	-- Eye of Sulfuras
 							{ "i", 227684, 1 },	-- Sulfuron Hammer
@@ -215,7 +215,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			n(QUESTS, {
 				-- #if SEASON_OF_DISCOVERY
-				applyclassicphase(SOD_PHASE_FOUR, q(84545, bubbleDown({ ["timeline"] = { "added 1.15.3" } }, {	-- A Hero's Reward
+				applyclassicphase(SOD_PHASE_FOUR, q(84545, bubbleDown({ ["timeline"] = { ADDED_1_15_3 } }, {	-- A Hero's Reward
 					["providers"] = {
 						{ "n",  13278 },	-- Duke Hydraxis
 						{ "o", 179551 },	-- Hydraxis' Coffer
@@ -232,7 +232,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(7486, bubbleDown({	-- A Hero's Reward
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						ADDED_1_0_1, REMOVED_3_0_8,
 						-- #endif
@@ -458,12 +458,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(18290),	-- Schematic: Biznicks 247x128 Accurascope (RECIPE!)
 					i(18292, {	-- Schematic: Core Marksman Rifle (RECIPE!)
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					}),
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_FOUR, i(228304, {	-- Schematic: Schematic: Fiery Core Sharpshooter Rifle (RECIPE!)
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					})),
 					-- #endif
 					i(18291),	-- Schematic: Force Reactive Disk (RECIPE!)
@@ -482,7 +482,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
-			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf("removed 1.15.1", {
+			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf(REMOVED_1_15_1, {
 			-- #endif
 			n(ZONE_DROPS, {
 				i(16802),	-- Arcanist Belt (Mage)
@@ -800,7 +800,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #endif
 					i(17204, {	-- Eye of Sulfuras
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					}),
 					i(19017, {	-- Essence of the Firelord
@@ -844,7 +844,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			})),
-			applyclassicphase(SOD_PHASE_FOUR, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { "added 1.15.3" }, }, {
+			applyclassicphase(SOD_PHASE_FOUR, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_3 }, }, {
 				n(227819, {	-- Duke Hydraxis
 					["provider"] = { "n", 231178 },	-- Duke Hydraxis
 					["description"] = "Speak to the Duke to Turn Up The Heat! (Or let your raid leader do that instead...)\n\nAlso sells 'Core Forged' versions of the Tier 2 gear.",
@@ -1092,7 +1092,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				-- Tier 2 "Core Forged", added with BWL.
 				-- CRIEVE NOTE: Whatever hell the developer that created this at Blizzard came crawling out of should be sent back, please for the love of god, don't do this with Tier 3 as well.
-				n(227819, applyclassicphase(SOD_PHASE_FIVE, bubbleDownSelf({ ["timeline"] = { "added 1.15.4" }, }, {	-- Duke Hydraxis
+				n(227819, applyclassicphase(SOD_PHASE_FIVE, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_4 }, }, {	-- Duke Hydraxis
 					cl(DRUID, {
 						-- DPS (Agility)
 						tokencost(231257, i(232099)),	-- Stormrage Cowl

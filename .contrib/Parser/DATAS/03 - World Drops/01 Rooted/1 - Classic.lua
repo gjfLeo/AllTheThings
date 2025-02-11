@@ -2690,7 +2690,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			i(15253),	-- Beheading Blade
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, i(227691, {	-- Blade of Hanna
-				["timeline"] = { "created 1.15.3" },
+				["timeline"] = { CREATED_1_15_3 },
 			})),
 			-- #endif
 			i(2801),	-- Blade of Hanna
@@ -3549,7 +3549,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			i(12698, {	-- Plans: Dawnbringer Shoulders (RECIPE!)
 				["timeline"] = {
 					-- #if SEASON_OF_DISCOVERY
-					"added 1.15.3",
+					ADDED_1_15_3,
 					-- #else
 					CREATED_1_12_1, ADDED_2_0_1,
 					-- #endif
@@ -3562,36 +3562,36 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			i(3867),	-- Plans: Golden Iron Destroyer (RECIPE!)
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_TWO, i(217276, {	-- Plans: Golden Scale Boots (RECIPE!)
-				["timeline"] = { "added 1.15.1" },
+				["timeline"] = { ADDED_1_15_1 },
 			})),
 			applyclassicphase(SOD_PHASE_TWO, i(217278, {	-- Plans: Golden Scale Cuirass (RECIPE!)
-				["timeline"] = { "added 1.15.1" },
+				["timeline"] = { ADDED_1_15_1 },
 			})),
 			applyclassicphase(SOD_PHASE_TWO, i(217286, {	-- Plans: Golden Scale Leggings (RECIPE!)
-				["timeline"] = { "added 1.15.1" },
+				["timeline"] = { ADDED_1_15_1 },
 			})),
 			applyclassicphase(SOD_PHASE_TWO, i(217284, {	-- Plans: Golden Scale Shoulders (RECIPE!)
-				["timeline"] = { "added 1.15.1" },
+				["timeline"] = { ADDED_1_15_1 },
 			})),
 			-- #endif
 			i(3875, {	-- Plans: Golden Scale Boots (RECIPE!)
 				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { "removed 1.15.1" },
+				["timeline"] = { REMOVED_1_15_1 },
 				-- #endif
 			}),
 			i(3873, {	-- Plans: Golden Scale Cuirass (RECIPE!)
 				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { "removed 1.15.1" },
+				["timeline"] = { REMOVED_1_15_1 },
 				-- #endif
 			}),
 			i(3872, {	-- Plans: Golden Scale Leggings (RECIPE!)
 				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { "removed 1.15.1" },
+				["timeline"] = { REMOVED_1_15_1 },
 				-- #endif
 			}),
 			i(3871, {	-- Plans: Golden Scale Shoulders (RECIPE!)
 				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { "removed 1.15.1" },
+				["timeline"] = { REMOVED_1_15_1 },
 				-- #endif
 			}),
 			i(3611),	-- Plans: Green Iron Boots (RECIPE!)
@@ -3602,13 +3602,13 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			i(12716),	-- Plans: Helm of the Great Chief (RECIPE!)
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, i(228312, {	-- Plans: Invincible Mail (RECIPE!)
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 			})),
 			-- #endif
 			i(12728, {	-- Plans: Invulnerable Mail (RECIPE!)
 				-- #if SEASON_OF_DISCOVERY
 				-- CRIEVE NOTE: This item still drops apparently, I got this on my paladin.
-				-- ["timeline"] = { "removed 1.15.3" },
+				-- ["timeline"] = { REMOVED_1_15_3 },
 				-- #endif
 			}),
 			i(5543),	-- Plans: Iridescent Hammer (RECIPE!)
@@ -3638,20 +3638,20 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			i(2882),	-- Plans: Silvered Bronze Shoulders (RECIPE!)
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, i(227905, {	-- Plans: Skyrider's Masterwork Stormhammer (RECIPE!)
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 			})),
 			-- #endif
 			i(6046),	-- Plans: Steel Weapon Chain (RECIPE!)
 			i(12703),	-- Plans: Storm Gauntlets (RECIPE!)
 			i(12703, {	-- Plans: Storm Gauntlets (RECIPE!)
 				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { "removed 1.15.3" },
+				["timeline"] = { REMOVED_1_15_3 },
 				-- #endif
 			}),
 			i(12720),	-- Plans: Stronghold Gauntlets (RECIPE!)
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, i(228313, {	-- Plans: Tempest Gauntlets (RECIPE!)
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 			})),
 			-- #endif
 			i(12682),	-- Plans: Thorium Armor (RECIPE!)
@@ -3664,7 +3664,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(PHASE_FIVE, i(22388)),	-- Plans: Titanic Leggings (RECIPE!)
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, i(228314, {	-- Plans: Warcrest of the Great Chief (RECIPE!)
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 			})),
 			-- #endif
 			i(12711),	-- Plans: Whitesoul Helm (RECIPE!)
@@ -3812,7 +3812,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_TWO, i(217254)),	-- Pattern: Boots of the Enchanter
 			i(4352, {	-- Pattern: Boots of the Enchanter
-				["timeline"] = { "removed 1.15.1" },
+				["timeline"] = { REMOVED_1_15_1 },
 			}),
 			-- #else
 			i(4352),	-- Pattern: Boots of the Enchanter
@@ -3832,7 +3832,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_TWO, i(217251)),	-- Pattern: Crimson Silk Shoulders
 			i(7084, {	-- Pattern: Crimson Silk Shoulders
-				["timeline"] = { "removed 1.15.1" },
+				["timeline"] = { REMOVED_1_15_1 },
 			}),
 			-- #else
 			i(7084),	-- Pattern: Crimson Silk Shoulders

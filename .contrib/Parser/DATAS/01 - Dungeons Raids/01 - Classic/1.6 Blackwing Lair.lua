@@ -3,7 +3,7 @@
 -----------------------------------------------------
 local SOD_REMOVED_1_15_4 = {
 	-- #if SEASON_OF_DISCOVERY
-	["timeline"] = { "removed 1.15.4" },
+	["timeline"] = { REMOVED_1_15_4 },
 	-- #endif
 };
 -- #if SEASON_OF_DISCOVERY
@@ -63,7 +63,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 			}),
 			-- #endif
 			-- #if SEASON_OF_DISCOVERY
-			n(QUESTS, applyclassicphase(SOD_PHASE_FIVE, bubbleDown({ ["timeline"] = { "added 1.15.4" }, }, {
+			n(QUESTS, applyclassicphase(SOD_PHASE_FIVE, bubbleDown({ ["timeline"] = { ADDED_1_15_4 }, }, {
 				cl(DRUID, {
 
 				}),
@@ -229,7 +229,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					},
 				})),
 				-- #if SEASON_OF_DISCOVERY
-				applyclassicphase(SOD_PHASE_FIVE, q(85643, bubbleDownSelf({ ["timeline"] = { "added 1.15.4" }, }, {	-- The Lord of Blackrock [A] (2/2)
+				applyclassicphase(SOD_PHASE_FIVE, q(85643, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_4 }, }, {	-- The Lord of Blackrock [A] (2/2)
 					["qg"] = 1748,	-- Highlord Bolvar Fordragon
 					["coord"] = { 78.0, 18.0, STORMWIND_CITY },
 					["sourceQuest"] = 7781,	-- The Lord of Blackrock [A]
@@ -269,7 +269,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					},
 				})),
 				-- #if SEASON_OF_DISCOVERY
-				applyclassicphase(SOD_PHASE_FIVE, q(85644, bubbleDownSelf({ ["timeline"] = { "added 1.15.4" }, }, {	-- The Lord of Blackrock [H] (2/2)
+				applyclassicphase(SOD_PHASE_FIVE, q(85644, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_4 }, }, {	-- The Lord of Blackrock [H] (2/2)
 					["qg"] = 4949,	-- Thrall <Warchief>
 					["coord"] = { 32, 37.8, ORGRIMMAR },
 					["sourceQuest"] = 7783,	-- The Lord of Blackrock [H]
@@ -284,7 +284,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
-			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf("removed 1.15.4", {
+			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf(REMOVED_1_15_4, {
 			-- #endif
 			n(ZONE_DROPS, {
 				i(18562, {	-- Elementium Ingot
@@ -609,7 +609,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			})),
-			applyclassicphase(SOD_PHASE_FIVE, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { "added 1.15.4" }, }, {
+			applyclassicphase(SOD_PHASE_FIVE, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_4 }, }, {
 				n(ZONE_DROPS, {
 					i(18562, {	-- Elementium Ingot
 						["crs"] = {

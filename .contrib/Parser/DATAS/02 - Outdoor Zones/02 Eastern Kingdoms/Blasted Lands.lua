@@ -1839,7 +1839,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226417, {	-- Rune of Shadow Specialization
 					["provider"] = { "o", 457089 },	-- The Shadow Connection
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 33.6, 48.7, BLASTED_LANDS },
 					["classes"] = { PRIEST, WARLOCK },
 					["groups"] = {

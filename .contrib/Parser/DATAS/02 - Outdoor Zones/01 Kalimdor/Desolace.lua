@@ -1125,7 +1125,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_TWO, q(79229, {	-- Highway Robbery
 					["provider"] = { "o", 417353 },	-- Extinguished Campfire
 					["coord"] = { 47.5, 54.6, DESOLACE },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["lvl"] = 30,
 				})),
 				-- #endif
@@ -1458,7 +1458,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 11438,	-- Bibbly F'utzbuckle
 					["sourceQuest"] = 79229,	-- Highway Robbery
 					["coord"] = { 62.2, 38.8, DESOLACE },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["lvl"] = 30,
 				})),
 				-- #endif
@@ -2629,7 +2629,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_TWO, i(213513, {	-- Libram of Deliverance
 					["provider"] = { "o", 423695 },	-- Libram of Deliverance
 					["coord"] = { 66.5, 7.5, DESOLACE },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

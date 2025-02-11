@@ -3578,7 +3578,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 220984,	-- Fizbuz Mithril
 					["sourceQuest"] = 81801,	-- Return to the Arena
 					["coord"] = { 51.6, 27.6, TANARIS },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["classes"] = { WARRIOR },
 					["lvl"] = 45,
 					["groups"] = {
@@ -4808,7 +4808,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_THREE, q(81682, {	-- The Old Champ
 					["qg"] = 220984,	-- Fizbuz Mithril
 					["coord"] = { 51.6, 27.6, TANARIS },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { AZSHARA },
 					["classes"] = { WARRIOR },
 					["lvl"] = 45,
@@ -5699,13 +5699,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_TWO, i(217280, {	-- Plans: Golden Scale Coif (RECIPE!)
-							["timeline"] = { "added 1.15.1" },
+							["timeline"] = { ADDED_1_15_1 },
 							["isLimited"] = true,
 						})),
 						-- #endif
 						i(6047, {	-- Plans: Golden Scale Coif (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.1" },
+							["timeline"] = { REMOVED_1_15_1 },
 							-- #endif
 							["isLimited"] = true,
 						}),
@@ -5751,11 +5751,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_TWO, i(217244, {	-- Pattern: Crimson Silk Robe
-							["timeline"] = { "added 1.15.1" },
+							["timeline"] = { ADDED_1_15_1 },
 							["isLimited"] = true,
 						})),
 						i(7088, {	-- Pattern: Crimson Silk Robe
-							["timeline"] = { "removed 1.15.1" },
+							["timeline"] = { REMOVED_1_15_1 },
 							["isLimited"] = true,
 						}),
 						-- #else

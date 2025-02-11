@@ -24,7 +24,7 @@ profession(BLACKSMITHING, {
 						["requireSkill"] = 17041,
 						-- #if SEASON_OF_DISCOVERY
 						["description"] = "Blizzard stated that Annihilator was an item that forced 1 member of the raid into a role that did not fit their design, so they've decided to not include Annihilator.",
-						["timeline"] = { "removed 1.15.0" },
+						["timeline"] = { REMOVED_1_15_0 },
 						-- #endif
 					},
 					{
@@ -48,7 +48,7 @@ profession(BLACKSMITHING, {
 						["recipeID"] = 23653,
 						["requireSkill"] = 17041,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.0" },
+						["timeline"] = { REMOVED_1_15_0 },
 						-- #endif
 					}),
 					-- #endif
@@ -150,7 +150,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Enchanted Battlehammer",
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"removed 1.15.3",
+							REMOVED_1_15_3,
 							-- #else
 							REMOVED_4_0_3,
 							-- #endif
@@ -163,7 +163,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Finely-Enchanted Battlehammer",
 						["recipeID"] = 461733,
 						["requireSkill"] = 17040,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -186,7 +186,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Serenity",
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"removed 1.15.3",
+							REMOVED_1_15_3,
 							-- #else
 							REMOVED_2_0_1, ADDED_3_0_2,
 							-- #endif
@@ -199,13 +199,13 @@ profession(BLACKSMITHING, {
 						["name"] = "Skyrider's Masterwork Stormhammer",
 						["recipeID"] = 461647,
 						["requireSkill"] = 17040,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					applyclassicphase(SOD_PHASE_FOUR, {
 						["name"] = "Tranquility",
 						["recipeID"] = 461718,
 						["requireSkill"] = 17040,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					-- #endif
@@ -315,7 +315,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Corruption",
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"removed 1.15.3",
+							REMOVED_1_15_3,
 							-- #else
 							REMOVED_2_0_1, ADDED_3_0_2, REMOVED_4_0_3, ADDED_7_1_5,
 							-- #endif
@@ -333,7 +333,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Desecration",
 						["recipeID"] = 461714,
 						["requireSkill"] = 17039,
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -479,7 +479,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Deadly Heartseeker",
 						["recipeID"] = 461716,
 						["requireSkill"] = 9787,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -487,7 +487,7 @@ profession(BLACKSMITHING, {
 						["recipeID"] = 16995,
 						["requireSkill"] = 9787,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					-- #endif

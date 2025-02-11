@@ -2130,17 +2130,17 @@ profession(ENGINEERING, {
 			["groups"] = {
 				applyclassicphase(SOD_PHASE_THREE, {
 					["name"] = "Void-Powered Invoker's Vambraces",
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["recipeID"] = 446236,
 				}),
 				applyclassicphase(SOD_PHASE_THREE, {
 					["name"] = "Void-Powered Protector's Vambraces",
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["recipeID"] = 446238,
 				}),
 				applyclassicphase(SOD_PHASE_THREE, {
 					["name"] = "Void-Powered Slayer's Vambraces",
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["recipeID"] = 446237,
 				}),
 			},
@@ -2163,7 +2163,7 @@ profession(ENGINEERING, {
 				{
 					["name"] = "Core Marksman Rifle",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["recipeID"] = 22795,
 				},
@@ -2178,7 +2178,7 @@ profession(ENGINEERING, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Fiery Core Sharpshooter Rifle",
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["recipeID"] = 461710,
 				}),
 				-- #endif

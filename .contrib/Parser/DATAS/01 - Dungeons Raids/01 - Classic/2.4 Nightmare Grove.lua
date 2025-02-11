@@ -3,7 +3,7 @@
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
-	applyclassicphase(SOD_PHASE_SIX, inst(2832, bubbleDownSelf({["timeline"] = { "added 1.15.5" }}, {	-- Nightmare Grove
+	applyclassicphase(SOD_PHASE_SIX, inst(2832, bubbleDownSelf({["timeline"] = { ADDED_1_15_5 }}, {	-- Nightmare Grove
 		["npcID"] = createHeader({
 			readable = "Nightmare Grove",
 			text = {
@@ -42,7 +42,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["isRaid"] = true,
 		["lvl"] = 60,
 		["groups"] = {
-			n(DRAGONS_OF_NIGHTMARE, bubbleDown({ ["timeline"] = { "added 1.11.1", "removed 1.15.5" } }, {
+			n(DRAGONS_OF_NIGHTMARE, bubbleDown({ ["timeline"] = { ADDED_1_11_0, REMOVED_1_15_5 } }, {
 				["description"] = "The original version of the nightmare dragon loot in Classic Era.",
 				["isRaid"] = true,
 				["groups"] = {

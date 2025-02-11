@@ -647,7 +647,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						{ 37.8, 80.2, STORMWIND_CITY },
 						{ 73.6, 33, UNDERCITY },
 					},
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { FERALAS, THE_HINTERLANDS, ZULFARRAK },
 					["lvl"] = 42,
 					["groups"] = {
@@ -2851,7 +2851,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			applyclassicphase(SOD_PHASE_FOUR, recipe(439767)),	-- Engrave Cloak - Tree of Life
 			applyclassicphase(SOD_PHASE_FOUR, recipe(439770)),	-- Engrave Cloak - Starfall
 			applyclassicphase(SOD_PHASE_FOUR, recipe(453703, {	-- Engrave Ring - Feral Combat Specialization
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 			})),
 		}),
 		classHeader(HUNTER, {
@@ -3150,59 +3150,59 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 
 		-- Non-Class Specific Runes
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453695, {	-- Engrave Ring - Arcane Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { HUNTER, MAGE, DRUID },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453688, {	-- Engrave Ring - Axe Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, PALADIN, HUNTER, SHAMAN },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453690, {	-- Engrave Ring - Dagger Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, HUNTER, ROGUE, PRIEST, SHAMAN, MAGE, WARLOCK, DRUID },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(459313, {	-- Engrave Ring - Defense Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, PALADIN, ROGUE, SHAMAN, WARLOCK, DRUID },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453696, {	-- Engrave Ring - Fire Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { HUNTER, SHAMAN, MAGE, WARLOCK },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453691, {	-- Engrave Ring - Fist Weapon Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, HUNTER, SHAMAN, ROGUE, DRUID },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453697, {	-- Engrave Ring - Frost Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { HUNTER, SHAMAN, MAGE },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453702, {	-- Engrave Ring - Holy Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { PALADIN, PRIEST },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453689, {	-- Engrave Ring - Mace Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, PALADIN, PRIEST, SHAMAN, ROGUE, DRUID },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453698, {	-- Engrave Ring - Nature Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { HUNTER, ROGUE, SHAMAN, DRUID },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453694, {	-- Engrave Ring - Pole Weapon Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, PALADIN, HUNTER, PRIEST, SHAMAN, MAGE, WARLOCK, DRUID },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453692, {	-- Engrave Ring - Ranged Weapon Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, HUNTER, ROGUE },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453700, {	-- Engrave Ring - Shadow Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { PRIEST, WARLOCK },
 		})),
 		applyclassicphase(SOD_PHASE_FOUR, recipe(453635, {	-- Engrave Ring - Sword Specialization
-			["timeline"] = { "added 1.15.3" },
+			["timeline"] = { ADDED_1_15_3 },
 			["classes"] = { WARRIOR, PALADIN, HUNTER, MAGE, WARLOCK, ROGUE },
 		})),
 	}),
@@ -3301,7 +3301,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 		},
 	}), {
 		["sourceQuest"] = 83936,	-- Dalton's Quest
-		["timeline"] = { "added 1.15.3" },
+		["timeline"] = { ADDED_1_15_3 },
 		["classes"] = { PALADIN },
 		["lvl"] = 50,
 		["groups"] = {
@@ -3325,7 +3325,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			q(83936, {	-- A Lesson in Violence
 				["qg"] = 227673,	-- <Player>'s Squire (Rank 1)
 				["sourceQuest"] = 84416,	-- Inspiration Rank One HQT
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 				["classes"] = { PALADIN },
 				["lvl"] = 50,
 				["groups"] = {
@@ -3349,7 +3349,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			q(84008, {	-- A Lesson in Grace
 				["qg"] = 227464,	-- <Player>'s Squire (Rank 2)
 				["sourceQuest"] = 84417,	-- Inspiration Rank Two HQT
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 				["classes"] = { PALADIN },
 				["lvl"] = 50,
 				["groups"] = {
@@ -3359,7 +3359,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			q(84017, {	-- A Time to Kill
 				["qg"] = 227674,	-- <Player>'s Squire (Rank 3)
 				["sourceQuest"] = 84008,	-- A Lesson in Grace
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 				["maps"] = { EASTERN_PLAGUELANDS },
 				["classes"] = { PALADIN },
 				["lvl"] = 50,
@@ -3374,7 +3374,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 				["qg"] = 227674,	-- <Player>'s Squire (Rank 3)
 				["sourceQuest"] = 84017,	-- A Time to Kill
 				["coord"] = { 86.8, 39.4, EASTERN_PLAGUELANDS },
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 				["classes"] = { PALADIN },
 				["lvl"] = 50,
 				["groups"] = {
@@ -3392,7 +3392,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 				["qg"] = 227674,	-- <Player>'s Squire (Rank 3)
 				["sourceQuest"] = 84125,	-- Close Enough To Touch
 				["coord"] = { 86.8, 39.4, EASTERN_PLAGUELANDS },
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 				["classes"] = { PALADIN },
 				["lvl"] = 50,
 				["groups"] = {
@@ -3834,7 +3834,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 				applyclassicphase(SOD_PHASE_TWO, i(215410, {	-- Waylaid Supplies: Dusky Belts
 					-- TODO: Cost is currently bugged ingame. Fix when Blizzard also does.
 					["cost"] = { { "i", 2840, 20 } },	-- Dusky Belts
-					["timeline"] = { "created 1.15.1" },
+					["timeline"] = { CREATED_1_15_1 },
 					["groups"] = {
 						i(217338),	-- Supply Shipment [iLvl 40 - Crafted (Tier 3)]
 					},
@@ -3890,7 +3890,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 				applyclassicphase(SOD_PHASE_TWO, i(215412, {	-- Waylaid Supplies: Shadowskin Gloves
 					-- TODO: Cost is currently bugged ingame. Fix when Blizzard also does.
 					["cost"] = { { "i", 2840, 20 } },	-- Dusky Belts
-					["timeline"] = { "created 1.15.1" },
+					["timeline"] = { CREATED_1_15_1 },
 					["groups"] = {
 						i(217338),	-- Supply Shipment [iLvl 40 - Crafted (Tier 3)]
 					},

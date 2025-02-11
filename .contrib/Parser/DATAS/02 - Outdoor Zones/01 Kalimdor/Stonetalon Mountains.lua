@@ -2068,7 +2068,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["provider"] = { "o", 424005 },	-- Pocket Litter
 					["sourceQuest"] = 79192,	-- Stepping Stones
 					["coord"] = { 40.8, 52.5, STONETALON_MOUNTAINS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["lvl"] = 14,
 					["groups"] = {
 						i(216619, {	-- Student Fodder
@@ -2606,7 +2606,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["provider"] = { "o", 424012 },	-- Mound of Dirt
 					["sourceQuest"] = 79980,	-- Scramble
 					["coord"] = { 39.6, 49.9, STONETALON_MOUNTAINS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["maps"] = { LOCH_MODAN },
 					["lvl"] = 14,
 					["groups"] = {

@@ -154,7 +154,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["qg"] = 1748,	-- Highlord Bolvar Fordragon
 					["sourceQuest"] = 7495,	-- Victory for the Alliance
 					["coord"] = { 67.2, 85.1, STORMWIND_CITY },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(60, 60, 30),
 					["groups"] = {
@@ -169,24 +169,24 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["sourceQuest"] = 7495,	-- Victory for the Alliance
 					["coord"] = { 67.2, 85.1, STORMWIND_CITY },
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(60, 60, 30),
 					["groups"] = {
 						i(18403, {	-- Dragonslayer's Signet
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						i(18404, {	-- Onyxia Tooth Pendant
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						i(18406, {	-- Onyxia Blood Talisman
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 					},
@@ -196,7 +196,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["qg"] = 4949,	-- Thrall
 					["sourceQuest"] = 7490,	-- Victory for the Horde
 					["coord"] = { 32.0, 37.8, ORGRIMMAR },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(60, 60, 30),
 					["groups"] = {
@@ -211,24 +211,24 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["sourceQuest"] = 7490,	-- Victory for the Horde
 					["coord"] = { 32.0, 37.8, ORGRIMMAR },
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(60, 60, 30),
 					["groups"] = {
 						i(18403, {	-- Dragonslayer's Signet
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						i(18404, {	-- Onyxia Tooth Pendant
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						i(18406, {	-- Onyxia Blood Talisman
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 					},
@@ -238,7 +238,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["provider"] = { "i", 228680 },	-- Nostro's Compendium of Dragon Slaying
 					["description"] = "You get this quest by looting Nostro's Compendium from bosses in Dire Maul.\n\nYou can also buy it on the Auction House for a hefty price!",
 					["classes"] = { WARRIOR, PALADIN, ROGUE },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { DIRE_MAUL },
 					["lvl"] = lvlsquish(60, 60, 30),
 					["groups"] = {
@@ -251,7 +251,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["description"] = "You get this quest by looting Nostro's Compendium from bosses in Dire Maul.\n\nYou can also buy it on the Auction House for a hefty price!",
 					["classes"] = { WARRIOR, PALADIN },
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["maps"] = { DIRE_MAUL },
 					["lvl"] = lvlsquish(60, 60, 30),
@@ -268,7 +268,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["sourceQuest"] = 7633,	-- An Introduction
 					["description"] = "You must defeat the 4 demons listed below by yourself with no pet in order to complete this quest.",
 					["coord"] = { 47, 24.48, FELWOOD },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { UNGORO_CRATER, BURNING_STEPPES, SILITHUS, WINTERSPRING },
 					["classes"] = { HUNTER },
 					["lvl"] = lvlsquish(60, 60, 30),
@@ -410,7 +410,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 					["sourceQuest"] = 84555,	-- Nostro's Compendium
 					["classes"] = { WARRIOR, PALADIN, ROGUE },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { DIRE_MAUL },
 					["lvl"] = lvlsquish(60, 60, 30),
 				})),
@@ -422,7 +422,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 					["sourceQuest"] = 7507,	-- Nostro's Compendium
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["maps"] = { DIRE_MAUL },
 					["classes"] = { WARRIOR, PALADIN },
@@ -433,7 +433,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["qg"] = 14368,	-- Lorekeeper Lydros
 					["sourceQuest"] = 84556,	-- The Forging of Quel'Serrar
 					["classes"] = { WARRIOR, PALADIN, ROGUE },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { DIRE_MAUL },
 					["lvl"] = lvlsquish(60, 60, 30),
 					["groups"] = {
@@ -465,7 +465,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["qg"] = 14368,	-- Lorekeeper Lydros
 					["sourceQuest"] = 7508,	-- The Forging of Quel'Serrar
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["maps"] = { DIRE_MAUL },
 					["classes"] = { WARRIOR, PALADIN },
@@ -713,111 +713,111 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(227532, {	-- Incandescent Hood
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227755, {	-- Molten Scaled Helm
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227764, {	-- Scorched Core Helm
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227537, {	-- Incandescent Shoulderpads
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227752, {	-- Molten Scaled Shoulderpads
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227762, {	-- Scorched Core Shoulderpads
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227535, {	-- Incandescent Robe
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227758, {	-- Molten Scaled Chest
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227766, {	-- Scorched Core Chest
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227531, {	-- Incandescent Bindings
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227750, {	-- Molten Scaled Bindings
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227760, {	-- Scorched Core Bindings
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227533, {	-- Incandescent Gloves
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227756, {	-- Molten Scaled Gloves
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227759, {	-- Scorched Core Gloves
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227530, {	-- Incandescent Belt
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227751, {	-- Molten Scaled Belt
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227761, {	-- Scorched Core Belt
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227534, {	-- Incandescent Leggings
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227754, {	-- Molten Scaled Leggings
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227763, {	-- Scorched Core Leggings
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227536, {	-- Incandescent Boots
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227757, {	-- Molten Scaled Boots
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(227765, {	-- Scorched Core Boots
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228992, {	-- Onyxia Hide Backpack (Bag)
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						i(17966, {	-- Onyxia Hide Backpack (Bag)
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						i(17068),	-- Deathbringer
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228162, {	-- Deceit
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(228166, {	-- Key to the City
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						i(17075),	-- Vis'kag the Bloodletter
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228955, {	-- Ancient Cornerstone Grimoire
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						i(17067, {	-- Ancient Cornerstone Grimoire
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228165, {	-- Dragonslayer's Javelin
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						BLOODFANG_HOOD,
@@ -831,32 +831,32 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						STORMRAGE_COVER,
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228759, {	-- Eskhandar's Collar
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						i(18205, {	-- Eskhandar's Collar
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						i(17078),	-- Sapphiron Drape
 						i(18813),	-- Ring of Binding
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228163, {	-- Broodmother's Brooch
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						applyclassicphase(SOD_PHASE_FOUR, i(228188, {	-- Prestor's Hairpin
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228298, {	-- Shard of the Scale
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						i(17064, {	-- Shard of the Scale
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 					})),
@@ -884,6 +884,6 @@ for _,item in pairs({
 		item[key] = nil;
 	end
 	-- #if SEASON_OF_DISCOVERY
-	item.timeline = { "removed 1.15.3" };
+	item.timeline = { REMOVED_1_15_3 };
 	-- #endif
 end

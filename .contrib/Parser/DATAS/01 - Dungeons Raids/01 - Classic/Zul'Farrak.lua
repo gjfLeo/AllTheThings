@@ -298,7 +298,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				})),
 				i(9372, {	-- Sul'thraze the Lasher
-					["timeline"] = { "removed 1.15.2" },
+					["timeline"] = { REMOVED_1_15_2 },
 				}),
 				-- #else
 				i(9372, {	-- Sul'thraze the Lasher
@@ -354,7 +354,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_THREE, i(223962)),	-- Sandstalker Ankleguards
 					i(12470, {	-- Sandstalker Ankleguards
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					-- #else
 					i(12470),	-- Sandstalker Ankleguards
@@ -378,7 +378,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_THREE, i(223532)),	-- Lifeblood Amulet
 					i(9641, {	-- Lifeblood Amulet
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					-- #else
 					i(9641),	-- Lifeblood Amulet
@@ -396,7 +396,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_THREE, i(223534)),	-- Jumanza Grips
 					i(18083, {	-- Jumanza Grips
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					-- #else
 					i(18083),	-- Jumanza Grips
@@ -409,7 +409,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_THREE, i(223533)),	-- Desertwalker Cane
 					i(12471, {	-- Desertwalker Cane
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					-- #else
 					i(12471, {	-- Desertwalker Cane
@@ -451,10 +451,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(SOD_PHASE_THREE, i(223529)),	-- Jinxed Hoodoo Skin
 					applyclassicphase(SOD_PHASE_THREE, i(223530)),	-- Jinxed Hoodoo Kilt
 					i(9473, {	-- Jinxed Hoodoo Skin
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					i(9474, {	-- Jinxed Hoodoo Kilt
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					-- #else
 					i(9473),	-- Jinxed Hoodoo Skin
@@ -505,10 +505,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(SOD_PHASE_THREE, i(223963)),	-- Embrace of the Lycan
 					applyclassicphase(SOD_PHASE_THREE, i(223531)),	-- Big Bad Pauldrons
 					i(9479, {	-- Embrace of the Lycan
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					i(9476, {	-- Big Bad Pauldrons
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					-- #else
 					i(9479),	-- Embrace of the Lycan
@@ -547,10 +547,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(SOD_PHASE_THREE, i(223527)),	-- Gahz'rilla Fang
 					applyclassicphase(SOD_PHASE_THREE, i(223528)),	-- Gahz'rilla Scale Armor
 					i(9467, {	-- Gahz'rilla Fang
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					i(9469, {	-- Gahz'rilla Scale Armor
-						["timeline"] = { "removed 1.15.2" },
+						["timeline"] = { REMOVED_1_15_2 },
 					}),
 					-- #else
 					i(9467),	-- Gahz'rilla Fang

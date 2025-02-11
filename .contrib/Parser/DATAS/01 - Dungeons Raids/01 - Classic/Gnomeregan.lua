@@ -90,7 +90,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["cr"] = 6212,	-- Dark Iron Agent
 				}),
 				-- #if SEASON_OF_DISCOVERY
-				applyclassicphase(SOD_PHASE_TWO, i(216634, { ["timeline"] = { "added 1.15.1", REMOVED_2_0_1 } })),	-- GG12-082 Cartridge Fuse
+				applyclassicphase(SOD_PHASE_TWO, i(216634, { ["timeline"] = { ADDED_1_15_1, REMOVED_2_0_1 } })),	-- GG12-082 Cartridge Fuse
 				-- #endif
 				i(9490, {	-- Gizmotron Megachopper
 					["crs"] = {
@@ -114,20 +114,20 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(9308),	-- Grime-Encrusted Object
 				i(9326, {	-- Grime-Encrusted Ring
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["cr"] = 6212,	-- Dark Iron Agent
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, i(216661, {	-- Grime-Encrusted Ring
-					["timeline"] = { "added 1.15.1", REMOVED_2_0_1 },
+					["timeline"] = { ADDED_1_15_1, REMOVED_2_0_1 },
 					["crs"] = {
 						6212,	-- Dark Iron Agent
 						6228,	-- Dark Iron Ambassador
 					},
 				})),
-				applyclassicphase(SOD_PHASE_TWO, i(216661, { ["timeline"] = { "added 1.15.1", REMOVED_2_0_1 } })),	-- Grime-Encrusted Salvage
-				applyclassicphase(SOD_PHASE_TWO, i(215430, { ["timeline"] = { "added 1.15.1", REMOVED_2_0_1 } })),	-- Gnomeregan Fallout
+				applyclassicphase(SOD_PHASE_TWO, i(216661, { ["timeline"] = { ADDED_1_15_1, REMOVED_2_0_1 } })),	-- Grime-Encrusted Salvage
+				applyclassicphase(SOD_PHASE_TWO, i(215430, { ["timeline"] = { ADDED_1_15_1, REMOVED_2_0_1 } })),	-- Gnomeregan Fallout
 				-- #endif
 				i(9489, {	-- Gyromatic Icemaker
 					["crs"] = {
@@ -288,7 +288,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			MATRIX_PUNCHOGRAPH_C,
 			MATRIX_PUNCHOGRAPH_D,
 			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
-			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownTimelineEventSelf("removed 1.15.1", {
+			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownTimelineEventSelf(REMOVED_1_15_1, {
 			-- #endif
 			n(QUESTS, {
 				q(2904, {	-- A Fine Mess
@@ -938,7 +938,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			})),
-			applyclassicphase(SOD_PHASE_TWO, d(DIFFICULTY.SOD.PLAYER10, bubbleDownSelf({ ["timeline"] = { "added 1.15.1", REMOVED_2_0_1 }, }, {
+			applyclassicphase(SOD_PHASE_TWO, d(DIFFICULTY.SOD.PLAYER10, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_1, REMOVED_2_0_1 }, }, {
 				["description"] = "This instance was converted from a normal difficulty dungeon into a 10-player raid instance.",
 				["lvl"] = 40,
 				["groups"] = {

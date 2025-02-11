@@ -2083,7 +2083,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				applyclassicphase(SOD_PHASE_FOUR, i(226408, {	-- Rune of Mace Specialization
 					["provider"] = { "o", 457093 },	-- Blunt Justice: A Dwarf's Tale
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 74.0, 69.2, WETLANDS },
 					["classes"] = { WARRIOR, PALADIN, PRIEST, SHAMAN, ROGUE, DRUID },
 					["groups"] = {

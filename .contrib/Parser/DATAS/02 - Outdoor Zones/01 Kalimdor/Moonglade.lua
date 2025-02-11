@@ -716,7 +716,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_THREE, n(222188, {	-- Shadowy Figure
 					["sourceQuest"] = 81986,	-- Waking the Nightmare
 					["description"] = "She will only offer to teach you the recipes after you have collected an Inert Mantle of Nightmares once already by completing the Waking the Nightmare quest from ST.",
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["lvl"] = 50,
 					["groups"] = {
 						recipe(446191),	-- Baleful Pauldrons

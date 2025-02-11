@@ -93,7 +93,7 @@ profession(LEATHERWORKING, {
 						["recipeID"] = 19094,
 						["requireSkill"] = 10656,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					{
@@ -107,7 +107,7 @@ profession(LEATHERWORKING, {
 						["name"] = "Hardened Black Dragonscale Shoulders",
 						["recipeID"] = 461659,
 						["requireSkill"] = 10656,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 				}
@@ -121,7 +121,7 @@ profession(LEATHERWORKING, {
 						["recipeID"] = 19085,
 						["requireSkill"] = 10656,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					{
@@ -145,7 +145,7 @@ profession(LEATHERWORKING, {
 						["name"] = "Hardened Black Dragonscale Breastplate",
 						["recipeID"] = 461655,
 						["requireSkill"] = 10656,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -192,7 +192,7 @@ profession(LEATHERWORKING, {
 						["recipeID"] = 19107,
 						["requireSkill"] = 10656,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					{
@@ -205,7 +205,7 @@ profession(LEATHERWORKING, {
 						["name"] = "Hardened Black Dragonscale Leggings",
 						["recipeID"] = 461657,
 						["requireSkill"] = 10656,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -235,7 +235,7 @@ profession(LEATHERWORKING, {
 						["name"] = "Brilliant Chromatic Cloak",
 						["recipeID"] = 461653,
 						["requireSkill"] = 10656,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					applyclassicphase(PHASE_ONE_DIREMAUL, {
@@ -244,7 +244,7 @@ profession(LEATHERWORKING, {
 						["requireSkill"] = 10656,
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"removed 1.15.3",
+							REMOVED_1_15_3,
 							-- #else
 							REMOVED_4_0_3,
 							ADDED_10_1_5,

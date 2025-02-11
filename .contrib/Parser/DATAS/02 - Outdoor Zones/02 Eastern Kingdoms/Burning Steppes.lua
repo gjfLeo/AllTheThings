@@ -2314,7 +2314,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226407, {	-- Rune of Axe Specialization
 					["provider"] = { "o", 457101 },	-- The Rites of Mak'Gora
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 40.0, 34.5, BURNING_STEPPES },
 					["classes"] = { WARRIOR, PALADIN, HUNTER, SHAMAN },
 					["groups"] = {
@@ -2479,7 +2479,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, i(227908, {	-- Pattern: Masterwork Volcanic Leggings (RECIPE!)
 					["description"] = "Drops from Firegut Brutes, which are found around Dreadmaul Rock and inside the Firegut Furnace cavern. The entrance to Firegut Furnace is at the southwestern side of Dreadmaulk Rock. Firegut Ogre Mages very often spawn in place of Firegut Brutes.",
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["cr"] = 7035,	-- Firegut Brute
 					["coords"] = {
 						{ 83.6, 40.0, BURNING_STEPPES },
@@ -2491,7 +2491,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["description"] = "Drops from Firegut Brutes, which are found around Dreadmaul Rock and inside the Firegut Furnace cavern. The entrance to Firegut Furnace is at the southwestern side of Dreadmaulk Rock. Firegut Ogre Mages very often spawn in place of Firegut Brutes.",
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						REMOVED_4_0_3, ADDED_10_1_7,	-- ATT Discord 05.09.2023
 						-- #endif

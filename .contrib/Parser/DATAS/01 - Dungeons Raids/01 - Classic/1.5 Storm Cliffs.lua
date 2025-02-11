@@ -3,7 +3,7 @@
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
-	applyclassicphase(SOD_PHASE_FOUR, inst(2791, bubbleDownSelf({["timeline"] = { "added 1.15.3" }}, {	-- Storm Cliffs
+	applyclassicphase(SOD_PHASE_FOUR, inst(2791, bubbleDownSelf({["timeline"] = { ADDED_1_15_3 }}, {	-- Storm Cliffs
 		["zone-text-areaID"] = 15532,	-- Storm Cliffs
 		["lore"] = "The Storm Cliffs is a place in Azshara known for its weather and acts as the home away from home for the blue dragonflight.",
 		["coord"] = { 43.5, 83.6, AZSHARA },
@@ -28,38 +28,38 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(228250),	-- Plans: Stronger-hold Gauntlets
 			}),
 			n(6109, {	-- Azuregos
-				["timeline"] = { "removed 1.15.3" },
+				["timeline"] = { REMOVED_1_15_3 },
 				["modelScale"] = 6.0,
 				["groups"] = {
 					i(19130, {	-- Cold Snap
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(18202, {	-- Eskhandar's Left Claw
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(17070, {	-- Fang of the Mystics
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(18542, {	-- Typhoon
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(19132, {	-- Crystal Adorned Crown
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(18208, {	-- Drape of Benediction
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(18541, {	-- Puissant Cape
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(18547, {	-- Unmelting Ice Girdle
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(18545, {	-- Leggings of Arcane Supremacy
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					i(19131, {	-- Snowblind Shoes
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 				},
 			}),

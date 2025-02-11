@@ -110,7 +110,7 @@ profession(LEATHERWORKING, {
 						["recipeID"] = 19101,
 						["requireSkill"] = 10658,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 				}
@@ -128,7 +128,7 @@ profession(LEATHERWORKING, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_FOUR, {
 						["name"] = "Masterwork Volcanic Breastplate",
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 						["recipeID"] = 461661,
 						["requireSkill"] = 10658,
 					}),
@@ -144,7 +144,7 @@ profession(LEATHERWORKING, {
 						["recipeID"] = 19076,
 						["requireSkill"] = 10658,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 				}
@@ -192,7 +192,7 @@ profession(LEATHERWORKING, {
 						["name"] = "Masterwork Volcanic Leggings",
 						["recipeID"] = 461665,
 						["requireSkill"] = 10658,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -204,7 +204,7 @@ profession(LEATHERWORKING, {
 						["name"] = "Volcanic Leggings",
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"removed 1.15.3",
+							REMOVED_1_15_3,
 							-- #else
 							REMOVED_4_0_3, ADDED_10_1_7,
 							-- #endif
@@ -221,7 +221,7 @@ profession(LEATHERWORKING, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_FOUR, {
 						["name"] = "Mastercrafted Shifting Cloak",
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 						["recipeID"] = 461690,
 						["requireSkill"] = 10658,
 					}),
@@ -230,7 +230,7 @@ profession(LEATHERWORKING, {
 						["name"] = "Shifting Cloak",
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"removed 1.15.3",
+							REMOVED_1_15_3,
 							-- #else
 							REMOVED_4_0_3, ADDED_10_1_5,
 							-- #endif

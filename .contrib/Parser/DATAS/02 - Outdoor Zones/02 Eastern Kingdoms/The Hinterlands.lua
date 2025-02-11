@@ -2429,11 +2429,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, n(221828, {	-- Vengeful Spirit
 					["description"] = "Use your Sense Undead after 9PM Server near the Quel'Danil Lodge to spawn this rare.",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["groups"] = {
 						i(220165, {	-- Rune of Wrath
-							["timeline"] = { "added 1.15.1" },
+							["timeline"] = { ADDED_1_15_1 },
 							["classes"] = { PALADIN },
 							["groups"] = {
 								recipe(429249),	-- Engrave Helm - Wrath
@@ -2567,7 +2567,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_THREE, i(220912, {	-- Geode Hammer
 					["provider"] = { "i", 220914 },	-- Broken Geode Hammer
 					["description"] = "Wield this hammer until it breaks, revealing the rune inside!",
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["classes"] = { WARRIOR },
 					["crs"] = {
 						2649,	-- Witherbark Scalper
@@ -2627,7 +2627,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, i(221261, {	-- Wildwhisper Draught
 					["description"] = "Dropped by any elite troll at Jintha'Alor.\n\nRequired for 'The Wild Gods'. Bring this to Razorfen Downs and use it after defeating the Coldbringer (the last boss).",
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 				})),
 				-- #endif
 			}),

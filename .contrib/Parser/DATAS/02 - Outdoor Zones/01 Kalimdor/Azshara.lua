@@ -634,7 +634,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 221400,	-- Kajind
 					["sourceQuest"] = 81682,	-- The Old Champ
 					["coord"] = { 25.4, 66.2, AZSHARA },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["classes"] = { WARRIOR },
 					["lvl"] = 45,
 					["groups"] = {
@@ -1629,7 +1629,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 221400,	-- Kajind
 					["sourceQuest"] = 81697,	-- Defanged
 					["coord"] = { 25.4, 66.2, AZSHARA },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { TANARIS },
 					["classes"] = { WARRIOR },
 					["lvl"] = 45,
@@ -2584,7 +2584,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226412, {	-- Rune of Pole Weapon Specialization
 					["provider"] = { "o", 457091 },	-- Chen's Training Manual
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 76.9, 44.2, AZSHARA },
 					["classes"] = { WARRIOR, PALADIN, HUNTER, PRIEST, SHAMAN, MAGE, WARLOCK, DRUID },
 					["groups"] = {

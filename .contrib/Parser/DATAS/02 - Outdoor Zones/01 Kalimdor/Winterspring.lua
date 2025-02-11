@@ -1562,7 +1562,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["description"] = "Upon finishing this quest, you will become a Master Hammersmith and be locked out of becoming a Master Axesmith and Master Swordsmith.",
 					-- #endif
 					["coord"] = { 61.2, 37.2, WINTERSPRING },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { STRATHOLME },
 					-- #if BEFORE TBC
 					["requireSkill"] = 9787,	-- Weaponsmith
@@ -1577,7 +1577,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["cr"] = 11120,	-- Crimson Hammersmith
 						}),
 						i(228311, {	-- Plans: Finely-Enchanted Battlehammer (RECIPE!)
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						}),
 					},
 				})),
@@ -1596,7 +1596,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 61.2, 37.2, WINTERSPRING },
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif
@@ -1617,7 +1617,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(12824, {	-- Plans: Enchanted Battlehammer (RECIPE!)
 							["timeline"] = {
 								-- #if SEASON_OF_DISCOVERY
-								"removed 1.15.3",
+								REMOVED_1_15_3,
 								-- #else
 								REMOVED_4_0_3,
 								-- #endif
@@ -2411,7 +2411,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226419, {	-- Rune of Feral Combat Specialization
 					["provider"] = { "o", 457098 },	-- Finding Your Inner Feline: A Guide to Modern Druidism
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 49.6, 8.8, WINTERSPRING },
 					["classes"] = { DRUID },
 					["groups"] = {
@@ -2422,7 +2422,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				applyclassicphase(SOD_PHASE_FOUR, i(226415, {	-- Rune of Frost Specialization
 					["provider"] = { "o", 457095 },	-- Elements for Dummies Volume I: Frost
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 58.9, 59.9, WINTERSPRING },
 					["classes"] = { HUNTER, SHAMAN, MAGE },
 					["groups"] = {

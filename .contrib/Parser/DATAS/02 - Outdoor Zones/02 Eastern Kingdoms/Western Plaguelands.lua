@@ -758,7 +758,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["questID"] = 83756,	-- Bless the Fallen HQT
 					["qg"] = 227519,	-- Fallen Knight
 					["coord"] = { 44.6, 46.6, WESTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 				})),
@@ -849,7 +849,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["questID"] = 84004,	-- Burn the Fallen Knight HQT
 					["sourceQuest"] = 83935,	-- Clearing the Path
 					["coord"] = { 44.6, 46.6, WESTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 				})),
@@ -898,7 +898,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 227672,	-- Squire Cuthbert
 					["sourceQuest"] = 83808,	-- In A Bind
 					["coord"] = { 47.8, 50.4, WESTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -1084,7 +1084,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 83822,	-- The Fallen Knight
 					["coord"] = { 47.8, 50.4, WESTERN_PLAGUELANDS },
 					["description"] = "Upon completing this quest, you will have a personal Squire.",
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -1351,7 +1351,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 227672,	-- Squire Cuthbert
 					["sourceQuest"] = 83756,	-- Bless the Fallen HQT
 					["coord"] = { 47.8, 50.4, WESTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -2241,7 +2241,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 227672,	-- Squire Cuthbert
 					["sourceQuest"] = 83935,	-- Clearing the Path
 					["coord"] = { 47.8, 50.4, WESTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -3071,7 +3071,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226413, {	-- Rune of Arcane Specialization
 					["provider"] = { "o", 457102 },	-- Elements for Dummies Volume III: Arcane
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 47.3, 13.7, WESTERN_PLAGUELANDS },
 					["classes"] = { HUNTER, MAGE, DRUID },
 					["groups"] = {
@@ -3185,13 +3185,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(12819),	-- Plans: Ornate Thorium Handaxe (RECIPE!)
 						i(12703, {	-- Plans: Storm Gauntlets (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.3" },
+							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
 						i(13501),	-- Recipe: Major Mana Potion (RECIPE!)
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_FOUR, i(228313, {	-- Plans: Tempest Gauntlets (RECIPE!)
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						})),
 						-- #endif
 						i(13485),	-- Recipe: Transmute Water to Air (RECIPE!)

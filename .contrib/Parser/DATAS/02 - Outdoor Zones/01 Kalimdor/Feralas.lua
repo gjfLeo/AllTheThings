@@ -2733,7 +2733,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_THREE, q(81924, {	-- Wisdom of the Guardians
 					["qg"] = 221985,	-- Tyrisius
 					["coord"] = { 57.2, 69, FERALAS },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { THE_HINTERLANDS, AZSHARA },
 					["classes"] = { DRUID },
 					["lvl"] = 45,

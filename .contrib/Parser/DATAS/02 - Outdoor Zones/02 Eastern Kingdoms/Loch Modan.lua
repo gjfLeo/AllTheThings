@@ -627,7 +627,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["provider"] = { "o", 424007 },	-- Carved Figurine
 					["sourceQuest"] = 79974,	-- Wet Job
 					["coord"] = { 49.5, 12.8, LOCH_MODAN },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["maps"] = { ARATHI_HIGHLANDS },
 					["lvl"] = 14,
 				})),

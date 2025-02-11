@@ -1131,7 +1131,7 @@ profession(ENCHANTING, sharedData({["sourceIgnored"]=true},{
 			applyclassicphase(PHASE_FIVE, r(25129, {["timeline"]={REMOVED_4_0_3}})),	-- Brilliant Wizard Oil
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, r(463869, {	-- Conductive Shield Coating
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 			})),
 			-- #endif
 			applyclassicphase(PHASE_FIVE_RECIPES, r(25127)),	-- Lesser Mana Oil
@@ -1157,7 +1157,7 @@ profession(ENCHANTING, sharedData({["sourceIgnored"]=true},{
 			r(13905),	-- Greater Versatility / CLASSIC: Greater Spirit
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_FOUR, r(463871, {	-- Law of Nature
-				["timeline"] = { "added 1.15.3" },
+				["timeline"] = { ADDED_1_15_3 },
 			})),
 			-- #endif
 			r(13689),	-- Lesser Parry / CLASSIC: Lesser Block

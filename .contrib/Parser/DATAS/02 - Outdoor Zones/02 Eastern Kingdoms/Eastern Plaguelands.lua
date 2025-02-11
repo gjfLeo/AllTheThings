@@ -1035,7 +1035,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["provider"] = { "o", 462236 },	-- Mysterious Chest
 					["sourceQuest"] = 84414,	-- Send Me On Me Way!
 					["coord"] = { 27.4, 85.8, EASTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -1063,7 +1063,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["sourceQuest"] = 84319,	-- Oh No Ye Don't!
 					["coord"] = { 33.8, 28.8, EASTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { STRATHOLME },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
@@ -2764,7 +2764,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 228619 },	-- Orthas <Dwarven Spirit>
 					},
 					["coord"] = { 34.2, 80.4, EASTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -2784,7 +2784,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["sourceQuest"] = 84318,	-- Oi!
 					["coord"] = { 61.3, 69.2, EASTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -3080,7 +3080,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 229018,	-- Rotting Dwarf Corpse
 					["sourceQuest"] = 84330,	-- A Wee Bit O' Necromancy
 					["coord"] = { 27.6, 86.0, EASTERN_PLAGUELANDS },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["classes"] = { PALADIN },
 					["lvl"] = 50,
 					["groups"] = {
@@ -3339,7 +3339,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #else
 					["coord"] = { 20.8, 18.4, EASTERN_PLAGUELANDS },
 					-- #endif
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["cost"] = {
 						{ "i", 18646, 1 },	-- The Eye of Divinity
 						{ "i", 18665, 1 },	-- The Eye of Shadow
@@ -3352,10 +3352,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["classes"] = { PRIEST },
 						}),
 						i(228336, {	-- Anathema
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						}),
 						i(228335, {	-- Benediction
-							["timeline"] = { "added 1.15.3" },
+							["timeline"] = { ADDED_1_15_3 },
 						}),
 					},
 				})),
@@ -3373,7 +3373,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif
@@ -3392,7 +3392,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(18609, {	-- Anathema
 							["timeline"] = {
 								-- #if SEASON_OF_DISCOVERY
-								"removed 1.15.3",
+								REMOVED_1_15_3,
 								-- #else
 								REMOVED_4_0_3,
 								-- #endif
@@ -3401,7 +3401,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(18608, {	-- Benediction
 							["timeline"] = {
 								-- #if SEASON_OF_DISCOVERY
-								"removed 1.15.3",
+								REMOVED_1_15_3,
 								-- #else
 								REMOVED_4_0_3,
 								-- #endif
@@ -4576,7 +4576,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, i(226418, {	-- Rune of Holy Specialization
 					["provider"] = { "o", 457094 },	-- The True Nature of the Light
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 83.6, 78.1, EASTERN_PLAGUELANDS },
 					["classes"] = { PALADIN, PRIEST },
 					["groups"] = {
@@ -4587,7 +4587,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				applyclassicphase(SOD_PHASE_FOUR, i(226410, {	-- Rune of Ranged Weapon Specialization
 					["provider"] = { "o", 457090 },	-- Famous (and Infamous) Rangers of Azeroth
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 26.2, 74.8, EASTERN_PLAGUELANDS },
 					["classes"] = { WARRIOR, HUNTER, ROGUE },
 					["groups"] = {
@@ -4769,12 +4769,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_FOUR, i(227813, {	-- Drinkable Stratholme Holy Water
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["cost"] = {{ "i", 13180, 1 }},	-- Stratholme Holy Water
 							})),
 							-- EPIC CRAFTED ITEMS UPGRADES
 							applyclassicphase(SOD_PHASE_FOUR, i(227816, {	-- Argent Elite Boots
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = TAILORING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -4784,7 +4784,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227888, {	-- Argent Elite Shoulders
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = TAILORING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -4794,7 +4794,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227815, {	-- Fine Dawn Treaders
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = LEATHERWORKING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -4804,7 +4804,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227818, {	-- Glowing Mantle of the Dawn
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = LEATHERWORKING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -4814,7 +4814,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227814, {	-- Radiant Girdle of the Dawn
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = BLACKSMITHING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -4824,7 +4824,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227817, {	-- Radiant Gloves of the Dawn
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = BLACKSMITHING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -4834,7 +4834,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								},
 							})),
 							applyclassicphase(SOD_PHASE_FOUR, i(227859, {	-- Shimmering Dawnbringer Shoulders
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 								["requireSkill"] = BLACKSMITHING,
 								["learnedAt"] = 290,
 								["cost"] = {
@@ -4892,7 +4892,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if SEASON_OF_DISCOVERY
 							-- CRIEVE NOTE: With SOD phase 4, they put this recipe directly on the vendor. Interesting.
 							applyclassicphase(SOD_PHASE_FOUR, i(12698, {	-- Plans: Dawnbringer Shoulders (RECIPE!)
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 							})),
 							-- #endif
 							applyclassicphase(PHASE_THREE_RECIPES, i(19205)),	-- Plans: Gloves of the Dawn (RECIPE!)
@@ -4916,7 +4916,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									5521,	-- Chromatic Mantle of the Dawn
 									5524,	-- Chromatic Mantle of the Dawn
 								},
-								["timeline"] = { "added 1.15.3" },
+								["timeline"] = { ADDED_1_15_3 },
 							})),
 							-- #endif
 						},

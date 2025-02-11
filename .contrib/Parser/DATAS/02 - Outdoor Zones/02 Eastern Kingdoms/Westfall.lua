@@ -164,7 +164,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 37.5, 50.7, WESTFALL },
 						{ 46.4, 73.8, THE_BARRENS },
 					},
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 14,
 					["groups"] = {

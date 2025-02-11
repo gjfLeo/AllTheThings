@@ -186,7 +186,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 217300,	-- Skonk <Amateur Chef>
 					["sourceQuest"] = 79624,	-- Anyone Can Cook
 					["coord"] = { 57.6, 74.6, ARATHI_HIGHLANDS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["maps"] = { HILLSBRAD_FOOTHILLS, SWAMP_OF_SORROWS, BADLANDS },
 					["classes"] = { WARRIOR },
 					["lvl"] = 26,
@@ -263,7 +263,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 217300 },	-- Skonk <Amateur Chef>
 					},
 					["coord"] = { 20.0, 67.4, ARATHI_HIGHLANDS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["maps"] = { ALTERAC_MOUNTAINS },
 					["classes"] = { WARRIOR },
 					["crs"] = {
@@ -1003,7 +1003,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 215643,	-- Tokal
 					["sourceQuest"] = 79236,	-- Cherry for Your Thoughts?
 					["coord"] = { 27.0, 77.2, STRANGLETHORN_VALE },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["lvl"] = 30,
 					["groups"] = {
 						objective(1, {	-- 0/1 Found Illari Duskfeather
@@ -1557,7 +1557,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 217300,	-- Skonk <Amateur Chef>
 					["sourceQuest"] = 79677,	-- A Quick Grocery Run
 					["coord"] = { 57.6, 74.6, ARATHI_HIGHLANDS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { WARRIOR },
 					["lvl"] = 26,
 					["groups"] = {
@@ -1799,7 +1799,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["sourceQuest"] = 79975,	-- Eagle's Fist
 					["coord"] = { 22.5, 24.2, ARATHI_HIGHLANDS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["lvl"] = 14,
 					["groups"] = {
 						i(211527),	-- Cozy Sleeping Bag
@@ -2378,7 +2378,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_TWO, i(213447, {	-- Rosary of the Light
 					["description"] = "Combine the 3 divine prayer beads and then bring it to Brother Atticus.",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["cost"] = {
 						{ "i", 213448, 1 },	-- Divine Prayer Bead I
 						{ "i", 213449, 1 },	-- Divine Prayer Bead II
@@ -2393,7 +2393,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 217387 },	-- Brother Atticus
 					},
 					["coord"] = { 27.0, 57.0, ARATHI_HIGHLANDS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2742,7 +2742,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, i(213444, {	-- Tarnished Prayer Bead I
 					["description"] = "With this in your inventory and while in combat, cast Blessing of Might and then kill an enemy that grants XP.",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2751,7 +2751,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				applyclassicphase(SOD_PHASE_TWO, i(213445, {	-- Tarnished Prayer Bead II
 					["description"] = "With this in your inventory and while in combat with less than 10% health, cast Divine Shield.",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2760,7 +2760,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				applyclassicphase(SOD_PHASE_TWO, i(213446, {	-- Tarnished Prayer Bead III
 					["description"] = "With this in your inventory and while in combat, cast Seal of Justice and then cast Judgement AS THE MOB IS RUNNING AWAY. Judging the enemy before they run will not work.",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

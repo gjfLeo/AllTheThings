@@ -3009,13 +3009,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_TWO, i(217258, {	-- Pattern: Enchanter's Cowl
-							["timeline"] = { "added 1.15.1" },
+							["timeline"] = { ADDED_1_15_1 },
 							["isLimited"] = true,
 						})),
 						-- #endif
 						i(14630, {	-- Pattern: Enchanter's Cowl
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.1" },
+							["timeline"] = { REMOVED_1_15_1 },
 							-- #endif
 							["isLimited"] = true,
 						}),

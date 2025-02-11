@@ -45,7 +45,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
-			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownTimelineEventSelf("removed 1.15.0", {
+			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownTimelineEventSelf(REMOVED_1_15_0, {
 			-- #endif
 			n(QUESTS, {
 				q(6564, {	-- Allegiance to the Old Gods (1/2)
@@ -706,7 +706,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			})),
-			applyclassicphase(SOD_PHASE_ONE, d(DIFFICULTY.SOD.PLAYER10, bubbleDownSelf({ ["timeline"] = { "added 1.15.0", REMOVED_2_0_1 }, }, {
+			applyclassicphase(SOD_PHASE_ONE, d(DIFFICULTY.SOD.PLAYER10, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_0, REMOVED_2_0_1 }, }, {
 				["description"] = "This instance was converted from a normal difficulty dungeon into a 10-player raid instance.",
 				["lvl"] = 25,
 				["groups"] = {

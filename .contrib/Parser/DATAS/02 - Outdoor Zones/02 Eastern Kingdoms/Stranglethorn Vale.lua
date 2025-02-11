@@ -237,7 +237,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if SEASON_OF_DISCOVERY
 				pvp(applyclassicphase(SOD_PHASE_TWO, faction(2634, {	-- Blood Moon
 					["description"] = "This faction is probably not one that you can gain reputation with.",
-					["timeline"] = { "created 1.15.1" },
+					["timeline"] = { CREATED_1_15_1 },
 				}))),
 				-- #endif
 			}),
@@ -745,7 +745,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 215643,	-- Tokal
 					["sourceQuest"] = 79235,	-- On The Lam
 					["coord"] = { 27.0, 77.2, STRANGLETHORN_VALE },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["lvl"] = 30,
 					["groups"] = {
 						objective(1, {	-- 0/1 Cherry Grog
@@ -1588,7 +1588,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_FOUR, q(83934, {	-- Show Me The Money!
 					["qg"] = 227853,	-- Pix Xizzix
 					["coord"] = { 28.4, 75.8, STRANGLETHORN_VALE },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["lvl"] = 55,
 					["groups"] = {
 						objective(1, {	-- 0/1 Tarnished Undermine Real
@@ -2646,7 +2646,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}), {
 				i(213168, {	-- Copper Blood Coin
 					["description"] = "Bring Blood for the Loa stacks to a blood altar on the map to exchange for this coin.\n\nThe ratio is 1 Copper Blood Coin per 1 blood stack.",
-					["timeline"] = { "removed 1.15.2" },
+					["timeline"] = { REMOVED_1_15_2 },
 				}),
 				bloodcoin_c(100, i(213169)),	-- Silver Blood Coin
 				bloodcoin_s(100, i(213170)),	-- Gold Blood Coin
@@ -2883,7 +2883,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}))),
 						applyclassicphase(SOD_PHASE_THREE, massacrecoin_s(1, i(223283))),	-- Bloodstained Commendation
 						bloodcoin_c(25, i(216914, {	-- Bloodstained Commendation / Tarnished Commendation
-							["timeline"] = { "removed 1.15.2" },
+							["timeline"] = { REMOVED_1_15_2 },
 						})),
 						bloodcoin_s(1, i(216491)),	-- Shipment of Stranglethorn Lumber
 						bloodcoin_g(1, i(216570)),	-- Reins of the Golden Sabercat
@@ -3048,7 +3048,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
-				applyclassicphase(SOD_PHASE_FOUR, n(227853, bubbleDownSelf({ ["timeline"] = { "added 1.15.3" } }, {	-- Pix Xizzix <Undermine Trader>
+				applyclassicphase(SOD_PHASE_FOUR, n(227853, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_3 } }, {	-- Pix Xizzix <Undermine Trader>
 					["sourceQuest"] = 83934,	-- Show Me The Money!
 					["coord"] = { 28.4, 75.8, STRANGLETHORN_VALE },
 					["groups"] = {
@@ -3338,13 +3338,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_TWO, i(217258, {	-- Pattern: Enchanter's Cowl
-							["timeline"] = { "added 1.15.1" },
+							["timeline"] = { ADDED_1_15_1 },
 							["isLimited"] = true,
 						})),
 						-- #endif
 						i(14630, {	-- Pattern: Enchanter's Cowl
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.1" },
+							["timeline"] = { REMOVED_1_15_1 },
 							-- #endif
 							["isLimited"] = true,
 						}),
@@ -3422,13 +3422,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						i(12163, {	-- Plans: Moonsteel Broadsword (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
-							["timeline"] = { "removed 1.15.1" },
+							["timeline"] = { REMOVED_1_15_1 },
 							-- #endif
 							["isLimited"] = true,
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_TWO, i(217282, {	-- Plans: Moonsteel Broadsword (RECIPE!)
-							["timeline"] = { "added 1.15.1" },
+							["timeline"] = { ADDED_1_15_1 },
 							["isLimited"] = true,
 						})),
 						-- #endif

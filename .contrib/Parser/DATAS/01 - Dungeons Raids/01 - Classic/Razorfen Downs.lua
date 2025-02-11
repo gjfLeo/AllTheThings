@@ -324,7 +324,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_TWO, i(217293)),	-- Silky Spider Cape
 					i(10776, {	-- Silky Spider Cape
-						["timeline"] = { "removed 1.15.1" },
+						["timeline"] = { REMOVED_1_15_1 },
 					}),
 					-- #else
 					i(10776),	-- Silky Spider Cape
@@ -398,13 +398,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(SOD_PHASE_TWO, i(217290)),	-- Glowing Eye of Mordresh
 					applyclassicphase(SOD_PHASE_TWO, i(217292)),	-- Deathmage Sash
 					i(10770, {	-- Mordresh's Lifeless Skull
-						["timeline"] = { "removed 1.15.1" },
+						["timeline"] = { REMOVED_1_15_1 },
 					}),
 					i(10769, {	-- Glowing Eye of Mordresh
-						["timeline"] = { "removed 1.15.1" },
+						["timeline"] = { REMOVED_1_15_1 },
 					}),
 					i(10771, {	-- Deathmage Sash
-						["timeline"] = { "removed 1.15.1" },
+						["timeline"] = { REMOVED_1_15_1 },
 					}),
 					-- #else
 					i(10770),	-- Mordresh's Lifeless Skull
@@ -472,10 +472,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(SOD_PHASE_TWO, i(217289)),	-- Deathchill Armor
 					applyclassicphase(SOD_PHASE_TWO, i(217288)),	-- Robes of the Lich
 					i(10764, {	-- Deathchill Armor
-						["timeline"] = { "removed 1.15.1" },
+						["timeline"] = { REMOVED_1_15_1 },
 					}),
 					i(10762, {	-- Robes of the Lich
-						["timeline"] = { "removed 1.15.1" },
+						["timeline"] = { REMOVED_1_15_1 },
 					}),
 					-- #else
 					i(10764),	-- Deathchill Armor

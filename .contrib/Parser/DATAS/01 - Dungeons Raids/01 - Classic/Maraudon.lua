@@ -347,7 +347,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_THREE, i(223543)),	-- Vinerot Sandals
 							i(17748, {	-- Vinerot Sandals
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							-- #else
 							i(17748),	-- Vinerot Sandals
@@ -415,7 +415,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_THREE, i(223525)),	-- Soothsayer's Headdress
 							i(17740, {	-- Soothsayer's Headdress
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							-- #else
 							i(17740),	-- Soothsayer's Headdress
@@ -431,13 +431,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							applyclassicphase(SOD_PHASE_THREE, i(223523)),	-- Cloud Stone
 							applyclassicphase(SOD_PHASE_THREE, i(223522)),	-- Helm of the Mountain
 							i(17943, {	-- Fist of Stone
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17737, {	-- Cloud Stone
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17734, {	-- Helm of the Mountain
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							-- #else
 							i(17943),	-- Fist of Stone
@@ -460,13 +460,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							applyclassicphase(SOD_PHASE_THREE, i(223542)),	-- Megashot Rifle
 							applyclassicphase(SOD_PHASE_THREE, i(223545)),	-- Gizlock's Hypertech Buckler
 							i(17719, {	-- Inventor's Focal Sword
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17717, {	-- Megashot Rifle
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17718, {	-- Gizlock's Hypertech Buckler
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							-- #else
 							i(17719),	-- Inventor's Focal Sword
@@ -487,7 +487,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_THREE, i(223521)),	-- Rotgrip Mantle
 							i(17732, {	-- Rotgrip Mantle
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							-- #else
 							i(17732),	-- Rotgrip Mantle
@@ -523,19 +523,19 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							applyclassicphase(SOD_PHASE_THREE, i(223519)),	-- Eye of Theradras
 							applyclassicphase(SOD_PHASE_THREE, i(223541)),	-- Gemshard Heart
 							i(17780, {	-- Blade of Eternal Darkness
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17710, {	-- Charstone Dirk
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17766, {	-- Princess Theradras' Scepter
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17715, {	-- Eye of Theradras
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							i(17707, {	-- Gemshard Heart
-								["timeline"] = { "removed 1.15.2" },
+								["timeline"] = { REMOVED_1_15_2 },
 							}),
 							-- #else
 							i(17780),	-- Blade of Eternal Darkness

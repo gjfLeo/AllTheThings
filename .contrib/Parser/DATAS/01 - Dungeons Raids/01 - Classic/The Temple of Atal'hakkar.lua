@@ -102,7 +102,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["groups"] = {
 			-- #if SEASON_OF_DISCOVERY
 			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
-			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownTimelineEventSelf("removed 1.15.1", {
+			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownTimelineEventSelf(REMOVED_1_15_1, {
 			-- #endif
 			n(QUESTS, {
 				applyclassicphase(PHASE_FOUR_SUNKEN_TEMPLE_CLASS_QUESTS, q(9053, {	-- A Better Ingredient
@@ -787,7 +787,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			})),
-			applyclassicphase(SOD_PHASE_THREE, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { "added 1.15.2", REMOVED_2_0_1 }, }, {
+			applyclassicphase(SOD_PHASE_THREE, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_2, REMOVED_2_0_1 }, }, {
 				["description"] = "This instance was converted from a normal difficulty dungeon into a 20-player raid instance.",
 				["lvl"] = 50,
 				["groups"] = {

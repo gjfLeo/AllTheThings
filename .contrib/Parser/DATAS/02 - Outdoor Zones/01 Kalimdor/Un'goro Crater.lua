@@ -333,7 +333,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 42.9, 9.6, UNGORO_CRATER },
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.2",
+						REMOVED_1_15_2,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif
@@ -359,7 +359,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 45.6, 8.6, UNGORO_CRATER },
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.2",
+						REMOVED_1_15_2,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif

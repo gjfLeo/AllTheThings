@@ -112,7 +112,7 @@ profession(BLACKSMITHING, {
 						["recipeID"] = 16728,
 						["requireSkill"] = 9788,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					{
@@ -125,7 +125,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Warcrest of the Great Chief",
 						["recipeID"] = 461739,
 						["requireSkill"] = 9788,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -146,7 +146,7 @@ profession(BLACKSMITHING, {
 						["requireSkill"] = 9788,
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"added 1.15.3",
+							ADDED_1_15_3,
 							-- #else
 							CREATED_1_12_1, ADDED_2_0_1,
 							-- #endif
@@ -186,7 +186,7 @@ profession(BLACKSMITHING, {
 						["requireSkill"] = 9788,
 						["timeline"] = {
 							-- #if SEASON_OF_DISCOVERY
-							"removed 1.15.3",
+							REMOVED_1_15_3,
 							-- #else
 							REMOVED_4_0_3,
 							-- #endif
@@ -197,7 +197,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Fiery Plate Gauntlets of the Hidden Technique",
 						["recipeID"] = 461651,
 						["requireSkill"] = 9788,
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -205,7 +205,7 @@ profession(BLACKSMITHING, {
 						["recipeID"] = 16661,
 						["requireSkill"] = 9788,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					{
@@ -218,7 +218,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Tempest Gauntlets",
 						["recipeID"] = 461737,
 						["requireSkill"] = 9788,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -239,7 +239,7 @@ profession(BLACKSMITHING, {
 						["recipeID"] = 15296,
 						["requireSkill"] = 9788,
 						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { "removed 1.15.3" },
+						["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					{
@@ -259,7 +259,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Invincible Mail",
 						["recipeID"] = 461735,
 						["requireSkill"] = 9788,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{
@@ -268,7 +268,7 @@ profession(BLACKSMITHING, {
 						["requireSkill"] = 9788,
 						-- #if SEASON_OF_DISCOVERY
 						-- CRIEVE NOTE: This item still drops apparently, I got this on my paladin.
-						--["timeline"] = { "removed 1.15.3" },
+						--["timeline"] = { REMOVED_1_15_3 },
 						-- #endif
 					},
 					-- #if SEASON_OF_DISCOVERY
@@ -276,7 +276,7 @@ profession(BLACKSMITHING, {
 						["name"] = "Tempered Dark Iron Plate",
 						["recipeID"] = 461667,
 						["requireSkill"] = 9788,
-						["timeline"] = { "added 1.15.3" },
+						["timeline"] = { ADDED_1_15_3 },
 					}),
 					-- #endif
 					{

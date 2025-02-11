@@ -128,7 +128,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 49.8, 45, IRONFORGE },
 				["description"] = "Upon finishing this quest, you will become a Weaponsmith and be locked out of becoming an Armorsmith.",
 				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { "removed 1.15.2" },
+				["timeline"] = { REMOVED_1_15_2 },
 				-- #endif
 				["cost"] = {
 					{ "i", 3853, 4 },	-- Moonsteel Broadsword
@@ -148,7 +148,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				["coord"] = { 79.6, 23.6, ORGRIMMAR },
 				["description"] = "Upon finishing this quest, you will become a Weaponsmith and be locked out of becoming an Armorsmith.",
 				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { "removed 1.15.2" },
+				["timeline"] = { REMOVED_1_15_2 },
 				-- #endif
 				["cost"] = {
 					{ "i", 3853, 4 },	-- Moonsteel Broadsword
@@ -168,7 +168,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 				["coord"] = { 49.8, 45, IRONFORGE },
 				["description"] = "Upon finishing this quest, you will become a Weaponsmith and be locked out of becoming an Armorsmith.",
-				["timeline"] = { "added 1.15.2" },
+				["timeline"] = { ADDED_1_15_2 },
 				["cost"] = {
 					{ "i", 217281, 4 },	-- Moonsteel Broadsword
 					{ "i", 3855, 4 },	-- Massive Iron Axe
@@ -186,7 +186,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				},
 				["coord"] = { 79.6, 23.6, ORGRIMMAR },
 				["description"] = "Upon finishing this quest, you will become a Weaponsmith and be locked out of becoming an Armorsmith.",
-				["timeline"] = { "added 1.15.2" },
+				["timeline"] = { ADDED_1_15_2 },
 				["cost"] = {
 					{ "i", 217281, 4 },	-- Moonsteel Broadsword
 					{ "i", 3855, 4 },	-- Massive Iron Axe
@@ -1731,14 +1731,14 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				{
 					["name"] = "Golden Scale Coif",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439126,
 				},
 				-- #endif
 				{
 					["name"] = "Golden Scale Coif",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["recipeID"] = 3503,
 				},
@@ -1755,7 +1755,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Helm of the Great Chief",
 					["recipeID"] = 16728,
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 				},
 				-- #endif
@@ -1800,7 +1800,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Warcrest of the Great Chief",
 					["recipeID"] = 461739,
 					["requireSkill"] = 9788,
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 				}),
 				-- #endif
 				{
@@ -1838,7 +1838,7 @@ profession(BLACKSMITHING, {
 					["recipeID"] = 16660,
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"added 1.15.3",
+						ADDED_1_15_3,
 						-- #else
 						CREATED_1_12_1, ADDED_2_0_1,
 						-- #endif
@@ -1852,14 +1852,14 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				{
 					["name"] = "Golden Scale Shoulders",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439130,
 				},
 				-- #endif
 				{
 					["name"] = "Golden Scale Shoulders",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["recipeID"] = 3505,
 				},
@@ -1991,7 +1991,7 @@ profession(BLACKSMITHING, {
 					["recipeID"] = 16655,
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif
@@ -2001,7 +2001,7 @@ profession(BLACKSMITHING, {
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Fiery Plate Gauntlets of the Hidden Technique",
 					["recipeID"] = 461651,
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 				}),
 				-- #endif
 				-- #endif
@@ -2016,7 +2016,7 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				{
 					["name"] = "Golden Scale Gauntlets",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439120,
 				},
 				-- #endif
@@ -2024,7 +2024,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Golden Scale Gauntlets",
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.1",
+						REMOVED_1_15_1,
 						-- #else
 						REMOVED_4_0_1,
 						-- #endif
@@ -2080,7 +2080,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Storm Gauntlets",
 					["recipeID"] = 16661,
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 				},
 				{
@@ -2091,7 +2091,7 @@ profession(BLACKSMITHING, {
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Tempest Gauntlets",
 					["recipeID"] = 461737,
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 				}),
 				-- #endif
 				{
@@ -2132,7 +2132,7 @@ profession(BLACKSMITHING, {
 				{
 					["name"] = "Dark Iron Plate",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["recipeID"] = 15296,
 				},
@@ -2161,14 +2161,14 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				{
 					["name"] = "Golden Scale Cuirass",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439124,
 				},
 				-- #endif
 				{
 					["name"] = "Golden Scale Cuirass",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["recipeID"] = 3511,
 				},
@@ -2260,7 +2260,7 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Tempered Dark Iron Plate",
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["recipeID"] = 461667,
 				}),
 				-- #endif
@@ -2367,14 +2367,14 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				{
 					["name"] = "Golden Scale Leggings",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439132,
 				},
 				-- #endif
 				{
 					["name"] = "Golden Scale Leggings",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["recipeID"] = 3507,
 				},
@@ -2458,14 +2458,14 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				{
 					["name"] = "Golden Scale Boots",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439122,
 				},
 				-- #endif
 				{
 					["name"] = "Golden Scale Boots",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["recipeID"] = 3515,
 				},
@@ -2536,7 +2536,7 @@ profession(BLACKSMITHING, {
 					["recipeID"] = 16991,
 					-- #if SEASON_OF_DISCOVERY
 					["description"] = "Blizzard stated that Annihilator was an item that forced 1 member of the raid into a role that did not fit their design, so they've decided to not include Annihilator.",
-					["timeline"] = { "removed 1.15.0" },
+					["timeline"] = { REMOVED_1_15_0 },
 					-- #endif
 				},
 				{
@@ -2649,7 +2649,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Corruption",
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						REMOVED_2_0_1, ADDED_3_0_2, REMOVED_4_0_3, ADDED_7_1_5,
 						-- #endif
@@ -2696,12 +2696,12 @@ profession(BLACKSMITHING, {
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Deadly Heartseeker",
 					["recipeID"] = 461716,
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 				}),
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Desecration",
 					["recipeID"] = 461714,
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 				}),
 				-- #endif
 				applyclassicphase(PHASE_THREE_RECIPES, {
@@ -2722,7 +2722,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Enchanted Battlehammer",
 					["timeline"] = {
 						-- #if SEASON_OF_DISCOVERY
-						"removed 1.15.3",
+						REMOVED_1_15_3,
 						-- #else
 						REMOVED_4_0_3,
 						-- #endif
@@ -2742,7 +2742,7 @@ profession(BLACKSMITHING, {
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Finely-Enchanted Battlehammer",
 					["recipeID"] = 461733,
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 				}),
 				-- #endif
 				-- #endif
@@ -2779,7 +2779,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Heartseeker",
 					["recipeID"] = 16995,
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 				},
 				-- #endif
@@ -2845,14 +2845,14 @@ profession(BLACKSMITHING, {
 				{
 					["name"] = "Moonsteel Broadsword",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["recipeID"] = 3496,
 				},
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, {
 					["name"] = "Moonsteel Broadsword",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439128,
 				}),
 				-- #endif
@@ -2861,7 +2861,7 @@ profession(BLACKSMITHING, {
 					["name"] = "Nightfall",
 					["recipeID"] = 23653,
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.0" },
+					["timeline"] = { REMOVED_1_15_0 },
 					-- #endif
 				}),
 				-- #endif
@@ -2918,7 +2918,7 @@ profession(BLACKSMITHING, {
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Skyrider's Masterwork Stormhammer",
 					["recipeID"] = 461647,
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 				}),
 				-- #endif
 				-- #endif
@@ -2929,14 +2929,14 @@ profession(BLACKSMITHING, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Sulfuron Hammer",
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["recipeID"] = 460460,
 				}),
 				-- #endif
 				{
 					["name"] = "Sulfuron Hammer",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 					["recipeID"] = 21161,
 				},

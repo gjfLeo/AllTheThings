@@ -983,7 +983,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_FOUR, q(84384, {	-- Demonic Deceptions
 					["qg"] =  222408,	-- Shadowtooth Emissary
 					["coord"] = { 51.6, 82.0, FELWOOD },
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["maps"] = { WINTERSPRING },
 					["lvl"] = 55,
 					["groups"] = {
@@ -2435,7 +2435,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_THREE, q(82043, {	-- The Wild Gods (1/2)
 					["qg"] = 222408,	-- Shadowtooth Emissary
 					["coord"] = { 51.4, 82, FELWOOD },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { THE_HINTERLANDS, RAZORFEN_DOWNS },
 					["cost"] = {{ "i", 221261, 1 }},	-- Wildwhisper Draught
 					["lvl"] = 40,
@@ -2446,7 +2446,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_THREE, q(82044, {	-- The Wild Gods (2/2)
 					["qg"] = 222522,	-- Spirit of Agamaggan
 					["sourceQuest"] = 82043,	-- The Wild Gods (1/2)
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["maps"] = { RAZORFEN_DOWNS, ZULFARRAK, MARAUDON, BLACKROCK_DEPTHS },
 					["lvl"] = 40,
 					["groups"] = {
@@ -2965,7 +2965,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226416, {	-- Rune of Nature Specialization
 					["provider"] = { "o", 457092 },	-- The Fury of Stormrage
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 62.8, 7.5, FELWOOD },
 					["classes"] = { HUNTER, ROGUE, SHAMAN, DRUID },
 					["groups"] = {
@@ -3031,7 +3031,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				applyclassicphase(SOD_PHASE_THREE, n(222408, {	-- Shadowtooth Emissary
 					["sourceQuest"] = 82044,	-- The Wild Gods (2/2)
 					["coord"] = { 51.4, 82, FELWOOD },
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 					["lvl"] = 40,
 					["groups"] = {
 						i(221491, {	-- Shadowtooth Bag

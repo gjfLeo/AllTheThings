@@ -1172,7 +1172,7 @@ profession(TAILORING, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Leather-Reinforced Runecloth Bag",
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["recipeID"] = 461727
 				}),
 				-- #endif
@@ -1245,14 +1245,14 @@ profession(TAILORING, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, {
 					["name"] = "Enchanter's Cowl",
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["recipeID"] = 439102
 				}),
 				-- #endif
 				{
 					["name"] = "Enchanter's Cowl",
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					-- #endif
 					["recipeID"] = 3857
 				},
@@ -1317,12 +1317,12 @@ profession(TAILORING, {
 				},
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, {
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["name"] = "Crimson Silk Shoulders",
 					["recipeID"] = 439093
 				}),
 				{
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					["name"] = "Crimson Silk Shoulders",
 					["recipeID"] = 8793
 				},
@@ -1346,7 +1346,7 @@ profession(TAILORING, {
 				},
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, recipe(446193, {	-- Fractured Mind Pauldrons
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 				})),
 				-- #endif
 				{
@@ -1359,7 +1359,7 @@ profession(TAILORING, {
 					["recipeID"] = 435848
 				}),
 				applyclassicphase(SOD_PHASE_THREE, recipe(446194, {	-- Mantle of Insanity
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 				})),
 				-- #endif
 				applyclassicphase(PHASE_THREE_RECIPES, {
@@ -1388,7 +1388,7 @@ profession(TAILORING, {
 				},
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_THREE, recipe(446195, {	-- Shoulderpads of the Deranged
-					["timeline"] = { "added 1.15.2" },
+					["timeline"] = { ADDED_1_15_2 },
 				})),
 				-- #endif
 				applyclassicphase(PHASE_FIVE_CATCH_UP, {
@@ -1415,12 +1415,12 @@ profession(TAILORING, {
 				},
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, {
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["name"] = "Black Mageweave Vest",
 					["recipeID"] = 439086
 				}),
 				{	--
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					["name"] = "Black Mageweave Vest",
 					["recipeID"] = 12048
 				},
@@ -1469,12 +1469,12 @@ profession(TAILORING, {
 				},
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, {
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["name"] = "Crimson Silk Robe",
 					["recipeID"] = 8802
 				}),
 				{
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					["name"] = "Crimson Silk Robe",
 					["recipeID"] = 8802
 				},
@@ -1559,7 +1559,7 @@ profession(TAILORING, {
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Incandescent Mooncloth Robe",
 					["recipeID"] = 461708,
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 				}),
 				-- #endif
 				{
@@ -1570,7 +1570,7 @@ profession(TAILORING, {
 					["name"] = "Mooncloth Robe",
 					["recipeID"] = 22902,
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 				}),
 				{
@@ -1706,7 +1706,7 @@ profession(TAILORING, {
 					["name"] = "Belt of the Archmage",
 					["recipeID"] = 22866,
 					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { "removed 1.15.3" },
+					["timeline"] = { REMOVED_1_15_3 },
 					-- #endif
 				}),
 				{
@@ -1721,7 +1721,7 @@ profession(TAILORING, {
 				applyclassicphase(SOD_PHASE_FOUR, {
 					["name"] = "Embroidered Belt of the Archmage",
 					["recipeID"] = 462282,
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 				}),
 				-- #endif
 				{
@@ -1873,12 +1873,12 @@ profession(TAILORING, {
 				},
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, {
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["name"] = "Black Mageweave Leggings",
 					["recipeID"] = 439088
 				}),
 				{
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					["name"] = "Black Mageweave Leggings",
 					["recipeID"] = 12049
 				},
@@ -2003,12 +2003,12 @@ profession(TAILORING, {
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, {
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["name"] = "Boots of the Enchanter",
 					["recipeID"] = 439097
 				}),
 				{
-					["timeline"] = { "removed 1.15.1" },
+					["timeline"] = { REMOVED_1_15_1 },
 					["name"] = "Boots of the Enchanter",
 					["recipeID"] = 3860
 				},

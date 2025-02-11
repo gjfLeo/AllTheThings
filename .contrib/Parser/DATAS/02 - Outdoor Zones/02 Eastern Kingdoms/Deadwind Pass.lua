@@ -222,7 +222,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(TREASURES, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226406, {	-- Rune of Sword Specialization
 					["provider"] = { "o", 457088 },	-- Advanced Swordplay
-					["timeline"] = { "added 1.15.3" },
+					["timeline"] = { ADDED_1_15_3 },
 					["coord"] = { 43.1, 74.6, DEADWIND_PASS },
 					["classes"] = { WARRIOR, PALADIN, HUNTER, MAGE, WARLOCK, ROGUE },
 					["groups"] = {

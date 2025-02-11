@@ -3,7 +3,7 @@
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
-	applyclassicphase(SOD_PHASE_FIVE, inst(2804, bubbleDownSelf({["timeline"] = { "added 1.15.4" }}, {	-- The Crystal Vale
+	applyclassicphase(SOD_PHASE_FIVE, inst(2804, bubbleDownSelf({["timeline"] = { ADDED_1_15_4 }}, {	-- The Crystal Vale
 		["zone-text-areaID"] = 15825,	-- The Crystal Vale
 		["lore"] = "The Crystal Vale can be found near the northwest corner of Silithus.",
 		["coord"] = { 22, 10, SILITHUS },
@@ -22,7 +22,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						{ 21.7, 8.6, SILITHUS },
 						-- #endif
 					},
-					["timeline"] = { "removed 1.15.4" },
+					["timeline"] = { REMOVED_1_15_4 },
 					["maps"] = { MOLTEN_CORE },
 					["classes"] = SWORD_CLASSES,
 					["cost"] = {
@@ -46,7 +46,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["provider"] = { "i", 19018 },	-- Dormant Wind Kissed Blade
 					["sourceQuest"] = 7786,	-- Thunderaan the Windseeker
 					["coord"] = { 21.7, 8.6, SILITHUS },
-					["timeline"] = { "removed 1.15.4" },
+					["timeline"] = { REMOVED_1_15_4 },
 					["maps"] = { MOLTEN_CORE },
 					["classes"] = SWORD_CLASSES,
 					["groups"] = {
@@ -78,7 +78,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						{ 21.7, 8.6, SILITHUS },
 						-- #endif
 					},
-					["timeline"] = { "removed 1.15.4" },
+					["timeline"] = { REMOVED_1_15_4 },
 					["maps"] = { MOLTEN_CORE },
 					["classes"] = SWORD_CLASSES,
 					["lvl"] = 60,
@@ -148,7 +148,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(231781),	-- Soul of Thunder
 				i(231779),	-- Wrath of Wray
 			}),
-			n(14435, bubbleDownSelf({ ["timeline"] = { "removed 1.15.4" } }, {	-- Prince Thunderaan <The Wind Seeker>
+			n(14435, bubbleDownSelf({ ["timeline"] = { REMOVED_1_15_4 } }, {	-- Prince Thunderaan <The Wind Seeker>
 				["sourceQuest"] = 7786,	-- Thunderaan the Windseeker
 				["description"] = "This is a 40-man raid boss.",
 				-- #if ANYCLASSIC

@@ -112,7 +112,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 46.4, 73.9, THE_BARRENS },
 						{ 37.5, 50.8, WESTFALL },
 					},
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 14,
 					["groups"] = {
@@ -2636,7 +2636,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 37.5, 50.8, WESTFALL },
 					},
 					["maps"] = { STONETALON_MOUNTAINS },
-					["timeline"] = { "added 1.15.1" },
+					["timeline"] = { ADDED_1_15_1 },
 					["lvl"] = 14,
 					["groups"] = {
 						i(3334),	-- Farmer's Shovel
