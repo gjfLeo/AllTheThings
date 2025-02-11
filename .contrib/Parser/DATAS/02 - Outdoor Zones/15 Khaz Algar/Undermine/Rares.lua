@@ -51,6 +51,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 42.2, 76.7, UNDERMINE },
 				["questID"] = 84927,	-- Candy Stickemup
 				["g"] = {
+					i(235347),	-- 100% Sharp Glimmerblade
 					i(235348),	-- Back Alley Shank
 					i(234218),	-- Goo-blin Grenade
 					i(235304),	-- Gutter Rat Mask
@@ -93,8 +94,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(231017, {	-- Grimewick
 				["coord"] = { 67.5, 33.5, UNDERMINE },
-				["questID"] = 84928,	-- Longwick
+				["questID"] = 84928,
 				["g"] = {
+					i(235323),	-- Blastshell Bracers
 					i(235303),	-- Seafused Brimstone Band
 					i(235319),	-- Tidebomb Chestpiece
 				},
@@ -174,6 +176,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84919,	-- Tally Doublespeak
 				["g"] = {
 					i(235328),	-- Boots of the Silver Tongue
+					i(234218),	-- Goo-blin Grenade
 					i(235355),	-- Gossi-blin's Baton
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				},

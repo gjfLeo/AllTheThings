@@ -4,7 +4,7 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(QUESTS, {
-			-- Chapter 1? --
+			-- Chapter 1 --
 			q(83137, {	-- When Opportunity Explodes
 				--["sourceQuests"] = { xx },	-- TODO: build 58626 - completing level up campaign
 				["provider"] = { "n", 225571 },	-- Renzik "The Shiv"
@@ -13,17 +13,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			q(83139, {	-- Mixed Messages
 				["sourceQuests"] = { 83137 },	-- When Opportunity Explodes
 				["provider"] = { "n", 227531 },	-- Monte Gazlowe
-				["coord"] = { 67.1, 78.3, THE_RINGING_DEEPS },
+				["coord"] = { 63.0, 78.4, THE_RINGING_DEEPS },
 			}),
 			q(83140, {	-- Hostile Work Environment
 				["sourceQuests"] = { 83139 },	-- Mixed Messages
 				["provider"] = { "n", 225587 },	-- Monte Gazlowe
-				["coord"] = { 70.0, 75.5, THE_RINGING_DEEPS },
+				["coord"] = { 65.9, 75.5, THE_RINGING_DEEPS },
 			}),
 			q(83141, {	-- Miner Investigations
 				["sourceQuests"] = { 83139 },	-- Mixed Messages
 				["provider"] = { "n", 227691 },	-- Orweyna
-				["coord"] = { 70.0, 75.4, THE_RINGING_DEEPS },
+				["coord"] = { 65.9, 75.4, THE_RINGING_DEEPS },
 				["g"] = {
 					i(232752),	-- Suspiciously Stained Greaves
 					i(232747),	-- Suspiciously Stained Legguards
@@ -32,8 +32,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(83142, {	-- Order of Magnitude
-				--["sourceQuests"] = { 83139 },	-- Mixed Messages (unsure)
-				["provider"] = { "i", 224772 },	-- Bounty from Gallywix (QS!/QI!) (from 225681 or 225680)
+				["sourceQuests"] = { 83139 },	-- Mixed Messages (TODO: unsure)
+				["provider"] = { "i", 224772 },	-- Bounty from Gallywix (QS!/QI!)
 			}),
 			q(83143, {	-- Good Honest Work
 				["sourceQuests"] = {
@@ -42,12 +42,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					83142,	-- Order of Magnitude
 				},
 				["provider"] = { "n", 228017 },	-- Zirdo
-				["coord"] = { 76.6, 79.1, THE_RINGING_DEEPS },
+				["coord"] = { 72.5, 79.1, THE_RINGING_DEEPS },
 			}),
 			q(83144, {	-- Bloodletting
 				["sourceQuests"] = { 83143 },	-- Good Honest Work
 				["provider"] = { "n", 225596 },	-- Orweyna
-				["coord"] = { 76.0, 80.4, THE_RINGING_DEEPS },
+				["coord"] = { 71.9, 80.5, THE_RINGING_DEEPS },
 				["g"] = {
 					i(232417),	-- Circle of Cleansing
 					i(232418),	-- Ring of Purification
@@ -56,17 +56,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			q(84683, {	-- Into the Gutter
 				["sourceQuests"] = { 83144 },	-- Bloodletting
 				["provider"] = { "n", 225591 },	-- Pamsy
-				["coord"] = { 73.7, 84.1, THE_RINGING_DEEPS },
+				["coord"] = { 69.6, 84.2, THE_RINGING_DEEPS },
 			}),
 			q(83145, {	-- Paranoia Prevention
 				["sourceQuests"] = { 84683 },	-- Into the Gutter
 				["provider"] = { "n", 225597 },	-- Monte Gazlowe
-				["coord"] = { 75.5, 83.4, THE_RINGING_DEEPS },
+				["coord"] = { 71.4, 83.5, THE_RINGING_DEEPS },
 			}),
 			q(85409, {	-- Snitches Get Stitches
 				["sourceQuests"] = { 84683 },	-- Into the Gutter
 				["provider"] = { "n", 225772 },	-- Pamsy
-				["coord"] = { 75.6, 83.5, THE_RINGING_DEEPS },
+				["coord"] = { 71.5, 83.5, THE_RINGING_DEEPS },
 				["g"] = {
 					i(232353),	-- Silent Strike Chestguard
 					i(232398),	-- Silent Strike Gloves
@@ -80,17 +80,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					85409,	-- Snitches Get Stitches
 				},
 				["provider"] = { "n", 232491 },	-- Pamsy
-				["coord"] = { 76.4, 82.2, THE_RINGING_DEEPS },
+				["coord"] = { 72.3, 82.3, THE_RINGING_DEEPS },
 			}),
 			q(83147, {	-- Bloody Business
 				["sourceQuests"] = { 83146 },	-- Pamsy's Prized Pump
 				["provider"] = { "n", 228894 },	-- Orweyna
-				["coord"] = { 74.7, 88.6, THE_RINGING_DEEPS },
+				["coord"] = { 70.6, 88.7, THE_RINGING_DEEPS },
 			}),
 			q(85444, {	-- Found Family
 				["sourceQuests"] = { 83146 },	-- Pamsy's Prized Pump
 				["provider"] = { "n", 228214 },	-- Pamsy
-				["coord"] = { 74.7, 88.6, THE_RINGING_DEEPS },
+				["coord"] = { 70.6, 88.6, THE_RINGING_DEEPS },
 			}),
 			q(83149, {	-- Avenge Them
 				["sourceQuests"] = {
@@ -98,7 +98,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					85444,	-- Found Family
 				},
 				["provider"] = { "n", 225599 },	-- Renzik "The Shiv"
-				["coord"] = { 74.6, 88.7, THE_RINGING_DEEPS },
+				["coord"] = { 70.5, 88.8, THE_RINGING_DEEPS },
 				["g"] = {
 					i(231089),	-- Correspondence from Zirdo (QI!)
 				},
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					85444,	-- Found Family
 				},
 				["provider"] = { "n", 225598 },	-- Monte Gazlowe
-				["coord"] = { 74.6, 88.7, THE_RINGING_DEEPS },
+				["coord"] = { 70.5, 88.7, THE_RINGING_DEEPS },
 				["g"] = {
 					o(452923, {	-- Chillburst Canister
 						i(224846),	-- Chillburst Canister (QI!)
@@ -122,10 +122,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					83148,	-- X-Treme Chill
 				},
 				["provider"] = { "n", 225598 },	-- Monte Gazlowe
-				["coord"] = { 74.6, 88.7, THE_RINGING_DEEPS },
+				["coord"] = { 70.5, 88.7, THE_RINGING_DEEPS },
 				["g"] = {
 					i(232441),	-- Boreal Battleaxe
 					i(232442),	-- Boreal Blade
+					i(238250, {	-- Boreal Cleaver
+						["description"] = "As of 11.1.0.58999 build you can't obtain mog from this item.",
+						["collectible"] = false,
+					}),
 					i(235660),	-- Boreal Glaive
 					i(232446),	-- Boreal Rifle
 					i(232447),	-- Boreal Shank
@@ -138,12 +142,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			q(85410, {	-- Undermine's Long Shadow
 				["sourceQuests"] = { 83150 },	-- Expanding the Plan
 				["provider"] = { "n", 225599 },	-- Renzik "The Shiv"
-				["coord"] = { 74.4, 89.4, THE_RINGING_DEEPS },
+				["coord"] = { 70.3, 89.5, THE_RINGING_DEEPS },
 			}),
 			q(83151, {	-- Down Undermine
 				["sourceQuests"] = { 85410 },	-- Undermine's Long Shadow
 				["provider"] = { "n", 225599 },	-- Renzik "The Shiv"
-				["coord"] = { 74.4, 89.4, THE_RINGING_DEEPS },
+				["coord"] = { 70.3, 89.5, THE_RINGING_DEEPS },
 				["g"] = {
 					-- crit 'Trust Issues' for
 					-- ach(40900),	-- Undermined
@@ -681,9 +685,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End of The GOLEM of Progress
 			--- Property Devalued
 			q(84376, {	-- Property Devalued
-				--["sourceQuests"] = { xx },	-- TODO: ??
+				--["sourceQuests"] = { xx },	-- TODO: ??, up for alts without doing anything in zone
 				["provider"] = { "o", 461478 },	-- For Rent Sign
 				["coord"] = { 41.8, 65.9, UNDERMINE },	-- either more spots need to add or to mobile object?
+				["isBreadcrumb"] = true,	-- TODO: remove if it is not
 			}),
 			q(84378, {	-- Renter's Insurance
 				["sourceQuests"] = { 84376 },	-- Property Devalued
@@ -757,7 +762,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End Fore!
 			--- The Highst
 			q(84215, {	-- The Crew
-				--["sourceQuests"] = { xx },	-- TODO: mid story
+				--["sourceQuests"] = { xx },	-- TODO: mid story; up for alts without doing anything in zone
 				["provider"] = { "n", 228286 },	-- Skedgit Cinderbangs
 				["coord"] = { 43.2, 82.8, UNDERMINE },
 			}),
@@ -1002,24 +1007,38 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End of Oh, Rats!
 			--- The Verdigrease Knight
 			q(79559, {	-- The Verdigrease Knight
-				--["sourceQuests"] = { xx },	-- TODO: probably after chapter 1?
+				["sourceQuests"] = { 83139 },	-- Mixed Messages
 				["provider"] = { "n", 230841 },	-- The Verdigrease Knight
-				["coord"] = { 72.2, 80.4, THE_RINGING_DEEPS },
+				["coord"] = { 68.1, 80.4, THE_RINGING_DEEPS },
 			}),
 			q(84621, {	-- Squire's Spurs
 				["sourceQuests"] = { 79559 },	-- The Verdigrease Knight
 				["provider"] = { "n", 218864 },	-- Gullhead
-				["coord"] = { 70.9, 78.5, THE_RINGING_DEEPS },
+				["coord"] = { 66.8, 78.6, THE_RINGING_DEEPS },
+				["g"] = {
+					o(465646, {	-- Draconic Trophy
+						["coord"] = { 67.0, 78.4, THE_RINGING_DEEPS },
+					}),
+					o(465672, {	-- Gleaming Stonehead's Dented Armor
+						["coord"] = { 67.3, 78.7, THE_RINGING_DEEPS },
+					}),
+					o(465679, {	-- Questing Beast's Skull
+						["coord"] = { 67.2, 78.5, THE_RINGING_DEEPS },
+					}),
+					o(465675, {	-- Rusting Clanker
+						["coord"] = { 67.2, 78.7, THE_RINGING_DEEPS },
+					}),
+				},
 			}),
 			q(84821, {	-- Biological Quintainment
 				["sourceQuests"] = { 84621 },	-- Squire's Spurs
 				["provider"] = { "n", 218866 },	-- Walkmay
-				["coord"] = { 70.9, 78.5, THE_RINGING_DEEPS },
+				["coord"] = { 66.8, 78.5, THE_RINGING_DEEPS },
 			}),
 			q(79561, {	-- Lord of the Giants
 				["sourceQuests"] = { 84621 },	-- Squire's Spurs
 				["provider"] = { "n", 218866 },	-- Walkmay
-				["coord"] = { 70.9, 78.5, THE_RINGING_DEEPS },
+				["coord"] = { 66.8, 78.5, THE_RINGING_DEEPS },
 				["g"] = {
 					i(232759),	-- Apprentice Knight's Sabatons
 					i(232743),	-- Apprentice Knight's Shirt
@@ -1033,7 +1052,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					79561,	-- Lord of the Giants
 				},
 				["provider"] = { "n", 218878 },	-- Marline
-				["coord"] = { 70.9, 78.4, THE_RINGING_DEEPS },
+				["coord"] = { 66.8, 78.4, THE_RINGING_DEEPS },
 				["g"] = {
 					i(228771),	-- Holey Grail (QI!)
 				},
@@ -1044,7 +1063,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					79561,	-- Lord of the Giants
 				},
 				["provider"] = { "n", 218878 },	-- Marline
-				["coord"] = { 70.9, 78.4, THE_RINGING_DEEPS },
+				["coord"] = { 66.8, 78.4, THE_RINGING_DEEPS },
 				["g"] = {
 					i(216915),	-- Excavator (QI!)
 				},
@@ -1055,12 +1074,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					80096,	-- The Shovel in the Stone
 				},
 				["provider"] = { "n", 216566 },	-- The Verdigrease Knight
-				["coord"] = { 71.0, 78.5, THE_RINGING_DEEPS },
+				["coord"] = { 66.9, 78.6, THE_RINGING_DEEPS },
 			}),
 			q(79563, {	-- Lady of the Lake
 				["sourceQuests"] = { 79564 },	-- The Verdigrease Knight Returns
 				["provider"] = { "n", 218837 },	-- Arfur
-				["coord"] = { 70.8, 78.4, THE_RINGING_DEEPS },
+				["coord"] = { 66.7, 78.5, THE_RINGING_DEEPS },
 				["g"] = {
 					i(232738),	-- Green Knight's Boots
 					i(232757),	-- Green Knight's Chestplate
@@ -1071,24 +1090,32 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End of The Verdigrease Knight
 			--- Sanity's Rest
 			q(86271, {	-- Sanity's Rest
-				--["sourceQuests"] = { xx },	-- TODO: main story chapter 1?
+				["sourceQuests"] = { 83139 },	-- Mixed Messages
 				["provider"] = { "n", 233420 },	-- Benny Gooserocket
-				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+				["coord"] = { 68.4, 96.5, THE_RINGING_DEEPS },
 			}),
 			q(86272, {	-- Counteracting the Black Blood
 				["sourceQuests"] = { 86271 },	-- Sanity's Rest
 				["provider"] = { "n", 234293 },	-- Stitchoaf
-				["coord"] = { 71.6, 96.9, THE_RINGING_DEEPS },
+				["coord"] = { 67.4, 96.9, THE_RINGING_DEEPS },
+				["g"] = {
+					o(504670, {	-- Leftover Food
+						["coord"] = { 67.4, 96.8, THE_RINGING_DEEPS },
+					}),
+					o(504669, {	-- Mouthwash Bottle
+						["coord"] = { 67.5, 96.7, THE_RINGING_DEEPS },
+					}),
+				},
 			}),
 			q(86273, {	-- Visit to the Shop
 				["sourceQuests"] = { 86272 },	-- Counteracting the Black Blood
 				["provider"] = { "n", 234293 },	-- Stitchoaf
-				["coord"] = { 71.6, 96.9, THE_RINGING_DEEPS },
+				["coord"] = { 67.5, 96.9, THE_RINGING_DEEPS },
 			}),
 			q(86274, {	-- Automation Solution
 				["sourceQuests"] = { 86273 },	-- Visit to the Shop
 				["provider"] = { "n", 234294 },	-- Trixxie Boltcrank
-				["coord"] = { 71.4, 98.1, THE_RINGING_DEEPS },
+				["coord"] = { 67.3, 98.2, THE_RINGING_DEEPS },
 				["g"] = {
 					o(500640, {	-- Metal Scrap
 						i(233015),	-- Metal Scrap (QI!)
@@ -1098,7 +1125,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			q(86275, {	-- Bug Exterminator Needed
 				["sourceQuests"] = { 86273 },	-- Visit to the Shop
 				["provider"] = { "n", 234294 },	-- Trixxie Boltcrank
-				["coord"] = { 71.4, 98.1, THE_RINGING_DEEPS },
+				["coord"] = { 67.3, 98.2, THE_RINGING_DEEPS },
 			}),
 			q(86575, {	-- Rocket Roll
 				["sourceQuests"] = {
@@ -1106,22 +1133,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					86275,	-- Bug Exterminator Needed
 				},
 				["provider"] = { "n", 234294 },	-- Trixxie Boltcrank
-				["coord"] = { 71.4, 98.1, THE_RINGING_DEEPS },
+				["coord"] = { 67.3, 98.1, THE_RINGING_DEEPS },
 			}),
 			q(86276, {	-- Out in the Fields
 				["sourceQuests"] = { 86575 },	-- Rocket Roll
 				["provider"] = { "n", 233420 },	-- Benny Gooserocket
-				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+				["coord"] = { 68.4, 96.5, THE_RINGING_DEEPS },
 			}),
 			q(86697, {	-- The Cleanup Crew
 				["sourceQuests"] = { 86575 },	-- Rocket Roll
 				["provider"] = { "n", 233420 },	-- Benny Gooserocket
-				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+				["coord"] = { 68.4, 96.5, THE_RINGING_DEEPS },
 			}),
 			q(86277, {	-- "Worm" Food No More
 				["sourceQuests"] = { 86575 },	-- Rocket Roll
 				["provider"] = { "n", 233420 },	-- Benny Gooserocket
-				["coord"] = { 72.6, 96.4, THE_RINGING_DEEPS },
+				["coord"] = { 68.4, 96.5, THE_RINGING_DEEPS },
 				["g"] = {
 					i(235621),	-- Bug Exterminator's Belt
 					i(235619),	-- Bug Exterminator's Gloves
@@ -1140,7 +1167,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			-- New dungeon
 			q(86728, {	-- Operation: Floodgate: Disposing of the Garbage
-				["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
+				["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation (also up for alts without doing anything in zone))
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.7, UNDERMINE },
 			}),
@@ -1157,7 +1184,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 225531 },	-- Gas Grimeshank
 				["coord"] = { 42.6, 51.1, UNDERMINE },
 				["g"] = {
-					i(232523),	-- G-99 Breakneck (MOUNT!)
+					i(232523),	-- G-99 Breakneck (MOUNT!) // TODO: it is only spellID and not actually an item
 				},
 			}),
 			q(86618, {	-- License Not Required
@@ -1185,7 +1212,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			-- TODO: need to find a better place for it?
 			-- Weekly Rep stuff
 			q(85869, {	-- Many Jobs, Handle It!
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- TODO: up for alts without doing any quest or intro / HQT faction unlock
 				["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 				["coord"] = { 43.8, 50.8, UNDERMINE },
 				["isWeekly"] = true,
@@ -1194,7 +1221,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			-- doesn't required to sign up contract (choose faction)
 			-- possible sourceQuest is cartel faction unlock hqt?
 			q(85944, {	-- Side Gig: Blood Type
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231062 },	-- Torky Greasepalm
 				["coord"] = { 16.7, 52.2, UNDERMINE },
 				["isWeekly"] = true,
@@ -1204,7 +1231,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(85945, {	-- Side Gig: Blood-B-Gone
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231062 },	-- Torky Greasepalm
 				["coord"] = { 16.7, 52.2, UNDERMINE },
 				["isWeekly"] = true,
@@ -1213,25 +1240,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(86178, {	-- Side Gig: Cleanin' the Coast
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231065 },	-- Freddi Powergrind
 				["coord"] = { 19.7, 53.0, UNDERMINE },
 				["isWeekly"] = true,
 			}),
 			q(85913, {	-- Side Gig: Cleanup Detail
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
 				["coord"] = { 16.7, 52.3, UNDERMINE },
 				["isWeekly"] = true,
 			}),
 			q(85914, {	-- Side Gig: Coolant Matters
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
 				["coord"] = { 16.7, 52.3, UNDERMINE },
 				["isWeekly"] = true,
 			}),
 			q(85553, {	-- Side Gig: Feeling Crabby
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231064 },	-- Captain Crudeshank
 				["coord"] = { 19.8, 52.9, UNDERMINE },
 				["isWeekly"] = true,
@@ -1240,7 +1267,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(86180, {	-- Side Gig: Infested Waters
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231065 },	-- Freddi Powergrind
 				["coord"] = { 19.7, 53.0, UNDERMINE },
 				["isWeekly"] = true,
@@ -1249,7 +1276,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(85554, {	-- Side Gig: It's Always Sunny Side Up
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231064 },	-- Captain Crudeshank
 				["coord"] = { 19.8, 52.9, UNDERMINE },
 				["isWeekly"] = true,
@@ -1260,19 +1287,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(85960, {	-- Side Gig: Lost in the Sauce
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231063 },	-- Solden Blitzfuse
 				["coord"] = { 16.7, 52.3, UNDERMINE },
 				["isWeekly"] = true,
 			}),
 			q(86179, {	-- Side Gig: Lucky Break's Big Break
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231065 },	-- Freddi Powergrind
 				["coord"] = { 19.7, 53.0, UNDERMINE },
 				["isWeekly"] = true,
 			}),
 			q(86177, {	-- Side Gig: The Tides Provide
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231064 },	-- Captain Crudeshank
 				["coord"] = { 19.8, 52.9, UNDERMINE },
 				["isWeekly"] = true,
@@ -1283,7 +1310,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(85962, {	-- Side Gig: Unseemly Reagents
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231062 },	-- Torky Greasepalm
 				["coord"] = { 16.7, 52.2, UNDERMINE },
 				["isWeekly"] = true,
@@ -1294,12 +1321,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			-- Delves
 			q(87582, {	-- Delves: Site of Madness
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),
 			q(87583, {	-- Delves: The Sluice Contains the Juice
-				--["sourceQuests"] = { xx },	-- ??
+				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),

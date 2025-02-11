@@ -8,6 +8,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				filter(BACK_F, {
 					i(235508),	-- Might-Be-Invisible Cape (wq)
 					i(233481),	-- Might-Be-Invisible Cloak (cache)
+					i(233482),	-- Might-Be-Invisible Shawl (crate (price surging))
 				}),
 				filter(CLOTH, {
 					-- speculated --
@@ -60,9 +61,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233454),	-- Mechforged Sabatons
 				}),
 				filter(TRINKET_F, {
-					i(232883),	-- Turbo-Drain 5000 (cache)
-					i(235359),	-- Ratfang Toxin (cache)
 					i(232485),	-- Mechano-Core Amplifier (wq)
+					i(235467),	-- Ominous Oil Residue (Side Gig)
+					i(235359),	-- Ratfang Toxin (cache)
+					i(232883),	-- Turbo-Drain 5000 (cache)
 				}),
 			}),
 			n(WEAPONS, {

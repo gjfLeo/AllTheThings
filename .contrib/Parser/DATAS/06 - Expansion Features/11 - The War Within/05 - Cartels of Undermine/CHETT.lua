@@ -36,6 +36,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			n(REWARDS, {
 				i(235053),	-- C.H.E.T.T. List
 			}),
+			n(VENDORS, {
+				n(238029, {	-- C.H.E.T.T.
+					["coord"] = { 43.4, 50.5, UNDERMINE },
+					["g"] = {
+						i(237900, {	-- C.H.E.T.T. Pack (COSMETIC!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1000 }},
+						}),
+					},
+				}),
+			}),
 		}),
 	}),
 })));

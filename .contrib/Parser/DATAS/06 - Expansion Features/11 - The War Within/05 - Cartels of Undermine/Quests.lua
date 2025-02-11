@@ -72,8 +72,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			}, {	-- RENOWN 13 --
 			}, {	-- RENOWN 14 --
 			}, {	-- RENOWN 15 --
+				q(85823, {	-- Carved Crests
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+				}),
 			}, {	-- RENOWN 16 --
 			}, {	-- RENOWN 17 --
+				q(85824, {	-- Valorstones
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+				}),
 			}, {	-- RENOWN 18 --
 			}, {	-- RENOWN 19 --
 			}, {	-- RENOWN 20 --

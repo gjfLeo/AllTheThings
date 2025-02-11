@@ -16,7 +16,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 75.7, 83.4, THE_RINGING_DEEPS },
 				["cr"] = 228137,	-- Jix
 				["timeline"] = { ADDED_11_1_0 },
-				["races"] = HORDE_ONLY,
 			}),
 			fp(2925, {	-- Opportunity Point, The Ringing Deeps
 				["coord"] = { 64.7, 78.1, THE_RINGING_DEEPS },

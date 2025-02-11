@@ -57,7 +57,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					-- This one is 'forge a pact'?
 					["coord"] = { 42.9, 52.3, UNDERMINE },
 					["g"] = {
-						i(234281),	-- Undermine Cartel Work (TODO: seems like NYI as of 58819 build)
+						i(234281),	-- Undermine Cartel Work
 					},
 				}),
 				q(85524, {	-- Disarming the Darkfuse

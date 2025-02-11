@@ -60,7 +60,6 @@ root(ROOTS.Unsorted, {
 				i(233348),	-- Power-Washed Shoulderguards
 				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
-				i(233482),	-- Might-Be-Invisible Shawl
 				i(233485),	-- Lucky-Streak Band
 				i(233527),	-- Gold-Plated Glaive
 				i(233528),	-- Gold-Plated Shield
@@ -92,56 +91,16 @@ root(ROOTS.Unsorted, {
 				i(234326),	-- Core Recycling Unit
 
 				-- Delves / Bountiful Season 2
-				i(235421),	-- Noxious Injector Sheen
 				i(235422),	-- Venture Co Seal
 				i(235423),	-- Expensive Gemstone Ring
 				i(235424),	-- Rich Uncle's Endowment
 				i(235425),	-- Dumpsterdelver's Loop
-				i(235426),	-- Nitroclad Wrap
-				i(235427),	-- Blastborne Shroud
 				i(235428),	-- Gobtastic Bling
-				i(235429),	-- Moneymaker's Collar
-				i(235430),	-- Junkreaver's Overcloak
-				i(235431),	-- Noxious Injector Harness
-				i(235432),	-- Noxious Injector Footpads
-				i(235433),	-- Noxious Injector Hands
-				i(235434),	-- Noxious Injector Brainbulb
-				i(235435),	-- Noxious Injector Trousers
-				i(235436),	-- Noxious Injector Mantle
-				i(235437),	-- Noxious Injector Tube
-				i(235438),	-- Noxious Injector Manacles
-				i(235439),	-- Nitroclad Bodice
-				i(235440),	-- Nitroclad Striders
-				i(235441),	-- Nitroclad Grips
-				i(235442),	-- Nitroclad Hood
-				i(235443),	-- Nitroclad Breeches
-				i(235444),	-- Nitroclad Motorpads
-				i(235445),	-- Nitroclad Strap
-				i(235446),	-- Nitroclad Armguards
-				i(235447),	-- Blastborne Hauberk
-				i(235448),	-- Blastborne Greaves
-				i(235449),	-- Blastborne Grips
-				i(235450),	-- Blastborne Targeting Visor
-				i(235451),	-- Blastborne Legguards
-				i(235452),	-- Blastborne Missile Pads
-				i(235453),	-- Blastborne Links
-				i(235454),	-- Blastborne Vambraces
-				i(235455),	-- Junkreaver's Breastplate
-				i(235456),	-- Junkreaver's Crushers
-				i(235457),	-- Junkreaver's Gauntlets
-				i(235458),	-- Junkreaver's Scrapgaze
-				i(235459),	-- Junkreaver's Legplates
-				i(235461),	-- Junkreaver's Shoulderplates
-				i(235462),	-- Junkreaver's Girdle
-				i(235463),	-- Junkreaver's Coils
-				i(235467),	-- Ominous Oil Residue
 				i(235484),	-- Razor-sharp Desk Fan
 				i(235485),	-- Oil Gouger
 				i(235486),	-- Springloaded Kneecap Breaker
-				i(235487),	-- Interest Compounder
 				i(235488),	-- Rocket Taped to a Screwdriver
 				i(235489),	-- Bullet Biter
-				i(235490),	-- Clawbacker Halberd
 				i(235491),	-- Immolation Warning
 				i(235492),	-- Oscillating Scrapcleaver
 				i(235493),	-- Ignited Flare Jar
@@ -681,9 +640,7 @@ root(ROOTS.Unsorted, {
 				i(235308),	-- Filthtread Boots
 				i(235310),	-- Flashy Patchwork Trousers
 				i(235313),	-- Shockproof Helm
-				i(235323),	-- Blastshell Bracers
 				i(235327),	-- Mend-and-Match Shoulderpads
-				i(235347),	-- 100% Sharp Glimmerblade
 				i(235350),	-- Void-forged Cudgel
 				i(235351),	-- Hypersteel CX4 Greatsword
 				i(235352),	-- Netherflare Wand
