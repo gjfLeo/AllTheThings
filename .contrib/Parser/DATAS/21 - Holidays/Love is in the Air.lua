@@ -281,7 +281,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					["description"] = "Bring Clarissa a Barrel of Wine from the table.",
 					["providers"] = {
 						{ "n", 212815 },	-- Clarissa Buchannan
-						{ "n", 411744 },	-- Barrel of Wine
+						{ "o", 411744 },	-- Barrel of Wine
 					},
 					["coord"] = { 69.16, 72.66, FERALAS },
 				}),
