@@ -367,6 +367,8 @@ root(ROOTS.PVP, pvp(n(-240, {	-- Rated
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, pvp(n(-240, {	-- Rated
-	q(70714),	-- completion of a Rated 'Solo Shuffle'
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
+	pvp(n(-240, {	-- Rated
+		q(70714),	-- completion of a Rated 'Solo Shuffle'
+	})),
 })));

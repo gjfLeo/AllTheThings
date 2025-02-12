@@ -3007,12 +3007,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	m(PANDARIA, {
 		m(KRASARANG_WILDS, {
 			n(FACTIONS, {
-				faction(FACTION_THE_ANGLERS, {
+				header(HEADERS.Faction, FACTION_THE_ANGLERS, {
 					n(QUESTS, {
 						q(31371),	-- Tracking Event: Player Has Completed One Anglers Daily
 					}),
 				}),
-				faction(FACTION_THE_AUGUST_CELESTIALS, {
+				header(HEADERS.Faction, FACTION_THE_AUGUST_CELESTIALS, {
 					n(QUESTS, {
 						q(30719),	-- FLAG - Cradle of Chi-Ji Progress Bit 01
 						q(30720),	-- FLAG - Cradle of Chi-Ji Progress Bit 02 - triggered after turning in Dextrous Izissha quest, 6th for Champion of Chi-Ji, triggered on another character after turning in Minh Do-Tan, which is the 2nd

@@ -336,6 +336,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 		}),
 	}),
 })));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
 	m(DRAGON_ISLES, {
 		m(ZARALEK_CAVERN, {
@@ -343,7 +344,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 				q(75559),	-- Orange Crystal (Crystal Chest) (spellID 408322)
 				q(74987),	-- Purple Crystal (Crystal Chest) (spellID 400760)
 				q(75601),	-- Lock Opened? (Crystal Chest) (spellID 408329)
-
 				q(75814),	-- Probably Some Barter Brick Tracker
 			}),
 		}),

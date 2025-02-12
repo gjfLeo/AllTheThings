@@ -6514,53 +6514,53 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	m(PANDARIA, {
 		m(VALLEY_OF_THE_FOUR_WINDS, {
 			n(FACTIONS, {
-				faction(FACTION_THE_TILLERS, {
-					faction(FACTION_CHEE_CHEE, {
+				header(HEADERS.Faction, FACTION_THE_TILLERS, {
+					header(HEADERS.Faction, FACTION_CHEE_CHEE, {
 						q(31344),	-- Tracking Event: Chee Chee Exalted
 						q(30365),	-- Tracking Event: Chee Chee is Farmhand
 					}),
-					faction(FACTION_ELLA, {
+					header(HEADERS.Faction, FACTION_ELLA, {
 						q(31345),	-- Tracking Event: Ella Exalted
 						q(30366),	-- Tracking Event: Ella is Farmhand
 					}),
-					faction(FACTION_FARMER_FUNG, {
+					header(HEADERS.Faction, FACTION_FARMER_FUNG, {
 						q(31346),	-- Tracking Event: Farmer Fung Exalted
 						q(30370),	-- Tracking Event: Farmer Fung is Farmhand
 					}),
-					faction(FACTION_FISH_FELLREED, {
+					header(HEADERS.Faction, FACTION_FISH_FELLREED, {
 						q(31347),	-- Tracking Event: Fish Fellreed Exalted
 						q(30372),	-- Tracking Event: Fish Fellreed is Farmhand
 					}),
-					faction(FACTION_GINA_MUDCLAW, {
+					header(HEADERS.Faction, FACTION_GINA_MUDCLAW, {
 						q(31348),	-- Tracking Event: Gina Mudclaw Exalted
 						q(30374),	-- Tracking Event: Gina Mudclaw is Farmhand
 						n(QUESTS, {
 							q(31950),	-- Tracking Quest: Move NPCs to Dais — triggered after turning in "Learn and Grow VI: Gina's Vote" (questID 31945)
 						}),
 					}),
-					faction(FACTION_HAOHAN_MUDCLAW, {
+					header(HEADERS.Faction, FACTION_HAOHAN_MUDCLAW, {
 						q(31349),	-- Tracking Event: Haohan Mudclaw Exalted
 						q(30369),	-- Tracking Event: Haohan Mudclaw is Farmhand
 						n(QUESTS, {
 							q(30566),	-- FLAG - Pest Problems Training — triggered after turning in daily quest "Pest Problems" (questID 30319)
 						}),
 					}),
-					faction(FACTION_JOGU_THE_DRUNK, {
+					header(HEADERS.Faction, FACTION_JOGU_THE_DRUNK, {
 						q(31350),	-- Tracking Event: Jogu the Drunk Exalted
 						q(30373),	-- Tracking Event: Jogu the Drunk is Farmhand
 						n(QUESTS, {
 							q(30536),	-- FLAG - Weed War Training — triggered after turning in daily quest "Weed War II" (questID 30321)
 						}),
 					}),
-					faction(FACTION_OLD_HILLPAW, {
+					header(HEADERS.Faction, FACTION_OLD_HILLPAW, {
 						q(31351),	-- Tracking Event: Old Hillpaw Exalted
 						q(30368),	-- Tracking Event: Old Hillpaw is Farmhand
 					}),
-					faction(FACTION_SHO, {
+					header(HEADERS.Faction, FACTION_SHO, {
 						q(31352),	-- Tracking Event: Sho Exalted
 						q(30367),	-- Tracking Event: Sho is Farmhand
 					}),
-					faction(FACTION_TINA_MUDCLAW, {
+					header(HEADERS.Faction, FACTION_TINA_MUDCLAW, {
 						q(31353),	-- Tracking Event: Tina Mudclaw Exalted
 						q(30371),	-- Tracking Event: Tina Mudclaw is Farmhand
 					}),

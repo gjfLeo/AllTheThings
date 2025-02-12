@@ -1054,27 +1054,31 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	m(PANDARIA, {
 		m(ISLE_OF_THUNDER, {
 			n(FACTIONS, {
-				faction(FACTION_KIRIN_TOR_OFFENSIVE, {
-					q(32721),	-- Choose Your Assignment
-					q(32260),	-- Alliance Quest Choice: PvE
-					q(32261),	-- Alliance Quest Choice: PvP
-					q(32701),	-- Quest Reward Summary: PvE Stage 0-2
-					q(32700),	-- Quest Reward Summary: PvP Stage 1-5
-					q(32702),	-- Quest Reward Summary: PvE Stage 2
-					q(32703),	-- Quest Reward Summary: PvE Stage 3
-					q(32704),	-- Quest Reward Summary: PvE Stage 4-5
-					q(32705),	-- Quest Reward Summary: PvE Stage 5
+				header(HEADERS.Faction, FACTION_KIRIN_TOR_OFFENSIVE, {
+					n(QUESTS, {
+						q(32721),	-- Choose Your Assignment
+						q(32260),	-- Alliance Quest Choice: PvE
+						q(32261),	-- Alliance Quest Choice: PvP
+						q(32701),	-- Quest Reward Summary: PvE Stage 0-2
+						q(32700),	-- Quest Reward Summary: PvP Stage 1-5
+						q(32702),	-- Quest Reward Summary: PvE Stage 2
+						q(32703),	-- Quest Reward Summary: PvE Stage 3
+						q(32704),	-- Quest Reward Summary: PvE Stage 4-5
+						q(32705),	-- Quest Reward Summary: PvE Stage 5
+					}),
 				}),
-				faction(FACTION_SUNREAVER_ONSLAUGHT, {
-					q(32720),	-- Choose Your Assignment
-					q(32259),	-- Horde Quest Choice: PvE
-					q(32258),	-- Horde Quest Choice: PvP
-					q(32695),	-- Quest Reward Summary: PvE Stage 0-2
-					q(32694),	-- Quest Reward Summary: PvP Stage 1-5
-					q(32696),	-- Quest Reward Summary: PvE Stage 2
-					q(32697),	-- Quest Reward Summary: PvE Stage 3
-					q(32698),	-- Quest Reward Summary: PvE Stage 4-5
-					q(32699),	-- Quest Reward Summary: PvE Stage 5
+				header(HEADERS.Faction, FACTION_SUNREAVER_ONSLAUGHT, {
+					n(QUESTS, {
+						q(32720),	-- Choose Your Assignment
+						q(32259),	-- Horde Quest Choice: PvE
+						q(32258),	-- Horde Quest Choice: PvP
+						q(32695),	-- Quest Reward Summary: PvE Stage 0-2
+						q(32694),	-- Quest Reward Summary: PvP Stage 1-5
+						q(32696),	-- Quest Reward Summary: PvE Stage 2
+						q(32697),	-- Quest Reward Summary: PvE Stage 3
+						q(32698),	-- Quest Reward Summary: PvE Stage 4-5
+						q(32699),	-- Quest Reward Summary: PvE Stage 5
+					}),
 				}),
 			}),
 			n(QUESTS, {

@@ -103,6 +103,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 		},
 	}),
 })));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 	n(PROVING_GROUNDS, {
 		q(37212),	-- FLAG - Proving Grounds - Damage Bronze

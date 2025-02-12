@@ -2710,22 +2710,19 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 	}),
 })));
 
--- #if AFTER 7.1.0.22844
 root(ROOTS.HiddenQuestTriggers, {
-	n(FEAST_OF_WINTER_VEIL_HEADER, {
-		q(45766, {	-- finding Greatfather Winter in Highmountain (npc ID 104710)
-			["timeline"] = { ADDED_7_1_0 },
-			["isYearly"] = true,
-		}),
-		q(64628, {	-- Triggered when learning the additional things for the Rockin' Rollin' Toy (spellID 358761)
-			["timeline"] = { ADDED_9_1_5 },
-		}),
-	}),
-});
--- #endif
-
-
-root(ROOTS.HiddenQuestTriggers, {
+	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {
+		applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
+			q(45766, {	-- finding Greatfather Winter in Highmountain (npc ID 104710)
+				["isYearly"] = true,
+			}),
+		})),
+	})),
+	expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {
+		applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
+			q(64628),	-- Triggered when learning the additional things for the Rockin' Rollin' Toy (spellID 358761)
+		})),
+	})),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 		applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
 			q(78130),	-- Looting Festive Trans-Dimensional Bird Whistle [209859]

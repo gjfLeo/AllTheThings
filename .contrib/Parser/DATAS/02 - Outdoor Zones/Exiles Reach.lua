@@ -1439,7 +1439,8 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 		}),
 	},
 })));
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_1 } }, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {
 	m(EXILES_REACH, {
 		n(QUESTS, {
 			q(58418),	-- Triggers shortly after login. Possibly some kind of indicator for the account having done it at least once per faction?

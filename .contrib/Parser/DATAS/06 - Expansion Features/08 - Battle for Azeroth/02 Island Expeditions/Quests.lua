@@ -602,6 +602,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 		})),
 	}),
 }));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 	n(ISLAND_EXPEDITIONS, {
 		q(55591, {["repeatable"]=true}),	-- Expedition Demolisher

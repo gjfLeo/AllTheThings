@@ -1896,14 +1896,18 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
-	n(PROFESSIONS, {
-		prof(ARCHAEOLOGY, {
-			expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+		n(PROFESSIONS, {
+			prof(ARCHAEOLOGY, {
 				q(33823),	-- Tracking Quest - Archaeology - Frostfire - Dig Map #1
 				q(33824),	-- Tracking Quest - Archaeology - Frostfire - Dig Map #2
 				q(33825),	-- Tracking Quest - Archaeology - Frostfire - Dig Map #3
-			})),
-			expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
+			}),
+		}),
+	})),
+	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
+		n(PROFESSIONS, {
+			prof(ARCHAEOLOGY, {
 				q(41867),	-- FLAG - Brann Week 1
 				q(41868),	-- FLAG - Brann Week 2
 				q(41869),	-- FLAG - Brann Week 3
@@ -1911,7 +1915,7 @@ root(ROOTS.HiddenQuestTriggers, {
 				q(41871),	-- FLAG - Brann Week 5
 				q(41805),	-- Key of Kalyndras
 				q(45775),	-- Completion of 'Sifting Through the Rubble' [41176] for A Keen Eye [10603] - Crown Jewels of Suramar
-			})),
+			}),
 		}),
-	}),
+	})),
 });

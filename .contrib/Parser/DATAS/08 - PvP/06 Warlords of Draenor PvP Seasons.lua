@@ -9756,9 +9756,9 @@ root(ROOTS.PVP, {
 		}),
 	})),
 });
--- #if AFTER LEGION
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+	n(PVP, {
 		-- PvP Ensembles
 		q(42975),	-- Wild Combatant's Chain Armor (Hunter - Alliance)
 		q(42992),	-- Wild Combatant's Chain Armor (Hunter - Horde)
@@ -9907,5 +9907,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(43226),	-- Arsenal: Wild Gladiator's Weapons (Alliance)
 		q(43227),	-- Arsenal: Wild Gladiator's Weapons (Horde)
 	}),
-});
--- #endif
+})));

@@ -4655,9 +4655,9 @@ root(ROOTS.PVP, {
 		})),
 	})))),
 });
--- #if AFTER LEGION
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+	n(PVP, {
 		-- PvP Ensembles
 		q(46512),	-- Bloodthirsty Gladiator's Chain Armor (Hunter)
 		q(46513),	-- Bloodthirsty Gladiator's Dragonhide Armor (Druid)
@@ -4705,5 +4705,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(46543),	-- Vicious Gladiator's Arsenal
 		q(46554),	-- Ruthless Gladiator's Arsenal
 	}),
-});
--- #endif
+})));

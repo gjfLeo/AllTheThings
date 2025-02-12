@@ -1286,6 +1286,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 		}),
 	})),
 }));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 	n(CLASS_HALL, {
 		q(48308),	-- Tracking Quest - triggered after obtaining "Azeroth Invasion Plans" (itemID 152316)

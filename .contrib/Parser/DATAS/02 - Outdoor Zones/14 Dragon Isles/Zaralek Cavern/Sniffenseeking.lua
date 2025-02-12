@@ -338,7 +338,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 		}),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 	m(DRAGON_ISLES, {
 		m(ZARALEK_CAVERN, {
 			n(SNIFFENSEEKING, {
@@ -355,30 +356,24 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 				q(75880),	-- Completed Those Rascally Wroms (75397),			This Might Be Achievement Tracker/Daily/weekly etc..
 				q(75928),	-- Completed Those Rascally Wroms (75397),			This Might Be Achievement Tracker/Daily/weekly etc..
 
-				-- AlexSoft
 				q(75916),	-- Unknown [When Going to Frostfire Finesse (76084)] /Unflagged After Complete
 				q(75880),	-- Completed Frostfire Finesse (76084),			This Might Be Achievement Tracker/Daily/weekly etc..
 				q(75993),	-- Completed Frostfire Finesse (76084),			This Might Be Achievement Tracker/Daily/weekly etc..
 
-				-- AlexSoft
 				q(75910),	-- Unknown [When Going to Thieving Critters (75619)] /Unflagged After Complete
 				q(75930),	-- Completed Thieving Critters (75619),			This Might Be Achievement Tracker/Daily/weekly etc..
 				q(75882),	-- Completed Thieving Critters (75619),			/unflagged?
 
-				-- AlexSoft
 				q(75892),	-- Unknown [When Going to Vertical Anomaly (75390)] /Unflagged After Complete
 				q(75924),	-- Completed Vertical Anomaly (75390),			This Might Be Achievement Tracker/Daily/weekly etc..
 				q(75882),	-- Completed Vertical Anomaly (75390),			/unflagged?
 
-				-- Pr3vention
 				q(75908),	-- Starting The Living Drill (76016)
 				q(76000),	-- Completed The Living Drill (76016)
 
-				-- Pr3vention
 				q(75913),	-- Accepting Living Statue (76014)
 				q(75994),	-- Completed Living Statue (76014)
 
-				-- AlexSoft
 				q(75875),	-- Started Making Scents (75393) /Unflagged after map was completed
 				q(75876),	-- Completed Making Scents (75393)
 

@@ -1564,8 +1564,8 @@ for _,g in ipairs({ATTICUS_GROUP,ASCENDED_CHEST_OF_ARMS,MARTIAL_TITHE_OF_THE_COU
 	end
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(NECROLORD, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(NECROLORD,  bubbleDown({ ["customCollect"] = "SL_COV_NEC" }, {
 		n(SANCTUM_UPGRADES, {
 			n(ABOMINATION_FACTORY, {
 				-- Recruiting Constructs
@@ -1661,5 +1661,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 				q(64666),	-- Completing Baker's Dozen (59043) (next week's quest rewarded Tomalin's Seasoning Crystal (181809))
 			}),
 		}),
-	}),
+	})),
 })));

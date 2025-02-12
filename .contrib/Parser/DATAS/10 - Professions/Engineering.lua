@@ -1607,16 +1607,14 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 	})),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	n(PROFESSIONS, {
 		prof(ENGINEERING, {
-			expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
-				q(41100),	-- FLAG - Swap Didis - triggers after completing the "Endless Possibilities" (questID 40854)
-				q(45365),	-- Treasure: Wand of Simulated Life - part of some legion engineering quest
-			})),
+			q(41100),	-- FLAG - Swap Didis - triggers after completing the "Endless Possibilities" (questID 40854)
+			q(45365),	-- Treasure: Wand of Simulated Life - part of some legion engineering quest
 		}),
 	}),
-});
+})));
 
 -- #if ANYCLASSIC
 local applytraining = function(g)

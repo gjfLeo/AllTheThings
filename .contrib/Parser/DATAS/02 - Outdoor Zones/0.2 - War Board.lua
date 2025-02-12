@@ -126,7 +126,8 @@ root(ROOTS.Zones, {
 		}),
 	})),
 });
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	n(DUNGEON_JOURNAL, {
 		q(72751),	-- Triggers whenever you collect one of the Coin quests from your Adventurer's Journal.
 	}),

@@ -807,15 +807,13 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 	})),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	n(PROFESSIONS, {
 		prof(COOKING, {
-			expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
-				q(45341),	-- Tracking Quest - after obtaining the Chef's Hat toy (itemID 134020)
-			})),
+			q(45341),	-- Tracking Quest - after obtaining the Chef's Hat toy (itemID 134020)
 		}),
 	}),
-});
+})));
 
 
 -- #if ANYCLASSIC

@@ -2079,7 +2079,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	m(PANDARIA, {
 		m(VALE_OF_ETERNAL_BLOSSOMS, {
 			n(FACTIONS, {
-				faction(FACTION_GOLDEN_LOTUS, {
+				header(HEADERS.Faction, FACTION_GOLDEN_LOTUS, {
 					n(QUESTS, {
 						q(31652),	-- Roll Club: Serpent's Spine Tracking Quest
 					}),

@@ -3902,7 +3902,7 @@ root(ROOTS.Zones, {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 	m(PANDARIA, {
 		m(TOWNLONG_STEPPES, {
-			faction(FACTION_SHADO_PAN, {
+			header(HEADERS.Faction, FACTION_SHADO_PAN, {
 				n(QUESTS, {
 					q(31123),	-- Chose Arms Warrior
 					q(31124),	-- Chose Brewmaster

@@ -941,8 +941,8 @@ for _,g in ipairs({CONDUIT_GROUP,LFR_WEAPON_GROUP}) do
 	end
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
-	n(VENTHYR, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(VENTHYR, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
 		q(62699),	-- triggered when turning in #62691, "A Calling in Revendreth"
 		q(62924),	-- triggered when turning in #62691, "A Calling in Revendreth"
 		q(63001),	-- triggers when choosing to skip the Venthyr sanctum intro quests
@@ -950,5 +950,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, {
 		q(59316),	-- turning in quest #62918, "Binding Power"
 		q(59317),	-- triggered when turning in #62919, "Strengthening the Bond"
 		q(61546),	-- when looting 'Almost Empty Amontillado Cask' (181781) while on quest 'Crypt Crashers' (58428)
-	}),
-}));
+	})),
+})));

@@ -1223,7 +1223,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 		}),
 	}),
 })));
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	n(ACHIEVEMENTS, {
 		q(72248),	-- Triggered when using 'Gleaming Incarnate Thunderstone' (itemID 202047) (spellID 396597)
 		q(75968, {["timeline"] = {ADDED_10_1_0}}),	-- Triggered when using 'Obsidian Aspectral Earthstone' (itemID 205878) (spellID 410792)

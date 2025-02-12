@@ -94,6 +94,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, {
 		}),
 	}),
 }));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	n(ACHIEVEMENTS, {
 		-- Crypt Couture (automated)

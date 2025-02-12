@@ -961,8 +961,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
-	n(NIGHT_FAE, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(NIGHT_FAE,  bubbleDown({ ["customCollect"] = "SL_COV_NFA" }, {
 		n(QUESTS, {
 			q(63452),	-- triggers when turning in "Return Lost Souls" (spellID 348837 & 348840 & 348843 & 348846)
 			q(62745),	-- Triggered after finishing Chapter 1 of Night Fae covenant questline
@@ -984,7 +984,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["timeline"
 			------ Stay awhile and listen ------
 			hqt(64350),	-- Tyrande/Astarii after The Power of Night campaign quest (spellID 356222)
 		}),
-	}),
+	})),
 })));
 
 for _,g in ipairs({CONDUIT_GROUP,LFR_WEAPON_GROUP}) do

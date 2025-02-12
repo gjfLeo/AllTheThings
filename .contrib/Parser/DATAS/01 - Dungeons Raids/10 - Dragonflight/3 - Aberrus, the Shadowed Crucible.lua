@@ -1484,7 +1484,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 	inst(1208, {	-- Aberrus, the Shadowed Crucible
 		-- Normal
 		q(75732),	-- Kazzara
@@ -1502,6 +1502,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 		-- None
 
 		q(76087),	-- Sarkareth HC kill on Evoker; Legendary 'higher chance' lockout?
+		q(75659),	-- Sarkareth M kill on Evoker; Legendary 'higher chance' lockout?
 		q(76088),	-- Normal Sarkareth Kill?
 		q(76089),	-- Normal Sarkareth Kill?
 

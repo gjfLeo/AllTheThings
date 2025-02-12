@@ -3740,9 +3740,9 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 	-- #endif
 	})),
 }))))));
--- #if AFTER LEGION
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+	n(PVP, {
 		-- PvP Ensembles
 		q(46621),	-- Gladiator's Chain Armor (Hunter)
 		q(46622),	-- Gladiator's Dragonhide Armor (Druid)
@@ -3788,5 +3788,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(46650),	-- Vengeful Gladiator's Arsenal
 		q(46660),	-- Merciless Gladiator's Arsenal
 	}),
-});
--- #endif
+})));

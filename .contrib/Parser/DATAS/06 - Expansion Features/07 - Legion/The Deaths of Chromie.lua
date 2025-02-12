@@ -337,6 +337,7 @@ root(ROOTS.ExpansionFeatures,
 		}),
 	})
 );
+
 root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_5 } }, {
 		m(897, {

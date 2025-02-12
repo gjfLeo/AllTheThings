@@ -1,7 +1,7 @@
 -----------------------------------------------------------------------
 --   E N S E M B L E S    A N D    A R S E N A L S    M O D U L E    --
 -----------------------------------------------------------------------
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_7 } }, {
 	n(PVP, {
 		-- Unburied Aspirant's Cloak Rack (Item 223639)
 		q(82343),	-- Ensemble: Unburied Aspirant's Cloak Rack

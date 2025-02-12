@@ -1805,7 +1805,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	m(PANDARIA, {
 		m(DREAD_WASTES, {
 			n(FACTIONS, {
-				faction(FACTION_THE_KLAXXI, {
+				header(HEADERS.Faction, FACTION_THE_KLAXXI, {
 					q(31992),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 01 - Angel of Death
 					q(31993),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 02 - Iron Mantid
 					q(31994),	-- [FLAG] Dread Wastes Buff Bitflag - Enhancement 03 - Raining Blood

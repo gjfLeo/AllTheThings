@@ -314,7 +314,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
+	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 		n(PVP, {
 			q(72376, {	-- looting first War Crate of the day
 				["name"] = "Warmode Crate Looted",

@@ -1250,7 +1250,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 			["coord"] = { 59.4, 57.8, NORTHREND_THE_UNDERBELLY },
 			["timeline"] = { ADDED_7_0_3 },
 			["groups"] = {
-		-- #endif	
+		-- #endif
 				n(PVP_GLADIATOR, {
 					n(WEAPONS, {
 						i(146645, {	-- Arsenal: Deadly Gladiator's Weapon
@@ -4218,9 +4218,8 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 	})),
 }))))));
 
--- #if AFTER LEGION
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+	n(PVP, {
 		-- PvP Ensembles
 		q(46555),	-- Savage Gladiator's Chain Armor (Hunter)
 		q(46556),	-- Savage Gladiator's Dragonhide Armor (Druid)
@@ -4291,5 +4290,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(46609),	-- Furious Gladiator's Arsenal
 		q(46620),	-- Relentless Gladiator's Arsenal
 	}),
-});
--- #endif
+})));

@@ -10277,9 +10277,9 @@ root(ROOTS.PVP, {
 		}),
 	})),
 });
--- #if AFTER LEGION
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, {
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+	n(PVP, {
 		-- PvP Ensembles
 		q(45583),	-- Dreadful Gladiator's Chain Armor (Hunter)
 		q(45584),	-- Dreadful Gladiator's Dragonhide Armor (Druid)
@@ -10379,5 +10379,4 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(46019),	-- Grievous Gladiator's Arsenal (Alliance)
 		q(46018),	-- Grievous Gladiator's Weapons (Horde)
 	}),
-});
--- #endif
+})));

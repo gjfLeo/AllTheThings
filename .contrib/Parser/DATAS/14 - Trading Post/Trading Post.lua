@@ -2860,18 +2860,16 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = NEVER_IMPLEMENTED, }, {	-- Is this tagged with NEVER_IMPLEMENTED incorrectly?
-		-- These don't trigger when using ensembles, but they are listed on Wowhead
-		q(65718),	-- Ensemble: Slumbering Caldera Regalia
-		q(72081),	-- Ensemble: Val'sharah Protector's Battleplate
-		q(72086),	-- Ensemble: Tidecaller's Chainmail
-		q(72087),	-- Ensemble: Void-Bound Raiment
-		q(72088),	-- Ensemble: Void-Bound Battlegear
-		q(72123),	-- Ensemble: Void-Bound Chains
-		q(72124),	-- Ensemble: Void-Bound Warplate
-	})),
-});
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = NEVER_IMPLEMENTED, }, {	-- Is this tagged with NEVER_IMPLEMENTED incorrectly?
+	-- These don't trigger when using ensembles, but they are listed on Wowhead
+	q(65718),	-- Ensemble: Slumbering Caldera Regalia
+	q(72081),	-- Ensemble: Val'sharah Protector's Battleplate
+	q(72086),	-- Ensemble: Tidecaller's Chainmail
+	q(72087),	-- Ensemble: Void-Bound Raiment
+	q(72088),	-- Ensemble: Void-Bound Battlegear
+	q(72123),	-- Ensemble: Void-Bound Chains
+	q(72124),	-- Ensemble: Void-Bound Warplate
+})));
 
 root(ROOTS.NeverImplemented, {
 	n(TRADING_POST_NYI, bubbleDown({ ["timeline"] = { CREATED_10_0_5 }, }, {

@@ -1347,8 +1347,8 @@ for _,t in ipairs({CHRONICLE_OF_LOST_MEMORIES, MEMORY_OF_A_VITAL_SACRIFICE}) do
 	t.customCollect = nil;
 end
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
-	n(VENTHYR, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(VENTHYR, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
 		q(62021),	-- unlocking Dread Sentinel's Crimson Battleplate set (TransmogSetID 2078, Dread Sentinel's Crimson items)
 		q(62039),	-- unlocking Soulbreaker's Crimson Vestments set (TransmogSetID 2063, Soulbreaker's Crimson items)
 		q(62033),	-- unlocking Soulbreaker's Ebony Vestments set (TransmogSetID 2066, Soulbreaker's Ebony items)
@@ -1357,5 +1357,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDown({ ["customCol
 		q(62024),	-- unlocking Fearstalker's Ebony Battlegear set (TransmogSetID 2071, Fearstalker's Ebony items)
 		q(62027),	-- unlocking Fearstalker's Crimson Battlegear set (TransmogSetID 2074, Fearstalker's Crimson items)
 		q(62016),	-- unlocking Dread Sentinel's Ebony Battleplate set (TransmogSetID 2075, Dread Sentinel's Ebony items)
-	}),
-})))
+	})),
+})));

@@ -3456,7 +3456,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	m(PANDARIA, {
 		m(THE_JADE_FOREST, {
 			n(FACTIONS, {
-				faction(FACTION_ORDER_OF_THE_CLOUD_SERPENT, {
+				header(HEADERS.Faction, FACTION_ORDER_OF_THE_CLOUD_SERPENT, {
 					n(QUESTS, {
 						q(30165),	-- Tracking Event: Picked Blue Serpent - picked the blue serpent egg during "Choosing the One" (questID 30138)
 						q(30167),	-- Tracking Event: Picked Gold Serpent - picked the gold serpent egg during "Choosing the One" (questID 30138)

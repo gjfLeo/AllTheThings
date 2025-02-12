@@ -6489,6 +6489,7 @@ local ObjectNames = {
 	[411623] = "Machinist Plinth",
 	[411624] = "Machinist Plinth",
 	[411691] = "Shiny New Weapon",
+	[411744] = "Barrel of Wine",
 	[411778] = "Pollenfused Bristlebruin Fur Sample",
 	[411878] = "Intriguing Scrap",
 	[411930] = "Blackpowder Barrel",
