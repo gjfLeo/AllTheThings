@@ -450,7 +450,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									-- #if AFTER MOP
 									["coord"] = { 56.3, 27.4, COLDRIDGE_VALLEY },
 									-- #else
-									["coord"] = { 27.83, 68.98, DUN_MOROGH },
+									["coord"] = { 34.8, 67.4, DUN_MOROGH },
 									-- #endif
 								}),
 								objective(2, {	-- 0/1 Cask of Theramore Pale Ale
@@ -461,7 +461,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									-- #if AFTER MOP
 									["coord"] = { 40.0, 28.2, COLDRIDGE_VALLEY },
 									-- #else
-									["coord"] = { 24.49, 69.22, DUN_MOROGH },
+									["coord"] = { 31.5, 67.6, DUN_MOROGH },
 									-- #endif
 								}),
 								objective(3, {	-- 0/1 Cask of Gnomenbrau
@@ -472,7 +472,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									-- #if AFTER MOP
 									["coord"] = { 68.5, 28.2, COLDRIDGE_VALLEY },
 									-- #else
-									["coord"] = { 30.07, 68.99, DUN_MOROGH },
+									["coord"] = { 37.1, 67.4, DUN_MOROGH },
 									-- #endif
 								}),
 							},
