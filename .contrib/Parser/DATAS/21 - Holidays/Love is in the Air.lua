@@ -1453,20 +1453,23 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(78369, {	-- Crushing the Crown (A)
-			["qg"] = 38066,	-- Inspector Snap Snagglebolt
+			["qg"] = 38066,	-- Inspector Snip Snagglebolt
 			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["sourceQuest"] = 78729,	-- Raising a Stink (A)
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				i(LOVE_TOKEN),
-				o(413126, {	-- Box of Artisanal Goods})
-					i(210431),	-- Artisanal Bon-Bombs (QI!)
-					i(211127),	-- Note from Bang Sparknozzle (QI!) [book]
+				o(413126, {	-- Box of Artisanal Goods
+					["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
+					["g"] = {
+						i(210431),	-- Artisanal Bon-Bombs (QI!)
+						i(211127),	-- Note from Bang Sparknozzle (QI!) [book]
+					},
 				}),
 			},
 		}),
 		q(78379, {	-- The Stench of Revenge (A)
-			["qg"] = 38066,	-- Inspector Snap Snagglebolt
+			["qg"] = 38066,	-- Inspector Snip Snagglebolt
 			["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
 			["sourceQuest"] = 78369,	-- Crushing the Crown (A)
 			["races"] = ALLIANCE_ONLY,
@@ -1496,7 +1499,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["groups"] = { i(LOVE_TOKEN) },
 		}),
 		q(78982, {	-- I Smell Trouble (H)
-			["qg"] = 37172,	-- Detective Snip Snagglebolt
+			["qg"] = 37172,	-- Detective Snap Snagglebolt
 			["coord"] = { 41.6, 17.7, DUROTAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -1516,7 +1519,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			},
 		}),
 		q(78983, {	-- An Unwelcome Gift (H)
-			["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
+			["qg"] = 214707,	-- Detective Snap Snagglebolt (MobileNPC)
 			["sourceQuest"] = 78982,	-- I Smell Trouble (H)
 			["races"] = HORDE_ONLY,
 			["groups"] = {
@@ -1525,7 +1528,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			},
 		}),
 		q(78978, {	-- Raising a Stink (H)
-			["qg"] = 214707,	-- Detective Snip Snagglebolt (MobileNPC)
+			["qg"] = 214707,	-- Detective Snap Snagglebolt (MobileNPC)
 			["sourceQuest"] = 78983,	-- I Smell Trouble (H)
 			["races"] = HORDE_ONLY,
 		}),
@@ -1536,7 +1539,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				i(LOVE_TOKEN),
-				i(211782),	-- Note from Zikky (QI!) [book]
+				o(413126, {	-- Box of Artisanal Goods
+					["coord"] = { 45.7, 68.5, SILVERPINE_FOREST },
+					["g"] = {
+						i(210431),	-- Artisanal Bon-Bombs (QI!)
+						i(211782),	-- Note from Zikky (QI!) [book]
+					},
+				}),
 			},
 		}),
 		q(78985, {	-- The Stench of Revenge (H)
@@ -1935,6 +1944,31 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			}),
 		},
 	}),
+	-- #if AFTER 10.2.5
+	n(DROPS, {
+		["description"] = "Perfumes and Colognes can be looted from any killed creature related to the Holliday.",
+		["groups"] = {
+			i(49859, {	-- "Bravado" Cologne
+				["timeline"] = { ADDED_3_3_2 },
+			}),
+			i(49857, {	-- "Enchantress" Perfume
+				["timeline"] = { ADDED_3_3_2 },
+			}),
+			i(49858, {	-- "Forever" Perfume
+				["timeline"] = { ADDED_3_3_2 },
+			}),
+			i(49861, {	-- "STALWART" Cologne
+				["timeline"] = { ADDED_3_3_2 },
+			}),
+			i(49856, {	-- "VICTORY" Perfume
+				["timeline"] = { ADDED_3_3_2 },
+			}),
+			i(49860, {	-- "Wizardry" Cologne
+				["timeline"] = { ADDED_3_3_2 },
+			}),
+		},
+	}),
+	-- #endif
 	-- #if AFTER 3.3.2.11403
 	n(VENDORS, {
 		n(211873, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Bang Sparknozzle <Lovely Novelties>
@@ -2291,6 +2325,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					["timeline"] = { ADDED_4_3_0 },
 					["cost"] = { { "i", LOVE_TOKEN, 270 } },	-- 270x Love Token
 				}),
+				-- #if BEFORE 10.2.5
 				i(49859, {	-- "Bravado" Cologne
 					["timeline"] = { ADDED_3_3_2 },
 					["cost"] = { { "i", LOVE_TOKEN, 1 } },	-- 1x Love Token
@@ -2315,6 +2350,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					["timeline"] = { ADDED_3_3_2 },
 					["cost"] = { { "i", LOVE_TOKEN, 1 } },	-- 1x Love Token
 				}),
+				-- #endif
 				i(49909, {	-- Box of Chocolates
 					["timeline"] = { ADDED_3_3_2 },
 					["cost"] = { { "i", LOVE_TOKEN, 10 } },	-- 10x Love Token
