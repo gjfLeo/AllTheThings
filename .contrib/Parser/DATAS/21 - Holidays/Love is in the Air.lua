@@ -1944,31 +1944,17 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			}),
 		},
 	}),
-	-- #if AFTER 10.2.5
-	n(DROPS, {
+	n(DROPS, bubbleDownSelf({["timeline"] = { ADDED_10_2_5 },},{
 		["description"] = "Perfumes and Colognes can be looted from any killed creature related to the Holliday.",
 		["groups"] = {
-			i(49859, {	-- "Bravado" Cologne
-				["timeline"] = { ADDED_3_3_2 },
-			}),
-			i(49857, {	-- "Enchantress" Perfume
-				["timeline"] = { ADDED_3_3_2 },
-			}),
-			i(49858, {	-- "Forever" Perfume
-				["timeline"] = { ADDED_3_3_2 },
-			}),
-			i(49861, {	-- "STALWART" Cologne
-				["timeline"] = { ADDED_3_3_2 },
-			}),
-			i(49856, {	-- "VICTORY" Perfume
-				["timeline"] = { ADDED_3_3_2 },
-			}),
-			i(49860, {	-- "Wizardry" Cologne
-				["timeline"] = { ADDED_3_3_2 },
-			}),
+			i(49859),	-- "Bravado" Cologne
+			i(49857),	-- "Enchantress" Perfume
+			i(49858),	-- "Forever" Perfume
+			i(49861),	-- "STALWART" Cologne
+			i(49856),	-- "VICTORY" Perfume
+			i(49860),	-- "Wizardry" Cologne
 		},
-	}),
-	-- #endif
+	})),
 	-- #if AFTER 3.3.2.11403
 	n(VENDORS, {
 		n(211873, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {	-- Bang Sparknozzle <Lovely Novelties>
@@ -2325,7 +2311,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					["timeline"] = { ADDED_4_3_0 },
 					["cost"] = { { "i", LOVE_TOKEN, 270 } },	-- 270x Love Token
 				}),
-				-- #if BEFORE 10.2.5
 				i(49859, {	-- "Bravado" Cologne
 					["timeline"] = { ADDED_3_3_2 },
 					["cost"] = { { "i", LOVE_TOKEN, 1 } },	-- 1x Love Token
@@ -2350,7 +2335,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					["timeline"] = { ADDED_3_3_2 },
 					["cost"] = { { "i", LOVE_TOKEN, 1 } },	-- 1x Love Token
 				}),
-				-- #endif
 				i(49909, {	-- Box of Chocolates
 					["timeline"] = { ADDED_3_3_2 },
 					["cost"] = { { "i", LOVE_TOKEN, 10 } },	-- 10x Love Token
