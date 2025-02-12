@@ -329,6 +329,10 @@ REMOVED_5_4_2 = "removed 5.4.2.17658";					-- Mists of Pandaria 5.4.2 Launched o
 CREATED_5_4_7 = "created 5.4.7.17898";					-- Mists of Pandaria 5.4.7 Launched on February 18th, 2014
 ADDED_5_4_7 = "added 5.4.7.17898";						-- Mists of Pandaria 5.4.7 Launched on February 18th, 2014
 REMOVED_5_4_7 = "removed 5.4.7.17898";					-- Mists of Pandaria 5.4.7 Launched on February 18th, 2014
+--- CLASSIC TIMELINES ---
+CREATED_5_5_0 = "created 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 will be Launched in summer 2025
+ADDED_5_5_0 = "added 5.5.0";					    	-- Mists of Pandaria Classic 5.5.0 will be Launched in summer 2025
+REMOVED_5_5_0 = "removed 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 will be Launched in summer 2025
 
 -------------------------
 -- WARLORDS OF DRAENOR --
