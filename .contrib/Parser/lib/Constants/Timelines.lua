@@ -526,21 +526,21 @@ REMOVED_11_0_7 = "removed 11.0.7.58123";				-- The War Within 11.0.7 Launched on
 CREATED_11_1_0 = "created 11.1.0";						-- The War Within 11.1.0 will be Launched on February 25th, 2025
 ADDED_11_1_0 = "added 11.1.0";							-- The War Within 11.1.0 will be Launched on February 25th, 2025
 REMOVED_11_1_0 = "removed 11.1.0";						-- The War Within 11.1.0 will be Launched on February 25th, 2025
-CREATED_11_1_5 = "created 11.1.5";						-- The War Within 11.1.5 will be Launched on
-ADDED_11_1_5 = "added 11.1.5";							-- The War Within 11.1.5 will be Launched on
-REMOVED_11_1_5 = "removed 11.1.5";						-- The War Within 11.1.5 will be Launched on
-CREATED_11_1_7 = "created 11.1.7";						-- The War Within 11.1.7 will be Launched on
-ADDED_11_1_7 = "added 11.1.7";							-- The War Within 11.1.7 will be Launched on
-REMOVED_11_1_7 = "removed 11.1.7";						-- The War Within 11.1.7 will be Launched on
-CREATED_11_2_0 = "created 11.2.0";						-- The War Within 11.2.0 will be Launched on
-ADDED_11_2_0 = "added 11.2.0";							-- The War Within 11.2.0 will be Launched on
-REMOVED_11_2_0 = "removed 11.2.0";						-- The War Within 11.2.0 will be Launched on
-CREATED_11_2_5 = "created 11.2.5";						-- The War Within 11.2.5 will be Launched on
-ADDED_11_2_5 = "added 11.2.5";							-- The War Within 11.2.5 will be Launched on
-REMOVED_11_2_5 = "removed 11.2.5";						-- The War Within 11.2.5 will be Launched on
-CREATED_11_2_7 = "created 11.2.7";						-- The War Within 11.2.7 will be Launched on
-ADDED_11_2_7 = "added 11.2.7";							-- The War Within 11.2.7 will be Launched on
-REMOVED_11_2_7 = "removed 11.2.7";						-- The War Within 11.2.7 will be Launched on
+CREATED_11_1_5 = "created 11.1.5";						-- The War Within 11.1.5 will be Launched in spring 2025
+ADDED_11_1_5 = "added 11.1.5";							-- The War Within 11.1.5 will be Launched in spring 2025
+REMOVED_11_1_5 = "removed 11.1.5";						-- The War Within 11.1.5 will be Launched in spring 2025
+CREATED_11_1_7 = "created 11.1.7";						-- The War Within 11.1.7 will be Launched in spring 2025
+ADDED_11_1_7 = "added 11.1.7";							-- The War Within 11.1.7 will be Launched in spring 2025
+REMOVED_11_1_7 = "removed 11.1.7";						-- The War Within 11.1.7 will be Launched in spring 2025
+CREATED_11_2_0 = "created 11.2.0";						-- The War Within 11.2.0 will be Launched in summer 2025
+ADDED_11_2_0 = "added 11.2.0";							-- The War Within 11.2.0 will be Launched in summer 2025
+REMOVED_11_2_0 = "removed 11.2.0";						-- The War Within 11.2.0 will be Launched in summer 2025
+CREATED_11_2_5 = "created 11.2.5";						-- The War Within 11.2.5 will be Launched in autumn 2025
+ADDED_11_2_5 = "added 11.2.5";							-- The War Within 11.2.5 will be Launched in autumn 2025
+REMOVED_11_2_5 = "removed 11.2.5";						-- The War Within 11.2.5 will be Launched in autumn 2025
+CREATED_11_2_7 = "created 11.2.7";						-- The War Within 11.2.7 will be Launched in autumn 2025
+ADDED_11_2_7 = "added 11.2.7";							-- The War Within 11.2.7 will be Launched in autumn 2025
+REMOVED_11_2_7 = "removed 11.2.7";						-- The War Within 11.2.7 will be Launched in autumn 2025
 
 --------------
 -- MIDNIGHT --
