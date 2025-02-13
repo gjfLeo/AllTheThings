@@ -630,6 +630,8 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 						q(77813, {	-- Lightning Strikes
 							["provider"] = { "n", 197478 },	-- Herald Flaps
 							["coord"] = { 45.4, 55.2, VALDRAKKEN },
+							["isBreadcrumb"] = true,	-- was unflagged for some players on the day it was released, sad
+							["DisablePartySync"] = true,
 						}),
 						q(77815, {	-- The Storm Race Tour
 							["provider"] = { "n", 193359 },	-- Lord Andestrasz
@@ -673,9 +675,10 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 								i(220726),	-- Shining Stormrider's Wristguards
 							},
 						})),
-						q(84908, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {	-- The Stormrider's Honors [Khaz Algar Version]
+						q(84908, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {	-- Stormrider's Honors [Khaz Algar Version]
 							-- Pops on login directs you to quest 83024
 							["lockCriteria"] = { 1, "questID", 83024 },	-- The Stormrider's Bond [Khaz Algar Version]
+							["DisablePartySync"] = true,
 						})),
 						q(83024, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {	-- The Stormrider's Bond [Khaz Algar Version]
 							["provider"] = { "n", 225347 },	-- Stormrider Bruelda
