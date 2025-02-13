@@ -877,7 +877,8 @@ root(ROOTS.HiddenQuestTriggers, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = R
 						-- Ensemble: Frenzied Stormrider's Attire
 						-- Ensemble: Shocking Stormrider's Attire
 						-- Ensemble: Sparking Stormrider's Attire
-			q(84824),	-- triggered when accepting "The Stormrider's Bond" (81993)
+			q(84824),	-- triggered when accepting "The Stormrider's Bond" (81993) [Dragon Isle Version]
+			q(84825),	-- triggered when accepting "The Stormrider's Bond" (83024) [Khaz Algar Version]
 		}),
 	})),
 })))
