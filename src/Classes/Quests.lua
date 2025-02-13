@@ -1263,6 +1263,16 @@ local criteriaFuncs = {
 app.AddEventHandler("OnLoad", function()
 	criteriaFuncs.text_spellID = app.GetSpellName
 end)
+local AWQuestLockers = setmetatable({
+	-- sourceID is account-wide, so any lock via that will lock account-wide
+	sourceID = app.ReturnTrue,
+	-- achID is possibly account-wide, so lock could also mean quest is locked account-wide
+	achID = function(id)
+		local ach = Search("achievementID", id, "field")
+		-- app.PrintDebug("Locked due to AW Ach?",ach.accountWide,app:SearchLink(ach))
+		if ach and ach.accountWide then return true end
+	end,
+}, { __index = function(t,key) return app.ReturnFalse end})
 local function IsGroupLocked(t)
 	local lockCriteria = t.lc;
 	if lockCriteria then
@@ -1276,8 +1286,7 @@ local function IsGroupLocked(t)
 				if critFunc(critVal) then
 					if critKey ~= "questID" then
 						nonQuestLock = true;
-						if critKey == "sourceID" then
-							-- sourceID is account-wide, so any lock via that will lock account-wide
+						if AWQuestLockers[critKey](critVal) then
 							AccountWideLockedQuestsCache[t.questID] = true
 						end
 					elseif app.AccountWideQuestsDB[critVal] then
