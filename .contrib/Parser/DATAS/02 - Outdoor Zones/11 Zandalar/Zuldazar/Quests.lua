@@ -559,7 +559,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 66.8, 42.6, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(150347),	-- Steaming Fresh Carrion (QI!)
+					o_repeated({
+						i(150347),	-- Steaming Fresh Carrion (QI!)
+						o(291234),	-- Steaming Fresh Carrion
+						o(291235),	-- Steaming Fresh Carrion
+						o(291236),	-- Steaming Fresh Carrion
+					}),
 				},
 			}),
 			q(50944, {	-- Down, But Not Out
@@ -1723,7 +1728,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 66.8, 42.5, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(150272),	-- Nearly-hatching Pterrordax Egg (QI!)
+					o(270040, {	-- Nearly-hatching Pterrordax Egg
+						i(150272),	-- Nearly-hatching Pterrordax Egg (QI!)
+					}),
 				},
 			}),
 			q(53774, {	-- Wisdom of the Warchief

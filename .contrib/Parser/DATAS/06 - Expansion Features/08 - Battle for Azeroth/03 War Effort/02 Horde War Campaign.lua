@@ -141,7 +141,10 @@ root(ROOTS.ExpansionFeatures,
 						q(51771, {	-- War of Shadows
 							["sourceQuests"] = { 51770 },	-- Mission from the Warchief
 							["provider"] = { "n", 138708 },	-- Garona Halforcen
-							["coord"] = { 58.4, 62.6, ZULDAZAR },
+							["coords"] = {
+								{ 58.4, 62.6, ZULDAZAR },
+								{ 51.7, 99.6, DAZARALOR },
+							},
 							["races"] = HORDE_ONLY,
 						}),
 						q(53079, {	-- Reinforcements

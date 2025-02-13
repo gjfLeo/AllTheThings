@@ -271,6 +271,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(50512),	-- Scout Skrasniss
 			q(53886, {	-- Self Guided Tour (Faction Assault WQ)
 				["races"] = HORDE_ONLY,
+				["g"] = {
+					o(310204, {	-- Alliance Strongbox
+						["g"] = { i(165011) },	-- Nazmir Battleplans (QI!)
+					}),
+				},
 			}),
 			q(54663, {	-- Shadow Hunter Vol'tris (Faction Assault WQ)
 				["races"] = ALLIANCE_ONLY,

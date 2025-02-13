@@ -389,6 +389,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 124376 },	-- Witch Doctor Zentimo
 				["coord"] = { 68.6, 46.6, NAZMIR },
 				["races"] = HORDE_ONLY,
+				["g"] = {
+					o_repeated({
+						i(151113),	-- Stolen Idol of Krag'wa
+						o(271648),	-- Stolen Idol of Krag'wa
+						o(293211),	-- Stolen Idol of Krag'wa
+					}),
+				},
 			}),
 			q(47601, {	-- Field Evaluation
 				["sourceQuests"] = {
@@ -397,6 +404,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					47596,	-- There Is No Plan "B"
 				},
 				["provider"] = { "n", 123544 },	-- Patch
+				["coord"] = { 82.4, 27.3, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(158993),	-- Death-Pledged Legguards
@@ -483,6 +491,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(47659, {	-- Hunt the Hunter
 				["sourceQuests"] = { 47525 },	-- Staying Hidden
 				["provider"] = { "n", 124376 },	-- Witch Doctor Zentimo
+				["coord"] = { 68.6, 46.7, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(155383),	-- Bloody Warmother's Greatcloak
@@ -513,7 +522,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(47130, {	-- Improper Burial
 				["sourceQuests"] = { 47105 },	-- Into The Darkness
-				["provider"] = { "n", 121241 },	-- Princess Talanji
+				["qgs"] = {
+					121241,	-- Princess Talanji
+					130844,	-- Princess Talanji
+				},
 				["coord"] = { 47.2, 79.8, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
@@ -572,7 +584,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(47919, {	-- Just Say No to Cannibalism
 				["sourceQuests"] = { 47924 },	-- Profanity Filter
-				["provider"] = { "n", 125024 },	-- Kajosh
+				["qgs"] = {
+					125024,	-- Kajosh
+					124933,	-- Kajosh
+				},
 				["coord"] = { 51.7, 33.2, NAZMIR },
 			}),
 			q(48478, {	-- Kel'vax's Home
@@ -922,7 +937,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 39.5, 24.7, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(150753),	-- Decaying Bloodstone (QI!)
+					o(278691, {	-- Sarcophagus Lid
+						["coord"] = { 39.6, 34.9, NAZMIR },
+						["g"] = { i(150753) },	-- Decaying Bloodstone (QI!)
+					}),
 				},
 			}),
 			q(47631, {	-- Rendezvous with the Libation
@@ -980,7 +998,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(47599, {	-- Revenge: Served Hot
 				["sourceQuests"] = { 47631 },	-- Rendezvous with the Libation
-				["provider"] = { "n", 123436 },	-- Ticker
+				["qgs"] = {
+					123526,	-- Ticker
+					123436,	-- Ticker
+				},
 				["coord"] = { 74.7, 39.0, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
@@ -1013,7 +1034,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(47925, {	-- Shoak's on the Menu
 				["sourceQuests"] = { 47924 },	-- Profanity Filter
 				["description"] = "You must complete this storyline for Shoak to appear in Gloom Hollow.",
-				["provider"] = { "n", 125024 },	-- Kajosh
+				["qgs"] = {
+					125024,	-- Kajosh
+					124933,	-- Kajosh
+				},
 				["coord"] = { 51.7, 33.2, NAZMIR },
 				["g"] = {
 					n(FACTION_HEADER_ALLIANCE, bubbleDownSelf({["races"] = ALLIANCE_ONLY},{
@@ -1295,9 +1319,18 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 82.3, 27.2, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(151209),	-- Broken Elevating Gears (QI!)
-					i(151208),	-- Damaged A.M.O.D. Barrel (QI!)
-					i(151210),	-- Shattered Firing Mechanism (QI!)
+					o(271747, {	-- Broken Elevating Gears
+						["coord"] = { 79.2, 27.5, NAZMIR },
+						["g"] = { i(151209) },	-- Broken Elevating Gears (QI!)}
+					}),
+					o(271746, {	-- Damaged Artillery Barrel
+						["coord"] = { 77.7, 25.5, NAZMIR },
+						["g"] = { i(151208) },	-- Damaged A.M.O.D. Barrel (QI!)
+					}),
+					o(271748, {	-- Shattered Firing Mechanism
+						["coord"] = { 79.5, 22.2, NAZMIR },
+						["g"] = { i(151210) },	-- Shattered Firing Mechanism (QI!)
+					}),
 				},
 			}),
 			q(48578, {	-- There's No Eye in Skyterror
@@ -1321,7 +1354,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 36.7, 27.4, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(150754),	-- Valjabu's Tusk Ring (QI!)
+					o(270991, {	-- Ancient Urn
+						["coord"] = { 40.4, 26.4, NAZMIR },
+						["g"] = { i(150754) },	-- Valjabu's Tusk Ring (QI!)
+					}),
 				},
 			}),
 			q(49902, {	-- To Gloom Hollow

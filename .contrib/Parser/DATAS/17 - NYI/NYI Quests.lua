@@ -3279,9 +3279,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 				["description"] = "Area: |cFFf09f26Nazmir|r",
 				["lvl"] = 20,
 				["races"] = HORDE_ONLY,
-				-- ["g"] = {
-				-- 	i(150753),	-- Decaying Bloodstone (QI!)
-				-- },
 			}),
 			q(47506, {
 				["lvl"] = 255,
