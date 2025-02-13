@@ -302,9 +302,9 @@ REMOVED_4_4_0 = "removed 4.4.0.54481";					-- Cataclysm Classic 4.4.0/Pre-Patch 
 CREATED_4_4_1 = "created 4.4.1.54481";					-- Cataclysm Classic 4.4.1 launch on October 29th, 2024
 ADDED_4_4_1 = "added 4.4.1.54481";						-- Cataclysm Classic 4.4.1 launch on October 29th, 2024
 REMOVED_4_4_1 = "removed 4.4.1.54481";					-- Cataclysm Classic 4.4.1 launch on October 29th, 2024
-CREATED_4_4_2 = "created 4.4.2";				    	-- Cataclysm Classic 4.4.2 will be launch on February 18th, 2025
-ADDED_4_4_2 = "added 4.4.2";					    	-- Cataclysm Classic 4.4.2 will be launch on February 18th, 2025
-REMOVED_4_4_2 = "removed 4.4.2";				    	-- Cataclysm Classic 4.4.2 will be launch on February 18th, 2025
+CREATED_4_4_2 = "created 4.4.2";				    	-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
+ADDED_4_4_2 = "added 4.4.2";					    	-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
+REMOVED_4_4_2 = "removed 4.4.2";				    	-- Cataclysm Classic 4.4.2 launch on February 18th, 2025
 
 -----------------------
 -- MISTS OF PANDARIA --
@@ -332,9 +332,9 @@ CREATED_5_4_7 = "created 5.4.7.17898";					-- Mists of Pandaria 5.4.7 launch on 
 ADDED_5_4_7 = "added 5.4.7.17898";						-- Mists of Pandaria 5.4.7 launch on February 18th, 2014
 REMOVED_5_4_7 = "removed 5.4.7.17898";					-- Mists of Pandaria 5.4.7 launch on February 18th, 2014
 --- CLASSIC TIMELINES ---
-CREATED_5_5_0 = "created 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 will be launch in summer 2025
-ADDED_5_5_0 = "added 5.5.0";					    	-- Mists of Pandaria Classic 5.5.0 will be launch in summer 2025
-REMOVED_5_5_0 = "removed 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 will be launch in summer 2025
+CREATED_5_5_0 = "created 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch in summer 2025
+ADDED_5_5_0 = "added 5.5.0";					    	-- Mists of Pandaria Classic 5.5.0 launch in summer 2025
+REMOVED_5_5_0 = "removed 5.5.0";				    	-- Mists of Pandaria Classic 5.5.0 launch in summer 2025
 
 -------------------------
 -- WARLORDS OF DRAENOR --
