@@ -761,7 +761,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	--	0/5 Crazed Colossus slain while in disguise
 								["provider"] = { "i", 31279 },	-- Enchanted Illidari Tabard (Provided)
-								["cr"] = 22051,	-- Crazed Colossus Kill Credit
+								["cr"] = 19823,	-- Crazed Colossus
 							}),
 							-- #if AFTER CATA
 							-- TODO: Do something about this being assumed a collectible.
@@ -787,7 +787,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	--	0/5 Crazed Colossus slain while in disguise
 								["provider"] = { "i", 31279 },	-- Enchanted Illidari Tabard (Provided)
-								["cr"] = 22051,	-- Crazed Colossus Kill Credit
+								["cr"] = 19823,	-- Crazed Colossus
 							}),
 							-- #if AFTER CATA
 							-- TODO: Do something about this being assumed a collectible.
@@ -916,8 +916,9 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/10 Airy Soul Captured
-								["cr"] = 21096,	-- Credit Marker: Air
 								["provider"] = { "i", 30094 },	-- Totem of Spirits (Provided)
+								["coord"] = { 59.2, 70.6, SHADOWMOON_VALLEY },
+								["cr"] = 21060,	-- Enraged Air Spirit
 							}),
 							i(30953),	-- Boots of the Skybreaker
 							i(30930),	-- Grips of the Void
@@ -935,12 +936,14 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/8 Earthen Soul Captured
-								["cr"] = 21092,	-- Credit Marker: Earth
 								["provider"] = { "i", 30094 },	-- Totem of Spirits (Provided)
+								["coord"] = { 44.8, 49.0, SHADOWMOON_VALLEY },
+								["cr"] = 21050,	-- Enraged Earth Spirit
 							}),
 							objective(2, {	-- 0/8 Fiery Soul Captured
-								["cr"] = 21094,	-- Credit Marker: Fire
 								["provider"] = { "i", 30094 },	-- Totem of Spirits (Provided)
+								["coord"] = { 46.0, 43.8, SHADOWMOON_VALLEY },
+								["cr"] = 21061,	-- Enraged Fire Spirit
 							}),
 						},
 					}),
@@ -951,8 +954,9 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/5 Watery Soul Captured
-								["cr"] = 21095,	-- Credit Marker: Water
 								["provider"] = { "i", 30094 },	-- Totem of Spirits (Provided)
+								["coord"] = { 51.0, 25.6, SHADOWMOON_VALLEY },
+								["cr"] = 21059,	-- Enraged Water Spirit
 							}),
 						},
 					}),
