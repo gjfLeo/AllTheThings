@@ -7513,7 +7513,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Third Soulbind Unlocked - Venthyr",,15250,-1,-1,0,15441,0,0,1179648,95,136243,0,93866,0,0,0,0
 "Complete Layer 1 of The Jailer's Gauntlet in Torghast, Tower of the Damned.","The Jailer's Gauntlet: Layer 1","Pet: Lightless Tormentor",15251,-1,-1,0,15440,0,10,131072,119,3717264,188679,95453,0,0,0,0
 "Complete Layer 2 of The Jailer's Gauntlet in Torghast, Tower of the Damned.","The Jailer's Gauntlet: Layer 2","Reward: Dominated Hearthstone",15252,-1,-1,15251,15440,0,10,131072,120,3717265,188952,95455,0,0,0,0
-,"Verdant Combatant",,19140,-1,1,0,15270,0,0,1179648,79,236538,210070,150667,0,0,0,0
+,"Obsidian Combatant",,17728,-1,0,0,15270,0,0,1179648,80,236538,205245,144552,0,0,0,0
 "Complete Layer 3 of The Jailer's Gauntlet in Torghast, Tower of the Damned.","The Jailer's Gauntlet: Layer 3","Title: Gauntlet Runner",15253,-1,-1,15252,15440,0,10,131072,121,3717266,0,95457,0,0,0,0
 "Complete Layer 4 of The Jailer's Gauntlet in Torghast, Tower of the Damned.","The Jailer's Gauntlet: Layer 4","Mount: Colossal Ebonclaw Mawrat",15254,-1,-1,15253,15440,0,10,131072,122,3717267,188696,95459,0,0,0,0
 "Complete Layer 5 of The Jailer's Gauntlet in Torghast, Tower of the Damned.","The Jailer's Gauntlet: Layer 5",,15255,-1,-1,15254,15440,0,10,131072,123,3717268,0,95461,0,0,0,0
@@ -7737,7 +7737,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect 1600 unique pets.","What Can I Say? They Love Me.","Pet: Violet Violence",15643,-1,-1,15642,15118,0,10,143360,19,132599,191932,134007,0,0,0,0
 "Collect 1800 unique pets.","Good Things Come in Small Packages","Pet: Mister Muskoxeles",15644,-1,-1,15643,15118,0,10,143360,20,132599,191946,134009,0,0,0,0
 "Proud owner of the 2022 Vintage Winter Veil gift, Falling Star Catcher.","To Catch Falling Stars",,15645,-1,-1,0,15274,0,0,2048,34,133202,0,134047,0,0,0,0
-,"Verdant Combatant",,19141,-1,0,0,15270,0,0,1179648,85,236538,210069,150674,0,0,0,0
+,"Algari Blacksmithing 75 (DNT)",,19742,-1,-1,0,15490,0,0,9437188,8,136243,0,154727,0,0,0,0
 "Reach Renown level 80 with each of the four Covenants.",Re-Re-Re-Renowned,,15646,-1,-1,15241,15441,0,10,229376,16,3726261,0,134055,0,0,0,0
 "Complete all four Covenant campaigns.","Dead Men Tell Some Tales",,15647,-1,-1,14790,15422,0,10,131072,32,3726261,0,134068,0,0,0,0
 "Complete the Maw achievements listed below.","Walking in Maw-mphis","Title: Maw Walker",15648,-1,-1,0,15436,0,10,131072,8,3729719,0,134077,0,0,0,0
@@ -8546,7 +8546,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Gold ranked time for Azure Span Iskaara Tour Reverse.","Iskaara Tour Reverse: Gold",,17170,-1,-1,17169,15462,0,0,1048576,306,1002573,0,0,0,0,0,0
 "Complete Azure Span Frostland Flyover Reverse.","Frostland Flyover Reverse: Bronze",,17171,-1,-1,0,15462,0,0,1048576,307,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Azure Span Frostland Flyover Reverse.","Frostland Flyover Reverse: Silver",,17172,-1,-1,17171,15462,0,0,1048576,308,1002575,0,0,0,0,0,0
-"Complete Outland Shadowmoon Slam.","Shadowmoon Slam: Bronze",,18692,-1,-1,0,15462,0,0,1048576,1196,1002572,0,0,0,0,0,0
+"Upgrade the Undead Ghoul once.","Warcraft Rumble Minis, Ghoul's New Look",,17350,-1,-1,0,15247,0,5,131072,20,5149866,0,142798,0,0,0,0
 "Get Gold ranked time for Azure Span Frostland Flyover Reverse.","Frostland Flyover Reverse: Gold",,17173,-1,-1,17172,15462,0,0,1048576,309,1002573,0,0,0,0,0,0
 "Complete Azure Span Archive Ambit Reverse.","Archive Ambit Reverse: Bronze",,17174,-1,-1,0,15462,0,0,1048576,310,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Azure Span Archive Ambit Reverse.","Archive Ambit Reverse: Silver",,17175,-1,-1,17174,15462,0,0,1048576,311,1002575,0,0,0,0,0,0
@@ -8579,7 +8579,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Obtain silver in all reverse races in Azure Span.","Azure Span Reverse: Silver",,17202,-1,-1,17201,15462,0,10,131072,251,1002575,0,142189,0,0,0,0
 "Obtain gold in all reverse races in Azure Span.","Azure Span Reverse: Gold",,17203,-1,-1,17202,15462,0,10,131072,252,1002573,0,142196,0,0,0,0
 "Complete all reverse races in Thaldraszus.","Thaldraszus Reverse: Bronze",,17204,-1,-1,0,15462,0,10,131072,253,1002572,0,142203,0,0,0,0
-"Complete all reverse races in Outland.","Outland Reverse: Bronze",,19102,-1,-1,0,15462,0,10,131072,1247,1002572,0,150373,0,0,0,0
+"Upgrade the Murloc once.","Warcraft Rumble Minis, Murloc's New Look",,17351,-1,-1,0,15247,0,5,131072,22,5149947,0,142800,0,0,0,0
 "Obtain silver in all reverse races in Thaldraszus.","Thaldraszus Reverse: Silver",,17205,-1,-1,17204,15462,0,10,131072,254,1002575,0,142210,0,0,0,0
 "Obtain gold in all reverse races in Thaldraszus.","Thaldraszus Reverse: Gold",,17206,-1,-1,17205,15462,0,10,131072,255,1002573,0,142217,0,0,0,0
 "Catch 100 fish with the Oversized Bobber.",Discombobberlated,"Toy: Reusable Oversized Bobber",17207,-1,-1,0,171,0,10,131072,77,4620674,0,142301,0,0,0,0
@@ -8671,7 +8671,22 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Win 100 Rated Solo Shuffle rounds while at Elite rank during Dragonflight Season 1.","Legend: Dragonflight Season 1","Reward: Legend Pennant & Seasonal Character Title",17339,-1,-1,0,15270,0,0,14336,485,236537,0,142762,0,0,0,0
 "Kill each of the Primalist monsters in the Storm's Fury event within the Primalist Future.","The Future We Make",,17342,-1,-1,0,15455,0,5,131072,13,4622478,0,142768,0,0,0,0
 "Kill any of the Primalist monsters within the Storm's Fury event while you have at least 15 stacks of Warmth.","Drop It Like It's Hot",,17343,-1,-1,0,15455,0,5,131072,14,237009,0,142772,0,0,0,0
+"Collect all seven Warcraft Rumble Minis.","Warcraft Rumble Minis, Get 'Em All!",,17344,-1,-1,0,15247,0,10,131072,9,5149946,0,142780,0,0,0,0
 "Use Whirling Surge to dismount 50 enemy players in War Mode.","Airborne Tumbler","Title: Skyscourge",17345,-1,-1,17336,15283,0,5,131072,32,4640477,0,142788,0,0,0,0
+"Upgrade Maiev once.","Warcraft Rumble Minis, Maiev's New Look",,17346,-1,-1,0,15247,0,5,131072,12,5149946,0,142790,0,0,0,0
+"Upgrade Sneed once.","Warcraft Rumble Minis, Sneed's New Look",,17347,-1,-1,0,15247,0,5,131072,14,5149948,0,142792,0,0,0,0
+"Upgrade The Night Elf Huntress once.","Warcraft Rumble Minis, Huntress' New Look",,17348,-1,-1,0,15247,0,5,131072,16,5149868,0,142794,0,0,0,0
+"Upgrade the Stonehoof Tauren once.","Warcraft Rumble Minis, Tauren's New Look",,17349,-1,-1,0,15247,0,5,131072,18,5149985,0,142796,0,0,0,0
+"Upgrade the Whelp Egg once.","Warcraft Rumble Minis, Whelp Egg's New Look",,17352,-1,-1,0,15247,0,5,131072,24,5149993,0,142802,0,0,0,0
+"Upgrade Maiev twice.","Warcraft Rumble Minis, Maiev's Newer Look",,17353,-1,-1,0,15247,0,5,131072,13,5149946,0,142804,0,0,0,0
+"Upgrade Sneed twice.","Warcraft Rumble Minis, Sneed's Newer Look",,17354,-1,-1,0,15247,0,5,131072,15,5149948,0,142806,0,0,0,0
+"Upgrade The Night Elf Huntress twice.","Warcraft Rumble Minis, Huntress' Newer Look",,17355,-1,-1,0,15247,0,5,131072,17,5149868,0,142808,0,0,0,0
+"Upgrade the Stonehoof Tauren twice.","Warcraft Rumble Minis, Tauren's Newer Look",,17356,-1,-1,0,15247,0,5,131072,19,5149985,0,142810,0,0,0,0
+"Upgrade the Undead Ghoul twice.","Warcraft Rumble Minis, Ghoul's Newer Look",,17357,-1,-1,0,15247,0,5,131072,21,5149866,0,142812,0,0,0,0
+"Upgrade the Murloc twice.","Warcraft Rumble Minis, Murloc's Newer Look",,17358,-1,-1,0,15247,0,5,131072,23,5149947,0,142814,0,0,0,0
+"Upgrade the Whelp Egg twice.","Warcraft Rumble Minis, Whelp Egg's Newer Look",,17359,-1,-1,0,15247,0,5,131072,25,5149993,0,142816,0,0,0,0
+"Upgrade all seven Warcraft Rumble Minis once.","Warcraft Rumble Minis, New Looks!",,17360,-1,-1,0,15247,0,10,131072,10,5149946,0,142823,0,0,0,0
+"Upgrade all seven Warcraft Rumble Minis twice.","Rumble Minis, All the Looks!",,17361,-1,-1,0,15247,0,10,131072,11,5149946,0,142831,0,0,0,0
 ,"<Hidden> 10.0 Professions Onboarding Skip Completed [DNT]",,17365,-1,-1,0,15455,0,0,3145732,48,136243,0,142945,0,0,0,0
 "Deliver a Restored Hakkari Bijou to someone with a great interest in such artifacts.","Relics of a Fallen Empire","Unlocks ancient secrets within Zul'Gurub",17366,-1,-1,0,14777,0,10,131072,27,132528,0,142996,0,0,0,0
 "Fish up a Gurubashi Cache in Zul'Gurub.","Deadliest Cache",,17367,-1,-1,0,171,0,10,0,78,132595,0,143003,0,0,0,0
@@ -8709,7 +8724,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Zaralek Cavern Caldera Cruise Advanced.","Caldera Cruise Advanced: Bronze",,17441,-1,-1,0,15462,0,0,1048576,420,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Zaralek Cavern Caldera Cruise Advanced.","Caldera Cruise Advanced: Silver",,17442,-1,-1,17441,15462,0,0,1048576,421,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Zaralek Cavern Caldera Cruise Advanced.","Caldera Cruise Advanced: Gold",,17443,-1,-1,17442,15462,0,0,1048576,422,1002573,0,0,0,0,0,0
-,"Vicious Saddle (38)",,19287,-1,1,17725,15270,0,0,1179648,122,1379171,103533,150981,0,0,0,0
 "Complete Zaralek Cavern Caldera Cruise Reverse.","Caldera Cruise Reverse: Bronze",,17444,-1,-1,0,15462,0,0,1048576,423,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Zaralek Cavern Caldera Cruise Reverse.","Caldera Cruise Reverse: Silver",,17445,-1,-1,17444,15462,0,0,1048576,424,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Zaralek Cavern Caldera Cruise Reverse.","Caldera Cruise Reverse: Gold",,17446,-1,-1,17445,15462,0,0,1048576,425,1002573,0,0,0,0,0,0
@@ -8728,6 +8742,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Zaralek Cavern Shimmering Slalom Advanced.","Shimmering Slalom Advanced: Bronze",,17459,-1,-1,0,15462,0,0,1048576,438,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Zaralek Cavern Shimmering Slalom Advanced.","Shimmering Slalom Advanced: Silver",,17460,-1,-1,17459,15462,0,0,1048576,439,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Zaralek Cavern Shimmering Slalom Advanced.","Shimmering Slalom Advanced: Gold",,17461,-1,-1,17460,15462,0,0,1048576,440,1002573,0,0,0,0,0,0
+,"Vicious Saddle (37)",,17726,-1,0,17105,15270,0,0,1179648,60,1379171,103533,144546,0,0,0,0
 "Complete Zaralek Cavern Shimmering Slalom Reverse.","Shimmering Slalom Reverse: Bronze",,17462,-1,-1,0,15462,0,0,1048576,441,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Zaralek Cavern Shimmering Slalom Reverse.","Shimmering Slalom Reverse: Silver",,17463,-1,-1,17462,15462,0,0,1048576,442,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Zaralek Cavern Shimmering Slalom Reverse.","Shimmering Slalom Reverse: Gold",,17464,-1,-1,17463,15462,0,0,1048576,443,1002573,0,0,0,0,0,0
@@ -8775,7 +8790,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect the dragon glyph near the Slitherdrake Roost.","Dragon Glyphs: Slitherdrake Roost",,17514,-1,-1,0,15462,0,0,1179648,478,4728198,0,0,0,0,0,0
 "Collect the dragon glyph near the Throughway.","Dragon Glyphs: The Throughway",,17515,-1,-1,0,15462,0,0,1179648,479,4728198,0,0,0,0,0,0
 "Collect the dragon glyph near Acidbite Ravine.","Dragon Glyphs: Acidbite Ravine",,17516,-1,-1,0,15462,0,0,1179648,480,4728198,0,0,0,0,0,0
-,"Vicious Saddle (38)",,19289,-1,0,17726,15270,0,0,1179648,61,1379171,103533,150983,0,0,0,0
 "Collect the dragon glyph near Aberrus Approach.","Dragon Glyphs: Aberrus Approach",,17517,-1,-1,0,15462,0,0,1179648,481,4728198,0,0,0,0,0,0
 "Complete 10 of the following special encounters in the post-storm Forbidden Reach.","Adventurer of the Forbidden Reach",,17524,-1,-1,0,15465,0,5,131072,26,4638396,0,143672,0,0,0,0
 "Complete all of the following special encounters in the post-storm Forbidden Reach.","Champion of the Forbidden Reach",,17525,-1,-1,17524,15465,0,15,131072,27,4046656,0,143702,0,0,0,0
@@ -8895,6 +8909,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for Kalimdor Great Divide Dive Reverse.","Great Divide Dive Reverse: Silver",,17656,-1,-1,17655,15462,0,0,1048576,573,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Kalimdor Great Divide Dive Reverse.","Great Divide Dive Reverse: Gold",,17657,-1,-1,17656,15462,0,0,1048576,574,1002573,0,0,0,0,0,0
 "Complete Kalimdor Razorfen Roundabout.","Razorfen Roundabout: Bronze",,17658,-1,-1,0,15462,0,0,1048576,575,1002572,0,0,0,0,0,0
+,"Obsidian Combatant",,17727,-1,1,0,15270,0,0,1179648,74,236538,205246,144548,0,0,0,0
 "Get Silver ranked time for Kalimdor Razorfen Roundabout.","Razorfen Roundabout: Silver",,17659,-1,-1,17658,15462,0,0,1048576,576,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Kalimdor Razorfen Roundabout.","Razorfen Roundabout: Gold",,17660,-1,-1,17659,15462,0,0,1048576,577,1002573,0,0,0,0,0,0
 "Complete Kalimdor Razorfen Roundabout Advanced.","Razorfen Roundabout Advanced: Bronze",,17661,-1,-1,0,15462,0,0,1048576,578,1002572,0,0,0,0,0,0
@@ -8961,9 +8976,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Obtain silver in all races in Kalimdor.","Kalimdor Racing Completionist: Silver",,17722,-1,-1,17721,15462,0,20,131072,639,1100022,0,144516,0,0,0,0
 "Obtain gold in all races in Kalimdor.","Kalimdor Racing Completionist: Gold","Title: Kalimdor Racer",17723,-1,-1,17722,15462,0,20,131072,640,1100022,0,144520,0,0,0,0
 ,"Vicious Saddle (37)",,17725,-1,1,17104,15270,0,0,1179648,121,1379171,103533,144544,0,0,0,0
-,"Vicious Saddle (37)",,17726,-1,0,17105,15270,0,0,1179648,60,1379171,103533,144546,0,0,0,0
-,"Obsidian Combatant",,17727,-1,1,0,15270,0,0,1179648,74,236538,205246,144548,0,0,0,0
-,"Obsidian Combatant",,17728,-1,0,0,15270,0,0,1179648,80,236538,205245,144552,0,0,0,0
 "Set on login, will be true 33% of the time. Mutually exclusive with A version.","Random Login Variable B",,17730,-1,-1,0,92,0,0,3145732,112,136243,0,144557,0,0,0,0
 ,"<Hidden> 00.x Chromie Time - Hit Previous Max Level While In Chromie Time",,17732,-1,-1,0,96,0,0,1048580,45,136243,0,144567,0,0,0,0
 ,"<Hidden> 00.x Chromie Time - Is Greater Than Previous Max Level While In Chromie Time",,17733,-1,-1,0,96,0,0,1048580,46,136243,0,144569,0,0,0,0
@@ -8976,7 +8988,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Win 50 3v3 games while at Elite rank during Dragonflight Season 2.","Gladiator: Dragonflight Season 2","Reward: Gladiator Mount, Customization, Seasonal Character Title",17740,-1,-1,0,15270,0,0,14336,26,236542,205233,144665,0,0,0,0
 "Toss treats to a racing snail in Glimmerogg, then watch that snail win the race.","Slow and Steady Wins the Race","Pet: Roggy",17741,-1,-1,0,15465,0,10,143360,9,5003559,205231,144669,0,0,0,0
 "End Dragonflight PvP Season 2 in the top 0.1% of the 3v3 arena ladder (requires 150 games won in Dragonflight Season 2).","Obsidian Gladiator: Dragonflight Season 2","Character Title: Obsidian Gladiator",17764,-1,-1,0,15270,0,0,14336,271,236540,0,0,0,0,0,0
-"Obtain silver in all reverse races in Outland.","Outland Reverse: Silver",,19103,-1,-1,19102,15462,0,10,131072,1248,1002575,0,150387,0,0,0,0
 "Collect an armor set from Aberrus, the Shadowed Crucible.","What We Wear In The Shadowflame",,17765,-1,-1,0,15259,0,10,131072,50,5161748,0,144729,0,0,0,0
 "Explore Zaralek Cavern, revealing the covered areas of the world map.","Explore Zaralek Cavern",,17766,-1,-1,0,15465,0,10,2228224,111,5140838,0,144731,0,0,0,0
 "End Dragonflight PvP Season 2 in the top 0.1% of the Solo Shuffle ladder (requires 50 games won in Dragonflight Season 2).","Obsidian Legend: Dragonflight Season 2","Character Title: Obsidian Legend",17767,-1,-1,0,15270,0,0,14336,283,236540,0,0,0,0,0,0
@@ -8995,6 +9006,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Earn the rank of Rival I during Dragonflight Season 2.","Rival I: Dragonflight Season 2","Seasonal Character Title: Rival",17795,-1,-1,0,15270,0,0,14336,311,236542,0,144750,0,0,0,0
 "Earn the rank of Rival II during Dragonflight Season 2.","Rival II: Dragonflight Season 2",,17796,-1,-1,0,15270,0,0,14336,320,236542,0,144745,0,0,0,0
 "Earn the rank of Challenger I during Dragonflight Season 2.","Challenger I: Dragonflight Season 2","Seasonal Character Title: Challenger",17797,-1,-1,0,15270,0,0,14336,385,236542,0,144760,0,0,0,0
+,"Algari Enchanting 25 (DNT)",,19743,-1,-1,0,15491,0,0,9437188,4,136243,0,154729,0,0,0,0
 "Earn the rank of Challenger II during Dragonflight Season 2.","Challenger II: Dragonflight Season 2",,17798,-1,-1,0,15270,0,0,14336,394,236542,0,144755,0,0,0,0
 "Earn the rank of Combatant I during Dragonflight Season 2.","Combatant I: Dragonflight Season 2","Seasonal Character Title: Combatant",17799,-1,-1,0,15270,0,0,2048,362,236543,0,144770,0,0,0,0
 "Earn the rank of Combatant II during Dragonflight Season 2.","Combatant II: Dragonflight Season 2",,17800,-1,-1,0,15270,0,0,2048,371,236543,0,144765,0,0,0,0
@@ -9008,7 +9020,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Drake's Shadowflame Crest Fragments earned",,17838,-1,-1,0,15176,0,0,1,17,136243,0,144951,0,0,0,0
 ,"Wyrm's Shadowflame Crest Fragments earned",,17839,-1,-1,0,15176,0,0,1,18,136243,0,144953,0,0,0,0
 ,"Aspect's Shadowflame Crest Fragments earned",,17840,-1,-1,0,15176,0,0,1,19,136243,0,144955,0,0,0,0
-,"Algari Herbalism 50 (DNT)",,19768,-1,-1,0,15499,0,0,9437188,6,136243,0,154779,0,0,0,0
 "Bring Barter Boulders to barter boldly with Ponzo and bring back his hat.","Pyramid Scheme","Title: Barter Boss",17841,-1,-1,0,15246,0,5,131072,16,5144320,0,144970,0,0,0,0
 "Attain a Mythic+ Rating of at least 750 during Dragonflight Season Two.","Dragonflight Keystone Explorer: Season Two",,17842,-1,-1,0,15272,0,0,133120,102,618860,0,145030,0,0,0,0
 "Attain a Mythic+ Rating of at least 1500 during Dragonflight Season Two.","Dragonflight Keystone Conqueror: Season Two","Title: The Smoldering",17843,-1,-1,17842,15272,0,0,133120,103,618858,0,145032,0,0,0,0
@@ -9067,7 +9078,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Gold ranked time for Waking Shores Wingrest Roundabout Reverse Challenge.","Wingrest Roundabout Reverse Challenge: Gold",,17896,-1,-1,17895,15462,0,0,1048576,802,1002573,0,0,0,0,0,0
 "Complete Waking Shores Flashfrost Flyover Challenge.","Flashfrost Flyover Challenge: Bronze",,17897,-1,-1,0,15462,0,0,1048576,803,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Waking Shores Flashfrost Flyover Challenge.","Flashfrost Flyover Challenge: Silver",,17898,-1,-1,17897,15462,0,0,1048576,804,1002575,0,0,0,0,0,0
-"Complete The Azure Span Slalom Challenge.","The Azure Span Slalom Challenge: Bronze",,17959,-1,-1,0,15462,0,0,1048576,857,1002572,0,0,0,0,0,0
 "Get Gold ranked time for Waking Shores Flashfrost Flyover Challenge.","Flashfrost Flyover Challenge: Gold",,17899,-1,-1,17898,15462,0,0,1048576,805,1002573,0,0,0,0,0,0
 "Complete Waking Shores Flashfrost Flyover Reverse Challenge.","Flashfrost Flyover Reverse Challenge: Bronze",,17900,-1,-1,0,15462,0,0,1048576,806,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Waking Shores Flashfrost Flyover Reverse Challenge.","Flashfrost Flyover Reverse Challenge: Silver",,17901,-1,-1,17900,15462,0,0,1048576,807,1002575,0,0,0,0,0,0
@@ -9086,6 +9096,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat the pet trainers of Zaralek Cavern with a team of all level 25 Humanoid pets.","Humanoid Battler of Zaralek Cavern",,17915,-1,-1,0,15119,0,5,131072,126,618977,0,145144,0,0,0,0
 "Defeat the pet trainers of Zaralek Cavern with a team of all level 25 Magic pets.","Magic Battler of Zaralek Cavern",,17916,-1,-1,0,15119,0,5,131072,127,618978,0,145149,0,0,0,0
 "Defeat the pet trainers of Zaralek Cavern with a team of all level 25 Mechanical pets.","Mechanical Battler of Zaralek Cavern",,17917,-1,-1,0,15119,0,5,131072,128,618979,0,145154,0,0,0,0
+,"Algari Enchanting 50 (DNT)",,19744,-1,-1,0,15491,0,0,9437188,5,136243,0,154731,0,0,0,0
 "Defeat the pet trainers of Zaralek Cavern with a team of all level 25 Undead pets.","Undead Battler of Zaralek Cavern",,17918,-1,-1,0,15119,0,5,131072,129,618980,0,145159,0,0,0,0
 "Complete Ohn'ahran Plains Waygate Sundapple Copse Circuit Reverse Challenge.","Sundapple Copse Circuit Reverse Challenge: Bronze",,17919,-1,-1,0,15462,0,0,1048576,818,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Ohn'ahran Plains Sundapple Copse Circuit Reverse Challenge.","Sundapple Copse Circuit Reverse Challenge: Silver",,17920,-1,-1,17919,15462,0,0,1048576,819,1002575,0,0,0,0,0,0
@@ -9097,7 +9108,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for Ohn'ahran Plains Fen Flythrough Reverse Challenge.","Fen Flythrough Reverse Challenge: Silver",,17926,-1,-1,17925,15462,0,0,1048576,825,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Ohn'ahran Plains Fen Flythrough Reverse Challenge.","Fen Flythrough Reverse Challenge: Gold",,17927,-1,-1,17926,15462,0,0,1048576,826,1002573,0,0,0,0,0,0
 "Complete Ohn'ahran Plains Ravine River Run Challenge.","Ravine River Run Challenge: Bronze",,17928,-1,-1,0,15462,0,0,1048576,827,1002572,0,0,0,0,0,0
-,"Algari Herbalism 60 (DNT)",,19769,-1,-1,0,15499,0,0,9437188,7,136243,0,154781,0,0,0,0
 "Get Silver ranked time for Ohn'ahran Plains Ravine River Run Challenge.","Ravine River Run Challenge: Silver",,17929,-1,-1,17928,15462,0,0,1048576,828,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Ohn'ahran Plains Ravine River Run Challenge.","Ravine River Run Challenge: Gold",,17930,-1,-1,17929,15462,0,0,1048576,829,1002573,0,0,0,0,0,0
 "Complete Ohn'ahran Plains Ravine River Run Reverse Challenge.","Ravine River Run Reverse Challenge: Bronze",,17931,-1,-1,0,15462,0,0,1048576,830,1002572,0,0,0,0,0,0
@@ -9128,6 +9138,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete The Azure Span Sprint Reverse Challenge.","The Azure Span Sprint Reverse Challenge: Bronze",,17956,-1,-1,0,15462,0,0,1048576,854,1002572,0,0,0,0,0,0
 "Get Silver ranked time for The Azure Span Sprint Reverse Challenge.","The Azure Span Sprint Reverse Challenge: Silver",,17957,-1,-1,17956,15462,0,0,1048576,855,1002575,0,0,0,0,0,0
 "Get Gold ranked time for The Azure Span Sprint Reverse Challenge.","The Azure Span Sprint Reverse Challenge: Gold",,17958,-1,-1,17957,15462,0,0,1048576,856,1002573,0,0,0,0,0,0
+"Complete The Azure Span Slalom Challenge.","The Azure Span Slalom Challenge: Bronze",,17959,-1,-1,0,15462,0,0,1048576,857,1002572,0,0,0,0,0,0
 "Get Silver ranked time for The Azure Span Slalom Challenge.","The Azure Span Slalom Challenge: Silver",,17960,-1,-1,17959,15462,0,0,1048576,858,1002575,0,0,0,0,0,0
 "Get Gold ranked time for The Azure Span Slalom Challenge.","The Azure Span Slalom Challenge: Gold",,17961,-1,-1,17960,15462,0,0,1048576,859,1002573,0,0,0,0,0,0
 "Complete The Azure Span Slalom Reverse Challenge.","The Azure Span Slalom Reverse Challenge: Bronze",,17962,-1,-1,0,15462,0,0,1048576,860,1002572,0,0,0,0,0,0
@@ -9159,7 +9170,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Azure Span Archive Ambit Reverse Challenge.","Archive Ambit Reverse Challenge: Bronze",,17988,-1,-1,0,15462,0,0,1048576,884,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Azure Span Archive Ambit Reverse Challenge.","Archive Ambit Reverse Challenge: Silver",,17989,-1,-1,17988,15462,0,0,1048576,885,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Azure Span Archive Ambit Reverse Challenge.","Archive Ambit Reverse Challenge: Gold",,17990,-1,-1,17989,15462,0,0,1048576,886,1002573,0,0,0,0,0,0
-,"Rashok, the Elder kills (Mythic Aberrus, the Shadowed Crucible)",,18223,2569,-1,0,15469,0,0,1,88,136243,0,145755,0,0,0,0
 "Complete Thaldraszus Flowing Forest Flight Challenge.","The Flowing Forest Flight Challenge: Bronze",,17991,-1,-1,0,15462,0,0,1048576,887,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Thaldraszus Flowing Forest Flight Challenge.","The Flowing Forest Flight Challenge: Silver",,17992,-1,-1,17991,15462,0,0,1048576,888,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Thaldraszus Flowing Forest Flight Challenge.","The Flowing Forest Flight Challenge: Gold",,17993,-1,-1,17992,15462,0,0,1048576,889,1002573,0,0,0,0,0,0
@@ -9190,7 +9200,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Thaldraszus Garden Gallivant Reverse Challenge.","Garden Gallivant Reverse Challenge: Bronze",,18018,-1,-1,0,15462,0,0,1048576,914,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Thaldraszus Garden Gallivant Reverse Challenge.","Garden Gallivant Reverse Challenge: Silver",,18019,-1,-1,18018,15462,0,0,1048576,915,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Thaldraszus Garden Gallivant Reverse Challenge.","Garden Gallivant Reverse Challenge: Gold",,18020,-1,-1,18019,15462,0,0,1048576,916,1002573,0,0,0,0,0,0
-,"Algari Herbalism 75 (DNT)",,19770,-1,-1,0,15499,0,0,9437188,8,136243,0,154783,0,0,0,0
 "Complete Thaldraszus Caverns Criss-Cross Challenge.","Caverns Criss-Cross Challenge: Bronze",,18021,-1,-1,0,15462,0,0,1048576,917,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Thaldraszus Caverns Criss-Cross Challenge.","Caverns Criss-Cross Challenge: Silver",,18022,-1,-1,18021,15462,0,0,1048576,918,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Thaldraszus Caverns Criss-Cross Challenge.","Caverns Criss-Cross Challenge: Gold",,18023,-1,-1,18022,15462,0,0,1048576,919,1002573,0,0,0,0,0,0
@@ -9220,7 +9229,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for Forbidden Reach Southern Reach Route Challenge.","Southern Reach Route Challenge: Silver",,18047,-1,-1,18046,15462,0,0,1048576,942,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Forbidden Reach Southern Reach Route Challenge.","Southern Reach Route Challenge: Gold",,18048,-1,-1,18047,15462,0,0,1048576,943,1002573,0,0,0,0,0,0
 "Complete Forbidden Reach Southern Reach Route Reverse Challenge.","Southern Reach Route Reverse Challenge: Bronze",,18049,-1,-1,0,15462,0,0,1048576,944,1002572,0,0,0,0,0,0
-"Complete Eastern Kingdoms Loch Modan Loop.","Loch Modan Loop: Bronze",,18408,-1,-1,0,15462,0,0,1048576,650,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Forbidden Reach Southern Reach Route Reverse Challenge.","Southern Reach Route Reverse Challenge: Silver",,18050,-1,-1,18049,15462,0,0,1048576,945,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Forbidden Reach Southern Reach Route Reverse Challenge.","Southern Reach Route Reverse Challenge: Gold",,18051,-1,-1,18050,15462,0,0,1048576,946,1002573,0,0,0,0,0,0
 "Complete Forbidden Reach Caldera Coaster Challenge.","Caldera Coaster Challenge: Bronze",,18052,-1,-1,0,15462,0,0,1048576,947,1002572,0,0,0,0,0,0
@@ -9271,6 +9279,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Zaralek Cavern Sulfur Sprint Reverse Challenge.","Sulfur Sprint Reverse Challenge: Bronze",,18097,-1,-1,0,15462,0,0,1048576,992,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Zaralek Cavern Sulfur Sprint Reverse Challenge.","Sulfur Sprint Reverse Challenge: Silver",,18098,-1,-1,18097,15462,0,0,1048576,993,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Zaralek Cavern Sulfur Sprint Reverse Challenge.","Sulfur Sprint Reverse Challenge: Gold",,18099,-1,-1,18098,15462,0,0,1048576,994,1002573,0,0,0,0,0,0
+,"Kazzara, the Hellforged kills (Heroic Aberrus, the Shadowed Crucible)",,18210,2569,-1,0,15469,0,0,1,75,136243,0,145680,0,0,0,0
 "Complete all of the following special encounters in Zaralek Cavern while under the effect of a Clacking Claw.","Cavern Clawbbering","Toy: Vibrant Clacking Claw",18100,-1,-1,0,15465,0,10,131072,143,1508491,0,145307,0,0,0,0
 "Defeat the Echo of Neltharion after players smash through walls of Twisted Earth while carrying the Expired Experiment, the Stack of Scrolls, the Neverburning Ebon Candle, and the ""Portable"" Ebon Anvil in Aberrus, the Shadowed Crucible on Normal difficulty or higher.","Objects in Transit May Shatter",,18149,2569,-1,0,15468,0,10,0,49,986484,0,145412,0,0,0,0
 "Find the following dragon glyphs in Zaralek Cavern.","Zaralek Cavern Glyph Hunter",,18150,-1,-1,0,15462,0,20,131072,482,5140838,0,145419,0,0,0,0
@@ -9280,7 +9289,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Assault of the Zaqali in Aberrus, the Shadowed Crucible on Mythic difficulty.","Mythic: Assault of the Zaqali",,18154,-1,-1,0,15468,0,10,0,36,5161751,0,145492,0,0,0,0
 "Defeat Rashok, the Elder in Aberrus, the Shadowed Crucible on Mythic difficulty.","Mythic: Rashok, the Elder",,18155,-1,-1,0,15468,0,10,0,37,5161749,0,145494,0,0,0,0
 "Defeat The Vigilant Steward, Zskarn in Aberrus, the Shadowed Crucible on Mythic difficulty.","Mythic: The Vigilant Steward, Zskarn",,18156,-1,-1,0,15468,0,10,0,38,5161752,0,145496,0,0,0,0
-,"Algari Mining 25 (DNT)",,19771,-1,-1,0,15497,0,0,9437188,4,136243,0,154785,0,0,0,0
 "Defeat Magmorax in Aberrus, the Shadowed Crucible on Mythic difficulty.","Mythic: Magmorax",,18157,-1,-1,0,15468,0,10,0,39,5161746,0,145498,0,0,0,0
 "Defeat Echo of Neltharion in Aberrus, the Shadowed Crucible on Mythic difficulty.","Mythic: Echo of Neltharion",,18158,-1,-1,0,15468,0,10,0,40,5161747,0,145500,0,0,0,0
 "Defeat Scalecommander Sarkareth in Aberrus, the Shadowed Crucible on Mythic difficulty.","Mythic: Scalecommander Sarkareth","Title: Heir to the Void",18159,-1,-1,0,15468,0,10,0,41,5161750,0,145489,0,0,0,0
@@ -9299,6 +9307,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Among the first two hundred guilds worldwide to defeat Scalecommander Sarkareth on Mythic difficulty.","Hall of Fame: Scalecommander Sarkareth","Title: Famed Slayer of Sarkareth",18176,2569,-1,0,15093,0,0,4258304,47,5161750,0,145615,0,0,0,0
 "Defeat the following bosses in Aberrus, the Shadowed Crucible on Normal difficulty or higher while in a guild group.","Aberrus, the Shadowed Crucible Guild Run",,18177,2569,-1,0,15471,0,10,61440,4,5161748,0,145617,0,0,0,0
 "Defeat the following bosses in Aberrus, the Shadowed Crucible on Heroic difficulty or higher while in a guild group.","Heroic: Aberrus, the Shadowed Crucible Guild Run",,18178,2569,-1,0,15471,0,10,61440,5,5161748,0,145627,0,0,0,0
+,"The Amalgamation Chamber kills (Heroic Aberrus, the Shadowed Crucible)",,18211,2569,-1,0,15469,0,0,1,76,136243,0,145682,0,0,0,0
 "Defeat Scalecommander Sarkareth in Aberrus, the Shadowed Crucible on Mythic Difficulty while in a guild group.","Mythic: Scalecommander Sarkareth Guild Run",,18179,2522,-1,0,15471,0,10,61440,6,5161750,0,145637,0,0,0,0
 ,"Kazzara, the Hellforged kills (Raid Finder Aberrus, the Shadowed Crucible)",,18180,2569,-1,0,15469,0,0,1,57,136243,0,145639,0,0,0,0
 ,"The Amalgamation Chamber kills (Raid Finder Aberrus, the Shadowed Crucible)",,18181,2569,-1,0,15469,0,0,1,58,136243,0,145641,0,0,0,0
@@ -9330,8 +9339,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Kill 500 hostile creatures during either of the Researchers Under Fire events.","Hot Research Zone",,18207,-1,-1,0,15465,0,10,131072,154,236734,0,146227,0,0,0,0
 "Stomp on 100 Magmaclaw Snappers during the Researchers Under Fire: Zaqali Ruin Investigation event.","The Small Disruptions",,18208,-1,-1,0,15465,0,10,131072,155,1508496,0,146225,0,0,0,0
 "Defeat the Sundered Flame leader Captain Reykal during either of the Researchers Under Fire events.","Nothing Stops the Research",,18209,-1,-1,0,15465,0,5,0,153,4700796,0,145696,0,0,0,0
-,"Kazzara, the Hellforged kills (Heroic Aberrus, the Shadowed Crucible)",,18210,2569,-1,0,15469,0,0,1,75,136243,0,145680,0,0,0,0
-,"The Amalgamation Chamber kills (Heroic Aberrus, the Shadowed Crucible)",,18211,2569,-1,0,15469,0,0,1,76,136243,0,145682,0,0,0,0
+,"Algari Enchanting 60 (DNT)",,19745,-1,-1,0,15491,0,0,9437188,6,136243,0,154733,0,0,0,0
 ,"The Forgotten Experiments kills (Heroic Aberrus, the Shadowed Crucible)",,18212,2569,-1,0,15469,0,0,1,77,136243,0,145684,0,0,0,0
 ,"Assault of the Zaqali kills (Heroic Aberrus, the Shadowed Crucible)",,18213,2569,-1,0,15469,0,0,1,78,136243,0,145686,0,0,0,0
 ,"Rashok, the Elder kills (Heroic Aberrus, the Shadowed Crucible)",,18214,2569,-1,0,15469,0,0,1,79,136243,0,145688,0,0,0,0
@@ -9343,6 +9351,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"The Amalgamation Chamber kills (Mythic Aberrus, the Shadowed Crucible)",,18220,2569,-1,0,15469,0,0,1,85,136243,0,145749,0,0,0,0
 ,"The Forgotten Experiments kills (Mythic Aberrus, the Shadowed Crucible)",,18221,2569,-1,0,15469,0,0,1,86,136243,0,145751,0,0,0,0
 ,"Assault of the Zaqali kills (Mythic Aberrus, the Shadowed Crucible)",,18222,2569,-1,0,15469,0,0,1,87,136243,0,145753,0,0,0,0
+,"Rashok, the Elder kills (Mythic Aberrus, the Shadowed Crucible)",,18223,2569,-1,0,15469,0,0,1,88,136243,0,145755,0,0,0,0
 ,"The Vigilant Steward, Zskarn kills (Mythic Aberrus, the Shadowed Crucible)",,18224,2569,-1,0,15469,0,0,1,89,136243,0,145757,0,0,0,0
 ,"Magmorax kills (Mythic Aberrus, the Shadowed Crucible)",,18225,2569,-1,0,15469,0,0,1,90,136243,0,145759,0,0,0,0
 ,"Echo of Neltharion kills (Mythic Aberrus, the Shadowed Crucible)",,18226,2569,-1,0,15469,0,0,1,91,136243,0,145761,0,0,0,0
@@ -9364,6 +9373,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Puzzle 23 (Character)",,18242,-1,-1,0,15465,0,0,1048580,136,136243,0,145840,0,0,0,0
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Puzzle 24 (Character)",,18243,-1,-1,0,15465,0,0,1048580,137,136243,0,145842,0,0,0,0
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Puzzle 25 (Character)",,18244,-1,-1,0,15465,0,0,1048580,138,136243,0,145844,0,0,0,0
+,"Algari Enchanting 75 (DNT)",,19746,-1,-1,0,15491,0,0,9437188,7,136243,0,154735,0,0,0,0
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Puzzle 26 (Character)",,18245,-1,-1,0,15465,0,0,1048580,139,136243,0,145846,0,0,0,0
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Puzzle 27 (Character)",,18246,-1,-1,0,15465,0,0,1048580,140,136243,0,145848,0,0,0,0
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Puzzle 28 (Character)",,18247,-1,-1,0,15465,0,0,1048580,141,136243,0,145850,0,0,0,0
@@ -9438,7 +9448,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Gold ranked time for Kalimdor Great Divide Dive Challenge.","Great Divide Dive Challenge: Gold",,18317,-1,-1,18316,15462,0,0,1048576,1051,1002573,0,0,0,0,0,0
 "Complete Kalimdor Great Divide Dive Reverse Challenge.","Great Divide Dive Reverse Challenge: Bronze",,18318,-1,-1,0,15462,0,0,1048576,1052,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Kalimdor Great Divide Dive Reverse Challenge.","Great Divide Dive Reverse Challenge: Silver",,18319,-1,-1,18318,15462,0,0,1048576,1053,1002575,0,0,0,0,0,0
-,"Algari Mining 50 (DNT)",,19772,-1,-1,0,15497,0,0,9437188,5,136243,0,154787,0,0,0,0
 "Get Gold ranked time for Kalimdor Great Divide Dive Reverse Challenge.","Great Divide Dive Reverse Challenge: Gold",,18320,-1,-1,18319,15462,0,0,1048576,1054,1002573,0,0,0,0,0,0
 "Complete Kalimdor Razorfen Roundabout Challenge.","Razorfen Roundabout Challenge: Bronze",,18321,-1,-1,0,15462,0,0,1048576,1055,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Kalimdor Razorfen Roundabout Challenge.","Razorfen Roundabout Challenge: Silver",,18322,-1,-1,18321,15462,0,0,1048576,1056,1002575,0,0,0,0,0,0
@@ -9459,6 +9468,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for Kalimdor Feralas Ruins Ramble Reverse Challenge.","Feralas Ruins Ramble Reverse Challenge: Silver",,18337,-1,-1,18336,15462,0,0,1048576,1071,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Kalimdor Feralas Ruins Ramble Reverse Challenge.","Feralas Ruins Ramble Reverse Challenge: Gold",,18338,-1,-1,18337,15462,0,0,1048576,1072,1002573,0,0,0,0,0,0
 "Complete Kalimdor Ahn'Qiraj Circuit Challenge.","Ahn'Qiraj Circuit Challenge: Bronze",,18339,-1,-1,0,15462,0,0,1048576,1073,1002572,0,0,0,0,0,0
+,"Algari Engineering 25 (DNT)",,19747,-1,-1,0,15492,0,0,9437188,5,136243,0,154737,0,0,0,0
 "Get Silver ranked time for Kalimdor Ahn'Qiraj Circuit Challenge.","Ahn'Qiraj Circuit Challenge: Silver",,18340,-1,-1,18339,15462,0,0,1048576,1074,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Kalimdor Ahn'Qiraj Circuit Challenge.","Ahn'Qiraj Circuit Challenge: Gold",,18341,-1,-1,18340,15462,0,0,1048576,1075,1002573,0,0,0,0,0,0
 "Complete Kalimdor Ahn'Qiraj Circuit Reverse Challenge.","Ahn'Qiraj Circuit Reverse Challenge: Bronze",,18342,-1,-1,0,15462,0,0,1048576,1076,1002572,0,0,0,0,0,0
@@ -9469,7 +9479,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Gold ranked time for Kalimdor Uldum Tour Challenge.","Uldum Tour Challenge: Gold",,18347,-1,-1,18346,15462,0,0,1048576,1081,1002573,0,0,0,0,0,0
 "Complete Kalimdor Uldum Tour Reverse Challenge.","Uldum Tour Reverse Challenge: Bronze",,18348,-1,-1,0,15462,0,0,1048576,1082,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Kalimdor Uldum Tour Reverse Challenge.","Uldum Tour Reverse Challenge: Silver",,18349,-1,-1,18348,15462,0,0,1048576,1083,1002575,0,0,0,0,0,0
-"Complete all races in Eastern Kingdoms.","Eastern Kingdoms: Bronze",,18566,-1,-1,0,15462,0,10,131072,1112,1002572,0,147249,0,0,0,0
 "Get Gold ranked time for Kalimdor Uldum Tour Reverse Challenge.","Uldum Tour Reverse Challenge: Gold",,18350,-1,-1,18349,15462,0,0,1048576,1084,1002573,0,0,0,0,0,0
 "Complete Kalimdor Un'Goro Crater Circuit Challenge.","Un'Goro Crater Circuit Challenge: Bronze",,18351,-1,-1,0,15462,0,0,1048576,1085,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Kalimdor Un'Goro Crater Circuit Challenge.","Un'Goro Crater Circuit Challenge: Silver",,18352,-1,-1,18351,15462,0,0,1048576,1086,1002575,0,0,0,0,0,0
@@ -9502,6 +9511,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Eastern Kingdoms Gilneas Gambit Reverse.","Gilneas Gambit Reverse: Bronze",,18405,-1,-1,0,15462,0,0,1048576,647,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Eastern Kingdoms Gilneas Gambit Reverse.","Gilneas Gambit Reverse: Silver",,18406,-1,-1,18405,15462,0,0,1048576,648,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Eastern Kingdoms Gilneas Gambit Reverse.","Gilneas Gambit Reverse: Gold",,18407,-1,-1,18406,15462,0,0,1048576,649,1002573,0,0,0,0,0,0
+"Complete Eastern Kingdoms Loch Modan Loop.","Loch Modan Loop: Bronze",,18408,-1,-1,0,15462,0,0,1048576,650,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Eastern Kingdoms Loch Modan Loop.","Loch Modan Loop: Silver",,18409,-1,-1,18408,15462,0,0,1048576,651,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Eastern Kingdoms Loch Modan Loop.","Loch Modan Loop: Gold",,18410,-1,-1,18409,15462,0,0,1048576,652,1002573,0,0,0,0,0,0
 "Complete Eastern Kingdoms Loch Modan Loop Advanced.","Loch Modan Loop Advanced: Bronze",,18411,-1,-1,0,15462,0,0,1048576,653,1002572,0,0,0,0,0,0
@@ -9534,7 +9544,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Eastern Kingdoms Deadwind Derby Advanced.","Deadwind Derby Advanced: Bronze",,18438,-1,-1,0,15462,0,0,1048576,680,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Eastern Kingdoms Deadwind Derby Advanced.","Deadwind Derby Advanced: Silver",,18439,-1,-1,18438,15462,0,0,1048576,681,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Eastern Kingdoms Deadwind Derby Advanced.","Deadwind Derby Advanced: Gold",,18440,-1,-1,18439,15462,0,0,1048576,682,1002573,0,0,0,0,0,0
-,"Algari Mining 60 (DNT)",,19773,-1,-1,0,15497,0,0,9437188,6,136243,0,154789,0,0,0,0
 "Complete Eastern Kingdoms Deadwind Derby Reverse.","Deadwind Derby Reverse: Bronze",,18441,-1,-1,0,15462,0,0,1048576,683,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Eastern Kingdoms Deadwind Derby Reverse.","Deadwind Derby Reverse: Silver",,18442,-1,-1,18441,15462,0,0,1048576,684,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Eastern Kingdoms Deadwind Derby Reverse.","Deadwind Derby Reverse: Gold",,18443,-1,-1,18442,15462,0,0,1048576,685,1002573,0,0,0,0,0,0
@@ -9588,6 +9597,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for Eastern Kingdoms Booty Bay Blast.","Booty Bay Blast: Silver",,18499,-1,-1,18498,15462,0,0,1048576,732,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Eastern Kingdoms Booty Bay Blast.","Booty Bay Blast: Gold",,18500,-1,-1,18499,15462,0,0,1048576,733,1002573,0,0,0,0,0,0
 "Complete Eastern Kingdoms Booty Bay Blast Advanced.","Booty Bay Blast Advanced: Bronze",,18501,-1,-1,0,15462,0,0,1048576,734,1002572,0,0,0,0,0,0
+"Get Gold ranked time for Outland Coilfang Caper.","Coilfang Caper: Gold",,18605,-1,-1,18604,15462,0,0,1048576,1135,1002573,0,0,0,0,0,0
 "Get Silver ranked time for Eastern Kingdoms Booty Bay Blast Advanced.","Booty Bay Blast Advanced: Silver",,18502,-1,-1,18501,15462,0,0,1048576,735,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Eastern Kingdoms Booty Bay Blast Advanced.","Booty Bay Blast Advanced: Gold",,18503,-1,-1,18502,15462,0,0,1048576,736,1002573,0,0,0,0,0,0
 "Complete Eastern Kingdoms Booty Bay Blast Reverse.","Booty Bay Blast Reverse: Bronze",,18504,-1,-1,0,15462,0,0,1048576,737,1002572,0,0,0,0,0,0
@@ -9631,6 +9641,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect the Sapphiron's Bane crafted set for any armor type.","Never Bothered, Anyway",,18557,-1,-1,0,15259,0,10,131072,19,254100,0,147217,0,0,0,0
 "Defeat the following bosses within Scholomance.","Leaders of Scholomance",,18558,289,-1,0,14808,0,10,131072,20,135983,0,147219,0,0,0,0
 "Open 50 boxes of rocks, releasing the elementals within.","Many Boxes, Many Rockses","Toy: Tiny Box of Tiny Rocks",18559,-1,-1,0,15455,0,5,131072,88,132762,207099,147229,0,0,0,0
+"Complete all races in Eastern Kingdoms.","Eastern Kingdoms: Bronze",,18566,-1,-1,0,15462,0,10,131072,1112,1002572,0,147249,0,0,0,0
 "Obtain silver in all normal races in Eastern Kingdoms.","Eastern Kingdoms: Silver",,18567,-1,-1,18566,15462,0,10,131072,1113,1002575,0,147264,0,0,0,0
 "Obtain gold in all normal races in Eastern Kingdoms.","Eastern Kingdoms: Gold",,18568,-1,-1,18567,15462,0,10,131072,1114,1002573,0,147279,0,0,0,0
 "Complete all advanced races in Eastern Kingdoms.","Eastern Kingdoms Advanced: Bronze",,18569,-1,-1,0,15462,0,10,131072,1115,1002572,0,147294,0,0,0,0
@@ -9652,7 +9663,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Chronikar after she shatters an Infused Hourglass with Eon Shatter in Dawn of the Infinite on Mythic difficulty.","Crunch Time",,18589,2579,-1,0,15467,0,10,0,55,1391676,0,147406,0,0,0,0
 "Complete Outland Coilfang Caper.","Coilfang Caper: Bronze",,18603,-1,-1,0,15462,0,0,1048576,1133,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Outland Coilfang Caper.","Coilfang Caper: Silver",,18604,-1,-1,18603,15462,0,0,1048576,1134,1002575,0,0,0,0,0,0
-"Get Gold ranked time for Outland Coilfang Caper.","Coilfang Caper: Gold",,18605,-1,-1,18604,15462,0,0,1048576,1135,1002573,0,0,0,0,0,0
 "Complete Outland Coilfang Caper Advanced.","Coilfang Caper Advanced: Bronze",,18606,-1,-1,0,15462,0,0,1048576,1136,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Outland Coilfang Caper Advanced.","Coilfang Caper Advanced: Silver",,18607,-1,-1,18606,15462,0,0,1048576,1137,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Outland Coilfang Caper Advanced.","Coilfang Caper Advanced: Gold",,18608,-1,-1,18607,15462,0,0,1048576,1138,1002573,0,0,0,0,0,0
@@ -9729,6 +9739,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Outland Shattrath City Sashay Reverse.","Shattrath City Sashay Reverse: Bronze",,18685,-1,-1,0,15462,0,0,1048576,1193,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Outland Shattrath City Sashay Reverse.","Shattrath City Sashay Reverse: Silver",,18686,-1,-1,18685,15462,0,0,1048576,1194,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Outland Shattrath City Sashay Reverse.","Shattrath City Sashay Reverse: Gold",,18687,-1,-1,18686,15462,0,0,1048576,1195,1002573,0,0,0,0,0,0
+,"<DNT> Complete the ""The Coalition of Flames"" questline.",,18691,-1,-1,0,15455,0,0,1179648,90,136243,0,147726,0,0,0,0
+"Complete Outland Shadowmoon Slam.","Shadowmoon Slam: Bronze",,18692,-1,-1,0,15462,0,0,1048576,1196,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Outland Shadowmoon Slam.","Shadowmoon Slam: Silver",,18693,-1,-1,18692,15462,0,0,1048576,1197,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Outland Shadowmoon Slam.","Shadowmoon Slam: Gold",,18694,-1,-1,18693,15462,0,0,1048576,1198,1002573,0,0,0,0,0,0
 "Complete Outland Shadowmoon Slam Advanced.","Shadowmoon Slam Advanced: Bronze",,18695,-1,-1,0,15462,0,0,1048576,1199,1002572,0,0,0,0,0,0
@@ -9760,7 +9772,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Read the entire Rituals of the New Moon series written by scribes.","Best Stellar","Toy: Compendium of the New Moon",18725,-1,-1,0,15493,0,5,131072,14,133739,0,147995,0,0,0,0
 "Craft potions 100 times with the Alchemy profession.","A Cure for All Ails I",,18726,-1,-1,0,15489,0,5,131072,8,650638,0,148000,0,0,0,0
 "Cycle through all colors of the Convergent Prism toy within a raid instance.","Rave Leader",,18727,-1,-1,0,15494,0,5,131072,16,4644001,0,148024,0,0,0,0
-,"Algari Mining 75 (DNT)",,19774,-1,-1,0,15497,0,0,9437188,7,136243,0,154791,0,0,0,0
 "Obtain 300 skill points in a ""Classic"" category of two primary professions.","Working from the Start",,18728,-1,-1,732,169,1,10,131072,4,132281,0,148044,0,0,0,0
 "Obtain 75 skill points in an ""Outland"" category of two primary professions.","Working in Hellfire",,18729,-1,-1,733,169,1,10,131072,6,132281,0,148030,0,0,0,0
 "Become specialized in either Gnomish or Goblin engineering.","Goblins vs Gnomes",,18730,-1,-1,0,15492,0,5,131072,14,2437246,0,148062,0,0,0,0
@@ -9923,7 +9934,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Craft each of the following goggles listed below.","Chromatic Calibration: Bio-Optic Killshades","Reward: Cosmetic Bio-Optic Killshades of each color",18908,-1,-1,0,15492,0,5,131072,22,133023,209063,149365,0,0,0,0
 "Craft or repair each of the figurines listed below.","Fantastic Figurines",,18909,-1,-1,0,15494,0,5,131072,18,133274,0,149373,0,0,0,0
 "Complete Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Bronze",,18910,-1,-1,0,15268,0,0,1048576,72,1002572,0,0,0,0,0,0
-"Obtain gold in all reverse races in Outland.","Outland Reverse: Gold",,19104,-1,-1,19103,15462,0,10,131072,1249,1002573,0,150401,0,0,0,0
 "Get Silver ranked time for Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Silver",,18911,-1,-1,18910,15268,0,0,1048576,73,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Gold",,18912,-1,-1,18911,15268,0,0,1048576,74,1002573,0,0,0,0,0,0
 "Complete Fen Flythrough Storm Gryphon.","Fen Flythrough Storm Gryphon: Bronze",,18913,-1,-1,0,15268,0,0,1048576,75,1002572,0,0,0,0,0,0
@@ -10036,6 +10046,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for the Emerald Dream Canopy Concours Advanced.","Canopy Concours Advanced: Silver",,19051,-1,-1,19050,15462,0,0,1048576,1317,1002575,0,0,0,0,0,0
 "Get Gold ranked time for the Emerald Dream Canopy Concours Advanced.","Canopy Concours Advanced: Gold",,19052,-1,-1,19051,15462,0,0,1048576,1318,1002573,0,0,0,0,0,0
 "Complete the Emerald Dream Canopy Concours Reverse.","Canopy Concours Reverse: Bronze",,19053,-1,-1,0,15462,0,0,1048576,1319,1002572,0,0,0,0,0,0
+,"Algari Blacksmithing 60 (DNT)",,19741,-1,-1,0,15490,0,0,9437188,7,136243,0,154725,0,0,0,0
 "Get Silver ranked time for the Emerald Dream Canopy Concours Reverse.","Canopy Concours Reverse: Silver",,19054,-1,-1,19053,15462,0,0,1048576,1320,1002575,0,0,0,0,0,0
 "Get Gold ranked time for the Emerald Dream Canopy Concours Reverse.","Canopy Concours Reverse: Gold",,19055,-1,-1,19054,15462,0,0,1048576,1321,1002573,0,0,0,0,0,0
 "Complete the Emerald Dream Canopy Concours Challenge.","Canopy Concours Challenge: Bronze",,19056,-1,-1,0,15462,0,0,1048576,1322,1002572,0,0,0,0,0,0
@@ -10078,6 +10089,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete all advanced races in Outland.","Outland Advanced: Bronze",,19099,-1,-1,0,15462,0,10,131072,1244,1002572,0,150331,0,0,0,0
 "Obtain silver in all advanced races in Outland.","Outland Advanced: Silver",,19100,-1,-1,19099,15462,0,10,131072,1245,1002575,0,150345,0,0,0,0
 "Obtain gold in all advanced races in Outland.","Outland Advanced: Gold",,19101,-1,-1,19100,15462,0,10,131072,1246,1002573,0,150359,0,0,0,0
+"Complete all reverse races in Outland.","Outland Reverse: Bronze",,19102,-1,-1,0,15462,0,10,131072,1247,1002572,0,150373,0,0,0,0
+"Obtain silver in all reverse races in Outland.","Outland Reverse: Silver",,19103,-1,-1,19102,15462,0,10,131072,1248,1002575,0,150387,0,0,0,0
+"Obtain gold in all reverse races in Outland.","Outland Reverse: Gold",,19104,-1,-1,19103,15462,0,10,131072,1249,1002573,0,150401,0,0,0,0
 "Complete all races in Outland.","Outland Racing Completionist",,19105,-1,-1,0,15462,0,20,131072,1250,1100022,0,150415,0,0,0,0
 "Obtain silver in all races in Outland.","Outland Racing Completionist: Silver",,19106,-1,-1,19105,15462,0,20,131072,1251,1100022,0,150419,0,0,0,0
 "Obtain gold in all races in Outland.","Outland Racing Completionist: Gold","Reward: Outland Racer Title & Ruby Riders of Azeroth Tabard",19107,-1,-1,19106,15462,0,20,131072,1252,1100022,0,150423,0,0,0,0
@@ -10109,6 +10123,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<Hidden> Base 11.0 Tender [DNT]","[DNT] 500 Tender Rewarded for Base",19137,-1,-1,0,81,0,0,3276804,1,4696085,0,150649,0,0,0,0
 ,"<Hidden> Heroic 11.0 Tender [DNT]","[DNT] 750 Tender Rewarded for Heroic or 250 Tender for Upgrade to Heroic",19138,-1,-1,0,81,0,0,3276804,22,4696085,0,150658,0,0,0,0
 ,"<Hidden> Epic 11.0 Tender [DNT]","[DNT] 1000 Tender Rewarded for Epic or 500 Tender for Upgrade from Base to Epic or 250 Tender for Upgrade from Heroic to Epic",19139,-1,-1,0,81,0,0,3276804,23,4696085,0,150660,0,0,0,0
+,"Verdant Combatant",,19140,-1,1,0,15270,0,0,1179648,79,236538,210070,150667,0,0,0,0
+,"Verdant Combatant",,19141,-1,0,0,15270,0,0,1179648,85,236538,210069,150674,0,0,0,0
 "Earn the rank of Rival II during Dragonflight Season 3.","Rival II: Dragonflight Season 3",,19155,-1,-1,0,15270,0,0,14336,321,236542,0,150617,0,0,0,0
 "Earn the rank of Duelist during Dragonflight Season 3.","Duelist: Dragonflight Season 3","Seasonal Character Title: Duelist",19156,-1,-1,0,15270,0,0,17053696,335,236542,0,150642,0,0,0,0
 "Earn the rank of Combatant I during Dragonflight Season 3.","Combatant I: Dragonflight Season 3","Seasonal Character Title: Combatant",19157,-1,-1,0,15270,0,0,2048,363,236543,0,150632,0,0,0,0
@@ -10141,6 +10157,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Northrend Daggercap Dart Reverse.","Daggercap Dart Reverse: Bronze",,19283,-1,-1,0,15462,0,0,1048576,1388,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Northrend Daggercap Dart Reverse.","Daggercap Dart Reverse: Silver",,19284,-1,-1,19283,15462,0,0,1048576,1389,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Northrend Daggercap Dart Reverse.","Daggercap Dart Reverse: Gold",,19285,-1,-1,19284,15462,0,0,1048576,1390,1002573,0,0,0,0,0,0
+,"Vicious Saddle (38)",,19287,-1,1,17725,15270,0,0,1179648,122,1379171,103533,150981,0,0,0,0
+,"Vicious Saddle (38)",,19289,-1,0,17726,15270,0,0,1179648,61,1379171,103533,150983,0,0,0,0
 "Rescue the following moonkin hatchlings during the ""Claws For Concern"" quest in the Whorlwing Basin.","Friends In Feathers","Pet: Blueloo",19293,-1,-1,0,15455,0,10,131072,5,467894,210522,150995,0,0,0,0
 "Earn 1000 honor in Emerald Dream while in War Mode.","Tour of Duty: Emerald Dream",,19294,-1,-1,0,15283,0,10,131072,14,5390645,0,151016,0,0,0,0
 "Obtain the Verdant Gladiator's Slitherdrake from Dragonflight Season 3.","Verdant Gladiator's Slitherdrake",,19295,-1,-1,0,15269,1,0,145408,53,5208286,0,151043,0,0,0,0
@@ -10310,8 +10328,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Aspect's's Awakened Crests earned",,19541,-1,-1,0,15176,0,0,1,27,136243,0,153789,0,0,0,0
 ,"Vicious Saddle (39)",,19551,-1,1,19287,15270,0,0,1179648,123,1379171,103533,153799,0,0,0,0
 ,"Vicious Saddle (39)",,19552,-1,0,19289,15270,0,0,1179648,62,1379171,103533,153801,0,0,0,0
-"Complete the following storylines in Azj-Kahet.",Azj-Kahet,,19559,-1,-1,0,15506,0,10,0,9,5770809,0,153818,0,0,0,0
-"Complete the following storylines in The Ringing Deeps.","The Ringing Deeps",,19560,-1,-1,0,15506,0,10,0,7,5770812,0,153827,0,0,0,0
+"Complete the following storylines in Azj-Kahet.",Azj-Kahet,,19559,-1,-1,0,15506,0,10,0,11,5770809,0,153818,0,0,0,0
+"Complete the following storylines in The Ringing Deeps.","The Ringing Deeps",,19560,-1,-1,0,15506,0,10,0,8,5770812,0,153827,0,0,0,0
 "Defeat the following bosses on Normal difficulty while Vault of the Incarnates is an Awakened raid.","Awakened Storms",,19564,-1,-1,0,81,0,0,133120,144,4630363,0,153874,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Vault of the Incarnates is an Awakened raid.","Heroic: Awakened Storms",,19565,-1,-1,0,81,0,0,133120,153,4630363,0,153885,0,0,0,0
 "Defeat the following bosses on Mythic difficulty while Vault of the Incarnates is an Awakened raid.","Mythic: Awakened Storms",,19566,-1,-1,0,81,0,0,133120,155,4630363,0,153896,0,0,0,0
@@ -10395,7 +10413,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Gold ranked time for Northrend Geothermal Jaunt.","Geothermal Jaunt: Gold",,19649,-1,-1,19648,15462,0,0,1048576,1456,1002573,0,0,0,0,0,0
 "Complete Northrend Geothermal Jaunt Advanced.","Geothermal Jaunt Advanced: Bronze",,19650,-1,-1,0,15462,0,0,1048576,1457,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Northrend Geothermal Jaunt Advanced.","Geothermal Jaunt Advanced: Silver",,19651,-1,-1,19650,15462,0,0,1048576,1458,1002575,0,0,0,0,0,0
-,"Test - For EHW - Account Wide Criteria Test (DNT)",,19705,-1,-1,0,92,0,0,1179648,123,136243,0,154536,0,0,0,0
 "Get Gold ranked time for Northrend Geothermal Jaunt Advanced.","Geothermal Jaunt Advanced: Gold",,19652,-1,-1,19651,15462,0,0,1048576,1459,1002573,0,0,0,0,0,0
 "Complete Northrend Geothermal Jaunt Reverse.","Geothermal Jaunt Reverse: Bronze",,19653,-1,-1,0,15462,0,0,1048576,1460,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Northrend Geothermal Jaunt Reverse.","Geothermal Jaunt Reverse: Silver",,19654,-1,-1,19653,15462,0,0,1048576,1461,1002575,0,0,0,0,0,0
@@ -10429,6 +10446,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Obtain gold in all reverse races in Northrend.","Northrend Reverse: Gold",,19684,-1,-1,19683,15462,0,10,131072,1489,1002573,0,154396,0,0,0,0
 "Become a Tenured Archivist with the Azerothian Archives in the Dragon Isles.","Tenured Archivist",,19685,-1,-1,0,15466,0,10,131072,96,5221397,0,154409,0,0,0,0
 "Know each of the following recipes after learning to create an Algari Flask Cauldron.","Overflowing Algari Flasks",,19704,-1,-1,0,15489,0,5,131072,20,5782521,0,154520,0,0,0,0
+,"Test - For EHW - Account Wide Criteria Test (DNT)",,19705,-1,-1,0,92,0,0,1179648,123,136243,0,154536,0,0,0,0
 "Know each of the following recipes after learning to create an Algari Potion Cauldron.","Plentiful Algari Potions",,19716,-1,-1,0,15489,0,5,131072,21,5782518,0,154577,0,0,0,0
 "Complete the Reclamation of Gilneas storyline.","Reclamation of Gilneas",,19719,-1,-1,0,15455,0,10,131072,99,409606,0,154590,0,0,0,0
 "Complete the Reclamation of Gilneas storyline.","Reclamation of Gilneas (Hidden Character Achievement)",,19720,-1,-1,0,15455,0,0,1048580,103,409606,0,154595,0,0,0,0
@@ -10442,13 +10460,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Algari Alchemy 75 (DNT)",,19738,-1,-1,0,15489,0,0,9437188,7,136243,0,154719,0,0,0,0
 ,"Algari Blacksmithing 25 (DNT)",,19739,-1,-1,0,15490,0,0,9437188,5,136243,0,154721,0,0,0,0
 ,"Algari Blacksmithing 50 (DNT)",,19740,-1,-1,0,15490,0,0,9437188,6,136243,0,154723,0,0,0,0
-,"Algari Blacksmithing 60 (DNT)",,19741,-1,-1,0,15490,0,0,9437188,7,136243,0,154725,0,0,0,0
-,"Algari Blacksmithing 75 (DNT)",,19742,-1,-1,0,15490,0,0,9437188,8,136243,0,154727,0,0,0,0
-,"Algari Enchanting 25 (DNT)",,19743,-1,-1,0,15491,0,0,9437188,4,136243,0,154729,0,0,0,0
-,"Algari Enchanting 50 (DNT)",,19744,-1,-1,0,15491,0,0,9437188,5,136243,0,154731,0,0,0,0
-,"Algari Enchanting 60 (DNT)",,19745,-1,-1,0,15491,0,0,9437188,6,136243,0,154733,0,0,0,0
-,"Algari Enchanting 75 (DNT)",,19746,-1,-1,0,15491,0,0,9437188,7,136243,0,154735,0,0,0,0
-,"Algari Engineering 25 (DNT)",,19747,-1,-1,0,15492,0,0,9437188,5,136243,0,154737,0,0,0,0
 ,"Algari Engineering 50 (DNT)",,19748,-1,-1,0,15492,0,0,9437188,6,136243,0,154739,0,0,0,0
 ,"Algari Engineering 60 (DNT)",,19749,-1,-1,0,15492,0,0,9437188,7,136243,0,154741,0,0,0,0
 ,"Algari Engineering 75 (DNT)",,19750,-1,-1,0,15492,0,0,9437188,8,136243,0,154743,0,0,0,0
@@ -10469,6 +10480,13 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Algari Tailoring 60 (DNT)",,19765,-1,-1,0,15496,0,0,9437188,7,136243,0,154773,0,0,0,0
 ,"Algari Tailoring 75 (DNT)",,19766,-1,-1,0,15496,0,0,9437188,8,136243,0,154775,0,0,0,0
 ,"Algari Herbalism 25 (DNT)",,19767,-1,-1,0,15499,0,0,9437188,5,136243,0,154777,0,0,0,0
+,"Algari Herbalism 50 (DNT)",,19768,-1,-1,0,15499,0,0,9437188,6,136243,0,154779,0,0,0,0
+,"Algari Herbalism 60 (DNT)",,19769,-1,-1,0,15499,0,0,9437188,7,136243,0,154781,0,0,0,0
+,"Algari Herbalism 75 (DNT)",,19770,-1,-1,0,15499,0,0,9437188,8,136243,0,154783,0,0,0,0
+,"Algari Mining 25 (DNT)",,19771,-1,-1,0,15497,0,0,9437188,4,136243,0,154785,0,0,0,0
+,"Algari Mining 50 (DNT)",,19772,-1,-1,0,15497,0,0,9437188,5,136243,0,154787,0,0,0,0
+,"Algari Mining 60 (DNT)",,19773,-1,-1,0,15497,0,0,9437188,6,136243,0,154789,0,0,0,0
+,"Algari Mining 75 (DNT)",,19774,-1,-1,0,15497,0,0,9437188,7,136243,0,154791,0,0,0,0
 ,"Algari Skinning 25 (DNT)",,19775,-1,-1,0,15498,0,0,9437188,4,136243,0,154793,0,0,0,0
 ,"Algari Skinning 50 (DNT)",,19776,-1,-1,0,15498,0,0,9437188,5,136243,0,154795,0,0,0,0
 ,"Algari Skinning 60 (DNT)",,19777,-1,-1,0,15498,0,0,9437188,6,136243,0,154797,0,0,0,0
@@ -10499,7 +10517,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete two of the following achievements with a Timerunner.",Landfall,"Appearance: Class Ensemble",19879,-1,-1,0,15536,0,0,2048,23,630786,0,154936,0,0,0,0
 "Complete one of the following achievements with a Timerunner.","Isle of Thunder","Appearance: Class Arsenal",19880,-1,-1,0,15536,0,0,2048,24,803762,0,154937,0,0,0,0
 "Complete three of the following achievements with a Timerunner.",Escalation,"Item: Timerunner's Beacon",19881,-1,-1,0,15536,0,0,2048,26,900307,0,154938,0,0,0,0
-"Defeat Chi-ji, the Red Crane on the Timeless Isle.","Chi-ji, the Red Crane","Minor Bronze Cache",20021,-1,-1,0,15536,0,0,2048,152,877514,0,155673,0,0,0,0
 "Complete The Jade Forest storylines listed below with a Timerunner.","Campaign: The Jade Forest","Greater Bronze Cache",19882,-1,1,0,15536,0,0,2048,38,617825,0,155532,0,0,0,0
 "Complete The Jade Forest storylines listed below with a Timerunner.","Campaign: The Jade Forest","Greater Bronze Cache",19883,-1,0,0,15536,0,0,2048,39,617825,0,155540,0,0,0,0
 "Complete the Valley of the Four Winds storylines listed below with a Timerunner.","Campaign: Valley of the Four Winds","Greater Bronze Cache",19884,-1,-1,0,15536,0,0,2048,40,618318,0,155533,0,0,0,0
@@ -10511,6 +10528,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the Dread Wastes storylines listed below with a Timerunner.","Campaign: Dread Wastes","Greater Bronze Cache",19890,-1,-1,0,15536,0,0,2048,46,624971,0,161845,0,0,0,0
 "Complete the Landfall storyline with a Timerunner.","Campaign: Landfall","Greater Bronze Cache",19891,-1,-1,0,15536,0,0,2048,47,623770,0,155538,0,0,0,0
 "Complete the Isle of Thunder storylines listed below with a Timerunner.","Campaign: Isle of Thunder","Greater Bronze Cache",19892,-1,-1,0,15536,0,0,2048,48,618799,0,155539,0,0,0,0
+,"[HIDDEN] Awakening the Dragonflight Raid Portals",,20480,-1,-1,0,15468,0,0,1310720,76,136243,0,157052,0,0,0,0
 "Complete A Brewing Storm scenario with a Timerunner.","A Brewing Storm","Minor Bronze Cache",19893,-1,-1,0,15536,0,0,2048,91,647978,0,155211,0,0,0,0
 "Complete the Temple of the Jade Serpent with a Timerunner.","Temple of the Jade Serpent","Minor Bronze Cache",19894,960,-1,0,15536,0,0,2048,115,603529,0,154992,0,0,0,0
 "Complete the Temple of the Jade Serpent on Heroic difficulty with a Timerunner.","Heroic: Temple of the Jade Serpent","Lesser Bronze Cache",19895,960,-1,19894,15536,0,0,2048,116,603529,0,155205,0,0,0,0
@@ -10600,6 +10618,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat three of the rare enemies in Townlong Steppes.","Elusive Foes: Townlong Steppes","Lesser Bronze Cache",19997,-1,-1,0,15536,0,0,2048,83,134174,0,155131,0,0,0,0
 "Defeat three of the rare enemies in the Dread Wastes.","Elusive Foes: Dread Wastes","Lesser Bronze Cache",19998,-1,-1,0,15536,0,0,2048,84,624012,0,155133,0,0,0,0
 "Defeat the three champions of the opposing faction in Krasarang Wilds.","Elusive Foes: Landfall","Lesser Bronze Cache",19999,-1,-1,0,15536,0,0,2048,86,892447,0,155316,0,0,0,0
+,"Skittering Breach clears",,40743,-1,-1,0,15534,0,0,1,9,136243,0,166551,0,0,0,0
 "Defeat three of the rare enemies on the Isle of Thunder.","Elusive Foes: Isle of Thunder","Lesser Bronze Cache",20000,-1,-1,0,15536,0,0,2048,87,656171,0,155135,0,0,0,0
 "Defeat three of the rare enemies on the Timeless Isle.","Elusive Foes: Timeless Isle","Lesser Bronze Cache",20001,-1,-1,0,15536,0,0,2048,88,2061891,0,155374,0,0,0,0
 "Defeat three of the rare elite enemies on the Timeless Isle.","Powerful Enemies: Timeless Isle","Lesser Bronze Cache",20002,-1,-1,0,15536,0,0,2048,89,2399270,0,154942,0,0,0,0
@@ -10619,6 +10638,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat the Sha of Anger in Kun-Lai Summit.","Sha of Anger","Minor Bronze Cache",20018,-1,-1,0,15536,0,0,2048,149,651094,0,155669,0,0,0,0
 "Defeat Nalak, the Storm Lord on the Isle of Thunder.","Nalak, the Storm Lord","Minor Bronze Cache",20019,-1,-1,0,15536,0,0,2048,150,656169,0,155671,0,0,0,0
 "Defeat Oondasta on the Isle of Giants.",Oondasta,"Minor Bronze Cache",20020,-1,-1,0,15536,0,0,2048,151,236192,0,155672,0,0,0,0
+"Defeat Chi-ji, the Red Crane on the Timeless Isle.","Chi-ji, the Red Crane","Minor Bronze Cache",20021,-1,-1,0,15536,0,0,2048,152,877514,0,155673,0,0,0,0
 "Defeat Yu'lon, the Jade Serpent on the Timeless Isle.","Yu'lon, the Jade Serpent","Minor Bronze Cache",20022,-1,-1,0,15536,0,0,2048,153,901300,0,155674,0,0,0,0
 "Defeat Niuzao, the Black Ox on the Timeless Isle.","Niuzao, the Black Ox","Minor Bronze Cache",20023,-1,-1,0,15536,0,0,2048,154,900317,0,155675,0,0,0,0
 "Defeat Xuen, the White Tiger on the Timeless Isle.","Xuen, the White Tiger","Minor Bronze Cache",20024,-1,-1,0,15536,0,0,2048,155,877410,0,155676,0,0,0,0
@@ -10645,7 +10665,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<DNT> Plunderstorm Tutorial Tracker - Objective 009 - Complete",,20095,-1,-1,0,15455,0,0,3276804,114,136243,0,156158,0,0,0,0
 ,"<DNT> Plunderstorm Tutorial Tracker - Objective 010 - Complete",,20096,-1,-1,0,15455,0,0,3276804,115,136243,0,156160,0,0,0,0
 ,"<DNT> Plunderstorm Tutorial Tracker - Objective 011 - Complete",,20097,-1,-1,0,15455,0,0,3276804,116,136243,0,156162,0,0,0,0
-"Complete the following storylines in the Isle of Dorn.","The Isle of Dorn",,20118,-1,-1,0,15506,0,10,0,1,5770811,0,156244,0,0,0,0
+"Complete the following storylines in the Isle of Dorn.","The Isle of Dorn",,20118,-1,-1,0,15506,0,10,0,2,5770811,0,156244,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - Tender - Level 1",,20201,-1,-1,0,81,0,0,3276804,24,4696085,0,156527,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - Tender - Level 2",,20202,-1,-1,0,81,0,0,3276804,25,4696085,0,156529,0,0,0,0
 "Complete the quest ""Fair Skies and Strong Winds"".","Champion of the Dragonflights","Title: Champion of the Dragonflights",20206,-1,-1,0,15455,0,5,131072,102,4640485,0,156588,0,0,0,0
@@ -10732,6 +10752,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for Chittering Concourse Reverse.","Chittering Concourse Reverse: Silver",,20334,-1,-1,20333,15462,0,0,1048576,1572,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Chittering Concourse Reverse.","Chittering Concourse Reverse: Gold",,20335,-1,-1,20334,15462,0,0,1048576,1573,1002573,0,0,0,0,0,0
 "Complete Cataract River Cruise.","Cataract River Cruise: Bronze",,20336,-1,-1,0,15462,0,0,1048576,1574,1002572,0,0,0,0,0,0
+,"The Underkeep clears",,40744,-1,-1,0,15534,0,0,1,10,136243,0,166553,0,0,0,0
 "Get Silver ranked time for Cataract River Cruise.","Cataract River Cruise: Silver",,20337,-1,-1,20336,15462,0,0,1048576,1575,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Cataract River Cruise.","Cataract River Cruise: Gold",,20338,-1,-1,20337,15462,0,0,1048576,1576,1002573,0,0,0,0,0,0
 "Complete Cataract River Cruise Advanced.","Cataract River Cruise Advanced: Bronze",,20339,-1,-1,0,15462,0,0,1048576,1577,1002572,0,0,0,0,0,0
@@ -10755,7 +10776,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Opportunity Point Amble Advanced.","Opportunity Point Amble Advanced: Bronze",,20357,-1,-1,0,15462,0,0,1048576,1595,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Opportunity Point Amble Advanced.","Opportunity Point Amble Advanced: Silver",,20358,-1,-1,20357,15462,0,0,1048576,1596,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Opportunity Point Amble Advanced.","Opportunity Point Amble Advanced: Gold",,20359,-1,-1,20358,15462,0,0,1048576,1597,1002573,0,0,0,0,0,0
-,"Forged Combatant",,40397,-1,0,0,15270,0,0,1179648,82,236538,221813,163182,0,0,0,0
 "Complete Opportunity Point Amble Reverse.","Opportunity Point Amble Reverse: Bronze",,20360,-1,-1,0,15462,0,0,1048576,1598,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Opportunity Point Amble Reverse.","Opportunity Point Amble Reverse: Silver",,20361,-1,-1,20360,15462,0,0,1048576,1599,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Opportunity Point Amble Reverse.","Opportunity Point Amble Reverse: Gold",,20362,-1,-1,20361,15462,0,0,1048576,1600,1002573,0,0,0,0,0,0
@@ -10766,6 +10786,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for Dunelle's Detour Advanced.","Dunelle's Detour Advanced: Silver",,20367,-1,-1,20366,15462,0,0,1048576,1605,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Dunelle's Detour Advanced.","Dunelle's Detour Advanced: Gold",,20368,-1,-1,20367,15462,0,0,1048576,1606,1002573,0,0,0,0,0,0
 "Complete Dunelle's Detour Reverse.","Dunelle's Detour Reverse: Bronze",,20369,-1,-1,0,15462,0,0,1048576,1607,1002572,0,0,0,0,0,0
+"Complete 25 Worldsoul Memory events in Khaz Algar.","Many Echoes",,40251,-1,-1,40250,15521,0,10,196608,43,2967107,0,162331,0,0,0,0
 "Get Silver ranked time for Dunelle's Detour Reverse.","Dunelle's Detour Reverse: Silver",,20370,-1,-1,20369,15462,0,0,1048576,1608,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Dunelle's Detour Reverse.","Dunelle's Detour Reverse: Gold",,20371,-1,-1,20370,15462,0,0,1048576,1609,1002573,0,0,0,0,0,0
 "Complete Tenir's Traversal.","Tenir's Traversal: Bronze",,20372,-1,-1,0,15462,0,0,1048576,1610,1002572,0,0,0,0,0,0
@@ -10869,7 +10890,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Gold ranked time for Siegehold Scuttle Reverse.","Siegehold Scuttle Reverse: Gold",,20474,-1,-1,20473,15462,0,0,1048576,1708,1002573,0,0,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - WOTLK Pet",,20475,-1,-1,0,81,0,0,3276804,26,4696085,0,161841,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - WOTLK Mount",,20476,-1,-1,0,81,0,0,3276804,27,4696085,0,161843,0,0,0,0
-,"[HIDDEN] Awakening the Dragonflight Raid Portals",,20480,-1,-1,0,15468,0,0,1310720,76,136243,0,157052,0,0,0,0
 "Complete one of the achievements listed below on this character.","Dragonflight Season 4 Master","Item Reward: Awakened Mark of Mastery",20481,-1,-1,0,81,0,0,2048,35,5351058,0,157056,0,0,0,0
 ,"The Darkness kills (Normal Darkflame Cleft)",,20482,2651,-1,0,15520,0,0,1,10,136243,0,157105,0,0,0,0
 ,"The Darkness kills (Heroic Darkflame Cleft)",,20483,2651,-1,0,15520,0,0,1,11,136243,0,157107,0,0,0,0
@@ -10878,10 +10898,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Ki'katal the Harvester kills (Heroic Ara-Kara, City of Echoes)",,20486,2660,-1,0,15520,0,0,1,2,136243,0,157113,0,0,0,0
 ,"Ki'katal the Harvester kills (Mythic Ara-Kara, City of Echoes)",,20487,2660,-1,0,15520,0,0,1,3,136243,0,157115,0,0,0,0
 ,"Valorstones earned",,20488,-1,-1,0,130,0,0,1,71,136243,0,157157,0,0,0,0
-,"Weathered Harbinger Crests earned",,20489,-1,-1,0,130,0,0,1,72,136243,0,157159,0,0,0,0
-,"Carved Harbinger Crests earned",,20490,-1,-1,0,130,0,0,1,73,136243,0,157161,0,0,0,0
-,"Runed Harbinger Crests earned",,20491,-1,-1,0,130,0,0,1,74,136243,0,157163,0,0,0,0
-,"Gilded Harbinger Crests earned",,20492,-1,-1,0,130,0,0,1,75,136243,0,157165,0,0,0,0
+,"Weathered Harbinger Crests earned",,20489,-1,-1,0,15176,0,0,1,28,136243,0,157159,0,0,0,0
+,"Carved Harbinger Crests earned",,20490,-1,-1,0,15176,0,0,1,29,136243,0,157161,0,0,0,0
+,"Runed Harbinger Crests earned",,20491,-1,-1,0,15176,0,0,1,30,136243,0,157163,0,0,0,0
+,"Gilded Harbinger Crests earned",,20492,-1,-1,0,15176,0,0,1,31,136243,0,157165,0,0,0,0
 "Complete the Lion's Landing scenario with a Timerunner.","Lion's Landing","Minor Bronze Cache",20500,-1,1,0,15536,0,0,2048,101,902177,0,157221,0,0,0,0
 "Leave the Shadowlands better than they were when you entered by completing the following achievements.","Back from the Beyond","Mount: Zovaal's Soul Eater",20501,-1,-1,0,15301,0,100,131072,5,3642306,217612,157225,0,0,0,0
 ,"<Hidden> Achievement Title - Plunderlord - 10.2.6 Void Zone",,20507,-1,-1,0,81,0,0,3276804,2,136243,0,157442,0,0,0,0
@@ -10922,10 +10942,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "End The War Within Mythic+ Season 1 with a Mythic+ Rating in the top 0.1% of all players in your region.","Tempered Hero: The War Within Season 1","Title: Tempered Hero",20589,-1,-1,0,15272,0,0,14336,3,618859,0,157665,0,0,0,0
 "Reach level 20 with a Timerunner.","Time Trial","Mount: August Phoenix",20593,-1,-1,0,15536,0,0,133120,14,4622478,0,157782,0,0,0,0
 "Help out Kaleb Flamegard in the Arathi Infirmary in Mereldar for 20 Days.","Flamegard's Hope",,20594,-1,-1,0,15521,0,10,131072,52,463526,0,157780,0,0,0,0
-"Complete the optional Isle of Dorn storylines listed below.","Sojourner of Isle of Dorn",,20595,-1,-1,0,15506,0,10,131072,15,5891369,0,161668,0,0,0,0
-"Complete the Khaz Algar quest achievements listed below.","Loremaster of Khaz Algar","Appearance: Crimson Cartographer's Orientation",20596,-1,-1,0,15506,0,10,131072,14,5770811,0,161678,0,0,0,0
-"Complete the War Within storyline.","The War Within",,20597,-1,-1,0,15506,0,10,0,11,571554,0,161484,0,0,0,0
-"Complete the following storylines in Hallowfall.",Hallowfall,,20598,-1,-1,0,15506,0,10,0,8,5770810,0,157813,0,0,0,0
+"Complete the optional Isle of Dorn storylines listed below.","Sojourner of Isle of Dorn",,20595,-1,-1,0,15506,0,10,131072,16,5891369,0,161668,0,0,0,0
+"Complete the Khaz Algar quest achievements listed below.","Loremaster of Khaz Algar","Appearance: Crimson Cartographer's Orientation",20596,-1,-1,0,15506,0,10,131072,15,5770811,0,161678,0,0,0,0
+"Complete the War Within storyline.","The War Within",,20597,-1,-1,0,15506,0,10,0,12,571554,0,161484,0,0,0,0
+"Complete the following storylines in Hallowfall.",Hallowfall,,20598,-1,-1,0,15506,0,10,0,9,5770810,0,157813,0,0,0,0
 "Complete the Dragonblight storylines listed below.","Might of Dragonblight (char specific hidden copy)",,39919,-1,1,0,14863,0,0,1048576,9,236749,0,159601,0,0,0,0
 "Complete the Zul'Drak storylines listed below.","The Empire of Zul'Drak (char specific hidden copy)",,39920,-1,-1,0,14863,0,0,1048576,18,236862,0,159622,0,0,0,0
 "Complete the Grizzly Hills storylines listed below.","Fo' Grizzle My Shizzle (char specific hidden copy)",,39921,-1,1,0,14863,0,0,1048576,13,236772,0,159651,0,0,0,0
@@ -11083,11 +11103,12 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<Hidden> 10.2.6 Void Zone - Keg Leg Renown 32 [DNT]",,40079,-1,-1,0,81,0,0,3276804,18,136243,0,161399,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - Keg Leg Renown 36 [DNT]",,40080,-1,-1,0,81,0,0,3276804,19,136243,0,161401,0,0,0,0
 ,"<Hidden> 10.2.6 Void Zone - Keg Leg Renown 40 [DNT]",,40081,-1,-1,0,81,0,0,3276804,21,136243,0,161403,0,0,0,0
-"Kill kobyss in the Hungering Pool in Hallowfall with Alyza Bowblaze by your side.","Never Enough",,40082,-1,-1,0,15506,0,5,131072,12,2057311,0,161405,0,0,0,0
+"Kill kobyss in the Hungering Pool in Hallowfall with Alyza Bowblaze by your side.","Never Enough",,40082,-1,-1,0,15506,0,5,131072,13,2057311,0,161405,0,0,0,0
 "Earn 1000 honor in Isle of Dorn while in War Mode.","Tour of Duty: Isle of Dorn",,40083,-1,-1,0,15283,0,10,131072,13,5770811,0,161409,0,0,0,0
 "Earn 1000 honor in The Ringing Deeps while in War Mode.","Tour of Duty: The Ringing Deeps",,40084,-1,-1,0,15283,0,10,131072,12,5770812,0,161411,0,0,0,0
 "Earn 1000 honor in Hallowfall while in War Mode.","Tour of Duty: Hallowfall",,40085,-1,-1,0,15283,0,10,131072,11,5770810,0,161413,0,0,0,0
 "Earn 1000 honor in Azj-Kahet while in War Mode.","Tour of Duty: Azj-Kahet",,40086,-1,-1,0,15283,0,10,131072,9,5770809,0,161415,0,0,0,0
+,"Broodtwister Ovi'nax kills (Heroic Nerub-ar Palace)",,40285,2657,-1,0,15520,0,0,1,46,136243,0,162437,0,0,0,0
 "Complete each of the following World PvP World Quests in the War Within.","Unbound Battle",,40087,-1,-1,0,15283,0,5,131072,4,5387169,0,161419,0,0,0,0
 "Complete each of the following World PvP World Quests in the War Within 5 times.","A Champion's Tour: The War Within","Pet: Ruby-Eyed Stagshell",40088,-1,-1,0,15283,0,20,131072,8,5370895,223802,161428,0,0,0,0
 "Capture an Unbound Spoils.","Spoiled Goods",,40089,-1,-1,0,15283,0,5,0,1,1542856,0,161437,0,0,0,0
@@ -11111,7 +11132,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Buy five Warband Bank tabs.","So Much Sharing",,40145,-1,-1,40142,92,0,20,131072,28,4203076,0,161626,0,0,0,0
 "Equip a Superior or better item, with a minimum item level of 564, in every slot.","War Within Superior",,40146,-1,-1,0,92,0,10,0,42,135865,0,161636,0,0,0,0
 "Equip an Epic or better item, with a minimum item level of 584, in every slot.","War Within Epic",,40147,-1,-1,0,92,0,10,0,43,132885,0,161652,0,0,0,0
-"Play every game with the orphans of Mereldar.","Children's Entertainer",,40150,-1,-1,0,15506,0,5,131072,13,134506,0,161700,0,0,0,0
+"Play every game with the orphans of Mereldar.","Children's Entertainer",,40150,-1,-1,0,15506,0,5,131072,14,134506,0,161700,0,0,0,0
 "Set a bad example.","Mereldar Menace",,40151,-1,-1,0,15521,0,5,131072,49,135232,0,161709,0,0,0,0
 "Collect the Skyriding Glyph at The Three Shields in Isle of Dorn.","Skyriding Glyphs: The Three Shields",,40152,-1,-1,0,15521,0,0,1179648,55,5926319,0,0,0,0,0,0
 "Complete 8 Pet Battle World Quests on Khaz Algar with a full team of level 25 pets.","Battle on Khaz Algar",,40153,-1,-1,0,15119,0,10,135168,4,652174,0,161720,0,0,0,0
@@ -11188,7 +11209,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat the following bosses that conduct secret designs within Nerub-ar Palace.","Secrets of Nerub-ar Palace",,40248,2657,-1,0,15526,0,10,131072,6,5779388,0,162322,0,0,0,0
 "Defeat the following bosses that vie to corrupt the Nerubian empire within Nerub-ar Palace.","A Queen's Fall",,40249,2657,-1,0,15526,0,10,131072,7,5779391,0,162326,0,0,0,0
 "Complete a single Worldsoul Memory event in Khaz Algar.","The First Echo",,40250,-1,-1,0,15521,0,5,131072,41,2967107,0,162329,0,0,0,0
-"Complete 25 Worldsoul Memory events in Khaz Algar.","Many Echoes",,40251,-1,-1,40250,15521,0,10,196608,43,2967107,0,162331,0,0,0,0
 "Complete each of these Worldsoul Memory events in Khaz Algar.","A Series of Echoes",,40252,-1,-1,0,15521,0,5,131072,45,2967105,0,162333,0,0,0,0
 "Defeat Queen Ansurek in Nerub-ar Palace on Heroic difficulty or higher, before the release of the next raid tier.","Ahead of the Curve: Queen Ansurek",,40253,2657,-1,0,15271,0,0,6144,87,5779391,0,162342,0,0,0,0
 "Defeat Queen Ansurek in Nerub-ar Palace on Mythic difficulty, before the release of the next raid tier.","Cutting Edge: Queen Ansurek",,40254,2657,-1,40253,15271,0,0,6144,88,5779391,0,162344,0,0,0,0
@@ -11221,7 +11241,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Rasha'nan kills (Mythic Nerub-ar Palace)",,40282,2657,-1,0,15520,0,0,1,43,136243,0,162443,0,0,0,0
 ,"Broodtwister Ovi'nax kills (Raid Finder Nerub-ar Palace)",,40283,2657,-1,0,15520,0,0,1,44,136243,0,162441,0,0,0,0
 ,"Broodtwister Ovi'nax kills (Normal Nerub-ar Palace)",,40284,2657,-1,0,15520,0,0,1,45,136243,0,162439,0,0,0,0
-,"Broodtwister Ovi'nax kills (Heroic Nerub-ar Palace)",,40285,2657,-1,0,15520,0,0,1,46,136243,0,162437,0,0,0,0
 ,"Broodtwister Ovi'nax kills (Mythic Nerub-ar Palace)",,40286,2657,-1,0,15520,0,0,1,47,136243,0,162435,0,0,0,0
 ,"Nexus-Princess Ky'veza kills (Raid Finder Nerub-ar Palace)",,40287,2657,-1,0,15520,0,0,1,48,136243,0,162433,0,0,0,0
 ,"Nexus-Princess Ky'veza kills (Normal Nerub-ar Palace)",,40288,2657,-1,0,15520,0,0,1,49,136243,0,162431,0,0,0,0
@@ -11235,12 +11254,12 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Queen Ansurek kills (Normal Nerub-ar Palace)",,40296,2657,-1,0,15520,0,0,1,57,136243,0,162415,0,0,0,0
 ,"Queen Ansurek kills (Heroic Nerub-ar Palace)",,40297,2657,-1,0,15520,0,0,1,58,136243,0,162383,0,0,0,0
 ,"Queen Ansurek kills (Mythic Nerub-ar Palace)",,40298,2657,-1,0,15520,0,0,1,59,136243,0,162381,0,0,0,0
-"Complete the War Within storylines listed below.","Allied Races: Earthen","Reward: Earthen Race Unlocked",40307,-1,-1,0,15506,0,10,131072,41,5930319,223572,162485,0,0,0,0
-"Contribute Radiant Remnants to light lesser keyflames and complete the following quests.","Beacon of Hope",,40308,-1,-1,0,15506,0,10,131072,21,135922,0,162481,0,0,0,0
-"Earn level 50 on a newly created earthen character.","Heritage of the Earthen","Reward: Earthen Heritage Armor",40309,-1,-1,40307,15506,0,10,131072,43,5799477,0,162501,0,0,0,0
-"Complete each of these bonus events found at the larger activated Keyflames.","Sharing the Light",,40311,-1,-1,0,15506,0,10,131072,22,5681681,0,162510,0,0,0,0
-"Contribute 10 Radiant Remnants to any Keyflames.","Starting the Flames",,40312,-1,-1,0,15506,0,5,131072,23,135805,0,162518,0,0,0,0
-"Contribute 100 Radiant Remnants to any Keyflames.","Igniting the Keyflames",,40313,-1,-1,40312,15506,0,5,131072,25,4914680,0,162524,0,0,0,0
+"Complete the War Within storylines listed below.","Allied Races: Earthen","Reward: Earthen Race Unlocked",40307,-1,-1,0,15506,0,10,131072,42,5930319,223572,162485,0,0,0,0
+"Contribute Radiant Remnants to light lesser keyflames and complete the following quests.","Beacon of Hope",,40308,-1,-1,0,15506,0,10,131072,22,135922,0,162481,0,0,0,0
+"Earn level 50 on a newly created earthen character.","Heritage of the Earthen","Reward: Earthen Heritage Armor",40309,-1,-1,40307,15506,0,10,131072,44,5799477,0,162501,0,0,0,0
+"Complete each of these bonus events found at the larger activated Keyflames.","Sharing the Light",,40311,-1,-1,0,15506,0,10,131072,23,5681681,0,162510,0,0,0,0
+"Contribute 10 Radiant Remnants to any Keyflames.","Starting the Flames",,40312,-1,-1,0,15506,0,5,131072,24,135805,0,162518,0,0,0,0
+"Contribute 100 Radiant Remnants to any Keyflames.","Igniting the Keyflames",,40313,-1,-1,40312,15506,0,5,131072,26,4914680,0,162524,0,0,0,0
 "Loot and shatter an Echoing Fragment found in the Worldsoul Memory events of each zone.","Fragments of Memories","Toy: Memory Chord",40314,-1,-1,0,15521,0,5,131072,48,2967108,0,163347,0,0,0,0
 "Complete each of the Dragonriding achievements listed below.","[HIDDEN] Now THIS is Dragon Racing!","Drake Customization: Grotto Netherwing Drake - Black Scales",40315,-1,-1,0,15462,0,0,1179648,3,4640485,207776,162568,0,0,0,0
 "Complete all normal races in the Isle of Dorn.","Isle of Dorn: Bronze",,40316,-1,-1,0,15462,0,10,131072,1729,1002572,0,162581,0,0,0,0
@@ -11256,6 +11275,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Obtain silver in all normal races in The Ringing Deeps.","The Ringing Deeps: Silver",,40326,-1,-1,40325,15462,0,10,131072,1739,1002575,0,162651,0,0,0,0
 "Obtain gold in all normal races in The Ringing Deeps.","The Ringing Deeps: Gold",,40327,-1,-1,40326,15462,0,10,131072,1740,1002573,0,162658,0,0,0,0
 "Complete all advanced races in The Ringing Deeps.","The Ringing Deeps Advanced: Bronze",,40328,-1,-1,0,15462,0,10,131072,1741,1002572,0,162665,0,0,0,0
+,"Nightfall Sanctum clears",,40740,-1,-1,0,15534,0,0,1,6,136243,0,166545,0,0,0,0
 "Obtain silver in all advanced races in The Ringing Deeps.","The Ringing Deeps Advanced: Silver",,40329,-1,-1,40328,15462,0,10,131072,1742,1002575,0,162672,0,0,0,0
 "Obtain gold in all advanced races in The Ringing Deeps.","The Ringing Deeps Advanced: Gold",,40330,-1,-1,40329,15462,0,10,131072,1743,1002573,0,162679,0,0,0,0
 "Complete all reverse races in The Ringing Deeps.","The Ringing Deeps Reverse: Bronze",,40331,-1,-1,0,15462,0,10,131072,1744,1002572,0,162686,0,0,0,0
@@ -11282,7 +11302,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete all races in Khaz Algar.","Khaz Algar Completionist: Bronze",,40352,-1,-1,0,15462,0,20,131072,1766,1100022,0,162835,0,0,0,0
 "Obtain silver in all races in Khaz Algar.","Khaz Algar Completionist: Silver",,40353,-1,-1,40352,15462,0,20,131072,1767,1100022,0,162848,0,0,0,0
 "Obtain gold in all races in Khaz Algar.","Khaz Algar Completionist: Gold","Title: Khaz Algar Racer",40354,-1,-1,40353,15462,0,20,131072,1769,1100022,0,162861,0,0,0,0
-"Complete the following quests involving the Hillhelm Stead family farm.","Life on the Farm","Appearance: Hillhelm Farmhand's Hoe and Hillhelm Farmhand's Watering Can",40360,-1,-1,0,15506,0,10,131072,24,134435,0,162888,0,0,0,0
+"Complete the following quests involving the Hillhelm Stead family farm.","Life on the Farm","Appearance: Hillhelm Farmhand's Hoe and Hillhelm Farmhand's Watering Can",40360,-1,-1,0,15506,0,10,131072,25,134435,0,162888,0,0,0,0
 "Defeat Goldie Baronbottom in Cinderbrew Meadery.","Cinderbrew Meadery",,40361,2661,-1,0,15524,0,10,0,8,5899327,0,162922,0,0,0,0
 "Defeat Goldie Baronbottom in Cinderbrew Meadery on Heroic difficulty or higher.","Heroic: Cinderbrew Meadery",,40363,2661,-1,40361,15524,0,10,0,9,5899327,0,162924,0,0,0,0
 "Defeat Goldie Baronbottom in Cinderbrew Meadery on Mythic or Mythic Keystone difficulty.","Mythic: Cinderbrew Meadery",,40366,2661,-1,40363,15524,0,10,0,10,5899327,0,162926,0,0,0,0
@@ -11308,6 +11328,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Win 50 3v3 games while at Elite rank during The War Within Season 1.","Gladiator: The War Within Season 1","Reward: Gladiator Mount, Customization, Seasonal Character Title",40393,-1,-1,0,15270,0,0,14336,29,236542,223586,163120,0,0,0,0
 "Win 100 Rated Solo Shuffle rounds while at Elite rank during The War Within Season 1","Legend: The War Within Season 1","Reward: Pennant & Seasonal Character Title",40395,-1,-1,0,15270,0,0,14336,35,236537,0,163122,0,0,0,0
 ,"Forged Combatant",,40396,-1,1,0,15270,0,0,1179648,76,236538,223511,163180,0,0,0,0
+,"Forged Combatant",,40397,-1,0,0,15270,0,0,1179648,82,236538,221813,163182,0,0,0,0
 "Obtain the Forged Gladiator's Fel Bat from The War Within Season 1.","Forged Gladiator's Fel Bat",,40398,-1,-1,0,15269,1,0,145408,55,5499973,0,163184,0,0,0,0
 "Defeat The Darkness in Darkflame Cleft.","Darkflame Cleft",,40427,2651,-1,0,15524,0,10,0,14,5899329,0,163242,0,0,0,0
 "Defeat The Darkness in Darkflame Cleft on Heroic difficulty or higher.","Heroic: Darkflame Cleft",,40428,2651,-1,40427,15524,0,10,0,15,5899329,0,163245,0,0,0,0
@@ -11366,23 +11387,23 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect and use 40 Algari Anglerthread to permanently increase the power of your Algari Weaverline.","40 Algari Anglerthread","Share the Anglerthread collected across your Warband.",40499,-1,-1,40497,171,0,10,131072,92,3622226,0,163933,0,0,0,0
 "Collect and use 80 Algari Anglerthread to permanently increase the power of your Algari Weaverline.","80 Algari Anglerthread","Share the Anglerthread collected across your Warband.",40500,-1,-1,40498,171,0,10,131072,96,3622226,0,163925,0,0,0,0
 "Collect and use 100 Algari Anglerthread to permanently increase the power of your Algari Weaverline.","100 Algari Anglerthread","Share the Anglerthread collected across your Warband.",40501,-1,-1,40503,171,0,10,131072,98,3622226,0,163921,0,0,0,0
-"Capture a Deephaul Crystal on Deephaul Ravine.","Wandering in the Ravine",,40607,-1,-1,0,15525,0,5,0,5,5836957,0,165796,0,0,0,0
 "Collect and use 50 Algari Anglerthread to permanently increase the power of your Algari Weaverline.","50 Algari Anglerthread","Share the Anglerthread collected across your Warband.",40502,-1,-1,40499,171,0,10,131072,93,3622226,0,163931,0,0,0,0
 "Collect and use 90 Algari Anglerthread to permanently increase the power of your Algari Weaverline.","90 Algari Anglerthread","Share the Anglerthread collected across your Warband.",40503,-1,-1,40500,171,0,10,131072,97,3622226,0,163923,0,0,0,0
 "Read the plaques of the following inert earthen.","Rocked to Sleep",,40504,-1,-1,0,15521,0,5,131072,17,5788303,0,163943,0,0,0,0
 "Find and open all Sturdy Chests hidden throughout the War Within delves.","Leave No Treasure Unfound","Title: Seeker of Loot",40506,-1,-1,0,15523,0,25,131072,59,4203076,0,167552,0,0,0,0
-"Complete The Ringing Deeps world quest ""Reaching for Resources"" while leaping to 25 handholds or less.","Hanging Tight",,40507,-1,-1,0,15506,0,5,0,31,236316,0,164007,0,0,0,0
+"Complete The Ringing Deeps world quest ""Reaching for Resources"" while leaping to 25 handholds or less.","Hanging Tight",,40507,-1,-1,0,15506,0,5,0,32,236316,0,164007,0,0,0,0
 "Complete a Tier 2 delve.","War Within Delves: Tier 2","Unlock: Tier 3 delves in The War Within",40512,-1,-1,40631,15523,0,10,131072,3,6025441,0,166446,0,0,0,0
 "Complete a Tier 3 delve.","War Within Delves: Tier 3",,40514,-1,-1,40512,15523,0,10,131072,4,6025441,0,164035,0,0,0,0
 "Complete a Tier 4 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 4 (Season 1)",,40515,-1,-1,0,15531,0,0,133120,10,6025441,0,164037,0,0,0,0
 "Complete a Tier 5 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 5 (Season 1)","Unlock: Tier 6 delves in The War Within",40516,-1,-1,40515,15531,0,0,133120,12,6025441,0,164039,0,0,0,0
+,"Mycomancer Cavern clears",,40741,-1,-1,0,15534,0,0,1,7,136243,0,166547,0,0,0,0
 "Complete a Tier 6 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 6 (Season 1)","Unlock: Tier 7 delves in The War Within",40517,-1,-1,40516,15531,0,0,133120,13,6025441,0,164041,0,0,0,0
 "Complete a Tier 7 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 7 (Season 1)","Unlock: Tier 8 delves in The War Within",40518,-1,-1,40517,15531,0,0,133120,14,6025441,0,164043,0,0,0,0
 "Complete a Tier 8 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 8 (Season 1)","Unlock: Tier 9 delves in The War Within",40519,-1,-1,40518,15531,0,0,133120,15,6025441,0,164045,0,0,0,0
 "Complete a Tier 9 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 9 (Season 1)","Unlock: Tier 10 delves in The War Within",40520,-1,-1,40519,15531,0,0,133120,16,6025441,0,164047,0,0,0,0
 "Complete a Tier 10 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 10 (Season 1)","Unlock: Tier 11 delves in The War Within",40521,-1,-1,40520,15531,0,0,133120,17,6025441,0,164049,0,0,0,0
 "Obtain all curios that are available for Brann Bronzebeard.","On Brand",,40523,-1,-1,0,15523,0,10,131072,20,973911,0,164139,0,0,0,0
-"Complete 5 Delver's Call quests in the War Within.","Good Deed Delver",,40524,-1,-1,0,15506,0,5,131200,40,237554,0,166268,0,0,0,0
+"Complete 5 Delver's Call quests in the War Within.","Good Deed Delver",,40524,-1,-1,0,15506,0,5,131200,41,237554,0,166268,0,0,0,0
 "Complete each story variant of Fungal Folly.","Fungal Folly Stories",,40525,-1,-1,0,15523,0,5,131072,26,5789324,0,164059,0,0,0,0
 "Complete each story variant of Kriegval's Rest.","Kriegval's Rest Stories",,40526,-1,-1,0,15523,0,5,131072,27,5898973,0,164060,0,0,0,0
 "Complete each story variant of Earthcrawl Mines.","Earthcrawl Mines Stories",,40527,-1,-1,0,15523,0,5,131072,28,3615521,0,164081,0,0,0,0
@@ -11399,13 +11420,13 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Raise Brann Bronzebeard to level 25.","Brann Development",,40538,-1,-1,0,15523,0,25,131072,19,5453546,0,166269,0,0,0,0
 "Catch all fish throughout Khaz Algar and turn in the quest within the Mereldar Fishing Derby time limit.","The Derby Dash","Mount: Kah, Legend of the Deep",40539,-1,-1,0,171,0,10,131072,99,5746561,223286,164154,0,0,0,0
 "Read the following Azj-Kahet books while under the effects of Polymorphic Translation.","Smelling History",,40542,-1,-1,0,15521,0,5,131072,92,4549130,0,164172,0,0,0,0
-"Tracking achievement for the Infirmary Patient 1","<DNT> Patient 1 - Mereldar Infirmary",,40543,-1,-1,0,15506,0,0,3276804,33,136243,0,164174,0,0,0,0
-"Tracking achievement for the Infirmary Patient 2","<DNT> Patient 2 - Mereldar Infirmary",,40544,-1,-1,0,15506,0,0,3276804,34,136243,0,164176,0,0,0,0
-"Tracking achievement for the Infirmary Patient 3","<DNT> Patient 3 - Mereldar Infirmary",,40545,-1,-1,0,15506,0,0,3276804,35,136243,0,164178,0,0,0,0
-"Tracking achievement for the Infirmary Patient 4","<DNT> Patient 4 - Mereldar Infirmary",,40547,-1,-1,0,15506,0,0,3276804,36,136243,0,164180,0,0,0,0
-"Tracking achievement for the Infirmary Patient 5","<DNT> Patient 5 - Mereldar Infirmary",,40548,-1,-1,0,15506,0,0,3276804,37,136243,0,164182,0,0,0,0
-"Tracking achievement for the Infirmary Patient 6","<DNT> Patient 6 - Mereldar Infirmary",,40549,-1,-1,0,15506,0,0,3276804,38,136243,0,164184,0,0,0,0
-"Tracking achievement for the Infirmary Patient 7","<DNT> Patient 7 - Mereldar Infirmary",,40550,-1,-1,0,15506,0,0,3276804,39,136243,0,164186,0,0,0,0
+"Tracking achievement for the Infirmary Patient 1","<DNT> Patient 1 - Mereldar Infirmary",,40543,-1,-1,0,15506,0,0,3276804,34,136243,0,164174,0,0,0,0
+"Tracking achievement for the Infirmary Patient 2","<DNT> Patient 2 - Mereldar Infirmary",,40544,-1,-1,0,15506,0,0,3276804,35,136243,0,164176,0,0,0,0
+"Tracking achievement for the Infirmary Patient 3","<DNT> Patient 3 - Mereldar Infirmary",,40545,-1,-1,0,15506,0,0,3276804,36,136243,0,164178,0,0,0,0
+"Tracking achievement for the Infirmary Patient 4","<DNT> Patient 4 - Mereldar Infirmary",,40547,-1,-1,0,15506,0,0,3276804,37,136243,0,164180,0,0,0,0
+"Tracking achievement for the Infirmary Patient 5","<DNT> Patient 5 - Mereldar Infirmary",,40548,-1,-1,0,15506,0,0,3276804,38,136243,0,164182,0,0,0,0
+"Tracking achievement for the Infirmary Patient 6","<DNT> Patient 6 - Mereldar Infirmary",,40549,-1,-1,0,15506,0,0,3276804,39,136243,0,164184,0,0,0,0
+"Tracking achievement for the Infirmary Patient 7","<DNT> Patient 7 - Mereldar Infirmary",,40550,-1,-1,0,15506,0,0,3276804,40,136243,0,164186,0,0,0,0
 "Complete the Borean Tundra storylines listed below.","Nothing Boring About Borean (char specific hidden copy)",,40569,-1,1,0,14863,0,0,1048576,1,236728,0,164258,0,0,0,0
 "Complete the Howling Fjord storylines listed below.","I've Toured the Fjord (char specific hidden copy)",,40570,-1,1,0,14863,0,0,1048576,5,236787,0,164286,0,0,0,0
 "Complete the Icecrown storylines listed below.","Icecrown: The Final Goal (char specific hidden copy)",,40571,-1,-1,0,14863,0,0,1048576,24,236799,0,164317,0,0,0,0
@@ -11430,6 +11451,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Rasha'nan in The Dawnbreaker on Heroic difficulty or higher.","Heroic: The Dawnbreaker",,40601,2662,-1,40599,15524,0,10,0,21,5899330,0,165780,0,0,0,0
 "Defeat Rasha'nan in The Dawnbreaker on Mythic or Mythic Keystone difficulty.","Mythic: The Dawnbreaker",,40604,2662,-1,40601,15524,0,10,0,22,5899330,0,165782,0,0,0,0
 "Become the victim of a workplace accident in the Forgegrounds of Dornogal.","Flat Earthen",,40606,-1,-1,0,15521,0,5,0,29,4620670,0,165786,0,0,0,0
+"Capture a Deephaul Crystal on Deephaul Ravine.","Wandering in the Ravine",,40607,-1,-1,0,15525,0,5,0,5,5836957,0,165796,0,0,0,0
 "Capture a Deephaul Crystal 10 times on Deephaul Ravine.","Running in the Ravine",,40608,-1,-1,40607,15525,0,5,131072,6,5836957,0,165798,0,0,0,0
 "Capture a Deephaul Crystal 50 times on Deephaul Ravine.","Sprinting in the Ravine",,40612,-1,-1,40608,15525,0,10,131072,7,5836957,0,165800,0,0,0,0
 "Capture a Deephaul Crystal 3 times in a single victory without dying on Deephaul Ravine.","Resilient Runner",,40613,-1,-1,0,15525,0,10,0,8,5409581,0,165812,0,0,0,0
@@ -11437,22 +11459,22 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Kill a player who recently exited an Earthen Mine Cart.","Unexpected Arrival",,40615,-1,-1,0,15525,0,5,0,9,1029727,0,165818,0,0,0,0
 "Kill 20 players who recently exited an Earthen Mine Cart.","Unexpected Arrivals",,40616,-1,-1,40615,15525,0,10,131072,10,1029727,0,165820,0,0,0,0
 "Complete the following achievements in Deephaul Ravine",Deepholla,"Title: Deephauler",40617,-1,-1,0,15525,0,25,131072,11,5899325,0,165822,0,0,0,0
-"Return every lost Hallowfall memento found with Maera Ashyld.","Lost and Found","Appearance: Sandy Quotidian Wear",40618,-1,-1,0,15506,0,5,131072,27,4635200,0,165829,0,0,0,0
+"Return every lost Hallowfall memento found with Maera Ashyld.","Lost and Found","Appearance: Sandy Quotidian Wear",40618,-1,-1,0,15506,0,5,131072,28,4635200,0,165829,0,0,0,0
 "Rescue 50 Arathi prisoners from Arathi's End.","Back to the Wall",,40620,-1,-1,0,15521,0,10,131072,26,236681,0,165851,0,0,0,0
 "Defeat Voidstone Monstrosity in The Rookery.","The Rookery",,40621,2648,-1,0,15524,0,10,0,23,5899332,0,166124,0,0,0,0
 "Locate all the lore books in Hallowfall.","Biblo Archivist",,40622,-1,-1,0,15521,0,5,131072,51,5341597,0,165853,0,0,0,0
-"Deposit all 10 ore at once in the ""Courier Mission: Ore Recovery"" world quest.","I Only Need One Trip",,40623,-1,-1,0,15506,0,5,0,5,236316,0,165865,0,0,0,0
+"Deposit all 10 ore at once in the ""Courier Mission: Ore Recovery"" world quest.","I Only Need One Trip",,40623,-1,-1,0,15506,0,5,0,6,236316,0,165865,0,0,0,0
 "Wave to the following weave-rats.","Itsy Bitsy Spider",,40624,-1,-1,0,15521,0,10,131072,25,5793405,0,165870,0,0,0,0
 "Pet the ferocious warcats around Hallowfall.","The Missing Lynx",,40625,-1,-1,0,15521,0,10,131072,27,5689905,0,165874,0,0,0,0
 "Read the following Notes On Machine Speakers in The Ringing Deeps.","Notable Machines",,40628,-1,-1,0,15521,0,5,131072,24,1506451,0,165891,0,0,0,0
 "Read the following books while under the effects of Polymorphic Translation.",Bookworm,,40629,-1,-1,0,15521,0,5,131072,94,4549129,0,165893,0,0,0,0
-"Contribute a total of 100 ore toward activating helpful contraptions for your fellow players during the ""Courier Mission: Ore Recovery"" world quest.","For the Collective",,40630,-1,-1,0,15506,0,10,131072,6,975747,0,165902,0,0,0,0
+"Contribute a total of 100 ore toward activating helpful contraptions for your fellow players during the ""Courier Mission: Ore Recovery"" world quest.","For the Collective",,40630,-1,-1,0,15506,0,10,131072,7,975747,0,165902,0,0,0,0
 "Complete a Tier 1 delve.","War Within Delves: Tier 1","Unlock: Tier 2 delves in The War Within",40631,-1,-1,0,15523,0,10,131072,2,6025441,0,166118,0,0,0,0
 "Return the evil copies of yourself back to the book after following the spiders in Pillar-nest Xesh.","No Harm Ever Came From Reading A Book",,40632,-1,-1,0,15521,0,5,0,21,463284,0,165940,0,0,0,0
 "Acquire 100 stacks of Unseeming Shift in the Maddening Deep.","The Unseeming",,40633,-1,-1,0,15521,0,5,0,20,1386549,0,165942,0,0,0,0
 "Be expunged from the City of Threads by guards.","You Can't Hang With Us",,40634,-1,-1,0,15521,0,10,0,19,237431,0,165944,0,0,0,0
 "Obtain all curios that are available for Brann Bronzebeard at rank 4.",Branntastic,,40635,-1,-1,40523,15523,0,15,131072,21,973913,0,166270,0,0,0,0
-"Complete the optional Azj-Kahet storylines listed below.","Sojourner of Azj-Kahet",,40636,-1,-1,0,15506,0,10,131072,17,5793405,0,166093,0,0,0,0
+"Complete the optional Azj-Kahet storylines listed below.","Sojourner of Azj-Kahet",,40636,-1,-1,0,15506,0,10,131072,18,5793405,0,166093,0,0,0,0
 "Defeat Voidstone Monstrosity in The Rookery on Heroic difficulty or higher.","Heroic: The Rookery",,40637,2648,-1,40621,15524,0,10,0,24,5899332,0,166126,0,0,0,0
 "Defeat Voidstone Monstrosity in The Rookery on Mythic or Mythic Keystone difficulty.","Mythic: The Rookery",,40642,2648,-1,40637,15524,0,10,0,25,5899332,0,166128,0,0,0,0
 "Defeat Void Speaker Eirich in The Stonevault.","The Stonevault",,40643,2652,-1,0,15524,0,10,0,26,5899333,0,166130,0,0,0,0
@@ -11503,6 +11525,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect the Skyriding Glyph at Deepwalker Pass in Azj-Kahet.","Skyriding Glyphs: Deepwalker Pass",,40696,-1,-1,0,15521,0,0,1179648,89,5926319,0,0,0,0,0,0
 "Collect the Skyriding Glyph at The Maddening Deep in Azj-Kahet.","Skyriding Glyphs: The Maddening Deep",,40697,-1,-1,0,15521,0,0,1179648,90,5926319,0,0,0,0,0,0
 "Collect the Skyriding Glyph at Rak-Ush in Azj-Kahet.","Skyriding Glyphs: Rak-Ush",,40698,-1,-1,0,15521,0,0,1179648,91,5926319,0,0,0,0,0,0
+,"The Sinkhole clears",,40742,-1,-1,0,15534,0,0,1,8,136243,0,166549,0,0,0,0
 "Collect the Skyriding Glyph at Silken Ward in Azj-Kahet.","Skyriding Glyphs: Silken Ward",,40699,-1,-1,0,15521,0,0,1179648,93,5926319,0,0,0,0,0,0
 "Collect the Skyriding Glyph at Trickling Abyss in Azj-Kahet.","Skyriding Glyphs: Trickling Abyss",,40700,-1,-1,0,15521,0,0,1179648,96,5926319,0,0,0,0,0,0
 "Collect the Skyriding Glyph at Untamed Valley in Azj-Kahet.","Skyriding Glyphs: Untamed Valley",,40701,-1,-1,0,15521,0,0,1179648,97,5926319,0,0,0,0,0,0
@@ -11526,11 +11549,11 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Discover the hidden treasures across The Ringing Deeps.","Treasures of The Ringing Deeps",,40724,-1,-1,0,15521,0,5,131072,36,1542858,0,166437,0,0,0,0
 "Reach level 80 and complete the Khaz Algar main story campaign on your Warband.","War Within Delves: Endgame","Unlock: Tier 4 delves in The War Within",40725,-1,-1,40514,15523,0,10,131072,5,6025441,0,164017,0,0,0,0
 "Complete a Tier 11 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 11 (Season 1)","Title: High Explorer",40726,-1,-1,40521,15531,0,0,133120,18,6025441,0,166448,0,0,0,0
-"Ride the High Hollows Skittershaw for a full lap around the district.","Skittershaw Spin",,40727,-1,-1,0,15506,0,5,0,32,879828,0,166453,0,0,0,0
+"Ride the High Hollows Skittershaw for a full lap around the district.","Skittershaw Spin",,40727,-1,-1,0,15506,0,5,0,33,879828,0,166453,0,0,0,0
 "Collect any armor set from The War Within PvP Season 1.","Forged Finery",,40728,-1,-1,0,15259,0,10,131072,87,5771687,0,166455,0,0,0,0
-"Win a game of Light's Gambit on Hard Difficulty.","Light's Gambit Champion",,40729,-1,-1,0,15506,0,10,0,30,135986,0,166458,0,0,0,0
+"Win a game of Light's Gambit on Hard Difficulty.","Light's Gambit Champion",,40729,-1,-1,0,15506,0,10,0,31,135986,0,166458,0,0,0,0
 "Defeat the Silken Court after Anub'arash and Takazj have gained the Bond of Friendship in Nerub-ar Palace on Normal difficulty or higher.","Love is in the Lair",,40730,2657,-1,0,15526,0,10,0,22,135450,0,166476,0,0,0,0
-"Land 10 hits with the Frying Pans that drop from the Overworked Cooks in the Deepforge Golemworks.",Panhandled,,40731,-1,-1,0,15506,0,5,131072,20,629054,0,166486,0,0,0,0
+"Land 10 hits with the Frying Pans that drop from the Overworked Cooks in the Deepforge Golemworks.",Panhandled,,40731,-1,-1,0,15506,0,5,131072,21,629054,0,166486,0,0,0,0
 "Get killed by a Delve Nemesis.",Heavy-Handed,,40732,-1,-1,0,15523,0,10,0,44,5368433,0,166531,0,0,0,0
 ,"Total delves completed",,40734,-1,-1,0,15533,0,0,1,16,136243,0,166533,0,0,0,0
 ,"Fungal Folly clears",,40735,-1,-1,0,15534,0,0,1,1,136243,0,166535,0,0,0,0
@@ -11538,11 +11561,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Earthcrawl Mines clears",,40737,-1,-1,0,15534,0,0,1,3,136243,0,166539,0,0,0,0
 ,"The Waterworks clears",,40738,-1,-1,0,15534,0,0,1,4,136243,0,166541,0,0,0,0
 ,"The Dread Pit clears",,40739,-1,-1,0,15534,0,0,1,5,136243,0,166543,0,0,0,0
-,"Nightfall Sanctum clears",,40740,-1,-1,0,15534,0,0,1,6,136243,0,166545,0,0,0,0
-,"Mycomancer Cavern clears",,40741,-1,-1,0,15534,0,0,1,7,136243,0,166547,0,0,0,0
-,"The Sinkhole clears",,40742,-1,-1,0,15534,0,0,1,8,136243,0,166549,0,0,0,0
-,"Skittering Breach clears",,40743,-1,-1,0,15534,0,0,1,9,136243,0,166551,0,0,0,0
-,"The Underkeep clears",,40744,-1,-1,0,15534,0,0,1,10,136243,0,166553,0,0,0,0
 ,"Tak-Rethan Abyss clears",,40745,-1,-1,0,15534,0,0,1,11,136243,0,166555,0,0,0,0
 ,"The Spiral Weave clears",,40746,-1,-1,0,15534,0,0,1,12,136243,0,166557,0,0,0,0
 ,"Zekvir's Lair clears",,40747,-1,-1,0,15534,0,0,1,15,136243,0,166559,0,0,0,0
@@ -11583,11 +11601,11 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Open 50 Bountiful Coffers with Restored Coffer Keys.","I Got the Keys",,40788,-1,-1,40819,15522,0,10,131200,20,348554,0,166711,0,0,0,0
 "Collect the following cosmetic unlocks for the Delver's Dirigible.","Flying in Style",,40789,-1,-1,40459,15523,0,10,131072,25,132241,0,166714,0,0,0,0
 "Explore the regions of Khaz Algar.","Khaz Algar Explorer",,40790,-1,-1,0,97,0,25,131072,12,5901551,0,166824,0,0,0,0
-"Complete the following storylines listed below.","Fate of the Kirin Tor","Title: Witness of the Kirin Tor",40791,-1,-1,0,15506,0,10,0,26,236693,0,166838,0,0,0,0
+"Complete the following storylines listed below.","Fate of the Kirin Tor","Title: Witness of the Kirin Tor",40791,-1,-1,0,15506,0,10,0,27,236693,0,166838,0,0,0,0
 "Win 100 Solo Shuffle rounds as a Healer at or above Rival I during The War Within.","Solo Shuffle Medic: The War Within","Reward: Unbound Legend's Pennant",40792,-1,-1,0,15270,0,0,133120,6,135915,0,166852,0,0,0,0
 "Win 50 Battleground Blitz matches as a Healer at or above Rival I during The War Within.","Battleground Blitz Medic: The War Within","Reward: Unbound Strategist's Pennant",40795,-1,-1,0,15270,0,0,133120,7,135915,0,166854,0,0,0,0
 "Defeat each of the remembered bosses during The War Within pre-launch events.","This Takes Me Back",,40796,-1,-1,0,15274,0,0,133120,82,2967110,0,166864,0,0,0,0
-"Complete the optional Ringing Deeps storylines listed below.","Sojourner of The Ringing Deeps",,40799,-1,-1,0,15506,0,10,131072,16,5891367,0,166895,0,0,0,0
+"Complete the optional Ringing Deeps storylines listed below.","Sojourner of The Ringing Deeps",,40799,-1,-1,0,15506,0,10,131072,17,5891367,0,166895,0,0,0,0
 ,"Warband Tutorial Complete - Teach Warband Bank Summon (DNT)",,40800,-1,-1,0,92,0,0,1310720,127,136243,0,166929,0,0,0,0
 "Find and open all Sturdy Chests hidden in Fungal Folly.","Fungal Folly Discoveries",,40803,-1,-1,0,15523,0,5,131200,45,4203076,0,167486,0,0,0,0
 "Find and open all Sturdy Chests hidden in Earthcrawl Mines.","Earthcrawl Mines Discoveries",,40806,-1,-1,0,15523,0,5,131200,46,4203076,0,167494,0,0,0,0
@@ -11609,14 +11627,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Explore Hallowfall, revealing the covered areas of the world map.","Explore Hallowfall",,40826,-1,-1,0,15521,0,10,131072,15,5770810,0,167644,0,0,0,0
 "Discover the hidden treasures across Azj-Kahet.","Treasures of Azj-Kahet",,40828,-1,-1,0,15521,0,5,131072,37,1542858,0,167656,0,0,0,0
 "Explore the Isle of Dorn, revealing the covered areas of the world map.","Explore the Isle of Dorn",,40831,-1,-1,0,15521,0,10,131072,13,5770811,0,167655,0,0,0,0
-"Complete the quest The Weaver's Legacy in Azj-Kahet","Leave it to Weaver",,40832,-1,-1,0,15506,0,5,0,45,5862764,0,167668,0,0,0,0
-"Complete the quest The General's Resolve in Azj-Kahet","The General's Salute",,40833,-1,-1,0,15506,0,5,0,44,5862762,0,167670,0,0,0,0
-"Complete the quest The Vizier's Resolve in Azj-Kahet","Vizier than Ever",,40835,-1,-1,0,15506,0,5,0,47,5862763,0,167672,0,0,0,0
+"Complete the quest The Weaver's Legacy in Azj-Kahet","Leave it to Weaver",,40832,-1,-1,0,15506,0,5,0,46,5862764,0,167668,0,0,0,0
+"Complete the quest The General's Resolve in Azj-Kahet","The General's Salute",,40833,-1,-1,0,15506,0,5,0,45,5862762,0,167670,0,0,0,0
+"Complete the quest The Vizier's Resolve in Azj-Kahet","Vizier than Ever",,40835,-1,-1,0,15506,0,5,0,48,5862763,0,167672,0,0,0,0
 "Complete 10 of the following special encounters across The Ringing Deeps.","Adventurer of The Ringing Deeps",,40837,-1,-1,0,15521,0,5,131072,44,5770812,0,167682,0,0,0,0
 ,"Delve PTR Cheat",,40839,-1,-1,0,15523,0,0,3145728,1,236569,0,167703,0,0,0,0
 "Complete 10 of the following special encounters across Azj-Kahet.","Adventurer of Azj-Kahet",,40840,-1,-1,0,15521,0,5,131072,46,5770809,0,167714,0,0,0,0
 "Destroy 500 nerubian mines in Azj-Kahet.","Mine Poppin'",,40843,-1,-1,0,15521,0,5,196736,54,133710,0,167759,0,0,0,0
-"Complete the optional Hallowfall storylines listed below.","Sojourner of Hallowfall",,40844,-1,-1,0,15506,0,10,131072,18,5891368,0,167736,0,0,0,0
+"Complete the optional Hallowfall storylines listed below.","Sojourner of Hallowfall",,40844,-1,-1,0,15506,0,10,131072,19,5891368,0,167736,0,0,0,0
 "Discover the hidden treasures across Hallowfall.","Treasures of Hallowfall",,40848,-1,-1,0,15521,0,5,131072,38,1542862,0,167773,0,0,0,0
 "Complete 10 of the following special encounters across Hallowfall.","Adventurer of Hallowfall",,40851,-1,-1,0,15521,0,5,131072,47,5770810,0,167785,0,0,0,0
 ,"Warbands: Bank Quest Unlock",,40857,-1,-1,0,92,0,0,1179648,13,136243,228623,167856,0,0,0,0
@@ -11642,10 +11660,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat the following bosses on Heroic difficulty while Vault of the Incarnates is an Awakened raid.","Heroic: Awakened Storms (DNT) (Character specific hidden copy)",,40888,-1,-1,0,81,0,0,1048576,154,4630363,0,168140,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Aberrus is an Awakened raid.","Heroic: Awakened Shadows (DNT) (Character specific copy)",,40892,-1,-1,0,81,0,0,1048576,151,5161748,0,168152,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Amirdrassil is an Awakened raid.","Heroic: Awakened Flames (DNT) (Character specific hidden copy)",,40893,-1,-1,0,81,0,0,1048576,148,5342929,0,168162,0,0,0,0
-"Complete the optional Undermine storylines listed below.","Sojourner of Undermine",,40894,-1,-1,0,15506,0,10,131072,19,463874,0,168182,0,0,0,0
+"Complete the optional Undermine storylines listed below.","Sojourner of Undermine",,40894,-1,-1,0,15506,0,10,131072,20,463874,0,168182,0,0,0,0
 "Complete the achievements listed below:","Don't Call Me Junior (DNT) (Character Specific Hidden Copy)","Follower: Harrison Jones",40895,-1,0,0,15303,0,0,1048576,9,133799,0,168184,0,0,0,0
 "Complete the achievements listed below:","Don't Call Me Junior (DNT) (Character specific hidden copy)","Follower: Harrison Jones",40896,-1,1,0,15303,0,0,1048576,11,133799,0,168186,0,0,0,0
-"Complete the War Within storylines listed below.","Allied Races: Earthen (copy)","Reward: Earthen Race Unlocked",40899,-1,-1,0,15506,0,0,1179648,42,5930319,223572,168204,0,0,0,0
+"Complete the War Within storylines listed below.","Allied Races: Earthen (copy)","Reward: Earthen Race Unlocked",40899,-1,-1,0,15506,0,0,1179648,43,5930319,223572,168204,0,0,0,0
 "Complete the following storylines in Undermine.",Undermined,,40900,-1,-1,0,15506,0,10,131072,10,6392630,0,168211,0,0,0,0
 "Cage of Carnage matches","Cage of Carnage matches",,40908,-1,-1,0,152,0,0,1,17,136243,0,168402,0,0,0,0
 "Cage of Carnage victories","Cage of Carnage victories",,40909,-1,-1,0,152,0,0,1,18,136243,0,168404,0,0,0,0
@@ -11737,10 +11755,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Win 50 3v3 games while at Elite rank during The War Within Season 2.","Gladiator: The War Within Season 2","Reward: Gladiator Mount, Customization, Seasonal Character Title",41032,-1,-1,0,15270,0,0,14336,30,236542,229987,169494,0,0,0,0
 "Purchase a second updated Tier 2 armor set during the WoW Anniversary celebration.","Classy Dresser","Reward: Lower the cost of additional Tier 2 armor ensembles.",41033,-1,-1,41013,15532,0,10,131072,2,6076194,0,169549,0,0,0,0
 "Collect 100 Bronze Celebration Tokens during WoW's 20th Anniversary. (This will become a Feat of Strength.)","Token Collector","Reward: Bronze Celebration Tokens drop from repeatable 20th Anniversary activities.",41038,-1,-1,0,15268,0,0,133120,100,4638504,0,169557,0,0,0,0
-"Complete the following weekly quests on the Siren Isle.","Siren-ity Now!",,41042,-1,-1,0,15506,0,10,131072,4,237387,0,169530,0,0,0,0
-"Contribute to each of the following excavations on the Siren Isle Command Map.","Excavation Projects",,41043,-1,-1,0,15506,0,5,131072,28,1064187,0,169563,0,0,0,0
+"Complete the following weekly quests on the Siren Isle.","Siren-ity Now!",,41042,-1,-1,0,15506,0,10,131072,5,237387,0,169530,0,0,0,0
+"Contribute to each of the following excavations on the Siren Isle Command Map.","Excavation Projects",,41043,-1,-1,0,15506,0,5,131072,29,1064187,0,169563,0,0,0,0
 "Earn 2500 Conquest on this character during The War Within Season 1.","Forged Weapons of Conquest","Item Reward: Forged Gladiator's Weapon Token (x2)",41044,-1,-1,0,15270,0,0,33556480,477,1594747,0,169567,0,0,0,0
-"Complete the Siren Isle questline ""A Song of Secrets"".","A Song of Secrets",,41045,-1,-1,0,15506,0,10,131072,29,133741,0,169588,0,0,0,0
+"Complete the Siren Isle questline ""A Song of Secrets"".","A Song of Secrets",,41045,-1,-1,0,15506,0,10,131072,30,133741,0,169588,0,0,0,0
 "Defeat all of the rare creatures found on the Siren Isle.","Clean Up on Isle Siren",,41046,-1,-1,0,15521,0,15,131072,98,132147,0,169569,0,0,0,0
 "Earn 2500 Conquest on this character during The War Within Season 2.","Prized Weapons of Conquest","Item Reward: Prized Gladiator's Weapon Token (x2)",41047,-1,-1,0,15270,0,0,33554432,479,1594747,0,169605,0,0,0,0
 "Collect each of the Citrine gems on the Siren Isle.","A Choir of Citrines",,41050,-1,-1,0,15521,0,10,131072,10,6215541,0,169648,0,0,0,0
@@ -11796,7 +11814,6 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a tank.","Algari Delver Tank II",,41113,-1,-1,41108,15523,0,10,131072,14,135881,0,170061,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 11 with lives remaining as a tank.","Algari Delver Tank III",,41114,-1,-1,41113,15523,0,25,131072,15,979587,0,170076,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a Damage Dealer, Healer, and Tank.","Algari Delver",,41115,-1,-1,0,15523,0,30,131072,16,2578727,0,170091,0,0,0,0
-"Defeat Geezle Gigazap in Operation: Floodgate.","Operation: Floodgate",,41339,2773,-1,0,15524,0,10,0,29,6392629,0,206299,0,0,0,0
 "Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a Damage Dealer, Healer, and Tank.","Algari Delver II",,41116,-1,-1,41115,15523,0,30,131072,17,4887539,0,170095,0,0,0,0
 "Defeat the One-Armed Bandit after activating one Chip Defense Machine in Liberation of Undermine on Normal difficulty or higher.","One Rank Higher",,41119,2769,-1,0,15526,0,10,0,28,901746,0,170101,0,0,0,0
 "Defeat the One-Armed Bandit after activating two Chip Defense Machines in Liberation of Undermine on Normal difficulty or higher.","Two Ranks Higher",,41120,2769,-1,41119,15526,0,10,0,29,901746,0,170103,0,0,0,0
@@ -11837,14 +11854,15 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach Renown level 30 with the Valdrakken Accord.","Ally of the Flights",,41182,-1,-1,0,15466,0,5,131072,49,4687630,0,138940,0,0,0,0
 "Reach Renown level 20 with the Loamm Niffen.","There's No Place Like Loamm",,41183,-1,-1,0,15466,0,5,131072,97,5140835,0,144725,0,0,0,0
 "Achieve renown fifteen with all major factions on the Dragon Isles.","Freshscales Fifteen",,41184,-1,-1,0,15466,0,25,131072,42,4572403,0,151212,0,0,0,0
-"Complete the following quests during a storm on Siren Isle.","Siren's Squall",,41185,-1,-1,0,15506,0,5,131072,2,237589,0,170217,0,0,0,0
+"Complete the following quests during a storm on Siren Isle.","Siren's Squall",,41185,-1,-1,0,15506,0,5,131072,3,237589,0,170217,0,0,0,0
 "Experience life as the Earthen do by completing the achievements below.","Slate of the Union",,41186,-1,-1,0,15521,0,20,131072,1,5770811,0,170231,0,0,0,0
 "Aid the Assembly of the Deeps by completing the achievements below.","Rage Aside the Machine",,41187,-1,-1,0,15521,0,20,131072,3,5770812,0,170240,0,0,0,0
 "Aid the Hallowfall Arathi by completing the achievements below.","Crystal Chronicled",,41188,-1,-1,0,15521,0,20,131072,4,5770810,0,170248,0,0,0,0
 "Experience life in Azj-Kahet by completing the achievements below.","Azj the World Turns",,41189,-1,-1,0,15521,0,20,131072,5,5770809,0,170377,0,0,0,0
 "Complete a Tier 4 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 4 (Season 2)","Unlock: Tier 5 delves in The War Within",41191,-1,-1,0,15531,0,0,133120,19,6025441,0,170263,0,0,0,0
 "Complete a Tier 5 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 5 (Season 2)","Unlock: Tier 6 delves in The War Within",41192,-1,-1,41191,15531,0,0,133120,20,6025441,0,170265,0,0,0,0
-"Complete a Tier 6 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 7 (Season 2)","Unlock: Tier 7 delves in The War Within",41193,-1,-1,41198,15531,0,0,133120,22,6025441,0,170269,0,0,0,0
+"Complete a Tier 7 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 7 (Season 2)","Unlock: Tier 7 delves in The War Within",41193,-1,-1,41198,15531,0,0,133120,22,6025441,0,170269,0,0,0,0
+"Defeat the Chrome King within the Liberation of Undermine.","Fall of the Chrome King",,41228,2769,-1,0,15526,0,10,131072,41,6392621,0,206001,0,0,0,0
 "Complete a Tier 8 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 8 (Season 2)","Unlock: Tier 9 delves in The War Within",41194,-1,-1,41193,15531,0,0,133120,23,6025441,0,170271,0,0,0,0
 "Complete a Tier 9 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 9 (Season 2)","Unlock: Tier 10 delves in The War Within",41195,-1,-1,41194,15531,0,0,133120,24,6025441,0,170273,0,0,0,0
 "Complete a Tier 10 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 10 (Season 2)","Unlock: Tier 11 delves in The War Within",41196,-1,-1,41195,15531,0,0,133120,25,6025441,0,170275,0,0,0,0
@@ -11867,15 +11885,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "On Radiant Discord difficulty, defeat each of the following rare creatures encountered during the Worldsoul Memory events in Undermine.","Echoes of Deeper Dangers",,41215,-1,-1,0,15521,0,10,135168,105,255345,0,205793,0,0,0,0
 "Complete 10 of the following special encounters across Undermine.","Adventurer of Undermine",,41216,-1,-1,0,15521,0,5,131072,102,5792125,0,205804,0,0,0,0
 "Discover the hidden treasures across Undermine.","Treasures of Undermine",,41217,-1,-1,0,15521,0,10,131072,103,1518646,0,205827,0,0,0,0
-,"<DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power",,41218,-1,-1,0,15455,0,0,3276804,107,136243,234422,207975,0,0,0,0
+,"<DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power",,41218,-1,-1,0,15455,0,0,3538948,107,136243,0,207975,0,0,0,0
 "Logged in during WoW's 20th Anniversary.","WoW's 20th Anniversary",,41220,-1,-1,0,15274,0,0,2048,76,6036545,0,205956,0,0,0,0
 "Defeat the following bosses on any difficulty.","Liberation of Undermine",,41222,2769,-1,0,15526,0,10,131072,35,6392630,0,205973,0,0,0,0
 "Defeat the following bosses on Heroic difficulty.","Heroic: Liberation of Undermine",,41223,2769,-1,41222,15526,0,10,131072,36,6392630,0,205982,0,0,0,0
 "Defeat the following bosses on Mythic difficulty.","Mythic: Liberation of Undermine",,41224,2769,-1,41223,15526,0,10,131072,37,6392630,0,206021,0,0,0,0
 "Defeat the following bosses that enthrall the masses within the Liberation of Undermine.","Shock and Awesome",,41225,2769,-1,0,15526,0,10,131072,38,1370984,0,205991,0,0,0,0
-"Defeat the following bosses that threaten to dismantle the city within the Liberation of Undermine.","Maniacle Machinist",,41226,2769,-1,0,15526,0,10,131072,39,896469,0,205994,0,0,0,0
+"Defeat the following bosses that threaten to dismantle the city within the Liberation of Undermine.","Maniacal Machinist",,41226,2769,-1,0,15526,0,10,131072,39,896469,0,205994,0,0,0,0
 "Defeat the following bosses that control the casino within the Liberation of Undermine.","Beating the Odds",,41227,2769,-1,0,15526,0,10,131072,40,237285,0,205997,0,0,0,0
-"Defeat the Chrome King within the Liberation of Undermine.","Fall of the Chrome King",,41228,2769,-1,0,15526,0,10,131072,41,6392621,0,206001,0,0,0,0
 "Defeat Vexie in the Liberation of Undermine on Mythic difficulty.","Mythic: Vexie and the Geargrinders",,41229,2769,-1,0,15526,0,10,0,42,6392628,0,206005,0,0,0,0
 "Defeat the Cauldron of Carnage in the Liberation of Undermine on Mythic difficulty.","Mythic: Cauldron of Carnage",,41230,2769,-1,0,15526,0,10,0,43,6253176,0,206007,0,0,0,0
 "Defeat Rik Reverb in the Liberation of Undermine on Mythic difficulty.","Mythic: Rik Reverb",,41231,2769,-1,0,15526,0,10,0,44,6392625,0,206009,0,0,0,0
@@ -11885,12 +11902,11 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Mug'Zee in the Liberation of Undermine on Mythic difficulty.","Mythic: Mug'Zee, Heads of Security",,41235,2769,-1,0,15526,0,10,0,48,6392623,0,206017,0,0,0,0
 "Defeat Gallywix in the Liberation of Undermine on Mythic difficulty.","Mythic: Chrome King Gallywix","Title: Liberator of Undermine",41236,2769,-1,0,15526,0,10,0,49,6392621,0,206019,0,0,0,0
 "Complete the Liberation of Undermine raid achievements listed below.","Glory of the Liberation of Undermine Raider","Mount: Junkmaestro's Magnetomech",41286,2769,-1,0,168,0,10,143360,62,6392621,231173,206104,0,0,0,0
-"Defeat the following bosses in the Liberation of Undermine on Normal difficulty or higher while in a guild group.","Liberation of Undermine Guild Run",,41289,2769,-1,0,15529,0,10,61440,4,136243,0,206115,0,0,0,0
-"Defeat the following bosses in the Liberation of Undermine on Heroic difficulty or higher while in a guild group.","Heroic Liberation of Undermine Guild Run",,41290,2769,-1,0,15529,0,10,61440,5,136243,0,206126,0,0,0,0
-"Defeat Chrome King Gallywix in the Liberation of Undermine on Mythic difficulty while in a guild group.","Mythic: Chrome King Gallywix Guild Run",,41292,2769,-1,0,15529,0,10,61440,6,136243,0,206135,0,0,0,0
+"Defeat the following bosses in the Liberation of Undermine on Normal difficulty or higher while in a guild group.","Liberation of Undermine Guild Run",,41289,2769,-1,0,15529,0,10,61440,4,6245983,0,206115,0,0,0,0
+"Defeat the following bosses in the Liberation of Undermine on Heroic difficulty or higher while in a guild group.","Heroic Liberation of Undermine Guild Run",,41290,2769,-1,0,15529,0,10,61440,5,6245983,0,206126,0,0,0,0
+"Defeat Chrome King Gallywix in the Liberation of Undermine on Mythic difficulty while in a guild group.","Mythic: Chrome King Gallywix Guild Run",,41292,2769,-1,0,15529,0,10,61440,6,6245983,0,206135,0,0,0,0
 "Among the first two hundred guilds worldwide to defeat Chrome King Gallywix on Mythic difficulty.","Hall of Fame: Chrome King Gallywix","Title: Famed Slayer of The Chrome King",41296,2769,-1,0,15093,0,0,4258304,50,6392621,0,206143,0,0,0,0
 "Defeat Chrome King Gallywix in the Liberation of Undermine on Mythic difficulty, before the release of the next raid tier.","Cutting Edge: Chrome King Gallywix",,41297,2769,-1,41298,15271,0,0,6144,92,6392621,0,206145,0,0,0,0
-"Defeat Geezle Gigazap in Operation: Floodgate on Heroic difficulty or higher.","Heroic: Operation: Floodgate",,41340,2773,-1,0,15524,0,10,0,30,6392629,0,206301,0,0,0,0
 "Defeat Chrome King Gallywix in the Liberation of Undermine on Heroic difficulty or higher, before the release of the next raid tier.","Ahead of the Curve: Chrome King Gallywix",,41298,2769,-1,0,15271,0,0,6144,91,6392621,0,206147,0,0,0,0
 ,"Vexie and the Geargrinders (Raid Finder Liberation of Undermine)",,41299,2769,-1,0,15520,0,0,1,60,136243,0,206149,0,0,0,0
 ,"Vexie and the Geargrinders (Normal Liberation of Undermine)",,41300,2769,-1,0,15520,0,0,1,61,136243,0,206151,0,0,0,0
@@ -11904,10 +11920,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Rik Reverb (Normal Liberation of Undermine)",,41308,2769,-1,0,15520,0,0,1,69,136243,0,206167,0,0,0,0
 ,"Rik Reverb (Heroic Liberation of Undermine)",,41309,2769,-1,0,15520,0,0,1,70,136243,0,206169,0,0,0,0
 ,"Rik Reverb (Mythic Liberation of Undermine)",,41310,2769,-1,0,15520,0,0,1,71,136243,0,206171,0,0,0,0
-,"Stix Bunkumker (Raid Finder Liberation of Undermine)",,41311,2706,-1,0,15520,0,0,1,72,136243,0,206173,0,0,0,0
-,"Stix Bunkumker (Normal Liberation of Undermine)",,41312,2706,-1,0,15520,0,0,1,73,136243,0,206175,0,0,0,0
-,"Stix Bunkumker (Heroic Liberation of Undermine)",,41313,2706,-1,0,15520,0,0,1,74,136243,0,206177,0,0,0,0
-,"Stix Bunkumker (Mythic Liberation of Undermine)",,41314,2706,-1,0,15520,0,0,1,75,136243,0,206179,0,0,0,0
+,"Stix Bunkjunker (Raid Finder Liberation of Undermine)",,41311,2706,-1,0,15520,0,0,1,72,136243,0,206173,0,0,0,0
+,"Stix Bunkjunker (Normal Liberation of Undermine)",,41312,2706,-1,0,15520,0,0,1,73,136243,0,206175,0,0,0,0
+,"Stix Bunkjunker (Heroic Liberation of Undermine)",,41313,2706,-1,0,15520,0,0,1,74,136243,0,206177,0,0,0,0
+,"Stix Bunkjunker (Mythic Liberation of Undermine)",,41314,2706,-1,0,15520,0,0,1,75,136243,0,206179,0,0,0,0
 ,"Sprocketmonger Lockenstock (Raid Finder Liberation of Undermine)",,41315,2706,-1,0,15520,0,0,1,76,136243,0,206181,0,0,0,0
 ,"Sprocketmonger Lockenstock (Normal Liberation of Undermine)",,41316,2706,-1,0,15520,0,0,1,77,136243,0,206183,0,0,0,0
 ,"Sprocketmonger Lockenstock (Heroic Liberation of Undermine)",,41317,2706,-1,0,15520,0,0,1,78,136243,0,206185,0,0,0,0
@@ -11927,6 +11943,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"G-99 Breakneck <Tracking Achievement>",,41331,-1,-1,0,15248,0,0,1179652,33,1408996,0,206252,0,0,0,0
 "Defeat Mug'Zee, Heads of Security while all players have slept with the fishes in Liberation of Undermine on Normal difficulty or higher.","Sleep with the Fishes",,41337,2769,-1,0,15526,0,10,0,33,134169,0,206292,0,0,0,0
 "Defeat Rik Reverb after activating both D.I.S.C.O.s during Hype Hustle in the Liberation of Undermine on Normal difficulty or higher.","Just /Dance",,41338,2769,-1,0,15526,0,10,0,26,133836,0,206294,0,0,0,0
+"Defeat Geezle Gigazap in Operation: Floodgate.","Operation: Floodgate",,41339,2773,-1,0,15524,0,10,0,29,6392629,0,206299,0,0,0,0
+"Defeat Geezle Gigazap in Operation: Floodgate on Heroic difficulty or higher.","Heroic: Operation: Floodgate",,41340,2773,-1,0,15524,0,10,0,30,6392629,0,206301,0,0,0,0
 "Defeat Geezle Gigazap in Operation: Floodgate on Mythic or Mythic Keystone difficulty.","Mythic: Operation: Floodgate",,41341,2773,-1,0,15524,0,10,0,31,6392629,0,206303,0,0,0,0
 ,"Geezle Gigazap (Normal Operation: Floodgate)",,41342,2773,-1,0,15520,0,0,1,25,136243,0,206305,0,0,0,0
 ,"Geezle Gigazap (Heroic Operation: Floodgate)",,41343,2773,-1,0,15520,0,0,1,26,136243,0,206307,0,0,0,0
@@ -12014,22 +12032,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete all Mythic+ dungeons within the time limit at keystone level 25 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 25","Keystones will no longer deplete below level 25 during the War Within Season 2.",41738,-1,-1,0,15272,0,0,1050624,138,648754,0,207893,0,0,0,0
 "Has completed quest Ship it! and does not have mount.","Delver's Dirigible Recovery",,41751,-1,-1,0,15523,0,0,1179652,66,136243,219391,207943,0,0,0,0
 ,"<DNT> Plunderstorm Plunder Tracker - Mainline Power Rewards",,41752,-1,-1,0,15455,0,0,3276804,108,136243,0,205853,0,0,0,0
-"Collect all seven Warcraft Rumble Minis.","Warcraft Rumble Minis, Get 'Em All!",,17344,-1,-1,0,15247,0,10,131072,9,5149946,0,142780,0,0,0,0
-"Upgrade Maiev once.","Warcraft Rumble Minis, Maiev's New Look",,17346,-1,-1,0,15247,0,5,131072,12,5149946,0,142790,0,0,0,0
-"Upgrade Sneed once.","Warcraft Rumble Minis, Sneed's New Look",,17347,-1,-1,0,15247,0,5,131072,14,5149948,0,142792,0,0,0,0
-"Upgrade The Night Elf Huntress once.","Warcraft Rumble Minis, Huntress' New Look",,17348,-1,-1,0,15247,0,5,131072,16,5149868,0,142794,0,0,0,0
-"Upgrade the Stonehoof Tauren once.","Warcraft Rumble Minis, Tauren's New Look",,17349,-1,-1,0,15247,0,5,131072,18,5149985,0,142796,0,0,0,0
-"Upgrade the Undead Ghoul once.","Warcraft Rumble Minis, Ghoul's New Look",,17350,-1,-1,0,15247,0,5,131072,20,5149866,0,142798,0,0,0,0
-"Upgrade the Murloc once.","Warcraft Rumble Minis, Murloc's New Look",,17351,-1,-1,0,15247,0,5,131072,22,5149947,0,142800,0,0,0,0
-"Upgrade the Whelp Egg once.","Warcraft Rumble Minis, Whelp Egg's New Look",,17352,-1,-1,0,15247,0,5,131072,24,5149993,0,142802,0,0,0,0
-"Upgrade Maiev twice.","Warcraft Rumble Minis, Maiev's Newer Look",,17353,-1,-1,0,15247,0,5,131072,13,5149946,0,142804,0,0,0,0
-"Upgrade Sneed twice.","Warcraft Rumble Minis, Sneed's Newer Look",,17354,-1,-1,0,15247,0,5,131072,15,5149948,0,142806,0,0,0,0
-"Upgrade The Night Elf Huntress twice.","Warcraft Rumble Minis, Huntress' Newer Look",,17355,-1,-1,0,15247,0,5,131072,17,5149868,0,142808,0,0,0,0
-"Upgrade the Stonehoof Tauren twice.","Warcraft Rumble Minis, Tauren's Newer Look",,17356,-1,-1,0,15247,0,5,131072,19,5149985,0,142810,0,0,0,0
-"Upgrade the Undead Ghoul twice.","Warcraft Rumble Minis, Ghoul's Newer Look",,17357,-1,-1,0,15247,0,5,131072,21,5149866,0,142812,0,0,0,0
-"Upgrade the Murloc twice.","Warcraft Rumble Minis, Murloc's Newer Look",,17358,-1,-1,0,15247,0,5,131072,23,5149947,0,142814,0,0,0,0
-"Upgrade the Whelp Egg twice.","Warcraft Rumble Minis, Whelp Egg's Newer Look",,17359,-1,-1,0,15247,0,5,131072,25,5149993,0,142816,0,0,0,0
-"Upgrade all seven Warcraft Rumble Minis once.","Warcraft Rumble Minis, New Looks!",,17360,-1,-1,0,15247,0,10,131072,10,5149946,0,142823,0,0,0,0
-"Upgrade all seven Warcraft Rumble Minis twice.","Rumble Minis, All the Looks!",,17361,-1,-1,0,15247,0,10,131072,11,5149946,0,142831,0,0,0,0
-,"<DNT> Complete the ""The Coalition of Flames"" questline.",,18691,-1,-1,0,15455,0,0,1179648,90,136243,0,147726,0,0,0,0
-"Complete the Lingering Shadows storyline.","Lingering Shadows","Appearance: Root Defender's Spear and Root Defender's Shield",41052,-1,-1,0,15506,0,10,131072,3,5976943,0,169684,0,0,0,0
+,"Weathered Undermine Crests earned",,41786,-1,-1,0,130,0,0,1,72,136243,0,208192,0,0,0,0
+,"Carved Undermine Crests earned",,41789,-1,-1,0,130,0,0,1,73,136243,0,208194,0,0,0,0
+,"Runed Undermine Crests earned",,41790,-1,-1,0,130,0,0,1,74,136243,0,208196,0,0,0,0
+,"Gilded Undermine Crests earned",,41791,-1,-1,0,130,0,0,1,75,136243,0,208198,0,0,0,0
+,"[HIDDEN] Renown 20 with Gallagio Loyalty Rewards / Teach Raid Teleport Spell",,41793,-1,-1,0,15526,0,0,1310720,52,136243,0,208202,0,0,0,0
+,"11.0.7 Plunderstorm - Mainline Power Reward - Fixup Achievement",,41807,-1,-1,0,15506,0,0,137756676,1,136243,0,208252,0,0,0,0
+"Complete the Lingering Shadows storyline.","Lingering Shadows","Appearance: Root Defender's Spear and Root Defender's Shield",41052,-1,-1,0,15506,0,10,131072,4,5976943,0,169684,0,0,0,0

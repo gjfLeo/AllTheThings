@@ -2798,6 +2798,7 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Traditionalist's Kaldorei Blades",3119,0,77783,67,0,0,0,1,9,100107,10,0
 "Rose Gold Titan Key",3120,0,77830,3,0,0,0,1,9,100107,10,0
 "Kaldorei Protector's Adornment",3121,0,77884,6,222,14033,0,1,0,100107,10,38250
+"Cosmic Weapons Cache",3122,0,77952,195,0,0,0,1,9,100107,10,0
 "Chromatically Calibrated Holo-Gogs",3123,0,78030,1,0,0,0,1,9,100107,10999,0
 "Chromatically Calibrated Bio-Optic Killshades",3124,0,78031,1,0,0,0,1,9,100107,10999,0
 "Chromatically Calibrated Retinal Armor",3125,0,78032,1,0,0,0,1,9,100107,10999,0
@@ -3808,9 +3809,9 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Stonebound Earthen Regalia",4259,0,86669,3,269,14120,3694,1,10,110000,4150,0
 "Stonebound Earthen Regalia",4260,0,86669,3,269,14120,3694,1,10,110000,4150,0
 "Ornaments of the Pearlescent Butterfly",4261,0,86714,2,300,14226,0,1,10,110100,10,0
-"Ornaments of the Spring Butterfly",4262,0,86726,2,300,14151,0,1,10,110100,10,0
-"Ornaments of the Ruby Butterfly",4263,0,86727,2,300,13965,0,1,10,110100,10,0
-"Ornaments of the Midnight Butterfly",4264,0,86729,2,300,14015,0,1,10,110100,10,0
+"Ornaments of the Spring Butterfly",4262,0,86726,2,300,14151,4261,1,10,110100,10,0
+"Ornaments of the Ruby Butterfly",4263,0,86727,2,300,13965,4261,1,10,110100,10,0
+"Ornaments of the Midnight Butterfly",4264,0,86729,2,300,14015,4261,1,10,110100,10,0
 "Goblin Bruiser's Attire",4265,0,0,0,301,13966,0,1,10,110100,10,0
 "Undermine Enforcer's Attire",4266,0,0,0,302,14015,4265,1,10,110100,10,0
 "Noxious Injector Apparatus",4267,400,0,0,303,14174,4337,1,10,110100,10,0
@@ -3901,4 +3902,4 @@ Dreamfire,2748,35,0,2,199,13992,2667,1,9,100000,10200,0
 "Upcycled Outfit",4359,3592,0,0,312,13990,4344,1,10,110100,4000,0
 "Power-Washed Wardrobe",4360,4164,0,0,312,13990,4345,1,10,110100,4000,0
 "Descaled Wear",4361,35,0,0,312,13990,4343,1,10,110100,4000,0
-"Cosmic Weapons Cache",3122,0,77952,195,0,0,0,1,9,100107,10,0
+"Golden Crests of the Kingdom",3901,0,84999,67,0,14130,3900,1,10,110005,1640,0
