@@ -1,12 +1,6 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-ExportDB.OnTooltipDB.ForNetherwing = [[~function(t, tooltipInfo)
-	local reputation = t.reputation;
-	if reputation < 42000 then
-		_.Modules.FactionData.AddReputationTooltipInfo(tooltipInfo, reputation, "Turn in Netherwing Eggs.", 250, 42000);
-	end
-end]];
 root(ROOTS.Zones, {
 	m(OUTLAND, applyclassicphase(TBC_PHASE_ONE, {
 		m(SHADOWMOON_VALLEY, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {
@@ -15,7 +9,6 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					explorationAch(864),	-- Explore Shadowmoon Valley
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, achWithRep(898, FACTION_NETHERWING)),	-- On Wings of Nether
 					ach(1195, {	-- Shadow of the Betrayer
 						-- #if ANYCLASSIC
 						-- #if AFTER CATA
@@ -158,11 +151,6 @@ root(ROOTS.Zones, {
 					visit_exploration(3821,{coord={61.3,49.3,SHADOWMOON_VALLEY}}),	-- Warden's Cage
 					exploration(3745),	-- Wildhammer Stronghold
 				}),
-				n(FACTIONS, {
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, faction(FACTION_NETHERWING, {	-- Netherwing
-						["OnTooltip"] = [[_.OnTooltipDB.ForNetherwing]],
-					})),
-				}),
 				n(FLIGHT_PATHS, {
 					fp(140, {	-- Altar of Sha'tar, Shadowmoon Valley
 						["cr"] = 19581,	-- Maddix <Flight Master>
@@ -202,32 +190,21 @@ root(ROOTS.Zones, {
 							r(44157),	-- Turbo-Charged Flying Machine
 						}),
 					}),
-					prof(HERBALISM, {
-						applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32506)),	-- Netherwing Egg
-						applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32468)),	-- Netherdust Pollen
-					}),
-					prof(MINING, {
-						applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32506)),	-- Netherwing Egg
-						applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32464)),	-- Nethercite Ore
-					}),
-					prof(SKINNING, {
-						applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32470)),	-- Nethermine Flayer Hide
-					}),
 				}),
 				n(QUESTS, {
 					q(10642, {	-- A Ghost in the Machine
 						["qg"] = 21774,	-- Zorus the Judicator
 						["sourceQuest"] = 11045,	-- Zorus the Judicator
-						["coords"] = {
-							{ 36.6, 55.4, SHADOWMOON_VALLEY },
-							{ 36.6, 56.6, SHADOWMOON_VALLEY },
-							{ 37.2, 55.8, SHADOWMOON_VALLEY },
-						},
+						["coord"] = { 37, 56.4, SHADOWMOON_VALLEY },
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/15 Ever-burning Ash
-								["provider"] = { "i", 30716 },	-- Ever-burning Ash
+								["providers"] = {
+									{ "i",  30716 },	-- Ever-burning Ash
+									{ "o", 184948 },	-- Ever-burning Ash
+								},
+								["coord"] = { 32.2, 37.6, SHADOWMOON_VALLEY },
 							}),
 						},
 					}),
@@ -235,13 +212,14 @@ root(ROOTS.Zones, {
 						["qg"] = 21769,	-- Overlord Or'barokh
 						["coord"] = { 28.4, 26.4, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/20 Shadowmoon Valley Wildlife slain
 								["providers"] = {
-									{ "n", 21864},	-- Scorchshell Pincer
-									{ "n", 21878},	-- Felboar
-									{ "n", 21879},	-- Vilewing Chimaera
-									{ "n", 23020},	-- Shadow Serpent
+									{ "n", 21864 },	-- Scorchshell Pincer
+									{ "n", 21878 },	-- Felboar
+									{ "n", 21879 },	-- Vilewing Chimaera
+									{ "n", 23020 },	-- Shadow Serpent
 								},
 							}),
 						},
@@ -251,32 +229,17 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = 11046,	-- Chief Apothecary Hildagard
 						["coord"] = { 29.9, 27.6, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/15 Ever-Burning Ash
 								["providers"] = {
-									{ "i", 30716 },	-- Ever-Burning Ash
+									{ "i",  30716 },	-- Ever-Burning Ash
 									{ "o", 184948 },	-- Ever-burning Ash
 								},
+								["coord"] = { 32.2, 37.6, SHADOWMOON_VALLEY },
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11041, {	-- A Job Unfinished...
-						["provider"] = { "i", 32621 },	-- Partially Digested Hand
-						["sourceQuest"] = 10870,	-- Ally of the Netherwing
-						["minReputation"] = { FACTION_NETHERWING, NEUTRAL },	-- Netherwing, Neutral.
-						["groups"] = {
-							objective(1, {	-- 0/10 Overmine Flayer slain
-								["provider"] = { "n", 23264 },	-- Overmine Flayer
-							}),
-							objective(2, {	-- 0/1 Barash the Den Mother slain
-								["provider"] = { "n", 23269 },	-- Barash the Den Mother
-							}),
-							i(32866),	-- Ascendant's Boots
-							i(32867),	-- Dragonmaw Augur's Cinch
-							i(32865),	-- Drake Tamer's Gloves
-							i(32868),	-- Skybreaker's Mantle
-						},
-					})),
 					q(10515, {	-- A Lesson Learned
 						["qg"] = 21183,	-- Oronok Torn-heart
 						["sourceQuest"] = 10514,	-- I Was a Lot of Things...
@@ -285,35 +248,50 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/10	Ravenous Flayer Egg Destroyed
 								["provider"] = { "o", 184684 },	-- Ravenous Flayer Egg
+								["coord"] = { 57.2, 18, SHADOWMOON_VALLEY },
 							}),
 						},
 					}),
-					q(10637, {	-- A Necessary Distraction
+					q(10637, {	-- A Necessary Distraction (The Aldor)
 						["qg"] = 21860,	-- Exarch Onaala
 						["sourceQuest"] = 10587,	-- Karabor Training Grounds
+						["coord"] = { 61.2, 29.2, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
+						["groups"] = {
+							objective(1, {	-- Azaloth Freed
+								["providers"] = {
+									{ "i", 30811 },	-- Scroll of Demonic Unbanishing
+									{ "n", 21506 },	-- Azaloth
+								},
+								["coord"] = { 69.8, 51.6, SHADOWMOON_VALLEY },
+								["crs"] = {
+									21505,	-- Sunfury Summoner
+									21503,	-- Sunfury Warlock
+								},
+							}),
+						},
 					}),
-					q(10688, {	-- A Necessary Distraction
+					q(10688, {	-- A Necessary Distraction (The Scryers)
 						["qg"] = 21954,	-- Larissa Sunstrike
 						["sourceQuest"] = 10687,	-- Karabor Training Grounds
 						["coord"] = { 55.7, 58.1, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
+						["groups"] = {
+							objective(1, {	-- Azaloth Freed
+								["providers"] = {
+									{ "i", 30811 },	-- Scroll of Demonic Unbanishing
+									{ "n", 21506 },	-- Azaloth
+								},
+								["coord"] = { 69.8, 51.6, SHADOWMOON_VALLEY },
+								["crs"] = {
+									21505,	-- Sunfury Summoner
+									21503,	-- Sunfury Warlock
+								},
+							}),
+						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11020, {	-- A Slow Death
-						["qg"] = 23141,	-- Yarzill the Merc
-						["sourceQuest"] = 11019,	-- Your Friend on the Inside
-						["coord"] = { 65.9, 86.4, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["isDaily"] = true,
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11050, {	-- Accepting All Eggs
-						["qg"] = 23141,	-- Yarzill the Merc
-						["sourceQuest"] = 11049,	-- The Great Netherwing Egg Hunt
-						["coord"] = { 65.9, 86.4, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["cost"] = { { "i", 32506, 1 } },	-- Netherwing Egg
-						["repeatable"] = true,
-					})),
 					q(10664, {	-- Additional Materials
 						["qg"] = 21465,	-- David Wayne
 						["sourceQuests"] = {
@@ -321,19 +299,31 @@ root(ROOTS.Zones, {
 							10663,	-- The Hermit Smith (H)
 						},
 						["coord"] = { 77.4, 38.6, TEROKKAR_FOREST },
+						["cost"] = {
+							{ "i", 23784, 1 },	-- Adamantite Frame
+							{ "i", 23793, 4 },	-- Heavy Knothide Leather
+							{ "i", 30823, 1 },	-- Demon Warding Totem
+						},
+						["maps"] = { SHATTRATH_CITY },
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10628, {	-- Akama
 						["qg"] = 21826,	-- Sanoru
 						["sourceQuest"] = 10622,	-- Proof of Allegiance
 						["coord"] = { 57.3, 49.5, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					q(10708, {	-- Akama's Promise (awarded "Akama's Promise" criteria)
-						["qg"] = 21700,	-- Akama
+					q(10708, {	-- Akama's Promise
+						["providers"] = {
+							{ "n", 21700 },	-- Akama
+							{ "i", 32646 },	-- Medallion of Karabor
+						},
 						["sourceQuest"] = 10707,	-- The Ata'mal Terrace
 						-- #if AFTER WRATH
 						["altQuests"] = { 11052 },	-- Akama's Promise
 						-- #endif
 						["coord"] = { 58.1, 48.1, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							i(30932),	-- Akama's Sash
 							i(30999),	-- Ashtongue Blade
@@ -344,11 +334,15 @@ root(ROOTS.Zones, {
 						},
 					}),
 					-- #if AFTER WRATH
-					q(11052, {	-- OLD Akama's Promise (awarded "Akama's Promise" criteria)
-						["qg"] = 21700,	-- Akama
+					q(11052, {	-- OLD Akama's Promise
+						["providers"] = {
+							{ "n", 21700 },	-- Akama
+							{ "i", 32646 },	-- Medallion of Karabor
+						},
 						["sourceQuest"] = 10707,	-- The Ata'mal Terrace
 						["altQuests"] = { 10708 },	-- Akama's Promise
 						["coord"] = { 58.1, 48.1, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							i(30932),	-- Akama's Sash
 							i(30999),	-- Ashtongue Blade
@@ -359,16 +353,21 @@ root(ROOTS.Zones, {
 						},
 					}),
 					-- #endif
-					q(10640, {	-- Altruis (Aldor)
+					q(10640, {	-- Altruis (The Aldor)
 						["qg"] = 21860,	-- Exarch Onaala
 						["sourceQuest"] = 10637,	-- A Necessary Distraction
+						["coord"] = { 61.2, 29.2, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["maps"] = { NAGRAND },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					q(10689, {	-- Altruis (Scryers)
+					q(10689, {	-- Altruis (The Scryers)
 						["qg"] = 21954,	-- Larissa Sunstrike
 						["sourceQuest"] = 10688,	-- A Necessary Distraction
 						["coord"] = { 55.7, 58.1, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["maps"] = { NAGRAND },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10870, {	-- Ally of the Netherwing
 						["qg"] = 22112,	-- Karynaku
@@ -378,6 +377,7 @@ root(ROOTS.Zones, {
 						-- #if AFTER WRATH
 						["altQuests"] = { 10871 },	-- Ally of the Netherwing
 						-- #endif
+						["lvl"] = lvlsquish(70, 70, 25),
 						["groups"] = {
 							i(31492),	-- Claw of the Netherwing Flight
 							i(31491),	-- Netherwing Defender's Shield
@@ -393,6 +393,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 69.8, 61.4, SHADOWMOON_VALLEY },
 						["_drop"] = { "races" },	-- stop this from being marked as horde only when it is not horde only
 						["altQuests"] = { 10870 },	-- Ally of the Netherwing
+						["lvl"] = lvlsquish(70, 70, 25),
 						["groups"] = {
 							i(31492),	-- Claw of the Netherwing Flight
 							i(31491),	-- Netherwing Defender's Shield
@@ -405,6 +406,8 @@ root(ROOTS.Zones, {
 					q(10527, {	-- Ar'tor, Son of Oronok
 						["qg"] = 21183,	-- Oronok Torn-heart
 						["sourceQuest"] = 10519,	-- The Cipher of Damnation - Truth and History
+						["coord"] = { 53.8, 23.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10777, {	-- Asghar's Totem
 						["qg"] = 22024,	-- Parshah
@@ -433,12 +436,17 @@ root(ROOTS.Zones, {
 							10667,	-- Underworld Loam
 						},
 						["coord"] = { 77.4, 38.6, TEROKKAR_FOREST },
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10781, {	-- Battle of the Crimson Watch
 						["provider"] = { "o", 185126 },	-- Crystal Prison
 						["sourceQuest"] = 10793,	-- The Journal of Val'zareq: Portends of War
 						["coord"] = { 51.4, 72.7, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
+							objective(1, {	-- Crimson Sigil Forces Annihilated
+								["provider"] = { "n", 22076 },	-- Torloth the Magnificent <The Crimson Sigil>
+							}),
 							i(31380),	-- Acrobat's Mark of the Sha'tar
 							i(31381),	-- Aggressor's Mark of the Sha'tar
 							i(31382),	-- Mage's Mark of the Sha'tar
@@ -455,76 +463,62 @@ root(ROOTS.Zones, {
 							-- #endif
 						},
 					}),
-					q(10562, {	-- Besieged! (A)
-						["qg"] = 21357,	-- Wing Commander Nuainn
-						["sourceQuests"] = {
-							11043,	-- Building a Better Gryphon
-							11044,	-- Visions of Destruction
-							-- #if AFTER 7.3.5.25600
-							49550,	-- Hero's Call: Shadowmoon Valley! (Outland)
-							-- #endif
-						},
-						["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/10 Infernal Attacker slain
-								["providers"] = {
-									{ "n", 21419},	-- Infernal Attacker
-									{ "n", 21786},	-- Infernal Attacker
-								},
-							}),
-						},
-					}),
-					q(10595, {	-- Besieged! (H)
-						["qg"] = 21359,	-- Blood Guard Gulmok
-						["sourceQuests"] = {
-							11048,	-- Kroghan's Report
-							11047,	-- The Apprentice's Request
-							-- #if AFTER 7.3.5.25600
-							49532,	-- Warchief's Command: Shadowmoon Valley!
-							-- #endif
-						},
-						["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/10 Infernal Attacker slain
-								["providers"] = {
-									{ "n", 21419},	-- Infernal Attacker
-									{ "n", 21786},	-- Infernal Attacker
-								},
-							}),
-						},
-					}),
-					q(10564, {	-- Blast the Infernals! (A)
-						["qg"] = 21357,	-- Wing Commander Nuainn
-						["sourceQuest"] = 10572,	-- Setting Up the Bomb (A)
-						["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- Besieged!
+						["allianceQuestData"] = q(10562, {	-- Besieged! (A)
+							["qg"] = 21357,	-- Wing Commander Nuainn
+							["sourceQuests"] = {
+								11043,	-- Building a Better Gryphon
+								11044,	-- Visions of Destruction
+								-- #if AFTER 7.3.5.25600
+								49550,	-- Hero's Call: Shadowmoon Valley! (Outland)
+								-- #endif
+							},
+							["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10595, {	-- Besieged! (H)
+							["qg"] = 21359,	-- Blood Guard Gulmok
+							["sourceQuests"] = {
+								11048,	-- Kroghan's Report
+								11047,	-- The Apprentice's Request
+								-- #if AFTER 7.3.5.25600
+								49532,	-- Warchief's Command: Shadowmoon Valley!
+								-- #endif
+							},
+							["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
-							objective(1, {	-- 0/1	Destroy Legion Hold Infernals
+							objective(1, {	-- 0/10 Infernal Attacker slain
+								["providers"] = {
+									{ "n", 21419 },	-- Infernal Attacker
+									{ "n", 21786 },	-- Infernal Attacker
+								},
+							}),
+						},
+					},
+					{	-- Blast the Infernals!
+						["allianceQuestData"] = q(10564, {	-- Blast the Infernals! (A)
+							["qg"] = 21357,	-- Wing Commander Nuainn
+							["sourceQuest"] = 10572,	-- Setting Up the Bomb (A)
+							["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10598, {	-- Blast the Infernals! (H)
+							["qg"] = 21359,	-- Blood Guard Gulmok
+							["sourceQuest"] = 10597,	-- Setting Up the Bomb (H)
+							["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
+						}),
+						["lvl"] = lvlsquish(67, 67, 25),
+						["groups"] = {
+							objective(1, {	-- 0/1 Destroy Legion Hold Infernals
 								["provider"] = { "i", 30614 },	-- Fel Bomb
 								["coord"] = { 22.6, 39.9, SHADOWMOON_VALLEY },
-								["cr"] = 21512,	-- Invis Legion Hold Glyph
 							}),
 							i(30986),	-- Bloodforged Guard
 							i(30947),	-- Crimson Mail Hauberk
 							i(30946),	-- Mooncrest Headdress
 							i(30929),	-- Soothsayer's Kilt
 						},
-					}),
-					q(10598, {	-- Blast the Infernals! (H)
-						["qg"] = 21359,	-- Blood Guard Gulmok
-						["sourceQuest"] = 10597,	-- Setting Up the Bomb (H)
-						["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(30986),	-- Bloodforged Guard
-							i(30947),	-- Crimson Mail Hauberk
-							i(30946),	-- Mooncrest Headdress
-							i(30929),	-- Soothsayer's Kilt
-						},
-					}),
+					},
 					q(10774, {	-- Blood Elf + Giant = ???
 						["providers"] = {
 							{ "n", 22059 },	-- Wildhammer Gryphon Rider
@@ -535,33 +529,27 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
-							objective(1, {	--	0/1 Chancellor Bloodleaf slain
-								["cr"] = 22012, -- Chancellor Bloodleaf
+							objective(1, {	-- 0/1 Chancellor Bloodleaf slain
+								["provider"] = { "n", 22012 },	-- Chancellor Bloodleaf
+								["coord"] = { 53, 70.6, SHADOWMOON_VALLEY },
 							}),
-							objective(2, {	--	0/1 Corok the Mighty slain
-								["cr"] = 22011, -- Corok the Mighty
+							objective(2, {	-- 0/1 Corok the Mighty slain
+								["provider"] = { "n", 22011 },	-- Corok the Mighty
+								["coord"] = { 53.6, 69.8, SHADOWMOON_VALLEY },
 							}),
-							objective(3, {	--	0/1 Illidan's Command
+							objective(3, {	-- 0/1 Illidan's Command
 								["provider"] = { "i", 31271 },	-- Illidan's Command
+								["coord"] = { 53, 70.6, SHADOWMOON_VALLEY },
 								["cr"] = 22012,	-- Chancellor Bloodleaf
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11012, {	-- Blood Oath of the Netherwing
-						["qg"] = 22113,	-- Mordenai
-						["sourceQuest"] = 10870,	-- Ally of the Netherwing
-						["coord"] = { 59.3, 58.7, SHADOWMOON_VALLEY },
-					})),
 					q(10546, {	-- Borak, Son of Oronok
 						["qg"] = 21183,	-- Oronok Torn-heart
 						["sourceQuest"] = 10519,	-- The Cipher of Damnation - Truth and History
+						["coord"] = { 53.8, 23.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11107, {	-- Bow to the Highlord
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11092,	-- Hail, Commander!
-						["coord"] = { 66.0, 86.4, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-					})),
 					q(10773, {	-- Breaching the Path (A)
 						["providers"] = {
 							{ "n", 22059 },	-- Wildhammer Gryphon Rider
@@ -570,15 +558,15 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10772,	-- The Path of Conquest (A)
 						["description"] = "Use your Wildhammer Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
 						["races"] = ALLIANCE_ONLY,
-						["lvl"] = lvlsquish(67, 67, 25),
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
-							objective(1, {	--	0/20 Eclipsion Soldier slain
+							objective(1, {	-- 0/20 Eclipsion Soldier slain
 								["provider"] = { "n", 22016 },	-- Eclipsion Soldier
 							}),
-							objective(2, {	--	0/10 Eclipsion Cavalier slain
+							objective(2, {	-- 0/10 Eclipsion Cavalier slain
 								["provider"] = { "n", 22018 },	-- Eclipsion Cavalier
 							}),
-							objective(3, {	--	0/5 Son of Corok slain
+							objective(3, {	-- 0/5 Son of Corok slain
 								["provider"] = { "n", 19824 },	-- Son of Corok
 							}),
 						},
@@ -591,6 +579,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10750,	-- The Path of Conquest (H)
 						["description"] = "Use your Kor'kron Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/20 Eclipsion Soldier slain
 								["provider"] = { "n", 22016 },	-- Eclipsion Soldier
@@ -603,42 +592,41 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					q(10586, {	-- Bring Down the Warbringer! (A)
-						["qg"] = 21471,	-- Stormer Ewan Wildwing
-						["sourceQuests"] = {
-							10583,	-- The Fate of Flanis
-							10585,	-- The Summoning Chamber (A)
-						},
-						["coord"] = { 40.4, 41.2, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- Bring Down the Warbringer!
+						["allianceQuestData"] = q(10586, {	-- Bring Down the Warbringer! (A)
+							["providers"] = {
+								{ "n", 21471 },	-- Stormer Ewan Wildwing
+								{ "i", 30688 },	-- Deathforge Key
+							},
+							["sourceQuests"] = {
+								10583,	-- The Fate of Flanis
+								10585,	-- The Summoning Chamber (A)
+							},
+							["coord"] = { 40.4, 41.2, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10603, {	-- Bring Down the Warbringer! (H)
+							["providers"] = {
+								{ "n", 21475 },	-- Scout Zagran
+								{ "i", 30688 },	-- Deathforge Key
+							},
+							["sourceQuests"] = {
+								10601,	-- The Fate of Kagrosh
+								10602,	-- The Summoning Chamber (H)
+							},
+							["coord"] = { 38.5, 38.1, SHADOWMOON_VALLEY },
+						}),
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Warbringer Razuun slain
 								["provider"] = { "n", 21287 },	-- Warbringer Razuun
+								["coord"] = { 39, 46, SHADOWMOON_VALLEY },
 							}),
 							objective(2, {	-- 0/1 Razuun's Orders
 								["provider"] = { "i", 30689 },	-- Razuun's Orders
 								["cr"] = 21287,	-- Warbringer Razuun
 							}),
 						},
-					}),
-					q(10603, {	-- Bring Down the Warbringer! (H)
-						["qg"] = 21475,	-- Scout Zagran
-						["sourceQuests"] = {
-							10601,	-- The Fate of Kagrosh
-							10602,	-- The Summoning Chamber (H)
-						},
-						["coord"] = { 38.5, 38.1, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Warbringer Razuun slain
-								["provider"] = { "n", 21287 },	-- Warbringer Razuun
-							}),
-							objective(2, {	-- 0/1 Razuun's Orders
-								["provider"] = { "i", 30689 },	-- Razuun's Orders
-								["cr"] = 21287,	-- Warbringer Razuun
-							}),
-						},
-					}),
+					},
 					q(11043, {	-- Building a Better Gryphon
 						["qg"] = 21107,	-- Rip Pedalslam
 						["coord"] = { 61.2, 70.4, BLADES_EDGE_MOUNTAINS },
@@ -646,11 +634,17 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 						["lvl"] = lvlsquish(67, 67, 20),
 					}),
-					q(10626, {	-- Capture the Weapons (A)
-						["qg"] = 19370,	-- Ordinn Thunderfist
-						["sourceQuest"] = 10621,	-- Illidari Bane-Shard (A)
-						["coord"] = { 36.8, 54.8, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- Capture the Weapons
+						["allianceQuestData"] = q(10626, {	-- Capture the Weapons (A)
+							["qg"] = 19370,	-- Ordinn Thunderfist
+							["sourceQuest"] = 10621,	-- Illidari Bane-Shard (A)
+							["coord"] = { 36.8, 54.8, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10627, {	-- Capture the Weapons (H)
+							["qg"] = 19333,	-- Grokom Deatheye
+							["sourceQuest"] = 10623,	-- Illidari Bane-Shard (H)
+							["coord"] = { 29.8, 31.2, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Makazradon's Glaive
@@ -659,6 +653,7 @@ root(ROOTS.Zones, {
 							}),
 							objective(2, {	-- 0/1 Morgroron's Glaive
 								["provider"] = { "i", 30785 },	-- Morgroron's Glaive
+								["coord"] = { 23.2, 38.2, SHADOWMOON_VALLEY },
 								["cr"] = 21500,	-- Morgroron
 							}),
 							i(30926),	-- Ashwalker's Footwraps
@@ -666,59 +661,14 @@ root(ROOTS.Zones, {
 							i(30950),	-- Darkhunter's Cinch
 							i(30966),	-- Singed Vambraces
 						},
-					}),
-					q(10627, {	-- Capture the Weapons (H)
-						["qg"] = 19333,	-- Grokom Deatheye
-						["sourceQuest"] = 10623,	-- Illidari Bane-Shard (H)
-						["coord"] = { 29.8, 31.2, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Makazradon's Glaive
-								["provider"] = { "i", 30786 },	-- Makazradon's Glaive
-								["cr"] = 21501,	-- Makazradon
-							}),
-							objective(2, {	-- 0/1 Morgroron's Glaive
-								["provider"] = { "i", 30785 },	-- Morgroron's Glaive
-								["cr"] = 21500,	-- Morgroron
-							}),
-							i(30926),	-- Ashwalker's Footwraps
-							i(30938),	-- Azurestrike Shoulders
-							i(30950),	-- Darkhunter's Cinch
-							i(30966),	-- Singed Vambraces
-						},
-					}),
+					},
 					q(11046, {	-- Chief Apothecary Hildagard
 						["qg"] = 19678,	-- Fantei
 						["coord"] = { 64.6, 70.6, SHATTRATH_CITY },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,	-- for "A Haunted History" in Shadowmoon Valley
+						["lvl"] = lvlsquish(67, 67, 20),
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11100, {	-- Commander Arcus
-						["qg"] = 21402,	-- Anchorite Ceyla
-						["sourceQuest"] = 11099,	-- Kill Them All! (Aldor)
-						["coord"] = { 62.4, 28.4, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11095, {	-- Commander Hobb
-						["qg"] = 21955,	-- Arcanist Thelis
-						["sourceQuest"] = 11094,	-- Kill Them All! (Scryers)
-						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11083, {	-- Crazed and Confused
-						["qg"] = 23166,	-- Ronag the Slave Driver
-						["sourceQuest"] = 11075,	-- The Netherwing Mines
-						["coord"] = { 71.6, 87.6, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
-						["groups"] = {
-							objective(1, {	-- 0/1 Crazed Murkblood Foreman slain
-								["provider"] = { "n", 23305 },	-- Crazed Murkblood Foreman
-							}),
-							objective(2, {	-- 0/5 Crazed Murkblood Miner slain
-								["provider"] = { "n", 23324 },	-- Crazed Murkblood Miner
-							}),
-						},
-					})),
 					q(10528, {	-- Demonic Crystal Prisons
 						["qg"] = 21292,	-- Ar'tor, Son of Oronok
 						["sourceQuest"] = 10527,	-- Ar'tor, Son of Oronok
@@ -729,37 +679,27 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11086, {	-- Disrupting the Twilight Portal
-						["qg"] = 23139,	-- Overlord Mor'ghor
-						["sourceQuest"] = 11084,	-- Stand Tall, Captain!
-						["coord"] = { 66.3, 85.6, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["isDaily"] = true,
-						["groups"] = {
-							objective(1, {	-- 0/20 Deathshadow Agent slain
-								["providers"] = {
-									{ "n", 23393},	-- Deathshadow Agent
-									{ "n", 22341},	-- Deathshadow Acolyte
-									{ "n", 22342},	-- Deathshadow Spellbinder
-									{ "n", 22343},	-- Deathshadow Archon
-									{ "n", 22363},	-- Deathshadow Warlock
-									{ "n", 22393},	-- Deathshadow Overlord
-								},
-							}),
-						},
-					})),
-					q(10776, {	-- Dissension Amongst the Ranks... (A)
-						["providers"] = {
-							{ "n", 22059 },	-- Wildhammer Gryphon Rider
-							{ "i", 31310 },	-- Wildhammer Flare Gun (Provided)
-						},
-						["sourceQuest"] = 10775,	-- Tabards of the Illidari (A)
-						["coord"] = { 52.4, 68.4, SHADOWMOON_VALLEY },
-						["description"] = "Use your Wildhammer Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
-						["races"] = ALLIANCE_ONLY,
+					{	-- Dissension Amongst the Ranks...
+						["allianceQuestData"] = q(10776, {	-- Dissension Amongst the Ranks... (A)
+							["providers"] = {
+								{ "n", 22059 },	-- Wildhammer Gryphon Rider
+								{ "i", 31310 },	-- Wildhammer Flare Gun (Provided)
+							},
+							["sourceQuest"] = 10775,	-- Tabards of the Illidari (A)
+							["coord"] = { 52.4, 68.4, SHADOWMOON_VALLEY },
+							["description"] = "Use your Wildhammer Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
+						}),
+						["hordeQuestData"] = q(10769, {	-- Dissension Amongst the Ranks... (H)
+							["providers"] = {
+								{ "n", 21998 },	-- Kor'kron Wind Rider
+								{ "i", 31108 },	-- Kor'kron Flare Gun (Provided)
+							},
+							["sourceQuest"] = 10768,	-- Tabards of the Illidari (H)
+							["description"] = "Use your Kor'kron Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
+						}),
 						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
-							objective(1, {	--	0/5 Crazed Colossus slain while in disguise
+							objective(1, {	-- 0/5 Crazed Colossus slain while in disguise
 								["provider"] = { "i", 31279 },	-- Enchanted Illidari Tabard (Provided)
 								["cr"] = 19823,	-- Crazed Colossus
 							}),
@@ -774,141 +714,62 @@ root(ROOTS.Zones, {
 							i(31077),	-- Slayer's Mark of the Redemption
 							i(31076),	-- Spellsword's Mark of the Redemption
 						},
-					}),
-					q(10769, {	-- Dissension Amongst the Ranks... (H)
-						["providers"] = {
-							{ "n", 21998 },	-- Kor'kron Wind Rider
-							{ "i", 31108 },	-- Kor'kron Flare Gun (Provided)
-						},
-						["sourceQuest"] = 10768,	-- Tabards of the Illidari (H)
-						["description"] = "Use your Kor'kron Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
-						["races"] = HORDE_ONLY,
-						["lvl"] = lvlsquish(68, 68, 25),
-						["groups"] = {
-							objective(1, {	--	0/5 Crazed Colossus slain while in disguise
-								["provider"] = { "i", 31279 },	-- Enchanted Illidari Tabard (Provided)
-								["cr"] = 19823,	-- Crazed Colossus
-							}),
-							-- #if AFTER CATA
-							-- TODO: Do something about this being assumed a collectible.
-							i(31279, {	-- Enchanted Illidari Tabard [Temp Quest Item]
-								["collectible"] = false,
-							}),
-							-- #endif
-							i(31075),	-- Evoker's Mark of the Redemption
-							i(31078),	-- Protector's Mark of the Redemption
-							i(31077),	-- Slayer's Mark of the Redemption
-							i(31076),	-- Spellsword's Mark of the Redemption
-						},
-					}),
+					},
 					q(10634, {	-- Divination: Gorefiend's Armor
 						["qg"] = 21797,	-- Ancient Shadowmoon Spirit
-						["hordeQuestData"] = {
-							["sourceQuest"] = 10633,	-- Teron Gorefiend - Lore and Legend (H)
-						},
 						["allianceQuestData"] = {
 							["sourceQuest"] = 10644,	-- Teron Gorefiend - Lore and Legend (A)
+						},
+						["hordeQuestData"] = {
+							["sourceQuest"] = 10633,	-- Teron Gorefiend - Lore and Legend (H)
 						},
 						["coord"] = { 58.2, 70.8, SHADOWMOON_VALLEY },
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Gorefiend's Armor
 								["provider"] = { "i", 30797 },	-- Gorefiend's Armor
+								["coord"] = { 69.8, 85.8, SHADOWMOON_VALLEY },
 								["cr"] = 21801,	-- Vhelkur
 							}),
 						},
 					}),
 					q(10635, {	-- Divination: Gorefiend's Cloak
 						["qg"] = 21797,	-- Ancient Shadowmoon Spirit
-						["hordeQuestData"] = {
-							["sourceQuest"] = 10633,	-- Teron Gorefiend - Lore and Legend (H)
-						},
 						["allianceQuestData"] = {
 							["sourceQuest"] = 10644,	-- Teron Gorefiend - Lore and Legend (A)
+						},
+						["hordeQuestData"] = {
+							["sourceQuest"] = 10633,	-- Teron Gorefiend - Lore and Legend (H)
 						},
 						["coord"] = { 58.2, 70.8, SHADOWMOON_VALLEY },
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Gorefiend's Cloak
 								["provider"] = { "i", 30799 },	-- Gorefiend's Cloak
+								["coord"] = { 64.4, 46.6, SHADOWMOON_VALLEY },
 								["cr"] = 21815,	-- Cleric of Karabor
 							}),
 						},
 					}),
 					q(10636, {	-- Divination: Gorefiend's Truncheon
 						["qg"] = 21797,	-- Ancient Shadowmoon Spirit
-						["hordeQuestData"] = {
-							["sourceQuest"] = 10633,	-- Teron Gorefiend - Lore and Legend (H)
-						},
 						["allianceQuestData"] = {
 							["sourceQuest"] = 10644,	-- Teron Gorefiend - Lore and Legend (A)
+						},
+						["hordeQuestData"] = {
+							["sourceQuest"] = 10633,	-- Teron Gorefiend - Lore and Legend (H)
 						},
 						["coord"] = { 58.2, 70.8, SHADOWMOON_VALLEY },
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Gorefiend's Truncheon
 								["provider"] = { "i", 30800 },	-- Gorefiend's Truncheon
+								["description"] = "The riders travel along the road counter clockwise, so travel clockwise to encounter them more quickly.",
+								["coord"] = { 55.4, 57.2, SHADOWMOON_VALLEY },
 								["cr"] = 21784,	-- Ghostrider of Karabor
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11071, {	-- Dragonmaw Race: Captain Skyshatter
-						["qg"] = 23348,	-- Captain Skyshatter
-						["sourceQuest"] = 11070,	-- Dragonmaw Race: Wing Commander Mulverick
-						["coord"] = { 65.5, 85.3, SHADOWMOON_VALLEY },
-						["groups"] = {
-							ach(1638, {	-- Skyshattered
-								["sourceQuest"] = 11071,	-- Dragonmaw Race: Captain Skyshatter
-							}),
-							i(32863),	-- Skybreaker Whip
-						},
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11068, {	-- Dragonmaw Race: Corlok the Vet
-						["qg"] = 23344,	-- Corlok the Vet
-						["sourceQuest"] = 11067,	-- Dragonmaw Race: Trope the Filth-Belcher
-						["coord"] = { 65.2, 85.2, SHADOWMOON_VALLEY },
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11064, {	-- Dragonmaw Race: The Ballad of Oldie McOld
-						["qg"] = 23340,	-- Murg "Oldie" Muckjaw
-						["sourceQuest"] = 11063,	-- Earning Your Wings
-						["coord"] = { 65.2, 85.7, SHADOWMOON_VALLEY },
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11067, {	-- Dragonmaw Race: Trope the Filth-Belcher
-						["qg"] = 23342,	-- Trope the Filth-Belcher
-						["sourceQuest"] = 11064,	-- Dragonmaw Race: The Ballad of Oldie McOld
-						["coord"] = { 65.2, 85.5, SHADOWMOON_VALLEY },
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11069, {	-- Dragonmaw Race: Wing Commander Ichman
-						["qg"] = 23345,	-- Wing Commander Ichman
-						["sourceQuest"] = 11068,	-- Dragonmaw Race: Corlok the Vet
-						["coord"] = { 65.2, 85.1, SHADOWMOON_VALLEY },
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11070, {	-- Dragonmaw Race: Wing Commander Mulverick
-						["qg"] = 23346,	-- Wing Commander Mulverick
-						["sourceQuest"] = 11069,	-- Dragonmaw Race: Wing Commander Ichman
-						["coord"] = { 65.2, 84.9, SHADOWMOON_VALLEY },
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11077, {	-- Dragons are the Least of Our Problems
-						["qg"] = 23376,	-- Dragonmaw Foreman
-						["sourceQuest"] = 11075,	-- The Netherwing Mines
-						["coord"] = { 63.4, 87.4, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
-						["isDaily"] = true,
-						["groups"] = {
-							objective(1, {	-- 0/15 Nethermine Flayer slain
-								["provider"] = { "n", 23169 },	-- Nethermine Flayer
-							}),
-							objective(2, {	-- 0/5 Nethermine Ravager slain
-								["provider"] = { "n", 23326 },	-- Nethermine Ravager
-							}),
-						},
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11063, {	-- Earning Your Wings
-						["qg"] = 22433,	-- Ja'y Nosliw
-						["sourceQuest"] = 11084,	-- Stand Tall, Captain!
-						["coord"] = { 65.9, 87.2, SHADOWMOON_VALLEY },
-					})),
 					q(10481, {	-- Enraged Spirits of Air
 						["qg"] = 21024,	-- Earthmender Torlok
 						["sourceQuest"] = 10480,	-- Enraged Spirits of Water
@@ -960,15 +821,11 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11014, {	-- Enter the Taskmaster
-						["qg"] = 23139,	-- Overlord Mor'ghor
-						["sourceQuest"] = 11013,	-- In Service of the Illidari
-						["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
-					})),
 					q(10451, {	-- Escape from Coilskar Cistern
 						["qg"] = 21027,	-- Earthmender Wilda
 						["coord"] = { 52.1, 18.8, SHADOWMOON_VALLEY },
 						["description"] = "Questgiver only becomes interactable after you kill Keeper of the Cistern at the back of the cave.",
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							i(30927),	-- Earthmender's Bracer of Shattering
 							i(30952),	-- Earthmender's Crimson Spaulders
@@ -976,13 +833,16 @@ root(ROOTS.Zones, {
 							i(30968),	-- Earthmender's Plated Boots
 						},
 					}),
-					q(10673, {	-- Felspine the Greater (awarded "Shadowmoon Village" criteria)
+					q(10673, {	-- Felspine the Greater
 						["qg"] = 21770,	-- Researcher Tiorus
 						["sourceQuest"] = 10672,	-- Frankly, It Makes No Sense...
+						["coord"] = { 30, 28.2, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Felspine's Hide
 								["provider"] = { "i", 30851 },	-- Felspine's Hide
+								["coord"] = { 55.6, 43.4, SHADOWMOON_VALLEY },
 								["cr"] = 21897,	-- Felspine the Greater
 							}),
 						},
@@ -997,64 +857,53 @@ root(ROOTS.Zones, {
 					q(10761, {	-- Find the Deserter (H)
 						["qg"] = 22043,	-- Sergeant Kargrul
 						["sourceQuest"] = 10760,	-- The Sketh'lon Wreckage (H)
+						["coord"] = { 31, 29.8, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10672, {	-- Frankly, It Makes No Sense...
 						["qg"] = 21770,	-- Researcher Tiorus
 						["sourceQuest"] = 10660,	-- What Strange Creatures
+						["coord"] = { 30, 28.2, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
-					q(10589, {	-- Gaining Access (A)
-						["qg"] = 21357,	-- Wing Commander Nuainn
-						["sourceQuest"] = 10586,	-- Bring Down the Warbringer! (A)
-						["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- Gaining Access
+						["allianceQuestData"] = q(10589, {	-- Gaining Access (A)
+							["qg"] = 21357,	-- Wing Commander Nuainn
+							["sourceQuest"] = 10586,	-- Bring Down the Warbringer! (A)
+							["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10604, {	-- Gaining Access (H)
+							["qg"] = 21359,	-- Blood Guard Gulmok
+							["sourceQuest"] = 10603,	-- Bring Down the Warbringer! (H)
+							["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
+						}),
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Legion Teleporter Control
 								["provider"] = { "i", 30695 },	-- Legion Teleporter Control
+								["coord"] = { 23.4, 35.6, SHADOWMOON_VALLEY },
 								["cr"] = 19755,	-- Mo'arg Weaponsmith
 							}),
 						},
-					}),
-					q(10604, {	-- Gaining Access (H)
-						["qg"] = 21359,	-- Blood Guard Gulmok
-						["sourceQuest"] = 10603,	-- Bring Down the Warbringer! (H)
-						["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Legion Teleporter Control
-								["provider"] = { "i", 30695 },	-- Legion Teleporter Control
-								["cr"] = 19755,	-- Mo'arg Weaponsmith
-							}),
-						},
-					}),
+					},
 					q(10521, {	-- Grom'tor, Son of Oronok
 						["qg"] = 21183,	-- Oronok Torn-heart
 						["sourceQuest"] = 10519,	-- The Cipher of Damnation - Truth and History
+						["coord"] = { 53.8, 23.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11092, {	-- Hail, Commander!
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11084,	-- Stand Tall, Captain!
-						["coord"] = { 66.0, 86.4, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, REVERED },	-- Netherwing, Revered.
-						["groups"] = {
-							i(32864),	-- Commander's Badge
-						},
-					})),
 					q(10643, {	-- Harbingers of Shadowmoon
 						["qg"] = 21774,	-- Zorus the Judicator
 						["sourceQuest"] = 10642,	-- A Ghost in the Machine
-						["coords"] = {
-							{ 36.6, 55.4, SHADOWMOON_VALLEY },
-							{ 36.6, 56.6, SHADOWMOON_VALLEY },
-							{ 37.2, 55.8, SHADOWMOON_VALLEY },
-						},
+						["coord"] = { 37, 56.4, SHADOWMOON_VALLEY },
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/12 Shadowmoon Harbinger
-								["cr"] = 21795,	-- Shadowmoon Harbinger
 								["provider"] = { "i", 30719 },	-- Spectrecles (Provided)
+								["cr"] = 21795,	-- Shadowmoon Harbinger
 							}),
 							i(30719),	-- Spectrecles
 						},
@@ -1062,20 +911,19 @@ root(ROOTS.Zones, {
 					heroscall(q(49550, {	-- Hero's Call: Shadowmoon Valley! (Outland)
 						["timeline"] = { ADDED_7_3_5 },
 						["isBreadcrumb"] = true,
-						["lvl"] = 67,
+						["lvl"] = lvlsquish(67, 67, 25),
 					})),
-					q(10621, {	-- Illidari Bane-Shard (A)
-						["provider"] = { "i", 30756 },	-- Illidari Bane-Shard (A)
-						["races"] = ALLIANCE_ONLY,
-						["crs"] = { 21499 },	-- Overseer Ripwsaw
+					{	-- Illidari Bane-Shard
+						["allianceQuestData"] = q(10621, {	-- Illidari Bane-Shard (A)
+							["provider"] = { "i", 30756 },	-- Illidari Bane-Shard (A)
+						}),
+						["hordeQuestData"] = q(10623, {	-- Illidari Bane-Shard (H)
+							["provider"] = { "i", 30579 },	-- Illidari Bane-Shard (H)
+						}),
 						["coord"] = { 23.0, 35.6, SHADOWMOON_VALLEY },
-					}),
-					q(10623, {	-- Illidari Bane-Shard (H)
-						["provider"] = { "i", 30579 },	-- Illidari Bane-Shard (H)
-						["races"] = HORDE_ONLY,
 						["crs"] = { 21499 },	-- Overseer Ripwsaw
-						["coord"] = { 23.0, 35.6, SHADOWMOON_VALLEY },
-					}),
+						["lvl"] = lvlsquish(67, 67, 25),
+					},
 					q(10782, {	-- Imbuing the Headpiece
 						["qg"] = 22024,	-- Parshah
 						["sourceQuest"] = 10780,	-- Sketh'lon Feathers
@@ -1084,16 +932,22 @@ root(ROOTS.Zones, {
 							{ 35.2, 40.4, SHADOWMOON_VALLEY },
 							{ 35.4, 41.8, SHADOWMOON_VALLEY },
 						},
+						["lvl"] = lvlsquish(67, 67, 25),
+						["groups"] = {
+							objective(1, {	-- 0/1 Energized Headpiece
+								["providers"] = {
+									{ "i", 31365 },	-- Energized Headpiece
+									{ "i", 31360 },	-- Unfinished Headpiece
+								},
+								["coord"] = { 43.1, 45.3, SHADOWMOON_VALLEY },
+							}),
+						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11013, {	-- In Service of the Illidari
-						["qg"] = 22113,	-- Mordenai
-						["sourceQuest"] = 11012,	-- Blood Oath of the Netherwing
-						["coord"] = { 59.3, 58.7, SHADOWMOON_VALLEY },
-					})),
 					q(10836, {	-- Infiltrating Dragonmaw Fortress
 						["qg"] = 21657,	-- Neltharaku
 						["sourceQuest"] = 10814,	-- Neltharaku's Tale
 						["coord"] = { 61.9, 60.0, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(70, 70, 25),
 						["groups"] = {
 							objective(1, {	-- 0/15 Dragonmaw Orc slain
 								["providers"] = {
@@ -1117,12 +971,14 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10589,	-- Gaining Access (A)
 						["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
 						["races"] = ALLIANCE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10767, {	-- Invasion Point: Cataclysm (H)
 						["qg"] = 21359,	-- Blood Guard Gulmok
 						["sourceQuest"] = 10604,	-- Gaining Access (H)
 						["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10514, {	-- I Was A Lot Of Things...
 						["qg"] = 21183,	-- Oronok Torn-heart
@@ -1136,13 +992,16 @@ root(ROOTS.Zones, {
 									{ "o", 184691 },	-- Shadowmoon Tuber
 									{ "i",  30462 },	-- Oronok's Boar Whistle (Provided)
 								},
+								["coord"] = { 53.8, 17.7, SHADOWMOON_VALLEY },
 							}),
 						},
 					}),
-					q(10587, {	-- Karabor Training Grounds (Aldor)
+					q(10587, {	-- Karabor Training Grounds (The Aldor)
 						["qg"] = 21860,	-- Exarch Onaala
 						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
+						["coord"] = { 61.2, 29.2, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/8 Sunfury Glaive
 								["provider"] = { "i", 30679 },	-- Sunfury Glaive
@@ -1153,11 +1012,12 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					q(10687, {	-- Karabor Training Grounds (Scryers)
+					q(10687, {	-- Karabor Training Grounds (The Scryers)
 						["qg"] = 21954,	-- Larissa Sunstrike
 						["sourceQuest"] = 10552,	-- Allegiance to the Scryers
 						["coord"] = { 55.7, 58.1, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/8 Sunfury Glaive
 								["provider"] = { "i", 30679 },	-- Sunfury Glaive
@@ -1172,48 +1032,44 @@ root(ROOTS.Zones, {
 						["qg"] = 21657,	-- Neltharaku
 						["sourceQuest"] = 10854,	-- The Force of Neltharaku
 						["coord"] = { 61.9, 60.0, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(70, 70, 25),
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11099, {	-- Kill Them All! (Aldor)
-						["qg"] = 23139,	-- Overlord Mor'ghor
-						["sourceQuest"] = 11092,	-- Hail, Commander!
-						["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_THE_ALDOR, FRIENDLY },	-- The Aldor, Friendly.
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11094, {	-- Kill Them All! (Scryers)
-						["qg"] = 23139,	-- Overlord Mor'ghor
-						["sourceQuest"] = 11092,	-- Hail, Commander!
-						["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_THE_SCRYERS, FRIENDLY },	-- The Scryers, Friendly.
-					})),
 					q(10804, {	-- Kindness
 						["qg"] = 22113,	-- Mordenai
 						["coord"] = { 59.3, 58.7, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(70, 70, 25),
+						["groups"] = {
+							objective(1, {	-- 0/8 Mature Netherwing Drake fed
+								["providers"] = {
+									{ "n", 21648 },	-- Mature Netherwing Drake
+									{ "i", 31372 },	-- Rocknail Flayer Carcass
+								},
+								["coord"] = { 62.0, 58.2, SHADOWMOON_VALLEY },
+								["cr"] = 21477,	-- Rocknail Flayer
+							}),
+						},
 					}),
 					q(11048, {	-- Kroghan's Report
 						["qg"] = 18090,	-- Captain Kroghan
 						["coord"] = { 55.4, 37.6, NAGRAND },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
-					q(11497, {	-- Learning to Fly (A)
+					{	-- Learning to Fly
+						["allianceQuestData"] = q(11497),	-- Learning to Fly (A)
+						["hordeQuestData"] = q(11498),	-- Learning to Fly (H)
 						["qg"] = 18940,	-- Nutral
 						["coord"] = { 63.8, 41, SHATTRATH_CITY },
 						["timeline"] = { REMOVED_4_0_3 },
-						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,
-						["lvl"] = lvlsquish(70, 70, 20),
-					}),
-					q(11498, {	-- Learning to Fly (H)
-						["qg"] = 18940,	-- Nutral
-						["coord"] = { 63.8, 41, SHATTRATH_CITY },
-						["timeline"] = { REMOVED_4_0_3 },
-						["races"] = HORDE_ONLY,
-						["isBreadcrumb"] = true,
-						["lvl"] = lvlsquish(70, 70, 20),
-					}),
+						["lvl"] = lvlsquish(70, 70, 25),
+					},
 					q(10537, {	-- Lohn'goron, Bow of the Torn-heart
 						["qg"] = 21318,	-- Spirit of Ar'tor
 						["sourceQuest"] = 10528,	-- Demonic Crystal Prisons
+						["coord"] = { 29.6, 50.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Lohn'goron, Bow of the Torn-Heart
 								["provider"] = { "i", 30451 },	-- Lohn'goron, Bow of the Torn-Heart
@@ -1237,23 +1093,25 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11108, {	-- Lord Illidan Stormrage
-						["qg"] = 23139,	-- Overlord Mor'ghor
-						["sourceQuest"] = 11107,	-- Bow to the Highlord
-						["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
-					})),
 					q(10826, {	-- Marks of Sargeras
 						["qg"] = 22214,	-- Harbinger Saronen
 						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
 						["coord"] = { 62.2, 29.8, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 						["cost"] = { { "i", 30809, 10 } },	-- Mark of Sargeras
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					q(10582, {	-- Minions of the Shadow Council (A)
-						["qg"] = 21471,	-- Stormer Ewan Wildwing
-						["sourceQuest"] = 10573,	-- The Deathforge (A)
-						["coord"] = { 40.4, 41.3, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- Minions of the Shadow Council
+						["allianceQuestData"] = q(10582, {	-- Minions of the Shadow Council (A)
+							["qg"] = 21471,	-- Stormer Ewan Wildwing
+							["sourceQuest"] = 10573,	-- The Deathforge (A)
+							["coord"] = { 40.4, 41.3, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10600, {	-- Minions of the Shadow Council (H)
+							["qg"] = 21475,	-- Scout Zagran
+							["sourceQuest"] = 10599,	-- The Deathforge (H)
+							["coord"] = { 38.5, 38.1, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/10 Deathforge Guardian slain
@@ -1263,21 +1121,7 @@ root(ROOTS.Zones, {
 								["provider"] = { "n", 20872 },	-- Deathforge Summoner
 							}),
 						},
-					}),
-					q(10600, {	-- Minions of the Shadow Council (H)
-						["qg"] = 21475,	-- Scout Zagran
-						["sourceQuest"] = 10599,	-- The Deathforge (H)
-						["coord"] = { 38.5, 38.1, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/10 Deathforge Guardian slain
-								["provider"] = { "n", 20878 },	-- Deathforge Guardian
-							}),
-							objective(2, {	-- 0/5 Deathforge Summoner slain
-								["provider"] = { "n", 20872 },	-- Deathforge Summoner
-							}),
-						},
-					}),
+					},
 					q(10827, {	-- More Marks of Sargeras
 						["qg"] = 22214,	-- Harbinger Saronen
 						["sourceQuests"] = { 10826, 10653 },	-- Marks of Sargeras (SMV or Shattrath)
@@ -1286,6 +1130,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 						["cost"] = { { "i", 30809, 10 } },	-- Mark of Sargeras
 						["repeatable"] = true,
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10823, {	-- More Sunfury Signets
 						["qg"] = 22211,	-- Battlemage Vyara
@@ -1295,48 +1140,26 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["cost"] = { { "i", 30810, 10 } },	-- Sunfury Signet
 						["repeatable"] = true,
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10814, {	-- Neltharaku's Tale
 						["qg"] = 21657,	-- Neltharaku
 						["sourceQuest"] = 10811,	-- Seek Out Neltharaku
 						["coord"] = { 61.9, 60.0, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11018, {	-- Nethercite Ore
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11014,	-- Enter the Taskmaster
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["cost"] = { { "i", 32464, 40 } },	-- Nethercite Ore
-						["requireSkill"] = MINING,
-						["isDaily"] = true,
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11017, {	-- Netherdust Pollen
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11014,	-- Enter the Taskmaster
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["cost"] = { { "i", 32468, 40 } },	-- Netherdust Pollen
-						["requireSkill"] = HERBALISM,
-						["isDaily"] = true,
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11016, {	-- Nethermine Flayer Hide
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11014,	-- Enter the Taskmaster
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["cost"] = { { "i", 32470, 35 } },	-- Nethermine Flayer Hide
-						["requireSkill"] = SKINNING,
-						["isDaily"] = true,
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11015, {	-- Netherwing Crystals
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11014,	-- Enter the Taskmaster
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["cost"] = { { "i", 32427, 30 } },	-- Netherwing Crystals
-						["isDaily"] = true,
-					})),
-					q(10744, {	-- News of Victory (awarded "Wildhammer Stronghold" criteria)
-						["qg"] = 21790,	-- Plexi
-						["sourceQuest"] = 10612,	-- The Fel and the Furious
-						["coord"] = { 40.8, 22.2, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- News of Victory
+						["allianceQuestData"] = q(10744, {	-- News of Victory (A)
+							["qg"] = 21790,	-- Plexi
+							["sourceQuest"] = 10612,	-- The Fel and the Furious
+							["coord"] = { 40.8, 22.2, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10745, {	-- News of Victory (H)
+							["qg"] = 21789,	-- Nakansi
+							["sourceQuest"] = 10613,	-- The Fel and the Furious
+							["coord"] = { 27.4, 21.2, SHADOWMOON_VALLEY },
+						}),
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							i(30973),	-- Band of Anguish
 							i(30924),	-- Gloves of the High Magus
@@ -1352,21 +1175,12 @@ root(ROOTS.Zones, {
 							}),
 							-- #endif
 						},
-					}),
-					q(10745, {	-- News of Victory
-						["qg"] = 21789,	-- Nakansi
-						["sourceQuest"] = 10613,	-- The Fel and the Furious
-						["coord"] = { 27.4, 21.2, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(30924),	-- Gloves of the High Magus
-							i(30973),	-- Band of Anguish
-						},
-					}),
+					},
 					q(10547, {	-- Of Thistleheads and Eggs...
 						["qg"] = 21293,	-- Borak, Son of Oronok
 						["sourceQuest"] = 10546,	-- Borak, Son of Oronok
 						["coord"] = { 47.6, 57.2, SHADOWMOON_VALLEY },
+						["maps"] = { SHATTRATH_CITY },
 						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Rotten Arakkoa Egg
@@ -1381,73 +1195,47 @@ root(ROOTS.Zones, {
 						["qg"] = 21024,	-- Earthmender Torlok
 						["sourceQuest"] = 10481,	-- Enraged Spirits of Air
 						["coord"] = { 42.2, 45.0, SHADOWMOON_VALLEY },
-						["lvl"] = lvlsquish(67, 67, 25),
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					q(10571, {	-- Oronu the Elder (Aldor)
+					q(10571, {	-- Oronu the Elder (The Aldor)
 						["qg"] = 21402,	-- Anchorite Ceyla
-						["sourceQuest"] = 10568,	-- Tablets of Baa'ri (Aldor)
+						["sourceQuest"] = 10568,	-- Tablets of Baa'ri (The Aldor)
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["coord"] = { 62.6, 28.4, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Orders From Akama
 								["provider"] = { "i", 30649 },	-- Orders From Akama
+								["coord"] = { 57, 33.6, SHADOWMOON_VALLEY },
 								["cr"] = 21663,	-- Oronu the Elder
 							}),
 						},
 					}),
-					q(10684, {	-- Oronu the Elder (Scryers)
+					q(10684, {	-- Oronu the Elder (The Scryers)
 						["qg"] = 21955,	-- Arcanist Thelis
-						["sourceQuest"] = 10683,	-- Tablets of Baa'ri (Scryers)
-						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
+						["sourceQuest"] = 10683,	-- Tablets of Baa'ri (The Scryers)
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Orders From Akama
 								["provider"] = { "i", 30649 },	-- Orders From Akama
+								["coord"] = { 57, 33.6, SHADOWMOON_VALLEY },
 								["cr"] = 21663,	-- Oronu the Elder
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11054, {	-- Overseeing and You: Making the Right Choices
-						["qg"] = 23291,	-- Chief Overseer Mudlump
-						["sourceQuest"] = 11053,	-- Rise, Overseer!
-						["coord"] = { 66.8, 86.0, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
-						["groups"] = {
-							objective(1, {	-- 0/10 Knothide Leather
-								["providers"] = {
-									{ "i", 21887 },	-- Knothide Leather
-								},
-							}),
-							objective(2, {	-- 0/1 Hardened Hide of Tyrantus
-								["provider"] = { "i", 32666 },	-- Hardened Hide of Tyrantus
-								["cr"] = 20931,	-- Tyrantus
-							}),
-						},
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11076, {	-- Picking Up The Pieces...
-						["qg"] = 23149,	-- Mistress of the Mines
-						["sourceQuest"] = 11075,	-- The Netherwing Mines
-						["coord"] = { 63.0, 87.8, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["isDaily"] = true,
-						["groups"] = {
-							objective(1, {	-- 0/15 Nethermine Cargo
-								["providers"] = {
-									{ "i", 32723 },	-- Nethermine Cargo
-									{ "o", 185939 },	-- Nethermine Cargo
-								},
-							}),
-						},
-					})),
 					q(10622, {	-- Proof of Allegiance
 						["qg"] = 21826,	-- Sanoru
 						["coord"] = { 57.3, 49.5, SHADOWMOON_VALLEY },
 						["sourceQuests"] = {
-							10575,	-- The Warden's Cage (Aldor)
-							10686,	-- The Warden's Cage (Scryer)
+							10575,	-- The Warden's Cage (The Aldor)
+							10686,	-- The Warden's Cage (The Scryers)
 						},
 						["groups"] = {
 							objective(1, {	-- 0/1 Zandras slain
 								["provider"] = { "n", 21827 },	-- Zandras
+								["coord"] = { 58, 49.6, SHADOWMOON_VALLEY },
 							}),
 						},
 					}),
@@ -1457,10 +1245,12 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
-							objective(1, {	-- 0/20 Shadowmoon Valley Wildlife
-								["crs"] = {
-									21878,	-- Felboar
-									21879,	-- Vilewing Chimaera
+							objective(1, {	-- 0/20 Shadowmoon Valley Wildlife slain
+								["providers"] = {
+									{ "n", 21864 },	-- Scorchshell Pincer
+									{ "n", 21878 },	-- Felboar
+									{ "n", 21879 },	-- Vilewing Chimaera
+									{ "n", 23020 },	-- Shadow Serpent
 								},
 							}),
 						},
@@ -1469,12 +1259,14 @@ root(ROOTS.Zones, {
 						["qg"] = 21465,	-- David Wayne
 						["sourceQuest"] = 10676,	-- Bane of the Illidari
 						["coord"] = { 77.4, 38.6, TEROKKAR_FOREST },
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Quenched Illidari-Bane Blade
 								["providers"] = {
-									{ "i", 30876 },	-- Quenched Illidari-Bane Blade
+									{ "i",  30876 },	-- Quenched Illidari-Bane Blade
 									{ "o", 185032 },	-- Forged Illidari Bane Blade
 								},
+								["coord"] = { 51.9, 40.2, SHADOWMOON_VALLEY },
 							}),
 							i(30788),	-- Illidari-Bane Broadsword
 							i(30789),	-- Illidari-Bane Claymore
@@ -1486,6 +1278,8 @@ root(ROOTS.Zones, {
 						["qg"] = 21822,	-- Vindicator Aluumen
 						["sourceQuest"] = 10619,	-- The Ashtongue Tribe
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["coord"] = { 61.2, 29.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/8 Shadowmoon Slayer slain
 								["provider"] = { "n", 22082 },	-- Shadowmoon Slayer
@@ -1502,62 +1296,41 @@ root(ROOTS.Zones, {
 							i(30958),	-- Blackened Chain Greaves
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11053, {	-- Rise, Overseer!
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11014,	-- Enter the Taskmaster
-						["coord"] = { 66.0, 86.4, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
-						["groups"] = {
-							i(32694),	-- Overseer's Badge
-						},
-					})),
 					q(10811, {	-- Seek Out Neltharaku
 						["qg"] = 22113,	-- Mordenai
 						["sourceQuest"] = 10804,	-- Kindness
 						["coord"] = { 59.3, 58.7, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(70, 70, 25),
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11082, {	-- Seeker of Truth
-						["qg"] = 23149,	-- Mistress of the Mines
-						["sourceQuest"] = 11081,	-- The Great Murkblood Revolt
-						["coord"] = { 63.0, 87.8, SHADOWMOON_VALLEY },
-					})),
-					q(10572, {	-- Setting Up the Bomb (A)
-						["qg"] = 21357,	-- Wing Commander Nuainn
-						["sourceQuest"] = 10563,	-- To Legion Hold (A)
-						["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- Setting Up the Bomb
+						["allianceQuestData"] = q(10572, {	-- Setting Up the Bomb (A)
+							["qg"] = 21357,	-- Wing Commander Nuainn
+							["sourceQuest"] = 10563,	-- To Legion Hold (A)
+							["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10597, {	-- Setting Up the Bomb (H)
+							["qg"] = 21359,	-- Blood Guard Gulmok
+							["sourceQuest"] = 10596,	-- To Legion Hold (H)
+							["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Fel Reaver Power Core
-								["provider"] = { "i", 30628 },	-- Fel Reaver Power Core
+								["providers"] = {
+									{ "i",  30628 },	-- Fel Reaver Power Core
+									{ "o", 184859 },	-- Fel Reaver Power Core
+								},
 								["coord"] = { 26.2, 41.1, SHADOWMOON_VALLEY },
 							}),
 							objective(2, {	-- 0/1 Fel Reaver Armor Plate
-								["provider"] = { "i", 30631 },	-- Fel Reaver Armor Plate
+								["providers"] = {
+									{ "i",  30631 },	-- Fel Reaver Armor Plate
+									{ "o", 184860 },	-- Fel Reaver Armor Plating
+								},
 								["coord"] = { 22.3, 35.5, SHADOWMOON_VALLEY },
 							}),
 						},
-					}),
-					q(10597, {	-- Setting Up the Bomb (H)
-						["qg"] = 21359,	-- Blood Guard Gulmok
-						["sourceQuest"] = 10596,	-- To Legion Hold (H)
-						["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Fel Reaver Power Core
-								["providers"] = {
-									{ "i", 30628 },	-- Fel Reaver Power Core
-									{ "o", 184859 },	-- Fel Reaver Power Core
-								},
-							}),
-							objective(2, {	-- 0/1 Fel Reaver Armor Plate
-								["providers"] = {
-									{ "i", 30631 },	-- Fel Reaver Armor Plate
-									{ "o", 184860 },	-- Fel Reaver Armor Plating
-								},
-							}),
-						},
-					}),
+					},
 					q(10828, {	-- Single Mark of Sargeras
 						["qg"] = 22214,	-- Harbinger Saronen
 						["sourceQuests"] = { 10826, 10653 },	-- Marks of Sargeras (SMV or Shattrath)
@@ -1566,6 +1339,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 						["cost"] = { { "i", 30809, 1 } },	-- Mark of Sargeras
 						["repeatable"] = true,
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10822, {	-- Single Sunfury Signet
 						["qg"] = 22211,	-- Battlemage Vyara
@@ -1575,6 +1349,7 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["cost"] = { { "i", 30810, 1 } },	-- Sunfury Signet
 						["repeatable"] = true,
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10780, {	-- Sketh'lon Feathers
 						["qg"] = 22024,	-- Parshah
@@ -1587,7 +1362,11 @@ root(ROOTS.Zones, {
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/10 Sketh'lon Feather
-								["provider"] = { "i", 31324 },	-- Sketh'lon Feather
+								["providers"] = {
+									{ "i",  31324 },	-- Sketh'lon Feather
+									{ "o", 185130 },	-- Sketh'lon Feather
+								},
+								["coord"] = { 44.3, 59.3, SHADOWMOON_VALLEY },
 							}),
 						},
 					}),
@@ -1596,6 +1375,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10624,	-- A Haunted History
 						["coord"] = { 29.9, 27.6, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/12 Shadowmoon Zealot slain
 								["provider"] = { "n", 21788 },	-- Shadowmoon Zealot
@@ -1615,87 +1395,56 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11084, {	-- Stand Tall, Captain!
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11053,	-- Rise, Overseer!
-						["coord"] = { 66.0, 86.4, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, HONORED },	-- Netherwing, Honored.
-						["groups"] = {
-							i(32695),	-- Captain's Badge
-						},
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11090, {	-- Subdue the Subduer
-						["qg"] = 23427,	-- Illidari Lord Balthas
-						["sourceQuest"] = 11089,	-- The Soul Cannon of Reth'hedron
-						["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
-						["groups"] = {
-							i(32871),	-- Horns of the Illidari
-							i(32869),	-- Illidari Lord's Tunic
-							i(32872),	-- Illidari Rod of Discipline
-							i(32870),	-- Legguards of Contemplation
-						},
-					})),
 					q(10824, {	-- Sunfury Signets
 						["qg"] = 22211,	-- Battlemage Vyara
 						["coord"] = { 56.2, 58.7, SHADOWMOON_VALLEY },
 						["sourceQuest"] = 10552,	-- Allegiance to the Scryers
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["cost"] = { { "i", 30810, 10 } },	-- Sunfury Signet
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					q(10775, {	-- Tabards of the Illidari (A)
-						["providers"] = {
-							{ "n", 22059 },	-- Wildhammer Gryphon Rider
-							{ "i", 31310 },	-- Wildhammer Flare Gun (Provided)
-						},
-						["sourceQuest"] = 10774,	-- Blood Elf + Giant = ???
-						["coord"] = { 52.4, 68.4, SHADOWMOON_VALLEY },
-						["description"] = "Use your Wildhammer Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
-						["races"] = ALLIANCE_ONLY,
+					{	-- Tabards of the Illidari
+						["allianceQuestData"] = q(10775, {	-- Tabards of the Illidari (A)
+							["providers"] = {
+								{ "n", 22059 },	-- Wildhammer Gryphon Rider
+								{ "i", 31310 },	-- Wildhammer Flare Gun (Provided)
+							},
+							["sourceQuest"] = 10774,	-- Blood Elf + Giant = ???
+							["coord"] = { 52.4, 68.4, SHADOWMOON_VALLEY },
+							["description"] = "Use your Wildhammer Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
+						}),
+						["hordeQuestData"] = q(10768, {	-- Tabards of the Illidari (H)
+							["providers"] = {
+								{ "n", 21998 },	-- Kor'kron Wind Rider
+								{ "i", 31108 },	-- Kor'kron Flare Gun (Provided)
+							},
+							["sourceQuest"] = 10765,	-- When Worlds Collide
+							["description"] = "Use your Kor'kron Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
+						}),
 						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
-							objective(1, {	--	0/10 Illidari Tabard
+							objective(1, {	-- 0/10 Illidari Tabard
 								["provider"] = { "i", 31278 },	-- Illidari Tabard
 								["crs"] = {
 									22093,	-- Illidari Watcher <The Crimson Sigil>
 									22017,	-- Eclipsion Spellbinder
 									22016,	-- Eclipsion Soldier
 									22018,	-- Eclipsion Cavalier
-									22076,	-- Torloth the Magnificent <The Crimson Sigil>
 									21979,	-- Val'zareq the Conqueror <The Crimson Sigil>
 								},
 							}),
 						},
-					}),
-					q(10768, {	-- Tabards of the Illidari (H)
-						["providers"] = {
-							{ "n", 21998 },	-- Kor'kron Wind Rider
-							{ "i", 31108 },	-- Kor'kron Flare Gun (Provided)
-						},
-						["sourceQuest"] = 10765,	-- When Worlds Collide
-						["description"] = "Use your Kor'kron Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/10 Illidari Tabard
-								["provider"] = { "i", 31278 },	-- Illidari Tabard
-								["crs"] = {
-									21979,	-- Val'zareq the Conqueror
-									22016,	-- Eclipsion Soldier
-									22017,	-- Eclipsion Spellbinder
-									22018,	-- Eclipsion Cavalier
-									22076,	-- Torloth the Magnificent
-									22093,	-- Illidari Watcher
-								},
-							}),
-						},
-					}),
-					q(10568, {	-- Tablets of Baa'ri (Aldor)
+					},
+					q(10568, {	-- Tablets of Baa'ri (The Aldor)
 						["qg"] = 21402,	-- Anchorite Ceyla
 						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["coord"] = { 62.6, 28.4, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/12 Baa'ri Tablet Fragment
 								["providers"] = {
-									{ "i", 30596 },	-- Baa'ri Tablet Fragment
+									{ "i",  30596 },	-- Baa'ri Tablet Fragment
 									{ "o", 184869 },	-- Baa'ri Tablet Fragment
 									{ "o", 184870 },	-- Baa'ri Tablet Fragment
 								},
@@ -1703,15 +1452,16 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					q(10683, {	-- Tablets of Baa'ri (Scryers)
+					q(10683, {	-- Tablets of Baa'ri (The Scryers)
 						["qg"] = 21955,	-- Arcanist Thelis
 						["sourceQuest"] = 10552,	-- Allegiance to the Scryers
 						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/12 Baa'ri Tablet Fragment
 								["providers"] = {
-									{ "i", 30596 },	-- Baa'ri Tablet Fragment
+									{ "i",  30596 },	-- Baa'ri Tablet Fragment
 									{ "o", 184869 },	-- Baa'ri Tablet Fragment
 									{ "o", 184870 },	-- Baa'ri Tablet Fragment
 								},
@@ -1719,7 +1469,9 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					q(10645, {	-- Teron Gorefiend, I am... (A)
+					{	-- Teron Gorefiend, I am...
+						["allianceQuestData"] = q(10645),	-- Teron Gorefiend, I am... (A)
+						["hordeQuestData"] = q(10639),	-- Teron Gorefiend, I am... (H)
 						["qg"] = 21797,	-- Ancient Shadowmoon Spirit
 						["sourceQuests"] = {
 							10634,	-- Divination: Gorefiend's Armor
@@ -1727,7 +1479,6 @@ root(ROOTS.Zones, {
 							10636,	-- Divination: Gorefiend's Truncheon
 						},
 						["coord"] = { 58.2, 70.7, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Karsius the Ancient Watcher slain
@@ -1740,70 +1491,45 @@ root(ROOTS.Zones, {
 							i(31106),	-- Stalker's Helmet of Second Sight
 							i(31105),	-- Overlord's Helmet of Second Sight
 						},
-					}),
-					q(10639, {	-- Teron Gorefiend, I am... (H)
-						["qg"] = 21797,	-- Ancient Shadowmoon Spirit
-						["sourceQuests"] = {
-							10634,	-- Divination: Teron Gorefiend's Armor
-							10635,	-- Divination: Teron Gorefiend's Cloak
-							10636,	-- Divination: Teron Gorefiend's Truncheon
-						},
-						["coord"] = { 58.2, 70.7, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Karsius the Ancient Watcher slain
-								["provider"] = { "n", 21877 },	-- Karsius the Ancient Watcher
-							}),
-							i(31110),	-- Druidic Helmet of Second Sight
-							i(31104),	-- Evoker's Helmet of Second Sight
-							i(31105),	-- Overlord's Helmet of Second Sight
-							i(31106),	-- Stalker's Helmet of Second Sight
-							i(31107),	-- Shamanistic Helmet of Second Sight
-							i(31109),	-- Stealther's Helmet of Second Sight
-						},
-					}),
-					q(10644, {	-- Teron Gorefiend - Lore and Legend (A)
-						["qg"] = 21774,	-- Zorus the Judicator
-						["sourceQuest"] = 10643,	-- Harbingers of Shadowmoon
-						["coords"] = {
-							{ 36.6, 55.4, SHADOWMOON_VALLEY },
-							{ 36.6, 56.6, SHADOWMOON_VALLEY },
-							{ 37.2, 55.8, SHADOWMOON_VALLEY },
-						},
-						["races"] = ALLIANCE_ONLY,
+					},
+					{	-- Teron Gorefiend - Lore and Legend
+						["allianceQuestData"] = q(10644, {	-- Teron Gorefiend - Lore and Legend (A)
+							["qg"] = 21774,	-- Zorus the Judicator
+							["sourceQuest"] = 10643,	-- Harbingers of Shadowmoon
+							["coord"] = { 37, 56.4, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10633, {	-- Teron Gorefiend - Lore and Legend (H)
+							["qg"] = 21772,	-- Chief Apothecary Hildagard
+							["sourceQuest"] = 10625,	-- Spectrecles
+							["coord"] = { 29.9, 27.6, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							i(30721),	-- Spectrecles
 						},
-					}),
-					q(10633, {	-- Teron Gorefiend - Lore and Legend (H)
-						["qg"] = 21772,	-- Chief Apothecary Hildagard
-						["sourceQuest"] = 10625,	-- Spectrecles
-						["coord"] = { 29.9, 27.6, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							i(30721),	-- Spectrecles
-						},
-					}),
+					},
 					q(11047, {	-- The Apprentice's Request
 						["qg"] = 23280,	-- Agadai
 						["coord"] = { 52.0, 54.4, BLADES_EDGE_MOUNTAINS },
 						["isBreadcrumb"] = true,
 						["races"] = HORDE_ONLY,
-						["lvl"] = lvlsquish(65, 65, 20),
+						["lvl"] = lvlsquish(67, 67, 20),
 					}),
 					q(10606, {	-- The Art of Fel Reaver Maintenance (A)
 						["qg"] = 21790,	-- Plexi
 						["sourceQuest"] = 10766,	-- Invasion Point: Cataclysm (A)
 						["coord"] = { 40.8, 22.2, SHADOWMOON_VALLEY },
 						["races"] = ALLIANCE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 The Art of Fel Reaver Maintenance
 								["providers"] = {
-									{ "i", 30713 },	-- The Art of Fel Reaver Maintenance
+									{ "i",  30713 },	-- The Art of Fel Reaver Maintenance
 									{ "o", 184947 },	-- The Doctor's Strongbox
-									{ "o", 185233 },	-- The Doctor's Strongbox
+									{ "i",  30712 },	-- The Doctor's Key
 								},
+								["coord"] = { 39.4, 19.5, SHADOWMOON_VALLEY },
+								["cr"] = 21778,	-- Doctor Gutrick <Shadow Council Overseer>
 							}),
 						},
 					}),
@@ -1812,13 +1538,16 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10767,	-- Invasion Point: Cataclysm (H)
 						["coord"] = { 27.4, 21.2, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 The Art of Fel Reaver Maintenance
 								["providers"] = {
-									{ "i", 30713 },	-- The Art of Fel Reaver Maintenance
-									{ "o", 184947 },	-- The Doctor's Strongbox
+									{ "i",  30713 },	-- The Art of Fel Reaver Maintenance
 									{ "o", 185233 },	-- The Doctor's Strongbox
+									{ "i",  30712 },	-- The Doctor's Key
 								},
+								["coord"] = { 29, 20.5, SHADOWMOON_VALLEY },
+								["cr"] = 21779,	-- Doctor Maleficus <Shadow Council Overseer>
 							}),
 						},
 					}),
@@ -1827,6 +1556,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10552,	-- Allegiance to the Scryers
 						["coord"] = { 54.7, 58.1, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/3 Ashtongue Handler slain
 								["provider"] = { "n", 21803 },	-- Ashtongue Handler
@@ -1839,49 +1569,60 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					q(10574, {	-- The Ashtongue Corruptors (Aldor)
+					q(10574, {	-- The Ashtongue Corruptors (The Aldor)
 						["qg"] = 21402,	-- Anchorite Ceyla
 						["sourceQuest"] = 10571,	-- Oronu the Elder
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["coord"] = { 62.6, 28.4, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Eykenen's Medallion Fragment
 								["provider"] = { "i", 30692 },	-- Eykenen's Medallion Fragment
+								["coord"] = { 51, 52.4, SHADOWMOON_VALLEY },
 								["cr"] = 21709,	-- Eykenen
 							}),
 							objective(2, {	-- 0/1 Haalum's Medallion Fragment
 								["provider"] = { "i", 30691 },	-- Haalum's Medallion Fragment
+								["coord"] = { 57, 73.4, SHADOWMOON_VALLEY },
 								["cr"] = 21711,	-- Haalum
 							}),
 							objective(3, {	-- 0/1 Lakaan's Medallion Fragment
 								["provider"] = { "i", 30693 },	-- Lakaan's Medallion Fragment
+								["coord"] = { 49.6, 23.6, SHADOWMOON_VALLEY },
 								["cr"] = 21416,	-- Lakaan
 							}),
 							objective(4, {	-- 0/1 Uylaru's Medallion Fragment
 								["provider"] = { "i", 30694 },	-- Uylaru's Medallion Fragment
+								["coord"] = { 48.2, 39.4, SHADOWMOON_VALLEY },
 								["cr"] = 21710,	-- Uylaru
 							}),
 						},
 					}),
-					q(10685, {	-- The Ashtongue Corruptors (Scryers)
+					q(10685, {	-- The Ashtongue Corruptors (The Scryers)
 						["qg"] = 21955,	-- Arcanist Thelis
 						["sourceQuest"] = 10684,	-- Oronu the Elder
-						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Eykenen's Medallion Fragment
 								["provider"] = { "i", 30692 },	-- Eykenen's Medallion Fragment
+								["coord"] = { 51, 52.4, SHADOWMOON_VALLEY },
 								["cr"] = 21709,	-- Eykenen
 							}),
 							objective(2, {	-- 0/1 Haalum's Medallion Fragment
 								["provider"] = { "i", 30691 },	-- Haalum's Medallion Fragment
+								["coord"] = { 57, 73.4, SHADOWMOON_VALLEY },
 								["cr"] = 21711,	-- Haalum
 							}),
 							objective(3, {	-- 0/1 Lakaan's Medallion Fragment
 								["provider"] = { "i", 30693 },	-- Lakaan's Medallion Fragment
+								["coord"] = { 49.6, 23.6, SHADOWMOON_VALLEY },
 								["cr"] = 21416,	-- Lakaan
 							}),
 							objective(4, {	-- 0/1 Uylaru's Medallion Fragment
 								["provider"] = { "i", 30694 },	-- Uylaru's Medallion Fragment
+								["coord"] = { 48.2, 39.4, SHADOWMOON_VALLEY },
 								["cr"] = 21710,	-- Uylaru
 							}),
 						},
@@ -1890,6 +1631,8 @@ root(ROOTS.Zones, {
 						["qg"] = 21822,	-- Vindicator Aluumen
 						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["coord"] = { 61.2, 29.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/3 Ashtongue Handler slain
 								["provider"] = { "n", 21803 },	-- Ashtongue Handler
@@ -1906,25 +1649,15 @@ root(ROOTS.Zones, {
 						["qg"] = 21700,	-- Akama
 						["sourceQuest"] = 10706,	-- A Mysterious Portent
 						["coord"] = { 58.1, 48.1, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Heart of Fury
 								["provider"] = { "i", 31307 },	-- Heart of Fury
+								["coord"] = { 71.4, 35.4, SHADOWMOON_VALLEY },
 								["cr"] = 22006,	-- Shadowlord Deathwail
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11055, {	-- The Booterang: A Cure For The Common Worthless Peon
-						["qg"] = 23291,	-- Chief Overseer Mudlump
-						["sourceQuest"] = 11054,	-- Overseeing and You: Making the Right Choices
-						["coord"] = { 66.8, 86.0, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["isDaily"] = true,
-						["groups"] = {
-							objective(1, {	-- 0/20 Dragonmaw Peon Disciplined
-								["provider"] = { "n", 23311 },	-- Disobedient Dragonmaw Peon
-							}),
-						},
-					})),
 					q(10550, {	-- The Bundle of Bloodthistle
 						["providers"] = {
 							{ "n", 21411 },	-- Tobias the Filth Gorger
@@ -1932,14 +1665,19 @@ root(ROOTS.Zones, {
 						},
 						["sourceQuest"] = 10547,	-- Of Thistleheads and Eggs...
 						["coord"] = { 63.8, 69.7, SHATTRATH_CITY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10588, {	-- The Cipher of Damnation
 						["qg"] = 21183,	-- Oronok Torn-heart
 						["sourceQuests"] = { 10523, 10541, 10579 },	-- The Cipher of Damnation, the First/Second/Third Fragment Recovered
 						["coord"] = { 53.8, 23.4, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Cyrukh the Firelord slain
-								["provider"] = { "n", 21181 },	-- Cyrukh the Firelord
+								["providers"] = {
+									{ "n", 21181 },	-- Cyrukh the Firelord
+									{ "i", 30657 },	-- The Cipher of Damnation
+								},
 							}),
 							i(31073),	-- Borak's Reminder
 							i(31071),	-- Grom'tor's Charge
@@ -1953,9 +1691,12 @@ root(ROOTS.Zones, {
 					q(10540, {	-- The Cipher of Damnation - Ar'tor's Charge
 						["qg"] = 21318,	-- Spirit of Ar'tor
 						["sourceQuest"] = 10537,	-- Lohn'goron, Bow of the Torn-heart
+						["coord"] = { 29.6, 50.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Second Fragment of the Cipher of Damnation
 								["provider"] = { "i", 30453 },	-- Second Fragment of the Cipher of Damnation
+								["coord"] = { 29.4, 58, SHADOWMOON_VALLEY },
 								["cr"] = 20427,	-- Veneratus the Many
 							}),
 						},
@@ -1963,9 +1704,12 @@ root(ROOTS.Zones, {
 					q(10578, {	-- The Cipher of Damnation - Borak's Charge
 						["qg"] = 21293,	-- Borak, Son of Oronok
 						["sourceQuest"] = 10577,	-- What Illidan Wants, Illidan Gets...
+						["coord"] = { 47.6, 57.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Third Fragment of the Cipher of Damnation
 								["provider"] = { "i", 30645 },	-- Third Fragment of the Cipher of Damnation
+								["coord"] = { 61.6, 56.8, SHADOWMOON_VALLEY },
 								["cr"] = 21315,	-- Ruul the Darkener
 							}),
 						},
@@ -1973,18 +1717,27 @@ root(ROOTS.Zones, {
 					q(10522, {	-- The Cipher of Damnation - Grom'tor's Charge
 						["qg"] = 21291,	-- Grom'tor, Son of Oronok
 						["sourceQuest"] = 10521,	-- Grom'tor, Son of Oronok
+						["coord"] = { 44.6, 23.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 First Fragment of the Cipher of Damnation
 								["providers"] = {
-									{ "i", 30428 },	-- First Fragment of the Cipher of Damnation
+									{ "i",  30428 },	-- First Fragment of the Cipher of Damnation
 									{ "o", 184716 },	-- Coilskar Chest
+									{ "i",  30426 },	-- Coilskar Chest Key
 								},
+								["coord"] = { 47.1, 29.9, SHADOWMOON_VALLEY },
 							}),
 						},
 					}),
 					q(10523, {	-- The Cipher of Damnation - The First Fragment Recovered
-						["qg"] = 21291,	-- Grom'tor, Son of Oronok
+						["providers"] = {
+							{ "n", 21291 },	-- Grom'tor, Son of Oronok
+							{ "i", 30429 },	-- Grom'tor's Lockbox
+						},
 						["sourceQuest"] = 10522,	-- The Cipher of Damnation - Grom'tor's Charge
+						["coord"] = { 44.6, 23.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							i(30945),	-- Grom'tor's Friend's Cousin's Tunic
 							i(30923),	-- Grom'tor's Bloodied Bandage
@@ -1993,8 +1746,13 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10541, {	-- The Cipher of Damnation - The Second Fragment Recovered
-						["qg"] = 21318,	-- Spirit of Ar'tor
+						["providers"] = {
+							{ "n", 21318 },	-- Spirit of Ar'tor
+							{ "i", 30454 },	-- Ar'tor's Lockbox
+						},
 						["sourceQuest"] = 10540,	-- The Cipher of Damnation - Ar'tor's Charge
+						["coord"] = { 29.6, 50.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							i(30936),	-- Eva's Strap
 							i(30931),	-- Ghostly Headwrap
@@ -2004,8 +1762,13 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10579, {	-- The Cipher of Damnation - The Third Fragment Recovered
-						["qg"] = 21293,	-- Borak, Son of Oronok
+						["providers"] = {
+							{ "n", 21293 },	-- Borak, Son of Oronok
+							{ "i", 30646 },	-- Borak's Lockbox
+						},
 						["sourceQuest"] = 10578,	-- The Cipher of Damnation - Borak's Charge
+						["coord"] = { 47.6, 57.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							i(30951),	-- Ar'tor's Mainstay
 							i(30962),	-- Borak's Belt of Bravery
@@ -2021,22 +1784,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 53.8, 23.6, SHADOWMOON_VALLEY },
 						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11101, {	-- The Deadliest Trap Ever Laid (Aldor)
-						["qg"] = 23452,	-- Commander Arcus
-						["sourceQuest"] = 11100,	-- Commander Arcus
-						["coord"] = { 62.4, 29.4, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
-						["isDaily"] = true,
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11097, {	-- The Deadliest Trap Ever Laid (Scryers)
-						["qg"] = 23434,	-- Commander Hobb
-						["sourceQuest"] = 11095,	-- Commander Hobb
-						["coord"] = { 56.6, 58.6, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
-						["isDaily"] = true,
-					})),
 					q(10573, {	-- The Deathforge (A)
 						["qg"] = 21357,	-- Wing Commander Nuainn
 						["sourceQuest"] = 10564,	-- Blast the Infernals! (A)
@@ -2049,52 +1796,78 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10598,	-- Blast the Infernals! (H)
 						["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10583, {	-- The Fate of Flanis
 						["qg"] = 21471,	-- Stormer Ewan Wildwing
 						["sourceQuest"] = 10582,	-- Minions of the Shadow Council
 						["coord"] = { 40.4, 41.2, SHADOWMOON_VALLEY },
 						["races"] = ALLIANCE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
+						["groups"] = {
+							objective(1, {	-- 0/1 Flanis's Pack
+								["provider"] = { "i", 30658 },	-- Flanis's Pack
+								["coord"] = { 34.6, 39.8, SHADOWMOON_VALLEY },
+								["cr"] = 21727,	-- Flanis Swiftwing
+							}),
+						},
 					}),
 					q(10601, {	-- The Fate of Kagrosh
 						["qg"] = 21475,	-- Scout Zagran
 						["sourceQuest"] = 10600,	-- Minions of the Shadow Council
 						["coord"] = { 38.5, 38.1, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
+						["groups"] = {
+							objective(1, {	-- 0/1 Kagrosh's Pack
+								["provider"] = { "i", 30659 },	-- Kagrosh's Pack
+								["coord"] = { 35.2, 40.0, SHADOWMOON_VALLEY },
+								["cr"] = 21725,	-- Kagrosh
+							}),
+						},
 					}),
-					q(10612, {	-- The Fel and the Furious (A)
-						["qg"] = 21790,	-- Plexi
-						["sourceQuest"] = 10606,	-- The Art of Fel Reaver Maintenance (A)
-						["coord"] = { 40.8, 22.2, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
-					}),
-					q(10613, {	-- The Fel and the Furious (H)
-						["qg"] = 21789,	-- Nakansi
-						["sourceQuest"] = 10611,	-- The Art of Fel Reaver Maintenance (H)
-						["coord"] = { 27.5, 21.2, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-					}),
+					{	-- The Fel and the Furious
+						["allianceQuestData"] = q(10612, {	-- The Fel and the Furious (A)
+							["qg"] = 21790,	-- Plexi
+							["sourceQuest"] = 10606,	-- The Art of Fel Reaver Maintenance (A)
+							["coord"] = { 40.8, 22.2, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10613, {	-- The Fel and the Furious (H)
+							["qg"] = 21789,	-- Nakansi
+							["sourceQuest"] = 10611,	-- The Art of Fel Reaver Maintenance (H)
+							["coord"] = { 27.5, 21.2, SHADOWMOON_VALLEY },
+						}),
+						["lvl"] = lvlsquish(67, 67, 25),
+						["groups"] = {
+							objective(1, {	-- 0/60 Deathforged Infernal
+								["providers"] = {
+									{ "o", 184979 },	-- Deathforged Infernal
+									{ "o", 185060 },	-- Fel Reaver Control Console
+								},
+							}),
+						},
+					},
 					q(10854, {	-- The Force of Neltharaku
 						["qg"] = 21657,	-- Neltharaku
 						["sourceQuest"] = 10837,	-- To Netherwing Ledge!
 						["coord"] = { 61.9, 60.0, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(70, 70, 25),
+						["groups"] = {
+							objective(1, {	-- 0/5 Enslaved Netherwing Drake freed
+								["providers"] = {
+									{ "n", 21722 },	-- Enslaved Netherwing Drake
+									{ "i", 31652 },	-- Enchanted Nethervine Crystal
+								},
+								["coord"] = { 70.4, 61.6, SHADOWMOON_VALLEY },
+							}),
+						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11081, {	-- The Great Murkblood Revolt
-						["provider"] = { "i", 32726 },	-- Murkblood Escape Plans
-						["description"] = "The plans can be found inside Sludge-Covered Object, looted from Black Bloods inside the mines.  You must be at least Friendly with Netherwing to loot them.",
-						["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11049, {	-- The Great Netherwing Egg Hunt
-						["qg"] = 23141,	-- Yarzill the Merc
-						["sourceQuest"] = 11019,	-- Your Friend on the Inside
-						["coord"] = { 65.9, 86.4, SHADOWMOON_VALLEY },
-						["cost"] = { { "i", 32506, 1 }, },	-- Netherwing Egg
-					})),
 					q(10817, {	-- The Great Retribution
 						["qg"] = 21953,	-- Varen the Reclaimer
 						["sourceQuest"] = 10807,	-- The Ashtongue Broken
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["coord"] = { 54.7, 58.1, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/8 Shadowmoon Slayer slain
 								["provider"] = { "n", 22082 },	-- Shadowmoon Slayer
@@ -2116,30 +1889,41 @@ root(ROOTS.Zones, {
 						["coord"] = { 36.3, 56.9, SHADOWMOON_VALLEY },
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,	-- for Enraged Spirits of Fire and Earth
-						["lvl"] = lvlsquish(67, 67, 25),
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10681, {	-- The Hand of Gul'dan (H)
 						["qg"] = 21938,	-- Earthmender Splinthoof
 						["coord"] = { 28.4, 26.5, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,	-- for Enraged Spirits of Fire and Earth
+						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10662, {	-- The Hermit Smith (A)
-						["qg"] = 19370,	-- Ordinn Thunderfist
+						["providers"] = {
+							{ "n", 19370 },	-- Ordinn Thunderfist
+							{ "i", 30822 },	-- Box of Ingots (Provided)
+						},
 						["sourceQuest"] = 10626,	-- Capture the Weapons (A)
 						["coord"] = { 36.8, 54.8, SHADOWMOON_VALLEY },
-						["cost"] = { { "i", 30822, 1 } },	-- Box of Ingots (Provided)
+						["maps"] = { TEROKKAR_FOREST },
 						["races"] = ALLIANCE_ONLY,
 						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10663, {	-- The Hermit Smith (H)
-						["qg"] = 19333,	-- Grokom Deatheye
+						["providers"] = {
+							{ "n", 19333 },	-- Grokom Deatheye
+							{ "i", 30822 },	-- Box of Ingots (Provided)
+						},
 						["sourceQuest"] = 10627,	-- Capture the Weapons (H)
 						["coord"] = { 29.8, 31.2, SHADOWMOON_VALLEY },
+						["maps"] = { TEROKKAR_FOREST },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
 					q(10793, {	-- The Journal of Val'zareq: Portends of War
 						["provider"] = { "i", 31345 },	-- The Journal of Val'zareq
+						["coord"] = { 51.6, 61.0, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10678, {	-- The Main Course!
 						["qg"] = 21777,	-- Gnomus
@@ -2150,29 +1934,11 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/1 Felspine's Hide
 								["provider"] = { "i", 30851 },	-- Felspine's Hide
+								["coord"] = { 55.6, 43.4, SHADOWMOON_VALLEY },
 								["cr"] = 21897,	-- Felspine the Greater
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11075, {	-- The Netherwing Mines
-						["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
-						["sourceQuest"] = 11053,	-- Rise, Overseer!
-						["coord"] = { 66.0, 86.4, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11035, {	-- The Not-So-Friendly Skies...
-						["qg"] = 23141,	-- Yarzill the Merc
-						["sourceQuest"] = 11019,	-- Your Friend on the Inside
-						["coord"] = { 65.9, 86.4, SHADOWMOON_VALLEY },
-						["maxReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["isDaily"] = true,
-						["groups"] = {
-							objective(1, {	-- 0/10 Netherwing Relic
-								["provider"] = { "i", 32509 },	-- Netherwing Relic
-								["cr"] = 23188,	-- Dragonmaw Transporter
-							}),
-						},
-					})),
 					q(10772, {	-- The Path of Conquest (A)
 						["qg"] = 21773,	-- Thane Yoregar
 						["coord"] = { 36.2, 57.0, SHADOWMOON_VALLEY },
@@ -2229,6 +1995,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/1 Overdeveloped Felfire Gizzard
 								["provider"] = { "i", 30867 },	-- Overdeveloped Felfire Gizzard
+								["coord"] = { 58, 51.8, SHADOWMOON_VALLEY },
 								["cr"] = 21462,	-- Greater Felfire Diemetradon
 							}),
 						},
@@ -2236,6 +2003,8 @@ root(ROOTS.Zones, {
 					q(10576, {	-- The Shadowmoon Shuffle
 						["qg"] = 21293,	-- Borak, Son of Oronok
 						["sourceQuest"] = 10570,	-- To Catch a Thistlehead
+						["coord"] = { 47.6, 57.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/6 Eclipsion Armor
 								["provider"] = { "i", 30640 },	-- Eclipsion Armor
@@ -2252,10 +2021,15 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					q(10569, {	-- The Sketh'lon Wreckage (A)
-						["qg"] = 22042,	-- Gryphonrider Kieran
-						["coord"] = { 38.8, 54.2, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- The Sketh'lon Wreckage
+						["allianceQuestData"] = q(10569, {	-- The Sketh'lon Wreckage (A)
+							["qg"] = 22042,	-- Gryphonrider Kieran
+							["coord"] = { 38.8, 54.2, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10760, {	-- The Sketh'lon Wreckage (H)
+							["qg"] = 22043,	-- Sergeant Kargrul
+							["coord"] = { 31.0, 29.7, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Sketh'lon Commander's Journal - Page 1
@@ -2283,69 +2057,19 @@ root(ROOTS.Zones, {
 								},
 							}),
 						},
-					}),
-					q(10760, {	-- The Sketh'lon Wreckage (H)
-						["qg"] = 22043,	-- Sergeant Kargrul
-						["coord"] = { 31.0, 29.7, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Sketh'lon Commander's Journal - Page 1
-								["provider"] = { "i", 31260 },	-- Sketh'lon Commander's Journal - Page 1
-								["crs"] = {
-									19826,	-- Dark Conclave Shadowmancer
-									19827,	-- Dark Conclave Ravenguard
-									21386,	-- Dark Conclave Hawkeye
-								},
-							}),
-							objective(2, {	-- 0/1 Sketh'lon Commander's Journal - Page 2
-								["provider"] = { "i", 31261 },	-- Sketh'lon Commander's Journal - Page 2
-								["crs"] = {
-									19826,	-- Dark Conclave Shadowmancer
-									19827,	-- Dark Conclave Ravenguard
-									21386,	-- Dark Conclave Hawkeye
-								},
-							}),
-							objective(3, {	-- 0/1 Sketh'lon Commander's Journal - Page 3
-								["provider"] = { "i", 31262 },	-- Sketh'lon Commander's Journal - Page 3
-								["crs"] = {
-									19826,	-- Dark Conclave Shadowmancer
-									19827,	-- Dark Conclave Ravenguard
-									21386,	-- Dark Conclave Hawkeye
-								},
-							}),
-						},
-					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11089, {	-- The Soul Cannon of Reth'hedron
-						["qg"] = 23427,	-- Illidari Lord Balthas
-						["sourceQuest"] = 11084,	-- Stand Tall, Captain!
-						["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
-						["groups"] = {
-							objective(1, {	-- 0/2 Felsteel Bar
-								["providers"] = {
-									{ "i", 23448 },	-- Felsteel Bar
-								},
-							}),
-							objective(2, {	-- 0/1 Adamantite Frame
-								["providers"] = {
-									{ "i", 23784 },	-- Adamantite Frame
-								},
-							}),
-							objective(3, {	-- 0/1 Khorium Power Core
-								["providers"] = {
-									{ "i", 23786 },	-- Khorium Power Core
-								},
-							}),
-							objective(4, {	-- 0/1 Flawless Arcane Essence
-								["provider"] = { "i", 32822 },	-- Flawless Arcane Essence
-								["cr"] = 23100,	-- Flawless Arcane Elemental
-							}),
-						},
-					})),
-					q(10585, {	-- The Summoning Chamber (A)
-						["qg"] = 21471,	-- Stormer Ewan Wildwing
-						["sourceQuest"] = 10582,	-- Minions of the Shadow Council (A)
-						["coord"] = { 40.4, 41.2, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					},
+					{	-- The Summoning Chamber
+						["allianceQuestData"] = q(10585, {	-- The Summoning Chamber (A)
+							["qg"] = 21471,	-- Stormer Ewan Wildwing
+							["sourceQuest"] = 10582,	-- Minions of the Shadow Council (A)
+							["coord"] = { 40.4, 41.2, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10602, {	-- The Summoning Chamber (H)
+							["qg"] = 21475,	-- Scout Zagran
+							["sourceQuest"] = 10600,	-- Minions of the Shadow Council (H)
+							["coord"] = { 38.5, 38.1, SHADOWMOON_VALLEY },
+						}),
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 End Infernal Summoning Ritual
 								["provider"] = { "n", 21735 },	-- Infernal Oversoul
@@ -2358,35 +2082,20 @@ root(ROOTS.Zones, {
 								},
 							}),
 						},
-					}),
-					q(10602, {	-- The Summoning Chamber (H)
-						["qg"] = 21475,	-- Scout Zagran
-						["sourceQuest"] = 10600,	-- Minions of the Shadow Council (H)
-						["coord"] = { 38.5, 38.1, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 End Infernal Summoning Ritual
-								["provider"] = { "n", 21735 },	-- Infernal Oversoul
-							}),
-							objective(2, {	-- 0/1 Elemental Displacer
-								["provider"] = { "i", 30672 },	-- Elemental Displacer
-								["crs"] = {
-									19754,	-- Deathforge Tinkerer
-									19756,	-- Deathforge Smith
-								},
-							}),
-						},
-					}),
-					q(10575, {	-- The Warden's Cage (Aldor)
+					},
+					q(10575, {	-- The Warden's Cage (The Aldor)
 						["qg"] = 21402,	-- Anchorite Ceyla
 						["sourceQuest"] = 10574,	-- The Ashtongue Corruptors
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["coord"] = { 62.6, 28.4, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
-					q(10686, {	-- The Warden's Cage (Scryers)
+					q(10686, {	-- The Warden's Cage (The Scryers)
 						["qg"] = 21955,	-- Arcanist Thelis
 						["sourceQuest"] = 10685,	-- The Ashtongue Corruptors
-						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["coord"] = { 56.2, 59.6, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 					}),
 					q(10808, {	-- Thwart the Dark Conclave
 						["qg"] = 22024,	-- Parshah
@@ -2396,7 +2105,13 @@ root(ROOTS.Zones, {
 							{ 35.2, 40.4, SHADOWMOON_VALLEY },
 							{ 35.4, 41.8, SHADOWMOON_VALLEY },
 						},
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
+							objective(1, {	-- End Dark Conclave Summoning Ritual
+								["provider"] = { "i", 31386 },	-- Staff of Parshah
+								["coord"] = { 41.6, 60.2, SHADOWMOON_VALLEY },
+								["cr"] = 22138,	-- Dark Conclave Ritualist
+							}),
 							i(30941),	-- Ash Tempered Legguards
 							i(30955),	-- Crown of Cinders
 							i(30960),	-- Runed Sketh'lon Legplates
@@ -2406,67 +2121,77 @@ root(ROOTS.Zones, {
 					q(10570, {	-- To Catch A Thistlehead
 						["qg"] = 21293,	-- Borak, Son of Oronok
 						["sourceQuest"] = 10550,	-- The Bundle of Bloodthistle
+						["coord"] = { 47.6, 57.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Stormrage Missive
-								["provider"] = { "i", 30617 },	-- Stormrage Missive
+								["providers"] = {
+									{ "i", 30617 },	-- Stormrage Missive
+									{ "i", 30616 },	-- Bundle of Bloodthistle
+								},
 								["cr"] = 21409,	-- Envoy Icarius
 							}),
 						},
 					}),
-					q(10563, {	-- To Legion Hold (A)
-						["qg"] = 21357,	-- Wing Commander Nuainn
-						["sourceQuest"] = 10562,	-- Besieged! (A)
-						["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- To Legion Hold
+						["allianceQuestData"] = q(10563, {	-- To Legion Hold (A)
+							["qg"] = 21357,	-- Wing Commander Nuainn
+							["sourceQuest"] = 10562,	-- Besieged! (A)
+							["coord"] = { 39.5, 53.7, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10596, {	-- To Legion Hold (H)
+							["qg"] = 21359,	-- Blood Guard Gulmok
+							["sourceQuest"] = 10595,	-- Besieged! (H)
+							["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
-							objective(1, {	--  Discover Legion's Plans
+							objective(1, {	-- Discover Legion's Plans
 								["provider"] = { "i", 30638 },	-- Box o' Tricks (Provided)
+								["coord"] = { 23.6, 36.8, SHADOWMOON_VALLEY },
 								["cr"] = 21502,	-- Image of Warbringer Razuun
 							}),
 						},
-					}),
-					q(10596, {	-- To Legion Hold (H)
-						["qg"] = 21359,	-- Blood Guard Gulmok
-						["sourceQuest"] = 10595,	-- Besieged! (H)
-						["coord"] = { 30.4, 32.4, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Discover Legion's Plans
-								["provider"] = { "n", 21502 },	-- Image of Warbringer Razuun
-							}),
-						},
-					}),
+					},
 					q(10837, {	-- To Netherwing Ledge!
 						["qg"] = 21657,	-- Neltharaku
 						["sourceQuest"] = 10836,	-- Infiltrating Dragonmaw Fortress
 						["coord"] = { 61.9, 60.0, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(70, 70, 25),
 						["groups"] = {
 							objective(1, {	-- 0/12 Nethervine Crystal
 								["providers"] = {
-									{ "i", 31504 },	-- Nethervine Crystal
+									{ "i",  31504 },	-- Nethervine Crystal
 									{ "o", 185182 },	-- Nethervine Crystal
 								},
 							}),
 						},
 					}),
-					q(10651, {	-- Varedis Must Be Stopped (Aldor) (awarded "Borrowed Power" criteria)
+					q(10651, {	-- Varedis Must Be Stopped (The Aldor)
 						["qg"] = 21860,	-- Exarch Onaala
-						["coord"] = { 61.2, 29.2, SHADOWMOON_VALLEY },
 						["sourceQuest"] = 10650,	-- Return to the Aldor
+						["coord"] = { 61.2, 29.2, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Varedis slain
-								["provider"] = { "n", 21178 },	-- Varedis
+								["providers"] = {
+									{ "n", 21178 },	-- Varedis
+									{ "i", 30854 },	-- Book of Fel Names
+								},
+								["coord"] = { 72.0, 53.6, SHADOWMOON_VALLEY },
 							}),
 							objective(2, {	-- 0/1 Netharel slain
 								["provider"] = { "n", 21164 },	-- Netharel
+								["coord"] = { 69.0, 52.6, SHADOWMOON_VALLEY },
 							}),
 							objective(3, {	-- 0/1 Theras slain
 								["provider"] = { "n", 21168 },	-- Theras
+								["coord"] = { 72.2, 48.6, SHADOWMOON_VALLEY },
 							}),
 							objective(4, {	-- 0/1 Alandien slain
 								["provider"] = { "n", 21171 },	-- Alandien
+								["coord"] = { 69.6, 53.8, SHADOWMOON_VALLEY },
 							}),
 							i(31013),	-- Ceremonial Kris
 							i(30933),	-- Hauberk of Karabor
@@ -2476,23 +2201,31 @@ root(ROOTS.Zones, {
 							i(31009),	-- Wildcaller
 						},
 					}),
-					q(10692, {	-- Varedis Must Be Stopped (Scryers)
+					q(10692, {	-- Varedis Must Be Stopped (The Scryers)
 						["qg"] = 21954,	-- Larissa Sunstrike
-						["coord"] = { 55.7, 58.1, SHADOWMOON_VALLEY },
 						["sourceQuest"] = 10691,	-- Return to the Scryers
+						["coord"] = { 55.7, 58.1, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Varedis slain
-								["provider"] = { "n", 21178 },	-- Varedis
+								["providers"] = {
+									{ "n", 21178 },	-- Varedis
+									{ "i", 30854 },	-- Book of Fel Names
+								},
+								["coord"] = { 72.0, 53.6, SHADOWMOON_VALLEY },
 							}),
 							objective(2, {	-- 0/1 Netharel slain
 								["provider"] = { "n", 21164 },	-- Netharel
+								["coord"] = { 69.0, 52.6, SHADOWMOON_VALLEY },
 							}),
 							objective(3, {	-- 0/1 Theras slain
 								["provider"] = { "n", 21168 },	-- Theras
+								["coord"] = { 72.2, 48.6, SHADOWMOON_VALLEY },
 							}),
 							objective(4, {	-- 0/1 Alandien slain
 								["provider"] = { "n", 21171 },	-- Alandien
+								["coord"] = { 69.6, 53.8, SHADOWMOON_VALLEY },
 							}),
 							i(31013),	-- Ceremonial Kris
 							i(30933),	-- Hauberk of Karabor
@@ -2507,11 +2240,17 @@ root(ROOTS.Zones, {
 						["coord"] = { 55.4, 68.6, NAGRAND },
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,
+						["lvl"] = lvlsquish(67, 67, 25),
 					}),
-					q(10648, {	-- Wanted: Uvuros, Scourge of Shadowmoon (A)
-						["provider"] = { "o", 184946 },	-- Wanted Poster
-						["coord"] = { 38.2, 53.9, SHADOWMOON_VALLEY },
-						["races"] = ALLIANCE_ONLY,
+					{	-- Wanted: Uvuros, Scourge of Shadowmoon
+						["allianceQuestData"] = q(10648, {	-- Wanted: Uvuros, Scourge of Shadowmoon (A)
+							["provider"] = { "o", 184946 },	-- Wanted Poster
+							["coord"] = { 38.2, 53.9, SHADOWMOON_VALLEY },
+						}),
+						["hordeQuestData"] = q(10647, {	-- Wanted: Uvuros, Scourge of Shadowmoon (H)
+							["provider"] = { "o", 184945 },	-- Wanted Poster
+							["coord"] = { 30.4, 30.8, SHADOWMOON_VALLEY },
+						}),
 						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Uvuros's Fiery Mane
@@ -2524,35 +2263,31 @@ root(ROOTS.Zones, {
 							i(31111),	-- Uvuros Hide Gloves
 							i(31115),	-- Uvuros Plated Spaulders
 						},
-					}),
-					q(10647, {	-- Wanted: Uvuros, Scourge of Shadowmoon (H)
-						["provider"] = { "o", 184945 },	-- Wanted Poster
-						["coord"] = { 30.4, 30.8, SHADOWMOON_VALLEY },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							objective(1, {	-- 0/1 Uvuros' Fiery Mane
-								["provider"] = { "i", 30807 },	-- Uvuros' Fiery Mane
-								["cr"] = 21102,	-- Uvuros
-							}),
-							i(31112),	-- Uvuros Hide Boots
-							i(31114),	-- Uvuros Hide Cinch
-							i(31111),	-- Uvuros Hide Gloves
-							i(31115),	-- Uvuros Plated Spaulders
-						},
-					}),
+					},
 					warchiefscommand(q(49532, {	-- Warchief's Command: Shadowmoon Valley!
 						["timeline"] = { ADDED_7_3_5 },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
+						["lvl"] = lvlsquish(67, 67, 25),
 					})),
 					q(10577, {	-- What Illidan Wants, Illidan Gets...
 						["qg"] = 21293,	-- Borak, Son of Oronok
 						["sourceQuest"] = 10576,	-- The Shadowmoon Shuffle
+						["coord"] = { 47.6, 57.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
+						["groups"] = {
+							objective(1, {	-- Illidan's Message Delivered
+								["provider"] = { "i", 30639 },	-- Blood Elf Disguise
+								["coord"] = { 46.4, 71.8, SHADOWMOON_VALLEY },
+								["cr"] = 20563,	-- Grand Commander Ruusk
+							}),
+						},
 					}),
 					q(10660, {	-- What Strange Creatures...
 						["qg"] = 21770,	-- Researcher Tiorus
 						["coord"] = { 30.0, 28.2, SHADOWMOON_VALLEY },
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/8 Felfire Spleen
 								["provider"] = { "i", 30819 },	-- Felfire Spleen
@@ -2571,24 +2306,23 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10751,	-- Breaching the Path (H)
 						["description"] = "Use your Kor'kron Flare Gun to summon the questgiver anywhere on the Path of Conquest.",
 						["races"] = HORDE_ONLY,
+						["lvl"] = lvlsquish(67, 67, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Chancellor Bloodleaf slain
 								["provider"] = { "n", 22012 },	-- Chancellor Bloodleaf
+								["coord"] = { 53, 70.6, SHADOWMOON_VALLEY },
 							}),
 							objective(2, {	-- 0/1 Corok the Mighty slain
 								["provider"] = { "n", 22011 },	-- Corok the Mighty
+								["coord"] = { 53.6, 69.8, SHADOWMOON_VALLEY },
 							}),
 							objective(3, {	-- 0/1 Illidan's Command
 								["provider"] = { "i", 31271 },	-- Illidan's Command
+								["coord"] = { 53, 70.6, SHADOWMOON_VALLEY },
 								["cr"] = 22012,	-- Chancellor Bloodleaf
 							}),
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11019, {	-- Your Friend On The Inside
-						["qg"] = 23141,	-- Yarzill the Merc
-						["sourceQuest"] = 11013,	-- In Service of the Illidari
-						["coord"] = { 65.9, 86.4, SHADOWMOON_VALLEY },
-					})),
 					q(10866, {	-- Zuluhed the Whacked
 						["qg"] = 22112,	-- Karynaku
 						["sourceQuest"] = 10858,	-- Karynaku
@@ -2597,6 +2331,21 @@ root(ROOTS.Zones, {
 						-- #if AFTER WRATH
 						["altQuests"] = { 10872 },	-- Zuluhed the Whacked
 						-- #endif
+						["lvl"] = lvlsquish(70, 70, 25),
+						["groups"] = {
+							objective(1, {	-- Karynaku freed
+								["providers"] = {
+									{ "n", 22112 },	-- Karynaku <Mate of Neltharaku>
+									{ "i", 31664 },	-- Zuluhed's Key
+								},
+								["coord"] = { 69.8, 61.4, SHADOWMOON_VALLEY },
+								["cr"] = 11980,	-- Zuluhed the Whacked <Chieftain of the Dragonmaw Clan>
+							}),
+							objective(2, {	-- Zuluhed the Whacked slain
+								["provider"] = { "n", 11980 },	-- Zuluhed the Whacked <Chieftain of the Dragonmaw Clan>
+								["coord"] = { 71.0, 62.6, SHADOWMOON_VALLEY },
+							}),
+						},
 					}),
 					-- #if AFTER WRATH
 					q(10872, {	-- Zuluhed the Whacked
@@ -2605,6 +2354,21 @@ root(ROOTS.Zones, {
 						["coord"] = { 69.8, 61.4, SHADOWMOON_VALLEY },
 						["_drop"] = { "races" },	-- stop this from being marked as horde only when it is not horde only
 						["altQuests"] = { 10866 },	-- Zuluhed the Whacked
+						["lvl"] = lvlsquish(70, 70, 25),
+						["groups"] = {
+							objective(1, {	-- Karynaku freed
+								["providers"] = {
+									{ "n", 22112 },	-- Karynaku <Mate of Neltharaku>
+									{ "i", 31664 },	-- Zuluhed's Key
+								},
+								["coord"] = { 69.8, 61.4, SHADOWMOON_VALLEY },
+								["cr"] = 11980,	-- Zuluhed the Whacked <Chieftain of the Dragonmaw Clan>
+							}),
+							objective(2, {	-- Zuluhed the Whacked slain
+								["provider"] = { "n", 11980 },	-- Zuluhed the Whacked <Chieftain of the Dragonmaw Clan>
+								["coord"] = { 71.0, 62.6, SHADOWMOON_VALLEY },
+							}),
+						},
 					}),
 					-- #endif
 				}),
@@ -2722,27 +2486,6 @@ root(ROOTS.Zones, {
 							i(25532),	-- Swift Yellow Wind Rider (MOUNT!)
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, n(23489, {	-- Drake Dealer Hurlunk
-						["sourceQuests"] = {
-							11109,	-- Jorus the Cobalt Netherwing Drake
-							11110,	-- Malfas the Purple Netherwing Drake
-							11111,	-- Onyxien the Onyx Netherwing Drake
-							11112,	-- Suraku the Azure Netherwing Drake
-							11113,	-- Voranaku the Violet Netherwing Drake
-							11114,	-- Zoya the Veridian Netherwing Drake
-						},
-						["coord"] = { 65.6, 85.9, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["description"] = "To access this vendor, you must reach Exalted with the Netherwing and claim one of the netherwing drakes in Shattrath.",
-						["groups"] = {
-							i(32858),	-- Azure Netherwing Drake (MOUNT!)
-							i(32859),	-- Cobalt Netherwing Drake (MOUNT!)
-							i(32857),	-- Onyx Netherwing Drake (MOUNT!)
-							i(32860),	-- Purple Netherwing Drake (MOUNT!)
-							i(32861),	-- Veridian Netherwing Drake (MOUNT!)
-							i(32862),	-- Violet Netherwing Drake (MOUNT!)
-						},
-					})),
 					n(19526, {	-- Dunaman <Weapons Vendor>
 						["coord"] = { 63.2, 30.6, SHADOWMOON_VALLEY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
@@ -2819,6 +2562,18 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
+					i(30426, {	-- Coilskar Chest Key
+						["crs"] = {
+							19762,	-- Coilskar Defender
+							19788,	-- Coilskar Muckwatcher
+							19765,	-- Coilskar Myrmidon
+							19768,	-- Coilskar Siren
+							19767,	-- Coilskar Sorceress
+							19789,	-- Coilskar Waterkeeper
+							20795,	-- Keeper of the Cistern
+							20684,	-- Lady Shav'rar
+						},
+					}),
 					i(34689, {	-- Design: Chaotic Skyfire Diamond
 						["crs"] = { 19768 },	-- Coilskar Siren
 					}),
@@ -2839,13 +2594,6 @@ root(ROOTS.Zones, {
 						["cr"] = 21499,	-- Overseer Ripsaw
 						["races"] = HORDE_ONLY,
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32427)),	-- Netherwing Crystal
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32506)),	-- Netherwing Egg
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, i(32621, {	-- Partially Digested Hand
-						["coord"] = { 74.6, 86.5, SHADOWMOON_VALLEY },
-						["minReputation"] = { FACTION_NETHERWING, NEUTRAL },	-- Netherwing, Neutral.
-						["cr"] = 23267,	-- Arvoar the Rapacious
-					})),
 					i(23609, {	-- Plans: Khorium Pants (RECIPE!)
 						["crs"] = { 20878 },	-- Deathforge Guardian
 					}),
@@ -2910,13 +2658,6 @@ root(ROOTS.Zones, {
 					}),
 					i(23806, {	-- Schematic: Hyper-Vision Goggles (RECIPE!)
 						["crs"] = { 19755 },	-- Mo'arg Weaponsmith
-					}),
-					i(32724, {	-- Sludge-Covered Object (The Great Murkblood Revolt)
-						["coord"] = { 65.3, 89.9, SHADOWMOON_VALLEY },
-						["cr"] = 23286,	-- Black Blood of Draenor
-						["groups"] = {
-							i(32726),	-- Murkblood Escape Plans
-						},
 					}),
 					i(31345, {	-- The Journal of Val'zareq
 						["cr"] = 21979,	-- Val'zareq the Conqueror

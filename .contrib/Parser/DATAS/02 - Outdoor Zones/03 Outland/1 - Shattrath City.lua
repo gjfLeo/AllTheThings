@@ -852,15 +852,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 54.7, 44.3, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11109, {	-- Jorus the Cobalt Netherwing Drake
-						["qg"] = 23462,	-- Jorus
-						["sourceQuest"] = 11107,	-- Bow to the Highlord
-						["coord"] = { 67.8, 17.2, SHATTRATH_CITY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["groups"] = {
-							i(32859),	-- Reins of the Cobalt Netherwing Drake Mount
-						},
-					})),
 					q(10169, {	-- Losing Gracefully
 						["qg"] = 19485,	-- Magister Falris
 						["coord"] = { 47.0, 83.5, SHATTRATH_CITY },
@@ -890,15 +881,6 @@ root(ROOTS.Zones, {
 								},
 							}),
 							i(35232),	-- Shattered Sun Supplies
-						},
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11110, {	-- Malfas the Purple Netherwing Drake
-						["qg"] = 23464,	-- Malfas
-						["sourceQuest"] = 11107,	-- Bow to the Highlord
-						["coord"] = { 67.8, 18.0, SHATTRATH_CITY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["groups"] = {
-							i(32860),	-- Reins of the Purple Netherwing Drake Mount
 						},
 					})),
 					q(11380, {	-- Manalicious
@@ -1001,15 +983,6 @@ root(ROOTS.Zones, {
 						["cost"] = { { "i", 25802, 8 } },	-- Dreadfang Venom Sac
 						["repeatable"] = true,
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11111, {	-- Onyxien the Onyx Netherwing Drake
-						["qg"] = 23463,	-- Onyxien
-						["sourceQuest"] = 11107,	-- Bow to the Highlord
-						["coord"] = { 67.6, 18.4, SHATTRATH_CITY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["groups"] = {
-							i(32857),	-- Reins of the Onyx Netherwing Drake Mount
-						},
-					})),
 					q(57581, {	-- Plucking Plumes
 						["qg"] = 22429,	-- Vekax
 						["coord"] = { 47.7, 18.8, SHATTRATH_CITY },
@@ -1201,15 +1174,6 @@ root(ROOTS.Zones, {
 							i(33857),	-- Crate of Meat
 						},
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11112, {	-- Suraku the Azure Netherwing Drake
-						["qg"] = 23461,	-- Suraku
-						["sourceQuest"] = 11107,	-- Bow to the Highlord
-						["coord"] = { 66.8, 18.4, SHATTRATH_CITY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["groups"] = {
-							i(32858),	-- Reins of the Azure Netherwing Drake Mount
-						},
-					})),
 					q(10416, {	-- Synthesis of Power
 						["qg"] = 18530,	-- Voren'thal the Seer
 						["sourceQuest"] = 10552,	-- Allegiance to the Scryers
@@ -1266,15 +1230,6 @@ root(ROOTS.Zones, {
 						["qg"] = 23449,	-- Yuula
 						["sourceQuest"] = 11096,	-- Threat From Above
 						["coord"] = { 64.0, 42.0, SHATTRATH_CITY },
-					})),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11113, {	-- Voranaku the Violet Netherwing Drake
-						["qg"] = 23466,	-- Voranaku
-						["sourceQuest"] = 11107,	-- Bow to the Highlord
-						["coord"] = { 66.6, 17.8, SHATTRATH_CITY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["groups"] = {
-							i(32862),	-- Reins of the Violet Netherwing Drake Mount
-						},
 					})),
 					q(10553, {	-- Voren'thal the Seer
 						["qg"] = 18166,	-- Archmage Khadgar
@@ -1597,15 +1552,6 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["isBreadcrumb"] = true,	-- for "A Ghost in the Machine" in SMV, mutually exclusive w/other bcrumbs
 					}),
-					applyclassicphase(TBC_PHASE_THREE_NETHERWING, q(11114, {	-- Zoya the Veridian Netherwing Drake
-						["qg"] = 23465,	-- Zoya
-						["sourceQuest"] = 11107,	-- Bow to the Highlord
-						["coord"] = { 66.6, 18.6, SHATTRATH_CITY },
-						["minReputation"] = { FACTION_NETHERWING, EXALTED },	-- Netherwing, Exalted.
-						["groups"] = {
-							i(32861),	-- Reins of the Veridian Netherwing Drake Mount
-						},
-					})),
 				}),
 				n(REWARDS, bubbleDownSelf({ ["timeline"] = { ADDED_2_3_0 } }, {
 					i(33844, {	-- Barrel of Fish
@@ -1917,6 +1863,12 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["timeline"] = { ADDED_3_1_0 },
 						["groups"] = ZURII_YURIAL_GROUPS,
+					}),
+					n(19678, {	-- Fantei <Reagents>
+						["coord"] = { 64.6, 70.6, SHATTRATH_CITY },
+						["groups"] = {
+							i(30823),	-- Demon Warding Totem
+						},
 					}),
 					n(18525, {	-- G'eras
 						["coord"] = { 50.8, 42.4, SHATTRATH_CITY },

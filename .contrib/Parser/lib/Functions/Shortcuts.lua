@@ -363,14 +363,24 @@ end
 bubbleDownTimelineEventSelf = function(epoch, t)
 	return bubbleDownTimelineEvent(epoch, togroups(t));
 end
+generateValidationStructure = function(indent, t)
+	local msg = "";
+	for j,o in pairs(t) do
+		msg = msg .. "\n" .. indent .. j .. ": " .. tostring(o);
+		if type(o) == "table" then
+			msg = msg .. generateValidationStructure(indent .. " ", o);
+		end
+	end
+	return msg;
+end
 -- Validates and returns 't' (expected 'groups' content) ensuring that contained content is in the expected formats
 validateGroups = function(t)
 	if t then
 		for i,group in pairs(t) do
 			if type(i) ~= "number" then
-				error("You're trying to use '" .. i .. "' in a 'groups' field. (can't do that!)");
+				error("You're trying to use '" .. i .. "' in a 'groups' field. (can't do that!)\nDetails: " .. generateValidationStructure(" ", t));
 			elseif type(group) ~= "table" then
-				error("You're trying to use '" .. group .. "' in a 'groups' field. (can't do that!)");
+				error("You're trying to use '" .. group .. "' in a 'groups' field. (can't do that!)\nDetails: " .. generateValidationStructure(" ", t));
 			end
 		end
 		return t;

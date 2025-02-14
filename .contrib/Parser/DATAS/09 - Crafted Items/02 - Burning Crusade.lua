@@ -821,10 +821,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					i(22791),	-- Netherbloom
 				},
 			}),
-			i(32468, {	-- Netherdust Pollen (Quest Item for Netherwing daily q(11017))
-				["timeline"] = { ADDED_2_1_0 },
-				["coord"] = { 70.0, 85.0, SHADOWMOON_VALLEY },	-- Netherwing Ledge
-			}),
 			i(22797, {	-- Nightmare Seed
 				["timeline"] = { REMOVED_3_3_0 }, -- Danny Donkey: Must confirm how this applies to Classic!
 			}),
@@ -1272,10 +1268,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				}
 			}),
 			i(35229, {["timeline"] = {ADDED_2_4_0}}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
-			i(32464, {	-- Nethercite Ore (Quest Item for Netherwing daily q(11018))
-				["timeline"] = { ADDED_2_1_0 },
-				["coord"] = { 70.0, 85.0, SHADOWMOON_VALLEY },	-- Netherwing Ledge
-			}),
 			--	Not Ore
 			--[[	No need to list Tradegoods w/ many other sources
 			i(23117),	-- Azure Moonstone
@@ -1378,7 +1370,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(35229),	-- Nether Residue
-			i(32470),	-- Nethermine Flayer Hide
 			i(25708),	-- Thick Clefthoof Leather
 			i(25708, {    -- Thick Clefthoof Leather
 				["description"] = "Clefthoofs can be found all over Nagrand.",
