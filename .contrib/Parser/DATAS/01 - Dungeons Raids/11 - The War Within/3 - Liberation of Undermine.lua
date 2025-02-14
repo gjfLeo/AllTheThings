@@ -105,7 +105,7 @@ local EncounterToLoot = {
 		i(231266),	-- Random Number Perforator
 	};
 	[MUGZEE] = {
-		i(228851),	-- 'Bullet-Proof' Vestplate
+		i(228851),	-- "Bullet-Proof" Vestplate
 		i(228893),	-- "Tiny Pal"
 		i(228901),	-- Big Earner's Bludgeon
 		i(232804),	-- Capo's Molten Knuckles

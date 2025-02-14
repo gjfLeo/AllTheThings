@@ -896,7 +896,6 @@ root(ROOTS.Unsorted, {
 			}),
 			--
 			i(226148),	-- Wax-Sealed Weathered Crests
-			i(228851),	-- "Bullet-Proof" Vestplate
 			i(229230),	-- Enforcer's Backalley Allegiance
 			i(229231),	-- Enforcer's Backalley Bindings
 			i(229232),	-- Enforcer's Backalley Girdle
