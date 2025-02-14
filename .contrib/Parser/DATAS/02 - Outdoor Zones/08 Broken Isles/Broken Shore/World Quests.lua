@@ -124,7 +124,11 @@ root(ROOTS.Zones, {
 				q(46811, {	-- The Broodmother's Wrath
 					["classes"] = { DEATHKNIGHT },
 				}),
-				q(45805),	-- The Burning Keys
+				q(45805, {	-- The Burning Keys
+					["g"] = {
+						i(143924),	-- Burning Key (QI!)
+					},
+				}),
 				q(45035),	-- The Call of Battle
 				q(46942),	-- The Cost of Power
 				q(46160),	-- The Shackled Void

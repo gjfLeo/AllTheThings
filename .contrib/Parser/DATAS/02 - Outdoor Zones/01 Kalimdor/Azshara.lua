@@ -1045,6 +1045,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 117252,	-- Archmage Xylem
 					["coord"] = { 25.2, 38.0, AZSHARA },
 					["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1 },
+					["g"] = {
+						i(143779),	-- The Focusing Iris (QI!)
+					},
 				}),
 				q(14472, {	-- In The Face!
 					["qg"] = 36744,	-- Glix Grindlock

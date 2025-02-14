@@ -683,6 +683,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["provider"] = { "n", 117308 },	-- D'Bynn
 						["coord"] = { 52.2, 48.9, SURAMAR },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = {
+							i(143788),	-- Manaroot (QI!)
+						},
 					}),
 					q(45553, {	-- The Nighthuntress Beckons
 						["sourceQuests"] = { 45552 },	-- Soothing Wounds
@@ -695,6 +698,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["provider"] = { "n", 117246 },	-- Nighthuntress Syrenne
 						["coord"] = { 57.5, 44.8, SURAMAR },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = {
+							i(143830),	-- Relyn's Control Orb (QI!)
+						},
 					}),
 					q(45555, {	-- Felbound Beasts
 						["sourceQuests"] = { 45554 },	-- Taking Control

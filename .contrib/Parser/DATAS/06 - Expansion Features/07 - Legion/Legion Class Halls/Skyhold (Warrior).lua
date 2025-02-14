@@ -646,6 +646,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 116193 },	-- Aerylia
 						["coord"] = { 34.3, 28.5, HELHEIM },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = {
+							i(144071),	-- Helya's Horn (QI!)
+						},
 					}),
 					q(45128, {	-- A Glorious Reunion
 						["sourceQuests"] = {

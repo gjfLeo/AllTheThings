@@ -734,6 +734,9 @@ root(ROOTS.Zones, {
 					},
 					["provider"] = { "n", 117225 },	-- Navarrogg
 					["coord"] = { 35.6, 24.0, HIGHMOUNTAIN },
+					["g"] = {
+						i(143778),	-- Fel Infusing Totem (QI!)
+					},
 				}),
 				q(39026, {	-- The Drogbar
 					["sourceQuests"] = { 42104 },	-- The Underking Comes

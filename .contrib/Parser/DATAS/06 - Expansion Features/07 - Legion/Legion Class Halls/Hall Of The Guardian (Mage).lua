@@ -784,18 +784,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = {
+							i(143837),	-- Tri-Disc of Frost (QI!)
+						},
 					}),
 					q(45845, {	-- Burning Within
 						["sourceQuest"] = 45844,	-- Avocation of Antonidas
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = {
+							i(143836),	-- Tri-Disc of Fire (QI!)
+						},
 					}),
 					q(45847, {	-- Close to Home
 						["sourceQuest"] = 45844,	-- Avocation of Antonidas
 						["provider"] = { "n", 108247 },	-- Archmage Kalec
 						["coord"] = { 56.3, 38.0, HALL_OF_THE_GUARDIAN_2ND_FLOOR },
 						["timeline"] = { ADDED_7_2_0 },
+						["g"] = {
+							i(143838),	-- Tri-Disc of the Arcane (QI!)
+						},
 					}),
 					q(45354, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Dispersion of the Discs
 						["sourceQuests"] = {

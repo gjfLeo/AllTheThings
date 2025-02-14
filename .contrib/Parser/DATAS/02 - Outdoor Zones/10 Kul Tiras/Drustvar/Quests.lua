@@ -1091,6 +1091,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				-- May have additional sourceQuests; needs confirmation.  Picked up after turning in "And Justice For All."
 				["g"] = {
 					i(152480),	-- Gravebloom (QI!)
+					i(152481),	-- Gravebloom Salve (QI!)
 				},
 				-- Not required for "Drust Do It."
 			}),

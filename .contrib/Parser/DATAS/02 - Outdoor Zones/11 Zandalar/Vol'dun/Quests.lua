@@ -891,6 +891,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 135154 },	-- Kiro
 				["coord"] = { 47.0, 75.5, VOLDUN },	-- Zul'Ahjin
 				["races"] = HORDE_ONLY,
+				["g"] = {
+					i(152393),	-- Prickly Plum Cactus (QI!)
+				},
 			}),
 			q(47928, {	-- Offering for the Loa
 				["sourceQuests"] = {

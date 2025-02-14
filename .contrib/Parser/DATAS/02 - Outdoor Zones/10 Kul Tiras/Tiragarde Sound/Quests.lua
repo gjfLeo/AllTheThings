@@ -322,6 +322,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 50.2, 37.1, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 123415 },	-- Henry Hardwick
+				["g"] = {
+					i(151135),	-- Stein of Grog (QI!)
+				},
 			}),
 			q(49522, {	-- Carentan's Payment
 				["sourceQuests"] = { 49407 },	-- Trixie Business

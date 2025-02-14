@@ -106,6 +106,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(231895),	-- Leftover Mocktail (QI!)
 						i(231897),	-- Rusted Coin (QI!)
 						i(231896),	-- Unused Jar (QI!)
+						i(231894),	-- Useful Trash (QI!)
 						o(478435),	-- Waiting Garbage Can
 						o(478436),	-- Waiting Garbage Can
 						o(478437),	-- Waiting Garbage Can

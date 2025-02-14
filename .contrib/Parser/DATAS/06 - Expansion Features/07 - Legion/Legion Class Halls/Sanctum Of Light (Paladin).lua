@@ -658,6 +658,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
+						["g"] = {
+							i(143890),	-- Boots of Kicking (QI!)
+							i(143891),	-- Gauntless of Huge Grapsing (QI!)
+							i(143777),	-- Helm of Greatness (QI!)
+							i(143782),	-- Pants of Wonderment (QI!)
+							i(143889),	-- Spaulders of Hugeness (QI!)
+						},
 					}),
 					q(44220, {	-- Blessing of the Order
 						["u"] = REMOVED_FROM_GAME,
@@ -733,6 +740,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["_drop"] = { "classes", "c" },	-- Hide classes Blizz API insists can get the quest
 						["classes"] = { PALADIN },
 						["coord"] = { 55.8, 16.2, HIGHMOUNTAIN },
+						["g"] = {
+							i(143840),	-- Excaliberto (QI!)
+						},
 					}),
 					q(45813, {	-- Where Art Thou, My Sweet
 						["sourceQuests"] = { 45645 },	-- A Fool's Errand

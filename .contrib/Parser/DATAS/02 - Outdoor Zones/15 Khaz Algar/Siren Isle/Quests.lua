@@ -349,7 +349,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["provider"] = { "n", 235216 },	-- Starving Snapdragon Runt
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["g"] = {
-					i(234426),	-- Kaja'Cola-braised Meat (QI!)
+					i(234426),	-- Kaja'Cola-Braised Meat (QI!)
 				},
 			}),
 			q(86483, {	-- Snap To It

@@ -15,10 +15,16 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 				q(53128, {	-- The Lord Admiral's Lament
 					["provider"] = { "o", 296479 },	-- Lord Admiral's Footlocker
 					["races"] = ALLIANCE_ONLY,
+					["g"] = {
+						i(163336),	-- Illegible Correspondence (QI!)
+					},
 				}),
 				q(53127, {	-- The Lord Admiral's Lament
 					["provider"] = { "o", 296479 },	-- Lord Admiral's Footlocker
 					["races"] = HORDE_ONLY,
+					["g"] = {
+						i(163336),	-- Illegible Correspondence (QI!)
+					},
 				}),
 			}),
 			n(WORLD_QUESTS, sharedData({

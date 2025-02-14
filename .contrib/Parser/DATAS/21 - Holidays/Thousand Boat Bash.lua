@@ -20,11 +20,42 @@ root(ROOTS.Holidays, applyevent(EVENTS.THOUSAND_BOAT_BASH, n(THOUSAND_BOAT_BASH_
 		["maps"] = { THOUSAND_NEEDLES },
 	},
 	{
-		q(45808),	-- Beach Ball Bash
+		q(45808, {	-- Beach Ball Bash
+			["g"] = {
+				i(144074),	-- Mainsail
+			},
+		}),
 		q(45806),	-- Boat Tour
-		q(45807),	-- Garbage Fishing
-		q(45809),	-- Grog, Rum, and Ale
-		q(45810),	-- The Gnomes Stole Our Bombs!
-		q(45811),	-- The Goblins Stole Our Bombs!
+		q(45807, {	-- Garbage Fishing
+			["g"] = {
+				i(144075),	-- Waxy Reeds
+			},
+		}),
+		q(45809, {	-- Grog, Rum, and Ale
+			["g"] = {
+				i(143932),	-- Flagon of Doublerum (QI!)
+				i(143934),	-- Keg of Pirate Ale (QI!)
+				i(143933),	-- Tankard of Grog (QI!)
+				i(144076),	-- Rigging Rope
+			},
+		}),
+		q(45810, {	-- The Gnomes Stole Our Bombs!
+			["races"] = HORDE_ONLY,
+			["g"] = {
+				i(143952),	-- Celebratory Shrapnel Mine (QI!)
+				i(143951),	-- Crate of Giant Fireworks (QI!)
+				i(143950),	-- The Kablamminator (QI!)
+				i(144073),	-- Ship Mast
+			},
+		}),
+		q(45811, {	-- The Goblins Stole Our Bombs!
+			["races"] = ALLIANCE_ONLY,
+			["g"] = {
+				i(144033),	-- Enormous Crate of Tiny Bombs (QI!)
+				i(144034),	-- Nagrand Cherry-Bomb (QI!)
+				i(144032),	-- Party Dynamite (QI!)
+				i(144073),	-- Ship Mast
+			},
+		}),
 	})),
 }))));

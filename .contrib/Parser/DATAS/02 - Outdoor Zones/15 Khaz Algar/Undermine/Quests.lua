@@ -478,6 +478,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["sourceQuests"] = { 85174 },	-- Get Out There
 				["provider"] = { "n", 226660 },	-- Dirk Greasedealer
 				["coord"] = { 48.6, 40.7, UNDERMINE },
+				["g"] = {
+					i(228196),	-- Anti-Darkfuse Pamphlets (QI!)
+				},
 			}),
 			q(83195, {	-- Rally the People
 				["sourceQuests"] = { 85174 },	-- Get Out There

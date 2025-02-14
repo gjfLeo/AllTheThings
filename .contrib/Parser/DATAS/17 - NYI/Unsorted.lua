@@ -595,7 +595,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(QUEST_ITEMS, {
 				i(225931),	-- Contract Fee
-				i(225971),	-- Feathered Pelt
 				i(226215),	-- Kaja'mite Powder
 				i(226216),	-- Kaja'Cola Can
 				i(226219),	-- Kaja'mite Fragment
@@ -608,17 +607,13 @@ root(ROOTS.Unsorted, {
 				i(227702),	-- Crumpled Report (TRAINING, DNT)
 				i(228794),	-- Purloined Loot
 				i(228822),	-- Burgled Art
-				i(228988),	-- Rock Reviver
 				i(229401),	-- Artisan's Consortium Pamphlet
 				i(230212),	-- Emergency Teleporter
 				i(230792),	-- X-Plo-Dar 64k
 				i(231021),	-- Imported Brews
-				i(231369),	-- Redberry
-				i(231894),	-- Useful Trash
 				i(231900),	-- Sample Potion
 				i(232651),	-- Faded Journal Page
 				i(234188),	-- Slot Chits
-				i(234426),	-- Kaja'Cola-Braised Meat
 			}),
 			n(RARES, {
 				i(232764),	-- Pendant of Shrouded Secrets
