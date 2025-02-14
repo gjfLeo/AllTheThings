@@ -1132,8 +1132,9 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- 0/10	Shadowmoon Tuber
 								["providers"] = {
-									{ "i", 30356 },	-- Shadowmoon Tuber
-									{ "i", 30462 },	-- Oronok's Boar Whistle (Provided)
+									{ "i",  30356 },	-- Shadowmoon Tuber
+									{ "o", 184691 },	-- Shadowmoon Tuber
+									{ "i",  30462 },	-- Oronok's Boar Whistle (Provided)
 								},
 							}),
 						},
