@@ -3724,6 +3724,8 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41790),	-- Runed Undermine Crests earned
 			ach(41791),	-- Gilded Undermine Crests earned
 			ach(41793),	-- [HIDDEN] Renown 20 with Gallagio Loyalty Rewards / Teach Raid Teleport Spell
+			-- 11.1.0.59095
+			ach(41807),	-- 11.0.7 Plunderstorm - Mainline Power Reward - Fixup Achievement
 		})),
 	}),
 });
