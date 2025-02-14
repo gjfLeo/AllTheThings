@@ -1217,11 +1217,6 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["cost"] = { { "i", 29739, 1 } },	-- Arcane Tome
 					}),
-					q(10550, {	-- The Bundle of Bloodthistle
-						["qg"] = 21411,	-- Tobias the Filth Gorger
-						["sourceQuest"] = 10547,	-- Of Thistleheads and Eggs...
-						["coord"] = { 63.8, 69.7, SHATTRATH_CITY },
-					}),
 					q(10251, {	-- The Master's Grand Design?
 						["qg"] = 19720,	-- "Dirty" Larry <Ruffian>
 						["sourceQuest"] = 10231,	-- What Book? I Don't See Any Book.

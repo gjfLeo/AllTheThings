@@ -1366,10 +1366,12 @@ root(ROOTS.Zones, {
 					q(10547, {	-- Of Thistleheads and Eggs...
 						["qg"] = 21293,	-- Borak, Son of Oronok
 						["sourceQuest"] = 10546,	-- Borak, Son of Oronok
+						["coord"] = { 47.6, 57.2, SHADOWMOON_VALLEY },
+						["lvl"] = lvlsquish(68, 68, 25),
 						["groups"] = {
 							objective(1, {	-- 0/1 Rotten Arakkoa Egg
 								["providers"] = {
-									{ "i", 30500 },	-- Rotten Arakkoa Egg
+									{ "i",  30500 },	-- Rotten Arakkoa Egg
 									{ "o", 184795 },	-- Rotten Arakkoa Egg
 								},
 							}),
@@ -1923,6 +1925,14 @@ root(ROOTS.Zones, {
 							}),
 						},
 					})),
+					q(10550, {	-- The Bundle of Bloodthistle
+						["providers"] = {
+							{ "n", 21411 },	-- Tobias the Filth Gorger
+							{ "i", 30501 },	-- Bundle of Bloodthistle
+						},
+						["sourceQuest"] = 10547,	-- Of Thistleheads and Eggs...
+						["coord"] = { 63.8, 69.7, SHATTRATH_CITY },
+					}),
 					q(10588, {	-- The Cipher of Damnation
 						["qg"] = 21183,	-- Oronok Torn-heart
 						["sourceQuests"] = { 10523, 10541, 10579 },	-- The Cipher of Damnation, the First/Second/Third Fragment Recovered
