@@ -1646,6 +1646,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 11378,	-- Foreman Thazz'ril
 							["sourceQuests"] = {
 								-- #if AFTER WOD
+								-- TODO: Confirm the conditions.
 								37446,	-- Lazy Peons
 								-- #else
 								25131,	-- Vile Familiars
