@@ -1644,7 +1644,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(25135, {	-- Thazz'ril's Pick
 							["qg"] = 11378,	-- Foreman Thazz'ril
-							["sourceQuest"] = 37446,	-- Lazy Peons
+							["sourceQuests"] = {
+								-- #if AFTER WOD
+								37446,	-- Lazy Peons
+								-- #else
+								25131,	-- Vile Familiars
+								-- #endif 
+							},
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 46, 63.4, VALLEY_OF_TRIALS },
