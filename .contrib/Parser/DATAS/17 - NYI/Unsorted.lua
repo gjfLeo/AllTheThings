@@ -1103,7 +1103,6 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old
-			i(35953),	-- Mead-Basted Caribou
 			i(100739),	-- Superheated Oil
 			i(152858),	-- Cracked Crystalline Fruit Bowl
 			i(185739),	-- Crystalline Shard

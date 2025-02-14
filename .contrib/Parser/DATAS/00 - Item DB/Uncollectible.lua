@@ -17,6 +17,7 @@ i(5571);	-- Small Black Pouch
 i(5572);	-- Small Green Pouch
 i(6457);	-- Rusted Engineering Parts
 i(29570);	-- A Gnmome Effigy
+i(35953);	-- Mead-Basted Caribou
 i(44435);	-- Windle's Lighter
 i(73242);	-- Master's Haversack
 i(102144);	-- Kor'kron Cage Key
