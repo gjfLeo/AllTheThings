@@ -133,3 +133,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {
+	cl(WARLOCK, bubbleDown({ ["classes"] = { WARLOCK } }, {
+		n(QUESTS, {
+			q(32725),	-- Warlock Green Fire Questline - Reached Kanrethad
+			q(32666),	-- Warlock Green Fire Questline - Reached Kanrethad
+		}),
+	})),
+})));

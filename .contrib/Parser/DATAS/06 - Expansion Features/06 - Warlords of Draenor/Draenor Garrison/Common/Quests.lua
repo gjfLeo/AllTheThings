@@ -3430,11 +3430,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
 	n(GARRISONS, {
-		n(HOLIDAYS, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {
-			q(39609),	-- Hallow's End Active
-			q(39610),	-- Winter Veil Active
-			q(39829),	-- Sleigh and Guards Shared Criteria - Winter Veil
-		})),
 		n(QUESTS, {
 			n(GARRISON_CAMPAIGN, {
 				q(37647),	-- Tracking Quest - Hide Old Baros / Thorn / Brightstone - after picking up the rose quest item during quest "Garrison Campaign: Every Rose Has Its Thorn" (questID 36160)
@@ -3460,6 +3455,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["time
 			q(39409, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - after completing the WoD mission "Ghost Wrangler" (mission ID: 305), although not sure why that would be tracked.
 			q(39410, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - first interaction with the Garrison Mission Table this week. Completed a bunch of mission + one of the followers leveled up
 			q(39709, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - first time this quest popped in WoD Garrison after opening some salvage crates. Then it unflagged on fresh toon, after I walked a little it got completed again
+			q(39609, { ["timeline"] = { ADDED_6_2_2 } }),	-- Hallow's End Active
+			q(39828, { ["timeline"] = { ADDED_6_2_2 } }),	-- Horseman and Guards Shared Criteria - Hallow's End
+			q(39610, { ["timeline"] = { ADDED_6_2_2 } }),	-- Winter Veil Active
+			q(39829, { ["timeline"] = { ADDED_6_2_2 } }),	-- Sleigh and Guards Shared Criteria - Winter Veil
 		}),
 	}),
 })));

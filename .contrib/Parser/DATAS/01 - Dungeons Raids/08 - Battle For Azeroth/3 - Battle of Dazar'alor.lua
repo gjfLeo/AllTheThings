@@ -1100,5 +1100,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 	inst(1176, {	-- Battle of Dazar'alor
 		q(55026),	-- Killing Opulence (H)
 		q(55027),	-- Killing Opulence (M)
+		q(54963),	-- LFR, cinematic at the start of Siege of Dazar'alor wing
+		q(55024),	-- LFR, moving into the hallway after Opulence (not a killID -- this triggered in chat while i was in combat with the trash in the hall)
+		q(55025),	-- triggered after killing Conclave on normal
 	}),
 })));

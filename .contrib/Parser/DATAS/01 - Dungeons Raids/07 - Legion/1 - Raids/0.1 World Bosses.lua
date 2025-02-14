@@ -343,6 +343,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 		},
 	}),
 }));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 		-- The Kill ID is added here because the WQ ID is attached to the Worldboss to show up in /att wq
 	m(BROKEN_ISLES, {

@@ -524,6 +524,11 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
 	m(BROKEN_ISLES, {
 		m(BROKEN_SHORE, {
+			n(FACTIONS, {
+				n(EMISSARY_QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+					q(46802),	-- Paragon of the Legionfall Armies
+				})),
+			}),
 			n(QUESTS, {
 				q(47038),	-- 7.2 Broken Shore - Buildings - Activation Buff - Nether Disruptor - Seal Your Fate - Day 1 - Tracking
 				q(47044),	-- 7.2 Broken Shore - Buildings - Activation Buff - Nether Disruptor - Seal Your Fate - Day 2 - Tracking

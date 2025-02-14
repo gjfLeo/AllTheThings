@@ -947,3 +947,17 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 		},
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	inst(1031, {	-- Uldir
+		q(53269),	-- killed Taloc the Corrupted in LFR
+		q(51736),	-- killed Taloc on Mythic
+		q(51735),	-- killed MOTHER on Mythic
+		q(51734),	-- killed Vectis on Mythic / Heroic
+		q(51733),	-- killed Fetid Devourer on Mythic
+		q(51730),	-- killed Mythrax the Unraveler on Mythic
+		q(51732),	-- reported as triggering after doing "What's in the Box?" achievement, perhaps a kill quest
+		q(51731),	-- reported as triggering after doing "Edgelords" achievement, perhaps a kill quest
+		q(51729),	-- reported as triggering after doing "Double Dribble" achievement, perhaps a kill quest
+	}),
+})));

@@ -241,3 +241,74 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 		},
 	}),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
+	m(EASTERN_KINGDOMS, {
+		m(ARATHI_HIGHLANDS, {
+			n(WORLD_BOSSES, {
+				q(53002),	-- Doom's Howl Kill ID
+				q(52273),	-- Doom's Howl Bonus Roll
+				q(53001),	-- The Lion's Roar Kill ID
+				q(52274),	-- The Lion's Roar Bonus Roll
+			}),
+		}),
+	}),
+	m(KALIMDOR, {
+		m(DARKSHORE, {
+			n(WORLD_BOSSES, {
+				q(54862),	-- Ivus the Decayed Kill ID
+				q(54864),	-- Ivus the Decayed Bonus Roll
+				q(54861),	-- Ivus the Forest Lord Kill ID
+				q(54865),	-- Ivus the Forest Lord Bonus Roll
+			}),
+		}),
+	}),
+	m(KUL_TIRAS, {
+		m(DRUSTVAR, {
+			n(WORLD_BOSSES, {
+				q(52999),	-- Hailstone Construct Kill ID
+				q(52268),	-- Hailstone Construct Bonus Roll
+			}),
+		}),
+		m(STORMSONG_VALLEY, {
+			n(WORLD_BOSSES, {
+				q(52995),	-- Warbringer Yenajz Kill ID
+				q(52266),	-- Warbringer Yenajz Bonus Roll
+			}),
+		}),
+		m(TIRAGARDE_SOUND, {
+			n(WORLD_BOSSES, {
+				q(52997),	-- Azurethos, The Winged Typhoon Kill ID
+				q(52267),	-- Azurethos, The Winged Typhoon Bonus Roll
+			}),
+		}),
+	m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
+		n(WORLD_BOSSES, {
+			q(56058),	-- Ulmath, the Soulbinder Kill ID
+			q(56900),	-- Ulmath, the Soulbinder Bonus Roll
+			q(56055),	-- Wekemara Kill ID
+			q(56899),	-- Wekemara Bonus Roll
+		}),
+	})),
+	m(ZANDALAR, {
+		m(NAZMIR, {
+			n(WORLD_BOSSES, {
+				q(52996),	-- T'zane Kill ID
+				q(52263),	-- T'zane Bonus Roll
+			}),
+		}),
+		m(VOLDUN, {
+			n(WORLD_BOSSES, {
+				q(53000),	-- Dunegorger Kraulok Kill ID
+				q(52265),	-- Dunegorger Kraulok Bonus Roll
+			}),
+		}),
+		m(ZULDAZAR, {
+			n(WORLD_BOSSES, {
+				q(52998),	-- Ji'arak Kill ID
+				q(52264),	-- Ji'arak Bonus Roll
+			})
+		}),
+	}),
+	}),
+})));

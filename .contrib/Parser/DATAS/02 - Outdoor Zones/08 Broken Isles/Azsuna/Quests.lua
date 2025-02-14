@@ -816,6 +816,12 @@ root(ROOTS.Zones, m(BROKEN_ISLES, {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 	m(BROKEN_ISLES, {
 		m(AZSUNA, {
+			n(FACTIONS, {
+				n(EMISSARY_QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+					q(46794),	-- Paragon of the Court
+					q(46800),	-- Paragon of the Wardens
+				})),
+			}),
 			n(QUESTS, {
 				q(37526),	-- Farondis Murder Flag - triggers between turning in "The Tidestone: Shattered" (questID 37469) and starting "Save Yourself" (questID 37530)
 				q(40584),	-- FLAG - Witnessed Drake Lift Crystal - triggers shortly after arriving in Azurewing Repose when turning in "Journey to the Repose" (questID 38443)

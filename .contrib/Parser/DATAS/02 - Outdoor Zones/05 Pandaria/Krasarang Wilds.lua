@@ -3007,6 +3007,23 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 	m(PANDARIA, {
 		m(KRASARANG_WILDS, {
 			n(FACTIONS, {
+				header(HEADERS.Faction, FACTION_DOMINANCE_OFFENSIVE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {
+					n(QUESTS, {
+						q(32361),	-- triggered after turning in #32352, "A Gathering Storm," part of the Dominance Offensive campaign
+						q(32364),	-- triggered after turning in #32448, "Ties with the Past," part of the Dominance Offensive campaign
+						q(32437),	-- Tracking Event: Saw Sarannha 1 - triggered at the end of "The Divine Bell," part of the Dominance Offensive campaign
+						q(32438),	-- Tracking Event: Saw Sarannha 2 - triggered at the end of "The Divine Bell," part of the Dominance Offensive campaign
+					}),
+				})),
+				header(HEADERS.Faction, FACTION_OPERATION_SHIELDWALL, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {
+					n(QUESTS, {
+						q(32357),	-- Tracking Event: Event Complete - triggeres after watching the RP after turning in "Heart of the Alliance" (questID 32316)
+						q(32356),	-- Tracking Event: Ambassadors Summoned - triggeres  "Heart of the Alliance" completion
+						q(32395),	-- Tracking Event: Saw Avartu - triggered while on "The Divine Bell," part of the Operation: Shieldwall campaign (at the end of the quest before killing Avartu)
+						q(32339),	-- Rebuilding the Mallet (Tracker) - triggered after turning in The Head and The Harmonic Ointment (The Handle was turned in earlier, but presumably requires all 3), part of the Operation: Shieldwall campaign
+						q(32365),	-- Tracking Event: Epilogue Complete - triggered after turning in "The Silence" and watching the RP, part of the Operation: Shieldwall campaign.  didn't go off until I left the area and turned in another quest (which is a daily that doesn't normally have any additional tracking quests attached, so i know it was from the final campaign quest)
+					}),
+				})),
 				header(HEADERS.Faction, FACTION_THE_ANGLERS, {
 					n(QUESTS, {
 						q(31371),	-- Tracking Event: Player Has Completed One Anglers Daily
@@ -3023,6 +3040,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 			}),
 			n(QUESTS, {
 				q(30087),	-- FLAG - Kung Fu Intro — triggers either when flying close to the magical barrier or after accepting The "Arcanic Oubliette" (questID 30274)
+				q(55163),	-- Throw a lantern into the water during the Wanderer's Festival
 				q(32477, { ["timeline"] = { ADDED_5_1_0 } }),	-- Tracking Event: Player is Back in Time - going back and forth in time via Taradormi
 			}),
 		}),

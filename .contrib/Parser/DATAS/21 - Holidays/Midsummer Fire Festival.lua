@@ -3169,13 +3169,22 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_0 } }, {
-	applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
-		n(QUESTS, {
-			q(11976),	-- Cross completes on completion of Shards of Ahune
-		}),
+root(ROOTS.HiddenQuestTriggers, {
+	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_0 } }, {
+		applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
+			n(QUESTS, {
+				q(11976),	-- Cross completes on completion of Shards of Ahune
+			}),
+		})),
 	})),
-})));
+	expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
+		applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
+			n(QUESTS, {
+				q(28761),	-- obsolete "Honor the Flame" quest according to Wowhead, triggered together with "Honor the Flame" 11834 in Winterspring
+			}),
+		})),
+	})),
+});
 
 -- Remove the holiday flag.
 HUGE_SNOWBALL.u = nil;

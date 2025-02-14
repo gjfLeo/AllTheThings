@@ -685,6 +685,12 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(ARGUS, {
 		m(THE_VINDICAAR_ANTORAN_WASTES_UPPER, {
+			n(FACTIONS, {
+				n(EMISSARY_QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
+					q(48973),	-- Paragon of Argussian Reach
+					q(48974),	-- Paragon of the Army of the Light
+				})),
+			}),
 			n(QUESTS, {
 				q(48668),	-- Lightforged Beacon: City Center - triggers during the cutscene while on "Into the Night" (questID 48440)
 				q(47888),	-- Triggers when turning in "Alone in the Abyss" (questID 46938)

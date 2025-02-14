@@ -777,6 +777,11 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
 	m(BROKEN_ISLES, {
 		m(VALSHARAH, {
+			n(FACTIONS, {
+				n(EMISSARY_QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {
+					q(46797),	-- Paragon of the Dreamweavers
+				})),
+			}),
 			n(QUESTS, {
 				q(38666),	-- entering the burning house during 38644	(The Farmsteads)
 				q(45490),	-- Lytheron

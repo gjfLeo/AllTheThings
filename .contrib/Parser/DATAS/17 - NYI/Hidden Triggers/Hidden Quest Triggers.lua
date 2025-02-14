@@ -35,10 +35,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	--      WOTLK      --
 	---------------------
 	expansion(EXPANSION.WRATH, {
-		--	DUNGEONS & RAIDS
-		q(24887),	-- LFGDungeons - Burning Crusade - Normal Random - 1st
-		q(24895),	-- LFGDungeons - Burning Crusade - Normal Random - Nth
-
 		-- Zones
 		q(12845),	-- Dalaran teleport crystal flag
 		q(13700),	-- Argent Tournament - Alliance Champion Marker
@@ -112,16 +108,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	--      MOP      --
 	-------------------
 	expansion(EXPANSION.MOP, {
-		-- Operation: Shieldwall / Dominance Offensive campaign
-		q(32357),	-- Tracking Event: Event Complete - triggeres after watching the RP after turning in "Heart of the Alliance" (questID 32316)
-		q(32356),	-- Tracking Event: Ambassadors Summoned - triggeres  "Heart of the Alliance" completion
-		q(32395),	-- Tracking Event: Saw Avartu - triggered while on "The Divine Bell," part of the Operation: Shieldwall campaign (at the end of the quest before killing Avartu)
-		q(32339),	-- Rebuilding the Mallet (Tracker) - triggered after turning in The Head and The Harmonic Ointment (The Handle was turned in earlier, but presumably requires all 3), part of the Operation: Shieldwall campaign
-		q(32365),	-- Tracking Event: Epilogue Complete - triggered after turning in "The Silence" and watching the RP, part of the Operation: Shieldwall campaign.  didn't go off until I left the area and turned in another quest (which is a daily that doesn't normally have any additional tracking quests attached, so i know it was from the final campaign quest)
-		q(32361),	-- triggered after turning in #32352, "A Gathering Storm," part of the Dominance Offensive campaign
-		q(32364),	-- triggered after turning in #32448, "Ties with the Past," part of the Dominance Offensive campaign
-		q(32437),	-- Tracking Event: Saw Sarannha 1 - triggered at the end of "The Divine Bell," part of the Dominance Offensive campaign
-		q(32438),	-- Tracking Event: Saw Sarannha 2 - triggered at the end of "The Divine Bell," part of the Dominance Offensive campaign
 
 		--	QUESTING / LEVELING / VARIOUS
 		q(29698),	-- Tracking Event: Alliance Banner Found
@@ -147,48 +133,10 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(32112),	-- FLAG - Been to Fight Club - completing first fight
 		q(32113),	-- FLAG - Been to Fight Club Today
 		q(32444),	-- FLAG - Earned Brawler Title (Weekly)
-		q(32725),	-- Warlock Green Fire Questline - Reached Kanrethad
-		q(32666),	-- Warlock Green Fire Questline - Reached Kanrethad
-
-		--	DUNGEONS & RAIDS
-		q(31614),	-- LFGDungeons - Mists - Heroic Random - 1st
-		q(31615),	-- LFGDungeons - Mists - Heroic Random - Nth
-		q(31274),	-- LFGDungeons - Mists - Raid Finder - 1st
-		q(31275),	-- LFGDungeons - Mists - Raid Finder - Nth
-		q(32097),	-- Short-Supply Reward
-		q(33233),	-- Short-Supply Reward
-
-		-- SCENARIOS
-		q(32817),	-- Complete "Loyalty" Scenario - triggeres when turning in "The King and the Council"
-		q(32818),	-- Complete "The Dark Heart of Pandaria" Scenario - triggeres when turning in "The Warchief and the Darkness"
-		q(32898),	-- Daily Scenario Random (1st) (Mists)
-		q(32899),	-- Daily Scenario Random (Nth) (Mists)
-		q(32897),	-- LFGDungeons - Mists - Scenario - Heroic Daily - 1st/Nth
-		q(32873),	-- LFGDungeons - Mists - Scenario - Heroic Random - 1st
-		q(32874),	-- LFGDungeons - Mists - Scenario - Heroic Random - Nth
-		q(32893),	-- LFGDungeons - Mists - Scenario - Heroic Random - 1st Bonus
-		q(32894),	-- LFGDungeons - Mists - Scenario - Heroic Random - Nth Bonus
-		q(31616),	-- LFGDungeons - Mists - Scenario - Normal Random - 1st
-		q(31617),	-- LFGDungeons - Mists - Scenario - Normal Random - Nth
-		q(31987),	-- LFGDungeons - Theramore Launch Event
-
-		-- PROVING GROUNDS
-		q(33089),	-- FLAG - Proving Grounds - Damage Bronze
-		q(33091),	-- FLAG - Proving Grounds - Damage Gold
-		q(33090),	-- FLAG - Proving Grounds - Damage Silver
-		q(33095),	-- FLAG - Proving Grounds - Healer Bronze
-		q(33097),	-- FLAG - Proving Grounds - Healer Gold
-		q(33096),	-- FLAG - Proving Grounds - Healer Silver
-		q(33092),	-- FLAG - Proving Grounds - Tank Bronze
-		q(33094),	-- FLAG - Proving Grounds - Tank Gold
-		q(33093),	-- FLAG - Proving Grounds - Tank Silver
 
 		--	Short-Supply Reward - UNKNOWN TRIGGERS
 		qNYI(33602),	-- Short-Supply Reward
 		qNYI(33603),	-- Short-Supply Reward
-
-		-- Wanderer's Festival
-		q(55163),	-- Throw a lantern into the water
 	}),
 
 	-------------------
@@ -206,28 +154,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(37502),	-- Draenor Challenge Mode - Consolation (1st)
 		q(37503),	-- Draenor Challenge Mode - Gold Addition (1st)
 		q(37504),	-- Draenor Challenge Mode - Silver Addition (1st)
-		q(36145),	-- LFGDungeons - Cataclysm - Dungeon Normal 1st
-		q(36151),	-- LFGDungeons - Cataclysm - Dungeon Normal Nth
-		q(40829),	-- LFGDungeons - Draenor 6.2 - Raid Finder - 1st
-		q(37333),	-- LFGDungeons - Draenor - Heroic Random - 1st
-		q(37334),	-- LFGDungeons - Draenor - Heroic Random - Nth
-		q(37335),	-- LFGDungeons - Draenor - Normal Random - 1st
-		q(37336),	-- LFGDungeons - Draenor - Normal Random - Nth
-		q(37505),	-- LFGDungeons - Draenor - Raid Finder - 1st
-		q(37506),	-- LFGDungeons - Draenor - Raid Finder - Nth
-		q(36143),	-- LFGDungeons - Lich King - Dungeon Normal 1st
-		q(36149),	-- LFGDungeons - Lich King - Dungeon Normal Nth
-		q(31618),	-- LFGDungeons - Mists - Normal Random - 1st
-		q(31619),	-- LFGDungeons - Mists - Normal Random - Nth
-		q(36147),	-- LFGDungeons - Pandaria - Dungeon Normal 1st
-		q(36139),	-- LFGDungeons - Pandaria - Dungeon Normal Nth
-		q(40395),	-- LFGDungeons - Timewalking "Heroic" Random - Nth
-		q(36144),	-- LFG WLK 75-80
-		q(36150),	-- LFG WLK 75-80
-		q(37648),	-- Short-Supply Reward
-		q(35963),	-- Warlords Heroic Dungeon Reward Quest - triggered at the end of Mythic Grimrail Depot
-		q(36277),	-- Warlords Max Level Dungeon Bonus Reward
-		q(35962),	-- Warlords Max Level Dungeon Reward Quest - triggered at the end of Normal Grimrail Depot
 
 		-- PVP
 		q(36146),	-- Cataclysm 84-85
@@ -402,71 +328,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	--      LEGION      --
 	----------------------
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
-		n(GROUP_FINDER, {
-			q(41710),	-- Legion 110 A
-			q(41712),	-- Legion 110 A
-			q(41714),	-- Legion 110 A
-			q(41716),	-- Legion 110 A
-			q(41718),	-- Legion 110 A
-			q(41720),	-- Legion 110 A
-			q(41721),	-- Legion 110 A
-			q(42457),	-- Legion 110 A
-			q(42458),	-- Legion 110 A
-			q(42462),	-- Legion 110 A
-			q(42464),	-- Legion 110 A
-			q(42466),	-- Legion 110 A
-			q(42467),	-- Legion 110 A
-			q(42468),	-- Legion 110 A
-			q(42469),	-- Legion 110 A
-			q(42470),	-- Legion 110 A
-			q(43497),	-- Legion 110 A
-			q(43498),	-- Legion 110 A
-			q(44435),	-- Legion 110 Dungeon Reward Quest
-			q(41711),	-- Legion 110 H
-			q(41713),	-- Legion 110 H
-			q(41715),	-- Legion 110 H
-			q(41717),	-- Legion 110 H
-			q(41719),	-- Legion 110 H
-			q(41722),	-- Legion 110 H
-			q(41723),	-- Legion 110 H
-			q(42459),	-- Legion 110 H
-			q(42460),	-- Legion 110 H
-			q(42463),	-- Legion 110 H
-			q(42465),	-- Legion 110 H
-			q(42471),	-- Legion 110 H
-			q(42472),	-- Legion 110 H
-			q(42473),	-- Legion 110 H
-			q(42474),	-- Legion 110 H
-			q(42475),	-- Legion 110 H
-			q(43499),	-- Legion 110 H
-			q(43500),	-- Legion 110 H
-			q(44437),	-- Legion Dungeon Reward Quest
-			q(45533),	-- Legion Dungeon Reward Quest
-			q(42915),	-- LFGDungeons - Legion - Dungeon Heroic - 1st
-			q(42916),	-- LFGDungeons - Legion - Dungeon Heroic - Nth
-			q(42912),	-- LFGDungeons - Legion - Dungeon Normal - 1st
-			q(42913),	-- LFGDungeons - Legion - Dungeon Normal - Nth
-			q(42897),	-- LFGDungeons - Legion - Heroic Random - 1st
-			q(42899),	-- LFGDungeons - Legion - Heroic Random - Nth
-			q(42901),	-- LFGDungeons - Legion - Normal Random - 1st
-			q(42903),	-- LFGDungeons - Legion - Normal Random - Nth
-			q(42904),	-- LFGDungeons - Legion - Raid Finder - 1st
-			q(42905),	-- LFGDungeons - Legion - Raid Finder - Nth
-			q(42554),	-- WOD 100 A
-			q(42555),	-- WOD 100 A
-			q(42561),	-- WOD 100 A
-			q(42562),	-- WOD 100 A
-			q(42563),	-- WOD 100 A
-			q(42564),	-- WOD 100 A
-			q(42565),	-- WOD 100 A
-			q(42552),	-- WOD 100 H
-			q(42553),	-- WOD 100 H
-			q(42556),	-- WOD 100 H
-			q(42557),	-- WOD 100 H
-			q(42558),	-- WOD 100 H
-			q(42559),	-- WOD 100 H
-			q(42560),	-- WOD 100 H
-		}),
 		n(PVP, {
 			q(45538),	-- 10v10 Weekly Quest UI
 			q(42548),	-- 10v10 #1
@@ -486,17 +347,6 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(42546),	-- 3v3 #3
 			q(42547),	-- 3v3 #4
 			q(44909),	-- RBG Weekly
-		}),
-		n(FACTIONS, {
-			q(46794),	-- Paragon of the Court
-			q(46796),	-- Paragon of Highmountain
-			q(46797),	-- Paragon of the Dreamweavers
-			q(46798),	-- Paragon of the Valarjar
-			q(46799),	-- Paragon of the Nightfallen
-			q(46800),	-- Paragon of the Wardens
-			q(46802),	-- Paragon of the Legionfall Armies
-			q(48973, {["timeline"] = {ADDED_7_3_0}}),	-- Paragon of Argussian Reach
-			q(48974, {["timeline"] = {ADDED_7_3_0}}),	-- Paragon of the Army of the Light
 		}),
 		-- Legion start
 		q(42741),	-- Legion Expansion Started Tracking Quest
@@ -596,60 +446,10 @@ root(ROOTS.HiddenQuestTriggers, {
 	-------------------
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 		n(GROUP_FINDER, {
-			q(53379),	-- BFA 120 E
-			q(53380),	-- BFA 120 E
-			q(53381),	-- BFA 120 E
-			q(53382),	-- BFA 120 E
-			q(53383),	-- BFA 120 E
-			q(53391),	-- BFA 120 E
-			q(53392),	-- BFA 120 E
-			q(53393),	-- BFA 120 E
-			q(53394),	-- BFA 120 E
-			q(53395),	-- BFA 120 E
-			q(53396),	-- BFA 120 E
-			q(53397),	-- BFA 120 E
-			q(53398),	-- BFA 120 E
-			q(53399),	-- BFA 120 E
-			q(53400),	-- BFA 120 E
-			q(53401),	-- BFA 120 E
-			q(53402),	-- BFA 120 E
-			q(53403),	-- BFA 120 E
-			q(53404),	-- BFA 120 E
-			q(53554),	-- BFA 120 E
-			q(53555),	-- BFA 120 E
-			q(53556),	-- BFA 120 E
-			q(53557),	-- BFA 120 E
-			q(53558),	-- BFA 120 E
-			q(53731),	-- Legion 110 A
-			q(53732),	-- Legion 110 A
-			q(53733),	-- Legion 110 A
-			q(53727),	-- Legion 110 H
-			q(53728),	-- Legion 110 H
-			q(53729),	-- Legion 110 H
-			q(53730),	-- Legion 110 H
-			q(53374),	-- BFA 111-119 E
-			q(53375),	-- BFA 111-119 E
-			q(53376),	-- BFA 111-119 E
-			q(53377),	-- BFA 111-119 E
-			q(53378),	-- BFA 111-119 E
-			q(53388),	-- BFA 111-119 E
-			q(53389),	-- BFA 111-119 E
-			q(53390),	-- BFA 111-119 E
-			q(53559),	-- BFA 111-119 E
-			q(53560),	-- BFA 111-119 E
-			q(53561),	-- BFA 111-119 E
-			q(53562),	-- BFA 111-119 E
-			q(53563),	-- BFA 111-119 E
 			q(53339),	-- LFG - BFA - Island Expedition - Heroic Win - Nth
 			q(53340),	-- LFG - BFA - Island Expedition - Mythic Win - Nth
 			q(51838),	-- LFG - BFA - Island Expedition - Normal Win - Nth
 			q(53341),	-- LFG - BFA - Island Expedition - PvP Win - Nth
-			q(50627),	-- LFGDungeons - BFA - Heroic Random - 1st
-			q(50628),	-- LFGDungeons - BFA - Heroic Random - Nth
-			q(50626),	-- LFGDungeons - BFA - Normal Random - 1st
-			q(50625),	-- LFGDungeons - BFA - Normal Random - Nth
-			q(52051),	-- LFGDungeons - BFA - Raid Finder - 1st
-			q(52052),	-- LFGDungeons - BFA - Raid Finder - Nth
 			q(53641),	-- LFGDungeons - BFA - Stromgarde (Arathi)
 		}),
 		--	VARIOUS
@@ -921,32 +721,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(57064),	-- War Chest Azerite Essence Conflict and Strife (Rank 1)
 		q(57065),	-- War Chest Azerite Essence Conflict and Strife (Rank 2)
 		q(53565),	-- triggered after completing my first arena win in BFA (possibly season-specific but idk)
-
-		--	WORLD BOSSES
-		q(52997),	-- Azurethos, The Winged Typhoon Kill ID
-		q(52267),	-- Azurethos, The Winged Typhoon Bonus Roll
-		q(53002),	-- Doom's Howl Kill ID
-		q(52273),	-- Doom's Howl Bonus Roll
-		q(53000),	-- Dunegorger Kraulok Kill ID
-		q(52265),	-- Dunegorger Kraulok Bonus Roll
-		q(52999),	-- Hailstone Construct Kill ID
-		q(52268),	-- Hailstone Construct Bonus Roll
-		q(54862),	-- Ivus the Decayed Kill ID
-		q(54864),	-- Ivus the Decayed Bonus Roll
-		q(54861),	-- Ivus the Forest Lord Kill ID
-		q(54865),	-- Ivus the Forest Lord Bonus Roll
-		q(52998),	-- Ji'arak Kill ID
-		q(52264),	-- Ji'arak Bonus Roll
-		q(52996),	-- T'zane Kill ID
-		q(52263),	-- T'zane Bonus Roll
-		q(53001),	-- The Lion's Roar Kill ID
-		q(52274),	-- The Lion's Roar Bonus Roll
-		q(56058),	-- Ulmath, the Soulbinder Kill ID
-		q(56900),	-- Ulmath, the Soulbinder Bonus Roll
-		q(52995),	-- Warbringer Yenajz Kill ID
-		q(52266),	-- Warbringer Yenajz Bonus Roll
-		q(56055),	-- Wekemara Kill ID
-		q(56899),	-- Wekemara Bonus Roll
 
 		--	RARES
 		q(52000),	-- Matron Morana killID
@@ -1259,21 +1033,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(57046),	-- Operaton: Mechagon — triggered upon killing King Mechagon for the first time (Heroic).  Could be from killing the boss or from looting the Azerite Essence
 
 		--	Raids
-		--	Uldir
-		q(53269),	-- killed Taloc the Corrupted in LFR
-		q(51736),	-- killed Taloc on Mythic
-		q(51735),	-- killed MOTHER on Mythic
-		q(51734),	-- killed Vectis on Mythic / Heroic
-		q(51733),	-- killed Fetid Devourer on Mythic
-		q(51730),	-- killed Mythrax the Unraveler on Mythic
-		q(51732),	-- reported as triggering after doing "What's in the Box?" achievement, perhaps a kill quest
-		q(51731),	-- reported as triggering after doing "Edgelords" achievement, perhaps a kill quest
-		q(51729),	-- reported as triggering after doing "Double Dribble" achievement, perhaps a kill quest
-
-		--	Battle of Dazar'alor
-		q(54963),	-- LFR, cinematic at the start of Siege of Dazar'alor wing
-		q(55024),	-- LFR, moving into the hallway after Opulence (not a killID -- this triggered in chat while i was in combat with the trash in the hall)
-		q(55025),	-- triggered after killing Conclave on normal
 
 		-- Aqueous Reliquary LootIDs (This is a guess ... have to determine which ID is for which difficulty, - sadidorf)
 		q(56961),	-- Radiance of Azshara Aqueous Reliquary LFR? LootID
@@ -1293,43 +1052,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(56945),	-- Tempered Azerite Formation (Rank 3)
 		q(56943),	-- Animated Elemental Heart (Rank 1)
 		q(56947),	-- Animated Elemental Heart (Rank 1) — this + quest above popped at the same time after assembly.  was my first one, if that matters!
-
-		--	Ny'alotha
-		q(59557),	-- kill wrathion
-		q(59558),	-- kill Maut
-		q(58547),	-- kill skitra - probably triggers when first wing clears?
-		q(58548),	-- kill skitra - probably triggers when first wing clears?
-		q(58549),	-- kill skitra on heroic?
-		q(59559),	-- kill skitra - kill credit
-		q(59136),	-- after coming up the elevator after first wing. Likely the RP and respawn point reset
-		q(59561),	-- kill dark inquisitor xanesh
-		q(58539),	-- kill vexiona - probably triggers when the right wing is cleared
-		q(58540),	-- kill vexiona - probably triggers when the right wing is cleared
-		q(58541),	-- looted Dragon Heart from vexiona on heroic. May be different ID for different difficulties
-		q(59562),	-- kill vexiona - kill credit
-		q(59563),	-- kill shad'har
-		q(59046),	-- kill Jesh'ra, big add with 200 Mementos as loot
-		q(59047),	-- kill Sanguimar, big add with 200 Mementos as loot
-		q(59048),	-- kill Deresh of the Nothingness, big add with 200 Mementos as loot
-		q(59566),	-- kill drest'agath
-		q(59560),	-- kill hivemind
-		q(58535),	-- Il'gynoth wing clear. probably triggers the azerite beacon
-		q(58536),	-- Il'gynoth wing clear. triggers dialog?
-		q(58537),	-- looted eye of prophecy from il'gynoth on heroic. May be different ID for different difficulties
-		q(59564),	-- kill Il'gynoth
-		q(59565),	-- kill ra-den
-		q(58543),	-- kill ra-den - either the wing clear OR the beacon placement
-		q(58544),	-- kill ra-den - either the wing clear OR the beacon placement
-		q(58545),	-- triggered together with 58543, 58544 and 59565. My first ever kill of Ra-den (happened on heroic)
-		q(59567),	-- kill Carapace of N'Zoth (Fury of N'Zoth)
-		q(59568),	-- N'Zoth killed on Heroic. Possibly the same for other difficulties?
-		q(58531),	-- triggered when killing N'zoth on Heroic for the first time, had previously only done LFR
-		q(58533),	-- triggered when killing N'zoth on Heroic for the first time, had previously only done LFR
-		q(58532),	-- triggered when killing N'Zoth in LFR
-		q(59531),	-- all three triggered on first N'Zoth kill, which happened to be Ahead of the Curve also
-		q(59532),	-- all three triggered on first N'Zoth kill, which happened to be Ahead of the Curve also
-		q(59533),	-- all three triggered on first N'Zoth kill, which happened to be Ahead of the Curve also
-		q(59134),	-- my guess is that it triggers after getting Malefic Core from N'Zoth. I got it on heroic and it wasn't present on my previous heroic kills
 
 		-- Azerite essences assembled with Encrypted Ny'alothan Text
 		q(58527),	-- Replicating Void Droplets (Rank 1 Formless Void)
@@ -2180,14 +1902,10 @@ root(ROOTS.HiddenQuestTriggers, {
 
 		-- Events/Holidays
 		q(11320),	-- [NYI] Now this is Ram Racing... Almost. (Brewfest)
-		q(13959),	-- Old "Back To The Orphanage" quest, triggers together with modern version (Oracle quest during Children's Week)
-		q(13960),	-- Old "Back To The Orphanage" quest, triggers together with modern version (Wolvar quest during Children's Week)
-		q(28761),	-- obsolete "Honor the Flame" quest according to Wowhead, triggered together with "Honor the Flame" 11834 in Winterspring
 		q(11937),	-- FLAG - all torch return quests are complete. Marked as no longer available on Wowhead but triggered for me when I returned all 4 torches first time on new char. It doesn't reset yearly though cause I didn't get it on my main
 		q(47465),	-- Bonus roll on Azuregos World boss during WoW 15th anniversary in 2019
 		q(47464),	-- Bonus roll on Kazzak World boss during WoW 15th anniversary in 2019
 		q(47466),	-- Bonus roll on Emeriss during anniversary event
 		q(28997),	-- triggered together with 28961, Surwich Candy Bucket
-		q(39828),	-- Horseman and Guards Shared Criteria, triggered when I applied Creepy Crawlers garrison decoration
 	}),
 });
