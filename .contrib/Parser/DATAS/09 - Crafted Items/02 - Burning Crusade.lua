@@ -757,11 +757,17 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					COILFANG_RESERVOIR_STEAMVAULT,
 					COILFANG_RESERVOIR_UNDERBOG,
 				},
+				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
+				},
 			}),
 			i(108348, {	-- Ancient Lichen Petal
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
-					i(22790)	-- Ancient Lichen
+					i(22790),	-- Ancient Lichen
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
 				},
 			}),
 			i(22786, {	-- Dreaming Glory
@@ -773,11 +779,17 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					SHADOWMOON_VALLEY,
 					TEROKKAR_FOREST,
 				},
+				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
+				},
 			}),
 			i(108345, {	-- Dreaming Glory Petal
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22786),	-- Dreaming Glory
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
 				},
 			}),
 			i(22795),	-- Fel Blossom
@@ -792,11 +804,17 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					TEROKKAR_FOREST,
 					ZANGARMARSH,
 				},
+				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
+				},
 			}),
 			i(108344, {	-- Felweed Stalk
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22785),	-- Felweed
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
 				},
 			}),
 			i(22788, {	-- Flame Cap
@@ -804,11 +822,17 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22793, {	-- Mana Thistle
 				["maps"] = ISLE_OF_QUELDANAS,
+				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
+				},
 			}),
 			i(108351, {	-- Mana Thistle Leaf
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22793),	-- Mana Thistle
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
 				},
 			}),
 			i(35229, {["timeline"] = { ADDED_2_4_0 }}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage) 
@@ -835,19 +859,31 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22787, {	-- Ragveil
 				["maps"] = ZANGARMARSH,
+				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
+				},
 			}),
 			i(108346, {	-- Ragveil Cap
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
 					i(22787),	-- Ragveil
 				},
 			}),
 			i(22789, {	-- Terocone
 				["maps"] = TEROKKAR_FOREST,
+				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
+				},
 			}),
 			i(108347, {	-- Terocone Leaf
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
+					i(22575),	-- Mote of Life
+					i(21886),	-- Primal Life
 					i(22789),	-- Terocone
 				},
 			}),

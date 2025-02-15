@@ -322,6 +322,9 @@ root(ROOTS.Zones, {
 					o(182958, {	-- Mudfish School
 						["requireSkill"] = FISHING,
 					}),
+					o(182951, {	-- Pure Water (fishing school)
+						["requireSkill"] = FISHING,
+					}),
 					i(34868),	-- World's Largest Mudfish
 				}),
 				n(FLIGHT_PATHS, {

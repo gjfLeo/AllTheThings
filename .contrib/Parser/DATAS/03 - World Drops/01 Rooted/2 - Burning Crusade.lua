@@ -1083,15 +1083,168 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		i(31896),	-- Seven of Storms
 		i(31893),	-- Eight of Storms
 	})),
-	filter(REAGENTS, {
+	filter(REAGENTS, sharedData({	-- Air
+		["coords"] = {
+			{ 70.4, 21.2, NAGRAND },	-- Elemental Plateu, airy
+			{ 65.25, 22.5, SHADOWMOON_VALLEY },	-- Altar of Sha'tar, north of.
+			{ 66.1, 30.0, SHADOWMOON_VALLEY },	-- Altar of Sha'tar, east of.
+			{ 71.8, 30.0, SHADOWMOON_VALLEY },	-- Black Temple, north of.
+			{ 61.6, 65.9, SHADOWMOON_VALLEY },	-- Netherwing Pass proper
+			{ 57.2, 73.2, SHADOWMOON_VALLEY },	-- Southwestern Netherwing Pass
+		},
+		["crs"] = {
+			17158,	-- Dust Howler
+			21060,	-- Enraged Air Spirit
+			17160,	-- Living Cyclone
+			17159,	-- Storm Rager
+			22310,	-- Storming Wind-Ripper
+		},
+		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+	}, {
 		i(22572),	-- Mote of Air
+		i(22451),	-- Primal Air
+	})),
+	filter(REAGENTS, sharedData({	-- Earth
+		["coords"] = {
+			{ 65.5, 23.7, NAGRAND },	-- Elemental Plateu, earthy
+			{ 67.1, 38.0, NAGRAND },	-- Garadar, east of
+			{ 54.4, 20.2, NAGRAND },	-- Kil'Sorrow Fortress, vest of.
+			{ 62.0, 80.0, NAGRAND },	-- Laughing Skull Ruins, east of.
+			{ 31.5, 80.4, NAGRAND },	-- Oshu'gun, south of.
+			{ 46.5, 46.0, SHADOWMOON_VALLEY },	-- The Fel Pits
+		},
+		["crs"] = {
+			21060,	-- Enraged Earth Spirit
+			18062,	-- Enraged Crusher
+			22313,	-- Rumbling Earth-Heart
+			17157,	-- Shattered Rumbler
+			17156,	-- Tortured Earth Spirit
+		},
+		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+	}, {
 		i(22573),	-- Mote of Earth
+		i(22452),	-- Primal Earth
+	})),
+	filter(REAGENTS, sharedData({	-- Fire
+		["coords"] = {
+			{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
+			{ 72.4, 20.2, BLADES_EDGE_MOUNTAINS },	-- Skald
+			{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
+			{ 67.3, 21.2, NAGRAND },	-- Elemental Plateu, fiery
+			{ 46.5, 46.0, SHADOWMOON_VALLEY },	-- The Fel Pits
+		},
+		["crs"] = {
+			21061,	-- Enraged Fire Spirit
+			22323,	-- Incandescent Fel Spark
+			22311,	-- Raging Fire-Soul
+			20514,	-- Searing Elemental
+			22298,	-- Vile Fire-Soul
+		},
+		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+	}, {
 		i(22574),	-- Mote of Fire
+		i(21884),	-- Primal Fire
+	})),
+	filter(REAGENTS, sharedData({	-- Life
+		["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
+		["crs"] = {
+			17723,	-- Bog Giant
+			17770,	-- Hungarfen
+			17734,	-- Underbog Lord
+			17725,	-- Underbog Lurker
+			17871,	-- Underbog Shambler
+		},
+		["description"] = "The given maps and sources applies for how to obtain this element's motes.",
+	}, {
 		i(22575),	-- Mote of Life
+		i(21886),	-- Primal Life
+	})),
+	filter(REAGENTS, sharedData({	-- Mana
+		["coords"] = {
+			{ 51.5, 16.1, BLADES_EDGE_MOUNTAINS },	-- Bash'ir Landing
+			{ 67.5, 11.7, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine East
+			{ 61.0, 11.0, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine West
+			{ 32.1, 55.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit North
+			{ 29.5, 67.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit South
+			{ 35.2, 78.2, NETHERSTORM },	-- Arklon Ruins, south of
+			{ 33.4, 29.4, NETHERSTORM },	-- Forge Base Oblivion, west of
+			{ 25.5, 62.2, NETHERSTORM },	-- Manaforge B'naar, north of
+			{ 22.1, 78.2, NETHERSTORM },	-- Manaforge B'naar, south of
+			{ 30.0, 51.5, NETHERSTORM },	-- The Crumbling Waste
+			{ 56.0, 88.0, NETHERSTORM },	-- Wizard Row (Kirin'var Village)
+			{ 69.0, 67.3, SHADOWMOON_VALLEY },	-- Dragonmaw Fortress, south of
+			{ 70.0, 85.0, SHADOWMOON_VALLEY },	-- Netherwing Ledge
+		},
+		["crs"] = {
+			22181,	-- Aether Ray
+			-- #if AFTER 2.4.0
+			24972, -- Erratic Sentry
+			-- #endif
+			18866,	-- Mageslayer
+			18867,	-- Mana Seeker
+			18880,	-- Nether Ray
+			18880,	-- Netherskate
+			18880,	-- Netherwing Ray
+			18879,	-- Phase Hunter
+			22244,	-- Unbound Ethereal
+			18865,	-- Warp Aberration
+			20516,	-- Warp Monstrosity
+		},
+		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+	}, {
 		i(22576),	-- Mote of Mana
+		i(22457),	-- Primal Mana
+	})),
+	filter(REAGENTS, sharedData({	-- Shadow
+		["coords"] = {
+			{ 44.8, 83.2, HELLFIRE_PENINSULA },	-- The Warp Fields
+			{ 78.0, 71.6, HELLFIRE_PENINSULA },	-- Void Ridge
+			{ 36.0, 71.0, NAGRAND },	-- Oshu'gun
+			{ 62.3, 40.4, NETHERSTORM },	-- Manaforge Ultris
+		},
+		["crs"] = {
+			17014,	-- Collapsing Voidwalker
+			16974,	-- Rogue Voidwalker
+			16975,	-- Uncontrolled Voidwalker
+			18869,	-- Unstable Voidwrath
+			19527,	-- Vacilliating Voidwalker
+			17981,	-- Voidspawn
+			18870,	-- Voidshrieker
+		},
+		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+	}, {
 		i(22577),	-- Mote of Shadow
+		i(22456),	-- Primal Shadow
+	})),
+	filter(REAGENTS, sharedData({	-- Water
+		["provider"] = { "o", 182951 },	-- Pure Water (fishing school)
+		["coords"] = {
+			{ 62.1, 16.1, NAGRAND },	-- Elemental Plateu, watery
+			{ 40.5, 44.9, NAGRAND },	-- Halaa Basin
+			{ 33.9, 50.0, NAGRAND },	-- Lake Sunspring
+			{ 58.6, 29.2, NAGRAND },	-- Skysong Lake
+			{ 48.6, 25.7, SHADOWMOON_VALLEY },	-- Coilskar Point, east of
+			{ 39.3, 9.7, TEROKKAR_FOREST },	-- Silmyr Lake
+			{ 65.4, 75.0, TEROKKAR_FOREST },	-- Blackwind Lake
+			{ 57.9, 63.7, ZANGARMARSH },	-- The Lagoon
+			{ 58.2, 54.1, ZANGARMARSH },	-- The Lagoon, north of
+		},
+		["crs"] = {
+			20196,	-- Bloodthirsty Marshfang
+			22309,	-- Crashing Wave-Spirit
+			21059,	-- Enraged Water Spirit
+			20290,	-- Lagoon Eel
+			17153,	-- Lake Spirit
+			17155,	-- Lake Surger
+			17154,	-- Muck spawn
+			18750,	-- Shimmerscale Eel
+			21728,	-- Skettis Surger
+		},
+		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+	}, {
 		i(22578),	-- Mote of Water
-	}),
+		i(21885),	-- Primal Water
+	})),
 	filter(RECIPES, {
 		-- #if BEFORE 4.0.1
 		cl(DRUID, {
