@@ -16,6 +16,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			n(QUESTS, {
 				q(11002, {	-- The Fall of Magtheridon (A)
 					["provider"] = { "i", 32385 },	-- Magtheridon's Head
+					["maps"] = { HELLFIRE_PENINSULA },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(28792),	-- A'dal's Signet of Defense
@@ -26,6 +27,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 				q(11003, {	-- The Fall of Magtheridon (H)
 					["provider"] = { "i", 32386 },	-- Magtheridon's Head
+					["maps"] = { HELLFIRE_PENINSULA },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(28792),	-- A'dal's Signet of Defense
