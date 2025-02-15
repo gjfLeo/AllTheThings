@@ -11,5 +11,6 @@ PROTOCOL_TWILIGHT = createHeader({
 		ru = "Протокол \"Сумерки\"",
 		ko = "프로토콜 황혼",
 		cn = "暮光协议",
+		tw = "暮光防禦系統",
 	},
 });
