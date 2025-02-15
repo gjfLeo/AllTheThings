@@ -286,7 +286,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				["timeline"] = { CREATED_4_4_2 },
 				-- #endif
 				["ignoreBonus"] = true,
-				["groups"] = {
+				["groups"] = 
+				-- #if ANYCLASSIC
+				bubbleDown({ ["timeline"] = { CREATED_4_4_2 }, },
+				-- #endif
+				{
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
 							55265,	-- Morchok
@@ -444,7 +448,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							}),
 						})),
 					}),
-				},
+				}
+				-- #if ANYCLASSIC
+				)
+				-- #endif
+				,
 			}),
 			-----------------------------------------------------------------------------------------------------------------------------
 			-- CRIEVE TODO: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
