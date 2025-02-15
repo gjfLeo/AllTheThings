@@ -154,3 +154,9 @@ i(0, 444791);		-- Specular Rainbowfish
 i(0, 444800);		-- Spiked Sea Raven
 i(0, 456589);		-- The Ringing Deeps
 i(0, 444789);		-- Whispering Stargazer
+
+------------------
+-- PATCH 11.1.0 --
+------------------
+--- DISCOVERY ---
+i(0, 471359);       -- "Gold" Fish

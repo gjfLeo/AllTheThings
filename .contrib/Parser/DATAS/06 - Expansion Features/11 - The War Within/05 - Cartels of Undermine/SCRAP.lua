@@ -152,8 +152,44 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(232986, {	-- GE86 Advance (MM!)
 							["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
 						}),
-						i(233558, {	-- S.C.R.A.P. Scrubber Deluxe (TODO: some exchange game thing?)
+						i(233558, {	-- S.C.R.A.P. Scrubber Deluxe
 							["cost"] = {{ "i", 233246, 1 }},	-- S.C.R.A.P. Scrubber Deluxe
+							["g"] = {
+								-- TODO: Items is guessed based on id range/names
+								-- TODO: remove from unsorted things that confirmed & uncomment stuff
+								--i(233260),	-- Laundered Vestment
+								--i(233261),	-- Laundered Sandals
+								--i(233262),	-- Laundered Handwraps
+								--i(233263),	-- Laundered Cowl
+								--i(233264),	-- Laundered Leggings	TODO: on previous builds it was rng reward from job streak from DRIVE/Surge Pricing
+								--i(233265),	-- Laundered Shoulderpads
+								--i(233266),	-- Laundered Cord
+								--i(233267),	-- Laundered Cuffs
+								--i(233335),	-- Upcycled Jerkin
+								--i(233336),	-- Upcycled Waders
+								--i(233337),	-- Upcycled Gloves
+								--i(233338),	-- Upcycled Helm
+								--i(233339),	-- Upcycled Breeches
+								--i(233340),	-- Upcycled Epaulets
+								--i(233341),	-- Upcycled Sash
+								--i(233342),	-- Upcycled Bindings
+								--i(233343),	-- Power-Washed Chainmail
+								i(233344),	-- Power-Washed Striders
+								--i(233345),	-- Power-Washed Grips
+								--i(233346),	-- Power-Washed Coif
+								--i(233347),	-- Power-Washed Greaves
+								--i(233348),	-- Power-Washed Shoulderguards
+								--i(233349),	-- Power-Washed Belt
+								--i(233350),	-- Power-Washed Bracers
+								--i(233544),	-- Descaled Breastplate
+								--i(233545),	-- Descaled Sabatons
+								--i(233546),	-- Descaled Gauntlets
+								--i(233547),	-- Descaled Helm
+								--i(233548),	-- Descaled Legguards
+								--i(233549),	-- Descaled Mantle
+								--i(233550),	-- Descaled Girdle
+								--i(233551),	-- Descaled Armplates
+							},
 						}),
 					},
 				}),

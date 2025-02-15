@@ -27,9 +27,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					230793,	-- The Junk-Wall
 					230951,	-- Thwack
 					230946,	-- V.V. Goosworth
+					233472,	-- Volstrike the Charged
 					--TODO: unsorted
 					--231310,	-- The Darkfuse Precipitant
-					--233472,	-- Volstrike the Charged
 				},
 				["g"] = {
 					i(234415),	-- Handcrank Casing
@@ -84,10 +84,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(234499, {	-- Glovante
-				--["description"] = "Can be summoned by someone who has contract with Steamwheedle Cartel"
+				["description"] = "Can be summoned by someone who has contract with Steamwheedle Cartel",
 				["coord"] = { 32.0, 76.5, UNDERMINE },
 				["questID"] = 86307,
-				["isWeekly"] = true,
 				["g"] = {
 					i(235824),	-- Flame Sputterer
 				},
@@ -102,10 +101,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(234480, {	-- M.A.G.N.O. (Aurumensis)
-				--["description"] = "Can be summoned by someone who has contract with Bilgewater Cartel",
+				["description"] = "Can be summoned by someone who has contract with Bilgewater Cartel",
 				["coord"] = { 36.7, 26.3, UNDERMINE },
 				["questID"] = 86298,
-				["isWeekly"] = true,
 			}),
 			n(230995, {	-- Nitro
 				["coord"] = { 47.0, 55.7, UNDERMINE },
@@ -144,10 +142,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(233471, {	-- Scrapchewer
-				--["description"] = "Can be summoned by someone who has contract with Venture Co.",
+				["description"] = "Can be summoned by someone who has contract with Venture Co.",
 				["coord"] = { 56.8, 79, UNDERMINE },
 				["questID"] = 85778,
-				["isWeekly"] = true,
 			}),
 			n(230947, {	-- Slimesby (has its own criteria, so listing it to allow automation to nest the criteria into it, seems to only drop junk items however)
 				["crs"] = { 230946 },	-- V.V. Goosworth
@@ -203,14 +200,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235306),	-- Ooze-fused Mantle
 				},
 			}),
+			n(233472, {	-- Volstrike the Charged
+				["description"] = "Can be summoned by someone who has contract with Blackwater Cartel",
+				["coord"] = { 62.7, 26.1, UNDERMINE },
+				["questID"] = 85777,
+			}),
 			-- TODO: Sort it when you find them
 			n(231310, {	-- The Darkfuse Precipitant
 				-- NYI?
-				--["coord"] = { x, y, UNDERMINE },
-				--["questID"] = xx,
-			}),
-			n(233472, {	-- Volstrike the Charged
-				--["description"] = "Can be summoned by someone who has contract with Blackwater Cartel",
 				--["coord"] = { x, y, UNDERMINE },
 				--["questID"] = xx,
 			}),

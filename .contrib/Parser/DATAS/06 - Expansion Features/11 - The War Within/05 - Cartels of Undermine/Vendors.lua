@@ -126,6 +126,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 9750}},
 						}),
 					}, {	-- RENOWN 18 --
+						i(232515, {	-- Experimental Goblin Jetpack (COSMETIC!)
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
+						}),
 					}, {	-- RENOWN 19 --
 						i(229944, {	-- The Topskimmer Special (MOUNT!)
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 11375}},

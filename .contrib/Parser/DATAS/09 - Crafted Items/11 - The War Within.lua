@@ -1363,6 +1363,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 	}),
 	prof(FISHING, {
 		n(DISCOVERY, {
+			r(471359, {["timeline"] = {ADDED_11_1_0}}),	-- "Gold" Fish
 			r(456154),	-- Anglerthread
 			r(444795),	-- Arathor Hammerfish
 			r(444803),	-- Awoken Coelacanth
@@ -1394,6 +1395,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = FISHING,
 		},{
+			FirstCraft(85857, 471359),	-- "Gold" Fish
 			FirstCraft(82907, 444795),	-- Arathor Hammerfish
 			FirstCraft(82915, 444803),	-- Awoken Coelacanth
 			FirstCraft(82899, 444787),	-- Bismuth Bitterling
@@ -1415,6 +1417,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(82912, 444800),	-- Spiked Sea Raven
 			FirstCraft(82901, 444789),	-- Whispering Stargazer
 		})),
+		i(227673),	-- "Gold" Fish
 		i(225770),	-- Algari Anglerthread
 		i(225771),	-- Algari Seekerthread
 		i(220145),	-- Arathor Hammerfish
@@ -2450,6 +2453,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(83401, 221648),	-- Skinning The Perchfather
 			FirstSkin(81453, 219271),	-- Skinning Twice-Stinger the Wretched
 			FirstSkin(83415, 216037),	-- Skinning Vilewing
+			FirstSkin(87595, 233472, ADDED_11_1_0),	-- Skinning Volstrike the Charged
 			FirstSkin(81449, 219263),	-- Skinning Warphorn
 			FirstSkin(83412, 216039),	-- Skinning Xishorr
 			FirstSkin(81457, 220270),	-- Skinning Zilthara

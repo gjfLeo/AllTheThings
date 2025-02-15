@@ -53,7 +53,6 @@ root(ROOTS.Unsorted, {
 				i(233341),	-- Upcycled Sash
 				i(233342),	-- Upcycled Bindings
 				i(233343),	-- Power-Washed Chainmail
-				i(233344),	-- Power-Washed Striders
 				i(233345),	-- Power-Washed Grips
 				i(233346),	-- Power-Washed Coif
 				i(233347),	-- Power-Washed Greaves
@@ -74,7 +73,6 @@ root(ROOTS.Unsorted, {
 				i(233538),	-- Gold-Plated Blade
 				i(233539),	-- Gold-Plated Hammer
 				i(233540),	-- Gold-Plated Cudgel
-				i(233541),	-- Gold-Plated Knife
 				i(233542),	-- Gold-Plated Shank
 				i(233544),	-- Descaled Breastplate
 				i(233545),	-- Descaled Sabatons
@@ -384,8 +382,6 @@ root(ROOTS.Unsorted, {
 				i(232463),	-- Overflowing Undermine Trove
 				i(232465),	-- The Cartel's Trove
 
-				i(232515),	-- Experimental Goblin Jetpack
-
 				-- Delves
 				i(232898),	-- Delver's Bounty
 				i(235559),	-- Hidden Trove
@@ -467,8 +463,8 @@ root(ROOTS.Unsorted, {
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
 
-				mount(466146),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]
-				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]
+				mount(466146),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]	-- itemID 229989
+				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]	-- itemID 229988
 
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
 				-- Probably not real
@@ -505,9 +501,6 @@ root(ROOTS.Unsorted, {
 					i(235223),	-- Psychogenic Prognosticator's Lenses
 					i(235224),	-- Mekgineer's Mindbending Headgear
 					i(235226),	-- Inventor's Ingenious Trifocals
-				}),
-				prof(FISHING, {
-					i(227673),	-- "Gold" Fish
 				}),
 			}),
 			n(PVP, {
