@@ -3068,7 +3068,8 @@ if C_CurrencyInfo and C_CurrencyInfo.GetCurrencyInfo then
 		end
 	end });
 	GetCurrencyCount = function(id)
-		return C_CurrencyInfo_GetCurrencyInfo(id).quantity or 0;
+		local info = C_CurrencyInfo_GetCurrencyInfo(id);
+		return info and info.quantity or 0;
 	end
 else
 	---@diagnostic disable-next-line: undefined-global
