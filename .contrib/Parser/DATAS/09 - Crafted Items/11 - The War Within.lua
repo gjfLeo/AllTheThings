@@ -1395,7 +1395,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = FISHING,
 		},{
-			FirstCraft(85857, 471359),	-- "Gold" Fish
+			FirstCraft(85857, 471359, ADDED_11_1_0),	-- "Gold" Fish
 			FirstCraft(82907, 444795),	-- Arathor Hammerfish
 			FirstCraft(82915, 444803),	-- Awoken Coelacanth
 			FirstCraft(82899, 444787),	-- Bismuth Bitterling
