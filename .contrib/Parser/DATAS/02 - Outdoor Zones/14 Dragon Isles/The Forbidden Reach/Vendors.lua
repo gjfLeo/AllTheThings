@@ -28,6 +28,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 						["g"] = {
 							i(204403),	-- Sack of Sack of Oddities
 							i(191915),	-- Shaggy (PET!)
+							i(200824),	-- Bottled Lightning
 						},
 					}),
 					i(202196, {	-- Zskera Vault Key

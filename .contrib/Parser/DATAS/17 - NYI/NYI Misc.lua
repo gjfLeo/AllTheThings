@@ -993,7 +993,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(192127),	-- Basilisk Eggs
 			i(198442),	-- Bogthwottle's Shrinky-Do
 			i(192560),	-- Bossy Storm Stuff
-			i(200824),	-- Bottled Lightning
 			i(192078),	-- Bottled Putrescence
 			i(199690),	-- BWU Test Profession Accessory
 			i(200950),	-- Consortium Packaging String
