@@ -1417,7 +1417,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(82912, 444800),	-- Spiked Sea Raven
 			FirstCraft(82901, 444789),	-- Whispering Stargazer
 		})),
-		i(227673),	-- "Gold" Fish
+		i(227673, {["timeline"] = {ADDED_11_1_0}}),	-- "Gold" Fish
 		i(225770),	-- Algari Anglerthread
 		i(225771),	-- Algari Seekerthread
 		i(220145),	-- Arathor Hammerfish
