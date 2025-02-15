@@ -283,6 +283,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 				-- #endif
 				-- #if ANYCLASSIC
 				["description"] = "Blizzard decided that they didn't want to provide access to LFR to Cataclysm Classic players. Instead, refer to this list as what you can get from Protocol Twilight heroics & the vendor instead.",
+				["timeline"] = { CREATED_4_4_2 },
 				-- #endif
 				["ignoreBonus"] = true,
 				["groups"] = {
@@ -355,7 +356,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							i(78395),	-- Belt of Flayed Skin
 							i(78398),	-- Cord of the Slain Champion
 							i(78396),	-- Treads of Crushed Flesh
-							i(77969),	-- Seal of the Signs [Dropped for Lucetia]
+							i(77969),	-- Seal of the Seven Signs [Dropped for Lucetia]
 						})),
 						cr(55312, e(325, {	-- Yor'sahj the Unsleeping
 							i(78409),	-- Experimental Specimen Slicer
