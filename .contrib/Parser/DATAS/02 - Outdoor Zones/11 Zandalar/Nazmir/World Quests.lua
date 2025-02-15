@@ -455,6 +455,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			n(WORLD_QUESTS, {
 				q(54325),	-- Completed 54136 without WM
 				q(50460),	-- Killed Zujothgul/Exalted 7th legion
+				q(50480),	-- Underlord Xerxiz killID
 			}),
 		}),
 	}),

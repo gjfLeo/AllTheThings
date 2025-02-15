@@ -70,3 +70,31 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(TIRAGARDE_SOUND, {
+			n(TREASURES, {
+				q(48593),	-- Tiragarde Sound repeatable random chest
+				q(48595),	-- Tiragarde Sound repeatable random chest
+				q(48596),	-- Tiragarde Sound repeatable random chest
+				q(48598),	-- Tiragarde Sound repeatable random chest
+				q(48599),	-- Tiragarde Sound repeatable random chest
+				q(48607),	-- Tiragarde Sound repeatable random chest
+				q(48608),	-- Tiragarde Sound repeatable random chest
+				q(48609),	-- Tiragarde Sound repeatable random chest
+				q(48611),	-- Tiragarde Sound repeatable random chest
+				q(48612),	-- Tiragarde Sound repeatable random chest
+				q(48617),	-- Tiragarde Sound repeatable random chest
+				q(48618),	-- Tiragarde Sound repeatable random chest
+				q(48619),	-- Tiragarde Sound repeatable random chest
+				q(48621),	-- Tiragarde Sound repeatable random chest
+				q(50166),	-- Tiragarde Sound repeatable random chest
+				q(50952),	-- Tiragarde Sound repeatable random chest
+				q(53630),	-- Tiragarde Sound repeatable random chest (possibly different from others, it was Forgotten Treasure Chest at 79.57 20.22 in a small cave)
+				q(53631),	-- reported as "opening a chest in Tiragarde Sound"
+				q(48594),	-- Tiragarde Sound Tol Dagor chest
+			}),
+		}),
+	}),
+})));

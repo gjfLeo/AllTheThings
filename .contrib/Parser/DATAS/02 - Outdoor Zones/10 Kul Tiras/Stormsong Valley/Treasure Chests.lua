@@ -79,3 +79,26 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(STORMSONG_VALLEY, {
+			n(TREASURES, {
+				q(51184),	-- Stormsong Valley repeatable random chest
+				q(51927),	-- Stormsong Valley repeatable random chest
+				q(51930),	-- Stormsong Valley repeatable random chest
+				q(51935),	-- Stormsong Valley repeatable random chest
+				q(51938),	-- Stormsong Valley repeatable random chest
+				q(51940),	-- Stormsong Valley repeatable random chest
+				q(51941),	-- Stormsong Valley repeatable random chest
+				q(51942),	-- Stormsong Valley repeatable random chest
+				q(51943),	-- Stormsong Valley repeatable random chest
+				q(51944),	-- Stormsong Valley repeatable random chest
+				q(51945),	-- Stormsong Valley repeatable random chest
+				q(51946),	-- Stormsong Valley repeatable random chest
+				q(52989),	-- Stormsong Valley repeatable random chest
+				q(53652),	-- Reported as "Alliance BfA: Opened a chest in Stormsong Valley and got this"
+			}),
+		}),
+	}),
+})));

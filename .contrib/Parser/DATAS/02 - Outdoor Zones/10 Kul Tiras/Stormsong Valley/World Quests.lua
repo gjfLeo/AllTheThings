@@ -689,3 +689,14 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		})),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(STORMSONG_VALLEY, {
+			n(WORLD_QUESTS, {
+				q(53624),	-- Zeritarj killID
+				q(53612),	-- Pest Remover Mk. II killID
+			}),
+		}),
+	}),
+})));

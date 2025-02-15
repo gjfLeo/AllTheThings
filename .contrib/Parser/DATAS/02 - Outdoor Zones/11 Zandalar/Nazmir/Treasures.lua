@@ -81,3 +81,19 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		})),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(NAZMIR, {
+			n(TREASURES, {
+				q(49904),	-- Nazmir repeatable random chest
+				q(49916),	-- Nazmir repeatable random chest
+				q(49913),	-- Nazmir repeatable random chest
+				q(49914),	-- Nazmir repeatable random chest
+				q(49899),	-- Nazmir repeatable random chest
+				q(49924),	-- Nazmir repeatable random chest
+				q(49925),	-- Nazmir repeatable random chest
+			}),
+		}),
+	}),
+})));

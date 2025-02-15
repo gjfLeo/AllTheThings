@@ -722,14 +722,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(57065),	-- War Chest Azerite Essence Conflict and Strife (Rank 2)
 		q(53565),	-- triggered after completing my first arena win in BFA (possibly season-specific but idk)
 
-		--	RARES
-		q(52000),	-- Matron Morana killID
-		q(52002),	-- Soul Goliath killID
-		q(51999),	-- Stone Golem killID
-		q(53612),	-- Pest Remover Mk. II killID
-		q(50480),	-- Underlord Xerxiz killID
-		q(53624),	-- Zeritarj killID
-
 		--	TREASURES
 		q(13541),	-- Triggered when opening a Maplewood Treasure Chest in Darkshore
 		q(54872),	-- Opening a Darkshore chest
@@ -785,31 +777,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54318),	-- Triggered immediately after completing "A Drust Cause" invasion in Drustvar as Alliance (first completion on character? WM off specific? it doesn't trigger later in WM)
 
 
-		-- Chests
-		q(51871),	-- Drustvar repeatable random chest
-		q(51875),	-- Drustvar repeatable random chest
-		q(51878),	-- Drustvar repeatable random chest
-		q(51882),	-- Drustvar repeatable random chest
-		q(51885),	-- Drustvar repeatable random chest
-		q(51896),	-- Drustvar repeatable random chest
-		q(51899),	-- Drustvar repeatable random chest
-		q(51902),	-- Drustvar repeatable random chest
-		q(51907),	-- Drustvar repeatable random chest
-		q(51910),	-- Drustvar repeatable random chest
-		q(51911),	-- Drustvar repeatable random chest
-		q(51912),	-- Drustvar repeatable random chest
-		q(51913),	-- Drustvar repeatable random chest
-		q(51914),	-- Drustvar repeatable random chest
-
 		--	Nazmir
-		-- Chests
-		q(49904),	-- Nazmir repeatable random chest
-		q(49916),	-- Nazmir repeatable random chest
-		q(49913),	-- Nazmir repeatable random chest
-		q(49914),	-- Nazmir repeatable random chest
-		q(49899),	-- Nazmir repeatable random chest
-		q(49924),	-- Nazmir repeatable random chest
-		q(49925),	-- Nazmir repeatable random chest
 		-- Quests
 		q(49179),	-- triggered after speaking to Witch Doctor Kejabu after killing Hir'eek, on quest "Upward and "Onward"
 		-- Various
@@ -824,67 +792,16 @@ root(ROOTS.HiddenQuestTriggers, {
 		}),
 
 		--	Stormsong Valley
-		-- Chests
-		q(51184),	-- Stormsong Valley repeatable random chest
-		q(51927),	-- Stormsong Valley repeatable random chest
-		q(51930),	-- Stormsong Valley repeatable random chest
-		q(51935),	-- Stormsong Valley repeatable random chest
-		q(51938),	-- Stormsong Valley repeatable random chest
-		q(51940),	-- Stormsong Valley repeatable random chest
-		q(51941),	-- Stormsong Valley repeatable random chest
-		q(51942),	-- Stormsong Valley repeatable random chest
-		q(51943),	-- Stormsong Valley repeatable random chest
-		q(51944),	-- Stormsong Valley repeatable random chest
-		q(51945),	-- Stormsong Valley repeatable random chest
-		q(51946),	-- Stormsong Valley repeatable random chest
-		q(52989),	-- Stormsong Valley repeatable random chest
-		q(53652),	-- Reported as "Alliance BfA: Opened a chest in Stormsong Valley and got this"
 		-- Various
 		q(51695),	-- Horde WarCampaign - "Reclaiming What's Ours" (ID 51696) using the horn to reclaim the Foothold
 		q(55626),	-- first kill of yellow Sabertron
 		q(50541),	-- triggered after defeating Beehemoth WQ
 
 		--	Tiragarde Sound
-		-- Chests
-		q(48593),	-- Tiragarde Sound repeatable random chest
-		q(48595),	-- Tiragarde Sound repeatable random chest
-		q(48596),	-- Tiragarde Sound repeatable random chest
-		q(48598),	-- Tiragarde Sound repeatable random chest
-		q(48599),	-- Tiragarde Sound repeatable random chest
-		q(48607),	-- Tiragarde Sound repeatable random chest
-		q(48608),	-- Tiragarde Sound repeatable random chest
-		q(48609),	-- Tiragarde Sound repeatable random chest
-		q(48611),	-- Tiragarde Sound repeatable random chest
-		q(48612),	-- Tiragarde Sound repeatable random chest
-		q(48617),	-- Tiragarde Sound repeatable random chest
-		q(48618),	-- Tiragarde Sound repeatable random chest
-		q(48619),	-- Tiragarde Sound repeatable random chest
-		q(48621),	-- Tiragarde Sound repeatable random chest
-		q(50166),	-- Tiragarde Sound repeatable random chest
-		q(50952),	-- Tiragarde Sound repeatable random chest
-		q(53630),	-- Tiragarde Sound repeatable random chest (possibly different from others, it was Forgotten Treasure Chest at 79.57 20.22 in a small cave)
-		q(53631),	-- reported as "opening a chest in Tiragarde Sound"
-		q(48594),	-- Tiragarde Sound Tol Dagor chest
 		-- Various
 		q(55627),	-- triggered additionally when completing the WQ to kill P4-N73R4.  this is not the first-time kill tracking quest for the rare, so i'm not sure what it's for
 
 		--	Vol'dun
-		-- Chests
-		q(51138),	-- clicking on sand pile to spawn Zem'lan's Buried Treasure
-		q(53005),	-- clicking on the fishing bobber to spawn Sandsunken Chest
-		q(47326),	-- clicking on the mine cart to get Ashvane Spoils
-		q(50922),	-- Vol'dun repeatable random chest
-		q(50920),	-- Vol'dun repeatable random chest
-		q(51673),	-- Vol'dun repeatable random chest
-		q(50926),	-- Vol'dun repeatable random chest
-		q(50916),	-- Vol'dun repeatable random chest
-		q(50914),	-- Vol'dun repeatable random chest
-		q(50918),	-- Vol'dun repeatable random chest
-		q(50924),	-- Vol'dun repeatable random chest
-		q(50921),	-- Vol'dun repeatable random chest
-		q(50919),	-- Vol'dun repeatable random chest
-		q(50915),	-- Vol'dun repeatable random chest
-		q(50925),	-- Vol'dun repeatable random chest
 		-- Various
 		q(49684),	-- triggered when picking the staff on "Armed and Ready"
 		q(49685),	-- triggered when picking the scythe/glaive thing on "Armed and Ready"
@@ -901,17 +818,6 @@ root(ROOTS.HiddenQuestTriggers, {
 
 		--	Zuldazar
 		-- Chests
-		q(50712),	-- Zuldazar repeatable random chest
-		q(50719),	-- Zuldazar repeatable random chest
-		q(50720),	-- Zuldazar repeatable random chest
-		q(50721),	-- Zuldazar repeatable random chest
-		q(50722),	-- Zuldazar repeatable random chest
-		q(50723),	-- Zuldazar repeatable random chest
-		q(50726),	-- Zuldazar repeatable random chest
-		q(50727),	-- Zuldazar repeatable random chest
-		q(50728),	-- Zuldazar repeatable random chest
-		q(51346),	-- Zuldazar repeatable random chest
-		q(50729),	-- looted a chest in Zuldazar at 58.6, 81.1
 		q(51363),	-- Weekly m+ chest looted (Horde, probably alliance too?)
 		-- Rares
 		q(50856),	-- Old R'gal first time kill quest
@@ -939,52 +845,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(56894),	-- Shadowbinder Athissa
 		q(56890),	-- Theurgist Nitara
 		q(56893),	-- Warlord Zalzjar
-		-- Rares
-		q(56604),	-- Alga the Eyeless first kill
-		q(56603),	-- Allseer Oma'kil first kill
-		q(56602),	-- Anemonar first kill
-		q(56615),	-- Amethyst Spireshell first kill
-		q(56614),	-- Blightlight first kill
-		q(56887),	-- Carnivorous Lasher first kill
-		q(56888),	-- Carnivorous lasher kill
-		q(57188),	-- Carnivorous Lasher, Germinating Seafly buff (drops herbs)
-		q(57187),	-- Carnivorous Lasher Golden Seafly buff (drops gold)
-		q(57186),	-- Carnivorous Lasher, Radiant Seafly buff (drops Azerite)
-		q(56600),	-- Caverndark Terror first kill
-		q(56613),	-- Chasm Haunter first kill
-		q(56612),	-- Daggertooth Terror first kill
-		q(56611),	-- Deepglider first kill
-		q(56599),	-- Elder Unu first kill
-		q(56598),	-- Elderspawn Nalaada first kill
-		q(56610),	-- Garnetscale first kill
-		q(56597),	-- Iridescent Glimmershell first kill
-		q(57260),	-- Iridescent Glimmershell looted with WM on
-		q(56596),	-- Kelpwillow first kill
-		q(57082),	-- Lost Algan Benthic loot
-		q(56609),	-- Mirecrawler first kill
-		q(56608),	-- Needlespine first kill
-		q(56595),	-- Oronu first kill
-		q(56594),	-- Prince Typhonus first kill
-		q(56593),	-- Prince Vortran first kill
-		-- q(56287),	-- Reefwalker first kill
-		q(56592),	-- Rockweed Shambler first kill
-		q(56917),	-- Rockweed Shambler additional loot (Benthic/Manapearls)
-		q(56606),	-- Sandclaw Stonoeshell first kill
-		q(57142),	-- looting Giant Crab Leg + Brinestone Pickaxe from Sandclaw Stoneshell
-		q(56591),	-- Scale Matriarch Gratinax first kill
-		q(56590),	-- Scale Matriarch Vynara first kill
-		q(56589),	-- Scale Matriarch Zodia first kill
-		q(56588),	-- Shassera first kill
-		q(56587),	-- Shiz'narasz the Consumer first kill
-		q(56586),	-- Silstalker the Packmother first kill
-		q(56585),	-- Soundless first kill
-		q(56619),	-- Tidelord Dispersius first kill
-		q(56620),	-- Tidemistress Leth'sindra first kill
-		q(56605),	-- Toxigore the Alpha first kill
-		q(56584),	-- Urduu first kill
-		q(56583),	-- Voice in the Deeps first kill
-		q(57083),	-- Wayward Algan Benthic loot
-		q(57096),	-- reported as triggering upon snapping a photo to collect Fabious
 		-- WQs
 		q(57167),	-- Killed Vyz'olgo the Mind-Taker. Probably related to a daily loot flag from the lieutenants
 		q(57166),	-- triggered when completing #55891, "Champion Aldrantiss, Defender of Her Kingdom," in nazjatar

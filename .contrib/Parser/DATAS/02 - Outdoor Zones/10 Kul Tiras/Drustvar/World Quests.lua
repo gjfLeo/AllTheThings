@@ -538,3 +538,15 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		})),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(KUL_TIRAS, {
+		m(DRUSTVAR, {
+			n(WORLD_QUESTS, {
+				q(52000),	-- Matron Morana killID
+				q(52002),	-- Soul Goliath killID
+				q(51999),	-- Stone Golem killID
+			}),
+		}),
+	}),
+})));

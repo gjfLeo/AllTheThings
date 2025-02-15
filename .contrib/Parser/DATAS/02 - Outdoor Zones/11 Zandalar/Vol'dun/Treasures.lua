@@ -133,3 +133,27 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(VOLDUN, {
+			n(TREASURES, {
+				q(51138),	-- clicking on sand pile to spawn Zem'lan's Buried Treasure
+				q(53005),	-- clicking on the fishing bobber to spawn Sandsunken Chest
+				q(47326),	-- clicking on the mine cart to get Ashvane Spoils
+				q(50922),	-- Vol'dun repeatable random chest
+				q(50920),	-- Vol'dun repeatable random chest
+				q(51673),	-- Vol'dun repeatable random chest
+				q(50926),	-- Vol'dun repeatable random chest
+				q(50916),	-- Vol'dun repeatable random chest
+				q(50914),	-- Vol'dun repeatable random chest
+				q(50918),	-- Vol'dun repeatable random chest
+				q(50924),	-- Vol'dun repeatable random chest
+				q(50921),	-- Vol'dun repeatable random chest
+				q(50919),	-- Vol'dun repeatable random chest
+				q(50915),	-- Vol'dun repeatable random chest
+				q(50925),	-- Vol'dun repeatable random chest
+			}),
+		}),
+	}),
+})));

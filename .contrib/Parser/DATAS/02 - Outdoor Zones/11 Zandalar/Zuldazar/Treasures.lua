@@ -104,6 +104,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		m(ZULDAZAR, {
 			n(TREASURES, {
 				q(50950),	-- for using the Incense prior to opening Gift of the Brokenhearted for achievement Treasures of Zuldazar
+				q(50712),	-- Zuldazar repeatable random chest
+				q(50719),	-- Zuldazar repeatable random chest
+				q(50720),	-- Zuldazar repeatable random chest
+				q(50721),	-- Zuldazar repeatable random chest
+				q(50722),	-- Zuldazar repeatable random chest
+				q(50723),	-- Zuldazar repeatable random chest
+				q(50726),	-- Zuldazar repeatable random chest
+				q(50727),	-- Zuldazar repeatable random chest
+				q(50728),	-- Zuldazar repeatable random chest
+				q(51346),	-- Zuldazar repeatable random chest
+				q(50729),	-- looted a chest in Zuldazar at 58.6, 81.1
 			}),
 		}),
 	}),
