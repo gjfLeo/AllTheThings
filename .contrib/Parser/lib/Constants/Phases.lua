@@ -297,7 +297,7 @@ ELITE_PVP_REQUIREMENT = createPhase({
 		ko = "",
 		]]--
 		cn = "PvP 精良/角斗士",
-		tw = "PvP 精良/角鬥士",
+		tw = "PvP 精良/鬥士",
 	},
 	description = {
 		en = "This can no longer be purchased or unlocked as Transmog unless you have the required PvP Title, required PvP Rating or were in the Top % of that season.",
