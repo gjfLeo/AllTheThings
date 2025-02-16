@@ -195,11 +195,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(237439, {	-- Kharon			(2)
 				["description"] = "Kharon's loots are special, as it will loot an item from the loot table of all dungeon bosses, including the Opera, plus Kharon's own loots.\nKharon's exclusive loot is ilv86, which has an additional random 1 of 6 Enchantments",
 				["groups"] = {
+					-- Unconfirmed Drop:
+					i(235870, {	-- Rattlechain Helm (?)
+						["description"] = "[TBC]\nIf you loot this item excluding Kharon, @NORPG on Discord.",
+					}),
 					i(235874),	-- Cultist's Handwraps
 					i(236642),	-- Mender's Handwraps
 					i(235875),	-- Gravedigger's Gloves
 					i(235876),	-- Sinner's Handguards
-					i(235870),	-- Rattlechain Helm (?)
 					i(235877),	-- Fanatic's Gauntlets
 					i(236645),	-- Lightwielder's Gauntlets
 					i(236643),	-- Nightwatcher's Gloves
