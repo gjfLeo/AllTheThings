@@ -6,5 +6,6 @@ SEASON_FURIOUS = createHeader({
 		fr = WOWAPI_GetAchievementName(3436).. [[..": Saison 6"]],
 		ru = WOWAPI_GetAchievementName(3436).. [[..": Сезон 6"]],
 		cn = WOWAPI_GetAchievementName(3436).. [[.."：第6赛季"]],
+		tw = WOWAPI_GetAchievementName(3436).. [[.."：第6賽季"]],
 	},
 });

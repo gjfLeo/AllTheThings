@@ -6,5 +6,6 @@ SEASON_RELENTLESS = createHeader({
 		fr = WOWAPI_GetAchievementName(3758).. [[..": Saison 7"]],
 		ru = WOWAPI_GetAchievementName(3758).. [[..": Сезон 7"]],
 		cn = WOWAPI_GetAchievementName(3758).. [[.."：第7赛季"]],
+		tw = WOWAPI_GetAchievementName(3758).. [[.."：第7賽季"]],
 	},
 });

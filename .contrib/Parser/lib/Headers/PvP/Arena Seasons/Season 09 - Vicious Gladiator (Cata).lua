@@ -6,5 +6,6 @@ SEASON_VICIOUS = createHeader({
 		fr = WOWAPI_GetAchievementName(6002).. [[..": Saison 9"]],
 		ru = WOWAPI_GetAchievementName(6002).. [[..": Сезон 9"]],
 		cn = WOWAPI_GetAchievementName(6002).. [[.."：第9赛季"]],
+		tw = WOWAPI_GetAchievementName(6002).. [[.."：第9賽季"]],
 	},
 });

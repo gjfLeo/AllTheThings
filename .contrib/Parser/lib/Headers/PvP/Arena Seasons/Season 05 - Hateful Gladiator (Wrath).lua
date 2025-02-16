@@ -11,5 +11,6 @@ PRE_SEASON_HATEFUL = createHeader({
 		ru = "Злобный гладиатор",
 		ko = "원한에 검투사",
 		cn = "憎恨角斗士",
+		tw = "憎恨鬥士",
 	},
 });

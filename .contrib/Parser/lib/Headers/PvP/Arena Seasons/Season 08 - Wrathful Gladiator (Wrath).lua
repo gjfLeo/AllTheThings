@@ -6,5 +6,6 @@ SEASON_WRATHFUL = createHeader({
 		fr = WOWAPI_GetAchievementName(4599).. [[..": Saison 8"]],
 		ru = WOWAPI_GetAchievementName(4599).. [[..": Сезон 8"]],
 		cn = WOWAPI_GetAchievementName(4599).. [[.."：第8赛季"]],
+		tw = WOWAPI_GetAchievementName(4599).. [[.."：第8賽季"]],
 	},
 });
