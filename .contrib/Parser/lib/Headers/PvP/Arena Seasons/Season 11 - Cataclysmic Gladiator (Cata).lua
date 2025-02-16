@@ -18,7 +18,7 @@ SEASON_CATACLYSMIC = createHeader({
 		ru = "Гладиатор Катаклизма: Сезон 11",
 		ko = "격변한 검투사: Season 11",
 		cn = "灾变角斗士：第11赛季",
-		tw = "絕命鬥士：第11賽季"
+		tw = "絕命鬥士：第11賽季",
 		-- 3endif
 	},
 });
