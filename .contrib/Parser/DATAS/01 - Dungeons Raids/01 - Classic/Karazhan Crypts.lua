@@ -50,58 +50,103 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["groups"] = {
 			n(QUESTS, {
 				q(86964, {	-- For Gold and Glory!
+					["provider"] = { "o", 509510 },	-- the Bulletin Board
 					["coord"] = { 81.3, 58.8, EASTERN_PLAGUELANDS },
 					["lvl"] = 60,
+					["groups"] = {
+						objective(1, {
+							["provider"] = { "n", 237820 },	-- Deceased Adventurer
+							["coord"] = { 40.0, 74.2, DEADWIND_PASS },
+						}),
+					},
 				}),	
 				q(86965, {	-- No Ordinary Shadows
 					["qg"] = 237820,	-- Deceased Adventurer
-					["coord"] = { 39.0, 74.0, DEADWIND_PASS },
+					["coord"] = { 40.0, 74.2, DEADWIND_PASS },
 					["sourceQuest"] = 86964,	-- For Gold and Glory!
 					["lvl"] = 60,
+					["groups"] = {
+						objective(1, {
+							["provider"] = { "n", 218920 },	-- Agent Keanna <Violet Eye>
+							["coord"] = { 52.0, 34.0, DEADWIND_PASS },
+						}),
+					},
 				}),
 				q(86966, {	-- Seeking Survivors
 					["qg"] = 218920,	-- Dalaran Agent <Violet Eye>
 					["coord"] = { 52.0, 34.0, DEADWIND_PASS },
 					["sourceQuest"] = 86965,	-- No Ordinary Shadows
 					["lvl"] = 60,
+					["groups"] = {
+						objective(1, {
+							["provider"] = { "n", 237819 },	
+							["coords"] = {
+								{ 59.2, 73.4, DEADWIND_PASS },	-- Entrance of the Ogre Cave
+								{ 65.2, 78.6, DEADWIND_PASS },	-- Injured Adventurer
+							},
+						}),
+					},
 				}),
 				q(86967, {	-- To the Rescue
 					["qg"] = 237819,	-- Injured Adventurer
-					["coord"] = { 59.2, 73.4, DEADWIND_PASS },
+					["coord"] = { 65.2, 78.6, DEADWIND_PASS },
 					["sourceQuest"] = 86966,	-- Seeking Survivors
 					["lvl"] = 60,
+					["groups"] = {
+						objective(1, {
+							["provider"] = { "i", 235785 },	-- Deadwind Cage "Key"
+							["crs"] = {
+								7372,	-- Deadwind Warlock
+								7379,	-- Deadwind Ogre Mage
+								7371,	-- Deadwind Mauler
+								7369,	-- Deadwind Brute
+							},
+						}),
+						objective(2, {
+							["provider"] = { "n", 237818 },	-- Harrison Jones
+							["coord"] = { 52.2, 34.2, DEADWIND_PASS },
+						}),
+					},
 				}),
 				q(86968, {	-- Are You Afraid of the Dark?
 					["qg"] = 237818,	-- Harrison Jones
+					["coord"] = { 52.2, 34.2, DEADWIND_PASS },
 					["sourceQuest"] = 86967,	-- To the Rescue
 					["lvl"] = 60,
 				}),
 				q(86969, {	-- The Hypothesis
 					["qg"] = 218920,	-- Dalaran Agent <Violet Eye>
+					["coord"] = { 52.0, 34.6, DEADWIND_PASS },
 					["sourceQuest"] = 86968,	-- Are You Afraid of the Dark?
 					["lvl"] = 60,
 					["groups"] = {
-						i(235787, {	-- Ancient Ironwood Branch (QI!)
-							["providers"] = {
-								{ "n", 226923 },	-- Grimroot <The Mourning Guardian>
-								{ "n", 11489 },		-- Tendris Warpwood
+						objective(1, {	-- 0/1 Flame of Life
+							["description"] = "loot from lvl 60 Elite Red Dragon, in the right side of Wetland.",
+							["provider"] = { "i", 235789 },	-- Flame of Life (QI!)
+							["crs"] = {
+								1045,	-- Red Dragonspawn
+								1047,	-- Red Scalebane
+								1048,	-- Scalebane Lieutenant
+								1049,	-- Wyrmkin Firebrand
+								1050,	-- Scalebane Royal Guard
 							},
 						}),
-						i(235788),	-- Enthusiastic Wisp (QI!)
-						i(235789, {	-- Flame of Life (QI!)
-							["description"] = "Can be found on the right side of Wetland, level 60 Elite Dragon",
-							["providers"] = {
-								{ "n", 1045 },	-- Red Dragonspawn
-								{ "n", 1047 },	-- Red Scalebane
-								{ "n", 1048 },	-- Scalebane Lieutenant
-								{ "n", 1049 },	-- Wyrmkin Firebrand
-								{ "n", 1050 },	-- Scalebane Royal Guard
+						objective(2, {	-- 0/1 Ancient Ironwood Branch
+							["provider"] = { "i", 235787 },	-- Ancient Ironwood Branch (QI!)
+							["crs"] = {
+								11489, 	-- Tendris Warpwood
+								226923,	-- Grimroot <The Mourning Guardian>
 							},
+						}),
+						objective(3, {	-- 0/1 Enthusiastic Wisp
+							["provider"] = { "i", 235788 },	-- Enthusiastic Wisp (QI!)
+							["cr"] = 238431,	-- Enthusiastic Wisp
 						}),
 					},
 				}),
 				q(86970, {	-- Testing Our Hypothesis
 					["qg"] = 218920,	-- Dalaran Agent <Violet Eye>
+					["coord"] = { 52.0, 34.6, DEADWIND_PASS },
 					["sourceQuest"] = 86969,	-- The Hypothesis
 					["lvl"] = 60,
 				}),
