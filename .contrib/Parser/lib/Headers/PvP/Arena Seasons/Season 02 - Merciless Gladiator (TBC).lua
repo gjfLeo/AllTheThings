@@ -11,7 +11,7 @@ SEASON_MERCILESS = createHeader({
 		pt = "Gladiador Impiedoso: Season 2",
 		ru = "Безжалостный гладиатор: Сезон 2",
 		ko = "무자비한 검투사: Season 2",
-		cn = "残酷角斗士：第1赛季",
+		cn = "残酷角斗士：第2赛季",
 		-- #else
 		en = WOWAPI_GetAchievementName(418).. [[..": Season 2"]],
 		fr = WOWAPI_GetAchievementName(418).. [[..": Saison 2"]],

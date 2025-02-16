@@ -11,7 +11,7 @@ SEASON_BRUTAL = createHeader({
 		pt = "Gladiador Brutal: Season 4",
 		ru = "Жестокий гладиатор: Сезон 4",
 		ko = "야만적인 검투사: Season 4",
-		cn = "野蛮角斗士：第3赛季",
+		cn = "野蛮角斗士：第4赛季",
 		-- #else
 		en = WOWAPI_GetAchievementName(420).. [[..": Season 4"]],
 		fr = WOWAPI_GetAchievementName(420).. [[..": Saison 4"]],
