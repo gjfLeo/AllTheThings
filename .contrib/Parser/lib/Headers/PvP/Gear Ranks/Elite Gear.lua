@@ -7,5 +7,6 @@ PVP_ELITE = createHeader({
 		fr = "Équipement Élite",
 		ru = "Элитные доспехи",
 		cn = "精锐装备",
+		tw = "精英裝備",
 	},
 });
