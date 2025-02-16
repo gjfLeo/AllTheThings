@@ -2898,7 +2898,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
 		q(82772, {["timeline"]={REMOVED_11_1_0}}),	-- First Delve of the day (Season 1)
-		--q(85668, {["timeline"]={ADDED_11_1_0}}),	-- First Delve of day (Season 2) // didn't pop on next day // weekly rep bonus? // Sidestreet Sluice hqt?
+		--q(85668, {["timeline"]={ADDED_11_1_0}}),	-- First Delve of day (Season 2) // didn't pop on next day // weekly rep bonus? // Sidestreet Sluice hqt, unflagged with daily reset
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
 		q(86329, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Cosmetic Surprise Bag (itemID 233281)

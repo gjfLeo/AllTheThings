@@ -2359,6 +2359,215 @@ root(ROOTS.Zones, {
 							},
 						}),
 					}),
+					n(237817, {	-- Nostwin
+						["coords"] = {
+							{ 42.7, 56.6, TIMELESS_ISLE },
+							{ 43.2, 54.1, TIMELESS_ISLE },
+							{ 42.8, 52.6, TIMELESS_ISLE },
+						},
+						["timeline"] = { ADDED_11_1_0 },
+						["groups"] = {
+							i(221818),	-- Astral Emperor's Serpentling (PET!)
+							i(235782, {	-- Battleplate of Winged Triumph
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235743, {	-- Breastplate of the Lost Catacomb
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235764, {	-- Breastplate of the Witch Doctor
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235783, {	-- Breastplate of Winged Triumph
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235758, {	-- Cap of the Haunted Forest
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235744, {	-- Chestguard of the Lost Catacomb
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235784, {	-- Chestguard of Winged Triumph
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235770, {	-- Chronomancer Leggings
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235766, {	-- Chronomancer Pants
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235765, {	-- Chronomancer Shirt
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235768, {	-- Chronomancer Trousers
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235767, {	-- Chronomancer Vest
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235756, {	-- Cover of the Haunted Forest
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235722, {	-- Cover of the Thousandfold Blades
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235718, {	-- Crown of the Burning Scroll
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							iensemble(235716),	-- Ensemble: Cloak of Infinite Potential
+							iensemble(215198, {	-- Ensemble: Timeworn Dreadful Mooncloth Regalia
+								["cost"] = { { "c", TIMEWARPED_BADGE, 4000 }, },
+							}),
+							iensemble(215200, {	-- Ensemble: Timeworn Malevolent Mooncloth Regalia
+								["cost"] = { { "c", TIMEWARPED_BADGE, 4000 }, },
+							}),
+							i(235726, {	-- Eternal Blossom Bindings
+								["cost"] = { { "c", TIMEWARPED_BADGE, 200 }, },
+							}),
+							i(235728, {	-- Eternal Blossom Jerkin
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235729, {	-- Eternal Blossom Mantle
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235727, {	-- Eternal Blossom Tunic
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235730, {	-- Eternal Blossom Tunic
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235749, {	-- Firebird's Breastplate
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235745, {	-- Firebird's Cuirass
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235746, {	-- Firebird's Legguards
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235748, {	-- Firebird's Legwraps
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235747, {	-- Firebird's Shirt
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235760, {	-- Helm of the Haunted Forest
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235717, {	-- Hood of the Burning Scroll
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(220765),	-- Illusion: Sha Corruption (ILLUSION!)
+							i(235781, {	-- Jerkin of Seven Sacred Seals
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235759, {	-- Jerkin of the Haunted Forest
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235776, {	-- Leggings of the Shattered Vale
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235771, {	-- Leggings of the Ternion Glory
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235778, {	-- Legguards of the Shattered Vale
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235721, {	-- Mantle of the Thousandfold Blades
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235719, {	-- Mitts of the Burning Scroll
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(221817),	-- Muskpaw Calf (PET!)
+							i(235777, {	-- Pants of the Shattered Vale
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235773, {	-- Pants of the Ternion Glory
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235725, {	-- Red Crane Cover
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235723, {	-- Red Crane Legguards
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235724, {	-- Red Crane Spaulders
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235763, {	-- Robeguard of the Witch Doctor
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235735, {	-- Sha-Skin Amice
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235733, {	-- Sha-Skin Mantle
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235731, {	-- Sha-Skin Mitts
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235734, {	-- Sha-Skin Shirt
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235732, {	-- Sha-Skin Vestment
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235769, {	-- Shirt of the Chronomancer
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235774, {	-- Shirt of the Horned Nightmare
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235755, {	-- Shirt of the Thousandfold Hells
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235772, {	-- Trousers of the Ternion Glory
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235779, {	-- Tunic of Seven Sacred Seals
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235780, {	-- Vest of Seven Sacred Seals
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235757, {	-- Vest of the Haunted Forest
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235761, {	-- Vest of the Haunted Forest
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235754, {	-- Vest of the Thousandfold Hells
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235775, {	-- Vestments of the Shattered Vale
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235762, {	-- Vestments of the Witch Doctor
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235752, {	-- Warhelm of Resounding Rings
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235739, {	-- White Tiger Greaves
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235740, {	-- White Tiger Legplates
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235742, {	-- White Tiger Shoulderguards
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235741, {	-- White Tiger Spaulders
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+							i(235750, {	-- Yaungol Slayer's Belt
+								["cost"] = { { "c", TIMEWARPED_BADGE, 700 }, },
+							}),
+							i(235751, {	-- Yaungol Slayer's Spaulders
+								["cost"] = { { "c", TIMEWARPED_BADGE, 800 }, },
+							}),
+						},
+					}),
 					n(73307, {	-- Speaker Gulan <Emissary of Ordos>
 						["coord"] = { 74.9, 44.9, TIMELESS_ISLE },
 						["g"] = pvp({

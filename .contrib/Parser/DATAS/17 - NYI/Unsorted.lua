@@ -778,76 +778,12 @@ root(ROOTS.Unsorted, {
 				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
 				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
 			}),
-			n(SPECIAL, {	-- Remix
-				i(235716),	-- Ensemble: Cloak of Infinite Potential
-				i(235717),	-- Hood of the Burning Scroll
-				i(235718),	-- Crown of the Burning Scroll
-				i(235719),	-- Mitts of the Burning Scroll
+			n(SPECIAL, {	-- Remix // NYI?
 				i(235720),	-- Guardian Serpent Cowl
-				i(235721),	-- Mantle of the Thousandfold Blades
-				i(235722),	-- Cover of the Thousandfold Blades
-				i(235723),	-- Red Crane Legguards
-				i(235724),	-- Red Crane Spaulders
-				i(235725),	-- Red Crane Cover
-				i(235726),	-- Eternal Blossom Bindings
-				i(235727),	-- Eternal Blossom Tunic
-				i(235728),	-- Eternal Blossom Jerkin
-				i(235729),	-- Eternal Blossom Mantle
-				i(235730),	-- Eternal Blossom Tunic
-				i(235731),	-- Sha-Skin Mitts
-				i(235732),	-- Sha-Skin Vestment
-				i(235733),	-- Sha-Skin Mantle
-				i(235734),	-- Sha-Skin Shirt
-				i(235735),	-- Sha-Skin Amice
 				i(235736),	-- Guardian Serpent Crown
 				i(235737),	-- Guardian Serpent Leggings
 				i(235738),	-- Guardian Serpent Pants
-				i(235739),	-- White Tiger Greaves
-				i(235740),	-- White Tiger Legplates
-				i(235741),	-- White Tiger Spaulders
-				i(235742),	-- White Tiger Shoulderguards
-				i(235743),	-- Breastplate of the Lost Catacomb
-				i(235744),	-- Chestguard of the Lost Catacomb
-				i(235745),	-- Firebird's Cuirass
-				i(235746),	-- Firebird's Legguards
-				i(235747),	-- Firebird's Shirt
-				i(235748),	-- Firebird's Legwraps
-				i(235749),	-- Firebird's Breastplate
-				i(235750),	-- Yaungol Slayer's Belt
-				i(235751),	-- Yaungol Slayer's Spaulders
-				i(235752),	-- Warhelm of Resounding Rings
 				i(235753),	-- Raiment of the Chromatic Hydra
-				i(235754),	-- Vest of the Thousandfold Hells
-				i(235755),	-- Shirt of the Thousandfold Hells
-				i(235756),	-- Cover of the Haunted Forest
-				i(235757),	-- Vest of the Haunted Forest
-				i(235758),	-- Cap of the Haunted Forest
-				i(235759),	-- Jerkin of the Haunted Forest
-				i(235760),	-- Helm of the Haunted Forest
-				i(235761),	-- Vest of the Haunted Forest
-				i(235762),	-- Vestments of the Witch Doctor
-				i(235763),	-- Robeguard of the Witch Doctor
-				i(235764),	-- Breastplate of the Witch Doctor
-				i(235765),	-- Chronomancer Shirt
-				i(235766),	-- Chronomancer Pants
-				i(235767),	-- Chronomancer Vest
-				i(235768),	-- Chronomancer Trousers
-				i(235769),	-- Shirt of the Chronomancer
-				i(235770),	-- Chronomancer Leggings
-				i(235771),	-- Leggings of the Ternion Glory
-				i(235772),	-- Trousers of the Ternion Glory
-				i(235773),	-- Pants of the Ternion Glory
-				i(235774),	-- Shirt of the Horned Nightmare
-				i(235775),	-- Vestments of the Shattered Vale
-				i(235776),	-- Leggings of the Shattered Vale
-				i(235777),	-- Pants of the Shattered Vale
-				i(235778),	-- Legguards of the Shattered Vale
-				i(235779),	-- Tunic of Seven Sacred Seals
-				i(235780),	-- Vest of Seven Sacred Seals
-				i(235781),	-- Jerkin of Seven Sacred Seals
-				i(235782),	-- Battleplate of Winged Triumph
-				i(235783),	-- Breastplate of Winged Triumph
-				i(235784),	-- Chestguard of Winged Triumph
 			}),
 			filter(TOYS, {
 				i(236749),	-- Take-Home Torq
