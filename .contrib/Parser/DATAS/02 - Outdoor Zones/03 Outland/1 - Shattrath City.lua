@@ -710,6 +710,14 @@ root(ROOTS.Zones, {
 						["qg"] = 18597,	-- Sha'nir
 						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["coord"] = { 64.2, 15.4, SHATTRATH_CITY },
+						["groups"] = {
+							objective(1, {	-- 0/1 Stonegazer's Blood
+								["provider"] = { "i", 25815 },	-- Stonegazer's Blood
+								["coord"] = { 66.6, 30.6, TEROKKAR_FOREST },
+								["cr"] = 18648,	-- Stonegazer
+							}),
+						},
 					}),
 					q(10210, {	-- A'dal
 						["qg"] = 19684,	-- Haggard War Veteran
@@ -733,19 +741,6 @@ root(ROOTS.Zones, {
 						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
 						["cost"] = { { "i", 29739, 1 } },	-- Arcane Tome
 						["repeatable"] = true,
-					}),
-					q(11038, {	-- Assist Exarch Orelis
-						["qgs"] = {
-							23271,	-- Vindicator Kaan
-							23270,	-- Vindicator Aeus
-						},
-						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
-						["coords"] = {
-							{ 35.0, 32.6, SHATTRATH_CITY },
-							{ 47.4, 26.4, SHATTRATH_CITY },
-						},
-						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
-						["isBreadcrumb"] = true,	-- for "Distraction at Manaforge B'naar," unavailable if you did any Netherstorm breadcrumb quest
 					}),
 					q(10211, {	-- City of Light
 						["qg"] = 18166,	-- Archmage Khadgar
@@ -992,35 +987,59 @@ root(ROOTS.Zones, {
 						["repeatable"] = true,
 						["groups"] = {
 							i(31800, {  -- Outcasts Cache
-								["sym"] = {{"fill"}},	-- fill with Sourced content for this Item since reward of repeatable quest
+								i(28495),	-- Windwalker's Sash
+								i(28496),	-- Talonite's Belt
+								i(28497),	-- Dreadhawk's Girdle
+								i(28498),	-- Ravenguard's Baldric
+								i(28491),	-- Windwalker's Footwraps
+								i(28493),	-- Dreadhawk's Schynbald
+								i(28492),	-- Talonite's Boots
+								i(28494),	-- Ravenguard's Greaves
 							}),
 						},
 					}),
 					q(10037, {	-- Rather Be Fishin'
 						["qg"] = 18653,	-- Seth
 						["coord"] = { 64.0, 15.6, SHATTRATH_CITY },
+						["maps"] = { TEROKKAR_FOREST },
 						["groups"] = {
+							objective(1, {	-- 0/8 Pristine Shimmerscale Eel
+								["provider"] = { "i", 25891 },	-- Pristine Shimmerscale Eel
+								["coord"] = { 39.6, 9.6, TEROKKAR_FOREST },
+								["cr"] = 18750,	-- Shimmerscale Eel
+							}),
 							i(25978)	-- Seth's Graphite Fishing Pole
 						},
-					}),
-					q(11039, {	-- Report to Spymaster Thalodien
-						["qgs"] = {
-							23273,	-- Arcanist Raestan
-							23272,	-- Arcanist Savan
-						},
-						["sourceQuest"] = 10552,	-- Allegiance to the Scryers
-						["coords"] = {
-							{ 44.6, 76.2, SHATTRATH_CITY },
-							{ 60.6, 63.2, SHATTRATH_CITY },
-						},
-						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
-						["isBreadcrumb"] = true,	-- for Manaforge B'naar
 					}),
 					q(10021, {	-- Restoring the Light
 						["qg"] = 18538,	-- Ishanah
 						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
 						["coord"] = { 24.2, 29.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["maps"] = { TEROKKAR_FOREST },
+						["groups"] = {
+							objective(1, {	-- 0/1 Northern Altar Cleansed
+								["providers"] = {
+									{ "i",  25817 },	-- Blessed Vial
+									{ "o", 182563 },	-- Northern Altar
+								},
+								["coord"] = { 50.6, 16.7, TEROKKAR_FOREST },
+							}),
+							objective(2, {	-- 0/1 Eastern Altar Cleansed
+								["providers"] = {
+									{ "i",  25817 },	-- Blessed Vial
+									{ "o", 182565 },	-- Eastern Altar
+								},
+								["coord"] = { 49.2, 20.5, TEROKKAR_FOREST },
+							}),
+							objective(3, {	-- 0/1 Western Altar Cleansed
+								["providers"] = {
+									{ "i",  25817 },	-- Blessed Vial
+									{ "o", 182566 },	-- Western Altar
+								},
+								["coord"] = { 48.1, 14.3, TEROKKAR_FOREST },
+							}),
+						},
 					}),
 					q(11377, {	-- Revenge is Tasty
 						["qg"] = 24393,	-- The Rokk <Master of Cooking>
@@ -1185,6 +1204,7 @@ root(ROOTS.Zones, {
 						["qg"] = 19720,	-- "Dirty" Larry <Ruffian>
 						["sourceQuest"] = 10231,	-- What Book? I Don't See Any Book.
 						["coord"] = { 43.6, 29.6, SHATTRATH_CITY },
+						["maps"] = { NAGRAND },
 					}),
 					applyclassicphase(TBC_PHASE_FIVE, q(11880, {	-- The Multiphase Survey
 						["qg"] = 19475,	-- Harbinger Haronem
@@ -1206,14 +1226,7 @@ root(ROOTS.Zones, {
 						["cost"] = { { "i", 25719, 30 } },	-- 30x Arakkoa Feather
 						["groups"] = {
 							i(31800, {  -- Outcasts Cache
-								i(28495),	-- Windwalker's Sash
-								i(28496),	-- Talonite's Belt
-								i(28497),	-- Dreadhawk's Girdle
-								i(28498),	-- Ravenguard's Baldric
-								i(28491),	-- Windwalker's Footwraps
-								i(28493),	-- Dreadhawk's Schynbald
-								i(28492),	-- Talonite's Boots
-								i(28494),	-- Ravenguard's Greaves
+								["sym"] = {{"fill"}},	-- fill with Sourced content for this Item since reward of repeatable quest
 							}),
 						},
 					}),
@@ -1545,12 +1558,12 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10228,	-- Ezekiel
 						["coord"] = { 59.3, 35.6, SHATTRATH_CITY },
 						["description"] = "Walks around the |cFFFFD700Terrace of Light|r.",
-					}),
-					q(11045, {	-- Zorus the Judicator
-						["qg"] = 19678,	-- Fantei
-						["coord"] = { 64.6, 70.6, SHATTRATH_CITY },
-						["races"] = ALLIANCE_ONLY,
-						["isBreadcrumb"] = true,	-- for "A Ghost in the Machine" in SMV, mutually exclusive w/other bcrumbs
+						["groups"] = {
+							objective(1, {	-- Beat Down "Dirty" Larry and Get Information
+								["provider"] = { "n", 19720 },	-- "Dirty" Larry <Ruffian>
+								["coord"] = { 43.6, 29.6, SHATTRATH_CITY },
+							}),
+						},
 					}),
 				}),
 				n(REWARDS, bubbleDownSelf({ ["timeline"] = { ADDED_2_3_0 } }, {

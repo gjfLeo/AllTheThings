@@ -187,6 +187,19 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					q(11038, {	-- Assist Exarch Orelis
+						["qgs"] = {
+							23271,	-- Vindicator Kaan
+							23270,	-- Vindicator Aeus
+						},
+						["sourceQuest"] = 10551,	-- Allegiance to the Aldor
+						["coords"] = {
+							{ 35.0, 32.6, SHATTRATH_CITY },
+							{ 47.4, 26.4, SHATTRATH_CITY },
+						},
+						["minReputation"] = { FACTION_THE_ALDOR, NEUTRAL },	-- The Aldor, Neutral.
+						["isBreadcrumb"] = true,	-- for "Distraction at Manaforge B'naar," unavailable if you did any Netherstorm breadcrumb quest
+					}),
 					q(10264, {	-- Assisting the Consortium (The Scryers)
 						["qg"] = 19468,	-- Spymaster Thalodien
 						["coord"] = { 32.0, 64.1, NETHERSTORM },
@@ -292,6 +305,19 @@ root(ROOTS.Zones, {
 								["cr"] = 19635,	-- Captain Arathyn
 							}),
 						},
+					}),
+					q(11039, {	-- Report to Spymaster Thalodien
+						["qgs"] = {
+							23273,	-- Arcanist Raestan
+							23272,	-- Arcanist Savan
+						},
+						["sourceQuest"] = 10552,	-- Allegiance to the Scryers
+						["coords"] = {
+							{ 44.6, 76.2, SHATTRATH_CITY },
+							{ 60.6, 63.2, SHATTRATH_CITY },
+						},
+						["minReputation"] = { FACTION_THE_SCRYERS, NEUTRAL },	-- The Scryers, Neutral.
+						["isBreadcrumb"] = true,	-- for Manaforge B'naar
 					}),
 					q(10200, {	-- Return to Thalodien
 						["qg"] = 19840,	-- Caledis Brightdawn

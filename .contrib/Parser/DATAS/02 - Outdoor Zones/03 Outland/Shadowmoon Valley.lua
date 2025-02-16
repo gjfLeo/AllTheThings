@@ -2323,6 +2323,12 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					q(11045, {	-- Zorus the Judicator
+						["qg"] = 19678,	-- Fantei
+						["coord"] = { 64.6, 70.6, SHATTRATH_CITY },
+						["races"] = ALLIANCE_ONLY,
+						["isBreadcrumb"] = true,	-- for "A Ghost in the Machine" in SMV, mutually exclusive w/other bcrumbs
+					}),
 					q(10866, {	-- Zuluhed the Whacked
 						["qg"] = 22112,	-- Karynaku
 						["sourceQuest"] = 10858,	-- Karynaku
