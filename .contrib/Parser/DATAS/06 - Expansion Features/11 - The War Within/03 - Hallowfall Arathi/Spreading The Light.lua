@@ -23,7 +23,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["description"] = "Whirring Field Keyflame.",
 						["coord"] = { 65.0, 29.3, HALLOWFALL },
 						["g"] = {
-							i(206519),	-- Cleanbrass Bolts (QI!)
+							o(403740, {	-- Cleanbrass Bolts
+								i(206519),	-- Cleanbrass Bolts (QI!)
+							}),
 							i(206518),	-- Gyro-Optic Spring (QI!)
 						},
 					}),
@@ -264,7 +266,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 206441 },	-- Auebry Irongear
 						["coord"] = { 65.2, 28.1, HALLOWFALL },
 						["g"] = {
-							i(211947),	-- Harvest Seed Supply (QI!)
+							o(416418, {	-- Harvest Seed Supply
+								i(211947),	-- Harvest Seed Supply (QI!)
+							}),
 						},
 					}),
 					q(81574, {	-- Sporadic Growth
