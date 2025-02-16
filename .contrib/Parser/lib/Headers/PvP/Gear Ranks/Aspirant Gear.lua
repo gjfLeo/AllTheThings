@@ -6,6 +6,6 @@ PVP_ASPIRANT = createHeader({
 		de = "Aspiranten Rüstung",
 		fr = "Équipement Aspirant",
 		ru = "Доспехи Претендента",
-		cn = "候选者套装",
+		cn = "候选者装备",
 	},
 });

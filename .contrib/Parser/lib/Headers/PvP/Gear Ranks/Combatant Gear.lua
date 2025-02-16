@@ -10,6 +10,6 @@ PVP_COMBATANT = createHeader({
 		de = "Kämpfer Rüstung",
 		fr = "Équipement Combattant",
 		ru = "Доспехи Бойца",
-		cn = "争斗者套装",
+		cn = "争斗者装备",
 	},
 });

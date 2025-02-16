@@ -10,6 +10,6 @@ PVP_GLADIATOR = createHeader({
 		de = "Gladiatoren Rüstung",
 		fr = "Équipement Gladiateur",
 		ru = "Доспехи Гладиатора",
-		cn = "角斗士套装",
+		cn = "角斗士装备",
 	},
 });

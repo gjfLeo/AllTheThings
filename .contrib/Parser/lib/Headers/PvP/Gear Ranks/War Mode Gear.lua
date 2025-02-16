@@ -4,5 +4,6 @@ PVP_WARMODE = createHeader({
 	icon = 311230,
 	text = {
 		en = "War Mode Gear",
+		cn = "战争模式装备",
 	},
 });
