@@ -532,7 +532,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			--q(79466),	-- [DNT] Renown Reward 004
 		}),
 	})),
-	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, REMOVED_11_1_0 } }, {
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 		n(PLUNDERSTORM, {
 			q(86212),	-- Purchased Swabbie's Shovel
 			q(86213),	-- Purchased Swabbie's Oar
