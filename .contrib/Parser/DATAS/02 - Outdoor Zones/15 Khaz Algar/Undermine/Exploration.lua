@@ -31,6 +31,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			visit_exploration(15647,{coord={43.5,85.1,UNDERMINE}}),	-- The Heaps
 			visit_exploration(15388,{coord={44.0,49.5,UNDERMINE}}),	-- The Incontinental Hotel
 			visit_exploration(15646,{coord={42.0,49.2,UNDERMINE}}),	-- The Incontinental Hotel
+			visit_exploration(15457,{coord={39.7,25.9,UNDERMINE}}),	-- The Scrapshop
 			visit_exploration(15350,{coord={36.0,83.9,UNDERMINE}}),	-- The Vatworks
 			visit_exploration(15648,{coord={42.8,85.9,UNDERMINE}}),	-- The Vatworks
 			visit_exploration(15347,{coord={26.7,53.1,UNDERMINE}}),	-- Undermine

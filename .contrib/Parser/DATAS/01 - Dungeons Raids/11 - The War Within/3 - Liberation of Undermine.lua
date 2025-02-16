@@ -49,18 +49,24 @@ local EncounterToLoot = {
 	[CARNAGE] = {
 		i(228856),	-- Competitor's Battle Cord
 		i(228904),	-- Crowd Favorite
+		i(228803),	-- Dreadful Bloody Gallybux
 		i(228840),	-- Faded Championship Ring
 		i(230191),	-- Flarendo's Pilot Light
 		i(228846),	-- Galvanic Graffiti Cuffs
 		i(228873),	-- Heaviestweight Title Belt
 		i(228847),	-- Hotstep Heel-Turners
+		i(228804),	-- Mystic Bloody Gallybux
 		i(228890),	-- Superfan's Beater-Buzzer
 		i(230190),	-- Torq's Big Red Button
 		i(228900),	-- Tournament Arc
+		i(228805),	-- Venerated Bloody Gallybux
+		i(228806),	-- Zenith Bloody Gallybux
 	};
 	[RIK] = {
+		i(228815),	-- Dreadful Polished Gallybux
 		i(231311),	-- Frontman's Wondrous Wall
 		i(228869),	-- Killer Queen's Wristflickers
+		i(228816),	-- Mystic Polished Gallybux
 		i(228897),	-- Pyrotechnic Needle-Dropper
 		i(228895),	-- Remixed Ignition Saber
 		i(230194),	-- Reverb Radio
@@ -68,41 +74,55 @@ local EncounterToLoot = {
 		i(228845),	-- Sash of the Fierce Diva
 		i(228841),	-- Semi-Charmed Amulet
 		i(228857),	-- Underparty Admission Bracelet
+		i(228817),	-- Venerated Polished Gallybux
+		i(228818),	-- Zenith Polished Gallybux
 	};
 	[STIX] = {
 		i(228854),	-- Bilgerat's Discarded Slacks
 		i(228871),	-- Cleanup Crew's Wastemask
+		i(228811),	-- Dreadful Rusty Gallybux
 		i(228849),	-- Dumpmech Compactors
 		i(228903),	-- Dumpster Diver
 		i(230189),	-- Junkmaestro's Mega Magnet
+		i(228812),	-- Mystic Rusty Gallybux
 		i(228859),	-- Sanitized Scraphood
 		i(230026),	-- Scrapfield 9001
 		i(228896),	-- Stix's Metal Detector
+		i(228813),	-- Venerated Rusty Gallybux
+		i(228814),	-- Zenith Rusty Gallybux
 	};
 	[LOCKENSTOCK] = {
 		i(228898),	-- Alphacoil Ba-Boom Stick
+		i(228799),	-- Dreadful Greased Gallybux
 		i(228894),	-- GIGADEATH Chainblade
 		i(228867),	-- Gravi-Gunk Handlers
 		i(230193),	-- Mister Lock-N-Stalk
 		i(230186),	-- Mister Pick-Me-Up
+		i(228800),	-- Mystic Greased Gallybux
 		i(228882),	-- Refiner's Conveyor Belt
 		i(228888),	-- Rushed Beta Launchers
 		i(228844),	-- Test Pilot's Go-Pack
 		i(228884),	-- Test Subject's Clasps
+		i(228801),	-- Venerated Greased Gallybux
+		i(228802),	-- Zenith Greased Gallybux
 	};
 	[BANDIT] = {
 		i(232526),	-- Best-in-Slots
 		i(232805),	-- Best-in-Slots
 		i(228850),	-- Bottom-Dollar Blouse
 		i(228886),	-- Coin-Operated Girdle
+		i(228807),	-- Dreadful Gilded Gallybux
 		i(228883),	-- Dubious Table-Runners
 		i(230188),	-- Gallagio Bottle Service
 		i(228905),	-- Giga Bank-Breaker
 		i(230027),	-- House of Cards
 		i(228885),	-- Hustler's Ante-Uppers
 		i(228843),	-- Miniature Roulette Wheel
+		i(228808),	-- Mystic Gilded Gallybux
 		i(228906),	-- Operator's Fraud Detector
 		i(231266),	-- Random Number Perforator
+		i(228809),	-- Venerated Gilded Gallybux
+		i(228810),	-- Zenith Gilded Gallybux
 	};
 	[MUGZEE] = {
 		i(228851),	-- "Bullet-Proof" Vestplate

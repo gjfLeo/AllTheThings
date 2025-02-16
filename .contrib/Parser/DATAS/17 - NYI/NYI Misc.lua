@@ -1567,7 +1567,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(219500),	-- Fang Adornments
 			i(212603),	-- First Half of Titan Key NOT USED
 			i(206348),	-- Fragmented Flame
-			i(228194),	-- Fully Scrapped Scrap
 			i(209431),	-- Fungal Scraper
 			i(218123),	-- Glowing Shard
 			i(224791),	-- Golden Lord Outfit
@@ -1647,7 +1646,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(228416),	-- Steelvein's Manifesto
 			i(212340),	-- Strange Jar
 			i(228449),	-- Tasty Iron Bar
-			i(228195),	-- Tattered Goblin Cap
 			i(211529),	-- Test Big Bag (DNT)
 			i(213569),	-- Test Item A
 			i(213570),	-- Test Item B

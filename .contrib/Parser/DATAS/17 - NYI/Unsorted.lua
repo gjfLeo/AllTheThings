@@ -73,7 +73,6 @@ root(ROOTS.Unsorted, {
 				i(233538),	-- Gold-Plated Blade
 				i(233539),	-- Gold-Plated Hammer
 				i(233540),	-- Gold-Plated Cudgel
-				i(233542),	-- Gold-Plated Shank
 				i(233544),	-- Descaled Breastplate
 				i(233545),	-- Descaled Sabatons
 				i(233546),	-- Descaled Gauntlets
@@ -101,7 +100,6 @@ root(ROOTS.Unsorted, {
 				i(235489),	-- Bullet Biter
 				i(235491),	-- Immolation Warning
 				i(235492),	-- Oscillating Scrapcleaver
-				i(235493),	-- Ignited Flare Jar
 				i(235494),	-- Biker Gang's Spare Tire
 				i(235495),	-- Missile Guided Throat Slitter
 
@@ -429,7 +427,6 @@ root(ROOTS.Unsorted, {
 				i(233021),	-- Grappling-Grabber 9000
 				i(233054),	-- Wonder Ball
 				i(233055),	-- Corpse Cleaner
-				i(233061),	-- Rock-in-a-Bottle
 				i(233210),	-- Pungent Putrigill
 				i(234421),	-- Web Bomb
 				i(234616),	-- Supreme Mangoro Madness
@@ -623,7 +620,6 @@ root(ROOTS.Unsorted, {
 				i(232786),	-- Trigger-Sniffer's Handwraps
 				i(235300),	-- Cloak of Mecha Shards
 				i(235301),	-- Drape of the Dazzling Feather
-				i(235302),	-- Shockwave Pendant
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235308),	-- Filthtread Boots
 				i(235310),	-- Flashy Patchwork Trousers
@@ -633,7 +629,6 @@ root(ROOTS.Unsorted, {
 				i(235351),	-- Hypersteel CX4 Greatsword
 				i(235352),	-- Netherflare Wand
 				i(235354),	-- Scrapblaster Lance
-				i(235356),	-- Sapper's Spark Reactor
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
@@ -654,26 +649,6 @@ root(ROOTS.Unsorted, {
 				i(235836),	-- Gas-Powered Chainblade
 			}),
 			n(SETS, {	-- Tier Sets/Raid
-				i(228799),	-- Dreadful Greased Gallybux
-				i(228800),	-- Mystic Greased Gallybux
-				i(228801),	-- Venerated Greased Gallybux
-				i(228802),	-- Zenith Greased Gallybux
-				i(228803),	-- Dreadful Bloody Gallybux
-				i(228804),	-- Mystic Bloody Gallybux
-				i(228805),	-- Venerated Bloody Gallybux
-				i(228806),	-- Zenith Bloody Gallybux
-				i(228807),	-- Dreadful Gilded Gallybux
-				i(228808),	-- Mystic Gilded Gallybux
-				i(228809),	-- Venerated Gilded Gallybux
-				i(228810),	-- Zenith Gilded Gallybux
-				i(228811),	-- Dreadful Rusty Gallybux
-				i(228812),	-- Mystic Rusty Gallybux
-				i(228813),	-- Venerated Rusty Gallybux
-				i(228814),	-- Zenith Rusty Gallybux
-				i(228815),	-- Dreadful Polished Gallybux
-				i(228816),	-- Mystic Polished Gallybux
-				i(228817),	-- Venerated Polished Gallybux
-				i(228818),	-- Zenith Polished Gallybux
 				i(229230),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Generic - Cloak
 				i(229231),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Wrist
 				i(229232),	-- 11.1 Raid - Undermine - Class Set - Warrior - Armor - Plate - Waist
@@ -1014,7 +989,6 @@ root(ROOTS.Unsorted, {
 			i(233172),	-- Banded Grassy War Slippers
 			i(233479),	-- Shimmerthread Robe
 			i(234733),	-- Bloodwake Ritual Bowl
-			i(236960),	-- Prototype A.S.M.R.
 			i(237025),	-- Smartest in Town's Visor
 			i(237026),	-- Smartest in Town's Drape
 			i(237027),	-- Slickest in Town's Vest
@@ -1086,7 +1060,6 @@ root(ROOTS.Unsorted, {
 			i(237267),	-- Spare Uncrowned Vest
 			i(237268),	-- How to Get Out of Parking Tickets More Than Once
 			i(237276),	-- Refurbished Rocket Glider
-			i(237305),	-- Chalky Shungite
 			i(237345),	-- Limited Edition Rocket Bobber
 			i(237346),	-- Artisan Beverage Goblet Bobber
 			i(237347),	-- Organically-Sourced Wellington Bobber

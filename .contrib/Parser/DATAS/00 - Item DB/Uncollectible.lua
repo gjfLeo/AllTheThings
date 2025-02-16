@@ -2130,6 +2130,7 @@ i(234212);	-- "Beaten by the House"
 i(234205);	-- Bent Lever
 i(236638);	-- Bundle of Kaja-Scented Incense
 i(236922);	-- Celebratory Pack of Runed Harbinger Crests
+i(237305);	-- Chalky Shungite
 i(233030);	-- Charged Cables
 i(234203);	-- Clay-Speckled Metal Slug
 i(237335);	-- Collectible Pineappletini Mug
@@ -2141,6 +2142,7 @@ i(236639);	-- Dented Censer
 i(234204);	-- Depleted Battery
 i(237330);	-- Disposable Hamburger
 i(237331);	-- Disposable Hotdog
+i(228194);	-- Fully Scrapped Scrap
 i(234197);	-- Gilded Screwdriver
 i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
 i(237334);	-- Half-Eaten Takeout
@@ -2151,6 +2153,7 @@ i(235268);	-- Misprinted Card
 i(236637);	-- Not-Quite-Crystal Ball
 i(236926);	-- Pack of Runed Harbinger Crests
 i(236924);	-- Pouch of Weathered Harbinger Crests
+i(228195);	-- Tattered Goblin Cap
 i(237313);	-- Totally Legit Samophlange
 i(231899);	-- Trash
 i(236921);	-- Triumphant Satchel of Carved Harbinger Crests

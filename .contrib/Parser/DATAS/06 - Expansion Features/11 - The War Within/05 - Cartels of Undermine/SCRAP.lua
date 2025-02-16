@@ -121,6 +121,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["isWeekly"] = true,
 				}),
 			}),
+			--[[ TODO: According to wowhead comment - this one exist before, but I was unable to pop it myself
+			n(RARES, {				
+				n(234621, {	-- Gallagio Garbage <Luxury Trash>
+					["coord"] = { x, y, UNDERMINE },	-- any scap spot?
+					["questID"] = xx,
+					["g"] = {
+						i(235819),	-- Lucky Penny Locket
+						i(235910),	-- Mint Condition Gallagio Anniversary Coin
+					},
+				}),
+			}),]]--
 			n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can
 				--

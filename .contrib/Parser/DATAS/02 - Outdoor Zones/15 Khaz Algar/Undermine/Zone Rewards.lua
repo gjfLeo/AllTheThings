@@ -70,6 +70,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(WEAPONS, {
 				i(233531),	-- Gold-Plated Staff (cache)
 				i(233541),	-- Gold-Plated Knife (Overflowing Dumpster)
+				i(233542),	-- Gold-Plated Shank (Overflowing Dumpster)
 			}),
 			-- unsure where to put it atm
 			i(236961, {	-- Inoperative Gorillion (QS!)

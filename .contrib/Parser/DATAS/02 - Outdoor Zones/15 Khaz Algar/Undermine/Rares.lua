@@ -124,6 +124,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235359),	-- Ratfang Toxin (share with zone reward from cache)
 					i(235326),	-- Ratspit's Heirloom Wristwraps
+					i(235356),	-- Sapper's Spark Reactor
+					i(235302),	-- Shockwave Pendant
 				},
 			}),
 			n(230979, {	-- S.A.L.
@@ -164,7 +166,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 85004,	-- Swigs Farsight
 				["g"] = {
 					i(235314),	-- Knightrider's Steelfists
-					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots (TODO: could be wrongly placed .-.)
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 					i(235307),	-- Smoketrail Belt
 				},
 			}),
@@ -189,6 +191,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235317),	-- Chestplate of the Ultimatum
 					i(235353),	-- Debtsmasher Axe
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots (TODO: 3rd source, are Blizzard okay/)
 				},
 			}),
 			n(230946, {	-- V.V. Goosworth

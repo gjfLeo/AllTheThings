@@ -855,6 +855,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(235490, {	-- Clawbacker Halberd
 						["timeline"] = { ADDED_11_1_0 },
 					}),
+					i(235493, {	-- Ignited Flare Jar
+						["timeline"] = { ADDED_11_1_0 },
+					}),
 					i(235487, {	-- Interest Compounder
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -1433,6 +1436,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(233118),	-- Incontinental Takeout
 				i(233205),	-- Go-Go Juice
 				i(233062),	-- Pocket Pizza
+				i(233061),	-- Rock-in-a-Bottle
 			},
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
@@ -2894,14 +2898,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
 		q(82772, {["timeline"]={REMOVED_11_1_0}}),	-- First Delve of the day (Season 1)
-		--q(85668, {["timeline"]={ADDED_11_1_0}}),	-- First Delve of day (Season 2) // didn't pop on next day // weekly rep bonus?
+		--q(85668, {["timeline"]={ADDED_11_1_0}}),	-- First Delve of day (Season 2) // didn't pop on next day // weekly rep bonus? // Sidestreet Sluice hqt?
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
 		q(86329, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Cosmetic Surprise Bag (itemID 233281)
 		q(86328, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Starter Kit (itemID 233276)
 		--q(87287, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in Fungal Folly Tier 7
 		--q(87286, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in The Sinkhole Tier 8
-		q(86371, {["timeline"]={ADDED_11_1_0}}),	-- after Delver's Bounty was looted from objectID 507768
+		q(86371, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Bounty weekly lockout (source doesn't matter)
 		--q(86438, {["timeline"]={ADDED_11_1_0}}),	-- when open up nemesis strongbox (first purple on account) in Excavation Site 9 - Tier 10
 		--q(85395, {["timeline"]={ADDED_11_1_0}}),	-- after completing weekly for delves (was 82706 - Worldwide Research)
 		-- Bountiful Delve runs
@@ -2911,7 +2915,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(82941),	-- Kriegval's Rest
 		q(82940),	-- Mycomancer Cavern
 		q(82777),	-- Nightfall Sanctum
-		q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice
+		--q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice // seems like it is not?
 		q(78508),	-- Skittering Breach
 		q(82776),	-- Tak-Rethan Abyss
 		q(82938),	-- The Dread Pit
