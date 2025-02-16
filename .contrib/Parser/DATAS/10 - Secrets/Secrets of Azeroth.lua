@@ -710,31 +710,31 @@ root(ROOTS.Secrets, n(SECRETS_OF_AZEROTH_HEADER, bubbleDownSelf({ ["timeline"] =
 						["cost"] = {{"i",209061,1}},	-- Ishtaar Rethon's Burial Banner
 					}),
 					OneTimeAccountLocked(77578,	-- Banner Stand (Account-Wide)
-					o(9000005, {	-- Aged Marker [#1]
+					o(408912, {	-- Aged Marker [#1]
 						["questID"] = 78025,
 						["coord"] = { 83.8, 48.4, OHNAHRAN_PLAINS },
 					})),
 					OneTimeAccountLocked(77578,	-- Banner Stand (Account-Wide)
-					o(9000006, {	-- Aged Marker [#2]
+					o(408914, {	-- Aged Marker [#2]
 						["questID"] = 78026,
 						["coord"] = { 78.6, 83.3, OHNAHRAN_PLAINS },
 					})),
 					OneTimeAccountLocked(77578,	-- Banner Stand (Account-Wide)
-					o(9000007, {	-- Aged Marker [#3]
+					o(408915, {	-- Aged Marker [#3]
 						["questID"] = 78027,
 						["coord"] = { 60.7, 63.4, OHNAHRAN_PLAINS },
 					})),
 					OneTimeAccountLocked(77578,	-- Banner Stand (Account-Wide)
-					o(9000008, {	-- Aged Marker [#4]
+					o(408916, {	-- Aged Marker [#4]
 						["questID"] = 78028,
 						["coord"] = { 31.6, 71.6, OHNAHRAN_PLAINS },
 					})),
 					OneTimeAccountLocked(77578,	-- Banner Stand (Account-Wide)
-					o(9000009, {	-- Aged Marker [#5]
+					o(408918, {	-- Aged Marker [#5]
 						["questID"] = 78029,	-- this marker triggered 78037 for me instead -Run
 						["coord"] = { 43.3, 48.0, OHNAHRAN_PLAINS },
 					})),
-					o(9000010, {	-- Banner Stand
+					o(408939, {	-- Banner Stand
 						["description"] = "In cave.",
 						["questID"] = 77578,
 						["coord"] = { 42.6, 50.9, OHNAHRAN_PLAINS },
