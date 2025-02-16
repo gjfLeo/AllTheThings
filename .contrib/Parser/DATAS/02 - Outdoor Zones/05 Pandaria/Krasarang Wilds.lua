@@ -1193,7 +1193,7 @@ root(ROOTS.Zones, {
 								q(32451, {	-- Send A Message
 									["provider"] = { "n", 68908 },	-- Amber Kearnen
 									["isDaily"] = true,
-									["coord"] = { 94.7, 28.3, KRASARANG_WILDS },
+									["coord"] = { 89.8, 32.4, KRASARANG_WILDS },
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(32417, {	-- Sewer Cleaning

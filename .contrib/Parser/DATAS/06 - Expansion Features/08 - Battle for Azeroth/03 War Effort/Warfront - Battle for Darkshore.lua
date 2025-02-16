@@ -815,23 +815,27 @@ root(ROOTS.ExpansionFeatures,
 									["races"] = HORDE_ONLY,
 								}),
 							}),
-							n(QUESTS, {	-- Questlines (A)
+							n(QUESTS, {	-- Questlines
 								q(54050, {	-- Aftermath
 									["provider"] = { "n", 146601 },	-- Sira Moonwarden
+									["coord"] = { 54.6, 20.8, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54049,	-- The Dead of Night
 									["g"] = {
 										i(166678),	-- Brynja's Beacon (TOY!)
 									},
 								}),
-								q(54006, {	-- A New Hope
+								q(54006, {	-- A New Hope (A)
 									["provider"] = { "n", 149418 },	-- Maiev Shadowsong
+									["races"] = ALLIANCE_ONLY,
+									["sourceQuest"] = 54871,	-- We Are Coming
 									["g"] = {
 										i(166525),	-- Nightwreathed Egg
 									},
 								}),
 								q(54044, {	-- Black Moon Rising
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["coord"] = { 53.6, 20.4, 1333 },
 									["sourceQuest"] = 54042,	-- Trouble in Darkshore
 									["races"] = HORDE_ONLY,
 								}),
@@ -847,6 +851,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54043, {	-- Dark Ranger Round-Up
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54042,	-- Trouble in Darkshore
 									["g"] = {
@@ -855,6 +860,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54045, {	-- Quit Vining!
 									["provider"] = { "n", 146325 },	-- Shredmaster Blix
+									["coord"] = { 54.6, 21.9, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54042,	-- Trouble in Darkshore
 								}),
@@ -881,17 +887,20 @@ root(ROOTS.ExpansionFeatures,
 									["provider"] = { "n", 149411 },	-- Dark Ranger Velonara
 								}),
 								q(54049, {	-- The Dead of Night
-									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["provider"] = { "n", 147187 },	-- Nathanos Blightcaller
+									["coord"] = { 47.8, 21.2, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54047,	-- Where Hope Dies
 								}),
 								q(54059, {	-- The Night Warrior
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54046,	-- We're Not Out of the Woods Yet
 								}),
 								q(54416, {	-- Warfront Preparations
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["coord"] = { 51.7, 21.6, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54050,	-- Aftermath
 								}),
@@ -902,6 +911,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54047, {	-- Where Hope Dies
 									["provider"] = { "n", 146323 },	-- Nathanos Blightcaller
+									["coord"] = { 53.6, 20.4, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54059,	-- The Night Warrior
 								}),
@@ -989,20 +999,26 @@ root(ROOTS.ExpansionFeatures,
 								-- Horde Quests
 								q(54652, {	-- The War Chest (H)
 									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1203 },
+									["coord"] = { 51.4, 56.2, 1332 },
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54654, {	-- An Explosive Situation
 									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1203 },
+									["coord"] = { 51.4, 56.2, 1332 },
 									["sourceQuest"] = 54652,	-- The War Chest (H)
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
+									["g"] = {
+										o(317402, {	-- Goblin Explosives
+											["coord"] = { 52.6, 56.4, 1332 },
+											["g"] = { i(166773) },	-- Goblin Explosives (QI!)
+										}),
+									},
 								}),
 								q(54655, {	-- Lumbering Along
 									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1203 },
+									["coord"] = { 51.4, 56.2, 1332 },
 									["sourceQuest"] = 54652,	-- The War Chest (H)
 									["races"] = HORDE_ONLY,
 									["lvl"] = 50,
@@ -1013,7 +1029,7 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(54656, {	-- Darkshore Recruits (H)
 									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1203 },
+									["coord"] = { 51.4, 56.2, 1332 },
 									["sourceQuests"] = {
 										54654,	-- An Explosive Situation
 										54655,	-- Lumbering Along
@@ -1022,29 +1038,29 @@ root(ROOTS.ExpansionFeatures,
 									["lvl"] = 120,
 								}),
 								q(54657, {	-- Arms and Armor
-									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1203 },
+									["provider"] = { "n", 148482 },	-- Apothecary Keever
+									["coord"] = { 51.8, 58, 1332 },
 									["sourceQuest"] = 54656,	-- Darkshore Recruits (H)
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54658, {	-- The Altar of Storms
-									["provider"] = { "n", 148479 },	-- Dark Ranger Velonara
-									["coord"] = { 51.4, 56.2, 1203 },
-									["sourceQuest"] = 54656,	-- Darkshore Recruits (H)
+									["provider"] = { "n", 148482 },	-- Apothecary Keever
+									["coord"] = { 51.8, 58, 1332 },
+									["sourceQuest"] = 54657,	-- Arms and Armor (H)
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54659, {	-- An Alchemist for Everything
 									["provider"] = { "n", 148478 },	-- Apothecary Zinge
-									["coord"] = { 52.0, 59.0, 1203 },
+									["coord"] = { 52.0, 59.0, 1332 },
 									["sourceQuest"] = 54656,	-- Darkshore Recruits (H)
 									["races"] = HORDE_ONLY,
 									["lvl"] = 120,
 								}),
 								q(54660, {	-- Throwing Blight
 									["provider"] = { "n", 146590 },	-- Master Apothecary Faranell
-									["coord"] = { 51.6, 58.0, 1203 },
+									["coord"] = { 51.7, 58.0, 1332 },
 									["sourceQuests"] = {
 										54658,	-- The Altar of Storms
 										54659,	-- An Alchemist for Everything
