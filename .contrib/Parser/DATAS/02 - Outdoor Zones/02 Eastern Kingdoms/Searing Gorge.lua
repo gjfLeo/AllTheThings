@@ -890,6 +890,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(28514, {	-- Mouton Flamestar (A)
 					["qg"] = 14625,	-- Overseer Oilfist
 					["coord"] = { 38.1, 27.0, SEARING_GORGE },
+					["maps"] = { BURNING_STEPPES },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -897,6 +898,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(28515, {	-- Mouton Flamestar (H)
 					["qg"] = 14625,	-- Overseer Oilfist
 					["coord"] = { 38.1, 27.0, SEARING_GORGE },
+					["maps"] = { BURNING_STEPPES },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,

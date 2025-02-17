@@ -394,6 +394,10 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							["g"] = {
 								ach(13624, {	-- Keep DPS-ing and Nobody Explodes
 									i(168830),	-- Aerial Unit R-21/X (MOUNT!)
+									i(169003),	-- Apogee Inventor's Goggles
+									i(169006),	-- Inventor's Ingenious Trifocals
+									i(169005),	-- Mekgineer's Mindbending Headgear
+									i(169004),	-- Psychogenic Prognosticator's Lenses
 								}),
 								ach(13893),	-- Operation: Mechagon Guild Run
 								i(169378),	-- Golden Snorf (PET!)
@@ -405,10 +409,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 								i(168748),	-- Performant Refined Logic Board
 								i(169774),	-- Progression Sprocket
 								i(167556),	-- Subroutine: Overclock
-								i(169003),	-- Apogee Inventor's Goggles
-								i(169006),	-- Inventor's Ingenious Trifocals
-								i(169005),	-- Mekgineer's Mindbending Headgear
-								i(169004),	-- Psychogenic Prognosticator's Lenses
 								i(168984),	-- Extravagant Epaulets
 								i(168987),	-- Shoulderguards of Fraying Sanity
 								i(168981),	-- Circuit-Linked Chainmail

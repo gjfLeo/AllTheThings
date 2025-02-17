@@ -818,6 +818,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(28172, {	-- Done Nothing Wrong (A)
 					["qg"] = 47779,	-- Mouton Flamestar
+					["sourceQuest"] = 28514,	-- Mouton Flamestar (A)
 					["coord"] = { 16.9, 51.3, BURNING_STEPPES },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
@@ -859,6 +860,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(28417, {	-- Done Nothing Wrong (H)
 					["qg"] = 47779,	-- Mouton Flamestar
+					["sourceQuest"] = 28515,	-- Mouton Flamestar (H)
 					["coord"] = { 16.9, 51.3, BURNING_STEPPES },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
