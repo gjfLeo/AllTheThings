@@ -299,6 +299,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(159082),	-- Fallen Nation Recurve
 					i(159081),	-- Fallen Nation Carver
 					i(159086),	-- Corrupted Tribe Headsmasher
+					i(161299, {	-- Stoat-Trapper's Bladefist
+						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
+					}),
 				},
 			}),
 			q(49938, {	-- Corrupted Earth
@@ -473,7 +476,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(156522),	-- Keeper Bolcan's Core (QI!)
-					i(156521),	-- Keeper Shavras's Core (QI!)
+					o(281417, {	-- Keeper Shavras's Core
+						["coord"] = { 69.3, 39.8, NAZMIR },
+						["g"] = { i(156521) },	-- Keeper Shavras's Core (QI!)
+					}),
 				},
 			}),
 			q(48855, {	-- Humbling the Terrors
@@ -506,6 +512,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
 					}),
 					i(158634, {	-- Waycrest Militia Wristguards (confirmed)
+						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
+					}),
+					i(158632, {	-- Banisher Bindings
 						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
 					}),
 				},
@@ -680,6 +689,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(158591, {	-- Waycrest Militia Footguards (confirmed)
 						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
 					}),
+					i(158589, {	-- Banisher Striders
+						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
+					}),
 				},
 			}),
 			q(47264, {	-- Leave None Standing
@@ -748,7 +760,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 56.5, 26.7, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(156568),	-- Damaged Scroll of Fate's Hand (QI!)
+					o(280347, {	-- Scroll of Fate's Hand
+						["coord"] = { 62.3, 24.6, NAZMIR },
+						["g"] = { i(156568) },	-- Damaged Scroll of Fate's Hand (QI!)
+					}),
 					i(160559),	-- Scroll of Purification (QI!)
 				},
 			}),
@@ -1076,7 +1091,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 67.4, 41.9, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(156593),	-- Damaged Core (QI!)
+					o(280480, {	-- Damaged Core
+						["coord"] = { 66.9, 38.8, NAZMIR },
+						["g"] = { i(156593) },	-- Damaged Core (QI!)
+					}),
 				},
 			}),
 			q(48699, {	-- Sneaking into Zalamar
@@ -1189,6 +1207,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
 					}),
 					i(158622, {	-- Waycrest Militia Buckle (confirmed)
+						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
+					}),
+					i(158620, {	-- Banisher Waistwrap
 						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
 					}),
 				},

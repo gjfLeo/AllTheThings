@@ -65,10 +65,10 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(155470),	-- Banisher Headcover
 					i(155472),	-- Banisher Shoulderguards
 					i(155473),	-- Banisher Cinch
-					i(158589),	-- Banisher Striders
+					-- i(158589),	-- Banisher Striders
 					i(158604),	-- Banisher Mitts
-					i(158620),	-- Banisher Waistwrap
-					i(158632),	-- Banisher Bindings
+					-- i(158620),	-- Banisher Waistwrap
+					-- i(158632),	-- Banisher Bindings
 					i(160198),	-- Banisher Britches
 					i(160863),	-- Banisher Mantle
 					i(160867),	-- Banisher Hood
@@ -405,7 +405,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(155581),	-- Scalawag's Warglaive
 				i(158505),	-- Scalawag's Sail Slicer
 				i(158507),	-- Scalawag's Spikefist
-				i(161299),	-- Stoat-Trapper's Bladefist
+				-- i(161299),	-- Stoat-Trapper's Bladefist
 				-- i(161300),	-- Stoat-Trapper's Striker
 				i(158510),	-- Repurposed Dinghy Anchor
 				i(158518),	-- Harbormaster's Lantern

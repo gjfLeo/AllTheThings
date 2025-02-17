@@ -175,7 +175,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(151040),	-- Chunky Meat (QI!)
-					i(157841),	-- Prime Raptor Egg (QI!)
+					o(281469, {	-- Raptor's Eggs
+						i(157841),	-- Prime Raptor Egg (QI!)
+					}),
 				},
 			}),
 			q(50507),	-- Krubbs

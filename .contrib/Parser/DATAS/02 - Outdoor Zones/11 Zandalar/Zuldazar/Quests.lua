@@ -344,7 +344,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 66.7, 42.7, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(162586),	-- Crown of Torcali (QI!)
+					o(293960, {	-- Crown of Torcali
+						["coord"] = { 70.5, 34.6, ZULDAZAR },
+						["g"] = { i(162586) },	-- Crown of Torcali (QI!)
+					}),
 					i(162587),	-- Dustwing Incandescence (QI!)
 				},
 			}),
