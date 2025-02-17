@@ -532,7 +532,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			--q(79466),	-- [DNT] Renown Reward 004
 		}),
 	})),
-	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, { -- TODO REMOVED_11_1_0
 		n(PLUNDERSTORM, {
 			q(86212),	-- Purchased Swabbie's Shovel
 			q(86213),	-- Purchased Swabbie's Oar
@@ -545,6 +545,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(86229),	-- Purchased First Mate's Dashing Headgear
 			q(86231),	-- Purchased Plunderlord's Stormridden Tricorne
 			q(86232),	-- Purchased Plunderlord's Old Eye Patch
+			q(86233),	-- Purchased Plunderlord's Old Hat
 			q(86236),	-- Purchased Plunderlord's Stormridden Spaulders
 			q(86241),	-- Purchased Plunderlord's Stormridden Drapery
 			q(86244),	-- Purchased Plunderlord's Stormridden Waistcoat
