@@ -113,24 +113,24 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(160881),	-- Tidespeaker Robes
 				}),
 				filter(LEATHER, {
-					i(158694),	-- Darkwater Grips
-					i(158706),	-- Darkwater Trousers
+					--i(158694),	-- Darkwater Grips
+					-- i(158706),	-- Darkwater Trousers
 					i(160236),	-- Darkwater Chestpiece
 					i(160237),	-- Darkwater Headcover
 					i(160238),	-- Darkwater Mantle
 					i(160375),	-- Darkwater Waistwrap
-					i(160388),	-- Darkwater Bands
+					-- i(160388),	-- Darkwater Bands
 					i(160874),	-- Darkwater Cowl
 					i(160882),	-- Darkwater Jerkin
 				}),
 				filter(MAIL, {
-					i(158697),	-- Stormchaser Grips
+					--i(158697),	-- Stormchaser Grips
 					--i(158705),	-- Stormchaser Links
 					i(160239),	-- Stormchaser Chestguard
 					i(160240),	-- Stormchaser Skullcover
 					i(160241),	-- Stormchaser Spaulders
 					i(160378),	-- Stormchaser Clutch
-					i(160391),	-- Stormchaser Coils
+					-- i(160391),	-- Stormchaser Coils
 					i(160875),	-- Stormchaser Helm
 					i(160883),	-- Stormchaser Hauberk
 				}),
@@ -406,20 +406,20 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(158505),	-- Scalawag's Sail Slicer
 				i(158507),	-- Scalawag's Spikefist
 				i(161299),	-- Stoat-Trapper's Bladefist
-				i(161300),	-- Stoat-Trapper's Striker
+				-- i(161300),	-- Stoat-Trapper's Striker
 				i(158510),	-- Repurposed Dinghy Anchor
 				i(158518),	-- Harbormaster's Lantern
 				i(159079),	-- Captivating Glowfly Lantern
 				i(161290),	-- Grimestone Greatmace
-				i(161292),	-- Grimestone Spellmaul
+				-- i(161292),	-- Grimestone Spellmaul
 				i(158579),	-- Scalawag's Warglaive
 				i(153400),	-- Scalawag's Bolt-Thrower
 				i(158503),	-- Scalawag's Bolt Thrower
 				i(161933),	-- Manual of Reverse Wounding
 				i(158508),	-- Scalawag's Cutlass
-				i(161305),	-- Ashvane Captain's Shortsword
-				i(161308),	-- Ashvane Captain's Quickblade
-				i(161309),	-- Ashvane Captain's Gladius
+				-- i(161305),	-- Ashvane Captain's Shortsword
+				-- i(161308),	-- Ashvane Captain's Quickblade
+				-- i(161309),	-- Ashvane Captain's Gladius
 				i(158504),	-- Whaler's Pike
 				i(153401),	-- Whaler's Pike
 				i(158509),	-- Tideshaper Staff

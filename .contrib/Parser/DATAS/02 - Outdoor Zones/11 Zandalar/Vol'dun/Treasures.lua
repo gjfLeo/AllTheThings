@@ -8,7 +8,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			o(280951, {	-- Ashvane Spoils
 				["description"] = "Hop into the mine cart to pick up the chest at the end of the tracks.",
 				["questID"] = 50237,
-				["coord"] = { 46.6, 88.0, VOLDUN },
+				["coords"] = {
+					{ 46.6, 88.0, VOLDUN },
+					{ 44.4, 92.2, VOLDUN },
+				},
 				["cr"] = 132662,	-- Mine Cart
 			}),
 			o(296579, {	-- Brian's Broken Compass
