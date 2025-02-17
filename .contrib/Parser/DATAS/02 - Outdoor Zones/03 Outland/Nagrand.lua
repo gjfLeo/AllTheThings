@@ -1181,17 +1181,22 @@ root(ROOTS.Zones, {
 					{
 						["allianceQuestData"] = q(9871, {	-- Murkblood Invaders (A)
 							["provider"] = { "i", 24559 },	-- Murkblood Invasion Plans (QI!)
+							-- #IF BEFORE 11.0.7
 							-- Alliance version reported as being available normally even on max lvl @ Honored
 							["lockCriteria"] = { 1, "factionID", FACTION_KURENAI + 0.7 },	-- Revered Kurenai (guessed)
+							-- #ENDIF
 						}),
 						["hordeQuestData"] = q(9872, {	-- Murkblood Invaders (H)
 							["provider"] = { "i", 24558 },	-- Murkblood Invasion Plans (QI!)
+							-- #IF BEFORE 11.0.7
 							["lockCriteria"] = { 1,
 								"factionID", FACTION_THE_MAGHAR + 0.6,	-- Honored Mag'har (guessed)
 								"lvl", 50,	-- Level 50 character (guessed)
 							},
 							-- Runaway - N-A: L70/HONORED | L80/NEUTRAL | L70/NEUTRAL | L55/NEUTRAL
-							-- Runaway - A  : L30/UNFRIENDLY
+							-- Runaway - A  : L30/UNFRIENDLY | L76/NEUTRAL (20250216)
+							-- Discord - A  : L80/EXALTED (20250215)
+							-- #ENDIF
 						}),
 						["isBreadcrumb"] = true,
 						["DisablePartySync"] = true,
