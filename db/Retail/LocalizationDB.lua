@@ -12769,7 +12769,7 @@ local phases = {
 	},
 	[3] = {
 		name = "Real Money",
-		description = "|cFFAAFFAAThis Thing is locked behind a paywall which requires Blizzard Balance or Real Money.|r",
+		description = "|cFFAAFFAAThis Thing is locked behind a paywall which requires Battle.net Balance or Real Money.|r",
 		lore = "|cFFFFAAAAThe act of encouraging the use of real money in any version of the game is widely frowned upon. Participate in this content at your own risk.|r",
 		state = 3,
 	},
@@ -20740,6 +20740,10 @@ localize(ObjectNames, {
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Freudenfeuer der Allianz"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Eimer mit Süßigkeiten"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Freudenfeuer der Horde"; end
+for key,value in pairs({
+	[3] = "Battle.net-Guthaben",
+})
+do phases[key].name = value; end
 end
 if simplifiedLocale == "fr" then
 localize(L.HEADER_NAMES, {
@@ -25053,6 +25057,10 @@ localize(ObjectNames, {
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Feu de joie de l'Alliance"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Seau de bonbons"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Feu de joie de la Horde"; end
+for key,value in pairs({
+	[3] = "Porte-monnaie Battle.net",
+})
+do phases[key].name = value; end
 end
 if simplifiedLocale == "it" then
 localize(L.HEADER_NAMES, {
@@ -28891,6 +28899,10 @@ localize(ObjectNames, {
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Alleanza"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Secchio delle Caramelle"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Orda"; end
+for key,value in pairs({
+	[3] = "Saldo Battle.net",
+})
+do phases[key].name = value; end
 end
 if simplifiedLocale == "pt" then
 localize(L.HEADER_NAMES, {
@@ -32993,6 +33005,10 @@ localize(ObjectNames, {
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Fogueira da Aliança"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Balde de Balas"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Fogueira da Horda"; end
+for key,value in pairs({
+	[3] = "Saldo Battle.net",
+})
+do phases[key].name = value; end
 end
 if simplifiedLocale == "ru" then
 localize(L.HEADER_NAMES, {
@@ -37404,7 +37420,7 @@ for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Больш�
 for key,value in pairs({
 	[1] = "Никогда Не Доступны [NYI]",
 	[2] = "Убраны Из Игры",
-	[3] = "Кошелек Blizzard",
+	[3] = "Кошелек Battle.net",
 	[4] = "ПвП Элита / Гладиатор",
 	[5] = "Неизучаемые",
 	[6] = "Требуются предметы для призыва",
@@ -41208,6 +41224,10 @@ localize(ObjectNames, {
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "얼라이언스 화톳불"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "사탕 바구니"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "호드 화톳불"; end
+for key,value in pairs({
+	[3] = "배틀코인",
+})
+do phases[key].name = value; end
 end
 if simplifiedLocale == "es" then
 localize(L.HEADER_NAMES, {
@@ -45313,6 +45333,10 @@ localize(ObjectNames, {
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Fogata de la Alianza"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Cubo de caramelos"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Fogata de la Horda"; end
+for key,value in pairs({
+	[3] = "Saldo de Battle.net",
+})
+do phases[key].name = value; end
 if GetLocale():sub(3,4):lower() == "mx" then
 localize(L.HEADER_NAMES, {
 	[-1001045] = "Atención a invitados",
@@ -49369,6 +49393,7 @@ for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "部落篝�
 for key,value in pairs({
 	[1] = "从未实施 [NYI]",
 	[2] = "从游戏中移除",
+	[3] = "战网点数",
 	[4] = "PvP 精良/角斗士",
 	[5] = "不可学",
 	[6] = "需要召唤物品",
@@ -49624,7 +49649,7 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; 
 for key,value in pairs({
 	[1] = "從未實裝 [NYI]",
 	[2] = "已從遊戲中移除",
-	[3] = "暴雪點數",
+	[3] = "Battle.net 點數",
 	[4] = "PvP 精良/鬥士",
 	[5] = "不可學",
 	[6] = "需要召喚物品",
