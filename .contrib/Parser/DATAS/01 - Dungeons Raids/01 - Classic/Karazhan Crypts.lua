@@ -151,71 +151,70 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["lvl"] = 60,
 				}),
 			}),
-			n(COMMON_BOSS_DROPS, {	-- Common Boss Drops
-				i(226404),	-- Tarnished Undermine Real
-				i(238681, {	-- Dusty Bag
-					i(22484),	-- Necrotic Rune
-				}),
-			}),
-			n(APPRENTICE , {	-- Apprentice
+			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownSelf({ ["description"] = "[TBC]\nIf the boss loot that is not in the boss's loot table, @NORPG on Discord."}, {
 				n(COMMON_BOSS_DROPS, {	-- Common Boss Drops
-					i(235894),	-- Doomsayer's Demise
-					i(235880),	-- Pauper Soles
-					i(235879),	-- Nimble Links
-					i(235873),	-- Crypt's Keepers
-				}),
-				n(238233, {	-- Kaigy Maryla <The Failed Apprentice>
-					i(235886),	-- Kaigy's Clasp
-				}),
-				n(238213, {	-- Sairuh Maryla <The Failed Apprentice>
-					i(236782),	-- Sairuh's Collar
-				}),
-				n(238234, {	-- Barian Maryla <The Failed Apprentice>
-					i(235887),	-- Barian's Choker
-				}),
-			}),
-			n(OPERA_OF_MALEDICTION, {	-- Opera of Malediction
-				i(235889),	-- Servant's Quarterstaff
-				i(235883),	-- Well Diver's Stumble
-				i(235878),	-- Malefic Belt
-				i(235893),	-- Shadowbound Grimoire
-			}),
-			n(238024, {	-- Creeping Malison	(5)
-				i(235888),	-- Clobberclub
-				i(235881),	-- Dreaded Treaders
-				i(235885),	-- Ghastly Ring
-				i(235884),	-- Spectral Signet
-			}),
-			n(237964, {	-- Harbinger of Sin	(0)
-				i(235891),	-- Ol' Reliable
-				i(235890),	-- Shadow Weaver's Needle
-				i(235869),	-- The Master's Cowl
-				i(235882),	-- Clattering Steps
-			}),
-			n(237439, {	-- Kharon			(2)
-				["description"] = "Kharon's loots are special, as it will loot an item from the loot table of all dungeon bosses, including the Opera, plus Kharon's own loots.\nKharon's exclusive loot is ilv86, which has an additional random 1 of 6 Enchantments",
-				["groups"] = {
-					-- Unconfirmed Drop:
-					i(235870, {	-- Rattlechain Helm (?)
-						["description"] = "[TBC]\nIf you loot this item excluding Kharon, @NORPG on Discord.",
+					i(226404),	-- Tarnished Undermine Real
+					i(238681, {	-- Dusty Bag
+						i(22484),	-- Necrotic Rune
 					}),
-					i(235874),	-- Cultist's Handwraps
-					i(236642),	-- Mender's Handwraps
-					i(235875),	-- Gravedigger's Gloves
-					i(235876),	-- Sinner's Handguards
-					i(235877),	-- Fanatic's Gauntlets
-					i(236645),	-- Lightwielder's Gauntlets
-					i(236643),	-- Nightwatcher's Gloves
-					i(236644),	-- Mourner's Handguards
-				},
-			}),
-			n(238365, {	-- Dark Rider		(4)
-				i(235892),	-- Darkrider's Spine
-				i(235868),	-- Bulwark of Ire
-				i(235872),	-- Stalker's Bands
-				i(235871),	-- Clutching Death Helm
-			}),
-			n(238678),	-- Unk'omon <The Winged Sorrow>	(6)
+				}),
+				n(APPRENTICE , {	-- Apprentice
+					n(COMMON_BOSS_DROPS, {	-- Common Boss Drops
+						i(235894),	-- Doomsayer's Demise
+						i(235880),	-- Pauper Soles
+						i(235879),	-- Nimble Links
+						i(235873),	-- Crypt's Keepers
+					}),
+					n(238233, {	-- Kaigy Maryla <The Failed Apprentice>
+						i(235886),	-- Kaigy's Clasp
+					}),
+					n(238213, {	-- Sairuh Maryla <The Failed Apprentice>
+						i(236782),	-- Sairuh's Collar
+					}),
+					n(238234, {	-- Barian Maryla <The Failed Apprentice>
+						i(235887),	-- Barian's Choker
+					}),
+				}),
+				n(OPERA_OF_MALEDICTION, {	-- Opera of Malediction
+					i(235889),	-- Servant's Quarterstaff
+					i(235883),	-- Well Diver's Stumble
+					i(235878),	-- Malefic Belt
+					i(235893),	-- Shadowbound Grimoire
+					i(235870),	-- Rattlechain Helm
+				}),
+				n(238024, {	-- Creeping Malison	(5)
+					i(235888),	-- Clobberclub
+					i(235881),	-- Dreaded Treaders
+					i(235885),	-- Ghastly Ring
+					i(235884),	-- Spectral Signet
+				}),
+				n(237964, {	-- Harbinger of Sin	(0)
+					i(235891),	-- Ol' Reliable
+					i(235890),	-- Shadow Weaver's Needle
+					i(235869),	-- The Master's Cowl
+					i(235882),	-- Clattering Steps
+				}),
+				n(237439, {	-- Kharon			(2)
+					["description"] = "Kharon's loots are special, as it will loot an item from the loot table of all dungeon bosses, including the Opera, plus Kharon's own loots.\nKharon's exclusive loot is ilv86, which has an additional random 1 of 6 Enchantments",
+					["groups"] = {
+						i(235874),	-- Cultist's Handwraps
+						i(236642),	-- Mender's Handwraps
+						i(235875),	-- Gravedigger's Gloves
+						i(235876),	-- Sinner's Handguards
+						i(235877),	-- Fanatic's Gauntlets
+						i(236645),	-- Lightwielder's Gauntlets
+						i(236643),	-- Nightwatcher's Gloves
+						i(236644),	-- Mourner's Handguards
+					},
+				}),
+				n(238365, {	-- Dark Rider		(4)
+					i(235892),	-- Darkrider's Spine
+					i(235868),	-- Bulwark of Ire
+					i(235872),	-- Stalker's Bands
+					i(235871),	-- Clutching Death Helm
+				}),
+				n(238678),	-- Unk'omon <The Winged Sorrow>	(6)
+			})),
 		},
 	}))),
 }));
