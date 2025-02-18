@@ -164,6 +164,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							i(33993, {	-- Mojo (PET!)
 								["timeline"] = { ADDED_2_3_0 },
 							}),
+							i(33931),	-- Amani Charm of Mighty Mojo
+							i(33930),	-- Amani Charm of the Bloodletter
+							i(33933),	-- Amani Charm of the Raging Defender
+							i(33932),	-- Amani Charm of the Witch Doctor
 							ach(5761, {	-- Hex Mix
 								crit(16836, {	-- Rosa saved.
 									["provider"] = { "n", 52905 },	-- Rosa

@@ -1,26 +1,6 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-local AMANI_HEX_STICK = i(33865, {	-- Amani Hex Stick
-	-- #if BEFORE CATA
-	["description"] = "WARNING: This will despawn if you leave the instance!",
-	-- #endif
-});
-local EXECUTIONER_RECIPE = i(33307);	-- Formula: Enchant Weapon - Executioner (RECIPE!)
-local MOJO_PET = i(33993);	-- Mojo (PET!)
-local FOREST_FROG = n(24396, {	-- Forest Frog
-	["description"] = "Use an Amani Hex Stick on a Forest Frog for a chance to have Mojo spawn and hop into your bags.",
-	["cost"] = {
-		{ "i", 33865, 1 },	-- Amani Hex Stick
-	},
-	["groups"] = {
-		MOJO_PET,
-		i(33931),	-- Amani Charm of Mighty Mojo
-		i(33930),	-- Amani Charm of the Bloodletter
-		i(33933),	-- Amani Charm of the Raging Defender
-		i(33932),	-- Amani Charm of the Witch Doctor
-	},
-});
 root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR, {
 	inst(77, bubbleDownSelf({ ["timeline"] = { ADDED_2_3_0, REMOVED_4_1_0 } }, {	-- Zul'Aman
 		["lore"] = "When the high elves were first exiled and landed in Lordaeron, they met violent clashes with the forest trolls, who viewed them as defiling their homeland. At the time of the founding of Quel'Thalas, the Amani Empire was the most powerful empire in the Eastern Kingdoms; they still held much of northern Lordaeron in their territorial grasp.\n\nEventually, the high elves joined with the humans of Arathor and defeated the forest trolls in an immense battle that signaled the end of the forest trolls' empire. The Amani would never recover enough to extend their land beyond their home province of Zul'Aman, but they continued to be an enemy of humans and elves for thousands of years.\n\nZul'jin, planning to take revenge against Quel'Thalas, saw the opportunity when most of the blood elves and Horde were busy fighting on Outland. He had his champions harness the power of the loa with the help of the cunning Hex Lord Malacrass.",
@@ -170,12 +150,28 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 					}),
 				}),
 				n(ZONE_DROPS, {
-					AMANI_HEX_STICK,
+					i(33865, {	-- Amani Hex Stick
+						-- #if BEFORE CATA
+						["description"] = "WARNING: This will despawn if you leave the instance!",
+						-- #endif
+					}),
 				}),
 				n(COMMON_BOSS_DROPS, {
-					EXECUTIONER_RECIPE,
+					i(33307),	-- Formula: Enchant Weapon - Executioner (RECIPE!)
 				}),
-				FOREST_FROG,
+				n(24396, {	-- Forest Frog
+					["description"] = "Use an Amani Hex Stick on a Forest Frog for a chance to have Mojo spawn and hop into your bags.",
+					["cost"] = {
+						{ "i", 33865, 1 },	-- Amani Hex Stick
+					},
+					["groups"] = {
+						i(33993),	-- Mojo (PET!)
+						i(33931),	-- Amani Charm of Mighty Mojo
+						i(33930),	-- Amani Charm of the Bloodletter
+						i(33933),	-- Amani Charm of the Raging Defender
+						i(33932),	-- Amani Charm of the Witch Doctor
+					},
+				}),
 				n(ZULAMAN_TIMED_EVENT, {
 					["description"] = "The event starts as soon as you open the gate. You now have 20 minutes to defeat the first animal-boss of your choice. Any of the loa spirit bosses will do and there is no required order, however killing Nalorakk will add 15 minutes and killing Akil'zon will add an additional 10 minutes to your timer. This is generally why players kill these two bosses first.\n\nThe loot from the event is dependent on the number of hostages you rescue, not which chest you loot first.",
 					["groups"] = {
@@ -336,13 +332,5 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FOUR,
 	})),
 })));
 
--- These are still used in Retail and aren't removed from game.
-AMANI_HEX_STICK.timeline = nil;
---EXECUTIONER_RECIPE.timeline = nil; (Another version of the recipe for retail?)
-FOREST_FROG.timeline = nil;
--- also clean up the children
----@diagnostic disable-next-line: need-check-nil
-for _,item in pairs(FOREST_FROG.groups) do item.timeline = nil; end
-MOJO_PET.timeline = nil;
 -- We don't want to apply a phase ID for this in this raid, that will be done elsewhere.
 BADGE_OF_JUSTICE.timeline = nil;
