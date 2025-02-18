@@ -55,16 +55,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				icon = 237588,
 				text = {
 					en = "Blackrock Eruption",
-					--[[
-					es = "",
-					de = "",
-					fr = "",
-					it = "",
-					pt = "",
-					ru = "",
-					ko = "",
-					cn = "",
-					]]--
+					es = "Erupción de Roca Negra",
+					mx = "Erupción de Roca Negra",
+					de = "Ausbruch des Schwarzfels",
+					fr = "Éruption de Blackrock",
+					-- it = "",
+					pt = "Erupção da Rocha Negra",
+					ru = "Извержение Черной горы",
+					ko = "검은바위 분출",
+					cn = "黑石大爆发",
+					tw = "黑石爆發",
 				},
 				description = {
 					en = "This event occurs every 2 hours from Midnight and lasts 60 minutes. While this event is active, Daily Quests will be available in Searing Gorge for the Thorium Brotherhood. Traditionally Thorium Brotherhood can be quite a grind to achieve reputation with so this addition of a Daily Quest Hub will be very welcome.\nWhen the event is active, new NPCs will spawn and some environmental changes will occur to the outside area of Searing Gorge.",
