@@ -1073,16 +1073,15 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 		icon = 134108,
 		text = {
 			en = "Nightmare Incursions",
-			--[[
-			es = "",
-			de = "",
-			fr = "",
-			it = "",
-			pt = "",
-			ru = "",
-			ko = "",
-			]]--
-			cn = "梦魇入侵",
+			es = "Incursiones de la Pesadilla",
+			mx = "Incursiones de pesadilla",
+			de = "Alptraumeinfälle",
+			fr = "Incursions de cauchemar",
+			-- it = "",
+			pt = "Incursões Pesadelares",
+			ru = "Кошмарные вторжения",
+			ko = "악몽 침공지",
+			cn = "梦魇进犯",
 			tw = "夢魘入侵",
 		},
 		description = {
