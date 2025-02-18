@@ -424,6 +424,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 		i(133734),	-- Oodelfjisk
 		i(152912, {	-- Pond Nettle (MOUNT!)
 			["description"] = "Caught in green pools around Antoran Wastes.",
+			["mapID"] = ANTORAN_WASTES,
 			["timeline"] = { ADDED_7_3_0 },
 		}),
 		i(124111),	-- Runescale Koi

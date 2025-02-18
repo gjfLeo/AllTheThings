@@ -195,6 +195,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				--^ seems like currently fire as 79328 instead with name 'Embassies and Envoys', could be horde counter part?
 				q(80538),	-- after turn in questID 79525 (Report to the Councilward), Tracking Quest [DNT] (spellID 441842)
 				q(85940),	-- Entering Dornogal through portal or campaign skip.
+				q(86586),	-- Ask an Oathsworn Peacekeeper "Can you please do that somewhere else?" by the training dummies at the gates of Dornogal.
 				-- Archives
 				q(83450),	-- Play Scene (spellID 455916), after finished Archives weekly (1st week) / unlocked new log entry
 				q(83460),	-- Play Scene (spellID 455918), after finished Archives weekly (2nd week) / unlocked new log entry

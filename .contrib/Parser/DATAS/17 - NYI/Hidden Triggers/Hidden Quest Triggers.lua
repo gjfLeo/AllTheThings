@@ -846,12 +846,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(56890),	-- Theurgist Nitara
 		q(56893),	-- Warlord Zalzjar
 		-- WQs
-		q(57167),	-- Killed Vyz'olgo the Mind-Taker. Probably related to a daily loot flag from the lieutenants
-		q(57166),	-- triggered when completing #55891, "Champion Aldrantiss, Defender of Her Kingdom," in nazjatar
-		q(57165),	-- triggered when completing #55892, "Champion Eldanar, Shield of Her Glory," in nazjatar
-		q(57168),	-- triggered when completing #55889, "Champion Kyx'zhul the Deepspeaker," in nazjatar
-		q(57170),	-- triggered when completing #55888, "Champion Qalina, Spear of Ice," in nazjatar
-		q(57169),	-- triggered when completing WQ to kill Alzana, Arrow of Thunder (not WQ ID)
+
 		-- Various
 		q(55404),	-- Triggered when interacting with the "Deepflame Campfire" in Mezzamere as alliance, but without picking a follower
 		q(57097),	-- ??? Triggered after the cutscene for "Scouting the Palace" in Nazjatar on Alliance
@@ -891,17 +886,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		--	Dungeons
 		q(53623),	-- Battle for Azeroth Dungeon Reward Quest
 		q(57046),	-- Operaton: Mechagon — triggered upon killing King Mechagon for the first time (Heroic).  Could be from killing the boss or from looting the Azerite Essence
-
-		--	Raids
-
-		-- Aqueous Reliquary LootIDs (This is a guess ... have to determine which ID is for which difficulty, - sadidorf)
-		q(56961),	-- Radiance of Azshara Aqueous Reliquary LFR? LootID
-		q(56962),	-- Radiance of Azshara Aqueous Reliquary NHC? LootID
-		q(56964),	-- Radiance of Azshara Aqueous Reliquary HC? LootID
-		q(56965),	-- Queen's Court Aqueous Reliquary LFR? LootID
-		q(56966),	-- Queen's Court Aqueous Reliquary NHC? LootID
-		q(56968),	-- Queen's Court Aqueous Reliquary HC? LootID
-		q(56963),	-- Radiance of Azshara Aqueous Reliquary Mythic? LootID
 
 		-- Azerite essences assembled with Aqueous Reliquary
 		q(56946),	-- Vitality Redistribution Lattice (Rank 1)
@@ -945,57 +929,8 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(59036),	-- Vulpera learning Holy Relic (175160) for Bag of Tricks
 
 		-- Horrific Visions
-		-- Orgrimmar
-		q(58581),	-- first horrific vision cleared as horde
-		q(57039),	-- Valley of Spirits cleansed (Orgrimmar)
-		q(58896),	-- Valley of Spirits cleansed (Orgrimmar) - probably controls activation of the quick-navigation back to the start?
-		q(57029),	-- Valley of Spirits cleansed (Orgrimmar) - probably controls eligibility for looting bonus chest at the end
-		q(57129),	-- Valley of Wisdom cleansed (Orgrimmar)
-		q(57001),	-- Valley of Strength cleansed (Orgrimmar)
-		q(57372),	-- The Drag cleansed (Orgrimmar)
-		q(57028),	-- The Drag cleansed (Orgrimmar) - probably controls eligibility for looting bonus chest at the end
-		q(58577),	-- The Drag cleansed (Orgrimmar) - probably controls activation of the quick-navigation back to the start?
-		q(58895),	-- got this instead of 58577 after clearing The Drag
-		q(58969),	-- horrific vision of orgimmar
-		q(58891),	-- completed a wing
-		q(58580),	-- completed a wing
-		q(58972),	-- completed a wing
-		q(58892),	-- completed a wing
-		q(57031),	-- looted the chest from cleansing Valley of Wisdom at the end of the scenario
-		q(57030),	-- looted the chest from cleansing the Valley of Strength at the end of the scenario
-		q(57027),	-- triggers in the chest room at the end of the Orgrimmar scenario. Doesn't matter if you defeat Thrall or not
-		q(59044),	-- completed all objectives
-		q(58966),	-- triggered after completing all of zek'han's area but before killing the boss. Also triggers in Stormwind in valeria's wing
-		q(58963),	-- triggered while fighting Thrall after two corrupted areas/triggered before boss in The Drag
-		q(58973),	-- triggered after fighting Rexxar
-		-- Stormwind
-		q(58968),	-- 3rd wing clear
-		q(58965),	-- triggered when going to Dwarven District (during the fight with 3 gnomes)
-		q(57153),	-- Dwarven District cleansed (Stormwind)
-		q(58970),	-- triggered when detonating explosives in Dwarven District
-		q(58894),	-- Dwarven District - kill the wing boss. Activates a portal to the cathedral district
-		q(58964),	-- taking portal from Dwarven District back to Cathedral
-		q(57216),	-- Old Town cleansed (Stormwind)
-		q(58967),	-- probably defeating Slavemaster Ul'rok in Trade District
-		q(57271),	-- Trade District cleansed (Stormwind)
-		q(58897),	-- triggered together with 57271
-		q(58890),	-- Dwarven district
-		q(58893),	-- cleared mage quarter
-		q(57282),	-- cleared mage quarter
-		--q(57842),	-- end of vision clear - possibly only triggers when all other wings are cleared?(moved to metadata)
-		-- TODO:: Need to determine the alliance zones for the 4 area chests. They appear to be shared with horde except for the main boss chest
-		q(57360),	-- looted the chest in front of Alleria's image at the end of the scenario. Doesn't matter if you defeat her or not
-		q(58578),	-- looted the chest from cleansing the Dwarven District at the end of the scenario (could possibly be from looting "Spark of Inspiration" Rank 2)
-
 		q(58579),	-- looted the Overflowing Azerite Geode (Rank 1)
 		--q(57845),	-- looted the Water Dancer's Technique (Rank 2) (Possibly only comes from valley of wisdom?)
-		q(58971),	-- killing Mail Muncher
-		--[[
-		q(57845)	-- probably triggers after clearing two corrupted areas + boss
-		58840 - looted the chest in front of zekhan. Torn Page of Compednium, Vol.II and Sparks of Unwavering Strength dropped
-		58581 -- triggered on the first run of the Vision of Orgrimmar after unlocking it, then killing Thrall immediately.
-		Possibly related to Mark of Boistrous Duty (Rank 1) dropping? Torn Page of Compendium, Vol. 1 (item 171353) as well? Need to run a few times to see if this is guaranteed or not
-		]]--
 
 		-- N'Zoth assaults
 		-- TODO: would be nice to have these slowly migrated to actual treasure objects like other zone objects
@@ -1060,12 +995,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(53206),	-- Alliance Arathi Warfront unlock
 		q(53220),	-- Horde Arathi Warfront unlock
 		q(54410),	-- Horde Darkshore Warfront unlock
-
-		--	World Bosses
-		q(58510),	-- Vuk'laz the Earthbreaker first kill??
-		q(58514),	-- Vuk'laz the Earthbreaker bonus roll
-		q(58508),	-- Grand Empress Shek'zara first kill??
-		--q(58770),	-- Grand Empress Shek'zara bonus roll
 	})),
 
 	------------------

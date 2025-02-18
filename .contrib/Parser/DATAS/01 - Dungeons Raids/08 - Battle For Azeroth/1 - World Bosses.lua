@@ -290,6 +290,18 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			q(56899),	-- Wekemara Bonus Roll
 		}),
 	})),
+	m(NZOTH_ASSAULT_ULDUM, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {
+		n(WORLD_BOSSES, {
+			q(58510),	-- Vuk'laz the Earthbreaker first kill??
+			q(58514),	-- Vuk'laz the Earthbreaker bonus roll
+		}),
+	}));
+	m(NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS, bubbleDownSelf({ ["timeline"] = { ADDED_8_3_0 } }, {
+		n(WORLD_BOSSES, {
+			q(58508),	-- Grand Empress Shek'zara first kill??
+			--q(58770),	-- Grand Empress Shek'zara bonus roll
+		}),
+	}));
 	m(ZANDALAR, {
 		m(NAZMIR, {
 			n(WORLD_BOSSES, {

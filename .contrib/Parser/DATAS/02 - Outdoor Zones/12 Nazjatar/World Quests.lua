@@ -325,3 +325,16 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		})),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
+	m(NAZJATAR, {
+		n(WORLD_QUESTS, {
+			q(57167),	-- Killed Vyz'olgo the Mind-Taker. Probably related to a daily loot flag from the lieutenants
+			q(57166),	-- triggered when completing #55891, "Champion Aldrantiss, Defender of Her Kingdom," in nazjatar
+			q(57165),	-- triggered when completing #55892, "Champion Eldanar, Shield of Her Glory," in nazjatar
+			q(57168),	-- triggered when completing #55889, "Champion Kyx'zhul the Deepspeaker," in nazjatar
+			q(57170),	-- triggered when completing #55888, "Champion Qalina, Spear of Ice," in nazjatar
+			q(57169),	-- triggered when completing WQ to kill Alzana, Arrow of Thunder (not WQ ID)
+		}),
+	}),
+})));
