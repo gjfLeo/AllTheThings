@@ -1347,6 +1347,11 @@ local function LockedAsBreadcrumb(t)
 				if IsQuestFlaggedCompleted(nqID) then
 					-- app.PrintDebug("Locked Breadcrumb from",nqID,app:Linkify(questID, app.Colors.ChatLink, "search:questID:" .. questID))
 					LockedBreadcrumbCache[questID] = true
+					if app.AccountWideQuestsDB[nqID] then
+						-- app.PrintDebug("...Also locked Account-Wide")
+						-- this quest is locked by a completed AWQ, so we know it can't be completed on another character either
+						AccountWideLockedQuestsCache[questID] = true
+					end
 					return true;
 				else
 					-- this questID may not even be available to pick up, so try to find a Thing with this questID to determine if the object is complete
@@ -1354,6 +1359,11 @@ local function LockedAsBreadcrumb(t)
 					if nq and (nq.altcollected or nq.locked) then
 						-- app.PrintDebug("Locked Breadcrumb from",nq.hash,app:Linkify(questID, app.Colors.ChatLink, "search:questID:" .. questID))
 						LockedBreadcrumbCache[questID] = true
+						if app.AccountWideQuestsDB[nqID] then
+							-- app.PrintDebug("...Also locked Account-Wide")
+							-- this quest is locked by a completed AWQ, so we know it can't be completed on another character either
+							AccountWideLockedQuestsCache[questID] = true
+						end
 						return true;
 					end
 				end
