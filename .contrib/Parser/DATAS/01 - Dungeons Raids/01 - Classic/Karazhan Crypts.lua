@@ -17,7 +17,7 @@ APPRENTICE = createHeader({
 		tw = "(初級)學徒",
 	},
 	description = {
-		en = "Only 1 of 3 apprentices can be chosen to challenge.",
+		en = "Only 1 of 3 Apprentices can be chosen to challenge.",
 	},
 });
 
@@ -36,7 +36,7 @@ OPERA_OF_MALEDICTION = createHeader({
 		tw = "詛咒歌劇",
 	},
 	description = {
-		en = "1 of 3 Opera will be randomly selected every day.",
+		en = "1 of 3 Operas will be randomly selected every day.",
 	},
 });
 
