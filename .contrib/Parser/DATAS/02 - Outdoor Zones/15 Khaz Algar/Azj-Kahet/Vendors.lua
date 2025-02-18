@@ -146,14 +146,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			n(218199, {	-- Kram'an <Head Clerk>
-				["coord"] = { 49.6, 26.6, AZJ_KAHET },
+				["coord"] = { 49.6, 26.6, NERUBAR },
 				["sym"] = {{"select","itemID",
 					221850,	-- Freshly Webbed Kebab (PET!)
 					223956,	-- Recipe: Everything-on-a-Stick (RECIPE!)
 				}},
 			}),
 			n(218197, {	-- Kurth <Clerk>
-				["coord"] = { 49.0, 26.8, AZJ_KAHET },
+				["coord"] = { 49.0, 26.8, NERUBAR },
 				["sym"] = {{"select","itemID",
 					221850,	-- Freshly Webbed Kebab (PET!)
 					223956,	-- Recipe: Everything-on-a-Stick (RECIPE!)
@@ -324,7 +324,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			n(218209, {	-- Tyro Uwe <Custom Twitchery Goods>
-				["coord"] = { 45.0, 16.7, AZJ_KAHET },
+				["coord"] = { 45.0, 16.7, NERUBAR },
 				["sourceQuests"] = { 78256 },	-- The General Consensus
 				["sym"] = {{"select","itemID",
 					221850,	-- Freshly Webbed Kebab (PET!)
@@ -362,7 +362,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			n(218200, {	-- Yaggi <Sitck Cook>
-				["coord"] = { 49.6, 26.2, AZJ_KAHET },
+				["coord"] = { 49.6, 26.2, NERUBAR },
 				["sym"] = {{"select","itemID",
 					221850,	-- Freshly Webbed Kebab (PET!)
 					223956,	-- Recipe: Everything-on-a-Stick (RECIPE!)
