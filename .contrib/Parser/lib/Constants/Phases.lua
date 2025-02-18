@@ -161,22 +161,19 @@ REAL_MONEY = createPhase({
 	state = 3,
 	text = {
 		en = "Real Money",
-		--[[
-		es = "",
-		de = "",
-		fr = "",
-		it = "",
-		pt = "",
-		]]--
-		ru = "Кошелек Blizzard",
-		--[[
-		ko = "",
-		cn = "",
-		]]--
-		tw = "暴雪點數",
+		es = "Saldo de Battle.net",
+		mx = "Saldo de Battle.net",
+		de = "Battle.net-Guthaben",
+		fr = "Porte-monnaie Battle.net",
+		it = "Saldo Battle.net",
+		pt = "Saldo Battle.net",
+		ru = "Кошелек Battle.net",
+		ko = "배틀코인",
+		cn = "战网点数",
+		tw = "Battle.net 點數",
 	},
 	description = {
-		en = "This Thing is locked behind a paywall which requires Blizzard Balance or Real Money.",
+		en = "This Thing is locked behind a paywall which requires Battle.net Balance or Real Money.",
 		--[[
 		es = "",
 		de = "",
