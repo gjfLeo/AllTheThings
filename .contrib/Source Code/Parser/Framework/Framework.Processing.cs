@@ -1,3 +1,4 @@
+using ATT;
 using ATT.DB;
 using ATT.DB.Types;
 using ATT.FieldTypes;
@@ -569,7 +570,7 @@ namespace ATT
 
                 // Parent field consolidation now that groups have been processed
                 if (CurrentParseStage >= ParseStage.Incorporation)
-                    ConsolidateHeirarchicalFields(data, groups);
+                    HierarchicalFieldAdjustments.Apply(data, groups);
 
                 if (restoreDifficulty)
                 {
@@ -3534,81 +3535,6 @@ namespace ATT
                 {
                     LogWarn($"Trying to Post-Process Merge using a non-numeric key: {dupeGroupID} for type {type}");
                 }
-            }
-        }
-
-        private static void ConsolidateHeirarchicalFields(IDictionary<string, object> parentGroup, List<object> groups)
-        {
-            if ((groups?.Count ?? 0) == 0) return;
-
-            HashSet<object> fieldValues = new HashSet<object>();
-            foreach (KeyValuePair<string, int> fieldAdjustment in HierarchicalFieldAdjustments)
-            {
-                bool cleanParentGroups = fieldAdjustment.Value == 0;
-                bool forcePropogate = fieldAdjustment.Value == 2;
-                bool canConsolidate = true;
-                string field = fieldAdjustment.Key;
-                parentGroup.TryGetValue(field, out object parentVal);
-
-                foreach (object group in groups)
-                {
-                    if (group is IDictionary<string, object> data && data.TryGetValue(field, out object value))
-                    {
-                        fieldValues.Add(value);
-                        if (cleanParentGroups && Equals(parentVal, value))
-                        {
-                            // awp and rwp are spammy
-                            //LogDebug($"INFO: Removed field {field}={parentVal} due to FieldAdjustment {ToJSON(fieldAdjustment)}", parentGroup);
-                            data.Remove(field);
-                        }
-                    }
-                    else if (!forcePropogate)
-                    {
-                        canConsolidate = false;
-                        break;
-                    }
-                }
-
-                // exactly 1 unique value across all groups or forced, then adjust...
-                if (canConsolidate && fieldValues.Count == 1)
-                {
-                    object val = fieldValues.First();
-                    if (parentVal != null && !Equals(parentVal, val))
-                    {
-                        // parent has a different field val, don't touch it
-                        // Crit auto-assign to 3.0.1 in crit() if no timeline
-                        fieldValues.Clear();
-                        continue;
-                    }
-                    switch (fieldAdjustment.Value)
-                    {
-                        // remove from groups and add to parent (Consolidation)
-                        case -1:
-                            parentGroup[field] = val;
-                            foreach (object group in groups)
-                            {
-                                if (group is IDictionary<string, object> data)
-                                {
-                                    if (data.Remove(field))
-                                    {
-                                        LogDebug($"INFO: Removed field {field}={val} due to FieldAdjustment {ToJSON(fieldAdjustment)}", data);
-                                    }
-                                }
-                            }
-                            break;
-                        // only add to parent (Propagation)
-                        case 1:
-                        case 2:
-                            if (!Equals(parentVal, val))
-                            {
-                                LogDebug($"INFO: Set field {field}={val} due to FieldAdjustment {ToJSON(fieldAdjustment)}", parentGroup);
-                                parentGroup[field] = val;
-                            }
-                            break;
-                    }
-                }
-
-                fieldValues.Clear();
             }
         }
 

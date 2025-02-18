@@ -283,57 +283,6 @@ namespace ATT
         /// </summary>
         private static long NestedMinLvl { get; set; } = 1;
 
-        private static Dictionary<string, int> _heirarchicalFieldAdjustments;
-        /// <summary>
-        /// Represents the allowed adjustments for hierarchical fields
-        /// </summary>
-        private static IDictionary<string, int> HierarchicalFieldAdjustments
-        {
-            get
-            {
-                if (_heirarchicalFieldAdjustments != null)
-                {
-                    return _heirarchicalFieldAdjustments;
-                }
-
-                _heirarchicalFieldAdjustments = new Dictionary<string, int>();
-                string[] fields = Config["HierarchicalConsolidationFields"] ?? Array.Empty<string>();
-                foreach (string consolidateField in fields)
-                {
-                    if (!_heirarchicalFieldAdjustments.ContainsKey(consolidateField))
-                    {
-                        _heirarchicalFieldAdjustments.Add(consolidateField, -1);
-                    }
-                }
-                fields = Config["HierarchicalPropagationFields"] ?? Array.Empty<string>();
-                foreach (string propagateField in fields)
-                {
-                    if (!_heirarchicalFieldAdjustments.ContainsKey(propagateField))
-                    {
-                        _heirarchicalFieldAdjustments.Add(propagateField, 1);
-                    }
-                }
-                fields = Config["HierarchicalNonRepeatFields"] ?? Array.Empty<string>();
-                foreach (string propagateField in fields)
-                {
-                    if (!_heirarchicalFieldAdjustments.ContainsKey(propagateField))
-                    {
-                        _heirarchicalFieldAdjustments.Add(propagateField, 0);
-                    }
-                }
-                fields = Config["HierarchicalAnyPropagationFields"] ?? Array.Empty<string>();
-                foreach (string anyPropagateField in fields)
-                {
-                    if (!_heirarchicalFieldAdjustments.ContainsKey(anyPropagateField))
-                    {
-                        _heirarchicalFieldAdjustments.Add(anyPropagateField, 2);
-                    }
-                }
-
-                return _heirarchicalFieldAdjustments;
-            }
-        }
-
         private static HashSet<string> _inhertingFields;
         private static HashSet<string> InheritingFields
         {

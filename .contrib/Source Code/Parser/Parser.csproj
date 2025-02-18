@@ -112,6 +112,7 @@
     <Compile Include="Framework\Framework.Items.cs" />
     <Compile Include="Framework\Framework.cs" />
     <Compile Include="Framework\Framework.Processing.cs" />
+    <Compile Include="Framework\HierarchicalFieldAdjustments.cs" />
     <Compile Include="Harvesters\ObjectHarvester.cs" />
     <Compile Include="Framework\ParseStage.cs" />
     <Compile Include="MiniJSON.cs" />
