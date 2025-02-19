@@ -1075,8 +1075,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 66550,	-- Nicki Tinytech
 				["coords"] = {
 					{ 64.3, 49.3, HELLFIRE_PENINSULA },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.0, 49.5, TANARIS },
+					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1084,8 +1085,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66552 },	-- Narrok <Master Pet Tamer>
 				["coords"] = {
 					{ 61.0, 49.4, NAGRAND },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.0, 49.5, TANARIS },
+					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1101,8 +1103,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66551 },	-- Ras'an <Master Pet Tamer>
 				["coords"] = {
 					{ 17.2, 50.5, ZANGARMARSH },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1110,8 +1113,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66553 },	-- Morulu The Elder
 				["coords"] = {
 					{ 59.0, 70.0, SHATTRATH_CITY },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1121,8 +1125,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66636 },	-- Nearly Headless Jacob
 				["coords"] = {
 					{50.2, 59.0, CRYSTALSONG_FOREST },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1130,8 +1135,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66638 },	-- Okrut Dragonwaste
 				["coords"] = {
 					{ 59.0, 77.0, DRAGONBLIGHT },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1145,8 +1151,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66675 },	-- Major Payne
 				["coords"] = {
 					{ 77.4, 19.6, ICECROWN },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.0, 49.5, TANARIS },
+					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
 				["g"] = {
@@ -1157,8 +1164,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66639 },
 				["coords"] = {
 					{ 13.2, 66.7, ZULDRAK },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.0, 49.5, TANARIS },
+					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1168,8 +1176,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66819 },	-- Brok
 				["coords"] = {
 					{ 61.4, 32.7, MOUNT_HYJAL },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.1, 49.6, TANARIS },
+					--{ 62.1, 49.6, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1177,8 +1186,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66822 },	-- Goz Banefury
 				["coords"] = {
 					{ 56.5, 56.7, TWILIGHT_HIGHLANDS },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.1, 49.6, TANARIS },
+					--{ 62.1, 49.6, TANARIS },
 					-- #endif
 				},
 			}),
@@ -1187,8 +1197,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66824 },	-- Obalis
 				["coords"] = {
 					{ 56.6, 41.8, ULDUM },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 				["g"] = {
@@ -1199,8 +1210,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66815 },	-- Bordin Steadyfist
 				["coords"] = {
 					{ 49.9, 57.1, DEEPHOLM },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 				["repeatable"] = true,
@@ -1234,8 +1246,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			q(31954, {	-- Grand Master Mo'ruk
 				["coords"] = {
 					{ 62.6, 45.8, KRASARANG_WILDS },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.0, 49.5, TANARIS },
+					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
 				["provider"] = { "n", 66733 },
@@ -1246,8 +1259,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			q(31956, {	-- Grand Master Yon
 				["coords"] = {
 					{ 35.8, 73.6, KUN_LAI_SUMMIT },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 				["provider"] = { "n", 66738 },	-- Courageous Yon
@@ -1285,8 +1299,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			q(31953, {	-- Grand Master Hyuna
 				["coords"] = {
 					{ 47.9, 54.1, THE_JADE_FOREST },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 62.0, 49.5, TANARIS },
+					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
 				["provider"] = { "n", 66730 },	-- Hyuna of the Shrines
@@ -1392,8 +1407,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["provider"] = { "n", 66734 },	-- Farmer Nishi
 				["coords"] = {
 					{ 46.0, 43.6, VALLEY_OF_THE_FOUR_WINDS },
+					-- Coords for location in Tanaris during revamped WoW's Anniversary:
 					-- #if AFTER 11.0.5
-					{ 61.9, 49.6, TANARIS },
+					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
 				["g"] = {
@@ -1648,11 +1664,11 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 	-- Lvl 19
 	n(66522, {	-- Lydia Accoste <Grand Master Pet Tamer>
 		["coord"] = { 40.2, 76.6, DEADWIND_PASS },
-		["description"] = "Lydia's pets are level 19 of the following consecutive pet classes:\n1. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n2. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Lydia's pets are level 19 of the following consecutive pet classes:\n1. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n2. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Alpine Chipmunk and Alpine Hare.",
 	}),
 	n(66466, {	-- Stone Cold Trixxy <Grand Master Pet Tamer>
 		["coord"] = { 65.6, 64.6, WINTERSPRING },
-		["description"] = "Trixxy's pets are level 19 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Trixxy's pets are level 19 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Blighted Squarrel and Turkey.",
 	}),
 	-- Outland tamers:
 	-- Lvl 20
@@ -1663,12 +1679,12 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 	-- Lvl 21
 	n(66551, {	-- Ras'an <Master Pet Tamer>
 		["coord"] = { 17.2, 50.6, ZANGARMARSH },
-		["description"] = "Ras'an's pets are level 21 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Humanonoid - use Undead (powerful) or Beast (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Ras'an's pets are level 21 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Humanonoid - use Undead (powerful) or Beast (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Ageless Bronze Drake and Blighted Squirrel.",
 	}),
 	-- Lvl 22
 	n(66552, {	-- Narrok <Master Pet Tamer>
 		["coord"] = { 61.0, 49.4, NAGRAND },
-		["description"] = "Narrok's pets are level 22 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Narrok's pets are level 22 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Anubisath Idol (Demolish/Sandstorm/Deflection) and Turkey (Peck/Squawk/Food Coma).",
 	}),
 	-- Lvl 23
 	n(66553, {	-- Morulu The Elder <Master Pet Tamer>
@@ -1678,29 +1694,42 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 	-- Lvl 24
 	n(66557, {	-- Bloodknight Antari <Grand Master Pet Tamer>
 		["coord"] = { 30.6, 41.8, SHADOWMOON_VALLEY },
-		["description"] = "Antari's pets are level 24 of the following consecutive pet classes:\n1. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n2. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n3. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Antari's pets are level 24 of the following consecutive pet classes:\n1. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n2. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n3. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Crystal Spider (Strike/Brittle Webbing/Leech Life) and Sporeling Sprout (Jab/Leech Seed/Crouch).",
 	}),
 	-- Northrend tamers:
 	-- Lvl 25
 	n(66635, {	-- Beegle Blastfuse <Master Pet Tamer>
 		["coord"] = { 28.6, 33.8, HOWLING_FJORD },
-		["description"] = "Beegle's pets are level 25 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Flying - see above.\n3. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Beegle's pets are level 25 of the following consecutive pet classes:\n1. Flying - use Magic (powerful) or Dragonkin (tanky) pet.\n2. Flying - see above.\n3. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Ageless Bronze Drake (Tail Sweap/Ancient Blessing/Rewind Time) and Abyssius (Crush/Flamethrower/Metero Strike).",
 	}),
 	n(66636, {	-- Nearly Headless Jacob <Master Pet Tamer>
 		["coord"] = { 50.2, 59.0, CRYSTALSONG_FOREST },
-		["description"] = "Jacob's pets are level 25 of the following consecutive pet classes:\n1. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n2. Undead - see above.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Jacob's pets are level 25 of the following consecutive pet classes:\n1. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n2. Undead - see above.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Biletoad (Tongue Lash/Cleansing Rain/Swarm of Flies) and Huge Toad (Tongue Lash/Healing Wave/Swarm of Flies).",
 	}),
 	n(66638, {	-- Okrut Dragonwaste <Master Pet Tamer>
 		["coord"] = { 59.0, 77.0, DRAGONBLIGHT },
-		["description"] = "Okrut's pets are level 25 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Okrut's pets are level 25 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Undead - use Critter (powerful) or Aquatic (tanky) pet.\n3. Undead - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Anubisath Idol (Crush/Deflection) and Alpine Hare (Flurry/Dodge/Burrow).",
 	}),
 	n(66639, {	-- Gutretch <Master Pet Tamer>
 		["coord"] = { 13.2, 66.8, ZULDRAK },
-		["description"] = "Gutretch's pets are level 25 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+		["description"] = "Gutretch's pets are level 25 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Anodized Robo Cub (Demolish/Maul) and Anubisath Idol (Demolish/Sandstorm/Deflection).",
+	}),
+	n(66675, {	-- Major Payne <Grand Master Pet Tamer>
+		["coord"] = { 77.4, 19.56, ICECROWN },
+		["description"] = "Major Payne's pets are level 25 of epic quality and exceptionally powerful of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Mechanical - use Elemental (powerful and tanky) pet.\n3. Elemental - use Aquatic (powerful) or Critter (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets such as Cogblade Raptor (Batter/Overtune/Exposed Wounds) and Flayer Youngling (Blitz/Focus/Kick).",
+	}),
+	-- Darkmoon Faire:
+	n(67370, {	-- Jeremy Feasel <Master Pet Tamer>
+		["coord"] = { 47.0, 62.75, DARKMOON_ISLAND },
+		["description"] = "Jeremy's pets are level 25 of epic quality and exceptionally powerful of the following consecutive pet classes:\n1. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n2. Mechanical - use Elemental (powerful and tanky) pet.\n3. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
+	}),
+	n(67370, {	-- Cristoph VonFeasel <Grand Master Pet Tamer>
+		["coord"] = { 47.3, 62.0, DARKMOON_ISLAND },
+		["description"] = "Cristoph's pets are level 25 of legendary quality and exceptionally powerful of the following consecutive pet classes:\n1. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n2. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n3. Beast - see above.\n\nFor credit towards 'An Awfully Big Adventure', battle with a composition of Elekk Plushie and two strong pets.",
 	}),
 	-- Lvl 25 tamers around the old world added during Legion
 	n(115307, {	-- Algalon the Observer <Celestial Pet Tamer>
 		["coord"] = { 41.5, 24.4, THE_STORM_PEAKS },
-		["description"] = "Algalon's pets are level 25 and exceptionally powerful of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Magic - see above.",
+		["description"] = "Algalon's pets are level 25 of legendary quality and exceptionally powerful of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Magic - see above.",
 	}),
 })));
