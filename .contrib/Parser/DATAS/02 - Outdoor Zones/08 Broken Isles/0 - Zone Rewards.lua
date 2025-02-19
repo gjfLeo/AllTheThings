@@ -109,6 +109,7 @@ root(ROOTS.Zones, {
 				i(141265),	-- Gift of Flame
 				i(143704),	-- Harpybane Fetish
 				i(143686),	-- Hatecoil Badge of Glory
+				i(141266),	-- Manawracked Charm
 				i(141254),	-- Mote of Fear
 				i(143696),	-- Perilous Bargain
 				i(141270),	-- Restless Dreams

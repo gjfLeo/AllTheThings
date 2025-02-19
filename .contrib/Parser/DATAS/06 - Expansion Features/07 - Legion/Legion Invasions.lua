@@ -14,6 +14,7 @@ root(ROOTS.ExpansionFeatures,
 				BROKEN_ISLES,	-- Stormheim Invasion Scenario
 				865,	-- Stormheim Invasion Scenario: Upper Ship Floor
 				866,	-- Stormheim Invasion Scenario: Lower Ship Floor
+				696,	-- Stormheim (scenario)
 			},
 			["questID"] = 47063,	-- Tracking Quest
 			["isWorldQuest"] = true,
