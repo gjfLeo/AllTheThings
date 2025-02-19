@@ -400,6 +400,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 						frags(30, i(71782)),	-- Shatterskull Bonecrusher
 						frags(45, i(71775)),	-- Smoldering Censer of Purity
 						frags(45, i(71780)),	-- Zoid's Firelit Greatsword
+						frags(60, i(71617)),	-- Crystallized Firestone
 						frags(1, currency(3148)),	-- Fissure Stone Fragment
 						frags(1, i(239110, {	-- Commendation of Service
 							currency(395),	-- Justice Points
