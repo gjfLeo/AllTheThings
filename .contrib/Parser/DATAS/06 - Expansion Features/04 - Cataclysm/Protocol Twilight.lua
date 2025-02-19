@@ -150,6 +150,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					i(78872),	-- Leggings of the Corrupted Conqueror
 					i(78873),	-- Leggings of the Corrupted Protector
 					i(78871),	-- Leggings of the Corrupted Vanquisher
+					-- Weapons
+					i(78482),	-- Kiril, Fury of Beasts
+					i(78487),	-- Gurthalak, Voice of the Deeps
+					i(78486),	-- Ti'tahk, the Steps of Time
+					i(78480),	-- Vishanka, Jaws of the Earth
+					i(78485),	-- Maw of the Dragonlord
+					i(78484),	-- Rathrak, the Poisonous Mind
+					i(78483),	-- Blade of the Unmaker
+					i(78481),	-- No'Kaled, the Elements of Death
+					i(78488),	-- Souldrinker
+					-- Necks
+					i(78382),	-- Petrified Fungal Heart
+					-- Rings
+					i(78497),	-- Breathstealer Band
+					i(78440),	-- Curled Twilight Claw
+					i(78498),	-- Hardheart Ring
+					i(78495),	-- Infinite Loop
+					i(78427),	-- Ring of the Raven
+					i(78494),	-- Seal of Primordial Shadow
+					i(78421),	-- Signet of Grasping Mouths
+					i(78496),	-- Signet of Suturing
 				},
 			}),
 			n(REWARDS, {
@@ -339,53 +360,50 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 						frags(30, i(71681)),	-- Mantle of the Fiery Conqueror
 						frags(30, i(71688)),	-- Mantle of the Fiery Protector
 						frags(30, i(71674)),	-- Mantle of the Fiery Vanquisher
-						--[[
-						-- CRIEVE NOTE: All the Firelands gear appears to no longer be on the vendor.
-						-- Heroic Trinkets (Might also be Normal mode instead, but we'll see.)
+						-- Heroic Trinkets
 						frags(80, i(69150)),	-- Matrix Restabilizer [Heroic]
 						frags(80, i(69110)),	-- Variable Pulse Lightning Capacitor [Heroic]
 						frags(80, i(69167)),	-- Vessel of Acceleration [Heroic]
-						frags(80, i(69111)),	-- Jaws of Defeat [Heroic]
-						frags(80, i(69112)),	-- The Hungerer [Heroic]
-						frags(80, i(69149)),	-- Eye of Blazing Power [Heroic]
-						frags(80, i(69138)),	-- Spidersilk Spindle [Heroic]
-						frags(80, i(69109)),	-- Scales of Life [Heroic]
+						frags(70, i(69111)),	-- Jaws of Defeat [Heroic]
+						frags(70, i(69112)),	-- The Hungerer [Heroic]
+						frags(70, i(69149)),	-- Eye of Blazing Power [Heroic]
+						frags(70, i(69138)),	-- Spidersilk Spindle [Heroic]
+						frags(70, i(69109)),	-- Scales of Life [Heroic]
 						-- Normal Difficulty Ragnaros loot
-						frags(50, i(71353)),	-- Arathar, the Eye of Flame
+						frags(70, i(71353)),	-- Arathar, the Eye of Flame
+						--[[
+						-- CRIEVE NOTE: They didn't seem to include this on the vendor.
 						frags(50, i(71356)),	-- Crown of Flame
 						frags(50, i(71354)),	-- Choker of the Vanquished Lord
 						frags(50, i(70921)),	-- Pauldrons of Roaring Flame
 						frags(50, i(71358)),	-- Fingers of Incineration
 						frags(50, i(71357)),	-- Majordomo's Chain of Office
+						]]--
 						-- All Normal Difficulty Firelands Weapons (ilvl 378 and 384)
-						frags(50, i(71798)),	-- Sho'ravon, Greatstaff of Annihilation [384]
-						frags(50, i(71352)),	-- Sulfuras, the Extinguished Hand [384]
+						frags(70, i(71798)),	-- Sho'ravon, Greatstaff of Annihilation [384]
+						frags(70, i(71352)),	-- Sulfuras, the Extinguished Hand [384]
 						frags(50, i(71355)),	-- Ko'gun, Hammer of the Firelord [384]
-						frags(25, i(69897)),	-- Fandral's Flamescythe
-						frags(25, i(71347)),	-- Stinger of the Flaming Scorpion
-						frags(25, i(71312)),	-- Gatecrasher
-						frags(25, i(70915)),	-- Shard of Torment
-						frags(25, i(71323)),	-- Molten Scream
-						frags(25, i(71014)),	-- Skullstealer Greataxe
-						frags(25, i(71013)),	-- Feeding Frenzy
-						frags(25, i(71022)),	-- Goblet of Anger
-						frags(25, i(70733)),	-- Alysra's Razor
-						frags(25, i(71006)),	-- Volcanospike
-						frags(25, i(71039)),	-- Funeral Pyre
-						frags(25, i(70922)),	-- Mandible of Beth'tilac
-						frags(25, i(71038)),	-- Ward of the Red Widow
-						frags(25, i(71779)),	-- Avool's Incendiary Shanker
-						frags(25, i(71787)),	-- Entrail Disgorger
-						frags(25, i(71776)),	-- Eye of Purification
-						frags(25, i(71785)),	-- Firethorn Mindslicer
-						frags(25, i(71782)),	-- Shatterskull Bonecrusher
-						frags(25, i(71775)),	-- Smoldering Censer of Purity
-						frags(25, i(71780)),	-- Zoid's Firelit Greatsword
-						-- CRIEVE NOTE: This item exists, but was not on the vendor on Cata PTR.
+						frags(45, i(69897)),	-- Fandral's Flamescythe
+						frags(45, i(71347)),	-- Stinger of the Flaming Scorpion
+						frags(30, i(71312)),	-- Gatecrasher
+						frags(30, i(70915)),	-- Shard of Torment
+						frags(15, i(71323)),	-- Molten Scream
+						frags(45, i(71014)),	-- Skullstealer Greataxe
+						frags(30, i(71013)),	-- Feeding Frenzy
+						frags(30, i(70733)),	-- Alysra's Razor
+						frags(45, i(71039)),	-- Funeral Pyre
+						frags(30, i(70922)),	-- Mandible of Beth'tilac
+						frags(30, i(71779)),	-- Avool's Incendiary Shanker
+						frags(30, i(71787)),	-- Entrail Disgorger
+						frags(35, i(71776)),	-- Eye of Purification
+						frags(35, i(71785)),	-- Firethorn Mindslicer
+						frags(30, i(71782)),	-- Shatterskull Bonecrusher
+						frags(45, i(71775)),	-- Smoldering Censer of Purity
+						frags(45, i(71780)),	-- Zoid's Firelit Greatsword
+						frags(1, currency(3148)),	-- Fissure Stone Fragment
 						frags(1, i(239110, {	-- Commendation of Service
 							currency(395),	-- Justice Points
 						})),
-						]]--
 					},
 				}),
 			}),

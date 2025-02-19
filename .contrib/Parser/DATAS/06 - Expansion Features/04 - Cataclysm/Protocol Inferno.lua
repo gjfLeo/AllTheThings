@@ -6,6 +6,77 @@ local FISSURE_STONE_FRAGMENT = 3148;	-- Fissure Stone Fragment
 local frags = function(cost, item)
 	return applycost(item, { "c", FISSURE_STONE_FRAGMENT, cost });
 end
+local PROTOCOL_MAPS = {
+	DEADMINES, 292,	-- Deadmines
+	SHADOWFANG_KEEP,
+	SHADOWFANG_KEEP_LEVEL2,
+	SHADOWFANG_KEEP_LEVEL3,
+	SHADOWFANG_KEEP_LEVEL4,
+	SHADOWFANG_KEEP_LEVEL5,
+	SHADOWFANG_KEEP_LEVEL6,
+	SHADOWFANG_KEEP_LEVEL7,
+	283, 284,	-- Blackrock Caverns
+	293,	-- Grim Batol
+	297, 298, 299,	-- Halls of Origination
+	277,	-- Lost City of the Tol'vir
+	324,	-- The Stonecore
+	322, 323,	-- Throne of the Tides
+	325,	-- The Vortex Pinnacle
+}
+local PROTOCOL_BOSSES = {
+	-- Blackrock Caverns
+	39665,	-- Rom'ogg Bonecrusher
+	39679,	-- Corla, Herald of Twilight
+	39698,	-- Karsh Steelbender
+	39700,	-- Beauty
+	39705,	-- Ascendent Lord Obsidius
+	-- Deadmines
+	47162,	-- Glubtok
+	47296,	-- Helix Gearbreaker
+	43778,	-- Foe Reaper 5000
+	47626,	-- Admiral Ripsnarl
+	47739,	-- "Captain" Cookie
+	49541,	-- Vanessa VanCleef
+	-- Grim Batol
+	39625,	-- General Umbriss
+	40177,	-- Forgemaster Throngus
+	40319,	-- Drahga Shadowburner
+	40484,	-- Erudax
+	-- Halls of Origination
+	39425,	-- Temple Guardian Anhuur
+	39428,	-- Earthrager Ptah
+	39788,	-- Anraphet
+	39587,	-- Isiset, Construct of Magic
+	39731,	-- Ammunae, Construct of Life
+	39732,	-- Setesh, Construct of Destruction
+	39378,	-- Rajh, Construct of Sun
+	-- Lost City of the Tol'vir
+	44577,	-- General Husam
+	43614,	-- Lockmaw
+	49045,	-- Augh
+	43612,	-- High Prophet Barim
+	44819,	-- Siamat
+	-- Shadowfang Keep
+	46962,	-- Baron Ashbury
+	3887,	-- Baron Silverlaine
+	4278,	-- Commander Springvale
+	46963,	-- Lord Walden
+	46964,	-- Lord Godfrey
+	-- The Stonecore
+	43438,	-- Corborus
+	43214,	-- Slabhide
+	42188,	-- Ozruk
+	42333,	-- High Priestess Azil
+	-- The Vortex Pinnacle
+	43878,	-- Grand Vizier Ertan
+	43873,	-- Altairus
+	43875,	-- Asaad, Caliph of Zephyrs
+	-- Throne of the Tides
+	40586,	-- Lady Naz'jar
+	40765,	-- Commander Ulthok
+	40788,	-- Mindbender Ghur'sha
+	44566,	-- Ozumat
+}
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 	n(PROTOCOL_INFERNO, bubbleDownSelf({ ["timeline"] = { ADDED_4_2_0 } }, {
 		["lvl"] = 85,
@@ -26,86 +97,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					}},
 				}),
 			}),
-			n(COMMON_BOSS_DROPS, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
-					470595,	-- Fury of the Firelord [Protocol Infero buff]
-					1224923	-- Twilight's Madness [Protocol Twilight]
-				),
-				["description"] = "If you do every Protocol Inferno Dungeon, you can earn a total of 129 of these per day, as you get 2 for each boss, and 5 for endbosses. If you use the dungeon finder, there is no limit, as you don't get saved that way.",
-				["maps"] = {
-					DEADMINES, 292,	-- Deadmines
-					SHADOWFANG_KEEP,
-					SHADOWFANG_KEEP_LEVEL2,
-					SHADOWFANG_KEEP_LEVEL3,
-					SHADOWFANG_KEEP_LEVEL4,
-					SHADOWFANG_KEEP_LEVEL5,
-					SHADOWFANG_KEEP_LEVEL6,
-					SHADOWFANG_KEEP_LEVEL7,
-					283, 284,	-- Blackrock Caverns
-					293,	-- Grim Batol
-					297, 298, 299,	-- Halls of Origination
-					277,	-- Lost City of the Tol'vir
-					324,	-- The Stonecore
-					322, 323,	-- Throne of the Tides
-					325,	-- The Vortex Pinnacle
-				},
-				["crs"] = {
-					-- Blackrock Caverns
-					39665,	-- Rom'ogg Bonecrusher
-					39679,	-- Corla, Herald of Twilight
-					39698,	-- Karsh Steelbender
-					39700,	-- Beauty
-					39705,	-- Ascendent Lord Obsidius
-					-- Deadmines
-					47162,	-- Glubtok
-					47296,	-- Helix Gearbreaker
-					43778,	-- Foe Reaper 5000
-					47626,	-- Admiral Ripsnarl
-					47739,	-- "Captain" Cookie
-					49541,	-- Vanessa VanCleef
-					-- Grim Batol
-					39625,	-- General Umbriss
-					40177,	-- Forgemaster Throngus
-					40319,	-- Drahga Shadowburner
-					40484,	-- Erudax
-					-- Halls of Origination
-					39425,	-- Temple Guardian Anhuur
-					39428,	-- Earthrager Ptah
-					39788,	-- Anraphet
-					39587,	-- Isiset, Construct of Magic
-					39731,	-- Ammunae, Construct of Life
-					39732,	-- Setesh, Construct of Destruction
-					39378,	-- Rajh, Construct of Sun
-					-- Lost City of the Tol'vir
-					44577,	-- General Husam
-					43614,	-- Lockmaw
-					49045,	-- Augh
-					43612,	-- High Prophet Barim
-					44819,	-- Siamat
-					-- Shadowfang Keep
-					46962,	-- Baron Ashbury
-					3887,	-- Baron Silverlaine
-					4278,	-- Commander Springvale
-					46963,	-- Lord Walden
-					46964,	-- Lord Godfrey
-					-- The Stonecore
-					43438,	-- Corborus
-					43214,	-- Slabhide
-					42188,	-- Ozruk
-					42333,	-- High Priestess Azil
-					-- The Vortex Pinnacle
-					43878,	-- Grand Vizier Ertan
-					43873,	-- Altairus
-					43875,	-- Asaad, Caliph of Zephyrs
-					-- Throne of the Tides
-					40586,	-- Lady Naz'jar
-					40765,	-- Commander Ulthok
-					40788,	-- Mindbender Ghur'sha
-					44566,	-- Ozumat
-				},
-				["groups"] = {
-					currency(FISSURE_STONE_FRAGMENT),
-				},
+			n(REWARDS, {
+				-- CRIEVE NOTE: This doesn't drop on Protocol Twilight mode.
+				currency(FISSURE_STONE_FRAGMENT, {
+					["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
+						470595	-- Fury of the Firelord [Protocol Infero buff]
+					),
+					["description"] = "Two Fissure Stone Fragments drop per boss in Protocol Inferno and the final boss of each dungeon will drop an extra three Fissure Stone Fragments if players have defeated all of the other bosses in the dungeon.",
+					["maps"] = PROTOCOL_MAPS,
+					["crs"] = PROTOCOL_BOSSES,
+				}),
 			}),
 			n(VENDORS, {
 				n(234135, {	-- Kyanite Stonetender <Fissure Stone Fragment Exchange>
