@@ -635,30 +635,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(18820),	-- Talisman of Ephemeral Power
 				},
 			}),
-			e(1523, {	-- Shazzrah
-				["creatureID"] = 12264,
-				["groups"] = {
-					-- #if NOT SEASON_OF_DISCOVERY
-					i(17332),	-- Hand of Shazzrah
-					-- #endif
-					i(18878),	-- Sorcerous Dagger
-					i(17077),	-- Crimson Shocker
-					i(18870),	-- Helm of the Lifegiver
-					i(19145),	-- Robe of Volatile Power
-					i(19146),	-- Wristguards of Stability
-					i(16801),	-- Arcanist Gloves (Mage)
-					i(16831),	-- Cenarion Gloves (Druid)
-					i(16852),	-- Giantstalker's Gloves (Hunter)
-					i(18861),	-- Flamewaker Legplates
-					i(18872),	-- Manastorm Leggings
-					i(18875),	-- Salamander Scale Pants
-					i(16811),	-- Boots of Prophecy (Priest)
-					i(16803),	-- Felheart Slippers (Warlock)
-					i(16824),	-- Nightslayer Boots (Rogue)
-					i(18879),	-- Heavy Dark Iron Ring
-					i(19147),	-- Ring of Spell Power
-				},
-			}),
 			e(1524, {	-- Baron Geddon
 				["creatureID"] = 12056,
 				["groups"] = {
@@ -688,6 +664,30 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["lore"] = "According to Travis Day, this item was used by Blizzard in a test version of the Thunderfury quest line. The quest was removed and was not publicly released, but Blizzard initially forgot to remove the item from the loot table. It was only ever looted by Noktyn-Archimonde US of the guild Nurfed on March 23, 2005",
 						["timeline"] = { ADDED_1_11_1, REMOVED_1_11_2 },
 					}),
+				},
+			}),
+			e(1523, {	-- Shazzrah
+				["creatureID"] = 12264,
+				["groups"] = {
+					-- #if NOT SEASON_OF_DISCOVERY
+					i(17332),	-- Hand of Shazzrah
+					-- #endif
+					i(18878),	-- Sorcerous Dagger
+					i(17077),	-- Crimson Shocker
+					i(18870),	-- Helm of the Lifegiver
+					i(19145),	-- Robe of Volatile Power
+					i(19146),	-- Wristguards of Stability
+					i(16801),	-- Arcanist Gloves (Mage)
+					i(16831),	-- Cenarion Gloves (Druid)
+					i(16852),	-- Giantstalker's Gloves (Hunter)
+					i(18861),	-- Flamewaker Legplates
+					i(18872),	-- Manastorm Leggings
+					i(18875),	-- Salamander Scale Pants
+					i(16811),	-- Boots of Prophecy (Priest)
+					i(16803),	-- Felheart Slippers (Warlock)
+					i(16824),	-- Nightslayer Boots (Rogue)
+					i(18879),	-- Heavy Dark Iron Ring
+					i(19147),	-- Ring of Spell Power
 				},
 			}),
 			e(1525, {	-- Sulfuron Harbinger
@@ -1423,24 +1423,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(228261),	-- Quick Strike Ring
 					i(228255),	-- Talisman of Ephemeral Power
 				}),
-				n(228434, {	-- Shazzrah
-					i(17332),	-- Hand of Shazzrah
-					i(227531),	-- Incandescent Bindings
-					i(227750),	-- Molten Scaled Bindings
-					i(227760),	-- Scorched Core Bindings
-					i(228263),	-- Sorcerous Dagger
-					i(228262),	-- Crimson Shocker
-					i(228285),	-- Helm of the Lifegiver
-					i(228239),	-- Robe of Volatile Power
-					i(228127),	-- Wristguards of Instability
-					i(228246),	-- Wristguards of Stability
-					i(228240),	-- Flamewaker Legplates
-					i(228244),	-- Manastorm Leggings
-					i(228245),	-- Salamander Scale Pants
-					i(228253),	-- Sabatons of the Flamewalker
-					i(228242),	-- Heavy Dark Iron Ring
-					i(228243),	-- Ring of Spell Power
-				}),
 				n(228433, {	-- Baron Geddon
 					-- #if NOT SEASON_OF_DISCOVERY
 					i(18563, {	-- Bindings of the Windseeker (Left)
@@ -1464,6 +1446,24 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(228261),	-- Quick Strike Ring
 					i(228268),	-- Seal of the Archmagus
 					i(228255),	-- Talisman of Ephemeral Power
+				}),
+				n(228434, {	-- Shazzrah
+					i(17332),	-- Hand of Shazzrah
+					i(227531),	-- Incandescent Bindings
+					i(227750),	-- Molten Scaled Bindings
+					i(227760),	-- Scorched Core Bindings
+					i(228263),	-- Sorcerous Dagger
+					i(228262),	-- Crimson Shocker
+					i(228285),	-- Helm of the Lifegiver
+					i(228239),	-- Robe of Volatile Power
+					i(228127),	-- Wristguards of Instability
+					i(228246),	-- Wristguards of Stability
+					i(228240),	-- Flamewaker Legplates
+					i(228244),	-- Manastorm Leggings
+					i(228245),	-- Salamander Scale Pants
+					i(228253),	-- Sabatons of the Flamewalker
+					i(228242),	-- Heavy Dark Iron Ring
+					i(228243),	-- Ring of Spell Power
 				}),
 				n(228436, {	-- Sulfuron Harbinger
 					i(17330),	-- Hand of Sulfuron
