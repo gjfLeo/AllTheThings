@@ -2153,6 +2153,7 @@ i(235268);	-- Misprinted Card
 i(236637);	-- Not-Quite-Crystal Ball
 i(236926);	-- Pack of Runed Harbinger Crests
 i(236924);	-- Pouch of Weathered Harbinger Crests
+i(236652);	-- Re-Down-Upcycled Salvage
 i(228195);	-- Tattered Goblin Cap
 i(237313);	-- Totally Legit Samophlange
 i(231899);	-- Trash
@@ -2160,4 +2161,5 @@ i(236921);	-- Triumphant Satchel of Carved Harbinger Crests
 i(237332);	-- Single-Use Grill
 i(236925);	-- Satchel of Carved Harbinger Crests
 i(236635);	-- Uncut Semi-Smoky Quartz
+i(236651);	-- Vince's Old Left Shoe
 i(229809);	-- Weighted Metal Ball

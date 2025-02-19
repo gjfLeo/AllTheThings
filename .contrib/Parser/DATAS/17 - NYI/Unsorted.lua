@@ -11,11 +11,6 @@ root(ROOTS.Unsorted, {
 				i(235647),	-- Gold-Plated Carver
 				i(235648),	-- Gold-Plated Hatchet
 				i(235649),	-- Gold-Plated Battleaxe
-
-				-- Trinkets
-				i(234717),	-- Blastmaster3000
-
-
 				-- Weird Armor
 				i(234511),	-- Corrupted Cuirass
 				i(234525),	-- Corrupted Crown
@@ -63,7 +58,6 @@ root(ROOTS.Unsorted, {
 				i(233527),	-- Gold-Plated Glaive
 				i(233528),	-- Gold-Plated Shield
 				i(233529),	-- Gold-Plated Cinderbrew Bottle
-				i(233530),	-- Gold-Plated Spellstaff
 				i(233532),	-- Gold-Plated Polearm
 				i(233533),	-- Gold-Plated Spear
 				i(233534),	-- Gold-Plated Broadsword
@@ -92,7 +86,6 @@ root(ROOTS.Unsorted, {
 				i(235423),	-- Expensive Gemstone Ring
 				i(235424),	-- Rich Uncle's Endowment
 				i(235425),	-- Dumpsterdelver's Loop
-				i(235428),	-- Gobtastic Bling
 				i(235484),	-- Razor-sharp Desk Fan
 				i(235485),	-- Oil Gouger
 				i(235486),	-- Springloaded Kneecap Breaker
@@ -377,7 +370,6 @@ root(ROOTS.Unsorted, {
 				i(232076),	-- Adventurer's Warbound Battlegear Drop
 				--
 				-- Cartel Rep?
-				i(232463),	-- Overflowing Undermine Trove
 				i(232465),	-- The Cartel's Trove
 
 				-- Delves
@@ -421,9 +413,6 @@ root(ROOTS.Unsorted, {
 				i(232928),	-- [DNT] Medium Surge Chest
 				i(232929),	-- [DNT] Large Surge Chest
 				i(232930),	-- Zaps Leadfoot
-				i(233006),	-- Container of Highly Profitable Sludge
-				i(233007),	-- Crate of Somewhat Profitable Sludge
-				i(233008),	-- Box of Lightly Profitable Sludge
 				i(233021),	-- Grappling-Grabber 9000
 				i(233054),	-- Wonder Ball
 				i(233055),	-- Corpse Cleaner
@@ -442,8 +431,6 @@ root(ROOTS.Unsorted, {
 				i(235713),	-- Weird Sand
 				i(235895),	-- Bloodstone
 				i(235910),	-- Mint Condition Gallagio Anniversary Coin
-				i(236651),	-- Vince's Old Left Shoe
-				i(236652),	-- Re-Down-Upcycled Salvage
 			}),
 			filter(MOUNTS, {
 				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
@@ -484,7 +471,6 @@ root(ROOTS.Unsorted, {
 					i(230932),	-- Formula: Enchanted Runed Undermine Crest
 					i(230933),	-- Formula: Enchanted Gilded Undermine Crest
 					i(230935),	-- Enchanted Gilded Undermine Crest
-					i(230936),	-- Enchanted Runed Undermine Crest
 					i(230937),	-- Enchanted Weathered Undermine Crest
 					i(230985),	-- Nascent Runed Undermine Crest
 					i(230986),	-- Nascent Gilded Undermine Crest

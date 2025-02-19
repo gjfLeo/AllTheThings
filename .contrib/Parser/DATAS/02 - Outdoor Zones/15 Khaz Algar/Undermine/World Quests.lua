@@ -47,6 +47,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85399, {	-- Caddyshock
 					["coord"] = { 69.7, 81.6, UNDERMINE },
 				}),
+				q(85428, {	-- Code Violations
+					["coord"] = { 34.8, 28.0, UNDERMINE },
+					["g"] = {
+						i(232989),	-- S4F3-T Inspectors (QI!)
+					},
+				}),
 				q(85270, {	-- Cold as Ice
 					["coord"] = { 39.2, 31.5, UNDERMINE },
 				}),
@@ -66,11 +72,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85467, {	-- Dumpster Fire
 					["coord"] = { 51.6, 88.6, UNDERMINE },
 				}),
+				q(84994, {	-- Evidence of Effect
+					["coord"] = { 45.6, 48.8, UNDERMINE },
+				}),
+				q(85427, {	-- Explosive Expiration
+					["coord"] = { 58.1, 88.9, UNDERMINE },
+				}),
 				q(85473, {	-- Extra! Extra!
 					["coord"] = { 36.5, 79.6, UNDERMINE },
 				}),
-				q(84994, {	-- Evidence of Effect
-					["coord"] = { 45.6, 48.8, UNDERMINE },
+				q(85498, {	-- Firework It
+					["coord"] = { 48.5, 51.4, UNDERMINE },
 				}),
 				q(84971, {	-- For Love of Grog
 					["coord"] = { 44.6, 78.4, UNDERMINE },
@@ -191,6 +203,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				-- Special Assigments
 				q(85487, {	-- Special Assignment: Boom! Headshot!
 					["coord"] = { 38.4, 52.0, UNDERMINE },
+					["g"] = {
+						o(504338, {	-- Rooftop Teleporter
+							["coord"] = { 35.8, 52.2, UNDERMINE },
+						}),
+					},
 				}),
 				q(85488, {	-- Special Assignment: Security Detail
 					["coord"] = { 57.9, 45.1, UNDERMINE },

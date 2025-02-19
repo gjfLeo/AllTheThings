@@ -40,7 +40,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 52.4, 83.0, UNDERMINE },
 					["questID"] = 87277,
 				}),
-				o(516157, {	-- Dented Crate (The VatWorks)
+				o(516157, {	-- Dented Crate (The Vatworks)
 					["coord"] = { 38.4, 80.9, UNDERMINE },
 					["questID"] = 87273,
 				}),
@@ -48,11 +48,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 50.6, 63.8, UNDERMINE },
 					["questID"] = 87275,
 				}),
-				-- 250-499 score?
-				--o(XXXX, {	-- Uncovered Strongbox (Blackwater Marina)
-				--	["coord"] = { 67.4, 29.3, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
+				-- 300-499 score?
+				o(500750, {	-- Uncovered Strongbox (Blackwater Marina)
+					["coord"] = { 67.3, 29.5, UNDERMINE },
+					["questID"] = 86268,
+				}),
 				o(500759, {	-- Uncovered Strongbox (Emerald Hills Golf Course)
 					["coord"] = { 69.7, 76.5, UNDERMINE },
 					["questID"] = 86267,
@@ -61,22 +61,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				--	["coord"] = { 31.9, 21.3, UNDERMINE },
 				--	["questID"] = xxx,
 				--}),
-				--o(XXXX, {	-- Uncovered Strongbox (Hovel Hill (South))
-				--	["coord"] = { 36.1, 45.1, UNDERMINE },
-				--	["questID"] = 86263,
-				--}),
-				--o(XXXX, {	-- Uncovered Strongbox (The Heaps)
-				--	["coord"] = { 52.4, 83.0, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- Uncovered Strongbox (The VatWorks)
-				--	["coord"] = { 38.4, 80.9, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- Uncovered Strongbox (Venturewood)
-				--	["coord"] = { 50.6, 63.8, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
+				o(500755, {	-- Uncovered Strongbox (Hovel Hill (South))
+					["coord"] = { 36.3, 44.8, UNDERMINE },
+					["questID"] = 86263,
+				}),
+				o(500758, {	-- Uncovered Strongbox (The Heaps)
+					["coord"] = { 52.4, 83.2, UNDERMINE },
+					["questID"] = 86266,
+				}),
+				o(500756, {	-- Uncovered Strongbox (The Vatworks)
+					["coord"] = { 38.6, 80.9, UNDERMINE },
+					["questID"] = 86264,
+				}),
+				o(500757, {	-- Uncovered Strongbox (Venturewood)
+					["coord"] = { 50.6, 63.7, UNDERMINE },
+					["questID"] = 86265,
+				}),
 				-- 500 score?
 				--o(XXXX, {	-- ??? (Blackwater Marina)
 				--	["coord"] = { 67.4, 29.3, UNDERMINE },
@@ -98,7 +98,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				--	["coord"] = { 52.4, 83.0, UNDERMINE },
 				--	["questID"] = xxx,
 				--}),
-				--o(XXXX, {	-- ??? (The VatWorks)
+				--o(XXXX, {	-- ??? (The Vatworks)
 				--	["coord"] = { 38.4, 80.9, UNDERMINE },
 				--	["questID"] = xxx,
 				--}),
@@ -125,7 +125,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			n(RARES, {				
 				n(234621, {	-- Gallagio Garbage <Luxury Trash>
 					["coord"] = { x, y, UNDERMINE },	-- any scap spot?
-					["questID"] = xx,
+					["questID"] = 87007,
 					["g"] = {
 						i(235819),	-- Lucky Penny Locket
 						i(235910),	-- Mint Condition Gallagio Anniversary Coin
@@ -152,7 +152,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 							["cost"] = {{ "c", 3218, 999 }},	-- Empty Kaja'Cola Can
 						}),
 						--i(233557, {	-- Sifted Pile of Scrap
-						--	["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can (TODO: assume it will change with renown level?)
+						--	["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can (TODO: it doesn't change with renown, leave whatever cost is better)
 						--}),
 						i(232858, {	-- Cruncher (PET!)
 							["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
@@ -227,7 +227,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(87310),	-- Hovel Hill (North)
 			q(87311),	-- Hovel Hill (South)
 			q(87314),	-- The Heaps
-			q(87312),	-- The VatWorks
+			q(87312),	-- The Vatworks
 			q(87313),	-- Venturewood
 		}),
 	}),

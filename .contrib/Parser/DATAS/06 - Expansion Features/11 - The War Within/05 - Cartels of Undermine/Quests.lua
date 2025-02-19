@@ -83,8 +83,28 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 43.8, 50.8, UNDERMINE },
 				}),
 			}, {	-- RENOWN 18 --
+				q(85825, {	-- Carved Crests
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+				}),
 			}, {	-- RENOWN 19 --
 			}, {	-- RENOWN 20 --
+				q(85827, {	-- Glinting and Gleaming
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+					["g"] = {
+						i(230936),	-- Enchanted Runed Undermine Crest
+					},
+				}),
+				------ Paragon ------
+				q(85805, {	-- Renowned with the Cartels of Undermine (TODO: according to wowhead comment - it is bugged and could be replaced on release)
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+					["isRepeatable"] = true,
+					["g"] = {
+						i(232463),	-- Overflowing Undermine Trove
+					},
+				}),
 			},
 		})),
 	}),

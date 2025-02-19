@@ -614,6 +614,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(232891, {	-- Amorphous Relic
 					["timeline"] = { ADDED_11_1_0 },
 				}),
+				i(234717, {	-- Blastmaster3000
+					["timeline"] = { ADDED_11_1_0 },
+				}),
 				i(215174),	-- Concoction: Kiss of Death
 				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
@@ -708,6 +711,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(219188, {["timeline"]={ REMOVED_11_1_0}}),	-- Dark Abyss Hoop
 						i(219189, {["timeline"]={ REMOVED_11_1_0}}),	-- Fuzzy Molding Halo
 						-- Season 2
+						i(235428, {	-- Gobtastic Bling
+							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						}),
 					}),
 					filter(LEATHER, {
 						-- Season 1
@@ -2067,6 +2073,17 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					["questID"] = 86347,
 				}),
 			}),
+			filter(MISC, {
+				o(500583, {	-- Box of Lightly Profitable Sludge
+					i(233008),	-- Box of Lightly Profitable Sludge
+				}),
+				o(500581, {	-- Container of Highly Profitable Sludge
+					i(233006),	-- Container of Highly Profitable Sludge
+				}),
+				o(500582, {	-- Crate of Somewhat Profitable Sludge
+					i(233007),	-- Crate of Somewhat Profitable Sludge
+				}),
+			}),
 		},
 	})),
 	m(FUNGAL_FOLLY, {
@@ -2898,16 +2915,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
 		q(82772, {["timeline"]={REMOVED_11_1_0}}),	-- First Delve of the day (Season 1)
-		--q(85668, {["timeline"]={ADDED_11_1_0}}),	-- First Delve of day (Season 2) // didn't pop on next day // weekly rep bonus? // Sidestreet Sluice hqt, unflagged with daily reset
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
 		q(86329, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Cosmetic Surprise Bag (itemID 233281)
 		q(86328, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Starter Kit (itemID 233276)
-		--q(87287, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in Fungal Folly Tier 7
-		--q(87286, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), was baited with new item in The Sinkhole Tier 8
 		q(86371, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Bounty weekly lockout (source doesn't matter)
 		--q(86438, {["timeline"]={ADDED_11_1_0}}),	-- when open up nemesis strongbox (first purple on account) in Excavation Site 9 - Tier 10
-		--q(85395, {["timeline"]={ADDED_11_1_0}}),	-- after completing weekly for delves (was 82706 - Worldwide Research)
 		-- Bountiful Delve runs
 		q(82944),	-- Earthcrawl Mines
 		q(85187, {["timeline"]={ADDED_11_1_0}}),	-- Excavation Site 9
@@ -2915,7 +2928,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(82941),	-- Kriegval's Rest
 		q(82940),	-- Mycomancer Cavern
 		q(82777),	-- Nightfall Sanctum
-		--q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice // seems like it is not?
+		q(85668, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice
 		q(78508),	-- Skittering Breach
 		q(82776),	-- Tak-Rethan Abyss
 		q(82938),	-- The Dread Pit
@@ -2928,6 +2941,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(83318),	-- Assembly of the Deeps
 		q(83319),	-- Severed Threads
 		q(83320),	-- Hallowfall Arathi
+		q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Undermine Cartel
 		-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
 		q(84736, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st
 		q(84737, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 2nd
@@ -2951,7 +2965,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(83180),	-- Hidden Stash from Deep Within (5k crystals)
 		q(83156),	-- Purchaseable Restored Coffer Key (spellID 453933)
 		q(83193),	-- Trusty Hat (spellID 454301)
-		-- Season 2 Rewards
+		-- Season 2 - Adventure Journal Rewards
 		q(85204, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Flamethrower (spellID 467083)
 		q(85203, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Pipes (spellID 467082)
 		q(85202, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Harpoon (spellID 467081)
@@ -2962,9 +2976,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85206, {["timeline"]={ADDED_11_1_0}}),	-- Warbound Equipment Set (spellID 467089)
 		q(85205, {["timeline"]={ADDED_11_1_0}}),	-- Discounted Restored Coffer Key (spellID 467087)
 		--q(86878, {["timeline"]={ADDED_11_1_0}}),	-- Where We Thrive (camp site) (spellID 1217505?)
-		-- Season 2 Restored Keys (unsure if it will be automated or not)
+		-- Season 2 - Restored Keys (unsure if it will be automated or not)
 		--q(86402, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 1 (spellID 467087) (itemID 233555?)
 		--q(86403, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 2 (spellID 1217225) (itemID 235531?)
+		-- Season 2 - Underpin
+		q(87287, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
+		q(87286, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
 		-- Zekvir
 		q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
 		q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)
