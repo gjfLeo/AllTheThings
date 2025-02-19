@@ -1273,7 +1273,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["g"] = { i(228967) },	-- Piece of Hate
 							}),
 							o(466479, {	-- Encrypted Chest
-								["description"] = "Code to open at the adjacent decryption console: 10638",
+								["description"] = "Code to open at the adjacent decryption console: 1533, 3457, 8265, or 10638",
 								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
 								["coord"] = { 49.5, 65.1, 46 },	-- Karazhan Catacombs
 								["questID"] = 84768,	-- Orb
@@ -1315,7 +1315,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["g"] = { i(228967) },	-- Piece of Hate
 							}),
 							header(HEADERS.Quest, 84786, {	-- Acquire the Piece of Hate from the Lucky slot machine consoles
-								["description"] = "In the felcycle room is over a dozen slot machine consoles around the walls, any of them work for this coin. Variations of 777, 77777, 777777 etc are correct answers but the machines seem to only randomly pay out a coin.\nYour luck can allegedly be increased by obtaining various lucky items, how many items you need is unknown but if you see a 'You feel lucky' emote in chat, you should be good.\nNo chest will spawn, you will be given the Piece of Hate directly.",
+								["description"] = "In the felcycle room is over a dozen slot machine consoles around the walls, any of them work for this coin. Variations of 777, 888 and 168 are correct answers but the machines only pay out a coin if you are deemed lucky.\nYour luck can be increased by obtaining at least 5 unique lucky things. It's not clear what counts but Blizzard states there are 13 possible lucky sources, some have been listed as a provider for this step. If you see the 'You feel lucky' emote in chat, you should be good, but try at least once anyway, the machine will pay out on first attempt if you're lucky enough, it is not random.\nNo chest will spawn, you will be given the Piece of Hate directly.",
 								["providers"] = {
 									{ "i", 5373 },		-- Lucky Charm
 									{ "i", 200265 },	-- Lucky Dragon's Claw
