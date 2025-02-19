@@ -453,7 +453,7 @@ root(ROOTS.Unsorted, {
 				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
-				mount(466020),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
+				i(229949),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
 				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
 				i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!) [Raid]
 				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
@@ -464,6 +464,7 @@ root(ROOTS.Unsorted, {
 				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]	-- itemID 229988
 
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
+				i(229947),	-- Violet Goblin Shredder
 				-- Probably not real
 				mount(466423),	-- Unstable Rocket
 				mount(466464),	-- Unstable Rocket
