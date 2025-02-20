@@ -110,7 +110,6 @@ root(ROOTS.Unsorted, {
 
 				-- Armor/Cosmetic Delves or Quest?
 				i(235507),	-- Might-Be-Invisible Drape
-				i(235614),	-- Golden-Gob Propulsion Rig
 				i(235615),	-- Rusty Gobjets
 				i(235616),	-- True Speed Goblin-Thruster
 			}),
@@ -334,8 +333,6 @@ root(ROOTS.Unsorted, {
 				i(232979),	-- Jaks Jabberjaw (MM!)
 				i(232978),	-- Louie Firehands (MM!)
 
-				-- Gob-Trotter
-				i(233196),	-- Delver's Gob-Trotter Schematic: Gold (MM!)
 				-- Dirigible
 				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal (MM!)
 				i(235694),	-- Delver's Dirigible Schematic: Blue Paint (MM!)

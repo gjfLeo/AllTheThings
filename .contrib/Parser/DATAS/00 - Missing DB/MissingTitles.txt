@@ -6,6 +6,5 @@ title(599),	-- Infinite Delver %s
 title(602),	-- High Roller %s
 title(606),	-- Darkfuse Diplomat %s
 title(607),	-- Trade-Duke %s
-title(612),	-- %s, the Real Deal
 title(616),	-- Part-Timer %s
 title(617),	-- %s, "Employee" of the Month

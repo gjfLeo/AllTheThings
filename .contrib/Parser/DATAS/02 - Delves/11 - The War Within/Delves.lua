@@ -68,35 +68,27 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				["maps"] = KOBOLD_DELVES,
 			}),
 			ach(40515, {	-- War Within Delves: Tier 4 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(40516, {	-- War Within Delves: Tier 5 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(40517, {	-- War Within Delves: Tier 6 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(40518, {	-- War Within Delves: Tier 7 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(40519, {	-- War Within Delves: Tier 8 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(40520, {	-- War Within Delves: Tier 9 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(40521, {	-- War Within Delves: Tier 10 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(40726, {	-- War Within Delves: Tier 11 (Season 1)
-				["timeline"] = { REMOVED_11_1_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 				["g"] = {
 					title(550),	-- High Explorer <Name>
@@ -147,41 +139,33 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(225542),	-- Delver's Dirigible Schematic: Void (MM!)
 				},
 				-- #endif
-			}),					
+			}),
 		},
 	}),
 	n(SEASON_ENTERPRISING, {
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 } }, {
 			ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(41192, {	-- War Within Delves: Tier 5 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(41198, {	-- War Within Delves: Tier 6 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(41193, {	-- War Within Delves: Tier 7 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(41194, {	-- War Within Delves: Tier 8 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(41195, {	-- War Within Delves: Tier 9 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(41196, {	-- War Within Delves: Tier 10 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 			ach(41197, {	-- War Within Delves: Tier 11 (Season 2)
-				["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 },
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 		})),
@@ -191,12 +175,15 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["coord"] = { 52.7, 9.4, UNDERMINE },
 		["g"] = {
 			n(ACHIEVEMENTS, {
-				ach(41529),	-- Breaking the Bank
-				-- Reward: "The Real Deal" title
-				ach(41210),	-- Let Me Solo Him: The Underpin
-				-- Reward: Delver's Gob-Trotter Schematic Mount Customization: Gold
-				ach(41530),	-- My New Nemesis
-				-- Reward: Golden-Gob Propulsion Rig
+				ach(41529, {	-- Breaking the Bank
+					title(612),	-- %s, the Real Deal
+				}),
+				ach(41210, {	-- Let Me Solo Him: The Underpin
+					i(233196),	-- Delver's Gob-Trotter Schematic: Gold (MM!)
+				}),
+				ach(41530, {	-- My New Nemesis
+					i(235614),	-- Golden-Gob Propulsion Rig
+				}),
 				ach(41531),	-- The Hataclysm
 			}),
 		},

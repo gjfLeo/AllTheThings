@@ -479,6 +479,7 @@ i(235683, 82173);	-- Delver's Dirigible Schematic: Turbine
 i(235686, 82190);	-- Delver's Dirigible Schematic: White Paint
 i(230219, 85181);	-- Delver's Gob-Trotter Schematic: Balloon
 i(230217, 85177);	-- Delver's Gob-Trotter Schematic: Flamethrower
+i(233196, 86296);	-- Delver's Gob-Trotter Schematic: Gold
 i(230220, 85183);	-- Delver's Gob-Trotter Schematic: Green
 i(230216, 85175);	-- Delver's Gob-Trotter Schematic: Harpoon
 i(230218, 85179);	-- Delver's Gob-Trotter Schematic: Pipes
@@ -508,7 +509,6 @@ i(235695, 82189);	-- Delver's Dirigible Schematic: Red Paint
 i(235693, 82175);	-- Delver's Dirigible Schematic: Rocket
 i(235692, 82177);	-- Delver's Dirigible Schematic: Thrusters
 i(235691, 82191);	-- Delver's Dirigible Schematic: Yellow Paint
-i(233196, 86296);	-- Delver's Gob-Trotter Schematic: Gold
 i(232980, 85787);	-- Axel Sneakfoot
 i(232979, 85785);	-- Jaks Jabberjaw
 i(232978, 85786);	-- Louie Firehands
