@@ -143,7 +143,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		},
 	}),
 	n(SEASON_ENTERPRISING, {
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_10_2_0 } }, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
 			ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
