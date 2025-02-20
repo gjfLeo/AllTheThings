@@ -1030,5 +1030,64 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(52052),	-- LFGDungeons - BFA - Raid Finder - Nth
 		}),
 	})),
+	expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+		n(GROUP_FINDER, {
+			q(62642),	-- LFGDungeons - SL - Heroic Random - 1st
+			q(62643),	-- LFGDungeons - SL - Heroic Random - Nth
+			q(62644),	-- LFGDungeons - SL - Normal Random - 1st
+			q(62645),	-- LFGDungeons - SL - Normal Random - Nth
+			q(62646),	-- LFGDungeons - SL - Raid Finder - 1st
+			q(62647),	-- LFGDungeons - SL - Raid Finder - Nth
+			q(62658),	-- Shadowlands Dungeon Reward Quest
+			q(62346),	-- Shadowlands (50-59) E
+			q(62347),	-- Shadowlands (50-59) E
+			q(62348),	-- Shadowlands (50-59) E
+			q(62349),	-- Shadowlands (50-59) E
+			q(62350),	-- Shadowlands (50-59) E
+			q(62353),	-- Shadowlands (50-59) E
+			q(62354),	-- Shadowlands (50-59) E
+			q(62355),	-- Shadowlands (50-59) E
+			q(62356),	-- Shadowlands (50-59) E
+			q(62357),	-- Shadowlands (50-59) E
+			q(62358),	-- Shadowlands (50-59) E
+			q(62359),	-- Shadowlands (50-59) E
+			q(62360),	-- Shadowlands (50-59) E
+			q(60023),	-- Shadowlands (60) E
+			q(60024),	-- Shadowlands (60) E
+			q(60025),	-- Shadowlands (60) E
+			q(60031),	-- Shadowlands (60) E
+			q(60032),	-- Shadowlands (60) E
+			q(60033),	-- Shadowlands (60) E
+			q(60034),	-- Shadowlands (60) E
+			q(60035),	-- Shadowlands (60) E
+			q(60036),	-- Shadowlands (60) E
+			q(60037),	-- Shadowlands (60) E
+			q(60038),	-- Shadowlands (60) E
+			q(60039),	-- Shadowlands (60) E
+			q(60040),	-- Shadowlands (60) E
+			q(64996, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(64997, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(64998, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(64999, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(65000, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(65001, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(65002, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(65003, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
+			q(65703, {["timeline"] = {ADDED_9_2_0}}),	-- Shadowlands (60) E
+			q(65704, {["timeline"] = {ADDED_9_2_0}}),	-- Shadowlands (60) E
+			q(65705, {["timeline"] = {ADDED_9_2_0}}),	-- Shadowlands (60) E
+			q(60014),	-- Shadowlands 60 E
+			q(60015),	-- Shadowlands 60 E
+			q(60016),	-- Shadowlands 60 E
+			q(60017),	-- Shadowlands 60 E
+			q(60018),	-- Shadowlands 60 E
+			q(60019),	-- Shadowlands 60 E
+			q(60026),	-- Shadowlands 60 E
+			q(60027),	-- Shadowlands 60 E
+			q(60028),	-- Shadowlands 60 E
+			q(60029),	-- Shadowlands 60 E
+			q(60030),	-- Shadowlands 60 E
+		}),
+	})),
 });
 -- #endif

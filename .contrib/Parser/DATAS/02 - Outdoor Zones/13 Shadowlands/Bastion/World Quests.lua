@@ -32,9 +32,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338195, {["u"]=TRAINING}),	-- Distilled Resolve
 					r(338194, {["u"]=TRAINING}),	-- Flask of Measured Discipline
 					r(338196, {["u"]=TRAINING}),	-- Pulverized Breezebloom
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = { i(182027) },	-- Fresh Breezebloom Trimmings (QI!)
+					}),
 					i(182025),	-- Distilled Resolve (QI!)
 					i(181859),	-- Flask of Measured Discipline (QI!)
-					i(182027),	-- Fresh Breezebloom Trimmings (QI!)
 					i(182026),	-- Pulverized Breezebloom (QI!)
 				},
 			}),
@@ -56,9 +59,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(337619, {["u"]=TRAINING}),	-- Polished Kyrian Shield
 					r(337626, {["u"]=TRAINING}),	-- Reforged Kyrian Shield
 					r(337621, {["u"]=TRAINING}),	-- Tarnished Kyrian Shield
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = { i(181793) },	-- Shattered Kyrian Shield Fragment (QI!)
+					}),
 					i(181791),	-- Polished Kyrian Shield (QI!)
 					i(181790),	-- Reforged Kyrian Shield (QI!)
-					i(181793),	-- Shattered Kyrian Shield Fragment (QI!)
 					i(181792),	-- Tarnished Kyrian Shield (QI!)
 				},
 			}),
@@ -70,11 +76,16 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338107, {["u"]=TRAINING}),	-- Diced Vegetables
 					r(338106, {["u"]=TRAINING}),	-- Grazer Bone Broth
 					r(338105, {["u"]=TRAINING}),	-- Steward Stew
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = {
+							i(182098),	-- Fresh Carrots (QI!)
+							i(182100),	-- Fresh Mushrooms (QI!)
+							i(182099),	-- Fresh Turnips (QI!)
+							i(182024),	-- Grazer Bones (QI!)
+						},
+					}),
 					i(182022),	-- Diced Vegetables (QI!)
-					i(182098),	-- Fresh Carrots (QI!)
-					i(182100),	-- Fresh Mushrooms (QI!)
-					i(182099),	-- Fresh Turnips (QI!)
-					i(182024),	-- Grazer Bones (QI!)
 					i(182023),	-- Grazer Bone Broth (QI!)
 					i(181945),	-- Steward Stew (QI!)
 				},
@@ -85,7 +96,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["requireSkill"] = ENCHANTING,
 				["g"] = {
 					r(338121, {["u"]=TRAINING}),	-- True Aim Spear
-					i(182021),	-- Antique Kyrian Javelin (QI!)
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = { i(182021) },	-- Antique Kyrian Javelin (QI!)
+					}),
 					i(181948),	-- Enchant: True Aim (QI!)
 					i(182020),	-- Transcendent Dust (QI!)
 				},
@@ -102,8 +116,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338216, {["u"]=TRAINING}),	-- Hardened Bolts
 					r(338214, {["u"]=TRAINING}),	-- Piston Assembly
 					r(338213, {["u"]=TRAINING}),	-- Power Hammer
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = { i(182018) },	-- Machined Solenium Bar (QI!)
+					}),
 					i(182017),	-- Hardened Bolts (QI!)
-					i(182018),	-- Machined Solenium Bar (QI!)
 					i(182016),	-- Piston Assembly (QI!)
 					i(181951),	-- Power Hammer (QI!)
 				},
@@ -142,10 +159,15 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338228, {["u"]=TRAINING}),	-- Invocation of Duty
 					r(338230, {["u"]=TRAINING}),	-- Opalescent Ink
 					r(338229, {["u"]=TRAINING}),	-- Poem on Duty
-					i(182202),	-- Borrowed Parchment (QI!)
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = {
+							i(182202),	-- Borrowed Parchment (QI!)
+							i(182015),	-- Opalescent Pigment (QI!)
+						},
+					}),
 					i(181957),	-- Invocation of Duty (QI!)
 					i(182014),	-- Opalescent Ink (QI!)
-					i(182015),	-- Opalescent Pigment (QI!)
 					i(182013),	-- Poem on Duty (QI!)
 				},
 			}),
@@ -155,8 +177,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338241, {["u"]=TRAINING}),	-- Gleaming Kyranite Necklace
 					r(338242, {["u"]=TRAINING}),	-- Kyranite Dangle
 					r(338243, {["u"]=TRAINING}),	-- Solenium Wire
-					i(182197),	-- Borrowed Kyranite (QI!)
-					i(182012),	-- Borrowed Solenium Nugget (QI!)
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = {
+							i(182197),	-- Borrowed Kyranite (QI!)
+							i(182012),	-- Borrowed Solenium Nugget (QI!)
+						},
+					}),
 					i(181960),	-- Gleaming Kyranite Necklace (QI!)
 					i(182010),	-- Kyranite Dangle (QI!)
 					i(182011),	-- Solenium Wire (QI!)
@@ -168,12 +195,17 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338258, {["u"]=TRAINING}),	-- Steelhide Leather Belt
 					r(338257, {["u"]=TRAINING}),	-- Steelhide Leather Harness
 					r(338259, {["u"]=TRAINING}),	-- Steelhide Leather Strap
-					i(182009),	-- Fresh Steelhide (QI!)
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = {
+							i(182009),	-- Fresh Steelhide (QI!)
+							i(182194),	-- Steelhide Sinew (QI!)
+							i(182193),	-- Thick Steelhide Leather (QI!)
+						},
+					}),
 					i(182007),	-- Steelhide Leather Belt (QI!)
 					i(181965),	-- Steelhide Leather Harness (QI!)
-					i(182194),	-- Steelhide Sinew (QI!)
 					i(182008),	-- Steelhide Leather Strap (QI!)
-					i(182193),	-- Thick Steelhide Leather (QI!)
 				},
 			}),
 			q(59578),	-- Let's Get Ready to Humble
@@ -210,9 +242,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338272, {["u"]=TRAINING}),	-- Bolt of Woven Gossamer
 					r(338273, {["u"]=TRAINING}),	-- Gossamer Cloth
 					r(338271, {["u"]=TRAINING}),	-- Woven Gossamer Tunic
+					o(356553, {	-- Crafter's Crate
+						["coord"] = { 52.5, 46.5, BASTION },
+						["g"] = { i(182104) },	-- Gossamer Thread (QI!)
+					}),
 					i(182102),	-- Bolt of Woven Gossamer (QI!)
 					i(182103),	-- Gossamer Cloth (QI!)
-					i(182104),	-- Gossamer Thread (QI!)
 					i(181971),	-- Woven Gossamer Tunic (QI!)
 				},
 			}),
@@ -249,6 +284,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(SHADOWLANDS, {
 		m(BASTION, {
+			n(PROFESSIONS, {
+				n(WORLD_QUESTS, {
+					q(62947),	-- Triggers when opening the box during "Leatherworking: Steelhide Leather Harness" (questID 61449) (spellID 345479)
+				}),
+			}),
 			n(WORLD_QUESTS, {
 				q(63262),	-- triggered after completing the WQ "Flight School: Up and Away!" (questID 60858) (spellID 347486)
 				q(63263),	-- triggered after completing the WQ "Flight School: Flapping Frenzy" (questID 60911) (spellID 347487)

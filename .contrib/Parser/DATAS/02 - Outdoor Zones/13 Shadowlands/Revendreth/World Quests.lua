@@ -35,9 +35,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338204, {["u"]=TRAINING}),	-- Bramblethorn Juice
 					r(338202, {["u"]=TRAINING}),	-- Elixir of Humility
 					r(338203, {["u"]=TRAINING}),	-- Refined Submission
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = { i(182073) },	-- Fresh Bramblethorn Trimmings (QI!)
+					}),
 					i(182072),	-- Bramblethorn Juice (QI!)
 					i(181857),	-- Elixir of Humility (QI!)
-					i(182073),	-- Fresh Bramblethorn Trimmings (QI!)
 					i(182071),	-- Refined Submission (QI!)
 				},
 			}),
@@ -51,10 +54,15 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338094, {["u"]=TRAINING}),	-- Prideful Manacles
 					r(338096, {["u"]=TRAINING}),	-- Soft Manacle Chains
 					r(338095, {["u"]=TRAINING}),	-- Tempered Manacle Chains
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = {
+							i(182091),	-- Borrowed Sinvyr Bar (QI!)
+							i(182094),	-- Borrowed Sinvyr Rod (QI!)
+							i(182089),	-- Enchanted Rivets (QI!)
+						},
+					}),
 					i(182090),	-- Binding Cuffs (QI!)
-					i(182091),	-- Borrowed Sinvyr Bar (QI!)
-					i(182094),	-- Borrowed Sinvyr Rod (QI!)
-					i(182089),	-- Enchanted Rivets (QI!)
 					i(181378),	-- Prideful Manacles (QI!)
 					i(182093),	-- Soft Manacle Chains (QI!)
 					i(182092),	-- Tempered Manacle Chains (QI!)
@@ -66,9 +74,14 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338115, {["u"]=TRAINING}),	-- Ember Sauce
 					r(338117, {["u"]=TRAINING}),	-- Seared Cutlets
 					r(338116, {["u"]=TRAINING}),	-- Skewered Meats
-					i(182096),	-- Ember Chilis (QI!)
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = {
+							i(182096),	-- Ember Chilis (QI!)
+							i(182070),	-- Fresh Beast Steak (QI!)
+						},
+					}),
 					i(182068),	-- Ember Sauce (QI!)
-					i(182070),	-- Fresh Beast Steak (QI!)
 					i(182069),	-- Seared Cutlets (QI!)
 					i(181947),	-- Skewered Meats (QI!)
 				},
@@ -84,7 +97,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["requireSkill"] = ENCHANTING,
 				["g"] = {
 					r(338125, {["u"]=TRAINING}),	-- Everburning Brand
-					i(182067),	-- Antique Duelist's Rapier (QI!)
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = { i(182067) },	-- Antique Duelist's Rapier (QI!)
+					}),
 					i(181950),	-- Everburning Brand (QI!)
 					i(182066),	-- Sanguine Crystal (QI!)
 				},
@@ -95,8 +111,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338220, {["u"]=TRAINING}),-- Duelist's Pistol
 					r(338222, {["u"]=TRAINING}),-- Sinvyr Barrel
 					r(338223, {["u"]=TRAINING}),-- Sinvyr Trigger Mechanism
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = { i(182064) },	-- Machined Sinvyr Bar (QI!)
+					}),
 					i(181953),	-- Duelist's Pistol (QI!)
-					i(182064),	-- Machined Sinvyr Bar (QI!)
 					i(182062),	-- Sinvyr Barrel (QI!)
 					i(182063),	-- Sinvyr Trigger Mechanism (QI!)
 				},
@@ -121,10 +140,15 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338234, {["u"]=TRAINING}),	-- Catalog of Sins
 					r(338236, {["u"]=TRAINING}),	-- Prideful Ink
 					r(338235, {["u"]=TRAINING}),	-- Scroll of Calming Lyrics
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = {
+							i(182061),	-- Prideful Pigment (QI!)
+							i(182309),	-- Rigid Vellum (QI!)
+						},
+					}),
 					i(181959),	-- Catalog of Sins (QI!)
 					i(182060),	-- Prideful Ink (QI!)
-					i(182061),	-- Prideful Pigment (QI!)
-					i(182309),	-- Rigid Vellum (QI!)
 					i(182059),	-- Scroll of Castigation (QI!)
 				},
 			}),
@@ -140,10 +164,15 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338247, {["u"]=TRAINING}),	-- Sinister Choker
 					r(338248, {["u"]=TRAINING}),	-- Brilliant Bauble
 					r(338249, {["u"]=TRAINING}),	-- Fine Sinvyr Chain
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = {
+							i(182308),	-- Garnet Shard (QI!)
+							i(182058),	-- Polished Sinvyr Bar (QI!)
+						},
+					}),
 					i(182056),	-- Brilliant Bauble (QI!)
 					i(182057),	-- Fine Sinvyr Chain (QI!)
-					i(182308),	-- Garnet Shard (QI!)
-					i(182058),	-- Polished Sinvyr Bar (QI!)
 					i(181964),	-- Sinister Choker (QI!)
 				},
 			}),
@@ -153,8 +182,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338263, {["u"]=TRAINING}),	-- Courtly Leather Boots
 					r(338265, {["u"]=TRAINING}),	-- Softened Leather
 					r(338264, {["u"]=TRAINING}),	-- Tortured Sole
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = { i(182055) },	-- Ragged Sinrunner Leather (QI!)
+					}),
 					i(181967),	-- Courtly Leather Boots (QI!)
-					i(182055),	-- Ragged Sinrunner Leather (QI!)
 					i(182054),	-- Softened Leather (QI!)
 					i(182053),	-- Tortured Sole (QI!)
 				},
@@ -270,10 +302,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338279, {["u"]=TRAINING}),	-- Bolt of Prideweave
 					r(338278, {["u"]=TRAINING}),	-- Looming Tapestry
 					r(338280, {["u"]=TRAINING}),	-- Prideweave Cloth
+					o(356880, {	-- Crafter's Crate
+						["coord"] = { 32.6, 49.0, REVENDRETH },
+						["g"] = { i(182052) },	-- Thread of Pride (QI!)
+					}),
 					i(182051),	-- Bolt of Prideweave (QI!)
 					i(181973),	-- Looming Tapestry (QI!)
 					i(182050),	-- Prideweave Cloth (QI!)
-					i(182052),	-- Thread of Pride (QI!)
 				}
 			}),
 			q(59852, {	-- Tea Tales: Gubbins and Tubbins
@@ -300,9 +335,15 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		})),
 	}),
 })));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(SHADOWLANDS, {
 		m(REVENDRETH, {
+			n(PROFESSIONS, {
+				n(WORLD_QUESTS, {
+					q(62940),	-- Triggers when opening the box during "Alchemy: Elixir of Humility" (questID 61619) (spellID 345470)
+				}),
+			}),
 			n(WORLD_QUESTS, {
 				q(59858),	-- Tea Tales: Theotar Achievement criteria
 				q(59861),	-- Tea Tales: Theotar Achievement criteria

@@ -25,10 +25,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338199, {["u"]=TRAINING}),	-- Brutal Oil
 					r(338200, {["u"]=TRAINING}),	-- Crushed Bones
 					r(338198, {["u"]=TRAINING}),	-- Draught of Grotesque Strength
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = { i(181858) },	-- Draught of Grotesque Strength (QI!)
+					}),
 					i(182049),	-- Bones of Defeated Enemies (QI!)
 					i(182047),	-- Brutal Oil (QI!)
 					i(182048),	-- Crushed Bones (QI!)
-					i(181858),	-- Draught of Grotesque Strength (QI!)
 				},
 			}),
 			q(61352),	-- All Will Be Consumed
@@ -44,11 +47,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338090, {["u"]=TRAINING}),	-- Hardened Heavy Razor
 					r(338091, {["u"]=TRAINING}),	-- Soft Heavy Razor
 					r(338088, {["u"]=TRAINING}),	-- Soul Razor
-					i(182088),	-- Borrowed Oxxein Ore (QI!)
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = { i(182088) },	-- Borrowed Oxxein Ore (QI!)
+					}),
 					i(182086),	-- Hardened Heavy Razor (QI!)
 					i(182087),	-- Soft Heavy Razor (QI!)
 					i(181862),	-- Soul Razor (QI!)
-
 				},
 			}),
 			q(58207),	-- Buggin' Out
@@ -63,9 +68,14 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["g"] = {
 					r(338110, {["u"]=TRAINING}),	-- Spider Jerky
 					r(338113, {["u"]=TRAINING}),	-- Thick Spider Meat
-					i(182046),	-- Grave Dust (QI!)
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = {
+							i(182046),	-- Grave Dust (QI!)
+							i(182045),	-- Thick Spider Legs (QI!)
+						},
+					}),
 					i(181946),	-- Spider Jerky (QI!)
-					i(182045),	-- Thick Spider Legs (QI!)
 					i(182044),	-- Thick Spider Meat (QI!)
 				},
 			}),
@@ -97,7 +107,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["requireSkill"] = ENCHANTING,
 				["g"] = {
 					r(338123, {["u"]=TRAINING}),	-- Unbreakable Crystal
-					i(182043),	-- Antique Necromancer's Staff (QI!)
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = { i(182043) },	-- Antique Necromancer's Staff (QI!)
+					}),
 					i(182042),	-- Necrotic Essence (QI!)
 					i(181949),	-- Unbreakable Crystal (QI!)
 				},
@@ -108,10 +121,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338218, {["u"]=TRAINING}),	-- Bone Reinforced Oxxein Tubing
 					r(338217, {["u"]=TRAINING}),	-- Boneclad Stake Launcher
 					r(338219, {["u"]=TRAINING}),	-- Handful of Oxxein Bolts
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = { i(182040) },	-- Machined Oxxein Bar (QI!)
+					}),
 					i(182038),	-- Bone Reinforced Oxxein Tubing (QI!)
 					i(181952),	-- Boneclad Stake Launcher (QI!)
 					i(182039),	-- Handful of Oxxein Bolts (QI!)
-					i(182040),	-- Machined Oxxein Bar (QI!)
 				},
 			}),
 			petbattle(q(61867)),	-- Extra Pieces
@@ -145,10 +161,15 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338231, {["u"]=TRAINING}),	-- Litany of Might
 					r(338233, {["u"]=TRAINING}),	-- Necrotic Ink
 					r(338232, {["u"]=TRAINING}),	-- Scroll of Unyielding Strength
-					i(182297),	-- Flayed Flesh (QI!)
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = {
+							i(182297),	-- Flayed Flesh (QI!)
+							i(182037),	-- Necrotic Pigment (QI!)
+						},
+					}),
 					i(181958),	-- Litany of Might (QI!)
 					i(182036),	-- Necrotic Ink (QI!)
-					i(182037),	-- Necrotic Pigment (QI!)
 					i(182035),	-- Scroll of Unyielding Strength (QI!)
 				},
 			}),
@@ -158,10 +179,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338244, {["u"]=TRAINING}),	-- Carved Crystal Ring
 					r(338246, {["u"]=TRAINING}),	-- Faceted Crystal
 					r(338245, {["u"]=TRAINING}),	-- Hollowed Crystal
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = { i(182034)	},	-- Jagged Necrotic Crystal (QI!)
+					}),
 					i(181961),	-- Carved Crystal Ring (QI!)
 					i(182033),	-- Faceted Crystal (QI!)
 					i(182032),	-- Hollowed Crystal (QI!)
-					i(182034),	-- Jagged Necrotic Crystal (QI!)
 				},
 			}),
 			q(61540),	-- Just Winging It
@@ -170,10 +194,15 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["g"] = {
 					r(338260, {["u"]=TRAINING}),	-- Bonestudded Fist
 					r(338262, {["u"]=TRAINING}),	-- Cleaned Hide
+					o(356879, {
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = {
+							i(182029),	-- Corpsestitch Thread (QI!)
+							i(182031),	-- Unused Flesh (QI!)
+						},
+					}),
 					i(181966),	-- Bonestudded Fist (QI!)
 					i(182030),	-- Cleaned Hide (QI!)
-					i(182029),	-- Corpsestitch Thread (QI!)
-					i(182031),	-- Unused Flesh (QI!)
 				},
 			}),
 			q(61539, {	-- Liches Get Stitches
@@ -226,8 +255,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					r(338277, {["u"]=TRAINING}),	-- Bleakcloth
 					r(338276, {["u"]=TRAINING}),	-- Bolt of Bleakcloth
 					r(338275, {["u"]=TRAINING}),	-- Haunting Hood
+					o(356879, {	-- Crafter's Crate
+						["coord"] = { 50.3, 53.2, MALDRAXXUS },
+						["g"] = { i(182028)	},	-- Bleakthread (QI!)
+					}),
 					i(182117),	-- Bleakcloth (QI!)
-					i(182028),	-- Bleakthread (QI!)
 					i(182116),	-- Bolt of Bleakcloth (QI!)
 					i(181972),	-- Haunting Hood (QI!)
 				},
@@ -244,9 +276,18 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		})),
 	}),
 })));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(SHADOWLANDS, {
 		m(MALDRAXXUS, {
+			n(PROFESSIONS, {
+				n(WORLD_QUESTS, {
+					q(62942),	-- Triggers when opening the box during "Cooking: Spider Jerky" (questID 61607) (spellID 345473)
+					q(62944),	-- Triggers when opening the box during "Engineering: Boneclad Stake Launcher" (questID 61609) (spellID 345476)
+					q(62946),	-- Triggers when opening the box during "Jewelcrafting: Carved Crystal Ring" (questID 61612) (spellID 345478)
+					q(62948),	-- Triggers when opening the box during "Tailoring: Haunting Hood" (questID 61615) (spellID 345480)
+				}),
+			}),
 			n(WORLD_QUESTS, {
 				q(57210),	-- triggered when completing the ballista at 37.6, 50.8 during #57205, "A Few Bumps Along the Way"
 				q(57241),	-- triggered when completing the ballista at 38.8, 48.6 during #57205, "A Few Bumps Along the Way"

@@ -1002,62 +1002,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	------------------
 	expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 		n(GROUP_FINDER, {
-			q(62642),	-- LFGDungeons - SL - Heroic Random - 1st
-			q(62643),	-- LFGDungeons - SL - Heroic Random - Nth
-			q(62644),	-- LFGDungeons - SL - Normal Random - 1st
-			q(62645),	-- LFGDungeons - SL - Normal Random - Nth
-			q(62646),	-- LFGDungeons - SL - Raid Finder - 1st
-			q(62647),	-- LFGDungeons - SL - Raid Finder - Nth
 			q(62079),	-- Received weekly Mythic+ Keystone
-			q(62658),	-- Shadowlands Dungeon Reward Quest
-			q(62346),	-- Shadowlands (50-59) E
-			q(62347),	-- Shadowlands (50-59) E
-			q(62348),	-- Shadowlands (50-59) E
-			q(62349),	-- Shadowlands (50-59) E
-			q(62350),	-- Shadowlands (50-59) E
-			q(62353),	-- Shadowlands (50-59) E
-			q(62354),	-- Shadowlands (50-59) E
-			q(62355),	-- Shadowlands (50-59) E
-			q(62356),	-- Shadowlands (50-59) E
-			q(62357),	-- Shadowlands (50-59) E
-			q(62358),	-- Shadowlands (50-59) E
-			q(62359),	-- Shadowlands (50-59) E
-			q(62360),	-- Shadowlands (50-59) E
-			q(60023),	-- Shadowlands (60) E
-			q(60024),	-- Shadowlands (60) E
-			q(60025),	-- Shadowlands (60) E
-			q(60031),	-- Shadowlands (60) E
-			q(60032),	-- Shadowlands (60) E
-			q(60033),	-- Shadowlands (60) E
-			q(60034),	-- Shadowlands (60) E
-			q(60035),	-- Shadowlands (60) E
-			q(60036),	-- Shadowlands (60) E
-			q(60037),	-- Shadowlands (60) E
-			q(60038),	-- Shadowlands (60) E
-			q(60039),	-- Shadowlands (60) E
-			q(60040),	-- Shadowlands (60) E
-			q(64996, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(64997, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(64998, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(64999, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(65000, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(65001, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(65002, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(65003, {["timeline"] = {ADDED_9_1_5}}),	-- Shadowlands (60) E
-			q(65703, {["timeline"] = {ADDED_9_2_0}}),	-- Shadowlands (60) E
-			q(65704, {["timeline"] = {ADDED_9_2_0}}),	-- Shadowlands (60) E
-			q(65705, {["timeline"] = {ADDED_9_2_0}}),	-- Shadowlands (60) E
-			q(60014),	-- Shadowlands 60 E
-			q(60015),	-- Shadowlands 60 E
-			q(60016),	-- Shadowlands 60 E
-			q(60017),	-- Shadowlands 60 E
-			q(60018),	-- Shadowlands 60 E
-			q(60019),	-- Shadowlands 60 E
-			q(60026),	-- Shadowlands 60 E
-			q(60027),	-- Shadowlands 60 E
-			q(60028),	-- Shadowlands 60 E
-			q(60029),	-- Shadowlands 60 E
-			q(60030),	-- Shadowlands 60 E
 		}),
 		n(PVP, {
 			q(62298),	-- Classic 20-49
@@ -1066,18 +1011,6 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(63389),	-- Killed and looted Horde Assasin (as Alliance obviously)
 			q(63390),	-- Killed and looted Horde Assasin (as Alliance obviously)
 			q(63391),	-- Killed and looted Horde Assasin (as Alliance obviously)
-		}),
-		n(PROFESSIONS, {
-			-- Profession crafting world quests
-			q(62940),	-- Triggers when opening the box during "Alchemy: Elixir of Humility" (questID 61619) (spellID 345470)
-			q(62941),	-- Triggers when opening the box during "Blacksmithing: Stalker Arrowheads" (questID 61435) (spellID 345472)
-			q(62942),	-- Triggers when opening the box during "Cooking: Spider Jerky" (questID 61607) (spellID 345473)
-			q(62943),	-- Triggers when opening the box during "Enchanting: Boundless Basket" (questID 61440) (spellID 345475)
-			q(62944),	-- Triggers when opening the box during "Engineering: Boneclad Stake Launcher" (questID 61609) (spellID 345476)
-			q(62945),	-- Triggers when opening the box during "Inscription: Hymnal of Reprise" (questID 61599) (spellID 345477)
-			q(62946),	-- Triggers when opening the box during "Jewelcrafting: Carved Crystal Ring" (questID 61612) (spellID 345478)
-			q(62947),	-- Triggers when opening the box during "Leatherworking: Steelhide Leather Harness" (questID 61449) (spellID 345479)
-			q(62948),	-- Triggers when opening the box during "Tailoring: Haunting Hood" (questID 61615) (spellID 345480)
 		}),
 
 		-- Pre-launch event
