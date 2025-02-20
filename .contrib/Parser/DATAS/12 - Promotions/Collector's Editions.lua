@@ -61,6 +61,7 @@ MOP_CLASSIC_HEROIC_PACK = createHeader({
 	icon = [[~_.asset("Expansion_MOP")]],
 	text = {
 		en = "MoP Classic Sha-Infused Heroic Pack",
+		tw = "潘達利亞之謎：經典版 - 煞之灌注英雄版組合包",
 	},
 });
 THE_WAR_WITHIN_TEMPORARY = createHeader({
