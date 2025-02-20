@@ -64,13 +64,13 @@ MOP_CLASSIC_HEROIC_PACK = createHeader({
 		tw = "潘達利亞之謎：經典版 - 煞之灌注英雄版組合包",
 	},
 });
-THE_WAR_WITHIN_TEMPORARY = createHeader({
-	readable = "The War Within",
-	icon = [[~_.asset("Expansion_TWW")]],
+MIDNIGHT_TEMPORARY = createHeader({
+	readable = "Midnight",
+	icon = [[~_.asset("Expansion_MD")]],
 	text = {
-		en = "The War Within",
-		cn = "地心之战",
-		tw = "地心之戰",
+		en = "Midnight",
+		cn = "至暗之夜",
+		-- tw = "至暗之夜",
 	},
 	description = {
 		en = "The War Within is the tenth expansion for World of Warcraft and the beginning of the Worldsoul Saga. Journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the nerubian empire, where the malicious Harbinger of the Void is gathering arachnid forces to bring Azeroth to its knees.",
