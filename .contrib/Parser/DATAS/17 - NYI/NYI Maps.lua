@@ -25,13 +25,6 @@ root(ROOTS.NeverImplemented, n(MAPS, {
 			m(449),	-- Temple of Kotmogu
 		}),
 	}),
-	expansion(EXPANSION.LEGION, {
-		-- 7.x.x
-		n(P7xx, {
-			-- 0 (World)
-			m(696),	-- Stormheim
-		}),
-	}),
 	expansion(EXPANSION.BFA, {
 		-- 8.0.1
 		expansion(EXPANSION.BFA, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_8_0_1 } }, {
