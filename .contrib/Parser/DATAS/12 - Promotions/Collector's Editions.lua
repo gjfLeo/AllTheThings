@@ -56,6 +56,13 @@ CATA_CLASSIC_BLAZING_UPGRADE = createHeader({
 		tw = "浩劫與重生：經典版 - 熾炎升級",
 	},
 });
+MOP_CLASSIC_HEROIC_PACK = createHeader({
+	readable = "MoP Classic Sha-Infused Heroic Pack",
+	icon = [[~_.asset("Expansion_MOP")]],
+	text = {
+		en = "MoP Classic Sha-Infused Heroic Pack",
+	},
+});
 THE_WAR_WITHIN_TEMPORARY = createHeader({
 	readable = "The War Within",
 	icon = [[~_.asset("Expansion_TWW")]],
@@ -483,6 +490,22 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			i(85871),	-- Lucky Quilen Cub (PET!)
 		},
 	})),
+	-- #if ANYCLASSIC
+	-- #else
+	n(MOP_CLASSIC_HEROIC_PACK, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+		n(HEROIC_EDITION, {
+			["description"] = "These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",
+			["g"] = {
+				mount(1216422),	-- Sha-Warped Cloud Serpent (MOUNT!)
+				mount(1216430),	-- Sha-Warped Riding Tiger (MOUNT!)
+				pet(4733),	-- Merriment (PET!)
+				i(235288),	-- Sha-Warped Tea Set (TOY!)
+				-- Ensemble: Stormstout's Sha-Warped Collection transmog
+				-- TODO: added in MoP Classic Prepatch
+			},
+		}),
+	})),
+	-- #endif
 	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_7, REMOVED_6_2_2 } }, {
 		["description"] = "These rewards were made available to anyone who purchased a Collector's Edition of Warlords of Draenor.",
 		["groups"] = {

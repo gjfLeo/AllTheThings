@@ -288,6 +288,7 @@ HeaderAssignments = {
 	["Miscellaneous"] = -1000264,
 	["Monster Hunting"] = -1000277,
 	["Monthly Reward"] = -1000367,
+	["MoP Classic Sha-Infused Heroic Pack"] = -1001078,
 	["Mount Mods"] = -1001032,
 	["Mythic+"] = -1000047,
 	["Neck"] = -1000068,
@@ -555,4 +556,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001076;
+NextHeaderID = -1001079;

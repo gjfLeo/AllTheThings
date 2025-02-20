@@ -1413,6 +1413,7 @@ i(218310);	-- Box of Puntables
 i(235041);	-- Cyrce's Circlet
 i(235017);	-- Glittering Vault Shard
 i(233486);	-- Hallowfall Supply Cache
+i(235288);	-- Sha-Warped Tea Set
 i(234473);	-- Soweezi's Comfy Lawn Chair
 i(218308);	-- Winter Veil Cracker
 --- NYI ---
