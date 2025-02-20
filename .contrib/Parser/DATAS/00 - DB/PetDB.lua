@@ -4321,6 +4321,7 @@ i(232841, 4644);	-- Professor Punch
 i(232851, 4641);	-- Rocketfist
 i(232895, 4701);	-- Spotty
 i(232846, 4648);	-- Steamwheedle Flunkie
+i(238261, 4762);	-- Tock the Clocker Spaniel
 i(232849, 4650);	-- Venture Companyman
 i(232839, 4637);	-- Wavebreaker Mechasaur
 --- NPC ---
@@ -4352,7 +4353,6 @@ i(232847, 4646);	-- Personal-Use Sapper
 i(232856, 4633);	-- Scruff
 --i(???, 4738);	-- Status Symbol
 i(232806, 4643);	-- Tiny Torq
-i(238261, 4762);	-- Tock the Clocker Spaniel
 i(232838, 4639);	-- Viridian Mechasaur
 --- UNSORTED WILD ---
 n(237713, 4741);	-- Cannoneer
