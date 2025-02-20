@@ -322,7 +322,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 						filter(MOUNTS, {
 							["providers"] = {
 								{ "i", 239111 },	-- Satchel of the Flickering Cowl (Cloth)
-								--{ "i",  },	-- Satchel of the Flickering Shoulderpads (Leather)
+								{ "i", 239220 },	-- Satchel of the Flickering Shoulderpads (Leather)
 								{ "i", 239112 },	-- Satchel of the Flickering Shoulders (Mail)
 								{ "i", 239113 },	-- Satchel of the Flickering Wristbands (Leather)
 								{ "i", 239114 },	-- Satchel of the Flickering Handguards (Plate)
@@ -334,22 +334,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 								i(69224),	-- Pureblood Fire Hawk (MOUNT!) [Smoldering Egg of Millagazor]
 							},
 						}),
-						frags(20, i(239111, {	-- Satchel of the Flickering Cowl
+						frags(30, i(239111, {	-- Satchel of the Flickering Cowl
 							i(71421),	-- Flickering Cowl (Cloth)
 						})),
-						--[[
-						-- CRIEVE NOTE: This item appears to be missing.
-						frags(15, i(, {	-- Satchel of the Flickering Shoulderpads
+						frags(25, i(239220, {	-- Satchel of the Flickering Shoulderpads
 							i(71450),	-- Flickering Shoulderpads (Leather)
 						})),
-						]]--
-						frags(15, i(239112, {	-- Satchel of the Flickering Shoulders
+						frags(25, i(239112, {	-- Satchel of the Flickering Shoulders
 							i(71403),	-- Flickering Shoulders (Mail)
 						})),
-						frags(15, i(239113, {	-- Satchel of the Flickering Wristbands
+						frags(25, i(239113, {	-- Satchel of the Flickering Wristbands
 							i(71428),	-- Flickering Wristbands (Leather)
 						})),
-						frags(15, i(239114, {	-- Satchel of the Flickering Handguards
+						frags(25, i(239114, {	-- Satchel of the Flickering Handguards
 							i(71458),	-- Flickering Handguards (Plate)
 						})),
 						-- Normal Tier 12 Helm Tokens
