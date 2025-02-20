@@ -117,11 +117,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					filter(BATTLE_PETS, {
 						i(222971),	-- Bouncer (PET!)
 					}),
-				filter(COSMETIC, {
-					i(212163),	-- Soporific Shroom Cap
-				}),
-				n(WEAPONS, {
-					i(218126),	-- Befouler's Syringe
+					filter(COSMETIC, {
+						i(212163),	-- Soporific Shroom Cap
+					}),
+					n(WEAPONS, {
+						i(218126),	-- Befouler's Syringe
 					}),
 				}),
 			}),
