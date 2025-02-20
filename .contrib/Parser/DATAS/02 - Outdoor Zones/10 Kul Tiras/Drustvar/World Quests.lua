@@ -296,18 +296,19 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(54686, {	-- Medical Emergency (Faction Assault WQ)
 				["races"] = HORDE_ONLY,
 			}),
-			q(51707, {	-- More Valuable Than Gold (A)
-				["races"] = ALLIANCE_ONLY,
+			{	-- More Valuable Than Gold
+				["allianceQuestData"] = q(51707, {	-- More Valuable Than Gold (Alliance)
+					["races"] = ALLIANCE_ONLY,
+				}),
+				["hordeQuestData"] = q(51743, {	-- More Valuable Than Gold (Horde)
+					["races"] = HORDE_ONLY,
+				}),
 				["g"] = {
-					i(160577),	-- Silver Nugget (QI!)
+					o(290975, {	-- Silver Nugget
+						i(160577),	-- Silver Nugget (QI!)
+					}),
 				},
-			}),
-			q(51743, {	-- More Valuable Than Gold (H)
-				["races"] = HORDE_ONLY,
-				["g"] = {
-					i(160577),	-- Silver Nugget (QI!)
-				},
-			}),
+			},
 			q(54650, {	-- Muk'luk (Faction Assault WQ)
 				["races"] = ALLIANCE_ONLY,
 			}),

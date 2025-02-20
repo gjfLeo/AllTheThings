@@ -1602,6 +1602,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(53455, {	-- WANTED: The Crimson Cutthroats
+				["provider"] = { "o", 288214 },	-- Wanted Poster
 				["coord"] = { 19.57, 43.65, DRUSTVAR },
 			}),
 			q(53456, {	-- WANTED: The Rime Huntress

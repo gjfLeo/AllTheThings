@@ -294,6 +294,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(159767),	-- Sandworm Fang (QI!)
+					-- Drops from Quest Mob required for achievement
+					i(163464),	-- Cobalt Sandworm Scale
+					i(163465),	-- Silver Sandworm Scale
+					i(163467),	-- Emerald Sandworm Scale
+					i(163468),	-- Ruby Sandworm Scale
+					i(163469),	-- Onyx Sandworm Scale
 				},
 			}),
 			q(51107),	-- Scaleclaw Broodmother
