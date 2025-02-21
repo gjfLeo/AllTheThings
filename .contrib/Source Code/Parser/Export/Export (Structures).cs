@@ -51,17 +51,24 @@ namespace ATT
                 var order = STRUCTURE_COUNTS.ToList();
                 STRUCTURE_COUNTS.Clear();
 
-                // Sort the KeyValues so that the most-used replacements are exported first for performance reasons
+                // Sort the KeyValues so that the largest memory-cost replacements are exported first for performance reasons
                 order.Sort(delegate (KeyValuePair<string, int> a, KeyValuePair<string, int> b)
                 {
-                    return b.Value - a.Value;
+                    return ReplacmentSavings(b.Key.Count(c => c == ','), b.Value) - ReplacmentSavings(a.Key.Count(c => c == ','), a.Value);
                 });
+
+                int ReplacmentSavings(int keys, int uses) =>
+                    // table size
+                    (40 + 16 * keys) *
+                    // reduced duplicate definitions
+                    (uses - 1);
 
                 Trace.Write($"Performing up to {maximum} structure replacements (at least {minimumReplacements} replacements for each) from {order.Count} total structures ==> ");
 
+                int count = 0;
                 // Reduce the allowed set of replacements
                 order = order
-                    .TakeWhile(a => a.Value >= minimumReplacements)
+                    .Where(a => a.Value >= minimumReplacements && ++count <= maximum)
                     .Take(maximum)
                     .ToList();
 
@@ -77,11 +84,12 @@ namespace ATT
                     .Select(s => new StringBuilder(s))
                     .ToList();
 
-                Trace.WriteLine($"{order.Count} actual replacements across {splitBuilders.Count} containers");
+                Trace.WriteLine(
+                    $"{order.Count} actual replacements across {splitBuilders.Count} containers ({order.Sum(x => ReplacmentSavings(x.Key.Count(c => c == ','), x.Value)) / 1024}kB reduction)");
 
                 // Determine all replacement relationships
                 Dictionary<string, string> replacements = new Dictionary<string, string>();
-                int count = 0;
+                count = 0;
                 foreach (var replaceCount in order)
                 {
                     replacements.Add($"a[{++count}]", replaceCount.Key);
@@ -143,7 +151,7 @@ namespace ATT
         /// <param name="builder">The builder.</param>
         /// <param name="maximum">The maximum number of replacements to create</param>
         /// <param name="minimumReplacements">The minimum number of uses for a structure to be marked for replacement.</param>
-        private static void SimplifyStructureForLua(StringBuilder builder, int maximum = 1000, int minimumReplacements = 10)
+        private static void SimplifyStructureForLua(StringBuilder builder, int maximum = 1000, int minimumReplacements = 2)
         {
             SimplifyStructure(builder, ExportTableReferenceForLua, maximum, minimumReplacements);
         }

@@ -436,7 +436,19 @@ namespace ATT
             builder.AppendLine("};");
 
             // Simplify the structure of the string and then export to the builder.
-            if (!((string[])Framework.Config["PreProcessorTags"]).Contains("NOSIMPLIFY")) SimplifyStructureForLua(builder);
+            if (!((string[])Framework.Config["PreProcessorTags"]).Contains("NOSIMPLIFY"))
+            {
+                var simplifyConfig = Framework.Config["SimplifyStructures"];
+                if (simplifyConfig.Defined)
+                {
+                    int[] simplify = simplifyConfig;
+                    SimplifyStructureForLua(builder, simplify[0], simplify[1]);
+                }
+                else
+                {
+                    SimplifyStructureForLua(builder);
+                }
+            }
             ExportLocalVariablesForLua(builder);
             ExportCategoriesHeaderForLua(builder);
             STRUCTURE_COUNTS.Clear();

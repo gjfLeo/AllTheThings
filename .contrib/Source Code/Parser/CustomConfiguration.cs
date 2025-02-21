@@ -16,24 +16,12 @@ namespace ATT
         /// <summary>
         /// Accesses a particular key of the CustomConfiguration
         /// </summary>
-        internal CustomConfigurationNode this[string key]
-        {
-            get
-            {
-                return _root[key];
-            }
-        }
+        internal CustomConfigurationNode this[string key] => _root[key];
 
         /// <summary>
         /// Accesses a particular index of the CustomConfiguration
         /// </summary>
-        internal CustomConfigurationNode this[long key]
-        {
-            get
-            {
-                return _root[key];
-            }
-        }
+        internal CustomConfigurationNode this[long key] => _root[key];
 
         public CustomConfiguration(string filepath)
         {
@@ -47,6 +35,10 @@ namespace ATT
             {
                 string configText = File.ReadAllText(filepath, Encoding.UTF8);
                 object jsonObj = MiniJSON.Json.Deserialize(configText);
+                if (jsonObj == null)
+                {
+                    Framework.LogError($"Config File is not proper JSON! {filepath}");
+                }
                 _root = new CustomConfigurationNode(jsonObj);
             }
             catch (Exception ex)
@@ -83,69 +75,33 @@ namespace ATT
         private Dictionary<string, CustomConfigurationNode> _dict;
         private List<CustomConfigurationNode> _list;
         private object _val;
-        private string _jsonKey;
+        private readonly string _jsonKey;
+
+        private static readonly CustomConfigurationNode _empty = new CustomConfigurationNode(null);
 
         /// <summary>
         /// Represents whether this CustomConfigurationNode supports enumeration
         /// </summary>
-        public bool CanEnumerate
-        {
-            get
-            {
-                return _dict != null || _list != null;
-            }
-        }
+        public bool CanEnumerate => _dict != null || _list != null;
 
         /// <summary>
         /// Represents the parent Key for this Node, if known
         /// </summary>
-        public string Key
-        {
-            get
-            {
-                return _jsonKey;
-            }
-        }
+        public string Key => _jsonKey;
+
+        public bool Defined => Key != null;
 
         /// <summary>
         /// Accesses a particular key of the current Configuration Node
         /// </summary>
-        internal CustomConfigurationNode this[string key]
-        {
-            get
-            {
-                if (TryIndex(_dict, key, out CustomConfigurationNode node))
-                {
-                    return node;
-                }
-
-                return null;
-            }
-        }
+        internal CustomConfigurationNode this[string key] => TryIndex(_dict, key, out CustomConfigurationNode node) ? node : _empty;
 
         /// <summary>
         /// Accesses a particular index of the current Configuration Node
         /// </summary>
-        internal CustomConfigurationNode this[long index]
-        {
-            get
-            {
-                checked
-                {
-                    if (TryIndex(_list, (int)index, out CustomConfigurationNode node))
-                    {
-                        return node;
-                    }
-                }
+        internal CustomConfigurationNode this[long index] => TryIndex(_list, (int)index, out CustomConfigurationNode node) ? node : _empty;
 
-                return null;
-            }
-        }
-
-        public static implicit operator string(CustomConfigurationNode value)
-        {
-            return value?._val as string ?? value?._val?.ToString();
-        }
+        public static implicit operator string(CustomConfigurationNode value) => value?._val as string ?? value?._val?.ToString();
 
         public static implicit operator int(CustomConfigurationNode value)
         {
@@ -193,7 +149,7 @@ namespace ATT
         {
             try
             {
-                return value?._list.Select(v => (string)v).ToArray();
+                return value?._list?.Select(v => (string)v).ToArray();
             }
             catch { }
 
@@ -204,7 +160,7 @@ namespace ATT
         {
             try
             {
-                return value?._list.Select(v => (long)v).ToArray();
+                return value?._list?.Select(v => (long)v).ToArray();
             }
             catch { }
 
@@ -215,7 +171,7 @@ namespace ATT
         {
             try
             {
-                return value?._list.Select(v => (int)v).ToArray();
+                return value?._list?.Select(v => (int)v).ToArray();
             }
             catch { }
 
@@ -226,7 +182,7 @@ namespace ATT
         {
             try
             {
-                return value?._list.Select(v => v._val).ToArray();
+                return value?._list?.Select(v => v._val).ToArray();
             }
             catch { }
 
@@ -252,10 +208,7 @@ namespace ATT
         /// <summary>
         /// Returns the string representation of this Node
         /// </summary>
-        public override string ToString()
-        {
-            return this;
-        }
+        public override string ToString() => this;
 
         /// <summary>
         /// Attetmpts to parse deserialized JSON data into a CustomConfigurationNode

@@ -25,7 +25,7 @@ namespace ATT
         {
             var types = config?["Validation"];
 
-            if (types == null)
+            if (types == null || !types.Defined)
             {
                 return;
             }

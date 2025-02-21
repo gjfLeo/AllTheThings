@@ -869,10 +869,9 @@ namespace ATT
 
             data.TryGetValue("g", out List<object> g);
             int subGroupCount = g?.Count ?? 0;
-            // no sub-groups, remove the g field
+            // no sub-groups
             if (subGroupCount == 0)
             {
-                data.Remove("g");
                 // certain types with empty groups shouldn't be included
                 if (data.TryGetValue("achievementCategoryID", out long achievementCategoryID))
                 {
@@ -995,22 +994,6 @@ namespace ATT
                 */
             }
 
-            List<string> removeKeys = new List<string>();
-
-            foreach (KeyValuePair<string, object> dataKvp in data)
-            {
-                // Remove any fields which contain 'empty' lists
-                if (dataKvp.Value is IEnumerable<object> list && !list.Any())
-                {
-                    removeKeys.Add(dataKvp.Key);
-                }
-            }
-
-            foreach (string key in removeKeys)
-            {
-                data.Remove(key);
-            }
-
             if (data.ContainsKey("_unsorted"))
             {
                 foreach (var sourcedListByKey in GetAllMatchingSOURCED(data))
@@ -1026,7 +1009,7 @@ namespace ATT
 
             CaptureDebugDBData(data);
 
-            AddPostProcessing(EmptyGroupCleanup, data);
+            AddPostProcessing(PostProcessingGroupCleanup, data);
 
             return true;
         }
@@ -1042,16 +1025,33 @@ namespace ATT
             }
         }
 
-        private static void EmptyGroupCleanup(IDictionary<string, object> data)
+        private static void PostProcessingGroupCleanup(IDictionary<string, object> data)
         {
-            if (data.TryGetValue("g", out List<object> g))
+            List<string> removeKeys = new List<string>();
+
+            // empty list fields removed
+            foreach (KeyValuePair<string, object> dataKvp in data)
             {
-                int subGroupCount = g?.Count ?? 0;
-                // no sub-groups, remove the g field
-                if (subGroupCount == 0)
+                // Remove any fields which contain 'empty' lists
+                if (dataKvp.Value is IEnumerable<object> list && !list.Any())
                 {
-                    data.Remove("g");
+                    removeKeys.Add(dataKvp.Key);
                 }
+                // parser-only fields removed
+                if (dataKvp.Key.StartsWith("_"))
+                {
+                    removeKeys.Add(dataKvp.Key);
+                }
+                // 'timeline' is removed
+                if (dataKvp.Key == "timeline")
+                {
+                    removeKeys.Add("timeline");
+                }
+            }
+
+            foreach (string key in removeKeys)
+            {
+                data.Remove(key);
             }
         }
 

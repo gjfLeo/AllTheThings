@@ -60,14 +60,13 @@ namespace ATT
                 return;
             }
 
-            var preprocessorArray = Framework.Config["PreProcessorTags"];
+            string[] preprocessorArray = Framework.Config["PreProcessorTags"];
             if (preprocessorArray != null)
             {
                 foreach (var preprocessor in preprocessorArray)
                 {
                     PreProcessorTags[preprocessor] = true;
-                    Console.Write("PREPROCESSOR: ");
-                    Console.WriteLine((string)preprocessor);
+                    Console.WriteLine($"PREPROCESSOR: {preprocessor}");
                 }
             }
 
