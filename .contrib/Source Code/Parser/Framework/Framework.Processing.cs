@@ -1032,20 +1032,20 @@ namespace ATT
             // empty list fields removed
             foreach (KeyValuePair<string, object> dataKvp in data)
             {
-                // Remove any fields which contain 'empty' lists
-                if (dataKvp.Value is IEnumerable<object> list && !list.Any())
-                {
-                    removeKeys.Add(dataKvp.Key);
-                }
-                // parser-only fields removed
-                if (dataKvp.Key.StartsWith("_"))
-                {
-                    removeKeys.Add(dataKvp.Key);
-                }
                 // 'timeline' is removed
                 if (dataKvp.Key == "timeline")
                 {
                     removeKeys.Add("timeline");
+                }
+                // parser-only fields removed
+                else if (dataKvp.Key.StartsWith("_"))
+                {
+                    removeKeys.Add(dataKvp.Key);
+                }
+                // Remove any fields which contain 'empty' lists
+                else if (dataKvp.Value is IEnumerable<object> list && !list.Any())
+                {
+                    removeKeys.Add(dataKvp.Key);
                 }
             }
 
