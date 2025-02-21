@@ -22,6 +22,8 @@ namespace ATT.FieldTypes
 
         public long LongVersion { get; set; }
 
+        public bool AddedData => Change == "created" || Change == "added";
+
         private TimelineEntry(object raw)
         {
             var commandSplit = Convert.ToString(raw).Split(' ');

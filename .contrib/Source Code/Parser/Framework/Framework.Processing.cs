@@ -848,6 +848,7 @@ namespace ATT
             Consolidate_sourceQuests(data);
             Consolidate_altQuests(data);
             Consolidate_item(data);
+            Consolidate_awprwp(data);
 
             // since early 2020, the API no longer associates recipe Items with their corresponding Spell... because Blizzard hates us
             // so try to automatically associate the matching recipeID from the requiredSkill profession list to the matching item...
@@ -3178,6 +3179,19 @@ namespace ATT
             }
         }
 
+        private static void Consolidate_awprwp(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("awp", out long awp) || !data.TryGetValue("rwp", out long rwp))
+                return;
+
+            // if this Thing is marked as removed in the past, but is currently available, drop the 'rwp' value
+            if (awp > rwp && awp <= CURRENT_RELEASE_VERSION)
+            {
+                data.Remove("rwp");
+                LogDebug($"INFO: Removed RWP:{rwp} which is before AWP:{awp}", data);
+            }
+        }
+
         private static void Consolidate_item(IDictionary<string, object> data)
         {
             if (!data.TryGetValue("itemID", out long itemID)) return;
@@ -3356,6 +3370,15 @@ namespace ATT
                 var lastIndex = timeline.EntryCount - 1;
                 long addedPatch = 10000;
                 long removedPatch = 10000;
+
+                // if the timeline has more than 1 Entry and the earliest entry is not an 'adding' change then warn
+                // still over a thousand places where timelines start with a 'removed' change first if not excluding before more recent data
+                var firstEntry = timeline.Entries[0];
+                if (CurrentParseStage == ParseStage.Validation && timeline.EntryCount > 1 && firstEntry.Version > 80000 && !firstEntry.AddedData)
+                {
+                    LogWarn($"Timeline contains '{firstEntry.Change}' change @ earliest patch -> {firstEntry}", data);
+                }
+
                 foreach (var entry in timeline.Entries)
                 {
                     switch (entry.Change)
