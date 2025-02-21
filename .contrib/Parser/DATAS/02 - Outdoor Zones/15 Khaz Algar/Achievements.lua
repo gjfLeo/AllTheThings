@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			["description"] = "This achievement is currently disabled by Blizzard and will be readded in a future patch.",
 			-- #endif
 			-- #endif
-			["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+			["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 		}),
 		petbattle(ach(40194, {	-- Khaz Algar Safari (automated)
 			i(221821),	-- Waxwick (PET!)

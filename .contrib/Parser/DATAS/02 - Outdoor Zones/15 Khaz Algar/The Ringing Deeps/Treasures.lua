@@ -64,7 +64,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(441577, {	-- Collapsed Tunnel (Warning: Collapsed Tunnel)
 				["coord"] = { 71.4, 42.4, THE_RINGING_DEEPS },
@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(444071, {	-- Cursed Pickaxe
 				["coord"] = { 63.1, 63.1, THE_RINGING_DEEPS },
@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(446349, {	-- Loose Crystal Shard
 				["coord"] = { 57.3, 21.9, THE_RINGING_DEEPS },
@@ -222,7 +222,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(455890, {	-- Waterlogged Refuse
 				["coord"] = { 66.2, 33.4, THE_RINGING_DEEPS },
@@ -236,7 +236,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(420053, {	-- Webbed Knapsack
 				["coord"] = { 68.9, 38.8, THE_RINGING_DEEPS },

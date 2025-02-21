@@ -666,7 +666,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(OCTOBER, bubbleDownSelf({ ["timeline"] = { REMOVED_10_1_7, REMOVED_10_2_0 } }, {
+		n(OCTOBER, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7, REMOVED_10_2_0 } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				i(208598),	-- Eve's Ghastly Rider (MOUNT!)
 			}),

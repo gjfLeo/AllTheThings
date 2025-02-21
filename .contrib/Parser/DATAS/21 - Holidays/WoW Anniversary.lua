@@ -2279,7 +2279,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["timeline"] = { ADDED_10_2_0 }
 					}),
 					i(186469, {	-- Illidari Doomhawk (MOUNT!)
-						["timeline"] = { REMOVED_10_2_0, ADDED_11_0_5 }
+						["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0, ADDED_11_0_5 }
 					}),
 					i(43959, {	-- Reins of the Grand Black War Mammoth (A) (MOUNT!)
 						["races"] = ALLIANCE_ONLY,

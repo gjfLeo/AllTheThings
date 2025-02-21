@@ -261,7 +261,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 36.8, 77.2, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(7223, {	-- Armor Scraps
@@ -356,7 +356,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 36.8, 77.2, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(7124, {	-- Capture a Mine (Horde)
@@ -372,7 +372,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 65.6, 55.1, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_8_2_5, ADDED_9_1_0 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_8_2_5, ADDED_9_1_0 },
 					["races"] = HORDE_ONLY,
 				}),
 				q(6982, {	-- Coldtooth Supplies (Alliance)
@@ -507,7 +507,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 					["timeline"] = { ADDED_1_5_0, REMOVED_1_10_0 },
 					["races"] = ALLIANCE_ONLY,
 				}),
-				q(8272, bubbleDown({ ["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 }}, {	-- Hero of the Frostwolf
+				q(8272, bubbleDown({ ["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 }}, {	-- Hero of the Frostwolf
 					["qg"] = 13817,	-- Voggah Deathgrip
 					["sourceQuest"] = 7142,	-- The Battle for Alterac (Horde)
 					["coords"] = {
@@ -525,7 +525,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						i(19108),	-- Wand of Biting Cold
 					},
 				})),
-				q(8271, bubbleDown({ ["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 }}, {	-- Hero of the Stormpike
+				q(8271, bubbleDown({ ["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 }}, {	-- Hero of the Stormpike
 					["qg"] = 13816,	-- Prospector Stonehewer
 					["sourceQuest"] = 7141,	-- The Battle of Alterac (Alliance)
 					["coords"] = {
@@ -875,7 +875,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 41.0, 79.6, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Drek'Thar slain
@@ -893,7 +893,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 63.6, 60.4, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Vanndar Stormpike slain
@@ -945,7 +945,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 65.6, 55.1, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
 					["races"] = HORDE_ONLY,
 				}),
 				q(7363, {	-- The Human Condition
@@ -992,7 +992,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 36.8, 77.2, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(7101, {	-- Towers and Bunkers (Horde)
@@ -1004,7 +1004,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 						{ 65.6, 55.1, ALTERAC_MOUNTAINS },
 						-- #endif
 					},
-					["timeline"] = { REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
+					["timeline"] = { ADDED_1_11_1, REMOVED_WITH_ANNIVERSARY_15, ADDED_11_0_5 },
 					["races"] = HORDE_ONLY,
 				}),
 				q(7422, {	-- Tuft it Out

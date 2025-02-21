@@ -120,7 +120,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(446473, {	-- Infused Fire-Honey Milk
 				["coord"] = { 56.2, 60.9, ISLE_OF_DORN },
@@ -203,7 +203,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(223227, {	-- One-Eyed Thak
 				["crs"] = { 223247 },	-- One-Eyed Thak
@@ -227,7 +227,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(222894, {	-- U'llort the Self-Exiled
 				["description"] = "Talk to U'llort then bring it |cff888888Boskroot Cap|r from the woods nearby.",
@@ -254,7 +254,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(441278, {	-- Watcher of the South
 				["coord"] = { 42.1, 80.2, ISLE_OF_DORN },
@@ -264,7 +264,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
 				-- #endif
 				-- #endif
-				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(222847, {	-- Weary Water Elemental
 				["coord"] = { 54.1, 19.0, ISLE_OF_DORN },
