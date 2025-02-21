@@ -7348,7 +7348,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 	-- Patch Interface Build tables
 	local CLASSIC = {10100,10200,10300,10400,10500,10600,10700,10800,10900,10903,11000,11100,11101,11102,11200,11201}
 	-- Classic was using different build numbers originally, so these are made up to make a correct timeline search
-	local TBC = {20001,20003,20005,20006,20007,20008,20010,20012,20100,20101,
+	local TBC = {20000,20001,20003,20005,20006,20007,20008,20010,20012,20100,20101,
 	20102,20103,20200,20202,20203,20300,20302,20303,20400,20401,20402,20403}
 	-- TBC Patch 2.0.10 and 2.0.12 did not have a valid build numbers, so these are made up to make a correct timeline search
 	local WRATH = {30002,30003,30008,30100,30101,30102,30103,30200,30202,30300,30302,30303,30305}
