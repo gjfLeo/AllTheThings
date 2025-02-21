@@ -569,7 +569,7 @@ namespace ATT
                 Process(groups, data);
 
                 // Parent field consolidation now that groups have been processed
-                if (CurrentParseStage >= ParseStage.Incorporation)
+                if (CurrentParseStage >= ParseStage.Consolidation)
                     HierarchicalFieldAdjustments.Apply(data, groups);
 
                 if (restoreDifficulty)
