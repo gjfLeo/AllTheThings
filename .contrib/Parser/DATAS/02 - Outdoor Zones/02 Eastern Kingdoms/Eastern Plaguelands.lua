@@ -3717,8 +3717,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 45451 },	-- Argus Highbeacon
 						{ "i", 61362 },	-- Highbeacon's Parcel
 					},
+					["description"] = "Position of Argus Highbeacon depends on the position of Fionas Caravan and the order of quests you completed.",
 					["sourceQuest"] = 27522,	-- Beat it Out of Them
-					["coord"] = { 50.5, 20.2, EASTERN_PLAGUELANDS },
+					["coords"] = {
+						{ 28.3, 25.8, EASTERN_PLAGUELANDS },
+						{ 50.5, 20.2, EASTERN_PLAGUELANDS },
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["isBreadcrumb"] = true,
 				}),
@@ -4694,7 +4698,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						853,	-- Hatchet
 						3023,	-- Large Bore Blunderbuss
 						1196,	-- Tabar
-						37,		-- Worn Axe
+						37,	-- Worn Axe
 					}},
 				}),
 				n(12941, {	-- Jase Farlane <Trade Supplies>
@@ -4733,7 +4737,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						2525,	-- War Hammer
 						2533,	-- War Maul
 						2535,	-- War Staff
-						37,		-- Worn Axe
+						37,	-- Worn Axe
 					}},
 				}),
 				-- #if AFTER 4.0.1
@@ -5171,11 +5175,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if BEFORE 4.0.3
 				i(12841, {	-- Invader's Scourgestone / Inert Invader's Scourgestone
-					["description"] = "Can drop from any Undead creatures in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+					["description"] = "Can drop from any Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				i(12840, {	-- Minion's Scourgestone / Inert Minion's Scourgestone
-					["description"] = "Can drop from weak Undead creatures in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+					["description"] = "Can drop from weak Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				-- #endif
