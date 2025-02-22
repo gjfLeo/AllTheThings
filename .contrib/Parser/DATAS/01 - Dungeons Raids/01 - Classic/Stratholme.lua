@@ -88,6 +88,23 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					},
 				}),
+				q(28755, {	-- Annals of the Silver Hand
+					["qg"] = 49856,	-- Lord Raymond George
+					["sourceQuest"] = 27464,	-- Argent Call: The Trial of the Crypt
+					["coord"] = { 76.2, 50.9, EASTERN_PLAGUELANDS },
+					["maxReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
+					["timeline"] = { ADDED_4_0_3 },
+					["maps"] = { STRATHOLME },
+					["repeatable"] = true,
+					["groups"] = {
+						objective(1, {	-- 0/1 Annals of the Silver Hand
+							["providers"] = {
+								{ "i",  65615 },	-- Annals of the Silver Hand
+								{ "o", 207389 },	-- Annals of the Silver Hand
+							},
+						}),
+					},
+				}),
 				q(27359, {	-- Argent Reinforcements
 					["qg"] = 45330,	-- Archmage Angela Dosantos
 					["timeline"] = { ADDED_4_0_3 },

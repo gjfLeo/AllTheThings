@@ -1212,6 +1212,7 @@ ExportDB.AccountWideQuestsDB = {
 	[76250] = true,	-- Spectral Essence
 	[76257] = true,
 	[76261] = true,	-- Hand of Naxxramas
+	[76262] = true,	-- Talking to Archmage Angela Dosantos after defeating Hand of Naxxramas
 	[76263] = true,
 	[76264] = true,
 	[76265] = true,

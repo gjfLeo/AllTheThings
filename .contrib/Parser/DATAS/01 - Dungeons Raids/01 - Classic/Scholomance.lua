@@ -39,7 +39,7 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 		q(28756, {	-- Aberrations of Bone
 			["qg"] = 49856,	-- Lord Raymond George
 			["sourceQuest"] = 27464,	-- Argent Call: The Trial of the Crypt
-			["coord"] = { 76.1, 50.9, EASTERN_PLAGUELANDS },
+			["coord"] = { 76.2, 50.9, EASTERN_PLAGUELANDS },
 			["maxReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 			["timeline"] = { ADDED_4_0_3 },
 			["repeatable"] = true,
