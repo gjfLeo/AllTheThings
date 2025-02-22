@@ -1673,6 +1673,7 @@ root(ROOTS.Zones, {
 								i(44190),	-- Spaulders of Frozen Knives
 							}, {	-- Revered
 								i(44193),	-- Broken Stalactite
+								i(44194),	-- Giant-Friend Kilt
 								ach(2082, {	-- Ice Mammoth
 									["providers"] = {
 										{ "i", 43958 },	-- Ice Mammoth (A) (MOUNT!)
@@ -1683,7 +1684,6 @@ root(ROOTS.Zones, {
 								i(44192),	-- Stalactite Chopper
 							}, {	-- Exalted
 								i(41720),	-- Design: Smooth Autumn's Glow
-								i(44194),	-- Giant-Friend Kilt
 								ach(2083, {	-- Grand Ice Mammoth
 									["providers"] = {
 										{ "i", 43961 },	-- Reins of the Grand Ice Mammoth (A) (MOUNT!)

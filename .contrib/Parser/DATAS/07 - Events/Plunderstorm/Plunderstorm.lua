@@ -534,26 +534,29 @@ root(ROOTS.HiddenQuestTriggers, {
 	})),
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, REMOVED_11_1_0 } }, {
 		n(PLUNDERSTORM, {
-			q(86212),	-- Purchased Swabbie's Shovel
-			q(86213),	-- Purchased Swabbie's Oar
-			q(86218),	-- Purchased Plunderlord's Stormridden Neck-Severer
-			q(86219),	-- Purchased Plunderlord's Stormridden Rapier
-			q(86220),	-- Purchased Plunderlord's Stormridden Cutlass
-			q(86221),	-- Purchased Plunderlord's Stormridden Sigil
-			q(86225),	-- Purchased Plunderlord's Hand Cannon
-			q(86228),	-- Purchased First Mate's Dashing Cap
-			q(86229),	-- Purchased First Mate's Dashing Headgear
-			q(86231),	-- Purchased Plunderlord's Stormridden Tricorne
-			q(86232),	-- Purchased Plunderlord's Old Eye Patch
-			q(86233),	-- Purchased Plunderlord's Old Hat
-			q(86236),	-- Purchased Plunderlord's Stormridden Spaulders
-			q(86241),	-- Purchased Plunderlord's Stormridden Drapery
-			q(86244),	-- Purchased Plunderlord's Stormridden Waistcoat
-			q(86246),	-- Purchased Plunderlord's Stormridden Cuffs
-			q(86250),	-- Purchased Plunderlord's Stormridden Pilferers
-			q(86252),	-- Purchased Plunderlord's Stormridden Cinch
-			q(86256),	-- Purchased Plunderlord's Stormridden Trousers
-			q(86260),	-- Purchased Plunderlord's Stormridden Trousers
+			n(PLUNDERSTORE, {
+				q(86212),	-- Purchased Swabbie's Shovel
+				q(86213),	-- Purchased Swabbie's Oar
+				q(86218),	-- Purchased Plunderlord's Stormridden Neck-Severer
+				q(86219),	-- Purchased Plunderlord's Stormridden Rapier
+				q(86220),	-- Purchased Plunderlord's Stormridden Cutlass
+				q(86221),	-- Purchased Plunderlord's Stormridden Sigil
+				q(86225),	-- Purchased Plunderlord's Hand Cannon
+				q(86228),	-- Purchased First Mate's Dashing Cap
+				q(86229),	-- Purchased First Mate's Dashing Headgear
+				q(86231),	-- Purchased Plunderlord's Stormridden Tricorne
+				q(86232),	-- Purchased Plunderlord's Old Eye Patch
+				q(86233),	-- Purchased Plunderlord's Old Hat
+				q(86236),	-- Purchased Plunderlord's Stormridden Spaulders
+				q(86241),	-- Purchased Plunderlord's Stormridden Drapery
+				q(86244),	-- Purchased Plunderlord's Stormridden Waistcoat
+				q(86246),	-- Purchased Plunderlord's Stormridden Cuffs
+				q(86250),	-- Purchased Plunderlord's Stormridden Pilferers
+				q(86252),	-- Purchased Plunderlord's Stormridden Cinch
+				q(86256),	-- Purchased Plunderlord's Stormridden Trousers
+				q(86260),	-- Purchased Plunderlord's Stormridden Trousers
+			}),
+			q(89346),	-- Opening Storm-Singed Plunder
 		}),
 	})),
 });
