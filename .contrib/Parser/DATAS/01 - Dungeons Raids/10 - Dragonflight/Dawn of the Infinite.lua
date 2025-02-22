@@ -610,6 +610,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(134758),	-- Covert Mageblade						(Removed)
 		ig(14145),	-- Cursed Felblade						(Removed)
 		ig(134783),	-- Seasoned Quickblade					(Removed)
+		ig(25145),	-- Wisdom Blade
 	}),
 	i(208123, {	-- Quantum Wand
 		hqt(77610, {	-- when you learn everything from Quantum Wand

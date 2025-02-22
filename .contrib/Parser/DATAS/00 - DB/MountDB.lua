@@ -1941,8 +1941,8 @@ i(233240, 437162);	-- Polly Roger
 i(233489, 474086);	-- Prismatic Snapdragon
 i(233242, 254812);	-- Royal Seafeather
 i(233354, 473861);	-- Savage Alabaster Battle Turtle
-i(0, 1216422);		-- Sha-Warped Cloud Serpent
-i(0, 1216430);		-- Sha-Warped Riding Tiger
+i(235286, 1216422);	-- Sha-Warped Cloud Serpent
+i(235287, 1216430);	-- Sha-Warped Riding Tiger
 i(223313, 448934);	-- Shadow of Doubt
 i(233243, 300154);	-- Silver Tidestallion
 i(233023, 472487);	-- Silvermoon Sweeper

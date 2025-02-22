@@ -497,9 +497,9 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",
 			["g"] = {
-				mount(1216422),	-- Sha-Warped Cloud Serpent (MOUNT!)
-				mount(1216430),	-- Sha-Warped Riding Tiger (MOUNT!)
-				pet(4733),	-- Merriment (PET!)
+				i(235286),	-- Sha-Warped Cloud Serpent (MOUNT!)
+				i(235287),	-- Sha-Warped Riding Tiger (MOUNT!)
+				i(235358),	-- Merriment (PET!)
 				i(235288),	-- Sha-Warped Tea Set (TOY!)
 				-- Ensemble: Stormstout's Sha-Warped Collection transmog
 				-- TODO: added in MoP Classic Prepatch

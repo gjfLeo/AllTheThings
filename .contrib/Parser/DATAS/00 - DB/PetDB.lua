@@ -4274,7 +4274,7 @@ i(232531, 4691);	-- Grunch
 i(233252, 4435);	-- Happy
 i(232923, 4704);	-- Living Rose
 i(233056, 4708);	-- Marmaduke
-i(0, 4733);			-- Merriment
+i(235358, 4733);	-- Merriment
 i(235989, 4695);	-- Parley
 i(232653, 4694);	-- Portentous Present
 i(166358, 2541);	-- Proper Parrot
