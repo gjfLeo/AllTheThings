@@ -6102,7 +6102,7 @@ app.AddEventHandler("OnRecalculateDone", CheckNewSettings)
 local function ForceUpdateWindows()
 	app.HandleEvent("OnUpdateWindows", true)
 end
-app.AddEventHandler("OnRefreshCollectionsDone", ForceUpdateWindows)
+app.AddEventHandler("OnRecalculateDone", ForceUpdateWindows)
 end	-- Dynamic/Main Data
 
 do -- Search Response Logic
