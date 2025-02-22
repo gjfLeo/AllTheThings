@@ -163,7 +163,12 @@ is(136971, 211010, SHAMAN);			-- Tome of Hex: Snake
 -----------------
 is(147580, 242155, HUNTER);			-- Tome of the Hybrid Beast
 -- NYI --
-is(147770, nil, HUNTER);				-- Tome of the PTR Beast
+is(147770, nil, HUNTER);			-- Tome of the PTR Beast
+
+-----------------
+-- PATCH 7.3.0 --
+-----------------
+iq(152964, 49006);					-- Krokul Flute
 
 -----------------
 -- PATCH 8.0.1 --

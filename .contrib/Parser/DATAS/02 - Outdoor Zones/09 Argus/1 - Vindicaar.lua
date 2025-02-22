@@ -526,7 +526,6 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 						}, {	-- Revered
 							i(153197),	-- Boon of the Steadfast
 							i(152964, {	-- Krokul Flute
-								["collectible"] = false,
 								["filterID"] = CONSUMABLES,
 							}),
 							i(151707),	-- Recipe: Astral Alchemist Stone [Rank 2] (RECIPE!)
