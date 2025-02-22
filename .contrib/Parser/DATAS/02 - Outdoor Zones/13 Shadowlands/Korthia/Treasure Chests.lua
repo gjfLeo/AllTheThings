@@ -296,8 +296,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					{ 44.6, 75.8, KORTHIA },
 					{ 49.2, 54.5, KORTHIA },
 				},
-				["questID"] = 64565,
-				["isDaily"] = true,
 				["g"] = {
 					i(186999),	-- Pattern: Pallid Bone Flute (RECIPE!)
 					i(187007),	-- Recipe: Bonemeal Bread (RECIPE!)
@@ -307,7 +305,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			o(369292, {	-- Relic Cache
 				["description"] = "Piles of Bones, Relic Caches, and Shardhide Stashes all share a series of 5 daily quests.\n\nThe daily lockout is ONLY for receiving Relic Fragments - you can still loot the treasures after the final quest is collected for the day; you just won't receive any fragments.",
 				["providers"] = {
+					{ "o", 369292 },	-- Relic Cache
 					{ "o", 369294 },	-- Relic Cache
+					{ "o", 369310 },	-- Relic Cache
 				},
 				["coords"] = {
 					{ 44.0, 56.0, KORTHIA },
@@ -338,8 +338,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					{ 61.4, 38.1, KORTHIA },
 					{ 62.4, 37.5, KORTHIA },
 				},
-				["questID"] = 64565,
-				["isDaily"] = true,
 				["g"] = {
 					i(186993),	-- Design: Porous Stone Statue (RECIPE!)
 				},
@@ -358,44 +356,44 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					{ 51.3, 29.7, KORTHIA },
 					{ 52.3, 27.0, KORTHIA },
 				},
-				["questID"] = 64565,
-				["isDaily"] = true,
 				["g"] = {
 					i(187442),	-- Scholar's Ancient Pack
 				},
 			}),
-			n(179772, {	-- Spectral Bound Chest
-				-- Object 369200
+			o(369200, {	-- Spectral Bound Chest
 				["description"] = "Requires collecting three |cFFFFFFFFSpectral Keys|r.  Use your preferred method of daily quest tracking to see the locations of the keys.",
 				["isDaily"] = true,
 				["questID"] = 64247,
 				["coord"] = { 62.1, 55.4, KORTHIA },
+				["sourceQuests"] = {
+					64248,	-- Spectral Key
+					64249,	-- Spectral Key
+					64250,	-- Spectral Key
+				},
 				["g"] = {
-					-- Object 369290
-					q(64249, {	-- First Chain
-						["name"] = "First Chain",
+					o(369290, {	-- Spectral Key
+						["questID"] = 64249,
+						["isDaily"] = true,
 						["coords"] = {
 							{ 50.5, 53.7, KORTHIA },	-- next to a large bush
 							{ 52.3, 53.2, KORTHIA },	-- between the two large rocks
 							{ 52.6, 49.7, KORTHIA },	-- next to the building on top of a flat rock
 							{ 54.2, 50.6, KORTHIA },	-- inside the building
 						},
-						["isDaily"] = true,
 					}),
-					-- Object 369291
-					q(64250, {	-- Second Chain
-						["name"] = "Second Chain",
+					o(369291, {	-- Spectral Key
+						["questID"] = 64250,
+						["isDaily"] = true,
 						["coords"] = {
 							{ 59.2, 56.7, KORTHIA },	-- next to a bush
 							{ 60.3, 56.5, KORTHIA },	-- next to the anima pool
 							{ 61.0, 58.7, KORTHIA },	-- behind the building
 							{ 62.1, 57.7, KORTHIA },	-- hidden in a bush between two trees
 						},
-						["isDaily"] = true,
 					}),
-					-- Object 369289
-					q(64248, {	-- Third Chain
-						["name"] = "Third Chain",
+					o(369289, {	-- Spectral Key
+						["questID"] = 64248,
+						["isDaily"] = true,
 						["coords"] = {
 							{ 57.5, 49.3, KORTHIA },	-- next to a leaning pillar
 							{ 59.1, 48.7, KORTHIA },	-- north side of the chain
@@ -403,7 +401,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							{ 61.5, 47.3, KORTHIA },	-- on the ground sort of disguised by similarly-colored anima vein
 							{ 62.8, 51.4, KORTHIA },	-- next to a cage, between two packs of mawrats
 						},
-						["isDaily"] = true,
 					}),
 					i(187016),	-- Eviscerator's Spiked Mantle
 					i(187026),	-- Field Warden's Torture Kit
@@ -426,17 +423,18 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				q(64317),	-- 2nd loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
 				q(64318),	-- 3rd loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash)
 				q(64564),	-- 4th loot of shared treasure in Korthia (Pile of Bones, Relic Cache, Shardhide Stash) - this # loot used to be 64309, but they changed it at some point on PTR
+				q(64565),	-- not 100% sure what specifically triggers this, but it's not the objects linked
 				q(64310, name(HEADERS.Item, 186731)),	-- looting a Repaired Riftkey (also pops when looting one from rares)
 				q(64311, name(HEADERS.Item, 186718)),	-- looting a Teleporter Repair Kit (also pops looting one from rares)
 				q(64700, name(HEADERS.Item, 187328)),	-- looting 100-research item Ripped Cosmology Chart
 				q(64702, name(HEADERS.Item, 187462)),	-- looting 48-research item Scroll of Shadowlands Fables
 				q(64705),	-- looting 150-research item from a treasure
-				q(64787),	-- Korthia treasure repeatable quest
-				q(64788),	-- Pile of Bones repeatable quest (37.1, 53.6)
-				q(64789),	-- Shardhide Stash repeatable quest (49.6, 26.8; 50.4, 31.2)
-				q(64790),	-- Relic Cache repeatable quest (59.8, 36.0; 61.4, 38.1)
-				q(64791),	-- Relic Cache repeatable quest
-				q(64792),	-- Relic Cache repeatable quest
+				q(64787, name(HEADERS.Object, 369297)),	-- Pile of Bones repeatable quest
+				q(64788, name(HEADERS.Object, 369297)),	-- Pile of Bones repeatable quest (37.1, 53.6)
+				q(64789, name(HEADERS.Object, 369296)),	-- Shardhide Stash repeatable quest (49.6, 26.8; 50.4, 31.2)
+				q(64790, name(HEADERS.Object, 369292)),	-- Relic Cache repeatable quest (59.8, 36.0; 61.4, 38.1)
+				q(64791, name(HEADERS.Object, 369292)),	-- Relic Cache repeatable quest
+				q(64792, name(HEADERS.Object, 369292)),	-- Relic Cache repeatable quest
 			}),
 		}),
 	}),
