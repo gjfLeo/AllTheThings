@@ -384,9 +384,12 @@ app.AddCollectionTypeHandler("ItemWithAppearance", function(t)
 		-- app.PrintDebug("Completionist Report",app:SearchLink(t))
 		local sourceID = t.sourceID
 		if not t._missing then
-			app.print(L.ITEM_ID_ADDED:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), t.itemID))
+			if app.Settings:GetTooltipSetting("Report:Collected") then
+				app.print(L.ITEM_ID_ADDED:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), t.itemID))
+			end
 		else
 			local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID)
+			-- always report missing
 			app.print(L.ITEM_ID_ADDED_MISSING:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo and sourceInfo.itemID, app.Version))
 		end
 		app.HandleEvent("OnThingCollected", t)
@@ -409,10 +412,7 @@ app.AddCollectionTypeHandler("ItemWithAppearance", function(t)
 			end
 		else
 			-- always report missing
-			if app.Settings:GetTooltipSetting("Report:Collected") then
-				app.print(L.ITEM_ID_ADDED_SHARED:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), t.itemID, newAppearancesLearned));
-			end
-			app.HandleEvent("OnThingCollected", t)
+			app.print(L[newCollected and "ITEM_ID_ADDED_SHARED_MISSING" or "ITEM_ID_ADDED_MISSING"]:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, newAppearancesLearned, app.Version));		app.HandleEvent("OnThingCollected", t)
 			app.UpdateRawIDs(tkey, unlockedSourceIDs)
 		end
 	end
@@ -427,7 +427,9 @@ app.AddRemovalTypeHandler("ItemWithAppearance", function(t)
 		-- Completionist
 		-- app.PrintDebug("Completionist Remove",app:SearchLink(t))
 		local sourceID = t.sourceID
-		app.print(L.ITEM_ID_REMOVED:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), t.itemID))
+		if app.Settings:GetTooltipSetting("Report:Collected") then
+			app.print(L.ITEM_ID_REMOVED:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), t.itemID))
+		end
 		app.HandleEvent("OnThingRemoved", t)
 	else
 		-- Unique
@@ -438,7 +440,9 @@ app.AddRemovalTypeHandler("ItemWithAppearance", function(t)
 		local uniqueRemoved = #removedSourceIDs
 		-- TODO eventual setting to control reporting of already collected Things
 		if uniqueRemoved > 0 then
-			app.print(L.ITEM_ID_REMOVED_SHARED:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, uniqueRemoved))
+			if app.Settings:GetTooltipSetting("Report:Collected") then
+				app.print(L.ITEM_ID_REMOVED_SHARED:format(app:SearchLink(t) or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, uniqueRemoved))
+			end
 			app.HandleEvent("OnThingRemoved", t)
 			app.UpdateRawIDs(tkey, removedSourceIDs)
 		end
