@@ -525,9 +525,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 							i(153027),	-- Orphaned Marsuul (PET!)
 						}, {	-- Revered
 							i(153197),	-- Boon of the Steadfast
-							i(152964, {	-- Krokul Flute
-								["filterID"] = CONSUMABLES,
-							}),
+							i(152964),	-- Krokul Flute (CI!)
 							i(151707),	-- Recipe: Astral Alchemist Stone [Rank 2] (RECIPE!)
 						}, {	-- Exalted
 							i(152669),	-- Argussian Reach Tabard
