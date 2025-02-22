@@ -669,6 +669,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			["provider"] = { "o", 182957 },	-- Highland Mixed School
 			["coords"] = {
 				{ 59.6, 59.85, TEROKKAR_FOREST },	-- Lake Ere'Noru
+				{ 46.6, 40.7, TEROKKAR_FOREST },	-- Lake Jorune
 				{ 66.0, 78.3, TEROKKAR_FOREST },	-- Skettis
 			},
 		}),
@@ -1365,7 +1366,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		i(22055),	-- Wound Poison V
 	})),
 	prof(SKINNING, {
-		["description"] = "The following items can be gathered by skinning creatures out in the world.",
+		["description"] = "The following items can be gathered by skinning creatures on Outland. Note that Knothide Leader is the most common reagent to get from skinning. All other skinned reagents have a lower than 100% drop chance from skinning the respective mobs, thus you must expect having to skin multiple creatures to obtain the reagent.",
 		["groups"] = {
 			i(29539, {    -- Cobra Scales
 				["crs"] = {
@@ -1385,12 +1386,152 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(25699, {    -- Crystal-Infused Leather
-				["description"] = "Is skinned from basilisks.",
+				["crs"] = {
+					18461,	-- Dampscale Basilisk
+					18463,	-- Dampscale Devourer
+					20924,	-- Grishnath Basilisk
+					21816,	-- Ironspine Chomper
+					19730,	-- Ironspine Gazer
+					21854,	-- Ironspine Petrifier
+					19729,	-- Ironspine Threshalisk
+					20283,	-- Marshrock Stomper
+					19706,	-- Marshrock Threshalisk
+					16934,	-- Quillfang Ravager
+					19189,	-- Quillfang Skitterer
+					20279,	-- Ragestone Threshalisk
+					20280,	-- Ragestone Trampler
+					16932,	-- Razorfang Hatchling
+					16933,	-- Razorfang Ravager
+					20987,	-- Ruuan Weald Basilisk
+					20925,	-- Scalded Basilisk
+					22180,	-- Shard-Hide Boar
+					19349,	-- Thornfang Ravager
+					19350,	-- Thornfang Venomspitter
+					-- #if AFTER 2.1.0
+					23169,	-- Nethermine Flayer
+					23326,	-- Nethermine Ravager
+					23264,	-- Overmine Flayer
+					-- #endif
+				},
+				["coords"] = {
+					{ 64.5, 33.0, BLADES_EDGE_MOUNTAINS },	-- Veil Ruuan
+					{ 72.4, 20.2, BLADES_EDGE_MOUNTAINS },	-- Skald
+					{ 67.5, 11.7, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine East
+					{ 61.0, 11.0, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine West
+					{ 40.2, 18.4, BLADES_EDGE_MOUNTAINS },	-- Grishnath
+					{ 32.1, 55.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit North
+					{ 29.5, 67.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit South
+					{ 38.5, 88.3, HELLFIRE_PENINSULA }, -- Razorthorn Trail
+					{ 22.9, 67.2, HELLFIRE_PENINSULA }, -- Dustquill Ravine
+					{ 8.7, 50.8, HELLFIRE_PENINSULA }, -- Thornfang Hill
+					{ 68.5, 44.4, NETHERSTORM }, -- Voidwind Plateu
+					{ 39.3, 9.7, TEROKKAR_FOREST },	-- Silmyr Lake
+					{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
+					{ 62.4, 49.0, TEROKKAR_FOREST },	-- Bonechewer Ruins, west of
+					{ 68.7, 30.5, TEROKKAR_FOREST },	-- Firewing Point, northwest of
+					{ 88.1, 33.6, ZANGARMARSH }, -- Dead Mire East
+					{ 78.1, 30.0, ZANGARMARSH }, -- Dead Mire North
+					{ 34.7, 18.0, ZANGARMARSH }, -- Hewn Bog, north of
+					{ 24.7, 19.1, ZANGARMARSH }, -- Daggerfen Village, north of
+					{ 14.9, 28.9, ZANGARMARSH }, -- Ango'rosh, west of
+					{ 8.3, 52.7, ZANGARMARSH }, -- Sporewind Lake, west of
+					-- #if AFTER 2.1.0
+					{ 63.0, 07.8, SHADOWMOON_VALLEY }, -- Netherwing Mines (entrance)
+					{ 73.0, 85.4, SHADOWMOON_VALLEY }, -- Netherwing Ledge flayer hill
+					-- #endif
+				},
+				["description"] = "Can be efficiently farmed in Blade's Edge Mountains and Zangarmarsh using a route from the southwestern end of Zangarmarsh following the western edge northwards and later eastwards to Blade's Edge Mountains. Then fly up to and follow the Vortex Summit, down again to Grishnath, and east up again following the Crystal Spine, over to Skald, and down to Veil Ruuan.\n\nCan also be found on basilisks all over Terokkar Forest, most of them dropping Dampscale Basilisk Eye.\n\nSkinning most mobs can also give Fel Scales",
 			}),
-			i(25707),	-- Fel Hide
-			i(25700),	-- Fel Scales
-			i(21887),	-- Knothide Leather
-			i(25649),	-- Knothide Leather Scraps
+			i(25707, {    -- Fel Hide
+				["crs"] = {
+					19852,	-- Artifact Seeker
+					23219,	-- Blackwind Warp Chaser
+					22255,	-- Daggertail Lizard
+					16863,	-- Deranged Helboar
+					16177,	-- Dreadbeast
+					16880,	-- Hulking Helboar
+					16950,	-- Netherhound
+					16178,	-- Phase Hound
+					16176,	-- Shadowbeast
+					18884,	-- Warp Chaser
+					18465,	-- Warp Hunter
+					18464,	-- Warp Stalker
+					20557,	-- Wrath Hound
+				},
+				["coords"] = {
+					{ 67.5, 11.7, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine East
+					{ 61.0, 11.0, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine West
+					{ 34.8, 40.4, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Wrath
+					{ 20.3, 55.8, HELLFIRE_PENINSULA }, -- Shanaari Wastes, east of
+					{ 49.5, 71.5, HELLFIRE_PENINSULA }, -- Honour Hold, southwest of
+					{ 49.5, 31.3, HELLFIRE_PENINSULA }, -- Stonewall Canyon
+					{ 63.1, 70.7, HELLFIRE_PENINSULA }, -- Zeth'gor, west of
+					{ 72.1, 57.0, HELLFIRE_PENINSULA }, -- The Legion Front South
+					{ 72.8, 42.4, HELLFIRE_PENINSULA }, -- The Legion Front North
+					{ 40.8, 72.5, NETHERSTORM }, -- Arklon Ruins
+					{ 56.4, 60.0, NETHERSTORM }, -- The Vortex Fields west
+					{ 66.3, 61.8, NETHERSTORM }, -- The Vortex Fields east
+					{ 65.9, 85.0, TEROKKAR_FOREST },	-- Blackwind Lake Southside
+					{ 60.3, 38.7, TEROKKAR_FOREST },	-- Tuurem, southeast of
+					{ 20.6, 73.5, TEROKKAR_FOREST },	-- Veil Lithic, vest of
+				},
+			}),
+			i(25700, {	-- Fel Scales
+				["crs"] = {
+					18461,	-- Dampscale Basilisk
+					18463,	-- Dampscale Devourer
+					20924,	-- Grishnath Basilisk
+					21816,	-- Ironspine Chomper
+					19730,	-- Ironspine Gazer
+					21854,	-- Ironspine Petrifier
+					19729,	-- Ironspine Threshalisk
+					20283,	-- Marshrock Stomper
+					19706,	-- Marshrock Threshalisk
+					16934,	-- Quillfang Ravager
+					19189,	-- Quillfang Skitterer
+					20279,	-- Ragestone Threshalisk
+					20280,	-- Ragestone Trampler
+					16932,	-- Razorfang Hatchling
+					16933,	-- Razorfang Ravager
+					20987,	-- Ruuan Weald Basilisk
+					20925,	-- Scalded Basilisk
+					22180,	-- Shard-Hide Boar
+					19349,	-- Thornfang Ravager
+					19350,	-- Thornfang Venomspitter
+				},
+				["coords"] = {
+					{ 64.5, 33.0, BLADES_EDGE_MOUNTAINS },	-- Veil Ruuan
+					{ 72.4, 20.2, BLADES_EDGE_MOUNTAINS },	-- Skald
+					{ 67.5, 11.7, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine East
+					{ 61.0, 11.0, BLADES_EDGE_MOUNTAINS },	-- Crystal Spine West
+					{ 40.2, 18.4, BLADES_EDGE_MOUNTAINS },	-- Grishnath
+					{ 32.1, 55.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit North
+					{ 29.5, 67.0, BLADES_EDGE_MOUNTAINS },	-- Vortex Summit South
+					{ 38.5, 88.3, HELLFIRE_PENINSULA }, -- Razorthorn Trail
+					{ 22.9, 67.2, HELLFIRE_PENINSULA }, -- Dustquill Ravine
+					{ 8.7, 50.8, HELLFIRE_PENINSULA }, -- Thornfang Hill
+					{ 68.5, 44.4, NETHERSTORM }, -- Voidwind Plateu
+					{ 39.3, 9.7, TEROKKAR_FOREST },	-- Silmyr Lake
+					{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
+					{ 62.4, 49.0, TEROKKAR_FOREST },	-- Bonechewer Ruins, west of
+					{ 68.7, 30.5, TEROKKAR_FOREST },	-- Firewing Point, northwest of
+					{ 88.1, 33.6, ZANGARMARSH }, -- Dead Mire East
+					{ 78.1, 30.0, ZANGARMARSH }, -- Dead Mire North
+					{ 34.7, 18.0, ZANGARMARSH }, -- Hewn Bog, north of
+					{ 24.7, 19.1, ZANGARMARSH }, -- Daggerfen Village, north of
+					{ 14.9, 28.9, ZANGARMARSH }, -- Ango'rosh, west of
+					{ 8.3, 52.7, ZANGARMARSH }, -- Sporewind Lake, west of
+				},
+				["description"] = "Can be efficiently farmed in Blade's Edge Mountains and Zangarmarsh using a route from the southwestern end of Zangarmarsh following the western edge northwards and later eastwards to Blade's Edge Mountains. Then fly up to and follow the Vortex Summit, down again to Grishnath, and east up again following the Crystal Spine, over to Skald, and down to Veil Ruuan.\n\nCan also be found on basilisks all over Terokkar Forest, most of them dropping Dampscale Basilisk Eye.\n\nSkinning all mobs can also give Crystal-Infused Leather.",
+			}),
+			i(21887, {	-- Knothide Leather
+				["description"] = "Can be skinned from any skinnable TBC mobs.",
+			}),
+			i(25649, {	-- Knothide Leather Scraps
+				["groups"] = {
+					i(21887),	-- Knothide Leather
+				},
+			}),
 			i(29548, {    -- Nether Dragonscales
 				["description"] = "Is skinned from Netherwing drakes in Outland. Characters who have started the Netherwing questline can only kill Netherwing drakes in Blade's Edge Nountains and Netherstorm, and then it requires the player to toggle 'At War' with the Netherwing in the reputation panel. Killing Netherwing drakes does not lower the reputation with the faction.",
 				["crs"] = {
@@ -1405,8 +1546,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 68.35, 61.0, SHADOWMOON_VALLEY }, -- Dragonmaw Fortress
 				},
 			}),
-			i(35229),	-- Nether Residue
-			i(25708),	-- Thick Clefthoof Leather
+			i(35229),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
 			i(25708, {    -- Thick Clefthoof Leather
 				["description"] = "Clefthoofs can be found all over Nagrand.",
 				["crs"] = {
