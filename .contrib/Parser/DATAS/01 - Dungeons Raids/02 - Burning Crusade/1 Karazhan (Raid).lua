@@ -5,6 +5,7 @@ local REMOVED_WITH_RETURN_TO_KARAZHAN = { REMOVED_7_1_0 };
 root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, {
 	inst(745, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {	-- Karazhan (Raid)
 		["lore"] = "Karazhan is an abandoned citadel located on a nexus of ley lines in southern Deadwind Pass. The tower is best known for its last known occupant - Medivh, the last Guardian of Tirisfal. After Medivh was killed by Khadgar, Anduin Lothar, and Garona, the tower sealed itself off from the rest of the world. But recently, Karazhan has reawakened - an evil presence has taken the tower as its own, its halls crawling with spirits and demons, and Medivh's presence is still alive and well, even decades after his death.",
+		["description"] = "The best route for a fuil clear:\n1. Turn right immediately after going through the Gatehouse Door and enter the Servant's Quarters.\n2. From the western bat room goes a passage up to the Guest Chambers. Ignore the passage to the right until this section is cleared.\n3. Ignore the Opera Hall, go downstairs through the ballroom to Moroes and further though the kitchen and stables for Attumen the Huntsman. Here you will also find the practical vendor Koren (requires Honored with The Violet Eye).\n4. Back to the Gatehouse and upstairs to the Opera Hall, from here is the raid linear to last boss.",
 		-- #if BEFORE LEGION
 		["zone-text-areaID"] = 2562,	-- Karazhan
 		-- #endif
@@ -673,28 +674,40 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				i(30667),	-- Ring of Unrelenting Storms
 			}),
 			e(1552, {	-- Servant's Quarters
-				["description"] = "The following rares are repeatable if you don't kill any other bosses in raid. Reset the raid after killing. Only one will be active at a time.",
+				["description"] = "One of the following rares will spawn after clearing 90% of the mobs in the Servant's Quarters. An emote will appear in the General Chat when one of the spawns. This is not a boss encounter, thus you can leave the raid, reset the instance and repeat the process as many times as you want as long as no bosses are killed.",
 				-- #if BEFORE MOP
 				["npcID"] = RARES,
 				-- #endif
 				["groups"] = {
+					prof(SKINNING, {
+						i(25707),	-- Fel Hide
+					}),
 					n(16181, {	-- Rokad the Ravager
-						i(30686),	-- Ravager's Bands
-						i(30687),	-- Ravager's Bracers
-						i(30684),	-- Ravager's Cuffs
-						i(30685),	-- Ravager's Wrist-Wraps
+						["description"] = "Spawns innermost in the big hounds room.",
+						["groups"] = {
+							i(30686),	-- Ravager's Bands
+							i(30687),	-- Ravager's Bracers
+							i(30684),	-- Ravager's Cuffs
+							i(30685),	-- Ravager's Wrist-Wraps
+						},
 					}),
 					n(16179, {	-- Hyakiss the Lurker
-						i(30677),	-- Lurker's Belt
-						i(30675),	-- Lurker's Cord
-						i(30678),	-- Lurker's Girdle
-						i(30676),	-- Lurker's Grasp
+						["description"] = "Spawns in the northwestern corner of the big spider room. This rare is in stealth thus can be hard to find.",
+						["groups"] = {
+							i(30677),	-- Lurker's Belt
+							i(30675),	-- Lurker's Cord
+							i(30678),	-- Lurker's Girdle
+							i(30676),	-- Lurker's Grasp
+						},
 					}),
 					n(16180, {	-- Shadikith the Glider
-						i(30681),	-- Glider's Boots
-						i(30680),	-- Glider's Foot-Wraps
-						i(30683),	-- Glider's Greaves
-						i(30682),	-- Glider's Sabatons
+						["description"] = "Spawns in the eastern bat room.",
+						["groups"] = {
+							i(30681),	-- Glider's Boots
+							i(30680),	-- Glider's Foot-Wraps
+							i(30683),	-- Glider's Greaves
+							i(30682),	-- Glider's Sabatons
+						},
 					}),
 				},
 			}),
@@ -772,6 +785,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			e(1556, {	-- Opera Hall
 				["creatureID"] = 16812,	-- Barnes <The Stage Manager>
+				["description"] = "|CFFFF0000Moroes MUST be killed before you are allowed to participate in the Opera event.|r",
 				["groups"] = {
 					n(COMMON_BOSS_DROPS, {
 						["description"] = "These items can drop from any of the Opera Hall bosses.",
@@ -866,6 +880,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				-- #else
 				["description"] = "Requires the completion of a complex questline to be summoned via the Blackened Urn.",
 				-- #endif
+				-- #else
+				["description"] = "Nightbane is summoned by interacting with the object Blackened Urn, found 2/3rd through the Master's Terrace (from a clockwise direction).",
 				-- #endif
 				["groups"] = {
 					i(28604),	-- Nightstaff of the Everliving
@@ -911,6 +927,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			e(1560, {	-- Terestian Illhoof
 				["creatureID"] = 15688,
+				["description"] = "|CFFFF0000This boss is easy to miss!|r Working your way upwards through Guardian's Library, you will find the passage sloping slightly down to a room with a Disconcerting Bookshelf. This bookshelf reveals the hidden corridor to the boss.",
 				["groups"] = {
 					i(22561),	-- Formula: Enchant Weapon - Soulfrost (RECIPE!)
 					i(138799, {	-- Illusion: Soulfrost (ILLUSION!)
@@ -966,6 +983,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			e(1561, {	-- Netherspite
 				["creatureID"] = 15689,
+				["description"] = "At the top of Guardian's Library does the passage split in two, a left upwards and a right downwards. The left passage takes you to Netherspite, and the right takes you to the two last bosses.",
 				["groups"] = {
 					i(28729),	-- Spiteblade
 					i(28734),	-- Jewel of Infinite Possibilities
@@ -987,6 +1005,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			e(1562, {	-- Chess Event
 				["creatureID"] = 16816,	-- Echo of Medivh
 				["provider"] = { "o", 185119 },	-- Dust Covered Chest
+				-- #if AFTER 9.0.2
+				["description"] = "You have two options with this chess event: Either actively play it through with a higher success rate. Or immediately leave the king vehicle after starting the event and take a 5 minute break from the game, this have a 50% success rate.",
+				-- #endif
 				["groups"] = {
 					i(28749),	-- King's Defender
 					i(28754),	-- Triptych Shield of the Ancients
