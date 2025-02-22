@@ -165,6 +165,13 @@ do
 			end,
 		});
 
+		local PerCharacterSpecies = {
+			[280] = true, 	-- Guild Page [A]
+			[281] = true, 	-- Guild Page [H]
+			[282] = true,	-- Guild Herald [A]
+			[283] = true,	-- Guild Herald [H]
+			-- ...etc
+		}
 		local function RefreshBattlePets()
 			-- app.PrintDebug("RCBP",C_PetJournal_GetNumPets())
 			local totalPets, ownedPets = C_PetJournal_GetNumPets()
@@ -180,6 +187,7 @@ do
 			end
 
 			wipe(CollectedSpeciesHelper)
+			local acct, char = {}, {}
 			local petID, speciesID
 			ownedPets = ownedPets or totalPets
 			for i=1,ownedPets do
@@ -188,11 +196,19 @@ do
 				if petID then
 					PetIDSpeciesIDHelper[petID] = speciesID
 				end
-				-- placeholder assignment for metatable
-				petID = CollectedSpeciesHelper[speciesID]
+				if PerCharacterSpecies[speciesID] then
+					char[speciesID] = CollectedSpeciesHelper[speciesID];
+				else
+					acct[speciesID] = CollectedSpeciesHelper[speciesID];
+				end
 			end
+			-- wipe the character/account cache in case bad data is cached somehow
+			-- or pets caged and removed while ATT is not loaded
+			app.WipeCached(CACHE)
+			app.WipeCached(CACHE, true)
 			-- Cache all ids which are known
-			app.SetBatchAccountCached(CACHE, CollectedSpeciesHelper, 1)
+			app.SetBatchCached(CACHE, char, 1)
+			app.SetBatchAccountCached(CACHE, acct, 1)
 			-- app.PrintDebug("RCBP-Done")
 		end
 		app.AddEventHandler("OnRefreshCollections", RefreshBattlePets)
