@@ -104,7 +104,6 @@ do
 				-- PetID are strings
 				local speciesID = C_PetJournal_GetPetInfoByPetID(key);
 				if speciesID then
-					CollectedSpeciesHelper[speciesID] = 1;
 					t[key] = speciesID;
 				end
 				return speciesID;
