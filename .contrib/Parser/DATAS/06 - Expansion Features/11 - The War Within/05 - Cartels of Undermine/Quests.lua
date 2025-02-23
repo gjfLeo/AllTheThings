@@ -105,7 +105,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(232463),	-- Overflowing Undermine Trove
 					},
 				}),
-				faction(FACTION_TWW_BILGEWATER_CARTEL, {	-- Bilgewater Cartel
+				header(HEADERS.Faction, FACTION_TWW_BILGEWATER_CARTEL, {
 					q(88870, {	-- Honored with the Bilgewater Cartel
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
@@ -143,7 +143,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				}),
-				faction(FACTION_TWW_BLACKWATER_CARTEL, {	-- Blackwater Cartel
+				header(HEADERS.Faction, FACTION_TWW_BLACKWATER_CARTEL, {
 					q(88876, {	-- Honored with the Blackwater Cartel
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
@@ -181,7 +181,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				}),
-				faction(FACTION_DARKFUSE_SOLUTIONS, {	-- Darkfuse Solutions
+				header(HEADERS.Faction, FACTION_DARKFUSE_SOLUTIONS, {
 					q(85808, {	-- Exalted with Darkfuse Solutions (Paragon)
 						["provider"] = { "n", 231396 },	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
 					--	["coord"] = { 63.2, 17.2, UNDERMINE },
@@ -193,7 +193,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				}),
-				faction(FACTION_TWW_STEAMWHEEDLE_CARTEL, {	-- Steamwheedle Cartel
+				header(HEADERS.Faction, FACTION_TWW_STEAMWHEEDLE_CARTEL, {
 					q(88873, {	-- Honored with the Steamwheedle Cartel
 						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
 						["coord"] = { 27.6, 72.8, UNDERMINE },
@@ -231,7 +231,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				}),
-				faction(FACTION_TWW_VENTURE_CO, {	-- Venture Co
+				header(HEADERS.Faction, FACTION_TWW_VENTURE_CO, {
 					q(88879, {	-- Honored with the Venture Co
 						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
 						["coord"] = { 53.2, 72.6, UNDERMINE },
