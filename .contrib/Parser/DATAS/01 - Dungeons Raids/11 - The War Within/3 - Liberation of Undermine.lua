@@ -10,7 +10,6 @@ local LOCKENSTOCK = 2653;
 local BANDIT = 2644;
 local MUGZEE = 2645;
 local GALLYWIX = 2646;
-local FACTION_GLRC = 2685;
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
@@ -315,7 +314,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				ach(41289),	-- Liberation of Undermine Guild Run
 				ach(41290),	-- Heroic: Liberation of Undermine Guild Run
 			}),
-			n(FACTIONS, {
+			--[[n(FACTIONS, {
 				faction(GLRC, {
 					{		-- RENOWN 1 --
 					}, {	-- RENOWN 2 --
@@ -345,7 +344,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					--	title(xx),	-- High Roller <Name> 
 					},
 				}),
-			}),
+			}),--]]
 			Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
 				BossOnly(VEXIE),
 				BossOnly(CARNAGE),

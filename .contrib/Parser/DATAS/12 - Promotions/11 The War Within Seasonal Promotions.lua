@@ -218,6 +218,24 @@ root(ROOTS.Promotions, {
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between January 14th, 10:00 a.m. & February 4th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.58911" },
 			}),
+			cnONLY(i(235344, {	-- Blazing Royal Fire Hawk (CN Only)
+				["description"] = "Rewarded from the Treasure Workshop.",
+				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+			})),
+			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
+				["description"] = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop.",
+				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+				["groups"] = {
+					cnONLY(i(227362)),	-- Golden Ashes of Al'ar (CN Only)
+					cnONLY(i(49284)),	-- Reins of the Swift Spectral Tiger
+					cnONLY(i(49283)),	-- Reins of the Spectral Tiger
+					cnONLY(i(49286)),	-- X-51 Nether-Rocket X-TREME
+					cnONLY(i(49285)),	-- X-51 Nether-Rocket
+					cnONLY(i(45047)),	-- Sandbox Tiger
+					cnONLY(i(35223)),	-- Papa Hummel's Old-Fashioned Pet Biscuit
+					cnONLY(i(46779)),	-- Path of Cenarius
+				},
+			})),
 			i(231297, {	-- Timbered Sky Snake (MOUNT!)
 				["description"] = "Obtained if you set up a 6-Month WoW Subscription.",
 				["timeline"] = { ADDED_11_0_7, },

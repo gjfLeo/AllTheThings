@@ -317,6 +317,25 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
 			}),
 			-- add flying spectral tiger (yes) to chinese server only
+			-- https://www.wowhead.com/news/netease-celebrates-20-years-of-wow-with-chinese-exclusive-flying-spectral-tiger-349280
+			cnONLY(i(235344, {	-- Blazing Royal Fire Hawk (CN Only)
+				["description"] = "Rewarded from the Treasure Workshop.",
+				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+			})),
+			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
+				["description"] = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop.",
+				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+				["groups"] = {
+					cnONLY(i(227362)),	-- Golden Ashes of Al'ar (CN Only)
+					cnONLY(i(49284)),	-- Reins of the Swift Spectral Tiger
+					cnONLY(i(49283)),	-- Reins of the Spectral Tiger
+					cnONLY(i(49286)),	-- X-51 Nether-Rocket X-TREME
+					cnONLY(i(49285)),	-- X-51 Nether-Rocket
+					cnONLY(i(45047)),	-- Sandbox Tiger
+					cnONLY(i(35223)),	-- Papa Hummel's Old-Fashioned Pet Biscuit
+					cnONLY(i(46779)),	-- Path of Cenarius
+				},
+			})),
 		},
 	}),
 	-- #endif

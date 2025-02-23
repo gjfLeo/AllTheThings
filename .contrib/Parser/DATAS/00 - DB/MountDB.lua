@@ -1962,16 +1962,18 @@ i(229952, 466023);	-- Asset Advocator
 i(0, 466024);		-- Bildewater Bombardier
 i(0, 466001);		-- Blackwater Bonecrusher
 i(229948, 466019);	-- Blackwater Shredder Deluxe Mk 2
+i(235344, 1216542);	-- Blazing Royal Fire Hawk (CN Only)
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(229935, 465999);	-- Crimson Armored Growler
 i(0, 1217235);		-- Crimson Shreddertank
-i(0, 466000),		-- Darkfuse Chompactor
+i(0, 466000);		-- Darkfuse Chompactor
 i(229950, 466018);	-- Darkfuse Demolisher
 i(229955, 466027);	-- Darkfuse Spy-Eye
 i(229974, 466133);	-- Delver's Gob-Trotter
 i(237141, 1221694);	-- Enterprising Shreddertank
 i(0, 466011);		-- Flarendo the Furious
 i(232523, 460013);	-- G-99 Breakneck
+i(227362, 459784);	-- Golden Ashes of Al'ar (CN Only)
 i(229941, 466017);	-- Innovation Investigator
 i(0, 468068);		-- Junkmaestro's Magnetomech
 i(229954, 466025);	-- Margin Manipulator
@@ -1989,10 +1991,9 @@ i(0, 466022);		-- Venture Co-ordinator
 i(0, 466146);		-- Vicious Electro Eel [A]
 i(0, 466145);		-- Vicious Electro Eel [H]
 i(229936, 466002);	-- Violet Armored Growler
---- UNSORTED ---
-i(235344, 1216542);	-- Blazing Royal Fire Hawk
+i(229947, 466021);	-- Violet Goblin Shredder
+-- TRADING POST TAG
 i(235662, 1218069);	-- Emerald Snail
-i(227362, 459784);	-- Golden Ashes of Al'ar
 i(235555, 1217341);	-- Lively Darkmoon Charger
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
@@ -2002,7 +2003,6 @@ i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly
 i(235556, 1217342);	-- Violet Darkmoon Charger
-i(229947, 466021);	-- Violet Goblin Shredder
 --- Probably not real Mounts
 i(0, 466423);	-- Unstable Rocket
 i(0, 466464);	-- Unstable Rocket
