@@ -506,6 +506,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				--}),
 			},
 		}),
+	})),
 	-- #else
 	n(MOP_CLASSIC_HEROIC_PACK, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 		n(HEROIC_EDITION, {
