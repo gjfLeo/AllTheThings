@@ -46,34 +46,36 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(231405, {	-- Boatswain Hardee <Blackwater Quartermaster>
 				["coord"] = { 63.4, 16.7, UNDERMINE },
-				["g"] = {
-					-- Friendly
-					i(236763),	-- Finder's Fee
-					-- Honored
-					i(236671, {	-- The Buzzer (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-					}),
-					i(235671, {	-- Blackwater Cartel Banner (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Revered
-					i(232839, {	-- Wavebreaker Mechasaur (PET!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-					}),
-					i(235801, {	-- Personal Fishing Barge (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Exalted
-					i(229948, {	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
-					}),
-					i(231528, {	-- Blackwater Undermine Tabard (COSMETIC!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-					}),
-					i(235390, {	-- Paint: Body Roll Blue (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-					}),
-				}
+				["g"] = bubbleDownClassicRep(FACTION_TWW_BLACKWATER_CARTEL, {
+					{		-- Neutral
+					}, {	-- Friendly
+						i(236763),	-- Finder's Fee
+					}, {	-- Honored
+						i(236671, {	-- The Buzzer (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
+						}),
+						i(235671, {	-- Blackwater Cartel Banner (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Revered
+						i(232839, {	-- Wavebreaker Mechasaur (PET!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
+						}),
+						i(235801, {	-- Personal Fishing Barge (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Exalted
+						i(229948, {	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
+						}),
+						i(231528, {	-- Blackwater Undermine Tabard (COSMETIC!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
+						}),
+						i(235390, {	-- Paint: Body Roll Blue (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
+						}),
+					},
+				}),
 			}),
 			n(239523, {	-- Brondo Packrat
 				["coord"] = { 29.0, 53.8, UNDERMINE },
@@ -151,96 +153,102 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(231408, {	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
 				["coord"] = { 27.5, 72.8, UNDERMINE },
-				["g"] = {
-					-- Friendly
-					i(236689),	-- Finder's Fee
-					-- Honored
-					i(236670, {	-- Maniacal Melodies (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-					}),
-					i(235669, {	-- Steamwheedle Cartel Banner (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Revered
-					i(232853, {	-- Eepy (PET!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-					}),
-					i(226373, {	-- Everlasting Noggenfogger Elixir (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Exalted
-					i(229956, {	-- Mean Green Flying Machine (MOUNT!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
-					}),
-					i(231527, {	-- Steamwheedle Undermine Tabard (COSMETIC!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-					}),
-					i(235389, {	-- Paint: Goblin Green (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-					}),
-				}
+				["g"] = bubbleDownClassicRep(FACTION_TWW_STEAMWHEEDLE_CARTEL, {
+					{		-- Neutral
+					}, {	-- Friendly
+						i(236689),	-- Finder's Fee
+					}, {	-- Honored
+						i(236670, {	-- Maniacal Melodies (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
+						}),
+						i(235669, {	-- Steamwheedle Cartel Banner (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Revered
+						i(232853, {	-- Eepy (PET!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
+						}),
+						i(226373, {	-- Everlasting Noggenfogger Elixir (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Exalted
+						i(229956, {	-- Mean Green Flying Machine (MOUNT!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
+						}),
+						i(231527, {	-- Steamwheedle Undermine Tabard (COSMETIC!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
+						}),
+						i(235389, {	-- Paint: Goblin Green (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
+						}),
+					},
+				}),
 			}),
 			n(231406, {	-- Rocco Razzboom <Bilgewater Quartermaster>
 				["coord"] = { 39.2, 22.2, UNDERMINE },
-				["g"] = {
-					-- Friendly
-					i(236764),	-- Finder's Fee
-					-- Honored
-					i(236672, {	-- The Ol' Low-and-Slow (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-					}),
-					i(235670, {	-- Bilgewater Cartel Banner (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Revered
-					i(232845, {	-- Bilgewater Junkhauler (PET!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-					}),
-					i(235807, {	-- Storefront-in-a-Box (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Exalted
-					i(229935, {	-- Crimson Armored Growler (MOUNT!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
-					}),
-					i(231526, {	-- Bilgewater Undermine Tabard (COSMETIC!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-					}),
-					i(235388, {	-- Paint: Redlining Red (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-					}),
-				}
+				["g"] = bubbleDownClassicRep(FACTION_TWW_BILGEWATER_CARTEL, {
+					{		-- Neutral
+					}, {	-- Friendly
+						i(236764),	-- Finder's Fee
+					}, {	-- Honored
+						i(236672, {	-- The Ol' Low-and-Slow (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
+						}),
+						i(235670, {	-- Bilgewater Cartel Banner (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Revered
+						i(232845, {	-- Bilgewater Junkhauler (PET!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
+						}),
+						i(235807, {	-- Storefront-in-a-Box (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Exalted
+						i(229935, {	-- Crimson Armored Growler (MOUNT!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
+						}),
+						i(231526, {	-- Bilgewater Undermine Tabard (COSMETIC!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
+						}),
+						i(235388, {	-- Paint: Redlining Red (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
+						}),
+					},
+				}),
 			}),
 			n(231407, {	-- Shredz the Scrapper <Venture Quartermaster>
 				["coord"] = { 53.3, 72.7, UNDERMINE },
-				["g"] = {
-					-- Friendly
-					i(236765),	-- Finder's Fee
-					-- Honored
-					i(236669, {	-- The Whole Brass Band (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-					}),
-					i(235672, {	-- Venture Co. Banner (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Revered
-					i(232851, {	-- Rocketfist (PET!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-					}),
-					i(235799, {	-- Throwin' Sawblade (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
-					-- Exalted
-					i(229946, {	-- Ocher Delivery Rocket (MOUNT!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
-					}),
-					i(231542, {	-- Venture Co. Undermine Tabard (COSMETIC!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-					}),
-					i(235391, {	-- Paint: Yellow Cake Yellow (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-					}),
-				}
+				["g"] = bubbleDownClassicRep(FACTION_TWW_VENTURE_CO, {
+					{		-- Neutral
+					}, {	-- Friendly
+						i(236765),	-- Finder's Fee
+					}, {	-- Honored
+						i(236669, {	-- The Whole Brass Band (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
+						}),
+						i(235672, {	-- Venture Co. Banner (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Revered
+						i(232851, {	-- Rocketfist (PET!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
+						}),
+						i(235799, {	-- Throwin' Sawblade (TOY!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+					}, {	-- Exalted
+						i(229946, {	-- Ocher Delivery Rocket (MOUNT!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
+						}),
+						i(231542, {	-- Venture Co. Undermine Tabard (COSMETIC!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
+						}),
+						i(235391, {	-- Paint: Yellow Cake Yellow (MM!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
+						}),
+					},
+				}),
 			}),
 			n(228286, {	-- Skedgit Cinderbangs <Entrepreneur Inc.>
 				["coord"] = { 43.0, 82.8, UNDERMINE },
@@ -259,15 +267,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(231396, {	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
 			--	["coord"] = { 63.4, 16.7, UNDERMINE },
-				["g"] = {
-					-- Friendly
-					-- Honored
-					-- Revered
-					-- Exalted
-					i(229950, {	-- Darkfuse Demolisher (MOUNT!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
-					}),
-				}
+				["g"] = bubbleDownClassicRep(FACTION_DARKFUSE_SOLUTIONS, {
+					{		-- Neutral
+					}, {	-- Friendly
+					}, {	-- Honored
+					}, {	-- Revered
+					}, {	-- Exalted
+						i(229950, {	-- Darkfuse Demolisher (MOUNT!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
+						}),
+					},
+				}),
 			}),
 		}),
 	}),
