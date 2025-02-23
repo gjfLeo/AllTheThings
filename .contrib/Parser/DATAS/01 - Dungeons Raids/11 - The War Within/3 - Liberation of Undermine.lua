@@ -315,7 +315,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				ach(41290),	-- Heroic: Liberation of Undermine Guild Run
 			}),
 			--[[n(FACTIONS, {
-				faction(GLRC, {
+				["g"] = bubbleDownRep(FACTION_GLCR, {
 					{		-- RENOWN 1 --
 					}, {	-- RENOWN 2 --
 					}, {	-- RENOWN 3 --
