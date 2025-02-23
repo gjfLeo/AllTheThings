@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["description"] = "Requires someone with Renown 6 with the Cartels of Undermine and in possession of a 'Canister of Darkfuse Solution' to talk to the De-Pollution Station X1119 NPC to start an event to spawn it.",
 				["crs"] = {	231329 },	-- De-Pollution Station X1119
 				-- ToDO: Find the Source for Darkfuse Solutions
-				["cost"] = {{"i", 229823, 1},	-- Canister of Darkfuse Solution
+				["cost"] = {{"i", 229823, 1}},	-- Canister of Darkfuse Solution
 			--	["coord"] = { 26.5, 68.4, UNDERMINE },
 			--	["questID"] = 84877,
 				["isWeekly"] = true,
