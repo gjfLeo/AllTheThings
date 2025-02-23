@@ -81,7 +81,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 			ach(41595),	-- Prized Guise
 		})),
 		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
-			mount(466146 {	-- Vicious Electro Eel [A]
+			mount(466146, {	-- Vicious Electro Eel [A]
 				["races"] = ALLIANCE_ONLY,
 			}),
 			mount(466145, {	-- Vicious Electro Eel [H]

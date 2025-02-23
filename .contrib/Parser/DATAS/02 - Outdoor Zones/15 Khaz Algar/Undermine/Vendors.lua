@@ -44,6 +44,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(237321),	-- Scoring Guide: Start Counter
 				},
 			}),
+			n(231405, {	-- Boatswain Hardee <Blackwater Quartermaster>
+				["coord"] = { 63.4, 16.7, UNDERMINE },
+				["g"] = {
+					-- Friendly
+					i(236763),	-- Finder's Fee
+					-- Honored
+					i(236671, {	-- The Buzzer (MM!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
+					}),
+					i(235671, {	-- Blackwater Cartel Banner (TOY!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+					}),
+					-- Revered
+					i(232839, {	-- Wavebreaker Mechasaur (PET!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
+					}),
+					i(235801, {	-- Personal Fishing Barge (TOY!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+					}),
+					-- Exalted
+					i(229948, {	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
+					}),
+					i(231528, {	-- Blackwater Undermine Tabard (COSMETIC!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
+					}),
+					i(235390, {	-- Paint: Body Roll Blue (MM!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
+					}),
+				}
+			}),
 			n(239523, {	-- Brondo Packrat
 				["coord"] = { 29.0, 53.8, UNDERMINE },
 				["g"] = {
@@ -202,34 +233,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 				}
 			}),
-			n(231405, {	-- Boatswain Hardee <Blackwater Quartermaster>
-				["coord"] = { 63.4, 16.7, UNDERMINE },
+			n(231396, {	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
+			--	["coord"] = { 63.4, 16.7, UNDERMINE },
 				["g"] = {
 					-- Friendly
-					i(236763),	-- Finder's Fee
 					-- Honored
-					i(236671, {	-- The Buzzer (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-					}),
-					i(235671, {	-- Blackwater Cartel Banner (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
 					-- Revered
-					i(232839, {	-- Wavebreaker Mechasaur (PET!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-					}),
-					i(235801, {	-- Personal Fishing Barge (TOY!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-					}),
 					-- Exalted
-					i(229948, {	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
-					}),
-					i(231528, {	-- Blackwater Undermine Tabard (COSMETIC!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-					}),
-					i(235390, {	-- Paint: Body Roll Blue (MM!)
-						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
+					i(229950, {	-- Darkfuse Demolisher (MOUNT!)
+						["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
 					}),
 				}
 			}),

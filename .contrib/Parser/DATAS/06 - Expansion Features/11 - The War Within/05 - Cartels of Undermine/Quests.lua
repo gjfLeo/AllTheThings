@@ -109,7 +109,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88870, {	-- Honored with the Bilgewater Cartel
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
-						["isRepeatable"] = true,
 						["g"] = {
 							i(234745),	-- Bilgewater's Trove (Green)
 						},
@@ -117,7 +116,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88871, {	-- Revered with the Bilgewater Cartel
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
-						["isRepeatable"] = true,
 						["g"] = {
 							i(235258),	-- Bilgewater's Trove (Blue)
 						},
@@ -125,7 +123,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88872, {	-- Exalted with the Bilgewater Cartel
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
-						["isRepeatable"] = true,
 						["g"] = {
 							i(235259),	-- Bilgewater's Trove (Epic)
 						},
@@ -145,7 +142,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88876, {	-- Honored with the Blackwater Cartel
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
-						["isRepeatable"] = true,
 						["g"] = {
 							i(234744),	-- Blackwater's Trove (Green)
 						},
@@ -153,7 +149,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88877, {	-- Revered with the Blackwater Cartel
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
-						["isRepeatable"] = true,
 						["g"] = {
 							i(235260),	-- Blackwater's Trove (Blue)
 						},
@@ -161,7 +156,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88878, {	-- Exalted with the Blackwater Cartel
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
-						["isRepeatable"] = true,
 						["g"] = {
 							i(235261),	-- Blackwater's Trove (Purple)
 						},
@@ -171,7 +165,87 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 63.2, 17.2, UNDERMINE },
 						["isRepeatable"] = true,
 						["g"] = {
-							i(237135),	-- Blackwater Trove (Paragon)
+							i(237135, {	-- Blackwater Trove (Paragon)
+								mount(466001),		-- Blackwater Bonecrusher (MOUNT!)
+							}),
+						},
+					}),
+				}),
+				faction(FACTION_DARKFUSE_SOLUTIONS, {	-- Darkfuse Solutions
+					q(85808, {	-- Exalted with Darkfuse Solutions (Paragon)
+						["provider"] = { "n", 231396 },	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
+					--	["coord"] = { 63.2, 17.2, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(232465, {	-- Darkfuse Trove (Paragon)
+								i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
+							}),
+						},
+					}),
+				}),
+				faction(FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, {	-- Steamwheedle Cartel
+					q(88873, {	-- Honored with the Steamwheedle Cartel
+						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
+						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["g"] = {
+							i(235262),	-- Steamwheedle's Trove (Green)
+						},
+					}),
+					q(88874, {	-- Revered with the Steamwheedle Cartel
+						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
+						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["g"] = {
+							i(234743),	-- Steamwheedle's Trove (Blue)
+						},
+					}),
+					q(88875, {	-- Exalted with the Steamwheedle Cartel
+						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
+						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["g"] = {
+							i(235263),	-- Steamwheedle's Trove (Purple)
+						},
+					}),
+					q(85809, {	-- Exalted with the Steamwheedle Cartel (Paragon)
+						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
+						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(237134, {	-- Steamwheedle Trove (Paragon)
+								mount(466014),		-- Steamwheedle Supplier (MOUNT!)
+							}),
+						},
+					}),
+				}),
+				faction(FACTION_VENTURE_CO, {	-- Venture Co
+					q(88879, {	-- Honored with the Venture Co
+						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
+						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["g"] = {
+							i(234746),	-- Venture Co's Trove (Green)
+						},
+					}),
+					q(88880, {	-- Revered with the Venture Co
+						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
+						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["g"] = {
+							i(235264),	-- Venture Co's Trove (Blue)
+						},
+					}),
+					q(88881, {	-- Exalted with the Venture Co
+						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
+						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["g"] = {
+							i(235265),	-- Venture Co's Trove (Purple)
+						},
+					}),
+					q(85810, {	-- Exalted with the Venture Co (Paragon)
+						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
+						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(237133, {	-- Venture Co Trove (Paragon)
+								mount(466022),		-- Venture Co-ordinator (MOUNT!)
+							}),
 						},
 					}),
 				}),
