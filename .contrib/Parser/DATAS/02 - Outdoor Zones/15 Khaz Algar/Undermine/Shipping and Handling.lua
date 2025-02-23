@@ -6,14 +6,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		--header(HEADERS.Quest, 74906, {	-- Researchers Under Fire
 			n(ACHIEVEMENTS, {
 			}),
-			n(RARES, sharedData({ ["isWeekly"] = true }, {
-			})),
+		--	n(RARES, sharedData({ ["isWeekly"] = true }, {
+		--	})),
 			n(EVENT_COMPLETION, {
 				i(236756),	-- Socially Expected Tip Chest	(Green Quality)
 				i(236757),	-- Generous Tip Chest			(Blue Quality)
 				i(236758, {	-- Extravagant Tip Chest		(Purple Quality)
-					i(229947),	-- Violet Goblin Shredder (MOUNT!)
 				}),
+				i(229947),	-- Violet Goblin Shredder (MOUNT!)
 			}),
 		--}),
 	}),

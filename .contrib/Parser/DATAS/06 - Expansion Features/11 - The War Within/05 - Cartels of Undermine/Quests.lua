@@ -105,10 +105,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(232463),	-- Overflowing Undermine Trove
 					},
 				}),
-				faction(FACTION_UNDERMINE_BILGEWATER_CARTEL, {	-- Bilgewater Cartel
+				faction(FACTION_TWW_BILGEWATER_CARTEL, {	-- Bilgewater Cartel
 					q(88870, {	-- Honored with the Bilgewater Cartel
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BILGEWATER_CARTEL, HONORED },	-- Bilgewater Cartel Honored
 						["g"] = {
 							i(234745),	-- Bilgewater's Trove (Green)
 						},
@@ -116,6 +117,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88871, {	-- Revered with the Bilgewater Cartel
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BILGEWATER_CARTEL, REVERED },	-- Bilgewater Cartel Revered
 						["g"] = {
 							i(235258),	-- Bilgewater's Trove (Blue)
 						},
@@ -123,6 +125,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88872, {	-- Exalted with the Bilgewater Cartel
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BILGEWATER_CARTEL, EXALTED },	-- Bilgewater Cartel Exalted
 						["g"] = {
 							i(235259),	-- Bilgewater's Trove (Epic)
 						},
@@ -130,6 +133,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(85806, {	-- Exalted with the Bilgewater Cartel (Paragon)
 						["provider"] = { "n", 231406 },	-- Rocco Razzboom
 						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BILGEWATER_CARTEL, EXALTED },	-- Bilgewater Cartel Exalted
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237132, {	-- Bilgewater Trove (Paragon)
@@ -139,10 +143,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				}),
-				faction(FACTION_BLACKWATER_CARTEL, {	-- Blackwater Cartel
+				faction(FACTION_TWW_BLACKWATER_CARTEL, {	-- Blackwater Cartel
 					q(88876, {	-- Honored with the Blackwater Cartel
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BLACKWATER_CARTEL, HONORED },	-- Blackwater Cartel Honored
 						["g"] = {
 							i(234744),	-- Blackwater's Trove (Green)
 						},
@@ -150,6 +155,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88877, {	-- Revered with the Blackwater Cartel
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BLACKWATER_CARTEL, REVERED },	-- Blackwater Cartel Revered
 						["g"] = {
 							i(235260),	-- Blackwater's Trove (Blue)
 						},
@@ -157,6 +163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88878, {	-- Exalted with the Blackwater Cartel
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BLACKWATER_CARTEL, EXALTED },	-- Blackwater Cartel Exalted
 						["g"] = {
 							i(235261),	-- Blackwater's Trove (Purple)
 						},
@@ -164,6 +171,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(85807, {	-- Exalted with the Blackwater Cartel (Paragon)
 						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
 						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_BLACKWATER_CARTEL, EXALTED },	-- Blackwater Cartel Exalted
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237135, {	-- Blackwater Trove (Paragon)
@@ -185,10 +193,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				}),
-				faction(FACTION_UNDERMINE_STEAMWHEEDLE_CARTEL, {	-- Steamwheedle Cartel
+				faction(FACTION_TWW_STEAMWHEEDLE_CARTEL, {	-- Steamwheedle Cartel
 					q(88873, {	-- Honored with the Steamwheedle Cartel
 						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
 						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_STEAMWHEEDLE_CARTEL, HONORED },	-- Steamwheedle Cartel Honored
 						["g"] = {
 							i(235262),	-- Steamwheedle's Trove (Green)
 						},
@@ -196,6 +205,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88874, {	-- Revered with the Steamwheedle Cartel
 						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
 						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_STEAMWHEEDLE_CARTEL, REVERED },	-- Steamwheedle Cartel Revered
 						["g"] = {
 							i(234743),	-- Steamwheedle's Trove (Blue)
 						},
@@ -203,6 +213,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88875, {	-- Exalted with the Steamwheedle Cartel
 						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
 						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamwheedle Cartel Exalted
 						["g"] = {
 							i(235263),	-- Steamwheedle's Trove (Purple)
 						},
@@ -210,6 +221,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(85809, {	-- Exalted with the Steamwheedle Cartel (Paragon)
 						["provider"] = { "n", 231408 },	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
 						["coord"] = { 27.6, 72.8, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_STEAMWHEEDLE_CARTEL, EXALTED },	-- Steamwheedle Cartel Exalted
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237134, {	-- Steamwheedle Trove (Paragon)
@@ -219,10 +231,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				}),
-				faction(FACTION_VENTURE_CO, {	-- Venture Co
+				faction(FACTION_TWW_VENTURE_CO, {	-- Venture Co
 					q(88879, {	-- Honored with the Venture Co
 						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
 						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_VENTURE_CO, HONORED },	-- Venture Co Honored
 						["g"] = {
 							i(234746),	-- Venture Co's Trove (Green)
 						},
@@ -230,6 +243,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88880, {	-- Revered with the Venture Co
 						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
 						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_VENTURE_CO, REVERED },	-- Venture Co Revered
 						["g"] = {
 							i(235264),	-- Venture Co's Trove (Blue)
 						},
@@ -237,6 +251,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(88881, {	-- Exalted with the Venture Co
 						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
 						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_VENTURE_CO, EXALTED },	-- Venture Co Exalted
 						["g"] = {
 							i(235265),	-- Venture Co's Trove (Purple)
 						},
@@ -244,6 +259,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					q(85810, {	-- Exalted with the Venture Co (Paragon)
 						["provider"] = { "n", 231407 },	-- Shredz the Scrapper <Venture Quartermaster>
 						["coord"] = { 53.2, 72.6, UNDERMINE },
+						["minReputation"] = { FACTION_TWW_VENTURE_CO, EXALTED },	-- Venture Co Exalted
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237133, {	-- Venture Co Trove (Paragon)
