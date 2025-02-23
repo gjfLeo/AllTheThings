@@ -3540,8 +3540,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						n(1977, {	-- Senator Mehr Stonehallow --
 							--	Danny Donkey:	Repeating the same description is not a perfect solution.
-							--					2025/01/01: Assuming the quest resets yearly, it does NOT reset 1. January, whether it be at 00:00, server restart, or daily/weekly reset.
-							--					2025/02/23: Found unflagged again. Could it be related to holidays (Winter Veil/Call of the Scarabs/Lunar Festival/Love is in the Air)?
+							--					2025/02/23: Found unflagged again. Molkree says this quest propably got added by mistake to a list of quests to be marked as incomplete on a yearly basis. All yearly quests resets 15/01.
 							-- #if AFTER 9.1.5
 							["description"] = "The quest 'A Public Servant' get flagged as not completed on a yearly basis, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
 							-- #elseif ANYCLASSIC
