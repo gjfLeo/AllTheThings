@@ -38,6 +38,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						}),
 					},
 				}),
+				q(85269, {	-- Boom Balloon
+					["coord"] = { 37.0, 30.8, UNDERMINE },
+					["g"] = {
+						o(508718, {	-- Rooftop Teleporter
+							["coord"] = { 37.4, 33.7, UNDERMINE },
+						}),
+					},
+				}),
 				q(85263, {	-- Boomball
 					["coord"] = { 66.0, 60.3, UNDERMINE },
 				}),

@@ -79,8 +79,7 @@ root(ROOTS.Unsorted, {
 				-- Delve Loot?
 				i(234125),	-- Public Defender's Coat
 				i(234185),	-- Dr. Scrapheal
-				i(234326),	-- Core Recycling Unit
-
+				
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
 				i(235423),	-- Expensive Gemstone Ring
@@ -412,7 +411,6 @@ root(ROOTS.Unsorted, {
 				i(232930),	-- Zaps Leadfoot
 				i(233021),	-- Grappling-Grabber 9000
 				i(233054),	-- Wonder Ball
-				i(233055),	-- Corpse Cleaner
 				i(233210),	-- Pungent Putrigill
 				i(234421),	-- Web Bomb
 				i(234616),	-- Supreme Mangoro Madness

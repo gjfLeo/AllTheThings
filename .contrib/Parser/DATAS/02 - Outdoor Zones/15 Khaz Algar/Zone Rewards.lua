@@ -175,5 +175,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 		i(235610, {	-- Seasoned Adventurer's Cache
 			["timeline"] = { ADDED_11_1_0 },
 		}),
+		i(239120, {	-- Seasoned Adventurer's Cache
+			--TODO: WTF is going on? Reward from Special Assigment: Cinderbee Surge (82355)
+			["timeline"] = { ADDED_11_1_0 },
+		}),
 	}),
 })));

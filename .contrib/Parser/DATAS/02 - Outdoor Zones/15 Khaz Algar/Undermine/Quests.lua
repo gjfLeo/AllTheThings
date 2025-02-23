@@ -1341,22 +1341,24 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 42.8, 52.2, UNDERMINE },
 			}),
 			-- Renown 6 + one of cartel hqt locked
-			-- TODO: as of 58999 (rc build) this can pop for you, but if you are with wrong contract - rare kill won't count
-			-- unless this will be fixed later on - comment out sourceQuest
+			-- TODO: as of 59241 kills count and quest also counted as completed, despite you cannot pop them by yourself, unless you are with proper contract
 			q(86414, {	-- Magno-Scrapper 9000
-				["sourceQuests"] = { 84951 },	-- HQT: Bilgewater Cartel weekly contract
+				--["sourceQuests"] = { 84951 },	-- HQT: Bilgewater Cartel weekly contract
 				["provider"] = { "n", 234819 },	-- Ragzy Cashgrab
 				["coord"] = { 40.0, 22.4, UNDERMINE },
 				["isDaily"] = true,
+				["g"] = {
+					o(503440),	-- Discarded Goods
+				},
 			}),
 			q(86390, {	-- Noggenfogger Nuisance
-				["sourceQuests"] = { 84952 },	-- HQT: Steamwheedle Cartel weekly contract
+				--["sourceQuests"] = { 84952 },	-- HQT: Steamwheedle Cartel weekly contract
 				["provider"] = { "n", 234751 },	-- Noggenfogger Recall Technician
 				["coord"] = { 32.0, 76.5, UNDERMINE },
 				["isDaily"] = true,
 			}),
 			q(86428, {	-- Voltstrike the Charged
-				["sourceQuests"] = { 84954 },	-- HQT: Blackwater Cartel weekly contract
+				--["sourceQuests"] = { 84954 },	-- HQT: Blackwater Cartel weekly contract
 				["provider"] = { "n", 234834 },	-- Boatwright Frankle
 				["coord"] = { 61.4, 25.2, UNDERMINE },
 				["isDaily"] = true,
@@ -1367,7 +1369,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(86431, {	-- Scrapchewer
-				["sourceQuests"] = { 84953 },	-- HQT: Venture Co. weekly contract
+				--["sourceQuests"] = { 84953 },	-- HQT: Venture Co. weekly contract
 				["provider"] = { "n", 236035 },	-- Scrapminer Krazzik
 				["coord"] = { 56.7, 79.0, UNDERMINE },
 				["isDaily"] = true,

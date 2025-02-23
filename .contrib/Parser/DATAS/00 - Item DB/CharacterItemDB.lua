@@ -707,7 +707,7 @@ iq(219289, 81618);	-- Puntable Tiny Snowman
 ------------------
 -- PATCH 11.1.0 --
 ------------------
---iq(234745, XXX);	-- Bilgewater's Trove (Honored)
+iq(234745, 86598);	-- Bilgewater's Trove (Honored)
 --iq(235258, XXX);	-- Bilgewater's Trove (Revered)
 --iq(235259, XXX);	-- Bilgewater's Trove (Exalted)
 iq(234744, 86750);	-- Blackwater's Trove (Honored)

@@ -683,6 +683,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					["timeline"] = { ADDED_11_1_0 },
 				}),
 				i(215174),	-- Concoction: Kiss of Death
+				i(234326, {	-- Core Recycling Unit
+					["timeline"] = { ADDED_11_1_0 },
+				}),
 				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
 				i(234217, {	-- Funhouse Lens
@@ -1504,6 +1507,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(235503),	-- Chunk of Companion Experience (Rare)
 				i(235502),	-- Chunk of Companion Experience (Epic)
 				-- Miscellaneous
+				i(233055),	-- Corpse Cleaner
 				i(233118),	-- Incontinental Takeout
 				i(233205),	-- Go-Go Juice
 				i(233062),	-- Pocket Pizza
@@ -1827,7 +1831,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 				}),
 				filter(COSMETIC, {
-					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars
+					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars TODO: questID - 86473
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0 },
 					}),
@@ -1894,7 +1898,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_1_0 },
 					}),
-					i(233186, {	-- Wave Scrambler 2000 (junk?)
+					i(233186, {	-- Wave Scrambler 2000
 						["cost"] = {{"c", UNDERCOIN, 1500}},
 						["timeline"] = { ADDED_11_1_0 },
 					}),
