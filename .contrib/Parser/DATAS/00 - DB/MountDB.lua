@@ -35,7 +35,7 @@ i(0, 471440);		-- Skybound Spectral Tiger (CN Only)
 -- Cata Classic --
 i(0, 463045);		-- Lava Drake
 i(0, 473487);		-- Sha-Touched Cloud Serpent
-i(0, 473478),		-- Sha-Touched Riding Tiger
+i(0, 473478);		-- Sha-Touched Riding Tiger
 --- NYI ---
 i(0, 388516);		-- Hao-Yue, River Foreseer
 i(198632, 387319);	-- Big Battle Bear
@@ -1929,11 +1929,13 @@ i(229418, 465235);	-- Trader's Gilded Brutosaur
 ------------------
 -- PATCH 11.0.7 --
 ------------------
+i(235344, 1216542);	-- Blazing Royal Fire Hawk (CN Only)
 i(212631, 432562);	-- Brilliant Sunburst Peafowl
 i(234730, 1214946);	-- Broodling of Sinestra
 i(234740, 1214974);	-- Copper-Maned Quilen
 i(190539, 367620);	-- Coral-Stalker Waveray
 i(0, 303767);		-- Honeyback Hivemother
+i(227362, 459784);	-- Golden Ashes of Al'ar (CN Only)
 i(233241, 471696);	-- Hooktalon
 i(235515, 473472);	-- Jani's Trashpile
 i(234716, 1214920);	-- Nightfall Skyreaver
@@ -1965,7 +1967,6 @@ i(229952, 466023);	-- Asset Advocator
 i(0, 466024);		-- Bildewater Bombardier
 i(0, 466001);		-- Blackwater Bonecrusher
 i(229948, 466019);	-- Blackwater Shredder Deluxe Mk 2
-i(235344, 1216542);	-- Blazing Royal Fire Hawk (CN Only)
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(229935, 465999);	-- Crimson Armored Growler
 i(0, 1217235);		-- Crimson Shreddertank
@@ -1976,7 +1977,6 @@ i(229974, 466133);	-- Delver's Gob-Trotter
 i(237141, 1221694);	-- Enterprising Shreddertank
 i(0, 466011);		-- Flarendo the Furious
 i(232523, 460013);	-- G-99 Breakneck
-i(227362, 459784);	-- Golden Ashes of Al'ar (CN Only)
 i(229941, 466017);	-- Innovation Investigator
 i(0, 468068);		-- Junkmaestro's Magnetomech
 i(229954, 466025);	-- Margin Manipulator
