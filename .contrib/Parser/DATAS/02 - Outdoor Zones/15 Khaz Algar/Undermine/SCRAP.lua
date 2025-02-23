@@ -1,6 +1,6 @@
--------------------------------------------------------------------
---      E X P A N S I O N   F E A T U R E S    M O D U L E       --
--------------------------------------------------------------------
+---------------------------------------------------
+--          Z O N E S        M O D U L E         --
+---------------------------------------------------
 local SCRAP = createHeader({
 	readable = "S.C.R.A.P.",
 	constant = "SCRAP",
@@ -8,8 +8,8 @@ local SCRAP = createHeader({
 		en = "S.C.R.A.P.",
 	},
 });
-root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-	n(CARTELS_OF_UNDERMINE, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
+	m(UNDERMINE, {
 		n(SCRAP, {
 			n(ACHIEVEMENTS, {
 				ach(41590),	-- No Littering
@@ -222,7 +222,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-	n(CARTELS_OF_UNDERMINE, {
+	m(UNDERMINE, {
 		n(SCRAP, {
 			-- Location quests
 			-- Fire only once per spot (for character?)

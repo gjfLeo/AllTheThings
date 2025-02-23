@@ -1,6 +1,6 @@
--------------------------------------------------------------------
---      E X P A N S I O N   F E A T U R E S    M O D U L E       --
--------------------------------------------------------------------
+---------------------------------------------------
+--          Z O N E S        M O D U L E         --
+---------------------------------------------------
 local CHETT = createHeader({
 	readable = "C.H.E.T.T.",
 	constant = "CHETT",
@@ -9,8 +9,8 @@ local CHETT = createHeader({
 	},
 });
 
-root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-	n(CARTELS_OF_UNDERMINE, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
+	m(UNDERMINE, {
 		n(CHETT, {
 			n(ACHIEVEMENTS, {
 				ach(41626),	-- C.H.E.T.T. a Look
