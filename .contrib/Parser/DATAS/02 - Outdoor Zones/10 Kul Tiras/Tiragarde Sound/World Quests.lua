@@ -173,6 +173,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(53950, {	-- Explosive Relief (H, Faction Assault WQ)
 				["races"] = HORDE_ONLY,
+				["g"] = {
+					o(307028, {	-- Azerite Gernades
+						i(164741),	-- Unstable Azerite Grenade
+					}),
+				},
 			}),
 			q(51284, {	-- Falcon Hunt
 				["races"] = ALLIANCE_ONLY,
@@ -252,6 +257,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(54268, {	-- Impulsive Propulsion (Faction Assault WQ)
 				["races"] = HORDE_ONLY,
+				["g"] = {
+					o(312155, {	-- Gallywix's Getaway Pack
+						["coord"] = { 87.6, 50.7, TIRAGARDE_SOUND },
+						["g"] = { i(165942) },	-- Gallywix's Getaway Pack (QI!) 
+					}),
+				},
 			}),
 			q(51664),	-- Kulett the Ornery
 			q(52760, {	-- Like Fish in a Barrel

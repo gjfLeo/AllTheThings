@@ -1514,6 +1514,8 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(53666, {	-- Armor Up!
 									["races"] = HORDE_ONLY,
+									["qg"] = 133374,	-- Drom'kal
+									["coord"] = { 58.9, 25.8, 943 },
 								}),
 								q(53677, {	-- Beasts of Newstead
 									["races"] = ALLIANCE_ONLY,
@@ -1552,6 +1554,8 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(51082, {	-- Iron Stores
 									["races"] = HORDE_ONLY,
+									["qg"] = 131750,	-- Lug'ruk
+									["coord"] = { 61.4, 25.6, 943 },
 									["g"] = {
 										i(159728),	-- Heavy Iron Key (QI!)
 									},
@@ -1561,15 +1565,21 @@ root(ROOTS.ExpansionFeatures,
 								}),
 								q(53665, {	-- Ready for Battle
 									["races"] = HORDE_ONLY,
+									["qg"] = 133959,	-- Lieutenant Akaro
+									["coord"] = { 60.6, 28.1, 943 },
 								}),
 								q(53674, {	-- The Altar's Power
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(53669, {	-- The Altar's Power
 									["races"] = HORDE_ONLY,
+									["qg"] = 131602,	-- Wistel Silversnitch
+									["coord"] = { 60.8, 25.3, 943 },
 								}),
 								q(53671, {	-- The Circle's Power
 									["races"] = HORDE_ONLY,
+									["qg"] = 144612,	-- Arcanist Ilira
+									["coord"] = { 69.5, 47.6, 943 },
 								}),
 								q(53676, {	-- The Circle's Power
 									["races"] = ALLIANCE_ONLY,

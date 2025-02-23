@@ -631,6 +631,7 @@ root(ROOTS.ExpansionFeatures,
 						header(HEADERS.AchCriteria, 12509.06, {	-- Death of a Tidesage
 							q(53066, {	-- Operation: Water Wise
 								["sourceQuests"] = { 51789 },	-- What Remains of Marshal M. Valentine
+								-- Popped for me upon earning the rep requirement (ShadowBrooks - Feb 22, 2025)
 								["isBreadcrumb"] = true,	-- were these removed?  it used to be automatically offered upon meeting a rep requirement, but it didn't pop up for me even though i already had the reputation
 								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 								["races"] = HORDE_ONLY,
@@ -703,6 +704,7 @@ root(ROOTS.ExpansionFeatures,
 						header(HEADERS.AchCriteria, 12509.07, {	-- At the Bottom of the Sea
 							q(53067, {	-- Operation: Bottom Feeder
 								["sourceQuests"] = { 52122 },	-- To Be Forsaken
+								-- Popped for me upon earning the rep requirement (ShadowBrooks - Feb 22, 2025)
 								["isBreadcrumb"] = true,	-- were these removed?  it used to be automatically offered upon meeting a rep requirement, but it didn't pop up for me even though i already had the reputation
 								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 								["races"] = HORDE_ONLY,
@@ -789,6 +791,8 @@ root(ROOTS.ExpansionFeatures,
 								["coord"] = { 40.4, 67.2, 1157 },
 								["races"] = HORDE_ONLY,
 							}),
+						}),
+						header(HEADERS.AchCriteria, 12509.08, {	-- The Strike on Boralus
 							q(53068, {	-- Operation: Hook and Line
 								["sourceQuests"] = { 52978 },	-- With Prince in Tow
 								["isBreadcrumb"] = true,
@@ -803,7 +807,7 @@ root(ROOTS.ExpansionFeatures,
 									53068,	-- Operation: Hook and Line
 									52978,	-- With Prince in Tow
 								},
-								["provider"] = { "n", 141644 },	-- Nathanos Blightcaller
+								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 								["coord"] = { 58.4, 62.6, ZULDAZAR },
 								["races"] = HORDE_ONLY,
 							}),

@@ -367,7 +367,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(54154, {	-- The Hills Have Spies (Faction Assault WQ)
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(165942),	-- Gallywix's Getaway Pack (QI!)
+					o(315933, {	-- Gallywix's Getaway Pack
+						["coord"] = { 37.0, 52.1, VOLDUN },
+						["g"] = { i(165942) },	-- Gallywix's Getaway Pack (QI!) 
+					}),
 					i(165656),	-- Spy Gear (QI!)
 				},
 			}),

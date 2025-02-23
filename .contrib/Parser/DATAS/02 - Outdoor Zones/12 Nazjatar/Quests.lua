@@ -2600,7 +2600,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["provider"] = { "o", 326140 },	-- Bounty Board
+			["provider"] = { "o", 326141 },	-- Bounty Board
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["g"] = {
 				i(168317),	-- Commander Sarj'eth's Head (QI!)
