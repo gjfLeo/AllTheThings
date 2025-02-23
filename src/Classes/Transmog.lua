@@ -1240,5 +1240,5 @@ if app.IsRetail then
 		app.WipeSearchCache()
 		app.CallbackHandlers.DelayedCallback(CheckForBoundSourceItems, 2)
 	end)
-	app.AddEventHandler("OnRefreshCollectionsDone", CheckForBoundSourceItems)
+	app.AddEventHandler("OnRecalculateDone", CheckForBoundSourceItems)
 end
