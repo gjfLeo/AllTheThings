@@ -1,5 +1,2 @@
 11.1.0.58221
 title(580),	-- Skyrocketer %s
-title(597),	-- Breaknecker %s
-title(606),	-- Darkfuse Diplomat %s
-title(617),	-- %s, "Employee" of the Month

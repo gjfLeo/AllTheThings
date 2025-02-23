@@ -316,37 +316,40 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 			n(FACTIONS, {
 				faction(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
-					["g"] = bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
-						{		-- RENOWN 1 --
-						}, {	-- RENOWN 2 --
-						}, {	-- RENOWN 3 --
-						}, {	-- RENOWN 4 --
-						}, {	-- RENOWN 5 --
-						}, {	-- RENOWN 6 --
-						}, {	-- RENOWN 7 --
-						}, {	-- RENOWN 8 --
-							mount(466012),		-- Thunderdrum Misfire	(MOUNT!)
-						}, {	-- RENOWN 9 --
-							-- Unlocks 2 Vendors outside of the Cauldron of Carnage will sell you miniaturized Battle Pets based on Torq & Flarendo, the Mecha Gorilla and Mechasaur bosses.
-							i(232844),			-- Fuz-Size Flarendo (PET!)
-							i(232806),			-- Tiny Torq
-						}, {	-- RENOWN 10 --
-						}, {	-- RENOWN 11 --
-							i(237578),			-- Counterfeit Dealer's Chip
-						}, {	-- RENOWN 12 --
-						}, {	-- RENOWN 13 --
-						}, {	-- RENOWN 14 --
-						}, {	-- RENOWN 15 --
-							i(237578),			-- Counterfeit Dealer's Chip
-						}, {	-- RENOWN 16 --
-						}, {	-- RENOWN 17 --
-							mount(466000),		-- Darkfuse Chompactor (MOUNT!)
-						}, {	-- RENOWN 18 --
-						}, {	-- RENOWN 19 --
-						}, {	-- RENOWN 20 --
-							mount(466011),		-- Flarendo the Furious (MOUNT!)
-							title(602),			-- High Roller <Name>
-						},
+					n(235621, {	-- Ando the Gat <Black Market Broker>
+						--["coord"] = { X, Y, UNDERMINE },
+						["g"] = bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+							{		-- RENOWN 1 --
+							}, {	-- RENOWN 2 --
+							}, {	-- RENOWN 3 --
+							}, {	-- RENOWN 4 --
+							}, {	-- RENOWN 5 --
+							}, {	-- RENOWN 6 --
+							}, {	-- RENOWN 7 --
+							}, {	-- RENOWN 8 --
+								i(466012),		-- Thunderdrum Misfire	(MOUNT!)
+							}, {	-- RENOWN 9 --
+								-- Unlocks 2 Vendors outside of the Cauldron of Carnage will sell you miniaturized Battle Pets based on Torq & Flarendo, the Mecha Gorilla and Mechasaur bosses.
+								i(232844),			-- Fuz-Size Flarendo (PET!)
+								i(232806),			-- Tiny Torq	(PET!)
+							}, {	-- RENOWN 10 --
+							}, {	-- RENOWN 11 --
+								i(237578),			-- Counterfeit Dealer's Chip
+							}, {	-- RENOWN 12 --
+							}, {	-- RENOWN 13 --
+							}, {	-- RENOWN 14 --
+							}, {	-- RENOWN 15 --
+								i(237578),			-- Counterfeit Dealer's Chip
+							}, {	-- RENOWN 16 --
+							}, {	-- RENOWN 17 --
+								mount(466000),		-- Darkfuse Chompactor (MOUNT!)
+							}, {	-- RENOWN 18 --
+							}, {	-- RENOWN 19 --
+							}, {	-- RENOWN 20 --
+								mount(466011),		-- Flarendo the Furious (MOUNT!)
+								title(602),			-- High Roller <Name>
+							},
+						}),
 					}),
 				}),
 			}),

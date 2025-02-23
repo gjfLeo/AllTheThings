@@ -1989,7 +1989,7 @@ i(229953, 466026);	-- Salvaged Goblin Gazillionaire's Flying Machine
 i(0, 466014);		-- Steamwheedle Supplier
 i(235626, 1217760);	-- The Big G
 i(229944, 466016);	-- The Topskimmer Special
-i(0, 466012);		-- Thunderdrum Misfire
+i(229945, 466012);	-- Thunderdrum Misfire
 i(0, 466022);		-- Venture Co-ordinator
 i(0, 466146);		-- Vicious Electro Eel [A]
 i(0, 466145);		-- Vicious Electro Eel [H]

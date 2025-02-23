@@ -65,6 +65,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			faction(FACTION_DARKFUSE_SOLUTIONS, {
 				ach(41350, {	-- A Long Fuse
 					["minReputation"] = { FACTION_DARKFUSE_SOLUTIONS, EXALTED },	-- Darkfuse Solutions Exalted
+					["g"] = {
+						title(606),	-- Darkfuse Diplomat %s
+					},
 				}),
 			}),
 		}),

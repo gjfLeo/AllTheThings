@@ -46,6 +46,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						41077,	-- Sandy Scuttle: Gold
 						41080,	-- Sandy Scuttle Reverse: Gold
 					}},
+					["g"] = {
+						title(597),	-- Breaknecker %s
+					},
 				}),
 				ach(40936, {	-- Undermine Skyrocketing: Bronze
 					-- Meta Achievement

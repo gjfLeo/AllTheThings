@@ -15,10 +15,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(ACHIEVEMENTS, {
 				ach(41626),	-- C.H.E.T.T. a Look
 				ach(41627),	-- C.H.E.T.T.ing it Twice
-				ach(41629),	-- C.H.E.T.T.mate
-				ach(41630, {	-- "Employee" of the Month
+				ach(41629, {	-- C.H.E.T.T.mate
 					["g"] = {
 						title(616),	-- Part-Timer %s
+					},
+				}),
+				ach(41630, {	-- "Employee" of the Month
+					["g"] = {
+						-- Temporary? Its a hidden FoS
+						title(617),	-- %s, "Employee" of the Month
 					},
 				}),
 			}),
