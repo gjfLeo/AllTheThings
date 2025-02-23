@@ -10,12 +10,24 @@ namespace ATT
 {
     class Program
     {
-        private static bool Errored { get; set; }
+        private static bool _Errored;
+        private static bool Errored
+        {
+            get => _Errored || Framework.IsErrored;
+            set => _Errored = value;
+        }
+        private static int ErrorCode => Errored ? -1 : 0;
 
         public static Dictionary<string, bool> PreProcessorTags { get; set; } = new Dictionary<string, bool>();
-
-        static void Main(string[] args)
+        static void UnhandledExceptionHandler(object sender, UnhandledExceptionEventArgs e)
         {
+            Exception ex = (Exception)e.ExceptionObject;
+            Framework.LogException(ex);
+        }
+
+        static int Main(string[] args)
+        {
+            AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(UnhandledExceptionHandler);
             // Setup tracing to the console.
             Tracer.OnWrite += Console.Write;
 
@@ -57,7 +69,7 @@ namespace ATT
             {
                 Trace.WriteLine(configException);
                 Console.ReadLine();
-                return;
+                return ErrorCode;
             }
 
             string[] preprocessorArray = Framework.Config["PreProcessorTags"];
@@ -129,7 +141,7 @@ namespace ATT
                     Trace.WriteLine("Operation cannot continue without it.");
                     Trace.WriteLine("Press Enter to Close.");
                     Console.ReadLine();
-                    return;
+                    return ErrorCode;
                 }
                 Framework.CurrentFileName = mainFileName;
                 luaFiles.Sort(StringComparer.InvariantCulture);
@@ -240,7 +252,7 @@ namespace ATT
                 {
                     Framework.LogException(e);
                     Console.ReadLine();
-                    return;
+                    return ErrorCode;
                 }
 
                 do
@@ -287,7 +299,7 @@ namespace ATT
                 {
                     Trace.WriteLine("-- Errors encountered during Parse. Please fix them to allow exporting addon DB properly.");
                     Console.ReadLine();
-                    return;
+                    return ErrorCode;
                 }
 
                 // Export all of the data for the Framework.
@@ -339,7 +351,10 @@ namespace ATT
             {
                 Framework.LogException(e);
                 Console.ReadLine();
+                return ErrorCode;
             }
+
+            return ErrorCode;
         }
 
         private static void ParseWagoDbCsvFile(string f)
