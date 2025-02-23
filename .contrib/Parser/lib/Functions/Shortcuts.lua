@@ -157,6 +157,21 @@ applyData = function(data, t)
 		end
 	end
 end
+-- Applies a function against the group and all sub-groups
+applyFunc = function(func, t)
+	if not func then return t end
+	if t.groups then
+		applyFunc(func, t.groups)
+	elseif t.g then
+		applyFunc(func, t.g)
+	elseif isarray(t) then
+		for _,group in ipairs(t) do
+			applyFunc(func, group)
+		end
+	end
+	func(t)
+	return t
+end
 splitTimelineEvent = function(epoch)
 	local words = {};
 	for word in epoch:gmatch("%S+") do table.insert(words, word) end
@@ -1391,6 +1406,11 @@ recipe = function(id, t)								-- Create a RECIPE Object
 	return struct("recipeID", id, t);
 end
 r = recipe;												-- Create a RECIPE Object (alternative shortcut)
+local function HQTCleanup(data)
+	if data.questID then return end
+	data.timeline = nil
+	data.u = nil
+end
 local SpecialRoots = {
 	__DropG = function(g)
 		return bubbleDownFiltered({
@@ -1398,10 +1418,16 @@ local SpecialRoots = {
 			["_drop"]={"g"}
 		},FILTERFUNC_questID,g)
 	end,
+	__HiddenQuestTriggers = function(g)
+		return bubbleDownFiltered({
+			-- keep API data from populating into NYI/Hidden quests
+			["_drop"]={"g"}
+		},FILTERFUNC_questID, applyFunc(HQTCleanup, g))
+	end,
 }
 SpecialRoots[ROOTS.HiddenAchievementTriggers] = SpecialRoots.__DropG
 SpecialRoots[ROOTS.HiddenCurrencyTriggers] = SpecialRoots.__DropG
-SpecialRoots[ROOTS.HiddenQuestTriggers] = SpecialRoots.__DropG
+SpecialRoots[ROOTS.HiddenQuestTriggers] = SpecialRoots.__HiddenQuestTriggers
 SpecialRoots[ROOTS.NeverImplemented] = SpecialRoots.__DropG
 root = function(category, g)							-- Create a ROOT CATEGORY Object
 	if not g then g = g or {}; end
