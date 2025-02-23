@@ -307,12 +307,37 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						41347,	-- Scheming on a Thing
 					}},
 					["g"] = {
-						--i(x)
+						mount(468068),		-- Junkmaestro's Magnetomech (MOUNT!)
 					},
 				}),
 				ach(41525),	-- Can You Please Spell "Gobanna?"
 				ach(41289),	-- Liberation of Undermine Guild Run
 				ach(41290),	-- Heroic: Liberation of Undermine Guild Run
+			}),
+			n(FACTIONS, {
+				faction(GLRC, {
+					{		-- RENOWN 1 --
+					}, {	-- RENOWN 2 --
+					}, {	-- RENOWN 3 --
+					}, {	-- RENOWN 4 --
+					}, {	-- RENOWN 5 --
+					}, {	-- RENOWN 6 --
+					}, {	-- RENOWN 7 --
+					}, {	-- RENOWN 8 --
+					}, {	-- RENOWN 9 --
+					}, {	-- RENOWN 10 --
+					}, {	-- RENOWN 11 --
+					}, {	-- RENOWN 12 --
+					}, {	-- RENOWN 13 --
+					}, {	-- RENOWN 14 --
+					}, {	-- RENOWN 15 --
+					}, {	-- RENOWN 16 --
+					}, {	-- RENOWN 17 --
+					}, {	-- RENOWN 18 --
+					}, {	-- RENOWN 19 --
+					}, {	-- RENOWN 20 --					
+					},
+				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
 				BossOnly(VEXIE),

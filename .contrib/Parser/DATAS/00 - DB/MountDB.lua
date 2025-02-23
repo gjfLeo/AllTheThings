@@ -1965,9 +1965,11 @@ i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(229935, 465999);	-- Crimson Armored Growler
 i(0, 1217235);		-- Crimson Shreddertank
 i(229950, 466018);	-- Darkfuse Demolisher
+i(229955, 466027);	-- Darkfuse Spy-Eye
 i(229974, 466133);	-- Delver's Gob-Trotter
 i(237141, 1221694);	-- Enterprising Shreddertank
 i(232523, 460013);	-- G-99 Breakneck
+i(0, 468068);		-- Junkmaestro's Magnetomech
 i(229956, 466028);	-- Mean Green Flying Machine
 i(229946, 466013);	-- Ocher Delivery Rocket
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
@@ -1984,12 +1986,10 @@ i(229936, 466002);	-- Violet Armored Growler
 i(229952, 466023);	-- Asset Advocator
 i(235344, 1216542);	-- Blazing Royal Fire Hawk
 i(0, 466000);		-- Darkfuse Chompactor
-i(229955, 466027);	-- Darkfuse Spy-Eye
 i(235662, 1218069);	-- Emerald Snail
 i(0, 466011);		-- Flarendo the Furious
 i(227362, 459784);	-- Golden Ashes of Al'ar
 i(229941, 466017);	-- Innovation Investigator
-i(0, 468068);		-- Junkmaestro's Magnetomech
 i(235555, 1217341);	-- Lively Darkmoon Charger
 i(229954, 466025);	-- Margin Manipulator
 i(235659, 1218014);	-- Midnight Butterfly
