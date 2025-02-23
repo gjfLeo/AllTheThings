@@ -306,16 +306,16 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["u"] = REMOVED_FROM_GAME,
 			}),
 			cnONLY(mount(471440, {	-- Skybound Spectral Tiger
-				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
+				["timeline"] = { ADDED_3_4_0, REMOVED_4_4_0 },
 				["description"] = "Can be bought for ¥1888 ($265 USD) or a discounted price of ¥588 ($82 USD) for owners of the original for a limited time in the Ingame Shop.",
 			})),
 			cnONLY(i(235344, {	-- Blazing Royal Fire Hawk (CN Only)
 				["description"] = "Rewarded from the Treasure Workshop.",
-				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
+				["timeline"] = { ADDED_3_4_0, REMOVED_4_4_0 },
 			})),
 			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
 				["description"] = "Can be bought for ¥200 RMB (~$27 USD) for a limited time in the Ingame Shop.",
-				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
+				["timeline"] = { ADDED_3_4_0, REMOVED_4_4_0 },
 				["groups"] = {
 					cnONLY(i(227362)),	-- Golden Ashes of Al'ar (CN Only)
 					cnONLY(i(49284)),	-- Reins of the Swift Spectral Tiger
