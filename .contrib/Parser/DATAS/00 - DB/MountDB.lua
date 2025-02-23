@@ -1944,6 +1944,7 @@ i(233354, 473861);	-- Savage Alabaster Battle Turtle
 i(235286, 1216422);	-- Sha-Warped Cloud Serpent
 i(235287, 1216430);	-- Sha-Warped Riding Tiger
 i(223313, 448934);	-- Shadow of Doubt
+i(0, 471440);		-- Skybound Spectral Tiger
 i(233243, 300154);	-- Silver Tidestallion
 i(233023, 472487);	-- Silvermoon Sweeper
 i(233019, 472489);	-- Sky Witch's Sweeper

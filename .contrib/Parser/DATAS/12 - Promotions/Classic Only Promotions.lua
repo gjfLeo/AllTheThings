@@ -301,30 +301,21 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["description"] = "Obtained if you set up a 3 Month WoW Subscription between 10th October 2022 until 8th January 2024.",
 				["u"] = REMOVED_FROM_GAME,
 			}),
+			cnONLY(mount(471440, {	-- Skybound Spectral Tiger
+				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
+				["description"] = "Can be bought for ¥1888 ($265 USD) or a discounted price of ¥588 ($82 USD) for owners of the original for a limited time in the Ingame Shop.",
+			})),
 			i(74269, {	-- Blazing Hippogryph (TW Only)[2024 8th January until 8th April 2024] (Unknown which exact dates)
 				["description"] = "Obtained if you set up a 3 Month WoW Subscription between 8th January 2024 until 8th April 2024.",
 				["u"] = REMOVED_FROM_GAME,
 			}),
-		},
-	}),
-	expansion(EXPANSION.CATA, {
-		["timeline"] = { ADDED_4_4_0 },
-		["groups"] = {
-			mount(463045, {	-- Lava Drake
-				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
-			}),
-			i(224002, {	-- Swoopy
-				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
-			}),
-			-- add flying spectral tiger (yes) to chinese server only
-			-- https://www.wowhead.com/news/netease-celebrates-20-years-of-wow-with-chinese-exclusive-flying-spectral-tiger-349280
 			cnONLY(i(235344, {	-- Blazing Royal Fire Hawk (CN Only)
 				["description"] = "Rewarded from the Treasure Workshop.",
-				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
 			})),
 			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
-				["description"] = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop.",
-				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
+				["description"] = "Can be bought for ¥200 RMB (~$27 USD) for a limited time in the Ingame Shop.",
+				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
 				["groups"] = {
 					cnONLY(i(227362)),	-- Golden Ashes of Al'ar (CN Only)
 					cnONLY(i(49284)),	-- Reins of the Swift Spectral Tiger
@@ -336,6 +327,17 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 					cnONLY(i(46779)),	-- Path of Cenarius
 				},
 			})),
+		},
+	}),
+	expansion(EXPANSION.CATA, {
+		["timeline"] = { ADDED_4_4_0 },
+		["groups"] = {
+			mount(463045, {	-- Lava Drake
+				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
+			}),
+			i(224002, {	-- Swoopy
+				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
+			}),
 		},
 	}),
 	-- #endif

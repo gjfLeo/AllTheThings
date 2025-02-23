@@ -34,7 +34,6 @@ mount(466948),	-- Chaos-Born Dreadwing
 mount(466977),	-- Chaos-Born Wind Rider
 mount(466980),	-- Chaos-Born Hippogryph
 mount(466983),	-- Chaos-Born Gryphon
-mount(471440),	-- Skybound Spectral Tiger
 3.4.3.58528
 mount(473478),	-- Sha-Touched Riding Tiger
 mount(473487),	-- Sha-Touched Cloud Serpent
