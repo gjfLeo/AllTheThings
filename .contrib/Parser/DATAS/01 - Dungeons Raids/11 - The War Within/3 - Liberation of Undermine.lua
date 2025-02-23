@@ -314,35 +314,39 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				ach(41289),	-- Liberation of Undermine Guild Run
 				ach(41290),	-- Heroic: Liberation of Undermine Guild Run
 			}),
-			n(FACTIONS, bubbleDownRep(FACTION_GLCR, {
-				{		-- RENOWN 1 --
-				}, {	-- RENOWN 2 --
-				}, {	-- RENOWN 3 --
-				}, {	-- RENOWN 4 --
-				}, {	-- RENOWN 5 --
-				}, {	-- RENOWN 6 --
-				}, {	-- RENOWN 7 --
-				}, {	-- RENOWN 8 --
-					mount(466012),		-- Thunderdrum Misfire	(MOUNT!)
-				}, {	-- RENOWN 9 --
-				}, {	-- RENOWN 10 --
-				}, {	-- RENOWN 11 --
-					i(237578),			-- Counterfeit Dealer's Chip
-				}, {	-- RENOWN 12 --
-				}, {	-- RENOWN 13 --
-				}, {	-- RENOWN 14 --
-				}, {	-- RENOWN 15 --
-					i(237578),			-- Counterfeit Dealer's Chip
-				}, {	-- RENOWN 16 --
-				}, {	-- RENOWN 17 --
-					mount(466000),		-- Darkfuse Chompactor (MOUNT!)
-				}, {	-- RENOWN 18 --
-				}, {	-- RENOWN 19 --
-				}, {	-- RENOWN 20 --	
-					mount(466011),		-- Flarendo the Furious (MOUNT!)
-				--	title(xx),	-- High Roller <Name> 
-				},
-			})),
+			n(FACTIONS, {
+				faction(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+					["g"] = bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+						{		-- RENOWN 1 --
+						}, {	-- RENOWN 2 --
+						}, {	-- RENOWN 3 --
+						}, {	-- RENOWN 4 --
+						}, {	-- RENOWN 5 --
+						}, {	-- RENOWN 6 --
+						}, {	-- RENOWN 7 --
+						}, {	-- RENOWN 8 --
+							mount(466012),		-- Thunderdrum Misfire	(MOUNT!)
+						}, {	-- RENOWN 9 --
+						}, {	-- RENOWN 10 --
+						}, {	-- RENOWN 11 --
+							i(237578),			-- Counterfeit Dealer's Chip
+						}, {	-- RENOWN 12 --
+						}, {	-- RENOWN 13 --
+						}, {	-- RENOWN 14 --
+						}, {	-- RENOWN 15 --
+							i(237578),			-- Counterfeit Dealer's Chip
+						}, {	-- RENOWN 16 --
+						}, {	-- RENOWN 17 --
+							mount(466000),		-- Darkfuse Chompactor (MOUNT!)
+						}, {	-- RENOWN 18 --
+						}, {	-- RENOWN 19 --
+						}, {	-- RENOWN 20 --
+							mount(466011),		-- Flarendo the Furious (MOUNT!)
+						--	title(xx),	-- High Roller <Name>
+						},
+					}),
+				}),
+			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
 				BossOnly(VEXIE),
 				BossOnly(CARNAGE),
