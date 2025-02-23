@@ -10,6 +10,7 @@ local LOCKENSTOCK = 2653;
 local BANDIT = 2644;
 local MUGZEE = 2645;
 local GALLYWIX = 2646;
+local FACTION_GLRC = 2685;
 
 ------ EncounterToCRS ------
 local EncounterToCRS = {
@@ -324,18 +325,24 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}, {	-- RENOWN 6 --
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
+						Mount(466012),		-- Thunderdrum Misfire
 					}, {	-- RENOWN 9 --
 					}, {	-- RENOWN 10 --
 					}, {	-- RENOWN 11 --
+						i(237578),			-- Counterfeit Dealer's Chip
 					}, {	-- RENOWN 12 --
 					}, {	-- RENOWN 13 --
 					}, {	-- RENOWN 14 --
 					}, {	-- RENOWN 15 --
+						i(237578),			-- Counterfeit Dealer's Chip
 					}, {	-- RENOWN 16 --
 					}, {	-- RENOWN 17 --
+						mount(466000),		-- Darkfuse Chompactor (MOUNT!)
 					}, {	-- RENOWN 18 --
 					}, {	-- RENOWN 19 --
-					}, {	-- RENOWN 20 --					
+					}, {	-- RENOWN 20 --	
+						mount(466011),		-- Flarendo the Furious (MOUNT!)
+					--	title(xx),	-- High Roller <Name> 
 					},
 				}),
 			}),
@@ -347,7 +354,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					i(236687),	-- Explosive Hearthstone (TOY!)
 				}),
 				BossOnly(LOCKENSTOCK),
-				BossOnly(BANDIT),
+				BossOnly(BANDIT, {
+					i(237578, {	-- Counterfeit Dealer's Chip
+						["description"] = "Has a small chance dropping as Personal Loot once you reached Renown 15 with Gallagio Loyalty Rewards Club",
+					}),
+				}),
 				BossOnly(MUGZEE),
 				BossOnly(GALLYWIX, {
 					i(236960),	-- Prototype A.S.M.R. (MOUNT!)

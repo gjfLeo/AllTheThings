@@ -37,6 +37,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234381),	-- Handcrank Fuel Tank
 					i(234417),	-- Handcrank Gears
 					i(234420),	-- Handcrank Mounting System
+					i(234741),	-- Miscellaneous Mechanica
 					i(234416),	-- Steamboil Casing
 					i(234387),	-- Steamboil Fuel Injector
 					i(234380),	-- Steamboil Fuel Tank

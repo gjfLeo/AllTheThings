@@ -133,6 +133,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237132, {	-- Bilgewater Trove (Paragon)
+								i(234741),	-- Miscellaneous Mechanica
 								mount(466024),		-- Bilgewater Bombardier (MOUNT!)
 							}),
 						},
@@ -166,6 +167,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237135, {	-- Blackwater Trove (Paragon)
+								i(234741),	-- Miscellaneous Mechanica
 								mount(466001),		-- Blackwater Bonecrusher (MOUNT!)
 							}),
 						},
@@ -211,6 +213,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237134, {	-- Steamwheedle Trove (Paragon)
+								i(234741),	-- Miscellaneous Mechanica
 								mount(466014),		-- Steamwheedle Supplier (MOUNT!)
 							}),
 						},
@@ -244,6 +247,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["isRepeatable"] = true,
 						["g"] = {
 							i(237133, {	-- Venture Co Trove (Paragon)
+								i(234741),	-- Miscellaneous Mechanica
 								mount(466022),		-- Venture Co-ordinator (MOUNT!)
 							}),
 						},

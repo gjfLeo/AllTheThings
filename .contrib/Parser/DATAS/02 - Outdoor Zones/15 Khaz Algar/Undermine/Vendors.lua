@@ -85,14 +85,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(236411, {	-- Ditty Fuzeboy
 				["coord"] = { 35.4, 41.4, UNDERMINE },
 				["g"] = {
+					i(229952, {	-- Asset Advocator (MOUNT!)
+						["cost"] = {{ "i", 234741, 25 }},	-- Miscellaneous Mechanica
+					}),
 					i(232850, {	-- Blackwater Kegmover (PET!)
 						["cost"] = {{ "i", 234741, 5 }},	-- Miscellaneous Mechanica
 					}),
-					i(232846, {	-- Steamwheedle Flunkie (PET!)
-						["cost"] = {{ "i", 234741, 5 }},	-- Miscellaneous Mechanica
+					i(232842, {	-- Crimson Mechasaur (PET!)
+						["cost"] = {{ "i", 234741, 10 }},	-- Miscellaneous Mechanica
 					}),
-					i(232849, {	-- Venture Companyman (PET!)
-						["cost"] = {{ "i", 234741, 5 }},	-- Miscellaneous Mechanica
+					i(229941, {	-- Innovation Investigator (MOUNT!)
+						["cost"] = {{ "i", 234741, 25 }},	-- Miscellaneous Mechanica
+					}),
+					i(229954, {	-- Margin Manipulator (MOUNT!)
+						["cost"] = {{ "i", 234741, 25 }},	-- Miscellaneous Mechanica
 					}),
 					i(232840, {	-- Mechagopher (PET!)
 						["cost"] = {{ "i", 234741, 5 }},	-- Miscellaneous Mechanica
@@ -100,8 +106,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(232841, {	-- Professor Punch (PET!)
 						["cost"] = {{ "i", 234741, 8 }},	-- Miscellaneous Mechanica
 					}),
-					i(232842, {	-- Crimson Mechasaur (PET!)
-						["cost"] = {{ "i", 234741, 10 }},	-- Miscellaneous Mechanica
+					i(232846, {	-- Steamwheedle Flunkie (PET!)
+						["cost"] = {{ "i", 234741, 5 }},	-- Miscellaneous Mechanica
+					}),
+					i(232849, {	-- Venture Companyman (PET!)
+						["cost"] = {{ "i", 234741, 5 }},	-- Miscellaneous Mechanica
 					}),
 				},
 			}),
@@ -232,6 +241,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
 					}),
 				}
+			}),
+			n(228286, {	-- Skedgit Cinderbangs <Entrepreneur Inc.>
+				["coord"] = { 43.0, 82.8, UNDERMINE },
+				-- All the Loot is shared with Ditty
+				["sym"] = {{"select","itemID",
+					229952, 	-- Asset Advocator (MOUNT!)
+					232850, 	-- Blackwater Kegmover (PET!)
+					232842, 	-- Crimson Mechasaur (PET!)
+					229941, 	-- Innovation Investigator (MOUNT!)
+					229954, 	-- Margin Manipulator (MOUNT!)
+					232840, 	-- Mechagopher (PET!)
+					232841, 	-- Professor Punch (PET!)
+					232846, 	-- Steamwheedle Flunkie (PET!)
+					232849, 	-- Venture Companyman (PET!)
+				}},
 			}),
 			n(231396, {	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
 			--	["coord"] = { 63.4, 16.7, UNDERMINE },
