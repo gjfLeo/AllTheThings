@@ -121,17 +121,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["isWeekly"] = true,
 				}),
 			}),
-			--[[ TODO: According to wowhead comment - this one exist before, but I was unable to pop it myself
 			n(RARES, {				
 				n(234621, {	-- Gallagio Garbage <Luxury Trash>
-					["coord"] = { x, y, UNDERMINE },	-- any scap spot?
+					["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar during a S.C.R.A.P. Job event in Undermine",
+				--	["coord"] = { x, y, UNDERMINE },	-- any scap spot?
 					["questID"] = 87007,
 					["g"] = {
+						ach(41594),	-- Can You Believe What People Throw Away?
 						i(235819),	-- Lucky Penny Locket
 						i(235910),	-- Mint Condition Gallagio Anniversary Coin
+						i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!)
 					},
 				}),
-			}),]]--
+			}),
 			n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can
 				--

@@ -83,6 +83,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235316),	-- Whirly-Giggle Windwhir Wrap
 				},
 			}),
+			-- Under Expansion Features => Scrap
+			--n(234621, {	-- Gallagio Garbage <Luxury Trash>
 			n(234499, {	-- Glovante
 				["description"] = "Can be summoned by someone who has contract with Steamwheedle Cartel",
 				["coord"] = { 32.0, 76.5, UNDERMINE },

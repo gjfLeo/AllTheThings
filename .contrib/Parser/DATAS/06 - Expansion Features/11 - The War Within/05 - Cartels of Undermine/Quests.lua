@@ -105,6 +105,76 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(232463),	-- Overflowing Undermine Trove
 					},
 				}),
+				faction(FACTION_UNDERMINE_BILGEWATER_CARTEL, {	-- Bilgewater Cartel
+					q(88870, {	-- Honored with the Bilgewater Cartel
+						["provider"] = { "n", 231406 },	-- Rocco Razzboom
+						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(234745),	-- Bilgewater's Trove (Green)
+						},
+					}),
+					q(88871, {	-- Revered with the Bilgewater Cartel
+						["provider"] = { "n", 231406 },	-- Rocco Razzboom
+						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(235258),	-- Bilgewater's Trove (Blue)
+						},
+					}),
+					q(88872, {	-- Exalted with the Bilgewater Cartel
+						["provider"] = { "n", 231406 },	-- Rocco Razzboom
+						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(235259),	-- Bilgewater's Trove (Epic)
+						},
+					}),
+					q(85806, {	-- Exalted with the Bilgewater Cartel (Paragon)
+						["provider"] = { "n", 231406 },	-- Rocco Razzboom
+						["coord"] = { 39.15, 22.19, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(237132, {	-- Bilgewater Trove (Paragon)
+								mount(466024),		-- Bilgewater Bombardier (MOUNT!)
+							}),
+						},
+					}),
+				}),
+				faction(FACTION_BLACKWATER_CARTEL, {	-- Blackwater Cartel
+					q(88876, {	-- Honored with the Blackwater Cartel
+						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
+						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(234744),	-- Blackwater's Trove (Green)
+						},
+					}),
+					q(88877, {	-- Revered with the Blackwater Cartel
+						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
+						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(235260),	-- Blackwater's Trove (Blue)
+						},
+					}),
+					q(88878, {	-- Exalted with the Blackwater Cartel
+						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
+						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(235261),	-- Blackwater's Trove (Purple)
+						},
+					}),
+					q(85807, {	-- Exalted with the Blackwater Cartel (Paragon)
+						["provider"] = { "n", 231405 },	-- Boatswain Hardee <Blackwater Quartermaster>
+						["coord"] = { 63.2, 17.2, UNDERMINE },
+						["isRepeatable"] = true,
+						["g"] = {
+							i(237135),	-- Blackwater Trove (Paragon)
+						},
+					}),
+				}),
 			},
 		})),
 	}),
