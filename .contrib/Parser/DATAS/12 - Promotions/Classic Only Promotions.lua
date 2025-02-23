@@ -301,14 +301,14 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["description"] = "Obtained if you set up a 3 Month WoW Subscription between 10th October 2022 until 8th January 2024.",
 				["u"] = REMOVED_FROM_GAME,
 			}),
-			cnONLY(mount(471440, {	-- Skybound Spectral Tiger
-				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
-				["description"] = "Can be bought for ¥1888 ($265 USD) or a discounted price of ¥588 ($82 USD) for owners of the original for a limited time in the Ingame Shop.",
-			})),
 			i(74269, {	-- Blazing Hippogryph (TW Only)[2024 8th January until 8th April 2024] (Unknown which exact dates)
 				["description"] = "Obtained if you set up a 3 Month WoW Subscription between 8th January 2024 until 8th April 2024.",
 				["u"] = REMOVED_FROM_GAME,
 			}),
+			cnONLY(mount(471440, {	-- Skybound Spectral Tiger
+				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
+				["description"] = "Can be bought for ¥1888 ($265 USD) or a discounted price of ¥588 ($82 USD) for owners of the original for a limited time in the Ingame Shop.",
+			})),
 			cnONLY(i(235344, {	-- Blazing Royal Fire Hawk (CN Only)
 				["description"] = "Rewarded from the Treasure Workshop.",
 				["timeline"] = { ADDED_3_4_0, REMOVED_4_0_0 },
