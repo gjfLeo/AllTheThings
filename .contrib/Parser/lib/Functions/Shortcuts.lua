@@ -754,6 +754,10 @@ ach = function(id, altID, t)							-- Create an ACHIEVEMENT Object
 			end
 		end
 		-- #endif
+		-- Apply a default timeline of 3.0.2 to Achievements
+		if not t.timeline then
+			t._defaulttimeline = { ADDED_3_0_2 }
+		end
 	end
 	return t;
 end

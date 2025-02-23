@@ -3370,6 +3370,9 @@ namespace ATT
                 var lastIndex = timeline.EntryCount - 1;
                 long addedPatch = 10000;
                 long removedPatch = 10000;
+                // we will track if a Thing is specifically 're-added' and consider that a 'force timeline' automatically so the data
+                // doesn't need to be adjusted for every situation
+                bool readded = false;
 
                 // if the timeline has more than 1 Entry and the earliest entry is not an 'adding' change then warn
                 // still over a thousand places where timelines start with a 'removed' change first if not excluding before more recent data
@@ -3431,6 +3434,10 @@ namespace ATT
                                 }
                                 else
                                 {
+                                    if (removed == 2)
+                                    {
+                                        readded = true;
+                                    }
                                     // Cancel the Removed tag.
                                     removed = 0;
                                 }
@@ -3451,6 +3458,9 @@ namespace ATT
                                     if (!DebugMode) return false;    // Invalid
                                 }
 
+                                // just in case parsing with Debug and verifying in-game... we would want Deleted to show as Removed
+                                removed = 2;
+                                readded = false;
                                 // Mark the first patch this was removed on. (the upcoming patch)
                                 if (removedPatch <= 10000) removedPatch = entry.Version;
                                 break;
@@ -3460,6 +3470,7 @@ namespace ATT
                                 if (CURRENT_RELEASE_VERSION >= entry.LongVersion)
                                 {
                                     removed = 2;
+                                    readded = false;
                                     // Mark the most recent patch this was removed
                                     if (removedPatch <= 10000) removedPatch = entry.Version;
                                 }
@@ -3500,9 +3511,17 @@ namespace ATT
                         // if _forcetimeline is specified, then don't let parent's timeline override this timeline
                         if (!data.ContainsKey("_forcetimeline") && parentData.TryGetValue("rwp", out long parentRwp) && parentRwp >= addedPatch)
                         {
-                            //LogDebug($"INFO: timeline indicates available Thing {addedPatch} within removed Parent {parentRwp}", data);
-                            // also inherit the rwp so that further children don't also reverse force-obtainable themselves back over the parent
-                            removedPatch = parentRwp;
+                            if (readded)
+                            {
+                                LogDebug($"INFO: timeline indicates available Thing {addedPatch} within removed Parent {parentRwp} => Consider re-added", data);
+                                removedPatch = 10000;
+                            }
+                            else
+                            {
+                                LogDebug($"INFO: timeline indicates available Thing {addedPatch} within removed Parent {parentRwp} => Consider 'removed'", data);
+                                // also inherit the rwp so that further children don't also reverse force-obtainable themselves back over the parent
+                                removedPatch = parentRwp;
+                            }
                             break;
                         }
 
@@ -3521,7 +3540,7 @@ namespace ATT
                 }
 
                 // Future Unobtainable
-                if (removedPatch > 10000)
+                if (removedPatch > 10000 && !readded)
                 {
                     if (data.TryGetValue("rwp", out long rwp) && rwp != removedPatch)
                     {

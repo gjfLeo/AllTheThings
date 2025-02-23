@@ -144,7 +144,8 @@ namespace ATT
 
         /// <summary>
         /// For each of the <paramref name="groups"/> with an identical <paramref name="field"/> value to the the <paramref name="parent"/>,
-        /// that value will be removed
+        /// that value will be removed. Additionally, the value will be removed from the <paramref name="parent"/> if it does not exist identically
+        /// in all <paramref name="groups"/>
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalNonRepeatFields]</remarks>
         private static void NonRepeatField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
@@ -156,11 +157,37 @@ namespace ATT
 
             foreach (IDictionary<string, object> data in groups)
             {
-                if (data.TryGetValue(field, out object value) && Equals(parentVal, value) && data.Remove(field))
+                if (data.TryGetValue(field, out object value))
                 {
-                    // awp and rwp are spammy
-                    //Framework.LogDebug($"INFO: Removed field {field}={value} due to " + nameof(NonRepeatField), data);
+                    _fieldValues.Add(value);
                 }
+                else
+                {
+                    // field value is missing from a group, use a random value instead
+                    _fieldValues.Add(Guid.NewGuid());
+                    return;
+                }
+            }
+
+            // exactly 1 unique value across all groups, then adjust...
+            if (_fieldValues.Count == 1)
+            {
+                object val = _fieldValues.First();
+
+                foreach (IDictionary<string, object> data in groups)
+                {
+                    if (data.Remove(field))
+                    {
+                        // awp and rwp are spammy
+                        //Framework.LogDebug($"INFO: Removed field {field}={parentVal} due to " + nameof(NonRepeatField), data);
+                    }
+                }
+            }
+            else
+            {
+                // multiple values within, so remove the parent value instead
+                parent.Remove(field);
+                Framework.LogDebug($"INFO: Removed field {field}={parentVal} due to " + nameof(PropagateField), parent);
             }
         }
 
