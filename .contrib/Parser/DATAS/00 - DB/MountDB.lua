@@ -1977,6 +1977,7 @@ i(0, 468068);		-- Junkmaestro's Magnetomech
 i(229954, 466025);	-- Margin Manipulator
 i(229956, 466028);	-- Mean Green Flying Machine
 i(229946, 466013);	-- Ocher Delivery Rocket
+i(229949, 466020);	-- Personalized Goblin S.C.R.A.Per
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
 i(236960, 1221155);	-- Prototype A.S.M.R.
 i(229953, 466026);	-- Salvaged Goblin Gazillionaire's Flying Machine
@@ -1996,7 +1997,6 @@ i(235555, 1217341);	-- Lively Darkmoon Charger
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(235650, 1217994);	-- Pearlescent Butterfly
-i(229949, 466020);	-- Personalized Goblin S.C.R.A.Per
 i(235657, 1218012);	-- Ruby Butterfly
 i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger

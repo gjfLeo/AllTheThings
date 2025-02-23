@@ -140,8 +140,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				i(236181),	-- Center-Stage Remover (COSMETIC!)
 				i(236178),	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
 				i(236191),	-- Mechanic's Best Motivator (COSMETIC!)
-				-- locked with Renown 11, reward from Dented Crate
-				i(233246),	-- Gunk-Covered Thingy
+				i(233246, {	-- Gunk-Covered Thingy
+					["description"] = "Requires to have the 'Scrappy S.C.R.A.P.per II' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",
+				}),
 			}),
 			n(VENDORS, {
 				n(234776, {	-- Angelo Rustbin <S.C.R.A.P. Exchange>
@@ -166,8 +167,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 							["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
 						}),
 						i(233558, {	-- S.C.R.A.P. Scrubber Deluxe
-							["cost"] = {{ "i", 233246, 1 }},	-- S.C.R.A.P. Scrubber Deluxe
+							["cost"] = {{ "i", 233246, 1 }},	-- Gunk-Covered Thingy
 							["g"] = {
+								i(229949),	-- Personalized Goblin S.C.R.A.Per
 								-- TODO: Items is guessed based on id range/names
 								-- TODO: remove from unsorted things that confirmed & uncomment stuff
 								--i(233260),	-- Laundered Vestment
@@ -209,9 +211,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				n(234362, {	-- Kaja'Cola Dispenser
 					["coord"] = { 67.3, 28.5, UNDERMINE },
 					["g"] = {
-						i(233444),	-- Kaja'Cola X-Treme [reqire renown 7]
-						i(233445),	-- Kaja'Cola X-Treme Mega-Can [reqire renown 16]
-						i(233446),	-- Multi-Pack of Kaja'Cola [reqire renown 16]
+						i(233444),	-- Kaja'Cola X-Treme [requires renown 7]
+						i(233445),	-- Kaja'Cola X-Treme Mega-Can [requires renown 16]
+						i(233446),	-- Multi-Pack of Kaja'Cola [requires renown 16]
 					},
 				}),
 			}),
