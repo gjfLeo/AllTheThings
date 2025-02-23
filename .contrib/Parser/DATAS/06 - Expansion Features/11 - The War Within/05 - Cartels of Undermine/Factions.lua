@@ -52,7 +52,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					crit(102754, {	-- Venture Co
 						["minReputation"] = { FACTION_TWW_VENTURE_CO, EXALTED },	-- Venture Co Exalted
 					}),
-					-- TODO: Title: Trade-duke
+					-- Reward
+					title(607),	-- Trade-Duke %s
 				}),
 				ach(41086, {	-- Ally of Undermine
 					["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 20 },	-- Cartels of Undermine 20

@@ -327,6 +327,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						}, {	-- RENOWN 8 --
 							mount(466012),		-- Thunderdrum Misfire	(MOUNT!)
 						}, {	-- RENOWN 9 --
+							-- Unlocks 2 Vendors outside of the Cauldron of Carnage will sell you miniaturized Battle Pets based on Torq & Flarendo, the Mecha Gorilla and Mechasaur bosses.
+							i(232844),			-- Fuz-Size Flarendo (PET!)
+							i(232806),			-- Tiny Torq
 						}, {	-- RENOWN 10 --
 						}, {	-- RENOWN 11 --
 							i(237578),			-- Counterfeit Dealer's Chip
@@ -342,7 +345,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						}, {	-- RENOWN 19 --
 						}, {	-- RENOWN 20 --
 							mount(466011),		-- Flarendo the Furious (MOUNT!)
-						--	title(xx),	-- High Roller <Name>
+							title(602),			-- High Roller <Name>
 						},
 					}),
 				}),

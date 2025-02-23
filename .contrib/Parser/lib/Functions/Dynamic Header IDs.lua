@@ -380,6 +380,7 @@ HeaderAssignments = {
 	["Shadowforge City"] = -1000170,
 	["Shadowlands Seasonal Promotions"] = -1000240,
 	["Shared Appearances"] = -1000162,
+	["Shipping & Handling"] = -1001083,
 	["Shooting Gallery"] = -1000205,
 	["Shoulder"] = -1000070,
 	["Siege on Dragonbane Keep"] = -1000356,
@@ -557,4 +558,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001082;
+NextHeaderID = -1001084;

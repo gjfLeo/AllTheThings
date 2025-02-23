@@ -16,7 +16,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				ach(41626),	-- C.H.E.T.T. a Look
 				ach(41627),	-- C.H.E.T.T.ing it Twice
 				ach(41629),	-- C.H.E.T.T.mate
-				ach(41630),	-- "Employee" of the Month
+				ach(41630, {	-- "Employee" of the Month
+					["g"] = {
+						title(616),	-- Part-Timer %s
+					},
+				}),
 			}),
 			n(QUESTS, sharedData({["isWeekly"]=true,}, {
 				q(87303),	-- Clean the Sidestreets

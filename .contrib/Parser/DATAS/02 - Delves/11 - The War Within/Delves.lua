@@ -170,6 +170,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 		})),
 	}),
+	-- TWW Season 2 Boss "Enterprising" (Still available)
 	m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 , REMOVED_11_2_0} }, {
 		--["icon"] = [[~_.asset("Delves_Nerubian")]],
 		["coord"] = { 52.7, 9.4, UNDERMINE },
@@ -458,13 +459,19 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		ach(40463, {	-- Delve Deepest
 			["maps"] = ALL_THE_DELVES,
 		}),
-		ach(41095, {	-- Delve Beyond
+		ach(41095, {	-- Delve Beyond (500)
 			["timeline"] = { ADDED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
+			["g"] = {
+				title(598),	-- Delver %s
+			},
 		}),
-		ach(41096, {	-- Delve Infinite
+		ach(41096, {	-- Delve Infinite (1000)
 			["timeline"] = { ADDED_11_1_0 },
 			["maps"] = ALL_THE_DELVES,
+			["g"] = {
+				title(599),	-- Infinite Delver %s
+			},
 		}),
 		ach(40537, {	-- Delve Loremaster: War Within
 			-- Meta Achievement
