@@ -410,7 +410,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	-- #if ANYCLASSIC
-	n(CATA_CLASSIC_BLAZING_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_3_4_0, REMOVED_4_4_0 } }, {
+	n(CATA_CLASSIC_BLAZING_UPGRADE, bubbleDownSelf({ ["timeline"] = { ADDED_3_4_0, REMOVED_4_4_2 } }, {
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased Blazing Heroic Edition.",
 			["g"] = {
@@ -419,54 +419,54 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 
 				-- Twilight's Hammer Regalia Transmog Set (Added with Cataclysm)
 				i(224380, {	-- Twilight's Hammer Regalia Helmet
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220352,
 					["f"] = CLOTH,
 				}),
 				i(224383, {	-- Twilight's Hammer Regalia Shoulders
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220355,
 					["f"] = CLOTH,
 				}),
 				i(224382, {	-- Twilight's Hammer Regalia Robe
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220354,
 					["f"] = CLOTH,
 				}),
 				i(224378, {	-- Twilight's Hammer Regalia Tunic
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220350,
 					["f"] = CLOTH,
 				}),
 				i(224377, {	-- Twilight's Hammer Regalia Bracer
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220349,
 					["f"] = CLOTH,
 				}),
 				i(224379, {	-- Twilight's Hammer Regalia Gloves
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220351,
 					["f"] = CLOTH,
 				}),
 				i(224375, {	-- Twilight's Hammer Regalia Belt
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220347,
 					["f"] = CLOTH,
 				}),
 				i(224381, {	-- Twilight's Hammer Regalia Kilt
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220353,
 					["f"] = CLOTH,
 				}),
 				i(224376, {	-- Twilight's Hammer Regalia Boots
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 					["sourceID"] = 220348,
 					["f"] = CLOTH,
 				}),
-
+				
 				-- Town-In-A-Box Starter Set Toy (Added with Cataclysm)
 				i(216893, {	-- Goblin Town-in-a-Box
-					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_0 },
+					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 				}),
 			},
 		}),
@@ -492,6 +492,20 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 		},
 	})),
 	-- #if ANYCLASSIC
+	n(MOP_CLASSIC_HEROIC_PACK, bubbleDownSelf({ ["timeline"] = { ADDED_4_4_2, REMOVED_5_5_2 } }, {
+		n(HEROIC_EDITION, {
+			["description"] = "These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",
+			["g"] = {
+				mount(473487),		-- Sha-Touched Cloud Serpent
+				mount(473478),		-- Sha-Touched Riding Tiger
+				--i(xxxxxx),	-- Joyous Pet (PET!)
+				--Ensemble: Stormstout's Sha-Touched Collection Transmog Set (Classic)
+				-- Sha-Touched Tea Set Toy (Added with Mists of Pandaria)
+				--i(xxxxxx, {	-- Sha-Touched Tea Set Toy
+				--	["timeline"] = { ADDED_4_4_2, REMOVED_5_5_2 },
+				--}),
+			},
+		}),
 	-- #else
 	n(MOP_CLASSIC_HEROIC_PACK, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 		n(HEROIC_EDITION, {

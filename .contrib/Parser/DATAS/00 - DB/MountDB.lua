@@ -30,9 +30,12 @@ i(207097, 416158);	-- Nightmarish Emerald Drake
 i(0, 440915);		-- Auspicious Arborwyrm
 i(0, 423869);		-- Avatar of Flame
 i(0, 446902);		-- Polly Roger
+i(0, 471440);		-- Skybound Spectral Tiger (CN Only)
 
 -- Cata Classic --
 i(0, 463045);		-- Lava Drake
+i(0, 473487);		-- Sha-Touched Cloud Serpent
+i(0, 473478),		-- Sha-Touched Riding Tiger
 --- NYI ---
 i(0, 388516);		-- Hao-Yue, River Foreseer
 i(198632, 387319);	-- Big Battle Bear
@@ -1944,7 +1947,6 @@ i(233354, 473861);	-- Savage Alabaster Battle Turtle
 i(235286, 1216422);	-- Sha-Warped Cloud Serpent
 i(235287, 1216430);	-- Sha-Warped Riding Tiger
 i(223313, 448934);	-- Shadow of Doubt
-i(0, 471440);		-- Skybound Spectral Tiger
 i(233243, 300154);	-- Silver Tidestallion
 i(233023, 472487);	-- Silvermoon Sweeper
 i(233019, 472489);	-- Sky Witch's Sweeper

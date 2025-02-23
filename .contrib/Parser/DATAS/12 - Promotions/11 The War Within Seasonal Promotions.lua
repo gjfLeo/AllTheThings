@@ -223,7 +223,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
 			})),
 			cnONLY(i(235378, {	-- Landro's Loot Box (CN Only)
-				["description"] = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop.",
+				["description"] = "Can bought for ¥200 RMB (~$27 USD) in the Ingame Shop for a limited time.",
 				["timeline"] = { ADDED_11_0_7, REMOVED_11_2_0 },
 				["groups"] = {
 					cnONLY(i(227362)),	-- Golden Ashes of Al'ar (CN Only)
