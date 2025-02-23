@@ -297,38 +297,38 @@ namespace ATT
         static HierarchicalFieldAdjustments()
         {
             _heirarchicalFieldAdjustments = new List<FieldAdjustment>();
-            string[] fields = Framework.Config["HierarchicalMinimumFields"] ?? Array.Empty<string>();
-            foreach (string field in fields)
+            string[] fields = Framework.Config["HierarchicalMinimumFields"];
+            foreach (string field in fields ?? Array.Empty<string>())
             {
                 _heirarchicalFieldAdjustments.Add(new FieldAdjustment() { Field = field, Adjustment = MinimumField });
             }
-            fields = Framework.Config["HierarchicalMaximumFields"] ?? Array.Empty<string>();
-            foreach (string field in fields)
+            fields = Framework.Config["HierarchicalMaximumFields"];
+            foreach (string field in fields ?? Array.Empty<string>())
             {
                 _heirarchicalFieldAdjustments.Add(new FieldAdjustment() { Field = field, Adjustment = MinimumField });
             }
-            fields = Framework.Config["HierarchicalForceConsolidationFields"] ?? Array.Empty<string>();
-            foreach (string field in fields)
+            fields = Framework.Config["HierarchicalForceConsolidationFields"];
+            foreach (string field in fields ?? Array.Empty<string>())
             {
                 _heirarchicalFieldAdjustments.Add(new FieldAdjustment() { Field = field, Adjustment = ForceConsolidateField });
             }
-            fields = Framework.Config["HierarchicalConsolidationFields"] ?? Array.Empty<string>();
-            foreach (string field in fields)
+            fields = Framework.Config["HierarchicalConsolidationFields"];
+            foreach (string field in fields ?? Array.Empty<string>())
             {
                 _heirarchicalFieldAdjustments.Add(new FieldAdjustment() { Field = field, Adjustment = ConsolidateField });
             }
-            fields = Framework.Config["HierarchicalPropagationFields"] ?? Array.Empty<string>();
-            foreach (string field in fields)
+            fields = Framework.Config["HierarchicalPropagationFields"];
+            foreach (string field in fields ?? Array.Empty<string>())
             {
                 _heirarchicalFieldAdjustments.Add(new FieldAdjustment() { Field = field, Adjustment = PropagateField });
             }
-            fields = Framework.Config["HierarchicalNonRepeatFields"] ?? Array.Empty<string>();
-            foreach (string field in fields)
+            fields = Framework.Config["HierarchicalNonRepeatFields"];
+            foreach (string field in fields ?? Array.Empty<string>())
             {
                 _heirarchicalFieldAdjustments.Add(new FieldAdjustment() { Field = field, Adjustment = NonRepeatField });
             }
-            fields = Framework.Config["HierarchicalAnyPropagationFields"] ?? Array.Empty<string>();
-            foreach (string field in fields)
+            fields = Framework.Config["HierarchicalAnyPropagationFields"];
+            foreach (string field in fields ?? Array.Empty<string>())
             {
                 _heirarchicalFieldAdjustments.Add(new FieldAdjustment() { Field = field, Adjustment = AnyPropagateField });
             }
