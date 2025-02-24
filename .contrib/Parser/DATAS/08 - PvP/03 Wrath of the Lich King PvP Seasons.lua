@@ -577,12 +577,15 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 								{"sub", "pvp_weapons_ensemble", EXPANSION.WRATH, SEASON_DEADLY, PRE_SEASON_HATEFUL },
 							},
 						}),
+						-- #if AFTER 5.0.0
 						i(42563, {	-- Hateful Gladiator's Barrier
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
+						-- #endif
 						i(42512, {	-- Hateful Gladiator's Baton of Light
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
+						-- #if AFTER 5.0.0
 						i(42359, {	-- Hateful Gladiator's Battle Staff
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
@@ -634,9 +637,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42254, {	-- Hateful Gladiator's Mutilator
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
+						-- #endif
 						i(42518, {	-- Hateful Gladiator's Piercing Touch
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
+						-- #if AFTER 5.0.0
 						i(42326, {	-- Hateful Gladiator's Pike
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
@@ -679,18 +684,23 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42389, {	-- Hateful Gladiator's Staff
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
+						-- #endif
 						i(42501, {	-- Hateful Gladiator's Touch of Defeat
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
+						-- #if AFTER 5.0.0
 						i(44417, {	-- Hateful Gladiator's War Staff
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
+						-- #endif
 						i(42236, {	-- Hateful Gladiator's Waraxe
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
+						-- #if AFTER 5.0.0
 						i(42449, {	-- Hateful Gladiator's War Edge (Throw Wep)
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						}),
+						-- #endif
 					}),
 					cl(DEATHKNIGHT, {
 						i(146560, {	-- Ensemble: Hateful Gladiator's Dreadplate Armor
