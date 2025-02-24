@@ -687,6 +687,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 	}),
 	filter(NECK_F, {
 		i(67040),	-- Amulet of the Howling Watch
+		i(55405),	-- Blackwolf Amulet
 		i(67138),	-- Buc-Zakai Choker
 		i(67130),	-- Dorian's Lost Necklace
 		i(55403),	-- Mereldar Amulet
@@ -711,6 +712,7 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 		i(67129),	-- Signet of High Arcanist Savor
 		i(55418),	-- Sishir Ring
 		i(55417),	-- Swamplight Ring
+		i(55422),	-- Thondroril Ring
 	}),
 	filter(TRINKET_F, {
 		i(67037),	-- Binding Promise

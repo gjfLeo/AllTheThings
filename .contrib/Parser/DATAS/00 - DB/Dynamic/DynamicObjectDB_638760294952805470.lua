@@ -1,0 +1,63 @@
+﻿local ObjectDB = ObjectDB; for objectID,objectData in pairs({
+	[421150] = {
+		readable = "Carved Eye",
+		model = 204046,
+		text = {
+			en = "Carved Eye",
+			es = "Ojo tallado",
+			de = "Geschnitztes Auge",
+			fr = "Œil gravé",
+			it = "Occhio Intagliato",
+			pt = "Olho Entalhado",
+			ru = "Резной глаз",
+			ko = "도려낸 눈알",
+			cn = "凿刻之眼",
+		},
+	},
+	[421151] = {
+		readable = "Carved Eye",
+		model = 204043,
+		text = {
+			en = "Carved Eye",
+			es = "Ojo tallado",
+			de = "Geschnitztes Auge",
+			fr = "Œil gravé",
+			it = "Carved Eye",
+			pt = "Olho Entalhado",
+			ru = "Резной глаз",
+			ko = "Carved Eye",
+			cn = "Carved Eye",
+		},
+	},
+	[421152] = {
+		readable = "Carved Eye",
+		model = 204053,
+		text = {
+			en = "Carved Eye",
+			es = "Carved Eye",
+			de = "Geschnitztes Auge",
+			fr = "Œil gravé",
+			it = "Carved Eye",
+			pt = "Olho Entalhado",
+			ru = "Резной глаз",
+			ko = "Carved Eye",
+			cn = "Carved Eye",
+		},
+	},
+	[421153] = {
+		readable = "Carved Eye",
+		model = 204053,
+		text = {
+			en = "Carved Eye",
+			es = "Carved Eye",
+			de = "Geschnitztes Auge",
+			fr = "Œil gravé",
+			it = "Carved Eye",
+			pt = "Olho Entalhado",
+			ru = "Резной глаз",
+			ko = "도려낸 눈알",
+			cn = "Carved Eye",
+		},
+	},
+})
+do ObjectDB[objectID] = objectData; end

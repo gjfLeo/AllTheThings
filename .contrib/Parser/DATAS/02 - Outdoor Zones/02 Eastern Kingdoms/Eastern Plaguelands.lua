@@ -4538,15 +4538,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				},
 			}),
 			n(TREASURES, {
-				--o(xxxxx, {	-- Carved Eye
-					--["coord"] = { 28.6, 13.4, EASTERN_PLAGUELANDS },
-					--["timeline"] = { ADDED_10_2_5 },
-					--["g"] = {
-						i(212993, {	-- Grimoire of the Plagued Observer (CI!)
-							["timeline"] = { ADDED_10_2_5 },
-						}),
-					--},
-				--}),
+				i(212993, {	-- Grimoire of the Plagued Observer (CI!)
+					["provider"] = { "o", 421153 },	-- Carved Eye
+					["coord"] = { 28.6, 13.4, EASTERN_PLAGUELANDS },
+					["timeline"] = { ADDED_10_2_5 },
+				}),
 				i(12886, {	-- Pamela's Doll's Head
 					["provider"] = { "o", 176116 },	-- Pamela's Doll's Head
 					["coords"] = {

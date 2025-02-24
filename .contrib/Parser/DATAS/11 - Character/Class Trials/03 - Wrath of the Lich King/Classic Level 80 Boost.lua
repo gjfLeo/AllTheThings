@@ -1,5 +1,5 @@
 root(ROOTS.Character, n(CLASS_TRIAL, {
-	expansion(EXPANSION.WOTLK, bubbleDown({["u"] = REMOVED_FROM_GAME}, {
+	expansion(EXPANSION.WRATH, bubbleDown({["u"] = REMOVED_FROM_GAME}, {
 		["groups"] = {
 			--[[cl(DEATHKNIGHT, {
 				i(72994),	-- Ebonsoul Blade
@@ -374,4 +374,5 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				-- #endif
 			}),
 		},
-		
+	})),
+}));
