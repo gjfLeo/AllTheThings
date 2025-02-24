@@ -135,11 +135,16 @@ settings.InformationTypeConversionMethods = ConversionMethods;
 
 -- Class Template for creating an Information Type instance.
 local function GetValueForInformationType(t, reference)
-	return reference[t.informationTypeID];
+	local rowReference = app.ActiveRowReference
+	local informationTypeID = t.informationTypeID
+	return rowReference and rowReference[informationTypeID] or reference[informationTypeID]
 end
 local function GetRecursiveValueForInformationType(t, reference)
-	local informationTypeID = t.informationTypeID;
-	return reference[informationTypeID] or GetRelativeValue(reference, informationTypeID);
+	local rowReference = app.ActiveRowReference
+	local informationTypeID = t.informationTypeID
+	return rowReference and rowReference[informationTypeID]
+		or reference[informationTypeID]
+		or GetRelativeValue(rowReference or reference, informationTypeID)
 end
 local function ProcessInformationType(t, reference, tooltipInfo)
 	local val = t.GetValue(t, reference);
