@@ -439,6 +439,20 @@ app.SourceSpecificFields = {
 		-- app.PrintDebug("new:",new)
 		return new;
 	end,
+-- Returns the 'earliest' Added with Patch value from the provided set of `awp` values
+	["awp"] = function(...)
+		local min, awp
+		local vals = select("#", ...);
+		for i=1,vals do
+			awp = select(i, ...)
+			-- ignore missing awp...
+			-- track the lowest awp value, which is the furthest-future patch
+			if awp and (not min or awp < min) then
+				min = awp;
+			end
+		end
+		return min
+	end,
 -- Returns the 'highest' Removed with Patch value from the provided set of `rwp` values
 	["rwp"] = function(...)
 		local max, rwp = -1,nil;
@@ -452,7 +466,6 @@ app.SourceSpecificFields = {
 				max = rwp;
 			end
 		end
-		-- print("max:",max)
 		return max;
 	end,
 -- Simple boolean
@@ -468,6 +481,7 @@ local function MergeProperties(g, t, noReplace, clone)
 			g.__merge = t.__merge or t
 		end
 		local skips = app.MergeSkipFields;
+		local sourceSpecific = app.SourceSpecificFields
 		if noReplace then
 			for k,v in pairs(t) do
 				-- certain keys should never transfer to the merge group directly
@@ -475,7 +489,7 @@ local function MergeProperties(g, t, noReplace, clone)
 					if not rawget(g, "sourceParent") then
 						g.sourceParent = v;
 					end
-				elseif not skips[k] then
+				elseif not skips[k] and not sourceSpecific[k] then
 					if rawget(g, k) == nil then
 						g[k] = v;
 					end
@@ -488,7 +502,7 @@ local function MergeProperties(g, t, noReplace, clone)
 					if not rawget(g, "sourceParent") then
 						g.sourceParent = v;
 					end
-				elseif skips[k] ~= true then
+				elseif skips[k] ~= true and not sourceSpecific[k] then
 					g[k] = v;
 				end
 			end
@@ -499,7 +513,7 @@ local function MergeProperties(g, t, noReplace, clone)
 					if not rawget(g, "sourceParent") then
 						g.sourceParent = v;
 					end
-				elseif not skips[k] then
+				elseif not skips[k] and not sourceSpecific[k] then
 					g[k] = v;
 				end
 			end
@@ -515,9 +529,10 @@ local function MergeProperties(g, t, noReplace, clone)
 			local gk, tk;
 			for k,f in pairs(app.SourceSpecificFields) do
 				-- existing is set
-				gk = g[k];
+				gk = rawget(g, k)
+				-- app.PrintDebug("SSF",k,g,t,gk,rawget(t, k))
 				if gk then
-					tk = t[k];
+					tk = rawget(t, k)
 					-- no value on merger
 					if tk == nil then
 						-- app.PrintDebug(g.hash,"remove",k,gk,tk)
