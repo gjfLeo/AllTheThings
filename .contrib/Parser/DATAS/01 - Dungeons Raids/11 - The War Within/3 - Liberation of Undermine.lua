@@ -329,7 +329,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 							}, {	-- RENOWN 8 --
 								i(466012),		-- Thunderdrum Misfire	(MOUNT!)
 							}, {	-- RENOWN 9 --
-								-- Unlocks 2 Vendors outside of the Cauldron of Carnage will sell you miniaturized Battle Pets based on Torq & Flarendo, the Mecha Gorilla and Mechasaur bosses.
 								i(232844),			-- Fuz-Size Flarendo (PET!)
 								i(232806),			-- Tiny Torq	(PET!)
 							}, {	-- RENOWN 10 --

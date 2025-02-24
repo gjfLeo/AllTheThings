@@ -86,8 +86,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		--[[mount(315132, {	-- Gargantuan Grrloc (MOUNT!)
 			["timeline"] = { ADDED_10_0_0 },
 		}),--]]
-		-- #if ANYCLASSIC
-		-- #else
+		-- #if NOT ANYCLASSIC
 		i(78924, {	-- Heart of the Aspects (MOUNT!)
 			["timeline"] = { ADDED_4_3_0 },
 		}),
@@ -281,8 +280,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(151234, {	-- Shadow (PET!)
 			["timeline"] = { ADDED_7_3_0 },
 		}),
-		-- #if ANYCLASSIC
-		-- #else
+		-- #if NOT ANYCLASSIC
 		i(78916, {	-- Soul of the Aspects (PET!)
 			["timeline"] = { ADDED_4_3_0 },
 		}),

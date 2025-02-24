@@ -12,8 +12,7 @@ SCROLL_OF_RESURRECTION = createHeader({
 	},
 });
 root(ROOTS.Promotions, applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(SCROLL_OF_RESURRECTION, {
-	-- #if ANYCLASSIC
-	-- #else
+	-- #if NOT ANYCLASSIC
 	["timeline"] = { ADDED_4_3_0, REMOVED_5_3_0 },
 	["groups"] = {
 		cl(DEATHKNIGHT, {
