@@ -115,7 +115,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		i(64394),	-- Draenei Tome
 		i(64392),	-- Orc Blood Text
 		i(87399, {["timeline"] = {ADDED_5_0_4}}),	-- Restored Artifact
-		currency(ARCH_CURRENCY_DRAENEI, {
+		header(HEADERS.Currency, ARCH_CURRENCY_DRAENEI, sharedData({["cost"]={{"c",ARCH_CURRENCY_DRAENEI,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 207188 },	-- Draenei Archaeology Find
 			["maps"] = {
 				HELLFIRE_PENINSULA,
@@ -137,8 +137,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				i(64443),	-- Strange Silver Paperweight
 				i(64457),	-- The Last Relic of Argus
 			},
-		}),
-		currency(ARCH_CURRENCY_ORC, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_ORC, sharedData({["cost"]={{"c",ARCH_CURRENCY_ORC,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 207187 },	-- Orc Archaeology Find
 			["maps"] = {
 				HELLFIRE_PENINSULA,
@@ -158,7 +158,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				i(64437),	-- Tile of Glazed Clay
 				i(64389),	-- Tiny Bronze Scorpion
 			},
-		}),
+		})),
 	})),
 	prof(BLACKSMITHING, {
 		-- #if BEFORE CATA
@@ -836,7 +836,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					i(21886),	-- Primal Life
 				},
 			}),
-			i(35229, {["timeline"] = { ADDED_2_4_0 }}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage) 
+			i(35229, {["timeline"] = { ADDED_2_4_0 }}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
 			i(22791, {	-- Netherbloom
 				["maps"] = NETHERSTORM,
 			}),

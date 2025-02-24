@@ -95,7 +95,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 		i(79869),	-- Mogu Statue Piece
 		i(79868),	-- Pandaren Pottery Shard
 		i(87399),	-- Restored Artifact
-		currency(ARCH_CURRENCY_MANTID, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {
+		header(HEADERS.Currency, ARCH_CURRENCY_MANTID, sharedData({
+			["timeline"] = { ADDED_5_2_0 },
+			["cost"]={{"c",ARCH_CURRENCY_MANTID,50}}, -- TODO: someone can add different fragment costs within as needed
+		},{
 			i(95376),	-- Ancient Sap Feeder
 			i(95375),	-- Banner of the Mantid Empire
 			i(95378),	-- Inert Sound Beacon
@@ -115,7 +118,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(95392),	-- Sonic Pulse Generator
 			i(95377),	-- The Praying Mantid
 		})),
-		currency(ARCH_CURRENCY_MOGU, {
+		header(HEADERS.Currency, ARCH_CURRENCY_MOGU, sharedData({["cost"]={{"c",ARCH_CURRENCY_MOGU,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(89614),	-- Anatomical Dummy (TOY!)
 			i(79909),	-- Cracked Mogu Runestone
 			i(79913),	-- Edicts of the Thunder King
@@ -138,8 +141,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(79912),	-- Thunder King Insignia
 			i(79915),	-- Warlord's Branding Iron
 			i(79917),	-- Worn Monument Ledger
-		}),
-		currency(ARCH_CURRENCY_PANDAREN, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_PANDAREN, sharedData({["cost"]={{"c",ARCH_CURRENCY_PANDAREN,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(79903),	-- Apothecary Tins
 			i(79901),	-- Carved Bronze Mirror
 			i(79900),	-- Empty Keg
@@ -162,7 +165,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MOP, applyclassicphase(MOP_PHASE_ONE,
 			i(79898),	-- Twin Stein Set
 			i(89684),	-- Umbrella of Chi-Ji
 			i(79899),	-- Walking Cane
-		}),
+		})),
 	}),
 	prof(BLACKSMITHING, {
 		n(DISCOVERY, {

@@ -114,7 +114,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		i(64396),	-- Nerubian Obelisk
 		i(87399, {["timeline"] = {ADDED_5_0_4}}),	-- Restored Artifact
 		i(64395),	-- Vrykul Rune Stick
-		currency(ARCH_CURRENCY_NERUBIAN, {
+		header(HEADERS.Currency, ARCH_CURRENCY_NERUBIAN, sharedData({["cost"]={{"c",ARCH_CURRENCY_NERUBIAN,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 203078 },	-- Nerubian Archaeology Find
 			["maps"] = {
 				BOREAN_TUNDRA,
@@ -134,8 +134,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(64474),	-- Spidery Sundial
 				i(64480),	-- Vizier's Scrawled Streamer
 			},
-		}),
-		currency(ARCH_CURRENCY_VRYKUL, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_VRYKUL, sharedData({["cost"]={{"c",ARCH_CURRENCY_VRYKUL,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 207189 },	-- Vrykul Archaeology Find
 			["maps"] = {
 				HOWLING_FJORD,
@@ -152,7 +152,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				i(64467),	-- Thorned Necklace
 				i(69775, {["timeline"] = {ADDED_4_1_0}}),	-- Vrykul Drinking Horn (TOY!)
 			},
-		}),
+		})),
 	})),
 	prof(BLACKSMITHING, {
 		-- #if BEFORE CATA

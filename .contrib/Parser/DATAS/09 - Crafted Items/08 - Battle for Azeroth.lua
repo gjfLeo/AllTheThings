@@ -142,7 +142,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		i(154990),	-- Etched Drust Bone
 		i(87399),	-- Restored Artifact
 		i(154989),	-- Zandalari Idol
-		currency(ARCH_CURRENCY_DRUST, {
+		header(HEADERS.Currency, ARCH_CURRENCY_DRUST, sharedData({["cost"]={{"c",ARCH_CURRENCY_DRUST,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(154922),	-- Ancient Runebound Tome
 			i(154921),	-- Ceremonial Bonesaw
 			i(160751),	-- Dance of the Dead (TOY!)
@@ -158,8 +158,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			i(161089),	-- Restored Revenant (PET!)
 			i(154925),	-- Ritual Fetish
 			i(160741),	-- Soul Coffer
-		}),
-		currency(ARCH_CURRENCY_ZANDALARI, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_ZANDALARI, sharedData({["cost"]={{"c",ARCH_CURRENCY_ZANDALARI,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(154913),	-- Akun'Jar Vase
 			i(160743),	-- Blowgun of the Sethra
 			i(154917),	-- Bwonsamdi Voodoo Mask
@@ -175,7 +175,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			i(154915),	-- Rezan Idol
 			i(160753),	-- Sanguinating Totem
 			i(154914),	-- Urn of Passage
-		}),
+		})),
 	}),
 	prof(BLACKSMITHING, {
 		n(DISCOVERY, {

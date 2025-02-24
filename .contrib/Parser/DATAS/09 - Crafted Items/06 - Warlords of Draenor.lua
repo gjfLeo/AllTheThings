@@ -158,7 +158,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 		i(108439),	-- Draenor Clan Orator Cane
 		i(109584),	-- Ogre Missive
 		i(87399),	-- Restored Artifact
-		currency(ARCH_CURRENCY_ARAKKOA, {
+		header(HEADERS.Currency, ARCH_CURRENCY_ARAKKOA, sharedData({["cost"]={{"c",ARCH_CURRENCY_ARAKKOA,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(117354),	-- Ancient Nest Guardian (PET!)
 			i(114204),	-- Apexis Crystal
 			i(114205),	-- Apexis Hieroglyph
@@ -171,8 +171,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(114200),	-- Solar Orb
 			i(114201),	-- Sundial
 			i(114202),	-- Talonpriest Mask
-		}),
-		currency(ARCH_CURRENCY_DRAENORCLANS, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_DRAENORCLANS, sharedData({["cost"]={{"c",ARCH_CURRENCY_DRAENORCLANS,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(114171),	-- Ancestral Talisman
 			i(114163),	-- Barbed Fishing Hook
 			i(114157),	-- Blackrock Razor
@@ -194,8 +194,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(114151),	-- Warsong Ceremonial Pike
 			i(114159),	-- Weighted Chopping Axe
 			i(114145),	-- Wolfskin Snowshoes
-		}),
-		currency(ARCH_CURRENCY_OGRE, {	-- Ogre
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_OGRE, sharedData({["cost"]={{"c",ARCH_CURRENCY_OGRE,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(114191),	-- Eye of Har'gunn the Blind
 			i(114189),	-- Gladiator's Shield
 			i(114194),	-- Imperial Decree Stele
@@ -208,7 +208,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WOD, applyclassicphase(WOD_PHASE_ONE,
 			i(114183),	-- Stone Manacles
 			i(114181),	-- Stonemaul Succession Stone
 			i(117384),	-- Warmaul of the Warmaul Chieftain
-		}),
+		})),
 	}),
 	prof(BLACKSMITHING, {
 		n(ARMOR, {

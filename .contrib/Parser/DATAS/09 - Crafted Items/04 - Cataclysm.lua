@@ -133,7 +133,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 	prof(ARCHAEOLOGY, {
 		i(87399, {["timeline"] = {ADDED_5_0_4}}),	-- Restored Artifact
 		i(64397),	-- Tol'vir Hieroglyphic
-		currency(ARCH_CURRENCY_TOLVIR, {
+		header(HEADERS.Currency, ARCH_CURRENCY_TOLVIR, sharedData({["cost"]={{"c",ARCH_CURRENCY_TOLVIR,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 207190 },	-- Tol'vir Archaeology Find
 			["maps"] = { ULDUM },
 			["groups"] = {
@@ -153,7 +153,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				i(64655),	-- Tiny Oasis Mosaic
 				i(64883),	-- Ultramarine Qiraji Battle Tank (MOUNT!)
 			},
-		}),
+		})),
 	}),
 	prof(BLACKSMITHING, {
 		n(ARMOR, {

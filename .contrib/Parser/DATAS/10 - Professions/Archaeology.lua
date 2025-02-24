@@ -76,9 +76,6 @@ ARCHAEOLOGY_ZANDALARI = createHeader({
 	},
 });
 local RESTORED_ARTIFACT = 87399;
-local function CurrencySym(currencyID)
-	return {{"select","currencyID",currencyID}}
-end
 root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 	["requireSkill"] = ARCHAEOLOGY,
 	["timeline"] = { ADDED_4_0_3_LAUNCH },
@@ -262,31 +259,31 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				["cost"] = {{"i", RESTORED_ARTIFACT, 1}},
 			}, {
 				i(87534, {	-- Crate of Draenei Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_DRAENEI)
+					currency(ARCH_CURRENCY_DRAENEI)
 				}),
 				i(87533, {	-- Crate of Dwarven Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_DWARF),
+					currency(ARCH_CURRENCY_DWARF),
 				}),
 				i(87535, {	-- Crate of Fossil Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_FOSSIL),
+					currency(ARCH_CURRENCY_FOSSIL),
 				}),
 				i(87536, {	-- Crate of Night Elf Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_NIGHTELF),
+					currency(ARCH_CURRENCY_NIGHTELF),
 				}),
 				i(87537, {	-- Crate of Nerubian Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_NERUBIAN),
+					currency(ARCH_CURRENCY_NERUBIAN),
 				}),
 				i(87538, {	-- Crate of Orc Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_ORC),
+					currency(ARCH_CURRENCY_ORC),
 				}),
 				i(87539, {	-- Crate of Tol'vir Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_TOLVIR),
+					currency(ARCH_CURRENCY_TOLVIR),
 				}),
 				i(87540, {	-- Crate of Troll Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_TROLL),
+					currency(ARCH_CURRENCY_TROLL),
 				}),
 				i(87541, {	-- Crate of Vrykul Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_VRYKUL),
+					currency(ARCH_CURRENCY_VRYKUL),
 				}),
 			}),
 		})),
@@ -767,13 +764,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				["cost"] = {{"i", RESTORED_ARTIFACT, 1}},
 			}, {
 				i(117388, {	-- Crate of Mantid Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_MANTID),
+					currency(ARCH_CURRENCY_MANTID),
 				}),
 				i(117387, {	-- Crate of Mogu Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_MOGU),
+					currency(ARCH_CURRENCY_MOGU),
 				}),
 				i(117386, {	-- Crate of Pandaren Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_PANDAREN),
+					currency(ARCH_CURRENCY_PANDAREN),
 				}),
 			}),
 		})),
@@ -1292,13 +1289,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				["cost"] = {{"i", RESTORED_ARTIFACT, 1}},
 			}, {
 				i(142113, {	-- Crate of Arakkoa Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_ARAKKOA),
+					currency(ARCH_CURRENCY_ARAKKOA),
 				}),
 				i(142114, {	-- Crate of Draenor Clans Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_DRAENORCLANS),
+					currency(ARCH_CURRENCY_DRAENORCLANS),
 				}),
 				i(142115, {	-- Crate of Ogre Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_OGRE),
+					currency(ARCH_CURRENCY_OGRE),
 				}),
 			}),
 		})),
@@ -1782,13 +1779,13 @@ root(ROOTS.Professions, prof(ARCHAEOLOGY, bubbleDownSelf({
 				["cost"] = {{"i", RESTORED_ARTIFACT, 1}},
 			}, {
 				i(164625, {	-- Crate of Demon Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_DEMONIC),
+					currency(ARCH_CURRENCY_DEMONIC),
 				}),
 				i(164626, {	-- Crate of Highborne Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_HIGHBORNE),
+					currency(ARCH_CURRENCY_HIGHBORNE),
 				}),
 				i(164627, {	-- Crate of Highmountain Tauren Archaeology Fragments
-					["sym"] = CurrencySym(ARCH_CURRENCY_HIGHMOUNTAIN),
+					currency(ARCH_CURRENCY_HIGHMOUNTAIN),
 				}),
 			}),
 		})),

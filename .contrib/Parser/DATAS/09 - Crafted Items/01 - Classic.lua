@@ -176,7 +176,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		i(63127),	-- Highborne Scroll
 		i(87399, {["timeline"] = {ADDED_5_0_4}}),	-- Restored Artifact
 		i(63128),	-- Troll Tablet
-		currency(ARCH_CURRENCY_DWARF, {
+		header(HEADERS.Currency, ARCH_CURRENCY_DWARF, sharedData({["cost"]={{"c",ARCH_CURRENCY_DWARF,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 204282 },	-- Dwarf Archaeology Find
 			["maps"] = {
 				ARATHI_HIGHLANDS,
@@ -223,8 +223,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(64486),	-- Word of Empress Zoe
 				i(63110),	-- Worn Hunting Knife
 			},
-		}),
-		currency(ARCH_CURRENCY_FOSSIL, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_FOSSIL, sharedData({["cost"]={{"c",ARCH_CURRENCY_FOSSIL,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 206836 },	-- Fossil Archaeology Find
 			["maps"] = {
 				BLASTED_LANDS,
@@ -263,8 +263,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(63527),	-- Twisted Ammonite Shell
 				i(64387),	-- Vicious Ancient Fish
 			},
-		}),
-		currency(ARCH_CURRENCY_NIGHTELF, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_NIGHTELF, sharedData({["cost"]={{"c",ARCH_CURRENCY_NIGHTELF,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 203071 },	-- Night Elf Archaeology Find
 			["maps"] = {
 				ASHENVALE,
@@ -312,8 +312,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(64650),	-- Umbra Crescent
 				i(64651),	-- Wisp Amulet (TOY!)
 			},
-		}),
-		currency(ARCH_CURRENCY_TROLL, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_TROLL, sharedData({["cost"]={{"c",ARCH_CURRENCY_TROLL,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			["provider"] = { "o", 202655 },	-- Troll Archaeology Find
 			["maps"] = {
 				ARATHI_HIGHLANDS,
@@ -345,7 +345,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(63115),	-- Zandalari Voodoo Doll
 				i(64377),	-- Zin'rokh, Destroyer of Worlds
 			},
-		}),
+		})),
 	})),
 	prof(BLACKSMITHING, {
 		-- #if BEFORE TBC

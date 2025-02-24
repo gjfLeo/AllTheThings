@@ -165,7 +165,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 		i(130904),	-- Highmountain Ritual-Stone
 		i(130905),	-- Mark of the Deceiver
 		i(87399),	-- Restored Artifact
-		currency(ARCH_CURRENCY_DEMONIC, {
+		header(HEADERS.Currency, ARCH_CURRENCY_DEMONIC, sharedData({["cost"]={{"c",ARCH_CURRENCY_DEMONIC,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(130917),	-- Flayed-Skin Chronicle
 			i(130920),	-- Houndstooth Hauberk
 			i(130916),	-- Imp's Cup
@@ -176,8 +176,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(130931),	-- Pristine Imp's Cup
 			i(130933),	-- Pristine Malformed Abyssal
 			i(130934),	-- Pristine Orb of Inner Chaos
-		}),
-		currency(ARCH_CURRENCY_HIGHBORNE, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_HIGHBORNE, sharedData({["cost"]={{"c",ARCH_CURRENCY_HIGHBORNE,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(130907),	-- Inert Leystone Charm
 			i(130910),	-- Nobleman's Letter Opener
 			i(130909),	-- Pre-War Highborne Tapestry
@@ -189,8 +189,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(130908),	-- Quietwine Vial
 			i(137782, {["timeline"] = {ADDED_7_1_0}}),	-- Vantus Rune Technique: Grand Magistrix Elisande [Rank 3] (RECIPE!)
 			i(130906),	-- Violetglass Vessel
-		}),
-		currency(ARCH_CURRENCY_HIGHMOUNTAIN, {
+		})),
+		header(HEADERS.Currency, ARCH_CURRENCY_HIGHMOUNTAIN, sharedData({["cost"]={{"c",ARCH_CURRENCY_HIGHMOUNTAIN,50}}},{ -- TODO: someone can add different fragment costs within as needed
 			i(130914),	-- Drogbar Gem-Roller
 			i(130913),	-- Hand-Smoothed Pyrestone
 			i(130912),	-- Moosebone Fish-Hook
@@ -201,7 +201,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.LEGION, applyclassicphase(LEGION_PHAS
 			i(130926),	-- Pristine Trailhead Drum
 			i(130915),	-- Stonewood Bow
 			i(130911),	-- Trailhead Drum
-		}),
+		})),
 	}),
 	prof(BLACKSMITHING, {
 		n(ARMOR, {
