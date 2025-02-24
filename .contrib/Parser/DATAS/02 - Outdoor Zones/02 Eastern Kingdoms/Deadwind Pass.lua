@@ -211,10 +211,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #endif
 			-- #if AFTER 10.2.5
 			n(TREASURES, {
-				i(212989, {	-- Grimoire of the Mana-Gorged Observer (CI!)
-					["provider"] = { "o", 421150 },	-- Carved Eye
+				o(421150, {	-- Carved Eye
 					["coord"] = { 43.9, 72.8, DEADWIND_PASS },
 					["timeline"] = { ADDED_10_2_5 },
+					["g"] = {
+						i(212989),	-- Grimoire of the Mana-Gorged Observer (CI!)
+					},
 				}),
 			}),
 			-- #endif

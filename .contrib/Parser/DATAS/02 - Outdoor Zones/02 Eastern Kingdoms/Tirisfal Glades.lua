@@ -772,10 +772,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				n(TREASURES, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
-					i(212984, {	-- Grimoire of the Zealous Observer (CI!)
-						["provider"] = { "o", 421151 },	-- Carved Eye
+					o(421151, {	-- Carved Eye
 						["coord"] = { 40.5, 53.6, SCARLET_MONASTERY_ENTRANCE },
 						["timeline"] = { ADDED_10_2_5 },
+						["g"] = {
+							i(212984),	-- Grimoire of the Zealous Observer (CI!)
+						},
 					}),
 				})),
 				n(ZONE_DROPS, {
