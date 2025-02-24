@@ -368,14 +368,22 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(52142, {	-- Restocking
 				["races"] = ALLIANCE_ONLY,
 				["g"] = {
-					i(161216),	-- Handful of Scraps (QI!)
+					o_repeated({
+						i(161216),	-- Handful of Scraps (QI!)
+						o(292764),	-- Metal Scraps
+						o(292765),	-- Discarded Toolbox
+					}),
 					i(156583),	-- Salvaged Azerite Ammunition (QI!)
 				},
 			}),
 			q(52160, {	-- Restocking
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(161216),	-- Handful of Scraps (QI!)
+					o_repeated({
+						i(161216),	-- Handful of Scraps (QI!)
+						o(292764),	-- Metal Scraps
+						o(292765),	-- Discarded Toolbox
+					}),
 					i(156583),	-- Salvaged Azerite Ammunition (QI!)
 				},
 			}),

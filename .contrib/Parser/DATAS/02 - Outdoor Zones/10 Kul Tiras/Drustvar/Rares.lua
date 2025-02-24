@@ -148,6 +148,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(129904, {	-- Cottontail Matron
+				["provider"] = { "o", 277389 },	-- Beastly Ritual Skull
 				["questID"] = 49216,
 				["coord"] = { 52.1, 46.9, DRUSTVAR },
 				["g"] = {

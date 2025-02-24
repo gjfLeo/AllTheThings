@@ -960,8 +960,35 @@ root(ROOTS.ExpansionFeatures,
 								["races"] = HORDE_ONLY,
 								["g"] = {
 									i(164778),	-- Abyssal Scepter (QI!)
-									i(164917),	-- Azerite Bomb Cluster (QI!)
-									i(165225),	-- Azerite Rifle (QI!)
+									o(307683, {	-- Azerite Bombs
+										["coords"] = {
+											{ 49.3, 25.4, TIRAGARDE_SOUND },
+											{ 49.7, 26.2, TIRAGARDE_SOUND },
+											{ 49.8, 25.4, TIRAGARDE_SOUND },
+											{ 50.6, 25.2, TIRAGARDE_SOUND },
+											{ 50.6, 26.5, TIRAGARDE_SOUND },
+											{ 50.7, 27.9, TIRAGARDE_SOUND },
+											{ 51.3, 26.1, TIRAGARDE_SOUND },
+											{ 51.6, 28.0, TIRAGARDE_SOUND },
+											{ 51.7, 27.0, TIRAGARDE_SOUND },
+										},
+										["g"] = { i(164917) },	-- Azerite Bomb Cluster (QI!)
+									}),
+									o(310513, {	-- Azerite Weapon Cache
+										["coords"] = {
+											{ 49.9, 26.7, TIRAGARDE_SOUND },
+											{ 50.0, 25.8, TIRAGARDE_SOUND },
+											{ 50.4, 28.3, TIRAGARDE_SOUND },
+											{ 50.6, 27.6, TIRAGARDE_SOUND },
+											{ 50.8, 26.0, TIRAGARDE_SOUND },
+											{ 50.8, 29.0, TIRAGARDE_SOUND },
+											{ 51.3, 27.3, TIRAGARDE_SOUND },
+											{ 51.5, 28.7, TIRAGARDE_SOUND },
+											{ 51.8, 26.1, TIRAGARDE_SOUND },
+											{ 52.4, 27.4, TIRAGARDE_SOUND },
+										},
+										["g"] = { i(165225) },	-- Azerite Rifle (QI!)
+									}),
 								},
 							}),
 							q(53913, {	-- With Honor
@@ -1060,7 +1087,10 @@ root(ROOTS.ExpansionFeatures,
 								["maps"] = { TIRAGARDE_SOUND },
 								["g"] = {
 									i(164987),	-- Alliance Battle Plans (QI!)
-									i(164989),	-- Mekkatorque's Battle Plans (QI!)
+									o(309916, {	-- Mekkatorque's Battle Plans
+										["coord"] = { 59.1, 61.8, TIRAGARDE_SOUND },
+										["g"] = { i(164989) },	-- Mekkatorque's Battle Plans (QI!)
+									}),
 								},
 							}),
 							q(54028, {	-- Mech versus Airship
@@ -1102,8 +1132,13 @@ root(ROOTS.ExpansionFeatures,
 								["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
 								["races"] = HORDE_ONLY,
 								["g"] = {
+									i(166293),	-- Barely Used Bracers (QI!)
 									i(165697),	-- Captain's Overcoat (QI!)
 									i(165698),	-- Proudmoore Equipment (QI!)
+									i(166303),	-- Proper Hat (QI!)
+									i(166296),	-- Scuffed Boot (QI!)
+									i(166291),	-- Slightly Worn Hauberk (QI!)
+									i(166302),	-- Well-Proportioned Pauldrons (QI!)
 								},
 							}),
 							q(54177, {	-- A Brilliant Distraction
@@ -1112,7 +1147,9 @@ root(ROOTS.ExpansionFeatures,
 								["coord"] = { 83.0, 49.6, TIRAGARDE_SOUND },
 								["races"] = HORDE_ONLY,
 								["g"] = {
-									i(165690),	-- Volatile Azerite (QI!)
+									o(311174, {	-- Volatile Azerite Weapons
+										i(165690),	-- Volatile Azerite (QI!)
+									})
 								},
 							}),
 							q(54178, {	-- Catching a Ride
@@ -1126,7 +1163,6 @@ root(ROOTS.ExpansionFeatures,
 								["races"] = HORDE_ONLY,
 							}),
 							q(54179, {	-- Through the Front Door
-								-- Need to check for Leather rewards
 								["sourceQuests"] = { 54178 },	-- Catching a Ride
 								["provider"] = { "n", 147135 },	-- Nathanos Blightcaller
 								["coord"] = { 88.2, 50.8, TIRAGARDE_SOUND },
@@ -1138,10 +1174,13 @@ root(ROOTS.ExpansionFeatures,
 									1351,	-- Tol Dagor (Scenario)
 								},
 								["g"] = {
+									i(165734),	-- Master Key
 									i(163426),	-- Honorbound Artificer's Guise (Cloth)
 									i(163424),	-- Honorbound Artificer's Amice (Cloth)
 									i(163280),	-- Honorbound Artificer's Robes (Cloth)
-									-- Missing Leather
+									i(163435),	-- Honorbound Outrider's Headpiece (Leather)
+									i(163432),	-- Honorbound Outrider's Shoulderguards (Leather)
+									i(163283),	-- Honorbound Outrider's Tunic (Leather)
 									i(163446),	-- Honorbound Vanguard's Skullguard (Mail)
 									i(163441),	-- Honorbound Vanguard's Shoulderguards (Mail)
 									i(163282),	-- Honorbound Vanguard's Chainmail (Mail)
@@ -1161,7 +1200,7 @@ root(ROOTS.ExpansionFeatures,
 							q(54140, {	-- Ride of the Zandalari
 								["sourceQuests"] = { 54139 },	-- War Is Here
 								["provider"] = { "n", 133050 },	-- Princess Talanji
-								["coord"] = { 41.1, 66.5, DAZARALOR },
+								["coord"] = { 41.1, 66.5, HALL_OF_CHRONICLERS },
 								["races"] = HORDE_ONLY,
 							}),
 							q(54156, {	-- A Path of Blood

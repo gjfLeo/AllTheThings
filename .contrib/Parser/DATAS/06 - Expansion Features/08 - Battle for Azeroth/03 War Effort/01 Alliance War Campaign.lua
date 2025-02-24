@@ -1120,6 +1120,17 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuests"] = { 53909 },	-- Besieged Allies
 							-- This quest was available before I turned in Squad Goals, Repel the Horde, or Zero Zeppelins.  Not sure if those 3 are optional or required further down the chain.  Assuming they are required for the next part, so listing them.
+							["g"] = {
+								o(312356, {	-- Outrigger Weapon
+									["coords"] = {
+										{ 42.2, 26.8, TIRAGARDE_SOUND },
+										{ 42.7, 27.4, TIRAGARDE_SOUND },
+										{ 42.8, 26.4, TIRAGARDE_SOUND },
+										{ 43.4, 27.8, TIRAGARDE_SOUND },
+									},
+									["g"] = { i(166280) },	-- Outrigger Weapon (QI!)
+								}),
+							}
 						}),
 						q(53978, {	-- Gunpowder Plots
 							["provider"] = { "n", 145593 },	-- Rosaline Madison
