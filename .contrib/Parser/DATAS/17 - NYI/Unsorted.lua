@@ -79,7 +79,7 @@ root(ROOTS.Unsorted, {
 				-- Delve Loot?
 				i(234125),	-- Public Defender's Coat
 				i(234185),	-- Dr. Scrapheal
-				
+
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
 				i(235423),	-- Expensive Gemstone Ring
@@ -113,9 +113,6 @@ root(ROOTS.Unsorted, {
 				i(235616),	-- True Speed Goblin-Thruster
 			}),
 			filter(BATTLE_PETS, {
-				i(232806),	-- Tiny Torq
-				i(232838),	-- Viridian Mechasaur
-				i(232844),	-- Fuz-Size Flarendo
 				i(232847),	-- Personal-Use Sapper
 				i(232848),	-- Mr. DELVER
 				i(232852),	-- Mutt

@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["isWeekly"] = true,
 				}),
 			}),
-			n(RARES, {				
+			n(RARES, {
 				n(234621, {	-- Gallagio Garbage <Luxury Trash>
 					["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar during a S.C.R.A.P. Job event in Undermine",
 				--	["coord"] = { x, y, UNDERMINE },	-- any scap spot?
@@ -150,6 +150,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["g"] = {
 						i(233557, {	-- Sifted Pile of Scrap
 							["cost"] = {{ "c", 3218, 333 }},	-- Empty Kaja'Cola Can
+							["g"] = {
+								i(232838),	-- Viridian Mechasaur (PET!)
+							},
 						}),
 						i(237382, {	-- Undermine Supply Crate (TOY!)
 							["cost"] = {{ "c", 3218, 999 }},	-- Empty Kaja'Cola Can

@@ -8,6 +8,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 34.0, 61.0, AZJ_KAHET },
 				["questID"] = 82525,
 			}),
+			o(455665, {	-- Convoy Treasure
+				["coords"] = {
+					{ 43.6, 31.5, AZJ_KAHET },
+					{ 43.6, 39.8, AZJ_KAHET },
+				},
+				["questID"] = 83772,
+			}),
 			o(446097, {	-- Disturbed Soil
 				["coord"] = { 67.4, 90.7, AZJ_KAHET },
 				["questID"] = 82718,

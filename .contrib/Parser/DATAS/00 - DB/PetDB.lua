@@ -4315,6 +4315,7 @@ i(232853, 4632);	-- Eepy
 i(232855, 4631);	-- Foreman
 i(232844, 4640);	-- Fuz-Size Flarendo
 i(232843, 4642);	-- Gorillion
+i(232807, 4664);	-- Iron Chick
 i(232859, 4653);	-- Lab Rat
 i(205013, 3518);	-- Lettuce
 i(232840, 4661);	-- Mechagopher
@@ -4325,6 +4326,7 @@ i(232846, 4648);	-- Steamwheedle Flunkie
 i(232806, 4643);	-- Tiny Torq
 i(238261, 4762);	-- Tock the Clocker Spaniel
 i(232849, 4650);	-- Venture Companyman
+i(232838, 4639);	-- Viridian Mechasaur
 i(232839, 4637);	-- Wavebreaker Mechasaur
 --- NPC ---
 n(231470, 4652);	-- Acid-Drenched Rat
@@ -4347,13 +4349,11 @@ i(235909, 4755);	-- Gleam
 i(232857, 4635);	-- Goggles
 i(232854, 4634);	-- Grinner
 --i(???, 4740);	-- Handbag Hyena
-i(232807, 4664);	-- Iron Chick
 i(232848, 4647);	-- Mr. DELVER
 i(232852, 4636);	-- Mutt
 i(232847, 4646);	-- Personal-Use Sapper
 i(232856, 4633);	-- Scruff
 --i(???, 4738);	-- Status Symbol
-i(232838, 4639);	-- Viridian Mechasaur
 --- UNSORTED WILD ---
 n(237713, 4741);	-- Cannoneer
 n(231579, 4663);	-- Lime Roboclucker
