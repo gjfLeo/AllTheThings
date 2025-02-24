@@ -11,5 +11,6 @@ SANCTUM_UPGRADES = createHeader({
 		ru = "Улучшения для Обители",
 		ko = "성소 강화",
 		cn = "圣所升级",
+		tw = "聖所升級",
 	},
 });
