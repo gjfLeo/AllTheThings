@@ -868,7 +868,10 @@ root(ROOTS.ExpansionFeatures,
 								["coord"] = { 71.0, 84.8, BORALUS },
 								["races"] = HORDE_ONLY,
 								["g"] = {
-									i(162579)	-- Abyssal Scepter (QI!)
+									o(293901, {	-- Abyssal Scepter
+										["coord"] = { 71.2, 82.4, BORALUS },
+										["g"] = { i(162579) },	-- Abyssal Scepter (QI!)
+									}),
 								},
 							}),
 							q(52990, {	-- Return to the Harbor
@@ -906,357 +909,365 @@ root(ROOTS.ExpansionFeatures,
 							}),
 						}),
 						-- Tides of Vengeance
-						q(53850, {	-- Our War Continues
-							["sourceQuests"] = { 53003 },	-- A Cycle of Hatred
-							["provider"] = { "n", 134711 },	-- Lady Sylvanas Windrunner
-							["coord"] = { 48.4, 71.4, ORGRIMMAR },
-							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+						header(HEADERS.AchCriteria, 13466.01, {	-- The Day is Won
+							q(53850, {	-- Our War Continues
+								["sourceQuests"] = { 53003 },	-- A Cycle of Hatred
+								["provider"] = { "n", 134711 },	-- Lady Sylvanas Windrunner
+								["coord"] = { 48.4, 71.4, ORGRIMMAR },
+								["races"] = HORDE_ONLY,
+								["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							}),
+							q(53851, {	-- Our War Continues
+								["sourceQuests"] = { 53003 },	-- A Cycle of Hatred
+								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
+								["coord"] = { 58.4, 62.6, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+								["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							}),
+							q(53852, {	-- Azerite Denied
+								["sourceQuests"] = {
+									53850,	-- Our War Continues
+									53851,	-- Our War Continues
+								},
+								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
+								["coord"] = { 58.4, 62.6, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+								["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							}),
+							q(53856, {	-- The Fury of the Horde
+								["sourceQuests"] = { 53852 },	-- Azerite Denied
+								["provider"] = { "n", 145422 },	-- Rexxar
+								["coord"] = { 47.5, 21.8, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+								["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+							}),
+							q(53879, {	-- Cleaning Out the Estate
+								["sourceQuests"] = { 53856 },	-- The Fury of the Horde
+								["providers"] = {
+									{ "n", 145422 },	-- Rexxar
+									{ "n", 146462 },	-- Rexxar
+								},
+								["coord"] = { 48.9, 25.0, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
+							q(53880, {	-- Machines of War and Azerite
+								["sourceQuests"] = { 53856 },	-- The Fury of the Horde
+								["providers"] = {
+									{ "n", 145423 },	-- Thomas Zelling
+									{ "n", 146466 },	-- Thomas Zelling
+								},
+								["coord"] = { 48.9, 25.0, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+								["g"] = {
+									i(164778),	-- Abyssal Scepter (QI!)
+									i(164917),	-- Azerite Bomb Cluster (QI!)
+									i(165225),	-- Azerite Rifle (QI!)
+								},
+							}),
+							q(53913, {	-- With Honor
+								["sourceQuests"] = {
+									53879,	-- Cleaning Out the Estate
+									53880,	-- Machines of War and Azerite
+								},
+								["provider"] = { "n", 146462 },	-- Rexxar
+								["races"] = HORDE_ONLY,
+								["maps"] = { TIRAGARDE_SOUND },
+							}),
+							q(53912, {	-- The Hunt Never Ends
+								["sourceQuests"] = { 53913 },	-- With Honor
+								["provider"] = { "n", 146462 },	-- Rexxar
+								["races"] = HORDE_ONLY,
+								["maps"] = { TIRAGARDE_SOUND },
+							}),
+							q(53973, {	-- Ride Out to Meet Them
+								["sourceQuests"] = { 53912 },	-- The Hunt Never Ends
+								["provider"] = { "n", 145422 },	-- Rexxar
+								["coord"] = { 53.0, 30.5, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
+							q(53981, {	-- The Day is Won
+								["sourceQuests"] = { 53973 },	-- Ride Out to Meet Them
+								["provider"] = { "n", 145422 },	-- Rexxar
+								["coord"] = { 47.4, 21.8, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
 						}),
-						q(53851, {	-- Our War Continues
-							["sourceQuests"] = { 53003 },	-- A Cycle of Hatred
-							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
-							["coord"] = { 58.4, 62.6, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+						header(HEADERS.AchCriteria, 13466.02, {	-- Mekkatorque's Battle Plans
+							q(53941, {	-- A Mech for a Goblin
+								["sourceQuests"] = { 53981 },	-- The Day is Won
+								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
+								["coord"] = { 58.4, 62.6, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54123, {	-- It Belongs in My Mech!
+								["sourceQuests"] = { 53941 },	-- A Mech for a Goblin
+								["provider"] = { "n", 145751 },	-- Trade Prince Gallywix
+								["coord"] = { 36.2, 72.0, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+								["g"] = {
+									i(166309),	-- Azerite Vacuumizer (QI!)
+								},
+							}),
+							q(54124, {	-- Avoiding Lawsuits 101
+								["sourceQuests"] = { 53941 },	-- A Mech for a Goblin
+								["provider"] = { "n", 148339 },	-- Patch
+								["coord"] = { 36.3, 72.0, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(53942, {	-- The Right Mech for the Job
+								["sourceQuests"] = {
+									54123,	-- It Belongs in My Mech!
+									54124,	-- Avoiding Lawsuits 101
+								},
+								["provider"] = { "n", 145751 },	-- Trade Prince Gallywix
+								["coord"] = { 36.2, 72.0, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54128, {	-- Necessary Precautions
+								["sourceQuests"] = { 53942 },	-- The Right Mech for the Job
+								["provider"] = { "n", 145816 },	-- G.M.O.D.
+								["coord"] = { 37.3, 26.0, DRUSTVAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54004, {	-- Test Case #1; Mech vs. Mekkatorque
+								["sourceQuests"] = { 54128 },	-- Necessary Precautions
+								["provider"] = { "n", 145816 },	-- G.M.O.D.
+								["coord"] = { 37.3, 26.0, DRUSTVAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54007, {	-- Insurance Policy
+								["sourceQuests"] = { 54004 },	-- Test Case #1; Mech vs. Mekkatorque
+								["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
+								["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54008, {	-- Insurance Renewal
+								["sourceQuests"] = { 54007 },	-- Insurance Policy
+								["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
+								["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54009, {	-- Killing on the Side
+								["sourceQuests"] = { 54007 },	-- Insurance Policy
+								["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
+								["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54022, {	-- Mekkatorque's Battle Plans
+								["sourceQuests"] = { 54007 },	-- Insurance Policy
+								["provider"] = { "i", 164987 },	-- Alliance Battle Plans
+								["races"] = HORDE_ONLY,
+								["maps"] = { TIRAGARDE_SOUND },
+								["g"] = {
+									i(164987),	-- Alliance Battle Plans (QI!)
+									i(164989),	-- Mekkatorque's Battle Plans (QI!)
+								},
+							}),
+							q(54028, {	-- Mech versus Airship
+								["sourceQuests"] = {
+									54008,	-- Insurance Renewal
+									54009,	-- Killing on the Side
+									54022,	-- Mekkatorque's Battle Plans
+								},
+								["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
+								["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54094, {	-- A Goblin's Definition of Success
+								["sourceQuests"] = { 54028 },	-- Mech versus Airship
+								["provider"] = { "n", 146623 },	-- G.M.O.D.
+								["coord"] = { 87.6, 53.5, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
 						}),
-						q(53852, {	-- Azerite Denied
-							["sourceQuests"] = {
-								53850,	-- Our War Continues
-								53851,	-- Our War Continues
-							},
-							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
-							["coord"] = { 58.4, 62.6, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
+						header(HEADERS.AchCriteria, 13466.03, {	-- Through the Front Door
+							q(54121, {	-- Breaking Out Ashvane
+								["sourceQuests"] = { 54094 },	-- A Goblin's Definition of Success
+								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
+								["coord"] = { 58.4, 62.6, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54175, {	-- Face Your Enemy
+								["sourceQuests"] = { 54121 },	-- Breaking Out Ashvane
+								["provider"] = { "n", 147088 },	-- Arcanist Valtrois
+								["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+								["g"] = {
+									i(165702),	-- Shard of Vesara (QI!)
+								},
+							}),
+							q(54176, {	-- Be More Uniform
+								["sourceQuests"] = { 54121 },	-- Breaking Out Ashvane
+								["provider"] = { "n", 147088 },	-- Arcanist Valtrois
+								["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+								["g"] = {
+									i(165697),	-- Captain's Overcoat (QI!)
+									i(165698),	-- Proudmoore Equipment (QI!)
+								},
+							}),
+							q(54177, {	-- A Brilliant Distraction
+								["sourceQuests"] = { 54121 },	-- Breaking Out Ashvane
+								["provider"] = { "n", 146931 },	-- Rexxar
+								["coord"] = { 83.0, 49.6, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+								["g"] = {
+									i(165690),	-- Volatile Azerite (QI!)
+								},
+							}),
+							q(54178, {	-- Catching a Ride
+								["sourceQuests"] = {
+									54175,	-- Face Your Enemy
+									54176,	-- Be More Uniform
+									54177,	-- A Brilliant Distraction
+								},
+								["provider"] = { "n", 147088 },	-- Arcanist Valtrois
+								["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54179, {	-- Through the Front Door
+								-- Need to check for Leather rewards
+								["sourceQuests"] = { 54178 },	-- Catching a Ride
+								["provider"] = { "n", 147135 },	-- Nathanos Blightcaller
+								["coord"] = { 88.2, 50.8, TIRAGARDE_SOUND },
+								["races"] = HORDE_ONLY,
+								["modID"] = 5,
+								["maps"] = {
+									1349,	-- Tol Dagor (Scenario)
+									1350,	-- Tol Dagor (Scenario)
+									1351,	-- Tol Dagor (Scenario)
+								},
+								["g"] = {
+									i(163426),	-- Honorbound Artificer's Guise (Cloth)
+									i(163424),	-- Honorbound Artificer's Amice (Cloth)
+									i(163280),	-- Honorbound Artificer's Robes (Cloth)
+									-- Missing Leather
+									i(163446),	-- Honorbound Vanguard's Skullguard (Mail)
+									i(163441),	-- Honorbound Vanguard's Shoulderguards (Mail)
+									i(163282),	-- Honorbound Vanguard's Chainmail (Mail)
+									i(163456),	-- Honorbound Centurion's Greathelm (Plate)
+									i(163453),	-- Honorbound Centurion's Shoulderplates (Plate)
+									i(163459),	-- Honorbound Centurion's Breastplate (Plate)
+								},
+							}),
 						}),
-						q(53856, {	-- The Fury of the Horde
-							["sourceQuests"] = { 53852 },	-- Azerite Denied
-							["provider"] = { "n", 145422 },	-- Rexxar
-							["coord"] = { 47.5, 21.8, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-							["g"] = { i(164778) },	-- Abyssal Scepter (QI!)
-						}),
-						q(53879, {	-- Cleaning Out the Estate
-							["sourceQuests"] = { 53856 },	-- The Fury of the Horde
-							["providers"] = {
-								{ "n", 145422 },	-- Rexxar
-								{ "n", 146462 },	-- Rexxar
-							},
-							["coord"] = { 48.9, 25.0, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(53880, {	-- Machines of War and Azerite
-							["sourceQuests"] = { 53856 },	-- The Fury of the Horde
-							["providers"] = {
-								{ "n", 145423 },	-- Thomas Zelling
-								{ "n", 146466 },	-- Thomas Zelling
-							},
-							["coord"] = { 48.9, 25.0, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(164778),	-- Abyssal Scepter (QI!)
-								i(164917),	-- Azerite Bomb Cluster (QI!)
-								i(165225),	-- Azerite Rifle (QI!)
-							},
-						}),
-						q(53913, {	-- With Honor
-							["sourceQuests"] = {
-								53879,	-- Cleaning Out the Estate
-								53880,	-- Machines of War and Azerite
-							},
-							["provider"] = { "n", 146462 },	-- Rexxar
-							["races"] = HORDE_ONLY,
-							["maps"] = { TIRAGARDE_SOUND },
-						}),
-						q(53912, {	-- The Hunt Never Ends
-							["sourceQuests"] = { 53913 },	-- With Honor
-							["provider"] = { "n", 146462 },	-- Rexxar
-							["races"] = HORDE_ONLY,
-							["maps"] = { TIRAGARDE_SOUND },
-						}),
-						q(53973, {	-- Ride Out to Meet Them
-							["sourceQuests"] = { 53912 },	-- The Hunt Never Ends
-							["provider"] = { "n", 145422 },	-- Rexxar
-							["coord"] = { 53.0, 30.5, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(53981, {	-- The Day is Won
-							["sourceQuests"] = { 53973 },	-- Ride Out to Meet Them
-							["provider"] = { "n", 145422 },	-- Rexxar
-							["coord"] = { 47.4, 21.8, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(53941, {	-- A Mech for a Goblin
-							["sourceQuests"] = { 53981 },	-- The Day is Won
-							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
-							["coord"] = { 58.4, 62.6, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54123, {	-- It Belongs in My Mech!
-							["sourceQuests"] = { 53941 },	-- A Mech for a Goblin
-							["provider"] = { "n", 145751 },	-- Trade Prince Gallywix
-							["coord"] = { 36.2, 72.0, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(166309),	-- Azerite Vacuumizer (QI!)
-							},
-						}),
-						q(54124, {	-- Avoiding Lawsuits 101
-							["sourceQuests"] = { 53941 },	-- A Mech for a Goblin
-							["provider"] = { "n", 148339 },	-- Patch
-							["coord"] = { 36.3, 72.0, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(53942, {	-- The Right Mech for the Job
-							["sourceQuests"] = {
-								54123,	-- It Belongs in My Mech!
-								54124,	-- Avoiding Lawsuits 101
-							},
-							["provider"] = { "n", 145751 },	-- Trade Prince Gallywix
-							["coord"] = { 36.2, 72.0, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54128, {	-- Necessary Precautions
-							["sourceQuests"] = { 53942 },	-- The Right Mech for the Job
-							["provider"] = { "n", 145816 },	-- G.M.O.D.
-							["coord"] = { 37.3, 26.0, DRUSTVAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54004, {	-- Test Case #1; Mech vs. Mekkatorque
-							["sourceQuests"] = { 54128 },	-- Necessary Precautions
-							["provider"] = { "n", 145816 },	-- G.M.O.D.
-							["coord"] = { 37.3, 26.0, DRUSTVAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54007, {	-- Insurance Policy
-							["sourceQuests"] = { 54004 },	-- Test Case #1; Mech vs. Mekkatorque
-							["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
-							["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54008, {	-- Insurance Renewal
-							["sourceQuests"] = { 54007 },	-- Insurance Policy
-							["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
-							["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54009, {	-- Killing on the Side
-							["sourceQuests"] = { 54007 },	-- Insurance Policy
-							["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
-							["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54022, {	-- Mekkatorque's Battle Plans
-							["sourceQuests"] = { 54007 },	-- Insurance Policy
-							["provider"] = { "i", 164987 },	-- Alliance Battle Plans
-							["races"] = HORDE_ONLY,
-							["maps"] = { TIRAGARDE_SOUND },
-							["g"] = {
-								i(164987),	-- Alliance Battle Plans (QI!)
-								i(164989),	-- Mekkatorque's Battle Plans (QI!)
-							},
-						}),
-						q(54028, {	-- Mech versus Airship
-							["sourceQuests"] = {
-								54008,	-- Insurance Renewal
-								54009,	-- Killing on the Side
-								54022,	-- Mekkatorque's Battle Plans
-							},
-							["provider"] = { "n", 146073 },	-- Trade Prince Gallywix
-							["coord"] = { 54.6, 64.6, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54094, {	-- A Goblin's Definition of Success
-							["sourceQuests"] = { 54028 },	-- Mech versus Airship
-							["provider"] = { "n", 146623 },	-- G.M.O.D.
-							["coord"] = { 87.6, 53.5, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54121, {	-- Breaking Out Ashvane
-							["sourceQuests"] = { 54094 },	-- A Goblin's Definition of Success
-							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
-							["coord"] = { 58.4, 62.6, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54175, {	-- Face Your Enemy
-							["sourceQuests"] = { 54121 },	-- Breaking Out Ashvane
-							["provider"] = { "n", 147088 },	-- Arcanist Valtrois
-							["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(165702),	-- Shard of Vesara (QI!)
-							},
-						}),
-						q(54176, {	-- Be More Uniform
-							["sourceQuests"] = { 54121 },	-- Breaking Out Ashvane
-							["provider"] = { "n", 147088 },	-- Arcanist Valtrois
-							["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(165697),	-- Captain's Overcoat (QI!)
-								i(165698),	-- Proudmoore Equipment (QI!)
-							},
-						}),
-						q(54177, {	-- A Brilliant Distraction
-							["sourceQuests"] = { 54121 },	-- Breaking Out Ashvane
-							["provider"] = { "n", 146931 },	-- Rexxar
-							["coord"] = { 83.0, 49.6, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(165690),	-- Volatile Azerite (QI!)
-							},
-						}),
-						q(54178, {	-- Catching a Ride
-							["sourceQuests"] = {
-								54175,	-- Face Your Enemy
-								54176,	-- Be More Uniform
-								54177,	-- A Brilliant Distraction
-							},
-							["provider"] = { "n", 147088 },	-- Arcanist Valtrois
-							["coord"] = { 82.9, 49.5, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54179, {	-- Through the Front Door
-							-- Need to check for Leather rewards
-							["sourceQuests"] = { 54178 },	-- Catching a Ride
-							["provider"] = { "n", 147135 },	-- Nathanos Blightcaller
-							["coord"] = { 88.2, 50.8, TIRAGARDE_SOUND },
-							["races"] = HORDE_ONLY,
-							["modID"] = 5,
-							["maps"] = {
-								1349,	-- Tol Dagor (Scenario)
-								1350,	-- Tol Dagor (Scenario)
-								1351,	-- Tol Dagor (Scenario)
-							},
-							["g"] = {
-								i(163426),	-- Honorbound Artificer's Guise (Cloth)
-								i(163424),	-- Honorbound Artificer's Amice (Cloth)
-								i(163280),	-- Honorbound Artificer's Robes (Cloth)
-								-- Missing Leather
-								i(163446),	-- Honorbound Vanguard's Skullguard (Mail)
-								i(163441),	-- Honorbound Vanguard's Shoulderguards (Mail)
-								i(163282),	-- Honorbound Vanguard's Chainmail (Mail)
-								i(163456),	-- Honorbound Centurion's Greathelm (Plate)
-								i(163453),	-- Honorbound Centurion's Shoulderplates (Plate)
-								i(163459),	-- Honorbound Centurion's Breastplate (Plate)
-							},
-						}),
-						q(54139, {	-- War Is Here
-							["sourceQuests"] = { 54179 },	-- Through the Front Door
-							["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
-							["coord"] = { 58.4, 62.6, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54140, {	-- Ride of the Zandalari
-							["sourceQuests"] = { 54139 },	-- War Is Here
-							["provider"] = { "n", 133050 },	-- Princess Talanji
-							["coord"] = { 41.1, 66.5, DAZARALOR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54156, {	-- A Path of Blood
-							["sourceQuests"] = { 54140 },	-- Ride of the Zandalari
-							["provider"] = { "n", 147075 },	-- General Rakera
-							["coord"] = { 58.0, 21.3, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54157, {	-- No One Left Behind
-							["sourceQuests"] = { 54140 },	-- Ride of the Zandalari
-							["provider"] = { "n", 146921 },	-- Princess Talanji
-							["coord"] = { 58.0, 21.3, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54207, {	-- Retaking the Outpost
-							["sourceQuests"] = {
-								54156,	-- A Path of Blood
-								54157,	-- No One Left Behind
-							},
-							["provider"] = { "n", 147075 },	-- General Rakera
-							["coord"] = { 58.0, 21.3, ZULDAZAR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54208, {	-- Minesweeper
-							["sourceQuests"] = { 54207 },	-- Retaking the Outpost
-							["provider"] = { "n", 147145 },	-- Nathanos Blightcaller
-							["classes"] = { ROGUE },
-							["coord"] = { 50.2, 78.4, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54211, {	-- Putting the Gob in Gob Squad
-							["sourceQuests"] = { 54207 },	-- Retaking the Outpost
-							["provider"] = { "n", 147155 },	-- Patch
-							["coord"] = { 50.3, 78.4, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54212, {	-- Re-rebuilding the A.F.M.O.D.
-							["sourceQuests"] = { 54207 },	-- Retaking the Outpost
-							["provider"] = { "n", 147155 },	-- Patch
-							["coord"] = { 50.3, 78.4, NAZMIR },
-							["races"] = HORDE_ONLY,
-							["g"] = {
-								i(165710),	-- A.F.M.O.D. Part (QI!)
-							},
-						}),
-						q(54213, {	-- It's Alive!
-							["sourceQuests"] = {
-								54211,	-- Putting the Gob in Gob Squad
-								54212,	-- Re-rebuilding the A.F.M.O.D.
-							},
-							["provider"] = { "n", 147155 },	-- Patch
-							["coord"] = { 50.3, 78.4, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54224, {	-- The Battle of Zul'jan Ruins
-							["sourceQuests"] = { 54213 },	-- It's Alive!
-							["provider"] = { "n", 146921 },	-- Princess Talanji
-							["coord"] = { 50.4, 78.5, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54244, {	-- We Have Them Cornered
-							["sourceQuests"] = { 54224 },	-- The Battle of Zul'jan Ruins
-							["provider"] = { "n", 146921 },	-- Princess Talanji
-							["coord"] = { 39.3, 78.2, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54249, {	-- Zandalari Justice
-							["sourceQuests"] = { 54244 },	-- We Have Them Cornered
-							["provider"] = { "n", 146921 },	-- Princess Talanji
-							["coord"] = { 30.9, 51.9, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54269, {	-- None Shall Escape
-							["sourceQuests"] = { 54244 },	-- We Have Them Cornered
-							["provider"] = { "n", 147075 },	-- General Rakera
-							["coord"] = { 30.8, 51.8, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54270, {	-- Breaking Mirrors
-							["sourceQuests"] = { 54244 },	-- We Have Them Cornered
-							["provider"] = { "n", 147075 },	-- General Rakera
-							["coord"] = { 30.8, 51.8, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54271, {	-- Telaamon's Purge
-							["sourceQuests"] = {
-								54249,	-- Zandalari Justice
-								54269,	-- None Shall Escape
-								54270,	-- Breaking Mirrors
-							},
-							["provider"] = { "n", 147233 },	-- Rokhan
-							["coord"] = { 31.2, 46.8, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54275, {	-- Parting Mists
-							["sourceQuests"] = { 54271 },	-- Telaamon's Purge
-							["provider"] = { "n", 147233 },	-- Rokhan
-							["coord"] = { 31.2, 46.8, NAZMIR },
-							["races"] = HORDE_ONLY,
-						}),
-						q(54280, {	-- Fly Out to Meet Them
-							["sourceQuests"] = { 54271 },	-- Telaamon's Purge
-							["provider"] = { "n", 147075 },	-- General Rakera
-							["coord"] = { 31.4, 32.0, NAZMIR },
-							["races"] = HORDE_ONLY,
+						header(HEADERS.AchCriteria, 13466.04, {	-- Fly Out to Meet Them
+							q(54139, {	-- War Is Here
+								["sourceQuests"] = { 54179 },	-- Through the Front Door
+								["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
+								["coord"] = { 58.4, 62.6, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54140, {	-- Ride of the Zandalari
+								["sourceQuests"] = { 54139 },	-- War Is Here
+								["provider"] = { "n", 133050 },	-- Princess Talanji
+								["coord"] = { 41.1, 66.5, DAZARALOR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54156, {	-- A Path of Blood
+								["sourceQuests"] = { 54140 },	-- Ride of the Zandalari
+								["provider"] = { "n", 147075 },	-- General Rakera
+								["coord"] = { 58.0, 21.3, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54157, {	-- No One Left Behind
+								["sourceQuests"] = { 54140 },	-- Ride of the Zandalari
+								["provider"] = { "n", 146921 },	-- Princess Talanji
+								["coord"] = { 58.0, 21.3, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54207, {	-- Retaking the Outpost
+								["sourceQuests"] = {
+									54156,	-- A Path of Blood
+									54157,	-- No One Left Behind
+								},
+								["provider"] = { "n", 147075 },	-- General Rakera
+								["coord"] = { 58.0, 21.3, ZULDAZAR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54208, {	-- Minesweeper
+								["sourceQuests"] = { 54207 },	-- Retaking the Outpost
+								["provider"] = { "n", 147145 },	-- Nathanos Blightcaller
+								["classes"] = { ROGUE },
+								["coord"] = { 50.2, 78.4, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54211, {	-- Putting the Gob in Gob Squad
+								["sourceQuests"] = { 54207 },	-- Retaking the Outpost
+								["provider"] = { "n", 147155 },	-- Patch
+								["coord"] = { 50.3, 78.4, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54212, {	-- Re-rebuilding the A.F.M.O.D.
+								["sourceQuests"] = { 54207 },	-- Retaking the Outpost
+								["provider"] = { "n", 147155 },	-- Patch
+								["coord"] = { 50.3, 78.4, NAZMIR },
+								["races"] = HORDE_ONLY,
+								["g"] = {
+									i(165710),	-- A.F.M.O.D. Part (QI!)
+								},
+							}),
+							q(54213, {	-- It's Alive!
+								["sourceQuests"] = {
+									54211,	-- Putting the Gob in Gob Squad
+									54212,	-- Re-rebuilding the A.F.M.O.D.
+								},
+								["provider"] = { "n", 147155 },	-- Patch
+								["coord"] = { 50.3, 78.4, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54224, {	-- The Battle of Zul'jan Ruins
+								["sourceQuests"] = { 54213 },	-- It's Alive!
+								["provider"] = { "n", 146921 },	-- Princess Talanji
+								["coord"] = { 50.4, 78.5, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54244, {	-- We Have Them Cornered
+								["sourceQuests"] = { 54224 },	-- The Battle of Zul'jan Ruins
+								["provider"] = { "n", 146921 },	-- Princess Talanji
+								["coord"] = { 39.3, 78.2, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54249, {	-- Zandalari Justice
+								["sourceQuests"] = { 54244 },	-- We Have Them Cornered
+								["provider"] = { "n", 146921 },	-- Princess Talanji
+								["coord"] = { 30.9, 51.9, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54269, {	-- None Shall Escape
+								["sourceQuests"] = { 54244 },	-- We Have Them Cornered
+								["provider"] = { "n", 147075 },	-- General Rakera
+								["coord"] = { 30.8, 51.8, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54270, {	-- Breaking Mirrors
+								["sourceQuests"] = { 54244 },	-- We Have Them Cornered
+								["provider"] = { "n", 147075 },	-- General Rakera
+								["coord"] = { 30.8, 51.8, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54271, {	-- Telaamon's Purge
+								["sourceQuests"] = {
+									54249,	-- Zandalari Justice
+									54269,	-- None Shall Escape
+									54270,	-- Breaking Mirrors
+								},
+								["provider"] = { "n", 147233 },	-- Rokhan
+								["coord"] = { 31.2, 46.8, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54275, {	-- Parting Mists
+								["sourceQuests"] = { 54271 },	-- Telaamon's Purge
+								["provider"] = { "n", 147233 },	-- Rokhan
+								["coord"] = { 31.2, 46.8, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
+							q(54280, {	-- Fly Out to Meet Them
+								["sourceQuests"] = { 54271 },	-- Telaamon's Purge
+								["provider"] = { "n", 147075 },	-- General Rakera
+								["coord"] = { 31.4, 32.0, NAZMIR },
+								["races"] = HORDE_ONLY,
+							}),
 						}),
 						q(54282, {	-- Battle of Dazar'alor
 							["sourceQuests"] = { 54280 },	-- Fly Out to Meet Them
