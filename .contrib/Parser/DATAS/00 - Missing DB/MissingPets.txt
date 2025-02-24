@@ -3,7 +3,6 @@ pet(2535),	-- Wicker Wraith
 11.0.7.57361
 pet(4725),	-- Titan Orb
 11.0.7.58533
-pet(4717),	-- Wanderer Liu
 11.1.0.58221
 pet(4665),	-- Yellow Tropical Frog
 pet(4670),	-- Hermes

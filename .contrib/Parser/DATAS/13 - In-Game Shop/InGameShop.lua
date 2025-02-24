@@ -86,9 +86,12 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		--[[mount(315132, {	-- Gargantuan Grrloc (MOUNT!)
 			["timeline"] = { ADDED_10_0_0 },
 		}),--]]
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(78924, {	-- Heart of the Aspects (MOUNT!)
+		-- #if ANYCLASSIC
+		-- #else
+		i(78924, {	-- Heart of the Aspects (MOUNT!)
 			["timeline"] = { ADDED_4_3_0 },
-		})),
+		}),
+		-- #endif
 		i(166774, {	-- Hogrus, Swine of Good Fortune (MOUNT!)
 			["timeline"] = { ADDED_8_1_0 },
 		}),
@@ -278,9 +281,12 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(151234, {	-- Shadow (PET!)
 			["timeline"] = { ADDED_7_3_0 },
 		}),
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(78916, {	-- Soul of the Aspects (PET!)
+		-- #if ANYCLASSIC
+		-- #else
+		i(78916, {	-- Soul of the Aspects (PET!)
 			["timeline"] = { ADDED_4_3_0 },
-		})),
+		}),
+		-- #endif
 		i(231310, {	-- Timbered Sky Snakelet (PET!)
 			["timeline"] = { ADDED_11_0_7 },
 		}),
@@ -290,9 +296,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(160587, {	-- Whomper (PET!)
 			["timeline"] = { ADDED_8_0_1_LAUNCH },
 		}),
-		--cnONLY(i(xxxxx, {	-- Xiao Liu
-		--	["timeline"] = { ADDED_11_0_7 },
-		--})),
+		cnONLY(i(233190, {	-- Wanderer Liu/Xiao Liu
+			["timeline"] = { ADDED_11_0_7 },
+		})),
 	}),
 	filter(BATTLE_PETS, bubbleDown({ ["u"] = REMOVED_FROM_GAME, }, {	-- REMOVED --
 		pet(156, {	-- Bananas (PET!)
