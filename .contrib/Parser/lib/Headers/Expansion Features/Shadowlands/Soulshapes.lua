@@ -7,5 +7,6 @@ SOULSHAPES = createHeader({
 		fr = "Forme d'âme",
 		ru = "Формы души",
 		cn = "灵魂变形形态",
+		tw = "靈魂幻體形態",
 	},
 });
