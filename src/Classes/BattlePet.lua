@@ -193,13 +193,16 @@ do
 			for i=1,ownedPets do
 				petID, speciesID = C_PetJournal_GetPetInfoByIndex(i)
 				-- app.PrintDebug("RCBP.ID",i,petID,speciesID)
-				if petID then
-					PetIDSpeciesIDHelper[petID] = speciesID
-				end
-				if PerCharacterSpecies[speciesID] then
-					char[speciesID] = CollectedSpeciesHelper[speciesID];
-				else
-					acct[speciesID] = CollectedSpeciesHelper[speciesID];
+				-- apparently some users can have a nil speciesID here...
+				if speciesID then
+					if petID then
+						PetIDSpeciesIDHelper[petID] = speciesID
+					end
+					if PerCharacterSpecies[speciesID] then
+						char[speciesID] = CollectedSpeciesHelper[speciesID];
+					else
+						acct[speciesID] = CollectedSpeciesHelper[speciesID];
+					end
 				end
 			end
 			-- wipe the character/account cache in case bad data is cached somehow
