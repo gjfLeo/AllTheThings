@@ -4299,8 +4299,8 @@ n(230394, 4628);	-- Tidal Kroling
 --- UNSORTED ---
 i(234905, 4730);	-- Mech-Friend Maya
 i(233057, 4709);	-- Rock Hound Mica
---- NYI? ---
---i(???, 4725);	-- Titan Orb
+--- NYI ---
+i(0, 4725);			-- Titan Orb
 
 ------------------
 -- PATCH 11.1.0 --
