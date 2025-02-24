@@ -3726,6 +3726,16 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41793),	-- [HIDDEN] Renown 20 with Gallagio Loyalty Rewards / Teach Raid Teleport Spell
 			-- 11.1.0.59095
 			ach(41807),	-- 11.0.7 Plunderstorm - Mainline Power Reward - Fixup Achievement
+			-- 11.1.0.59347
+			ach(41794),	-- <DNT> Vexie and the Geargrinders defeated
+			ach(41795),	-- <DNT> Cauldron of Carnage defeated
+			ach(41796),	-- <DNT> Rik Reverb defeated
+			ach(41797),	-- <DNT> Stix Bunkjunker defeated
+			ach(41798),	-- <DNT> Sprocketmonger Lockenstock defeated
+			ach(41799),	-- <DNT> The One-Armed Bandit defeated
+			ach(41800),	-- <DNT> Mug'Zee, Heads of Security defeated
+			ach(41801),	-- <DNT> Chrome King Gallywix defeated
+			ach(41816),	-- [DNT] 11.0.7 Plunderstorm - Mainline Power Reward - Fixup Quest Tracker
 		})),
 	}),
 });
