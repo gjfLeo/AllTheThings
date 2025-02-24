@@ -199,10 +199,9 @@ do
 						PetIDSpeciesIDHelper[petID] = speciesID
 					end
 					if PerCharacterSpecies[speciesID] then
-						char[speciesID] = CollectedSpeciesHelper[speciesID];
-					else
-						acct[speciesID] = CollectedSpeciesHelper[speciesID];
+						char[speciesID] = CollectedSpeciesHelper[speciesID]
 					end
+					acct[speciesID] = CollectedSpeciesHelper[speciesID]
 				end
 			end
 			-- wipe the character/account cache in case bad data is cached somehow
