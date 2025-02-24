@@ -31,8 +31,8 @@ i(0, 440915);		-- Auspicious Arborwyrm
 i(0, 423869);		-- Avatar of Flame
 i(0, 446902);		-- Polly Roger
 i(0, 471440);		-- Skybound Spectral Tiger 		(CN Only)
-i(0, 1216542),		-- Blazing Royal Fire Hawk		(CN Only Classic Version)
-i(0, 459784),		-- Golden Ashes of Al'ar 		(CN Only Classic Version)
+i(0, 1216542);		-- Blazing Royal Fire Hawk		(CN Only Classic Version)
+i(0, 459784);		-- Golden Ashes of Al'ar 		(CN Only Classic Version)
 
 -- Cata Classic --
 i(0, 463045);		-- Lava Drake
