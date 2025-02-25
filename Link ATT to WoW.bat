@@ -104,7 +104,7 @@ if NOT exist "%~1\" (
 	mklink /J "%~1\src" "%cd%\src"
 
 	mklink "%~1\AllTheThings.lua" "%cd%\AllTheThings.lua"
-	mklink "%~1\AllTheThings.toc" "%cd%\AllTheThings.toc"
+	mklink "%~1\AllTheThings_Mainline.toc" "%cd%\AllTheThings_Mainline.toc"
 	mklink "%~1\Bindings.xml" "%cd%\Bindings.xml"
 )
 EXIT /B 0
