@@ -1936,6 +1936,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 	m(ZANDALAR, {
 		m(VOLDUN, {
 			n(QUESTS, {
+				q(51648),	-- Vol'dun - select "The Nimble" as your Akunda title during "Trial of Truth"
+				q(51649),	-- Vol'dun - select "the Serene" as your Akunda title during "Trial of Truth"
+				q(51650),	-- Vol'dun - select "the Courageous" as your Akunda title during "Trial of Truth"
 				q(54525),	-- looting Loose Parts from the bridge elites during the Vol'dun incursion, as Horde (the associated WQ wasn't up, not sure if that makes a difference)
 			}),
 		}),

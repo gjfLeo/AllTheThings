@@ -350,43 +350,25 @@ root(ROOTS.HiddenQuestTriggers, {
 		}),
 		-- Legion start
 		q(42741),	-- Legion Expansion Started Tracking Quest
-		q(46733),	-- Legion Expansion Started Tracking Quest
-		q(42646),	-- triggered after getting Extra Thick Mojo in Durotar when on the Legion intro quest To Be Prepared
-		q(42647),	-- triggered after getting Extra Thick Mojo in Durotar when on the Legion intro quest To Be Prepared
-		q(42648),	-- triggered after getting Extra Thick Mojo in Durotar when on the Legion intro quest To Be Prepared
+		q(46733, { ["timeline"] = { ADDED_7_2_0 } }),	-- Legion Expansion Started Tracking Quest
 		q(40658),	-- Durotar - Tracking Quest - W1 - See Demon Attack ("Demons Among Us" quest)
 		q(40768),	-- Orgrimmar - Tracking Quest - W1 - Intro to Illidari Complete - triggers when turning in "Keep Your Friends Close"
 		q(40616),	-- Tracking Quest - W1 - Saw Leader Die
 		q(40521),	-- Tracking Quest - W1 - Demon Attack Complete (Horde) - triggered after turning in "Demons Among Them"
-		q(41306),	-- The Fallen Lion. Triggers with regular "The Fallen Lion" 40517
 		q(8237),	-- In the Blink of an Eye - dalaran transported to the broken isles
 		q(43806),	-- The Battle for Broken Shore Scenario Skip (A)
 		q(44543),	-- The Battle for Broken Shore Scenario Skip (H)
 		q(44659),	-- Dalaran - I Skipped The Intro Tracking Quest
 
 		-- Generic Order Hall
-		q(38894),	-- Founded Garrison - founded the order hall
-		q(43837),	-- Tracking Quest: Tutorial - Combat Ally Unlocked
-		q(44296),	-- Tracking Quest: Finished Rise, Champions - triggers after recruiting your first follower(s)
-		q(43900),	-- Tracking Quest: All - Troop A Enabled - completed first tutorial mission
-		q(43901),	-- Tracking Quest: All - Troop B Enabled - completed second tutorial mission
-		q(43433),	-- Tracking Quest: Tutorial - Troops Built
-		q(42115),	-- Tracking Quest: Chapter 1 completed - triggers when you complete the quest that gets your first order hall upgrade
-		q(42116),	-- Tracking Quest: Chapter 2 Completed - triggers after completing your first order hall campaign effort
-		q(42117),	-- Tracking Quest: Chapter 3 Completed - triggers after completing the first dungeon quest from your order hall leader - order hall bracers unlock
-		q(42118),	-- Tracking Quest: Chapter 4 Completed - triggers after completing order hall campaign
-		q(45171),	-- 7.1 Class Hall - Special - PVP - PVP Intro Mission - Tracking Quest
+		q(45171, { ["timeline"] = { ADDED_7_1_0 } }),	-- 7.1 Class Hall - Special - PVP - PVP Intro Mission - Tracking Quest
 		q(47661),	-- [DNT] - tracking quest while doing Demon Hunter quest 41066, The Hunter's Gaze. Also triggers on warrior while on "On the Trail of the Great Worm". Triggered immediately after the broken shore scenario, so probably some kind of daily trigger
 		q(47699),	-- [DNT] - tracking quest while doing Demon Hunter quest 41066, The Hunter's Gaze. Also triggers on warrior while on "On the Trail of the Great Worm". Triggered immediately after the broken shore scenario, so probably some kind of daily trigger
 		q(44483),	-- Vendor Beckon Trigger - triggers all classes
 		q(44484),	-- Vendor Beckon Trigger - triggers all classes
-		q(45773),	-- 7.2 Class Hall - Maximillian of Northshire - Aqcuisition - Track Mail Sent
-		q(43510),	-- Seal of Fate: Class Hall - weekly quest, various sources
+		q(45773, { ["timeline"] = { ADDED_7_2_0 } }),	-- 7.2 Class Hall - Maximillian of Northshire - Aqcuisition - Track Mail Sent
 
 		-- Random -- TODO -Darkal
-		q(43463),	-- Ashes of a Fallen Crusader Tracking Quest - Looting Charred Locket from Ashes of a Fallen Crusader
-		q(43464),	-- Talking to Alaina Hearthsong
-		q(43465),	-- Looting Alaina's Bonnet
 
 		q(44295),	-- Tracking Quest - W2 - Spoke to Khadgar
 		q(44297),	-- Tracking Quest - W2 - Jaina Gone
@@ -445,13 +427,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	--      BFA      --
 	-------------------
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
-		n(GROUP_FINDER, {
-			q(53339),	-- LFG - BFA - Island Expedition - Heroic Win - Nth
-			q(53340),	-- LFG - BFA - Island Expedition - Mythic Win - Nth
-			q(51838),	-- LFG - BFA - Island Expedition - Normal Win - Nth
-			q(53341),	-- LFG - BFA - Island Expedition - PvP Win - Nth
-			q(53641),	-- LFGDungeons - BFA - Stromgarde (Arathi)
-		}),
 		--	VARIOUS
 		q(52758),	-- Silverpine Forest - triggered when taking the bat during "Iterating Upon Success" (spellID 388051)
 		q(47703),	-- triggered while on #47631, "Rendezvous with the Libation"
@@ -539,18 +514,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54705),	-- Using 7th Legion Scouting Map
 		q(52969),	-- Going through the Stormwind Portal to Stormshield while on the WoD timeline in Chromie time
 		--q(55464),	-- Triggered with Tandred Proudmoore conversation?
-
-		-- Paragon
-		q(54610),	-- Paragon of the Tortollan Seekers
-		q(54611),	-- Paragon of the Champions of Azeroth
-		q(54618),	-- Paragon of the 7th Legion
-		q(54626),	-- Paragon of the Honorbound
-		q(54627),	-- Paragon of the Order of Embers
-		q(54628),	-- Paragon of the Storm's Wake
-		q(54629),	-- Paragon of the Proudmoore Admiralty
-		q(54630),	-- Paragon of Talanji's Expedition
-		q(54631),	-- Paragon of the Voldunai
-		q(54632),	-- Paragon of the Zandalari Empire
 
 		--	HONEYBACK HIVE
 		q(55906),	-- triggers when pulling out Seabreeze Bumblebee or Bumbles next to Barry at 69.1, 64.2 in Stormsong Valley
@@ -731,9 +694,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(49695, {	-- immediately after channeling on the drum finishes during "A Tribute For Death"
 			["isWorldQuest"] = true, -- haunted HQT that shows in /attwq
 		}),
-		q(52294),	-- triggers with Krag'wa after accepting "The Last Witch Doctor of Krag'wa"
 		q(47530),	-- ???? [The Necropolis] (completed after soulbound, but not known)
-		q(47531),	-- triggered when turning in "Krag'wa the Terrible"
 		q(50314),	-- triggered when turning in "Target of Opportunity"
 		q(51825),	-- ??? Triggers after turning in "Proudmoore's Parley" in Boralus
 		q(51826),	-- ??? Triggers after turning in "Proudmoore's Parley" in Boralus
@@ -749,33 +710,12 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(53421),	-- for clicking on Lost Spawn of Krag'wa at { 33.46, 61.54, NAZMIR },
 		q(53426),	-- for clicking on Lost Spawn of Krag'wa at { 25.68, 40.57, NAZMIR },
 		q(53423),	-- for clicking on Lost Spawn of Krag'wa at { 28.89, 83.16, NAZMIR },
-		q(51163),	-- ??? plays during the cutscene when you walk across the bridge north of Brennadam in Stormsong Valley
-		q(53202),	-- triggered when turning in #50264, "Free the Farmhands"
-
-		--	Jani
-		q(50311),	-- give Jani the Golden Ravasaur Egg in Zuldazar
-		q(50308),	-- Golden Ravasaur Egg for Get Hek'd
-		q(50430),	-- give Jani the Feathered Viper Scale in Zuldazar
-		q(50431),	-- Feathered Viper Scale for Get Hek'd
-		q(50884),	-- give Jani the Charged Ranishu Antennae in Vol'dun
-		q(50883),	-- Charged Ranishu Antennae for Get Hek'd
-		q(50889),	-- give Jani the Polished Ringhorn Hoof in Vol'dun
-		q(50890),	-- Polished Ringhorn Hoof for Get Hek'd
-		q(50891),	-- give Jani the Sturdy Redrock Jaw in Vol'dun
-		q(50892),	-- Sturdy Redrock Jaw for Get Hek'd
-		q(50440),	-- give Jani the Nazwathan Relic in Nazmir
-		q(50441),	-- Nazwathan Relic for Get Hek'd
-		q(50436),	-- give Jani the Snapjaw Tail in Nazmir
-		q(50437),	-- Snapjaw Tail for Get Hek'd
-		q(50434),	-- give Jani the Vilescale Pearl in Nazmir
-		q(50435),	-- Vilescale Pearl for Get Hek'd
 
 		--	Zones
 		--	Drustvar
 		q(51851),	-- Triggered after completing "Storming the Manor". Didn't appear to trigger anything specific, so not sure what they're used for
 		q(51852),	-- Triggered after completing "Storming the Manor". Didn't appear to trigger anything specific, so not sure what they're used for
 		q(54318),	-- Triggered immediately after completing "A Drust Cause" invasion in Drustvar as Alliance (first completion on character? WM off specific? it doesn't trigger later in WM)
-
 
 		--	Nazmir
 		-- Quests
@@ -795,7 +735,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		-- Various
 		q(51695),	-- Horde WarCampaign - "Reclaiming What's Ours" (ID 51696) using the horn to reclaim the Foothold
 		q(55626),	-- first kill of yellow Sabertron
-		q(50541),	-- triggered after defeating Beehemoth WQ
 
 		--	Tiragarde Sound
 		-- Various
@@ -805,9 +744,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		-- Various
 		q(49684),	-- triggered when picking the staff on "Armed and Ready"
 		q(49685),	-- triggered when picking the scythe/glaive thing on "Armed and Ready"
-		q(51648),	-- Vol'dun - select "The Nimble" as your Akunda title during "Trial of Truth"
-		q(51649),	-- Vol'dun - select "the Serene" as your Akunda title during "Trial of Truth"
-		q(51650),	-- Vol'dun - select "the Courageous" as your Akunda title during "Trial of Truth"
 		q(49414),	-- Vol'dun - beat Akunda the Exalted to trigger the cinematic and phase the area
 		q(51685),	-- Vol'dun - triggers when turning in "Akunda's Blessing". Probably controls the activation of the Akunda buff idol in Dazar'alor
 		q(51684),	-- Vol'dun - triggers when turning in "Mark of the Loa". Probably controls the activation of the Kimbal buff idol in Dazar'alor
@@ -819,10 +755,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		--	Zuldazar
 		-- Chests
 		q(51363),	-- Weekly m+ chest looted (Horde, probably alliance too?)
-		-- Rares
-		q(50856),	-- Old R'gal first time kill quest
 		-- Various
-		q(50931),	-- Spoke to talanji when meeting with Rastakhan for the first time
 		q(55413),	-- War Mode supply drop in Zuldazar
 		q(55259),	-- Triggers after turning 'Sleep, Eat, Repeat' (ID 55258) in to finish the achievement criteria 'Sleep, Eat, Repeat' (3) for How to Train Your Direhorn (ID 13542)
 		q(52141),	-- after completing "SKREEEEE!" for How to Ptrain Your Pterrordax
@@ -845,7 +778,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(56894),	-- Shadowbinder Athissa
 		q(56890),	-- Theurgist Nitara
 		q(56893),	-- Warlord Zalzjar
-		-- WQs
 
 		-- Various
 		q(55404),	-- Triggered when interacting with the "Deepflame Campfire" in Mezzamere as alliance, but without picking a follower
@@ -856,14 +788,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(56220),	-- Triggered when opening the second glimmering chest during "Scrying Stones"
 		q(56221),	-- Triggered when opening the third glimmering chest during "Scrying Stones"
 		q(56661),	-- Triggered when walking into the "Void Chamber" cave
-		q(56913),	-- Triggers after completing the Glowing Arcane Trunk minigame in Broken Fin Hollow (24.8, 35.2)
-		q(55987),	-- Triggers after completing the Glowing Arcane Trunk minigame in Chitterspine Caverns (43.8, 16.5)
-		q(56343),	-- Triggers after completing the Glowing Arcane Trunk minigame in Mardivas's Hideaway (37.9, 6.5)
-		q(55999),	-- Triggers after completing the Glowing Arcane Trunk minigame in Zanj'ir Terrace (37.2, 19.1)
-		q(55996),	-- Triggers after completing the Glowing Arcane Trunk minigame in Azsh'ari Terrace (64.1, 28.5)
-		q(55998),	-- Triggers after completing the Glowing Arcane Trunk minigame in Shirakess Repository (55.8, 14.1)
-		q(56359),	-- Triggers after completing the Glowing Arcane Trunk minigame in Coldlight Cavern (61.4, 22.8)
-		q(56548),	-- Triggers after completing the Glowing Arcane Trunk minigame in Highborne Estates (80.5, 31.9)
 		q(55604),	-- Triggers after unlocking or making a purchase from Mrrl (Once per day)
 		q(56901),	-- Triggers after buying Mrrl's secret trader stock (requires cloak with special stock trait). Received 170162 - waterlogged toolbox first
 		q(57191),	-- Glimmering Chest — Prismatic Manapearls
@@ -909,20 +833,9 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(58001),	-- Combining Coalescing Visions 2x
 		q(58002),	-- Combining Coalescing Visions 3x
 		q(58409),	-- Combining Coalescing Visions 4x
-		q(59073),	-- Triggers when turning in "Match the Hatch" for the Shadowbarb Drone. Probably a daily trigger ID so players can't do the entire chain in one day
 		q(58994),	-- Triggers when you get your first corrupted item. It procs the "Curious Corruption" quest
-		q(59024),	-- Triggers when talking to Zidormi in the lvl 120 rebuilt Vale to go to the past sha-destroyed version
 		q(58815),	-- Triggers when completing the blacktalon agent daily for a zone vision
 		q(58085),	-- Triggered upon entering the vision to the Shrine of Seven Stars -- TODO:: verify this. didn't pop up since latest PTR build
-		q(56132),	-- Vale of Eternal Blossoms - activated a celetial buff 3rd time (yu'lon?)
-		q(56133),	-- Vale of Eternal Blossoms - activated a celestial buff 4th time (xuen?)
-		q(56134),	-- Vale of Eternal Blossoms - activated a celestial buff 1st time (chi-ji?)
-		q(56135),	-- Vale of Eternal Blossoms - activated a celestial buff 2nd time (niuzao?)
-		q(59141),	-- Vale of Eternal Blossoms - triggered after turning in the Black Empire assault. Probably a loot lock trigger?
-		q(58512),	-- Grand Empress Shek'zara bonus roll
-		q(59060),	-- choosing Bitey McStabface as the name for your Aqir Hatchling
-		q(59062),	-- choosing Spike as the name for your Aqir Hatchling
-		q(59059),	-- chose "Yu'gaz" as the name for your Aqir Hatchling
 		q(59132),	-- probably "Unwavering Resolve" achievement (upgrade cloak to rank 15)
 		q(59030),	-- Vulpera learning Flames of Fury (175158) for Bag of Tricks
 		q(59033),	-- Vulpera learning Sinister Shadows (175159) for Bag of Tricks
@@ -933,46 +846,10 @@ root(ROOTS.HiddenQuestTriggers, {
 		--q(57845),	-- looted the Water Dancer's Technique (Rank 2) (Possibly only comes from valley of wisdom?)
 
 		-- N'Zoth assaults
-		-- TODO: would be nice to have these slowly migrated to actual treasure objects like other zone objects
-		q(55689),	-- Uldum - Amathet cache
-		q(55690),	-- Uldum - Amathet cache
-		q(55691),	-- Uldum - Amathet cache
-		q(55692),	-- Uldum - Amathet Reliquary (requires tol'vir relic to open)
-		q(55698),	-- Uldum - Amathet cache
-		q(55699),	-- Uldum - Amathet cache
-		q(55700),	-- Uldum - Amathet cache
-		q(57623),	-- Uldum - Black Empire Cache
-		q(57624),	-- Uldum - Black Empire Cache
-		q(57625),	-- Uldum - Black Empire Cache
-		q(57626),	-- Uldum - Black Empire Cache
-		q(57627),	-- Uldum - Black Empire Cache
-		q(57635),	-- Uldum - Black Empire Cache
-		q(57628),	-- Uldum - Black Empire Coffer
-		q(58138),	-- Uldum - Infested Cache
-		q(58142),	-- Uldum - Infested Cache
 		q(59054),	-- Looting a bounty in Uldum as Alliance (all 4 trigger at the same time)
 		q(59055),	-- Looting a bounty in Uldum as Alliance
 		q(59056),	-- Looting a bounty in Uldum as Alliance
 		q(59057),	-- Looting a bounty in Uldum as Alliance
-		q(57201),	-- Vale of Eternal Blossoms - Black Empire Cache
-		q(57200),	-- Vale of Eternal Blossoms - Black Empire Cache
-		q(57203),	-- Vale of Eternal Blossoms - Black Empire Cache
-		q(57197),	-- Vale of Eternal Blossoms - Black Empire Cache
-		q(57202),	-- Vale of Eternal Blossoms - Black Empire Cache
-		q(57199),	-- Vale of Eternal Blossoms - Black Empire Cache
-		q(57206),	-- Vale of Eternal Blossoms - Mogu Plunder
-		q(57208),	-- Vale of Eternal Blossoms - Mogu Plunder
-		q(57209),	-- Vale of Eternal Blossoms - Mogu Plunder
-		q(57211),	-- Vale of Eternal Blossoms - Mogu Plunder
-		q(57212),	-- Vale of Eternal Blossoms - Mogu Plunder
-		q(57213),	-- Vale of Eternal Blossoms - Mogu Plunder
-		q(57214),	-- Vale of Eternal Blossoms - Mogu Spoils
-		q(58224),	-- Vale of Eternal Blossoms - Ambered Cache
-		q(58225),	-- Vale of Eternal Blossoms - Ambered Cache
-		q(58226),	-- Vale of Eternal Blossoms - Ambered Cache
-		q(58227),	-- Vale of Eternal Blossoms - Ambered Cache
-		q(58228),	-- Vale of Eternal Blossoms - Ambered Cache
-		q(58770),	-- Vale of Eternal Blossoms - Ambered Coffer
 
 		-- "Combating the Corruption" completion flags. The IDs appear to be reused and aren't specific to any one mob. Track all mobs until we can make sense of the pattern.
 		q(58690),	-- Corrupted Acolyte - Vale of Eternal Blossoms, Corrupted Fleshbeast - Uldum?
@@ -1013,17 +890,6 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(63391),	-- Killed and looted Horde Assasin (as Alliance obviously)
 		}),
 
-		-- Pre-launch event
-		q(60490),	-- Triggers after completing "Advancing the Effort" and unlocking Icecrown dailies. Also triggered when starting the new phase at Ironwall Rampart. Maybe it's the zone story daily progression tracker?
-		q(60541),	--
-		q(60511),	-- Icecrown story - Advancing the effort (phase 2?). triggered after completing "Only Shadows Remain"
-		q(62808),	-- triggered when logging into a previously-120 character
-		q(62480),	-- triggered along with the Nathanos Blightcaller world quest (for killing Nathanos)
-		q(62849),	-- \
-		q(62850),	--  \ triggered when logging into my 50 main during week 2 of the prepatch
-		q(62851),	--  / nothing else done, quests were not there during week 1
-		q(62852),	-- /
-
 		-- Various tracking quests
 		q(61858),	-- taking the portal to Acherus during "Shadowlands: A Chilling Summons"
 		q(62686),	-- triggers when entering a zone with a 'Training' Calling active and your companion spawns (repeatable) (spellID 345018)
@@ -1059,35 +925,9 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(62380),	-- Returning to the Venthyr before hitting rank 80 with anyone gave "Prove Your Worth" which flagged two quests as complete that aren't in ATT
 
 		-- Revendreth
-		q(60523),	-- Triggered after reading Theotar's Diary
-		q(60527),	-- Triggered after reading Theotar's Diary
-		q(59222),	-- triggered during #57536, "Mirror Making, Not Breaking" when speaking to Laurent
-		q(62661),	-- Triggered during first completion of #58080 [Favor: Glittering Primrose Necklace]
-		q(62669),	-- Triggered during first completion of #58070 [Favor: Soul Hunter Blade]
-		q(60707),	-- When looting [The Venthyr Diaries] (173705)
-		q(60847),	-- Upon looting [Soul Hunter's Blade] (173707)
-		q(60849),	-- When looting [Ledger of Souls] (173712)
-		q(62641),	-- killing or looting Sabina during "Setting Sabina Free"
-		q(62649),	-- triggered during 'Secret Service WQ'
-		q(62671),	-- think this triggered when i turned in "Favor: Vial of Dredger Muck"
 		q(58107),	-- triggered when opening a crypt while on "Atonement Crypt Key"
 		q(60703),	-- triggered when looting Pristine Dredbat Fang
-		q(62662),	-- triggered when turning in #58074, Favor: Ledger of Souls
-		q(62664),	-- triggered when turning in #58077, Favor: Perfected Hand Mirror
-		q(62667),	-- triggered when turning in #58079, Favor: Pristine Dredbat Fang
-		q(62665),	-- triggered when turning in #58072, Favor: Petrified Stonefiend
-		q(62670),	-- triggered when turning in #58069, Favor: The Venthyr Diaries
-		q(62666),	-- triggered when turning in #58073, Favor: Portrait of the Sire
-		q(62659),	-- triggered when turning in #58078, Favor: Bottle of Redelav Wine
-		q(62660),	-- triggered when turning in #58075, Favor: Dredger's Toolkit
-		q(62663),	-- triggered when turning in #58081, Favor: Love and Terror
-		q(60845),	-- triggered when looting "Bottle of Redelav Wine" (for Favor: Bottle of Redelav Wine)
-		q(60853),	-- triggered when looting "Portrait of the Sire" (for Favor: Portrait of the Sire)
-		q(60846),	-- triggered when looting "Dredger's Toolkit" (for Favor: Dredger's Toolkit)
-		q(60850),	-- triggered when looting "Love and Terror" (for Favor: Love and Terror)
 		q(61188),	-- Triggered after looting Impressionable Gorger Spawn
-		q(61843),	-- Triggered after completing Nipping at the Undergrowth (61839)
-		q(63090),	-- looting weekly chest of Sinstone Fragments next to Archivist Fane
 
 		-- Venthyr Covenant
 		q(62950),	-- clicking "Activate" after putting "Thrill Seeker" in Nadjia's soulbind tree
@@ -1105,64 +945,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(62813),	-- triggered when looting Atonement Crypt Key while on #60236, "RSVP: Cryptkeeper Kassir"
 		q(62814),	-- triggered when opening a crypt with the key
 		q(59495),	-- when using Contract: Atoning Rituals (59594)
-		q(59440),	-- triggered when entering the Ember Court, Week 1 (spellID 348696)
-		q(61924),	-- triggered when entering the Ember Court, Week 2
-		q(61928),	-- triggered when entering the Ember Court, Week 4
-		q(61921),	-- triggered when entering the Ember Court, Week 5
-		q(61933),	-- triggered when entering the Ember Court, Week 6
-		q(61927),	-- triggered when entering the Ember Court for the week
-		q(61939),	-- triggered when Ember Court began for the week (after the initial wave of "Quest accepted," after the pre-event when you can mingle with guests)
-		q(61942),	-- also triggered completed upon finishing the "Animal Rescue" objective
-		q(61448),	-- triggered completed upon turning in the Blob of Slime to Prince Renathal for the "Blustery Boil" objective (assume this is the "release the slime" option since the other one is... sort of a real quest)
-		q(61450),	-- also part of the "Ember Skyterror" objective, for turning the seed in to Renathal
-		q(61998),	-- also part of "Legacy of Stone," not sure if they both triggered last week?  again, i chose Humble, but both versions went off this time
-		q(61161),	-- another "Party Crashers!" objective, automatically "accepted" when it started
-		q(61163),	-- also for the "Party Crashers" objective, but automatically "accepted" when it started
-		q(61929),	-- also completed when finishing "Theotar's Toast" objective
-		q(61164),	-- triggered completed upon finishing the #62117 "Party Crashers"
-		q(61162),	-- for the #62113 version of "Party Crashers"
-		q(60930),	-- "Lower Your Standards," sort of a real quest?  but repeatable, only available when certain choices are made for ember court, pointless in general, doesn't seem worth tracking
-		q(60957),	-- "Ansel's Lucky Violin," sort of a real quest?  but repeatable, only available when certain choices are made for ember court, pointless in general, doesn't seem worth tracking
-		q(60960),	-- "Chiu's Lute," sort of a real quest?  but repeatable, only available when certain choices are made for ember court, pointless in general, doesn't seem worth tracking
-		q(60955),	-- "Noko's Flute," same as above
-		q(61433),	-- "Lower Your Standards," for turning in Giant Lungcap to Picky Stefan
-		q(61445),	-- triggered completed upon turning in gossip to Prince Renathal for the "Venthyr Provocateur" objective (assume this is for sharing the gossip to make court +Exciting)
-		q(62496),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
-		q(62512),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
-		q(62499),	-- triggered when Ember Court ended, Week 2 (had Kleia + Pelagos as guests and they were Elated)
-		q(62515),	-- triggered when Ember Court ended, Week 2 (had Kleia + Pelagos as guests and they were Elated)
-		q(62500),	-- triggered when Ember Court ended, Week 4 (had Plague Deviser Marileth as guest and he was elated)
-		q(62516),	-- triggered when Ember Court ended, Week 4 (had Plague Deviser Marileth as guest and he was elated)
-		q(62498),	-- triggered when Ember Court ended, Week 5 (had Grandmaster Vole as guest and he was elated)
-		q(62514),	-- triggered when Ember Court ended, Week 5 (had Grandmaster Vole as guest and he was elated)
-					-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-		q(62504),	-- triggered when Ember Court ended, First Lady Moonberry Elated & "Messy" at Max?
-		q(62519),	-- triggered when Ember Court ended, First Lady Moonberry Elated & "Messy" at Max?
-		q(62497),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-		q(62501),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-		q(62513),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-		q(62517),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-		q(62528),	-- triggered when Ember Court Ended, i give up on tracking weeks, but had Kleia+Pelagos and Cryptkeeper Kassir as guests and they were Elated.  no previous K+P/Cryptkeeper quests triggered
-		q(62508),	-- Ember Court End - (Alexandros Mograine:Elated / Droman Aliothe: Uncomfortable / Sika: Elated - got Alexandros Mograine criteria for People Pleaser + Be Our Guest, possibly that, since i'd done ECs with the other 2 before)
-		q(62490),	-- Ember Court End - (Droman Aliothe:Elated / Cryptkeeper Kassir:Elated / Polemarch Adrestes:Elated / The Countess:Elated)
-		q(62491),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-		q(62495),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-		q(62511),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-		q(62492),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
-		q(62506),	-- Ember Court End - (Droman Aliothe:Elated / Cryptkeeper Kassir:Elated / Polemarch Adrestes:Elated / The Countess:Elated)
-		q(62509),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
-		q(62522),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
-		q(62489),	-- Ember Court End - (Kleia&Pelagos / Mikanikos / Alexandros / Sika, all elated - Mikanikos only one i hadn't done before.  also got We Happy Few, so possibly one of these is related to that) - next week's automatic assigned pickups were Choofa, Droman Aliothe, Rendle and Cudgelface, and Lady Moonberry
-		q(62505),	-- ""
-		q(62487),	-- Ember Court End - Baroness/H-C K/Choofa/Stonehead Elated
-		q(62503),	-- Ember Court End - Baroness/H-C K/Choofa/Stonehead Elated
-		q(62488),	-- Ember Court End - (Lady Moonberry / Rendle&Cudgelface as first-time guests, Elated and Very Happy respectively, had Casual maxed)
-		q(62494),	-- ""
-		q(62518),	-- ""
-		q(62527),	-- ""
-		q(62493),	-- Ember Court End (The Countess / Polemarch Adrestes as first-time guests, both Elated)
-		q(62510),	-- ""
-		q(61731),	-- Ember Court - after completing Magical Curios
 
 		q(62668),	-- after looting a Dirty Glinting Object -- someone on discord got this when turning in Favor: She Had a Stone Heart, but i did not
 		q(58059),	-- when choosing House Briarbane while on "Enacting Immediate Justice"
@@ -1210,76 +992,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	--      DF      --
 	------------------
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-		n(GROUP_FINDER, {
-			q(72187),	-- LFGDungeons - DF - Heroic Random - 1st
-			q(72188),	-- LFGDungeons - DF - Heroic Random - Nth
-			q(72181),	-- LFGDungeons - DF - Normal Random - 1st
-			q(72182),	-- LFGDungeons - DF - Normal Random - Nth
-			q(72184),	-- LFGDungeons - DF - Raid Finder - 1st
-			q(72185),	-- LFGDungeons - DF - Raid Finder - Nth
-			q(72535),	-- Dragonflight (61-69) E
-			q(72536),	-- Dragonflight (61-69) E
-			q(72537),	-- Dragonflight (61-69) E
-			q(72538),	-- Dragonflight (61-69) E
-			q(72539),	-- Dragonflight (61-69) E
-			q(72548),	-- Dragonflight (61-69) E
-			q(72549),	-- Dragonflight (61-69) E
-			q(72550),	-- Dragonflight (61-69) E
-			q(72619),	-- Dragonflight (61-69) E
-			q(72620),	-- Dragonflight (61-69) E
-			q(72621),	-- Dragonflight (61-69) E
-			q(72622),	-- Dragonflight (61-69) E
-			q(72623),	-- Dragonflight (61-69) E
-			q(70715),	-- Dragonflight (70) E
-			q(70716),	-- Dragonflight (70) E
-			q(70717),	-- Dragonflight (70) E
-			q(72540),	-- Dragonflight (70) E
-			q(72541),	-- Dragonflight (70) E
-			q(72542),	-- Dragonflight (70) E
-			q(72543),	-- Dragonflight (70) E
-			q(72544),	-- Dragonflight (70) E
-			q(72555),	-- Dragonflight (70) E
-			q(72556),	-- Dragonflight (70) E
-			q(72557),	-- Dragonflight (70) E
-			q(72563),	-- Dragonflight (70) E
-			q(72564),	-- Dragonflight (70) E
-			q(72565),	-- Dragonflight (70) E
-			q(72566),	-- Dragonflight (70) E
-			q(72567),	-- Dragonflight (70) E
-			q(72570),	-- Dragonflight (70) E
-			q(72571),	-- Dragonflight (70) E
-			q(72572),	-- Dragonflight (70) E
-			q(72573),	-- Dragonflight (70) E
-			q(72574),	-- Dragonflight (70) E
-			q(72575),	-- Dragonflight (70) E
-			q(72576),	-- Dragonflight (70) E
-			q(72577),	-- Dragonflight (70) E
-			q(72578),	-- Dragonflight (70) E
-			q(72579),	-- Dragonflight (70) E
-			q(72580),	-- Dragonflight (70) E
-			q(72581),	-- Dragonflight (70) E
-			q(72582),	-- Dragonflight (70) E
-			q(72583),	-- Dragonflight (70) E
-			q(72624),	-- Dragonflight (70) E
-			q(72625),	-- Dragonflight (70) E
-			q(72626),	-- Dragonflight (70) E
-			q(72627),	-- Dragonflight (70) E
-			q(72628),	-- Dragonflight (70) E
-			q(72629),	-- Dragonflight (70) E
-			q(72630),	-- Dragonflight (70) E
-			q(72631),	-- Dragonflight (70) E
-			q(72816),	-- Dragonflight (70) E
-			q(72817),	-- Dragonflight (70) E
-			q(72818),	-- Dragonflight (70) E
-			q(78763, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
-			q(78764, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
-			q(78765, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
-			q(78766, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
-			q(78767, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
-			q(72819),	-- Shadowlands (60) E
-			q(72820),	-- Shadowlands (60) E
-			q(72821),	-- Shadowlands (60) E
-		}),
 		n(PVP, {
 			q(79332, {["timeline"] = {ADDED_10_2_0}, ["repeatable"] = true}),	-- Triggers after winning a Brawl: Battleground Blitz (possibly only when theres an elistment bonus?)
 		}),
@@ -1292,74 +1004,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	--     TWW      --
 	------------------
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-		n(GROUP_FINDER, {
-			q(39751, {["timeline"] = { ADDED_11_0_5 }}),	-- Classic Timewalking LFG completion
-			q(83707),	-- LFGDungeons - 11.0 The War Within - Raid Finder - 1st
-			q(83708),	-- LFGDungeons - 11.0 The War Within - Raid Finder - Nth
-			q(78169),	-- LFGDungeons - Timewalking "Heroic" Random - 1st
-			q(86493, {["timeline"] = { ADDED_11_0_7 }}),	-- LFGDungeons - Timewalking "Heroic" Random - 1st
-			q(86494, {["timeline"] = { ADDED_11_0_7 }}),	-- LFGDungeons - Timewalking "Heroic" Random - Nth
-			q(83021),	-- LFGDungeons - TWW - Normal Random - 1st
-			q(83022),	-- LFGDungeons - TWW - Normal Random - Nth
-			q(83027),	-- LFGDungeons - TWW - Heroic Random - 1st
-			q(83026),	-- LFGDungeons - TWW - Heroic Random - Nth
-			q(82549),	-- The War Within (71-79) E
-			q(82550),	-- The War Within (71-79) E
-			q(82551),	-- The War Within (71-79) E
-			q(82553),	-- The War Within (71-79) E
-			q(82554),	-- The War Within (71-79) E
-			q(82598),	-- The War Within (71-79) E
-			q(82599),	-- The War Within (71-79) E
-			q(82600),	-- The War Within (71-79) E
-			q(82606),	-- The War Within (71-79) E
-			q(82607),	-- The War Within (71-79) E
-			q(82608),	-- The War Within (71-79) E
-			q(82609),	-- The War Within (71-79) E
-			q(82610),	-- The War Within (71-79) E
-			q(82544),	-- The War Within (80) E
-			q(82545),	-- The War Within (80) E
-			q(82546),	-- The War Within (80) E
-			q(82547),	-- The War Within (80) E
-			q(82548),	-- The War Within (80) E
-			q(82555),	-- The War Within (80) E
-			q(82556),	-- The War Within (80) E
-			q(82567),	-- The War Within (80) E
-			q(82568),	-- The War Within (80) E
-			q(82569),	-- The War Within (80) E
-			q(82570),	-- The War Within (80) E
-			q(82573),	-- The War Within (80) E
-			q(82574),	-- The War Within (80) E
-			q(82575),	-- The War Within (80) E
-			q(82576),	-- The War Within (80) E
-			q(82577),	-- The War Within (80) E
-			q(82578),	-- The War Within (80) E
-			q(82587),	-- The War Within (80) E
-			q(82588),	-- The War Within (80) E
-			q(82589),	-- The War Within (80) E
-			q(82590),	-- The War Within (80) E
-			q(82591),	-- The War Within (80) E
-			q(82592),	-- The War Within (80) E
-			q(82593),	-- The War Within (80) E
-			q(82594),	-- The War Within (80) E
-			q(82595),	-- The War Within (80) E
-			q(82597),	-- The War Within (80) E
-			q(82601),	-- The War Within (80) E
-			q(82602),	-- The War Within (80) E
-			q(82603),	-- The War Within (80) E
-			q(82604),	-- The War Within (80) E
-			q(82605),	-- The War Within (80) E
-			q(82611),	-- The War Within (80) E
-			q(82612),	-- The War Within (80) E
-			q(82613),	-- The War Within (80) E
-			q(82618),	-- The War Within (80) E
-			q(82619),	-- The War Within (80) E
-			q(82620),	-- The War Within (80) E
-			q(82621),	-- The War Within (80) E
-			q(82622),	-- The War Within (80) E
-			q(82623),	-- The War Within (80) E
-			q(82624),	-- The War Within (80) E
-			q(82625),	-- The War Within (80) E
-		}),
 		applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
 			q(85877, {["timeline"] = {ADDED_11_0_7}}),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways II (spellID 471544)
 		})),

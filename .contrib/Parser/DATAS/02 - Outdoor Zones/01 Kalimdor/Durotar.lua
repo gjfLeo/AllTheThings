@@ -1650,7 +1650,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								37446,	-- Lazy Peons
 								-- #else
 								25131,	-- Vile Familiars
-								-- #endif 
+								-- #endif
 							},
 							["coords"] = {
 								-- #if AFTER MOP
@@ -4167,3 +4167,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		},
 	}),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(KALIMDOR, {
+		m(DUROTAR, {
+			n(QUESTS, {
+				q(42646),	-- triggered after getting Extra Thick Mojo in Durotar when on the Legion intro quest To Be Prepared
+				q(42647),	-- triggered after getting Extra Thick Mojo in Durotar when on the Legion intro quest To Be Prepared
+				q(42648),	-- triggered after getting Extra Thick Mojo in Durotar when on the Legion intro quest To Be Prepared
+			}),
+		}),
+	}),
+})));

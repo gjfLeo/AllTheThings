@@ -132,7 +132,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}
 		}),
 		ach(13048, {	-- Life Finds a Way... To Die!
-
 			crit(41676, {		-- Azuresail the Diemetrodon slain
 				["coord"] = { 67.10, 26.57, ZULDAZAR },
 				["description"] = "This rare shares respawn with Thuderfoot (67.73 29.03) and Kil'Tawan (69.2 30.4) so kill them if you need it. To make things worse they don't spawn every day.",

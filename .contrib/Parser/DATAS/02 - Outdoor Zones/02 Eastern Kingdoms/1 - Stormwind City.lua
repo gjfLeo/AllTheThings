@@ -7086,13 +7086,25 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	}),
 }));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
-	m(EASTERN_KINGDOMS, {
-		m(STORMWIND_CITY, {
-			n(QUESTS, {
-				q(53645),	-- triggered during 'Molten Core' (53342) when porting to Molten Core
-				q(59255),	-- completed when turning in 'Fame Waits for Gnome One' (58708)
+root(ROOTS.HiddenQuestTriggers, {
+	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+		m(EASTERN_KINGDOMS, {
+			m(STORMWIND_CITY, {
+				n(QUESTS, {
+					q(43463),	-- Ashes of a Fallen Crusader Tracking Quest - Looting Charred Locket from Ashes of a Fallen Crusader
+					q(41306),	-- The Fallen Lion. Triggers with regular "The Fallen Lion" 40517
+				}),
 			}),
 		}),
-	}),
-})));
+	})),
+	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+		m(EASTERN_KINGDOMS, {
+			m(STORMWIND_CITY, {
+				n(QUESTS, {
+					q(59255),	-- completed when turning in 'Fame Waits for Gnome One' (58708)
+					q(53645),	-- triggered during 'Molten Core' (53342) when porting to Molten Core
+				}),
+			}),
+		}),
+	})),
+});

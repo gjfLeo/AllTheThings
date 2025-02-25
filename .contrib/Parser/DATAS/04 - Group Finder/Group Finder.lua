@@ -1089,5 +1089,147 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(60030),	-- Shadowlands 60 E
 		}),
 	})),
+	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
+		n(GROUP_FINDER, {
+			q(72187),	-- LFGDungeons - DF - Heroic Random - 1st
+			q(72188),	-- LFGDungeons - DF - Heroic Random - Nth
+			q(72181),	-- LFGDungeons - DF - Normal Random - 1st
+			q(72182),	-- LFGDungeons - DF - Normal Random - Nth
+			q(72184),	-- LFGDungeons - DF - Raid Finder - 1st
+			q(72185),	-- LFGDungeons - DF - Raid Finder - Nth
+			q(72535),	-- Dragonflight (61-69) E
+			q(72536),	-- Dragonflight (61-69) E
+			q(72537),	-- Dragonflight (61-69) E
+			q(72538),	-- Dragonflight (61-69) E
+			q(72539),	-- Dragonflight (61-69) E
+			q(72548),	-- Dragonflight (61-69) E
+			q(72549),	-- Dragonflight (61-69) E
+			q(72550),	-- Dragonflight (61-69) E
+			q(72619),	-- Dragonflight (61-69) E
+			q(72620),	-- Dragonflight (61-69) E
+			q(72621),	-- Dragonflight (61-69) E
+			q(72622),	-- Dragonflight (61-69) E
+			q(72623),	-- Dragonflight (61-69) E
+			q(70715),	-- Dragonflight (70) E
+			q(70716),	-- Dragonflight (70) E
+			q(70717),	-- Dragonflight (70) E
+			q(72540),	-- Dragonflight (70) E
+			q(72541),	-- Dragonflight (70) E
+			q(72542),	-- Dragonflight (70) E
+			q(72543),	-- Dragonflight (70) E
+			q(72544),	-- Dragonflight (70) E
+			q(72555),	-- Dragonflight (70) E
+			q(72556),	-- Dragonflight (70) E
+			q(72557),	-- Dragonflight (70) E
+			q(72563),	-- Dragonflight (70) E
+			q(72564),	-- Dragonflight (70) E
+			q(72565),	-- Dragonflight (70) E
+			q(72566),	-- Dragonflight (70) E
+			q(72567),	-- Dragonflight (70) E
+			q(72570),	-- Dragonflight (70) E
+			q(72571),	-- Dragonflight (70) E
+			q(72572),	-- Dragonflight (70) E
+			q(72573),	-- Dragonflight (70) E
+			q(72574),	-- Dragonflight (70) E
+			q(72575),	-- Dragonflight (70) E
+			q(72576),	-- Dragonflight (70) E
+			q(72577),	-- Dragonflight (70) E
+			q(72578),	-- Dragonflight (70) E
+			q(72579),	-- Dragonflight (70) E
+			q(72580),	-- Dragonflight (70) E
+			q(72581),	-- Dragonflight (70) E
+			q(72582),	-- Dragonflight (70) E
+			q(72583),	-- Dragonflight (70) E
+			q(72624),	-- Dragonflight (70) E
+			q(72625),	-- Dragonflight (70) E
+			q(72626),	-- Dragonflight (70) E
+			q(72627),	-- Dragonflight (70) E
+			q(72628),	-- Dragonflight (70) E
+			q(72629),	-- Dragonflight (70) E
+			q(72630),	-- Dragonflight (70) E
+			q(72631),	-- Dragonflight (70) E
+			q(72816),	-- Dragonflight (70) E
+			q(72817),	-- Dragonflight (70) E
+			q(72818),	-- Dragonflight (70) E
+			q(78763, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
+			q(78764, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
+			q(78765, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
+			q(78766, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
+			q(78767, {["timeline"] = {ADDED_10_2_0}}),	-- Dragonflight (70) E
+			q(72819),	-- Shadowlands (60) E
+			q(72820),	-- Shadowlands (60) E
+			q(72821),	-- Shadowlands (60) E
+		}),
+	})),
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+		n(GROUP_FINDER, {
+			q(39751, {["timeline"] = { ADDED_11_0_5 }}),	-- Classic Timewalking LFG completion
+			q(83707),	-- LFGDungeons - 11.0 The War Within - Raid Finder - 1st
+			q(83708),	-- LFGDungeons - 11.0 The War Within - Raid Finder - Nth
+			q(78169),	-- LFGDungeons - Timewalking "Heroic" Random - 1st
+			q(86493, {["timeline"] = { ADDED_11_0_7 }}),	-- LFGDungeons - Timewalking "Heroic" Random - 1st
+			q(86494, {["timeline"] = { ADDED_11_0_7 }}),	-- LFGDungeons - Timewalking "Heroic" Random - Nth
+			q(83021),	-- LFGDungeons - TWW - Normal Random - 1st
+			q(83022),	-- LFGDungeons - TWW - Normal Random - Nth
+			q(83027),	-- LFGDungeons - TWW - Heroic Random - 1st
+			q(83026),	-- LFGDungeons - TWW - Heroic Random - Nth
+			q(82549),	-- The War Within (71-79) E
+			q(82550),	-- The War Within (71-79) E
+			q(82551),	-- The War Within (71-79) E
+			q(82553),	-- The War Within (71-79) E
+			q(82554),	-- The War Within (71-79) E
+			q(82598),	-- The War Within (71-79) E
+			q(82599),	-- The War Within (71-79) E
+			q(82600),	-- The War Within (71-79) E
+			q(82606),	-- The War Within (71-79) E
+			q(82607),	-- The War Within (71-79) E
+			q(82608),	-- The War Within (71-79) E
+			q(82609),	-- The War Within (71-79) E
+			q(82610),	-- The War Within (71-79) E
+			q(82544),	-- The War Within (80) E
+			q(82545),	-- The War Within (80) E
+			q(82546),	-- The War Within (80) E
+			q(82547),	-- The War Within (80) E
+			q(82548),	-- The War Within (80) E
+			q(82555),	-- The War Within (80) E
+			q(82556),	-- The War Within (80) E
+			q(82567),	-- The War Within (80) E
+			q(82568),	-- The War Within (80) E
+			q(82569),	-- The War Within (80) E
+			q(82570),	-- The War Within (80) E
+			q(82573),	-- The War Within (80) E
+			q(82574),	-- The War Within (80) E
+			q(82575),	-- The War Within (80) E
+			q(82576),	-- The War Within (80) E
+			q(82577),	-- The War Within (80) E
+			q(82578),	-- The War Within (80) E
+			q(82587),	-- The War Within (80) E
+			q(82588),	-- The War Within (80) E
+			q(82589),	-- The War Within (80) E
+			q(82590),	-- The War Within (80) E
+			q(82591),	-- The War Within (80) E
+			q(82592),	-- The War Within (80) E
+			q(82593),	-- The War Within (80) E
+			q(82594),	-- The War Within (80) E
+			q(82595),	-- The War Within (80) E
+			q(82597),	-- The War Within (80) E
+			q(82601),	-- The War Within (80) E
+			q(82602),	-- The War Within (80) E
+			q(82603),	-- The War Within (80) E
+			q(82604),	-- The War Within (80) E
+			q(82605),	-- The War Within (80) E
+			q(82611),	-- The War Within (80) E
+			q(82612),	-- The War Within (80) E
+			q(82613),	-- The War Within (80) E
+			q(82618),	-- The War Within (80) E
+			q(82619),	-- The War Within (80) E
+			q(82620),	-- The War Within (80) E
+			q(82621),	-- The War Within (80) E
+			q(82622),	-- The War Within (80) E
+			q(82623),	-- The War Within (80) E
+			q(82624),	-- The War Within (80) E
+			q(82625),	-- The War Within (80) E
+		}),
+	})),
 });
 -- #endif

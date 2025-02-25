@@ -1637,6 +1637,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 	m(ZANDALAR, {
 		m(NAZMIR, {
 			n(QUESTS, {
+				q(47531),	-- triggered when turning in "Krag'wa the Terrible"
+				q(52294),	-- triggers with Krag'wa after accepting "The Last Witch Doctor of Krag'wa"
 				q(54773),	-- Warmode version of March on the Marsh
 			}),
 		}),

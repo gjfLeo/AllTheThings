@@ -348,6 +348,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				q(59858),	-- Tea Tales: Theotar Achievement criteria
 				q(59861),	-- Tea Tales: Theotar Achievement criteria
 				q(60701),	-- triggered when completing #60653, "Mirror Restoration"
+				q(62649),	-- triggered during 'Secret Service WQ'
 				q(59857),	-- triggered when completing Tea Tales: Vulca
 				q(59859),	-- triggered when completing Tea Tales: Gubbins and Tubbins
 				q(59860),	-- triggered when completing Tea Tales: Lost Sybille

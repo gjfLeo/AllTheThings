@@ -327,3 +327,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_1 } }, {
+	m(SHADOWLANDS, {
+		m(REVENDRETH, {
+			header(HEADERS.Faction, FACTION_THE_AVOWED, {
+				q(63090),	-- looting weekly chest of Sinstone Fragments next to Archivist Fane
+			}),
+		}),
+	}),
+})));

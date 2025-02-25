@@ -72,3 +72,16 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
+	m(ZANDALAR, {
+		m(DAZARALOR, {
+			n(FACTIONS, {
+				n(EMISSARY_QUESTS, {
+					q(54626),	-- Paragon of the Honorbound
+					q(54632),	-- Paragon of the Zandalari Empire
+				}),
+			}),
+		}),
+	}),
+})));

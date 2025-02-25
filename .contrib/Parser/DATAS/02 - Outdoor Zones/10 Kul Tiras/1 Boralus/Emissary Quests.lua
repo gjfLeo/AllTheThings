@@ -71,3 +71,16 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
+	m(KUL_TIRAS, {
+		m(BORALUS, {
+			n(FACTIONS, {
+				n(EMISSARY_QUESTS, {
+					q(54618),	-- Paragon of the 7th Legion
+					q(54629),	-- Paragon of the Proudmoore Admiralty
+				}),
+			}),
+		}),
+	}),
+})));

@@ -80,3 +80,16 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
+	m(KUL_TIRAS, {
+		m(STORMSONG_VALLEY, {
+			n(FACTIONS, {
+				n(EMISSARY_QUESTS, {
+					q(54610),	-- Paragon of the Tortollan Seekers
+					q(54628),	-- Paragon of the Storm's Wake
+				}),
+			}),
+		}),
+	}),
+})));

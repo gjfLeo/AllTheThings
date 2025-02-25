@@ -16,6 +16,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			n(122639, {	-- Old R'gal
+				["questID"] = 50856,
 				["coord"] = { 50.6, 59.6, DAZARALOR },
 				["races"] = ALLIANCE_ONLY,
 				["g"] = {

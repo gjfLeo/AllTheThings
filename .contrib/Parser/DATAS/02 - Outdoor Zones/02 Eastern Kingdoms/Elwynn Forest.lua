@@ -3811,3 +3811,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		},
 	}),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(EASTERN_KINGDOMS, {
+		m(ELWYNN_FOREST, {
+			n(QUESTS, {
+				q(43464),	-- Talking to Alaina Hearthsong
+				q(43465),	-- Looting Alaina's Bonnet
+			}),
+		}),
+	}),
+})));

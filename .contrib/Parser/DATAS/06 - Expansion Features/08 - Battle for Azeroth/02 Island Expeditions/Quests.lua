@@ -605,6 +605,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
 	n(ISLAND_EXPEDITIONS, {
+		n(GROUP_FINDER, {
+			q(53339),	-- LFG - BFA - Island Expedition - Heroic Win - Nth
+			q(53340),	-- LFG - BFA - Island Expedition - Mythic Win - Nth
+			q(51838),	-- LFG - BFA - Island Expedition - Normal Win - Nth
+			q(53341),	-- LFG - BFA - Island Expedition - PvP Win - Nth
+		}),
 		q(55591, {["repeatable"]=true}),	-- Expedition Demolisher
 		q(51994),	-- Unlock the ability to go on Island Expeditions in search of Azerite
 		q(55687, {["repeatable"]=true}),	-- Expedition GG-118 Micro-Jetpack — assembling a jetpack in Island Expeditions, Alliance

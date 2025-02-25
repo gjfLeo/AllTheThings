@@ -1071,6 +1071,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(54297),	-- Upgrade: Zul'jan Ruins completed
 				-- Misc
 				q(54767),	-- Correctly answer 8 riddles from Rid'lah
+				q(50931),	-- Spoke to talanji when meeting with Rastakhan for the first time
 			}),
 		}),
 	}),

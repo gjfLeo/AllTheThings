@@ -1391,6 +1391,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(59133),	-- Upgrading Ashjra'kamas from 122 -> 125 corruption
 				q(59553),	-- Entering the Chamber of Heart for the first time
 			}),
+			n(EMISSARY_QUESTS, {
+				q(54611),	-- Paragon of the Champions of Azeroth
+			}),
 		}),
 	}),
 })));
