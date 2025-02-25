@@ -3501,6 +3501,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(433, {	-- The Public Servant
+					--	Danny Donkey: Molkree says this quest propably got added by mistake to a list of quests to be marked as incomplete on a yearly basis. All yearly quests resets 15/01.
+					--	Classic have description in the quest because it will not play ball and appear directly on the npc itself due to conflict with the state of being a QG. This is not an issue on retail.
 					["qg"] = 1977,	-- Senator Mehr Stonehallow
 					-- #if AFTER CATA
 					["coord"] = { 75.9, 54.3, DUN_MOROGH },
@@ -3510,6 +3512,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["isYearly"] = true,
 					["lvl"] = 6,
+					-- #if ANYCLASSIC
+					["description"] = "The quest 'A Public Servant' get flagged as not completed on a yearly basis, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
+					-- #endif
 					["groups"] = {
 						-- #if AFTER CATA
 						objective(1, {	-- 0/7 Trapped Miner
@@ -3538,14 +3543,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(131209, {	-- Stonehallow's Pressed Cuffs
 							["timeline"] = { ADDED_7_0_3 },
 						}),
-						n(1977, {	-- Senator Mehr Stonehallow --
-							--	Danny Donkey:	Repeating the same description is not a perfect solution.
-							--					2025/02/23: Found unflagged again. Molkree says this quest propably got added by mistake to a list of quests to be marked as incomplete on a yearly basis. All yearly quests resets 15/01.
-							-- #if AFTER 9.1.5
-							["description"] = "The quest 'A Public Servant' get flagged as not completed on a yearly basis, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
-							-- #elseif ANYCLASSIC
-							["description"] = "The quest 'A Public Servant' get flagged as not completed on a yearly basis, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
-							-- #endif
+						n(1977, {	-- Senator Mehr Stonehallow
+						-- #if AFTER 9.1.5
+						-- Danny Donkey: This have probably applied for all iterations of WoW, but oldest reports are from 9.1.5 and first iterations of Classic.
+						["description"] = "The quest 'A Public Servant' get flagged as not completed on a yearly basis, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
+						-- #endif
 						}),
 					},
 				}),
@@ -4401,17 +4403,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 27.2, 52.8, DUN_MOROGH },
 					},
 					-- #elseif AFTER 10.1.7
-					["crs"] = {
-						41121,	-- Frostmane Seer
-						1117,	-- Rockjaw Bonesnapper
-					},
+					["cr"] = 41121,	-- Frostmane Seer
 					["coords"] = {
 						{ 49.0, 35.4, DUN_MOROGH },
 						{ 48.6, 42.6, DUN_MOROGH },
 						{ 50.6, 39.2, DUN_MOROGH },
 						{ 47.2, 39.4, DUN_MOROGH },
-						{ 77.7, 55.0, DUN_MOROGH },
-						{ 79.2, 48.4, DUN_MOROGH },
 					},
 					-- #endif
 				}),
