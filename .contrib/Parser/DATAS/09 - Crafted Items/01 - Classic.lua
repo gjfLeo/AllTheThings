@@ -3295,7 +3295,25 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				["timeline"] = { ADDED_1_15_1 },
 			})),
 			-- #endif
-			i(14342),	-- Mooncloth
+			i(14342, {	-- Mooncloth
+				["description"] = "Coordinates are for select Moonwells around the world.",
+				["coords"] = {
+					{ 43.10, 80.27, DARNASSUS }, -- Temple of the Moon
+					-- #if BEFORE 4.0.3
+					{ 21.0, 53.0, STORMWIND_CITY }, -- The Park
+					{ 60.0, 72.0, ASHENVALE }, -- Moonwell of Cleansing (exists after 4.0.3, but reduntant on practicality.)
+					-- #else
+					{ 57.11, 37.52, WETLANDS }, -- Greenwarden's Grove
+					{ 48.05, 18.54, DARNASSUS }, -- The Howling Oak
+					{ 10.77, 74.71, AZSHARA }, -- Talrendis Point
+					{ 49.06, 33.58, DUSKWOOD }, -- Twlight Grove (exists pre 4.0.3, but this area is then infested with world bosses.)
+					-- #endif
+					-- #if AFTER 2.0.1
+					{ 13.13, 26.23, GHOSTLANDS }, -- Shalandis Isle
+					{ 45.02, 23.54, TEROKKAR_FOREST }, -- Cenarion Thicket
+					-- #endif
+				},
+			}),
 		}),
 		category(233, {	-- Bags
 			applyclassicphase(PHASE_FIVE_RECIPES, i(22249)),	-- Big Bag of Enchantment
