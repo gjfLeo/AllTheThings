@@ -50,6 +50,7 @@ app:CreateWindow("Auctions", {
 		end
 		handlers.ADDON_LOADED = function(self, addonName)
 			if addonName == "Blizzard_AuctionUI" or addonName == "Blizzard_AuctionHouseUI" then
+				self:SetParent(AuctionHouseFrame or AuctionFrame);
 				self:UnregisterEvent("ADDON_LOADED");
 				if app.Settings:GetTooltipSetting("Auto:AuctionList") then
 					self:Show();
