@@ -389,6 +389,17 @@ local L = setmetatable({
 	ADDED_WITH_PATCH_TOOLTIP = "This shows you all of the content that has been added with each patch of the expansion.";
 	TRADING_POST = "Trading Post";
 
+	CUSTOM_COLLECTS_REASONS = {
+		["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "New Player Experience", desc = "Only a New Character can Collect this." },
+		["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Threads of Fate", desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this." },
+		["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
+		["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
+		["SL_COV_KYR"] = { icon = "|T"..(3257748)..":0|t", color = "ff516bfe", text = GetSpellName(321076) },
+		["SL_COV_NEC"] = { icon = "|T"..(3257749)..":0|t", color = "ff40bf40", text = GetSpellName(321078) },
+		["SL_COV_NFA"] = { icon = "|T"..(3257750)..":0|t", color = "ffA330C9", text = GetSpellName(321077) },
+		["SL_COV_VEN"] = { icon = "|T"..(3257751)..":0|t", color = "fffe040f", text = GetSpellName(321079) },
+	};
+
 	-- Item Filter Window
 	ITEM_FILTER_TEXT = "Item Filters";
 	ITEM_FILTER_DESCRIPTION = "You can search the ATT Database by using a item filter.";
@@ -924,7 +935,6 @@ L.SETTINGS_MENU = {
 		CUSTOM_FILTERS_LABEL = "Automated Content";
 		CUSTOM_FILTERS_EXPLAIN_LABEL = "|cffFFFFFFThis content is always shown if it is available to your current character or if you are in "..app.ccColors.Account.."Account Mode|cffFFFFFF.|r";
 		CUSTOM_FILTERS_GENERIC_TOOLTIP_FORMAT = "Enable this setting to forcibly show %s content even if it is not available to the current character.";
-		-- CUSTOM_COLLECTS_REASONS [These are defined in a different section]
 
 	-- Interface Page
 		INTERFACE_PAGE = UIOPTIONS_MENU;
