@@ -11,8 +11,8 @@ PLUNDERSTORM = createHeader({
 	eventID = EVENTS.PLUNDERSTORM,
 	eventSchedule = {
 		0, --
-		2025, 01, 14,	-- 15/01/2025
-		2025, 02, 18,	-- 18/02/2024
+		2025, 01, 14,	-- 14/01/2025
+		2025, 02, 26,	-- 26/02/2025
 	},
 	text = {
 		en = [[~WOWLABS_GAMEMODE_HEADER]],
