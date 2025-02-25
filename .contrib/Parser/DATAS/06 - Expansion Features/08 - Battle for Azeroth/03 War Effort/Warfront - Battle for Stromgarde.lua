@@ -1656,6 +1656,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(53641),	-- LFGDungeons - BFA - Stromgarde (Arathi)
 			}),
 			q(51342, {["repeatable"]=true}),	-- completion of Normal warfront
+			q(52212),	-- Battle for Stormgarde - triggered after defeating Rokhan on Heroic difficulty
 		}),
 	}),
 })));

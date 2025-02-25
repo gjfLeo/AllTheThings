@@ -429,26 +429,12 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 		--	VARIOUS
 		q(52758),	-- Silverpine Forest - triggered when taking the bat during "Iterating Upon Success" (spellID 388051)
-		q(47703),	-- triggered while on #47631, "Rendezvous with the Libation"
-		q(50225),	-- first kill of Ogmot the Mad
-		q(50465),	-- triggered with #49950, "Blood Purification"
 		q(50419),	-- tracking quest from the 8.1.5 Blacksmithing questling ending with "Therazane's Choice"
-		q(53470),	-- Vol'dun - Alliance - landed in Vol'Dun while doing the war campaign. First zone landing
-		q(51242),	-- Vol'dun - Alliance - planted the Alliance banner
-		q(51396),	-- Vol'dun - Alliance - watched Vorrik place the first keystone on the pedestal in the Sanctuary of the Devoted
-		q(53384),	-- Zuldazar - Alliance - war campaign trigger in Castaway Encampment. Probably a zone phase controller
 		q(53124),	-- Kings' Rest dungeon unlock trigger for alliance
-		q(47698),	-- Nazmir - Ticker is summoned
-		q(49294),	-- Nazmir - triggers when Hanzabu talks about the Zo'bal shrine
-		q(48779),	-- Nazmir - triggers after activating all the spirits in Zo'bal during "Spiritual Restoration"
-		q(48781),	-- Nazmir - Hir'eek is summoned in Zalamar
 		q(49683),	-- Vol'dun - chose the daggers for Nisha at the start of Vol'dun
 		q(47332),	-- Your Next Move - triggers when you pick up your first zone on the scouting map (e.g. Zuldazar as horde)
 		q(49766),	-- Your Next Move - triggers when you pick up your first zone on the scouting map (e.g. Zuldazar as horde)
 		q(49767),	-- Your Next Move - triggers when you pick up your first zone on the scouting map (e.g. Zuldazar as horde)
-		q(52781),	-- Triggers when speaking with Zidormi in Arathi Highlands to travel back in time
-		q(54411),	-- triggers when speaking with Zidormi in Darkshore to travel back in time (spellID 395734)
-		q(58013),	-- Alliance war campaign, triggers when speaking to Anduin while on "This Ain't Mine"
 		-- 58013 triggered randomly during a Black Empire assault in uldum
 		-- also triggered when looting the "Grimoire of the Other Side" as horde during "Spirits' belongings"
 		-- also triggers when repairing the mirror by Charred Ramparts for the Venthyr mirror repair dailies...
@@ -456,9 +442,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		-- also triggered while killing mobs for Dog Bone's Bone in Maldraxxus (05/11/22)
 		-- 58013 triggered while killing first pack of the mobs in Freehold (02/01/25)
 		q(51722),	-- triggers when completing "Uniting Kul Tiras" (Alliance WQ unlock).  Completing one triggers all 4 WQ unlock quests (main/alt quests for both Alliance and Horde)
-		q(52212),	-- Battle for Stormgarde - triggered after defeating Rokhan on Heroic difficulty
 		q(51973),	-- looting chest with resources after Lost Caravan event in Battle for Stormgarde
-		q(57244),	-- triggered when turning in #55618, "The Heart Forge"
 		q(54526),	-- triggered along with 54636 when looting Gorilla Bot Loot during Vol'dun invasion
 		q(54777),	-- triggered when turning in #54134, "Many Fine Heroes," vol'dun assault.  had WM on but i'm not sure if that's relevant
 		q(54315),	-- triggered when turning in #54134, "Many Fine Heroes," vol'dun assault.  had WM off, but i think it was the first time i did the assault on this character
@@ -471,7 +455,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54769),	-- triggered when turning in #53939, "Breaching Boralus," tiragade sound assault.  had WM on
 		q(54322),	-- triggered when turning in #53885, "Isolated Victory," vol'dun assault.  had WM on
 		q(54778),	-- triggered when turning in #53885, "Isolated Victory," vol'dun assault.  had WM on
-		q(54772),	-- triggered when turning in #54137, "In Every Dark Corner".
 		q(57593),	-- triggered when talking to chromie in CoT during the 2019 anniversary event, before turning in #57249, "A Timely Invitation"
 		q(54035),	-- Blessing of the Night Warden unlock chain started
 		q(53956),	-- Triggered when turning in "We Are Coming" as alliance. Probably related to darkshore warfront unlock?
@@ -480,13 +463,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(55494),	-- Torcali quest of the day completed
 		q(58881),	-- triggered when i fed the uldum friendly alpaca for the last time (not with the quest that gives the mount afterward, but the final feed)
 		q(59072),	-- speaking to Tasha Riley and joining the Council of Chaos in the BRD pet battle dungeon
-		q(47866),	-- triggered after step 8 of Lucid Nightmare secret
-		q(53123),	-- triggered when turning in #53121, "Siege of Boralus," while on Horde War Campaign
-		q(52193),	-- triggered when turning in #52186, "The Bulk of the Guard," while on Horde War Campaign
 		q(54635),	-- additional version of Mekkatorque's Battle Plans, presumably if you don't pick it up from a mob during "Killing on the Side," but idk how that could happen
-		q(58417),	-- triggered when starting the mission "Casting the Bait" while on "Under False Colors" during the Horde War Campaign
-		q(55135),	-- triggered after finishing the mission "Casting the Bait" during the Horde War Campaign
-		q(53964),	-- triggered when turning in #51445, "Thros, the Blighted Lands"
 		q(54704),	-- War Campaign - triggered when turning in "Time for War"
 		q(53147),	-- Zuldazar - Triggered when turning in "The Zanchuli Council". No idea what the ID is used to track
 		q(53532),	-- Zuldazar - Triggered when picking up "Tales of de Loa: Akunda". Makes the loa book available to read in The Great Seal

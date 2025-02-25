@@ -89,3 +89,13 @@ root(ROOTS.Secrets, {
 		},
 	}),
 });
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
+	m(BROKEN_ISLES, {
+		m(VALSHARAH, {
+			n(TREASURES, {
+				q(47866),	-- triggered after step 8 of Lucid Nightmare secret
+			}),
+		}),
+	}),
+})));

@@ -544,6 +544,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 	m(KUL_TIRAS, {
 		m(DRUSTVAR, {
 			n(WORLD_QUESTS, {
+				q(54772),	-- triggered when turning in #54137, "In Every Dark Corner".
 				q(52000),	-- Matron Morana killID
 				q(52002),	-- Soul Goliath killID
 				q(51999),	-- Stone Golem killID

@@ -1733,6 +1733,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		m(DRUSTVAR, {
 			n(QUESTS, {
 				q(52934),	-- Spell 277753 & 278578 granting access to NPC 127156 during quest 48853
+				q(53964),	-- triggered when turning in #51445, "Thros, the Blighted Lands"
 			}),
 		}),
 	}),

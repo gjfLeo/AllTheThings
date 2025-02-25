@@ -1638,7 +1638,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		m(NAZMIR, {
 			n(QUESTS, {
 				q(47531),	-- triggered when turning in "Krag'wa the Terrible"
+				q(47703),	-- triggered while on #47631, "Rendezvous with the Libation"
+				q(50465),	-- triggered with #49950, "Blood Purification"
 				q(52294),	-- triggers with Krag'wa after accepting "The Last Witch Doctor of Krag'wa"
+				q(47698),	-- Nazmir - Ticker is summoned
+				q(49294),	-- Nazmir - triggers when Hanzabu talks about the Zo'bal shrine
+				q(48779),	-- Nazmir - triggers after activating all the spirits in Zo'bal during "Spiritual Restoration"
+				q(48781),	-- Nazmir - Hir'eek is summoned in Zalamar
 				q(54773),	-- Warmode version of March on the Marsh
 			}),
 		}),
