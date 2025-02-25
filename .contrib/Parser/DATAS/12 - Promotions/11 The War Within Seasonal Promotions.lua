@@ -243,7 +243,7 @@ root(ROOTS.Promotions, {
 			}),
 			i(238261, {	-- Tock the Clocker Spaniel (PET!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between February 25th, 10:00 a.m. & March 25th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
-				["timeline"] = { ADDED_11_1_0, "removed 11.1.0.9999" },
+				["timeline"] = { ADDED_11_1_0, "removed 11.1.0.99999" },
 			}),
 			iensemble(229822, {	-- Arsenal: Golden Crests of the Kingdom
 				["description"] = "Included as a code in the physical goodie bag given to attendees of 30th Anniversary Live events.",
