@@ -3,5 +3,7 @@
     public interface IExportableField
     {
         object AsExportType();
+
+        bool HasData { get; }
     }
 }

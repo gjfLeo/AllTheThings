@@ -16,6 +16,8 @@ namespace ATT.FieldTypes
 
         public int EntryCount => _entries?.Length ?? 0;
 
+        public bool HasData => EntryCount > 0;
+
         public IReadOnlyList<TimelineEntry> Entries
         {
             get

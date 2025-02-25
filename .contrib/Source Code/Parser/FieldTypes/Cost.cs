@@ -16,6 +16,8 @@ namespace ATT.FieldTypes
 
         private long Gold { get; set; }
 
+        public bool HasData => Gold > 0 || _costTypes.Any();
+
         public override string ToString() => ToJSON(AsExportType());
 
         private Dictionary<string, IDictionary<decimal, long>> _costTypes;
@@ -136,6 +138,7 @@ namespace ATT.FieldTypes
             }
 
             List<decimal> clean = new List<decimal>();
+            List<string> cleanTypes = new List<string>();
             foreach (var costType in _costTypes)
             {
                 switch (costType.Key)
@@ -205,6 +208,19 @@ namespace ATT.FieldTypes
             foreach (decimal id in clean)
             {
                 _costTypes["i"].Remove(id);
+            }
+
+            foreach(var costType in _costTypes)
+            {
+                if (costType.Value.Count == 0)
+                {
+                    cleanTypes.Add(costType.Key);
+                }
+            }
+
+            foreach(var costType in cleanTypes)
+            {
+                _costTypes.Remove(costType);
             }
         }
 

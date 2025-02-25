@@ -1047,6 +1047,11 @@ namespace ATT
                 {
                     removeKeys.Add(dataKvp.Key);
                 }
+                // Remove IExportableFields which have no data
+                else if (dataKvp.Value is IExportableField expField && !expField.HasData)
+                {
+                    removeKeys.Add(dataKvp.Key);
+                }
             }
 
             foreach (string key in removeKeys)

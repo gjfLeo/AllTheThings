@@ -11,6 +11,8 @@ namespace ATT.FieldTypes
     {
         private const string Field = "lc";
 
+        public bool HasData => false;
+
         public override string ToString() => ToJSON(AsExportType());
 
         public object AsExportType()
