@@ -842,11 +842,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 228566 },	-- Jazz Mokkitz
 				["coord"] = { 19.9, 56.4, ZULDAZAR },
 			}),
-			q(84304, {	-- A Gem-Splitting Headache
+			q(84300, {	-- Creative Iteration
 				["sourceQuests"] = {
 					84301,	-- Mineral Madness
 					84300,	-- Refine, Repair, Repeat
 				},
+				["provider"] = { "n", 229204 },	-- Jazz Mokkitz
+				["coord"] = { 22.5, 59.3, ZULDAZAR },
+			}),
+			q(84304, {	-- A Gem-Splitting Headache
+				["sourceQuests"] = { 84300 },	-- Creative Iteration
 				["provider"] = { "n", 228566 },	-- Jazz Mokkitz
 				["coord"] = { 22.5, 59.3, ZULDAZAR },
 				["g"] = {
@@ -858,10 +863,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(84303, {	-- Experimental Application
-				["sourceQuests"] = {
-					84301,	-- Mineral Madness
-					84300,	-- Refine, Repair, Repeat
-				},
+				["sourceQuests"] = { 84300 },	-- Creative Iteration
 				["provider"] = { "n", 228566 },	-- Jazz Mokkitz
 				["coord"] = { 22.5, 59.3, ZULDAZAR },
 				["g"] = {
