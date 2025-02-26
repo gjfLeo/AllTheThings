@@ -481,6 +481,19 @@ local ItemWithFactionBonus = {
 	end,
 }
 app.CreateItem = app.CreateClass(CLASS, KEY, itemFields,
+"AsHQT", {
+	CollectibleType = function() return "QuestsHidden" end,
+	collectible = app.CollectibleAsQuest,
+	locked = app.GlobalVariants.AndLockCriteria.locked,
+	collected = IsQuestFlaggedCompletedForObject,
+	trackable = function(t)
+		-- raw repeatable quests can't really be tracked since they immediately unflag
+		return not rawget(t, "repeatable")
+	end,
+	saved = function(t)
+		return IsQuestFlaggedCompleted(t.questID);
+	end
+}, (function(t) return t.type == "ihqt"; end),
 "WithQuest", {
 	CollectibleType = app.IsClassic and function() return "Quests" end
 	-- Retail: items tracked as HQT
