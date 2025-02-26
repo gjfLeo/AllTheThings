@@ -938,25 +938,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "o", 456747 },	-- Gig Sheets (TODO: possibly more sourced since saw in different places)
 				["coord"] = { 42.7, 52.8, UNDERMINE },	-- TODO: ^
 			}),
-			q(84893, {	-- G.E.T.A. The Captain
-				["sourceQuests"] = { 84885 },	-- Working for G.E.T.A.
-				["provider"] = { "n", 228393 },	-- Bruxie Slyhook
-				["coord"] = { 32.9, 52.0, UNDERMINE },
-				["g"] = {
-					i(233144),	-- The Captain's Head (QI!)
-					--
-					i(232775),	-- Helm of the Certified Hunter
-					i(232771),	-- Belt of the Certified Hunter
-					i(232779),	-- Boots of the Certified Hunter
-					i(232787),	-- Wristwraps of the Certified Hunter
-				},
-			}),
 			q(84892, {	-- G.E.T.A. The Crocodillian
 				["sourceQuests"] = { 84885 },	-- Working for G.E.T.A.
 				["provider"] = { "n", 228393 },	-- Bruxie Slyhook
 				["coord"] = { 32.9, 52.0, UNDERMINE },
 				["g"] = {
-					i(233133),	-- Crocodillian's Head (QI!)
+					i(233113),	-- Crocodillian's Head (QI!)
 				},
 			}),
 			q(84891, {	-- G.E.T.A. The Radioactive Rat
@@ -965,6 +952,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 32.9, 52.0, UNDERMINE },
 				["g"] = {
 					i(233066),	-- Radioactive Rat's Head (QI!)
+				},
+			}),
+			q(84893, {	-- G.E.T.A. The Captain
+				["sourceQuests"] = {
+					84892,	-- G.E.T.A. The Crocodillian
+					84891,	-- G.E.T.A. The Radioactive Rat
+				},
+				["provider"] = { "n", 228393 },	-- Bruxie Slyhook
+				["coord"] = { 32.9, 52.0, UNDERMINE },
+				["g"] = {
+					i(233114),	-- The Captain's Head (QI!)
+					--
+					i(232775),	-- Helm of the Certified Hunter
+					i(232771),	-- Belt of the Certified Hunter
+					i(232779),	-- Boots of the Certified Hunter
+					i(232787),	-- Wristwraps of the Certified Hunter
 				},
 			}),
 			--- End of G.E.T.A.

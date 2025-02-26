@@ -895,7 +895,6 @@ root(ROOTS.Unsorted, {
 			i(229345),	-- Aspectral Emissary's Slippers
 			i(229346),	-- Aspectral Emissary's Primal Robes
 			i(229810),	-- Vintage Kaja'Cola Can
-			i(229825),	-- Dented Can of Kaja'Cola
 			i(232465),	-- Darkfuse Trove
 			i(233064),	-- Bronze Goblin Waveshredder
 			i(233113),	-- Crocodilian's Head
