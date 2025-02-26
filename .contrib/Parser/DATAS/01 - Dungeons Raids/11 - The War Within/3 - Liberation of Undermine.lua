@@ -47,26 +47,62 @@ local EncounterToLoot = {
 		i(230019),	-- Vexie's Pit Whistle
 	};
 	[CARNAGE] = {
+		i(228803, {	-- Dreadful Bloody Gallybux
+			i(229254),	-- Cauldron Champion's Fistguards
+			i(229317),	-- Fel-Dealer's Underhandlers
+			i(229326),	-- Spliced Fiendtrader's Demonic Grasp
+		}),
+		i(228804, {	-- Mystic Bloody Gallybux
+			i(229344),	-- Aspectral Emissary's Hardened Grasp
+			i(229308),	-- Grips of Reclaiming Blight
+			i(229272),	-- Tireless Collector's Gauntlets
+		}),
+		i(228805, {	-- Venerated Bloody Gallybux
+			i(229245),	-- Aureate Sentry's Gauntlets
+			i(229335),	-- Confessor's Unshakable Mitts
+			i(229263),	-- Gale Sovereign's Grasps
+		}),
+		i(228806, {	-- Zenith Bloody Gallybux
+			i(229299),	-- Ageless Serpent's Handguards
+			i(229236),	-- Enforcer's Backalley Crushers
+			i(229281),	-- Opulent Treasurescale's Gold-Counters
+			i(229290),	-- Spectral Gambler's Gloves
+		}),
 		i(228856),	-- Competitor's Battle Cord
 		i(228904),	-- Crowd Favorite
-		i(228803),	-- Dreadful Bloody Gallybux
 		i(228840),	-- Faded Championship Ring
 		i(230191),	-- Flarendo's Pilot Light
 		i(228846),	-- Galvanic Graffiti Cuffs
 		i(228873),	-- Heaviestweight Title Belt
 		i(228847),	-- Hotstep Heel-Turners
-		i(228804),	-- Mystic Bloody Gallybux
 		i(228890),	-- Superfan's Beater-Buzzer
 		i(230190),	-- Torq's Big Red Button
 		i(228900),	-- Tournament Arc
-		i(228805),	-- Venerated Bloody Gallybux
-		i(228806),	-- Zenith Bloody Gallybux
 	};
 	[RIK] = {
-		i(228815),	-- Dreadful Polished Gallybux
+		i(228815, {	-- Dreadful Polished Gallybux
+			i(229251),	-- Cauldron Champion's Screamplate
+			i(229314),	-- Fel-Dealer's Recycled Reavers
+			i(229323),	-- Spliced Fiendtrader's Loyal Servants
+		}),
+		i(228816, {	-- Mystic Polished Gallybux
+			i(229341),	-- Aspectral Emissary's Arcane Vents
+			i(229305),	-- Jaws of Reclaiming Blight
+			i(229269),	-- Tireless Collector's Hunted Heads
+		}),
+		i(228817, {	-- Venerated Polished Gallybux
+			i(229242),	-- Aureate Sentry's Roaring Will
+			i(229332),	-- Confessor's Unshakable Radiance
+			i(229260),	-- Gale Sovereign's Zephyrs
+		}),
+		i(228818, {	-- Zenith Polished Gallybux
+			i(229296),	-- Ageless Serpent's Shoulderpads
+			i(229233),	-- Enforcer's Backalley Shoulderplates
+			i(229278),	-- Opulent Treasurescale's Gleaming Mantle
+			i(229287),	-- Spectral Gambler's Bladed Mantle
+		}),
 		i(231311),	-- Frontman's Wondrous Wall
 		i(228869),	-- Killer Queen's Wristflickers
-		i(228816),	-- Mystic Polished Gallybux
 		i(228897),	-- Pyrotechnic Needle-Dropper
 		i(228895),	-- Remixed Ignition Saber
 		i(230194),	-- Reverb Radio
@@ -74,55 +110,104 @@ local EncounterToLoot = {
 		i(228845),	-- Sash of the Fierce Diva
 		i(228841),	-- Semi-Charmed Amulet
 		i(228857),	-- Underparty Admission Bracelet
-		i(228817),	-- Venerated Polished Gallybux
-		i(228818),	-- Zenith Polished Gallybux
 	};
 	[STIX] = {
+		i(228811, {	-- Dreadful Rusty Gallybux
+			i(229252),	-- Cauldron Champion's Tattered Cuisses
+			i(229315),	-- Fel-Dealer's Fur Kilt
+			i(229324),	-- Spliced Fiendtrader's Skin Tights
+		}),
+		i(228812, {	-- Mystic Rusty Gallybux
+			i(229342),	-- Aspectral Emissary's Trousers
+			i(229306),	-- Moccasins of Reclaiming Blight
+			i(229270),	-- Tireless Collector's Armored Breeches
+		}),
+		i(228813, {	-- Venerated Rusty Gallybux
+			i(229243),	-- Aureate Sentry's Legguards
+			i(229333),	-- Confessor's Unshakable Leggings
+			i(229261),	-- Gale Sovereign's Pantaloons
+		}),
+		i(228814, {	-- Zenith Rusty Gallybux
+			i(229297),	-- Ageless Serpent's Leggings
+			i(229234),	-- Enforcer's Backalley Chausses
+			i(229279),	-- Opulent Treasurescale's Petticoat
+			i(229288),	-- Spectral Gambler's Pantaloons
+		}),
 		i(228854),	-- Bilgerat's Discarded Slacks
 		i(228871),	-- Cleanup Crew's Wastemask
-		i(228811),	-- Dreadful Rusty Gallybux
 		i(228849),	-- Dumpmech Compactors
 		i(228903),	-- Dumpster Diver
 		i(230189),	-- Junkmaestro's Mega Magnet
-		i(228812),	-- Mystic Rusty Gallybux
 		i(228859),	-- Sanitized Scraphood
 		i(230026),	-- Scrapfield 9001
 		i(228896),	-- Stix's Metal Detector
-		i(228813),	-- Venerated Rusty Gallybux
-		i(228814),	-- Zenith Rusty Gallybux
 	};
 	[LOCKENSTOCK] = {
+		i(228799, {	-- Dreadful Greased Gallybux
+			i(229256),	-- Cauldron Champion's Ribcage
+			i(229319),	-- Fel-Dealer's Soul Engine
+			i(229328),	-- Spliced Fiendtrader's Surgical Gown
+		}),
+		i(228800, {	-- Mystic Greased Gallybux
+			i(229346),	-- Aspectral Emissary's Primal Robes
+			i(229310),	-- Robes of Reclaiming Blight
+			i(229274),	-- Tireless Collector's Battlegear
+		}),
+		i(228801, {	-- Venerated Greased Gallybux
+			i(229247),	-- Aureate Sentry's Encasement
+			i(229337),	-- Confessor's Unshakable Vestment
+			i(229265),	-- Gale Sovereign's Clouded Hauberk
+		}),
+		i(228802, {	-- Zenith Greased Gallybux
+			i(229301),	-- Ageless Serpent's Inked Coils
+			i(229238),	-- Enforcer's Backalley Vestplate
+			i(229283),	-- Opulent Treasurescale's Tunic
+			i(229292),	-- Spectral Gambler's Vest
+		}),
 		i(228898),	-- Alphacoil Ba-Boom Stick
-		i(228799),	-- Dreadful Greased Gallybux
 		i(228894),	-- GIGADEATH Chainblade
 		i(228867),	-- Gravi-Gunk Handlers
 		i(230193),	-- Mister Lock-N-Stalk
 		i(230186),	-- Mister Pick-Me-Up
-		i(228800),	-- Mystic Greased Gallybux
 		i(228882),	-- Refiner's Conveyor Belt
 		i(228888),	-- Rushed Beta Launchers
 		i(228844),	-- Test Pilot's Go-Pack
 		i(228884),	-- Test Subject's Clasps
-		i(228801),	-- Venerated Greased Gallybux
-		i(228802),	-- Zenith Greased Gallybux
 	};
 	[BANDIT] = {
+		i(228807, {	-- Dreadful Gilded Gallybux
+			i(229253),	-- Cauldron Champion's Crown
+			i(229316),	-- Fel-Dealer's Visor
+			i(229325),	-- Spliced Fiendtrader's Transcendence
+		}),
+		i(228808, {	-- Mystic Gilded Gallybux
+			i(229343),	-- Aspectral Emissary's Crystalline Cowl
+			i(229307),	-- Branches of Reclaiming Blight
+			i(229271),	-- Tireless Collector's Chained Cowl
+		}),
+		i(228809, {	-- Venerated Gilded Gallybux
+			i(229244),	-- Aureate Sentry's Pledge
+			i(229334),	-- Confessor's Unshakable Halo
+			i(229262),	-- Gale Sovereign's Charged Hood
+		}),
+		i(228810, {	-- Zenith Gilded Gallybux
+			i(229298),	-- Ageless Serpent's Mane
+			i(229235),	-- Enforcer's Backalley Faceshield
+			i(229280),	-- Opulent Treasurescale's Crowned Jewel
+			i(229289),	-- Spectral Gambler's Damned Visage
+		}),
 		i(232526),	-- Best-in-Slots
 		i(232805),	-- Best-in-Slots
 		i(228850),	-- Bottom-Dollar Blouse
 		i(228886),	-- Coin-Operated Girdle
-		i(228807),	-- Dreadful Gilded Gallybux
 		i(228883),	-- Dubious Table-Runners
 		i(230188),	-- Gallagio Bottle Service
 		i(228905),	-- Giga Bank-Breaker
 		i(230027),	-- House of Cards
 		i(228885),	-- Hustler's Ante-Uppers
 		i(228843),	-- Miniature Roulette Wheel
-		i(228808),	-- Mystic Gilded Gallybux
 		i(228906),	-- Operator's Fraud Detector
 		i(231266),	-- Random Number Perforator
-		i(228809),	-- Venerated Gilded Gallybux
-		i(228810),	-- Zenith Gilded Gallybux
 	};
 	[MUGZEE] = {
 		i(228851),	-- "Bullet-Proof" Vestplate
@@ -182,6 +267,7 @@ InstanceHelper.UpgradeMapping = {
 	[DIFFICULTY.RAID.NORMAL] = 5,
 	[DIFFICULTY.RAID.HEROIC] = 6,
 };
+
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 	inst(1296, {	-- Liberation of Undermine
 		["isRaid"] = true,
