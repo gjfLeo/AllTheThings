@@ -12944,6 +12944,7 @@ local ObjectModels = {
 	[507221] = 5128194,
 	[507226] = 5128194,
 	[507227] = 5128194,
+	[508718] = 6156070,
 }; _.ObjectModels = ObjectModels;
 
 -- Consolidated Object Data
