@@ -603,9 +603,7 @@ root(ROOTS.Unsorted, {
 				i(235313),	-- Shockproof Helm
 				i(235327),	-- Mend-and-Match Shoulderpads
 				i(235350),	-- Void-forged Cudgel
-				i(235351),	-- Hypersteel CX4 Greatsword
 				i(235352),	-- Netherflare Wand
-				i(235354),	-- Scrapblaster Lance
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket

@@ -686,7 +686,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 232180 },	-- Old Man Lowe
 				["coord"] = { 39.7, 61.4, UNDERMINE },
 				["g"] = {
-					i(233202),	-- G.O.L.E.M Jr. (TOY!)
+					i(233202),	-- G.O.L.E.M Jr. (TOY!)	-- did not receive on live
 					i(230731),	-- Pitz's Masterwork Invention (QI!)
 				},
 			}),
@@ -737,9 +737,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["sourceQuests"] = { 84381 },	-- Renegotiations
 				["provider"] = { "n", 228857 },	-- Mama Keara
 				["coord"] = { 40.2, 72.5, UNDERMINE },
-				["g"] = {
-					-- TODO: Blizzard - [PLACEHOLDER REWARD]
-				},
 			}),
 			--- End Property Devalued
 			--- Fore!
@@ -804,7 +801,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(83089, {	-- Giving Goblins Goggles
-				--["sourceQuests"] = { xx },	-- TODO: ??
+				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "n", 225481 },	-- Slimediver Kazzandra
 				["coord"] = { 40.6, 87.0, UNDERMINE },
 			}),
@@ -971,7 +968,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			--- End of G.E.T.A.
-			--- Oh, Rats! (missing highlight on map for it)
+			--- Oh, Rats!
 			q(83484, {	-- Oh, Rats!
 				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "n", 226728 },	-- Humphrey Shortswig
@@ -1004,9 +1001,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "o", 466110 },	-- Getry's Pack
 				["coord"] = { 20.9, 58.8, ZULDAZAR },
 				["g"] = {
-					i(231369),	-- Redberry (QI!)
-					o(454311),	-- Redberry
-					o(454312),	-- Redberry
+					o_repeated({
+						i(231369),	-- Redberry (QI!)
+						o(454311),	-- Redberry
+						o(454312),	-- Redberry
+					}),
 				},
 			}),
 			q(85711, {	-- Unsolicited Feedback

@@ -92,6 +92,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84911,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235351),	-- Hypersteel CX4 Greatsword
 					i(235312),	-- Snooty's Aviator Bindings
 					i(235316),	-- Whirly-Giggle Windwhir Wrap
 				},
@@ -199,6 +200,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 63.6, 50.3, UNDERMINE },
 				["questID"] = 84884,	-- Junk Wall
 				["isWeekly"] = true,
+				["g"] = {
+					i(235351),	-- Hypersteel CX4 Greatsword
+					i(235354),	-- Scrapblaster Lance
+				},
 			}),
 			n(230951, {	-- Thwack
 				["coord"] = { 54.1, 50.3, UNDERMINE },

@@ -109,7 +109,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234821),	-- Papa's Prized Putter
 				},
 			}),
-			o(502903, {	-- Gallywix's Notes [lore]
+			o(502903, {	-- Gallywix's Notes
+				["description"] = "Inside the cave on a table.",
+				["sourceQuest"] = 83129,	-- Nowhere Left to Hide
 				["coord"] = { 60.9, 64.3, UNDERMINE },
 				["questID"] = 86573,
 			}),
@@ -118,7 +120,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 55.9, 51.7, UNDERMINE },
 				["questID"] = 85856,
 				["g"] = {
-					-- TODO: same as for book, take another look
 					q(85838, {
 						["name"] = "Original spot",
 						["coord"] = { 57.9, 52.9, UNDERMINE },
@@ -171,7 +172,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235279),	-- Scorched Shorts (COSMETIC!)
 				},
 			}),
-			o(502893, {	-- First Half of Noggenfogger's Journal [lore]
+			o(502893, {	-- First Half of Noggenfogger's Journal
+				["description"] = "Underground in the nearby sewer.",
 				["coord"] = { 39.6, 26.9, UNDERMINE },
 				["questID"] = 86572,
 			}),

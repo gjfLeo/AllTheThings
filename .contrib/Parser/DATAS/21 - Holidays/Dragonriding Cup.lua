@@ -981,8 +981,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 					["repeatable"] = true,
 				}),
 				q(79125, {	-- The Kalimdor Cup Begins
-					["provider"] = { "n", 214031 },	-- Racing Enthusiast
-					["coord"] = {61.8, 75.1, STORMWIND_CITY },
+					["qgs"] = {
+						214031,	-- Racing Enthusiast
+						-- #if AFTER 11.1.0
+						220307, -- Holiday Enthusiast
+						-- #endif
+					},
+					["coords"] = {
+						{ 61.8, 75.1, STORMWIND_CITY },
+						-- #if AFTER 11.1.0
+						{ 46.1, 55.0, DORNOGAL },
+						-- #endif
+					},
 					["isBreadcrumb"] = true,
 					["repeatable"] = true,
 					["races"] = ALLIANCE_ONLY,
@@ -996,7 +1006,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 					["races"] = HORDE_ONLY,
 					["timeline"] = { ADDED_10_2_5 }
 				}),
-				q(76426, {	-- The Kalimdor Cup's Introduction
+				q(76426, {	-- The Kalimdor Cup Circuit
 					["sourceQuests"] = {
 						-- #if BEFORE 10.2.5
 						76429,	-- The Kalimdor Cup Begins
@@ -1004,8 +1014,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 						76429, 79125, 79126	-- The Kalimdor Cup Begins
 						-- #endif
 					},
-					["provider"] = { "n", 206737 },	-- Lord Andestrasz
-					["coord"] = { 27.1, 47.1, VALDRAKKEN },
+					["qgs"] = {
+						206737,	-- Lord Andestrasz
+						-- #if AFTER 11.1.0
+						214111, -- Lord Andestrasz
+						-- #endif
+					},
+					["coords"] = {
+						{ 27.1, 47.1, VALDRAKKEN },
+						-- #if AFTER 11.1.0
+						{ 60.1, 66.2, STORMWIND_CITY },
+						-- #endif
+					},
 					["repeatable"] = true,
 					["g"] = {
 						currency(RIDERS_OF_AZEROTH_BADGE),
