@@ -61,7 +61,6 @@ root(ROOTS.Unsorted, {
 				i(233532),	-- Gold-Plated Polearm
 				i(233533),	-- Gold-Plated Spear
 				i(233534),	-- Gold-Plated Broadsword
-				i(233535),	-- Gold-Plated Greatsword
 				i(233536),	-- Gold-Plated Rifle
 				i(233537),	-- Gold-Plated Sword
 				i(233538),	-- Gold-Plated Blade

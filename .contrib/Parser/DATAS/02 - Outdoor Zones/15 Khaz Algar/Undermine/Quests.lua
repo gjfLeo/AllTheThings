@@ -126,11 +126,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(232441),	-- Boreal Battleaxe
 					i(232442),	-- Boreal Blade
-					i(238250, {	-- Boreal Cleaver
-						["description"] = "As of 11.1.0.58999 build you can't obtain mog from this item.",
-						["collectible"] = false,
-					}),
+					i(238250), 	-- Boreal Cleaver
 					i(235660),	-- Boreal Glaive
+					i(238249),	-- Boreal Greatsword
 					i(232446),	-- Boreal Rifle
 					i(232447),	-- Boreal Shank
 					i(232425),	-- Boreal Spear
@@ -182,6 +180,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 229246 },	-- Grimla Fizzlecrank
 				["coord"] = { 45.2, 42.1, UNDERMINE },
 				["g"] = {
+					i(238251),	-- Grateful Goblin's Blade
 					i(232452),	-- Grateful Goblin's Cudgel
 					i(232449),	-- Grateful Goblin's Dagger
 					i(232451),	-- Grateful Goblin's Mallet

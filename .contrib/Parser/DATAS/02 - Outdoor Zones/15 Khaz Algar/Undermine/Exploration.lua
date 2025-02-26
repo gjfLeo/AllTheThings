@@ -18,6 +18,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			visit_exploration(15464,{coord={62.3,55.7,UNDERMINE}}),	-- Pleasant Heights
 			visit_exploration(15645,{coord={47.9,52.0,UNDERMINE}}),	-- Pleasant Heights
 			visit_exploration(15521,{coord={62.6,35.6,UNDERMINE}}),	-- Plunder Party
+			visit_exploration(15454,{coord={63.0,18.1,UNDERMINE}}),	-- Port Authority
 			visit_exploration(15463,{coord={62.3,55.7,UNDERMINE}}),	-- Public Parking
 			visit_exploration(15656,{coord={57.7,50.8,UNDERMINE}}),	-- Public Parking
 			visit_exploration(15541,{coord={37.3,46.7,UNDERMINE}}),	-- Shipping and Handling

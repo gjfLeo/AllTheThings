@@ -58,6 +58,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 86571,
 			}),
 			o(490816, {	-- Unexploded Fireworks
+				["description"] = "On the roof",
 				["coord"] = { 48.4, 43.1, UNDERMINE },
 				["questID"] = 85683,
 				["g"] = {
