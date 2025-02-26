@@ -1625,8 +1625,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					-- #endif
 				},
 			}),
-			i(24272),	-- Shadowcloth
-			i(24271),	-- Spellcloth
+			i(24272, {	-- Shadowcloth
+				["coord"] = { 58.3, 70.9, SHADOWMOON_VALLEY },
+			}),
+			i(24271, {	-- Spellcloth
+				["maps"] = { NETHERSTORM },
+			}),
 		}),
 		category(1001, {	-- Spellthreads
 			i(24276),	-- Golden Spellthread
