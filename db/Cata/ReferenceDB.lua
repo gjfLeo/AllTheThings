@@ -48,7 +48,6 @@ _.OnInitDB=
 	["ShouldExcludeFromTooltipForBuffs_424210"] = function(t)local buffs={};for i,id in ipairs({424210})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
 	["ShouldExcludeFromTooltipForBuffs_424211"] = function(t)local buffs={};for i,id in ipairs({424211})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
 	["ShouldExcludeFromTooltipForBuffs_470595"] = function(t)local buffs={};for i,id in ipairs({470595})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
-	["ShouldExcludeFromTooltipForBuffs_470595_1224923"] = function(t)local buffs={};for i,id in ipairs({470595,1224923})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
 }
 _.OnTooltipDB=
 {

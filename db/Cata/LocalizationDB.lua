@@ -770,6 +770,7 @@ localize(L.HEADER_NAMES, {
 	[-1001070] = UPGRADE,
 	[-1001074] = "Protocol Twilight",
 	[-1001075] = "Obsidian Fragment Exchange",
+	[-1001078] = "MoP Classic Sha-Infused Heroic Pack",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
@@ -995,6 +996,7 @@ localize(L.HEADER_ICONS, {
 	[-1001070] = _.asset("interface_upgrade"),
 	[-1001074] = 538040,
 	[-1001075] = 135241,
+	[-1001078] = _.asset("expansion_mop"),
 });
 localize(L.HEADER_EVENTS, {
 	[-1000200] = 201,
@@ -1021,7 +1023,7 @@ localize(L.HEADER_EVENTS, {
 });
 -- Programmatic Event Scheduling
 _.Modules.Events.SetEventInformation(446916, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=18,["weekday"]=3,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=26,["weekday"]=4,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(1262, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=6,["weekday"]=1,["year"]=2022},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=27,["weekday"]=1,["year"]=2022})
@@ -2933,6 +2935,9 @@ local ObjectNames = {
 	[182541] = "Olemba Cone",
 	[182542] = "Sealed Box",
 	[182549] = "Fel Orc Plans",
+	[182563] = "Northern Altar",
+	[182565] = "Eastern Altar",
+	[182566] = "Western Altar",
 	[182581] = "Draenei Vessel",
 	[182584] = "Restless Bones",
 	[182587] = "Wanted Poster",
@@ -2948,6 +2953,7 @@ local ObjectNames = {
 	[182935] = "Rune of Spite",
 	[182940] = "Soul Device",
 	[182947] = "The Codex of Blood",
+	[182951] = "Pure Water",
 	[182952] = "Steam Pump Flotsam",
 	[182953] = "Sporefish School",
 	[182954] = "Brackish Mixed School",
@@ -5481,6 +5487,9 @@ local ObjectModels = {
 	[182541] = 193663,
 	[182542] = 192387,
 	[182549] = 198457,
+	[182563] = 192414,
+	[182565] = 192414,
+	[182566] = 192414,
 	[182581] = 192458,
 	[182584] = 190437,
 	[182587] = 199473,
@@ -5496,6 +5505,7 @@ local ObjectModels = {
 	[182935] = 203022,
 	[182940] = 192701,
 	[182947] = 200909,
+	[182951] = 219409,
 	[182952] = 219411,
 	[182953] = 219405,
 	[182954] = 219405,
@@ -6596,7 +6606,7 @@ local phases = {
 	},
 	[3] = {
 		name = "Real Money",
-		description = "|cFFAAFFAAThis Thing is locked behind a paywall which requires Blizzard Balance or Real Money.|r",
+		description = "|cFFAAFFAAThis Thing is locked behind a paywall which requires Battle.net Balance or Real Money.|r",
 		lore = "|cFFFFAAAAThe act of encouraging the use of real money in any version of the game is widely frowned upon. Participate in this content at your own risk.|r",
 		state = 3,
 	},
@@ -7794,6 +7804,9 @@ localize(ObjectNames, {
 	[182541] = "Olembazapfen",
 	[182542] = "Versiegelter Kasten",
 	[182549] = "Höllenorcpläne",
+	[182563] = "Nördlicher Altar",
+	[182565] = "Östlicher Altar",
+	[182566] = "Westlicher Altar",
 	[182581] = "Draeneigefäß",
 	[182584] = "Ruhelose Knochen",
 	[182587] = "Steckbrief",
@@ -7809,6 +7822,7 @@ localize(ObjectNames, {
 	[182935] = "Rune der Bosheit",
 	[182940] = "Seeleninstrument",
 	[182947] = "Kodex des Blutes",
+	[182951] = "Reines Wasser",
 	[182952] = "Treibgut der Dampfpumpe",
 	[182953] = "Ein Schwarm Sporenfische",
 	[182954] = "Ein Brackwasserschwarm",
@@ -8848,6 +8862,10 @@ for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Freudenf
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Eimer mit Süßigkeiten"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Freudenfeuer der Horde"; end
 for key,value in pairs({
+	[3] = "Battle.net-Guthaben",
+})
+do phases[key].name = value; end
+for key,value in pairs({
 	[11] = "|cFFAAFFAADies war erst Phase 1 von WoW Classic verfügbar.|r",
 	[12] = "|cFFAAFFAADies war erst Phase 2 von WoW Classic verfügbar.|r",
 	[13] = "|cFFAAFFAADies war erst Phase 3 von WoW Classic verfügbar.|r",
@@ -9753,6 +9771,9 @@ localize(ObjectNames, {
 	[182541] = "Cône d'olemba",
 	[182542] = "Boîte scellée",
 	[182549] = "Plans des Gangr'orcs",
+	[182563] = "Autel du nord",
+	[182565] = "Autel de l'est",
+	[182566] = "Autel de l'ouest",
 	[182581] = "Calice draeneï",
 	[182584] = "Ossements sans repos",
 	[182587] = "Avis de recherche",
@@ -9768,6 +9789,7 @@ localize(ObjectNames, {
 	[182935] = "Rune de mépris",
 	[182940] = "Machine à âmes",
 	[182947] = "Le Codex de sang",
+	[182951] = "Eau pure",
 	[182952] = "Détritus de la pompe à vapeur",
 	[182953] = "Banc de poissons-spores",
 	[182954] = "Banc mixte en eaux saumâtres",
@@ -10811,6 +10833,10 @@ for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Feu de j
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Seau de bonbons"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Feu de joie de la Horde"; end
 for key,value in pairs({
+	[3] = "Porte-monnaie Battle.net",
+})
+do phases[key].name = value; end
+for key,value in pairs({
 	[11] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 1 du WoW Classic.|r",
 	[12] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 2 du WoW Classic.|r",
 	[13] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 3 du WoW Classic.|r",
@@ -11342,6 +11368,9 @@ localize(ObjectNames, {
 	[182541] = "Pigna di Olemba",
 	[182542] = "Scatola Sigillata",
 	[182549] = "Piani dei Vilorchi",
+	[182563] = "Altare settentrionale",
+	[182565] = "Altare orientale",
+	[182566] = "Altare occidentale",
 	[182581] = "Vascello Draenei",
 	[182584] = "Ossa Irrequiete",
 	[182587] = "Manifesto dei Ricercati",
@@ -11357,6 +11386,7 @@ localize(ObjectNames, {
 	[182935] = "Runa della Perfidia",
 	[182940] = "Dispositivo Animistico",
 	[182947] = "Il Codice del Sangue",
+	[182951] = "Acqua Pura",
 	[182952] = "Rottami di Pompa del Vapore",
 	[182953] = "Banco di Pescispora",
 	[182954] = "Banco di Pesci d'Acqua Salmastra",
@@ -12387,6 +12417,10 @@ for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Falò de
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Secchio delle Caramelle"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Orda"; end
 for key,value in pairs({
+	[3] = "Saldo Battle.net",
+})
+do phases[key].name = value; end
+for key,value in pairs({
 	[11] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 1 di WoW Classic.|r",
 	[12] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 2 di WoW Classic.|r",
 	[13] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 3 di WoW Classic.|r",
@@ -13190,6 +13224,9 @@ localize(ObjectNames, {
 	[182541] = "Cone de Olemba",
 	[182542] = "Caixa Lacrada",
 	[182549] = "Planos dos Orcs Vis",
+	[182563] = "Altar do Norte",
+	[182565] = "Altar do Leste",
+	[182566] = "Altar do Oeste",
 	[182581] = "Recipiente Draeneico",
 	[182584] = "Ossos Inquietos",
 	[182587] = "Cartaz de Procura-se",
@@ -13205,6 +13242,7 @@ localize(ObjectNames, {
 	[182935] = "Runa do Rancor",
 	[182940] = "Dispositivo da Alma",
 	[182947] = "O Códice de Sangue",
+	[182951] = "Água Pura",
 	[182952] = "Destroços da Bomba de Vapor",
 	[182953] = "Cardume de Esporosos",
 	[182954] = "Cardume Misto Salobre",
@@ -14240,6 +14278,10 @@ for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Fogueira
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Balde de Balas"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Fogueira da Horda"; end
 for key,value in pairs({
+	[3] = "Saldo Battle.net",
+})
+do phases[key].name = value; end
+for key,value in pairs({
 	[11] = "|cFFAAFFAAIsto não estava disponível até Phase 1 de WoW Classic.|r",
 	[12] = "|cFFAAFFAAIsto não estava disponível até Phase 2 de WoW Classic.|r",
 	[13] = "|cFFAAFFAAIsto não estava disponível até Phase 3 de WoW Classic.|r",
@@ -15160,6 +15202,9 @@ localize(ObjectNames, {
 	[182541] = "Шишка олембы",
 	[182542] = "Запечатанный ларец",
 	[182549] = "Планы орков Скверны",
+	[182563] = "Северный алтарь",
+	[182565] = "Восточный алтарь",
+	[182566] = "Западный Алтарь",
 	[182581] = "Дренейский сосуд",
 	[182584] = "Неупокоенные кости",
 	[182587] = "Плакат \"Разыскивается\"",
@@ -15175,6 +15220,7 @@ localize(ObjectNames, {
 	[182935] = "Руна злобы",
 	[182940] = "Инструмент души",
 	[182947] = "Кодекс Крови",
+	[182951] = "Чистая вода",
 	[182952] = "Обломки парового насоса",
 	[182953] = "Косяк спороуса",
 	[182954] = "Косяк морской рыбы",
@@ -16228,7 +16274,7 @@ for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Больш�
 for key,value in pairs({
 	[1] = "Никогда Не Доступны [NYI]",
 	[2] = "Убраны Из Игры",
-	[3] = "Кошелек Blizzard",
+	[3] = "Кошелек Battle.net",
 	[4] = "ПвП Элита / Гладиатор",
 	[5] = "Неизучаемые",
 	[6] = "Требуются предметы для призыва",
@@ -17276,6 +17322,9 @@ localize(ObjectNames, {
 	[182541] = "올렘바 열매",
 	[182542] = "봉인된 상자",
 	[182549] = "타락한 오크의 계획서",
+	[182563] = "북부 제단",
+	[182565] = "동부 제단",
+	[182566] = "서부 제단",
 	[182581] = "드레나이 용기",
 	[182584] = "안식을 찾지 못한 유골",
 	[182587] = "현상 수배 전단",
@@ -17291,6 +17340,7 @@ localize(ObjectNames, {
 	[182935] = "악의의 룬",
 	[182940] = "영혼의 장치",
 	[182947] = "피의 고서",
+	[182951] = "깨끗한 물",
 	[182952] = "증기 양수기 표류물",
 	[182953] = "포자물고기 떼",
 	[182954] = "강어귀 물고기 떼",
@@ -18301,6 +18351,10 @@ for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "얼라�
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "사탕 바구니"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "호드 화톳불"; end
 for key,value in pairs({
+	[3] = "배틀코인",
+})
+do phases[key].name = value; end
+for key,value in pairs({
 	[11] = "|cFFAAFFAAPhase 1(WoW Classic)까지 사용할 수 없습니다.|r",
 	[12] = "|cFFAAFFAAPhase 2(WoW Classic)까지 사용할 수 없습니다.|r",
 	[13] = "|cFFAAFFAAPhase 3(WoW Classic)까지 사용할 수 없습니다.|r",
@@ -19167,6 +19221,9 @@ localize(ObjectNames, {
 	[182541] = "Cono de olemba",
 	[182542] = "Caja sellada",
 	[182549] = "Planos de orcos viles",
+	[182563] = "Altar del Norte",
+	[182565] = "Altar Oriental",
+	[182566] = "Altar oeste",
 	[182581] = "Vasija draenei",
 	[182584] = "Huesos sin sosiego",
 	[182587] = "Cartel de Se busca",
@@ -19182,6 +19239,7 @@ localize(ObjectNames, {
 	[182935] = "Runa de maldad",
 	[182940] = "Dispositivo de alma",
 	[182947] = "El Códice de Sangre",
+	[182951] = "Agua pura",
 	[182952] = "Restos flotantes de bomba de vapor",
 	[182953] = "Banco de pecesporas",
 	[182954] = "Banco mixto salobre",
@@ -20220,6 +20278,10 @@ for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Fogata d
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Cubo de caramelos"; end
 for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "Fogata de la Horda"; end
 for key,value in pairs({
+	[3] = "Saldo de Battle.net",
+})
+do phases[key].name = value; end
+for key,value in pairs({
 	[11] = "|cFFAAFFAAEsto no estuvo disponible hasta Phase 1 de WoW Classic.|r",
 	[12] = "|cFFAAFFAAEsto no estuvo disponible hasta Phase 2 de WoW Classic.|r",
 	[13] = "|cFFAAFFAAEsto no estuvo disponible hasta Phase 3 de WoW Classic.|r",
@@ -20272,8 +20334,8 @@ localize(L.HEADER_NAMES, {
 	[-1000133] = select(2,GetAchievementInfo(3436)).."：第6赛季",
 	[-1000134] = select(2,GetAchievementInfo(3758)).."：第7赛季",
 	[-1000135] = select(2,GetAchievementInfo(4599)).."：第8赛季",
-	[-1000140] = "精锐套装",
-	[-1000141] = "角斗士套装",
+	[-1000140] = "精锐装备",
+	[-1000141] = "角斗士装备",
 	[-1000142] = "荣誉头衔",
 	[-1000162] = "共享外观",
 	[-1000163] = "独特外观",
@@ -21044,6 +21106,9 @@ localize(ObjectNames, {
 	[182541] = "奥雷巴果",
 	[182542] = "密封的盒子",
 	[182549] = "邪兽人的计划",
+	[182563] = "北方祭坛",
+	[182565] = "东部祭坛",
+	[182566] = "西部祭坛",
 	[182581] = "德莱尼容器",
 	[182584] = "无眠之骨",
 	[182587] = "通缉布告",
@@ -21059,6 +21124,7 @@ localize(ObjectNames, {
 	[182935] = "铸魔营地：传送门雕文",
 	[182940] = "灵魂装置",
 	[182947] = "鲜血法典",
+	[182951] = "纯净的水",
 	[182952] = "蒸汽泵废料",
 	[182953] = "孢子鱼群",
 	[182954] = "魔尾鱼群",
@@ -21949,6 +22015,7 @@ for i,objectID in ipairs(HORDE_BONFIRES) do ObjectNames[objectID] = "部落篝�
 for key,value in pairs({
 	[1] = "从未实施 [NYI]",
 	[2] = "从游戏中移除",
+	[3] = "战网点数",
 	[4] = "PvP 精良/角斗士",
 	[5] = "不可学",
 	[6] = "需要召唤物品",
@@ -22015,6 +22082,17 @@ localize(L.HEADER_NAMES, {
 	[-1000057] = "第二個箱子",
 	[-1000058] = "第三個箱子",
 	[-1000059] = "最後的箱子",
+	[-1000127] = select(2,GetAchievementInfo(2091)).."：第1賽季",
+	[-1000128] = select(2,GetAchievementInfo(418)).."：第2賽季",
+	[-1000129] = select(2,GetAchievementInfo(419)).."：第3賽季",
+	[-1000130] = select(2,GetAchievementInfo(420)).."：第4賽季",
+	[-1000131] = select(2,GetAchievementInfo(3336)).."：第5賽季",
+	[-1000132] = "憎恨鬥士",
+	[-1000133] = select(2,GetAchievementInfo(3436)).."：第6賽季",
+	[-1000134] = select(2,GetAchievementInfo(3758)).."：第7賽季",
+	[-1000135] = select(2,GetAchievementInfo(4599)).."：第8賽季",
+	[-1000140] = "精英裝備",
+	[-1000141] = "鬥士裝備",
 	[-1000142] = "榮譽頭銜",
 	[-1000162] = "共享外觀",
 	[-1000163] = "獨特外觀",
@@ -22041,6 +22119,9 @@ localize(L.HEADER_NAMES, {
 	[-1000249] = "浩劫與重生：經典版 - 熾炎升級",
 	[-1000256] = "星海爭霸II：自由之翼",
 	[-1000284] = "《魔獸世界》週年紀念",
+	[-1000860] = select(2,GetAchievementInfo(6002)).."：第9賽季",
+	[-1000861] = select(2,GetAchievementInfo(6124)).."：第10賽季",
+	[-1000862] = "絕命鬥士：第11賽季",
 	[-1000870] = "食人妖入侵",
 	[-1001034] = "元素桎梏",
 	[-1001035] = "季節性魚類：夏日鱸魚",
@@ -22049,6 +22130,8 @@ localize(L.HEADER_NAMES, {
 	[-1001052] = "貝塔防禦系統",
 	[-1001053] = "伽瑪防禦系統",
 	[-1001054] = "煉獄防禦系統",
+	[-1001074] = "暮光防禦系統",
+	[-1001078] = "潘達利亞之謎：經典版 - 煞之灌注英雄版組合包",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
@@ -22130,8 +22213,8 @@ for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; 
 for key,value in pairs({
 	[1] = "從未實裝 [NYI]",
 	[2] = "已從遊戲中移除",
-	[3] = "暴雪點數",
-	[4] = "PvP 精良/角鬥士",
+	[3] = "Battle.net 點數",
+	[4] = "PvP 精良/鬥士",
 	[5] = "不可學",
 	[6] = "需要召喚物品",
 	[1604] = "大師賽季",
