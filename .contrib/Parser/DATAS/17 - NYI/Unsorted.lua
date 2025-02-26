@@ -946,10 +946,6 @@ root(ROOTS.Unsorted, {
 			i(237129),	-- Tarnished Undermine Real
 			i(237130),	-- Undermine Undershirt
 			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
-			i(237132),	-- Bilgewater Trove
-			i(237133),	-- Venture Co. Trove
-			i(237134),	-- Steamwheedle Trove
-			i(237135),	-- Blackwater Trove
 			i(237240),	-- Banded Sepia War Legwraps
 			i(237241),	-- Banded Sunny War Legwraps
 			i(237242),	-- Banded Snowy War Legwraps

@@ -697,6 +697,7 @@ MobileDB.GameObject = {
 	[478679] = true,	-- Salvage Part
 	[487825] = true,	-- Ruffled Pages (q:85589)
 	[494499] = true,	-- Seafarer's Cache
+	[495091] = true,	-- Improvised Explosive
 	[499620] = true,	-- Runed Storm Cache @ 68.4, 73.8, 2369 (q:84726)
 	[499863] = true,	-- Runed Storm Cache @ 39.4, 20.1, 2369 (q:84726)
 	[499928] = true,	-- Darkfuse Research Notes

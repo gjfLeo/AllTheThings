@@ -625,7 +625,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					o(454411, {	-- Taunting Note
 						["coord"] = { 31.5, 30.7, UNDERMINE },
-						["G"] = { i(230203) },	-- Taunting Note (QI!)
+						["g"] = { i(230203) },	-- Taunting Note (QI!)
 					}),
 				},
 			}),
@@ -654,7 +654,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			--- The GOLEM of Progress
 			q(84672, {	-- Garbage Day
-				--["sourceQuests"] = { xx },	-- TODO: ??
+				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "n", 230555 },	-- Pitz Lowe
 				["coord"] = { 27.6, 62.1, UNDERMINE },
 				["g"] = {
@@ -664,7 +664,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(84667, {	-- The G.O.L.E.M. of Progress
-				--["sourceQuests"] = { xx },	-- TODO: ??
+				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "n", 230554 },	-- Old Man Lowe
 				["coord"] = { 27.4, 62.4, UNDERMINE },
 			}),
@@ -796,7 +796,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End of The Highst
 			--- Hazard of Slimediving
 			q(83088, {	-- Caustic Collectables
-				--["sourceQuests"] = { xx },	-- TODO: ??
+				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "n", 225481 },	-- Slimediver Kazzandra
 				["coord"] = { 40.6, 87.0, UNDERMINE },
 				["g"] = {
@@ -825,7 +825,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End of Hazard of Slimediving
 			--- Kaja'Curiosity
 			q(84298, {	-- HELP WANTED: Kaja'Curiosity
-				--["sourceQuests"] = { xx },	-- TODO: probably also somewhere mid story after Kaja'coast quest
+				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "o", 456747 },	-- Gig Sheets
 				["coord"] = { 42.7, 52.8, UNDERMINE },
 			}),
@@ -932,7 +932,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End of The Perfect Wedding
 			--- G.E.T.A
 			q(84885, {	-- Working for G.E.T.A.
-				--["sourceQuests"] = { xx },	-- TODO: ??
+				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "o", 456747 },	-- Gig Sheets (TODO: possibly more sourced since saw in different places)
 				["coord"] = { 42.7, 52.8, UNDERMINE },	-- TODO: ^
 			}),
@@ -968,7 +968,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- End of G.E.T.A.
 			--- Oh, Rats! (missing highlight on map for it)
 			q(83484, {	-- Oh, Rats!
-				--["sourceQuests"] = { xx },	-- TODO: ??
+				["sourceQuests"] = { 83130 },	-- Sour Victory
 				["provider"] = { "n", 226728 },	-- Humphrey Shortswig
 				["coord"] = { 38.1, 88.4, UNDERMINE },
 				["g"] = {

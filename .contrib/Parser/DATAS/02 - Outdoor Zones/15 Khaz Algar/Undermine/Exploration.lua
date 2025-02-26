@@ -30,6 +30,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			visit_exploration(15665,{coord={61.0,54.3,UNDERMINE}}),	-- The Gallagio
 			visit_exploration(15351,{coord={60.8,53.5,UNDERMINE}}),	-- The Heaps
 			visit_exploration(15647,{coord={43.5,85.1,UNDERMINE}}),	-- The Heaps
+			visit_exploration(15661,{coord={58.5,59.4,UNDERMINE}}),	-- The Hoardroom (Undermine)
 			visit_exploration(15388,{coord={44.0,49.5,UNDERMINE}}),	-- The Incontinental Hotel
 			visit_exploration(15646,{coord={42.0,49.2,UNDERMINE}}),	-- The Incontinental Hotel
 			visit_exploration(15457,{coord={39.7,25.9,UNDERMINE}}),	-- The Scrapshop
