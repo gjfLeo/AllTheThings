@@ -19,8 +19,8 @@ do
 	local CLASSNAME = "BattlePet"
 	if C_PetBattles then
 
-		local C_PetBattles_GetAbilityInfoByID,C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID
-			= C_PetBattles.GetAbilityInfoByID,C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID
+		local C_PetBattles_GetAbilityInfoByID,C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID,C_PetJournal_GetPetInfoByIndex,C_PetJournal_GetNumPets
+			= C_PetBattles.GetAbilityInfoByID,C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID,C_PetJournal.GetPetInfoByIndex,C_PetJournal.GetNumPets
 
 		local cache = app.CreateCache(KEY);
 		local function CacheInfo(t, field)
@@ -104,6 +104,7 @@ do
 				-- PetID are strings
 				local speciesID = C_PetJournal_GetPetInfoByPetID(key);
 				if speciesID then
+					-- app.PrintDebug("PET->SPECIES",key,speciesID)
 					t[key] = speciesID;
 				end
 				return speciesID;
@@ -177,19 +178,46 @@ do
 			wipe(CollectedSpeciesHelper)
 			local acct, char, none = {}, {}, {}
 			local num
-			for speciesID,_ in pairs(app.GetRawFieldContainer("speciesID")) do
-				-- app.PrintDebug("RCBP.RW.ID",speciesID,CollectedSpeciesHelper[speciesID])
-				num = CollectedSpeciesHelper[speciesID]
-				if num > 0 then
-					if PerCharacterSpecies[speciesID] then
-						char[speciesID] = true
+			local totalPets, ownedPets = C_PetJournal_GetNumPets()
+			ownedPets = math.max(totalPets or 0, ownedPets or 0)
+
+			if ownedPets > 5 then
+				-- ideally this is the case: we can scan user's actually-collected pets, track the petID's,
+				-- and everything is great
+				local petID, speciesID
+				for i=1,ownedPets do
+					petID, speciesID = C_PetJournal_GetPetInfoByIndex(i)
+					-- app.PrintDebug("RCBP",i,petID,speciesID)
+					-- apparently some users can have a nil speciesID here...
+					if speciesID then
+						if petID then
+							PetIDSpeciesIDHelper[petID] = speciesID
+						end
+						if PerCharacterSpecies[speciesID] then
+							char[speciesID] = CollectedSpeciesHelper[speciesID]
+						end
+						acct[speciesID] = CollectedSpeciesHelper[speciesID]
 					end
-					acct[speciesID] = true
-				else
-					none[speciesID] = true
+				end
+				-- when the actual set of learned pets has been scanned, we can wipe the BattlePet caches to ensure data is accurate
+				app.WipeCached(CACHE)
+				app.WipeCached(CACHE, true)
+			else
+				-- otherwise we will have to use the ATT speciesID cache to scan collected, and this will mean that
+				-- caged pets will fail to be detected as removed immediately and require a refresh to detect
+				for speciesID,_ in pairs(app.GetRawFieldContainer("speciesID")) do
+					-- app.PrintDebug("RCBP",speciesID,CollectedSpeciesHelper[speciesID])
+					num = CollectedSpeciesHelper[speciesID]
+					if num > 0 then
+						if PerCharacterSpecies[speciesID] then
+							char[speciesID] = true
+						end
+						acct[speciesID] = true
+					else
+						none[speciesID] = true
+					end
 				end
 			end
-
 			-- Remove unknown
 			app.SetBatchCached(CACHE, none)
 			app.SetBatchAccountCached(CACHE, none)
@@ -205,7 +233,7 @@ do
 		end)
 		-- at some point speciesID began to be included in the Event payload, huzzah!
 		app.AddEventRegistration("NEW_PET_ADDED", function(petID, speciesID)
-			local speciesID = speciesID or C_PetJournal_GetPetInfoByPetID(petID)
+			local speciesID = speciesID or PetIDSpeciesIDHelper[petID]
 			PetIDSpeciesIDHelper[petID] = speciesID
 			-- app.PrintDebug("NEW_PET_ADDED", petID, speciesID)
 
