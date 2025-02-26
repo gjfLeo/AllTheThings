@@ -753,11 +753,12 @@ ach = function(id, altID, t)							-- Create an ACHIEVEMENT Object
 				t.OnUpdate = AllSourceQuestsRequiredForAchievement and [[_.CommonAchievementHandlers.ALL_SOURCE_QUESTS]] or [[_.CommonAchievementHandlers.ANY_SOURCE_QUEST]];
 			end
 		end
+		-- #else
+			-- Apply a default timeline of 3.0.2 to Achievements
+			if not t.timeline then
+				t._defaulttimeline = { ADDED_3_0_2 }
+			end
 		-- #endif
-		-- Apply a default timeline of 3.0.2 to Achievements
-		if not t.timeline then
-			t._defaulttimeline = { ADDED_3_0_2 }
-		end
 	end
 	return t;
 end
