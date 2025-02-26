@@ -2487,15 +2487,16 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(TREASURES, {
 				o(503157, {	-- Sturdy Chest
-					--["coord"] = { ?, ?, 2421 },	-- coord:?? in report
+					["coord"] = { 61.6, 65.7, 2420 },
 					["questID"] = 86787,
 				}),
 				o(507226, {	-- Sturdy Chest
-					--["coord"] = { ?, ?, 2421 },
+					["description"] = "Walk along the metal beam to access.",
+					["coord"] = { 77.6, 39.5, 2422 },
 					["questID"] = 86789,
 				}),
 				o(507227, {	-- Sturdy Chest
-					--["coord"] = { ?, ?, 2421 },
+					["coord"] = { 33.4, 73.3, 2420 },
 					["questID"] = 86790,
 				}),
 				o(507221, {	-- Sturdy Chest
