@@ -44,12 +44,16 @@ namespace ATT
         /// Represents how long to wait between API calls on average over an hour (since it will take more than an hour to retrieve all item IDs)
         /// 3,600,000ms / hour / 36,000 API / hour ==> 100ms / API
         /// </summary>
-        static int API_ThrottleHour { get; } = 100;
+        static int API_ThrottleHour { get; } = 125;
         /// <summary>
         /// Represents how long to wait between API calls minimum
         /// </summary>
         static int API_ThrottleSecond { get; } = 10;
         static int API_ExpectedThrottle { get; set; } = API_ThrottleSecond;
+        /// <summary>
+        /// Represents whether the total amount of data for either Items/Quests would not exceed the Hourly threshold and allow faster requests
+        /// </summary>
+        static bool UseFastThrottle { get; set; }
         static string RawDirectoryFormat { get; set; }
         static string RawAPICallFormat { get; set; }
         static int MinItemID { get; set; } = 1;
@@ -278,8 +282,7 @@ namespace ATT
                 MaxItemID = itemIDs[1];
             }
             else File.WriteAllText(ItemIDsFileName, $"{MinItemID},{MaxItemID}");
-            if (MaxItemID - existingRaw > 36000)
-                API_ExpectedThrottle = API_ThrottleHour;
+            UseFastThrottle = MaxItemID - MinItemID < 36000;
             RawDirectoryFormat = rawDataDirectory.FullName + "/{0}.raw";
         }
 
@@ -298,7 +301,7 @@ namespace ATT
                 MaxQuestID = questIDs[1];
             }
             else File.WriteAllText(QuestIDsFileName, $"{MinItemID},{MaxItemID}");
-            API_ExpectedThrottle = API_ThrottleHour;
+            UseFastThrottle = MaxQuestID - MinQuestID < 36000;
             RawDirectoryFormat = rawDataDirectory.FullName + "/{0}.raw";
         }
 
@@ -395,7 +398,7 @@ namespace ATT
                     // when sending a new request, slightly reduce the throttle
                     lock (ThrottleLock)
                     {
-                        API_ExpectedThrottle = Math.Max(100, API_ExpectedThrottle - 2);
+                        API_ExpectedThrottle = Math.Max(UseFastThrottle ? API_ThrottleSecond : API_ThrottleHour, API_ExpectedThrottle - 2);
                     }
                 }
                 else
