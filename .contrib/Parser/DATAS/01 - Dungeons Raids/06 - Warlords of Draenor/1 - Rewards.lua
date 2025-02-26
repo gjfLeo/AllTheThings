@@ -18,5 +18,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				{ 64.6, 62.0, 624 },	-- Horde, Warspear
 			},
 		}),
+		i(122618, {	-- Misprinted Draenic Coin
+			["description"] = "From the first Heroic Dungeon completed per day while on certain quests",
+			["timeline"] = { ADDED_6_1_0, REMOVED_9_0_1 },
+		}),
 	}),
 })));
