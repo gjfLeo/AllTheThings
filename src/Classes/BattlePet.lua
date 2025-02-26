@@ -3,8 +3,8 @@
 local _, app = ...
 
 -- Globals
-local wipe, setmetatable, rawget, select
-	= wipe, setmetatable, rawget, select
+local wipe, setmetatable, rawget, select,pairs
+	= wipe, setmetatable, rawget, select,pairs
 
 -- WoW API Cache
 local GetItemInfo = app.WOWAPI.GetItemInfo;
@@ -19,8 +19,8 @@ do
 	local CLASSNAME = "BattlePet"
 	if C_PetBattles then
 
-		local C_PetBattles_GetAbilityInfoByID,C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID,C_PetJournal_GetPetInfoByIndex,C_PetJournal_GetNumPets
-			= C_PetBattles.GetAbilityInfoByID,C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID,C_PetJournal.GetPetInfoByIndex,C_PetJournal.GetNumPets
+		local C_PetBattles_GetAbilityInfoByID,C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID
+			= C_PetBattles.GetAbilityInfoByID,C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID
 
 		local cache = app.CreateCache(KEY);
 		local function CacheInfo(t, field)
@@ -173,41 +173,26 @@ do
 			-- ...etc
 		}
 		local function RefreshBattlePets()
-			-- app.PrintDebug("RCBP",C_PetJournal_GetNumPets())
-			local totalPets, ownedPets = C_PetJournal_GetNumPets()
-			-- managed to replicate strange situation where Battle Pets is returned as having 1 Total Pet
-			-- and all API calls return nil when checking
-			if not totalPets or totalPets == 1 then
-				-- app.PrintDebug("RCBP.Callback")
-				-- try to load the Blizzard_Collections addon so that the Battle Pet APIs work properly
-				-- this doesn't seem to work to load the addon....
-				-- app.WOWAPI.LoadAddon("Blizzard_Collections")
-				-- app.CallbackHandlers.Callback(RefreshBattlePets)
-				return
-			end
-
+			-- app.PrintDebug("RCBP")
 			wipe(CollectedSpeciesHelper)
-			local acct, char = {}, {}
-			local petID, speciesID
-			ownedPets = ownedPets or totalPets
-			for i=1,ownedPets do
-				petID, speciesID = C_PetJournal_GetPetInfoByIndex(i)
-				-- app.PrintDebug("RCBP.ID",i,petID,speciesID)
-				-- apparently some users can have a nil speciesID here...
-				if speciesID then
-					if petID then
-						PetIDSpeciesIDHelper[petID] = speciesID
-					end
+			local acct, char, none = {}, {}, {}
+			local num
+			for speciesID,_ in pairs(app.GetRawFieldContainer("speciesID")) do
+				-- app.PrintDebug("RCBP.RW.ID",speciesID,CollectedSpeciesHelper[speciesID])
+				num = CollectedSpeciesHelper[speciesID]
+				if num > 0 then
 					if PerCharacterSpecies[speciesID] then
-						char[speciesID] = CollectedSpeciesHelper[speciesID]
+						char[speciesID] = true
 					end
-					acct[speciesID] = CollectedSpeciesHelper[speciesID]
+					acct[speciesID] = true
+				else
+					none[speciesID] = true
 				end
 			end
-			-- wipe the character/account cache in case bad data is cached somehow
-			-- or pets caged and removed while ATT is not loaded
-			app.WipeCached(CACHE)
-			app.WipeCached(CACHE, true)
+
+			-- Remove unknown
+			app.SetBatchCached(CACHE, none)
+			app.SetBatchAccountCached(CACHE, none)
 			-- Cache all ids which are known
 			app.SetBatchCached(CACHE, char, 1)
 			app.SetBatchAccountCached(CACHE, acct, 1)
