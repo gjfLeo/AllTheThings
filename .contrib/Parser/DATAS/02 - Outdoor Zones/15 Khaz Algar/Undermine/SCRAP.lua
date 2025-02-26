@@ -123,8 +123,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(RARES, {
 				n(234621, {	-- Gallagio Garbage <Luxury Trash>
-					["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar during a S.C.R.A.P. Job event in Undermine",
-				--	["coord"] = { x, y, UNDERMINE },	-- any scap spot?
+					["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar during a S.C.R.A.P. Job event in Undermine.",
 					["questID"] = 87007,
 					["g"] = {
 						ach(41594),	-- Can You Believe What People Throw Away?
@@ -141,7 +140,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				i(236178),	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
 				i(236191),	-- Mechanic's Best Motivator (COSMETIC!)
 				i(233246, {	-- Gunk-Covered Thingy
-					["description"] = "Requires to have the 'Scrappy S.C.R.A.P.per II' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",
+					["description"] = "Requires the 'Scrappy S.C.R.A.P.per III' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",
 				}),
 			}),
 			n(VENDORS, {

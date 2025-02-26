@@ -1523,7 +1523,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
 			["description"] = "Left behind by Zekvir when he invades a delve.",
-			--["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {
 				i(218126),	-- Befouler's Syringe
 				i(219381, {	-- Fate Weaver

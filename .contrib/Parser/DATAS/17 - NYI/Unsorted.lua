@@ -433,7 +433,6 @@ root(ROOTS.Unsorted, {
 				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
 				i(229949),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
 				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
-				i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!) [Raid]
 				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]

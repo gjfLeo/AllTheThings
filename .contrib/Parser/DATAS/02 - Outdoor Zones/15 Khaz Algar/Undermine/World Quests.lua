@@ -103,7 +103,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85500, {	-- Hazardous Waste
 					["coord"] = { 56.6, 30.4, UNDERMINE },
 					["g"] = {
-						o(232054, {	-- Depleted Hotrod Battery
+						o(479594, {	-- Depleted Hotrod Battery
 							i(232054),	-- Depleted Hotrod Battery (QI!)
 						}),
 						i(232053),	-- Electro-Gland (QI!)
