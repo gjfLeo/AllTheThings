@@ -32,6 +32,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			o(495592, {	-- Blackened Dice
+				["description"] = "Turn the nearby valve to spew the dice onto the walkway.",
 				["coord"] = { 39.0, 59.6, UNDERMINE },
 				["questID"] = 85814,
 				["g"] = {
@@ -164,10 +165,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 85860,
 				["g"] = {
 					q(85858, {
-						["name"] = "Take water can and run into tub",
+						["name"] = "Use nearby fire extinguisher on the Lonely Tub.",
 						["coord"] = { 58.8, 18.0, UNDERMINE },
 					}),
-					--
 					i(235279),	-- Scorched Shorts (COSMETIC!)
 				},
 			}),
@@ -176,6 +176,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 86572,
 			}),
 			o(476066, {	-- Abandoned Toolbox
+				["description"] = "On the roof.",
 				["coord"] = { 40.8, 21.3, UNDERMINE },
 				["questID"] = 85422,
 			}),

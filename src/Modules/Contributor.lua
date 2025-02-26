@@ -673,6 +673,7 @@ MobileDB.GameObject = {
 	[452972] = true,	-- Fallow Corn
 	[455759] = true,	-- Hulking Raptorial Claw
 	[456665] = true,	-- Ore Sample
+	[456781] = true,	-- Darkfuse Safe
 	[457143] = true,	-- Kaja'Cola Can
 	[457154] = true,	-- Kaja'Cola Can
 	[457181] = true,	-- Interesting Notes @ 39, 51.3, 2369 / 67.3, 61.1, 2369 (q:83932)
@@ -726,6 +727,7 @@ MobileDB.GameObject = {
 	[507869] = true,	-- Torn Journal Page @ 46.1, 47.1, 2369 (q:85571)
 	[507870] = true,	-- Weathered Journal Page @ 71, 59.2, 2369 (q:85571)
 	[508727] = true,	-- Partially-Drained Battery
+	[516163] = true,	-- Half-Empty Bag
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}

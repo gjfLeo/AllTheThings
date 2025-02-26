@@ -442,7 +442,6 @@ root(ROOTS.Unsorted, {
 				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]	-- itemID 229988
 
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
-				i(229947),	-- Violet Goblin Shredder
 				-- Probably not real
 				mount(466423),	-- Unstable Rocket
 				mount(466464),	-- Unstable Rocket

@@ -618,19 +618,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--- Chapter 6 ---
 			--- missing on ptr, seems like will be available only on live?
 			--- Side quests
-			--- Toasted and Torqued (missing criteria or quests in chain?)
-			q(85780, {	-- Right Where We Want Him
+			q(83442, {	-- Copyright Infringement
 				--["sourceQuests"] = { xx },	-- TODO: ??
 				["provider"] = { "n", 226569 },	-- Snap Vellumgrease
 				["coord"] = { 32.2, 31.0, UNDERMINE },
 				["g"] = {
 					o(454411, {	-- Taunting Note
-						i(230203),	-- Taunting Note (QI!)
+						["coord"] = { 31.5, 30.7, UNDERMINE },
+						["G"] = { i(230203) },	-- Taunting Note (QI!)
 					}),
 				},
 			}),
 			q(83445, {	-- Something Smells
-				["sourceQuests"] = { 85780 },	-- Right Where We Want Him
+				["sourceQuests"] = { 83442 },	-- Tossed and Torqued
 				["provider"] = { "n", 226569 },	-- Snap Vellumgrease
 				["coord"] = { 32.2, 31.0, UNDERMINE },
 			}),
@@ -643,9 +643,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(232758),	-- Gauntlets of Lost Inspiration
 					i(232739),	-- Sash of Lost Inspiration
 					i(232746),	-- Spaulders of Lost Inspiration
+					--TODO: Copyright Infringement Sojourner Criteria
 				},
 			}),
-			--- End of Toasted and Torqued
+			--- End of Copyright Infringement
+			q(85780, {	-- Right Where We Want Him TODO
+			--["sourceQuests"] = { xx },	-- TODO: ??
+			--["provider"] = { "n", 226569 },	-- Snap Vellumgrease
+			--["coord"] = { 32.2, 31.0, UNDERMINE },
+			}),
 			--- The GOLEM of Progress
 			q(84672, {	-- Garbage Day
 				--["sourceQuests"] = { xx },	-- TODO: ??
