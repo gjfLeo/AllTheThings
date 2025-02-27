@@ -429,6 +429,7 @@ local L = setmetatable({
 		["Shadowlands"] = "SL",
 		["Dragonflight"] = "DF",
 		["The War Within"] = "TWW",
+		["Enterprising Hero: TWW STwo"] = "Enterprising Hero: TWW S2",
 		-- Dungeon & Raid
 		["Normal"] = "N",
 		["Heroic"] = "H",
