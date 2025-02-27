@@ -4,6 +4,7 @@
 local CHETT = createHeader({
 	readable = "C.H.E.T.T.",
 	constant = "CHETT",
+	icon = 134391,
 	text = {
 		en = "C.H.E.T.T.",
 	},

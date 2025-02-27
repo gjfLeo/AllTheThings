@@ -4,6 +4,7 @@
 local SCRAP = createHeader({
 	readable = "S.C.R.A.P.",
 	constant = "SCRAP",
+	icon = 5768266,
 	text = {
 		en = "S.C.R.A.P.",
 	},

@@ -618,6 +618,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 				}),
 				header(HEADERS.AchCriteria, 40900.06, {	-- Chapter 6: Homecoming TODO
+					q(87297),	-- ???
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.01, {	-- The Highst
@@ -958,6 +959,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.09, {	-- Hard Ways at the Gallagio TODO
+				q(83566),	-- ???
 			}),
 			header(HEADERS.AchCriteria, 40894.10, {	-- Property Devalued
 				q(84376, {	-- Property Devalued
@@ -1407,8 +1409,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
 			-- Alex TODO: all 3 NYI in-game, not returning name for quests
-			q(87297),	-- ???
-			q(83566),	-- ???
 			q(83447),	-- ???
 		}),
 	}),
