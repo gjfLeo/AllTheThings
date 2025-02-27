@@ -626,7 +626,11 @@ local function RowOnClick(self, button)
 				-- Attempt to search manually with the link.
 				local link = reference.link or reference.silentLink;
 				if link and HandleModifiedItemClick(link) then
-					AuctionFrameBrowse_Search();
+					if AuctionHouseFrame.SearchBar then
+						AuctionHouseFrame.SearchBar:StartSearch();
+					else
+						AuctionFrameBrowse_Search();
+					end
 				end
 				return true;
 			else
@@ -730,11 +734,15 @@ local function RowOnEnter(self)
 	local tooltipInfo = {};
 	tooltip:ClearLines();
 	app.ActiveRowReference = reference;
-	if self:GetCenter() > (UIParent:GetWidth() / 2) and (not AuctionFrame or not AuctionFrame:IsVisible()) then
-		tooltip:SetOwner(self, "ANCHOR_LEFT");
-	else
-		tooltip:SetOwner(self, "ANCHOR_RIGHT");
+	local anchor = self:GetParent():GetParent().TooltipAnchor;
+	if not anchor then
+		if self:GetCenter() > (UIParent:GetWidth() / 2) and (not AuctionFrame or not AuctionFrame:IsVisible()) then
+			anchor = "ANCHOR_LEFT";
+		else
+			anchor = "ANCHOR_RIGHT";
+		end
 	end
+	tooltip:SetOwner(self, anchor);
 
 	-- Attempt to show the object as a hyperlink in the tooltip
 	local linkSuccessful;
@@ -2000,6 +2008,9 @@ function app:CreateWindow(suffix, settings)
 			window.Commands = commands;
 			window.HideFromSettings = settings.HideFromSettings;
 			window.SettingsName = settings.SettingsName or window.Suffix;
+		end
+		if settings.TooltipAnchor then
+			window.TooltipAnchor = settings.TooltipAnchor;
 		end
 		window.IsDynamicCategory = settings.IsDynamicCategory;
 		window.IsTopLevel = settings.IsTopLevel;

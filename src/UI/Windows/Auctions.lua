@@ -107,6 +107,7 @@ end
 -- Implementation
 app:CreateWindow("Auctions", {
 	Commands = { "attauctions" },
+	TooltipAnchor = "ANCHOR_RIGHT",
 	IgnoreSettings = true,
 	IgnoreQuestUpdates = true,
 	OnInit = function(self, handlers)
