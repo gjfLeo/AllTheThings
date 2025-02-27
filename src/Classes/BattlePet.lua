@@ -88,6 +88,7 @@ do
 			__index = function(t, key)
 				if key and key > 0 then
 					local num = C_PetJournal_GetNumCollectedInfo(key)
+					-- app.PrintDebug("SPECIES->NUM",key,num)
 					if not num then
 						app.PrintDebug("SpeciesID " .. key .. " was not found.")
 						num = 0
@@ -174,35 +175,46 @@ do
 			-- ...etc
 		}
 		local function RefreshBattlePets()
-			-- app.PrintDebug("RCBP")
+			app.PrintDebug("RCBP",C_PetJournal_GetNumPets())
 			wipe(CollectedSpeciesHelper)
 			local acct, char, none = {}, {}, {}
+			local count = 0
 			local num
 			local totalPets, ownedPets = C_PetJournal_GetNumPets()
-			ownedPets = math.max(totalPets or 0, ownedPets or 0)
+			-- ownedPets may reflect accurately but the C_PetJournal_GetPetInfoByIndex data will be missing entirely regardless
+			ownedPets = (totalPets or 0) > 10 and ownedPets or 0
 
-			if ownedPets > 5 then
+			if ownedPets > 0 then
 				-- ideally this is the case: we can scan user's actually-collected pets, track the petID's,
 				-- and everything is great
+				app.PrintDebug("RCBP:Scan")
 				local petID, speciesID
 				for i=1,ownedPets do
 					petID, speciesID = C_PetJournal_GetPetInfoByIndex(i)
-					-- app.PrintDebug("RCBP",i,petID,speciesID)
+					-- app.PrintDebug("RCBP",i,petID,speciesID,speciesID and CollectedSpeciesHelper[speciesID])
 					-- apparently some users can have a nil speciesID here...
 					if speciesID then
-						if petID then
-							PetIDSpeciesIDHelper[petID] = speciesID
+						num = CollectedSpeciesHelper[speciesID]
+						if num > 0 then
+							if petID then
+								PetIDSpeciesIDHelper[petID] = speciesID
+							end
+							if PerCharacterSpecies[speciesID] then
+								char[speciesID] = true
+							end
+							acct[speciesID] = true
+							count = count + 1
 						end
-						if PerCharacterSpecies[speciesID] then
-							char[speciesID] = CollectedSpeciesHelper[speciesID]
-						end
-						acct[speciesID] = CollectedSpeciesHelper[speciesID]
 					end
 				end
-				-- when the actual set of learned pets has been scanned, we can wipe the BattlePet caches to ensure data is accurate
-				app.WipeCached(CACHE)
-				app.WipeCached(CACHE, true)
+				-- when the actual set of learned pets has ACTUALLY been scanned and determined
+				-- we can wipe the BattlePet caches to ensure data is accurate
+				if count > 0 then
+					app.WipeCached(CACHE)
+					app.WipeCached(CACHE, true)
+				end
 			else
+				app.PrintDebug("RCBP:Cache")
 				-- otherwise we will have to use the ATT speciesID cache to scan collected, and this will mean that
 				-- caged pets will fail to be detected as removed immediately and require a refresh to detect
 				for speciesID,_ in pairs(app.GetRawFieldContainer("speciesID")) do
