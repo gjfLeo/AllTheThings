@@ -1416,18 +1416,18 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		q(86461, {	-- Ancient Curiosity: Combat
 			["provider"] = { "i", 234330 },	-- Ancient Curio
 			["maps"] = ALL_REGULAR_DELVES,	-- s2 delves or all delves?
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		q(86462, {	-- Ancient Curiosity: Utility
 			["provider"] = { "i", 234329 },	-- Ancient Curio
 			["maps"] = ALL_REGULAR_DELVES,	-- s2 delves or all delves?
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		q(85242, {	-- Seasonal Refresher
 			--["sourceQuests"] = { xx },	-- ??
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.4, 44.4, DORNOGAL },
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			["g"] = {
 				i(233281, {	-- Delver's Cosmetic Surprise Bag
 					-- it seems like give you as reward any cosmetic from s1 delves that wasn't looted before
@@ -1440,7 +1440,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["sourceQuests"] = { 85242 },	-- Seasonal Refresher
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.4, 44.4, DORNOGAL },
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			["g"] = {
 				o(500694, {	-- Nerubian Lord
 					i(233025),	-- Giant Pile of Gold (QI!)
@@ -1455,7 +1455,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["sourceQuests"] = { 85243 },	-- I Want My Hat Back
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.4, 44.4, DORNOGAL },
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			["g"] = {
 				i(212170),	-- Brann's Spare Hat (COSMETIC!)
 				i(230727),	-- Explosive Victory (TOY!)
@@ -1616,7 +1616,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 				}),
-				n(DELVERS_GOBTROTTER_SCHEMATIC, sharedDataSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+				n(DELVERS_GOBTROTTER_SCHEMATIC, sharedDataSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 					i(230219, {	-- Delver's Gob-Trotter Schematic: Balloon (MM!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
@@ -1636,7 +1636,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				filter(TOYS, {
 					i(230850, {	-- Delve-O-Bot 7001 (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(223312, {	-- Trusty Hat (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
@@ -1645,7 +1645,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				filter(MISC, {
 					i(235608, {	-- Nightfall Sanctum Campsite
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 				}),
 				n(ARMOR, {
@@ -1814,7 +1814,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				n(DELVERS_DIRIGIBLE_SCHEMATIC, {
 					i(235685, {	-- Delver's Dirigible Schematic: Drill (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(224771, {	-- Delver's Dirigible Schematic: Empennage (MM!)
 						["cost"] = {{"c", UNDERCOIN, 1000}},
@@ -1824,25 +1824,25 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(235684, {	-- Delver's Dirigible Schematic: Glider (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(224769, {	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 						["cost"] = {{"c", UNDERCOIN, 3000}},
 					}),
 					i(235687, {	-- Delver's Dirigible Schematic: Spoiler (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(235683, {	-- Delver's Dirigible Schematic: Turbine (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(224768, {	-- Delver's Dirigible Schematic: Wing-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(235686, {	-- Delver's Dirigible Schematic: White Paint (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 				}),
 				filter(BATTLE_PETS, {
@@ -1853,29 +1853,29 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				filter(COSMETIC, {
 					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars TODO: questID - 86473
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					iensemble(234384, {	-- Ensemble: Chains Of The Stygian Sea
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					iensemble(234383, {	-- Ensemble: Myconic Shell
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					iensemble(234382, {	-- Ensemble: Unkindled Waxweave Panoply
 						["cost"] = {{"c", UNDERCOIN, 5000}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(235617, {	-- Lucky Goblin's Strapped Rockets (COSMETIC!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 				}),
 				filter(MISC, {
 					i(233792, {	-- Delver's Disguise
 						["cost"] = {{"c", UNDERCOIN, 500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(226258, {	-- Delver's Pouch of Reagents
 						["cost"] = {{"c", UNDERCOIN, 1500}},
@@ -1912,15 +1912,15 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(235531, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(233555, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(233186, {	-- Wave Scrambler 2000
 						["cost"] = {{"c", UNDERCOIN, 1500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 				}),
 				filter(TOYS, {
@@ -1935,11 +1935,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(230924, {	-- Spotlight Materializer 1000 (TOY!)
 						["cost"] = {{"c", UNDERCOIN, 500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(231064, {	-- Throwaway Gangster Disguise (TOY!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 				}),
 				n(ARMOR, {

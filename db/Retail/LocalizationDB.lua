@@ -7378,7 +7378,6 @@ local ObjectNames = {
 	[500688] = "Seafarer's Cache",
 	[500689] = "Seafarer's Cache",
 	[500690] = "Seafarer's Cache",
-	[500694] = "Nerubian Lord",
 	[500697] = "Well Loved Squeaky Toy",
 	[500750] = "Uncovered Strongbox",
 	[500755] = "Uncovered Strongbox",
