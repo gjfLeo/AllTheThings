@@ -693,8 +693,6 @@ root(ROOTS.Unsorted, {
 			i(237125),	-- Upcycled Cloak
 			i(237126),	-- Laundered Cape
 			i(237128),	-- Smartest in Town's Shirt
-			i(237129),	-- Tarnished Undermine Real
-			i(237130),	-- Undermine Undershirt
 			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
 			i(237240),	-- Banded Sepia War Legwraps
 			i(237241),	-- Banded Sunny War Legwraps
