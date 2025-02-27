@@ -2494,6 +2494,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					crit(70990),	-- Teleporter Tantrums
 				}),
 			}),
+			n(DELVE_COMPLETION, {
+				n(TREASURES, {
+					filter(COSMETIC, {
+						i(235617), 	-- Lucky Goblin's Strapped Rockets
+					}),
+				}),
+			}),
 			filter(MISC, {
 				i(234454),	-- Remote Teleporter (QI!)
 				i(234451),	-- Stolen Goods (QI!)

@@ -565,6 +565,7 @@ MobileDB.GameObject = {
 	[381207] = true,	-- Saxifrage
 	[381213] = true,	-- Windswept Hochenblume
 	[381214] = true,	-- Frigid Hochenblume
+	[381519] = true,	-- Infurious Serevite Deposit
 	[383732] = true,	-- Tuskarr Tacklebox
 	[386521] = true,	-- Toxin Antidote
 	[387725] = true,	-- Glowing Crystal (q:74518)
