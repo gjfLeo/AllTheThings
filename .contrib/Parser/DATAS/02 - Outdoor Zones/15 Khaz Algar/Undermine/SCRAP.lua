@@ -150,6 +150,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(233557, {	-- Sifted Pile of Scrap
 							["cost"] = {{ "c", 3218, 333 }},	-- Empty Kaja'Cola Can
 							["g"] = {
+								i(229949),	-- Personalized Goblin S.C.R.A.Per
 								i(232838),	-- Viridian Mechasaur (PET!)
 							},
 						}),
@@ -171,7 +172,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(233558, {	-- S.C.R.A.P. Scrubber Deluxe
 							["cost"] = {{ "i", 233246, 1 }},	-- Gunk-Covered Thingy
 							["g"] = {
-								i(229949),	-- Personalized Goblin S.C.R.A.Per
 								-- TODO: Items is guessed based on id range/names
 								-- TODO: remove from unsorted things that confirmed & uncomment stuff
 								--i(233260),	-- Laundered Vestment
