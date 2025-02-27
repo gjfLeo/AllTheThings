@@ -25,9 +25,9 @@ local L = setmetatable({
 		"or Sylvanas might get another lighter.",
 		"as Alexstrasza is worried about you.",
 		"and Invincible will drop |cffffaaaafor sure|r next time.",
-		"this was merely a setback.",
+	--	"this was merely a setback.",
 		", Yes Chef!",
-		"to help a turtle to make it to the water.",
+		"and Crieve will help a turtle to make it to the water.",
 		"CHAMPYUUN, DE AZURIITE.",
 	};
 	SOCIAL_PROGRESS = "Social Progress";

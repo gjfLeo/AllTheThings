@@ -53,7 +53,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 		})),
 		header(HEADERS.Achievement, SEASON_ENTERPRISING, bubbleDownSelf({
-			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 }
+			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0_SEASONSTART }
 		},{
 			ach(40949),		-- The War Within Keystone Explorer: Season Two
 			ach(40950, {	-- The War Within Keystone Conqueror: Season Two
@@ -67,7 +67,12 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				i(237141),	-- Enterprising Shreddertank
 			}),
 			ach(40954, {	-- Enterprising Hero: The War Within Season Two
-				title(593),	-- <Name> the Enterprising Hero
+				["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+				["groups"] = {
+					title(593, {	-- <Name> the Enterprising Hero
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+					}),
+				},
 			}),
 			ach(20583, {	-- Keystone Hero: Cinderbrew Meadery
 				spell(445440),	-- Path of the Flaming Brewery

@@ -1216,7 +1216,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(224181),	-- Companion Experience (Tier 1-2)
 			i(224411),	-- Companion Experience (Tier 3)
 			i(224412),	-- Companion Experience (every tier)
-			i(227784, {["timeline"]={ REMOVED_11_1_0 }}),	-- Delver's Bounty
+			i(227784, {["timeline"]={ REMOVED_11_1_0_SEASONSTART }}),	-- Delver's Bounty
 			i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (actual item, looted from Jettisoned Pile of Goblin-Bucks)
 			i(235628, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (probably exist only to display rewards)
 			i(222922),	-- Expeditionary Spoils (Tier 1)
@@ -2955,7 +2955,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 })));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
-		q(82772, {["timeline"]={REMOVED_11_1_0}}),	-- First Delve of the day (Season 1)
+		q(82772, {["timeline"]={REMOVED_11_1_0_SEASONSTART}}),	-- First Delve of the day (Season 1)
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
 		q(86329, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Cosmetic Surprise Bag (itemID 233281)

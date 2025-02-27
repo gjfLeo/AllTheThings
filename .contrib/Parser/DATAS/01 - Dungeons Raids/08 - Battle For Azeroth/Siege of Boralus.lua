@@ -327,7 +327,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(159416),	-- Harpooner's Plate Cuirass
 							i(231827, {["timeline"] = {ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART}}),	-- Harpooner's Plate Cuirass
 							i(159362),	-- Tri-Heart Chestguard
-							i(231825, {["timeline"] = {ADDED_11_0_2, REMOVED_11_1_0}}),	-- Tri-Heart Chestguard
+							i(231825, {["timeline"] = {ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART}}),	-- Tri-Heart Chestguard
 							i(159256),	-- Iron-Kelp Wristwraps
 							i(168130),	-- Essence of the Depths
 						},
