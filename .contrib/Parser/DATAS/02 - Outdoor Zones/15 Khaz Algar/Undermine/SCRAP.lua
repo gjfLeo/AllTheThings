@@ -175,13 +175,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							["g"] = {
 								-- TODO: Items is guessed based on id range/names
 								-- TODO: remove from unsorted things that confirmed & uncomment stuff
+								-- Some of these have appeared from Job Streak, move to zone rewards?
 								--i(233260),	-- Laundered Vestment
 								--i(233261),	-- Laundered Sandals
 								--i(233262),	-- Laundered Handwraps
 								--i(233263),	-- Laundered Cowl
 								--i(233264),	-- Laundered Leggings	TODO: on previous builds it was rng reward from job streak from DRIVE/Surge Pricing
 								--i(233265),	-- Laundered Shoulderpads
-								--i(233266),	-- Laundered Cord
+								i(233266),	-- Laundered Cord
 								--i(233267),	-- Laundered Cuffs
 								--i(233335),	-- Upcycled Jerkin
 								--i(233336),	-- Upcycled Waders

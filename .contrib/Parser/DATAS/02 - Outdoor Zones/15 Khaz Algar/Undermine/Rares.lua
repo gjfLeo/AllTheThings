@@ -106,6 +106,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 86307,
 				["g"] = {
 					i(235824),	-- Flame Sputterer
+					i(235327),	-- Mend-and-Match Shoulderpads
 				},
 			}),
 			n(231017, {	-- Grimewick
@@ -178,6 +179,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["isWeekly"] = true,
 				["g"] = {
 					i(235310),	-- Flashy Patchwork Trousers
+					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235349),	-- Shadowfume Club
 					i(235363),	-- Suspicious Energy Drink
 				},
@@ -188,6 +190,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235310),	-- Flashy Patchwork Trousers
 					i(235314),	-- Knightrider's Steelfists
+					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 					i(235307),	-- Smoketrail Belt
 				},
@@ -199,6 +202,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235328),	-- Boots of the Silver Tongue
 					i(234218),	-- Goo-blin Grenade
 					i(235355),	-- Gossi-blin's Baton
+					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				},
 			}),
@@ -218,6 +222,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235317),	-- Chestplate of the Ultimatum
 					i(235353),	-- Debtsmasher Axe
+					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots (TODO: 3rd source, are Blizzard okay/)
 				},
 			}),

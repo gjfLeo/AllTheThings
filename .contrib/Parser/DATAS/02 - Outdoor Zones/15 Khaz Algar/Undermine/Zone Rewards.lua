@@ -61,17 +61,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233454),	-- Mechforged Sabatons
 				}),
 				filter(TRINKET_F, {
-					i(232485),	-- Mechano-Core Amplifier (wq)
-					i(235467),	-- Ominous Oil Residue (Side Gig)
-					i(235359),	-- Ratfang Toxin (cache)
-					i(232883),	-- Turbo-Drain 5000 (cache)
+					i(232485),	-- Mechano-Core Amplifier
+					i(235467),	-- Ominous Oil Residue
+					i(235359),	-- Ratfang Toxin
+					i(232883),	-- Turbo-Drain 5000
 				}),
 			}),
 			n(WEAPONS, {
-				i(233531),	-- Gold-Plated Staff (cache)
-				i(233541),	-- Gold-Plated Knife (Overflowing Dumpster)
-				i(233542),	-- Gold-Plated Shank (Overflowing Dumpster)
-				i(233530),	-- Gold-Plated Spellstaff (Shiny Trash Can)
+				i(233531),	-- Gold-Plated Staff
+				i(233541),	-- Gold-Plated Knife
+				i(233536),	-- Gold-Plated Rifle
+				i(233542),	-- Gold-Plated Shank
+				i(233530),	-- Gold-Plated Spellstaff
 			}),
 			-- unsure where to put it atm
 			i(236961, {	-- Inoperative Gorillion (QS!)

@@ -37,7 +37,6 @@ root(ROOTS.Unsorted, {
 				i(233263),	-- Laundered Cowl
 				i(233264),	-- Laundered Leggings
 				i(233265),	-- Laundered Shoulderpads
-				i(233266),	-- Laundered Cord
 				i(233267),	-- Laundered Cuffs
 				i(233335),	-- Upcycled Jerkin
 				i(233336),	-- Upcycled Waders
@@ -61,7 +60,6 @@ root(ROOTS.Unsorted, {
 				i(233532),	-- Gold-Plated Polearm
 				i(233533),	-- Gold-Plated Spear
 				i(233534),	-- Gold-Plated Broadsword
-				i(233536),	-- Gold-Plated Rifle
 				i(233537),	-- Gold-Plated Sword
 				i(233538),	-- Gold-Plated Blade
 				i(233539),	-- Gold-Plated Hammer
@@ -593,7 +591,6 @@ root(ROOTS.Unsorted, {
 				i(235301),	-- Drape of the Dazzling Feather
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235308),	-- Filthtread Boots
-				i(235327),	-- Mend-and-Match Shoulderpads
 				i(235350),	-- Void-forged Cudgel
 				i(235352),	-- Netherflare Wand
 				i(235373),	-- Abyssal Volt
