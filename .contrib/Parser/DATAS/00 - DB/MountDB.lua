@@ -1978,7 +1978,7 @@ i(229955, 466027);	-- Darkfuse Spy-Eye
 i(229974, 466133);	-- Delver's Gob-Trotter
 i(237141, 1221694);	-- Enterprising Shreddertank
 i(0, 466011);		-- Flarendo the Furious
-i(232523, 460013);	-- G-99 Breakneck
+--i(232523, 460013);	-- G-99 Breakneck
 i(229941, 466017);	-- Innovation Investigator
 i(0, 468068);		-- Junkmaestro's Magnetomech
 i(229954, 466025);	-- Margin Manipulator
