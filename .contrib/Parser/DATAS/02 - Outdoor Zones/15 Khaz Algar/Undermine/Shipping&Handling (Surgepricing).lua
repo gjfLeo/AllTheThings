@@ -71,7 +71,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(236758, {	-- Extravagant Tip Chest		(Purple Quality)
 					}),
 					-- ToDo: Check exact Source for the Mount, probably from a chest only?
-					i(229947),	-- Violet Goblin Shredder (MOUNT!)
+					-- Returns invalid on live?
+					-- i(229947),	-- Violet Goblin Shredder (MOUNT!)
 				}),
 			},
 		}),
