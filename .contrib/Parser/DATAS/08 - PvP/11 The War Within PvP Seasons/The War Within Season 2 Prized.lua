@@ -3,7 +3,7 @@
 -----------------------------------------------
 root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 	n(SEASON_PRIZED, {
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			ach(41128, {	-- Prized Combatant [A]
 				["races"] = ALLIANCE_ONLY,
 				["collectible"] = false,

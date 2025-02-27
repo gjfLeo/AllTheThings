@@ -62,7 +62,7 @@ local mapped = function(t)
 	return t
 end
 root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-	n(SEASON_TEMPERED, {
+	n(SEASON_TEMPERED, {	-- Includes Zekvir's Lair
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {
 			ach(40446, {	-- I TAKE Candle!
 				["maps"] = KOBOLD_DELVES,
@@ -95,54 +95,54 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				},
 			}),
 		})),
+		-- TWW Season 1 Boss "Tempered" (Still available)
+		m(ZEKVIRS_LAIR, {
+			["icon"] = [[~_.asset("Delves_Nerubian")]],
+			["coord"] = { 6.7, 33.9, NERUBAR },
+			["g"] = {
+				n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {
+					ach(40431, {	-- Hunting the Hunter
+						title(560),	-- <Name> Ascension Breaker
+					}),
+					ach(40433, {	-- Let Me Solo Him
+						i(225542),	-- Delver's Dirigible Schematic: Void (MM!)
+					}),
+					ach(40103, {	-- My First Nemesis (Namechanged from Nemesis in 11.1)
+						i(212171),	-- Zekvir's Raptorial Spine
+					}),
+				})),
+				n(DELVE_COMPLETION, {
+					n(TREASURES, {
+						filter(BATTLE_PETS, {
+							i(222971),	-- Bouncer (PET!)
+						}),
+						filter(COSMETIC, {
+							i(212163),	-- Soporific Shroom Cap
+						}),
+						n(WEAPONS, {
+							i(218126),	-- Befouler's Syringe
+						}),
+					}),
+				}),
+				n(QUESTS, {
+					q(83752, {	-- Threats of Zekvir
+						["provider"] = { "n", 227492 },	-- Brann Bronzebeard
+						["coord"] = { 46.2, 48.0, THE_RINGING_DEEPS },
+					}),
+				}),
+				n(221427, {	-- Zekvir
+					["crs"] = { 225204 },	-- Zekvir (not sure which is "?" or "??")
+					-- #if AFTER 11.1.0
+					["groups"] = {
+						i(212171),	-- Zekvir's Raptorial Spine
+						i(225542),	-- Delver's Dirigible Schematic: Void (MM!)
+					},
+					-- #endif
+				}),
+			},
+		}),
 	}),
-	-- TWW Season 1 Boss "Tempered" (Still available)
-	m(ZEKVIRS_LAIR, {
-		["icon"] = [[~_.asset("Delves_Nerubian")]],
-		["coord"] = { 6.7, 33.9, NERUBAR },
-		["g"] = {
-			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {
-				ach(40431, {	-- Hunting the Hunter
-					title(560),	-- <Name> Ascension Breaker
-				}),
-				ach(40433, {	-- Let Me Solo Him
-					i(225542),	-- Delver's Dirigible Schematic: Void (MM!)
-				}),
-				ach(40103, {	-- My First Nemesis (Namechanged from Nemesis in 11.1)
-					i(212171),	-- Zekvir's Raptorial Spine
-				}),
-			})),
-			n(DELVE_COMPLETION, {
-				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(222971),	-- Bouncer (PET!)
-					}),
-					filter(COSMETIC, {
-						i(212163),	-- Soporific Shroom Cap
-					}),
-					n(WEAPONS, {
-						i(218126),	-- Befouler's Syringe
-					}),
-				}),
-			}),
-			n(QUESTS, {
-				q(83752, {	-- Threats of Zekvir
-					["provider"] = { "n", 227492 },	-- Brann Bronzebeard
-					["coord"] = { 46.2, 48.0, THE_RINGING_DEEPS },
-				}),
-			}),
-			n(221427, {	-- Zekvir
-				["crs"] = { 225204 },	-- Zekvir (not sure which is "?" or "??")
-				-- #if AFTER 11.1.0
-				["groups"] = {
-					i(212171),	-- Zekvir's Raptorial Spine
-					i(225542),	-- Delver's Dirigible Schematic: Void (MM!)
-				},
-				-- #endif
-			}),
-		},
-	}),
-	n(SEASON_ENTERPRISING, {
+	n(SEASON_ENTERPRISING, {	-- Includes Demolition Dome
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
 			ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
 				["maps"] = ALL_REGULAR_DELVES,
@@ -169,26 +169,26 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 		})),
+		-- TWW Season 2 Boss "Enterprising" (Still available)
+		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			--["icon"] = [[~_.asset("Delves_Nerubian")]],
+			["coord"] = { 52.7, 9.4, UNDERMINE },
+			["g"] = {
+				n(ACHIEVEMENTS, {
+					ach(41529, {	-- Breaking the Bank
+						title(612),	-- %s, the Real Deal
+					}),
+					ach(41210, {	-- Let Me Solo Him: The Underpin
+						i(233196),	-- Delver's Gob-Trotter Schematic: Gold (MM!)
+					}),
+					ach(41530, {	-- My New Nemesis
+						i(235614),	-- Golden-Gob Propulsion Rig
+					}),
+					ach(41531),	-- The Hataclysm
+				}),
+			},
+		})),
 	}),
-	-- TWW Season 2 Boss "Enterprising" (Still available)
-	m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 , REMOVED_11_2_0} }, {
-		--["icon"] = [[~_.asset("Delves_Nerubian")]],
-		["coord"] = { 52.7, 9.4, UNDERMINE },
-		["g"] = {
-			n(ACHIEVEMENTS, {
-				ach(41529, {	-- Breaking the Bank
-					title(612),	-- %s, the Real Deal
-				}),
-				ach(41210, {	-- Let Me Solo Him: The Underpin
-					i(233196),	-- Delver's Gob-Trotter Schematic: Gold (MM!)
-				}),
-				ach(41530, {	-- My New Nemesis
-					i(235614),	-- Golden-Gob Propulsion Rig
-				}),
-				ach(41531),	-- The Hataclysm
-			}),
-		},
-	})),
 	n(ACHIEVEMENTS, {
 		ach(40817, {	-- A Delver's Bounty
 			["maps"] = ALL_REGULAR_DELVES,

@@ -268,7 +268,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, {
 				["groups"] = bubbleDownFiltered({
-					["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+					["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 				},FILTERFUNC_itemID,{
 					e(131, {	-- General Umbriss
 						["crs"] = { 39625 },	-- General Umbriss

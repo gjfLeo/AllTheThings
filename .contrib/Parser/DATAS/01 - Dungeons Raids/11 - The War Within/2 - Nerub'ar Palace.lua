@@ -467,7 +467,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				}),
 				CommonBossDrops({
 					currency(WEATHERED_HARBINGER_CREST, {
-						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 					}),
 				}),
 				header(HEADERS.Achievement, 40247, {	-- The Skittering Battlements
@@ -525,7 +525,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			Difficulty(DIFFICULTY.RAID.NORMAL).AddGroupsWithUpgrades({
 				CommonBossDrops({
 					currency(CARVED_HARBINGER_CREST, {
-						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 					}),
 				}),
 				n(QUESTS, {
@@ -563,13 +563,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				BossOnly(KYVEZA),
 				BossOnly(SILKEN_COURT),
 				BossOnly(ANSUREK, {
-					ach(40253, {["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 }}),	-- Ahead of the Curve: Queen Ansurek
+					ach(40253, {["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART }}),	-- Ahead of the Curve: Queen Ansurek
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroupsWithUpgrades({
 				CommonBossDrops({
 					currency(RUNED_HARBINGER_CREST, {
-						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 					}),
 				}),
 				n(QUESTS, {
@@ -601,7 +601,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
 				CommonBossDrops({
 					currency(GILDED_HARBINGER_CREST, {
-						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 					}),
 				}),
 				n(QUESTS, {
@@ -640,8 +640,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					ach(40243, {	-- Mythic: Queen Ansurek
 						title(556),	-- Queenslayer <Name>
 					}),
-					ach(40254, {["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 }}),	-- Cutting Edge: Queen Ansurek
-					ach(40259, bubbleDownSelf({["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {	-- Hall of Fame: Queen Ansurek
+					ach(40254, {["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART }}),	-- Cutting Edge: Queen Ansurek
+					ach(40259, bubbleDownSelf({["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {	-- Hall of Fame: Queen Ansurek
 						title(561),	-- <Name>, Famed Slayer of Ansurek
 					})),
 					ach(40258),	-- Mythic: Queen Ansurek Guild Run

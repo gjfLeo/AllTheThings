@@ -4,7 +4,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(MYTHIC_PLUS, {
 		header(HEADERS.Achievement, SEASON_TEMPERED, bubbleDownSelf({
-			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 }
+			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART }
 		},{
 			ach(20523),		-- The War Within Keystone Explorer: Season One
 			ach(20524, {	-- The War Within Keystone Conqueror: Season One
@@ -15,7 +15,12 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			}),
 			ach(20526),		-- The War Within Keystone Hero: Season One
 			ach(20589, {	-- Tempered Hero: The War Within Season 1
-				title(548),	-- <Name> the Tempered Hero
+				["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+				["groups"] = {
+					title(548, {	-- <Name> the Tempered Hero
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+					}),
+				},
 			}),
 			ach(20586, {	-- Keystone Hero: Ara-Kara, City of Echoes
 				spell(445417),	-- Path of the Ruined City
@@ -90,20 +95,48 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			ach(15050, {	-- Keystone Hero: Theater of Pain
 				spell(354467),	-- Path of the Undefeated
 			}),
-			ach(41724),		-- The War Within Season 2: Resilient Keystone 12 (automated)
-			ach(41726),		-- The War Within Season 2: Resilient Keystone 13 (automated)
-			ach(41727),		-- The War Within Season 2: Resilient Keystone 14 (automated)
-			ach(41728),		-- The War Within Season 2: Resilient Keystone 15 (automated)
-			ach(41729),		-- The War Within Season 2: Resilient Keystone 16 (automated)
-			ach(41730),		-- The War Within Season 2: Resilient Keystone 17 (automated)
-			ach(41731),		-- The War Within Season 2: Resilient Keystone 18 (automated)
-			ach(41732),		-- The War Within Season 2: Resilient Keystone 19 (automated)
-			ach(41733),		-- The War Within Season 2: Resilient Keystone 20 (automated)
-			ach(41734),		-- The War Within Season 2: Resilient Keystone 21 (automated)
-			ach(41735),		-- The War Within Season 2: Resilient Keystone 22 (automated)
-			ach(41736),		-- The War Within Season 2: Resilient Keystone 23 (automated)
-			ach(41737),		-- The War Within Season 2: Resilient Keystone 24 (automated)
-			ach(41738),		-- The War Within Season 2: Resilient Keystone 25 (automated)
+			ach(41724, {	-- The War Within Season 2: Resilient Keystone 12 (automated)
+				["collectible"] = false,
+			}),
+			ach(41726, {	-- The War Within Season 2: Resilient Keystone 13 (automated)
+				["collectible"] = false,
+			}),
+			ach(41727, {	-- The War Within Season 2: Resilient Keystone 14 (automated)
+				["collectible"] = false,
+			}),
+			ach(41728, {	-- The War Within Season 2: Resilient Keystone 15 (automated)
+				["collectible"] = false,
+			}),
+			ach(41729, {	-- The War Within Season 2: Resilient Keystone 16 (automated)
+				["collectible"] = false,
+			}),
+			ach(41730, {	-- The War Within Season 2: Resilient Keystone 17 (automated)
+				["collectible"] = false,
+			}),
+			ach(41731, {	-- The War Within Season 2: Resilient Keystone 18 (automated)
+				["collectible"] = false,
+			}),
+			ach(41732, {	-- The War Within Season 2: Resilient Keystone 19 (automated)
+				["collectible"] = false,
+			}),
+			ach(41733, {	-- The War Within Season 2: Resilient Keystone 20 (automated)
+				["collectible"] = false,
+			}),
+			ach(41734, {	-- The War Within Season 2: Resilient Keystone 21 (automated)
+				["collectible"] = false,
+			}),
+			ach(41735, {	-- The War Within Season 2: Resilient Keystone 22 (automated)
+				["collectible"] = false,
+			}),
+			ach(41736, {	-- The War Within Season 2: Resilient Keystone 23 (automated)
+				["collectible"] = false,
+			}),
+			ach(41737, {	-- The War Within Season 2: Resilient Keystone 24 (automated)
+				["collectible"] = false,
+			}),
+			ach(41738, {	-- The War Within Season 2: Resilient Keystone 25 (automated)
+				["collectible"] = false,
+			}),
 		})),
 		n(COMMON_BOSS_DROPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			i(234425, {	-- Forgotten Folio

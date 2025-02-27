@@ -7172,6 +7172,7 @@ local ObjectNames = {
 	[456039] = "Crumpled Letter",
 	[456041] = "Folded Paper",
 	[456061] = "Battered Celebration Crate",
+	[456062] = "Dirty Scroll",
 	[456073] = "Sputtering Taserblade",
 	[456208] = "The Catalyst",
 	[456581] = "Egg Clutch",
