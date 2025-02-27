@@ -205,7 +205,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 43.4, 61.0, UNDERMINE },
 					["g"] = {
 						o(500345, {	-- Ethereal Warning Letter
-							i(232944),	-- Ethereal Warning Letter (QI!)
+							["coord"] = { 33.6, 48.6, UNDERMINE },
+							["g"] = { i(232944) },	-- Ethereal Warning Letter (QI!)
 						}),
 					},
 				}),
@@ -288,7 +289,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 27.4, 70.8, UNDERMINE },
 					["g"] = {
 						o(452866, {	-- Semi-Deluxe Noggenfogger Elixirs
-							i(226157),	-- Semi-Deluxe Noggenfogger Elixirs (QI!)
+							["coord"] = { 27.6, 70.9, UNDERMINE },
+							["g"] = { i(226157) },	-- Semi-Deluxe Noggenfogger Elixirs (QI!)
+						}),
+						o(495146, {	-- Semi-Deluxe Noggenfogger Elixirs
+							["coord"] = { 27.6, 70.8, UNDERMINE },
+							["g"] = { i(226157) },	-- Semi-Deluxe Noggenfogger Elixirs (QI!)
 						}),
 					},
 				}),

@@ -68,6 +68,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 								i(223095),	-- Pattern: Rook Feather Wristwraps (RECIPE!)
 								i(223036),	-- Plans: Charged Runeaxe (RECIPE!)
 							}),
+							i(235151, {	-- Distinguished Actor's Chest
+								["timeline"] = { ADDED_11_1_0 },
+							}),
 						},
 					}),
 					q(79150, {	-- Thespians at the Proscenium
@@ -85,5 +88,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				}),
 			},
 		})),
+	}),
+})));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+	n(COUNCIL_OF_DORNOGAL, {
+		header(HEADERS.Quest, 83240, {	-- Theater Troupe
+			q(86619),	-- Theater Troupe, completes along with regular quest.
+		}),
 	}),
 })));

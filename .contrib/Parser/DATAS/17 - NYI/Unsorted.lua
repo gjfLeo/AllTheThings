@@ -317,9 +317,7 @@ root(ROOTS.Unsorted, {
 				i(234378),	-- Radiant Steelglaives
 				i(234388),	-- Arsenal: Hallowfall Weaponry
 
-
 				i(235854),	-- Gold-Inlaid Jetpack
-				i(236161),	-- Broiler Supreme 300
 			}),
 			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
 				-- D.R.I.V.E.
@@ -344,7 +342,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {	-- More known
 				-- Chestos
 				i(229422),	-- Undermine Equipment Chest
-				i(235151),	-- Distinguished Actor's Chest
 				-- Crests
 				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
 				i(231270),	-- Pack of Runed Undermine Crests
@@ -598,7 +595,6 @@ root(ROOTS.Unsorted, {
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235308),	-- Filthtread Boots
 				i(235310),	-- Flashy Patchwork Trousers
-				i(235313),	-- Shockproof Helm
 				i(235327),	-- Mend-and-Match Shoulderpads
 				i(235350),	-- Void-forged Cudgel
 				i(235352),	-- Netherflare Wand

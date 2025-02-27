@@ -682,6 +682,7 @@ MobileDB.GameObject = {
 	[457291] = true,	-- Skull (q:83641)
 	[457292] = true,	-- Essence of Death (q:83641)
 	[461478] = true,	-- For Rent Sign
+	[462533] = true,	-- Spare Excavation Rocket
 	[465067] = true,	-- Faded Pages
 	[465064] = true,	-- Old Scroll
 	[465208] = true,	-- Crystal Chunk (q:84430)

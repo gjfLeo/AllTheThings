@@ -136,6 +136,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can
 				--
+				i(236161),	-- Broiler Supreme 300 (COSMETIC!)
 				i(236181),	-- Center-Stage Remover (COSMETIC!)
 				i(236178),	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
 				i(236191),	-- Mechanic's Best Motivator (COSMETIC!)

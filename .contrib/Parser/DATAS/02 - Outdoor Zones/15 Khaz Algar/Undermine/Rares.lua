@@ -207,6 +207,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235351),	-- Hypersteel CX4 Greatsword
 					i(235354),	-- Scrapblaster Lance
+					i(235313),	-- Shockproof Helm
 				},
 			}),
 			n(230951, {	-- Thwack
