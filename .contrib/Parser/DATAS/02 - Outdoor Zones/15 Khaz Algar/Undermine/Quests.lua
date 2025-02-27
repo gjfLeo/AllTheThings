@@ -34,7 +34,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(83142, {	-- Order of Magnitude
 					["sourceQuests"] = { 83139 },	-- Mixed Messages (TODO: unsure)
-					["provider"] = { "i", 224772 },	-- Bounty from Gallywix (QS!/QI!)
+					["providers"] = {
+						{ "i", 224772 },	-- Bounty from Gallywix (QS!/QI!)
+						{ "o", 456062 },	-- Dirty Scroll
+					},
+					["coord"] = { 72.1, 78.5, THE_RINGING_DEEPS },
 				}),
 				q(83143, {	-- Good Honest Work
 					["sourceQuests"] = {
@@ -1331,19 +1335,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			-- Delves
 			q(87582, {	-- Delves: Site of Madness
-				["sourceQuests"] = { 85463 },	-- [DNT] The Cartels of Undermine Renown Unlock
+				["sourceQuests"] = { 83096 },	-- Welcome to Undermine
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),
 			q(87583, {	-- Delves: The Sluice Contains the Juice
-				["sourceQuests"] = { 85463 },	-- [DNT] The Cartels of Undermine Renown Unlock
+				["sourceQuests"] = { 83096 },	-- Welcome to Undermine
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),
 			-- Unsure
 			-- TODO: account wide
 			q(87496, {	-- Benefit Packages
-				["sourceQuests"] = { 85463 },	-- [DNT] The Cartels of Undermine Renown Unlock
+				["sourceQuests"] = { 83096 },	-- Welcome to Undermine
 				["provider"] = { "n", 231049 },	-- Kaydee Racketting
 				["coord"] = { 42.8, 52.2, UNDERMINE },
 			}),
