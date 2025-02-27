@@ -133,6 +133,8 @@ HeaderAssignments = {
 	["Delver's Dirigible Schematic"] = -1001033,
 	["Delver's Gob-Trotter Schematic"] = -1001063,
 	["Delves"] = -1000907,
+	["Delves TWW S1"] = -1001087,
+	["Delves TWW S2"] = -1001088,
 	["Demon Trainer"] = -1000015,
 	["Demonic Gladiator: Legion Season 7"] = -1000995,
 	["Detention Block"] = -1000169,
@@ -561,4 +563,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001087;
+NextHeaderID = -1001089;

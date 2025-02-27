@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(83489, {	-- Gathering All Gladiators!
 					["provider"] = { "i", 225772 },	-- Artisan's Consortium Advertisement
 				}),
-				q(83711, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_0_2 } }, {	-- Weapons of Conquest
+				q(83711, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {	-- Weapons of Conquest
 					["provider"] = { "n", 219222 },	-- Lalandi <Conquest Quartermaster>
 					["coord"] = { 55.0, 76.1, DORNOGAL },
 				})),
@@ -122,33 +122,33 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 									{"i", 215236, 3},	-- Vicious Bloodstone x3
 									{"c", HONOR, 5000},
 								},
-								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 							}),
 						}),
 						filter(REAGENTS, {
 							i(210232, {	-- Forged Aspirant's Heraldry
 								["cost"] = {{"c", HONOR, 175}},
-								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 							}),
 							i(210221, {	-- Forged Combatant's Heraldry
 								["cost"] = {{"c", HONOR, 350}},
-								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 							}),
 							i(210233, {	-- Forged Gladiator's Heraldry
 								["cost"] = {{"c", CONQUEST, 175}},
-								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+								["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 							}),
 							i(229389, {	-- Prized Aspirant's Heraldry
 								["cost"] = {{"c", HONOR, 175}},
-								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 							}),
 							i(229388, {	-- Prized Combatant's Heraldry
 								["cost"] = {{"c", HONOR, 350}},
-								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 							}),
 							i(229390, {	-- Prized Gladiator's Heraldry
 								["cost"] = {{"c", CONQUEST, 175}},
-								["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 							}),
 							i(215236, {	-- Vicious Bloodstone
 								["cost"] = {{"c", HONOR, 2500}},

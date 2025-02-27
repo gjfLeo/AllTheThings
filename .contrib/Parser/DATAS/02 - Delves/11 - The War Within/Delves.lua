@@ -12,6 +12,20 @@ CURIO = createHeader({
 		en = WOWAPI_GetSpellName(456522),
 	},
 });
+DELVES_TWW_S1 = createHeader({
+	readable = "Delves TWW S1",
+	icon = 1604168,
+	text = {
+		en = "Delves TWW S1"
+	},
+});
+DELVES_TWW_S2 = createHeader({
+	readable = "Delves TWW S2",
+	icon = 1604168,
+	text = {
+		en = "Delves TWW S2"
+	},
+});
 local UNDERCOIN = 2803;
 local NERUBIAN_DELVES = { EARTHCRAWL_MINES, SKITTERING_BREACH, THE_DREAD_PIT, THE_SPIRAL_WEAVE, THE_UNDERKEEP };
 local FUNGARIAN_DELVES = { FUNGAL_FOLLY, MYCOMANCER_CAVERN };
@@ -62,7 +76,7 @@ local mapped = function(t)
 	return t
 end
 root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-	n(SEASON_TEMPERED, {	-- Includes Zekvir's Lair
+	n(DELVES_TWW_S1, {	-- Includes Zekvir's Lair
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {
 			ach(40446, {	-- I TAKE Candle!
 				["maps"] = KOBOLD_DELVES,
@@ -142,8 +156,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 	}),
-	n(SEASON_ENTERPRISING, {	-- Includes Demolition Dome
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
+	n(DELVES_TWW_S2, {	-- Includes Demolition Dome
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
@@ -170,7 +184,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 		})),
 		-- TWW Season 2 Boss "Enterprising" (Still available)
-		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			--["icon"] = [[~_.asset("Delves_Nerubian")]],
 			["coord"] = { 52.7, 9.4, UNDERMINE },
 			["g"] = {
