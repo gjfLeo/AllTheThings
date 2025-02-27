@@ -65,7 +65,6 @@ root(ROOTS.Unsorted, {
 				i(233537),	-- Gold-Plated Sword
 				i(233538),	-- Gold-Plated Blade
 				i(233539),	-- Gold-Plated Hammer
-				i(233540),	-- Gold-Plated Cudgel
 				i(233544),	-- Descaled Breastplate
 				i(233545),	-- Descaled Sabatons
 				i(233546),	-- Descaled Gauntlets
@@ -594,7 +593,6 @@ root(ROOTS.Unsorted, {
 				i(235301),	-- Drape of the Dazzling Feather
 				i(235305),	-- Golfer's Truestrike Gloves
 				i(235308),	-- Filthtread Boots
-				i(235310),	-- Flashy Patchwork Trousers
 				i(235327),	-- Mend-and-Match Shoulderpads
 				i(235350),	-- Void-forged Cudgel
 				i(235352),	-- Netherflare Wand

@@ -177,6 +177,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84895,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235310),	-- Flashy Patchwork Trousers
 					i(235349),	-- Shadowfume Club
 					i(235363),	-- Suspicious Energy Drink
 				},
@@ -185,6 +186,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 41.3, 43.6, UNDERMINE },
 				["questID"] = 85004,	-- Swigs Farsight
 				["g"] = {
+					i(235310),	-- Flashy Patchwork Trousers
 					i(235314),	-- Knightrider's Steelfists
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 					i(235307),	-- Smoketrail Belt

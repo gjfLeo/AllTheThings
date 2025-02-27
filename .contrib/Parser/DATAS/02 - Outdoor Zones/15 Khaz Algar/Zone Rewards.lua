@@ -89,6 +89,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			i(224709),	-- Ancient Forged Staff
 			i(224703),	-- Ancient Forged Sword
 			i(224706),	-- Ancient Forged Warhammer
+			i(233540),	-- Gold-Plated Cudgel
 			i(233535),	-- Gold-Plated Greatsword
 		}),
 		--
