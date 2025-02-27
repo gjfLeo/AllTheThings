@@ -3,8 +3,8 @@ local appName, app = ...;
 local CloneReference = app.CloneReference;
 
 -- Global locals
-local pcall, select, tinsert, tonumber
-	= pcall, select, tinsert, tonumber;
+local debugprofilestop, next, pcall, select, tinsert, tonumber
+	= debugprofilestop, next, pcall, select, tinsert, tonumber;
 	
 -- Module locals
 local auctionData = {};
@@ -20,43 +20,53 @@ if C_AuctionHouse then
 	CanFullScan = function()
 		return cooldown - time() < 0;
 	end
-	ReceiveAuctions = function()
+	--[[
+	-- CRIEVE NOTE: Currently Classic has no need for the data, we could store it I guess, but we don't use it.
+	function ProcessAuctions(auctions)
+		for i,auction in ipairs(auctions) do
+			-- https://warcraft.wiki.gg/wiki/API_C_AuctionHouse.GetReplicateItemInfo
+			local itemID = auction[17];
+			auctionData[itemID] = 
+				itemLink = C_AuctionHouse_GetReplicateItemLink(0),
+				count = auction[3],
+				price = auction[10]
+			};
+		end
+	end
+	ReceiveAuctions = function(callback)
 		-- Gather the Auctions
 		local numItems = C_AuctionHouse_GetNumReplicateItems();
 		if numItems > 0 then
-			local items = {};
+			local auctions = {};
+			local continuables = {};
 			for i=0,numItems-1 do
-				local itemLink;
-				local count, _, _, _, _, _, _, price, _, _, _, _, _, _, itemID, status = select(3, C_AuctionHouse_GetReplicateItemInfo(i));
-				if itemID then
-					if price and status then
-						itemLink = C_AuctionHouse_GetReplicateItemLink(i);
-						if itemLink then
-							auctionData[itemID] = { itemLink = itemLink, count = count, price = (price/count) };
+				auctions[i] = {C_AuctionHouse_GetReplicateItemInfo(i)};
+				if not auctions[i][18] then
+					local item = Item:CreateFromItemID(auctions[i][17]);
+					continuables[item] = true;
+					item:ContinueOnItemLoad(function()
+						auctions[i] = {C_AuctionHouse_GetReplicateItemInfo(i)};
+						continuables[item] = nil;
+						if not next(continuables) then
+							ProcessAuctions(auctions);
+							callback(#auctions);
 						end
-					else
-						local item = Item:CreateFromItemID(itemID);
-						items[item] = true;
-						item:ContinueOnItemLoad(function()
-							count, _, _, _, _, _, _, price, _, _, _, _, _, _, itemID, status = select(3, C_AuctionHouse_GetReplicateItemInfo(i));
-							items[item] = nil;
-							if itemID and status then
-								itemLink = C_AuctionHouse_GetReplicateItemLink(i);
-								if itemLink then
-									auctionData[itemID] = { itemLink = itemLink, count = count, price = (price/count) };
-								end
-							end
-							if not next(items) then
-								items = {};
-							end
-						end);
-					end
+					end);
 				end
 			end
-			if not next(items) then
-				items = {};
+		end
+	end
+	]]--
+	ReceiveAuctions = function(callback)
+		-- Gather the Auctions
+		local numItems = C_AuctionHouse_GetNumReplicateItems();
+		if numItems > 0 then
+			local auction;
+			for i=0,numItems-1 do
+				auction = {C_AuctionHouse_GetReplicateItemInfo(i)};
+				auctionData[auction[17]] = 1;
 			end
-			return true;
+			callback(numItems);
 		end
 	end
 	RunFullScan = function(self)
@@ -71,28 +81,19 @@ else
 	CanFullScan = function()
 		return select(2, CanSendAuctionQuery());
 	end
-	ReceiveAuctions = function()
-		-- Gather the Auctions
+	ReceiveAuctions = function(callback)
 		local numItems = GetNumAuctionItems("list");
 		if numItems > 0 then
-			local iter, index = 0, 1;
+			local index = 1;
 			repeat
 				-- Process the Auction
 				local saleStatus, itemID = select(16, GetAuctionItemInfo("list", index));
 				if itemID and itemID > 0 and saleStatus == 0 then
-					--print("ProcessAuctions", index, itemID);
 					auctionData[itemID] = 1;
-				end
-				
-				-- Increment the index and check the iteration variable.
-				iter = iter + 1;
-				if iter >= 100 then
-					coroutine.yield();
-					iter = 0;
 				end
 				index = index + 1;
 			until index > numItems;
-			return true;
+			callback(numItems);
 		end
 	end
 	RunFullScan = function(self)
@@ -110,23 +111,20 @@ app:CreateWindow("Auctions", {
 	IgnoreQuestUpdates = true,
 	OnInit = function(self, handlers)
 		function ProcessAuctions()
-			if ReceiveAuctions() then
-				app.print("Scan complete.");
+			pcall(self.UnregisterEvent, self, "AUCTION_ITEM_LIST_UPDATE");
+			pcall(self.UnregisterEvent, self, "REPLICATE_ITEM_LIST_UPDATE");
+			local beginTime = debugprofilestop();
+			ReceiveAuctions(function(count)
+				app.print(format("Scanned %d auctions in %d milliseconds", count, debugprofilestop()-beginTime));
 				
 				-- Write back the valid auction data to saved variables.
 				AllTheThingsAuctionData = auctionData;
 				wipe(self.data.g);
 				self:Update(true);
-			end
+			end);
 		end
-		handlers.AUCTION_ITEM_LIST_UPDATE = function()
-			pcall(self.UnregisterEvent, self, "AUCTION_ITEM_LIST_UPDATE");
-			self:StartATTCoroutine("ProcessAuctions", ProcessAuctions);
-		end
-		handlers.REPLICATE_ITEM_LIST_UPDATE = function()
-			pcall(self.UnregisterEvent, self, "REPLICATE_ITEM_LIST_UPDATE");
-			self:StartATTCoroutine("ProcessAuctions", ProcessAuctions);
-		end
+		handlers.AUCTION_ITEM_LIST_UPDATE = ProcessAuctions;
+		handlers.REPLICATE_ITEM_LIST_UPDATE = ProcessAuctions;
 		handlers.ADDON_LOADED = function(self, addonName)
 			if addonName == "Blizzard_AuctionUI" or addonName == "Blizzard_AuctionHouseUI" then
 				self:SetParent(AuctionHouseFrame or AuctionFrame);
