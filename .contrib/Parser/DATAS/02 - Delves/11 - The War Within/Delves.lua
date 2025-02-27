@@ -76,8 +76,8 @@ local mapped = function(t)
 	return t
 end
 root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-	n(DELVES_TWW_S1, {	-- Includes Zekvir's Lair
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {
+	n(DELVES_TWW_S1, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {	-- Includes Zekvir's Lair
+		n(ACHIEVEMENTS, {
 			ach(40446, {	-- I TAKE Candle!
 				["maps"] = KOBOLD_DELVES,
 			}),
@@ -108,13 +108,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					title(550),	-- High Explorer <Name>
 				},
 			}),
-		})),
+		}),
 		-- TWW Season 1 Boss "Tempered" (Still available)
 		m(ZEKVIRS_LAIR, {
 			["icon"] = [[~_.asset("Delves_Nerubian")]],
 			["coord"] = { 6.7, 33.9, NERUBAR },
 			["g"] = {
-				n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {
+				n(ACHIEVEMENTS, {
 					ach(40431, {	-- Hunting the Hunter
 						title(560),	-- <Name> Ascension Breaker
 					}),
@@ -124,7 +124,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					ach(40103, {	-- My First Nemesis (Namechanged from Nemesis in 11.1)
 						i(212171),	-- Zekvir's Raptorial Spine
 					}),
-				})),
+				}),
 				n(DELVE_COMPLETION, {
 					n(TREASURES, {
 						filter(BATTLE_PETS, {
