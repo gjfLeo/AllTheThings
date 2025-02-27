@@ -7423,6 +7423,7 @@ local ObjectNames = {
 	[507227] = "Sturdy Chest",
 	[508718] = "Rooftop Teleporter",
 	[508727] = "Discarded Battery",
+	[509490] = "Sewer Cheese",
 	[516153] = "Dented Crate",
 	[516155] = "Dented Crate",
 	[516157] = "Dented Crate",
