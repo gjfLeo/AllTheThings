@@ -231,7 +231,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					41588,	-- Read Between the Lines
 					41217,	-- Treasures of Undermine
 				}},
-				-- TODO reward: Warband Campite: Gallagio Grand Gallery
+				-- TODO reward: Warband Campsite: Gallagio Grand Gallery
 			}),
 			ach(40948),	-- Nine-Tenths of the Law
 			ach(40894),	-- Sojourner of Undermine (automated)
@@ -249,6 +249,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					239249,	-- Grabbable Rat
 					239251,	-- Grabbable Rat
 					239252,	-- Grabbable Rat
+				},
+				["coords"] = {
+					{ 43.6, 11.3, UNDERMINE },
+					{ 28.5, 55.8, UNDERMINE },
+					{ 36.0, 85.6, UNDERMINE },
+					{ 65.3, 88.3, UNDERMINE },
+					{ 65.9, 44.0, UNDERMINE },
 				},
 			}),
 		}),

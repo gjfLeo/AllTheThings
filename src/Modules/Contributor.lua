@@ -669,6 +669,7 @@ MobileDB.GameObject = {
 	[451579] = true,	-- Used Fuel Drum (Ringing Deeps)
 	[452696] = true,	-- Machine Speaker's Reliquary
 	[452706] = true,	-- Deep-Lost Satchel
+	[452893] = true,	-- Kaja'mite Stockpile
 	[452923] = true,	-- Chillburst Canister (q:83148)
 	[452972] = true,	-- Fallow Corn
 	[455759] = true,	-- Hulking Raptorial Claw

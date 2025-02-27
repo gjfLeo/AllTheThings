@@ -431,14 +431,13 @@ root(ROOTS.Unsorted, {
 				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
-				i(229949),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
 				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
 				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
 
-				mount(466146),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]	-- itemID 229989
-				mount(466145),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]	-- itemID 229988
+				i(229989),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]
+				i(229988),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]
 
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
 				-- Probably not real
@@ -619,7 +618,6 @@ root(ROOTS.Unsorted, {
 				i(235832),	-- Oil-Splattered Cloak
 				i(235833),	-- Serrated Slickgrip
 				i(235834),	-- Rocketgrip Turboslicer
-				i(235835),	-- Braided Wire Wrap
 				i(235836),	-- Gas-Powered Chainblade
 			}),
 			n(SETS, {	-- Tier Sets/Raid

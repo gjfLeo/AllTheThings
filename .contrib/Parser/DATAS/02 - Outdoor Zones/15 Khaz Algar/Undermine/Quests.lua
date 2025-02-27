@@ -606,8 +606,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				--- missing on ptr, seems like will be available only on live?
 			}),
 			header(HEADERS.AchCriteria, 40894.01, {	-- The Highst
+				q(84214, {	-- The Job
+					--["sourceQuests"] = { XXX },
+					["provider"] = { "o", 456747 },	-- Gig Sheets
+					["coord"] = { 42.7, 52.8, UNDERMINE },
+					["isBreadcrumb"] = true,
+				}),
 				q(84215, {	-- The Crew
-					--["sourceQuests"] = { xx },	-- TODO: mid story; up for alts without doing anything in zone
+					["sourceQuests"] = { 84214 },	-- The Job
 					["provider"] = { "n", 228286 },	-- Skedgit Cinderbangs
 					["coord"] = { 43.2, 82.8, UNDERMINE },
 				}),
@@ -1223,7 +1229,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			-- Side Gig stuff (weekly for new area in Ringing Deeps/Kaja-Coast)
 			-- doesn't required to sign up contract (choose faction)
-			-- possible sourceQuest is cartel faction unlock hqt?
+			-- possible sourceQuest is some hqt for progressing campaign chapters at least once, not available immediately
 			q(85944, {	-- Side Gig: Blood Type
 				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231062 },	-- Torky Greasepalm
@@ -1325,19 +1331,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			-- Delves
 			q(87582, {	-- Delves: Site of Madness
-				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
+				["sourceQuests"] = { 85463 },	-- [DNT] The Cartels of Undermine Renown Unlock
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),
 			q(87583, {	-- Delves: The Sluice Contains the Juice
-				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
+				["sourceQuests"] = { 85463 },	-- [DNT] The Cartels of Undermine Renown Unlock
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),
 			-- Unsure
 			-- TODO: account wide
 			q(87496, {	-- Benefit Packages
-				--["sourceQuests"] = { xx },	-- TODO: was up with new build, could be part of some chain?
+				["sourceQuests"] = { 85463 },	-- [DNT] The Cartels of Undermine Renown Unlock
 				["provider"] = { "n", 231049 },	-- Kaydee Racketting
 				["coord"] = { 42.8, 52.2, UNDERMINE },
 			}),
@@ -1379,108 +1385,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(508727),	-- Partially-Drained Battery
 				},
 			}),
-			--- Factions trove quests
-			--- TODO: account wide
-			-- Bilgewater Cartel
-			q(88870, {	-- Honored with the Bilgewater Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231406 },	-- Rocco Razzboom
-				["coord"] = { 39.2, 22.2, UNDERMINE },
-				["g"] = {
-					i(234745),	-- Bilgewater's Trove
-				},
-			}),
-			q(88871, {	-- Revered with the Bilgewater Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231406 },	-- Rocco Razzboom
-				["coord"] = { 39.2, 22.2, UNDERMINE },
-				["g"] = {
-					i(235258),	-- Bilgewater's Trove
-				},
-			}),
-			q(88872, {	-- Exalted with the Bilgewater Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231406 },	-- Rocco Razzboom
-				["coord"] = { 39.2, 22.2, UNDERMINE },
-				["g"] = {
-					i(235259),	-- Bilgewater's Trove
-				},
-			}),
-			-- Blackwater Cartel
-			q(88876, {	-- Honored with the Blackwater Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231405 },	-- Boatswain Hardee
-				["coord"] = { 63.4, 16.7, UNDERMINE },
-				["g"] = {
-					i(234744),	-- Blackwater's Trove
-				},
-			}),
-			q(88877, {	-- Revered with the Blackwater Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231405 },	-- Boatswain Hardee
-				["coord"] = { 63.4, 16.7, UNDERMINE },
-				["g"] = {
-					i(235260),	-- Blackwater's Trove
-				},
-			}),
-			q(88878, {	-- Exalted with the Blackwater Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231405 },	-- Boatswain Hardee
-				["coord"] = { 63.4, 16.7, UNDERMINE },
-				["g"] = {
-					i(235261),	-- Blackwater's Trove
-				},
-			}),
-			-- Steamwheedle Cartel
-			q(88873, {	-- Honored with the Steamwheedle Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231408 },	-- Lab Assistant Laszly
-				["coord"] = { 27.5, 72.8, UNDERMINE },
-				["g"] = {
-					i(235262),	-- Steamwheedle's Trove
-				},
-			}),
-			q(88874, {	-- Revered with the Steamwheedle Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231408 },	-- Lab Assistant Laszly
-				["coord"] = { 27.5, 72.8, UNDERMINE },
-				["g"] = {
-					i(234743),	-- Steamwheedle's Trove
-				},
-			}),
-			q(88875, {	-- Exalted with the Steamwheedle Cartel
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231408 },	-- Lab Assistant Laszly
-				["coord"] = { 27.5, 72.8, UNDERMINE },
-				["g"] = {
-					i(235263),	-- Steamwheedle's Trove
-				},
-			}),
-			-- Venture Co.
-			q(88879, {	-- Honored with Venture Co.
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231407 },	-- Shredz the Scrapper
-				["coord"] = { 53.3, 72.7, UNDERMINE },
-				["g"] = {
-					i(234746),	-- Venture Co.'s Trove
-				},
-			}),
-			q(88880, {	-- Revered with Venture Co.
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231407 },	-- Shredz the Scrapper
-				["coord"] = { 53.3, 72.7, UNDERMINE },
-				["g"] = {
-					i(235264),	-- Venture Co.'s Trove
-				},
-			}),
-			q(88881, {	-- Exalted with Venture Co.
-				--["sourceQuests"] = { XXX },
-				["provider"] = { "n", 231407 },	-- Shredz the Scrapper
-				["coord"] = { 53.3, 72.7, UNDERMINE },
-				["g"] = {
-					i(235265),	-- Venture Co.'s Trove
-				},
-			}),
 			-- pop after learning Handcrank/Steamboil or Handcrank AND Steamboil
 			q(89250, {	-- Burning Rubber
 				--["sourceQuests"] = { XXX },
@@ -1500,7 +1404,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(UNDERMINE, {
 			n(QUESTS, {
 				-- During main story
-				q(85463),	-- [DNT] The Cartels of Undermine Renown Unlock (spellID 1213980) (TODO: account wide)
+				q(85463),	-- [DNT] The Cartels of Undermine Renown Unlock (spellID 1213980)
 				-- Special Assigment Unlock trackers
 				q(85489, {["repeatable"]=true}),	-- Special Assignment: Capstone 1 - Unlock (for Special Assignment: Boom! Headshot! (questID 85487))
 				q(85490, {["repeatable"]=true}),	-- Special Assignment: Capstone 2 - Unlock (for Special Assignment: Security Detail (questID 85488))
@@ -1508,11 +1412,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(85813),	-- Pipe Valve @ 39.1, 59.1 (spellID 471248 - [DNT] Flag Tracking Quest - Flame Gasket Closed)
 				q(86608),	-- pop after wq 85466 (Hob or Cold) - some kind of counter/tracker for something?
 				-- When you pick up one of 4 cartel faction for a week
-				-- TODO: account wide
-				q(84951),	-- Bilgewater Cartel
-				q(84954),	-- Blackwater Cartel
-				q(84952),	-- Steamwheedle Cartel
-				q(84953),	-- Venture Co.
+				q(84951),	-- Bilgewater Cartel Weekly Contract
+				q(84954),	-- Blackwater Cartel Weekly Contract
+				q(84952),	-- Steamwheedle Cartel Weekly Contract
+				q(84953),	-- Venture Co. Weekly Contract
 			}),
 		}),
 	}),

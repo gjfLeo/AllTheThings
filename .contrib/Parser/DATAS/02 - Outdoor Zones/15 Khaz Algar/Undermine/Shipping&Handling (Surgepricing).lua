@@ -14,8 +14,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		n(SHIPPING_AND_HANDLING, {
 			["description"] = "Every hour at the half-hour mark (or xx:30), a Surge Pricing event will start.\nFor 10 minutes, completing Shipping and Handling tasks will count towards an objective bar that will show up on top of your screen.\nThis will count Shipping and Handling tasks completed by everyone in Undermine.\nDuring Surge Pricing, Shipping and Handling completions give you double rewards.",
 			["groups"] = {
-				n(ACHIEVEMENTS, {
-				}),
 				n(QUESTS, {
 					q(86775, {	-- Urge to Surge
 						--TODO: DRIVE public event, bugged on ptr
@@ -86,6 +84,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			n(SHIPPING_AND_HANDLING, {
 			-- Job Streak give reward after first 10 delivery job in row per character (was itemID 233264 for me), no hqt
 			}),
-		}),	
+		}),
 	}),
 })));

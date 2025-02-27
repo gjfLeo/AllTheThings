@@ -208,9 +208,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			o(499605, {	-- Rocket Drill Safety Manual
+				["coord"] = { 72.9, 73.2, THE_RINGING_DEEPS },
 				["questID"] = 86570,
 			}),
 			o(502914, {	-- Extractor Drill X-78 Safety Guide
+				["coord"] = { 67.3, 98.1, THE_RINGING_DEEPS },
 				["questID"] = 86569,
 			}),
 		}),

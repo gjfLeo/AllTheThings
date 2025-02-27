@@ -8,6 +8,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["crs"] = {
 					231012,	-- Candy Stickemup
 					230828,	-- Chief Foreman Gutso
+					231310,	-- Darkfuse Precipitant
 					230746,	-- Ephemeral Agent Lathyd
 					230840,	-- Flyboy Snooty
 					234499,	-- Glovante
@@ -100,7 +101,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			--n(234621, {	-- Gallagio Garbage <Luxury Trash>
 			-- Under Expansion Features => Scrap
 			n(234499, {	-- Glovante
-				["description"] = "Can be summoned by someone who has contract with Steamwheedle Cartel",
+				["description"] = "Can be summoned by anyone who has a contract with the Steamwheedle Cartel.",
 				["coord"] = { 32.0, 76.5, UNDERMINE },
 				["questID"] = 86307,
 				["g"] = {
@@ -117,9 +118,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(234480, {	-- M.A.G.N.O. (Aurumensis)
-				["description"] = "Can be summoned by someone who has contract with Bilgewater Cartel",
+				["description"] = "Can be summoned by anyone who has a contract with the Bilgewater Cartel.",
 				["coord"] = { 36.7, 26.3, UNDERMINE },
 				["questID"] = 86298,
+				["g"] = {
+					i(235835),	-- Braided Wire Wrap
+				},
 			}),
 			n(230995, {	-- Nitro
 				["coord"] = { 47.0, 55.7, UNDERMINE },
@@ -160,7 +164,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(233471, {	-- Scrapchewer
-				["description"] = "Can be summoned by someone who has contract with Venture Co.",
+				["description"] = "Can be summoned by anyone who has a contract with the Venture Co.",
 				["coord"] = { 56.8, 79, UNDERMINE },
 				["questID"] = 85778,
 			}),
@@ -224,15 +228,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(233472, {	-- Volstrike the Charged
-				["description"] = "Can be summoned by someone who has contract with Blackwater Cartel",
+				["description"] = "Can be summoned by anyome who has a contract with the Blackwater Cartel.",
 				["coord"] = { 62.7, 26.1, UNDERMINE },
 				["questID"] = 85777,
-			}),
-			-- TODO: Sort it when you find them
-			n(231310, {	-- The Darkfuse Precipitant
-				-- NYI?
-				--["coord"] = { x, y, UNDERMINE },
-				--["questID"] = xx,
 			}),
 		}),
 	}),
