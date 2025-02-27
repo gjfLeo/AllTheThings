@@ -106,6 +106,21 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(147901, {	-- Luminous Starseeker (MOUNT!)
 			["timeline"] = { ADDED_7_3_0 },
 		}),
+		mount(473745, {	-- Meeksi Brewthief
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+		}),
+		mount(473743, {	-- Meeksi Rollingpaw
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+		}),
+		mount(473739, {	-- Meeksi Rufflefur
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+		}),
+		mount(473741, {	-- Meeksi Softpaw
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+		}),
+		mount(473744, {	-- Meeksi Teatuft
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+		}),
 		i(122469, {	-- Mystic Runesaber (MOUNT!)
 			["timeline"] = { ADDED_6_1_0 },
 		}),
@@ -119,10 +134,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_8_0_1 },
 		}),
 		i(233019, {	-- Sky Witch's Sweeper (MOUNT!)
-			["timeline"] = { ADDED_11_0_7, "removed 11.1.7.99999" },	-- Removed March 31, 2025
+			["timeline"] = { ADDED_11_0_7, "removed 11.1.5.99999" },	-- Removed March 31, 2025
 		}),
 		i(212228, {	-- Soaring Sky Fox (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.1.7.99999" },	-- Removed March 31, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.1.5.99999" },	-- Removed March 31, 2025
 		}),
 		mount(308078, {	-- Squeakers, the Trickster (MOUNT!)
 			["timeline"] = { ADDED_8_3_0 },

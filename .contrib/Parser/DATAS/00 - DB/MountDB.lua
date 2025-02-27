@@ -1983,6 +1983,11 @@ i(229941, 466017);	-- Innovation Investigator
 i(0, 468068);		-- Junkmaestro's Magnetomech
 i(229954, 466025);	-- Margin Manipulator
 i(229956, 466028);	-- Mean Green Flying Machine
+i(0, 473745);		-- Meeksi Brewthief
+i(0, 473743);		-- Meeksi Rollingpaw
+i(0, 473739);		-- Meeksi Rufflefur
+i(0, 473741);		-- Meeksi Softpaw
+i(0, 473744);		-- Meeksi Teatuft
 i(229946, 466013);	-- Ocher Delivery Rocket
 i(229949, 466020);	-- Personalized Goblin S.C.R.A.Per
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
