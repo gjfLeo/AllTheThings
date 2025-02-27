@@ -155,7 +155,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 			},
 		}),
-	}),
+	})),
 	n(DELVES_TWW_S2, {	-- Includes Demolition Dome
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
