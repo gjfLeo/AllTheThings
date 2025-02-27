@@ -14,7 +14,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					{ "i", 234420, 1 },	-- Handcrank Mounting System
 				},
 			}),
-			i(234741),	-- Miscellaneous Mechanica (TODO: possibly only drop from rares, if so - move under rare/common drop)
 			i(232983, {	-- Steamboil (MM!)
 				["cost"] = {
 					{ "i", 234416, 1 },	-- Steamboil Casing

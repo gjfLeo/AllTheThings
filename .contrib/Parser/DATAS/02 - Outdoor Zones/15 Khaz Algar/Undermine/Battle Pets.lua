@@ -8,7 +8,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			pet(4693),	-- Alchemical Runoff
 			pet(4656),	-- Bombshell Crab
 			pet(4658),	-- Cave Crab
+			pet(4663),	-- Lime Roboclucker
 			pet(4660),	-- Paleshell Crab
+			pet(4667),	-- Spring-Loaded Ribbitron
 			pet(4668),	-- Ultrahopper EX
 			pet(4654),	-- Underroach
 			pet(4662),	-- Varmint MK II

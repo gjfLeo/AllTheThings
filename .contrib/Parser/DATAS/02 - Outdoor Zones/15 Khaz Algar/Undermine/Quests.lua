@@ -311,7 +311,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["coord"] = { 46.0, 78.6, UNDERMINE },
 						["g"] = {
 							o(452867, {	-- Employee Schedule
-								i(226380),	-- Employee Schedule (QI!)
+								["coords"] = {
+									{ 46.7, 86.1, UNDERMINE },
+									{ 48.0, 85.9, UNDERMINE },
+									{ 49.5, 87.9, UNDERMINE },
+								},
+								["g"] = { i(226380) },	-- Employee Schedule (QI!)
 							}),
 						},
 					}),

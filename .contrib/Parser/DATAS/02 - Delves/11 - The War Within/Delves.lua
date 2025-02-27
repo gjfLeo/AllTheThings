@@ -925,6 +925,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						}),
 					}),
 				}),
+				filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+					i(235617), 	-- Lucky Goblin's Strapped Rockets
+				})),
 				filter(TOYS, {
 					i(225910),	-- Pileus Delight (TOY!)
 				}),
@@ -2497,7 +2500,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
 					filter(COSMETIC, {
-						i(235617), 	-- Lucky Goblin's Strapped Rockets
+						i(235615),	-- Rusty Gobjets
 					}),
 				}),
 			}),

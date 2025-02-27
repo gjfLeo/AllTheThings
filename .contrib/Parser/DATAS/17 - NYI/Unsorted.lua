@@ -53,7 +53,6 @@ root(ROOTS.Unsorted, {
 				i(233348),	-- Power-Washed Shoulderguards
 				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
-				i(233485),	-- Lucky-Streak Band
 				i(233527),	-- Gold-Plated Glaive
 				i(233528),	-- Gold-Plated Shield
 				i(233529),	-- Gold-Plated Cinderbrew Bottle
@@ -104,8 +103,6 @@ root(ROOTS.Unsorted, {
 				i(235812),	-- Shoulderguards of Fraying Sanity
 
 				-- Armor/Cosmetic Delves or Quest?
-				i(235507),	-- Might-Be-Invisible Drape
-				i(235615),	-- Rusty Gobjets
 				i(235616),	-- True Speed Goblin-Thruster
 			}),
 			filter(BATTLE_PETS, {
@@ -587,12 +584,6 @@ root(ROOTS.Unsorted, {
 				i(232782),	-- Trigger-Sniffer's Greaves
 				i(232784),	-- Stagecrasher's Legguards
 				i(232786),	-- Trigger-Sniffer's Handwraps
-				i(235300),	-- Cloak of Mecha Shards
-				i(235301),	-- Drape of the Dazzling Feather
-				i(235305),	-- Golfer's Truestrike Gloves
-				i(235308),	-- Filthtread Boots
-				i(235350),	-- Void-forged Cudgel
-				i(235352),	-- Netherflare Wand
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
@@ -609,7 +600,6 @@ root(ROOTS.Unsorted, {
 				i(235832),	-- Oil-Splattered Cloak
 				i(235833),	-- Serrated Slickgrip
 				i(235834),	-- Rocketgrip Turboslicer
-				i(235836),	-- Gas-Powered Chainblade
 			}),
 			n(SETS, {	-- Tier Sets/Raid
 				i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket

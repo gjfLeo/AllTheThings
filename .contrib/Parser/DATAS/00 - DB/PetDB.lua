@@ -4336,31 +4336,31 @@ n(231570, 4658);	-- Cave Crab
 n(222420, 4484);	-- Frenzied Bloodtick
 n(222592, 4507);	-- Hemospore
 n(231572, 4659);	-- Kaja Crab
+n(231579, 4663);	-- Lime Roboclucker
 n(231574, 4660);	-- Paleshell Crab
+n(231684, 4667);	-- Spring-Loaded Ribbitron
 n(231616, 4666);	-- Tropical Frog
 n(231686, 4668);	-- Ultrahopper EX
 n(231481, 4654);	-- Underroach
 n(231577, 4662);	-- Varmint MK II
 n(231567, 4657);	-- Venture Bombshell
 n(231477, 4651);	-- Wily Rat
+--- TRAINER ---
+i(0, 4741);	-- Cannoneer
+i(0, 4739);	-- Fancier Rat
+i(0, 4740);	-- Handbag Hyena
+i(0, 4742);	-- Lookout
+i(0, 4744);	-- Muddy Croach
+i(0, 4737);	-- Precision Powerdrill
+i(0, 4745);	-- Rusty Croach
+i(0, 4746);	-- Sooty Croach
+i(0, 4738);	-- Status Symbol
+i(0, 4743);	-- Swabbie
 --- UNSORTED ---
---i(???, 4739);	-- Fancier Rat
 i(235909, 4755);	-- Gleam
 i(232857, 4635);	-- Goggles
 i(232854, 4634);	-- Grinner
---i(???, 4740);	-- Handbag Hyena
 i(232848, 4647);	-- Mr. DELVER
 i(232852, 4636);	-- Mutt
 i(232847, 4646);	-- Personal-Use Sapper
 i(232856, 4633);	-- Scruff
---i(???, 4738);	-- Status Symbol
---- UNSORTED WILD ---
-n(237713, 4741);	-- Cannoneer
-n(231579, 4663);	-- Lime Roboclucker
-n(237714, 4742);	-- Lookout
-n(237720, 4744);	-- Muddy Croach
-n(237701, 4737);	-- Precision Powerdrill
-n(237721, 4745);	-- Rusty Croach
-n(237719, 4746);	-- Sooty Croach
-n(231684, 4667);	-- Spring-Loaded Ribbitron
-n(237715, 4743);	-- Swabbie

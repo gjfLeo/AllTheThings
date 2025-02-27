@@ -6,9 +6,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		n(ZONE_REWARDS, {
 			n(ARMOR, {
 				filter(BACK_F, {
-					i(235508),	-- Might-Be-Invisible Cape (wq)
-					i(233481),	-- Might-Be-Invisible Cloak (cache)
-					i(233482),	-- Might-Be-Invisible Shawl (crate (price surging))
+					i(235508),	-- Might-Be-Invisible Cape
+					i(233481),	-- Might-Be-Invisible Cloak
+					i(235507),	-- Might-Be-Invisible Drape
+					i(233482),	-- Might-Be-Invisible Shawl
 				}),
 				filter(CLOTH, {
 					-- speculated --
@@ -22,8 +23,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233472),	-- Shimmerthread Wristwraps
 				}),
 				filter(FINGER_F, {
-					i(233483),	-- Lucky-Streak Ring (wq)
-					i(233484),	-- Lucky-Streak	Signet (wq)
+					i(233485),	-- Lucky-Streak Band
+					i(233483),	-- Lucky-Streak Ring
+					i(233484),	-- Lucky-Streak	Signet
 				}),
 				filter(LEATHER, {
 					i(233464),	-- Rebel Spike Bindings
@@ -33,7 +35,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233468),	-- Rebel Spike Headgear
 					i(233465),	-- Rebel Spike Sash
 					i(233471),	-- Rebel Spike Vest
-					i(233470),	-- Rebel Spike Waders (Side Gig quests/druid)
+					i(233470),	-- Rebel Spike Waders
 				}),
 				filter(MAIL, {
 					-- speculated --
@@ -47,7 +49,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233462),	-- Scrapcoil Striders
 				}),
 				filter(NECK_F, {
-					i(233480),	-- Lucky-Streak Pendant (cache)
+					i(233480),	-- Lucky-Streak Pendant
 				}),
 				filter(PLATE, {
 					-- speculated --

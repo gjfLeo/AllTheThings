@@ -162,6 +162,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(85400, {	-- Reduce, Re-ooze, Recycle
 					["coord"] = { 36.6, 59.2, UNDERMINE },	-- TODO: one of it is wrong
 				}),
+				q(85512, {	-- Rooting Out Counterfeits
+					["coord"] = { 26.9, 71.8, UNDERMINE },
+				}),
 				q(85518, {	-- Scalper Scum
 					["coord"] = { 49.9, 33.1, UNDERMINE },
 					["g"] = {

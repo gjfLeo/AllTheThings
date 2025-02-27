@@ -698,6 +698,7 @@ MobileDB.GameObject = {
 	[475990] = true,	-- Junk Pile
 	[478443] = true,	-- Mislaid Curiosity (delve object)
 	[478679] = true,	-- Salvage Part
+	[479594] = true,	-- Depleted Hotrod Battery
 	[487825] = true,	-- Ruffled Pages (q:85589)
 	[494499] = true,	-- Seafarer's Cache
 	[495091] = true,	-- Improvised Explosive

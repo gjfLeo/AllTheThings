@@ -168,10 +168,60 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				224703,	-- Ancient Forged Sword
 				224706,	-- Ancient Forged Warhammer
 			}},
-			--["timeline"] = { REMOVED_11_1_0 },
+			["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 		}),
 		i(235639, {	-- Seasoned Adventurer's Cache
-			--TODO: could be NYI on release?
+			["sym"] = {{"select","itemID", -- [Zone Rewards content]
+				235508,	-- Might-Be-Invisible Cape
+				233481,	-- Might-Be-Invisible Cloak
+				235507,	-- Might-Be-Invisible Drape
+				233482,	-- Might-Be-Invisible Shawl
+				233473,	-- Shimmerthread Cord
+				233476,	-- Shimmerthread Cowl
+				233477,	-- Shimmerthread Handwraps
+				233475,	-- Shimmerthread Leggings
+				233479,	-- Shimmerthread Robes
+				233478,	-- Shimmerthread Sandals
+				233474,	-- Shimmerthread Shoulderpads
+				233472,	-- Shimmerthread Wristwraps
+				233485,	-- Lucky-Streak Band
+				233483,	-- Lucky-Streak Ring
+				233484,	-- Lucky-Streak	Signet
+				233464,	-- Rebel Spike Bindings
+				233467,	-- Rebel Spike Breeches
+				233466,	-- Rebel Spike Epaulets
+				233469,	-- Rebel Spike Grips
+				233468,	-- Rebel Spike Headgear
+				233465,	-- Rebel Spike Sash
+				233471,	-- Rebel Spike Vest
+				233470,	-- Rebel Spike Waders
+				233457,	-- Scrapcoil Belt
+				233456,	-- Scrapcoil Bracers
+				233463,	-- Scrapcoil Chainmail
+				233460,	-- Scrapcoil Coif
+				233459,	-- Scrapcoil Greaves
+				233461,	-- Scrapcoil Grips
+				233458,	-- Scrapcoil Shoulderguards
+				233462,	-- Scrapcoil Striders
+				233480,	-- Lucky-Streak Pendant
+				233448,	-- Mechforged Armplates
+				233455,	-- Mechforged Chestplate
+				233453,	-- Mechforged Gauntlets
+				233449,	-- Mechforged Girdle
+				233452,	-- Mechforged Helm
+				233451,	-- Mechforged Legguards
+				233450,	-- Mechforged Mantle
+				233454,	-- Mechforged Sabatons
+				232485,	-- Mechano-Core Amplifier
+				235467,	-- Ominous Oil Residue
+				235359,	-- Ratfang Toxin
+				232883,	-- Turbo-Drain 5000
+				233531,	-- Gold-Plated Staff
+				233541,	-- Gold-Plated Knife
+				233536,	-- Gold-Plated Rifle
+				233542,	-- Gold-Plated Shank
+				233530,	-- Gold-Plated Spellstaff
+			}},
 			["timeline"] = { ADDED_11_1_0 },
 		}),
 		i(235610, {	-- Seasoned Adventurer's Cache

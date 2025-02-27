@@ -29,8 +29,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					230951,	-- Thwack
 					230946,	-- V.V. Goosworth
 					233472,	-- Volstrike the Charged
-					--TODO: unsorted
-					--231310,	-- The Darkfuse Precipitant
 				},
 				["g"] = {
 					i(234415),	-- Handcrank Casing
@@ -65,6 +63,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["isWeekly"] = true,
 				["g"] = {
 					i(235357),	-- Bulletscar Barricade
+					i(235300),	-- Cloak of Mecha Shards
 					i(235311),	-- Rocket-Powered Shoulderguards
 				},
 			}),
@@ -86,6 +85,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["isWeekly"] = true,
 				["g"] = {
 					i(235309),	-- Gloomshroud Robe
+					i(235352),	-- Netherflare Wand
+					i(235350),	-- Void-forged Cudgel
 				},
 			}),
 			n(230840, {	-- Flyboy Snooty
@@ -93,6 +94,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84911,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235300),	-- Cloak of Mecha Shards
 					i(235351),	-- Hypersteel CX4 Greatsword
 					i(235312),	-- Snooty's Aviator Bindings
 					i(235316),	-- Whirly-Giggle Windwhir Wrap
@@ -124,6 +126,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 86298,
 				["g"] = {
 					i(235835),	-- Braided Wire Wrap
+					i(235300),	-- Cloak of Mecha Shards
+					i(235836),	-- Gas-Powered Chainblade
 				},
 			}),
 			n(230995, {	-- Nitro
@@ -143,6 +147,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 25.3, 36.7, UNDERMINE },
 				["questID"] = 84918,	-- Court of Rats
 				["g"] = {
+					i(235308),	-- Filthtread Boots
 					i(235359),	-- Ratfang Toxin (share with zone reward from cache)
 					i(235326),	-- Ratspit's Heirloom Wristwraps
 					i(235356),	-- Sapper's Spark Reactor
@@ -153,6 +158,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 41.8, 25.3, UNDERMINE },
 				["questID"] = 84922,
 				["g"] = {
+					i(235300),	-- Cloak of Mecha Shards
 					i(235322),	-- Junkyard Clawguards
 					i(235315),	-- Rocketstep Boots
 				},
@@ -161,7 +167,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 68.6, 81.2, UNDERMINE },
 				["questID"] = 84917,	-- Scrapbeak
 				["g"] = {
+					i(235301),	-- Drape of the Dazzling Feather
 					i(235321),	-- Feather-Spike Girdle
+					i(235305),	-- Golfer's Truestrike Gloves
 				},
 			}),
 			n(233471, {	-- Scrapchewer
@@ -211,6 +219,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84884,	-- Junk Wall
 				["isWeekly"] = true,
 				["g"] = {
+					i(235300),	-- Cloak of Mecha Shards
 					i(235351),	-- Hypersteel CX4 Greatsword
 					i(235354),	-- Scrapblaster Lance
 					i(235313),	-- Shockproof Helm
