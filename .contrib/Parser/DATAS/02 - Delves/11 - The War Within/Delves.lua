@@ -76,7 +76,7 @@ local mapped = function(t)
 	return t
 end
 root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-	n(DELVES_TWW_S1, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 } }, {	-- Includes Zekvir's Lair
+	n(DELVES_TWW_S1, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {	-- Includes Zekvir's Lair
 		n(ACHIEVEMENTS, {
 			ach(40446, {	-- I TAKE Candle!
 				["maps"] = KOBOLD_DELVES,
