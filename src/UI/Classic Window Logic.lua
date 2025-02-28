@@ -529,19 +529,6 @@ local function StartMovingOrSizing(self)
 		end
 	end
 end
-local function SearchForMissingItemsRecursively(group, listing)
-	if group.visible then
-		if group.itemID and (group.collectible or (group.total and group.total > 0)) and not app.IsBoP(group) then
-			tinsert(listing, group);
-		end
-		if group.g and group.expanded then
-			-- Go through the sub groups and determine if any of them have a response.
-			for i, subgroup in ipairs(group.g) do
-				SearchForMissingItemsRecursively(subgroup, listing);
-			end
-		end
-	end
-end
 local function RowOnClick(self, button)
 	local reference = self.ref;
 	if reference then
@@ -575,7 +562,7 @@ local function RowOnClick(self, button)
 			local isTSMOpen = TSM_API and TSM_API.IsUIVisible("AUCTION");
 			if isTSMOpen or (AuctionFrame and AuctionFrame:IsShown()) or (AuctionHouseFrame and AuctionHouseFrame:IsShown()) then
 				local missingItems = {};
-				SearchForMissingItemsRecursively(reference, missingItems);
+				app.Search.SearchForMissingItemsRecursively(reference, missingItems);
 				local count = #missingItems;
 				if count < 1 then
 					app.print("No cached items found in search. Expand the group and view the items to cache the names and try again. Only Bind on Equip items will be found using this search.");
@@ -1430,7 +1417,7 @@ local BuildCategory = function(self, headers, searchResults, inst)
 	for key,value in pairs(mostAccessibleSource) do
 		inst[key] = value;
 	end
-	
+
 	local header, headerType = {}, self, nil;
 	for j,o in ipairs(searchResults) do
 		if o.parent then

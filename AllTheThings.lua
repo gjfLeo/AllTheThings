@@ -4574,19 +4574,6 @@ app.AddContentTracking = function(group)
 	end
 end
 end
-local function SearchForMissingItemsRecursively(group, listing)
-	if group.visible then
-		if group.itemID and (group.collectible or (group.total and group.total > 0)) and not app.IsBoP(group) then
-			tinsert(listing, group);
-		end
-		if group.g and group.expanded then
-			-- Go through the sub groups and determine if any of them have a response.
-			for i, subgroup in ipairs(group.g) do
-				SearchForMissingItemsRecursively(subgroup, listing);
-			end
-		end
-	end
-end
 
 function app:CreateMiniListForGroup(group, forceFresh)
 	-- Criteria now show their Source Achievement properly
@@ -4800,7 +4787,7 @@ app.AddEventHandler("RowOnClick", function(self, button)
 				local isTSMOpen = TSM_API and TSM_API.IsUIVisible("AUCTION");
 				if isTSMOpen or (AuctionFrame and AuctionFrame:IsShown()) or (AuctionHouseFrame and AuctionHouseFrame:IsShown()) then
 					local missingItems = {};
-					SearchForMissingItemsRecursively(reference, missingItems);
+					app.Search.SearchForMissingItemsRecursively(reference, missingItems);
 					local count = #missingItems;
 					if count > 0 then
 						if isTSMOpen then
