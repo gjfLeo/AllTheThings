@@ -249,7 +249,6 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(221617),	-- Jewelcrafting Bag
 					i(221717),	-- Jewelcrafting Bag
 					i(222383),	-- Jewelcrafting Bag
-					i(222788),	-- Khaz Algar Unraveling
 					i(221611),	-- Leatherworking Bag
 					i(221711),	-- Leatherworking Bag
 					i(222377),	-- Leatherworking Bag

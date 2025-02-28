@@ -75,6 +75,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				i(233527),	-- Gold-Plated Glaive
 				i(233541),	-- Gold-Plated Knife
 				i(233542),	-- Gold-Plated Shank
+				i(233533),	-- Gold-Plated Spear
 				i(233530),	-- Gold-Plated Spellstaff
 				i(233531),	-- Gold-Plated Staff
 				i(233536),	-- Gold-Plated Rifle

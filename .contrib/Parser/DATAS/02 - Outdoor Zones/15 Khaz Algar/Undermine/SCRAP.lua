@@ -20,7 +20,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				ach(41594),	-- Can You Believe What People Throw Away?
 			}),
 			n(TREASURES, sharedData({ ["repeatable"] = true, }, {
-				-- 0-250 score
+				-- 0-299 score
 				o(516166, {	-- Dented Crate (Blackwater Marina)
 					["coord"] = { 67.4, 29.3, UNDERMINE },
 					["questID"] = 87281,
@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 50.6, 63.8, UNDERMINE },
 					["questID"] = 87275,
 				}),
-				-- 300-499 score?
+				-- 300-500 score
 				o(500750, {	-- Uncovered Strongbox (Blackwater Marina)
 					["coord"] = { 67.3, 29.5, UNDERMINE },
 					["questID"] = 86268,
@@ -58,9 +58,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 69.7, 76.5, UNDERMINE },
 					["questID"] = 86267,
 				}),
-				--o(XXXX, {	-- Uncovered Strongbox (Hovel Hill (North))
-				--	["coord"] = { 31.9, 21.3, UNDERMINE },
-				--	["questID"] = xxx,
+				--o(XXXXX, {	-- Uncovered Strongbox (Hovel Hill (North))
+				--	["coord"] = { 32.1, 21.6, UNDERMINE },
+				--	["questID"] = 86262,
 				--}),
 				o(500755, {	-- Uncovered Strongbox (Hovel Hill (South))
 					["coord"] = { 36.3, 44.8, UNDERMINE },
@@ -78,35 +78,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 50.6, 63.7, UNDERMINE },
 					["questID"] = 86265,
 				}),
-				-- 500 score?
-				--o(XXXX, {	-- ??? (Blackwater Marina)
-				--	["coord"] = { 67.4, 29.3, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- ??? (Emerald Hills Golf Course)
-				--	["coord"] = { 69.7, 76.5, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- ??? (Hovel Hill (North))
-				--	["coord"] = { 31.9, 21.3, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- ??? (Hovel Hill (South))
-				--	["coord"] = { 36.1, 45.1, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- ??? (The Heaps)
-				--	["coord"] = { 52.4, 83.0, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- ??? (The Vatworks)
-				--	["coord"] = { 38.4, 80.9, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
-				--o(XXXX, {	-- ??? (Venturewood)
-				--	["coord"] = { 50.6, 63.8, UNDERMINE },
-				--	["questID"] = xxx,
-				--}),
 			})),
 			n(QUESTS, {
 				q(85879, {	-- Reduce, Reuse, Resell

@@ -244,10 +244,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235306),	-- Ooze-fused Mantle
 				},
 			}),
-			n(233472, {	-- Volstrike the Charged
+			n(233472, {	-- Voltstrike the Charged
 				["description"] = "Can be summoned by anyome who has a contract with the Blackwater Cartel.",
 				["coord"] = { 62.7, 26.1, UNDERMINE },
 				["questID"] = 85777,
+				["g"] = {
+					i(235827),	-- Statically Charged Vest
+				},
 			}),
 		}),
 	}),

@@ -18,9 +18,24 @@ root("Zones", m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2 } }, {
 					["coord"] = { 32.9, 81.5, 2109 },
 					["g"] = {
 						i(193481),	-- Emblazoned Ruby Staff
-						i(187852),	-- Stack of Weapons (QI!)
-						i(187853),	-- Crate of Warscales (QI!)
-						i(187855),	-- Decayed Rations (QI!)
+						o(370528, {	-- Crate of Warscale Armor
+							["coord"] = { 38.7, 51.6, 2109},
+							["g"] = {
+								i(187853),	-- Crate of Warscales (QI!)
+							},
+						}),
+						o(370526, {	-- Rations
+							["coord"] = { 34.4, 61.6, 2109 },
+							["g"] = {
+								i(187855),	-- Decayed Rations (QI!)
+							},
+						}),
+						o(370527, {	-- Weapon Rack
+							["coord"] = { 44.9, 66.2, 2109 },
+							["g"] = {
+								i(187852),	-- Stack of Weapons (QI!)
+							},
+						}),
 					},
 				}),
 				q(64866, {	-- Into the Cauldron
@@ -185,14 +200,17 @@ root("Zones", m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2 } }, {
 				}),
 				q(65057, {	-- Rally to Emberthal
 					["sourceQuests"] = { 65052 },	-- The Ebon Scales
-					["provider"] = { "n", 182275 },	-- Scalecommander Sarkareth
+					["providers"] = {
+						{ "n", 182275 },	-- Scalecommander Sarkareth
+						{ "n", 182297 },	-- Scalecommander Sarkareth	(as of 11.0.7; 2/24/2025)
+					},
 					["coord"] = { 81.2, 54.0, THE_FORBIDDEN_REACH_DRACTHYR },
 				}),
 				------ Chapter 5 ------
 				q(65701, {	-- Preservation or Devastation
 					["sourceQuests"] = { 65057 },	-- Rally to Emberthal
 					["provider"] = { "n", 182258 },	-- Scalecommander Emberthal
-					["coord"] = { 44.8, 54.7, THE_FORBIDDEN_REACH_DRACTHYR },
+					["coord"] = { 44.8, 57.7, THE_FORBIDDEN_REACH_DRACTHYR },
 					["g"] = {
 						i(191808),	-- Crimson Dracthyr Battlegear Leggings
 					},
@@ -200,7 +218,7 @@ root("Zones", m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2 } }, {
 				q(65084, {	-- The Froststone Vault
 					["sourceQuests"] = { 65701 },	-- Preservation or Devastation
 					["provider"] = { "n", 182258 },	-- Scalecommander Emberthal
-					["coord"] = { 44.8, 54.7, THE_FORBIDDEN_REACH_DRACTHYR },
+					["coord"] = { 44.8, 57.7, THE_FORBIDDEN_REACH_DRACTHYR },
 				}),
 				q(65087, {	-- The Prize Inside
 					["sourceQuests"] = { 65084 },	-- The Froststone Vault
@@ -226,7 +244,10 @@ root("Zones", m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2 } }, {
 				}),
 				q(65100, {	-- Final Orders
 					["sourceQuests"] = { 65098 },	-- The Consequence of Courage
-					["provider"] = { "n", 182441 },	-- Scalecommander Emberthal
+					["providers"] = {
+						{ "n", 182441 },	-- Scalecommander Emberthal
+						{ "n", 191780 },	-- Scalecommander Emberthal (as of 11.0.7; 2/24/2025)
+					},
 					["coord"] = { 41.7, 44.5, THE_FORBIDDEN_REACH_DRACTHYR },
 					["g"] = {
 						i(193916),	-- Dragonkin Signet Ring

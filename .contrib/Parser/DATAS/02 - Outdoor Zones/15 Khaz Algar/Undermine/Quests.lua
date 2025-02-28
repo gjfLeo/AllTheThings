@@ -660,12 +660,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			header(HEADERS.AchCriteria, 40894.02, {	-- Fore!
 				q(84140, {	-- Can-Do-Caddy
-					--["sourceQuests"] = { xx },	-- TODO: should be something at the end of main story
+					["sourceQuests"] = { 83176 },	-- Just a Hunch
 					["provider"] = { "n", 228158 },	-- Ripsnoodle
 					["coord"] = { 65.2, 59.8, UNDERMINE },
 				}),
 				q(84141, {	-- Scam Cans
-					--["sourceQuests"] = { xx },	-- TODO: should be something at the end of main story
+					["sourceQuests"] = { 83176 },	-- Just a Hunch
 					["provider"] = { "n", 228158 },	-- Ripsnoodle
 					["coord"] = { 65.2, 59.8, UNDERMINE },
 				}),
@@ -813,8 +813,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.06, {	-- Copyright Infringement
-				q(83442, {	-- Copyright Infringement
-					--["sourceQuests"] = { xx },	-- TODO: ??
+				q(83442, {	-- Tossed and Torqued
+					["sourceQuests"] = { 83176 },	-- Just a Hunch
 					["provider"] = { "n", 226569 },	-- Snap Vellumgrease
 					["coord"] = { 32.2, 31.0, UNDERMINE },
 					["g"] = {
@@ -1011,13 +1011,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				q(86408, {	-- Home Sweet Home
 					["sourceQuests"] = { 84381 },	-- Renegotiations
 					["provider"] = { "n", 228857 },	-- Mama Keara
-					["coord"] = { 40.2, 72.5, UNDERMINE },
+					["coord"] = { 39.5, 68.5, UNDERMINE },
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.11, {	-- G.E.T.A.
 				q(84885, {	-- Working for G.E.T.A.
 					["sourceQuests"] = { 83130 },	-- Sour Victory
-					["provider"] = { "o", 456747 },	-- Gig Sheets (TODO: possibly more sourced since saw in different places)
+					["providers"] = {
+						{ "o", 456747 },	-- Gig Sheets (TODO: possibly more sourced since saw in different places)
+						{ "o", 467447 },	-- G.E.T.A. Needs You!
+					},
 					["coord"] = { 42.7, 52.8, UNDERMINE },	-- TODO: ^
 				}),
 				q(84892, {	-- G.E.T.A. The Crocodillian
@@ -1077,7 +1080,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						84301,	-- Mineral Madness
 						84300,	-- Refine, Repair, Repeat
 					},
-					["provider"] = { "n", 229204 },	-- Jazz Mokkitz
+					["providers"] = {
+						{ "n", 229204 },	-- Jazz Mokkitz	// TODO: PTR quest giver id is different?
+						{ "n", 228566 },	-- Jazz Mokkitz
+					},
 					["coord"] = { 22.5, 59.3, ZULDAZAR },
 				}),
 				q(84304, {	-- A Gem-Splitting Headache
@@ -1212,7 +1218,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			q(87581, {	-- No More Walkin' Here
-				["sourceQuests"] = { 83167 },	-- Eyes from Above (TODO: speculation)
+				["sourceQuests"] = { 83167 },	-- Eyes from Above
 				["provider"] = { "n", 238946 },	-- Gas Grimeshank
 				["coord"] = { 43.2, 59.4, UNDERMINE },
 				["g"] = {
@@ -1252,6 +1258,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			-- Side Gig stuff (weekly for new area in Ringing Deeps/Kaja-Coast)
 			-- doesn't required to sign up contract (choose faction)
 			-- possible sourceQuest is some hqt for progressing campaign chapters at least once, not available immediately
+			-- Kaja'coast unlocked after questID 83130
 			q(85944, {	-- Side Gig: Blood Type
 				--["sourceQuests"] = { xx },	-- HQT: Undermine renown faction unlock
 				["provider"] = { "n", 231062 },	-- Torky Greasepalm
@@ -1365,7 +1372,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			-- Unsure
 			-- TODO: account wide
 			q(87496, {	-- Benefit Packages
-				["sourceQuests"] = { 83096 },	-- Welcome to Undermine
+				["sourceQuests"] = { 83096 },	-- Welcome to Undermine (TODO: it is up during this quests so should fire inaccurate?)
 				["provider"] = { "n", 231049 },	-- Kaydee Racketting
 				["coord"] = { 42.8, 52.2, UNDERMINE },
 			}),

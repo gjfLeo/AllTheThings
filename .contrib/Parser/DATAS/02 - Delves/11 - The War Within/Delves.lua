@@ -2939,7 +2939,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 				q(85649, {	-- Delver's Call: The Waterworks
 					["provider"] = { "o", 487815 },	-- DELVER'S CALL: The Waterworks
-					["coord"] = { 46.6, 17.7, THE_WATERWORKS },
+					["coord"] = { 46.6, 17.7, THE_WATERWORKS },	-- TODO: as of 11.1 report coords are shifted to 46.6, 15.2?
 				}),
 			}),
 			n(TREASURES, {

@@ -83,12 +83,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	m(KHAZ_ALGAR, {
 		m(UNDERMINE, {
 			n(SHIPPING_AND_HANDLING, {
-			-- Job Streak give reward after first 10 delivery job in row per character (was itemID 233264 for me), no hqt
+			-- Job Streak give reward after first 10 delivery job in row per character (could be shared with scrap boxes?)
 				i(237126),	-- Laundered Cape
 				i(233266),	-- Laundered Cord
 				--i(233263),	-- Laundered Cowl
 				--i(233267),	-- Laundered Cuffs
-				--i(233262),	-- Laundered Handwraps
+				i(233262),	-- Laundered Handwraps
 				i(233264),	-- Laundered Leggings
 				--i(233261),	-- Laundered Sandals
 				--i(233265),	-- Laundered Shoulderpads

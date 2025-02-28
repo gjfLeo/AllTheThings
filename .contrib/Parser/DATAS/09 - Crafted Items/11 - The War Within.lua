@@ -2565,6 +2565,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(222871),	-- Duskthread Lining+
 			i(222872),	-- Duskthread Lining++
 			i(222873),	-- Duskthread Lining+++
+			i(222788),	-- Khaz Algar Unraveling
 			i(222876),	-- Gritty Polishing Cloth+
 			i(222877),	-- Gritty Polishing Cloth++
 			i(222878),	-- Gritty Polishing Cloth+++

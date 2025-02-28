@@ -33,7 +33,6 @@ root(ROOTS.Unsorted, {
 				-- wtf is this :( Zonedrop/Zone rewards
 				i(233260),	-- Laundered Vestment
 				i(233261),	-- Laundered Sandals
-				i(233262),	-- Laundered Handwraps
 				i(233263),	-- Laundered Cowl
 				i(233265),	-- Laundered Shoulderpads
 				i(233267),	-- Laundered Cuffs
@@ -55,7 +54,6 @@ root(ROOTS.Unsorted, {
 				i(233528),	-- Gold-Plated Shield
 				i(233529),	-- Gold-Plated Cinderbrew Bottle
 				i(233532),	-- Gold-Plated Polearm
-				i(233533),	-- Gold-Plated Spear
 				i(233534),	-- Gold-Plated Broadsword
 				i(233537),	-- Gold-Plated Sword
 				i(233538),	-- Gold-Plated Blade
@@ -440,8 +438,6 @@ root(ROOTS.Unsorted, {
 					i(230931),	-- Formula: Enchanted Weathered Undermine Crest
 					i(230932),	-- Formula: Enchanted Runed Undermine Crest
 					i(230933),	-- Formula: Enchanted Gilded Undermine Crest
-					i(230935),	-- Enchanted Gilded Undermine Crest
-					i(230937),	-- Enchanted Weathered Undermine Crest
 					i(230985),	-- Nascent Runed Undermine Crest
 					i(230986),	-- Nascent Gilded Undermine Crest
 					i(230987),	-- Nascent Weathered Undermine Crest
@@ -583,7 +579,6 @@ root(ROOTS.Unsorted, {
 				i(235822),	-- Coin-Woven Shawl
 				i(235823),	-- Scrap-Plated Pants
 				i(235826),	-- Electric Wristrags
-				i(235827),	-- Statically Charged Vest
 				i(235828),	-- Electrocution Warning
 				i(235829),	-- Welded Scrap Hood
 				i(235830),	-- Unstable Missilecaps

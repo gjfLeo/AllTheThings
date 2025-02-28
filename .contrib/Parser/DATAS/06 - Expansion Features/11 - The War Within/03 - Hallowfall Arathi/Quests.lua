@@ -46,9 +46,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["provider"] = { "n", 215527 },	-- Keyrra Flamestonge
 					["coord"] = { 65.5, 32.2, HALLOWFALL },
 					["g"] = {
-						i(219499),	-- Dalian Ironlink's Tinderbox (QI!)
 						i(219453),	-- Idona Seerstone's Tinderbox (QI!)
 						i(219451),	-- Oskaer Daleclash's Tinderbox (QI!)
+						o(439789, {	-- Dalian Ironlink's Tinderbox
+							["coord"] = { 67.0, 20.9, HALLOWFALL },
+							["g"] = {
+								i(219499),	-- Dalian Ironlink's Tinderbox (QI!)
+							},
+						}),
 					},
 				}),
 				q(81673, {	-- Honor Your Efforts

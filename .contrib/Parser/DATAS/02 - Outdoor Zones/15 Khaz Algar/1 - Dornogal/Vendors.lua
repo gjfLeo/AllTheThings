@@ -409,6 +409,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					iensemble(219126),	-- Woven Artisan's Talent
 				}),
 			}),
+			n(234906, {	-- Syenite
+				["coord"] = { 58.0, 56.8, DORNOGAL },
+				["timeline"] = { ADDED_11_1_0 },
+				["g"] = {
+					i(230937),	-- Enchanted Weathered Undermine Crest
+					i(230936),	-- Enchanted Runed Undermine Crest
+					i(230935),	-- Enchanted Gilded Undermine Crest
+				},
+			}),
 			n(219226, {	-- Vaskarn
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["g"] = {
