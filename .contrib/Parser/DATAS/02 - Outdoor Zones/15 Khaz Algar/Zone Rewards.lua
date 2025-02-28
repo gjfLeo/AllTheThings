@@ -89,8 +89,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			i(224709),	-- Ancient Forged Staff
 			i(224703),	-- Ancient Forged Sword
 			i(224706),	-- Ancient Forged Warhammer
-			i(233540),	-- Gold-Plated Cudgel
-			i(233535),	-- Gold-Plated Greatsword
 		}),
 		--
 		i(229354, {	-- Algari Adventurer's Cache
@@ -216,11 +214,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				235467,	-- Ominous Oil Residue
 				235359,	-- Ratfang Toxin
 				232883,	-- Turbo-Drain 5000
-				233531,	-- Gold-Plated Staff
+				233540,	-- Gold-Plated Cudgel
+				233535,	-- Gold-Plated Greatsword
+				233527,	-- Gold-Plated Glaive
 				233541,	-- Gold-Plated Knife
-				233536,	-- Gold-Plated Rifle
 				233542,	-- Gold-Plated Shank
 				233530,	-- Gold-Plated Spellstaff
+				233531,	-- Gold-Plated Staff
+				233536,	-- Gold-Plated Rifle
 			}},
 			["timeline"] = { ADDED_11_1_0 },
 		}),

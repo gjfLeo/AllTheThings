@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
 						}),
 						i(232986, {	-- GE86 Advance (MM!)
-							["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
+							["cost"] = {{ "c", 3218, 2000 }},	-- Empty Kaja'Cola Can
 						}),
 						i(233558, {	-- S.C.R.A.P. Scrubber Deluxe
 							["cost"] = {{ "i", 233246, 1 }},	-- Gunk-Covered Thingy
@@ -177,14 +177,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 								-- TODO: Items is guessed based on id range/names
 								-- TODO: remove from unsorted things that confirmed & uncomment stuff
 								-- Some of these have appeared from Job Streak, move to zone rewards?
-								--i(233260),	-- Laundered Vestment
-								--i(233261),	-- Laundered Sandals
-								--i(233262),	-- Laundered Handwraps
-								--i(233263),	-- Laundered Cowl
-								--i(233264),	-- Laundered Leggings	TODO: on previous builds it was rng reward from job streak from DRIVE/Surge Pricing
-								--i(233265),	-- Laundered Shoulderpads
-								i(233266),	-- Laundered Cord
-								--i(233267),	-- Laundered Cuffs
 								--i(233335),	-- Upcycled Jerkin
 								--i(233336),	-- Upcycled Waders
 								--i(233337),	-- Upcycled Gloves

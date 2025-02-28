@@ -52,7 +52,6 @@ root(ROOTS.Unsorted, {
 				i(233348),	-- Power-Washed Shoulderguards
 				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
-				i(233527),	-- Gold-Plated Glaive
 				i(233528),	-- Gold-Plated Shield
 				i(233529),	-- Gold-Plated Cinderbrew Bottle
 				i(233532),	-- Gold-Plated Polearm

@@ -70,11 +70,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 			}),
 			n(WEAPONS, {
-				i(233531),	-- Gold-Plated Staff
+				i(233540),	-- Gold-Plated Cudgel
+				i(233535),	-- Gold-Plated Greatsword
+				i(233527),	-- Gold-Plated Glaive
 				i(233541),	-- Gold-Plated Knife
-				i(233536),	-- Gold-Plated Rifle
 				i(233542),	-- Gold-Plated Shank
 				i(233530),	-- Gold-Plated Spellstaff
+				i(233531),	-- Gold-Plated Staff
+				i(233536),	-- Gold-Plated Rifle
 			}),
 			-- unsure where to put it atm
 			i(236961, {	-- Inoperative Gorillion (QS!)
