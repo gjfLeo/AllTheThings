@@ -107,19 +107,19 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_7_3_0 },
 		}),
 		i(233286, {	-- Meeksi Brewthief
-			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 28, 2025
 		}),
 		i(233284, {	-- Meeksi Rollingpaw
-			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 28, 2025
 		}),
 		i(233282, {	-- Meeksi Rufflefur
-			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 28, 2025
 		}),
 		i(233283, {	-- Meeksi Softpaw
-			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 28, 2025
 		}),
 		i(233285, {	-- Meeksi Teatuft
-			["timeline"] = { ADDED_11_1_0, "removed 11.1.5.99999" },	-- Removed April 20, 2025
+			["timeline"] = { ADDED_11_1_0 },
 		}),
 		i(122469, {	-- Mystic Runesaber (MOUNT!)
 			["timeline"] = { ADDED_6_1_0 },
