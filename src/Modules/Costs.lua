@@ -34,8 +34,10 @@ local function ToggleExtraFilters(active)
 	end
 end
 
+local Depth = 0
 local CostDebugIDs = {
 	["ALL"] = true,
+	["DEPTH"] = 10,
 	-- [209944] = true,	-- Friendsurge Defenders
 	-- [2118] = true,	-- Elemental Overflow
 	-- [195496] = true,	-- Eye of the Vengeful Hurricane
@@ -43,16 +45,25 @@ local CostDebugIDs = {
 	-- [24449] = true,	-- Fertile Spores
 	-- [1885] = true,	-- Grateful Offering
 	-- [168946] = true,	-- Bundle of Recyclable Parts
+	-- [175140] = true,	-- All-Seeing Eyes
+	-- [175141] = true,	-- All-Seeing Left Eye
+	-- [175142] = true,	-- All-Seeing Right Eye
+	-- [207026] = true,	-- Dreamsurge Coalescence
 }
 local function PrintDebug(id, ...)
-	if CostDebugIDs.ALL or CostDebugIDs[id] then
-		app.PrintDebug(...)
+	if CostDebugIDs.ALL then
+		app.PrintDebug("DEBUG.ALL",id,...)
+	elseif CostDebugIDs[id] then
+		app.PrintDebug("DEBUG.ID",id,...)
+	elseif Depth >= (CostDebugIDs.DEPTH or 999999) then
+		app.PrintDebug("DEBUG.DEPTH:",Depth,...)
 	end
 end
 
 -- Function which returns if a Thing has a cost based on a given 'ref' Thing, which has been previously determined as a
 -- possible collectible without regard to filtering
 local function CheckCollectible(ref, costid)
+	-- Depth = Depth + 1
 	-- Only track Costs through Things which are Available
 	if not IsAvailable(ref) then
 		-- app.PrintDebug("Non-available Thing blocking Cost chain",app:SearchLink(ref))
@@ -68,8 +79,10 @@ local function CheckCollectible(ref, costid)
 	local g = ref.g;
 	if g then
 		local o;
+		-- local subDepth = Depth
 		for i=1,#g do
 			o = g[i];
+			-- Depth = subDepth
 			if CheckCollectible(o) then
 				-- PrintDebug(costid, "Purchase via sub-group Collectible",app:SearchLink(ref),"<=",app:SearchLink(o))
 				return true
@@ -85,8 +98,10 @@ local function CheckCollectible(ref, costid)
 	-- If this group has sym results, are any of them collectible?
 	if symresults then
 		local o;
+		-- local subDepth = Depth
 		for i=1,#symresults do
 			o = symresults[i];
+			-- Depth = subDepth
 			if CheckCollectible(o) then
 				-- PrintDebug(costid, "Purchase via sym-result Collectible",app:SearchLink(ref),"<=",app:SearchLink(o))
 				return true
@@ -171,15 +186,13 @@ local function SetCostTotals(costs, isCost, refresh)
 	end
 end
 local function DoCollectibleCheckForItemRef(ref, itemID)
+	-- Depth = 0
 	if not CheckCollectible(ref, itemID) then return end
 	local refproviders = ref.providers
 	if refproviders and type(refproviders) == "table" then
 		for _,providerCheck in ipairs(refproviders) do
 			if providerCheck[1] == "i" and providerCheck[2] == itemID then
-				-- PrintDebug(itemID, app:SearchLink(costs[1]),isCost and "IS PROV" or "NOT PROV","with owned:",PlayerHasToy(itemID) or GetItemCount(itemID, true, nil, true, true) > 0)
-				if not PlayerHasToy(itemID) and GetItemCount(itemID, true, nil, true, true) == 0 then
-					CostTotals.AddItemProvider(itemID)
-				end
+				CostTotals.AddItemProvider(itemID)
 				break
 			end
 		end
@@ -196,6 +209,7 @@ local function DoCollectibleCheckForItemRef(ref, itemID)
 	end
 end
 local function DoCollectibleCheckForCurrRef(ref, currencyID)
+	-- Depth = 0
 	if not CheckCollectible(ref, currencyID) then return end
 	local refcosts = ref.cost
 	if refcosts and type(refcosts) == "table" then
@@ -208,16 +222,20 @@ local function DoCollectibleCheckForCurrRef(ref, currencyID)
 		end
 	end
 end
+local function PlayerIsMissingProviderItem(itemID)
+	return not PlayerHasToy(itemID) and GetItemCount(itemID, true, nil, true, true) == 0
+end
 local function FinishCostAssignmentsForItem(itemID, costs, refresh)
 	local isProv = CostTotals.ip[itemID]
+	local total = CostTotals.i[itemID] or 0
 	local isCost
-	if not isProv then
-		local total = CostTotals.i[itemID] or 0
+	if total > 0 or not isProv then
 		local owned = total > 0 and GetItemCount(itemID, true, nil, true, true) or 0
 		isCost = total > owned
 		-- PrintDebug(itemID, app:SearchLink(costs[1]),isCost and "IS COST" or "NOT COST","requiring",total,"minus owned:",owned)
 	else
-		-- PrintDebug(itemID, app:SearchLink(costs[1]),"IS PROV")
+		isProv = PlayerIsMissingProviderItem(itemID)
+		-- PrintDebug(itemID, app:SearchLink(costs[1]),isProv and "IS PROV" or "NOT PROV")
 	end
 	SetCostTotals(costs, isCost or isProv, refresh)
 end
@@ -468,12 +486,21 @@ app.CollectibleAsCost = function(t)
 	-- app.PrintDebug("CAC:Check",app:SearchLink(t))
 	t._SettingsRefresh = appSettings;
 	t.isCost = nil;
-	-- mark this group as not collectible by cost while it is processing, in case it has sub-content which can be used to obtain this 't'
-	t.collectibleAsCost = false;
+	-- this group should not be considered collectible as a cost if it is already obtained as a Toy
+	local toyItemID = t.toyID
+	if toyItemID and not PlayerIsMissingProviderItem(toyItemID) then
+		-- PrintDebug(toyItemID, "Not collectibleAsCost since Toy owned!",app:SearchLink(t))
+		CACChain[thash] = nil
+		return
+	end
 	-- check the collectibles if any are considered collectible currently
 	CacheFilters();
+	-- mark this group as not collectible by cost while it is processing, in case it has sub-content which can be used to obtain this 't'
+	t.collectibleAsCost = false;
+	-- local subDepth = Depth
 	for _,ref in ipairs(collectibles) do
 		-- Use the common collectibility check logic
+		-- Depth = subDepth
 		if CheckCollectible(ref) then
 			t.isCost = true;
 			t.collectibleAsCost = nil;
