@@ -2035,6 +2035,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 					["sourceQuests"] = { 78040, 79127, 79128 },	-- The Outland Cup Begins
 					["provider"] = { "n", 206737 },	-- Lord Andestrasz
 					["coord"] = { 26.9, 47.4, VALDRAKKEN },
+					["repeatable"] = true,
 					["g"] = {
 						currency(RIDERS_OF_AZEROTH_BADGE),
 					},
@@ -2651,6 +2652,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 					["sourceQuests"] = { 79131, 79132, 79133 },	-- The Outland Cup Begins
 					["provider"] = { "n", 206737 },	-- Lord Andestrasz
 					["coord"] = { 26.9, 47.4, VALDRAKKEN },
+					["repeatable"] = true,
 					["g"] = {
 						currency(RIDERS_OF_AZEROTH_BADGE),
 					},
