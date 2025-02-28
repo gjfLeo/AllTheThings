@@ -260,9 +260,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							["questID"] = 56303,
 							["coord"] = { 52.9, 62.2, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 							["g"] = {
-								i(175141, {	-- All-Seeing Left Eye
-									i(175140),	-- All-Seeing Eyes (TOY!)
-								}),
+								i(175141),	-- All-Seeing Left Eye
 								i(174474),	-- Corrupted Tentacle (PET!)
 							},
 						}),

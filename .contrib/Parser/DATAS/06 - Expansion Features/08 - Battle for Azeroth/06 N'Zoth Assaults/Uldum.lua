@@ -196,9 +196,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							["questID"] = 57680,
 							["coord"] = { 55.0, 53.0, NZOTH_ASSAULT_ULDUM },
 							["g"] = {
-								i(175142, {	-- All-Seeing Right Eye
-									i(175140),	-- All-Seeing Eyes (TOY!)
-								}),
+								i(175142),	-- All-Seeing Right Eye
 							},
 						}),
 						n(156002, {	-- Harbinger Raloam

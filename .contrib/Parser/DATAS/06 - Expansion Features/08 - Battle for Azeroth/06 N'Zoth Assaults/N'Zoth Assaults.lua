@@ -486,6 +486,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					},
 				}),
 			})),
+			n(SPECIAL, {
+				i(175140, {	-- All-Seeing Eyes (TOY!)
+					["cost"] = {
+						{"i",175142,1},	-- All-Seeing Right Eye
+						{"i",175141,1},	-- All-Seeing Left Eye
+					},
+				}),
+			}),
 			n(ZONE_DROPS, {
 				i(174365),	-- Design: Unbound Leviathan's Eye Loop (RECIPE!)
 				i(174368),	-- Pattern: Unsettling Cragscale Boots (RECIPE!)
