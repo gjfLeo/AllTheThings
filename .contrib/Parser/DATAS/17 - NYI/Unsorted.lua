@@ -152,8 +152,6 @@ root(ROOTS.Unsorted, {
 				i(234575),	-- Topsy Turvy Jester's Blade
 				i(234577),	-- Topsy Turvy Joker's Blade
 				i(234601),	-- Wings of the Icy Rose Monarch
-				i(234602),	-- Wings of the Blood Monarch
-				i(234603),	-- Wings of the Pearlescent Monarch
 				i(234609),	-- Double-Bladed Forest Garden Trowel
 				i(234611),	-- Double-Bladed Butterfly Garden Trowel
 				i(234612),	-- Double-Bladed Blooming Garden Trowel
@@ -167,7 +165,6 @@ root(ROOTS.Unsorted, {
 				i(235021),	-- Vigilante's Sepia Mask
 				i(235022),	-- Vigilante's Grassy Mask
 				i(235023),	-- Vigilante's Cloudy Mask
-				i(235024),	-- Vigilante's Deep Mask
 				i(235025),	-- Vigilante's Camo Mask
 				i(235026),	-- Vigilante's Brick Mask
 				i(235027),	-- Vigilante's Lively Mask
@@ -192,7 +189,6 @@ root(ROOTS.Unsorted, {
 				i(235214),	-- Spring Butterfly Belt
 				i(235215),	-- Midnight Butterfly Belt
 				i(235216),	-- Blood Monarch Belt
-				i(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
 				i(235227),	-- Ensemble: Ornaments of the Spring Butterfly
 				i(235228),	-- Ensemble: Ornaments of the Blood Monarch
 				i(235229),	-- Ensemble: Ornaments of the Midnight Butterfly
@@ -202,7 +198,6 @@ root(ROOTS.Unsorted, {
 				i(235272),	-- Blood Monarch's Mace
 				i(235289),	-- Spring Butterfly Sword
 				i(235290),	-- Pearlescent Monarch's Sword
-				i(235291),	-- Blood Monarch's Sword
 				i(235292),	-- Midnight Butterfly Sword
 				i(235293),	-- Spring Butterfly Wand
 				i(235294),	-- Pearlescent Monarch's Wand
@@ -254,7 +249,6 @@ root(ROOTS.Unsorted, {
 				i(235641),	-- Topsy Turvy Clown's Die
 				i(235642),	-- Topsy Turvy Jester's Die
 				i(235643),	-- Topsy Turvy Joker's Die
-				i(235652),	-- Pearlescent Monarch's Longbow
 				i(235653),	-- Spring Butterfly Longbow
 				i(235654),	-- Midnight Butterfly Longbow
 				i(235655),	-- Blood Monarch's Longbow
@@ -422,7 +416,6 @@ root(ROOTS.Unsorted, {
 				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
-				i(235657),	-- Ruby Butterfly (MOUNT!) [Trading Post?]
 				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]

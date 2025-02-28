@@ -1966,7 +1966,7 @@ i(234721, 1214940);	-- Ur'zul Fleshripper
 -- PATCH 11.1.0 --
 ------------------
 i(229952, 466023);	-- Asset Advocator
-i(0, 466024);		-- Bildewater Bombardier
+i(0, 466024);		-- Bilgewater Bombardier
 i(0, 466001);		-- Blackwater Bonecrusher
 i(229948, 466019);	-- Blackwater Shredder Deluxe Mk 2
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
@@ -1992,6 +1992,7 @@ i(229946, 466013);	-- Ocher Delivery Rocket
 i(229949, 466020);	-- Personalized Goblin S.C.R.A.Per
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
 i(236960, 1221155);	-- Prototype A.S.M.R.
+i(235657, 1218012);	-- Ruby Butterfly
 i(229953, 466026);	-- Salvaged Goblin Gazillionaire's Flying Machine
 i(0, 466014);		-- Steamwheedle Supplier
 i(235626, 1217760);	-- The Big G
@@ -2008,7 +2009,6 @@ i(235555, 1217341);	-- Lively Darkmoon Charger
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(235650, 1217994);	-- Pearlescent Butterfly
-i(235657, 1218012);	-- Ruby Butterfly
 i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly

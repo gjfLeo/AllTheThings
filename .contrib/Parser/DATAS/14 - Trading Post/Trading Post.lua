@@ -2857,6 +2857,36 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			})
 		})),
+		n(MARCH, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, "removed 11.1.0.99999" } }, {	-- TODO: Timeline in, out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				iensemble(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
+			}),
+			filter(MOUNTS, {
+				i(235657, {	-- Ruby Butterfly (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 700}},
+				}),
+			}),
+			filter(COSMETIC, {
+				i(235291, {	-- Blood Monarch's Sword
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(235652, {	-- Pearlescent Monarch's Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(235024, {	-- Vigilante's Deep Mask
+					["cost"] = {{"c", TRADERS_TENDER, 50}},
+				}),
+				i(238394, {	-- Warblades of the Monarch
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(234602, {	-- Wings of the Blood Monarch
+					["cost"] = {{"c", TRADERS_TENDER, 225}},
+				}),
+				i(234603, {	-- Wings of the Pearlescent Monarch
+					["cost"] = {{"c", TRADERS_TENDER, 225}},
+				}),
+			}),
+		})),
 	}),
 }));
 
