@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -543,5 +543,7 @@ namespace ATT
                 if (!predicate(str))
                     yield return str;
         }
+
+        public static T SafeIndex<T>(this T[] vals, int index) => (vals != null && vals.Length > index) ? vals[index] : default;
     }
 }

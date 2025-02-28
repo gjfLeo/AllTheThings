@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -617,7 +617,16 @@ namespace ATT
 
         private static void LuaPrintAsTrace(params object[] args)
         {
-            Framework.Log(string.Join(" ", args));
+            // treat this as an ERROR log if the first arg starts with "ERROR"
+            if (args.SafeIndex(0)?.ToString()?.StartsWith("ERROR") ?? false)
+            {
+                Errored = true;
+                Framework.Log(string.Join(" ", args));
+            }
+            else
+            {
+                Framework.Log(string.Join(" ", args));
+            }
         }
 
         private static void ParseJSONFile(string fileName)
