@@ -443,6 +443,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
 				title(575),	-- <Name> the Bountiful
+				i(237358, {	-- Silver Coffer Key
+					["timeline"] = { ADDED_11_1_0 },
+				}),
 			},
 		}),
 		ach(41097, {	-- Curiosity Never Killed the Looter
@@ -619,6 +622,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(40885, {	-- The Key to Madness
 			["maps"] = ALL_REGULAR_DELVES,
+			["g"] = {
+				i(237355, {	-- Golden Coffer Key
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+			},
 		}),
 		ach(40100, {	-- Undying Caver
 			["maps"] = ALL_REGULAR_DELVES,
@@ -721,6 +729,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(225668),	-- Unstable Power Suit Core
 				i(225891),	-- Vile Vial of Kaheti Bile
 			}),
+		}),
+		filter(TOYS, {
+			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
 		}),
 		n(BOUNTIFUL, bubbleDownFiltered({
 			["cost"] = {{"c", RESTORED_COFFER_KEY, 1}},
@@ -2808,6 +2819,20 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(MISC, {
 				i(216772),	-- Whispering Explosives (QI!)
+				o_repeated(sharedData({	-- Web Bomb
+					["timeline"] = { ADDED_11_1_0 },
+				},{
+					i(234421),	-- Web Bomb (QI!)
+					o(504093),	-- Web Bomb
+					o(504195),	-- Web Bomb
+				})),
+				o_repeated(sharedData({	-- Plundered Artifacts
+					["timeline"] = { ADDED_11_1_0 },
+				},{
+					i(235257),	-- Plundered Artifacts (QI!)
+					o(506525),	-- Web Bomb
+					o(504195),	-- Web Bomb
+				})),
 			}),
 			n(QUESTS, {
 				q(83770, {	-- Delver's Call: Spiral Weave

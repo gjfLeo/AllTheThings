@@ -102,6 +102,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(235822),	-- Coin-Woven Shawl
 						i(235819),	-- Lucky Penny Locket
 						i(235910),	-- Mint Condition Gallagio Anniversary Coin
+						i(235821),	-- Pressed-Gold Pantaloons
 						i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!)
 					},
 				}),

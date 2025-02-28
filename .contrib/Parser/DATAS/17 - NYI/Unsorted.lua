@@ -377,13 +377,11 @@ root(ROOTS.Unsorted, {
 				i(233021),	-- Grappling-Grabber 9000
 				i(233054),	-- Wonder Ball
 				i(233210),	-- Pungent Putrigill
-				i(234421),	-- Web Bomb
 				i(234616),	-- Supreme Mangoro Madness
 				i(234617),	-- Dulux Bluesberry Blast
 				i(234618),	-- Omega Oyster Outbreak
 				i(234619),	-- Ultimate Orange O-pocalypse
 				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
-				i(235257),	-- Plundered Artifact
 				i(235280),	-- Extra Crispy Laundry
 				i(235558),	-- Box of Darkfuse Miscellany
 				i(235627),	-- Scribbles' Favorite Candies
@@ -562,7 +560,6 @@ root(ROOTS.Unsorted, {
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
 				i(235820),	-- Hole-Punched Doubloon
-				i(235821),	-- Pressed-Gold Pantaloons
 				i(235823),	-- Scrap-Plated Pants
 				i(235826),	-- Electric Wristrags
 				i(235828),	-- Electrocution Warning
@@ -638,8 +635,6 @@ root(ROOTS.Unsorted, {
 			i(237345),	-- Limited Edition Rocket Bobber
 			i(237346),	-- Artisan Beverage Goblet Bobber
 			i(237347),	-- Organically-Sourced Wellington Bobber
-			i(237355),	-- Golden Coffer Key
-			i(237358),	-- Siilver Coffer Key
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old
