@@ -1466,11 +1466,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ 49.5, 71.5, HELLFIRE_PENINSULA }, -- Honour Hold, southwest of
 					{ 49.5, 31.3, HELLFIRE_PENINSULA }, -- Stonewall Canyon
 					{ 63.1, 70.7, HELLFIRE_PENINSULA }, -- Zeth'gor, west of
-					{ 72.1, 57.0, HELLFIRE_PENINSULA }, -- The Legion Front South
-					{ 72.8, 42.4, HELLFIRE_PENINSULA }, -- The Legion Front North
-					{ 40.8, 72.5, NETHERSTORM }, -- Arklon Ruins
-					{ 56.4, 60.0, NETHERSTORM }, -- The Vortex Fields west
-					{ 66.3, 61.8, NETHERSTORM }, -- The Vortex Fields east
+					{ 72.1, 57.0, HELLFIRE_PENINSULA },	-- The Legion Front South
+					{ 72.8, 42.4, HELLFIRE_PENINSULA },	-- The Legion Front North
+					{ 40.8, 72.5, NETHERSTORM },	-- Arklon Ruins
+					{ 56.4, 60.0, NETHERSTORM },	-- The Vortex Fields west
+					{ 66.3, 61.8, NETHERSTORM },	-- The Vortex Fields east
 					{ 65.9, 85.0, TEROKKAR_FOREST },	-- Blackwind Lake Southside
 					{ 60.3, 38.7, TEROKKAR_FOREST },	-- Tuurem, southeast of
 					{ 20.6, 73.5, TEROKKAR_FOREST },	-- Veil Lithic, vest of
@@ -1565,12 +1565,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					20673,	-- Swiftwing Shredder
 				},
 				["coords"] = {
-					{ 68.5, 70.55, BLADES_EDGE_MOUNTAINS }, -- Scalewing Shelf
-					{ 66.0, 52.6, BLADES_EDGE_MOUNTAINS }, -- Razor Ridge
-					{ 71.5, 30.1, BLADES_EDGE_MOUNTAINS }, -- Bladed Gulch
-					{ 56.4, 60.0, NETHERSTORM }, -- The Vortex Fields west
-					{ 66.3, 61.8, NETHERSTORM }, -- The Vortex Fields east
-					{ 47.0, 64.5, SHADOWMOON_VALLEY }, -- Eclipse Point
+					{ 68.5, 70.55, BLADES_EDGE_MOUNTAINS },	-- Scalewing Shelf
+					{ 66.0, 52.6, BLADES_EDGE_MOUNTAINS },	-- Razor Ridge
+					{ 71.5, 30.1, BLADES_EDGE_MOUNTAINS },	-- Bladed Gulch
+					{ 56.4, 60.0, NETHERSTORM },	-- The Vortex Fields west
+					{ 66.3, 61.8, NETHERSTORM },	-- The Vortex Fields east
+					{ 47.0, 64.5, SHADOWMOON_VALLEY },	-- Eclipse Point
 				},
 			}),
 		},
