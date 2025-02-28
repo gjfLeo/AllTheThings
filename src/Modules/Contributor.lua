@@ -530,6 +530,7 @@ MobileDB.GameObject = {
 	[322020] = true,	-- Pile of Coins (Armored Vaultbot)
 	[322413] = true,	-- Glimmering Chest
 	[322787] = true,	-- Shrine of Torcali (q:55252)
+	[325875] = true,	-- Osmenite Deposit
 	[326594] = true,	-- Arcane Tome
 	[327230] = true,	-- Jelly Deposit
 	[327576] = true,	-- Glimmering Chest

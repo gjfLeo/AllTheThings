@@ -130,6 +130,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 					--
 					i(235220),	-- Fireworks Hat (TOY!)
+					i(235266),	-- Fireworked Hat
 				},
 			}),
 			o(474397, {	-- Muff's Auto-Locker

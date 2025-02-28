@@ -176,6 +176,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["description"] = "Can be summoned by anyone who has a contract with the Venture Co.",
 				["coord"] = { 56.8, 79, UNDERMINE },
 				["questID"] = 85778,
+				["g"] = {
+					i(235830),	-- Unstable Missilecaps
+				},
 			}),
 			n(230947, {	-- Slimesby (has its own criteria, so listing it to allow automation to nest the criteria into it, seems to only drop junk items however)
 				["crs"] = { 230946 },	-- V.V. Goosworth
@@ -241,6 +244,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84920,
 				["g"] = {
 					i(235329),	-- Cowl of Acidic Mire
+					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235306),	-- Ooze-fused Mantle
 				},
 			}),

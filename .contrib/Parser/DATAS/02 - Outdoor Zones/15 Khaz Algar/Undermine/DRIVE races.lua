@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						41078,	-- Sandy Scuttle Reverse: Bronze
 					}},
 					["g"] = {
-						-- TODO: D.R.I.V.E. Engine: the Pozzik Standard
+						i(232982),	-- The Pozzik Standard
 					},
 				}),
 				ach(41083, {	-- Undermine Breaknecking: Silver
@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						40932,	-- Rags to Riches Rush: Gold
 						40935,	-- Rags to Riches Rush Reverse: Gold
 						40926,	-- Scrapshop Shot: Gold
-						40927,	-- Scrapshop Shot Reverse: Bronze
+						40929,	-- Scrapshop Shot Reverse: Gold
 						40914,	-- Skyrocketing Sprint: Gold
 						40917,	-- Skyrocketing Sprint Reverse: Gold
 						40920,	-- The Heaps Leap: Gold

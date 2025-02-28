@@ -41,7 +41,6 @@ root(ROOTS.Unsorted, {
 				i(233337),	-- Upcycled Gloves
 				i(233338),	-- Upcycled Helm
 				i(233339),	-- Upcycled Breeches
-				i(233340),	-- Upcycled Epaulets
 				i(233341),	-- Upcycled Sash
 				i(233342),	-- Upcycled Bindings
 				i(233343),	-- Power-Washed Chainmail
@@ -56,13 +55,11 @@ root(ROOTS.Unsorted, {
 				i(233532),	-- Gold-Plated Polearm
 				i(233534),	-- Gold-Plated Broadsword
 				i(233537),	-- Gold-Plated Sword
-				i(233538),	-- Gold-Plated Blade
 				i(233539),	-- Gold-Plated Hammer
 				i(233544),	-- Descaled Breastplate
 				i(233545),	-- Descaled Sabatons
 				i(233546),	-- Descaled Gauntlets
 				i(233547),	-- Descaled Helm
-				i(233548),	-- Descaled Legguards
 				i(233549),	-- Descaled Mantle
 				i(233550),	-- Descaled Girdle
 				i(233551),	-- Descaled Armplates
@@ -97,9 +94,6 @@ root(ROOTS.Unsorted, {
 				i(235810),	-- Circuit-Linked Chainmail
 				i(235811),	-- Extravagant Epaulets
 				i(235812),	-- Shoulderguards of Fraying Sanity
-
-				-- Armor/Cosmetic Delves or Quest?
-				i(235616),	-- True Speed Goblin-Thruster
 			}),
 			filter(BATTLE_PETS, {
 				i(232847),	-- Personal-Use Sapper
@@ -174,14 +168,11 @@ root(ROOTS.Unsorted, {
 				i(235035),	-- Vigilante's Snowy Mask
 				i(235036),	-- Vigilante's Sunny Mask
 				i(235150),	-- Spring Butterfly Helm
-				i(235152),	-- Pearlescent Monarch Helm
 				i(235153),	-- Midnight Butterfly Helm
 				i(235154),	-- Blood Monarch Helm
 				i(235155),	-- Midnight Butterfly Pauldrons
 				i(235210),	-- Blood Monarch Pauldrons
-				i(235211),	-- Pearlescent Monarch Pauldrons
 				i(235212),	-- Spring Butterfly Pauldrons
-				i(235213),	-- Pearlescent Monarch Belt
 				i(235214),	-- Spring Butterfly Belt
 				i(235215),	-- Midnight Butterfly Belt
 				i(235216),	-- Blood Monarch Belt
@@ -341,9 +332,6 @@ root(ROOTS.Unsorted, {
 				i(232074),	-- Adventurer's Warbound Waist
 				i(232075),	-- Adventurer's Warbound Wrists
 				i(232076),	-- Adventurer's Warbound Battlegear Drop
-				--
-				-- Cartel Rep?
-				i(232465),	-- The Cartel's Trove
 
 				-- Delves
 				i(232898),	-- Delver's Bounty
@@ -405,7 +393,6 @@ root(ROOTS.Unsorted, {
 				i(235910),	-- Mint Condition Gallagio Anniversary Coin
 			}),
 			filter(MOUNTS, {
-				i(233064),	-- Bronze Goblin Wave Shredder (MOUNT!)
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
 				mount(468068),	-- Junkmaestro's Magnetomech (MOUNT!)
 				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]
@@ -576,12 +563,10 @@ root(ROOTS.Unsorted, {
 				i(235819),	-- Lucky Penny Locket
 				i(235820),	-- Hole-Punched Doubloon
 				i(235821),	-- Pressed-Gold Pantaloons
-				i(235822),	-- Coin-Woven Shawl
 				i(235823),	-- Scrap-Plated Pants
 				i(235826),	-- Electric Wristrags
 				i(235828),	-- Electrocution Warning
 				i(235829),	-- Welded Scrap Hood
-				i(235830),	-- Unstable Missilecaps
 				i(235831),	-- Battery-Powered Longshank
 				i(235832),	-- Oil-Splattered Cloak
 				i(235833),	-- Serrated Slickgrip
@@ -612,7 +597,6 @@ root(ROOTS.Unsorted, {
 				i(234950),	-- Atomic Regoblinator
 				i(235018),	-- Cracked Cold One [From toy?]
 				i(235219),	-- Fireworks Hat
-				i(235266),	-- Fireworked Hat
 			}),
 			n(WEAPONS, {
 				i(232932),	-- Brann Bronzebeard's Mace
@@ -620,54 +604,13 @@ root(ROOTS.Unsorted, {
 				i(233063),	-- Brann's Boomstick
 			}),
 			--
-			i(226148),	-- Wax-Sealed Weathered Crests
 			i(229810),	-- Vintage Kaja'Cola Can
-			i(232465),	-- Darkfuse Trove
-			i(233064),	-- Bronze Goblin Waveshredder
-			i(233113),	-- Crocodilian's Head
 			i(233172),	-- Banded Grassy War Slippers
-			i(233479),	-- Shimmerthread Robe
 			i(234733),	-- Bloodwake Ritual Bowl
-			i(237025),	-- Smartest in Town's Visor
-			i(237026),	-- Smartest in Town's Drape
-			i(237027),	-- Slickest in Town's Vest
-			i(237028),	-- Smartest in Town's Cord
-			i(237029),	-- Smartest in Town's Legwraps
-			i(237031),	-- Smartest in Town's Sandals
-			i(237032),	-- Smartest in Town's Bangles
-			i(237033),	-- Smartest in Town's Gloves
-			i(237035),	-- Smartest in Town's Cape
 			i(237036),	-- Golden Valorstone
-			i(237094),	-- Slickest in Town's Hood
-			i(237095),	-- Slickest in Town's Soulderspikes
-			i(237096),	-- Slickest in Town's Belt
-			i(237097),	-- Slickest in Town's Breeches
-			i(237098),	-- Slickest in Town's Boots
-			i(237099),	-- Slickest in Town's Armlets
-			i(237100),	-- Slickest in Town's Grips
-			i(237101),	-- Slickest in Town's Drape
-			i(237103),	-- Craftiest in Town's Helmet
-			i(237104),	-- Craftiest in Town's Rocketguards
-			i(237105),	-- Craftiest in Town's Greatbelt
-			i(237106),	-- Craftiest in Town's Legguards
-			i(237107),	-- Craftiest in Town's Waders
-			i(237108),	-- Craftiest in Town's Bracers
-			i(237109),	-- Craftiest in Town's Gauntlets
-			i(237110),	-- Craftiest in Town's Shroud
-			i(237111),	-- Craftiest in Town's Mail
-			i(237113),	-- Toughest in Town's Spiked Helm
-			i(237114),	-- Toughest in Town's Pauldrons
-			i(237115),	-- Toughest in Town's Girdle
-			i(237116),	-- Toughest in Town's Cuisses
-			i(237117),	-- Toughest in Town's Jackboots
-			i(237118),	-- Toughest in Town's Armplates
-			i(237119),	-- Toughest in Town's Graspers
-			i(237120),	-- Toughest in Town's Cloak
-			i(237121),	-- Toughest in Town's Cuirass
 			i(237123),	-- Descaled Capelet
 			i(237124),	-- Power-Washed Drape
 			i(237125),	-- Upcycled Cloak
-			i(237128),	-- Smartest in Town's Shirt
 			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
 			i(237240),	-- Banded Sepia War Legwraps
 			i(237241),	-- Banded Sunny War Legwraps

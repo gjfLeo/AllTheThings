@@ -84,6 +84,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(UNDERMINE, {
 			n(SHIPPING_AND_HANDLING, {
 			-- Job Streak give reward after first 10 delivery job in row per character (could be shared with scrap boxes?)
+				--i(233544),	-- Descaled Breastplate
+				--i(233545),	-- Descaled Sabatons
+				--i(233546),	-- Descaled Gauntlets
+				--i(233547),	-- Descaled Helm
+				i(233548),	-- Descaled Legguards
+				--i(233549),	-- Descaled Mantle
+				--i(233550),	-- Descaled Girdle
+				--i(233551),	-- Descaled Armplates
 				i(237126),	-- Laundered Cape
 				i(233266),	-- Laundered Cord
 				--i(233263),	-- Laundered Cowl
@@ -93,6 +101,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				--i(233261),	-- Laundered Sandals
 				--i(233265),	-- Laundered Shoulderpads
 				--i(233260),	-- Laundered Vestment
+				--i(233335),	-- Upcycled Jerkin
+				--i(233336),	-- Upcycled Waders
+				--i(233337),	-- Upcycled Gloves
+				--i(233338),	-- Upcycled Helm
+				--i(233339),	-- Upcycled Breeches
+				i(233340),	-- Upcycled Epaulets
+				--i(233341),	-- Upcycled Sash
+				--i(233342),	-- Upcycled Bindings
 			}),
 		}),
 	}),

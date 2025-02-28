@@ -927,6 +927,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 				filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 					i(235617), 	-- Lucky Goblin's Strapped Rockets
+					i(235616),	-- True Speed Goblin-Thruster
 				})),
 				filter(TOYS, {
 					i(225910),	-- Pileus Delight (TOY!)
