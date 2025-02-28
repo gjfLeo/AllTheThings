@@ -1030,12 +1030,65 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		i(31326),	-- Truestrike Ring
 	}),
 	filter(MISC, {
-		i(29739),	-- Arcane Tome
-		i(29740),	-- Fel Armament
-		i(29426),	-- Firewing Signet [The Scryers]
-		i(29425),	-- Mark of Kil'jaeden [The Aldor]
-		i(30809),	-- Mark of Sargeras [The Aldor]
-		i(30810),	-- Sunfury Signet [The Scryers]
+		i(29739, {	-- Arcane Tome [The Scryers]
+			["coords"] = {
+				{ 25.3, 70.4, NETHERSTORM },	-- Manaforge B'naar
+				{ 50.5, 83.1, NETHERSTORM },	-- Manaforge Coruu
+				{ 55.9, 79.2, NETHERSTORM },	-- Sunfury Hold
+				{ 47.2, 65.7, SHADOWMOON_VALLEY },	-- Eclipse Point
+				-- #if AFTER 2.4.0
+				{ 42.7, 37.4, ISLE_OF_QUELDANAS },	-- Dawnstar Village
+				-- #endif
+			},
+			["maps"] = { TEMPEST_KEEP_BOTANICA, TEMPEST_KEEP_MECHANAR },
+		}),
+		i(29740, {	-- Fel Armament [The Aldor]
+			["coords"] = {
+				{ 10.7, 40.5, NAGRAND },	-- The Twilight Ridge
+				{ 63.4, 65.7, BLADES_EDGE_MOUNTAINS },	-- Death's Door
+				{ 73.7, 40.9, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Anger
+				{ 40.8, 72.5, NETHERSTORM },	-- Arklon Ruins
+				{ 41.3, 21.0, NETHERSTORM },	-- Forge Base: Gehenna
+				{ 40.2, 38.2, SHADOWMOON_VALLEY },	-- The Deathforge
+			},
+			["maps"] = { AUCHINDOUN_SHADOW_LABYRINTH, TEMPEST_KEEP_ARCATRAZ },
+		}),
+		i(29426, {	-- Firewing Signet [The Scryers]
+			["coord"] = { 71.2, 37.4, TEROKKAR_FOREST },
+		}),
+		i(29425, {	-- Mark of Kil'jaeden [The Aldor]
+			["coords"] = {
+				{ 40.2, 58.6, TEROKKAR_FOREST },	-- The Shadow Stair
+				{ 31.4, 52.7, TEROKKAR_FOREST },	-- Shadow Tomb
+				{ 70.8, 79.9, NAGRAND },	-- Kil'sorrow Fortress
+			},
+			-- #if AFTER 9.0.3
+			["description"] = "The Shadowlands level squish made this mark wonky to obtain, requiring low level character and specific conditions. Otherwise Mark of Sargeras drops in it's place.",
+			-- #endif
+		}),
+		i(30809, {	-- Mark of Sargeras [The Aldor]
+			["coords"] = {
+				{ 10.7, 40.5, NAGRAND },	-- The Twilight Ridge
+				{ 63.4, 65.7, BLADES_EDGE_MOUNTAINS },	-- Death's Door
+				{ 73.7, 40.9, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Anger
+				{ 40.8, 72.5, NETHERSTORM },	-- Arklon Ruins
+				{ 41.3, 21.0, NETHERSTORM },	-- Forge Base: Gehenna
+				{ 40.2, 38.2, SHADOWMOON_VALLEY },	-- The Deathforge
+			},
+			["maps"] = { AUCHINDOUN_SHADOW_LABYRINTH, TEMPEST_KEEP_ARCATRAZ },
+		}),
+		i(30810, {	-- Sunfury Signet [The Scryers]
+			["coords"] = {
+				{ 25.3, 70.4, NETHERSTORM },	-- Manaforge B'naar
+				{ 50.5, 83.1, NETHERSTORM },	-- Manaforge Coruu
+				{ 55.9, 79.2, NETHERSTORM },	-- Sunfury Hold
+				{ 47.2, 65.7, SHADOWMOON_VALLEY },	-- Eclipse Point
+				-- #if AFTER 2.4.0
+				{ 42.7, 37.4, ISLE_OF_QUELDANAS },	-- Dawnstar Village
+				-- #endif
+			},
+			["maps"] = { TEMPEST_KEEP_BOTANICA, TEMPEST_KEEP_MECHANAR },
+		}),
 		-- #IF AFTER 4.0.1
 		i(22146),	-- Book: Gift of the Wild
 		i(22153),	-- Tome of Arcane Brilliance

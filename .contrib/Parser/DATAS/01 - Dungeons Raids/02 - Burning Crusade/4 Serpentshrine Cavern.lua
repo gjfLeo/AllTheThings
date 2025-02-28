@@ -57,7 +57,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_TWO, 
 				i(30620),	-- Spyglass of the Hidden Fleet
 				i(30021),	-- Wildfury Greatstaff
 				i(30183),	-- Nether Vortex
-				i(32897),	-- Mark of the Illidari
+				i(32897, {	-- Mark of the Illidari
+					["description"] = "Only used to buy flasks usable for later TBC raids. Access to the apothecary vendor requires being Exalted with Cenarion Expedition, the Sha'tar, and the Aldor/Scryers.",
+				}),
 				-- #if BEFORE MOP
 				i(30023, {	-- Totem of the Maelstrom
 					["timeline"] = { REMOVED_5_0_4 },
