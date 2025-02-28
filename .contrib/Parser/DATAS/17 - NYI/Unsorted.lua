@@ -35,7 +35,6 @@ root(ROOTS.Unsorted, {
 				i(233261),	-- Laundered Sandals
 				i(233262),	-- Laundered Handwraps
 				i(233263),	-- Laundered Cowl
-				i(233264),	-- Laundered Leggings
 				i(233265),	-- Laundered Shoulderpads
 				i(233267),	-- Laundered Cuffs
 				i(233335),	-- Upcycled Jerkin
@@ -674,7 +673,6 @@ root(ROOTS.Unsorted, {
 			i(237123),	-- Descaled Capelet
 			i(237124),	-- Power-Washed Drape
 			i(237125),	-- Upcycled Cloak
-			i(237126),	-- Laundered Cape
 			i(237128),	-- Smartest in Town's Shirt
 			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
 			i(237240),	-- Banded Sepia War Legwraps

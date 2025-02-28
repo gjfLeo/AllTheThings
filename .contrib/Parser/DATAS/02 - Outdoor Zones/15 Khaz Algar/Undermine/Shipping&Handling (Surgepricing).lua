@@ -84,6 +84,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(UNDERMINE, {
 			n(SHIPPING_AND_HANDLING, {
 			-- Job Streak give reward after first 10 delivery job in row per character (was itemID 233264 for me), no hqt
+				i(237126),	-- Laundered Cape
+				i(233264),	-- Laundered Leggings
 			}),
 		}),
 	}),
