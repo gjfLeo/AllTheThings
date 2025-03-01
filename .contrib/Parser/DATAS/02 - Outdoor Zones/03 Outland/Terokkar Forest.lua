@@ -2059,54 +2059,6 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(ZONE_DROPS, {
-					i(25719, {	-- Arakkoa Feather
-						["coords"] = {
-							{ 24.7, 72.6, TEROKKAR_FOREST },	-- Veil Lithic
-							{ 50.0, 16.7, TEROKKAR_FOREST },	-- Veil Reskk
-							{ 56.3, 69.0, TEROKKAR_FOREST },	-- Veil Shalas
-							{ 58.8, 24.3, TEROKKAR_FOREST },	-- Veil Shienor
-							{ 30.9, 42.0, TEROKKAR_FOREST },	-- Veil Skith
-						},
-						["crs"] = {
-							22387,	-- Lithic Oracle
-							22388,	-- Lithic Talonguard
-							18455,	-- Shalassi Oracle
-							18454,	-- Shalassi Talonguard
-							18450,	-- Shienor Sorcerer
-							18449,	-- Shienor Talonite
-							18451,	-- Shienor Wing Guard
-							18452,	-- Skithian Dreadhawk
-							18453,	-- Skithian Windripper
-						},
-						-- #if BEFORE 8.2.5
-						["description"] = "Can be turned in to the NPC named Vekax for Outcast's Cache and reputation with the Lower City up to Honored. Each turn in requires 30 Arakkoa Feathers. Vekax can be found in the northwestern section of the Lower City in Shattrath.",
-						-- #else
-						["description"] = "Can be turned in to the NPC named Vekax for Outcast's Cache and reputation with the Lower City up to Honored, and again when at Exalted. Each turn in requires 30 Arakkoa Feathers. Vekax can be found in the northwestern section of the Lower City in Shattrath.",
-						-- #endif
-					}),
-					i(25744, {	-- Dampscale Basilisk Eye
-						["crs"] = {
-							18461,	-- Dampscale Basilisk
-							18463,	-- Dampscale Devourer
-							21854,	-- Ironspine Petrifier
-						},
-						["coords"] = {
-							{ 39.3, 9.7, TEROKKAR_FOREST },	-- Silmyr Lake
-							{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
-							{ 62.4, 49.0, TEROKKAR_FOREST },	-- Bonechewer Ruins, west of
-						},
-					}),
-					i(25802, {	-- Dreadfang Venom Sac
-						["crs"] = {
-							18461,	-- Dreadfang Lurker
-							21854,	-- Dreadfang Widow
-						},
-						["coords"] = {
-							{ 52.3, 78.5, TEROKKAR_FOREST },	-- Netherweb Ridge
-							{ 54.8, 59.8, TEROKKAR_FOREST },	-- Allerian Stronghold, west of
-							{ 44.6, 34.3, TEROKKAR_FOREST },	-- Cenarion Thicket, south of
-						},
-					}),
 					i(34491, {	-- Pattern: Bag of Many Hides (RECIPE!)
 						["crs"] = {
 							22143,	-- Gordunni Back-Breaker
