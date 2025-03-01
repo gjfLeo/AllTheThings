@@ -610,15 +610,18 @@ local InformationTypes = {
 			if maps and #maps > 0 then
 				local mapNames,uniques,name = {},{},nil;
 				local rootMapID = reference.mapID;
+				local myRealMapID = app.RealMapID
+				local onMyMap = rootMapID == myRealMapID
 				if rootMapID then uniques[app.GetMapName(rootMapID) or rootMapID] = true; end
 				for i,mapID in ipairs(maps) do
+					onMyMap = onMyMap or mapID == myRealMapID
 					name = app.GetMapName(mapID);
 					if name and not uniques[name] then
 						uniques[name] = true;
 						tinsert(mapNames, name);
 					end
 				end
-				if #mapNames > 0 then
+				if #mapNames > 1 or (not onMyMap and #mapNames > 0) then
 					-- If there's a description and it is visible, add some visual space.
 					local description = reference.description;
 					if description and app.Settings:GetTooltipSetting("description") then
