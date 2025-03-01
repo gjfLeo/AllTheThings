@@ -254,6 +254,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 62.7, 26.1, UNDERMINE },
 				["questID"] = 85777,
 				["g"] = {
+					i(235828),	-- Electrocution Warning
 					i(235827),	-- Statically Charged Vest
 				},
 			}),

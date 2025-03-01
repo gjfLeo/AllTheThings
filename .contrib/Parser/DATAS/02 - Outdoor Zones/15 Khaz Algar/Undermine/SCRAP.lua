@@ -17,7 +17,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				ach(41591),	-- Really No Littering
 				ach(41592),	-- Absolutely Zero Littering
 				ach(41593),	-- Cleanin' the Streets
-				ach(41594),	-- Can You Believe What People Throw Away?
 			}),
 			n(TREASURES, sharedData({ ["repeatable"] = true, }, {
 				-- 0-299 score

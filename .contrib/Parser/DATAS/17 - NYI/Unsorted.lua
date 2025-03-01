@@ -545,7 +545,6 @@ root(ROOTS.Unsorted, {
 				i(235819),	-- Lucky Penny Locket
 				i(235820),	-- Hole-Punched Doubloon
 				i(235826),	-- Electric Wristrags
-				i(235828),	-- Electrocution Warning
 				i(235829),	-- Welded Scrap Hood
 				i(235831),	-- Battery-Powered Longshank
 				i(235832),	-- Oil-Splattered Cloak
