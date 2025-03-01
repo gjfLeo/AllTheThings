@@ -150,7 +150,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235308),	-- Filthtread Boots
 					i(235359),	-- Ratfang Toxin (share with zone reward from cache)
 					i(235326),	-- Ratspit's Heirloom Wristwraps
-					i(235356),	-- Sapper's Spark Reactor
 					i(235302),	-- Shockwave Pendant
 				},
 			}),
@@ -161,6 +160,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235300),	-- Cloak of Mecha Shards
 					i(235322),	-- Junkyard Clawguards
 					i(235315),	-- Rocketstep Boots
+					i(235356),	-- Sapper's Spark Reactor
 				},
 			}),
 			n(230931, {	-- Scrapbeak

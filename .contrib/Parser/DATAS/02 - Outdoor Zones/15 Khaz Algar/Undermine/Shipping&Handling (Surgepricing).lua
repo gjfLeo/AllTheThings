@@ -101,6 +101,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				--i(233261),	-- Laundered Sandals
 				--i(233265),	-- Laundered Shoulderpads
 				--i(233260),	-- Laundered Vestment
+				i(233348),	-- Power-Washed Shoulderguards
 				--i(233335),	-- Upcycled Jerkin
 				--i(233336),	-- Upcycled Waders
 				--i(233337),	-- Upcycled Gloves
