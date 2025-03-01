@@ -159,7 +159,7 @@ root(ROOTS.WorldEvents, m(500, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Bi
 			faction(FACTION_BRAWLPUB_SEASON_3, {	-- Bizmo's Brawlpub (Season 3)
 				["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1_LAUNCH },
 			}),
-			faction(FACTION_BRAWLPUB_SEASON_4, {	-- Bizmo's Brawlpub
+			faction(FACTION_BRAWLPUB_SEASON_4, {	-- Bizmo's Brawlpub (Season 4)
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 			}),
 		})),
@@ -623,4 +623,14 @@ root(ROOTS.WorldEvents, m(500, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Bi
 			}),
 		}),
 	},
+})));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {
+	m(500, {	-- Bizmo's Brawlpub
+		n(QUESTS, {
+			q(32112),	-- FLAG - Been to Fight Club - completing first fight
+			q(32113),	-- FLAG - Been to Fight Club Today
+			q(32444),	-- FLAG - Earned Brawler Title (Weekly)
+		}),
+	}),
 })));

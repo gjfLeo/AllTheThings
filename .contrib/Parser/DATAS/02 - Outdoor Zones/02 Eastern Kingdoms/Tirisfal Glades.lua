@@ -3097,3 +3097,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		},
 	}),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
+	m(EASTERN_KINGDOMS, {
+		m(TIRISFAL_GLADES, {
+			n(QUESTS, {
+				q(25040),	-- FLAG - Worgen Attacked — Tirisfal Glades — attacked by a worgen during "Darkhound Pounding" to trigger the "Escaped From Gilneas" quest
+				q(26136),	-- FLAG - Rigor Mortis Removed. Triggered on a fresh lvl 1 warlock undead on login
+			}),
+		}),
+	}),
+})));

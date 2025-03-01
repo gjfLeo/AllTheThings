@@ -3457,3 +3457,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		},
 	}),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
+	m(EASTERN_KINGDOMS, {
+		m(TWILIGHT_HIGHLANDS, {
+			n(QUESTS, {
+				q(28106),	-- Twilight Highlands - triggers when the Grim Batol gates are broken open during "If The Key Fits"
+			}),
+		}),
+	}),
+})));

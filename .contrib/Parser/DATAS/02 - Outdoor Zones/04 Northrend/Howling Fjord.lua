@@ -3053,3 +3053,13 @@ root(ROOTS.Zones, {
 		}),
 	})),
 });
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WRATH, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_3 } }, {
+	m(NORTHREND, {
+		m(HOWLING_FJORD, {
+			n(QUESTS, {
+				q(12485),	-- Howling Fjord - triggers during "The Echo of Ymiron" when you see the RP between two vrykul in Wyrmskull Village
+			}),
+		}),
+	}),
+})));

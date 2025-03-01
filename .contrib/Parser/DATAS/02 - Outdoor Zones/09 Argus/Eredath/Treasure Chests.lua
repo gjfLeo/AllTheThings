@@ -316,3 +316,14 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
+	m(ARGUS, {
+		m(EREDATH, {
+			n(TREASURES, {
+				q(49264),	-- opening a Void-Seeped Cache in Eredath
+				q(49022),	-- It's clearing the rubble in front of "Forgotten Legion Supplies" (object id: 277204)
+			}),
+		}),
+	}),
+})));

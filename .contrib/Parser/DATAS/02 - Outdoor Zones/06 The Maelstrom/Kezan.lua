@@ -248,3 +248,15 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
+	m(THE_MAELSTROM, {
+		m(KEZAN, {
+			n(QUESTS, {
+				q(14114),	-- Kezan - The New You tracking event. Triggers after you complete "The New You"
+				q(14139),	-- Kezan - Phase 1 complete. Triggers after turning in "Do it Yourself"
+				q(14158),	-- Kezan - Phase 6 complete. Triggers when quest "447" becomes available
+			}),
+		}),
+	}),
+})));

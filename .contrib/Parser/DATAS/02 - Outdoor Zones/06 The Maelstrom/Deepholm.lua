@@ -2088,3 +2088,16 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
+	m(THE_MAELSTROM, {
+		m(DEEPHOLM, {
+			n(QUESTS, {
+				q(26415),	-- Questflag for Captain's Log — while on #26246, "Captain's Log" in Deepholm
+				q(27079),	-- Twilight Gate Tracking — blowing up the gate during #26861, "Block the Gates" in Deepholm
+				q(27080),	-- Twilight Gate Tracking — blowing up elemental during #26861, "Block the Gates" in Deepholm
+				q(36587),	-- Twilight Gate Tracking — blowing up elemental during #26861, "Block the Gates" in Deepholm
+			}),
+		}),
+	}),
+})));

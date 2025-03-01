@@ -37,14 +37,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.WRATH, {
 		-- Zones
 		q(12845),	-- Dalaran teleport crystal flag
-		q(13700),	-- Argent Tournament - Alliance Champion Marker
-		q(13701),	-- Argent Tournament - Horde Champion Marker
-		q(13686),	-- Alliance Tournament Eligibility Marker
-		q(13687),	-- Horde Tournament Eligibility Marker
-		q(12485),	-- Howling Fjord - triggers during "The Echo of Ymiron" when you see the RP between two vrykul in Wyrmskull Village
 		q(12452),	-- Dragonblight - triggers when turning in "The Fate of the Ruby Dragonshrine". duplicate version of a quest during early development
-		q(12693),	-- Sholazar Basin - Wolvar Faction Choice Tracker
-		q(12694),	-- Sholazar Basin - Oracle Faction Choice Tracker
 		-- #if BEFORE CATA
 		q(14438),	-- Sharing the Land (triggeres with 'Sharing the Land' questID 745)
 		q(14439),	-- Journey into Thunder Bluff (triggeres with 'Journey into Thunder Bluff' questID 775)
@@ -73,34 +66,13 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(29380),	-- FLAG - Teleport to Firelands
 		q(29381),	-- FLAG - Teleport to Hyjal
 		q(29395),	-- FLAG - Teleport to Uldum
-		q(29592),	-- Caster Legendary BREADCRUMB TRACKER
 		q(29286),	-- Druid Tree, Stage 2 Tracking
 		q(29291),	-- triggered with Peaked Interest 29287
 		q(29292),	-- triggered with Peaked Interest 29287
 		q(26565),	-- A Furious Catch (REMOVED) — unused version of Orgrimmar Cata fishing daily "A Golden Opportunity"
-		q(25829),	-- Mount Hyjal - goldrinn hub complete
-		q(27872),	-- Mount Hyjal - tortolla hub complete
-		q(27873),	-- Mount Hyjal - aviana hub complete
-		q(28106),	-- Twilight Highlands - triggers when the Grim Batol gates are broken open during "If The Key Fits"
-		q(26119),	-- Vashj'ir - FLAG - Claim Our Stake Launched
-		q(26415),	-- Questflag for Captain's Log — while on #26246, "Captain's Log" in Deepholm
-		q(27079),	-- Twilight Gate Tracking — blowing up the gate during #26861, "Block the Gates" in Deepholm
-		q(27080),	-- Twilight Gate Tracking — blowing up elemental during #26861, "Block the Gates" in Deepholm
-		q(36587),	-- Twilight Gate Tracking — blowing up elemental during #26861, "Block the Gates" in Deepholm
-		q(14114),	-- Kezan - The New You tracking event. Triggers after you complete "The New You"
-		q(14139),	-- Kezan - Phase 1 complete. Triggers after turning in "Do it Yourself"
-		q(14158),	-- Kezan - Phase 6 complete. Triggers when quest "447" becomes available
-		q(26705),	-- Lost Isles - It's a Town-In-A-Box tracking event. Triggers when you use the plunger to spawn the town
-		q(26902),	-- Lost Isles - Get Back to Town accepted tracking flag. Triggers the attack on town-in-a-box
-		q(28846),	-- Lost Isles - Repel the Paratroopers accepted tracking flag
-		q(25226),	-- Lost Isles - Kill Chip Endale tracking flag
-		q(25245),	-- Lost Isles - Kill Candy Cane tracking flag
 		-- #if BEFORE 11.0.5
 		q(26741),	-- REUSE - triggered after completing "The Hunt" (questID 26340)
 		-- #endif
-		q(27224),	-- Andorhal Phase Flag — Western Plaguelands — triggers during "The Depravity of the Forsaken"
-		q(25040),	-- FLAG - Worgen Attacked — Tirisfal Glades — attacked by a worgen during "Darkhound Pounding" to trigger the "Escaped From Gilneas" quest
-		q(26136),	-- FLAG - Rigor Mortis Removed. Triggered on a fresh lvl 1 warlock undead on login
 		q(24644),	-- Troll Introduction Complete
 	}),
 
@@ -130,9 +102,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(33900),	-- Tracking Quest: Activated Arkonite 3
 		q(33901),	-- Tracking Quest: Activated Arkonite 4
 		q(33899),	-- Tracking Quest: Turn on the Holograms
-		q(32112),	-- FLAG - Been to Fight Club - completing first fight
-		q(32113),	-- FLAG - Been to Fight Club Today
-		q(32444),	-- FLAG - Earned Brawler Title (Weekly)
 
 		--	Short-Supply Reward - UNKNOWN TRIGGERS
 		qNYI(33602),	-- Short-Supply Reward
@@ -409,18 +378,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		--	Treasures -- TODO -Darkal
 		q(40601),	-- 7.0 Highmountain - Vignette - Pinerock Basin - Highmountain Beastmaster See Treasure (JLW) - looting treasure after Arru
 		q(40389),	-- creating Rocfeather Skyhorn Kite
-		-- Eredath
-		q(49264),	-- opening a Void-Seeped Cache in Eredath
-		q(49022),	-- It's clearing the rubble in front of "Forgotten Legion Supplies" (object id: 277204)
-		-- Antoran Wastes
-		q(48613),	-- clearing the rubble in front of "Eredar Treasure Cache" (object id: 276223)
-		q(48742),	-- clearing the rubble in front of "Students Surprising Surplus" (object id: 276225)
-		q(48746),	-- clearing the rubble in front of "Void Tinged Chest" (object id: 276226)
-		q(48741),	-- clearing the rubble in front of "Chest of Ill-Gotten Gains" (object: 276224)
-		-- Krokuun
-		q(48876),	-- jumping on the rubble in front of "Krokul Emergency Cache" (object id: 276490)
-		q(48877),	-- I'm guessing for clearing the rubble in front of "Legion Power Chest" (object id: 276489)
-		q(48878),	-- clearing rubble for "Lost Krokul Chest" (object id: 276491)
 	})),
 
 	-------------------
@@ -491,33 +448,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54705),	-- Using 7th Legion Scouting Map
 		q(52969),	-- Going through the Stormwind Portal to Stormshield while on the WoD timeline in Chromie time
 		--q(55464),	-- Triggered with Tandred Proudmoore conversation?
-
-		--	HONEYBACK HIVE
-		q(55906),	-- triggers when pulling out Seabreeze Bumblebee or Bumbles next to Barry at 69.1, 64.2 in Stormsong Valley
-		q(55904),	-- triggers when arriving at the hive at 62.9, 26.5 in Stormsong Valley
-		q(56104),	-- triggers when feeding Thin Jelly to Honeyback Hive Mother
-		q(56105),	-- triggers after Barry dances with Honeyback Hive Mother and you can enter the cave
-		q(57704),	-- triggered shortly after 56105 when I entered the cave
-		q(56735),	-- triggers after going through Barry's initial dialogue after entering the cave
-		q(57528),	-- triggers after feeding first Thin Jelly to Nascent Harvester
-		q(57707),	-- triggered shortly after 57528
-		q(56413),	-- seemed to trigger when Lush Flower Bed summoned Honeyback Usurper (on a kill when i had not interacted with the bee to start the event) -- rare/daily event?  also popped again specifically when i interacted with the bee (npcID 155069) to summon it at 57.1, 51.2.  so maybe just "you're in the area when the event starts," or something?  ETA: ALSO TRIGGERS WHILE ENGAGED WITH HONEY SMASHER.  wtf is this quest!!!!!
-		q(57726),	-- triggers on Honey Smasher kill together with 57674 so putting it here
-		--	( 57.1, 51.2 )	-- looting honey triggered 56170, 56414, 57702, 57703
-		q(56170),	-- \
-		q(56414),	--	\	all 4 triggered at the same time after i looted the jelly at the end of the Lush Flower Bed event.  appears to be repeatable
-		q(57702),	--	/
-		q(57703),	-- /
-		q(56113),	-- triggered after Honeyback Harvester event that got to round 23 or 24
-		q(57700),	-- triggered after Honeyback Harvester event that got to round 23 or 24
-		q(56114),	-- triggered after Honeyback Harvester event that completed round 29
-		q(57699),	-- triggered after Honeyback Harvester event that completed round 29
-		q(56101),	-- triggered after Honeyback Harvester event that completed round 40
-		q(57698),	-- triggered after Honeyback Harvester event that completed round 40
-		q(56171),	-- not sure -- i had just done a Honeyback Harvester event and Gurg the Hivethief spawned but ran away because there wasn't enough DPS to kill him.  looted the jelly after the event, then ran to turn in since i was closeby.  fed the bee ~13 - 14 Thin Jelly (brought me to 1700 Friendly) and ran out of the cave and saw this and 57701 pop in chat.
-		q(57701),	-- same as above
-		q(56107),	-- when nascent bee changed into Juvenile Harvester
-		q(56879),	-- when Juvenile Harvester changed into Honeyback Harvester (max bee friendship)
 
 		--	PVP / WAR MODE
 		q(53636),	-- Looting a bounty in Stormsong as Horde (all 3 trigger at the same time)

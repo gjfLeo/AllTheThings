@@ -2,7 +2,7 @@
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
 
-root(ROOTS.WorldEvents, m(503, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Brawlgar Arena
+root(ROOTS.WorldEvents, m(503, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Brawl'gar Arena
 	["races"] = HORDE_ONLY,
 	["lvl"] = 120,
 	["icon"] = 970888,
@@ -158,7 +158,7 @@ root(ROOTS.WorldEvents, m(503, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Br
 			faction(FACTION_BRAWLGAR_SEASON_3, {	-- Brawl'gar Arena (Season 3)
 				["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1_LAUNCH },
 			}),
-			faction(FACTION_BRAWLGAR_SEASON_4, {	-- Brawl'gar Arena
+			faction(FACTION_BRAWLGAR_SEASON_4, {	-- Brawl'gar Arena (Season 4)
 				["timeline"] = { ADDED_8_1_5, REMOVED_9_0_2_LAUNCH },
 			}),
 		})),
@@ -614,4 +614,14 @@ root(ROOTS.WorldEvents, m(503, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {	-- Br
 			}),
 		}),
 	},
+})));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {
+	m(503, {	-- Brawl'gar Arena
+		n(QUESTS, {
+			q(32112),	-- FLAG - Been to Fight Club - completing first fight
+			q(32113),	-- FLAG - Been to Fight Club Today
+			q(32444),	-- FLAG - Earned Brawler Title (Weekly)
+		}),
+	}),
 })));

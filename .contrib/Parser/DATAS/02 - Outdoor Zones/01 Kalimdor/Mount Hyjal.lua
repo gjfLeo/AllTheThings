@@ -2597,3 +2597,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		},
 	}),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
+	m(KALIMDOR, {
+		m(MOUNT_HYJAL, {
+			n(QUESTS, {
+				q(25829),	-- Mount Hyjal - goldrinn hub complete
+				q(27872),	-- Mount Hyjal - tortolla hub complete
+				q(27873),	-- Mount Hyjal - aviana hub complete
+			}),
+		}),
+	}),
+})));

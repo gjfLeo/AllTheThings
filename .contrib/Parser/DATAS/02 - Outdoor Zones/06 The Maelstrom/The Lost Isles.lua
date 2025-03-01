@@ -679,6 +679,20 @@ root(ROOTS.Zones, {
 	}),
 });
 
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
+	m(THE_MAELSTROM, {
+		m(THE_LOST_ISLES, {
+			n(QUESTS, {
+				q(26705),	-- Lost Isles - It's a Town-In-A-Box tracking event. Triggers when you use the plunger to spawn the town
+				q(26902),	-- Lost Isles - Get Back to Town accepted tracking flag. Triggers the attack on town-in-a-box
+				q(28846),	-- Lost Isles - Repel the Paratroopers accepted tracking flag
+				q(25226),	-- Lost Isles - Kill Chip Endale tracking flag
+				q(25245),	-- Lost Isles - Kill Candy Cane tracking flag
+			}),
+		}),
+	}),
+})));
+
 -- #if AFTER 4.0.3
 -- These quests never made it in.
 root(ROOTS.NeverImplemented, n(QUESTS, {

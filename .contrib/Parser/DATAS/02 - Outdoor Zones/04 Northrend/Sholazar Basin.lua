@@ -1387,3 +1387,18 @@ root(ROOTS.Zones, {
 		}),
 	})),
 });
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WRATH, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_3 } }, {
+	m(NORTHREND, {
+		m(SHOLAZAR_BASIN, {
+			n(FACTIONS, {
+				header(HEADERS.Faction, FACTION_FRENZYHEART_TRIBE, {
+					q(12693),	-- Sholazar Basin - Wolvar Faction Choice Tracker
+				}),
+				header(HEADERS.Faction, FACTION_THE_ORACLES, {
+					q(12694),	-- Sholazar Basin - Oracle Faction Choice Tracker
+				}),
+			}),
+		}),
+	}),
+})));

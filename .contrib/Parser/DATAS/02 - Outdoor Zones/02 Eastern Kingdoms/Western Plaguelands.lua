@@ -3381,3 +3381,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		},
 	}),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
+	m(EASTERN_KINGDOMS, {
+		m(WESTERN_PLAGUELANDS, {
+			n(QUESTS, {
+				q(27224),	-- Andorhal Phase Flag — Western Plaguelands — triggers during "The Depravity of the Forsaken"
+			}),
+		}),
+	}),
+})));
