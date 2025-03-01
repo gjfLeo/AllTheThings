@@ -178,7 +178,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 56.8, 79, UNDERMINE },
 				["questID"] = 85778,
 				["g"] = {
+					i(235831),	-- Battery-Powered Longshank
 					i(235830),	-- Unstable Missilecaps
+					i(235829),	-- Welded Scrap Hood
 				},
 			}),
 			n(230947, {	-- Slimesby (has its own criteria, so listing it to allow automation to nest the criteria into it, seems to only drop junk items however)

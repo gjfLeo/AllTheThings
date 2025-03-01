@@ -2457,7 +2457,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(FEBRUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58867", "removed 11.1.0.99999" } }, {	-- TODO: Timeline out correctly
+		n(FEBRUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58867", "removed 11.1.0.59466" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(234058),	-- Ensemble: Ornate Pink Lunar Festival Attire
 			}),
@@ -2857,7 +2857,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			})
 		})),
-		n(MARCH, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, "removed 11.1.0.99999" } }, {	-- TODO: Timeline in, out correctly
+		n(MARCH, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.59466", "removed 11.1.0.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
 			}),

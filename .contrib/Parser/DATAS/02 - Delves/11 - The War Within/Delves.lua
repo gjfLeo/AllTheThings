@@ -2108,6 +2108,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(MISC, {
 				i(213000),	-- Holy Flamethrower Torch (QI!)
+				i(213085, {	-- Lost Treasure (QI!)
+					["timeline"] = { ADDED_11_1_0 }
+				}),
 				i(212868),	-- Precious Ore (QI!)
 				i(226222),	-- Webbed Hookshot (QI!)
 			}),
@@ -2513,6 +2516,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				n(TREASURES, {
 					filter(COSMETIC, {
 						i(235615),	-- Rusty Gobjets
+						i(212167),	-- Taken Candle
 					}),
 				}),
 			}),

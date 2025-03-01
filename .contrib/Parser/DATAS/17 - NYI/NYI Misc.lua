@@ -1575,7 +1575,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(219743),	-- Khaz Algar Olive (Vendor)
 			i(219744),	-- Khaz Algar Vegetable
 			i(225214),	-- List of Activities
-			i(213085),	-- Lost Treasure
 			i(210697),	-- Luckstone
 			i(220340),	-- Meatball Cluster
 			i(217984),	-- Miner's Rune of Decyphering

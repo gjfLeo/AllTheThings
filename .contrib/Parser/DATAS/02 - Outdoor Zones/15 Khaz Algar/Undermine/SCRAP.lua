@@ -99,6 +99,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["g"] = {
 						ach(41594),	-- Can You Believe What People Throw Away?
 						i(235822),	-- Coin-Woven Shawl
+						i(235854),	-- Gold-Inlaid Jetpack
+						i(235820),	-- Hole-Punched Doubloon
 						i(235819),	-- Lucky Penny Locket
 						i(235910),	-- Mint Condition Gallagio Anniversary Coin
 						i(235821),	-- Pressed-Gold Pantaloons
@@ -146,17 +148,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(233558, {	-- S.C.R.A.P. Scrubber Deluxe
 							["cost"] = {{ "i", 233246, 1 }},	-- Gunk-Covered Thingy
 							["g"] = {
-								-- TODO: Items is guessed based on id range/names
-								-- TODO: remove from unsorted things that confirmed & uncomment stuff
-								-- Some of these have appeared from Job Streak, move to zone rewards?
-								--i(233343),	-- Power-Washed Chainmail
-								i(233344),	-- Power-Washed Striders
-								--i(233345),	-- Power-Washed Grips
-								--i(233346),	-- Power-Washed Coif
-								--i(233347),	-- Power-Washed Greaves
-								--i(233348),	-- Power-Washed Shoulderguards
-								--i(233349),	-- Power-Washed Belt
-								--i(233350),	-- Power-Washed Bracers
+								-- TODO: sym with zome rewards or shipping&handling based on further reports
 							},
 						}),
 					},

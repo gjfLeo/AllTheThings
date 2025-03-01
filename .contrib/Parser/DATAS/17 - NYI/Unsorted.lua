@@ -10,7 +10,6 @@ root(ROOTS.Unsorted, {
 				i(232440),	-- [PH] Boreal Crossbow
 				i(235647),	-- Gold-Plated Carver
 				i(235648),	-- Gold-Plated Hatchet
-				i(235649),	-- Gold-Plated Battleaxe
 				-- Weird Armor
 				i(234511),	-- Corrupted Cuirass
 				i(234525),	-- Corrupted Crown
@@ -47,7 +46,6 @@ root(ROOTS.Unsorted, {
 				i(233345),	-- Power-Washed Grips
 				i(233346),	-- Power-Washed Coif
 				i(233347),	-- Power-Washed Greaves
-				i(233348),	-- Power-Washed Shoulderguards
 				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
 				i(233528),	-- Gold-Plated Shield
@@ -277,8 +275,6 @@ root(ROOTS.Unsorted, {
 				i(234377),	-- Unscathed Rampart
 				i(234378),	-- Radiant Steelglaives
 				i(234388),	-- Arsenal: Hallowfall Weaponry
-
-				i(235854),	-- Gold-Inlaid Jetpack
 			}),
 			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
 				-- D.R.I.V.E.
@@ -543,10 +539,7 @@ root(ROOTS.Unsorted, {
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
-				i(235820),	-- Hole-Punched Doubloon
 				i(235826),	-- Electric Wristrags
-				i(235829),	-- Welded Scrap Hood
-				i(235831),	-- Battery-Powered Longshank
 				i(235832),	-- Oil-Splattered Cloak
 				i(235833),	-- Serrated Slickgrip
 				i(235834),	-- Rocketgrip Turboslicer
