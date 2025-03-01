@@ -524,10 +524,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				40452,	-- Just Keep Swimming
 				40453,	-- Spider Senses
 				40454,	-- Daystormer
-				-- #if BEFORE 11.1.0
+				-- TODO: adjust when ADDED_11_1_0_SEASONSTART receives a real build number
+				-- #if BEFORE 11.1.0.99999
 				40103,	-- My First Nemesis (Namechanged from Nemesis in 11.1)
 				-- #endif
-				-- #if AFTER 11.1.0
+				-- TODO: adjust when ADDED_11_1_0_SEASONSTART receives a real build number
+				-- #if AFTER 11.1.0.99999
 				-- #if BEFORE 11.2.0
 				41530,	-- My New Nemesis
 				-- #endif
