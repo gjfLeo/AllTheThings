@@ -128,7 +128,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(54189, {	-- Desert Crawl (Faction Assault WQ)
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(164742),	-- Crawler Mine Parts (QI!)
+					o(311182, {	-- Crawler Mine Parts
+						i(164742),	-- Crawler Mine Parts (QI!)
+					}),
 				},
 			}),
 			petbattle(q(52878, {	-- Desert Survivors
