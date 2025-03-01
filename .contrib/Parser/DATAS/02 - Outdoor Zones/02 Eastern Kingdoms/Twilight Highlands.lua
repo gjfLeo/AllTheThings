@@ -3394,7 +3394,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(49549, {	-- Jodan <Dragonmaw Armorsmith>
 					["coord"] = { 77.2, 52.8, TWILIGHT_HIGHLANDS },
 					["races"] = HORDE_ONLY,
-					["sym"] = { { "sub", "common_vendor", 46512 } },	-- Naros <Plate Armor Merchant>
+					["sym"] = {{"select","itemID",
+						2451,	-- Crested Heater Shield
+						62260,	-- Grunts Chain Belt
+						62261,	-- Grunts Chain Boots
+						62262,	-- Grunts Chain Bracers
+						62266,	-- Grunts Chain Circlet
+						62263,	-- Grunts Chain Gloves
+						62264,	-- Grunts Chain Leggings
+						62265,	-- Grunts Chain Vest
+						62253,	-- Grunts Plate Armor
+						62254,	-- Grunts Plate Belt
+						62255,	-- Grunts Plate Boots
+						62256,	-- Grunts Plate Bracers
+						62257,	-- Grunts Plate Gloves
+						62259,	-- Grunts Plate Helm
+						62258,	-- Grunts Plate Leggings
+						17190,	-- Ornate Buckler
+					}},
 				}),
 				n(50375, {	-- Kuldar Steeltooth <Metal Trader>
 					["coord"] = { 77.2, 53.0, TWILIGHT_HIGHLANDS },
