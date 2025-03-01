@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					231310,	-- Darkfuse Precipitant
 					230746,	-- Ephemeral Agent Lathyd
 					230840,	-- Flyboy Snooty
-					234499,	-- Glovante
+					234499,	-- Giovante
 					--230935,	-- Grease
 					--230936,	-- Grime
 					231017,	-- Grimewick
@@ -102,13 +102,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			--n(234621, {	-- Gallagio Garbage <Luxury Trash>
 			-- Under Expansion Features => Scrap
-			n(234499, {	-- Glovante
+			n(234499, {	-- Giovante
 				["description"] = "Can be summoned by anyone who has a contract with the Steamwheedle Cartel.",
 				["coord"] = { 32.0, 76.5, UNDERMINE },
 				["questID"] = 86307,
 				["g"] = {
 					i(235824),	-- Flame Sputterer
 					i(235327),	-- Mend-and-Match Shoulderpads
+					i(235823),	-- Scrap-Plated Pants
 				},
 			}),
 			n(231017, {	-- Grimewick

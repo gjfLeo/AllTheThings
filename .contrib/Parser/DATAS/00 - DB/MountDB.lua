@@ -1989,6 +1989,7 @@ i(233282, 473739);	-- Meeksi Rufflefur
 i(233283, 473741);	-- Meeksi Softpaw
 i(233285, 473744);	-- Meeksi Teatuft
 i(229946, 466013);	-- Ocher Delivery Rocket
+i(235650, 1217994);	-- Pearlescent Butterfly
 i(229949, 466020);	-- Personalized Goblin S.C.R.A.Per
 i(229987, 466144);	-- Prized Gladiator's Fel Bat
 i(236960, 1221155);	-- Prototype A.S.M.R.
@@ -2008,7 +2009,6 @@ i(235662, 1218069);	-- Emerald Snail
 i(235555, 1217341);	-- Lively Darkmoon Charger
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
-i(235650, 1217994);	-- Pearlescent Butterfly
 i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly

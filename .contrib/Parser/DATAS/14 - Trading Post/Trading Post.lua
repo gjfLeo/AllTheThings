@@ -2862,15 +2862,98 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				iensemble(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
 			}),
 			filter(MOUNTS, {
+				i(235650, {	-- Pearlescent Butterfly (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 700}},
+				}),
+				i(212229, {	-- Reins of the Twilight Sky Prowler (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 750}},
+				}),
 				i(235657, {	-- Ruby Butterfly (MOUNT!)
 					["cost"] = {{"c", TRADERS_TENDER, 700}},
 				}),
+				i(235646, {	-- Shimmermist Free Runner (MOUNT!
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+			}),
+			filter(TOYS, {
+				i(212523, {	-- Delicate Jade Parasol (TOY!)
+					["cost"] = {{"c", TRADERS_TENDER, 200}},
+				}),
 			}),
 			filter(COSMETIC, {
+				i(233174, {	-- Banded Deep War Slippers
+					["cost"] = {{"c", TRADERS_TENDER, 20}},
+				}),
+				i(233157, {	-- Banded Deep War Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 20}},
+				}),
+				i(235655, {	-- Blood Monarch's Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(235272, {	-- Blood Monarch's Mace
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(235401, {	-- Blood Monarch's Polearm
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
 				i(235291, {	-- Blood Monarch's Sword
 					["cost"] = {{"c", TRADERS_TENDER, 250}},
 				}),
+				i(235295, {	-- Blood Monarch's Wand
+					["cost"] = {{"c", TRADERS_TENDER, 200}},
+				}),
+				iensemble(235228, {	-- Ensemble: Ornaments of the Blood Monarch
+					["cost"] = {{"c", TRADERS_TENDER, 370}},
+				}),
+				iensemble(230169, {	-- Ensemble: Prowler's Deep Headgear
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				iensemble(212222, {	-- Ensemble: Twilight Witch's Attire
+					["cost"] = {{"c", TRADERS_TENDER, 750}},
+				}),
+				i(233101, {	-- Long Deep War Skirt
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(233140, {	-- Long Deep War Skirt and Leg Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 50}},
+				}),
+				i(212376, {	-- Lovely Gothic Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
 				i(235652, {	-- Pearlescent Monarch's Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(235270, {	-- Pearlescent Monarch's Mace
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(235402, {	-- Pearlescent Monarch's Polearm
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+				i(235290, {	-- Pearlescent Monarch's Sword
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
+				}),
+				i(235294, {	-- Pearlescent Monarch's Wand
+					["cost"] = {{"c", TRADERS_TENDER, 200}},
+				}),
+				i(230038, {	-- Prowler's Deep Shoulder Cape
+					["cost"] = {{"c", TRADERS_TENDER, 75}},
+				}),
+				i(235623, {	-- Ruby Scale Treads
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(235624, {	-- Sapphire Scale Treads
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(233123, {	-- Short Deep War Skirt and Leg Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 50}},
+				}),
+				i(233084, {	-- Short Deep War Skirt
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(212378, {	-- Twilight Witch's Gothic Scepter
+					["cost"] = {{"c", TRADERS_TENDER, 200}},
+				}),
+				i(212380, {	-- Twilight Witch's Gothic Stave
 					["cost"] = {{"c", TRADERS_TENDER, 250}},
 				}),
 				i(235024, {	-- Vigilante's Deep Mask

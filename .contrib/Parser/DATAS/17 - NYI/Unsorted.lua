@@ -169,26 +169,17 @@ root(ROOTS.Unsorted, {
 				i(235036),	-- Vigilante's Sunny Mask
 				i(235150),	-- Spring Butterfly Helm
 				i(235153),	-- Midnight Butterfly Helm
-				i(235154),	-- Blood Monarch Helm
 				i(235155),	-- Midnight Butterfly Pauldrons
-				i(235210),	-- Blood Monarch Pauldrons
 				i(235212),	-- Spring Butterfly Pauldrons
 				i(235214),	-- Spring Butterfly Belt
 				i(235215),	-- Midnight Butterfly Belt
-				i(235216),	-- Blood Monarch Belt
 				i(235227),	-- Ensemble: Ornaments of the Spring Butterfly
-				i(235228),	-- Ensemble: Ornaments of the Blood Monarch
 				i(235229),	-- Ensemble: Ornaments of the Midnight Butterfly
 				i(235269),	-- Spring Butterfly Mace
-				i(235270),	-- Pearlescent Monarch's Mace
 				i(235271),	-- Midnight Butterfly Mace
-				i(235272),	-- Blood Monarch's Mace
 				i(235289),	-- Spring Butterfly Sword
-				i(235290),	-- Pearlescent Monarch's Sword
 				i(235292),	-- Midnight Butterfly Sword
 				i(235293),	-- Spring Butterfly Wand
-				i(235294),	-- Pearlescent Monarch's Wand
-				i(235295),	-- Blood Monarch's Wand
 				i(235296),	-- Midnight Butterfly Wand
 				i(235340),	-- Topsy Turvy Fool's Mask
 				i(235341),	-- Topsy Turvy Clown's Mask
@@ -196,8 +187,6 @@ root(ROOTS.Unsorted, {
 				i(235343),	-- Topsy Turvy Joker's Mask
 				i(235399),	-- Spring Butterfly Polearm
 				i(235400),	-- Midnight Butterfly Polearm
-				i(235401),	-- Blood Monarch's Polearm
-				i(235402),	-- Pearlescent Monarch's Polearm
 				i(235563),	-- Forest Dweller's Garden Tunic
 				i(235564),	-- Forest Dweller's Butterfly Tunic
 				i(235565),	-- Forest Dweller's Blooming Tunic
@@ -230,15 +219,12 @@ root(ROOTS.Unsorted, {
 				i(235593),	-- Ensemble: Forest Dweller's Butterfly Attire
 				i(235594),	-- Ensemble: Forest Dweller's Blooming Attire
 				i(235595),	-- Ensemble: Forest Dweller's Rooted Attire
-				i(235623),	-- Ruby Scale Treads
-				i(235624),	-- Sapphire Scale Treads
 				i(235640),	-- Topsy Turvy Fool's Die
 				i(235641),	-- Topsy Turvy Clown's Die
 				i(235642),	-- Topsy Turvy Jester's Die
 				i(235643),	-- Topsy Turvy Joker's Die
 				i(235653),	-- Spring Butterfly Longbow
 				i(235654),	-- Midnight Butterfly Longbow
-				i(235655),	-- Blood Monarch's Longbow
 				i(235664),	-- Ensemble: Topsy Turvy Mask Set
 
 				-- Old Delve Loot as cosmetic?
@@ -396,8 +382,6 @@ root(ROOTS.Unsorted, {
 				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
-				i(235650),	-- Pearlescent Butterfly (MOUNT!) [Trading Post]
-				i(235646),	-- Shimmermist Free Runner (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
 
@@ -560,7 +544,6 @@ root(ROOTS.Unsorted, {
 				i(235813),	-- Machine Gob's Iron Grin
 				i(235819),	-- Lucky Penny Locket
 				i(235820),	-- Hole-Punched Doubloon
-				i(235823),	-- Scrap-Plated Pants
 				i(235826),	-- Electric Wristrags
 				i(235828),	-- Electrocution Warning
 				i(235829),	-- Welded Scrap Hood
@@ -679,7 +662,6 @@ root(ROOTS.Unsorted, {
 				i(233081),	-- Short Sepia War Skirt
 				i(233082),	-- Short Grassy War Skirt
 				i(233083),	-- Short Cloudy War Skirt
-				i(233084),	-- Short Deep War Skirt
 				i(233085),	-- Short Camo War Skirt
 				i(233086),	-- Short Brick War Skirt
 				i(233087),	-- Short Lively War Skirt
@@ -695,7 +677,6 @@ root(ROOTS.Unsorted, {
 				i(233098),	-- Long Sepia War Skirt
 				i(233099),	-- Long Grassy War Skirt
 				i(233100),	-- Long Cloudy War Skirt
-				i(233101),	-- Long Deep War Skirt
 				i(233102),	-- Long Camo War Skirt
 				i(233103),	-- Long Brick War Skirt
 				i(233104),	-- Long Lively War Skirt
@@ -711,7 +692,6 @@ root(ROOTS.Unsorted, {
 				i(233120),	-- Short Sepia War Skirt and Leg Wraps
 				i(233121),	-- Short Grassy War Skirt and Leg Wraps
 				i(233122),	-- Short Cloudy War Skirt and Leg Wraps
-				i(233123),	-- Short Deep War Skirt and Leg Wraps
 				i(233124),	-- Short Camo War Skirt and Leg Wraps
 				i(233125),	-- Short Brick War Skirt and Leg Wraps
 				i(233126),	-- Short Lively War Skirt and Leg Wraps
@@ -727,7 +707,6 @@ root(ROOTS.Unsorted, {
 				i(233137),	-- Long Sepia War Skirt and Leg Wraps
 				i(233138),	-- Long Grassy War Skirt and Leg Wraps
 				i(233139),	-- Long Cloudy War Skirt and Leg Wraps
-				i(233140),	-- Long Deep War Skirt and Leg Wraps
 				i(233141),	-- Long Camo War Skirt and Leg Wraps
 				i(233142),	-- Long Brick War Skirt and Leg Wraps
 				i(233143),	-- Long Lively War Skirt and Leg Wraps
@@ -743,7 +722,6 @@ root(ROOTS.Unsorted, {
 				i(233154),	-- Banded Sepia War Wraps
 				i(233155),	-- Banded Grassy War Wraps
 				i(233156),	-- Banded Cloudy War Wraps
-				i(233157),	-- Banded Deep War Wraps
 				i(233158),	-- Banded Camo War Wraps
 				i(233159),	-- Banded Brick War Wraps
 				i(233160),	-- Banded Lively War Wraps
@@ -759,7 +737,6 @@ root(ROOTS.Unsorted, {
 				i(233171),	-- Banded Sepia War Slippers
 				i(233172),	-- Banded Grassy War Slilppers
 				i(233173),	-- Banded Cloudy War Slippers
-				i(233174),	-- Banded Deep War Slippers
 				i(233175),	-- Banded Camo War Slippers
 				i(233176),	-- Banded Brick War Slippers
 				i(233177),	-- Banded Lively War Slippers
@@ -1057,7 +1034,6 @@ root(ROOTS.Unsorted, {
 				i(230035),	-- Prowler's Sepia Shoulder Cape
 				i(230036),	-- Prowler's Grassy Shoulder Cape
 				i(230037),	-- Prowler's Cloudy Shoulder Cape
-				i(230038),	-- Prowler's Deep Shoulder Cape
 				i(230039),	-- Prowler's Brick Shoulder Cape
 				i(230040),	-- Prowler's Camo Shoulder Cape
 				i(230041),	-- Prowler's Lively Shoulder Cape
@@ -1069,7 +1045,6 @@ root(ROOTS.Unsorted, {
 				i(230056),	-- Prowler's Sepia Cowl
 				i(230057),	-- Prowler's Grassy Cowl
 				i(230058),	-- Prowler's Cloudy Cowl
-				i(230059),	-- Prowler's Deep Cowl
 				i(230060),	-- Prowler's Camo Cowl
 				i(230061),	-- Prowler's Brick Cowl
 				i(230062),	-- Prowler's Lively Cowl
@@ -1084,7 +1059,6 @@ root(ROOTS.Unsorted, {
 				i(230076),	-- Prowler's Sepia Mask
 				i(230077),	-- Prowler's Grassy Mask
 				i(230078),	-- Prowler's Cloudy Mask
-				i(230079),	-- Prowler's Deep Mask
 				i(230080),	-- Prowler's Camo Mask
 				i(230081),	-- Prowler's Brick Mask
 				i(230082),	-- Prowler's Lively Mask
@@ -1098,7 +1072,6 @@ root(ROOTS.Unsorted, {
 				i(230166),	-- Ensemble: Prowler's Sepia Headgear
 				i(230167),	-- Ensemble: Prowler's Grassy Headgear
 				i(230168),	-- Ensemble: Prowler's Cloudy Headgear
-				i(230169),	-- Ensemble: Prowler's Deep Headgear
 				i(230170),	-- Ensemble: Prowler's Camo Headgear
 				i(230171),	-- Ensemble: Prowler's Brick Headgear
 				i(230172),	-- Ensemble: Prowler's Lively Headgear
