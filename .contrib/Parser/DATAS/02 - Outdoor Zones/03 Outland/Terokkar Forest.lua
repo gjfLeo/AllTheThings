@@ -2098,8 +2098,8 @@ root(ROOTS.Zones, {
 					}),
 					i(25802, {	-- Dreadfang Venom Sac
 						["crs"] = {
-							18461,	-- Dreadfang Lurker
-							21854,	-- Dreadfang Widow
+							18466,	-- Dreadfang Lurker
+							18467,	-- Dreadfang Widow
 						},
 						["coords"] = {
 							{ 52.3, 78.5, TEROKKAR_FOREST },	-- Netherweb Ridge
