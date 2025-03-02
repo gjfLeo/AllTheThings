@@ -54,7 +54,7 @@ link_beta_files() {
         rsync -a --link-dest="$PWD/src/" "$PWD/src/" "$1/src"
 
         rsync -a --link-dest="$PWD/AllTheThings.lua" "$PWD/AllTheThings.lua" "$1/AllTheThings.lua"
-        rsync -a --link-dest="$PWD//AllTheThings_Mainline.toc" "$PWD//AllTheThings_Mainline.toc" "$1//AllTheThings_Mainline.toc
+        rsync -a --link-dest="$PWD//AllTheThings_Mainline.toc" "$PWD//AllTheThings_Mainline.toc" "$1//AllTheThings_Mainline.toc"
         rsync -a --link-dest="$PWD/Bindings.xml" "$PWD/Bindings.xml" "$1/Bindings.xml"
     fi
 }
