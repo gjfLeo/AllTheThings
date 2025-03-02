@@ -732,6 +732,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(225891),	-- Vile Vial of Kaheti Bile
 			}),
 		}),
+		filter(BATTLE_PETS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			i(232848),	-- Mr. DELVER
+		})),
 		filter(TOYS, {
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
 		}),
@@ -2169,9 +2172,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					crit(70987),	-- Rowdy Rifts
 				}),
 			}),
-			filter(BATTLE_PETS, {
-				i(232848),	-- Mr. DELVER
-			}),
 			n(TREASURES, {
 				o(503011, {	-- Sturdy Chest
 					["coord"] = { 57.0, 46.8, EXCAVATION_SITE_9 },
@@ -3003,6 +3003,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		},
 	}),
 })));
+
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
 		q(82772, {["timeline"]={REMOVED_11_1_0_SEASONSTART}}),	-- First Delve of the day (Season 1)

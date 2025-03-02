@@ -329,7 +329,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["questID"] = 51958,
 				["coord"] = { 41.8, 28.4, STORMSONG_VALLEY },
 				["g"] = {
-					i(158216),	-- Living Oil Cannister
+					i(158216),	-- Living Oil Canister
 					crit(41759, {	-- Slickspill
 						["achievementID"] = 12940,	-- Adventurer of Stormsong Valley
 					}),
