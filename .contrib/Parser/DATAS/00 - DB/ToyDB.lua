@@ -1422,6 +1422,7 @@ i(235016);	-- Redeployment Module
 ------------------
 -- PATCH 11.1.0 --
 ------------------
+i(234950);	-- Atomic Regoblinator
 i(235670);	-- Bilgewater Cartel Banner
 i(235671);	-- Blackwater Cartel Banner
 i(230850);	-- Delve-O-Bot 7001
@@ -1444,7 +1445,6 @@ i(237382);	-- Undermine Supply Crate
 i(235672);	-- Venture Co. Banner
 --- UNSORTED ---
 i(237346);	-- Artisan Beverage Goblet Bobber
-i(234950);	-- Atomic Regoblinator
 i(237345);	-- Limited Edition Rocket Bobber
 i(237347);	-- Organically-Sourced Wellington Bobber
 i(235519);	-- Prized Legend's Pennant

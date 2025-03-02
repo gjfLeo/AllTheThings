@@ -43,6 +43,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					{ 65.5, 81.9, AZJ_KAHET_LOWER},	-- End
 				},
 				["g"] = {
+					i(223917),	-- Nerubian Covert's Cloak
 					i(223941),	-- Nerubian Cultivator's Girdle
 					i(223916),	-- Nerubian Cutthroat's Reach
 					i(223915),	-- Nerubian Orator's Stiletto

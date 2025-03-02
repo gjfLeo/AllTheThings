@@ -256,15 +256,38 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(231396, {	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
-			--	["coord"] = { 63.4, 16.7, UNDERMINE },
+				["description"] = "Conditions to make this npc spawn are not yet known.",
+				["coord"] = { 30.8, 38.2, UNDERMINE },
 				["g"] = bubbleDownClassicRep(FACTION_DARKFUSE_SOLUTIONS, {
 					{		-- Neutral
+						i(235558, {	-- Box of Darkfuse Miscellany
+							["cost"] = {{ "c", 3226, 100 }},	-- 100x Market Research
+						}),
+						i(235532, {	-- Experimental Goblin-FUEL Supplement
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
+						}),
+						i(237276),	-- Refurbished Rocket Glider
 					}, {	-- Friendly
+						i(229823, {	-- Canister of Darkfuse Solution
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
+						}),
+						i(235533, {	-- Prototype Auto-Advertiser
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
+						}),
 					}, {	-- Honored
+						i(234950, {	-- Atomic Regoblinator
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
+						}),
+						i(235534, {	-- Electropuncture Test Model
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
+						}),
 					}, {	-- Revered
-					}, {	-- Exalted
 						i(229950, {	-- Darkfuse Demolisher (MOUNT!)
 							["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
+						}),
+					}, {	-- Exalted
+						i(231550, {	-- Darkfuse Lowdown Coat
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 3250 }},
 						}),
 					},
 				}),

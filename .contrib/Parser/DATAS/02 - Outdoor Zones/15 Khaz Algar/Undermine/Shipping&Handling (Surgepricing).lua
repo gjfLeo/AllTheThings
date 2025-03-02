@@ -84,6 +84,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(UNDERMINE, {
 			n(SHIPPING_AND_HANDLING, {
 			-- Job Streak give reward after first 10 delivery job in row per character (could be shared with scrap boxes?)
+				i(231556),	-- Breakneck Cabbie's Coat
 				--i(233544),	-- Descaled Breastplate
 				--i(233545),	-- Descaled Sabatons
 				--i(233546),	-- Descaled Gauntlets

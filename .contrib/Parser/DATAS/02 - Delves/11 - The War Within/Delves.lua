@@ -2152,6 +2152,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					["questID"] = 83439,
 				}),
 			}),
+			n(ZONE_DROPS, {
+				i(224025),	-- Crackling Shard
+			}),
 		},
 	}),
 	m(EXCAVATION_SITE_9, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {

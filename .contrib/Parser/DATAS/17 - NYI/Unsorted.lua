@@ -104,8 +104,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(COSMETIC, {
 				-- Cartel Cosmetics?
-				i(231550),	-- Darkfuse Lowdown Coat
-				i(231556),	-- Breakneck Cabbie's Coat
 				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
 				i(231733),	-- Black Bruiser's Tabard
 				i(231739),	-- Black Bruiser's Helm
@@ -343,7 +341,7 @@ root(ROOTS.Unsorted, {
 				i(227666),	-- Diner Review Cards
 				i(228798),	-- Gob-Glider
 				i(229810),	-- Vintage Kaja'cola Can
-				i(229823),	-- Canister of Darkfuse Solution
+
 				i(230187),	-- Lucio Boombox
 				i(230807),	-- Drill Hands
 				i(230990),	-- Set Keystone Map: Operation: Floodgate
@@ -364,7 +362,7 @@ root(ROOTS.Unsorted, {
 				i(234619),	-- Ultimate Orange O-pocalypse
 				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
 				i(235280),	-- Extra Crispy Laundry
-				i(235558),	-- Box of Darkfuse Miscellany
+
 				i(235627),	-- Scribbles' Favorite Candies
 				i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
 				i(235713),	-- Weird Sand
@@ -536,7 +534,6 @@ root(ROOTS.Unsorted, {
 				i(232786),	-- Trigger-Sniffer's Handwraps
 				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
-				i(235819),	-- Lucky Penny Locket
 				i(235826),	-- Electric Wristrags
 				i(235832),	-- Oil-Splattered Cloak
 				i(235833),	-- Serrated Slickgrip
@@ -564,7 +561,6 @@ root(ROOTS.Unsorted, {
 			filter(TOYS, {
 				i(236749),	-- Take-Home Torq
 				i(236751),	-- Take-Home Flarendo
-				i(234950),	-- Atomic Regoblinator
 				i(235018),	-- Cracked Cold One [From toy?]
 				i(235219),	-- Fireworks Hat
 			}),
@@ -604,7 +600,6 @@ root(ROOTS.Unsorted, {
 			i(237260),	-- Glass of Daylight Dew
 			i(237267),	-- Spare Uncrowned Vest
 			i(237268),	-- How to Get Out of Parking Tickets More Than Once
-			i(237276),	-- Refurbished Rocket Glider
 			i(237345),	-- Limited Edition Rocket Bobber
 			i(237346),	-- Artisan Beverage Goblet Bobber
 			i(237347),	-- Organically-Sourced Wellington Bobber
