@@ -407,6 +407,7 @@ MobileDB.GameObject = {
 	[270902] = true,	-- Weathered Shrine
 	[270918] = true,	-- Soothing Lilybud (q:47259)
 	[271014] = true,	-- Tarkaj's Warblade (q:47317)
+	[271554] = true,	-- Veiled Wyrmtongue Chest
 	[271561] = true,	-- Dwarf Trap
 	[271648] = true,	-- Stolen Idol of Krag'wa
 	[271667] = true,	-- Naga Cage
