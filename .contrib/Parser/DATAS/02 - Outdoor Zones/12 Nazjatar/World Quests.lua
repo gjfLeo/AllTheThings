@@ -119,7 +119,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			q(56022),	-- Runelocked Chest
 			q(57331, {	-- Salvage Operations
 				["g"] = {
-					i(167079),	-- Battered Supplies (QI!)
+					o(322358, {	-- Waterlogged Alliance Crate
+						i(167079),	-- Battered Supplies (QI!)
+					}),
 				},
 			}),
 			petbattle(q(56384)),	-- Shadowspike Lurker
