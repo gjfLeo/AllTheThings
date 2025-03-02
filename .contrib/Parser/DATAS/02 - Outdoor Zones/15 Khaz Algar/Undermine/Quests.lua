@@ -628,7 +628,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			header(HEADERS.AchCriteria, 40894.01, {	-- The Highst
 				q(84214, {	-- The Job
-					--["sourceQuests"] = { XXX },
+					["sourceQuests"] = { 83176 },	-- Just a Hunch
 					["provider"] = { "o", 456747 },	-- Gig Sheets
 					["coord"] = { 42.7, 52.8, UNDERMINE },
 					["isBreadcrumb"] = true,

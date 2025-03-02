@@ -17,7 +17,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233476),	-- Shimmerthread Cowl
 					i(233477),	-- Shimmerthread Handwraps
 					i(233475),	-- Shimmerthread Leggings
-					i(233479),	-- Shimmerthread Robes
+					i(233479),	-- Shimmerthread Robe
 					i(233478),	-- Shimmerthread Sandals
 					i(233474),	-- Shimmerthread Shoulderpads
 					i(233472),	-- Shimmerthread Wristwraps

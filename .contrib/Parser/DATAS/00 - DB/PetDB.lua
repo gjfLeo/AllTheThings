@@ -4319,6 +4319,7 @@ i(232807, 4664);	-- Iron Chick
 i(232859, 4653);	-- Lab Rat
 i(205013, 3518);	-- Lettuce
 i(232840, 4661);	-- Mechagopher
+i(232848, 4647);	-- Mr. DELVER
 i(232841, 4644);	-- Professor Punch
 i(232851, 4641);	-- Rocketfist
 i(232895, 4701);	-- Spotty
@@ -4360,7 +4361,6 @@ i(0, 4743);	-- Swabbie
 i(235909, 4755);	-- Gleam
 i(232857, 4635);	-- Goggles
 i(232854, 4634);	-- Grinner
-i(232848, 4647);	-- Mr. DELVER
 i(232852, 4636);	-- Mutt
 i(232847, 4646);	-- Personal-Use Sapper
 i(232856, 4633);	-- Scruff

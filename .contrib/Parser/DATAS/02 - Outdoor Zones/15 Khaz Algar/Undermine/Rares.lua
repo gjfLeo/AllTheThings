@@ -55,6 +55,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235348),	-- Back Alley Shank
 					i(234218),	-- Goo-blin Grenade
 					i(235304),	-- Gutter Rat Mask
+					i(235310),	-- Flashy Patchwork Trousers
 				},
 			}),
 			n(230828, {	-- Chief Foreman Gutso
@@ -108,6 +109,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 86307,
 				["g"] = {
 					i(235824),	-- Flame Sputterer
+					i(235310),	-- Flashy Patchwork Trousers
 					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235823),	-- Scrap-Plated Pants
 				},
@@ -203,6 +205,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 85004,	-- Swigs Farsight
 				["g"] = {
 					i(235310),	-- Flashy Patchwork Trousers
+					i(234218),	-- Goo-blin Grenade
 					i(235314),	-- Knightrider's Steelfists
 					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots

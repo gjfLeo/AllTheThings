@@ -95,7 +95,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(BATTLE_PETS, {
 				i(232847),	-- Personal-Use Sapper
-				i(232848),	-- Mr. DELVER
 				i(232852),	-- Mutt
 				i(232854),	-- Grinner
 				i(232856),	-- Scruff
@@ -370,7 +369,6 @@ root(ROOTS.Unsorted, {
 				i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
 				i(235713),	-- Weird Sand
 				i(235895),	-- Bloodstone
-				i(235910),	-- Mint Condition Gallagio Anniversary Coin
 			}),
 			filter(MOUNTS, {
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]

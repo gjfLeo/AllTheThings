@@ -735,6 +735,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		filter(TOYS, {
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
 		}),
+		filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			i(235617), 	-- Lucky Goblin's Strapped Rockets
+		})),
 		n(BOUNTIFUL, bubbleDownFiltered({
 			["cost"] = {{"c", RESTORED_COFFER_KEY, 1}},
 		},FILTERFUNC_itemID,{
@@ -939,7 +942,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 				}),
 				filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-					i(235617), 	-- Lucky Goblin's Strapped Rockets
 					i(235616),	-- True Speed Goblin-Thruster
 				})),
 				filter(TOYS, {
@@ -2163,6 +2165,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					crit(70986),	-- Black Blood Profits
 					crit(70987),	-- Rowdy Rifts
 				}),
+			}),
+			filter(BATTLE_PETS, {
+				i(232848),	-- Mr. DELVER
 			}),
 			n(TREASURES, {
 				o(503011, {	-- Sturdy Chest
