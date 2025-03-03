@@ -11169,10 +11169,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					cl(DRUID, {
 						i(212051),	-- Cloak of the Greatlynx
 						i(212052),	-- Great Links of the Greatlynx
-						i(212053),	-- Faulds of the Greatlynx
-						i(212054),	-- Maw of the Greatlynx
 						i(212055),	-- Leggings of the Greatlynx
-						i(212056),	-- Mask of the Greatlynx
 						i(212057),	-- Eviscerators of the Greatlynx
 						i(212058),	-- Treads of the Greatlynx
 						i(212059),	-- Hide of the Greatlynx

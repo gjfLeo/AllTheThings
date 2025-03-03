@@ -12,7 +12,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233482),	-- Might-Be-Invisible Shawl
 				}),
 				filter(CLOTH, {
-					-- speculated --
 					i(233473),	-- Shimmerthread Cord
 					i(233476),	-- Shimmerthread Cowl
 					i(233477),	-- Shimmerthread Handwraps
@@ -38,7 +37,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233470),	-- Rebel Spike Waders
 				}),
 				filter(MAIL, {
-					-- speculated --
 					i(233457),	-- Scrapcoil Belt
 					i(233456),	-- Scrapcoil Bracers
 					i(233463),	-- Scrapcoil Chainmail
@@ -52,7 +50,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233480),	-- Lucky-Streak Pendant
 				}),
 				filter(PLATE, {
-					-- speculated --
 					i(233448),	-- Mechforged Armplates
 					i(233455),	-- Mechforged Chestplate
 					i(233453),	-- Mechforged Gauntlets
@@ -71,15 +68,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(WEAPONS, {
 				i(235649),	-- Gold-Plated Battleaxe
+				i(233534),	-- Gold-Plated Broadsword
 				i(233538),	-- Gold-Plated Blade
+				i(235647),	-- Gold-Plated Carver
+				i(233529),	-- Gold-Plated Cinderbrew Bottle
 				i(233540),	-- Gold-Plated Cudgel
 				i(233535),	-- Gold-Plated Greatsword
 				i(233527),	-- Gold-Plated Glaive
+				i(233539),	-- Gold-Plated Hammer
+				i(235648),	-- Gold-Plated Hatchet
 				i(233541),	-- Gold-Plated Knife
+				i(233532),	-- Gold-Plated Polearm
 				i(233542),	-- Gold-Plated Shank
+				i(233528),	-- Gold-Plated Shield
 				i(233533),	-- Gold-Plated Spear
 				i(233530),	-- Gold-Plated Spellstaff
 				i(233531),	-- Gold-Plated Staff
+				i(233537),	-- Gold-Plated Sword
 				i(233536),	-- Gold-Plated Rifle
 			}),
 			-- unsure where to put it atm

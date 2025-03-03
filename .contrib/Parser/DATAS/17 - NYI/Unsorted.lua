@@ -8,8 +8,6 @@ root(ROOTS.Unsorted, {
 			n(ARMOR, {
 				-- Quest Rewards?
 				i(232440),	-- [PH] Boreal Crossbow
-				i(235647),	-- Gold-Plated Carver
-				i(235648),	-- Gold-Plated Hatchet
 				-- Weird Armor
 				i(234511),	-- Corrupted Cuirass
 				i(234525),	-- Corrupted Crown
@@ -46,14 +44,7 @@ root(ROOTS.Unsorted, {
 				i(233345),	-- Power-Washed Grips
 				i(233346),	-- Power-Washed Coif
 				i(233347),	-- Power-Washed Greaves
-				i(233349),	-- Power-Washed Belt
 				i(233350),	-- Power-Washed Bracers
-				i(233528),	-- Gold-Plated Shield
-				i(233529),	-- Gold-Plated Cinderbrew Bottle
-				i(233532),	-- Gold-Plated Polearm
-				i(233534),	-- Gold-Plated Broadsword
-				i(233537),	-- Gold-Plated Sword
-				i(233539),	-- Gold-Plated Hammer
 				i(233544),	-- Descaled Breastplate
 				i(233545),	-- Descaled Sabatons
 				i(233546),	-- Descaled Gauntlets
@@ -574,7 +565,6 @@ root(ROOTS.Unsorted, {
 			i(234733),	-- Bloodwake Ritual Bowl
 			i(237036),	-- Golden Valorstone
 			i(237123),	-- Descaled Capelet
-			i(237124),	-- Power-Washed Drape
 			i(237125),	-- Upcycled Cloak
 			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
 			i(237240),	-- Banded Sepia War Legwraps

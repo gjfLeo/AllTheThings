@@ -6,6 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		n(SPECIAL, {
 			o(509490, {	-- Sewer Cheese
 				["description"] = "In the sewers on a barrel, shared interaction between players but respawns quickly. Feed to the nearby Hungry rat.",
+				["modelScale"] = 0.3,
 				["cr"] = 238661,	-- Hungry Rat
 				["coord"] = { 33.1, 58.2, UNDERMINE },
 			}),

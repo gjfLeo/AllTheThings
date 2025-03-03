@@ -237,7 +237,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 53.2, 72.6, UNDERMINE },
 						["minReputation"] = { FACTION_TWW_VENTURE_CO, HONORED },	-- Venture Co Honored
 						["g"] = {
-							i(234746),	-- Venture Co's Trove (Green)
+							i(234746),	-- Venture Co. Trove (Green)
 						},
 					}),
 					q(88880, {	-- Revered with the Venture Co
@@ -245,7 +245,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 53.2, 72.6, UNDERMINE },
 						["minReputation"] = { FACTION_TWW_VENTURE_CO, REVERED },	-- Venture Co Revered
 						["g"] = {
-							i(235264),	-- Venture Co's Trove (Blue)
+							i(235264),	-- Venture Co. Trove (Blue)
 						},
 					}),
 					q(88881, {	-- Exalted with the Venture Co
@@ -253,7 +253,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 53.2, 72.6, UNDERMINE },
 						["minReputation"] = { FACTION_TWW_VENTURE_CO, EXALTED },	-- Venture Co Exalted
 						["g"] = {
-							i(235265),	-- Venture Co's Trove (Purple)
+							i(235265),	-- Venture Co. Trove (Purple)
 						},
 					}),
 					q(85810, {	-- Exalted with the Venture Co (Paragon)

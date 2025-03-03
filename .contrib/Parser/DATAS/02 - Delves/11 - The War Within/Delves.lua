@@ -861,14 +861,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(MAIL, {
 						-- Season 1
-						i(219163, {["timeline"]={ REMOVED_11_1_0}}),	-- Bascinet of the Stygian Sea
-						i(219166, {["timeline"]={ REMOVED_11_1_0}}),	-- Hauberk of the Stygian Sea
-						i(219164, {["timeline"]={ REMOVED_11_1_0}}),	-- Grasps of the Stygian Sea
-						i(219162, {["timeline"]={ REMOVED_11_1_0}}),	-- Poleyns of the Stygian Sea
-						i(219160, {["timeline"]={ REMOVED_11_1_0}}),	-- Sash of the Stygian Sea
-						i(219161, {["timeline"]={ REMOVED_11_1_0}}),	-- Spaulders of the Stygian Sea
-						i(219165, {["timeline"]={ REMOVED_11_1_0}}),	-- Treads of the Stygian Sea
-						i(219159, {["timeline"]={ REMOVED_11_1_0}}),	-- Wrist Bindings of the Stygian Sea
+						i(219163, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Bascinet of the Stygian Sea
+						i(219166, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Hauberk of the Stygian Sea
+						i(219164, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Grasps of the Stygian Sea
+						i(219162, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Poleyns of the Stygian Sea
+						i(219160, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Sash of the Stygian Sea
+						i(219161, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Spaulders of the Stygian Sea
+						i(219165, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Treads of the Stygian Sea
+						i(219159, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Wrist Bindings of the Stygian Sea
 						-- Season 2
 						i(235447, {	-- Blastborne Hauberk
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
@@ -897,8 +897,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(NECK_F, {
 						-- Season 1
-						i(219184, {["timeline"]={ REMOVED_11_1_0}}),	-- Enkindled Locket
-						i(219217, {["timeline"]={ REMOVED_11_1_0}}),	-- Gold-Thread Choker
+						i(219184, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Enkindled Locket
+						i(219217, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Gold-Thread Choker
 						-- Season 2
 						--i(235428, {	-- Gobtastic Bling
 						--	["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
@@ -909,14 +909,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(PLATE, {
 						-- Season 1
-						i(219152, {["timeline"]={ REMOVED_11_1_0}}),	-- Charmbelt of Hidden Stars
-						i(219156, {["timeline"]={ REMOVED_11_1_0}}),	-- Fists of Hidden Stars
-						i(219151, {["timeline"]={ REMOVED_11_1_0}}),	-- Handguards of Hidden Stars
-						i(219154, {["timeline"]={ REMOVED_11_1_0}}),	-- Legplates of Hidden Stars
-						i(219158, {["timeline"]={ REMOVED_11_1_0}}),	-- Raiment of Hidden Stars
-						i(219153, {["timeline"]={ REMOVED_11_1_0}}),	-- Pauldrons of Hidden Stars
-						i(219157, {["timeline"]={ REMOVED_11_1_0}}),	-- Sollerets of Hidden Stars
-						i(219155, {["timeline"]={ REMOVED_11_1_0}}),	-- Visage of Hidden Stars
+						i(219152, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Charmbelt of Hidden Stars
+						i(219156, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Fists of Hidden Stars
+						i(219151, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Handguards of Hidden Stars
+						i(219154, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Legplates of Hidden Stars
+						i(219158, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Raiment of Hidden Stars
+						i(219153, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Pauldrons of Hidden Stars
+						i(219157, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Sollerets of Hidden Stars
+						i(219155, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Visage of Hidden Stars
 						-- Season 2
 						i(235455, {	-- Junkreaver's Breastplate
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },

@@ -72,14 +72,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					-- ToDo: Check exact Source for the Mount, probably from a chest only?
 					-- Job Streak give reward after first 10 delivery job in row per character (could be shared with scrap boxes?)
 					i(231556),	-- Breakneck Cabbie's Coat
+					--i(233551),	-- Descaled Armplates
 					--i(233544),	-- Descaled Breastplate
-					--i(233545),	-- Descaled Sabatons
 					--i(233546),	-- Descaled Gauntlets
+					--i(233550),	-- Descaled Girdle
 					--i(233547),	-- Descaled Helm
 					i(233548),	-- Descaled Legguards
 					--i(233549),	-- Descaled Mantle
-					--i(233550),	-- Descaled Girdle
-					--i(233551),	-- Descaled Armplates
+					--i(233545),	-- Descaled Sabatons
 					i(237126),	-- Laundered Cape
 					i(233266),	-- Laundered Cord
 					--i(233263),	-- Laundered Cowl
@@ -89,22 +89,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					--i(233261),	-- Laundered Sandals
 					--i(233265),	-- Laundered Shoulderpads
 					--i(233260),	-- Laundered Vestment
-					--i(233343),	-- Power-Washed Chainmail
-					i(233344),	-- Power-Washed Striders
-					--i(233345),	-- Power-Washed Grips
-					--i(233346),	-- Power-Washed Coif
-					--i(233347),	-- Power-Washed Greaves
-					i(233348),	-- Power-Washed Shoulderguards
-					--i(233349),	-- Power-Washed Belt
+					i(233349),	-- Power-Washed Belt
 					--i(233350),	-- Power-Washed Bracers
-					--i(233335),	-- Upcycled Jerkin
-					--i(233336),	-- Upcycled Waders
-					--i(233337),	-- Upcycled Gloves
-					--i(233338),	-- Upcycled Helm
+					--i(233343),	-- Power-Washed Chainmail
+					--i(233346),	-- Power-Washed Coif
+					i(237124),	-- Power-Washed Drape
+					--i(233347),	-- Power-Washed Greaves
+					--i(233345),	-- Power-Washed Grips
+					i(233348),	-- Power-Washed Shoulderguards
+					i(233344),	-- Power-Washed Striders
+					--i(233342),	-- Upcycled Bindings
 					--i(233339),	-- Upcycled Breeches
 					i(233340),	-- Upcycled Epaulets
+					--i(233337),	-- Upcycled Gloves
+					--i(233338),	-- Upcycled Helm
+					--i(233335),	-- Upcycled Jerkin
 					--i(233341),	-- Upcycled Sash
-					--i(233342),	-- Upcycled Bindings
+					--i(233336),	-- Upcycled Waders
 					i(229947),	-- Violet Goblin Shredder (MOUNT!)	-- Returns invalid on live, will be eventually fixed by blizzard
 				}),
 			},

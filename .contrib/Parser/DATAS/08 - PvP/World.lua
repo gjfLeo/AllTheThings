@@ -279,13 +279,27 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 			ach(40096, {	-- Sparking Battle (x20)
 				i(225969),	-- Forged Flag of Victory (TOY!)
 			}),
-			ach(40089),	-- Spoiled Goods (1x)
-			ach(40090),	-- Spoiled Goods (10x)
-			ach(40087),	-- Unbound Battle (automated)
-			ach(40465),	-- Unbound Bounty (automated)
-			ach(40466),	-- Unbound Glory (10x)
-			ach(40467),	-- Unbound Glory (25x)
-			ach(40468),	-- Unbound Glory (5x)
+			ach(40089, {	-- Spoiled Goods (1x)
+				["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS },
+			}),
+			ach(40090, {	-- Spoiled Goods (10x)
+				["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS },
+			}),
+			ach(40087, {	-- Unbound Battle (automated)
+				["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS },
+			}),
+			ach(40465, {	-- Unbound Bounty (automated)
+				["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, THE_RINGING_DEEPS },
+			}),
+			ach(40466, {	-- Unbound Glory (10x)
+				["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, SIREN_ISLE, THE_RINGING_DEEPS, UNDERMINE },
+			}),
+			ach(40467, {	-- Unbound Glory (25x)
+				["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, SIREN_ISLE, THE_RINGING_DEEPS, UNDERMINE },
+			}),
+			ach(40468, {	-- Unbound Glory (5x)
+				["maps"] = { AZJ_KAHET, HALLOWFALL, ISLE_OF_DORN, SIREN_ISLE, THE_RINGING_DEEPS, UNDERMINE },
+			}),
 		}),
 		n(TREASURES, {
 			o(433370,{	-- War Supply Chest

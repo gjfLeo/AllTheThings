@@ -957,7 +957,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 							i(212065),	-- Impalers of the Hypogeal Nemesis
 						}),
 						cl(DRUID, {
-							-- Blizzard is trolling and nothing is rewarded here
+							i(212053),	-- Faulds of the Greatlynx
+							i(212056),	-- Mask of the Greatlynx
+							i(212054),	-- Maw of the Greatlynx
 						}),
 						cl(EVOKER, {
 							i(212027),	-- Fumaroles of the Destroyer
