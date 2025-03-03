@@ -16,7 +16,8 @@ local GetItemInfo = app.WOWAPI.GetItemInfo;
 -- BattlePet Lib / Species Lib
 local KEY, CACHE = "speciesID", "BattlePets"
 local CLASSNAME = "BattlePet"
-if not C_PetBattles then
+-- TODO: Classic implementation will need some heavily-modified functionality here
+if not C_PetBattles or not C_PetJournal then
 	app.CreateSpecies = app.CreateUnimplementedClass("BattlePet", KEY);
 	app.CreatePetAbility = app.CreateUnimplementedClass("PetAbility", "petAbilityID");
 	app.CreatePetType = app.CreateUnimplementedClass("PetType", "petTypeID");
@@ -25,6 +26,19 @@ end
 
 local C_PetBattles_GetAbilityInfoByID,C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID,C_PetJournal_GetPetInfoByIndex,C_PetJournal_GetNumPets
 	= C_PetBattles.GetAbilityInfoByID,C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID,C_PetJournal.GetPetInfoByIndex,C_PetJournal.GetNumPets
+
+-- Due to bad Blizzard data being returned from C_PetJournal.GetNumPets
+-- we can only use the method of scanning the players collected pets if this API returns the proper number of total
+-- pets existing within the game
+app.PrintDebug("BattlePet.Load:C_PetJournal_GetNumPets",C_PetJournal_GetNumPets())
+local TOTAL_PETS_FOR_SCAN
+if app.IsClassic then
+	-- TODO: adjust/revise if viable
+	TOTAL_PETS_FOR_SCAN = 100
+else
+	-- updated 11.1
+	TOTAL_PETS_FOR_SCAN = 2412
+end
 
 local cache = app.CreateCache(KEY);
 local function CacheInfo(t, field)
@@ -186,7 +200,7 @@ local function RefreshBattlePets()
 	local num
 	local totalPets, ownedPets = C_PetJournal_GetNumPets()
 	-- ownedPets may reflect accurately but the C_PetJournal_GetPetInfoByIndex data will be missing entirely regardless
-	ownedPets = (totalPets or 0) > 10 and ownedPets or 0
+	ownedPets = (totalPets or 0) >= TOTAL_PETS_FOR_SCAN and ownedPets or 0
 
 	if ownedPets > 0 then
 		-- ideally this is the case: we can scan user's actually-collected pets, track the petID's,
