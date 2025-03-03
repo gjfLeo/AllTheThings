@@ -2172,6 +2172,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					crit(70987),	-- Rowdy Rifts
 				}),
 			}),
+			n(DELVE_COMPLETION, {
+				n(TREASURES, {
+					filter(COSMETIC, {
+						i(212168),	-- Cinderbee Wax Candle Hat
+					}),
+				}),
+			}),
 			n(TREASURES, {
 				o(503011, {	-- Sturdy Chest
 					["coord"] = { 57.0, 46.8, EXCAVATION_SITE_9 },
@@ -2525,6 +2532,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
 					filter(COSMETIC, {
+						i(212162),	-- Bitter Shroom Cap
 						i(235615),	-- Rusty Gobjets
 						i(212167),	-- Taken Candle
 					}),

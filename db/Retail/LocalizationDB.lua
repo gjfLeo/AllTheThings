@@ -1245,6 +1245,7 @@ localize(L.HEADER_ICONS, {
 	[-1001070] = _.asset("interface_upgrade"),
 	[-1001071] = 132996,
 	[-1001078] = _.asset("expansion_mop"),
+	[-1001083] = 6383558,
 	[-1001087] = 1604168,
 	[-1001088] = 1604168,
 });
@@ -12981,6 +12982,7 @@ local ObjectModels = {
 	[507227] = 5128194,
 	[508718] = 6156070,
 	[509490] = 1924192,
+	[509567] = 4323821,
 }; _.ObjectModels = ObjectModels;
 
 -- Consolidated Object Data

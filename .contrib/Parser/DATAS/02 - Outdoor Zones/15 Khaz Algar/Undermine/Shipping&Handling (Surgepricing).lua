@@ -4,6 +4,7 @@
 local SHIPPING_AND_HANDLING = createHeader({
 	readable = "Shipping & Handling",
 	constant = "SHIPPING_AND_HANDLING",
+	icon = 6383558,
 	text = {
 		en = "Shipping & Handling",
 	},

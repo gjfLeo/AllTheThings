@@ -804,7 +804,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(53437, {	-- The MOTHERLODE!!: Raw Deal
 				["provider"] = { "n", 136683 },	-- Trade Prince Gallywix
-				["coord"] = { 58.4, 62.6, DAZARALOR },
+				["coord"] = { 58.4, 62.6, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 			}),
 			q(50835, {	-- The Port of Zandalar

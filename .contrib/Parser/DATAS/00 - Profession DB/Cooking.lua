@@ -920,3 +920,8 @@ i(223958, 447872);	-- Spongey Scramble
 i(226190, 445483);	-- Sticky Sweet Treat
 --- DISCOVERY ---
 i(0, 447873);		-- Secret Sauce
+------------------
+-- PATCH 11.1.0 --
+------------------
+--- ITEM ---
+i(235800, 1218414);	--Authentic Undermine Clam Chowder

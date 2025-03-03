@@ -389,7 +389,6 @@ root(ROOTS.Unsorted, {
 			}),
 			n(PROFESSIONS, {
 				prof(COOKING, {
-					i(235800),	-- Recipe: Authentic Undermine Clam Chowder
 					i(235805),	-- Authentic Undermine Clam Chowder
 					i(235845),	-- Undermine Clam Meat
 					i(235846),	-- Undermine Clam

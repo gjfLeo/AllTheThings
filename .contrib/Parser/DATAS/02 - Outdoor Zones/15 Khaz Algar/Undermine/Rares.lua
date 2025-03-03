@@ -272,6 +272,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(UNDERMINE, {
 			n(RARES, {
 				q(90490),	-- Triggers on killing Voltstrike
+				q(90491),	-- Triggers on killing Scrapchewer
 			}),
 		}),
 	}),
