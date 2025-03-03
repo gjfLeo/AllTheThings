@@ -4557,6 +4557,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
+						i(39684, { ["timeline"] = { ADDED_3_0_2 }}),	-- Hair Trigger
+						i(4400),	-- Heavy Stock
 						i(18647, {	-- Schematic: Red Firework (RECIPE!)
 							["isLimited"] = true,
 						}),
@@ -4576,6 +4578,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { CREATED_1_12_1, ADDED_2_3_0 },
 							["isLimited"] = true,
 						}),
+						i(40533, { ["timeline"] = { ADDED_3_0_2 }}),	-- Walnut Stock
+						i(4399),	-- Wooden Stock
 					},
 				}),
 				n(50488, {	-- Stone Guard Nargol <Orgrimmar Quartermaster>

@@ -2945,10 +2945,12 @@ root(ROOTS.Zones, {
 							i(136782, {	-- Fireworks Instruction Manual (CI!)
 								["timeline"] = { ADDED_7_0_3_LAUNCH },
 							}),
+							i(39684),	-- Hair Trigger
 							i(23817, {	-- Schematic: Titanium Toolbox (RECIPE!)
 								["isLimited"] = true,
 								["timeline"] = { ADDED_3_0_8 },
 							}),
+							i(40533),	-- Walnut Stock
 						},
 					}),
 					n(29702, {	-- Chameli Banaphash <Haberdasher>

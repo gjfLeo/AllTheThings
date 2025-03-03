@@ -4601,6 +4601,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(3421),	-- Simple Wildflowers
 					},
 				}),
+				n(5519, {	-- Billibub Cogspinner <Engineering Supplies>
+					-- #if AFTER 3.0.2
+					["coord"] = { 63.07, 31.97, STORMWIND_CITY },
+					-- #else
+					["coord"] = { 55.0, 7.0, STORMWIND_CITY },
+					-- #endif
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						i(39684, { ["timeline"] = { ADDED_3_0_2 }}),	-- Hair Trigger
+						i(4400),	-- Heavy Stock
+						i(40533, { ["timeline"] = { ADDED_3_0_2 }}),	-- Walnut Stock
+						i(4399),	-- Wooden Stock
+					},
+				}),
 				n(1319, {	-- Bryan Cross <Shield Merchant>
 					["coords"] = {
 						-- #if AFTER WRATH
