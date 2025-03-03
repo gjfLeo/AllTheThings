@@ -73,11 +73,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["crs"] = {	231329 },	-- De-Pollution Station X1119
 				-- ToDO: Find the Source for Darkfuse Solutions
 				["cost"] = {{"i", 229823, 1}},	-- Canister of Darkfuse Solution
-			--	["coord"] = { 26.5, 68.4, UNDERMINE },
+				["coord"] = { 41.2, 91.4, UNDERMINE },
 			--	["questID"] = 84877,
 				["isWeekly"] = true,
 				["g"] = {
 					i(229955),	-- Darkfuse Spy-Eye (MOUNT!)
+					i(235832),	-- Oil-Splattered Cloak
+					i(235467),	-- Ominous Oil Residue
+					i(235833),	-- Serrated Slickgrip
 				},
 			}),
 			n(230746, {	-- Ephemeral Agent Lathyd
@@ -151,7 +154,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84918,	-- Court of Rats
 				["g"] = {
 					i(235308),	-- Filthtread Boots
-					i(235359),	-- Ratfang Toxin (share with zone reward from cache)
+					i(235359),	-- Ratfang Toxin
 					i(235326),	-- Ratspit's Heirloom Wristwraps
 					i(235302),	-- Shockwave Pendant
 				},
@@ -259,6 +262,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 62.7, 26.1, UNDERMINE },
 				["questID"] = 85777,
 				["g"] = {
+					i(235373),	-- Abyssal Volt
+					i(235826),	-- Electric Wristrags
 					i(235828),	-- Electrocution Warning
 					i(235827),	-- Statically Charged Vest
 				},
@@ -271,6 +276,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	m(KHAZ_ALGAR, {
 		m(UNDERMINE, {
 			n(RARES, {
+				q(90488),	-- Triggers on killing M.A.G.N.O.
+				q(90489),	-- Triggers on killing Giovante
 				q(90490),	-- Triggers on killing Voltstrike
 				q(90491),	-- Triggers on killing Scrapchewer
 			}),

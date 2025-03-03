@@ -758,10 +758,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					-- TODO: All removed stuff for s1 is speculated, however I never get any piece of this loot from bountiful chests during ptr - Alex
 					filter(BACK_F, {
 						-- Season 1
-						i(219183, {["timeline"]={ REMOVED_11_1_0}}),	-- Amice of Hidden Stars
-						i(219186, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Wrap
-						i(219185, {["timeline"]={ REMOVED_11_1_0}}),	-- Serape of the Stygian Sea
-						i(219190, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Mozzetta
+						i(219183, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Amice of Hidden Stars
+						i(219186, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Wrap
+						i(219185, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Serape of the Stygian Sea
+						i(219190, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Mozzetta
 						-- Season 2
 						i(235427, {	-- Blastborne Shroud
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
@@ -778,14 +778,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(CLOTH, {
 						-- Season 1
-						i(219176, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Belt
-						i(219178, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Buskins
-						i(219175, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Clasps
-						i(219182, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Garb
-						i(219180, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Mitts
-						i(219181, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Slippers
-						i(219177, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Shoulderpads
-						i(219179, {["timeline"]={ REMOVED_11_1_0}}),	-- Unkindled Waxweave Veil
+						i(219176, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Belt
+						i(219178, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Buskins
+						i(219175, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Clasps
+						i(219182, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Garb
+						i(219180, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Mitts
+						i(219181, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Slippers
+						i(219177, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Shoulderpads
+						i(219179, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Veil
 						-- Season 2
 						i(235431, {	-- Noxious Injector Harness
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
@@ -814,10 +814,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(FINGER_F, {
 						-- Season 1
-						i(219187, {["timeline"]={ REMOVED_11_1_0}}),	-- Bone-Carved Circlet
-						i(219221, {["timeline"]={ REMOVED_11_1_0}}),	-- Ceremonial Song Ring
-						i(219188, {["timeline"]={ REMOVED_11_1_0}}),	-- Dark Abyss Hoop
-						i(219189, {["timeline"]={ REMOVED_11_1_0}}),	-- Fuzzy Molding Halo
+						i(219187, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Bone-Carved Circlet
+						i(219221, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Ceremonial Song Ring
+						i(219188, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Dark Abyss Hoop
+						i(219189, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Fuzzy Molding Halo
 						-- Season 2
 						i(235428, {	-- Gobtastic Bling
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
@@ -825,14 +825,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(LEATHER, {
 						-- Season 1
-						i(219172, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Clutches
-						i(219170, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Chausses
-						i(219174, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Frock
-						i(219171, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Hood
-						i(219169, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Shoulderstrap
-						i(219168, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Strap
-						i(219173, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Waders
-						i(219167, {["timeline"]={ REMOVED_11_1_0}}),	-- Myconic Wristbands
+						i(219172, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Clutches
+						i(219170, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Chausses
+						i(219174, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Frock
+						i(219171, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Hood
+						i(219169, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Shoulderstrap
+						i(219168, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Strap
+						i(219173, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Waders
+						i(219167, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Wristbands
 						-- Season 2
 						i(235439, {	-- Nitroclad Bodice
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },

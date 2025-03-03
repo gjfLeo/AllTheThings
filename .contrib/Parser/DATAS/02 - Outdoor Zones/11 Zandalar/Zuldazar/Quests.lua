@@ -1540,9 +1540,18 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 125047 },	-- Rokor
 				["coord"] = { 81.3, 45.8, ZULDAZAR },
 				["g"] = {
-					i(151852),	-- Edicts of Gral (QI!)
-					i(151854),	-- Scroll of Purify (QI!)
-					i(151853),	-- Waves of Power (QI!)
+					o(272563, {	-- Edicts of Gral
+						["coord"] = { 80.8, 43.3, ZULDAZAR },
+						["g"] = { i(151852) },	-- Edicts of Gral (QI!)
+					}),
+					o(272561, {	-- Scroll of Purify
+						["coord"] = { 80.0, 44.5, ZULDAZAR },
+						["g"] = { i(151854) },	-- Scroll of Purify (QI!)
+					}),
+					o(272562, {	-- Waves of Power
+						["coord"] = { 80.5, 45.0, ZULDAZAR },
+						["g"] = { i(151853) },	-- Waves of Power (QI!)
+					}),
 				},
 			}),
 			q(49679, {	-- The Sethrak Incursion

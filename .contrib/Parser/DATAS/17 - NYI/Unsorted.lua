@@ -85,8 +85,6 @@ root(ROOTS.Unsorted, {
 				i(235812),	-- Shoulderguards of Fraying Sanity
 			}),
 			filter(BATTLE_PETS, {
-				i(232847),	-- Personal-Use Sapper
-				i(232852),	-- Mutt
 				i(232854),	-- Grinner
 				i(232856),	-- Scruff
 				i(232857),	-- Goggles
@@ -522,11 +520,7 @@ root(ROOTS.Unsorted, {
 				i(232782),	-- Trigger-Sniffer's Greaves
 				i(232784),	-- Stagecrasher's Legguards
 				i(232786),	-- Trigger-Sniffer's Handwraps
-				i(235373),	-- Abyssal Volt
 				i(235813),	-- Machine Gob's Iron Grin
-				i(235826),	-- Electric Wristrags
-				i(235832),	-- Oil-Splattered Cloak
-				i(235833),	-- Serrated Slickgrip
 				i(235834),	-- Rocketgrip Turboslicer
 			}),
 			n(SETS, {	-- Tier Sets/Raid
@@ -552,7 +546,6 @@ root(ROOTS.Unsorted, {
 				i(236749),	-- Take-Home Torq
 				i(236751),	-- Take-Home Flarendo
 				i(235018),	-- Cracked Cold One [From toy?]
-				i(235219),	-- Fireworks Hat
 			}),
 			n(WEAPONS, {
 				i(232932),	-- Brann Bronzebeard's Mace
@@ -560,6 +553,7 @@ root(ROOTS.Unsorted, {
 				i(233063),	-- Brann's Boomstick
 			}),
 			--
+			i(235219),	-- Fireworks Hat
 			i(229810),	-- Vintage Kaja'Cola Can
 			i(233172),	-- Banded Grassy War Slippers
 			i(234733),	-- Bloodwake Ritual Bowl

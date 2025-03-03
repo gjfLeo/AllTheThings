@@ -57,10 +57,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 69.7, 76.5, UNDERMINE },
 					["questID"] = 86267,
 				}),
-				--o(XXXXX, {	-- Uncovered Strongbox (Hovel Hill (North))
-				--	["coord"] = { 32.1, 21.6, UNDERMINE },
-				--	["questID"] = 86262,
-				--}),
+				o(500754, {	-- Uncovered Strongbox (Hovel Hill (North))
+					["coord"] = { 32.1, 21.6, UNDERMINE },
+					["questID"] = 86262,
+				}),
 				o(500755, {	-- Uncovered Strongbox (Hovel Hill (South))
 					["coord"] = { 36.3, 44.8, UNDERMINE },
 					["questID"] = 86263,
@@ -99,6 +99,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["g"] = {
 						ach(41594),	-- Can You Believe What People Throw Away?
 						i(235822),	-- Coin-Woven Shawl
+						--i(235909),	-- Gleam
 						i(235854),	-- Gold-Inlaid Jetpack
 						i(235820),	-- Hole-Punched Doubloon
 						i(235819),	-- Lucky Penny Locket
@@ -110,6 +111,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can
+				currency(3220),	-- Vintage Kaja'Cola Can [requires renown 14]
 				--
 				i(236161),	-- Broiler Supreme 300 (COSMETIC!)
 				i(236181),	-- Center-Stage Remover (COSMETIC!)
