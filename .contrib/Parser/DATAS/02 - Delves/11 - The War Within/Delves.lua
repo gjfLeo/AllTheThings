@@ -2373,6 +2373,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(COSMETIC, {
 						i(212162),	-- Bitter Shroom Cap
+						i(212165),	-- Deep Nautic Helm
 						i(211801),	-- Poisonous Shroom Cap
 						i(212164),	-- Shallow Nautic Helm
 						i(212163),	-- Soporific Shroom Cap

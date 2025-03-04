@@ -114,16 +114,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				currency(3220),	-- Vintage Kaja'Cola Can [requires renown 14]
 				--
 				i(236161, {	-- Broiler Supreme 300 (COSMETIC!)
-					["description"] = "Can randomly drop during scraping",
+					["description"] = "Can randomly drop while scraping.",
 				}),
 				i(236181, {	-- Center-Stage Remover (COSMETIC!)
-					["description"] = "Can randomly drop during scraping",
+					["description"] = "Can randomly drop while scraping.",
 				}),
 				i(236178, {	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
-					["description"] = "Can randomly drop during scraping",
+					["description"] = "Can randomly drop while scraping.",
 				}),
 				i(236191, {	-- Mechanic's Best Motivator (COSMETIC!)
-					["description"] = "Can randomly drop during scraping",
+					["description"] = "Can randomly drop while scraping.",
 				}),
 				i(233246, {	-- Gunk-Covered Thingy
 					["description"] = "Requires the 'Scrappy S.C.R.A.P.per III' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",

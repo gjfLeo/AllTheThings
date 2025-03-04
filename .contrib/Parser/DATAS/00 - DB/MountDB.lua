@@ -1977,10 +1977,10 @@ i(229950, 466018);	-- Darkfuse Demolisher
 i(229955, 466027);	-- Darkfuse Spy-Eye
 i(229974, 466133);	-- Delver's Gob-Trotter
 i(237141, 1221694);	-- Enterprising Shreddertank
-i(0, 466011);		-- Flarendo the Furious
+i(229940, 466011);	-- Flarendo the Furious
 --i(232523, 460013);	-- G-99 Breakneck
 i(229941, 466017);	-- Innovation Investigator
-i(0, 468068);		-- Junkmaestro's Magnetomech
+i(231173, 468068);	-- Junkmaestro's Magnetomech
 i(229954, 466025);	-- Margin Manipulator
 i(229956, 466028);	-- Mean Green Flying Machine
 i(233286, 473745);	-- Meeksi Brewthief

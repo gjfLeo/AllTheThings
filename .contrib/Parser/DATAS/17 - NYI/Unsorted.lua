@@ -359,7 +359,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MOUNTS, {
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
-				mount(468068),	-- Junkmaestro's Magnetomech (MOUNT!)
 				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]

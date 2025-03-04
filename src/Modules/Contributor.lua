@@ -464,6 +464,7 @@ MobileDB.GameObject = {
 	[281079] = true,	-- Star Moss
 	[281173] = true,	-- Mysterious Trashpile
 	[281385] = true,	-- Mysterious Trashpile
+	[281256] = true,	-- Mysterious Trashpile
 	[281469] = true,	-- Raptor's Eggs (q:50497)
 	[281608] = true,	-- Relic of the Keepers (q:48871)
 	[281867] = true,	-- Star Moss

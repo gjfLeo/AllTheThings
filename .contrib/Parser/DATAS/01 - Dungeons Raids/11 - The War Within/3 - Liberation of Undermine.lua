@@ -393,7 +393,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						41347,	-- Scheming on a Thing
 					}},
 					["g"] = {
-						mount(468068),		-- Junkmaestro's Magnetomech (MOUNT!)
+						i(231173),		-- Junkmaestro's Magnetomech (MOUNT!)
 					},
 				}),
 				ach(41525),	-- Can You Please Spell "Gobanna?"
@@ -431,7 +431,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 							}, {	-- RENOWN 18 --
 							}, {	-- RENOWN 19 --
 							}, {	-- RENOWN 20 --
-								mount(466011),		-- Flarendo the Furious (MOUNT!)
+								i(229940),		-- Flarendo the Furious (MOUNT!)
 								title(602),			-- High Roller <Name>
 							},
 						}),

@@ -623,6 +623,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 				}),
 				header(HEADERS.AchCriteria, 40900.06, {	-- Chapter 6: Homecoming TODO
+					--q(xxxxx, {	--
+						--["sourceQuests"] = { 85780 },	-- Right Where We Want Him
+						--["provider"] = { "n", xxxxx },	--
+						--["coord"] = { xx, xx, UNDERMINE },
+					--}),
 					q(87297),	-- ???
 				}),
 			}),

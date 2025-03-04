@@ -144,6 +144,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(51138),	-- clicking on sand pile to spawn Zem'lan's Buried Treasure
 				q(53005),	-- clicking on the fishing bobber to spawn Sandsunken Chest
 				q(47326),	-- clicking on the mine cart to get Ashvane Spoils
+				q(50554),	-- Clicking the Cracked Stone Tablet at 48.7, 72.1
+				q(50555),	-- Clicking the Cracked Stone Tablet at 48.7, 72.1
+				q(50556),	-- Clicking the Cracked Stone Tablet at 48.7, 72.1
+				q(50557),	-- Clicking the Cracked Stone Tablet at 48.7, 72.1
 				q(50922),	-- Vol'dun repeatable random chest
 				q(50920),	-- Vol'dun repeatable random chest
 				q(51673),	-- Vol'dun repeatable random chest

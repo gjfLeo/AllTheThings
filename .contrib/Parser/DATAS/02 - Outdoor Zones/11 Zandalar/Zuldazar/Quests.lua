@@ -452,7 +452,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					51145,	-- Curse of Jani (A)
 					47442,	-- Curse of Jani (H)
 				},
-				["provider"] = { "n", 113490 },	-- Jani
+				["provider"] = { "n", 133490 },	-- Jani
 				["coord"] = { 66.2, 16.6, ZULDAZAR },
 			}),
 			q(50074, {	-- Brutal Boost
