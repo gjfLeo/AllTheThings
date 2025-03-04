@@ -17,6 +17,10 @@ local SearchForFieldContainer, GetRawField, GetRelativeByFunc, SearchForObject
 	= app.SearchForFieldContainer, app.GetRawField, app.GetRelativeByFunc, app.SearchForObject
 local OneTimeQuests = app.EmptyTable
 local GetItemCount = app.WOWAPI.GetItemCount
+local IsSpellKnownHelper
+app.AddEventHandler("OnLoad", function()
+	IsSpellKnownHelper = app.IsSpellKnownHelper
+end)
 
 -- Module locals
 local RecursiveGroupRequirementsFilter, RecursiveUnobtainableFilter, DGU, UpdateRunner, ExtraFilters, ResolveSymbolicLink
@@ -148,11 +152,13 @@ local CostTotals = {
 	i = {},
 	ip = {},
 	c = {},
+	sp = {},
 }
 do
 	local itotals = CostTotals.i
 	local iprovs = CostTotals.ip
 	local ctotals = CostTotals.c
+	local sprovs = CostTotals.sp
 
 	CostTotals.AddItem = function(id, amount, ref)
 		local total = (itotals[id] or 0) + amount
@@ -163,6 +169,11 @@ do
 	CostTotals.AddItemProvider = function(id, ref)
 		iprovs[id] = true
 		-- PrintDebug(id, "Add Item Provider",id,"from",app:SearchLink(ref))
+		return true
+	end
+	CostTotals.AddSpellProvider = function(id, ref)
+		sprovs[id] = true
+		-- PrintDebug(id, "Add Spell Provider",id,"from",app:SearchLink(ref))
 		return true
 	end
 	CostTotals.AddCurr = function(id, amount, ref)
@@ -253,6 +264,35 @@ local function DoCollectibleCheckForCurrRef(ref, currencyID)
 		end
 	end
 end
+local function DoCollectibleCheckForSpellRef(ref, spellID, itemUnbound)
+	-- Depth = 0
+	local collectible = CheckCollectible(ref, spellID)
+	if not collectible then return end
+	-- if the purchase is only collectible under unobtainable filtering, but the cost item is not unbound, then it's not a purchase
+	if collectible == 2 and (not itemUnbound or not ItemUnboundSetting) then
+		-- if not itemUnbound then
+		-- 	PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Filtering, but from a Spell on a BoP Item",app:RawSearchLink("spellID",spellID))
+		-- end
+		-- if not ItemUnboundSetting then
+		-- 	PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Filtering, but not ignoring BoE Item filtering",app:RawSearchLink("spellID",spellID))
+		-- end
+		return
+	end
+	-- if the purchase is only collectible with unobtainable filtering, then only treat as a cost when in Debug
+	if collectible > 2 and not app.MODE_DEBUG then
+		-- PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Unobtainable Filtering",app:RawSearchLink("spellID",spellID))
+		return
+	end
+	local refproviders = ref.providers
+	if refproviders and type(refproviders) == "table" then
+		for _,providerCheck in ipairs(refproviders) do
+			if providerCheck[1] == "s" and providerCheck[2] == spellID then
+				CostTotals.AddSpellProvider(spellID)
+				break
+			end
+		end
+	end
+end
 local function PlayerIsMissingProviderItem(itemID)
 	return not PlayerHasToy(itemID) and GetItemCount(itemID, true, nil, true, true) == 0
 end
@@ -276,6 +316,21 @@ local function FinishCostAssignmentsForCurr(currencyID, costs, refresh)
 	local isCost = total > owned
 	-- PrintDebug(currencyID, app:SearchLink(costs[1]),isCost and "IS COST" or "NOT COST","requiring",total,"minus owned:",owned)
 	SetCostTotals(costs, isCost, refresh)
+end
+local function PlayerIsMissingProviderSpell(spellID)
+	return not IsSpellKnownHelper(spellID)
+end
+local function FinishCostAssignmentsForSpell(spellID, costs, refresh)
+	local isProv = CostTotals.sp[spellID]
+	if isProv then
+		isProv = PlayerIsMissingProviderSpell(spellID)
+		-- if isProv then
+		-- 	PrintDebug(spellID, app:SearchLink(costs[1]),"IS PROV")
+		-- else
+		-- 	PrintDebug(spellID, app:SearchLink(costs[1]),"NOT PROV")
+		-- end
+	end
+	SetCostTotals(costs, isProv, refresh)
 end
 
 local UpdateCostGroup
@@ -377,6 +432,24 @@ local function UpdateCostsByCurrencyID(currencyID, refresh, includeUpdate, refs)
 	end
 	-- return costs;
 end
+local function UpdateCostsBySpellID(spellID, refresh, includeUpdate, refs)
+	local costs = SearchForObject("spellID", spellID, "field", true);
+	if costs and #costs > 0 then
+		local itemUnbound = Filters_ItemUnbound(costs[1])
+		refs = refs or GetRawField("spellIDAsCost", spellID)
+		if refs then
+			for i=1,#refs do
+				UpdateRunner.Run(DoCollectibleCheckForSpellRef, refs[i], spellID, itemUnbound)
+			end
+		end
+		UpdateRunner.Run(FinishCostAssignmentsForSpell, spellID, costs, refresh)
+		if includeUpdate then
+			for i=1,#costs do
+				UpdateRunner.Run(UpdateCostGroup, costs[i]);
+			end
+		end
+	end
+end
 
 local function CostCalcStart()
 	if app.Debugging then
@@ -432,6 +505,11 @@ local function UpdateCosts()
 		-- app.PrintDebug("Check Cost Curr",currencyID)
 		-- UpdateCostsByCurrencyID(currencyID, refresh, refs);
 		UpdateRunner.Run(UpdateCostsByCurrencyID, currencyID, refresh, false, refs)
+	end
+
+	-- Get all spellIDAsCost entries
+	for spellID,refs in pairs(SearchForFieldContainer("spellIDAsCost")) do
+		UpdateRunner.Run(UpdateCostsBySpellID, spellID, refresh, false, refs)
 	end
 	-- app.Debugging = true
 	-- app.PrintDebugPrior("UpdateCosts:Done",app._SettingsRefresh)
