@@ -1046,6 +1046,9 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({
+			}, bubbleDown({
+				["timeline"] = { REMOVED_11_0_2 },
+			}, {
 				ZoneDrops({
 				}),
 				CommonBossDrops({
@@ -1201,7 +1204,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						}),
 					}),
 				}),
-			}),
+			})),
 			Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(GNARLROOT, {
 					ach(19322),	-- Meaner Pastures
