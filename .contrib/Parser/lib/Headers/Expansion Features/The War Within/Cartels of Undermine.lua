@@ -4,5 +4,6 @@ CARTELS_OF_UNDERMINE = createHeader({
 	text = {
 		en = "Cartels of Undermine",
 		cn = "安德麦财阀",
+		tw = "幽坑城集團",
 	},
 });
