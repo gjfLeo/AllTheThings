@@ -174,7 +174,7 @@ local SEASON_OF_DISCOVERY_HEADER = createHeader({	-- Season of Discovery
 		pt = "Temporada de Descoberta",
 		ru = "Сезон открытий",
 		ko = "발견의 계절",
-		cn = "发现季节",
+		cn = "探索赛季",
 		tw = "探索賽季",
 	},
 	description = {

@@ -802,6 +802,7 @@ SOD_PHASE_ONE = createClassicPhaseForSOD({
 	phaseID = 1605,
 	text = {
 		en = "Season of Discovery",
+		cn = "探索赛季",
 		tw = "探索賽季",
 	},
 	description = {
