@@ -573,6 +573,16 @@ i(225493);	-- Medal of Conquest (Season 1)
 -----------------
 -- #if AFTER TWW
 
+-- AQ40 Tokens
+i(20928)	-- Qiraji Bindings of Commands
+i(20932)	-- Qiraji Bindings of Dominance
+i(20930)	-- Vek'lor's Diadem
+i(20926)	-- Vek'nilash's Circlet
+i(20927)	-- Ouro's Intact Hide
+i(20931)	-- Skin of the Great Sandworm
+i(20929)	-- Carapace of the Old God
+i(20933)	-- Husk of the Old God
+
 -- Tier 4 Tokens [Kara / Gruul / Mag]
 i(29760);	-- Helm of the Fallen Champion
 i(29761);	-- Helm of the Fallen Defender
