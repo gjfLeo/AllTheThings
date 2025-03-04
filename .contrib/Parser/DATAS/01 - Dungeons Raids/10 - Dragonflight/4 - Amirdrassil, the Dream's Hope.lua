@@ -1046,7 +1046,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({
-			}, bubbleDown({
+			}, bubbleDownSelf({
 				["timeline"] = { REMOVED_11_0_2 },
 			}, {
 				ZoneDrops({
