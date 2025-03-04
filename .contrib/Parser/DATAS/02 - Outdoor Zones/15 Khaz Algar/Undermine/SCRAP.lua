@@ -94,7 +94,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(RARES, {
 				n(234621, {	-- Gallagio Garbage <Luxury Trash>
-					["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar during a S.C.R.A.P. Job event in Undermine.",
+					["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar to 500 during a S.C.R.A.P. Job event in Undermine.",
 					["questID"] = 87007,
 					["g"] = {
 						ach(41594),	-- Can You Believe What People Throw Away?
@@ -113,11 +113,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				currency(3218),	-- Empty Kaja'Cola Can
 				currency(3220),	-- Vintage Kaja'Cola Can [requires renown 14]
 				--
-				i(236161),	-- Broiler Supreme 300 (COSMETIC!)
-				i(236181),	-- Center-Stage Remover (COSMETIC!)
-				i(236178),	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
-				i(236191),	-- Mechanic's Best Motivator (COSMETIC!)
-				i(229949),	-- Personalized Goblin S.C.R.A.Per
+				i(236161, {	-- Broiler Supreme 300 (COSMETIC!)
+					["description"] = "Can randomly drop during scraping",
+				}),
+				i(236181, {	-- Center-Stage Remover (COSMETIC!)
+					["description"] = "Can randomly drop during scraping",
+				}),
+				i(236178, {	-- Gammy's Hand-Me-Down Bow (COSMETIC!)
+					["description"] = "Can randomly drop during scraping",
+				}),
+				i(236191, {	-- Mechanic's Best Motivator (COSMETIC!)
+					["description"] = "Can randomly drop during scraping",
+				}),
 				i(233246, {	-- Gunk-Covered Thingy
 					["description"] = "Requires the 'Scrappy S.C.R.A.P.per III' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",
 				}),
