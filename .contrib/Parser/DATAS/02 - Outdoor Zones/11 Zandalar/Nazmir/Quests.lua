@@ -1534,7 +1534,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 24.1, 53.1, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(155912),	-- Sweetleaf (QI!)
+					o(279293, {	-- Sweetleaf Bush
+						i(155912),	-- Sweetleaf (QI!)
+					}),
 				},
 			}),
 			q(53781, {	-- Eyir

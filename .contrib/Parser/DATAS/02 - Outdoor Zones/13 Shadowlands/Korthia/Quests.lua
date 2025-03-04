@@ -1030,7 +1030,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			q(63861, {	-- Beginning the Collection
 				["sourceQuests"] = { 63738 },	-- Establishing the Archive
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
-				["coord"] = { 62.7, 22.5, KORTHIA },
+				["coords"] = {
+					{ 62.7, 22.5, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },
+				},
 				["g"] = {
 					i(185636),	-- The Archivist's Codex
 					i(185916),	-- Codex of Memories (QI!)
@@ -1251,7 +1254,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			q(64290, {	-- Collecting Research
 				["sourceQuests"] = { 64289 },	-- Picking Up the Pieces
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
-				["coord"] = { 61.6, 21.7, KORTHIA },
+				["coords"] = {
+					{ 62.7, 22.5, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },
+				},
 				["g"] = {
 					i(186664),	-- Korthian Caretaker's Sandals
 					i(186665),	-- Korthian Caretaker's Mitts
@@ -1296,9 +1302,11 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			q(64289, {	-- Picking Up the Pieces
 				["sourceQuests"] = { 63738 },	-- Establishing the Archive
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
-				["coord"] = { 62.7, 22.5, KORTHIA },
+				["coords"] = {
+					{ 62.7, 22.5, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },
+				},
 			}),
-
 			q(65145, {	-- Relic Clues
 				["sourceQuest"] = 63861,	-- Beginning the Collection
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
@@ -1682,7 +1690,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			q(65266, {	-- Lost Research
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
-				["coord"] = { 62.8, 22.6, KORTHIA },
+				["coords"] = {
+					{ 62.7, 22.5, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },
+				},
 				["timeline"] = { ADDED_9_1_5 },
 				["isWeekly"] = true,
 				["g"] = {

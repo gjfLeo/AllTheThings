@@ -11,12 +11,13 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					153991,	-- Clockwork Giant
 				},
 			}),
-			i(166846),	-- Spare Parts
 			i(166971),	-- Empty Energy Cell
 			i(166970),	-- Energy Cell
 			i(170500),	-- Energy Cell
+			i(168961),	-- Exothermic Evaporator Coil
 			i(169873),	-- Mechanized Supply Key
 			i(169218),	-- Old Rusty Key
+			i(166846),	-- Spare Parts
 		}),
 	}),
 })));

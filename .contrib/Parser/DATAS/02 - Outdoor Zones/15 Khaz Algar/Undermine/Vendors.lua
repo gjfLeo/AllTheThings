@@ -121,9 +121,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(236849, {	-- Greexit Coarsebub
+				["description"] = "Sells different cosmetics depending on which cartel you have a contract with.",
 				["coord"] = { 24.5, 63.3, UNDERMINE },
 				["g"] = {
-					--locked out per week with hqt?
 					-- Bilgewater Cartel
 					i(231736),	-- Bilgewater Bruiser's Tabard
 					i(231748),	-- Bilgewater Bruiser's Spaulders

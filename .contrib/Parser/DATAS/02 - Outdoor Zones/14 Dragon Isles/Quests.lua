@@ -4,7 +4,8 @@
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	n(QUESTS, {
 		q(65436, {	-- The Dragon Isles Await [A]
-			["maps"] = { STORMWIND_CITY },
+			["provider"] = { "n", 189569 },	-- Wrathion
+			["coord"] = { 79.8, 27.2, STORMWIND_CITY },
 			["races"] = ALLIANCE_ONLY,
 			["isBreadcrumb"] = true,
 			["g"] = {
@@ -14,7 +15,8 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			},
 		}),
 		q(65435, {	-- The Dragon Isles Await [H]
-			["maps"] = { ORGRIMMAR },
+			["provider"] = { "n", 190239 },	-- Ebyssian
+			["coord"] = { 44.2, 38.2, ORGRIMMAR },
 			["races"] = HORDE_ONLY,
 			["isBreadcrumb"] = true,
 			["g"] = {

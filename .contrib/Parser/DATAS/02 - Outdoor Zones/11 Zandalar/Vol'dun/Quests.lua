@@ -878,12 +878,8 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(155429),	-- Sezahjin's Tenderizer
 					i(155442),	-- Razgaji's Machete
 					i(155420),	-- Xombo's Prized Greataxe
-					i(161297, {	-- Hacksaw Skinning Knife (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(161308, {	-- Ashvane Captain's Quickblade
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(161308, { ["races"] = ALLIANCE_ONLY }),	-- Ashvane Captain's Quickblade
+					i(161297, { ["races"] = ALLIANCE_ONLY }),	-- Hacksaw Skinning Knife
 				},
 			}),
 			q(50980, {	-- My Hungry Neighbor

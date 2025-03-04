@@ -1132,7 +1132,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			["minReputation"] = { FACTION_THUNDER_BLUFF, EXALTED },
 			-- #endif
 		}, {
-			q(54759, {	-- When Spririts Whisper
+			q(54759, {	-- When Spirits Whisper
 				["provider"] = { "n", 149088 },	-- Spiritwalker Isahi
 				["coord"] = { 39.1, 79.0, ORGRIMMAR },
 				-- #if BEFORE SHADOWLANDS
@@ -1142,7 +1142,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(54760, {	-- The Spiritwalkers
 				["provider"] = { "n", 36648 },	-- Baine Bloodhoof <High Chieftain>
 				["coord"] = { 60.3, 51.7, THUNDER_BLUFF },
-				["sourceQuest"] = 54759,	-- When Spririts Whisper
+				["sourceQuest"] = 54759,	-- When Spirits Whisper
 			}),
 			q(54761, {	-- Spirit Guide
 				["provider"] = { "n", 149084 },	-- Spiritwalker Ussoh
@@ -1576,7 +1576,8 @@ root(ROOTS.HiddenQuestTriggers, {
 		n(HERITAGE, {
 			n(QUESTS, {
 				q(54868),	-- During Heritage for Taurens in the End
-				q(54867),	-- Triggered when doing "When Spirits Whisper" Tauren Heritage
+				q(54867),	-- Triggered when doing "When Spirits Whisper"
+				q(54866),	-- Completes with 54759 "When Spirits Whisper"
 			}),
 			q(54869),	-- Starting Heritage for Taurens.
 		}),

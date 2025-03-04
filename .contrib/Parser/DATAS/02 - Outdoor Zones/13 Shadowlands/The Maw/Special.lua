@@ -130,7 +130,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					-- currently have 64692 - 64694 saved, no Tormentors killed today, but 3 for the week
 					-- 177370, Grievous Soul Crusher
 					n(178897, {	-- Algel the Haunter
-						["questID"] = 64107,	-- confirmed 2022-10-10
+						["questID"] = 64107,
 						["repeatable"] = true,
 						["g"] = {
 							i(186239),	-- Drape of the Phantasm
@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(178898, {	-- Golmak The Monstrosity
-						["questID"] = 64114,	-- confirmed 2023-04-12
+						["questID"] = 64114,
 						["repeatable"] = true,
 						["g"] = {
 							i(186229),	-- Lavafused Breastplate
@@ -146,7 +146,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(177979, {	-- Gralebboih
-						["questID"] = 64113,	-- confirmed 2023-04-12
+						["questID"] = 64113,
 						["repeatable"] = true,
 						["g"] = {
 							i(186237),	-- Gormhide Pauldrons
@@ -162,7 +162,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(177980, {	-- Gruukuuek the Elder
-						["questID"] = 64112,	-- confirmed 2024-03-28
+						["questID"] = 64112,
 						["repeatable"] = true,
 						["g"] = {
 							i(186226),	-- Cinch of Petrified Vines
@@ -218,7 +218,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(177331, {	-- Sentinel Pyrophus
-						["questID"] = 64127,	-- confirmed 2023-04-12
+						["questID"] = 64127,
 						["repeatable"] = true,
 						["g"] = {
 							i(186241),	-- Insulated Thermal Leggings
@@ -226,7 +226,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(178883, {	-- Sentinel Shakorzeth
-						["questID"] = 64121,	-- confirmed 2023-04-12
+						["questID"] = 64121,
 						["repeatable"] = true,
 						["g"] = {
 							i(186244),	-- Shakorzeth's Gorget
@@ -250,8 +250,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(178886, {	-- Zul'gath the Flayer
-						-- ["questID"] = 64122,
-						-- ["repeatable"] = true,
+						["questID"] = 64122,
+						["repeatable"] = true,
 						["g"] = {
 							i(186235),	-- Shadow-Wreathed Vambraces
 							i(186242),	-- Zul'gath's Chain Coif

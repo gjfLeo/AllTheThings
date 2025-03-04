@@ -261,7 +261,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(161260),	-- Scorching Sands Mantle
 					i(161265),	-- Scorching Sands Tunic
 					i(161277),	-- Scorching Sands Britches
-					i(161281),	-- Scorching Sands Treads
 				}),
 				filter(MAIL, {
 					i(161155),	-- Resilient Outcast's Helmet
@@ -449,11 +448,9 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(158566),	-- Scalebeast Claws
 				i(158569),	-- Dinomancy Cudgel
 				i(158577),	-- Devilsaur Voodoo Figure
-				i(161284),	-- Faithless Dinorider's Focus
 				i(161285),	-- Faithless Wingrider's Focus
 				i(158565),	-- Tiki-Thumper
 				i(161311),	-- Crescent of Zak'rajan
-				i(161286),	-- Faithless Dinorider's Shield
 				i(161287),	-- Faithless Wingrider's Shield
 				i(158562),	-- Howdah-Rider's Bow
 				i(154971),	-- Howdah-Rider's Bow
@@ -619,7 +616,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(56065),	--
 				q(56127),	--
 				q(56607),	--
-				q(56618),	--
+				q(56618),	-- killed Tidelord Aquatus (153898)?
 				q(56667),	--
 				q(56742),	--
 				q(56744),	--
@@ -628,7 +625,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(56898),	--
 				q(57193),	--
 				q(57408),	--
-				q(54866),	--
 			})),
 
 			-- 8.2.5
@@ -677,7 +673,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(64116),	--
 				q(64117),	--
 				q(64118),	--
-				q(64119),	--
+				q(64119),	-- Tormentors of Torghast related
 				q(64192),	--
 				q(64369),	--
 				q(64516),	--
@@ -712,6 +708,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			-- 10.1.0
 			expansion(EXPANSION.DF, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {
 				q(75443),	-- Flag Tracking Quest (spellID 431951)
+				q(75774),	-- completed researchers under fire?
 			})),
 
 			-- 10.1.5

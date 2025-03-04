@@ -231,10 +231,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(160376),	-- Darkwater Clasp
 					i(160379),	-- Stormchaser Buckle
 					i(160382),	-- Dread Corsair Cincture
-					-- Horde sourceid's(not actual reward)
-					i(161280),	-- Lastwind Shoes
-					i(161283),	-- Exiled Veteran's Sabatons
-					i(161282),	-- Resilient Outcast's Footguards
+					--
+					i(161280, { ["races"] = HORDE_ONLY }),	-- Lastwind Shoes
+					i(161283, { ["races"] = HORDE_ONLY }),	-- Exiled Veteran's Sabatons
+					i(161282, { ["races"] = HORDE_ONLY }),	-- Resilient Outcast's Footguards
+					i(161281, { ["races"] = HORDE_ONLY }),	-- Scorching Sands Treads
 				}),
 			}),
 			q(52070, {	-- Bauer Backup
@@ -917,6 +918,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(160358),	-- Dread Corsair Grips
 					i(160355),	-- Stormchaser Handcovers
 					i(160349),	-- Tidespeaker Mittens
+					--
+					i(161284, { ["races"] = HORDE_ONLY }),	-- Faithless Dinorider's Focus
+					i(161286, { ["races"] = HORDE_ONLY }),	-- Faithless Dinorider's Shield
 				}),
 			}),
 			q(50385, {	-- Indefatigable Purpose
