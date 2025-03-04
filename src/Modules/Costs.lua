@@ -19,7 +19,7 @@ local OneTimeQuests = app.EmptyTable
 local GetItemCount = app.WOWAPI.GetItemCount
 
 -- Module locals
-local RecursiveGroupRequirementsFilter, DGU, UpdateRunner, ExtraFilters, ResolveSymbolicLink
+local RecursiveGroupRequirementsFilter, RecursiveUnobtainableFilter, DGU, UpdateRunner, ExtraFilters, ResolveSymbolicLink
 -- If a Thing which has a cost is not a quest or is available as a quest
 local function IsAvailable(ref)
 	return not ref.questID or app.IsQuestAvailable(ref)
@@ -37,7 +37,7 @@ end
 local Depth = 0
 local CostDebugIDs = {
 	["ALL"] = true,
-	["DEPTH"] = 10,
+	-- ["DEPTH"] = 10,
 	-- [209944] = true,	-- Friendsurge Defenders
 	-- [2118] = true,	-- Elemental Overflow
 	-- [195496] = true,	-- Eye of the Vengeful Hurricane
@@ -60,8 +60,15 @@ local function PrintDebug(id, ...)
 	end
 end
 
+local function FilterRequirement(ref)
+	return RecursiveGroupRequirementsFilter(ref, ExtraFilters) and 1 or RecursiveUnobtainableFilter(ref) and 2 or 3
+end
 -- Function which returns if a Thing has a cost based on a given 'ref' Thing, which has been previously determined as a
--- possible collectible without regard to filtering
+-- possible collectible. The return value indicates the collectibility
+-- nil - Already collected or not available to obtain
+-- 1 - Available to collect based on current Filtering
+-- 2 - Available to collect based on Unobtainable Filtering
+-- 3 - Available to collect without Filtering
 local function CheckCollectible(ref, costid)
 	-- Depth = Depth + 1
 	-- Only track Costs through Things which are Available
@@ -73,19 +80,20 @@ local function CheckCollectible(ref, costid)
 	-- Used as a cost for something which is collectible itself and not collected
 	if ref.collectible and not ref.collected then
 		-- PrintDebug(costid, "Purchase via Collectible",app:SearchLink(ref),RecursiveGroupRequirementsFilter(ref, ExtraFilters) and "VISIBLE" or "FILTERED")
-		return RecursiveGroupRequirementsFilter(ref, ExtraFilters)
+		return FilterRequirement(ref)
 	end
 	-- If this group has sub-groups, are any of them collectible?
 	local g = ref.g;
 	if g then
-		local o;
+		local o, collectible
 		-- local subDepth = Depth
 		for i=1,#g do
 			o = g[i];
 			-- Depth = subDepth
-			if CheckCollectible(o) then
+			collectible = CheckCollectible(o)
+			if collectible then
 				-- PrintDebug(costid, "Purchase via sub-group Collectible",app:SearchLink(ref),"<=",app:SearchLink(o))
-				return true
+				return collectible
 			end
 		end
 	end
@@ -97,27 +105,34 @@ local function CheckCollectible(ref, costid)
 	end
 	-- If this group has sym results, are any of them collectible?
 	if symresults then
-		local o;
+		local o, collectible
 		-- local subDepth = Depth
 		for i=1,#symresults do
 			o = symresults[i];
 			-- Depth = subDepth
-			if CheckCollectible(o) then
+			collectible = CheckCollectible(o)
+			if collectible then
 				-- PrintDebug(costid, "Purchase via sym-result Collectible",app:SearchLink(ref),"<=",app:SearchLink(o))
-				return true
+				return collectible
 			end
 		end
 	end
 	-- Used as a cost for something which is collectible as a cost itself
 	if ref.collectibleAsCost then
 		-- PrintDebug(costid, "Purchase via collectibleAsCost",app:SearchLink(ref),RecursiveGroupRequirementsFilter(ref, ExtraFilters) and "VISIBLE" or "FILTERED")
-		return RecursiveGroupRequirementsFilter(ref, ExtraFilters)
+		return FilterRequirement(ref)
 	end
 end
 app.CheckCollectible = CheckCollectible;
+local ItemUnboundSetting, Filters_ItemUnbound, SetItemUnbound
 local function CacheFilters()
 	-- Cache repeat-used functions/values
-	RecursiveGroupRequirementsFilter = app.RecursiveGroupRequirementsExtraFilter;
+	local filterModule = app.Modules.Filter
+	RecursiveGroupRequirementsFilter = filterModule.Filters.RecursiveGroupRequirementsExtraFilter
+	RecursiveUnobtainableFilter = filterModule.Filters.RecursiveUnobtainableFilter
+	Filters_ItemUnbound = filterModule.Filters.ItemUnbound
+	ItemUnboundSetting = filterModule.Get.ItemUnbound()
+	SetItemUnbound = filterModule.Set.ItemUnbound
 end
 local function BlockedParent(group)
 	if group.questID and (group.saved or group.locked or OneTimeQuests[group.questID]) then
@@ -185,9 +200,25 @@ local function SetCostTotals(costs, isCost, refresh)
 		DGU(c)
 	end
 end
-local function DoCollectibleCheckForItemRef(ref, itemID)
+local function DoCollectibleCheckForItemRef(ref, itemID, itemUnbound)
 	-- Depth = 0
-	if not CheckCollectible(ref, itemID) then return end
+	local collectible = CheckCollectible(ref, itemID)
+	if not collectible then return end
+	-- if the purchase is only collectible under unobtainable filtering, but the cost item is not unbound, then it's not a purchase
+	if collectible == 2 and (not itemUnbound or not ItemUnboundSetting) then
+		-- if not itemUnbound then
+		-- 	PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Filtering, but from a BoP Item",app:RawSearchLink("itemID",itemID))
+		-- end
+		-- if not ItemUnboundSetting then
+		-- 	PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Filtering, but not ignoring BoE Item filtering",app:RawSearchLink("itemID",itemID))
+		-- end
+		return
+	end
+	-- if the purchase is only collectible with unobtainable filtering, then only treat as a cost when in Debug
+	if collectible > 2 and not app.MODE_DEBUG then
+		-- PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Unobtainable Filtering",app:RawSearchLink("itemID",itemID))
+		return
+	end
 	local refproviders = ref.providers
 	if refproviders and type(refproviders) == "table" then
 		for _,providerCheck in ipairs(refproviders) do
@@ -253,13 +284,14 @@ local function UpdateCostsByItemID(itemID, refresh, includeUpdate, refs)
 	if costs and #costs > 0 then
 		-- PrintDebug(itemID, #costs,"item cost groups @",app:SearchLink(costs[1]))
 		-- local isCost, isProv
+		local itemUnbound = Filters_ItemUnbound(costs[1])
 		refs = refs or GetRawField("itemIDAsCost", itemID)
 		if refs then
 			-- if #refs > 100 then PrintDebug(itemID, #refs,"item ref groups for",app:SearchLink(costs[1])) end
 			-- PrintDebug(itemID, #refs,"item cost ref groups @",app:SearchLink(costs[1]))
 			-- local ref
 			for i=1,#refs do
-				UpdateRunner.Run(DoCollectibleCheckForItemRef, refs[i], itemID)
+				UpdateRunner.Run(DoCollectibleCheckForItemRef, refs[i], itemID, itemUnbound)
 				-- ref = refs[i];
 				-- if CheckCollectible(ref, itemID) then
 				-- 	local refproviders = ref.providers
@@ -461,6 +493,7 @@ local function OnSearchResultUpdate(group)
 end
 app.AddEventHandler("OnSearchResultUpdate", OnSearchResultUpdate)
 
+local CACUnboundRef
 local CACChain = {}
 -- Returns whether 't' should be considered collectible based on the set of costCollectibles already assigned to this 't'
 app.CollectibleAsCost = function(t)
@@ -495,6 +528,15 @@ app.CollectibleAsCost = function(t)
 	end
 	-- check the collectibles if any are considered collectible currently
 	CacheFilters();
+	-- if this Item meets the user's ignore BoE/BoA filter, then make sure recursive checks are allowed to ignore the
+	-- character filters, the same way we do for UpdateGroup logic
+	if ItemUnboundSetting and Filters_ItemUnbound(t) then
+		-- Toggle only Account-level filtering within this Item and turn off the ItemUnboundSetting to ignore sub-checks for the same logic
+		ItemUnboundSetting = nil
+		CACUnboundRef = t
+		SetItemUnbound(nil, true)
+		-- app.PrintDebug("CAC Within BoE",app:SearchLink(t))
+	end
 	-- mark this group as not collectible by cost while it is processing, in case it has sub-content which can be used to obtain this 't'
 	t.collectibleAsCost = false;
 	-- local subDepth = Depth
@@ -506,12 +548,26 @@ app.CollectibleAsCost = function(t)
 			t.collectibleAsCost = nil;
 			CACChain[thash] = nil
 			-- app.PrintDebug("CAC:Set",app:SearchLink(t),"from",app:SearchLink(ref),"@",t._SettingsRefresh)
+			if CACUnboundRef == t then
+				-- reapply the previous BoE filter
+				-- app.PrintDebug("Leaving BoE with found Purchase",app:SearchLink(t),">",app:SearchLink(ref))
+				SetItemUnbound(true)
+				ItemUnboundSetting = true
+				CACUnboundRef = nil
+			end
 			return true;
 		end
 	end
 	-- app.PrintDebug("CAC:nil",t.hash)
 	t.collectibleAsCost = nil;
 	CACChain[thash] = nil
+	if CACUnboundRef == t then
+		-- reapply the previous BoE filter
+		-- app.PrintDebug("Leaving BoE",app:SearchLink(t))
+		SetItemUnbound(true)
+		ItemUnboundSetting = true
+		CACUnboundRef = nil
+	end
 end
 
 -- Costs API Implementation
