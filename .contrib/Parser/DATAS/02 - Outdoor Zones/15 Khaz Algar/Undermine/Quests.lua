@@ -624,7 +624,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				header(HEADERS.AchCriteria, 40900.06, {	-- Chapter 6: Homecoming TODO
 					q(86204, {	-- Liberation of Undermine: The House Loses
-						["sourceQuests"] = { 85780 },	-- Right Where We Want Him
+						["sourceQuest"] = 85780,	-- Right Where We Want Him
 						["provider"] = { "n", 233482 },	-- Monte Gazlowe
 						["coord"] = { 43.6, 51.1, UNDERMINE },
 						["g"] = {
@@ -632,7 +632,36 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							i(236954),	-- Void-Touched Valorstone
 						},
 					}),
-					q(87297),	-- ???
+					q(87321, {	-- Things Left Undone
+						["sourceQuest"] = 86204,	-- Liberation of Undermine: The House Loses
+						--["provider"] = { "n", xxxxx },	-- Marin Noggenfogger
+						--["coord"] = { xx, xx, UNDERMINE },
+					}),
+					q(85190, {	-- Settled Dust
+						["sourceQuest"] = 87321,	-- Things Left Undone
+						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
+						--["coord"] = { xx, xx, UNDERMINE },
+					}),
+					q(85191, {	-- Cut After Cut
+						["sourceQuest"] = 85190,	-- Settled Dust
+						--["provider"] = { "n", xxxxx },	-- Master Mathias Shaw
+						--["coord"] = { xx, xx, WESTFALL },
+						["g"] = {
+							i(233657),	-- Old Copy of "Undermine Weekly" (QI!)
+							i(233656),	-- Pristine Fishing Gear (QI!)
+							i(233655),	-- Well-Worn Throwing Knives (QI!)
+						},
+					}),
+					q(85192, {	-- Coming Home
+						["sourceQuest"] = 85191,	-- Cut After Cut
+						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
+						--["coord"] = { xx, xx, WESTFALL },
+					}),
+					q(87297, {	-- Cashing the Check
+						["sourceQuest"] = 85192,	-- Coming Home
+						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
+						--["coord"] = { xx, xx, UNDERMINE },
+					}),
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.01, {	-- The Highst
