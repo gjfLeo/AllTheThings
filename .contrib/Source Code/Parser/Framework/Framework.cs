@@ -264,6 +264,11 @@ namespace ATT
         public static string CurrentFileName { get; set; }
 
         /// <summary>
+        /// Represents the sub-file currently being processed from within an IMPORT command section
+        /// </summary>
+        public static string CurrentSubFileName => Program.CurrentSubFilename;
+
+        /// <summary>
         /// Represents the group which set the NestedDifficultyID
         /// </summary>
         private static object DifficultyRoot { get; set; }

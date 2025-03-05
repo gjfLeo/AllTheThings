@@ -18,6 +18,10 @@ namespace ATT
         }
         private static int ErrorCode => Errored ? -1 : 0;
 
+        private static readonly NLua.Lua lua = new NLua.Lua();
+
+        public static string CurrentSubFilename => lua.State?.Status == KeraLua.LuaStatus.OK ? lua?.GetString("CurrentSubFileName") : null;
+
         public static Dictionary<string, bool> PreProcessorTags { get; set; } = new Dictionary<string, bool>();
         static void UnhandledExceptionHandler(object sender, UnhandledExceptionEventArgs e)
         {
@@ -141,10 +145,10 @@ namespace ATT
                 }
                 Framework.CurrentFileName = mainFileName;
                 luaFiles.Sort(StringComparer.InvariantCulture);
-                NLua.Lua lua = new NLua.Lua();
                 lua.State.Encoding = Encoding.UTF8;
                 // link the Lua 'print' function to instead perform a Trace print
                 lua.RegisterFunction("print", typeof(Program).GetMethod(nameof(LuaPrintAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
+                lua.RegisterFunction("error", typeof(Program).GetMethod(nameof(LuaErrorAsTrace), BindingFlags.NonPublic | BindingFlags.Static));
                 lua.DoString($"CurrentFileName = [[{mainFileName.Replace("\\", "/")}]];CurrentSubFileName = nil;");
                 lua.DoString(ProcessContent(File.ReadAllText(mainFileName, Encoding.UTF8)));
                 Framework.IgnoredValue = lua.GetString("IGNORED_VALUE");
@@ -577,6 +581,7 @@ namespace ATT
             }
             else if (File.Exists(filename))
             {
+                builder.Append("CurrentSubFileName = \"").Append(shortname.Replace("\\", "/").Replace("..//", "")).AppendLine("\";");
                 builder.Append("(function()\n").Append(ProcessContent(File.ReadAllText(filename, Encoding.UTF8))).Append("\nend)();");
             }
             else if (!(filename.EndsWith("\\") || filename.EndsWith("/")))
@@ -587,6 +592,8 @@ namespace ATT
                 Console.Write("You will need to clone the Retail version of AllTheThings in order to develop for this version of the addon.");
                 Framework.WaitForUser();
             }
+            // current subfile name is only relevant while the Lua is processing, once it's done remove it
+            builder.AppendLine("CurrentSubFileName = nil;");
         }
 
         static bool ProcessInternalCommandBlock(string[] command, StringBuilder builder, string content, ref int index, int length)
@@ -638,13 +645,17 @@ namespace ATT
             // treat this as an ERROR log if the first arg starts with "ERROR"
             if (args.SafeIndex(0)?.ToString()?.StartsWith("ERROR") ?? false)
             {
-                Errored = true;
-                Framework.Log(string.Join(" ", args));
+                LuaErrorAsTrace(args);
             }
             else
             {
                 Framework.Log(string.Join(" ", args));
             }
+        }
+
+        private static void LuaErrorAsTrace(params object[] args)
+        {
+            Framework.LogError(string.Join(" ", args));
         }
 
         private static void ParseJSONFile(string fileName)

@@ -7,7 +7,7 @@
 struct = function(field, id, t)		-- Construct a commonly formatted object.
 	if not t then t = {};
 	elseif (t.g or t.groups) and t[1] then
-		print("ERROR: Don't use 'g' or 'groups' with an array of objects! Fix Group: "..field..":"..id);
+		error("Don't use 'g' or 'groups' with an array of objects! Fix Group: "..field..":"..id);
 		return;
 	elseif not t.groups and t[1] then
 		t = { ["groups"] = validateGroups(t) };
@@ -15,10 +15,10 @@ struct = function(field, id, t)		-- Construct a commonly formatted object.
 		validateGroups(t.groups);
 	end
 	if not id then
-		print("Missing ID for",field,"group");
+		error("Missing ID for",field,"group");
 	end
 	if t[field] and t[field] ~= id then
-		print("ERROR: Don't reuse tables within constructed objects! Fix Group: "..field..":"..id.." which has "..t[field].." already assigned!")
+		error("Don't reuse tables within constructed objects! Fix Group: "..field..":"..id.." which has "..t[field].." already assigned!")
 	end
 	t[field] = id;
 	return t;

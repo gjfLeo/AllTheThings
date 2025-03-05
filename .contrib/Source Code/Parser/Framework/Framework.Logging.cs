@@ -62,6 +62,10 @@ namespace ATT
         {
             if (!DebugMode && !string.IsNullOrEmpty(CurrentFileName))
                 Trace.WriteLine("FILE: " + CurrentFileName);
+
+            if (!string.IsNullOrEmpty(CurrentSubFileName))
+                Trace.WriteLine(" -- SUBFILE: " + CurrentSubFileName);
+
             Trace.WriteLine(message + (data != null ? (" " + ToJSON(data)) : string.Empty));
         }
 
@@ -92,7 +96,7 @@ namespace ATT
         {
             IsErrored = true;
             Trace.WriteLine("FILE: " + CurrentFileName);
-            Trace.WriteLine("ERROR: " + ex.Message);
+            LogError(ex.Message);
             Trace.WriteLine(ex.StackTrace);
         }
     }
