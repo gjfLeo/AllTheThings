@@ -13,7 +13,7 @@ namespace ATT
         private static bool _Errored;
         private static bool Errored
         {
-            get => _Errored || Framework.IsErrored;
+            get => !PreProcessorTags.ContainsKey("IGNORE_ERRORS") && (_Errored || Framework.IsErrored);
             set => _Errored = value;
         }
         private static int ErrorCode => Errored ? -1 : 0;
@@ -297,7 +297,7 @@ namespace ATT
                 Trace.Write(Framework.Items.Count);
                 Trace.WriteLine(" Items loaded in the database.");
 
-                if (Framework.IsErrored && !PreProcessorTags.ContainsKey("IGNORE_ERRORS"))
+                if (Errored)
                 {
                     Trace.WriteLine("-- Errors encountered during Processing. Please fix them to allow exporting addon DB properly.");
                     return ErrorCode;
