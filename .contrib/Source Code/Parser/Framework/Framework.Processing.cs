@@ -638,6 +638,8 @@ namespace ATT
             // Crieve wants objectives and doesn't agree with this, but will allow it outside of Classic Builds.
             if (data.ContainsKey("objectiveID") && !Program.PreProcessorTags.ContainsKey("OBJECTIVES")) return false;
 
+            //data.DataBreakPoint("itemID", 15066);
+
             Validate_InheritedFields(data, parentData);
 
             if (!data.ContainsKey("timeline"))
@@ -1735,7 +1737,7 @@ namespace ATT
             if (!data.TryGetValue("achID", out long achID) ||
                 data.ContainsKey("criteriaID") ||
                 (data.TryGetValue("collectible", out bool collectible) && !collectible)) return;
-
+            // data.DataBreakPoint("achID", 727);
             // Grab AchievementDB info
             ACHIEVEMENTS.TryGetValue(achID, out IDictionary<string, object> achInfo);
 
@@ -2933,7 +2935,9 @@ namespace ATT
                     foreach (long id in spellObjs.AsTypedEnumerable<long>())
                     {
                         // Items with Spells can set 'provider' on the Criteria instead of nesting
-                        if (TryGetSOURCED("spellID", id, out var spellSources))
+                        if (TryGetSOURCED("spellID", id, out var spellSources)
+                            || TryGetSOURCED("mountID", id, out spellSources)
+                            || TryGetSOURCED("recipeID", id, out spellSources))
                         {
                             foreach (var spell in spellSources)
                             {
@@ -3451,8 +3455,8 @@ namespace ATT
                                     removed = 0;
                                 }
 
-                                // Mark the most relevant patch this comes back on.
-                                if (addedPatch <= CURRENT_SHORT_RELEASE_VERSION || removed > 0) addedPatch = entry.Version;
+                                // Mark the most relevant patch this was added or comes back
+                                if (entry.Version <= CURRENT_SHORT_RELEASE_VERSION || removed > 0) addedPatch = entry.Version;
                                 break;
                             }
                         case "deleted":
