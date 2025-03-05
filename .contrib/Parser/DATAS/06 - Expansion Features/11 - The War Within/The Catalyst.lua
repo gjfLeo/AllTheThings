@@ -405,7 +405,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 				}),
 			}),
-			header(HEADERS.LFGDungeon, LIBERATION_OF_UNDERMINE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			header(HEADERS.LFGDungeon, LIBERATION_OF_UNDERMINE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 				d(DIFFICULTY.RAID.LFR, {
 					["description"] = "",
 					["g"] = bubbleDown({ ["modID"] = 4 }, {
@@ -783,7 +783,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				})),
 				-- Elite catalyst gear is not obtainable this season
 			}))),
-			pvp(n(SEASON_PRIZED, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 } }, {
+			pvp(n(SEASON_PRIZED, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 				n(PVP_GLADIATOR, bubbleDown({ ["modID"] = 14 }, {
 					cl(DEATHKNIGHT, {
 						i(229248),	-- Cauldron Champion's Spined Cloak

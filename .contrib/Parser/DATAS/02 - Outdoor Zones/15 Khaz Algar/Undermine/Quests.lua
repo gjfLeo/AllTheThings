@@ -622,7 +622,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["coord"] = { 56.5, 44.7, UNDERMINE },
 					}),
 				}),
-				header(HEADERS.AchCriteria, 40900.06, {	-- Chapter 6: Homecoming TODO
+				header(HEADERS.AchCriteria, 40900.06, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {	-- Chapter 6: Homecoming TODO
 					q(86204, {	-- Liberation of Undermine: The House Loses
 						["sourceQuest"] = 85780,	-- Right Where We Want Him
 						["provider"] = { "n", 233482 },	-- Monte Gazlowe
@@ -662,7 +662,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
 						--["coord"] = { xx, xx, UNDERMINE },
 					}),
-				}),
+				})),
 			}),
 			header(HEADERS.AchCriteria, 40894.01, {	-- The Highst
 				q(84214, {	-- The Job

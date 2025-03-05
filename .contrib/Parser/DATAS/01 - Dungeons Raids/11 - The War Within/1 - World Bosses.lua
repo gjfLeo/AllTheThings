@@ -97,7 +97,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				},
 			}),
 			e(2683,	-- The Gobfather
-			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 				["crs"] = { 231821 },	-- The Gobfather <Demodome Champion>
 				["coord"] = { 58.9, 11.2, UNDERMINE },
 				["questID"] = 85089,
@@ -114,7 +114,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				},
 			})),
 			q(85088,	-- The Main Event (WQ)
-			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 				["coord"] = { 58.9, 11.2, UNDERMINE },
 				["isWorldQuest"] = true,
 				["sym"] = {
