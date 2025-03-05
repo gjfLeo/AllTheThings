@@ -6896,6 +6896,8 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 				"```elixir",	-- discord fancy box start
 				"L:"..app.Level.." R:"..app.RaceID.." ("..app.Race..") C:"..app.ClassIndex.." ("..app.Class..")",
 				id and ("mapID:"..id.." ("..(mapInfo.name or ("Map ID #" .. id))..")") or "mapID:??",
+				"real-name:"..(GetRealZoneText() or "?"),
+				"sub-name:"..(GetSubZoneText() or "?"),
 			};
 
 			local mapID = mapInfo.parentMapID
