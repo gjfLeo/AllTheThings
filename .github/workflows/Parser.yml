@@ -20,42 +20,42 @@ jobs:
         timeout-minutes: 5
         run: |
           cd .contrib/Parser
-          "Parser for Retail".bat
+          "Parser.exe" baseconfig=.config/retail/retail.config
         shell: cmd
 
       - name: Database Parser for Classic Era
         timeout-minutes: 5
         run: |
           cd .contrib/Parser
-          "Parser for Classic (01 - Classic Era)".bat
+          "Parser.exe" config=".config/classic/01 - Classic Era.config"
         shell: cmd
 
       - name: Database Parser for Season of Discovery
         timeout-minutes: 5
         run: |
           cd .contrib/Parser
-          "Parser for Classic (01 - Classic SOD)".bat
+          "Parser.exe" config=".config/classic/01 - Classic SOD.config"
         shell: cmd
 
       - name: Database Parser for The Burning Crusade
         timeout-minutes: 5
         run: |
           cd .contrib/Parser
-          "Parser for Classic (02 - TBC)".bat
+          "Parser.exe" config=".config/classic/02 - TBC.config"
         shell: cmd
 
       - name: Database Parser for Wrath of the Lich King
         timeout-minutes: 5
         run: |
           cd .contrib/Parser
-          "Parser for Classic (03 - Wrath)".bat
+          "Parser.exe" config=".config/classic/03 - Wrath.config"
         shell: cmd
 
       - name: Database Parser for Cataclysm
         timeout-minutes: 5
         run: |
           cd .contrib/Parser
-          "Parser for Classic (04 - Cataclysm)".bat
+          "Parser.exe" config=".config/classic/04 - Cataclysm.config"
         shell: cmd
 
       - uses: actions/upload-artifact@v4
