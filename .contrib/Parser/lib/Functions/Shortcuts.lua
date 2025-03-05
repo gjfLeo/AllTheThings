@@ -1016,13 +1016,10 @@ e = function(id, t)										-- Create an ENCOUNTER Object (Post-Wrath)
 	return struct("encounterID", id, t);
 end
 -- #else
-e = function(id, t)										-- Create an ENCOUNTER Object (Post-Wrath)
+e = function(id, t)										-- Create an ENCOUNTER Object (Pre-Wrath)
 	-- Not yet supported in classic.
 	if t then
-		if t.groups or t.g then
-			-- #if AFTER WRATH
-			t.encounterID = id;
-			-- #endif
+		if not isarray(t) then
 			-- Convert to a Header or NPC ID.
 			if t.npcID then
 				return t;
