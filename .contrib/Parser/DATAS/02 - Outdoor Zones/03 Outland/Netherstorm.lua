@@ -2021,9 +2021,10 @@ root(ROOTS.Zones, {
 						["groups"] = ASARNAN_MALIJ_GROUPS,
 					}),
 					n(54649, {	-- Big Zokk Torquewrench <Classic Weapons>
-						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["coord"] = { 33.2, 64.0, NETHERSTORM },
 						["timeline"] = { ADDED_4_3_0 },
+						-- #if NOT ANYCLASSIC
+						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["groups"] = applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, bubbleDown({ ["timeline"] = { ADDED_4_3_0 } }, pvp({
 							a(i(77549)),	-- Replica Grand Marshal's Demolisher
 							a(i(77550)),	-- Replica Grand Marshal's Swiftblade
@@ -2065,7 +2066,8 @@ root(ROOTS.Zones, {
 							h(i(77592)),	-- Replica High Warlord's Tome of Mending
 							h(i(77593)),	-- Replica High Warlord's Tome of Destruction
 							h(i(77597)),	-- Replica High Warlord's Shield Wall
-						}))),
+						}))),						
+						-- #endif
 					}),
 					applyclassicphase(WRATH_PHASE_FOUR, n(33933, {	-- Big Zokk Torquewrench <Arena Vendor> // Original S8 Vendor // Relentless Gladiator: Season 7 Gladiator Gear
 						["coord"] = { 33.2, 64.1, NETHERSTORM },
@@ -2164,9 +2166,10 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(40209, {	-- Grex Brainboiler <Classic Alliance Cloth & Leather>
-						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["coord"] = { 33.0, 64.0, NETHERSTORM },
 						["timeline"] = { ADDED_4_0_3 },
+						-- #if NOT ANYCLASSIC
+						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["groups"] = applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, bubbleDown({ ["timeline"] = { ADDED_4_3_0 } }, pvp({
 							i(77670),	-- Replica Field Marshal's Dragonhide Breastplate
 							i(77692),	-- Replica Field Marshal's Satin Mantle
@@ -2278,6 +2281,7 @@ root(ROOTS.Zones, {
 							i(77640),	-- Replica Sergeant Major's Leather Armsplints
 							i(77787),	-- Replica Sergeant Major's Silk Cuffs
 						}))),
+						-- #endif
 					}),
 					applyclassicphase(WRATH_PHASE_FOUR, n(34094, {	-- Grex Brainboiler <Veteran Arena Vendor> / <Exceptional Arena Weaponry> [WRATH] Original WOTLK S8 ELITE VENDOR
 						["coord"] = { 33.1, 64.0, NETHERSTORM },
@@ -2433,6 +2437,7 @@ root(ROOTS.Zones, {
 						-- #endif
 						["timeline"] = { REMOVED_3_0_2, ADDED_4_3_0 },
 						-- #if AFTER 4.3.0.15005
+						-- #if NOT ANYCLASSIC
 						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["groups"] = bubbleDown({ ["timeline"] = { ADDED_4_3_0 } }, applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, pvp({
 							i(77718),	-- Replica Field Marshal's Plate Shoulderguards
@@ -2522,11 +2527,13 @@ root(ROOTS.Zones, {
 							}),
 						}))),
 						-- #endif
+						-- #endif
 					}),
 					n(54648, {	-- Leeni "Smiley" Smalls <Classic Horde Mail & Plate>
-						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["coord"] = { 33.0, 64.0, NETHERSTORM },
 						["timeline"] = { ADDED_4_3_0 },
+						-- #if NOT ANYCLASSIC
+						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["groups"] = applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, bubbleDown({ ["timeline"] = { ADDED_4_3_0 } }, pvp({
 							i(77897),	-- Replica Warlord's Lamellar Pauldrons
 							i(77880),	-- Replica Warlord's Chain Shoulders
@@ -2609,6 +2616,7 @@ root(ROOTS.Zones, {
 							i(77754),	-- Replica Champion's Chain Pauldrons
 							i(77825),	-- Replica Legionnaire's Mail Leggings
 						}))),
+						-- #endif
 					}),
 					applyclassicphase(WRATH_PHASE_FOUR, n(33941, {	-- Leeni "Smiley" Smalls <Apprentice Arena Vendor> [WRATH] Original WOTLK S8 VENDOR
 						["coord"] = { 33.0, 64.0, NETHERSTORM },
@@ -2639,9 +2647,10 @@ root(ROOTS.Zones, {
 						["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3 },
 					})),
 					n(58152, {	-- Tini Smalls <Classic Horde Cloth & Leather>
-						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["coord"] = { 33.0, 64.2, NETHERSTORM },
 						["timeline"] = { ADDED_4_3_0 },
+						-- #if NOT ANYCLASSIC
+						["description"] = "Items on this vendor require Legionnaire/Knight-Captain rank or higher to purchase.",
 						["groups"] = applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, bubbleDown({ ["timeline"] = { ADDED_4_3_0 } }, pvp({
 							i(77900),	-- Replica Warlord's Satin Cowl
 							i(77874),	-- Replica Warlord's Dragonhide Helmet
@@ -2755,6 +2764,7 @@ root(ROOTS.Zones, {
 							i(77788),	-- Replica First Sergeant's Silk Cuffs
 							i(77822),	-- Replica First Sergeant's Leather Armguards
 						}))),
+						-- #endif
 					}),
 					n(20112, {	-- Wind Trader Tuluman <Weapon Merchant>
 						["coord"] = { 34.6, 37.8, NETHERSTORM },
