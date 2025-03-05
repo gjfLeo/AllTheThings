@@ -3736,6 +3736,9 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41800),	-- <DNT> Mug'Zee, Heads of Security defeated
 			ach(41801),	-- <DNT> Chrome King Gallywix defeated
 			ach(41816),	-- [DNT] 11.0.7 Plunderstorm - Mainline Power Reward - Fixup Quest Tracker
+			-- 11.1.0.59538
+			ach(41968),	-- Copious Coffers (copy)
+			ach(41969),	-- The Key to Madness (copy)
 		})),
 	}),
 });
