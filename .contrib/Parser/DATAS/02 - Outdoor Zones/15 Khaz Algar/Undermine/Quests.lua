@@ -1002,7 +1002,111 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.09, {	-- Hard Ways at the Gallagio TODO
-				q(83566),	-- ???
+				q(83519, {	-- But What About the Casino?
+					["sourceQuest"] = 87297,	-- Cashing the Check (Speculated)
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83569, {	-- Death and Taxes
+					["sourceQuest"] = 83519,	-- But What About the Casino?
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(84221, {	-- Paperwork Makes the Mine Go Under
+					["sourceQuest"] = 83569,	-- Death and Taxes
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(84242, {	-- Diving into the Heaps
+					["sourceQuest"] = 84221,	-- Paperwork Makes the Mine Go Under
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83522, {	-- Debting For A Living
+					["sourceQuest"] = 84242,	-- Diving into the Heaps
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83524, {	-- Gold In Them There Trash
+					["sourceQuest"] = 83522,	-- Debting For A Living
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = { i(234188) },	-- Slot Chits (QI!)
+				}),
+				q(83527, {	-- Winning is for Losers, Anyway
+					["sourceQuest"] = 83524,	-- Gold In Them There Trash
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83528, {	-- All Part of the Game
+					["sourceQuest"] = 83527,	-- Winning is for Losers, Anyway
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(84244, {	-- Blackwater Beach Blast
+					["sourceQuest"] = 83528,	-- All Part of the Game
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83534, {	-- Ain't No Warm Up Act
+					["sourceQuest"] = 84244,	-- Blackwater Beach Blast
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83535, {	-- Plunder Party Rockin' Rumble
+					["sourceQuest"] = 83534,	-- Ain't No Warm Up Act
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(84249, {	-- A Vat in the Pan
+					["sourceQuest"] = 83535,	-- Plunder Party Rockin' Rumble
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83540, {	-- Work the Line
+					["sourceQuest"] = 84249,	-- A Vat in the Pan
+					--["provider"] = { "n", xxxxx },	--
+					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = { i(227663) },	-- Noggenfogger's Recommendation (QI!)
+				}),
+				q(83541, {	-- Review Bombed
+					["sourceQuest"] = 83540,	-- Work the Line
+					--["provider"] = { "n", xxxxx },	-- Jojo Gobdre
+					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = { i(227666) },	-- Diner Review Cards (QI!)
+				}),
+				q(83542, {	-- Quick Gills for Gold Now
+					["sourceQuest"] = 83541,	-- Review Bombed
+					--["provider"] = { "n", xxxxx },	-- Jojo Gobdre
+					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = { i(227674) },	-- Gobdre's Prized Pan (QI!)
+				}),
+				q(85189, {	-- Our Day in Court
+					["sourceQuest"] = 83542,	-- Quick Gills for Gold Now
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83546, {	-- Responsibility
+					["sourceQuest"] = 85189,	-- Our Day in Court
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83558, {	-- Casino Court
+					["sourceQuest"] = 83546,	-- Responsibility
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83563, {	-- Coffee is for Closers
+					["sourceQuest"] = 83558,	-- Casino Court
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+				}),
+				q(83566, {	-- Oh, That Casino!
+					["sourceQuest"] = 83563,	-- Coffee is for Closers
+					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
+					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = { i(234125) },	-- Public Defender's Coat
+				}),
 			}),
 			header(HEADERS.AchCriteria, 40894.10, {	-- Property Devalued
 				q(84376, {	-- Property Devalued

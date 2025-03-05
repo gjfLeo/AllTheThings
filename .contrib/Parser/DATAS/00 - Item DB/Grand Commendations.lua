@@ -418,4 +418,7 @@ i(224570, FACTION_ZANDALAR_TRIBE);			-- Commendation of the Zandalar Tribe
 --i(224559, FACTION_SILVERWING_SENTINELS);	-- Commendation of the Silverwing Sentinels
 --i(224562, FACTION_STORMPIKE_GUARD);		-- Commendation of the Stormpike Guard
 --i(224560, FACTION_WARSONG_OUTRIDERS);		-- Commendation of the Warsong Outriders
+------------------
+-- PATCH 11.1.0 --
+------------------
 i(235558, FACTION_DARKFUSE_SOLUTIONS);		-- Box of Darkfuse Miscellany [500 Rep]

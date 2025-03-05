@@ -41,7 +41,6 @@ root(ROOTS.Unsorted, {
 				i(233551),	-- Descaled Armplates
 
 				-- Delve Loot?
-				i(234125),	-- Public Defender's Coat
 				i(234185),	-- Dr. Scrapheal
 
 				-- Delves / Bountiful Season 2
@@ -311,8 +310,7 @@ root(ROOTS.Unsorted, {
 				i(227541),	-- Miner's Debt Marker
 				i(227547),	-- Kayjay's Debt Marker
 				i(227548),	-- Fantastic Davey's Debt Marker
-				i(227663),	-- Noggenfogger's Recommendation
-				i(227666),	-- Diner Review Cards
+
 				i(228798),	-- Gob-Glider
 				i(229810),	-- Vintage Kaja'cola Can
 
@@ -476,7 +474,6 @@ root(ROOTS.Unsorted, {
 				i(226525),	-- Demolition Control Code
 				i(227386),	-- R.P.E.L
 				i(227540),	-- Skimmed Profits
-				i(227674),	-- Gobdre's Prized Pan
 				i(227702),	-- Crumpled Report (TRAINING, DNT)
 				i(228794),	-- Purloined Loot
 				i(228822),	-- Burgled Art

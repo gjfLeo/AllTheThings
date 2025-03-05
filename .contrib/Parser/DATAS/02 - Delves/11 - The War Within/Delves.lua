@@ -2184,6 +2184,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				n(TREASURES, {
 					filter(COSMETIC, {
 						i(212168),	-- Cinderbee Wax Candle Hat
+						i(211801),	-- Poisonous Shroom Cap
 					}),
 				}),
 			}),
