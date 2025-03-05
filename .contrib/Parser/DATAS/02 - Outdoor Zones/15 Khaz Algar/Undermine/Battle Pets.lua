@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			pet(4667),	-- Spring-Loaded Ribbitron
 			pet(4668, {	-- Ultrahopper EX
 				["description"] = "Very long Respawn",
-				["coords"] = { 
+				["coords"] = {
 					{ 36.0, 24.4, UNDERMINE },
 					{ 32.0, 27.6, UNDERMINE },
 				},
@@ -26,23 +26,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			pet(4659, {	-- Kaja Crab
 				["description"] = "In Zuldazar",
 				["coord"] = { 22.5, 59.8, ZULDAZAR },
-			--	["maps"] = { ZULDAZAR },
 			}),
 			pet(4666, {	-- Tropical Frog
 				["description"] = "In Zuldazar",
 				["coord"] = { 21.9, 56.1, ZULDAZAR },
-			--	["maps"] = { ZULDAZAR },
 			}),
 			-- in Ringing Deeps
 			pet(4484, {	-- Frenzied Bloodtick
 				["description"] = "In Ringing Deeps",
 				["coord"] = { 68.1, 90.8, THE_RINGING_DEEPS },
-			--	["maps"] = { THE_RINGING_DEEPS },
 			}),
-			pet(4507, {	-- Hemospore (TODO: wasn't in area when Frenzied Bloodtick is up / probably become NYI or attached to weekly quest in area?)
+			pet(4507, {	-- Hemospore
 				["description"] = "In Ringing Deeps",
 				["coord"] = { 73.6, 95.0, THE_RINGING_DEEPS },
-			--	["maps"] = { THE_RINGING_DEEPS },
 			}),
 		})),
 	}),

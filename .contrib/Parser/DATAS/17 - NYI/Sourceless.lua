@@ -564,7 +564,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 		expansion(EXPANSION.BFA, {
 			-- 8.0.1
 			expansion(EXPANSION.BFA, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
-				q(50554),	--
 				q(50668, {
 					["description"] = "Area: |cFFf09f26Orgrimmar|r",
 					["lvl"] = 10,

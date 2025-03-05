@@ -12,7 +12,7 @@ local CHETT = createHeader({
 
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
-		n(CHETT, {
+		n(CHETT, bubbleDownSelf({ ["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 } }, {
 			n(ACHIEVEMENTS, {
 				ach(41626),	-- C.H.E.T.T. a Look
 				ach(41627),	-- C.H.E.T.T.ing it Twice
@@ -26,6 +26,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						-- Temporary? Its a hidden FoS
 						title(617),	-- %s, "Employee" of the Month
 					},
+				}),
+			}),
+			n(QUESTS, {
+				q(87374, {	-- C.H.E.T.T.ing In
+					["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
+					["provider"] = { "n", 238029 },	-- C.H.E.T.T.
+					["coord"] = { 43.3, 50.5, UNDERMINE },
 				}),
 			}),
 			n(QUESTS, sharedData({["isWeekly"]=true,}, {
@@ -56,7 +63,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					},
 				}),
 			}),
-		}),
+		})),
 	}),
 })));
 

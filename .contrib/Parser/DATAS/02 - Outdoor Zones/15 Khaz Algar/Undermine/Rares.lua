@@ -44,6 +44,50 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234419),	-- Steamboil Mounting System
 				},
 			}),
+			n(QUESTS, {
+				-- Renown 6 + one of cartel hqt locked
+				-- TODO: as of 59241 kills count and quest also counted as completed, despite you cannot pop them by yourself, unless you are with proper contract
+				q(85013, {	-- Darkfuse Precipitant
+					["provider"] = { "n", 231329 },	-- De-Pollution Station X1119
+					["coord"] = { 41.2, 91.4, UNDERMINE },
+					["isDaily"] = true,
+				}),
+				q(86414, {	-- Magno-Scrapper 9000
+					--["sourceQuests"] = { 84951 },	-- HQT: Bilgewater Cartel weekly contract
+					["provider"] = { "n", 234819 },	-- Ragzy Cashgrab
+					["coord"] = { 40.0, 22.4, UNDERMINE },
+					["isDaily"] = true,
+					["g"] = {
+						o(503440),	-- Discarded Goods
+					},
+				}),
+				q(86390, {	-- Noggenfogger Nuisance
+					--["sourceQuests"] = { 84952 },	-- HQT: Steamwheedle Cartel weekly contract
+					["provider"] = { "n", 234751 },	-- Noggenfogger Recall Technician
+					["coord"] = { 32.0, 76.5, UNDERMINE },
+					["isDaily"] = true,
+				}),
+				q(86428, {	-- Voltstrike the Charged
+					--["sourceQuests"] = { 84954 },	-- HQT: Blackwater Cartel weekly contract
+					["provider"] = { "n", 234834 },	-- Boatwright Frankle
+					["coord"] = { 61.4, 25.2, UNDERMINE },
+					["isDaily"] = true,
+					["g"] = {
+						i(234971),	-- Chunk of Charged Glass (QI!)
+						o(503450),	-- Chunk of Charged Glass
+					},
+				}),
+				q(86431, {	-- Scrapchewer
+					--["sourceQuests"] = { 84953 },	-- HQT: Venture Co. weekly contract
+					["provider"] = { "n", 236035 },	-- Scrapminer Krazzik
+					["coord"] = { 56.7, 79.0, UNDERMINE },
+					["isDaily"] = true,
+					["g"] = {
+						i(234970),	-- Partially-Drained Battery (QI!)
+						o(508727),	-- Partially-Drained Battery
+					},
+				}),
+			}),
 			-- currently daily lockout:
 			-- Candy Stickemup, Court of Rats, Grimewick, Nitro, S.A.L.,
 			-- Scrapbeak, Swigs Farsight, Tally Doublespeak, Thwack, V.V. Goosworth

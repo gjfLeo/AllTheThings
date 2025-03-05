@@ -623,11 +623,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 				}),
 				header(HEADERS.AchCriteria, 40900.06, {	-- Chapter 6: Homecoming TODO
-					--q(xxxxx, {	--
-						--["sourceQuests"] = { 85780 },	-- Right Where We Want Him
-						--["provider"] = { "n", xxxxx },	--
-						--["coord"] = { xx, xx, UNDERMINE },
-					--}),
+					q(86204, {	-- Liberation of Undermine: The House Loses
+						["sourceQuests"] = { 85780 },	-- Right Where We Want Him
+						["provider"] = { "n", 233482 },	-- Monte Gazlowe
+						["coord"] = { 43.6, 51.1, UNDERMINE },
+						["g"] = {
+							i(230936),	-- Enchanted Runed Undermine Crest
+							i(236954),	-- Void-Touched Valorstone
+						},
+					}),
 					q(87297),	-- ???
 				}),
 			}),
@@ -1206,13 +1210,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 231045 },	-- Paks Topskimmer
 				["coord"] = { 43.5, 51.7, UNDERMINE },
 			}),
-			-- C.H.E.T.T.
-			-- TODO: account wide
-			q(87374, {	-- C.H.E.T.T.ing In
-				["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
-				["provider"] = { "n", 238029 },	-- C.H.E.T.T.
-				["coord"] = { 43.3, 50.5, UNDERMINE },
-			}),
 			-- DRIVE
 			q(84352, {	-- No More Walkin' Here
 				["sourceQuests"] = { 83167 },	-- Eyes from Above (TODO: speculation)
@@ -1240,16 +1237,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "i", 236961 },	-- Inoperative Gorillion
 				["g"] = {
 					i(232843),	-- Gorillion (PET!)
-				},
-			}),
-			-- Raid
-			q(86204, {	-- Liberation of Undermine: The House Loses
-				["sourceQuests"] = { 85780 },	-- Right Where We Want Him
-				["provider"] = { "n", 233482 },	-- Monte Gazlowe
-				["coord"] = { 37.4, 48.8, UNDERMINE },
-				["g"] = {
-					i(230936),	-- Enchanted Runed Undermine Crest
-					i(236954),	-- Void-Touched Valorstone
 				},
 			}),
 			-- TODO: need to find a better place for it?
@@ -1375,49 +1362,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 43.5, 51.6, UNDERMINE },
 			}),
 			-- Unsure
-			-- TODO: account wide
 			q(87496, {	-- Benefit Packages
 				["sourceQuests"] = { 83096 },	-- Welcome to Undermine (TODO: it is up during this quests so should fire inaccurate?)
 				["provider"] = { "n", 231049 },	-- Kaydee Racketting
 				["coord"] = { 42.8, 52.2, UNDERMINE },
-			}),
-			-- Renown 6 + one of cartel hqt locked
-			-- TODO: as of 59241 kills count and quest also counted as completed, despite you cannot pop them by yourself, unless you are with proper contract
-			q(86414, {	-- Magno-Scrapper 9000
-				--["sourceQuests"] = { 84951 },	-- HQT: Bilgewater Cartel weekly contract
-				["provider"] = { "n", 234819 },	-- Ragzy Cashgrab
-				["coord"] = { 40.0, 22.4, UNDERMINE },
-				["isDaily"] = true,
-				["g"] = {
-					o(503440),	-- Discarded Goods
-				},
-			}),
-			q(86390, {	-- Noggenfogger Nuisance
-				--["sourceQuests"] = { 84952 },	-- HQT: Steamwheedle Cartel weekly contract
-				["provider"] = { "n", 234751 },	-- Noggenfogger Recall Technician
-				["coord"] = { 32.0, 76.5, UNDERMINE },
-				["isDaily"] = true,
-			}),
-			q(86428, {	-- Voltstrike the Charged
-				--["sourceQuests"] = { 84954 },	-- HQT: Blackwater Cartel weekly contract
-				["provider"] = { "n", 234834 },	-- Boatwright Frankle
-				["coord"] = { 61.4, 25.2, UNDERMINE },
-				["isDaily"] = true,
-				["g"] = {
-					i(234971),	-- Chunk of Charged Glass (QI!)
-					o(503450),	-- Chunk of Charged Glass
-					--TODO: re-do in future build - bugged
-				},
-			}),
-			q(86431, {	-- Scrapchewer
-				--["sourceQuests"] = { 84953 },	-- HQT: Venture Co. weekly contract
-				["provider"] = { "n", 236035 },	-- Scrapminer Krazzik
-				["coord"] = { 56.7, 79.0, UNDERMINE },
-				["isDaily"] = true,
-				["g"] = {
-					i(234970),	-- Partially-Drained Battery (QI!)
-					o(508727),	-- Partially-Drained Battery
-				},
 			}),
 			-- pop after learning Handcrank/Steamboil or Handcrank AND Steamboil
 			q(89250, {	-- Burning Rubber

@@ -12,17 +12,6 @@ root(ROOTS.Unsorted, {
 				i(234511),	-- Corrupted Cuirass
 				i(234525),	-- Corrupted Crown
 
-				-- Raid Loot?
-				i(232725),	-- Pilot's Oiled Trousers
-				i(232726),	-- Well-Trodden Mechanic's Shoes
-				i(232727),	-- Cavern Stalker's Trophy Girdle
-				i(232728),	-- Darkfuse Dinner Jacket
-				i(232729),	-- Horn-Adorned Chausses
-				i(232730),	-- Cauldron Master Cleats
-				i(232731),	-- Steadfast Contender's Breastplate
-				i(232732),	-- Champion's Gilded Stompers
-				i(232733),	-- Gobfather's Gold Medal
-
 				-- Mythic + Mechagon?
 				i(232546),	-- K.U.-J.0.'s Flame Vents
 				i(232547),	-- Omega Strike Force
@@ -364,9 +353,6 @@ root(ROOTS.Unsorted, {
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
-
-				i(229989),	-- Vicious Electro Eel [A] (MOUNT!) [PvP]
-				i(229988),	-- Vicious Electro Eel [H] (MOUNT!) [PvP]
 
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
 				-- Probably not real

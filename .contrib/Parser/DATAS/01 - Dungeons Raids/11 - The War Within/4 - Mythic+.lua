@@ -60,7 +60,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				title(592),	-- <Name> the Enterprising
 			}),
 			ach(41533, {	-- The War Within Keystone Master: Season Two
-				mount(1217235)	-- Crimson Shreddertank
+				i(235549)	-- Crimson Shreddertank
 			}),
 			ach(40952),		-- The War Within Keystone Hero: Season Two
 			ach(40951, {	-- The War Within Keystone Legend: Season Two

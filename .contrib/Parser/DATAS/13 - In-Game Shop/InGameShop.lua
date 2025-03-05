@@ -15,12 +15,12 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		ach(12230, {	-- Collector's Edition: Gilded Ravasaur
 			["provider"] = { "i", 153540 },	-- Gilded Ravasaur
-			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 			["races"] = HORDE_ONLY,
 		}),
 		ach(10320, {	-- Collector's Edition: Illidari Felstalker
 			["provider"] = { "i", 128425 },	-- Illidari Felstalker
-			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		ach(6849, {	-- Collector's Edition: Imperial Quilen
 			["provider"] = { "i", 85870 },	-- Imperial Quilen
@@ -32,11 +32,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		ach(10321, {	-- Collector's Edition: Nibbles
 			["provider"] = { "i", 128426 },	-- Nibbles
-			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		ach(12229, {	-- Collector's Edition: Seabraid Stallion
 			["provider"] = { "i", 153539 },	-- Seabraid Stallion
-			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 			["races"] = ALLIANCE_ONLY,
 		}),
 		ach(12232, {	-- Collector's Edition: Tottle
@@ -50,7 +50,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_0 },
 		}),
 		ach(19029, {	-- Lil' Maggz
-			["timeline"] = { ADDED_10_1_7, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_10_1_7, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 	}),
 	-- #endif
@@ -176,11 +176,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	}),
 	filter(MOUNTS, bubbleDown({ ["u"] = REMOVED_FROM_GAME, }, {	-- REMOVED --
 		mount(302361, {	-- Alabaster Stormtalon (MOUNT!)
-			["timeline"] = { ADDED_8_2_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_8_2_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 			["races"] = ALLIANCE_ONLY,
 		}),
 		mount(302362, {	-- Alabaster Thunderwing (MOUNT!)
-			["timeline"] = { ADDED_8_2_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_8_2_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 			["races"] = HORDE_ONLY,
 		}),
 		i(95341, {	-- Armored Bloodwing (MOUNT!)
@@ -211,20 +211,20 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_6_0_2, REMOVED_8_3_0 },
 		}),
 		i(153540, {	-- Gilded Ravasaur (MOUNT!)
-			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 			["races"] = HORDE_ONLY,
 		}),
 		i(107951, {	-- Iron Skyreaver (MOUNT!)
-			["timeline"] = { ADDED_5_4_2, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_5_4_2, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		i(128425, {	-- Illidari Felstalker (MOUNT!)
-			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		i(92724, {	-- Swift Windsteed (MOUNT!)
 			["timeline"] = { ADDED_5_1_0, REMOVED_8_1_0 },
 		}),
 		i(153539, {	-- Seabraid Stallion (MOUNT!)
-			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_7_3_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 			["races"] = ALLIANCE_ONLY,
 		}),
 		i(229418, {	-- Trader's Gilded Brutosaur (MOUNT!)
@@ -240,11 +240,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_0_2_LAUNCH },	-- removed from the store again on Jan 2 2023
 		}),
 		i(112326,	-- Warforged Nightmare (MOUNT!)
-			bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_10_1_7 } }, {	-- removed on Oct 31, 2023
+			bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_10_1_7 } }, {	-- Removed Oct 31, 2023
 				i(112324),	-- Nightmarish Hitching Post (TOY!)
 		})),
 		i(69846, {	-- Winged Guardian (MOUNT!)
-			["timeline"] = { ADDED_4_1_0, REMOVED_10_0_2_LAUNCH },	-- Removed from shop on Jan 2 2023
+			["timeline"] = { ADDED_4_1_0, REMOVED_10_0_2_LAUNCH },	-- Removed Jan 2 2023
 		}),
 	})),
 	filter(BATTLE_PETS, {	-- AVAILABLE --
@@ -340,16 +340,16 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },	-- Removed Feb 29th, 2024
 		}),
 		i(49693, {	-- Lil' K.T.
-			["timeline"] = { ADDED_3_2_2, REMOVED_10_0_2_LAUNCH },	-- Removed from shop on Jan 2 2023, will be offered through Trading Post in 10.0.5
+			["timeline"] = { ADDED_3_2_2, REMOVED_10_0_2_LAUNCH },	-- Removed Jan 2 2023
 		}),
 		i(208850, {	-- Lil' Maggz (PET!)
-			["timeline"] = { ADDED_10_1_7, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_10_1_7, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		i(54847, {	-- Lil' XT (PET!)
 			["timeline"] = { ADDED_3_3_3, REMOVED_8_3_0 },
 		}),
 		i(141893, {	-- Mischief (PET!)
-			["timeline"] = { ADDED_7_1_0, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_7_1_0, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		i(68384, {	-- Moonkin Egg (You had to open the Egg on both faction sides before 6.0.1 to receive your Moonkin Pet). You get both now automatically
 			["timeline"] = { ADDED_4_0_3, REMOVED_8_3_0 },
@@ -363,16 +363,16 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["races"] = HORDE_ONLY,
 		}),
 		i(128426, {	-- Nibbles (PET!)
-			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- removed on Oct 31, 2023
+			["timeline"] = { ADDED_6_2_2, REMOVED_10_1_7 },	-- Removed Oct 31, 2023
 		}),
 		i(49665, {	-- Pandaren Monk
-			["timeline"] = { ADDED_3_2_2, REMOVED_10_0_2_LAUNCH },	-- Removed from shop on Jan 2 2023, will be offered through Trading Post in 10.0.5
+			["timeline"] = { ADDED_3_2_2, REMOVED_10_0_2_LAUNCH },	-- Removed Jan 2 2023
 		}),
 		i(231294, {	-- Reven (PET!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- removed January 7, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Removed January 7, 2025
 		}),
 		i(190601, {	-- Sunny
-			["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },	-- Aug 29th, 2023
+			["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },	-- Removed Aug 29th, 2023
 		}),
 		i(153541, {	-- Tottle (PET!)
 			["timeline"] = { ADDED_7_3_5,  REMOVED_10_1_7 },	-- Removed Sep 17th, 2023
@@ -541,13 +541,13 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			}),
 			------ Guardian Set ------
 			i(190216, {	-- Feathered Cowl of the Guardian
-				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
+				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed May 31, 2023
 			}),
 			i(190200, {	-- Feathered Drape of the Guardian
-				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
+				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed May 31, 2023
 			}),
 			i(190220, {	-- Standard of the Guardian
-				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed from store May 31
+				["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0 },	-- Removed May 31, 2023
 			}),
 
 			------ High Scholar's Arcana Set ------
@@ -586,7 +586,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
 			}),
 			i(231290, {	-- Reven's Comfy Carrier
-				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Available through January 7, 2025
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.58238" },	-- Removed January 7, 2025
 			}),
 		})),
 	}),
@@ -597,10 +597,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_0 },
 		}),
 		i(166778, {	-- Horde's Might Firework (TOY!)
-			["timeline"] = { ADDED_8_1_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_8_1_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 		}),
 		i(166777, {	-- Lion's Pride Firework (TOY!)
-			["timeline"] = { ADDED_8_1_5, REMOVED_10_1_0 },	-- 17th April 2023
+			["timeline"] = { ADDED_8_1_5, REMOVED_10_1_0 },	-- Removed 17th April 2023
 		}),
 		i(210467, {	-- Magical Murkmorpher (TOY!)
 			["timeline"] = { ADDED_10_2_5 }

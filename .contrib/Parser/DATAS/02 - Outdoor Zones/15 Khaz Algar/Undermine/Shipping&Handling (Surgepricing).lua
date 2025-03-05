@@ -17,8 +17,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			["groups"] = {
 				n(QUESTS, {
 					q(86775, {	-- Urge to Surge
-						--TODO: DRIVE public event, bugged on ptr
-						--TODO: and rewards from public event itself?
 						--["sourceQuests"] = { xx },	-- ??
 						["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 						["coord"] = { 43.8, 50.8, UNDERMINE },

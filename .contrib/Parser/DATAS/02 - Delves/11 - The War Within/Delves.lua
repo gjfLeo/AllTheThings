@@ -1443,8 +1443,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_REGULAR_DELVES,	-- s2 delves or all delves?
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
-		q(85242, {	-- Seasonal Refresher
+		q(88947, {	-- Undermined Delves
 			--["sourceQuests"] = { xx },	-- ??
+			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+			["coord"] = { 47.6, 44.3, DORNOGAL },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
+		}),
+		q(85242, {	-- Seasonal Refresher
+			["sourceQuests"] = { 88947 },	-- Undermined Delves
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.4, 44.4, DORNOGAL },
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
@@ -1577,7 +1583,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		o(507768, {	-- Jettisoned Pile of Goblin-Bucks
 			["description"] = "Left behind by Underpin when he was defeated in a delve.",
-			["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 			["g"] = {
 				--i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0}}), -- Delver's Bounty
 			},

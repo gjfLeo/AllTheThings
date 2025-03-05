@@ -100,6 +100,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(229407),	-- Citrus Acid (QI!)
 					},
 				}),
+				q(85515, {	-- Free Samples!
+					["coord"] = { 27.8, 45.5, UNDERMINE },
+				}),
 				q(85500, {	-- Hazardous Waste
 					["coord"] = { 56.6, 30.4, UNDERMINE },
 					["g"] = {

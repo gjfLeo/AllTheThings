@@ -111,7 +111,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can
-				currency(3220),	-- Vintage Kaja'Cola Can [requires renown 14]
+				currency(3220, {	-- Vintage Kaja'Cola Can
+					["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 14 }
+				}),
 				--
 				i(236161, {	-- Broiler Supreme 300 (COSMETIC!)
 					["description"] = "Can randomly drop while scraping.",
@@ -127,6 +129,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				i(233246, {	-- Gunk-Covered Thingy
 					["description"] = "Requires the 'Scrappy S.C.R.A.P.per III' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",
+					["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 11 },
 				}),
 			}),
 			n(VENDORS, {
@@ -166,9 +169,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				n(234362, {	-- Kaja'Cola Dispenser
 					["coord"] = { 67.3, 28.5, UNDERMINE },
 					["g"] = {
-						i(233444),	-- Kaja'Cola X-Treme [requires renown 7]
-						i(233445),	-- Kaja'Cola X-Treme Mega-Can [requires renown 16]
-						i(233446),	-- Multi-Pack of Kaja'Cola [requires renown 16]
+						i(233444, {	-- Kaja'Cola X-Treme
+							["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 7 }
+						}),
+						i(233445, {	-- Kaja'Cola X-Treme Mega-Can
+							["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 16 }
+						}),
+						i(233446, {	-- Multi-Pack of Kaja'Cola
+							["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 16 }
+						}),
 					},
 				}),
 			}),
