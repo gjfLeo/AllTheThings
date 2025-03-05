@@ -819,12 +819,7 @@ namespace ATT
                             }
                             else
                             {
-                                Console.Write("Invalid Container format: ");
-                                Log(pair.Key);
-                                Console.ReadLine();
-                                Log(ToJSON(pair.Value));
-                                Console.ReadLine();
-                                throw new Exception("Invalid Container format!");
+                                throw new Exception($"Invalid Container format: {pair.Key}:{ToJSON(pair.Value)}");
                             }
                             break;
                         }
@@ -1027,14 +1022,12 @@ namespace ATT
                     {
                         Log($" {key} ({data.GetType()}): {data.GetType().FullName}");
                         LogWarn("Functions are not directly supported at this time. Please use a [[ ]] surrounded string.");
-                        Console.ReadLine();
                         break;
                     }
                 default:
                     {
                         Log($" ({data.GetType()}): ");
                         LogWarn(data.GetType().FullName, data);
-                        Console.ReadLine();
                         break;
                     }
             }

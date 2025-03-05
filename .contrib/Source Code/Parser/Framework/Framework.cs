@@ -30,6 +30,11 @@ namespace ATT
         public static bool DebugMode = false;
 
         /// <summary>
+        /// Represents whether any read-key delays for user input will be ignored
+        /// </summary>
+        public static bool Automated { get; set; }
+
+        /// <summary>
         /// Used to represent a Lua object value which will be ignored by the Parser
         /// </summary>
         public static string IgnoredValue { get; set; }
@@ -224,7 +229,7 @@ namespace ATT
         private static IDictionary<long, bool> QUESTS_WITH_REFERENCES = new Dictionary<long, bool>();
 
         /// <summary>
-        /// All of the Quest IDs that have been referenced somewhere in the database.
+        /// All of the Export Data Keys that have been referenced somewhere in the database.
         /// </summary>
         private static IDictionary<string, List<string>> EXPORTDATA_WITH_REFERENCES = new Dictionary<string, List<string>>();
 
@@ -304,6 +309,19 @@ namespace ATT
         private static IDictionary<string, object> Exports { get; } = new Dictionary<string, object>();
 
         private static IDictionary<string, object> IncorporationReferences { get; } = new Dictionary<string, object>();
+
+
+        /// <summary>
+        /// Performs a ReadKey if the parser is not in an Automated run
+        /// </summary>
+        public static void WaitForUser()
+        {
+            if (!Automated)
+            {
+                Trace.WriteLine("Press Enter once you have resolved the issue.");
+                Console.ReadKey();
+            }
+        }
 
         /// <summary>
         /// Assign the custom headers to the Framework's internal reference.
@@ -708,14 +726,14 @@ namespace ATT
             if (CURRENT_RELEASE_PHASE_NAME == "UNKNOWN")
             {
                 Console.Write("CURRENT_RELEASE_PHASE_NAME is UNKNOWN. Please make sure to assign 'DataPhase' in your config file.");
-                Console.ReadLine();
+                Framework.WaitForUser();
                 throw new ArgumentNullException("DataPhase");
             }
             int[] configPatch = Config["DataPatch"];
             if (configPatch == null)
             {
                 Console.Write("CURRENT_RELEASE_VERSION is missing. Please make sure to assign 'DataPatch' in your config file.");
-                Console.ReadLine();
+                Framework.WaitForUser();
                 throw new ArgumentNullException("DataPatch");
             }
             CURRENT_RELEASE_VERSION = configPatch.ConvertVersion();
@@ -2316,7 +2334,7 @@ namespace ATT
                                     {
                                         Trace.WriteLine(MiniJSON.Json.Serialize(objectData));
                                         Trace.WriteLine("Uhhh, you missing an english locale here");
-                                        Console.ReadLine();
+                                        Framework.WaitForUser();
                                         foreach (var localeKey in supportedLocales)
                                         {
                                             builder.Append("\t\t\t").Append(localeKey).Append(" = ");

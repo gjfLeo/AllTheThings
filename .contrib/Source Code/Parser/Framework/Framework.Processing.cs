@@ -784,11 +784,8 @@ namespace ATT
             // Merge all relevant dictionary info into the data
             DoConditionalDataMerging(data);
 
-            foreach (KeyValuePair<string, object> value in data)
-            {
-                // capture the data for sourced groups (i.e. contains the field)
-                CaptureForSOURCED(data, value.Key, value.Value);
-            }
+            // capture the data for sourced groups (i.e. contains the field)
+            CaptureForSOURCED(data);
 
             return true;
         }
@@ -927,12 +924,6 @@ namespace ATT
                 }
             }
 
-            // clean out any temporary 'type' fields which do not yet have a corresponding conversion in parser.config
-            if (data.TryGetValue("type", out string type) && type == "TODO")
-            {
-                data.Remove("type");
-            }
-
             // Get the filter for this Item
             Objects.Filters filter = Objects.Filters.Ignored;
             if (data.TryGetValue("f", out long f))
@@ -943,10 +934,11 @@ namespace ATT
                     filter = (Objects.Filters)f;
                     FILTERS_WITH_REFERENCES[f] = true;
                 }
-                // remove modID from things which shouldn't have it
+                // remove modID/bonusID from things which shouldn't have it
                 if (f >= 56)
                 {
                     data.Remove("modID");
+                    data.Remove("bonusID");
                 }
 
                 // special handling for explicitly-defined filterIDs (i.e. not determined by Item data, but rather directly in Source)
@@ -994,19 +986,6 @@ namespace ATT
                 */
             }
 
-            if (data.ContainsKey("_unsorted"))
-            {
-                foreach (var sourcedListByKey in GetAllMatchingSOURCED(data))
-                {
-                    var sourcedData = Objects.FindMatchingData(sourcedListByKey.AsTypedEnumerable<object>(), data);
-                    if (sourcedData != null)
-                    {
-                        LogDebugWarn($"Unsorted data has also been Sourced", data);
-                        break;
-                    }
-                }
-            }
-
             CaptureDebugDBData(data);
 
             AddPostProcessing(PostProcessingGroupCleanup, data);
@@ -1029,7 +1008,25 @@ namespace ATT
         {
             List<string> removeKeys = new List<string>();
 
-            // empty list fields removed
+            // clean out any temporary 'type' fields which do not yet have a corresponding conversion in parser.config
+            if (data.TryGetValue("type", out string type) && type == "TODO")
+            {
+                data.Remove("type");
+            }
+
+            if (data.ContainsKey("_unsorted"))
+            {
+                foreach (var sourcedListByKey in GetAllMatchingSOURCED(data))
+                {
+                    var sourcedData = Objects.FindMatchingData(sourcedListByKey.AsTypedEnumerable<object>(), data);
+                    if (sourcedData != null)
+                    {
+                        LogDebugWarn($"Unsorted data has also been Sourced", data);
+                        break;
+                    }
+                }
+            }
+
             foreach (KeyValuePair<string, object> dataKvp in data)
             {
                 // 'timeline' is removed
@@ -1739,10 +1736,6 @@ namespace ATT
                 data.ContainsKey("criteriaID") ||
                 (data.TryGetValue("collectible", out bool collectible) && !collectible)) return;
 
-            // data.DataBreakPoint("achID", 429);  // sulfuras
-            // data.DataBreakPoint("achID", 1832);  // tastes like chicken
-            // data.DataBreakPoint("achID", 40613);
-
             // Grab AchievementDB info
             ACHIEVEMENTS.TryGetValue(achID, out IDictionary<string, object> achInfo);
 
@@ -2000,7 +1993,7 @@ namespace ATT
             long providerItem = criteriaData.GetProviderItem();
             if (providerItem > 0)
             {
-                LogDebug($"INFO: Added providers to Criteria {achID}:{criteriaID} => {providerItem}");
+                LogDebug($"INFO: Added Item provider to Criteria {achID}:{criteriaID} => {providerItem}");
                 Objects.Merge(data, "providers", new List<object> { new List<object> { "i", providerItem } });
                 incorporated = true;
             }
@@ -2035,7 +2028,7 @@ namespace ATT
                 incorporated = true;
             }
 
-            long spellID = criteriaData.GetKnownSpellID();
+            long spellID = criteriaData.GetReceivedSpellID();
             if (spellID > 0)
             {
                 // Only try to nest actually visible Criteria under a Spell
@@ -2059,6 +2052,7 @@ namespace ATT
                     //}
                     //else
                     //{
+                    // _spells is later switched to respective Item associated with the Spell if possible
                     LogDebug($"INFO: Added _spells to visible Criteria {achID}:{criteriaID} => {spellID}");
                     Objects.Merge(data, "_spells", new List<object> { spellID });
                     incorporated = true;
@@ -2069,7 +2063,10 @@ namespace ATT
             spellID = criteriaData.GetCastedSpellID();
             if (spellID > 0)
             {
-                // TODO: do something interesting where a spell needs to be 'casted' for Achievement Criteria
+                // casted spells specifically should be providers from the spell
+                LogDebug($"INFO: Added Spell provider to Criteria {achID}:{criteriaID} => {spellID}");
+                Objects.Merge(data, "providers", new List<object> { new List<object> { "s", spellID } });
+                incorporated = true;
             }
 
             long achievementID = criteriaData.GetRequiredAchievement();
@@ -2242,13 +2239,21 @@ namespace ATT
                         }
                         if (criteriaData.TryGetValue("_objects", out List<object> objects))
                         {
-                            Objects.Merge(data, "provider", new List<object> { "o", objects[0] });
-                            TrackIncorporationData(data, "provider", new List<object> { "o", objects[0] });
+                            var o_prov = new List<object> { "o", objects[0] };
+                            Objects.Merge(data, "provider", o_prov);
+                            TrackIncorporationData(data, "provider", o_prov);
                         }
                         if (criteriaData.TryGetValue("_npcs", out List<object> nps))
                         {
-                            Objects.Merge(data, "provider", new List<object> { "n", nps[0] });
-                            TrackIncorporationData(data, "provider", new List<object> { "n", nps[0] });
+                            var n_prov = new List<object> { "n", nps[0] };
+                            Objects.Merge(data, "provider", n_prov);
+                            TrackIncorporationData(data, "provider", n_prov);
+                        }
+                        if (criteriaData.TryGetValue("_spells", out List<object> spells))
+                        {
+                            var s_prov = new List<object> { "s", spells[0] };
+                            Objects.Merge(data, "provider", s_prov);
+                            TrackIncorporationData(data, "provider", s_prov);
                         }
                         if (criteriaData.TryGetValue("_quests", out List<object> quests))
                         {
@@ -2810,7 +2815,7 @@ namespace ATT
             {
                 // Spells are split into multiple "useful" types
                 //DuplicateDataIntoGroups(data, spells, "spellID");
-                DuplicateDataIntoGroups(data, spells, "recipeID");
+                //DuplicateDataIntoGroups(data, spells, "recipeID");
                 //DuplicateDataIntoGroups(data, spells, "mountID");
                 cloned = true;
             }
@@ -2922,43 +2927,42 @@ namespace ATT
                         cloned = false;
                     }
                 }
-                // if the Criteria attempts to clone into a Spell which isn't Sourced then don't remove it and add to 'providers'
+                // if the Criteria attempts to clone into a Spell which is on an Item, then put the Item as a 'provider' instead, if otherwise add the spell to 'providers'
                 if (data.TryGetValue("_spells", out List<object> spellObjs))
                 {
                     foreach (long id in spellObjs.AsTypedEnumerable<long>())
                     {
-                        // Mounts with Items can set 'provider' on the Criteria instead of nesting
-                        if (TryGetSOURCED("mountID", id, out var mountSources))
+                        // Items with Spells can set 'provider' on the Criteria instead of nesting
+                        if (TryGetSOURCED("spellID", id, out var spellSources))
                         {
-                            foreach (var mount in mountSources)
+                            foreach (var spell in spellSources)
                             {
-                                if (mount.TryGetValue("itemID", out long mountItemID))
+                                if (spell.TryGetValue("itemID", out long spellItemID))
                                 {
                                     data.TryGetValue("achID", out long achID);
-                                    LogDebug($"Criteria {achID}:{criteriaID} using Provider for a MountItem {mountItemID} due to Spell {id} requirement");
-                                    Objects.Merge(data, "provider", new List<object> { "i", mountItemID });
+                                    LogDebug($"Criteria {achID}:{criteriaID} using Provider for a SpellItem {spellItemID} due to Spell {id} requirement");
+                                    Objects.Merge(data, "provider", new List<object> { "i", spellItemID });
                                     cloned = false;
                                 }
                             }
                         }
 
-                        if (cloned &
-                            //!SOURCED["spellID"].ContainsKey(id) &&
-                            !SOURCED["recipeID"].ContainsKey(id))
+                        // Remaining Spells not Sourced in ATT, use provider if the Criteria has any other 'useful' data as well
+                        if (cloned)
                         {
                             IEnumerable<string> usefulKeys = data.Keys.Except(IndeterminateCriteriaDataFields).Except(s => s.EndsWith("ID"));
+                            data.TryGetValue("achID", out long achID);
                             if (!usefulKeys.Any())
                             {
-                                data.TryGetValue("achID", out long achID);
                                 // mark this criteria to be removed since it is not nested in-game and doesn't correspond to or contain any useful ATT data at this time
                                 LogDebugWarn($"Criteria {achID}:{criteriaID} removed since it doesn't correspond to useful ATT data");
                                 data["_remove"] = true;
                             }
                             else
                             {
-                                // remove the spells which are not sourced from being reported as failed to merge
-                                data.TryGetValue("achID", out long achID);
-                                LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsourced Spell/Recipe {id}. Consider Sourcing Spell/Recipe");
+                                LogDebug($"Criteria {achID}:{criteriaID} using fallback Provider for an Unsourced Spell {id}");
+                                Objects.Merge(data, "provider", new List<object> { "s", id });
+                                cloned = false;
                             }
                             cloned = false;
                         }
@@ -3651,7 +3655,7 @@ namespace ATT
                         Log("Activating Debug Mode! (Press Enter to continue...)");
                         Log("Update CategoryDB.lua from the Debugging folder.");
                         DebugMode = true;
-                        Console.ReadLine();
+                        Framework.WaitForUser();
                     }
                 }
             }
@@ -3764,12 +3768,12 @@ namespace ATT
                     if (data.ContainsKey("ignoreSource"))
                     {
                         Log($"WTF WHY IS THIS HEIRLOOM {itemID} IGNORING SOURCE IDS?!");
-                        Console.ReadLine();
+                        Framework.WaitForUser();
                     }
                     else if (data.ContainsKey("ignoreBonus"))
                     {
                         Log($"WTF WHY IS THIS HEIRLOOM {itemID} IGNORING BONUS IDS?!");
-                        Console.ReadLine();
+                        Framework.WaitForUser();
                     }
                 }
             }

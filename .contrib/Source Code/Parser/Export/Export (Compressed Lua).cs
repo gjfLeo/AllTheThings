@@ -248,7 +248,7 @@ namespace ATT
                                     {
                                         System.Diagnostics.Trace.WriteLine("There appears to be a syntax error in the following function:");
                                         System.Diagnostics.Trace.WriteLine(functionAssignment);
-                                        Console.ReadLine();
+                                        Framework.WaitForUser();
                                     }
                                     lua.Close();
                                 }
@@ -256,7 +256,7 @@ namespace ATT
                                 {
                                     System.Diagnostics.Trace.WriteLine(ex);
                                     System.Diagnostics.Trace.WriteLine(functionBody);
-                                    Console.ReadLine();
+                                    Framework.WaitForUser();
                                 }
                             }
                             builder.Append(functionBody);

@@ -1448,8 +1448,8 @@ end");
                     }
                     catch (Exception e)
                     {
-                        Log($"WHAT IS THIS: {field}{Environment.NewLine}{ToJSON(newList)}");
-                        Console.ReadLine();
+                        LogError($"WHAT IS THIS: {field}{Environment.NewLine}{ToJSON(newList)}");
+                        Framework.WaitForUser();
                         throw e;
                     }
                 }
@@ -1548,8 +1548,8 @@ end");
                             }
                             else
                             {
-                                Log($"Weird 'g' value??", value);
-                                Console.ReadLine();
+                                LogError($"Weird 'g' value??", value);
+                                Framework.WaitForUser();
                             }
                             break;
                         }
