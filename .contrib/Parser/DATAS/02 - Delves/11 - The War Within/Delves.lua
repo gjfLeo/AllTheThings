@@ -186,6 +186,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		-- TWW Season 2 Boss (Still available)
 		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			--["icon"] = [[~_.asset("Delves_Nerubian")]],
+			["maps"] = { 2426 },
 			["coord"] = { 52.7, 9.4, UNDERMINE },
 			["g"] = {
 				n(ACHIEVEMENTS, {
@@ -1533,7 +1534,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		-- Mislaid Curiosities can be found throughout all Delves, random coordinates
 		o(455914, {	-- Mislaid Curiosity
 			["description"] = "Contains Chunk of Companion Experience tokens.",
-			--["timeline"] = { REMOVED_11_1_0 },
 			["g"] = {
 				-- First versions
 				i(228071),	-- Chunk of Companion Experience (Uncommon)
@@ -1592,7 +1592,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- gold bag
-				-- TODO: add to mobile?
 				-- TODO: have other chunk of exp too?
 			},
 		}),
@@ -1600,7 +1599,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- gold bag, delves reagents
-				-- TODO: add to mobile?
 				-- TODO: have other chunk of exp too?
 			},
 		}),
@@ -1608,7 +1606,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- gold bag, delves reagents
-				-- TODO: add to mobile?
 				-- TODO: have other chunk of exp too?
 			},
 		}),
@@ -1616,7 +1613,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- gold bag, delves reagents
-				-- TODO: add to mobile?
 				i(235607),	-- Chunk of Companion Experience (epic)
 			},
 		}),
@@ -3085,8 +3081,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		--q(86402, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 1 (spellID 467087) (itemID 233555?)
 		--q(86403, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 2 (spellID 1217225) (itemID 235531?)
 		-- Season 2 - Underpin
-		q(87287, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
-		q(87286, {["timeline"]={ADDED_11_1_0}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
+		q(87287, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
+		q(87286, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
 		-- Zekvir
 		q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
 		q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)

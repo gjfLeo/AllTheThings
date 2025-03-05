@@ -122,7 +122,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							--i(233550),	-- Descaled Girdle
 							--i(233547),	-- Descaled Helm
 							i(233548),	-- Descaled Legguards
-							--i(233549),	-- Descaled Mantle
+							i(233549),	-- Descaled Mantle
 							--i(233545),	-- Descaled Sabatons
 						}),
 					}),

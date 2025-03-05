@@ -1261,6 +1261,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["provider"] = { "n", 227210 },	-- Nanny Talullah
 				["coord"] = { 37.4, 48.8, UNDERMINE },
 			}),
+			-- C.H.E.T.T.
+			q(87374, {	-- C.H.E.T.T.ing In
+				["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
+				["provider"] = { "n", 238029 },	-- C.H.E.T.T.
+				["coord"] = { 43.3, 50.5, UNDERMINE },
+			}),
 			-- Gorillon
 			q(87406, {	-- Inoperative Gorillion
 				["provider"] = { "i", 236961 },	-- Inoperative Gorillion

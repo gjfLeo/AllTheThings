@@ -28,13 +28,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					},
 				}),
 			}),
-			n(QUESTS, {
-				q(87374, {	-- C.H.E.T.T.ing In
-					["sourceQuests"] = { 83151 },	-- Down Undermine (TODO: speculation)
-					["provider"] = { "n", 238029 },	-- C.H.E.T.T.
-					["coord"] = { 43.3, 50.5, UNDERMINE },
-				}),
-			}),
 			n(QUESTS, sharedData({["isWeekly"]=true,}, {
 				q(87303),	-- Clean the Sidestreets
 				q(87305),	-- Desire to D.R.I.V.E.

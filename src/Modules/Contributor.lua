@@ -749,6 +749,7 @@ MobileDB.GameObject = {
 	[503868] = true,	-- Nemesis Strongbox
 	[503869] = true,	-- Nemesis Strongbox
 	[503870] = true,	-- Nemesis Strongbox
+	[503871] = true,	-- Nemesis Strongbox
 	[506498] = true,	-- Gilded Stash
 	[506640] = true,	-- Faded Journal Page @ 39.3, 54.2, 2369 (q:85571)
 	[506696] = true,	-- Buried Treasure

@@ -38,7 +38,6 @@ root(ROOTS.Unsorted, {
 				i(233545),	-- Descaled Sabatons
 				i(233546),	-- Descaled Gauntlets
 				i(233547),	-- Descaled Helm
-				i(233549),	-- Descaled Mantle
 				i(233550),	-- Descaled Girdle
 				i(233551),	-- Descaled Armplates
 

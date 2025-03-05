@@ -117,9 +117,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 				["coord"] = { 58.9, 11.2, UNDERMINE },
 				["isWorldQuest"] = true,
-				--["sym"] = {
-				--	{"select","encounterID",3128,},{"pop"},
-				--},
+				["sym"] = {
+					{"select","encounterID",2683,},{"pop"},
+				},
 			})),
 		}),
 	}),

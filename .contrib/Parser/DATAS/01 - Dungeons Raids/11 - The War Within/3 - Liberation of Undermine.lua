@@ -271,13 +271,14 @@ InstanceHelper.UpgradeMapping = {
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 	inst(1296, {	-- Liberation of Undermine
 		["isRaid"] = true,
-		--["coord"] = { X, Y, UNDERMINE },
+		["coord"] = { 42.0, 50.2, UNDERMINE },
 		["maps"] = {
 			2406,	-- Undermine
 			2407,	-- The Gallagio
 			2408,	-- The Lucky Heart
 			2409,	-- The House of Chrome
 			2411,	-- The Tower of Spades
+			2428,	-- Research and Destruction
 		},
 		["g"] = {
 			n(ACHIEVEMENTS, {
@@ -299,7 +300,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					crit(71700, {	-- Sprocketmonger Lockenstock
 						["_encounter"] = { LOCKENSTOCK, DIFFICULTY.RAID.MULTI.ALL },
 					}),
-
 				}),
 				ach(41227, {	-- Beating the Odds
 					crit(71701, {	-- One-Armed Bandit
@@ -635,6 +635,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}),
 				}),
 			}),
+			n(QUESTS, {
+				q(89016),	-- Members Only
+			}),
 			n(VENDORS, {
 				--[[ add new vendor also to all the curios
 				--Raid vendor gear for curio
@@ -650,5 +653,29 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				--]]
 			}),
 		},
+	}),
+})));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+	inst(1296, {	-- Liberation of Undermine
+		--q(88835),	-- Holograms activated before Cauldron of Carnage ?
+		--q(88838),	-- Trash before Cauldron of Carnage
+		--q(88842),	-- Trash before Cauldron of Carnage
+		--q(89478),	-- Trash before Cauldron of Carnage
+		--q(88846), -- Rep rewards prior to Rik Reverb?
+		--q(89479),	-- Rep rewards prior to Rik Reverb?
+		--q(86468),	-- Triggered with Members Only (89016)
+		--q(89017),	-- Triggered with Members Only (89016)
+		--q(88852),	-- Trash before One-Armed Bandit?
+		--q(89480),	-- Trash before One-Armed Bandit?
+		--q(88856),	-- Trash before Gallywix?
+		--q(89481),	-- Trash before Gallywix?
+
+		-- LFR/Normal
+		q(89453),	-- Cauldron of Carnage
+		q(89454),	-- Rik Reverb
+		q(89457),	-- One-Armed Bandit
+		q(89458),	-- Mug'Zee
+		q(89459),	-- Chrome King Gallywix
 	}),
 })));
