@@ -1741,6 +1741,7 @@ ExportDB.AccountWideQuestsDB = {
 	[86378] = true,	-- Royal Snapdragon Treat
 	[86379]	= true,	-- Crimson Snapdragon Treat
 	[86380] = true,	-- Sandy Snapdragon Treat
+	[86468] = true,	-- Triggered with Members Only (89016)
 	[86482] = true,	-- A Lifeline
 	[86483] = true,	-- Snap To It
 	[86484] = true,	-- Temper Like A Tempest
@@ -1768,5 +1769,8 @@ ExportDB.AccountWideQuestsDB = {
 	[88879] = true,	-- Honored with the Venture Co
 	[88880] = true,	-- Revered with the Venture Co
 	[88881] = true,	-- Exalted with the Venture Co
+	[89016] = true,	-- Members Only
+	[89017] = true,	-- Triggered with Members Only (89016)
+	[89027] = true,	-- Fast Food
 	-- #ENDIF
 }

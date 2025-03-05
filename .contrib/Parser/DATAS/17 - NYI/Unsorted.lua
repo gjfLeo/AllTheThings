@@ -18,7 +18,6 @@ root(ROOTS.Unsorted, {
 
 				-- wtf is this :( Zonedrop/Zone rewards
 				i(233260),	-- Laundered Vestment
-				i(233261),	-- Laundered Sandals
 				i(233263),	-- Laundered Cowl
 				i(233265),	-- Laundered Shoulderpads
 				i(233267),	-- Laundered Cuffs
@@ -47,7 +46,6 @@ root(ROOTS.Unsorted, {
 
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
-				i(235423),	-- Expensive Gemstone Ring
 				i(235424),	-- Rich Uncle's Endowment
 				i(235425),	-- Dumpsterdelver's Loop
 				i(235484),	-- Razor-sharp Desk Fan
@@ -248,7 +246,6 @@ root(ROOTS.Unsorted, {
 				i(234376),	-- Vessel of Sacred Flame
 				i(234377),	-- Unscathed Rampart
 				i(234378),	-- Radiant Steelglaives
-				i(234388),	-- Arsenal: Hallowfall Weaponry
 			}),
 			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
 				-- D.R.I.V.E.

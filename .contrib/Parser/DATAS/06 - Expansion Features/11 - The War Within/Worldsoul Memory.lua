@@ -11,7 +11,11 @@ WORLDSOUL_MEMORY = createHeader({
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(WORLDSOUL_MEMORY, {
 		["providers"] = {
+			-- #if BEFORE 11.1.0.59490
 			{ "i", 220520 },	-- Radiant Echo
+			-- #else
+			{ "i", 235897 },	-- Radiant Echo
+			-- #endif
 			{ "n", 222165 },	-- Worldsoul Memory
 		},
 		["g"] = {
@@ -20,13 +24,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				ach(40222, {	-- Echoes of Danger (automated)
 					title(576),	-- Echochaser <Name>
 				}),
-				ach(41215, {["timeline"] = {ADDED_11_1_0}}),	-- Echoes of Deeper Dangers (automated)
+				ach(41215, {	-- Echoes of Deeper Dangers (automated)
+					["maps"] = { UNDERMINE },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
+				}),
 				ach(40314, {	-- Fragments of Memories (automated)
 					i(224251),	-- Memory Chord (TOY!)
 				}),
 				ach(40251),	-- Many Echoes
 				ach(40250),	-- The First Echo
-				ach(41214, {["timeline"] = {ADDED_11_1_0}}),	-- Under the Echoes
+				ach(41214, {
+					["maps"] = { UNDERMINE },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
+				}),	-- Under the Echoes
 			}),
 			n(QUESTS, {
 				q(84542, {	-- A Radiant Echo

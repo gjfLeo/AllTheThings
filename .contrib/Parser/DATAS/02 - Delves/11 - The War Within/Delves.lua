@@ -818,6 +818,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(219188, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Dark Abyss Hoop
 						i(219189, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Fuzzy Molding Halo
 						-- Season 2
+						i(235423, {	-- Expensive Gemstone Ring
+							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						}),
 						i(235428, {	-- Gobtastic Bling
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 						}),
@@ -1356,6 +1359,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		hqt(84118),	-- Level 58
 		hqt(84119),	-- Level 59
 		hqt(83330),	-- Level 60
+		hqt(86974),	-- Level 61
 	}),
 	n(QUESTS, {
 		q(84370, {	-- The Key to Success
@@ -1873,7 +1877,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 				}),
 				filter(COSMETIC, {
-					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars TODO: questID - 86473
+					iensemble(234388, {	-- Arsenal: Hallowfall Weaponry
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					}),
+					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
@@ -3015,82 +3023,90 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
-		q(82772, {["timeline"]={REMOVED_11_1_0_SEASONSTART}}),	-- First Delve of the day (Season 1)
+		n(BOUNTIFUL, {	-- Bountiful Delve runs
+			q(82944),	-- Earthcrawl Mines
+			q(85187, {["timeline"]={ADDED_11_1_0}}),	-- Excavation Site 9
+			q(82939),	-- Fungal Folly
+			q(82941),	-- Kriegval's Rest
+			q(82940),	-- Mycomancer Cavern
+			q(82777),	-- Nightfall Sanctum
+			q(85668, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice
+			q(78508),	-- Skittering Breach
+			q(82776),	-- Tak-Rethan Abyss
+			q(82938),	-- The Dread Pit
+			q(82937),	-- The Sinkhole
+			q(82942),	-- The Spiral Weave
+			q(82943),	-- The Underkeep
+			q(82945),	-- The Waterworks
+			-- One time rep bonus from Bountiful Delves
+			q(83317),	-- Council of Dornogal
+			q(83318),	-- Assembly of the Deeps
+			q(83319),	-- Severed Threads
+			q(83320),	-- Hallowfall Arathi
+			q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Undermine Cartel
+		}),
+		n(DELVES_TWW_S1, {
+			--Delver's Journey Rewards
+			q(83158),	-- Adventurer's Warbound Battlegear Drop (spellID 453929)
+			q(83235),	-- Airship: Wings 05 - Lantern Wing (spellID 454473)
+			q(83236),	-- Airship: Top 03 - Zeppelin (spellID 454476)
+			q(83237),	-- Airship: Front 05 - Lantern (spellID 454475)
+			q(83238),	-- Airship: Body Color 01 - Brown (spellID 454478)
+			q(83239),	-- Airship: Back 02 - Multi-Exhaust (spellID 454474)
+			q(83157),	-- Discounted Restored Coffer Key (spellID 453934)
+			q(83180),	-- Hidden Stash from Deep Within (5k crystals)
+			q(83156),	-- Purchaseable Restored Coffer Key (spellID 453933)
+			q(83193),	-- Trusty Hat (spellID 454301)
+
+			q(82772, {["timeline"]={REMOVED_11_1_0_SEASONSTART}}),	-- First Delve of the day (Season 1)
+
+			-- Zekvir Invasion
+			q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
+			q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)
+			q(84818),	-- Zekvir pop in The Spiral Weave (2nd time in week, Tier 8)
+			q(84819),	-- Zekvir pop in Skittering Breach (2nd time in week, Tier 8), also in Nightfall Sanctum (unsure, Tier 3)
+		}),
+		n(DELVES_TWW_S2, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
+			n(QUESTS, {
+				q(86329),	-- Delver's Cosmetic Surprise Bag (itemID 233281)
+				q(86328),	-- Delver's Starter Kit (itemID 233276)
+			}),
+			--Delver's Journey Rewards
+			q(85204),	-- Delver's Dirigible Schematic: Flamethrower (spellID 467083)
+			q(85203),	-- Delver's Dirigible Schematic: Pipes (spellID 467082)
+			q(85202),	-- Delver's Dirigible Schematic: Harpoon (spellID 467081)
+			q(85201),	-- Delver's Dirigible Schematic: Baloon (spellID 467080)
+			q(85207),	-- Purchaseable Restored Coffer Keys (spellID 467093)
+			q(85200),	-- Delver's Dirigible Schematic: Green Paint (spellID 467076)
+			q(85210),	-- Delve-O-Bot 7001 (spellID 467097)
+			q(85206),	-- Warbound Equipment Set (spellID 467089)
+			q(85205),	-- Discounted Restored Coffer Key (spellID 467087)
+			--q(86878),	-- Where We Thrive (camp site) (spellID 1217505?)
+
+			q(86371),	-- Delver's Bounty weekly lockout (source doesn't matter)
+			-- Underpin Invasion
+			q(87287),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
+			q(87286),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
+		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
-		q(86329, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Cosmetic Surprise Bag (itemID 233281)
-		q(86328, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Starter Kit (itemID 233276)
-		q(86371, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Bounty weekly lockout (source doesn't matter)
-		--q(86438, {["timeline"]={ADDED_11_1_0}}),	-- when open up nemesis strongbox (first purple on account) in Excavation Site 9 - Tier 10
-		-- Bountiful Delve runs
-		q(82944),	-- Earthcrawl Mines
-		q(85187, {["timeline"]={ADDED_11_1_0}}),	-- Excavation Site 9
-		q(82939),	-- Fungal Folly
-		q(82941),	-- Kriegval's Rest
-		q(82940),	-- Mycomancer Cavern
-		q(82777),	-- Nightfall Sanctum
-		q(85668, {["timeline"]={ADDED_11_1_0}}),	-- Sidestreet Sluice
-		q(78508),	-- Skittering Breach
-		q(82776),	-- Tak-Rethan Abyss
-		q(82938),	-- The Dread Pit
-		q(82937),	-- The Sinkhole
-		q(82942),	-- The Spiral Weave
-		q(82943),	-- The Underkeep
-		q(82945),	-- The Waterworks
-		-- One time rep bonus from Bountiful Delves
-		q(83317),	-- Council of Dornogal
-		q(83318),	-- Assembly of the Deeps
-		q(83319),	-- Severed Threads
-		q(83320),	-- Hallowfall Arathi
-		q(87407, {["timeline"]={ADDED_11_1_0}}),	-- Undermine Cartel
+
+		--q(86438, {["timeline"]={ADDED_11_1_0}}),	-- when open up nemesis strongbox (first purple on account)
+
 		-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
 		q(84736, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st
 		q(84737, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 2nd
 		q(84738, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 3rd
 		q(84739, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 4th
-		-- Restored Coffer Key (from vendor, weekly?, account wide - locked for other characters after you buy them once) (automated)
-		-- q(85752),	-- itemID 232493 (Restored Coffer Key)
-		-- q(85751),	-- itemID 232494 (Restored Coffer Key)
-		-- q(85750),	-- itemID 232495 (Restored Coffer Key)
-		-- q(85743),	-- itemID 232496 (Restored Coffer Key)
-		-- q(85746),	-- itemID 232497 (Restored Coffer Key)
-		-- q(85747),	-- itemID 232498 (Restored Coffer Key)
-		-- Season 1 Rewards
-		q(83158),	-- Adventurer's Warbound Battlegear Drop (spellID 453929)
-		q(83235),	-- Airship: Wings 05 - Lantern Wing (spellID 454473)
-		q(83236),	-- Airship: Top 03 - Zeppelin (spellID 454476)
-		q(83237),	-- Airship: Front 05 - Lantern (spellID 454475)
-		q(83238),	-- Airship: Body Color 01 - Brown (spellID 454478)
-		q(83239),	-- Airship: Back 02 - Multi-Exhaust (spellID 454474)
-		q(83157),	-- Discounted Restored Coffer Key (spellID 453934)
-		q(83180),	-- Hidden Stash from Deep Within (5k crystals)
-		q(83156),	-- Purchaseable Restored Coffer Key (spellID 453933)
-		q(83193),	-- Trusty Hat (spellID 454301)
-		-- Season 2 - Adventure Journal Rewards
-		q(85204, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Flamethrower (spellID 467083)
-		q(85203, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Pipes (spellID 467082)
-		q(85202, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Harpoon (spellID 467081)
-		q(85201, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Baloon (spellID 467080)
-		q(85207, {["timeline"]={ADDED_11_1_0}}),	-- Purchaseable Restored Coffer Keys (spellID 467093)
-		q(85200, {["timeline"]={ADDED_11_1_0}}),	-- Delver's Dirigible Schematic: Green Paint (spellID 467076)
-		q(85210, {["timeline"]={ADDED_11_1_0}}),	-- Delve-O-Bot 7001 (spellID 467097)
-		q(85206, {["timeline"]={ADDED_11_1_0}}),	-- Warbound Equipment Set (spellID 467089)
-		q(85205, {["timeline"]={ADDED_11_1_0}}),	-- Discounted Restored Coffer Key (spellID 467087)
-		--q(86878, {["timeline"]={ADDED_11_1_0}}),	-- Where We Thrive (camp site) (spellID 1217505?)
-		-- Season 2 - Restored Keys (unsure if it will be automated or not)
-		--q(86402, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 1 (spellID 467087) (itemID 233555?)
-		--q(86403, {["timeline"]={ADDED_11_1_0}}),	-- Delves - Purchaseable Rare Delve Key - 2 (spellID 1217225) (itemID 235531?)
-		-- Season 2 - Underpin
-		q(87287, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
-		q(87286, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
-		-- Zekvir
-		q(84816),	-- Zekvir pop in Earthcrawl Mines (first time, unsure what tier it was)
-		q(84817),	-- Zekvir pop in Mycomancer Cavern (unsure, Tier 9)
-		q(84818),	-- Zekvir pop in The Spiral Weave (2nd time in week, Tier 8)
-		q(84819),	-- Zekvir pop in Skittering Breach (2nd time in week, Tier 8), also in Nightfall Sanctum (unsure, Tier 3)
+
+		-- Zekvir Delve
 		q(85757),	-- Triggered when looting second chest after defeating Zekvir solo on ? difficulty, also triggered on looting first bountiful heavy trunk in The Underkeep
 		q(86324),	-- First weekly Zekvir kill (also triggered off looting second Zekvir cache)
 		q(86157),	-- Killed Zekvir (?) as a duo with someone who'd never killed him before
-		q(86325),	-- Looting first Zekvir cache from above kill
+		q(86325),	-- Looting first Zekvir cache from above kil
+
+		-- Underpin Delve
+		--q(86407, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Killed Underpin?
+		--q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Killed Underpin?
 	}),
 })));

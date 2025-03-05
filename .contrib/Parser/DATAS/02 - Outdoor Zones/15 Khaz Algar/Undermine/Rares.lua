@@ -94,12 +94,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(231012, {	-- Candy Stickemup
 				["coord"] = { 42.2, 76.7, UNDERMINE },
 				["questID"] = 84927,	-- Candy Stickemup
+				["isWeekly"] = true,
 				["g"] = {
 					i(235347),	-- 100% Sharp Glimmerblade
 					i(235348),	-- Back Alley Shank
 					i(234218),	-- Goo-blin Grenade
 					i(235304),	-- Gutter Rat Mask
 					i(235310),	-- Flashy Patchwork Trousers
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				},
 			}),
 			n(230828, {	-- Chief Foreman Gutso
@@ -109,6 +111,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235357),	-- Bulletscar Barricade
 					i(235300),	-- Cloak of Mecha Shards
+					i(235351),	-- Hypersteel CX4 Greatsword
 					i(235311),	-- Rocket-Powered Shoulderguards
 				},
 			}),
@@ -154,16 +157,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["description"] = "Can be summoned by anyone who has a contract with the Steamwheedle Cartel.",
 				["coord"] = { 32.0, 76.5, UNDERMINE },
 				["questID"] = 86307,
+				["isWeekly"] = true,
 				["g"] = {
 					i(235824),	-- Flame Sputterer
 					i(235310),	-- Flashy Patchwork Trousers
 					i(235327),	-- Mend-and-Match Shoulderpads
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 					i(235823),	-- Scrap-Plated Pants
 				},
 			}),
 			n(231017, {	-- Grimewick
 				["coord"] = { 67.5, 33.5, UNDERMINE },
 				["questID"] = 84928,
+				["isWeekly"] = true,
 				["g"] = {
 					i(235323),	-- Blastshell Bracers
 					i(235303),	-- Seafused Brimstone Band
@@ -174,15 +180,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["description"] = "Can be summoned by anyone who has a contract with the Bilgewater Cartel.",
 				["coord"] = { 36.7, 26.3, UNDERMINE },
 				["questID"] = 86298,
+				["isWeekly"] = true,
 				["g"] = {
 					i(235835),	-- Braided Wire Wrap
 					i(235300),	-- Cloak of Mecha Shards
+					i(235351),	-- Hypersteel CX4 Greatsword
 					i(235836),	-- Gas-Powered Chainblade
 				},
 			}),
 			n(230995, {	-- Nitro
 				["coord"] = { 47.0, 55.7, UNDERMINE },
 				["questID"] = 84926,	-- Nitro
+				["isWeekly"] = true,
 				["g"] = {
 					i(235318),	-- Ironfang Plate Legguards
 					i(235325),	-- Rusthide Gloves
@@ -196,6 +205,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 				["coord"] = { 25.3, 36.7, UNDERMINE },
 				["questID"] = 84918,	-- Court of Rats
+				["isWeekly"] = true,
 				["g"] = {
 					i(235308),	-- Filthtread Boots
 					i(235359),	-- Ratfang Toxin
@@ -206,8 +216,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230979, {	-- S.A.L.
 				["coord"] = { 41.8, 25.3, UNDERMINE },
 				["questID"] = 84922,
+				["isWeekly"] = true,
 				["g"] = {
 					i(235300),	-- Cloak of Mecha Shards
+					i(235351),	-- Hypersteel CX4 Greatsword
 					i(235322),	-- Junkyard Clawguards
 					i(235315),	-- Rocketstep Boots
 					i(235356),	-- Sapper's Spark Reactor
@@ -216,6 +228,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230931, {	-- Scrapbeak
 				["coord"] = { 68.6, 81.2, UNDERMINE },
 				["questID"] = 84917,	-- Scrapbeak
+				["isWeekly"] = true,
 				["g"] = {
 					i(235301),	-- Drape of the Dazzling Feather
 					i(235321),	-- Feather-Spike Girdle
@@ -226,6 +239,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["description"] = "Can be summoned by anyone who has a contract with the Venture Co.",
 				["coord"] = { 56.8, 79, UNDERMINE },
 				["questID"] = 85778,
+				["isWeekly"] = true,
 				["g"] = {
 					i(235831),	-- Battery-Powered Longshank
 					i(235830),	-- Unstable Missilecaps
@@ -243,6 +257,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235310),	-- Flashy Patchwork Trousers
 					i(235327),	-- Mend-and-Match Shoulderpads
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 					i(235349),	-- Shadowfume Club
 					i(235363),	-- Suspicious Energy Drink
 				},
@@ -262,8 +277,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230940, {	-- Tally Doublespeak
 				["coord"] = { 36.2, 43.3, UNDERMINE },
 				["questID"] = 84919,	-- Tally Doublespeak
+				["isWeekly"] = true,
 				["g"] = {
 					i(235328),	-- Boots of the Silver Tongue
+					i(235310),	-- Flashy Patchwork Trousers
 					i(234218),	-- Goo-blin Grenade
 					i(235355),	-- Gossi-blin's Baton
 					i(235327),	-- Mend-and-Match Shoulderpads
@@ -284,21 +301,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(230951, {	-- Thwack
 				["coord"] = { 54.1, 50.3, UNDERMINE },
 				["questID"] = 84921,	-- Thwack
+				["isWeekly"] = true,
 				["g"] = {
 					i(235317),	-- Chestplate of the Ultimatum
 					i(235353),	-- Debtsmasher Axe
+					i(235310),	-- Flashy Patchwork Trousers
 					i(235327),	-- Mend-and-Match Shoulderpads
-					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots (TODO: 3rd source, are Blizzard okay/)
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				},
 			}),
 			n(230946, {	-- V.V. Goosworth
 				["crs"] = { 230947 },	-- Slimesby
 				["coord"] = { 36.9, 78.2, UNDERMINE },
 				["questID"] = 84920,
+				["isWeekly"] = true,
 				["g"] = {
 					i(235329),	-- Cowl of Acidic Mire
+					i(235310),	-- Flashy Patchwork Trousers
 					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235306),	-- Ooze-fused Mantle
+					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				},
 			}),
 			n(233472, {	-- Voltstrike the Charged

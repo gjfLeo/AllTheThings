@@ -91,7 +91,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							--i(233267),	-- Laundered Cuffs
 							i(233262),	-- Laundered Handwraps
 							i(233264),	-- Laundered Leggings
-							--i(233261),	-- Laundered Sandals
+							i(233261),	-- Laundered Sandals
 							--i(233265),	-- Laundered Shoulderpads
 							--i(233260),	-- Laundered Vestment
 						}),

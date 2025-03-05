@@ -403,7 +403,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			n(FACTIONS, {
 				faction(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
 					n(235621, {	-- Ando the Gat <Black Market Broker>
-						--["coord"] = { X, Y, UNDERMINE },
 						["g"] = bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
 							{		-- RENOWN 1 --
 							}, {	-- RENOWN 2 --
@@ -435,6 +434,15 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 								title(602),			-- High Roller <Name>
 							},
 						}),
+					}),
+				}),
+				n(QUESTS, {
+					q(89016, {	-- Members Only
+						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
+					}),
+					q(89027, {	-- Fast Food
+						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
+						["minReputation"] = { FACTION_GLRC, 2 },
 					}),
 				}),
 			}),
@@ -635,9 +643,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}),
 				}),
 			}),
-			n(QUESTS, {
-				q(89016),	-- Members Only
-			}),
 			n(VENDORS, {
 				--[[ add new vendor also to all the curios
 				--Raid vendor gear for curio
@@ -658,14 +663,25 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 	inst(1296, {	-- Liberation of Undermine
+		n(FACTIONS, {
+			header(HEADERS.Faction, FACTION_GLRC, {
+				n(QUESTS, {
+					q(86468),	-- Triggered with Members Only (89016)
+					q(89017),	-- Triggered with Members Only (89016)
+				}),
+			}),
+		}),
 		--q(88835),	-- Holograms activated before Cauldron of Carnage ?
 		--q(88838),	-- Trash before Cauldron of Carnage
 		--q(88842),	-- Trash before Cauldron of Carnage
 		--q(89478),	-- Trash before Cauldron of Carnage
+		--q(88836),	-- Trash before Cauldron of Carnage on heroic?
+		--q(88837),	-- Trash before Cauldron of Carnage on heroic?
+		--q(88841),	-- Trash before Cauldron of Carnage on heroic?
 		--q(88846), -- Rep rewards prior to Rik Reverb?
 		--q(89479),	-- Rep rewards prior to Rik Reverb?
-		--q(86468),	-- Triggered with Members Only (89016)
-		--q(89017),	-- Triggered with Members Only (89016)
+					-- Popped before Rik
+		--q(88848),	-- Popped before Rik
 		--q(88852),	-- Trash before One-Armed Bandit?
 		--q(89480),	-- Trash before One-Armed Bandit?
 		--q(88856),	-- Trash before Gallywix?
@@ -674,6 +690,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		-- LFR/Normal
 		q(89453),	-- Cauldron of Carnage
 		q(89454),	-- Rik Reverb
+		q(89455),	-- Stix Bunkjunker
+		q(89456),	-- Sprocketmonger Lockenstock
 		q(89457),	-- One-Armed Bandit
 		q(89458),	-- Mug'Zee
 		q(89459),	-- Chrome King Gallywix
