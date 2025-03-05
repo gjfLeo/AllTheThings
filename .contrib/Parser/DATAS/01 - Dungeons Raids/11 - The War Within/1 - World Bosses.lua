@@ -96,7 +96,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					{"select","encounterID",2636,},{"pop"},	-- Original WB
 				},
 			}),
-			e(3128,	-- The Gobfather
+			e(2683,	-- The Gobfather
 			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 				["crs"] = { 231821 },	-- The Gobfather <Demodome Champion>
 				["coord"] = { 58.9, 11.2, UNDERMINE },
