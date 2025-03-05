@@ -29,6 +29,9 @@ local PROTOCOL_MAPS = {
 	324,	-- The Stonecore
 	322, 323,	-- Throne of the Tides
 	325,	-- The Vortex Pinnacle
+	401, 402, 403, 404, 405, 406,	-- End Time
+	399, 400,	-- Hour of Twilight
+	398,	-- Well of Eternity
 }
 local PROTOCOL_BOSSES = {
 	-- Blackrock Caverns
@@ -83,6 +86,20 @@ local PROTOCOL_BOSSES = {
 	40765,	-- Commander Ulthok
 	40788,	-- Mindbender Ghur'sha
 	44566,	-- Ozumat
+	-- End Time
+	54431,	-- Echo of Baine
+	54445,	-- Echo of Jaina
+	54123,	-- Echo of Sylvannas
+	54544,	-- Echo of Tyrande
+	54432,	-- Murozond
+	-- Hour of Twilight
+	54590,	-- Arcurion
+	54968,	-- Asira Dawnslayer
+	54938,	-- Archbishop Benedictus
+	-- Well of Eternity
+	55085,	-- Peroth'arn
+	54853,	-- Queen Azshara
+	54969,	-- Mannoroth
 }
 local PROTOCOL_LAST_BOSSES = {
 	-- Blackrock Caverns
@@ -103,30 +120,30 @@ local PROTOCOL_LAST_BOSSES = {
 	43875,	-- Asaad, Caliph of Zephyrs
 	-- Throne of the Tides
 	44566,	-- Ozumat
+	-- End Time
+	54432,	-- Murozond
+	-- Hour of Twilight
+	54938,	-- Archbishop Benedictus
+	-- Well of Eternity
+	54969,	-- Mannoroth
+}
+local HOUR_OF_TWILIGHT_DUNGEON_MAPS = {
+	401, 402, 403, 404, 405, 406,	-- End Time
+	399, 400,	-- Hour of Twilight
+	398,	-- Well of Eternity
+}
+local HOUR_OF_TWILIGHT_DUNGEON_LAST_BOSSES = {
+	-- End Time
+	54432,	-- Murozond
+	-- Hour of Twilight
+	54938,	-- Archbishop Benedictus
+	-- Well of Eternity
+	54969,	-- Mannoroth
 }
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 	n(PROTOCOL_TWILIGHT, bubbleDownSelf({ ["timeline"] = { ADDED_4_3_0 } }, {
 		["lvl"] = 85,
 		["groups"] = {
-			n(ACHIEVEMENTS, {
-				--[[
-				-- CRIEVE TODO: Get the Protocol Twilight achievement data
-				ach(, {	-- Protocol Twilight: Terminated
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						,	-- Protocol Twilight: Deadmines
-						,	-- Protocol Twilight: Shadowfang Keep
-						,	-- Protocol Twilight: Blackrock Caverns
-						,	-- Protocol Twilight: Grim Batol
-						,	-- Protocol Twilight: Halls of Origination
-						,	-- Protocol Twilight: Lost City of the Tol'vir
-						,	-- Protocol Twilight: The Stonecore
-						,	-- Protocol Twilight: The Vortex Pinnacle
-						,	-- Protocol Twilight: Throne of the Tides
-					}},
-				}),
-				]]--
-			}),
 			n(COMMON_BOSS_DROPS, {
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
 					1224923	-- Twilight's Madness
@@ -150,27 +167,108 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					i(78872),	-- Leggings of the Corrupted Conqueror
 					i(78873),	-- Leggings of the Corrupted Protector
 					i(78871),	-- Leggings of the Corrupted Vanquisher
+				},
+			}),
+			n(DROPS, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
+					1224923	-- Twilight's Madness
+				),
+				["description"] = "The following can drop from specific final bosses in heroic dungeons on Protocol Twilight difficulty or from the new End Time, Hour of Twilight, or Well of Eternity heroic dungeons.",
+				["maps"] = HOUR_OF_TWILIGHT_DUNGEON_MAPS,	-- End Time, Hour of Twilight, Well of Eternity
+				["crs"] = HOUR_OF_TWILIGHT_DUNGEON_LAST_BOSSES,
+				["groups"] = {
 					-- Weapons
-					i(78482),	-- Kiril, Fury of Beasts
-					i(78487),	-- Gurthalak, Voice of the Deeps
-					i(78486),	-- Ti'tahk, the Steps of Time
-					i(78480),	-- Vishanka, Jaws of the Earth
-					i(78485),	-- Maw of the Dragonlord
-					i(78484),	-- Rathrak, the Poisonous Mind
-					i(78483),	-- Blade of the Unmaker
-					i(78481),	-- No'Kaled, the Elements of Death
-					i(78488),	-- Souldrinker
+					i(78482, {	-- Kiril, Fury of Beasts
+						["maps"] = { 283, 284 },	-- Blackrock Caverns
+						["crs"] = { 39705 },	-- Ascendent Lord Obsidius
+					}),
+					i(78487, {	-- Gurthalak, Voice of the Deeps
+						["maps"] = { 324 },	-- The Stonecore
+						["crs"] = { 42333 },	-- High Priestess Azil
+					}),
+					i(78486, {	-- Ti'tahk, the Steps of Time
+						["maps"] = { 322, 323 },	-- Throne of the Tides
+						["crs"] = { 44566 },	-- Ozumat
+					}),
+					i(78480, {	-- Vishanka, Jaws of the Earth
+						["maps"] = { 297, 298, 299 },	-- Halls of Origination
+						["crs"] = { 39378 },	-- Rajh, Construct of Sun
+					}),
+					i(78485, {	-- Maw of the Dragonlord
+						["maps"] = { 325 },	-- The Vortex Pinnacle
+						["crs"] = { 43875 },	-- Asaad, Caliph of Zephyrs
+					}),
+					i(78484, {	-- Rathrak, the Poisonous Mind
+						["maps"] = { 293 },	-- Grim Batol
+						["crs"] = { 40484 },	-- Erudax
+					}),
+					i(78483, {	-- Blade of the Unmaker
+						["maps"] = { DEADMINES, 292 },	-- Deadmines
+						["crs"] = { 49541 },	-- Vanessa VanCleef
+					}),
+					i(78481, {	-- No'Kaled, the Elements of Death
+						["maps"] = { 277 },	-- Lost City of the Tol'vir
+						["crs"] = { 44819 },	-- Siamat
+					}),
+					i(78488, {	-- Souldrinker
+						["maps"] = {	-- Shadowfang Keep
+							SHADOWFANG_KEEP,
+							SHADOWFANG_KEEP_LEVEL2,
+							SHADOWFANG_KEEP_LEVEL3,
+							SHADOWFANG_KEEP_LEVEL4,
+							SHADOWFANG_KEEP_LEVEL5,
+							SHADOWFANG_KEEP_LEVEL6,
+							SHADOWFANG_KEEP_LEVEL7,
+						},
+						["crs"] = { 46964 },	-- Lord Godfrey
+					}),
 					-- Necks
-					i(78382),	-- Petrified Fungal Heart
+					i(78382, {	-- Petrified Fungal Heart
+						["maps"] = { 277 },	-- Lost City of the Tol'vir
+						["crs"] = { 44819 },	-- Siamat
+					}),
 					-- Rings
-					i(78497),	-- Breathstealer Band
-					i(78440),	-- Curled Twilight Claw
-					i(78498),	-- Hardheart Ring
-					i(78495),	-- Infinite Loop
-					i(78427),	-- Ring of the Raven
-					i(78494),	-- Seal of Primordial Shadow
-					i(78421),	-- Signet of Grasping Mouths
-					i(78496),	-- Signet of Suturing
+					i(78440, {	-- Curled Twilight Claw
+						["maps"] = { DEADMINES, 292 },	-- Deadmines
+						["crs"] = { 49541 },	-- Vanessa VanCleef
+					}),
+					i(78427, {	-- Ring of the Raven
+						["maps"] = { 324 },	-- The Stonecore
+						["crs"] = { 42333 },	-- High Priestess Azil
+					}),
+					i(78421, {	-- Signet of Grasping Mouths
+						["maps"] = {	-- Shadowfang Keep
+							SHADOWFANG_KEEP,
+							SHADOWFANG_KEEP_LEVEL2,
+							SHADOWFANG_KEEP_LEVEL3,
+							SHADOWFANG_KEEP_LEVEL4,
+							SHADOWFANG_KEEP_LEVEL5,
+							SHADOWFANG_KEEP_LEVEL6,
+							SHADOWFANG_KEEP_LEVEL7,
+						},
+						["crs"] = { 46964 },	-- Lord Godfrey
+					}),
+					-- Trinkets
+					i(77977, {	-- Eye of Unmaking
+						["maps"] = { 322, 323 },	-- Throne of the Tides
+						["crs"] = { 44566 },	-- Ozumat
+					}),
+					i(77976, {	-- Heart of Unliving
+						["maps"] = { 297, 298, 299 },	-- Halls of Origination
+						["crs"] = { 39378 },	-- Rajh, Construct of Sun
+					}),
+					i(77978, {	-- Resolve of Undying
+						["maps"] = { 293 },	-- Grim Batol
+						["crs"] = { 40484 },	-- Erudax
+					}),
+					i(77975, {	-- Will of Unbinding
+						["maps"] = { 283, 284 },	-- Blackrock Caverns
+						["crs"] = { 39705 },	-- Ascendent Lord Obsidius
+					}),
+					i(77974, {	-- Wrath of Unchaining
+						["maps"] = { 325 },	-- The Vortex Pinnacle
+						["crs"] = { 43875 },	-- Asaad, Caliph of Zephyrs
+					}),
 				},
 			}),
 			n(REWARDS, {
