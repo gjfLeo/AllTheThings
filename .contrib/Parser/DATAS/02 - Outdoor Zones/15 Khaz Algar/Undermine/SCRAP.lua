@@ -9,16 +9,20 @@ local SCRAP = createHeader({
 		en = "S.C.R.A.P.",
 	},
 });
+local function FromSCRAP(t)
+	t.crs = { 234348 }	-- S.C.R.A.P. Heap
+	return t
+end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(SCRAP, {
-			n(ACHIEVEMENTS, {
+			FromSCRAP(n(ACHIEVEMENTS, {
 				ach(41590),	-- No Littering
 				ach(41591),	-- Really No Littering
 				ach(41592),	-- Absolutely Zero Littering
 				ach(41593),	-- Cleanin' the Streets
-			}),
-			n(TREASURES, sharedData({ ["repeatable"] = true, }, {
+			})),
+			FromSCRAP(n(TREASURES, sharedData({ ["repeatable"] = true, }, {
 				-- 0-299 score
 				o(516166, {	-- Dented Crate (Blackwater Marina)
 					["coord"] = { 67.4, 29.3, UNDERMINE },
@@ -77,7 +81,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["coord"] = { 50.6, 63.7, UNDERMINE },
 					["questID"] = 86265,
 				}),
-			})),
+			}))),
 			n(QUESTS, {
 				q(85879, {	-- Reduce, Reuse, Resell
 					["sourceQuests"] = { 86934 },	-- Trash to Profit
@@ -92,7 +96,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["isWeekly"] = true,
 				}),
 			}),
-			n(RARES, {
+			FromSCRAP(n(RARES, {
 				n(234621, {	-- Gallagio Garbage <Luxury Trash>
 					["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar to 500 during a S.C.R.A.P. Job event in Undermine.",
 					["questID"] = 87007,
@@ -108,8 +112,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(229953),	-- Salvaged Goblin Gazillionaire's Flying Machine (MOUNT!)
 					},
 				}),
-			}),
-			n(REWARDS, {
+			})),
+			FromSCRAP(n(REWARDS, {
 				currency(3218),	-- Empty Kaja'Cola Can
 				currency(3220, {	-- Vintage Kaja'Cola Can
 					["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 14 }
@@ -131,7 +135,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["description"] = "Requires the 'Scrappy S.C.R.A.P.per III' perk unlocked by reaching Renown 11 with The Cartels of Undermine.\n\nThen you have a chance to loot them from the progress-based reward containers that will appear for participating players when the 2-minute timer of their actual S.C.R.A.P. job ends.",
 					["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 11 },
 				}),
-			}),
+			})),
 			n(VENDORS, {
 				n(234776, {	-- Angelo Rustbin <S.C.R.A.P. Exchange>
 					["coord"] = { 25.8, 38.1, UNDERMINE },
