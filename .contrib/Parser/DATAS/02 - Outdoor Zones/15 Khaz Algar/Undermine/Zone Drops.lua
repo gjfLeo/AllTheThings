@@ -4,6 +4,7 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(ZONE_DROPS, {
+			currency(3226), 	-- Market Research
 			-- TODO: idk where to place it better here or in rewards?
 			i(232984, {	-- Handcrank (MM!)
 				["cost"] = {

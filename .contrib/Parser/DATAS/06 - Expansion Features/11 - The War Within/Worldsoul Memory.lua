@@ -33,10 +33,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				}),
 				ach(40251),	-- Many Echoes
 				ach(40250),	-- The First Echo
-				ach(41214, {
+				ach(41214, {	-- Under the Echoes
 					["maps"] = { UNDERMINE },
 					["timeline"] = { ADDED_11_1_0_SEASONSTART },
-				}),	-- Under the Echoes
+				}),
 			}),
 			n(QUESTS, {
 				q(84542, {	-- A Radiant Echo

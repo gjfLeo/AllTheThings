@@ -1274,6 +1274,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(232843),	-- Gorillion (PET!)
 				},
 			}),
+			-- Darkfuse Unlock
+			q(86961, {	-- Diversified Investments
+				["sourceQuest"] = 86204,	-- Liberation of Undermine: The House Loses
+				["provider"] = { "o", 509486 },	-- Overly-Sealed Letter
+				["coord"] = { 43.3, 51.5, UNDERMINE },
+			}),
 			-- TODO: need to find a better place for it?
 			-- Weekly Rep stuff
 			q(85869, {	-- Many Jobs, Handle It!

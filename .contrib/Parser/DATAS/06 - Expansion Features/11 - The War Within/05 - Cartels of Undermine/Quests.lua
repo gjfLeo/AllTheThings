@@ -184,7 +184,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				header(HEADERS.Faction, FACTION_DARKFUSE_SOLUTIONS, {
 					q(85808, {	-- Exalted with Darkfuse Solutions (Paragon)
 						["provider"] = { "n", 231396 },	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
-					--	["coord"] = { 63.2, 17.2, UNDERMINE },
+						["coord"] = { 30.8, 38.2, UNDERMINE },
 						["isRepeatable"] = true,
 						["g"] = {
 							i(232465, {	-- Darkfuse Trove (Paragon)

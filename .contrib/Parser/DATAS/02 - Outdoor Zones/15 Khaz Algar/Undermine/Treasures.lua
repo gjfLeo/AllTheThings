@@ -9,6 +9,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(469858, {	-- Shiny Trash Can
 						-- entire map, basically
 						-- trash items, crystals, valorstones
+						currency(3226), 	-- Market Research
 					}),
 				},
 			}),

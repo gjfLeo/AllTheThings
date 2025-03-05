@@ -31,6 +31,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					233472,	-- Volstrike the Charged
 				},
 				["g"] = {
+					currency(3226, {	-- Market Research
+						["description"] = "Drops from rares, S.C.R.A.P. chests, and rarely as a zone drop.",
+						["sourceQuest"] = 86961,	-- Diversified Investments
+					}),
 					i(234415),	-- Handcrank Casing
 					i(234386),	-- Handcrank Fuel Injector
 					i(234381),	-- Handcrank Fuel Tank
@@ -116,9 +120,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(231310, {	-- Darkfuse Precipitant
-				["description"] = "Requires someone with Renown 6 with the Cartels of Undermine and in possession of a 'Canister of Darkfuse Solution' to talk to the De-Pollution Station X1119 NPC to start an event to spawn it.",
+				["description"] = "Requires someone with Renown 6 with the Cartels of Undermine and in possession of a 'Canister of Darkfuse Solution' to interact with the De-Pollution Station X1119 to start an event to spawn it.",
 				["crs"] = {	231329 },	-- De-Pollution Station X1119
-				-- ToDO: Find the Source for Darkfuse Solutions
 				["cost"] = {{"i", 229823, 1}},	-- Canister of Darkfuse Solution
 				["coord"] = { 41.2, 91.4, UNDERMINE },
 			--	["questID"] = 84877,

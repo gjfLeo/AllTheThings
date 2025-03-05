@@ -114,6 +114,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 			})),
 			FromSCRAP(n(REWARDS, {
+				n(EVENT_COMPLETION, {	-- Can drop from the reward chests but would be obtuse to list under each one.
+					currency(3226),	-- Market Research
+				}),
 				currency(3218),	-- Empty Kaja'Cola Can
 				currency(3220, {	-- Vintage Kaja'Cola Can
 					["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 14 }
@@ -164,9 +167,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						}),
 						i(233558, {	-- S.C.R.A.P. Scrubber Deluxe
 							["cost"] = {{ "i", 233246, 1 }},	-- Gunk-Covered Thingy
-							["g"] = {
-								-- TODO: sym with zome rewards or shipping&handling based on further reports
-							},
+							--["sym"] = {
+								--{"select", "headerID", SHIPPING_AND_HANDLING },    -- Select Shipping&Handling header TODO
+								--{"find", "headerID", ARMOR },        -- Armor Header (other rewards not yet confirmed)
+								--{"pop"},                                    -- Discard the Header and acquire all of the children.
+							--},
 						}),
 					},
 				}),

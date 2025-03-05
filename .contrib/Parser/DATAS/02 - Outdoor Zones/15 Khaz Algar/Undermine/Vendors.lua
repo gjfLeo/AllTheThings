@@ -256,7 +256,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 			}),
 			n(231396, {	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
-				["description"] = "Conditions to make this npc spawn are not yet known.",
+				["sourceQuest"] = 86961,	-- Diversified Investments
 				["coord"] = { 30.8, 38.2, UNDERMINE },
 				["g"] = bubbleDownClassicRep(FACTION_DARKFUSE_SOLUTIONS, {
 					{		-- Neutral

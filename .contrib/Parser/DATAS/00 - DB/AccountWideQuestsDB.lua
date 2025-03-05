@@ -1728,6 +1728,8 @@ ExportDB.AccountWideQuestsDB = {
 	[85718] = true,	-- A Shining Stone
 	[85757] = true,
 	[85781] = true,	-- GE86 Advance
+	[85783] = true,	-- Steamboil
+	[85784] = true,	-- Handcrank
 	[85806] = true,	-- Exalted with the Bilgewater Cartel (Paragon)
 	[85807] = true,	-- Exalted with the Blackwater Cartel (Paragon)
 	[85808] = true,	-- Exalted with Darkfuse Solutions (Paragon)
@@ -1754,6 +1756,7 @@ ExportDB.AccountWideQuestsDB = {
 	[86572] = true,	-- First Half of Noggenfogger's Journal
 	[86573] = true,	-- Gallywix's Notes
 	[86931] = true,	-- triggered after turn in of any of the pact weeklies?
+	[86961] = true,	-- Diversified Investments
 	[87284] = true,	-- A Radiant Echo
 	[87374] = true,	-- C.H.E.T.T.ing In
 	[87496] = true,	-- Benefit Packages
@@ -1772,5 +1775,6 @@ ExportDB.AccountWideQuestsDB = {
 	[89016] = true,	-- Members Only
 	[89017] = true,	-- Triggered with Members Only (89016)
 	[89027] = true,	-- Fast Food
+	[89401] = true,	-- First weekly Gobfather account kill for warbound loot
 	-- #ENDIF
 }
