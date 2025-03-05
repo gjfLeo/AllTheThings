@@ -3880,17 +3880,17 @@ end);
 end)();
 
 -- Item Information Lib
+local LIMIT_UPDATE_SEARCH_RESULTS = 10
 -- Dynamically increments the progress for the parent heirarchy of each collectible search result
 local function UpdateSearchResults(searchResults)
 	-- app.PrintDebug("UpdateSearchResults",searchResults and #searchResults)
 	if not searchResults or #searchResults == 0 then return end
-	local limit = 10
 	-- in extreme cases of tons of search results to update all at once, we will split up the updates to remove the apparent stutter
-	if #searchResults > limit then
+	if #searchResults > LIMIT_UPDATE_SEARCH_RESULTS then
 		local subresults = {}
 		for i,result in ipairs(searchResults) do
 			subresults[#subresults + 1] = result
-			if i % limit == 0 then
+			if i % LIMIT_UPDATE_SEARCH_RESULTS == 0 then
 				app.UpdateRunner.Run(UpdateSearchResults, subresults)
 				subresults = {}
 			end
