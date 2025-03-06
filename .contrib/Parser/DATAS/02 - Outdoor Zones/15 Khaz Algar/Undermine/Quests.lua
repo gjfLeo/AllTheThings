@@ -662,6 +662,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
 						--["coord"] = { xx, xx, UNDERMINE },
 					}),
+					o(508377, {	-- Renzik's Lockbox
+						["sourceQuest"] = 85190,	-- Settled Dust (Guess)
+						["coord"] = { 30.7, 86.1, WESTFALL },
+						["g"] = { i(237267) },	-- Spare Uncrowned Vest
+					}),
 				})),
 			}),
 			header(HEADERS.AchCriteria, 40894.01, {	-- The Highst

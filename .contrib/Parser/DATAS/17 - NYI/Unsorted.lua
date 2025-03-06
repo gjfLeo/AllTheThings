@@ -34,7 +34,6 @@ root(ROOTS.Unsorted, {
 				i(233347),	-- Power-Washed Greaves
 				i(233350),	-- Power-Washed Bracers
 				i(233544),	-- Descaled Breastplate
-				i(233545),	-- Descaled Sabatons
 				i(233546),	-- Descaled Gauntlets
 				i(233547),	-- Descaled Helm
 				i(233550),	-- Descaled Girdle
@@ -559,7 +558,6 @@ root(ROOTS.Unsorted, {
 			i(237257),	-- Banded Grassy War Legwraps
 			i(237259),	-- Kapow Kanapes
 			i(237260),	-- Glass of Daylight Dew
-			i(237267),	-- Spare Uncrowned Vest
 			i(237268),	-- How to Get Out of Parking Tickets More Than Once
 			i(237345),	-- Limited Edition Rocket Bobber
 			i(237346),	-- Artisan Beverage Goblet Bobber
