@@ -512,7 +512,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["coord"] = { 58.4, 33.1, UNDERMINE },
 						["g"] = {
 							o(482270, {	-- Blackwater Ordinance
-								i(228975),	-- Blackwater Cannonball (QI!)
+								["coords"] = {
+									{ 60.2, 23.0, UNDERMINE },
+									{ 61.7, 24.5, UNDERMINE },
+									{ 61.8, 24.3, UNDERMINE },
+									{ 61.9, 17.6, UNDERMINE },
+								},
+								["g"] = { i(228975) },	-- Blackwater Cannonball (QI!)
 							}),
 						},
 					}),
@@ -522,8 +528,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["coord"] = { 58.4, 33.2, UNDERMINE },
 						["g"] = {
 							i(226217),	-- Lime (QI!)
-							i(226203),	-- Sliced Lime (QI!)
-							o(480708),	-- Overpriced Tropical Punch
+							o(480708, {	-- Overpriced Tropical Punch
+								["coords"] = {
+									{ 58.0, 27.6, UNDERMINE },
+									{ 58.7, 26.2, UNDERMINE },
+									{ 59.9, 26.0, UNDERMINE },
+									{ 60.7, 20.2, UNDERMINE },
+									{ 60.7, 20.5, UNDERMINE },
+									{ 61.6, 17.4, UNDERMINE },
+									{ 61.7, 17.6, UNDERMINE },
+									{ 61.9, 20.1, UNDERMINE },
+									{ 64.9, 19.6, UNDERMINE },
+								},
+								["g"] = { i(226203) },	-- Sliced Lime (QI!)
+							}),
 						},
 					}),
 					q(83200, {	-- A Vast, Ye Swabs

@@ -70,15 +70,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(229947),	-- Violet Goblin Shredder (MOUNT!)
 					}),
 					filter(BATTLE_PETS, {
-						i(232852),	-- Mutt
-						i(232847),	-- Personal-Use Sapper
+						i(232852),	-- Mutt (PET!)
+						i(232847),	-- Personal-Use Sapper (PET!)
 					}),
 					filter(COSMETIC, {
 						i(231556),	-- Breakneck Cabbie's Coat
 					}),
 					n(ARMOR, {
 						["sym"] = {
-							{ "select","itemID",233558 },	-- -- S.C.R.A.P. Scrubber Deluxe
+							{ "select","itemID",233558 },	-- S.C.R.A.P. Scrubber Deluxe
 							{ "pop" },
 						},
 					}),

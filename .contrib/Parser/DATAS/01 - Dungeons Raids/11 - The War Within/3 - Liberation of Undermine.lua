@@ -671,16 +671,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				}),
 			}),
 		}),
-		--q(88835),	-- Holograms activated before Cauldron of Carnage ?
-		--q(88838),	-- Trash before Cauldron of Carnage
-		--q(88842),	-- Trash before Cauldron of Carnage
-		--q(89478),	-- Trash before Cauldron of Carnage
-		--q(88836),	-- Trash before Cauldron of Carnage on heroic?
-		--q(88837),	-- Trash before Cauldron of Carnage on heroic?
-		--q(88841),	-- Trash before Cauldron of Carnage on heroic?
-		--q(88846), -- Rep rewards prior to Rik Reverb?
-		--q(89479),	-- Rep rewards prior to Rik Reverb?
-					-- Popped before Rik
+
+
+		--q(88836),	-- Trash before Cauldron of Carnage on Heroic?
+		--q(88837),	-- Trash before Cauldron of Carnage on Heroic?
+		--q(88841),	-- Trash before Cauldron of Carnage on Heroic?
 		--q(88848),	-- Popped before Rik
 		--q(88852),	-- Trash before One-Armed Bandit?
 		--q(89480),	-- Trash before One-Armed Bandit?
@@ -688,6 +683,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		--q(89481),	-- Trash before Gallywix?
 
 		-- LFR/Normal
+		q(88835),	-- Holograms activated before Cauldron of Carnage
+		q(88838),	-- Trash before Cauldron of Carnage
+		q(88842),	-- Trash before Cauldron of Carnage
+		q(89478),	-- Trash before Cauldron of Carnage
+		q(88846), 	-- Trash before Rik Reverb
+		q(89479),	-- Trash before Rik Reverb
+
 		q(89453),	-- Cauldron of Carnage
 		q(89454),	-- Rik Reverb
 		q(89455),	-- Stix Bunkjunker
