@@ -2977,61 +2977,59 @@ local NPCExpandHeaders = app.HeaderData.FILLNPCS or app.EmptyTable
 local function DetermineNPCDrops(group, FillData)
 	if not FillData.NestNPCData or group.NestNPCDataSkip then return end
 	local npcID = GetNpcIDForDrops(group)
-	if npcID then
-		-- app.PrintDebug("NPC Group",group.hash,npcID)
-		-- search for groups of this NPC
-		local npcGroups = SearchForField("npcID", npcID);
-		if #npcGroups > 0 then
-			-- see if there's a difficulty wrapping the fill group
-			local difficultyID = GetRelativeValue(group, "difficultyID");
-			if difficultyID then
-				-- app.PrintDebug("FillNPC.Diff",group.hash,difficultyID)
-				-- can only fill npc groups for the npc which match the difficultyID
-				local headerID, groups, npcDiff;
-				for _,npcGroup in ipairs(npcGroups) do
-					if npcGroup.hash ~= group.hash then
-						headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
-						-- app.PrintDebug("DropCheck",npcGroup.hash,"=>",headerID)
-						-- where headerID is allowed and the nested difficultyID matches
-						if headerID then
-							npcDiff = GetRelativeValue(npcGroup, "difficultyID");
-							-- copy the header under the NPC groups
-							if not npcDiff or npcDiff == difficultyID then
-								-- wrap the npcGroup in the matching header if it is not a header
-								if not npcGroup.headerID then
-									npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
-								end
-								-- app.PrintDebug("IsDrop.Diff",difficultyID,group.hash,"<==",npcGroup.hash)
-								if groups then tinsert(groups, CreateObject(npcGroup))
-								else groups = { CreateObject(npcGroup) }; end
-							end
+	if not npcID then return end
+	-- app.PrintDebug("NPC Group",app:SearchLink(group),npcID)
+	-- search for groups of this NPC
+	local npcGroups = SearchForField("npcID", npcID);
+	if not npcGroups or #npcGroups == 0 then return end
+	-- see if there's a difficulty wrapping the fill group
+	local difficultyID = GetRelativeValue(group, "difficultyID");
+	if difficultyID then
+		-- app.PrintDebug("FillNPC.Diff",difficultyID)
+		-- can only fill npc groups for the npc which match the difficultyID
+		local headerID, groups, npcDiff;
+		for _,npcGroup in ipairs(npcGroups) do
+			if npcGroup.hash ~= group.hash then
+				headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
+				-- app.PrintDebug("DropCheck",app:SearchLink(npcGroup),"=>",headerID)
+				-- where headerID is allowed and the nested difficultyID matches
+				if headerID then
+					npcDiff = GetRelativeValue(npcGroup, "difficultyID");
+					-- copy the header under the NPC groups
+					if not npcDiff or npcDiff == difficultyID then
+						-- wrap the npcGroup in the matching header if it is not a header
+						if not npcGroup.headerID then
+							npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
 						end
+						-- app.PrintDebug("IsDrop.Diff",difficultyID,group.hash,"<==",npcGroup.hash)
+						if groups then tinsert(groups, CreateObject(npcGroup))
+						else groups = { CreateObject(npcGroup) }; end
 					end
 				end
-				return groups;
-			else
-				-- app.PrintDebug("FillNPC",group.hash)
-				local headerID, groups;
-				for _,npcGroup in ipairs(npcGroups) do
-					if npcGroup.hash ~= group.hash then
-						headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
-						-- app.PrintDebug("DropCheck",npcGroup.hash,"=>",headerID)
-						-- where headerID is allowed
-						if headerID then
-							-- copy the header under the NPC groups
-							-- wrap the npcGroup in the matching header if it is not a header
-							if not npcGroup.headerID then
-								npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
-							end
-							-- app.PrintDebug("IsDrop",group.hash,"<==",npcGroup.hash)
-							if groups then tinsert(groups, CreateObject(npcGroup))
-							else groups = { CreateObject(npcGroup) }; end
-						end
-					end
-				end
-				return groups;
 			end
 		end
+		return groups;
+	else
+		-- app.PrintDebug("FillNPC")
+		local headerID, groups;
+		for _,npcGroup in ipairs(npcGroups) do
+			if npcGroup.hash ~= group.hash then
+				headerID = GetRelativeFieldInSet(npcGroup, "headerID", NPCExpandHeaders);
+				-- app.PrintDebug("DropCheck",app:SearchLink(npcGroup),"=>",headerID)
+				-- where headerID is allowed
+				if headerID then
+					-- copy the header under the NPC groups
+					-- wrap the npcGroup in the matching header if it is not a header
+					if not npcGroup.headerID then
+						npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
+					end
+					-- app.PrintDebug("IsDrop",group.hash,"<==",npcGroup.hash)
+					if groups then tinsert(groups, CreateObject(npcGroup))
+					else groups = { CreateObject(npcGroup) }; end
+				end
+			end
+		end
+		return groups;
 	end
 end
 local function SkipFillingGroup(group, FillData)
