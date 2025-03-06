@@ -578,31 +578,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(23824),	-- Rocket Boots Xtreme
 			i(35581, {["timeline"] = {ADDED_2_4_0}}),	-- Rocket Boots Xtreme Lite
 			i(23768),	-- White Smoke Flare
-			i(23821, {	-- Zapthrottle Mote Extractor
-				spell(30427, {	-- Extract Gas (Zapthrottle Mote Extractor)
-					["description"] = "Use your crafted Zapthrottle Mote Extractor near a gas cloud.",
-					["groups"] = {
-						-- #if BEFORE 2.3.0
-						m(ZANGARMARSH, {
-							i(21886),	-- Primal Life
-						}),
-						-- #else
-						m(NAGRAND, {
-							i(22451),	-- Primal Air
-						}),
-						m(ZANGARMARSH, {
-							i(21885),	-- Primal Water
-						}),
-						-- #endif
-						m(NETHERSTORM, {
-							i(22457),	-- Primal Mana
-						}),
-						m(SHADOWMOON_VALLEY, {
-							i(22456),	-- Primal Shadow
-						}),
-					},
-				}),
-			}),
+			i(23821),	-- Zapthrottle Mote Extractor
 		}),
 		filter(MOUNTS, {
 			i(34060, {["timeline"] = {ADDED_2_3_0}}),	-- Flying Machine (MOUNT!)

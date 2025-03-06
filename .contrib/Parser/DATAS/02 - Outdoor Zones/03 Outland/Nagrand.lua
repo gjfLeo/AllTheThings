@@ -260,6 +260,13 @@ root(ROOTS.Zones, {
 						pet(518),	-- Clefthoof Runt (PET!)
 					},
 				}),
+				-- #if AFTER 2.3.0
+				prof(ENGINEERING, {
+					i(23821, {	-- Zapthrottle Mote Extractor
+						i(22451),	-- Primal Air
+					}),
+				}),
+				-- #endif
 				explorationHeader({
 					visit_exploration(3839,{coord={52.0,57.5,NAGRAND}}),	-- Abandoned Armory
 					visit_exploration(3623,{coord={30.3,58.9,NAGRAND}}),	-- Aeris Landing

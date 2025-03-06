@@ -213,6 +213,15 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
+				prof(ENGINEERING, {
+					i(23821, {	-- Zapthrottle Mote Extractor
+						-- #if BEFORE 2.3.0
+						i(21886),	-- Primal Life
+						-- #else
+						i(21885),	-- Primal Water
+						-- #endif
+					}),
+				}),
 				explorationHeader({
 					exploration(3650),	-- Ango'rosh Grounds
 					exploration(3651),	-- Ango'rosh Stronghold
