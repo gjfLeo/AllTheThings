@@ -113,6 +113,13 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
+				prof(ENGINEERING, {
+					i(23821, {	-- Zapthrottle Mote Extractor
+						spell(30427, {	-- Extract Gas (Zapthrottle Mote Extractor)
+							i(22456),	-- Primal Shadow
+						}),
+					}),
+				}),
 				explorationHeader({
 					visit_exploration(3754,{coord={63.3,29.9,SHADOWMOON_VALLEY}}),	-- Altar of Sha'tar
 					exploration(3757),	-- Ata'mal Terrace

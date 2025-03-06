@@ -578,7 +578,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(23824),	-- Rocket Boots Xtreme
 			i(35581, {["timeline"] = {ADDED_2_4_0}}),	-- Rocket Boots Xtreme Lite
 			i(23768),	-- White Smoke Flare
-			i(23821),	-- Zapthrottle Mote Extractor
+			i(23821, {	-- Zapthrottle Mote Extractor
+				spell(30427, {	-- Extract Gas (Zapthrottle Mote Extractor)
+					["description"] = "Use your crafted Zapthrottle Mote Extractor near a gas cloud.",
+				}),
+			}),
 		}),
 		filter(MOUNTS, {
 			i(34060, {["timeline"] = {ADDED_2_3_0}}),	-- Flying Machine (MOUNT!)
@@ -795,7 +799,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22795),	-- Fel Blossom
 			i(22794, {	-- Fel Lotus
-				["description"] = "Can uncommonly be looted when gathered TBC herbs.",
+				["description"] = "Can uncommonly be looted when gathering TBC herbs.",
 			}),
 			i(22785, {	-- Felweed
 				["maps"] = {
