@@ -222,6 +222,20 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 					}),
 				},
 			}),
+			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
+				n(MECHAGON_WORKSHOP, {
+					e(2331, {	-- King Mechagon
+						["crs"] = {
+							150396,	-- Aerial Unit R-21/X
+							150397,	-- King Mechagon
+							144249,	-- Omega Buster
+						},
+						["g"] = {
+							i(235812),	-- Shoulderguards of Fraying Sanity
+						},
+					}),
+				}),
+			})),
 			d(DIFFICULTY.DUNGEON.MYTHIC, {
 				["difficulties"] = { DIFFICULTY.DUNGEON.KEYSTONE, DIFFICULTY.DUNGEON.MYTHIC },
 				["lvl"] = 120,

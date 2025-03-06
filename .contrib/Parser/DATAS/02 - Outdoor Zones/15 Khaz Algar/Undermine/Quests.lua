@@ -680,9 +680,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
 						--["coord"] = { xx, xx, UNDERMINE },
 					}),
+					------ Stay awhile and listen ------
+					hqt(87351, {	-- Stay awhile and listen: Monte Gazlowe <Bilgewater Trade-Prince>
+						["name"] = "Stay awhile and listen: Monte Gazlowe",
+						["sourceQuest"] = 87297,	-- Cashing the Check
+						["provider"] = { "n", 238002 },	-- Monte Gazlowe <Bilgewater Trade-Prince>
+						["coord"] = { 43.5, 51.0, UNDERMINE },
+					}),
+					hqt(87375, {	-- Stay awhile and listen: Grimla Fizzlecrank <Venture Co.>
+						["name"] = "Stay awhile and listen: Grimla Fizzlecrank",
+						["sourceQuest"] = 87297,	-- Cashing the Check
+						["provider"] = { "n", 238004 },	-- Grimla Fizzlecrank <Venture Co.>
+						["coord"] = { 43.5, 51.1, UNDERMINE },
+					}),
 					o(508377, {	-- Renzik's Lockbox
 						["sourceQuest"] = 85190,	-- Settled Dust (Guess)
 						["coord"] = { 30.7, 86.1, WESTFALL },
+						["classes"] = ROGUE,
 						["g"] = { i(237267) },	-- Spare Uncrowned Vest
 					}),
 				})),

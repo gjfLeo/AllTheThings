@@ -753,197 +753,128 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(221820),	-- Chester (PET!)
 				}),
 				n(ARMOR, {
-					-- TODO: Probably need to solve it with a better way
-					-- TODO: All removed stuff for s1 is speculated, however I never get any piece of this loot from bountiful chests during ptr - Alex
 					filter(BACK_F, {
-						-- Season 1
-						i(219183, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Amice of Hidden Stars
-						i(219186, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Wrap
-						i(219185, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Serape of the Stygian Sea
-						i(219190, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Mozzetta
-						-- Season 2
-						i(235427, {	-- Blastborne Shroud
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235430, {	-- Junkreaver's Overcloak
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235426, {	-- Nitroclad Wrap
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235421, {	-- Noxious Injector Sheen
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
+						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+							i(219183),	-- Amice of Hidden Stars
+							i(219186),	-- Myconic Wrap
+							i(219185),	-- Serape of the Stygian Sea
+							i(219190),	-- Unkindled Waxweave Mozzetta
+						})),
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+							i(235427),	-- Blastborne Shroud
+							i(235430),	-- Junkreaver's Overcloak
+							i(235426),	-- Nitroclad Wrap
+							i(235421),	-- Noxious Injector Sheen
+						})),
 					}),
 					filter(CLOTH, {
-						-- Season 1
-						i(219176, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Belt
-						i(219178, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Buskins
-						i(219175, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Clasps
-						i(219182, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Garb
-						i(219180, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Mitts
-						i(219181, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Slippers
-						i(219177, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Shoulderpads
-						i(219179, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Unkindled Waxweave Veil
-						-- Season 2
-						i(235431, {	-- Noxious Injector Harness
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235432, {	-- Noxious Injector Footpads
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235433, {	-- Noxious Injector Hands
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235434, {	-- Noxious Injector Brainbulb
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235435, {	-- Noxious Injector Trousers
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235436, {	-- Noxious Injector Mantle
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235437, {	-- Noxious Injector Tube
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235438, {	-- Noxious Injector Manacles
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
+						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+							i(219176),	-- Unkindled Waxweave Belt
+							i(219178),	-- Unkindled Waxweave Buskins
+							i(219175),	-- Unkindled Waxweave Clasps
+							i(219182),	-- Unkindled Waxweave Garb
+							i(219180),	-- Unkindled Waxweave Mitts
+							i(219181),	-- Unkindled Waxweave Slippers
+							i(219177),	-- Unkindled Waxweave Shoulderpads
+							i(219179),	-- Unkindled Waxweave Veil
+						})),
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+							i(235431),	-- Noxious Injector Harness
+							i(235432),	-- Noxious Injector Footpads
+							i(235433),	-- Noxious Injector Hands
+							i(235434),	-- Noxious Injector Brainbulb
+							i(235435),	-- Noxious Injector Trousers
+							i(235436),	-- Noxious Injector Mantle
+							i(235437),	-- Noxious Injector Tube
+							i(235438),	-- Noxious Injector Manacles
+						})),
 					}),
 					filter(FINGER_F, {
-						-- Season 1
-						i(219187, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Bone-Carved Circlet
-						i(219221, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Ceremonial Song Ring
-						i(219188, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Dark Abyss Hoop
-						i(219189, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Fuzzy Molding Halo
-						-- Season 2
-						i(235423, {	-- Expensive Gemstone Ring
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235428, {	-- Gobtastic Bling
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
+						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+							i(219187),	-- Bone-Carved Circlet
+							i(219221),	-- Ceremonial Song Ring
+							i(219188),	-- Dark Abyss Hoop
+							i(219189),	-- Fuzzy Molding Halo
+						})),
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+							i(235423),	-- Expensive Gemstone Ring
+							i(235428),	-- Gobtastic Bling
+							i(235424),	-- Rich Uncle's Endowment
+						})),
 					}),
 					filter(LEATHER, {
-						-- Season 1
-						i(219172, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Clutches
-						i(219170, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Chausses
-						i(219174, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Frock
-						i(219171, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Hood
-						i(219169, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Shoulderstrap
-						i(219168, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Strap
-						i(219173, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Waders
-						i(219167, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Myconic Wristbands
-						-- Season 2
-						i(235439, {	-- Nitroclad Bodice
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235440, {	-- Nitroclad Striders
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235441, {	-- Nitroclad Grips
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235442, {	-- Nitroclad Hood
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235443, {	-- Nitroclad Breeches
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235444, {	-- Nitroclad Motorpads
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235445, {	-- Nitroclad Strap
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235446, {	-- Nitroclad Armguards
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
+						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+							i(219172),	-- Myconic Clutches
+							i(219170),	-- Myconic Chausses
+							i(219174),	-- Myconic Frock
+							i(219171),	-- Myconic Hood
+							i(219169),	-- Myconic Shoulderstrap
+							i(219168),	-- Myconic Strap
+							i(219173),	-- Myconic Waders
+							i(219167),	-- Myconic Wristbands
+						})),
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+							i(235439),	-- Nitroclad Bodice
+							i(235440),	-- Nitroclad Striders
+							i(235441),	-- Nitroclad Grips
+							i(235442),	-- Nitroclad Hood
+							i(235443),	-- Nitroclad Breeches
+							i(235444),	-- Nitroclad Motorpads
+							i(235445),	-- Nitroclad Strap
+							i(235446),	-- Nitroclad Armguards
+						})),
 					}),
 					filter(MAIL, {
-						-- Season 1
-						i(219163, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Bascinet of the Stygian Sea
-						i(219166, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Hauberk of the Stygian Sea
-						i(219164, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Grasps of the Stygian Sea
-						i(219162, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Poleyns of the Stygian Sea
-						i(219160, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Sash of the Stygian Sea
-						i(219161, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Spaulders of the Stygian Sea
-						i(219165, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Treads of the Stygian Sea
-						i(219159, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Wrist Bindings of the Stygian Sea
-						-- Season 2
-						i(235447, {	-- Blastborne Hauberk
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235448, {	-- Blastborne Greaves
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235449, {	-- Blastborne Grips
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235450, {	-- Blastborne Targeting Visor
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235451, {	-- Blastborne Legguards
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235452, {	-- Blastborne Missile Pads
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235453, {	-- Blastborne Links
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235454, {	-- Blastborne Vambraces
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
+						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+							i(219163),	-- Bascinet of the Stygian Sea
+							i(219166),	-- Hauberk of the Stygian Sea
+							i(219164),	-- Grasps of the Stygian Sea
+							i(219162),	-- Poleyns of the Stygian Sea
+							i(219160),	-- Sash of the Stygian Sea
+							i(219161),	-- Spaulders of the Stygian Sea
+							i(219165),	-- Treads of the Stygian Sea
+							i(219159),	-- Wrist Bindings of the Stygian Sea
+						})),
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+							i(235447),	-- Blastborne Hauberk
+							i(235448),	-- Blastborne Greaves
+							i(235449),	-- Blastborne Grips
+							i(235450),	-- Blastborne Targeting Visor
+							i(235451),	-- Blastborne Legguards
+							i(235452),	-- Blastborne Missile Pads
+							i(235453),	-- Blastborne Links
+							i(235454),	-- Blastborne Vambraces
+						})),
 					}),
 					filter(NECK_F, {
-						-- Season 1
-						i(219184, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Enkindled Locket
-						i(219217, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Gold-Thread Choker
-						-- Season 2
-						--i(235428, {	-- Gobtastic Bling
-						--	["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						--}),
-						i(235429, {	-- Moneymaker's Collar
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
+						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+							i(219184),	-- Enkindled Locket
+							i(219217),	-- Gold-Thread Choker
+						})),
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+							i(235429),	-- Moneymaker's Collar
+						})),
 					}),
 					filter(PLATE, {
-						-- Season 1
-						i(219152, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Charmbelt of Hidden Stars
-						i(219156, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Fists of Hidden Stars
-						i(219151, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Handguards of Hidden Stars
-						i(219154, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Legplates of Hidden Stars
-						i(219158, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Raiment of Hidden Stars
-						i(219153, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Pauldrons of Hidden Stars
-						i(219157, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Sollerets of Hidden Stars
-						i(219155, {["timeline"]={ REMOVED_11_1_0_SEASONSTART}}),	-- Visage of Hidden Stars
-						-- Season 2
-						i(235455, {	-- Junkreaver's Breastplate
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235456, {	-- Junkreaver's Crushers
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235457, {	-- Junkreaver's Gauntlets
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235458, {	-- Junkreaver's Scrapgaze
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235459, {	-- Junkreaver's Legplates
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235461, {	-- Junkreaver's Shoulderplates
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235462, {	-- Junkreaver's Girdle
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
-						i(235463, {	-- Junkreaver's Coils
-							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						}),
+						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+							i(219152),	-- Charmbelt of Hidden Stars
+							i(219156),	-- Fists of Hidden Stars
+							i(219151),	-- Handguards of Hidden Stars
+							i(219154),	-- Legplates of Hidden Stars
+							i(219158),	-- Raiment of Hidden Stars
+							i(219153),	-- Pauldrons of Hidden Stars
+							i(219157),	-- Sollerets of Hidden Stars
+							i(219155),	-- Visage of Hidden Stars
+						})),
+						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+							i(235455),	-- Junkreaver's Breastplate
+							i(235456),	-- Junkreaver's Crushers
+							i(235457),	-- Junkreaver's Gauntlets
+							i(235458),	-- Junkreaver's Legplates
+							i(235461),	-- Junkreaver's Shoulderplates
+							i(235462),	-- Junkreaver's Girdle
+							i(235463),	-- Junkreaver's Coils
+						})),
 					}),
 				}),
 				filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
@@ -953,33 +884,29 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(225910),	-- Pileus Delight (TOY!)
 				}),
 				n(WEAPONS, {
-					-- TODO: there is arsenal in files/unsorted but I never catch it in vendor by myself
-					-- TODO: add removed if it pop on live
-					-- Season 1
-					i(219203),	-- Arathi Holy Standard
-					i(218126),	-- Befouler's Syringe
-					i(219207),	-- Flame-Bearing Crozier
-					i(219206),	-- Hand of Piety
-					i(219204),	-- Imperial Flarebolt
-					i(219202),	-- Lamplighter's Mercy
-					i(219208),	-- Pyretic Star
-					i(219199),	-- Radiant Steelglaives
-					i(218125),	-- Reactive Webbed Escutcheon
-					i(219200),	-- Unscathed Rampart
-					i(219201),	-- Vessel of Sacred Flame
-					i(219209),	-- Worshipper's Poniard
-					i(219205),	-- Shooting Starquebus
-					i(219210),	-- Sanctifier's Startierce
-					-- Season 2
-					i(235490, {	-- Clawbacker Halberd
-						["timeline"] = { ADDED_11_1_0 },
-					}),
-					i(235493, {	-- Ignited Flare Jar
-						["timeline"] = { ADDED_11_1_0 },
-					}),
-					i(235487, {	-- Interest Compounder
-						["timeline"] = { ADDED_11_1_0 },
-					}),
+					n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
+						i(219203),	-- Arathi Holy Standard
+						i(218126),	-- Befouler's Syringe
+						i(219207),	-- Flame-Bearing Crozier
+						i(219206),	-- Hand of Piety
+						i(219204),	-- Imperial Flarebolt
+						i(219202),	-- Lamplighter's Mercy
+						i(219208),	-- Pyretic Star
+						i(219199),	-- Radiant Steelglaives
+						i(218125),	-- Reactive Webbed Escutcheon
+						i(219200),	-- Unscathed Rampart
+						i(219201),	-- Vessel of Sacred Flame
+						i(219209),	-- Worshipper's Poniard
+						i(219205),	-- Shooting Starquebus
+						i(219210),	-- Sanctifier's Startierce
+					})),
+					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						i(235490),	-- Clawbacker Halberd
+						i(235493),	-- Ignited Flare Jar
+						i(235487),	-- Interest Compounder
+						i(235495),	-- Missile Guided Throat Slitter
+						i(235485),	-- Oil Gouger
+					})),
 				}),
 			},
 		})),
@@ -3086,14 +3013,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			--q(86878),	-- Where We Thrive (camp site) (spellID 1217505?)
 
 			q(86371),	-- Delver's Bounty weekly lockout (source doesn't matter)
+			q(86438),	-- Opened first Nemesis Strongbox (first purple on account)
 			-- Underpin Invasion
 			q(87287),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), First per week, Delve Tier doesn't matter
 			q(87286),	-- after openining Jettisoned Pile of Goblin-Bucks (objectID 507768), Second per week, Delve Tier doesn't matter
 		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
-
-		--q(86438, {["timeline"]={ADDED_11_1_0}}),	-- when open up nemesis strongbox (first purple on account)
 
 		-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
 		q(84736, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st

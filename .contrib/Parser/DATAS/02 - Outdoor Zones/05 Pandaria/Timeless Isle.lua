@@ -2590,7 +2590,7 @@ root(ROOTS.Zones, {
 								["cost"] = { { "c", 789, 100 } },	-- 100x Bloody Coin
 							})),
 							pvp(currency(789, {	-- Bloody Coin
-								["description"] = "Earn Bloody Coins by transforming into an Emissary of Ordos and participating in PvP.",
+								["description"] = "Earn Bloody Coins by transforming into an Emissary of Ordos and getting killing blows on enemy players.",
 								["providers"] = {
 									{ "i", 102467 },	-- Censer of Eternal Agony
 									{ "i", 102463 },	-- Fire-Watcher's Oath

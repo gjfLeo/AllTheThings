@@ -422,7 +422,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 52.1, 42.2, DORNOGAL },
 				["g"] = {
 					-- Season 1
-					-- Trade Down
+					-- Trade DOWN
 					i(221268, {	-- Pouch of Weathered Harbinger Crests
 						["description"] = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Normal Crest\nReceive: LFR Crest",
 						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
@@ -455,7 +455,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["cost"] = {{ "c", RUNED_HARBINGER_CREST, 90 }},
 					}),
 					-- Season 2
-					-- Trade Down
+					-- Trade DOWN
 					i(231267, {	-- Pouch of Weathered Undermine Crests
 						["description"] = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Normal Crest\nReceive: LFR Crest",
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
@@ -471,6 +471,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					--	["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					--	--["cost"] = {{"c", CARVED_HARBINGER_CREST, 15}},
 					--}),
+					-- Trade UP
+					i(231153, {	-- Triumphant Satchel of Carved Undermine Crests
+						["description"] = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: LFR Crest\nReceive: Normal Crest",
+						["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+						["cost"] = {{ "c", WEATHERED_UNDERMINE_CREST, 45 }},
+					}),
 					-- Season 3
 				},
 			}),

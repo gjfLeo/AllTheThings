@@ -28,7 +28,6 @@ root(ROOTS.Unsorted, {
 				i(233339),	-- Upcycled Breeches
 				i(233341),	-- Upcycled Sash
 				i(233342),	-- Upcycled Bindings
-				i(233343),	-- Power-Washed Chainmail
 				i(233345),	-- Power-Washed Grips
 				i(233346),	-- Power-Washed Coif
 				i(233347),	-- Power-Washed Greaves
@@ -44,17 +43,14 @@ root(ROOTS.Unsorted, {
 
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
-				i(235424),	-- Rich Uncle's Endowment
 				i(235425),	-- Dumpsterdelver's Loop
 				i(235484),	-- Razor-sharp Desk Fan
-				i(235485),	-- Oil Gouger
 				i(235486),	-- Springloaded Kneecap Breaker
 				i(235488),	-- Rocket Taped to a Screwdriver
 				i(235489),	-- Bullet Biter
 				i(235491),	-- Immolation Warning
 				i(235492),	-- Oscillating Scrapcleaver
 				i(235494),	-- Biker Gang's Spare Tire
-				i(235495),	-- Missile Guided Throat Slitter
 
 				i(235415),	-- Skyscorcher Pauldrons
 				i(235416),	-- Crashguard Spaulders
@@ -66,7 +62,6 @@ root(ROOTS.Unsorted, {
 				i(235809),	-- Mechanized Plate Chasse
 				i(235810),	-- Circuit-Linked Chainmail
 				i(235811),	-- Extravagant Epaulets
-				i(235812),	-- Shoulderguards of Fraying Sanity
 			}),
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner

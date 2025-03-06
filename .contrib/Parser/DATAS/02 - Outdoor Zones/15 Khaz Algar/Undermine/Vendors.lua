@@ -21,6 +21,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235704),	-- Noggenfogger Select UP
 				},
 			}),
+			n(226994, {	-- Blair Bass <"Gold" Fish Exchange>
+				["sourceQuest"] = 83542,	-- Quick Gills for Gold Now
+				["coord"] = { 34.0, 71.4, UNDERMINE },
+				["g"] = sharedData({
+					["cost"] = {{ "i", 227673, 5 }},	-- "Gold" Fish
+				},{
+					i(237346);	-- Artisan Beverage Goblet Bobber
+					i(237345);	-- Limited Edition Rocket Bobber
+					i(237347);	-- Organically-Sourced Wellington Bobber
+				}),
+			}),
 			n(239112, {	-- Bombin' Bert
 				["coord"] = { 50.9, 31.8, UNDERMINE },
 				["g"] = {

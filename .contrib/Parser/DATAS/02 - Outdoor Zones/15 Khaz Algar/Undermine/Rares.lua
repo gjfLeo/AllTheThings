@@ -124,7 +124,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["crs"] = {	231329 },	-- De-Pollution Station X1119
 				["cost"] = {{"i", 229823, 1}},	-- Canister of Darkfuse Solution
 				["coord"] = { 41.2, 91.4, UNDERMINE },
-			--	["questID"] = 84877,
+				["questID"] = 85010,
 				["isWeekly"] = true,
 				["g"] = {
 					i(229955),	-- Darkfuse Spy-Eye (MOUNT!)
@@ -345,6 +345,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	m(KHAZ_ALGAR, {
 		m(UNDERMINE, {
 			n(RARES, {
+				q(90492),	-- Triggers on killing Darkfuse Precipitant
 				q(90488),	-- Triggers on killing M.A.G.N.O.
 				q(90489),	-- Triggers on killing Giovante
 				q(90490),	-- Triggers on killing Voltstrike
