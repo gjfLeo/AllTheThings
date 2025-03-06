@@ -2570,31 +2570,33 @@ root(ROOTS.Zones, {
 					}),
 					n(73307, {	-- Speaker Gulan <Emissary of Ordos>
 						["coord"] = { 74.9, 44.9, TIMELESS_ISLE },
-						["g"] = pvp({
-							i(102464, {	-- Black Ash
-								["cost"] = { { "c", 789, 1 } },	-- 1x Bloody Coin
-							}),
+						["g"] = {
 							i(102467, {	-- Censer of Eternal Agony (TOY!)
 								["cost"] = { { "c", 777, 1000 } },	-- 1,000x Timeless Coin
-								["g"] = {
-									currency(789, {	-- Bloody Coin
-										["description"] = "Earn Bloody Coins by transforming into an Emissary of Ordos and participating in PvP.",
-									}),
-								}
 							}),
 							i(102463, {	-- Fire-Watcher's Oath
 								["cost"] = { { "c", 777, 100 } },	-- 100x Timeless Coin
 							}),
-							i(103639, {	-- Pouch of White Ash
+							pvp(i(102464, {	-- Black Ash
+								["cost"] = { { "c", 789, 1 } },	-- 1x Bloody Coin
+							})),
+							pvp(i(103639, {	-- Pouch of White Ash
 								["cost"] = { { "c", 789, 20 } },	-- 20x Bloody Coin
-							}),
-							i(103638, {	-- Ashhide Mushan Beast (MOUNT!)
+							})),
+							pvp(i(103638, {	-- Ashhide Mushan Beast (MOUNT!)
 								["cost"] = { { "c", 789, 500 } },	-- 500x Bloody Coin
-							}),
-							i(103637, {	-- Vengeful Porcupette (PET!)
+							})),
+							pvp(i(103637, {	-- Vengeful Porcupette (PET!)
 								["cost"] = { { "c", 789, 100 } },	-- 100x Bloody Coin
-							}),
-						}),
+							})),
+							pvp(currency(789, {	-- Bloody Coin
+								["description"] = "Earn Bloody Coins by transforming into an Emissary of Ordos and participating in PvP.",
+								["providers"] = {
+									{ "i", 102467 },	-- Censer of Eternal Agony
+									{ "i", 102463 },	-- Fire-Watcher's Oath
+								},
+							})),
+						},
 					}),
 					n(73293, {	-- Whizzig
 						["description"] = "This vendor is rare and is not always available.",
