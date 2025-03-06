@@ -1801,9 +1801,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					["maps"] = { AZUREMYST_ISLE, THE_EXODAR, ELWYNN_FOREST, DARNASSUS, TELDRASSIL, SHATTRATH_CITY },
 					["races"] = ALLIANCE_ONLY,
-					-- #if AFTER 3.2.0.10314
-					["provider"] = { "i", 46735 },	-- Synthebrew Goggles
-					-- #endif
 					["isYearly"] = true,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
 						objective(1, {	-- 0/3 Azuremyst Pink Elekk slain
@@ -1842,9 +1839,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 					-- #endif
 					["maps"] = { EVERSONG_WOODS, MULGORE, TIRISFAL_GLADES },
 					["races"] = HORDE_ONLY,
-					-- #if AFTER 3.2.0.10314
-					["provider"] = { "i", 46735 },	-- Synthebrew Goggles
-					-- #endif
 					["isYearly"] = true,
 					["groups"] = appendGroups(BREWFEST_TOKEN, {
 						objective(1, {	-- 0/3 Eversong Pink Elekk slain

@@ -3,6 +3,7 @@
 -----------------------------------------------------
 local MATRIX_PUNCHOGRAPH_A = o(142345, {	-- Matrix Punchograph 3005-A
 	["description"] = "This is located outside of the instance just to the north of both the elevator or the transporter.",
+	["timeline"] = { REMOVED_5_0_4 },	-- guessed from WH comments
 	["cost"] = { { "i", 9279, 1 } },	-- White Punch Card
 	["groups"] = {
 		i(9280),	-- Yellow Punch Card
@@ -32,7 +33,18 @@ local MATRIX_PUNCHOGRAPH_D = o(142696, {	-- Matrix Punchograph 3005-D
 		i(9316),	-- Prismatic Punch Card
 		i(4413, {	-- Schematic: Discombobulator Ray (RECIPE!)
 			["description"] = "If you are an Engineer and have a 'Security DELTA Access Card', you will also get these plans when you turn in your Red Punch Card.",
-			["cost"] = { { "i", 9327, 1 } },	-- Security DELTA Data Access Card
+			["provider"] = { "i", 9327 },	-- Security DELTA Data Access Card
+		}),
+	},
+});
+local MATRIX_PUNCHOGRAPH_E = o(251048, {	-- Matrix Punchograph 3005-E
+	["description"] = "This is located in the Dormitory, in the top-left cubby hole of the sloped southern wall.",
+	["timeline"] = { ADDED_7_0_3 },
+	["cost"] = { { "i", 9316, 1 } },	-- Prismatic Punch Card
+	["groups"] = {
+		n(108106, {	-- Sentient Mechanostrider
+			-- special hunter pet spawn
+			["provider"] = { "i", 9446 },	-- Electrocutioner Leg
 		}),
 	},
 });
@@ -63,20 +75,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 		["lvl"] = lvlsquish(19, 19, 10),
 		["groups"] = {
-			n(REWARDS, {
-				i(9363, {	-- Sparklematic-Wrapped Box
-					["description"] = "Kill mobs for [Grime-Encrusted Object], clean them at the Sparklematic 5200 to receive this box.",
-					["groups"] = {
-						i(122207, {	-- Music Roll: Tinkertown
-							["timeline"] = { ADDED_6_1_0 },
-							["races"] = ALLIANCE_ONLY,
-						}),
-						i(9280),	-- Yellow Punch Card
-						i(10299),	-- Gnomeregan Amulet
-						i(10298),	-- Gnomeregan Band
-					},
-				}),
-			}),
 			n(ZONE_DROPS, {
 				i(9510, {	-- Caverndeep Trudgers
 					["crs"] = {
@@ -265,6 +263,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(9279, {	-- White Punch Card
 					["description"] = "This can be looted from mobs outside of the instance.",
+					["timeline"] = { REMOVED_5_0_4 },	-- guessed from WH comments
 				}),
 				i(140781, {	-- X-87 Battle Circuit
 					["timeline"] = { ADDED_7_0_3 },
@@ -291,6 +290,121 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			d(DIFFICULTY.DUNGEON.NORMAL, bubbleDownTimelineEventSelf(REMOVED_1_15_1, {
 			-- #endif
 			n(QUESTS, {
+				header(HEADERS.Object, 142487, {	-- The Sparklematic 5200
+					n(REWARDS, {
+						i(9363, {	-- Sparklematic-Wrapped Box
+							["description"] = "Kill mobs for [Grime-Encrusted Object], clean them at the Sparklematic 5200 to receive this box.",
+							["groups"] = {
+								i(122207, {	-- Music Roll: Tinkertown
+									["timeline"] = { ADDED_6_1_0 },
+									["races"] = ALLIANCE_ONLY,
+								}),
+								i(9280),	-- Yellow Punch Card
+								i(10299),	-- Gnomeregan Amulet
+								i(10298),	-- Gnomeregan Band
+							},
+						}),
+					}),
+					q(2951, {	-- The Sparklematic 5200!
+						["provider"] = { "o", 142487 },	-- The Sparklematic 5200
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+					}),
+					q(4601, {	-- The Sparklematic 5200!
+						["providers"] = {
+							-- #if AFTER LEGION
+							{ "o", 175084 },	-- The Sparklematic 5200
+							-- #else
+							{ "o", 15084 },	-- The Sparklematic 5200
+							-- #endif
+						},
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+					}),
+					q(4602, {	-- The Sparklematic 5200!
+						["providers"] = {
+							-- #if AFTER LEGION
+							{ "o", 175085 },	-- The Sparklematic 5200
+							-- #else
+							{ "o", 15085 },	-- The Sparklematic 5200
+							-- #endif
+						},
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+					}),
+					q(2952, {	-- The Sparklematic 5200!
+						["provider"] = { "o", 142487 },	-- The Sparklematic 5200
+						["sourceQuest"] = 2951,	-- The Sparklematic 5200!
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+						["groups"] = {
+							i(9363, {["sym"] = {{"fill"}}}),	-- Sparklematic-Wrapped Box
+						},
+					}),
+					q(4605, {	-- The Sparklematic 5200!
+						["providers"] = {
+							-- #if AFTER LEGION
+							{ "o", 175084 },	-- The Sparklematic 5200
+							-- #else
+							{ "o", 15084 },	-- The Sparklematic 5200
+							-- #endif
+						},
+						["sourceQuest"] = 4601,	-- The Sparklematic 5200!
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+						["groups"] = {
+							i(9363, {["sym"] = {{"fill"}}}),	-- Sparklematic-Wrapped Box
+						},
+					}),
+					q(4606, {	-- The Sparklematic 5200!
+						["providers"] = {
+							-- #if AFTER LEGION
+							{ "o", 175085 },	-- The Sparklematic 5200
+							-- #else
+							{ "o", 15085 },	-- The Sparklematic 5200
+							-- #endif
+						},
+						["sourceQuest"] = 4602,	-- The Sparklematic 5200!
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+						["groups"] = {
+							i(9363, {["sym"] = {{"fill"}}}),	-- Sparklematic-Wrapped Box
+						},
+					}),
+					q(2953, {	-- More Sparklematic Action
+						["provider"] = { "o", 142487 },	-- The Sparklematic 5200
+						["sourceQuest"] = 2952,	-- The Sparklematic 5200!
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+						["repeatable"] = true,
+						["groups"] = {
+							i(9363, {["sym"] = {{"fill"}}}),	-- Sparklematic-Wrapped Box
+						},
+					}),
+					q(4603, {	-- More Sparklematic Action
+						["providers"] = {
+							-- #if AFTER LEGION
+							{ "o", 175084 },	-- The Sparklematic 5200
+							-- #else
+							{ "o", 15084 },	-- The Sparklematic 5200
+							-- #endif
+						},
+						["sourceQuest"] = 4605,	-- The Sparklematic 5200!
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+						["repeatable"] = true,
+						["groups"] = {
+							i(9363, {["sym"] = {{"fill"}}}),	-- Sparklematic-Wrapped Box
+						},
+					}),
+					q(4604, {	-- More Sparklematic Action
+						["providers"] = {
+							-- #if AFTER LEGION
+							{ "o", 175085 },	-- The Sparklematic 5200
+							-- #else
+							{ "o", 15085 },	-- The Sparklematic 5200
+							-- #endif
+						},
+						["sourceQuest"] = 4606,	-- The Sparklematic 5200!
+						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
+						["repeatable"] = true,
+						["groups"] = {
+							i(9363, {["sym"] = {{"fill"}}}),	-- Sparklematic-Wrapped Box
+						},
+					}),
+				}),
 				q(2904, {	-- A Fine Mess
 					["qg"] = 7850,	-- Kernobee
 					["timeline"] = { REMOVED_4_0_3 },
@@ -464,33 +578,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["isBreadcrumb"] = true,
 					["lvl"] = 24,
 				}),
-				q(2953, {	-- More Sparklematic Action
-					["provider"] = { "o", 142487 },	-- The Sparklematic 5200
-					["sourceQuest"] = 2952,	-- The Sparklematic 5200!
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["repeatable"] = true,
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
-				q(4603, {	-- More Sparklematic Action
-					["provider"] = { "o", 15084 },	-- The Sparklematic 5200
-					["sourceQuest"] = 4605,	-- The Sparklematic 5200!
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["repeatable"] = true,
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
-				q(4604, {	-- More Sparklematic Action
-					["provider"] = { "o", 15085 },	-- The Sparklematic 5200
-					["sourceQuest"] = 4606,	-- The Sparklematic 5200!
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["repeatable"] = true,
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
 				q(2950, {	-- Nogg's Ring Redo
 					["qg"] = 3412,	-- Nogg <Expert Engineer>
 					["sourceQuest"] = 2949,	-- Return of the Ring [Horde]
@@ -514,24 +601,24 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				q(2947, {	-- Return of the Ring [Alliance]
-					["providers"] = {
-						{ "i", 9362 },	-- Brilliant Gold Ring
-						{ "o", 142487 },	-- The Sparklematic 5200
-					},
+					["provider"] = { "o", 142487 },	-- The Sparklematic 5200
 					["sourceQuest"] = 2945,	-- Grime-Encrusted Ring
 					["maps"] = { IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(28, 28, 10),
+					["groups"] = {
+						i(9362),	-- Brilliant Gold Ring
+					},
 				}),
 				q(2949, {	-- Return of the Ring [Horde]
-					["providers"] = {
-						{ "i", 9362 },	-- Brilliant Gold Ring
-						{ "o", 142487 },	-- The Sparklematic 5200
-					},
+					["provider"] = { "o", 142487 },	-- The Sparklematic 5200
 					["sourceQuest"] = 2945,	-- Grime-Encrusted Ring
 					["maps"] = { ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(28, 28, 10),
+					["groups"] = {
+						i(9362),	-- Brilliant Gold Ring
+					},
 				}),
 				q(2841, {	-- Rig Wars
 					["qg"] = 3412,	-- Nogg <Expert Engineer>
@@ -726,51 +813,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					},
 				}),
-				q(2951, {	-- The Sparklematic 5200!
-					["provider"] = { "o", 142487 },	-- The Sparklematic 5200
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
-				q(2952, {	-- The Sparklematic 5200!
-					["provider"] = { "o", 142487 },	-- The Sparklematic 5200
-					["sourceQuest"] = 2951,	-- The Sparklematic 5200!
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
-				q(4601, {	-- The Sparklematic 5200!
-					["provider"] = { "o", 15084 },	-- The Sparklematic 5200
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
-				q(4605, {	-- The Sparklematic 5200!
-					["provider"] = { "o", 15084 },	-- The Sparklematic 5200
-					["sourceQuest"] = 4601,	-- The Sparklematic 5200!
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
-				q(4602, {	-- The Sparklematic 5200!
-					["provider"] = { "o", 15085 },	-- The Sparklematic 5200
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
-				q(4606, {	-- The Sparklematic 5200!
-					["provider"] = { "o", 15085 },	-- The Sparklematic 5200
-					["sourceQuest"] = 4602,	-- The Sparklematic 5200!
-					["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
-					["groups"] = {
-						i(9363),	-- Sparklematic-Wrapped Box
-					},
-				}),
 				q(2923, {	-- Tinkmaster Overspark
 					["qg"] = 7917,	-- Brother Sarno
 					["coords"] = {
@@ -820,6 +862,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #if NOT SEASON_OF_DISCOVERY
 			MATRIX_PUNCHOGRAPH_B,
 			MATRIX_PUNCHOGRAPH_C,
+			MATRIX_PUNCHOGRAPH_E,
 			-- #endif
 			-- #if AFTER 4.0.3
 			n(7850, {	-- Kernobee
