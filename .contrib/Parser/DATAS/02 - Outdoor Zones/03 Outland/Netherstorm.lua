@@ -86,13 +86,6 @@ root(ROOTS.Zones, {
 					}),
 					pet(638),	-- Nether Roach (PET!)
 				}),
-				prof(ENGINEERING, {
-					i(23821, {	-- Zapthrottle Mote Extractor
-						spell(30427, {	-- Extract Gas (Zapthrottle Mote Extractor)
-							i(22457),	-- Primal Mana
-						}),
-					}),
-				}),
 				explorationHeader({
 					exploration(3712),	-- Area 52
 					visit_exploration(3723,{coord={43.3,71.2,NETHERSTORM}}),	-- Arklon Ruins
