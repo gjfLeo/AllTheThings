@@ -260,13 +260,6 @@ root(ROOTS.Zones, {
 						pet(518),	-- Clefthoof Runt (PET!)
 					},
 				}),
-				-- #if AFTER 2.3.0
-				prof(ENGINEERING, {
-					i(23821, {	-- Zapthrottle Mote Extractor
-						i(22451),	-- Primal Air
-					}),
-				}),
-				-- #endif
 				explorationHeader({
 					visit_exploration(3839,{coord={52.0,57.5,NAGRAND}}),	-- Abandoned Armory
 					visit_exploration(3623,{coord={30.3,58.9,NAGRAND}}),	-- Aeris Landing
@@ -322,18 +315,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 				}),
-				prof(FISHING, {
-					o(182959, {	-- Bluefish School
-						["requireSkill"] = FISHING,
-					}),
-					o(182958, {	-- Mudfish School
-						["requireSkill"] = FISHING,
-					}),
-					o(182951, {	-- Pure Water (fishing school)
-						["requireSkill"] = FISHING,
-					}),
-					i(34868),	-- World's Largest Mudfish
-				}),
 				n(FLIGHT_PATHS, {
 					fp(120, {	-- Garadar, Nagrand
 						["cr"] = 18808,	-- Gursha <Wind Rider Master>
@@ -344,6 +325,30 @@ root(ROOTS.Zones, {
 						["cr"] = 18789,	-- Furgu <Hippogryph Master>
 						["coord"] = { 54.2, 75.0, NAGRAND },
 						["races"] = ALLIANCE_ONLY,
+					}),
+				}),
+				n(PROFESSIONS, {
+					-- #if AFTER 2.3.0
+					prof(ENGINEERING, {
+						i(23821, {	-- Zapthrottle Mote Extractor
+							n(24222, {	-- Windy Cload (Gas cloud)
+								["requireSkill"] = ENGINEERING,
+								["timeline"] = { ADDED_2_3_0 },
+							}),
+						}),
+					}),
+					-- #endif
+					prof(FISHING, {
+						o(182959, {	-- Bluefish School
+							["requireSkill"] = FISHING,
+						}),
+						o(182958, {	-- Mudfish School
+							["requireSkill"] = FISHING,
+						}),
+						o(182951, {	-- Pure Water (fishing school)
+							["requireSkill"] = FISHING,
+						}),
+						i(34868),	-- World's Largest Mudfish
 					}),
 				}),
 				n(QUESTS, {

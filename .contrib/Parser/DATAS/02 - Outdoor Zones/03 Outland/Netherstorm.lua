@@ -86,11 +86,6 @@ root(ROOTS.Zones, {
 					}),
 					pet(638),	-- Nether Roach (PET!)
 				}),
-				prof(ENGINEERING, {
-					i(23821, {	-- Zapthrottle Mote Extractor
-						i(22457),	-- Primal Mana
-					}),
-				}),
 				explorationHeader({
 					exploration(3712),	-- Area 52
 					visit_exploration(3723,{coord={43.3,71.2,NETHERSTORM}}),	-- Arklon Ruins
@@ -146,6 +141,15 @@ root(ROOTS.Zones, {
 					fp(139, {	-- The Stormspire, Netherstorm
 						["cr"] = 19583,	-- Grennik <Flight Master>
 						["coord"] = { 45.2, 34.8, NETHERSTORM },
+					}),
+				}),
+				n(PROFESSIONS, {
+					prof(ENGINEERING, {
+						i(23821, {	-- Zapthrottle Mote Extractor
+							n(17408, {	-- Arcane Vortex (Gas cloud)
+								["requireSkill"] = ENGINEERING,
+							}),
+						}),
 					}),
 				}),
 				n(QUESTS, {

@@ -213,15 +213,6 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				prof(ENGINEERING, {
-					i(23821, {	-- Zapthrottle Mote Extractor
-						-- #if BEFORE 2.3.0
-						i(21886),	-- Primal Life
-						-- #else
-						i(21885),	-- Primal Water
-						-- #endif
-					}),
-				}),
 				explorationHeader({
 					exploration(3650),	-- Ango'rosh Grounds
 					exploration(3651),	-- Ango'rosh Stronghold
@@ -285,12 +276,22 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(PROFESSIONS, {
-					n(18911, {	-- Juno Dufrain <Fishing Trainer>
-						["coord"] = { 78.0, 66.0, ZANGARMARSH },
-						["groups"] = TBC_FISHING,
+					prof(ENGINEERING, {
+						i(23821, {	-- Zapthrottle Mote Extractor
+							n(17378, {	-- Swamp Gas (Gas cloud)
+								["requireSkill"] = ENGINEERING,
+							}),
+						}),
 					}),
 					prof(FISHING, {
 						o(182954, {	-- Brackish Mixed School
+							["requireSkill"] = FISHING,
+						}),
+						n(18911, {	-- Juno Dufrain <Fishing Trainer>
+							["coord"] = { 78.0, 66.0, ZANGARMARSH },
+							["groups"] = TBC_FISHING,
+						}),
+						o(182953, {	-- Sporefish School
 							["requireSkill"] = FISHING,
 						}),
 						o(182952, {	-- Steam Pump Flotsam
@@ -299,9 +300,6 @@ root(ROOTS.Zones, {
 							i(34469, {	-- Strange Engine Part
 								["description"] = "\"Don't pay anybody in advance. And don't ride in anything with a Capissen 38 engine, they fall right out of the sky.\" - Kaylee Fry",
 							}),
-						}),
-						o(182953, {	-- Sporefish School
-							["requireSkill"] = FISHING,
 						}),
 					}),
 				}),

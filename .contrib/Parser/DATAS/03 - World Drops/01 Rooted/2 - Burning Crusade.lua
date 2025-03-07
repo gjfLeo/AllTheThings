@@ -1151,6 +1151,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			17160,	-- Living Cyclone
 			17159,	-- Storm Rager
 			22310,	-- Storming Wind-Ripper
+			24222,	-- Windy Cload (Gas cloud)
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
 	}, {
@@ -1203,6 +1204,9 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		["crs"] = {
 			17723,	-- Bog Giant
 			17770,	-- Hungarfen
+			-- #if BEFORE 2.3.0
+			17378,	-- Swamp Gas (Gas cloud)
+			-- #endif
 			17734,	-- Underbog Lord
 			17725,	-- Underbog Lurker
 			17871,	-- Underbog Shambler
@@ -1230,6 +1234,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		},
 		["crs"] = {
 			22181,	-- Aether Ray
+			17408,	-- Arcane Vortex (Gas cloud)
 			-- #if AFTER 2.4.0
 			24972, -- Erratic Sentry
 			-- #endif
@@ -1257,6 +1262,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		},
 		["crs"] = {
 			17014,	-- Collapsing Voidwalker
+			17407,	-- Felmist (Gas cloud)
 			16974,	-- Rogue Voidwalker
 			16975,	-- Uncontrolled Voidwalker
 			18869,	-- Unstable Voidwrath
@@ -1292,6 +1298,9 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			17154,	-- Muck spawn
 			18750,	-- Shimmerscale Eel
 			21728,	-- Skettis Surger
+			-- #if AFTER 2.3.0
+			17378,	-- Swamp Gas (Gas cloud)
+			-- #endif
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
 	}, {

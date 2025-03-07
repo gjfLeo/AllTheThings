@@ -113,11 +113,6 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				prof(ENGINEERING, {
-					i(23821, {	-- Zapthrottle Mote Extractor
-						i(22456),	-- Primal Shadow
-					}),
-				}),
 				explorationHeader({
 					visit_exploration(3754,{coord={63.3,29.9,SHADOWMOON_VALLEY}}),	-- Altar of Sha'tar
 					exploration(3757),	-- Ata'mal Terrace
@@ -190,10 +185,19 @@ root(ROOTS.Zones, {
 							{ 36.6, 55.0, SHADOWMOON_VALLEY },
 							{ 29.2, 28.6, SHADOWMOON_VALLEY },
 						},
-						["g"] = sharedData({ ["timeline"] = { ADDED_2_3_0 } }, {
-							r(44155),	-- Flying Machine
-							r(44157),	-- Turbo-Charged Flying Machine
-						}),
+						["groups"] = {
+							i(23821, {	-- Zapthrottle Mote Extractor
+								n(17407, {	-- Felmist (Gas cloud)
+									["requireSkill"] = ENGINEERING,
+								}),
+							}),
+							r(44155, {	-- Flying Machine
+								["timeline"] = { ADDED_2_3_0 },
+							}),
+							r(44157, {	-- Turbo-Charged Flying Machine
+								["timeline"] = { ADDED_2_3_0 },
+							}),
+						},
 					}),
 				}),
 				n(QUESTS, {
