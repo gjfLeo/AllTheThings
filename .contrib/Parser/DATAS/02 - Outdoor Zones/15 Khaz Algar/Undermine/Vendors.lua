@@ -27,9 +27,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = sharedData({
 					["cost"] = {{ "i", 227673, 5 }},	-- "Gold" Fish
 				},{
-					i(237346);	-- Artisan Beverage Goblet Bobber
-					i(237345);	-- Limited Edition Rocket Bobber
-					i(237347);	-- Organically-Sourced Wellington Bobber
+					i(237346),	-- Artisan Beverage Goblet Bobber (TOY!)
+					i(237345),	-- Limited Edition Rocket Bobber (TOY!)
+					i(237347),	-- Organically-Sourced Wellington Bobber (TOY!)
 				}),
 			}),
 			n(239112, {	-- Bombin' Bert

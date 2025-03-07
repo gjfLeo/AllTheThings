@@ -415,11 +415,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(41723, {	-- Buddy System VIII
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(41537, {	-- Buddy System VII
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40461, {	-- Buddy System VI
@@ -510,7 +510,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		ach(41714, {	-- From Trash to Treasure (automated)
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		ach(40438, {	-- Glory of the Delver
 			-- Meta Achievement
@@ -561,7 +561,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_REGULAR_DELVES,
 		}),
 		ach(41709, {	-- Journey's End (Season 2)
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		ach(40452, {	-- Just Keep Swimming
 			["maps"] = KOBYSS_DELVES,
@@ -707,22 +707,22 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			filter(TRINKET_F, {
 				i(215170),	-- Abyssal Trap
 				i(232891, {	-- Amorphous Relic
-					["timeline"] = { ADDED_11_1_0 },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				}),
 				i(234717, {	-- Blastmaster3000
-					["timeline"] = { ADDED_11_1_0 },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				}),
 				i(215174),	-- Concoction: Kiss of Death
 				i(234326, {	-- Core Recycling Unit
-					["timeline"] = { ADDED_11_1_0 },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				}),
 				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
 				i(234217, {	-- Funhouse Lens
-					["timeline"] = { ADDED_11_1_0 },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				}),
 				i(235984, {	-- Garbagemancer's Last Resort
-					["timeline"] = { ADDED_11_1_0 },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				}),
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
@@ -731,13 +731,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(225891),	-- Vile Vial of Kaheti Bile
 			}),
 		}),
-		filter(BATTLE_PETS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+		filter(BATTLE_PETS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			i(232848),	-- Mr. DELVER
 		})),
-		filter(TOYS, {
+		filter(TOYS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
-		}),
-		filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+		})),
+		filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			i(235617), 	-- Lucky Goblin's Strapped Rockets
 		})),
 		n(BOUNTIFUL, bubbleDownFiltered({
@@ -746,9 +746,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["provider"] = { "o", 413590 },	-- Bountiful Coffer
 			["g"] = {
 				i(220520, {["timeline"]={ REMOVED_11_1_0}}),	-- Radiant Echo
-				i(235897, {["timeline"]={ ADDED_11_1_0}}),	-- Radiant Echo
+				i(235897, {["timeline"]={ ADDED_11_1_0_SEASONSTART}}),	-- Radiant Echo
 				i(228958, {["timeline"]={ REMOVED_11_1_0}}),	-- Radiant Echo (QS!)
-				i(235896, {["timeline"]={ ADDED_11_1_0}}),	-- Radiant Echo (QS!)
+				i(235896, {["timeline"]={ ADDED_11_1_0_SEASONSTART}}),	-- Radiant Echo (QS!)
 				filter(BATTLE_PETS, {
 					i(221820),	-- Chester (PET!)
 				}),
@@ -1068,22 +1068,22 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(234014, {	-- Automatic Footbomb Dispenser [Rank 4]
 						["bonusID"] = 12160,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(230233, {	-- Biofuel Rocket Gear [Rank 4]
 						["bonusID"] = 12124,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(225897, {	-- Brute Force Idol [Rank 4]
 						["bonusID"] = 11238
 					}),
 					i(230232, {	-- Comically Large Magnet [Rank 4]
 						["bonusID"] = 12120,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(230227, {	-- Goblomagnetic Bouncing Grenade [Rank 4]
 						["bonusID"] = 12148,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(225902, {	-- Idol of Final Will [Rank 4]
 						["bonusID"] = 11263,
@@ -1093,15 +1093,15 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(230229, {	-- Impact Conversion Matrix [Rank 4]
 						["bonusID"] = 12156,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(230225, {	-- Kaja'Cola Carrier [Rank 4]
 						["bonusID"] = 12116,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(230230, {	-- L00T RAID-R [Rank 4]
 						["bonusID"] = 12105,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(225906, {	-- Lifeless Necrotic Relic [Rank 4]
 						["bonusID"] = 11283,
@@ -1111,26 +1111,26 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(234015, {	-- Mechasaur EZ-Build Kit [Rank 4]
 						["bonusID"] = 12164,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(225905, {	-- Olden Seeker Relic [Rank 4]
 						["bonusID"] = 11278,
 					}),
 					i(230950, {	-- Overdrive Pylon [Rank 4]
 						["bonusID"] = 12132,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(234013, {	-- Pacifist Rig [Rank 4]
 						["bonusID"] = 12136,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(230234, {	-- Pinged Augment Chip [Rank 4]
 						["bonusID"] = 12144,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(230228, {	-- Pocket Factory [Rank 4]
 						["bonusID"] = 12152,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(218129, {	-- Porcelain Arrowhead Idol [Rank 4]
 						["bonusID"] = 11233,
@@ -1146,14 +1146,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(230231, {	-- Reverse Engineered Goblin Death Bomb [Rank 4]
 						["bonusID"] = 12140,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(225901, {	-- Streamlined Relic [Rank 4]
 						["bonusID"] = 11258,
 					}),
 					i(230226, {	-- Three Dimensional Bioprinter [Rank 4]
 						["bonusID"] = 12128,
-						["timeline"] = { ADDED_11_1_0 },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
 					i(225904, {	-- Time Lost Relic [Rank 4]
 						["bonusID"] = 11273,
@@ -1170,8 +1170,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(224411),	-- Companion Experience (Tier 3)
 			i(224412),	-- Companion Experience (every tier)
 			i(227784, {["timeline"]={ REMOVED_11_1_0_SEASONSTART }}),	-- Delver's Bounty
-			i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (actual item, looted from Jettisoned Pile of Goblin-Bucks)
-			i(235628, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0 }}),	-- Delver's Bounty (probably exist only to display rewards)
+			i(233071, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 }}),	-- Delver's Bounty (actual item, looted from Jettisoned Pile of Goblin-Bucks)
+			i(235628, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 }}),	-- Delver's Bounty (probably exist only to display rewards)
 			i(222922),	-- Expeditionary Spoils (Tier 1)
 			i(222923),	-- Expeditionary Spoils (Tier 2)
 			i(225178),	-- Expeditionary Spoils (Tier 3)
@@ -1196,10 +1196,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(228560),	-- Ancient Curio (QI!/QS!)
 			i(228581),	-- Ancient Curio (QI!/QS!)
 			i(234329, {	-- Ancient Curio (QS!)
-				["timeline"] = { ADDED_11_1_0 },
+				["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			}),
 			i(234330, {	-- Ancient Curio (QS!)
-				["timeline"] = { ADDED_11_1_0 },
+				["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			}),
 			--
 			currency(2803),	-- Undercoin
@@ -1288,26 +1288,26 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		hqt(84118),	-- Level 58
 		hqt(84119),	-- Level 59
 		hqt(83330),	-- Level 60
-		hqt(86974),	-- Level 61
-		hqt(86975),	-- Level 62
-		hqt(86976),	-- Level 63
-		hqt(86977),	-- Level 64
-		hqt(86978),	-- Level 65
-		hqt(86979),	-- Level 66
-		hqt(86980),	-- Level 67
-		hqt(86981),	-- Level 68
-		hqt(86982),	-- Level 69
-		hqt(86983),	-- Level 70
-		hqt(86984),	-- Level 71
-		hqt(86985),	-- Level 72
-		hqt(86986),	-- Level 73
-		hqt(86987),	-- Level 74
-		hqt(86988),	-- Level 75
-		hqt(86989),	-- Level 76
-		hqt(86990),	-- Level 77
-		hqt(86991),	-- Level 78
-		hqt(86992),	-- Level 79
-		--hqt(86993),	-- Level 80 Attached on achievement
+		hqt(86974, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 61
+		hqt(86975, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 62
+		hqt(86976, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 63
+		hqt(86977, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 64
+		hqt(86978, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 65
+		hqt(86979, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 66
+		hqt(86980, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 67
+		hqt(86981, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 68
+		hqt(86982, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 69
+		hqt(86983, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 70
+		hqt(86984, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 71
+		hqt(86985, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 72
+		hqt(86986, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 73
+		hqt(86987, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 74
+		hqt(86988, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 75
+		hqt(86989, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 76
+		hqt(86990, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 77
+		hqt(86991, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 78
+		hqt(86992, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 79
+		--hqt(86993, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 80 Attached on achievement
 	}),
 	n(QUESTS, {
 		q(84370, {	-- The Key to Success
@@ -2072,7 +2072,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			filter(MISC, {
 				i(213000),	-- Holy Flamethrower Torch (QI!)
 				i(213085, {	-- Lost Treasure (QI!)
-					["timeline"] = { ADDED_11_1_0 }
+					["timeline"] = { ADDED_11_1_0_SEASONSTART }
 				}),
 				i(212868),	-- Precious Ore (QI!)
 				i(226222),	-- Webbed Hookshot (QI!)
@@ -2470,7 +2470,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		},
 	}),
 	m(SIDESTREET_SLUICE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-		["timeline"] = { ADDED_11_1_0 },
 		--["icon"] = [[~_.asset("Delves_Nerubian")]],
 		["coord"] = { 35.2, 52.2, UNDERMINE },
 		["maps"] = {
