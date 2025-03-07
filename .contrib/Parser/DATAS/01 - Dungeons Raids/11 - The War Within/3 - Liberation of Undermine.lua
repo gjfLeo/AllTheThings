@@ -26,7 +26,7 @@ local EncounterToCRS = {
 	[LOCKENSTOCK] = { 230583 },	-- Sprocketmonger Lockenstock
 	[BANDIT] = { 228458 },	-- One-Armed Bandit
 	[MUGZEE] = { 229953 },	-- Mug'Zee <Heads of Security>
-	[GALLYWIX] = { 237194 },	-- Chrome King Gallywix
+	[GALLYWIX] = { 237194, 231075 },	-- Chrome King Gallywix
 };
 
 ------ EncounterToLoot ------
