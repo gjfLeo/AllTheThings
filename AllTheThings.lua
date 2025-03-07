@@ -7467,10 +7467,9 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 				})
 
 				-- Dynamic category headers
-				-- TODO: Change the expansion filter solution to something smarter so that it's not necessary to update every expansion
 				-- TODO: If possible, change the creation of names and icons to SimpleNPCGroup to take the localized names
 				local headers = {
-					{ id = "achievementID", name = ACHIEVEMENTS, icon = app.asset("Category_Achievements"), expansion = {3,4,5,6,7,8,9,10,11} },	-- WotLK+
+					{ id = "achievementID", name = ACHIEVEMENTS, icon = app.asset("Category_Achievements"), expansion = {"3+"} },	-- WotLK+
 					{ id = "sourceID", name = "Appearances", icon = 135276 },
 					{ id = "artifactID", name = ITEM_QUALITY6_DESC, icon = app.asset("Weapon_Type_Artifact"), expansion = {7} },	-- Legion only
 					{ id = "azeriteessenceID", name = SPLASH_BATTLEFORAZEROTH_8_2_0_FEATURE2_TITLE, icon = app.asset("Category_AzeriteEssences"), expansion = {8} },	-- BfA only
@@ -7481,11 +7480,11 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 					{ id = "explorationID", name = "Exploration", icon = app.asset("Category_Exploration") },
 					{ id = "factionID", name = L.FACTIONS, icon = app.asset("Category_Factions") },
 					{ id = "flightpathID", name = L.FLIGHT_PATHS, icon = app.asset("Category_FlightPaths") },
-					{ id = "followerID", name = GARRISON_FOLLOWERS, icon = app.asset("Category_Followers"), expansion = {6,7,8,9,10,11} },	-- WoD+
+					{ id = "followerID", name = GARRISON_FOLLOWERS, icon = app.asset("Category_Followers"), expansion = {6,7,8,9} },	-- WoD-SL
 					{ id = "heirloomID", name = HEIRLOOMS, icon = app.asset("Weapon_Type_Heirloom") },
-					{ id = "illusionID", name = L.FILTER_ID_TYPES[103], icon = app.asset("Category_Illusions"), expansion = {6,7,8,9,10,11} },	-- WoD+
+					{ id = "illusionID", name = L.FILTER_ID_TYPES[103], icon = app.asset("Category_Illusions"), expansion = {"6+"} },	-- WoD+
 					{ id = "mountID", name = MOUNTS, icon = app.asset("Category_Mounts") },
-					{ id = "mountmodID", name = "Mount Mods", icon = 975744, expansion = {10,11} },	-- DF+
+					{ id = "mountmodID", name = "Mount Mods", icon = 975744, expansion = {"10+"} },	-- DF+
 					-- TODO: Add professions here using the byValue probably
 					{ id = "questID", name = TRACKER_HEADER_QUESTS, icon = app.asset("Interface_Quest_header") },
 					{ id = "runeforgepowerID", name = LOOT_JOURNAL_LEGENDARIES .. " (" .. EXPANSION_NAME8 .. ")", icon = app.asset("Weapon_Type_Legendary"), expansion = {9} },	-- SL only
@@ -7499,11 +7498,20 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 					local expansionMatches = false
 
 					if header.expansion then
-						-- Loop through the expansion values and check if any match expansionHeader
+						-- Loop through the expansion values
 						for _, expansionValue in ipairs(header.expansion) do
-							if expansionValue == expansionHeader then
+							-- Check if the value is in the format of "+" or a normal integer
+							if type(expansionValue) == "string" and expansionValue:match("^(%d+)%+$") then
+								-- Extract the number before the "+" sign
+								local startExpansion = tonumber(expansionValue:match("^(%d+)%+$"))
+								if startExpansion and startExpansion <= expansionHeader then
+									expansionMatches = true
+									break -- Exit loop once a valid match is found
+								end
+							elseif type(expansionValue) == "number" and expansionValue == expansionHeader then
+								-- If it's a direct match to expansionHeader
 								expansionMatches = true
-								break -- Exit loop once a match is found
+								break -- Exit loop once a valid match is found
 							end
 						end
 					else
@@ -7511,7 +7519,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 						expansionMatches = true
 					end
 
-					-- If expansion doesn't match or there is no expansion table, skip the header
+					-- If expansion matches or there is no expansion table, add the header
 					if expansionMatches then
 						-- Prepare the header data
 						local headerData = {
