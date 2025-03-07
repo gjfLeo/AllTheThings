@@ -358,7 +358,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			["questID"] = 70449,	-- Elite Northrend Expedition Supplies [Heroic]
 			["g"] = {
 				i(198665),	-- Pebble's Pebble
-				i(198647),	-- Fishspeaker's Lucky Lure
+				i(198647),	-- Fishspeaker's Lucky Lure (TOY!)
 				ach(16332, {	-- The Perfect Pebble
 					["providers"] = {
 						{ "n", 194870 },	-- Pebble
@@ -465,7 +465,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				}),
 
 				-- Town-In-A-Box Starter Set Toy (Added with Cataclysm)
-				i(216893, {	-- Goblin Town-in-a-Box
+				i(216893, {	-- Goblin Town-in-a-Box (TOY!)
 					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
 				}),
 			},
