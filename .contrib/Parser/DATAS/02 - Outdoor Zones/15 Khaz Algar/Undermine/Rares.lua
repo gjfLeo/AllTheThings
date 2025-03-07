@@ -92,9 +92,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					},
 				}),
 			}),
-			-- currently daily lockout:
-			-- Candy Stickemup, Court of Rats, Grimewick, Nitro, S.A.L.,
-			-- Scrapbeak, Swigs Farsight, Tally Doublespeak, Thwack, V.V. Goosworth
 			n(231012, {	-- Candy Stickemup
 				["coord"] = { 42.2, 76.7, UNDERMINE },
 				["questID"] = 84927,	-- Candy Stickemup
@@ -105,6 +102,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234218),	-- Goo-blin Grenade
 					i(235304),	-- Gutter Rat Mask
 					i(235310),	-- Flashy Patchwork Trousers
+					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 				},
 			}),
@@ -262,12 +260,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
 					i(235349),	-- Shadowfume Club
-					i(235363),	-- Suspicious Energy Drink
 				},
 			}),
 			n(231288, {	-- Swigs Farsight
 				["coord"] = { 41.3, 43.6, UNDERMINE },
 				["questID"] = 85004,	-- Swigs Farsight
+				["isWeekly"] = true,
 				["g"] = {
 					i(235310),	-- Flashy Patchwork Trousers
 					i(234218),	-- Goo-blin Grenade

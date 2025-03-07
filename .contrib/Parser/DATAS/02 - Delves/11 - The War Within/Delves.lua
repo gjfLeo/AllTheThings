@@ -1287,6 +1287,25 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		hqt(84119),	-- Level 59
 		hqt(83330),	-- Level 60
 		hqt(86974),	-- Level 61
+		hqt(86975),	-- Level 62
+		hqt(86976),	-- Level 63
+		hqt(86977),	-- Level 64
+		hqt(86978),	-- Level 65
+		hqt(86979),	-- Level 66
+		hqt(86980),	-- Level 67
+		hqt(86981),	-- Level 68
+		hqt(86982),	-- Level 69
+		hqt(86983),	-- Level 70
+		hqt(86984),	-- Level 71
+		hqt(86985),	-- Level 72
+		hqt(86986),	-- Level 73
+		hqt(86987),	-- Level 74
+		hqt(86988),	-- Level 75
+		hqt(86989),	-- Level 76
+		hqt(86990),	-- Level 77
+		hqt(86991),	-- Level 78
+		hqt(86992),	-- Level 79
+		--hqt(86993),	-- Level 80 Attached on achievement
 	}),
 	n(QUESTS, {
 		q(84370, {	-- The Key to Success
@@ -3010,7 +3029,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(85210),	-- Delve-O-Bot 7001 (spellID 467097)
 			q(85206),	-- Warbound Equipment Set (spellID 467089)
 			q(85205),	-- Discounted Restored Coffer Key (spellID 467087)
-			--q(86878),	-- Where We Thrive (camp site) (spellID 1217505?)
+			q(86878),	-- Where We Thrive (camp site) (spellID 1217505?)
 
 			q(86371),	-- Delver's Bounty weekly lockout (source doesn't matter)
 			q(86438),	-- Opened first Nemesis Strongbox (first purple on account)

@@ -61,6 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				filter(TRINKET_F, {
 					i(232485),	-- Mechano-Core Amplifier
+					i(235363),	-- Suspicious Energy Drink
 					i(232883),	-- Turbo-Drain 5000
 				}),
 			}),

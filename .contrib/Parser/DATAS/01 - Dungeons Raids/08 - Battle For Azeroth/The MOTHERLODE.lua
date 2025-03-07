@@ -193,6 +193,23 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 					}),
 				},
 			}),
+			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+				e(2116, {	-- Mogul Razdunk
+					["crs"] = {
+						129232,	-- Mogul Razdunk
+						132713,	-- Mogul Razdunk
+					},
+					["g"] = {
+						i(235416),	-- Crashguard Spaulders
+						i(235418),	-- Exquisitely Aerodynamic Shoulderpads
+						i(235419),	-- High Altitude Turban
+						i(235420),	-- Petticoat of the Self-Stylized Azerite Baron
+						i(235460),	-- Shrapnel-Dampening Chestguard
+						i(235415),	-- Skyscorcher Pauldrons
+						i(235417),	-- Venture Co. Plenipotentiary Vest
+					},
+				}),
+			})),
 			d(DIFFICULTY.DUNGEON.MYTHIC, {
 				["difficulties"] = { DIFFICULTY.DUNGEON.KEYSTONE, DIFFICULTY.DUNGEON.MYTHIC },
 				["g"] = {

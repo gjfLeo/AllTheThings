@@ -222,8 +222,17 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 					}),
 				},
 			}),
-			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
+			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
 				n(MECHAGON_WORKSHOP, {
+					e(2339, {	-- K.U.-J.0.
+						["crs"] = { 144246 },	-- K.U.-J.0.
+						["g"] = {
+							i(232546),	-- K.U.-J.0.'s Flame Vents
+							i(199921, {	-- Trashmaster's Mantle
+								["modID"] = 2,
+							}),
+						},
+					}),
 					e(2331, {	-- King Mechagon
 						["crs"] = {
 							150396,	-- Aerial Unit R-21/X
@@ -231,6 +240,13 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							144249,	-- Omega Buster
 						},
 						["g"] = {
+							i(235222),	-- Apogee Inventor's Goggles
+							i(235810),	-- Circuit-Linked Chainmail
+							i(235811),	-- Extravagant Epaulets
+							i(235226),	-- Inventor's Ingenious Trifocals
+							i(235809),	-- Mechanized Plate Chasse
+							i(235224),	-- Mekgineer's Mindbending Headgear
+							i(235223),	-- Psychogenic Prognosticator's Lenses
 							i(235812),	-- Shoulderguards of Fraying Sanity
 						},
 					}),

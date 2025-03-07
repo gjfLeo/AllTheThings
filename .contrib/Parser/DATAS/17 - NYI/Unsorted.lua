@@ -13,7 +13,6 @@ root(ROOTS.Unsorted, {
 				i(234525),	-- Corrupted Crown
 
 				-- Mythic + Mechagon?
-				i(232546),	-- K.U.-J.0.'s Flame Vents
 				i(232547),	-- Omega Strike Force
 
 				-- wtf is this :( Zonedrop/Zone rewards
@@ -51,17 +50,6 @@ root(ROOTS.Unsorted, {
 				i(235491),	-- Immolation Warning
 				i(235492),	-- Oscillating Scrapcleaver
 				i(235494),	-- Biker Gang's Spare Tire
-
-				i(235415),	-- Skyscorcher Pauldrons
-				i(235416),	-- Crashguard Spaulders
-				i(235417),	-- Venture Co. Plenipotentiary Vest
-				i(235418),	-- Exquisitely Aerodynamic Shoulderpads
-				i(235419),	-- High Altitude Turban
-				i(235420),	-- Petticoat of the Self-Stylized Azerite Baron
-				i(235460),	-- Shrapnel-Dampening Chestguard
-				i(235809),	-- Mechanized Plate Chasse
-				i(235810),	-- Circuit-Linked Chainmail
-				i(235811),	-- Extravagant Epaulets
 			}),
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner
@@ -367,12 +355,6 @@ root(ROOTS.Unsorted, {
 				prof(ENGINEERING, {
 
 					i(235037),	-- Crumpled Schematic: Wormhole Generator: Undermine
-
-					-- Engineering Googles
-					i(235222),	-- Apogee Inventor's Goggles
-					i(235223),	-- Psychogenic Prognosticator's Lenses
-					i(235224),	-- Mekgineer's Mindbending Headgear
-					i(235226),	-- Inventor's Ingenious Trifocals
 				}),
 			}),
 			n(PVP, {
@@ -554,9 +536,6 @@ root(ROOTS.Unsorted, {
 			i(237259),	-- Kapow Kanapes
 			i(237260),	-- Glass of Daylight Dew
 			i(237268),	-- How to Get Out of Parking Tickets More Than Once
-			i(237345),	-- Limited Edition Rocket Bobber
-			i(237346),	-- Artisan Beverage Goblet Bobber
-			i(237347),	-- Organically-Sourced Wellington Bobber
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old
