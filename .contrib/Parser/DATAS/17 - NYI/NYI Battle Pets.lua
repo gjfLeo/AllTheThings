@@ -1550,5 +1550,13 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			pet(4549),	-- Tiny Cragling (PET!)
 			pet(4560),	-- Zaedu (PET!)
 		})),
+
+		-- 11.0.7
+		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
+			-- Only SpeciesID
+			pet(4725, {	-- Titan Orb PET!)
+				--["displayID"] = ,
+			}),
+		})),
 	}),
 }));

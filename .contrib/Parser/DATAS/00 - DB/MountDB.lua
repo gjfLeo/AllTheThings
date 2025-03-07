@@ -1963,8 +1963,8 @@ i(234721, 1214940);	-- Ur'zul Fleshripper
 -- PATCH 11.1.0 --
 ------------------
 i(229952, 466023);	-- Asset Advocator
-i(0, 466024);		-- Bilgewater Bombardier
-i(0, 466001);		-- Blackwater Bonecrusher
+i(229957, 466024);	-- Bilgewater Bombardier
+i(229937, 466001);	-- Blackwater Bonecrusher
 i(229948, 466019);	-- Blackwater Shredder Deluxe Mk 2
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(229935, 465999);	-- Crimson Armored Growler
@@ -1975,7 +1975,6 @@ i(229955, 466027);	-- Darkfuse Spy-Eye
 i(229974, 466133);	-- Delver's Gob-Trotter
 i(237141, 1221694);	-- Enterprising Shreddertank
 i(229940, 466011);	-- Flarendo the Furious
---i(232523, 460013);	-- G-99 Breakneck
 i(229941, 466017);	-- Innovation Investigator
 i(231173, 468068);	-- Junkmaestro's Magnetomech
 i(229954, 466025);	-- Margin Manipulator
@@ -1996,7 +1995,7 @@ i(0, 466014);		-- Steamwheedle Supplier
 i(235626, 1217760);	-- The Big G
 i(229944, 466016);	-- The Topskimmer Special
 i(229945, 466012);	-- Thunderdrum Misfire
-i(0, 466022);		-- Venture Co-ordinator
+i(229951, 466022);	-- Venture Co-ordinator
 i(229989, 466146);	-- Vicious Electro Eel [A]
 i(229988, 466145);	-- Vicious Electro Eel [H]
 i(229936, 466002);	-- Violet Armored Growler
@@ -2010,7 +2009,8 @@ i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly
 i(235556, 1217342);	-- Violet Darkmoon Charger
---- Probably not real Mounts
+--- NYI ---
+i(232523, 460013);	-- G-99 Breakneck
 i(0, 466423);	-- Unstable Rocket
 i(0, 466464);	-- Unstable Rocket
 

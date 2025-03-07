@@ -463,7 +463,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 					["sourceID"] = 220348,
 					["f"] = CLOTH,
 				}),
-				
+
 				-- Town-In-A-Box Starter Set Toy (Added with Cataclysm)
 				i(216893, {	-- Goblin Town-in-a-Box
 					["timeline"] = { ADDED_4_4_0, REMOVED_4_4_2 },
@@ -501,9 +501,9 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				--i(xxxxxx),	-- Joyous Pet (PET!)
 				--Ensemble: Stormstout's Sha-Touched Collection Transmog Set (Classic)
 				-- Sha-Touched Tea Set Toy (Added with Mists of Pandaria)
-				--i(xxxxxx, {	-- Sha-Touched Tea Set Toy
-				--	["timeline"] = { ADDED_4_4_2, REMOVED_5_5_2 },
-				--}),
+				i(235464, {	-- Sha-Touched Tea Set (TOY!)
+					["timeline"] = { ADDED_4_4_2, REMOVED_5_5_2 },
+				}),
 			},
 		}),
 	})),

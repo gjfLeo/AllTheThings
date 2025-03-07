@@ -148,7 +148,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 							i(233557, {	-- Sifted Pile of Scrap
 								["cost"] = {{ "c", 3218, 333 }},	-- Empty Kaja'Cola Can
 								["g"] = {
-									i(229949),	-- Personalized Goblin S.C.R.A.Per
+									i(229949),	-- Personalized Goblin S.C.R.A.Per (MOUNT!)
 									i(232838),	-- Viridian Mechasaur (PET!)
 								},
 							}),

@@ -1,6 +1,3 @@
-11.0.7.57361
-pet(4725),	-- Titan Orb
-11.0.7.58533
 11.1.0.58221
 pet(4665),	-- Yellow Tropical Frog
 pet(4670),	-- Hermes
@@ -11,18 +8,14 @@ pet(4674),	-- Dosh
 pet(4675),	-- FO-MO Mark II
 pet(4676),	-- Bawkinator 2000
 pet(4677),	-- Black Cave Crab
-pet(4693),	-- Alchemical Runoff
 pet(4738),	-- Status Symbol
 pet(4739),	-- Fancier Rat
-pet(4740),	-- Handbag Hyena
 
 
 
 
 Missing in PetDB.lua
 
-11.0.7.57361
-pet(4725),	-- Titan Orb
 11.1.0.58221
 pet(4665),	-- Yellow Tropical Frog
 pet(4670),	-- Hermes
@@ -33,7 +26,5 @@ pet(4674),	-- Dosh
 pet(4675),	-- FO-MO Mark II
 pet(4676),	-- Bawkinator 2000
 pet(4677),	-- Black Cave Crab
-pet(4693),	-- Alchemical Runoff
 pet(4738),	-- Status Symbol
 pet(4739),	-- Fancier Rat
-pet(4740),	-- Handbag Hyena

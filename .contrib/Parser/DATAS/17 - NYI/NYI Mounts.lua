@@ -949,5 +949,19 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 				["displayID"] = 119685,
 			}),
 		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+			mount(466423, {	-- Unstable Rocket
+				--["displayID"] = ,
+			}),
+			mount(466464, {	-- Unstable Rocket
+				--["displayID"] = ,
+			}),
+			-- With MountID attached
+			i(232523, {	-- G-99 Breakneck
+				--["displayID"] = ,
+			}),
+		})),
 	}),
 }));

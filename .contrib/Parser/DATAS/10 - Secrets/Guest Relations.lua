@@ -1258,7 +1258,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							o(466393, {	-- Astral Chest
 								["provider"] = { "i", 228965 },	-- Astral Key
 								["coord"] = { 48.4, 79.5, 46 },	-- Karazhan Catacombs
-								["g"] = { i(228966) },	-- Starry-Eyed Goggles
+								["g"] = { i(228966) },	-- Starry-Eyed Goggles (TOY!)
 							}),
 							o(466400, {	-- Property of Elder Ko'nani
 								["description"] = "Code to open at the adjacent decryption console: 88224646",
@@ -1553,8 +1553,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["description"] = "Return to Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.\n\nUse your Starry-Eyed goggles to reveal a translucent platform, use your Relic of Crystal Connections on the humming crystal to get up to it.\n\nCode to open at the adjacent decryption console: 84847078.\n\nFully lights the 9 O'clock Basin.",
 						["sourceQuest"] = 84837,	-- Decipher the Enigma Machine
 						["providers"] = {
-							{ "i", 228966 },	-- Relic of Crystal Connections
-							{ "i", 228996 },	-- Starry-Eyed Goggles
+							{ "i", 228966 },	-- Starry-Eyed Goggles
+							{ "i", 228996 },	-- Relic of Crystal Connections
 						},
 						["coords"] = {
 							{ 55.1, 19.0, AZJ_KAHET },	-- Cave Entrance

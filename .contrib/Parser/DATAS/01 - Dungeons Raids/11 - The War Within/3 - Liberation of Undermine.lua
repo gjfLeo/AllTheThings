@@ -415,7 +415,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 								i(466012),		-- Thunderdrum Misfire	(MOUNT!)
 							}, {	-- RENOWN 9 --
 								i(232844),			-- Fuz-Size Flarendo (PET!)
-								i(232806),			-- Tiny Torq	(PET!)
+								i(232806),			-- Tiny Torq (PET!)
 							}, {	-- RENOWN 10 --
 							}, {	-- RENOWN 11 --
 								i(237578),			-- Counterfeit Dealer's Chip

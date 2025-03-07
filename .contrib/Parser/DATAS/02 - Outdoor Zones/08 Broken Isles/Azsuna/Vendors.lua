@@ -90,6 +90,9 @@ root(ROOTS.Zones, {
 								["cost"] = 10000000,	-- 1,000g
 								["timeline"] = { ADDED_7_1_0 },
 							}),
+							i(130157, {	-- Syxsehnz Rod (TOY!)
+								["cost"] = 5000000,		-- 500g
+							}),
 							i(137773, {	-- Vantus Rune Technique: Cenarius [Rank 3] (RECIPE!)
 								["cost"] = 20000000,	-- 2,000g
 							}),

@@ -594,3 +594,43 @@
 10.2.6.53840
 2604@@@Keg Leg's Crew (Paragon)
 2616@@@Keg Leg Thrasher
+11.0.0.54311
+2569@@@The War Within
+2579@@@zzOldDelves: Season 1
+2580@@@Test Faction Alpha
+2595@@@Order of Night
+2596@@@The Severed Threads (Paragon)
+2602@@@Umbral Bazaar
+2606@@@The High Hollows
+2609@@@The Burrows
+2610@@@Azj-Kaheti Nerubian (Always Hostile) (Hidden)
+2611@@@Hallowfall Arathi (Paragon)
+2612@@@Council of Dornogal (Paragon)
+2613@@@The Assembly of the Deeps (Paragon)
+2614@@@The Siegehold
+2635@@@The Skeins
+2637@@@PLAYER, Earthen Alliance
+2638@@@PLAYER, Earthen Horde
+2640@@@Brann Bronzebeard
+2644@@@Delves: Season 1
+2645@@@Earthen
+2647@@@The Vizier (Paragon)
+2648@@@The Weaver (Paragon)
+2649@@@The General (Paragon)
+11.0.5.56487
+2682@@@Unknown
+11.1.0.58221
+2652@@@Darkfuse Enforcement
+2667@@@The Cartels of Undermine (Paragon)
+2668@@@Darkfuse Solutions (Paragon)
+2670@@@Venture Company (Paragon)
+2672@@@Bilgewater Cartel (Paragon)
+2674@@@Blackwater Cartel (Paragon)
+2676@@@Steamwheedle Cartel (Paragon)
+2683@@@Delves: Season 2
+2684@@@Gallagio Loyalty Rewards Club (Paragon)
+2692@@@Venture Company
+2693@@@Delver's Journey (Season 1)
+2694@@@UNUSED - Brann Bronzebeard (Season 2)
+2695@@@Test Account Wide Stormwind (DNT)
+2697@@@Chase's test faction (DNT)

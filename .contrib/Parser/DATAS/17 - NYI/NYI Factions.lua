@@ -645,6 +645,7 @@ root(ROOTS.NeverImplemented, n(FACTIONS, {
 		})),
 	}),
 	expansion(EXPANSION.DF, {
+		-- 10.0.0
 		expansion(EXPANSION.DF, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
 			faction(2504),	-- Maruuk Centaur (Paragon)
 			faction(2508),	-- Dragonscale Expedition (Paragon)
@@ -668,21 +669,81 @@ root(ROOTS.NeverImplemented, n(FACTIONS, {
 			faction(2554),	-- Clan Toghus
 			faction(2555),	-- Clan Kaighan
 		})),
+
+		-- 10.0.7
 		expansion(EXPANSION.DF, patch(0,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_7 } }, {
 			faction(2557),	-- Hearthfire Fellowship
 		})),
+
+		-- 10.1.0
 		expansion(EXPANSION.DF, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_0 } }, {
 			faction(2565),	-- Loamm Niffen (Paragon)
 		})),
+
+		-- 10.1.7
 		expansion(EXPANSION.DF, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_7 } }, {
 			faction(2576),	-- Druids of the Flame
 		})),
+
+		-- 10.2.0
 		expansion(EXPANSION.DF, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_0 } }, {
 			faction(2575),	-- Dream Wardens (Paragon)
 		})),
+
+		-- 10.2.6
 		expansion(EXPANSION.DF, patch(2,6), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_6 } }, {
 			faction(2604),	-- Keg Leg's Crew (Paragon)
 			faction(2616),	-- Keg Leg Thrasher
+		})),
+	}),
+	expansion(EXPANSION.TWW, {
+		-- 11.0.0
+		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+			faction(2569),	-- The War Within
+			faction(2579),	-- zzOldDelves: Season 1
+			faction(2580),	-- Test Faction Alpha
+			faction(2595),	-- Order of Night
+			faction(2596),	-- The Severed Threads (Paragon)
+			faction(2602),	-- Umbral Bazaar
+			faction(2606),	-- The High Hollows
+			faction(2609),	-- The Burrows
+			faction(2610),	-- Azj-Kaheti Nerubian (Always Hostile) (Hidden)
+			faction(2611),	-- Hallowfall Arathi (Paragon)
+			faction(2612),	-- Council of Dornogal (Paragon)
+			faction(2613),	-- The Assembly of the Deeps (Paragon)
+			faction(2614),	-- The Siegehold
+			faction(2635),	-- The Skeins
+			faction(2637),	-- PLAYER, Earthen Alliance
+			faction(2638),	-- PLAYER, Earthen Horde
+			faction(2640),	-- Brann Bronzebeard
+			faction(2644),	-- Delves: Season 1
+			faction(2645),	-- Earthen
+			faction(2647),	-- The Vizier (Paragon)
+			faction(2648),	-- The Weaver (Paragon)
+			faction(2649),	-- The General (Paragon)
+		})),
+
+		-- 11.0.5
+		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_5 } }, {
+			faction(2682),	--
+		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_0 } }, {
+			faction(2652),	-- Darkfuse Enforcement
+			faction(2667),	-- The Cartels of Undermine (Paragon)
+			faction(2668),	-- Darkfuse Solutions (Paragon)
+			faction(2670),	-- Venture Company (Paragon)
+			faction(2672),	-- Bilgewater Cartel (Paragon)
+			faction(2674),	-- Blackwater Cartel (Paragon)
+			faction(2676),	-- Steamwheedle Cartel (Paragon)
+			faction(2683),	-- Delves: Season 2
+			faction(2684),	-- Gallagio Loyalty Rewards Club (Paragon)
+			faction(2692),	-- Venture Company
+			faction(2693),	-- Delver's Journey (Season 1)
+			faction(2694),	-- UNUSED - Brann Bronzebeard (Season 2)
+			faction(2695),	-- Test Account Wide Stormwind (DNT)
+			faction(2697),	-- Chase's test faction (DNT)
 		})),
 	}),
 }));

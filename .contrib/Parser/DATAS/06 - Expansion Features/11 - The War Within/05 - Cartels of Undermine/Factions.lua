@@ -22,7 +22,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					crit(102754, {	-- Venture Co
 						["minReputation"] = { FACTION_TWW_VENTURE_CO, HONORED },	-- Venture Co Honored
 					}),
-					i(232807),	-- Iron Chick
+					i(232807),	-- Iron Chick (PET!)
 				}),
 				ach(41351, {	-- Cartels Bestie
 					crit(102751, {	-- Bilgewater Cartel

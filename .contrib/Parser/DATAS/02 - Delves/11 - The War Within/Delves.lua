@@ -731,13 +731,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(225891),	-- Vile Vial of Kaheti Bile
 			}),
 		}),
-		filter(BATTLE_PETS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
-			i(232848),	-- Mr. DELVER
+		filter(BATTLE_PETS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			i(232848),	-- Mr. DELVER (PET!)
 		})),
 		filter(TOYS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
 		})),
-		filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
+		filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			i(235617), 	-- Lucky Goblin's Strapped Rockets
 		})),
 		n(BOUNTIFUL, bubbleDownFiltered({
@@ -2072,7 +2072,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			filter(MISC, {
 				i(213000),	-- Holy Flamethrower Torch (QI!)
 				i(213085, {	-- Lost Treasure (QI!)
-					["timeline"] = { ADDED_11_1_0_SEASONSTART }
+					["timeline"] = { ADDED_11_1_0 }
 				}),
 				i(212868),	-- Precious Ore (QI!)
 				i(226222),	-- Webbed Hookshot (QI!)

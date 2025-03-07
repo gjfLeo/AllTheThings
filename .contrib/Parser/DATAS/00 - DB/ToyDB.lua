@@ -5,26 +5,23 @@ local i = function(itemID)
 	Items[itemID] = { ["type"] = "toyID" };
 end
 
+-- #if ANYCLASSIC
 -----------------
 -- CLASSIC WOW --
 -----------------
 -- TBC Classic --
 i(184871);	-- Dark Portal
--- #if ANYCLASSIC
 i(38233);	-- Path of Illidan
--- #endif
 
 -- Wrath Classic --
--- #if ANYCLASSIC
 i(40110);	-- Haunted Momento (Should be a toy...)
--- #endif
 i(198647);	-- Fishspeaker's Lucky Lure
--- #if ANYCLASSIC
 i(38506);	-- Don Carlos' Famous Hat -- With ICC Patch of Wrath Classic, they made the hat (the original removed version) into a Toy. Whether it also functions as a transmog still is not known.
--- #endif
 
 -- Cata Classic
 i(216893);	-- Goblin Town-in-a-Box
+i(235464);	-- Sha-Touched Tea Set
+-- #endif
 
 -----------------
 --   CLASSIC   --
@@ -276,6 +273,13 @@ i(72233);	-- Art Template Plate Wrist - Plate_PVPWarrior_D_01 - Orange
 -- PATCH 4.3.2 --
 -----------------
 i(79769);	-- Demon Hunter's Aspect
+
+-----------------
+-- PATCH 4.4.2 --
+-----------------
+-- #if ANYCLASSIC
+i(235464);	-- Sha-Touched Tea Set
+-- #endif
 
 -----------------
 -- PATCH 5.0.4 --
@@ -1398,10 +1402,8 @@ i(232305);	-- Forged Champion's Prestigious Banner
 i(224192);	-- Practice Ravager
 i(232301);	-- Tempered Banner of the Algari
 --- UNSORTED ---
-i(232302);	-- Unknown
 i(232303);	-- Unknown
 i(232304);	-- Unknown
-i(232306);	-- Unknown
 i(232307);	-- Unknown
 i(232308);	-- Unknown
 
@@ -1414,6 +1416,9 @@ i(235041);	-- Cyrce's Circlet
 i(235017);	-- Glittering Vault Shard
 i(233486);	-- Hallowfall Supply Cache
 i(235288);	-- Sha-Warped Tea Set
+-- #if AFTER 11.0.7
+i(228966);	-- Starry-Eyed Goggles
+-- #endif
 i(234473);	-- Soweezi's Comfy Lawn Chair
 i(218308);	-- Winter Veil Cracker
 --- NYI ---
@@ -1459,5 +1464,7 @@ i(167698);	-- Secret Fish Goggles
 i(238850);	-- Arathi Entertainer's Flame
 i(239007);	-- Dastardly Banner
 i(238852);	-- Flame's Radiance Banner
+i(232302);	-- Prized Banner of the Algari
+i(232306);	-- Prized Champion's Prestigious Banner
 i(239693);	-- Radiant Lynx Whistle
 i(239018);	-- Winner's Podium

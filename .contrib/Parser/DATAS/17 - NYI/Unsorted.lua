@@ -4,6 +4,12 @@
 -- Everything in this file hasn't been sorted yet.
 root(ROOTS.Unsorted, {
 	expansion(EXPANSION.TWW, {
+		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+			filter(TOYS, {
+				i(232302),	-- Prized Banner of the Algari (TOY!)
+				i(232306),	-- Prized Champion's Prestigious Banner	(TOY!)
+			}),
+		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			n(ARMOR, {
 				-- Quest Rewards?
@@ -766,10 +772,8 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			filter(TOYS, {
-				i(232302),	-- Unknown (TOY!)
 				i(232303),	-- Unknown (TOY!)
 				i(232304),	-- Unknown (TOY!)
-				i(232306),	-- Unknown (TOY!)
 				i(232307),	-- Unknown (TOY!)
 				i(232308),	-- Unknown (TOY!)
 			}),

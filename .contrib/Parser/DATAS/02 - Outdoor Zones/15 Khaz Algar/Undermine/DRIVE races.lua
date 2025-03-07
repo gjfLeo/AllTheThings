@@ -88,6 +88,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						40920,	-- The Heaps Leap: Gold
 						40923,	-- The Heaps Leap Reverse: Gold
 					}},
+					["g"] = {
+						title(580),	-- Skyrocketer %s
+					},
 				}),
 			}),
 			n(QUESTS, {

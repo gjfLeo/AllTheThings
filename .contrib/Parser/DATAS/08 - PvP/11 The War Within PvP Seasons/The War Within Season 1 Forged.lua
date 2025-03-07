@@ -80,10 +80,10 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 			ach(40728),	-- Forged Finery
 		})),
 		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART } }, {
-			i(223511, {	-- Vicious Skyflayer [A]
+			i(223511, {	-- Vicious Skyflayer [A] (MOUNT!)
 				["races"] = ALLIANCE_ONLY,
 			}),
-			i(221813, {	-- Vicious Skyflayer [H]
+			i(221813, {	-- Vicious Skyflayer [H] (MOUNT!)
 				["races"] = HORDE_ONLY,
 			}),
 		})),
