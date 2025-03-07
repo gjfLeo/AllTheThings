@@ -64,7 +64,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 			}),
 			expansion(EXPANSION.TWW, {
 				-- 11.1.0
-				expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_0 } }, {
+				expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_0 } }, {
 					i(230985),	-- Nascent Runed Undermine Crest
 					i(230986),	-- Nascent Gilded Undermine Crest
 					i(230987),	-- Nascent Weathered Undermine Crest
