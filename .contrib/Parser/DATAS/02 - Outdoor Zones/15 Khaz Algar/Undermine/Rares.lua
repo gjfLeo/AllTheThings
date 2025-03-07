@@ -127,6 +127,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(229955),	-- Darkfuse Spy-Eye (MOUNT!)
 					i(235832),	-- Oil-Splattered Cloak
 					i(235467),	-- Ominous Oil Residue
+					i(235834),	-- Rocketgrip Turboslicer
 					i(235833),	-- Serrated Slickgrip
 				},
 			}),

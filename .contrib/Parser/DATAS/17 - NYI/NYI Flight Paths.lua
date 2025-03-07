@@ -728,4 +728,20 @@ root(ROOTS.NeverImplemented, n(FLIGHT_PATHS, {
 			fp(2892, {["description"] = "Quest Path 9443: 10.1.7 Heritage - Night Elf - Player Up to the Start of Shadow Hold, Hel'nurath's Room (MPK)"}),
 		})),
 	}),
+	expansion(EXPANSION.TWW, {
+		-- 11.0.0
+		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+			fp(2894, {["description"] = "11.0  - TEST - Dorn Batol, Khaz Algar - (LWB)"}),
+			fp(2938, {["description"] = "The Swaying Span \\ Weapon Master, Nerub'ar Palace"}),
+			fp(2955, {["description"] = "Quest Path 9706: 11.0 Z2 - Max Level - CH3 - Q2 - Pipe Ingress 1 Taxi (SMART)"}),
+			fp(2964, {["description"] = "Quest Path 9786: 11.0 Z2 - Campaign - Ch 3 - Dark Iron From Above - Boss Flyover - (LWB)"}),
+			fp(2967, {["description"] = "Quest Path 9870: 11.0 Raid - Nerubian - Zone - Thread Elevator - 04 Taxi Path 01 - TJS"}),
+			fp(2972, {["description"] = "Jeff the Flightmaster"}),
+		})),
+
+		-- 11.0.2
+		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
+			fp(2987, {["description"] = "The Congealing Pool (One-way)"}),
+		})),
+	}),
 }));

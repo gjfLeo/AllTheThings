@@ -540,7 +540,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 									{ 61.9, 20.1, UNDERMINE },
 									{ 64.9, 19.6, UNDERMINE },
 								},
-								["g"] = { i(226203) },	-- Sliced Lime (QI!)
+								["g"] = {
+									i(226219),	-- Kaja'mite Fragment (QI!)
+									i(226203),	-- Sliced Lime (QI!)
+								},
 							}),
 						},
 					}),

@@ -535,6 +535,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			}),
 		}),
 		i(222727),	-- Angler's Delight
+		i(235805, {["timeline"] = {ADDED_11_1_0}}),	-- Authentic Undermine Clam Chowder
 		i(223971),	-- Azj-Kahet Special
 		i(222728),	-- Beledar's Bounty
 		i(222736),	-- Chippy Tea
@@ -555,6 +556,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		i(225855),	-- Ghoulfish Delight
 		i(222716),	-- Ginger-Glazed Fillet
 		i(222707),	-- Hallowfall Chili
+		i(235853, {["timeline"] = {ADDED_11_1_0}}),	-- Hearty Authentic Undermine Clam Chowder
 		i(222776),	-- Hearty Beledar's Bounty
 		i(222775),	-- Hearty Angler's Delight
 		i(222784),	-- Hearty Chippy Tea
@@ -1441,6 +1443,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		i(224752),	-- Soaked Journal Entry
 		i(220141),	-- Specular Rainbowfish
 		i(220150),	-- Spiked Sea Raven
+		i(235846, {["timeline"] = {ADDED_11_1_0}}),	-- Undermine Clam
+		i(235845, {["timeline"] = {ADDED_11_1_0}}),	-- Undermine Clam Meat
 		i(220139),	-- Whispering Stargazer
 	}),
 	prof(HERBALISM, {

@@ -332,31 +332,10 @@ root(ROOTS.Unsorted, {
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
-
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
-				-- Probably not real
-				mount(466423),	-- Unstable Rocket
-				mount(466464),	-- Unstable Rocket
-				-- just item
-				i(229945),	-- [PH] Goblin Rocket Mount - Red
 			}),
 			n(PROFESSIONS, {
-				prof(COOKING, {
-					i(235805),	-- Authentic Undermine Clam Chowder
-					i(235845),	-- Undermine Clam Meat
-					i(235846),	-- Undermine Clam
-					i(235853),	-- Hearty Authentic Undermine Clam Chowder
-				}),
-				prof(ENCHANTING, {
-					i(230931),	-- Formula: Enchanted Weathered Undermine Crest
-					i(230932),	-- Formula: Enchanted Runed Undermine Crest
-					i(230933),	-- Formula: Enchanted Gilded Undermine Crest
-					i(230985),	-- Nascent Runed Undermine Crest
-					i(230986),	-- Nascent Gilded Undermine Crest
-					i(230987),	-- Nascent Weathered Undermine Crest
-				}),
 				prof(ENGINEERING, {
-
 					i(235037),	-- Crumpled Schematic: Wormhole Generator: Undermine
 				}),
 			}),
@@ -447,7 +426,6 @@ root(ROOTS.Unsorted, {
 				i(225931),	-- Contract Fee
 				i(226215),	-- Kaja'mite Powder
 				i(226216),	-- Kaja'Cola Can
-				i(226219),	-- Kaja'mite Fragment
 				i(226393),	-- Jetpack-in-a-Box
 				i(226522),	-- Demolition Controller Fragment
 				i(226525),	-- Demolition Control Code
@@ -477,8 +455,6 @@ root(ROOTS.Unsorted, {
 				i(232782),	-- Trigger-Sniffer's Greaves
 				i(232784),	-- Stagecrasher's Legguards
 				i(232786),	-- Trigger-Sniffer's Handwraps
-				i(235813),	-- Machine Gob's Iron Grin
-				i(235834),	-- Rocketgrip Turboslicer
 			}),
 			n(SETS, {	-- Tier Sets/Raid
 				i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket

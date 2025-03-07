@@ -1537,7 +1537,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["description"] = "Left behind by Underpin when he was defeated in a delve.",
 			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 			["g"] = {
-				--i(233071, {["timeline"]={ ADDED_11_1_0, REMOVED_11_2_0}}), -- Delver's Bounty
+				i(235813),	-- Machine Gob's Iron Grin
+				--i(233071), -- Delver's Bounty
 			},
 		}),
 		o(503871, {	-- Nemesis Strongbox (gray)

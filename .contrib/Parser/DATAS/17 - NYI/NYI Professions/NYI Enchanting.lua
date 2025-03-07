@@ -62,6 +62,17 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(198679),	-- jrz test vellum quality 3 [DNT]
 				})),
 			}),
+			expansion(EXPANSION.TWW, {
+				-- 11.1.0
+				expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_1_0 } }, {
+					i(230985),	-- Nascent Runed Undermine Crest
+					i(230986),	-- Nascent Gilded Undermine Crest
+					i(230987),	-- Nascent Weathered Undermine Crest
+				})),
+			}),
+			i(230985),	-- Nascent Runed Undermine Crest
+			i(230986),	-- Nascent Gilded Undermine Crest
+			i(230987),	-- Nascent Weathered Undermine Crest
 		}),
 		filter(RECIPES, {
 			expansion(EXPANSION.CLASSIC, {
@@ -280,6 +291,14 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 				-- 11.0.2
 				expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
 					r(455488),	-- Glimmering Haste
+				})),
+
+				-- 11.1.0
+				expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_0 } }, {
+					-- Without SpellID attached
+					i(230931),	-- Formula: Enchanted Weathered Undermine Crest
+					i(230932),	-- Formula: Enchanted Runed Undermine Crest
+					i(230933),	-- Formula: Enchanted Gilded Undermine Crest
 				})),
 			}),
 		}),
