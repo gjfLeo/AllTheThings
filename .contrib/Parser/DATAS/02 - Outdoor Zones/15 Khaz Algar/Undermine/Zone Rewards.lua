@@ -60,7 +60,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(233454),	-- Mechforged Sabatons
 				}),
 				filter(TRINKET_F, {
+					i(235373),	-- Abyssal Volt
+					i(234218),	-- Goo-blin Grenade
 					i(232485),	-- Mechano-Core Amplifier
+					i(235467),	-- Ominous Oil Residue
+					i(235359),	-- Ratfang Toxin
 					i(235363),	-- Suspicious Energy Drink
 					i(232883),	-- Turbo-Drain 5000
 				}),

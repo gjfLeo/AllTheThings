@@ -38,8 +38,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 43.8, 50.8, UNDERMINE },
 				}),
 			}, {	-- RENOWN 9 --
-				-- TODO: missing restored key quest
 				q(85819, {	-- Weathered Crests
+					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
+					["coord"] = { 43.8, 50.8, UNDERMINE },
+				}),
+				q(90557, {	-- Whose Key is This?
 					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 					["coord"] = { 43.8, 50.8, UNDERMINE },
 				}),

@@ -21,7 +21,6 @@ root(ROOTS.Unsorted, {
 				i(233265),	-- Laundered Shoulderpads
 				i(233267),	-- Laundered Cuffs
 				i(233335),	-- Upcycled Jerkin
-				i(233336),	-- Upcycled Waders
 				i(233337),	-- Upcycled Gloves
 				i(233338),	-- Upcycled Helm
 				i(233339),	-- Upcycled Breeches
@@ -29,7 +28,6 @@ root(ROOTS.Unsorted, {
 				i(233342),	-- Upcycled Bindings
 				i(233345),	-- Power-Washed Grips
 				i(233346),	-- Power-Washed Coif
-				i(233347),	-- Power-Washed Greaves
 				i(233350),	-- Power-Washed Bracers
 				i(233544),	-- Descaled Breastplate
 				i(233546),	-- Descaled Gauntlets
@@ -45,7 +43,6 @@ root(ROOTS.Unsorted, {
 				i(235425),	-- Dumpsterdelver's Loop
 				i(235484),	-- Razor-sharp Desk Fan
 				i(235486),	-- Springloaded Kneecap Breaker
-				i(235488),	-- Rocket Taped to a Screwdriver
 				i(235489),	-- Bullet Biter
 				i(235491),	-- Immolation Warning
 				i(235492),	-- Oscillating Scrapcleaver

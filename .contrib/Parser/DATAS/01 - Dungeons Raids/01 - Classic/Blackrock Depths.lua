@@ -1351,7 +1351,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						objective(1, {	-- 0/20 Dark Iron Fanny Pack
 							["provider"] = { "i", 11468 },	-- Dark Iron Fanny Pack
 						}),
-						i(11883, {	-- -- A Dingy Fanny Pack
+						i(11883, {	-- A Dingy Fanny Pack
 							["timeline"] = { REMOVED_4_0_3 },
 						}),
 					},

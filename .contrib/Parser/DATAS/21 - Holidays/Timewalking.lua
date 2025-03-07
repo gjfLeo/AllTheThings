@@ -3699,7 +3699,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 		}),
 		n(QUESTS, {
 			-- TW Cata Quest under level 80
-			q(86556, {	-- -- A Shattered Journey Through Time
+			q(86556, {	-- A Shattered Journey Through Time
 				["provider"] = { "n", 101759 },	-- Kiatke
 				["coords"] = {
 					{ 76.6, 16.6, STORMWIND_CITY },

@@ -99,7 +99,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235347),	-- 100% Sharp Glimmerblade
 					i(235348),	-- Back Alley Shank
-					i(234218),	-- Goo-blin Grenade
 					i(235304),	-- Gutter Rat Mask
 					i(235310),	-- Flashy Patchwork Trousers
 					i(235327),	-- Mend-and-Match Shoulderpads
@@ -268,7 +267,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["isWeekly"] = true,
 				["g"] = {
 					i(235310),	-- Flashy Patchwork Trousers
-					i(234218),	-- Goo-blin Grenade
 					i(235314),	-- Knightrider's Steelfists
 					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots
@@ -282,7 +280,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235328),	-- Boots of the Silver Tongue
 					i(235310),	-- Flashy Patchwork Trousers
-					i(234218),	-- Goo-blin Grenade
 					i(235355),	-- Gossi-blin's Baton
 					i(235327),	-- Mend-and-Match Shoulderpads
 					i(235320),	-- S.1.Z.Z.L.E.S.T.E.P Boots

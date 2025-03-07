@@ -870,7 +870,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235455),	-- Junkreaver's Breastplate
 							i(235456),	-- Junkreaver's Crushers
 							i(235457),	-- Junkreaver's Gauntlets
-							i(235458),	-- Junkreaver's Legplates
+							i(235458),	-- Junkreaver's Scrapgaze
+							i(235459),	-- Junkreaver's Legplates
 							i(235461),	-- Junkreaver's Shoulderplates
 							i(235462),	-- Junkreaver's Girdle
 							i(235463),	-- Junkreaver's Coils
@@ -906,6 +907,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235487),	-- Interest Compounder
 						i(235495),	-- Missile Guided Throat Slitter
 						i(235485),	-- Oil Gouger
+						i(235488),	-- Rocket Taped to a Screwdriver
 					})),
 				}),
 			},

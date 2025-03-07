@@ -194,14 +194,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										--i(233338),	-- Upcycled Helm
 										--i(233335),	-- Upcycled Jerkin
 										--i(233341),	-- Upcycled Sash
-										--i(233336),	-- Upcycled Waders
+										i(233336),	-- Upcycled Waders
 									}),
 									filter(MAIL, {
 										i(233349),	-- Power-Washed Belt
 										--i(233350),	-- Power-Washed Bracers
 										i(233343),	-- Power-Washed Chainmail
 										--i(233346),	-- Power-Washed Coif
-										--i(233347),	-- Power-Washed Greaves
+										i(233347),	-- Power-Washed Greaves
 										--i(233345),	-- Power-Washed Grips
 										i(233348),	-- Power-Washed Shoulderguards
 										i(233344),	-- Power-Washed Striders
