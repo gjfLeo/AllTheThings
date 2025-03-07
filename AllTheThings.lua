@@ -7404,6 +7404,22 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 		tww = {param = TWW, header = 11}
 	}
 
+	-- Function for dynamic groups
+	local function GetSearchCriteriaForPatch(patch)
+		local dynamic_searchcriteria = {
+			SearchValueCriteria = {
+				-- Only include 'awp' search results where the value is equal to the patch
+				function(o, field, value)
+					local awp = o[field]
+					if not awp then return end
+					return (app.GetRelativeValue(o, "awp") or 0) == patch
+				end
+			},
+		}
+		return dynamic_searchcriteria
+	end
+
+
 	-- Iterate over the expansions and check for the selected one
 	for k, v in pairs(expansions) do
 		if app.GetCustomWindowParam("awp", k) == true then
@@ -7436,10 +7452,90 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 				end
 				lastDigits = patchString:sub(-2)  -- "02"	-- Patch x.x.2
 				formattedPatch = majorVersion .. "." .. middleDigits .. lastDigits
-				-- Add the patch to the list
-				table.insert(patchBuild, app.CreateExpansion(formattedPatch, {
-					["g"] = app:BuildSearchResponse("awp", patch),
-				}))
+
+				-- Create the patch header
+				local patchHeader = app.CreateExpansion(formattedPatch, {})
+
+				-- Fetch search results
+				local searchResults = app:BuildSearchResponse("awp", patch)
+
+				-- Create the dynamic category
+				local dynamicCategory = app.CreateRawText(L.CLICK_TO_CREATE_FORMAT:format(L.SETTINGS_MENU.DYNAMIC_CATEGORY_LABEL), {
+					["icon"] = app.asset("Interface_CreateDynamic"),
+					["OnUpdate"] = app.AlwaysShowUpdate,
+					["g"] = {}
+				})
+
+				-- Dynamic category headers
+				-- TODO: Change the expansion filter solution to something smarter so that it's not necessary to update every expansion
+				-- TODO: If possible, change the creation of names and icons to SimpleNPCGroup to take the localized names
+				local headers = {
+					{ id = "achievementID", name = ACHIEVEMENTS, icon = app.asset("Category_Achievements"), expansion = {3,4,5,6,7,8,9,10,11} },	-- WotLK+
+					{ id = "sourceID", name = "Appearances", icon = 135276 },
+					{ id = "artifactID", name = ITEM_QUALITY6_DESC, icon = app.asset("Weapon_Type_Artifact"), expansion = {7} },	-- Legion only
+					{ id = "azeriteessenceID", name = SPLASH_BATTLEFORAZEROTH_8_2_0_FEATURE2_TITLE, icon = app.asset("Category_AzeriteEssences"), expansion = {8} },	-- BfA only
+					{ id = "speciesID", name = AUCTION_CATEGORY_BATTLE_PETS, icon = app.asset("Category_PetJournal") },
+					{ id = "characterUnlock", name = CHARACTER .. " " .. UNLOCK .. "s", icon = app.asset("Category_ItemSets") },
+					{ id = "conduitID", name = GetSpellName(348869) .. " (" .. EXPANSION_NAME8 .. ")", icon = 3601566, expansion = {9} },	-- SL only
+					{ id = "currencyID", name = CURRENCY, icon = app.asset("Interface_Vendor") },
+					{ id = "explorationID", name = "Exploration", icon = app.asset("Category_Exploration") },
+					{ id = "factionID", name = L.FACTIONS, icon = app.asset("Category_Factions") },
+					{ id = "flightpathID", name = L.FLIGHT_PATHS, icon = app.asset("Category_FlightPaths") },
+					{ id = "followerID", name = GARRISON_FOLLOWERS, icon = app.asset("Category_Followers"), expansion = {6,7,8,9,10,11} },	-- WoD+
+					{ id = "heirloomID", name = HEIRLOOMS, icon = app.asset("Weapon_Type_Heirloom") },
+					{ id = "illusionID", name = L.FILTER_ID_TYPES[103], icon = app.asset("Category_Illusions"), expansion = {6,7,8,9,10,11} },	-- WoD+
+					{ id = "mountID", name = MOUNTS, icon = app.asset("Category_Mounts") },
+					{ id = "mountmodID", name = "Mount Mods", icon = 975744, expansion = {10,11} },	-- DF+
+					-- TODO: Add professions here using the byValue probably
+					{ id = "questID", name = TRACKER_HEADER_QUESTS, icon = app.asset("Interface_Quest_header") },
+					{ id = "runeforgepowerID", name = LOOT_JOURNAL_LEGENDARIES .. " (" .. EXPANSION_NAME8 .. ")", icon = app.asset("Weapon_Type_Legendary"), expansion = {9} },	-- SL only
+					{ id = "titleID", name = PAPERDOLL_SIDEBAR_TITLES, icon = app.asset("Category_Titles") },
+					{ id = "toyID", name = TOY_BOX, icon = app.asset("Category_ToyBox") },
+				}
+
+				-- Loop through the dynamic headers and insert them into the "g" field of dynamic category
+				for _, header in ipairs(headers) do
+					-- Check if header.expansion exists and if any value in the table matches expansionHeader
+					local expansionMatches = false
+
+					if header.expansion then
+						-- Loop through the expansion values and check if any match expansionHeader
+						for _, expansionValue in ipairs(header.expansion) do
+							if expansionValue == expansionHeader then
+								expansionMatches = true
+								break -- Exit loop once a match is found
+							end
+						end
+					else
+						-- If there is no expansion field, always pass the condition
+						expansionMatches = true
+					end
+
+					-- If expansion doesn't match or there is no expansion table, skip the header
+					if expansionMatches then
+						-- Prepare the header data
+						local headerData = {
+							dynamic_value = patch,
+							dynamic_searchcriteria = GetSearchCriteriaForPatch(patch),
+							name = header.name,
+							icon = header.icon
+						}
+
+						-- Use CreateDynamicHeaderByValue if byValue flag is set
+						if header.byValue then
+							tinsert(dynamicCategory.g, app.CreateDynamicHeaderByValue(header.id, headerData))
+						else
+							tinsert(dynamicCategory.g, app.CreateDynamicHeader(header.id, headerData))
+						end
+					end
+				end
+
+				-- Merge patchHeaders and searchResults with dynamicCategory
+				patchHeader.g = searchResults
+				tinsert(patchHeader.g, dynamicCategory)
+
+				-- Insert the final merged patchHeader into patchBuild
+				tinsert(patchBuild, patchHeader)
 			end
 			return patchBuild
 		end
