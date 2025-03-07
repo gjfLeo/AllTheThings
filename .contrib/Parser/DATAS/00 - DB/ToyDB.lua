@@ -1450,3 +1450,14 @@ i(235672);	-- Venture Co. Banner
 i(235519);	-- Prized Legend's Pennant
 i(236751);	-- Take-Home Flarendo
 i(236749);	-- Take-Home Torq
+
+------------------
+-- PATCH 11.1.5 --
+------------------
+i(167698);	-- Secret Fish Goggles
+--- UNSORTED ---
+i(238850);	-- Arathi Entertainer's Flame
+i(239007);	-- Dastardly Banner
+i(238852);	-- Flame's Radiance Banner
+i(239693);	-- Radiant Lynx Whistle
+i(239018);	-- Winner's Podium

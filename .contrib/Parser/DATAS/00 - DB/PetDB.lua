@@ -4110,7 +4110,6 @@ i(0, 4503);			-- Sporbit [Teal]
 i(0, 4508);			-- Sporbit [Yellow]
 i(0, 4584);			-- Tan Stagshell
 i(222969, 4474);	-- Anub'Rekyute
-i(221851, 4466);	-- Argos
 i(221764, 4519);	-- Burntram
 i(222979, 4545);	-- Clay Stonecharger
 i(221762, 4484);	-- Frenzied Bloodtick
@@ -4361,6 +4360,26 @@ i(0, 4738);	-- Status Symbol
 i(0, 4743);	-- Swabbie
 --- UNSORTED ---
 i(235909, 4755);	-- Gleam
-i(232857, 4635);	-- Goggles
 i(232854, 4634);	-- Grinner
 i(232856, 4633);	-- Scruff
+
+------------------
+-- PATCH 11.1.5 --
+------------------
+--- ITEM ---
+
+--- UNSORTED ---
+i(0, 4792);	-- Ada the Sweetest
+i(221851, 4466);	-- Argos
+i(235794, 4747);	-- Eye of Chaos
+i(236409, 4757);	-- Frumpy Softpaw
+i(232857, 4635);	-- Goggles
+i(238986, 4794);	-- Mister Mans
+i(0, 4761);	-- Pascal the Wonder Pup
+i(235980, 4756);	-- Scourge of the Aspects
+i(241188, 4804);	-- Swiftpaw
+i(238942, 4793);	-- The Wonder Pup
+i(238796, 4791);	-- Thrrrdgl
+i(235793, 4748);	-- Void-Scarred Parrot
+i(235795, 4749);	-- Void-Scarred Scorpid
+i(235797, 4750);	-- Void-Scarred Tallstrider Chick

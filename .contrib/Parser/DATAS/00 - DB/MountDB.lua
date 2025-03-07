@@ -1707,14 +1707,12 @@ i(210070, 424534);	-- Vicious Moonbeast
 i(210069, 424535);	-- Vicious Moonbeast
 i(210059, 424476);	-- Winter Night Dreamsaber
 --- NYI ---
-i(210141, 424601);	-- [PH] Brown-Furred Spiky Bakar
 i(210143, 424608);	-- [PH] White-Furred Bakar
 i(210144, 424610);	-- [PH] Yellow-Furred Spiky Bakar
 i(210145, 424611);	-- [PH] YellowBlack-Furred Bakar
 -- #if BEFORE 11.0.5
 i(211075, 428013);	-- Deathbringer's Shadowcycle
 -- #endif
-i(211089, 428068);	-- Felreaver Deathcycle
 i(211086, 428065);	-- Jeweled Jade Scarab
 i(211085, 428062);	-- Jeweled Sapphire Scarab
 i(210140, 0);		-- [PH] Black-Furred Bakar
@@ -1834,7 +1832,6 @@ i(223154, 447156);	-- [PH] Firebee Mount (White Skin, White Saddle)
 i(222988, 447173);	-- [PH] Firefly2Mount (Green)
 i(222991, 447181);	-- [PH] Firefly2Mount (Purple)
 i(221778, 447161);	-- [PH] Firefly2Mount (Yellow)
-i(223265, 447189);	-- [PH] FlyingNerubian2 Mount (Tan Body, Orange Saddle)
 i(224413, 452768);	-- [PH] Goliathus (Blue)
 i(224414, 452777);	-- [PH] Goliathus (Green)
 i(224416, 452780);	-- [PH] Goliathus (Purple)
@@ -2016,3 +2013,32 @@ i(235556, 1217342);	-- Violet Darkmoon Charger
 --- Probably not real Mounts
 i(0, 466423);	-- Unstable Rocket
 i(0, 466464);	-- Unstable Rocket
+
+------------------
+-- PATCH 11.1.5 --
+------------------
+--- ITEM ---
+
+--- UNSORTED ---
+i(238902, 1226533);	-- Autumn Harvesthog
+i(210141, 424601);	-- Brown-Furred Spiky Bakar
+i(235711, 1218316);	-- Corruption of the Aspects
+i(238941, 1226740);	-- Lavaborn Azure Chimaera
+i(238968, 1226856);	-- Lavaborn Citrine Chimaera
+i(238966, 1226851);	-- Lavaborn Emerald Chimaera
+i(238967, 1226855);	-- Lavaborn Ruby Chimaera
+i(223265, 447189);	-- Nesting Swarmite
+i(235709, 1218314);	-- Ny'alothan Shadow Worm
+i(0, 1226421);	-- Radiant Imperial Lynx
+i(236415, 1219705);	-- Spotted Black Riding Goat
+i(238897, 1226511);	-- Spring Harvesthog
+i(238900, 1226531);	-- Summer Harvesthog
+i(239020, 1227076);	-- Tyrannotort
+i(235712, 1218317);	-- Void-Crystal Panther
+i(235705, 1218305);	-- Void-Forged Stallion
+i(235700, 1218229);	-- Void-Scarred Gryphon
+i(0, 1228865);	-- Void-Scarred Lynx
+i(235706, 1218306);	-- Void-Scarred Pack Mother
+i(235707, 1218307);	-- Void-Scarred Windrider
+i(211089, 428068);	-- Voidfire Deathcycle
+i(238901, 1226532);	-- Winter Harvesthog
