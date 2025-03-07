@@ -1969,7 +1969,7 @@ i(229948, 466019);	-- Blackwater Shredder Deluxe Mk 2
 i(233064, 473188);	-- Bronze Goblin Wave Shredder
 i(229935, 465999);	-- Crimson Armored Growler
 i(235549, 1217235);	-- Crimson Shreddertank
-i(0, 466000);		-- Darkfuse Chompactor
+i(229924, 466000);	-- Darkfuse Chompactor
 i(229950, 466018);	-- Darkfuse Demolisher
 i(229955, 466027);	-- Darkfuse Spy-Eye
 i(229974, 466133);	-- Delver's Gob-Trotter

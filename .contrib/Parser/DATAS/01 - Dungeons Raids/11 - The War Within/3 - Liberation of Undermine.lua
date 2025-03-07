@@ -426,7 +426,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 								i(237578),			-- Counterfeit Dealer's Chip
 							}, {	-- RENOWN 16 --
 							}, {	-- RENOWN 17 --
-								mount(466000),		-- Darkfuse Chompactor (MOUNT!)
+								i(229924),		-- Darkfuse Chompactor (MOUNT!)
 							}, {	-- RENOWN 18 --
 							}, {	-- RENOWN 19 --
 							}, {	-- RENOWN 20 --
