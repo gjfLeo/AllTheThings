@@ -904,6 +904,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
 						i(235490),	-- Clawbacker Halberd
 						i(235493),	-- Ignited Flare Jar
+						i(235491),	-- Immolation Warning
 						i(235487),	-- Interest Compounder
 						i(235495),	-- Missile Guided Throat Slitter
 						i(235485),	-- Oil Gouger
@@ -1486,6 +1487,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		-- Mislaid Curiosities can be found throughout all Delves, random coordinates
 		o(455914, {	-- Mislaid Curiosity
 			["description"] = "Contains Chunk of Companion Experience tokens.",
+			["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 			["g"] = {
 				-- First versions
 				i(228071),	-- Chunk of Companion Experience (Uncommon)
@@ -1506,6 +1508,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(235503),	-- Chunk of Companion Experience (Rare)
 				i(235502),	-- Chunk of Companion Experience (Epic)
 				-- Miscellaneous
+				i(231099),	-- Back-Strapped Missile
 				i(233055),	-- Corpse Cleaner
 				i(233118),	-- Incontinental Takeout
 				i(233205),	-- Go-Go Juice

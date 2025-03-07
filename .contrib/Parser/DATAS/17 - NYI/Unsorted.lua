@@ -50,7 +50,6 @@ root(ROOTS.Unsorted, {
 				i(235484),	-- Razor-sharp Desk Fan
 				i(235486),	-- Springloaded Kneecap Breaker
 				i(235489),	-- Bullet Biter
-				i(235491),	-- Immolation Warning
 				i(235492),	-- Oscillating Scrapcleaver
 				i(235494),	-- Biker Gang's Spare Tire
 			}),
@@ -302,7 +301,6 @@ root(ROOTS.Unsorted, {
 				i(230187),	-- Lucio Boombox
 				i(230807),	-- Drill Hands
 				i(230990),	-- Set Keystone Map: Operation: Floodgate
-				i(231099),	-- Back-Strapped Missile
 				i(231291),	-- Radar
 				i(231787),	-- Vigilante's Disposable Falling Shadow Grapple Gun
 				i(232874),	-- Undermine Stockpile

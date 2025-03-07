@@ -243,6 +243,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(SCRAP, {
+			n(EVENT_COMPLETION, {
+				-- Scrap related but exact trigger unknown
+				--q(86262),	--
+				--q(87280),	--
+				--q(90471),	--
+				--q(90472),	--
+				--q(90473),	--
+			}),
 			-- Location quests
 			-- Fire only once per spot (for character?)
 			q(87316),	-- Blackwater Marina

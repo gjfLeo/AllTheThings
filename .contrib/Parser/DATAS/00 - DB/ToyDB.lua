@@ -1452,7 +1452,9 @@ i(236749);	-- Take-Home Torq
 ------------------
 -- PATCH 11.1.5 --
 ------------------
+-- #if AFTER 11.1.5
 i(167698);	-- Secret Fish Goggles
+-- #endif
 --- UNSORTED ---
 i(238850);	-- Arathi Entertainer's Flame
 i(239007);	-- Dastardly Banner

@@ -302,6 +302,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84921,	-- Thwack
 				["isWeekly"] = true,
 				["g"] = {
+					i(235347),	-- 100% Sharp Glimmerblade
 					i(235317),	-- Chestplate of the Ultimatum
 					i(235353),	-- Debtsmasher Axe
 					i(235310),	-- Flashy Patchwork Trousers
