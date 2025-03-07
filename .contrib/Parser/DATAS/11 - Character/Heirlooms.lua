@@ -1,8 +1,19 @@
 -------------------------------------------
 --    C H A R A C T E R   M O D U L E    --
 -------------------------------------------
--- This File needs cleaning / Braghe
+-- Heirloom Upgrades are listed here as they are 'filled' on load in game with all possible Upgrade level groups via Heirlooms.lua:CacheHeirlooms()
 root(ROOTS.Character, n(HEIRLOOMS, {
+	n(ACHIEVEMENTS, {
+		ach(9909, {	-- Heirloom Hoarder (35)
+			i(122718, {	-- Clinking Present
+				i(120968),	-- Chauffered Chopper (H)
+				i(122703),	-- Chauffered Chopper (A)
+			}),
+		}),
+		ach(9908),	-- Ready for Powerleveling (15)
+		ach(9906),	-- Alt-ernative Lifestyle (5)
+		ach(9911),	-- Where's the Mailbox? (1)
+	}),
 	i(122338),	-- Ancient Heirloom Armor Casing
 	i(122339),	-- Ancient Heirloom Scabbard
 	i(122340),	-- Timeworn Heirloom Armor Casing
@@ -31,17 +42,13 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 	i(204337, {	-- Awakened Heirloom Scabbard
 		["timeline"] = { ADDED_10_0_7 },
 	}),
-	n(ACHIEVEMENTS, {
-		ach(9909, {	-- Heirloom Hoarder (35)
-			i(122718, {	-- Clinking Present
-				i(120968),	-- Chauffered Chopper (H)
-				i(122703),	-- Chauffered Chopper (A)
-			}),
-		}),
-		ach(9908),	-- Ready for Powerleveling (15)
-		ach(9906),	-- Alt-ernative Lifestyle (5)
-		ach(9911),	-- Where's the Mailbox? (1)
-	}),
+}))
+-- #if NOT ANYCLASSIC
+-- Retail has a dynamic category for Heirlooms, no need to have them duplicated here
+if true then return end
+-- #endif
+-- This File needs cleaning / Braghe
+root(ROOTS.Character, n(HEIRLOOMS, {
 	n(ARMOR, {
 		n(BACK, {
 			un(REMOVED_FROM_GAME, i(62040)),	-- Ancient Bloodmoon Cloak
