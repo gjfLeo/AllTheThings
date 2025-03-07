@@ -435,6 +435,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				})
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
+				CommonBossDrops({
+					currency(3093),	-- Nerub-ar Finery
+				}),
 				BossOnly(ULGRAX),
 				BossOnly(BLOODBOUND_HORROR),
 				BossOnly(SIKRAN, {
