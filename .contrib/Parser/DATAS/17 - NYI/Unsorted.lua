@@ -285,7 +285,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(225766),	-- Zoom-Zoom Boosters
-				i(227541),	-- Miner's Debt Marker
 				i(227547),	-- Kayjay's Debt Marker
 				i(227548),	-- Fantastic Davey's Debt Marker
 
@@ -430,23 +429,8 @@ root(ROOTS.Unsorted, {
 				i(230212),	-- Emergency Teleporter
 				i(230792),	-- X-Plo-Dar 64k
 				i(231021),	-- Imported Brews
-				i(231900),	-- Sample Potion
 				i(232651),	-- Faded Journal Page
 				i(234188),	-- Slot Chits
-			}),
-			n(RARES, {
-				i(232764),	-- Pendant of Shrouded Secrets
-				i(232765),	-- Truthseeker's Necklace
-				i(232766),	-- Band of the Last Hope
-				i(232767),	-- Ring of the Last Gambit
-				i(232768),	-- Trigger-Sniffer's Hood
-				i(232769),	-- Stagecrasher's Gloves
-				i(232773),	-- Trigger-Sniffer's Spaulders
-				i(232774),	-- Stagecrasher's Wristband
-				i(232778),	-- Stagecrasher's Shoulderguards
-				i(232782),	-- Trigger-Sniffer's Greaves
-				i(232784),	-- Stagecrasher's Legguards
-				i(232786),	-- Trigger-Sniffer's Handwraps
 			}),
 			n(SETS, {	-- Tier Sets/Raid
 				i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket

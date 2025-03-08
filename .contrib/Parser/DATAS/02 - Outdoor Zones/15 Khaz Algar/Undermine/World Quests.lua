@@ -102,6 +102,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(85515, {	-- Free Samples!
 					["coord"] = { 27.8, 45.5, UNDERMINE },
+					["g"] = {
+						i(231900),	-- Sample Potion (QI!)
+					},
 				}),
 				q(85500, {	-- Hazardous Waste
 					["coord"] = { 56.6, 30.4, UNDERMINE },

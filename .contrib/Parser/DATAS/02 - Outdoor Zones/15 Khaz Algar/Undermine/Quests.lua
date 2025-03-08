@@ -1056,6 +1056,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["sourceQuest"] = 83569,	-- Death and Taxes
 					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
 					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = {
+						i(232764),	-- Pendant of Shrouded Secrets
+						i(232765),	-- Truthseeker's Necklace
+					},
 				}),
 				q(84242, {	-- Diving into the Heaps
 					["sourceQuest"] = 84221,	-- Paperwork Makes the Mine Go Under
@@ -1071,12 +1075,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["sourceQuest"] = 83522,	-- Debting For A Living
 					--["provider"] = { "n", xxxxx },	--
 					--["coord"] = { xx, xx, UNDERMINE },
-					["g"] = { i(234188) },	-- Slot Chits (QI!)
+					["g"] = {
+						i(232766),	-- Band of the Last Hope
+						i(232767),	-- Ring of the Last Gambit
+						i(234188),	-- Slot Chits (QI!)
+					},
 				}),
 				q(83527, {	-- Winning is for Losers, Anyway
 					["sourceQuest"] = 83524,	-- Gold In Them There Trash
 					--["provider"] = { "n", xxxxx },	--
 					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = {
+						i(227541),	-- Miner's Debt Marker
+					},
 				}),
 				q(83528, {	-- All Part of the Game
 					["sourceQuest"] = 83527,	-- Winning is for Losers, Anyway
@@ -1097,6 +1108,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["sourceQuest"] = 83534,	-- Ain't No Warm Up Act
 					--["provider"] = { "n", xxxxx },	--
 					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = {
+						i(232769),	-- Stagecrasher's Gloves
+						i(232784),	-- Stagecrasher's Legguards
+						i(232778),	-- Stagecrasher's Shoulderguards
+						i(232774),	-- Stagecrasher's Wristband
+					},
 				}),
 				q(84249, {	-- A Vat in the Pan
 					["sourceQuest"] = 83535,	-- Plunder Party Rockin' Rumble
@@ -1135,6 +1152,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["sourceQuest"] = 83546,	-- Responsibility
 					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
 					--["coord"] = { xx, xx, UNDERMINE },
+					["g"] = {
+						i(232782),	-- Trigger-Sniffer's Greaves
+						i(232786),	-- Trigger-Sniffer's Handwraps
+						i(232768),	-- Trigger-Sniffer's Hood
+						i(232773),	-- Trigger-Sniffer's Spaulders
+					},
 				}),
 				q(83563, {	-- Coffee is for Closers
 					["sourceQuest"] = 83558,	-- Casino Court
