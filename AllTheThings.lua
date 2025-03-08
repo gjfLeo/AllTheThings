@@ -7452,6 +7452,21 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 			return;
 		end
 		self.initialized = true;
+		local TypeGroupOverrides = {
+			visible = true
+		}
+		local function CreateTypeGroupsForHeader(header, searchResults)
+			-- TODO: professions would be more complex since it's so many sub-groups to organize
+			-- maybe just simpler to look for the 'requireSkill' field and put all those results into one 'Professions' group?
+			-- app.PrintDebug("Creating type group header",header.name, header.id, searchResults and #searchResults)
+			local typeGroup = app.CreateRawText(header.name, header)
+			local headerDataWithinPatch = app:BuildTargettedSearchResponse(searchResults, header.id, nil, {g=true})
+			-- app.PrintDebug("Found",#headerDataWithinPatch,"search groups for",header.id)
+			NestObjects(typeGroup, headerDataWithinPatch)
+			app.AssignChildren(typeGroup)
+			app.DirectGroupUpdate(typeGroup)
+			return typeGroup
+		end
 		local function CreatePatches(patchTable)
 			local patchBuild = {}
 			for _, patch in ipairs(patchTable) do
@@ -7467,16 +7482,17 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 				formattedPatch = majorVersion .. "." .. middleDigits .. lastDigits
 
 				-- Create the patch header
-				local patchHeader = app.CreateExpansion(formattedPatch, {})
+				local patchHeader = app.CreateExpansion(formattedPatch, {g={}})
 
 				-- Fetch search results
 				local searchResults = app:BuildSearchResponse("awp", patch)
+				NestObjects(patchHeader, searchResults)
 
 				-- Create the dynamic category
 				local dynamicCategory = app.CreateRawText(L.CLICK_TO_CREATE_FORMAT:format(L.SETTINGS_MENU.DYNAMIC_CATEGORY_LABEL), {
-					["icon"] = app.asset("Interface_CreateDynamic"),
-					["OnUpdate"] = app.AlwaysShowUpdate,
-					["g"] = {}
+					icon = app.asset("Interface_CreateDynamic"),
+					OnUpdate = app.AlwaysShowUpdate,
+					g = {}
 				})
 
 				-- Dynamic category headers
@@ -7534,25 +7550,11 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 
 					-- If expansion matches or there is no expansion table, add the header
 					if expansionMatches then
-						-- Prepare the header data
-						local headerData = {
-							dynamic_value = patch,
-							dynamic_searchcriteria = GetSearchCriteriaForPatch(patch),
-							name = header.name,
-							icon = header.icon
-						}
-
-						-- Use CreateDynamicHeaderByValue if byValue flag is set
-						if header.byValue then
-							tinsert(dynamicCategory.g, app.CreateDynamicHeaderByValue(header.id, headerData))
-						else
-							tinsert(dynamicCategory.g, app.CreateDynamicHeader(header.id, headerData))
-						end
+						dynamicCategory.g[#dynamicCategory.g + 1] = app.DelayLoadedObject(CreateTypeGroupsForHeader, "text", TypeGroupOverrides, header, searchResults)
 					end
 				end
 
 				-- Merge patchHeaders and searchResults with dynamicCategory
-				patchHeader.g = searchResults
 				tinsert(patchHeader.g, dynamicCategory)
 
 				-- Insert the final merged patchHeader into patchBuild
@@ -7568,7 +7570,8 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 			back = 1,
 			g = {
 				app.CreateExpansion(expansionHeader, {
-					["g"] = CreatePatches(param),
+					expanded=true,
+					g = CreatePatches(param),
 				}),
 			},
 		};
