@@ -6360,8 +6360,8 @@ function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
 	-- app.PrintTable(criteria)
 	-- app.PrintTable(SearchCriteria)
 	-- app.PrintTable(SearchValueCriteria)
-	-- can only do cache searches if there isn't custom criteria provided
-	local cacheContainer = not criteria and app.GetRawFieldContainer(field);
+	-- can only do cache searches if there isn't custom criteria provided if we are actually searching MainRoot
+	local cacheContainer = not criteria and groups == MainRoot and app.GetRawFieldContainer(field);
 	if cacheContainer then
 		BuildSearchResponseViaCacheContainer(cacheContainer, value);
 	elseif value ~= nil then
