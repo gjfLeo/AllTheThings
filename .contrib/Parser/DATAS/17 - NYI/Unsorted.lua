@@ -27,7 +27,6 @@ root(ROOTS.Unsorted, {
 				i(233265),	-- Laundered Shoulderpads
 				i(233267),	-- Laundered Cuffs
 				i(233335),	-- Upcycled Jerkin
-				i(233337),	-- Upcycled Gloves
 				i(233338),	-- Upcycled Helm
 				i(233339),	-- Upcycled Breeches
 				i(233342),	-- Upcycled Bindings
@@ -36,9 +35,6 @@ root(ROOTS.Unsorted, {
 				i(233350),	-- Power-Washed Bracers
 				i(233547),	-- Descaled Helm
 				i(233551),	-- Descaled Armplates
-
-				-- Delve Loot?
-				i(234185),	-- Dr. Scrapheal
 
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
@@ -468,7 +464,6 @@ root(ROOTS.Unsorted, {
 			i(234733),	-- Bloodwake Ritual Bowl
 			i(237036),	-- Golden Valorstone
 			i(237123),	-- Descaled Capelet
-			i(237125),	-- Upcycled Cloak
 			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
 			i(237240),	-- Banded Sepia War Legwraps
 			i(237241),	-- Banded Sunny War Legwraps

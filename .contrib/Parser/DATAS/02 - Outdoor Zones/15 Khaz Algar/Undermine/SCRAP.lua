@@ -206,7 +206,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										--i(237123),	-- Descaled Capelet
 										i(237126),	-- Laundered Cape
 										i(237124),	-- Power-Washed Drape
-										--i(237125),	-- Upcycled Cloak
+										i(237125),	-- Upcycled Cloak
 									}),
 									filter(CLOTH, {
 										i(233266),	-- Laundered Cord
@@ -222,7 +222,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										--i(233342),	-- Upcycled Bindings
 										--i(233339),	-- Upcycled Breeches
 										i(233340),	-- Upcycled Epaulets
-										--i(233337),	-- Upcycled Gloves
+										i(233337),	-- Upcycled Gloves
 										--i(233338),	-- Upcycled Helm
 										--i(233335),	-- Upcycled Jerkin
 										i(233341),	-- Upcycled Sash

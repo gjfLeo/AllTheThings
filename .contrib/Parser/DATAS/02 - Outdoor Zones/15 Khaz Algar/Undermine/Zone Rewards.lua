@@ -61,6 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				filter(TRINKET_F, {
 					i(235373),	-- Abyssal Volt
+					i(234185),	-- Dr. Scrapheal
 					i(234218),	-- Goo-blin Grenade
 					i(232485),	-- Mechano-Core Amplifier
 					i(235467),	-- Ominous Oil Residue
