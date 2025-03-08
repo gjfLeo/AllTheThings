@@ -469,7 +469,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["coord"] = { 65.9, 62.8, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
-					["isBreadcrumb"] = true,
+					["lockCriteria"] = { 1, "questID", 25368 },	-- Verinias the Twisted
 					["groups"] = {
 						objective(1, {	-- 0/6 Soul Essence
 							["provider"] = { "i", 53136 },	-- Soul Essence
@@ -1827,7 +1827,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["coord"] = { 65.9, 62.8, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
-					["isBreadcrumb"] = true,
+					["lockCriteria"] = { 1, "questID", 25368 },	-- Verinias the Twisted
 					["groups"] = {
 						objective(1, {	-- 0/6 Glowing Soil
 							["providers"] = {
