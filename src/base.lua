@@ -224,6 +224,7 @@ app.GetIconFromProviders = function(group)
 		end
 	end
 end;
+local GetItemInfo = app.WOWAPI.GetItemInfo;
 app.GetNameFromProviders = function(group)
 	if group.providers then
 		local name;
