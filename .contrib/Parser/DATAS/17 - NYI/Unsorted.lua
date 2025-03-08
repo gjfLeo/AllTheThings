@@ -42,7 +42,6 @@ root(ROOTS.Unsorted, {
 
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
-				i(235425),	-- Dumpsterdelver's Loop
 				i(235484),	-- Razor-sharp Desk Fan
 				i(235486),	-- Springloaded Kneecap Breaker
 				i(235489),	-- Bullet Biter
@@ -251,7 +250,6 @@ root(ROOTS.Unsorted, {
 				i(229422),	-- Undermine Equipment Chest
 				-- Crests
 				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
-				i(231270),	-- Pack of Runed Undermine Crests
 				-- From Meta Achievements
 				i(230017),	-- Master Blaster's Insignia
 				-- Probably Delves

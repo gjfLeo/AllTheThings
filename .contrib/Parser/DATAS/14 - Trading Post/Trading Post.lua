@@ -127,13 +127,13 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
-		-- Future trading post quests - unknown timeline
-		--[[
 		q(81717, {	-- Report to the Trading Post -- March 2025
-			["timeline"] = { TODO },
+			["timeline"] = { ADDED_11_1_0 },
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
+		-- Future trading post quests - unknown timeline
+		--[[
 		q(81718, {	-- Report to the Trading Post -- April 2025
 			["timeline"] = { TODO },
 			["isYearly"] = true,
