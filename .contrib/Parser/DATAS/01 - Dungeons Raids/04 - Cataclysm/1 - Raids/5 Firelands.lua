@@ -169,6 +169,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					q(29234, {	-- Delegation
 						["qg"] = 52995,	-- Kalecgos
 						["sourceQuest"] = 29225,	-- Actionable Intelligence
+						["coord"] = { 62.1, 23.1, MOUNT_HYJAL },
 						["description"] = "Defeat Volcanus and recover the Branch of Nordrassil. In order to summon him, you need to open the Circle of Thorns portal. You can do this by completing the Delgation Tracker quest or by having someone else that has previously opened their own portal open the portal for you.\n\nNOTE: You will be locked out of doing the same for others should you choose to go this route.",
 						["groups"] = {
 							objective(1, {	-- Branch of Nordrassil
