@@ -2632,10 +2632,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 68.8, 45.6, WETLANDS },
 					},
 					-- #elseif AFTER 10.1.7
-					["crs"] = {
-						42041,	-- Dragonmaw Whelpstealer
-						42043,	-- Ebon Slavehunter
-					},
+					["cr"] = 42043,	-- Ebon Slavehunter
 					["coords"] = {
 						{ 66.0, 45.8, WETLANDS },
 						{ 67.4, 47.2, WETLANDS },
@@ -2653,10 +2650,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 63.8, 33.6, WETLANDS },
 					},
 					-- #elseif AFTER 10.1.7
-					["crs"] = {
-						42041,	-- Dragonmaw Whelpstealer
-						42043,	-- Ebon Slavehunter
-					},
+					["cr"] = 42043,	-- Ebon Slavehunter,
 					["coords"] = {
 						{ 66.0, 45.8, WETLANDS },
 						{ 67.4, 47.2, WETLANDS },

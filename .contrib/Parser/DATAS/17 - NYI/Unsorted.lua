@@ -30,15 +30,11 @@ root(ROOTS.Unsorted, {
 				i(233337),	-- Upcycled Gloves
 				i(233338),	-- Upcycled Helm
 				i(233339),	-- Upcycled Breeches
-				i(233341),	-- Upcycled Sash
 				i(233342),	-- Upcycled Bindings
 				i(233345),	-- Power-Washed Grips
 				i(233346),	-- Power-Washed Coif
 				i(233350),	-- Power-Washed Bracers
-				i(233544),	-- Descaled Breastplate
-				i(233546),	-- Descaled Gauntlets
 				i(233547),	-- Descaled Helm
-				i(233550),	-- Descaled Girdle
 				i(233551),	-- Descaled Armplates
 
 				-- Delve Loot?

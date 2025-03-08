@@ -25,7 +25,35 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					ach(41593),	-- Cleanin' the Streets
 				})),
 				FromSCRAP(n(TREASURES, sharedData({ ["repeatable"] = true, }, {
-					-- 0-299 score
+					o(516167, {	-- Half-Empty Bag (Blackwater Marina)
+						["coord"] = { 67.4, 29.3, UNDERMINE },
+						--["questID"] = ,
+					}),
+					o(516165, {	-- Half-Empty Bag (Emerald Hills Golf Course)
+						["coord"] = { 69.7, 76.5, UNDERMINE },
+						["questID"] = 87280,
+					}),
+					o(516154, {	-- Half-Empty Bag (Hovel Hill (North))
+						["coord"] = { 31.9, 21.3, UNDERMINE },
+						["questID"] = 87270,
+					}),
+					o(516156, {	-- Half-Empty Bag (Hovel Hill (South))
+						["coord"] = { 36.1, 45.1, UNDERMINE },
+						--["questID"] = ,
+					}),
+					o(516163, {	-- Half-Empty Bag (The Heaps)
+						["coord"] = { 52.4, 83.0, UNDERMINE },
+						--["questID"] = ,
+					}),
+					o(516158, {	-- Half-Empty Bag (The Vatworks)
+						["coord"] = { 38.4, 80.9, UNDERMINE },
+						--["questID"] = ,
+					}),
+					o(516160, {	-- Half-Empty Bag (Venturewood)
+						["coord"] = { 50.6, 63.8, UNDERMINE },
+						["questID"] = 87276,
+					}),
+					-- 20?-299 score
 					o(516166, {	-- Dented Crate (Blackwater Marina)
 						["coord"] = { 67.4, 29.3, UNDERMINE },
 						["questID"] = 87281,
@@ -193,7 +221,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										--i(233337),	-- Upcycled Gloves
 										--i(233338),	-- Upcycled Helm
 										--i(233335),	-- Upcycled Jerkin
-										--i(233341),	-- Upcycled Sash
+										i(233341),	-- Upcycled Sash
 										i(233336),	-- Upcycled Waders
 									}),
 									filter(MAIL, {
@@ -208,9 +236,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 									}),
 									filter(PLATE, {
 										--i(233551),	-- Descaled Armplates
-										--i(233544),	-- Descaled Breastplate
-										--i(233546),	-- Descaled Gauntlets
-										--i(233550),	-- Descaled Girdle
+										i(233544),	-- Descaled Breastplate
+										i(233546),	-- Descaled Gauntlets
+										i(233550),	-- Descaled Girdle
 										--i(233547),	-- Descaled Helm
 										i(233548),	-- Descaled Legguards
 										i(233549),	-- Descaled Mantle
@@ -246,7 +274,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			n(EVENT_COMPLETION, {
 				-- Scrap related but exact trigger unknown
 				--q(86262),	--
-				--q(87280),	--
 				--q(90471),	--
 				--q(90472),	--
 				--q(90473),	--
