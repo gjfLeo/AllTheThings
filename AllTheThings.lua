@@ -6244,21 +6244,32 @@ local function MatchOrCloneParentInHierarchy(group)
 
 		-- check the parent to see if this parent chain will be excluded
 		local parent = group.parent;
-		if not Eval_ParentInclusionCriteria(parent) then return end
+		if not Eval_ParentInclusionCriteria(parent) then
+			-- app.PrintDebug("PIH-PCrit",app:SearchLink(parent))
+			return
+		end
 
 		-- is this a top-level group?
 		if parent == MainRoot then
+			groupCopy = CloneGroupIntoHeirarchy(group);
+			groupCopy.__priorSearchRoot = true
+			tinsert(ClonedHierarchyGroups, groupCopy);
 			-- app.PrintDebug("Added top cloned parent",groupCopy.text)
+			return groupCopy;
+		elseif group.__priorSearchRoot then
 			groupCopy = CloneGroupIntoHeirarchy(group);
 			tinsert(ClonedHierarchyGroups, groupCopy);
+			-- app.PrintDebug("Added top cloned parent from __priorSearchRoot",groupCopy.text)
 			return groupCopy;
 		else
 			-- need to clone and attach this group to its cloned parent
 			local clonedParent = MatchOrCloneParentInHierarchy(parent);
-			if not clonedParent then return; end
+			if not clonedParent then
+				-- app.PrintDebug("PIH-NoParent",app:SearchLink(parent))
+				return
+			end
 			groupCopy = CloneGroupIntoHeirarchy(group);
 			NestObject(clonedParent, groupCopy);
-			-- tinsert(clonedParent.g, groupCopy);
 			return groupCopy;
 		end
 	end
@@ -6266,7 +6277,7 @@ end
 -- Builds ClonedHierarchyGroups from an array of Sourced groups
 local function BuildClonedHierarchy(sources)
 	-- app.PrintDebug("BSR:Sourced",sources and #sources)
-	if not sources then return ClonedHierarchyGroups; end
+	if not sources then return end
 	local parent, thing;
 	-- for each source of each Thing with the value
 	for _,source in ipairs(sources) do
@@ -6282,7 +6293,9 @@ local function BuildClonedHierarchy(sources)
 				-- need to map the cloned Thing also since it may end up being a parent of another Thing
 				ClonedHierarachyMapping[source] = thing;
 				NestObject(parent, thing);
+			-- else app.PrintDebug("CloneHierarchy-Fail",source.parent,app:SearchLink(source))
 			end
+		-- else app.PrintDebug("Criteria-Fail:",app:SearchLink(source))
 		end
 	end
 end
