@@ -464,7 +464,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(231269, {	--  Satchel of Carved Undermine Crests
 						["description"] = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Heroic Crest\nReceive: Normal Crest",
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
-						["cost"] = {{"c", RUNED_UNDERMINE_CREST_CREST, 15}},
+						["cost"] = {{"c", RUNED_UNDERMINE_CREST, 15}},
 					}),
 					i(231270, {	--  Pack of Runed Undermine Crests
 						["description"] = "\n|cffff0000 -- DOWNGRADE --|r\n\nCost: Mythic Crest\nReceive: Heroic Crest",
