@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 --                        A L L   T H E   T H I N G S                         --
 --------------------------------------------------------------------------------
---            Copyright 2017-2024 Dylan Fortune (Crieve-Sargeras)             --
+--            Copyright 2017-2025 Dylan Fortune (Crieve-Sargeras)             --
 --------------------------------------------------------------------------------
 local rawget, ipairs, pairs, tinsert, setmetatable, print,math_sqrt,math_floor,getmetatable
 	= rawget, ipairs, pairs, tinsert, setmetatable, print,math.sqrt,math.floor,getmetatable
