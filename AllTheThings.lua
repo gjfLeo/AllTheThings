@@ -7455,6 +7455,24 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 		local TypeGroupOverrides = {
 			visible = true
 		}
+		local function OnUpdate_RemoveEmptyDynamic(t)
+			-- nothing to show so don't be visible
+			if not t.g or #t.g == 0 then
+				return
+			end
+			local o
+			for i=#t.g,1,-1 do
+				o = t.g[i]
+				if o.__empty then
+					tremove(t.g, i)
+				end
+			end
+			if #t.g == 0 then
+				return
+			end
+			t.visible = true
+			return true
+		end
 		local function CreateTypeGroupsForHeader(header, searchResults)
 			-- TODO: professions would be more complex since it's so many sub-groups to organize
 			-- maybe just simpler to look for the 'requireSkill' field and put all those results into one 'Professions' group?
@@ -7463,8 +7481,13 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 			local headerDataWithinPatch = app:BuildTargettedSearchResponse(searchResults, header.id, nil, {g=true})
 			-- app.PrintDebug("Found",#headerDataWithinPatch,"search groups for",header.id)
 			NestObjects(typeGroup, headerDataWithinPatch)
-			app.AssignChildren(typeGroup)
-			app.DirectGroupUpdate(typeGroup)
+			-- did we populate nothing?
+			if not typeGroup.g or #typeGroup.g == 0 then
+				typeGroup.__empty = true
+			else
+				app.AssignChildren(typeGroup)
+			end
+			Callback(app.DirectGroupUpdate, typeGroup.parent)
 			return typeGroup
 		end
 		local function CreatePatches(patchTable)
@@ -7491,7 +7514,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 				-- Create the dynamic category
 				local dynamicCategory = app.CreateRawText(L.CLICK_TO_CREATE_FORMAT:format(L.SETTINGS_MENU.DYNAMIC_CATEGORY_LABEL), {
 					icon = app.asset("Interface_CreateDynamic"),
-					OnUpdate = app.AlwaysShowUpdate,
+					OnUpdate = OnUpdate_RemoveEmptyDynamic,
 					g = {}
 				})
 
@@ -7550,6 +7573,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 
 					-- If expansion matches or there is no expansion table, add the header
 					if expansionMatches then
+						header.parent = dynamicCategory
 						dynamicCategory.g[#dynamicCategory.g + 1] = app.DelayLoadedObject(CreateTypeGroupsForHeader, "text", TypeGroupOverrides, header, searchResults)
 					end
 				end
