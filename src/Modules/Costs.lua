@@ -150,6 +150,7 @@ local function CacheFilters()
 		CollectibleAcceptible[2] = nil
 	end
 end
+app.AddEventHandler("OnLoad", CacheFilters)
 local function BlockedParent(group)
 	if group.questID and (group.saved or group.locked or OneTimeQuests[group.questID]) then
 		return group
