@@ -64,6 +64,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(234185),	-- Dr. Scrapheal
 					i(234218),	-- Goo-blin Grenade
 					i(232485),	-- Mechano-Core Amplifier
+					i(232486),	-- Noggenfogger Ultimate Deluxe
 					i(235467),	-- Ominous Oil Residue
 					i(235359),	-- Ratfang Toxin
 					i(235363),	-- Suspicious Energy Drink

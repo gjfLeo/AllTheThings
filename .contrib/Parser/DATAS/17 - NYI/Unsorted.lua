@@ -23,15 +23,12 @@ root(ROOTS.Unsorted, {
 
 				-- wtf is this :( Zonedrop/Zone rewards
 				i(233260),	-- Laundered Vestment
-				i(233263),	-- Laundered Cowl
 				i(233265),	-- Laundered Shoulderpads
 				i(233267),	-- Laundered Cuffs
-				i(233335),	-- Upcycled Jerkin
 				i(233338),	-- Upcycled Helm
 				i(233339),	-- Upcycled Breeches
 				i(233342),	-- Upcycled Bindings
 				i(233345),	-- Power-Washed Grips
-				i(233346),	-- Power-Washed Coif
 				i(233350),	-- Power-Washed Bracers
 				i(233547),	-- Descaled Helm
 				i(233551),	-- Descaled Armplates
@@ -40,7 +37,6 @@ root(ROOTS.Unsorted, {
 				i(235422),	-- Venture Co Seal
 				i(235484),	-- Razor-sharp Desk Fan
 				i(235486),	-- Springloaded Kneecap Breaker
-				i(235489),	-- Bullet Biter
 				i(235492),	-- Oscillating Scrapcleaver
 				i(235494),	-- Biker Gang's Spare Tire
 			}),
@@ -267,9 +263,6 @@ root(ROOTS.Unsorted, {
 				i(236668),	-- C.H.E.T.T. Card
 				i(236682),	-- C.H.E.T.T. List
 				i(236785),	-- C.H.E.T.T. Card
-				-- Raid Achievement
-				i(236412),	-- "Fireproof" Punch
-				i(236413),	-- "Shockproof" Soda
 
 				-- Valorstones
 				i(236955),	-- Crimson Valorstone
@@ -445,8 +438,6 @@ root(ROOTS.Unsorted, {
 				i(235753),	-- Raiment of the Chromatic Hydra
 			}),
 			filter(TOYS, {
-				i(236749),	-- Take-Home Torq
-				i(236751),	-- Take-Home Flarendo
 				i(235018),	-- Cracked Cold One [From toy?]
 			}),
 			n(WEAPONS, {

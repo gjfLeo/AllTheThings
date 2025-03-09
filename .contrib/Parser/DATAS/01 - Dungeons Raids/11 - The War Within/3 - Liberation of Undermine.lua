@@ -445,6 +445,26 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						["minReputation"] = { FACTION_GLRC, 2 },
 					}),
 				}),
+				n(VENDORS, {
+					n(235624, {	-- Skitto Screwjack
+						i(236413),	-- "Shockproof" Soda
+						i(236749, {	-- Take-Home Torq (TOY!)
+							["minReputation"] = { FACTION_GLRC, 9 },
+						}),
+						i(232806, {	-- Tiny Torq (PET!)
+							["minReputation"] = { FACTION_GLRC, 9 },
+						}),
+					}),
+					n(235623, {	-- Snix Longpocket
+						i(236412),	-- "Fireproof" Punch
+						i(232844, {	-- Fuz-Size Flarendo (PET!)
+							["minReputation"] = { FACTION_GLRC, 9 },
+						}),
+						i(236751, {	-- Take-Home Flarendo (TOY!)
+							["minReputation"] = { FACTION_GLRC, 9 },
+						}),
+					}),
+				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
 				BossOnly(VEXIE),
@@ -673,23 +693,33 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		}),
 
 
-		--q(88836),	-- Trash before Cauldron of Carnage on Heroic?
-		--q(88837),	-- Trash before Cauldron of Carnage on Heroic?
-		--q(88841),	-- Trash before Cauldron of Carnage on Heroic?
-		--q(88848),	-- Popped before Rik
-		--q(88852),	-- Trash before One-Armed Bandit?
-		--q(89480),	-- Trash before One-Armed Bandit?
-		--q(88856),	-- Trash before Gallywix?
-		--q(89481),	-- Trash before Gallywix?
+		--q(88846),	-- Trash before Rik Reverb on LFR?
+		--q(89479),	-- Trash before Rik Reverb on LFR?
+		--q(88861),	-- Globikus trash on Normal?
+		--q(89482),	-- Globikus trash on Normal?
+		--q(88852),	-- Melbo The Magnificent trash on Normal?
+		--q(89480),	-- Melbo The Magnificent trash on Normal?
+		--q(88856),	-- The Junkmaster trash on Normal?
+		--q(89481),	-- The Junkmaster trash on Normal?
 
-		-- LFR/Normal
-		q(88835),	-- Holograms activated before Cauldron of Carnage
+		-- LFR
 		q(88838),	-- Trash before Cauldron of Carnage
 		q(88842),	-- Trash before Cauldron of Carnage
 		q(89478),	-- Trash before Cauldron of Carnage
-		q(88846), 	-- Trash before Rik Reverb
-		q(89479),	-- Trash before Rik Reverb
+		-- Normal
+		q(88833),	-- Trash before Cauldron of Carnage on Normal
+		q(88840),	-- Trash before Cauldron of Carnage on Normal
+		q(88844),	-- Trash before Cauldron of Carnage on Normal
+		q(88848),	-- Trash before Rik Reverb on Normal
+		-- Heroic
+		--q(88836),	-- Trash before Cauldron of Carnage on Heroic?
+		--q(88837),	-- Trash before Cauldron of Carnage on Heroic?
+		--q(88841),	-- Trash before Cauldron of Carnage on Heroic?
 
+		-- LFR/Normal
+		q(88835),	-- Holograms activated before Cauldron of Carnage
+
+		q(89452),	-- Vexie Fullthrottle
 		q(89453),	-- Cauldron of Carnage
 		q(89454),	-- Rik Reverb
 		q(89455),	-- Stix Bunkjunker

@@ -903,6 +903,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(219210),	-- Sanctifier's Startierce
 					})),
 					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						i(235489),	-- Bullet Biter
 						i(235490),	-- Clawbacker Halberd
 						i(235493),	-- Ignited Flare Jar
 						i(235491),	-- Immolation Warning
