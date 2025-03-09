@@ -21,7 +21,7 @@ local EncounterToCRS = {
 		229181,	-- Flarendo <The Furious>
 		229177,	-- Torq <The Tempest>
 	},
-	[RIK] = { 228652 },	-- Rik Reverb <Official Gallywix Hype Man>
+	[RIK] = { 228648, 228652 },	-- Rik Reverb <Official Gallywix Hype Man>
 	[STIX] = { 230322 },	-- Stix Bunkjunker
 	[LOCKENSTOCK] = { 230583 },	-- Sprocketmonger Lockenstock
 	[BANDIT] = { 228458 },	-- One-Armed Bandit

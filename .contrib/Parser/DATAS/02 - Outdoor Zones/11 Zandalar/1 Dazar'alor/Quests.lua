@@ -121,6 +121,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 										["coord"] = { 51.5, 99.5, DAZARALOR },	-- The Banshee's Wail Location
 										["races"] = HORDE_ONLY,
 										["g"] = {
+											i(161482),	-- Mudfisher Cove
 											i(161484),	-- Mission Report (QI!)
 										},
 									}),
@@ -213,6 +214,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 										["races"] = HORDE_ONLY,
 										["coord"] = { 51.5, 99.5, DAZARALOR },	-- The Banshee's Wail Location
 										["g"] = {
+											i(162511),	-- Stonetusk Watch
 											i(162512),	-- Mission Report (QI!)
 										},
 									}),
@@ -258,6 +260,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 										["provider"] = { "n", 138704 },	-- Mission Command Table
 										["races"] = HORDE_ONLY,
 										["coord"] = { 51.59, 99.58, DAZARALOR },	-- The Banshee's Wail Location
+										["g"] = {
+											i(165362),	-- Swiftwind Post
+											i(161483),	-- Mission Report (QI!)
+										},
 									}),
 								},
 							}),
@@ -302,6 +308,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 										["coord"] = { 51.5, 99.5, DAZARALOR },	-- The Banshee's Wail Location
 										["races"] = HORDE_ONLY,
 										["g"] = {
+											i(161487),	-- Windfall Cavern
 											i(161488),	-- Mission Report (QI!)
 										},
 									}),

@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			}),
 			q(57338),	-- Depopulation Effort
 			q(56032),	-- Dirty Dozen
-			q(56386),	-- Elderspawn of Nalaada
+			petbattle(q(56386)),	-- Elderspawn of Nalaada
 			q(57340, {	-- Fathom Ray Feast
 				["g"] = {
 					i(171254),	-- Fathom Ray Meat (QI!)

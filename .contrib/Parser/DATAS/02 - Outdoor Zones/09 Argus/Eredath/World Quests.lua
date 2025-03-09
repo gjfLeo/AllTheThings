@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			q(48936, {	-- Slithon the Last
 				["sym"] = {{"select","npcID",126913}},	-- Select the WQ NPC
 			}),
-			q(49048),	-- Snozz
+			petbattle(q(49048)),	-- Snozz
 			q(48730, {	-- Sorolis the Ill-Fated
 				["sym"] = {{"select","npcID",126889}},	-- Select the WQ NPC
 			}),
