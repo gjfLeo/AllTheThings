@@ -130,7 +130,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			["timeline"] = { ADDED_11_1_0 },
 		}),
 		i(239120, {	-- Seasoned Adventurer's Cache
-			--TODO: WTF is going on? Reward from Special Assigment: Cinderbee Surge (82355)
+			["sym"] = { -- [Undermine Zone Rewards content]
+				{"select","mapID",KHAZ_ALGAR},{"pop"},
+				{"where","mapID",UNDERMINE},{"pop"},
+				{"where","headerID",ZONE_REWARDS},{"pop"},
+				{"where","headerID",ARMOR},{"finalize"},
+
+				{"select","mapID",KHAZ_ALGAR},{"pop"},
+				{"where","mapID",UNDERMINE},{"pop"},
+				{"where","headerID",ZONE_REWARDS},{"pop"},
+				{"where","headerID",WEAPONS},
+			},
 			["timeline"] = { ADDED_11_1_0 },
 		}),
 	}),

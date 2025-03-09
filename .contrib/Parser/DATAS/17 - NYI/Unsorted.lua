@@ -411,7 +411,6 @@ root(ROOTS.Unsorted, {
 				i(227702),	-- Crumpled Report (TRAINING, DNT)
 				i(228794),	-- Purloined Loot
 				i(228822),	-- Burgled Art
-				i(229401),	-- Artisan's Consortium Pamphlet
 				i(230212),	-- Emergency Teleporter
 				i(230792),	-- X-Plo-Dar 64k
 				i(231021),	-- Imported Brews

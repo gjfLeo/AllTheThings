@@ -346,9 +346,12 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				}),
 			},
 		}),
-		-- Reward for winning Epic Battleground
+		-- Reward for winning first battleground per season
 		i(225772, {	-- Artisan's Consortium Advertisement (QS!/QI!)
-			["timeline"] = { ADDED_11_0_2 },
+			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
+		}),
+		i(229401, {	-- Artisan's Consortium Pamphlet (QS!/QI!)
+			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART},
 		}),
 	})),
 })));
