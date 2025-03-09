@@ -147,6 +147,7 @@ root(ROOTS.Zones, {
 					prof(ENGINEERING, {
 						i(23821, {	-- Zapthrottle Mote Extractor
 							n(17408, {	-- Arcane Vortex (Gas cloud)
+								["maps"] = { NETHERSTORM },	-- Danny Donkey: Because source path on creatures is broken in retail.
 								["requireSkill"] = ENGINEERING,
 							}),
 						}),

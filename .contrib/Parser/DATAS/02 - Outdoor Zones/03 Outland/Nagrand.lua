@@ -332,6 +332,7 @@ root(ROOTS.Zones, {
 					prof(ENGINEERING, {
 						i(23821, {	-- Zapthrottle Mote Extractor
 							n(24222, {	-- Windy Cload (Gas cloud)
+								["maps"] = { NAGRAND },	-- Danny Donkey: Because source path on creatures is broken in retail.
 								["requireSkill"] = ENGINEERING,
 								["timeline"] = { ADDED_2_3_0 },
 							}),

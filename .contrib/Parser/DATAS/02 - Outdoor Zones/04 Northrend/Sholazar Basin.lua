@@ -290,15 +290,6 @@ root(ROOTS.Zones, {
 						["OnTooltip"] = [[_.OnTooltipDB.ForOracles]],
 					}),
 				}),
-				prof(FISHING, {
-					o(192057, {	-- Nettlefish School
-						["requireSkill"] = FISHING,
-					}),
-					i(45902, {	-- Phantom Ghostfish
-						["description"] = "Eat this before it despawns!",
-						["_noautomation"] = true,
-					}),
-				}),
 				n(FLIGHT_PATHS, {
 					fp(309, {	-- Nesingwary Base Camp
 						["cr"] = 28037,	-- The Spirit of Gnomeregan <Flight Master>
@@ -308,6 +299,29 @@ root(ROOTS.Zones, {
 					fp(308, {	-- River's Heart
 						["cr"] = 28574,	-- Marvin Wobblesprocket <Flight Master>
 						["coord"] = { 50.0, 61.4, SHOLAZAR_BASIN },
+					}),
+				}),
+				n(PROFESSIONS, {
+					prof(ENGINEERING, {
+						i(23821, {	-- Zapthrottle Mote Extractor
+							["groups"] = {
+								n(32544, {	-- Steam Cloud (Gas cloud)
+									["coord"] = { 66.0, 27.0, BOREAN_TUNDRA },	-- The Geyser Fields
+									["description"] = "Too few and far between to be reliably farmed on it's own.",
+									["maps"] = { SHOLAZAR_BASIN },	-- Danny Donkey: Because source path on creatures is broken in retail.
+									["requireSkill"] = ENGINEERING,
+								}),
+							},
+						}),
+					}),
+					prof(FISHING, {
+						o(192057, {	-- Nettlefish School
+							["requireSkill"] = FISHING,
+						}),
+						i(45902, {	-- Phantom Ghostfish
+							["description"] = "Eat this before it despawns!",
+							["_noautomation"] = true,
+						}),
 					}),
 				}),
 				n(QUESTS, {

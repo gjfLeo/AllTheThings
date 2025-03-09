@@ -276,20 +276,6 @@ root(ROOTS.Zones, {
 						["maps"] = { BOREAN_TUNDRA },
 					}),
 				}),
-				prof(FISHING, {
-					o(192053, {	-- Deep Sea Monsterbelly School
-						["requireSkill"] = FISHING,
-					}),
-					o(192048, {	-- Dragonfin Angelfish School
-						["requireSkill"] = FISHING,
-					}),
-					o(192052, {	-- Imperial Manta Ray School
-						["requireSkill"] = FISHING,
-					}),
-					o(192054, {	-- Moonglow Cuttlefish School
-						["requireSkill"] = FISHING,
-					}),
-				}),
 				n(FLIGHT_PATHS, {
 					fp(256, {	-- Agmar's Hammer
 						["cr"] = 26566,	-- Narzun Skybreaker <Wind Rider Master>
@@ -333,6 +319,22 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66638, {	-- Okrut Dragonwaste <Master Pet Tamer>
 						["coord"] = { 59.0, 77.0, DRAGONBLIGHT },
+					}),
+				}),
+				n(PROFESSIONS, {
+					prof(FISHING, {
+						o(192053, {	-- Deep Sea Monsterbelly School
+							["requireSkill"] = FISHING,
+						}),
+						o(192048, {	-- Dragonfin Angelfish School
+							["requireSkill"] = FISHING,
+						}),
+						o(192052, {	-- Imperial Manta Ray School
+							["requireSkill"] = FISHING,
+						}),
+						o(192054, {	-- Moonglow Cuttlefish School
+							["requireSkill"] = FISHING,
+						}),
 					}),
 				}),
 				spell(921, {	-- Pickpocketing

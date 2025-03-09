@@ -417,8 +417,23 @@ root(ROOTS.Zones, {
 			["lore"] = "Wintergrasp is a World PvP zone, similar to Tol Barad. It emphasizes siege weapon warfare--walls and towers are destroyed not by player damage, but by siege damage. Your siege engine amount is controlled by which workshops in the zone your faction owns.",
 			["icon"] = 135836,
 			["groups"] = {
-				prof(FISHING, {
-					i(45904),	-- Terrorfish
+				n(PROFESSIONS, {
+					prof(ENGINEERING, {
+						i(23821, {	-- Zapthrottle Mote Extractor
+							n(32522, {	-- Cinder Cloud (Gas cloud)
+								["coords"] = {
+									{ 38.4, 32.3, DRAGONBLIGHT },	-- Obsidian Dragonshrine
+									{ 84.0, 71.5, WINTERGRASP },	-- The Cauldron of Flames
+									{ 45.65, 24.6, SHOLAZAR_BASIN },	-- The Savage Thicket
+								},
+								["description"] = "Too few and far between to be reliably farmed on it's own.",
+								["requireSkill"] = ENGINEERING,
+							}),
+						}),
+					}),
+					prof(FISHING, {
+						i(45904),	-- Terrorfish
+					}),
 				}),
 				n(FLIGHT_PATHS, {
 					fp(303, {	-- Valiance Landing Camp

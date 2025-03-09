@@ -188,6 +188,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							i(23821, {	-- Zapthrottle Mote Extractor
 								n(17407, {	-- Felmist (Gas cloud)
+									["maps"] = { SHADOWMOON_VALLEY },	-- Danny Donkey: Because source path on creatures is broken in retail.
 									["requireSkill"] = ENGINEERING,
 								}),
 							}),

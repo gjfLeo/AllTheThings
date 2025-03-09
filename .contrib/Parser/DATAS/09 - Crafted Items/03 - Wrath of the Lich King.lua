@@ -87,7 +87,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(40068),	-- Wrath Elixir
 		}),
 		filter(REAGENTS, {
-			i(36931),	-- Ametrine
+			applyclassicphase(WRATH_PHASE_THREE, i(36931, {["timeline"] = {ADDED_3_2_0}})),	-- Ametrine
 			applyclassicphase(WRATH_PHASE_THREE, i(36919, {["timeline"] = {ADDED_3_2_0}})),	-- Cardinal Ruby
 			applyclassicphase(WRATH_PHASE_THREE, i(36928, {["timeline"] = {ADDED_3_2_0}})),	-- Dreadstone
 			applyclassicphase(WRATH_PHASE_THREE, i(41334, {["timeline"] = {ADDED_3_2_0}})),	-- Earthsiege Diamond
@@ -1000,33 +1000,74 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	}),
 	prof(MINING, {
 		spell(2575, {	-- Mining
-			i(36909),	-- Cobalt Ore
-			i(108305, {["timeline"] = {ADDED_6_0_2}}),	-- Cobalt Ore Nugget
-			i(36912),	-- Saronite Ore
-			i(108306, {["timeline"] = {ADDED_6_0_2}}),	-- Saronite Ore Nugget
-			i(36910),	-- Titanium Ore
-			i(108391, {["timeline"] = {ADDED_6_0_2}}),	-- Titanium Ore Nugget
+			i(36909, {	-- Cobalt Ore
+				["maps"] = {
+					BOREAN_TUNDRA,
+					DRAGONBLIGHT,
+					GRIZZLY_HILLS,
+					HOWLING_FJORD,
+				},
+			}),
+			i(108305, {	-- Cobalt Ore Nugget
+				["timeline"] = {ADDED_6_0_2},
+				["groups"] = {
+					i(36909),	-- Cobalt Ore
+				},
+			}),
+			i(36912, {	-- Saronite Ore
+				["maps"] = {
+					ICECROWN,
+					SHOLAZAR_BASIN,
+					THE_STORM_PEAKS,
+					WINTERGRASP,
+				},
+			}),
+			i(108306, {	-- Saronite Ore Nugget
+				["timeline"] = {ADDED_6_0_2},
+				["groups"] = {
+					i(36912),	-- Saronite Ore
+				},
+			}),
+			i(36910, {	-- Titanium Ore
+				["maps"] = {
+					ICECROWN,
+					SHOLAZAR_BASIN,
+					THE_STORM_PEAKS,
+					WINTERGRASP,
+				},
+			}),
+			i(108391, {	-- Titanium Ore Nugget
+				["timeline"] = {ADDED_6_0_2},
+				["groups"] = {
+					i(36910),	-- Titanium Ore
+				},
+			}),
 			-- Not Ore --
 			--[[	No need to list Tradegoods w/ many other sources
-			i(36921),	-- Autumn's Glow
+			-- Uncommon gem
 			i(36917),	-- Bloodstone
 			i(36923),	-- Chalcedony
+			i(36932),	-- Dark Jade
+			i(36929),	-- Huge Citrine
+			i(36926),	-- Shadow Crystal
+			i(36920),	-- Sun Crystal
+
+			-- Rare gem
+			i(36921),	-- Autumn's Glow
+			i(36933),	-- Forest Emerald
+			i(36930),	-- Monarch Topaz
+			i(36918),	-- Scarlet Ruby
+			i(36924),	-- Sky Sapphire
+			i(36927),	-- Twilight Opal
+			
+			-- Elemental
 			i(37700),	-- Crystallized Air
 			i(37701),	-- Crystallized Earth
 			i(37702),	-- Crystallized Fire
 			i(37703),	-- Crystallized Shadow
 			i(37705),	-- Crystallized Water
-			i(36932),	-- Dark Jade
 			i(35624),	-- Eternal Earth
 			i(35627),	-- Eternal Shadow
-			i(36933),	-- Forest Emerald
-			i(36929),	-- Huge Citrine
-			i(36930),	-- Monarch Topaz
-			i(36918),	-- Scarlet Ruby
-			i(36926),	-- Shadow Crystal
-			i(36924),	-- Sky Sapphire
-			i(36920),	-- Sun Crystal
-			i(36927),	-- Twilight Opal
 			--]]
 		}),
 		spell(2656, {	-- Smelting

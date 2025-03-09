@@ -279,6 +279,7 @@ root(ROOTS.Zones, {
 					prof(ENGINEERING, {
 						i(23821, {	-- Zapthrottle Mote Extractor
 							n(17378, {	-- Swamp Gas (Gas cloud)
+								["maps"] = { ZANGARMARSH },	-- Danny Donkey: Because source path on creatures is broken in retail.
 								["requireSkill"] = ENGINEERING,
 							}),
 						}),

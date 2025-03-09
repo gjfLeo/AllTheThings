@@ -1194,4 +1194,156 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			i(42178),	-- Pattern: Rustic Workman's Shirt
 		}),
 	}),
+	filter(REAGENTS, sharedData({	-- Air
+		["coords"] = {
+			{ 75.0, 54.6, GRIZZLY_HILLS },	-- Dun Argol
+			{ 73.9, 58.6, ZULDRAK },	-- Altar of Quetz'lun
+			{ 67.0, 44.9, THE_STORM_PEAKS },	-- The Howling Hollow
+			{ 28.5, 47.3, THE_STORM_PEAKS },	-- Snowdrift Plains
+			{ 51.1, 77.3, WINTERGRASP },	-- Wintergrasp South
+			{ 27.6, 33.4, SHOLAZAR_BASIN },	-- The Stormwright's Shelf
+			{ 44.9, 8.6, BOREAN_TUNDRA },	-- Ruins of Eldra'nath
+			{ 73.0, 31.8, BOREAN_TUNDRA },	-- Steam Springs
+		},
+		["crs"] = {
+			28784,	-- Altar Warden
+			24879,	-- Arctic Cloud (Gas cloud)
+			25415,	-- Enraged Tempest
+			26407,	-- Lightning Sentry
+			30184,	-- Scion of Storm
+			24601,	-- Steam Rager
+			28858,	-- Storm Revenant
+			29624,	-- Stormrider
+			30875,	-- Tempest Revenant
+			30848,	-- Whispering Wind
+		},
+		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+	}, {
+		i(37700),	-- Crystallized Air
+		i(35623),	-- Eternal Air
+	})),
+	filter(REAGENTS, sharedData({	-- Earth
+		["coords"] = {
+			{ 64.2, 23.3, GRIZZLY_HILLS },	-- Thor Modan
+			{ 15.5, 77.6, ZULDRAK },	-- Ebon Watch, south of.
+			{ 58.5, 45.6, ZULDRAK },	-- Zim'Rhuk
+			{ 70.0, 59.2, THE_STORM_PEAKS },	-- Frostfield Lake
+			{ 56.6, 41.7, WINTERGRASP },	-- Wintergrasp East
+		},
+		["crs"] = {
+			30160,	-- Brittle Revenant
+			30849,	-- Chilled Earth Revenant
+			30876,	-- Earthbound Revenant
+			28597,	-- Guardian of Zim'Rhuk
+			29436,	-- Icetouched Earthrager
+			26284,	-- Runic Battle Golem
+		},
+		["providers"] = {
+			{ "o", 189978 },	-- Cobalt Deposit
+			{ "o", 189979 },	-- Rich Cobalt Deposit
+			{ "o", 189981 },	-- Rich Saronite Deposit
+			{ "o", 189980 },	-- Saronite Deposit
+		},
+		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+	}, {
+		i(37701),	-- Crystallized Earth
+		i(35624),	-- Eternal Earth
+	})),
+	filter(REAGENTS, sharedData({	-- Fire
+		["coords"] = {
+			{ 48.7, 14.4, BOREAN_TUNDRA },	-- Charred Rise
+			{ 84.0, 71.5, WINTERGRASP },	-- The Cauldron of Flames
+			{ 62.5, 41.5, THE_STORM_PEAKS },	-- Frostfloe Deep
+			{ 75.5, 63.2, THE_STORM_PEAKS },	-- Fjorn's Anvil
+		},
+		["crs"] = {
+			32522,	-- Cinder Cloud (Gas cloud)
+			30873,	-- Flame Revenant
+			25417,	-- Raging Boiler
+			30847,	-- Raging Flame
+			30387,	-- Seething Revenant
+			32544,	-- Steam Cloud (Gas cloud)
+			30450,	-- Wailing Winds
+		},
+		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+	}, {
+		i(37702),	-- Crystallized Fire
+		i(36860),	-- Eternal Fire
+	})),
+	filter(REAGENTS, sharedData({	-- Life
+		["coords"] = {
+			{ 54.0, 17.6, HOWLING_FJORD },	-- The Twisted Glade
+			{ 44.0, 59.3, ZULDRAK },	-- Drak'Agal
+			{ 9.5, 61.6, WINTERGRASP },	-- The Steppe of Life
+			{ 48.9, 54.0, SHOLAZAR_BASIN },	-- River's Heart, north of.
+			{ 44.3, 69.9, SHOLAZAR_BASIN },	-- River's Heart, southwest of.
+		},
+		["crs"] = {
+			30845,	-- Living Lasher
+			34300,	-- Mature Lasher
+			28323,	-- Mossy Rampager
+			29036,	-- Servant of Freya
+			23874,	-- Thornwine Creeper
+		},
+		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+	}, {
+		i(37704),	-- Crystallized Life
+		i(35625),	-- Eternal Life
+	})),
+	filter(REAGENTS, sharedData({	-- Shadow
+		["coords"] = {
+			{ 74.6, 23.2, DRAGONBLIGHT },	-- Frostmourne Cavern
+			{ 18.0, 56.0, WINTERGRASP },	-- The Forest of Shadows
+		},
+		["crs"] = {
+			27382,	-- Deathbringer Revenant
+			30872,	-- Shadow Revenant
+			30842,	-- Wandering Shadow
+		},
+		["providers"] = {
+			{ "o", 189981 },	-- Rich Saronite Deposit
+			{ "o", 189980 },	-- Saronite Deposit
+		},
+		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+	}, {
+		i(37703),	-- Crystallized Shadow
+		i(35627),	-- Eternal Shadow
+	})),
+	filter(REAGENTS, sharedData({	-- Water
+		["coords"] = {
+			{ 27.6, 33.4, SHOLAZAR_BASIN },	-- The Stormwright's Shelf
+			{ 46.3, 13.4, BOREAN_TUNDRA },	-- Blistering Pool
+			{ 49.6, 54.6, WINTERGRASP },	-- Wintergrasp
+			{ 9.6, 56.8, DRAGONBLIGHT },	-- Coldwind Pass
+			{ 40.1, 67.7, DRAGONBLIGHT },	-- Lake Indu'le
+			{ 53.1, 20.0, DRAGONBLIGHT },	-- Coldwind Heights
+			{ 67.3, 53.4, DRAGONBLIGHT },	-- The Mirror of Dawn
+			{ 41.7, 62.2, THE_STORM_PEAKS },	-- The Frigid Tomb
+			{ 42.0, 78.0, ZULDRAK },	-- Drak'Sotra Fields
+			{ 54.0, 50.3, ZULDRAK },	-- Drak'Mabwa
+			{ 65.3, 69.1, GRIZZLY_HILLS },	-- The Forgotten Overlook
+			{ 61.3, 23.0, HOWLING_FJORD },	-- The Frozen Glade
+		},
+		["crs"] = {
+			28862,	-- Aquerous Spirit
+			24879,	-- Arctic Cloud (Gas cloud)
+			25419,	-- Boiling Spirit
+			21223,	-- Corrupted Rager
+			16570,	-- Crazed Water Spirit
+			26316,	-- Crystalline Ice Elemental
+			28411,	-- Frozen Earth
+			25715,	-- Frozen Element
+			30846,	-- Glacial Spirit
+			23919,	-- Ice Elemental
+			26283,	-- Ice Revenant
+			29844,	-- Icebound Revenant
+			24228,	-- Iceshard Elemental
+			32544,	-- Steam Cloud (Gas cloud)
+			30877,	-- Water Revenant
+		},
+		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+	}, {
+		i(37705),	-- Crystallized Water
+		i(35622),	-- Eternal Water
+	})),
 })));
