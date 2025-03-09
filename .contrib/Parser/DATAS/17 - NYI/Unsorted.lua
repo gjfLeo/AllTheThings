@@ -281,8 +281,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(225766),	-- Zoom-Zoom Boosters
-				i(227547),	-- Kayjay's Debt Marker
-				i(227548),	-- Fantastic Davey's Debt Marker
 
 				i(228798),	-- Gob-Glider
 				i(229810),	-- Vintage Kaja'cola Can
@@ -303,7 +301,6 @@ root(ROOTS.Unsorted, {
 				i(234616),	-- Supreme Mangoro Madness
 				i(234617),	-- Dulux Bluesberry Blast
 				i(234618),	-- Omega Oyster Outbreak
-				i(234619),	-- Ultimate Orange O-pocalypse
 				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
 				i(235280),	-- Extra Crispy Laundry
 
@@ -464,7 +461,6 @@ root(ROOTS.Unsorted, {
 			i(234733),	-- Bloodwake Ritual Bowl
 			i(237036),	-- Golden Valorstone
 			i(237123),	-- Descaled Capelet
-			i(237131),	-- X-Plo-Dar 64k ENHANCE Results
 			i(237240),	-- Banded Sepia War Legwraps
 			i(237241),	-- Banded Sunny War Legwraps
 			i(237242),	-- Banded Snowy War Legwraps
@@ -485,7 +481,6 @@ root(ROOTS.Unsorted, {
 			i(237257),	-- Banded Grassy War Legwraps
 			i(237259),	-- Kapow Kanapes
 			i(237260),	-- Glass of Daylight Dew
-			i(237268),	-- How to Get Out of Parking Tickets More Than Once
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old
@@ -979,8 +974,6 @@ root(ROOTS.Unsorted, {
 			i(232511),	-- Electric Eel
 			--
 			i(232631),	-- Wrapped Spear
-			--
-			i(228911),	-- Xal'atath's Rusty Coin
 			--
 			i(227698),	-- Torn Diary, Page 2
 			i(229198),	-- Ace of Air

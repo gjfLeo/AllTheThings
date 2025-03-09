@@ -1195,6 +1195,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(226004),	-- Odlen Text (was looted from Sturdy Chest (objectID) 455495)
 			i(226005),	-- Ancient Tool (was looted from Sturdy Chest (objectID) 455914)
 			--
+			i(234619, {	-- Ultimate Orange O-pocalypse (Curio buff item)
+				["timeline"] = { ADDED_11_1_0_SEASONSTART },
+			}),
+			--
 			i(228560),	-- Ancient Curio (QI!/QS!)
 			i(228581),	-- Ancient Curio (QI!/QS!)
 			i(234329, {	-- Ancient Curio (QS!)

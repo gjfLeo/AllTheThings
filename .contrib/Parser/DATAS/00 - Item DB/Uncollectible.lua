@@ -2077,7 +2077,7 @@ i(225842);	-- Whirling Sphere
 i(220491);	-- Wicked Blade Shard
 i(227320);	-- Wicker Wisps
 i(220232);	-- Worm-Eaten Burlap Robe
-i(228911);	-- Xalatath's Rusty Coin
+i(228911);	-- Xal'atath's Rusty Coin
 i(228628);	-- Yawning Basket of Aspect's Awakened Crests
 
 ------------------

@@ -655,33 +655,42 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 					q(87321, {	-- Things Left Undone
 						["sourceQuest"] = 86204,	-- Liberation of Undermine: The House Loses
-						--["provider"] = { "n", xxxxx },	-- Marin Noggenfogger
-						--["coord"] = { xx, xx, UNDERMINE },
+						["provider"] = { "n", 238006 },	-- Marin Noggenfogger
+						["coord"] = { 27.4, 71.0, UNDERMINE },
 					}),
 					q(85190, {	-- Settled Dust
 						["sourceQuest"] = 87321,	-- Things Left Undone
-						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
-						--["coord"] = { xx, xx, UNDERMINE },
+						["provider"] = { "n", 232822 },	-- Monte Gazlowe
+						["coord"] = { 42.6, 51.6, UNDERMINE },
 					}),
 					q(85191, {	-- Cut After Cut
 						["sourceQuest"] = 85190,	-- Settled Dust
-						--["provider"] = { "n", xxxxx },	-- Master Mathias Shaw
-						--["coord"] = { xx, xx, WESTFALL },
+						["provider"] = { "n", 234783 },	-- Master Mathias Shaw
+						["coord"] = { 30.0, 86.1, WESTFALL },
 						["g"] = {
-							i(233657),	-- Old Copy of "Undermine Weekly" (QI!)
-							i(233656),	-- Pristine Fishing Gear (QI!)
-							i(233655),	-- Well-Worn Throwing Knives (QI!)
+							o(503303, {	-- Old Copy of "Undermine Weekly"
+								["coord"] = { 30.5, 85.8, WESTFALL },
+								["g"] = { i(233657) },	-- Old Copy of "Undermine Weekly" (QI!)
+							}),
+							o(503302, {	-- Unused Fishing Gear
+								["coord"] = { 29.8, 85.5, WESTFALL },
+								["g"] = { i(233656) },	-- Pristine Fishing Gear (QI!)
+							}),
+							o(503301, {
+								["coord"] = { 30.1, 86.4, WESTFALL },
+								["g"] = { i(233655) },	-- Well-Worn Throwing Knives (QI!)
+							}),
 						},
 					}),
 					q(85192, {	-- Coming Home
 						["sourceQuest"] = 85191,	-- Cut After Cut
-						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
-						--["coord"] = { xx, xx, WESTFALL },
+						["provider"] = { "n", 234783 },	-- Master Mathias Shaw
+						["coord"] = { 30.0, 86.1, WESTFALL },
 					}),
 					q(87297, {	-- Cashing the Check
 						["sourceQuest"] = 85192,	-- Coming Home
-						--["provider"] = { "n", xxxxx },	-- Monte Gazlowe
-						--["coord"] = { xx, xx, UNDERMINE },
+						["provider"] = { "n", 234801 },	-- Monte Gazlowe
+						["coord"] = { 39.1, 23.3, UNDERMINE },
 					}),
 					------ Stay awhile and listen ------
 					hqt(87351, {	-- Stay awhile and listen: Monte Gazlowe <Bilgewater Trade-Prince>
@@ -1043,19 +1052,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			header(HEADERS.AchCriteria, 40894.09, {	-- Hard Ways at the Gallagio TODO
 				q(83519, {	-- But What About the Casino?
-					["sourceQuest"] = 87297,	-- Cashing the Check (Speculated)
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["sourceQuest"] = 87297,	-- Cashing the Check
+					["provider"] = { "n", 226273 },	-- Monte Gazlowe
+					["coord"] = { 63.7, 44.6, UNDERMINE },
 				}),
 				q(83569, {	-- Death and Taxes
 					["sourceQuest"] = 83519,	-- But What About the Casino?
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 226273 },	-- Monte Gazlowe
+					["coord"] = { 67.1, 44.5, UNDERMINE },
+					["g"] = {
+						o(453944, {	-- Marty's Bookcase
+							["coord"] = { 38.1, 33.4, UNDERMINE },
+							["g"] = { i(237268) },	-- How to Get Out of Parking Tickets More Than Once
+						}),
+					},
 				}),
 				q(84221, {	-- Paperwork Makes the Mine Go Under
 					["sourceQuest"] = 83569,	-- Death and Taxes
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 228369 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 38.7, 33.8, UNDERMINE },
 					["g"] = {
 						i(232764),	-- Pendant of Shrouded Secrets
 						i(232765),	-- Truthseeker's Necklace
@@ -1063,51 +1078,81 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				q(84242, {	-- Diving into the Heaps
 					["sourceQuest"] = 84221,	-- Paperwork Makes the Mine Go Under
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 228369 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 38.9, 34.0, UNDERMINE },
 				}),
 				q(83522, {	-- Debting For A Living
 					["sourceQuest"] = 84242,	-- Diving into the Heaps
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 226277 },	--Marty Zoomcart <Public Defender>
+					["coord"] = { 50.7, 70.2, UNDERMINE },
 				}),
 				q(83524, {	-- Gold In Them There Trash
 					["sourceQuest"] = 83522,	-- Debting For A Living
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 228420 },	-- Tarbonara Fizzlecrank
+					["coord"] = { 52.7, 73.1, UNDERMINE },
 					["g"] = {
 						i(232766),	-- Band of the Last Hope
 						i(232767),	-- Ring of the Last Gambit
 						i(234188),	-- Slot Chits (QI!)
 					},
 				}),
-				q(83527, {	-- Winning is for Losers, Anyway
+				q(83528, {	-- All Part of the Game
 					["sourceQuest"] = 83524,	-- Gold In Them There Trash
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 228474 },	-- Kayjay
+					["coord"] = { 55.7, 75.9, UNDERMINE },
 					["g"] = {
-						i(227541),	-- Miner's Debt Marker
+						i(227548),	-- Fantastic Davey's Debt Marker (QI!)
+						i(227547),	-- Kayjay's Debt Marker (QI!)
 					},
 				}),
-				q(83528, {	-- All Part of the Game
-					["sourceQuest"] = 83527,	-- Winning is for Losers, Anyway
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+				q(83527, {	-- Winning is for Losers, Anyway
+					["sourceQuest"] = 83524,	-- Gold In Them There Trash
+					["provider"] = { "n", 228473 },	-- Fantastic Davey
+					["coord"] = { 55.8, 75.8, UNDERMINE },
+					["g"] = {
+						i(227541),	-- Miner's Debt Marker (QI!)
+					},
+				}),
+				q(84249, {	-- A Vat in the Pan
+					["sourceQuests"] = {
+						83528,	-- All Part of the Game
+						83527,	-- Winning is for Losers, Anyway
+					},
+					["provider"] = { "n", 232823 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 56.4, 65.5, UNDERMINE },
+				}),
+				q(83540, {	-- Work the Line
+					["sourceQuest"] = 84249,	-- A Vat in the Pan
+					["provider"] = { "n", 226932 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 32.7, 80.3, UNDERMINE },
+					["g"] = { i(227663) },	-- Noggenfogger's Recommendation (QI!)
+				}),
+				q(83541, {	-- Review Bombed
+					["sourceQuest"] = 83540,	-- Work the Line
+					["provider"] = { "n", 226934 },	-- Jojo Gobdre (wanders)
+					["coord"] = { 36.9, 88.1, UNDERMINE },
+					["g"] = { i(227666) },	-- Diner Review Cards (QI!)
+				}),
+				q(83542, {	-- Quick Gills for Gold Now
+					["sourceQuest"] = 83541,	-- Review Bombed
+					["provider"] = { "n", 226934 },	-- Jojo Gobdre (wanders)
+					["coord"] = { 36.9, 88.1, UNDERMINE },
+					["g"] = { i(227674) },	-- Gobdre's Prized Pan (QI!)
 				}),
 				q(84244, {	-- Blackwater Beach Blast
-					["sourceQuest"] = 83528,	-- All Part of the Game
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["sourceQuest"] = 83542,	-- Quick Gills for Gold Now
+					["provider"] = { "n",  231812 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 36.8, 87.8, UNDERMINE },
 				}),
 				q(83534, {	-- Ain't No Warm Up Act
 					["sourceQuest"] = 84244,	-- Blackwater Beach Blast
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 226899 },	-- Chancellor Gnome
+					["coord"] = { 57.1, 35.2, UNDERMINE },
 				}),
 				q(83535, {	-- Plunder Party Rockin' Rumble
 					["sourceQuest"] = 83534,	-- Ain't No Warm Up Act
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 232005 },	-- Chancellor Gnome
+					["coord"] = { 71.0, 23.9, UNDERMINE },
 					["g"] = {
 						i(232769),	-- Stagecrasher's Gloves
 						i(232784),	-- Stagecrasher's Legguards
@@ -1115,59 +1160,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(232774),	-- Stagecrasher's Wristband
 					},
 				}),
-				q(84249, {	-- A Vat in the Pan
-					["sourceQuest"] = 83535,	-- Plunder Party Rockin' Rumble
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
-				}),
-				q(83540, {	-- Work the Line
-					["sourceQuest"] = 84249,	-- A Vat in the Pan
-					--["provider"] = { "n", xxxxx },	--
-					--["coord"] = { xx, xx, UNDERMINE },
-					["g"] = { i(227663) },	-- Noggenfogger's Recommendation (QI!)
-				}),
-				q(83541, {	-- Review Bombed
-					["sourceQuest"] = 83540,	-- Work the Line
-					--["provider"] = { "n", xxxxx },	-- Jojo Gobdre
-					--["coord"] = { xx, xx, UNDERMINE },
-					["g"] = { i(227666) },	-- Diner Review Cards (QI!)
-				}),
-				q(83542, {	-- Quick Gills for Gold Now
-					["sourceQuest"] = 83541,	-- Review Bombed
-					--["provider"] = { "n", xxxxx },	-- Jojo Gobdre
-					--["coord"] = { xx, xx, UNDERMINE },
-					["g"] = { i(227674) },	-- Gobdre's Prized Pan (QI!)
-				}),
 				q(85189, {	-- Our Day in Court
-					["sourceQuest"] = 83542,	-- Quick Gills for Gold Now
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
+					["sourceQuest"] = 83535,	-- Plunder Party Rockin' Rumble
+					["provider"] = { "n", 226894 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 55.7, 35.0, UNDERMINE },
 				}),
 				q(83546, {	-- Responsibility
 					["sourceQuest"] = 85189,	-- Our Day in Court
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 227018 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 38.8, 33.9, UNDERMINE },
 				}),
 				q(83558, {	-- Casino Court
 					["sourceQuest"] = 83546,	-- Responsibility
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 227032 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 56.8, 44.3, UNDERMINE },
 					["g"] = {
 						i(232782),	-- Trigger-Sniffer's Greaves
 						i(232786),	-- Trigger-Sniffer's Handwraps
 						i(232768),	-- Trigger-Sniffer's Hood
 						i(232773),	-- Trigger-Sniffer's Spaulders
+						i(237131),	-- X-Plo-Dar 64k ENHANCE Results
 					},
 				}),
 				q(83563, {	-- Coffee is for Closers
 					["sourceQuest"] = 83558,	-- Casino Court
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 227032 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 56.8, 44.3, UNDERMINE },
 				}),
 				q(83566, {	-- Oh, That Casino!
 					["sourceQuest"] = 83563,	-- Coffee is for Closers
-					--["provider"] = { "n", xxxxx },	-- Marty Zoomcart <Public Defender>
-					--["coord"] = { xx, xx, UNDERMINE },
+					["provider"] = { "n", 226894 },	-- Marty Zoomcart <Public Defender>
+					["coord"] = { 56.8, 44.3, UNDERMINE },
 					["g"] = { i(234125) },	-- Public Defender's Coat
 				}),
 			}),

@@ -211,7 +211,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235308),	-- Filthtread Boots
 					i(235359),	-- Ratfang Toxin
 					i(235326),	-- Ratspit's Heirloom Wristwraps
-					i(235302),	-- Shockwave Pendant
 				},
 			}),
 			n(230979, {	-- S.A.L.
@@ -224,6 +223,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(235322),	-- Junkyard Clawguards
 					i(235315),	-- Rocketstep Boots
 					i(235356),	-- Sapper's Spark Reactor
+					i(235302),	-- Shockwave Pendant
 				},
 			}),
 			n(230931, {	-- Scrapbeak
@@ -327,6 +327,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["description"] = "Can be summoned by anyome who has a contract with the Blackwater Cartel.",
 				["coord"] = { 62.7, 26.1, UNDERMINE },
 				["questID"] = 85777,
+				["isWeekly"] = true,
 				["g"] = {
 					i(235373),	-- Abyssal Volt
 					i(235826),	-- Electric Wristrags

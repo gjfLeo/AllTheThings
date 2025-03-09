@@ -1,0 +1,63 @@
+﻿local ObjectDB = ObjectDB; for objectID,objectData in pairs({
+	[453944] = {
+		readable = "Marty's Bookcase",
+		model = 1901195,
+		text = {
+			en = "Marty's Bookcase",
+			es = "Estantería de Marty",
+			de = "Martys Bücherregal",
+			fr = "Bibliothèque de Marty",
+			it = "Libreria di Marty",
+			pt = "Estante de Livros do Martinho",
+			ru = "Книжный шкаф Марти",
+			ko = "마티의 책장",
+			cn = "玛提的书柜",
+		},
+	},
+	[503301] = {
+		readable = "Well-Worn Throwing Knives",
+		model = 936407,
+		text = {
+			en = "Well-Worn Throwing Knives",
+			es = "Cuchillos arrojadizos desgastados",
+			de = "Abgenutzte Wurfmesser",
+			fr = "Couteaux de lancer usés",
+			it = "Coltelli da Lancio Consumati",
+			pt = "Facas de Arremesso Bem Desgastadas",
+			ru = "Старые метательные ножи",
+			ko = "Well-Worn Throwing Knives",
+			cn = "破旧的飞刀",
+		},
+	},
+	[503302] = {
+		readable = "Unused Fishing Gear",
+		model = 984242,
+		text = {
+			en = "Unused Fishing Gear",
+			es = "Equipo de pesca sin usar",
+			de = "Unbenutzte Angelausrüstung",
+			fr = "Équipement de pêche inutilisé",
+			it = "Equipaggiamento da Pesca Inutilizzato",
+			pt = "Equipamento de Pesca Não Usado",
+			ru = "Неиспользованное рыбацкое снаряжение",
+			ko = "Unused Fishing Gear",
+			cn = "未使用的渔具",
+		},
+	},
+	[503303] = {
+		readable = "Old Copy of \"Undermine Weekly\"",
+		model = 6159478,
+		text = {
+			en = "Old Copy of \"Undermine Weekly\"",
+			es = "Copia antigua de \"Semanario de Minahonda\"",
+			de = "Alte Ausgabe vom \"Lorenhaller Wochenblatt\"",
+			fr = "Vieil exemplaire de la Gazette de Terremine",
+			it = "Vecchia Copia del \"Settimanale di Cavafonda\"",
+			pt = "Exemplar Antigo do \"Semanário da Inframina\"",
+			ru = "Старая копия \"Еженедельника Нижней Шахты\"",
+			ko = "Old Copy of \"Undermine Weekly\"",
+			cn = "一份旧的《安德麦周报》",
+		},
+	},
+})
+do ObjectDB[objectID] = objectData; end

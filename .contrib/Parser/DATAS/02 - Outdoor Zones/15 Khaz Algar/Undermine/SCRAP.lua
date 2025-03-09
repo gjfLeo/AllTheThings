@@ -43,11 +43,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 					o(516163, {	-- Half-Empty Bag (The Heaps)
 						["coord"] = { 52.4, 83.0, UNDERMINE },
-						--["questID"] = ,
+						["questID"] = 87278,
 					}),
 					o(516158, {	-- Half-Empty Bag (The Vatworks)
 						["coord"] = { 38.4, 80.9, UNDERMINE },
-						--["questID"] = ,
+						["questID"] = 87274,
 					}),
 					o(516160, {	-- Half-Empty Bag (Venturewood)
 						["coord"] = { 50.6, 63.8, UNDERMINE },
