@@ -1949,11 +1949,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				n(3914, {	-- Rethilgore <The Cell Keeper>
 					["timeline"] = { REMOVED_4_0_3 },
-					-- #if BEFORE 4.0.3
 					["groups"] = {
-						i(5254),	-- Rugged Spaulders
+						i(5254, {	-- Rugged Spaulders
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
 					},
-					-- #endif
 				}),
 				e(96, {	-- Baron Ashbury
 					["creatureID"] = 46962,
@@ -1971,9 +1971,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				n(3886, {	-- Razorclaw the Butcher
 					["timeline"] = { REMOVED_4_0_3 },
 					["groups"] = {
-						-- #if BEFORE 4.0.3
-						i(1292),	-- Butcher's Cleaver
-						-- #endif
+						i(1292, {	-- Butcher's Cleaver
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
 						i(6633, {	-- Butcher's Slicer
 							["timeline"] = { REMOVED_4_0_3 },
 						}),
@@ -1991,12 +1991,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(60885, {	-- Silverlaine Family Sword
 							["timeline"] = { ADDED_4_0_3 },
 						}),
-						-- #if BEFORE 4.0.3
 						i(6323),	-- Baron's Scepter
-						-- #endif
-						-- #if AFTER 4.0.3
-						i(5254),	-- Rugged Spaulders
-						-- #endif
+						i(5254, {	-- Rugged Spaulders
+							["timeline"] = { ADDED_7_1_5 },
+						}),
 						i(132568, {	-- Shadowfang Pauldrons
 							["timeline"] = { ADDED_7_0_3 },
 						}),
@@ -2006,9 +2004,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(132567, {	-- Blindwatcher's Chain
 							["timeline"] = { ADDED_7_0_3 },
 						}),
-						-- #if AFTER 4.0.3
-						i(6319),	-- Girdle of the Blindwatcher
-						-- #endif
+						i(6319, {	-- Girdle of the Blindwatcher
+							["timeline"] = { ADDED_7_1_5 },
+						}),
 						i(6321),	-- Silverlaine's Family Seal
 					},
 				}),
@@ -2056,12 +2054,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				n(4279, {	-- Odo the Blindwatcher
 					["timeline"] = { REMOVED_4_0_3 },
-					-- #if BEFORE 4.0.3
 					["groups"] = {
-						i(6318),	-- Odo's Ley Staff
-						i(6319),	-- Girdle of the Blindwatcher
+						i(6318, {	-- Odo's Ley Staff
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
+						i(6319, {	-- Girdle of the Blindwatcher
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
 					},
-					-- #endif
 				}),
 				e(99, {	-- Lord Walden
 					["creatureID"] = 46963,
@@ -2073,10 +2073,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(60881, {	-- Walden's Talisman
 							["timeline"] = { ADDED_4_0_3 },
 						}),
-						i(1292),	-- Butcher's Cleaver
+						i(1292, {	-- Butcher's Cleaver
+							["timeline"] = { ADDED_4_0_3 },
+						}),
 						i(6341),	-- Eerie Stable Lantern
 						i(6642),	-- Phantom Armor
-						i(3230),	-- Black Wolf Bracers
+						i(3230, {	-- Black Wolf Bracers
+							["timeline"] = { ADDED_4_0_3 },
+						}),
 						i(132566, {	-- Dark Lupine Wraps
 							["timeline"] = { ADDED_7_0_3 },
 						}),
@@ -2090,9 +2094,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				n(4274, {	-- Fenrus the Devourer
 					["timeline"] = { REMOVED_4_0_3 },
 					["groups"] = {
-						-- #if BEFORE 4.0.3
-						i(3230),	-- Black Wolf Bracers
-						-- #endif
+						i(3230, {	-- Black Wolf Bracers
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
 						i(6340, {	-- Fenrus' Hide
 							["timeline"] = { REMOVED_4_0_3 },
 						}),
