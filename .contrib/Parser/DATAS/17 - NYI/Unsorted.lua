@@ -27,7 +27,6 @@ root(ROOTS.Unsorted, {
 				i(233267),	-- Laundered Cuffs
 				i(233338),	-- Upcycled Helm
 				i(233339),	-- Upcycled Breeches
-				i(233342),	-- Upcycled Bindings
 				i(233345),	-- Power-Washed Grips
 				i(233350),	-- Power-Washed Bracers
 				i(233547),	-- Descaled Helm
@@ -36,9 +35,7 @@ root(ROOTS.Unsorted, {
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
 				i(235484),	-- Razor-sharp Desk Fan
-				i(235486),	-- Springloaded Kneecap Breaker
 				i(235492),	-- Oscillating Scrapcleaver
-				i(235494),	-- Biker Gang's Spare Tire
 			}),
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner

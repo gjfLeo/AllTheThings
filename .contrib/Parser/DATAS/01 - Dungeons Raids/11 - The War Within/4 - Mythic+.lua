@@ -90,9 +90,12 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				spell(445444),	-- Path of the Light's Reverence
 			}),
 			ach(40965, {	-- Keystone Hero: The MOTHERLODE!!
-				-- One is Alliance and One is Horde (Unsure which...)
-				spell(467553),	-- Path of the Azerite Refinery
-				spell(467555),	-- Path of the Azerite Refinery
+				spell(467553, {	-- Path of the Azerite Refinery [A]
+					["races"] = ALLIANCE_ONLY,
+				}),
+				spell(467555, {	-- Path of the Azerite Refinery [H]
+					["races"] = HORDE_ONLY,
+				}),
 			}),
 			ach(20579, {	-- Keystone Hero: The Rookery
 				spell(445443),	-- Path of the Fallen Stormriders

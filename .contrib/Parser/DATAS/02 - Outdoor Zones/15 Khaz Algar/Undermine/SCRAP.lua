@@ -219,7 +219,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										--i(233260),	-- Laundered Vestment
 									}),
 									filter(LEATHER, {
-										--i(233342),	-- Upcycled Bindings
+										i(233342),	-- Upcycled Bindings
 										--i(233339),	-- Upcycled Breeches
 										i(233340),	-- Upcycled Epaulets
 										i(233337),	-- Upcycled Gloves

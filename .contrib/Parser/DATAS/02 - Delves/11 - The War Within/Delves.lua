@@ -903,6 +903,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(219210),	-- Sanctifier's Startierce
 					})),
 					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						i(235494),	-- Biker Gang's Spare Tire
 						i(235489),	-- Bullet Biter
 						i(235490),	-- Clawbacker Halberd
 						i(235493),	-- Ignited Flare Jar
@@ -911,6 +912,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235495),	-- Missile Guided Throat Slitter
 						i(235485),	-- Oil Gouger
 						i(235488),	-- Rocket Taped to a Screwdriver
+						i(235486),	-- Springloaded Kneecap Breaker
 					})),
 				}),
 			},

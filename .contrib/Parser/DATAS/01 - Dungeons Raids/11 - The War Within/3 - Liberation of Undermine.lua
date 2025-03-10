@@ -693,30 +693,31 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		}),
 
 
-		--q(88846),	-- Trash before Rik Reverb on LFR?
-		--q(89479),	-- Trash before Rik Reverb on LFR?
+		--q(88846),	-- Trash before Rik Reverb on LFR? Skiggy Muckheimer?
+		--q(89479),	-- Trash before Rik Reverb on LFR? Skiggy Muckheimer?
 		--q(88861),	-- Globikus trash on Normal?
 		--q(89482),	-- Globikus trash on Normal?
-		--q(88852),	-- Melbo The Magnificent trash on Normal?
-		--q(89480),	-- Melbo The Magnificent trash on Normal?
-		--q(88856),	-- The Junkmaster trash on Normal?
-		--q(89481),	-- The Junkmaster trash on Normal?
+		--q(88852),	-- Melbo The Magnificent trash on Normal or LFR?
+		--q(89480),	-- Melbo The Magnificent trash on Normal or LFR?
+		--q(88856),	-- The Junkmaster trash on Normal or LFR?
+		--q(89481),	-- The Junkmaster trash on Normal or LFR?
 
 		-- LFR
-		q(88838),	-- Trash before Cauldron of Carnage
-		q(88842),	-- Trash before Cauldron of Carnage
-		q(89478),	-- Trash before Cauldron of Carnage
+		q(88838),	-- Guk Boomdog Trash
+		q(88842),	-- King Flamespite/Professor Boomspark Trash
+		q(89478),	-- King Flamespite/Professor Boomspark Trash
 		-- Normal
-		q(88833),	-- Trash before Cauldron of Carnage on Normal
-		q(88840),	-- Trash before Cauldron of Carnage on Normal
-		q(88844),	-- Trash before Cauldron of Carnage on Normal
-		q(88848),	-- Trash before Rik Reverb on Normal
+		q(88833),	-- Guk Boomdog Trash
+		q(88840),	-- King Flamespite/Professor Boomspark Trash
+		q(88844),	-- King Flamespite/Professor Boomspark Trash
+		q(88848),	-- Skiggy Muckheimer Trash
 		-- Heroic
-		--q(88836),	-- Trash before Cauldron of Carnage on Heroic?
-		--q(88837),	-- Trash before Cauldron of Carnage on Heroic?
-		--q(88841),	-- Trash before Cauldron of Carnage on Heroic?
+		q(88836),	-- Guk Boomdog Trash
+		q(88837),	-- King Flamespite/Professor Boomspark Trash
+		q(88841),	-- King Flamespite/Professor Boomspark Trash
+		q(88845),	-- Skiggy Muckheimer Trash
 
-		-- LFR/Normal
+		-- LFR/Normal/Heroic
 		q(88835),	-- Holograms activated before Cauldron of Carnage
 
 		q(89452),	-- Vexie Fullthrottle

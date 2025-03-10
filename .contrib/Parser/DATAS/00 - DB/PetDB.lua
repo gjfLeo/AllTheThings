@@ -4325,6 +4325,7 @@ i(232841, 4644);	-- Professor Punch
 i(232851, 4641);	-- Rocketfist
 i(232895, 4701);	-- Spotty
 i(232846, 4648);	-- Steamwheedle Flunkie
+i(238796, 4791);	-- Thrrrdgl
 i(232806, 4643);	-- Tiny Torq
 i(238261, 4762);	-- Tock the Clocker Spaniel
 i(232849, 4650);	-- Venture Companyman
@@ -4379,7 +4380,6 @@ i(0, 4761);	-- Pascal the Wonder Pup
 i(235980, 4756);	-- Scourge of the Aspects
 i(241188, 4804);	-- Swiftpaw
 i(238942, 4793);	-- The Wonder Pup
-i(238796, 4791);	-- Thrrrdgl
 i(235793, 4748);	-- Void-Scarred Parrot
 i(235795, 4749);	-- Void-Scarred Scorpid
 i(235797, 4750);	-- Void-Scarred Tallstrider Chick
