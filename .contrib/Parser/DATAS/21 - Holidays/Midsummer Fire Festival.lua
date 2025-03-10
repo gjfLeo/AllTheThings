@@ -612,6 +612,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = { ADDED_3_0_2 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
+			ach(41631, {	-- Flame Warden of Khaz Algar (A) (automated)
+				["timeline"] = { ADDED_11_1_5 },
+			}),
 			ach(13341, {	-- Flame Warden of Kul Tiras (A)
 				["timeline"] = { ADDED_8_1_5 },
 				["sym"] = {{ "achievement_criteria" }},
@@ -632,7 +635,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = { ADDED_7_2_0 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
-			ach(17737, {	-- Flame Keeper of the Dragon Isles (A)
+			ach(17737, {	-- Flame Warden of the Dragon Isles (A)
 				["timeline"] = { ADDED_10_1_0 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
@@ -730,6 +733,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			ach(1026, {	-- Flame Keeper of Kalimdor (H)
 				["timeline"] = { ADDED_3_0_2 },
 				["sym"] = {{ "achievement_criteria" }},
+			}),
+			ach(41632, {	-- Flame Keeper of Khaz Algar (H) (automated)
+				["timeline"] = { ADDED_11_1_5 },
 			}),
 			ach(6009, {	-- Flame Keeper of Northrend (H)
 				["timeline"] = { ADDED_4_3_0 },
@@ -3125,6 +3131,26 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					["qg"] = 204417,	-- Zaralek Cavern Flame Guardian
 					["coord"] = { 55.2, 55.4, ZARALEK_CAVERN },
 					["timeline"] = { ADDED_10_1_0 },
+				}),
+				honortheflame(87356, {	-- Honor the Flame - Azj-Kahet
+					--["qg"] = ?,	-- ?
+					--["coord"] = { ?, ?, AZJ_KAHET },
+					["timeline"] = { ADDED_11_1_5 },
+				}),
+				honortheflame(87355, {	-- Honor the Flame - Hallowfall
+					--["qg"] = ?,	-- ?
+					--["coord"] = { ?, ?, HALLOWFALL },
+					["timeline"] = { ADDED_11_1_5 },
+				}),
+				honortheflame(87342, {	-- Honor the Flame - Isle of Dorn
+					--["qg"] = ?,	-- ?
+					--["coord"] = { ?, ?, ISLE_OF_DORN },
+					["timeline"] = { ADDED_11_1_5 },
+				}),
+				honortheflame(87357, {	-- Honor the Flame - The Ringing Deeps
+					--["qg"] = ?,	-- ?
+					--["coord"] = { ?, ?, THE_RINGING_DEEPS },
+					["timeline"] = { ADDED_11_1_5 },
 				}),
 			},
 		}),
