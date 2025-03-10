@@ -3793,6 +3793,14 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41283),	-- Visions - Stormwind - Steeled Mind - Magister Umbric
 			ach(41284),	-- Visions - Stormwind - Steeled Mind - Overlord Mathias Shaw
 			ach(41285),	-- Visions - Stormwind - Steeled Mind - Slavemaster Ul'rok
+			ach(41881),	-- Faceless Mask of the Burned Bridge
+			ach(41882),	-- Faceless Mask of the Daredevil
+			ach(41880),	-- Faceless Mask of the Dark Imagination
+			ach(41883),	-- Faceless Mask of the Long Night
+			ach(41710),	-- Faceless Mask of the Nemesis
+			ach(41856),	-- Faceless Mask of the Pained
+			ach(41884),	-- Faceless Mask of Vengeance
+			ach(41885),	-- Faceless Mask of Multitudes
 			ach(41930),	-- Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
 			ach(41938),	-- Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
 			ach(41946),	-- Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
