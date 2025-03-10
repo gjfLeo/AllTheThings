@@ -3740,5 +3740,63 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41968),	-- Copious Coffers (copy)
 			ach(41969),	-- The Key to Madness (copy)
 		})),
+
+		-- 11.1.5
+		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+			-- 11.1.5.59571
+			ach(41237),	-- Visions - Trait Power 1
+			ach(41238),	-- Visions - Trait Power 2
+			ach(41239),	-- Visions - Trait Power 3
+			ach(41240),	-- Visions - Trait Power 4
+			ach(41241),	-- Visions - Trait Power 5
+			ach(41242),	-- Visions - Trait Power 6
+			ach(41243),	-- Visions - Trait Power 7
+			ach(41244),	-- Visions - Trait Power 8
+			ach(41245),	-- Visions - Trait Power 9
+			ach(41246),	-- Visions - Trait Power 10
+			ach(41247),	-- Visions - Trait Power 11
+			ach(41248),	-- Visions - Trait Power 12
+			ach(41249),	-- Visions - Trait Power 13
+			ach(41250),	-- Visions - Trait Power 14
+			ach(41251),	-- Visions - Trait Power 15
+			ach(41252),	-- Visions - Stormwind - Clear Sight 1
+			ach(41253),	-- Visions - Stormwind - Clear Sight 2
+			ach(41254),	-- Visions - Stormwind - Clear Sight 3
+			ach(41255),	-- Visions - Orgrimmar - Clear Sight 1
+			ach(41256),	-- Visions - Orgrimmar - Clear Sight 2
+			ach(41257),	-- Visions - Orgrimmar - Clear Sight 3
+			ach(41258),	-- Visions - Stormwind - Experimental Destabilization 1
+			ach(41259),	-- Visions - Stormwind - Experimental Destabilization 2
+			ach(41260),	-- Visions - Stormwind - Experimental Destabilization 3
+			ach(41261),	-- Visions - Orgrimmar - Experimental Destabilization 1
+			ach(41262),	-- Visions - Orgrimmar - Experimental Destabilization 2
+			ach(41263),	-- Visions - Orgrimmar - Experimental Destabilization 3
+			ach(41264),	-- Visions - Stormwind - Vision Hunter 1
+			ach(41265),	-- Visions - Stormwind - Vision Hunter 2
+			ach(41266),	-- Visions - Stormwind - Vision Hunter 3
+			ach(41267),	-- Visions - Orgrimmar - Vision Hunter 1
+			ach(41268),	-- Visions - Orgrimmar - Vision Hunter 2
+			ach(41269),	-- Visions - Orgrimmar - Vision Hunter 3
+			ach(41270),	-- Visions - Stormwind - Elite Extermination 1
+			ach(41271),	-- Visions - Stormwind - Elite Extermination 2
+			ach(41272),	-- Visions - Stormwind - Elite Extermination 3
+			ach(41273),	-- Visions - Orgrimmar - Elite Extermination 1
+			ach(41274),	-- Visions - Orgrimmar - Elite Extermination 2
+			ach(41275),	-- Visions - Orgrimmar - Elite Extermination 3
+			ach(41276),	-- Visions - Orgrimmar - Steeled Mind - Thrall
+			ach(41277),	-- Visions - Orgrimmar - Steeled Mind - Inquisitor Gnshal
+			ach(41278),	-- Visions - Orgrimmar - Steeled Mind - Vez'okk the Lightless
+			ach(41279),	-- Visions - Orgrimmar - Steeled Mind - Rexxar
+			ach(41280),	-- Visions - Orgrimmar - Steeled Mind - Oblivion Elemental
+			ach(41281),	-- Visions - Stormwind - Steeled Mind - Alleria Windrunner
+			ach(41282),	-- Visions - Stormwind - Steeled Mind - Therum Deepforge
+			ach(41283),	-- Visions - Stormwind - Steeled Mind - Magister Umbric
+			ach(41284),	-- Visions - Stormwind - Steeled Mind - Overlord Mathias Shaw
+			ach(41285),	-- Visions - Stormwind - Steeled Mind - Slavemaster Ul'rok
+			ach(41930),	-- Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
+			ach(41938),	-- Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
+			ach(41946),	-- Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
+			ach(41947),	-- Greater Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
+			ach(41967),	-- Gift of the Titans Unlocked <Hidden>
 	}),
 });
