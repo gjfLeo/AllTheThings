@@ -33,7 +33,8 @@ EVENTS = {
 
 	-- FOMO
 	PLUNDERSTORM = 446916,	-- This is a fake eventID. (Crieve made this up!) ((Pinchy the Plunderer spellID!))
-	REMIX_MOP = 1525;
+	REMIX_MOP = 1525,
+	DASTARDLY_DUOS = 1599,
 
 	-- Dragonriding Cups
 	-- Note: These need to all be referenced in src\Modules\Events.lua
@@ -67,7 +68,7 @@ EVENTS = {
 
 	-- Timewalking
 	TIMEWALKING = 1271,	-- Generic, "any" timewalking event
-	TIMEWALKING_CLASSIC_DUNGEON_EVENT = 1508,	
+	TIMEWALKING_CLASSIC_DUNGEON_EVENT = 1508,
 	-- EU 1583
 	-- TW 1584
 	-- KR 1585
