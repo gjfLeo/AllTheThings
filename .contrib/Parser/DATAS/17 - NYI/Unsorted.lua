@@ -308,11 +308,6 @@ root(ROOTS.Unsorted, {
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
 			}),
-			n(PROFESSIONS, {
-				prof(ENGINEERING, {
-					i(235037),	-- Crumpled Schematic: Wormhole Generator: Undermine
-				}),
-			}),
 			n(PVP, {
 				i(232886),	-- Ensemble: Algari Warmonger's Cloth Armor
 				i(232887),	-- Ensemble: Algari Warmonger's Leather Armor

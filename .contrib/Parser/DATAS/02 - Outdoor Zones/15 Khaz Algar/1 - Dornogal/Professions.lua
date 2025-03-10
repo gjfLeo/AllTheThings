@@ -138,6 +138,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(228414),	-- Frayed Wiring
 						i(228956),	-- Junk Bucket
 						i(219150),	-- Pile of Rusted Scrap
+						i(235037, {	-- Crumpled Schematic: Wormhole Generator: Undermine
+							["timeline"] = { ADDED_11_1_0 },
+						}),
 					},
 				}),
 			}),

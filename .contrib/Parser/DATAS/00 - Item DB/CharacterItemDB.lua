@@ -264,11 +264,11 @@ iq(183956, 62656);					-- Invitation: Choofa
 -----------------
 -- PATCH 9.0.5 --
 -----------------
-ihqt(185473, 63667);					-- Soulforger's Tools
-ihqt(185632, 63668);					-- Intact Rune Codex
-ihqt(185351, 63641);					-- Rune Codex Page: Forging
-ihqt(185352, 63642);					-- Rune Codex Page: Souls
-ihqt(185353, 63643);					-- Rune Codex Page: Binding
+ihqt(185473, 63667);				-- Soulforger's Tools
+ihqt(185632, 63668);				-- Intact Rune Codex
+ihqt(185351, 63641);				-- Rune Codex Page: Forging
+ihqt(185352, 63642);				-- Rune Codex Page: Souls
+ihqt(185353, 63643);				-- Rune Codex Page: Binding
 
 -----------------
 -- PATCH 9.1.0 --
@@ -348,39 +348,39 @@ iq(205954, 76017);					-- Three-Dimensional Compass
 iq(198854, 70409);					-- Archeologist Artifact Notes
 iq(199069, 70538);					-- Yennu's Map
 iq(195453, 67718);					-- Ludo's Stash Map
-ihqt(201282, 71925);					-- Ancient Tailor's Diagrams
-ihqt(201289, 71924);					-- Ancient Skinner's Notes
-ihqt(201280, 71920);					-- Ancient Scribe's Runic Drawings
-ihqt(201288, 71923);					-- Ancient Miner's Notes
-ihqt(201286, 71922);					-- Ancient Leatherworker's Diagrams
-ihqt(201285, 71921);					-- Ancient Jeweler's Illustrations
-ihqt(201287, 71919);					-- Ancient Herbalist's Notes
-ihqt(201284, 71918);					-- Ancient Engineer's Scribblings
-ihqt(201283, 71917);					-- Ancient Enchanter's Research
-ihqt(201279, 71916);					-- Ancient Blacksmith's Diagrams
-ihqt(201281, 71915);					-- Ancient Alchemist's Research
-ihqt(201271, 71914);					-- Rare Tailor's Diagrams
-ihqt(201278, 71913);					-- Rare Skinner's Notes
-ihqt(201269, 71909);					-- Rare Scribe's Runic Drawings
-ihqt(201277, 71912);					-- Rare Miner's Notes
-ihqt(201275, 71911);					-- Rare Leatherworker's Diagrams
-ihqt(201274, 71910);					-- Rare Jeweler's Illustrations
-ihqt(201276, 71908);					-- Rare Herbalist's Notes
-ihqt(201273, 71907);					-- Rare Engineer's Scribblings
-ihqt(201272, 71906);					-- Rare Enchanter's Research
-ihqt(201268, 71905);					-- Rare Blacksmith's Diagrams
-ihqt(201270, 71904);					-- Rare Alchemist's Research
-ihqt(200975, 71903);					-- Dusty Tailor's Diagrams
-ihqt(200982, 71902);					-- Dusty Skinner's Notes
-ihqt(200973, 71898);					-- Dusty Scribe's Runic Drawings
-ihqt(200981, 71901);					-- Dusty Miner's Notes
-ihqt(200979, 71900);					-- Dusty Leatherworker's Diagrams
-ihqt(200978, 71899);					-- Dusty Jeweler's Illustrations
-ihqt(200980, 71897);					-- Dusty Herbalist's Notes
-ihqt(200977, 71896);					-- Dusty Engineer's Scribblings
-ihqt(200976, 71895);					-- Dusty Enchanter's Research
-ihqt(200972, 71894);					-- Dusty Blacksmith's Diagrams
-ihqt(200974, 71893);					-- Dusty Alchemist's Research
+ihqt(201282, 71925);				-- Ancient Tailor's Diagrams
+ihqt(201289, 71924);				-- Ancient Skinner's Notes
+ihqt(201280, 71920);				-- Ancient Scribe's Runic Drawings
+ihqt(201288, 71923);				-- Ancient Miner's Notes
+ihqt(201286, 71922);				-- Ancient Leatherworker's Diagrams
+ihqt(201285, 71921);				-- Ancient Jeweler's Illustrations
+ihqt(201287, 71919);				-- Ancient Herbalist's Notes
+ihqt(201284, 71918);				-- Ancient Engineer's Scribblings
+ihqt(201283, 71917);				-- Ancient Enchanter's Research
+ihqt(201279, 71916);				-- Ancient Blacksmith's Diagrams
+ihqt(201281, 71915);				-- Ancient Alchemist's Research
+ihqt(201271, 71914);				-- Rare Tailor's Diagrams
+ihqt(201278, 71913);				-- Rare Skinner's Notes
+ihqt(201269, 71909);				-- Rare Scribe's Runic Drawings
+ihqt(201277, 71912);				-- Rare Miner's Notes
+ihqt(201275, 71911);				-- Rare Leatherworker's Diagrams
+ihqt(201274, 71910);				-- Rare Jeweler's Illustrations
+ihqt(201276, 71908);				-- Rare Herbalist's Notes
+ihqt(201273, 71907);				-- Rare Engineer's Scribblings
+ihqt(201272, 71906);				-- Rare Enchanter's Research
+ihqt(201268, 71905);				-- Rare Blacksmith's Diagrams
+ihqt(201270, 71904);				-- Rare Alchemist's Research
+ihqt(200975, 71903);				-- Dusty Tailor's Diagrams
+ihqt(200982, 71902);				-- Dusty Skinner's Notes
+ihqt(200973, 71898);				-- Dusty Scribe's Runic Drawings
+ihqt(200981, 71901);				-- Dusty Miner's Notes
+ihqt(200979, 71900);				-- Dusty Leatherworker's Diagrams
+ihqt(200978, 71899);				-- Dusty Jeweler's Illustrations
+ihqt(200980, 71897);				-- Dusty Herbalist's Notes
+ihqt(200977, 71896);				-- Dusty Engineer's Scribblings
+ihqt(200976, 71895);				-- Dusty Enchanter's Research
+ihqt(200972, 71894);				-- Dusty Blacksmith's Diagrams
+ihqt(200974, 71893);				-- Dusty Alchemist's Research
 iq(200738, 72021);					-- Onyx Gem Cluster Map
 iq(198083, 69996);					-- Expedition Supply Kit
 iq(199068, 70537);					-- Time-Lost Memo
@@ -413,39 +413,39 @@ iq(199848, 70800);					-- Draconium Net Weights
 ------------------
 -- PATCH 10.1.0 --
 ------------------
-ihqt(205355, 75757);					-- Niffen Notebook of Tailoring Knowledge
-ihqt(205357, 75760);					-- Niffen Notebook of Skinning Knowledge
-ihqt(205356, 75758);					-- Niffen Notebook of Mining Knowledge
-ihqt(205350, 75751);					-- Niffen Notebook of Leatherworking Knowledge
-ihqt(205348, 75754);					-- Niffen Notebook of Jewelcrafting Knowledge
-ihqt(205354, 75761);					-- Niffen Notebook of Inscription Knowledge
-ihqt(205358, 75753);					-- Niffen Notebook of Herbalism Knowledge
-ihqt(205349, 75759);					-- Niffen Notebook of Engineering Knowledge
-ihqt(205351, 75752);					-- Niffen Notebook of Enchanting Knowledge
-ihqt(205352, 75755);					-- Niffen Notebook of Blacksmithing Knowledge
-ihqt(205353, 75756);					-- Niffen Notebook of Alchemy Knowledge
-ihqt(205431, 75837);					-- Bartered Tailoring Notes
-ihqt(205433, 75838);					-- Bartered Skinning Notes
-ihqt(205432, 75839);					-- Bartered Mining Notes
-ihqt(205426, 75840);					-- Bartered Leatherworking Notes
-ihqt(205424, 75841);					-- Bartered Jewelcrafting Notes
-ihqt(205430, 75842);					-- Bartered Inscription Notes
-ihqt(205434, 75843);					-- Bartered Herbalism Notes
-ihqt(205425, 75844);					-- Bartered Engineering Notes
-ihqt(205427, 75845);					-- Bartered Enchanting Notes
-ihqt(205428, 75846);					-- Bartered Blacksmithing Notes
-ihqt(205429, 75847);					-- Bartered Alchemy Notes
-ihqt(205442, 75858);					-- Bartered Tailoring Journal
-ihqt(205444, 75857);					-- Bartered Skinning Journal
-ihqt(205443, 75856);					-- Bartered Mining Journal
-ihqt(205437, 75855);					-- Bartered Leatherworking Journal
-ihqt(205435, 75854);					-- Bartered Jewelcrafting Journal
-ihqt(205441, 75853);					-- Bartered Inscription Journal
-ihqt(205445, 75852);					-- Bartered Herbalism Journal
-ihqt(205436, 75851);					-- Bartered Engineering Journal
-ihqt(205438, 75850);					-- Bartered Enchanting Journal
-ihqt(205439, 75849);					-- Bartered Blacksmithing Journal
-ihqt(205440, 75848);					-- Bartered Alchemy Journal
+ihqt(205355, 75757);				-- Niffen Notebook of Tailoring Knowledge
+ihqt(205357, 75760);				-- Niffen Notebook of Skinning Knowledge
+ihqt(205356, 75758);				-- Niffen Notebook of Mining Knowledge
+ihqt(205350, 75751);				-- Niffen Notebook of Leatherworking Knowledge
+ihqt(205348, 75754);				-- Niffen Notebook of Jewelcrafting Knowledge
+ihqt(205354, 75761);				-- Niffen Notebook of Inscription Knowledge
+ihqt(205358, 75753);				-- Niffen Notebook of Herbalism Knowledge
+ihqt(205349, 75759);				-- Niffen Notebook of Engineering Knowledge
+ihqt(205351, 75752);				-- Niffen Notebook of Enchanting Knowledge
+ihqt(205352, 75755);				-- Niffen Notebook of Blacksmithing Knowledge
+ihqt(205353, 75756);				-- Niffen Notebook of Alchemy Knowledge
+ihqt(205431, 75837);				-- Bartered Tailoring Notes
+ihqt(205433, 75838);				-- Bartered Skinning Notes
+ihqt(205432, 75839);				-- Bartered Mining Notes
+ihqt(205426, 75840);				-- Bartered Leatherworking Notes
+ihqt(205424, 75841);				-- Bartered Jewelcrafting Notes
+ihqt(205430, 75842);				-- Bartered Inscription Notes
+ihqt(205434, 75843);				-- Bartered Herbalism Notes
+ihqt(205425, 75844);				-- Bartered Engineering Notes
+ihqt(205427, 75845);				-- Bartered Enchanting Notes
+ihqt(205428, 75846);				-- Bartered Blacksmithing Notes
+ihqt(205429, 75847);				-- Bartered Alchemy Notes
+ihqt(205442, 75858);				-- Bartered Tailoring Journal
+ihqt(205444, 75857);				-- Bartered Skinning Journal
+ihqt(205443, 75856);				-- Bartered Mining Journal
+ihqt(205437, 75855);				-- Bartered Leatherworking Journal
+ihqt(205435, 75854);				-- Bartered Jewelcrafting Journal
+ihqt(205441, 75853);				-- Bartered Inscription Journal
+ihqt(205445, 75852);				-- Bartered Herbalism Journal
+ihqt(205436, 75851);				-- Bartered Engineering Journal
+ihqt(205438, 75850);				-- Bartered Enchanting Journal
+ihqt(205439, 75849);				-- Bartered Blacksmithing Journal
+ihqt(205440, 75848);				-- Bartered Alchemy Journal
 iq(205451, 75866);					-- Flawless Crystal Scale
 is(0, 410074);						-- Path of Festering Rot
 is(0, 410071);						-- Path of the Freebooter
@@ -491,35 +491,35 @@ iq(139313, nil, WARLOCK);			-- Grimoire of the Terrorguard
 ------------------
 -- PATCH 10.2.0 --
 ------------------
-iq(210645, 78479, DRUID);	-- Feather of Friends
-iq(210754, 78527, DRUID);	-- Feather of the Blazing Somnowl
-iq(211280, 78525, DRUID);	-- Feather of the Smoke Red Moon
-iq(210735, 78523, DRUID);	-- Mark of the Auric Dreamstag
-iq(211081, 78514, DRUID);	-- Mark of the Auroral Dreamtalon
-iq(211080, 78512, DRUID);	-- Mark of the Boreal Dreamtalon
-iq(210683, 78513, DRUID);	-- Mark of the Dreamtalon Matriarch
-iq(210669, 78507, DRUID);	-- Mark of the Evergreen Dreamsaber
-iq(210751, 78528, DRUID);	-- Mark of the Hibernating Runebear
-iq(210650, 78503, DRUID);	-- Mark of the Keen-Eyed Dreamsaber
-iq(210738, 78519, DRUID);	-- Mark of the Loamy Umbraclaw
-iq(210731, 78522, DRUID);	-- Mark of the Lush Dreamstag
-iq(210674, 78511, DRUID);	-- Mark of the Sable Dreamtalon
-iq(210535, 78448, DRUID);	-- Mark of the Slumbering Somnowl
-iq(210736, 78524, DRUID);	-- Mark of the Smoldering Dreamstag
-iq(210739, 78520, DRUID);	-- Mark of the Snowy Umbraclaw
-iq(210684, 78515, DRUID);	-- Mark of the Thriving Dreamtalon
-iq(210647, 78481, DRUID);	-- Mark of the Umbramane
-iq(210729, 78517, DRUID);	-- Mark of the Verdant Bristlebruin
-iq(210728, 78521, DRUID);	-- Moon-Blessed Claw
-iq(210727, 78518, DRUID);	-- Pollenfused Bristlebruin Fur Sample
-iq(210753, 78516, DRUID);	-- Scale of the Prismatic Whiskerfish
-iq(211314, 78842, HUNTER);	-- Cinder of Companionship
-is(0, 424153);				-- Path of Ancient Horrors
-is(0, 424167);				-- Path of Heart's Bane
-is(0, 424187);				-- Path of the Golden Tomb
-is(0, 424163);				-- Path of the Nightmare Lord
-is(0, 424142);				-- Path of the Tidehunter
-is(0, 424197);				-- Path of Twisted Time
+iq(210645, 78479, DRUID);			-- Feather of Friends
+iq(210754, 78527, DRUID);			-- Feather of the Blazing Somnowl
+iq(211280, 78525, DRUID);			-- Feather of the Smoke Red Moon
+iq(210735, 78523, DRUID);			-- Mark of the Auric Dreamstag
+iq(211081, 78514, DRUID);			-- Mark of the Auroral Dreamtalon
+iq(211080, 78512, DRUID);			-- Mark of the Boreal Dreamtalon
+iq(210683, 78513, DRUID);			-- Mark of the Dreamtalon Matriarch
+iq(210669, 78507, DRUID);			-- Mark of the Evergreen Dreamsaber
+iq(210751, 78528, DRUID);			-- Mark of the Hibernating Runebear
+iq(210650, 78503, DRUID);			-- Mark of the Keen-Eyed Dreamsaber
+iq(210738, 78519, DRUID);			-- Mark of the Loamy Umbraclaw
+iq(210731, 78522, DRUID);			-- Mark of the Lush Dreamstag
+iq(210674, 78511, DRUID);			-- Mark of the Sable Dreamtalon
+iq(210535, 78448, DRUID);			-- Mark of the Slumbering Somnowl
+iq(210736, 78524, DRUID);			-- Mark of the Smoldering Dreamstag
+iq(210739, 78520, DRUID);			-- Mark of the Snowy Umbraclaw
+iq(210684, 78515, DRUID);			-- Mark of the Thriving Dreamtalon
+iq(210647, 78481, DRUID);			-- Mark of the Umbramane
+iq(210729, 78517, DRUID);			-- Mark of the Verdant Bristlebruin
+iq(210728, 78521, DRUID);			-- Moon-Blessed Claw
+iq(210727, 78518, DRUID);			-- Pollenfused Bristlebruin Fur Sample
+iq(210753, 78516, DRUID);			-- Scale of the Prismatic Whiskerfish
+iq(211314, 78842, HUNTER);			-- Cinder of Companionship
+is(0, 424153);						-- Path of Ancient Horrors
+is(0, 424167);						-- Path of Heart's Bane
+is(0, 424187);						-- Path of the Golden Tomb
+is(0, 424163);						-- Path of the Nightmare Lord
+is(0, 424142);						-- Path of the Tidehunter
+is(0, 424197);						-- Path of Twisted Time
 
 ------------------
 -- PATCH 10.2.5 --
@@ -572,73 +572,73 @@ is(0, 445441);						-- Path of the Warding Candles
 ------------------
 -- PATCH 11.0.2 --
 ------------------
-ihqt(224055, 82614);					-- A Rocky Start
-ihqt(224036, 82634);					-- And That's A Web-Wrap!
+ihqt(224055, 82614);				-- A Rocky Start
+ihqt(224036, 82634);				-- And That's A Web-Wrap!
 iq(224553, 82998);					-- Beledar's Attunement
-ihqt(224052, 82632);					-- Clocks, Gears, Sprockets, and Legs
+ihqt(224052, 82632);				-- Clocks, Gears, Sprockets, and Legs
 iq(228944, 84690);					-- Crypt Lord's Severed Thread
-ihqt(225237, 83254);					-- Echoing Fragment: Azj-Kahet
-ihqt(225218, 83249);					-- Echoing Fragment: Hallowfall
-ihqt(225236, 83252);					-- Echoing Fragment: Isle of Dorn
-ihqt(225219, 83251);					-- Echoing Fragment: The Ringing Deeps
-ihqt(224053, 82636);					-- Eight Views on Defense against Hostile Runes
-ihqt(224054, 82637);					-- Emergent Crystals of the Surface-Dwellers
-ihqt(227420, 81147);					-- Exceptional Alchemist's Research
-ihqt(227418, 84227);					-- Exceptional Blacksmith's Diagrams
-ihqt(227422, 81077);					-- Exceptional Enchanter's Research
-ihqt(227423, 84230);					-- Exceptional Engineer's Scribblings
-ihqt(227426, 81423);					-- Exceptional Herbalist's Notes
-ihqt(227424, 81260);					-- Exceptional Jeweler's Illustrations
-ihqt(227425, 80979);					-- Exceptional Leatherworker's Diagrams
-ihqt(227427, 81391);					-- Exceptional Miner's Notes
-ihqt(227419, 80750);					-- Exceptional Scribe's Runic Drawings
-ihqt(227428, 84233);					-- Exceptional Skinner's Notes
-ihqt(227421, 80872);					-- Exceptional Tailor's Diagrams
+ihqt(225237, 83254);				-- Echoing Fragment: Azj-Kahet
+ihqt(225218, 83249);				-- Echoing Fragment: Hallowfall
+ihqt(225236, 83252);				-- Echoing Fragment: Isle of Dorn
+ihqt(225219, 83251);				-- Echoing Fragment: The Ringing Deeps
+ihqt(224053, 82636);				-- Eight Views on Defense against Hostile Runes
+ihqt(224054, 82637);				-- Emergent Crystals of the Surface-Dwellers
+ihqt(227420, 81147);				-- Exceptional Alchemist's Research
+ihqt(227418, 84227);				-- Exceptional Blacksmith's Diagrams
+ihqt(227422, 81077);				-- Exceptional Enchanter's Research
+ihqt(227423, 84230);				-- Exceptional Engineer's Scribblings
+ihqt(227426, 81423);				-- Exceptional Herbalist's Notes
+ihqt(227424, 81260);				-- Exceptional Jeweler's Illustrations
+ihqt(227425, 80979);				-- Exceptional Leatherworker's Diagrams
+ihqt(227427, 81391);				-- Exceptional Miner's Notes
+ihqt(227419, 80750);				-- Exceptional Scribe's Runic Drawings
+ihqt(227428, 84233);				-- Exceptional Skinner's Notes
+ihqt(227421, 80872);				-- Exceptional Tailor's Diagrams
 iq(228945, 84691);					-- Executor's Severed Thread
-ihqt(227409, 81146);					-- Faded Alchemist's Research
-ihqt(227407, 84226);					-- Faded Blacksmith's Diagrams
-ihqt(227411, 81076);					-- Faded Enchanter's Research
-ihqt(227412, 84229);					-- Faded Engineer's Scribblings
-ihqt(227415, 81422);					-- Faded Herbalist's Notes
-ihqt(227413, 81259);					-- Faded Jeweler's Illustrations
-ihqt(227414, 80978);					-- Faded Leatherworker's Diagrams
-ihqt(227416, 81390);					-- Faded Miner's Notes
-ihqt(227408, 80749);					-- Faded Scribe's Runic Drawings
-ihqt(227417, 84232);					-- Faded Skinner's Notes
-ihqt(227410, 80871);					-- Faded Tailor's Diagrams
+ihqt(227409, 81146);				-- Faded Alchemist's Research
+ihqt(227407, 84226);				-- Faded Blacksmith's Diagrams
+ihqt(227411, 81076);				-- Faded Enchanter's Research
+ihqt(227412, 84229);				-- Faded Engineer's Scribblings
+ihqt(227415, 81422);				-- Faded Herbalist's Notes
+ihqt(227413, 81259);				-- Faded Jeweler's Illustrations
+ihqt(227414, 80978);				-- Faded Leatherworker's Diagrams
+ihqt(227416, 81390);				-- Faded Miner's Notes
+ihqt(227408, 80749);				-- Faded Scribe's Runic Drawings
+ihqt(227417, 84232);				-- Faded Skinner's Notes
+ihqt(227410, 80871);				-- Faded Tailor's Diagrams
 iq(210826, 76996);					-- Harvestbot Repair Kit
-ihqt(224023, 82630);					-- Herbal Embalming Techniques
-ihqt(224645, 83058);					-- Jewel-Etched Alchemy Notes
-ihqt(224647, 83059);					-- Jewel-Etched Blacksmithing Notes
-ihqt(224652, 83060);					-- Jewel-Etched Enchanting Notes
-ihqt(224648, 83061);					-- Jewel-Etched Tailoring Notes
-ihqt(224653, 83063);					-- Machine-Learned Engineering Notes
-ihqt(224654, 83064);					-- Machine-Learned Inscription Notes
-ihqt(224651, 83062);					-- Machine-Learned Mining Notes
-ihqt(227431, 81148);					-- Pristine Alchemist's Research
-ihqt(227429, 84228);					-- Pristine Blacksmith's Diagrams
-ihqt(227433, 81078);					-- Pristine Enchanter's Research
-ihqt(227434, 84231);					-- Pristine Engineer's Scribblings
-ihqt(227437, 81424);					-- Pristine Herbalist's Notes
-ihqt(227435, 81261);					-- Pristine Jeweler's Illustrations
-ihqt(227436, 80980);					-- Pristine Leatherworker's Diagrams
-ihqt(227438, 81392);					-- Pristine Miner's Notes
-ihqt(227430, 80751);					-- Pristine Scribe's Runic Drawings
-ihqt(227439, 84234);					-- Pristine Skinner's Notes
-ihqt(227432, 80873);					-- Pristine Tailor's Diagrams
+ihqt(224023, 82630);				-- Herbal Embalming Techniques
+ihqt(224645, 83058);				-- Jewel-Etched Alchemy Notes
+ihqt(224647, 83059);				-- Jewel-Etched Blacksmithing Notes
+ihqt(224652, 83060);				-- Jewel-Etched Enchanting Notes
+ihqt(224648, 83061);				-- Jewel-Etched Tailoring Notes
+ihqt(224653, 83063);				-- Machine-Learned Engineering Notes
+ihqt(224654, 83064);				-- Machine-Learned Inscription Notes
+ihqt(224651, 83062);				-- Machine-Learned Mining Notes
+ihqt(227431, 81148);				-- Pristine Alchemist's Research
+ihqt(227429, 84228);				-- Pristine Blacksmith's Diagrams
+ihqt(227433, 81078);				-- Pristine Enchanter's Research
+ihqt(227434, 84231);				-- Pristine Engineer's Scribblings
+ihqt(227437, 81424);				-- Pristine Herbalist's Notes
+ihqt(227435, 81261);				-- Pristine Jeweler's Illustrations
+ihqt(227436, 80980);				-- Pristine Leatherworker's Diagrams
+ihqt(227438, 81392);				-- Pristine Miner's Notes
+ihqt(227430, 80751);				-- Pristine Scribe's Runic Drawings
+ihqt(227439, 84234);				-- Pristine Skinner's Notes
+ihqt(227432, 80873);				-- Pristine Tailor's Diagrams
 iq(229195, 84006);					-- Queen's Pheromone (8.8 Thousand)
-ihqt(224038, 82631);					-- Smithing After Saronite
+ihqt(224038, 82631);				-- Smithing After Saronite
 iq(228943, 84689);					-- Spymaster's Severed Thread
-ihqt(224024, 82633);					-- Theories of Bodily Transmutation, Chapter 8
+ihqt(224024, 82633);				-- Theories of Bodily Transmutation, Chapter 8
 is(227710, 460392, MAGE);			-- Tome of Polymorph: Mosswool
-ihqt(224056, 82626);					-- Uses for Leftover Husks (After You Take Them Apart)
-ihqt(224007, 82596);					-- Uses for Leftover Husks (How to Take Them Apart)
-ihqt(224656, 83066);					-- Void-Lit Herbalism Notes
-ihqt(224655, 83065);					-- Void-Lit Jewelcrafting Notes
-ihqt(224658, 83068);					-- Void-Lit Leatherworking Notes
-ihqt(224657, 83067);					-- Void-Lit Skinning Notes
+ihqt(224056, 82626);				-- Uses for Leftover Husks (After You Take Them Apart)
+ihqt(224007, 82596);				-- Uses for Leftover Husks (How to Take Them Apart)
+ihqt(224656, 83066);				-- Void-Lit Herbalism Notes
+ihqt(224655, 83065);				-- Void-Lit Jewelcrafting Notes
+ihqt(224658, 83068);				-- Void-Lit Leatherworking Notes
+ihqt(224657, 83067);				-- Void-Lit Skinning Notes
 iq(228946, 84693);					-- Weaver's Lair Profession Table
-ihqt(224050, 82635);					-- Web Sparkles: Pretty and Powerful
+ihqt(224050, 82635);				-- Web Sparkles: Pretty and Powerful
 
 -- Curio
 is(modItemId(225903, nil, 11265), 446835);	-- Amorphous Relic [Rank 1]
@@ -742,10 +742,11 @@ ihqt(234745, 86598);	-- Bilgewater's Trove (Honored)
 ihqt(234744, 86750);	-- Blackwater's Trove (Honored)
 --ihqt(235260, 86751?);	-- Blackwater's Trove (Revered)
 --ihqt(235261, 86752?);	-- Blackwater's Trove (Exalted)
-is(0, 467553);	-- Path of the Azerite Refinery [A?H?]
-is(0, 467555);	-- Path of the Azerite Refinery [A?H?]
-is(0, 1216786);	-- Path of the Circuit Breaker
---ihqt(235262, XXX);	-- Steamwheedle's Trove (Honored)
+iq(235037, 86630);	-- Crumpled Schematic: Wormhole Generator: Undermine
+is(0, 467553);			-- Path of the Azerite Refinery [A]
+is(0, 467555);			-- Path of the Azerite Refinery [H]
+is(0, 1216786);			-- Path of the Circuit Breaker
+ihqt(235262, 86753);	-- Steamwheedle's Trove (Honored)
 --ihqt(234743, XXX);	-- Steamwheedle's Trove (Revered)
 --ihqt(235263, XXX);	-- Steamwheedle's Trove (Exalted)
 ihqt(232499, 85734);	-- Undermine Treatise on Alchemy
