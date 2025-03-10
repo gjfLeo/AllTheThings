@@ -635,13 +635,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["qg"] = 199261,	-- Holiday Enthusiast
 			["coord"] = { 31.6, 63.1, VALDRAKKEN },
 			["races"] = ALLIANCE_ONLY,
-			--["isYearly"] = true,	-- TODO: confirm
+			["isYearly"] = true,
 		}),
 		q(79136, {	-- A Spring Awakening (H)
 			["qg"] = 199261,	-- Holiday Enthusiast
 			["coord"] = { 31.6, 63.1, VALDRAKKEN },
 			["races"] = HORDE_ONLY,
-			--["isYearly"] = true,	-- TODO: confirm
+			["isYearly"] = true,
 		}),
 		q(79322, {	-- What the Duck? (A)
 			["qg"] = 211646,	-- Zinnia Brooks
