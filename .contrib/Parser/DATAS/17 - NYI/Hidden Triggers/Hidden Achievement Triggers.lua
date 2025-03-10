@@ -3798,5 +3798,6 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41946),	-- Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
 			ach(41947),	-- Greater Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
 			ach(41967),	-- Gift of the Titans Unlocked <Hidden>
+		})),
 	}),
 });
