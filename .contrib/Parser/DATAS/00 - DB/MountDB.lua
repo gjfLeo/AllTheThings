@@ -2018,7 +2018,7 @@ i(0, 466464);	-- Unstable Rocket
 -- PATCH 11.1.5 --
 ------------------
 --- ITEM ---
-
+i(238829, 1226421);	-- Radiant Imperial Lynx
 --- UNSORTED ---
 i(238902, 1226533);	-- Autumn Harvesthog
 i(210141, 424601);	-- Brown-Furred Spiky Bakar
@@ -2029,7 +2029,6 @@ i(238966, 1226851);	-- Lavaborn Emerald Chimaera
 i(238967, 1226855);	-- Lavaborn Ruby Chimaera
 i(223265, 447189);	-- Nesting Swarmite
 i(235709, 1218314);	-- Ny'alothan Shadow Worm
-i(0, 1226421);	-- Radiant Imperial Lynx
 i(236415, 1219705);	-- Spotted Black Riding Goat
 i(238897, 1226511);	-- Spring Harvesthog
 i(238900, 1226531);	-- Summer Harvesthog

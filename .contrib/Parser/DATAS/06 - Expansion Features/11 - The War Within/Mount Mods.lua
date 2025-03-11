@@ -4,6 +4,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVERS_DIRIGIBLE_SCHEMATIC, {
 		header(HEADERS.Item, 219391, {	-- Delver's Dirigible
+			i(238839, {["timeline"] = { ADDED_11_1_5 },}),	-- Delver's Dirigible Schematic: Arathi Decal (MM!)
 			i(224981),	-- Delver's Dirigible Schematic: Brown Paint (MM!)
 			i(235685, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Drill (MM!)
 			i(224771),	-- Delver's Dirigible Schematic: Empennage (MM!)
@@ -12,6 +13,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			i(224770),	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
 			i(235684, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Glider (MM!)
 			i(224960),	-- Delver's Dirigible Schematic: Lantern Wing (MM!)
+			i(238837, {["timeline"] = { ADDED_11_1_5 },}),	-- Delver's Dirigible Schematic: Pale Paint (MM!)
 			i(224769),	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 			i(235687, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Spoiler (MM!)
 			i(235683, {["timeline"] = { ADDED_11_1_0 },}),	-- Delver's Dirigible Schematic: Turbine (MM!)

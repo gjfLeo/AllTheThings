@@ -512,3 +512,9 @@ i(235691, 82191);	-- Delver's Dirigible Schematic: Yellow Paint
 i(232980, 85787);	-- Axel Sneakfoot
 i(232979, 85785);	-- Jaks Jabberjaw
 i(232978, 85786);	-- Louie Firehands
+
+------------------
+-- PATCH 11.1.5 --
+------------------
+i(238839, 86199);	-- Delver's Dirigible Schematic: Arathi Decal
+i(238837, 86198);	-- Delver's Dirigible Schematic: Pale Paint

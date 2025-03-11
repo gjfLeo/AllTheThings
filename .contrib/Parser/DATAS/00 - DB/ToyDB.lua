@@ -1455,11 +1455,11 @@ i(235519);	-- Prized Legend's Pennant
 -- #if AFTER 11.1.5
 i(167698);	-- Secret Fish Goggles
 -- #endif
---- UNSORTED ---
 i(238850);	-- Arathi Entertainer's Flame
-i(239007);	-- Dastardly Banner
 i(238852);	-- Flame's Radiance Banner
+i(239693);	-- Radiant Lynx Whistle
+--- UNSORTED ---
+i(239007);	-- Dastardly Banner
 i(232302);	-- Prized Banner of the Algari
 i(232306);	-- Prized Champion's Prestigious Banner
-i(239693);	-- Radiant Lynx Whistle
 i(239018);	-- Winner's Podium

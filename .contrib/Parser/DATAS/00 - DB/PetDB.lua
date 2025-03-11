@@ -4368,14 +4368,13 @@ i(232856, 4633);	-- Scruff
 -- PATCH 11.1.5 --
 ------------------
 --- ITEM ---
-
+i(238986, 4794);	-- Mister Mans
 --- UNSORTED ---
 i(0, 4792);	-- Ada the Sweetest
 i(221851, 4466);	-- Argos
 i(235794, 4747);	-- Eye of Chaos
 i(236409, 4757);	-- Frumpy Softpaw
 i(232857, 4635);	-- Goggles
-i(238986, 4794);	-- Mister Mans
 i(0, 4761);	-- Pascal the Wonder Pup
 i(235980, 4756);	-- Scourge of the Aspects
 i(241188, 4804);	-- Swiftpaw
