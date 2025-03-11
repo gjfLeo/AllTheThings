@@ -161,7 +161,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = ALLIANCE_ONLY,
