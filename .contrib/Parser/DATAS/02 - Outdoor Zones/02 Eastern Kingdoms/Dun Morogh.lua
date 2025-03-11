@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { DWARF },
@@ -268,7 +268,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -345,7 +345,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
 							["races"] = { DWARF },
@@ -364,7 +364,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -385,7 +385,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -406,7 +406,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -529,7 +529,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -550,7 +550,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -848,7 +848,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -869,7 +869,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
@@ -950,7 +950,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 60.6, 21.1, COLDRIDGE_VALLEY },
 							-- #elseif AFTER CATA
-							["coord"] = { 28.6, 67.8, DUN_MOROGH },
+							["coord"] = { 35.8, 66.2, DUN_MOROGH },
 							-- #else
 							["coord"] = { 29.8, 71.2, DUN_MOROGH },
 							-- #endif
