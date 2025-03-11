@@ -76,7 +76,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 41.8, 63.7, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 24.9, 75.9, DUN_MOROGH },
+							["coord"] = { 31.8, 74.4, DUN_MOROGH },
 							-- #endif
 							-- #else
 							["coord"] = { 28.6, 67.8, DUN_MOROGH },
@@ -131,7 +131,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 42.7, 62.2, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 25.0, 75.7, DUN_MOROGH },
+							["coord"] = { 32.06, 74.18, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = ALLIANCE_ONLY,
@@ -483,7 +483,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 87.5, 44.4, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 33.8, 72.2, DUN_MOROGH },
+							["coord"] = { 40.88, 70.68, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = ALLIANCE_ONLY,
@@ -595,7 +595,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 42.7, 62.2, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 25.0, 75.7, DUN_MOROGH },
+							["coord"] = { 32.06, 74.18, DUN_MOROGH },
 							-- #endif
 							["races"] = ALLIANCE_ONLY,
 							["groups"] = {
@@ -731,7 +731,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 69.8, 43.9, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 30.39, 72.14, DUN_MOROGH },
+							["coord"] = { 37.4, 70.6, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = ALLIANCE_ONLY,
@@ -746,7 +746,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 										{ 62.5, 23.8, COLDRIDGE_VALLEY },
 										{ 60.5, 16.5, COLDRIDGE_VALLEY },
 										-- #else
-										{ 28.47, 66.75, DUN_MOROGH },
+										{ 35.5, 65.1, DUN_MOROGH },
 										-- #endif
 									},
 								}),
@@ -758,7 +758,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									-- #if AFTER MOP
 									["coord"] = { 62.5, 23.8, COLDRIDGE_VALLEY },
 									-- #else
-									["coord"] = { 28.78, 66.10, DUN_MOROGH },
+									["coord"] = { 35.8, 64.6, DUN_MOROGH },
 									-- #endif
 								}),
 								objective(3, {	-- 0/1 Leftover Boar Meat
@@ -769,7 +769,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									-- #if AFTER MOP
 									["coord"] = { 62.5, 23.8, COLDRIDGE_VALLEY },
 									-- #else
-									["coord"] = { 28.38, 67.62, DUN_MOROGH },
+									["coord"] = { 35.4, 66, DUN_MOROGH },
 									-- #endif
 								}),
 								i(57540, {	-- Coldridge Mountaineer's Pouch
@@ -1068,7 +1068,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 42.7, 62.2, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 25.0, 75.7, DUN_MOROGH },
+							["coord"] = { 32.06, 74.18, DUN_MOROGH },
 							-- #endif
 							-- #else
 							["coord"] = { 25, 75.8, DUN_MOROGH },
@@ -1155,7 +1155,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #if AFTER MOP
 							["coord"] = { 43.2, 63.1, COLDRIDGE_VALLEY },
 							-- #else
-							["coord"] = { 25.1, 75.8, DUN_MOROGH },
+							["coord"] = { 32.16, 74.35, DUN_MOROGH },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = ALLIANCE_ONLY,
