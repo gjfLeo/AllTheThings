@@ -1693,35 +1693,36 @@ regionUnavailable = function(region, t)
 end]];
 	return t;
 end
-krONLY = function(t)
-	return regionExclusive("KR", t);
-end
-krUnavailable = function(t)
-	return regionUnavailable("KR", t);
-end
-cnONLY = function(t)
-	return regionExclusive("CN", t);
-end
-cnUnavailable = function(t)
-	return regionUnavailable("CN", t);
-end
-twONLY = function(t)
-	return regionExclusive("TW", t);
-end
-twUnavailable = function(t)
-	return regionUnavailable("TW", t);
-end
-euONLY = function(t)
-	return regionExclusive("EU", t);
-end
-euUnavailable = function(t)
-	return regionUnavailable("EU", t);
-end
-usONLY = function(t)
+
+usONLY = function(t)	-- the object only available on US realm
 	return regionExclusive("US", t);
 end
-usUnavailable = function(t)
+euONLY = function(t)	-- the object only available on EU realm 
+	return regionExclusive("EU", t);
+end
+krONLY = function(t)	-- the object only available on KR realm 
+	return regionExclusive("KR", t);
+end
+twONLY = function(t)	-- the object only available on TW realm 
+	return regionExclusive("TW", t);
+end
+cnONLY = function(t)	-- the object only available on CN realm 
+	return regionExclusive("CN", t);
+end
+usUnavailable = function(t)	-- the object only unavailable on US realm
 	return regionUnavailable("US", t);
+end
+euUnavailable = function(t)	-- the object only unavailable on EU realm
+	return regionUnavailable("EU", t);
+end
+krUnavailable = function(t)	-- the object only unavailable on KR realm
+	return regionUnavailable("KR", t);
+end
+twUnavailable = function(t)	-- the object only unavailable on TW realm
+	return regionUnavailable("TW", t);
+end
+cnUnavailable = function(t)	-- the object only unavailable on CN realm
+	return regionUnavailable("CN", t);
 end
 
 -- Temporary function to force Items to use the Misc filter so that they do not get turned into Recipes by the Parser
