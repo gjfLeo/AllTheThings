@@ -2256,6 +2256,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					["questID"] = 83690,
 				}),
 			}),
+			n(ZONE_DROPS, {
+				i(224025),	-- Crackling Shard
+			}),
 		},
 	}),
 	m(KRIEGVALS_REST, {
@@ -2321,6 +2324,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					["coord"] = { 74.3, 70.2, KRIEGVALS_REST },
 					["questID"] = 83683,
 				}),
+			}),
+			n(ZONE_DROPS, {
+				i(224025),	-- Crackling Shard
 			}),
 		},
 	}),
