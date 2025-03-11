@@ -1651,7 +1651,7 @@ name = function(type, id, t)
 	return t
 end
 -- Converts 3 separate patch values into a single patch decimal for use within expansion() groups
-patch = function(major,minor,build)
+patch = function(major, minor, build)
 	major = math.floor(tonumber(major) or 0)
 	minor = math.floor(tonumber(minor) or 0)
 	build = math.floor(tonumber(build) or 0)
