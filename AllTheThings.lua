@@ -7411,7 +7411,6 @@ customWindowUpdates.NWP = function(self, force)
 			local dynamicCategory = app.CreateRawText(L.CLICK_TO_CREATE_FORMAT:format(L.SETTINGS_MENU.DYNAMIC_CATEGORY_LABEL), {
 				icon = app.asset("Interface_CreateDynamic"),
 				OnUpdate = OnUpdate_RemoveEmptyDynamic,
-				OnUpdate = app.DirectGroupRefresh(NWPwindow),
 				g = {}
 			})
 
