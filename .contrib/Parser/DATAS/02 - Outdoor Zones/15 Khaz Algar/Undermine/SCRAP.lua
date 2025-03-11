@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				FromSCRAP(n(TREASURES, sharedData({ ["repeatable"] = true, }, {
 					o(516167, {	-- Half-Empty Bag (Blackwater Marina)
 						["coord"] = { 67.4, 29.3, UNDERMINE },
-						--["questID"] = ,
+						["questID"] = 87282,
 					}),
 					o(516165, {	-- Half-Empty Bag (Emerald Hills Golf Course)
 						["coord"] = { 69.7, 76.5, UNDERMINE },

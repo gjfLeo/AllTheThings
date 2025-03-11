@@ -2203,6 +2203,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(212162),	-- Bitter Shroom Cap
+						i(212168),	-- Cinderbee Wax Candle Hat
 						i(211801),	-- Poisonous Shroom Cap
 						i(212164),	-- Shallow Nautic Helm
 						i(212163),	-- Soporific Shroom Cap

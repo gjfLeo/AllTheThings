@@ -293,6 +293,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = {
 					i(235300),	-- Cloak of Mecha Shards
 					i(235351),	-- Hypersteel CX4 Greatsword
+					i(235315),	-- Rocketstep Boots
 					i(235354),	-- Scrapblaster Lance
 					i(235313),	-- Shockproof Helm
 				},

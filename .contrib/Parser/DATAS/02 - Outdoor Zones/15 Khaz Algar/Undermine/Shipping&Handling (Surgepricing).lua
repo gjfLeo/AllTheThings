@@ -23,7 +23,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["coord"] = { 43.8, 50.8, UNDERMINE },
 						["isWeekly"] = true,
 						["g"] = {
-							i(238208),	-- Nanny's Surge Dividends
+							i(238208, {	-- Nanny's Surge Dividends
+								["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
+							}),
 						},
 					}),
 				}),

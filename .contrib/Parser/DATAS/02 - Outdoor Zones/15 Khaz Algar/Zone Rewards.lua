@@ -124,24 +124,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				{"where","headerID",ZONE_REWARDS},{"pop"},
 				{"where","headerID",WEAPONS},
 			},
-			["timeline"] = { ADDED_11_1_0 },
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		i(235610, {	-- Seasoned Adventurer's Cache
-			["timeline"] = { ADDED_11_1_0 },
+			["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		i(239120, {	-- Seasoned Adventurer's Cache
-			["sym"] = { -- [Undermine Zone Rewards content]
-				{"select","mapID",KHAZ_ALGAR},{"pop"},
-				{"where","mapID",UNDERMINE},{"pop"},
-				{"where","headerID",ZONE_REWARDS},{"pop"},
-				{"where","headerID",ARMOR},{"finalize"},
-
-				{"select","mapID",KHAZ_ALGAR},{"pop"},
-				{"where","mapID",UNDERMINE},{"pop"},
-				{"where","headerID",ZONE_REWARDS},{"pop"},
-				{"where","headerID",WEAPONS},
-			},
-			["timeline"] = { ADDED_11_1_0 },
+			["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 	}),
 })));
