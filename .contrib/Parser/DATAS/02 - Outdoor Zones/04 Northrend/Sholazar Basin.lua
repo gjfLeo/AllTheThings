@@ -323,6 +323,11 @@ root(ROOTS.Zones, {
 							["_noautomation"] = true,
 						}),
 					}),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(191019),	-- Adder's Tongue
+						o(189973),	-- Goldclover
+						o(190169),	-- Tiger Lily
+					})),
 				}),
 				n(QUESTS, {
 					-- Frenzyheart Tribe

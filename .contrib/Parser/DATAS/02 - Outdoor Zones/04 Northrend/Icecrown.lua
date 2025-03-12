@@ -217,6 +217,12 @@ root(ROOTS.Zones, {
 						["coord"] = { 77.4, 19.6, ICECROWN },
 					}),
 				}),
+				n(PROFESSIONS, {
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(190172),	-- Icethorn
+						o(190171),	-- Lichbloom
+					})),
+				}),
 				n(QUESTS, {
 					q(13286, {	-- ...All the Help We Can Get.
 						["races"] = ALLIANCE_ONLY,

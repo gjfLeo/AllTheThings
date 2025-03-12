@@ -599,19 +599,47 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	-- #endif
 	prof(FISHING, {
 		i(41812, {	-- Barrelhead Goby
-			["description"] = "Can be caught in open waters in Sholazar Basin.",
+			["maps"] = { SHOLAZAR_BASIN },
 		}),
 		i(41808, {	-- Bonescale Snapper
-			["description"] = "Can be caught in open waters around Northrend.",
+			["maps"] = { 
+				BOREAN_TUNDRA,
+				CRYSTALSONG_FOREST,
+				DRAGONBLIGHT,
+				GRIZZLY_HILLS,
+				HOWLING_FJORD,
+				ICECROWN,
+				SHOLAZAR_BASIN,
+				THE_STORM_PEAKS,
+				WINTERGRASP,
+				ZULDRAK,
+			},
 		}),
 		i(41805, {	-- Borean Man O' War
-			["description"] = "Can be caught in 'Borean Man O' War Schools' around Borean Tundra.",
+			["description"] = "Schools can be found on the seaside.",
+			["provider"] = { "o", 182958 },	-- Borean Man O' War School
+			["maps"] = { BOREAN_TUNDRA },
 		}),
 		i(41800, {	-- Deep Sea Monsterbelly
-			["description"] = "Can be caught in 'Deep Sea Monsterbelly Schools' around icebergs on the shoreside of Borean Tundra, Dragonblight and Howling Fjord.",
+			["description"] = "The schools have shared spawn with Moonglow Cuttlefish Schools. Borean Tundra have most schools.",
+			["provider"] = { "o", 192053 },	-- Deep Sea Monsterbelly School
+			["coords"] = {
+				{ 31.1, 67.6, BOREAN_TUNDRA },	-- Outside Unu'pe
+				{ 33.5, 66.6, BOREAN_TUNDRA },	-- Outside Death's Advance
+				{ 50.1, 69.7, DRAGONBLIGHT },	-- Path of the Titans on the Sea
+				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
+			},
 		}),
 		i(41807, {	-- Dragonfin Angelfish
-			["description"] = "Can be caught in 'Dragonfin Angelfish Schools' in inland waters in Dragonblight.",
+			["provider"] = { "o", 192048 },	-- Dragonfin Angelfish School
+			["coords"] = {
+				{ 40.1, 67.7, DRAGONBLIGHT },	-- Lake Indu'le
+				{ 91.0, 28.6, DRAGONBLIGHT },	-- Drak'Mar Lake
+				{ 89.9, 38.5, DRAGONBLIGHT },	-- Dragonspine Tributary by Onslaught Base Camp
+				{ 92.9, 48.2, DRAGONBLIGHT },	-- Dragonspine Tributary by Northern Carrion Fields
+				{ 92.8, 58.2, DRAGONBLIGHT },	-- Dragonspine Tributary by Southern Carrion Fields
+				{ 92.0, 69.0, DRAGONBLIGHT },	-- Dragonspine Tributary by Eldritch Heights
+			},
 		}),
 		i(44505, {	-- Dustbringer
 			["description"] = "Can be caught in schools or open water in Northrend.",
@@ -629,34 +657,70 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			},
 		}),
 		i(41810, {	-- Fangtooth Herring
-			["description"] = "Can be caught in 'Fangtooth Herring Schools' in inland waters in Howling Fjord.",
+			["description"] = "Schools can be found in inland waters.",
+			["maps"] = { HOWLING_FJORD },
+			["provider"] = { "o", 192049 },	-- Fangtooth Herring School
 		}),
 		i(43646, {	-- Fountain Goldfish
-			["description"] = "Can be caught in the fountain on WotLK Dalaran.",
+			["description"] = "Can be caught in the fountain.",
+			["coord"] = { 52.9, 65.9, NORTHREND_DALARAN },	-- Dalaran fountain
 		}),
 		i(41809, {	-- Glacial Salmon
-			["description"] = "Can be caught in 'Glacial Salmon Schools' in inland waters in Grizzly Hills.",
+			["description"] = "Schools can be found in inland waters.",
+			["maps"] = { GRIZZLY_HILLS },
+			["provider"] = { "o", 192050 },	-- Glacial Salmon School
 		}),
 		i(41814, {	-- Glassfin Minnow
-			["description"] = "Can be caught in 'Glassfin Minnow Schools' in Crystalsong Forest.",
+			["maps"] = { CRYSTALSONG_FOREST },
+			["provider"] = { "o", 192059 },	-- Glassfin Minnow School
 		}),
 		i(41802, {	-- Imperial Manta Ray
-			["description"] = "Can be caught in 'Imperial Manta Ray Schools' on the shoreside of Borean Tundra, Dragonblight, Howling Fjord and Grizzly Hills.",
+			["description"] = "Schools can be found on the seaside.",
+			["provider"] = { "o", 192052 },	-- Imperial Manta Ray School
+			["maps"] = { 
+				BOREAN_TUNDRA,
+				DRAGONBLIGHT,
+				GRIZZLY_HILLS,
+				HOWLING_FJORD,
+			},
 		}),
 		i(43572, {	-- Magic Eater
 			["description"] = "Can be caught in any waters on both WotLK and Legion Dalaran.",
+			["maps"] = {
+				NORTHREND_DALARAN,
+				NORTHREND_THE_UNDERBELLY,
+			},
 		}),
 		i(41801, {	-- Moonglow Cuttlefish
-			["description"] = "Can be caught in 'Moonglow Cuttlefish Schools' around icebergs on the shoreside of Borean Tundra, Dragonblight and Howling Fjord.",
+			["description"] = "The schools have shared spawn with Deep Sea Monsterbelly Schools. Borean Tundra have most schools.",
+			["provider"] = { "o", 192054 },	-- Moonglow Cuttlefish School
+			["coords"] = {
+				{ 31.1, 67.6, BOREAN_TUNDRA },	-- Outside Unu'pe
+				{ 33.5, 66.6, BOREAN_TUNDRA },	-- Outside Death's Advance
+				{ 50.1, 69.7, DRAGONBLIGHT },	-- Path of the Titans on the Sea
+				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
+			},
 		}),
 		i(41806, {	-- Musselback Sculpin
-			["description"] = "Can be caught in 'Musselback Sculpin Schools' in inland waters in Borean Tundra.",
+			["provider"] = { "o", 192046 },	-- Musselback Sculpin School
+			["coord"] = { 51.6, 45.0, BOREAN_TUNDRA },	-- Lake Kum'uya
 		}),
 		i(41813, {	-- Nettlefish
-			["description"] = "Can be caught in 'Nettlefish Schools' in inland waters in Sholazar Basin.",
+			["provider"] = { "o", 192057 },	-- Nettlefish School
+			["maps"] = { SHOLAZAR_BASIN },
 		}),
 		i(41803, {	-- Rockfin Grouper
-			["description"] = "Can be caught in open sea waters around Northrend.",
+			["description"] = "Can be caught on the seaside around Northrend.",
+			["maps"] = { 
+				BOREAN_TUNDRA,
+				DRAGONBLIGHT,
+				GRIZZLY_HILLS,
+				HOWLING_FJORD,
+				ICECROWN,
+				SHOLAZAR_BASIN,
+				THE_STORM_PEAKS,
+				ZULDRAK,
+			},
 		}),
 		i(46109, {	-- Sea Turtle (MOUNT!)
 			["providers"] = {
@@ -682,12 +746,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		}),
 		i(43571, {	-- Sewer Carp
 			["description"] = "Can be caught in any waters on both WotLK and Legion Dalaran.",
+			["maps"] = {
+				NORTHREND_DALARAN,
+				NORTHREND_THE_UNDERBELLY,
+			},
 		}),
 		i(43647, {	-- Shimmering Minnow
 			["description"] = "Can be caught outside Violet Hold on both WotLK and Legion Dalaran.",
+			["coord"] = { 63.8, 64.3, NORTHREND_DALARAN },	-- The Violet Hold
 		}),
 		i(43652, {	-- Slippery Eel
 			["description"] = "Can be caught outside Violet Hold on both WotLK and Legion Dalaran.",
+			["coord"] = { 63.8, 64.3, NORTHREND_DALARAN },	-- The Violet Hold
 		}),
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
@@ -697,23 +767,140 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 	}),
 	prof(HERBALISM, {
 		spell(2366, {	-- Herb Gathering
-			i(36903),	-- Adder's Tongue
-			i(108353, {["timeline"] = {ADDED_6_0_2}}),	-- Adder's Tongue Stem
-			i(37921),	-- Deadnettle
-			i(108358, {["timeline"] = {ADDED_6_0_2}}),	-- Deadnettle Bramble
-			i(39970),	-- Fire Leaf
-			i(108359, {["timeline"] = {ADDED_6_0_2}}),	-- Fire Leaf Bramble
-			i(36908),	-- Frost Lotus
-			i(36901),	-- Goldclover
-			i(108352, {["timeline"] = {ADDED_6_0_2}}),	-- Goldclover Leaf
-			i(36906),	-- Icethorn
-			i(108356, {["timeline"] = {ADDED_6_0_2}}),	-- Icethorn Bramble
-			i(36905),	-- Lichbloom
-			i(108355, {["timeline"] = {ADDED_6_0_2}}),	-- Lichbloom Stalk
-			i(36907),	-- Talandra's Rose
-			i(108357, {["timeline"] = {ADDED_6_0_2}}),	-- Talandra's Rose Petal
-			i(36904),	-- Tiger Lily
-			i(108354, {["timeline"] = {ADDED_6_0_2}}),	-- Tiger Lily Petal
+			i(36903, {	-- Adder's Tongue
+				["maps"] = { SHOLAZAR_BASIN },
+				["provider"] = { "o", 191019 },	-- Adder's Tongue
+			}),
+			i(108353, {	-- Adder's Tongue Stem
+				["provider"] = { "o", 191019 },	-- Adder's Tongue
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(36903),	-- Adder's Tongue
+				},
+			}),
+			i(37921, {	-- Deadnettle
+				["description"] = "Is obtained from gathering other herbs.",
+				["maps"] = {
+					BOREAN_TUNDRA,
+					DRAGONBLIGHT,
+					GRIZZLY_HILLS,
+					HOWLING_FJORD,
+					SHOLAZAR_BASIN,
+					ZULDRAK,
+				},
+				["providers"] = {
+					{ "o", 189973 },	-- Goldclover
+					{ "o", 190170 },	-- Talandra's Rose
+					{ "o", 190169 },	-- Tiger Lily
+				},
+			}),
+			i(108358, {	-- Deadnettle Bramble
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(37921),	-- Deadnettle
+				},
+			}),
+			i(39970, {	-- Fire Leaf
+				["coord"] = { 70.6, 33.7, BOREAN_TUNDRA },	-- The Southern Geyser Fields
+				["provider"] = { "o", 191303 },	-- Firethorn
+			}),
+			i(108359, {	-- Fire Leaf Bramble
+				["provider"] = { "o", 191303 },	-- Firethorn
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(39970),	-- Fire Leaf
+				},
+			}),
+			i(36908, {	-- Frost Lotus
+				["description"] = "Can uncommonly be looted when gathering WotLK herbs.",
+				["providers"] = {
+					{ "o", 191019 },	-- Adder's Tongue
+					{ "o", 191303 },	-- Firethorn
+					{ "o", 189973 },	-- Goldclover
+					{ "o", 190172 },	-- Icethorn
+					{ "o", 190171 },	-- Lichbloom
+					{ "o", 190170 },	-- Talandra's Rose
+					{ "o", 190169 },	-- Tiger Lily
+				},
+			}),
+			i(36901, {	-- Goldclover
+				["description"] = "Found on grassy terrain.",
+				["coords"] = {
+					{ 48.8, 48.4, DRAGONBLIGHT },	-- Ruby Dragonshrine
+					{ 63.5, 72.5, DRAGONBLIGHT },	-- Emerald Dragonshrine
+				},
+				["maps"] = {
+					BOREAN_TUNDRA,
+					GRIZZLY_HILLS,
+					HOWLING_FJORD,
+					SHOLAZAR_BASIN,
+				},
+				["provider"] = { "o", 189973 },	-- Goldclover
+			}),
+			i(108352, {	-- Goldclover Leaf
+				["provider"] = { "o", 189973 },	-- Goldclover
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(36901),	-- Goldclover
+				},
+			}),
+			i(36906, {	-- Icethorn
+				["maps"] = {
+					ICECROWN,
+					THE_STORM_PEAKS,
+				},
+				["provider"] = { "o", 190172 },	-- Icethorn
+			}),
+			i(108356, {	-- Icethorn Bramble
+				["provider"] = { "o", 190172 },	-- Icethorn
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(36906),	-- Icethorn
+				},
+			}),
+			i(36905, {	-- Lichbloom
+				["maps"] = {
+					ICECROWN,
+					THE_STORM_PEAKS,
+				},
+				["provider"] = { "o", 190171 },	-- Lichbloom
+			}),
+			i(108355, {	-- Lichbloom Stalk
+				["provider"] = { "o", 190171 },	-- Lichbloom
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(36905),	-- Lichbloom
+				},
+			}),
+			i(36907, {	-- Talandra's Rose
+				["coord"] = { 33.2, 66.7, ZULDRAK },	-- Lower Zul'Drak
+				["description"] = "Found around the lower tiers of Zul'Drak.",
+				["provider"] = { "o", 190170 },	-- Talandra's Rose
+			}),
+			i(108357, {	-- Talandra's Rose Petal
+				["provider"] = { "o", 190170 },	-- Talandra's Rose
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(36907),	-- Talandra's Rose
+				},
+			}),
+			i(36904, {	-- Tiger Lily
+				["coord"] = { 51.6, 45.0, BOREAN_TUNDRA },	-- Lake Kum'uya
+				["description"] = "Found around inland waters and waterways.",
+				["maps"] = {
+					GRIZZLY_HILLS,
+					HOWLING_FJORD,
+					SHOLAZAR_BASIN,
+				},
+				["provider"] = { "o", 190169 },	-- Tiger Lily
+			}),
+			i(108354, {	-- Tiger Lily Petal
+				["provider"] = { "o", 190169 },	-- Tiger Lily
+				["timeline"] = { ADDED_6_0_2 },
+				["groups"] = {
+					i(36904),	-- Tiger Lily
+				},
+			}),
 			--	No need to list Tradegoods w/ many other sources
 			--	i(37704),	-- Crystallized Life
 		}),

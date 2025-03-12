@@ -356,6 +356,10 @@ root(ROOTS.Zones, {
 							}),
 						}),
 					}),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(190172),	-- Icethorn
+						o(190171),	-- Lichbloom
+					})),
 				}),
 				n(QUESTS, {
 					-- The Sons of Hodir

@@ -302,23 +302,6 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 				}),
-				prof(FISHING, {
-					i(44703, {	-- Dark Herring
-						["provider"] = { "o", 192049 },	-- Fangtooth Herring School
-					}),
-					o(192053, {	-- Deep Sea Monsterbelly School
-						["requireSkill"] = FISHING,
-					}),
-					o(192049, {	-- Fangtooth Herring School
-						["requireSkill"] = FISHING,
-					}),
-					o(192052, {	-- Northrend Angler
-						["requireSkill"] = FISHING,
-					}),
-					o(192054, {	-- Moonglow Cuttlefish School
-						["requireSkill"] = FISHING,
-					}),
-				}),
 				n(FLIGHT_PATHS, {
 					fp(248, {	-- Apothecary Camp
 						["cr"] = 26844,	-- Lilleth Radescu <Bat Handler>
@@ -364,6 +347,24 @@ root(ROOTS.Zones, {
 					n(66635, {	-- Beegle Blastfuse <Master Pet Tamer>
 						["coord"] = { 28.6, 33.8, HOWLING_FJORD },
 					}),
+				}),
+				n(PROFESSIONS, {
+					prof(FISHING, {
+						i(44703, {	-- Dark Herring
+							["provider"] = { "o", 192049 },	-- Fangtooth Herring School
+						}),
+					}),
+					prof(FISHING, sharedData({ ["requireSkill"] = FISHING }, {
+						o(192053),	-- Deep Sea Monsterbelly School
+						o(192049),	-- Fangtooth Herring School
+						o(192052),	-- Imperial Manta Ray School
+						o(192054),	-- Moonglow Cuttlefish School
+						o(192052),	-- Northrend Angler
+					})),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(189973),	-- Goldclover
+						o(190169),	-- Tiger Lily
+					})),
 				}),
 				n(QUESTS, {
 					q(11476, {	-- A Carver and a Croaker

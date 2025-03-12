@@ -322,20 +322,15 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(PROFESSIONS, {
-					prof(FISHING, {
-						o(192053, {	-- Deep Sea Monsterbelly School
-							["requireSkill"] = FISHING,
-						}),
-						o(192048, {	-- Dragonfin Angelfish School
-							["requireSkill"] = FISHING,
-						}),
-						o(192052, {	-- Imperial Manta Ray School
-							["requireSkill"] = FISHING,
-						}),
-						o(192054, {	-- Moonglow Cuttlefish School
-							["requireSkill"] = FISHING,
-						}),
-					}),
+					prof(FISHING, sharedData({ ["requireSkill"] = FISHING }, {
+						o(192053),	-- Deep Sea Monsterbelly School
+						o(192048),	-- Dragonfin Angelfish School
+						o(192052),	-- Imperial Manta Ray School
+						o(192054),	-- Moonglow Cuttlefish School
+					})),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(189973),	-- Goldclover
+					})),
 				}),
 				spell(921, {	-- Pickpocketing
 					["classes"] = { ROGUE },

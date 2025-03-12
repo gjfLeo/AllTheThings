@@ -344,27 +344,6 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 				}),
-				prof(FISHING, {
-					i(45905, {	-- Bloodtooth Frenzy
-						["provider"] = { "o", 194479 },	-- Pool of Blood
-						["description"] = "Kill an animal and then swim in a body of water to create a pool to fish from.",
-					}),
-					o(192051, {	-- Borean Man O' War School
-						["requireSkill"] = FISHING,
-					}),
-					o(192053, {	-- Deep Sea Monsterbelly School
-						["requireSkill"] = FISHING,
-					}),
-					o(192052, {	-- Imperial Manta Ray School
-						["requireSkill"] = FISHING,
-					}),
-					o(192054, {	-- Moonglow Cuttlefish School
-						["requireSkill"] = FISHING,
-					}),
-					o(192046, {	-- Musselback Sculpin School
-						["requireSkill"] = FISHING,
-					}),
-				}),
 				n(FLIGHT_PATHS, {
 					fp(289, {	-- Amber Ledge, Borean Tundra
 						["cr"] = 24795,	-- Surristrasz
@@ -3141,11 +3120,24 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(PROFESSIONS, {
-					prof(HERBALISM, {
-						i(39970, {	-- Fire Leaf
-							["description"] = "Can be gathered from herbing Firethorn.",
+					prof(FISHING, {
+						i(45905, {	-- Bloodtooth Frenzy
+							["provider"] = { "o", 194479 },	-- Pool of Blood
+							["description"] = "Kill an animal and then swim in a body of water to create a pool to fish from.",
 						}),
 					}),
+					prof(FISHING, sharedData({ ["requireSkill"] = FISHING }, {
+						o(192051),	-- Borean Man O' War School
+						o(192053),	-- Deep Sea Monsterbelly School
+						o(192052),	-- Imperial Manta Ray School
+						o(192054),	-- Moonglow Cuttlefish School
+						o(192046),	-- Musselback Sculpin School
+					})),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(191303),	-- Firethorn
+						o(189973),	-- Goldclover
+						o(190169),	-- Tiger Lily
+					})),
 				}),
 				-- #if AFTER 6.2.2.20444
 				n(TREASURES, {

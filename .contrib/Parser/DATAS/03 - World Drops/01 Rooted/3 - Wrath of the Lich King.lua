@@ -1238,13 +1238,13 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			29436,	-- Icetouched Earthrager
 			26284,	-- Runic Battle Golem
 		},
+		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
 		["providers"] = {
 			{ "o", 189978 },	-- Cobalt Deposit
 			{ "o", 189979 },	-- Rich Cobalt Deposit
 			{ "o", 189981 },	-- Rich Saronite Deposit
 			{ "o", 189980 },	-- Saronite Deposit
 		},
-		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
 	}, {
 		i(37701),	-- Crystallized Earth
 		i(35624),	-- Eternal Earth
@@ -1286,6 +1286,15 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			23874,	-- Thornwine Creeper
 		},
 		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+		["providers"] = {
+			{ "o", 191019 },	-- Adder's Tongue
+			{ "o", 191303 },	-- Firethorn
+			{ "o", 189973 },	-- Goldclover
+			{ "o", 190172 },	-- Icethorn
+			{ "o", 190171 },	-- Lichbloom
+			{ "o", 190170 },	-- Talandra's Rose
+			{ "o", 190169 },	-- Tiger Lily
+		},
 	}, {
 		i(37704),	-- Crystallized Life
 		i(35625),	-- Eternal Life
