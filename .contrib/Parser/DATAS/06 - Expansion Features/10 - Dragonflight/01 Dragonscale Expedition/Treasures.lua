@@ -101,6 +101,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					199067, -- Precious Plans
 					199068, -- Time-Lost Memo
 					198852, -- Bear Termination Orders
+					-- Glimmering Clusters
+					200864,	-- Glimmering Alexstraszite Cluster
+					200866,	-- Glimmering Malygite Cluster
+					200867,	-- Glimmering Neltharite Cluster
+					200863,	-- Glimmering Nozdorite Cluster
+					200865,	-- Glimmering Ysemerald Cluster
 					-- Profession Knowledge Items
 					193891,	-- Experimental Substance
 					193897,	-- Reawakened Catalyst

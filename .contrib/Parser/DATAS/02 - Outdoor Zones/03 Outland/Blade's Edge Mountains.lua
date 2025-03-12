@@ -573,6 +573,7 @@ root(ROOTS.Zones, {
 					}),
 					q(10632, {	-- Cutting Your Teeth
 						["qg"] = 21118,	-- Razak Ironsides
+						["sourceQuest"] = 10584,	-- Picking Up Some Power Converters
 						["coords"] = {
 							{ 60.0, 69.3, BLADES_EDGE_MOUNTAINS },
 							{ 59.8, 68.3, BLADES_EDGE_MOUNTAINS },

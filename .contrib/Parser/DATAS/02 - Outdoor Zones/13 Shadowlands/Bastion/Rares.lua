@@ -224,8 +224,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 63411,
 				["g"] = {
 					o(339625, {	-- Sophia's Gift
+						["coord"] = { 51.7, 68.8, BASTION },
 						["questID"] = 58319,
 						["isDaily"] = true,
+						["g"] = { i(183608) },	-- Evernote Vesper
 					}),
 				},
 			}),
@@ -242,6 +244,14 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["crs"] = { 160875 },	-- Sophia
 				["coord"] = { 61.2, 51.0, BASTION },
 				["questID"] = 58320,
+				["g"] = {
+					o(339625, {	-- Sophia's Radiance
+						["coord"] = { 61.3, 50.4, BASTION },
+						--["questID"] = ,
+						--["isDaily"] = true,
+						["g"] = { i(183608) },	-- Evernote Vesper
+					}),
+				}
 			}),
 			n(161527, {	-- Sigilback
 				["crs"] = { 161441 },	-- Orator Kloe

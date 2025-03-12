@@ -5711,10 +5711,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			}),
 			q(55208, {
 			}),
-			q(57640, {
-				["description"] = "Type: |cFFf09f26PvP|r\nCategory: |cFFf09f26Korrak's Revenge|r",
-				["lvl"] = 10,
-			}),
 		}),
 	}),
 	expansion(EXPANSION.SL, {
@@ -8128,7 +8124,6 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(73935),	--
 			q(73969),	--
 			q(73970),	--
-			q(73971),	--
 			q(73975),	--
 			q(73977),	--
 			q(73982),	--

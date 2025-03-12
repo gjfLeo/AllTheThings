@@ -2436,9 +2436,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(25969, {	-- Hostile Waters (H)
-							["qg"] = 40917,	-- Legionnaire Nazgrim
+							["qg"] = 40921,	-- Blood Guard Toldrek
 							["sourceQuest"] = 25968,	-- Desperate Plan
-							["coord"] = { 51.2, 62.9, VASHJIR_SHIMMERING_EXPANSE },
+							["coord"] = { 50.4, 79.0, VASHJIR_SHIMMERING_EXPANSE },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
 								objective(1, {	-- 0/10 Muckskin Scrounger slain

@@ -151,7 +151,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					{ 54.1, 66.9, OHNAHRAN_PLAINS },	-- Soil Spawn posibility
 					{ 53.77, 67.45, OHNAHRAN_PLAINS },	-- Soil Spawn posibility
 				},
-				-- ["questID"] = ,
+				["questID"] = 73971,
 			}),
 			n(193669, {	-- Prozela Galeshot
 				["coord"] = { 59.9, 66.9, OHNAHRAN_PLAINS },
@@ -291,7 +291,10 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			n(192364, {	-- Windscale the Stormborn
 				["description"] = "Only available if the Aylaag Camp is stationed at the south east.\nSpawns from the egg after killing 5 nearby egg channelers.",
-				-- TODO: add crs for kill npcs
+				["crs"] = {
+					192367,	-- Nokhud Galebringer
+					192357,	-- Storm-touched Egg
+				},
 				["coord"] = { 84.2, 47.8, OHNAHRAN_PLAINS },
 				["questID"] = 73979,
 			}),

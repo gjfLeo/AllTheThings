@@ -18,10 +18,12 @@ root(ROOTS.Zones, {
 					explorationAch(6351),	-- Explore Jade Forest
 					ach(7290),	-- How To Strain Your Dragon
 					ach(7291),	-- In a Trail of Smoke
-					ach(7381),	-- Restore Balance
+					ach(7381, {	-- Restore Balance
+						["coord"] = { 34.0, 33.5, THE_JADE_FOREST },
+					}),
 					ach(7289),	-- Shadow Hopper
 					ach(6300, {	-- Upjade Complete (A)
-						["races"] = ALLIANCE_ONLY,	-- Alliance
+						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(6534, {	-- Upjade Complete (H)

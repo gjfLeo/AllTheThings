@@ -170,7 +170,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						},
 					}),
 					n(178004, {	-- Intercessor Razzra
-						["questID"] = 64111,	-- confirmed 2022-10-31
+						["questID"] = 64111,
 						["repeatable"] = true,
 						["g"] = {
 							i(186231),	-- Gloves of Fervent Intercession
