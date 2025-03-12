@@ -2022,11 +2022,11 @@ i(238829, 1226421);	-- Radiant Imperial Lynx
 --- UNSORTED ---
 i(238902, 1226533);	-- Autumn Harvesthog
 i(210141, 424601);	-- Brown-Furred Spiky Bakar
+i(238941, 1226740);	-- Coldflame Cormaera
 i(235711, 1218316);	-- Corruption of the Aspects
-i(238941, 1226740);	-- Lavaborn Azure Chimaera
-i(238968, 1226856);	-- Lavaborn Citrine Chimaera
-i(238966, 1226851);	-- Lavaborn Emerald Chimaera
-i(238967, 1226855);	-- Lavaborn Ruby Chimaera
+i(238966, 1226851);	-- Felborn Cormaera
+i(238968, 1226856);	-- Lavaborn Cormaera
+i(238967, 1226855);	-- Molten Cormaera
 i(223265, 447189);	-- Nesting Swarmite
 i(235709, 1218314);	-- Ny'alothan Shadow Worm
 i(236415, 1219705);	-- Spotted Black Riding Goat
