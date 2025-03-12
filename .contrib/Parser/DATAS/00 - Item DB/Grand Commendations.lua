@@ -422,3 +422,7 @@ i(224570, FACTION_ZANDALAR_TRIBE);			-- Commendation of the Zandalar Tribe
 -- PATCH 11.1.0 --
 ------------------
 i(235558, FACTION_DARKFUSE_SOLUTIONS);		-- Box of Darkfuse Miscellany [500 Rep]
+i(236763, FACTION_TWW_BLACKWATER_CARTEL);	-- Finder's Fee [500 Rep]
+i(236764, FACTION_TWW_BILGEWATER_CARTEL);	-- Finder's Fee [500 Rep]
+i(236689, FACTION_TWW_STEAMWHEEDLE_CARTEL);	-- Finder's Fee [500 Rep]
+i(236765, FACTION_TWW_VENTURE_CO);			-- Finder's Fee [500 Rep]

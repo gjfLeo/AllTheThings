@@ -60,7 +60,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = bubbleDownClassicRep(FACTION_TWW_BLACKWATER_CARTEL, {
 					{		-- Neutral
 					}, {	-- Friendly
-						i(236763),	-- Finder's Fee
+						i(236763, {	-- Finder's Fee
+							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
+							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
+						}),
 					}, {	-- Honored
 						i(236671, {	-- The Buzzer (MM!)
 							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
@@ -158,7 +161,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = bubbleDownClassicRep(FACTION_TWW_STEAMWHEEDLE_CARTEL, {
 					{		-- Neutral
 					}, {	-- Friendly
-						i(236689),	-- Finder's Fee
+						i(236689, {	-- Finder's Fee
+							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
+							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
+						}),
 					}, {	-- Honored
 						i(236670, {	-- Maniacal Melodies (MM!)
 							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
@@ -191,7 +197,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = bubbleDownClassicRep(FACTION_TWW_BILGEWATER_CARTEL, {
 					{		-- Neutral
 					}, {	-- Friendly
-						i(236764),	-- Finder's Fee
+						i(236764, {	-- Finder's Fee
+							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
+							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
+						}),
 					}, {	-- Honored
 						i(236672, {	-- The Ol' Low-and-Slow (MM!)
 							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
@@ -224,7 +233,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["g"] = bubbleDownClassicRep(FACTION_TWW_VENTURE_CO, {
 					{		-- Neutral
 					}, {	-- Friendly
-						i(236765),	-- Finder's Fee
+						i(236765, {	-- Finder's Fee
+							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
+							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
+						}),
 					}, {	-- Honored
 						i(236669, {	-- The Whole Brass Band (MM!)
 							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},

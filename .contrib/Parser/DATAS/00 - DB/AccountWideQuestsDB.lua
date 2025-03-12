@@ -1730,6 +1730,7 @@ ExportDB.AccountWideQuestsDB = {
 	[85781] = true,	-- GE86 Advance
 	[85783] = true,	-- Steamboil
 	[85784] = true,	-- Handcrank
+	[85795] = true,	-- Contract: The Cartels of Undermine
 	[85806] = true,	-- Exalted with the Bilgewater Cartel (Paragon)
 	[85807] = true,	-- Exalted with the Blackwater Cartel (Paragon)
 	[85808] = true,	-- Exalted with Darkfuse Solutions (Paragon)

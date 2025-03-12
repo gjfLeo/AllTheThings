@@ -13,7 +13,7 @@ local CHETT = createHeader({
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(CHETT, bubbleDownSelf({ ["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 } }, {
-			["description"] = "Once per week you can interact with the C.H.E.T.T. machine to recieve a weekly set of tasks with rewards for completing each one and a set of four.",
+			["description"] = "Once per week you can interact with the C.H.E.T.T. machine to recieve a weekly set of tasks with rewards for completing each one. You can turn in a completed list to C.H.E.T.T. for some valorstones or to your cartel's quartermaster for 500 rep.",
 			["g"] = {
 				n(ACHIEVEMENTS, {
 					ach(41626),	-- C.H.E.T.T. a Look
@@ -46,12 +46,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					q(86920),	-- War Mode Violence
 				})),
 				n(REWARDS, {
-					i(235053),	-- C.H.E.T.T. List
+					i(235053),	-- Completed C.H.E.T.T. List
 				}),
 				n(VENDORS, {
 					n(238029, {	-- C.H.E.T.T.
 						["coord"] = { 43.4, 50.5, UNDERMINE },
 						["g"] = {
+							i(236682, {	-- C.H.E.T.T. List
+								["description"] = "Talk to C.H.E.T.T. to be granted one for free, or turn in 40 C.H.E.T.T. cards to earn more after your first.",
+								["cost"] = {{ "i", 236668, 40 }},	-- C.H.E.T.T. Card
+							}),
 							i(237900, {	-- C.H.E.T.T. Pack (COSMETIC!)
 								["cost"] = {{ "c", RESONANCE_CRYSTALS, 1000 }},
 							}),

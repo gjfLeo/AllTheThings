@@ -257,8 +257,6 @@ root(ROOTS.Unsorted, {
 				i(235559),	-- Hidden Trove
 
 				-- CHETT
-				i(236668),	-- C.H.E.T.T. Card
-				i(236682),	-- C.H.E.T.T. List
 				i(236785),	-- C.H.E.T.T. Card
 
 				-- Valorstones

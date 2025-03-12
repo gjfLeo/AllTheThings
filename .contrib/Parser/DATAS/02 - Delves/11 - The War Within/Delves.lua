@@ -2050,6 +2050,17 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 	n(ZONE_DROPS, {
 		i(225692),	-- Glowglow Cap (sturdy chest)
+		i(236668, {	-- C.H.E.T.T. Card
+			["description"] = "Drops rarely from Underpin affiliated enemies in any delve.",
+			["crs"] = {
+				234905,	-- Aggressively Lost Hobgoblin <Underpin's Fan>
+				231925,	-- Drill Sergeant
+				234904,	-- Underpin's Bodyguard's Intern
+				234901,	-- Underpin's Well-Connected Friend
+			},
+			["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 },
+			["timeline"] = { ADDED_11_1_0 },
+		}),
 	}),
 	m(EARTHCRAWL_MINES, {
 		["icon"] = [[~_.asset("Delves_Nerubian")]],
@@ -3073,7 +3084,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(86325),	-- Looting first Zekvir cache from above kil
 
 		-- Underpin Delve
-		--q(86407, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Killed Underpin?
-		--q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Killed Underpin?
+		q(86407, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- First weekly Underpin kill
+		q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- First weekly Underpin kill
 	}),
 })));

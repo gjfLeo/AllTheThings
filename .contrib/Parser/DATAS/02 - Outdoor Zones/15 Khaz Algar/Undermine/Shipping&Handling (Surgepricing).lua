@@ -90,3 +90,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		}),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+	m(UNDERMINE, {
+		n(SHIPPING_AND_HANDLING, {
+			n(EVENT_COMPLETION, {
+				q(86299),	-- Looted Breakneck Cabbie's Coat
+				--q(86303),	-- Looted Personal-Use Sapper?
+			}),
+		}),
+	}),
+})));
