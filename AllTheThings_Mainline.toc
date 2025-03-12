@@ -1,6 +1,7 @@
 ## Title: AllTheThings
 ## IconTexture: Interface/Addons/AllTheThings/assets/logo_32x32
 ## Name: AllTheThings
+## Author: Crieve
 ## Category-enUS: Collections
 ## Category-deDE: Kriegsmeutesammlungen
 ## Category-esES: Colecciones de banda guerrera
@@ -12,7 +13,6 @@
 ## Category-ruRU: Коллекции отряда
 ## Category-zhCN: 战团藏品
 ## Category-zhTW: 戰隊收藏
-## Author: Crieve-Sargeras
 ## Notes-enUS: Tracks your collection of mounts, pets, toys, transmog, and more. Filter to your liking, or try to collect all the things!|n|nNightly builds and weekly updates.
 ## Notes-deDE: Verfolgt deine Sammlung an Reittieren, Haustieren, Spielzeugen, Transmogs und mehr. Filtere nach Belieben oder versuche, alles zu sammeln!|n|nNächtliche Builds und wöchentliche Updates.
 ## Notes-esES: Registra tu colección de monturas, mascotas, juguetes, transfiguraciones y más. ¡Filtra a tu gusto o intenta coleccionarlo todo!|n|nConstrucciones nocturnas y actualizaciones semanales.
