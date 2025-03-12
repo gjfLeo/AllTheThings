@@ -261,7 +261,7 @@ root(ROOTS.Promotions, {
 			}),
 			pet(4791, {	-- Thrrrdgl
 				["description"] = "Included for free with any purchase from the World of Warcraft Bronze Murloc Collection on the Blizzard Gear Store. Available until March 31, 2025 while supplies last. The code will be emailed and can be redeemed on Battle.net or the launcher.",
-				["timeline"] = { ADDED_11_1_0 },	-- Removed March 31, 2025
+				["timeline"] = { ADDED_11_1_0, "removed 11.1.0.99999" },	-- Removed March 31, 2025
 				["u"] = REAL_MONEY,
 			}),
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE
