@@ -147,19 +147,28 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = 50,
 				}),
 				q(9627, {	-- Allegiance to the Horde [Blood Elf Only]
-					-- #if BEFORE CATA
-					["qg"] = 4949,	-- Thrall <Warchief>
-					["coord"] = { 31.6, 37.8, ORGRIMMAR },
-					-- #elseif BEFORE WOD
-					["qg"] = 39605,	-- Garrosh Hellscream <Warchief>
-					["coord"] = { 48.2, 70.6, ORGRIMMAR },
-					-- #elseif BEFORE LEGION
-					["qg"] = 86832,	-- Vol'jin <Warchief>
-					["coord"] = { 48.2, 70.6, ORGRIMMAR },
-					-- #else
-					["qg"] = 14720,	-- High Overlord Saurfang
-					["coord"] = { 48.6, 71.0, ORGRIMMAR },
-					-- #endif
+					["qgs"] = {
+						-- #if AFTER LEGION
+						14720,	-- High Overlord Saurfang
+						-- #elseif AFTER WOD
+						86832,	-- Vol'jin <Warchief>
+						-- #elseif AFTER CATA
+						39605,	-- Garrosh Hellscream <Warchief>
+						-- #else
+						4949,	-- Thrall <Warchief>
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER LEGION
+						{ 48.6, 71.0, ORGRIMMAR },	-- High Overlord Saurfang
+						-- #elseif AFTER WOD
+						{ 48.2, 70.6, ORGRIMMAR },	-- Vol'jin <Warchief>
+						-- #elseif AFTER CATA
+						{ 48.2, 70.6, ORGRIMMAR },	-- Garrosh Hellscream <Warchief>
+						-- #else
+						{ 31.6, 37.8, ORGRIMMAR },	-- Thrall <Warchief>
+						-- #endif
+					},
 					["sourceQuest"] = 9626,	-- Meeting the Orcs
 					["races"] = { BLOODELF },
 					["lvl"] = lvlsquish(15, 15, 1),
@@ -578,17 +587,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					-- #if AFTER CATA
 					["sym"] = { { "sub", "common_recipes_vendor", 50482 } },	-- Marith Lazuria <Jewelcrafting Supplies>
 					-- #endif
+					["timeline"] = { ADDED_2_0_3 },
 					["groups"] = {
-						i(20854, {	-- Design: Amulet of the Moon
+						i(20854, {	-- Design: Amulet of the Moon (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(20856, {	-- Design: Heavy Golden Necklace of Battle
+						i(20856, {	-- Design: Heavy Golden Necklace of Battle (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(21948, {	-- Design: Opal Necklace of Impact
+						i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(20975, {	-- Design: The Jade Eye
+						i(20975, {	-- Design: The Jade Eye (RECIPE!)
 							["isLimited"] = true,
 						}),
 					},
@@ -634,7 +644,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["coord"] = { 86.0, 39.6, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
 					["sym"] = {{"select","itemID",
-						3024,    -- Bkp 2700 Enforcer
+						3024,    -- BKP 2700 "Enforcer"
 						2511,    -- Hunter's Boomstick
 						3023,    -- Large Bore Blunderbuss
 						2509,    -- Ornate Blunderbuss
@@ -794,7 +804,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						i(25726, {	-- Pattern: Comfortable Insoles (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(25720, {	-- Pattern: Heavy Knothide Leather
+						i(25720, {	-- Pattern: Heavy Knothide Leather (RECIPE!)
 							["timeline"] = { REMOVED_3_2_0},
 							["requireSkill"] = LEATHERWORKING,
 							["isLimited"] = true,
@@ -876,5 +886,5 @@ for i,o in ipairs({
 	i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
 	i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
 	i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-	i(22307),	-- Pattern: Enchanted Mageweave Pouch
+	i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 }) do table.insert(LYNA_GROUPS, o); end

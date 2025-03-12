@@ -3,11 +3,12 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	m(IRONFORGE, {
-		-- #if AFTER CATA
-		["lore"] = "Ironforge is the capital city of the dwarves, proud members of the Alliance. It is the ancestral home of the Bronzebeard dwarves. The Council of Three Hammers rules the kingdom of Khaz Modan from the throne room within the city.",
-		-- #else
-		["lore"] = "Ironforge is the capital city of the dwarves, proud members of the Alliance. It is the ancestral home of the Bronzebeard dwarves. King Bronzebeard rules the kingdom of Khaz Modan from the throne room within the city. The Great Forge area gave the city its name.\n\nCarved into the stone heart of Khaz Modan, the mighty city of Ironforge is a testament to the dwarves' strength and resilience. The city is perhaps the most intricate of the Alliance cities, boasting many small passageways, shops built into the rock walls, and cavernous rooms. The feel of the city is a bustling, rowdy, and somewhat industrial one. However, it is predominantly safe-feeling and cozy; fires roar in the hearths of the inns and shops, and much dwarven laughing and frivolity is to be heard. Also, unlike Stormwind and Darnassus, the city is actually a massive cavern carved into the earth by the dwarves; the ceiling and floor are both hard stone.\n\nMainly because of the Deeprun Tram, linking Ironforge and Stormwind City, and the district of Tinker Town, Ironforge is one of the most racially diverse cities in the Alliance world. Dwarves predominate, of course, but you will find plenty of gnomes even outside of Tinker Town, and probably as many humans. You will find almost no night elves however, as they probably prefer more natural and open spaced environments.",
-		-- #endif
+		["lore"] =
+			-- #if AFTER CATA
+			"Ironforge is the capital city of the dwarves, proud members of the Alliance. It is the ancestral home of the Bronzebeard dwarves. The Council of Three Hammers rules the kingdom of Khaz Modan from the throne room within the city.",
+			-- #else
+			"Ironforge is the capital city of the dwarves, proud members of the Alliance. It is the ancestral home of the Bronzebeard dwarves. King Bronzebeard rules the kingdom of Khaz Modan from the throne room within the city. The Great Forge area gave the city its name.\n\nCarved into the stone heart of Khaz Modan, the mighty city of Ironforge is a testament to the dwarves' strength and resilience. The city is perhaps the most intricate of the Alliance cities, boasting many small passageways, shops built into the rock walls, and cavernous rooms. The feel of the city is a bustling, rowdy, and somewhat industrial one. However, it is predominantly safe-feeling and cozy; fires roar in the hearths of the inns and shops, and much dwarven laughing and frivolity is to be heard. Also, unlike Stormwind and Darnassus, the city is actually a massive cavern carved into the earth by the dwarves; the ceiling and floor are both hard stone.\n\nMainly because of the Deeprun Tram, linking Ironforge and Stormwind City, and the district of Tinker Town, Ironforge is one of the most racially diverse cities in the Alliance world. Dwarves predominate, of course, but you will find plenty of gnomes even outside of Tinker Town, and probably as many humans. You will find almost no night elves however, as they probably prefer more natural and open spaced environments.",
+			-- #endif
 		["icon"] = 255138,
 		-- #if AFTER CATA
 		["maps"] = { 1361 },	-- Old Ironforge
@@ -737,12 +738,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(6609, {	-- I Got Nothin' Left!
 					["qg"] = 5161,	-- Grimnur Stonebrand <Fishing Trainer>
-					-- #if AFTER CATA
-					["coord"] = { 48.4, 8.2, IRONFORGE },
-					-- #else
 					["description"] = "Requires 225 Fishing to start this quest.",
 					["coord"] = { 48.2, 6.6, IRONFORGE },
-					-- #endif
 					["timeline"] = { REMOVED_4_0_3 },
 					["requireSkill"] = FISHING,
 					["races"] = ALLIANCE_ONLY,
@@ -1024,13 +1021,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 16311 },	-- Honorary Picks
 					},
 					["sourceQuest"] = 6388,	-- Gryth Thurden
-					-- #if AFTER 4.0.3
-					["coord"] = { 55.8, 47.8, IRONFORGE },
-					["maps"] = { DUN_MOROGH },
-					-- #else
-					["coord"] = { 55.6, 48, IRONFORGE },
-					["maps"] = { LOCH_MODAN },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER 4.0.3
+						{ 55.8, 47.8, IRONFORGE },
+						-- #else
+						{ 55.6, 48.0, IRONFORGE },
+						-- #endif
+					},
+					["maps"] = {
+						-- #if AFTER 4.0.3
+						DUN_MOROGH,
+						-- #else
+						LOCH_MODAN,
+						-- #endif
+					},
 					["races"] = { DARKIRON, DWARF, GNOME },
 					-- #if BEFORE 4.0.3
 					["lvl"] = 10,
@@ -1168,7 +1172,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						-- #if AFTER TBC
-						i(33792, {	-- Plans: Heavy Copper Longsword
+						i(33792, {	-- Plans: Heavy Copper Longsword (RECIPE!)
 							["description"] = "This item can be sold on the Neutral Auction House to Horde Blacksmiths for a... nominal fee.\n\nOnly naturally accessible to Alliance Blacksmiths.",
 							["timeline"] = { ADDED_2_3_0 },
 						}),
@@ -1445,7 +1449,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(RARES, {
 				n(51596, {	-- Wildhammer Fact Checker
 					["coord"] = { 38.6, 54.8, IRONFORGE },
-					["description"] = "AKA Red Shirt Guy\n\nYou must be a member of the Horde in order to attack this NPC.\n",
+					["description"] = "AKA Red Shirt Guy\n\nYou must be a member of the Horde in order to attack this NPC.",
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -1551,10 +1555,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						-- #if AFTER TBC
-						i(21948, {	-- Design: Opal Necklace of Impact
+						i(21948, {	-- Design: Opal Necklace of Impact (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(20975, {	-- Design: The Jade Eye
+						i(20975, {	-- Design: The Jade Eye (RECIPE!)
 							["isLimited"] = true,
 						}),
 						-- #endif
@@ -2076,19 +2080,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 43.0, 29.2, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
-						i(10314, {	-- Pattern: Lavender Mageweave Shirt
+						i(10314, {	-- Pattern: Lavender Mageweave Shirt (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(10317, {	-- Pattern: Pink Mageweave Shirt
+						i(10317, {	-- Pattern: Pink Mageweave Shirt (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(10326, {	-- Pattern: Tuxedo Jacket
+						i(10326, {	-- Pattern: Tuxedo Jacket (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(10323, {	-- Pattern: Tuxedo Pants
+						i(10323, {	-- Pattern: Tuxedo Pants (RECIPE!)
 							["isLimited"] = true,
 						}),
-						i(10321, {	-- Pattern: Tuxedo Shirt
+						i(10321, {	-- Pattern: Tuxedo Shirt (RECIPE!)
 							["isLimited"] = true,
 						}),
 					},
@@ -2213,7 +2217,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
 						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
 						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch
+						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				n(5169, {	-- Tynnus Venomsprout
@@ -2226,11 +2230,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(8117, {	-- Wizbang Booms
 					["coord"] = { 31.8, 63.4, IRONFORGE },
 					["races"] = ALLIANCE_ONLY,
-					-- #if BEFORE 10.1
-					["description"] = "This NPC is only available on July 4th (US) or September 30th (EU).",
-					-- #else
-					["description"] = "This NPC is only available on July 4th.",
-					-- #endif
+					["description"] =
+						-- #if BEFORE 10.1
+						"This NPC is only available on July 4th (US) or September 30th (EU).",
+						-- #else
+						"This NPC is only available on July 4th.",
+						-- #endif
 					["sym"] = {{"select","itemID",
 						8626,    -- Blue Sparkler
 						8625,    -- White Sparkler
