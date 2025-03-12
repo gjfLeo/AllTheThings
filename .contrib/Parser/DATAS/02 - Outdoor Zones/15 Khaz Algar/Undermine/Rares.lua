@@ -118,7 +118,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			}),
 			n(231310, {	-- Darkfuse Precipitant
 				["description"] = "Requires someone with Renown 6 with the Cartels of Undermine and in possession of a 'Canister of Darkfuse Solution' to interact with the De-Pollution Station X1119 to start an event to spawn it.",
-				["crs"] = {	231329 },	-- De-Pollution Station X1119
+				["crs"] = {
+					231329,	-- De-Pollution Station X1119
+					231336,	-- Vignette Bunny [DNT]
+				},
 				["cost"] = {{"i", 229823, 1}},	-- Canister of Darkfuse Solution
 				["coord"] = { 41.2, 91.4, UNDERMINE },
 				["questID"] = 85010,

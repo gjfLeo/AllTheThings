@@ -238,7 +238,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			ach(41588, {	-- Read Between the Lines (automated)
 				i(235050),	-- Desk-In-A-Box (TOY!)
 			}),
-			ach(41589),	-- That Can-Do Attitude
+			ach(41589, {	-- That Can-Do Attitude
+				["crs"] = { 237103 },	-- Discarded Can
+			}),
 			pvp(ach(41522)),	-- Tour of Duty: Undermine
 			ach(41217),	-- Treasures of Undermine (automated)
 			ach(40900),	-- Undermined (automated)
