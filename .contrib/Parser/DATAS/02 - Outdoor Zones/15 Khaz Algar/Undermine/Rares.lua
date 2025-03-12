@@ -157,6 +157,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(234499, {	-- Giovante
 				["description"] = "Can be summoned by anyone who has a contract with the Steamwheedle Cartel.",
 				["coord"] = { 32.0, 76.5, UNDERMINE },
+				["crs"] = { 234751 },	-- Noggenfogger Recall Technician
 				["questID"] = 86307,
 				["isWeekly"] = true,
 				["g"] = {

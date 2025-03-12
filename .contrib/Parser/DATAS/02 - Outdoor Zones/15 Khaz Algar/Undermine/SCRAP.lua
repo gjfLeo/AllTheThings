@@ -10,7 +10,15 @@ local SCRAP = createHeader({
 	},
 });
 local function FromSCRAP(t)
-	t.crs = { 234348 }	-- S.C.R.A.P. Heap
+	t.crs = {
+		234344,	-- S.C.R.A.P. Heap
+		234345,	-- S.C.R.A.P. Heap
+		234346,	-- S.C.R.A.P. Heap
+		234347,	-- S.C.R.A.P. Heap
+		234348,	-- S.C.R.A.P. Heap
+		234349,	-- S.C.R.A.P. Heap
+		234350,	-- S.C.R.A.P. Heap
+	}
 	return t
 end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
