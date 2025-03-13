@@ -906,6 +906,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235494),	-- Biker Gang's Spare Tire
 						i(235489),	-- Bullet Biter
 						i(235490),	-- Clawbacker Halberd
+						i(236003, {	-- Fate Weaver
+							["description"] = "Fly to Fate Weaver's Spool in Azj-Kahet to perform the ritual, coords 64.2, 74.8",
+							["groups"] = {
+								i(219941),	-- Fateweaved Mallet
+								i(219382),	-- Fateweaved Needle
+							},
+						}),
 						i(235493),	-- Ignited Flare Jar
 						i(235491),	-- Immolation Warning
 						i(235487),	-- Interest Compounder
@@ -1526,6 +1533,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
 			["description"] = "Left behind by Zekvir when he invades a delve.",
+			["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 			["g"] = {
 				i(218126),	-- Befouler's Syringe
 				i(219381, {	-- Fate Weaver

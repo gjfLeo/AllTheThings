@@ -706,13 +706,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["coord"] = { 43.5, 51.1, UNDERMINE },
 					}),
 					o(508377, {	-- Renzik's Lockbox
+						["description"] = "You do not need to have done the Undermine campaign on that character to see this chest.",
 						["sourceQuest"] = 85190,	-- Settled Dust
 						["coord"] = { 30.7, 86.1, WESTFALL },
 						["questID"] = 86904,
 						["classes"] = ROGUE,
 						["g"] = {
 							i(235629),	-- Renzik's Journal
-							i(237267), -- Spare Uncrowned Vest
+							i(237267),	-- Spare Uncrowned Vest
 						},
 					}),
 				})),
@@ -966,7 +967,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					["provider"] = { "n", 232180 },	-- Old Man Lowe
 					["coord"] = { 39.7, 61.4, UNDERMINE },
 					["g"] = {
-						i(233202),	-- G.O.L.E.M Jr. (TOY!)	-- did not receive on live
+						i(233202),	-- G.O.L.E.M Jr. (TOY!)
 						i(230731),	-- Pitz's Masterwork Invention (QI!)
 					},
 				}),

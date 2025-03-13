@@ -263,9 +263,6 @@ root(ROOTS.Unsorted, {
 				i(236955),	-- Crimson Valorstone
 				i(236956),	-- Void-Touched Valorstone
 
-				-- Weird wep again from delve?
-				i(236003),	-- Fate Weaver
-
 			}),
 			filter(MISC, {
 				i(225766),	-- Zoom-Zoom Boosters

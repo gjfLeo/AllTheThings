@@ -902,18 +902,12 @@ root(ROOTS.HiddenQuestTriggers, {
 		n(PVP, {
 			q(79332, {["timeline"] = {ADDED_10_2_0}, ["repeatable"] = true}),	-- Triggers after winning a Brawl: Battleground Blitz (possibly only when theres an elistment bonus?)
 		}),
-		applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
-			q(78204, {["timeline"] = {ADDED_10_1_7}}),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways I (spellID 423861)
-		})),
 	})),
 
 	------------------
 	--     TWW      --
 	------------------
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-		applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
-			q(85877, {["timeline"] = {ADDED_11_0_7}}),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways II (spellID 471544)
-		})),
 	})),
 
 	--------------------

@@ -692,33 +692,40 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			}),
 		}),
 
-		--q(88852),	-- Melbo The Magnificent trash on Normal or LFR?
-		--q(89480),	-- Melbo The Magnificent trash on Normal or LFR?
-		--q(88856),	-- The Junkmaster trash on Normal or LFR?
-		--q(89481),	-- The Junkmaster trash on Normal or LFR?
+		--q(88852),	-- Melbo The Magnificent trash on Normal or first weekly kill
+		--q(89480),	-- Melbo The Magnificent trash on Normal or first weekly kill
 
 		-- LFR
 		q(88838),	-- Guk Boomdog Trash
 		q(88842),	-- King Flamespite/Professor Boomspark Trash
 		q(89478),	-- King Flamespite/Professor Boomspark Trash
-		--q(88846),	-- Skiggy Muckheimer Trash on LFR? ?
+		q(88846),	-- Skiggy Muckheimer Trash
 		q(88859),	-- Globikus Trash
+		--q(),	-- Melbo The Magnificent Trash
+		--q(),	-- The Junkmaster Trash
 		-- Normal
 		q(88833),	-- Guk Boomdog Trash
 		q(88840),	-- King Flamespite/Professor Boomspark Trash
 		q(88844),	-- King Flamespite/Professor Boomspark Trash
 		q(88848),	-- Skiggy Muckheimer Trash
 		q(88861),	-- Globikus Trash
+		--q(),	-- Melbo The Magnificent Trash
+		q(88856),	-- The Junkmaster Trash
 		-- Heroic
 		q(88836),	-- Guk Boomdog Trash
 		q(88837),	-- King Flamespite/Professor Boomspark Trash
 		q(88841),	-- King Flamespite/Professor Boomspark Trash
 		q(88845),	-- Skiggy Muckheimer Trash
+		--q(),	-- Globikus Trash
+		--q(),	-- Melbo The Magnificent Trash
+		q(88853),	-- The Junkmaster Trash
 
 		-- LFR/Normal/Heroic
-		--q(88835),	-- Guk Boomdog Trash first per week any difficulty?
-		--q(89479),	-- Skiggy Muckheimer Trash first per week any difficulty?
-		--q(89482),	-- Globikus Trash first per week any difficulty?
+		q(88835),	-- Guk Boomdog Trash first per week any difficulty
+		q(89479),	-- Skiggy Muckheimer Trash first per week any difficulty
+		q(89482),	-- Globikus Trash first per week any difficulty
+		--q(),	-- Melbo The Magnificent Trash first per week any difficulty
+		q(89481),	-- The Junkmaster Trash first per week any difficulty
 
 		q(89452),	-- Vexie Fullthrottle
 		q(89453),	-- Cauldron of Carnage

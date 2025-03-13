@@ -202,7 +202,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 								["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
 							}),
 							i(232859, {	-- Lab Rat (PET!)
-								["cost"] = {{ "c", 3220, 1 }},	-- Vintage Kaja'Cola Can
+								["cost"] = {{ "c", 3220, 3 }},	-- Vintage Kaja'Cola Can
 							}),
 							i(232986, {	-- GE86 Advance (MM!)
 								["cost"] = {{ "c", 3218, 2000 }},	-- Empty Kaja'Cola Can
