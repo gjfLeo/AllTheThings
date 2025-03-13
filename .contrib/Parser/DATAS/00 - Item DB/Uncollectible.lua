@@ -2163,3 +2163,5 @@ i(236925);	-- Satchel of Carved Harbinger Crests
 i(236635);	-- Uncut Semi-Smoky Quartz
 i(236651);	-- Vince's Old Left Shoe
 i(229809);	-- Weighted Metal Ball
+i(236955);	-- Crimson Valorstone
+i(239115);	-- L.O.S.E.R. Ticket

@@ -467,20 +467,29 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.ALL).AddGroups({
-				BossOnly(VEXIE),
+				BossOnly(VEXIE, {
+					i(223048),	-- Plans: Siphoning Stiletto (RECIPE!)
+				}),
 				BossOnly(CARNAGE),
-				BossOnly(RIK),
+				BossOnly(RIK, {
+					i(224435),	-- Pattern: Duskthread Lining (RECIPE!)
+				}),
 				BossOnly(STIX, {
 					i(236687),	-- Explosive Hearthstone (TOY!)
 				}),
-				BossOnly(LOCKENSTOCK),
+				BossOnly(LOCKENSTOCK, {
+					i(223097),	-- Pattern: Adrenal Surge Clasp (RECIPE!)
+				}),
 				BossOnly(BANDIT, {
 					i(237578, {	-- Counterfeit Dealer's Chip
-						["description"] = "Has a small chance dropping as Personal Loot once you reached Renown 15 with Gallagio Loyalty Rewards Club",
+						["description"] = "Has a small chance dropping as Personal Loot once you have reached Renown 15 with the Gallagio Loyalty Rewards Club.",
 					}),
 				}),
-				BossOnly(MUGZEE),
+				BossOnly(MUGZEE, {
+					i(223094),	-- Design: Magnificent Jeweler's Setting (RECIPE!)
+				}),
 				BossOnly(GALLYWIX, {
+					i(223144),	-- Formula: Enchant Weapon - Authority of the Depths (RECIPE!)
 					i(236960),	-- Prototype A.S.M.R. (MOUNT!)
 				}),
 			}),
@@ -689,6 +698,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 					q(86468),	-- Triggered with Members Only (89016)
 					q(89017),	-- Triggered with Members Only (89016)
 				}),
+				q(89350),	-- On using the Busted Rune Dispenser
 			}),
 		}),
 

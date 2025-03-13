@@ -24,18 +24,15 @@ root(ROOTS.Unsorted, {
 				-- wtf is this :( Zonedrop/Zone rewards
 				i(233260),	-- Laundered Vestment
 				i(233265),	-- Laundered Shoulderpads
-				i(233267),	-- Laundered Cuffs
 				i(233338),	-- Upcycled Helm
 				i(233339),	-- Upcycled Breeches
 				i(233345),	-- Power-Washed Grips
-				i(233350),	-- Power-Washed Bracers
 				i(233547),	-- Descaled Helm
 				i(233551),	-- Descaled Armplates
 
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
 				i(235484),	-- Razor-sharp Desk Fan
-				i(235492),	-- Oscillating Scrapcleaver
 			}),
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner
@@ -50,8 +47,6 @@ root(ROOTS.Unsorted, {
 				i(231733),	-- Black Bruiser's Tabard
 				i(231739),	-- Black Bruiser's Helm
 				i(231745),	-- Black Bruiser's Shoulderspikes
-
-
 
 				-- Trading Post
 				i(233032),	-- Shining Guise of the Heavens
@@ -260,7 +255,6 @@ root(ROOTS.Unsorted, {
 				i(236785),	-- C.H.E.T.T. Card
 
 				-- Valorstones
-				i(236955),	-- Crimson Valorstone
 				i(236956),	-- Void-Touched Valorstone
 
 			}),

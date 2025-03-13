@@ -65,6 +65,7 @@ local ALL_THE_DELVES = {
 	THE_WATERWORKS,
 	ZEKVIRS_LAIR,
 	-- #if AFTER 11.1.0
+	DEMOLITION_DOME,
 	EXCAVATION_SITE_9,
 	SIDESTREET_SLUICE,
 	-- #endif
@@ -182,6 +183,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			ach(41197, {	-- War Within Delves: Tier 11 (Season 2)
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
+			ach(41531, {	-- The Hataclysm
+				["description"] = "After you've defeated the Underpin once, Ask Brann to change his hat 10 times at his spot in Dornogal.",
+				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+				["coord"] = { 47.6, 44.6, DORNOGAL },
+				["sourceAchievement"] = 41530,	-- My New Nemesis
+			}),
 		})),
 		-- TWW Season 2 Boss (Still available)
 		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
@@ -199,7 +206,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					ach(41530, {	-- My New Nemesis
 						i(235614),	-- Golden-Gob Propulsion Rig
 					}),
-					ach(41531),	-- The Hataclysm
 				}),
 			},
 		})),
@@ -918,6 +924,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235487),	-- Interest Compounder
 						i(235495),	-- Missile Guided Throat Slitter
 						i(235485),	-- Oil Gouger
+						i(235492),	-- Oscillating Scrapcleaver
 						i(235488),	-- Rocket Taped to a Screwdriver
 						i(235486),	-- Springloaded Kneecap Breaker
 					})),
@@ -2056,7 +2063,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 	}),
-	n(ZONE_DROPS, {
+	mapped(n(ZONE_DROPS, {
 		i(225692),	-- Glowglow Cap (sturdy chest)
 		i(236668, {	-- C.H.E.T.T. Card
 			["description"] = "Drops rarely from Underpin affiliated enemies in any delve.",
@@ -2069,7 +2076,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 },
 			["timeline"] = { ADDED_11_1_0 },
 		}),
-	}),
+	})),
 	m(EARTHCRAWL_MINES, {
 		["icon"] = [[~_.asset("Delves_Nerubian")]],
 		["coord"] = { 38.6, 73.9, ISLE_OF_DORN },
