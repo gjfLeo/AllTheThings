@@ -351,6 +351,17 @@ root(ROOTS.Zones, {
 						}),
 						i(34868),	-- World's Largest Mudfish
 					}),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(181271),	-- Dreaming Glory
+						o(181270),	-- Felweed
+					})),
+					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+						o(181556),	-- Adamantite Deposit
+						o(181555),	-- Fel Iron Deposit
+						o(181557),	-- Khorium Vein
+						o(181569),	-- Rich Adamantite Deposit
+						o(181570),	-- Rich Adamantite Deposit (Another ID for deposits exclusive to Nagrand.)
+					})),
 				}),
 				n(QUESTS, {
 					q(11042, {	-- A Mystifying Vision

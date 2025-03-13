@@ -11,6 +11,16 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		["mapID"] = AUCHINDOUN_MANA_TOMBS,
 		["lvl"] = lvlsquish(61, 61, 15),
 		["groups"] = {
+			n(PROFESSIONS, {
+				prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+					o(181278),	-- Ancient Lichen
+				})),
+				prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+					o(181556),	-- Adamantite Deposit
+					o(181557),	-- Khorium Vein
+					o(181569),	-- Rich Adamantite Deposit
+				})),
+			}),
 			n(QUESTS, {
 				q(29583, {	-- Eckert the Mad
 					["qg"] = 21400,	-- Eckert

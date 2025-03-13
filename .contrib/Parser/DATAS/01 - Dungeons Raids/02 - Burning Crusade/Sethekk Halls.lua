@@ -14,6 +14,16 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 		["lvl"] = lvlsquish(63, 63, 15),
 		["groups"] = {
+			n(PROFESSIONS, {
+				prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+					o(181278),	-- Ancient Lichen
+				})),
+				prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+					o(181556),	-- Adamantite Deposit
+					o(181557),	-- Khorium Vein
+					o(181569),	-- Rich Adamantite Deposit
+				})),
+			}),
 			n(QUESTS, {
 				q(10097, {	-- Brother Against Brother
 					["qg"] = 18933,	-- Isfar

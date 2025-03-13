@@ -762,17 +762,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					COILFANG_RESERVOIR_STEAMVAULT,
 					COILFANG_RESERVOIR_UNDERBOG,
 				},
-				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
-				},
+				["provider"] = { "o", 181278 },	-- Ancient Lichen
 			}),
 			i(108348, {	-- Ancient Lichen Petal
+				["provider"] = { "o", 181278 },	-- Ancient Lichen
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22790),	-- Ancient Lichen
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
 				},
 			}),
 			i(22786, {	-- Dreaming Glory
@@ -784,79 +780,110 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					SHADOWMOON_VALLEY,
 					TEROKKAR_FOREST,
 				},
-				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
-				},
+				["provider"] = { "o", 181271 },	-- Dreaming Glory
 			}),
 			i(108345, {	-- Dreaming Glory Petal
+				["provider"] = { "o", 181271 },	-- Dreaming Glory
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22786),	-- Dreaming Glory
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
 				},
 			}),
-			i(22795),	-- Fel Blossom
+			i(22795, {	-- Fel Blossom
+				["provider"] = { "o", 181270 },	-- Felweed
+			}),
 			i(22794, {	-- Fel Lotus
 				["description"] = "Can uncommonly be looted when gathering TBC herbs.",
+				["providers"] = {
+					{ "o", 181278 },	-- Ancient Lichen
+					{ "o", 181271 },	-- Dreaming Glory
+					{ "o", 181270 },	-- Felweed
+					{ "o", 181281 },	-- Mana Thistle
+					{ "o", 181279 },	-- Netherbloom
+					{ "o", 181280 },	-- Nightmare Vine
+					{ "o", 181275 },	-- Ragveil
+					{ "o", 181277 },	-- Terocone
+				},
 			}),
 			i(22785, {	-- Felweed
 				["maps"] = {
 					BLADES_EDGE_MOUNTAINS,
 					HELLFIRE_PENINSULA,
 					NAGRAND,
+					SHADOWMOON_VALLEY,
 					TEROKKAR_FOREST,
 					ZANGARMARSH,
 				},
-				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
-				},
+				["provider"] = { "o", 181270 },	-- Felweed
 			}),
 			i(108344, {	-- Felweed Stalk
+				["provider"] = { "o", 181270 },	-- Felweed
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22785),	-- Felweed
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
 				},
 			}),
 			i(22788, {	-- Flame Cap
-				["maps"] = ZANGARMARSH,
+				["maps"] = {
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+					ZANGARMARSH,
+				},
+				["provider"] = { "o", 181276 },	-- Flame Cap
 			}),
 			i(22793, {	-- Mana Thistle
 				["maps"] = ISLE_OF_QUELDANAS,
-				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
-				},
+				["provider"] = { "o", 181281 },	-- Mana Thistle
 			}),
 			i(108351, {	-- Mana Thistle Leaf
+				["provider"] = { "o", 181281 },	-- Mana Thistle
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22793),	-- Mana Thistle
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
 				},
 			}),
-			i(35229, {["timeline"] = { ADDED_2_4_0 }}),	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
+			i(35229, {	-- Nether Residue (Quest Item for Shattrath q(11875) Gaining the Advantage)
+				["providers"] = {
+					{ "o", 181278 },	-- Ancient Lichen
+					{ "o", 181271 },	-- Dreaming Glory
+					{ "o", 181270 },	-- Felweed
+					{ "o", 181281 },	-- Mana Thistle
+					{ "o", 181279 },	-- Netherbloom
+					{ "o", 181280 },	-- Nightmare Vine
+					{ "o", 181275 },	-- Ragveil
+					{ "o", 181277 },	-- Terocone
+				},
+				["timeline"] = { ADDED_2_4_0 },
+			}),
 			i(22791, {	-- Netherbloom
 				["maps"] = NETHERSTORM,
+				["provider"] = { "o", 181279 },	-- Netherbloom
 			}),
 			i(108349, {	-- Netherbloom Leaf
+				["provider"] = { "o", 181279 },	-- Netherbloom
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22791),	-- Netherbloom
 				},
 			}),
 			i(22797, {	-- Nightmare Seed
+				["provider"] = { "o", 181280 },	-- Nightmare Vine
 				["timeline"] = { REMOVED_3_3_0 }, -- Danny Donkey: Must confirm how this applies to Classic!
 			}),
 			i(22792, {	-- Nightmare Vine
-				["maps"] = ISLE_OF_QUELDANAS,
+				["coords"] = {
+					{ 63.9, 68.3, BLADES_EDGE_MOUNTAINS },	-- Death's Door
+					{ 34.8, 40.4, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Wrath
+					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
+					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
+				},
+				["description"] = "Although it can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
+				["maps"] = SHADOWMOON_VALLEY,
+				["provider"] = { "o", 181280 },	-- Nightmare Vine
 			}),
 			i(108350, {	-- Nightmare Vine Stem
+				["provider"] = { "o", 181280 },	-- Nightmare Vine
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(22792),	-- Nightmare Vine
@@ -864,31 +891,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(22787, {	-- Ragveil
 				["maps"] = ZANGARMARSH,
-				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
-				},
+				["provider"] = { "o", 181275 },	-- Ragveil
 			}),
 			i(108346, {	-- Ragveil Cap
+				["provider"] = { "o", 181275 },	-- Ragveil
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
 					i(22787),	-- Ragveil
 				},
 			}),
 			i(22789, {	-- Terocone
-				["maps"] = TEROKKAR_FOREST,
-				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
+				["coords"] = {
+					{ 43.4, 55.8, SHADOWMOON_VALLEY },	-- Sketh'lon Base Camp
+					{ 36.5, 32.5, SHADOWMOON_VALLEY },	-- Sketh'lon Wreckage
+					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
+					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
 				},
+				["description"] = "Found near the base of trees.",
+				["maps"] = TEROKKAR_FOREST,
+				["provider"] = { "o", 181277 },	-- Terocone
 			}),
 			i(108347, {	-- Terocone Leaf
+				["provider"] = { "o", 181277 },	-- Terocone
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
-					i(22575),	-- Mote of Life
-					i(21886),	-- Primal Life
 					i(22789),	-- Terocone
 				},
 			}),
@@ -1239,8 +1265,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					TEROKKAR_FOREST,
 					ZANGARMARSH,
 				},
+				["providers"] = {
+					{ "o", 181556 },	-- Adamantite Deposit
+					{ "o", 181569 },	-- Rich Adamantite Deposit
+				},
 			}),
 			i(108302, {	-- Adamantite Ore Nugget
+				["providers"] = {
+					{ "o", 181556 },	-- Adamantite Deposit
+					{ "o", 181569 },	-- Rich Adamantite Deposit
+				},
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(23425),	-- Adamantite Ore
@@ -1278,8 +1312,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					TEROKKAR_FOREST,
 					ZANGARMARSH,
 				},
+				["provider"] = { "o", 181555 },	-- Fel Iron Deposit
 			}),
 			i(108301, {	-- Fel Iron Ore Nugget
+				["provider"] = { "o", 181555 },	-- Fel Iron Deposit
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(23424),	-- Fel Iron Ore
@@ -1301,8 +1337,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					SHADOWMOON_VALLEY,
 					TEROKKAR_FOREST,
 				},
+				["provider"] = { "o", 181557 },	-- Khorium Vein
 			}),
 			i(108304, {	-- Khorium Ore Nugget
+				["provider"] = { "o", 181557 },	-- Khorium Vein
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(23426),	-- Khorium Ore

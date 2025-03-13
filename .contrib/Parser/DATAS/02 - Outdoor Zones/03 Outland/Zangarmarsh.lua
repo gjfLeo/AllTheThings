@@ -303,6 +303,16 @@ root(ROOTS.Zones, {
 							}),
 						}),
 					}),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(181270),	-- Felweed
+						o(181276),	-- Flame Cap
+						o(181275),	-- Ragveil
+					})),
+					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+						o(181556),	-- Adamantite Deposit
+						o(181555),	-- Fel Iron Deposit
+						o(181569),	-- Rich Adamantite Deposit
+					})),
 				}),
 				n(QUESTS, {
 					q(50130, {	-- A Friendly Gesture

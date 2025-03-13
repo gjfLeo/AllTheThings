@@ -326,30 +326,6 @@ root(ROOTS.Zones, {
 						["OnTooltip"] = [[_.OnTooltipDB.ForSkyguard]],
 					})),
 				}),
-				prof(FISHING, {
-					o(182954, {	-- Brackish Mixed School
-						["requireSkill"] = FISHING,
-					}),
-					o(182957, {	-- Highland Mixed School
-						["requireSkill"] = FISHING,
-					}),
-					i(27388, {	-- Mr. Pinchy
-						["provider"] = { "o", 182957 },	-- Highland Mixed School
-						["description"] = "Fished up from Highland Mixed Schools. You have 3 wishes per Mr. Pinchy, each wish granting one of the following effects:\n\n1) Mr. Pinchy's Blessing (Flask)\n2) Summon Furious Mr. Pinchy (Enemy)\n3) Magical Crawdad Box (Rare Pet)\n4) Mr. Pinchy's Gift (Potions)\n5) Benevolent Mr. Pinchy (Guardian)",
-						["groups"] = {
-							i(27445),	-- Magical Crawdad (PET!)
-							i(27446, {	-- Mr. Pinchy's Gift
-								["description"] = "Contains an assortment of potions.",
-								["groups"] = {
-									i(8350),	-- The 1 Ring
-								},
-							}),
-						},
-					}),
-					o(182956, {	-- School of Darter
-						["requireSkill"] = FISHING,
-					}),
-				}),
 				n(FLIGHT_PATHS, {
 					fp(121, {	-- Allerian Stronghold, Terokkar Forest
 						["cr"] = 18809,	-- Furnan Skysoar <Gryphon Master>
@@ -361,6 +337,43 @@ root(ROOTS.Zones, {
 						["coord"] = { 49.2, 43.4, TEROKKAR_FOREST },
 						["races"] = HORDE_ONLY,
 					}),
+				}),
+				n(PROFESSIONS, {
+					prof(FISHING, {
+						o(182954, {	-- Brackish Mixed School
+							["requireSkill"] = FISHING,
+						}),
+						o(182957, {	-- Highland Mixed School
+							["requireSkill"] = FISHING,
+						}),
+						i(27388, {	-- Mr. Pinchy
+							["provider"] = { "o", 182957 },	-- Highland Mixed School
+							["description"] = "Fished up from Highland Mixed Schools. You have 3 wishes per Mr. Pinchy, each wish granting one of the following effects:\n\n1) Mr. Pinchy's Blessing (Flask)\n2) Summon Furious Mr. Pinchy (Enemy)\n3) Magical Crawdad Box (Rare Pet)\n4) Mr. Pinchy's Gift (Potions)\n5) Benevolent Mr. Pinchy (Guardian)",
+							["groups"] = {
+								i(27445),	-- Magical Crawdad (PET!)
+								i(27446, {	-- Mr. Pinchy's Gift
+									["description"] = "Contains an assortment of potions.",
+									["groups"] = {
+										i(8350),	-- The 1 Ring
+									},
+								}),
+							},
+						}),
+						o(182956, {	-- School of Darter
+							["requireSkill"] = FISHING,
+						}),
+					}),
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(181271),	-- Dreaming Glory
+						o(181270),	-- Felweed
+						o(181277),	-- Terocone
+					})),
+					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+						o(181556),	-- Adamantite Deposit
+						o(181555),	-- Fel Iron Deposit
+						o(181557),	-- Khorium Vein
+						o(181569),	-- Rich Adamantite Deposit
+					})),
 				}),
 				n(QUESTS, {
 					q(11666, {	-- Bait Bandits

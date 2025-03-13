@@ -11,6 +11,19 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		["mapID"] = COILFANG_RESERVOIR_UNDERBOG,
 		["lvl"] = lvlsquish(60, 60, 10),
 		["groups"] = {
+			n(PROFESSIONS, {
+				prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+					o(181278),	-- Ancient Lichen
+					o(181276),	-- Flame Cap
+					o(181275),	-- Ragveil
+					o(183385),	-- Sanguine Hibiscus
+				})),
+				prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+					o(181556),	-- Adamantite Deposit
+					o(181557),	-- Khorium Vein
+					o(181569),	-- Rich Adamantite Deposit
+				})),
+			}),
 			n(QUESTS, {
 				q(29568, {	-- A Necessary Evil
 					["qg"] = 54678,	-- Naturalist Bite

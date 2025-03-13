@@ -231,6 +231,19 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 				}),
+				n(PROFESSIONS, {
+					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+						o(181271),	-- Dreaming Glory
+						o(181270),	-- Felweed
+						o(181280),	-- Nightmare Vine
+					})),
+					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+						o(181556),	-- Adamantite Deposit
+						o(181555),	-- Fel Iron Deposit
+						o(181557),	-- Khorium Vein
+						o(181569),	-- Rich Adamantite Deposit
+					})),
+				}),
 				n(QUESTS, {
 					q(10713, {	-- ...and a Time for Action
 						["qg"] = 22007,	-- Tree Warden Chawn

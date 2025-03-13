@@ -14,6 +14,18 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 		["lvl"] = lvlsquish(65, 65, 20),
 		["groups"] = {
+			n(PROFESSIONS, {
+				prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
+					o(181278),	-- Ancient Lichen
+					o(181276),	-- Flame Cap
+					o(181275),	-- Ragveil
+				})),
+				prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
+					o(181556),	-- Adamantite Deposit
+					o(181555),	-- Fel Iron Deposit
+					o(181557),	-- Khorium Vein
+				})),
+			}),
 			n(QUESTS, {
 				q(29613, {	-- A Proper Fate
 					["qg"] = 54848,	-- Watcher Jhang

@@ -1175,6 +1175,12 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			17156,	-- Tortured Earth Spirit
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+		["providers"] = {
+			{ "o", 181556 },	-- Adamantite Deposit
+			{ "o", 181555 },	-- Fel Iron Deposit
+			{ "o", 181557 },	-- Khorium Vein
+			{ "o", 181569 },	-- Rich Adamantite Deposit
+		},
 	}, {
 		i(22573),	-- Mote of Earth
 		i(22452),	-- Primal Earth
@@ -1195,12 +1201,15 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			22298,	-- Vile Fire-Soul
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+		["providers"] = {
+			{ "o", 181555 },	-- Fel Iron Deposit
+			{ "o", 181557 },	-- Khorium Vein
+		},
 	}, {
 		i(22574),	-- Mote of Fire
 		i(21884),	-- Primal Fire
 	})),
 	filter(REAGENTS, sharedData({	-- Life
-		["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
 		["crs"] = {
 			17723,	-- Bog Giant
 			17770,	-- Hungarfen
@@ -1212,6 +1221,16 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			17871,	-- Underbog Shambler
 		},
 		["description"] = "The given maps and sources applies for how to obtain this element's motes.",
+		["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
+		["providers"] = {
+			{ "o", 181278 },	-- Ancient Lichen
+			{ "o", 181271 },	-- Dreaming Glory
+			{ "o", 181270 },	-- Felweed
+			{ "o", 181281 },	-- Mana Thistle
+			{ "o", 181280 },	-- Nightmare Vine
+			{ "o", 181275 },	-- Ragveil
+			{ "o", 181277 },	-- Terocone
+		},
 	}, {
 		i(22575),	-- Mote of Life
 		i(21886),	-- Primal Life
@@ -1249,6 +1268,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			20516,	-- Warp Monstrosity
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+		["provider"] = { "o", 181279 },	-- Netherbloom
 	}, {
 		i(22576),	-- Mote of Mana
 		i(22457),	-- Primal Mana
