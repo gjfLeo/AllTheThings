@@ -21,7 +21,7 @@ inst(2875, 2875);	-- Karazhan Crypts
 -- #endif
 
 -- This list was exported using excel manually using data from this url:
--- https://wago.tools/db2/JournalInstance?build=11.0.7.58238
+-- https://wago.tools/db2/JournalInstance?build=11.1.5.59651
 inst(63, 36);	-- Deadmines
 inst(64, 33);	-- Shadowfang Keep
 inst(65, 643);	-- Throne of the Tides
@@ -240,7 +240,10 @@ inst(1290, 2688);	-- The Spiral Weave
 inst(1291, 2682);	-- Zekvir's Lair
 inst(1292, 329);	-- Stratholme - Service Entrance
 inst(1293, 2690);	-- The Underkeep
+inst(1296, 2769);	-- Liberation of Undermine
+inst(1298, 2773);	-- Operation: Floodgate
 inst(1301, 2792);	-- Blackrock Depths
+inst(1310, 0);	-- Zekvir's Lair
 
 -- Reassign the instance function
 inst = function(journalInstanceID, t)
