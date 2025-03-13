@@ -286,9 +286,15 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			n(EVENT_COMPLETION, {
 				-- Scrap related but exact trigger unknown
 				--q(86262),	--
-				--q(90471),	--
-				--q(90472),	--
-				--q(90473),	--
+				hqt(90471, name(HEADERS.Object, 516167, {	-- Half-Empty Bag (Daily Flag)
+					["isDaily"] = true
+				})),
+				hqt(90472, name(HEADERS.Object, 516166, {	-- Dented Crate (Daily Flag)
+					["isDaily"] = true
+				})),
+				hqt(90473, name(HEADERS.Object, 500750, {	-- Uncovered Strongbox (Daily Flag)
+					["isDaily"] = true
+				})),
 			}),
 			-- Location quests
 			-- Fire only once per spot (for character?)
