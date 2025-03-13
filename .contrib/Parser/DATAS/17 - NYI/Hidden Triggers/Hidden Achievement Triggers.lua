@@ -3806,6 +3806,18 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41946),	-- Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
 			ach(41947),	-- Greater Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
 			ach(41967),	-- Gift of the Titans Unlocked <Hidden>
+			-- 11.1.5.59651
+			ach(41986),	-- Highest Score
+			ach(41987),	-- Highest Kill Score
+			ach(41988),	-- Highest Time Score
+			ach(41989),	-- Highest Survival Score
+			ach(41990),	-- Total Killl Score
+			ach(41991),	-- Total Gears Grabbed
+			ach(41992),	-- Total Goblin Zappers Killed
+			ach(41993),	-- Total Pyro Machines Destroyed
+			ach(41994),	-- Total Tombstones
+			ach(42000),	-- Total Props Destroyed
+			ach(42001),	-- Total Runs Completed
 		})),
 	}),
 });

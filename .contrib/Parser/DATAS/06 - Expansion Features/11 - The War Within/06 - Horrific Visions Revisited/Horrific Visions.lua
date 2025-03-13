@@ -45,6 +45,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					}},
 					-- TODO: Mount: Ny'alothan Shadow Worm
 				}),
+				ach(41983),	-- Memento Mania
 				ach(41896),	-- Memento Mori
 				ach(41928, {	-- Reeking of Visions
 				-- Meta Achievement

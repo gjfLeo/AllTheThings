@@ -14,8 +14,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 	m(HALLOWFALL, {
 		n(NIGHTFALL, {
 			["g"] = {
-				--n(ACHIEVEMENTS, {
-				--}),
+				n(ACHIEVEMENTS, {
+					ach(41999),	-- Fighter of the Nightman
+					ach(41996),	-- I'm Doing My Part
+					ach(41997),	-- Owner of a Radiant Heart
+					ach(41998),	-- Turning the Venom Tide
+				}),
 				n(QUESTS, {
 					q(85005, {	-- A Radiant Call
 						--["sourceQuests"] = { xxx },	-- ??
@@ -61,6 +65,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 						},
 					}),
 				})),
+				n(RARES, {
+					n(241227),	-- Dissenter Glaivefur
+					n(241228),	-- Dissenter Oathland
+					n(241229),	-- Dissenter Fervormyt
+					n(241230),	-- Dissenter Tailtrek
+					n(241231),	-- Dissenter Fortfervor
+					n(241232),	-- Dissenter Troosilver
+					n(241234),	-- Whisperer Batalsworn
+					n(241235),	-- Whisperer Hillhelm
+					n(241236),	-- Whisperer Bravefort
+					n(241237),	-- Whisperer Warsididel
+					n(241238),	-- Whisperer Siegesage
+					n(241239),	-- Whisperer Warhavuk
+				}),
 				n(REWARDS, {
 					-- Caches from progress bar
 					i(237743),	-- Arathi Soldier's Coffer (uncommon)
