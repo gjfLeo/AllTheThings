@@ -129,21 +129,30 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				fp(20, {	-- Grom'gol, Stranglethorn
 					["cr"] = 1387,	-- Thysta <Wind Rider Master>
-					-- #if AFTER CATA
-					["coord"] = { 39.0, 51.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 32.6, 29.2, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 39.0, 51.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 32.6, 29.2, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 				}),
 				fp(195, {	-- Rebel Camp, Stranglethorn
-					-- #if AFTER 4.0.3
-					["cr"] = 43045,	-- James Stillair <Gryphon Master>
-					["coord"] = { 47.8, 11.8, NORTHERN_STRANGLETHORN },
-					-- #else
-					["cr"] = 24366,	-- Nizzle <Gryphon Master>
-					["coord"] = { 38.2, 4.0, STRANGLETHORN_VALE },
-					-- #endif
+					["crs"] = {
+						-- #if AFTER CATA
+						43045,	-- James Stillair <Gryphon Master>
+						-- #else
+						24366,	-- Nizzle <Gryphon Master>
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 47.8, 11.8, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 38.2, 4.0, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["timeline"] = { ADDED_2_3_0 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -166,7 +175,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 2465 },	-- Far Seer Mok'thardin
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "Automatically granted after killing 12 eggs during the quest |cFFFFD700The Defense of Grom'gol: Raptor Risk|r.\n\nThis quest gets marked as completed when its Alliance counterpart '|cff4a54e8Just Hatched|r' (26738) is handed in.",
+					["description"] = "Automatically granted after killing 12 eggs during the quest |cFFFFD700The Defense of Grom'gol: Raptor Risk|r.",
 					["coord"] = { 38.3, 51.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -176,7 +185,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 43884 },	-- Osborn Obnoticus
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12A Nose for This Sort of Thing|r' (26325) is handed in.",
 					["sourceQuest"] = 26745,	-- Favored Skull
 					["coord"] = { 47.13, 10.56, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -192,7 +200,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "o", 2076 },	-- Bubbling Cauldron
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8A Nose for This Sort of Thing|r' (26746) is handed in.",
 					["sourceQuest"] = 26323,	-- Favored Skull
 					["coord"] = { 38.5, 48.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -208,7 +215,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 43884 },	-- Osborn Obnoticus
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Who's a Big Troll?|r' (26330) is handed in.",
 					["sourceQuest"] = 26746,	-- A Nose for This Sort of Thing
 					["coord"] = { 47.1, 10.5, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -334,7 +340,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26775, {	-- Be Raptor (A)
 					["qg"] = 44017,	-- Priestess Thaalia
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Be Raptor|r' (26362) is handed in.",
 					["sourceQuest"] = 26774,	-- Mind Control
 					["coord"] = { 53.4, 66.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -375,7 +380,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26362, {	-- Be Raptor (H)
 					["qg"] = 42812,	-- Priestess Hu'rala
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Be Raptor|r' (26775) is handed in.",
 					["sourceQuest"] = 26360,	-- Mind Control
 					["coord"] = { 63.4, 39.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -475,7 +479,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 42790 },	-- Bloodlord Mandokir
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Bloodlord Mandokir|r' (26334) is handed in.",
 					["sourceQuest"] = 26747,	-- A Physical Specimen
 					["coord"] = { 47.1, 10.6, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -486,7 +489,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 42790 },	-- Bloodlord Mandokir
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Bloodlord Mandokir|r' (26748) is handed in.",
 					["sourceQuest"] = 26332,	-- Skullsplitter Mojo
 					["coord"] = { 38.4, 48.6, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -564,10 +566,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						26279,	-- The Defense of Grom'gol: Ogre Oppression
 						26280,	-- The Defense of Grom'gol: Murloc Menace
 					},
-					["coord"] = { 38.1, 50.0, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 32, 28.6, STRANGLETHORN_VALE },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 38.1, 50.0, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 32, 28.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["timeline"] = { ADDED_2_0_1 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -843,7 +849,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 42736 },	-- Lashtail Hatchling
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "Available on arrival to the |cFFFFD700Bal'lal Ruins|r.\n\nThis quest gets marked as completed when its Horde counterpart '|cffe50d12Favored Skull|r' (26323) is handed in.",
+					["description"] = "Available on arrival to the |cFFFFD700Bal'lal Ruins|r.",
 					["sourceQuest"] = 26739,	-- I Think She's Hungry
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -853,7 +859,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 42736 },	-- Lashtail Hatchling
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "Available on arrival to the |cFFFFD700Bal'lal Ruins|r.\n\nThis quest gets marked as completed when its Alliance counterpart '|cff4a54e8Favored Skull|r' (26745) is handed in.",
+					["description"] = "Available on arrival to the |cFFFFD700Bal'lal Ruins|r.",
 					["sourceQuest"] = 26321,	-- I Think She's Hungry
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -873,7 +879,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26776, {	-- Ghaliri
 					["qg"] = 44017,	-- Priestess Thaalia
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Surkhan|r' (26386) is handed in.",
 					["sourceQuest"] = 26775,	-- Be Raptor
 					["coord"] = { 53.4, 66.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -965,7 +970,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 24. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 28 (TODO: Test max level between 28 and 35)
+					-- Cataclysm: Maximum is level 28. (TODO: Test max level between 28 and 35)
 					["lvl"] = { 24, 28 },
 					-- #endif
 				})),
@@ -1027,7 +1032,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 1422 },	-- Corporal Sethman
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12I Think She's Hungry|r' (26321) is handed in.",
 					["sourceQuest"] = 26738,	-- Just Hatched
 					["coord"] = { 46.9, 10.8, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1043,7 +1047,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 2465 },	-- Far Seer Mok'thardin
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8I Think She's Hungry|r' (26739) is handed in.",
 					["sourceQuest"] = 26317,	-- A Lashtail Hatchling
 					["coord"] = { 38.4, 51.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1075,7 +1078,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "n", 1422 },	-- Corporal Sethman
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "Automatically granted after obtaining 7 'Jungle Remedies' during the quest |cFFFFD700Bad Medicine|r.\n\nThis quest gets marked as completed when its Horde counterpart '|cffe50d12A Lashtail Hatchling|r' (26317) is handed in.",
+					["description"] = "Automatically granted after obtaining 7 'Jungle Remedies' during the quest |cFFFFD700Bad Medicine|r.",
 					["sourceQuest"] = 26732,	-- Bad Medicine
 					["coord"] = { 46.9, 10.8, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1162,7 +1165,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26774, {	-- Mind Control (A)
 					["qg"] = 44017,	-- Priestess Thaalia
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Mind Control|r' (26360) is handed in.",
 					["sourceQuest"] = 26773,	-- See Raptor
 					["coord"] = { 53.4, 66.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1177,7 +1179,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26360, {	-- Mind Control (H)
 					["qg"] = 42812,	-- Priestess Hu'rala
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Mind Control|r' (26774) is handed in.",
 					["sourceQuest"] = 26359,	-- See Raptor
 					["coord"] = { 63.4, 39.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1192,7 +1193,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26772, {	-- Mind Vision (A)
 					["qg"] = 44017,	-- Priestess Thaalia
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Mind Vision|r' (26351) is handed in.",
 					["sourceQuest"] = 26749,	-- Priestess Thaalia
 					["coord"] = { 53.4, 66.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1207,7 +1207,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26351, {	-- Mind Vision (H)
 					["qg"] = 42812,	-- Priestess Hu'rala
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Mind Vision|r' (26772) is handed in.",
 					["sourceQuest"] = 26350,	-- Priestess Hu'rala
 					["coord"] = { 63.4, 39.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1293,7 +1292,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26407, {	-- Mosh'Ogg Handiwork
 					["provider"] = { "i", 58491 },	-- Disfigured Mosh'Ogg Hand
-					-- ["sourceQuest"] = 26278,	-- The Defense of Grom'gol: Raptor Risk [Not Required, Discord 2023-07-29]
 					["description"] = "Typically drops during |cFFFFD700The Defense of Grom'gol: Ogre Oppression|r.",
 					["timeline"] = { ADDED_4_0_3 },
 					["crs"] = {
@@ -1318,7 +1316,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26780, {	-- Nighttime in the Jungle (A)
 					["qg"] = 44043,	-- Kinnel
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Nighttime in the Jungle|r' (26304) is handed in.",
 					["sourceQuest"] = 26773,	-- See Raptor
 					["coord"] = { 53.2, 66.5, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1332,7 +1329,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26304, {	-- Nighttime in the Jungle (H)
 					["qg"] = 42813,	-- Kil'karil
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Nighttime in the Jungle|r' (26780) is handed in.",
 					["sourceQuest"] = 26359,	-- See Raptor
 					["coord"] = { 63.2, 39.8, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1355,11 +1351,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(190, {	-- Panther Hunting [CATA+] / Panther Mastery (1/4)
 					["qg"] = 718,	-- Sir S. J. Erlgadin
 					["sourceQuest"] = 583,	-- Welcome to the Jungle
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Young Panther slain
@@ -1370,11 +1368,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(193, {	-- Panther Mastery (4/4)
 					["qg"] = 718,	-- Sir S. J. Erlgadin
 					["sourceQuest"] = 192,	-- Panther Prowess [CATA+] / Panther Mastery (3/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/1 Fang of Bhag'thera
@@ -1403,11 +1403,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(192, {	-- Panther Prowess [CATA+] / Panther Mastery (3/4)
 					["qg"] = 718,	-- Sir S. J. Erlgadin
 					["sourceQuest"] = 191,	-- Panther Stalking [CATA+] / Panther Mastery (2/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Shadowmaw Panther slain
@@ -1418,11 +1420,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(191, {	-- Panther Stalking [CATA+] / Panther Mastery (2/4)
 					["qg"] = 718,	-- Sir S. J. Erlgadin
 					["sourceQuest"] = 190,	-- Panther Hunting [CATA+] / Panther Mastery (1/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Panther slain
@@ -1440,7 +1444,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26751, {	-- Population Con-Troll (A)
 					["qg"] = 733,	-- Sergeant Yohwa
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Population Con-Troll|r' (26338) is handed in.",
 					["sourceQuest"] = 26746,	-- A Nose for This Sort of Thing
 					["coord"] = { 47.5, 10.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1462,7 +1465,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26338, {	-- Population Con-Troll (H)
 					["qg"] = 2465,	-- Far Seer Mok'thardin
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Population Con-Troll|r' (26751) is handed in.",
 					["sourceQuest"] = 26330,	-- Who's a Big Troll?
 					["coord"] = { 38.3, 51.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1484,7 +1486,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26350, {	-- Priestess Hu'rala
 					["qg"] = 2497,	-- Nimboya
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Priestess Thaalia|r' (26749) is handed in.",
 					["sourceQuest"] = 26334,	-- Bloodlord Mandokir
 					["coord"] = { 38.4, 48.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1492,7 +1493,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26749, {	-- Priestess Thaalia
 					["qg"] = 43884,	-- Osborn Obnoticus
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Priestess Thaalia|r' (26350) is handed in.",
 					["sourceQuest"] = 26748,	-- Bloodlord Mandokir
 					["coord"] = { 47.1, 10.5, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1501,11 +1501,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(194, {	-- Raptor Hunting [CATA+] / Raptor Mastery (1/4)
 					["qg"] = 715,	-- Hemet Nesingwary Jr. [TBC+] / Hemet Nesingwary
 					["sourceQuest"] = 583,	-- Welcome to the Jungle
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.9, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.7, 10.8, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.9, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.7, 10.8, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Stranglethorn Raptor slain
@@ -1516,20 +1518,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(197, {	-- Raptor Mastery (4/4)
 					["qg"] = 715,	-- Hemet Nesingwary Jr. [TBC+] / Hemet Nesingwary
 					["sourceQuest"] = 196,	-- Raptor Prowess [CATA+] / Raptor Mastery (3/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.9, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.7, 10.8, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.9, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.7, 10.8, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/1 Talon of Tethis
 							["provider"] = { "i", 3877 },	-- Talon of Tethis
-							-- #if AFTER CATA
-							["coord"] = { 61.6, 60.2, NORTHERN_STRANGLETHORN },
-							-- #else
-							["coord"] = { 29.6, 44.8, STRANGLETHORN_VALE },
-							-- #endif
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 61.6, 60.2, NORTHERN_STRANGLETHORN },
+								-- #else
+								{ 29.6, 44.8, STRANGLETHORN_VALE },
+								-- #endif
+							},
 							["cr"] = 730,	-- Tethis
 						}),
 						i(61111, {	-- Belt of the Raptor
@@ -1552,11 +1558,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(196, {	-- Raptor Prowess [CATA+] / Raptor Mastery (3/4)
 					["qg"] = 715,	-- Hemet Nesingwary Jr. [TBC+] / Hemet Nesingwary
 					["sourceQuest"] = 195,	-- Raptor Stalking [CATA+] / Raptor Mastery (2/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.9, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.7, 10.8, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.9, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.7, 10.8, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Jungle Stalker slain
@@ -1567,11 +1575,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(195, {	-- Raptor Stalking [CATA+] / Raptor Mastery (2/4)
 					["qg"] = 715,	-- Hemet Nesingwary Jr. [TBC+] / Hemet Nesingwary
 					["sourceQuest"] = 194,	-- Raptor Hunting [CATA+] / Raptor Mastery (1/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.1, 22.9, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.7, 10.8, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.1, 22.9, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.7, 10.8, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Lashtail Raptor slain
@@ -1740,7 +1750,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26773, {	-- See Raptor (A)
 					["qg"] = 44017,	-- Priestess Thaalia
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12See Raptor|r' (26359) is handed in.",
 					["sourceQuest"] = 26772,	-- Mind Vision
 					["coord"] = { 53.4, 66.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1748,7 +1757,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26359, {	-- See Raptor (H)
 					["qg"] = 42812,	-- Priestess Hu'rala
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8See Raptor|r' (26773) is handed in.",
 					["sourceQuest"] = 26351,	-- Mind Vision
 					["coord"] = { 63.4, 39.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2016,7 +2024,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26386, {	-- Surkhan
 					["qg"] = 42812,	-- Priestess Hu'rala
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Ghaliri|r' (26776) is handed in.",
 					["sourceQuest"] = 26362,	-- Be Raptor
 					["coord"] = { 63.4, 39.0, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2522,7 +2529,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26781, {	-- The Mind's Eye (A)
 					["qg"] = 44019,	-- Livingston Marshal
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12The Mind's Eye|r' (26303) is handed in.",
 					["coord"] = { 53.2, 66.9, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2548,7 +2554,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26303, {	-- The Mind's Eye (H)
 					["qg"] = 2519,	-- Kin'weelay
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8The Mind's Eye|r' (26781) is handed in.",
 					["sourceQuest"] = 26302,	-- Chasing Yenniku's Fate
 					["coord"] = { 63.0, 41.4, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2563,7 +2568,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26782, {	-- The Mosh'Ogg Bounty (A)
 					["qg"] = 44018,	-- Wulfred Harrys
-					["description"] = "This quest is offered to players that HAVE completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.\n\n Also, it gets marked as completed when one of the following quests is handed in:\n- |cffe50d12The Mosh'Ogg Bounty|r (26399);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26783).",
+					["description"] = "This quest is offered to players that HAVE completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.",
 					["coord"] = { 53.4, 66.3, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2579,7 +2584,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26783, {	-- The Mosh'Ogg Bounty (A)
 					["qg"] = 44018,	-- Wulfred Harrys
-					["description"] = "This quest is offered to players that HAVE NOT completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.\n\n Also, it gets marked as completed when one of the following quests is handed in:\n- |cffe50d12The Mosh'Ogg Bounty|r (26399);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26782).",
+					["description"] = "This quest is offered to players that HAVE NOT completed '|cff4a54e8The Source of the Madness|r' (26734) at Rebel Camp.",
 					["coord"] = { 53.4, 66.3, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2595,7 +2600,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26399, {	-- The Mosh'Ogg Bounty (H)
 					["qg"] = 42814,	-- Skeezy Whillzap
-					["description"] = "This quest gets marked as completed when one of its Alliance counterparts is handed in:\n- |cff4a54e8The Mosh'Ogg Bounty|r (26782);\n- |cff4a54e8The Mosh'Ogg Bounty|r (26783).",
 					["sourceQuest"] = 26407,	-- Mosh'Ogg Handiwork
 					["coord"] = { 63.4, 41.1, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2709,11 +2713,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(185, {	-- Tiger Hunting [CATA+] / Tiger Mastery (1/4)
 					["qg"] = 717,	-- Ajeck Rouack
 					["sourceQuest"] = 583,	-- Welcome to the Jungle
-					-- #if AFTER CATA
-					["coord"] = { 44.5, 22.6, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.5, 22.6, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Young Stranglethorn Tiger slain
@@ -2724,11 +2730,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(188, {	-- Tiger Mastery (4/4)
 					["qg"] = 717,	-- Ajeck Rouack
 					["sourceQuest"] = 187,	-- Tiger Prowess [CATA+] / Tiger Mastery (3/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.5, 22.6, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.5, 22.6, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/1 Paw of Sin'Dall
@@ -2759,11 +2767,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(187, {	-- Tiger Prowess [CATA+] / Tiger Mastery (3/4)
 					["qg"] = 717,	-- Ajeck Rouack
 					["sourceQuest"] = 186,	-- Tiger Stalking [CATA+] / Tiger Mastery (2/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.5, 22.6, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.5, 22.6, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Elder Stranglethorn Tiger slain
@@ -2774,11 +2784,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(186, {	-- Tiger Stalking [CATA+] / Tiger Mastery (2/4)
 					["qg"] = 717,	-- Ajeck Rouack
 					["sourceQuest"] = 185,	-- Tiger Hunting [CATA+] / Tiger Mastery (1/4)
-					-- #if AFTER CATA
-					["coord"] = { 44.5, 22.6, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.6, 10.6, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.5, 22.6, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.6, 10.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Stranglethorn Tiger slain
@@ -2811,7 +2823,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26763, {	-- Venture Company Mining (A)
 					["qg"] = 773,	-- Krazek
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Venture Company Mining|r' (26403) is handed in.",
 					["sourceQuest"] = 26740,	-- Krazek's Cookery
 					["coord"] = { 43.5, 23.1, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2846,7 +2857,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26403, {	-- Venture Company Mining (H)
 					["qg"] = 42814,	-- Skeezy Whillzap
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Venture Company Mining|r' (26763) is handed in.",
 					["sourceQuest"] = 26399,	-- The Mosh'Ogg Bounty
 					["coord"] = { 63.7, 39.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2907,10 +2917,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 716,	-- Barnil Stonepot
 					-- #if AFTER CATA
 					["sourceQuest"] = 26340,	-- The Hunt
-					["coord"] = { 44.2, 22.1, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.7, 10.5, STRANGLETHORN_VALE },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.2, 22.1, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.7, 10.5, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 				}),
 				q(26416, {	-- Well, Come to the Jungle
@@ -2925,7 +2939,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "o", 2076 },	-- Bubbling Cauldron
 						{ "i", 58165 },	-- Lashtail Raptor Egg Fragment
 					},
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12A Physical Specimen|r' (26747) is handed in.",
 					["sourceQuest"] = 26325,	-- A Nose for This Sort of Thing
 					["coord"] = { 38.5, 48.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2977,7 +2990,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26779, {	-- Zul'Mamwe Mambo (A)
 					["qg"] = 44021,	-- Ghaliri
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Zul'Mamwe Mambo|r' (26405) is handed in.",
 					["sourceQuest"] = 26773,	-- See Raptor
 					["coord"] = { 52.6, 66.8, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -3016,7 +3028,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26405, {	-- Zul'Mamwe Mambo (H)
 					["qg"] = 42811,	-- Surkhan
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Zul'Mamwe Mambo|r' (26779) is handed in.",
 					["sourceQuest"] = 26359,	-- See Raptor
 					["coord"] = { 63.2, 38.7, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_3 },
@@ -3056,29 +3067,27 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(RARES, {
 				n(14487, {	-- Gluggl [CATA+] / Gluggle
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 43.6, 43.4, NORTHERN_STRANGLETHORN },
 						{ 43.1, 41.7, NORTHERN_STRANGLETHORN },
 						{ 42.0, 41.2, NORTHERN_STRANGLETHORN },
 						{ 40.0, 38.8, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 34.4, 22.4, STRANGLETHORN_VALE },
+						-- #endif
 					},
-					-- #else
-					["coord"] = { 34.4, 22.4, STRANGLETHORN_VALE },
-					-- #endif
 				}),
 				n(11383, {	-- High Priestess Hai'watna
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 67.0, 34.0, NORTHERN_STRANGLETHORN },
 						{ 67.0, 31.6, NORTHERN_STRANGLETHORN },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 51.4, 16.6, STRANGLETHORN_VALE },
 						{ 51.6, 18.6, STRANGLETHORN_VALE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(51662, {	-- Mahamba
 					["coords"] = {
@@ -3087,16 +3096,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["timeline"] = { ADDED_4_0_6 },
 				}),
-				-- #if BEFORE CATA
 				n(723, {	-- Mosh'Ogg Butcher
-					["coord"] = { 51.0, 31.8, STRANGLETHORN_VALE },
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 67.0, 54.0, NORTHERN_STRANGLETHORN },
+						{ 66.6, 53.4, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 51.0, 31.8, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["groups"] = {
 						i(1680, {	-- Headchopper
 							["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 						}),
 					},
 				}),
-				-- #endif
 				n(51658, {	-- Mogh the Dead
 					["coord"] = { 62.8, 74.6, NORTHERN_STRANGLETHORN },
 					["timeline"] = { ADDED_4_0_6 },
@@ -3106,19 +3120,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_6 },
 				}),
 				n(14488, {	-- Roloch
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 46.6, 45.4, NORTHERN_STRANGLETHORN },
 						{ 45.8, 51.0, NORTHERN_STRANGLETHORN },
 						{ 45.2, 54.4, NORTHERN_STRANGLETHORN },
 						{ 46.8, 55.8, NORTHERN_STRANGLETHORN },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 38.0, 24.8, STRANGLETHORN_VALE },
 						{ 27.0, 31.8, STRANGLETHORN_VALE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(51661, {	-- Tsul'Kalu
 					["coord"] = { 47.0, 32.3, NORTHERN_STRANGLETHORN },
@@ -3127,11 +3139,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(VENDORS, {
 				n(734, {	-- Corporal Bluth <Camp Trader>
-					-- #if AFTER CATA
-					["coord"] = { 47.4, 10.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 38.0, 3.0, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 47.4, 10.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 38.0, 3.0, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(12231),	-- Recipe: Jungle Stew (RECIPE!)
@@ -3139,11 +3153,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(2687, {	-- Gnaz Blunderflame <Engineering Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 67.5, 61.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 51.0, 35.2, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 67.5, 61.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 51.0, 35.2, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["groups"] = {
 						i(13311, {	-- Schematic: Mechanical Dragonling (RECIPE!)
 							["isLimited"] = true,
@@ -3151,11 +3167,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(2483, {	-- Jaquilina Dramet <Superior Axecrafter>
-					-- #if AFTER CATA
-					["coord"] = { 43.7, 23.2, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.8, 10.7, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 43.7, 23.2, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.8, 10.7, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["sym"] = {{"select","itemID",
 						2523,	-- Bullova
 						2522,	-- Crescent Axe
@@ -3172,11 +3190,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(8679, {	-- Knaz Blunderflame <Engineering Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 67.8, 61.1, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 51.0, 35.2, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 67.8, 61.1, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 51.0, 35.2, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["groups"] = {
 						i(10602, {	-- Schematic: Deadly Scope (RECIPE!)
 							["isLimited"] = true,
@@ -3184,14 +3204,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(1148, {	-- Nerrist <Trade Goods>
-					-- #if AFTER CATA
-					["coord"] = { 39.3, 51.1, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 32.6, 29.2, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 39.3, 51.1, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 32.6, 29.2, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(21943, {	-- Design: Truesilver Crab
+						i(21943, {	-- Design: Truesilver Crab (RECIPE!)
+							["timeline"] = { ADDED_2_0_1 },
 							["isLimited"] = true,
 						}),
 						i(3682),	-- Recipe: Curiously Tasty Omelet (RECIPE!)
@@ -3200,22 +3223,26 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(1149, {	-- Uthok <General Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 37.5, 49.1, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 31.6, 28.0, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 37.5, 49.1, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 31.6, 28.0, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(16111),	-- Recipe: Spiced Chili Crab (RECIPE!)
 					},
 				}),
 				n(1146, {	-- Vharr <Superior Weaponsmith>
-					-- #if AFTER CATA
-					["coord"] = { 38.7, 49.1, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 32.2, 28.0, STRANGLETHORN_VALE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 38.7, 49.1, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 32.2, 28.0, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(12250, {	-- Midnight Axe
@@ -3234,12 +3261,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(1998, {	-- Bloodscalp Channeling Staff
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["cr"] = 697,	-- Bloodscalp Shaman
-					-- #if AFTER 7.3.5
 					["coords"] = {
+						-- #if AFTER 7.3.5
 						{ 35.8, 33.4, NORTHERN_STRANGLETHORN },
 						{ 34.0, 37.8, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 33.8, 15.6, STRANGLETHORN_VALE },
+						{ 30.8, 19.0, STRANGLETHORN_VALE },
+						{ 28.8, 19.2, STRANGLETHORN_VALE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				i(4611, {	-- Blue Pearl
 					["provider"] = { "o", 2744 },	-- Giant Clam
@@ -3284,14 +3315,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1991, {	-- Goblin Power Shovel
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					-- #if AFTER 7.3.5
 					["crs"] = {
 						1094,	-- Venture Co. Miner
+						-- #if AFTER 7.3.5
 						674,	-- Venture Co. Strip Miner
+						-- #endif
 					},
-					-- #else
-					["cr"] = 1094,	-- Venture Co. Miner
-					-- #endif
 				}),
 				i(1986, {	-- Gutrender
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
@@ -3303,19 +3332,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				-- #if AFTER CATA
-				i(1680, {	-- Headchopper
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 723,	-- Mosh'Ogg Butcher
-					-- #if AFTER 7.3.5
-					["description"] = "Drops from Mosh'Ogg Butchers, which sometimes can spawn in place of one of the two Mosh'Ogg Lords at the given coordinates.",
-					["coords"] = {
-						{ 67.0, 54.0, NORTHERN_STRANGLETHORN },
-						{ 66.6, 53.4, NORTHERN_STRANGLETHORN },
-					},
-					-- #endif
-				}),
-				-- #endif
 				i(1522, {	-- Headhunting Spear
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["cr"] = 671,	-- Bloodscalp Headhunter
@@ -3413,17 +3429,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				i(1652, {	-- Sturdy Lunchbox
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						921,	-- Venture Co. Lumberjack
+						-- #else
+						675,	-- Venture Co. Foreman
+						14492,	-- Verifonix <The Surveyor>
+						-- #endif
+					},
 					-- #if AFTER 10.1.7
-					["cr"] = 921,	-- Venture Co. Lumberjack
 					["coords"] = {
 						{ 55.6, 35.6, NORTHERN_STRANGLETHORN },
 						{ 55.4, 34.4, NORTHERN_STRANGLETHORN },
-					},
-					-- #else
-					["crs"] = {
-						675,	-- Venture Co. Foreman
-						14492,	-- Verifonix <The Surveyor>
 					},
 					-- #endif
 				}),
