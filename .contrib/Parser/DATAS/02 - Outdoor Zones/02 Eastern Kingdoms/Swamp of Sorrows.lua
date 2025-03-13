@@ -149,13 +149,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #if BEFORE CATA
 				prof(SKINNING, {
-					["crs"] = {
-						740,	-- Adolescent Whelp
-						741,	-- Dreaming Whelp
-					},
-					["groups"] = {
-						i(7392),	-- Green Whelp Scale
-					},
+					i(7392, {	-- Green Whelp Scale
+						["crs"] = {
+							740,	-- Adolescent Whelp
+							741,	-- Dreaming Whelp
+						},
+					}),
 				}),
 				-- #endif
 			}),
