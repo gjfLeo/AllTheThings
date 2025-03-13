@@ -192,9 +192,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["description"] = "This is a rare that may not always be present. Seems to have a high drop rate for world drop epics and recipes. Kill it on sight during the invasion!",
 						["coord"] = { 22.6, 77.6, SEARING_GORGE },
 						["groups"] = {
-							i(14511),	-- Pattern: Gloves of Spell Mastery
-							i(228317),	-- Pattern: Incandescent Mooncloth Circlet
-							i(228314),	-- Plans: Warcrest of the Great Chief
+							i(14511),	-- Pattern: Gloves of Spell Mastery (RECIPE!)
+							i(228317),	-- Pattern: Incandescent Mooncloth Circlet (RECIPE!)
+							i(228314),	-- Plans: Warcrest of the Great Chief (RECIPE!)
 							i(3475),	-- Cloak of Flames
 						},
 					}),
@@ -202,12 +202,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["description"] = "This is a rare that may not always be present. Seems to have a high drop rate for world drop epics and recipes. Kill it on sight during the invasion!",
 						["coord"] = { 43.8, 27.8, SEARING_GORGE },
 						["groups"] = {
-							i(228993),	-- Pattern: Bottomless Bag
-							i(14511),	-- Pattern: Gloves of Spell Mastery
-							i(228317),	-- Pattern: Incandescent Mooncloth Circlet
-							i(228315),	-- Plans: Sageblade of the Archmagus
-							i(228250),	-- Plans: Stronger-hold Gauntlets
-							i(228314),	-- Plans: Warcrest of the Great Chief
+							i(228993),	-- Pattern: Bottomless Bag (RECIPE!)
+							i(14511),	-- Pattern: Gloves of Spell Mastery (RECIPE!)
+							i(228317),	-- Pattern: Incandescent Mooncloth Circlet (RECIPE!)
+							i(228315),	-- Plans: Sageblade of the Archmagus (RECIPE!)
+							i(228250),	-- Plans: Stronger-hold Gauntlets (RECIPE!)
+							i(228314),	-- Plans: Warcrest of the Great Chief (RECIPE!)
 							i(1728),	-- Teebu's Blazing Longsword
 							i(2801),	-- Blade of Hanna
 							i(3475),	-- Cloak of Flames
@@ -217,11 +217,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["description"] = "This is a rare that may not always be present. Seems to have a high drop rate for world drop epics and recipes. Kill it on sight during the invasion!",
 						["coord"] = { 38.4, 68.2, SEARING_GORGE },
 						["groups"] = {
-							i(14511),	-- Pattern: Gloves of Spell Mastery
-							i(228317),	-- Pattern: Incandescent Mooncloth Circlet
-							i(22390),	-- Plans: Persuader
-							i(228315),	-- Plans: Sageblade of the Archmagus
-							i(228314),	-- Plans: Warcrest of the Great Chief
+							i(14511),	-- Pattern: Gloves of Spell Mastery (RECIPE!)
+							i(228317),	-- Pattern: Incandescent Mooncloth Circlet (RECIPE!)
+							i(22390),	-- Plans: Persuader (RECIPE!)
+							i(228315),	-- Plans: Sageblade of the Archmagus (RECIPE!)
+							i(228314),	-- Plans: Warcrest of the Great Chief (RECIPE!)
 							i(1728),	-- Teebu's Blazing Longsword
 							i(2801),	-- Blade of Hanna
 							i(3475),	-- Cloak of Flames
@@ -582,44 +582,64 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(13662, {	-- Gaining Acceptance
 					["qg"] = 14624,	-- Master Smith Burninate
-					-- #if AFTER CATA
-					["sourceQuest"] = 28064,	-- Welcome to the Brotherhood
-					-- #else
-					["sourceQuest"] = 7722,	-- What the Flux?
-					-- #endif
+					["sourceQuests"] = {
+						-- #if AFTER CATA
+						28064,	-- Welcome to the Brotherhood
+						-- #else
+						7722,	-- What the Flux?
+						-- #endif
+					},
 					["coord"] = { 38.8, 28.5, SEARING_GORGE },
 					["timeline"] = { ADDED_3_3_0 },
-					-- #if AFTER CATA
-					["minReputation"] = { FACTION_THORIUM_BROTHERHOOD, REVERED },	-- Thorium Brotherhood, Revered.
-					["maxReputation"] = { FACTION_THORIUM_BROTHERHOOD, EXALTED },	-- Thorium Brotherhood, Exalted.
-					-- #else
-					["minReputation"] = { FACTION_THORIUM_BROTHERHOOD, FRIENDLY },	-- Thorium Brotherhood, Friendly.
-					["maxReputation"] = { FACTION_THORIUM_BROTHERHOOD, HONORED },	-- Thorium Brotherhood, Honored.
-					-- #endif
+					["minReputation"] = {
+						-- #if AFTER CATA
+						FACTION_THORIUM_BROTHERHOOD, REVERED,	-- Thorium Brotherhood, Revered.
+						-- #else
+						FACTION_THORIUM_BROTHERHOOD, FRIENDLY,	-- Thorium Brotherhood, Friendly.
+						-- #endif
+					},
+					["maxReputation"] = {
+						-- #if AFTER CATA
+						FACTION_THORIUM_BROTHERHOOD, EXALTED,	-- Thorium Brotherhood, Exalted.
+						-- #else
+						FACTION_THORIUM_BROTHERHOOD, HONORED,	-- Thorium Brotherhood, Honored.
+						-- #endif
+					},
 					["cost"] = { { "i", 18945, 4 } },	-- Dark Iron Residue
 					["repeatable"] = true,
 					["lvl"] = 40,
 				}),
 				q(7737, {	-- Gaining Acceptance [Classic] / Gaining Even More Acceptance [Wrath+]
 					["qg"] = 14624,	-- Master Smith Burninate
-					-- #if AFTER CATA
-					["sourceQuest"] = 28064,	-- Welcome to the Brotherhood
-					-- #else
-					["sourceQuest"] = 7722,	-- What the Flux?
-					-- #endif
+					["sourceQuests"] = {
+						-- #if AFTER CATA
+						28064,	-- Welcome to the Brotherhood
+						-- #else
+						7722,	-- What the Flux?
+						-- #endif
+					},
 					["coord"] = { 38.8, 28.5, SEARING_GORGE },
-					-- #if AFTER CATA
-					["minReputation"] = { FACTION_THORIUM_BROTHERHOOD, REVERED },	-- Thorium Brotherhood, Revered.
-					["maxReputation"] = { FACTION_THORIUM_BROTHERHOOD, EXALTED },	-- Thorium Brotherhood, Exalted.
-					-- #else
-					["minReputation"] = { FACTION_THORIUM_BROTHERHOOD, FRIENDLY },	-- Thorium Brotherhood, Friendly.
-					["maxReputation"] = { FACTION_THORIUM_BROTHERHOOD, HONORED },	-- Thorium Brotherhood, Honored.
-					-- #endif
-					-- #if AFTER WRATH
-					["cost"] = { { "i", 18945, 100 } },	-- Dark Iron Residue
-					-- #else
-					["cost"] = { { "i", 18945, 4 } },	-- Dark Iron Residue
-					-- #endif
+					["minReputation"] = {
+						-- #if AFTER CATA
+						FACTION_THORIUM_BROTHERHOOD, REVERED,	-- Thorium Brotherhood, Revered.
+						-- #else
+						FACTION_THORIUM_BROTHERHOOD, FRIENDLY,	-- Thorium Brotherhood, Friendly.
+						-- #endif
+					},
+					["maxReputation"] = {
+						-- #if AFTER CATA
+						FACTION_THORIUM_BROTHERHOOD, EXALTED,	-- Thorium Brotherhood, Exalted.
+						-- #else
+						FACTION_THORIUM_BROTHERHOOD, HONORED,	-- Thorium Brotherhood, Honored.
+						-- #endif
+					},
+					["cost"] = {
+						-- #if AFTER WRATH
+						{ "i", 18945, 100 },	-- Dark Iron Residue
+						-- #else
+						{ "i", 18945, 4 },	-- Dark Iron Residue
+						-- #endif
+					},
 					["repeatable"] = true,
 					["lvl"] = lvlsquish(40, 40, 15),
 				}),
@@ -647,7 +667,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 47. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 48 (TODO: Test max level between 49 and 58)
+					-- Cataclysm: Maximum is level 48. (TODO: Test max level between 49 and 58)
 					["lvl"] = { 47, 48 },
 					-- #endif
 				})),
@@ -655,7 +675,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 14627,	-- Hansel Heavyhands
 					["sourceQuests"] = {
 						27979,	-- Dark Ministry
-						28099,	-- Rasha'krak (reported as SQ by Evelynn on Discord)
+						28099,	-- Rasha'krak
 					},
 					["coord"] = { 38.4, 27.9, SEARING_GORGE },
 					["timeline"] = { ADDED_4_0_3 },
@@ -845,10 +865,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(27959, {	-- Lunk's Adventure: Spider Rider
 					["qg"] = 47280,	-- Lunk
 					["sourceQuest"] = 27957,	-- Lunk No Kill
-					["description"] = "Must be on |cFFFFD700A Proper Antivenom|r to get this quest. Lunk will appear when you kill a Glassweb Spider.",
-					-- #if AFTER 7.0.3
-					["description"] = "Must be on |cFFFFD700A Proper Antivenom|r to get this quest. Lunk will appear when you kill a Glassweb Spider.\n\nHigh-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
-					-- #endif
+					["description"] =
+						-- #if AFTER 7.0.3
+						"Must be on |cFFFFD700A Proper Antivenom|r to get this quest. Lunk will appear when you kill a Glassweb Spider.\n\nHigh-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
+						-- #else
+						"Must be on |cFFFFD700A Proper Antivenom|r to get this quest. Lunk will appear when you kill a Glassweb Spider.\n\nHigh-level players must unequip their weapons, hit the Spider once with auto-attack and stop after 1 hit.",
+						-- #endif
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/7 Spiders riden
@@ -1538,13 +1560,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["requireSkill"] = TAILORING,
 					["lvl"] = 40,
-					-- #if BEFORE 7.3.0
 					["groups"] = {
-						i(10463, {	-- Pattern: Shadoweave Mask
-							["timeline"] = { REMOVED_4_0_3, ADDED_7_3_0 },
+						i(10463, {	-- Pattern: Shadoweave Mask (RECIPE!)
+							["timeline"] = { REMOVED_4_0_3 },
 						}),
 					},
-					-- #endif
 				}),
 				q(28030, {	-- They Build a Better Bullet
 					["qg"] = 47393,	-- Mountain-Lord Rendan
@@ -1721,52 +1741,48 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(8279, {	-- Faulty War Golem
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 58.0, 56.4, SEARING_GORGE },
 						{ 62.2, 59.6, SEARING_GORGE },
 						{ 63.0, 63.0, SEARING_GORGE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 34.0, 47.8, SEARING_GORGE },
 						{ 33.2, 63.8, SEARING_GORGE },
 						{ 44.2, 42.4, SEARING_GORGE },
 						{ 48.6, 67.6, SEARING_GORGE },
 						{ 60.0, 57.8, SEARING_GORGE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(8282, {	-- Highlord Mastrogonde
-					-- #if AFTER CATA
-					["coord"] = { 29.6, 26.0, SEARING_GORGE },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 29.6, 26.0, SEARING_GORGE },
+						-- #else
 						{ 14.6, 39.4, SEARING_GORGE },
 						{ 30.6, 26.8, SEARING_GORGE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(50946, {	-- Hogzilla
 					["timeline"] = { ADDED_5_2_0 },
 					["coord"] = { 21.1, 79.5, SEARING_GORGE },
 				}),
 				n(8277, {	-- Rekk'tilac
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 29.2, 67.8, SEARING_GORGE },
 						{ 31.8, 73.2, SEARING_GORGE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 35.8, 25.8, SEARING_GORGE },
 						{ 30.2, 72.0, SEARING_GORGE },
 						{ 58.2, 24.6, SEARING_GORGE },
 						{ 52.8, 71.2, SEARING_GORGE },
 						{ 62.8, 71.6, SEARING_GORGE },
 						{ 70.6, 75.6, SEARING_GORGE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(51048, {	-- Rexxus
 					["timeline"] = { ADDED_5_2_0 },
@@ -1777,66 +1793,64 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(8281, {	-- Scald
-					-- #if AFTER CATA
-					["coord"] = { 41.0, 57.6, SEARING_GORGE },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 41.0, 57.6, SEARING_GORGE },
+						-- #else
 						{ 37.0, 54.2, SEARING_GORGE },
 						{ 49.6, 49.6, SEARING_GORGE },
 						{ 51.6, 46.4, SEARING_GORGE },
 						{ 54.8, 45.6, SEARING_GORGE },
 						{ 57.2, 44.6, SEARING_GORGE },
 						{ 59.4, 41.4, SEARING_GORGE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(51002, {	-- Scorpoxx
 					["timeline"] = { ADDED_5_1_0 },
 					["coord"] = { 18.4, 38.8, SEARING_GORGE },
 				}),
 				n(8280, {	-- Shleipnarr
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 57.4, 43.4, SEARING_GORGE },
 						{ 56.6, 46.6, SEARING_GORGE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 66.0, 37.4, SEARING_GORGE },
 						{ 67.0, 39.6, SEARING_GORGE },
 						{ 63.6, 51.2, SEARING_GORGE },
 						{ 58.4, 52.0, SEARING_GORGE },
 						{ 55.6, 58.8, SEARING_GORGE },
 						{ 50.6, 61.4, SEARING_GORGE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(8283, {	-- Slave Master Blackheart
-					-- #if AFTER CATA
-					["coord"] = { 38.0, 44.4, SEARING_GORGE },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 38.0, 44.4, SEARING_GORGE },
+						-- #else
 						{ 41.8, 24.0, SEARING_GORGE },
 						{ 46.6, 25.2, SEARING_GORGE },
 						{ 41.6, 35.6, SEARING_GORGE },
 						{ 45.6, 38.8, SEARING_GORGE },
 						{ 41.6, 44.8, SEARING_GORGE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(50846, {	-- Slavermaw
 					["timeline"] = { ADDED_5_2_0 },
 					["coord"] = { 58.7, 22.5, SEARING_GORGE },
 				}),
 				n(8278, {	-- Smoldar
-					-- #if AFTER CATA
-					["coord"] = { 49.1, 37.4, SEARING_GORGE },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 49.1, 37.4, SEARING_GORGE },
+						-- #else
 						{ 30.0, 50.8, SEARING_GORGE },
 						{ 29.2, 60.8, SEARING_GORGE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(51010, {	-- Snips
 					["timeline"] = { ADDED_5_1_0 },
@@ -1961,38 +1975,36 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_7_1_5 },
 					["cr"] = 47463,	-- Searing Flamewraith
 				}),
-				i(14476, {	-- Pattern: Cindercloth Gloves
+				i(14476, {	-- Pattern: Cindercloth Gloves (RECIPE!)
 					-- Started dropping again in 8.2.  The new version (167887) is also available from Time-Lost Trader
-					["timeline"] = { REMOVED_4_0_1, ADDED_8_2_0 },
+					["timeline"] = { REMOVED_4_0_3, ADDED_8_2_0 },
 					["cr"] = 5861,	-- Twilight Fire Guard
 					["coords"] = {
 						{ 19.4, 36.6, SEARING_GORGE },
 						{ 25.4, 25.4, SEARING_GORGE },
 					},
 				}),
-				i(14471, {	-- Pattern: Cindercloth Vest
+				i(14471, {	-- Pattern: Cindercloth Vest (RECIPE!)
 					-- Started dropping again in 8.2.  The new version (167886) is also available from Time-Lost Trader
-					["timeline"] = { REMOVED_4_0_1, ADDED_8_2_0 },
+					["timeline"] = { REMOVED_4_0_3, ADDED_8_2_0 },
 					["cr"] = 5861,	-- Twilight Fire Guard
 					["coords"] = {
 						{ 19.4, 36.6, SEARING_GORGE },
 						{ 25.4, 25.4, SEARING_GORGE },
 					},
 				}),
-				-- #if AFTER 7.3.0
-				i(10463, {	-- Pattern: Shadoweave Mask
-					["description"] = "As of 7.3, Dark Iron Steamsmiths drop |cff3399ffPattern: Shadoweave Mask|r, which is required for the |cff3399ffLucid Nightmare|r mount.",
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_0 },
+				i(10463, {	-- Pattern: Shadoweave Mask (RECIPE!)
+					["description"] = "Required for the |cff3399ffLucid Nightmare|r mount.",
+					["timeline"] = { ADDED_7_3_0 },
 					["cr"] = 5840,	-- Dark Iron Steamsmith
 				}),
-				-- #endif
 				applyclassicphase(PHASE_FIVE_RECIPES, i(21547, {	-- Recipe: Elixir of Greater Firepower (RECIPE!)
 					["crs"] = {
 						5844,	-- Dark Iron Slaver
 						5846,	-- Dark Iron Taskmaster
 						8637,	-- Dark Iron Watchman
 					},
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						{ 41.6, 42.2, SEARING_GORGE },
 						{ 37.0, 42.8, SEARING_GORGE },
