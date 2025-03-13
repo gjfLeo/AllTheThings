@@ -230,6 +230,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					41589,	-- That Can-Do Attitude
 					41588,	-- Read Between the Lines
 					41217,	-- Treasures of Undermine
+					41708,	-- You're My Friend Now
 				}},
 				-- TODO reward: Warband Campsite: Gallagio Grand Gallery
 			}),
