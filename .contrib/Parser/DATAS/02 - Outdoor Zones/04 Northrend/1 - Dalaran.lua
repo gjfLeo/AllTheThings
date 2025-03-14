@@ -3412,7 +3412,7 @@ root(ROOTS.Zones, {
 								-- #ELSE
 								["f"] = MISC,
 								-- #ENDIF
-								["timeline"] = { REMOVED_4_0_1 },
+								["timeline"] = { REMOVED_7_3_5 },
 								["cost"] = {{ "g", 10000000 }},	-- 1000g
 							}),
 						},
