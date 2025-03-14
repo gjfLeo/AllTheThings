@@ -3308,7 +3308,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				i(2955),	-- First Mate Hat
+				i(2955, {	-- First Mate Hat
+					-- #if BEFORE CATA
+					["crs"] = {
+						2545,	-- "Pretty Boy" Duncan
+						4505,	-- Bloodsail Deckhand
+						1653,	-- Bloodsail Elder Magus
+						1562,	-- Bloodsail Mage
+						1561,	-- Bloodsail Raider
+						1563,	-- Bloodsail Swashbuckler
+						1564,	-- Bloodsail Warlock
+					},
+					-- #else
+					["description"] = "This item has a chance to drop from any killed creature in the zone.",
+					-- #endif
+				}),
 				i(11203, {	-- Formula: Enchant Gloves - Advanced Mining (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3 },
 					["cr"] = 674,	-- Venture Co. Strip Miner
@@ -3383,7 +3397,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				i(8494),	-- Hyacinth Macaw (PET!)
+				i(8494, {	-- Hyacinth Macaw (PET!)
+					["timeline"] = { ADDED_1_11_1 },
+					-- #if BEFORE CATA
+					["crs"] = {
+						4505,	-- Bloodsail Deckhand
+						1653,	-- Bloodsail Elder Magus
+						4506,	-- Bloodsail Swabby
+						1563,	-- Bloodsail Swashbuckler
+						1564,	-- Bloodsail Warlock
+						2546,	-- Fleet Master Firallon
+					},
+					-- #else
+					["description"] = "This item has a chance to drop from any killed creature in the zone.",
+					-- #endif
+				}),
 				-- #if BEFORE CATA
 				i(5788, {	-- Pattern: Thick Murloc Armor (RECIPE!)
 					["cr"] = 938,	-- Kurzen Commando

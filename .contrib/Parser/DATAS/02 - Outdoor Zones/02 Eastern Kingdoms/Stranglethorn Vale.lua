@@ -276,13 +276,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 				}),
 				fp(195, {	-- Rebel Camp, Stranglethorn
-					-- #if AFTER 4.0.3
-					["cr"] = 43045,	-- James Stillair <Gryphon Master>
-					["coord"] = { 47.8, 11.8, NORTHERN_STRANGLETHORN },
-					-- #else
-					["cr"] = 24366,	-- Nizzle <Gryphon Master>
-					["coord"] = { 38.2, 4.0, STRANGLETHORN_VALE },
-					-- #endif
+					["crs"] = {
+						-- #if AFTER CATA
+						43045,	-- James Stillair <Gryphon Master>
+						-- #else
+						24366,	-- Nizzle <Gryphon Master>
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 47.8, 11.8, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 38.2, 4.0, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["timeline"] = { ADDED_2_3_0 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -302,12 +309,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["g"] = ALL_GNOMISH_ENGINEERING,
 					}),
 				}),
-				-- #if BEFORE CATA
 				prof(FISHING, {
+					-- #if BEFORE CATA
 					o(180685),	-- Waterlogged Wreckage
-				}),
-				-- #endif
-				prof(FISHING, {
+					-- #endif
 					o(180901),	-- Bloodsail Wreckage
 				}),
 				prof(LEATHERWORKING, {
@@ -623,10 +628,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 17094,	-- Nemeth Hawkeye
 					-- #if AFTER CATA
 					["sourceQuest"] = 26321,	-- I Think She's Hungry
-					["coord"] = { 38.1, 50.0, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 32, 28.6, STRANGLETHORN_VALE },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 38.1, 50.0, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 32, 28.6, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["timeline"] = { ADDED_2_0_1 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -964,9 +973,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								}),
 							},
 						}),
-						-- #if BEFORE 4.0.3
-						i(4130),	-- Smotts' Compass [Rewarded from quest 26602 A Dish Best Served Cold after 4.0.3]
-						-- #endif
+						i(4130, {	-- Smotts' Compass
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
 					},
 				}),
 				q(627, {	-- Favor for Krazek
@@ -1952,9 +1961,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 36.6, 69.6, STRANGLETHORN_VALE },
 							["cr"] = 1492,	-- Gorlash
 						}),
-						-- #if BEFORE 4.0.3
-						i(11469),	-- Bloodband Bracers [Awarded from new version of quest 26599]
-						-- #endif
+						i(11469, {	-- Bloodband Bracers
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
 					},
 				}),
 				q(8553, {	-- The Captain's Cutlass
@@ -2448,10 +2457,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 716,	-- Barnil Stonepot
 					-- #if AFTER CATA
 					["sourceQuest"] = 26340,	-- The Hunt
-					["coord"] = { 44.2, 22.1, NORTHERN_STRANGLETHORN },
-					-- #else
-					["coord"] = { 35.7, 10.5, STRANGLETHORN_VALE },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.2, 22.1, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 35.7, 10.5, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["lvl"] = lvlsquish(28, 28, 10),
 				}),
 				q(580, {	-- Whiskey Slim's Lost Grog
@@ -2552,16 +2565,23 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["groups"] = {
 						i(5028, {	-- Lord Sakrasis' Scepter
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 						i(5029, {	-- Talisman of the Naga Lord
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 					},
 				}),
 				-- #if BEFORE CATA
 				n(723, {	-- Mosh'Ogg Butcher
-					["coord"] = { 51.0, 31.8, STRANGLETHORN_VALE },
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 67.0, 54.0, NORTHERN_STRANGLETHORN },
+						{ 66.6, 53.4, NORTHERN_STRANGLETHORN },
+						-- #else
+						{ 51.0, 31.8, STRANGLETHORN_VALE },
+						-- #endif
+					},
 					["groups"] = {
 						i(1680, {	-- Headchopper
 							["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
@@ -2698,7 +2718,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["groups"] = {
-						i(10318, {	-- Pattern: Admiral's Hat
+						i(10318, {	-- Pattern: Admiral's Hat (RECIPE!)
 							["isLimited"] = true,
 						}),
 					},
@@ -3001,7 +3021,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(8496),	-- Cockatiel (PET!)
 						i(8495),	-- Senegal (PET!)
-						i(10728, {	-- Pattern: Black Swashbuckler's Shirt
+						i(10728, {	-- Pattern: Black Swashbuckler's Shirt (RECIPE!)
 							["isLimited"] = true,
 						}),
 					},
@@ -3016,7 +3036,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(21943, {	-- Design: Truesilver Crab
+						i(21943, {	-- Design: Truesilver Crab (RECIPE!)
+							["timeline"] = { ADDED_2_0_1 },
 							["isLimited"] = true,
 						}),
 						i(3682),	-- Recipe: Curiously Tasty Omelet (RECIPE!)
@@ -3187,12 +3208,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						real(25, i(228171)),	-- Kezan Cash Carrier
 
 						-- Recipes
-						real(50, i(228121)),	-- Pattern: Leather-Reinforced Runecloth Bag
-						real(50, i(13522)),	-- Recipe: Flask of Chromatic Resistance
-						real(50, i(13520)),	-- Recipe: Flask of Distilled Wisdom
-						real(50, i(13518)),	-- Recipe: Flask of Petrification
-						real(50, i(13521)),	-- Recipe: Flask of Supreme Power
-						real(50, i(13519)),	-- Recipe: Flask of the Titans
+						real(50, i(228121)),	-- Pattern: Leather-Reinforced Runecloth Bag (RECIPE!)
+						real(50, i(13522)),	-- Recipe: Flask of Chromatic Resistance (RECIPE!)
+						real(50, i(13520)),	-- Recipe: Flask of Distilled Wisdom (RECIPE!)
+						real(50, i(13518)),	-- Recipe: Flask of Petrification (RECIPE!)
+						real(50, i(13521)),	-- Recipe: Flask of Supreme Power (RECIPE!)
+						real(50, i(13519)),	-- Recipe: Flask of the Titans (RECIPE!)
 
 						-- Reagents
 						real(5, i(226405, {	-- Damaged Undermine Supply Crate
@@ -3333,16 +3354,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["groups"] = {
-						i(7087, {	-- Pattern: Crimson Silk Cloak
+						i(7087, {	-- Pattern: Crimson Silk Cloak (RECIPE!)
 							["isLimited"] = true,
 						}),
 						-- #if SEASON_OF_DISCOVERY
-						applyclassicphase(SOD_PHASE_TWO, i(217258, {	-- Pattern: Enchanter's Cowl
+						applyclassicphase(SOD_PHASE_TWO, i(217258, {	-- Pattern: Enchanter's Cowl (RECIPE!)
 							["timeline"] = { ADDED_1_15_1 },
 							["isLimited"] = true,
 						})),
 						-- #endif
-						i(14630, {	-- Pattern: Enchanter's Cowl
+						i(14630, {	-- Pattern: Enchanter's Cowl (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
 							["timeline"] = { REMOVED_1_15_1 },
 							-- #endif
@@ -3480,6 +3501,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1563,	-- Bloodsail Swashbuckler
 						1564,	-- Bloodsail Warlock
 					},
+					-- #else
+					["description"] = "This item has a chance to drop from any killed creature in the zone.",
 					-- #endif
 				}),
 				i(11203, {	-- Formula: Enchant Gloves - Advanced Mining (RECIPE!)
@@ -3488,25 +3511,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(1991, {	-- Goblin Power Shovel
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					-- #if AFTER 7.3.5
 					["crs"] = {
 						1094,	-- Venture Co. Miner
+						-- #if AFTER 7.3.5
 						674,	-- Venture Co. Strip Miner
+						-- #endif
 					},
-					-- #else
-					["cr"] = 1094,	-- Venture Co. Miner
-					-- #endif
 				}),
 				i(1986, {	-- Gutrender
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["cr"] = 709,	-- Mosh'Ogg Warmonger
 				}),
-				-- #if AFTER CATA
-				i(1680, {	-- Headchopper
-					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
-					["cr"] = 723,	-- Mosh'Ogg Butcher
-				}),
-				-- #endif
 				i(1522, {	-- Headhunting Spear
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["cr"] = 671,	-- Bloodscalp Headhunter
@@ -3533,6 +3548,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 4260,	-- Venture Co. Shredder
 				}),
 				i(8494, {	-- Hyacinth Macaw (PET!)
+					["timeline"] = { ADDED_1_11_1 },
 					-- #if BEFORE CATA
 					["crs"] = {
 						4505,	-- Bloodsail Deckhand
@@ -3542,6 +3558,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						1564,	-- Bloodsail Warlock
 						2546,	-- Fleet Master Firallon
 					},
+					-- #else
+					["description"] = "This item has a chance to drop from any killed creature in the zone.",
 					-- #endif
 				}),
 				i(5789, {	-- Pattern: Murloc Scale Bracers (RECIPE!)
@@ -3573,13 +3591,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 676,	-- Venture Co. Surveyor
 				}),
 				i(1652, {	-- Sturdy Lunchbox
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-					-- #if AFTER 10.1.7
-					["cr"] = 921,	-- Venture Co. Lumberjack
-					-- #else
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
+						-- #if AFTER 10.1.7
+						921,	-- Venture Co. Lumberjack
+						-- #else
 						675,	-- Venture Co. Foreman
 						14492,	-- Verifonix <The Surveyor>
+						-- #endif
+					},
+					-- #if AFTER 10.1.7
+					["coords"] = {
+						{ 55.6, 35.6, NORTHERN_STRANGLETHORN },
+						{ 55.4, 34.4, NORTHERN_STRANGLETHORN },
 					},
 					-- #endif
 				}),
