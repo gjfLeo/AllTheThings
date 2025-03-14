@@ -18,7 +18,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(70096, {	-- War-God Dokah
 						["coords"] = {
 							{ 77.6, 82.6, ISLE_OF_GIANTS },

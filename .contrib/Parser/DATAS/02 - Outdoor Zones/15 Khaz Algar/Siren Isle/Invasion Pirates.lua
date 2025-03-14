@@ -95,7 +95,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 				}),
-				n(RARES, sharedData({
+				n(RARE, sharedData({
 					["isDaily"] = true,
 				},{
 					n(228583, {	-- Chef Chum Platter

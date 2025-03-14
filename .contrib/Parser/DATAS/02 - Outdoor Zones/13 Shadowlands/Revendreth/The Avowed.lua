@@ -115,7 +115,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 							["coord"] = { 71.7, 40.3, REVENDRETH },
 						}),
 					}),
-					n(RARES, {
+					n(RARE, {
 						n(INQUISITORS, {
 							n(COMMON_BOSS_DROPS, {
 								["crs"] = {

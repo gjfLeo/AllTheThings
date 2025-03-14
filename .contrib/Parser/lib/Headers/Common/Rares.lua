@@ -1,11 +1,9 @@
-RARES = createHeader({
-	readable = "Rares",
-	constant = "RARES",
+RARE = createHeader({
+	readable = "Rare",
+	constant = "RARE",
 	export = true,
 	icon = [[~_.asset("Interface_Rare")]],
 	text = {
-		en = [[~BATTLE_PET_BREED_QUALITY4]],
-		ru = "Редкие",
-		cn = "稀有",
+		en = [[~MAP_LEGEND_RARE]],
 	},
 });

@@ -2013,7 +2013,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(14224, {	-- 7:XT <Long Distance Recovery Unit>
 					["coords"] = {
 						-- #if AFTER CATA

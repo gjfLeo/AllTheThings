@@ -2116,7 +2116,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				-- #if AFTER CATA
 				n(2162, {	-- Agal
 					-- NOTE: Was not previous a Rare until Cata.

@@ -1711,7 +1711,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(5787, {	-- Enforcer Emilgund
 					-- #if AFTER CATA
 					["coord"] = { 60.6, 47.6, MULGORE },

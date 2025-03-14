@@ -2196,7 +2196,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(51045, {	-- Arcanus
 					["coord"] = { 48.0, 59.6, WINTERSPRING },
 					["timeline"] = { ADDED_5_1_0 },

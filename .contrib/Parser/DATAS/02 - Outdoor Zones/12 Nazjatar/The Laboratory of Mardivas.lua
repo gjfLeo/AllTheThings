@@ -185,7 +185,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(NAZJATAR, {
-		n(RARES, {
+		n(RARE, {
 			q(55202),	-- Elemental Essence Amalgamator Selection	-- Needs confirmation
 			q(55198),	-- Small Water
 			-- q(56478),	-- Greater Benthic (Blue) ?? maybe

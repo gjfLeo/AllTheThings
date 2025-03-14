@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(REVENDRETH, {
-		n(RARES, sharedData({ ["isDaily"] = true }, {
+		n(RARE, sharedData({ ["isDaily"] = true }, {
 			n(166393, {	-- Amalgamation of Filth
 				["description"] = "Click on the sparkling Rubbish Box and throw rubbish into the water.  Kill the oozes, and eventually the rare will spawn.",
 				["coord"] = { 53.8, 72.5, REVENDRETH },
@@ -217,7 +217,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(SHADOWLANDS, {
 		m(REVENDRETH, {
-			n(RARES, {
+			n(RARE, {
 				q(62464),	-- Azgar secondary quest
 				q(60581),	-- Endlurker secondary quest
 				q(62463),	-- Prideful Hulk secondary quest

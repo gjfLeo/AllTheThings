@@ -275,7 +275,7 @@ root(ROOTS.ExpansionFeatures,
 							n(FACTION_HEADER_HORDE, { n(WEAPONS, clone(HORDE_WARFRONT_WEAPONS))}),
 						},
 					}),
-					n(RARES, {
+					n(RARE, {
 						n(142709, {	-- Beastrider Kama
 							["allianceQuestID"] = 53083,	-- Beastrider Kama [Alliance]
 							["hordeQuestID"] = 53504,	-- Beastrider Kama [Horde]

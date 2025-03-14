@@ -1962,7 +1962,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(50062, {	-- Aeonaxx <Mate of Aeosera>
 						["coords"] = {
 							{ 55.05, 54.11, DEEPHOLM },

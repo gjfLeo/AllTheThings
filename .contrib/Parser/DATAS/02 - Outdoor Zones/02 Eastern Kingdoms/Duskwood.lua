@@ -2070,7 +2070,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(212261, {	-- Awakened Lich
 					["providers"] = {

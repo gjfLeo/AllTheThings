@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(BASTION, {
-		n(RARES, sharedData({ ["isDaily"] = true }, {
+		n(RARE, sharedData({ ["isDaily"] = true }, {
 			n(161528, {	-- Aethon
 				["crs"] = { 161441 },	-- Orator Kloe
 				["coord"] = { 55.3, 80.3, BASTION },
@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(SHADOWLANDS, {
 		m(BASTION, {
-			n(RARES, {
+			n(RARE, {
 				q(63422),	-- Aethon secondary quest
 				q(62192),	-- Baedos secondary quest
 				q(62158),	-- Basilofos secondary quest

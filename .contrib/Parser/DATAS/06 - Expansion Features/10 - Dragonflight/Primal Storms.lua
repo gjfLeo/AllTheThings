@@ -286,7 +286,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["maps"] = { OHNAHRAN_PLAINS },
 				}),
 			})),
-			n(RARES, sharedData({
+			n(RARE, sharedData({
 				["coords"] = {
 					-- possible Primal Storm spawn locations
 					{ 26.8, 75.4, THE_WAKING_SHORES },

@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(TIRAGARDE_SOUND, {
-		n(RARES, {
+		n(RARE, {
 			n(132182, {	-- Auditor Dolp
 				["questID"] = 50156,
 				["coord"] = { 75.2, 78.4, TIRAGARDE_SOUND },

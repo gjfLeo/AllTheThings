@@ -76,7 +76,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									["coord"] = { 48.3, 56.3, SINFALL_DEPTHS },
 								}),
 							}),
-							n(RARES, {
+							n(RARE, {
 								HARIKA_THE_HORRID,
 							}),
 							n(TREASURES, {
@@ -166,7 +166,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							}),
 						}),
 						n(TIER_THREE, {
-							n(RARES, {
+							n(RARE, {
 								FORGEMASTER_MADALAV,
 							})
 						}),

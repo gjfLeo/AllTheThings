@@ -249,7 +249,7 @@ root(ROOTS.ExpansionFeatures,
 							}),
 						},
 					})),
-					n(RARES, {
+					n(RARE, {
 						n(149652, {	-- Agathe Wyrmwood [A Only]
 							-- ["questID"] = 54889,	-- Agathe Wyrmwood [Alliance]
 							["races"] = ALLIANCE_ONLY,

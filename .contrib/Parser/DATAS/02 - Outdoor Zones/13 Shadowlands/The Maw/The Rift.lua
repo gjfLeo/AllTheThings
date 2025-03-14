@@ -13,7 +13,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						["isDaily"] = true,
 					}),
 				}),
-				n(RARES, sharedData({ ["isDaily"] = true }, {
+				n(RARE, sharedData({ ["isDaily"] = true }, {
 					n(179853, {	-- Blinding Shadow
 						["coord"] = { 34.7, 41.9, THE_MAW },
 						["questID"] = 64276,

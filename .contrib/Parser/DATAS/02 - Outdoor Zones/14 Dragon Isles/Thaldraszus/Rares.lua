@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(THALDRASZUS, {
-		n(RARES, sharedData({ ["isDaily"] = true }, {
+		n(RARE, sharedData({ ["isDaily"] = true }, {
 			n(193243, {	-- Acrosoth
 				["coord"] = { 40.5, 78.3, THALDRASZUS },
 				["questID"] = 72834,
@@ -179,7 +179,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(DRAGON_ISLES, {
 		m(THALDRASZUS, {
-			n(RARES, {
+			n(RARE, {
 				q(72050),	-- first kill of Ancient Protector...? maybe. Quest name is Balgar.
 			}),
 		}),

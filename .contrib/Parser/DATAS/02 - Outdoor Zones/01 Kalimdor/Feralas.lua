@@ -2944,7 +2944,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(5347, {	-- Antilus the Soarer
 					-- #if AFTER CATA
 					["coords"] = {

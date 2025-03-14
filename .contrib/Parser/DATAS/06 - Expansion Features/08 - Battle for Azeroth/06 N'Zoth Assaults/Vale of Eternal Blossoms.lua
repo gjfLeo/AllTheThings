@@ -199,7 +199,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["sourceQuest"] = 56771,	-- Time-Lost Warriors
 						}),
 					})),
-					n(RARES, sharedData({
+					n(RARE, sharedData({
 						["isDaily"] = true,
 					}, {
 						n(154447, {	-- Brother Meller
@@ -443,7 +443,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						}),
 					})),
 					-- Common Items
-					n(RARES, {
+					n(RARE, {
 						n(COMMON_BOSS_DROPS, {
 							["crs"] = {
 								157466,	-- Anh-De the Loyal
@@ -469,7 +469,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							},
 						}),
 					}),
-					n(RARES, sharedData({
+					n(RARE, sharedData({
 						["isDaily"] = true,
 					}, {
 						n(157466, {	-- Anh-De the Loyal
@@ -738,7 +738,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						}),
 					})),
 					-- Common Items dropped by any rare
-					n(RARES, {
+					n(RARE, {
 						n(COMMON_BOSS_DROPS, {
 							["crs"] = {
 								160825,	-- Amber-Shaper Esh'ri
@@ -763,7 +763,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							},
 						}),
 					}),
-					n(RARES, sharedData({
+					n(RARE, sharedData({
 						["isDaily"] = true,
 					}, {
 						n(160825, {	-- Amber-Shaper Esh'ri
@@ -1014,7 +1014,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["sym"] = {{"select","questID",56064},{"pop"}},	-- Assault: The Black Empire
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(157468, {	-- Tisiphon
 						["questID"] = 57364,
 						["coord"] = { 9.5, 67.4, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },

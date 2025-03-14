@@ -2858,7 +2858,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 35,
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(5933, {	-- Achellios the Banished
 					["coords"] = {
 						-- #if AFTER CATA

@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, {
 	m(DRAENOR, {
-		n(RARES, {
+		n(RARE, {
 			o(239828, {	-- Edge of Reality
 				["description"] = "When you click on the Edge of Reality, it will teleport you.  Click on the egg to receive the mount.\n\nIf you are not on your own realm when you click on the portal, you will NOT be teleported and the mount will be mailed to you.",
 				["coords"] = {
@@ -56,7 +56,7 @@ root(ROOTS.Zones, {
 });
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2 } }, {
-	n(RARES, {
+	n(RARE, {
 		o(239828, {	-- Edge of Reality
 			q(37864),	-- Voidtalon of the Dark Star - triggers after the player leaves the scenario
 		}),

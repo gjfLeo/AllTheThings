@@ -195,7 +195,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 					}),
 				},
 			}),
-			n(RARES, {
+			n(RARE, {
 				["maps"] = {
 					HORRIFIC_ORGRIMMAR,
 					HORRIFIC_STORMWIND,

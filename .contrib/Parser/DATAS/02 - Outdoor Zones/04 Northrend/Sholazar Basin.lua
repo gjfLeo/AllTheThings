@@ -1226,7 +1226,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(32481, {	-- Aotona
 						["coords"] = {
 							{ 43.0, 52.4, SHOLAZAR_BASIN },

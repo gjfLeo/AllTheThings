@@ -787,7 +787,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(14222, {	-- Araga
 					["coords"] = {
 						{ 31.2, 71.0, ALTERAC_MOUNTAINS },

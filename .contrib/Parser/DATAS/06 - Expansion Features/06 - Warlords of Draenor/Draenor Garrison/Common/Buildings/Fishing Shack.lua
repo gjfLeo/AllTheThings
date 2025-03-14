@@ -266,7 +266,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 							}
 						})),
 					}),
-					n(RARES, {
+					n(RARE, {
 						i(116158, {	-- Lunarfall Carp
 							["races"] = ALLIANCE_ONLY,
 							["g"] = {

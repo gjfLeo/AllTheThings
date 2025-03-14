@@ -4255,7 +4255,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(130828, {	-- Gordon MacKellar
 					["coord"] = { 43.0, 78.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_3_5 },

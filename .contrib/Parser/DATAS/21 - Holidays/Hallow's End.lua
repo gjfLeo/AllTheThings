@@ -4082,7 +4082,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			},
 		}),
 	}),
-	n(RARES, {
+	n(RARE, {
 		["timeline"] = { ADDED_6_2_2 },
 		["groups"] = {
 			n(96323, {	-- Arachnis

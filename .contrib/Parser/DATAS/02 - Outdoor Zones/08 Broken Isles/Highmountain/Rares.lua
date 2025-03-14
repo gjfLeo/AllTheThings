@@ -5,7 +5,7 @@
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(HIGHMOUNTAIN, {
-			n(RARES, {
+			n(RARE, {
 				n(SPECIAL, sharedData({["sharedDescription"] = "Can be made hostile by Demon Hunters using 'Spectral Sight' or Paladins wielding 'Truthguard' allowing anyone to get credit."},{
 					n(109150, {	-- Malefica
 						["questID"] = 42862,

@@ -2925,7 +2925,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 43.2, 24.7, THE_JADE_FOREST },
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
 							50750,	-- Aethis

@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					},
 				}),
 			}),
-			n(RARES, sharedData({
+			n(RARE, sharedData({
 				["isDaily"] = true,
 			},{
 				n(231356, {	-- Brinebough
@@ -195,7 +195,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(86435),	-- after interact with Runic Fragment (npcID 234934) @ 52.6, 38.7 / was able to loot it again but didn't fire questID
 				q(86436),	-- after interact with Dirt Pile (npcID 235134) @ 38.2, 51.8
 			}),
-			n(RARES, {
+			n(RARE, {
 				-- Need more data / confirmation, current data is mess
 				-- after kill Bloodbrine (228154) - 84795 (on re-kill), 84871 (one of it is i(229172),	-- Earthen Deckhand's Halberd drop?)
 				-- after kill Gravesludge (228201) - 84872 (i(229178),	-- Earthen Scallywag's Gavel drop?, 85669 (speculated - gem looted and unlocked on vendor), 85937 (on re-kill)

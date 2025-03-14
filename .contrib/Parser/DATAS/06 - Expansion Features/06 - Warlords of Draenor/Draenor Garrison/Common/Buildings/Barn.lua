@@ -47,7 +47,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = HORDE_ONLY,
 						}),
 					}),
-					n(RARES, {
+					n(RARE, {
 						a(o(239171, {	-- Glass of Warm Milk
 							i(120309),	-- Pygmy Cow (PET!)
 						})),

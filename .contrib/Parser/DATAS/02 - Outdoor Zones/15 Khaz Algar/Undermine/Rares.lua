@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
-		n(RARES, {
+		n(RARE, {
 			n(COMMON_BOSS_DROPS, {
 				["crs"] = {
 					231012,	-- Candy Stickemup
@@ -350,7 +350,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(KHAZ_ALGAR, {
 		m(UNDERMINE, {
-			n(RARES, {
+			n(RARE, {
 				q(90492),	-- Triggers on killing Darkfuse Precipitant
 				q(90488),	-- Triggers on killing M.A.G.N.O.
 				q(90489),	-- Triggers on killing Giovante

@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		},
 		["lvl"] = 40,
 		["groups"] = {
-			n(RARES, {
+			n(RARE, {
 				n(50839, {	-- Chromehound
 					["coords"] = {
 						{ 47.4, 36.0, BLACKROCK_MOUNTAIN_LEVEL3 },

@@ -2236,7 +2236,7 @@ root(ROOTS.Zones, {
 						},
 					})),
 				}),
-				n(RARES, {
+				n(RARE, {
 					applyclassicphase(TBC_PHASE_TWO_OGRILA, n(23391, {	-- Bash'ir
 						["coords"] = {
 							{ 52.8, 13.0, BLADES_EDGE_MOUNTAINS },

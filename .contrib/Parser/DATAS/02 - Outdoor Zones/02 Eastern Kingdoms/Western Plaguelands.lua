@@ -2861,7 +2861,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(50345, {	-- Alit
 					["coord"] = { 31.8, 72.2, WESTERN_PLAGUELANDS },
 					["timeline"] = { ADDED_5_1_0 },

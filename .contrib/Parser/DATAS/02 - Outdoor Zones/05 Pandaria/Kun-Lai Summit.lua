@@ -2121,7 +2121,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 30488,	-- The Missing Muskpaw
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
 							50817,	-- Ahone the Wanderer

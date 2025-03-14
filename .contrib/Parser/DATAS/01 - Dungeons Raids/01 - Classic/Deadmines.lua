@@ -311,7 +311,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 		}),
-		n(RARES, {
+		n(RARE, {
 			n(596, {	-- Brainwashed Noble
 				["description"] = "This is a rare that is not always present.\n\nLocated in the cavern before the instance.",
 				["coords"] = {

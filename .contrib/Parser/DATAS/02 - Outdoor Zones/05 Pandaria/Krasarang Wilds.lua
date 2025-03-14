@@ -131,7 +131,7 @@ root(ROOTS.Zones, {
 									}),
 								}),
 							}),
-							n(RARES, {
+							n(RARE, {
 								n(68318, {	-- Dalan Nightbreaker
 									["questID"] = 34062,
 									["isDaily"] = true,
@@ -1457,7 +1457,7 @@ root(ROOTS.Zones, {
 									["races"] = ALLIANCE_ONLY,
 								}),
 							}),
-							n(RARES, {	-- these aren't available until you unlock the faction
+							n(RARE, {	-- these aren't available until you unlock the faction
 								n(68321, {	-- Kar Warmaker
 									["coord"] = { 13.5, 54.8, KRASARANG_WILDS },	-- manually verified October 19, 2020
 									["races"] = ALLIANCE_ONLY,
@@ -2859,7 +2859,7 @@ root(ROOTS.Zones, {
 					}),
 	]]--
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
 							50787,	-- Arness the Scale

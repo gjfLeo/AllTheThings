@@ -2400,7 +2400,7 @@ root(ROOTS.Zones, {
 					}),
 					-- #endif
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(18695, {	-- Ambassador Jerrikar
 						["coords"] = {
 							{ 30.6, 58.2, SHADOWMOON_VALLEY },

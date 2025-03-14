@@ -2518,7 +2518,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(14487, {	-- Gluggl [CATA+] / Gluggle
 					["coords"] = {
 						-- #if AFTER CATA

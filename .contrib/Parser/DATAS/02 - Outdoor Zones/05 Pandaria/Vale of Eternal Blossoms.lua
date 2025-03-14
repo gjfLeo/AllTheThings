@@ -1191,7 +1191,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
 							50822,	-- Ai-Ran the Shifting Cloud

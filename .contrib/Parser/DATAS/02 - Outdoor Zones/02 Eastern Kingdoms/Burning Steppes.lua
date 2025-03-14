@@ -2130,7 +2130,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(50725, {	-- Azelisk
 					["coord"] = { 71.8, 23.0, BURNING_STEPPES },
 					["timeline"] = { ADDED_5_1_0 },

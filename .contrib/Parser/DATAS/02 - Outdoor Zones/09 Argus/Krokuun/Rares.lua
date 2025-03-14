@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(KROKUUN, {
-		n(RARES, {
+		n(RARE, {
 			n(124775, {	-- Commander Endaxis
 				["questID"] = 48564,
 				["isDaily"] = true,

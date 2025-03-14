@@ -2374,7 +2374,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					-- Coords have been confirmed on rares except for Edge of Reality, Poundfist, and few longer spawning rares in The Pit.
 					n(86268, {	-- Alkali
 						["questID"] = 37371,

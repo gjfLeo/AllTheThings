@@ -1290,7 +1290,7 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
 							50772,	-- Eshelon

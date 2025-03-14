@@ -150,7 +150,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(209915, {	-- Amalgamation of Dreams
 					["providers"] = {
 						{ "n", 210063 },	-- Coagulating Dreams (vignette)

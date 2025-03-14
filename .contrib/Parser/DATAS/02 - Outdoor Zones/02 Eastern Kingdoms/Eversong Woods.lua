@@ -1968,7 +1968,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(16854, {	-- Eldinarcus
 					["coords"] = {
 						{ 68.4, 46.0, EVERSONG_WOODS },

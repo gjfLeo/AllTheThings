@@ -3631,7 +3631,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(5824, {	-- Captain Flat Tusk <Captain of the Battleguard>
 					["coords"] = {
 						{ 38.6, 53.8, DUROTAR },

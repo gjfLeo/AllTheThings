@@ -1811,7 +1811,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(18682, {	-- Bog Lurker
 						["coords"] = {
 							{ 23.0, 21.4, ZANGARMARSH },

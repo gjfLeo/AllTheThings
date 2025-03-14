@@ -5,7 +5,7 @@
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(SURAMAR, {
-			n(RARES, {
+			n(RARE, {
 				n(111649, {	-- Ambassador D'vwinn
 					["questID"] = 43794,
 					["coord"] = { 54.8, 63.8, SURAMAR },

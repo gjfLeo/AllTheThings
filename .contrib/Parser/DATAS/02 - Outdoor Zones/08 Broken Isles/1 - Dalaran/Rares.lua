@@ -5,7 +5,7 @@
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(LEGION_DALARAN, {
-			n(RARES, {
+			n(RARE, {
 				n(SPECIAL, sharedData({["sharedDescription"] = "Can be made hostile by Demon Hunters using 'Spectral Sight' or Paladins wielding 'Truthguard' allowing anyone to get credit."},{
 					n(108628, {	-- Armond Thaco
 						["questID"] = 42763,

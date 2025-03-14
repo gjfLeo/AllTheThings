@@ -1691,7 +1691,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(18689, {	-- Crippler
 						["coords"] = {
 							{ 30.4, 63.8, TEROKKAR_FOREST },

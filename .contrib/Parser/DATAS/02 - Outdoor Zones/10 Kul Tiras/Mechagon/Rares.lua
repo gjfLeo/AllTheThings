@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(MECHAGON, {
-		n(RARES, {
+		n(RARE, {
 			n(COMMON_BOSS_DROPS, {
 				i(168908, {	-- Blueprint: Experimental Adventurer Augment
 					["description"] = "This blueprint will drop from the first rare you kill once you've reached Neutral with the Rustbolt Resistance.",
@@ -441,7 +441,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(KUL_TIRAS, {
 		m(MECHAGON, {
-			n(RARES, {
+			n(RARE, {
 				-- First rare kill
 				q(55913),	-- Arachnoid Harvester
 				q(56996),	-- Armored Vaultbot

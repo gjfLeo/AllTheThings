@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["isWeekly"] = true,
 					}),
 				}),
-				n(RARES, sharedData({
+				n(RARE, sharedData({
 					["isDaily"] = true,
 				},{
 					n(229852, {	-- Coralweaver Calliso

@@ -6,7 +6,7 @@ local function bo(questID)
 end
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(THE_MAW, {
-		n(RARES, sharedData({ ["isDaily"] = true }, {
+		n(RARE, sharedData({ ["isDaily"] = true }, {
 			n(COMMON_BOSS_DROPS, {
 				i(184395, {	-- Fallen Adventurer's Cache
 					["description"] = "Drops from numerous rares, elites, and named mobs in The Maw and Korthia.",
@@ -537,7 +537,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(SHADOWLANDS, {
 		m(THE_MAW, {
-			n(RARES, {
+			n(RARE, {
 				-- q(64258),	-- Carriage Crusher / Traitor Balthier
 				-- q(64439),	-- Carriage Crusher / Traitor Balthier
 				q(62722),	-- triggered when killing Naelcrotix / Eketra (possible Wrath of the Jailer rare)

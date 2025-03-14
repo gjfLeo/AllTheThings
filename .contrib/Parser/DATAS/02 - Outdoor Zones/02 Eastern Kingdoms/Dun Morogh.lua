@@ -3796,7 +3796,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["_drop"] = { "g" },
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(1130, {	-- Bjarn
 					-- #if AFTER CATA
 					["coords"] = {

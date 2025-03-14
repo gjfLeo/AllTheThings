@@ -3840,7 +3840,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(3773, {	-- Akkrilus
 					["coords"] = {
 						-- #if AFTER CATA

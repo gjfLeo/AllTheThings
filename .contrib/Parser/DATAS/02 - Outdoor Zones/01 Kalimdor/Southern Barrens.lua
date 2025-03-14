@@ -2353,7 +2353,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(5797, {	-- Aean Swiftriver <Alliance Outrunner>
 					-- #if BEFORE CATA
 					["coords"] = {

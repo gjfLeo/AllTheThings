@@ -2186,7 +2186,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(50891, {	-- Boros
 					["coord"] = { 48.4, 35.6, ARATHI_HIGHLANDS },
 					["timeline"] = { ADDED_5_2_0 },

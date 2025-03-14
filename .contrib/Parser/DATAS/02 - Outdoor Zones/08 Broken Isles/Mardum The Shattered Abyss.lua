@@ -186,7 +186,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(97058, { -- Count Nefarious
 						["questID"] = 40231,	-- Nefarious Ring
 						["coord"] = { 63.7, 23.2, 672 },
@@ -479,7 +479,7 @@ root(ROOTS.Zones, {
 								["sourceQuests"] = { 39688, 40255 },	-- Between Us and Freedom
 							}),
 						}),
-						n(RARES, {
+						n(RARE, {
 							n(96997, {	-- Kethrazor
 								["questID"] = 40251,	-- Inquisitor's Glowering Eye
 								["coord"] = { 49.5, 32.8, 677 },

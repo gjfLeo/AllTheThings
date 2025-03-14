@@ -1335,7 +1335,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					-- Coords have been confirmed on rares except for Edge of Reality, Iron Siegeworks rares (looks like the daily needs to be active), and some noted rares on longer spawn timers.
 					n(84378, {	-- Ak'ox the Slaughterer
 						["questID"] = 37525,
@@ -2076,7 +2076,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["time
 				q(34511),	-- Tracking Event: Ogre Drag - triggers after riding the wolf down Bladespire Citadel during "Moving In" (questID 33657)
 				q(34715),	-- Tracking Flag: Shamanstone Summons - appoach the frostwolf shaman stone in Wor'gol while on "Honor Has Its Rewards" to start the dialog (questID 33816)
 			}),
-			n(RARES, {
+			n(RARE, {
 				q(34519),	-- Vignette: Brotoculus - tertiary trigger for g'lok the Frozen rare
 				q(34517),	-- Vignette: Gargantuan Frostbeak - secondary trigger for Ug'lok the Frozen rare
 				q(37652),	-- Vignette: Jabberjaw - secondary trigger for Jabberjaw rare

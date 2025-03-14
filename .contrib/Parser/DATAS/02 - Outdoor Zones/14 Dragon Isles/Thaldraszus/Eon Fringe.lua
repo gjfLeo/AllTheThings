@@ -256,7 +256,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					},
 				}),
 			})),
-			n(RARES, {
+			n(RARE, {
 				n(205865, {	-- Zal'kir the Chosen <The Maw of K'Tanth>
 					["coord"] = { 59.8, 70.6, THALDRASZUS },
 					["questID"] = 76170,

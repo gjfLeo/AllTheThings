@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(DRUSTVAR, {
-		n(RARES, {
+		n(RARE, {
 			o(277333, {	-- Ancient Sarcophagus
 				["modelScale"] = 2,
 				["questID"] = 49137,

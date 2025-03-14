@@ -630,7 +630,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					-- Specific Rare Drops
 					n(COMMON_BOSS_DROPS, {
 						i(94566, {	-- Fortuitous Coffer
@@ -812,7 +812,7 @@ root(ROOTS.Zones, {
 						["provider"] = {"i",95350},	-- Incantation of Vu
 					}),
 				}),
-				n(RARES, sharedData({
+				n(RARE, sharedData({
 					["cost"] = {{"i",94221,3}},	-- Shan'ze Ritual Stone
 				},{
 					n(69767, {	-- Ancient Mogu Guardian

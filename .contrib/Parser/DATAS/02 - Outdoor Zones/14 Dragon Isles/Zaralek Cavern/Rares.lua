@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
 	m(ZARALEK_CAVERN, {
-		n(RARES, {
+		n(RARE, {
 			n(COMMON_BOSS_DROPS, {
 				["crs"] = {
 					203515,	-- Alcanon
@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 				},
 			}),
 		}),
-		n(RARES, sharedData({ ["isDaily"] = true }, {
+		n(RARE, sharedData({ ["isDaily"] = true }, {
 			n(203515, {	-- Alcanon
 				["coord"] = { 56.4, 73.3, ZARALEK_CAVERN },
 				["questID"] = 75284,	-- Old QuestID: 75550

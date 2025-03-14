@@ -2,7 +2,7 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
-	n(RARES, {
+	n(RARE, {
 		n(COMMON_BOSS_DROPS, {
 			pvp(i(168802, {	-- Nazjatar Battle Commendation
 				["description"] = "Drops from Rares while in Warmode and from the zone Battle.",
@@ -511,7 +511,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(NAZJATAR, {
-		n(RARES, {
+		n(RARE, {
 			q(56582),	-- killing King Gakula in Warmode
 			q(56601),	-- Banescale the Packfather in Warmode
 			q(56884),	-- First time killing Avarius (as miner?)

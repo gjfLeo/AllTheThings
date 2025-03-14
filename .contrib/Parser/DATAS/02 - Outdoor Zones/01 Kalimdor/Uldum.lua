@@ -1517,7 +1517,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 				})),
 			}),
-			n(RARES, {
+			n(RARE, {
 				n(50065, {	-- Armagedillo
 					["coord"] = { 45.0, 42.5, ULDUM },
 					["groups"] = {

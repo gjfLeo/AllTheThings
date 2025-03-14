@@ -1971,7 +1971,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					n(18697, {	-- Chief Engineer Lorthander
 						["coords"] = {
 							{ 26.8, 36.0, NETHERSTORM },

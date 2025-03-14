@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
 	m(KORTHIA, {
-		n(RARES, sharedData({ ["isDaily"] = true }, {
+		n(RARE, sharedData({ ["isDaily"] = true }, {
 			n(179769, {	-- Consumption
 				["description"] = "Only gives daily kill and achievement credit when it is in Rare or Rare Elite form.\n\nWhen it spawns, there is a zonewide announcement: |cFFf73f3fMawsworn Ruiner yells: Soon it shall feed off the Maw Walkers!|r",
 				["crs"] = {
@@ -234,7 +234,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {
 	m(SHADOWLANDS, {
 		m(KORTHIA, {
-			n(RARES, {
+			n(RARE, {
 				q(64572),	-- i think this is a daily lockout for receiving a Soultwining Crescent from a rare (also triggers on treasures)
 				q(64699, name(HEADERS.Item, 187327)),	-- popped when looting 48-research item Encrypted Korthian Journal from Fleshwing
 				q(64703),	-- popped when looting 48-research item Half-Completed Runeforge Pattern from Xyraxz

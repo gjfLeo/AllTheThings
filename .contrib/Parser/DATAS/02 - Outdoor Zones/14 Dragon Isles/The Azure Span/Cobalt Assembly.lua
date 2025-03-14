@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["coord"] = { 49.0, 23.1, THE_AZURE_SPAN },
 				}),
 			}),
-			n(RARES, sharedData({
+			n(RARE, sharedData({
 				["isDaily"] = true,
 			},{
 				n(201553,	-- Grand Artificer Zeerak

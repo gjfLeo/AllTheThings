@@ -879,7 +879,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 				}),
-				n(RARES, {
+				n(RARE, {
 					-- Coords have been confirmed on rares except for some noted rares on longer spawn timers.
 					n(92766, {	-- Akrrilo <Shadowhunter of the Blackfang>
 						["description"] = "\nPurchase a Minor Blackfang Challenge Totem from Z'tenga the Walker at |cFFFFFFFF55.2, 74.8|r.  Use the totem in the arena at |cFFFFFFFF54.2, 80.8|r to summon Akrrilo.\n\n",
