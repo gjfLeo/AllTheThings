@@ -2355,7 +2355,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 		},
 	}),
 	-- #if AFTER 8.3.0
-	n(RARE, {
+	n(RARES, {
 		i(174865, {	-- A Tiny Winter Hat (Pepe)
 			["questID"] = 58901,
 			["coords"] = {

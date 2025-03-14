@@ -155,7 +155,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							},
 						}),
 					})),
-					n(RARE, sharedData({
+					n(RARES, sharedData({
 						["isDaily"] = true,
 					}, {
 						n(158557, {	-- Actiss the Deceiver
@@ -563,7 +563,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							},
 						}),
 					})),
-					n(RARE, sharedData({
+					n(RARES, sharedData({
 						["isDaily"] = true,
 					}, {
 						n(157170, {	-- Acolyte Taspu
@@ -916,7 +916,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						}),
 					})),
 					-- Common Items
-					n(RARE, {
+					n(RARES, {
 						n(COMMON_BOSS_DROPS, {
 							["crs"] = {
 								155703,	-- Anq'uri the Titanic
@@ -943,7 +943,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							},
 						}),
 					}),
-					n(RARE, sharedData({
+					n(RARES, sharedData({
 						["isDaily"] = true,
 					}, {
 						n(162171, {	-- Captain Dunewalker
@@ -1526,7 +1526,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["sym"] = {{"select","questID",57157},{"pop"}},	-- Assault: The Black Empire
 					}),
 				}),
-				n(RARE, sharedData({
+				n(RARES, sharedData({
 					["isDaily"] = true,
 				}, {
 					n(155703, {	-- Anq'uri the Titanic

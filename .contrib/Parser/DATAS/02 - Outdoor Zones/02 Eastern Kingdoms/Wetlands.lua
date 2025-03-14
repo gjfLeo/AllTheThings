@@ -1856,7 +1856,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(211965, {	-- Carrodin
 					["coord"] = { 47.6, 64.6, WETLANDS },

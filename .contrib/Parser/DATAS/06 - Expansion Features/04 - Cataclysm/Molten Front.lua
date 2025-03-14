@@ -1649,7 +1649,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(54338, {	-- Anthriss
 					["coord"] = { 54.8, 41.0, THE_MOLTEN_FRONT },
 				}),

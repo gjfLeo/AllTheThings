@@ -53,7 +53,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["coord"] = { 37.9, 67.5, ARCHONS_RISE },
 								}),
 							}),
-							n(RARE, {
+							n(RARES, {
 								WINGFLAYTER_THE_CRUEL,
 							}),
 							n(TREASURES, {
@@ -147,7 +147,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							}),
 						}),
 						n(TIER_THREE, {
-							n(RARE, {
+							n(RARES, {
 								ORSTUS_AND_SOTIROS,
 							}),
 						}),

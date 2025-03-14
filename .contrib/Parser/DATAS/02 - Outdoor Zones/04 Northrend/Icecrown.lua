@@ -2245,7 +2245,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 13231,	-- The Broken Front
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(32501, {	-- High Thane Jorfus
 						["coords"] = {
 							{ 32.0, 69.8, ICECROWN },

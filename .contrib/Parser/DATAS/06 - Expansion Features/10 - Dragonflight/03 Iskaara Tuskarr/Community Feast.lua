@@ -37,7 +37,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						title(471),	-- Soupervisor <Name>
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(197557, {	-- Bisquius <The Feast Beast>
 						["coord"] = { 13.6, 48.6, THE_AZURE_SPAN },
 						["questID"] = 74097,

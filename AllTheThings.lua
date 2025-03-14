@@ -6714,7 +6714,7 @@ customWindowUpdates.Bounty = function(self, force, got)
 		-- Update this when we merge over Classic's extended window logic.
 		-- NOTE: Everything we want is current marked with a u value of 45, so why not just pull that in? :)
 		NestObjects(header, {
-			app.CreateNPC(app.HeaderConstants.RARE, {
+			app.CreateNPC(app.HeaderConstants.RARES, {
 				app.CreateNPC(87622, {	-- Ogom the Mangler
 					['g'] = {
 						app.CreateItemSource(67041, 119366),

@@ -2797,7 +2797,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(2186, {	-- Carnivous the Breaker
 					-- #if AFTER CATA
 					["coord"] = { 44.4, 83.0, DARKSHORE },

@@ -199,7 +199,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["maps"] = { THE_BARRENS },
 				})),
 			}),
-			n(RARE, {
+			n(RARES, {
 				applyclassicphase(SOD_PHASE_TWO, n(218931, {	-- Dark Rider
 					["provider"] = { "i", 216941 },	-- Ariden's Sigil
 					["coord"] = { 43, 29, DEADWIND_PASS },

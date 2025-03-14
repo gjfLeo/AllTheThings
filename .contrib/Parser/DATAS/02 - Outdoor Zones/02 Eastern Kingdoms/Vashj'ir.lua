@@ -889,7 +889,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 					}),
-					n(RARE, {
+					n(RARES, {
 						n(50050, {	-- Shok'sharak
 							["coords"] = {
 								{ 41.8, 32.8, VASHJIR_ABYSSAL_DEPTHS },
@@ -1727,7 +1727,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 					}),
-					n(RARE, {
+					n(RARES, {
 						n(49913, {	-- Lady La-La
 							["coords"] = {
 								{ 56.4, 77.0, VASHJIR_KELPTHAR_FOREST },
@@ -3141,7 +3141,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 					}),
-					n(RARE, {
+					n(RARES, {
 						n(50052, {	-- Burgy Blackheart
 							["coord"] = { 57.0, 69.6, VASHJIR_SHIMMERING_EXPANSE },
 							["groups"] = {

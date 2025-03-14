@@ -4192,7 +4192,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(10819, {	-- Baron Bloodbane
 					["coord"] = { 35.4, 21.2, EASTERN_PLAGUELANDS },
 					["timeline"] = { CREATED_1_12_1, ADDED_4_0_3 },

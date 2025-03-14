@@ -2992,7 +2992,7 @@ root(ROOTS.Zones, {
 						["isBreadcrumb"] = true,
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(32409, {	-- Crazed Indu'le Survivor
 						["coords"] = {
 							{ 15.6, 45.4, DRAGONBLIGHT },

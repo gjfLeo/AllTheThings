@@ -1250,7 +1250,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 				},
 			}),
 		}),
-		n(RARE, sharedData({
+		n(RARES, sharedData({
 			["lockCriteria"] = { 1,
 				"questID", 55991,	-- An End to Beginnings [A]
 				"questID", 59985,	-- An End to Beginnings [H]

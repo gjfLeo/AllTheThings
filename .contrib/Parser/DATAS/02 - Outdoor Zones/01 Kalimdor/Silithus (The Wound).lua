@@ -1313,7 +1313,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 					["races"] = HORDE_ONLY,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(132591, {	-- Ogmot the Mad
 					["questID"] = 50334,
 					["coord"] = { 28.9, 74.6, SILITHUS },
@@ -1395,7 +1395,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			n(EMISSARY_QUESTS, {
 				q(54611),	-- Paragon of the Champions of Azeroth
 			}),
-			n(RARE, {
+			n(RARES, {
 				q(50225),	-- first kill of Ogmot the Mad
 			}),
 		}),

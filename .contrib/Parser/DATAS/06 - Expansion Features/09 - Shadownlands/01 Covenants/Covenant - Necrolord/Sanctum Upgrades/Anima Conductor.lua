@@ -55,7 +55,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									["coord"] = { 49.0, 36.0, SEAT_OF_THE_PRIMUS },
 								}),
 							}),
-							n(RARE, {
+							n(RARES, {
 								GIEGER,
 							}),
 							n(TREASURES, {
@@ -162,7 +162,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							})),
 						}),
 						n(TIER_THREE, {
-							n(RARE, {
+							n(RARES, {
 								q(58454, {	-- Spoiling For A Fight
 									["provider"] = { "n", 159830 },	-- Au'narim
 									["isDaily"] = true,

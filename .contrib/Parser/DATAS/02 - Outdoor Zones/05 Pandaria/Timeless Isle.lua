@@ -1480,7 +1480,7 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 73303 },	-- Emperor Shaohao
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					--[[
 					{	-- Blackguard's Jetsam
 						["coord"] = { 22.69, 58.93, TIMELESS_ISLE },
@@ -3305,7 +3305,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MOP, bubbleDownSelf({ ["time
 			n(QUESTS, {
 				q(33385),	-- Kairoz Weekly Tracking Quest
 			}),
-			n(RARE, {
+			n(RARES, {
 				q(33348),	-- "Tom" Bone Apart - Intro Tracking Quest — approaching Zarhym inside the cavern of lost spirits
 				q(44696),	-- Tracking Quest - Daily - Watcher Osu — alternate Watcher Osu
 				q(33288),	-- Tracking Quest - First - Archiereus of Flame

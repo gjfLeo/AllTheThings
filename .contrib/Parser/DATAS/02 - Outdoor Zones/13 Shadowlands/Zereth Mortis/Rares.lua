@@ -3,14 +3,14 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, {
 	m(ZERETH_MORTIS, {
-		n(RARE, {
+		n(RARES, {
 			n(COMMON_BOSS_DROPS, {
 				i(189715, {	-- Pocopoc's Diamond Vambraces
 					["questID"] = 65481,
 				}),
 			}),
 		}),
-		n(RARE, {
+		n(RARES, {
 			header(HEADERS.Achievement, 15392, {	-- Dune Dominance
 				["description"] = "Upon defeat of any other Rare creature in ZM, there is a small chance that one of these 'special' rares will begin to activate.\nIt is not currently known whether there is a minimum cooldown between spawns, though it's been reported as quick as 50 min.",
 				["g"] = bubbleDownFiltered({["isDaily"]=true},FILTERFUNC_questID,{
@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				}),
 			}),
 		}),
-		n(RARE, sharedData({ ["isDaily"] = true }, {
+		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(179006, {	-- Akkaris <Annelid Prime>
 				["coord"] = { 64.7, 33.7, ZERETH_MORTIS },
 				["questID"] = 65552,
@@ -408,7 +408,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_2_0 } }, {
 	m(SHADOWLANDS, {
 		m(ZERETH_MORTIS, {
-			n(RARE, {
+			n(RARES, {
 				q(65707),	-- Triggered when killing Phalangax, the Final Grasp
 				q(65558),	-- Triggered when killing Edra, the Will Grazer
 				--q(65637),	-- Triggered when killing General Zarathura <Army of the Endless>

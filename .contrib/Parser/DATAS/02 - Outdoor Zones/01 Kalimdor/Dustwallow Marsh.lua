@@ -3492,7 +3492,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(50784, {	-- Anith
 					["coord"] = { 32.6, 30.8, DUSTWALLOW_MARSH },
 					["timeline"] = { ADDED_5_2_0 },

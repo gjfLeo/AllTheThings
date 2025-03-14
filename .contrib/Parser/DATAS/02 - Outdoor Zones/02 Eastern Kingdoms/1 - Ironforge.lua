@@ -1446,7 +1446,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			-- #if AFTER 4.0.3.13277
-			n(RARE, {
+			n(RARES, {
 				n(51596, {	-- Wildhammer Fact Checker
 					["coord"] = { 38.6, 54.8, IRONFORGE },
 					["description"] = "AKA Red Shirt Guy\n\nYou must be a member of the Horde in order to attack this NPC.",

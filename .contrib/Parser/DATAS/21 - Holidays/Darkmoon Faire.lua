@@ -3275,7 +3275,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		}))),
 		-- #endif
 		-- #if AFTER 5.0.1.15799
-		n(RARE, {
+		n(RARES, {
 			n(58336, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 }, }, {	-- Darkmoon Rabbit
 				["coord"] = { 75.69, 78.17, DARKMOON_ISLAND },
 				["timeline"] = { ADDED_5_0_4 },

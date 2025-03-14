@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_5 } }, {
 							i(169106),	-- Thin Jelly
 						},
 					}),
-					n(RARE, sharedData({
+					n(RARES, sharedData({
 						["coords"] = {
 							{ 25.6, 73.2, STORMSONG_VALLEY },
 							{ 33.4, 32.8, STORMSONG_VALLEY },

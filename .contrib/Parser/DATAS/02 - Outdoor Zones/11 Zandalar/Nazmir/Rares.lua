@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(NAZMIR, {
-		n(RARE, {
+		n(RARES, {
 			n(133505, {	-- Aiji the Accursed
 				["questID"] = 50339,
 				["coord"] = { 53.0, 72.1, NAZMIR },

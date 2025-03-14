@@ -3056,7 +3056,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(50335, {	-- Alitus
 					["coord"] = { 46.8, 66.8, HILLSBRAD_FOOTHILLS },
 					["timeline"] = { ADDED_5_2_0 },

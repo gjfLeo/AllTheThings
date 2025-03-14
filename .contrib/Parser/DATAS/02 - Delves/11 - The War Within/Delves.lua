@@ -1488,7 +1488,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		q(82712),	-- Delves: Trouble Up and Down Khaz Algar
 	})),
-	n(RARE, {
+	n(RARES, {
 		-- TODO: These might not appear in all delves, look into refining these down
 		n(236886, {	-- Hovering Menace
 			["timeline"] = { ADDED_11_1_0 },

@@ -60,7 +60,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PIRATES_DAY, n(PIRATES_DAY_HEADER, {
 				},
 			}),
 		}),
-		n(RARE, {
+		n(RARES, {
 			n(108715, {  -- Ol' Eary
 				["coord"] = { 37.8, 66.2, THE_CAPE_OF_STRANGLETHORN },
 				["timeline"] = { ADDED_7_0_3 },

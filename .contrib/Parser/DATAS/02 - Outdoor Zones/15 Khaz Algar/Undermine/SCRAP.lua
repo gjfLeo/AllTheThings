@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["isWeekly"] = true,
 					}),
 				}),
-				FromSCRAP(n(RARE, {
+				FromSCRAP(n(RARES, {
 					n(234621, {	-- Gallagio Garbage <Luxury Trash>
 						["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar to 500 during a S.C.R.A.P. Job event in Undermine.",
 						["questID"] = 87007,

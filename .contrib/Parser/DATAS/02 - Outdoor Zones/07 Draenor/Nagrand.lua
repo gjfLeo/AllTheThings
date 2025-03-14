@@ -305,7 +305,7 @@ root(ROOTS.Zones, {
 									["isDaily"] = true,
 								}),
 							}),
-							n(RARE, {
+							n(RARES, {
 								n(86774, {	-- Aogexon
 									["coord"] = { 51.6, 16.1, DRAENOR_NAGRAND },
 									["g"] = {
@@ -1801,7 +1801,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					-- Coords have been confirmed on rares except for Luk'hok, Nakk, and a few noted long spawns.
 					n(82899, {	-- Ancient Blademaster
 						["questID"] = 35778,

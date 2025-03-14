@@ -6,7 +6,7 @@ root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(STORMHEIM, {
 			m(HELHEIM, {
-				n(RARE, {
+				n(RARES, {
 					n(92040, {	-- Fenri
 						["questID"] = 38461,
 						["coord"] = { 84.6, 49.2, HELHEIM },

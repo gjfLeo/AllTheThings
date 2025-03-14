@@ -102,7 +102,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									["coord"] = { 50.1, 63.7, THE_ROOTS },
 								}),
 							}),
-							n(RARE, {
+							n(RARES, {
 								STAR_LAKE_AMPHITHEATER,
 							}),
 							n(TREASURES, {
@@ -241,7 +241,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 							})),
 						}),
 						n(TIER_THREE, {
-							n(RARE, {
+							n(RARES, {
 								VALFIR,
 							}),
 						}),

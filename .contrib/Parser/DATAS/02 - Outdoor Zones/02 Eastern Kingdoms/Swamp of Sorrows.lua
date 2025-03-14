@@ -1610,7 +1610,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(50882, {	-- Chupacabros
 					["coord"] = { 27.8, 62.0, SWAMP_OF_SORROWS },
 					["timeline"] = { ADDED_5_1_0 },

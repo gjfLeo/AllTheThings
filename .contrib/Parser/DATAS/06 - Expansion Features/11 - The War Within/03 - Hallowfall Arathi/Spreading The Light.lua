@@ -422,7 +422,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						},
 					}),
 				})),
-				n(RARE, sharedDataSelf({
+				n(RARES, sharedDataSelf({
 						["isDaily"] = true,
 				},{
 					n(206514, {	-- Crazed Cabbage Smacker

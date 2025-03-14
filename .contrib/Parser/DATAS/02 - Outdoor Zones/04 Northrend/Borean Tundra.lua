@@ -3088,7 +3088,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(32358, {	-- Fumblub Gearwind
 						["coords"] = {
 							{ 67.0, 23.0, BOREAN_TUNDRA },

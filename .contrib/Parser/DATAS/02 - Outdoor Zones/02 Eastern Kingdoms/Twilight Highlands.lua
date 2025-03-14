@@ -3259,7 +3259,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_8_2_0 },
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(50085, {	-- Overlord Sunderfury
 					["coord"] = { 58.0, 33.8, TWILIGHT_HIGHLANDS },
 					["groups"] = {

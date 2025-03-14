@@ -455,7 +455,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["provider"] = { "i", 208734 },	-- Waterlogged Ledger (QI!)
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(208029, {	-- Doomshadow
 					["coord"] = { 27.75, 46.20, THE_AZURE_SPAN },
 					["g"] = {

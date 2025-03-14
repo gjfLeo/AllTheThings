@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					explorationHeader({
 						exploration(5695),	-- Ahn'Qiraj: The Fallen Kingdom
 					}),
-					n(RARE, {
+					n(RARES, {
 						n(50747, {	-- Tix
 							["coord"] = { 60.8, 6.6, AHNQIRAJ_THE_FALLEN_KINGDOM },
 							["timeline"] = { ADDED_5_2_0 },
@@ -2127,7 +2127,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 				})),
 			}),
-			n(RARE, {
+			n(RARES, {
 				o(180456, {	-- Lesser Wind Stone
 					["description"] = "Summons one of 4 Abyssal Templars. The ritual requires a Twilight Trappings set. To guarantee that a specific Templar is summoned, a Crest of Beckoning can be used.",
 					["cost"] = {

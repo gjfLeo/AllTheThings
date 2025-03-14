@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(HALLOWFALL, {
-		n(RARE, sharedData({ ["isDaily"] = true }, {
+		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(207802, {	-- Beledar's Spawn
 				["description"] = "Spawns immediately somewhere in the zone the moment Beledar shifts into its Void state.",
 				["questID"] = 81763,
@@ -118,7 +118,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			--	["questID"] = 80486,
 			--}),
 		})),
-		n(RARE, {
+		n(RARES, {
 			n(218458, {	-- Deepfiend Azellix
 				["coord"] = { 72.1, 64.3, HALLOWFALL },
 				["questID"] = 80011,
@@ -178,7 +178,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(KHAZ_ALGAR, {
 		m(HALLOWFALL, {
-			n(RARE, {
+			n(RARES, {
 				q(85164, { -- Weekly reputation: Beledar's Spawn
 					["name"] = "Beledar's Spawn weekly reputation obtained.",
 				}),

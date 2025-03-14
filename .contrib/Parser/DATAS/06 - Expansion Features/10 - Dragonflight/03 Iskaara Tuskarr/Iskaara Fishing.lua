@@ -408,7 +408,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 				},
 			})),
-			n(RARE, sharedData({
+			n(RARES, sharedData({
 				["sharedDescription"] = "Chance to spawn after using 5 |cffffffffOminous Conches|r at specific |cffffffffLarge Lunker Sighting|r Locations.\nWhich Lunker Sighting is up changes every week & if there is no fish icon, the pool is not up and you cannot spawn a Lunker at that location.",
 				["cost"] = { { "i", 194701, 5 } },	-- 5x Ominous Conch
 				["isDaily"] = true,

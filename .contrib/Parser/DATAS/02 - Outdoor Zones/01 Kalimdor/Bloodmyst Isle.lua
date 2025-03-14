@@ -1335,7 +1335,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(22060, {	-- Fenissa the Assassin
 					["coords"] = {
 						{ 15.6, 49.2, BLOODMYST_ISLE },	-- vector coil, top

@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(MALDRAXXUS, {
-		n(RARE, {
+		n(RARES, {
 			n(157226, {	-- Pool of Mixed Monstrosities
 				["description"] = "The rare that is summoned is determined by the combination of Miscible Ooze (yellow), Mephitic Goo (blue), and Viscous Oil (red) thrown into the pool.",
 				["coord"] = { 58.6, 74.2, MALDRAXXUS },
@@ -92,7 +92,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				},
 			}),
 		}),
-		n(RARE, sharedData({ ["isDaily"] = true }, {
+		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(162727, {	-- Bubbleblood
 				["coord"] = { 52.2, 35.1, MALDRAXXUS },
 				["questID"] = 58870,
@@ -316,7 +316,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(SHADOWLANDS, {
 		m(MALDRAXXUS, {
-			n(RARE, {
+			n(RARES, {
 				q(62805),	-- Pulsing Leech secondary quest
 				q(61989),	-- Deadly Dapperling secondary quest
 				q(61987),	-- Deepscar secondary kill

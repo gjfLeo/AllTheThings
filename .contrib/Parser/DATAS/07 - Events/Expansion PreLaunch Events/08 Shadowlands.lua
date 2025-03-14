@@ -426,7 +426,7 @@ root(ROOTS.WorldEvents, n(EXPANSION_PRELAUNCH, bubbleDown({ ["timeline"] = { ADD
 				["lvl"] = { 50 },
 			}),
 		}),
-		n(RARE, {
+		n(RARES, {
 			n(169035, {	-- Nathanos Blightcaller
 				["coord"] = { 23.5, 68.4, EASTERN_PLAGUELANDS },
 				["isRaid"] = true,

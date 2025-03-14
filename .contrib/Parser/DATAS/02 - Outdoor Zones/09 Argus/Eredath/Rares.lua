@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(EREDATH, {
-		n(RARE, {
+		n(RARES, {
 			n(126887, {	-- Ataxon
 				["questID"] = 48709,	-- killID
 				["isDaily"] = true,

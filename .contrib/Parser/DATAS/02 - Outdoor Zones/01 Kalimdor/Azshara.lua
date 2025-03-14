@@ -2418,7 +2418,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 45,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(6648, {	-- Antilos
 					-- #if AFTER CATA
 					["coord"] = { 45.2, 27.2, AZSHARA },

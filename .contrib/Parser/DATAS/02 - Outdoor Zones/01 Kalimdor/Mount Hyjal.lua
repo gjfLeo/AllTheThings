@@ -2110,7 +2110,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 61.4, 32.8, MOUNT_HYJAL },
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, n(54318, {	-- Ankha
 					["coords"] = {
 						{ 28.0, 52.0, MOUNT_HYJAL },

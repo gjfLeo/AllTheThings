@@ -61,7 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 				}),
-				n(RARE, sharedData({
+				n(RARES, sharedData({
 					["isDaily"] = true,
 				},{
 					n(227545, {	-- Ikir the Flotsurge

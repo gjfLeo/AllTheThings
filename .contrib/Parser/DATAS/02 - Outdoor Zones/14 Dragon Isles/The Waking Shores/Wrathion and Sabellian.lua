@@ -456,7 +456,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(190986, {	-- Battlehorn Pyrhus
 					["coord"] = { 28.6, 58.8, THE_WAKING_SHORES },
 					["questID"] = 74040,

@@ -1678,7 +1678,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(8298, {	-- Akubar the Seer
 					-- #if AFTER CATA
 					["coord"] = { 73.6, 55.6, BLASTED_LANDS },

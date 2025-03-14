@@ -1603,7 +1603,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 10,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				-- #if AFTER CATA
 				n(1920, {	-- Ambermill Spellscribe [CATA+] / Dalaran Spellscribe
 					["coord"] = { 63.5, 58.3, SILVERPINE_FOREST },

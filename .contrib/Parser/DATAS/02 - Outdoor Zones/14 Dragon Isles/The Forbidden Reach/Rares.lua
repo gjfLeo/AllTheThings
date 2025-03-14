@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }, {
 	m(THE_FORBIDDEN_REACH, {
-		n(RARE, sharedData({
+		n(RARES, sharedData({
 			["isDaily"] = true,
 		},{
 			n(COMMON_BOSS_DROPS, {
@@ -303,7 +303,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
 	m(DRAGON_ISLES, {
 		m(THE_FORBIDDEN_REACH, {
-			n(RARE, {
+			n(RARES, {
 				q(74926),	-- Tectonus secondary kill questID
 				q(74927),	-- Manathema secondary kill questID
 				q(74928),	-- Snarfang secondary kill questID

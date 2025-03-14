@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(OHNAHRAN_PLAINS, {
-		n(RARE, sharedData({ ["isDaily"] = true },{
+		n(RARES, sharedData({ ["isDaily"] = true },{
 			n(193168, {	-- Biryuk
 				["coord"] = { 72.5, 56.2, OHNAHRAN_PLAINS },
 				["questID"] = 73903,

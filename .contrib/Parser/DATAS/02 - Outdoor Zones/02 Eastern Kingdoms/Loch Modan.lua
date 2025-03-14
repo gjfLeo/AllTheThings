@@ -1673,7 +1673,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(45380, {	-- Ashtail
 					["coords"] = {
 						{ 68.8, 38.2, LOCH_MODAN },

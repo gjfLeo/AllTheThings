@@ -2910,7 +2910,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 11473,	-- A Traitor Among Us
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(32398, {	-- King Ping
 						["coords"] = {
 							{ 31.2, 56.8, HOWLING_FJORD },

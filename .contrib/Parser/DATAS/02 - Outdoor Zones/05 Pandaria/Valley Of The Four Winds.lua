@@ -2287,7 +2287,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(COMMON_BOSS_DROPS, {
 						["crs"] = {
 							51059,	-- Blackhoof

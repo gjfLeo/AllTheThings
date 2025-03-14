@@ -75,7 +75,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 				})),
 			}),
-			n(RARE, sharedData({
+			n(RARES, sharedData({
 				["isDaily"] = true,
 			},{
 				n(201543, {	-- Avalantus

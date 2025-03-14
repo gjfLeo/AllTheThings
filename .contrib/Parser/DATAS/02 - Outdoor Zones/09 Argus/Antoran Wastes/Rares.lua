@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 	m(ANTORAN_WASTES, {
-		n(RARE, {
+		n(RARES, {
 			n(127090, {	-- Admiral Rel'var
 				["questID"] = 48817,
 				["isDaily"] = true,

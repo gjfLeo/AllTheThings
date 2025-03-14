@@ -14,7 +14,7 @@ FREE_T_SHIRT_DAY_HEADER = createHeader({
 	},
 });
 root(ROOTS.Holidays, applyevent(EVENTS.FREE_T_SHIRT_DAY, n(FREE_T_SHIRT_DAY_HEADER, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {
-	n(RARE, {
+	n(RARES, {
 		n(145826, {	-- Orgrimmar Entertainer
 			["description"] = "This NPC wanders around in Ogrimmar and shoots T-Shirts on the ground where you can pick them up.",
 			["races"] = HORDE_ONLY,

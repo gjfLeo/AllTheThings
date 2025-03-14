@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(THE_RINGING_DEEPS, {
-		n(RARE, sharedData({ ["isDaily"] = true }, {
+		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(220265, {	-- Automaxor
 				["coord"] = { 52.6, 19.9, THE_RINGING_DEEPS },
 				["questID"] = 81674,
@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 		})),
-		n(RARE, {
+		n(RARES, {
 			n(220274, {	-- Aquelion
 				["coord"] = { 49.5, 66.2, THE_RINGING_DEEPS },	-- old coord: 55.0, 70.5?
 				["questID"] = 80557,
@@ -200,7 +200,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(KHAZ_ALGAR, {
 		m(THE_RINGING_DEEPS, {
-			n(RARE, {
+			n(RARES, {
 				q(84046, {	-- Weekly reputation: Automaxor
 					["name"] = "Automaxor weekly reputation obtained.",
 				}),

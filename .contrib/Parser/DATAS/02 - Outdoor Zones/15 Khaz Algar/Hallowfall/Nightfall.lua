@@ -65,7 +65,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 						},
 					}),
 				})),
-				n(RARE, {
+				n(RARES, {
 					n(241227),	-- Dissenter Glaivefur
 					n(241228),	-- Dissenter Oathland
 					n(241229),	-- Dissenter Fervormyt

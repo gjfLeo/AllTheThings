@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(BORALUS, {
-		n(RARE, {
+		n(RARES, {
 			n(139287, {	-- Sawtooth
 				["questID"] = 51877,
 				["coords"] = {

@@ -593,7 +593,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["crs"] = OUTDOOR_ULDAMAN_CRS,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(7057, {	-- Digmaster Shovelphlange
 					-- #if BEFORE 4.0.3
 					["description"] = "This guy spawns outside of the instance in the cave leading to the instance.",

@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(AZJ_KAHET, {
-		n(RARE, sharedData({ ["isDaily"] = true }, {
+		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(216042, {	-- Cha'tak
 				["description"] = "Inside the cave, behind the waterfall.",
 				["coord"] = { 70.7, 21.4, AZJ_KAHET },
@@ -166,7 +166,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 		})),
-		n(RARE, {
+		n(RARES, {
 			n(216031, {	-- Abyssal Devourer
 				["coord"] = { 47.4, 43.7, AZJ_KAHET },
 				["questID"] = 81695,
@@ -224,7 +224,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(KHAZ_ALGAR, {
 		m(AZJ_KAHET, {
-			n(RARE, {
+			n(RARES, {
 				q(84073, {	-- Weekly reputation: Cha'tak
 					["name"] = "Cha'tak weekly reputation obtained.",
 				}),

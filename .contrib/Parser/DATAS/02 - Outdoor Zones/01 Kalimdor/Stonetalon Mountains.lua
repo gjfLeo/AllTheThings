@@ -2734,7 +2734,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 16,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(50812, {	-- Arae
 					["coord"] = { 49.4, 65.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_5_2_0 },

@@ -3926,7 +3926,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(3672, {	-- Boahn <Druid of the Fang>
 					-- #if AFTER CATA
 					["coord"] = { 43.6, 65.8, NORTHERN_BARRENS },

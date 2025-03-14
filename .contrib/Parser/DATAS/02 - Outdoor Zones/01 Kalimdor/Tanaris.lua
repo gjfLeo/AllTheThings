@@ -5303,7 +5303,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(47386, {	-- Ainamiss the Hive Queen
 					["coords"] = {
 						{ 33.0, 49.0, TANARIS },

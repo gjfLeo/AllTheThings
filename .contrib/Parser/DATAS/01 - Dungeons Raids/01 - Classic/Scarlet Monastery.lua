@@ -443,7 +443,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								},
 							}),
 						}),
-						n(RARE, {
+						n(RARES, {
 							n(6488, {	-- Fallen Champion
 								["timeline"] = { REMOVED_5_0_4, ADDED_10_1_7 },
 								["groups"] = {

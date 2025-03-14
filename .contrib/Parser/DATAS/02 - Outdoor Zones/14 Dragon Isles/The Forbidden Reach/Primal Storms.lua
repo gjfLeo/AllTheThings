@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(198916, {	-- Fael'lin
 					["questID"] = 75403,
 					["isDaily"] = true,

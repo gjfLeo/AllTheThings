@@ -1592,7 +1592,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 12841,	-- The Crone's Bargain
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(32500, {	-- Dirkee
 						["coords"] = {
 							{ 41.6, 40.6, THE_STORM_PEAKS },

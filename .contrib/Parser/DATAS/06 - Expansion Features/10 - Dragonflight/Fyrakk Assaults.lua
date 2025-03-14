@@ -174,7 +174,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["coord"] = { 58.6, 34.3, THE_AZURE_SPAN },
 				}),
 			})),
-			n(RARE, sharedData({ ["isWeekly"] = true }, {
+			n(RARES, sharedData({ ["isWeekly"] = true }, {
 				n(201673, {	-- Kretchenwrath
 					["g"] = {
 						i(204071),	-- Head of Kretchenwrath

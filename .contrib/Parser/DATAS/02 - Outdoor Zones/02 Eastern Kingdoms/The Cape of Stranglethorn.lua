@@ -2636,7 +2636,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(14491, {	-- Kurmokk
 					["coords"] = {
 						{ 58.0, 47.8, THE_CAPE_OF_STRANGLETHORN },

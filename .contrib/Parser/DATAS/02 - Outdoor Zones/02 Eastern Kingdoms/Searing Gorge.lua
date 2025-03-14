@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					}),
 				})),
-				n(RARE, {
+				n(RARES, {
 					n(228970, {	-- Galenges
 						["description"] = "This is a rare that may not always be present. Seems to have a high drop rate for world drop epics and recipes. Kill it on sight during the invasion!",
 						["coord"] = { 22.6, 77.6, SEARING_GORGE },
@@ -1727,7 +1727,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(50876, {	-- Avis
 					["timeline"] = { ADDED_5_1_0 },
 					["coord"] = { 71.6, 19.2, SEARING_GORGE },

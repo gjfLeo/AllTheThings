@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(STORMSONG_VALLEY, {
-		n(RARE, {
+		n(RARES, {
 			n(137025, {	-- Broodmother
 				["questID"] = 51298,
 				["coord"] = { 29.5, 69.6, STORMSONG_VALLEY },	-- entrance to cellar

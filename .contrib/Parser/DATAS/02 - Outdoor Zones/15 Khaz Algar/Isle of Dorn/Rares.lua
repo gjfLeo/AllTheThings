@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(ISLE_OF_DORN, {
-		n(RARE, sharedData({ ["isDaily"] = true }, {
+		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(221128, {	-- Clawbreaker K'zithix
 				["description"] = "Walking around in the area.",
 				["coord"] = { 55.6, 27.0, ISLE_OF_DORN},	-- old coords: 80.3, 35.1 / 79.1, 34.2 / 64.0, 39.2
@@ -138,7 +138,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 		})),
-		n(RARE, {
+		n(RARES, {
 			n(219281, {	-- Alunira
 				["coord"] = { 23.1, 58.5, ISLE_OF_DORN },
 				["questID"] = 85158,
@@ -235,7 +235,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(KHAZ_ALGAR, {
 		m(ISLE_OF_DORN, {
-			n(RARE, {
+			n(RARES, {
 				q(84036, {	-- Weekly reputation: Clawbreaker K'zithix
 					["name"] = "Clawbreaker K'zithix weekly reputation obtained.",
 				}),

@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 						},
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(179914, {	-- Observer Yorik
 						["questID"] = 64440,
 						["coord"] = { 50.2, 75.4, KORTHIA },

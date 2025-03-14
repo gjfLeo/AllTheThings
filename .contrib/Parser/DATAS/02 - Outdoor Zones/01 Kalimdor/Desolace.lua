@@ -2482,7 +2482,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(14229, {	-- Accursed Slitherblade
 					-- #if AFTER CATA
 					["coords"] = {

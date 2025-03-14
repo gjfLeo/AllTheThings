@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(THE_AZURE_SPAN, {
-		n(RARE, sharedData({ ["isDaily"] = true }, {
+		n(RARES, sharedData({ ["isDaily"] = true }, {
 			n(194270, {	-- Arcane Devourer
 				["coord"] = { 53.0, 35.6, THE_AZURE_SPAN },
 				["questID"] = 73866,
@@ -228,7 +228,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(DRAGON_ISLES, {
 		m(THE_AZURE_SPAN, {
-			n(RARE, {
+			n(RARES, {
 				q(73886),	-- Killing both Mucklings for Mucka the Raker
 				q(71240),	-- Triggered on killing various rares, maybe first one-time Rare killed on a character
 			}),

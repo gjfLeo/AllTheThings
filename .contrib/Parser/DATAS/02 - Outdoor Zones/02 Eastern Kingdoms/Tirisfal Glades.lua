@@ -640,7 +640,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					}),
 					-- #if AFTER 5.1.0.16309
-					n(RARE, {
+					n(RARES, {
 						n(50328, {	-- Fangor
 							["coords"] = {
 								{ 61.6, 79.6, DEATHKNELL },
@@ -2360,7 +2360,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(10356, {	-- Bayne
 					-- #if AFTER CATA
 					["coord"] = { 46.0, 49.6, TIRISFAL_GLADES },

@@ -6,7 +6,7 @@ local function bo(questID, isDaily)
 end
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }, {
 	m(EMERALD_DREAM, {
-		n(RARE, sharedData({ ["isDaily"] = true },{
+		n(RARES, sharedData({ ["isDaily"] = true },{
 			n(COMMON_BOSS_DROPS, {
 				["crs"] = {	-- Probably all, but going w/ only confirmed
 					209929,	-- Envoy of Winter

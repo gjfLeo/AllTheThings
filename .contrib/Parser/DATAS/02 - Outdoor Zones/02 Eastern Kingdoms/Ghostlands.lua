@@ -1334,7 +1334,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(22062, {	-- Dr. Whitherlimb
 					["coords"] = {
 						{ 34.6, 47.6, GHOSTLANDS },

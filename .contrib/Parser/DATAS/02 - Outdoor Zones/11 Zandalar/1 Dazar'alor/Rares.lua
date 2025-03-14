@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(THE_GREAT_SEAL, {
-		n(RARE, {
+		n(RARES, {
 			n(120899, {	-- Kul'krazahn
 				["questID"] = 48333,
 				["coord"] = { 55.01, 83.61, DAZARALOR },

@@ -1721,7 +1721,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(14273, {  -- Boulderheart
 					["coords"] = {
 						-- #if AFTER CATA

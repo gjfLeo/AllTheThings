@@ -194,7 +194,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.CALL_OF_THE_SCARAB, n(CALL_OF_THE_SCARAB_
 				["isYearly"] = true,
 			}),
 		}),
-		n(RARE, {
+		n(RARES, {
 			o(180456, {	-- Lesser Wind Stone
 				["cost"] = {
 					{ "i", 143858, 1 },	-- Twilight Cultist Cowl

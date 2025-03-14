@@ -2235,7 +2235,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(8215, {	-- Grimungous
 					["coords"] = {
 						-- #if AFTER CATA

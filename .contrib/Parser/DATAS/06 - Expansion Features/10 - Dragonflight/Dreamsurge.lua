@@ -100,7 +100,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				},
 			}),
 		}),
-		n(RARE, sharedData({
+		n(RARES, sharedData({
 			["provider"] = { "o", 406383 },	-- Firelands Portal (vignette), Thaldraszus
 			["g"] = {
 				i(209419),	-- Charred Elemental Remains

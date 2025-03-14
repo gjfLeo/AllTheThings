@@ -2152,7 +2152,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 			}),
 			-- #if AFTER 7.0.3.22248
-			n(RARE, {
+			n(RARES, {
 				n(130911, {	-- Charles Gastly
 					["coord"] = { 50.8, 55.1, ORGRIMMAR },
 					["timeline"] = { ADDED_7_3_5 },

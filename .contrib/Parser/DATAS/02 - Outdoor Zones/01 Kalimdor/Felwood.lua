@@ -2792,7 +2792,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lvl"] = 60,
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(14340, {	-- Alshirr Banebreath
 					["coords"] = {
 						-- #if AFTER CATA

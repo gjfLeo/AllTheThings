@@ -6,7 +6,7 @@ local GetRelativeValue = app.GetRelativeValue;
 -- Local functions
 local ExcludeRecipes, ExcludeRemovedMaps, ExcludeRemovedRares, ExcludeAddedWithPatch;
 local AllowedHeaders = {
-	[app.HeaderConstants.RARE] = true,
+	[app.HeaderConstants.RARES] = true,
 	[app.HeaderConstants.ZONE_DROPS] = true,
 };
 local function ExpandGroupsRecursively(group, expanded, manual)

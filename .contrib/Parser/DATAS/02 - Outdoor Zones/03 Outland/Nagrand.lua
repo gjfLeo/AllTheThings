@@ -2018,7 +2018,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(RARE, {
+				n(RARES, {
 					n(17144, {	-- Goretooth
 						["coords"] = {
 							{ 58.2, 27.8, NAGRAND },

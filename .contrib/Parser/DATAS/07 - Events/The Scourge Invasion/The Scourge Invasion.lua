@@ -971,7 +971,7 @@ local invasion = n(THE_SCOURGE_INVASION, bubbleDownFiltered({
 				}),
 			},
 		}),
-		n(RARE, {
+		n(RARES, {
 			["crs"] = {
 				16380,	-- Bone Witch
 				14697,	-- Lumbering Horror

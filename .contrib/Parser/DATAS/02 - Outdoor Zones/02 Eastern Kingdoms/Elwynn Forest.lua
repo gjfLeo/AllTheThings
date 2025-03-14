@@ -2040,7 +2040,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					}),
 					-- #if AFTER 4.0.3
-					n(RARE, {
+					n(RARES, {
 						n(62, {	-- Gug Fatcandle
 							["coord"] = { 31.6, 16.7, NORTHSHIRE_VALLEY },
 							["timeline"] = { ADDED_4_0_3 },
@@ -3137,7 +3137,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = lvlsquish(5, 5, 1),
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(51077, {	-- Bushtail
 					["coords"] = {
 						{ 83.8, 85.0, ELWYNN_FOREST },

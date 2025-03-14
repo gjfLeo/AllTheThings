@@ -1529,7 +1529,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					["lvl"] = lvlsquish(3, 3, 1),
 				}),
 			}),
-			n(RARE, {
+			n(RARES, {
 				n(17591, {	-- Blood Elf Bandit
 					["coords"] = {
 						{ 33.9, 18.9, AZUREMYST_ISLE },
