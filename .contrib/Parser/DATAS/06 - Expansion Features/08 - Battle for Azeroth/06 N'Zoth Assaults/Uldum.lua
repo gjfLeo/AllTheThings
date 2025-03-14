@@ -376,10 +376,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						i(170553, {	-- Void Focus Splinter
 							["description"] = "The fastest way is to farm them inside Lesser Vision.",
 						}),
+						-- #IF BEFORE TWW
 						i(174768, {	-- Cursed Relic
 							["cost"] = { { "i", 174758, 6 } },	-- 6x Voidwarped Relic Fragment
 						}),
 						i(174758),	-- Voidwarped Relic Fragment
+						-- #ENDIF
 					}),
 					i(173372),	-- Cache of the Black Empire
 				},

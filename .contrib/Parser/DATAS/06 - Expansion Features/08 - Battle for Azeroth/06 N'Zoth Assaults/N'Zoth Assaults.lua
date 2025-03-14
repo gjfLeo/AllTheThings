@@ -707,6 +707,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						154467,	-- Chief Mek-mek
 					}
 				}),
+				-- #IF AFTER TWW
+				i(174768, {	-- Cursed Relic
+					["cost"] = { { "i", 174758, 6 } },	-- 6x Voidwarped Relic Fragment
+				}),
+				i(174758),	-- Voidwarped Relic Fragment
+				-- #ENDIF
 			}),
 		},
 	}),
