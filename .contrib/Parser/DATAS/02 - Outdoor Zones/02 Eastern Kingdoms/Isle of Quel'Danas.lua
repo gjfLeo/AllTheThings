@@ -1033,6 +1033,8 @@ local SORYN_GROUPS = {
 			["cost"] = { { "i", 31099, 1 }, },	-- Leggings of the Forgotten Vanquisher
 		}),
 	}),
+	-- #else
+		-- TOOD: in Retail all the S2 Merciless content is sold by Soryn as well but for different Cost Tokens... sigh
 	-- #endif
 };
 local EPIC_GEM_COSTS

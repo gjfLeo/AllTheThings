@@ -287,13 +287,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				-- Scrap related but exact trigger unknown
 				--q(86262),	--
 				hqt(90471, name(HEADERS.Object, 516167, {	-- Half-Empty Bag (Daily Flag)
-					["isDaily"] = true
+					["isWeekly"] = true
 				})),
 				hqt(90472, name(HEADERS.Object, 516166, {	-- Dented Crate (Daily Flag)
-					["isDaily"] = true
+					["isWeekly"] = true
 				})),
 				hqt(90473, name(HEADERS.Object, 500750, {	-- Uncovered Strongbox (Daily Flag)
-					["isDaily"] = true
+					["isWeekly"] = true
 				})),
 			}),
 			-- Location quests

@@ -3408,7 +3408,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							i(49177, {	-- Tome of Cold Weather Flight
 								-- #IF ANYCLASSIC
-								["recipeID"] = 54197,	-- Cold Weather Flight
+								["recipeID"] = 54197,	-- Cold Weather Flying
 								-- #ELSE
 								["f"] = MISC,
 								-- #ENDIF
