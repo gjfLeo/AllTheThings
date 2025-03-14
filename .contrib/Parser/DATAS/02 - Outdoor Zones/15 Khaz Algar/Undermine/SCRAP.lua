@@ -47,7 +47,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 					o(516156, {	-- Half-Empty Bag (Hovel Hill (South))
 						["coord"] = { 36.1, 45.1, UNDERMINE },
-						--["questID"] = ,
+						["questID"] = 87272,
 					}),
 					o(516163, {	-- Half-Empty Bag (The Heaps)
 						["coord"] = { 52.4, 83.0, UNDERMINE },

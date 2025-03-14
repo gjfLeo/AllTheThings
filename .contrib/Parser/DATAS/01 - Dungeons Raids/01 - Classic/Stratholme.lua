@@ -836,7 +836,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							-- #if BEFORE 4.0.3
 							["description"] = "These can be found in 4 places in the Scarlet Enclave.\n\n1&2: Malor's Room on the Table\n3: In the next room before you split to Cannon Master or Archivist.\n4: In Archivist's room on a box in the back.",
 							-- #endif
-							["timeline"] = { REMOVED_4_0_3 },
 						}),
 						i(16249, {	-- Formula: Enchant 2H Weapon - Major Intellect (RECIPE!)
 							["cr"] = 10422,	-- Crimson Sorcerer / Risen Sorcerer [CATA+]

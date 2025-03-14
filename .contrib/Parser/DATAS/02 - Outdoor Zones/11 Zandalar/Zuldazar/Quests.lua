@@ -1083,7 +1083,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			q(55506, {	-- One Road Ends
 				["sourceQuests"] = { 55503 },	-- The Direhorn and the Saurid
 				["provider"] = { "n", 154607 },	-- Image of Torcali
-				["coord"] = { 52.4, 23.2, DAZARALOR },	-- on the very edge
+				["coord"] = { 60.8, 0.9, DAZARALOR },	-- on the very edge
 				["races"] = HORDE_ONLY,
 			}),
 			q(50798, {	-- Out on a Limb
@@ -1727,7 +1727,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["coord"] = { 68.2, 29.6, ZULDAZAR },
 				["g"] = {
-					i(168005),	-- Mature Direbloom Petal (QI!)
+					o_repeated({
+						o(325476),	-- Direbloom
+						o(325478),	-- Direbloom
+						i(168005),	-- Mature Direbloom Petal (QI!)
+					}),
 				},
 			}),
 			q(51990, {	-- Wings for the Kraal

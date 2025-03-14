@@ -940,7 +940,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					--["sourceQuests"] = { 82296 },	-- The Power of Creation //not required?
 					["provider"] = { "n", 223533 },	-- Custodian Khubon
 					["coord"] = { 49.8, 54.1, DORNOGAL },
-					["timeline"] = { REMOVED_11_1_0 },
+					["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					["g"] = {
 						i(211297),	-- Fractured Spark of Omens
 					},
@@ -948,7 +948,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				q(86369, {	-- A Sparkling Fortune
 					["provider"] = { "n", 223533 },	-- Custodian Khubon
 					["coord"] = { 49.8, 54.1, DORNOGAL },
-					["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
+					["g"] = {
+						i(230905),	-- Fractured Spark of Fortunes
+					},
+				}),
+				q(90660, {	-- A Golden Circumstance
+					["sourceQuest"] = 86369,	-- A Sparkling Fortune
+					["provider"] = { "n", 223533 },	-- Custodian Khubon
+					["coord"] = { 49.8, 54.1, DORNOGAL },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 					["g"] = {
 						i(230905),	-- Fractured Spark of Fortunes
 					},

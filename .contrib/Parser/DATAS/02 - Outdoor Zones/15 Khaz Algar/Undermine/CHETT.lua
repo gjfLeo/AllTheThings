@@ -46,7 +46,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					q(86920),	-- War Mode Violence
 				})),
 				n(REWARDS, {
-					i(235053),	-- Completed C.H.E.T.T. List
+					i(235053, {	-- Completed C.H.E.T.T. List
+						["cost"] = {{ "i", 236682, 1 }},	-- C.H.E.T.T. List
+					}),
 				}),
 				n(VENDORS, {
 					n(238029, {	-- C.H.E.T.T.

@@ -2773,7 +2773,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			-- q(84476),	-- Contract: The Severed Threads [Rank 3] (spellID 454942)
 			-- Craftable / Sparks
 			q(82039),	-- first Fractured Spark of Omens
-			q(85395, {["timeline"]={ADDED_11_1_0}}),	-- Fractured Spark of Fortunes
+			q(85395, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Fractured Spark of Fortunes
+			q(90664, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- Triggers wtih 90660 A Golden Circumstance
 		}),
 	}),
 })));
