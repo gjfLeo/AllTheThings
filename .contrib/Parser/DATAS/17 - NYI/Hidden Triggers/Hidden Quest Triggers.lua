@@ -1139,7 +1139,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		--q(62521),	-- unknown tracking
 		--q(62571),	-- Flying in Maldraxxus
 		--q(62397),	-- Unknown
-		q(54422),	-- After winning a PVP pet battle I received a clickable item that added a mission to the BFA mission table:[A Shady Character] has been added to your Mission Table.
 
 		--	PVP quests
 		q(47954),	-- Tracking Quest (Triggered when using the "Surviving Kalimdor" toy to unlock flightpaths)

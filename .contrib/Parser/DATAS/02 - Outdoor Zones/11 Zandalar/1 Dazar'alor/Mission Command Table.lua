@@ -84,3 +84,14 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		})),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(DAZARALOR, {
+			n(138706, {
+				q(54445),	-- Won PvP pet battle, [A Shady Character] has been added to your Mission Table. [H]
+				q(54446),	-- Completing A Shady Character (Mission), accepting A Shady Character (Quest) [H]
+			}),
+		}),
+	}),
+})));
