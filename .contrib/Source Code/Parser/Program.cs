@@ -240,6 +240,11 @@ namespace ATT
                         Framework.ParseAsStringDictionary(lua.GetTable("MERGE_OBJECT_FIELDS") ?? throw new InvalidDataException("Missing 'MERGE_OBJECT_FIELDS' Global!"))
                         .ToDictionary(kvp => kvp.Key, kvp => (kvp.Value as List<object>)?.Select(o => o.ToString()).ToArray());
 
+                    Framework.Objects.MAPID_COORD_SHIFTS =
+                        Framework.ParseAsDictionary<long>(lua.GetTable("MAPID_COORD_SHIFTS") ?? throw new InvalidDataException("Missing 'MAPID_COORD_SHIFTS' Global!"))
+                        .ToDictionary(kvp => kvp.Key, kvp => CoordShift.Create(kvp.Value));
+                    PurgeCoordShiftsBeyondParserVersion();
+
                     Framework.SUPPORTED_LOCALES =
                         Framework.ParseAsDictionary<long>(lua.GetTable("SUPPORTED_LOCALES") ?? throw new InvalidDataException("Missing 'SUPPORTED_LOCALES' Global!"))
                         .Select(kvp => kvp.Value?.ToString()).ToArray();
@@ -359,6 +364,19 @@ namespace ATT
             }
 
             return ErrorCode;
+        }
+
+        private static void PurgeCoordShiftsBeyondParserVersion()
+        {
+            var keys = Framework.Objects.MAPID_COORD_SHIFTS.Keys.ToArray();
+
+            foreach(var key in keys)
+            {
+                if (Framework.Objects.MAPID_COORD_SHIFTS[key].TimelineEntry.LongVersion > Framework.CURRENT_RELEASE_VERSION)
+                {
+                    Framework.Objects.MAPID_COORD_SHIFTS.Remove(key);
+                }
+            }
         }
 
         private static void ParseWagoDbCsvFile(string f)

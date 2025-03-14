@@ -544,6 +544,6 @@ namespace ATT
                     yield return str;
         }
 
-        public static T SafeIndex<T>(this T[] vals, int index) => (vals != null && vals.Length > index) ? vals[index] : default;
+        public static T SafeIndex<T>(this IList<T> vals, int index) => (vals != null && vals.Count > index) ? vals[index] : default;
     }
 }

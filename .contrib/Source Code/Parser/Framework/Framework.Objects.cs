@@ -75,6 +75,11 @@ namespace ATT
             public static IDictionary<string, string[]> MERGE_OBJECT_FIELDS { get; set; }
 
             /// <summary>
+            /// The set of MapID values and linked coord-shift requirements
+            /// </summary>
+            public static IDictionary<long, CoordShift> MAPID_COORD_SHIFTS { get; set; }
+
+            /// <summary>
             /// Allows capturing various objects which should be merged-into the sub-content of another object
             /// </summary>
             public static IDictionary<string, Dictionary<decimal, List<IDictionary<string, object>>>> PostProcessMergeIntos { get; } = new Dictionary<string, Dictionary<decimal, List<IDictionary<string, object>>>>();

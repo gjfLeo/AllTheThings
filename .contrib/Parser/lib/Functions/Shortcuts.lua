@@ -1701,22 +1701,22 @@ usONLY = function(t)	-- the object only available on US realm
 end
 ---@param t table|nil
 ---@return table|nil
-euONLY = function(t)	-- the object only available on EU realm 
+euONLY = function(t)	-- the object only available on EU realm
 	return regionExclusive("EU", t);
 end
 ---@param t table|nil
 ---@return table|nil
-krONLY = function(t)	-- the object only available on KR realm 
+krONLY = function(t)	-- the object only available on KR realm
 	return regionExclusive("KR", t);
 end
 ---@param t table|nil
 ---@return table|nil
-twONLY = function(t)	-- the object only available on TW realm 
+twONLY = function(t)	-- the object only available on TW realm
 	return regionExclusive("TW", t);
 end
 ---@param t table|nil
 ---@return table|nil
-cnONLY = function(t)	-- the object only available on CN realm 
+cnONLY = function(t)	-- the object only available on CN realm
 	return regionExclusive("CN", t);
 end
 ---@param t table|nil

@@ -14,6 +14,11 @@ namespace ATT.FieldTypes
 
         public const string Field = "timeline";
 
+        /// <summary>
+        /// Can be set when processing the Timeline to denote which <see cref="TimelineEntry"/> applies to the related data for this Parser version
+        /// </summary>
+        public int CurrentEntry { get; set; }
+
         public int EntryCount => _entries?.Length ?? 0;
 
         public bool HasData => EntryCount > 0;
@@ -63,6 +68,11 @@ namespace ATT.FieldTypes
             _entries = new TimelineEntry[] { TimelineEntry.AsTimelineEntry(obj) };
             Framework.LogWarn($"Weird 'timeline' value, please make it proper to remove this warning", obj);
         }
+
+        /// <summary>
+        /// Allows directly creating a new <see cref="Timeline"/> from an object
+        /// </summary>
+        public static Timeline Create(object obj) => new Timeline(obj);
 
         public static Timeline Merge(IDictionary<string, object> data, object value)
         {

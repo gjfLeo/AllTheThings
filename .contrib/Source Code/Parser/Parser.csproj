@@ -102,6 +102,7 @@
     <Compile Include="Export\Object Data\MountData.cs" />
     <Compile Include="Export\Object Data\ObjectData.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="FieldTypes\Coords.cs" />
     <Compile Include="FieldTypes\Cost.cs" />
     <Compile Include="FieldTypes\IExportableField.cs" />
     <Compile Include="FieldTypes\IProcessedField.cs" />
@@ -113,6 +114,7 @@
     <Compile Include="Framework\Framework.cs" />
     <Compile Include="Framework\Framework.Processing.cs" />
     <Compile Include="Framework\HierarchicalFieldAdjustments.cs" />
+    <Compile Include="Framework\Structs.cs" />
     <Compile Include="Harvesters\ObjectHarvester.cs" />
     <Compile Include="Framework\ParseStage.cs" />
     <Compile Include="MiniJSON.cs" />

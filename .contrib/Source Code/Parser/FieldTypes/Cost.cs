@@ -16,7 +16,7 @@ namespace ATT.FieldTypes
 
         private long Gold { get; set; }
 
-        public bool HasData => Gold > 0 || _costTypes.Any();
+        public bool HasData => Gold > 0 || (_costTypes?.Any() ?? false);
 
         public override string ToString() => ToJSON(AsExportType());
 
@@ -50,12 +50,12 @@ namespace ATT.FieldTypes
             return null;
         }
 
-        public static Cost Merge(IDictionary<string, object> data, string type, decimal id, long amount)
+        public static void Merge(IDictionary<string, object> data, string type, decimal id, long amount)
         {
-            return Merge(data, new object[] { new object[] { type, id, amount } });
+            Merge(data, new object[] { new object[] { type, id, amount } });
         }
 
-        public static Cost Merge(IDictionary<string, object> data, object value)
+        public static void Merge(IDictionary<string, object> data, object value)
         {
             Cost cost;
             if (!data.TryGetValue("cost", out object costobj))
@@ -65,7 +65,6 @@ namespace ATT.FieldTypes
                 if (value is Cost newCost)
                 {
                     cost.Merge(newCost);
-                    return cost;
                 }
             }
             else
@@ -76,12 +75,10 @@ namespace ATT.FieldTypes
             if (value is Cost mergeCost)
             {
                 cost.Merge(mergeCost);
-                return cost;
             }
             else
             {
                 cost.Merge(value);
-                return cost;
             }
         }
 

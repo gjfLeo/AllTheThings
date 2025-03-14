@@ -34,6 +34,10 @@ namespace ATT.FieldTypes
                 LongVersion = RawPatch.Split('.').ConvertVersion();
                 Version = LongVersion.ConvertToGameVersion();
             }
+            else
+            {
+                LogWarn($"Invalid Timeline Entry: {raw}");
+            }
         }
 
         public static TimelineEntry AsTimelineEntry(object raw) => new TimelineEntry(raw);

@@ -117,7 +117,14 @@ namespace ATT
             foreach (var actionSequence in PostProcessFunctions)
             {
                 var act = actionSequence.Key;
-                actionSequence.Value.AsParallel().ForAll(act);
+                if (DebugMode)
+                {
+                    actionSequence.Value.ForEach(act);
+                }
+                else
+                {
+                    actionSequence.Value.AsParallel().ForAll(act);
+                }
             }
 
             // Sort World Drops by Name
@@ -130,8 +137,7 @@ namespace ATT
             long requireSkill;
             if (!Objects.AllContainers.TryGetValue("Unsorted", out List<object> unsorted))
             {
-                unsorted = new List<object>();
-                Objects.AllContainers["Unsorted"] = unsorted;
+                Objects.AllContainers["Unsorted"] = unsorted = new List<object>();
             }
             var expansionLists = new Dictionary<int, TierList>();
             int maxExpansionID = 11;// LAST_EXPANSION_PATCH[CURRENT_RELEASE_PHASE_NAME][0];
@@ -1031,6 +1037,9 @@ namespace ATT
                 }
             }
 
+            // check for needed coord shifts on any coords within this group (based on timeline)
+            DoShiftCoords(data);
+
             foreach (KeyValuePair<string, object> dataKvp in data)
             {
                 // 'timeline' is removed
@@ -1058,6 +1067,51 @@ namespace ATT
             foreach (string key in removeKeys)
             {
                 data.Remove(key);
+            }
+        }
+
+        private static void DoShiftCoords(IDictionary<string, object> data)
+        {
+            if (Objects.MAPID_COORD_SHIFTS.Count > 0 && data.TryGetValue("coords", out List<object> coordsObjs))
+            {
+                TimelineEntry dataTimelineEntry = null;
+
+                foreach (var coordObj in coordsObjs.AsTypedEnumerable<List<object>>())
+                {
+                    if (coordObj.SafeIndex(2).TryConvert(out long mapID)
+                        && Objects.MAPID_COORD_SHIFTS.TryGetValue(mapID, out CoordShift shiftInfo))
+                    {
+                        // an applicable shift exists for the mapID of this coord, make sure the timeline of the data
+                        // is prior to the shift occurring (old unchanged data => shift, new current data = accurate)
+                        if (dataTimelineEntry == null)
+                        {
+                            data.TryGetValue("timeline", out object timelineObj);
+                            if (timelineObj is Timeline dataTimeline)
+                            {
+                                dataTimelineEntry = dataTimeline.Entries[dataTimeline.CurrentEntry];
+                            }
+                        }
+
+                        if (dataTimelineEntry != null)
+                        {
+                            if (dataTimelineEntry.LongVersion > CURRENT_RELEASE_VERSION)
+                                continue;
+                        }
+                        else
+                        {
+                            LogWarn($"Non-Timelined data being coord-shifted due to {ToJSON(shiftInfo)}", data);
+                        }
+
+                        if (coordObj[0].TryConvert(out long coordx))
+                        {
+                            coordObj[0] = coordx + shiftInfo.X;
+                        }
+                        if (coordObj[1].TryConvert(out long coordy))
+                        {
+                            coordObj[1] = coordy + shiftInfo.Y;
+                        }
+                    }
+                }
             }
         }
 
@@ -3381,7 +3435,6 @@ namespace ATT
             if (data.TryGetValue("timeline", out object timelineRef) && timelineRef is Timeline timeline)
             {
                 int removed = 0;
-                var index = 0;
                 var lastIndex = timeline.EntryCount - 1;
                 long addedPatch = 10000;
                 long removedPatch = 10000;
@@ -3397,8 +3450,9 @@ namespace ATT
                     LogWarn($"Timeline contains '{firstEntry.Change}' change @ earliest patch -> {firstEntry}", data);
                 }
 
-                foreach (var entry in timeline.Entries)
+                for (int index = 0; index < timeline.EntryCount; index++)
                 {
+                    var entry = timeline.Entries[index];
                     switch (entry.Change)
                     {
                         // Note: Adding command options here requires adjusting the filter Regex for 'timeline' entries during MergeStringArrayData
@@ -3458,7 +3512,11 @@ namespace ATT
                                 }
 
                                 // Mark the most relevant patch this was added or comes back
-                                if (entry.Version <= CURRENT_SHORT_RELEASE_VERSION || removed > 0) addedPatch = entry.Version;
+                                if (entry.Version <= CURRENT_SHORT_RELEASE_VERSION || removed > 0)
+                                {
+                                    timeline.CurrentEntry = index;
+                                    addedPatch = entry.Version;
+                                }
                                 break;
                             }
                         case "deleted":
@@ -3477,7 +3535,11 @@ namespace ATT
                                 removed = 2;
                                 readded = false;
                                 // Mark the first patch this was removed on. (the upcoming patch)
-                                if (removedPatch <= 10000) removedPatch = entry.Version;
+                                if (removedPatch <= 10000)
+                                {
+                                    timeline.CurrentEntry = index;
+                                    removedPatch = entry.Version;
+                                }
                                 break;
                             }
                         case "removed":
@@ -3487,7 +3549,11 @@ namespace ATT
                                     removed = 2;
                                     readded = false;
                                     // Mark the most recent patch this was removed
-                                    if (removedPatch <= 10000) removedPatch = entry.Version;
+                                    if (removedPatch <= 10000)
+                                    {
+                                        timeline.CurrentEntry = index;
+                                        removedPatch = entry.Version;
+                                    }
                                 }
                                 else
                                 {
@@ -3497,7 +3563,6 @@ namespace ATT
                                 break;
                             }
                     }
-                    ++index;
                 }
 
                 // final removed type for the current parser patch
