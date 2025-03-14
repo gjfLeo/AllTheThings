@@ -2137,6 +2137,7 @@ i(237335);	-- Collectible Pineappletini Mug
 i(233029);	-- Cracked Core
 i(236636);	-- Cracked Crysoberyl
 i(236640);	-- Cracked Earthen Singing Bowl
+i(236955);	-- Crimson Valorstone
 i(235038);	-- Crumpled Schematic
 i(236639);	-- Dented Censer
 i(234204);	-- Depleted Battery
@@ -2149,6 +2150,7 @@ i(237334);	-- Half-Eaten Takeout
 i(236680);	-- Imitation Crab Meat
 i(233031);	-- Intact Interlock
 i(236634);	-- Itty Bitty Bonsai
+i(239115);	-- L.O.S.E.R. Ticket
 i(235268);	-- Misprinted Card
 i(236637);	-- Not-Quite-Crystal Ball
 i(236926);	-- Pack of Runed Harbinger Crests
@@ -2163,5 +2165,3 @@ i(236925);	-- Satchel of Carved Harbinger Crests
 i(236635);	-- Uncut Semi-Smoky Quartz
 i(236651);	-- Vince's Old Left Shoe
 i(229809);	-- Weighted Metal Ball
-i(236955);	-- Crimson Valorstone
-i(239115);	-- L.O.S.E.R. Ticket

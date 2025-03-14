@@ -20,7 +20,7 @@
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/ATTWoWAddon/AllTheThings/latest?logo=github)
 <br>
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/ATTWoWAddon/AllTheThings?logo=github&label=Issues)](https://github.com/ATTWoWAddon/AllTheThings/issues)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ATTWoWAddon/AllTheThings?logo=github&label=Commits&cacheSeconds=600)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/ATTWoWAddon/AllTheThings?logo=github&label=Activity&cacheSeconds=600)
 
 <br>
 
@@ -28,7 +28,7 @@
 Do you find yourself completing old content just so that you can get literally everything for your Collections? Say no more! ALL THE THINGS will help you with your endeavor by giving you the ability to track your completion for everything.
 
 ## Features
-- Supports tracking of Achievements, Quests, Appearances, Mounts, Pets, Toys, Titles and much more.
+- Supports tracking of Achievements, Quests, Appearances, Mounts, Pets, Toys, Titles, and much more.
 - Primary Collections Window is moveable and resizeable.
 - Auto Minilist
 - Datatext Support
