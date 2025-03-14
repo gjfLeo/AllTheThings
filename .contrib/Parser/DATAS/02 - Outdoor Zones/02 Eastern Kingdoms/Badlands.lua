@@ -3,11 +3,12 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 	m(BADLANDS, {
-		-- #if AFTER CATA
-		["lore"] = "Badlands is a scorched zone and the home of the Earthen, Dark Iron Dwarves, and Goblins in Fuselight-by-the-Sea. Formerly a short zone before Cataclysm, it now has two notable chains: The Day Deathwing Died, and the sad tale of the dragon Rhea.",
-		-- #else
-		["lore"] = "The Badlands is a region in Khaz Modan accessed via the Searing Gorge to the west and Loch Modan to the north.\n\nThe Badlands are a cracked desert of dry earth, scattered boulders, and winding canyons. Dark Iron dwarves clash with ogres and drakes, while Horde orcs man a fortress to keep watch on their renegade brethren in the eastern lands. Ironforge prospectors search this desolate land for Titan artifacts, inspired by the recently unearthed Uldaman — an immense ruin that held the first clues to the dwarves' lofty origins. Stonevault troggs, released after millennia of slumber, slaughtered the explorers and viciously defend their stolen city.",
-		-- #endif
+		["lore"] =
+			-- #if AFTER CATA
+			"Badlands is a scorched zone and the home of the Earthen, Dark Iron Dwarves, and Goblins in Fuselight-by-the-Sea. Formerly a short zone before Cataclysm, it now has two notable chains: The Day Deathwing Died, and the sad tale of the dragon Rhea.",
+			-- #else
+			"The Badlands is a region in Khaz Modan accessed via the Searing Gorge to the west and Loch Modan to the north.\n\nThe Badlands are a cracked desert of dry earth, scattered boulders, and winding canyons. Dark Iron dwarves clash with ogres and drakes, while Horde orcs man a fortress to keep watch on their renegade brethren in the eastern lands. Ironforge prospectors search this desolate land for Titan artifacts, inspired by the recently unearthed Uldaman — an immense ruin that held the first clues to the dwarves' lofty origins. Stonevault troggs, released after millennia of slumber, slaughtered the explorers and viciously defend their stolen city.",
+			-- #endif
 		["icon"] = 236716,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
@@ -764,7 +765,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 44. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 46 (TODO: Test max level between 48 and 55)
+					-- Cataclysm: Maximum is level 46. (TODO: Test max level between 48 and 55)
 					["lvl"] = { 44, 46 },
 					-- #endif
 				})),
@@ -1216,7 +1217,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["repeatable"] = true,
 					["lvl"] = 40,
 					-- #if BEFORE 4.0.3
-					["description"] = "This quest is repeatable but can only be completed while \"Broken Alliances\" (H) or \"Tremors of the Earth\" (A) is in your quest log.",
+					["description"] = "This quest is repeatable but can only be completed while |cffe50d12Broken Alliances|r or |cff4a54e8Tremors of the Earth|r is in your quest log.",
 					-- #endif
 					["groups"] = {
 						objective(1, {	-- 0/1 Diamond Runestone
@@ -2014,10 +2015,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(RARES, {
 				n(14224, {	-- 7:XT <Long Distance Recovery Unit>
-					-- #if AFTER CATA
-					["coord"] = { 78.6, 31.6, BADLANDS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 78.6, 31.6, BADLANDS },
+						-- #else
 						{ 24.0, 52.6, BADLANDS },
 						{ 12.8, 67.0, BADLANDS },
 						{ 19.4, 80.6, BADLANDS },
@@ -2025,15 +2026,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 55.4, 53.2, BADLANDS },
 						{ 58.4, 67.6, BADLANDS },
 						{ 55.4, 83.8, BADLANDS },
+						-- #endif
 					},
+					-- #if BEFORE CATA
 					["races"] = ALLIANCE_ONLY,
 					-- #endif
 				}),
 				n(2754, {	-- Anathemus
-					-- #if AFTER CATA
-					["coord"] = { 8.8, 67.0, BADLANDS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 8.8, 67.0, BADLANDS },
+						-- #else
 						{ 48.0, 47.4, BADLANDS },
 						{ 58.0, 57.0, BADLANDS },
 						{ 52.0, 75.4, BADLANDS },
@@ -2043,43 +2046,50 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 25.6, 52.6, BADLANDS },
 						{ 35.4, 58.0, BADLANDS },
 						{ 43.0, 54.2, BADLANDS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(2753, {	-- Barnabus
-					-- #if AFTER CATA
-					["coord"] = { 40.8, 58.8, BADLANDS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 40.8, 58.8, BADLANDS },
+						-- #else
 						{ 57.2, 57.0, BADLANDS },
 						{ 54.0, 68.6, BADLANDS },
 						{ 46.2, 74.2, BADLANDS },
 						{ 38.2, 69.4, BADLANDS },
+						-- #endif
 					},
-					-- #endif
 				}),
-				-- #if AFTER CATA
 				n(2749, {	-- Barricade [CATA+] / Siege Golem
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 9.60, 48.8, BADLANDS },
 						{ 27.2, 37.4, BADLANDS },
+						-- #else
+						{ 5.6, 59.8, BADLANDS },
+						{ 13.4, 65.4, BADLANDS },
+						{ 19.0, 60.0, BADLANDS },
+						{ 30.0, 61.0, BADLANDS },
+						{ 35.6, 43.6, BADLANDS },
+						{ 43.0, 39.0, BADLANDS },
+						-- #endif
 					},
 				}),
-				-- #endif
 				n(51000, {	-- Blackshell the Impenetrable
 					["coord"] = { 72.2, 27.4, BADLANDS },
 					["timeline"] = { ADDED_5_2_0 },
 				}),
 				n(2850, {	-- Broken Tooth
-					-- #if AFTER CATA
-					["coord"] = { 22.6, 60.6, BADLANDS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 22.6, 60.6, BADLANDS },
+						-- #else
 						{ 54.0, 16.6, BADLANDS },
 						{ 45.4, 36.8, BADLANDS },
 						{ 62.0, 32.8, BADLANDS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, n(218931, {	-- Dark Rider
@@ -2103,14 +2113,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_5_2_0 },
 				}),
 				n(2752, {	-- Rumbler
-					-- #if AFTER CATA
-					["coord"] = { 16.0, 29.4, BADLANDS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 16.0, 29.4, BADLANDS },
+						-- #else
 						{ 3.4, 78.8, BADLANDS },
 						{ 15.6, 89.0, BADLANDS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(51007, {	-- Serkett
 					["coord"] = { 26.8, 38.0, BADLANDS },
@@ -2133,18 +2143,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 23.2, 37.6, BADLANDS },
 					["timeline"] = { ADDED_5_1_0 },
 				}),
-				-- #if BEFORE CATA
-				n(2749, {	-- Siege Golem / Barricade [CATA+]
-					["coords"] = {
-						{ 5.6, 59.8, BADLANDS },
-						{ 13.4, 65.4, BADLANDS },
-						{ 19.0, 60.0, BADLANDS },
-						{ 30.0, 61.0, BADLANDS },
-						{ 35.6, 43.6, BADLANDS },
-						{ 43.0, 39.0, BADLANDS },
-					},
-				}),
-				-- #endif
 				n(2751, {	-- War Golem
 					["coords"] = {
 						-- #if AFTER CATA
@@ -2234,42 +2232,44 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ZONE_DROPS, {
 				i(2621, {	-- Cowl of Necromancy
 					["cr"] = 2740,	-- Shadowforge Darkweaver
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
-						-- #if BEFORE 4.0.3
-						{ 53.6, 31.8, BADLANDS },
-						{ 52.4, 33.6, BADLANDS },
-						-- #elseif AFTER 10.1.7
+						-- #if AFTER 10.1.7
 						{ 47.0, 26.0, BADLANDS },
 						{ 47.2, 32.4, BADLANDS },
+						-- #else
+						{ 53.6, 31.8, BADLANDS },
+						{ 52.4, 33.6, BADLANDS },
 						-- #endif
 					},
 				}),
 				i(10822, {	-- Dark Whelpling (PET!)
-					-- #if AFTER CATA
 					["crs"] = {
+						-- #if AFTER CATA
 						46916,	-- Nyxondra's Broodling
 						46914,	-- Raging Whelp
+						-- #endif
 						2725,	-- Scalding Whelp
 					},
-					-- #else
-					["cr"] = 2725,	-- Scalding Whelp
-					-- #endif
 				}),
 				i(1521, {	-- Lumbering Ogre Axe
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-					-- #if BEFORE 4.0.3
-					["cr"] = 2719,	-- Dustbelcher Lord
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						46928,	-- Dustbelcher Butcher
+						-- #else
+						2719,	-- Dustbelcher Lord
+						-- #endif
+					},
 					["coords"] = {
+						-- #if AFTER 10.1.7
+						{ 12.0, 79.6, BADLANDS },
+						{ 12.6, 73.4, BADLANDS },
+						-- #else
 						{ 10.0, 92.6, BADLANDS },
 						{ 7.6, 89.4, BADLANDS },
+						-- #endif
 					},
-					-- #elseif AFTER 10.1.7
-					["crs"] = {
-						46928,	-- Dustbelcher Butcher
-						46929,	-- Dustbelcher Merchant
-					},
-					-- #endif
 				}),
 				-- #if BEFORE 4.0.3
 				i(1993, {	-- Ogremind Ring
@@ -2288,6 +2288,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(2624, {	-- Thinking Cap
 					["timeline"] = { REMOVED_4_0_3, ADDED_8_0_1 },
 					["cr"] = 2718,	-- Dustbelcher Shaman
+					["coords"] = {
+						-- #if AFTER 10.1.7
+						{ 14.6, 61.8, BADLANDS },
+						{ 16.0, 66.2, BADLANDS },
+						-- #else
+						{ 9.6, 78.6, BADLANDS },
+						{ 9.4, 85.4, BADLANDS },
+						-- #endif
+					},
 				}),
 			}),
 		},
