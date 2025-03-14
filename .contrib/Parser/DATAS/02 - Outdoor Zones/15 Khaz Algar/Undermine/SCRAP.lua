@@ -247,7 +247,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										i(233344),	-- Power-Washed Striders
 									}),
 									filter(PLATE, {
-										--i(233551),	-- Descaled Armplates
+										i(233551),	-- Descaled Armplates
 										i(233544),	-- Descaled Breastplate
 										i(233546),	-- Descaled Gauntlets
 										i(233550),	-- Descaled Girdle

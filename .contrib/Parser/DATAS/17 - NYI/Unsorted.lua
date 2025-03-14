@@ -28,7 +28,6 @@ root(ROOTS.Unsorted, {
 				i(233339),	-- Upcycled Breeches
 				i(233345),	-- Power-Washed Grips
 				i(233547),	-- Descaled Helm
-				i(233551),	-- Descaled Armplates
 
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
