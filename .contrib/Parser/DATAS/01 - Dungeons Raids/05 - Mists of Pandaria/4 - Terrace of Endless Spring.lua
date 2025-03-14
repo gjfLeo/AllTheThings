@@ -161,7 +161,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}),
-			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
+			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
 				n(ZONE_DROPS, {
 					i(86238),	-- Pattern: Chestguard of Nemeses (RECIPE!)
 					i(86272),	-- Pattern: Fists of Lightning (RECIPE!)
@@ -182,6 +182,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
 					i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
 				}),
+			}),
+			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				e(683, {	-- Protectors of the Endless
 					["crs"] = {
 						60586,	-- Elder Asani
