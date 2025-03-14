@@ -274,10 +274,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if BEFORE TBC
 			n(FACTIONS, {
 				faction(471, {	-- Wildhammer Clan
+					["description"] =
+						-- #if CLASSICERA
+						"You can grind to 11999/12000 by just killing trolls and then you can grind to Exalted by turning in Troll Necklaces at a rate of 2 Reputation per 5 necklaces. @Blackbear on the ATT Discord proposed for Classic Era that the goal for this should be Exalted. Be mad at him! :)",
+						-- #else
+						"This faction gets removed completely with the TBC prepatch, so grinding this to Exalted makes no sense.\n\nYou can grind to 11999/12000 by just killing trolls and then you can *technically* grind to Exalted by turning in Troll Necklaces at a rate of 2 Reputation per 5 necklaces, but rather than encourage you to totally waste your life on a Reputation that gets ultimately removed from the game after the season is over, I'll artificially cap the goal in ATT to Revered.\n\nGodspeed.",
+						-- #endif
 					-- #if CLASSICERA
-					["description"] = "You can grind to 11999/12000 by just killing trolls and then you can grind to Exalted by turning in Troll Necklaces at a rate of 2 Reputation per 5 necklaces. @Blackbear on the ATT Discord proposed for Classic Era that the goal for this should be Exalted. Be mad at him! :)",
-					-- #else
-					["description"] = "This faction gets removed completely with the TBC prepatch, so grinding this to Exalted makes no sense.\n\nYou can grind to 11999/12000 by just killing trolls and then you can *technically* grind to Exalted by turning in Troll Necklaces at a rate of 2 Reputation per 5 necklaces, but rather than encourage you to totally waste your life on a Reputation that gets ultimately removed from the game after the season is over, I'll artificially cap the goal in ATT to Revered.\n\nGodspeed.",
 					["minReputation"] = { 471, REVERED },	-- Wildhammer Clan, Revered.
 					-- #endif
 					["OnTooltip"] = [[function(t, tooltipInfo)
@@ -338,7 +341,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(QUESTS, {
 				q(26486, {	-- 99 Bottles of Booze on the Beach
 					["qg"] = 43109,	-- Dron Blastbrew
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Pupellyverbos Port|r' (26225) is handed in.",
 					["coord"] = { 66.2, 44.2, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -407,14 +409,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26523, {	-- All That Skitters (A)
 					["qg"] = 43156,	-- Fraggar Thundermantle
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12All That Skitters|r' (26310) is handed in.",
 					["coord"] = { 63.7, 59.9, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(26310, {	-- All That Skitters (H)
 					["qg"] = 42622,	-- Eliza Darkgrin
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8All That Skitters|r' (26523) is handed in.",
 					["coord"] = { 67.6, 66.6, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -463,7 +463,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26641, {	-- Can't Make An Omelette Without... (A)
 					["qg"] = 43200,	-- Gilda Cloudcaller
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Can't Make An Omelette Without...|r' (26382) is handed in.",
 					["sourceQuests"] = {
 						27625,	-- In Defense of Quel'Danil
 						27626,	-- The Highvale Documents
@@ -500,7 +499,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26382, {	-- Can't Make An Omelette Without... (H)
 					["qg"] = 42896,	-- Apothecary Surlis
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Can't Make An Omelette Without...|r' (26641) is handed in.",
 					["coord"] = { 31.8, 58.5, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -577,7 +575,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26524, {	-- Dark Vessels (A)
 					["qg"] = 43156,	-- Fraggar Thundermantle
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Dark Vessels|r' (26309) is handed in.",
 					["sourceQuest"] = 26523,	-- All That Skitters
 					["coord"] = { 63.7, 59.9, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -616,7 +613,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26309, {	-- Dark Vessels (H)
 					["qg"] = 42622,	-- Eliza Darkgrin
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Dark Vessels|r' (26524) is handed in.",
 					["sourceQuest"] = 26310,	-- All That Skitters
 					["coord"] = { 67.6, 66.6, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -692,7 +688,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26496, {	-- Down with the Vilebranch
 					["qg"] = 43108,	-- Kerr Ironsight
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12The Fall of Jintha'Alor|r' (26432) is handed in.",
 					["sourceQuests"] = {
 						26491,	-- Skulk Rock Clean-Up
 						26492,	-- Skulk Rock Supplies
@@ -704,7 +699,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26521, {	-- Faces of Evil (A)
 					["qg"] = 43156,	-- Fraggar Thundermantle
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Faces of Evil|r' (26357) is handed in.",
 					["coord"] = { 63.7, 59.9, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -722,7 +716,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26357, {	-- Faces of Evil (H)
 					["qg"] = 42624,	-- Kotonga
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Faces of Evil|r' (26521) is handed in.",
 					["coord"] = { 67.7, 66.2, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -747,7 +740,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(485, {	-- Find OOX-09/HL!
 					["provider"] = { "i", 8704 },	-- OOX-09/HL Distress Beacon
-					["description"] = "The item that starts this quest drops from any mob in The Hinterlands.",
+					["description"] = "The item that starts this quest has a chance to drop from any killed creature in The Hinterlands.",
 					["lvl"] = lvlsquish(43, 43, 10),
 				}),
 				q(4297, {	-- Food for Baby
@@ -810,7 +803,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26483, {	-- Gan'dranda
 					["qg"] = 43108,	-- Kerr Ironsight
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Thornar Thunderclash|r' (26263) is handed in.",
 					["coord"] = { 66.3, 44.2, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -845,7 +837,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26518, {	-- Heads Up (A)
 					["qg"] = 43157,	-- Doran Steelwing
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Heads Up|r' (26366) is handed in.",
 					["coord"] = { 63.8, 59.8, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -858,7 +849,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26366, {	-- Heads Up (H)
 					["qg"] = 42642,	-- Primal Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Heads Up|r' (26518) is handed in.",
 					["coord"] = { 67.8, 66.5, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -877,13 +867,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 29. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 33 (TODO: Test max level between 32 and 39)
+					-- Cataclysm: Maximum is level 33. (TODO: Test max level between 32 and 39)
 					["lvl"] = { 29, 33 },
 					-- #endif
 				})),
 				q(26526, {	-- Hunt the Keeper (A)
 					["qg"] = 43156,	-- Fraggar Thundermantle
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Hunt the Keeper|r' (26369) is handed in.",
 					["sourceQuest"] = 26517,	-- Summit of Fate
 					["coord"] = { 63.8, 59.9, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -915,7 +904,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26369, {	-- Hunt the Keeper (H)
 					["qg"] = 42642,	-- Primal Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Hunt the Keeper|r' (26526) is handed in.",
 					["sourceQuest"] = 26363,	-- Summit of Fate
 					["coord"] = { 67.8, 66.5, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -991,7 +979,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26516, {	-- It's Ours Now (A)
 					["qg"] = 43157,	-- Doran Steelwing
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12It's Ours Now|r' (26308) is handed in.",
 					["sourceQuest"] = 26498,	-- Death to the Vilebranch
 					["coord"] = { 63.8, 59.8, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1019,7 +1006,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26308, {	-- It's Ours Now (H)
 					["qg"] = 42642,	-- Primal Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8It's Ours Now|r' (26516) is handed in.",
 					["sourceQuest"] = 26307,	-- Death to the Vilebranch
 					["coord"] = { 67.8, 66.5, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1133,7 +1119,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26515, {	-- Ongo'longo's Revenge (A)
 					["qg"] = 43157,	-- Doran Steelwing
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Ongo'longo's Revenge|r' (26367) is handed in.",
 					["sourceQuests"] = {
 						26518,	-- Heads Up (A)
 					},
@@ -1148,7 +1133,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26367, {	-- Ongo'longo's Revenge (H)
 					["qg"] = 42642,	-- Primal Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Ongo'longo's Revenge|r' (26515) is handed in.",
 					["sourceQuests"] = {
 						26307,	-- Death to the Vilebranch (H)
 						26366,	-- Heads Up (H)
@@ -1189,7 +1173,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26490, {	-- Prime Slime (A)
 					["qg"] = 43109,	-- Dron Blastbrew
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Prime Slime|r' (26283) is handed in.",
 					["sourceQuests"] = {
 						26483,	-- Gan'dranda
 						26462,	-- The Wicked Revantusk
@@ -1221,7 +1204,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26283, {	-- Prime Slime (H)
 					["qg"] = 42612,	-- Malcolm Fendelson
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Prime Slime|r' (26490) is handed in.",
 					["sourceQuests"] = {
 						26238,	-- The Savage Dwarves
 						26263,	-- Thornar Thunderclash
@@ -1253,7 +1235,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26225, {	-- Pupellyverbos Port
 					["qg"] = 42464,	-- Grognard
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e899 Bottles of Booze on the Beach|r' (26486) is handed in.",
 					["coord"] = { 77.3, 79.9, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -1526,7 +1507,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26532, {	-- Shadra the Venom Queen (A)
 					["qg"] = 43298,	-- Wildhammer Lookout
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Shadra the Venom Queen|r' (26419) is handed in.",
 					["sourceQuest"] = 26531,	-- Summoning Shadra
 					["coord"] = { 34.3, 67.7, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1557,7 +1537,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26419, {	-- Shadra the Venom Queen (H)
 					["qg"] = 43299,	-- Deathstalker Lookout
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Shadra the Venom Queen|r' (26532) is handed in.",
 					["sourceQuest"] = 26558,	-- Summoning Shadra
 					["coord"] = { 35.6, 68.4, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1603,7 +1582,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26491, {	-- Skulk Rock Clean-Up (A)
 					["qg"] = 43108,	-- Kerr Ironsight
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Skulk Rock Clean-Up|r' (26267) is handed in.",
 					["sourceQuests"] = {
 						26483,	-- Gan'dranda
 						26462,	-- The Wicked Revantusk
@@ -1619,7 +1597,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26267, {	-- Skulk Rock Clean-Up (H)
 					["qg"] = 42613,	-- Elder Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Skulk Rock Clean-Up|r' (26491) is handed in.",
 					["sourceQuests"] = {
 						26238,	-- The Savage Dwarves
 						26263,	-- Thornar Thunderclash
@@ -1635,7 +1612,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26492, {	-- Skulk Rock Supplies (A)
 					["qg"] = 43108,	-- Kerr Ironsight
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Skulk Rock Supplies|r' (26268) is handed in.",
 					["sourceQuests"] = {
 						26483,	-- Gan'dranda
 						26462,	-- The Wicked Revantusk
@@ -1654,7 +1630,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26268, {	-- Skulk Rock Supplies (H)
 					["qg"] = 42613,	-- Elder Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Skulk Rock Supplies|r' (26492) is handed in.",
 					["sourceQuests"] = {
 						26238,	-- The Savage Dwarves
 						26263,	-- Thornar Thunderclash
@@ -1673,7 +1648,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26485, {	-- Snapjaws, Lad!
 					["qg"] = 43109,	-- Dron Blastbrew
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Snapjaws, Mon!|r' (26211) is handed in.",
 					["coord"] = { 66.2, 44.2, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -1702,7 +1676,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26211, {	-- Snapjaws, Mon!
 					["qg"] = 14740,	-- Katoom the Angler
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Snapjaws, Lad!|r' (26485) is handed in.",
 					["coord"] = { 80.3, 81.5, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -1741,7 +1714,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26306, {	-- Start Taking Back
 					["qg"] = 42642,	-- Primal Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Vilebranch Scum|r' (26497) is handed in.",
 					["sourceQuest"] = 26432,	-- The Fall of Jintha'Alor
 					["coord"] = { 67.8, 66.5, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1757,7 +1729,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26643, {	-- Starvation Diet (A)
 					["qg"] = 43200,	-- Gilda Cloudcaller
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Starvation Diet|r' (26387) is handed in.",
 					["sourceQuest"] = 26641,	-- Can't Make an Omelette Without...
 					["coord"] = { 30.6, 47.0, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1770,7 +1741,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26387, {	-- Starvation Diet (H)
 					["qg"] = 42896,	-- Apothecary Surlis
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Starvation Diet|r' (26643) is handed in.",
 					["sourceQuest"] = 26382,	-- Can't Make an Omelette Without...
 					["coord"] = { 31.8, 58.5, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1794,7 +1764,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26517, {	-- Summit of Fate (A)
 					["qg"] = 43156,	-- Fraggar Thundermantle
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Summit of Fate|r' (26363) is handed in.",
 					["sourceQuests"] = {
 						26498,	-- Death to the Vilebranch
 						26515,	-- Ongo'longo's Revenge
@@ -1805,7 +1774,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26363, {	-- Summit of Fate (H)
 					["qg"] = 42642,	-- Primal Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Summit of Fate|r' (26517) is handed in.",
 					["sourceQuests"] = {
 						26308,	-- It's Ours Now
 						26367,	-- Ongo'longo's Revenge
@@ -1835,7 +1803,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26531, {	-- Summoning Shadra (A)
 					["qg"] = 43200,	-- Gilda Cloudcaller
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Summoning Shadra|r' (26558) is handed in.",
 					["sourceQuest"] = 26530,	-- The Shell of Shadra
 					["coord"] = { 30.6, 47.0, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1843,7 +1810,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26558, {	-- Summoning Shadra (H)
 					["qg"] = 42898,	-- Darkcleric Marnal
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Summoning Shadras|r' (26531) is handed in.",
 					["sourceQuest"] = 26418,	-- The Shell of Shadra
 					["coord"] = { 31.8, 58.3, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1870,7 +1836,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26528, {	-- The Eye of Shadra (A)
 					["qg"] = 43200,	-- Gilda Cloudcaller
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12The Eye of Shadra|r' (26381) is handed in.",
 					["sourceQuests"] = {
 						27625,	-- In Defense of Quel'Danil
 						27626,	-- The Highvale Documents
@@ -1889,7 +1854,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26381, {	-- The Eye of Shadra (H)
 					["qg"] = 42898,	-- Darkcleric Marnal
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8The Eye of Shadra|r' (26528) is handed in.",
 					["coord"] = { 31.8, 58.3, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -1904,7 +1868,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26432, {	-- The Fall of Jintha'Alor
 					["qg"] = 42613,	-- Elder Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Down with the Vilebranch|r' (26496) is handed in.",
 					["sourceQuests"] = {
 						26267,	-- Skulk Rock Clean-Up
 						26268,	-- Skulk Rock Supplies
@@ -1916,7 +1879,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26529, {	-- The Fang of Shadra (A)
 					["qg"] = 43200,	-- Gilda Cloudcaller
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12The Fang of Shadra|r' (26406) is handed in.",
 					["sourceQuest"] = 26528,	-- The Eye of Shadra
 					["coord"] = { 30.6, 47.0, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1932,7 +1894,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26406, {	-- The Fang of Shadra (H)
 					["qg"] = 42898,	-- Darkcleric Marnal
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8The Fang of Shadra|r' (26529) is handed in.",
 					["sourceQuest"] = 26381,	-- The Eye of Shadra
 					["coord"] = { 31.8, 58.3, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1972,7 +1933,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26238, {	-- The Savage Dwarves
 					["qg"] = 42613,	-- Elder Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8The Wicked Revantusk|r' (26462) is handed in.",
 					["sourceQuest"] = 28574,	-- Warchief's Command: The Hinterlands!
 					["coord"] = { 78.1, 81.3, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1988,7 +1948,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26530, {	-- The Shell of Shadra (A)
 					["qg"] = 43200,	-- Gilda Cloudcaller
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12The Shell of Shadra|r' (26418) is handed in.",
 					["sourceQuest"] = 26529,	-- The Fang of Shadra
 					["coord"] = { 30.6, 47.0, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2020,7 +1979,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26418, {	-- The Shell of Shadra (H)
 					["qg"] = 42898,	-- Darkcleric Marnal
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8The Shell of Shadra|r' (26530) is handed in.",
 					["sourceQuest"] = 26406,	-- The Fang of Shadra
 					["coord"] = { 31.8, 58.3, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2052,7 +2010,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26462, {	-- The Wicked Revantusk
 					["qg"] = 43108,	-- Kerr Ironsight
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12The Savage Dwarves|r' (26238) is handed in.",
 					["coord"] = { 66.3, 44.2, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2067,7 +2024,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26263, {	-- Thornar Thunderclash
 					["qg"] = 42613,	-- Elder Torntusk
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Gan'dranda|r' (26483) is handed in.",
 					["coord"] = { 78.1, 81.3, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -2105,11 +2061,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 2880,	-- Troll Necklace Bounty
 					["coord"] = { 14.8, 44.6, THE_HINTERLANDS },
 					["timeline"] = { REMOVED_2_0_3 },
-					-- #if CLASSICERA
-					["maxReputation"] = { 471, EXALTED },	-- Wildhammer Clan, Exalted.
-					-- #elseif BEFORE TBC
-					["maxReputation"] = { 471, REVERED },	-- Wildhammer Clan, Revered.
-					-- #endif
+					["maxReputation"] = {
+						-- #if CLASSICERA
+						471, EXALTED,	-- Wildhammer Clan, Exalted.
+						-- #elseif BEFORE TBC
+						471, REVERED,	-- Wildhammer Clan, Revered.
+						-- #endif
+					},
 					["cost"] = { { "i", 9259, 5 } },	-- Troll Tribal Necklace
 					["races"] = ALLIANCE_ONLY,
 					["repeatable"] = true,
@@ -2166,7 +2124,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26525, {	-- Venomous Secrets (A)
 					["qg"] = 43156,	-- Fraggar Thundermantle
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Venomous Secrets|r' (26368) is handed in.",
 					["sourceQuest"] = 26517,	-- Summit of Fate
 					["coord"] = { 63.7, 59.9, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2179,7 +2136,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26368, {	-- Venomous Secrets (H)
 					["qg"] = 42622,	-- Eliza Darkgrin
-					["description"] = "This quest gets marked as completed when its Alliance counterpart '|cff4a54e8Venomous Secrets|r' (26525) is handed in.",
 					["sourceQuest"] = 26309,	-- Dark Vessels
 					["coord"] = { 67.6, 66.6, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2212,7 +2168,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26497, {	-- Vilebranch Scum
 					["qg"] = 43157,	-- Doran Steelwing
-					["description"] = "This quest gets marked as completed when its Horde counterpart '|cffe50d12Start Taking Back|r' (26306) is handed in.",
 					["sourceQuest"] = 26496,	-- Down with the Vilebranch
 					["coord"] = { 63.8, 59.8, THE_HINTERLANDS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -2559,7 +2514,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #endif
 			n(ZONE_DROPS, {
-				i(16214, {	-- Formula: Enchant Bracer - Greater Intellect
+				i(16214, {	-- Formula: Enchant Bracer - Greater Intellect (RECIPE!)
 					["timeline"] = { REMOVED_2_3_0 },	-- Learned at trainer
 					["cr"] = 2642,	-- Vilebranch Shadowcaster
 				}),
@@ -2602,7 +2557,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(15760, {	-- Pattern: Ironfeather Breastplate (RECIPE!)
 					["cr"] = 2644,	-- Vilebranch Hideskinner
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["coords"] = {
 						{ 68.2, 75.0, THE_HINTERLANDS },
 						{ 63.8, 73.6, THE_HINTERLANDS },
