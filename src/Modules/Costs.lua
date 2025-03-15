@@ -54,6 +54,7 @@ local CostDebugIDs = {
 	-- [175142] = true,	-- All-Seeing Right Eye
 	-- [207026] = true,	-- Dreamsurge Coalescence
 	-- [205052] = true,	-- Miloh
+	-- [515] = true, -- DMF Ticket
 }
 local function PrintDebug(id, ...)
 	if CostDebugIDs.ALL then
@@ -201,7 +202,7 @@ local function SetCostTotals(costs, isCost, refresh)
 	local parent, blockedBy
 	for _,c in ipairs(costs) do
 		-- Mark the group with a costTotal
-		-- app.PrintDebug("Force Cost",c.hash,isCost)
+		-- PrintDebug("Force Cost",app:SearchLink(c),isCost)
 		c._SettingsRefresh = refresh;
 		-- only mark cost on visible content
 		if isCost and RecursiveGroupRequirementsFilter(c, ExtraFilters) then
@@ -227,6 +228,7 @@ end
 local function DoCollectibleCheckForItemRef(ref, itemID, itemUnbound)
 	-- Depth = 0
 	local collectible = CheckCollectible(ref, itemID)
+	if not collectible then return end
 	local isCollectibleAcceptable = CollectibleAcceptible[collectible]
 	if not isCollectibleAcceptable or (isCollectibleAcceptable ~= true and not isCollectibleAcceptable(itemUnbound)) then
 		-- if collectible == 2 then
@@ -263,7 +265,11 @@ local function DoCollectibleCheckForItemRef(ref, itemID, itemUnbound)
 end
 local function DoCollectibleCheckForCurrRef(ref, currencyID)
 	-- Depth = 0
-	if not CheckCollectible(ref, currencyID) then return end
+	local collectible = CheckCollectible(ref, currencyID)
+	-- Not currently considering transferrable currencies as being 'BoE', but maybe something to think about
+	-- 2 - requires Account filtering to include
+	-- 3 - required Unobtainable filtering to include
+	if not collectible or collectible > 1 then return end
 	local refcosts = ref.cost
 	if refcosts and type(refcosts) == "table" then
 		for _,costCheck in ipairs(refcosts) do
@@ -278,6 +284,7 @@ end
 local function DoCollectibleCheckForSpellRef(ref, spellID, itemUnbound)
 	-- Depth = 0
 	local collectible = CheckCollectible(ref, spellID)
+	if not collectible then return end
 	local isCollectibleAcceptable = CollectibleAcceptible[collectible]
 	if not isCollectibleAcceptable or (isCollectibleAcceptable ~= true and not isCollectibleAcceptable(itemUnbound)) then
 		-- if collectible == 2 then
