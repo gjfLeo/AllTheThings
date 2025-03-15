@@ -426,3 +426,4 @@ i(236763, FACTION_TWW_BLACKWATER_CARTEL);	-- Finder's Fee [500 Rep]
 i(236764, FACTION_TWW_BILGEWATER_CARTEL);	-- Finder's Fee [500 Rep]
 i(236689, FACTION_TWW_STEAMWHEEDLE_CARTEL);	-- Finder's Fee [500 Rep]
 i(236765, FACTION_TWW_VENTURE_CO);			-- Finder's Fee [500 Rep]
+i(237014, FACTION_THE_SEVERED_THREADS);		-- Severed Threads Commendation [1500 rep with choice of three subreps.] Not technically correct to apply metafaction but is close while only one rep may be attached.

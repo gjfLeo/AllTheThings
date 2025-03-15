@@ -745,6 +745,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		})),
 		filter(COSMETIC, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			i(235617), 	-- Lucky Goblin's Strapped Rockets
+			i(235615),	-- Rusty Gobjets
 		})),
 		n(BOUNTIFUL, bubbleDownFiltered({
 			["cost"] = {{"c", RESTORED_COFFER_KEY, 1}},
@@ -2102,6 +2103,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
+						i(211801),	-- Poisonous Shroom Cap
 						i(212167),	-- Taken Candle
 						i(225066),	-- Trailblazer's Haversack
 					}),
@@ -2536,7 +2538,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				n(TREASURES, {
 					filter(COSMETIC, {
 						i(212162),	-- Bitter Shroom Cap
-						i(235615),	-- Rusty Gobjets
 						i(212167),	-- Taken Candle
 					}),
 				}),

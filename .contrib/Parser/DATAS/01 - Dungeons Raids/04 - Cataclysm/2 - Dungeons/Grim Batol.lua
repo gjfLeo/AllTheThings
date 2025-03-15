@@ -330,7 +330,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 			}),
 			-- #elseif AFTER 11.1.0
 			-- Return to the old version again when TWW Season 1 ends.
-			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, MixedNormalAndHeroicLootTable),
+			d(DIFFICULTY.DUNGEON.NORMAL, MixedNormalAndHeroicLootTable),	-- Heroic Grim Batol drops no loot whatsoever anymore
 			d(DIFFICULTY.DUNGEON.HEROIC, {
 				e(131, {	-- General Umbriss
 					["crs"] = { 39625 },	-- General Umbriss
