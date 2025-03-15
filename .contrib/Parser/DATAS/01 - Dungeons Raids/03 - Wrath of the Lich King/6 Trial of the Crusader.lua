@@ -861,9 +861,11 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 					-- #if AFTER LEGION
 					["description"] = "|CFFFF0000Purchasing this exact piece (shared appearances don't work) and letting the 2 hour timer disappear unlocks the Alliance equivalent.|r",
 					-- #endif
-					["cost"] = { { "i", 47242, 1 }, },	-- Trophy of the Crusade
 					["races"] = HORDE_ONLY,
-					["groups"] = {
+					["groups"] = bubbleDownFiltered(
+						{
+							["cost"] = { { "i", 47242, 1 }, },	-- Trophy of the Crusade
+						},FILTERFUNC_itemID,{
 						-- TODO: Finish sorting this.
 						cl(WARRIOR, {	-- Hellscream's Battlegear (657)
 							-- DPS
@@ -1021,16 +1023,18 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 							i(48553),	-- Koltira's Pauldrons of Triumph
 							i(48496),	-- Koltira's Shoulderpads of Triumph
 						}),
-					},
+					}),
 				}),
 				n(35577, {	-- Valiant Laradia <Triumphant Armor Vendor>
 					["coord"] = { 75.4, 21.6, ICECROWN },
 					-- #if AFTER LEGION
 					["description"] = "|CFFFF0000Purchasing this exact piece (shared appearances don't work) and letting the 2 hour timer disappear unlocks the Horde equivalent.|r",
 					-- #endif
-					["cost"] = { { "i", 47242, 1 }, },	-- Trophy of the Crusade
 					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
+					["groups"] = bubbleDownFiltered(
+						{
+							["cost"] = { { "i", 47242, 1 }, },	-- Trophy of the Crusade
+						},FILTERFUNC_itemID,{
 						-- TODO: Finish sorting this.
 						cl(WARRIOR, {	-- Wrynn's Battlegear (658)
 							-- DPS
@@ -1188,7 +1192,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 							i(48542),	-- Thassarian's Pauldrons of Triumph
 							i(48485),	-- Thassarian's Shoulderplates of Triumph
 						}),
-					},
+					}),
 				}),
 			}),
 			n(COMMON_BOSS_DROPS, {
@@ -1328,13 +1332,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 						["races"] = HORDE_ONLY,
 					}),
 					i(47556),	-- Crusader Orb
-					i(47242, {	-- Trophy of the Crusade
-						-- #if AFTER 4.0.3
-						["description"] = "This only drops on either of the 25-Player Modes.",
-						-- #else
-						["description"] = "This only drops on either of the 25-Player Modes or from the Tribute Chest at the end of 10 man Heroic.",
-						-- #endif
-					}),
 				},
 			}),
 			d(DIFFICULTY.LEGACY_RAID.PLAYER10_NORMAL, {
@@ -1840,15 +1837,16 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 							a(ig(48712)),		-- The Spinebreaker
 
 						}),
-						-- #if BEFORE 4.0.3
 						i(47242, {	-- Trophy of the Crusade
 							["description"] = "This only drops on either of the 25-Player Modes or from the Tribute Chest at the end of 10 man Heroic.",
 						}),
-						-- #endif
 					},
 				})),
 			}),
 			d(DIFFICULTY.LEGACY_RAID.PLAYER25_NORMAL, {
+				n(COMMON_BOSS_DROPS, {
+					i(47242),	-- Trophy of the Crusade
+				}),
 				e(1618, {	-- Northrend Beasts
 					["crs"] = {
 						34797,	-- Icehowl
@@ -2101,6 +2099,9 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 				}),
 			}),
 			d(DIFFICULTY.LEGACY_RAID.PLAYER25_HEROIC, {
+				n(COMMON_BOSS_DROPS, {
+					i(47242),	-- Trophy of the Crusade
+				}),
 				e(1618, {	-- Northrend Beasts
 					["crs"] = {
 						34797,	-- Icehowl
