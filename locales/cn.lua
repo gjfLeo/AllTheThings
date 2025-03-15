@@ -448,7 +448,6 @@ local a = L.ABBREVIATIONS;
 for key,value in pairs({
 	["安托鲁斯，燃烧王座"] = "安托鲁斯",	-- ["Antorus, the Burning Throne"] = "Antorus"
 	["资料片前夕"] = "前夕",	-- ["Expansion Pre"] = "Pre"
-	[GROUP_FINDER] = "地下城和团本",	-- ["Dungeons & Raids"] = "D&R"
 	["尼奥罗萨，觉醒之城"] = "尼奥罗萨",	-- ["Ny'alotha, the Waking City"] = "Ny'alotha"
 	["塔扎维什，帷纱集市"] = "塔扎维什",	-- ["Tazavesh, the Veiled Market"] = "Tazavesh"
 	-- DF
