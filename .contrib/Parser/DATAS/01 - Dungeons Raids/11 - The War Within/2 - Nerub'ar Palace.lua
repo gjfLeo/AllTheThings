@@ -419,9 +419,15 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			})),
 			n(SPECIAL, {
 				n(228081, {	-- Ethereum Void Reaper
-					["description"] = "This rare has a chance to spawn while using the Trinket, Treacherous Transmitter, in an Outdoor zone.",
+					["description"] =
+					-- #if BEFORE 11.0.7
+					"This rare has a chance to spawn while using the Trinket, Treacherous Transmitter, in any outdoor Khaz Algar zone.",
+					-- #else
+					"This rare has a chance to spawn while using the Trinket, Treacherous Transmitter, in any outdoor zone.",
+					-- #endif
 					["crs"] = { 228078 },	-- Ethereum Void Reaper (Unsure which ID or both //Braghe)
 					["provider"] = { "i", 221023 },	-- Treacherous Transmitter
+					-- #if BEFORE 11.0.7
 					["maps"] = {
 						ISLE_OF_DORN,
 						HALLOWFALL,
@@ -429,6 +435,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						AZJ_KAHET,
 						AZJ_KAHET_LOWER,
 					},
+					-- #endif
 					["g"] = {
 						i(226810),	-- Infiltrator's Shroud (TOY!)
 					},
