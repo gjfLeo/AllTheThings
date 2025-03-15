@@ -21,6 +21,7 @@ i(35953);	-- Mead-Basted Caribou
 i(44435);	-- Windle's Lighter
 i(73242);	-- Master's Haversack
 i(102144);	-- Kor'kron Cage Key
+i(115460);	-- Northrend Alchemy Research
 i(118067);	-- Old Chain Link
 i(180786);	-- Empty Binding
 -- Legion
