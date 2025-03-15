@@ -32,6 +32,7 @@ root(ROOTS.WorldDrops, {
 				i(82280),	-- Immaculate Amulet
 				i(82115),	-- Shamanic Amulet
 				i(87468),	-- Shiny Hozen Rock Holder
+				i(87469),	-- Astrylian's Cheerful Charm
 			}),
 			n(SHOULDER, {
 				i(90785),	-- Vermin-Gnawed Cloth Shoulderpads
