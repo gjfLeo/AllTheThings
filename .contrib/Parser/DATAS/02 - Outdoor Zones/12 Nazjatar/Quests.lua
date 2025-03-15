@@ -999,7 +999,20 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 			["provider"] = { "n", 152716 },	-- Arylina
 			["g"] = {
-				i(168238),	-- Arylina's Diary (QI!)
+				o(326595, {	-- Arylina's Diary
+					["coords"] = {
+						{ 76.2, 27.5, NAZJATAR },
+						{ 76.4, 29.7, NAZJATAR },
+						{ 76.6, 30.0, NAZJATAR },
+						{ 77.4, 29.4, NAZJATAR },
+						{ 77.6, 30.2, NAZJATAR },
+						{ 77.7, 26.1, NAZJATAR },
+						{ 79.1, 27.5, NAZJATAR },
+						{ 79.5, 27.7, NAZJATAR },
+						{ 80.3, 29.8, NAZJATAR },
+					},
+					["g"] = { i(168238) },	-- Arylina's Diary (QI!)
+				}),
 			},
 		}),
 		q(56640, {	-- Fortunate Souls
@@ -2680,7 +2693,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["coord"] = { 39.1, 54.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["isDaily"] = true,
-			["provider"] = { "o", 326140 },	-- Bounty Board
+			["provider"] = { "o", 326141 },	-- Bounty Board
 			["description"] = "Requires |cFFFFD700Farseer Ori|r as your friend.",
 			["g"] = {
 				i(168319),	-- Lady Narjiss' Head (QI!)

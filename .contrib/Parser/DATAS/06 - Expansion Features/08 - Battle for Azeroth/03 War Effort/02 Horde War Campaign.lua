@@ -946,6 +946,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 146806 },	-- Dark Ranger Lyana
 						["coord"] = { 11.3, 66.8, REDRIDGE_MOUNTAINS },
 						["races"] = HORDE_ONLY,
+						["g"] = { i(165638) },	-- Humanizing Potion (QI!)
 					}),
 					q(54104, {	-- Signs of Saurfang
 						["sourceQuests"] = { 54103 },	-- Corner Crossing
@@ -964,6 +965,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 147210 },	-- Dark Ranger Lyana
 						["coord"] = { 80.6, 46.9, REDRIDGE_MOUNTAINS },
 						["races"] = HORDE_ONLY,
+						["g"] = { i(165638) },	-- Humanizing Potion (QI!)
 					}),
 					q(54754, {	-- For the Queen
 						["sourceQuests"] = { 54106 },	-- Tracking Tipoff

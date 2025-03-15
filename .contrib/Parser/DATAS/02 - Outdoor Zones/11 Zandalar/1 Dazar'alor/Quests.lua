@@ -142,6 +142,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 										["coord"] = { 51.5, 99.5, DAZARALOR },	-- The Banshee's Wail Location
 										["races"] = HORDE_ONLY,
 										["g"] = {
+											i(163334),	-- Outpost Upgrade
 											i(163335),	-- Mission Report (QI!)
 										},
 									}),
@@ -188,6 +189,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 										["coord"] = { 51.5, 99.5, DAZARALOR },	-- The Banshee's Wail Location
 										["races"] = HORDE_ONLY,
 										["g"] = {
+											i(163184),	-- Outpost Upgrade
 											i(163185),	-- Mission Report (QI!)
 										},
 									}),
@@ -235,6 +237,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 										["coord"] = { 51.5, 99.5, DAZARALOR },	-- The Banshee's Wail Location
 										["races"] = HORDE_ONLY,
 										["g"] = {
+											i(163190),	-- Outpost Upgrade
 											i(163191),	-- Mission Report (QI!)
 										},
 									}),
