@@ -482,13 +482,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(226138),	-- Vow-Taker's Boots
 					},
 				}),
-				------ Stay awhile and listen ------
-				hqt(82538, {	-- Stay awhile and listen: General Steelstrike
-					["name"] = "Stay awhile and listen: General Steelstrike",
-					["sourceQuests"] = { 79650 },	-- Priory of the Sacred Flame: A Brother's Grief
-					["provider"] = { "n", 218289 },	-- General Steelstrike
-					["coord"] = { 42.3, 55, HALLOWFALL },
-				}),
 			}),
 			header(HEADERS.AchCriteria, 40844.03, {	-- Striking Steel
 				q(82216, {	-- Economical Request
@@ -539,6 +532,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(223890),	-- Tough Ivy Rope (QI!)
 					},
 				}),
+				------ Stay awhile and listen ------
+				hqt(82538, {	-- Stay awhile and listen: General Steelstrike
+					["name"] = "Stay awhile and listen: General Steelstrike",
+					["sourceQuests"] = { 82217 },	-- Underground Economics
+					["provider"] = { "n", 218289 },	-- General Steelstrike
+					["coord"] = { 42.3, 55.0, HALLOWFALL },
+				}),
+				---
 				q(82219, {	-- Spice Up Your Life
 					["description"] = "Becomes available after daily reset.",
 					["sourceQuests"] = { 82217 },	-- Underground Economics
