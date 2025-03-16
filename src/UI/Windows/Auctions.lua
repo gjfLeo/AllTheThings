@@ -9,7 +9,7 @@ local debugprofilestop, next, pcall, select, tinsert, tonumber, type
 	= debugprofilestop, next, pcall, select, tinsert, tonumber, type;
 	
 -- Module locals
-local auctionData, priceA, priceB = {};
+local auctionData, priceA, priceB, oldLegacyFilter = {};
 local function SortByPrice(a,b)
 	priceA = a.price or 0;
 	priceB = b.price or 0;
@@ -228,43 +228,75 @@ app:CreateWindow("Auctions", {
 				text = "Auction Module",
 				icon = 133784, 
 				description = "This is a debug window for all of the auction data that was returned. Turn on 'Account Mode' to show items usable on any character on your account!",
+				SortType = "Global",
 				visible = true, 
 				expanded = true,
 				back = 1,
 				indent = 0,
 				g = { },
 				metas = {
-					["mountID"] = app.CreateFilter(100, {	-- Mounts
-						["description"] = "All mounts that you have not collected yet are displayed here.",
-						["priority"] = 3,
-					}),
-					["recipeID"] = app.CreateFilter(200, {	-- Recipes
-						["description"] = "All recipes that you have not collected yet are displayed here.",
-						["priority"] = 6,
-					}),
-					["reagentID"] = {	-- Reagents
-						["text"] = "Reagents",
-						["icon"] = 132856,
-						["description"] = "All items that can be used to craft an item using a profession on your account.",
-						["priority"] = 5,
-					},
-					["itemID"] = {	-- Items
-						["text"] = "Items",
-						["icon"] = 132595,
-						["description"] = "All items that could potentially be upgrades are listed here.",
-						["priority"] = 7,
+					["sourceID"] = {	-- Appearances
+						text = "Appearances",
+						icon = 135349,
+						description = "All items that could be learned for transmog are listed here.",
+						SortPriority = 2,
 					},
 					["speciesID"] = app.CreateFilter(101, {	-- Battle Pets
-						["description"] = "All battle pets that you have not collected yet are displayed here.",
-						["priority"] = 6,
+						description = "All battle pets that you have not collected yet are displayed here.",
+						SortPriority = 3,
 					}),
+					["mountID"] = app.CreateFilter(100, {	-- Mounts
+						description = "All mounts that you have not collected yet are displayed here.",
+						SortPriority = 4,
+					}),
+					["reagentID"] = {	-- Materials
+						text = "Materials",
+						icon = 132856,
+						description = "All items that can be used to craft an item using a profession on your account.",
+						SortPriority = 5,
+					},
+					["itemID"] = {	-- Miscellaneous
+						text = "Miscellaneous",
+						icon = 132595,
+						description = "All items that could be used for some non-transmog related purpose such as for an achievement are displayed here.",
+						SortPriority = 6,
+					},
+					["recipeID"] = app.CreateFilter(200, {	-- Recipes
+						description = "All recipes that you have not collected yet are displayed here.",
+						SortPriority = 7,
+					}),
+					["toyID"] = {	-- Toys
+						text = "Toys",
+						icon = 133015,
+						description = "All items that are classified as Toys either by ATT for the future or by the game presently.",
+						SortPriority = 8,
+					},
+					["legacyID"] = {	-- Legacy
+						text = "Legacy",
+						icon = 135331,
+						description = "All items that were removed from game that you could probably still collect for a... nominal fee.\n\nAlso if you have found something here, feel free to post about it on the ATT Discord's #classic-general channel! I'm sure some folks might want to find these.",
+						SortPriority = 10,
+						OnUpdate = function(data)
+							oldLegacyFilter = AllTheThingsSettings.Unobtainable[2];
+							AllTheThingsSettings.Unobtainable[2] = true;
+						end,
+					},
+					["legacyIDCleaner"] = {	-- Legacy Cleaner
+						text = "Legacy Cleaner",
+						icon = 135331,
+						SortPriority = 10.1,
+						OnUpdate = function(data)
+							AllTheThingsSettings.Unobtainable[2] = oldLegacyFilter;
+						end,
+					},
 				},
 				options = {
 					setmetatable({
 						clickText = "Click to run a Full Scan",
 						clickDescription = "Click this button to perform a full scan of the auction house. This information will appear within this window and clear out the existing data.",
-						scanningText = "Full Scan on Cooldown";
-						scanningDescription = "Please wait while we wait for the server to respond.";
+						scanningText = "Full Scan on Cooldown",
+						scanningDescription = "Please wait while we wait for the server to respond.",
+						SortPriority = 1,
 						icon = 132089,
 						OnClick = function(row, button)
 							return row.ref:StartScan(row);
@@ -335,6 +367,7 @@ app:CreateWindow("Auctions", {
 					{
 						text = "Clear Auction Data",
 						description = "Click this button to clear all of the cached auction data.",
+						SortPriority = 1.1,
 						icon = 132089,
 						OnClick = function(row, button)
 							wipe(self.data.g);
@@ -357,6 +390,7 @@ app:CreateWindow("Auctions", {
 						text = "Toggle Debug Mode",
 						icon = 134932,
 						description = "Click this button to toggle debug mode to show everything regardless of filters!",
+						SortPriority = 1.2,
 						OnClick = function() 
 							app.Settings:ToggleDebugMode();
 						end,
@@ -377,6 +411,7 @@ app:CreateWindow("Auctions", {
 						text = "Toggle Account Mode",
 						icon = 133733,
 						description = "Turn this setting on if you want to track all of the Things for all of your characters regardless of class and race filters.\n\nUnobtainable filters still apply.",
+						SortPriority = 1.3,
 						OnClick = function() 
 							app.Settings:ToggleAccountMode();
 						end,
@@ -400,6 +435,7 @@ app:CreateWindow("Auctions", {
 						text = "Toggle Faction Mode",
 						icon = 134932,
 						description = "Click this button to toggle faction mode to show everything for your faction!",
+						SortPriority = 1.4,
 						OnClick = function() 
 							app.Settings:ToggleFactionMode();
 						end,
@@ -439,6 +475,7 @@ app:CreateWindow("Auctions", {
 							for itemID,price in pairs(auctionData) do
 								searchResults = app.SearchForField("itemID", itemID);
 								if searchResults and #searchResults > 0 then
+									app.Sort(searchResults, app.SortDefaults.Accessibility);
 									searchResult = searchResults[1];
 									key = searchResult.key;
 									if key == "npcID" then
@@ -446,7 +483,14 @@ app:CreateWindow("Auctions", {
 											key = "itemID";
 										end
 									end
+									if key == "itemID" and searchResult.sourceID then
+										key = "sourceID";
+									end
 									value = searchResult[key];
+									if searchResult.u and (searchResult.u == 1 or searchResult.u == 2) then
+										key = "legacyID";
+										value = value .. "_" .. searchResult.u;
+									end
 									keys = searchResultsByKey[key];
 									
 									-- Make sure that the key type is represented.
