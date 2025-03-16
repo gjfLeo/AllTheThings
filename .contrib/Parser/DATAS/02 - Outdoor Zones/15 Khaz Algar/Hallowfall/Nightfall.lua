@@ -61,7 +61,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					--
 					q(89295, {	-- The Flame Burns Eternal
 						["g"] = {
-							i(RADIANT_EMBLEM),
+							i(239004, {	-- Radiant Service Satchel
+								i(RADIANT_EMBLEM),
+							}),
 						},
 					}),
 				})),

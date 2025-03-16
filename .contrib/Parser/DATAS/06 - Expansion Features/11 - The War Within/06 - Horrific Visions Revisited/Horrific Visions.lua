@@ -13,6 +13,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 	n(HORRIFIC_VISIONS_REVISITED, {
 		["maps"] = {
 			2403,	-- Vision of Orgrimmar
+			2404,	-- Vision of Stormwind
 		},
 		["g"] = {
 			n(ACHIEVEMENTS, {
@@ -71,15 +72,53 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 			}),
 			n(REWARDS, {
 				currency(3149),	-- Displaced Corrupted Mementos
+				-- Gear
+				--- leather
+				i(236843),	-- Mask of the Insatiable Vision
+				i(236832),	-- Shoulderpads of the Insatiable Vision
+				i(236795),	-- Waistguard of the Insatiable Vision
+				--- neck
+				i(236911),	-- Vision Tormentor's Bone Necklace
+				i(236912),	-- Vision Manipulator's Choker
+				-- Masks (QI!/QS!)
+				i(232921),	-- Faceless Mask of the Long Night (QI!/QS!)
+				-- Objects in the end
 				o(499954, {	-- Corrupted Chest (Main/Thrall chest)
 					["coord"] = { 48.5, 58.7, 2403 },	-- Vision of Orgrimmar
-					["g"] = {
-						-- TODO: probably could be listed anywhere else and just symlink, cause of Storwmind could be with different objectID?
-						i(236795),	-- Waistguard of the Insatiable Vision
-					},
 				}),
 				o(499960, {	-- Corrupted Chest (Vale of Spirit wing chest)
 					["coord"] = { 48.8, 58.6, 2403 },	-- Vision of Orgrimmar
+				}),
+				--
+				o(499022, {	-- Corrupted Chest
+					["coord"] = { 41.6, 34.4, 2404 },	-- Vision of Stormwind
+				}),
+				o(499031, {	-- Corrupted Chest (Trade District chest)
+					["coord"] = { 41.3, 34.1, 2404 },	-- Vision of Stormwind
+					["g"] = {
+						--TODO: unsure if you it is only source from it
+						i(240178),	-- Voidflame-Resistant Hide (was looted during Faceless Mask of the Long Night run)
+						i(240193),	-- Tentacle Spokes (was looted during Faceless Mask of the Long Night run)
+					},
+				}),
+				o(499026, {	-- Corrupted Chest (Dwarven District chest)
+					["coord"] = { 41.9, 34.2, 2404 },	-- Vision of Stormwind
+				}),
+				o(499028, {	-- Corrupted Chest (Mage Quarter chest)
+					["coord"] = { 41.0, 33.9, 2404 },	-- Vision of Stormwind
+					["g"] = {
+						--TODO: unsure if you it is only source from it
+						i(240186),	-- Depleted Void Crystal (was looted during Faceless Mask of the Long Night run)
+						i(232919),	-- Faceless Mask of Dark Imagination (QI!/QS!)
+					},
+				}),
+				o(499029, {	-- Corrupted Chest (Old Town chest)
+					["coord"] = { 42.1, 33.9, 2404 },	-- Vision of Stormwind
+					["g"] = {
+						--TODO: unsure if you it is only source from it
+						i(232920),	-- Faceless Mask of the Pained (QI!/QS!)
+						i(240183),	-- Twisted Skull-Scythe Handlebars (was looted during Faceless Mask of the Long Night run)
+					},
 				}),
 			}),
 			n(QUESTS, {
@@ -123,8 +162,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["coord"] = { 51.9, 82.7, 2403 },	-- Vision of Orgrimmar
 				}),
 				-- TODO: Some masks still have their old quests, and something is funky with criteria of mask of the long night, WIP on Blizzard's end maybe? v0v
+				q(86153, {	-- Faceless Mask of the Dark Imagination
+					--["sourceQuests"] = { ?? },	-- TODO: either 88907 or 87387 hqt
+					["provider"] = { "i", 232919 },	-- Faceless Mask of the Dark Imagination (QI!/QS!)
+				}),
 				q(86801),	-- Faceless Mask of Multitudes
-				q(86155),	-- Faceless Mask of the Long Night
+				q(86155, {	-- Faceless Mask of the Long Night
+					--["sourceQuests"] = { ?? },	-- TODO: either 88907 or 87387 hqt
+					["provider"] = { "i", 232921 },	-- Faceless Mask of the Long Night (QI!/QS!)
+				}),
+				q(86154, {	-- Faceless Mask of the Pained
+					--["sourceQuests"] = { ?? },	-- TODO: either 88907 or 87387 hqt
+					["provider"] = { "i", 232920 },	-- Faceless Mask of the Pained (QI!/QS!)
+				}),
 				q(88652),	-- Faceless Mask of the Nemesis
 				q(88903),	-- Faceless Mask of Vengeance
 			}),
@@ -321,7 +371,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				},
 			}),
 			header(HEADERS.Achievement, 41853, {	-- Horrific Vision of Stormwind
-				-- ["maps"] = {  },
+				["maps"] = { 2404 },
 				["g"] = {
 					n(ACHIEVEMENTS, {
 						ach(41853),	-- Horrific Vision of Stormwind
@@ -338,11 +388,34 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 	n(HORRIFIC_VISIONS_REVISITED, {
 		-- Orgrimmar
-		q(87389),	-- pop after finishing scenario first time (during quest)
-		q(88905),	-- pop after finishing scenario first time (during quest)
-		-- after first run
+		q(87432),	-- after killing Thrall (main chest unlock hqt?), doesn't affected with additional wings clearing
 		q(85951),	-- Valley of Spirits (after Vale of Spirit wing was cleared)
 		q(87431),	-- Vale of Spirit chest unlock hqt?
-		q(87432),	-- after killing Thrall (main chest unlock hqt?), doesn't affected with additional wings clearing
+		-- Stormwind
+		q(87428),	-- after Alleria kill (main chest unlock hqt?)
+		q(85829),	-- Dwarven District
+		q(87430),	-- Dwarven District chest unlock hqt?
+		q(85830),	-- Trade District
+		--q(),	-- Trade District chest unlock hqt || q:87431 also fire for Trade District
+		q(85831),	-- Mage Quarter
+		q(87427),	-- Mage chest unlock hqt?
+		q(85832),	-- Old Town
+		q(87429),	-- Old Town chest unlock hqt?
+
+		-- need more data, but probably related to moto, idk?
+		q(90129),	-- after interact with npcID 242639 (Voidfire Deathcycle Frame) @ 62.5, 32.0, 2404 (spellID 1231063 - Tagged for Extraction)
+		--
+		--q(90528),	-- either hqt to pop thing for moto or mask drop hqt after clearing up old town (with Long Night mask)
+		--q(90524),	-- either hqt to pop thing for moto or mask drop hqt after clearing up mage quarter (with Long Night mask)
+		--q(90531),	-- pop with delay after Alleria was killed (all district was cleared with Long Night mask), when was moved into chests room
+		--^ one of it could be tribute upgrade?
+		--q(88906),	-- ???
+		--q(88907),	-- All district was cleared (without masks), pop after killing Alleria // one of it mask sourceQuest
+		--q(87387),	-- All district was cleared (without masks), pop after killing Alleria // or veteran vendor unlock? / champion piece lockout?
+		--q(88908),	-- All district was cleared  (with Long Night mask), pop after killing Alleria // one of it could be champion vendor unlock?
+		--q(87382),	-- All district was cleared  (with Long Night mask), pop after killing Alleria // one of it could be champion vendor unlock? / champion piece lockout?
+		q(87389),	-- pop after finishing scenario first time (during quest) // lowest reward hqt?
+		q(88905),	-- pop after finishing scenario first time (during quest) // lowest reward hqt?
+		--87389 & 88905 also pop on 2nd run (without quests in stormwind)
 	}),
 })));
