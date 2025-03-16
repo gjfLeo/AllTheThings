@@ -666,6 +666,19 @@ local InformationTypes = {
 			end
 		end,
 	});
+	CreateInformationType("sr", {
+		priority = 2.7,
+		isRecursive = true,
+		text = DYNAMIC_FLIGHT,
+		Process = function(t, reference, tooltipInfo)
+			if t.GetValue(t, reference) then
+				tinsert(tooltipInfo, {
+					left = SPELL_FAILED_CUSTOM_ERROR_1029,
+					wrap = true,
+				});
+			end
+		end,
+	});
 	CreateInformationType("u", {
 		priority = 2.7,
 		isRecursive = true,

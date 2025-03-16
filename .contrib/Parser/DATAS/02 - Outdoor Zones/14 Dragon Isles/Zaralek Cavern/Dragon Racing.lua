@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
 	m(ZARALEK_CAVERN, {
-		n(DRAGONRIDING_RACING, {
+		skyriding(n(DRAGONRIDING_RACING, {
 			header(HEADERS.Achievement, 17494, {	-- Zaralek Cavern Racing Completionist: Gold
 				n(ACHIEVEMENTS, {
 					ach(17483, {	-- Zaralek Cavern: Bronze
@@ -519,6 +519,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 					["timeline"] = { ADDED_10_1_0 },
 				}),
 			})),
-		}),
+		})),
 	}),
 })));

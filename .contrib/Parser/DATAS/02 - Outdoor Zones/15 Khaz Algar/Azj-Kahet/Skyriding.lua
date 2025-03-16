@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(AZJ_KAHET, {
-		n(SKYRIDING, {
+		skyriding(n(SKYRIDING, {
 			n(ACHIEVEMENTS, {
 				ach(40343, {	-- Azj-Kahet: Bronze
 					-- Meta Achievement
@@ -269,6 +269,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 			}),
-		}),
+		})),
 	}),
 })));

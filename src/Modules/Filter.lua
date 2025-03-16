@@ -126,6 +126,12 @@ function(item)
 	return not item.pb or false
 end);
 
+-- Skyriding
+DefineToggleFilter("Skyriding", AccountFilters,
+function(item)
+	return not item.sr or false
+end);
+
 -- UnavailablePersonalLoot
 DefineToggleFilter("UnavailablePersonalLoot", AccountFilters,
 function(item)

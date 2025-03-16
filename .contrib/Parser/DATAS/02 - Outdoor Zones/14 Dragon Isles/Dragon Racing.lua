@@ -2,7 +2,7 @@
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(DRAGONRIDING_RACING, {
+	skyriding(n(DRAGONRIDING_RACING, {
 		n(WORLD_QUESTS, {
 			["maps"] = {
 				OHNAHRAN_PLAINS,
@@ -125,5 +125,5 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 			})),
 			i(191140),	-- Bronze Timepiece
-	}),
+	})),
 })));

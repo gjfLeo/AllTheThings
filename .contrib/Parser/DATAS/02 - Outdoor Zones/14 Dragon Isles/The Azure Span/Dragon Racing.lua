@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(THE_AZURE_SPAN, {
-		n(DRAGONRIDING_RACING, {
+		skyriding(n(DRAGONRIDING_RACING, {
 			header(HEADERS.Achievement, 15941, {	-- Dragon Racing Completionist: Gold
 				n(ACHIEVEMENTS, {
 					ach(15921, {	-- Azure Span: Bronze
@@ -448,6 +448,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 				}),
 			})),
-		}),
+		})),
 	}),
 })));

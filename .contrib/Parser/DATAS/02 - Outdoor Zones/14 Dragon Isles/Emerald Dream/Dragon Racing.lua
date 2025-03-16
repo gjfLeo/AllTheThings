@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }, {
 	m(EMERALD_DREAM, {
-		n(DRAGONRIDING_RACING, {
+		skyriding(n(DRAGONRIDING_RACING, {
 			header(HEADERS.Achievement, 19120, {	-- Emerald Dream Racing Completionist: Gold
 				n(ACHIEVEMENTS, {
 					ach(19109, {	-- Emerald Dream: Bronze
@@ -546,6 +546,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 					["coord"] = { 59.1, 29.1, EMERALD_DREAM },
 				}),
 			})),
-		}),
+		})),
 	}),
 })));

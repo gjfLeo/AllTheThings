@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
-		n(DRIVE_RACING, {
+		skyriding(n(DRIVE_RACING, {
 			n(ACHIEVEMENTS, {
 				ach(41081, {	-- Undermine Breaknecking: Bronze
 					-- Meta Achievement
@@ -240,6 +240,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					},
 				}),
 			}),
-		}),
+		})),
 	}),
 })));

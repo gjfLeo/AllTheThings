@@ -1478,6 +1478,9 @@ root = function(category, g)							-- Create a ROOT CATEGORY Object
 	end
 	return o;
 end
+skyriding = function(t)									-- Skyriding (bubbleDown sr filter)
+	return bubbleDown({ ["sr"] = true }, t);
+end
 spell = function(id, t)									-- Create a SPELL Object
 	return struct("spellID", id, t);
 end

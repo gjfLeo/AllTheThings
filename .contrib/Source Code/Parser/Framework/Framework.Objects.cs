@@ -1305,6 +1305,7 @@ end");
                         case "repeatable":
                         case "pvp":
                         case "pb":
+                        case "sr":
                         case "factionID":
                         case "requireSkill":
                         case "followerID":
@@ -1565,6 +1566,7 @@ end");
                     case "repeatable":
                     case "pvp":
                     case "pb":
+                    case "sr":
                     case "isBreadcrumb":
                     case "DisablePartySync":
                     case "isBounty":

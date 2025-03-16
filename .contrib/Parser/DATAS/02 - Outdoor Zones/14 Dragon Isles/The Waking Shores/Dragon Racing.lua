@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(THE_WAKING_SHORES, {
-		n(DRAGONRIDING_RACING, {
+		skyriding(n(DRAGONRIDING_RACING, {
 			header(HEADERS.Achievement, 15941, {	-- Dragon Racing Completionist: Gold
 				n(ACHIEVEMENTS, {
 					ach(15915, {	-- Waking Shores: Bronze
@@ -568,6 +568,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					}),
 				}),
 			})),
-		}),
+		})),
 	}),
 })));

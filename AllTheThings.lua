@@ -5786,6 +5786,17 @@ function app:GetDataCache()
 		tinsert(g, db);
 	end
 
+	-- TODO: Do we need this as a new root?
+	-- Skyriding
+	--if app.Categories.Skyriding then
+	--	db = app.CreateNPC(app.HeaderConstants.SKYRIDING);
+	--	db.g = app.Categories.Skyriding;
+	--	db.lvl = 10;
+	--	db.text = DYNAMIC_FLIGHT; -- Skyriding
+	--	db.icon = "|TInterface\\Icons\\ability_dragonriding_dragonridinggliding01:0|t";
+	--	tinsert(g, db);
+	--end
+
 	-- Craftables
 	if app.Categories.Craftables then
 		db = app.CreateRawText(LOOT_JOURNAL_LEGENDARIES_SOURCE_CRAFTED_ITEM);

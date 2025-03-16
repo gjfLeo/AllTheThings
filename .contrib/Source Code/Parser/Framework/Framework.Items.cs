@@ -473,6 +473,11 @@ namespace ATT
                             item[field] = Convert.ToBoolean(value);
                             break;
                         }
+                    case "sr":
+                        {
+                            item[field] = Convert.ToBoolean(value);
+                            break;
+                        }
 
                     // String Data Type Fields
                     case "lore":

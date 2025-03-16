@@ -94,6 +94,7 @@ settings.RequiredForInsaneMode = {
 	Recipes = true,
 	Reputations = true,
 	RuneforgeLegendaries = app.GameBuildVersion >= 90000,
+	Skyriding = app.GameBuildVersion >= 100000,
 	Titles = true,
 	Toys = true,
 	Transmog = app.GameBuildVersion >= 40000,
@@ -129,6 +130,8 @@ if app.GameBuildVersion >= 90000 then
 		or self:Get("Filter:ByLevel")
 		-- Hiding Pet Battles
 		or not self:Get("Show:PetBattles")
+		-- Hiding Skyriding
+		or not self:Get("Show:Skyriding")
 		-- Hiding any Seasonal content
 		or self:Get("Show:OnlyActiveEvents")
 		-- Hiding quest rewards that aren't available to your current character
@@ -146,6 +149,8 @@ else
 		or self:Get("Filter:ByLevel")
 		-- Hiding Pet Battles
 		or not self:Get("Show:PetBattles")
+		-- Hiding Skyriding
+		or not self:Get("Show:Skyriding")
 		-- Hiding any Seasonal content
 		or self:Get("Show:OnlyActiveEvents")
 		-- Hiding quest rewards that aren't available to your current character

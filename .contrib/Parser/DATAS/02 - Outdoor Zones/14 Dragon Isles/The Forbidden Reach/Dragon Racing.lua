@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }, {
 	m(THE_FORBIDDEN_REACH, {
-		n(DRAGONRIDING_RACING, {
+		skyriding(n(DRAGONRIDING_RACING, {
 			header(HEADERS.Achievement, 17298, {	-- Forbidden Reach Racing Completionist: Gold
 				n(ACHIEVEMENTS, {
 					ach(17279, {	-- Forbidden Reach: Bronze
@@ -522,6 +522,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					["coord"] = { 76.3, 65.7, THE_FORBIDDEN_REACH },
 				}),
 			})),
-		}),
+		})),
 	}),
 })));

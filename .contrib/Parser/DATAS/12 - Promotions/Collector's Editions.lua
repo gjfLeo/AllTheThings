@@ -626,7 +626,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				ach(19027),	-- Heroic Edition: Algarian Stormrider
 				iensemble(209336, {	-- Ensemble: Stormrider's Attire
 				}),
-				n(DRAGONRIDING_RACING, {
+				skyriding(n(DRAGONRIDING_RACING, {
 					n(ACHIEVEMENTS, {
 						ach(18928, {	-- Storm Rider: Bronze
 							-- Meta Achievement
@@ -809,7 +809,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 							},
 						}),
 					}),
-				}),
+				})),
 			},
 		}),
 		n(EPIC_EDITION, {
