@@ -2168,6 +2168,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 			}),
 			n(DELVE_COMPLETION, {
+				filter(BATTLE_PETS, {
+					i(223624),	-- Sneef (PET!)
+				}),
 				n(TREASURES, {
 					filter(COSMETIC, {
 						i(212168),	-- Cinderbee Wax Candle Hat

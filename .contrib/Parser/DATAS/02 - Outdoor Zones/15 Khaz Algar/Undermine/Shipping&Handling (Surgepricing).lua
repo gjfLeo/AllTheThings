@@ -124,7 +124,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		n(SHIPPING_AND_HANDLING, {
 			n(EVENT_COMPLETION, {
 				q(86299),	-- Looted Breakneck Cabbie's Coat
-				--q(86303),	-- Looted Personal-Use Sapper?
+				q(86303),	-- Looted Personal-Use Sapper
 			}),
 		}),
 	}),

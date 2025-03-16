@@ -615,6 +615,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 								i(190943),	-- Jiro Tuning Hammer
 								i(190944),	-- Mace of Renewed Purpose
 								i(190949),	-- Stave of the Eternal Cycle
+								i(189178),	-- Tools of Incomprehensible Experimentation (PS!)
 							},
 							["sym"] = {
 								{"select", "itemID",
