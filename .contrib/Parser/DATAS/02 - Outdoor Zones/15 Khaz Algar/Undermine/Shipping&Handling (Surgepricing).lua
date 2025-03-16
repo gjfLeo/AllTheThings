@@ -80,9 +80,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						i(231556),	-- Breakneck Cabbie's Coat
 					}),
 					n(ARMOR, {
-						["sym"] = {
-							{ "select","itemID",233558 },	-- S.C.R.A.P. Scrubber Deluxe
-							{ "pop" },
+						["g"] = {
+							filter(BACK_F, {
+								i(237123),	-- Descaled Capelet
+								i(237126),	-- Laundered Cape
+								i(237124),	-- Power-Washed Drape
+								i(237125),	-- Upcycled Cloak
+							}),
+							filter(CLOTH, {
+								i(233266),	-- Laundered Cord
+								i(233262),	-- Laundered Handwraps
+								i(233264),	-- Laundered Leggings
+								i(233265),	-- Laundered Shoulderpads
+							}),
+							filter(LEATHER, {
+								i(233339),	-- Upcycled Breeches
+								i(233340),	-- Upcycled Epaulets
+								i(233337),	-- Upcycled Gloves
+								i(233341),	-- Upcycled Sash
+							}),
+							filter(MAIL, {
+								i(233349),	-- Power-Washed Belt
+								i(233347),	-- Power-Washed Greaves
+								i(233345),	-- Power-Washed Grips
+								i(233348),	-- Power-Washed Shoulderguards
+							}),
+							filter(PLATE, {
+								i(233546),	-- Descaled Gauntlets
+								i(233550),	-- Descaled Girdle
+								i(233548),	-- Descaled Legguards
+								i(233549),	-- Descaled Mantle
+							}),
 						},
 					}),
 				}),

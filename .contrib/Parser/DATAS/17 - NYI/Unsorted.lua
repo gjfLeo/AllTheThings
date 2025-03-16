@@ -21,14 +21,6 @@ root(ROOTS.Unsorted, {
 				-- Mythic + Mechagon?
 				i(232547),	-- Omega Strike Force
 
-				-- wtf is this :( Zonedrop/Zone rewards
-				i(233260),	-- Laundered Vestment
-				i(233265),	-- Laundered Shoulderpads
-				i(233338),	-- Upcycled Helm
-				i(233339),	-- Upcycled Breeches
-				i(233345),	-- Power-Washed Grips
-				i(233547),	-- Descaled Helm
-
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
 				i(235484),	-- Razor-sharp Desk Fan
@@ -430,7 +422,6 @@ root(ROOTS.Unsorted, {
 			i(233172),	-- Banded Grassy War Slippers
 			i(234733),	-- Bloodwake Ritual Bowl
 			i(237036),	-- Golden Valorstone
-			i(237123),	-- Descaled Capelet
 			i(237240),	-- Banded Sepia War Legwraps
 			i(237241),	-- Banded Sunny War Legwraps
 			i(237242),	-- Banded Snowy War Legwraps

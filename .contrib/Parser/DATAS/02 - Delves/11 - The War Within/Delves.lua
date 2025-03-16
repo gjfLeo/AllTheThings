@@ -2067,7 +2067,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	mapped(n(ZONE_DROPS, {
 		i(225692),	-- Glowglow Cap (sturdy chest)
 		i(236668, {	-- C.H.E.T.T. Card
-			["description"] = "Drops rarely from Underpin affiliated enemies in any delve.",
+			["description"] = "Drops from Underpin affiliated enemies in any delve and rarely as a zone drop in Undermine.",
 			["crs"] = {
 				234905,	-- Aggressively Lost Hobgoblin <Underpin's Fan>
 				231925,	-- Drill Sergeant
@@ -2914,6 +2914,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				n(TREASURES, {
 					filter(BATTLE_PETS, {
 						i(222971),	-- Bouncer (PET!)
+						i(225337),	-- Violet Sporbit (PET!)
 					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
