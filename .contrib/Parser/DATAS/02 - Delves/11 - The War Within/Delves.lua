@@ -947,8 +947,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["sharedDescription"] = "To collect a Curio, it must be selected on Brann prior to an ATT Force Refresh",
 			["g"] = {
 				--[[
-				-- Due to Blizzard tracking of Spells, it's weird to try and collect all Ranks of Curios since we would need extra
-				-- logic handling just to 'fake' collect SpellIDs which are never actually permanently learned by the character/account
+				-- We could comment these in to give every rank of curio a Source line, but maybe it's not worth it
 				n(RANK_ONE, {
 					i(225903, {	-- Amorphous Relic [Rank 1]
 						["bonusID"] = 11265,
