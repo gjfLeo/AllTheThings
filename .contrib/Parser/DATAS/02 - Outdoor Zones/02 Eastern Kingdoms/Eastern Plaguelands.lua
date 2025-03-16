@@ -2927,7 +2927,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 60.6, 43.3, EASTERN_PLAGUELANDS },
 						{ 61.8, 41.0, EASTERN_PLAGUELANDS },
 					},
-					["coord"] = { 60.6, 43.4, EASTERN_PLAGUELANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/1  Body of Warlord Thresh'jin

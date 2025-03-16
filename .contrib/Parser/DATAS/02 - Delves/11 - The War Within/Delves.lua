@@ -944,7 +944,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(226131),	-- Deployable Wind-Wrangling Spire
 		}),
 		n(CURIO, {	-- TODO: Might be that Curio Belongs to Specific Delves... Have to check // Braghe
-			["sharedDescription"] = "To collect a Curio, it must be selected on Brann prior to an ATT Force Refresh",
+			-- ["sharedDescription"] = "To collect a Curio, it must be selected on Brann prior to an ATT Force Refresh",
 			["g"] = {
 				--[[
 				-- We could comment these in to give every rank of curio a Source line, but maybe it's not worth it
