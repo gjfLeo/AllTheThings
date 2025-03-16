@@ -669,7 +669,7 @@ local InformationTypes = {
 	CreateInformationType("sr", {
 		priority = 2.7,
 		isRecursive = true,
-		text = DYNAMIC_FLIGHT,
+		text = L.SHOW_SKYRIDING_CHECKBOX,
 		Process = function(t, reference, tooltipInfo)
 			if t.GetValue(t, reference) then
 				tinsert(tooltipInfo, {
