@@ -1,10 +1,11 @@
 -- App locals
 local appName, app = ...;
 local CloneReference = app.CloneReference;
+local GetProgressTextForRow = app.GetProgressTextForRow;
 
 -- Global locals
-local debugprofilestop, next, pcall, select, tinsert, tonumber
-	= debugprofilestop, next, pcall, select, tinsert, tonumber;
+local debugprofilestop, next, pcall, select, tinsert, tonumber, type
+	= debugprofilestop, next, pcall, select, tinsert, tonumber, type;
 	
 -- Module locals
 local auctionData, priceA, priceB = {};
@@ -16,6 +17,9 @@ local function SortByPrice(a,b)
 	else
 		return priceA < priceB;
 	end
+end
+local function SummaryForAuctionItem(t)
+	return t.cost and GetCoinTextureString(t.cost);
 end
 
 -- API Differences
@@ -121,8 +125,13 @@ end
 app:CreateWindow("Auctions", {
 	Commands = { "attauctions" },
 	TooltipAnchor = "ANCHOR_RIGHT",
-	IgnoreSettings = true,
 	IgnoreQuestUpdates = true,
+	OnLoad = function(self, settings)
+		self:UpdatePosition();
+	end,
+	OnSave = function(self, settings)
+		
+	end,
 	OnInit = function(self, handlers)
 		function ProcessAuctions()
 			pcall(self.UnregisterEvent, self, "AUCTION_ITEM_LIST_UPDATE");
@@ -150,6 +159,7 @@ app:CreateWindow("Auctions", {
 		end
 		self:RegisterEvent("ADDON_LOADED");
 		self.UpdatePosition = function(self)
+			local width = self:GetWidth();
 			self:ClearAllPoints();
 			local auctionFrame = AuctionHouseFrame or AuctionFrame;
 			if auctionFrame and not auctionFrame.__ATTSETUP then
@@ -190,7 +200,9 @@ app:CreateWindow("Auctions", {
 			else
 				self:Hide();
 			end
+			self:SetWidth(width);
 		end
+		self:SetMovable(false);
 	end,
 	OnRebuild = function(self, ...)
 		if not self.data then
@@ -438,6 +450,19 @@ app:CreateWindow("Auctions", {
 										if price and price > 0 then
 											data.price = price;
 											data.cost = price;
+											local oldindex = getmetatable(data).__index;
+											setmetatable(data, {
+												__index = function(t,key)
+													if key == "summary" then
+														return SummaryForAuctionItem(t);
+													elseif type(oldindex) == "table" then
+														return oldindex[key];
+													else
+														oldindex(t, key);
+													end
+												end
+											});
+										else
 										end
 										keys[value] = data;
 									end
