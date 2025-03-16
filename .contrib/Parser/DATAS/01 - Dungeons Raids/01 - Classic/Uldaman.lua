@@ -744,7 +744,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			e(469, {	-- Ironaya
 				["creatureID"] = 7228,
+				-- #if BEFORE 4.1.0
 				["cost"] = { { "i", 7733, 1 } },	-- Staff of Prehistoria
+				-- #endif
 				["groups"] = {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_TWO, i(217704)),	-- Ironshod Bludgeon
