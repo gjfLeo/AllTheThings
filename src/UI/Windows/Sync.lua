@@ -541,15 +541,27 @@ local deserializers = {
 		currentValue.modeString = modeString;
 		return currentValue;
 	end,
+	Summary = function(field, currentValue, data, character)
+		character.battleTag = data[1];
+		character.text = data[2];
+		character.name = data[3];
+		character.realm = data[4];
+		character.factionID = tonumber(data[5]);
+		character.lvl = tonumber(data[6]);
+		character.classID = tonumber(data[7]);
+		character.class = data[8];
+		character.raceID = tonumber(data[9]);
+		character.race = data[10];
+		character.lastPlayed = tonumber(data[11]);
+		character.Deaths = tonumber(data[12]);
+	end,
 	TimeStamps = function(field, currentValue, data)
-		if currentValue then
-			wipe(currentValue);
-		else
+		if not currentValue then
 			currentValue = {};
 		end
 		for i=1,#data,1 do
-			local tableName,timestamp = (":"):split(data[i]);
-			currentValue[tableName] = tonumber(timestamp);
+			local tableName,lastUpdated = (":"):split(data[i]);
+			currentValue[tableName] = tonumber(lastUpdated);
 		end
 		return currentValue;
 	end
@@ -594,14 +606,48 @@ local serializers = {
 	PrimeData = function(field, value)
 		return field .. ";" .. value.progress .. ":" .. value.total .. ":" .. value.modeString;
 	end,
-	TimeStamps = function(field, value)
+	TimeStamps = function(field, value, timeStamp, lastUpdated)
 		local any, str = false, field;
-		for tableName,timestamp in pairs(value) do
-			str = str .. ";" .. tableName .. ":" .. timestamp;
-			any = true;
+		if not lastUpdated or lastUpdated == 0 then
+			for tableName,ts in pairs(value) do
+				str = str .. ";" .. tableName .. ":" .. ts;
+				any = true;
+			end
+		else
+			for tableName,ts in pairs(value) do
+				if timeStamp >= ts then
+					str = str .. ";" .. tableName .. ":" .. ts;
+					any = true;
+				end
+			end
 		end
 		if any then return str; end
-	end
+	end,
+	
+	-- The main data package containing the simple stuff.
+	Summary = function(character, value)
+		if value ~= nil then return; end	-- We don't want this to try to encode an invalid set of data.
+		return "Summary;" .. (character.battleTag or "") .. ";" .. (character.text or "")
+			.. ";" .. (character.name or "") .. ";" .. (character.realm or "")
+			.. ";" .. (character.factionID or "1").. ";" .. (character.lvl or "1")
+			.. ";" .. (character.classID or "1") .. ";" .. (character.class or "")
+			.. ";" .. (character.raceID or "1") .. ";" .. (character.race or "")
+			.. ";" .. (character.lastPlayed or "0") .. ";" .. (character.Deaths or "0");
+	end,
+	
+	-- These are now included inside of "Summary" to compress the data package more.
+	battleTag = ignoreField,
+	text = ignoreField,
+	name = ignoreField,
+	realm = ignoreField,
+	factionID = ignoreField,
+	lvl = ignoreField,
+	classID = ignoreField,
+	raceID = ignoreField,
+	class = ignoreField,
+	race = ignoreField,
+	lastPlayed = ignoreField,
+	Deaths = ignoreField,
 };
 local function ReceiveCharacterSummary(self, sender, responses, guid, lastPlayed, shouldPrint)
 	--print("ReceiveCharacterSummary", guid, lastPlayed, shouldPrint);
@@ -797,7 +843,7 @@ MESSAGE_HANDLERS.rawchar = function(self, sender, content, responses)
 		local fieldData = SplitString(";", fieldDataString);
 		local fieldName = fieldData[1];
 		tremove(fieldData, 1);
-		local data = (deserializers[fieldName] or defaultDeserializer)(fieldName, character[fieldName], fieldData);
+		local data = (deserializers[fieldName] or defaultDeserializer)(fieldName, character[fieldName], fieldData, character);
 		if data then character[fieldName] = data; end
 	end
 	
@@ -838,9 +884,10 @@ MESSAGE_HANDLERS.request = function(self, sender, content, responses)
 	
 	-- Iterate through the fields for the character.
 	local skip, rawData = true, "rawchar," .. guid;
+	local str = serializers.Summary(character);
+	if str then rawData = rawData .. "," .. str; end
 	for field,value in pairs(character) do
-		local timeStamp = timeStamps[field] or maxTimeStamp;
-		local str = (serializers[field] or defaultSerializer)(field, value, timeStamp, lastUpdated);
+		local str = (serializers[field] or defaultSerializer)(field, value, timeStamps[field] or maxTimeStamp, lastUpdated);
 		if str then rawData = rawData .. "," .. str; end
 	end
 	tinsert(responses, rawData);
