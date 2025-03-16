@@ -2,6 +2,7 @@
 local appName, app = ...;
 local CloneReference = app.CloneReference;
 local GetProgressTextForRow = app.GetProgressTextForRow;
+local GetItemInfo = app.WOWAPI.GetItemInfo;
 
 -- Global locals
 local debugprofilestop, next, pcall, select, tinsert, tonumber, type
@@ -23,7 +24,7 @@ local function SummaryForAuctionItem(t)
 end
 
 -- API Differences
-local CanFullScan, ReceiveAuctions, RunFullScan;
+local CanFullScan, ReceiveAuctions, RunFullScan, OnClickForAuctionItem;
 if C_AuctionHouse then
 	local C_AuctionHouse_ReplicateItems, C_AuctionHouse_GetNumReplicateItems, C_AuctionHouse_GetReplicateItemInfo, C_AuctionHouse_GetReplicateItemLink
 		= C_AuctionHouse.ReplicateItems, C_AuctionHouse.GetNumReplicateItems, C_AuctionHouse.GetReplicateItemInfo, C_AuctionHouse.GetReplicateItemLink;
@@ -88,6 +89,16 @@ if C_AuctionHouse then
 		C_AuctionHouse_ReplicateItems();
 		cooldown = time() + 900;
 	end
+	OnClickForAuctionItem = function(self, button)
+		local reference = self.ref;
+		
+		-- Attempt to search manually with the link.
+		local link = reference.link or reference.silentLink;
+		if link then
+			AuctionHouseFrame.SearchBar.SearchBox:SetText(GetItemInfo(link))
+			AuctionHouseFrame.SearchBar:StartSearch();
+		end
+	end
 else
 	local CanSendAuctionQuery, GetNumAuctionItems, GetAuctionItemInfo
 		= CanSendAuctionQuery, GetNumAuctionItems, GetAuctionItemInfo;
@@ -118,6 +129,9 @@ else
 		pcall(self.RegisterEvent, self, "AUCTION_ITEM_LIST_UPDATE");
 		QueryAuctionItems("", nil, nil, 0, nil, nil, true, false, nil);
 		-- QueryAuctionItems(name, minLevel, maxLevel, page, isUsable, qualityIndex, getAll, exactMatch, filterData);
+	end
+	OnClickForAuctionItem = function(self, button)
+		-- Do nothing, yet. Ideally we would attempt to buy the cheapest auction and update the price on the item.
 	end
 end
 
@@ -455,6 +469,8 @@ app:CreateWindow("Auctions", {
 												__index = function(t,key)
 													if key == "summary" then
 														return SummaryForAuctionItem(t);
+													elseif key == "OnClick" then
+														return OnClickForAuctionItem;
 													elseif type(oldindex) == "table" then
 														return oldindex[key];
 													else
