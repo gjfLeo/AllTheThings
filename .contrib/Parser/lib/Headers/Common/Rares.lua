@@ -4,7 +4,7 @@ RARES = createHeader({
 	export = true,
 	icon = [[~_.asset("Interface_Rare")]],
 	text = {
-		-- #if AFTER LEGION
+		-- #if AFTER TWW
 		en = [[~MAP_LEGEND_RARE]],
 		-- #else
 		en = [[~BATTLE_PET_BREED_QUALITY4]],
