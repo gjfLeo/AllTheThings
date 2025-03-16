@@ -372,7 +372,68 @@ local function RecalculateAccountWideData()
 	end
 	app.print("Account Data Recalculated successfully.");
 end
+local function DeserializeSequentialKeys(str)
+	local values = SplitString(":", str);
+	local keys = {};
+	for i=1,#values,1 do
+		local a,b = (">"):split(values[i]);
+		if b then
+			for j=tonumber(a),tonumber(b),1 do
+				keys[#keys + 1] = j;
+			end
+		else
+			keys[#keys + 1] = tonumber(a);
+		end
+	end
+	return keys;
+end
+local function SerializeSequentialKeys(keys)
+	table.sort(keys);
+	local rangeStart = keys[1];
+	local nextValue = rangeStart;
+	local str = "" .. rangeStart;
+	for i,value in ipairs(keys) do
+		if value ~= nextValue then
+			nextValue = nextValue - 1;
+			if value ~= nextValue then
+				if rangeStart ~= nextValue then
+					str = str .. ">" .. nextValue;
+				end
+				str = str .. ":" .. value;
+				rangeStart = value;
+			end
+		end
+		nextValue = value + 1;
+	end
+	if nextValue > rangeStart then
+		nextValue = nextValue - 1;
+		if rangeStart ~= nextValue then
+			str = str .. ">" .. nextValue;
+		end
+	end
+	--[[
+	print(str);
+	-- /dump ATTC.SerializeSequentialKeys({1,2,3,4,5,6,7,8,0,10,11,12,13,14,-9999,123,-12313,-1235,-56,-99,-1,98935,2342,111,123})
+	local newkeys = DeserializeSequentialKeys(str);
+	local dict = {};
+	for i,o in ipairs(newkeys) do
+		dict[o] = true;
+	end
+	local fails;
+	for i,o in ipairs(keys) do
+		if not dict[o] then
+			fails = (fails and (fails .. ", ") or "FAILED: ") .. o;
+		end
+	end
+	if fails then
+		print("SERIALIZATION CHECK", fails);
+	end
+	]]--
+	return str;
+end
 app.RecalculateAccountWideData = RecalculateAccountWideData;
+app.DeserializeSequentialKeys = DeserializeSequentialKeys;
+app.SerializeSequentialKeys = SerializeSequentialKeys;
 
 -- Data Handling
 local maxTimeStamp = 9999999999999;
@@ -414,7 +475,14 @@ local defaultDeserializer = function(field, currentValue, data)
 			currentValue = {};
 		end
 		for i=2,totalValues,1 do
-			currentValue[tonumber(values[i])] = 1;
+			local a,b = (">"):split(values[i]);
+			if b then
+				for j=tonumber(a),tonumber(b),1 do
+					currentValue[j] = 1;
+				end
+			else
+				currentValue[tonumber(a)] = 1;
+			end
 		end
 		return currentValue;
 	else
@@ -445,12 +513,7 @@ local defaultSerializer = function(field, value, timeStamp, lastUpdated)
 				if v and index then tinsert(keys, tonumber(index)); end
 			end
 			if #keys > 0 then
-				local str = field .. ";" .. typeListID;
-				table.sort(keys);
-				for i,value in ipairs(keys) do
-					str = str .. ":" .. value;
-				end
-				return str;
+				return field .. ";" .. typeListID .. ":" .. SerializeSequentialKeys(keys);
 			end
 		elseif t == "boolean" then
 			if value then
