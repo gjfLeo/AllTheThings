@@ -3521,24 +3521,29 @@ namespace ATT
                             }
                         case "deleted":
                             {
-                                if (index == lastIndex && CURRENT_RELEASE_VERSION >= entry.LongVersion)
+                                // deleted only affects if the parse version has passed the timeline version
+                                if (CURRENT_RELEASE_VERSION >= entry.LongVersion)
                                 {
-                                    // We don't want things that got deleted to be in the addon.
-                                    // NOTE: If it's not the last entry, that means it might have been readded later?
-                                    // CRIEVE NOTE: Braghe wanted Debug Mode to not completely delete a thing from the exported Debug files...
-                                    // Deleting it from the actual database is actually expected for the real builds,
-                                    // so don't remove this. This is how I want it. Thanks!
-                                    if (!DebugMode) return false;    // Invalid
-                                }
+                                    // the last entry in the timeline is this deleted change
+                                    if (index == lastIndex)
+                                    {
+                                        // We don't want things that got deleted to be in the addon.
+                                        // NOTE: If it's not the last entry, that means it might have been readded later?
+                                        // CRIEVE NOTE: Braghe wanted Debug Mode to not completely delete a thing from the exported Debug files...
+                                        // Deleting it from the actual database is actually expected for the real builds,
+                                        // so don't remove this. This is how I want it. Thanks!
+                                        if (!DebugMode) return false;    // Invalid
+                                    }
 
-                                // just in case parsing with Debug and verifying in-game... we would want Deleted to show as Removed
-                                removed = 2;
-                                readded = false;
-                                // Mark the first patch this was removed on. (the upcoming patch)
-                                if (removedPatch <= 10000)
-                                {
-                                    timeline.CurrentEntry = index;
-                                    removedPatch = entry.Version;
+                                    // just in case parsing with Debug and verifying in-game... we would want Deleted to show as Removed
+                                    removed = 4;
+                                    readded = false;
+                                    // Mark the first patch this was removed on. (the upcoming patch)
+                                    if (removedPatch <= 10000)
+                                    {
+                                        timeline.CurrentEntry = index;
+                                        removedPatch = entry.Version;
+                                    }
                                 }
                                 break;
                             }

@@ -956,6 +956,8 @@ namespace ATT
             /// <param name="data">The data dictionary to receive the merged data.</param>
             public static void MergeInto(decimal itemID, IDictionary<string, object> item, IDictionary<string, object> data)
             {
+                if (itemID < 1)
+                    return;
                 foreach (var pair in item) MergeInto(itemID, data, pair.Key, pair.Value);
             }
 
@@ -968,7 +970,7 @@ namespace ATT
             {
                 // Get the itemID, if it exists.
                 decimal itemID = GetSpecificItemID(data);
-                if (itemID == 0)
+                if (itemID < 1)
                     return;
 
                 // merge general item info into the data

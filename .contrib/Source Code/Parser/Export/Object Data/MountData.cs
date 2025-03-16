@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace ATT
@@ -27,17 +27,18 @@ namespace ATT
                 fields.Remove("spellID");
 
                 // Write the Spell ID as the primary field, with priority on 'mountID' specifically
-                if ((data.TryGetValue("mountID", out object spellIDRef) || data.TryGetValue("spellID", out spellIDRef)) && Convert.ToInt32(spellIDRef) > 0)
+                if ((data.TryGetValue("mountID", out long spellID) || data.TryGetValue("spellID", out spellID)) && spellID > 0)
                 {
                     WriteShortcut(builder, ConstructorShortcut, Function);
-                    ExportCompressedLua(builder, spellIDRef);
+                    ExportCompressedLua(builder, spellID);
                 }
-                else if (data.TryGetValue("itemID", out object itemIDRef))
+                else if (data.TryGetValue("itemID", out long itemID) && itemID > 0)
                 {
                     WriteShortcut(builder, "i", "_.CreateItem");
-                    ExportCompressedLua(builder, itemIDRef);
+                    ExportCompressedLua(builder, itemID);
+                    fields.Remove("itemID");
                 }
-                else throw new Exception("SPELL DOES NOT KNOW ID?");
+                else throw new InvalidDataException($"Mount with both SpellID and ItemID == 0 -- {Framework.ToJSON(data)}");
             }
         }
     }

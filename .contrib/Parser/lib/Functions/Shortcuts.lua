@@ -1482,6 +1482,9 @@ spell = function(id, t)									-- Create a SPELL Object
 	return struct("spellID", id, t);
 end
 sp = spell;												-- Create a SPELL Object (alternative shortcut)
+itemsource = function(id, t)							-- Create an Item Source Object
+	return struct("sourceID", id, t)
+end
 title = function(id, t)									-- Create a TITLE Object
 sensemble = function(spellID, t)						-- Create an Ensemble directly from SpellID
 	local i = sp(spellID, t);
