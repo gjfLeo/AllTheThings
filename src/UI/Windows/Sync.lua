@@ -366,10 +366,13 @@ local AccountWideDataHandlers = setmetatable({
 	end,
 });
 local function RecalculateAccountWideData()
+	app.print("Recalculating Account Data...");
 	for key,data in pairs(AccountWideData) do
 		AccountWideDataHandlers[key](data, key);
 	end
+	app.print("Account Data Recalculated successfully.");
 end
+app.RecalculateAccountWideData = RecalculateAccountWideData;
 
 -- Data Handling
 local maxTimeStamp = 9999999999999;
@@ -923,6 +926,7 @@ local function OnTooltipForCharacter(t, tooltipInfo)
 		end
 		
 		local total = 0;
+		local timestamps = character.TimeStamps;
 		for i,field in ipairs({ "Achievements", "BattlePets", "Exploration", "Factions", "FlightPaths", "Spells", "Titles", "Toys", "Transmog", "Quests" }) do
 			local values = character[field];
 			if values then
@@ -933,8 +937,9 @@ local function OnTooltipForCharacter(t, tooltipInfo)
 					end
 				end
 				total = total + subtotal;
+				local t = timestamps[field];
 				tinsert(tooltipInfo, {
-					left = field,
+					left = field .. " |cffaaaaaa(" .. (t and date("%Y-%m-%d", t) or "??" ) .. ")|r",
 					right = tostring(subtotal),
 					r = 1, g = 1, b = 1
 				});
@@ -1074,6 +1079,16 @@ app:CreateWindow("Synchronization", {
 								self:Rebuild();
 							end
 						end);
+						return true;
+					end,
+				},
+				{	-- Recalculate Account Wide Data
+					text = "Recalculate Account Wide Data",
+					icon = 132996,
+					description = "Click here to force ATT to recalculate its account wide statistical data. This happens automatically after a sync, but if there's ever a situation where ATT sees that a different character has done a thing, but your current character hasn't and isn't giving you partial credit, you can click this to manually initiate that recalculation.",
+					OnUpdate = app.AlwaysShowUpdate,
+					OnClick = function(row, button)
+						RecalculateAccountWideData();
 						return true;
 					end,
 				},
