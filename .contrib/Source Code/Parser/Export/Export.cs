@@ -29,7 +29,7 @@ namespace ATT
             ObjectData.Create("objectiveID",        "qo",           "_.CreateQuestObjective", "f");
             ObjectData.Create("instanceID",         "inst",         "_.CreateInstance", "f");
             ObjectData.Create("artifactID",         "artifact",     "_.CreateArtifact", "f");
-            ObjectData.Create<HeirloomData>("heirloomID", "heir",   "_.CreateHeirloom");
+            ObjectData.Create<HeirloomData>("heirloomID", "heir",   "_.CreateHeirloom", "itemID");
             ObjectData.Create<ItemSourceData>("sourceID",  "s",     "_.CreateItemSource");
             ObjectData.Create("categoryID",         "cat",          "_.CreateCategory", "f");
             ObjectData.Create("classID",            "cl",           "_.CreateCharacterClass", "f");

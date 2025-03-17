@@ -139,7 +139,6 @@ do
 	-- Heirloom Item
 	local createHeirloom = app.ExtendClass("Item", "Heirloom", "itemID", {
 		IsClassIsolated = true,
-		-- itemID = function(t) return t.heirloomID; end,
 		heirloomID = function(t) return t.itemID; end,
 		icon = function(t) return select(4, C_Heirloom_GetHeirloomInfo(t.itemID)) or GetItemIcon(t.itemID); end,
 		link = function(t) return C_Heirloom_GetHeirloomLink(t.itemID) or select(2, GetItemInfo(t.itemID)); end,
