@@ -23,7 +23,7 @@ app.AddEventHandler("OnLoad", function()
 end)
 
 -- Module locals
-local RecursiveGroupRequirementsFilter, RecursiveUnobtainableFilter, DGU, UpdateRunner, ExtraFilters, ResolveSymbolicLink
+local RecursiveGroupRequirementsFilter, RecursiveAccountFilter, DGU, UpdateRunner, ExtraFilters, ResolveSymbolicLink
 -- If a Thing which has a cost is not a quest or is available as a quest
 local function IsAvailable(ref)
 	return not ref.questID or app.IsQuestAvailable(ref)
@@ -67,7 +67,7 @@ local function PrintDebug(id, ...)
 end
 
 local function FilterRequirement(ref)
-	return RecursiveGroupRequirementsFilter(ref, ExtraFilters) and 1 or RecursiveUnobtainableFilter(ref) and 2 or 3
+	return RecursiveGroupRequirementsFilter(ref, ExtraFilters) and 1 or RecursiveAccountFilter(ref) and 2 or 3
 end
 -- Function which returns if a Thing has a cost based on a given 'ref' Thing, which has been previously determined as a
 -- possible collectible. The return value indicates the collectibility
@@ -142,7 +142,7 @@ local function CacheFilters()
 	-- Cache repeat-used functions/values
 	local filterModule = app.Modules.Filter
 	RecursiveGroupRequirementsFilter = filterModule.Filters.RecursiveGroupRequirementsExtraFilter
-	RecursiveUnobtainableFilter = filterModule.Filters.RecursiveUnobtainableFilter
+	RecursiveAccountFilter = filterModule.Filters.RecursiveGroupRequirementsFilter_Account
 	Filters_ItemUnbound = filterModule.Filters.ItemUnbound
 	ItemUnboundSetting = filterModule.Get.ItemUnbound()
 	if ItemUnboundSetting then
@@ -233,16 +233,17 @@ local function DoCollectibleCheckForItemRef(ref, itemID, itemUnbound)
 	if not isCollectibleAcceptable or (isCollectibleAcceptable ~= true and not isCollectibleAcceptable(itemUnbound)) then
 		-- if collectible == 2 then
 		-- 	if not itemUnbound then
-		-- 		PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Filtering, but from a BoP Item",app:RawSearchLink("itemID",itemID))
+		-- 		PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Default Filtering, but from a BoP Item",app:RawSearchLink("itemID",itemID))
 		-- 	end
 		-- 	if not ItemUnboundSetting then
-		-- 		PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Filtering, but not ignoring BoE Item filtering",app:RawSearchLink("itemID",itemID))
+		-- 		PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Default Filtering, but not ignoring BoE Item filtering",app:RawSearchLink("itemID",itemID))
 		-- 	end
 		-- elseif collectible == 3 then
-		-- 	PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Unobtainable Filtering",app:RawSearchLink("itemID",itemID))
+		-- 	PrintDebug(itemID, app:SearchLink(ref),"is only collectible without Account Filtering",app:RawSearchLink("itemID",itemID))
 		-- end
 		return
 	end
+	-- PrintDebug(itemID, app:SearchLink(ref),"collectible with Default Filtering",app:RawSearchLink("itemID",itemID))
 	local refproviders = ref.providers
 	if refproviders and type(refproviders) == "table" then
 		for _,providerCheck in ipairs(refproviders) do
@@ -269,7 +270,16 @@ local function DoCollectibleCheckForCurrRef(ref, currencyID)
 	-- Not currently considering transferrable currencies as being 'BoE', but maybe something to think about
 	-- 2 - requires Account filtering to include
 	-- 3 - required Unobtainable filtering to include
-	if not collectible or collectible > 1 then return end
+	if not collectible then return end
+	if collectible > 1 then
+		-- if collectible == 2 then
+		-- 	PrintDebug(currencyID, app:SearchLink(ref),"collectible without Default Filtering",app:RawSearchLink("currencyID",currencyID))
+		-- elseif collectible == 3 then
+		-- 	PrintDebug(currencyID, app:SearchLink(ref),"collectible without Account Filtering",app:RawSearchLink("currencyID",currencyID))
+		-- end
+		return
+	end
+	-- PrintDebug(currencyID, app:SearchLink(ref),"collectible with Default Filtering",app:RawSearchLink("currencyID",currencyID))
 	local refcosts = ref.cost
 	if refcosts and type(refcosts) == "table" then
 		for _,costCheck in ipairs(refcosts) do
@@ -289,16 +299,17 @@ local function DoCollectibleCheckForSpellRef(ref, spellID, itemUnbound)
 	if not isCollectibleAcceptable or (isCollectibleAcceptable ~= true and not isCollectibleAcceptable(itemUnbound)) then
 		-- if collectible == 2 then
 		-- 	if not itemUnbound then
-		-- 		PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Filtering, but from a Spell on a BoP Item",app:RawSearchLink("spellID",spellID))
+		-- 		PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Default Filtering, but from a Spell on a BoP Item",app:RawSearchLink("spellID",spellID))
 		-- 	end
 		-- 	if not ItemUnboundSetting then
-		-- 		PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Filtering, but not ignoring BoE Item filtering",app:RawSearchLink("spellID",spellID))
+		-- 		PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Default Filtering, but not ignoring BoE Item filtering",app:RawSearchLink("spellID",spellID))
 		-- 	end
 		-- elseif collectible == 3 then
-		-- 	PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Unobtainable Filtering",app:RawSearchLink("spellID",spellID))
+		-- 	PrintDebug(spellID, app:SearchLink(ref),"is only collectible without Account Filtering",app:RawSearchLink("spellID",spellID))
 		-- end
 		return
 	end
+	-- PrintDebug(spellID, app:SearchLink(ref),"collectible with Default Filtering",app:RawSearchLink("spellID",spellID))
 	local refproviders = ref.providers
 	if refproviders and type(refproviders) == "table" then
 		for _,providerCheck in ipairs(refproviders) do
