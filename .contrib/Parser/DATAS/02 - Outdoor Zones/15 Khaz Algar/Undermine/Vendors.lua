@@ -285,6 +285,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					{		-- Neutral
 						i(235558, {	-- Box of Darkfuse Miscellany
 							["cost"] = {{ "c", 3226, 100 }},	-- 100x Market Research
+							["g"] = {
+								currency(3177),	-- Darkfuse Solutions Commendation
+							},
 						}),
 						i(235532, {	-- Experimental Goblin-FUEL Supplement
 							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},

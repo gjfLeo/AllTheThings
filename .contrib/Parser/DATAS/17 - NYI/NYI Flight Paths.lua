@@ -437,7 +437,6 @@ root(ROOTS.NeverImplemented, n(FLIGHT_PATHS, {
 			fp(1842, {["description"] = "Carl Test b"}),
 			fp(1843, {["description"] = "Carl Test c"}),
 			fp(1844, {["description"] = "Carl Test d"}),
-			fp(1849, {["description"] = "Dalaran"}),
 			fp(1864, {["description"] = "Quest Path 5598: Nesingwary, Highmountain -> Shipwreck Cove, Highmountain [Unlearned]"}),
 			fp(1865, {["description"] = "Boost 2.0 - Alliance - Leave Point"}),
 			fp(1867, {["description"] = "Quest Path 5911: 7.0 Dalaran -> Acherus"}),
