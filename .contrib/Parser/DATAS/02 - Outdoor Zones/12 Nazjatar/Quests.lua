@@ -1922,7 +1922,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		q(57024, {	-- Rumors of Mechagon
 			["provider"] = { "n", 156187 },	-- Disgruntled Laborer
-			["coord"] = { 48.4, 60.6, NAZJATAR },
+			["coords"] = {
+				{ 48.4, 60.6, NAZJATAR },
+				{ 50.1, 92.8, DAZARALOR },
+			},
 			["races"] = HORDE_ONLY,
 			["sourceQuest"] = 55500,	-- Save A Friend
 			["isBreadcrumb"] = true,

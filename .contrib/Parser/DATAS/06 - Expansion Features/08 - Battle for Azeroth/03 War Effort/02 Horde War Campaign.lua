@@ -1462,7 +1462,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["g"] = {
 							i(167073),	-- Apothecary's Key (QI!)
 							i(167074),	-- Captain's Key (QI!)
-							i(167072),	-- Navigator's Key (QI!)
+							o(322064, {	-- Navigator's Keyring
+								["coord"] = { 86.7, 45.2, TIRAGARDE_SOUND },
+								["g"] = { i(167072) },	-- Navigator's Key (QI!)
+							}),
 						},
 					}),
 					q(54997, {	-- Dead in the Water

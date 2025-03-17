@@ -1667,7 +1667,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 65.8, 66.3, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 				["g"] = {
-					i(167039),	-- Tri-dimensional Coordinates (QI!)
+					o(321845, {	-- Tri-dimensional Coordinates
+						["coord"] = { 65.9, 66.4, TIRAGARDE_SOUND },
+						["g"] = { i(167039) },	-- Tri-dimensional Coordinates (QI!)
+					}),
 				},
 			}),
 			q(55632, {	-- You Must Be This Height (H)
@@ -1676,7 +1679,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 65.8, 66.3, TIRAGARDE_SOUND },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(168218),	-- Tri-dimensional Coordinates (QI!)
+					o(325907, {	-- Tri-dimensional Coordinates
+						["coord"] = { 65.9, 66.4, TIRAGARDE_SOUND },
+						["g"] = { i(168218) },	-- Tri-dimensional Coordinates (QI!)
+					}),
 				},
 			}),
 			n(BONUS_OBJECTIVES, sharedData({

@@ -563,6 +563,7 @@ MobileDB.GameObject = {
 	[316399] = true,	-- Azerite Chest (q:54644)
 	[316434] = true,	-- Azerite Chest
 	[322020] = true,	-- Pile of Coins (Armored Vaultbot)
+	[322065] = true,	-- Reinforced Cage (q:54959)
 	[322358] = true,	-- Waterlogged Alliance Crate (q:57331)
 	[322413] = true,	-- Glimmering Chest
 	[322787] = true,	-- Shrine of Torcali (q:55252)

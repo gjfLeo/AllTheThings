@@ -150,6 +150,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					}),
 					e(2340, {	-- Grong, the Revenant	-- 2325 Horde
 						["crs"] = {
+							144637,	-- Grong (H)
 							144638,	-- Grong the Revenant (A)
 							148117,	-- Grong the Revenant (H)
 						},
