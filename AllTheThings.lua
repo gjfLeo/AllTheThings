@@ -1187,7 +1187,7 @@ local ResolveFunctions = {
 		if okey then
 			local okeyval = o[okey];
 			if okeyval then
-				for _,result in ipairs(SearchForField(okey, okeyval)) do
+				for _,result in ipairs(SearchForObject(okey, okeyval, "field", true)) do
 					ArrayAppend(searchResults, result.g);
 				end
 			end
