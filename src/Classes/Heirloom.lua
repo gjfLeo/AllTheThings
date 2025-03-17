@@ -140,8 +140,10 @@ do
 	local createHeirloom = app.ExtendClass("Item", "Heirloom", "itemID", {
 		IsClassIsolated = true,
 		heirloomID = function(t) return t.itemID; end,
+		-- TODO: use typical caching for this, inherit from Item cache somehow?
 		icon = function(t) return select(4, C_Heirloom_GetHeirloomInfo(t.itemID)) or GetItemIcon(t.itemID); end,
 		link = function(t) return C_Heirloom_GetHeirloomLink(t.itemID) or select(2, GetItemInfo(t.itemID)); end,
+		name = function(t) return GetItemInfo(t.itemID); end,
 		b = function(t) return 2 end,
 		collectibleAsCost = app.ReturnFalse,
 		saved = function(t)
