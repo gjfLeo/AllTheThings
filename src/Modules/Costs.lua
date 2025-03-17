@@ -7,8 +7,8 @@ local L = app.L
 -- Encapsulates the functionality for handling and checking Cost information
 
 -- Global locals
-local rawget, ipairs, pairs, type
-	= rawget, ipairs, pairs, type
+local rawget, ipairs, pairs, type,math_min
+	= rawget, ipairs, pairs, type,math.min
 local PlayerHasToy, C_CurrencyInfo_GetCurrencyInfo
 	= PlayerHasToy, C_CurrencyInfo.GetCurrencyInfo
 
@@ -40,7 +40,7 @@ end
 
 local Depth = 0
 local CostDebugIDs = {
-	["ALL"] = true,
+	-- ["ALL"] = true,
 	-- ["DEPTH"] = 10,
 	-- [209944] = true,	-- Friendsurge Defenders
 	-- [2118] = true,	-- Elemental Overflow
@@ -55,6 +55,7 @@ local CostDebugIDs = {
 	-- [207026] = true,	-- Dreamsurge Coalescence
 	-- [205052] = true,	-- Miloh
 	-- [515] = true, -- DMF Ticket
+	-- [241] = true, -- Champion's Seal
 }
 local function PrintDebug(id, ...)
 	if CostDebugIDs.ALL then
@@ -85,23 +86,27 @@ local function CheckCollectible(ref, costid)
 	-- PrintDebug(costid, "CheckCollectible",app:SearchLink(ref))
 	-- Used as a cost for something which is collectible itself and not collected
 	if ref.collectible and not ref.collected then
-		-- PrintDebug(costid, "Purchase via Collectible",app:SearchLink(ref),RecursiveGroupRequirementsFilter(ref, ExtraFilters) and "VISIBLE" or "FILTERED")
+		-- PrintDebug(costid, "Purchase via Collectible",app:SearchLink(ref),FilterRequirement(ref) == 1 and "VISIBLE" or FilterRequirement(ref) == 2 and "ACCOUNT" or "FILTERED")
 		return FilterRequirement(ref)
 	end
 	-- If this group has sub-groups, are any of them collectible?
 	local g = ref.g;
 	if g then
 		local o, collectible
+		local mincollectible
 		-- local subDepth = Depth
 		for i=1,#g do
 			o = g[i];
 			-- Depth = subDepth
-			collectible = CheckCollectible(o)
+			collectible = CheckCollectible(o, costid)
 			if collectible then
-				-- PrintDebug(costid, "Purchase via sub-group Collectible",app:SearchLink(ref),"<=",app:SearchLink(o))
-				return collectible
+				mincollectible = math_min(collectible,mincollectible or 99)
+				-- PrintDebug(costid, "Purchase via sub-group Collectible",collectible,app:SearchLink(ref),"<=",app:SearchLink(o))
+				-- quick escape if we've already determined this container contains something visible with current filters
+				if mincollectible == 1 then return mincollectible end
 			end
 		end
+		return mincollectible
 	end
 	-- If this group has a symlink, generate the symlink into a cached version of the ref for the following sub-group check
 	local symresults
@@ -112,20 +117,24 @@ local function CheckCollectible(ref, costid)
 	-- If this group has sym results, are any of them collectible?
 	if symresults then
 		local o, collectible
+		local mincollectible
 		-- local subDepth = Depth
 		for i=1,#symresults do
 			o = symresults[i];
 			-- Depth = subDepth
-			collectible = CheckCollectible(o)
+			collectible = CheckCollectible(o, costid)
 			if collectible then
-				-- PrintDebug(costid, "Purchase via sym-result Collectible",app:SearchLink(ref),"<=",app:SearchLink(o))
-				return collectible
+				mincollectible = math_min(collectible,mincollectible or 99)
+				-- PrintDebug(costid, "Purchase via sym-group Collectible",collectible,app:SearchLink(ref),"<=",app:SearchLink(o))
+				-- quick escape if we've already determined this container contains something visible with current filters
+				if mincollectible == 1 then return mincollectible end
 			end
 		end
+		return mincollectible
 	end
 	-- Used as a cost for something which is collectible as a cost itself
 	if ref.collectibleAsCost then
-		-- PrintDebug(costid, "Purchase via collectibleAsCost",app:SearchLink(ref),RecursiveGroupRequirementsFilter(ref, ExtraFilters) and "VISIBLE" or "FILTERED")
+		-- PrintDebug(costid, "Purchase via collectibleAsCost",app:SearchLink(ref),FilterRequirement(ref) == 1 and "VISIBLE" or FilterRequirement(ref) == 2 and "ACCOUNT" or "FILTERED")
 		return FilterRequirement(ref)
 	end
 end
