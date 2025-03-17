@@ -673,7 +673,7 @@ local InformationTypes = {
 		Process = function(t, reference, tooltipInfo)
 			if t.GetValue(t, reference) then
 				tinsert(tooltipInfo, {
-					left = "|CFF00FFDE"..SPELL_FAILED_CUSTOM_ERROR_1029.."|r",
+					left = L.REQUIRES_SKYRIDING,
 					wrap = true,
 				});
 			end

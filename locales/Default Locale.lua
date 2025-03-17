@@ -79,6 +79,7 @@ local L = setmetatable({
 	VISIT_FLIGHT_MASTER = "Visit the Flight Master to cache.";
 	REQUIRES_PVP = "|CFF00FFDERequires PvP Activities or Currencies|r";
 	REQUIRES_PETBATTLES = "|CFF00FFDERequires Pet Battling|r";
+	REQUIRES_SKYRIDING = "|CFF00FFDE"..(SPELL_FAILED_CUSTOM_ERROR_1029 or "Requires Skyriding").."|r";
 	PLEASE_REPORT_MESSAGE = "Please report this to the ATT Discord in #retail-errors! Thanks!";
 	REPORT_TIP = "\n("..CTRL_KEY_TEXT.."+C to copy multiline report to your clipboard)";
 	QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "Quest '%s' %s will prevent collection of Breadcrumb Quest '%s' %s";
