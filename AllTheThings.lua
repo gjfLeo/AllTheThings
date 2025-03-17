@@ -970,7 +970,7 @@ PriorityNestObjects = function(p, g, newCreate, ...)
 end
 -- Merges multiple sources of an object into a single object. Can specify to clean out all sub-groups of the result
 app.MergedObject = function(group, rootOnly)
-	if not group or not group[1] then return; end
+	if not group or not group[1] then return group; end
 	local merged = CreateObject(group[1], rootOnly);
 	for i=2,#group do
 		MergeProperties(merged, group[i]);
