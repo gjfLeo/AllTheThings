@@ -578,3 +578,15 @@ end
 -- ATTscripttimeout("immediate", 21)
 -- app.AddEventHandler("OnLoad", ATTscripttimeout)
 -- app.AddEventHandler("OnReady", ATTscripttimeout)
+
+function DumpAllGlobals()
+	local ks = {}
+	for k, v in pairs(_G) do
+		if type(v) == "string" then
+			ks[#ks + 1] = ("%s = \"%s\""):format(k,v)
+		end
+	end
+
+	local allkeys = table.concat(ks, "\n")
+	app:ShowPopupDialogWithMultiLineEditBox(allkeys)
+end
