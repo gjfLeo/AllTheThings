@@ -234,62 +234,7 @@ app:CreateWindow("Auctions", {
 				back = 1,
 				indent = 0,
 				g = { },
-				metas = {
-					["sourceID"] = {	-- Appearances
-						text = "Appearances",
-						icon = 135349,
-						description = "All items that could be learned for transmog are listed here.",
-						SortPriority = 2,
-					},
-					["speciesID"] = app.CreateFilter(101, {	-- Battle Pets
-						description = "All battle pets that you have not collected yet are displayed here.",
-						SortPriority = 3,
-					}),
-					["mountID"] = app.CreateFilter(100, {	-- Mounts
-						description = "All mounts that you have not collected yet are displayed here.",
-						SortPriority = 4,
-					}),
-					["reagentID"] = {	-- Materials
-						text = "Materials",
-						icon = 132856,
-						description = "All items that can be used to craft an item using a profession on your account.",
-						SortPriority = 5,
-					},
-					["itemID"] = {	-- Miscellaneous
-						text = "Miscellaneous",
-						icon = 132595,
-						description = "All items that could be used for some non-transmog related purpose such as for an achievement are displayed here.",
-						SortPriority = 6,
-					},
-					["recipeID"] = app.CreateFilter(200, {	-- Recipes
-						description = "All recipes that you have not collected yet are displayed here.",
-						SortPriority = 7,
-					}),
-					["toyID"] = {	-- Toys
-						text = "Toys",
-						icon = 133015,
-						description = "All items that are classified as Toys either by ATT for the future or by the game presently.",
-						SortPriority = 8,
-					},
-					["legacyID"] = {	-- Legacy
-						text = "Legacy",
-						icon = 135331,
-						description = "All items that were removed from game that you could probably still collect for a... nominal fee.\n\nAlso if you have found something here, feel free to post about it on the ATT Discord's #classic-general channel! I'm sure some folks might want to find these.",
-						SortPriority = 10,
-						OnUpdate = function(data)
-							oldLegacyFilter = AllTheThingsSettings.Unobtainable[2];
-							AllTheThingsSettings.Unobtainable[2] = true;
-						end,
-					},
-					["legacyIDCleaner"] = {	-- Legacy Cleaner
-						text = "Legacy Cleaner",
-						icon = 135331,
-						SortPriority = 10.1,
-						OnUpdate = function(data)
-							AllTheThingsSettings.Unobtainable[2] = oldLegacyFilter;
-						end,
-					},
-				},
+				metas = { },
 				options = {
 					setmetatable({
 						clickText = "Click to run a Full Scan",
@@ -455,12 +400,77 @@ app:CreateWindow("Auctions", {
 							return true;
 						end,
 					},
+					{	-- Appearances
+						text = "Appearances",
+						Meta = "sourceID",
+						icon = 135349,
+						description = "All items that could be learned for transmog are listed here.",
+						SortPriority = 2,
+					},
+					app.CreateFilter(101, {	-- Battle Pets
+						Meta = "speciesID",
+						description = "All battle pets that you have not collected yet are displayed here.",
+						SortPriority = 3,
+					}),
+					app.CreateFilter(100, {	-- Mounts
+						Meta = "mountID",
+						description = "All mounts that you have not collected yet are displayed here.",
+						SortPriority = 4,
+					}),
+					{	-- Materials
+						text = "Materials",
+						Meta = "reagentID",
+						icon = 132856,
+						description = "All items that can be used to craft an item using a profession on your account.",
+						SortPriority = 5,
+					},
+					{	-- Miscellaneous
+						text = "Miscellaneous",
+						Meta = "itemID",
+						icon = 132595,
+						description = "All items that could be used for some non-transmog related purpose such as for an achievement are displayed here.",
+						SortPriority = 6,
+					},
+					app.CreateFilter(200, {	-- Recipes
+						Meta = "recipeID",
+						description = "All recipes that you have not collected yet are displayed here.",
+						SortPriority = 7,
+					}),
+					{	-- Toys
+						text = "Toys",
+						Meta = "toyID",
+						icon = 133015,
+						description = "All items that are classified as Toys either by ATT for the future or by the game presently.",
+						SortPriority = 8,
+					},
+					{	-- Legacy
+						text = "Legacy",
+						Meta = "legacyID",
+						icon = 135331,
+						description = "All items that were removed from game that you could probably still collect for a... nominal fee.\n\nAlso if you have found something here, feel free to post about it on the ATT Discord's #classic-general channel! I'm sure some folks might want to find these.",
+						SortPriority = 10,
+						OnUpdate = function(data)
+							oldLegacyFilter = AllTheThingsSettings.Unobtainable[2];
+							AllTheThingsSettings.Unobtainable[2] = true;
+						end,
+					},
+					{	-- Legacy Cleaner
+						text = "Legacy Cleaner",
+						icon = 135331,
+						SortPriority = 10.1,
+						OnUpdate = function(data)
+							AllTheThingsSettings.Unobtainable[2] = oldLegacyFilter;
+						end,
+					}
 				},
 				OnUpdate = function(data)
 					local g = data.g;
 					if #g < 1 then
 						for i,option in ipairs(data.options) do
 							tinsert(g, option);
+							if option.Meta then
+								data.metas[option.Meta] = option;
+							end
 						end
 						
 						-- Determine if anything is cached in the Auction Data.
@@ -585,16 +595,17 @@ app:CreateWindow("Auctions", {
 								if not subdata then
 									subdata = {
 										text = key,
+										Meta = key,
 										description = "Container for '" .. key .. "' object types.",
 									};
 									self.data.metas[key] = subdata;
+									tinsert(g, subdata);
 								end
 								subdata.g = {};
 								for i,j in pairs(searchResults) do
 									tinsert(subdata.g, j);
 								end
 								table.sort(subdata.g, SortByPrice);
-								tinsert(g, subdata);
 							end
 						else
 							tinsert(g, { text = "No auctions cached. Waiting on Auction data." });
