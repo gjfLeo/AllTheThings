@@ -19,6 +19,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					ach(41626),	-- C.H.E.T.T. a Look
 					ach(41627),	-- C.H.E.T.T.ing it Twice
 					ach(41629, {	-- C.H.E.T.T.mate
+						["description"] = "Turning in a completed list for a Finders Fee will |cffff0000NOT|r give achievement credit.",
 						["g"] = {
 							title(616),	-- Part-Timer %s
 						},

@@ -18,6 +18,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					o(469857, {	-- Overflowing Dumpster
 						-- entire map
 						currency(3226), 	-- Market Research
+						i(234741),	-- Miscellaneous Mechanica
 					}),
 				},
 			}),

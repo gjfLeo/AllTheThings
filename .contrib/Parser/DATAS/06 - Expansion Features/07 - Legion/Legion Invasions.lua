@@ -75,6 +75,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 45572 },	-- Holding Our Ground
 						["repeatable"] = true,
 						["provider"] = { "n", 119676 },	-- Lasan Skyhorn
+						["coord"] = { 50.2, 64.4, HIGHMOUNTAIN },
 					}),
 					q(45856, {	-- Battle for Val'sharah
 						["sourceQuests"] = { 44789 },	-- Holding the Ramparts
@@ -90,6 +91,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 45840 },	-- Assault on Highmountain
 						["repeatable"] = true,
 						["provider"] = { "n", 119944 },	-- Lasan Skyhorn
+						["coord"] = { 25.2, 22.6, 750 },	-- Thunder Totem
 					}),
 					q(44789, {	-- Holding the Ramparts
 						["sourceQuests"] = { 45812 },	-- Assault on Val'sharah

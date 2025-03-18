@@ -51,7 +51,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 								i(231809),	-- First Mate Dat-Dat's Key (QI!)
 							}),
 							o(477098, {	-- Bilge Rat Trunk
-								["coord"] = { 53.7, 88.8, SIREN_ISLE },
+								["coords"] = {
+									{ 53.7, 88.8, SIREN_ISLE },
+									{ 54.9, 83.7, SIREN_ISLE },
+								},
 								["g"] = { i(231786), },	-- Ookler's Diary (QI!)
 							}),
 							o(477366, {	-- Dat-Dat's Book Stash
@@ -78,10 +81,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["isWeekly"] = true,
 						["g"] = {
 							o(456869, {	-- Kaja'Cola Stash
-								i(227453),	-- Kaja'Cola Stash (QI!)
+								["coords"] = {
+									{ 56.9, 85.5, SIREN_ISLE },
+									{ 64.6, 63.8, SIREN_ISLE },
+								},
+								["g"] = { i(227453) },	-- Kaja'Cola Stash (QI!)
 							}),
 							o(457143, {	-- Kaja'Cola Can
-								i(227670),	-- Kaja'Cola Can (QI!)
+								["coords"] = {
+									{ 49.3, 63.2, SIREN_ISLE },
+									{ 51.9, 72.9, SIREN_ISLE },
+									{ 56.5, 71.1, SIREN_ISLE },
+									{ 64.5, 72.4, SIREN_ISLE },
+									{ 65.9, 59.0, SIREN_ISLE },
+									{ 69.3, 58.9, SIREN_ISLE },
+								},
+								["g"] = { i(227670) },	-- Kaja'Cola Can (QI!)
 							}),
 						},
 					}),

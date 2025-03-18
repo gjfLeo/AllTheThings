@@ -796,7 +796,7 @@ root(ROOTS.Zones, {
 							}),
 						}),
 						prof(FISHING, {
-							i(45903),	-- Corroded Jewelry
+							i(45903),	-- Corroded Jewelry (QI!)
 							i(43698, {	-- Giant Sewer Rat (PET!)
 								["timeline"] = { ADDED_3_0_2 },
 							}),

@@ -1270,7 +1270,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			q(64438, {	-- Empowering Equipment
 				["sourceQuests"] = { 64290 },	-- Collecting Research
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
-				["coord"] = { 61.6, 21.7, KORTHIA },
+				["coords"] = {
+					{ 62.7, 22.5, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },
+				},
 			}),
 			q(64530, bubbleDownSelf({ ["customCollect"] = "SL_COV_VEN" }, {	-- Gravewing Crystal
 				["sourceQuests"] = { 64556 },	-- In Need of Assistance

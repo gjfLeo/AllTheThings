@@ -374,7 +374,6 @@ root(ROOTS.Unsorted, {
 			}),
 			n(SPECIAL, {
 				-- Interesting hmmm
-				i(234389),	-- Gallagio Loyalty Rewards Card: Silver
 				i(234390),	-- Gallagio Loyalty Rewards Card: Gold
 				i(234391),	-- Gallagio Loyalty Rewards Card: Platinum
 				i(234392),	-- Gallagio Loyalty Rewards Card: Black

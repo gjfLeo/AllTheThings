@@ -444,6 +444,20 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
 						["minReputation"] = { FACTION_GLRC, 2 },
 					}),
+					q(89018, {	-- Loyal Customer: Silver
+						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
+						["minReputation"] = { FACTION_GLRC, 4 },
+						["g"] = { i(234389) },	-- Gallagio Loyalty Rewards Card: Silver
+					}),
+				}),
+				n(TREASURES, {
+					o(505248, {	-- Rune Dispenser
+						["description"] = "Interact with for a 1 in 10 chance for a free Crystalized Augment Rune.\n\nAt renown 14, you are guaranteed at least one.",
+						["questID"]	= 89350,
+						["minReputation"] = { FACTION_GLRC, 2 },
+						["isWeekly"] = true,
+						["g"] = { i(224572) },	-- Crystallized Augment Rune
+					}),
 				}),
 				n(VENDORS, {
 					n(235624, {	-- Skitto Screwjack
@@ -698,49 +712,52 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 					q(86468),	-- Triggered with Members Only (89016)
 					q(89017),	-- Triggered with Members Only (89016)
 				}),
-				q(89350),	-- On using the Busted Rune Dispenser
 			}),
 		}),
 
-		-- LFR
-		q(88838),	-- Guk Boomdog Trash
-		q(88842),	-- King Flamespite/Professor Boomspark Trash
-		q(89478),	-- King Flamespite/Professor Boomspark Trash
-		q(88846),	-- Skiggy Muckheimer Trash
-		q(88859),	-- Globikus Trash
-		--q(),	-- Melbo The Magnificent Trash
-		--q(),	-- The Junkmaster Trash
-		-- Normal
-		q(88833),	-- Guk Boomdog Trash
-		q(88840),	-- King Flamespite/Professor Boomspark Trash
-		q(88844),	-- King Flamespite/Professor Boomspark Trash
-		q(88848),	-- Skiggy Muckheimer Trash
-		q(88861),	-- Globikus Trash
-		q(88852),	-- Melbo The Magnificent Trash
-		q(88856),	-- The Junkmaster Trash
-		-- Heroic
-		q(88836),	-- Guk Boomdog Trash
-		q(88837),	-- King Flamespite/Professor Boomspark Trash
-		q(88841),	-- King Flamespite/Professor Boomspark Trash
-		q(88845),	-- Skiggy Muckheimer Trash
-		q(88858),	-- Globikus Trash
-		q(88849),	-- Melbo The Magnificent Trash
-		q(88853),	-- The Junkmaster Trash
+		inst(1296, bubbleDown({	-- Liberation of Undermine
+			["isWeekly"] = true,
+		},{
+			-- LFR
+			q(88838),	-- Guk Boomdog Trash
+			q(88842),	-- King Flamespite/Professor Boomspark Trash
+			q(89478),	-- King Flamespite/Professor Boomspark Trash
+			q(88846),	-- Skiggy Muckheimer Trash
+			q(88859),	-- Globikus Trash
+			q(88850),	-- Melbo The Magnificent Trash
+			--q(),	-- The Junkmaster Trash
+			-- Normal
+			q(88833),	-- Guk Boomdog Trash
+			q(88840),	-- King Flamespite/Professor Boomspark Trash
+			q(88844),	-- King Flamespite/Professor Boomspark Trash
+			q(88848),	-- Skiggy Muckheimer Trash
+			q(88861),	-- Globikus Trash
+			q(88852),	-- Melbo The Magnificent Trash
+			q(88856),	-- The Junkmaster Trash
+			-- Heroic
+			q(88836),	-- Guk Boomdog Trash
+			q(88837),	-- King Flamespite/Professor Boomspark Trash
+			q(88841),	-- King Flamespite/Professor Boomspark Trash
+			q(88845),	-- Skiggy Muckheimer Trash
+			q(88858),	-- Globikus Trash
+			q(88849),	-- Melbo The Magnificent Trash
+			q(88853),	-- The Junkmaster Trash
 
-		-- LFR/Normal/Heroic
-		q(88835),	-- Guk Boomdog Trash first per week any difficulty
-		q(89479),	-- Skiggy Muckheimer Trash first per week any difficulty
-		q(89482),	-- Globikus Trash first per week any difficulty
-		q(89480),	-- Melbo The Magnificent Trash first per week any difficulty
-		q(89481),	-- The Junkmaster Trash first per week any difficulty
+			-- LFR/Normal/Heroic
+			q(88835),	-- Guk Boomdog Trash first per week any difficulty
+			q(89479),	-- Skiggy Muckheimer Trash first per week any difficulty
+			q(89482),	-- Globikus Trash first per week any difficulty
+			q(89480),	-- Melbo The Magnificent Trash first per week any difficulty
+			q(89481),	-- The Junkmaster Trash first per week any difficulty
 
-		q(89452),	-- Vexie Fullthrottle
-		q(89453),	-- Cauldron of Carnage
-		q(89454),	-- Rik Reverb
-		q(89455),	-- Stix Bunkjunker
-		q(89456),	-- Sprocketmonger Lockenstock
-		q(89457),	-- One-Armed Bandit
-		q(89458),	-- Mug'Zee
-		q(89459),	-- Chrome King Gallywix
+			q(89452),	-- Vexie Fullthrottle
+			q(89453),	-- Cauldron of Carnage
+			q(89454),	-- Rik Reverb
+			q(89455),	-- Stix Bunkjunker
+			q(89456),	-- Sprocketmonger Lockenstock
+			q(89457),	-- One-Armed Bandit
+			q(89458),	-- Mug'Zee
+			q(89459),	-- Chrome King Gallywix
+		})),
 	}),
 })));
