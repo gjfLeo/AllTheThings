@@ -1837,9 +1837,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 							a(ig(48712)),		-- The Spinebreaker
 
 						}),
-						i(47242, {	-- Trophy of the Crusade
-							["description"] = "This only drops on either of the 25-Player Modes or from the Tribute Chest at the end of 10 man Heroic.",
-						}),
+						i(47242),	-- Trophy of the Crusade
 					},
 				})),
 			}),
