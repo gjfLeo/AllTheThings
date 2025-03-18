@@ -97,7 +97,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			n(180246, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Carriage Crusher
 				["description"] = "The Assault Supply Carriage starts in Korthia, moves to the northeastern bridge out of the Beastwarrens, and then finishes its supply run to the current covenant assault.\n\nWhen the carriage makes it to the bridge, the Carriage Crusher spawns.  You can hop into the carriage to heal it and yourself.",
-				["crs"] = { 180182 },	-- Assault Supply Carriage
+				["crs"] = {
+					180182,	-- Assault Supply Carriage
+					180181,	-- Wicklick [Vignette]
+				},
 				["coord"] = { 45.5, 54.8, THE_MAW },
 				["questID"] = 64258, -- and 64439, both of which also triggered on my first Traitor Balthier kill.
 				["maps"] = { KORTHIA },	-- show in Korthia as well since it spawns there

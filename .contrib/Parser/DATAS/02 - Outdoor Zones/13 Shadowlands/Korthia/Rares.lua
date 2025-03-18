@@ -143,7 +143,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			n(179985, {	-- Stygian Stonecrusher
 				["description"] = "Speak to Drippy, and then defend the NPCs as they repair the Broken Gatecrasher.\n\nRequires a |cFFfe040fVenthyr|r to start.  When the event begins, there is a zonewide announcement: |cFFf73f3fDrippy yells: For Sinfall!|r",
-				["crs"] = { 179974 },	-- Drippy
+				["crs"] = {
+					179974,	-- Drippy
+					179969,	-- Broken Gatecrasher [Vignette]
+				},
 				["coord"] = { 46.3, 79.7, KORTHIA },
 				["questID"] = 64313,
 				["g"] = {
@@ -154,6 +157,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			n(179760, {	-- Towering Exterminator
 				["description"] = "Can spawn next to other rares when they die.  Defeat the adds that emerge from the portal, and eventually the rare will appear.\n\nWhen the portal spawns, there is a zonewide announcement: |cFFff8040A powerful mawsworn opens a portal into Korthia.|r",
+				["crs"] = {
+					179759,	-- Mawsworn Portal [Vignette]
+				},
 				["questID"] = 64245,
 				["g"] = {
 					i(187035),	-- Cold Burden of the Damned
