@@ -1938,9 +1938,10 @@
 2825@@@+$i Attack Power
 2826@@@+$i Block
 3726@@@+$i Haste
+1.13.3.33155
+250@@@Weapon Damage +1 
 1.14.3.46575
 1.14.4.50252
-250@@@Weapon Damage +1 
 1.15.0.52124
 6708@@@Deadly Brew
 6709@@@Between the Eyes

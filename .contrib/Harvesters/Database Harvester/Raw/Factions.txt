@@ -297,12 +297,13 @@
 1.13.2.30172
 2402@@@CTF - Flag - Horde
 2403@@@CTF - Flag - Alliance
+1.13.3.33155
+6@@@PLAYER, Tauren 
 1.14.1.41077
 1041@@@Frenzy
 1.14.2.41959
 2505@@@Dragonflight, Chromatic
 1.14.3.46575
-6@@@PLAYER, Tauren 
 1.15.0.52124
 2586@@@Azeroth Commerce Authority
 2587@@@Durotar Supply and Logistics
