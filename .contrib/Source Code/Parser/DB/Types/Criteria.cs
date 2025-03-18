@@ -90,7 +90,7 @@ namespace ATT.DB.Types
         Type == 36 || Type == 41 || Type == 42 || Type == 57 ? Asset : 0;
 
         public long GetProviderNPC() =>
-            Type == 0 && Asset > 0 ? Asset : 0;
+            (Type == 0 || Type == 96) && Asset > 0 ? Asset : 0;
 
         public long GetProviderObject() =>
             Type == 68 || Type == 72 ? Asset : 0;
