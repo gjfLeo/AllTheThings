@@ -123,9 +123,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	m(UNDERMINE, {
 		n(SHIPPING_AND_HANDLING, {
 			n(EVENT_COMPLETION, {
-				q(86299),	-- Looted Breakneck Cabbie's Coat
-				q(86300),	-- Looted Violet Goblin Shredder
-				q(86303),	-- Looted Personal-Use Sapper
+				q(86299, { ["name"] = "Looted Breakneck Cabbie's Coat" }),	-- Looted Breakneck Cabbie's Coat
+				q(86300, { ["name"] = "Looted Violet Goblin Shredder" }),	-- Looted Violet Goblin Shredder
+				q(86302, { ["name"] = "Looted Mutt" }),	-- Looted Mutt
+				q(86303, { ["name"] = "Looted Personal-Use Sapper" }),	-- Looted Personal-Use Sapper
 			}),
 		}),
 	}),

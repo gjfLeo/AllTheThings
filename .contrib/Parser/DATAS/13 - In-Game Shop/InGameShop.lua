@@ -510,6 +510,14 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_8_3_0 },
 		}),
 
+		------ Vestments of the Heavens Sets ------
+		iensemble(233052, {	-- Ensemble: Radiant Vestments of the Heavens
+			["timeline"] = { ADDED_11_1_0 },
+		}),
+		iensemble(233050, {	-- Ensemble: Shining Vestments of the Heavens
+			["timeline"] = { ADDED_11_1_0 },
+		}),
+
 		------ Waveborne Diplomat's Regalia Set ------
 		iensemble(204888, {	-- Ensemble: Waveborne Diplomat's Regalia
 			["timeline"] = { ADDED_10_0_7 },

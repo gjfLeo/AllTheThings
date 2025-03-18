@@ -40,26 +40,6 @@ root(ROOTS.Unsorted, {
 				i(231745),	-- Black Bruiser's Shoulderspikes
 
 				-- Trading Post
-				i(233032),	-- Shining Guise of the Heavens
-				i(233033),	-- Shining Pauldrons of the Sunlit Heavens
-				i(233034),	-- Shining Pauldrons of the Twilight Heavens
-				i(233035),	-- Shining Chestguard of the Heavens
-				i(233036),	-- Shining Greaves of the Heavens
-				i(233037),	-- Shining Belt of the Heavens
-				i(233038),	-- Shining Gloves of the Heavens
-				i(233039),	-- Shining Treads of the Heavens
-				i(233040),	-- Shining Cloak of the Heavens
-				i(233041),	-- Radiant Guise of the Heavens
-				i(233042),	-- Radiant Pauldrons of the Sunlit Heavens
-				i(233043),	-- Radiant Pauldrons of the Twilight Heavens
-				i(233044),	-- Radiant Chestguard of the Heavens
-				i(233045),	-- Radiant Greaves of the Heavens
-				i(233046),	-- Radiant Belt of the Heavens
-				i(233047),	-- Radiant Gloves of the Heavens
-				i(233048),	-- Radiant Treads of the Heavens
-				i(233049),	-- Radiant Cloak of the Heavens
-				i(233050),	-- Ensemble: Shining Vestments of the Heavens
-				i(233052),	-- Ensemble: Radiant Vestments of the Heavens
 				i(234572),	-- Topsy Turvy Fool's Blade
 				i(234573),	-- Topsy Turvy Clown's Blade
 				i(234575),	-- Topsy Turvy Jester's Blade
