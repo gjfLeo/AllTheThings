@@ -101,9 +101,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 62.9, 77.8, KEZAN },
 						["qg"] = 34872,	-- Foreman Dampwick
 						["sourceQuest"] = 14120,	-- A Bazillion Macaroons?!
-						["g"] = {
+						["groups"] = {
 							o(195492, {	-- Kaja'mite Chunk
-								["g"] = { i(48766) },	-- Kaja'mite Chunk (QI!)
+								["groups"] = { i(48766) },	-- Kaja'mite Chunk (QI!)
 							}),
 							i(48768),	-- Kablooey Bombs (QI!)
 						},

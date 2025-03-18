@@ -2538,6 +2538,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
+					filter(BATTLE_PETS, {
+						i(221496),	-- Wriggle (PET!)
+					}),
 					filter(COSMETIC, {
 						i(212162),	-- Bitter Shroom Cap
 						i(212167),	-- Taken Candle

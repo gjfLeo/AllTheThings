@@ -133,6 +133,11 @@ root(ROOTS.Zones, {
 						["coord"] = { 27.8, 75.5, THE_LOST_ISLES },
 						["qg"] = 35650,	-- Sassy Hardwrench
 						["sourceQuest"] = 14001,	-- Goblin Escape Pods
+						["groups"] = {
+							o(195201, {	-- Crate of Tools
+								["groups"] = { i(46828) },	-- Crate of Tools (QI!)
+							}),
+						}
 					}),
 					q(14241, {	-- Get to the Gyrochoppa
 						["coord"] = { 25.2, 59.8, THE_LOST_ISLES },
@@ -285,7 +290,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 24901,	-- Town-In-A-Box: Under Attack
 					}),
 					q(14233, {	-- Orcs Can Write?
-						["coord"] = { 41.5, 25.7, THE_LOST_ISLES },
+						["coord"] = { 41.5, 25.7, 175 },	-- Kaja'mite Cavern
 						["qg"] = 35837,	-- Dead Orc Scout
 						["sourceQuest"] = 14248,	-- Help Wanted
 					}),
@@ -364,6 +369,9 @@ root(ROOTS.Zones, {
 						["qg"] = 38120,	-- Hobart Grapplehammer
 						["sourceQuest"] = 24741,	-- Trading Up
 						["groups"] = {
+							o(201977, {	-- The Biggest Egg Ever
+								i(50261),	-- The Biggest Egg Ever (QI!)
+							}),
 							i(52933),	-- Mechachicken Feather Cloak
 							i(52951),	-- Chicken Chopper
 							i(52905),	-- Best. Bracers. Ever.
@@ -496,6 +504,11 @@ root(ROOTS.Zones, {
 						["coord"] = { 45.2, 64.8, THE_LOST_ISLES },
 						["qg"] = 38122,	-- Bamm Megabomb
 						["sourceQuest"] = 24671,	-- Cluster Cluck
+						["groups"] = {
+							o(201974, {	-- Raptor Egg
+								["groups"] = { i(50239) },	-- Spiny Raptor Egg (QI!)
+							}),
+						},
 					}),
 					q(14244, {	-- Up, Up & Away!
 						["coord"] = { 36.0, 67.5, THE_LOST_ISLES },

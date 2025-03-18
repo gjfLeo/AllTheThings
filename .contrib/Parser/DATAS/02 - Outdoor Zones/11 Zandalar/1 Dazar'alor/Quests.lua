@@ -693,42 +693,24 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 67.3, 71.6, HALL_OF_CHRONICLERS },
 				["races"] = HORDE_ONLY,
 			}),
-			q(52834, {	-- Seal of Wartorn Fate: Gold
-				["coord"] = { 53.9, 88.4, DAZARALOR },
-				--["races"] = HORDE_ONLY,
-				["provider"] = { "n", 141584 },	-- Zurvan
+			n(QUESTS, sharedData({
+				["qgs"] = {
+					142063, -- Tezran
+					141584,	-- Zurvan
+				},
+				["coords"] = {
+					{ 71.6, 13.7, BORALUS },
+					{ 53.9, 88.4, DAZARALOR },
+				},
 				["isWeekly"] = true,
-			}),
-			q(52838, {	-- Seal of Wartorn Fate: Piles of Gold
-				["coord"] = { 53.9, 88.4, DAZARALOR },
-				--["races"] = HORDE_ONLY,
-				["provider"] = { "n", 141584 },	-- Zurvan
-				["isWeekly"] = true,
-			}),
-			q(52835, {	-- Seal of Wartorn Fate: Marks of Honor
-				["coord"] = { 53.9, 88.4, DAZARALOR },
-				--["races"] = HORDE_ONLY,
-				["provider"] = { "n", 141584 },	-- Zurvan
-				["isWeekly"] = true,
-			}),
-			q(52839, {	-- Seal of Wartorn Fate: Additional Marks of Honor
-				["coord"] = { 53.9, 88.4, DAZARALOR },
-				--["races"] = HORDE_ONLY,
-				["provider"] = { "n", 141584 },	-- Zurvan
-				["isWeekly"] = true,
-			}),
-			q(52837, {	-- Seal of Wartorn Fate: War Resources
-				["coord"] = { 53.9, 88.4, DAZARALOR },
-				--["races"] = HORDE_ONLY,
-				["provider"] = { "n", 141584 },	-- Zurvan
-				["isWeekly"] = true,
-			}),
-			q(52840, {	-- Seal of Wartorn Fate: Stashed War Resources
-				["coord"] = { 53.9, 88.4, DAZARALOR },
-				--["races"] = HORDE_ONLY,
-				["provider"] = { "n", 141584 },	-- Zurvan
-				["isWeekly"] = true,
-			}),
+			}, {
+				q(52834),	-- Seal of Wartorn Fate: Gold
+				q(52838),	-- Seal of Wartorn Fate: Piles of Gold
+				q(52835),	-- Seal of Wartorn Fate: Marks of Honor
+				q(52839),	-- Seal of Wartorn Fate: Additional Marks of Honor
+				q(52837),	-- Seal of Wartorn Fate: War Resources
+				q(52840),	-- Seal of Wartorn Fate: Stashed War Resources
+			})),
 			q(56044, {	-- Send the Fleet
 				["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 				["coord"] = { 58.4, 62.6, ZULDAZAR },

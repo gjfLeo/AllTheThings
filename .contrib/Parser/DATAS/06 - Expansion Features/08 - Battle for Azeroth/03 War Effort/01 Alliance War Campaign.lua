@@ -295,7 +295,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						},
 					}),
 					q(51169, {	-- Flight from the Fall
-						["provider"] = { "n", 136645 },	-- Brann Bronzebeard
+						["provider"] = { "n", 136645 },	-- Explorers' League Surveyor
+						["coord"] = { 31.4, 48.2, NAZMIR },
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 51168 },	-- Zealots of Zalamar
 					}),
@@ -642,8 +643,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = { 52032 },	-- Never Stop Combing
 						["g"] = {
-							i(161241),	-- Zandalari Dunemelon (QI!)
-							i(161240),	-- Zandalari Water Jug (QI!)
+							o(292784, {
+								["coord"] = { 40.8, 74.3, VOLDUN },
+								["g"] = { i(161241) },	-- Zandalari Dunemelon (QI!)
+							}),
+							o_repeated({
+								o(292782, {
+									["coord"] = { 40.8, 76.0, VOLDUN },
+								}),	-- Zandalari Water Jug
+								o(292783, {
+									["coord"] = { 40.7, 75.4, VOLDUN },
+								}),	-- Zandalari Water Jug
+								i(161240),	-- Zandalari Water Jug (QI!)
+							}),
 						},
 					}),
 					q(52034, {	-- A Message to the Zandalari

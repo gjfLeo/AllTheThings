@@ -129,7 +129,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						59760,	-- The Afflictor's Key
 						59761,	-- An Undeserved Fate
 					},
-					["provider"] = { "n", 167826 },	-- Lady Jaina Proudmoore
+					["provider"] = { "n", 167833 },	-- Anduin Wrynn
 					["coord"] = { 25.0, 13.4, 1648 },	-- pre-SL scenario
 				}),
 				q(59762, {	-- By and Down the River

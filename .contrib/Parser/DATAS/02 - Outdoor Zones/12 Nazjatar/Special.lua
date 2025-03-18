@@ -19,12 +19,15 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		o(373439, {	--  Flipper Fish School
-			["timeline"] = { ADDED_9_2_5 },
-			["cost"] = {{"i",187662,1}},	-- Strange Goop
 			["coord"] = { 72.8, 24.3, NAZJATAR },
+			["cost"] = {{"i",187662,1}},	-- Strange Goop
+			["timeline"] = { ADDED_9_2_5 },
 			["g"] = {
 				i(187922),	-- Flipper Fish
 			},
+		}),
+		o(330194, {	-- Prismatic Crystal
+			["g"] = { i(167893) },	-- Prismatic Crystal
 		}),
 		pvp(o(327652, {	-- War Supply Chest (A)
 			["description"] = "Spawns randomly somewhere in the sky and parachutes downwards to the ground.",

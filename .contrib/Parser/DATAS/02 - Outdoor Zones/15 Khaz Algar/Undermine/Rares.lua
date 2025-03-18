@@ -325,6 +325,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 84920,
 				["isWeekly"] = true,
 				["g"] = {
+					i(235347),	-- 100% Sharp Glimmerblade
 					i(235329),	-- Cowl of Acidic Mire
 					i(235310),	-- Flashy Patchwork Trousers
 					i(235327),	-- Mend-and-Match Shoulderpads

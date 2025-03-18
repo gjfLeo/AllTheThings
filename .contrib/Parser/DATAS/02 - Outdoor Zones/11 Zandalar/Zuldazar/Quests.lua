@@ -374,8 +374,14 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 43.9, 72.1, ZULDAZAR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
+					o_repeated({	-- Xibalan Fossil
+						o(287048),	-- Xibalan Fossil
+						o(287051),	-- Xibalan Fossil
+						o(287054),	-- Xibalan Fossil
+						o(287055),	-- Xibalan Fossil
+						i(156597),	-- Xibalan Fossil Fragment (QI!)
+					}),
 					i(156596),	-- Sweeper Beacon (QI!)
-					i(156597),	-- Xibalan Fossil Fragment (QI!)
 				},
 			}),
 			q(49492, {	-- Arrogance of Vol'jamba
@@ -1832,13 +1838,19 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(50044, {	-- Archaeological Efficiency (A)
-				["coord"] = { 44.4, 73.4, ZULDAZAR },
+				["coord"] = { 41.3, 71.5, ZULDAZAR },
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 131763 },	-- Excavator Morgrum Emberflint
 				["sourceQuests"] = { 49276 },	-- The Thrill of Exploration
 				["g"] = {
+					o_repeated({	-- Xibalan Fossil
+						o(287048),	-- Xibalan Fossil
+						o(287051),	-- Xibalan Fossil
+						o(287054),	-- Xibalan Fossil
+						o(287055),	-- Xibalan Fossil
+						i(156597),	-- Xibalan Fossil Fragment (QI!)
+					}),
 					i(159640),	-- Elemental Summoning Stone (QI!)
-					i(156597),	-- Xibalan Fossil Fragment (QI!)
 				},
 			}),
 			q(49491, {	-- Fuel for the Voodoo
@@ -1891,7 +1903,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(49282, {	-- Morgrum's Extended Survey
-				["coord"] = { 44.4, 73.4, ZULDAZAR },
+				["coord"] = { 41.3, 71.5, ZULDAZAR },
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 131763 },	-- Excavator Morgrum Emberflint
 				["sourceQuests"] = {
@@ -1901,7 +1913,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(49274, {	-- Morgrum's Survey
-				["coord"] = { 44.4, 73.4, ZULDAZAR },
+				["coord"] = { 41.3, 71.5, ZULDAZAR },
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 131763 },	-- Excavator Morgrum Emberflint
 				["sourceQuests"] = { 49276 },	-- The Thrill of Exploration
@@ -2019,10 +2031,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				-- TODO: Check SQ, also probably can't do after a certain level
 				q(47527),	-- Rituals of Heresy
 				q(47797),	-- Occupation Hazard
-				q(49315),	-- Dreadpearl Collusion
 				q(49918),	-- Gorilla Gorge
 				q(50178),	-- Trouble in the Rootway
 			})),
+			n(BONUS_OBJECTIVES, {	-- Neither faction or level 50 restricted
+				q(49315),	-- Dreadpearl Collusion
+			}),
 		}),
 	}),
 })));

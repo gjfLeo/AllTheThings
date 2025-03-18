@@ -12,6 +12,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				{ 71.7, 25.7, NAZJATAR },
 				{ 55.1, 48.8, NAZJATAR },
 			},
+			["cost"] = {{"i",167893,1}},	-- Prismatic Crystal
 			["g"] = {
 				i(167809),	-- Slimy Darkhunter (PET!)
 				i(167808),	-- Slimy Eel (PET!)

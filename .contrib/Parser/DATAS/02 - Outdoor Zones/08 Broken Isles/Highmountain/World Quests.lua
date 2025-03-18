@@ -101,7 +101,14 @@ root(ROOTS.Zones, {
 				q(41014),	-- Fury Road
 				q(46184),	-- Gelgothar (Invasion wq)
 				q(41701),	-- Gettin' Tuffer
-				q(41127),	-- Gunksnout Infestation
+				q(41127, {	-- Gunksnout Infestation
+					o_repeated({	-- Wax Ingot
+						o(247072),	-- Wax Ingot
+						o(247073),	-- Wax Ingot
+						o(247074),	-- Wax Ingot
+						i(134056),	-- Wax Ingot
+					}),
+				}),
 				q(41204, {	-- Hard Leystone Deposits
 					["requireSkill"] = MINING,
 				}),

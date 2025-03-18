@@ -5,6 +5,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 	applyclassicphase(CATA_PHASE_MOLTEN_FRONT, m(THE_MOLTEN_FRONT, bubbleDownSelf({ ["timeline"] = { ADDED_4_2_0 } }, {
 		["provider"] = { "o", 208900 },	-- Portal to the Firelands
 		["description"] = "The Molten Front is a volcanic daily quest hub added before the release of Firelands with Patch 4.2. It can be accessed via the Portal to the Firelands in Mount Hyjal. As players complete more daily quests, phasing will occur that shows how the Avengers of Hyjal are making progress against the fire elementals and agents of the Firelord.",
+		["coord"] = { 27.5, 56.3, MOUNT_HYJAL },
 		["icon"] = 514278,	-- Achievement_zone_firelands
 		["lvl"] = lvlsquish(85, 85, 32),
 		["groups"] = {
@@ -408,7 +409,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 				q(29138, {	-- Burn Victims
 					["qg"] = 53080,	-- Captain Irontree
 					["sourceQuest"] = 29201,	-- Through the Gates of Hell
-					["coord"] = { 46.8, 90.0, THE_MOLTEN_FRONT },
+					["coords"] = {
+						{ 45.6, 85.8, THE_MOLTEN_FRONT },
+						{ 46.8, 90.0, THE_MOLTEN_FRONT },
+					},
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/8 Wounded Hyjal Defender
@@ -1220,7 +1224,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 				q(29243, {	-- Strike at the Heart (Stage 2: The Forlorn Spire)
-					["qg"] = 52495,	-- Shalis Darkhunter
+					["qgs"] = {
+						53056,	-- Shalis Darkhunter
+						52495,	-- Shalis Darkhunter
+					},
 					["sourceQuests"] = {
 						29283,	-- Calling the Ancients
 						29160,	-- Egg-stinction
@@ -1230,7 +1237,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 						29189,	-- Wicked Webs
 					},
 					["sourceQuestNumRequired"] = 4,
-					["coord"] = { 57.6, 49.6, THE_MOLTEN_FRONT },
+					["coords"] = {
+						{ 51.6, 82.6, THE_MOLTEN_FRONT },
+						{ 57.6, 49.6, THE_MOLTEN_FRONT },
+					},
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/1 Lieutenant of Flame slain
@@ -1388,7 +1398,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 				q(29205, {	-- The Forlorn Spire
 					["qg"] = 52824,	-- General Taldris Moonfall
 					["sourceQuest"] = 29204,	-- The Warden's Charge
-					["coord"] = { 50.6, 87.3, THE_MOLTEN_FRONT },
+					["coord"] = { 45.5, 85.8, THE_MOLTEN_FRONT },
 					["isDaily"] = true,
 					["groups"] = {
 						currency(416),	-- Mark of the World Tree (x2)

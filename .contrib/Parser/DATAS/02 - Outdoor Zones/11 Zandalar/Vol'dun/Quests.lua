@@ -276,7 +276,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					47870,	-- Dead Men Tell No Tales
 					47871,	-- Seafaring Necessities
 				},
-				["provider"] = { "n", 139069 },	-- First Mate Redmond
+				["qgs"] = {
+					124468,	-- Randall Redmond <Ashvane Trading Co.>
+					139069,	-- First Mate Redmond <Ashvane Trading Co.>
+				},
 				["coord"] = { 44.6, 86.9, VOLDUN },
 			}),
 			q(51991, {	-- Charging the Batteries
