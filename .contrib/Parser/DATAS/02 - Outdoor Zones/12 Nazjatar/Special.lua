@@ -27,7 +27,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			},
 		}),
 		o(330194, {	-- Prismatic Crystal
-			["g"] = { i(167893) },	-- Prismatic Crystal
+			i(167893),	-- Prismatic Crystal
 		}),
 		pvp(o(327652, {	-- War Supply Chest (A)
 			["description"] = "Spawns randomly somewhere in the sky and parachutes downwards to the ground.",

@@ -103,7 +103,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 14120,	-- A Bazillion Macaroons?!
 						["groups"] = {
 							o(195492, {	-- Kaja'mite Chunk
-								["groups"] = { i(48766) },	-- Kaja'mite Chunk (QI!)
+								i(48766),	-- Kaja'mite Chunk (QI!)
 							}),
 							i(48768),	-- Kablooey Bombs (QI!)
 						},

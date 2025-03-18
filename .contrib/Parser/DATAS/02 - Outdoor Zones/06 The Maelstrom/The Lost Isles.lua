@@ -135,9 +135,9 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 14001,	-- Goblin Escape Pods
 						["groups"] = {
 							o(195201, {	-- Crate of Tools
-								["groups"] = { i(46828) },	-- Crate of Tools (QI!)
+								i(46828),	-- Crate of Tools (QI!)
 							}),
-						}
+						},
 					}),
 					q(14241, {	-- Get to the Gyrochoppa
 						["coord"] = { 25.2, 59.8, THE_LOST_ISLES },
@@ -506,7 +506,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 24671,	-- Cluster Cluck
 						["groups"] = {
 							o(201974, {	-- Raptor Egg
-								["groups"] = { i(50239) },	-- Spiny Raptor Egg (QI!)
+								i(50239),	-- Spiny Raptor Egg (QI!)
 							}),
 						},
 					}),
