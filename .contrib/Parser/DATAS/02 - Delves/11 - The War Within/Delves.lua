@@ -1522,7 +1522,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 		o(478443, {	-- Mislaid Curiosity
-			["description"] = "Contains Chunk of Companion Experience tokens.\n\nMassively buffed in 11.1, they can now provide up to 18k Brann XP each, depending on the Delves' Level & which experience token you receive.",
+			["description"] = "Contains Chunk of Companion Experience tokens.\n\n|cFF40bf40Massively buffed in 11.1, they can now provide up to 18k Brann XP each, depending on the Delves' Level & which experience token you receive.|r",
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- Brann Experience
