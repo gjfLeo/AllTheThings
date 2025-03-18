@@ -2748,6 +2748,8 @@
 16433@@@Soul of Iron (Season of Mastery)
 16437@@@[DNT] Soul of Iron Tracker (Season of Mastery) (hidden)
 3.4.0.46158
+3.4.0.47168
+17328@@@[DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden)
 3.4.1.47966
 17213@@@Defense Protocol Alpha: Utgarde Keep
 17283@@@Defense Protocol Alpha: The Nexus
@@ -2762,7 +2764,6 @@
 17301@@@Defense Protocol Alpha: Utgarde Pinnacle
 17302@@@Defense Protocol Alpha: The Culling of Stratholme
 17304@@@Defense Protocol Alpha: Terminated
-17328@@@[DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden)
 17340@@@Ahead of the Curve: Yogg-Saron
 17341@@@Cutting Edge: Ulduar
 3.4.1.48019
