@@ -3783,11 +3783,13 @@
 41146@@@Protocol Inferno: Deadmines
 41147@@@Protocol Inferno: Shadowfang Keep
 41148@@@Protocol Inferno: Terminated
-4.4.2.58486
+4.4.1.59069
 41332@@@Rival: Season 10
 41333@@@Duelist: Season 10
 41334@@@Challenger: Season 10
 41336@@@Gladiator: Season 10
+41713@@@[DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) (copy)
+4.4.2.58486
 5.0.3.15882
 110@@@Lich King 5-player boss defeated the most
 131@@@Journeyman Medic
