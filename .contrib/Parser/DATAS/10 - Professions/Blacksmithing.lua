@@ -4240,6 +4240,70 @@ profession(BLACKSMITHING, {
 					["recipeID"] = 1224228,
 					["timeline"] = { ADDED_4_4_2 },
 				}),
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Belt",
+					["recipeID"] = 76467,
+				},
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Boots",
+					["recipeID"] = 76468,
+				},
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Bracers",
+					["recipeID"] = 76465,
+				},
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Breastplate",
+					["recipeID"] = 76472,
+				},
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Gauntlets",
+					["recipeID"] = 76466,
+				},
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Helm",
+					["recipeID"] = 76471,
+				},
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Legguards",
+					["recipeID"] = 76470,
+				},
+				{
+					["name"] = "Bloodthirsty Ornate Pyrium Shoulders",
+					["recipeID"] = 76469,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Belt",
+					["recipeID"] = 76458,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Boots",
+					["recipeID"] = 76459,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Bracers",
+					["recipeID"] = 76456,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Breastplate",
+					["recipeID"] = 76464,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Gauntlets",
+					["recipeID"] = 76457,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Helm",
+					["recipeID"] = 76463,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Legguards",
+					["recipeID"] = 76462,
+				},
+				{
+					["name"] = "Bloodthirsty Pyrium Shoulders",
+					["recipeID"] = 76461,
+				},
 				-- #endif
 				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Bracers of Destructive Strength",
@@ -4539,119 +4603,72 @@ profession(BLACKSMITHING, {
 					["recipeID"] = 1224193,
 					["timeline"] = { ADDED_4_4_2 },
 				}),
-				-- #endif
+				-- #else
 				{
 					["name"] = "Vicious Ornate Pyrium Belt",
 					["recipeID"] = 76467,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Ornate Pyrium Boots",
 					["recipeID"] = 76468,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Ornate Pyrium Bracers",
 					["recipeID"] = 76465,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Ornate Pyrium Breastplate",
 					["recipeID"] = 76472,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Ornate Pyrium Gauntlets",
 					["recipeID"] = 76466,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Ornate Pyrium Helm",
 					["recipeID"] = 76471,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Ornate Pyrium Legguards",
 					["recipeID"] = 76470,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Ornate Pyrium Shoulders",
 					["recipeID"] = 76469,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Belt",
 					["recipeID"] = 76458,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Boots",
 					["recipeID"] = 76459,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Bracers",
 					["recipeID"] = 76456,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Breastplate",
 					["recipeID"] = 76464,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Gauntlets",
 					["recipeID"] = 76457,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Helm",
 					["recipeID"] = 76463,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Legguards",
 					["recipeID"] = 76462,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
 				{
 					["name"] = "Vicious Pyrium Shoulders",
 					["recipeID"] = 76461,
-					-- #if ANYCLASSIC
-					["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-					-- #endif
 				},
+				-- #endif
 				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Warboots of Mighty Lords",
 					["timeline"] = { ADDED_4_2_0 },

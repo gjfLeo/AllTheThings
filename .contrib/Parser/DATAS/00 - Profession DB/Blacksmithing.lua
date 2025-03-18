@@ -869,6 +869,7 @@ i(66109, 76448);	-- Light Elementium Belt
 i(66108, 76447);	-- Light Elementium Chestguard
 i(66101, 76440);	-- Pyrium Shield Spike
 i(66103, 76442);	-- Pyrium Weapon Chain
+-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 i(66127, 76467);	-- Vicious Ornate Pyrium Belt
 i(66128, 76468);	-- Vicious Ornate Pyrium Boots
 i(66125, 76465);	-- Vicious Ornate Pyrium Bracers

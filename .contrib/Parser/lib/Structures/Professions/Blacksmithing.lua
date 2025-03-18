@@ -566,6 +566,55 @@ COMMON_CATACLYSM_BLACKSMITHING_RECIPES = applyclassicphase(CATA_PHASE_ONE, share
 		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
 		["timeline"] = { ADDED_4_4_2 },
 	})),
+	-- CRIEVE NOTE: These were repurposed from the Vicious versions and renamed to Bloodthirsty for Cata Classic in Phase 4. For Cata Classic Classic, might need to update the phase ID.
+	i(66127, {	-- Plans: Bloodthirsty Ornate Pyrium Belt (RECIPE!)
+		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
+	}),
+	i(66128, {	-- Plans: Bloodthirsty Ornate Pyrium Boots (RECIPE!)
+		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
+	}),
+	i(66125, {	-- Plans: Bloodthirsty Ornate Pyrium Bracers (RECIPE!)
+		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
+	}),
+	i(66132, {	-- Plans: Bloodthirsty Ornate Pyrium Breastplate (RECIPE!)
+		["cost"] = {{ "i", PYRIUM, 5 }},
+	}),
+	i(66126, {	-- Plans: Bloodthirsty Ornate Pyrium Gauntlets (RECIPE!)
+		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
+	}),
+	i(66131, {	-- Plans: Bloodthirsty Ornate Pyrium Helm (RECIPE!)
+		["cost"] = {{ "i", PYRIUM, 5 }},
+	}),
+	i(66130, {	-- Plans: Bloodthirsty Ornate Pyrium Legguards (RECIPE!)
+		["cost"] = {{ "i", PYRIUM, 5 }},
+	}),
+	i(66129, {	-- Plans: Bloodthirsty Ornate Pyrium Shoulders (RECIPE!)
+		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
+	}),
+	i(66119, {	-- Plans: Bloodthirsty Pyrium Belt (RECIPE!)
+		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
+	}),
+	i(66120, {	-- Plans: Bloodthirsty Pyrium Boots (RECIPE!)
+		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
+	}),
+	i(66117, {	-- Plans: Bloodthirsty Pyrium Bracers (RECIPE!)
+		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
+	}),
+	i(66124, {	-- Plans: Bloodthirsty Pyrium Breastplate (RECIPE!)
+		["cost"] = {{ "i", PYRIUM, 5 }},
+	}),
+	i(66118, {	-- Plans: Bloodthirsty Pyrium Gauntlets (RECIPE!)
+		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
+	}),
+	i(66123, {	-- Plans: Bloodthirsty Pyrium Helm (RECIPE!)
+		["cost"] = {{ "i", PYRIUM, 5 }},
+	}),
+	i(66122, {	-- Plans: Bloodthirsty Pyrium Legguards (RECIPE!)
+		["cost"] = {{ "i", PYRIUM, 5 }},
+	}),
+	i(66121, {	-- Plans: Bloodthirsty Pyrium Shoulders (RECIPE!)
+		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
+	}),
 	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(238139, {	-- Plans: Ornate Pyrium Belt (RECIPE!)
 		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
 		["timeline"] = { ADDED_4_4_2 },
@@ -662,103 +711,56 @@ COMMON_CATACLYSM_BLACKSMITHING_RECIPES = applyclassicphase(CATA_PHASE_ONE, share
 		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
 		["timeline"] = { ADDED_4_4_2 },
 	})),
-	-- #endif
+	-- #else
 	i(66127, {	-- Plans: Vicious Ornate Pyrium Belt (RECIPE!)
 		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66128, {	-- Plans: Vicious Ornate Pyrium Boots (RECIPE!)
 		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66125, {	-- Plans: Vicious Ornate Pyrium Bracers (RECIPE!)
 		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66132, {	-- Plans: Vicious Ornate Pyrium Breastplate (RECIPE!)
 		["cost"] = {{ "i", PYRIUM, 5 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66126, {	-- Plans: Vicious Ornate Pyrium Gauntlets (RECIPE!)
 		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66131, {	-- Plans: Vicious Ornate Pyrium Helm (RECIPE!)
 		["cost"] = {{ "i", PYRIUM, 5 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66130, {	-- Plans: Vicious Ornate Pyrium Legguards (RECIPE!)
 		["cost"] = {{ "i", PYRIUM, 5 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66129, {	-- Plans: Vicious Ornate Pyrium Shoulders (RECIPE!)
 		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66119, {	-- Plans: Vicious Pyrium Belt (RECIPE!)
 		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66120, {	-- Plans: Vicious Pyrium Boots (RECIPE!)
 		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66117, {	-- Plans: Vicious Pyrium Bracers (RECIPE!)
 		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66124, {	-- Plans: Vicious Pyrium Breastplate (RECIPE!)
 		["cost"] = {{ "i", PYRIUM, 5 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66118, {	-- Plans: Vicious Pyrium Gauntlets (RECIPE!)
 		["cost"] = {{ "i", ELEMENTIUM_BAR, 20 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66123, {	-- Plans: Vicious Pyrium Helm (RECIPE!)
 		["cost"] = {{ "i", PYRIUM, 5 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66122, {	-- Plans: Vicious Pyrium Legguards (RECIPE!)
 		["cost"] = {{ "i", PYRIUM, 5 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
 	i(66121, {	-- Plans: Vicious Pyrium Shoulders (RECIPE!)
 		["cost"] = {{ "i", HARDENED_ELEMENTIUM_BAR, 2 }},
-		-- #if ANYCLASSIC
-		["timeline"] = { ADDED_4_0_3, REMOVED_4_4_2 },
-		-- #endif
 	}),
+	-- #endif
 }));
 MOP_BLACKSMITHING = applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	r(110396, {	-- Blacksmithing (Zen Master)
