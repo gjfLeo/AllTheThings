@@ -3304,9 +3304,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(50382, {	-- Brundall Chiselgut <Metal Trader>
 					["coord"] = { 79.0, 76.6, TWILIGHT_HIGHLANDS },
 					["races"] = ALLIANCE_ONLY,
-					["sym"] = {
-						{"sub", "common_recipes_vendor", 3356},	-- Sumi <Blacksmithing Supplies>
-					},
+					-- #if AFTER 4.3.0
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					-- #endif
 				}),
 				-- #if BEFORE 6.0.2
 				n(49703, {	-- Casandra Downs <Alchemy & Inscription Supplies>

@@ -5786,7 +5786,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 56.3, 17.2, STORMWIND_CITY },
 						-- #endif
 					},
-					["sym"] = {{ "sub", "common_recipes_vendor", 3356 }},	-- Sumi <Blacksmithing Supplies>
+					-- #if AFTER 4.3.0
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
+					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(12162, {	-- Plans: Hardened Iron Shortsword (RECIPE!)

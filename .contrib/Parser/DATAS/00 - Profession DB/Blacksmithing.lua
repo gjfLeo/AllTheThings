@@ -951,6 +951,45 @@ i(72014, 101929);	-- Soul Redeemer Bracers
 i(72016, 101932);	-- Titanguard Wristplates
 i(72012, 101925);	-- Unstoppable Destroyer's Legplates
 
+-- #if ANYCLASSIC
+-----------------
+-- PATCH 4.4.2 --
+-----------------
+--- ITEM ---
+i(238131, 1224226);	-- Bloodied Pyrium Belt
+i(238132, 1224227);	-- Bloodied Pyrium Boots
+i(238129, 1224224);	-- Bloodied Pyrium Bracers
+i(238136, 1224231);	-- Bloodied Pyrium Breastplate
+i(238130, 1224225);	-- Bloodied Pyrium Gauntlets
+i(238135, 1224230);	-- Bloodied Pyrium Helm
+i(238134, 1224229);	-- Bloodied Pyrium Legguards
+i(238133, 1224228);	-- Bloodied Pyrium Shoulders
+i(238139, 1224234);	-- Ornate Pyrium Belt
+i(238140, 1224235);	-- Ornate Pyrium Boots
+i(238137, 1224232);	-- Ornate Pyrium Bracers
+i(238144, 1224239);	-- Ornate Pyrium Breastplate
+i(238138, 1224233);	-- Ornate Pyrium Gauntlets
+i(238143, 1224238);	-- Ornate Pyrium Helm
+i(238142, 1224237);	-- Ornate Pyrium Legguards
+i(238141, 1224236);	-- Ornate Pyrium Shoulders
+i(238084, 1224178);	-- Vicious Ornate Pyrium Belt
+i(238085, 1224179);	-- Vicious Ornate Pyrium Boots
+i(238082, 1224180);	-- Vicious Ornate Pyrium Bracers
+i(238089, 1224181);	-- Vicious Ornate Pyrium Breastplate
+i(238083, 1224182);	-- Vicious Ornate Pyrium Gauntlets
+i(238088, 1224183);	-- Vicious Ornate Pyrium Helm
+i(238087, 1224184);	-- Vicious Ornate Pyrium Legguards
+i(238086, 1224185);	-- Vicious Ornate Pyrium Shoulders
+i(238076, 1224186);	-- Vicious Pyrium Belt
+i(238077, 1224187);	-- Vicious Pyrium Boots
+i(238074, 1224188);	-- Vicious Pyrium Bracers
+i(238081, 1224189);	-- Vicious Pyrium Breastplate
+i(238075, 1224190);	-- Vicious Pyrium Gauntlets
+i(238080, 1224191);	-- Vicious Pyrium Helm
+i(238079, 1224192);	-- Vicious Pyrium Legguards
+i(238078, 1224193);	-- Vicious Pyrium Shoulders
+-- #endif
+
 -----------------
 -- PATCH 5.0.4 --
 -----------------

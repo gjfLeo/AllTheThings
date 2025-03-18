@@ -2194,8 +2194,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(4259, {	-- Thurgrum Deepforge <Blacksmithing Supplies>
 					["coord"] = { 51.8, 41.2, IRONFORGE },
-					-- #if AFTER CATA
-					["sym"] = { {"sub", "common_recipes_vendor", 3356} },	-- Sumi <Blacksmithing Supplies>
+					-- #if AFTER 4.3.0
+					["sym"] = {{ "sub", "common_recipes_vendor", 55684 }},	-- Jordan Smith <Blacksmithing Trainer & Supplies>
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
 				}),
