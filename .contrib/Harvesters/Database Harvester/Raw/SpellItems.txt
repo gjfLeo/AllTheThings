@@ -2828,6 +2828,8 @@
 7883@@@Spell Damage +$1220735M1 and +$1220735M3% Critical Strike
 7884@@@Attack Power +$1220743M3 and +$1220743M2% Critical Strike
 7885@@@Stamina +$1220754s2 and Defense +$1220754s3
+1.15.6.58725
+7896@@@+200 Attack Power vs Undead
 2.0.0.6080
 13@@@Sharpened (+3 Damage)
 14@@@Sharpened (+4 Damage)
