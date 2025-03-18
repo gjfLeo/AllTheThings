@@ -19135,12 +19135,48 @@
 198511@@@Troubled Tome
 198522@@@Off-Duty Defender
 198543@@@Pinkie
+10.0.0.45970
+183638@@@Ichabod
+187423@@@Neltharion
+187632@@@Winter Queen
+190754@@@Wrathion & Sabellian
+191499@@@Blacktalon Avenger
+191502@@@Sabellian
+191504@@@Sabellian
+191505@@@Armored Magmammoth Mount
+191514@@@Wrathion
+191522@@@Baskilan
+192734@@@Osoria
+192735@@@Evorian
+193185@@@Champion Ugi
+193186@@@Blacktalon Sentry
+193191@@@Champion Ugi's Mount
+193213@@@Zepharion
+193617@@@Keeper Tyr
+194542@@@Alexstrasza the Life-Binder
+194546@@@Wrathion
+196923@@@Nozdormu
+197089@@@Titan-Touched Elemental
+198158@@@Sabellian & Wrathion
+198317@@@Invisible Bunny (IGC)
+198318@@@Emmigosa
+198319@@@Eragosa
+198320@@@Senegos
+198321@@@Stellagosa
+198322@@@Tharkago
+198323@@@Vexalgos
+198324@@@Kalecgos
+198325@@@Raszageth
+198327@@@Archmage Khadgar
+198336@@@Chromie
+198338@@@Nozdormu
+198704@@@Wizened Stormrider
+198754@@@Ferocious Tarasek
 10.0.2.45779
 185616@@@Kalecgos
 186328@@@Fiery Carver
 189117@@@Phoenix Wishwing
 193842@@@Arcane Disc
-197089@@@Titan-Touched Elemental
 198591@@@Nokhud Brute
 198597@@@Sendrax
 198608@@@Tracker Dragon Glyph
@@ -19196,14 +19232,11 @@
 198692@@@Tracker Dragon Glyph
 198693@@@Tracker Dragon Glyph
 198701@@@Dragonflight Reputation Catch-Up Credit
-198704@@@Wizened Stormrider
 198717@@@Proto-Drake
-198754@@@Ferocious Tarasek
 10.0.2.45969
 188756@@@Potion Cauldron of Ultimate Power |A:Professions-Icon-Quality-Tier1-Small:20:20|a
 188839@@@Potion Cauldron of Ultimate Power |A:Professions-Icon-Quality-Tier2-Small:20:20|a
 188841@@@Potion Cauldron of Ultimate Power |A:Professions-Icon-Quality-Tier3-Small:20:20|a
-191504@@@Sabellian
 193630@@@Qalashi Magmammoth
 198790@@@Sailor Oldenhook
 198825@@@Sailor Strongline
@@ -19218,18 +19251,6 @@
 10.0.2.46259
 187491@@@Pond Duckling
 187671@@@Treeflitter
-190754@@@Wrathion & Sabellian
-191499@@@Blacktalon Avenger
-191502@@@Sabellian
-191505@@@Armored Magmammoth Mount
-191514@@@Wrathion
-191522@@@Baskilan
-192734@@@Osoria
-192735@@@Evorian
-193185@@@Champion Ugi
-193186@@@Blacktalon Sentry
-193191@@@Champion Ugi's Mount
-193213@@@Zepharion
 195585@@@Stormbound Proto-Drake
 196757@@@Black Drake
 196785@@@Red Drake
@@ -19238,7 +19259,6 @@
 197089@@@Sophic Amalgamation
 197656@@@Blue Drake
 197659@@@Blue Drake
-198158@@@Sabellian & Wrathion
 199316@@@Time-Lost Devilsaur
 199317@@@Bronze Sentry
 199335@@@Zepharion
@@ -19262,32 +19282,13 @@
 199724@@@Howling Wind
 199725@@@Emerald Drake
 10.0.2.46781
-183638@@@Ichabod
 10.0.2.46879
-194542@@@Alexstrasza the Life-Binder
-194546@@@Wrathion
-198317@@@Invisible Bunny (IGC)
-198318@@@Emmigosa
-198319@@@Eragosa
-198320@@@Senegos
-198321@@@Stellagosa
-198322@@@Tharkago
-198323@@@Vexalgos
-198324@@@Kalecgos
-198325@@@Raszageth
-198327@@@Archmage Khadgar
-198336@@@Chromie
-198338@@@Nozdormu
 198625@@@Sindragosa
 198929@@@Invisible Bunny (IGC)
 199707@@@Saltfin Swimmer
 201041@@@Windsage Garuman
 10.0.2.46924
-193617@@@Keeper Tyr
-196923@@@Nozdormu
 10.0.2.46999
-187423@@@Neltharion
-187632@@@Winter Queen
 199585@@@Emerald Dragon
 199647@@@Vermera
 199648@@@Viranikus

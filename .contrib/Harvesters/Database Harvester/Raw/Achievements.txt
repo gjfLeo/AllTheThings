@@ -10972,6 +10972,8 @@
 16679@@@Adventurer of Thaldraszus
 16681@@@10.0 Dragonflight - Expansion Quest Launch (Return to Docks)
 16683@@@In Tyr's Footsteps
+10.0.0.45970
+15640@@@Return to Darkness
 10.0.2.45779
 14613@@@<Hidden> Chromie Time - Hit 59 While In Chromie Time
 14615@@@<Hidden> Chromie Time - Hit 60 While In Chromie Time
@@ -11351,7 +11353,6 @@
 10.0.2.46999
 16493@@@Petty Theft Mammoth
 10.0.2.47067
-15640@@@Return to Darkness
 10.0.2.47213
 17339@@@Legend: Dragonflight Season 1
 10.0.2.47631

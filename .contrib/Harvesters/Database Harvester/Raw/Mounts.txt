@@ -1592,6 +1592,11 @@
 394218@@@Sapphire Vorquin
 394219@@@Bronze Vorquin
 394220@@@Obsidian Vorquin
+10.0.0.45970
+315132@@@Gargantuan Grrloc
+369451@@@Jade, Bright Foreseer
+369476@@@Amalgam of Rage
+381529@@@Telix the Stormhorn
 10.0.2.45779
 377071@@@Crimson Gladiator's Drake
 394737@@@Vicious Sabertooth
@@ -1603,8 +1608,6 @@
 10.0.2.46259
 376873@@@Otto
 10.0.2.46420
-315132@@@Gargantuan Grrloc
-381529@@@Telix the Stormhorn
 10.0.2.46781
 384963@@@Guardian Vorquin
 10.0.2.46879
@@ -1616,9 +1619,7 @@
 376913@@@Yellow War Ottuk
 385738@@@Temperamental Skyclaw
 10.0.2.46999
-369476@@@Amalgam of Rage
 10.0.2.47120
-369451@@@Jade, Bright Foreseer
 10.0.2.47631
 10.0.5.47871
 366647@@@Magenta Cloud Serpent
