@@ -2104,3 +2104,5 @@
 466025@@@Margin Manipulator
 473188@@@Bronze Goblin Waveshredder
 1221694@@@Enterprising Shreddertank
+11.1.0.58731
+466027@@@Darkfuse Spy-Eye
