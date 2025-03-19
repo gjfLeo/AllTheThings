@@ -15846,3 +15846,6 @@
 41799@@@<DNT> The One-Armed Bandit defeated
 41800@@@<DNT> Mug'Zee, Heads of Security defeated
 41801@@@<DNT> Chrome King Gallywix defeated
+11.1.0.59538
+41968@@@Copious Coffers (copy)
+41969@@@The Key to Madness (copy)
