@@ -15837,3 +15837,12 @@
 41790@@@Runed Undermine Crests earned
 41791@@@Gilded Undermine Crests earned
 41793@@@[HIDDEN] Renown 20 with Gallagio Loyalty Rewards / Teach Raid Teleport Spell
+11.1.0.59347
+41794@@@<DNT> Vexie and the Geargrinders defeated
+41795@@@<DNT> Cauldron of Carnage defeated
+41796@@@<DNT> Rik Reverb defeated
+41797@@@<DNT> Stix Bunkjunker defeated
+41798@@@<DNT> Sprocketmonger Lockenstock defeated
+41799@@@<DNT> The One-Armed Bandit defeated
+41800@@@<DNT> Mug'Zee, Heads of Security defeated
+41801@@@<DNT> Chrome King Gallywix defeated
