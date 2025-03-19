@@ -15525,6 +15525,9 @@
 41683@@@Khaz Algar Safari (copy)
 11.0.7.58911
 41752@@@<DNT> Plunderstorm Plunder Tracker - Mainline Power Rewards
+11.0.7.59302
+41807@@@11.0.7 Plunderstorm - Mainline Power Reward - Fixup Achievement
+41816@@@[DNT] 11.0.7 Plunderstorm - Mainline Power Reward - Fixup Quest Tracker
 11.1.0.58221
 40103@@@My First Nemesis
 40433@@@Let Me Solo Him: Zekvir
