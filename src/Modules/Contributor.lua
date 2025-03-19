@@ -648,6 +648,7 @@ MobileDB.GameObject = {
 	[381214] = true,	-- Frigid Hochenblume
 	[381515] = true,	-- Hardened Serevite Deposit
 	[381519] = true,	-- Infurious Serevite Deposit
+	[382284] = true,	-- Mature Gift of the Grove [Dragon Isle Resources]
 	[383732] = true,	-- Tuskarr Tacklebox
 	[386521] = true,	-- Toxin Antidote
 	[387725] = true,	-- Glowing Crystal (q:74518)

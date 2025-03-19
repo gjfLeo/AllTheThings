@@ -469,13 +469,14 @@ function ATTcheckawquests()
 	local function scan()
 		for i=cur,lim do
 			if not awdb[i] and isaw(i) then
+				app.print("NEW AW-Quest!",i)
 				aw[i] = true
 			end
 		end
 		app.PrintDebug("scanned thru",lim)
 		cur = lim + 1
 		lim = lim + step
-		if lim > 87000 then return end
+		if lim > 95000 then return end
 		dc(scan, 1)
 	end
 	scan()
