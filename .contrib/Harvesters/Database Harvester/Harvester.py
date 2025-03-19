@@ -122,8 +122,39 @@ def build_profession_dict() -> dict[str, list[str]]:
     profession_dict["Runeforging"] = ["776", "960"]
     return profession_dict
 
+def read_file_in_order(file_path: str) -> list[str]:
+    with open(file_path, 'r') as file:
+        return [line.strip() for line in file.readlines()]
 
 """Programme"""
+
+
+def check_build_difference() -> None:
+    """Check difference between two text files (dropdown options from wago and whats currently in Builds.txt)"""
+    # Paths to your dropdown-options.txt and Builds.txt files
+    dropdown_file_path = 'dropdown-options.txt'  # Adjust this path if needed
+    builds_file_path = 'Builds.txt'              # Adjust this path if needed
+    output_file_path = 'comparison_result.txt'   # The file where the results will be written
+
+    # Read the contents of both files in their original order
+    dropdown_options = read_file_in_order(dropdown_file_path)
+    builds_options = read_file_in_order(builds_file_path)
+
+    # Find items that are in dropdown-options.txt but not in Builds.txt
+    in_dropdown_not_in_builds = [item for item in dropdown_options if item not in builds_options]
+
+    # Find items that are in Builds.txt but not in dropdown-options.txt
+    in_builds_not_in_dropdown = [item for item in builds_options if item not in dropdown_options]
+
+    # Write the results to a new file
+    with open(output_file_path, 'w') as output_file:
+        output_file.write("Items in dropdown-options.txt but not in Builds.txt:\n")
+        for item in in_dropdown_not_in_builds:
+            output_file.write(f"{item}\n")
+
+        output_file.write("\nItems in Builds.txt but not in dropdown-options.txt:\n")
+        for item in in_builds_not_in_dropdown:
+            output_file.write(f"{item}\n")
 
 
 def get_thing_table(thing: type[Thing], build: str) -> list[str]:
