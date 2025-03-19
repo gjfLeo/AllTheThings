@@ -10151,10 +10151,16 @@
 133089@@@Rehgar Earthfury (IGC)
 133090@@@Ritssyn Flamescowl (IGC)
 133091@@@Eitrigg (IGC)
-7.3.5.25928
+7.3.5.25678
 132371@@@General Purpose Stalker
-133012@@@Magni Bronzebeard
 133064@@@Silithid Mini-Tank
+133086@@@Lady Liadrin (IGC)
+133224@@@Beetle
+133312@@@Nighthold Protector - IGC
+133342@@@Allied Race
+133344@@@Magister Umbric (IGC)
+7.3.5.25928
+133012@@@Magni Bronzebeard
 133080@@@Highlord Darion Mograine
 133081@@@Kor'vas Bloodthorn
 133082@@@Rensar Greathoof
@@ -10167,10 +10173,6 @@
 133089@@@Rehgar Earthfury
 133090@@@Ritssyn Flamescowl
 133091@@@Eitrigg
-133224@@@Beetle
-133312@@@Nighthold Protector - IGC
-133342@@@Allied Race
-133344@@@Magister Umbric (IGC)
 133387@@@Magni Bronzebeard
 133388@@@Magni Bronzebeard
 133395@@@Magni Bronzebeard

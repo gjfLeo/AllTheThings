@@ -435,8 +435,9 @@
 370@@@Demonic Gladiator %s
 7.3.5.25632
 372@@@Courier %s
-7.3.5.25928
+7.3.5.25678
 372@@@Postmaster %s
+7.3.5.25928
 373@@@Prospector %s
 8.0.1.25902
 371@@@%s, No Good, Dirty, Rotten, Candy Stealer!

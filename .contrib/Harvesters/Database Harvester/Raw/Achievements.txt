@@ -7136,11 +7136,12 @@
 12429@@@Wetlands Quests
 12430@@@Duskwood Quests
 12431@@@Priority Mail
+7.3.5.25678
+12431@@@Post Haste
+12439@@@Priority Mail
 7.3.5.25928
 11989@@@Forbidden Descent
 11990@@@Hope's End
-12431@@@Post Haste
-12439@@@Priority Mail
 12445@@@Allied Races: Highmountain Tauren Unlock Requirements
 12446@@@Allied Races: Nightborne Unlock Requirements
 12447@@@Allied Races: Void Elf Unlock Requirements
