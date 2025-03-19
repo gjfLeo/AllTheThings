@@ -29,6 +29,7 @@ local Things = {
 	"Titles",
 	"Toys",
 	"Transmog",
+	--"WarbandScenes",
 }
 local GeneralSettingsBase = {
 	__index = {
@@ -81,6 +82,7 @@ local GeneralSettingsBase = {
 		["Thing:Titles"] = true,
 		["Thing:Toys"] = true,
 		["Thing:Transmog"] = app.GameBuildVersion >= 40000,
+		--["Thing:WarbandScenes"] = app.GameBuildVersion >= 110100,
 		["DeathTracker"] = app.GameBuildVersion < 40000,
 		["Only:RWP"] = app.GameBuildVersion < 40000,
 		["Skip:AutoRefresh"] = false,

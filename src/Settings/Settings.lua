@@ -74,6 +74,7 @@ settings.ForceAccountWide = {
 	RuneforgeLegendaries = true,
 	Toys = true,
 	Transmog = true,
+	--WarbandScene = app.GameBuildVersion >= 110100,
 }
 settings.RequiredForInsaneMode = {
 	Achievements = true,
@@ -98,6 +99,7 @@ settings.RequiredForInsaneMode = {
 	Titles = true,
 	Toys = true,
 	Transmog = app.GameBuildVersion >= 40000,
+	--WarbandScene = app.GameBuildVersion >= 110100,
 }
 
 if app.GameBuildVersion >= 90000 then
