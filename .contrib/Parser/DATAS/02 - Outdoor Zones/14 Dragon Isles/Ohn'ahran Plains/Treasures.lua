@@ -109,6 +109,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			o(378088, {	-- Crystalline Flower
 				["description"] = "You need 5 flowers, but only 2 can be up at any given time. Realmhop recommended.\n\n",
 				["coords"] = {
+					{ 27.2, 45.6, OHNAHRAN_PLAINS },
 					{ 26.61, 48.76, OHNAHRAN_PLAINS },
 					{ 26.86, 47.33, OHNAHRAN_PLAINS },
 					{ 27.58, 52.76, OHNAHRAN_PLAINS },
