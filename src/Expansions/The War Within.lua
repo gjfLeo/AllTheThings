@@ -6,7 +6,7 @@ local C_WarbandScene_HasWarbandScene, C_WarbandScene_GetWarbandSceneEntry
 	= C_WarbandScene.HasWarbandScene, C_WarbandScene.GetWarbandSceneEntry;
 
 if app.GameBuildVersion < 110100 then
-	app.CreateWarbandScene = app.CreateUnimplementedClass("WarbandScene", "warbandsceneID");
+	app.CreateWarbandScene = app.CreateUnimplementedClass("WarbandScene", "warbandSceneID");
 	return
 end
 
