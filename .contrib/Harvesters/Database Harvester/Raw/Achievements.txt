@@ -15958,3 +15958,29 @@
 41966@@@Mastering the Visions
 41967@@@Gift of the Titans Unlocked <Hidden>
 41971@@@Through the Looking Glass
+11.1.5.59651
+41948@@@Defeat the Dastardlies
+41949@@@Defeat the Dastardlies
+41950@@@Defeat the Dastardlies
+41951@@@Defeat the Dastardlies
+41952@@@Defeat the Dastardlies
+41983@@@Memento Mania
+41986@@@Highest Score
+41987@@@Highest Kill Score
+41988@@@Highest Time Score
+41989@@@Highest Survival Score
+41990@@@Total Killl Score
+41991@@@Total Gears Grabbed
+41992@@@Total Goblin Zappers Killed
+41993@@@Total Pyro Machines Destroyed
+41994@@@Total Tombstones
+41995@@@Boot Hill
+41996@@@I'm Doing My Part
+41997@@@Owner of a Radiant Heart
+41998@@@Turning the Venom Tide
+41999@@@Fighter of the Nightman
+42000@@@Total Props Destroyed
+42001@@@Total Runs Completed
+42002@@@Bullhorn of Plenty
+42003@@@Bullhorn of More Plenty
+42004@@@Bullhorn of Most Plenty
