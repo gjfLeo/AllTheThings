@@ -1,0 +1,65 @@
+name: Parser - with objective in retail
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on each push event
+  # push:
+  #   paths:
+  #     - '.contrib/Parser/**'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Database Parser for Retail with objective
+        timeout-minutes: 5
+        run: |
+          cd .contrib/Parser
+          "Parser.exe" baseconfig=.config/retail/retail.config config=.config/retail/objectives.config
+        shell: cmd
+
+      - name: Database Parser for Classic Era
+        timeout-minutes: 5
+        run: |
+          cd .contrib/Parser
+          "Parser.exe" auto config=".config/classic/01 - Classic Era.config"
+        shell: cmd
+
+      - name: Database Parser for Season of Discovery
+        timeout-minutes: 5
+        run: |
+          cd .contrib/Parser
+          "Parser.exe" auto config=".config/classic/01 - Classic SOD.config"
+        shell: cmd
+
+      - name: Database Parser for The Burning Crusade
+        timeout-minutes: 5
+        run: |
+          cd .contrib/Parser
+          "Parser.exe" auto config=".config/classic/02 - TBC.config"
+        shell: cmd
+
+      - name: Database Parser for Wrath of the Lich King
+        timeout-minutes: 5
+        run: |
+          cd .contrib/Parser
+          "Parser.exe" auto config=".config/classic/03 - Wrath.config"
+        shell: cmd
+
+      - name: Database Parser for Cataclysm
+        timeout-minutes: 5
+        run: |
+          cd .contrib/Parser
+          "Parser.exe" auto config=".config/classic/04 - Cataclysm.config"
+        shell: cmd
+
+      - uses: actions/upload-artifact@v4
+        with:
+            name: db  # Artifact name
+            path: db/  # File path to upload
+            retention-days: 7
