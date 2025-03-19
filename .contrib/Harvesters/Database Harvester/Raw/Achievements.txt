@@ -11361,44 +11361,27 @@
 17339@@@Legend: Dragonflight Season 1
 10.0.2.47631
 17365@@@<Hidden> 10.0 Professions Onboarding Skip Completed [DNT]
-10.0.5.47871
-15657@@@Dragon Isles Blacksmithing 75 (DNT)
-15660@@@Dragon Isles Alchemy 75 (DNT)
-15863@@@Dragon Isles Enchanting 75 (DNT)
-15866@@@Dragon Isles Engineering 75 (DNT)
-15869@@@Dragon Isles Herbalism 75 (DNT)
-15872@@@Dragon Isles Inscription 75 (DNT)
-15875@@@Dragon Isles Jewelcrafting 75 (DNT)
-15878@@@Dragon Isles Leatherworking 60 (DNT)
-15881@@@Dragon Isles Mining 75 (DNT)
-15884@@@Dragon Isles Skinning 75 (DNT)
-15887@@@Dragon Isles Tailoring 75 (DNT)
-16109@@@Dragon Isles Leatherworking 75 (DNT)
-16662@@@Dragon Isles Blacksmithing 60 (DNT)
-16663@@@Dragon Isles Tailoring 60 (DNT)
-16664@@@Dragon Isles Jewelcrafting 60 (DNT)
-16665@@@Dragon Isles Engineering 60 (DNT)
+10.0.5.47118
 16696@@@Renewed Proto-Drake Armor
-16697@@@Renewed Proto-Drake Head Features
-16698@@@Renewed Proto-Drake Tail Features
+16697@@@Renewed Proto-Drake Head
+16698@@@Renewed Proto-Drake Tail
 16699@@@Renewed Proto-Drake Scales and Patterns
 16700@@@Renewed Proto-Drake Horns and Hair
 16701@@@Windborne Velocidrake Scales and Patterns
 16702@@@Windborne Velocidrake Armor
 16704@@@Windborne Velocidrake Horns and Fur
-16705@@@Windborne Velocidrake Head Features
+16705@@@Windborne Velocidrake Head
 16706@@@Windborne Velocidrake Back and Tail
 16707@@@Highland Drake Scales and Patterns
 16708@@@Highland Drake Armor
 16710@@@Highland Drake Horns and Hair
 16711@@@Highland Drake Back and Tail
-16712@@@Highland Drake Head Features
+16712@@@Highland Drake Head
 16723@@@Cliffside Wylderdrake Scales and Patterns
 16724@@@Cliffside Wylderdrake Armor
 16725@@@Cliffside Wylderdrake Horns and Manes
 16726@@@Cliffside Wylderdrake Back and Tail
-16727@@@Cliffside Wylderdrake Head Features
-16734@@@Crimson Legend: Dragonflight Season 1
+16727@@@Cliffside Wylderdrake Head
 16735@@@10.0.5 Trading Post - Tutorial Quest - Objective: Tenders Claimed - JZB <DND>
 16737@@@10.0.5 Trading Post - Tutorial Quest - Completed (Reward for Player) - JZB <DND>
 17120@@@Ruby Lifeshrine Loop Reverse: Bronze
@@ -11489,11 +11472,14 @@
 17205@@@Thaldraszus Reverse: Silver
 17206@@@Thaldraszus Reverse: Gold
 17207@@@Discombobberlated
-17305@@@Trading Post: Dragonflight
+17305@@@10.0.5 Trading Post - Dragonflight License (Bonus Tender Awarded) <DND>
 17310@@@10.0 Prologue - Storms - Dimmed Primeval Water
 17311@@@10.0 Prologue - Storms - Dimmed Primeval Fire
 17312@@@10.0 Prologue - Storms - Dimmed Primeval Earth
 17313@@@10.0 Prologue - Storms - Dimmed Primeval Storm
+17316@@@Dragon Isles Crafting Order Apprentice
+17317@@@Dragon Isles Crafting Order Journeyman
+17318@@@Dragon Isles Crafting Order Master
 17321@@@Elders of the Dragon Isles
 17330@@@Reverse Racer: Bronze
 17331@@@Reverse Racer: Silver
@@ -11501,6 +11487,30 @@
 17334@@@Trading Post Enthusiast
 17335@@@Airborne Tumbler
 17336@@@Airborne Tumbler
+10.0.5.47871
+15657@@@Dragon Isles Blacksmithing 75 (DNT)
+15660@@@Dragon Isles Alchemy 75 (DNT)
+15863@@@Dragon Isles Enchanting 75 (DNT)
+15866@@@Dragon Isles Engineering 75 (DNT)
+15869@@@Dragon Isles Herbalism 75 (DNT)
+15872@@@Dragon Isles Inscription 75 (DNT)
+15875@@@Dragon Isles Jewelcrafting 75 (DNT)
+15878@@@Dragon Isles Leatherworking 60 (DNT)
+15881@@@Dragon Isles Mining 75 (DNT)
+15884@@@Dragon Isles Skinning 75 (DNT)
+15887@@@Dragon Isles Tailoring 75 (DNT)
+16109@@@Dragon Isles Leatherworking 75 (DNT)
+16662@@@Dragon Isles Blacksmithing 60 (DNT)
+16663@@@Dragon Isles Tailoring 60 (DNT)
+16664@@@Dragon Isles Jewelcrafting 60 (DNT)
+16665@@@Dragon Isles Engineering 60 (DNT)
+16697@@@Renewed Proto-Drake Head Features
+16698@@@Renewed Proto-Drake Tail Features
+16705@@@Windborne Velocidrake Head Features
+16712@@@Highland Drake Head Features
+16727@@@Cliffside Wylderdrake Head Features
+16734@@@Crimson Legend: Dragonflight Season 1
+17305@@@Trading Post: Dragonflight
 17338@@@<Hidden> ACCOUNT: Veritistrasz Q2 Completed
 17342@@@The Future We Make
 17343@@@Drop It Like It's Hot

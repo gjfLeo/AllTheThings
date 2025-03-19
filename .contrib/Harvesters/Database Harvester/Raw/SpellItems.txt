@@ -11698,8 +11698,9 @@
 6384@@@Primal Razorstone
 10.0.2.46091
 10.0.2.46259
-10.0.5.47871
+10.0.5.47118
 6721@@@10.0.5 - Generic - Storm - Weapon Enchant - High - SK
+10.0.5.47871
 10.0.7.47910
 6379@@@Sharpened: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier1:20:20|a
 6380@@@Sharpened: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier2:20:20|a
