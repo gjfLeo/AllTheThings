@@ -791,7 +791,7 @@ root(ROOTS.Zones, {
 							}),
 						}),
 						prof(COOKING, {
-							i(43100, {	-- Infused Mushroom
+							i(43100, {	-- Infused Mushroom (QI!)
 								["provider"] = { "o", 192818 },	-- Infused Mushroom
 							}),
 						}),

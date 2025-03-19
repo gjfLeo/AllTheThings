@@ -108,7 +108,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["sourceQuests"] = { 61099 },	-- The Search for Baine
 					["provider"] = { "n", 164079 },	-- Highlord Bolvar Fordragon
 					["coord"] = { 39.9, 68.5, ORIBOS },
-					["maps"] = { 1627 },	-- Torghast
+					["maps"] = { TORGHAST },
 					["g"] = {
 						i(184758),	-- Drape of Inscrutable Purpose
 						i(184198),	-- Soul-Touched Key (QI!)
@@ -682,7 +682,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(65035, {	-- Return to Oribos
 				["sourceQuests"] = { 64850 },	-- Traversing Torghast
 				["provider"] = { "n", 181328 },	-- Ve'nish
-				["coord"] = { 35.5, 46.9, 1627 },
+				["coord"] = { 35.5, 46.9, 1911 },	-- Torghast - Entrance
 				["timeline"] = { ADDED_9_1_5, REMOVED_10_0_2 },
 				["lvl"] = { 48, 60 },
 			}),

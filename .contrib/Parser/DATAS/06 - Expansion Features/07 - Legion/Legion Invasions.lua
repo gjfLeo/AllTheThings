@@ -81,6 +81,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 44789 },	-- Holding the Ramparts
 						["repeatable"] = true,
 						["provider"] = { "n", 118250 },	-- Commander Jarod Shadowsong
+						["coord"] = { 44.0, 50.6, VALSHARAH },
 					}),
 					q(46110, {	-- Battle for Stormheim
 						["sourceQuests"] = { 45406 },	-- The Storm's Fury
@@ -97,6 +98,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 45812 },	-- Assault on Val'sharah
 						["repeatable"] = true,
 						["provider"] = { "n", 118183 },	-- Commander Jarod Shadowsong
+						["coord"] = { 39.0, 51.6, VALSHARAH },
 					}),
 					q(45795, {	-- Presence of Power
 						["sourceQuests"] = { 45838 },	-- Assault on Azsuna

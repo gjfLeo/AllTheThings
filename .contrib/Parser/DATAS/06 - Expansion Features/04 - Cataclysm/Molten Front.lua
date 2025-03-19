@@ -1257,7 +1257,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 				q(29305, {	-- Strike at the Heart (Stage 2: Into the Fire)
-					["qg"] = 52490,	-- Choluna
+					["qg"] = 52492,	-- Choluna <Druid of the Talon>
 					["sourceQuests"] = {
 						29283,	-- Calling the Ancients
 						29290,	-- Fire in the Skies
@@ -1266,7 +1266,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 						29288,	-- Starting Young
 					},
 					["sourceQuestNumRequired"] = 4,
-					["coord"] = { 43.2, 80.8, THE_MOLTEN_FRONT },
+					["coord"] = { 36.1, 56.2, THE_MOLTEN_FRONT },
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/1 Lieutenant of Flame slain

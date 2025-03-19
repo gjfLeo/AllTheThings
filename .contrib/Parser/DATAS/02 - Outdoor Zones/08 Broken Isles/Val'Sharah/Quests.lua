@@ -512,6 +512,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					},
 					["coord"] = { 43.7, 50.2, VALSHARAH },
 					["provider"] = { "n", 92842 },	-- Commander Jarod Shadowsong
+					["groups"] = { i(127863) },	-- Prison Keys (QI!)
 				}),
 				q(38724, {	-- Brotherly Love
 					["sourceQuests"] = { 38717 },		-- Black Rook Prison

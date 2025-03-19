@@ -23,7 +23,6 @@ root(ROOTS.Unsorted, {
 
 				-- Delves / Bountiful Season 2
 				i(235422),	-- Venture Co Seal
-				i(235484),	-- Razor-sharp Desk Fan
 			}),
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner

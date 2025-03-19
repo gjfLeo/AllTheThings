@@ -926,6 +926,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235495),	-- Missile Guided Throat Slitter
 						i(235485),	-- Oil Gouger
 						i(235492),	-- Oscillating Scrapcleaver
+						i(235484),	-- Razor-sharp Desk Fan
 						i(235488),	-- Rocket Taped to a Screwdriver
 						i(235486),	-- Springloaded Kneecap Breaker
 					})),
@@ -1423,6 +1424,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			--["sourceQuests"] = { xx },	-- ??
 			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 			["coord"] = { 47.6, 44.3, DORNOGAL },
+			["isBreadcrumb"] = true,
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		q(85242, {	-- Seasonal Refresher
@@ -1433,7 +1435,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["g"] = {
 				i(233281, {	-- Delver's Cosmetic Surprise Bag
 					-- it seems like give you as reward any cosmetic from s1 delves that wasn't looted before
-					-- was Shadowlit Haversack (itemID 225067) for me
 				}),
 				i(233276),	-- Delver's Starter Kit
 			},

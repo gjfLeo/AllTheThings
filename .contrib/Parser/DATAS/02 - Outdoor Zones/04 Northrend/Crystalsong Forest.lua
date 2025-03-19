@@ -32,7 +32,7 @@ root(ROOTS.Zones, {
 				}),
 				n(PROFESSIONS, {
 					prof(COOKING, {
-						i(43148, {	-- Crystalsong Carrot
+						i(43148, {	-- Crystalsong Carrot (QI!)
 							["provider"] = { "o", 192828 },	-- Crystalsong Carrot
 						}),
 					}),
