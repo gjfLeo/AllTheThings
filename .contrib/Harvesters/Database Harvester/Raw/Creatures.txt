@@ -22586,3 +22586,6 @@
 11.1.0.58945
 240137@@@Tock the Clocker Spaniel
 240528@@@Sound Stalker - 11.1 Amb - Undermine - Traffic Sound Stalker
+11.1.0.58999
+240761@@@Coastside Drill Control Panel
+240884@@@Brann Bronzebeard

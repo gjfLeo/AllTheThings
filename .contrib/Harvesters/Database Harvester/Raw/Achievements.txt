@@ -15826,3 +15826,14 @@
 41737@@@The War Within Season 2: Resilient Keystone 24
 41738@@@The War Within Season 2: Resilient Keystone 25
 41751@@@Delver's Dirigible Recovery
+11.1.0.58999
+41226@@@Maniacal Machinist
+41311@@@Stix Bunkjunker (Raid Finder Liberation of Undermine)
+41312@@@Stix Bunkjunker (Normal Liberation of Undermine)
+41313@@@Stix Bunkjunker (Heroic Liberation of Undermine)
+41314@@@Stix Bunkjunker (Mythic Liberation of Undermine)
+41786@@@Weathered Undermine Crests earned
+41789@@@Carved Undermine Crests earned
+41790@@@Runed Undermine Crests earned
+41791@@@Gilded Undermine Crests earned
+41793@@@[HIDDEN] Renown 20 with Gallagio Loyalty Rewards / Teach Raid Teleport Spell
