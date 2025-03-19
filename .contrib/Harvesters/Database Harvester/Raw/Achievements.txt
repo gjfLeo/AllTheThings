@@ -15849,3 +15849,112 @@
 11.1.0.59538
 41968@@@Copious Coffers (copy)
 41969@@@The Key to Madness (copy)
+11.1.5.59571
+41237@@@Visions - Trait Power 1
+41238@@@Visions - Trait Power 2
+41239@@@Visions - Trait Power 3
+41240@@@Visions - Trait Power 4
+41241@@@Visions - Trait Power 5
+41242@@@Visions - Trait Power 6
+41243@@@Visions - Trait Power 7
+41244@@@Visions - Trait Power 8
+41245@@@Visions - Trait Power 9
+41246@@@Visions - Trait Power 10
+41247@@@Visions - Trait Power 11
+41248@@@Visions - Trait Power 12
+41249@@@Visions - Trait Power 13
+41250@@@Visions - Trait Power 14
+41251@@@Visions - Trait Power 15
+41252@@@Visions - Stormwind - Clear Sight 1
+41253@@@Visions - Stormwind - Clear Sight 2
+41254@@@Visions - Stormwind - Clear Sight 3
+41255@@@Visions - Orgrimmar - Clear Sight 1
+41256@@@Visions - Orgrimmar - Clear Sight 2
+41257@@@Visions - Orgrimmar - Clear Sight 3
+41258@@@Visions - Stormwind - Experimental Destabilization 1
+41259@@@Visions - Stormwind - Experimental Destabilization 2
+41260@@@Visions - Stormwind - Experimental Destabilization 3
+41261@@@Visions - Orgrimmar - Experimental Destabilization 1
+41262@@@Visions - Orgrimmar - Experimental Destabilization 2
+41263@@@Visions - Orgrimmar - Experimental Destabilization 3
+41264@@@Visions - Stormwind - Vision Hunter 1
+41265@@@Visions - Stormwind - Vision Hunter 2
+41266@@@Visions - Stormwind - Vision Hunter 3
+41267@@@Visions - Orgrimmar - Vision Hunter 1
+41268@@@Visions - Orgrimmar - Vision Hunter 2
+41269@@@Visions - Orgrimmar - Vision Hunter 3
+41270@@@Visions - Stormwind - Elite Extermination 1
+41271@@@Visions - Stormwind - Elite Extermination 2
+41272@@@Visions - Stormwind - Elite Extermination 3
+41273@@@Visions - Orgrimmar - Elite Extermination 1
+41274@@@Visions - Orgrimmar - Elite Extermination 2
+41275@@@Visions - Orgrimmar - Elite Extermination 3
+41276@@@Visions - Orgrimmar - Steeled Mind - Thrall
+41277@@@Visions - Orgrimmar - Steeled Mind - Inquisitor Gnshal
+41278@@@Visions - Orgrimmar - Steeled Mind - Vez'okk the Lightless
+41279@@@Visions - Orgrimmar - Steeled Mind - Rexxar
+41280@@@Visions - Orgrimmar - Steeled Mind - Oblivion Elemental
+41281@@@Visions - Stormwind - Steeled Mind - Alleria Windrunner
+41282@@@Visions - Stormwind - Steeled Mind - Therum Deepforge
+41283@@@Visions - Stormwind - Steeled Mind - Magister Umbric
+41284@@@Visions - Stormwind - Steeled Mind - Overlord Mathias Shaw
+41285@@@Visions - Stormwind - Steeled Mind - Slavemaster Ul'rok
+41631@@@Flame Warden of Khaz Algar
+41632@@@Flame Keeper of Khaz Algar
+41700@@@Dastardly Duos Weekly Wins
+41706@@@Dastardly Duos Weekly High Score
+41707@@@Dastardly Devices
+41710@@@Faceless Mask of the Nemesis
+41715@@@Fiendishly Famous
+41716@@@Duo Darling
+41717@@@Duos Underdog
+41722@@@Inside Connections
+41725@@@We Have the Memories
+41810@@@Winner's Podium
+41853@@@Horrific Vision of Stormwind
+41854@@@The Even More Horrific Vision of Stormwind
+41855@@@The Most Horrific Vision of Stormwind
+41856@@@Faceless Mask of the Pained
+41857@@@Masked Soliloquy
+41858@@@Masked Sextet
+41859@@@Thanks For The Mementos
+41873@@@Incremental Progress
+41874@@@Symphony of Masks
+41875@@@Horrific Vision of Orgrimmar
+41876@@@The Even More Horrific Vision of Orgrimmar
+41879@@@The Most Horrific Vision of Orgrimmar
+41880@@@Faceless Mask of the Dark Imagination
+41881@@@Faceless Mask of the Burned Bridge
+41882@@@Faceless Mask of the Daredevil
+41883@@@Faceless Mask of the Long Night
+41884@@@Faceless Mask of Vengeance
+41885@@@Faceless Mask of Multitudes
+41889@@@Horrific Masquerade
+41890@@@Masked Duet
+41891@@@Masked Trio
+41893@@@Masked Quartet
+41894@@@Masked Septet
+41895@@@Orchestra of Masks
+41896@@@Memento Mori
+41897@@@A Monumental Amount of Mementos
+41898@@@A Mountain of Mementos
+41905@@@Center of Attention
+41916@@@My Way, The Highway
+41922@@@Undefeatable
+41928@@@Reeking of Visions
+41929@@@Through the Depths of Visions
+41930@@@Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
+41938@@@Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
+41946@@@Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
+41947@@@Greater Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
+41948@@@Defeat 2 Dastardlies
+41949@@@Defeat 4 Dastardlies
+41950@@@Defeat 6 Dastardlies (Week 3)
+41951@@@Defeat 8 Dastardlies (Week 4)
+41952@@@Defeat 10 Dastardlies (Week 6)
+41953@@@Mad World
+41964@@@Beyond the Most Horrific Vision of Stormwind
+41965@@@Beyond the Most Horrific Vision of Orgrimmar
+41966@@@Mastering the Visions
+41967@@@Gift of the Titans Unlocked <Hidden>
+41971@@@Through the Looking Glass

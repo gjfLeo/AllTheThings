@@ -22591,3 +22591,32 @@
 240884@@@Brann Bronzebeard
 11.1.0.59347
 241456@@@Sound Stalker - 11.1 Amb - Undermine - Traffic Sound Stalker
+11.1.5.59571
+198989@@@Thrrrdgl
+223691@@@Whoopy
+236382@@@Soridormi
+237850@@@Eye of Chaos
+237852@@@Void-Scarred Parrot
+237855@@@Void-Scarred Scorpid
+237856@@@Void-Scarred Tallstrider Chick
+238064@@@Scourge of the Aspects
+238159@@@Reek
+238178@@@Frumpy Softpaw
+238361@@@Time
+239362@@@Pascal the Wonder Pup
+239419@@@Monte Gazlowe
+240852@@@Lars Bronsmaelt
+240979@@@Vesper Churnmoat
+240994@@@Ada the Sweetest
+241029@@@Taryssa Lazuria
+241030@@@Marith Lazuria
+241150@@@The Wonder Pup
+241297@@@Mister Mans
+241346@@@Spicy Mean-Ball
+242407@@@Spindle
+242652@@@Swiftpaw
+242674@@@Anxious Hawkstrider Hatchling
+242675@@@Sneaky Lynx Cub
+242678@@@Tazkan
+242679@@@Friendly Saurolisk Hatchling
+242680@@@Helpful Rat Pup

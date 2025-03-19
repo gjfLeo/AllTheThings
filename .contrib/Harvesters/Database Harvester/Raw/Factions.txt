@@ -1117,3 +1117,6 @@
 11.1.0.58626
 2670@@@Venture Company (Paragon)
 2671@@@Venture Company
+11.1.5.59571
+2688@@@Flame's Radiance
+2689@@@Flame's Radiance (Paragon)

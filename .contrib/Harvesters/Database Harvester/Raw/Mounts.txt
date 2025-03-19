@@ -2119,3 +2119,27 @@
 473745@@@Meeksi Brewthief
 11.1.0.59490
 466020@@@Personalized Goblin S.C.R.A.P.per
+11.1.5.59571
+424601@@@Brown-Furred Spiky Bakar
+428068@@@Voidfire Deathcycle
+447189@@@Nesting Swarmite
+466013@@@Ochre Delivery Rocket
+1218229@@@Void-Scarred Gryphon
+1218305@@@Void-Forged Stallion
+1218306@@@Void-Scarred Pack Mother
+1218307@@@Void-Scarred Windrider
+1218314@@@Ny'alothan Shadow Worm
+1218316@@@Corruption of the Aspects
+1218317@@@Void-Crystal Panther
+1219705@@@Spotted Black Riding Goat
+1226421@@@Radiant Imperial Lynx
+1226511@@@Spring Harvesthog
+1226531@@@Summer Harvesthog
+1226532@@@Winter Harvesthog
+1226533@@@Autumn Harvesthog
+1226740@@@Lavaborn Azure Chimaera
+1226851@@@Lavaborn Emerald Chimaera
+1226855@@@Lavaborn Ruby Chimaera
+1226856@@@Lavaborn Citrine Chimaera
+1227076@@@Tyrannotort
+1228865@@@Void-Scarred Lynx

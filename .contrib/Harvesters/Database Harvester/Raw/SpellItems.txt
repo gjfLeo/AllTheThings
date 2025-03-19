@@ -12606,3 +12606,23 @@
 7652@@@+$k2 Agility/Strength/Intellect & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier1:20:20|a
 7653@@@+$k2 Agility/Strength/Intellect & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier2:20:20|a
 7654@@@+$k2 Agility/Strength/Intellect & +$k1 Stamina |A:Professions-ChatIcon-Quality-Tier3:20:20|a
+11.1.5.59571
+7052@@@|cnIQ4:Incandescent Essence|r
+7912@@@Twilight Devastation |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7913@@@Twilight Devastation |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7914@@@Twilight Devastation |A:Professions-ChatIcon-Quality-Tier3:20:20|a
+7915@@@Echoing Void |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7916@@@Echoing Void |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7917@@@Echoing Void |A:Professions-ChatIcon-Quality-Tier3:20:20|a
+7922@@@Infinite Stars |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7923@@@Infinite Stars |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7924@@@Infinite Stars |A:Professions-ChatIcon-Quality-Tier3:20:20|a
+7925@@@Gushing Wound |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7926@@@Gushing Wound |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7927@@@Gushing Wound |A:Professions-ChatIcon-Quality-Tier3:20:20|a
+7928@@@Twisted Appendage |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7929@@@Twisted Appendage |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7930@@@Twisted Appendage |A:Professions-ChatIcon-Quality-Tier3:20:20|a
+7931@@@Void Ritual |A:Professions-ChatIcon-Quality-Tier1:20:20|a
+7932@@@Void Ritual |A:Professions-ChatIcon-Quality-Tier2:20:20|a
+7933@@@Void Ritual |A:Professions-ChatIcon-Quality-Tier3:20:20|a

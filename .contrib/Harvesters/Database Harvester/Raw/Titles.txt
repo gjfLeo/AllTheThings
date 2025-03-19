@@ -819,3 +819,15 @@
 616@@@Part-Timer %s
 617@@@%s, "Employee" of the Month
 618@@@%s, the Reel Deal
+11.1.5.59571
+619@@@Recruit %s
+620@@@Reservist %s
+621@@@Field Sacredite %s
+622@@@Sentry %s
+623@@@Stalwart %s
+624@@@Ardent %s
+625@@@Aeroknight %s
+626@@@Flame Guard %s
+627@@@Radiant Officer %s
+628@@@Sacred Templar %s
+631@@@%s the Mad
