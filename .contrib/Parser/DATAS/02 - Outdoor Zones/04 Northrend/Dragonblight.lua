@@ -321,17 +321,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 59.0, 77.0, DRAGONBLIGHT },
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(FISHING, sharedData({ ["requireSkill"] = FISHING }, {
-						o(192053),	-- Deep Sea Monsterbelly School
-						o(192048),	-- Dragonfin Angelfish School
-						o(192052),	-- Imperial Manta Ray School
-						o(192054),	-- Moonglow Cuttlefish School
-					})),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(189973),	-- Goldclover
-					})),
-				}),
 				spell(921, {	-- Pickpocketing
 					["classes"] = { ROGUE },
 					["groups"] = {

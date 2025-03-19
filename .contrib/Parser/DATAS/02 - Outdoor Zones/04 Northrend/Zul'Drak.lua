@@ -189,11 +189,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 13.2, 66.8, ZULDRAK },
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(190170),	-- Talandra's Rose
-					})),
-				}),
 				n(QUESTS, {
 					q(12912, {	-- A Great Storm Approaches
 						["coord"] = { 19.7, 56.3, ZULDRAK },

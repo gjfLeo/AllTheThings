@@ -30,14 +30,11 @@ root(ROOTS.Zones, {
 					exploration(4556),	-- Violet Stand
 					exploration(4559),	-- Windrunner's Overlook
 				}),
-				prof(COOKING, {
-					i(43148, {	-- Crystalsong Carrot
-						["provider"] = { "o", 192828 },	-- Crystalsong Carrot
-					}),
-				}),
-				prof(FISHING, {
-					o(192059, {	-- Glassfin Minnow School
-						["requireSkill"] = FISHING,
+				n(PROFESSIONS, {
+					prof(COOKING, {
+						i(43148, {	-- Crystalsong Carrot
+							["provider"] = { "o", 192828 },	-- Crystalsong Carrot
+						}),
 					}),
 				}),
 				n(FLIGHT_PATHS, {

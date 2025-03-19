@@ -238,16 +238,6 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(FISHING, sharedData({ ["requireSkill"] = FISHING }, {
-						o(192050),	-- Glacial Salmon School
-						o(192052),	-- Imperial Manta Ray School
-					})),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(189973),	-- Goldclover
-						o(190169),	-- Tiger Lily
-					})),
-				}),
 				n(QUESTS, {
 					q(12138, {	-- ... Or Maybe We Don't (A)
 						["qg"] = 26883,	-- Raegar Breakbrow

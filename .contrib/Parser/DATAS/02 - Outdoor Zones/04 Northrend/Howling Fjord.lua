@@ -348,24 +348,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 28.6, 33.8, HOWLING_FJORD },
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(FISHING, {
-						i(44703, {	-- Dark Herring
-							["provider"] = { "o", 192049 },	-- Fangtooth Herring School
-						}),
-					}),
-					prof(FISHING, sharedData({ ["requireSkill"] = FISHING }, {
-						o(192053),	-- Deep Sea Monsterbelly School
-						o(192049),	-- Fangtooth Herring School
-						o(192052),	-- Imperial Manta Ray School
-						o(192054),	-- Moonglow Cuttlefish School
-						o(192052),	-- Northrend Angler
-					})),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(189973),	-- Goldclover
-						o(190169),	-- Tiger Lily
-					})),
-				}),
 				n(QUESTS, {
 					q(11476, {	-- A Carver and a Croaker
 						["qg"] = 24537,	-- Handsome Terry

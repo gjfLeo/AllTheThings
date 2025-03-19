@@ -1351,6 +1351,10 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 			30877,	-- Water Revenant
 		},
 		["description"] = "Most of the given maps, coordinates and sources applies for how to obtain this element's crystallised form.",
+		["providers"] = {
+			{ "o", 189978 },	-- Cobalt Deposit
+			{ "o", 189979 },	-- Rich Cobalt Deposit
+		},
 	}, {
 		i(37705),	-- Crystallized Water
 		i(35622),	-- Eternal Water

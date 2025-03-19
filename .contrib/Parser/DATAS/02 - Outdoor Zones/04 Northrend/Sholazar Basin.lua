@@ -301,34 +301,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 50.0, 61.4, SHOLAZAR_BASIN },
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(ENGINEERING, {
-						i(23821, {	-- Zapthrottle Mote Extractor
-							["groups"] = {
-								n(32544, {	-- Steam Cloud (Gas cloud)
-									["coord"] = { 66.0, 27.0, BOREAN_TUNDRA },	-- The Geyser Fields
-									["description"] = "Too few and far between to be reliably farmed on it's own.",
-									["maps"] = { SHOLAZAR_BASIN },	-- Danny Donkey: Because source path on creatures is broken in retail.
-									["requireSkill"] = ENGINEERING,
-								}),
-							},
-						}),
-					}),
-					prof(FISHING, {
-						o(192057, {	-- Nettlefish School
-							["requireSkill"] = FISHING,
-						}),
-						i(45902, {	-- Phantom Ghostfish
-							["description"] = "Eat this before it despawns!",
-							["_noautomation"] = true,
-						}),
-					}),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(191019),	-- Adder's Tongue
-						o(189973),	-- Goldclover
-						o(190169),	-- Tiger Lily
-					})),
-				}),
 				n(QUESTS, {
 					-- Frenzyheart Tribe
 					q(12758, {	-- A Hero's Headgear

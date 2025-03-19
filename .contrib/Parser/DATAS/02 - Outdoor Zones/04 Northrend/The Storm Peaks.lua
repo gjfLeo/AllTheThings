@@ -346,21 +346,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 44.4, 28.2, THE_STORM_PEAKS },
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(ENGINEERING, {
-						i(23821, {	-- Zapthrottle Mote Extractor
-							n(24879, {	-- Arctic Cloud (Gas cloud)
-								["description"] = "Too few and far between to be reliably farmed on it's own.",
-								["maps"] = { DRAGONBLIGHT, ICECROWN, THE_STORM_PEAKS, },
-								["requireSkill"] = ENGINEERING,
-							}),
-						}),
-					}),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(190172),	-- Icethorn
-						o(190171),	-- Lichbloom
-					})),
-				}),
 				n(QUESTS, {
 					-- The Sons of Hodir
 					q(13559, {	-- Hodir's Tribute

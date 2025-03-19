@@ -3119,26 +3119,6 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(FISHING, {
-						i(45905, {	-- Bloodtooth Frenzy
-							["provider"] = { "o", 194479 },	-- Pool of Blood
-							["description"] = "Kill an animal and then swim in a body of water to create a pool to fish from.",
-						}),
-					}),
-					prof(FISHING, sharedData({ ["requireSkill"] = FISHING }, {
-						o(192051),	-- Borean Man O' War School
-						o(192053),	-- Deep Sea Monsterbelly School
-						o(192052),	-- Imperial Manta Ray School
-						o(192054),	-- Moonglow Cuttlefish School
-						o(192046),	-- Musselback Sculpin School
-					})),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(191303),	-- Firethorn
-						o(189973),	-- Goldclover
-						o(190169),	-- Tiger Lily
-					})),
-				}),
 				-- #if AFTER 6.2.2.20444
 				n(TREASURES, {
 					o(244447, {	-- White Murloc Egg
