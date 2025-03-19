@@ -437,8 +437,9 @@
 372@@@Courier %s
 7.3.5.25678
 372@@@Postmaster %s
-7.3.5.25928
+7.3.5.25804
 373@@@Prospector %s
+7.3.5.25928
 8.0.1.25902
 371@@@%s, No Good, Dirty, Rotten, Candy Stealer!
 8.0.1.26433
