@@ -819,6 +819,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 		o(182953, {	-- Sporefish School
 			["maps"] = { ZANGARMARSH },
 		}),
+		o(182952, {	-- Steam Pump Flotsam
+			["maps"] = { ZANGARMARSH },
+		}),
 		-- Recipe
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
