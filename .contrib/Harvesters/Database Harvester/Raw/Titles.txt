@@ -602,23 +602,24 @@
 477@@@%s the [PH Season 1 Title]
 478@@@Isles Racer %s
 479@@@Malicious %s
-10.0.2.45779
-480@@@%s, Knight of Feathersworth
-10.0.2.45969
+10.0.0.46479
+469@@@%s, the Worldbreaker
 470@@@%s the Thundering Hero
 477@@@%s the Thundering
+480@@@%s, Knight of Feathersworth
 481@@@%s the Elite Evoker
 482@@@Crimson Soloist %s
-10.0.2.46091
 483@@@%s, Paragon of the Obsidian Brood
 484@@@%s, Agent of the Black Prince
-10.0.2.46259
-469@@@%s, the Worldbreaker
 485@@@Merchant Artisan %s
 486@@@Personal Crafter %s
-10.0.2.46420
 487@@@%s, Famed Slayer of Raszageth
 488@@@%s the Storm-Eater
+10.0.2.45779
+10.0.2.45969
+10.0.2.46091
+10.0.2.46259
+10.0.2.46420
 10.0.2.47213
 491@@@Legend %s
 10.0.5.47799

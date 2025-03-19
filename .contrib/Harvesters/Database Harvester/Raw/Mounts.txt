@@ -1597,16 +1597,17 @@
 369451@@@Jade, Bright Foreseer
 369476@@@Amalgam of Rage
 381529@@@Telix the Stormhorn
-10.0.2.45779
+10.0.0.46479
+376873@@@Otto
 377071@@@Crimson Gladiator's Drake
+387231@@@Hailstorm Armoredon
 394737@@@Vicious Sabertooth
 394738@@@Vicious Sabertooth
-10.0.2.45969
-387231@@@Hailstorm Armoredon
-10.0.2.46091
 395644@@@Divine Kiss of Ohn'ahra
+10.0.2.45779
+10.0.2.45969
+10.0.2.46091
 10.0.2.46259
-376873@@@Otto
 10.0.2.46420
 10.0.2.46781
 384963@@@Guardian Vorquin
