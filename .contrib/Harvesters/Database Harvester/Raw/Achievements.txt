@@ -12424,6 +12424,26 @@
 18704@@@Dawn of the Infinite: Murozond's Rise
 18705@@@Defender of the Timeways
 18706@@@Put That Thing Back Where It Came From
+10.1.5.50705
+17344@@@Warcraft Rumble Minis, Get 'Em All!
+17346@@@Warcraft Rumble Minis, Maiev's New Look
+17347@@@Warcraft Rumble Minis, Sneed's New Look
+17348@@@Warcraft Rumble Minis, Huntress' New Look
+17349@@@Warcraft Rumble Minis, Tauren's  New Look
+17350@@@Warcraft Rumble Minis, Ghoul's New Look
+17351@@@Warcraft Rumble Minis, Murloc's  New Look
+17352@@@Warcraft Rumble Minis, Whelp Egg's New Look
+17353@@@Warcraft Rumble Minis, Maiev's Newer Look
+17354@@@Warcraft Rumble Minis, Sneed's Newer Look
+17355@@@Warcraft Rumble Minis, Huntress' Newer Look
+17356@@@Warcraft Rumble Minis, Tauren's Newer Look
+17357@@@Warcraft Rumble Minis, Ghoul's Newer Look
+17358@@@Warcraft Rumble Minis, Murloc's Newer Look
+17359@@@Warcraft Rumble Minis, Whelp Egg's Newer Look
+17360@@@Warcraft Rumble Minis, New Looks!
+17361@@@Rumble Minis, All the Looks!
+17547@@@The Lick King
+18250@@@Ysergle The Dreamurk
 10.1.5.51130
 18365@@@[Hidden] [DO NOT USE] Draconically Superior
 18366@@@[Hidden] [DO NOT USE] Draconically Epic
@@ -13072,25 +13092,6 @@
 10.1.7.51313
 18854@@@Seeing Red
 10.1.7.51754
-17344@@@Warcraft Rumble Minis, Get 'Em All!
-17346@@@Warcraft Rumble Minis, Maiev's New Look
-17347@@@Warcraft Rumble Minis, Sneed's New Look
-17348@@@Warcraft Rumble Minis, Huntress' New Look
-17349@@@Warcraft Rumble Minis, Tauren's  New Look
-17350@@@Warcraft Rumble Minis, Ghoul's New Look
-17351@@@Warcraft Rumble Minis, Murloc's  New Look
-17352@@@Warcraft Rumble Minis, Whelp Egg's New Look
-17353@@@Warcraft Rumble Minis, Maiev's Newer Look
-17354@@@Warcraft Rumble Minis, Sneed's Newer Look
-17355@@@Warcraft Rumble Minis, Huntress' Newer Look
-17356@@@Warcraft Rumble Minis, Tauren's Newer Look
-17357@@@Warcraft Rumble Minis, Ghoul's Newer Look
-17358@@@Warcraft Rumble Minis, Murloc's Newer Look
-17359@@@Warcraft Rumble Minis, Whelp Egg's Newer Look
-17360@@@Warcraft Rumble Minis, New Looks!
-17361@@@Rumble Minis, All the Looks!
-17547@@@The Lick King
-18250@@@Ysergle The Dreamurk
 19029@@@Lil' Maggz
 10.2.0.51239
 16884@@@Friends in the Field
