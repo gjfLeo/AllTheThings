@@ -10974,6 +10974,8 @@
 16683@@@In Tyr's Footsteps
 10.0.0.45970
 15640@@@Return to Darkness
+10.0.0.46112
+15344@@@"S.A.F.E" Pilot
 10.0.2.45779
 14613@@@<Hidden> Chromie Time - Hit 59 While In Chromie Time
 14615@@@<Hidden> Chromie Time - Hit 60 While In Chromie Time
@@ -13429,7 +13431,6 @@
 10.2.0.51825
 19080@@@Arcane Influence
 10.2.0.52038
-15344@@@"S.A.F.E" Pilot
 18910@@@Ruby Lifeshrine Loop Storm Gryphon: Bronze
 18911@@@Ruby Lifeshrine Loop Storm Gryphon: Silver
 18912@@@Ruby Lifeshrine Loop Storm Gryphon: Gold
