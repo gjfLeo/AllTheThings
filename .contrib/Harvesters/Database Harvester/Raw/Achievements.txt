@@ -11494,7 +11494,7 @@
 16712@@@Highland Drake Head Features
 16727@@@Cliffside Wylderdrake Head Features
 17338@@@<Hidden> ACCOUNT: Veritistrasz Q2 Completed
-10.0.5.47871
+10.0.5.47481
 15657@@@Dragon Isles Blacksmithing 75 (DNT)
 15660@@@Dragon Isles Alchemy 75 (DNT)
 15863@@@Dragon Isles Enchanting 75 (DNT)
@@ -11512,10 +11512,11 @@
 16664@@@Dragon Isles Jewelcrafting 60 (DNT)
 16665@@@Dragon Isles Engineering 60 (DNT)
 16734@@@Crimson Legend: Dragonflight Season 1
-17305@@@Trading Post: Dragonflight
 17342@@@The Future We Make
 17343@@@Drop It Like It's Hot
 17345@@@Airborne Tumbler
+10.0.5.47871
+17305@@@Trading Post: Dragonflight
 17420@@@Trial of Tyr Ineligible For Spark Skip [DNT]
 10.0.5.48001
 17495@@@<Hidden> 10.0 Professions Onboarding Skip Unlock [DNT] (copy)
