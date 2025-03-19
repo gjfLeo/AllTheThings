@@ -10159,13 +10159,13 @@
 133312@@@Nighthold Protector - IGC
 133342@@@Allied Race
 133344@@@Magister Umbric (IGC)
-7.3.5.25928
+7.3.5.25716
 133012@@@Magni Bronzebeard
 133080@@@Highlord Darion Mograine
 133081@@@Kor'vas Bloodthorn
 133082@@@Rensar Greathoof
 133083@@@Halduron Brightwing
-133084@@@Archmage Vargoth
+133084@@@Archmage Kalec
 133085@@@Iron-Body Ponshu
 133086@@@Lady Liadrin
 133087@@@High Priestess Ishanah
@@ -10177,6 +10177,8 @@
 133388@@@Magni Bronzebeard
 133395@@@Magni Bronzebeard
 133467@@@Anarys Lunastre
+7.3.5.25928
+133084@@@Archmage Vargoth
 133522@@@Trade Prince Gallywix
 133534@@@Magister Umbric (IGC)
 133543@@@Void Initiate (IGC)

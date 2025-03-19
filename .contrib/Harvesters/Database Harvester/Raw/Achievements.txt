@@ -7139,6 +7139,8 @@
 7.3.5.25678
 12431@@@Post Haste
 12439@@@Priority Mail
+7.3.5.25716
+12445@@@Highmountain Tauren Unlock Requirements
 7.3.5.25928
 11989@@@Forbidden Descent
 11990@@@Hope's End
