@@ -324,6 +324,9 @@
 2687@@@Hunter Quest Boss (Tamed Beast)
 1.15.6.58658
 2721@@@S03 - Scarlet Crusade
+1.15.7.59706
+2723@@@S03 - New Avalon - Scarlet Crusade - Disguise
+2724@@@S03 - New Avalon - Scarlet Crusade - Patrollers
 2.0.0.6080
 911@@@Silvermoon City
 914@@@PLAYER, Blood Elf

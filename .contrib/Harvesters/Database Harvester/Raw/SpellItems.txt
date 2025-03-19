@@ -2830,6 +2830,14 @@
 7885@@@Stamina +$1220754s2 and Defense +$1220754s3
 1.15.6.58725
 7896@@@+200 Attack Power vs Undead
+1.15.7.59706
+7919@@@$@spelldesc1225951
+7920@@@$@spelldesc1225982
+7921@@@$@spelldesc1226001
+7940@@@Grand Crusader
+7941@@@Grand Arcanist
+7942@@@Grand Sorcerer
+7943@@@Grand Inquisitor
 2.0.0.6080
 13@@@Sharpened (+3 Damage)
 14@@@Sharpened (+4 Damage)
