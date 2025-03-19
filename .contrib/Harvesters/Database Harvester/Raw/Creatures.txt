@@ -10177,7 +10177,7 @@
 133388@@@Magni Bronzebeard
 133395@@@Magni Bronzebeard
 133467@@@Anarys Lunastre
-7.3.5.25928
+7.3.5.25727
 133084@@@Archmage Vargoth
 133522@@@Trade Prince Gallywix
 133534@@@Magister Umbric (IGC)
@@ -10186,6 +10186,7 @@
 133545@@@Rift Warden (IGC)
 133546@@@Umbral Ranger (IGC)
 133547@@@Locus Researcher (IGC)
+7.3.5.25928
 8.0.1.25902
 46384@@@Crazed Gnome
 46568@@@Crazed Spiderbot Pilot

@@ -391,9 +391,10 @@
 2420@@@Racial - Highmountain Tauren
 2421@@@Racial - Lightforged Draenei
 2423@@@Racial - Void Elf
-7.3.5.25928
+7.3.5.25727
 2464@@@Language: Shalassian
 2465@@@Language: Thalassian
+7.3.5.25928
 8.0.1.25902
 2437@@@8.0 Blacksmithing
 2454@@@Legion Blacksmithing

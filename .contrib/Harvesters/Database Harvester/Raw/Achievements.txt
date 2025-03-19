@@ -7141,7 +7141,7 @@
 12439@@@Priority Mail
 7.3.5.25716
 12445@@@Highmountain Tauren Unlock Requirements
-7.3.5.25928
+7.3.5.25727
 11989@@@Forbidden Descent
 11990@@@Hope's End
 12445@@@Allied Races: Highmountain Tauren Unlock Requirements
@@ -7154,6 +7154,7 @@
 12453@@@Allied Races: Nightborne (Hidden Character Achievement)
 12455@@@Westfall & Duskwood Quests
 12456@@@Loch Modan & Wetlands Quests
+7.3.5.25928
 8.0.1.25902
 11339@@@Legion's Bane
 11861@@@Zuldazar

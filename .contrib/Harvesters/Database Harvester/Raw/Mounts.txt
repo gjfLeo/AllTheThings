@@ -831,8 +831,9 @@
 258060@@@Highmountain Thunderhoof
 258845@@@Nightborne Manasaber
 259202@@@Starcursed Voidstrider
-7.3.5.25928
+7.3.5.25727
 227995@@@Dominant Gladiator's Storm Dragon
+7.3.5.25928
 8.0.1.25902
 237285@@@Hyena Mount White (PH)
 237286@@@Hyena Mount Tan (PH)

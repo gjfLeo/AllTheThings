@@ -784,11 +784,12 @@
 2170@@@Argussian Reach
 7.3.0.24727
 2180@@@_JKL - test rep
-7.3.5.25928
+7.3.5.25727
 2229@@@PLAYER, Void Elf
 2230@@@PLAYER, Highmountain Tauren
 2231@@@PLAYER, Nightborne
 2232@@@PLAYER, Lightforged Draenei
+7.3.5.25928
 8.0.1.25902
 2103@@@Zandalari Empire
 2104@@@Battle for Azeroth
