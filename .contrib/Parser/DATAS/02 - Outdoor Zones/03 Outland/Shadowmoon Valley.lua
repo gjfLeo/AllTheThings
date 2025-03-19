@@ -186,12 +186,6 @@ root(ROOTS.Zones, {
 							{ 29.2, 28.6, SHADOWMOON_VALLEY },
 						},
 						["groups"] = {
-							i(23821, {	-- Zapthrottle Mote Extractor
-								n(17407, {	-- Felmist (Gas cloud)
-									["maps"] = { SHADOWMOON_VALLEY },	-- Danny Donkey: Because source path on creatures is broken in retail.
-									["requireSkill"] = ENGINEERING,
-								}),
-							}),
 							r(44155, {	-- Flying Machine
 								["timeline"] = { ADDED_2_3_0 },
 							}),
@@ -200,18 +194,6 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(181271),	-- Dreaming Glory
-						o(181270),	-- Felweed
-						o(181280),	-- Nightmare Vine
-						o(181277),	-- Terocone
-					})),
-					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
-						o(181556),	-- Adamantite Deposit
-						o(181555),	-- Fel Iron Deposit
-						o(181557),	-- Khorium Vein
-						o(181569),	-- Rich Adamantite Deposit
-					})),
 				}),
 				n(QUESTS, {
 					q(10642, {	-- A Ghost in the Machine

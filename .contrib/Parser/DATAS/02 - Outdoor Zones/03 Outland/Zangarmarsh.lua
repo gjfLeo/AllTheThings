@@ -276,43 +276,16 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(PROFESSIONS, {
-					prof(ENGINEERING, {
-						i(23821, {	-- Zapthrottle Mote Extractor
-							n(17378, {	-- Swamp Gas (Gas cloud)
-								["maps"] = { ZANGARMARSH },	-- Danny Donkey: Because source path on creatures is broken in retail.
-								["requireSkill"] = ENGINEERING,
-							}),
-						}),
-					}),
 					prof(FISHING, {
-						o(182954, {	-- Brackish Mixed School
-							["requireSkill"] = FISHING,
-						}),
 						n(18911, {	-- Juno Dufrain <Fishing Trainer>
 							["coord"] = { 78.0, 66.0, ZANGARMARSH },
 							["groups"] = TBC_FISHING,
 						}),
-						o(182953, {	-- Sporefish School
-							["requireSkill"] = FISHING,
-						}),
-						o(182952, {	-- Steam Pump Flotsam
-							i(27481),	-- Heavy Supply Crate
-							i(27516),	-- Enormous Barbed Gill Trout
-							i(34469, {	-- Strange Engine Part
-								["description"] = "\"Don't pay anybody in advance. And don't ride in anything with a Capissen 38 engine, they fall right out of the sky.\" - Kaylee Fry",
-							}),
+						i(34469, {	-- Strange Engine Part
+							["description"] = "\"Don't pay anybody in advance. And don't ride in anything with a Capissen 38 engine, they fall right out of the sky.\" - Kaylee Fry",
+							["provider"] = { "o", 182952 },	-- Steam Pump Flotsam
 						}),
 					}),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(181270),	-- Felweed
-						o(181276),	-- Flame Cap
-						o(181275),	-- Ragveil
-					})),
-					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
-						o(181556),	-- Adamantite Deposit
-						o(181555),	-- Fel Iron Deposit
-						o(181569),	-- Rich Adamantite Deposit
-					})),
 				}),
 				n(QUESTS, {
 					q(50130, {	-- A Friendly Gesture

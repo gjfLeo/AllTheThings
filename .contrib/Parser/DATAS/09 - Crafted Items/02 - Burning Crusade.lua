@@ -613,6 +613,25 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			i(23765),	-- Khorium Scope
 			i(23766),	-- Stabilized Eternium Scope
 		}),
+		i(23821, {	-- Zapthrottle Mote Extractor
+			n(17408, {	-- Arcane Vortex (Gas cloud)
+				["maps"] = { NETHERSTORM },
+				["requireSkill"] = ENGINEERING,
+			}),
+			n(17407, {	-- Felmist (Gas cloud)
+				["maps"] = { SHADOWMOON_VALLEY },
+				["requireSkill"] = ENGINEERING,
+			}),
+			n(17378, {	-- Swamp Gas (Gas cloud)
+				["maps"] = { ZANGARMARSH },
+				["requireSkill"] = ENGINEERING,
+			}),
+			n(24222, {	-- Windy Cload (Gas cloud)
+				["maps"] = { NAGRAND },
+				["requireSkill"] = ENGINEERING,
+				["timeline"] = { ADDED_2_3_0 },
+			}),
+		}),
 	}),
 	-- #if BEFORE 8.0.1
 	prof(FIRST_AID, {
@@ -621,6 +640,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	}),
 	-- #endif
 	prof(FISHING, {
+		-- Fish
 		i(27422, {	-- Barbed Gill Trout
 			["maps"] = {
 				DEADWIND_PASS,
@@ -640,6 +660,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				i(34866),	-- Giant Freshwater Shrimp
 			},
 		}),
+		applyclassicphase(TBC_PHASE_FIVE, i(35286, {	-- Bloated Giant Sunfish
+			["maps"] = { ISLE_OF_QUELDANAS },
+			["timeline"] = { ADDED_2_4_0 },
+		})),
 		applyclassicphase(TBC_PHASE_FOUR, i(33823, {	-- Bloodfin Catfish
 			["maps"] = { DEADWIND_PASS },
 			["timeline"] = { ADDED_2_3_0 },
@@ -678,7 +702,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 		}),
 		applyclassicphase(TBC_PHASE_FIVE, i(35285, {	-- Giant Sunfish
-			["maps"] = ISLE_OF_QUELDANAS,
+			["maps"] = { ISLE_OF_QUELDANAS },
 			["timeline"] = { ADDED_2_4_0 },
 		})),
 		i(27438, {	-- Golden Darter
@@ -689,7 +713,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 			["maps"] = TEROKKAR_FOREST,
 		}),
-		i(27481),	-- Heavy Supply Crate
+		i(27481, {	-- Heavy Supply Crate
+			["provider"] = { "o", 182952 },	-- Steam Pump Flotsam
+		}),
 		i(27515, {	-- Huge Spotted Feltail
 			["providers"] = {
 				{ "o", 182959 },	-- Bluefish School
@@ -733,16 +759,67 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 			["timeline"] = { ADDED_2_4_0 },
 		}),
+		i(27388, {	-- Mr. Pinchy
+			["provider"] = { "o", 182957 },	-- Highland Mixed School
+			["coords"] = {
+				{ 59.6, 59.85, TEROKKAR_FOREST },	-- Lake Ere'Noru
+				{ 46.6, 40.7, TEROKKAR_FOREST },	-- Lake Jorune
+				{ 66.0, 78.3, TEROKKAR_FOREST },	-- Skettis
+			},
+			["description"] = "Fished up from Highland Mixed Schools. You have 3 wishes per Mr. Pinchy, each wish granting one of the following effects:\n\n1) Mr. Pinchy's Blessing (Flask)\n2) Summon Furious Mr. Pinchy (Enemy)\n3) Magical Crawdad Box (Rare Pet)\n4) Mr. Pinchy's Gift (Potions)\n5) Benevolent Mr. Pinchy (Guardian)",
+			["groups"] = {
+				i(27445),	-- Magical Crawdad (PET!)
+				i(27446, {	-- Mr. Pinchy's Gift
+					["description"] = "Contains an assortment of potions.",
+					["groups"] = {
+						i(8350),	-- The 1 Ring
+					},
+				}),
+			},
+		}),
 		i(27425, {	-- Spotted Feltail
 			["maps"] = {
 				TEROKKAR_FOREST,
 				ZANGARMARSH,
 			},
 		}),
+		i(34868, {	-- World's Largest Mudfish (Quest Item for Terokkar Forest fishing daily q(11667) The One That Got Away)
+			["maps"] = { NAGRAND },
+		}),
 		i(27429, {	-- Zangarian Sporefish
 			["provider"] = { "o", 182953 },	-- Sporefish School
 			["maps"] = { ZANGARMARSH },
 		}),
+		-- Schools
+		o(182959, {	-- Bluefish School
+			["maps"] = { NAGRAND },
+		}),
+		o(182954, {	-- Brackish Mixed School
+			["maps"] = {
+				TEROKKAR_FOREST,
+				ZANGARMARSH,
+			},
+		}),
+		o(182957, {	-- Highland Mixed School
+			["coords"] = {
+				{ 59.6, 59.85, TEROKKAR_FOREST },	-- Lake Ere'Noru
+				{ 46.6, 40.7, TEROKKAR_FOREST },	-- Lake Jorune
+				{ 66.0, 78.3, TEROKKAR_FOREST },	-- Skettis
+			},
+		}),
+		o(182958, {	-- Mudfish School
+			["maps"] = { NAGRAND },
+		}),
+		o(182951, {	-- Pure Water (fishing school)
+			["maps"] = { NAGRAND },
+		}),
+		o(182956, {	-- School of Darter
+			["maps"] = { TEROKKAR_FOREST },
+		}),
+		o(182953, {	-- Sporefish School
+			["maps"] = { ZANGARMARSH },
+		}),
+		-- Recipe
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
 				["description"] = "Can be fished from schools.",
@@ -752,6 +829,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	}),
 	prof(HERBALISM, {
 		spell(2366, {	-- Herb Gathering
+			-- Herbs
 			i(22790, {	-- Ancient Lichen
 				["maps"] = {
 					AUCHINDOUN_AUCHENAI_CRYPTS,
@@ -772,7 +850,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 			}),
 			i(22786, {	-- Dreaming Glory
-				["description"] = "Found around edges and highly uneven terrain.",
+				["description"] = "Found near edges and highly uneven terrain.",
 				["maps"] = {
 					BLADES_EDGE_MOUNTAINS,
 					NAGRAND,
@@ -833,7 +911,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["provider"] = { "o", 181276 },	-- Flame Cap
 			}),
 			i(22793, {	-- Mana Thistle
-				["maps"] = ISLE_OF_QUELDANAS,
+				["maps"] = { ISLE_OF_QUELDANAS },
 				["provider"] = { "o", 181281 },	-- Mana Thistle
 			}),
 			i(108351, {	-- Mana Thistle Leaf
@@ -857,7 +935,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["timeline"] = { ADDED_2_4_0 },
 			}),
 			i(22791, {	-- Netherbloom
-				["maps"] = NETHERSTORM,
+				["maps"] = { NETHERSTORM },
 				["provider"] = { "o", 181279 },	-- Netherbloom
 			}),
 			i(108349, {	-- Netherbloom Leaf
@@ -920,6 +998,84 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			}),
 			i(24401, {	-- Unidentified Plant Parts (Quest Item for Zangarmarsh q(9802) and q(9784))
 				["maps"] = ZANGARMARSH,
+			}),
+			-- Nodes
+			o(181278, {	-- Ancient Lichen
+				["maps"] = {
+					AUCHINDOUN_AUCHENAI_CRYPTS,
+					AUCHINDOUN_MANA_TOMBS,
+					AUCHINDOUN_SETHEKK_HALLS,
+					AUCHINDOUN_SHADOW_LABYRINTH,
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+				},
+			}),
+			o(181271, {	-- Dreaming Glory
+				["description"] = "Found near edges and highly uneven terrain.",
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+				},
+			}),
+			o(181270, {	-- Felweed
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					HELLFIRE_PENINSULA,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+			}),
+			o(181276, {	-- Flame Cap
+				["maps"] = {
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+					ZANGARMARSH,
+				},
+			}),
+			o(181281, {	-- Mana Thistle
+				["maps"] = { ISLE_OF_QUELDANAS },
+			}),
+			o(181279, {	-- Netherbloom
+				["maps"] = { NETHERSTORM },
+			}),
+			o(181280, {	-- Nightmare Vine
+				["coords"] = {
+					{ 63.9, 68.3, BLADES_EDGE_MOUNTAINS },	-- Death's Door
+					{ 34.8, 40.4, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Wrath
+					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
+					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
+				},
+				["description"] = "Although this can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
+				["maps"] = SHADOWMOON_VALLEY,
+			}),
+			o(181275, {	-- Ragveil
+				["maps"] = {
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+					ZANGARMARSH,
+				},
+			}),	-- Sanguine Hibiscus
+			o(183385, {
+				["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
+			}),
+			o(181277, {	-- Terocone
+				["coords"] = {
+					{ 43.4, 55.8, SHADOWMOON_VALLEY },	-- Sketh'lon Base Camp
+					{ 36.5, 32.5, SHADOWMOON_VALLEY },	-- Sketh'lon Wreckage
+					{ 29.2, 81.3, BLADES_EDGE_MOUNTAINS },	-- Forge Camp: Terror
+					{ 62.7, 19.5, HELLFIRE_PENINSULA },	-- Throne of Kil'jaeden
+				},
+				["description"] = "Found near the base of trees.",
+				["maps"] = TEROKKAR_FOREST,
 			}),
 		}),
 	}),
@@ -1255,6 +1411,61 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 	}),
 	prof(MINING, {
 		spell(2575, {	-- Mining
+			-- Nodes
+			o(181556, {	-- Adamantite Deposit
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					ISLE_OF_QUELDANAS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+			}),
+			o(181555, {	-- Fel Iron Deposit
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					HELLFIRE_PENINSULA,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+			}),
+			o(181557, {	-- Khorium Vein
+				["maps"] = {
+					AUCHINDOUN_AUCHENAI_CRYPTS,
+					AUCHINDOUN_MANA_TOMBS,
+					AUCHINDOUN_SETHEKK_HALLS,
+					AUCHINDOUN_SHADOW_LABYRINTH,
+					BLADES_EDGE_MOUNTAINS,
+					COILFANG_RESERVOIR_SLAVE_PENS,
+					COILFANG_RESERVOIR_STEAMVAULT,
+					COILFANG_RESERVOIR_UNDERBOG,
+					ISLE_OF_QUELDANAS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+				},
+			}),
+			o(181569, {	-- Rich Adamantite Deposit
+				["maps"] = {
+					BLADES_EDGE_MOUNTAINS,
+					ISLE_OF_QUELDANAS,
+					NAGRAND,
+					NETHERSTORM,
+					SHADOWMOON_VALLEY,
+					TEROKKAR_FOREST,
+					ZANGARMARSH,
+				},
+			}),
+			o(181570, {	-- Rich Adamantite Deposit (Another ID for deposits exclusive to Nagrand.)
+				["maps"] = { NAGRAND },
+			}),
+			-- Ores
 			i(23425, {	-- Adamantite Ore
 				["maps"] = {
 					BLADES_EDGE_MOUNTAINS,
@@ -1268,6 +1479,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				["providers"] = {
 					{ "o", 181556 },	-- Adamantite Deposit
 					{ "o", 181569 },	-- Rich Adamantite Deposit
+					{ "o", 181570 },	-- Rich Adamantite Deposit (Nagrand special)
 				},
 			}),
 			i(108302, {	-- Adamantite Ore Nugget
@@ -1294,6 +1506,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 					{ "o", 181556 },	-- Adamantite Deposit
 					{ "o", 181557 },	-- Khorium Vein
 					{ "o", 181569 },	-- Rich Adamantite Deposit
+					{ "o", 181570 },	-- Rich Adamantite Deposit (Nagrand special)
 				},
 			}),
 			i(108303, {	-- Eternium Ore Nugget

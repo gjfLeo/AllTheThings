@@ -448,10 +448,6 @@ root(ROOTS.Zones, {
 						},
 						["groups"] = TBC_HERBALISM,
 					}),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(181270),	-- Felweed
-						o(181280),	-- Nightmare Vine
-					})),
 					prof(LEATHERWORKING, {
 						["crs"] = {
 							18771,	-- Brumman <Leatherworking Trainer> (A)
@@ -474,9 +470,6 @@ root(ROOTS.Zones, {
 						},
 						["groups"] = TBC_MINING,
 					}),
-					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
-						o(181555),	-- Fel Iron Deposit
-					})),
 				}),
 				n(QUESTS, {
 					q(10864, {	-- A Burden of Souls

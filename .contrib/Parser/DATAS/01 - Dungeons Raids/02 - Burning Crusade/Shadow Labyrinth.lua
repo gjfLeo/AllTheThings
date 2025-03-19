@@ -16,16 +16,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		-- #endif
 		["lvl"] = lvlsquish(65, 65, 20),
 		["groups"] = {
-			n(PROFESSIONS, {
-				prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-					o(181278),	-- Ancient Lichen
-				})),
-				prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
-					o(181556),	-- Adamantite Deposit
-					o(181557),	-- Khorium Vein
-					o(181569),	-- Rich Adamantite Deposit
-				})),
-			}),
 			n(QUESTS, {
 				q(29645, {	-- Ambassador Hellmaw
 					["qg"] = 54890,	-- Field Commander Mahfuun

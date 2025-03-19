@@ -143,27 +143,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 45.2, 34.8, NETHERSTORM },
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(ENGINEERING, {
-						i(23821, {	-- Zapthrottle Mote Extractor
-							n(17408, {	-- Arcane Vortex (Gas cloud)
-								["maps"] = { NETHERSTORM },	-- Danny Donkey: Because source path on creatures is broken in retail.
-								["requireSkill"] = ENGINEERING,
-							}),
-						}),
-					}),
-					prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-						o(181271),	-- Dreaming Glory
-						o(181270),	-- Felweed
-						o(181279),	-- Netherbloom
-					})),
-					prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
-						o(181556),	-- Adamantite Deposit
-						o(181555),	-- Fel Iron Deposit
-						o(181557),	-- Khorium Vein
-						o(181569),	-- Rich Adamantite Deposit
-					})),
-				}),
 				n(QUESTS, {
 					q(10197, {	-- A Convincing Disguise
 						["qg"] = 19840,	-- Caledis Brightdawn

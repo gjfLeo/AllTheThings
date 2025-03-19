@@ -1078,20 +1078,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_FIVE, {
 					["coord"] = { 48.4, 25.2, ISLE_OF_QUELDANAS },
 				}),
 			}),
-			n(PROFESSIONS, {
-				prof(FISHING, {
-					i(35286),		-- Bloated Giant Sunfish
-				}),
-				prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-					o(181281),	-- Mana Thistle
-					o(181280),	-- Nightmare Vine
-				})),
-				prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
-					o(181556),	-- Adamantite Deposit
-					o(181557),	-- Khorium Vein
-					o(181569),	-- Rich Adamantite Deposit
-				})),
-			}),
 			n(QUESTS, {
 				applyclassicphase(TBC_PHASE_FIVE_OFFENSIVE_PHASE_FOUR, q(11545, {	-- A Charitable Donation (Removed completion of Phase 4)
 					["qg"] = 25112,	-- Anchorite Ayuri

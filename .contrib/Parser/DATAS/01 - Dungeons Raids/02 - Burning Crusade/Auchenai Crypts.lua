@@ -14,16 +14,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		},
 		["lvl"] = lvlsquish(62, 62, 15),
 		["groups"] = {
-			n(PROFESSIONS, {
-				prof(HERBALISM, sharedData({ ["requireSkill"] = HERBALISM }, {
-					o(181278),	-- Ancient Lichen
-				})),
-				prof(MINING, sharedData({ ["requireSkill"] = MINING }, {
-					o(181556),	-- Adamantite Deposit
-					o(181557),	-- Khorium Vein
-					o(181569),	-- Rich Adamantite Deposit
-				})),
-			}),
 			n(QUESTS, {
 				q(10167, {	-- Auchindoun...
 					["qg"] = 18481,	-- A'dal
