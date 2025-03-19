@@ -1546,3 +1546,39 @@
 85621@@@--
 86554@@@--
 86600@@@--
+87379@@@--
+88720@@@--
+88775@@@--
+88776@@@A New Beginning
+88777@@@A New Beginning
+88778@@@A New Beginning
+88779@@@A New Beginning
+88780@@@Tools for Survival
+88781@@@Tools for Survival
+88782@@@Tools for Survival
+88783@@@Combat Training
+88784@@@Combat Training
+88785@@@Combat Training
+88786@@@Talented
+88787@@@Talented
+88788@@@--
+88789@@@Talented
+88790@@@Talented
+88791@@@--
+88792@@@--
+88793@@@Talented
+88794@@@Talented
+88796@@@Hero's Call Board
+88797@@@Hero's Call Board
+88798@@@Warchief's Command Board
+88800@@@Warchief's Command Board
+88801@@@Warchief's Command Board
+88802@@@--
+89045@@@--
+89046@@@--
+89047@@@--
+89048@@@--
+89049@@@--
+89050@@@--
+89051@@@--
+89052@@@--

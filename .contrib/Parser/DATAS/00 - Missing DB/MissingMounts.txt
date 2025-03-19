@@ -1,10 +1,16 @@
+3.4.3.57082
+mount(463045),	-- Lava Drake
 3.4.3.57269
 mount(466948),	-- Chaos-Born Dreadwing
 mount(466977),	-- Chaos-Born Wind Rider
 mount(466980),	-- Chaos-Born Hippogryph
 mount(466983),	-- Chaos-Born Gryphon
-11.1.0.58626
-mount(466014),	-- Steamwheedle Supplier
+mount(471440),	-- Skybound Spectral Tiger
+3.4.3.58528
+mount(473478),	-- Sha-Touched Riding Tiger
+mount(473487),	-- Sha-Touched Cloud Serpent
+11.1.5.59571
+mount(1228865),	-- Void-Scarred Lynx
 
 
 

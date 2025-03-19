@@ -39,6 +39,36 @@ r(1214270),	-- Jagged Obsidian Shield
 r(1214274),	-- Obsidian Mail Tunic
 r(1214309),	-- Dreamscale Visor
 r(1215507),	-- Thick Obsidian Breastplate
+1.15.6.58725
+r(1223787),	-- Icebane Breastplate
+r(1223789),	-- Icebane Gauntlets
+r(1223791),	-- Icebane Bracers
+1.15.7.59706
+r(1224631),	-- Scarlet Soldier's Helmet
+r(1224632),	-- Scarlet Soldier's Spaulders
+r(1224633),	-- Scarlet Soldier's Chestplate
+r(1224635),	-- Scarlet Soldier's Protectors
+r(1224636),	-- Scarlet Soldier's Grips
+r(1224637),	-- Scarlet Soldier's Waistguard
+r(1224638),	-- Scarlet Soldier's Legplates
+r(1224639),	-- Scarlet Soldier's Stompers
+4.4.2.59536
+r(1224178),	-- Vicious Ornate Pyrium Belt
+r(1224179),	-- Vicious Ornate Pyrium Boots
+r(1224180),	-- Vicious Ornate Pyrium Bracers
+r(1224181),	-- Vicious Ornate Pyrium Breastplate
+r(1224182),	-- Vicious Ornate Pyrium Gauntlets
+r(1224183),	-- Vicious Ornate Pyrium Helm
+r(1224184),	-- Vicious Ornate Pyrium Legguards
+r(1224185),	-- Vicious Ornate Pyrium Shoulders
+r(1224186),	-- Vicious Pyrium Belt
+r(1224187),	-- Vicious Pyrium Boots
+r(1224188),	-- Vicious Pyrium Bracers
+r(1224189),	-- Vicious Pyrium Breastplate
+r(1224190),	-- Vicious Pyrium Gauntlets
+r(1224191),	-- Vicious Pyrium Helm
+r(1224192),	-- Vicious Pyrium Legguards
+r(1224193),	-- Vicious Pyrium Shoulders
 
 
 
@@ -74,3 +104,16 @@ r(1214270),	-- Jagged Obsidian Shield
 r(1214274),	-- Obsidian Mail Tunic
 r(1214309),	-- Dreamscale Visor
 r(1215507),	-- Thick Obsidian Breastplate
+1.15.6.58725
+r(1223787),	-- Icebane Breastplate
+r(1223789),	-- Icebane Gauntlets
+r(1223791),	-- Icebane Bracers
+1.15.7.59706
+r(1224631),	-- Scarlet Soldier's Helmet
+r(1224632),	-- Scarlet Soldier's Spaulders
+r(1224633),	-- Scarlet Soldier's Chestplate
+r(1224635),	-- Scarlet Soldier's Protectors
+r(1224636),	-- Scarlet Soldier's Grips
+r(1224637),	-- Scarlet Soldier's Waistguard
+r(1224638),	-- Scarlet Soldier's Legplates
+r(1224639),	-- Scarlet Soldier's Stompers

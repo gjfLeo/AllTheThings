@@ -9,3 +9,9 @@ faction(2686),	-- S03 - Scourge Disguise
 faction(2687),	-- Hunter Quest Boss (Tamed Beast)
 1.15.6.58658
 faction(2721),	-- S03 - Scarlet Crusade
+1.15.7.59706
+faction(2723),	-- S03 - New Avalon - Scarlet Crusade - Disguise
+faction(2724),	-- S03 - New Avalon - Scarlet Crusade - Patrollers
+11.1.5.59571
+faction(2688),	-- Flame's Radiance
+faction(2689),	-- Flame's Radiance (Paragon)

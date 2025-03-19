@@ -390,7 +390,7 @@ r(69385),	-- Runescroll of Fortitude
 r(71015),	-- Glyph of Rapid Rejuvenation
 r(71101),	-- Glyph of Mana Shield \\ Glyph of Eternal Water
 r(71102),	-- Glyph of Lash of Pain \\ Glyph of Quick Decay
-3.4.2.49311
+3.4.1.49822
 r(405005),	-- Glyph of Reckoning
 3.4.2.49442
 r(413897),	-- Glyph of Omen of Clarity
@@ -653,7 +653,7 @@ r(1213516),	--
 
 Missing in Inscription.lua
 
-3.4.2.49311
+3.4.1.49822
 r(405005),	-- Glyph of Reckoning
 3.4.2.49442
 r(413897),	-- Glyph of Omen of Clarity

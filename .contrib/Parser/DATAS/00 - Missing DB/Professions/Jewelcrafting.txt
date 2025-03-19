@@ -602,6 +602,8 @@ r(382995),	-- Classic Prospecting
 r(434019),	-- Recraft Equipment
 r(435335),	-- Apply Socket
 r(435336),	-- Vicious Jeweler's Setting
+11.1.5.59571
+r(1226650),	-- Void-Crystal Panther
 
 
 
@@ -1221,3 +1223,5 @@ r(248940),	-- Empyrial Crown
 r(434019),	-- Recraft Equipment
 r(435335),	-- Apply Socket
 r(435336),	-- Vicious Jeweler's Setting
+11.1.5.59571
+r(1226650),	-- Void-Crystal Panther

@@ -37,9 +37,68 @@ r(1213736),	-- Bramblewood Boots
 r(1213738),	-- Bramblewood Helm
 r(1213751),	-- Dreamscale Breastplate
 r(1214303),	-- Dreamscale Kilt
+1.15.6.58725
+r(1223774),	-- Icy Scale Breastplate
+r(1223776),	-- Icy Scale Gauntlets
+r(1223778),	-- Icy Scale Bracers
+r(1223780),	-- Polar Tunic
+r(1223782),	-- Polar Gloves
+r(1223784),	-- Polar Bracers
+1.15.7.59706
+r(1224615),	-- Scarlet Infiltrator's Bandana
+r(1224616),	-- Scarlet Infiltrator's Shoulderpads
+r(1224617),	-- Scarlet Infiltrator's Vest
+r(1224618),	-- Scarlet Infiltrator's Bracers
+r(1224619),	-- Scarlet Infiltrator's Gloves
+r(1224620),	-- Scarlet Infiltrator's Belt
+r(1224621),	-- Scarlet Infiltrator's Trousers
+r(1224622),	-- Scarlet Infiltrator's Shoes
+r(1224623),	-- Scarlet Huntsman's Coif
+r(1224624),	-- Scarlet Huntsman's Pauldrons
+r(1224625),	-- Scarlet Huntsman's Chain
+r(1224626),	-- Scarlet Huntsman's Wristguards
+r(1224627),	-- Scarlet Huntsman's Handguards
+r(1224628),	-- Scarlet Huntsman's Clasp
+r(1224629),	-- Scarlet Huntsman's Legguards
+r(1224630),	-- Scarlet Huntsman's Boots
+r(1226689),	-- Scarlet Quiver
+r(1226690),	-- Scarlet Ammo Pouch
 4.4.1.57916
 r(1216335),	-- Bloodthirsty Fur Cloak
 r(1216336),	-- Bloodthirsty Hide Cloak
+4.4.2.59536
+r(1224138),	-- Vicious Charscale Belt
+r(1224139),	-- Vicious Charscale Boots
+r(1224140),	-- Vicious Charscale Bracers
+r(1224141),	-- Vicious Charscale Chest
+r(1224142),	-- Vicious Charscale Gloves
+r(1224143),	-- Vicious Charscale Helm
+r(1224144),	-- Vicious Charscale Legs
+r(1224145),	-- Vicious Charscale Shoulders
+r(1224146),	-- Vicious Dragonscale Belt
+r(1224147),	-- Vicious Dragonscale Boots
+r(1224148),	-- Vicious Dragonscale Bracers
+r(1224149),	-- Vicious Dragonscale Chest
+r(1224150),	-- Vicious Dragonscale Gloves
+r(1224151),	-- Vicious Dragonscale Helm
+r(1224152),	-- Vicious Dragonscale Legs
+r(1224153),	-- Vicious Dragonscale Shoulders
+r(1224170),	-- Vicious Leather Belt
+r(1224171),	-- Vicious Leather Boots
+r(1224172),	-- Vicious Leather Bracers
+r(1224173),	-- Vicious Leather Chest
+r(1224174),	-- Vicious Leather Gloves
+r(1224175),	-- Vicious Leather Helm
+r(1224176),	-- Vicious Leather Legs
+r(1224177),	-- Vicious Leather Shoulders
+r(1224194),	-- Vicious Wyrmhide Belt
+r(1224195),	-- Vicious Wyrmhide Boots
+r(1224196),	-- Vicious Wyrmhide Bracers
+r(1224197),	-- Vicious Wyrmhide Chest
+r(1224198),	-- Vicious Wyrmhide Gloves
+r(1224199),	-- Vicious Wyrmhide Helm
+r(1224200),	-- Vicious Wyrmhide Legs
+r(1224201),	-- Vicious Wyrmhide Shoulders
 
 
 
@@ -73,3 +132,62 @@ r(1213736),	-- Bramblewood Boots
 r(1213738),	-- Bramblewood Helm
 r(1213751),	-- Dreamscale Breastplate
 r(1214303),	-- Dreamscale Kilt
+1.15.6.58725
+r(1223774),	-- Icy Scale Breastplate
+r(1223776),	-- Icy Scale Gauntlets
+r(1223778),	-- Icy Scale Bracers
+r(1223780),	-- Polar Tunic
+r(1223782),	-- Polar Gloves
+r(1223784),	-- Polar Bracers
+1.15.7.59706
+r(1224615),	-- Scarlet Infiltrator's Bandana
+r(1224616),	-- Scarlet Infiltrator's Shoulderpads
+r(1224617),	-- Scarlet Infiltrator's Vest
+r(1224618),	-- Scarlet Infiltrator's Bracers
+r(1224619),	-- Scarlet Infiltrator's Gloves
+r(1224620),	-- Scarlet Infiltrator's Belt
+r(1224621),	-- Scarlet Infiltrator's Trousers
+r(1224622),	-- Scarlet Infiltrator's Shoes
+r(1224623),	-- Scarlet Huntsman's Coif
+r(1224624),	-- Scarlet Huntsman's Pauldrons
+r(1224625),	-- Scarlet Huntsman's Chain
+r(1224626),	-- Scarlet Huntsman's Wristguards
+r(1224627),	-- Scarlet Huntsman's Handguards
+r(1224628),	-- Scarlet Huntsman's Clasp
+r(1224629),	-- Scarlet Huntsman's Legguards
+r(1224630),	-- Scarlet Huntsman's Boots
+r(1226689),	-- Scarlet Quiver
+r(1226690),	-- Scarlet Ammo Pouch
+4.4.2.59536
+r(1224138),	-- Vicious Charscale Belt
+r(1224139),	-- Vicious Charscale Boots
+r(1224140),	-- Vicious Charscale Bracers
+r(1224141),	-- Vicious Charscale Chest
+r(1224142),	-- Vicious Charscale Gloves
+r(1224143),	-- Vicious Charscale Helm
+r(1224144),	-- Vicious Charscale Legs
+r(1224145),	-- Vicious Charscale Shoulders
+r(1224146),	-- Vicious Dragonscale Belt
+r(1224147),	-- Vicious Dragonscale Boots
+r(1224148),	-- Vicious Dragonscale Bracers
+r(1224149),	-- Vicious Dragonscale Chest
+r(1224150),	-- Vicious Dragonscale Gloves
+r(1224151),	-- Vicious Dragonscale Helm
+r(1224152),	-- Vicious Dragonscale Legs
+r(1224153),	-- Vicious Dragonscale Shoulders
+r(1224170),	-- Vicious Leather Belt
+r(1224171),	-- Vicious Leather Boots
+r(1224172),	-- Vicious Leather Bracers
+r(1224173),	-- Vicious Leather Chest
+r(1224174),	-- Vicious Leather Gloves
+r(1224175),	-- Vicious Leather Helm
+r(1224176),	-- Vicious Leather Legs
+r(1224177),	-- Vicious Leather Shoulders
+r(1224194),	-- Vicious Wyrmhide Belt
+r(1224195),	-- Vicious Wyrmhide Boots
+r(1224196),	-- Vicious Wyrmhide Bracers
+r(1224197),	-- Vicious Wyrmhide Chest
+r(1224198),	-- Vicious Wyrmhide Gloves
+r(1224199),	-- Vicious Wyrmhide Helm
+r(1224200),	-- Vicious Wyrmhide Legs
+r(1224201),	-- Vicious Wyrmhide Shoulders

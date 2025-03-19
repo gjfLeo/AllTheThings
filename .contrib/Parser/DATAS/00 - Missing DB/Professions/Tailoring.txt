@@ -137,6 +137,25 @@ r(1213744),	-- Sylvan Vest
 r(1214173),	-- Bolt of Qiraji Silk
 r(1214306),	-- Dreamscale Bracers
 r(1214307),	-- Dreamscale Mitts
+1.15.6.58725
+r(1223760),	-- Glacial Vest
+r(1223762),	-- Glacial Cloak
+r(1223764),	-- Glacial Gloves
+r(1223766),	-- Glacial Wrists
+r(1223768),	-- Frosty Vest
+r(1223770),	-- Frosty Gloves
+r(1223772),	-- Frosty Wrists
+1.15.7.59706
+r(1224607),	-- Scarlet Augur's Hood
+r(1224608),	-- Scarlet Augur's Mantle
+r(1224609),	-- Scarlet Augur's Vestaments
+r(1224610),	-- Scarlet Augur's Cuffs
+r(1224611),	-- Scarlet Augur's Mitts
+r(1224612),	-- Scarlet Augur's Strap
+r(1224613),	-- Scarlet Augur's Leggings
+r(1224614),	-- Scarlet Augur's Soles
+r(1227723),	-- Crusader's Knapsack
+r(1227724),	-- Crimson Dawnwoven Bag
 2.0.0.6080
 r(26745),	-- Bolt of Netherweave
 r(26746),	-- Netherweave Bag
@@ -278,6 +297,23 @@ r(99537),	-- Vicious Embersilk Cape
 r(102171),	-- Black Silk Vest
 4.4.1.57916
 r(1216338),	-- Bloodthirsty Embersilk Cape
+4.4.2.59536
+r(1224154),	-- Vicious Embersilk Belt
+r(1224155),	-- Vicious Embersilk Boots
+r(1224156),	-- Vicious Embersilk Bracers
+r(1224157),	-- Vicious Embersilk Cowl
+r(1224158),	-- Vicious Embersilk Gloves
+r(1224159),	-- Vicious Embersilk Pants
+r(1224160),	-- Vicious Embersilk Robe
+r(1224161),	-- Vicious Embersilk Shoulders
+r(1224162),	-- Vicious Fireweave Belt
+r(1224163),	-- Vicious Fireweave Boots
+r(1224164),	-- Vicious Fireweave Bracers
+r(1224165),	-- Vicious Fireweave Cowl
+r(1224166),	-- Vicious Fireweave Gloves
+r(1224167),	-- Vicious Fireweave Pants
+r(1224168),	-- Vicious Fireweave Robe
+r(1224169),	-- Vicious Fireweave Shoulders
 5.0.3.15890
 r(104115),	-- Release Fire Spirit
 r(110426),	-- Tailoring
@@ -801,11 +837,47 @@ r(1213744),	-- Sylvan Vest
 r(1214173),	-- Bolt of Qiraji Silk
 r(1214306),	-- Dreamscale Bracers
 r(1214307),	-- Dreamscale Mitts
+1.15.6.58725
+r(1223760),	-- Glacial Vest
+r(1223762),	-- Glacial Cloak
+r(1223764),	-- Glacial Gloves
+r(1223766),	-- Glacial Wrists
+r(1223768),	-- Frosty Vest
+r(1223770),	-- Frosty Gloves
+r(1223772),	-- Frosty Wrists
+1.15.7.59706
+r(1224607),	-- Scarlet Augur's Hood
+r(1224608),	-- Scarlet Augur's Mantle
+r(1224609),	-- Scarlet Augur's Vestaments
+r(1224610),	-- Scarlet Augur's Cuffs
+r(1224611),	-- Scarlet Augur's Mitts
+r(1224612),	-- Scarlet Augur's Strap
+r(1224613),	-- Scarlet Augur's Leggings
+r(1224614),	-- Scarlet Augur's Soles
+r(1227723),	-- Crusader's Knapsack
+r(1227724),	-- Crimson Dawnwoven Bag
 3.0.1.8874
 r(56017),	-- Deathchill Cloak
 r(56048),	-- Duskweave Boots
 4.4.1.57916
 r(1216338),	-- Bloodthirsty Embersilk Cape
+4.4.2.59536
+r(1224154),	-- Vicious Embersilk Belt
+r(1224155),	-- Vicious Embersilk Boots
+r(1224156),	-- Vicious Embersilk Bracers
+r(1224157),	-- Vicious Embersilk Cowl
+r(1224158),	-- Vicious Embersilk Gloves
+r(1224159),	-- Vicious Embersilk Pants
+r(1224160),	-- Vicious Embersilk Robe
+r(1224161),	-- Vicious Embersilk Shoulders
+r(1224162),	-- Vicious Fireweave Belt
+r(1224163),	-- Vicious Fireweave Boots
+r(1224164),	-- Vicious Fireweave Bracers
+r(1224165),	-- Vicious Fireweave Cowl
+r(1224166),	-- Vicious Fireweave Gloves
+r(1224167),	-- Vicious Fireweave Pants
+r(1224168),	-- Vicious Fireweave Robe
+r(1224169),	-- Vicious Fireweave Shoulders
 5.0.3.15890
 r(104115),	-- Release Fire Spirit
 8.0.1.26032

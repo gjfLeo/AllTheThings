@@ -39,6 +39,18 @@ r(1219586),	-- Enchant Gloves - Superior Strength
 r(1219587),	-- Enchant Cloak - Agility
 r(1220623),	-- Enchant Shield - Critical Strike
 r(1220624),	-- Enchant Bracer - Greater Spellpower
+1.15.7.59706
+r(1231128),	-- Enchant Weapon - Grand Crusader
+r(1231139),	-- Enchant 2H Weapon - Grand Arcanist
+r(1231164),	-- Enchant Weapon - Grand Sorceror
+r(1232172),	-- Enchant 2H Weapon - Grand Inquisitor
+11.1.5.59571
+r(1225074),	-- Twilight Devastation
+r(1225873),	-- Echoing Void
+r(1227206),	-- Infinite Stars
+r(1227288),	-- Gushing Wound
+r(1227294),	-- Twisted Appendage
+r(1227311),	-- Void Ritual
 
 
 
@@ -84,3 +96,15 @@ r(1219586),	-- Enchant Gloves - Superior Strength
 r(1219587),	-- Enchant Cloak - Agility
 r(1220623),	-- Enchant Shield - Critical Strike
 r(1220624),	-- Enchant Bracer - Greater Spellpower
+1.15.7.59706
+r(1231128),	-- Enchant Weapon - Grand Crusader
+r(1231139),	-- Enchant 2H Weapon - Grand Arcanist
+r(1231164),	-- Enchant Weapon - Grand Sorceror
+r(1232172),	-- Enchant 2H Weapon - Grand Inquisitor
+11.1.5.59571
+r(1225074),	-- Twilight Devastation
+r(1225873),	-- Echoing Void
+r(1227206),	-- Infinite Stars
+r(1227288),	-- Gushing Wound
+r(1227294),	-- Twisted Appendage
+r(1227311),	-- Void Ritual
