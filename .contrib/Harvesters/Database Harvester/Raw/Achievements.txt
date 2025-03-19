@@ -7131,12 +7131,14 @@
 12413@@@Heritage of the Nightborne
 12414@@@Heritage of the Lightforged
 12415@@@Heritage of Highmountain
-7.3.5.25928
-11989@@@Forbidden Descent
-11990@@@Hope's End
+7.3.5.25632
 12416@@@The Total Package
 12429@@@Wetlands Quests
 12430@@@Duskwood Quests
+12431@@@Priority Mail
+7.3.5.25928
+11989@@@Forbidden Descent
+11990@@@Hope's End
 12431@@@Post Haste
 12439@@@Priority Mail
 12445@@@Allied Races: Highmountain Tauren Unlock Requirements

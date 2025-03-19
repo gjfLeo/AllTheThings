@@ -1090,9 +1090,10 @@
 951@@@Quest Path 3004: Quest - Jade Forest - Fort Grookin -> Ka Pao Rise 
 963@@@Quest Path 3018: Quest - Jade Forest - Glassfin Village -> Ka Pao Rise 
 1495@@@Quest Path 4342: Shadowmoon Valley 6.0:JP3 - A - Broken Precipice - Taxi Path to Broken Precipice 
-7.3.5.25928
+7.3.5.25632
 2058@@@Staghelm Point, Silithus
 2059@@@Southwind Village, Silithus
+7.3.5.25928
 8.0.1.25902
 1945@@@Quest Path 6154: 8.0 Zuldazar - Quest - "King Rastakhan" - ZTO
 1953@@@Zul'jan, Nazmir

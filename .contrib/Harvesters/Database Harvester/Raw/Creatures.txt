@@ -10134,12 +10134,27 @@
 132674@@@Brown Bear - IGC
 132675@@@Thundertail Flapper - IGC
 132682@@@Healing Tide Totem - IGC
+7.3.5.25632
+133012@@@Magni Bronzebeard (IGC)
+133053@@@Letter
+133064@@@Unevolved Silithid Grub
+133071@@@Wounded Vindicator - IGC
+133080@@@Highlord Darion Mograine (IGC)
+133081@@@Kor'vas Bloodthorn (IGC)
+133082@@@Rensar Greathoof (IGC)
+133083@@@Halduron Brightwing (IGC)
+133084@@@Archmage Kalec (IGC)
+133085@@@Iron-Body Ponshu (IGC)
+133086@@@Arator the Redeemer (IGC)
+133087@@@High Priestess Ishanah (IGC)
+133088@@@Valeera Sanguinar (IGC)
+133089@@@Rehgar Earthfury (IGC)
+133090@@@Ritssyn Flamescowl (IGC)
+133091@@@Eitrigg (IGC)
 7.3.5.25928
 132371@@@General Purpose Stalker
 133012@@@Magni Bronzebeard
-133053@@@Letter
 133064@@@Silithid Mini-Tank
-133071@@@Wounded Vindicator - IGC
 133080@@@Highlord Darion Mograine
 133081@@@Kor'vas Bloodthorn
 133082@@@Rensar Greathoof

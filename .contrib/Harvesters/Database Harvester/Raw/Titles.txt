@@ -433,6 +433,8 @@
 369@@@%s, the Tactician
 7.3.5.25600
 370@@@Demonic Gladiator %s
+7.3.5.25632
+372@@@Courier %s
 7.3.5.25928
 372@@@Postmaster %s
 373@@@Prospector %s
