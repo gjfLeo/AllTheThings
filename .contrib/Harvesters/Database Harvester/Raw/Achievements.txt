@@ -7013,9 +7013,7 @@
 12258@@@Realm First! Argus the Unmaker
 7.3.2.25326
 12266@@@Argus Raid - Argus the Unmaker Defeated
-7.3.5.25928
-11989@@@Forbidden Descent
-11990@@@Hope's End
+7.3.5.25600
 12185@@@Demonic Gladiator: Legion Season 7
 12186@@@Duelist: Legion Season 7
 12187@@@Challenger: Legion Season 7
@@ -7031,6 +7029,10 @@
 12198@@@Demonic Elite
 12199@@@Demonic Combatant
 12200@@@Demonic Combatant
+12216@@@Prestige 26
+12217@@@Prestige 27
+12218@@@Prestige 28
+12219@@@Prestige 29
 12242@@@Allied Races: Void Elf
 12243@@@Allied Races: Lightforged Draenei
 12244@@@Allied Races: Nightborne
@@ -7129,6 +7131,9 @@
 12413@@@Heritage of the Nightborne
 12414@@@Heritage of the Lightforged
 12415@@@Heritage of Highmountain
+7.3.5.25928
+11989@@@Forbidden Descent
+11990@@@Hope's End
 12416@@@The Total Package
 12429@@@Wetlands Quests
 12430@@@Duskwood Quests

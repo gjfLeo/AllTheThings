@@ -10041,7 +10041,7 @@
 129871@@@Arator the Redeemer
 129872@@@Vereesa Windrunner
 129876@@@Grand Artificer Romuul
-7.3.5.25928
+7.3.5.25600
 96984@@@Oenia Skyhorn
 124252@@@Spiritwalker Ebonhorn
 125181@@@Spiritwalker Ebonhorn
@@ -10076,6 +10076,7 @@
 130200@@@Arcanist Valtrois
 130201@@@Silgryn
 130215@@@Magni Bronzebeard
+130216@@@Magni Bronzebeard
 130274@@@Creeping Sludge
 130381@@@Lightsworn Recruit
 130382@@@Lightsworn Recruit
@@ -10123,7 +10124,6 @@
 132334@@@Grand Artificer Romuul
 132357@@@Alleria Windrunner
 132366@@@Mailemental
-132371@@@General Purpose Stalker
 132380@@@Mayla Highmountain
 132387@@@Spiritwalker Ebonhorn
 132415@@@Rivermane Shaman (IGC)
@@ -10134,6 +10134,8 @@
 132674@@@Brown Bear - IGC
 132675@@@Thundertail Flapper - IGC
 132682@@@Healing Tide Totem - IGC
+7.3.5.25928
+132371@@@General Purpose Stalker
 133012@@@Magni Bronzebeard
 133053@@@Letter
 133064@@@Silithid Mini-Tank
@@ -10901,7 +10903,6 @@
 135736@@@Gore
 8.0.1.26032
 128553@@@Azer'tor
-130216@@@Magni Bronzebeard
 130236@@@Zul'nazan Undead
 135778@@@Channel Target (DNT)
 135801@@@Hexlord Raal

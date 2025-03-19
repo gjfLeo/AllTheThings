@@ -386,11 +386,12 @@
 2361@@@Pet - Feathermane
 7.3.0.24727
 983@@@Rodent
-7.3.5.25928
+7.3.5.25600
 2419@@@Racial - Nightborne
 2420@@@Racial - Highmountain Tauren
 2421@@@Racial - Lightforged Draenei
 2423@@@Racial - Void Elf
+7.3.5.25928
 2464@@@Language: Shalassian
 2465@@@Language: Thalassian
 8.0.1.25902

@@ -1086,6 +1086,10 @@
 2018@@@Quest Path 6440: 7.3 QA - TEST HOTFIX - Task 110012 - TaxiPathNode - RRB
 7.3.0.24829
 2020@@@Quest Path 6443: 7.3 QA - TEST HOTFIX - Task 110012 - TaxiPathNode - 2 - RRB
+7.3.5.25600
+951@@@Quest Path 3004: Quest - Jade Forest - Fort Grookin -> Ka Pao Rise 
+963@@@Quest Path 3018: Quest - Jade Forest - Glassfin Village -> Ka Pao Rise 
+1495@@@Quest Path 4342: Shadowmoon Valley 6.0:JP3 - A - Broken Precipice - Taxi Path to Broken Precipice 
 7.3.5.25928
 2058@@@Staghelm Point, Silithus
 2059@@@Southwind Village, Silithus
@@ -2643,9 +2647,6 @@
 10.0.0.45454
 2842@@@Rubyscale Outpost, The Waking Shores
 10.0.0.45970
-951@@@Quest Path 3004: Quest - Jade Forest - Fort Grookin -> Ka Pao Rise 
-963@@@Quest Path 3018: Quest - Jade Forest - Glassfin Village -> Ka Pao Rise 
-1495@@@Quest Path 4342: Shadowmoon Valley 6.0:JP3 - A - Broken Precipice - Taxi Path to Broken Precipice 
 2392@@@Quest Path 7569: 8.2 Nazjatar - Kal'methir - Boss Path 
 2711@@@Quest Path 8617: 9.0 Maw - Outdoor - Mawsworn Rifts - Perdition Hold -> Desmotaeron 
 10.0.0.46479

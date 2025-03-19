@@ -823,8 +823,7 @@
 7.3.2.25079
 245723@@@Stormwind Skychaser
 245725@@@Orgrimmar Interceptor
-7.3.5.25928
-227995@@@Dominant Gladiator's Storm Dragon
+7.3.5.25600
 239766@@@Blue Qiraji War Tank
 239767@@@Red Qiraji War Tank
 239770@@@Black Qiraji War Tank
@@ -832,6 +831,8 @@
 258060@@@Highmountain Thunderhoof
 258845@@@Nightborne Manasaber
 259202@@@Starcursed Voidstrider
+7.3.5.25928
+227995@@@Dominant Gladiator's Storm Dragon
 8.0.1.25902
 237285@@@Hyena Mount White (PH)
 237286@@@Hyena Mount Tan (PH)
