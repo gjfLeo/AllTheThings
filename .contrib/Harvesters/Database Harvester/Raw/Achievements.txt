@@ -11515,8 +11515,9 @@
 17342@@@The Future We Make
 17343@@@Drop It Like It's Hot
 17345@@@Airborne Tumbler
-10.0.5.47871
+10.0.5.47621
 17305@@@Trading Post: Dragonflight
+10.0.5.47871
 17420@@@Trial of Tyr Ineligible For Spark Skip [DNT]
 10.0.5.48001
 17495@@@<Hidden> 10.0 Professions Onboarding Skip Unlock [DNT] (copy)
