@@ -1635,6 +1635,9 @@
 369480@@@Cerulean Marsh Hopper
 395095@@@Whelpling
 397406@@@[PH] Magical Fish Mount
+10.0.5.47186
+397406@@@Wonderous Wavewhisker
+400733@@@[PH] Goblin Shredder Rocket
 10.0.5.47871
 10.0.5.48526
 400733@@@Rocket Shredder 9001
@@ -1699,7 +1702,6 @@
 10.1.5.50355
 412088@@@Grotto Netherwing Drake
 10.1.5.50379
-397406@@@Wonderous Wavewhisker
 10.1.5.50504
 171840@@@Coldflame Infernal
 213349@@@Flarecore Infernal

@@ -11487,6 +11487,13 @@
 17334@@@Trading Post Enthusiast
 17335@@@Airborne Tumbler
 17336@@@Airborne Tumbler
+10.0.5.47186
+16697@@@Renewed Proto-Drake Head Features
+16698@@@Renewed Proto-Drake Tail Features
+16705@@@Windborne Velocidrake Head Features
+16712@@@Highland Drake Head Features
+16727@@@Cliffside Wylderdrake Head Features
+17338@@@<Hidden> ACCOUNT: Veritistrasz Q2 Completed
 10.0.5.47871
 15657@@@Dragon Isles Blacksmithing 75 (DNT)
 15660@@@Dragon Isles Alchemy 75 (DNT)
@@ -11504,14 +11511,8 @@
 16663@@@Dragon Isles Tailoring 60 (DNT)
 16664@@@Dragon Isles Jewelcrafting 60 (DNT)
 16665@@@Dragon Isles Engineering 60 (DNT)
-16697@@@Renewed Proto-Drake Head Features
-16698@@@Renewed Proto-Drake Tail Features
-16705@@@Windborne Velocidrake Head Features
-16712@@@Highland Drake Head Features
-16727@@@Cliffside Wylderdrake Head Features
 16734@@@Crimson Legend: Dragonflight Season 1
 17305@@@Trading Post: Dragonflight
-17338@@@<Hidden> ACCOUNT: Veritistrasz Q2 Completed
 17342@@@The Future We Make
 17343@@@Drop It Like It's Hot
 17345@@@Airborne Tumbler
