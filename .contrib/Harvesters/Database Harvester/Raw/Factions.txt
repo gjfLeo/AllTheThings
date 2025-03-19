@@ -298,12 +298,11 @@
 2402@@@CTF - Flag - Horde
 2403@@@CTF - Flag - Alliance
 1.13.3.33155
-6@@@PLAYER, Tauren 
+6@@@PLAYER, Tauren
 1.14.1.41077
 1041@@@Frenzy
 1.14.2.41959
 2505@@@Dragonflight, Chromatic
-1.14.3.46575
 1.15.0.52124
 2586@@@Azeroth Commerce Authority
 2587@@@Durotar Supply and Logistics
@@ -552,8 +551,6 @@
 1156@@@The Ashen Verdict
 1159@@@CTF - Flag - Alliance 2
 1160@@@CTF - Flag - Horde 2
-3.4.0.46158
-3.4.1.48503
 4.0.1.12911
 52@@@Orc, Fel Dragonmaw
 54@@@Gnomeregan
@@ -789,7 +786,6 @@
 2230@@@PLAYER, Highmountain Tauren
 2231@@@PLAYER, Nightborne
 2232@@@PLAYER, Lightforged Draenei
-7.3.5.25928
 8.0.1.25902
 2103@@@Zandalari Empire
 2104@@@Battle for Azeroth
@@ -1027,9 +1023,6 @@
 10.0.0.45970
 2523@@@Dark Talons
 2524@@@Obsidian Warders
-10.0.2.45779
-10.0.2.46259
-10.0.2.47187
 10.0.7.47910
 2557@@@Hearthfire Fellowship
 10.1.0.48480

@@ -228,7 +228,6 @@
 4.4.0.53627
 25706@@@Searing Scorchling
 40295@@@Blue Clockwork Rocket Bot
-4.4.0.54377
 4.4.0.54500
 34278@@@Withers
 42177@@@Blue Mini Jouster
@@ -299,7 +298,6 @@
 56266@@@Fetish Shaman
 58163@@@Soul of the Aspects
 59020@@@Eye of the Legion
-4.4.0.56014
 4.4.1.57359
 232527@@@Reven
 5.0.3.15882
@@ -10186,7 +10184,6 @@
 133545@@@Rift Warden (IGC)
 133546@@@Umbral Ranger (IGC)
 133547@@@Locus Researcher (IGC)
-7.3.5.25928
 8.0.1.25902
 46384@@@Crazed Gnome
 46568@@@Crazed Spiderbot Pilot
@@ -19314,16 +19311,8 @@
 199723@@@Turbulent Gust
 199724@@@Howling Wind
 199725@@@Emerald Drake
-10.0.2.45779
-10.0.2.45969
-10.0.2.46091
-10.0.2.46259
-10.0.2.46420
-10.0.2.46781
 10.0.2.46802
 201041@@@Windsage Garuman
-10.0.2.46879
-10.0.2.46924
 10.0.2.46999
 201022@@@Soridormi
 10.0.5.47118
@@ -19340,7 +19329,6 @@
 199021@@@Patch
 200676@@@Firefly
 200746@@@Primalist Tomorrow Trigger Bunny
-10.0.5.47871
 10.0.7.47910
 186743@@@Elynae Dawnbreaker
 186747@@@Lialyn Summersong
@@ -20351,7 +20339,6 @@
 208462@@@Chromie
 208464@@@Morchie
 208466@@@Infinite Dragon
-10.1.5.50622
 10.1.5.51130
 208436@@@Slyvy
 10.1.7.50442

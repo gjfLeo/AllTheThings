@@ -2747,7 +2747,6 @@
 16397@@@[DNT] Heirloom Tracking - Bloodied Arcanite Reaper (Hidden)
 16433@@@Soul of Iron (Season of Mastery)
 16437@@@[DNT] Soul of Iron Tracker (Season of Mastery) (hidden)
-3.4.0.46158
 3.4.0.47168
 17328@@@[DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden)
 3.4.1.46722
@@ -2767,11 +2766,6 @@
 3.4.1.47245
 17340@@@Ahead of the Curve: Yogg-Saron
 17341@@@Cutting Edge: Ulduar
-3.4.1.47966
-3.4.1.48019
-3.4.1.48120
-3.4.1.48340
-3.4.1.48503
 3.4.1.49822
 17415@@@Rival: Season 6
 17416@@@Gladiator: Season 6
@@ -2779,7 +2773,6 @@
 17418@@@Challenger: Season 6
 18375@@@[DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden)
 18376@@@[DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden)
-3.4.2.49311
 3.4.2.49658
 18544@@@Rival: Season 7
 18545@@@Gladiator: Season 7
@@ -3771,7 +3764,6 @@
 40971@@@Challenger: Season 9
 4.4.0.57244
 41134@@@[DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden)
-4.4.1.56464
 4.4.1.56859
 41139@@@Protocol Inferno: Blackrock Caverns
 41140@@@Protocol Inferno: Throne of the Tides
@@ -3789,7 +3781,6 @@
 41334@@@Challenger: Season 10
 41336@@@Gladiator: Season 10
 41713@@@[DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) (copy)
-4.4.2.58486
 5.0.3.15882
 110@@@Lich King 5-player boss defeated the most
 131@@@Journeyman Medic
@@ -7154,7 +7145,6 @@
 12453@@@Allied Races: Nightborne (Hidden Character Achievement)
 12455@@@Westfall & Duskwood Quests
 12456@@@Loch Modan & Wetlands Quests
-7.3.5.25928
 8.0.1.25902
 11339@@@Legion's Bane
 11861@@@Zuldazar
@@ -11355,19 +11345,14 @@
 17210@@@<Hidden> Chromie Time - Hit 60 While In Chromie Time (copy)
 10.0.2.45779
 16729@@@To All the Squirrels Hidden Till Now
-10.0.2.45969
 10.0.2.46091
 16748@@@Private Crafting Orders Fulfilled
 10.0.2.46259
 16805@@@<Hidden> ACCOUNT: Renown Campaign Complete - Centaur 1
-10.0.2.46420
-10.0.2.46479
 10.0.2.46741
 17314@@@Heroic Edition: Tangled Dreamweaver
-10.0.2.46781
 10.0.2.46999
 16493@@@Petty Theft Mammoth
-10.0.2.47067
 10.0.2.47213
 17339@@@Legend: Dragonflight Season 1
 10.0.2.47631
@@ -11532,10 +11517,6 @@
 17420@@@Trial of Tyr Ineligible For Spark Skip [DNT]
 10.0.5.48001
 17495@@@<Hidden> 10.0 Professions Onboarding Skip Unlock [DNT] (copy)
-10.0.5.48069
-10.0.5.48317
-10.0.5.48397
-10.0.5.48526
 10.0.7.47910
 16532@@@True Friends with Sabellian
 17214@@@Stormsunder Crater Circuit: Bronze
@@ -12047,7 +12028,6 @@
 18214@@@Rashok, the Elder kills (Heroic Aberrus, the Shadowed Crucible)
 18219@@@Kazzara, the Hellforged kills (Mythic Aberrus, the Shadowed Crucible)
 18284@@@A Niffen's Best Buddy
-10.1.0.49222
 10.1.0.49255
 18380@@@Dragonflight Season 2 Hero
 10.1.0.49426

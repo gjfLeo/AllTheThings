@@ -384,7 +384,6 @@
 110051@@@Heart of the Aspects
 113120@@@Feldrake
 121820@@@Obsidian Nightwing
-4.4.0.54377
 6.0.1.18179
 0@@@TEST - Traveler's Tundra Mammoth (Alliance)
 0@@@TEST - Running Wild
@@ -833,7 +832,6 @@
 259202@@@Starcursed Voidstrider
 7.3.5.25727
 227995@@@Dominant Gladiator's Storm Dragon
-7.3.5.25928
 8.0.1.25902
 237285@@@Hyena Mount White (PH)
 237286@@@Hyena Mount Tan (PH)
@@ -1401,7 +1399,6 @@
 359317@@@Wen Lo, the River's Edge
 359318@@@Soaring Spelltome
 359843@@@Tangled Dreamweaver
-9.1.5.40290
 9.1.5.40622
 317177@@@Sunwarmed Furline
 363608@@@Lightforged Ruinstrider
@@ -1606,14 +1603,8 @@
 394737@@@Vicious Sabertooth
 394738@@@Vicious Sabertooth
 395644@@@Divine Kiss of Ohn'ahra
-10.0.2.45779
-10.0.2.45969
-10.0.2.46091
-10.0.2.46259
-10.0.2.46420
 10.0.2.46689
 384963@@@Guardian Vorquin
-10.0.2.46781
 10.0.2.46879
 374155@@@Shellack
 374162@@@Scrappy Worldsnail
@@ -1622,9 +1613,6 @@
 376910@@@Brown War Ottuk
 376913@@@Yellow War Ottuk
 385738@@@Temperamental Skyclaw
-10.0.2.46999
-10.0.2.47120
-10.0.2.47631
 10.0.5.47118
 366647@@@Magenta Cloud Serpent
 366789@@@Crusty Crawler
@@ -1642,8 +1630,6 @@
 400733@@@[PH] Goblin Shredder Rocket
 10.0.5.47481
 400733@@@Rocket Shredder 9001
-10.0.5.47871
-10.0.5.48526
 10.0.7.48076
 349935@@@Noble Bruffalon
 10.0.7.48749
@@ -1693,7 +1679,6 @@
 413827@@@Harbor Gryphon
 414328@@@Perfected Juggernaut
 414334@@@Scourgebound Vanquisher
-10.1.5.49719
 10.1.5.49908
 417548@@@Renewed Proto-Drake
 417552@@@Windborne Velocidrake
@@ -1704,13 +1689,11 @@
 419002@@@Temp
 10.1.5.50355
 412088@@@Grotto Netherwing Drake
-10.1.5.50379
 10.1.5.50504
 171840@@@Coldflame Infernal
 213349@@@Flarecore Infernal
 10.1.5.50705
 417245@@@Ancestral Clefthoof
-10.1.5.50747
 10.1.7.50442
 419002@@@Whelpling
 419567@@@Ginormous Grrloc
@@ -1773,7 +1756,6 @@
 428065@@@Jeweled Jade Scarab
 428067@@@Shadowflame Hellbike
 428068@@@Felreaver Deathcycle
-10.2.0.51685
 10.2.0.52038
 417888@@@Algarian Stormrider
 10.2.0.52095
@@ -1800,7 +1782,6 @@
 433281@@@Savage Blue Battle Turtle
 10.2.5.52554
 278966@@@Fiery Hearthsteed
-10.2.5.52902
 10.2.5.52968
 430225@@@Gilnean Prowler
 10.2.6.53840

@@ -156,11 +156,6 @@
 3.4.1.47245
 143@@@%s, Soul of Iron
 144@@@%s, Survivor of the Firelord
-3.4.1.47966
-3.4.1.48019
-3.4.1.48120
-3.4.1.48340
-3.4.1.48503
 4.0.1.12911
 143@@@Recruit of %s
 144@@@Guardian of %s
@@ -439,7 +434,6 @@
 372@@@Postmaster %s
 7.3.5.25804
 373@@@Prospector %s
-7.3.5.25928
 8.0.1.25902
 371@@@%s, No Good, Dirty, Rotten, Candy Stealer!
 8.0.1.26433
@@ -620,11 +614,6 @@
 486@@@Personal Crafter %s
 487@@@%s, Famed Slayer of Raszageth
 488@@@%s the Storm-Eater
-10.0.2.45779
-10.0.2.45969
-10.0.2.46091
-10.0.2.46259
-10.0.2.46420
 10.0.2.47213
 491@@@Legend %s
 10.0.5.47118
@@ -632,7 +621,6 @@
 10.0.5.47481
 482@@@Crimson Legend %s
 492@@@Skyscourge %s
-10.0.5.47799
 10.0.7.47910
 489@@@Forbidden Reach Racer %s
 494@@@%s the Key Master

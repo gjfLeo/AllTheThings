@@ -1939,9 +1939,7 @@
 2826@@@+$i Block
 3726@@@+$i Haste
 1.13.3.33155
-250@@@Weapon Damage +1 
-1.14.3.46575
-1.14.4.50252
+250@@@Weapon Damage +1
 1.15.0.52124
 6708@@@Deadly Brew
 6709@@@Between the Eyes
@@ -3829,7 +3827,6 @@
 3340@@@+10 Critical Strike Rating
 2.5.4.42581
 2669@@@+40 Spell Damage and Healing
-2.5.4.44833
 3.0.1.8303
 2506@@@+28 Melee Critical Strike Rating
 2523@@@+30 Ranged Hit Rating
@@ -4899,19 +4896,16 @@
 3882@@@+8 Armor Penetration Rating
 3883@@@Rune of the Nerubian Carapace
 3.4.0.45854
-3045@@@+5 Strength and +6 Stamina 
-3050@@@+6 Spell Power and +4 Intellect 
-3155@@@Chance to Increase Melee/Ranged Attack Speed 
-3430@@@+6 Defense Rating and +9 Stamina 
-3643@@@Chance to Increase Melee/Ranged Attack Speed 
-3700@@@+7 Defense Rating and +11 Stamina 
-3.4.0.46158
-3.4.1.48503
+3045@@@+5 Strength and +6 Stamina
+3050@@@+6 Spell Power and +4 Intellect
+3155@@@Chance to Increase Melee/Ranged Attack Speed
+3430@@@+6 Defense Rating and +9 Stamina
+3643@@@Chance to Increase Melee/Ranged Attack Speed
+3700@@@+7 Defense Rating and +11 Stamina
 3.4.1.49822
 2888@@@+12 Block Value
 2975@@@+10 Block Value
 3363@@@+27 Block Value
-3.4.2.49311
 4.0.1.12911
 2@@@Frostbrand
 5@@@Flametongue
@@ -11699,16 +11693,12 @@
 6696@@@Weighted: +$k1 Attack Power |A:Professions-Icon-Quality-Tier1-Small:20:20|a
 6697@@@Weighted: +$k1 Attack Power |A:Professions-Icon-Quality-Tier2-Small:20:20|a
 6698@@@Weighted: +$k1 Attack Power |A:Professions-Icon-Quality-Tier3-Small:20:20|a
-10.0.2.45779
 10.0.2.45969
 6382@@@Primal Razorstone
 6383@@@Primal Razorstone
 6384@@@Primal Razorstone
-10.0.2.46091
-10.0.2.46259
 10.0.5.47118
 6721@@@10.0.5 - Generic - Storm - Weapon Enchant - High - SK
-10.0.5.47871
 10.0.7.47910
 6379@@@Sharpened: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier1:20:20|a
 6380@@@Sharpened: +$k1 Attack Power |A:Professions-ChatIcon-Quality-Tier2:20:20|a
