@@ -2106,3 +2106,5 @@
 1221694@@@Enterprising Shreddertank
 11.1.0.58731
 466027@@@Darkfuse Spy-Eye
+11.1.0.58945
+466011@@@Flarendo the Furious
