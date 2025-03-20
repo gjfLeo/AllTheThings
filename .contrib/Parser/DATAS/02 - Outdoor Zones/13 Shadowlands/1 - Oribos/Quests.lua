@@ -535,7 +535,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					62704,	-- The Threads of Fate
 				},
 				["provider"] = { "n", 175008 },	-- Secutor Mevix
-				["coord"] = { 52.8, 68.2, MALDRAXXUS },
+				["coords"] = {
+					{ 52.8, 68.2, MALDRAXXUS },
+					{ 49.7, 43.5, SEAT_OF_THE_PRIMUS },
+				},
 				["g"] = {
 					i(181685),	-- Gorewrought Barrier
 					i(181689),	-- Gorewrought Bonesaw

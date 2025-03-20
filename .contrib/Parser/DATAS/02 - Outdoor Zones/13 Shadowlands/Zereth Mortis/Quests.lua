@@ -46,6 +46,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					["provider"] = { "n", 184062 },	-- Firim
 					["coord"] = { 31.2, 51.3, ZERETH_MORTIS },
 					["g"] = {
+						o(375015, {	-- Primordial Core
+							["coord"] = { 32.1, 57.3, ZERETH_MORTIS },
+						}),
 						i(188955),	-- Primordial Core (QI!)
 					},
 				}),
