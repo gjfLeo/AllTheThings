@@ -914,9 +914,6 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 				{ "o", 207724 },	-- Shipwreck Debris (Fishing school)
 				{ "i", 67495 },	-- Strange Bloated Stomach
 				{ "i", 67539 },	-- Tiny Treasure Chest
-				-- #if AFTER 4.1.0
-				{ "i", 70719 },	-- Water-Filled Gills
-				-- #endif
 			},
 		}),
 	}),
