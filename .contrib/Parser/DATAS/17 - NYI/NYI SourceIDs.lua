@@ -6800,5 +6800,16 @@ root(ROOTS.NeverImplemented, n(SOURCEID_NYI, {
 			i(232298, {["sourceID"] = 230199 }),	-- Unknown Name [NYI]
 			i(232640, {["sourceID"] = 230347 }),	-- Unknown Name [NYI]
 		})),
+
+		-- 11.0.7
+		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
+			i(230988, {["sourceID"] = 229226 }),	-- Unknown Name [NYI]
+			i(232518, {["sourceID"] = 230294 }),	-- Unknown Name [NYI]
+			i(232649, {["sourceID"] = 230351 }),	-- Unknown Name [NYI]
+			i(232650, {["sourceID"] = 230352 }),	-- Unknown Name [NYI]
+			i(233332, {["sourceID"] = 230910 }),	-- Unknown Name [NYI]
+			i(235550, {["sourceID"] = 267001 }),	-- Unknown Name [NYI]
+			i(235551, {["sourceID"] = 267002 }),	-- Unknown Name [NYI]
+		})),
 	}),
 }));

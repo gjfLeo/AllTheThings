@@ -11130,19 +11130,188 @@ root(ROOTS.NeverImplemented, n(SETS, {
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			header(HEADERS.LFGDungeon, 2645, {	-- Nerub-ar Palace
 				-- Extra Head Tierpieces
-				i(228148),	-- Warsculptor's Barbute
-				i(228149),	-- Entombed Seraph's Casque
-				i(228150),	-- Exhumed Centurion's Galea
-				i(228151),	-- Noetic of the Forgotten Reservoir
-				i(228152),	-- Lightless Scavenger's Skull
-				i(228153),	-- Horns of the Destroyer
-				i(228154),	-- K'areshi Phantom's Emptiness
-				i(228155),	-- Gatecrasher's Horns
-				i(228156),	-- Mask of the Greatlynx
-				i(228157),	-- Impalers of the Hypogeal Nemesis
-				i(228158),	-- Hexflame Coven's All-Seeing Eye
-				i(228159),	-- Living Luster's Semblance
-				i(228161),	-- Hood of Violet Rebirth
+				cl(DEATHKNIGHT, {
+					i(228150, {["sourceID"] = 224337 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224338 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224339 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224340 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224341 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224342 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224343 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224344 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224345 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224346 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224347 }),	-- Exhumed Centurion's Galea
+					i(228150, {["sourceID"] = 224348 }),	-- Exhumed Centurion's Galea
+				}),
+				cl(DEMONHUNTER, {
+					i(228157, {["sourceID"] = 224421 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224422 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224423 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224424 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224425 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224426 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224427 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224428 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224429 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224430 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224431 }),	-- Impalers of the Hypogeal Nemesis
+					i(228157, {["sourceID"] = 224432 }),	-- Impalers of the Hypogeal Nemesis
+				}),
+				cl(DRUID, {
+					i(228156, {["sourceID"] = 224409 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224410 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224411 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224412 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224413 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224414 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224415 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224416 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224417 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224418 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224419 }),	-- Mask of the Greatlynx
+					i(228156, {["sourceID"] = 224420 }),	-- Mask of the Greatlynx
+				}),
+				cl(EVOKER, {
+					i(228153, {["sourceID"] = 224373 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224374 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224375 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224376 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224377 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224378 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224379 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224380 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224381 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224382 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224383 }),	-- Horns of the Destroyer
+					i(228153, {["sourceID"] = 224384 }),	-- Horns of the Destroyer
+				}),
+				cl(HUNTER, {
+					i(228152, {["sourceID"] = 224361 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224362 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224363 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224364 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224365 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224366 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224367 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224368 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224369 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224370 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224371 }),	-- Lightless Scavenger's Skull
+					i(228152, {["sourceID"] = 224372 }),	-- Lightless Scavenger's Skull
+				}),
+				cl(MAGE, {
+					i(228161, {["sourceID"] = 224458 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224459 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224460 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224461 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224462 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224463 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224464 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224465 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224466 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224467 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224468 }),	-- Hood of Violet Rebirth
+					i(228161, {["sourceID"] = 224469 }),	-- Hood of Violet Rebirth
+				}),
+				cl(MONK, {
+					i(228155, {["sourceID"] = 224397 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224398 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224399 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224400 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224401 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224402 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224403 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224404 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224405 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224406 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224407 }),	-- Gatecrasher's Horns
+					i(228155, {["sourceID"] = 224408 }),	-- Gatecrasher's Horns
+				}),
+				cl(PALADIN, {
+					i(228149, {["sourceID"] = 224325 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224326 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224327 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224328 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224329 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224330 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224331 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224332 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224333 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224334 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224335 }),	-- Entombed Seraph's Casque
+					i(228149, {["sourceID"] = 224336 }),	-- Entombed Seraph's Casque
+				}),
+				cl(PRIEST, {
+					i(228159, {["sourceID"] = 224445 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224446 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224447 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224448 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224449 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224450 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224451 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224452 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224453 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224454 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224455 }),	-- Living Luster's Semblance
+					i(228159, {["sourceID"] = 224456 }),	-- Living Luster's Semblance
+				}),
+				cl(ROGUE, {
+					i(228154, {["sourceID"] = 224385 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224386 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224387 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224388 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224389 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224390 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224391 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224392 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224393 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224394 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224395 }),	-- K'areshi Phantom's Emptiness
+					i(228154, {["sourceID"] = 224396 }),	-- K'areshi Phantom's Emptiness
+				}),
+				cl(SHAMAN, {
+					i(228151, {["sourceID"] = 224349 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224350 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224351 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224352 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224353 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224354 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224355 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224356 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224357 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224358 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224359 }),	-- Noetic of the Forgotten Reservoir
+					i(228151, {["sourceID"] = 224360 }),	-- Noetic of the Forgotten Reservoir
+				}),
+				cl(WARLOCK, {
+					i(228158, {["sourceID"] = 224433 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224434 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224435 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224436 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224437 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224438 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224439 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224440 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224441 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224442 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224443 }),	-- Hexflame Coven's All-Seeing Eye
+					i(228158, {["sourceID"] = 224444 }),	-- Hexflame Coven's All-Seeing Eye
+				}),
+				cl(WARRIOR, {
+					i(228148, {["sourceID"] = 224313 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224314 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224315 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224316 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224317 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224318 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224319 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224320 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224321 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224322 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224323 }),	-- Warsculptor's Barbute
+					i(228148, {["sourceID"] = 224324 }),	-- Warsculptor's Barbute
+				}),
 			}),
 		})),
 
