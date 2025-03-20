@@ -402,6 +402,14 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 		expansion(EXPANSION.LEGION, patch(3,2), bubbleDownSelf({ ["timeline"] = { CREATED_7_3_2 } }, {
 			ach(12138),	-- Fierce Gladiator's Storm Dragon
 		})),
+
+		-- 7.3.5
+		expansion(EXPANSION.LEGION, patch(3,5), bubbleDownSelf({ ["timeline"] = { CREATED_7_3_5 } }, {
+			ach(12216),	-- Prestige 26
+			ach(12217),	-- Prestige 27
+			ach(12218),	-- Prestige 28
+			ach(12219),	-- Prestige 29
+		})),
 	}),
 	expansion(EXPANSION.BFA, {
 		-- 8.0.1
