@@ -3437,5 +3437,22 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			i(226695),	-- Cunning Advisor's Favor
 			i(226696),	-- Mighty Advisor's Favor
 		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket
+			i(234511),	-- Corrupted Cuirass
+			i(234525),	-- Corrupted Crown
+			i(235219),	-- Fireworks Hat
+			i(235720),	-- Guardian Serpent Cowl
+			i(235736),	-- Guardian Serpent Crown
+			i(235737),	-- Guardian Serpent Leggings
+			i(235738),	-- Guardian Serpent Pants
+			i(235753),	-- Raiment of the Chromatic Hydra
+
+			-- Trinkets Note for Darkal
+			i(230187),	-- Lucio Boombox
+			i(232547),	-- Omega Strike Force
+		})),
 	}),
 }));

@@ -701,5 +701,25 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(210873),	-- Earthen Identification Plaque
 			i(231019),	-- Hearthstone Invitation Letter
 		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			i(238395),	-- Barrel of Fireworks
+			i(228822),	-- Burgled Art
+			i(225931),	-- Contract Fee
+			i(227702),	-- Crumpled Report (TRAINING, DNT)
+			i(226525),	-- Demolition Control Code
+			i(226522),	-- Demolition Controller Fragment
+			i(230212),	-- Emergency Teleporter
+			i(232651),	-- Faded Journal Page
+			i(231021),	-- Imported Brews
+			i(226393),	-- Jetpack-in-a-Box
+			i(226216),	-- Kaja'Cola Can
+			i(226215),	-- Kaja'mite Powder
+			i(228794),	-- Purloined Loot
+			i(227386),	-- R.P.E.L
+			i(227540),	-- Skimmed Profits
+			i(230792),	-- X-Plo-Dar 64k
+		})),
 	}),
 }));

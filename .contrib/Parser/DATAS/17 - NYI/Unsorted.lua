@@ -462,14 +462,8 @@ root(ROOTS.Unsorted, {
 			ws(29),	-- Randomize From Favorites
 			--]]
 			n(ARMOR, {
-				-- Quest Rewards?
-				i(232440),	-- [PH] Boreal Crossbow
-				-- Weird Armor
-				i(234511),	-- Corrupted Cuirass
-				i(234525),	-- Corrupted Crown
-
-				-- Mythic + Mechagon?
-				i(232547),	-- Omega Strike Force
+				-- Darkal Check Later
+				i(238243),	-- Hidden Boots
 			}),
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner
@@ -479,152 +473,77 @@ root(ROOTS.Unsorted, {
 				i(235988),	-- Parley
 			}),
 			filter(COSMETIC, {
-				-- Cartel Cosmetics?
-				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
-				i(231733),	-- Black Bruiser's Tabard
-				i(231739),	-- Black Bruiser's Helm
-				i(231745),	-- Black Bruiser's Shoulderspikes
-
-				-- Trading Post
-				i(234572),	-- Topsy Turvy Fool's Blade
-				i(234573),	-- Topsy Turvy Clown's Blade
-				i(234575),	-- Topsy Turvy Jester's Blade
-				i(234577),	-- Topsy Turvy Joker's Blade
-				i(234601),	-- Wings of the Icy Rose Monarch
-				i(234609),	-- Double-Bladed Forest Garden Trowel
-				i(234611),	-- Double-Bladed Butterfly Garden Trowel
-				i(234612),	-- Double-Bladed Blooming Garden Trowel
-				i(234613),	-- Double-Bladed Rooted Garden Trowel
-				i(234724),	-- Topsy Turvy Clown's Cleaver
-				i(234725),	-- Topsy Turvy Jester's Cleaver
-				i(234726),	-- Topsy Turvy Joker's Cleaver
-				i(234727),	-- Topsy Turvy Fool's Cleaver
-				i(235019),	-- Vigilante's Midnight Mask
-				i(235020),	-- Vigilante's Azure Mask
-				i(235021),	-- Vigilante's Sepia Mask
-				i(235022),	-- Vigilante's Grassy Mask
-				i(235023),	-- Vigilante's Cloudy Mask
-				i(235025),	-- Vigilante's Camo Mask
-				i(235026),	-- Vigilante's Brick Mask
-				i(235027),	-- Vigilante's Lively Mask
-				i(235028),	-- Vigilante's Faded Mask
-				i(235029),	-- Vigilante's Carrot Mask
-				i(235030),	-- Vigilante's Rosy Mask
-				i(235031),	-- Vigilante's Plum Mask
-				i(235032),	-- Vigilante's Crimson Mask
-				i(235033),	-- Vigilante's Violet Mask
-				i(235034),	-- Vigilante's Aquatic Mask
-				i(235035),	-- Vigilante's Snowy Mask
-				i(235036),	-- Vigilante's Sunny Mask
-				i(235150),	-- Spring Butterfly Helm
-				i(235153),	-- Midnight Butterfly Helm
-				i(235155),	-- Midnight Butterfly Pauldrons
-				i(235212),	-- Spring Butterfly Pauldrons
-				i(235214),	-- Spring Butterfly Belt
-				i(235215),	-- Midnight Butterfly Belt
-				i(235227),	-- Ensemble: Ornaments of the Spring Butterfly
-				i(235229),	-- Ensemble: Ornaments of the Midnight Butterfly
-				i(235269),	-- Spring Butterfly Mace
-				i(235271),	-- Midnight Butterfly Mace
-				i(235289),	-- Spring Butterfly Sword
-				i(235292),	-- Midnight Butterfly Sword
-				i(235293),	-- Spring Butterfly Wand
-				i(235296),	-- Midnight Butterfly Wand
-				i(235340),	-- Topsy Turvy Fool's Mask
-				i(235341),	-- Topsy Turvy Clown's Mask
-				i(235342),	-- Topsy Turvy Jester's Mask
-				i(235343),	-- Topsy Turvy Joker's Mask
-				i(235399),	-- Spring Butterfly Polearm
-				i(235400),	-- Midnight Butterfly Polearm
-				i(235563),	-- Forest Dweller's Garden Tunic
-				i(235564),	-- Forest Dweller's Butterfly Tunic
-				i(235565),	-- Forest Dweller's Blooming Tunic
-				i(235566),	-- Forest Dweller's Rooted Tunic
-				i(235567),	-- Forest Dweller's Garden Boots
-				i(235568),	-- Forest Dweller's Butterfly Boots
-				i(235569),	-- Forest Dweller's Blooming Boots
-				i(235570),	-- Forest Dweller's Rooted Boots
-				i(235571),	-- Forest Dweller's Garden Glove
-				i(235572),	-- Forest Dweller's Butterfly Glove
-				i(235573),	-- Forest Dweller's Blooming Glove
-				i(235574),	-- Forest Dweller's Rooted Glove
-				i(235575),	-- Forest Dweller's Garden Cap
-				i(235576),	-- Forest Dweller's Butterfly Cap
-				i(235577),	-- Forest Dweller's Blooming Cap
-				i(235578),	-- Forest Dweller's Rooted Cap
-				i(235579),	-- Forest Dweller's Garden Pants
-				i(235580),	-- Forest Dweller's Butterfly Pants
-				i(235581),	-- Forest Dweller's Blooming Pants
-				i(235582),	-- Forest Dweller's Rooted Pants
-				i(235584),	-- Forest Dweller's Garden Mantle
-				i(235585),	-- Forest Dweller's Butterfly Mantle
-				i(235586),	-- Forest Dweller's Blooming Mantle
-				i(235587),	-- Forest Dweller's Rooted Mantle
-				i(235588),	-- Forest Dweller's Garden Belt
-				i(235589),	-- Forest Dweller's Butterfly Belt
-				i(235590),	-- Forest Dweller's Blooming Belt
-				i(235591),	-- Forest Dweller's Rooted Belt
-				i(235592),	-- Ensemble: Forest Dweller's Garden Attire
-				i(235593),	-- Ensemble: Forest Dweller's Butterfly Attire
-				i(235594),	-- Ensemble: Forest Dweller's Blooming Attire
-				i(235595),	-- Ensemble: Forest Dweller's Rooted Attire
-				i(235640),	-- Topsy Turvy Fool's Die
-				i(235641),	-- Topsy Turvy Clown's Die
-				i(235642),	-- Topsy Turvy Jester's Die
-				i(235643),	-- Topsy Turvy Joker's Die
-				i(235653),	-- Spring Butterfly Longbow
-				i(235654),	-- Midnight Butterfly Longbow
-				i(235664),	-- Ensemble: Topsy Turvy Mask Set
-
-				-- Old Delve Loot as cosmetic?
-				i(234331),	-- Unkindled Waxweave Mitts
-				i(234332),	-- Unkindled Waxweave Mozzetta
-				i(234333),	-- Myconic Wrap
-				i(234334),	-- Serape of the Stygian Sea
-				i(234335),	-- Amice of Hidden Stars
-				i(234336),	-- Unkindled Waxweave Garb
-				i(234337),	-- Unkindled Waxweave Slippers
-				i(234338),	-- Unkindled Waxweave Veil
-				i(234339),	-- Unkindled Waxweave Buskins
-				i(234340),	-- Unkindled Waxweave Shoulderpads
-				i(234341),	-- Unkindled Waxweave Belt
-				i(234342),	-- Unkindled Waxweave Clasps
-				i(234343),	-- Myconic Frock
-				i(234344),	-- Myconic Waders
-				i(234345),	-- Myconic Clutches
-				i(234346),	-- Myconic Hood
-				i(234347),	-- Myconic Chausses
-				i(234348),	-- Myconic Shoulderstrap
-				i(234349),	-- Myconic Strap
-				i(234350),	-- Myconic Wristbands
-				i(234351),	-- Hauberk of the Stygian Sea
-				i(234352),	-- Treads of the Stygian Sea
-				i(234353),	-- Grasps of the Stygian Sea
-				i(234354),	-- Bascinet of the Stygian Sea
-				i(234355),	-- Poleyns of the Stygian Sea
-				i(234356),	-- Spaulders of the Stygian Sea
-				i(234357),	-- Sash of the Stygian Sea
-				i(234358),	-- Wrist Bindings of the Stygian Sea
-				i(234359),	-- Raiment of Hidden Stars
-				i(234360),	-- Sollerets of Hidden Stars
-				i(234361),	-- Fists of Hidden Stars
-				i(234362),	-- Visage of Hidden Stars
-				i(234363),	-- Legplates of Hidden Stars
-				i(234364),	-- Pauldrons of Hidden Stars
-				i(234365),	-- Charmbelt of Hidden Stars
-				i(234366),	-- Handguards of Hidden Stars
-				i(234367),	-- Sanctifier's Startierce
-				i(234368),	-- Worshipper's Poniard
-				i(234369),	-- Pyretic Star
-				i(234370),	-- Flame-Bearing Crozier
-				i(234371),	-- Hand of Piety
-				i(234372),	-- Shooting Starquebus
-				i(234373),	-- Imperial Flarebolt
-				i(234374),	-- Arathi Holy Standard
-				i(234375),	-- Lamplighter's Mercy
-				i(234376),	-- Vessel of Sacred Flame
-				i(234377),	-- Unscathed Rampart
-				i(234378),	-- Radiant Steelglaives
+				i(237502),	-- Puzzling Cartel Chip
+				i(238689),	-- Gallagio Radier's Bilgewater Torchblade
+				i(238690),	-- Gallagio Radier's Blackwater Torchblade
+				i(238691),	-- Gallagio Radier's Darkfuse Torchblade
+				i(238688),	-- Gallagio Radier's Venture Co. Torchblade
+				i(238776),	-- Gallagio Raider's Bilgewater Blasthammer
+				i(238697),	-- Gallagio Raider's Bilgewater Boomfist
+				i(238717),	-- Gallagio Raider's Bilgewater Chainsaw
+				i(238693),	-- Gallagio Raider's Bilgewater Coilstaff
+				i(238746),	-- Gallagio Raider's Bilgewater Eelspire
+				i(238750),	-- Gallagio Raider's Bilgewater Exhaustglaive
+				i(238705),	-- Gallagio Raider's Bilgewater Generator
+				i(238754),	-- Gallagio Raider's Bilgewater Gold Digger
+				i(238763),	-- Gallagio Raider's Bilgewater Gyroclub
+				i(238713),	-- Gallagio Raider's Bilgewater Motorshield
+				i(238767),	-- Gallagio Raider's Bilgewater Naval Mine
+				i(238771),	-- Gallagio Raider's Bilgewater Repeater
+				i(238709),	-- Gallagio Raider's Bilgewater Shivlighter
+				i(238701),	-- Gallagio Raider's Bilgewater Shockbow
+				i(238758),	-- Gallagio Raider's Bilgewater Thing-a-ma-tool
+				i(238742),	-- Gallagio Raider's Bilgewater Zapdagger
+				i(238777),	-- Gallagio Raider's Blackwater Blasthammer
+				i(238698),	-- Gallagio Raider's Blackwater Boomfist
+				i(238718),	-- Gallagio Raider's Blackwater Chainsaw
+				i(238694),	-- Gallagio Raider's Blackwater Coilstaff
+				i(238747),	-- Gallagio Raider's Blackwater Eelspire
+				i(238751),	-- Gallagio Raider's Blackwater Exhaustglaive
+				i(238706),	-- Gallagio Raider's Blackwater Generator
+				i(238755),	-- Gallagio Raider's Blackwater Gold Digger
+				i(238764),	-- Gallagio Raider's Blackwater Gyroclub
+				i(238714),	-- Gallagio Raider's Blackwater Motorshield
+				i(238768),	-- Gallagio Raider's Blackwater Naval Mine
+				i(238772),	-- Gallagio Raider's Blackwater Repeater
+				i(238710),	-- Gallagio Raider's Blackwater Shivlighter
+				i(238702),	-- Gallagio Raider's Blackwater Shockbow
+				i(238759),	-- Gallagio Raider's Blackwater Thing-a-ma-tool
+				i(238743),	-- Gallagio Raider's Blackwater Zapdagger
+				i(238761),	-- Gallagio Raider's Bootleg Lever
+				i(238778),	-- Gallagio Raider's Darkfuse Blasthammer
+				i(238699),	-- Gallagio Raider's Darkfuse Boomfist
+				i(238719),	-- Gallagio Raider's Darkfuse Chainsaw
+				i(238695),	-- Gallagio Raider's Darkfuse Coilstaff
+				i(238748),	-- Gallagio Raider's Darkfuse Eelspire
+				i(238752),	-- Gallagio Raider's Darkfuse Exhaustglaive
+				i(238707),	-- Gallagio Raider's Darkfuse Generator
+				i(238756),	-- Gallagio Raider's Darkfuse Gold Digger
+				i(238765),	-- Gallagio Raider's Darkfuse Gyroclub
+				i(238715),	-- Gallagio Raider's Darkfuse Motorshield
+				i(238769),	-- Gallagio Raider's Darkfuse Naval Mine
+				i(238773),	-- Gallagio Raider's Darkfuse Repeater
+				i(238711),	-- Gallagio Raider's Darkfuse Shivlighter
+				i(238703),	-- Gallagio Raider's Darkfuse Shockbow
+				i(238760),	-- Gallagio Raider's Darkfuse Thing-a-ma-tool
+				i(238744),	-- Gallagio Raider's Darkfuse Zapdagger
+				i(238774),	-- Gallagio Raider's Knuckle Dusters
+				i(238775),	-- Gallagio Raider's Venture Co. Blasthammer
+				i(238696),	-- Gallagio Raider's Venture Co. Boomfist
+				i(238716),	-- Gallagio Raider's Venture Co. Chainsaw
+				i(238692),	-- Gallagio Raider's Venture Co. Coilstaff
+				i(238745),	-- Gallagio Raider's Venture Co. Eelspire
+				i(238749),	-- Gallagio Raider's Venture Co. Exhaustglaive
+				i(238704),	-- Gallagio Raider's Venture Co. Generator
+				i(238753),	-- Gallagio Raider's Venture Co. Gold Digger
+				i(238762),	-- Gallagio Raider's Venture Co. Gyroclub
+				i(238712),	-- Gallagio Raider's Venture Co. Motorshield
+				i(238766),	-- Gallagio Raider's Venture Co. Naval Mine
+				i(238770),	-- Gallagio Raider's Venture Co. Repeater
+				i(238708),	-- Gallagio Raider's Venture Co. Shivlighter
+				i(238700),	-- Gallagio Raider's Venture Co. Shockbow
+				i(238757),	-- Gallagio Raider's Venture Co. Thing-a-ma-tool
+				i(238741),	-- Gallagio Raider's Venture Co. Zapdagger
 			}),
 			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
 				-- D.R.I.V.E.
@@ -632,7 +551,8 @@ root(ROOTS.Unsorted, {
 				i(232980),	-- Axel Sneakfoot (MM!)
 				i(232979),	-- Jaks Jabberjaw (MM!)
 				i(232978),	-- Louie Firehands (MM!)
-
+				-- MM?
+				i(232930),	-- Zaps Leadfoot
 				-- Dirigible
 				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal (MM!)
 				i(235694),	-- Delver's Dirigible Schematic: Blue Paint (MM!)
@@ -649,60 +569,24 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {	-- More known
 				-- Chestos
 				i(229422),	-- Undermine Equipment Chest
-				-- Crests
-				i(231264),	-- Glorious Cluster of Gilded Undermine Crests
-				-- From Meta Achievements
-				i(230017),	-- Master Blaster's Insignia
-				-- Probably Delves
-				i(232068),	-- Adventurer's Warbound Chestpiece
-				i(232069),	-- Adventurer's Warbound Boots
-				i(232070),	-- Adventurer's Warbound Gloves
-				i(232071),	-- Adventurer's Warbound Headpiece
-				i(232072),	-- Adventurer's Warbound Legs
-				i(232073),	-- Adventurer's Warbound Shoulders
-				i(232074),	-- Adventurer's Warbound Waist
-				i(232075),	-- Adventurer's Warbound Wrists
-				i(232076),	-- Adventurer's Warbound Battlegear Drop
+				i(230721),	-- Prized Equipment Chest
+				i(238207),	-- Nanny's Surge Dividends
 
-				-- Delves
-				i(232898),	-- Delver's Bounty
-				i(235559),	-- Hidden Trove
+				-- Buying things? see later
+				i(229810),	-- Vintage Kaja'Cola Can
 
-				-- CHETT
-				i(236785),	-- C.H.E.T.T. Card
-
-				-- Valorstones
-				i(236956),	-- Void-Touched Valorstone
-
-			}),
-			filter(MISC, {
-				i(225766),	-- Zoom-Zoom Boosters
-
-				i(228798),	-- Gob-Glider
-				i(229810),	-- Vintage Kaja'cola Can
-
-				i(230187),	-- Lucio Boombox
-				i(230807),	-- Drill Hands
-				i(230990),	-- Set Keystone Map: Operation: Floodgate
-				i(231291),	-- Radar
-				i(231787),	-- Vigilante's Disposable Falling Shadow Grapple Gun
+				-- Delve?
 				i(232874),	-- Undermine Stockpile
-				i(232927),	-- [DNT] Small Surge Chest
-				i(232928),	-- [DNT] Medium Surge Chest
-				i(232929),	-- [DNT] Large Surge Chest
-				i(232930),	-- Zaps Leadfoot
 				i(233021),	-- Grappling-Grabber 9000
-				i(233054),	-- Wonder Ball
 				i(234616),	-- Supreme Mangoro Madness
 				i(234617),	-- Dulux Bluesberry Blast
-				i(234618),	-- Omega Oyster Outbreak
-				i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
-				i(235280),	-- Extra Crispy Laundry
 
-				i(235627),	-- Scribbles' Favorite Candies
-				i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
-				i(235713),	-- Weird Sand
-				i(235895),	-- Bloodstone
+				-- See if these will come from raid later
+				i(234390),	-- Gallagio Loyalty Rewards Card: Gold
+				i(234391),	-- Gallagio Loyalty Rewards Card: Platinum
+				i(234392),	-- Gallagio Loyalty Rewards Card: Black
+				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
+				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
 			}),
 			filter(MOUNTS, {
 				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
@@ -713,15 +597,12 @@ root(ROOTS.Unsorted, {
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
 				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
 			}),
-			n(PVP, {
+			n(PVP, {	-- See Later...
 				i(232886),	-- Ensemble: Algari Warmonger's Cloth Armor
 				i(232887),	-- Ensemble: Algari Warmonger's Leather Armor
 				i(232888),	-- Ensemble: Algari Warmonger's Mail Armor
 				i(232889),	-- Ensemble: Algari Warmonger's Plate Armor
 				i(232890),	-- Arsenal: Algari Warmonger's Weapons
-
-				i(230721),	-- Prized Equipment Chest
-
 				i(232664),	-- Ensemble: Forged Aspirant's Cloth Armor
 				i(232665),	-- Ensemble: Forged Aspirant's Leather Armor
 				i(232666),	-- Ensemble: Forged Aspirant's Mail Armor
@@ -782,167 +663,16 @@ root(ROOTS.Unsorted, {
 				i(232722),	-- Ensemble: Elite Prized Gladiator's Shaman Armor
 				i(232723),	-- Ensemble: Elite Prized Gladiator's Warlock Armor
 				i(232724),	-- Ensemble: Elite Prized Gladiator's Warrior Armor
-
 				i(232864),	-- Arsenal: Forged Aspirant's Weapons
 				i(232865),	-- Arsenal: Forged Gladiator's Weapons
 				i(232866),	-- Arsenal: Elite Forged Gladiator's Weapons
 				i(232867),	-- Arsenal: Prized Aspirant's Weapons
 				i(232868),	-- Arsenal: Prized Gladiator's Weapons
 				i(232869),	-- Arsenal: Elite Prized Gladiator's Weapons
-
-				i(230791),	-- [11.1 PVP] Gladiator's Wither-Blade <TEMPLATE>
-				i(230796),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
-				i(230797),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
-				i(230798),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
-				i(230799),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE>
-			}),
-			filter(QUEST_ITEMS, {
-				i(225931),	-- Contract Fee
-				i(226215),	-- Kaja'mite Powder
-				i(226216),	-- Kaja'Cola Can
-				i(226393),	-- Jetpack-in-a-Box
-				i(226522),	-- Demolition Controller Fragment
-				i(226525),	-- Demolition Control Code
-				i(227386),	-- R.P.E.L
-				i(227540),	-- Skimmed Profits
-				i(227702),	-- Crumpled Report (TRAINING, DNT)
-				i(228794),	-- Purloined Loot
-				i(228822),	-- Burgled Art
-				i(230212),	-- Emergency Teleporter
-				i(230792),	-- X-Plo-Dar 64k
-				i(231021),	-- Imported Brews
-				i(232651),	-- Faded Journal Page
-				i(234188),	-- Slot Chits
-			}),
-			n(SETS, {	-- Tier Sets/Raid
-				i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket
-			}),
-			n(SPECIAL, {
-				-- Interesting hmmm
-				i(234390),	-- Gallagio Loyalty Rewards Card: Gold
-				i(234391),	-- Gallagio Loyalty Rewards Card: Platinum
-				i(234392),	-- Gallagio Loyalty Rewards Card: Black
-				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
-				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
-			}),
-			n(SPECIAL, {	-- Remix // NYI?
-				i(235720),	-- Guardian Serpent Cowl
-				i(235736),	-- Guardian Serpent Crown
-				i(235737),	-- Guardian Serpent Leggings
-				i(235738),	-- Guardian Serpent Pants
-				i(235753),	-- Raiment of the Chromatic Hydra
 			}),
 			filter(TOYS, {
 				i(235018),	-- Cracked Cold One [From toy?]
 			}),
-			n(WEAPONS, {
-				i(232932),	-- Brann Bronzebeard's Mace
-				i(232987),	-- Brann Bronzebeard's Shield
-				i(233063),	-- Brann's Boomstick
-			}),
-			--
-			i(235219),	-- Fireworks Hat
-			i(229810),	-- Vintage Kaja'Cola Can
-			i(233172),	-- Banded Grassy War Slippers
-			i(234733),	-- Bloodwake Ritual Bowl
-			i(237036),	-- Golden Valorstone
-			i(237240),	-- Banded Sepia War Legwraps
-			i(237241),	-- Banded Sunny War Legwraps
-			i(237242),	-- Banded Snowy War Legwraps
-			i(237243),	-- Banded Aquatic War Legwraps
-			i(237244),	-- Banded Violet War Legwraps
-			i(237245),	-- Banded Plum War Legwraps
-			i(237246),	-- Banded Rosy War Legwraps
-			i(237247),	-- Banded Carrot War Legwraps
-			i(237248),	-- Banded Faded War Legwraps
-			i(237249),	-- Banded Lively War Legwraps
-			i(237250),	-- Banded Brick War Legwraps
-			i(237251),	-- Banded Camo War Legwraps
-			i(237252),	-- Banded Deep War Legwraps
-			i(237253),	-- Banded Cloudy War Legwraps
-			i(237254),	-- Banded Azure War Legwraps
-			i(237255),	-- Banded Midnight War Legwraps
-			i(237256),	-- Banded Crimson War Legwraps
-			i(237257),	-- Banded Grassy War Legwraps
-			i(237259),	-- Kapow Kanapes
-			i(237260),	-- Glass of Daylight Dew
-			--
-			i(235535),	-- Discretely-Packaged Invention
-			i(237502),	-- Puzzling Cartel Chip
-			i(225415),	-- Caddy Caller
-			i(238207),	-- Nanny's Surge Dividends
-			i(238243),	-- Hidden Boots
-			i(238395),	-- Barrel of Fireworks
-			i(238688),	-- Gallagio Radier's Venture Co. Torchblade
-			i(238689),	-- Gallagio Radier's Bilgewater Torchblade
-			i(238690),	-- Gallagio Radier's Blackwater Torchblade
-			i(238691),	-- Gallagio Radier's Darkfuse Torchblade
-			i(238692),	-- Gallagio Raider's Venture Co. Coilstaff
-			i(238693),	-- Gallagio Raider's Bilgewater Coilstaff
-			i(238694),	-- Gallagio Raider's Blackwater Coilstaff
-			i(238695),	-- Gallagio Raider's Darkfuse Coilstaff
-			i(238696),	-- Gallagio Raider's Venture Co. Boomfist
-			i(238697),	-- Gallagio Raider's Bilgewater Boomfist
-			i(238698),	-- Gallagio Raider's Blackwater Boomfist
-			i(238699),	-- Gallagio Raider's Darkfuse Boomfist
-			i(238700),	-- Gallagio Raider's Venture Co. Shockbow
-			i(238701),	-- Gallagio Raider's Bilgewater Shockbow
-			i(238702),	-- Gallagio Raider's Blackwater Shockbow
-			i(238703),	-- Gallagio Raider's Darkfuse Shockbow
-			i(238704),	-- Gallagio Raider's Venture Co. Generator
-			i(238705),	-- Gallagio Raider's Bilgewater Generator
-			i(238706),	-- Gallagio Raider's Blackwater Generator
-			i(238707),	-- Gallagio Raider's Darkfuse Generator
-			i(238708),	-- Gallagio Raider's Venture Co. Shivlighter
-			i(238709),	-- Gallagio Raider's Bilgewater Shivlighter
-			i(238710),	-- Gallagio Raider's Blackwater Shivlighter
-			i(238711),	-- Gallagio Raider's Darkfuse Shivlighter
-			i(238712),	-- Gallagio Raider's Venture Co. Motorshield
-			i(238713),	-- Gallagio Raider's Bilgewater Motorshield
-			i(238714),	-- Gallagio Raider's Blackwater Motorshield
-			i(238715),	-- Gallagio Raider's Darkfuse Motorshield
-			i(238716),	-- Gallagio Raider's Venture Co. Chainsaw
-			i(238717),	-- Gallagio Raider's Bilgewater Chainsaw
-			i(238718),	-- Gallagio Raider's Blackwater Chainsaw
-			i(238719),	-- Gallagio Raider's Darkfuse Chainsaw
-			i(238741),	-- Gallagio Raider's Venture Co. Zapdagger
-			i(238742),	-- Gallagio Raider's Bilgewater Zapdagger
-			i(238743),	-- Gallagio Raider's Blackwater Zapdagger
-			i(238744),	-- Gallagio Raider's Darkfuse Zapdagger
-			i(238745),	-- Gallagio Raider's Venture Co. Eelspire
-			i(238746),	-- Gallagio Raider's Bilgewater Eelspire
-			i(238747),	-- Gallagio Raider's Blackwater Eelspire
-			i(238748),	-- Gallagio Raider's Darkfuse Eelspire
-			i(238749),	-- Gallagio Raider's Venture Co. Exhaustglaive
-			i(238750),	-- Gallagio Raider's Bilgewater Exhaustglaive
-			i(238751),	-- Gallagio Raider's Blackwater Exhaustglaive
-			i(238752),	-- Gallagio Raider's Darkfuse Exhaustglaive
-			i(238753),	-- Gallagio Raider's Venture Co. Gold Digger
-			i(238754),	-- Gallagio Raider's Bilgewater Gold Digger
-			i(238755),	-- Gallagio Raider's Blackwater Gold Digger
-			i(238756),	-- Gallagio Raider's Darkfuse Gold Digger
-			i(238757),	-- Gallagio Raider's Venture Co. Thing-a-ma-tool
-			i(238758),	-- Gallagio Raider's Bilgewater Thing-a-ma-tool
-			i(238759),	-- Gallagio Raider's Blackwater Thing-a-ma-tool
-			i(238760),	-- Gallagio Raider's Darkfuse Thing-a-ma-tool
-			i(238761),	-- Gallagio Raider's Bootleg Lever
-			i(238762),	-- Gallagio Raider's Venture Co. Gyroclub
-			i(238763),	-- Gallagio Raider's Bilgewater Gyroclub
-			i(238764),	-- Gallagio Raider's Blackwater Gyroclub
-			i(238765),	-- Gallagio Raider's Darkfuse Gyroclub
-			i(238766),	-- Gallagio Raider's Venture Co. Naval Mine
-			i(238767),	-- Gallagio Raider's Bilgewater Naval Mine
-			i(238768),	-- Gallagio Raider's Blackwater Naval Mine
-			i(238769),	-- Gallagio Raider's Darkfuse Naval Mine
-			i(238770),	-- Gallagio Raider's Venture Co. Repeater
-			i(238771),	-- Gallagio Raider's Bilgewater Repeater
-			i(238772),	-- Gallagio Raider's Blackwater Repeater
-			i(238773),	-- Gallagio Raider's Darkfuse Repeater
-			i(238774),	-- Gallagio Raider's Knuckle Dusters
-			i(238775),	-- Gallagio Raider's Venture Co. Blasthammer
-			i(238776),	-- Gallagio Raider's Bilgewater Blasthammer
-			i(238777),	-- Gallagio Raider's Blackwater Blasthammer
-			i(238778),	-- Gallagio Raider's Darkfuse Blasthammer
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old
@@ -1060,7 +790,7 @@ root(ROOTS.Unsorted, {
 				i(233169),	-- Banded Midnight War Slippers
 				i(233170),	-- Banded Azure War Slippers
 				i(233171),	-- Banded Sepia War Slippers
-				i(233172),	-- Banded Grassy War Slilppers
+				i(233172),	-- Banded Grassy War Slippers
 				i(233173),	-- Banded Cloudy War Slippers
 				i(233175),	-- Banded Camo War Slippers
 				i(233176),	-- Banded Brick War Slippers

@@ -1713,5 +1713,42 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(224562),	-- Commendation of the Stormpike Guard
 			i(224560),	-- Commendation of the Warsong Outriders
 		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			i(235667),	-- Add Keystone Affix: Xal'atath's Bargain: Pulsar
+			i(232076),	-- Adventurer's Warbound Battlegear Drop
+			i(232069),	-- Adventurer's Warbound Boots
+			i(232068),	-- Adventurer's Warbound Chestpiece
+			i(232070),	-- Adventurer's Warbound Gloves
+			i(232071),	-- Adventurer's Warbound Headpiece
+			i(232072),	-- Adventurer's Warbound Legs
+			i(232073),	-- Adventurer's Warbound Shoulders
+			i(232074),	-- Adventurer's Warbound Waist
+			i(232075),	-- Adventurer's Warbound Wrists
+			i(236785),	-- C.H.E.T.T. Card
+			i(225415),	-- Caddy Caller
+			i(232898),	-- Delver's Bounty
+			i(235535),	-- Discretely-Packaged Invention
+			i(230807),	-- Drill Hands
+			i(237260),	-- Glass of Daylight Dew
+			i(228798),	-- Gob-Glider
+			i(237036),	-- Golden Valorstone
+			i(235559),	-- Hidden Trove
+			i(237259),	-- Kapow Kanapes
+			i(230017),	-- Master Blaster's Insignia
+			i(234618),	-- Omega Oyster Outbreak
+			i(234620),	-- Perfectly Preserved Kaja'Classic Original Taste
+			i(231291),	-- Radar
+			i(235627),	-- Scribbles' Favorite Candies
+			i(230990),	-- Set Keystone Map: Operation: Floodgate
+			i(231787),	-- Vigilante's Disposable Falling Shadow Grapple Gun
+			i(236956),	-- Void-Touched Valorstone
+			i(233054),	-- Wonder Ball
+			i(225766),	-- Zoom-Zoom Boosters
+			i(232929),	-- [DNT] Large Surge Chest
+			i(232928),	-- [DNT] Medium Surge Chest
+			i(232927),	-- [DNT] Small Surge Chest
+		})),
 	}),
 }));

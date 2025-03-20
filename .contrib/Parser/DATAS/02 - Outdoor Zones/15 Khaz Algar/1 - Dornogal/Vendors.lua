@@ -474,13 +474,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					-- Trade UP
 					i(231153, {	-- Triumphant Satchel of Carved Undermine Crests
 						["description"] = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: LFR Crest\nReceive: Normal Crest",
-						["cost"] = {{ "c", WEATHERED_UNDERMINE_CREST, 45 }},
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						["cost"] = {{ "c", WEATHERED_UNDERMINE_CREST, 45 }},
 					}),
 					i(231154, {	-- Celebratory Pack of Runed Undermine Crests
 						["description"] = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Normal Crest\nReceive: Heroic Crest",
-						["cost"] = {{ "c", WEATHERED_UNDERMINE_CREST, 45 }},
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						["cost"] = {{ "c", CARVED_UNDERMINE_CREST, 45 }},
+					}),
+					i(231264, {	-- Glorious Cluster of Gilded Undermine Crests
+						["description"] = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Heroic Crest\nReceive: Mythic Crest",
+						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						["cost"] = {{ "c", RUNED_UNDERMINE_CREST, 45 }},
 					}),
 					-- Season 3
 				},

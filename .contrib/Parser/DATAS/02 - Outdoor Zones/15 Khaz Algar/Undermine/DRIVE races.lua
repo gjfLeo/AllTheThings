@@ -47,7 +47,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						41080,	-- Sandy Scuttle Reverse: Gold
 					}},
 					["g"] = {
-						title(597),	-- Breaknecker %s
+						title(597),	-- Breaknecker <Name>
 					},
 				}),
 				ach(40936, {	-- Undermine Skyrocketing: Bronze
@@ -89,7 +89,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						40923,	-- The Heaps Leap Reverse: Gold
 					}},
 					["g"] = {
-						title(580),	-- Skyrocketer %s
+						title(580),	-- Skyrocketer <Name>
 					},
 				}),
 			}),

@@ -970,6 +970,19 @@ root(ROOTS.NeverImplemented, {
 		expansion(EXPANSION.TWW, patch(0,02), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
 			i(222905),	-- Faerin's Shield
 		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			i(230796),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE> (bow)
+			i(230797),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE> (2h axe)
+			i(230798),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE> (2h mace)
+			i(230799),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE> (1h sword)
+			i(230791),	-- [11.1 PVP] Gladiator's Wither-Blade <TEMPLATE> (1h sword)
+			i(232440),	-- [PH] Boreal Crossbow
+			i(233063),	-- Brann's Boomstick
+			i(232932),	-- Brann Bronzebeard's Mace
+			i(232987),	-- Brann Bronzebeard's Shield
+		})),
 	}),
 	n(WEAPONS, {
 		expansion(EXPANSION.TBC, {

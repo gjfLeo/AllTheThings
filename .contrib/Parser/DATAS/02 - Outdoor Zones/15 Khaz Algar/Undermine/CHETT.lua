@@ -21,13 +21,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					ach(41629, {	-- C.H.E.T.T.mate
 						["description"] = "Turning in a completed list for a Finders Fee will |cffff0000NOT|r give achievement credit.",
 						["g"] = {
-							title(616),	-- Part-Timer %s
+							title(616),	-- Part-Timer <Name>
 						},
 					}),
 					ach(41630, {	-- "Employee" of the Month
 						["g"] = {
 							-- Temporary? Its a hidden FoS
-							title(617),	-- %s, "Employee" of the Month
+							title(617),	-- <Name>, "Employee" of the Month
 						},
 					}),
 				}),

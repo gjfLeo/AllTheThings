@@ -2100,10 +2100,10 @@ i(232377);	-- Pappy Thunderbrew's Cough Syrup
 -- PATCH 11.0.7 --
 ------------------
 i(234718);	-- Ancient Runic Hilt
-i(234733);	-- Ancient Runic Hilt
 i(234735);	-- Battered Vrykul Lantern
 i(234732);	-- Bloodied Medallion
 i(234754);	-- Bloodied Siren Pendant
+i(234733);	-- Bloodwake Ritual Bowl
 i(234722);	-- Carved Stone Fragment
 i(234752);	-- Coral-Pocked Scrying Stone
 i(234753);	-- Cracked Divining Scepter
@@ -2128,6 +2128,7 @@ i(232635);	-- Torn Bilgewater Bandage
 ------------------
 i(234212);	-- "Beaten by the House"
 i(234205);	-- Bent Lever
+i(235895);	-- Bloodstone
 i(236638);	-- Bundle of Kaja-Scented Incense
 i(236922);	-- Celebratory Pack of Runed Harbinger Crests
 i(237305);	-- Chalky Shungite
@@ -2143,6 +2144,7 @@ i(236639);	-- Dented Censer
 i(234204);	-- Depleted Battery
 i(237330);	-- Disposable Hamburger
 i(237331);	-- Disposable Hotdog
+i(235280);	-- Extra Crispy Laundry
 i(228194);	-- Fully Scrapped Scrap
 i(234197);	-- Gilded Screwdriver
 i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
@@ -2156,12 +2158,13 @@ i(236637);	-- Not-Quite-Crystal Ball
 i(236926);	-- Pack of Runed Harbinger Crests
 i(236924);	-- Pouch of Weathered Harbinger Crests
 i(236652);	-- Re-Down-Upcycled Salvage
+i(236925);	-- Satchel of Carved Harbinger Crests
+i(237332);	-- Single-Use Grill
 i(228195);	-- Tattered Goblin Cap
 i(237313);	-- Totally Legit Samophlange
 i(231899);	-- Trash
 i(236921);	-- Triumphant Satchel of Carved Harbinger Crests
-i(237332);	-- Single-Use Grill
-i(236925);	-- Satchel of Carved Harbinger Crests
 i(236635);	-- Uncut Semi-Smoky Quartz
 i(236651);	-- Vince's Old Left Shoe
 i(229809);	-- Weighted Metal Ball
+i(235713);	-- Weird Sand

@@ -541,10 +541,199 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(225496),	-- Unhinged Vault-Hatch
 			}),
 		})),
+
 		-- 11.0.7
 		expansion(EXPANSION.TWW, patch(0,07), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
 			n(ARMOR, {
 				i(234758),	-- Korkron Spaulders
+			}),
+		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+			n(ARMOR, {
+				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
+				i(237243),	-- Banded Aquatic War Legwraps
+				i(237254),	-- Banded Azure War Legwraps
+				i(237250),	-- Banded Brick War Legwraps
+				i(237251),	-- Banded Camo War Legwraps
+				i(237247),	-- Banded Carrot War Legwraps
+				i(237253),	-- Banded Cloudy War Legwraps
+				i(237256),	-- Banded Crimson War Legwraps
+				i(237252),	-- Banded Deep War Legwraps
+				i(237248),	-- Banded Faded War Legwraps
+				i(237257),	-- Banded Grassy War Legwraps
+				i(237249),	-- Banded Lively War Legwraps
+				i(237255),	-- Banded Midnight War Legwraps
+				i(237245),	-- Banded Plum War Legwraps
+				i(237246),	-- Banded Rosy War Legwraps
+				i(237240),	-- Banded Sepia War Legwraps
+				i(237242),	-- Banded Snowy War Legwraps
+				i(237241),	-- Banded Sunny War Legwraps
+				i(237244),	-- Banded Violet War Legwraps
+				i(235034),	-- Vigilante's Aquatic Mask
+				i(235020),	-- Vigilante's Azure Mask
+				i(235026),	-- Vigilante's Brick Mask
+				i(235025),	-- Vigilante's Camo Mask
+				i(235029),	-- Vigilante's Carrot Mask
+				i(235023),	-- Vigilante's Cloudy Mask
+				i(235032),	-- Vigilante's Crimson Mask
+				i(235028),	-- Vigilante's Faded Mask
+				i(235022),	-- Vigilante's Grassy Mask
+				i(235027),	-- Vigilante's Lively Mask
+				i(235019),	-- Vigilante's Midnight Mask
+				i(235031),	-- Vigilante's Plum Mask
+				i(235030),	-- Vigilante's Rosy Mask
+				i(235021),	-- Vigilante's Sepia Mask
+				i(235035),	-- Vigilante's Snowy Mask
+				i(235036),	-- Vigilante's Sunny Mask
+				i(235033),	-- Vigilante's Violet Mask
+				i(234601),	-- Wings of the Icy Rose Monarch
+			}),
+			n(SETS, {
+				------ Forest Dweller's Blooming Set ------
+				i(235594),	-- Ensemble: Forest Dweller's Blooming Attire
+				i(235590),	-- Forest Dweller's Blooming Belt
+				i(235569),	-- Forest Dweller's Blooming Boots
+				i(235577),	-- Forest Dweller's Blooming Cap
+				i(235573),	-- Forest Dweller's Blooming Glove
+				i(235586),	-- Forest Dweller's Blooming Mantle
+				i(235581),	-- Forest Dweller's Blooming Pants
+				i(235565),	-- Forest Dweller's Blooming Tunic
+
+				------ Forest Dweller's Butterfly Set ------
+				i(235593),	-- Ensemble: Forest Dweller's Butterfly Attire
+				i(235589),	-- Forest Dweller's Butterfly Belt
+				i(235568),	-- Forest Dweller's Butterfly Boots
+				i(235576),	-- Forest Dweller's Butterfly Cap
+				i(235572),	-- Forest Dweller's Butterfly Glove
+				i(235585),	-- Forest Dweller's Butterfly Mantle
+				i(235580),	-- Forest Dweller's Butterfly Pants
+				i(235564),	-- Forest Dweller's Butterfly Tunic
+
+				------ Forest Dweller's Garden Set ------
+				i(235592),	-- Ensemble: Forest Dweller's Garden Attire
+				i(235588),	-- Forest Dweller's Garden Belt
+				i(235567),	-- Forest Dweller's Garden Boots
+				i(235575),	-- Forest Dweller's Garden Cap
+				i(235571),	-- Forest Dweller's Garden Glove
+				i(235584),	-- Forest Dweller's Garden Mantle
+				i(235579),	-- Forest Dweller's Garden Pants
+				i(235563),	-- Forest Dweller's Garden Tunic
+
+				------ Forest Dweller's Rooted Set ------
+				i(235595),	-- Ensemble: Forest Dweller's Rooted Attire
+				i(235591),	-- Forest Dweller's Rooted Belt
+				i(235570),	-- Forest Dweller's Rooted Boots
+				i(235578),	-- Forest Dweller's Rooted Cap
+				i(235574),	-- Forest Dweller's Rooted Glove
+				i(235587),	-- Forest Dweller's Rooted Mantle
+				i(235582),	-- Forest Dweller's Rooted Pants
+				i(235566),	-- Forest Dweller's Rooted Tunic
+
+				------ Midnight Butterfly Set ------
+				i(235229),	-- Ensemble: Ornaments of the Midnight Butterfly
+				i(235215),	-- Midnight Butterfly Belt
+				i(235153),	-- Midnight Butterfly Helm
+				i(235155),	-- Midnight Butterfly Pauldrons
+
+				------ Spring Butterfly Set ------
+				i(235227),	-- Ensemble: Ornaments of the Spring Butterfly
+				i(235214),	-- Spring Butterfly Belt
+				i(235150),	-- Spring Butterfly Helm
+				i(235212),	-- Spring Butterfly Pauldrons
+
+				------ Topsy Turvy Mask Set ------
+				i(235664),	-- Ensemble: Topsy Turvy Mask Set
+				i(235341),	-- Topsy Turvy Clown's Mask
+				i(235340),	-- Topsy Turvy Fool's Mask
+				i(235342),	-- Topsy Turvy Jester's Mask
+				i(235343),	-- Topsy Turvy Joker's Mask
+
+				-- Old Delve Sets
+				------ Myconic Set ------
+				i(234347),	-- Myconic Chausses
+				i(234345),	-- Myconic Clutches
+				i(234343),	-- Myconic Frock
+				i(234346),	-- Myconic Hood
+				i(234348),	-- Myconic Shoulderstrap
+				i(234349),	-- Myconic Strap
+				i(234344),	-- Myconic Waders
+				i(234333),	-- Myconic Wrap
+				i(234350),	-- Myconic Wristbands
+
+				------ Hidden Stars Set ------
+				i(234335),	-- Amice of Hidden Stars
+				i(234365),	-- Charmbelt of Hidden Stars
+				i(234361),	-- Fists of Hidden Stars
+				i(234366),	-- Handguards of Hidden Stars
+				i(234363),	-- Legplates of Hidden Stars
+				i(234364),	-- Pauldrons of Hidden Stars
+				i(234359),	-- Raiment of Hidden Stars
+				i(234360),	-- Sollerets of Hidden Stars
+
+				------ Stygian Sea Set ------
+				i(234354),	-- Bascinet of the Stygian Sea
+				i(234353),	-- Grasps of the Stygian Sea
+				i(234351),	-- Hauberk of the Stygian Sea
+				i(234355),	-- Poleyns of the Stygian Sea
+				i(234357),	-- Sash of the Stygian Sea
+				i(234334),	-- Serape of the Stygian Sea
+				i(234356),	-- Spaulders of the Stygian Sea
+				i(234352),	-- Treads of the Stygian Sea
+				i(234358),	-- Wrist Bindings of the Stygian Sea
+
+				------ Unkindled Waxweave Set ------
+				i(234341),	-- Unkindled Waxweave Belt
+				i(234339),	-- Unkindled Waxweave Buskins
+				i(234342),	-- Unkindled Waxweave Clasps
+				i(234336),	-- Unkindled Waxweave Garb
+				i(234331),	-- Unkindled Waxweave Mitts
+				i(234332),	-- Unkindled Waxweave Mozzetta
+				i(234340),	-- Unkindled Waxweave Shoulderpads
+				i(234337),	-- Unkindled Waxweave Slippers
+				i(234338),	-- Unkindled Waxweave Veil
+			}),
+			n(WEAPONS, {
+				i(234374),	-- Arathi Holy Standard
+				i(234612),	-- Double-Bladed Blooming Garden Trowel
+				i(234611),	-- Double-Bladed Butterfly Garden Trowel
+				i(234609),	-- Double-Bladed Forest Garden Trowel
+				i(234613),	-- Double-Bladed Rooted Garden Trowel
+				i(234370),	-- Flame-Bearing Crozier
+				i(234371),	-- Hand of Piety
+				i(234373),	-- Imperial Flarebolt
+				i(234375),	-- Lamplighter's Mercy
+				i(235654),	-- Midnight Butterfly Longbow
+				i(235271),	-- Midnight Butterfly Mace
+				i(235400),	-- Midnight Butterfly Polearm
+				i(235292),	-- Midnight Butterfly Sword
+				i(235296),	-- Midnight Butterfly Wand
+				i(234369),	-- Pyretic Star
+				i(234378),	-- Radiant Steelglaives
+				i(234367),	-- Sanctifier's Startierce
+				i(234372),	-- Shooting Starquebus
+				i(235653),	-- Spring Butterfly Longbow
+				i(235269),	-- Spring Butterfly Mace
+				i(235399),	-- Spring Butterfly Polearm
+				i(235289),	-- Spring Butterfly Sword
+				i(235293),	-- Spring Butterfly Wand
+				i(234573),	-- Topsy Turvy Clown's Blade
+				i(234724),	-- Topsy Turvy Clown's Cleaver
+				i(235641),	-- Topsy Turvy Clown's Die
+				i(234572),	-- Topsy Turvy Fool's Blade
+				i(234727),	-- Topsy Turvy Fool's Cleaver
+				i(235640),	-- Topsy Turvy Fool's Die
+				i(234575),	-- Topsy Turvy Jester's Blade
+				i(234725),	-- Topsy Turvy Jester's Cleaver
+				i(235642),	-- Topsy Turvy Jester's Die
+				i(234577),	-- Topsy Turvy Joker's Blade
+				i(234726),	-- Topsy Turvy Joker's Cleaver
+				i(235643),	-- Topsy Turvy Joker's Die
+				i(234377),	-- Unscathed Rampart
+				i(234376),	-- Vessel of Sacred Flame
+				i(234362),	-- Visage of Hidden Stars
+				i(234368),	-- Worshipper's Poniard
 			}),
 		})),
 	}),
