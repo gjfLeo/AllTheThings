@@ -146,6 +146,7 @@ src\Expansions\Legion.lua
 src\Expansions\Battle For Azeroth.lua
 src\Expansions\Shadowlands.lua
 src\Expansions\Dragonflight.lua
+src\Expansions\The War Within.lua
 
 # Load the Settings Menu
 src\Settings\Settings.xml

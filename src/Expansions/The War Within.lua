@@ -2,9 +2,6 @@
 -- App locals
 local _, app = ...;
 
-local C_WarbandScene_HasWarbandScene, C_WarbandScene_GetWarbandSceneEntry
-	= C_WarbandScene.HasWarbandScene, C_WarbandScene.GetWarbandSceneEntry;
-
 if app.GameBuildVersion < 110100 then
 	app.CreateWarbandScene = app.CreateUnimplementedClass("WarbandScene", "warbandSceneID");
 	return
@@ -12,7 +9,11 @@ end
 
 -- Warband Scene Lib
 do
-	local CACHE = "WarbandScenes";
+
+	local C_WarbandScene_HasWarbandScene, C_WarbandScene_GetWarbandSceneEntry
+		= C_WarbandScene.HasWarbandScene, C_WarbandScene.GetWarbandSceneEntry;
+
+	local CACHE = "WarbandScene";
 	local CLASSNAME = "WarbandScene";
 	local KEY = "warbandSceneID";
 	local WarbandSceneInfoMeta = setmetatable({}, {
@@ -22,19 +23,10 @@ do
 			return info
 		end
 	})
-	app.CreateWarbandScene = app.CreateClass(CLASSNAME, KEY, {
-		info = function(t)
-			return WarbandSceneInfoMeta[t[KEY]]
-		end,
-		name = function(t)
-			return t.info.name
-		end,
+	app.CreateWarbandScene = app.CreateClassWithInfo(CLASSNAME, KEY, WarbandSceneInfoMeta, {
 		icon = function(t)
 			-- return app.asset("Category_WarbandScenes") PH?
 			return 648901;
-		end,
-		description = function(t)
-			return t.info.description
 		end,
 		--collectible = function(t)
 		--	return app.Settings.Collectibles[CACHE];
@@ -42,5 +34,7 @@ do
 		collected = function(t)
 			return C_WarbandScene_HasWarbandScene(t[KEY])
 		end,
+		RefreshCollectionOnly = true,	-- TODO: remove when adding proper collection caching
 	});
+	-- app.AddSimpleCollectibleSwap(CLASSNAME, CACHE)
 end
