@@ -714,7 +714,6 @@ root(ROOTS.Unsorted, {
 				i(232916),	-- Vivid Heartfelt Spaulders
 				i(233079),	-- Short Midnight War Skirt
 				i(233080),	-- Short Azure War Skirt
-				i(233081),	-- Short Sepia War Skirt
 				i(233082),	-- Short Grassy War Skirt
 				i(233083),	-- Short Cloudy War Skirt
 				i(233085),	-- Short Camo War Skirt
@@ -729,7 +728,6 @@ root(ROOTS.Unsorted, {
 				i(233094),	-- Short Snowy War Skirt
 				i(233096),	-- Long Midnight War Skirt
 				i(233097),	-- Long Azure War Skirt
-				i(233098),	-- Long Sepia War Skirt
 				i(233099),	-- Long Grassy War Skirt
 				i(233100),	-- Long Cloudy War Skirt
 				i(233102),	-- Long Camo War Skirt
@@ -744,7 +742,6 @@ root(ROOTS.Unsorted, {
 				i(233111),	-- Long Snowy War Skirt
 				i(233116),	-- Short Midnight War Skirt and Leg Wraps
 				i(233117),	-- Short Azure War Skirt and Leg Wraps
-				i(233120),	-- Short Sepia War Skirt and Leg Wraps
 				i(233121),	-- Short Grassy War Skirt and Leg Wraps
 				i(233122),	-- Short Cloudy War Skirt and Leg Wraps
 				i(233124),	-- Short Camo War Skirt and Leg Wraps
@@ -759,7 +756,6 @@ root(ROOTS.Unsorted, {
 				i(233133),	-- Short Snowy War Skirt and Leg Wraps
 				i(233135),	-- Long Midnight War Skirt and Leg Wraps
 				i(233136),	-- Long Azure War Skirt and Leg Wraps
-				i(233137),	-- Long Sepia War Skirt and Leg Wraps
 				i(233138),	-- Long Grassy War Skirt and Leg Wraps
 				i(233139),	-- Long Cloudy War Skirt and Leg Wraps
 				i(233141),	-- Long Camo War Skirt and Leg Wraps
@@ -774,7 +770,6 @@ root(ROOTS.Unsorted, {
 				i(233150),	-- Long Snowy War Skirt and Leg Wraps
 				i(233152),	-- Banded Midnight War Wraps
 				i(233153),	-- Banded Azure War Wraps
-				i(233154),	-- Banded Sepia War Wraps
 				i(233155),	-- Banded Grassy War Wraps
 				i(233156),	-- Banded Cloudy War Wraps
 				i(233158),	-- Banded Camo War Wraps
@@ -789,7 +784,6 @@ root(ROOTS.Unsorted, {
 				i(233167),	-- Banded Snowy War Wraps
 				i(233169),	-- Banded Midnight War Slippers
 				i(233170),	-- Banded Azure War Slippers
-				i(233171),	-- Banded Sepia War Slippers
 				i(233172),	-- Banded Grassy War Slippers
 				i(233173),	-- Banded Cloudy War Slippers
 				i(233175),	-- Banded Camo War Slippers
@@ -1084,7 +1078,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(COSMETIC, {
 				i(230033),	-- Prowler's Midnight Shoulder Cape
-				i(230035),	-- Prowler's Sepia Shoulder Cape
 				i(230036),	-- Prowler's Grassy Shoulder Cape
 				i(230037),	-- Prowler's Cloudy Shoulder Cape
 				i(230039),	-- Prowler's Brick Shoulder Cape
@@ -1095,7 +1088,6 @@ root(ROOTS.Unsorted, {
 				i(230050),	-- Prowler's Aquatic Shoulder Cape
 				i(230054),	-- Prowler's Midnight Cowl
 				i(230055),	-- Prowler's Azure Cowl
-				i(230056),	-- Prowler's Sepia Cowl
 				i(230057),	-- Prowler's Grassy Cowl
 				i(230058),	-- Prowler's Cloudy Cowl
 				i(230060),	-- Prowler's Camo Cowl
@@ -1109,7 +1101,6 @@ root(ROOTS.Unsorted, {
 				i(230073),	-- Prowler's Sunny Cowl
 				i(230074),	-- Prowler's Midnight Mask
 				i(230075),	-- Prowler's Azure Mask
-				i(230076),	-- Prowler's Sepia Mask
 				i(230077),	-- Prowler's Grassy Mask
 				i(230078),	-- Prowler's Cloudy Mask
 				i(230080),	-- Prowler's Camo Mask
@@ -1122,7 +1113,6 @@ root(ROOTS.Unsorted, {
 				i(230091),	-- Prowler's Aquatic Mask
 				i(230093),	-- Prowler's Sunny Mask
 				i(230152),	-- Ensemble: Prowler's Midnight Headgear
-				i(230166),	-- Ensemble: Prowler's Sepia Headgear
 				i(230167),	-- Ensemble: Prowler's Grassy Headgear
 				i(230168),	-- Ensemble: Prowler's Cloudy Headgear
 				i(230170),	-- Ensemble: Prowler's Camo Headgear

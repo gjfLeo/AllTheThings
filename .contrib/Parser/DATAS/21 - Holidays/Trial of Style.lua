@@ -28,6 +28,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 				156663,	-- Warpweaver Ta'oren <Transmogrifier> (Neutral / Oribos)
 				99867,	-- Warpweaver Tuviss <Transmogrifier> (Neutral / Dalaran)
 				85291,	-- Warpweaver Tuviss <Transmogrifier> (Alliance / Lunarfall)
+				221848,	-- Warpweaver Voxin <Transmogrifier> (Dornogal)
 			},
 			["coord"] = { 74.4, 56.2, VALDRAKKEN },	-- Add all Coords if you want to..
 			["g"] = {
@@ -288,6 +289,115 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 				i(210850, {	-- Trader's Sepia Sarong
 					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 25 }},
 					["timeline"] = { ADDED_10_2_6 },
+				}),
+				---
+				i(237243, {	-- Banded Aquatic War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237254, {	-- Banded Azure War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237250, {	-- Banded Brick War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237251, {	-- Banded Camo War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237247, {	-- Banded Carrot War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237253, {	-- Banded Cloudy War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237256, {	-- Banded Crimson War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237252, {	-- Banded Deep War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237248, {	-- Banded Faded War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237257, {	-- Banded Grassy War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237249, {	-- Banded Lively War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237255, {	-- Banded Midnight War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237245, {	-- Banded Plum War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237246, {	-- Banded Rosy War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237240, {	-- Banded Sepia War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(233171, {	-- Banded Sepia War Slippers
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(233154, {	-- Banded Sepia War Wraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237242, {	-- Banded Snowy War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237241, {	-- Banded Sunny War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(237244, {	-- Banded Violet War Legwraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 15 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				iensemble(230166, {	-- Ensemble: Prowler's Sepia Headgear
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 60 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(233098, {	-- Long Sepia War Skirt
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 25 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(233137, {	-- Long Sepia War Skirt and Leg Wraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 50 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(230035, {	-- Prowler's Sepia Shoulder Cape
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 25 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(233081, {	-- Short Sepia War Skirt
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 25 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(233120, {	-- Short Sepia War Skirt and Leg Wraps
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 50 }},
+					["timeline"] = { ADDED_11_1_0 },
+				}),
+				i(235021, {	-- Vigilante's Sepia Mask
+					["cost"] = {{ "i", TRIAL_OF_STYLE_TOKEN, 25 }},
+					["timeline"] = { ADDED_11_1_0 },
 				}),
 			},
 		}),

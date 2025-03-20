@@ -553,24 +553,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			n(ARMOR, {
 				i(231559),	-- [DNT] Experimental Gobbo-Flyer v3
-				i(237243),	-- Banded Aquatic War Legwraps
-				i(237254),	-- Banded Azure War Legwraps
-				i(237250),	-- Banded Brick War Legwraps
-				i(237251),	-- Banded Camo War Legwraps
-				i(237247),	-- Banded Carrot War Legwraps
-				i(237253),	-- Banded Cloudy War Legwraps
-				i(237256),	-- Banded Crimson War Legwraps
-				i(237252),	-- Banded Deep War Legwraps
-				i(237248),	-- Banded Faded War Legwraps
-				i(237257),	-- Banded Grassy War Legwraps
-				i(237249),	-- Banded Lively War Legwraps
-				i(237255),	-- Banded Midnight War Legwraps
-				i(237245),	-- Banded Plum War Legwraps
-				i(237246),	-- Banded Rosy War Legwraps
-				i(237240),	-- Banded Sepia War Legwraps
-				i(237242),	-- Banded Snowy War Legwraps
-				i(237241),	-- Banded Sunny War Legwraps
-				i(237244),	-- Banded Violet War Legwraps
 				i(235034),	-- Vigilante's Aquatic Mask
 				i(235020),	-- Vigilante's Azure Mask
 				i(235026),	-- Vigilante's Brick Mask
@@ -584,7 +566,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235019),	-- Vigilante's Midnight Mask
 				i(235031),	-- Vigilante's Plum Mask
 				i(235030),	-- Vigilante's Rosy Mask
-				i(235021),	-- Vigilante's Sepia Mask
 				i(235035),	-- Vigilante's Snowy Mask
 				i(235036),	-- Vigilante's Sunny Mask
 				i(235033),	-- Vigilante's Violet Mask
