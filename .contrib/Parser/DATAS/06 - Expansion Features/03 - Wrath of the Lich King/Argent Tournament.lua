@@ -4282,6 +4282,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						{"exclude", "itemID", 146550 },	-- Exclude DK Ensemble
 						{"pop"},	-- Discard the Set header and acquire the children.
 						{"exclude", "headerID", WEAPONS, BACK, WRIST, WAIST, FEET, NECK, FINGER, TRINKET },	-- Exclude Weapon, Back, Wrist, Waist, Feet Neck, Finger and Trinkets
+						{"pop"},	-- Discard Class headers
+						{"is","sourceID"},	-- Only Items with SourceID (exclude Ensembles from PvP listing)
 					},
 				})),
 				n(33853, {	-- Broxel Goldgrasp <Souvenirs>
@@ -4722,6 +4724,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						{"sub", "pvp_gear_base", EXPANSION.WRATH, SEASON_FURIOUS, PVP_GLADIATOR },{"merge"},
 						{"pop"},	-- Discard the Set header and acquire the children.
 						{"exclude", "headerID", WEAPONS, BACK, WRIST, WAIST, FEET, NECK, FINGER, TRINKET },	-- Exclude Weapon, Back, Wrist, Waist, Feet Neck, Finger and Trinkets
+						{"pop"},	-- Discard Class headers
+						{"is","sourceID"},	-- Only Items with SourceID (exclude Ensembles from PvP listing)
 					},
 				})),
 				n(33595, {	-- Mera Mistrunner <Cooking Supplies>
