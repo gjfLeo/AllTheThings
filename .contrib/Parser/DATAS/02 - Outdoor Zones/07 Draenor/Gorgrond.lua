@@ -3019,6 +3019,11 @@ root(ROOTS.Zones, {
 								currency(824),	-- Garrison Resources
 							},
 						}),
+						o(243281, {	-- Ninja Pepe
+							["coord"] = { 47.51, 41.31, GORGROND },
+							["timeline"] = { ADDED_6_2_0 },
+							["g"] = { i(127867) },	-- A Tiny Ninja Shroud (Pepe!)
+						}),
 						o(236282, {	-- Obsidian Crystal Formation
 							["questID"] = 35979,
 							["coord"] = { 40.9, 67.3, GORGROND },

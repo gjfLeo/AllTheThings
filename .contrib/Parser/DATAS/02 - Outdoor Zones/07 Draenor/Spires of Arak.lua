@@ -2068,6 +2068,11 @@ root(ROOTS.Zones, {
 						["coord"] = { 46.9, 34.0, SPIRES_OF_ARAK },
 						["sym"] = COMMON_TREASURE_SYM,
 					}),
+					o(243280, {	-- Pirate Pepe
+						["coord"] = { 54.11, 83.61, SPIRES_OF_ARAK },
+						["timeline"] = { ADDED_6_2_0 },
+						["g"] = { i(127870) },	-- A Tiny Pirate Hat (Pepe!)
+					}),
 					o(234449, {	-- Relics of the Outcasts
 						["questID"] = 36355,
 						["icon"] = 1002596,

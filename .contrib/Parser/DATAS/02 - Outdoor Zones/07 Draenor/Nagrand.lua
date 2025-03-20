@@ -2547,6 +2547,11 @@ root(ROOTS.Zones, {
 							i(118253),	-- Trophy Band of Telaar
 						},
 					}),
+					o(243282, {	-- Viking Pepe
+						["coord"] = { 80.11, 50.4, DRAENOR_NAGRAND },
+						["timeline"] = { ADDED_6_2_0 },
+						["g"] = { i(127865) },	-- A Tiny Viking Helmet (Pepe!)
+					}),
 					o(232590, {	-- Void-Infused Crystal
 						["questID"] = 35579,
 						["coord"] = { 50.0, 66.5, DRAENOR_NAGRAND },

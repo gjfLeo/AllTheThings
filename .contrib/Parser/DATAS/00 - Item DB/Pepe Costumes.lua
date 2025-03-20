@@ -5,6 +5,10 @@ local i = function(itemID, questID)
 end
 
 ------------------
+-- PATCH 10.2.6 --
+------------------
+i(216907, 80093);	-- A Tiny Plumed Tricorne
+------------------
 -- PATCH 10.2.5 --
 ------------------
 i(213207, 79551);	-- A Tiny Ear Warmer

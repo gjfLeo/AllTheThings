@@ -9,10 +9,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 	n(KYRIAN, {
 		n(RENOWN, {
 			["description"] = "These are rewards automatically granted by reaching a specific level of Renown.",
-			["sym"] = {
-				{"select","itemID",186593}	-- A Tiny Pair of Wings (PEPE!)
-			},
 			["g"] = {
+				i(186593, {	-- A Tiny Pair of Wings (Pepe!)
+					["description"] = "Requires Renown 56.",
+					["timeline"] = { ADDED_9_1_0 },
+				}),
 				i(186482, {	-- Elysian Aquilon (MOUNT!)
 					["description"] = "Requires Renown 45.",
 				}),

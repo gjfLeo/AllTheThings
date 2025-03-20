@@ -43,6 +43,21 @@ root(ROOTS.Zones, {
 						i(141447),	-- Technique: Tome of the Tranquil Mind (RECIPE!)
 					},
 				}),
+				o(252331, {	-- Traveler Pepe
+					["coords"] = {
+						{ 42.31, 57.51, LEGION_DALARAN },	-- Near Fruit Vendor
+						{ 48.01, 58.01, LEGION_DALARAN },	-- Stairs to Curiositiese & Moore
+						{ 47.71, 32.31, LEGION_DALARAN },	-- Magus Commerce Exchange well
+						{ 47.31, 37.61, LEGION_DALARAN },	-- Legerdemain Lounge
+						{ 40.01, 28.01, LEGION_DALARAN },	-- Things of the Past
+						{ 42.01, 19.01, LEGION_DALARAN },	-- Antonidas Memoria
+						{ 36.01, 37.01, LEGION_DALARAN },	-- Angelique Butler (First Aid Shop)
+					},
+					["g"] = {
+						i(139632),	-- A Tiny Pair of Goggles (Pepe!)
+						ach(10770),	-- The Tangerine Traveler
+					},
+				}),
 				o(266851, {	-- Wand of Simulated Life
 					["description"] = "Item is sitting on a table upstairs in The Legerdemain Lounge.",
 					["icon"] = 133836,

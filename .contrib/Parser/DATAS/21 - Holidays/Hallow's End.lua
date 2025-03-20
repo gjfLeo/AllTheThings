@@ -4101,18 +4101,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					i(128794),	-- Sack of Spectral Spiders (TOY!)
 				},
 			}),
-			i(128874, {	-- A Tiny Scarecrow Costume
-				["description"] = "You need Tier 3 garrison for this.",
-				["questID"] = 39865,	-- Pepe can be sometimes be summoned with this mask
-				["coords"] = {
-					{ 70.71, 90.21, FROSTWALL },	-- Pepe Location [Horde]
-					{ 40.12, 70.06, LUNARFALL },	-- Pepe Location [Alliance]
-				},
-				["timeline"] = { ADDED_6_2_2 },
-				["groups"] = {
-					ach(10365),	-- A Frightening Friend
-				},
-			}),
 		},
 	}),
 	n(REWARDS, appendGroups(MASKS_WITHOUT_COST, appendGroups(WANDS_WITHOUT_COST, {
@@ -4217,6 +4205,20 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			["timeline"] = { ADDED_2_4_3 },
 		}),
 	}))),
+	n(TREASURES, {
+		o(244568, {	-- Spooky Pepe
+			["description"] = "You need a Tier 3 garrison for this.",
+			["coords"] = {
+				{ 70.71, 90.21, FROSTWALL },	-- Pepe Location [Horde]
+				{ 40.12, 70.06, LUNARFALL },	-- Pepe Location [Alliance]
+			},
+			["timeline"] = { ADDED_6_2_2 },
+			["groups"] = {
+				i(128874),	-- A Tiny Scarecrow Costume (Pepe!)
+				ach(10365),	-- A Frightening Friend
+			},
+		}),
+	}),
 	-- #if AFTER 4.2.2
 	n(VENDORS, {
 		n(53757, {	-- Chub <Candy & Toy Vendor>

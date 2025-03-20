@@ -9,10 +9,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(VENTHYR, {
 		n(RENOWN, {
 			["description"] = "These are rewards automatically granted by reaching a specific level of Renown.",
-			["sym"] = {
-				{"select","itemID",186580}	-- A Tiny Sinstone (PEPE!)
-			},
 			["g"] = {
+				i(186580, {	-- A Tiny Sinstone (Pepe!)
+					["description"] = "Requires Renown 56.",
+					["timeline"] = { ADDED_9_1_0 },
+				}),
 				i(182332, {	-- Gravestone Battle Gargon (MOUNT!)
 					["description"] = "Requires Renown 39.",
 				}),

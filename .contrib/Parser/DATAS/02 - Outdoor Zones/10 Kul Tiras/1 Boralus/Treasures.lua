@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			o(292686, {	-- Ominous Altar
 				["description"] = "Once you have clicked all five damp scrolls, return to the altar in the underwater cave.  From there you will click the altar and click each time a new line comes up.  Once all five are entered it will ask you are sure hit \"Accept\".  You will then be teleported (way south of Tiragarde Sound) where a gem will be in front of you.  Click it to open it up and receive the toy.",
-				["questID"] = 52195,	-- Secrets of the DepthsSecrets of the Depths
+				["questID"] = 52195,	-- Secrets of the Depths
 				["sourceQuests"] = {
 					52134,	-- A Damp Scroll
 					52135,	-- A Damp Scroll
@@ -53,6 +53,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["coord"] = { 62.31, 91.18, TIRAGARDE_SOUND },
 					}),
 				},
+			}),
+			o(293131, {	-- Pepe
+				["description"] = "Located inside the fish tank of |cFFFFD700Catherine Morgan's|r cat house.",
+				["coord"] = { 54.01, 71.01, BORALUS },
+				["g"] = { i(161451) },	-- A Tiny Diving Helmet (Pepe!)
 			}),
 			o(297906, {	-- Russel's Songbook
 				["questID"] = 53408,	-- Shanty of the Lively Men [Criteria]

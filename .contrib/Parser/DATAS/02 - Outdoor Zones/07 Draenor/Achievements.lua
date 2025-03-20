@@ -62,6 +62,23 @@ root(ROOTS.Zones, m(DRAENOR, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } 
 			ach(9727),		-- Expert Treasure Hunter
 			ach(9726),		-- Treasure Hunter
 		}),
+		ach(10053, {	-- I Found Pepe!
+			["timeline"] = { ADDED_6_2_0 },
+			["groups"] = {
+				crit(28185, {	-- Pirate Pepe
+					["provider"] = { "i", 127870 },	-- A Tiny Pirate Hat
+				}),
+				crit(28184, {	-- Viking Pepe
+					["provider"] = { "i", 127865 },	-- A Tiny Viking Helmet
+				}),
+				crit(28183, {	-- Knight Pepe
+					["provider"] = { "i", 127869 },	-- A Tiny Plated Helm
+				}),
+				crit(28182, {	-- Ninja Pepe
+					["provider"] = { "i", 127867 },	-- A Tiny Ninja Shroud
+				}),
+			},
+		}),
 		a(ach(9833, {	-- Loremaster of Draenor [A]
 			["sym"] = {{"meta_achievement",
 				8845,	-- As I Walk Through the Valley of the Shadow of Moon

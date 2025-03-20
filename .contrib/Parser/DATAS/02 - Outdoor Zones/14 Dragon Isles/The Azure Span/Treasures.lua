@@ -224,6 +224,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					i(201374),	-- Tuskarr Fishing Pike
 				},
 			}),
+			o(421740, {	-- Tuskarr Pepe
+				["coord"] = { 12.99, 48.59, THE_AZURE_SPAN },
+				["timeline"] = { ADDED_10_2_5 },
+				["g"] = { i(213207) },	-- A Tiny Ear Warmer (Pepe!)
+			}),
 			o(381722, {	-- Vakthros Maintenance
 				["coord"] = { 77.4, 31.1, THE_AZURE_SPAN },
 			}),

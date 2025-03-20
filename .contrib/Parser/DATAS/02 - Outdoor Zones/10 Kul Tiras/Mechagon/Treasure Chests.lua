@@ -173,6 +173,11 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 					["cost"] = { { "i", 169218, 1 } },	-- 1x Old Rusty Key
 				}),
 			}),
+			o(330634, {	-- P3-P3
+				["description"] = "Located in the alternate Timeline.",
+				["coord"] = { 68.5, 47.9, MECHAGON },
+				["g"] = { i(170151) },	-- A Tiny Clockwork Key (Pepe!)
+			}),
 			o(327548, {	-- Powerpack Blueprints
 				["coord"] = { 60.9, 41.5, MECHAGON },
 				["g"] = {

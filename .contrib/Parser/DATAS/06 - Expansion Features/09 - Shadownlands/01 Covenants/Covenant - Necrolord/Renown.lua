@@ -9,10 +9,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(NECROLORD, {
 		n(RENOWN, {
 			["description"] = "These are rewards automatically granted by reaching a specific level of Renown.",
-			["sym"] = {
-				{"select","itemID",186524}	-- A Tiny Vial of Slime (PEPE!)
-			},
 			["g"] = {
+				i(186524, {	-- A Tiny Vial of Slime (Pepe!)
+					["description"] = "Requires Renown 56.",
+					["timeline"] = { ADDED_9_1_0 },
+				}),
 				i(181821, {	-- Armored Plaguerot Tauralus (MOUNT!)
 					["description"] = "Requires Renown 39.",
 				}),

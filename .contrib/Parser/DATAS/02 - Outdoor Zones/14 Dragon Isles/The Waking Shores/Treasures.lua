@@ -136,6 +136,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					i(202084),	-- Eroded Fossil
 				},
 			}),
+			o(421736, {	-- Explorer Pepe
+				["coord"] = { 47.3, 82.7, THE_WAKING_SHORES },
+				["timeline"] = { ADDED_10_2_5 },
+				["g"] = { i(213202) },	-- A Tiny Explorer's Hat (Pepe!)
+			}),
 			o(381355, {	-- Finely Carved Wing
 				["coord"] = { 47.2, 88.6, THE_WAKING_SHORES },
 				["description"] = "Underneath the dragon statue.",

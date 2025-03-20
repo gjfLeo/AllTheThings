@@ -2355,16 +2355,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 		},
 	}),
 	-- #if AFTER 8.3.0
-	n(RARES, {
-		i(174865, {	-- A Tiny Winter Hat (Pepe)
-			["questID"] = 58901,
-			["coords"] = {
-				{ 33.9, 68.1, IRONFORGE },
-				{ 52.9, 77.4, ORGRIMMAR },
-			},
-			["timeline"] = { CREATED_8_3_0, ADDED_9_0_1 },
-		}),
-	}),
 	n(TREASURES, {
 		o(180746, {	-- Gently Shaken Gift
 			i(178529, {	-- Gently Shaken Gift
@@ -2382,6 +2372,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			i(218309, {	-- Gently Shaken
 				["timeline"] = { ADDED_11_0_7 },
 			}),
+		}),
+		o(341827, {	-- Greatfeather Pepe
+			["coords"] = {
+				{ 33.9, 68.1, IRONFORGE },
+				{ 52.9, 77.4, ORGRIMMAR },
+			},
+			["timeline"] = { CREATED_8_3_0, ADDED_9_0_1 },
+			["g"] = { i(174865) },	-- A Tiny Winter Hat (Pepe!)
 		}),
 		o(187236, {	-- Winter Veil Gift
 			i(178528, {	-- Winter Veil Gift

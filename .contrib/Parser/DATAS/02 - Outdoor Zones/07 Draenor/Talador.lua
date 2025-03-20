@@ -2556,6 +2556,11 @@ root(ROOTS.Zones, {
 							i(116402),	-- Stonegrinder (PET!)
 						},
 					}),
+					o(243283, {	-- Knight Pepe
+						["coord"] = { 51.01, 63.31, TALADOR },
+						["timeline"] = { ADDED_6_2_0 },
+						["g"] = { i(127869) },	-- A Tiny Plated Helm (Pepe!)
+					}),
 					o(228022, {	-- Light of the Sea
 						["questID"] = 34258,
 						["coord"] = { 38.2, 12.5, TALADOR },

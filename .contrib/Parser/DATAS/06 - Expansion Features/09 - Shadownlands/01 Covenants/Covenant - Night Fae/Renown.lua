@@ -9,10 +9,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	n(NIGHT_FAE, {
 		n(RENOWN, {
 			["description"] = "These are rewards automatically granted by reaching a specific level of Renown.",
-			["sym"] = {
-				{"select","itemID",186473}	-- A Tiny Winter Staff (PEPE!)
-			},
 			["g"] = {
+				i(186473, {	-- A Tiny Winter Staff (Pepe!)
+					["description"] = "Requires Renown 56.",
+					["timeline"] = { ADDED_9_1_0 },
+				}),
 				i(186493, {	-- Ardenweald Wilderling (MOUNT!)
 					["description"] = "Requires Renown 45.",
 				}),

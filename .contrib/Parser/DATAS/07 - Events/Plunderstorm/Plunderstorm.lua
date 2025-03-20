@@ -172,9 +172,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			},{ -- RENOWN 23 --
 				i(216731),	-- Plunderlord's Cuffs
 			},{ -- RENOWN 24 --
-				i(216907, {	-- A Tiny Plumed Tricorne
-					["questID"] = 80093,
-				}),
+				i(216907),	-- A Tiny Plumed Tricorne (Pepe!)
 			},{ -- RENOWN 25 --
 				i(216732),	-- Plunderlord's Golden Cinch
 			},{ -- RENOWN 26 --
@@ -462,8 +460,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 				}),
 			}),
 			filter(TOYS, {
-				i(216907, {	-- A Tiny Plumed Tricorne
-					["questID"] = 80093,
+				i(216907, {	-- A Tiny Plumed Tricorne (Pepe!)
 					["cost"] = {{"c", PLUNDER, 500}},
 				}),
 				i(170197, {	-- Swarthy Warning Sign
