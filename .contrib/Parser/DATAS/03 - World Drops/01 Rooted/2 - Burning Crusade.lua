@@ -1175,6 +1175,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			17156,	-- Tortured Earth Spirit
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+		["_allowObjectProvider"] = true,
 		["providers"] = {
 			{ "o", 181556 },	-- Adamantite Deposit
 			{ "o", 181555 },	-- Fel Iron Deposit
@@ -1201,6 +1202,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			22298,	-- Vile Fire-Soul
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+		["_allowObjectProvider"] = true,
 		["providers"] = {
 			{ "o", 181555 },	-- Fel Iron Deposit
 			{ "o", 181557 },	-- Khorium Vein
@@ -1222,6 +1224,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		},
 		["description"] = "The given maps and sources applies for how to obtain this element's motes.",
 		["maps"] = { COILFANG_RESERVOIR_UNDERBOG },
+		["_allowObjectProvider"] = true,
 		["providers"] = {
 			{ "o", 181278 },	-- Ancient Lichen
 			{ "o", 181271 },	-- Dreaming Glory
@@ -1268,6 +1271,7 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			20516,	-- Warp Monstrosity
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+		["_allowObjectProvider"] = true,
 		["provider"] = { "o", 181279 },	-- Netherbloom
 	}, {
 		i(22576),	-- Mote of Mana

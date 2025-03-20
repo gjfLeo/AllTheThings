@@ -1076,12 +1076,14 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_2_0 } }
 						},
 						["coord"] = { 57.7, 55.4, EMERALD_DREAM },
 					}),
-					i(209416, {	-- Turtle Eggshell Shards (QI!)
-						["provider"] = {"o",408997},	-- Turtle Egg
+					o(408997, {	-- Turtle Egg
 						["coords"] = {
 							{ 43.5, 80.9, EMERALD_DREAM },
 							{ 43.1, 79.6, EMERALD_DREAM },
 							{ 43.0, 77.2, EMERALD_DREAM },
+						},
+						["g"] = {
+							i(209416),	-- Turtle Eggshell Shards (QI!)
 						},
 					}),
 					i(208646, {	-- Combined Fertilizer Ingredients (QI!)

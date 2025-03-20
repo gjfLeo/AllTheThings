@@ -5,6 +5,7 @@ using ATT.FieldTypes;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using static ATT.Export;
 
@@ -117,7 +118,7 @@ namespace ATT
             foreach (var actionSequence in PostProcessFunctions)
             {
                 var act = actionSequence.Key;
-                if (DebugMode)
+                if (Debugger.IsAttached)
                 {
                     actionSequence.Value.ForEach(act);
                 }
@@ -1501,6 +1502,20 @@ namespace ATT
                 {
                     LogError($"Invalid Data Format: provider-id {providerList[1]}", data);
                     continue;
+                }
+
+                switch (pType)
+                {
+                    case "o":
+                        // Items with coords and single Object provider should list the Object as a Source
+                        if (providersList.Count == 1
+                            && data.TryGetValue("itemID", out long itemID)
+                            && data.TryGetValue("coords", out object coords)
+                            && !data.ContainsKey("_allowObjectProvider"))
+                        {
+                            LogWarn($"Item {itemID} with 'coords' and single Object Provider {pID} should not use Object providers; Source the Object with the Item nested or add '_allowObjectProvider' if an Object provider makes sense and the Object does not need to be Sourced itself", data);
+                        }
+                        break;
                 }
             }
         }
@@ -3074,11 +3089,7 @@ namespace ATT
 
             //}
 
-            bool hasNpcProvider = false;
-            if (data.ContainsKey("qgs"))
-            {
-                hasNpcProvider = true;
-            }
+            bool hasNpcProvider = data.TryGetValue("qgs", out List<long> qgs);
 
             int i = 0;
             while (i < providersList.Count)
@@ -3117,8 +3128,8 @@ namespace ATT
                             {
                                 // The item was classified as never being implemented
                                 LogDebug($"INFO: Removed NYI 'provider-item' {pID}", data);
-                                i--;
                                 providersList.RemoveAt(i);
+                                i--;
                             }
                         }
                         break;
@@ -3307,6 +3318,21 @@ namespace ATT
                     }
                 }
             }
+
+            // Items with only 'n' providers should just use 'crs' for simplicity
+            // TODO: perhaps the specific 'Providers' vs. 'Creatures' wording in tooltips is intended specifically, maybe revise providers handling eventually
+            //if (data.TryGetValue("providers", out List<object> providers))
+            //{
+            //    if (providers.AsTypedEnumerable<List<object>>().All(p => p[0] as string == "n"))
+            //    {
+            //        LogDebugWarn($"Item {itemID} with all 'n' providers converted to 'crs'", data);
+            //        foreach (var p in providers.AsTypedEnumerable<List<object>>())
+            //        {
+            //            Objects.Merge(data, "crs", p[1]);
+            //        }
+            //        data.Remove("providers");
+            //    }
+            //}
         }
 
         /// <summary>
