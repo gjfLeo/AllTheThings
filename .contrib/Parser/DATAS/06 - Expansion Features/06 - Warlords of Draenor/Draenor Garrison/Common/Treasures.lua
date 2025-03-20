@@ -28,6 +28,14 @@ root(ROOTS.ExpansionFeatures,
 						currency(824),	-- Garrison Resources
 					},
 				}),
+				-- why the treasure file? Because Pepe is a NATIONAL TREASURE
+				-- he is clicked on like objects and I can't think of a better file to put him outside of Special.lua, feel free to move, listed here so one achievement provider can point at the NPC.
+				n(86470, {	-- Pepe
+					["coords"] = {
+						{ 42.0, 45.6, FROSTWALL },
+						{ 49.0, 45.6, LUNARFALL },
+					},
+				}),
 				o(232248, {	-- Pippers' Buried Supplies
 					["questID"] = 35381,
 					["races"] = ALLIANCE_ONLY,
