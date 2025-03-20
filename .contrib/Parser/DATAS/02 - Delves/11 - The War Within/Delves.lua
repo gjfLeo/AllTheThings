@@ -1523,7 +1523,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 		o(478443, {	-- Mislaid Curiosity
-			["description"] = "Contains Chunk of Companion Experience tokens.\n\n|cFF40bf40Massively buffed in 11.1, they can now provide up to 18k Brann XP each, depending on the Delves' Level & which experience token you receive.|r",
+			["description"] = "Contains a 'Chunk of Companion Experience' token.\n\n|cFF40bf40Massively buffed in 11.1, they can now provide up to 18k Brann XP each, depending on the Delves' Level & which experience token you receive.|r",
 			["timeline"] = { ADDED_11_1_0 },
 			["g"] = {
 				-- Brann Experience
@@ -1888,7 +1888,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(226259, {	-- Delver's Pouch of Resonance Crystals
 						["cost"] = {{"c", UNDERCOIN, 2000}},
+						-- Blizzard added the same note on the item.
+						-- #if BEFORE 11.1.0
 						["description"] = "Contains 250 Resonance Crystals.",
+						-- #endif
 						-- Listening 500+ Items is excessive bloat, especially since you get around 150 Undercoins per Delve
 						-- Even if you have all items, which takes ages, its probably better to keep them for future Delve Seasons -Goldenshacal 24th Sep 2024
 						--["g"] = {
