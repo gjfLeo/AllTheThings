@@ -470,9 +470,6 @@ root(ROOTS.Unsorted, {
 
 				-- Mythic + Mechagon?
 				i(232547),	-- Omega Strike Force
-
-				-- Delves / Bountiful Season 2
-				i(235422),	-- Venture Co Seal
 			}),
 			filter(BATTLE_PETS, {
 				i(232854),	-- Grinner
@@ -696,7 +693,6 @@ root(ROOTS.Unsorted, {
 				i(232930),	-- Zaps Leadfoot
 				i(233021),	-- Grappling-Grabber 9000
 				i(233054),	-- Wonder Ball
-				i(233210),	-- Pungent Putrigill
 				i(234616),	-- Supreme Mangoro Madness
 				i(234617),	-- Dulux Bluesberry Blast
 				i(234618),	-- Omega Oyster Outbreak

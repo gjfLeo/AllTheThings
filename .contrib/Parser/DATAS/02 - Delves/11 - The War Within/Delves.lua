@@ -929,6 +929,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235484),	-- Razor-sharp Desk Fan
 						i(235488),	-- Rocket Taped to a Screwdriver
 						i(235486),	-- Springloaded Kneecap Breaker
+						i(235422),	-- Venture Co Seal
 					})),
 				}),
 			},
@@ -943,6 +944,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(227783),	-- Delver's Bounty [Tier 7]
 			i(226120),	-- Deployable Battle Supplies
 			i(226131),	-- Deployable Wind-Wrangling Spire
+			i(233210, {	-- Pungent Putrigill
+				["timeline"] = { ADDED_11_1_0 },
+			}),
 		}),
 		n(CURIO, {	-- TODO: Might be that Curio Belongs to Specific Delves... Have to check // Braghe
 			-- ["sharedDescription"] = "To collect a Curio, it must be selected on Brann prior to an ATT Force Refresh",
@@ -1561,7 +1565,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			},
 		}),
 		o(507768, {	-- Jettisoned Pile of Goblin-Bucks
-			["description"] = "Left behind by Underpin when he was defeated in a delve.",
+			["description"] = "Left behind by Underpin when he is defeated in a delve.",
 			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },
 			["g"] = {
 				i(235813),	-- Machine Gob's Iron Grin

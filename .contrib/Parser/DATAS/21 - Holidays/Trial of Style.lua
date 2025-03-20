@@ -299,10 +299,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 				["providers"] = {
 					{ "n", 206252 },	-- Primo
 					{ "n", 206383 },	-- Don'a
+					-- #if AFTER 11.1.0
+					{ "n", 236405 },	-- Perfecto
+					-- #endif
 				},
 				["coords"] = {
 					{ 51.0, 72.5, STORMWIND_CITY },
 					{ 49.0, 76.4, ORGRIMMAR },
+					-- #if AFTER 11.1.0
+					{ 45.7, 52.7, DORNOGAL },
+					-- #endif
 				},
 				["description"] = "Blizzard messed up here, this should've been the second quest and not breadcrumb.",
 				["isBreadcrumb"] = true,
@@ -360,6 +366,31 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 			q(76288, {	-- Work It
 				["provider"] = { "n", 206206 },	-- Cataloger Sandia
 				["coord"] = { 50.7, 24.9, ZARALEK_CAVERN },
+			}),
+			q(86698, {	-- Work It
+				["provider"] = { "n", 236334 },	-- Cataloger Ironshot
+				["coord"] = { 45.9, 54.8, DORNOGAL },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
+			q(86704, {	-- Work It
+				["provider"] = { "n", 236365 },	-- Cataloger Moonsage
+				["coord"] = { 56.7, 40.7, AZJ_KAHET },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
+			q(86703, {	-- Work It
+				["provider"] = { "n", 236364 },	-- Cataloger Grilka
+				["coord"] = { 61.3, 31.1, HALLOWFALL },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
+			q(86699, {	-- Work It
+				["provider"] = { "n", 236356 },	-- Cataloger Sunshot
+				["coord"] = { 56.5, 51.5, ISLE_OF_DORN },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
+			q(86700, {	-- Work It
+				["provider"] = { "n", 236359 },	-- Cataloger Judith
+				["coord"] = { 43.1, 33.1, THE_RINGING_DEEPS },
+				["timeline"] = { ADDED_11_1_0 },
 			}),
 		})),
 	},
