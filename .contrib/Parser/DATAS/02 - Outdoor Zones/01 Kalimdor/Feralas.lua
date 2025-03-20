@@ -3158,10 +3158,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(212991),	-- Grimoire of the Dire Observer (CI!)
 					},
 				}),
-				i(8564, {	-- Hippogryph Egg
-					["provider"] = { "o", 141931 },	-- Hippogryph Egg
+				o(141931, {	-- Hippogryph Egg
 					["coord"] = { 57.0, 78.2, FERALAS },
 					["timeline"] = { REMOVED_4_0_3 },
+					["groups"] = { i(8564) },	-- Hippogryph Egg
 				}),
 			}),
 			n(VENDORS, {

@@ -3051,19 +3051,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #if AFTER 10.1.5
 			n(TREASURES, {
-				i(206359, {	-- Caer Darrow Fountain Water
-					["provider"] = { "o", 403532 },	-- Bucket of Fountain Water
-					["sourceQuest"] = 76250,	-- Spectral Essence
+				o(403532, {	-- Bucket of Fountain Water
 					["description"] = "Located by the water fountain in Caer Darrow.",
+					["sourceQuest"] = 76250,	-- Spectral Essence
 					["coord"] = { 68.8, 78.9, WESTERN_PLAGUELANDS },
 					["timeline"] = { ADDED_10_1_5 },
+					["g"] = { i(206359) },	-- Caer Darrow Fountain Water
 				}),
-				i(206362, {	-- The Deed to Andorhal
-					["provider"] = { "o", 403535 },	-- The Deed to Andorhal
-					["sourceQuest"] = 76250,	-- Spectral Essence
+				o(403535, {	-- The Deed to Andorhal
 					["description"] = "Located by the town hall in Andorhal, on a wall to the right of where Rattlegore spawns.",
+					["sourceQuest"] = 76250,	-- Spectral Essence
 					["coord"] = { 43.6, 69.3, WESTERN_PLAGUELANDS },
 					["timeline"] = { ADDED_10_1_5 },
+					["g"] = { i(206362) },	-- The Deed to Andorhal
 				}),
 			}),
 			-- #endif

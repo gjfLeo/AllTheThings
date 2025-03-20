@@ -130,7 +130,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 		}),
 		ach(9838, {	-- What A Strange, Interdimensional Trip It's Been
 			["provider"] = { "n", 86470 },	-- Pepe
-			["timeline"] = { ADDED_7_0_3 },
+			["timeline"] = { ADDED_6_1_0 },
 			["groups"] = {
 				i(122293),	-- Trans-Dimensional Bird Whistle (TOY!)
 				crit(27625, {	-- Gug'rokk (Bloodmaul Slag Mines)
