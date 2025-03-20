@@ -574,10 +574,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						{ 55.9, 42.2, AZJ_KAHET },
 					},
 					["g"] = {
-						i(225572, {	-- The General's War Chest
-							i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-							i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-							i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+						i(225572, {	-- The General's War Chest (S1)
+							["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+							["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+							["g"] = {
+								i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+								i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+								i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+							},
+						}),
+						i(239122, {	-- The General's War Chest (S2)
+							["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+							["timeline"] = { ADDED_11_1_0_SEASONSTART },
+							["g"] = {
+								i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+								i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+								i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+							},
 						}),
 					},
 				}),
@@ -593,10 +606,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					},
 					["coord"] = { 55.2, 41, AZJ_KAHET },
 					["g"] = {
-						i(225573, {	-- The Vizier's Capital
-							i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-							i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-							i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+						i(225573, {	-- The Vizier's Capital (S1)
+							["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+							["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+							["g"] = {
+								i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+								i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+								i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+							},
+						}),
+						i(239124, {	-- The Vizier's Capital (S2)
+							["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+							["timeline"] = { ADDED_11_1_0_SEASONSTART },
+							["g"] = {
+								i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+								i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+								i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+							},
 						}),
 					},
 				}),
@@ -612,10 +638,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					},
 					["coord"] = { 55.2, 41, AZJ_KAHET },
 					["g"] = {
-						i(225571, {	-- The Weaver's Gratuity
-							i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
-							i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
-							i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+						i(225571, {	-- The Weaver's Gratuity (S1)
+							["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+							["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+							["g"] = {
+								i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+								i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+								i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+							},
+						}),
+						i(239125, {	-- The Weaver's Gratuity (S2)
+							["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+							["timeline"] = { ADDED_11_1_0_SEASONSTART },
+							["g"] = {
+								i(223138),	-- Formula: Enchant Cloak - Chant of Winged Grace (RECIPE!)
+								i(223135),	-- Formula: Illusory Adornment: Shadow (RECIPE!)
+								i(227281),	-- Recipe: Feast of the Midnight Masquerade (RECIPE!)
+							},
 						}),
 					},
 				}),

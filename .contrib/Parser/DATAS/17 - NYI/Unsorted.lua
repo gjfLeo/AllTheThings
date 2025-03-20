@@ -939,13 +939,6 @@ root(ROOTS.Unsorted, {
 			i(238776),	-- Gallagio Raider's Bilgewater Blasthammer
 			i(238777),	-- Gallagio Raider's Blackwater Blasthammer
 			i(238778),	-- Gallagio Raider's Darkfuse Blasthammer
-			i(239118),	-- Pinnacle Cache
-			i(239121),	-- Awakened Mechanical Cache
-			i(239122),	-- The General's War Chest
-			i(239124),	-- The Vizier's Capital
-			i(239125),	-- The Weaver's Gratuity
-			i(239126),	-- Radiant Cache
-			i(239128),	-- Theater Troupe's Trove
 		})),
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			-- Old

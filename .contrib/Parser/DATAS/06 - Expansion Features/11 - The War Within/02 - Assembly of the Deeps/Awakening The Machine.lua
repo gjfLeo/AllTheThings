@@ -33,8 +33,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						-- #endif
 						["isWeekly"] = true,
 						["g"] = {
-							i(226273, {	-- Awakened Mechanical Cache
-								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Zone Rewards content]
+							i(226273, {	-- Awakened Mechanical Cache (S1)
+								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+								["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+								["g"] = {
+									i(223128),	-- Formula: Enchant Chest - Oathsworn's Strength (RECIPE!)
+									i(224426),	-- Pattern: Ignition Satchel (RECIPE!)
+									i(223040),	-- Plans: Charged Crusher (RECIPE!)
+								},
+							}),
+							i(239121, {	-- Awakened Mechanical Cache (S2)
+								["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+								["timeline"] = { ADDED_11_1_0_SEASONSTART },
 								["g"] = {
 									i(223128),	-- Formula: Enchant Chest - Oathsworn's Strength (RECIPE!)
 									i(224426),	-- Pattern: Ignition Satchel (RECIPE!)

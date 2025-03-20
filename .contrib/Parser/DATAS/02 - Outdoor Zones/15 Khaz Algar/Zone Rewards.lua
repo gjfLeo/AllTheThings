@@ -92,15 +92,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			i(224703),	-- Ancient Forged Sword
 			i(224706),	-- Ancient Forged Warhammer
 		}),
-
 		--
 		i(229354, {	-- Algari Adventurer's Cache
-			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Zone Rewards content]
+			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 		}),
-		i(224784, {	-- Pinnacle Cache
-			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Zone Rewards content]
+		i(224784, {	-- Pinnacle Cache (S1)
+			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+			["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 		}),
-		i(228361, {	-- Seasoned Adventurer's Cache
+		i(239118, {	-- Pinnacle Cache (S2)
+			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
+		}),
+		i(228361, {	-- Seasoned Adventurer's Cache (S1)
 			["sym"] = { -- [Khaz Algar Zone Rewards content]
 				{"select","mapID",KHAZ_ALGAR},{"pop"},
 				{"where","headerID",ZONE_REWARDS},{"pop"},
@@ -112,7 +116,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			},
 			["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 		}),
-		i(235639, {	-- Seasoned Adventurer's Cache
+		i(239120, {	-- Seasoned Adventurer's Cache (S2)
+			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+			["timeline"] = { ADDED_11_1_0_SEASONSTART },
+		}),
+		i(235639, {	-- Seasoned Adventurer's Cache (Undermine)
 			["sym"] = { -- [Undermine Zone Rewards content]
 				{"select","mapID",KHAZ_ALGAR},{"pop"},
 				{"where","mapID",UNDERMINE},{"pop"},
@@ -126,11 +134,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			},
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
-		i(235610, {	-- Seasoned Adventurer's Cache
-			["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
-			["timeline"] = { ADDED_11_1_0_SEASONSTART },
-		}),
-		i(239120, {	-- Seasoned Adventurer's Cache
+		i(235610, {	-- Seasoned Adventurer's Cache (Undermine)
 			["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
