@@ -25,7 +25,6 @@ local Things = {
 	"Recipes",
 	"Reputations",
 	"RuneforgeLegendaries",
-	"Skyriding",
 	"Titles",
 	"Toys",
 	"Transmog",
