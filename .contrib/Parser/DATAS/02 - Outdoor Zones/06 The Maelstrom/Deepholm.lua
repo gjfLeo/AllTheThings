@@ -179,19 +179,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 49.8, 57.0, DEEPHOLM },
 					}),
 				}),
-				n(PROFESSIONS, {
-					prof(FISHING, {
-						o(202778, {	-- Albino Cavefish School
-							i(22739),	-- Tome of Polymorph: Turtle (CI!)
-						}),
-					}),
-					prof(MINING, {
-						["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require Cataclysm Mining.",
-						["groups"] = {
-							i(67282),	-- Elementium Geode (PET!)
-						},
-					}),
-				}),
 				n(QUESTS, {
 					q(26581, {	-- A Head Full of Wind
 						["qg"] = 43395,	-- Windspeaker Lorvarius

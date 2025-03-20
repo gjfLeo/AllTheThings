@@ -97,7 +97,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(58487),	-- Potion of Deepholm
 			i(58489),	-- Potion of Illusion
 			i(58145),	-- Potion of the Tol'vir
-			i(58488),	-- Potion of Treasure Finding
+			i(58488, {	-- Potion of Treasure Finding
+				i(67539),	-- Tiny Treasure Chest
+			}),
 			i(58143),	-- Prismatic Elixir
 			i(58091),	-- Volcanic Potion
 		}),
@@ -109,20 +111,22 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 		}),
 		filter(REAGENTS, {
 			i(56850),	-- Deepstone Oil
+			i(51950),	-- Pyrium Bar
+			i(52303),	-- Shadowspirit Diamond
+			i(58480, {	-- Truegold
+				["description"] = "Crafted through Transmutation.",
+			}),
+		}),
+		filter(REAGENTS, sharedData({
+			["sharedDescription"] = "This reagent is most reliably obtained through Transmutation.",
+		}, {
 			i(52195),	-- Amberjewel
 			i(52194),	-- Demonseye
 			i(52192),	-- Dream Emerald
 			i(52193),	-- Ember Topaz
 			i(52190),	-- Inferno Ruby
 			i(52191),	-- Ocean Sapphire
-			i(51950),	-- Pyrium Bar
-			i(52303),	-- Shadowspirit Diamond
-			i(58480),	-- Truegold
-			i(52328),	-- Volatile Air
-			i(52327),	-- Volatile Earth
-			i(52325),	-- Volatile Fire
-			i(52326),	-- Volatile Water
-		}),
+		})),
 		filter(TRINKET_F, {
 			i(58483),	-- Lifebound Alchemist Stone
 			i(68776, {["timeline"] = {ADDED_4_0_6}}),	-- Quicksilver Alchemist Stone
@@ -498,18 +502,241 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 	}),
 	-- #endif
 	prof(FISHING, {
-		i(53065),	-- Albino Cavefish
-		i(53071),	-- Algaefin Rockfish
-		i(53066),	-- Blackbelly Mudfish
-		i(53072),	-- Deepsea Sagefish
-		i(53070),	-- Fathom Eel
-		i(53064),	-- Highland Guppy
-		i(53068),	-- Lavascale Catfish
-		i(53063),	-- Mountain Trout
-		i(53069),	-- Murglesnout
-		i(46109),	-- Sea Turtle (MOUNT!)
-		i(53062),	-- Sharptooth
-		i(53067),	-- Striped Lurker
+		-- Fish
+		i(53065, {	-- Albino Cavefish
+			["coords"] = {
+				{ 68.3, 69.9, DEEPHOLM },	-- Lower Silvermarsh
+				{ 69.4, 68.1, DEEPHOLM },	-- Lower Silvermarsh cave entrance
+				{ 71.8, 63.1, DEEPHOLM },	-- Upper Silvermarsh
+				{ 76.8, 41.9, DEEPHOLM },	-- Crimson Expanse
+				{ 27.2, 34.8, DEEPHOLM },	-- Needlerock Chasm
+			},
+			["description"] = "Schools can also spawn in the cavern beneath Upper Silvermarsh, with entrance from Lower Silvermarsh.",
+			["provider"] = { "o", 202778 },	-- Albino Cavefish School
+		}),
+		i(53071, {	-- Algaefin Rockfish
+			-- Danny Donkey: Wowhead comments indicates that these possibly had dedicates schools before 4.3.0.
+			["description"] = "Can be caught on the seaside, though might be more uncommon than other saltwater fish.",
+			["maps"] = {
+				TOL_BARAD_PENINSULA,
+				TWILIGHT_HIGHLANDS,
+				VASHJIR_KELPTHAR_FOREST,
+				VASHJIR_SHIMMERING_EXPANSE,
+			},
+			-- #if AFTER 4.1.0
+			["provider"] = { "i", 69823 },	-- Gub's Catch
+			-- #endif
+		}),
+		i(53066, {	-- Blackbelly Mudfish
+			["description"] = "Schools can be found in inland waterways.",
+			["maps"] = { ULDUM },
+			["provider"] = { "o", 202779 },	-- Blackbelly Mudfish School
+		}),
+		i(53072, {	-- Deepsea Sagefish
+			-- #if BEFORE 4.3.0
+			["description"] = "Can be caught on the seaside.",
+			-- #else
+			["description"] = "Schools can be found on the seaside.",
+			-- #endif
+			["maps"] = {
+				TOL_BARAD_PENINSULA,
+				TWILIGHT_HIGHLANDS,
+				VASHJIR_KELPTHAR_FOREST,
+				VASHJIR_SHIMMERING_EXPANSE,
+			},
+			-- #if AFTER 4.1.0
+			["providers"] = {
+				{ "i", 69823 },	-- Gub's Catch
+				-- #if AFTER 4.3.0
+				{ "o", 208311 },	-- Deepsea Sagefish School
+				-- #endif
+			},
+			-- #endif
+		}),
+		i(53070, {	-- Fathom Eel
+			["description"] = "Schools can be found on the seaside.",
+			["maps"] = {
+				TOL_BARAD_PENINSULA,
+				ULDUM,
+			},
+			["providers"] = {
+				{ "o", 202780 },	-- Fathom Eel Swarm
+				-- #if AFTER 4.1.0
+				{ "i", 69823 },	-- Gub's Catch
+				-- #endif
+			},
+		}),
+		i(53064, {	-- Highland Guppy
+			["description"] = "Schools can be found in inland waterways.",
+			["maps"] = { TWILIGHT_HIGHLANDS },
+			["provider"] = { "o", 202777 },	-- Highland Guppy School
+		}),
+		i(53068, {	-- Lavascale Catfish
+			["description"] = "Can be caught in inland waterways.",
+			["maps"] = {
+				DEEPHOLM,
+				ULDUM,
+			},
+			-- #if AFTER 4.1.0
+			["provider"] = { "i", 69823 },	-- Gub's Catch
+			-- #endif
+		}),
+		i(53063, {	-- Mountain Trout
+			["coords"] = {
+				{ 69.6, 68.9, MOUNT_HYJAL },	-- Gates of Sothann
+				{ 29.1, 33.0, MOUNT_HYJAL },	-- Shrine of Goldrinn
+				{ 41.2, 29.8, MOUNT_HYJAL },	-- The Verdant Thicket
+				{ 52.6, 17.3, MOUNT_HYJAL },	-- Hyjal Barrow Dens (entrance)
+				{ 60.8, 25.9, MOUNT_HYJAL },	-- Nordrassil
+			},
+			["provider"] = { "o", 202776 },	-- Mountain Trout School
+		}),
+		i(53069, {	-- Murglesnout
+			["description"] = "Can be caught on the seaside.",
+			["maps"] = {
+				TOL_BARAD_PENINSULA,
+				TWILIGHT_HIGHLANDS,
+				VASHJIR_KELPTHAR_FOREST,
+				VASHJIR_SHIMMERING_EXPANSE,
+			},
+		}),
+		i(46109, {	-- Sea Turtle (MOUNT!)
+			-- #if BEFORE 5.0.3
+			["maps"] = {
+				BOREAN_TUNDRA,
+				CRYSTALSONG_FOREST,
+				DEEPHOLM,
+				DRAGONBLIGHT,
+				GRIZZLY_HILLS,
+				HOWLING_FJORD,
+				MOUNT_HYJAL,
+				SHOLAZAR_BASIN,
+				TOL_BARAD_PENINSULA,
+				TWILIGHT_HIGHLANDS,
+				ULDUM,
+			},
+			["providers"] = {
+				{ "o", 202778 },	-- Albino Cavefish School
+				{ "o", 202779 },	-- Blackbelly Mudfish School
+				{ "o", 192051 },	-- Borean Man O' War School
+				{ "o", 192053 },	-- Deep Sea Monsterbelly School
+				-- #if AFTER 4.3.0
+				{ "o", 208311 },	-- Deepsea Sagefish School
+				-- #endif
+				{ "o", 192048 },	-- Dragonfin Angelfish School
+				{ "o", 192049 },	-- Fangtooth Herring School
+				{ "o", 202780 },	-- Fathom Eel Swarm
+				{ "o", 192050 },	-- Glacial Salmon School
+				{ "o", 192059 },	-- Glassfin Minnow School
+				{ "o", 202777 },	-- Highland Guppy School
+				{ "o", 192052 },	-- Imperial Manta Ray School
+				{ "o", 192054 },	-- Moonglow Cuttlefish School
+				{ "o", 202776 },	-- Mountain Trout School
+				{ "o", 192046 },	-- Musselback Sculpin School
+				{ "o", 192057 },	-- Nettlefish School
+				{ "o", 207724 },	-- Shipwreck Debris
+			},
+			-- #endif
+		}),
+		i(53062, {	-- Sharptooth
+			["description"] = "Can be caught in inland waterways.",
+			["maps"] = {
+				DEEPHOLM,
+				MOUNT_HYJAL,
+				TWILIGHT_HIGHLANDS,
+				ULDUM,
+			},
+		}),
+		i(68050, {	-- Shatterscale Mightfish
+			["coords"] = {
+				{ 52.4, 77.0, MOUNT_HYJAL },	-- The Throne of Flame
+				{ 41.0, 79.1, TWILIGHT_HIGHLANDS },	-- Cannon's Inferno
+			},
+			["description"] = "Can be caught by fishing in lava using a special lure.",
+			["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
+		}),
+		i(53067, {	-- Striped Lurker
+			["description"] = "Can be caught in inland waterways.",
+			["maps"] = {
+				MOUNT_HYJAL,
+				TWILIGHT_HIGHLANDS,
+			},
+		}),
+		i(22739, {	-- Tome of Polymorph: Turtle (CI!)
+			["maps"] = {
+				DEEPHOLM,
+				MOUNT_HYJAL,
+				TOL_BARAD_PENINSULA,
+				TWILIGHT_HIGHLANDS,
+				ULDUM,
+			},
+			["providers"] = {
+				{ "o", 202778 },	-- Albino Cavefish School
+				{ "o", 202779 },	-- Blackbelly Mudfish School
+				-- #if AFTER 4.3.0
+				{ "o", 208311 },	-- Deepsea Sagefish School
+				-- #endif
+				{ "o", 202780 },	-- Fathom Eel Swarm
+				{ "o", 202777 },	-- Highland Guppy School
+				{ "o", 202776 },	-- Mountain Trout School
+				{ "o", 207724 },	-- Shipwreck Debris
+			},
+		}),
+		-- Schools:
+		o(202778, {	-- Albino Cavefish School
+			["coords"] = {
+				{ 68.3, 69.9, DEEPHOLM },	-- Lower Silvermarsh
+				{ 69.4, 68.1, DEEPHOLM },	-- Lower Silvermarsh cave entrance
+				{ 71.8, 63.1, DEEPHOLM },	-- Upper Silvermarsh
+				{ 76.8, 41.9, DEEPHOLM },	-- Crimson Expanse
+				{ 27.2, 34.8, DEEPHOLM },	-- Needlerock Chasm
+			},
+			["description"] = "Can also spawn in the cavern beneath Upper Silvermarsh, with entrance from Lower Silvermarsh.",
+		}),
+		o(202781, {	-- Algaefin Rockfish School
+			["description"] = "Please let us in the ATT-discord know if this school appears in any iterations of the game.",
+			["maps"] = { TWILIGHT_HIGHLANDS },
+			["timeline"] = { REMOVED_4_3_0 },
+		}),
+		o(202779, {	-- Blackbelly Mudfish School
+			["description"] = "Can be found in inland waterways.",
+			["maps"] = { ULDUM },
+		}),
+		o(208311, {	-- Deepsea Sagefish School
+			["description"] = "Can be found on the seaside.",
+			["maps"] = { TWILIGHT_HIGHLANDS },
+			["timeline"] = { ADDED_4_3_0 },
+		}),
+		o(202780, {	-- Fathom Eel Swarm
+			["description"] = "Can be found on the seaside.",
+			["maps"] = {
+				TOL_BARAD_PENINSULA,
+				ULDUM,
+			},
+		}),
+		o(202777, {	-- Highland Guppy School
+			["description"] = "Can be found in inland waterways.",
+			["maps"] = { TWILIGHT_HIGHLANDS },
+		}),
+		o(202776, {	-- Mountain Trout School
+			["coords"] = {
+				{ 69.6, 68.9, MOUNT_HYJAL },	-- Gates of Sothann
+				{ 29.1, 33.0, MOUNT_HYJAL },	-- Shrine of Goldrinn
+				{ 41.2, 29.8, MOUNT_HYJAL },	-- The Verdant Thicket
+				{ 52.6, 17.3, MOUNT_HYJAL },	-- Hyjal Barrow Dens (entrance)
+				{ 60.8, 25.9, MOUNT_HYJAL },	-- Nordrassil
+			},
+		}),
+		o(207734, {	-- Pool of Fire (Fishing school)
+			["coords"] = {
+				{ 52.4, 77.0, MOUNT_HYJAL },	-- The Throne of Flame
+				{ 41.0, 79.1, TWILIGHT_HIGHLANDS },	-- Cannon's Inferno
+			},
+		}),
+		o(207724, {	-- Shipwreck Debris
+			["maps"] = { TOL_BARAD_PENINSULA },
+		}),
+		--	Recipe:
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
 				["description"] = "Can be fished from schools.",
@@ -518,22 +745,156 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 	}),
 	prof(HERBALISM, {
 		spell(2366, {	-- Herb Gathering
-			i(52985),	-- Azshara's Veil
-			i(108362, {["timeline"] = {ADDED_6_0_2}}),	-- Azshara's Veil Stem
-			i(52983),	-- Cinderbloom
-			i(108360, {["timeline"] = {ADDED_6_0_2}}),	-- Cinderbloom Petal
-			i(52986),	-- Heartblossom
-			i(108363, {["timeline"] = {ADDED_6_0_2}}),	-- Heartblossom Petal
-			i(52984),	-- Stormvine
-			i(108361, {["timeline"] = {ADDED_6_0_2}}),	-- Stormvine Stalk
-			i(52987),	-- Twilight Jasmine
-			i(108364, {["timeline"] = {ADDED_6_0_2}}),	-- Twilight Jasmine Petal
-			i(52988),	-- Whiptail
-			i(108365, {["timeline"] = {ADDED_6_0_2}}),	-- Whiptail Stem
-			-- Not Herb --
-			--[[	No need to list Tradegoods w/ many other sources
-			--	i(52329),	-- Volatile Life
-			--]]
+			-- Herbs:
+			i(52985, {	-- Azshara's Veil
+				["description"] = "Can be found near and in waters.",
+				["maps"] = {
+					TOL_BARAD_PENINSULA,
+					VASHJIR_ABYSSAL_DEPTHS,
+					VASHJIR_KELPTHAR_FOREST,
+					VASHJIR_SHIMMERING_EXPANSE,
+				},
+				["provider"] = { "o", 202749 },	-- Azshara's Veil
+			}),
+			i(108362, {	-- Azshara's Veil Stem
+				["group"] = { i(52985) },	-- Azshara's Veil
+				["provider"] = { "o", 202749 },	-- Azshara's Veil
+				["timeline"] = { ADDED_6_0_2 },
+			}),
+			i(52983, {	-- Cinderbloom
+				["description"] = "Mount Hyjal is the better place to look for these.",
+				["maps"] = {
+					DEEPHOLM,
+					MOUNT_HYJAL,
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+				["provider"] = { "o", 202747 },	-- Cinderbloom
+			}),
+			i(108360, {	-- Cinderbloom Petal
+				["group"] = { i(52983) },	-- Cinderbloom
+				["provider"] = { "o", 202747 },	-- Cinderbloom
+				["timeline"] = { ADDED_6_0_2 },
+			}),
+			i(52986, {	-- Heartblossom
+				["maps"] = { DEEPHOLM },
+				["provider"] = { "o", 202750 },	-- Heartblossom
+			}),
+			i(108363, {	-- Heartblossom Petal
+				["group"] = { i(52986) },	-- Heartblossom
+				["provider"] = { "o", 202750 },	-- Heartblossom
+				["timeline"] = { ADDED_6_0_2 },
+			}),
+			i(63122, {	-- Lifegiving Seed
+				["providers"] = {
+					{ "o", 202749 },	-- Azshara's Veil
+					{ "o", 202747 },	-- Cinderbloom
+					{ "o", 202750 },	-- Heartblossom
+					{ "o", 202748 },	-- Stormvine
+					{ "o", 202751 },	-- Twilight Jasmine
+					{ "o", 202752 },	-- Whiptail
+				},
+			}),
+			i(52984, {	-- Stormvine
+				["coords"] = {
+					{ 22.7, 65.4, VASHJIR_ABYSSAL_DEPTHS },	-- Abandoned Reef
+					{ 41.0, 36.2, VASHJIR_ABYSSAL_DEPTHS },	-- The Scalding Chasm
+					{ 50.4, 35.4, VASHJIR_SHIMMERING_EXPANSE },	-- Silver Tide Trench, beneath
+					{ 38.3, 64.1, VASHJIR_SHIMMERING_EXPANSE },	-- Quel'Dormir Gardens
+				},
+				["description"] = "Can be found near the base of vegetation and structures.",
+				["maps"] = {
+					MOUNT_HYJAL,
+					VASHJIR_KELPTHAR_FOREST,
+				},
+				["provider"] = { "o", 202748 },	-- Stormvine
+			}),
+			i(108361, {	-- Stormvine Stalk
+				["group"] = { i(52984) },	-- Stormvine
+				["provider"] = { "o", 202748 },	-- Stormvine
+				["timeline"] = { ADDED_6_0_2 },
+			}),
+			i(52987, {	-- Twilight Jasmine
+				["maps"] = { TWILIGHT_HIGHLANDS },
+				["providers"] = {
+					-- #if AFTER 4.1.0
+					{ "i", 69817 },	-- Hive Queen's Honeycomb
+					-- #endif
+					{ "o", 202751 },	-- Twilight Jasmine
+				},
+			}),
+			i(108364, {	-- Twilight Jasmine Petal
+				["group"] = { i(52987) },	-- Twilight Jasmine
+				["provider"] = { "o", 202751 },	-- Twilight Jasmine
+				["timeline"] = { ADDED_6_0_2 },
+			}),
+			i(52988, {	-- Whiptail
+				["coords"] = {
+					{ 39.8, 49.2, TOL_BARAD }, -- Croc swamp
+					{ 56.2, 22.6, ULDUM },	-- Vir'naal Oasis, northeast of Ramkahen
+					{ 49.7, 32.2, ULDUM },	-- Vir'naal Oasis, west of Ramkahen
+					{ 56.6, 48.9, ULDUM },	-- Vir'naal River
+					{ 62.0, 77.9, ULDUM },	-- Vir'naal River Delta
+				},
+				["provider"] = { "o", 202752 },	-- Whiptail
+			}),
+			i(108365, {	-- Whiptail Stem
+				["group"] = { i(52988) },	-- Whiptail
+				["provider"] = { "o", 202752 },	-- Whiptail
+				["timeline"] = { ADDED_6_0_2 },
+			}),
+			-- Nodes:
+			o(202749, {	-- Azshara's Veil
+				["description"] = "Can be found near and in waters.",
+				["maps"] = {
+					MOUNT_HYJAL,
+					TOL_BARAD_PENINSULA,
+					VASHJIR_ABYSSAL_DEPTHS,
+					VASHJIR_KELPTHAR_FOREST,
+					VASHJIR_SHIMMERING_EXPANSE,
+				},
+			}),
+			o(202747, {	-- Cinderbloom
+				["description"] = "Mount Hyjal is the better place to look for these.",
+				["maps"] = {
+					DEEPHOLM,
+					MOUNT_HYJAL,
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+			}),
+			o(202750, {	-- Heartblossom
+				["maps"] = { DEEPHOLM },
+			}),
+			o(202748, {	-- Stormvine
+				["coords"] = {
+					{ 22.7, 65.4, VASHJIR_ABYSSAL_DEPTHS },	-- Abandoned Reef
+					{ 41.0, 36.2, VASHJIR_ABYSSAL_DEPTHS },	-- The Scalding Chasm
+					{ 50.4, 35.4, VASHJIR_SHIMMERING_EXPANSE },	-- Silver Tide Trench, beneath
+					{ 38.3, 64.1, VASHJIR_SHIMMERING_EXPANSE },	-- Quel'Dormir Gardens
+				},
+				["description"] = "Can be found near the base of vegetation and structures.",
+				["maps"] = {
+					MOUNT_HYJAL,
+					VASHJIR_KELPTHAR_FOREST,
+				},
+			}),
+			o(202751, {	-- Twilight Jasmine
+				["maps"] = { TWILIGHT_HIGHLANDS },
+			}),
+			o(202752, {	-- Whiptail
+				["coords"] = {
+					{ 39.8, 49.2, TOL_BARAD }, -- Croc swamp
+					{ 56.2, 22.6, ULDUM },	-- Vir'naal Oasis, northeast of Ramkahen
+					{ 49.7, 32.2, ULDUM },	-- Vir'naal Oasis, west of Ramkahen
+					{ 56.6, 48.9, ULDUM },	-- Vir'naal River
+					{ 62.0, 77.9, ULDUM },	-- Vir'naal River Delta
+				},
+			}),
 		}),
 	}),
 	prof(INSCRIPTION, {
@@ -1038,33 +1399,146 @@ Fire and Water - Damage against Elementals increased by 15%.
 	prof(MINING, {
 		filter(BATTLE_PETS, {
 			i(67282, {	-- Elementium Geode (PET!)
+				["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
+				["maps"] = {
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+				["providers"] = {
+					{ "o", 202738 },	-- Elementium Vein
+					{ "o", 202741 },	-- Rich Elementium Vein
+				},
 				["requireSkill"] = MINING,
 			}),
 		}),
 		spell(2575, {	-- Mining
-			i(52185),	-- Elementium Ore
-			i(108308, {["timeline"] = {ADDED_6_0_2}}),	-- Elementium Ore Nugget
-			i(53038),	-- Obsidium Ore
-			i(108307, {["timeline"] = {ADDED_6_0_2}}),	-- Obsidium Ore Nugget
-			i(52183),	-- Pyrite Ore
-			i(108309, {["timeline"] = {ADDED_6_0_2}}),	-- Pyrite Ore Nugget
+			-- Nodes
+			o(202738, {	-- Elementium Vein
+				["maps"] = {
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+			}),
+			o(202736, {	-- Obsidium Deposit
+				["maps"] = {
+					DEEPHOLM,
+					MOUNT_HYJAL,
+					VASHJIR_ABYSSAL_DEPTHS,
+					VASHJIR_KELPTHAR_FOREST,
+					VASHJIR_SHIMMERING_EXPANSE,
+				},
+			}),
+			o(202737, {	-- Pyrite Deposit
+				["maps"] = {
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+			}),
+			o(202741, {	-- Rich Elementium Vein
+				["maps"] = {
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+			}),
+			o(202739, {	-- Rich Obsidium Deposit
+				["maps"] = {
+					DEEPHOLM,
+					MOUNT_HYJAL,
+					VASHJIR_ABYSSAL_DEPTHS,
+					VASHJIR_KELPTHAR_FOREST,
+					VASHJIR_SHIMMERING_EXPANSE,
+				},
+			}),
+			o(202740, {	-- Rich Pyrite Deposit
+				["maps"] = {
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+				},
+			}),
+			-- Ores
+			i(52185, {	-- Elementium Ore
+				["maps"] = {
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+				["providers"] = {
+					{ "o", 202738 },	-- Elementium Vein
+					{ "o", 202741 },	-- Rich Elementium Vein
+					{ "i", 67539 },	-- Tiny Treasure Chest
+				},
+			}),
+			i(108308, {	-- Elementium Ore Nugget
+				["providers"] = {
+					{ "o", 202738 },	-- Elementium Vein
+					{ "o", 202741 },	-- Rich Elementium Vein
+				},
+				["timeline"] = {ADDED_6_0_2},
+				["groups"] = {
+					i(52185),	-- Elementium Ore
+				},
+			}),
+			i(53038, {	-- Obsidium Ore
+				["maps"] = {
+					DEEPHOLM,
+					MOUNT_HYJAL,
+					VASHJIR_ABYSSAL_DEPTHS,
+					VASHJIR_KELPTHAR_FOREST,
+					VASHJIR_SHIMMERING_EXPANSE,
+				},
+				["providers"] = {
+					{ "o", 202736 },	-- Obsidium Deposit
+					{ "o", 202739 },	-- Rich Obsidium Deposit
+				},
+			}),
+			i(108307, {	-- Obsidium Ore Nugget
+				["providers"] = {
+					{ "o", 202736 },	-- Obsidium Deposit
+					{ "o", 202739 },	-- Rich Obsidium Deposit
+				},
+				["timeline"] = {ADDED_6_0_2},
+				["groups"] = {
+					i(53038),	-- Obsidium Ore
+				},
+			}),
+			i(52183, {	-- Pyrite Ore
+				["maps"] = {
+					TOL_BARAD,
+					TOL_BARAD_PENINSULA,
+					TWILIGHT_HIGHLANDS,
+					ULDUM,
+				},
+				["providers"] = {
+					{ "o", 202737 },	-- Pyrite Deposit
+					{ "o", 202740 },	-- Rich Pyrite Deposit
+					{ "i", 67539 },	-- Tiny Treasure Chest
+				},
+			}),
+			i(108309, {	-- Pyrite Ore Nugget
+				["providers"] = {
+					{ "o", 202737 },	-- Pyrite Deposit
+					{ "o", 202740 },	-- Rich Pyrite Deposit
+				},
+				["timeline"] = {ADDED_6_0_2},
+				["groups"] = {
+					i(52183),	-- Pyrite Ore
+				},
+			}),
 			-- Not Ore --
 			--[[	No need to list Tradegoods w/ many other sources
+			-- Uncommon gem
 			i(52179),	-- Alicite
-			i(52195),	-- Amberjewel
 			i(52177),	-- Carnelian
-			i(52194),	-- Demonseye
-			i(52192),	-- Dream Emerald
-			i(52193),	-- Ember Topaz
 			i(52181),	-- Hessonite
-			i(52190),	-- Inferno Ruby
 			i(52182),	-- Jasper
 			i(52180),	-- Nightstone
-			i(52191),	-- Ocean Sapphire
-			i(52328),	-- Volatile Air
-			i(52327),	-- Volatile Earth
-			i(52325),	-- Volatile Fire
-			i(52326),	-- Volatile Water
 			i(52178),	-- Zephyrite
 			--]]
 		}),
@@ -1074,6 +1548,12 @@ Fire and Water - Damage against Elementals increased by 15%.
 			i(54849),	-- Obsidium Bar
 			i(51950),	-- Pyrium Bar
 		}),
+	}),
+	prof(SKINNING, {
+		-- Danny Donkey: Not much here right now, skinned mats is planned to get here soon(tm).
+		["groups"] = {
+			i(67495),	-- Strange Bloated Stomach
+		},
 	}),
 	prof(TAILORING, {
 		filter(BAGS, {

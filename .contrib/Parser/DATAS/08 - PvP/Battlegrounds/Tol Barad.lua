@@ -154,6 +154,10 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 			})),
 			n(QUESTS, sharedData({ -- Rotating questgivers in Baradin Hold
 				["coord"] = { 51.45, 49.65, TOL_BARAD },
+				-- Danny Donkey: Because classic does not show descriptions on questgivers.
+				-- #if ANYCLASSIC
+				["description"] = "This questgiver shares it's spawn with two other quest givers. Win the battle of Tol Barad to have a chance at getting a different questgiver offering other quests in it's place.",
+				-- #endif
 			}, {
 				TolBaradDailyQuest(28117, {	-- Clearing the Depths [A]
 					["qg"] = 48039, -- Commander Stevens
@@ -412,8 +416,9 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 					},
 				}),
 			})),
+			-- #if NOT ANYCLASSIC
 			n(QUESTS, sharedData({ -- Rotating questgivers in Tol Barad
-				["sharedDescription"] = "This questgiver shares it's spawn with two other quest givers. Win the battle of Tol Barad to have a chance at getting a different questgiver offering other quests in it's place.",
+				["description"] = "This questgiver shares it's spawn with two other quest givers. Win the battle of Tol Barad to have a chance at getting a different questgiver offering other quests in it's place.",
 			}, {
 				n(48039),	-- Commander Stevens
 				n(48061),	-- 2nd Lieutenant Wansworth
@@ -422,6 +427,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				n(48071),	-- Private Garnoth
 				n(48074),	-- Marshal Fallows
 			})),
+			-- #endif
 			-- Helpful event descriptions
 			n(45344, {	-- Abandoned Siege Engine
 				-- #if BEFORE 8.0.3

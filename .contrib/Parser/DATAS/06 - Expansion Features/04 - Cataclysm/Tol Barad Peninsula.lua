@@ -19,7 +19,11 @@ local function TolBaradDailyQuest(questID, t)
 end
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 	m(TOL_BARAD_PENINSULA, {
+		-- #if BEFORE 8.0.3
 		["description"] = "Tol Barad Peninsula is the northernmost region of the island of Tol Barad and is a major daily quest hub in World of Warcraft: Cataclysm.",
+		-- #else
+		["description"] = "Tol Barad Peninsula is the northernmost region of the island of Tol Barad and is a major daily quest hub in World of Warcraft: Cataclysm.\n\nDue to how sharding works, you will usually only get the same eight daily quests from the camp in Tol Barad Peninsula. The trick for having a chance at getting offered some of the other quests in rotation is to have zoned into Tol Barad Peninsula a few minutes before the daily reset occurs. Then you can wait for the daily reset, or leave the zone for up to 15 minutes before returning. Protip: Do the same with Warmode on, which zones you to a different shard. Quests picked up in Warmode can be completed and turned in outside Warmode.",
+		-- #endif
 		["icon"] = 409548,	-- achievement_zone_tolbarad
 		["groups"] = {
 			n(ACHIEVEMENTS, {
@@ -604,35 +608,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"
 							},
 						}),
 					},
-				}),
-			}),
-			-- #if AFTER 8.0.3
-			-- CRIEVE NOTE: Not sure we need to describe this.
-			n(QUESTS, sharedData({ -- Questgivers in Tol Barad Peninsula with rotating quests
-				["sharedDescription"] = "Due to how sharding works, you will usually only get the same eight daily quests from the camp in Tol Barad Peninsula. The trick for having a chance at getting offered some of the other quests in rotation is to have zoned into Tol Barad Peninsula a few minutes before the daily reset occurs. Then you can wait for the daily reset, or leave the zone for up to 15 minutes before returning. Protip: Do the same with Warmode on, which zones you to a different shard. Quests picked up in Warmode can be completed and turned in outside Warmode.",
-			},{
-				n(47240),	-- Commander Marcus Johnson
-				n(48250),	-- Lieutenant Farnsworth
-				n(48254),	-- Sergeant Gray
-				n(48255),	-- Camp Coordinator Brack
-				n(48358),	-- Commander Larmash
-				n(48360),	-- 3rd Officer Kronkar
-				n(48361),	-- Private Sarlosk
-				n(48363),	-- Captain Prug
-			})),
-			-- #endif
-			n(PROFESSIONS, {
-				prof(FISHING, {
-					i(22739, {	-- Tome of Polymorph: Turtle (CI!)
-						["providers"] = {
-							{ "o", 202780 },	-- Fathom Eel Swarm
-							{ "o", 207724 },	-- Shipwreck Debris
-						},
-					}),
-				}),
-				prof(MINING, {
-					-- CRIEVE NOTE: Move this to Crafted Items and link via Elementium Ore nodes.
-					i(67282),	-- Elementium Geode (PET!)
 				}),
 			}),
 			n(VENDORS, {

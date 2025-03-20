@@ -787,4 +787,137 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 			i(67541),	-- Pattern: High Society Top Hat (drops from rare elites)
 		}),
 	}),
+	filter(REAGENTS, {
+		i(52328, {	-- Volatile Air
+			["coords"] = {
+				{ 27.9, 39.9, MOUNT_HYJAL },	-- Lightning Ledge
+				{ 38.6, 82.7, TWILIGHT_HIGHLANDS },	-- Alter of Ascension
+				{ 40.2, 47.6, TWILIGHT_HIGHLANDS },	-- The Twilight Breach
+				{ 39.4, 42.5, ULDUM },	-- Orsis
+			},
+			["crs"] = {
+				46328,	-- Enslaved Tempest
+				39844,	-- Howling Riftdweller
+				45755,	-- Scion of Al'Akir
+				47728,	-- Storm Vortex
+				51672,	-- Sweeping Winds
+			},
+			-- #if AFTER 6.0.3
+			["description"] = "The Vortex Pinnacle is the place to farm these on higher levels.\nProtip: Do not forget Potion of Treasure Finding.",
+			-- #endif
+			["maps"] = { 325 },	-- The Vortex Pinnacle
+			["providers"] = {
+				{ "i", 67495 },	-- Strange Bloated Stomach
+				{ "i", 67539 },	-- Tiny Treasure Chest
+				-- #if AFTER 4.1.0
+				{ "i", 69817 },	-- Hive Queen's Honeycomb
+				-- #endif
+			},
+		}),
+		i(52327, {	-- Volatile Earth
+			["coords"] = {
+				{ 27.0, 40.0, THE_MOLTEN_FRONT },	-- Fireplume Peak
+				{ 65.8, 22.7, MOUNT_HYJAL },	-- Nordrassil
+				{ 64.9, 54.1, MOUNT_HYJAL },	-- The Crucible of Flame
+				{ 58.2, 29.8, TWILIGHT_HIGHLANDS },	-- The Black Breach
+				-- #if BEFORE 4.2.0
+				{ 35.5, 55.4, MOUNT_HYJAL },	-- The Lower Regrowth
+				-- #endif
+			},
+			["crs"] = {
+				41565,	-- Molten Tormentor
+				47226,	-- Obsidian Stoneslave
+				52107,	-- Obsidium Punisher
+				40229,	-- Scalding Rock Elemental
+				-- #if AFTER 4.1.0
+				52414,	-- Tor-Tun
+				-- #endif
+				-- #if BEFORE 4.2.0
+				46911,	-- Lava Surger
+				-- #endif
+			},
+			["description"] = "Access to some of the listed mobs and locations in Mount Hyjal requires quest progression through the zone.",
+			["providers"] = {
+				{ "i", 67495 },	-- Strange Bloated Stomach
+				{ "i", 67539 },	-- Tiny Treasure Chest
+			},
+		}),
+		i(52325, {	-- Volatile Fire
+			["coords"] = {
+				{ 46.6, 28.2, MOUNT_HYJAL },	-- The Verdant Thicket
+				{ 26.0, 41.1, MOUNT_HYJAL },	-- Firelands Forgeworks
+				{ 11.6, 39.5, MOUNT_HYJAL },	-- The Upper Regrowth (By Grove of Aessina)
+				-- #if AFTER 4.2.0
+				{ 50.0, 70.0, THE_MOLTEN_FRONT },	-- Ashen Fields
+				{ 20.1, 59.1, MOUNT_HYJAL },	-- Ashen Lakeside
+				{ 35.5, 55.4, MOUNT_HYJAL },	-- The Lower Regrowth
+				{ 51.9, 77.4, MOUNT_HYJAL },	-- Sethria's Roost
+				{ 44.1, 85.7, MOUNT_HYJAL },	-- The Throne of Flame
+				{ 58.4, 82.4, MOUNT_HYJAL },	-- Ascendant's Rise
+				-- #endif
+				{ 39.2, 77.9, TWILIGHT_HIGHLANDS },	-- Cannon's Inferno
+				{ 42.4, 23.5, TWILIGHT_HIGHLANDS },	-- Humboldt Conflagration
+				{ 40.5, 17.1, TWILIGHT_HIGHLANDS },	-- Ruins of Drakgor
+			},
+			["crs"] = {
+				38876,	-- Blazebound Elemental
+				45258,	-- Bound Fleshburner
+				46327,	-- Enslaved Inferno
+				40841,	-- Searing Guardian
+				48016,	-- Unbound Emberfiend
+				-- #if BEFORE 4.2.0
+				41396,	-- Fiery Tormentor
+				39939,	-- Raging Firestorm
+				-- #else
+				52794,	-- Brimstone Destroyer
+				52816,	-- Charred Invader
+				52503,	-- Charred Vanquisher
+				40709,	-- Flame Ascendant
+				52219,	-- Flame Terror
+				40464,	-- Magma Giant
+				52300,	-- Seething Pyrelord
+				-- #endif
+			},
+			["description"] = "Fishing is the most efficient way to get these. Access to some of the listed mobs and locations in Mount Hyjal requires quest progression through the zone.",
+			["providers"] = {
+				{ "o", 207734 },	-- Pool of Fire (Fishing school)
+				{ "i", 67495 },	-- Strange Bloated Stomach
+				{ "i", 67539 },	-- Tiny Treasure Chest
+			},
+		}),
+		i(52329, {	-- Volatile Life
+			["providers"] = {
+				{ "o", 202749 },	-- Azshara's Veil
+				{ "o", 202747 },	-- Cinderbloom
+				{ "o", 202750 },	-- Heartblossom
+				-- #if AFTER 4.1.0
+				{ "i", 69817 },	-- Hive Queen's Honeycomb
+				-- #endif
+				{ "o", 202748 },	-- Stormvine
+				{ "i", 67495 },	-- Strange Bloated Stomach
+				{ "i", 67539 },	-- Tiny Treasure Chest
+				{ "o", 202751 },	-- Twilight Jasmine
+				{ "o", 202752 },	-- Whiptail
+			},
+		}),
+		i(52326, {	-- Volatile Water
+			["coords"] = {
+				{ 68.1, 48.8, TWILIGHT_HIGHLANDS },	-- Verrall Delta
+				{ 33.0, 63.8, TWILIGHT_HIGHLANDS },	-- Loch Verrall
+			},
+			["crs"] = {
+				46329,	-- Enslaved Waterspout
+				44011,	-- Muddied Water Elemental
+			},
+			["description"] = "Protip: Do not forget Potion of Treasure Finding when farming the mobs.",
+			["providers"] = {
+				{ "o", 207724 },	-- Shipwreck Debris (Fishing school)
+				{ "i", 67495 },	-- Strange Bloated Stomach
+				{ "i", 67539 },	-- Tiny Treasure Chest
+				-- #if AFTER 4.1.0
+				{ "i", 70719 },	-- Water-Filled Gills
+				-- #endif
+			},
+		}),
+	}),
 }))));

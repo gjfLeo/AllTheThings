@@ -337,12 +337,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
-			prof(FISHING, {
-				i(68050, {	-- Shatterscale Mightfish
-					["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
-					["description"] = "Can be caught by fishing in lava using a special lure.",
-				}),
-			}),
 			n(FLIGHT_PATHS, {
 				fp(659, {	-- Bloodgulch, Twilight Highlands
 					["cr"] = 47156,	-- Bramok Gorewing <Wind Rider Master>
@@ -402,22 +396,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(66822, {	-- Goz Banefury <Master Pet Tamer>
 					["coord"] = { 56.6, 56.8, TWILIGHT_HIGHLANDS },
-				}),
-			}),
-			n(PROFESSIONS, {
-				prof(FISHING, {
-					o(208311, {	-- Deepsea Sagefish School
-						i(22739),	-- Tome of Polymorph: Turtle (CI!)
-					}),
-					o(202777, {	-- Highland Guppy School
-						i(22739),	-- Tome of Polymorph: Turtle (CI!)
-					}),
-				}),
-				prof(MINING, {
-					["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
-					["groups"] = {
-						i(67282),	-- Elementium Geode (PET!)
-					},
 				}),
 			}),
 			n(QUESTS, {

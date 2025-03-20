@@ -220,22 +220,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 56.6, 41.8, ULDUM },
 				}),
 			}),
-			n(PROFESSIONS, {
-				prof(FISHING, {
-					o(202779, {	-- Blackbelly Mudfish School
-						i(22739),	-- Tome of Polymorph: Turtle (CI!)
-					}),
-					o(202780, {	-- Fathom Eel Swarm
-						i(22739),	-- Tome of Polymorph: Turtle (CI!)
-					}),
-				}),
-				prof(MINING, {
-					["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
-					["groups"] = {
-						i(67282),	-- Elementium Geode (PET!)
-					},
-				}),
-			}),
 			n(QUESTS, {
 				q(27761, {	-- A Disarming Distraction
 					["coord"] = { 74.1, 64.4, ULDUM },
