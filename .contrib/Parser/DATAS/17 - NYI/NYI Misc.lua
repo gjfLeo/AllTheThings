@@ -1705,6 +1705,19 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 
 		-- 11.0.5
 		expansion(EXPANSION.TWW, patch(0,05), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_5 } }, {
+			i(223620),	-- 20th Anniversary Cache
+			i(223621),	-- 20th Anniversary Cache
+			i(223622),	-- 20th Anniversary Cache
+			i(229198),	-- Ace of Air
+			i(229222),	-- Ace of Earth
+			i(229206),	-- Ace of Fire
+			i(229214),	-- Ace of Frost
+			i(223619),	-- Bronze Celebration Goodie Bag
+			i(225252),	-- Bronze Celebration Token
+			i(232472),	-- Cache of Dark Iron Treasures
+			i(232473),	-- Cache of Dark Iron Treasures
+			i(228910),	-- Cache of Nerubian Treasures
+			i(226101),	-- Chromie's Tour Goodie Bag
 			i(224569),	-- Commendation of the Defilers
 			i(224563),	-- Commendation of the Frostwolf Clan
 			i(224568),	-- Commendation of the League of Arathor
@@ -1712,6 +1725,49 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(224559),	-- Commendation of the Silverwing Sentinels
 			i(224562),	-- Commendation of the Stormpike Guard
 			i(224560),	-- Commendation of the Warsong Outriders
+			i(229205),	-- Eight of Air
+			i(229229),	-- Eight of Earth
+			i(229221),	-- Eight of Frost
+			i(229202),	-- Five of Air
+			i(229226),	-- Five of Earth
+			i(229218),	-- Five of Frost
+			i(229201),	-- Four of Air
+			i(229209),	-- Four of Fire
+			i(229217),	-- Four of Frost
+			i(228783),	-- PH - Sandbox Horse
+			i(228782),	-- PH - Sandbox Wolf
+			i(231511),	-- Relic Coffer Key Fragment
+			i(229204),	-- Seven of Air
+			i(229228),	-- Seven of Earth
+			i(229220),	-- Seven of Frost
+			i(229203),	-- Six of Air
+			i(229227),	-- Six of Earth
+			i(229200),	-- Three of Air
+			i(229224),	-- Three of Earth
+			i(227698),	-- Torn Diary, Page 2
+			i(229223),	-- Two of Earth
+			i(229215),	-- Two of Frost
+			i(232631),	-- Wrapped Spear
+		})),
+
+		-- 11.0.7
+		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+			i(234313),	-- [DNT] Item
+			i(234969),	-- Archivist Chassis
+			i(233331),	-- Aura of Zealotry
+			i(233650),	-- Call Galefeather
+			i(232645),	-- Celestial Barrage
+			i(228637),	-- Delete Me
+			i(228641),	-- Delete Me
+			i(228645),	-- Delete Me
+			i(228649),	-- Delete Me
+			i(232629),	-- Distilled Knowledge of Timeways
+			i(234472),	-- Earthen Crystal
+			i(234471),	-- Earthen Device
+			i(234470),	-- Forgemaster's Focus
+			i(233051),	-- G.R.A.V. Glove
+			i(230207),	-- N.U.K.U.L.A.R. Target Painter
+			i(232988),	-- Void Tear
 		})),
 
 		-- 11.1.0
@@ -1728,6 +1784,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(232075),	-- Adventurer's Warbound Wrists
 			i(236785),	-- C.H.E.T.T. Card
 			i(225415),	-- Caddy Caller
+			i(235018),	-- Cracked Cold One
 			i(232898),	-- Delver's Bounty
 			i(235535),	-- Discretely-Packaged Invention
 			i(230807),	-- Drill Hands

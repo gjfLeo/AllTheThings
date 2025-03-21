@@ -450,7 +450,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["coord"] = { 55.6, 70.8, AZJ_KAHET },	-- TODO: probably have more spawns?
 					["sourceQuestNumRequired"] = 1,
 					["g"] = {
-						i(214504),	-- Familiar-Looking Appendage (QI!)
+						i(214504),	-- Emerald Necklace (QI!)
 					},
 				}),
 				q(79713, {	-- Moonlight Gutter Swim

@@ -3438,6 +3438,44 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			i(226696),	-- Mighty Advisor's Favor
 		})),
 
+		-- 11.0.5
+		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
+			i(225185),	-- [DNT UNUSED] Reforged 1 Ring
+			i(227593),	-- Eternal Blossom Breeches
+			i(227563),	-- Eternal Blossom Gloves
+			i(227592),	-- Eternal Blossom Handguards
+			i(227583),	-- Eternal Blossom Handwraps
+			i(227562),	-- Eternal Blossom Leggings
+			i(227582),	-- Eternal Blossom Legwraps
+			i(227555),	-- Firebird's Grips
+			i(227581),	-- Firebird's Handwraps
+			i(227554),	-- Firebird's Legguards
+			i(227580),	-- Firebird's Legwraps
+			i(227585),	-- Guardian Serpent Handwraps
+			i(227584),	-- Guardian Serpent Legwraps
+			i(227571),	-- Handguards of Resounding Rings
+			i(227567),	-- Handguards of the Lost Catacomb
+			i(227217),	-- Hateful Gladiator's Dragonhide Robes
+			i(227219),	-- Hateful Gladiator's Satin Robe
+			i(227216),	-- Hateful Gladiator's Wyrmhide Robes
+			i(227570),	-- Legguards of Resounding Rings
+			i(227566),	-- Legguards of the Lost Catacomb
+			i(227595),	-- Red Crane Gauntlets
+			i(227596),	-- Red Crane Handwraps
+			i(227594),	-- Red Crane Legguards
+			i(227597),	-- Red Crane Legwraps
+			i(227579),	-- White Tiger Gloves
+			i(227578),	-- White Tiger Greaves
+			i(227569),	-- White Tiger Handguards
+			i(227568),	-- White Tiger Legguards
+		})),
+
+		-- 11.0.7
+		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+			i(228526),	-- Cyrce's Circlet
+			i(231751),	-- Earthen Backpack
+		})),
+
 		-- 11.1.0
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket

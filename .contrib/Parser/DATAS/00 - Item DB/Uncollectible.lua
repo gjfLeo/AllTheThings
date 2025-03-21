@@ -966,7 +966,7 @@ i(185934);	-- Cracked Warhammer
 i(185483);	-- Cranial Disk
 i(187456);	-- Crucible of Soulforge Metal
 i(187444);	-- Crushed Mawshrooms
-i(185739);	-- Crystaline Shard
+i(185739);	-- Crystalline Shard
 i(187464);	-- Crystallized Soul Dust
 i(185478);	-- Dagger-Length Talons
 i(185932);	-- Damaged Flask
@@ -2085,16 +2085,22 @@ i(228628);	-- Yawning Basket of Aspect's Awakened Crests
 ------------------
 i(232380);	-- Brivelthwerp's Sassafras Float
 i(232376);	-- Cherry Bombs
+i(232005);	-- Cryptic Crostini
 i(229830);	-- Dark Blue Balloon
 i(221485);	-- Defias Gunpowder
+i(232006);	-- Detective's Delight
 i(232385);	-- Elekk Ear
+i(224194);	-- Fashion Frenzy Ribbon
+i(232011);	-- Finder's Flare
 i(229831);	-- Gold Balloon
 i(232374);	-- Greasy Links
 i(232378);	-- Jenkins' No Nonsense Fried Chicken
 i(229829);	-- Light Blue Balloon
 i(232375);	-- Moon Bread
 i(232377);	-- Pappy Thunderbrew's Cough Syrup
-
+i(232009);	-- Riddle Wraps
+i(232007);	-- Sleuth's Sip
+i(230283);	-- Weird Egg
 
 ------------------
 -- PATCH 11.0.7 --
@@ -2112,6 +2118,7 @@ i(233800);	-- Decorated Gunpowder Flask
 i(232634);	-- Emptied Turtle Shell
 i(234723);	-- Hollow Sigil
 i(234734);	-- Inscribed Drinking Horn
+i(235378);	-- Landro's Loot Box
 i(232638);	-- Loosened Naga Scales
 i(234720);	-- Memoric Residue
 i(234750);	-- Myrmidon's Osminium Bracer

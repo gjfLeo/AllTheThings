@@ -12851,6 +12851,127 @@ root(ROOTS.NeverImplemented, n(SETS, {
 			}),
 		})),
 
+		-- 11.0.5
+		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
+			i(225021),	-- Dragonstalker's Eternal Belt
+			i(225020),	-- Dragonstalker's Eternal Bracers
+			i(225027),	-- Dragonstalker's Eternal Breastplate
+			i(225019),	-- Dragonstalker's Eternal Cloak
+			i(225025),	-- Dragonstalker's Eternal Gauntlets
+			i(225026),	-- Dragonstalker's Eternal Greaves
+			i(225024),	-- Dragonstalker's Eternal Helm
+			i(225023),	-- Dragonstalker's Eternal Legguards
+			i(225022),	-- Dragonstalker's Eternal Spaulders
+			i(225113),	-- Earth-Warder's Eternal Breastplate
+			i(225111),	-- Earth-Warder's Eternal Claws
+			i(225105),	-- Earth-Warder's Eternal Cloak
+			i(225110),	-- Earth-Warder's Eternal Crown
+			i(225107),	-- Earth-Warder's Eternal Girdle
+			i(225109),	-- Earth-Warder's Eternal Legplates
+			i(225108),	-- Earth-Warder's Eternal Pauldrons
+			i(225112),	-- Earth-Warder's Eternal Talons
+			i(225106),	-- Earth-Warder's Eternal Vambraces
+			i(225048),	-- Eternal Belt of Ten Storms
+			i(224905),	-- Eternal Belt of Transcendence
+			i(225079),	-- Eternal Bindings of the August Acolyte
+			i(224904),	-- Eternal Bindings of Transcendence
+			i(224963),	-- Eternal Bloodfang Belt
+			i(224968),	-- Eternal Bloodfang Boots
+			i(224962),	-- Eternal Bloodfang Bracers
+			i(224969),	-- Eternal Bloodfang Chestpieces
+			i(224961),	-- Eternal Bloodfang Cloak
+			i(224967),	-- Eternal Bloodfang Gloves
+			i(224966),	-- Eternal Bloodfang Hood
+			i(224965),	-- Eternal Bloodfang Pants
+			i(224964),	-- Eternal Bloodfang Spaulders
+			i(224910),	-- Eternal Boots of Transcendence
+			i(224933),	-- Eternal Bracelets of Wrath
+			i(225047),	-- Eternal Bracers of Ten Storms
+			i(225054),	-- Eternal Breastplate of Ten Storms
+			i(224940),	-- Eternal Breastplate of Wrath
+			i(225046),	-- Eternal Cloak of Ten Storms
+			i(225078),	-- Eternal Cloak of the August Acolyte
+			i(224903),	-- Eternal Cloak of Transcendence
+			i(224932),	-- Eternal Cloak of Wrath
+			i(225080),	-- Eternal Cord of the August Acolyte
+			i(225049),	-- Eternal Epaulets of Ten Storms
+			i(225052),	-- Eternal Gauntlets of Ten Storms
+			i(224938),	-- Eternal Gauntlets of Wrath
+			i(225053),	-- Eternal Greaves of Ten Storms
+			i(225084),	-- Eternal Grips of the August Acolyte
+			i(224908),	-- Eternal Halo of Transcendence
+			i(224909),	-- Eternal Handguards of Transcendence
+			i(225083),	-- Eternal Helm of the August Acolyte
+			i(224937),	-- Eternal Helm of Wrath
+			i(225051),	-- Eternal Helmet of Ten Storms
+			i(223609),	-- Eternal Judgment Belt
+			i(223608),	-- Eternal Judgment Bindings
+			i(223615),	-- Eternal Judgment Breastplate
+			i(223607),	-- Eternal Judgment Cloak
+			i(223612),	-- Eternal Judgment Crown
+			i(223613),	-- Eternal Judgment Gauntlets
+			i(223611),	-- Eternal Judgment Legplates
+			i(223614),	-- Eternal Judgment Sabatons
+			i(223610),	-- Eternal Judgment Spaulders
+			i(224907),	-- Eternal Leggings of Transcendence
+			i(225050),	-- Eternal Legplates of Ten Storms
+			i(224936),	-- Eternal Legplates of Wrath
+			i(223577),	-- Eternal Nemesis Belt
+			i(223582),	-- Eternal Nemesis Boots
+			i(223576),	-- Eternal Nemesis Bracers
+			i(223575),	-- Eternal Nemesis Cloak
+			i(223581),	-- Eternal Nemesis Gloves
+			i(223579),	-- Eternal Nemesis Leggings
+			i(223583),	-- Eternal Nemesis Robes
+			i(223580),	-- Eternal Nemesis Skullcap
+			i(223578),	-- Eternal Nemesis Spaulders
+			i(224479),	-- Eternal Netherwind Belt
+			i(224478),	-- Eternal Netherwind Bindings
+			i(224484),	-- Eternal Netherwind Boots
+			i(224477),	-- Eternal Netherwind Cloak
+			i(224482),	-- Eternal Netherwind Crown
+			i(224483),	-- Eternal Netherwind Gloves
+			i(224480),	-- Eternal Netherwind Mantle
+			i(224481),	-- Eternal Netherwind Pants
+			i(224485),	-- Eternal Netherwind Robes
+			i(225082),	-- Eternal Pants of the August Acolyte
+			i(224906),	-- Eternal Pauldrons of Transcendence
+			i(224935),	-- Eternal Pauldrons of Wrath
+			i(224911),	-- Eternal Robes of Transcendence
+			i(224939),	-- Eternal Sabatons of Wrath
+			i(225081),	-- Eternal Spaulders of the August Acolyte
+			i(224994),	-- Eternal Stormrage Belt
+			i(224999),	-- Eternal Stormrage Boots
+			i(224993),	-- Eternal Stormrage Bracers
+			i(225000),	-- Eternal Stormrage Chestguard
+			i(224992),	-- Eternal Stormrage Cloak
+			i(224997),	-- Eternal Stormrage Cover
+			i(224998),	-- Eternal Stormrage Handguards
+			i(224996),	-- Eternal Stormrage Legguards
+			i(224995),	-- Eternal Stormrage Pauldrons
+			i(225085),	-- Eternal Talons of the August Acolyte
+			i(225086),	-- Eternal Vest of the August Acolyte
+			i(224934),	-- Eternal Waistband of Wrath
+			i(225134),	-- Netherwalker's Eternal Bracers
+			i(225133),	-- Netherwalker's Eternal Cloak
+			i(225135),	-- Netherwalker's Eternal Cord
+			i(225139),	-- Netherwalker's Eternal Gloves
+			i(225141),	-- Netherwalker's Eternal Harness
+			i(225137),	-- Netherwalker's Eternal Leggings
+			i(225140),	-- Netherwalker's Eternal Sandals
+			i(225136),	-- Netherwalker's Eternal Shoulderblades
+			i(225138),	-- Netherwalker's Eternal Skullcap
+			i(225168),	-- Pale Rider's Eternal Breastplate
+			i(225160),	-- Pale Rider's Eternal Cloak
+			i(225162),	-- Pale Rider's Eternal Girdle
+			i(225166),	-- Pale Rider's Eternal Gloves
+			i(225165),	-- Pale Rider's Eternal Helm
+			i(225164),	-- Pale Rider's Eternal Leggings
+			i(225163),	-- Pale Rider's Eternal Pauldrons
+			i(225167),	-- Pale Rider's Eternal Sabatons
+			i(225161),	-- Pale Rider's Eternal Vambraces
+		})),
+
 		-- 11.1.0
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_0 } }, {
 			header(HEADERS.Item, 236852, {	-- Gallagio Highroller's Boomstone

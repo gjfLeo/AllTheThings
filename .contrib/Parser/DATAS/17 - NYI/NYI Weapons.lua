@@ -971,6 +971,24 @@ root(ROOTS.NeverImplemented, {
 			i(222905),	-- Faerin's Shield
 		})),
 
+		-- 11.0.5
+		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
+			i(225667),	-- Ambassador Flamelash's Trident
+			i(231490),	-- Arbiter's Blade
+			i(232474),	-- Defias Cuirass
+			i(232475),	-- Defias Cuirass
+			i(225666),	-- General Angerforge's Axe
+			i(225664),	-- Golem Lord Argelmach's Gun
+			i(225665),	-- Golem Lord Argelmach's Wrench
+			i(229414),	-- Moira Thaurissan's Hammer
+			i(226067),	-- Timely Tourist's Glaive
+		})),
+
+		-- 11.0.7
+		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+			i(232946),	-- Verus
+		})),
+
 		-- 11.1.0
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			i(230796),	-- [11.1 PVP] Gladiator's Placeholder <TEMPLATE> (bow)

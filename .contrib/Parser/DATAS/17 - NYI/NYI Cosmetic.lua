@@ -542,10 +542,230 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			}),
 		})),
 
+		-- 11.0.5
+		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
+			n(SETS, {
+				------ Prowler's Aquatic Set ------
+				i(230181),	-- Ensemble: Prowler's Aquatic Headgear
+				i(230071),	-- Prowler's Aquatic Cowl
+				i(230091),	-- Prowler's Aquatic Mask
+				i(230050),	-- Prowler's Aquatic Shoulder Cape
+
+				------ Prowler's Brick Set ------
+				i(230171),	-- Ensemble: Prowler's Brick Headgear
+				i(230061),	-- Prowler's Brick Cowl
+				i(230081),	-- Prowler's Brick Mask
+				i(230039),	-- Prowler's Brick Shoulder Cape
+
+				------ Prowler's Camo Set ------
+				i(230170),	-- Ensemble: Prowler's Camo Headgear
+				i(230060),	-- Prowler's Camo Cowl
+				i(230080),	-- Prowler's Camo Mask
+				i(230040),	-- Prowler's Camo Shoulder Cape
+
+				------ Prowler's Cloudy Set ------
+				i(230168),	-- Ensemble: Prowler's Cloudy Headgear
+				i(230058),	-- Prowler's Cloudy Cowl
+				i(230078),	-- Prowler's Cloudy Mask
+				i(230037),	-- Prowler's Cloudy Shoulder Cape
+
+				------ Prowler's Grassy Set ------
+				i(230167),	-- Ensemble: Prowler's Grassy Headgear
+				i(230057),	-- Prowler's Grassy Cowl
+				i(230077),	-- Prowler's Grassy Mask
+				i(230036),	-- Prowler's Grassy Shoulder Cape
+
+				------ Prowler's Lively Set ------
+				i(230172),	-- Ensemble: Prowler's Lively Headgear
+				i(230062),	-- Prowler's Lively Cowl
+				i(230082),	-- Prowler's Lively Mask
+				i(230041),	-- Prowler's Lively Shoulder Cape
+
+				------ Prowler's Midnight Set ------
+				i(230152),	-- Ensemble: Prowler's Midnight Headgear
+				i(230054),	-- Prowler's Midnight Cowl
+				i(230074),	-- Prowler's Midnight Mask
+				i(230033),	-- Prowler's Midnight Shoulder Cape
+
+				------ Prowler's Plum Set ------
+				i(230178),	-- Ensemble: Prowler's Plum Headgear
+				i(230068),	-- Prowler's Plum Cowl
+				i(230088),	-- Prowler's Plum Mask
+				i(230047),	-- Prowler's Plum Shoulder Cape
+
+				------ Prowler's Rosy Set ------
+				i(230177),	-- Ensemble: Prowler's Rosy Headgear
+				i(230067),	-- Prowler's Rosy Cowl
+				i(230087),	-- Prowler's Rosy Mask
+				i(230046),	-- Prowler's Rosy Shoulder Cape
+			}),
+		})),
+
 		-- 11.0.7
 		expansion(EXPANSION.TWW, patch(0,07), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
 			n(ARMOR, {
+				i(233976),	-- [PH] Cloak
+				i(233913),	-- [PH] Shield
+				i(233934),	-- [PH] Shield
+				i(233931),	-- [PH] Shoulder
+				i(233933),	-- [PH] Tabard
+				i(233238),	-- Azure Pack of Lunar Explosives
+				i(233183),	-- Banded Aquatic War Slippers
+				i(233166),	-- Banded Aquatic War Wraps
+				i(233170),	-- Banded Azure War Slippers
+				i(233153),	-- Banded Azure War Wraps
+				i(233176),	-- Banded Brick War Slippers
+				i(233159),	-- Banded Brick War Wraps
+				i(233175),	-- Banded Camo War Slippers
+				i(233158),	-- Banded Camo War Wraps
+				i(233179),	-- Banded Carrot War Slippers
+				i(233162),	-- Banded Carrot War Wraps
+				i(233173),	-- Banded Cloudy War Slippers
+				i(233156),	-- Banded Cloudy War Wraps
+				i(233178),	-- Banded Faded War Slippers
+				i(233161),	-- Banded Faded War Wraps
+				i(233172),	-- Banded Grassy War Slippers
+				i(233155),	-- Banded Grassy War Wraps
+				i(233177),	-- Banded Lively War Slippers
+				i(233160),	-- Banded Lively War Wraps
+				i(233169),	-- Banded Midnight War Slippers
+				i(233152),	-- Banded Midnight War Wraps
+				i(233181),	-- Banded Plum War Slippers
+				i(233164),	-- Banded Plum War Wraps
+				i(233180),	-- Banded Rosy War Slippers
+				i(233163),	-- Banded Rosy War Wraps
+				i(233184),	-- Banded Snowy War Slippers
+				i(233167),	-- Banded Snowy War Wraps
+				i(233182),	-- Banded Violet War Slippers
+				i(233165),	-- Banded Violet War Wraps
+				i(234710),	-- Earthen Artisan Kilt
+				i(234712),	-- Earthen Explorer's Kilt
+				i(234711),	-- Earthen Peacekeeper Warkilt
+				i(234709),	-- Earthen Travel Kilt
 				i(234758),	-- Korkron Spaulders
+				i(233237),	-- Lively Pack of Lunar Explosives
+				i(233110),	-- Long Aquatic War Skirt
+				i(233149),	-- Long Aquatic War Skirt and Leg Wraps
+				i(233097),	-- Long Azure War Skirt
+				i(233136),	-- Long Azure War Skirt and Leg Wraps
+				i(233103),	-- Long Brick War Skirt
+				i(233142),	-- Long Brick War Skirt and Leg Wraps
+				i(233102),	-- Long Camo War Skirt
+				i(233141),	-- Long Camo War Skirt and Leg Wraps
+				i(233106),	-- Long Carrot War Skirt
+				i(233145),	-- Long Carrot War Skirt and Leg Wraps
+				i(233100),	-- Long Cloudy War Skirt
+				i(233139),	-- Long Cloudy War Skirt and Leg Wraps
+				i(233105),	-- Long Faded War Skirt
+				i(233144),	-- Long Faded War Skirt and Leg Wraps
+				i(233099),	-- Long Grassy War Skirt
+				i(233138),	-- Long Grassy War Skirt and Leg Wraps
+				i(233104),	-- Long Lively War Skirt
+				i(233143),	-- Long Lively War Skirt and Leg Wraps
+				i(233096),	-- Long Midnight War Skirt
+				i(233135),	-- Long Midnight War Skirt and Leg Wraps
+				i(233108),	-- Long Plum War Skirt
+				i(233147),	-- Long Plum War Skirt and Leg Wraps
+				i(233107),	-- Long Rosy War Skirt
+				i(233146),	-- Long Rosy War Skirt and Leg Wraps
+				i(233111),	-- Long Snowy War Skirt
+				i(233150),	-- Long Snowy War Skirt and Leg Wraps
+				i(233109),	-- Long Violet War Skirt
+				i(233148),	-- Long Violet War Skirt and Leg Wraps
+				i(234059),	-- Lunar Festival Attire - Purple
+				i(234060),	-- Lunar Festival Attire - Teal
+				i(234043),	-- Lunar Festival Belt - Purple
+				i(234044),	-- Lunar Festival Belt - Teal
+				i(234055),	-- Lunar Festival Crown - Purple
+				i(234056),	-- Lunar Festival Crown - Teal
+				i(234047),	-- Lunar Festival Robe - Purple
+				i(234048),	-- Lunar Festival Robe - Teal
+				i(234039),	-- Lunar Festival Slippers - Purple
+				i(234040),	-- Lunar Festival Slippers - Teal
+				i(234051),	-- Lunar Festival Spaulders - Purple
+				i(234052),	-- Lunar Festival Spaulders - Teal
+				i(232924),	-- Sailor's Belt
+				i(233093),	-- Short Aquatic War Skirt
+				i(233132),	-- Short Aquatic War Skirt and Leg Wraps
+				i(233080),	-- Short Azure War Skirt
+				i(233117),	-- Short Azure War Skirt and Leg Wraps
+				i(233086),	-- Short Brick War Skirt
+				i(233125),	-- Short Brick War Skirt and Leg Wraps
+				i(233085),	-- Short Camo War Skirt
+				i(233124),	-- Short Camo War Skirt and Leg Wraps
+				i(233089),	-- Short Carrot War Skirt
+				i(233128),	-- Short Carrot War Skirt and Leg Wraps
+				i(233083),	-- Short Cloudy War Skirt
+				i(233122),	-- Short Cloudy War Skirt and Leg Wraps
+				i(233088),	-- Short Faded War Skirt
+				i(233127),	-- Short Faded War Skirt and Leg Wraps
+				i(233082),	-- Short Grassy War Skirt
+				i(233121),	-- Short Grassy War Skirt and Leg Wraps
+				i(233087),	-- Short Lively War Skirt
+				i(233126),	-- Short Lively War Skirt and Leg Wraps
+				i(233079),	-- Short Midnight War Skirt
+				i(233116),	-- Short Midnight War Skirt and Leg Wraps
+				i(233091),	-- Short Plum War Skirt
+				i(233130),	-- Short Plum War Skirt and Leg Wraps
+				i(233090),	-- Short Rosy War Skirt
+				i(233129),	-- Short Rosy War Skirt and Leg Wraps
+				i(233094),	-- Short Snowy War Skirt
+				i(233133),	-- Short Snowy War Skirt and Leg Wraps
+				i(233092),	-- Short Violet War Skirt
+				i(233131),	-- Short Violet War Skirt and Leg Wraps
+				i(234982),	-- Spare Sailor's Short-Sleeved Tunic
+				i(233272),	-- Steam-Powered Cobalt Clock Cloak
+				i(233275),	-- Steam-Powered Violet Clock Cloak
+				i(235330),	-- Steam-Pressed Cobalt Cloak
+				i(235333),	-- Steam-Pressed Violet Cloak
+				i(233239),	-- Sunny Pack of Lunar Explosives
+				i(232910),	-- Vivid Heartfelt Shoulder Cape
+				i(232916),	-- Vivid Heartfelt Spaulders
+			}),
+			n(SETS, {
+				------ Cobalt Clockwork Set ------
+				i(233327),	-- Cobalt Clockwork Attire
+				i(233310),	-- Cobalt Clockwork Belt
+				i(233322),	-- Cobalt Clockwork Boots
+				i(233314),	-- Cobalt Clockwork Bracer
+				i(233291),	-- Cobalt Clockwork Cap
+				i(233278),	-- Cobalt Clockwork Defender
+				i(233256),	-- Cobalt Clockwork Doomfist
+				i(233318),	-- Cobalt Clockwork Glove
+				i(233306),	-- Cobalt Clockwork Leggings
+				i(233295),	-- Cobalt Clockwork Pauldrons
+				i(233302),	-- Cobalt Clockwork Uniform
+
+				------ Violet Clockwork Set ------
+				i(233330),	-- Violet Clockwork Attire
+				i(233313),	-- Violet Clockwork Belt
+				i(233325),	-- Violet Clockwork Boots
+				i(233317),	-- Violet Clockwork Bracer
+				i(233294),	-- Violet Clockwork Cap
+				i(233280),	-- Violet Clockwork Defender
+				i(233321),	-- Violet Clockwork Glove
+				i(233309),	-- Violet Clockwork Leggings
+				i(233301),	-- Violet Clockwork Pauldrons
+				i(233305),	-- Violet Clockwork Uniform
+			}),
+			n(WEAPONS, {
+				i(233233),	-- Azure Lunar Firewhacker
+				i(233219),	-- Azure Lunar Lantern
+				i(233254),	-- Blue Clockwork Mace
+				i(233225),	-- Cobalt Lunar Blade
+				i(233227),	-- Gold Lunar Blade
+				i(233230),	-- Gold Lunar Polearm
+				i(233234),	-- Lively Lunar Firewhacker
+				i(233220),	-- Lively Lunar Lantern
+				i(233269),	-- Long-Range Cobalt Clockstopper
+				i(233268),	-- Long-Range Violet Clockstopper
+				i(233224),	-- Obsidian Lunar Blade
+				i(233259),	-- Purple Clockwork Doomfist
+				i(233253),	-- Purple Clockwork Mace
+				i(233229),	-- Silver Lunar Polearm
+				i(233231),	-- Steel Lunar Polearm
+				i(233235),	-- Violet Lunar Firewhacker
+				i(233221),	-- Violet Lunar Lantern
 			}),
 		})),
 
