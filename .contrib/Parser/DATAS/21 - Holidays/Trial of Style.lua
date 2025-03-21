@@ -492,6 +492,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 				["coord"] = { 61.3, 31.1, HALLOWFALL },
 				["timeline"] = { ADDED_11_1_0 },
 			}),
+			q(86702, {	-- Work It
+				["provider"] = { "n", 236362 },	-- Cataloger Elaine
+				["coord"] = { 42.7, 54.6, HALLOWFALL },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
 			q(86699, {	-- Work It
 				["provider"] = { "n", 236356 },	-- Cataloger Sunshot
 				["coord"] = { 56.5, 51.5, ISLE_OF_DORN },
@@ -500,6 +505,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 			q(86700, {	-- Work It
 				["provider"] = { "n", 236359 },	-- Cataloger Judith
 				["coord"] = { 43.1, 33.1, THE_RINGING_DEEPS },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
+			q(86701, {	-- Work It
+				["provider"] = { "n", 236361 },	-- Cataloger Shotfrenzy
+				["coord"] = { 58.8, 78.9, THE_RINGING_DEEPS },
 				["timeline"] = { ADDED_11_1_0 },
 			}),
 		})),

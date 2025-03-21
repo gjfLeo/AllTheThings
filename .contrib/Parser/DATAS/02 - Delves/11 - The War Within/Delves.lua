@@ -2072,17 +2072,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 	mapped(n(ZONE_DROPS, {
 		i(225692),	-- Glowglow Cap (sturdy chest)
-		i(236668, {	-- C.H.E.T.T. Card
-			["description"] = "Drops from Underpin affiliated enemies in any delve and rarely as a zone drop in Undermine.",
-			["crs"] = {
-				234905,	-- Aggressively Lost Hobgoblin <Underpin's Fan>
-				231925,	-- Drill Sergeant
-				234904,	-- Underpin's Bodyguard's Intern
-				234901,	-- Underpin's Well-Connected Friend
-			},
-			["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 },
-			["timeline"] = { ADDED_11_1_0 },
-		}),
+		i(236668),	-- C.H.E.T.T. Card
 	})),
 	m(EARTHCRAWL_MINES, {
 		["icon"] = [[~_.asset("Delves_Nerubian")]],
