@@ -8,6 +8,15 @@ WARBAND = createHeader({
 		en = [[~ACCOUNT_QUEST_LABEL]],
 	},
 });
+
+WARBAND_SCENES = createHeader({
+	readable = "Warband Scenes",
+	icon = 6124644,
+	text = {
+		en = [[~ACCOUNT_LEVEL_SCENE]],
+	},
+});
+
 root(ROOTS.Character, n(WARBAND, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(ACHIEVEMENTS, {
 		ach(19470),	-- One Warband Mentor: The War Within
@@ -56,6 +65,17 @@ root(ROOTS.Character, n(WARBAND, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 
 			["g"] = {
 				spell(465226),	-- Warband Bank Distance Inhibitor
 			},
+		}),
+	})),
+	n(WARBAND_SCENES, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
+		ws(1, {	-- Adventurer's Rest (WS!)
+			["description"] = "Granted to all warbands as default.",
+		}),
+		ws(4, {	-- Ohn'ahran Overlook (WS!)
+			["description"] = "Granted to all warbands.",
+		}),
+		ws(29, {	-- Randomize From Favorites (WS!)
+			["description"] = "Granted to all warbands.",
 		}),
 	})),
 })));

@@ -159,6 +159,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 	n(DELVES_TWW_S2, {	-- Includes Demolition Dome
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
+			ach(41709),	-- Journey's End (Season 2)
+			ach(41531, {	-- The Hataclysm
+				["description"] = "After you've defeated the Underpin once, Ask Brann to change his hat 10 times at his spot in Dornogal.",
+				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+				["coord"] = { 47.6, 44.6, DORNOGAL },
+				["sourceAchievement"] = 41530,	-- My New Nemesis
+			}),
 			ach(41191, {	-- War Within Delves: Tier 4 (Season 2)
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
@@ -182,12 +189,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			ach(41197, {	-- War Within Delves: Tier 11 (Season 2)
 				["maps"] = ALL_REGULAR_DELVES,
-			}),
-			ach(41531, {	-- The Hataclysm
-				["description"] = "After you've defeated the Underpin once, Ask Brann to change his hat 10 times at his spot in Dornogal.",
-				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
-				["coord"] = { 47.6, 44.6, DORNOGAL },
-				["sourceAchievement"] = 41530,	-- My New Nemesis
 			}),
 		})),
 		-- TWW Season 2 Boss (Still available)
@@ -565,9 +566,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		ach(40789),		-- I've Got More Flying Machine?! (automated)
 		ach(40788, {	-- I Got the Keys
 			["maps"] = ALL_REGULAR_DELVES,
-		}),
-		ach(41709, {	-- Journey's End (Season 2)
-			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
 		ach(40452, {	-- Just Keep Swimming
 			["maps"] = KOBYSS_DELVES,
@@ -1652,6 +1650,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(235608, {	-- Nightfall Sanctum Campsite
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["g"] = { ws(5) },	-- Cultists' Quay (WS!)
 					}),
 				}),
 				n(ARMOR, {

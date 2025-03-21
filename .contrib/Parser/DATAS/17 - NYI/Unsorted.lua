@@ -453,14 +453,6 @@ root(ROOTS.Unsorted, {
 			i(242318),	-- Wooden Orgrimmar Shield
 		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-			--[[
-			ws(1),	-- Adventurer's Rest
-			ws(4),	-- Ohn'ahran Overlook
-			ws(5),	-- Cultists' Quay
-			ws(7),	-- Freywold Spring
-			ws(25),	-- Gallagio Grand Gallery
-			ws(29),	-- Randomize From Favorites
-			--]]
 			n(ARMOR, {
 				-- Darkal Check Later
 				i(238243),	-- Hidden Boots

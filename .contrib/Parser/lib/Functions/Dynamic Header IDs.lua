@@ -587,6 +587,7 @@ HeaderAssignments = {
 	["War Effort"] = -1000076,
 	["War Mode Gear"] = -1000978,
 	["Warband"] = -1000954,
+	["Warband Scenes"] = -1001177,
 	["Warcraft III Spoils of War Edition"] = -1000259,
 	["Warcraft Movie"] = -1000268,
 	["Warcraft Rumble"] = -1000269,
@@ -646,4 +647,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001175;
+NextHeaderID = -1001178;

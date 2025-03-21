@@ -232,7 +232,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					41217,	-- Treasures of Undermine
 					41708,	-- You're My Friend Now
 				}},
-				-- TODO reward: Warband Campsite: Gallagio Grand Gallery
+				["g"] = { ws(25) },	-- Gallagio Grand Gallery (WS!)
 			}),
 			ach(40948),	-- Nine-Tenths of the Law
 			ach(40894),	-- Sojourner of Undermine (automated)
