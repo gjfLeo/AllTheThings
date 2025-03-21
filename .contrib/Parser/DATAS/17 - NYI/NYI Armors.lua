@@ -3440,57 +3440,275 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 
 		-- 11.0.5
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
-			i(225185),	-- [DNT UNUSED] Reforged 1 Ring
-			i(227593),	-- Eternal Blossom Breeches
-			i(227563),	-- Eternal Blossom Gloves
-			i(227592),	-- Eternal Blossom Handguards
-			i(227583),	-- Eternal Blossom Handwraps
-			i(227562),	-- Eternal Blossom Leggings
-			i(227582),	-- Eternal Blossom Legwraps
-			i(227555),	-- Firebird's Grips
-			i(227581),	-- Firebird's Handwraps
-			i(227554),	-- Firebird's Legguards
-			i(227580),	-- Firebird's Legwraps
-			i(227585),	-- Guardian Serpent Handwraps
-			i(227584),	-- Guardian Serpent Legwraps
-			i(227571),	-- Handguards of Resounding Rings
-			i(227567),	-- Handguards of the Lost Catacomb
-			i(227217),	-- Hateful Gladiator's Dragonhide Robes
-			i(227219),	-- Hateful Gladiator's Satin Robe
-			i(227216),	-- Hateful Gladiator's Wyrmhide Robes
-			i(227570),	-- Legguards of Resounding Rings
-			i(227566),	-- Legguards of the Lost Catacomb
-			i(227595),	-- Red Crane Gauntlets
-			i(227596),	-- Red Crane Handwraps
-			i(227594),	-- Red Crane Legguards
-			i(227597),	-- Red Crane Legwraps
-			i(227579),	-- White Tiger Gloves
-			i(227578),	-- White Tiger Greaves
-			i(227569),	-- White Tiger Handguards
-			i(227568),	-- White Tiger Legguards
+			filter(CLOTH, {
+				i(227585),	-- Guardian Serpent Handwraps
+				i(227584),	-- Guardian Serpent Legwraps
+				i(227219),	-- Hateful Gladiator's Satin Robe
+			}),
+			filter(FINGER_F, {
+				i(225185),	-- [DNT UNUSED] Reforged 1 Ring
+			}),
+			filter(LEATHER, {
+				i(227593),	-- Eternal Blossom Breeches
+				i(227563),	-- Eternal Blossom Gloves
+				i(227592),	-- Eternal Blossom Handguards
+				i(227583),	-- Eternal Blossom Handwraps
+				i(227562),	-- Eternal Blossom Leggings
+				i(227582),	-- Eternal Blossom Legwraps
+				i(227217),	-- Hateful Gladiator's Dragonhide Robes
+				i(227216),	-- Hateful Gladiator's Wyrmhide Robes
+				i(227595),	-- Red Crane Gauntlets
+				i(227596),	-- Red Crane Handwraps
+				i(227594),	-- Red Crane Legguards
+				i(227597),	-- Red Crane Legwraps
+			}),
+			filter(MAIL, {
+				i(227555),	-- Firebird's Grips
+				i(227581),	-- Firebird's Handwraps
+				i(227554),	-- Firebird's Legguards
+				i(227580),	-- Firebird's Legwraps
+			}),
+			filter(PLATE, {
+				i(227571),	-- Handguards of Resounding Rings
+				i(227567),	-- Handguards of the Lost Catacomb
+				i(227570),	-- Legguards of Resounding Rings
+				i(227566),	-- Legguards of the Lost Catacomb
+				i(227579),	-- White Tiger Gloves
+				i(227578),	-- White Tiger Greaves
+				i(227569),	-- White Tiger Handguards
+				i(227568),	-- White Tiger Legguards
+			}),
 		})),
 
 		-- 11.0.7
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
-			i(228526),	-- Cyrce's Circlet
-			i(231751),	-- Earthen Backpack
+			filter(BACK_F, {
+				i(231751),	-- Earthen Backpack
+			}),
+			filter(FINGER_F, {
+				i(228526),	-- Cyrce's Circlet
+			}),
 		})),
 
 		-- 11.1.0
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-			i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket
-			i(234511),	-- Corrupted Cuirass
-			i(234525),	-- Corrupted Crown
-			i(235219),	-- Fireworks Hat
-			i(235720),	-- Guardian Serpent Cowl
-			i(235736),	-- Guardian Serpent Crown
-			i(235737),	-- Guardian Serpent Leggings
-			i(235738),	-- Guardian Serpent Pants
-			i(235753),	-- Raiment of the Chromatic Hydra
-
-			-- Trinkets Note for Darkal
-			i(230187),	-- Lucio Boombox
-			i(232547),	-- Omega Strike Force
+			filter(CLOTH, {
+				i(235720, {["sourceID"] = 267067 }),	-- Guardian Serpent Cowl
+				i(235736, {["sourceID"] = 267083 }),	-- Guardian Serpent Crown
+				i(235737, {["sourceID"] = 267084 }),	-- Guardian Serpent Leggings
+				i(235738, {["sourceID"] = 267085 }),	-- Guardian Serpent Pants
+				i(235753, {["sourceID"] = 267100 }),	-- Raiment of the Chromatic Hydra
+			}),
+			n(HEAD, {
+				i(235219),	-- Fireworks Hat
+			}),
+			filter(PLATE, {
+				i(234511),	-- Corrupted Cuirass
+				i(234525),	-- Corrupted Crown
+			}),
+			filter(TRINKET_F, {
+				i(230196),	-- 11.0 Raid Template - Ranged DPS - Trinket
+				i(230187),	-- Lucio Boombox
+				i(232547),	-- Omega Strike Force
+			}),
+			header(HEADERS.LFGDungeon, 2779, {	-- Liberation of Undermine
+				d(DIFFICULTY.RAID.LFR, bubbleDown({ ["bonusID"] = 6894, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(228871),	-- Cleanup Crew's Wastemask
+						i(232655),	-- Vatwork Janitor's Wasteband
+						i(228861),	-- Tune-Up Toolbelt
+						i(232656),	-- Psychopath's Ravemantle
+						i(228850),	-- Bottom-Dollar Blouse
+						i(228857),	-- Underparty Admission Bracelet
+						i(228879),	-- Cemented Murloc-Swimmers
+						i(228881),	-- Illicit Bankroll Bracers
+					}),
+					filter(LEATHER, {
+						i(228863),	-- Enforcer's Sticky Fingers
+						i(228875),	-- Vandal's Skullplating
+						i(228885),	-- Hustler's Ante-Uppers
+						i(232657),	-- Mechgineer's Blowtorch Cover
+						i(228856),	-- Competitor's Battle Cord
+						i(228869),	-- Killer Queen's Wristflickers
+						i(228854),	-- Bilgerat's Discarded Slacks
+						i(228864),	-- "Streamlined" Cartel Uniform
+						i(228888),	-- Rushed Beta Launchers
+						i(232658),	-- Firebug's Anklegear
+						i(228848),	-- Darkfuse Racketeer's Tricorne
+						i(228876),	-- Dragster's Last Stride
+						i(228880),	-- Hitman's Holster
+					}),
+					filter(MAIL, {
+						i(228860),	-- Epaulettes of Failed Enforcers
+						i(228867),	-- Gravi-Gunk Handlers
+						i(228877),	-- Dealer's Covetous Chain
+						i(228883),	-- Dubious Table-Runners
+						i(232659),	-- Loyalist's Holdout Hood
+						i(228846),	-- Galvanic Graffiti Cuffs
+						i(228859),	-- Sanitized Scraphood
+						i(228866),	-- Deep-Pocketed Pantaloons
+						i(232660),	-- Midnight Lounge Cummerbund
+					}),
+					filter(PLATE, {
+						i(228851),	-- "Bullet-Proof" Vestplate
+						i(228853),	-- Hired Muscle's Legguards
+						i(228868),	-- Revved-Up Vambraces
+						i(228874),	-- Rik's Walkin' Boots
+						i(232662),	-- Globlin-Fused Greatbelt
+						i(228858),	-- Fullthrottle Facerig
+						i(228884),	-- Test Subject's Clasps
+						i(228886),	-- Coin-Operated Girdle
+						i(232661),	-- Bootleg Wrynn Shoulderplates
+					}),
+				})),
+				d(DIFFICULTY.RAID.NORMAL, bubbleDown({ ["bonusID"] = 6895, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(228871),	-- Cleanup Crew's Wastemask
+						i(232655),	-- Vatwork Janitor's Wasteband
+						i(228861),	-- Tune-Up Toolbelt
+						i(232656),	-- Psychopath's Ravemantle
+						i(228850),	-- Bottom-Dollar Blouse
+						i(228857),	-- Underparty Admission Bracelet
+						i(228879),	-- Cemented Murloc-Swimmers
+						i(228881),	-- Illicit Bankroll Bracers
+					}),
+					filter(LEATHER, {
+						i(228863),	-- Enforcer's Sticky Fingers
+						i(228875),	-- Vandal's Skullplating
+						i(228885),	-- Hustler's Ante-Uppers
+						i(232657),	-- Mechgineer's Blowtorch Cover
+						i(228856),	-- Competitor's Battle Cord
+						i(228869),	-- Killer Queen's Wristflickers
+						i(228854),	-- Bilgerat's Discarded Slacks
+						i(228864),	-- "Streamlined" Cartel Uniform
+						i(228888),	-- Rushed Beta Launchers
+						i(232658),	-- Firebug's Anklegear
+						i(228848),	-- Darkfuse Racketeer's Tricorne
+						i(228876),	-- Dragster's Last Stride
+						i(228880),	-- Hitman's Holster
+					}),
+					filter(MAIL, {
+						i(228860),	-- Epaulettes of Failed Enforcers
+						i(228867),	-- Gravi-Gunk Handlers
+						i(228877),	-- Dealer's Covetous Chain
+						i(228883),	-- Dubious Table-Runners
+						i(232659),	-- Loyalist's Holdout Hood
+						i(228846),	-- Galvanic Graffiti Cuffs
+						i(228859),	-- Sanitized Scraphood
+						i(228866),	-- Deep-Pocketed Pantaloons
+						i(232660),	-- Midnight Lounge Cummerbund
+					}),
+					filter(PLATE, {
+						i(228851),	-- "Bullet-Proof" Vestplate
+						i(228853),	-- Hired Muscle's Legguards
+						i(228868),	-- Revved-Up Vambraces
+						i(228874),	-- Rik's Walkin' Boots
+						i(232662),	-- Globlin-Fused Greatbelt
+						i(228858),	-- Fullthrottle Facerig
+						i(228884),	-- Test Subject's Clasps
+						i(228886),	-- Coin-Operated Girdle
+						i(232661),	-- Bootleg Wrynn Shoulderplates
+					}),
+				})),
+				d(DIFFICULTY.RAID.HEROIC, bubbleDown({ ["bonusID"] = 6896, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(228871),	-- Cleanup Crew's Wastemask
+						i(232655),	-- Vatwork Janitor's Wasteband
+						i(228861),	-- Tune-Up Toolbelt
+						i(232656),	-- Psychopath's Ravemantle
+						i(228850),	-- Bottom-Dollar Blouse
+						i(228857),	-- Underparty Admission Bracelet
+						i(228879),	-- Cemented Murloc-Swimmers
+						i(228881),	-- Illicit Bankroll Bracers
+					}),
+					filter(LEATHER, {
+						i(228863),	-- Enforcer's Sticky Fingers
+						i(228875),	-- Vandal's Skullplating
+						i(228885),	-- Hustler's Ante-Uppers
+						i(232657),	-- Mechgineer's Blowtorch Cover
+						i(228856),	-- Competitor's Battle Cord
+						i(228869),	-- Killer Queen's Wristflickers
+						i(228854),	-- Bilgerat's Discarded Slacks
+						i(228864),	-- "Streamlined" Cartel Uniform
+						i(228888),	-- Rushed Beta Launchers
+						i(232658),	-- Firebug's Anklegear
+						i(228848),	-- Darkfuse Racketeer's Tricorne
+						i(228876),	-- Dragster's Last Stride
+						i(228880),	-- Hitman's Holster
+					}),
+					filter(MAIL, {
+						i(228860),	-- Epaulettes of Failed Enforcers
+						i(228867),	-- Gravi-Gunk Handlers
+						i(228877),	-- Dealer's Covetous Chain
+						i(228883),	-- Dubious Table-Runners
+						i(232659),	-- Loyalist's Holdout Hood
+						i(228846),	-- Galvanic Graffiti Cuffs
+						i(228859),	-- Sanitized Scraphood
+						i(228866),	-- Deep-Pocketed Pantaloons
+						i(232660),	-- Midnight Lounge Cummerbund
+					}),
+					filter(PLATE, {
+						i(228851),	-- "Bullet-Proof" Vestplate
+						i(228853),	-- Hired Muscle's Legguards
+						i(228868),	-- Revved-Up Vambraces
+						i(228874),	-- Rik's Walkin' Boots
+						i(232662),	-- Globlin-Fused Greatbelt
+						i(228858),	-- Fullthrottle Facerig
+						i(228884),	-- Test Subject's Clasps
+						i(228886),	-- Coin-Operated Girdle
+						i(232661),	-- Bootleg Wrynn Shoulderplates
+					}),
+				})),
+				d(DIFFICULTY.RAID.MYTHIC, bubbleDown({ ["bonusID"] = 6897, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(228871),	-- Cleanup Crew's Wastemask
+						i(232655),	-- Vatwork Janitor's Wasteband
+						i(228861),	-- Tune-Up Toolbelt
+						i(232656),	-- Psychopath's Ravemantle
+						i(228850),	-- Bottom-Dollar Blouse
+						i(228857),	-- Underparty Admission Bracelet
+						i(228879),	-- Cemented Murloc-Swimmers
+						i(228881),	-- Illicit Bankroll Bracers
+					}),
+					filter(LEATHER, {
+						i(228863),	-- Enforcer's Sticky Fingers
+						i(228875),	-- Vandal's Skullplating
+						i(228885),	-- Hustler's Ante-Uppers
+						i(232657),	-- Mechgineer's Blowtorch Cover
+						i(228856),	-- Competitor's Battle Cord
+						i(228869),	-- Killer Queen's Wristflickers
+						i(228854),	-- Bilgerat's Discarded Slacks
+						i(228864),	-- "Streamlined" Cartel Uniform
+						i(228888),	-- Rushed Beta Launchers
+						i(232658),	-- Firebug's Anklegear
+						i(228848),	-- Darkfuse Racketeer's Tricorne
+						i(228876),	-- Dragster's Last Stride
+						i(228880),	-- Hitman's Holster
+					}),
+					filter(MAIL, {
+						i(228860),	-- Epaulettes of Failed Enforcers
+						i(228867),	-- Gravi-Gunk Handlers
+						i(228877),	-- Dealer's Covetous Chain
+						i(228883),	-- Dubious Table-Runners
+						i(232659),	-- Loyalist's Holdout Hood
+						i(228846),	-- Galvanic Graffiti Cuffs
+						i(228859),	-- Sanitized Scraphood
+						i(228866),	-- Deep-Pocketed Pantaloons
+						i(232660),	-- Midnight Lounge Cummerbund
+					}),
+					filter(PLATE, {
+						i(228851),	-- "Bullet-Proof" Vestplate
+						i(228853),	-- Hired Muscle's Legguards
+						i(228868),	-- Revved-Up Vambraces
+						i(228874),	-- Rik's Walkin' Boots
+						i(232662),	-- Globlin-Fused Greatbelt
+						i(228858),	-- Fullthrottle Facerig
+						i(228884),	-- Test Subject's Clasps
+						i(228886),	-- Coin-Operated Girdle
+						i(232661),	-- Bootleg Wrynn Shoulderplates
+					}),
+				})),
+			}),
 		})),
 	}),
 }));
