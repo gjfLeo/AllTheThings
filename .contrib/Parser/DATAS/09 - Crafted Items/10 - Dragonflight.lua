@@ -2572,7 +2572,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		filter(TOYS, {
 			i(205045, {["timeline"] = {ADDED_10_1_0}}),	-- B.B.F. Fist (TOY!)
 			i(193033),	-- Convergent Prism (TOY!)
-			i(193032),	-- Jeweled Offering (TOY!)
+			i(193032, {	-- Jeweled Offering (TOY!)
+				i(193260),	-- Prized Jewel
+			}),
 		}),
 	}),
 	prof(LEATHERWORKING, {

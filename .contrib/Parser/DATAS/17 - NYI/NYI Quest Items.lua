@@ -491,7 +491,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(199633),	-- Prepfoot Cell Key
 			i(193412),	-- Primal-Infused Dragon Egg
 			i(193267),	-- Pristine Hide
-			i(193260),	-- Prized Jewel
 			i(198812),	-- Rae'ana Alchemy Kit
 			i(199907),	-- Rebel Plans
 			i(191538),	-- Relic Fragment

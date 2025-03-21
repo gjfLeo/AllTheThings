@@ -653,7 +653,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			q(62761, {	-- Return to Oribos
 				["sourceQuests"] = { 62748 },	-- Rallying Maldraxxus
 				["provider"] = { "n", 175008 },	-- Secutor Mevix
-				["coord"] = { 52.8, 68.2, MALDRAXXUS },
+				["coords"] = {
+					{ 52.8, 68.2, MALDRAXXUS },
+					{ 50.0, 44.2, SEAT_OF_THE_PRIMUS },
+				},
 				-- #if BEFORE DF
 				["lvl"] = { 48, 60 },
 				-- #endif

@@ -755,7 +755,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["sourceQuests"] = { 60900 },	-- Archival Protection
 					["provider"] = { "n", 162476 },	-- Ta'eran
 					["g"] = {
-						i(178020),	-- Volume of Victory: Vol 1 (QI!)
+						o(340455, {	-- Volume of Victory: Vol 1
+							["coord"] = { 45.5, 32.1, MALDRAXXUS },
+							["g"] = { i(178020) },	-- Volume of Victory: Vol 1 (QI!)
+						}),
 						i(175517),	-- Corpse-Stitcher's Slippers
 						i(175516),	-- Cruel Executioner's Stompers
 						i(175519),	-- Deceitful Agent's Treads
@@ -767,8 +770,22 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["provider"] = { "n", 166806 },	-- Ta'eran
 					["coord"] = { 43.0, 25.1, MALDRAXXUS },
 					["g"] = {
-						i(178019),	-- Additional Volumes of Victory (QI!)
-						i(174377),	-- Volume of Victory (QI!)
+						o(349911, {	-- Additional Volumes
+							["coord"] = { 45.3, 31.9, MALDRAXXUS },
+							["g"] = { i(178019) },	-- Additional Volumes of Victory (QI!)
+						}),
+						o(349905, {	-- Additional Volumes of Victory
+							["coord"] = { 45.2, 32.3, MALDRAXXUS },
+							["g"] = { i(178019) },	-- Additional Volumes of Victory (QI!)
+						}),
+						o(349904, {	-- Volumes of Victory: Vol 38
+							["coord"] = { 45.2, 31.9, MALDRAXXUS },
+							["g"] = { i(174377) },	-- Volume of Victory (QI!)
+						}),
+						o(349921, {	-- Volumes of Victory: Vol 583
+							["coord"] = { 45.2, 31.8, MALDRAXXUS },
+							["g"] = { i(174377) },	-- Volume of Victory (QI!)
+						}),
 					},
 				}),
 			}),

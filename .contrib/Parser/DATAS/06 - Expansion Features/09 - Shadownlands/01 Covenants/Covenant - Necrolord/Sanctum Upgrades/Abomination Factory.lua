@@ -582,7 +582,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									}),
 									q(59042, {	-- A Good Heart
 										["sourceQuests"] = { 58686 },	-- Weapon of Mass Construction
-										["provider"] = { "n", 162222 },	-- Rathan
+										["qgs"] = {
+											162222,	-- Rathan
+											162227,	-- Rathan
+										},
 										["coord"] = { 24.2, 38.6, MALDRAXXUS },
 									}),
 									q(59747, {    -- A Lost Soul
@@ -733,7 +736,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 									}),
 									q(58668, {	-- Find The Way
 										["sourceQuests"] = { 58665 },	-- Rebellious Souls
-										["provider"] = { "n", 162153 },	-- Rathan
+										["qgs"] = {
+											162108,	-- Rathan
+											162153,	-- Rathan
+										},
 										["coord"] = { 26.0, 42.6, MALDRAXXUS },
 									}),
 									q(62041, {	-- In A Bad Light
@@ -755,8 +761,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["coord"] = { 24.2, 38.8, MALDRAXXUS },
 										["g"] = {
 											i(174526),	-- Clotting Patches (QI!)
-											i(174534),	-- Razorthread Spool (QI!)
-											i(174524),	-- Skewering Needle (QI!)
+											o_repeated({
+												o(355915, {	-- Razorthread Spool
+													i(174534),	-- Razorthread Spool (QI!)
+												}),
+												o(340843, {	-- Razorthread Spool
+													i(174534),	-- Razorthread Spool (QI!)
+												}),
+											}),
+											o(340839, {	-- Skewering Needle
+												i(174524),	-- Skewering Needle (QI!)
+											}),
 										},
 									}),
 									q(60042, {	-- May I Take Your Order?
