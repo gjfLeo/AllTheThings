@@ -48,9 +48,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch 200 latest commits and tags
+      - name: Fetch 300 latest commits and tags
         run: |
-          git fetch origin --deepen=200
+          git fetch origin --deepen=300
 
       - name: Download artifacts
         uses: actions/download-artifact@v4
