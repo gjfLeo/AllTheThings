@@ -987,14 +987,7 @@ root(ROOTS.Zones, {
 						["repeatable"] = true,
 						["groups"] = {
 							i(31800, {  -- Outcasts Cache
-								i(28495),	-- Windwalker's Sash
-								i(28496),	-- Talonite's Belt
-								i(28497),	-- Dreadhawk's Girdle
-								i(28498),	-- Ravenguard's Baldric
-								i(28491),	-- Windwalker's Footwraps
-								i(28493),	-- Dreadhawk's Schynbald
-								i(28492),	-- Talonite's Boots
-								i(28494),	-- Ravenguard's Greaves
+								["sym"] = {{"fill"}},	-- fill with Sourced content for this Item since reward of repeatable quest
 							}),
 						},
 					}),
@@ -1226,7 +1219,14 @@ root(ROOTS.Zones, {
 						["cost"] = { { "i", 25719, 30 } },	-- 30x Arakkoa Feather
 						["groups"] = {
 							i(31800, {  -- Outcasts Cache
-								["sym"] = {{"fill"}},	-- fill with Sourced content for this Item since reward of repeatable quest
+								i(28495),	-- Windwalker's Sash
+								i(28496),	-- Talonite's Belt
+								i(28497),	-- Dreadhawk's Girdle
+								i(28498),	-- Ravenguard's Baldric
+								i(28491),	-- Windwalker's Footwraps
+								i(28493),	-- Dreadhawk's Schynbald
+								i(28492),	-- Talonite's Boots
+								i(28494),	-- Ravenguard's Greaves
 							}),
 						},
 					}),
