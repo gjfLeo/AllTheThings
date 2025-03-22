@@ -296,15 +296,27 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				}),
 				q(49293, {	-- Invasion Onslaught
 					["sourceQuests"] = { 48605 },	-- Commander's Downfall
-					["provider"] = { "n", 126408 },	-- Illidan Stormrage
+					["qgs"] = {
+						126408,	-- Illidan Stormrage
+						127057,	-- Illidan Stormrage
+					},
+					["coords"] = {
+						{ 40.1, 21.3, THE_VINDICAAR_KROKUUN_UPPER },
+						{ 30.3, 60.1, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
+					},
 					["isWeekly"] = true,
-					["coord"] = { 40.1, 21.3, THE_VINDICAAR_KROKUUN_UPPER },
 				}),
 				q(48513, {	-- Invasion Point Offensive
 				--	might unlock differently/have different SQ(s) on main character vs alts.
 					["sourceQuests"] = { 48440 },	-- Into the Night
-					["provider"] = { "n", 120978 },	-- Illidan Stormrage
-					["coord"] = { 40.2, 21.4, THE_VINDICAAR_KROKUUN_UPPER },
+					["qgs"] = {
+						120978,	-- Illidan Stormrage
+						127057,	-- Illidan Stormrage
+					},
+					["coords"] = {
+						{ 40.2, 21.4, THE_VINDICAAR_KROKUUN_UPPER },
+						{ 31.4, 59.1, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
+					},
 				}),
 				q(47182, {	-- Long Overdue
 					["sourceQuests"] = { 47134 },	-- Foiling the Legion's Jailbreak

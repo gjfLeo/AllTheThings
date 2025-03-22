@@ -60,6 +60,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 								["cost"] = {{ "i", 236668, 40 }},	-- C.H.E.T.T. Card
 							}),
 							i(237900, {	-- C.H.E.T.T. Pack (COSMETIC!)
+								["sourceAchievement"] = 41629,	-- C.H.E.T.T.mate
 								["cost"] = {{ "c", RESONANCE_CRYSTALS, 1000 }},
 							}),
 						},

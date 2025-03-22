@@ -705,9 +705,18 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["provider"] = { "n", 163073 },	-- Cryptkeeper Kassir
 					["coord"] = { 70.1, 56.1, REVENDRETH },
 					["g"] = {
-						i(173737),	-- Temel's Body (QI!)
-						i(173739),	-- Temel's Head (QI!)
-						i(173738),	-- Temel's Wings (QI!)
+						o(339224, {	-- Temel's Body
+							["coord"] = { 68.9, 53.3, REVENDRETH },
+							["g"] = { i(173737) },	-- Temel's Body (QI!)
+						}),
+						o(339226, {	-- Temel's Head
+							["coord"] = { 70.2, 53.8, REVENDRETH },
+							["g"] = { i(173739) },	-- Temel's Head (QI!)
+						}),
+						o(339225, {	-- Temel's Wings
+							["coord"] =  { 66.1, 53.1, REVENDRETH },
+							["g"] = { i(173738) },	-- Temel's Wings (QI!)
+						}),
 					},
 				}),
 				q(60128, {	-- Ready to Serve

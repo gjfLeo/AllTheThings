@@ -908,6 +908,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(219210),	-- Sanctifier's Startierce
 					})),
 					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						i(218126),	-- Befouler's Syringe
 						i(235494),	-- Biker Gang's Spare Tire
 						i(235489),	-- Bullet Biter
 						i(235490),	-- Clawbacker Halberd
@@ -2550,7 +2551,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(TREASURES, {
 				o(503157, {	-- Sturdy Chest
-					["coord"] = { 61.6, 65.7, 2420 },
+					["coord"] = { 61.0, 63.9, SIDESTREET_SLUICE },
 					["questID"] = 86787,
 				}),
 				o(507226, {	-- Sturdy Chest
@@ -2559,11 +2560,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					["questID"] = 86789,
 				}),
 				o(507227, {	-- Sturdy Chest
-					["coord"] = { 33.4, 73.3, 2420 },
+					["coord"] = { 33.4, 73.3, SIDESTREET_SLUICE },
 					["questID"] = 86790,
 				}),
 				o(507221, {	-- Sturdy Chest
-					["coord"] = { 74.7, 74.3, 2420 },
+					["coord"] = { 76.8, 75.0, SIDESTREET_SLUICE },
 					["questID"] = 86788,
 				}),
 			}),

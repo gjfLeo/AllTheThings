@@ -196,13 +196,14 @@ root(ROOTS.Zones, {
 						["qg"] = 38120,	-- Hobart Grapplehammer
 						["sourceQuest"] = 24817,	-- A Goblin in Shark's Clothing
 					}),
-					q(24864, {	-- Irresistable Pool Pony
+					q(24864, {	-- Irresistible Pool Pony
 						["coord"] = { 52.2, 73.1, THE_LOST_ISLES },
 						["qg"] = 38432,	-- Megs Dreadshredder
 						["sourceQuests"] = {
 							24858,	-- Bilgewater Cartel Represent
 							24859,	-- Naga Hide
 						},
+						["groups"] = { i(50602) },	-- Irresistible Pool Pony (QI!)
 					}),
 					q(14245, {	-- It's a Town-In-A-Box
 						["coord"] = { 44.5, 64.3, THE_LOST_ISLES },
@@ -357,7 +358,7 @@ root(ROOTS.Zones, {
 					q(24868, {	-- Surrender or Else!
 						["coord"] = { 52.2, 73.1, THE_LOST_ISLES },
 						["qg"] = 38432,	-- Megs Dreadshredder
-						["sourceQuest"] = 24864,	-- Irresistable Pool Pony
+						["sourceQuest"] = 24864,	-- Irresistible Pool Pony
 						["groups"] = {
 							i(52954),	-- Hatchling Prodder
 							i(52908),	-- Hathcling Handlers
@@ -629,6 +630,7 @@ root(ROOTS.Zones, {
 							i(52958),	-- S.B.R.B. Prototype 2
 							i(131842),	-- S.B.R.B. Prototype 3
 							i(52936),	-- S.B.R.B. Prototype 4
+							i(52013),	-- Super Booster Rocket Boots (QI!)
 						},
 					}),
 				}),

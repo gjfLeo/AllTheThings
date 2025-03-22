@@ -504,7 +504,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 			}),
 			q(86700, {	-- Work It
 				["provider"] = { "n", 236359 },	-- Cataloger Judith
-				["coord"] = { 43.1, 33.1, THE_RINGING_DEEPS },
+				["coord"] = { 43.0, 33.2, THE_RINGING_DEEPS },
 				["timeline"] = { ADDED_11_1_0 },
 			}),
 			q(86701, {	-- Work It

@@ -1002,7 +1002,20 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				q(62720, {	-- The Fallen Tree [Pre-60]
 					["coord"] = { 72.0, 56.0, ARDENWEALD },
 					["g"] = {
-						i(184015),	-- Stolen Memento (QI!)
+						o(339996, {	-- Abandoned Memento
+							["coords"] = {
+								{ 68.6, 55.4, ARDENWEALD },
+								{ 68.7, 55.5, ARDENWEALD },
+								{ 69.8, 53.3, ARDENWEALD },
+								{ 69.9, 55.8, ARDENWEALD },
+								{ 70.0, 54.4, ARDENWEALD },
+								{ 70.0, 54.5, ARDENWEALD },
+								{ 71.1, 54.2, ARDENWEALD },
+								{ 72.0, 56.0, ARDENWEALD },
+								{ 73.1, 55.8, ARDENWEALD },
+							},
+							["g"] = { i(184015) },	-- Stolen Memento (QI!)
+						}),
 						i(181404),	-- Faemoss Shoes
 						i(181406),	-- Runetender Boots
 						i(181405),	-- Gormhusk Steps

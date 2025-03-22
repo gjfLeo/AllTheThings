@@ -87,6 +87,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 45406 },	-- The Storm's Fury
 						["repeatable"] = true,
 						["provider"] = { "n", 118778 },	-- Val'kyr of Odyn
+						["coord"] = { 81.7, 7.1, STORMHEIM },
 					}),
 					q(45572, {	-- Holding Our Ground
 						["sourceQuests"] = { 45840 },	-- Assault on Highmountain

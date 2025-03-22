@@ -286,6 +286,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["questID"] = 85004,	-- Swigs Farsight
 				["isWeekly"] = true,
 				["g"] = {
+					i(235347),	-- 100% Sharp Glimmerblade
 					i(235310),	-- Flashy Patchwork Trousers
 					i(235314),	-- Knightrider's Steelfists
 					i(235327),	-- Mend-and-Match Shoulderpads

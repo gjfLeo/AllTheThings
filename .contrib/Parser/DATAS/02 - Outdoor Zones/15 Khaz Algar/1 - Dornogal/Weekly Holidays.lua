@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["isWeekly"] = true,
 					["groups"] = {
 						i(229129, {	-- Cache of Delver's Spoils
-							["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 },
+							["timeline"] = { ADDED_11_0_2 },
 						}),
 					},
 				}),

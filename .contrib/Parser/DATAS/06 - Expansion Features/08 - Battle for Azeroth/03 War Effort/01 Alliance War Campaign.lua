@@ -912,13 +912,28 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					q(52490, {	-- Behind Enemy Boats
 						["sourceQuests"] = { 52489 },	-- Hunting Blood Prince Dreven
 						["provider"] = { "n", 141567 },	-- Shandris Feathermoon
+						["coord"] = { 38.5, 45.7, 1156 },	-- The Great Sea
 						["races"] = ALLIANCE_ONLY,
-						["maps"] = { 1156 },	-- The Great Sea (scenario map)
 					}),
 					q(52491, {	-- Broadside Bedlam
 						["sourceQuests"] = { 52490 },	-- Behind Enemy Boats
+						["provider"] = { "o", 293821 },	-- The Banshee's Wail Cannon
 						["coord"] = { 36.8, 52.4, 1156 },	-- The Great Sea
 						["races"] = ALLIANCE_ONLY,
+						["g"] = {
+							o(293812, {	-- Azerite-Infused Cannonballs
+								["coord"] = { 37.0, 52.1, 1156 },	-- The Great Sea
+								["g"] = { i(162528) },	-- Azerite-Infused Cannonballs (QI!)
+							}),
+							o(293814, {	-- Azerite-Infused Gunpowder
+								["coord"] = { 36.8, 52.8, 1156 },	-- The Great Sea
+								["g"] = { i(162529) },	-- Azerite-Infused Gunpowder (QI!)
+							}),
+							o(293817, {	-- Blazing Torch
+								["coord"] = { 36.6, 53.2, 1156 },	-- The Great Sea
+								["g"] = { i(162537) },	-- Banshee's Wail Torch (QI!)
+							}),
+						},
 					}),
 					q(52492, {	-- The Wildhammer Specialty
 						["sourceQuests"] = {
@@ -926,8 +941,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							52491,	-- Broadside Bedlam
 						},
 						["provider"] = { "n", 141541 },	-- Falstad Wildhammer
+						["coord"] = { 43.1, 49.1, 1156 },	-- The Great Sea
 						["races"] = ALLIANCE_ONLY,
-						["maps"] = { 1156 },	-- The Great Sea (scenario map)
 					}),
 					q(53131, {	-- Kings' Rest (Unlocks Kings' Rest)
 						["sourceQuests"] = { 52492 },	-- The Wildhammer Specialty
@@ -958,8 +973,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					q(52496, {	-- A Clean Escape
 						["sourceQuests"] = { 52495 },	-- Ending the San'layn Threat
 						["provider"] = { "n", 141567 },	-- Shandris Feathermoon
+						["coord"] = { 42.0, 47.3, 1156 },	-- The Great Sea
 						["races"] = ALLIANCE_ONLY,
-						["maps"] = { 1156 },	-- The Great Sea (scenario map)
 					}),
 				--	BETWEEN BLOOD IN THE WATER AND THE STRIKE ON ZULDAZAR
 					q(53072, {	-- Operation: Heartstrike
