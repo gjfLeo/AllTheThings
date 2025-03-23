@@ -36,6 +36,11 @@ i(162588);	-- Weathered Scrollcase
 -- BFA Minor Visions
 i(169294);	-- Resilient Soul
 i(173888);	-- Shard of Self Sacrifice \\ Lingering Soul
+-- BFA Trash drops available during quest
+i(168006);	-- Wilted Direbloom Petal
+i(168007);	-- Torn Direbloom Petal
+i(168008);	-- Young Direbloom Petal
+i(168009);	-- Rotten Direbloom Petal
 -- SL
 i(184412);	-- Title Reward: Spirestalker
 i(187499);	-- Sculpted Elethium Orb

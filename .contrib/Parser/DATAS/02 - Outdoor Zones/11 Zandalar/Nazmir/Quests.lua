@@ -11,7 +11,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			-- verify SQ for "the forlorn soul" also, picked up at the same time as above.  actual non-breadcrumb SQ seems to be "A Tribute for Death," but could be something else?
 			-- verify SQ for "a poisonous touch."  it wasn't available w/0 prereqs and i didn't see it until after turning in "staying hidden," but it may be available earlier.
 			-- verify whether or not "crawg free zone" is needed for "it seems you've made a friend" by turning it in last of the 4 quests.  i turned it in second to last, and the previous person who quested through turned in "bad juju"/"off with her head" last, so it seems those 3 are required)
-			-- MAIL AZERITE REWARDS MISSING for #50087, "Ateena's Fall"
 			-- figure out if "what rots beneath" is a breadcrumb
 			-- this question is also in the dazar'alor file, but verify SQ for "the blood gate."  it may become available after "ateena's fall," not "halting the empire's fall."  also, is "halting the empire's fall" (which sends you to baine, who offers this quest) a breadcrumb?  "the blood gate" isn't hidden like quests typically are when you have their breadcrumb in their log, so i'm not sure if "halting" is optional/disappears/becomes unavailable after doing "the blood gate."  also, is it available with *only* having done nazmir, or do you also have to finish the main zuldazar questline as well?
 			q(50934, {	-- A Chance Sighting
@@ -20,6 +19,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 131993 },	-- Yash
 				["coord"] = { 66.9, 41.9, NAZMIR },
 				["races"] = HORDE_ONLY,
+				["g"] = { i(153676) },	-- Vial of Liquid (QI!)
 			}),
 			q(47244, {	-- A Culling of Souls
 				["sourceQuests"] = { 47241 },	-- The Shadow of Death
@@ -155,6 +155,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 129165 },	-- Guard Satao
 				["coord"] = { 63.1, 52.6, NAZMIR },
 				["races"] = HORDE_ONLY,
+				["g"] = { i(153678) },	-- Sample Bottle (QI!)
 			}),
 			q(49779, {	-- Bad to the Bone
 				["sourceQuests"] = { 49778 },	-- Don't Go into the Light
@@ -807,6 +808,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 63.1, 52.6, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
+					i(153572),	-- Nagla's Head (QI!)
 					i(159092),	-- Grim Ritual Mace
 					i(159094),	-- Bloodsinger Wand
 					i(159089),	-- Amaki Scalper
