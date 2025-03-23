@@ -8679,5 +8679,10 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(85725),	-- (Argent Dawn Valor Token)
 			q(85726),	-- (Argent Dawn Valor Token)
 		})),
+
+		-- 11.1.0
+		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_0 } }, {
+			q(83447),
+		})),
 	}),
 }));

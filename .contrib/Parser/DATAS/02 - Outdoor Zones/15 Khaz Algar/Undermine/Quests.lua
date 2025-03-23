@@ -1608,9 +1608,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				--["sourceQuests"] = { XXX },
 				--["provider"] = { "i", xxx },	-- TODO: ???
 			}),
-			-- Unsorted, referenced in achievements, needed to parse (please sort these!)
-			-- Alex TODO: all 3 NYI in-game, not returning name for quests
-			q(83447),	-- ???
 		}),
 	}),
 })));
