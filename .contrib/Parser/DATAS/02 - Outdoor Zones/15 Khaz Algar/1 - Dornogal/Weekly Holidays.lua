@@ -47,11 +47,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["provider"] = { "n", 226919 },	-- Archivist Frithrun
 					["coord"] = { 46.5, 49.3, DORNOGAL },
 					["isWeekly"] = true,
-					["groups"] = {
-						i(229129, {	-- Cache of Delver's Spoils
-							["timeline"] = { ADDED_11_0_2 },
-						}),
-					},
+					["groups"] = { i(229129) },	-- Cache of Delver's Spoils
 				}),
 				q(83347, {	-- Emissary of War
 					["provider"] = { "n", 226919 },	-- Archivist Frithrun
