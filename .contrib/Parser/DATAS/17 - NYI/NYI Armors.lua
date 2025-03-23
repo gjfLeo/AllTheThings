@@ -3436,6 +3436,253 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			i(212455),	-- 11.0 Raid Template - Physical DPS - Trinket
 			i(226695),	-- Cunning Advisor's Favor
 			i(226696),	-- Mighty Advisor's Favor
+
+			header(HEADERS.LFGDungeon, 2645, {	-- Nerub-ar Palace
+				d(DIFFICULTY.RAID.LFR, bubbleDown({ ["bonusID"] = 6894, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(212430),	-- Shattered Eye Cincture
+						i(212434),	-- Voidspoken Sarong
+						i(225582),	-- Assimilated Eggshell Slippers
+						i(225584),	-- Skeinspinner's Duplicitous Cuffs
+						i(212439),	-- Beacons of the False Dawn
+						i(212441),	-- Bindings of the Starless Night
+						i(225585),	-- Acrid Ascendant's Sash
+						i(225720),	-- Web Acolyte's Hood
+						i(225721),	-- Prime Slime Slippers
+						i(212416),	-- Cosmic-Tinged Treads
+						i(212419),	-- Bile-Soaked Harness
+						i(212426),	-- Crunchy Intruder's Wristband
+						i(212440),	-- Devotee's Discarded Headdress
+					}),
+					filter(LEATHER, {
+						i(212417),	-- Beyond's Dark Visage
+						i(212445),	-- Chitin-Spiked Jackboots
+						i(225583),	-- Behemoth's Eroded Cinch
+						i(212432),	-- Thousand-Scar Impalers
+						i(212433),	-- Omnivore's Venomous Camouflage
+						i(225722),	-- Adorned Lynxborne Pauldrons
+						i(225723),	-- Venom Stalker's Strap
+						i(212423),	-- Rebel's Drained Marrowslacks
+						i(212444),	-- Frame of Felled Insurgents
+						i(225588),	-- Sanguine Experiment's Bandages
+						i(212425),	-- Devourer's Taut Innards
+						i(212438),	-- Polluted Spectre's Wraps
+						i(225591),	-- Fleeting Massacre Footpads
+					}),
+					filter(MAIL, {
+						i(212421),	-- Goresplattered Membrane
+						i(212429),	-- Whispering Voidlight Spaulders
+						i(225580),	-- Accelerated Ascension Coil
+						i(225586),	-- Rasha'nan's Grotesque Talons
+						i(212414),	-- Lost Watcher's Remains
+						i(212428),	-- Final Meal's Horns
+						i(212431),	-- Undermoth-Lined Footpads
+						i(225581),	-- Ky'veza's Covert Clasps
+						i(225724),	-- Shrillwing Hunter's Prey
+						i(212415),	-- Throne Defender's Bangles
+						i(212436),	-- Clutches of Paranoia
+						i(225725),	-- Lurking Marauder's Binding
+					}),
+					filter(PLATE, {
+						i(212418),	-- Black Blood Injectors
+						i(212437),	-- Ravaged Lamplighter's Manacles
+						i(212442),	-- Greatbelt of the Hungerer
+						i(225590),	-- Boots of the Black Bulwark
+						i(225744),	-- Heritage Militia's Stompers
+						i(212422),	-- Bloodbound Horror's Legplates
+						i(212427),	-- Visor of the Ascended Captain
+						i(212443),	-- Shattershell Greaves
+						i(225587),	-- Devoted Offering's Irons
+						i(212420),	-- Queensguard Carapace
+						i(212424),	-- Seasoned Earthen Boulderplates
+						i(225589),	-- Nether Bounty's Greatbelt
+						i(225727),	-- Captured Earthen's Ironhorns
+					}),
+				})),
+				d(DIFFICULTY.RAID.NORMAL, bubbleDown({ ["bonusID"] = 6895, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(212430),	-- Shattered Eye Cincture
+						i(212434),	-- Voidspoken Sarong
+						i(225582),	-- Assimilated Eggshell Slippers
+						i(225584),	-- Skeinspinner's Duplicitous Cuffs
+						i(212439),	-- Beacons of the False Dawn
+						i(212441),	-- Bindings of the Starless Night
+						i(225585),	-- Acrid Ascendant's Sash
+						i(225720),	-- Web Acolyte's Hood
+						i(225721),	-- Prime Slime Slippers
+						i(212416),	-- Cosmic-Tinged Treads
+						i(212419),	-- Bile-Soaked Harness
+						i(212426),	-- Crunchy Intruder's Wristband
+						i(212440),	-- Devotee's Discarded Headdress
+					}),
+					filter(LEATHER, {
+						i(212417),	-- Beyond's Dark Visage
+						i(212445),	-- Chitin-Spiked Jackboots
+						i(225583),	-- Behemoth's Eroded Cinch
+						i(212432),	-- Thousand-Scar Impalers
+						i(212433),	-- Omnivore's Venomous Camouflage
+						i(225722),	-- Adorned Lynxborne Pauldrons
+						i(225723),	-- Venom Stalker's Strap
+						i(212423),	-- Rebel's Drained Marrowslacks
+						i(212444),	-- Frame of Felled Insurgents
+						i(225588),	-- Sanguine Experiment's Bandages
+						i(212425),	-- Devourer's Taut Innards
+						i(212438),	-- Polluted Spectre's Wraps
+						i(225591),	-- Fleeting Massacre Footpads
+					}),
+					filter(MAIL, {
+						i(212421),	-- Goresplattered Membrane
+						i(212429),	-- Whispering Voidlight Spaulders
+						i(225580),	-- Accelerated Ascension Coil
+						i(225586),	-- Rasha'nan's Grotesque Talons
+						i(212414),	-- Lost Watcher's Remains
+						i(212428),	-- Final Meal's Horns
+						i(212431),	-- Undermoth-Lined Footpads
+						i(225581),	-- Ky'veza's Covert Clasps
+						i(225724),	-- Shrillwing Hunter's Prey
+						i(212415),	-- Throne Defender's Bangles
+						i(212436),	-- Clutches of Paranoia
+						i(225725),	-- Lurking Marauder's Binding
+					}),
+					filter(PLATE, {
+						i(212418),	-- Black Blood Injectors
+						i(212437),	-- Ravaged Lamplighter's Manacles
+						i(212442),	-- Greatbelt of the Hungerer
+						i(225590),	-- Boots of the Black Bulwark
+						i(225744),	-- Heritage Militia's Stompers
+						i(212422),	-- Bloodbound Horror's Legplates
+						i(212427),	-- Visor of the Ascended Captain
+						i(212443),	-- Shattershell Greaves
+						i(225587),	-- Devoted Offering's Irons
+						i(212420),	-- Queensguard Carapace
+						i(212424),	-- Seasoned Earthen Boulderplates
+						i(225589),	-- Nether Bounty's Greatbelt
+						i(225727),	-- Captured Earthen's Ironhorns
+					}),
+				})),
+				d(DIFFICULTY.RAID.HEROIC, bubbleDown({ ["bonusID"] = 6896, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(212430),	-- Shattered Eye Cincture
+						i(212434),	-- Voidspoken Sarong
+						i(225582),	-- Assimilated Eggshell Slippers
+						i(225584),	-- Skeinspinner's Duplicitous Cuffs
+						i(212439),	-- Beacons of the False Dawn
+						i(212441),	-- Bindings of the Starless Night
+						i(225585),	-- Acrid Ascendant's Sash
+						i(225720),	-- Web Acolyte's Hood
+						i(225721),	-- Prime Slime Slippers
+						i(212416),	-- Cosmic-Tinged Treads
+						i(212419),	-- Bile-Soaked Harness
+						i(212426),	-- Crunchy Intruder's Wristband
+						i(212440),	-- Devotee's Discarded Headdress
+					}),
+					filter(LEATHER, {
+						i(212417),	-- Beyond's Dark Visage
+						i(212445),	-- Chitin-Spiked Jackboots
+						i(225583),	-- Behemoth's Eroded Cinch
+						i(212432),	-- Thousand-Scar Impalers
+						i(212433),	-- Omnivore's Venomous Camouflage
+						i(225722),	-- Adorned Lynxborne Pauldrons
+						i(225723),	-- Venom Stalker's Strap
+						i(212423),	-- Rebel's Drained Marrowslacks
+						i(212444),	-- Frame of Felled Insurgents
+						i(225588),	-- Sanguine Experiment's Bandages
+						i(212425),	-- Devourer's Taut Innards
+						i(212438),	-- Polluted Spectre's Wraps
+						i(225591),	-- Fleeting Massacre Footpads
+					}),
+					filter(MAIL, {
+						i(212421),	-- Goresplattered Membrane
+						i(212429),	-- Whispering Voidlight Spaulders
+						i(225580),	-- Accelerated Ascension Coil
+						i(225586),	-- Rasha'nan's Grotesque Talons
+						i(212414),	-- Lost Watcher's Remains
+						i(212428),	-- Final Meal's Horns
+						i(212431),	-- Undermoth-Lined Footpads
+						i(225581),	-- Ky'veza's Covert Clasps
+						i(225724),	-- Shrillwing Hunter's Prey
+						i(212415),	-- Throne Defender's Bangles
+						i(212436),	-- Clutches of Paranoia
+						i(225725),	-- Lurking Marauder's Binding
+					}),
+					filter(PLATE, {
+						i(212418),	-- Black Blood Injectors
+						i(212437),	-- Ravaged Lamplighter's Manacles
+						i(212442),	-- Greatbelt of the Hungerer
+						i(225590),	-- Boots of the Black Bulwark
+						i(225744),	-- Heritage Militia's Stompers
+						i(212422),	-- Bloodbound Horror's Legplates
+						i(212427),	-- Visor of the Ascended Captain
+						i(212443),	-- Shattershell Greaves
+						i(225587),	-- Devoted Offering's Irons
+						i(212420),	-- Queensguard Carapace
+						i(212424),	-- Seasoned Earthen Boulderplates
+						i(225589),	-- Nether Bounty's Greatbelt
+						i(225727),	-- Captured Earthen's Ironhorns
+					}),
+				})),
+				d(DIFFICULTY.RAID.MYTHIC, bubbleDown({ ["bonusID"] = 6897, ["modID"] = 0, }, {
+					filter(CLOTH, {
+						i(212430),	-- Shattered Eye Cincture
+						i(212434),	-- Voidspoken Sarong
+						i(225582),	-- Assimilated Eggshell Slippers
+						i(225584),	-- Skeinspinner's Duplicitous Cuffs
+						i(212439),	-- Beacons of the False Dawn
+						i(212441),	-- Bindings of the Starless Night
+						i(225585),	-- Acrid Ascendant's Sash
+						i(225720),	-- Web Acolyte's Hood
+						i(225721),	-- Prime Slime Slippers
+						i(212416),	-- Cosmic-Tinged Treads
+						i(212419),	-- Bile-Soaked Harness
+						i(212426),	-- Crunchy Intruder's Wristband
+						i(212440),	-- Devotee's Discarded Headdress
+					}),
+					filter(LEATHER, {
+						i(212417),	-- Beyond's Dark Visage
+						i(212445),	-- Chitin-Spiked Jackboots
+						i(225583),	-- Behemoth's Eroded Cinch
+						i(212432),	-- Thousand-Scar Impalers
+						i(212433),	-- Omnivore's Venomous Camouflage
+						i(225722),	-- Adorned Lynxborne Pauldrons
+						i(225723),	-- Venom Stalker's Strap
+						i(212423),	-- Rebel's Drained Marrowslacks
+						i(212444),	-- Frame of Felled Insurgents
+						i(225588),	-- Sanguine Experiment's Bandages
+						i(212425),	-- Devourer's Taut Innards
+						i(212438),	-- Polluted Spectre's Wraps
+						i(225591),	-- Fleeting Massacre Footpads
+					}),
+					filter(MAIL, {
+						i(212421),	-- Goresplattered Membrane
+						i(212429),	-- Whispering Voidlight Spaulders
+						i(225580),	-- Accelerated Ascension Coil
+						i(225586),	-- Rasha'nan's Grotesque Talons
+						i(212414),	-- Lost Watcher's Remains
+						i(212428),	-- Final Meal's Horns
+						i(212431),	-- Undermoth-Lined Footpads
+						i(225581),	-- Ky'veza's Covert Clasps
+						i(225724),	-- Shrillwing Hunter's Prey
+						i(212415),	-- Throne Defender's Bangles
+						i(212436),	-- Clutches of Paranoia
+						i(225725),	-- Lurking Marauder's Binding
+					}),
+					filter(PLATE, {
+						i(212418),	-- Black Blood Injectors
+						i(212437),	-- Ravaged Lamplighter's Manacles
+						i(212442),	-- Greatbelt of the Hungerer
+						i(225590),	-- Boots of the Black Bulwark
+						i(225744),	-- Heritage Militia's Stompers
+						i(212422),	-- Bloodbound Horror's Legplates
+						i(212427),	-- Visor of the Ascended Captain
+						i(212443),	-- Shattershell Greaves
+						i(225587),	-- Devoted Offering's Irons
+						i(212420),	-- Queensguard Carapace
+						i(212424),	-- Seasoned Earthen Boulderplates
+						i(225589),	-- Nether Bounty's Greatbelt
+						i(225727),	-- Captured Earthen's Ironhorns
+					}),
+				})),
+			}),
 		})),
 
 		-- 11.0.5
