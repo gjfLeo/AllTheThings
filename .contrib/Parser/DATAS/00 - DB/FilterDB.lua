@@ -429,6 +429,7 @@ for filterID,filterData in pairs({
 			fr = "Illusions",
 			ru = "Иллюзии",
 			cn = "幻象",
+			tw = "武器附魔外觀",
 		},
 	},
 	[104] = {
