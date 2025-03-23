@@ -385,6 +385,11 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			}),
 		})),
 
+		-- 10.2.5
+		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_5 } }, {
+			i(213155),	-- Dark Ranger General's Quiver
+		})),
+
 		-- 10.2.6
 		expansion(EXPANSION.DF, patch(2,6), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_6 } }, {
 			i(217635),	-- Dream Raider's Azure Razor
