@@ -1004,9 +1004,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ 69.0, 60.1, REDRIDGE_MOUNTAINS },
 							},
 						}),
-						i(59261, {	-- Blackrock Holding Pen Key
-							["provider"] = { "o", 204437 },	-- Blackrock Key Pouch
+						o(204437, {	-- Blackrock Key Pouch
 							["coord"] = { 69.5, 76.5, REDRIDGE_MOUNTAINS },
+							["group"] = { i(59261) },	-- Blackrock Holding Pen Key
 						}),
 					},
 				}),

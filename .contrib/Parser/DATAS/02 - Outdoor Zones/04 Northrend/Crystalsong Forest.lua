@@ -64,8 +64,9 @@ root(ROOTS.Zones, {
 						["cr"] = 33499,	-- Skeletal Woodcutter
 					})),
 					applyclassicphase(WRATH_PHASE_TWO, i(45000, {	-- Winter Hyacinth
-						["provider"] = { "o", 194213 },	-- Winter Hyacinth
 						["coord"] = { 18.5, 15.7, CRYSTALSONG_FOREST },
+						["_allowObjectProvider"] = true,
+						["provider"] = { "o", 194213 },	-- Winter Hyacinth
 					})),
 				}),
 			},

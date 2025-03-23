@@ -3036,6 +3036,14 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
+				n(SPECIAL, {
+					applyclassicphase(WRATH_PHASE_TWO, o(194238, {	-- Blade of Drak'Mar
+						["coord"] = { 93, 26, DRAGONBLIGHT },
+						["cost"] = {{ "i", 45000, 4 }},	-- Winter Hyacinth
+						["cr"] = 33273,	-- Maiden of Drak'Mar
+						["group"] = { i(44978) },	-- Blade of Drak'Mar
+					})),
+				}),
 				n(VENDORS, {
 					n(26569, {	-- Alys Vol'tyr <Reagents & Enchanting Supplies>
 						["coord"] = { 36.2, 46.6, DRAGONBLIGHT },
@@ -3158,12 +3166,6 @@ root(ROOTS.Zones, {
 							27105,	-- Kreug Oathbreaker <Ymirjar Giant Lord>
 						},
 					}),
-					applyclassicphase(WRATH_PHASE_TWO, i(44978, {	-- Blade of Drak'Mar
-						["provider"] = { "o", 194238 },	-- Blade of Drak'Mar
-						["coord"] = { 93, 26, DRAGONBLIGHT },
-						["cost"] = {{ "i", 45000, 4 }},	-- Winter Hyacinth
-						["cr"] = 33273,	-- Maiden of Drak'Mar
-					})),
 					i(50406, {	-- Formula: Enchant Gloves - Angler (RECIPE!)
 						["crs"] = {
 							26343,	-- Indu'le Fisherman

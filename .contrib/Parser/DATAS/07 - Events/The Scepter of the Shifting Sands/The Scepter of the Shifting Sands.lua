@@ -407,11 +407,13 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 						},
 						{
 							["itemID"] = 21106,	-- Draconic for Dummies [Chapter IV]
+							["_allowObjectProvider"] = true,
 							["provider"] = { "o", 180666 },	-- Draconic for Dummies
 							["coord"] = { 77, 38, UNDERCITY },
 						},
 						{
 							["itemID"] = 21107,	-- Draconic for Dummies [Chapter V]
+							["_allowObjectProvider"] = true,
 							["provider"] = { "o", 180665 },	-- Draconic for Dummies
 							["coords"] = {
 								-- #if AFTER WRATH
@@ -427,6 +429,7 @@ root(ROOTS.WorldEvents, n(THE_SCEPTER_OF_THE_SHIFTING_SANDS,
 						},
 						{
 							["itemID"] = 21109,	-- Draconic for Dummies [Chapter VII]
+							["_allowObjectProvider"] = true,
 							["provider"] = { "o", 180667 },	-- Draconic for Dummies
 							["description"] = "Located in Blackwing Lair on one of the tables on the ramp after the first wyrmguard overseer pull.",
 							["coord"] = { 32, 42.9, BLACKWING_LAIR },
