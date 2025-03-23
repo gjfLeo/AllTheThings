@@ -533,6 +533,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							i(45298),	-- Razorscale Talon
 							i(45893),	-- Guise of the Midgard Serpent
 							i(45973),	-- Stylish Power Cape
+							i(45304),	-- Stormtempered Girdle
 						},
 					}),
 				},
