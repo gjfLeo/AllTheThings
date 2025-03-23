@@ -54,7 +54,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 				}, {
 					q(88945),	-- Radiant Incursion: Rak-Zakaz
 					q(88916),	-- Radiant Incursion: Sureki's End
-					q(88711),	-- Radiant Incursion: Toxins and Pheromones
+					q(88711, {	-- Radiant Incursion: Toxins and Pheromones
+						["g"] = {
+							o(529289, {	-- Spore Sample
+								i(240215),	-- Fungal Sample (QI!)
+							}),
+						},
+					}),
 					q(87475),	-- Sureki Incursion: Hold the Wall
 					q(87477),	-- Sureki Incursion: Southern Swarm
 					q(87480),	-- Sureki Incursion: The Eastern Assault
@@ -69,9 +75,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 				})),
 				n(RARES, {
 					n(241227),	-- Dissenter Glaivefur
-					n(241228),	-- Dissenter Oathland
-					n(241229),	-- Dissenter Fervormyt
-					n(241230),	-- Dissenter Tailtrek
+					n(241228, {	-- Dissenter Oathland
+						["coord"] = { 62.5, 27.2, AZJ_KAHET },
+					}),
+					n(241229, {	-- Dissenter Fervormyt
+						["coords"] = {
+							{ 50.2, 65.1, HALLOWFALL },
+							{ 49.9, 70.4, HALLOWFALL },
+						},
+					}),
+					n(241230, {	-- Dissenter Tailtrek
+						["coord"] = { 63.1, 11.2, AZJ_KAHET },
+					}),
 					n(241231),	-- Dissenter Fortfervor
 					n(241232),	-- Dissenter Troosilver
 					n(241234),	-- Whisperer Batalsworn
@@ -79,7 +94,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					n(241236),	-- Whisperer Bravefort
 					n(241237),	-- Whisperer Warsididel
 					n(241238),	-- Whisperer Siegesage
-					n(241239),	-- Whisperer Warhavuk
+					n(241239, {	-- Whisperer Warhavuk
+						["coord"] = { 65.7, 53.9, AZJ_KAHET },
+					}),
 				}),
 				n(REWARDS, {
 					-- Caches from progress bar
@@ -252,14 +269,29 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			n(NIGHTFALL, {
 				q(90105, {["isDaily"]=true}),	-- Bonus reputaion per day for 1st event when you filled progress bar
 				-- after opening Arathi Champion's Spoils (237760) per slot as was for Siren Islands?
+				-- seems like one per Arathi XX set and one per Nightfall XX set?
 				q(88686),	-- 2H weapon (agi/str weapon) / Arathi Crusader's Halberd (itemID 237792)
+				--q(??),	-- 2H weapon (agi/str weapon) / Nightfall Darkcaster's Halberd (itemID ??)
+				q(88685),	-- 1H weapon (caster/off spec) / Arathi Abbot's Kris (itemID 237803)
 				q(88895),	-- 1H weapon (caster/off spec) / Nightfall Darkcaster's Kris (itemID 237787)
 				q(88684),	-- OH weapon (caster/off spec) / Arathi Abbot's Implement (itemID 237801)
-				q(88691),	-- Feet / Arathi Zealot's Waders (itemID 237405)
-				q(88690),	-- Hands / Arathi Zealot's Grips (itemID 237406)
-				q(88681),	-- Trinket 1 / Shining Arathor Insignia (itemID 225947)
-				q(88688),	-- Wrists / Arathi Zealot's Bindings (itemID 237410)
+				q(88896),	-- OH weapon (caster/off spec) / Nightfall Darkcaster's Implement (itemID 237785) (it was looted from boss during nightfall event)
 				q(88687),	-- Cape / Arathi Abbot's Cloak (itemID 237394)
+				--q(??),	-- Cape / Nightfall Curseblade Cape (itemID 237444)
+				q(88691),	-- Feet / Arathi Zealot's Waders (itemID 237405)
+				--q(??),	-- Feet / Nightfall Curseblade's Waders (itemID 237446)
+				q(88690),	-- Hands / Arathi Zealot's Grips (itemID 237406)
+				q(88890),	-- Hands / Nightfall Curseblade's Grips (itemID 237447) (it was looted from Dissenter Fervormyt?)
+				q(88693),	-- Legs / Arathi Zealot's Breeches (itemID 237407)
+				--q(??),	-- Legs / Nightfall Curseblade's Breeches (itemID 237448)
+				q(88683),	-- Neck / Clergyman's Anointed Pendant (itemID 237432)
+				q(88682),	-- Ring / Divine Loop of the Crusader (itemID 237431)
+				q(88694),	-- Shoulder / Arathi Zealot's Shoulderpads (itemID 237408)
+				--q(??),	-- Shoulder / Nightfall Curseblade's Shoulderpads (itemID 237449)
+				q(88681),	-- Trinket 1 / Shining Arathor Insignia (itemID 225947)
+				q(88680),	-- Trinket 2 / Hallowed Tome of the Cleric (itemID 237494)
+				q(88688),	-- Wrists / Arathi Zealot's Bindings (itemID 237410)
+				--q(??),	-- Wrists / Nightfall Curseblade's Bindings (itemID 237451)
 				-- after turn in weekly?
 				q(88898),	-- after turn in Radiant Incursion: Rak-Zakaz (88945)
 				q(88893),	-- after turn in Radiant Incursion: Sureki's End (88916)
@@ -267,6 +299,18 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88894),	-- after turn in Sureki Incursion: Hold the Wall (87475)
 				q(88889),	-- after turn in Sureki Incursion: Southern Swarm (87477)
 				q(88885),	-- after turn in Sureki Incursion: The Eastern Assault (87480)
+				-- ^ could be NYI on live cause now it seems like counter for achievementID 41998 (Turning the Venom Tide)
+				-- there new one now or it somehow reset (but flag still return as complete for above?)
+				q(88900),	-- 
+				q(88886),	-- 
+				q(88892),	-- 
+				q(88897),	-- 
+				q(88899),	-- 
+				q(88887),	-- 
+				--q(),	-- 
+				--q(),	-- 
+				--q(),	-- 
+				--q(),	-- 
 			}),
 		}),
 	}),

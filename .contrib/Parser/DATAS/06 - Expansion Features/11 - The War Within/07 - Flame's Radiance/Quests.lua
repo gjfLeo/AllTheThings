@@ -20,6 +20,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 28.3, 56.1, HALLOWFALL },
 				}),
 			}, {	-- RENOWN 3 --
+				q(89390, {	-- Flame's Radiance Stipend
+					["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+					["coord"] = { 28.3, 56.1, HALLOWFALL },
+				}),
 			}, {	-- RENOWN 4 --
 			}, {	-- RENOWN 5 --
 			}, {	-- RENOWN 6 --

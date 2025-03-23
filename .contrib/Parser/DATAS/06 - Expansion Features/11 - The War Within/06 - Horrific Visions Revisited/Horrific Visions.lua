@@ -426,5 +426,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(87389),	-- pop after finishing scenario first time (during quest) // lowest reward hqt?
 		q(88905),	-- pop after finishing scenario first time (during quest) // lowest reward hqt?
 		--87389 & 88905 also pop on 2nd run (without quests in stormwind)
+
+		-- combine things for byke
+		--q(),	-- 
+		--q(),	-- 
+		--q(),	-- 
+		--q(),	-- 
+		--q(),	-- 
 	}),
 })));

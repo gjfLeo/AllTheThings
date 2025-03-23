@@ -85,7 +85,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timelin
 					["coord"] = { 52.8, 51.6, ISLE_OF_DORN },
 					["g"] = {
 						i(239440),	-- Dastardly Prize Purse
-						i(239019),	-- Mean-Ball Bed (TOY!)
+						i(239019),	-- Mean-Ball Bed (PET!)
 					},
 				}),
 				q(87552, {	-- Week 4: They've Heard of You

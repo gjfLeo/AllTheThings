@@ -230,8 +230,6 @@ root(ROOTS.Unsorted, {
 				i(235797),	-- Void-Scarred Egg
 				i(236409),	-- Frumpy Softpaw
 				i(238942),	-- Weechi \\ Chihuahua
-				i(239019),	-- Mean-Ball Bed \\ Spicy Mean-Ball
-				i(241188),	-- Swiftpaw
 				i(241193),	-- Threadis's Workshop Bot 2.0 \\ Threadis's Survey Bot 2.0
 			}),
 			filter(COSMETIC, {
@@ -436,13 +434,9 @@ root(ROOTS.Unsorted, {
 				i(239106),	-- Shadow Infused Onyx
 				i(239107),	-- Black Blood Infused Bar
 			}),
-			filter(QUEST_ITEMS, {
-				i(240215),	-- Fungal Sample
-			}),
 			filter(TOYS, {
 				i(232302),	-- Prized Banner of the Algari (TOY!)
 				i(232306),	-- Prized Champion's Prestigious Banner	(TOY!)
-				i(239018),	-- Winner's Podium
 			}),
 			n(WEEKLY_HOLIDAYS, {	-- Childrens Week
 				i(239689),	-- Khaz Algar Orphan Whistle

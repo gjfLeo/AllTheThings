@@ -858,7 +858,11 @@ MobileDB.GameObject = {
 	[507870] = true,	-- Weathered Journal Page @ 71, 59.2, 2369 (q:85571)
 	[508727] = true,	-- Partially-Drained Battery
 	[516163] = true,	-- Half-Empty Bag
+	[516296] = true,	-- Sureki Cage (Nightfall)
 	[517672] = true,	-- Emergency Exit (qs: 75874, 83121, 83123, 84121)
+	[522157] = true,	-- Bomb Pile (Nightfall)
+	[523535] = true,	-- Torch (Nightfall)
+	[529289] = true,	-- Spore Sample (q: 88711)
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}
