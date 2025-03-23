@@ -114,13 +114,9 @@ root(ROOTS.Unsorted, {
 				i(238981),	-- Gloves of the Uplifted Cup
 				i(238982),	-- Baron Silverlaine's Greaves
 				i(238983),	-- Boots of Lingering Sorrow
-				i(238984),	-- Baroness Silverlaine's Locket
 				i(238988),	-- Earth Mantle Handwraps
-				i(238990),	-- Necklace of the Chrono-Lord
 				i(238991),	-- Gloves of Distorted Time
-				i(238992),	-- Mobius Band
 				i(238993),	-- Cracked Epoch Grasps
-				i(239008),	-- Moonchild Leggings
 				i(239009),	-- Signet of Repose
 			}),
 			n(SPECIAL, {	-- Radiant
@@ -135,10 +131,6 @@ root(ROOTS.Unsorted, {
 				i(241033),	-- Arathi Templar's Claymore
 				i(241035),	-- Arathi Soldier's Morningstar
 				i(241036),	-- Arathi Anointer's Wand
-				i(241267),	-- Sacredite's Research Tunic
-				i(241268),	-- Sentry's Padded Doublet
-				i(241269),	-- Aeroknight's Undercoat
-				i(241278),	-- Stalwart's Waistcoat
 			}),
 			n(SPECIAL, {	-- Mysterious???
 				i(235052),	-- Weathered Mysterious Satchel

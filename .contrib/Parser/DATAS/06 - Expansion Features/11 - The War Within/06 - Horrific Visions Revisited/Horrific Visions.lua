@@ -83,13 +83,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				-- Masks (QI!/QS!)
 				i(232921),	-- Faceless Mask of the Long Night (QI!/QS!)
 				-- Objects in the end
+				--- Orgrimmar
 				o(499954, {	-- Corrupted Chest (Main/Thrall chest)
 					["coord"] = { 48.5, 58.7, 2403 },	-- Vision of Orgrimmar
 				}),
 				o(499960, {	-- Corrupted Chest (Vale of Spirit wing chest)
 					["coord"] = { 48.8, 58.6, 2403 },	-- Vision of Orgrimmar
 				}),
-				--
+				--o(XX, {	-- Corrupted Chest (Garona chest (The Drag?))
+				--	["coord"] = { x, y, 2403 },	-- Vision of Orgrimmar
+				--	["g"] = {
+				--		i(235795),	-- Void-Scarred Scorpid (PET!) (was with 3 masks)
+				--	},
+				--}),
+				--- Stormwind
 				o(499022, {	-- Corrupted Chest
 					["coord"] = { 41.6, 34.4, 2404 },	-- Vision of Stormwind
 				}),
@@ -387,21 +394,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 	n(HORRIFIC_VISIONS_REVISITED, {
+		-- Chest unlocks are shared between Orgrimmar and Stormwind, beside main one?
+		q(87430),	-- The Drag / Dwarven District
+		q(87431),	-- Valley of Spirits / Trade District
+		q(87427),	-- ?? / Mage Quarter
+		q(87429),	-- ?? / Old Town
 		-- Orgrimmar
 		q(87432),	-- after killing Thrall (main chest unlock hqt?), doesn't affected with additional wings clearing
-		q(85951),	-- Valley of Spirits (after Vale of Spirit wing was cleared)
-		q(87431),	-- Vale of Spirit chest unlock hqt?
+		q(85951),	-- Valley of Spirits
+		q(85953),	-- The Drag
+		q(85950),	-- Valley of Honor
+		q(85952),	-- Valley of Wisdom
 		-- Stormwind
 		q(87428),	-- after Alleria kill (main chest unlock hqt?)
 		q(85829),	-- Dwarven District
-		q(87430),	-- Dwarven District chest unlock hqt?
 		q(85830),	-- Trade District
-		--q(),	-- Trade District chest unlock hqt || q:87431 also fire for Trade District
 		q(85831),	-- Mage Quarter
-		q(87427),	-- Mage chest unlock hqt?
 		q(85832),	-- Old Town
-		q(87429),	-- Old Town chest unlock hqt?
-
 		-- need more data, but probably related to moto, idk?
 		q(90129),	-- after interact with npcID 242639 (Voidfire Deathcycle Frame) @ 62.5, 32.0, 2404 (spellID 1231063 - Tagged for Extraction)
 		--

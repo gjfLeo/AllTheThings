@@ -22,6 +22,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						}),
 					}, {	-- RENOWN 5 --
 					}, {	-- RENOWN 6 --
+						i(241188, {	-- Swiftpaw (PET!)
+							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
+						}),
 						i(239693, {	-- Radiant Lynx Whistle (TOY!)
 							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
 						}),

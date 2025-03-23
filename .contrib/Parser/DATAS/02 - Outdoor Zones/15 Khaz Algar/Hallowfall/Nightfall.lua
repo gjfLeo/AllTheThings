@@ -30,17 +30,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					q(89332, {	-- Boot Camp
 						["sourceQuests"] = { 85005 },	-- A Radiant Call (TODO: unsure)
 						["provider"] = { "n", 234774 },	-- Mylton Wyldbraun
-						["coord"] = { 28.2, 56.1, HALLOWFALL },
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
 					}),
 					q(89331, {	-- Flame Fortification
 						["sourceQuests"] = { 85005 },	-- A Radiant Call (TODO: unsure)
 						["provider"] = { "n", 234774 },	-- Mylton Wyldbraun
-						["coord"] = { 28.2, 56.1, HALLOWFALL },
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
 					}),
 				}),
 				n(QUESTS, sharedData({
 						["provider"] = { "n", 234774 },	-- Mylton Wyldbraun
-						["coord"] = { 44.2, 61.4, HALLOWFALL },
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
 						["isWeekly"] = true,
 						["g"] = {
 							i(239546, {	-- Confiscated Cultist's Bag
@@ -94,6 +94,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					--n(234440),	-- Azj-Tak the Behemoth
 				}),
 				n(VENDORS, {
+					n(243253, {	-- Layne Pontelle
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
+						["g"] = sharedData({ ["cost"] = {{"c", RESONANCE_CRYSTALS, 500}} }, {
+							i(241278),	-- Stalwart's Waistcoat
+							i(241269),	-- Aeroknight's Undercoat
+							i(241268),	-- Sentry's Padded Doublet
+							i(241267),	-- Sacredite's Research Tunic
+						}),
+					}),
 					n(240979, {	-- Vesper Churnmoat
 						["coord"] = { 28.2, 56.0, HALLOWFALL },
 						["g"] = sharedData({ ["cost"] = {{"i", RADIANT_EMBLEM, 1}} }, {
@@ -250,6 +259,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88690),	-- Hands / Arathi Zealot's Grips (itemID 237406)
 				q(88681),	-- Trinket 1 / Shining Arathor Insignia (itemID 225947)
 				q(88688),	-- Wrists / Arathi Zealot's Bindings (itemID 237410)
+				q(88687),	-- Cape / Arathi Abbot's Cloak (itemID 237394)
 				-- after turn in weekly?
 				q(88898),	-- after turn in Radiant Incursion: Rak-Zakaz (88945)
 				q(88893),	-- after turn in Radiant Incursion: Sureki's End (88916)
