@@ -3312,7 +3312,6 @@ root(ROOTS.Zones, {
 						},
 					}),
 					i(34597, {	-- Winterfin Clam
-						["provider"] = { "o", 187367 },	-- Winterfin Clam
 						["coords"] = {
 							{ 38.1, 15.3, BOREAN_TUNDRA },
 							{ 42.5, 14.2, BOREAN_TUNDRA },
@@ -3325,6 +3324,8 @@ root(ROOTS.Zones, {
 							25215,	-- Winterfin Shorestriker
 							25217,	-- Winterfin Warrior
 						},
+						["_allowObjectProvider"] = true,
+						["provider"] = { "o", 187367 },	-- Winterfin Clam
 					}),
 				}),
 			},

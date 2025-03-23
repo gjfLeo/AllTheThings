@@ -672,13 +672,30 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			["maps"] = { DEADWIND_PASS },
 			["timeline"] = { ADDED_2_3_0 },
 		})),
-		i(27513),	-- Curious Crate
+		i(27513, {	-- Curious Crate
+			["providers"] = {
+				{ "o", 182959 },	-- Bluefish School
+				{ "o", 182954 },	-- Brackish Mixed School
+				{ "o", 182957 },	-- Highland Mixed School
+				{ "o", 182958 },	-- Mudfish School
+				{ "o", 182951 },	-- Pure Water (fishing school)
+				{ "o", 182956 },	-- School of Darter
+				{ "o", 182953 },	-- Sporefish School
+				{ "o", 182952 },	-- Steam Pump Floatsam
+			},
+			["maps"] = {
+				NAGRAND,
+				TEROKKAR_FOREST,
+				ZANGARMARSH,
+			},
+		}),
 		i(27516, {	-- Enormous Barbed Gill Trout
 			["providers"] = {
 				{ "o", 182959 },	-- Bluefish School
 				{ "o", 182954 },	-- Brackish Mixed School
 				{ "o", 182957 },	-- Highland Mixed School
 				{ "o", 182958 },	-- Mudfish School
+				{ "o", 182951 },	-- Pure Water (fishing school)
 				{ "o", 182956 },	-- School of Darter
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
@@ -694,12 +711,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			["maps"] = { NAGRAND },
 		}),
 		i(27439, {	-- Furious Crawdad
-			["provider"] = { "o", 182957 },	-- Highland Mixed School
 			["coords"] = {
 				{ 59.6, 59.85, TEROKKAR_FOREST },	-- Lake Ere'Noru
 				{ 46.6, 40.7, TEROKKAR_FOREST },	-- Lake Jorune
 				{ 66.0, 78.3, TEROKKAR_FOREST },	-- Skettis
 			},
+			["_allowObjectProvider"] = true,
+			["provider"] = { "o", 182957 },	-- Highland Mixed School
 		}),
 		applyclassicphase(TBC_PHASE_FIVE, i(35285, {	-- Giant Sunfish
 			["maps"] = { ISLE_OF_QUELDANAS },
@@ -713,6 +731,23 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			},
 			["maps"] = TEROKKAR_FOREST,
 		}),
+		i(27442, {	-- Goldenscale Vendorfish
+			["providers"] = {
+				{ "o", 182959 },	-- Bluefish School
+				{ "o", 182954 },	-- Brackish Mixed School
+				{ "o", 182957 },	-- Highland Mixed School
+				{ "o", 182958 },	-- Mudfish School
+				{ "o", 182951 },	-- Pure Water (fishing school)
+				{ "o", 182956 },	-- School of Darter
+				{ "o", 182953 },	-- Sporefish School
+				{ "o", 182952 },	-- Steam Pump Floatsam
+			},
+			["maps"] = {
+				NAGRAND,
+				TEROKKAR_FOREST,
+				ZANGARMARSH,
+			},
+		}),
 		i(27481, {	-- Heavy Supply Crate
 			["provider"] = { "o", 182952 },	-- Steam Pump Flotsam
 		}),
@@ -722,6 +757,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182954 },	-- Brackish Mixed School
 				{ "o", 182957 },	-- Highland Mixed School
 				{ "o", 182958 },	-- Mudfish School
+				{ "o", 182951 },	-- Pure Water (fishing school)
 				{ "o", 182956 },	-- School of Darter
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
@@ -742,6 +778,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				{ "o", 182954 },	-- Brackish Mixed School
 				{ "o", 182957 },	-- Highland Mixed School
 				{ "o", 182958 },	-- Mudfish School
+				{ "o", 182951 },	-- Pure Water (fishing school)
 				{ "o", 182956 },	-- School of Darter
 				{ "o", 182953 },	-- Sporefish School
 				{ "o", 182952 },	-- Steam Pump Floatsam
@@ -760,13 +797,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 			["timeline"] = { ADDED_2_4_0 },
 		}),
 		i(27388, {	-- Mr. Pinchy
-			["provider"] = { "o", 182957 },	-- Highland Mixed School
 			["coords"] = {
 				{ 59.6, 59.85, TEROKKAR_FOREST },	-- Lake Ere'Noru
 				{ 46.6, 40.7, TEROKKAR_FOREST },	-- Lake Jorune
 				{ 66.0, 78.3, TEROKKAR_FOREST },	-- Skettis
 			},
 			["description"] = "Fished up from Highland Mixed Schools. You have 3 wishes per Mr. Pinchy, each wish granting one of the following effects:\n\n1) Mr. Pinchy's Blessing (Flask)\n2) Summon Furious Mr. Pinchy (Enemy)\n3) Magical Crawdad Box (Rare Pet)\n4) Mr. Pinchy's Gift (Potions)\n5) Benevolent Mr. Pinchy (Guardian)",
+			["_allowObjectProvider"] = true,
+			["provider"] = { "o", 182957 },	-- Highland Mixed School
 			["groups"] = {
 				i(27445),	-- Magical Crawdad (PET!)
 				i(27446, {	-- Mr. Pinchy's Gift
@@ -961,6 +999,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 				["description"] = "Although it can be found all over Shadowmoon Valley, the more efficient farm is the listed coordinates.",
 				["maps"] = SHADOWMOON_VALLEY,
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 181280 },	-- Nightmare Vine
 			}),
 			i(108350, {	-- Nightmare Vine Stem
@@ -990,6 +1029,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE,
 				},
 				["description"] = "Found near the base of trees.",
 				["maps"] = TEROKKAR_FOREST,
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 181277 },	-- Terocone
 			}),
 			i(108347, {	-- Terocone Leaf

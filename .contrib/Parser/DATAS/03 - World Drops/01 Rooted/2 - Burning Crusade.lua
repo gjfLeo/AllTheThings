@@ -1300,7 +1300,6 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 		i(22456),	-- Primal Shadow
 	})),
 	filter(REAGENTS, sharedData({	-- Water
-		["provider"] = { "o", 182951 },	-- Pure Water (fishing school)
 		["coords"] = {
 			{ 62.1, 16.1, NAGRAND },	-- Elemental Plateu, watery
 			{ 40.5, 44.9, NAGRAND },	-- Halaa Basin
@@ -1327,6 +1326,8 @@ root(ROOTS.WorldDrops, applyclassicphase(TBC_PHASE_ONE, expansion(EXPANSION.TBC,
 			-- #endif
 		},
 		["description"] = "The given maps, coordinates and sources applies for how to obtain this element's motes.",
+		["_allowObjectProvider"] = true,
+		["provider"] = { "o", 182951 },	-- Pure Water (fishing school)
 	}, {
 		i(22578),	-- Mote of Water
 		i(21885),	-- Primal Water

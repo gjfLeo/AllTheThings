@@ -98,7 +98,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			i(58489),	-- Potion of Illusion
 			i(58145),	-- Potion of the Tol'vir
 			i(58488, {	-- Potion of Treasure Finding
-				i(67539),	-- Tiny Treasure Chest
+				-- #if AFTER 6.0.3
+				["description"] = "Treasures from Cataclysm dungeons have been nerfed. Still viable farming mobs in raids and the open world.",
+				-- #endif
+				["group"] = { i(67539) },	-- Tiny Treasure Chest
 			}),
 			i(58143),	-- Prismatic Elixir
 			i(58091),	-- Volcanic Potion
@@ -512,10 +515,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				{ 27.2, 34.8, DEEPHOLM },	-- Needlerock Chasm
 			},
 			["description"] = "Schools can also spawn in the cavern beneath Upper Silvermarsh, with entrance from Lower Silvermarsh.",
+			["_allowObjectProvider"] = true,
 			["provider"] = { "o", 202778 },	-- Albino Cavefish School
 		}),
 		i(53071, {	-- Algaefin Rockfish
-			-- Danny Donkey: Wowhead comments indicates that these possibly had dedicates schools before 4.3.0.
+			-- Danny Donkey: Wowhead comments indicates that these possibly had dedicated schools before 4.3.0.
 			["description"] = "Can be caught on the seaside, though might be more uncommon than other saltwater fish.",
 			["maps"] = {
 				TOL_BARAD_PENINSULA,
@@ -589,6 +593,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				{ 52.6, 17.3, MOUNT_HYJAL },	-- Hyjal Barrow Dens (entrance)
 				{ 60.8, 25.9, MOUNT_HYJAL },	-- Nordrassil
 			},
+			["_allowObjectProvider"] = true,
 			["provider"] = { "o", 202776 },	-- Mountain Trout School
 		}),
 		i(53069, {	-- Murglesnout
@@ -809,6 +814,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 					MOUNT_HYJAL,
 					VASHJIR_KELPTHAR_FOREST,
 				},
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 202748 },	-- Stormvine
 			}),
 			i(108361, {	-- Stormvine Stalk
@@ -838,6 +844,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 					{ 56.6, 48.9, ULDUM },	-- Vir'naal River
 					{ 62.0, 77.9, ULDUM },	-- Vir'naal River Delta
 				},
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 202752 },	-- Whiptail
 			}),
 			i(108365, {	-- Whiptail Stem

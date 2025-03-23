@@ -661,6 +661,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
 			},
 			["description"] = "The schools have shared spawn with Moonglow Cuttlefish Schools. Borean Tundra have most schools.",
+			["_allowObjectProvider"] = true,
 			["provider"] = { "o", 192053 },	-- Deep Sea Monsterbelly School
 		}),
 		i(41807, {	-- Dragonfin Angelfish
@@ -672,6 +673,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ 92.8, 58.2, DRAGONBLIGHT },	-- Dragonspine Tributary by Southern Carrion Fields
 				{ 92.0, 69.0, DRAGONBLIGHT },	-- Dragonspine Tributary by Eldritch Heights
 			},
+			["_allowObjectProvider"] = true,
 			["provider"] = { "o", 192048 },	-- Dragonfin Angelfish School
 		}),
 		i(44703, {	-- Dark Herring
@@ -736,10 +738,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 				{ 82.9, 90.3, HOWLING_FJORD },	-- Outside Baelgun's Excavation Site
 			},
 			["description"] = "The schools have shared spawn with Deep Sea Monsterbelly Schools. Borean Tundra have most schools.",
+			["_allowObjectProvider"] = true,
 			["provider"] = { "o", 192054 },	-- Moonglow Cuttlefish School
 		}),
 		i(41806, {	-- Musselback Sculpin
 			["coord"] = { 51.6, 45.0, BOREAN_TUNDRA },	-- Lake Kum'uya
+			["_allowObjectProvider"] = true,
 			["provider"] = { "o", 192046 },	-- Musselback Sculpin School
 		}),
 		i(41813, {	-- Nettlefish
@@ -913,6 +917,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			}),
 			i(39970, {	-- Fire Leaf
 				["coord"] = { 70.6, 33.7, BOREAN_TUNDRA },	-- The Southern Geyser Fields
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 191303 },	-- Firethorn
 			}),
 			i(108359, {	-- Fire Leaf Bramble
@@ -946,6 +951,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					HOWLING_FJORD,
 					SHOLAZAR_BASIN,
 				},
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 189973 },	-- Goldclover
 			}),
 			i(108352, {	-- Goldclover Leaf
@@ -986,6 +992,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			i(36907, {	-- Talandra's Rose
 				["coord"] = { 33.2, 66.7, ZULDRAK },	-- Lower Zul'Drak
 				["description"] = "Found around the lower tiers of Zul'Drak.",
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 190170 },	-- Talandra's Rose
 			}),
 			i(108357, {	-- Talandra's Rose Petal
@@ -1003,6 +1010,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 					HOWLING_FJORD,
 					SHOLAZAR_BASIN,
 				},
+				["_allowObjectProvider"] = true,
 				["provider"] = { "o", 190169 },	-- Tiger Lily
 			}),
 			i(108354, {	-- Tiger Lily Petal
