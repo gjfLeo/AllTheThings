@@ -15,5 +15,6 @@ MOUNT_MODS = createHeader({
 		--ru = "",
 		--ko = "",
 		cn = "坐骑定制",
+		tw = "坐騎修飾",
 	},
 });
