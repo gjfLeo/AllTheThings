@@ -14,6 +14,7 @@ BATTLEFIELD_BARRENS = createHeader({
 		ru = "Поле битвы: Степи",
 		ko = "전쟁터: 불모의 땅",
 		cn = "战场：贫瘠之地",
+		tw = "戰爭前線 - 貧瘠之地",
 	},
 });
 local RADICAL_MOJO = 97849;
