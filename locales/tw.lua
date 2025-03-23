@@ -456,7 +456,7 @@ for key,value in pairs({
 	["『帷幕市集』塔札維許"] = "塔札維許",		-- ["Tazavesh, the Veiled Market"] = "Tazavesh"
 	-- DF
 	["『朧影實驗場』亞貝魯斯"] = "亞貝魯斯",	-- ["Aberrus, the Shadowed Crucible"] = "Aberrus"
-	["『蔓境希望』埃達希爾"] = "埃達希爾",		-- ["Amirdrassil, the Dream's Hope"] = "Amirdrassil"
+	["『夢境希望』埃達希爾"] = "埃達希爾",		-- ["Amirdrassil, the Dream's Hope"] = "Amirdrassil"
 	-- TWW
 	["『回音之城』厄拉卡拉"] = "厄拉卡拉",		-- ["Ara-Kara, City of Echoes"] = "Ara-Kara"
 })
