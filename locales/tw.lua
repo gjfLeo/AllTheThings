@@ -446,8 +446,13 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 
 local a = L.ABBREVIATIONS;
 for key,value in pairs({
+	-- Events
+	["資料片前夕"] = "前夕",
+	-- Legion
 	["安托洛斯，燃燒王座"] = "安托洛斯",		-- ["Antorus, the Burning Throne"] = "Antorus"
+	-- BfA
 	["奈奧羅薩，甦醒之城"] = "奈奧羅薩",		-- ["Ny'alotha, the Waking City"] = "Ny'alotha"
+	-- SL
 	["『帷幕市集』塔札維許"] = "塔札維許",		-- ["Tazavesh, the Veiled Market"] = "Tazavesh"
 })
 do a[key] = value; end
