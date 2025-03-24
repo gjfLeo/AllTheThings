@@ -23,7 +23,7 @@ MECHAGON_WORKSHOP = createHeader({
 		en = WOWAPI_GetSpellName(251998),
 	},
 });
-root(ROOTS.Instances, expansion(EXPANSION.BFA, {
+root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 	inst(1178, {	-- Operation: Mechagon
 		["coord"] = { 73.1, 36.3, MECHAGON },
 		["maps"] = {
@@ -458,4 +458,4 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 			}),
 		},
 	}),
-}));
+})));

@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.BFA, {
+root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	inst(1012, {	-- The MOTHERLODE!!
 		["coords"] = {
 			{ 39.2, 71.5, ZULDAZAR },	-- Alliance
@@ -132,7 +132,10 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.HEROIC, {
-				["g"] = {
+				-- TWW Season 2 removed all heroic sources
+				["g"] = bubbleDownFiltered({
+					["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_11_1_0_SEASONSTART, ADDED_11_2_0_SEASONSTART },
+				},FILTERFUNC_itemID,{
 					e(2109, {	-- Coin-Operated Crowd Pummeler
 						["crs"] = { 129214 },	-- Coin-Operated Crowd Pummeler
 						["g"] = {
@@ -142,7 +145,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(159357),	-- Linked Pummeler Grips
 							i(155864),	-- Power-Assisted Vicegrips
 							i(158350),	-- Rowdy Reveler's Legwraps
-							i(159462),	-- Footbomb Championship Ring
+							i(159462, {["timeline"] = { ADDED_8_0_1_LAUNCH }}),	-- Footbomb Championship Ring
 						},
 					}),
 					e(2114, {	-- Azerokk
@@ -158,7 +161,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(159679),	-- Sabatons of Rampaging Elements
 							i(159612),	-- Azerokk's Resonating Heart
 							i(168133),	-- Unrefined Azerite Geode
-							i(168136),	-- Azerokk's Fist
+							i(168136, {["timeline"] = { ADDED_8_0_1_LAUNCH }}),	-- Azerokk's Fist
 						},
 					}),
 					e(2115, {	-- Rixxa Fluxflame
@@ -188,10 +191,10 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(158349),	-- Petticoat of the Self-Stylized Azerite Baron
 							i(158307),	-- Shrapnel-Dampening Chestguard
 							i(159298),	-- Venture Co. Plenipotentiary Vest
-							i(159611),	-- Razdunk's Big Red Button
+							i(159611, {["timeline"] = { ADDED_8_0_1_LAUNCH }}),	-- Razdunk's Big Red Button
 						},
 					}),
-				},
+				}),
 			}),
 			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
 				e(2116, {	-- Mogul Razdunk
@@ -245,7 +248,10 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 					})),
 					e(2109, {	-- Coin-Operated Crowd Pummeler
 						["crs"] = { 129214 },	-- Coin-Operated Crowd Pummeler
-						["g"] = {
+						-- TWW Season 2 removed all mythic sources
+						["g"] = bubbleDownFiltered({
+							["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_11_1_0_SEASONSTART, ADDED_11_2_0_SEASONSTART },
+						},FILTERFUNC_itemID,{
 							ach(12855),	-- Pitch Invasion
 							i(159638),	-- Electro-Arm Bludgeoner
 							i(159663),	-- G0-4W4Y Crowd Repeller
@@ -253,12 +259,15 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(159357),	-- Linked Pummeler Grips
 							i(155864),	-- Power-Assisted Vicegrips
 							i(158350),	-- Rowdy Reveler's Legwraps
-							i(159462),	-- Footbomb Championship Ring
-						},
+							i(159462, {["timeline"] = { ADDED_8_0_1_LAUNCH }}),	-- Footbomb Championship Ring
+						}),
 					}),
 					e(2114, {	-- Azerokk
 						["crs"] = { 129227 },	-- Azerokk
-						["g"] = {
+						-- TWW Season 2 removed all mythic sources
+						["g"] = bubbleDownFiltered({
+							["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_11_1_0_SEASONSTART, ADDED_11_2_0_SEASONSTART },
+						},FILTERFUNC_itemID,{
 							i(158357),	-- Bindings of Enraged Earth
 							i(158359),	-- Stonefury Vambraces
 							i(159231),	-- Mine Rat's Handwarmers
@@ -269,12 +278,15 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(159679),	-- Sabatons of Rampaging Elements
 							i(159612),	-- Azerokk's Resonating Heart
 							i(168133),	-- Unrefined Azerite Geode
-							i(168136),	-- Azerokk's Fist
-						},
+							i(168136, {["timeline"] = { ADDED_8_0_1_LAUNCH }}),	-- Azerokk's Fist
+						}),
 					}),
 					e(2115, {	-- Rixxa Fluxflame
 						["crs"] = { 129231 },	-- Rixxa Fluxflame
-						["g"] = {
+						-- TWW Season 2 removed all mythic sources
+						["g"] = bubbleDownFiltered({
+							["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_11_1_0_SEASONSTART, ADDED_11_2_0_SEASONSTART },
+						},FILTERFUNC_itemID,{
 							i(159639),	-- P.A.C.I.F.I.S.T.  Mk7
 							i(159287),	-- Cloak of Questionable Intent
 							i(159240),	-- Rixxa's Sweat-Wicking Cuffs
@@ -282,18 +294,21 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(158341),	-- Chemical Blaster's Legguards
 							i(159451),	-- Leadplate Leegguards
 							i(159235),	-- Deranged Alchemist's Slippers
-						},
+						}),
 					}),
 					e(2116, {	-- Mogul Razdunk
 						["crs"] = {
 							129232,	-- Mogul Razdunk
 							132713,	-- Mogul Razdunk
 						},
-						["g"] = {
+						-- TWW Season 2 removed all mythic sources
+						["g"] = bubbleDownFiltered({
+							["timeline"] = { ADDED_8_0_1_LAUNCH, REMOVED_11_1_0_SEASONSTART, ADDED_11_2_0_SEASONSTART },
+						},FILTERFUNC_itemID,{
 							ach(12846),	-- Mythic: The MOTHERELODE!!
 							ach(13006),	-- Mythic: The MOTHERLODE!! Guild Run
 							ach(12854),	-- Ready for Raiding VI
-							i(161135),	-- Schematic: Mecha-Mogul Mk2 (RECIPE!)
+							i(161135, {["timeline"] = { ADDED_8_0_1_LAUNCH }}),	-- Schematic: Mecha-Mogul Mk2 (RECIPE!)
 							i(159641),	-- G3T-00t
 							i(158364),	-- High Altitude Turban
 							i(159360),	-- Crashguard Spaulders
@@ -302,11 +317,11 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 							i(158349),	-- Petticoat of the Self-Stylized Azerite Baron
 							i(158307),	-- Shrapnel-Dampening Chestguard
 							i(159298),	-- Venture Co. Plenipotentiary Vest
-							i(159611),	-- Razdunk's Big Red Button
-						},
+							i(159611, {["timeline"] = { ADDED_8_0_1_LAUNCH }}),	-- Razdunk's Big Red Button
+						}),
 					}),
 				},
 			}),
 		},
 	}),
-}));
+})));

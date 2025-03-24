@@ -1,8 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-
-root(ROOTS.Instances, expansion(EXPANSION.BFA, {
+root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 	inst(1030, {	-- Temple of Sethraliss
 		["coord"] = { 51.9, 25.4, VOLDUN },
 		["maps"] = {
@@ -241,4 +240,4 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 			}),
 		},
 	}),
-}));
+})));

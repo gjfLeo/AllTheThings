@@ -874,9 +874,6 @@ root(ROOTS.NeverImplemented, {
 			i(212410),	-- 11.0 Raid Template - Mace2H - Int - 2 Hand
 			i(212411),	-- 11.0 Raid Template - Sword2H - Int - 2 Hand
 			i(212457),	-- 11.0 Raid Template - INT - Trinket
-			i(225726),	-- 11.0 Raid Template - Plate - Waist
-			i(225736),	-- 11.0 Raid Template - Plate - Head
-			i(225737),	-- 11.0 Raid Template - Plate - Feet
 			i(211652),	-- 11.0 Dungeon Template - Shield - Shield
 			i(211653),	-- 11.0 Dungeon Template - Generic - Holdable
 			i(211654),	-- 11.0 Dungeon Template - Mace2H - Str - 2 Hand
