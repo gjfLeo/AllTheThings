@@ -718,9 +718,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		},{
 			-- LFR
 			q(88835),	-- Guk Boomdog Trash
-			q(88842),	-- King Flamespite/Professor Boomspark Trash
 			q(88838),	-- King Flamespite/Professor Boomspark Trash
+			q(88842),	-- King Flamespite/Professor Boomspark Trash
 			q(88846),	-- Skiggy Muckheimer Trash
+			--q(),	-- Trashmaster Blazedump Trash
+			--q(),	-- Scraps Trash
 			q(88859),	-- Globikus Trash
 			q(88850),	-- Melbo The Magnificent Trash
 			--q(),	-- The Junkmaker Trash
@@ -729,6 +731,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(88840),	-- King Flamespite/Professor Boomspark Trash
 			q(88844),	-- King Flamespite/Professor Boomspark Trash
 			q(88848),	-- Skiggy Muckheimer Trash
+			q(88869),	-- Trashmaster Blazedump Trash
+			q(88830),	-- Scraps Trash
 			q(88861),	-- Globikus Trash
 			q(88852),	-- Melbo The Magnificent Trash
 			q(88856),	-- The Junkmaker Trash
@@ -737,13 +741,26 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(88837),	-- King Flamespite/Professor Boomspark Trash
 			q(88841),	-- King Flamespite/Professor Boomspark Trash
 			q(88845),	-- Skiggy Muckheimer Trash
+			q(88866),	-- Trashmaster Blazedump Trash
+			q(88831),	-- Scraps Trash
 			q(88858),	-- Globikus Trash
 			q(88849),	-- Melbo The Magnificent Trash
 			q(88853),	-- The Junkmaker Trash
-
-			-- LFR/Normal/Heroic
+			-- Mythic
+			q(88834),	-- Guk Boomdog Trash
+			q(88839),	-- King Flamespite/Professor Boomspark Trash
+			q(88843),	-- King Flamespite/Professor Boomspark Trash
+			q(88847),	-- Skiggy Muckheimer Trash
+			--q(),	-- Trashmaster Blazedump Trash
+			--q(),	-- Scraps Trash
+			--q(),	-- Globikus Trash
+			--q(),	-- Melbo The Magnificent Trash
+			--q(),	-- The Junkmaker Trash
+			-- All
 			q(89478),	-- Guk Boomdog Trash first per week any difficulty
 			q(89479),	-- Skiggy Muckheimer Trash first per week any difficulty
+			q(89484),	-- Trashmaster Blazedump Trash first per week any difficulty
+			q(89477),	-- Scraps Trash first per week any difficulty
 			q(89482),	-- Globikus Trash first per week any difficulty
 			q(89480),	-- Melbo The Magnificent Trash first per week any difficulty
 			q(89481),	-- The Junkmaker Trash first per week any difficulty
