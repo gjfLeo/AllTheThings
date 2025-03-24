@@ -326,8 +326,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHA
 					["minReputation"] = { FACTION_NETHERWING, FRIENDLY },	-- Netherwing, Friendly.
 					["groups"] = {
 						objective(1, {	-- 0/10 Knothide Leather
-							["providers"] = {
-								{ "i", 21887 },	-- Knothide Leather
+							["cost"] = {
+								{ "i", 21887, 10 },	-- Knothide Leather
 							},
 						}),
 						objective(2, {	-- 0/1 Hardened Hide of Tyrantus
