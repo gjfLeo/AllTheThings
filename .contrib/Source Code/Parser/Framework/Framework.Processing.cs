@@ -647,7 +647,11 @@ namespace ATT
         {
             // Retail has no reason to include Objective groups since the in-game Quest system does not warrant ATT including all this extra information
             // Crieve wants objectives and doesn't agree with this, but will allow it outside of Classic Builds.
-            if (data.ContainsKey("objectiveID") && !Program.PreProcessorTags.ContainsKey("OBJECTIVES")) return false;
+            if (data.ContainsKey("objectiveID") && !Program.PreProcessorTags.ContainsKey("OBJECTIVES"))
+            {
+                ConvertObjectiveData(data, parentData);
+                return false;
+            }
 
             //data.DataBreakPoint("itemID", 15066);
 
@@ -3668,6 +3672,52 @@ namespace ATT
             }
 
             return true;
+        }
+
+        private static void ConvertObjectiveData(IDictionary<string, object> data, IDictionary<string, object> parentData)
+        {
+            // Grab any coords for this objective if existing
+            data.TryGetValue("coords", out List<object> coords);
+
+            // Convert various 'providers' data into sub-groups on the parent data
+            if (data.TryGetValue("providers", out List<object> providers))
+            {
+                foreach (List<object> provider in providers.AsTypedEnumerable<List<object>>())
+                {
+                    if (!provider[1].TryConvert(out long pID))
+                        continue;
+
+                    Dictionary<string, object> providerData;
+                    string pType = provider[0] as string;
+                    switch (pType)
+                    {
+                        // Items can simply be Sourced under the parent
+                        case "i":
+                            providerData = new Dictionary<string, object> { { "itemID", pID } };
+                            Objects.Merge(parentData, "g", providerData);
+                            break;
+                        // Objects can be Sourced under the parent with attached coords if any
+                        case "o":
+                            providerData = new Dictionary<string, object> { { "objectID", pID } };
+                            if (coords != null)
+                            {
+                                providerData["coords"] = coords;
+                            }
+                            Objects.Merge(parentData, "g", providerData);
+                            break;
+                        // NPCs can be Sourced under the parent with attached coords if any
+                        case "n":
+                            providerData = new Dictionary<string, object> { { "npcID", pID } };
+                            if (coords != null)
+                            {
+                                providerData["coords"] = coords;
+                            }
+                            Objects.Merge(parentData, "g", providerData);
+                            break;
+
+                    }
+                }
+            }
         }
 
         private static bool IsObtainableData(IDictionary<string, object> data)
