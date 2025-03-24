@@ -151,7 +151,9 @@ i(32291, 39720);	-- Design: Smooth Lionseye (Guessed via Filter Recipe with Spel
 i(32292, 39721);	-- Design: Rigid Empyrean Sapphire (Guessed via Filter Recipe with SpellID)
 i(32293, 39720);	-- Design: Smooth Lionseye (Guessed via Filter Recipe with SpellID)
 i(32295, 39724);	-- Design: Mystic Lionseye (Guessed via Filter Recipe with SpellID)
+-- #IF BEFORE MOP
 i(32296, 39721);	-- Design: Rigid Empyrean Sapphire (Guessed via Filter Recipe with SpellID)
+-- #ENDIF
 i(32297, 39727);	-- Design: Sovereign Shadowsong Amethyst (Guessed via Filter Recipe with SpellID)
 i(32298, 39728);	-- Design: Shifting Shadowsong Amethyst (Guessed via Filter Recipe with SpellID)
 i(32299, 39728);	-- Design: Shifting Shadowsong Amethyst (Guessed via Filter Recipe with SpellID)

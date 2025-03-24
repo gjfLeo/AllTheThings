@@ -509,9 +509,9 @@ i(235695, 82189);	-- Delver's Dirigible Schematic: Red Paint
 i(235693, 82175);	-- Delver's Dirigible Schematic: Rocket
 i(235692, 82177);	-- Delver's Dirigible Schematic: Thrusters
 i(235691, 82191);	-- Delver's Dirigible Schematic: Yellow Paint
-i(232980, 85787);	-- Axel Sneakfoot
-i(232979, 85785);	-- Jaks Jabberjaw
-i(232978, 85786);	-- Louie Firehands
+-- i(232980, 85787);	-- Axel Sneakfoot [think this questID is wrong, it's duped with Maniacal Melodies]
+-- i(232979, 85785);	-- Jaks Jabberjaw [think this questID is wrong, it's duped with The Ol' Low-and-Slow]
+-- i(232978, 85786);	-- Louie Firehands [think this questID is wrong, it's duped with The Buzzer]
 
 ------------------
 -- PATCH 11.1.5 --

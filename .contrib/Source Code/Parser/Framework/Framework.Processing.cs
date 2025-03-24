@@ -350,8 +350,10 @@ namespace ATT
                 long maxQuestID = QUESTS.Max(x => x.Key);
                 for (long i = 1; i <= maxQuestID; i++)
                 {
-                    // add any quest information which is not sourced but includes more than just a questID into the Unsorted category
-                    if (!TryGetSOURCED("questID", i, out var sourcedQuests) && QUESTS.TryGetValue(i, out IDictionary<string, object> questRef))
+                    // add any quest information which is not sourced/referenced but includes more than just a questID into the Unsorted category
+                    if (!TryGetSOURCED("questID", i, out var sourcedQuests)
+                        && !QUESTS_WITH_REFERENCES.ContainsKey(i)
+                        && QUESTS.TryGetValue(i, out IDictionary<string, object> questRef))
                     {
                         var entry = new Dictionary<string, object>() { { "questID", i } };
 
@@ -1291,10 +1293,11 @@ namespace ATT
 
         private static bool TryGetSOURCED(string field, object idObj, out List<IDictionary<string, object>> sources)
         {
-            if (SOURCED.TryGetValue(field, out Dictionary<long, List<IDictionary<string, object>>> fieldSources) && idObj is long id && id > 0
-                && fieldSources.TryGetValue(id, out List<IDictionary<string, object>> objectSources))
+            if (SOURCED.TryGetValue(field, out Dictionary<long, List<IDictionary<string, object>>> fieldSources)
+                && idObj is long id
+                && id > 0
+                && fieldSources.TryGetValue(id, out sources))
             {
-                sources = objectSources;
                 return true;
             }
 
