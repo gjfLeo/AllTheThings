@@ -652,6 +652,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				ULDUM,
 			},
 		}),
+		-- #if NOT ANYCLASSIC
 		i(68050, {	-- Shatterscale Mightfish
 			["coords"] = {
 				{ 52.4, 77.0, MOUNT_HYJAL },	-- The Throne of Flame
@@ -660,6 +661,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			["description"] = "Can be caught by fishing in lava using a special lure.",
 			["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
 		}),
+		-- #endif
 		i(53067, {	-- Striped Lurker
 			["description"] = "Can be caught in inland waterways.",
 			["maps"] = {
@@ -667,6 +669,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				TWILIGHT_HIGHLANDS,
 			},
 		}),
+		-- #if NOT ANYCLASSIC
 		i(22739, {	-- Tome of Polymorph: Turtle (CI!)
 			["maps"] = {
 				DEEPHOLM,
@@ -687,6 +690,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 				{ "o", 207724 },	-- Shipwreck Debris
 			},
 		}),
+		-- #endif
 		-- Schools:
 		o(202778, {	-- Albino Cavefish School
 			["coords"] = {
@@ -1404,6 +1408,7 @@ Fire and Water - Damage against Elementals increased by 15%.
 		}),
 	}),
 	prof(MINING, {
+		-- #if NOT ANYCLASSIC
 		filter(BATTLE_PETS, {
 			i(67282, {	-- Elementium Geode (PET!)
 				["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
@@ -1420,6 +1425,7 @@ Fire and Water - Damage against Elementals increased by 15%.
 				["requireSkill"] = MINING,
 			}),
 		}),
+		-- #endif
 		spell(2575, {	-- Mining
 			-- Nodes
 			o(202738, {	-- Elementium Vein

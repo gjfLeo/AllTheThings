@@ -54,6 +54,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"
 					["races"] = HORDE_ONLY,
 				}),
 			}),
+			-- #if ANYCLASSIC
+ 			n(PROFESSIONS, {
+				prof(FISHING, {
+					i(22739, {	-- Tome of Polymorph: Turtle (CI!)
+						["providers"] = {
+							{ "o", 202780 },	-- Fathom Eel Swarm
+							{ "o", 207724 },	-- Shipwreck Debris
+						},
+					}),
+				}),
+				prof(MINING, {
+					i(67282),	-- Elementium Geode (PET!)
+				}),
+			}),
+			-- #endif
 			n(QUESTS, {
 				TolBaradDailyQuest(27948, {	-- A Sticky Task [A]
 					["qg"] = 48255, -- Camp Coordinator Brack

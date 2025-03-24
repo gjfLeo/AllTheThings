@@ -398,6 +398,29 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 56.6, 56.8, TWILIGHT_HIGHLANDS },
 				}),
 			}),
+			-- #if ANYCLASSIC
+ 			n(PROFESSIONS, {
+				prof(FISHING, {
+					o(208311, {	-- Deepsea Sagefish School
+						i(22739),	-- Tome of Polymorph: Turtle (CI!)
+					}),
+					o(202777, {	-- Highland Guppy School
+						i(22739),	-- Tome of Polymorph: Turtle (CI!)
+					}),
+					i(68050, {	-- Shatterscale Mightfish
+						["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
+						["coord"] = { 41.0, 79.1, TWILIGHT_HIGHLANDS },	-- Cannon's Inferno
+						["description"] = "Can be caught by fishing in lava using a special lure.",
+					}),
+				}),
+				prof(MINING, {
+					["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
+					["groups"] = {
+						i(67282),	-- Elementium Geode (PET!)
+					},
+				}),
+			}),
+			-- #endif
 			n(QUESTS, {
 				q(28001, {	-- A Coward's Due
 					["sourceQuest"] = 27817,	-- Dropping the Hammer

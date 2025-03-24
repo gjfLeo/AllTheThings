@@ -215,6 +215,24 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 22.2, 64.8, ULDUM },
 				}),
 			}),
+			-- #if ANYCLASSIC
+ 			n(PROFESSIONS, {
+				prof(FISHING, {
+					o(202779, {	-- Blackbelly Mudfish School
+						i(22739),	-- Tome of Polymorph: Turtle (CI!)
+					}),
+					o(202780, {	-- Fathom Eel Swarm
+						i(22739),	-- Tome of Polymorph: Turtle (CI!)
+					}),
+				}),
+				prof(MINING, {
+					["description"] = "Elementium Veins (0.05% Drop Rate) and Rich Elementium Veins (0.08% Drop Rate) require a mining skill of 475-500.",
+					["groups"] = {
+						i(67282),	-- Elementium Geode (PET!)
+					},
+				}),
+			}),
+			-- #endif
 			petbattles({
 				n(66824, {	-- Obalis <Grand Master Pet Tamer>
 					["coord"] = { 56.6, 41.8, ULDUM },
