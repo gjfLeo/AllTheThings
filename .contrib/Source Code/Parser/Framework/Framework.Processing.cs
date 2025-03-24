@@ -348,10 +348,10 @@ namespace ATT
             {
                 var unsortedQuests = new List<object>();
                 long maxQuestID = QUESTS.Max(x => x.Key);
-                for (int i = 1; i <= maxQuestID; i++)
+                for (long i = 1; i <= maxQuestID; i++)
                 {
-                    // add any quest information which is not referenced but includes more than just a questID into the Unsorted category
-                    if (!QUESTS_WITH_REFERENCES.ContainsKey(i) && QUESTS.TryGetValue(i, out IDictionary<string, object> questRef))
+                    // add any quest information which is not sourced but includes more than just a questID into the Unsorted category
+                    if (!TryGetSOURCED("questID", i, out var sourcedQuests) && QUESTS.TryGetValue(i, out IDictionary<string, object> questRef))
                     {
                         var entry = new Dictionary<string, object>() { { "questID", i } };
 
@@ -997,6 +997,7 @@ namespace ATT
                 */
             }
 
+            CaptureForSOURCED(data);
             CaptureDebugDBData(data);
 
             AddPostProcessing(PostProcessingGroupCleanup, data);
