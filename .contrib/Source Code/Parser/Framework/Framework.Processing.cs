@@ -1148,20 +1148,22 @@ namespace ATT
                 else
                 {
                     // otherwise it can remain directly listed in the Ensemble
-                    IEnumerable<TransmogSetItem> tmogSetItems = GetTypeDBObjects<TransmogSetItem>(i => i.ItemModifiedAppearanceID == sourceID);
-                    IDictionary<string, object> source = tmogSetItems.FirstOrDefault()?.AsData();
-                    if (source == null)
+                    if (TryGetTypeDBObjectCollection(sourceID, out List<TransmogSetItem> tmogSetItems, nameof(TransmogSetItem.ItemModifiedAppearanceID)))
                     {
-                        LogWarn($"Ensemble via SpellID {spellID} sourcing SourceID {sourceID} which is not associated with a TransmogSetItem", data);
-                        source = new TransmogSetItem { ItemModifiedAppearanceID = sourceID }.AsData();
+                        IDictionary<string, object> source = tmogSetItems.FirstOrDefault()?.AsData();
+                        if (source == null)
+                        {
+                            LogWarn($"Ensemble via SpellID {spellID} sourcing SourceID {sourceID} which is not associated with a TransmogSetItem", data);
+                            source = new TransmogSetItem { ItemModifiedAppearanceID = sourceID }.AsData();
+                        }
+                        source["_generated"] = true;
+                        Items.DetermineItemID(source);
+                        // since we may determine an itemID for this data after the ConditionalMerge phase
+                        // we need to apply that logic to this data specifically as well
+                        // but don't capture that this item is actually sourced within the ensemble
+                        DoConditionalDataMerging(source);
+                        rawSources.Add(source);
                     }
-                    source["_generated"] = true;
-                    Items.DetermineItemID(source);
-                    // since we may determine an itemID for this data after the ConditionalMerge phase
-                    // we need to apply that logic to this data specifically as well
-                    // but don't capture that this item is actually sourced within the ensemble
-                    DoConditionalDataMerging(source);
-                    rawSources.Add(source);
                 }
             }
 
@@ -4058,10 +4060,10 @@ namespace ATT
             return TryGetTypeDBObjectCollection(data.ID, out children);
         }
 
-        private static bool TryGetTypeDBObjectCollection<T>(long collectionID, out List<T> children)
+        private static bool TryGetTypeDBObjectCollection<T>(long collectionID, out List<T> children, string subname = null)
             where T : IDBType
         {
-            if (TypeDB.TryGetValue(typeof(T).Name + nameof(TypeCollection<T>), out var typeDBCollection) &&
+            if (TypeDB.TryGetValue(typeof(T).Name + (subname ?? nameof(TypeCollection<T>)), out var typeDBCollection) &&
                 typeDBCollection.TryGetValue(collectionID, out IDBType childCollection) &&
                 childCollection is TypeCollection<T> childTrees)
             {

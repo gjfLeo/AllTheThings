@@ -953,15 +953,16 @@ namespace ATT
             if (type == nameof(TransmogSetItem))
             {
                 CollectObjectsByValue<TransmogSetItem>(type, (se) => se.TransmogSetID);
+                CollectObjectsByValue<TransmogSetItem>(type, (se) => se.ItemModifiedAppearanceID, nameof(TransmogSetItem.ItemModifiedAppearanceID));
             }
         }
 
-        private static void CollectObjectsByValue<T>(string type, Func<T, long> valueFunc)
+        private static void CollectObjectsByValue<T>(string type, Func<T, long> valueFunc, string subname = null)
             where T : IDBType
         {
             IDictionary<long, IDBType> db = TypeDB[type];
             Dictionary<long, IDBType> group = new Dictionary<long, IDBType>();
-            TypeDB[type + nameof(TypeCollection<T>)] = group;
+            TypeDB[type + (subname ?? nameof(TypeCollection<T>))] = group;
 
             foreach (T obj in db.Values.AsTypedEnumerable<T>())
             {
