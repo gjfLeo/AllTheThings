@@ -3,7 +3,10 @@ do
 local _,app = ...;
 local pairs, tostring, math_floor, setmetatable, rawget
 	= pairs, tostring, math.floor, setmetatable, rawget;
-local GetServerExpansionLevel = GetServerExpansionLevel;
+
+-- Get Current Expansion Number by in-game API.
+app.CURRENT_EXPANSION = GetServerExpansionLevel() + 1
+
 local function GetExpansionName(expansionID)
 	-- /script for key,value in pairs(_G) do if key:find("EXPANSION_NAME") then print(key, value); end end
 	return _G["EXPANSION_NAME" .. (expansionID - 1)] or (EXPANSION_FILTER_TEXT .. " " .. expansionID);
@@ -83,8 +86,3 @@ app.CreateExpansion = app.CreateClassWithInfo("Expansion", "expansionID", Expans
 	end,
 });
 end
-
--- Get Current Expansion Number by in-game API.
-local current_expansion = GetServerExpansionLevel() + 1;
-
-app.CURRENT_EXPANSION = current_expansion;
