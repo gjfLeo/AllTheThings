@@ -36,7 +36,7 @@ root(ROOTS.WorldEvents, applyclassicphase(WRATH_PHASE_FOUR_OPERATION_ZALAZANE, n
 				["groups"] = {
 					objective(1, {	-- 0/5 Sen'jin Frogs attuned
 						["providers"] = {
-							{ "i", 40188 },	-- Attuned Frog
+							{ "n", 40188 },	-- Attuned Frog
 							{ "i", 53510 },	-- Captured Frog
 							{ "n", 40176 },	-- Sen'jin Frog
 							{ "n", 40187 },	-- Vanira's Sentry Totem
