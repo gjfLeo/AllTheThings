@@ -3438,25 +3438,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			-- Mail Belt
 			i(223458),	-- [PH] 11.0 - Belt
 			i(226165),	-- Unseemly Agate Choker
-			--- Trinkets
-			i(213423),	-- Bygone Weapon Charm
-			i(213533),	-- Ancient Weapon Charm
-			i(213534),	-- Bygone Armor Charm
-			i(213535),	-- Ancient Armor Charm
-			i(217402),	-- Olden Armor Charm
-			i(217403),	-- Olden Weapon Charm
-			i(217404),	-- Time-Worn Armor Charm
-			i(217405),	-- Time-Worn Weapon Charm
-			i(219916),	-- Bronzebeard Family Compass
-			i(225669),	-- Brute Force Idol
-			i(225682),	-- Time Lost Relic
-			i(225683),	-- Grasping Necrotic Relic
-			i(225684),	-- Relicblood of Zekvir
-			i(225685),	-- Relic of Sentience
-			i(212412),	-- 11.0 Raid Template - Wand - RangedRight
-			i(212455),	-- 11.0 Raid Template - Physical DPS - Trinket
-			i(226695),	-- Cunning Advisor's Favor
-			i(226696),	-- Mighty Advisor's Favor
 
 			header(HEADERS.LFGDungeon, 2645, {	-- Nerub-ar Palace
 				d(DIFFICULTY.RAID.LFR, bubbleDown({ ["bonusID"] = 6894, ["modID"] = 0, }, {
@@ -3505,6 +3486,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(225725),	-- Lurking Marauder's Binding
 					}),
 					filter(PLATE, {
+						i(225737, {["bonusID"] = 0, ["modID"] = 4 }),	-- 11.0 Raid Template - Plate - Feet
+						i(225736, {["bonusID"] = 0, ["modID"] = 4 }),	-- 11.0 Raid Template - Plate - Head
+						i(225726, {["bonusID"] = 0, ["modID"] = 4 }),	-- 11.0 Raid Template - Plate - Waist
 						i(212418),	-- Black Blood Injectors
 						i(212437),	-- Ravaged Lamplighter's Manacles
 						i(212442),	-- Greatbelt of the Hungerer
@@ -3627,6 +3611,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(225725),	-- Lurking Marauder's Binding
 					}),
 					filter(PLATE, {
+						i(225737, {["bonusID"] = 0, ["modID"] = 5 }),	-- 11.0 Raid Template - Plate - Feet
+						i(225736, {["bonusID"] = 0, ["modID"] = 5 }),	-- 11.0 Raid Template - Plate - Head
+						i(225726, {["bonusID"] = 0, ["modID"] = 5 }),	-- 11.0 Raid Template - Plate - Waist
 						i(212418),	-- Black Blood Injectors
 						i(212437),	-- Ravaged Lamplighter's Manacles
 						i(212442),	-- Greatbelt of the Hungerer
@@ -3688,6 +3675,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(225725),	-- Lurking Marauder's Binding
 					}),
 					filter(PLATE, {
+						i(225737, {["bonusID"] = 0, ["modID"] = 6 }),	-- 11.0 Raid Template - Plate - Feet
+						i(225736, {["bonusID"] = 0, ["modID"] = 6 }),	-- 11.0 Raid Template - Plate - Head
+						i(225726, {["bonusID"] = 0, ["modID"] = 6 }),	-- 11.0 Raid Template - Plate - Waist
 						i(212418),	-- Black Blood Injectors
 						i(212437),	-- Ravaged Lamplighter's Manacles
 						i(212442),	-- Greatbelt of the Hungerer
@@ -3703,6 +3693,29 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 						i(225727),	-- Captured Earthen's Ironhorns
 					}),
 				})),
+			}),
+			filter(CLOTH, {
+				i(225730, {["bonusID"] = 6894 }),	-- Stone Gaze Ceinture
+			}),
+			filter(TRINKET_F, {
+				i(213423),	-- Bygone Weapon Charm
+				i(213533),	-- Ancient Weapon Charm
+				i(213534),	-- Bygone Armor Charm
+				i(213535),	-- Ancient Armor Charm
+				i(217402),	-- Olden Armor Charm
+				i(217403),	-- Olden Weapon Charm
+				i(217404),	-- Time-Worn Armor Charm
+				i(217405),	-- Time-Worn Weapon Charm
+				i(219916),	-- Bronzebeard Family Compass
+				i(225669),	-- Brute Force Idol
+				i(225682),	-- Time Lost Relic
+				i(225683),	-- Grasping Necrotic Relic
+				i(225684),	-- Relicblood of Zekvir
+				i(225685),	-- Relic of Sentience
+				i(212412),	-- 11.0 Raid Template - Wand - RangedRight
+				i(212455),	-- 11.0 Raid Template - Physical DPS - Trinket
+				i(226695),	-- Cunning Advisor's Favor
+				i(226696),	-- Mighty Advisor's Favor
 			}),
 		})),
 
