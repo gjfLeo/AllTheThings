@@ -499,7 +499,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 61.6, 67.0, NAGRAND },
 						["groups"] = {
 							objective(1, {	-- Attempt to Steal Egg
+								-- #IF BEFORE 4.2.0
 								["provider"] = { "i", 27808 },	-- Jump-a-tron 4000 Key
+								-- #ENDIF
 								["description"] = "You can also just fly up there if you have flying.",
 							}),
 							objective(2, {	-- Severed Talon of the Matriarch

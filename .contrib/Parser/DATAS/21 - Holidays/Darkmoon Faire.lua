@@ -954,10 +954,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["coord"] = { 50.5, 69.5, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
-				["cost"] = {
-					{ "i", 19299, 5 },	-- Fizzy Faire Drink
-					{ "i", 1645, 5 },	-- Moonberry Juice
-				},
 				["requireSkill"] = ALCHEMY,
 				["isMonthly"] = true,
 				["groups"] = {
@@ -967,8 +963,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 							{ "i", 72043 },	-- Cocktail Shaker
 						},
 						["cost"] = {
-							{ "i", 19299, 1 },	-- Fizzy Faire Drink
-							{ "i", 1645, 1 },	-- Moonberry Juice
+							{ "i", 19299, 5 },	-- Fizzy Faire Drink
+							{ "i", 1645, 5 },	-- Moonberry Juice
 						},
 					}),
 					DARKMOON_GAME_TOKEN,
@@ -2348,7 +2344,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["coord"] = { 52.8, 67.9, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
-				["cost"] = { { "i", 30817, 5 } },	-- x5 Simple Flour
 				["requireSkill"] = COOKING,
 				["isMonthly"] = true,
 				["groups"] = {
@@ -2357,7 +2352,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 							{ "i", 72058 },	-- Crunchy Frog
 							{ "i", 72056 },	-- Plump Frogs
 						},
-						["cost"] = { { "i", 30817, 1 } },	-- Simple Flour
+						["cost"] = { { "i", 30817, 5 } },	-- x5 Simple Flour
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,
@@ -2973,7 +2968,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["coord"] = { 53.2, 75.8, DARKMOON_ISLAND },
 				["maxReputation"] = { FACTION_DARKMOON_FAIRE, EXALTED },	-- Darkmoon Faire, Exalted.
 				["timeline"] = { ADDED_4_3_0 },
-				["cost"] = { { "i", 39354, 5 } },	-- Light Parchment
 				["requireSkill"] = INSCRIPTION,
 				["isMonthly"] = true,
 				["groups"] = {
@@ -2983,7 +2977,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 							{ "i", 71972 },	-- Prophetic Ink
 							{ "i", 71971 },	-- Bundle of Exotic Herbs
 						},
-						["cost"] = { { "i", 39354, 1 } },	-- Light Parchment
+						["cost"] = { { "i", 39354, 5 } },	-- Light Parchment
 					}),
 					DARKMOON_GAME_TOKEN,
 					DARKMOON_PRIZE_TICKET,

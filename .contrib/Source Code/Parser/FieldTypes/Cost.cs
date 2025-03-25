@@ -338,9 +338,9 @@ namespace ATT.FieldTypes
             {
                 if (Gold != 0 && Gold != merge.Gold)
                 {
-                    LogWarn($"'{Field}' '{Gold}' replaced with '{merge.Gold}'", _data);
+                    LogDebugWarn($"'{Field}' '{Gold}' added with '{merge.Gold}'", _data);
                 }
-                Gold = merge.Gold;
+                Gold = Gold + merge.Gold;
             }
 
             if (merge._costTypes == null)

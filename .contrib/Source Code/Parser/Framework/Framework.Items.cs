@@ -997,7 +997,7 @@ namespace ATT
                     if (!data.ContainsKey("_generated"))
                     {
                         // Report that the specific, non-generated item is missing.
-                        Log($"Could not find item #{specificItemID} in the database", data);
+                        LogDebugWarn($"Could not find item #{specificItemID} in the database", data);
                     }
                 }
                 else
