@@ -415,7 +415,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				--	Treasures of Maldraxxus achievement
 				q(58709),	-- Forgotten Mementos - clicking the chain
 				q(59245),	-- Misplaced Supplies (daily trigger)
-				q(62582),	-- Using Cache of Spare Weapons
+				-- q(62582),	-- Using Cache of Spare Weapons
 				--
 				q(62248),	-- interacting with the Box of Torments
 				q(61127),	-- Triggered after getting Oonar's Arm

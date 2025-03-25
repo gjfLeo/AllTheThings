@@ -1774,14 +1774,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				-- LOYALTY DIFFICULTY KILL
 				q(61014),	-- Azaruux | Loyalty
 				q(61015),	-- Athanos | Loyalty
-				q(61016),	-- Mad Mortimer | Loyalty
-				q(61017),	-- Thran'tiok | Loyalty
-				q(61018),	-- Splinterbark Nightmare | Loyalty
-				q(61019),	-- Cravin Corinth | Loyalty
-				q(61020),	-- Nuuminuuru | Loyalty
-				q(61021),	-- Alderyn and Myn'ir | Loyalty
-				q(61022),	-- Echthra | Loyalty
-				q(61023),	-- Kalisthene | Loyalty
+				-- q(61016),	-- Mad Mortimer | Loyalty
+				-- q(61017),	-- Thran'tiok | Loyalty
+				-- q(61018),	-- Splinterbark Nightmare | Loyalty
+				-- q(61019),	-- Cravin Corinth | Loyalty
+				-- q(61020),	-- Nuuminuuru | Loyalty
+				-- q(61021),	-- Alderyn and Myn'ir | Loyalty
+				-- q(61022),	-- Echthra | Loyalty
+				-- q(61023),	-- Kalisthene | Loyalty
 
 				-- WISDOM DIFFICULTY KILL
 				q(61024),	-- Azaruux | Wisdom
@@ -1796,36 +1796,36 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				q(61033),	-- Kalisthene | Wisdom
 
 				-- HUMILITY DIFFICULTY KILL
-				q(63102),	-- Kalisthene | Humility | Pelagos
-				q(63103),	-- Kalisthene | Humility | Kleia
-				q(63104),	-- Kalisthene | Humility | Mikanikos
-				q(63105),	-- Echthra | Humility | Pelagos
-				q(63106),	-- Echthra | Humility | Kleia
-				q(63107),	-- Echthra | Humility | Mikanikos
-				q(63108),	-- Alderyn and Myn'ir| Humility | Pelagos
-				q(63109),	-- Alderyn and Myn'ir| Humility | Kleia
-				q(63110),	-- Alderyn and Myn'ir| Humility | Mikanikos
-				q(63111),	-- Nuuminuuru | Humility | Pelagos
-				q(63112),	-- Nuuminuuru | Humility | Kleia
-				q(63113),	-- Nuuminuuru | Humility | Mikanikos
-				q(63114),	-- Craven Corinth | Humility | Pelagos
-				q(63115),	-- Craven Corinth | Humility | Kleia
-				q(63116),	-- Craven Corinth | Humility | Mikanikos
-				q(63117),	-- Splinterbark | Humility | Pelagos
-				q(63118),	-- Splinterbark | Humility | Kleia
-				q(63119),	-- Splinterbark | Humility | Mikanikos
-				q(63120),	-- Thran'tiok | Humility | Pelagos
-				q(63121),	-- Thran'tiok | Humility | Kleia
-				q(63122),	-- Thran'tiok | Humility | Mikanikos
-				q(63123),	-- Mad Mortimer | Humility | Pelagos
-				q(63124),	-- Mad Mortimer | Humility | Kleia
-				q(63125),	-- Mad Mortimer | Humility | Mikanikos
-				q(63126),	-- Athanos | Humility | Pelagos
-				q(63127),	-- Athanos | Humility | Kleia
-				q(63128),	-- Athanos | Humility | Mikanikos
-				q(63129),	-- Azaruux | Humility | Pelagos
-				q(63130),	-- Azaruux | Humility | Kleia
-				q(63131),	-- Azaruux | Humility | Mikanikos
+				-- q(63102),	-- Kalisthene | Humility | Pelagos
+				-- q(63103),	-- Kalisthene | Humility | Kleia
+				-- q(63104),	-- Kalisthene | Humility | Mikanikos
+				-- q(63105),	-- Echthra | Humility | Pelagos
+				-- q(63106),	-- Echthra | Humility | Kleia
+				-- q(63107),	-- Echthra | Humility | Mikanikos
+				-- q(63108),	-- Alderyn and Myn'ir| Humility | Pelagos
+				-- q(63109),	-- Alderyn and Myn'ir| Humility | Kleia
+				-- q(63110),	-- Alderyn and Myn'ir| Humility | Mikanikos
+				-- q(63111),	-- Nuuminuuru | Humility | Pelagos
+				-- q(63112),	-- Nuuminuuru | Humility | Kleia
+				-- q(63113),	-- Nuuminuuru | Humility | Mikanikos
+				-- q(63114),	-- Craven Corinth | Humility | Pelagos
+				-- q(63115),	-- Craven Corinth | Humility | Kleia
+				-- q(63116),	-- Craven Corinth | Humility | Mikanikos
+				-- q(63117),	-- Splinterbark | Humility | Pelagos
+				-- q(63118),	-- Splinterbark | Humility | Kleia
+				-- q(63119),	-- Splinterbark | Humility | Mikanikos
+				-- q(63120),	-- Thran'tiok | Humility | Pelagos
+				-- q(63121),	-- Thran'tiok | Humility | Kleia
+				-- q(63122),	-- Thran'tiok | Humility | Mikanikos
+				-- q(63123),	-- Mad Mortimer | Humility | Pelagos
+				-- q(63124),	-- Mad Mortimer | Humility | Kleia
+				-- q(63125),	-- Mad Mortimer | Humility | Mikanikos
+				-- q(63126),	-- Athanos | Humility | Pelagos
+				-- q(63127),	-- Athanos | Humility | Kleia
+				-- q(63128),	-- Athanos | Humility | Mikanikos
+				-- q(63129),	-- Azaruux | Humility | Pelagos
+				-- q(63130),	-- Azaruux | Humility | Kleia
+				-- q(63131),	-- Azaruux | Humility | Mikanikos
 
 				-- HUMILITY DIFFICULTY NO CHARMS
 				q(61034),	-- Azaruux | Humility | no charms
@@ -1840,48 +1840,48 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				q(61043),	-- Kalisthene | Humility | no charms
 
 				-- HUMILITY DIFFICULTY NO CHARMS, NO ACTIVE BRAZIERS (probably only for either charms or braziers)
-				q(63138),	-- Kalisthene | Humility | no charms | no active braziers
-				q(63139),	-- Echthra | Humility | no charms | no active braziers
-				q(63143),	-- Alderyn and Myn'ir | Humility | no charms | no active braziers
-				q(63144),	-- Nuuminuuru" boss | Humility | no charms | no active braziers
-				q(63146),	-- Craven Corinth | Humility | no charms | no active braziers
-				q(63147),	-- Splinterbark | Humility | | no charms | no active braziers
-				q(63148),	-- Thran'tiok | Humility | no charms | no active braziers
-				q(63149),	-- Mad Mortimer | Humility | no charms | no active braziers
-				q(63150),	-- Athanos | Humility | no charms | no active braziers
-				q(63151),	-- Azaruux | Humility | no charms | no active braziers
+				-- q(63138),	-- Kalisthene | Humility | no charms | no active braziers
+				-- q(63139),	-- Echthra | Humility | no charms | no active braziers
+				-- q(63143),	-- Alderyn and Myn'ir | Humility | no charms | no active braziers
+				-- q(63144),	-- Nuuminuuru" boss | Humility | no charms | no active braziers
+				-- q(63146),	-- Craven Corinth | Humility | no charms | no active braziers
+				-- q(63147),	-- Splinterbark | Humility | | no charms | no active braziers
+				-- q(63148),	-- Thran'tiok | Humility | no charms | no active braziers
+				-- q(63149),	-- Mad Mortimer | Humility | no charms | no active braziers
+				-- q(63150),	-- Athanos | Humility | no charms | no active braziers
+				-- q(63151),	-- Azaruux | Humility | no charms | no active braziers
 
 				-- HQTs for Bastion of Protection achievement
-				q(63074),	-- Kalisthene | Spiritforged Aegis
-				q(63075),	-- Craven Corinth | Spiritforged Aegis
+				-- q(63074),	-- Kalisthene | Spiritforged Aegis
+				-- q(63075),	-- Craven Corinth | Spiritforged Aegis
 
 				-- HQTs for The Hoot of the Issue achievement
-				q(63076),	-- Loyalty | Alderyn and Myn'ir | Mikanikos
-				q(63077),	-- Loyalty | Splinterbark Nightmare | Mikanikos
+				-- q(63076),	-- Loyalty | Alderyn and Myn'ir | Mikanikos
+				-- q(63077),	-- Loyalty | Splinterbark Nightmare | Mikanikos
 
 				-- HQTs for It's Not What You Wear achievement
-				q(63078),	-- Loyalty | Herald's Footpads
-				q(63079),	-- Loyalty | Deep Echo Trident
-				q(63080),	-- Loyalty | Vial of Lichfrost
-				q(63081),	-- Loyalty | Phial of Serenity
-				q(63082),	-- Loyalty | Ring of Warding
-				q(63083),	-- Loyalty | Spiritforged Aegis
+				-- q(63078),	-- Loyalty | Herald's Footpads
+				-- q(63079),	-- Loyalty | Deep Echo Trident
+				-- q(63080),	-- Loyalty | Vial of Lichfrost
+				-- q(63081),	-- Loyalty | Phial of Serenity
+				-- q(63082),	-- Loyalty | Ring of Warding
+				-- q(63083),	-- Loyalty | Spiritforged Aegis
 
 				-- HQTs for It's How You Wear It achievement
-				q(63084),	-- Humility | Herald's Footpads
-				q(63085),	-- Humility | Deep Echo Trident
-				q(63086),	-- Humility | Vial of Lichfrost
-				q(63087),	-- Humility | Phial of Serenity
-				q(63088),	-- Humility | Ring of Warding
-				q(63089),	-- Humility | Spiritforged Aegis
+				-- q(63084),	-- Humility | Herald's Footpads
+				-- q(63085),	-- Humility | Deep Echo Trident
+				-- q(63086),	-- Humility | Vial of Lichfrost
+				-- q(63087),	-- Humility | Phial of Serenity
+				-- q(63088),	-- Humility | Ring of Warding
+				-- q(63089),	-- Humility | Spiritforged Aegis
 
 				-- HQTs for Learning from the Masters achievement
-				q(63093),	-- Kalisthene | Wisdom | Kleia
-				q(63094),	-- Kalisthene | Wisdom | Pelagos
-				q(63095),	-- Kalisthene | Wisdom | Mikanikos
-				q(63096),	-- Athanos | Wisdom | Kleia
-				q(63097),	-- Athanos | Courage | Pelagos
-				q(63098),	-- Athanos | Wisdom | Mikanikos
+				-- q(63093),	-- Kalisthene | Wisdom | Kleia
+				-- q(63094),	-- Kalisthene | Wisdom | Pelagos
+				-- q(63095),	-- Kalisthene | Wisdom | Mikanikos
+				-- q(63096),	-- Athanos | Wisdom | Kleia
+				-- q(63097),	-- Athanos | Courage | Pelagos
+				-- q(63098),	-- Athanos | Wisdom | Mikanikos
 
 				-- LOYALTY BRAZIERS | WILL UNFLAG IF BRAZIER IS USED AGAIN
 				q(62770),	-- Loyalty | no brazier #1

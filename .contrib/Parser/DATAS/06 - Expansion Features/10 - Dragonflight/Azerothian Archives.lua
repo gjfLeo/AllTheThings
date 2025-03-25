@@ -642,22 +642,22 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 			-- "Just One More Thing" trackers
 			q(79601),	-- Lost Atheneum first completion
 			q(79600),	-- Lost Atheneum second completion
-			q(79599),	-- Lost Atheneum third completion
+			-- q(79599),	-- Lost Atheneum third completion
 			q(79596),	-- The Riverbed first completion
 			q(79597),	-- The Riverbed second completion
-			q(79598),	-- The Riverbed third completion
+			-- q(79598),	-- The Riverbed third completion
 			q(79604),	-- Igira's Watch first completion
 			q(79603),	-- Igira's Watch second completion
-			q(79602),	-- Igira's Watch third completion
+			-- q(79602),	-- Igira's Watch third completion
 			q(79607),	-- Gaze of Neltharion first completion
 			q(79606),	-- Gaze of Neltharion second completion
-			q(79605),	-- Gaze of Neltharion third completion
+			-- q(79605),	-- Gaze of Neltharion third completion
 			q(79610),	-- Concord Observatory first completion
 			q(79609),	-- Concord Observatory second completion
-			q(79608),	-- Concord Observatory third completion
+			-- q(79608),	-- Concord Observatory third completion
 			q(79613),	-- Winglord's Perch first completion
 			q(79612),	-- Winglord's Perch second completion
-			q(79611),	-- Winglord's Perch third completion
+			-- q(79611),	-- Winglord's Perch third completion
 		}),
 		n(QUESTS, {
 			q(79992),	-- After completing 'Finally, An Archivist' (questID 79223) (spellID 436735) (WQ unlock - Riverbed, Concord Observatory, and Lost Anethenum Sites)

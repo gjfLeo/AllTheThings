@@ -1296,7 +1296,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 		q(43901),	-- Tracking Quest: All - Troop B Enabled - completed second tutorial mission
 		q(43433),	-- Tracking Quest: Tutorial - Troops Built
 		q(42115),	-- Tracking Quest: Chapter 1 completed - triggers when you complete the quest that gets your first order hall upgrade
-		q(42116),	-- Tracking Quest: Chapter 2 Completed - triggers after completing your first order hall campaign effort
+		-- q(42116),	-- Tracking Quest: Chapter 2 Completed - triggers after completing your first order hall campaign effort
 		q(42117),	-- Tracking Quest: Chapter 3 Completed - triggers after completing the first dungeon quest from your order hall leader - order hall bracers unlock
 		q(42118),	-- Tracking Quest: Chapter 4 Completed - triggers after completing order hall campaign
 		q(43510),	-- Seal of Fate: Class Hall - weekly quest, various sources
