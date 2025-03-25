@@ -33,32 +33,28 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			["timeline"] = { ADDED_10_1_0, REMOVED_10_2_0 },
 		}),
 		currency(WHELPLINGS_DREAMING_CREST, {
-		--	["description"] = "Drops in M+ 2-5.",	-- Blizzard added description
 			["timeline"] = { ADDED_10_2_0, REMOVED_10_2_6_SEASON_FOUR },
 		}),
 		currency(DRAKES_DREAMING_CREST, {
-		--	["description"] = "Drops in M+ 6-10",	-- Blizzard added description
 			["timeline"] = { ADDED_10_2_0, REMOVED_10_2_6_SEASON_FOUR },
 		}),
 		currency(WYRMS_DREAMING_CREST, {
-		--	["description"] = "Drops in M+ 11-15",	-- Blizzard added description
 			["timeline"] = { ADDED_10_2_0, REMOVED_10_2_6_SEASON_FOUR },
 		}),
 		currency(ASPECTS_DREAMING_CREST, {
-		--	["description"] = "Drops in M+ 16+",	-- Blizzard added description
 			["timeline"] = { ADDED_10_2_0, REMOVED_10_2_6_SEASON_FOUR },
 		}),
 		currency(WHELPLINGS_AWAKENED_CREST, {
-			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
+			["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_11_0_0 },
 		}),
 		currency(DRAKES_AWAKENED_CREST, {
-			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
+			["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_11_0_0 },
 		}),
 		currency(WYRMS_AWAKENED_CREST, {
-			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
+			["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_11_0_0 },
 		}),
 		currency(ASPECTS_AWAKENED_CREST, {
-			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
+			["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_11_0_0 },
 		}),
 		header(HEADERS.Achievement, SEASON_THUNDERING, bubbleDownSelf({
 			["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_1_0 }

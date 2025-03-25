@@ -1783,7 +1783,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(232074),	-- Adventurer's Warbound Waist
 			i(232075),	-- Adventurer's Warbound Wrists
 			i(236785),	-- C.H.E.T.T. Card
-			i(225415),	-- Caddy Caller
 			i(235018),	-- Cracked Cold One
 			i(232898),	-- Delver's Bounty
 			i(235535),	-- Discretely-Packaged Invention

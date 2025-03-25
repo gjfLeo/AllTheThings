@@ -4080,51 +4080,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				},
 			}))),
 			n(TREASURES, {
-				o_repeated({
-					o(194618, {	-- Lance Rack
-						["coord"] = { 75.9, 19.8, ICECROWN },
-						["races"] = ALLIANCE_ONLY,
-						["g"] = {
-							i(46069, {	-- Alliance Lance
-								-- #IF BEFORE 7.0.0
-								["ignoreSource"] = true,
-								-- #ENDIF
-							}),
-						},
-					}),
-					o(194908, {	-- Lance Rack
-						["coord"] = { 48.8, 71.3, ICECROWN },
-						["maps"] = { TRIAL_OF_THE_CHAMPION },
-						["g"] = {
-							i(46106, {	-- Argent Lance
-								-- #IF BEFORE 7.0.0
-								["ignoreSource"] = true,
-								-- #ENDIF
-							}),
-						},
-					}),
-					o(194909, {	-- Lance Rack
-						["coord"] = { 48.8, 71.3, ICECROWN },
-						["maps"] = { TRIAL_OF_THE_CHAMPION },
-						["g"] = {
-							i(46106, {	-- Argent Lance
-								-- #IF BEFORE 7.0.0
-								["ignoreSource"] = true,
-								-- #ENDIF
-							}),
-						},
-					}),
-					o(194622, {	-- Lance Rack
-						["coord"] = { 76.0, 23.6, ICECROWN },
-						["races"] = HORDE_ONLY,
-						["g"] = {
-							i(46070, {	-- Horde Lance
-								-- #IF BEFORE 7.0.0
-								["ignoreSource"] = true,
-								-- #ENDIF
-							}),
-						},
-					}),
+				o(194618, {	-- Lance Rack
+					["coord"] = { 75.9, 19.8, ICECROWN },
+					["races"] = ALLIANCE_ONLY,
+					["g"] = {
+						i(46069, {	-- Alliance Lance
+							-- #IF BEFORE 7.0.0
+							["ignoreSource"] = true,
+							-- #ENDIF
+						}),
+					},
+				}),
+				o_repeated({	-- Lance Rack
+					["coord"] = { 48.8, 71.3, ICECROWN },
+					["maps"] = { TRIAL_OF_THE_CHAMPION },
+					["g"] = {
+						o(194908),	-- Lance Rack
+						o(194909),	-- Lance Rack
+						i(46106, {	-- Argent Lance
+							-- #IF BEFORE 7.0.0
+							["ignoreSource"] = true,
+							-- #ENDIF
+						}),
+					},
+				}),
+				o(194622, {	-- Lance Rack
+					["coord"] = { 76.0, 23.6, ICECROWN },
+					["races"] = HORDE_ONLY,
+					["g"] = {
+						i(46070, {	-- Horde Lance
+							-- #IF BEFORE 7.0.0
+							["ignoreSource"] = true,
+							-- #ENDIF
+						}),
+					},
 				}),
 			}),
 			n(VENDORS, {

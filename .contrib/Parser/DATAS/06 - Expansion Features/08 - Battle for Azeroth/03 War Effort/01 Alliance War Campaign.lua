@@ -647,14 +647,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 								["coord"] = { 40.8, 74.3, VOLDUN },
 								["g"] = { i(161241) },	-- Zandalari Dunemelon (QI!)
 							}),
-							o_repeated({
-								o(292782, {
-									["coord"] = { 40.8, 76.0, VOLDUN },
-								}),	-- Zandalari Water Jug
-								o(292783, {
-									["coord"] = { 40.7, 75.4, VOLDUN },
-								}),	-- Zandalari Water Jug
-								i(161240),	-- Zandalari Water Jug (QI!)
+							o_repeated({	-- Zandalari Water Jug
+								["coords"] = {
+									{ 40.8, 76.0, VOLDUN },
+									{ 40.7, 75.4, VOLDUN },
+								},
+								["g"] = {
+									o(292782),	-- Zandalari Water Jug
+									o(292783),	-- Zandalari Water Jug
+									i(161240),	-- Zandalari Water Jug (QI!)
+								},
 							}),
 						},
 					}),

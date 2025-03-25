@@ -762,12 +762,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										["g"] = {
 											i(174526),	-- Clotting Patches (QI!)
 											o_repeated({
-												o(355915, {	-- Razorthread Spool
-													i(174534),	-- Razorthread Spool (QI!)
-												}),
-												o(340843, {	-- Razorthread Spool
-													i(174534),	-- Razorthread Spool (QI!)
-												}),
+												o(355915),	-- Razorthread Spool
+												o(340843),	-- Razorthread Spool
+												i(174534),	-- Razorthread Spool (QI!)
 											}),
 											o(340839, {	-- Skewering Needle
 												i(174524),	-- Skewering Needle (QI!)

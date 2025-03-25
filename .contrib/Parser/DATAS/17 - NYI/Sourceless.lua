@@ -148,7 +148,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 
 				-- Tiragarde Sound items = Zuldazar quest rewards
 				filter(CLOTH, {
-					i(155045),	-- Navigator's Sash
+					--i(155045),	-- Navigator's Sash
 					i(155048),	-- Navigator's Cuffs
 					i(158231),	-- Navigator's Slippers
 					i(160066),	-- Navigator's Wrap
@@ -160,7 +160,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					--i(160891),	-- Navigator's Vestments
 				}),
 				filter(LEATHER, {
-					i(155047),	-- Freebooter Belt
+					--i(155047),	-- Freebooter Belt
 					i(155051),	-- Freebooter Bracers
 					i(158233),	-- Freebooter Treads
 					i(160069),	-- Freebooter Chestpiece
@@ -172,7 +172,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(160892),	-- Freebooter Jerkin
 				}),
 				filter(MAIL, {
-					i(155046),	-- Outrigger Belt
+					--i(155046),	-- Outrigger Belt
 					i(155050),	-- Outrigger Bracers
 					i(158232),	-- Outrigger Footguards
 					i(160072),	-- Outrigger Chestguard
@@ -184,7 +184,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(160893),	-- Outrigger Breastplate
 				}),
 				filter(PLATE, {
-					i(155044),	-- Sea Raider's Girdle
+					--i(155044),	-- Sea Raider's Girdle
 					i(155049),	-- Sea Raider's Bracers
 					i(158230),	-- Sea Raider's Warboots
 					i(160075),	-- Sea Raider's Warplate

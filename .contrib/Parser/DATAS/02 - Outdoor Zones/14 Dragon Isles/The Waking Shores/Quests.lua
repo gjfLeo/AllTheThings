@@ -1421,7 +1421,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				}),
 				q(72096, {	-- Release Kite: Wingrest Embassy
 					["name"] = "Release Kite: Wingrest Embassy",
-					["coord"] = { 57.8, 66.7, THE_WAKING_SHORES },
+					["coord"] = { 73.2, 37.8, THE_WAKING_SHORES },
 				}),
 				q(72059, {	-- Stay awhile and listen: Commander Lethanak
 					["name"] = "Stay awhile and listen: Commander Lethanak",

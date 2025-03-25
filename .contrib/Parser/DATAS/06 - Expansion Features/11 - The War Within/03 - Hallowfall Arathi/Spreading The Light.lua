@@ -561,8 +561,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					o(452005, {	-- Lil Piggy
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure somewhere in The Whirring Field.",
 						["coords"] = {
-							{ 64.7, 26.5, HALLOWFALL },
-							{ 64.8, 27.3, HALLOWFALL },
+							{ 63.8, 26.4, HALLOWFALL },
+							{ 64.0, 26.0, HALLOWFALL },
+							{ 64.8, 27.4, HALLOWFALL },
+							{ 64.8, 26.7, HALLOWFALL },
 						},
 						["g"] = {
 							i(224457),	-- Lil Piggy (QS!/QI!)

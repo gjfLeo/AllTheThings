@@ -791,7 +791,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		}),
 		n(QUESTS, {
 			q(72252, {	-- Dragon Isles Fishing [A]
-				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Fishing.",
+				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Fishing. You must not have any items in your profession equipment slot.",
 				["sourceQuests"] = { 67700 },	-- To the Dragon Isles! [A]
 				["provider"] = { "n", 191150 },	-- Danielle Anglers
 				["coord"] = { 81.3, 31.3, THE_WAKING_SHORES },
@@ -799,7 +799,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 				["lockCriteria"] = { 1, "spellID", 366253 },	-- Dragon Isles Fishing
 			}),
 			q(72253, {	-- Dragon Isles Fishing [H]
-				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Fishing.",
+				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Fishing. You must not have any items in your profession equipment slot.",
 				["sourceQuests"] = { 65444 },	-- To the Dragon Isles! [H]
 				["provider"] = { "n", 190524 },	-- Mora Cloudwalker <Fishing Trainer>
 				["coord"] = { 81.0, 29.0, THE_WAKING_SHORES },

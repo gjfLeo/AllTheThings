@@ -16,6 +16,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 		n(SHIPPING_AND_HANDLING, {
 			["description"] = "Complete 10 jobs in a row without canceling your streak to earn a reward. Additionally, every hour at the half-hour mark (or xx:30), a Surge Pricing event will start.\nFor 10 minutes, completing Shipping and Handling tasks will count towards an objective bar that will show up on top of your screen.\nThis will count Shipping and Handling tasks completed by everyone in Undermine.\nDuring Surge Pricing, Shipping and Handling completions give you double rewards.",
 			["groups"] = {
+				n(MISC, {
+					i(225415, {	-- Caddy Caller
+						["provider"] = { "n", 227210 },		-- Nanny Talullah <Shipping and Handling>
+					}),
+				}),
 				n(QUESTS, {
 					q(86775, {	-- Urge to Surge
 						--["sourceQuests"] = { xx },	-- ??
