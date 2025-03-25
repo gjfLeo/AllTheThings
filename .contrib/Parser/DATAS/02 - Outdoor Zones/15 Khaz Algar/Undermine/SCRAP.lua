@@ -276,13 +276,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			}),
 			-- Location quests
 			-- Fire only once per spot (for character?)
-			q(87316),	-- Blackwater Marina
-			q(87315),	-- Emerald Hills Golf Course
-			q(87310),	-- Hovel Hill (North)
-			q(87311),	-- Hovel Hill (South)
-			q(87314),	-- The Heaps
-			q(87312),	-- The Vatworks
-			q(87313),	-- Venturewood
+			-- q(87316),	-- Blackwater Marina
+			-- q(87315),	-- Emerald Hills Golf Course
+			-- q(87310),	-- Hovel Hill (North)
+			-- q(87311),	-- Hovel Hill (South)
+			-- q(87314),	-- The Heaps
+			-- q(87312),	-- The Vatworks
+			-- q(87313),	-- Venturewood
 		}),
 	}),
 })));

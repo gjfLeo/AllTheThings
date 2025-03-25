@@ -155,23 +155,23 @@ namespace ATT
                 //{ "questID", new Dictionary<long, bool>() },
             };
 
-        private static readonly Dictionary<string, Dictionary<long, List<IDictionary<string, object>>>> SOURCED =
-            new Dictionary<string, Dictionary<long, List<IDictionary<string, object>>>>
+        private static readonly Dictionary<string, Dictionary<long, HashSet<IDictionary<string, object>>>> SOURCED =
+            new Dictionary<string, Dictionary<long, HashSet<IDictionary<string, object>>>>
         {
-            { "achID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "itemID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "headerID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "factionID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "flightpathID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "followerID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "missionID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "mountID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "npcID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "objectID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "questID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "recipeID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "spellID", new Dictionary<long, List<IDictionary<string, object>>>() },
-            { "sourceID", new Dictionary<long, List<IDictionary<string, object>>>() },
+            { "achID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "itemID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "headerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "factionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "flightpathID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "followerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "missionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "mountID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "npcID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "objectID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "questID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "recipeID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "spellID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "sourceID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
         };
 
         // TODO: clean all these separate collections into the above

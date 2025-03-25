@@ -290,6 +290,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			o(337237, {	-- Lost Vault
 				["description"] = "Opening a Crypt Door with the Atonement Crypt Key has a chance to reveal this treasure.",
 				["sourceQuests"] = { 57928 },	-- Atonement Crypt Key
+				["coords"] = {{70.3, 54.6,REVENDRETH}},	-- one possible spawn, but all doors are in similar area
 				["cost"] = { { "i", 172957, 1 } },	-- 1x Atonement Crypt Key
 				["g"] = {
 					i(180400),	-- Inquisitions Final Judgment

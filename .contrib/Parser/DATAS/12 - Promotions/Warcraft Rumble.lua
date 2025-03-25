@@ -321,13 +321,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 		q(75712),	-- Warcraft Rumble Minis: New Look!
 		q(75713),	-- Warcraft Rumble Minis: New Look!
 		-- Received Toy
-		q(73101),	-- Maiev
-		q(73379),	-- Murloc
-		q(73368),	-- Night Elf Huntress
-		q(73104),	-- Sneed
-		q(73373),	-- Stonehoof Tauren
-		q(73376),	-- Undead Ghoul
-		q(73382),	-- Whelp Egg
+		-- q(73101),	-- Maiev
+		-- q(73379),	-- Murloc
+		-- q(73368),	-- Night Elf Huntress
+		-- q(73104),	-- Sneed
+		-- q(73373),	-- Stonehoof Tauren
+		-- q(73376),	-- Undead Ghoul
+		-- q(73382),	-- Whelp Egg
 		-- Unlocked Silver look
 		q(73102),	-- Maiev
 		q(73380),	-- Murloc

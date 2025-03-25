@@ -456,7 +456,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		m(ZULDAZAR, {
 			n(WORLD_QUESTS, {
 				q(54324),	-- completing 'Ritual Rampage'
-				q(54776),	-- completing 'Horde of Heroes'
+				-- q(54776),	-- completing 'Horde of Heroes'
 			}),
 		}),
 	}),

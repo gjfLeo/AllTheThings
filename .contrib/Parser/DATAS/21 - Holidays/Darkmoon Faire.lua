@@ -4711,7 +4711,7 @@ FINE_SHORTBOW.u = nil;
 root(ROOTS.HiddenQuestTriggers,{
 	expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_3_2 } }, {
 		n(QUESTS, {
-			q(30562),	-- [DNT] A Fizzy Fusion TRACKER - triggers after completing A Fizzy Fusion (questID 29506)
+			-- q(30562),	-- [DNT] A Fizzy Fusion TRACKER - triggers after completing A Fizzy Fusion (questID 29506)
 			q(30561),	-- [DNT] Fun for the Little Ones TRACKER - triggers after completing Fun For the Little Ones (questID 29507)
 		}),
 	})),

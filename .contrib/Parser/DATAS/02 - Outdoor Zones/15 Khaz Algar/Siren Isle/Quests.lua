@@ -440,18 +440,18 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(SIREN_ISLE, {
 			n(QUESTS, {
 				-- A Choir of Citrines achievement tracking quests
-				q(85674),	-- Storm Sewer's Citrine
-				q(85673),	-- Old Salt's Bardic Citrine
-				q(85672),	-- Mariner's Hallowed Citrine
-				q(85707),	-- Legendary Skipper's Citrine
-				q(85708),	-- Seabed Leviathan's Citrine
-				q(85709),	-- Roaring War-Queen's Citrine
-				q(85676),	-- Stormbringer's Runed Citrine
-				q(85677),	-- Fathomdweller's Runed Citrine
-				q(85675),	-- Windsinger's Runed Citrine
-				q(85669),	-- Thunderlord's Crackling Citrine
-				q(85670),	-- Undersea Overseer's Citrine
-				q(85671),	-- Squall Sailor's Citrine
+				-- q(85674),	-- Storm Sewer's Citrine
+				-- q(85673),	-- Old Salt's Bardic Citrine
+				-- q(85672),	-- Mariner's Hallowed Citrine
+				-- q(85707),	-- Legendary Skipper's Citrine
+				-- q(85708),	-- Seabed Leviathan's Citrine
+				-- q(85709),	-- Roaring War-Queen's Citrine
+				-- q(85676),	-- Stormbringer's Runed Citrine
+				-- q(85677),	-- Fathomdweller's Runed Citrine
+				-- q(85675),	-- Windsinger's Runed Citrine
+				-- q(85669),	-- Thunderlord's Crackling Citrine
+				-- q(85670),	-- Undersea Overseer's Citrine
+				-- q(85671),	-- Squall Sailor's Citrine
 				--
 				q(85070),	-- when Special Assigment npc unlocked for storm phase (pop talking head)
 				-- Snapdragon timer after quest

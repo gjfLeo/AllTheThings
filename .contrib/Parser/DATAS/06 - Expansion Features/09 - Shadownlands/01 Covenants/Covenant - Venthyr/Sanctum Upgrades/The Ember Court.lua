@@ -2461,7 +2461,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 					q(61890),	-- 4th free revoke RSVP per week
 
 				-- First Time Elated
-					q(62507),	-- First time Elated with 'Rendle & Cudgelface'
+					-- q(62507),	-- First time Elated with 'Rendle & Cudgelface'
 
 				-- Events
 					q(60785),	-- 'Party Crashers' started
@@ -2539,12 +2539,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 					q(61922),	-- seems to be an indicator that Restock: Stolen Rugs will be required for the next Ember Court (spellID 345206)
 					q(61937),	-- seems to be an indicator that Restock: Statues will be required for the next Ember Court
 					q(61925),	-- completed when completing a 'Restock' quest
-					q(62524),	-- triggered at end of Ember Court (Vashj/Koryan/Choofa/Stonehead)
-					q(62521),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
-					q(62523),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
-					q(62525),	-- 'Relaxing' criteria for It's Certainly Never Boring
-					q(62526),	-- 'Exciting' criteria for It's Certainly Never Boring
-					q(62520),	-- 'Clean' criteria for It's Certainly Never Boring
+					-- q(62524),	-- triggered at end of Ember Court (Vashj/Koryan/Choofa/Stonehead)
+					-- q(62521),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
+					-- q(62523),	-- 'Safe/Humble' criteria for It's Certainly Never Boring
+					-- q(62525),	-- 'Relaxing' criteria for It's Certainly Never Boring
+					-- q(62526),	-- 'Exciting' criteria for It's Certainly Never Boring
+					-- q(62520),	-- 'Clean' criteria for It's Certainly Never Boring
 					q(61930),	-- Triggered after Restock: Medic's Tent
 					q(61931),	-- Restocked Ember Court security
 					q(61934),	-- triggered on first non-tutorial ember court when the preparation timer finished
@@ -2555,7 +2555,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 					--q(61825),	-- During Ember Court after finishin Glimpse of the Wilds Niya's minigame
 					q(61941),	-- Flagged at start and unflagged at end of Ember Court
 					q(61926),	-- Maybe Revendreth Etiquette?
-					q(63353),	-- Triggered after turning in Red Noggin Candle as criteria for Rendle's Big Day
+					-- q(63353),	-- Triggered after turning in Red Noggin Candle as criteria for Rendle's Big Day
 					q(61414),	-- Faulty Fireworks (+Safe)
 					q(61939),	-- triggered when Ember Court began for the week (after the initial wave of "Quest accepted," after the pre-event when you can mingle with guests)
 					q(61942),	-- also triggered completed upon finishing the "Animal Rescue" objective
@@ -2573,41 +2573,41 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 					q(60955),	-- "Noko's Flute," same as above
 					q(61433),	-- "Lower Your Standards," for turning in Giant Lungcap to Picky Stefan
 					q(61445),	-- triggered completed upon turning in gossip to Prince Renathal for the "Venthyr Provocateur" objective (assume this is for sharing the gossip to make court +Exciting)
-					q(62496),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
-					q(62512),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
-					q(62499),	-- triggered when Ember Court ended, Week 2 (had Kleia + Pelagos as guests and they were Elated)
-					q(62515),	-- triggered when Ember Court ended, Week 2 (had Kleia + Pelagos as guests and they were Elated)
-					q(62500),	-- triggered when Ember Court ended, Week 4 (had Plague Deviser Marileth as guest and he was elated)
-					q(62516),	-- triggered when Ember Court ended, Week 4 (had Plague Deviser Marileth as guest and he was elated)
-					q(62498),	-- triggered when Ember Court ended, Week 5 (had Grandmaster Vole as guest and he was elated)
-					q(62514),	-- triggered when Ember Court ended, Week 5 (had Grandmaster Vole as guest and he was elated)
-								-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-					q(62504),	-- triggered when Ember Court ended, First Lady Moonberry Elated & "Messy" at Max?
-					q(62519),	-- triggered when Ember Court ended, First Lady Moonberry Elated & "Messy" at Max?
-					q(62497),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-					q(62501),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-					q(62513),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-					q(62517),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
-					q(62528),	-- triggered when Ember Court Ended, i give up on tracking weeks, but had Kleia+Pelagos and Cryptkeeper Kassir as guests and they were Elated.  no previous K+P/Cryptkeeper quests triggered
-					q(62508),	-- Ember Court End - (Alexandros Mograine:Elated / Droman Aliothe: Uncomfortable / Sika: Elated - got Alexandros Mograine criteria for People Pleaser + Be Our Guest, possibly that, since i'd done ECs with the other 2 before)
-					q(62490),	-- Ember Court End - (Droman Aliothe:Elated / Cryptkeeper Kassir:Elated / Polemarch Adrestes:Elated / The Countess:Elated)
-					q(62491),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-					q(62495),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-					q(62511),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
-					q(62492),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
-					q(62506),	-- Ember Court End - (Droman Aliothe:Elated / Cryptkeeper Kassir:Elated / Polemarch Adrestes:Elated / The Countess:Elated)
-					q(62509),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
-					q(62522),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
-					q(62489),	-- Ember Court End - (Kleia&Pelagos / Mikanikos / Alexandros / Sika, all elated - Mikanikos only one i hadn't done before.  also got We Happy Few, so possibly one of these is related to that) - next week's automatic assigned pickups were Choofa, Droman Aliothe, Rendle and Cudgelface, and Lady Moonberry
-					q(62505),	-- ""
-					q(62487),	-- Ember Court End - Baroness/H-C K/Choofa/Stonehead Elated
-					q(62503),	-- Ember Court End - Baroness/H-C K/Choofa/Stonehead Elated
-					q(62488),	-- Ember Court End - (Lady Moonberry / Rendle&Cudgelface as first-time guests, Elated and Very Happy respectively, had Casual maxed)
-					q(62494),	-- ""
-					q(62518),	-- ""
-					q(62527),	-- ""
-					q(62493),	-- Ember Court End (The Countess / Polemarch Adrestes as first-time guests, both Elated)
-					q(62510),	-- ""
+					-- q(62496),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
+					-- q(62512),	-- triggered when Ember Court ended, Week 1 (had Cryptkeeper Kassir as guest and he was Elated)
+					-- q(62499),	-- triggered when Ember Court ended, Week 2 (had Kleia + Pelagos as guests and they were Elated)
+					-- q(62515),	-- triggered when Ember Court ended, Week 2 (had Kleia + Pelagos as guests and they were Elated)
+					-- q(62500),	-- triggered when Ember Court ended, Week 4 (had Plague Deviser Marileth as guest and he was elated)
+					-- q(62516),	-- triggered when Ember Court ended, Week 4 (had Plague Deviser Marileth as guest and he was elated)
+					-- q(62498),	-- triggered when Ember Court ended, Week 5 (had Grandmaster Vole as guest and he was elated)
+					-- q(62514),	-- triggered when Ember Court ended, Week 5 (had Grandmaster Vole as guest and he was elated)
+					-- 			-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
+					-- q(62504),	-- triggered when Ember Court ended, First Lady Moonberry Elated & "Messy" at Max?
+					-- q(62519),	-- triggered when Ember Court ended, First Lady Moonberry Elated & "Messy" at Max?
+					-- q(62497),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
+					-- q(62501),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
+					-- q(62513),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
+					-- q(62517),	-- triggered when Ember Court ended, Week 6 (Droman Aliothe and Sika as guests and they were elated)
+					-- q(62528),	-- triggered when Ember Court Ended, i give up on tracking weeks, but had Kleia+Pelagos and Cryptkeeper Kassir as guests and they were Elated.  no previous K+P/Cryptkeeper quests triggered
+					-- q(62508),	-- Ember Court End - (Alexandros Mograine:Elated / Droman Aliothe: Uncomfortable / Sika: Elated - got Alexandros Mograine criteria for People Pleaser + Be Our Guest, possibly that, since i'd done ECs with the other 2 before)
+					-- q(62490),	-- Ember Court End - (Droman Aliothe:Elated / Cryptkeeper Kassir:Elated / Polemarch Adrestes:Elated / The Countess:Elated)
+					-- q(62491),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
+					-- q(62495),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
+					-- q(62511),	-- Ember Court End - (Choofa:Elated / Alexander Mograine:Miserable / Grandmaster Vole:Elated)
+					-- q(62492),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
+					-- q(62506),	-- Ember Court End - (Droman Aliothe:Elated / Cryptkeeper Kassir:Elated / Polemarch Adrestes:Elated / The Countess:Elated)
+					-- q(62509),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
+					-- q(62522),	-- Ember Court End - (Choofa:Elated / Grandmaster Vole:Elated / Hunt-Captain Korayn:Elated)
+					-- q(62489),	-- Ember Court End - (Kleia&Pelagos / Mikanikos / Alexandros / Sika, all elated - Mikanikos only one i hadn't done before.  also got We Happy Few, so possibly one of these is related to that) - next week's automatic assigned pickups were Choofa, Droman Aliothe, Rendle and Cudgelface, and Lady Moonberry
+					-- q(62505),	-- ""
+					-- q(62487),	-- Ember Court End - Baroness/H-C K/Choofa/Stonehead Elated
+					-- q(62503),	-- Ember Court End - Baroness/H-C K/Choofa/Stonehead Elated
+					-- q(62488),	-- Ember Court End - (Lady Moonberry / Rendle&Cudgelface as first-time guests, Elated and Very Happy respectively, had Casual maxed)
+					-- q(62494),	-- ""
+					-- q(62518),	-- ""
+					-- q(62527),	-- ""
+					-- q(62493),	-- Ember Court End (The Countess / Polemarch Adrestes as first-time guests, both Elated)
+					-- q(62510),	-- ""
 					q(61731),	-- Ember Court - after completing Magical Curios
 
 				-- Baroness Vashj Decrees

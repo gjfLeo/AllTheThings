@@ -2089,7 +2089,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["time
 				q(34332),	-- Shamanstone: Touched By Fire selected. Only procs once
 				q(34333),	-- Shamanstone: Touched By Ice selected. Only procs once
 				q(34328),	-- Shamanstone: Blessing of the WOlf selected. Only procs once
-				q(34521),	-- Treasure: Glowing Obsidian Shard - secondary quest triggered when looting Burning Pearl in Frostfire Ridge
+				-- q(34521),	-- Treasure: Glowing Obsidian Shard - secondary quest triggered when looting Burning Pearl in Frostfire Ridge
 				q(34968),	-- Treasure: Ice-Covered Supplies - secondary quest triggered when looting Forgotten Supplies in Frostfire Ridge
 			}),
 		}),

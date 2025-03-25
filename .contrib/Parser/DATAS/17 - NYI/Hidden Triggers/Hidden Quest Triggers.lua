@@ -406,12 +406,12 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54771),	-- triggered when turning in #53701, "A Drust Cause," drustvar assault.  had WM on but i'm not sure if that's relevant
 		q(54782),	-- triggered when turning in #53711, "A Sound Defense," tiragarde sound assault.  had WM on but i'm not sure if that's relevant
 		q(54779),	-- triggered when turning in #54138, "Ritual Rampage," zuldazar assault.  had WM on but i'm not sure if that's relevant
-		q(54323),	-- triggered when turning in #53883, "Shores of Zuldazar," zuldazar assault.  had WM on
-		q(54780),	-- triggered when turning in #53883, "Shores of Zuldazar," zuldazar assault.  had WM on
-		q(54314),	-- triggered when turning in #53939, "Breaching Boralus," tiragade sound assault.  had WM on
-		q(54769),	-- triggered when turning in #53939, "Breaching Boralus," tiragade sound assault.  had WM on
-		q(54322),	-- triggered when turning in #53885, "Isolated Victory," vol'dun assault.  had WM on
-		q(54778),	-- triggered when turning in #53885, "Isolated Victory," vol'dun assault.  had WM on
+		-- q(54323),	-- triggered when turning in #53883, "Shores of Zuldazar," zuldazar assault.  had WM on
+		-- q(54780),	-- triggered when turning in #53883, "Shores of Zuldazar," zuldazar assault.  had WM on
+		-- q(54314),	-- triggered when turning in #53939, "Breaching Boralus," tiragade sound assault.  had WM on
+		-- q(54769),	-- triggered when turning in #53939, "Breaching Boralus," tiragade sound assault.  had WM on
+		-- q(54322),	-- triggered when turning in #53885, "Isolated Victory," vol'dun assault.  had WM on
+		-- q(54778),	-- triggered when turning in #53885, "Isolated Victory," vol'dun assault.  had WM on
 		q(57593),	-- triggered when talking to chromie in CoT during the 2019 anniversary event, before turning in #57249, "A Timely Invitation"
 		q(54035),	-- Blessing of the Night Warden unlock chain started
 		q(53956),	-- Triggered when turning in "We Are Coming" as alliance. Probably related to darkshore warfront unlock?
@@ -420,7 +420,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(55494),	-- Torcali quest of the day completed
 		q(58881),	-- triggered when i fed the uldum friendly alpaca for the last time (not with the quest that gives the mount afterward, but the final feed)
 		q(59072),	-- speaking to Tasha Riley and joining the Council of Chaos in the BRD pet battle dungeon
-		q(54635),	-- additional version of Mekkatorque's Battle Plans, presumably if you don't pick it up from a mob during "Killing on the Side," but idk how that could happen
+		-- q(54635),	-- additional version of Mekkatorque's Battle Plans, presumably if you don't pick it up from a mob during "Killing on the Side," but idk how that could happen
 		q(54704),	-- War Campaign - triggered when turning in "Time for War"
 		q(53147),	-- Zuldazar - Triggered when turning in "The Zanchuli Council". No idea what the ID is used to track
 		q(53532),	-- Zuldazar - Triggered when picking up "Tales of de Loa: Akunda". Makes the loa book available to read in The Great Seal
@@ -440,8 +440,8 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(53548),	-- Zuldazar - Triggered when picking up "Tales of de Loa: Zandalar". Makes the loa book available to read in The Great Seal
 		q(54950),	-- when turning in "The Lord Admiral's Lament" and watching the Jaina cinematic
 		q(55610),	-- completing "Spy on Warfang Hold," part of "Spy Versus Spy," quest #55171
-		q(54326),	-- triggered when turning in #54135, "Romp in the Swamp," had WM off
-		q(54774),	-- triggered when turning in #54135, "Romp in the Swamp," had WM on
+		-- q(54326),	-- triggered when turning in #54135, "Romp in the Swamp," had WM off
+		-- q(54774),	-- triggered when turning in #54135, "Romp in the Swamp," had WM on
 		q(55241),	-- closing the second to last rift while on #55214, "Seam Stress"
 		q(55237),	-- closing the last rift while on #55214, "Seam Stress"
 		q(50657),	-- not sure if this is part of the Vulpera allied race questline?  i turned in #53907, picked up #53908, learned the "Nomi's Vintage" toy, refreshed (nothing), went and took the portal from the vineyard to shal'aran, and this popped.  it popped immediately when i clicked the portal
@@ -460,15 +460,15 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54180),	-- Quest — capping 500 Conquest
 		-- all 3 'secret supply chest' quests trigger at once.  possibly for 3 potential chests in the zone?  not sure why horde/alliance would have one shared quest and two different quests, though.
 		q(55375),	-- Drustvar Secret Supply Chest (playing as Alliance)
-		q(54715),	-- Drustvar Secret Supply Chest (playing as Alliance)
-		q(54717),	-- Nazmir Secret Supply Chest (playing as Alliance)
+		-- q(54715),	-- Drustvar Secret Supply Chest (playing as Alliance)
+		-- q(54717),	-- Nazmir Secret Supply Chest (playing as Alliance)
 		q(55387),	-- Nazmir Secret Supply Chest (playing as Alliance)
 		q(55388),	-- Stormsong Valley Secret Supply Chest (playing as Alliance)
-		q(54714),	-- Tiragarde Sound Secret Supply Chest
+		-- q(54714),	-- Tiragarde Sound Secret Supply Chest
 		q(55347),	-- Tiragarde Sound Secret Supply Chest
-		q(54718),	-- Vol'dun Secret Supply Chest (playing as Alliance)
+		-- q(54718),	-- Vol'dun Secret Supply Chest (playing as Alliance)
 		q(55389),	-- Vol'dun Secret Supply Chest (playing as Alliance)
-		q(54720),	-- Zuldazar Secret Supply Chest (playing as Horde)
+		-- q(54720),	-- Zuldazar Secret Supply Chest (playing as Horde)
 		q(55391),	-- Zuldazar Secret Supply Chest (playing as Horde and Alliance)
 		q(53640),	-- Zuldazar Secret Supply Chest (as Horde) / Zuldazar, Stormsong Valley (as Alliance), Tiragarde, Nazmir, Vol'dun, Drustvar (as Alliance) (it probably triggers on both factions in all old BfA zones)
 		q(55408),	-- looting War Supply Crate in Drustvar on Alliance (not secret chest)
@@ -860,7 +860,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(58064),	-- when choosing House Sourwine while on "Enacting Immediate Justice"
 		q(58065),	-- when choosing House Duskmire while on "Enacting Immediate Justice"
 		q(58066),	-- when choosing House Sinfang while on "Enacting Immediate Justice"
-		q(62502),	-- triggered at the end of Ember Court, before collecting tribute/leaving (week 3)
+		-- q(62502),	-- triggered at the end of Ember Court, before collecting tribute/leaving (week 3)
 		q(60607),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as assassin)	— incremental power/ability boosts each time you complete the WQ
 		q(60610),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as assassin)
 		q(60612),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor rank 2 WQ (as assassin)
@@ -874,16 +874,16 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(60302),	-- when channeling anima to Dominance Keep for the first time
 		q(62533),	-- when completing 'Sootible Hat: Pink Party Hat' (62556)
 		q(62534),	-- when completing 'Sootible Hat: Pink Party Hat' (62556) (2nd time)
-		q(63354),	-- when completing 'Sootible Hat: Pink Party Hat' (62556)
+		-- q(63354),	-- when completing 'Sootible Hat: Pink Party Hat' (62556)
 		q(62531),	-- when completing 'Sootible Hat: Crown of the Righteous' (62559)
-		q(63356),	-- when completing 'Sootible Hat: Crown of the Righteous' (62559)
+		-- q(63356),	-- when completing 'Sootible Hat: Crown of the Righteous' (62559)
 		q(60301),	-- channeling anima to The Shrouded Asylum for the first time
 		q(61224),	-- "Ashen Urn" buff from Anima Conductor
 		q(61197),	-- "Mobile Mirror Set" buff from Anima Conductor
 		q(61210),	-- "Thirst for Anima" buff from Anima Conductor
 		q(61577),	-- triggered when turning in #62174, "A Proper Cover"
 		q(62532),	-- think this was from doing the Sootible Hat: Pink Party Hat quest
-		q(63355),	-- think this was from doing the Sootible Hat: Fae Revel Mask quest (these 2 may be swapped/opposite, they both popped at once)
+		-- q(63355),	-- think this was from doing the Sootible Hat: Fae Revel Mask quest (these 2 may be swapped/opposite, they both popped at once)
 
 		-- 9.1 PTR
 		q(64274),	-- triggered when logging in on 4/30/21 - ptr.wowhead.com says this is a tracking quest for "NPC #179868 slain (5)" and "Dusklight Matriarch [id #179871] slain."  i couldn't see anything on the map that was attached to this quest ID so idk!!  there IS a WQ up in the maw, but it's 64273, not 64274.  but possibly this is tied to the active status of a maw wq, not sure
