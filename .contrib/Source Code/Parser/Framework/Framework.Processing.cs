@@ -653,8 +653,6 @@ namespace ATT
                 return false;
             }
 
-            //data.DataBreakPoint("itemID", 15066);
-
             Validate_InheritedFields(data, parentData);
 
             if (!data.ContainsKey("timeline"))
@@ -685,6 +683,7 @@ namespace ATT
             Validate_Quest(data);
 
             Validate_LocalizableData(data);
+            Validate_ReferencedIDs(data);
 
             // If this item has an "unobtainable" flag on it, meaning for a different phase of content.
             if (data.TryGetValue("u", out long phase))
@@ -718,33 +717,9 @@ namespace ATT
                 //Log("Removed ignoreBonus modID", data.GetString("itemID"));
             }
 
-            if (data.TryGetValue("categoryID", out long categoryID)) ProcessCategoryObject(data, categoryID);
-            if (data.TryGetValue("qg", out long tempId))
-            {
-                NPCS_WITH_REFERENCES[tempId] = true;
-                MarkCustomHeaderAsRequired(tempId);
-            }
-            if (data.TryGetValue("qgs", out List<object> qgs))
-            {
-                foreach (var qg in qgs)
-                {
-                    var id = Convert.ToInt64(qg);
-                    NPCS_WITH_REFERENCES[id] = true;
-                    MarkCustomHeaderAsRequired(id);
-                }
-            }
-            if (data.TryGetValue("crs", out qgs))
-            {
-                foreach (var qg in qgs)
-                {
-                    var id = Convert.ToInt64(qg);
-                    NPCS_WITH_REFERENCES[id] = true;
-                    MarkCustomHeaderAsRequired(id);
-                }
-            }
-            if (data.TryGetValue("flightpathID", out long flightpathID)) FLIGHTPATHS_WITH_REFERENCES[flightpathID] = true;
-            if (data.TryGetValue("objectID", out tempId)) OBJECTS_WITH_REFERENCES[tempId] = true;
-            if (data.TryGetValue("artifactID", out tempId) && !data.ContainsKey("sourceID") && Objects.ArtifactSources.TryGetValue(tempId, out Dictionary<string, long> sources))
+            if (data.TryGetValue("artifactID", out long tempId)
+                && !data.ContainsKey("sourceID")
+                && Objects.ArtifactSources.TryGetValue(tempId, out Dictionary<string, long> sources))
             {
                 // off-hand artifact source
                 if (data.ContainsKey("isOffHand"))
@@ -1353,6 +1328,39 @@ namespace ATT
                     sources.Add(data);
                 }
             }
+        }
+
+        private static void Validate_ReferencedIDs(IDictionary<string, object> data)
+        {
+            if (data.TryGetValue("categoryID", out long categoryID))
+                ProcessCategoryObject(data, categoryID);
+            if (data.TryGetValue("qg", out long tempId))
+            {
+                NPCS_WITH_REFERENCES[tempId] = true;
+                MarkCustomHeaderAsRequired(tempId);
+            }
+            if (data.TryGetValue("qgs", out List<object> qgs))
+            {
+                foreach (var qg in qgs)
+                {
+                    var id = Convert.ToInt64(qg);
+                    NPCS_WITH_REFERENCES[id] = true;
+                    MarkCustomHeaderAsRequired(id);
+                }
+            }
+            if (data.TryGetValue("crs", out qgs))
+            {
+                foreach (var qg in qgs)
+                {
+                    var id = Convert.ToInt64(qg);
+                    NPCS_WITH_REFERENCES[id] = true;
+                    MarkCustomHeaderAsRequired(id);
+                }
+            }
+            if (data.TryGetValue("flightpathID", out long flightpathID))
+                FLIGHTPATHS_WITH_REFERENCES[flightpathID] = true;
+            if (data.TryGetValue("objectID", out tempId))
+                OBJECTS_WITH_REFERENCES[tempId] = true;
         }
 
         private static void Validate_LocalizableData(IDictionary<string, object> data)
@@ -3687,7 +3695,7 @@ namespace ATT
                     if (!provider[1].TryConvert(out long pID))
                         continue;
 
-                    Dictionary<string, object> providerData;
+                    Dictionary<string, object> providerData = null;
                     string pType = provider[0] as string;
                     switch (pType)
                     {
@@ -3714,9 +3722,17 @@ namespace ATT
                             }
                             Objects.Merge(parentData, "g", providerData);
                             break;
-
                     }
+                    Validate_ReferencedIDs(providerData);
+                    LogDebug($"Nested 'provider' {pType}:{pID} to parent from Objective", parentData);
                 }
+            }
+
+            // Cost for objectives merges into 'cost' on the parent data
+            if (data.TryGetValue("cost", out object costObj) && costObj.TryConvert(out Cost cost))
+            {
+                Objects.Merge(parentData, "cost", cost);
+                LogDebug($"Merged 'cost' to parent from Objective {cost}", parentData);
             }
         }
 
