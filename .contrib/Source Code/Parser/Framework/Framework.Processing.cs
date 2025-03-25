@@ -2817,15 +2817,31 @@ namespace ATT
                             // if there's a 2nd (or more) then ignore assigning the questID from a specific Spell
                             if (spellEffectEnumerator.MoveNext())
                             {
-                                LogDebug($"INFO: Ignored assignment of Item 'questID' {questID} due to multiple SpellEffect use", data);
+                                LogDebug($"INFO: Ignored assignment of SpellEffect 'questID' {questID} due to multiple SpellEffect use", data);
                             }
                             else
                             {
                                 // we only want to attach a questID to an item if that Quest is only linked via 1 SpellEffect...
-                                Objects.Merge(data, "questID", questID);
-                                LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
-                                Objects.MergeQuestData(data);
-                                TrackIncorporationData(data, "questID", questID);
+                                // and not already Sourced as a Quest
+                                if (!TryGetSOURCED("questID", questID, out var sourcedQuests))
+                                {
+                                    Objects.Merge(data, "questID", questID);
+                                    LogDebug($"INFO: Assigned SpellEffect 'questID' {questID}", data);
+                                    Objects.MergeQuestData(data);
+                                    TrackIncorporationData(data, "questID", questID);
+                                }
+                                else if (sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedQuest))
+                                {
+                                    // TODO: LogWarn once all cleaned up
+                                    LogDebugWarn($"SpellEffect 'questID' {questID} is currently listed in Unsorted but should be directly linked on the trigger group. Remove Unsorted group so the QuestID is not duplicated", data);
+                                    Objects.Merge(data, "questID", questID);
+                                    Objects.MergeQuestData(data);
+                                    TrackIncorporationData(data, "questID", questID);
+                                }
+                                else
+                                {
+                                    LogDebug($"INFO: Ignoring SpellEffect 'questID' {questID} since it is already Sourced", data);
+                                }
                             }
                         }
                     }
