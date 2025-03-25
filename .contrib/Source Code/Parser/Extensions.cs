@@ -364,14 +364,22 @@ namespace ATT
         /// </summary>
         /// <param name="groups"></param>
         /// <returns></returns>
-        public static bool AnyMatchingGroup(this List<IDictionary<string, object>> groups, Func<IDictionary<string, object>, bool> check)
+        public static bool TryGetAnyMatchingGroup(
+            this IEnumerable<IDictionary<string, object>> groups,
+            Func<IDictionary<string, object>, bool> check,
+            out IDictionary<string, object> matchedGroup)
         {
-            if (groups == null || groups.Count == 0) return false;
+            matchedGroup = null;
+            if (groups == null || !groups.Any())
+                return false;
 
             foreach (IDictionary<string, object> data in groups)
             {
                 if (check(data))
+                {
+                    matchedGroup = data;
                     return true;
+                }
             }
 
             return false;

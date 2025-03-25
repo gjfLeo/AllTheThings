@@ -1011,8 +1011,8 @@ namespace ATT
             {
                 foreach (var sourcedListByKey in GetAllMatchingSOURCED(data))
                 {
-                    var sourcedData = Objects.FindMatchingData(sourcedListByKey.AsTypedEnumerable<object>(), data);
-                    if (sourcedData != null)
+                    // check for all _unsorted records in the SOURCED groups
+                    if (sourcedListByKey.Any(d => !d.ContainsKey("_unsorted")))
                     {
                         LogDebugWarn($"Unsorted data has also been Sourced", data);
                         break;
@@ -1117,12 +1117,13 @@ namespace ATT
             List<IDictionary<string, object>> rawSources = new List<IDictionary<string, object>>();
             foreach (long sourceID in sourceIDs.AsTypedEnumerable<long>())
             {
-                if (TryGetSOURCED("sourceID", sourceID, out List<IDictionary<string, object>> sources) && sources.AnyMatchingGroup(IsObtainableData))
+                if (TryGetSOURCED("sourceID", sourceID, out HashSet<IDictionary<string, object>> sources)
+                    && sources.TryGetAnyMatchingGroup(IsObtainableData, out var matched))
                 {
                     // this SourceID is Sourced & Obtainable elsewhere, symlink it to the Ensemble
                     // TODO: eventually use new 'Sourced' implementation so that child elements can indicate via tooltip that they are obtainable
                     // via Ensemble Source without having to be directly listed as a group under that Ensemble
-                    symlinkSources.Add(sources[0]);
+                    symlinkSources.Add(matched);
                 }
                 else
                 {
@@ -1272,9 +1273,9 @@ namespace ATT
             data["_remove"] = false;
         }
 
-        private static bool TryGetSOURCED(string field, object idObj, out List<IDictionary<string, object>> sources)
+        private static bool TryGetSOURCED(string field, object idObj, out HashSet<IDictionary<string, object>> sources)
         {
-            if (SOURCED.TryGetValue(field, out Dictionary<long, List<IDictionary<string, object>>> fieldSources)
+            if (SOURCED.TryGetValue(field, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
                 && idObj is long id
                 && id > 0
                 && fieldSources.TryGetValue(id, out sources))
@@ -1286,13 +1287,13 @@ namespace ATT
             return false;
         }
 
-        private static IEnumerable<List<IDictionary<string, object>>> GetAllMatchingSOURCED(IDictionary<string, object> data)
+        private static IEnumerable<HashSet<IDictionary<string, object>>> GetAllMatchingSOURCED(IDictionary<string, object> data)
         {
             foreach (KeyValuePair<string, object> field in data)
             {
-                if (SOURCED.TryGetValue(field.Key, out Dictionary<long, List<IDictionary<string, object>>> fieldSources)
+                if (SOURCED.TryGetValue(field.Key, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources)
                     && field.Value is long id && id > 0
-                    && fieldSources.TryGetValue(id, out List<IDictionary<string, object>> objectSources))
+                    && fieldSources.TryGetValue(id, out HashSet<IDictionary<string, object>> objectSources))
                 {
                     yield return objectSources;
                 }
@@ -1301,13 +1302,11 @@ namespace ATT
 
         private static void CaptureForSOURCED(IDictionary<string, object> data, string field, object idObj)
         {
-            if (ProcessingUnsortedCategory) return;
-
-            if (SOURCED.TryGetValue(field, out Dictionary<long, List<IDictionary<string, object>>> fieldSources) && idObj is long id && id > 0)
+            if (SOURCED.TryGetValue(field, out Dictionary<long, HashSet<IDictionary<string, object>>> fieldSources) && idObj is long id && id > 0)
             {
-                if (!fieldSources.TryGetValue(id, out List<IDictionary<string, object>> sources))
+                if (!fieldSources.TryGetValue(id, out HashSet<IDictionary<string, object>> sources))
                 {
-                    fieldSources[id] = sources = new List<IDictionary<string, object>>();
+                    fieldSources[id] = sources = new HashSet<IDictionary<string, object>>();
                 }
                 sources.Add(data);
             }
@@ -1315,15 +1314,13 @@ namespace ATT
 
         private static void CaptureForSOURCED(IDictionary<string, object> data)
         {
-            if (ProcessingUnsortedCategory) return;
-
             foreach (var kvp in SOURCED)
             {
                 if (data.TryGetValue(kvp.Key, out long id) && id > 0)
                 {
-                    if (!kvp.Value.TryGetValue(id, out List<IDictionary<string, object>> sources))
+                    if (!kvp.Value.TryGetValue(id, out HashSet<IDictionary<string, object>> sources))
                     {
-                        kvp.Value[id] = sources = new List<IDictionary<string, object>>();
+                        kvp.Value[id] = sources = new HashSet<IDictionary<string, object>>();
                     }
                     sources.Add(data);
                 }
@@ -2998,24 +2995,37 @@ namespace ATT
                 // if the Criteria attempts to clone into a Quest which isn't Sourced or is Unsorted, then don't remove it and convert into a 'sourceQuests' list instead
                 if (data.TryGetValue("_quests", out List<object> questObjs))
                 {
-                    List<long> questList = new List<long>();
+                    List<long> unsourcedQuests = new List<long>();
                     foreach (long questID in questObjs.AsTypedEnumerable<long>())
                     {
-                        if (!SOURCED["questID"].TryGetValue(questID, out List<IDictionary<string, object>> questRefs) || questRefs.All(d => d.ContainsKey("_unsorted")))
+                        if (!TryGetSOURCED("questID", questID, out HashSet<IDictionary<string, object>> questRefs)
+                            || questRefs.All(d => d.ContainsKey("_unsorted")))
                         {
-                            // remove the creatures which are not sourced from being reported as failed to merge
+                            // remove the quests which are not sourced from being reported as failed to merge
                             Objects.TrackPostProcessMergeKey("questID", questID);
-                            questList.Add(questID);
-                            data.TryGetValue("achID", out long achID);
-                            LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsorted Quest {questID}. Consider adjusting Quest listing");
+                            unsourcedQuests.Add(questID);
                         }
                     }
 
-                    // if every quest linked to a criteria is not sourced, then convert into a sourcequests list instead
-                    if (questList.Count == questObjs.Count)
+                    data.TryGetValue("achID", out long achID);
+                    // if there is a single, unsourced quest linked to the criteria, just assign the questID on the criteria
+                    if (unsourcedQuests.Count == 1)
                     {
-                        Objects.Merge(data, "sourceQuests", questList);
+                        Objects.Merge(data, "questID", unsourcedQuests[0]);
                         cloned = false;
+                        LogDebug($"INFO: Criteria {achID}:{criteriaID} assigned HQT Quest {unsourcedQuests[0]}");
+                    }
+                    // if multiple unsourced quests linked to a criteria, then convert into a sourcequests list instead
+                    else if (unsourcedQuests.Count == questObjs.Count)
+                    {
+                        Objects.Merge(data, "sourceQuests", unsourcedQuests);
+                        cloned = false;
+                        LogDebugWarn($"Criteria {achID}:{criteriaID} not nested to Unsorted Quest(s) {ToJSON(unsourcedQuests)}. Consider adjusting Quest listing");
+                    }
+                    else if (unsourcedQuests.Count > 0)
+                    {
+                        // report weird situation, partially unsourced quests...?
+                        LogDebugWarn($"Criteria {achID}:{criteriaID} has partially sourced Quest(s): {ToJSON(questObjs)} Unsourced: {ToJSON(unsourcedQuests)}. Consider adjusting Quest listing");
                     }
                 }
                 // if the Criteria attempts to clone into a Spell which is on an Item, then put the Item as a 'provider' instead, if otherwise add the spell to 'providers'
@@ -3184,15 +3194,15 @@ namespace ATT
                     continue;
                 }
 
-                // TODO: hmmm this really should reference SOURCED instead... lots of sourceQuests are in NYI or unsorted...
-                //if (!TryGetSOURCED("questID", sourceQuestID, out List<IDictionary<string, object>> sourceQuestObjs))
-                if (!Objects.AllQuests.TryGetValue(sourceQuestID, out IDictionary<string, object> sourceQuest))
+                // TODO: eventually add check for _unsorted to ensure all sourceQuests are present in Main list
+                if (!TryGetSOURCED("questID", sourceQuestID, out HashSet<IDictionary<string, object>> sourceQuestObjs))
                 {
-                    // Source Quest not in database
+                    // Source Quest not in database *anywhere*
                     LogError($"Referenced Source Quest {sourceQuestID} has not been Sourced");
                     continue;
                 }
 
+                var sourceQuest = sourceQuestObjs.FirstOrDefault(q => !q.ContainsKey("_unsorted"));
                 // source quest of this data is considered a breadcrumb, so note in the source quest it has a specific follow up
                 if (sourceQuest.TryGetValue("isBreadcrumb", out bool isBreadcrumb) && isBreadcrumb)
                 {
