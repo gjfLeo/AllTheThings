@@ -58,6 +58,8 @@ namespace ATT.DB.Types
             GetModifierTreeID() > 0 ||
             // Reveal world map overlay "{WorldMapOverlay}" (Exploration stuff)
             Type == 43 ||
+            // Equip item in slot "{$Equip Slot}"
+            Type == 49 ||
             // Mythic Plus Completed
             Type == 216;
 
