@@ -1127,7 +1127,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 				q(76680),	-- after buying/loot 'Order-Powered Mechblade' (itemID 206807) (spellID 418901)
 				q(76682),	-- after buying/loot 'Overclocked Hand Cannon' (itemID 206780) (spellID 418900)
 				q(76620),	-- after buying/loot 'Paracausal Fragment of Azzinoth' (itemID 206972) (spellID 418899)
-				q(76677),	-- after buying/loot 'Paracausal Fragment of Doomhammer' (itemID 206964) (spellID 418898)
+				-- q(76677),	-- after buying/loot 'Paracausal Fragment of Doomhammer' (itemID 206964) (spellID 418898)
 				q(76696),	-- after buying/loot 'Paracausal Fragment of Frostmourne' (itemID 206983) (spellID 418897)
 				q(76704),	-- after buying/loot 'Paracausal Fragment of Seschenal' (itemID 206475) (spellID 418896)
 				q(76638),	-- after buying/loot 'Paracausal Fragment of Shalamayne' (itemID 207024) (spellID 418895)
@@ -1173,7 +1173,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 				q(76672),	-- after buying/loot 'Warmonger's Plate Armor Bag' (itemID 207076) (spellID 418853)
 				q(76673),	-- after buying/loot 'Warmonger's Plate Equipment Bag' (itemID 207051) (spellID 418852)
 				q(76671),	-- after buying/loot 'Warmonger's Plate Gear Bag' (itemID 207050) (spellID 418851)
-				q(76674),	-- after buying/loot 'Warmonger's Ripper' (itemID 207015) (spellID 418850)
+				-- q(76674),	-- after buying/loot 'Warmonger's Ripper' (itemID 207015) (spellID 418850)
 				q(76644),	-- after buying/loot 'Warmonger's Robe' (itemID 206808) (spellID 418849)
 				q(76640),	-- after buying/loot 'Warmonger's Skullcap' (itemID 206816) (spellID 418848)
 

@@ -2359,11 +2359,11 @@ root(ROOTS.HiddenQuestTriggers, {
 				n(QUESTS, {
 					q(38836),	-- Aktar's Post - Aktar's Post visited
 					q(39306),	-- Call to Arms - chosen during "Bring the Reinforcements"
-					q(39183),	-- FLAG - Immaculate Critical Strike Taladite - learning Immaculate Critical Strike Taladite at an Apexis Gemcutter
-					q(39184),	-- FLAG - Immaculate Haste Taladite - learning Immaculate Haste Taladite at an Apexis Gemcutter
+					-- q(39183),	-- FLAG - Immaculate Critical Strike Taladite - learning Immaculate Critical Strike Taladite at an Apexis Gemcutter
+					-- q(39184),	-- FLAG - Immaculate Haste Taladite - learning Immaculate Haste Taladite at an Apexis Gemcutter
 					q(39185),	-- FLAG - Immaculate Mastery Taladite - learning Immaculate Mastery Taladite at an Apexis Gemcutter
 					q(39186),	-- FLAG - Immaculate Multistrike Taladite - learning Immaculate Multistrike Taladite at an Apexis Gemcutter
-					q(39187),	-- FLAG - Immaculate Stamina Taladite - learning Immaculate Stamina Taladite at an Apexis Gemcutter
+					-- q(39187),	-- FLAG - Immaculate Stamina Taladite - learning Immaculate Stamina Taladite at an Apexis Gemcutter
 					q(37886),	-- Max-level Choice Tracker: Tanaan 6.2 - Ironhold (A)
 					q(37946),	-- Max-level Choice Tracker: Tanaan 6.2 - Ironhold (H)
 					q(38583),	-- Max-Level Choice Tracker: Tanaan 6.2 - Group - Throne of Kil'jaeden (A)

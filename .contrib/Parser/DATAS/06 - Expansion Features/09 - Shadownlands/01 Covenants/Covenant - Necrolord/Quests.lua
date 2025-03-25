@@ -1031,7 +1031,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 			--
 			q(57622),	-- Triggered when completing 58609 'Taking the Seat' on a Skip+Necrolord character
 			q(62752),	-- Triggered when completion 59609 'No Rest For the Dead'
-			q(57602),	-- triggered after summoning Atticus in Maldraxxus for quest Supply Chain
+			-- q(57602),	-- triggered after summoning Atticus in Maldraxxus for quest Supply Chain
 			q(57615),	-- triggered after summoning Atticus/Neena in Maldraxxus (spellID 353995 & 351967)
 			q(58434),	-- triggered when summoning Chordy in Ardenweald for #61510, "A Bountiful Haul"
 			q(60783),	-- triggered when turning in #60722, "Tower Power"/Completing Campaign: Promises of the Praetor

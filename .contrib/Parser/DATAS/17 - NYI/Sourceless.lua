@@ -540,7 +540,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 
 			-- 7.3.0
 			expansion(EXPANSION.LEGION, patch(3,0), bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
-				q(48546),	-- Tracking Quest
 				q(49163),	--
 			})),
 
@@ -705,7 +704,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			-- 10.0.5
 			expansion(EXPANSION.DF, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 } }, {
 				q(74897),	-- L70 Human Hunter Achieved Duelist and Clock Mog 2023-03-15
-				q(76157),	--
+				-- q(76157),	--
 			})),
 
 			-- 10.1.0

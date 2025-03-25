@@ -1910,7 +1910,7 @@ root(ROOTS.HiddenQuestTriggers, {
 				q(41869),	-- FLAG - Brann Week 3
 				q(41870),	-- FLAG - Brann Week 4
 				q(41871),	-- FLAG - Brann Week 5
-				q(41805),	-- Key of Kalyndras
+				-- q(41805),	-- Key of Kalyndras
 				q(45775),	-- Completion of 'Sifting Through the Rubble' [41176] for A Keen Eye [10603] - Crown Jewels of Suramar
 			}),
 		}),

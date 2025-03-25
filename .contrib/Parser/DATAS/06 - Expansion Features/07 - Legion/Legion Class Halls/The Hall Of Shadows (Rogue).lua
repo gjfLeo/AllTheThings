@@ -1158,7 +1158,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 			q(43634),	-- Looted Rogue Vault
 			q(50804),	-- Opened the way to the order hall for the first time during "Call of The Uncrowned" (questID 40832)
 			q(43716),	-- Rogue Vault Rare Triggered
-			q(43719),	-- Rare Item One Obtained - looted the "Suspicious Crate" toy (itemID 139587)
+			-- q(43719),	-- Rare Item One Obtained - looted the "Suspicious Crate" toy (itemID 139587)
 			q(43720),	-- Rare Item Two Obtained - picking up the "Scroll of Teleport: Ravenholdt" (itemID 139590) in the Uncrowned Vault
 			q(44615),	-- Tracking Quest: Mission 1 - completed the "Throwing SI:7 Off the Trail: Dalaran" mission
 			q(44617),	-- Tracking Quest: Mission 2 - completed the "Throwing SI:7 Off the Trail: Stormheim" mission

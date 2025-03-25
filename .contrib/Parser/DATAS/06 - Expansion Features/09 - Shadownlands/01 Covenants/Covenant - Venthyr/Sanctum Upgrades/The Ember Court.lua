@@ -2467,37 +2467,37 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 					q(60785),	-- 'Party Crashers' started
 
 				-- RSVPs
-					q(59382),	-- when using "RSVP: Baroness Vashj" — every time
+					-- q(59382),	-- when using "RSVP: Baroness Vashj" — every time
 					q(59383),	-- when using "RSVP: Baroness Vashj" — first time only
-					q(59406),	-- when using "RSVP: Choofa" — every time
+					-- q(59406),	-- when using "RSVP: Choofa" — every time
 					q(59407),	-- when using "RSVP: Choofa" — first time only
-					q(59409),	-- when using "RSVP: Cryptkeeper Kassir" — every time
+					-- q(59409),	-- when using "RSVP: Cryptkeeper Kassir" — every time
 					q(59410),	-- when using "RSVP: Cryptkeeper Kassir" — first time only
-					q(59412),	-- when using "RSVP: Droman Aliothe" — every time
+					-- q(59412),	-- when using "RSVP: Droman Aliothe" — every time
 					q(59413),	-- when using "RSVP: Droman Aliothe" — first time only
-					q(59415),	-- when using "RSVP: Grandmaster Vole" — every time
+					-- q(59415),	-- when using "RSVP: Grandmaster Vole" — every time
 					q(59416),	-- when using "RSVP: Grandmaster Vole" — first time only
-					q(59397),	-- when using "RSVP: Hunt-Captain Korayn" — every time
+					-- q(59397),	-- when using "RSVP: Hunt-Captain Korayn" — every time
 					q(59398),	-- when using "RSVP: Hunt-Captain Korayn" — first time only
-					q(59418),	-- when using "RSVP: Kleia and Pelagos" — every time
+					-- q(59418),	-- when using "RSVP: Kleia and Pelagos" — every time
 					q(59419),	-- when using "RSVP: Kleia and Pelagos" — first time only
-					q(59385),	-- when using "RSVP: Lady Moonberry" — every time
+					-- q(59385),	-- when using "RSVP: Lady Moonberry" — every time
 					q(59386),	-- when using "RSVP: Lady Moonberry" — first time only
-					q(59388),	-- when using "RSVP: Mikanikos" — every time
+					-- q(59388),	-- when using "RSVP: Mikanikos" — every time
 					q(59389),	-- when using "RSVP: Mikanikos" — first time only
-					q(59421),	-- when using "RSVP: Plague Deviser Marileth" (176124) — every time
+					-- q(59421),	-- when using "RSVP: Plague Deviser Marileth" (176124) — every time
 					q(59422),	-- when using "RSVP: Plague Deviser Marileth" (176124) — first time only
-					q(59400),	-- when using 'RSVP: Polemarch Adrestes' (176117) — every time
+					-- q(59400),	-- when using 'RSVP: Polemarch Adrestes' (176117) — every time
 					q(59401),	-- when using 'RSVP: Polemarch Adrestes' (176117) — first time only
-					q(59403),	-- when using "RSVP: Rendle and Cudgelface" (176118) — every time
+					-- q(59403),	-- when using "RSVP: Rendle and Cudgelface" (176118) — every time
 					q(59404),	-- when using "RSVP: Rendle and Cudgelface" (176118) — first time only
-					q(59424),	-- when using "RSVP: Sika" — every time
+					-- q(59424),	-- when using "RSVP: Sika" — every time
 					q(59425),	-- when using "RSVP: Sika" — first time only
 					q(59618),	-- when using "RSVP: Stonehead" — every time
-					q(59619),	-- when using "RSVP: Stonehead" — first time only
-					q(59394),	-- when using "RSVP: Alexandros Morgraine" — every time
+					-- q(59619),	-- when using "RSVP: Stonehead" — first time only
+					-- q(59394),	-- when using "RSVP: Alexandros Morgraine" — every time
 					q(59395),	-- when using "RSVP: Alexandros Morgraine" — first time only
-					q(59391),	-- when using "RSVP: The Countess" — every time
+					-- q(59391),	-- when using "RSVP: The Countess" — every time
 					q(59392),	-- when using "RSVP: The Countess" — first time only
 
 				-- Preparations

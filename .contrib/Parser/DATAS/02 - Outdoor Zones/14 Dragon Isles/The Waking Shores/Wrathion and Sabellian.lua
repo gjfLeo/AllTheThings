@@ -989,7 +989,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 				q(66802),	-- Triggered when choosing Wrathion in Allegiance To One (66419) -- triggered for Wrathion only
 				q(67168),	-- Triggered with completion of 'Dragon Eyes' (questID67051) (spellID 377997)
 				q(72378, {["timeline"] = {ADDED_10_0_5}}),	-- Triggered when refusing to activate the Wrathion and Sabellian skip for alts
-				q(72112),	-- Ensemble: Obsidian Dracthyr Battlegear Mail Armor
+				-- q(72112),	-- Ensemble: Obsidian Dracthyr Battlegear Mail Armor
 			}),
 		}),
 	}),
