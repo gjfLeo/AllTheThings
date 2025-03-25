@@ -1077,7 +1077,7 @@ namespace ATT
 
                         if (dataTimelineEntry != null)
                         {
-                            if (dataTimelineEntry.LongVersion > CURRENT_RELEASE_VERSION)
+                            if (dataTimelineEntry.LongVersion >= shiftInfo.TimelineEntry.LongVersion)
                                 continue;
                         }
                         else
