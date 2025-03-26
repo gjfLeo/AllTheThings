@@ -1327,14 +1327,14 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	n(PROFESSIONS, {
 		prof(BLACKSMITHING, {
-			q(38543),	-- FLAG: Demonsteel Armguards Crafted
-			q(38544),	-- FLAG: Demonsteel Waistguard Crafted
-			q(38545),	-- FLAG: Demonsteel Pauldrons Crafted
-			q(38546),	-- FLAG: Demonsteel Boots Crafted
-			q(38547),	-- FLAG: Demonsteel Gauntlets Crafted
-			q(38549),	-- FLAG: Demonsteel Helm Crafted
-			q(38550),	-- FLAG: Demonsteel Greaves Crafted
-			q(38551),	-- FLAG: Demonsteel Breastplate Crafted
+			-- q(38543),	-- FLAG: Demonsteel Armguards Crafted
+			-- q(38544),	-- FLAG: Demonsteel Waistguard Crafted
+			-- q(38545),	-- FLAG: Demonsteel Pauldrons Crafted
+			-- q(38546),	-- FLAG: Demonsteel Boots Crafted
+			-- q(38547),	-- FLAG: Demonsteel Gauntlets Crafted
+			-- q(38549),	-- FLAG: Demonsteel Helm Crafted
+			-- q(38550),	-- FLAG: Demonsteel Greaves Crafted
+			-- q(38551),	-- FLAG: Demonsteel Breastplate Crafted
 			q(47096),	-- Broken Shore - Choice: Blacksmithing
 		}),
 	}),

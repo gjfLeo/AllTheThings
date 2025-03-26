@@ -516,7 +516,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			q(56601),	-- Banescale the Packfather in Warmode
 			q(56884),	-- First time killing Avarius (as miner?)
 			q(56883, {["isDaily"]=true}),	-- using Brimstone Pickaxe to start Avarius
-			q(56885, {["isDaily"]=true}),	-- throwing Chum into the water to summon Vor'koth
+			-- q(56885, {["isDaily"]=true}),	-- throwing Chum into the water to summon Vor'koth
 			q(56886, {["isDaily"]=true}),	-- after killing Vor'koth after throwing the Chum
 			q(56604),	-- Alga the Eyeless first kill
 			q(56603),	-- Allseer Oma'kil first kill

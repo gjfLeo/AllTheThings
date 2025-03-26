@@ -499,7 +499,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_6, REMOVED_PLUNDERSTORM_END } }, {
 		n(PLUNDERSTORM, {
 			q(80110),	-- First WQ of the Day
-			q(80436),	-- Purchasing Pirate's Booty -- Once per account lockout
+			-- q(80436),	-- Purchasing Pirate's Booty -- Once per account lockout
 			q(80262),	-- Renown 6 - Shabby Swabbie outfit unlocked in Plunderstorm
 			q(81657),	-- Renown 16 - Marveouls Multi-Shot unlocked in Plunderstorm
 			q(80263),	-- Renown 17 - Snazzy Swabbie outfit unlocked in Plunderstorm

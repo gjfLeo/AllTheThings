@@ -133,8 +133,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 			q(78857),	-- unlock ability to buy Somnolet (i: 210652) (require: Sapnibbler (i: ?)) (spellID 429070)
 			q(78887),	-- unlock ability to buy Somnolet (i: 210652) (require: Seedle (i: 210648)) (spellID 426343)
 			--unsure what it should unlock but fire when you summon pets
-			q(78882),	-- summon Elmer (i: 210690) (spellID 426540)
-			q(78883),	-- summon Snoots (i: 210689) (spellID 426539)
+			-- q(78882),	-- summon Elmer (i: 210690) (spellID 426540)
+			-- q(78883),	-- summon Snoots (i: 210689) (spellID 426539)
 		}),
 	}),
 })));

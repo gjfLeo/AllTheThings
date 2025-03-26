@@ -534,7 +534,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(47044),	-- 7.2 Broken Shore - Buildings - Activation Buff - Nether Disruptor - Seal Your Fate - Day 2 - Tracking
 				q(47053),	-- 7.2 Broken Shore - Buildings - Activation Buff - Nether Disruptor - Seal Your Fate - Day 3 - Tracking
 				q(46870),	-- 7.2 Broken Shore - Buildings - Command Center - Buff Activation - Tracking Quest
-				q(47021),	-- 7.2 Broken Shore - Buildings - Command Center - Buff - Follower Token - Tracking
+				-- q(47021),	-- 7.2 Broken Shore - Buildings - Command Center - Buff - Follower Token - Tracking
 				q(46283),	-- 7.2 Broken Shore - Buildings - Mage Tower - Personal Reward Received
 				q(46793),	-- 7.2 Broken Shore - Buildings - Mage Tower - Buff Activation - Tracking Quest
 				q(46871),	-- 7.2 Broken Shore - Buildings - Nether Disruptor - Buff Activiation - Tracking Quest

@@ -1061,17 +1061,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				-- Missions
 				q(53739),	-- Wolf's Den completed
 				q(53740),	-- Stonefist Watch completed
-				q(53741),	-- Windfall Cavern completed
-				q(53742),	-- Stonetusk Watch completed
+				-- q(53741),	-- Windfall Cavern completed
+				-- q(53742),	-- Stonetusk Watch completed
 				q(53743),	-- Hillcrest Pasture completed
 				q(53744),	-- Swiftwind Post completed
-				q(53745),	-- Mudfisher Cove completed
+				-- q(53745),	-- Mudfisher Cove completed
 				-- Outpost Upgrades
-				q(54226),	-- Upgrade: The Great Seal started
+				-- q(54226),	-- Upgrade: The Great Seal started
 				q(54294),	-- Upgrade: The Great Seal completed
-				q(54259),	-- Upgrade: Vulpera Hideaway started
+				-- q(54259),	-- Upgrade: Vulpera Hideaway started
 				q(54296),	-- Upgrade: Vulpera Hideaway completed
-				q(54238),	-- Upgrade: Zul'jan Ruins started
+				-- q(54238),	-- Upgrade: Zul'jan Ruins started
 				q(54297),	-- Upgrade: Zul'jan Ruins completed
 				-- Misc
 				q(54767),	-- Correctly answer 8 riddles from Rid'lah
