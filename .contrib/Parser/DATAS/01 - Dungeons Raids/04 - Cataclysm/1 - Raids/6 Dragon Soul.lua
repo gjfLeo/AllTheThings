@@ -500,41 +500,52 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						ach(6174),	-- Don't Stand So Close to Me
 					})),
 					cr(55308, e(324, {	-- Warlord Zon'ozz
-						ach(6128),	-- Ping Pong Champion
+						ach(6128, {	-- Ping Pong Champion
+							-- #if AFTER 6.0.3
+							["description"] = "Can be soloed without a pet to hold the boss, the ball occationaly have an immune phase where it can pass through the boss without losing the strike.",
+							-- #endif
+						}),
 					})),
 					cr(55312, e(325, {	-- Yor'sahj the Unsleeping
 						ach(6129, {	-- Taste the Rainbow!
-							crit(18495, {	-- Black and Yellow
-								["crs"] = {
-									55867,	-- Dark Globule <Blood of Shu'ma>
-									55864,	-- Glowing Globule <Blood of Shu'ma>
-								},
-							}),
-							crit(18496, {	-- Red and Green
-								["crs"] = {
-									55865,	-- Crimson Globule <Blood of Shu'ma>
-									55862,	-- Acidic Globule <Blood of Shu'ma>
-								},
-							}),
-							crit(18497, {	-- Black and Blue
-								["crs"] = {
-									55867,	-- Dark Globule <Blood of Shu'ma>
-									55866,	-- Cobalt Globule <Blood of Shu'ma>
-								},
-							}),
-							crit(18498, {	-- Purple and Yellow
-								["crs"] = {
-									55863,	-- Shadowed Globule <Blood of Shu'ma>
-									55864,	-- Glowing Globule <Blood of Shu'ma>
-								},
-							}),
+							["description"] = "The oozes you need for the achievement spawns through the boss fight. Four colours will spawn each time, and the remaining oozes becomes immune when the first is killed. This is fine, just make sure two of the remaining oozes matches a criteria.",
+							["groups"] = {
+								crit(18495, {	-- Black and Yellow
+									["crs"] = {
+										55867,	-- Dark Globule <Blood of Shu'ma>
+										55864,	-- Glowing Globule <Blood of Shu'ma>
+									},
+								}),
+								crit(18496, {	-- Red and Green
+									["crs"] = {
+										55865,	-- Crimson Globule <Blood of Shu'ma>
+										55862,	-- Acidic Globule <Blood of Shu'ma>
+									},
+								}),
+								crit(18497, {	-- Black and Blue
+									["crs"] = {
+										55867,	-- Dark Globule <Blood of Shu'ma>
+										55866,	-- Cobalt Globule <Blood of Shu'ma>
+									},
+								}),
+								crit(18498, {	-- Purple and Yellow
+									["crs"] = {
+										55863,	-- Shadowed Globule <Blood of Shu'ma>
+										55864,	-- Glowing Globule <Blood of Shu'ma>
+									},
+								}),
+							},
 						}),
 						i(152979, {	-- Faceless Mindlasher (PET!)
 							["timeline"] = { ADDED_7_3_0 },
 						}),
 					})),
 					cr(55689, e(317, {	-- Hagara the Stormbinder
-						ach(6175),	-- Holding Hands
+						ach(6175, {	-- Holding Hands
+							-- #if AFTER 6.0.3
+							["description"] = "Can be soloed with a pet or with help from another player. Requires 10 player mode. Get Hagara down to past 85% health, and kill the elemental spawn near a totem to charge it.\n\n|CFFFF0000Do not try to this in 25 player mode, you will get stuck unless you have a handful of other players with you!|r",
+							-- #endif
+						}),
 						i(74246, {	-- Cryptomancer's Decoder Ring
 							["b"] = 1,	-- BoP
 							["description"] = "You need to pickpocket this from the boss.",
@@ -545,7 +556,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						i(78919),	-- Experiment 12-B (MOUNT!)
 					})),
 					cr(56427, e(332, {	-- Warmaster Blackthorn
-						ach(6105),	-- Deck Defender
+						ach(6105, {	-- Deck Defender
+						-- #if AFTER 6.0.3
+						["description"] = "Kill the Twilight Assault Drakes fast and soak any Twilight Barrage.\nUse a macro like:\n/tar Twilight Assault Drake\n/cast (whatever instant ranged ability you have)",
+						-- #endif
+						}),
 					})),
 					cr(53879, e(318, {	-- Spine of Deathwing
 						ach(6133),	-- Maybe He'll Get Dizzy...
@@ -558,18 +573,21 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					})),
 					cr(56173, e(333, {	-- Madness of Deathwing
 						ach(6180, {	-- Chromatic Champion
-							crit(18658, {	-- Alexstrasza Assaulted First
-								["provider"] = { "n", 56099 },	-- Alexstrasza
-							}),
-							crit(18659, {	-- Kalecgos Assaulted First
-								["provider"] = { "n", 56101 },	-- Kalecgos
-							}),
-							crit(18660, {	-- Nozdormu Assaulted First
-								["provider"] = { "n", 56102 },	-- Nozdormu
-							}),
-							crit(18661, {	-- Ysera Assaulted First
-								["provider"] = { "n", 56100 },	-- Ysera
-							}),
+							["description"] = "Facing inwards towards the Maelstrom, The aspects will be positioned on the following platforms when the event starts:\nYsera on the start platform.\nKalecgos on the right.\nNozdormu on the left.\nAlextraxa on the far left.\nYou can get a movement buff prior to event start by moving between the platforms, which helps to reach Alextraza in time. Make sure the aspect is properly assaulted to get credit.",
+							["groups"] = {
+								crit(18658, {	-- Alexstrasza Assaulted First
+									["provider"] = { "n", 56099 },	-- Alexstrasza
+								}),
+								crit(18659, {	-- Kalecgos Assaulted First
+									["provider"] = { "n", 56101 },	-- Kalecgos
+								}),
+								crit(18660, {	-- Nozdormu Assaulted First
+									["provider"] = { "n", 56102 },	-- Nozdormu
+								}),
+								crit(18661, {	-- Ysera Assaulted First
+									["provider"] = { "n", 56100 },	-- Ysera
+								}),
+							},
 						}),
 						ach(6177, {	-- Destroyer's End
 							title(196),	-- , Destroyer's End
@@ -906,6 +924,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						i(78471),	-- Vishanka, Jaws of the Earth
 					})),
 				},
+			}),
+			n(VENDORS, {
+				n(188112,  bubbleDownSelf({["timeline"] = { ADDED_9_2_5 }}, {	-- Motion Sick Peon <Junior Accessibility Advocate>
+					i(191734),	-- Motion Sick Peon's Magical Elixir
+				})),
 			}),
 			--	Misc descriptions
 			n(53879, { -- Spine of Deathwing
