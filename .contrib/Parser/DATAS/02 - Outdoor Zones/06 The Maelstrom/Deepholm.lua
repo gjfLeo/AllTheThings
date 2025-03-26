@@ -1489,7 +1489,7 @@ root(ROOTS.Zones, {
 					}),
 					q(27203, {	-- The Maelstrom
 						["providers"] = {
-							{ "n", 45224 },	-- Farseer Krogar
+							{ "n", 45244 },	-- Farseer Krogar
 							{ "n", 45226 },	-- Naraat the Earthspeaker
 						},
 						["sourceQuests"] = {

@@ -977,10 +977,25 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["provider"] = { "n", 194805 },	-- Bathoras
 					["coord"] = { 57.4, 65.7, THE_WAKING_SHORES },
 					["g"] = {
-						i(198668),	-- Blooming Shallowlily (QI!)
+						o(380575, {	-- Blooming Shallowlily
+							["coords"] = {
+								{ 55.9, 64.4, THE_WAKING_SHORES },
+								{ 56.0, 65.3, THE_WAKING_SHORES },
+								{ 56.0, 65.6, THE_WAKING_SHORES },
+								{ 56.8, 64.5, THE_WAKING_SHORES },
+							},
+							["g"] = { i(198668) },	-- Blooming Shallowlily (QI!)
+						}),
 						i(198673),	-- Empty Life Pool Vial
 						i(200109),	-- Medicative Potion (QI!)
-						i(198666),	-- Milky Snapflower (QI!)
+						o(380576, {	-- Milky Snapflower
+							["coords"] = {
+								{ 55.8, 64.4, THE_WAKING_SHORES },
+								{ 56.9, 64.0, THE_WAKING_SHORES },
+								{ 56.9, 65.5, THE_WAKING_SHORES },
+							},
+							["g"] = { i(198666) },	-- Milky Snapflower (QI!)
+						}),
 					},
 				}),
 				q(70241, {	-- The Bitter End

@@ -295,7 +295,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["provider"] = { "n", 162804 },	-- Ve'nari
 					["coord"] = { 46.9, 41.7, THE_MAW },
 					["g"] = {
-						i(184492),	-- Pulsing Sphere (QI!)
+						o(364872, {	-- Broker Cache
+							["coord"] = { 33.5, 14.6, THE_MAW },
+							["g"] = { i(184492) },	-- Pulsing Sphere (QI!)
+						}),
 					},
 				}),
 				q(60284, {	-- Rule 5: Be Audacious

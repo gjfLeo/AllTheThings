@@ -2101,6 +2101,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(211801),	-- Poisonous Shroom Cap
+						i(225067),	-- Shadowlit Haversack
 						i(212167),	-- Taken Candle
 						i(225066),	-- Trailblazer's Haversack
 					}),

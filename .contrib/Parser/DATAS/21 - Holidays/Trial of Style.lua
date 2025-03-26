@@ -487,6 +487,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.TRIAL_OF_STYLE, n(TRIAL_OF_STYLE_HEADER, 
 				["coord"] = { 56.7, 40.7, AZJ_KAHET },
 				["timeline"] = { ADDED_11_1_0 },
 			}),
+			q(86705, {	-- Work It
+				["provider"] = { "n", 236366 },	-- Cataloger Simone
+				["coord"] = { 59.9, 18.6, HALLOWFALL },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
 			q(86703, {	-- Work It
 				["provider"] = { "n", 236364 },	-- Cataloger Grilka
 				["coord"] = { 61.3, 31.1, HALLOWFALL },

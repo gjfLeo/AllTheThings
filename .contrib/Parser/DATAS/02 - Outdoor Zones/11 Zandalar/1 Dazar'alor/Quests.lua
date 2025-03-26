@@ -790,6 +790,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 			}),
 			q(57376, {	-- The Hidden Need
+				["sourceQuest"] = 57198,	-- Sense of Obligation
 				["coord"] = { 51.5, 99.4, DAZARALOR },
 				["races"] = HORDE_ONLY,
 				["provider"] = { "n", 141961 },	-- Lilian Voss
@@ -868,7 +869,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			q(54042, {	-- Trouble in Darkshore
 				["provider"] = { "n", 149471 },	-- Dark Ranger Velonara
-				["coord"] = { 53.0, 94.3, DAZARALOR },
+				["coords"] = {
+					{ 53.0, 94.3, DAZARALOR },
+					{ 59.0, 60.5, ZULDAZAR },
+				},
 				["races"] = HORDE_ONLY,
 			}),
 			q(49615, {	-- Trust of a King

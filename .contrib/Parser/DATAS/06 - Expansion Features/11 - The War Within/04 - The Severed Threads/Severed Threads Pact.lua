@@ -566,6 +566,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["sourceQuestNumRequired"] = 1,
 					["providers"] = {
 						{ "n", 224729 },	-- Anub'okki
+						{ "n", 229184 },	-- Aspirant Kiipka
 						{ "n", 223750 },	-- Lady Vinazian
 						{ "n", 220867 },	-- Y'tekhi
 					},

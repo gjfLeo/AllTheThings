@@ -474,7 +474,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["provider"] = { "n", 169238 },	-- Courier Araak
 					["coord"] = { 59.5, 66.7, REVENDRETH },
 					["g"] = {
-						i(180177),	-- Ruminations on True Names (QI!)
+						o(349303, {	-- Taskmaster Matyas' Ruminations
+							["coord"] = { 58.7, 69.3, REVENDRETH },
+							["g"] = { i(180177) },	-- Ruminations on True Names (QI!)
+						}),
 					},
 				}),
 				q(59846, {	-- Finders-Keepers, Sinners-Weepers
@@ -482,9 +485,19 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["provider"] = { "n", 165864 },	-- Nadjia the Mistblade
 					["coord"] = { 59.9, 68.9, REVENDRETH },
 					["g"] = {
-						i(179981),	-- Chipped Sinstone (QI!)
-						i(179980),	-- Cracked Sinstone (QI!)
-						i(179979),	-- Worn Sinstone (QI!)
+						o(349381, {	-- Sinstone Fragment
+							["coord"] = { 60.8, 72.1, REVENDRETH },
+							["g"] = { i(179981) },	-- Chipped Sinstone (QI!)
+						}),
+						o(349380, {	-- Sinstone Fragment
+							["coord"] = { 60.5, 69.8, REVENDRETH },
+							["g"] = { i(179980) },	-- Cracked Sinstone (QI!)
+						}),
+						o(349379, {	-- Sinstone Fragment (QI!)
+							["coord"] = { 61.0, 67.7, REVENDRETH },
+							["g"] = { i(179979) },	-- Worn Sinstone (QI!)
+						}),
+						---
 						i(178071),	-- Amice of Pained Absolution
 						i(178067),	-- Mitts of Pained Absolution
 						i(178065),	-- Nightcloaked Mitts
@@ -508,8 +521,20 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["provider"] = { "n", 165864 },	-- Nadjia the Mistblade
 					["coord"] = { 59.9, 68.9, REVENDRETH },
 					["g"] = {
+						o(349385, {	-- Scythe Bloom
+							["coords"] = {
+								{ 62.3, 70.7, REVENDRETH },
+								{ 62.4, 69.4, REVENDRETH },
+								{ 62.4, 69.6, REVENDRETH },
+								{ 62.6, 71.5, REVENDRETH },
+								{ 62.8, 70.6, REVENDRETH },
+								{ 62.9, 68.8, REVENDRETH },
+								{ 62.9, 70.1, REVENDRETH },
+								{ 63.1, 68.2, REVENDRETH },
+							},
+							["g"] = { i(177714) },	-- Scythe Bloom Pollen (QI!)
+						}),
 						i(177713),	-- Pristine Venom Gland (QI!)
-						i(177714),	-- Scythe Bloom Pollen (QI!)
 					},
 				}),
 				q(59715, {	-- Message for Matyas

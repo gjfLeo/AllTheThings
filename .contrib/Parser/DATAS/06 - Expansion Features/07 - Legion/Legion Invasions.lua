@@ -37,6 +37,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 45795 },	-- Presence of Power
 						["repeatable"] = true,
 						["provider"] = { "n", 117774 },	-- Prince Farondis
+						["coord"] = { 55.1, 67.4, AZSUNA },
 					}),
 					q(45838, {	-- Assault on Azsuna
 						["repeatable"] = true,
@@ -70,6 +71,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 46205 },	-- A Conduit No More
 						["repeatable"] = true,
 						["provider"] = { "n", 119002 },	-- Prince Farondis
+						["coord"] = { 58.4, 21.4, AZSUNA },
 					}),
 					q(46182, {	-- Battle for Highmountain
 						["sourceQuests"] = { 45572 },	-- Holding Our Ground

@@ -375,11 +375,35 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					o_repeated({	-- Xibalan Fossil
-						o(287048),	-- Xibalan Fossil
-						o(287051),	-- Xibalan Fossil
-						o(287054),	-- Xibalan Fossil
-						o(287055),	-- Xibalan Fossil
-						i(156597),	-- Xibalan Fossil Fragment (QI!)
+						["coords"] = {
+							{ 41.1, 75.0, ZULDAZAR },
+							{ 41.3, 73.5, ZULDAZAR },
+							{ 41.7, 72.8, ZULDAZAR },
+							{ 41.7, 75.3, ZULDAZAR },
+							{ 42.1, 74.9, ZULDAZAR },
+							{ 42.5, 73.8, ZULDAZAR },
+							{ 42.8, 72.9, ZULDAZAR },
+							{ 42.9, 73.5, ZULDAZAR },
+						},
+						["g"] = {
+							o(280490),	-- Xibalan Fossil
+							o(280491),	-- Xibalan Fossil
+							o(280493),	-- Xibalan Fossil
+							o(280495),	-- Xibalan Fossil
+							o(280496),	-- Xibalan Fossil
+							o(280497),	-- Xibalan Fossil
+							o(280500),	-- Xibalan Fossil
+							o(280501),	-- Xibalan Fossil
+							o(287048),	-- Xibalan Fossil
+							o(287049),	-- Xibalan Fossil
+							o(287050),	-- Xibalan Fossil
+							o(287051),	-- Xibalan Fossil
+							o(287052),	-- Xibalan Fossil
+							o(287053),	-- Xibalan Fossil
+							o(287054),	-- Xibalan Fossil
+							o(287055),	-- Xibalan Fossil
+							i(156597),	-- Xibalan Fossil Fragment (QI!)
+						},
 					}),
 					i(156596),	-- Sweeper Beacon (QI!)
 				},
@@ -1151,7 +1175,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 135308 },	-- Wingminder Goja
 				["coord"] = { 70.8, 51.0, ZULDAZAR },
 				["races"] = HORDE_ONLY,
-				["cost"] = { { "i", 158913, 1 } },	-- Huge Dragon Kite
 			}),
 			q(47312, {	-- Queenfeather
 				["sourceQuests"] = {	-- probably!  might be available as early as picking up "the orphaned hatchling" or turning in "the missing handler."
@@ -1844,11 +1867,35 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = { 49276 },	-- The Thrill of Exploration
 				["g"] = {
 					o_repeated({	-- Xibalan Fossil
-						o(287048),	-- Xibalan Fossil
-						o(287051),	-- Xibalan Fossil
-						o(287054),	-- Xibalan Fossil
-						o(287055),	-- Xibalan Fossil
-						i(156597),	-- Xibalan Fossil Fragment (QI!)
+						["coords"] = {
+							{ 41.1, 75.0, ZULDAZAR },
+							{ 41.3, 73.5, ZULDAZAR },
+							{ 41.7, 72.8, ZULDAZAR },
+							{ 41.7, 75.3, ZULDAZAR },
+							{ 42.1, 74.9, ZULDAZAR },
+							{ 42.5, 73.8, ZULDAZAR },
+							{ 42.8, 72.9, ZULDAZAR },
+							{ 42.9, 73.5, ZULDAZAR },
+						},
+						["g"] = {
+							o(280490),	-- Xibalan Fossil
+							o(280491),	-- Xibalan Fossil
+							o(280493),	-- Xibalan Fossil
+							o(280495),	-- Xibalan Fossil
+							o(280496),	-- Xibalan Fossil
+							o(280497),	-- Xibalan Fossil
+							o(280500),	-- Xibalan Fossil
+							o(280501),	-- Xibalan Fossil
+							o(287048),	-- Xibalan Fossil
+							o(287049),	-- Xibalan Fossil
+							o(287050),	-- Xibalan Fossil
+							o(287051),	-- Xibalan Fossil
+							o(287052),	-- Xibalan Fossil
+							o(287053),	-- Xibalan Fossil
+							o(287054),	-- Xibalan Fossil
+							o(287055),	-- Xibalan Fossil
+							i(156597),	-- Xibalan Fossil Fragment (QI!)
+						},
 					}),
 					i(159640),	-- Elemental Summoning Stone (QI!)
 				},

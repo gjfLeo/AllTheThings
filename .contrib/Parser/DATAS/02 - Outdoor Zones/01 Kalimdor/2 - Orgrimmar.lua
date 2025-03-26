@@ -1307,7 +1307,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(26293, {	-- Machines of War
 					["qg"] = 3144,	-- Eitrigg
 					["sourceQuest"] = 28717,	-- Warchief's Command: Twilight Highlands!
-					["coord"] = { 48.6, 71.0, ORGRIMMAR },
+					["coords"] = {
+						{ 48.6, 71.0, ORGRIMMAR },
+						{ 49.1, 72.4, ORGRIMMAR },
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),

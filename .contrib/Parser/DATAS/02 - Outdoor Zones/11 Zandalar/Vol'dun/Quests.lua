@@ -237,7 +237,20 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 32.3, 48.3, VOLDUN },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(153556),	-- Sethrak Weapon (QI!)
+					o_repeated({	-- Sethrak Weapon
+						["coords"] = {
+							{ 35.4, 46.5, VOLDUN },
+							{ 35.6, 47.8, VOLDUN },
+							{ 37.4, 47.3, VOLDUN },
+							{ 37.7, 47.2, VOLDUN },
+							{ 38.4, 47.7, VOLDUN },
+						},
+						["g"] = {
+							o(278190),	-- Sethrak Weapon
+							o(278192),	-- Sethrak Weapon
+							i(153556),	-- Sethrak Weapon (QI!)
+						},
+					}),
 				},
 			}),
 			q(50771, {	-- Calldown: Cleaner

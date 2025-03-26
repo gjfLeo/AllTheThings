@@ -935,7 +935,19 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["sourceQuests"] = { 50149 },	-- A Weather Eye
 				["g"] = {
-					i(156722),	-- Silver Nugget (QI!)
+					o(280802, {	-- Silver Nugget
+						["coords"] = {
+							{ 34.2, 30.4, DRUSTVAR },
+							{ 35.2, 30.4, DRUSTVAR },
+							{ 35.4, 28.9, DRUSTVAR },
+							{ 35.4, 32.3, DRUSTVAR },
+							{ 35.5, 29.0, DRUSTVAR },
+							{ 35.7, 32.8, DRUSTVAR },
+							{ 36.0, 31.5, DRUSTVAR },
+							{ 36.7, 32.1, DRUSTVAR },
+						},
+						["g"] = { i(156722) },	-- Silver Nugget (QI!)
+					}),
 				},
 			}),
 			q(53461, {	-- Precious Metals
@@ -943,7 +955,19 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["provider"] = { "n", 143878 },	-- Reez Grimelock
 				["g"] = {
-					i(156722),	-- Silver Nugget (QI!)
+					o(280802, {	-- Silver Nugget
+						["coords"] = {
+							{ 34.2, 30.4, DRUSTVAR },
+							{ 35.2, 30.4, DRUSTVAR },
+							{ 35.4, 28.9, DRUSTVAR },
+							{ 35.4, 32.3, DRUSTVAR },
+							{ 35.5, 29.0, DRUSTVAR },
+							{ 35.7, 32.8, DRUSTVAR },
+							{ 36.0, 31.5, DRUSTVAR },
+							{ 36.7, 32.1, DRUSTVAR },
+						},
+						["g"] = { i(156722) },	-- Silver Nugget (QI!)
+					}),
 				},
 			}),
 			q(48678, {	-- Questionable Offerings

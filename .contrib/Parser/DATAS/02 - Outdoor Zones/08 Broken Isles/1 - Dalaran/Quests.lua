@@ -158,6 +158,10 @@ root(ROOTS.Zones, {
 						{ "n", 90463 },	-- Archmage Karlain
 						{ "n", 115468 },	-- Archmage Karlain
 					},
+					["coords"] = {
+						{ 23.4, 39.8, LEGION_DALARAN },
+						{ 28.8, 48.6, LEGION_DALARAN },
+					},
 					["classes"] = { WARLOCK },
 					["lvl"] = 110,
 				}),
@@ -409,17 +413,26 @@ root(ROOTS.Zones, {
 						{ "n", 90417 },		-- Archmage Khadgar
 						{ "n", 115464 },	-- Archmage Khadgar
 					},
+					["coords"] = {
+						{ 22.8, 39.1, LEGION_DALARAN },
+						{ 28.5, 48.4, LEGION_DALARAN },
+					},
 					["classes"] = { WARLOCK },
-					["coord"] = { 28.5, 48.4, LEGION_DALARAN },
 				}),
 				q(45560, {	-- Destruction: Rumblings Near Feltotem
 					["sourceQuests"] = {
 						47031,	-- Legion Threat: Highmountain
 						44821,	-- In Dire Need
 					},
+					["qgs"] = {
+						90418,	-- Archmage Modera
+						115465,	-- Archmage Modera
+					},
+					["coords"] = {
+						{ 22.8, 39.4, LEGION_DALARAN },
+						{ 28.5, 48.9, LEGION_DALARAN },
+					},
 					["classes"] = { WARLOCK },
-					["provider"] = { "n", 90418 },	-- Archmage Modera
-					["coord"] = { 28.5, 48.9, LEGION_DALARAN },
 				}),
 				q(47020, {	-- Discipline: Rumblings Near Feltotem
 					["sourceQuests"] = {

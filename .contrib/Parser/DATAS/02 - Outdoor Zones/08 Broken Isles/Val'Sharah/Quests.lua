@@ -417,6 +417,7 @@ root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUN
 					["coord"] = { 53.7, 55.8, VALSHARAH },
 					["icon"] = 237230,
 					["g"] = {
+						i(139043),	-- Tear of Elune (QI!)
 						i(130001),	-- Shaladrassil Cuirass
 						i(129993),	-- Shaladrassil Tunic
 						i(129985),	-- Shaladrassil Vestments

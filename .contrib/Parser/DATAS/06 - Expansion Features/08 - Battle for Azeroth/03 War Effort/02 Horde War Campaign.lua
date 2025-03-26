@@ -109,7 +109,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					q(53602, {	-- Adapting Our Tactics
 						["description"] = "Must unlock at least one foothold on Kul Tiras to get this quest.",
 						["provider"] = { "n", 143913 },	-- Eitrigg
-						["coord"] = { 58.5, 62.7, HALL_OF_CHRONICLERS },
+						["coord"] = { 58.5, 62.7, ZULDAZAR },
 						["races"] = HORDE_ONLY,
 					}),
 					q(52749, {	-- The War Campaign
@@ -255,8 +255,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						}),
 						q(51532, {	-- Storming In
 							["sourceQuests"] = { 51526 },	-- The Warlord's Call
-							["provider"] = { "n", 138365 },	-- High Warlord Cromush
-							["coord"] = { 51.1, 21.1, STORMSONG_VALLEY },
+							["provider"] = { "n", 138352 },	-- High Warlord Cromush
+							["coord"] = { 58.5, 62.5, ZULDAZAR },
 							["races"] = HORDE_ONLY,
 						}),
 						q(51643, {	-- A Wall of Iron

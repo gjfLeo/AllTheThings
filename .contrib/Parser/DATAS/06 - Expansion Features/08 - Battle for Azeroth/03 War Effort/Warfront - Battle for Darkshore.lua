@@ -887,7 +887,10 @@ root(ROOTS.ExpansionFeatures,
 									["provider"] = { "n", 149411 },	-- Dark Ranger Velonara
 								}),
 								q(54049, {	-- The Dead of Night
-									["provider"] = { "n", 147187 },	-- Nathanos Blightcaller
+									["qgs"] = {
+										147187,	-- Nathanos Blightcaller
+										149143,	-- Nathanos Blightcaller
+									},
 									["coord"] = { 47.8, 21.2, 1333 },
 									["races"] = HORDE_ONLY,
 									["sourceQuest"] = 54047,	-- Where Hope Dies

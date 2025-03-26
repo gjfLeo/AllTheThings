@@ -1416,6 +1416,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(27729, {	-- Once More, With Eeling
+							["description"] = "Granted automatically from killing any eel.",
+							["providers"] = {
+								{ "n", 40855},	-- Slitherfin Eel
+								{ "n", 41002},	-- Slickskin Eel
+							},
 							["groups"] = {
 								objective(1, {	-- 0/8 Disgusting Eels Justifiably Slain
 									["providers"] = {

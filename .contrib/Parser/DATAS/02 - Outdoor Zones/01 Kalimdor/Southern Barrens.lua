@@ -1352,6 +1352,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(24608, {	-- Mangletooth (H)
 					["qg"] = 37847,	-- Mankrik
 					["sourceQuest"] = 24603,	-- Don't Stop Bereavin'
+					["coord"] = { 44.5, 88.1, SOUTHERN_BARRENS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
