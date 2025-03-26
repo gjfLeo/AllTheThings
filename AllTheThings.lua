@@ -233,63 +233,6 @@ local function GetReagentIcon(data, iconOnly)
 		return L[iconOnly and "REAGENT_ICON" or "REAGENT_TEXT"];
 	end
 end
-local function GetProgressTextForRow(data)
-	-- build the row text from left to right with possible info
-	local text = {}
-	-- Reagent (show reagent icon)
-	local icon = GetReagentIcon(data, true);
-	if icon then
-		tinsert(text, icon)
-	end
-	-- Cost (show cost icon)
-	icon = GetCostIconForRow(data, true);
-	if icon then
-		tinsert(text, icon)
-	end
-	-- Upgrade (show upgrade icon)
-	icon = GetUpgradeIconForRow(data, true);
-	if icon then
-		tinsert(text, icon)
-	end
-	-- Progress Achievement
-	local statistic = data.statistic
-	if statistic then
-		tinsert(text, "["..statistic.."]")
-	end
-	-- Collectible
-	local stateIcon = GetCollectibleIcon(data, true)
-	if stateIcon then
-		tinsert(text, stateIcon)
-	end
-	-- Container
-	local total = data.total;
-	local isContainer = total and (total > 1 or (total > 0 and not data.collectible));
-	if isContainer then
-		local textContainer = GetProgressColorText(data.progress or 0, total)
-		tinsert(text, textContainer)
-	end
-	-- Non-collectible/total Container (only contains visible, non-collectibles...)
-	local g = data.g;
-	if not stateIcon and not isContainer and g and #g > 0 then
-		local headerText;
-		if data.expanded then
-			headerText = "---";
-		else
-			headerText = "+++";
-		end
-		tinsert(text, headerText)
-	end
-
-	-- Trackable (Only if no other text available)
-	if #text == 0 then
-		stateIcon = GetTrackableIcon(data, true)
-		if stateIcon then
-			tinsert(text, stateIcon)
-		end
-	end
-
-	return app.TableConcat(text, nil, "", " ");
-end
 local function GetProgressTextForTooltip(data)
 	-- build the row text from left to right with possible info
 	local text = {}
@@ -346,7 +289,6 @@ local function GetProgressTextForTooltip(data)
 
 	return app.TableConcat(text, nil, "", " ");
 end
-app.GetProgressTextForRow = GetProgressTextForRow;
 app.GetProgressTextForTooltip = GetProgressTextForTooltip;
 
 -- Fields which are dynamic or pertain only to the specific ATT window and should never merge automatically
@@ -740,60 +682,6 @@ local function CreateObject(t, rootOnly)
 end
 app.__CreateObject = CreateObject;
 
-local function GetUnobtainableTexture(group)
-	if not group then return; end
-	if type(group) ~= "table" then
-		-- This function shouldn't be used with only u anymore!
-		app.print("Invalid use of GetUnobtainableTexture", group);
-		return;
-	end
-
-	-- Determine the texture color, default is green for events.
-	-- TODO: Use 4 for inactive events, use 5 for active events
-	local filter, u = 4, group.u;
-	if u then
-		-- only b = 0 (BoE), not BoA/BoP
-		-- removed, elite, bmah, tcg, summon
-		if u > 1 and u < 12 and group.itemID and (group.b or 0) == 0 then
-			filter = 2;
-		else
-			local phase = L.PHASES[u];
-			if phase then
-				if not phase.buildVersion or app.GameBuildVersion < phase.buildVersion then
-					filter = phase.state or 0;
-				else
-					-- This is a phase that's available. No icon.
-					return;
-				end
-			else
-				-- otherwise it's an invalid unobtainable filter
-				app.print("Invalid Unobtainable Filter:",u);
-				return;
-			end
-		end
-		return L.UNOBTAINABLE_ITEM_TEXTURES[filter];
-	end
-	if group.e then
-		return L.UNOBTAINABLE_ITEM_TEXTURES[app.Modules.Events.FilterIsEventActive(group) and 5 or 4];
-	end
-end
-app.GetUnobtainableTexture = GetUnobtainableTexture;
--- Returns an applicable Indicator Icon Texture for the specific group if one can be determined
-app.GetIndicatorIcon = function(group)
-	-- Use the group's own indicator if defined
-	local groupIndicator = group.indicatorIcon
-	if groupIndicator then return groupIndicator end
-
-	-- Otherwise use some common logic
-	if group.saved then
-		if group.parent and group.parent.locks or group.repeatable then
-			return app.asset("known");
-		else
-			return app.asset("known_green");
-		end
-	end
-	return GetUnobtainableTexture(group);
-end
 
 local function GetRelativeFieldInSet(group, field, set)
 	if group then
@@ -1983,7 +1871,13 @@ end	-- Symlink Lib
 
 do
 local ContainsLimit, ContainsExceeded;
-local Indicator = app.GetIndicatorIcon;
+local Indicator, GetProgressTextForRow, GetUnobtainableTexture
+app.AddEventHandler("OnLoad", function()
+	GetProgressTextForRow = app.GetProgressTextForRow
+	Indicator = app.GetIndicatorIcon
+	GetUnobtainableTexture = app.GetUnobtainableTexture
+end)
+
 local MaxLayer = 4
 local Indents = {
 	"  ",

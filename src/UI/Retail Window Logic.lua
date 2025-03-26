@@ -2,8 +2,8 @@
 local appName, app = ...;
 local L = app.L
 
-local wipe,ipairs,pairs,math,pcall,rawget,tostring,select,CreateFrame,GetCursorPosition,SetPortraitTexture
-	= wipe,ipairs,pairs,math,pcall,rawget,tostring,select,CreateFrame,GetCursorPosition,SetPortraitTexture
+local wipe,ipairs,pairs,math,pcall,type,rawget,tostring,select,CreateFrame,GetCursorPosition,SetPortraitTexture
+	= wipe,ipairs,pairs,math,pcall,type,rawget,tostring,select,CreateFrame,GetCursorPosition,SetPortraitTexture
 
 ---@class ATTGameTooltip: GameTooltip
 local GameTooltip = GameTooltip
@@ -275,6 +275,61 @@ local function SetPortraitIcon(self, data)
 	self:SetTexture(QUESTION_MARK_ICON);
 	return true
 end
+local function GetUnobtainableTexture(group)
+	if not group then return; end
+	if type(group) ~= "table" then
+		-- This function shouldn't be used with only u anymore!
+		app.print("Invalid use of GetUnobtainableTexture", group);
+		return;
+	end
+
+	-- Determine the texture color, default is green for events.
+	-- TODO: Use 4 for inactive events, use 5 for active events
+	local filter, u = 4, group.u;
+	if u then
+		-- only b = 0 (BoE), not BoA/BoP
+		-- removed, elite, bmah, tcg, summon
+		if u > 1 and u < 12 and group.itemID and (group.b or 0) == 0 then
+			filter = 2;
+		else
+			local phase = L.PHASES[u];
+			if phase then
+				if not phase.buildVersion or app.GameBuildVersion < phase.buildVersion then
+					filter = phase.state or 0;
+				else
+					-- This is a phase that's available. No icon.
+					return;
+				end
+			else
+				-- otherwise it's an invalid unobtainable filter
+				app.print("Invalid Unobtainable Filter:",u);
+				return;
+			end
+		end
+		return L.UNOBTAINABLE_ITEM_TEXTURES[filter];
+	end
+	if group.e then
+		return L.UNOBTAINABLE_ITEM_TEXTURES[app.Modules.Events.FilterIsEventActive(group) and 5 or 4];
+	end
+end
+app.GetUnobtainableTexture = GetUnobtainableTexture;
+-- Returns an applicable Indicator Icon Texture for the specific group if one can be determined
+ local function GetIndicatorIcon(group)
+	-- Use the group's own indicator if defined
+	local groupIndicator = group.indicatorIcon
+	if groupIndicator then return groupIndicator end
+
+	-- Otherwise use some common logic
+	if group.saved then
+		if group.parent and group.parent.locks or group.repeatable then
+			return app.asset("known");
+		else
+			return app.asset("known_green");
+		end
+	end
+	return GetUnobtainableTexture(group);
+end
+app.GetIndicatorIcon = GetIndicatorIcon
 local function SetIndicatorIcon(self, data)
 	local texture = app.GetIndicatorIcon(data);
 	if texture then
@@ -381,6 +436,7 @@ local function GetProgressTextForRow(data)
 
 	return app.TableConcat(text, nil, "", " ");
 end
+app.GetProgressTextForRow = GetProgressTextForRow;
 local function BuildDataSummary(data)
 	local summary = {}
 	local requireSkill = data.requireSkill
