@@ -140,8 +140,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				}),
 				FromSCRAP(n(RARES, {
 					n(234621, {	-- Gallagio Garbage <Luxury Trash>
-						["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar to 500 during a S.C.R.A.P. Job event in Undermine.",
+						["description"] = "Can spawn when players fill the 'Trash Shoveled' progress bar to 500 during a S.C.R.A.P. Job event in Undermine.\n\nNote: All loot can drop even when the daily flag is saved.",
 						["questID"] = 87007,
+						["isDaily"] = true,
 						["g"] = {
 							ach(41594),	-- Can You Believe What People Throw Away?
 							i(235822),	-- Coin-Woven Shawl
