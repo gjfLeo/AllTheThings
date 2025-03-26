@@ -424,7 +424,7 @@ namespace ATT
                     break;
             }
 
-            ProcessingAchievementCategory = container.Key.Contains("Achievement");
+            ProcessingAchievementCategory = container.Key == "Achievements";
             ProcessingUnsortedCategory = container.Key.Contains("HiddenAchievementTriggers") ||
                                         container.Key.Contains("HiddenCurrencyTriggers") ||
                                         container.Key.Contains("HiddenQuestTriggers") ||
@@ -2817,7 +2817,7 @@ namespace ATT
                             // if there's a 2nd (or more) then ignore assigning the questID from a specific Spell
                             if (spellEffectEnumerator.MoveNext())
                             {
-                                LogDebug($"INFO: Ignored assignment of SpellEffect 'questID' {questID} due to multiple SpellEffect use", data);
+                                LogDebug($"INFO: Ignored assignment of Item 'questID' {questID} due to multiple SpellEffect use", data);
                             }
                             else
                             {
@@ -2826,21 +2826,20 @@ namespace ATT
                                 if (!TryGetSOURCED("questID", questID, out var sourcedQuests))
                                 {
                                     Objects.Merge(data, "questID", questID);
-                                    LogDebug($"INFO: Assigned SpellEffect 'questID' {questID}", data);
+                                    LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
                                     Objects.MergeQuestData(data);
                                     TrackIncorporationData(data, "questID", questID);
                                 }
                                 else if (sourcedQuests.TryGetAnyMatchingGroup(q => q.ContainsKey("_unsorted"), out var matchedQuest))
                                 {
-                                    // TODO: LogWarn once all cleaned up
-                                    LogDebugWarn($"SpellEffect 'questID' {questID} is currently listed in Unsorted but should be directly linked on the trigger group. Remove Unsorted group so the QuestID is not duplicated", data);
+                                    LogWarn($"Item 'questID' {questID} is currently listed in Unsorted but should be directly linked on the trigger group. Remove Unsorted group so the QuestID is not duplicated", data);
                                     Objects.Merge(data, "questID", questID);
                                     Objects.MergeQuestData(data);
                                     TrackIncorporationData(data, "questID", questID);
                                 }
                                 else
                                 {
-                                    LogDebug($"INFO: Ignoring SpellEffect 'questID' {questID} since it is already Sourced", data);
+                                    LogDebug($"INFO: Ignoring Item 'questID' {questID} since it is already Sourced", data);
                                 }
                             }
                         }
@@ -2992,7 +2991,7 @@ namespace ATT
                     List<long> objs = new List<long>();
                     foreach (long objectID in objectObjs.AsTypedEnumerable<long>())
                     {
-                        if (!SOURCED["objectID"].ContainsKey(objectID))
+                        if (!TryGetSOURCED("objectID", objectID, out var objectSources))
                         {
                             // remove the creatures which are not sourced from being reported as failed to merge
                             data.TryGetValue("achID", out long achID);
