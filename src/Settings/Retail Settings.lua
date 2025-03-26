@@ -472,8 +472,14 @@ end
 settings.GetValue = function(self, container, setting)
 	return RawSettings[container][setting]
 end
+settings.ResetFilters = function(self)
+	return wipe(AllTheThingsSettingsPerCharacter.Filters)
+end
 settings.GetFilter = function(self, filterID)
 	return AllTheThingsSettingsPerCharacter.Filters[filterID]
+end
+settings.GetDefaultFilter = function(self, filterID)
+	return FilterSettingsBase.__index[filterID]
 end
 settings.GetRawFilters = function(self)
 	return AllTheThingsSettingsPerCharacter.Filters;

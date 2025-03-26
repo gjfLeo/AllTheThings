@@ -36,7 +36,7 @@ local ItemFilterOnClick = function(self)
 	settings:SetFilter(self.filterID, self:GetChecked())
 end
 local ItemFilterOnRefresh = function(self)
-	if getmetatable(AllTheThingsSettingsPerCharacter.Filters).__index[self.filterID] then
+	if settings:GetDefaultFilter(self.filterID) then
 		self.Text:SetTextColor(0.6, 0.7, 1);
 	else
 		self.Text:SetTextColor(1, 1, 1);
@@ -153,7 +153,7 @@ local buttonClassDefaults = child:CreateButton(
 { text = L.CLASS_DEFAULTS_BUTTON, tooltip = L.CLASS_DEFAULTS_BUTTON_TOOLTIP, },
 {
 	OnClick = function(self)
-		wipe(AllTheThingsSettingsPerCharacter.Filters);
+		settings:ResetFilters()
 		settings:UpdateMode(1)
 	end,
 })
@@ -172,7 +172,7 @@ local buttonAll = child:CreateButton(
 {
 	OnClick = function(self)
 		for k,v in pairs(allEquipmentFilters) do
-			AllTheThingsSettingsPerCharacter.Filters[v] = true
+			settings:SetFilter(v, true)
 		end
 		settings:UpdateMode(1)
 	end,
@@ -191,7 +191,7 @@ local buttonNone = child:CreateButton(
 {
 	OnClick = function(self)
 		for k,v in pairs(allEquipmentFilters) do
-			AllTheThingsSettingsPerCharacter.Filters[v] = false
+			settings:SetFilter(v, false)
 		end
 		settings:UpdateMode(1)
 	end,

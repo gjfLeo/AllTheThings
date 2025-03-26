@@ -289,8 +289,14 @@ end
 settings.Get = function(self, setting)
 	return AllTheThingsSettings.General[setting];
 end
+settings.ResetFilters = function(self)
+	return wipe(AllTheThingsSettingsPerCharacter.Filters)
+end
 settings.GetFilter = function(self, filterID)
 	return AllTheThingsSettingsPerCharacter.Filters[filterID];
+end
+settings.GetDefaultFilter = function(self, filterID)
+	return FilterSettingsBase.__index[filterID]
 end
 settings.GetFilterForTransmogBase = function(self, filterID)
 	return app.PresetTransmogs.ALL[filterID];
