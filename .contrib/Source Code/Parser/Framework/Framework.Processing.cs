@@ -3011,14 +3011,21 @@ namespace ATT
                 if (data.TryGetValue("_quests", out List<object> questObjs))
                 {
                     List<long> unsourcedQuests = new List<long>();
+                    bool dupeUnsorted = false;
                     foreach (long questID in questObjs.AsTypedEnumerable<long>())
                     {
-                        if (!TryGetSOURCED("questID", questID, out HashSet<IDictionary<string, object>> questRefs)
-                            || questRefs.All(d => d.ContainsKey("_unsorted")))
+                        if (!TryGetSOURCED("questID", questID, out HashSet<IDictionary<string, object>> questRefs))
                         {
                             // remove the quests which are not sourced from being reported as failed to merge
                             Objects.TrackPostProcessMergeKey("questID", questID);
                             unsourcedQuests.Add(questID);
+                        }
+                        else if (questRefs.All(d => d.ContainsKey("_unsorted")))
+                        {
+                            // remove the quests which are not sourced from being reported as failed to merge
+                            Objects.TrackPostProcessMergeKey("questID", questID);
+                            unsourcedQuests.Add(questID);
+                            dupeUnsorted = true;
                         }
                     }
 
@@ -3026,9 +3033,18 @@ namespace ATT
                     // if there is a single, unsourced quest linked to the criteria, just assign the questID on the criteria
                     if (unsourcedQuests.Count == 1)
                     {
+                        // we have Sourced quest refs, that means they are all Unsorted, so warn
+                        if (dupeUnsorted)
+                        {
+                            // TODO: LogWarn once cleaned
+                            LogDebugWarn($"INFO: Criteria {achID}:{criteriaID} assigned duplicated Unsorted Quest {unsourcedQuests[0]}");
+                        }
+                        else
+                        {
+                            LogDebug($"INFO: Criteria {achID}:{criteriaID} assigned HQT Quest {unsourcedQuests[0]}");
+                        }
                         Objects.Merge(data, "questID", unsourcedQuests[0]);
                         cloned = false;
-                        LogDebug($"INFO: Criteria {achID}:{criteriaID} assigned HQT Quest {unsourcedQuests[0]}");
                     }
                     // if multiple unsourced quests linked to a criteria, then convert into a sourcequests list instead
                     else if (unsourcedQuests.Count == questObjs.Count)
