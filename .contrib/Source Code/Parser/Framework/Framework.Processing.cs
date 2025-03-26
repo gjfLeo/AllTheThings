@@ -3067,7 +3067,7 @@ namespace ATT
                             LogDebug($"INFO: Criteria {achID}:{criteriaID} assigned HQT Quest {unsourcedQuests[0]}");
                         }
                         Objects.Merge(data, "questID", unsourcedQuests[0]);
-                        cloned = false;
+                        cloned = questObjs.Count != 1;
                     }
                     // if multiple unsourced quests linked to a criteria, then convert into a sourcequests list instead
                     else if (unsourcedQuests.Count == questObjs.Count)

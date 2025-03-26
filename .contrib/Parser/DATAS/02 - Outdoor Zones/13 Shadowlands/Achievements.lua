@@ -679,7 +679,29 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				14314,	-- Treasures of Revendreth
 			}},
 		}),
-		ach(14758),		-- The World Beyond
+		ach(14758, {	-- The World Beyond (mostly automated)
+			-- this one criteria is actually triggered from one of many possible ZM Puzzle WQs
+			crit(53446, {
+				-- TOOD: use new sources tech eventually
+				["_quests"] = {
+					65406,	-- Connecting It All
+					65417,	-- Connecting It All
+					65416,	-- Connecting It All
+					65408,	-- Pattern Recognition
+					65402,	-- Pattern Recognition
+					65407,	-- Pattern Recognition
+					65414,	-- Perplexing Problem
+					65415,	-- Perplexing Problem
+					65405,	-- Perplexing Problem
+					65412,	-- Puzzling It Out
+					65413,	-- Puzzling It Out
+					65404,	-- Puzzling It Out
+					65410,	-- Puzzling Situation
+					65411,	-- Puzzling Situation
+					65403,	-- Puzzling Situation
+				},
+			}),
+		}),
 		ach(14731, {	-- To All the Squirrels I've Loved and Lost
 			crit(50248, {	-- Dreadfur Kit
 				["crs"] = { 170242 },	-- Dreadfur Kit
