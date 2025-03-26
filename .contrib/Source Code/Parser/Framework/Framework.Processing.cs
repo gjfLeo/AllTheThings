@@ -3020,6 +3020,7 @@ namespace ATT
                 {
                     List<long> unsourcedQuests = new List<long>();
                     bool dupeUnsorted = false;
+                    data.TryGetValue("achID", out long achID);
                     foreach (long questID in questObjs.AsTypedEnumerable<long>())
                     {
                         if (!TryGetSOURCED("questID", questID, out HashSet<IDictionary<string, object>> questRefs))
@@ -3028,7 +3029,13 @@ namespace ATT
                             Objects.TrackPostProcessMergeKey("questID", questID);
                             unsourcedQuests.Add(questID);
                             // if we're trying to assign a questID which isn't sourced, make sure we don't ignore the criteria to let it disappear later
-                            data.Remove("_ignored");
+                            if (data.Remove("_ignored"))
+                            {
+                                // ignored criteria which are being assigned a questID can be assigned as NYI so
+                                // that when triggered they can be associated with the proper activity
+                                data["u"] = 1;
+                                LogDebugWarn($"Criteria {achID}:{criteriaID} is ignored in UI and marked NYI to trigger reporting of proper Source", data);
+                            }
                         }
                         else if (questRefs.All(d => d.ContainsKey("_unsorted")))
                         {
@@ -3047,7 +3054,6 @@ namespace ATT
                         }
                     }
 
-                    data.TryGetValue("achID", out long achID);
                     // if there is a single, unsourced quest linked to the criteria, just assign the questID on the criteria
                     if (unsourcedQuests.Count == 1)
                     {
