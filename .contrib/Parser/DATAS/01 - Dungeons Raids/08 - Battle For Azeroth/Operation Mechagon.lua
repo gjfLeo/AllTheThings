@@ -382,11 +382,15 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 								i(169529),	-- Plans: Monelite Reinforced Chassis (RECIPE!)
 								i(169609),	-- Schematic: Super-Charged Engine (RECIPE!)
 								n(MYTHIC_PLUS, {
-									-- This one I thoguht was confirmed, but all screenshots were removed once it was fixed...
 									i(199921, {	-- Trashmaster's Mantle
-										["description"] = "Blizzard didn't want the M+ version of this cloak to be able to be used for the related Quest. So they created a brand new ItemID along with new SourceIDs...\n\nConfirmed as a Great Vault +15 reward",
+										["description"] =
+										-- #IF AFTER 11.1
+											"Confirmed as a Great Vault +10 reward",
+										-- #ELSE
+											"Blizzard didn't want the M+ version of this cloak to be able to be used for the related Quest. So they created a brand new ItemID along with new SourceIDs...\n\nConfirmed as a Great Vault +15 reward",
+										 -- #ENDIF
 										["bonusID"] = 7359,
-										["timeline"] = { ADDED_9_2_7, REMOVED_10_0_2_LAUNCH },
+										["timeline"] = { ADDED_9_2_7, REMOVED_10_0_2_LAUNCH, ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
 									}),
 									i(199921, {	-- Trashmaster's Mantle
 										["description"] = "Blizzard didn't want the M+ version of this cloak to be able to be used for the related Quest. So they created a brand new ItemID along with new SourceIDs...\n\nConfirmed as a direct M+ drop.",
