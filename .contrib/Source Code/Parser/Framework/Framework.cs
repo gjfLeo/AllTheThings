@@ -557,6 +557,11 @@ namespace ATT
         private static bool ProcessingUnsortedCategory { get; set; }
 
         /// <summary>
+        /// Represents whether we are currently processing a category which is entirely NYI
+        /// </summary>
+        private static bool ProcessingNYICategory { get; set; }
+
+        /// <summary>
         /// A Dictionary of key-ID types and how many times each value of key-type has been referenced in the final DB
         /// </summary>
         public static Dictionary<string, Dictionary<decimal, int>> TypeUseCounts { get; } = new Dictionary<string, Dictionary<decimal, int>>();

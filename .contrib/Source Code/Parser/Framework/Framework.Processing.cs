@@ -432,6 +432,8 @@ namespace ATT
                                         container.Key.Contains("Uncollectible") ||
                                         container.Key.Contains("Sourceless") ||
                                         container.Key.Contains("Unsorted");
+            ProcessingNYICategory = container.Key.Contains("NeverImplemented") ||
+                                    container.Key.Contains("NYI");
 
             Dictionary<string, object> fakeRoot = new Dictionary<string, object>();
             Process(container.Value, fakeRoot);
@@ -1267,6 +1269,12 @@ namespace ATT
             if (ProcessingUnsortedCategory)
             {
                 data["_unsorted"] = true;
+            }
+
+            // If we're processing NYI, mark those objects
+            if (ProcessingNYICategory)
+            {
+                data["_nyi"] = true;
             }
 
             // Don't remove parsed data that contribs have specifically added
@@ -3019,13 +3027,23 @@ namespace ATT
                             // remove the quests which are not sourced from being reported as failed to merge
                             Objects.TrackPostProcessMergeKey("questID", questID);
                             unsourcedQuests.Add(questID);
+                            // if we're trying to assign a questID which isn't sourced, make sure we don't ignore the criteria to let it disappear later
+                            data.Remove("_ignored");
                         }
                         else if (questRefs.All(d => d.ContainsKey("_unsorted")))
                         {
-                            // remove the quests which are not sourced from being reported as failed to merge
-                            Objects.TrackPostProcessMergeKey("questID", questID);
-                            unsourcedQuests.Add(questID);
-                            dupeUnsorted = true;
+                            // are we trying to clone the criteria into an NYI quest(s)?
+                            if (questRefs.All(d => d.ContainsKey("_nyi")))
+                            {
+                                // allow cloning into NYI so that it's obvious the criteria are not available
+                            }
+                            else
+                            {
+                                // remove the quests which are not sourced from being reported as failed to merge
+                                Objects.TrackPostProcessMergeKey("questID", questID);
+                                unsourcedQuests.Add(questID);
+                                dupeUnsorted = true;
+                            }
                         }
                     }
 
@@ -3033,11 +3051,10 @@ namespace ATT
                     // if there is a single, unsourced quest linked to the criteria, just assign the questID on the criteria
                     if (unsourcedQuests.Count == 1)
                     {
-                        // we have Sourced quest refs, that means they are all Unsorted, so warn
+                        // warn when assigning Quest matching Unsorted
                         if (dupeUnsorted)
                         {
-                            // TODO: LogWarn once cleaned
-                            LogDebugWarn($"INFO: Criteria {achID}:{criteriaID} assigned duplicated Unsorted Quest {unsourcedQuests[0]}");
+                            LogWarn($"INFO: Criteria {achID}:{criteriaID} assigned duplicated Unsorted Quest {unsourcedQuests[0]}");
                         }
                         else
                         {

@@ -451,13 +451,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
-	m(ZANDALAR, {
-		m(ZULDAZAR, {
-			n(WORLD_QUESTS, {
-				q(54324),	-- completing 'Ritual Rampage'
-				-- q(54776),	-- completing 'Horde of Heroes'
-			}),
-		}),
-	}),
-})));
+-- root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+-- 	m(ZANDALAR, {
+-- 		m(ZULDAZAR, {
+-- 			n(WORLD_QUESTS, {
+-- 				q(54324),	-- completing 'Ritual Rampage'
+-- 				q(54776),	-- completing 'Horde of Heroes'
+-- 			}),
+-- 		}),
+-- 	}),
+-- })));

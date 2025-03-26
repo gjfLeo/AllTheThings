@@ -451,14 +451,14 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
-	m(ZANDALAR, {
-		m(NAZMIR, {
-			n(WORLD_QUESTS, {
-				q(54325),	-- Completed 54136 without WM
-				-- q(50460),	-- Killed Zujothgul/Exalted 7th legion
-				-- q(50480),	-- Underlord Xerxiz killID
-			}),
-		}),
-	}),
-})));
+-- root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+-- 	m(ZANDALAR, {
+-- 		m(NAZMIR, {
+-- 			n(WORLD_QUESTS, {
+-- 				q(54325),	-- Completed 54136 without WM
+-- 				q(50460),	-- Killed Zujothgul/Exalted 7th legion
+-- 				q(50480),	-- Underlord Xerxiz killID
+-- 			}),
+-- 		}),
+-- 	}),
+-- })));

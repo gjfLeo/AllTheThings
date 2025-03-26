@@ -1462,8 +1462,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 			q(62550),	-- Triggered after choosing a specialization for What's Your Specialty? quest [Alliance]
 			q(62551),	-- Triggered after choosing a specialization for What's Your Specialty? quest [Horde]
 			q(62655),	-- Triggers after you activate your specialization (both NPE and non-NPE characters)
-			q(62802),	-- Triggered after going to Stormwind for An End to Beginnings
-			q(62803),	-- Triggered after going to Orgrimmar for An End to Beginnings
+			-- q(62802),	-- Triggered after going to Stormwind for An End to Beginnings
+			-- q(62803),	-- Triggered after going to Orgrimmar for An End to Beginnings
 			q(63012),	-- Triggered after accepting first quest for your current leveling expansion
 			q(62912),	-- Triggered when flying from Exile's Reach (as Alliance if it matters)
 		}),

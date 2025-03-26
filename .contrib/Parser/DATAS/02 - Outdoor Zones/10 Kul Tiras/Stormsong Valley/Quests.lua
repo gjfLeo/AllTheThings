@@ -1851,9 +1851,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(54853),	-- naming the ship "Dawnsailor" during Blessing of the Tides quest to recruit Kul Tirans
 				q(54854),	-- naming the ship "Tiffin's Melody" during Blessing of the Tides quest to recruit Kul Tirans
 				q(54855),	-- naming the ship "The Lionheart" during Blessing of the Tides quest to recruit Kul Tirans
-				q(54775),	-- Warmode Storm's Rage
+				-- q(54775),	-- Warmode Storm's Rage
 				-- q(54716),	-- Secret Chest during Stormsong Valley Incursion in Warmode
-				q(54317),	-- BfA Alliance Stormsong "Invasion"
+				-- q(54317),	-- BfA Alliance Stormsong "Invasion"
 				q(50694),	-- triggers with / alternate way of completing 'A Bloody Mess' (50593)
 				q(53202),	-- triggered when turning in #50264, "Free the Farmhands"
 				q(51163),	-- ??? plays during the cutscene when you walk across the bridge north of Brennadam in Stormsong Valley

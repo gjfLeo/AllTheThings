@@ -1649,7 +1649,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(49294),	-- Nazmir - triggers when Hanzabu talks about the Zo'bal shrine
 				q(48779),	-- Nazmir - triggers after activating all the spirits in Zo'bal during "Spiritual Restoration"
 				q(48781),	-- Nazmir - Hir'eek is summoned in Zalamar
-				q(54773),	-- Warmode version of March on the Marsh
+				-- q(54773),	-- Warmode version of March on the Marsh
 			}),
 		}),
 	}),
