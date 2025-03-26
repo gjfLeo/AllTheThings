@@ -216,6 +216,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 			}),
+			-- Misc
+			n(227795, {	-- Sand Devil
+				["description"] = "Remnants of WoW's 20th Anniversary Celebration and can safely be ignored.",
+				["timeline"] = { ADDED_11_0_5 },
+			})
 		},
 	}),
 }));
