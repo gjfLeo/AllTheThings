@@ -482,22 +482,29 @@ settings.GetDefaultFilter = function(self, filterID)
 	return FilterSettingsBase.__index[filterID]
 end
 local RawFilters
-app.AddEventHandler("OnLoad", function()
+local function SetRawFilters(changedSetting)
+	if changedSetting and changedSetting ~= "Profile:StoreFilters" then return end
 	if settings:Get("Profile:StoreFilters") then
 		RawFilters = RawSettings.Filters
 	else
 		RawFilters = AllTheThingsSettingsPerCharacter.Filters
 	end
-end)
+end
+-- TODO: maybe later we can use OnSettingChanged to trigger UpdateMode when needed by the setting
+-- instead of having UpdateMode tacked into a thousand individual checkboxes and buttons
+-- app.AddEventHandler("OnSettingChanged", SetRawFilters);
+app.AddEventHandler("OnSettingsNeedsRefresh", SetRawFilters);
+app.AddEventHandler("OnLoad", SetRawFilters)
 settings.ResetFilters = function(self)
-	return wipe(RawFilters)
+	wipe(RawFilters)
+	settings:UpdateMode(1)
 end
 settings.GetFilter = function(self, filterID)
 	return RawFilters[filterID]
 end
 settings.SetFilter = function(self, filterID, value)
 	RawFilters[filterID] = value
-	self:UpdateMode(1)
+	settings:UpdateMode(1)
 end
 settings.GetRawFilters = function(self)
 	return RawFilters;

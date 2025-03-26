@@ -290,7 +290,8 @@ settings.Get = function(self, setting)
 	return AllTheThingsSettings.General[setting];
 end
 settings.ResetFilters = function(self)
-	return wipe(AllTheThingsSettingsPerCharacter.Filters)
+	wipe(AllTheThingsSettingsPerCharacter.Filters)
+	settings:UpdateMode(1)
 end
 settings.GetFilter = function(self, filterID)
 	return AllTheThingsSettingsPerCharacter.Filters[filterID];

@@ -154,7 +154,6 @@ local buttonClassDefaults = child:CreateButton(
 {
 	OnClick = function(self)
 		settings:ResetFilters()
-		settings:UpdateMode(1)
 	end,
 })
 buttonClassDefaults:SetPoint("LEFT", headerWeaponsAndArmor, 0, 0)
@@ -177,7 +176,7 @@ local buttonAll = child:CreateButton(
 		settings:UpdateMode(1)
 	end,
 })
-buttonAll:SetPoint("TOPLEFT", buttonClassDefaults, "TOPRIGHT", 5, 0)
+buttonAll:AlignAfter(buttonClassDefaults, 8)
 buttonAll.OnRefresh = function(self)
 	if app.MODE_DEBUG_OR_ACCOUNT then
 		self:Disable()
@@ -196,11 +195,25 @@ local buttonNone = child:CreateButton(
 		settings:UpdateMode(1)
 	end,
 })
-buttonNone:SetPoint("TOPLEFT", buttonAll, "TOPRIGHT", 5, 0)
+buttonNone:AlignAfter(buttonAll, 8)
 buttonNone.OnRefresh = function(self)
 	if app.MODE_DEBUG_OR_ACCOUNT then
 		self:Disable()
 	else
 		self:Enable()
 	end
+end
+
+if app.IsRetail then
+	local checkboxStoreInProfile = child:CreateCheckBox(L.STORE_IN_PROFILE_BUTTON,
+	function(self)
+		self:SetChecked(settings:Get("Profile:StoreFilters"))
+	end,
+	function(self)
+		settings:Set("Profile:StoreFilters", self:GetChecked())
+		app.HandleEvent("OnSettingChanged", "Profile:StoreFilters");
+		settings:UpdateMode(1)
+	end)
+	checkboxStoreInProfile:SetATTTooltip(L.STORE_IN_PROFILE_BUTTON_TOOLTIP)
+	checkboxStoreInProfile:AlignAfter(buttonNone, 8)
 end
