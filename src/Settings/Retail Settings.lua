@@ -213,6 +213,15 @@ local TooltipSettingsBase = {
 };
 
 local RawSettings;
+local function SetupRawSettings()
+	if not RawSettings.General then RawSettings.General = {} end
+	if not RawSettings.Tooltips then RawSettings.Tooltips = {} end
+	if not RawSettings.Unobtainable then RawSettings.Unobtainable = {} end
+	if not RawSettings.Filters then RawSettings.Filters = {} end
+	setmetatable(RawSettings.General, GeneralSettingsBase)
+	setmetatable(RawSettings.Tooltips, TooltipSettingsBase)
+	setmetatable(RawSettings.Filters, FilterSettingsBase)
+end
 settings.Initialize = function(self)
 	-- app.PrintDebug("settings.Initialize")
 
@@ -220,11 +229,7 @@ settings.Initialize = function(self)
 	if not settings:ApplyProfile() then
 		if not AllTheThingsSettings then AllTheThingsSettings = {} end
 		RawSettings = AllTheThingsSettings
-		if not RawSettings.General then RawSettings.General = {} end
-		if not RawSettings.Tooltips then RawSettings.Tooltips = {} end
-		if not RawSettings.Unobtainable then RawSettings.Unobtainable = {} end
-		setmetatable(RawSettings.General, GeneralSettingsBase)
-		setmetatable(RawSettings.Tooltips, TooltipSettingsBase)
+		SetupRawSettings()
 	end
 
 	-- Initialise custom colors, iterate so if app.Colors gets new colors they aren't lost
@@ -323,6 +328,7 @@ settings.NewProfile = function(self, key)
 			General = {},
 			Tooltips = {},
 			Unobtainable = {},
+			Filters = {},
 			Windows = {},
 		}
 		-- Use Ad-Hoc for new Profiles, to remove initial lag
@@ -347,6 +353,7 @@ settings.CopyProfile = function(self, key, copyKey)
 				rawcopy(copy.General, raw.General)
 				rawcopy(copy.Tooltips, raw.Tooltips)
 				rawcopy(copy.Unobtainable, raw.Unobtainable)
+				rawcopy(copy.Filters, raw.Filters)
 				rawcopy(copy.Windows, raw.Windows)
 			end
 		end
@@ -391,8 +398,7 @@ settings.ApplyProfile = function()
 		local key = settings:GetProfile()
 		RawSettings = AllTheThingsProfiles.Profiles[key] or settings:NewProfile(key)
 		if RawSettings then
-			setmetatable(RawSettings.General, GeneralSettingsBase)
-			setmetatable(RawSettings.Tooltips, TooltipSettingsBase)
+			SetupRawSettings()
 
 			-- apply window positions when applying a Profile
 			if RawSettings.Windows then
@@ -472,18 +478,38 @@ end
 settings.GetValue = function(self, container, setting)
 	return RawSettings[container][setting]
 end
-settings.ResetFilters = function(self)
-	return wipe(AllTheThingsSettingsPerCharacter.Filters)
-end
-settings.GetFilter = function(self, filterID)
-	return AllTheThingsSettingsPerCharacter.Filters[filterID]
-end
 settings.GetDefaultFilter = function(self, filterID)
 	return FilterSettingsBase.__index[filterID]
 end
-settings.GetRawFilters = function(self)
-	return AllTheThingsSettingsPerCharacter.Filters;
+local RawFilters
+app.AddEventHandler("OnLoad", function()
+	if settings:Get("Profile:StoreFilters") then
+		RawFilters = RawSettings.Filters
+	else
+		RawFilters = AllTheThingsSettingsPerCharacter.Filters
+	end
+end)
+settings.ResetFilters = function(self)
+	return wipe(RawFilters)
 end
+settings.GetFilter = function(self, filterID)
+	return RawFilters[filterID]
+end
+settings.SetFilter = function(self, filterID, value)
+	RawFilters[filterID] = value
+	self:UpdateMode(1)
+end
+settings.GetRawFilters = function(self)
+	return RawFilters;
+end
+-- Never used
+-- settings.GetPersonal = function(self, setting)
+-- 	return AllTheThingsSettingsPerCharacter[setting]
+-- end
+-- settings.SetPersonal = function(self, setting, value)
+-- 	AllTheThingsSettingsPerCharacter[setting] = value
+-- 	self:Refresh()
+-- end
 settings.GetRawSettings = function(self, name)
 	return RawSettings[name];
 end
@@ -650,9 +676,6 @@ settings.GetShortModeString = function(self)
 		end
 	end
 end
-settings.GetPersonal = function(self, setting)
-	return AllTheThingsSettingsPerCharacter[setting]
-end
 settings.GetTooltipSetting = function(self, setting)
 	return RawSettings.Tooltips[setting]
 end
@@ -685,17 +708,9 @@ settings.SetValue = function(self, container, setting, value)
 	RawSettings[container][setting] = value
 	self:Refresh()
 end
-settings.SetFilter = function(self, filterID, value)
-	AllTheThingsSettingsPerCharacter.Filters[filterID] = value
-	self:UpdateMode(1)
-end
 settings.SetTooltipSetting = function(self, setting, value)
 	RawSettings.Tooltips[setting] = value
 	app.WipeSearchCache();
-	self:Refresh()
-end
-settings.SetPersonal = function(self, setting, value)
-	AllTheThingsSettingsPerCharacter[setting] = value
 	self:Refresh()
 end
 settings.GetUnobtainableFilter = function(self, u)
