@@ -160,7 +160,7 @@ local function SendMessageChunks(method, target, msg, chunksize)
 		-- When the message exceeds the length, we have to cut it into sections and deliver it as a set of chunks.
 		--print("Encoded Message exceeded maximum (" .. chunksize .. "): ", encodedLength);
 		local chunks = {};
-		chunksize = chunksize - 16;
+		chunksize = chunksize - 32;
 		for i=1,encodedLength,chunksize do
 			local chunk;
 			local j = i + chunksize - 1;
@@ -437,9 +437,16 @@ local function SerializeSequentialKeys(keys)
 	]]--
 	return str;
 end
+function ShowSerializationDebugger()
+	app:ShowPopupDialogWithMultiLineEditBox("Serialization Debugger", function(text)
+		text = text:gsub("    ", "\t");	-- The WoW UI converts tab characters into 4 spaces in the English Client.
+		DevTools_Dump(DeserializeSequentialKeys(text));
+	end);
+end
 app.RecalculateAccountWideData = RecalculateAccountWideData;
 app.DeserializeSequentialKeys = DeserializeSequentialKeys;
 app.SerializeSequentialKeys = SerializeSequentialKeys;
+app.ShowSerializationDebugger = ShowSerializationDebugger;
 
 -- Data Handling
 local maxTimeStamp = 9999999999999;
