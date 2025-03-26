@@ -77,7 +77,6 @@ local GeneralSettingsBase = {
 		["Thing:Recipes"] = true,
 		["Thing:Reputations"] = true,
 		["Thing:RuneforgeLegendaries"] = app.GameBuildVersion >= 90000,
-		["Thing:Skyriding"] = app.GameBuildVersion >= 100000,
 		["Thing:Titles"] = true,
 		["Thing:Toys"] = true,
 		["Thing:Transmog"] = app.GameBuildVersion >= 40000,
