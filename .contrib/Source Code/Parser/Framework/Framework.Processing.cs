@@ -3770,21 +3770,27 @@ namespace ATT
                             break;
                         // Objects can be Sourced under the parent with attached coords if any
                         case "o":
-                            providerData = new Dictionary<string, object> { { "objectID", pID } };
-                            if (coords != null)
+                            if (IsObtainableData(parentData))
                             {
-                                providerData["coords"] = coords;
+                                providerData = new Dictionary<string, object> { { "objectID", pID } };
+                                if (coords != null)
+                                {
+                                    providerData["coords"] = coords;
+                                }
+                                Objects.Merge(parentData, "g", providerData);
                             }
-                            Objects.Merge(parentData, "g", providerData);
                             break;
                         // NPCs can be Sourced under the parent with attached coords if any
                         case "n":
-                            providerData = new Dictionary<string, object> { { "npcID", pID } };
-                            if (coords != null)
+                            if (IsObtainableData(parentData))
                             {
-                                providerData["coords"] = coords;
+                                providerData = new Dictionary<string, object> { { "npcID", pID } };
+                                if (coords != null)
+                                {
+                                    providerData["coords"] = coords;
+                                }
+                                Objects.Merge(parentData, "g", providerData);
                             }
-                            Objects.Merge(parentData, "g", providerData);
                             break;
                     }
                     Validate_ReferencedIDs(providerData);
