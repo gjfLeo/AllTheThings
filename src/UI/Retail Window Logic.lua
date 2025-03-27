@@ -348,9 +348,21 @@ local function GetUpgradeIconForRow(data, iconOnly)
 		return L[iconOnly and "UPGRADE_ICON" or "UPGRADE_TEXT"];
 	end
 end
+local function GetUpgradeIconForTooltip(data, iconOnly)
+	-- upgrade only if itself has an upgrade
+	if data.filledUpgrade or data.collectibleAsUpgrade then
+		return L[iconOnly and "UPGRADE_ICON" or "UPGRADE_TEXT"];
+	end
+end
 local function GetCostIconForRow(data, iconOnly)
 	-- cost only for filled groups, or if itself is a cost
 	if data.filledCost or data.isCost or (data.progress == data.total and ((data.costTotal or 0) > 0)) then
+		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
+	end
+end
+local function GetCostIconForTooltip(data, iconOnly)
+	-- cost only if itself is a cost
+	if data.filledCost or data.collectibleAsCost then
 		return L[iconOnly and "COST_ICON" or "COST_TEXT"];
 	end
 end
@@ -437,6 +449,60 @@ local function GetProgressTextForRow(data)
 	return app.TableConcat(text, nil, "", " ");
 end
 app.GetProgressTextForRow = GetProgressTextForRow;
+
+local function GetProgressTextForTooltip(data)
+	-- build the row text from left to right with possible info
+	local text = {}
+	local iconOnly = app.Settings:GetTooltipSetting("ShowIconOnly");
+	-- Reagent (show reagent icon)
+	local icon = GetReagentIcon(data, iconOnly);
+	if icon then
+		text[#text + 1] = icon
+	end
+	-- Cost (show cost icon)
+	icon = GetCostIconForTooltip(data, iconOnly);
+	if icon then
+		text[#text + 1] = icon
+	end
+	-- Upgrade (show upgrade icon)
+	icon = GetUpgradeIconForTooltip(data, iconOnly);
+	if icon then
+		text[#text + 1] = icon
+	end
+	-- Collectible
+	local stateIcon = GetCollectibleIcon(data, iconOnly)
+	if stateIcon then
+		text[#text + 1] = stateIcon
+	end
+	-- Saved (only certain data types)
+	if data.npcID then
+		stateIcon = GetTrackableIcon(data, iconOnly, true)
+		if stateIcon then
+			text[#text + 1] = stateIcon
+		end
+	end
+	-- Container
+	local total = data.total;
+	local isContainer = total and (total > 1 or (total > 0 and not data.collectible));
+	if isContainer then
+		local textContainer = GetProgressColorText(data.progress or 0, total)
+		if textContainer then
+			text[#text + 1] = textContainer
+		end
+	end
+
+	-- Trackable (Only if no other text available)
+	if #text == 0 then
+		stateIcon = GetTrackableIcon(data, iconOnly)
+		if stateIcon then
+			text[#text + 1] = stateIcon
+		end
+	end
+
+	return app.TableConcat(text, nil, "", " ");
+end
+app.GetProgressTextForTooltip = GetProgressTextForTooltip
+
 local function BuildDataSummary(data)
 	local summary = {}
 	local requireSkill = data.requireSkill
