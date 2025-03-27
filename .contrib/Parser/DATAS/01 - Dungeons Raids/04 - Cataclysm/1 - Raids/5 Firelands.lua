@@ -568,7 +568,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					["creatureID"] = 52571,
 					["groups"] = {
 						ach(5799, {	-- Only the Penitent...
-							["description"] = "This achievement requires a group of 2.",
+							["description"] = "If you aim to do this achievement, do not move past the Circle of Thorns Portal unprepared! The objective is to reach and interact with the two orbs of flame on each side of the Druids of Flame without getting hit by the AoE effect. You avoid getting hit by not standing on it's way, you have to duck beneath it with /kneel or any other emotes lowering your height. Any shrinking effects from toys does not counts. If the orbs disappear you have failed and need to reset the instance.\n\nAlthough some classes might be able to solo it, being two is easier.",
 						}),
 						i(152978, {	-- Infernal Pyreclaw (PET!)
 							["timeline"] = { ADDED_7_3_0 },
