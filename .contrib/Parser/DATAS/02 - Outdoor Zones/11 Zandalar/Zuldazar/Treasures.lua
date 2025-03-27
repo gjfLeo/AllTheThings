@@ -44,6 +44,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 71.8, 16.7, ZULDAZAR },
 			}),
 			o(278460, {	-- Treasure Chest
+				["questID"] = 50722,
 				["coords"] = {
 					{ 48.9, 39.0, ZULDAZAR },
 					{ 48.9, 39.8, ZULDAZAR },
@@ -74,7 +75,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				}),
 				o(278461, {	-- Treasure Chest
 					["questID"] = 50711,
-					["coord"] = { 52.4, 24.2, ZULDAZAR },
+					["coords"] = {
+						{ 48.8, 32.1, ZULDAZAR },
+						{ 52.4, 24.2, ZULDAZAR },
+					},
 				}),
 				o(278462, {	-- Treasure Chest
 					["questID"] = 50716,
@@ -86,7 +90,10 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				}),
 				o(278793, {	-- Treasure Chest
 					["questID"] = 50715,
-					["coord"] = { 68.8, 22.1, ZULDAZAR },
+					["coords"] = {
+						{ 63.3, 15.3, ZULDAZAR },
+						{ 68.8, 22.1, ZULDAZAR },
+					},
 				}),
 				o(278456, {	-- Treasure Chest
 					["questID"] = 50710,
@@ -108,7 +115,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(50719),	-- Zuldazar repeatable random chest
 				q(50720),	-- Zuldazar repeatable random chest
 				q(50721),	-- Zuldazar repeatable random chest
-				q(50722),	-- Zuldazar repeatable random chest
 				q(50723),	-- Zuldazar repeatable random chest
 				q(50726),	-- Zuldazar repeatable random chest
 				q(50727),	-- Zuldazar repeatable random chest
