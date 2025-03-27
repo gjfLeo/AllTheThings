@@ -949,6 +949,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		q(63023),	-- triggers when choosing to skip the Venthyr sanctum intro quests
 		q(59316),	-- turning in quest #62918, "Binding Power"
 		q(59317),	-- triggered when turning in #62919, "Strengthening the Bond"
+		q(62749),	-- triggered when turning in #62921, "Our True Purpose"
 		q(61546),	-- when looting 'Almost Empty Amontillado Cask' (181781) while on quest 'Crypt Crashers' (58428)
+		q(58059),	-- when choosing House Briarbane while on "Enacting Immediate Justice"
+		q(58061),	-- when choosing House Primrose while on "Enacting Immediate Justice"
+		q(58063),	-- when choosing House Darkvein while on "Enacting Immediate Justice"
+		q(58064),	-- when choosing House Sourwine while on "Enacting Immediate Justice"
+		q(58065),	-- when choosing House Duskmire while on "Enacting Immediate Justice"
+		q(58066),	-- when choosing House Sinfang while on "Enacting Immediate Justice"
 	})),
 })));

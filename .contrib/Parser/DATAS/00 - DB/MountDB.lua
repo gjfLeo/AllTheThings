@@ -1991,7 +1991,7 @@ i(229987, 466144);	-- Prized Gladiator's Fel Bat
 i(236960, 1221155);	-- Prototype A.S.M.R.
 i(235657, 1218012);	-- Ruby Butterfly
 i(229953, 466026);	-- Salvaged Goblin Gazillionaire's Flying Machine
-i(0, 466014);		-- Steamwheedle Supplier
+i(229943, 466014);	-- Steamwheedle Supplier
 i(235626, 1217760);	-- The Big G
 i(229944, 466016);	-- The Topskimmer Special
 i(229945, 466012);	-- Thunderdrum Misfire

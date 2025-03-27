@@ -36,7 +36,6 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["description"] = "This event takes place every 3 hours (3:00, 6:00, 9:00, and 12:00, based on realm time).  A zonewide announcement will say \"|cffe1780cThe air crackles with power as Azshara's forces begin summoning a minion from the depths|r,\" and a purple skull will appear on your map to indicate where the event is taking place.",
 		}),
 		explorationAch(13712),	-- Explore Nazjatar
-		petbattle(ach(13715)),	-- From the Belly of the Jelly
 		ach(13836, {	-- Feline Figurines Found
 			o(245286, {	-- Crystalline Cat Figurine
 				["questID"] = 56983,

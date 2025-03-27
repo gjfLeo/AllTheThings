@@ -560,6 +560,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 	m(SHADOWLANDS, {
 		m(THE_MAW, {
 			n(QUESTS, {
+				q(61858),	-- taking the portal to Acherus during "Shadowlands: A Chilling Summons"
 				q(62907),	-- triggered after collecting all stygia during "Rule 1: Have an Escape Plan" (questID 60287) (spellID 345141)
 				q(64627),	-- popped after turning in 'Setting the Ground Rules' (questID 62882) on a fresh alt (spellID 358753)
 				q(64983),	-- After completing The Maw intro, upon teleport and loading screen into Oribos (level 48 human rogue)

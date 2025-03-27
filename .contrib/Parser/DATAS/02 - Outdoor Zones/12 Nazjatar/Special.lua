@@ -26,6 +26,65 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				i(187922),	-- Flipper Fish
 			},
 		}),
+		header(HEADERS.Achievement, 13715, {	-- From the Belly of the Jelly
+			["description"] = "Feed the same |cFFFFD700Ravenous Slime|r a critter by using a |cFFFFD700Prismatic Crystal|r to charm them. Do this for 5 days to get a random pet from the cocoon. You can do this for each |cFFFFD700Ravenous Slime|r once per week.",
+			["g"] = {
+				ach(13715),	-- From the Belly of the Jelly
+				n(151218, {	-- Ravenous Slime (South)
+					["coord"] = { 55.1, 48.8, NAZJATAR },
+					["questID"] = 55427,
+					["isDaily"] = true,
+					["cost"] = { { "i", 167893, 1 } },	-- Prismatic Crystal
+				}),
+				n(151782, {	-- Ravenous Slime (East)
+					["coord"] = { 71.7, 25.7, NAZJATAR },
+					["questID"] = 55428,
+					["isDaily"] = true,
+					["cost"] = { { "i", 167893, 1 } },	-- Prismatic Crystal
+				}),
+				n(151874, {	-- Ravenous Slime (North)
+					["coord"] = { 45.7, 24.1, NAZJATAR },
+					["questID"] = 55429,
+					["isDaily"] = true,
+					["cost"] = { { "i", 167893, 1 } },	-- Prismatic Crystal
+				}),
+				n(151875, {	-- Ravenous Slime (West)
+					["coord"] = { 32.9, 39.8, NAZJATAR },
+					["questID"] = 55430,
+					["isDaily"] = true,
+					["cost"] = { { "i", 167893, 1 } },	-- Prismatic Crystal
+				}),
+				o_repeated(bubbleDown({ ["isWeekly"] = true }, {
+					o(324414, {	-- Slimy Cocoon (South)
+						["cr"] = 151218,	-- Ravenous Slime
+						["coord"] = { 55.1, 48.8, NAZJATAR },
+						["questID"] = 55475,
+					}),
+					o(324415, {	-- Slimy Cocoon (East)
+						["cr"] = 151782,	-- Ravenous Slime
+						["coord"] = { 71.7, 25.7, NAZJATAR },
+						["questID"] = 55476,
+					}),
+					o(324416, {	-- Slimy Cocoon (North)
+						["cr"] = 151874,	-- Ravenous Slime
+						["coord"] = { 45.7, 24.1, NAZJATAR },
+						["questID"] = 55477,
+					}),
+					o(324417, {	-- Slimy Cocoon (West)
+						["cr"] = 151875,	-- Ravenous Slime
+						["coord"] = { 32.9, 39.8, NAZJATAR },
+						["questID"] = 55478,
+					}),
+					i(167809),	-- Slimy Darkhunter (PET!)
+					i(167808),	-- Slimy Eel (PET!)
+					i(167807),	-- Slimy Fangtooth (PET!)
+					i(167810),	-- Slimy Hermit Crab (PET!)
+					i(167806),	-- Slimy Octopode (PET!)
+					i(167805),	-- Slimy Otter (PET!)
+					i(167804),	-- Slimy Sea Slug (PET!)
+				})),
+			},
+		}),
 		o(330194, {	-- Prismatic Crystal
 			i(167893),	-- Prismatic Crystal
 		}),
@@ -61,5 +120,16 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				i(168802),	-- Nazjatar Battle Commendation
 			},
 		})),
+	}),
+})));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
+	m(NAZJATAR, {
+		n(SPECIAL, {
+			q(55470, { ["name"] = "South Slimy Cocoon Spawned", ["isWeekly"] = true }),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon (55.1, 48.8)
+			q(55471, { ["name"] = "East Slimy Cocoon Spawned", ["isWeekly"] = true }),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon (71.7, 25.7)
+			q(55472, { ["name"] = "North Slimy Cocoon Spawned", ["isWeekly"] = true }),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon (45.7, 24.1)
+			q(55473, { ["name"] = "West Slimy Cocoon Spawned", ["isWeekly"] = true }),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon (32.9, 39.8)
+		}),
 	}),
 })));

@@ -177,6 +177,34 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 	}),
 })));
 
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
+	n(VENTHYR, bubbleDown({ ["customCollect"] = "SL_COV_VEN" }, {
+		n(SANCTUM_UPGRADES, {
+			n(ANIMA_CONDUCTOR, {
+				n(WORLD_QUESTS, {
+					q(60607),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as assassin)	— incremental power/ability boosts each time you complete the WQ
+					q(60610),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as assassin)
+					q(60612),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor rank 2 WQ (as assassin)
+					q(60636),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor rank 2 WQ (as assassin)
+					q(60608),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
+					q(60611),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
+					q(60613),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
+					q(62460),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
+				}),
+				q(61587),	-- Channeling Anima Conduit to Wanecrypt Hill - 1st time
+				q(60304),	-- Channeling Anima Conduit to Crypt of the Forgotten
+				q(60299),	-- Channeling Anima Conduit to Pridefall Hamlet
+				q(60305),	-- Channeling Anima Conduit to Court of the Harvesters
+				q(60301),	-- channeling anima to The Shrouded Asylum for the first time
+				q(60302),	-- channeling anima to Dominance Keep for the first time
+				q(61224),	-- "Ashen Urn" buff from Anima Conductor
+				q(61197),	-- "Mobile Mirror Set" buff from Anima Conductor
+				q(61210),	-- "Thirst for Anima" buff from Anima Conductor
+			}),
+		}),
+	})),
+})));
+
 for _,t in ipairs({HARIKA_THE_HORRID,FORGEMASTER_MADALAV,GRATEFUL_CURRENCY,SHRIEKERS_VOICEBOX,DREDBATSKIN_JERKIN,FORGEMASTERS_MANYFOLD_RAPIER}) do
 	t.customCollect = nil;
 end

@@ -691,28 +691,12 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(57097),	-- ??? Triggered after the cutscene for "Scouting the Palace" in Nazjatar on Alliance
 		q(56881),	-- Triggered upon first entry into Nazjatar
 		q(56677),	-- Triggered sometime after turning in "Needs of the People", after picking up the dailies, but before leaving Newhome. TODO:: research more (possibly bodyguard dialogue quest?)
-		q(56212),	-- Triggered when opening the first glimmering chest during "Scrying Stones"
-		q(56220),	-- Triggered when opening the second glimmering chest during "Scrying Stones"
-		q(56221),	-- Triggered when opening the third glimmering chest during "Scrying Stones"
 		q(56661),	-- Triggered when walking into the "Void Chamber" cave
 		q(55604),	-- Triggers after unlocking or making a purchase from Mrrl (Once per day)
 		q(56901),	-- Triggers after buying Mrrl's secret trader stock (requires cloak with special stock trait). Received 170162 - waterlogged toolbox first
 		q(57191),	-- Glimmering Chest — Prismatic Manapearls
 		q(57192),	-- Glimmering Chest — Prismatic Manapearls
-		q(55427),	-- Ravenous Slime fed (55.1, 48.8)
-		q(55470),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon(55.1, 48.8)
-		q(55475),	-- Slimy Cocoon opened (55.1, 48.8)
-		q(55428),	-- Ravenous Slime fed (71.7, 25.7)
-		q(55471),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon (71.7, 25.7)
-		q(55476),	-- Slimy Cocoon opened (71.7, 25.7)
-		q(55429),	-- Ravenous Slime fed (45.7, 24.1)
-		q(55472),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon (45.7, 24.1)
-		q(55477),	-- Slimy Cocoon opened (45.7, 24.1)
-		q(55430),	-- Ravenous Slime fed (32.9, 39.8)
-		q(55473),	-- Ravenous Slime fed 5x to spawn the Slimy Cocoon (32.9, 39.8)
-		q(55478),	-- Slimy Cocoon opened (32.9, 39.8)
 		q(56571),	-- Triggers when completing the Baine Rescue scenario. Probably used as unlock criteria for the Tauren Heritage armor chain
-		q(57140),	-- pretty sure this is for looting Ancient Reefwalker Bark
 
 		--	Dungeons
 		q(53623),	-- Battle for Azeroth Dungeon Reward Quest
@@ -798,7 +782,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		}),
 
 		-- Various tracking quests
-		q(61858),	-- taking the portal to Acherus during "Shadowlands: A Chilling Summons"
 		q(62686),	-- triggers when entering a zone with a 'Training' Calling active and your companion spawns (repeatable) (spellID 345018)
 		q(62713),	-- triggers when choosing to Skip the SL Storyline. Using this as the source of whether a character is a 'Skip' character
 		q(62744),	-- initially chose to quest through SL, then swapped to Threads of Fate
@@ -838,13 +821,8 @@ root(ROOTS.HiddenQuestTriggers, {
 
 		-- Venthyr Covenant
 		q(62950),	-- clicking "Activate" after putting "Thrill Seeker" in Nadjia's soulbind tree
-		q(62749),	-- triggered when turning in #62921, "Our True Purpose"
 		q(63063),	-- looks like an unused version of #63056, "Sanctum Upgrade: Mirror Network"
 		q(60300),	-- appears to trigger with every anima conduit
-		q(61587),	-- Channeling Anima Conduit to Wanecrypt Hill - 1st time
-		q(60304),	-- Channeling Anima Conduit to Crypt of the Forgotten
-		q(60299),	-- Channeling Anima Conduit to Pridefall Hamlet
-		q(60305),	-- Channeling Anima Conduit to Court of the Harvesters
 		q(60848),	-- triggered when looting one of the Greater Greedstone treasures
 		q(59432),	-- triggered when turning in #59661, "Ember Court Rehearsal"
 		q(61438),	-- triggered when turning in #61404, "Ember Court: Tubbins's Tea Party"
@@ -854,33 +832,14 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(59495),	-- when using Contract: Atoning Rituals (59594)
 
 		q(62668),	-- after looting a Dirty Glinting Object -- someone on discord got this when turning in Favor: She Had a Stone Heart, but i did not
-		q(58059),	-- when choosing House Briarbane while on "Enacting Immediate Justice"
-		q(58061),	-- when choosing House Primrose while on "Enacting Immediate Justice"
-		q(58063),	-- when choosing House Darkvein while on "Enacting Immediate Justice"
-		q(58064),	-- when choosing House Sourwine while on "Enacting Immediate Justice"
-		q(58065),	-- when choosing House Duskmire while on "Enacting Immediate Justice"
-		q(58066),	-- when choosing House Sinfang while on "Enacting Immediate Justice"
 		-- q(62502),	-- triggered at the end of Ember Court, before collecting tribute/leaving (week 3)
-		q(60607),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as assassin)	— incremental power/ability boosts each time you complete the WQ
-		q(60610),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as assassin)
-		q(60612),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor rank 2 WQ (as assassin)
-		q(60636),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor rank 2 WQ (as assassin)
-		q(60608),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
-		q(60611),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
-		q(60613),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
-		q(62460),	-- triggered when completing #60601, "Darkwing Drills," Anima Conductor Rank 2 WQ (as aggressor)
 		q(63454),	-- triggers when turning in "Return Lost Souls" (spellID 348839 & 348842 & 348845 & 348848)
 		q(59744),	-- when opening the Battered Chest while on Repair and Restore
-		q(60302),	-- when channeling anima to Dominance Keep for the first time
 		q(62533),	-- when completing 'Sootible Hat: Pink Party Hat' (62556)
 		q(62534),	-- when completing 'Sootible Hat: Pink Party Hat' (62556) (2nd time)
 		-- q(63354),	-- when completing 'Sootible Hat: Pink Party Hat' (62556)
 		q(62531),	-- when completing 'Sootible Hat: Crown of the Righteous' (62559)
 		-- q(63356),	-- when completing 'Sootible Hat: Crown of the Righteous' (62559)
-		q(60301),	-- channeling anima to The Shrouded Asylum for the first time
-		q(61224),	-- "Ashen Urn" buff from Anima Conductor
-		q(61197),	-- "Mobile Mirror Set" buff from Anima Conductor
-		q(61210),	-- "Thirst for Anima" buff from Anima Conductor
 		q(61577),	-- triggered when turning in #62174, "A Proper Cover"
 		q(62532),	-- think this was from doing the Sootible Hat: Pink Party Hat quest
 		-- q(63355),	-- think this was from doing the Sootible Hat: Fae Revel Mask quest (these 2 may be swapped/opposite, they both popped at once)
@@ -888,7 +847,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		-- 9.1 PTR
 		q(64274),	-- triggered when logging in on 4/30/21 - ptr.wowhead.com says this is a tracking quest for "NPC #179868 slain (5)" and "Dusklight Matriarch [id #179871] slain."  i couldn't see anything on the map that was attached to this quest ID so idk!!  there IS a WQ up in the maw, but it's 64273, not 64274.  but possibly this is tied to the active status of a maw wq, not sure
 		q(64376),	-- tracking quest that automatically accepted when i flew in to Korthia on 5/11/21 - supposedly related to the Darkmaul mount
-		q(64262),	-- triggered when turning in 'Charge of the Covenants' (questID 64007) (spellID 356441)
 		q(64536),	-- looting Maldraxxus Larva Shell (300 Catalogued Research)
 
 		-- Unknown?

@@ -2975,6 +2975,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(NAZJATAR, {
 		n(QUESTS, {
+			q(56212),	-- Triggered when opening the first glimmering chest during "Scrying Stones"
+			q(56220),	-- Triggered when opening the second glimmering chest during "Scrying Stones"
+			q(56221),	-- Triggered when opening the third glimmering chest during "Scrying Stones"
 			--	RECRUITMENT QUESTS
 			q(57040),	-- recruiting Hunter Akana / Vim Brineheart for the day
 			q(57041),	-- recruiting Farseer Ori / Neri Sharpfin for the day
@@ -3043,6 +3046,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		}),
 		n(ZONE_DROPS, {
 			q(57139),	-- Getting the weekly Reefwalker Bark?
+			q(57140),	-- pretty sure this is for looting Ancient Reefwalker Bark
 			q(57143),	-- looting an Eel Filet
 			q(57144),	-- looting Barnacled Bag of Goods
 			q(57145),	-- looting Voidcaster's Supply Bag

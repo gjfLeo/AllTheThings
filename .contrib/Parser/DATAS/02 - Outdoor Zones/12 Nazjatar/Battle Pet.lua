@@ -4,26 +4,6 @@
 
 root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	petbattle(filter(BATTLE_PETS, {
-		-- TODO: doesn't require pet battling but petbattle is bubbledown on the battle pets header...
-		n(151782, {	-- Ravenous Slime
-			["description"] = "Feed the same |cFFFFD700Ravenous Slime|r a critter by using a |cFFFFD700Prismatic Crystal|r to charm them. Do this for 5 days to get a random pet from the cocoon.  You can do this for each |cFFFFD700Ravenous Slime|r. ",
-			["coords"] = {
-				{ 32.9, 39.8, NAZJATAR },
-				{ 45.7, 24.1, NAZJATAR },
-				{ 71.7, 25.7, NAZJATAR },
-				{ 55.1, 48.8, NAZJATAR },
-			},
-			["cost"] = {{"i",167893,1}},	-- Prismatic Crystal
-			["g"] = {
-				i(167809),	-- Slimy Darkhunter (PET!)
-				i(167808),	-- Slimy Eel (PET!)
-				i(167807),	-- Slimy Fangtooth (PET!)
-				i(167810),	-- Slimy Hermit Crab (PET!)
-				i(167806),	-- Slimy Octopode (PET!)
-				i(167805),	-- Slimy Otter (PET!)
-				i(167804),	-- Slimy Sea Slug (PET!)
-			},
-		}),
 		pet(2678),	-- Abyssal Slitherling (PET!)
 		pet(2652),	-- Bloodseeker (PET!)
 		pet(2648),	-- Chitterspine Skitterling (PET!)
@@ -35,7 +15,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		pet(2645),	-- Sandclaw Pincher (PET!)
 		pet(2646),	-- Sandclaw Sunshell (PET!)
 		pet(2653),	-- Spireshell Snail (PET!)
-		n(DROPS, {
+		n(DROPS, {	-- TODO sort under rare drops
 			i(169632, {	-- Crackling Mandible
 				["crs"] = { 154919 },	-- Voltgorger
 				["coord"] = { 37.5, 16.7, NAZJATAR },
