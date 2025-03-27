@@ -3739,6 +3739,8 @@ root(ROOTS.HiddenAchievementTriggers, {
 			-- 11.1.0.59538
 			ach(41968),	-- Copious Coffers (copy)
 			ach(41969),	-- The Key to Madness (copy)
+			-- 11.1.0.59888
+			ach(42116),	-- Let Me Solo Him: The Underpin (copy)
 		})),
 
 		-- 11.1.5
