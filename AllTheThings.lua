@@ -3308,7 +3308,7 @@ end)();
 (function()
 local C_CreatureInfo_GetRaceInfo = C_CreatureInfo.GetRaceInfo;
 local outgoing,incoming,queue,active = {},{},{},nil;
-local whiteListedFields = { --[["Achievements",]] "AzeriteEssenceRanks", "BattlePets", "Exploration", "Factions", "FlightPaths", "Followers", "GarrisonBuildings", "Quests", "Spells", "Titles" };
+local whiteListedFields = { --[["Achievements",]] "Artifacts", "AzeriteEssenceRanks", "BattlePets", "Exploration", "Factions", "FlightPaths", "Followers", "GarrisonBuildings", "Quests", "Spells", "Titles" };
 app.CharacterSyncTables = whiteListedFields;
 local function splittoarray(sep, inputstr)
 	local t = {};

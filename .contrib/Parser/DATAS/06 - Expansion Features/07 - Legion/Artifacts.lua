@@ -701,6 +701,7 @@ root(ROOTS.ExpansionFeatures,
 							artifact(612),	-- Kill 1,000 Players Hidden
 						}),
 					}),
+					i(128869, {["collectible"] = false}),	-- The Kingslayers [Off Hand] is not actually a learned SourceID
 					i(128869, bubbleDown({ ["isOffHand"] = 1 }, {	-- The Kingslayers [Off Hand]
 						BaseAppearance(1259291, {
 							artifact(228),	-- Standard
@@ -2122,17 +2123,17 @@ root(ROOTS.ExpansionFeatures,
 					})),
 					i(128821, {	-- Claws of Ursoc [Main Hand]
 						BaseAppearance(1129695, {
-							artifact(265, {	-- Standard Troll
-								["races"] = { TROLL, ZANDALARI },
+							artifact(121, {	-- Standard Night Elf
+								["races"] = { NIGHTELF },
 							}),
 							artifact(264, {	-- Standard Tauren
 								["races"] = { TAUREN, HIGHMOUNTAIN_TAUREN },
 							}),
+							artifact(265, {	-- Standard Troll
+								["races"] = { TROLL, ZANDALARI },
+							}),
 							artifact(266, {	-- Standard Worgen / Kultiran
 								["races"] = { WORGEN, KULTIRAN },
-							}),
-							artifact(121, {	-- Standard Night Elf
-								["races"] = { NIGHTELF },
 							}),
 							artifact(267),	-- Recover one of the Pillars
 							artifact(268),	-- Recover Light's Heart
@@ -2173,17 +2174,17 @@ root(ROOTS.ExpansionFeatures,
 					}),
 					i(128822, bubbleDown({ ["isOffHand"] = 1 }, {	-- Claws of Ursoc [Offhand]
 						BaseAppearance(1129695, {
-							artifact(265, {	-- Standard Troll
-								["races"] = { TROLL, ZANDALARI },
+							artifact(121, {	-- Standard Night Elf
+								["races"] = { NIGHTELF },
 							}),
 							artifact(264, {	-- Standard Tauren
 								["races"] = { TAUREN, HIGHMOUNTAIN_TAUREN },
 							}),
+							artifact(265, {	-- Standard Troll
+								["races"] = { TROLL, ZANDALARI },
+							}),
 							artifact(266, {	-- Standard Worgen / Kultiran
 								["races"] = { WORGEN, KULTIRAN },
-							}),
-							artifact(121, {	-- Standard Night Elf
-								["races"] = { NIGHTELF },
 							}),
 							artifact(267),	-- Recover one of the Pillars
 							artifact(268),	-- Recover Light's Heart
@@ -2262,6 +2263,7 @@ root(ROOTS.ExpansionFeatures,
 							artifact(984),	-- Kill 1,000 Players Hidden
 						}),
 					}),
+					i(127830, {["collectible"] = false}),	-- Twinblades of the Deceiver [Off Hand] is not actually a learned SourceID
 					i(127830, bubbleDown({ ["isOffHand"] = 1 }, {	-- Twinblades of the Deceiver [Off Hand]
 						BaseAppearance(1117778, {
 							artifact(26),	-- Standard
