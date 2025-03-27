@@ -755,6 +755,25 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["maps"] = { SHOLAZAR_BASIN },
 			["_noautomation"] = true,
 		}),
+		i(44475, {	-- Reinforced Crate
+			["providers"] = {
+				{ "o", 192051 },	-- Borean Man O' War School
+				{ "o", 192053 },	-- Deep Sea Monsterbelly School
+				{ "o", 192048 },	-- Dragonfin Angelfish School
+				{ "o", 192049 },	-- Fangtooth Herring School
+				{ "o", 192050 },	-- Glacial Salmon School
+				{ "o", 192059 },	-- Glassfin Minnow School
+				{ "o", 192052 },	-- Imperial Manta Ray School
+				{ "o", 192054 },	-- Moonglow Cuttlefish School
+				{ "o", 192046 },	-- Musselback Sculpin School
+				{ "o", 192057 },	-- Nettlefish School
+			},
+			["groups"] = {
+				i(33567),	-- Borean Leather Scraps
+				i(36909),	-- Cobalt Ore
+				i(33470),	-- Frostweave Cloth
+			},
+		}),
 		i(41803, {	-- Rockfin Grouper
 			["description"] = "Can be caught on the seaside around Northrend.",
 			["maps"] = {
