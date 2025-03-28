@@ -1577,3 +1577,14 @@ app.AddEventHandler("RowOnClick", function(self, button)
 		end
 	end
 end)
+app.AddEventHandler("RowOnLeave", function (self)
+	local reference = self.ref;
+	if reference then reference.working = nil; end
+	app.ActiveRowReference = nil;
+	GameTooltip.ATT_AttachComplete = nil;
+	GameTooltip.ATT_IsRefreshing = nil;
+	GameTooltip.ATT_IsModifierKeyDown = nil;
+	GameTooltip:ClearATTReferenceTexture();
+	GameTooltip:ClearLines();
+	GameTooltip:Hide();
+end)

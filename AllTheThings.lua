@@ -4966,17 +4966,6 @@ app.AddEventHandler("RowOnEnter", function(self)
 	-- Tooltip for something which was not attached via search, so mark it as complete here
 	tooltip.ATT_AttachComplete = not reference.working;
 end)
-app.AddEventHandler("RowOnLeave", function (self)
-	local reference = self.ref;
-	if reference then reference.working = nil; end
-	app.ActiveRowReference = nil;
-	GameTooltip.ATT_AttachComplete = nil;
-	GameTooltip.ATT_IsRefreshing = nil;
-	GameTooltip.ATT_IsModifierKeyDown = nil;
-	GameTooltip:ClearATTReferenceTexture();
-	GameTooltip:ClearLines();
-	GameTooltip:Hide();
-end)
 
 end)();
 
