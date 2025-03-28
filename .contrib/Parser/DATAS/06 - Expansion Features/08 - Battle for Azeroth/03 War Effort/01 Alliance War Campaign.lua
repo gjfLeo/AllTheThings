@@ -1168,40 +1168,53 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						}
 					}),
 					q(53978, {	-- Gunpowder Plots
-						["provider"] = { "n", 145593 },	-- Rosaline Madison
-						["coord"] = { 41.5, 27.1, TIRAGARDE_SOUND },
-						["races"] = ALLIANCE_ONLY,
 						["sourceQuests"] = {
 							53916,	-- Outrigger Outfitters (definitely required)
 							53909,	-- Besieged Allies
 							54519,	-- Squad Goals
 							54518,	-- Zero Zeppelins
+						},
+						["provider"] = { "n", 145593 },	-- Rosaline Madison
+						["coord"] = { 41.5, 27.1, TIRAGARDE_SOUND },
+						["races"] = ALLIANCE_ONLY,
+						["g"] = {
+							o(309657, {	-- Gunpowder Keg
+								["coords"] = {
+									{ 37.1, 24.2, TIRAGARDE_SOUND },
+									{ 37.7, 24.2, TIRAGARDE_SOUND },
+									{ 38.4, 25.6, TIRAGARDE_SOUND },
+									{ 39.1, 25.4, TIRAGARDE_SOUND },
+									{ 39.2, 27.2, TIRAGARDE_SOUND },
+									{ 40.0, 27.0, TIRAGARDE_SOUND },
+									{ 40.3, 26.4, TIRAGARDE_SOUND },
+									{ 40.6, 27.5, TIRAGARDE_SOUND },
+								},
+								["g"] = { i(164968) },	-- Gunpowder Keg
+							}),
 						},
 					}),
 					q(54787, {	-- Masking for a Friend
+						["sourceQuests"] = {
+							53916,	-- Outrigger Outfitters (definitely required)
+							53909,	-- Besieged Allies
+							54519,	-- Squad Goals
+							54518,	-- Zero Zeppelins
+						},
 						["provider"] = { "n", 145593 },	-- Rosaline Madison
 						["coord"] = { 41.5, 27.1, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
+						["g"] = { i(166682) },	-- Blight Specialist Mask (QI!)
+					}),
+					q(54559, {	-- Free Plumeria
 						["sourceQuests"] = {
 							53916,	-- Outrigger Outfitters (definitely required)
 							53909,	-- Besieged Allies
 							54519,	-- Squad Goals
 							54518,	-- Zero Zeppelins
 						},
-						["g"] = {
-							i(166682),	-- Blight Specialist Mask (QI!)
-						},
-					}),
-					q(54559, {	-- Free Plumeria
 						["provider"] = { "n", 145632 },	-- Okri Putterwrench
 						["coord"] = { 41.5, 27.1, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["sourceQuests"] = {
-							53916,	-- Outrigger Outfitters (definitely required)
-							53909,	-- Besieged Allies
-							54519,	-- Squad Goals
-							54518,	-- Zero Zeppelins
-						},
 					}),
 					q(53919, {	-- Shots Fired
 						["sourceQuests"] = {
@@ -1215,22 +1228,35 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						["races"] = ALLIANCE_ONLY,
 					}),
 					q(53936, {	-- Stopping the Sappers
+						["sourceQuests"] = { 53919 },	-- Shots Fired
 						["provider"] = { "n", 145580 },	-- Lady Jaina Proudmoore
 						["coord"] = { 37.4, 24.9, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["sourceQuests"] = { 53919 },	-- Shots Fired
+						["g"] = {
+							o(307778, {	-- Large Azerite Bomb
+								["coords"] = {
+									{ 34.2, 31.0, TIRAGARDE_SOUND },
+									{ 35.2, 30.9, TIRAGARDE_SOUND },
+									{ 36.3, 23.3, TIRAGARDE_SOUND },
+									{ 36.4, 24.3, TIRAGARDE_SOUND },
+									{ 36.4, 28.4, TIRAGARDE_SOUND },
+								},
+								["g"] = { i(164921) },	-- Large Azerite Bomb (QI!)
+							}),
+						},
 					}),
 					q(54703, {	-- Express Delivery
+						["sourceQuests"] = { 53936 },	-- Stopping the Sappers
 						["provider"] = { "n", 145580 },	-- Lady Jaina Proudmoore
 						["coord"] = { 36.2, 29.8, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["sourceQuests"] = { 53936 },	-- Stopping the Sappers
 					}),
 					q(53887, {	-- War Marches On
+						["sourceQuests"] = { 54703 },	-- Express Delivery
 						["provider"] = { "n", 145580 },	-- Lady Jaina Proudmoore
 						["coord"] = { 36.4, 30.7, TIRAGARDE_SOUND },
 						["races"] = ALLIANCE_ONLY,
-						["sourceQuests"] = { 54703 },	-- Express Delivery
+
 					}),
 				--	BETWEEN WAR MARCHES ON AND THE SLEEPER AGENT
 					q(54191, {	-- Changing Course

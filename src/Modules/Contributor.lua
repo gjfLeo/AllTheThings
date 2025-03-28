@@ -604,6 +604,7 @@ MobileDB.GameObject = {
 	[315945] = true,	-- Prisoner Cage (q:54008)
 	[315946] = true,	-- Prisoner Cage (q:54008)
 	[315947] = true,	-- Prisoner Cage (q:54008)
+	[316270] = true,	-- Ball & Chain (q:54559)
 	[316399] = true,	-- Azerite Chest (q:54644)
 	[316434] = true,	-- Azerite Chest
 	[322020] = true,	-- Pile of Coins (Armored Vaultbot)

@@ -4375,7 +4375,7 @@ i(221851, 4466);	-- Argos
 i(235794, 4747);	-- Eye of Chaos
 i(236409, 4757);	-- Frumpy Softpaw
 i(232857, 4635);	-- Goggles
---i(241193, ????);	-- Helpful Workshop Bot
+i(241193, 3245);	-- Helpful Workshop Bot
 i(0, 4761);	-- Pascal the Wonder Pup
 i(235980, 4756);	-- Scourge of the Aspects
 i(239019, 4806);	-- Spicy Mean-Ball

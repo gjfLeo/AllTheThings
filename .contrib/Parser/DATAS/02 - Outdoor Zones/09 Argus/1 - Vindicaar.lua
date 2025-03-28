@@ -311,6 +311,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 					["sourceQuests"] = { 48440 },	-- Into the Night
 					["qgs"] = {
 						120978,	-- Illidan Stormrage
+						126408,	-- Illidan Stormrage
 						127057,	-- Illidan Stormrage
 					},
 					["coords"] = {

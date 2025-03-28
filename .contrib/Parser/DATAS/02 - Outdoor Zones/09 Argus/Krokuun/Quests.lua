@@ -303,12 +303,13 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["coord"] = { 56.6, 67.4, KROKUUN },
 			}),
 			q(49015, {	-- Antorus, the Burning Throne: The Death of a Titan
+				["sourceQuests"] = { 49014 },	-- The Burning Throne
+				["provider"] = { "n", 120533 },	-- Prophet Velen
+				["coord"] = { 40.2, 24.1, THE_VINDICAAR_KROKUUN_UPPER },
 				["groups"] = {
 					i(152984),	-- Boon of the Pantheon
 					i(152626),	-- Insignia of the Grand Army
 				},
-				["provider"] = { "n", 120533 },	-- Prophet Velen
-				["sourceQuests"] = { 49014 },	-- The Burning Throne
 			}),
 			q(47967, {	-- An Argus Roper
 				["provider"] = { "n", 126160 },	-- Lead Rider Jerek

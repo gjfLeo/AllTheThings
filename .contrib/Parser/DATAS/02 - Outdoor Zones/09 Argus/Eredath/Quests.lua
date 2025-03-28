@@ -165,8 +165,9 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["coord"] = { 62.7, 39.4, EREDATH },
 			}),
 			q(48446, {	-- Relics of the Ancient Eredar
-				["provider"] = { "n", 121230 },	-- Alleria Windrunner
 				["sourceQuests"] = { 48445 },	-- The Ruins of Oronaar
+				["provider"] = { "n", 121230 },	-- Alleria Windrunner
+				["coord"] = { 39.1, 25.8, THE_VINDICAAR_KROKUUN_UPPER },
 			}),
 			q(47416, {	-- Shadow of the Triumvirate
 				["sourceQuests"] = { 47856 },	-- Across the Universe

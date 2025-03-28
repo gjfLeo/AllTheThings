@@ -200,12 +200,30 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					["provider"] = { "o", 377499 },	-- On the Origin of Draconic Species
 					["coord"] = { 55.3, 24.7, THE_WAKING_SHORES },
 					["g"] = {
-						i(192754),	-- Dracuixote (QI!)
-						i(192757),	-- Pride and Protodrakes (QI!)
-						i(192755),	-- The Lord of the Wings (QI!)
-						i(192756),	-- The Red and the Black Flights (QI!)
-						i(192753),	-- The Scales of Wrath (QI!)
-						i(192745),	-- The Titanic Comedy (QI!)
+						o(376943, {	-- Dracuixote
+							["coord"] = { 53.5, 22.0, THE_WAKING_SHORES },
+							["g"] = { i(192754) },	-- Dracuixote (QI!)
+						}),
+						o(376946, {	-- Pride and Protodrakes
+							["coord"] = { 54.7, 20.5, THE_WAKING_SHORES },
+							["g"] = { i(192757) },	-- Pride and Protodrakes (QI!)
+						}),
+						o(376944, {	-- The Lord of the Wings
+							["coord"] = { 54.6, 20.6, THE_WAKING_SHORES },
+							["g"] = { i(192755) },	-- The Lord of the Wings (QI!)
+						}),
+						o(376945, {	-- The Red and the Black Flights
+							["coord"] = { 57.6, 23.8, THE_WAKING_SHORES },
+							["g"] = { i(192756) },	-- The Red and the Black Flights (QI!)
+						}),
+						o(376942, {	-- The Scales of Wrath
+							["coord"] = { 53.4, 22.5, THE_WAKING_SHORES },
+							["g"] = { i(192753) },	-- The Scales of Wrath (QI!)
+						}),
+						o(376941, {	-- The Titanic Comedy
+							["coord"] = { 57.1, 23.8, THE_WAKING_SHORES },
+							["g"] = { i(192745) },	-- The Titanic Comedy (QI!)
+						}),
 					},
 				}),
 				q(65999, {	-- Red in Tooth and Claw
