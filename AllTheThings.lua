@@ -4309,31 +4309,6 @@ app.TrySearchAHForGroup = function(group)
 		return true;
 	end
 end
-do
-local IsTracking, StartTracking, StopTracking
-	= C_ContentTracking.IsTracking, C_ContentTracking.StartTracking, C_ContentTracking.StopTracking
-app.AddContentTracking = function(group)
-	-- if this group is currently tracked
-	local sourceID, mountID, achievementID = group.sourceID, group.mountJournalID, group.achievementID
-	local type = sourceID and 0
-				or mountID and 1
-				or achievementID and 2
-				or nil
-	if type then
-		local id = type == 1 and mountID
-				or type == 2 and achievementID
-				or sourceID
-		if IsTracking(type,id) then
-			-- app.PrintDebug("StopTracking",type,id)
-			StopTracking(type, id, Enum.ContentTrackingStopType.Manual)
-		else
-			-- app.PrintDebug("StartTracking",type,id)
-			StartTracking(type, id)
-		end
-		return true
-	end
-end
-end
 
 local GetNumberWithZeros = app.Modules.Color.GetNumberWithZeros;
 ---@class ATTGameTooltip: GameTooltip
