@@ -84,6 +84,7 @@ src\Cache.lua
 src\Modules\RetrievingData.lua
 src\Modules\Collection.lua
 src\Modules\FactionData.lua
+src\Modules\Fill.lua
 src\Modules\Color.lua
 # src\Modules\Costs.lua
 src\Modules\Events.lua
