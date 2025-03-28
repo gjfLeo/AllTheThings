@@ -597,7 +597,6 @@ root(ROOTS.Unsorted, {
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
-				i(235556),	-- Violet Darkmoon Charger (MOUNT!) [Trading Post?]
 			}),
 			n(PVP, {	-- See Later...
 				i(232886),	-- Ensemble: Algari Warmonger's Cloth Armor

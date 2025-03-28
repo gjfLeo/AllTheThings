@@ -1999,6 +1999,7 @@ i(229951, 466022);	-- Venture Co-ordinator
 i(229989, 466146);	-- Vicious Electro Eel [A]
 i(229988, 466145);	-- Vicious Electro Eel [H]
 i(229936, 466002);	-- Violet Armored Growler
+i(235556, 1217342);	-- Violet Darkmoon Charger
 i(229947, 466021);	-- Violet Goblin Shredder
 -- TRADING POST TAG
 i(235662, 1218069);	-- Emerald Snail
@@ -2008,7 +2009,6 @@ i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(235646, 1217965);	-- Shimmermist Free Runner
 i(235557, 1217343);	-- Snowy Darkmoon Charger
 i(235658, 1218013);	-- Spring Butterfly
-i(235556, 1217342);	-- Violet Darkmoon Charger
 --- NYI ---
 i(232523, 460013);	-- G-99 Breakneck
 i(0, 466423);	-- Unstable Rocket

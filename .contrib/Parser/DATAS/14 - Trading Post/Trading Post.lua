@@ -2970,6 +2970,33 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
+		n(APRIL, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.59466", "removed 11.1.0.99999" } }, {	-- TODO: Timeline in/out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				iensemble(235664),	-- Ensemble: Topsy Turvy Mask Set
+			}),
+			filter(MOUNTS, {
+				i(235556, {	-- Violet Darkmoon Charger (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 575}},
+				}),
+			}),
+			filter(COSMETIC, {
+				i(234612, {	-- Double-Bladed Blooming Garden Trowel
+					["cost"] = {{"c", TRADERS_TENDER, 125}},
+				}),
+				iensemble(235595, {	-- Ensemble: Forest Dweller's Rooted Attire
+					["cost"] = {{"c", TRADERS_TENDER, 380}},
+				}),
+				i(234573, {	-- Topsy Turvy Clown's Blade
+					["cost"] = {{"c", TRADERS_TENDER, 140}},
+				}),
+				i(234725, {	-- Topsy Turvy Jester's Cleaver
+					["cost"] = {{"c", TRADERS_TENDER, 140}},
+				}),
+				i(235642, {	-- Topsy Turvy Jester's Die
+					["cost"] = {{"c", TRADERS_TENDER, 200}},
+				}),
+			}),
+		})),
 	}),
 }));
 

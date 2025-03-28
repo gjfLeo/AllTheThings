@@ -827,16 +827,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235579),	-- Forest Dweller's Garden Pants
 				i(235563),	-- Forest Dweller's Garden Tunic
 
-				------ Forest Dweller's Rooted Set ------
-				i(235595),	-- Ensemble: Forest Dweller's Rooted Attire
-				i(235591),	-- Forest Dweller's Rooted Belt
-				i(235570),	-- Forest Dweller's Rooted Boots
-				i(235578),	-- Forest Dweller's Rooted Cap
-				i(235574),	-- Forest Dweller's Rooted Glove
-				i(235587),	-- Forest Dweller's Rooted Mantle
-				i(235582),	-- Forest Dweller's Rooted Pants
-				i(235566),	-- Forest Dweller's Rooted Tunic
-
 				------ Midnight Butterfly Set ------
 				i(235229),	-- Ensemble: Ornaments of the Midnight Butterfly
 				i(235215),	-- Midnight Butterfly Belt
@@ -850,10 +840,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235212),	-- Spring Butterfly Pauldrons
 
 				------ Topsy Turvy Mask Set ------
-				i(235664),	-- Ensemble: Topsy Turvy Mask Set
-				i(235341),	-- Topsy Turvy Clown's Mask
 				i(235340),	-- Topsy Turvy Fool's Mask
-				i(235342),	-- Topsy Turvy Jester's Mask
 				i(235343),	-- Topsy Turvy Joker's Mask
 
 				-- Old Delve Sets
@@ -902,7 +889,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			}),
 			n(WEAPONS, {
 				i(234374),	-- Arathi Holy Standard
-				i(234612),	-- Double-Bladed Blooming Garden Trowel
 				i(234611),	-- Double-Bladed Butterfly Garden Trowel
 				i(234609),	-- Double-Bladed Forest Garden Trowel
 				i(234613),	-- Double-Bladed Rooted Garden Trowel
@@ -924,15 +910,12 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235399),	-- Spring Butterfly Polearm
 				i(235289),	-- Spring Butterfly Sword
 				i(235293),	-- Spring Butterfly Wand
-				i(234573),	-- Topsy Turvy Clown's Blade
 				i(234724),	-- Topsy Turvy Clown's Cleaver
 				i(235641),	-- Topsy Turvy Clown's Die
 				i(234572),	-- Topsy Turvy Fool's Blade
 				i(234727),	-- Topsy Turvy Fool's Cleaver
 				i(235640),	-- Topsy Turvy Fool's Die
 				i(234575),	-- Topsy Turvy Jester's Blade
-				i(234725),	-- Topsy Turvy Jester's Cleaver
-				i(235642),	-- Topsy Turvy Jester's Die
 				i(234577),	-- Topsy Turvy Joker's Blade
 				i(234726),	-- Topsy Turvy Joker's Cleaver
 				i(235643),	-- Topsy Turvy Joker's Die
