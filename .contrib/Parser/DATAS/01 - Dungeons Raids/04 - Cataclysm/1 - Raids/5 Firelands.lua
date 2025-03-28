@@ -171,9 +171,21 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						["providers"] = {
 							{ "o", 209098 },	-- Circle of Thorns Portal
 						},
-						["sourceQuest"] = 29225,	-- Actionable Intelligence
+						["sourceQuests"] = {
+							29225,	-- Actionable Intelligence
+							-- #IF NOT ANYCLASSIC
+							29432,	-- Delegation Tracker HQT
+							-- #ENDIF
+						},
 						["coord"] = { 62.1, 23.1, MOUNT_HYJAL },
-						["description"] = "Defeat Volcanus and recover the Branch of Nordrassil. In order to summon him, you need to open the Circle of Thorns portal. You can do this by completing the Delgation Tracker quest or by having someone else that has previously opened their own portal open the portal for you.\n\nNOTE: You will be locked out of doing the same for others should you choose to go this route.",
+						["description"] =
+							-- #IF ANYCLASSIC
+							"Defeat Volcanus and recover the Branch of Nordrassil. In order to summon him, you need to open the Circle of Thorns portal. You can do this by completing the Delgation Tracker quest or by having someone else that has previously opened their own portal open the portal for you.\n\nNOTE: You will be locked out of doing the same for others should you choose to go this route.",
+							-- #ELSE
+							-- In Retail it is required to complete and open the Portal yourself (or someone else also on Delegation who gathers the components themselves)
+							-- but that is a very niche scenario that likely no one would actually perform on purpose so doesn't merit being in the description
+							"Defeat Volcanus and recover the Branch of Nordrassil. In order to summon him, you need to open the Circle of Thorns portal.",
+							-- #ENDIF
 						["groups"] = {
 							objective(1, {	-- Branch of Nordrassil
 								["provider"] = { "i", 69646 },	-- Branch of Nordrassil
@@ -183,7 +195,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					o(209098, {	-- Circle of Thorns Portal
 						["questID"] = 29432,	-- Delegation Tracker HQT
 						["lockCriteria"] = { 1, "questID", 29234 },	-- Delegation
+						-- #IF ANYCLASSIC
 						["description"] = "Completing this quest means that you personally unlocked the Circle of Thorns Portal and can open the portal for others in the future instead of taking the lazy route and having someone else open the portal for you.",
+						-- #ENDIF
 						["cost"] = {
 							{ "i", 71017, 1 },	-- Charged Chitinous Focus
 							{ "i", 71015, 1 },	-- Charged Emberstone Focus
@@ -450,8 +464,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["timeline"] = { ADDED_7_3_0 },
 						}),
 						i(71017, {	-- Charged Chitinous Focus
+							["cost"] = {{"i",70998,1}},	-- Dull Chitinous Focus
 							["providers"] = {
-								{ "i", 70998 },	-- Dull Chitinous Focus
 								{ "n", 53971 },	-- Charged Chitinous Focus
 							},
 						}),
@@ -484,8 +498,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					["groups"] = {
 						ach(5810),	-- Not an Ambi-Turner
 						i(71008, {	-- Charged Rhyolite Focus
+							["cost"] = {{"i",70996,1}},	-- Dull Rhyolite Focus
 							["providers"] = {
-								{ "i", 70996 },	-- Dull Rhyolite Focus
 								{ "n", 53955 },	-- Charged Rhyolite Focus
 							},
 						}),
@@ -510,8 +524,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						}),
 						i(71665),	-- Flametalon of Alysrazor (MOUNT!)
 						i(71016, {	-- Charged Pyreshell Focus
+							["cost"] = {{"i",70995,1}},	-- Dull Pyreshell Focus
 							["providers"] = {
-								{ "i", 70995 },	-- Dull Pyreshell Focus
 								{ "n", 53967 },	-- Charged Pyreshell Focus
 							},
 						}),
@@ -540,8 +554,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 							["timeline"] = { ADDED_7_3_0 },
 						}),
 						i(71015, {	-- Charged Emberstone Focus
+							["cost"] = {{"i",71001,1}},	-- Dull Emberstone Focus
 							["providers"] = {
-								{ "i", 71001 },	-- Dull Emberstone Focus
 								{ "n", 53969 },	-- Charged Emberstone Focus
 							},
 						}),
