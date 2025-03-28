@@ -50,7 +50,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 		["timeline"] = { ADDED_10_1_0 },
 	}),
 	i(206959, {	-- Spark of Dreams
+		-- #IF BEFORE 11.1
+		-- These can no longer be used to create a Spark of Dreams as of 11.1
 		["cost"] = {{"i", 208396, 2}},	-- Splintered Spark of Dreams
+		-- #ENDIF
 		["timeline"] = { ADDED_10_2_0 },
 	}),
 	i(211516, {	-- Spark of Awakening
