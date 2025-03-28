@@ -581,6 +581,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}),
 				}),
 				n(QUESTS, {
+					q(89351, {	-- Liberation of Undermine: Splitting Pairs [N]
+						["qg"] = 235619,	-- Lentil Sprocket <Gallagio "Chauffeur">
+						["minReputation"] = { FACTION_GLRC, 5 },
+					}),
 				}),
 				ZoneDrops({
 				}),
@@ -618,6 +622,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}),
 				}),
 				n(QUESTS, {
+					q(89352, {	-- Liberation of Undermine: Splitting Pairs [H]
+						["qg"] = 235619,	-- Lentil Sprocket <Gallagio "Chauffeur">
+						["minReputation"] = { FACTION_GLRC, 5 },
+					}),
 				}),
 				ZoneDrops({
 				}),
@@ -643,6 +651,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}),
 				}),
 				n(QUESTS, {
+					q(89353, {	-- Liberation of Undermine: Splitting Pairs [M]
+						["qg"] = 235619,	-- Lentil Sprocket <Gallagio "Chauffeur">
+						["minReputation"] = { FACTION_GLRC, 5 },
+					}),
 				}),
 				ZoneDrops({
 				}),

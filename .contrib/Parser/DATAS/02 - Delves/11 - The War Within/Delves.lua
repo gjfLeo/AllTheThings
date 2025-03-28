@@ -1857,6 +1857,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 				}),
 				filter(COSMETIC, {
+					i(212166, {	-- Coral Nautic Helm
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_0_5 },
+					}),
 					iensemble(234388, {	-- Arsenal: Hallowfall Weaponry
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
@@ -1880,6 +1884,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(235617, {	-- Lucky Goblin's Strapped Rockets (COSMETIC!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					}),
+					i(212169, {	-- Mint-Scented Candle Hat
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_0_5 },
+					}),
+					i(212163, {	-- Soporific Shroom Cap
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_0_5 },
 					}),
 				}),
 				filter(MISC, {
@@ -1974,6 +1986,32 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							["cost"] = {{"c", UNDERCOIN, 500}},
 						}),
 					}),
+					filter(CLOTH, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
+						i(211013, {	-- Cave Topographer's Cord
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211011, {	-- Cave Topographer's Cowl
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211014, {	-- Cave Topographer's Cuffs
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211010, {	-- Cave Topographer's Handwraps
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211012, {	-- Cave Topographer's Leggings
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211009, {	-- Cave Topographer's Sandals
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211039, {	-- Cave Topographer's Shoulders
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211008, {	-- Cave Topographer's Vestment
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+					})),
 					filter(FINGER_F, {
 						i(211051, {	-- Loop of Vestigial Power
 							["cost"] = {{"c", UNDERCOIN, 500}},
@@ -1985,49 +2023,124 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							["cost"] = {{"c", UNDERCOIN, 500}},
 						}),
 					}),
+					filter(LEATHER, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
+						i(211020, {	-- Treasure-Seeker's Bindings
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211015, {	-- Treasure-Seeker's Boots
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211018, {	-- Treasure-Seeker's Breeches
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211038, {	-- Treasure-Seeker's Epaulets
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211016, {	-- Treasure-Seeker's Grips
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211017, {	-- Treasure-Seeker's Helm
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211019, {	-- Treasure-Seeker's Sash
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211037, {	-- Treasure-Seeker's Vest
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+					})),
+					filter(MAIL, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
+						i(211028, {	-- Torchbearer's Bracers
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211021, {	-- Torchbearer's Chainmail
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211027, {	-- Torchbearer's Cinch
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211024, {	-- Torchbearer's Coif
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211025, {	-- Torchbearer's Greaves
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211023, {	-- Torchbearer's Grips
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211026, {	-- Torchbearer's Shoulderguards
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211022, {	-- Torchbearer's Striders
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+					})),
 					filter(NECK_F, {
 						i(211063, {	-- Long-Lost Choker
 							["cost"] = {{"c", UNDERCOIN, 500}},
 						}),
 					}),
+					filter(PLATE, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
+						i(211036, {	-- Secret-Dredger's Armplates
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211030, {	-- Secret-Dredger's Breastplate
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211032, {	-- Secret-Dredger's Gauntlets
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211035, {	-- Secret-Dredger's Girdle
+							["cost"] = {{"c", UNDERCOIN, 625}},
+						}),
+						i(211029, {	-- Secret-Dredger's Helm
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211033, {	-- Secret-Dredger's Legguards
+							["cost"] = {{"c", UNDERCOIN, 875}},
+						}),
+						i(211034, {	-- Secret-Dredger's Mantle
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+						i(211031, {	-- Secret-Dredger's Sabatons
+							["cost"] = {{"c", UNDERCOIN, 750}},
+						}),
+					})),
 					i(221502, {	-- Adventurer's Warbound Battlegear Drop
 						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224814, {	-- Adventurer's Warbound Boots
 						["cost"] = {{"c", UNDERCOIN, 750}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224845, {	-- Adventurer's Warbound Chestpiece
 						["cost"] = {{"c", UNDERCOIN, 875}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224844, {	-- Adventurer's Warbound Gloves
 						["cost"] = {{"c", UNDERCOIN, 750}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224843, {	-- Adventurer's Warbound Headpiece
 						["cost"] = {{"c", UNDERCOIN, 875}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224842, {	-- Adventurer's Warbound Legs
 						["cost"] = {{"c", UNDERCOIN, 875}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224841, {	-- Adventurer's Warbound Shoulders
 						["cost"] = {{"c", UNDERCOIN, 750}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224840, {	-- Adventurer's Warbound Waist
 						["cost"] = {{"c", UNDERCOIN, 625}},
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 					i(224839, {	-- Adventurer's Warbound Wrists
 						["cost"] = {{"c", UNDERCOIN, 625}},
-					}),
-					i(212166, {	-- Coral Nautic Helm
-						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_0_5 },
-					}),
-					i(212169, {	-- Mint-Scented Candle Hat
-						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_0_5 },
-					}),
-					i(212163, {	-- Soporific Shroom Cap
-						["cost"] = {{"c", UNDERCOIN, 2500}},
-						["timeline"] = { ADDED_11_0_5 },
+						["timeline"] = { REMOVED_11_1_0_SEASONSTART },
 					}),
 				}),
 				n(WEAPONS, {

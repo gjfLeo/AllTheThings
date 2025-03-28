@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		pet(2645),	-- Sandclaw Pincher (PET!)
 		pet(2646),	-- Sandclaw Sunshell (PET!)
 		pet(2653),	-- Spireshell Snail (PET!)
-		n(DROPS, {	-- TODO sort under rare drops
+		n(DROPS, {
 			i(169632, {	-- Crackling Mandible
 				["crs"] = { 154919 },	-- Voltgorger
 				["coord"] = { 37.5, 16.7, NAZJATAR },
