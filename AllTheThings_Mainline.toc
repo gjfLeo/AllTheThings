@@ -169,6 +169,7 @@ db\Retail\Categories.lua
 
 # Window Definitions
 # src\UI\Windows\Windows.xml
+src\UI\Windows\Debugger.lua
 
 # Finally, prepare the Data Cache
 # src\Root.lua
