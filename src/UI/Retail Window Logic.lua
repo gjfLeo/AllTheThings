@@ -1131,6 +1131,7 @@ app.AddEventHandler("OnReady", function()
 	app:GetWindow("AuctionData")
 	app:GetWindow("Tradeskills")
 end)
+app.AddEventHandler("OnRefreshComplete", function() app.HandleEvent("OnUpdateWindows", true) end, true)
 
 local function ToggleMiniListForCurrentZone()
 	local window = app:GetWindow("CurrentInstance");

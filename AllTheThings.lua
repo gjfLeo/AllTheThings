@@ -3784,18 +3784,6 @@ function app:GetDataCache()
 end
 app.AddEventHandler("OnLoad", app.GetDataCache)
 
-local LastSettingsChangeUpdate
-local function CheckNewSettings()
-	if LastSettingsChangeUpdate ~= app._SettingsRefresh then
-		LastSettingsChangeUpdate = app._SettingsRefresh
-		app.HandleEvent("OnRecalculate_NewSettings")
-	end
-end
-app.AddEventHandler("OnRecalculateDone", CheckNewSettings)
-local function ForceUpdateWindows()
-	app.HandleEvent("OnUpdateWindows", true)
-end
-app.AddEventHandler("OnRefreshComplete", ForceUpdateWindows, true)
 end	-- Dynamic/Main Data
 
 do -- Search Response Logic

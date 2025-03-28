@@ -1481,3 +1481,10 @@ app.AddEventHandler("OnRefreshCollectionsDone", function()
 	-- Need to update the Settings window as well if User does not have auto-refresh for Settings
 	settings:UpdateMode()
 end)
+local LastSettingsChangeUpdate
+app.AddEventHandler("OnRecalculateDone", function()
+	if LastSettingsChangeUpdate ~= app._SettingsRefresh then
+		LastSettingsChangeUpdate = app._SettingsRefresh
+		app.HandleEvent("OnRecalculate_NewSettings")
+	end
+end)
