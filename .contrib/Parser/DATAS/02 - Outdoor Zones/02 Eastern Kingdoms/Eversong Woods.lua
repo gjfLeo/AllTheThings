@@ -2103,7 +2103,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						{ 60.8, 68.8, EVERSONG_WOODS },
 						{ 63.0, 64.6, EVERSONG_WOODS },
 					},
-					["collectible"] = false,
 				}),
 				i(23228, {	-- Old Whitebark's Pendant
 					["cr"] = 15409,	-- Old Whitebark

@@ -912,6 +912,7 @@ namespace ATT
                     case "customCollect":
                     case "type":
                     case "_wipe":
+                    case "collectible":
                         data[field] = value;
                         break;
                     // Conditional merges

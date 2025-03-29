@@ -1,9 +1,16 @@
 local Items = root(ROOTS.Uncollectible);
-local i = function(itemID)
+local NonCollectibleItems = ItemDBConditional
+local i = function(itemID, t)
 	-- need the ID within the group even though it's saved via ID
-	local item = { ["itemID"] = itemID };
-	Items[itemID] = item;
-	return item;
+	local item = t or {}
+	item.itemID = itemID
+	if t then
+		-- if we're applying additional data for non-collectible items, they need to go into ItemDBConditional for proper merging
+		NonCollectibleItems[itemID] = item
+	else
+		Items[itemID] = item
+	end
+	return item
 end
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 -- Put items between these two bars if you dont want to sort them /Braghe
@@ -16,6 +23,8 @@ i(3914);	-- Journeyman's Backpack
 i(5571);	-- Small Black Pouch
 i(5572);	-- Small Green Pouch
 i(6457);	-- Rusted Engineering Parts
+i(15636,{collectible=false})	-- Living Branch
+i(16967,{collectible=false})	-- Feralas Ahi
 i(29570);	-- A Gnmome Effigy
 i(35953);	-- Mead-Basted Caribou
 i(44435);	-- Windle's Lighter
