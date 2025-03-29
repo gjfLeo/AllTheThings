@@ -1912,6 +1912,11 @@ root(ROOTS.Zones, {
 		})),
 		ach(13144, {	-- Wide World of Quests
 			["timeline"] = { ADDED_8_0_1 },
+			["g"] = {
+				crit(42566, {
+					["_quests"] = 50483,	-- Underlord Xerxiz
+				}),
+			},
 		}),
 		petbattle(ach(6590, {		-- World Safari
 			-- Meta Achievement
