@@ -1208,18 +1208,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			}},
 			["timeline"] = { ADDED_11_0_7 }
 		}),
-		ach(17978),	-- Stones Can Fly!
-		ach(17977),	-- Stones Can Try To Fly!
+		ach(17978, { ["timeline"] = { REMOVED_TWW_LAUNCH } }),	-- Stones Can Fly!
+		ach(17977, { ["timeline"] = { REMOVED_TWW_LAUNCH } }),	-- Stones Can Try To Fly!
 		ach(17830, {	-- Stones Can't Fly!
-			i(204195, {	-- Drake's Shadowflame Crest
-				["timeline"] = { ADDED_10_1_0, REMOVED_10_2_0 },
-			}),
-			i(210770, {	-- Satchel of Drake's Dreaming Crests
-				["timeline"] = { ADDED_10_2_0, REMOVED_10_2_6_SEASON_FOUR },
-			}),
-			i(211952, {	-- Satchel of Drake's Awakened Crests
-				["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_TWW_LAUNCH },
-			}),
+			["timeline"] = { REMOVED_TWW_LAUNCH },
+			["g"] = {
+				i(204195, {	-- Drake's Shadowflame Crest
+					["timeline"] = { ADDED_10_1_0, REMOVED_10_2_0 },
+				}),
+				i(210770, {	-- Satchel of Drake's Dreaming Crests
+					["timeline"] = { ADDED_10_2_0, REMOVED_10_2_6_SEASON_FOUR },
+				}),
+				i(211952, {	-- Satchel of Drake's Awakened Crests
+					["timeline"] = { ADDED_10_2_6_SEASON_FOUR, REMOVED_TWW_LAUNCH },
+				}),
+			},
 		}),
 	}),
 })));

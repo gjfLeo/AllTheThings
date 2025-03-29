@@ -1033,6 +1033,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(152960),	-- Argussian Reach Insignia
 					i(152959),	-- Argussian Reach Insignia
 					i(152957),	-- Army of the Light Insignia
+					i(152958),	-- Army of the Light Insignia
 					i(141340),	-- Court of Farondis Insignia
 					i(146943),	-- Court of Farondis Insignia
 					i(141339),	-- Dreamweaver Insignia
@@ -1094,6 +1095,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(139801),	-- Lucky Doodad
 					i(139811),	-- Necklace of Endless Memories
 					i(139799),	-- Pathfinder's Saddle
+					i(152439),	-- Pit Lord Tusk
 					i(139812),	-- Potion of Triton
 					i(147558),	-- Pouch of Wonder
 					i(152929),	-- Pronged Ridgestalker Spear
@@ -1111,6 +1113,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(139875),	-- Undead Token
 					i(139851),	-- Valarjar's Might
 					i(140583),	-- Vial of Timeless Breath
+					i(152930),	-- Vilefiend-Spine Whip
 					i(152935),	-- Wakener's Bauble
 					i(147559),	-- Ward of Infinite Fury
 					i(139816),	-- Well-Worn Stone
