@@ -237,182 +237,425 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(41106, {	-- Algari Delver Damage Dealer
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71057),	-- Earthcrawl Mines
-				crit(70995),	-- Fungal Folly
-				crit(70996),	-- Kriegval's Rest
-				crit(70997),	-- Mycomancer Cavern
-				crit(70998),	-- Nightfall Sanctum
-				crit(70999),	-- Skittering Breach
-				crit(71000),	-- Tak-Rethan Abyss
-				crit(71001),	-- The Dread Pit
-				crit(71002),	-- The Sinkhole
-				crit(71003),	-- The Spiral Weave
-				crit(71004),	-- The Underkeep
-				crit(71005),	-- The Waterworks
-				crit(71006),	-- Sidestreet Sluice
-				crit(71007),	-- Excavation Site 9
+				crit(71057, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(70995, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(70996, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(70997, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(70998, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(70999, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71000, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71001, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71002, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71003, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71004, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71005, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71006, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71007, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41109, {	-- Algari Delver Damage Dealer II
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71043),	-- Earthcrawl Mines
-				crit(71044),	-- Fungal Folly
-				crit(71045),	-- Kriegval's Rest
-				crit(71046),	-- Mycomancer Cavern
-				crit(71047),	-- Nightfall Sanctum
-				crit(71048),	-- Skittering Breach
-				crit(71049),	-- Tak-Rethan Abyss
-				crit(71050),	-- The Dread Pit
-				crit(71051),	-- The Sinkhole
-				crit(71052),	-- The Spiral Weave
-				crit(71053),	-- The Underkeep
-				crit(71054),	-- The Waterworks
-				crit(71055),	-- Sidestreet Sluice
-				crit(71056),	-- Excavation Site 9
+				crit(71043, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71044, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71045, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71046, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71047, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71048, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71049, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71050, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71051, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71052, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71053, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71054, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71055, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71056, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41110, {	-- Algari Delver Damage Dealer III
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71058),	-- Earthcrawl Mines
-				crit(71059),	-- Fungal Folly
-				crit(71060),	-- Kriegval's Rest
-				crit(71061),	-- Mycomancer Cavern
-				crit(71062),	-- Nightfall Sanctum
-				crit(71063),	-- Skittering Breach
-				crit(71064),	-- Tak-Rethan Abyss
-				crit(71065),	-- The Dread Pit
-				crit(71066),	-- The Sinkhole
-				crit(71067),	-- The Spiral Weave
-				crit(71068),	-- The Underkeep
-				crit(71069),	-- The Waterworks
-				crit(71070),	-- Sidestreet Sluice
-				crit(71071),	-- Excavation Site 9
+				crit(71058, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71059, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71060, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71061, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71062, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71063, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71064, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71065, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71066, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71067, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71068, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71069, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71070, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71071, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41107, {	-- Algari Delver Healer
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71008),	-- Earthcrawl Mines
-				crit(71009),	-- Fungal Folly
-				crit(71010),	-- Kriegval's Rest
-				crit(71011),	-- Mycomancer Cavern
-				crit(71012),	-- Nightfall Sanctum
-				crit(71013),	-- Skittering Breach
-				crit(71014),	-- Tak-Rethan Abyss
-				crit(71015),	-- The Dread Pit
-				crit(71016),	-- The Sinkhole
-				crit(71017),	-- The Spiral Weave
-				crit(71018),	-- The Underkeep
-				crit(71019),	-- The Waterworks
-				crit(71020),	-- Sidestreet Sluice
-				crit(71021),	-- Excavation Site 9
+				crit(71008, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71009, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71010, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71011, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71012, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71013, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71014, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71015, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71016, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71017, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71018, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71019, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71020, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71021, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41111, {	-- Algari Delver Healer II
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71072),	-- Earthcrawl Mines
-				crit(71073),	-- Fungal Folly
-				crit(71074),	-- Kriegval's Rest
-				crit(71075),	-- Mycomancer Cavern
-				crit(71076),	-- Nightfall Sanctum
-				crit(71077),	-- Skittering Breach
-				crit(71078),	-- Tak-Rethan Abyss
-				crit(71079),	-- The Dread Pit
-				crit(71080),	-- The Sinkhole
-				crit(71081),	-- The Spiral Weave
-				crit(71082),	-- The Underkeep
-				crit(71083),	-- The Waterworks
-				crit(71084),	-- Sidestreet Sluice
-				crit(71085),	-- Excavation Site 9
+				crit(71072, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71073, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71074, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71075, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71076, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71077, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71078, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71079, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71080, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71081, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71082, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71083, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71084, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71085, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41112, {	-- Algari Delver Healer III
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71086),	-- Earthcrawl Mines
-				crit(71087),	-- Fungal Folly
-				crit(71088),	-- Kriegval's Rest
-				crit(71089),	-- Mycomancer Cavern
-				crit(71090),	-- Nightfall Sanctum
-				crit(71091),	-- Skittering Breach
-				crit(71092),	-- Tak-Rethan Abyss
-				crit(71093),	-- The Dread Pit
-				crit(71094),	-- The Sinkhole
-				crit(71095),	-- The Spiral Weave
-				crit(71096),	-- The Underkeep
-				crit(71097),	-- The Waterworks
-				crit(71098),	-- Sidestreet Sluice
-				crit(71099),	-- Excavation Site 9
+				crit(71086, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71087, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71088, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71089, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71090, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71091, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71092, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71093, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71094, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71095, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71096, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71097, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71098, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71099, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41108, {	-- Algari Delver Tank
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71022),	-- Earthcrawl Mines
-				crit(71023),	-- Fungal Folly
-				crit(71024),	-- Kriegval's Rest
-				crit(71025),	-- Mycomancer Cavern
-				crit(71026),	-- Nightfall Sanctum
-				crit(71027),	-- Skittering Breach
-				crit(71028),	-- Tak-Rethan Abyss
-				crit(71029),	-- The Dread Pit
-				crit(71030),	-- The Sinkhole
-				crit(71031),	-- The Spiral Weave
-				crit(71032),	-- The Underkeep
-				crit(71033),	-- The Waterworks
-				crit(71034),	-- Sidestreet Sluice
-				crit(71035),	-- Excavation Site 9
+				crit(71022, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71023, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71024, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71025, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71026, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71027, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71028, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71029, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71030, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71031, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71032, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71033, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71034, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71035, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41113, {	-- Algari Delver Tank II
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71100),	-- Earthcrawl Mines
-				crit(71101),	-- Fungal Folly
-				crit(71102),	-- Kriegval's Rest
-				crit(71103),	-- Mycomancer Cavern
-				crit(71104),	-- Nightfall Sanctum
-				crit(71105),	-- Skittering Breach
-				crit(71106),	-- Tak-Rethan Abyss
-				crit(71107),	-- The Dread Pit
-				crit(71108),	-- The Sinkhole
-				crit(71109),	-- The Spiral Weave
-				crit(71110),	-- The Underkeep
-				crit(71111),	-- The Waterworks
-				crit(71112),	-- Sidestreet Sluice
-				crit(71113),	-- Excavation Site 9
+				crit(71100, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71101, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71102, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71103, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71104, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71105, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71106, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71107, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71108, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71109, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71110, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71111, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71112, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71113, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(41114, {	-- Algari Delver Tank III
 			["timeline"] = { ADDED_11_1_0 },
-			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
-				crit(71114),	-- Earthcrawl Mines
-				crit(71115),	-- Fungal Folly
-				crit(71116),	-- Kriegval's Rest
-				crit(71117),	-- Mycomancer Cavern
-				crit(71118),	-- Nightfall Sanctum
-				crit(71119),	-- Skittering Breach
-				crit(71120),	-- Tak-Rethan Abyss
-				crit(71121),	-- The Dread Pit
-				crit(71122),	-- The Sinkhole
-				crit(71123),	-- The Spiral Weave
-				crit(71124),	-- The Underkeep
-				crit(71125),	-- The Waterworks
-				crit(71126),	-- Sidestreet Sluice
-				crit(71127),	-- Excavation Site 9
+				crit(71114, {	-- Earthcrawl Mines
+					["maps"] = { EARTHCRAWL_MINES },
+				}),
+				crit(71115, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(71116, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(71117, {	-- Mycomancer Cavern
+					["maps"] = { MYCOMANCER_CAVERN },
+				}),
+				crit(71118, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(71119, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(71120, {	-- Tak-Rethan Abyss
+					["maps"] = { TAK_RETHAN_ABYSS },
+				}),
+				crit(71121, {	-- The Dread Pit
+					["maps"] = { THE_DREAD_PIT },
+				}),
+				crit(71122, {	-- The Sinkhole
+					["maps"] = { THE_SINKHOLE },
+				}),
+				crit(71123, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				crit(71124, {	-- The Underkeep
+					["maps"] = { THE_UNDERKEEP },
+				}),
+				crit(71125, {	-- The Waterworks
+					["maps"] = { THE_WATERWORKS },
+				}),
+				crit(71126, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(71127, {	-- Excavation Site 9
+					["maps"] = { EXCAVATION_SITE_9 },
+				}),
 			},
 		}),
 		ach(40538, {	-- Brann Development
