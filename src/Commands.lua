@@ -128,15 +128,14 @@ end, {
 -- Allows adding a direct slash command(s) to the game
 -- NOTE: This is not super desirable to add so many slash commands.
 -- Please use app.ChatCommands.Add if possible to add a typical /att [command] [params] structured command with common handling
-local function AddSlashCommands(func, commands, rootcommandindex)
-	if not commands or not commands[1] then
+local function AddSlashCommands(commands, func)
+	if not commands or type(commands) ~= "table" or not commands[1] then
 		error("Cannot add Slash Command -- Invalid command alias array provided")
 	end
-	local commandRoot = "ATT"..commands[rootcommandindex or 1]:upper()
+	local commandRoot = "ATT"..commands[commands.RootCommandIndex or 1]:upper()
 	if not func or type(func) ~= "function" then
 		error(("Cannot add Slash Command for root %s -- Invalid call function provided"):format(tostring(commandRoot)))
 	end
-	app.PrintDebug("Adding Slash command",commandRoot,func)
 	-- Assign the function to the cmd list root
 	SlashCmdList[commandRoot] = func
 	-- Then assign the aliases
@@ -158,25 +157,26 @@ if app.IsClassic then return end
 
 -- Copied from Retail ATT, eventually migrate to defining windows or other related sources and using app.ChatCommands.Add() instead
 
-AddSlashCommands(function() app:GetWindow("Bounty"):Toggle() end,
-{"attbounty"})
+AddSlashCommands({"attbounty"},
+function() app:GetWindow("Bounty"):Toggle() end)
 
-AddSlashCommands(function() app:GetWindow("CosmicInfuser"):Toggle() end,
-{"attmaps"})
+AddSlashCommands({"attmaps"},
+function() app:GetWindow("CosmicInfuser"):Toggle() end)
 
-AddSlashCommands(function() app:GetWindow("RaidAssistant"):Toggle() end,
-{"attra"})
+AddSlashCommands({"attra"},
+function() app:GetWindow("RaidAssistant"):Toggle() end)
 
-AddSlashCommands(function() app:GetWindow("Random"):Toggle() end,
-{"attran","attrandom"})
+AddSlashCommands({"attran","attrandom"},
+function() app:GetWindow("Random"):Toggle() end)
 
-AddSlashCommands(function() app:GetWindow("WorldQuests"):Toggle() end,
-{"attwq"})
+AddSlashCommands({"attwq"},
+function() app:GetWindow("WorldQuests"):Toggle() end)
 
-AddSlashCommands(function() app:ToggleMiniListForCurrentZone() end,
-{"attmini","attminilist"})
+AddSlashCommands({"attmini","attminilist"},
+function() app:ToggleMiniListForCurrentZone() end)
 
-AddSlashCommands(function(cmd)
+AddSlashCommands({"attharvest","attharvester"},
+function(cmd)
 	app.print("Force Debug Mode");
 	app.Debugging = true
 	app.Settings:ForceRefreshFromToggle();
@@ -188,5 +188,117 @@ AddSlashCommands(function(cmd)
 	app.SetCustomWindowParam("list", "min", args[1]);
 	app.SetCustomWindowParam("list", "limit", args[2] or 999999);
 	app:GetWindow("list"):Toggle();
-end,
-{"attharvest","attharvester"})
+end)
+
+-- Default /att support
+AddSlashCommands({"allthethings","things","att"},
+function(cmd)
+	if cmd then
+		-- app.PrintDebug(cmd)
+		local args = { (" "):split(cmd:lower()) };
+		cmd = args[1];
+		-- app.PrintTable(args)
+		-- first arg is always the window/command to execute
+		app.ResetCustomWindowParam(cmd);
+		for k=2,#args do
+			local customArg, customValue = args[k], nil;
+			customArg, customValue = ("="):split(customArg);
+			-- app.PrintDebug("Split custom arg:",customArg,customValue)
+			app.SetCustomWindowParam(cmd, customArg, customValue or true);
+		end
+
+		-- Eventually will migrate known Chat Commands to their respective creators
+		local commandFunc = app.ChatCommands[cmd]
+		if commandFunc then
+			local help = args[2] == "help"
+			if help then return app.ChatCommands.PrintHelp(cmd) end
+			return commandFunc(args)
+		end
+
+		if not cmd or cmd == "" or cmd == "main" or cmd == "mainlist" then
+			app.ToggleMainList();
+			return true;
+		elseif cmd == "bounty" then
+			app:GetWindow("Bounty"):Toggle();
+			return true;
+		elseif cmd == "debugger" then
+			app.LoadDebugger();
+			return true;
+		elseif cmd == "filters" then
+			app:GetWindow("ItemFilter"):Toggle();
+			return true;
+		elseif cmd == "finder" then
+			app.SetCustomWindowParam("list", "type", "itemharvester");
+			app.SetCustomWindowParam("list", "harvesting", true);
+			app.SetCustomWindowParam("list", "limit", 225000);
+			app:GetWindow("list"):Toggle();
+			return true;
+		elseif cmd == "harvest_achievements" then
+			app:GetWindow("AchievementHarvester"):Toggle();
+			return true;
+		elseif cmd == "ra" then
+			app:GetWindow("RaidAssistant"):Toggle();
+			return true;
+		elseif cmd == "ran" or cmd == "rand" or cmd == "random" then
+			app:GetWindow("Random"):Toggle();
+			return true;
+		elseif cmd == "list" then
+			app:GetWindow("list"):Toggle();
+			return true;
+		elseif cmd == "nwp" then
+			app:GetWindow("NWP"):Toggle();
+			return true;
+		elseif cmd == "awp" then
+			--app:GetWindow("awp"):Hide();
+			app.SetCustomWindowParam("awp", "reset", true);
+			app:GetWindow("awp"):Toggle();
+			return true;
+		elseif cmd == "rwp" then
+			app:GetWindow("RWP"):Toggle();
+			return true;
+		elseif cmd == "wq" then
+			app:GetWindow("WorldQuests"):Toggle();
+			return true;
+		elseif cmd == "unsorted" then
+			app:GetWindow("Unsorted"):Toggle();
+			return true;
+		elseif cmd == "nyi" then
+			app:GetWindow("NeverImplemented"):Toggle();
+			return true;
+		elseif cmd == "hat" then
+			app:GetWindow("HiddenAchievementTriggers"):Toggle();
+			return true;
+		elseif cmd == "hct" then
+			app:GetWindow("HiddenCurrencyTriggers"):Toggle();
+			return true;
+		elseif cmd == "hqt" then
+			app:GetWindow("HiddenQuestTriggers"):Toggle();
+			return true;
+		elseif cmd == "sourceless" then
+			app:GetWindow("Sourceless"):Toggle();
+			return true;
+		elseif cmd:sub(1, 4) == "mini" then
+			app:ToggleMiniListForCurrentZone();
+			return true;
+		else
+			if cmd:sub(1, 6) == "mapid:" then
+				app:GetWindow("CurrentInstance"):SetMapID(tonumber(cmd:sub(7)), true);
+				return true;
+			end
+		end
+
+		-- Search for the Link in the database
+		app.SetSkipLevel(2);
+		local group = app.GetCachedSearchResults(app.SearchForLink, cmd, nil, {SkipFill = true});
+		app.SetSkipLevel(0);
+		-- make sure it's 'something' returned from the search before throwing it into a window
+		if group and (group.link or group.name or group.text or group.key) then
+			app:CreateMiniListForGroup(group);
+			return true;
+		end
+		app.print("Unknown Command: ", cmd);
+	else
+		-- Default command
+		app.ToggleMainList();
+	end
+end)
