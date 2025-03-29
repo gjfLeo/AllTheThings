@@ -8360,54 +8360,6 @@ SlashCmdList.AllTheThings = function(cmd)
 	end
 end
 
-SLASH_AllTheThingsBOUNTY1 = "/attbounty";
-SlashCmdList.AllTheThingsBOUNTY = function(cmd)
-	app:GetWindow("Bounty"):Toggle();
-end
-
-SLASH_AllTheThingsHARVESTER1 = "/attharvest";
-SLASH_AllTheThingsHARVESTER2 = "/attharvester";
-SlashCmdList.AllTheThingsHARVESTER = function(cmd)
-	app.print("Force Debug Mode");
-	app.Debugging = true
-	app.Settings:ForceRefreshFromToggle();
-	app.Settings:SetDebugMode(true);
-	app.SetCustomWindowParam("list", "reset", true);
-	app.SetCustomWindowParam("list", "type", "cache:item");
-	app.SetCustomWindowParam("list", "harvesting", true);
-	local args = { (","):split(cmd:lower()) };
-	app.SetCustomWindowParam("list", "min", args[1]);
-	app.SetCustomWindowParam("list", "limit", args[2]);
-	app:GetWindow("list"):Toggle();
-end
-
-SLASH_AllTheThingsMAPS1 = "/attmaps";
-SlashCmdList.AllTheThingsMAPS = function(cmd)
-	app:GetWindow("CosmicInfuser"):Toggle();
-end
-
-SLASH_AllTheThingsMINI1 = "/attmini";
-SLASH_AllTheThingsMINI2 = "/attminilist";
-SlashCmdList.AllTheThingsMINI = function(cmd)
-	app:ToggleMiniListForCurrentZone();
-end
-
-SLASH_AllTheThingsRA1 = "/attra";
-SlashCmdList.AllTheThingsRA = function(cmd)
-	app:GetWindow("RaidAssistant"):Toggle();
-end
-
-SLASH_AllTheThingsRAN1 = "/attran";
-SLASH_AllTheThingsRAN2 = "/attrandom";
-SlashCmdList.AllTheThingsRAN = function(cmd)
-	app:GetWindow("Random"):Toggle();
-end
-
-SLASH_AllTheThingsWQ1 = "/attwq";
-SlashCmdList.AllTheThingsWQ = function(cmd)
-	app:GetWindow("WorldQuests"):Toggle();
-end
-
 -- Define Event Behaviours
 app.AddonLoadedTriggers = {
 	[appName] = function()

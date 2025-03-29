@@ -57,6 +57,7 @@ lib\Callback.lua
 
 # Base ATT functionalities
 src\base.lua
+src\Commands.lua
 src\Events.lua
 src\DataHandling.lua
 
