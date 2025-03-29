@@ -6923,7 +6923,7 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 				end
 				-- If something new was "learned", then refresh the data.
 				-- app.PrintDebug("Done. learned",#learned)
-				UpdateRawIDs("spellID", learned);
+				app.UpdateRawIDs("spellID", learned);
 				if #learned > 0 then
 					app.HandleEvent("OnThingCollected", "Recipes")
 					self.force = true;
