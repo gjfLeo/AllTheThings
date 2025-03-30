@@ -262,10 +262,11 @@ local function BroadcastMessage(msg)
 	local sent = {};
 	msg = ValidateMessage(msg);
 	for key,character in pairs(OnlineAccounts) do
-		local name = character.name;
-		if name and not sent[name] then
+		local guid = character.guid;
+		if guid and not sent[guid] then
 			SendCharacterMessage(character, msg);
-			sent[name] = true;
+			if character.name and character.realm == CurrentCharacter.realm then sent[character.name] = true; end
+			sent[guid] = true;
 		end
 	end
 	
@@ -282,7 +283,7 @@ local function BroadcastMessage(msg)
 		local characterByInfo = {};
 		for guid,character in pairs(CharacterData) do
 			local name = character.name;
-			if name then characterByInfo[name] = character; end
+			if name and character.realm == CurrentCharacter.realm then characterByInfo[name] = character; end
 			SilentlyLinkedCharacters[character.guid] = true;
 			characterByInfo[guid] = character;
 		end
@@ -292,10 +293,10 @@ local function BroadcastMessage(msg)
 			if allowed then
 				local character = characterByInfo[identifier];
 				if character then
-					local name = character.name;
-					if not sent[name] then
+					local guid = character.guid;
+					if not sent[guid] then
 						SendCharacterMessage(character, msg);
-						sent[name] = true;
+						sent[guid] = true;
 					end
 				elseif not sent[identifier] then
 					sent[identifier] = true;
