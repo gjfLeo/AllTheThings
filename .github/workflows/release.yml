@@ -47,10 +47,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Fetch 300 latest commits and tags
-        run: |
-          git fetch origin --deepen=300
+        with:
+           fetch-depth: 300
+           fetch-tags: true
+           ref: ${{ github.ref }}
 
       - name: Download artifacts
         uses: actions/download-artifact@v4
