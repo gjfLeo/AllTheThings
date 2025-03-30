@@ -8,11 +8,12 @@ PRIESTESS_OF_THE_MOON_RACES = { NIGHTELF };
 
 root(ROOTS.Zones, m(KALIMDOR, {
 	m(TELDRASSIL, {
-		-- #if AFTER CATA
-		["lore"] = "Teldrassil is the starter zone for the night elves. Players learn how times have changed since Malfurion Stormrage has returned to Darnassus and how Fandrel Staghelm was corrupted. It is a lush spiritual zone, set high on an island that is also a great tree. It is home to the elven capital of Darnassus.",
-		-- #else
-		["lore"] = "In the past few years, the night elves have moved their capital to an island off northwest Kalimdor. Here, the Circle of the Ancients and the wise druids pooled their power to create a great tree akin to the World Tree, but on a smaller scale.\n\nThey called this tree Teldrassil, meaning “Crown of the Earth,” and built their city of Darnassus atop it. The island takes the name of the tree as well, and a twilite forest now covers it.",
-		-- #endif
+		["lore"] =
+			-- #if AFTER CATA
+			"Teldrassil is the starter zone for the night elves. Players learn how times have changed since Malfurion Stormrage has returned to Darnassus and how Fandrel Staghelm was corrupted. It is a lush spiritual zone, set high on an island that is also a great tree. It is home to the elven capital of Darnassus.",
+			-- #else
+			"In the past few years, the night elves have moved their capital to an island off northwest Kalimdor. Here, the Circle of the Ancients and the wise druids pooled their power to create a great tree akin to the World Tree, but on a smaller scale.\n\nThey called this tree Teldrassil, meaning “Crown of the Earth,” and built their city of Darnassus atop it. The island takes the name of the tree as well, and a twilite forest now covers it.",
+			-- #endif
 		["icon"] = 236740,
 		["maps"] = {
 			59,	-- Fel Rock
@@ -47,7 +48,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 28714,	-- Fel Moss Corruption
 							["coords"] = {
 								-- #if AFTER 5.0.4
+								-- Every once in a while he changes the location, stays in place for an undisclosed amount of time and changes back.
 								{ 45.6, 74.5, SHADOWGLEN },
+								{ 46.3, 73.5, SHADOWGLEN },
 								-- #else
 								{ 58.6, 44.2, TELDRASSIL },
 								-- #endif
@@ -152,9 +155,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 45.8, 73, SHADOWGLEN },
+								{ 45.9, 72.9, SHADOWGLEN },
 								-- #else
-								{ 58, 38.8, TELDRASSIL },
+								{ 58.0, 38.8, TELDRASSIL },
 								-- #endif
 							},
 							["timeline"] = { ADDED_4_0_3 },
@@ -185,7 +188,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 54.5, 84.7, SHADOWGLEN },
+								{ 54.6, 84.7, SHADOWGLEN },
 								-- #elseif AFTER CATA
 								{ 60.2, 41.6, TELDRASSIL },
 								-- #else
@@ -257,7 +260,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 28713,	-- The Balance of Nature
 							["coords"] = {
 								-- #if AFTER 5.0.4
+								-- Every once in a while he changes the location, stays in place for an undisclosed amount of time and changes back.
 								{ 45.6, 74.5, SHADOWGLEN },
+								{ 46.3, 73.5, SHADOWGLEN },
 								-- #else
 								{ 58.6, 44.2, TELDRASSIL },
 								-- #endif
@@ -323,7 +328,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 28723,	-- Priestess of the Moon
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 46.2, 73.5, SHADOWGLEN },
+								{ 42.5, 50.5, SHADOWGLEN },
 								-- #else
 								{ 57.2, 33.2, TELDRASSIL },
 								-- #endif
@@ -426,7 +431,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 28729,	-- Teldrassil: Crown of Azeroth
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 42.5, 50.4, SHADOWGLEN },
+								{ 42.5, 50.5, SHADOWGLEN },
 								-- #else
 								{ 57.2, 33.2, TELDRASSIL },
 								-- #endif
@@ -450,7 +455,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["coords"] = {
 								-- #if AFTER 5.0.4
+								-- Every once in a while he changes the location, stays in place for an undisclosed amount of time and changes back.
 								{ 45.6, 74.5, SHADOWGLEN },
+								{ 46.3, 73.5, SHADOWGLEN },
 								-- #else
 								{ 58.6, 44.2, TELDRASSIL },
 								-- #endif
@@ -524,12 +531,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						})),
 						-- #endif
 						q(28728, {	-- Signs of Things to Come
-							["qg"] = 49480,	-- Tarindrella
+							["qg"] = 49480,	-- Tarindrella (mobileNPC)
 							["sourceQuest"] = 28727,	-- Vile Touch
 							["coords"] = {
-								{ 44.8, 29.0, SHADOWGLEN },
 								-- #if AFTER 5.0.4
-								{ 45.6, 74.5, SHADOWGLEN },
+								{ 38.8, 10.4, SHADOWGLEN },
+								{ 45.2, 29.0, 58 },	-- Shadowthread Cave
 								-- #else
 								{ 58.6, 44.2, TELDRASSIL },
 								-- #endif
@@ -571,7 +578,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 28728,	-- Signs of Things to Come
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 42.5, 50.4, SHADOWGLEN },
+								{ 42.5, 50.5, SHADOWGLEN },
 								-- #else
 								{ 57.2, 33.2, TELDRASSIL },
 								-- #endif
@@ -602,7 +609,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 28730,	-- Precious Waters
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 47.4, 55.6, SHADOWGLEN },
+								{ 47.2, 55.9, SHADOWGLEN },
 								-- #else
 								{ 58.4, 34.4, TELDRASSIL },
 								-- #endif
@@ -629,7 +636,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 2079,	-- Ilthalaine
 							["coords"] = {
 								-- #if AFTER 5.0.4
+								-- Every once in a while he changes the location, stays in place for an undisclosed amount of time and changes back.
 								{ 45.6, 74.5, SHADOWGLEN },
+								{ 46.3, 73.5, SHADOWGLEN },
 								-- #else
 								{ 58.6, 44.2, TELDRASSIL },
 								-- #endif
@@ -685,7 +694,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 28724,	-- Iverron's Antidote
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 42.4, 50.4, SHADOWGLEN },
+								{ 42.5, 50.5, SHADOWGLEN },
 								-- #else
 								{ 57.2, 33.2, TELDRASSIL },
 								-- #endif
@@ -748,11 +757,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { DRUID },
 						}),
 						q(28727, {	-- Vile Touch
-							["qg"] = 49480,	-- Tarindrella
+							["qg"] = 49480,	-- Tarindrella (mobileNPC)
 							["sourceQuest"] = 28726,	-- Webwood Corruption
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 45.8, 91.0, SHADOWGLEN },
+								-- Approximate center location of the cave. Real location on the quest being offered to you depends on where you killed the last creature of previous quest.
+								{ 39.7, 15.1, SHADOWGLEN },
+								{ 46.8, 44.4, 58 },	-- Shadowthread Cave
 								-- #else
 								{ 57.6, 29.0, TELDRASSIL },
 								-- #endif
@@ -778,11 +789,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(28726, {	-- Webwood Corruption
-							["qg"] = 49480,	-- Tarindrella
+							["qg"] = 49480,	-- Tarindrella (mobileNPC)
 							["sourceQuest"] = 28725,	-- The Woodland Protector
 							["coords"] = {
 								-- #if AFTER 5.0.4
-								{ 45.8, 91.0, SHADOWGLEN },
+								-- Although Shadowglen is technically correct, Tarindrella appears only after you enter the Cave at which point she becomes a companion and starts following you around. If you walk out of it, she disappears.
+								{ 38.9, 30.4, SHADOWGLEN },
+								{ 44.5, 92.0, 58 },	-- Shadowthread Cave
 								-- #else
 								{ 57.6, 29.0, TELDRASSIL },
 								-- #endif
@@ -890,11 +903,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				fp(27, {	-- Rut'theran Village, Teldrassil
 					["cr"] = 3838,	-- Vesprystus <Hippogryph Master>
-					-- #if AFTER CATA
-					["coord"] = { 55.4, 88.4, TELDRASSIL },
-					-- #else
-					["coord"] = { 58.4, 94.0, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.4, 88.4, TELDRASSIL },
+						-- #else
+						{ 58.4, 94.0, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
@@ -977,11 +992,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(QUESTS, {
 				q(475, {	-- A Troubling Breeze
 					["qg"] = 2078,	-- Athridas Bearmantle
-					-- #if AFTER CATA
-					["coord"] = { 55.7, 51.9, TELDRASSIL },
-					-- #else
-					["coord"] = { 56, 57.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.7, 52.0, TELDRASSIL },
+						-- #else
+						{ 56.0, 57.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
@@ -1080,10 +1097,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					-- #if AFTER CATA
 					["sourceQuest"] = 486,	-- Ursal the Mauler
-					["coord"] = { 55.7, 50.4, TELDRASSIL },
-					-- #else
-					["coord"] = { 56, 57.8, TELDRASSIL },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.8, 50.4, TELDRASSIL },
+						-- #else
+						{ 56.0, 57.8, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
@@ -1116,11 +1137,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(2561, {	-- Druid of the Claw
 					["qg"] = 7317,	-- Oben Rageclaw
 					["sourceQuest"] = 2541,	-- The Sleeping Druid
-					-- #if AFTER CATA
-					["coord"] = { 41.1, 83.7, TELDRASSIL_BANETHIL_BARROW_DEN },
-					-- #else
-					["coord"] = { 45, 61.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 41.2, 83.8, TELDRASSIL_BANETHIL_BARROW_DEN },
+						-- #else
+						{ 45.0, 61.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(3, 3, 1),
 					["groups"] = {
@@ -1167,16 +1190,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(1581, {	-- Elixirs for the Bladeleafs
 					["qg"] = 2083,	-- Syral Bladeleaf
-					-- #if BEFORE 8.0.1
-					["description"] = "This quest becomes available at Alchemy skill level 20 when the character level requirement is met.",
-					-- #else
-					["description"] = "This quest becomes available at Classic Alchemy skill level 20 when the character level requirement is met.",
-					-- #endif
-					-- #if AFTER CATA
-					["coord"] = { 55.8, 50.4, TELDRASSIL },
-					-- #else
-					["coord"] = { 56, 57.8, TELDRASSIL },
-					-- #endif
+					["description"] =
+						-- #if BEFORE 8.0.1
+						"This quest becomes available at Alchemy skill level 20 when the character level requirement is met.",
+						-- #else
+						"This quest becomes available at Classic Alchemy skill level 20 when the character level requirement is met.",
+						-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.8, 50.4, TELDRASSIL },
+						-- #else
+						{ 56.0, 57.8, TELDRASSIL },
+						-- #endif
+					},
 					["requireSkill"] = ALCHEMY,
 					["races"] = ALLIANCE_ONLY,
 					["cost"] = {
@@ -1223,11 +1249,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(2459, {	-- Ferocitas the Dream Eater
 					["qg"] = 3567,	-- Tallonkai Swiftroot
 					["sourceQuest"] = 2438,	-- The Emerald Dreamcatcher
-					-- #if AFTER CATA
-					["coord"] = { 55.6, 50, TELDRASSIL },
-					-- #else
-					["coord"] = { 55.4, 56.8, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.6, 50.0, TELDRASSIL },
+						-- #else
+						{ 55.4, 56.8, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/7 Gnarlpine Mystic slain
@@ -1239,7 +1267,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "n", 7234 },	-- Ferocitas the Dream Eater
 								{ "i", 8049 },	-- Gnarlpine Necklace
 							},
-							["coord"] = { 69.2, 53.4, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 67.3, 46.9, TELDRASSIL },
+								-- #else
+								{ 69.2, 53.4, TELDRASSIL },
+								-- #endif
+							},
 						}),
 					},
 				}),
@@ -1276,28 +1310,32 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(476, {	-- Gnarlpine Corruption
 					["qg"] = 2107,	-- Gaerolas Talvethren
 					["sourceQuest"] = 475,	-- A Troubling Breeze
-					-- #if AFTER CATA
-					["coord"] = { 64.6, 51.2, TELDRASSIL },
-					-- #else
-					["coord"] = { 66.2, 58.6, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 64.6, 51.1, TELDRASSIL },
+						-- #else
+						{ 66.2, 58.6, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
 				q(14039, {	-- Home of the Kaldorei
 					["qg"] = 3515,	-- Corithras Moonrage
 					["sourceQuest"] = 935,	-- The Waters of Teldrassil / Crown of the Earth (6/6)
-					["coord"] = { 41.0, 45.5, TELDRASSIL },
+					["coord"] = { 41.0, 45.6, TELDRASSIL },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(938, {	-- Mist
 					["qg"] = 3568,	-- Mist
-					-- #if AFTER CATA
-					["coord"] = { 34.4, 27.8, TELDRASSIL },
-					-- #else
-					["coord"] = { 31.4, 31.6, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 34.5, 27.8, TELDRASSIL },
+						-- #else
+						{ 31.4, 31.6, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(7, 7, 1),
 					["groups"] = {
@@ -1321,7 +1359,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(923, {	-- Mossy Tumors [CATA+] / Tumors
 					["qg"] = 3517,	-- Rellian Greenspyre
 					["sourceQuest"] = 922,	-- Rellian Greenspyre
-					["coord"] = { 43.9, 44.1, TELDRASSIL },
+					["coord"] = { 44.0, 44.2, TELDRASSIL },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(5605),	-- Pruning Knife
@@ -1334,25 +1372,38 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13946, {	-- Nature's Reprisal
 					["qg"] = 2083,	-- Syral Bladeleaf
 					["sourceQuest"] = 489,	-- Seek Redemption!
-					["coord"] = { 55.7, 50.4, TELDRASSIL },
+					["coord"] = { 55.8, 50.4, TELDRASSIL },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(2499, {	-- Oakenscowl
 					["qg"] = 2080,	-- Denalan
-					-- #if AFTER CATA
-					["sourceQuest"] = 923,	-- Mossy Tumors
-					["coord"] = { 43.9, 44.2, TELDRASSIL },
-					-- #else
-					["sourceQuest"] = 2498,	-- Return to Denalan
-					["coord"] = { 60.8, 68.4, TELDRASSIL },
-					-- #endif
+					["sourceQuests"] = {
+						-- #if AFTER CATA
+						923,	-- Mossy Tumors
+						-- #else
+						2498,	-- Return to Denalan
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 43.9, 44.2, TELDRASSIL },
+						-- #else
+						{ 60.8, 68.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
 						objective(1, {	-- 0/1 Gargantuan Tumor
 							["provider"] = { "i", 8136 },	-- Gargantuan Tumor
-							["coord"] = { 53.6, 75.0, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 47.5, 35.5, TELDRASSIL },
+								-- #else
+								{ 53.6, 75.0, TELDRASSIL },
+								-- #endif
+							},
 							["cr"] = 2166,	-- Oakenscowl
 						}),
 						i(5458),	-- Dirtwood Belt
@@ -1366,11 +1417,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 5217 },	-- Tainted Heart
 					},
 					["sourceQuest"] = 927,	-- The Moss-twined Heart
-					-- #if AFTER CATA
-					["coord"] = { 59.8, 59.6, TELDRASSIL },
-					-- #else
-					["coord"] = { 60.8, 68.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 59.9, 59.8, TELDRASSIL },
+						-- #else
+						{ 60.8, 68.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(9, 9, 1),
 					["groups"] = {
@@ -1396,11 +1449,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 5168 },	-- Timberling Seed
 					},
 					["sourceQuest"] = 918,	-- Timberling Seeds
-					-- #if AFTER CATA
-					["coord"] = { 59.8, 59.6, TELDRASSIL },
-					-- #else
-					["coord"] = { 60.8, 68.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 59.9, 59.8, TELDRASSIL },
+						-- #else
+						{ 60.8, 68.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
@@ -1415,7 +1470,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13945, {	-- Resident Danger
 					["qg"] = 2081,	-- Sentinel Kyra Starsong
 					["sourceQuest"] = 476,	-- Gnarlpine Corruption
-					["coord"] = { 55.6, 51.9, TELDRASSIL },
+					["coord"] = { 55.7, 52.0, TELDRASSIL },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1442,11 +1497,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(489, {	-- Seek Redemption!
 					["qg"] = 2083,	-- Syral Bladeleaf
 					["sourceQuest"] = 488,	-- Zenn's Bidding
-					-- #if AFTER CATA
-					["coord"] = { 55.8, 50.4, TELDRASSIL },
-					-- #else
-					["coord"] = { 56, 59.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.8, 50.4, TELDRASSIL },
+						-- #else
+						{ 56.0, 59.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
@@ -1559,14 +1616,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(933, {	-- Teldrassil: The Coming Dawn [CATA+] / Crown of the Earth (4/6)
 					["qg"] = 3515,	-- Corithras Moonrage
 					["sourceQuest"] = 7383,	-- Teldrassil: The Burden of the Kaldorei [CATA+] / Crown of the Earth (5/6)
-					["coord"] = { 40.9, 45.5, TELDRASSIL },
+					["coord"] = { 41.0, 45.6, TELDRASSIL },
 					["races"] = ALLIANCE_ONLY,
 				}),
-				q(929, {	-- Teldrassil: The Refusal of the Aspects / Crown of the Earth (3/6)
+				q(929, {	-- Teldrassil: The Refusal of the Aspects [CATA+] / Crown of the Earth (3/6)
 					["qg"] = 3515,	-- Corithras Moonrage
+					["description"] = "The quest completion marker and position of the quest giver depends on the quests you have accepted.\n\nIf you DO NOT have |cff4a54e8Teldrassil: The Burden of the Kaldorei|r in your Quest Log, Corithras Moonrage will be at Dolanaar.\nIf you DO HAVE it accepted, along with this quest, he will be at the Crossroads in front of the entrance to Darnassus.",
 					["sourceQuest"] = 28731,	-- Teldrassil: Passing Awareness
-					["coord"] = { 41.4, 45.8, TELDRASSIL },
-					["description"] = "The quest completion marker is placed wrong, go to the crossroad just outside of Darnassus.",
+					["coords"] = {
+						{ 55.8, 53.9, TELDRASSIL },	-- Dolanaar
+						{ 41.0, 45.6, TELDRASSIL },	-- Darnassus Crossroads
+					},
 					["races"] = PRIESTESS_OF_THE_MOON_RACES,
 				}),
 				-- #endif
@@ -1610,11 +1670,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #endif
 				q(2438, {	-- The Emerald Dreamcatcher
 					["qg"] = 3567,	-- Tallonkai Swiftroot
-					-- #if AFTER CATA
-					["coord"] = { 55.6, 50, TELDRASSIL },
-					-- #else
-					["coord"] = { 55.4, 56.8, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.6, 50.0, TELDRASSIL },
+						-- #else
+						{ 55.4, 56.8, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Emerald Dreamcatcher
@@ -1622,17 +1684,25 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 8048 },	-- Emerald Dreamcatcher
 								{ "o", 126158 },	-- Tallonkai's Dresser
 							},
-							["coord"] = { 68.0, 59.6, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 66.1, 52.1, TELDRASSIL },
+								-- #else
+								{ 68.0, 59.6, TELDRASSIL },
+								-- #endif
+							},
 						}),
 					},
 				}),
 				q(937, {	-- The Enchanted Glade
 					["qg"] = 3519,	-- Sentinel Arynia Cloudsbreak
-					-- #if AFTER CATA
-					["coord"] = { 39.4, 29.8, TELDRASSIL },
-					-- #else
-					["coord"] = { 38.2, 34.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 39.5, 29.9, TELDRASSIL },
+						-- #else
+						{ 38.2, 34.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(6, 6, 1),
 					["groups"] = {
@@ -1668,11 +1738,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "o", 6751 },	-- Strange Fruited Plant
 						{ "i", 5189 },	-- Glowing Fruit
 					},
-					-- #if AFTER CATA
-					["coord"] = { 57.8, 63.0, TELDRASSIL },
-					-- #else
-					["coord"] = { 42.6, 76.1, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 57.6, 63.0, TELDRASSIL },
+						-- #else
+						{ 42.6, 76.1, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
@@ -1730,17 +1802,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(927, {	-- The Moss-twined Heart
 					["provider"] = { "i", 5179 },	-- Moss-twined Heart
+					["description"] = "Quest starts after you obtain a Quest Item dropped by a Rare Creature, Blackmoss the Fetid.",
+					["coord"] = { 52.0, 63.6, DARNASSUS },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(5, 5, 1),
 				}),
 				q(483, {	-- The Relics of Wakening
 					["qg"] = 2078,	-- Athridas Bearmantle
 					["sourceQuest"] = 476,	-- Gnarlpine Corruption
-					-- #if AFTER CATA
-					["coord"] = { 55.6, 51.8, TELDRASSIL },
-					-- #else
-					["coord"] = { 56, 57.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.7, 52.0, TELDRASSIL },
+						-- #else
+						{ 56.0, 57.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
@@ -1749,28 +1825,52 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 3405 },	-- Raven Claw Talisman
 								{ "o", 2740 },	-- Chest of the Raven Claw
 							},
-							["coord"] = { 45.7, 57.5, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 64.5, 19.6, TELDRASSIL_BANETHIL_BARROW_DEN },
+								-- #else
+								{ 45.7, 57.5, TELDRASSIL },
+								-- #endif
+							},
 						}),
 						objective(2, {	-- 0/1 Black Feather Quill
 							["providers"] = {
 								{ "i", 3406 },	-- Black Feather Quill
 								{ "o", 2739 },	-- Chest of the Black Feather
 							},
-							["coord"] = { 43.8, 61.2, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 51.9, 86.5, TELDRASSIL_BANETHIL_BARROW_DEN },
+								-- #else
+								{ 43.8, 61.2, TELDRASSIL },
+								-- #endif
+							},
 						}),
 						objective(3, {	-- 0/1 Sapphire of Sky
 							["providers"] = {
 								{ "i", 3407 },	-- Sapphire of Sky
 								{ "o", 2741 },	-- Chest of the Sky
 							},
-							["coord"] = { 44.6, 62.5, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 49.9, 36.6, TELDRASSIL_BANETHIL_BARROW_DEN },
+								-- #else
+								{ 44.6, 62.5, TELDRASSIL },
+								-- #endif
+							},
 						}),
 						objective(4, {	-- 0/1 Rune of Nesting
 							["providers"] = {
 								{ "i", 3408 },	-- Rune of Nesting
 								{ "o", 2742 },	-- Chest of Nesting
 							},
-							["coord"] = { 44.5, 60.6, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 54.9, 75.4, TELDRASSIL_BANETHIL_BARROW_DEN },
+								-- #else
+								{ 44.5, 60.6, TELDRASSIL },
+								-- #endif
+							},
 						}),
 						i(54868, {	-- Gritroot Belt
 							["timeline"] = { ADDED_4_0_3 },
@@ -1792,11 +1892,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(487, {	-- The Road to Darnassus
 					["qg"] = 2151,	-- Moon Priestess Amara
-					-- #if AFTER CATA
-					["coord"] = { 49.4, 44.6, TELDRASSIL },
-					-- #else
-					["coord"] = { 55.6, 58.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 49.4, 44.7, TELDRASSIL },
+						-- #else
+						{ 55.6, 58.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(5, 5, 1),
 					["groups"] = {
@@ -1811,11 +1913,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 5190 },	-- Shimmering Frond
 					},
 					-- #if AFTER CATA
-					["description"] = "Submit this to Denalan at Lake Al'Ameth (59.8, 59.6) to ensure you get the next quest.",
-					["coord"] = { 37.3, 25.5, TELDRASSIL },
-					-- #else
-					["coord"] = { 34.7, 28.8, TELDRASSIL },
+					["description"] = "Give the Shimmering Frond to Denalan at the east end of Lake Al'Ameth (59.9, 59.8) to ensure you get the next quest.",
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 37.3, 25.5, TELDRASSIL },
+						-- #else
+						{ 34.7, 28.8, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
@@ -1823,10 +1929,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 7317,	-- Oben Rageclaw
 					-- #if AFTER CATA
 					["sourceQuest"] = 476,	-- Gnarlpine Corruption [Crieve NOTE: This doesn't appear to be the source quest, if there is one. TODO: Confirm.]
-					["coord"] = { 41.1, 83.7, TELDRASSIL_BANETHIL_BARROW_DEN },
-					-- #else
-					["coord"] = { 45, 61.4, TELDRASSIL },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 41.2, 83.8, TELDRASSIL_BANETHIL_BARROW_DEN },
+						-- #else
+						{ 45.0, 61.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(3, 3, 1),
 					["groups"] = {
@@ -1838,23 +1948,25 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(2399, {	-- The Sprouted Fronds
 					["provider"] = { "o", 7510 },	-- Sprouted Frond
-					["sourceQuest"] = 931,	-- The Shimmering Frond
 					-- #if AFTER CATA
+					["description"] = "A bug prevents the spawn of Sprouted Frond if completed at a wrong NPC.\nAfter picking up the quest, |cff4a54e8The Shimmering Frond|r, DO NOT turn in the quest to Denalan at the Wellspring Hovel, but to the Denalan at the east end of Lake Al'Ameth (59.9, 59.8). Denalan at the Wellsping Hovel will not spawn the Sprouted Frond after completing the quest and you will be unable to get the next quest.\nThe Denalan at the east end of Lake Al'Ameth WILL spawn the Sprouted Frond and you can pick up the next quest |cff4a54e8The Shimmering Frond|r.\n\nIf, like me, you turned it in to Denalan at the Wellspring Hovel, just travel to the one at the lake and log out. Go onto another character who has not done the quest yet, turn it in there and log out. The plants should spawn and give you enough time to re-log back to your previous character and do the quest.\n\n- Crieve",
+					-- #endif
+					["sourceQuest"] = 931,	-- The Shimmering Frond
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 59.8, 59.9, TELDRASSIL },
 						{ 43.9, 44.0, TELDRASSIL },
+						-- #else
+						{ 60.8, 68.5, TELDRASSIL },
+						-- #endif
 					},
-					["description"] = "A bug prevents the spawn of Sprouted Frond. After picking up the quest, The Shimmering Frond, do NOT turn in the quest to Denalan (43.8, 44.2) at the Wellspring Hovel, but to the Denalan who is next to Lake Al'Ameth, as Denalan at the Wellsping Hovel wont spawn the Sprouted Frond in the long plant stand after completing the quest and you will be unable to get the next quest. The Denalan (59.8, 59.6) that is to the east of Lake Al'Ameth (59.8, 59.6) he will spawn the Sprouted Frond and you can pick up the next quest The Shimmering Frond. If like me you turned it in to Denalan at the Wellspring Hovel, just travel to the one near the lake and log out and go onto another character who hasnt done the quest yet and turn it in to Denalan at the lake and log out, the plants should spawn and give you enough time to re-log back to your previous character and do the quest.",
-					-- #else
-					["coord"] = { 60.8, 68.5, TELDRASSIL },
-					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 				}),
 				q(14005, {	-- The Vengeance of Elune
 					["qg"] = 1992,	-- Tarindrella
 					["sourceQuest"] = 933,	-- Teldrassil: The Coming Dawn [CATA+] / Crown of the Earth (4/6)
-					["coord"] = { 42.5, 58.1, TELDRASSIL },
+					["coord"] = { 42.5, 58.2, TELDRASSIL },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1885,7 +1997,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 5188 },	-- Filled Vessel
 					},
 					["sourceQuest"] = 14005,	-- The Vengeance of Elune
-					["coord"] = { 42.5, 58.1, TELDRASSIL },
+					["coord"] = { 42.5, 58.2, TELDRASSIL },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(54873, {	-- Verdigris Leggings
@@ -1908,11 +2020,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(918, {	-- Timberling Seeds
 					["qg"] = 2080,	-- Denalan
 					["sourceQuest"] = 997,	-- Denalan's Earth
-					-- #if AFTER CATA
-					["coord"] = { 59.8, 59.6, TELDRASSIL },
-					-- #else
-					["coord"] = { 60.8, 68.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 59.9, 59.8, TELDRASSIL },
+						-- #else
+						{ 60.8, 68.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
@@ -1931,11 +2045,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(919, {	-- Timberling Sprouts
 					["qg"] = 2080,	-- Denalan
 					["sourceQuest"] = 997,	-- Denalan's Earth
-					-- #if AFTER CATA
-					["coord"] = { 59.8, 59.6, TELDRASSIL },
-					-- #else
-					["coord"] = { 60.8, 68.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 59.9, 59.8, TELDRASSIL },
+						-- #else
+						{ 60.8, 68.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
@@ -1999,10 +2115,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 3567,	-- Tallonkai Swiftroot
 					-- #if AFTER CATA
 					["sourceQuest"] = 489,	-- Seek Redemption!
-					["coord"] = { 55.6, 50.0, TELDRASSIL },
-					-- #else
-					["coord"] = { 55.4, 56.8, TELDRASSIL },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.6, 50.0, TELDRASSIL },
+						-- #else
+						{ 55.4, 56.8, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
@@ -2024,17 +2144,25 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(486, {	-- Ursal the Mauler
 					["qg"] = 2078,	-- Athridas Bearmantle
 					["sourceQuest"] = 483,	-- The Relics of Wakening
-					-- #if AFTER CATA
-					["coord"] = { 55.6, 51.8, TELDRASSIL },
-					-- #else
-					["coord"] = { 55.9, 57.3, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.7, 52.0, TELDRASSIL },
+						-- #else
+						{ 56.0, 57.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
 						objective(1, {	-- Ursal the Mauler slain
 							["provider"] = { "n", 2039 },	-- Ursal the Mauler
-							["coord"] = { 39.8, 80.6, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 51.7, 39.9, TELDRASSIL },
+								-- #else
+								{ 39.8, 80.6, TELDRASSIL },
+								-- #endif
+							},
 						}),
 						i(54869, {	-- Thornroot Vest
 							["timeline"] = { ADDED_4_0_3 },
@@ -2078,11 +2206,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(488, {	-- Zenn's Bidding
 					["qg"] = 2150,	-- Zenn Foulhoof
-					-- #if AFTER CATA
-					["coord"] = { 59.6, 49.2, TELDRASSIL },
-					-- #else
-					["coord"] = { 60.4, 56.2, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 59.5, 49.2, TELDRASSIL },
+						-- #else
+						{ 60.4, 56.2, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(4, 4, 1),
 					["groups"] = {
@@ -2119,15 +2249,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(RARES, {
 				-- #if AFTER CATA
 				n(2162, {	-- Agal
-					-- NOTE: Was not previous a Rare until Cata.
+					-- NOTE: Agal was not classified as a Rare creature until Cataclysm.
 					["coord"] = { 47.2, 44.8, TELDRASSIL },
 				}),
 				-- #endif
 				n(3535, {	-- Blackmoss the Fetid
-					-- #if AFTER CATA
-					["coord"] = { 52.0, 63.8, TELDRASSIL },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 52.0, 63.6, TELDRASSIL },
+						-- #else
 						{ 42.8, 25.8, TELDRASSIL },
 						{ 44.6, 27.6, TELDRASSIL },
 						{ 43.0, 31.0, TELDRASSIL },
@@ -2137,8 +2267,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 43.6, 36.6, TELDRASSIL },
 						{ 42.8, 38.6, TELDRASSIL },
 						{ 44.0, 39.6, TELDRASSIL },
+						-- #endif
 					},
-					-- #endif
 					["groups"] = {
 						i(5179, {	-- Moss-twined Heart
 							["description"] = "This is one of the only drops from a rare spawn in the game that start a quest. Good luck!",
@@ -2147,15 +2277,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(14430, {	-- Duskstalker
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 52.2, 67.6, TELDRASSIL },
 						{ 54.0, 66.6, TELDRASSIL },
 						{ 57.6, 66.6, TELDRASSIL },
 						{ 59.6, 65.6, TELDRASSIL },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 51.2, 77.8, TELDRASSIL },
 						{ 53.4, 77.2, TELDRASSIL },
 						{ 54.6, 75.8, TELDRASSIL },
@@ -2164,8 +2292,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 58.8, 76.6, TELDRASSIL },
 						{ 60.6, 76.2, TELDRASSIL },
 						{ 61.0, 74.4, TELDRASSIL },
+						-- #endif
 					},
-					-- #endif
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(209812, {	-- Fallenroot Poacher
@@ -2184,16 +2312,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				n(14431, {	-- Fury Shelda
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 37.2, 30.6, TELDRASSIL },
 						{ 38.2, 33.4, TELDRASSIL },
 						{ 39.4, 35.2, TELDRASSIL },
 						{ 39.4, 36.4, TELDRASSIL },
 						{ 39.6, 37.4, TELDRASSIL },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 34.8, 34.4, TELDRASSIL },
 						{ 38.2, 34.8, TELDRASSIL },
 						{ 36.0, 37.8, TELDRASSIL },
@@ -2201,23 +2327,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 36.4, 42.4, TELDRASSIL },
 						{ 39.0, 41.4, TELDRASSIL },
 						{ 38.0, 44.0, TELDRASSIL },
+						-- #endif
 					},
-					-- #endif
 					["groups"] = {
 						i(18612, {	-- Bloody Chain Boots
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 					},
 				}),
 				n(14429, {	-- Grimmaw
-					-- #if AFTER CATA
-					["coord"] = { 51.6, 38.6, TELDRASSIL },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 51.6, 38.6, TELDRASSIL },
+						-- #else
 						{ 41.6, 78.6, TELDRASSIL },
 						{ 40.2, 80.6, TELDRASSIL },
+						-- #endif
 					},
-					-- #endif
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(209928, {	-- Mowgh
@@ -2235,18 +2361,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				n(14432, {	-- Threggil
-					-- #if AFTER CATA
-					["coord"] = { 53.0, 44.6, TELDRASSIL },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 53.0, 44.6, TELDRASSIL },
+						-- #else
 						{ 51.2, 50.8, TELDRASSIL },
 						{ 52.0, 50.6, TELDRASSIL },
 						{ 52.6, 52.4, TELDRASSIL },
+						-- #endif
 					},
-					-- #endif
 					["groups"] = {
 						i(18610, {	-- Keen Machete
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 					},
 				}),
@@ -2269,21 +2395,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				n(14428, {	-- Uruson
-					-- #if AFTER CATA
-					["coord"] = { 65.6, 51.8, TELDRASSIL },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 65.6, 51.8, TELDRASSIL },
+						-- #else
 						{ 63.8, 57.2, TELDRASSIL },
 						{ 65.4, 57.8, TELDRASSIL },
 						{ 67.6, 56.4, TELDRASSIL },
 						{ 66.2, 60.6, TELDRASSIL },
 						{ 67.8, 61.0, TELDRASSIL },
 						{ 69.6, 62.0, TELDRASSIL },
+						-- #endif
 					},
-					-- #endif
 					["groups"] = {
 						i(18611, {	-- Gnarlpine Leggings
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 					},
 				}),
@@ -2408,15 +2534,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
 						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
 						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch
+						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				n(10118, {	-- Nessa Shadowsong <Fishing Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 54.0, 90.0, TELDRASSIL },
-					-- #else
-					["coord"] = { 56.2, 92.4, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 54.0, 90.0, TELDRASSIL },
+						-- #else
+						{ 56.2, 92.4, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(6368),	-- Recipe: Rainbow Fin Albacore (RECIPE!)
@@ -2424,11 +2552,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4265, {	-- Nyoma <Cooking Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 56.6, 53.4, TELDRASSIL },
-					-- #else
-					["coord"] = { 57.2, 61.2, TELDRASSIL },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 56.7, 53.5, TELDRASSIL },
+						-- #else
+						{ 57.2, 61.2, TELDRASSIL },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(6325),	-- Recipe: Brilliant Smallfish (RECIPE!)
@@ -2476,7 +2606,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				i(7094, {	-- Driftwood Branch
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["cr"] = 2030,	-- Elder Timberling
 					["coord"] = { 45.4, 24.6, TELDRASSIL },
 				}),
