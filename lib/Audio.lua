@@ -78,6 +78,11 @@ local DefaultSoundPack = api:CreateSoundPack("Default", {
 		app.asset("fanfare4.ogg"),
 		app.asset("fanfare5.ogg"),
 		app.asset("fanfare6.ogg"),
+		app.asset("ffdamnson.ogg"),
+		app.asset("ffanime.ogg"),
+		app.asset("ffezz.ogg"),
+		app.asset("ffprettygood.ogg"),
+		app.asset("ffwow.ogg"),
 	},
 	MOUNTFANFARE = {
 		app.asset("mountfanfare1.ogg"),
