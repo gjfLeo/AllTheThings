@@ -3004,6 +3004,12 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 						{ 41.0, 91.0, STORMWIND_CITY },
 						{ 50.02, 61.94, DORNOGAL },
 					},
+					["OnInit"] = [[function(t)
+						local A = C_DateAndTime
+						local c = A and A.GetCurrentCalendarTime()
+						if not c or c.month ~= 4 or c.monthDay ~= 1 then return end
+						return t
+					end]],
 					["g"] = {
 						i(13262, {	-- Ashbringer
 							["cost"] = { { "c", 241, 7500 } },	-- Champion's Seal
