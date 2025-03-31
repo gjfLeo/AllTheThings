@@ -1802,9 +1802,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(927, {	-- The Moss-twined Heart
 					["provider"] = { "i", 5179 },	-- Moss-twined Heart
-					["description"] = "Quest starts after you obtain a Quest Item dropped by a Rare Creature, Blackmoss the Fetid.",
 					["coord"] = { 52.0, 63.6, DARNASSUS },
 					["races"] = ALLIANCE_ONLY,
+					["cr"] = 3535,	-- Blackmoss the Fetid
 					["lvl"] = lvlsquish(5, 5, 1),
 				}),
 				q(483, {	-- The Relics of Wakening

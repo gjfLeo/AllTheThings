@@ -3,11 +3,12 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(KALIMDOR, {
 	m(DARKSHORE, {
-		-- #if AFTER CATA
-		["lore"] = "Darkshore, a shadowy forest punctuated by waterfalls, is one of the saddest zones in the game. It underwent many changes and heavy losses in the Cataclysm--invasions by the trolls, Twilight Cultist infiltrations in the south, and most notably, the destruction of Auberdine, viewed by many as one of the most atmospheric towns. Alliance players help rescue and comfort dying NPCs, aid the refugees of Auberdine, and assist Malfurion Stormrage in driving back the threat of the cultists.",
-		-- #else
-		["lore"] = "This rocky area stretches along Kalimdor's north coast. Rains, winds and rocky beaches make the place inhospitable. Old night elf ruins stand crumbling on the cliffs, and murlocs and naga lurk within. The night elf village of Auberdine serves as a friendly trading post.",
-		-- #endif
+		["lore"] =
+			-- #if AFTER CATA
+			"Darkshore, a shadowy forest punctuated by waterfalls, is one of the saddest zones in the game. It underwent many changes and heavy losses in the Cataclysm--invasions by the trolls, Twilight Cultist infiltrations in the south, and most notably, the destruction of Auberdine, viewed by many as one of the most atmospheric towns. Alliance players help rescue and comfort dying NPCs, aid the refugees of Auberdine, and assist Malfurion Stormrage in driving back the threat of the cultists.",
+			-- #else
+			"This rocky area stretches along Kalimdor's north coast. Rains, winds and rocky beaches make the place inhospitable. Old night elf ruins stand crumbling on the cliffs, and murlocs and naga lurk within. The night elf village of Auberdine serves as a friendly trading post.",
+			-- #endif
 		["icon"] = 236739,
 		-- #if AFTER 8.1.0
 		["crs"] = { 141489 },	-- Zidormi
@@ -116,17 +117,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(FLIGHT_PATHS, {
 				fp(339, {	-- Grove of the Ancients, Darkshore
 					["cr"] = 33253,	-- Delanea <Flight Master>
-					["coord"] = { 44.4, 75.4, DARKSHORE },
+					["coord"] = { 44.4, 75.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_1 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(26, {	-- Lor'danel, Darkshore [CATA+] / Auberdine, Darkshore
 					["cr"] = 3841,	-- Teldira Moonfeather <Hippogryph Master> [CATA+] / Caylais Moonfeather <Hippogryph Master>
-					-- #if AFTER CATA
-					["coord"] = { 51.6, 17.6, DARKSHORE },
-					-- #else
-					["coord"] = { 36.4, 45.6, DARKSHORE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 51.7, 17.6, DARKSHORE },
+						-- #else
+						{ 36.4, 45.6, DARKSHORE },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
@@ -183,7 +186,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13554, {	-- A Cure In The Dark
 					["provider"] = { "o", 194122 },	-- Buzzbox 723
 					["sourceQuest"] = 13528,	-- Buzzbox 723
-					["coord"] = { 54.1, 29.2, DARKSHORE },
+					["coord"] = { 54.2, 29.3, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -253,7 +256,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13554,	-- A Cure In The Dark
 						13529,	-- The Corruption's Source
 					},
-					["coord"] = { 50.8, 17.8, DARKSHORE },
+					["coord"] = { 50.8, 17.9, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -299,7 +302,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13518,	-- The Last Wave of Survivors
 						13522,	-- Threat From the Water
 					},
-					["coord"] = { 52.3, 17.9, DARKSHORE },
+					["coord"] = { 52.3, 18.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["requireSkill"] = FISHING,
 					["races"] = ALLIANCE_ONLY,
@@ -312,7 +315,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13831, {	-- A Troubling Prescription
 					["provider"] = { "o", 194714 },	-- Disgusting Workbench
 					["sourceQuest"] = 13528,	-- Buzzbox 723
-					["coord"] = { 57.4, 33.7, DARKSHORE },
+					["coord"] = { 57.4, 33.8, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -336,7 +339,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13560, {	-- An Ocean Not So Deep
 					["qg"] = 32979,	-- Gorbold Steelhand
 					["sourceQuest"] = 13569,	-- The Ritual Bond
-					["coord"] = { 51.0, 19.1, DARKSHORE },
+					["coord"] = { 51.0, 19.2, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -351,14 +354,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13925, {	-- An Ounce of Prevention
 					["qg"] = 34301,	-- Kathrena Winterwisp
 					["sourceQuest"] = 13882,	-- The Seeds of Life
-					["coord"] = { 45.1, 74.6, DARKSHORE },
+					["coord"] = { 45.2, 74.6, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13578, {	-- Aroom's Farewell
 					["qg"] = 33119,	-- Aroom
 					["sourceQuest"] = 13577,	-- The Last Wildkin
-					["coord"] = { 45.5, 48.4, DARKSHORE },
+					["coord"] = { 45.6, 48.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -576,14 +579,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(53130, {	-- Bloodied Sentinel's Glaive (Alliance)
 					["provider"] = { "o", 296536 },	-- Bloodied Sentinel's Glaive
-					["coord"] = { 45.2, 17.9, DARKSHORE },
+					["coord"] = { 45.2, 18.0, DARKSHORE },
 					["timeline"] = { ADDED_8_0_1 },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(120, 120, 50),
 				}),
 				q(53129, {	-- Bloodied Sentinel's Glaive (Horde)
 					["provider"] = { "o", 296536 },	-- Bloodied Sentinel's Glaive
-					["coord"] = { 45.2, 17.9, DARKSHORE },
+					["coord"] = { 45.2, 18.0, DARKSHORE },
 					["timeline"] = { ADDED_8_0_1 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(120, 120, 50),
@@ -631,7 +634,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13518,	-- The Last Wave of Survivors
 						13522,	-- Threat from the Water
 					},
-					["coord"] = { 51.1, 19.6, DARKSHORE },
+					["coord"] = { 51.1, 19.7, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -669,7 +672,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13528, {	-- Buzzbox 723
 					["qg"] = 32977,	-- Wizbang Cranktoggle
 					["sourceQuest"] = 13527,	-- No Accounting for Taste
-					["coord"] = { 51.1, 19.6, DARKSHORE },
+					["coord"] = { 51.1, 19.7, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -704,13 +707,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13558, {	-- Call Down the Thunder
 					["qg"] = 6887,	-- Yalda
 					["sourceQuest"] = 13547,	-- Coaxing the Spirits
-					["coord"] = { 39.0, 43.2, DARKSHORE },
+					["coord"] = { 39.1, 43.2, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Use the Aetherion Ritual Orb
 							["provider"] = { "o", 194145 },	-- Aetherion Ritual Orb
-							["coord"] = { 36.4, 41.0, DARKSHORE },
+							["coord"] = { 36.5, 41.0, DARKSHORE },
 						}),
 						objective(2, {	-- 0/1 Aetherion's Essence
 							["provider"] = { "i", 44929 },	-- Aetherion's Essence
@@ -798,27 +801,31 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13547, {	-- Coaxing the Spirits
 					["qg"] = 6887,	-- Yalda
-					["coord"] = { 39.0, 43.2, DARKSHORE },
+					["coord"] = { 39.1, 43.2, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Thundris Windweaver's spirit coaxed
 							["provider"] = { "n", 33001 },	-- Thundris Windweaver
+							["coord"] = { 39.3, 38.9, DARKSHORE },
 						}),
 						objective(2, {	-- 0/1 Sentinel Elissa Starbreeze's spirit coaxed
 							["provider"] = { "n", 33033 },	-- Sentinel Elissa Starbreeze
+							["coord"] = { 41.0, 41.4, DARKSHORE },
 						}),
 						objective(3, {	-- 0/1 Taldan's spirit coaxed
 							["provider"] = { "n", 33035 },	-- Taldan
+							["coord"] = { 38.5, 41.9, DARKSHORE },
 						}),
 						objective(4, {	-- 0/1 Caylais Moonfeather's spirit coaxed
 							["provider"] = { "n", 33037 },	-- Caylais Moonfeather
+							["coord"] = { 38.1, 44.0, DARKSHORE },
 						}),
 					},
 				}),
 				q(13881, {	-- Consumed
 					["qg"] = 34301,	-- Kathrena Winterwisp
-					["coord"] = { 45.1, 74.6, DARKSHORE },
+					["coord"] = { 45.2, 74.6, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -880,7 +887,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13504,	-- Shatterspear Laborers
 						13505,	-- Remnants of the Highborne
 					},
-					["coord"] = { 58.8, 19.4, DARKSHORE },
+					["coord"] = { 58.9, 19.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -905,7 +912,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["provider"] = { "i", 46318 },	-- Hellscream's Missive
 					["sourceQuest"] = 13515,	-- Ending the Threat
 					["timeline"] = { ADDED_4_0_3 },
-					["crs"] = { 32862 },	-- Jor'kil the Soulripper
+					["cr"] = 32862,	-- Jor'kil the Soulripper
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(55128, {	-- Silver Embossed Boots
@@ -959,7 +966,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13582, {	-- Elune's Fire
 					["qg"] = 33119,	-- Aroom
 					["sourceQuest"] = 13578,	-- Aroom's Farewell
-					["coord"] = { 45.5, 48.4, DARKSHORE },
+					["coord"] = { 45.6, 48.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -972,7 +979,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13515, {	-- Ending the Threat
 					["qg"] = 33178,	-- Huntress Sandrya Moonfall
 					["sourceQuest"] = 13590,	-- The Front Line
-					["coord"] = { 72.2, 19.1, DARKSHORE },
+					["coord"] = { 72.3, 19.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1115,7 +1122,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13599, {	-- Grimclaw's Return
 					["qg"] = 33048,	-- Keeper Karithus
 					["sourceQuest"] = 13569,	-- The Ritual Bond
-					["coord"] = { 42.9, 39.0, DARKSHORE },
+					["coord"] = { 43.0, 39.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1239,14 +1246,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13885, {	-- In Defense of Darkshore
 					["qg"] = 34301,	-- Kathrena Winterwisp
 					["sourceQuest"] = 13925,	-- An Ounce of Prevention
-					["coord"] = { 45.1, 74.6, DARKSHORE },
+					["coord"] = { 45.2, 74.6, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13572, {	-- Jadefire Braziers
 					["qg"] = 32968,	-- Gren Tornfur
 					["sourceQuest"] = 13544,	-- The Bear's Blessing
-					["coord"] = { 43.5, 81.0, DARKSHORE },
+					["coord"] = { 43.6, 81.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1285,13 +1292,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13940, {	-- Leaving the Dream
 					["qg"] = 33166,	-- Thessera
 					["sourceQuest"] = 13587,	-- The Waking Nightmare
-					["coord"] = { 49.1, 56.9, DARKSHORE },
+					["coord"] = { 49.2, 56.9, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13573, {	-- Malfurion's Return
 					["qg"] = 32987,	-- Corvine Moonrise
-					["coord"] = { 42.6, 45.1, DARKSHORE },
+					["coord"] = { 42.7, 45.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1321,14 +1328,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13902, {	-- Mounting the Offensive
 					["qg"] = 33091,	-- Malfurion Stormrage
 					["sourceQuest"] = 13588,	-- The Eye of All Storms
-					["coord"] = { 43.6, 53.4, DARKSHORE },
+					["coord"] = { 43.7, 53.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13576, {	-- Mutual Aid
 					["qg"] = 33117,	-- Elder Brownpaw
 					["sourceQuest"] = 13575,	-- The Land is in Their Blood
-					["coord"] = { 40.9, 56.4, DARKSHORE },
+					["coord"] = { 40.9, 56.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1343,7 +1350,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13953, {	-- Naga In Our Midst
 					["qg"] = 34498,	-- Darkscale Assassin
 					["sourceQuest"] = 13895,	-- The Slumbering Ancients
-					["coord"] = { 45.5, 71.6, DARKSHORE },
+					["coord"] = { 45.6, 71.7, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1360,7 +1367,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13507,	-- Denying Manpower
 						13509,	-- War Supplies
 					},
-					["coord"] = { 58.8, 19.5, DARKSHORE },
+					["coord"] = { 58.9, 19.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1373,7 +1380,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13511, {	-- One Bitter Wish
 					["qg"] = 33055,	-- Alanndarian Nightsong
 					["sourceQuest"] = 13508,	-- Swift Response
-					["coord"] = { 63.7, 5.9, DARKSHORE },
+					["coord"] = { 63.7, 6.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1384,11 +1391,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(5713, {	-- One Shot. One Kill.
 					["qg"] = 11711,	-- Sentinel Aynasha
-					-- #if AFTER CATA
-					["coord"] = { 47.7, 88.9, DARKSHORE },
-					-- #else
-					["coord"] = { 45.9, 90.3, DARKSHORE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 47.7, 88.9, DARKSHORE },
+						-- #else
+						{ 45.9, 90.3, DARKSHORE },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = lvlsquish(10, 10, 5),
 				}),
@@ -1450,7 +1459,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13523, {	-- Power Over the Tides
 					["qg"] = 32932,	-- Moon Priestess Tharill
-					["coord"] = { 44.5, 30.7, DARKSHORE },
+					["coord"] = { 44.6, 30.8, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1470,7 +1479,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13579, {	-- Protector of Ameth'Aran
 					["qg"] = 33091,	-- Malfurion Stormrage
-					["coord"] = { 43.6, 53.4, DARKSHORE },
+					["coord"] = { 43.7, 53.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1508,7 +1517,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13505, {	-- Remnants of the Highborne
 					["qg"] = 32966,	-- Balthule Shadowstrike
 					["sourceQuest"] = 13589,	-- The Shatterspear Invaders
-					["coord"] = { 58.8, 19.5, DARKSHORE },
+					["coord"] = { 58.9, 19.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1548,14 +1557,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13566, {	-- Ritual Materials
 					["qg"] = 33048,	-- Keeper Karithus
 					["sourceQuest"] = 13564,	-- A Lost Companion
-					["coord"] = { 42.9, 39.0, DARKSHORE },
+					["coord"] = { 43.0, 39.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13504, {	-- Shatterspear Laborers
 					["qg"] = 32965,	-- Sentinel Tysha Moonblade
 					["sourceQuest"] = 13589,	-- The Shatterspear Invaders
-					["coord"] = { 58.8, 19.4, DARKSHORE },
+					["coord"] = { 58.9, 19.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1566,7 +1575,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13561, {	-- Solace for the Highborne
 					["qg"] = 33177,	-- Arya Autumnlight
-					["coord"] = { 46.8, 33.2, DARKSHORE },
+					["coord"] = { 46.8, 33.3, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1588,7 +1597,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13580, {	-- Soothing the Elements
 					["qg"] = 33117,	-- Elder Brownpaw
 					["sourceQuest"] = 13576,	-- Mutual Aid
-					["coord"] = { 40.9, 56.4, DARKSHORE },
+					["coord"] = { 40.9, 56.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1605,6 +1614,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13568, {	-- Spirit of the Moonstalker
 					["qg"] = 33131,	-- Great Moonstalker Spirit
+					["coord"] = { 42.8, 40.2, DARKSHORE },
 					["altQuests"] = {
 						13567,	-- Spirit of the Stag
 						13597,	-- Spirit of the Thistle Bear
@@ -1614,13 +1624,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13565,	-- Twice Removed
 						13598,	-- Unsavory Remedies
 					},
-					["description"] = "Grants 10% haste.",
+					["description"] = "Great Moonstalker Spirit grants a buff increasing your haste by 10%.\nChoose carefuly, you can get only 1 buff.",
 					["timeline"] = { ADDED_4_0_3 },
 					["DisablePartySync"] = true,	-- cannot be completed with altQuests... they unflag due to the buff
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13567, {	-- Spirit of the Stag
 					["qg"] = 33133,	-- Great Stag Spirit
+					["coord"] = { 43.7, 40.2, DARKSHORE },
 					["altQuests"] = {
 						13568,	-- Spirit of the Moonstalker
 						13597,	-- Spirit of the Thistle Bear
@@ -1630,13 +1641,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13565,	-- Twice Removed
 						13598,	-- Unsavory Remedies
 					},
-					["description"] = "Stag gives 10% movement speed.",
+					["description"] = "Great Stag Spirit grants a buff increasing your movement speed by 10%.\nChoose carefuly, you can get only 1 buff.",
 					["timeline"] = { ADDED_4_0_3 },
 					["DisablePartySync"] = true,	-- cannot be completed with altQuests... they unflag due to the buff
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13597, {	-- Spirit of the Thistle Bear
 					["qg"] = 33132,	-- Great Thistle Bear Spirit
+					["coord"] = { 42.5, 38.6, DARKSHORE },
 					["altQuests"] = {
 						13568,	-- Spirit of the Moonstalker
 						13567,	-- Spirit of the Stag
@@ -1646,7 +1658,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13565,	-- Twice Removed
 						13598,	-- Unsavory Remedies
 					},
-					["description"] = "10% reduction in damage taken.",
+					["description"] = "Great Thistle Bear Spirit grants a buff reducing the damage you take by 10%.\nChoose carefuly, you can get only 1 buff.",
 					["timeline"] = { ADDED_4_0_3 },
 					["DisablePartySync"] = true,	-- cannot be completed with altQuests... they unflag due to the buff
 					["races"] = ALLIANCE_ONLY,
@@ -1742,7 +1754,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13911, {	-- The Absent-Minded Prospector
 					["qg"] = 34343,	-- Prospector Remtravel
-					["coord"] = { 37.6, 82.9, DARKSHORE },
+					["coord"] = { 37.7, 82.9, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1805,7 +1817,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13513,	-- On the Brink
 						13512,	-- Strategic Strikes
 					},
-					["coord"] = { 69.0, 19.2, DARKSHORE },
+					["coord"] = { 69.1, 19.2, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1822,7 +1834,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["qg"] = 34422,	-- Malfurion Stormrage
 					["sourceQuest"] = 13900,	-- The Offering to Azshara
 					["description"] = "If you don't pick this quest up promptly after the event ends, Malfurion will despawn and you will have to repeat the event to get the quest.",
-					["coord"] = { 32.7, 84.2, DARKSHORE },
+					["coord"] = { 32.8, 84.3, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1918,7 +1930,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13581, {	-- The Blackwood Pledge
 					["qg"] = 33117,	-- Elder Brownpaw
 					["sourceQuest"] = 13580,	-- Soothing the Elements
-					["coord"] = { 40.9, 56.4, DARKSHORE },
+					["coord"] = { 40.9, 56.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1928,7 +1940,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13518,	-- The Last Wave of Survivors
 						13522,	-- Threat from the Water
 					},
-					["coord"] = { 51.8, 18.0, DARKSHORE },
+					["coord"] = { 51.8, 18.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1964,12 +1976,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13529, {	-- The Corruption's Source
 					["qg"] = 32978,	-- Tharnarium Treetender
 					["sourceQuest"] = 13528,	-- Buzzbox 723
-					["coord"] = { 56.7, 30.0, DARKSHORE },
+					["coord"] = { 56.8, 30.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Zenn Foulhoof slain
 							["provider"] = { "n", 33020 },	-- Zenn Foulhoof
+							["coord"] = { 58.3, 33.0, DARKSHORE },
 						}),
 						objective(2, {	-- 0/8 Vile Grell slain
 							["provider"] = { "n", 33021 },	-- Vile Grell
@@ -2050,14 +2063,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13581,	-- The Blackwood Pledge
 						13583,	-- The Wildkin's Oath
 					},
-					["coord"] = { 43.6, 53.4, DARKSHORE },
+					["coord"] = { 43.7, 53.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13588, {	-- The Eye of All Storms
 					["qg"] = 33091,	-- Malfurion Stormrage
 					["sourceQuest"] = 13940,	-- Leaving the Dream
-					["coord"] = { 43.6, 53.4, DARKSHORE },
+					["coord"] = { 43.7, 53.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2110,9 +2123,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(13562, {	-- The Final Flame of Bashal'Aran
-					["qg"] = 32971,	-- Ranger Glynda Nal'Shea
+					["qg"] = 32971,	-- Ranger Glynda Nal'Shea (mobileNPC)
+					["description"] = "Ranger Glynda Nal'Shea wanders around Lor'danel.",
 					["sourceQuest"] = 13529,	-- The Corruption's Source
-					["coord"] = { 50.2, 19.6, DARKSHORE },
+					["coords"] = {
+						{ 50.1, 20.9, DARKSHORE },
+						{ 50.4, 19.8, DARKSHORE },
+						{ 50.3, 18.7, DARKSHORE },
+						{ 50.8, 20.4, DARKSHORE },
+						{ 50.8, 18.3, DARKSHORE },
+						{ 51.6, 18.7, DARKSHORE },
+						{ 51.7, 19.2, DARKSHORE },
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2147,13 +2169,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13575, {	-- The Land Is in Their Blood
 					["qg"] = 33091,	-- Malfurion Stormrage
-					["coord"] = { 43.6, 53.4, DARKSHORE },
+					["coord"] = { 43.7, 53.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13605, {	-- The Last Refugee
 					["qg"] = 33232,	-- Archaeologist Hollee
-					["coord"] = { 38.5, 42.4, DARKSHORE },
+					["coord"] = { 38.6, 42.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2178,27 +2200,31 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						26383,	-- Breaking Waves of Change [NON-WORGEN]
 						26385,	-- Breaking Waves of Change [WORGEN]
 					},
-					["coord"] = { 51.7, 18.0, DARKSHORE },
+					["coord"] = { 51.8, 18.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Cerellean Whiteclaw rescued
 							["provider"] = { "n", 33093 },	-- Cerellean Whiteclaw
+							["coord"] = { 44.6, 19.9, DARKSHORE },
 						}),
 						objective(2, {	-- 0/1 Gershala Nightwhisper rescued
 							["provider"] = { "n", 32911 },	-- Gershala Nightwhisper
+							["coord"] = { 44.1, 17.8, DARKSHORE },
 						}),
 						objective(3, {	-- 0/1 Shaldyn rescued
 							["provider"] = { "n", 33095 },	-- Shaldyn
+							["coord"] = { 42.9, 21.5, DARKSHORE },
 						}),
 						objective(4, {	-- 0/1 Volcor rescued
 							["provider"] = { "n", 33094 },	-- Volcor
+							["coord"] = { 45.0, 18.2, DARKSHORE },
 						}),
 					},
 				}),
 				q(13577, {	-- The Last Wildkin
 					["qg"] = 33091,	-- Malfurion Stormrage
-					["coord"] = { 43.6, 53.4, DARKSHORE },
+					["coord"] = { 43.7, 53.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2220,7 +2246,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 45944 },	-- Narassin's Tome
 								{ "o", 194787 },	-- Charred Book
 							},
-							["coord"] = { 58.2, 24.0, DARKSHORE },
+							["coord"] = { 58.3, 24.0, DARKSHORE },
 						}),
 						i(52623, {	-- Wild Bark Boots
 							["timeline"] = { ADDED_4_0_3 },
@@ -2251,7 +2277,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13900, {	-- The Offering to Azshara
 					["qg"] = 34423,	-- Warlord Wrathspine
 					["sourceQuest"] = 13899,	-- The Darkscale Warlord
-					["coord"] = { 32.2, 85.4, DARKSHORE },
+					["coord"] = { 32.3, 85.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2297,7 +2323,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						13565,	-- Twice Removed
 						13598,	-- Unsavory Remedies
 					},
-					["coord"] = { 42.9, 39.0, DARKSHORE },
+					["coord"] = { 43.0, 39.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2318,7 +2344,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13882, {	-- The Seeds of Life
 					["qg"] = 34301,	-- Kathrena Winterwisp
 					["sourceQuest"] = 13881,	-- Consumed
-					["coord"] = { 45.1, 74.6, DARKSHORE },
+					["coord"] = { 45.2, 74.6, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2352,9 +2378,18 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(13589, {	-- The Shatterspear Invaders
-					["qg"] = 32971,	-- Ranger Glynda Nal'Shea
+					["qg"] = 32971,	-- Ranger Glynda Nal'Shea (mobileNPC)
+					["description"] = "Ranger Glynda Nal'Shea wanders around Lor'danel.",
 					["sourceQuest"] = 13569,	-- The Ritual Bond
-					["coord"] = { 50.3, 19.7, DARKSHORE },
+					["coords"] = {
+						{ 50.1, 20.9, DARKSHORE },
+						{ 50.4, 19.8, DARKSHORE },
+						{ 50.3, 18.7, DARKSHORE },
+						{ 50.8, 20.4, DARKSHORE },
+						{ 50.8, 18.3, DARKSHORE },
+						{ 51.6, 18.7, DARKSHORE },
+						{ 51.7, 19.2, DARKSHORE },
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2386,7 +2421,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13895, {	-- The Slumbering Ancients
 					["qg"] = 33072,	-- Onu
 					["sourceQuest"] = 13893,	-- Soggoth and Kronn
-					["coord"] = { 45.4, 74.8, DARKSHORE },
+					["coord"] = { 45.4, 74.9, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2548,7 +2583,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13583, {	-- The Wildkin's Oath
 					["qg"] = 33119,	-- Aroom
 					["sourceQuest"] = 13582,	-- Elune's Fire
-					["coord"] = { 45.5, 48.4, DARKSHORE },
+					["coord"] = { 45.6, 48.5, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2562,7 +2597,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13522, {	-- Threat from the Water
 					["qg"] = 32971,	-- Ranger Glynda Nal'Shea
-					["coord"] = { 50.2, 19.7, DARKSHORE },
+					["coord"] = { 50.2, 19.8, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2573,18 +2608,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13543, {	-- Three Hammers to Break
 					["qg"] = 32987,	-- Corvine Moonrise
-					["coord"] = { 42.6, 45.1, DARKSHORE },
+					["coord"] = { 42.7, 45.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Cloudtamer Wildmane slain
 							["provider"] = { "n", 32988 },	-- Cloudtamer Wildmane
+							["coord"] = { 40.8, 41.5, DARKSHORE },
 						}),
 						objective(2, {	-- 0/1 Windmaster Tzu-Tzu slain
 							["provider"] = { "n", 32989 },	-- Windmaster Tzu-Tzu
+							["coord"] = { 37.9, 42.7, DARKSHORE },
 						}),
 						objective(3, {	-- 0/1 Skylord Braax slain
 							["provider"] = { "n", 32990 },	-- Skylord Braax
+							["coord"] = { 39.1, 38.3, DARKSHORE },
 						}),
 					},
 				}),
@@ -2598,10 +2636,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13510, {	-- Timely Arrival
 					["qg"] = 32964,	-- Sentinel Aynasha
-					["description"] = "To see this quest, use the cage key dropped by |cFFFFD700Rit'ko|r.",
+					["description"] = "In order to obtain this quest, loot a |cffffffffShatterspear Torturer's Cage Key|r dropped by |cffe50d12Rit'ko|r.",
 					["coord"] = { 64.4, 5.4, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["cr"] = 32970,	-- Rit'ko
 					["groups"] = {
 						i(52637, {	-- Aynasha's Spare Sword
 							["timeline"] = { ADDED_4_0_3 },
@@ -2650,12 +2689,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13565, {	-- Twice Removed
 					["qg"] = 33126,	-- Seraphine
 					["sourceQuest"] = 13564,	-- A Lost Companion
-					["coord"] = { 42.9, 38.9, DARKSHORE },
+					["coord"] = { 42.9, 39.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Lady Janira slain
 							["provider"] = { "n", 33207 },	-- Lady Janira
+							["coord"] = { 48.6, 40.4, DARKSHORE },
 						}),
 						i(52629, {	-- Naga Plate Bracers
 							["timeline"] = { ADDED_4_0_3 },
@@ -2686,14 +2726,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13896, {	-- Unearthed Knowledge
 					["qg"] = 34404,	-- Larien
 					["sourceQuest"] = 13948,	-- Stepping Up Surveillance
-					["coord"] = { 45.3, 75.0, DARKSHORE },
+					["coord"] = { 45.3, 75.1, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13598, {	-- Unsavory Remedies
 					["qg"] = 33048,	-- Keeper Karithus
 					["sourceQuest"] = 13564,	-- A Lost Companion
-					["coord"] = { 42.9, 39.0, DARKSHORE },
+					["coord"] = { 43.0, 39.0, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2783,7 +2823,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13525, {	-- What's Happening to the Blackwood Furbolg?
 					["qg"] = 33250,	-- Foriel Broadleaf
-					["coord"] = { 45.1, 75.1, DARKSHORE },
+					["coord"] = { 45.1, 75.2, DARKSHORE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,	-- for "The Bear's Paw"
@@ -2799,43 +2839,45 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(RARES, {
 				n(2186, {	-- Carnivous the Breaker
-					-- #if AFTER CATA
-					["coord"] = { 44.4, 83.0, DARKSHORE },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.4, 83.0, DARKSHORE },
+						-- #else
 						{ 39.6, 54.0, DARKSHORE },
 						{ 40.0, 78.4, DARKSHORE },
 						{ 43.2, 86.0, DARKSHORE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(2192, {	-- Firecaller Radison
-					-- #if AFTER CATA
-					["coord"] = { 40.0, 83.0, DARKSHORE },
-					-- #else
-					["coord"] = { 39.0, 86.4, DARKSHORE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 40.0, 83.0, DARKSHORE },
+						-- #else
+						{ 39.0, 86.4, DARKSHORE },
+						-- #endif
+					},
 				}),
 				n(7015, {	-- Flagglemurk the Cruel
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 57.6, 15.0, DARKSHORE },
 						{ 58.0, 11.8, DARKSHORE },
 						{ 58.6, 9.8, DARKSHORE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 37.6, 61.6, DARKSHORE },
 						{ 36.8, 72.0, DARKSHORE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(2184, {	-- Lady Moongazer
-					-- #if AFTER CATA
-					["coord"] = { 44.8, 56.6, DARKSHORE },
-					-- #else
-					["coord"] = { 43.0, 61.2, DARKSHORE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 44.8, 56.6, DARKSHORE },
+						-- #else
+						{ 43.0, 61.2, DARKSHORE },
+						-- #endif
+					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(210451, {	-- Lady Sedorax
@@ -2854,44 +2896,46 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				n(7016, {	-- Lady Vespira
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 48.6, 39.0, DARKSHORE },
 						{ 48.6, 41.6, DARKSHORE },
 						{ 46.6, 41.4, DARKSHORE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 59.8, 15.6, DARKSHORE },
 						{ 58.0, 18.4, DARKSHORE },
 						{ 58.2, 23.8, DARKSHORE },
 						{ 59.8, 23.6, DARKSHORE },
 						{ 61.6, 23.6, DARKSHORE },
 						{ 61.8, 17.8, DARKSHORE },
+						-- #endif
 					},
-					-- #endif
 					["groups"] = {
 						i(6332, {	-- Black Pearl Ring
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 						i(6333, {	-- Spikelash Dagger
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 					},
 				}),
 				n(2191, {	-- Licillin
-					-- #if AFTER CATA
-					["coord"] = { 57.2, 32.8, DARKSHORE },
-					-- #else
-					["coord"] = { 47.0, 38.6, DARKSHORE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 57.2, 32.8, DARKSHORE },
+						-- #else
+						{ 47.0, 38.6, DARKSHORE },
+						-- #endif
+					},
 				}),
 				n(7017, {	-- Lord Sinslayer
-					-- #if AFTER CATA
-					["coord"] = { 34.2, 83.6, DARKSHORE },
-					-- #else
-					["coord"] = { 55.0, 35.4, DARKSHORE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 34.2, 83.6, DARKSHORE },
+						-- #else
+						{ 55.0, 35.4, DARKSHORE },
+						-- #endif
+					},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(210482, {	-- Paxnozz
@@ -2916,25 +2960,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				n(2175, {	-- Shadowclaw
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 41.6, 36.0, DARKSHORE },
 						{ 41.2, 36.6, DARKSHORE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 39.2, 35.4, DARKSHORE },
 						{ 42.2, 38.2, DARKSHORE },
 						{ 40.2, 41.6, DARKSHORE },
 						{ 39.4, 39.6, DARKSHORE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(2172, {	-- Strider Clutchmother
-					-- #if AFTER CATA
-					["coord"] = { 40.8, 48.6, DARKSHORE },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 40.8, 48.6, DARKSHORE },
+						-- #else
 						{ 35.0, 86.0, DARKSHORE },
 						{ 34.4, 89.0, DARKSHORE },
 						{ 36.6, 90.2, DARKSHORE },
@@ -2943,8 +2985,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 40.6, 93.0, DARKSHORE },
 						{ 38.8, 93.8, DARKSHORE },
 						{ 37.0, 91.4, DARKSHORE },
+						-- #endif
 					},
-					-- #endif
 				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
@@ -3087,9 +3129,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					-- #if BEFORE 4.0.3
 					["groups"] = {
-						i(6270),	-- Pattern: Blue Linen Vest
-						i(5771),	-- Pattern: Red Linen Bag
-						i(5772),	-- Pattern: Red Woolen Bag
+						i(6270),	-- Pattern: Blue Linen Vest (RECIPE!)
+						i(5771),	-- Pattern: Red Linen Bag (RECIPE!)
+						i(5772),	-- Pattern: Red Woolen Bag (RECIPE!)
 					},
 					-- #endif
 				}),
@@ -3183,6 +3225,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				})),
 				-- #endif
+				i(45040, {	-- Shatterspear Torturer's Cage Key
+					["description"] = "Use the Key on a nearby cage to release Sentinel Aynasha and receive an Escort Quest.",
+					["cr"] = 32970,	-- Rit'ko
+					["coord"] = { 64.1, 5.3, DARKSHORE },
+					["timeline"] = { ADDED_4_0_3 },
+				}),
 				-- #if BEFORE 4.0.3
 				i(5568, {	-- Smooth Pebble
 					["timeline"] = { DELETED_4_0_1 },
