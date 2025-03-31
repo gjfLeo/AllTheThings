@@ -33,4 +33,6 @@ ROOTS = {
 	["WorldDrops"] = "WorldDrops",
 	["WorldEvents"] = "WorldEvents",
 	["Zones"] = "Zones",
+	--
+	["AprilFools"] = "Special_AprilFools",
 };
