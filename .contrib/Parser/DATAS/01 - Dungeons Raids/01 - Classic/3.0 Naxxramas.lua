@@ -1993,11 +1993,13 @@ applyclassicphase(PHASE_SIX,
 									i(22349),	-- Desecrated Breastplate
 									i(22351),	-- Desecrated Robe
 									i(22350),	-- Desecrated Tunic
+									-- #if ANYCLASSIC
 									i(13262, {	-- Ashbringer
 										["lore"] = "This is here so that you can quickly compare the Corrupted Ashbringer with the original Ashbringer model. It was never available to players.\n\nThis weapon was eventually turned into an Artifact weapon with an updated model for the Legion expansion for Retribution Paladins.",
 										["timeline"] = { CREATED_1_11_1 },
 										["collectible"] = false,
 									}),
+									-- #endif
 									i(22691),	-- Corrupted Ashbringer
 									i(22809),	-- Maul of the Redeemed Crusader
 									i(22811),	-- Soulstring
