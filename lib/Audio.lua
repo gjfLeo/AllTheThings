@@ -78,12 +78,6 @@ local DefaultSoundPack = api:CreateSoundPack("Default", {
 		app.asset("fanfare4.ogg"),
 		app.asset("fanfare5.ogg"),
 		app.asset("fanfare6.ogg"),
-		app.asset("ffdamnson.ogg"),
-		app.asset("ffanime.ogg"),
-		app.asset("ffezz.ogg"),
-		app.asset("ffprettygood.ogg"),
-		app.asset("ffwow.ogg"),
-		app.asset("ffnice.ogg"),
 	},
 	MOUNTFANFARE = {
 		app.asset("mountfanfare1.ogg"),
@@ -197,7 +191,37 @@ function app.ClearSounds(tableName)
 	end
 end
 
+-- Note that any enabled sound table will completely replace the Default sounds for that table
+local AprilFoolsSoundPack = api:CreateSoundPack("April Fools Sounds", {
+	-- COMPLETE = {
+	-- },
+	-- DEATH = {
+	-- },
+	FANFARE = {
+		app.asset("ffdamnson.ogg"),
+		app.asset("ffanime.ogg"),
+		app.asset("ffezz.ogg"),
+		app.asset("ffprettygood.ogg"),
+		app.asset("ffwow.ogg"),
+		app.asset("ffnice.ogg"),
+	},
+	-- MOUNTFANFARE = {
+	-- },
+	-- RAREFIND = {
+	-- },
+	-- REMOVE = {
+	-- },
+	-- REPORT = {
+	-- },
+});
+
+local StartupSpecialSoundPack
+local currentCalendarTime = C_DateAndTime and C_DateAndTime.GetCurrentCalendarTime()
+if currentCalendarTime and currentCalendarTime.month == 4 and currentCalendarTime.monthDay == 1 then
+	StartupSpecialSoundPack = AprilFoolsSoundPack
+end
+
 app.AddEventHandler("OnReady", function()
 	-- Prepare the Sound Pack!
-	api:ReloadSoundPack();
+	api:ActivateSoundPack(StartupSpecialSoundPack or AllTheThingsSavedVariables.CurrentSoundPack or "Default", true);
 end);
