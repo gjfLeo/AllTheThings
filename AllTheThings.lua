@@ -3530,6 +3530,9 @@ function app:GetDataCache()
 		end
 	}));
 
+	-- Module-based Groups
+	app.HandleEvent("OnAddExtraMainCategories", g)
+
 	-- Create Dynamic Groups Button
 	tinsert(g, app.CreateRawText(L.CLICK_TO_CREATE_FORMAT:format(L.SETTINGS_MENU.DYNAMIC_CATEGORY_LABEL), {
 		["icon"] = app.asset("Interface_CreateDynamic"),
