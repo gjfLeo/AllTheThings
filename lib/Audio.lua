@@ -224,7 +224,7 @@ local AprilFoolsSoundPack = api:CreateSoundPack("April Fools Sounds", {
 
 local StartupSpecialSoundPack
 local currentCalendarTime = C_DateAndTime and C_DateAndTime.GetCurrentCalendarTime()
-if currentCalendarTime and currentCalendarTime.month == 3 and currentCalendarTime.monthDay == 31 then
+if currentCalendarTime and currentCalendarTime.month == 4 and currentCalendarTime.monthDay == 1 then
 	StartupSpecialSoundPack = AprilFoolsSoundPack
 end
 
