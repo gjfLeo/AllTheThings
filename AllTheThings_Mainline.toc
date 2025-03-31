@@ -85,6 +85,7 @@ src\Cache.lua
 src\Modules\RetrievingData.lua
 src\Modules\Collection.lua
 src\Modules\CustomCollect.lua
+src\Modules\ExtraCategories.lua
 src\Modules\FactionData.lua
 src\Modules\Fill.lua
 src\Modules\Color.lua
