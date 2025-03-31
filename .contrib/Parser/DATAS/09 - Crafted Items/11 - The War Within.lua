@@ -2351,8 +2351,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(213611),	-- Writhing Sample
 		}),
 		n(DISCOVERY, {
+			r(439713, {	-- Aqirite Seam
+				["description"] = "Best farmed in 'The Underkeep' Delve during a story that allows ores to spawn. The first room on the right can an Aqirite Seam.\n\nCan also be found very very rarely in Caves in Hallowfall & Ajzkahet as well as in the Sinkhole, Skittering Breach and Underkeep Delve",
+				["maps"] = { HALLOWFALL, AZJ_KAHET, THE_SINKHOLE, SKITTERING_BREACH, THE_UNDERKEEP,}
+			}),
 			r(439707),	-- Aqirite
-			r(439713),	-- Aqirite Seam
 			r(439712),	-- Bismuth Seam
 			r(439725),	-- Camouflaged Aqirite
 			r(439724),	-- Camouflaged Bismuth
