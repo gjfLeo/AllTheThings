@@ -193,10 +193,13 @@ end
 
 -- Note that any enabled sound table will completely replace the Default sounds for that table
 local AprilFoolsSoundPack = api:CreateSoundPack("April Fools Sounds", {
-	-- COMPLETE = {
-	-- },
-	-- DEATH = {
-	-- },
+	COMPLETE = {
+		49371,
+		49372,
+	},
+	DEATH = {
+		20278,
+	},
 	FANFARE = {
 		app.asset("ffdamnson.ogg"),
 		app.asset("ffanime.ogg"),
@@ -205,19 +208,23 @@ local AprilFoolsSoundPack = api:CreateSoundPack("April Fools Sounds", {
 		app.asset("ffwow.ogg"),
 		app.asset("ffnice.ogg"),
 	},
-	-- MOUNTFANFARE = {
-	-- },
-	-- RAREFIND = {
-	-- },
-	-- REMOVE = {
-	-- },
-	-- REPORT = {
-	-- },
+	MOUNTFANFARE = {
+		108419,
+	},
+	RAREFIND = {
+		256849,
+	},
+	REMOVE = {
+		24272,
+	},
+	REPORT = {
+		161694,
+	},
 });
 
 local StartupSpecialSoundPack
 local currentCalendarTime = C_DateAndTime and C_DateAndTime.GetCurrentCalendarTime()
-if currentCalendarTime and currentCalendarTime.month == 4 and currentCalendarTime.monthDay == 1 then
+if currentCalendarTime and currentCalendarTime.month == 3 and currentCalendarTime.monthDay == 31 then
 	StartupSpecialSoundPack = AprilFoolsSoundPack
 end
 
