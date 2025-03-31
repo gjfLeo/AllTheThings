@@ -140,37 +140,20 @@ local CachedMapData = setmetatable({}, {
 					MergeIntoHeader(app.HeaderConstants.EXPLORATION, clone);
 				elseif key == "flightpathID" then
 					MergeIntoHeader(app.HeaderConstants.FLIGHT_PATHS, clone);
-				elseif key == "itemID" or key == "spellID" then
-					if GetRelativeField(group, "headerID", app.HeaderConstants.ZONE_DROPS) then
-						MergeIntoHeader(app.HeaderConstants.ZONE_DROPS, clone);
-					else
-						local requireSkill = GetRelativeValue(group, "requireSkill");
-						if requireSkill then
-							MergeObject(groups, app.CreateProfession(requireSkill, { g = { clone } }));
-						else
-							local headerID = GetRelativeValue(group, "headerID");
-							if headerID then
-								MergeIntoHeader(headerID, clone);
-							else
-								MergeObject(groups, clone);
-							end
-						end
-					end
-				elseif key == "headerID" then
-					if clone.parent and clone.parent.headerID then
-						MergeIntoHeader(clone.parent.headerID, clone);
-					else
-						MergeObject(groups, clone);
-					end
 				else
-					local headerID = GetRelativeValue(group, "headerID");
-					if headerID then
-						MergeIntoHeader(headerID, clone);
-						if group.parent and group.parent.isRaid then
-							headers[headerID].isRaid = true;
-						end
+					local requireSkill = GetRelativeValue(group, "requireSkill");
+					if requireSkill then
+						MergeIntoHeader(app.HeaderConstants.PROFESSIONS, app.CreateProfession(requireSkill, { g = { clone } }));
 					else
-						MergeObject(groups, clone);
+						local headerID = GetRelativeValue(group, "headerID");
+						if headerID then
+							MergeIntoHeader(headerID, clone);
+							if group.parent and group.parent.isRaid then
+								headers[headerID].isRaid = true;
+							end
+						else
+							MergeObject(groups, clone);
+						end
 					end
 				end
 			end
