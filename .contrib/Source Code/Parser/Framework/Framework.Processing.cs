@@ -1831,7 +1831,7 @@ namespace ATT
             if (!data.TryGetValue("achID", out long achID) ||
                 data.ContainsKey("criteriaID") ||
                 (data.TryGetValue("collectible", out bool collectible) && !collectible)) return;
-            // data.DataBreakPoint("achID", 727);
+
             // Grab AchievementDB info
             ACHIEVEMENTS.TryGetValue(achID, out IDictionary<string, object> achInfo);
 
@@ -1938,9 +1938,10 @@ namespace ATT
             if (!data.TryGetValue("criteriaID", out long criteriaID))
                 return;
 
-            // due to AchievementDB using 'HQT' questIDs for some Criterias, let's just tell Parser to ignore moving them based on AchievementDB until we think of a better solution...
-            // also ignore criteria which have _encounters defined. maybe eventually figure out the ModiferTree logic for them instead
-            if (data.ContainsKey("_noautomation") || data.ContainsKey("_encounter"))
+            //data.DataBreakPoint("criteriaID", 55244);
+            // ignore criteria which have _encounters defined. maybe eventually figure out the ModiferTree logic for them instead
+            // ignore criteria which were already incorporated
+            if (data.ContainsKey("_noautomation") || data.ContainsKey("_encounter") || data.ContainsKey("_incorporatedCriteria"))
                 return;
 
             data.TryGetValue("achID", out long achID);
@@ -1977,6 +1978,7 @@ namespace ATT
                 }
             }
 
+            bool incorporated = false;
             // incorporate AchievementDB criteria data
             if (matchedCriteriaInfo != null)
             {
@@ -1984,21 +1986,25 @@ namespace ATT
                 if (matchedCriteriaInfo.TryGetValue("cost", out object costObj))
                 {
                     Cost.Merge(data, costObj);
+                    incorporated = true;
                 }
                 // NPCs
                 if (matchedCriteriaInfo.TryGetValue("_npcs", out object npcs))
                 {
                     Objects.Merge(data, "_npcs", npcs);
+                    incorporated = true;
                 }
                 // Objects
                 if (matchedCriteriaInfo.TryGetValue("_objects", out object objects))
                 {
                     Objects.Merge(data, "_objects", objects);
+                    incorporated = true;
                 }
                 // Quests
                 if (matchedCriteriaInfo.TryGetValue("_quests", out object quests))
                 {
                     Objects.Merge(data, "_quests", quests);
+                    incorporated = true;
                 }
             }
 
@@ -2062,7 +2068,6 @@ namespace ATT
             }
 
             // merge CriteriaDB data into Criteria data
-            bool incorporated = false;
             // SourceQuest(s) can convert to _quests for criteria cloning
             long sq = criteriaData.GetSourceQuest();
             if (sq > 0)
@@ -2089,8 +2094,18 @@ namespace ATT
             long providerItem = criteriaData.GetProviderItem();
             if (providerItem > 0)
             {
-                LogDebug($"INFO: Added Item provider to Criteria {achID}:{criteriaID} => {providerItem}");
-                Objects.Merge(data, "providers", new List<object> { new List<object> { "i", providerItem } });
+                // if parent criteriaTree specifies a larger amount, then need to assign as a Cost instead of Provider
+                data.TryGetValue("_parentAmount", out long parentAmount);
+                if (parentAmount <= 1)
+                {
+                    LogDebug($"INFO: Added Item Provider to Criteria {achID}:{criteriaID} => {providerItem}");
+                    Objects.Merge(data, "providers", new List<object> { new List<object> { "i", providerItem } });
+                }
+                else
+                {
+                    LogDebug($"INFO: Added Item Cost to Criteria {achID}:{criteriaID} => {providerItem}x{parentAmount}");
+                    Cost.Merge(data, "i", providerItem, parentAmount);
+                }
                 incorporated = true;
             }
 
@@ -2244,16 +2259,23 @@ namespace ATT
             long modifierTreeID = criteriaData.GetModifierTreeID();
             if (modifierTreeID > 0)
             {
-                // only mark the criteria to remove if there was no other data added from it
-                if (!Incorporate_ModifierTree(data, modifierTreeID) && matchedCriteriaInfo == null && !incorporated)
-                {
-                    if (!data.ContainsKey("_remove"))
-                    {
-                        LogDebug($"INFO: No good ModifierTree {modifierTreeID} data for hidden Criteria {achID}:{criteriaID}. It will be removed.");
-                        data["_remove"] = true;
-                    }
-                }
+                incorporated |= Incorporate_ModifierTree(data, modifierTreeID);
                 // -> modifiertree -> parent[collection] -> type=4(creature target) -> Asset
+            }
+
+            // only mark the non-useful criteria to remove if there was no other data added from it
+            if (!incorporated && !criteriaData.IsUseful())
+            {
+                if (!data.ContainsKey("_remove"))
+                {
+                    LogDebug($"INFO: Criteria {achID}:{criteriaID} was not determined as 'useful' and had no incorporated data. It will be removed.");
+                    data["_remove"] = true;
+                }
+            }
+            else
+            {
+                // track that this Criteria data already had data incorporated
+                data["_incorporatedCriteria"] = true;
             }
         }
 
@@ -2309,6 +2331,11 @@ namespace ATT
                 {
                     IDictionary<string, object> criteriaData = criteria.AsData();
                     criteriaData["achID"] = achID;
+                    // capture the parent criteria tree amount multiplier if it exists, so when the criteria data is incorporated we can properly utilize the value
+                    if (criteriaTree.Operator == 0 && criteriaTree.Amount > 0)
+                    {
+                        criteriaData["_parentAmount"] = criteriaTree.Amount;
+                    }
                     if (extraData != null)
                     {
                         Objects.Merge(criteriaData, extraData);
@@ -3338,6 +3365,27 @@ namespace ATT
                 data.Remove("u");
                 data.Remove("rwp");
                 LogDebug($"INFO: Removed 'u={unob}' since it is a forcibly-obtainable Thing or one exists within", data);
+            }
+
+            // costs/providers
+            if (data.TryGetValue("cost", out object costObj) && data.TryGetValue("providers", out List<object> providers) && costObj is Cost cost)
+            {
+                for (int i = providers.Count - 1; i >= 0; i--)
+                {
+                    if (!providers[i].TryConvert(out List<object> provider))
+                    {
+                        continue;
+                    }
+
+                    if (provider.SafeIndex(0) is string pType && pType == "i" && provider.SafeIndex(1).TryConvert(out long pId))
+                    {
+                        if (cost.GetCost(pType, pId) != null)
+                        {
+                            LogDebugWarn($"Item {pId} used for both Provider and Cost on same data. Removing 'provider'", data);
+                            providers.RemoveAt(i);
+                        }
+                    }
+                }
             }
         }
 

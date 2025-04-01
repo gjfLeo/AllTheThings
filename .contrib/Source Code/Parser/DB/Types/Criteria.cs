@@ -55,7 +55,6 @@ namespace ATT.DB.Types
             GetRequiredFlightPath() > 0 ||
             GetRecruitFollowerID() > 0 ||
             GetGarrisonMissionID() > 0 ||
-            GetModifierTreeID() > 0 ||
             // Reveal world map overlay "{WorldMapOverlay}" (Exploration stuff)
             Type == 43 ||
             // Equip item in slot "{$Equip Slot}"

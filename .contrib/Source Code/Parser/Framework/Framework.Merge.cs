@@ -1140,10 +1140,6 @@ namespace ATT
                 // KEY: Achievement ID, VALUE: Dictionary
                 if (achieveInfo is IDictionary<string, object> info && (info.TryGetValue("achID", out long achID) || info.TryGetValue("achievementID", out achID)))
                 {
-                    // if (achID == 9713)
-                    // {
-
-                    // }
                     if (ACHIEVEMENTS.TryGetValue(achID, out IDictionary<string, object> existingData))
                     {
                         if (onlyNew)
