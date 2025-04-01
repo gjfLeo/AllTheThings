@@ -2857,7 +2857,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			})
 		})),
-		n(MARCH, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.59466", "removed 11.1.0.60037" } }, {	-- TODO: Timeline out correctly
+		n(MARCH, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.59466", "removed 11.1.0.60037" } }, {	
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
 			}),
@@ -2970,7 +2970,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(APRIL, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.60037", "removed 11.1.5.99999" } }, {	-- TODO: Timeline in/out correctly
+		n(APRIL, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.60037", "removed 11.1.5.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(235664),	-- Ensemble: Topsy Turvy Mask Set
 			}),
@@ -2986,9 +2986,6 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 			filter(BATTLE_PETS, {
-			--	i(234396, {	-- Teatuft Tamer (PET!)
-			--		["cost"] = {{"c", TRADERS_TENDER, 350}},
-			--	}),
 			}),
 			filter(TOYS, {
 				i(212500, {	-- Delicate Silk Parasol (TOY!)
