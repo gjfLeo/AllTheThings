@@ -591,8 +591,6 @@ root(ROOTS.Unsorted, {
 				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
 			}),
 			filter(MOUNTS, {
-				i(235662),	-- Emerald Snail (MOUNT!) [Trading Post?]
-				i(235555),	-- Lively Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
 				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
 				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]

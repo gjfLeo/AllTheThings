@@ -47,18 +47,18 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(8589, {		-- Ivory Raptor (MOUNT!)
 				["displayID"] = 6471,
 			}),
-			--i(8633, {		-- Leopard (MOUNT!)
-			--	["displayID"] = 4805,
-			--}),
+			i(8633, {		-- Leopard (MOUNT!)
+				["displayID"] = 4805,
+			}),
 			i(23193, {		-- Naxxramas Deathcharger[WRATH+] / Skeletal Steed (MOUNT!)
 				["displayID"] = 10718
 			}),
 			i(21736, {		-- Nether Drake[TBC+] / Summon Riding Gryphon (MOUNT!)
 				["displayID"] = 16314,	-- During Vanilla: 15293
 			}),
-			--i(8590, {		-- Obsidian Raptor (MOUNT!)
-			--	["displayID"] = 6468,
-			--}),
+			i(8590, {		-- Obsidian Raptor (MOUNT!)
+				["displayID"] = 6468,
+			}),
 			i(2413, {		-- Palamino Stallion [Item: Palomino] (MOUNT!)
 				["displayID"] = 2408,
 			}),
@@ -68,9 +68,9 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(13323, {		-- Purple Mechanostrider (MOUNT!)
 				["displayID"] = 10662,
 			}),
-			--i(13324, {		-- Red and Blue Mechanostrider (MOUNT!)
-			--	["displayID"] = 10664,
-			--}),
+			i(13324, {		-- Red and Blue Mechanostrider (MOUNT!)
+				["displayID"] = 10664,
+			}),
 			i(14062, {		-- Riding Kodo [Item: Kodo Mount] (MOUNT!)
 				["displayID"] = 11641,
 			}),
@@ -200,9 +200,9 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 				["displayID"] = 21268,
 			}),
 			-- With MountID Attached
-			--i(25596, {	-- Peep the Phoenix Mount (MOUNT!)
-			--	["displayID"] = 17890,
-			--}),
+			i(25596, {	-- Peep the Phoenix Mount (MOUNT!)
+				["displayID"] = 17890,
+			}),
 		})),
 
 		-- 2.4.0

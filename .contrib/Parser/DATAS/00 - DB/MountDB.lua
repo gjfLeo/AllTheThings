@@ -1973,10 +1973,12 @@ i(229924, 466000);	-- Darkfuse Chompactor
 i(229950, 466018);	-- Darkfuse Demolisher
 i(229955, 466027);	-- Darkfuse Spy-Eye
 i(229974, 466133);	-- Delver's Gob-Trotter
+i(235662, 1218069);	-- Emerald Snail
 i(237141, 1221694);	-- Enterprising Shreddertank
 i(229940, 466011);	-- Flarendo the Furious
 i(229941, 466017);	-- Innovation Investigator
 i(231173, 468068);	-- Junkmaestro's Magnetomech
+i(235555, 1217341);	-- Lively Darkmoon Charger
 i(229954, 466025);	-- Margin Manipulator
 i(229956, 466028);	-- Mean Green Flying Machine
 i(233286, 473745);	-- Meeksi Brewthief
@@ -2002,8 +2004,6 @@ i(229936, 466002);	-- Violet Armored Growler
 i(235556, 1217342);	-- Violet Darkmoon Charger
 i(229947, 466021);	-- Violet Goblin Shredder
 -- TRADING POST TAG
-i(235662, 1218069);	-- Emerald Snail
-i(235555, 1217341);	-- Lively Darkmoon Charger
 i(235659, 1218014);	-- Midnight Butterfly
 i(235554, 1217340);	-- Midnight Darkmoon Charger
 i(235646, 1217965);	-- Shimmermist Free Runner

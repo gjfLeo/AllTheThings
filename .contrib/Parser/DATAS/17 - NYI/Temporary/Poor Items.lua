@@ -1878,7 +1878,7 @@ root(ROOTS.NeverImplemented, {
 					i(37146),	-- Monster - Sword2H, Northrend D03 (Fear)
 					i(43578),	-- Monster - Sword2H, Northrend D03 (Soulfrost)
 					i(49767),	-- Monster - Sword2H, Quel'Delar
-					--i(36942),	-- Frostmourne
+					i(36942),	-- Frostmourne
 				}),
 				filter(THROWN, {
 					i(37534),	-- BT56 Thrown2

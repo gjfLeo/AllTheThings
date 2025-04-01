@@ -330,7 +330,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(TWO_HANDED_SWORDS, {
 			expansion(EXPANSION.CLASSIC, {
-				--i(13262),	-- Ashbringer
+				i(13262),	-- Ashbringer
 				i(913),		-- Huge Ogre Sword
 				i(12469),	-- Mutilator
 				i(21553),	-- Monster - Sword2H, Alliance PvP
@@ -827,7 +827,7 @@ root(ROOTS.NeverImplemented, {
 			i(215902),	-- Klaxxi Scimitar
 			i(215904),	-- Klaxxi Shortsword
 			i(215903),	-- Klaxxi Sword
-			--i(216452),	-- Longstaff of the Monkey King
+			i(216452),	-- Longstaff of the Monkey King
 			i(215569),	-- Norushen's Dagger
 			i(216478),	-- Pandaren Flamberge
 			i(216454),	-- Pandaren Longstaff
@@ -959,7 +959,7 @@ root(ROOTS.NeverImplemented, {
 			-- Two hand
 			i(216905),	-- Brann Bronzebeard's Axe
 			-- Gun
-			--i(216906),	-- Ol' Faithful
+			i(216906),	-- Ol' Faithful
 		})),
 
 		-- 11.0.2

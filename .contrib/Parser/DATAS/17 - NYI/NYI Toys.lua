@@ -32,7 +32,7 @@ root(ROOTS.NeverImplemented, filter(TOYS, {
 	expansion(EXPANSION.MOP, {
 		-- 5.0.4
 		expansion(EXPANSION.MOP, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_5_0_4 } }, {
-			--i(88587),	-- Iron Belly Spirits (TOY!)
+			i(88587),	-- Iron Belly Spirits (TOY!)
 		})),
 	}),
 	expansion(EXPANSION.WOD, {
