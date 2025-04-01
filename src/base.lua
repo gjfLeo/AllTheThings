@@ -226,22 +226,30 @@ app.GetIconFromProviders = function(group)
 end;
 local GetItemInfo = app.WOWAPI.GetItemInfo;
 app.GetNameFromProviders = function(group)
-	if group.providers then
-		local name;
-		for k,v in ipairs(group.providers) do
-			if v[2] > 0 then
-				if v[1] == "o" then
-					name = app.ObjectNames[v[2]];
-				elseif v[1] == "i" then
-					name = GetItemInfo(v[2]);
-				elseif v[1] == "n" then
-					name = app.NPCNameFromID[v[2]];
-				end
-				if name then return name; end
+	local providers = group.providers
+	if not providers or #providers == 0 then return end
+	local pt, id, name
+	for k,v in ipairs(providers) do
+		id = v[2]
+		if id > 0 then
+			pt = v[1]
+			if pt == "o" then
+				name = app.ObjectNames[id];
+				break
+			elseif pt == "i" then
+				name = GetItemInfo(id);
+				break
+			elseif pt == "n" then
+				name = app.NPCNameFromID[id];
+				break
+			elseif pt == "s" then
+				name = app.GetSpellName(id)
+				break
 			end
 		end
 	end
-end;
+	return name
+end
 
 -- Common Metatable Functions
 app.MetaTable = {}

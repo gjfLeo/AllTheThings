@@ -387,30 +387,8 @@ do
 				end
 
 				-- criteria with provider data
-				local providers = t.providers;
-				if providers then
-					local pt, id
-					for k,v in ipairs(providers) do
-						pt = v[1]
-						id = v[2]
-						if id > 0 then
-							if pt == "o" then
-								name = app.ObjectNames[id];
-								break
-							elseif pt == "i" then
-								name = GetItemInfo(id);
-								break
-							elseif pt == "n" then
-								name = app.NPCNameFromID[id];
-								break
-							elseif pt == "s" then
-								name = app.GetSpellName(id)
-								break
-							end
-						end
-					end
-					if not IsRetrieving(name) then return name; end
-				end
+				name = app.GetNameFromProviders(t)
+				if not IsRetrieving(name) then return name end
 
 				-- criteria with sourceQuests data
 				local sourceQuests = t.sourceQuests;

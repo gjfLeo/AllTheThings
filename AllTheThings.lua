@@ -48,7 +48,6 @@ local IsInInstance = IsInInstance
 
 -- WoW API Cache;
 local GetItemInfo = app.WOWAPI.GetItemInfo;
-local GetItemID = app.WOWAPI.GetItemID;
 local GetSpellName = app.WOWAPI.GetSpellName;
 local GetTradeSkillTexture = app.WOWAPI.GetTradeSkillTexture;
 
