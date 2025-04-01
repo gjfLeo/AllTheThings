@@ -670,7 +670,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25640, {	-- Bombs Away: Windshear Mine!
 					["qg"] = 40895,	-- Professor Xakxak Gyromate
 					["sourceQuest"] = 25622,	-- Burn, Baby, Burn!
-					["coord"] = { 35.4, 71.2, ASHENVALE },
+					["coord"] = { 35.4, 71.1, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -707,7 +707,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25622, {	-- Burn, Baby, Burn!
 					["qg"] = 40895,	-- Professor Xakxak Gyromate
 					["sourceQuest"] = 25621,	-- Field Test: Gnomecorder
-					["coord"] = { 35.4, 71.2, ASHENVALE },
+					["coord"] = { 35.4, 71.1, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1950,7 +1950,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25615, {	-- Return to Stardust
 					["qg"] = 39256,	-- Kalen Trueshot
 					["sourceQuest"] = 25614,	-- The Only Way Down is in a Body Bag
-					["coord"] = { 71.8, 45.6, STONETALON_MOUNTAINS },
+					["coord"] = { 71.8, 45.7, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2475,7 +2475,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(13913, {	-- They Took Our Gnomes
 					["qg"] = 34354,	-- Huntress Jalin
 					["sourceQuest"] = 28539,	-- Hero's Call: Stonetalon Mountains!
-					["coord"] = { 35.0, 71.5, ASHENVALE },
+					["coord"] = { 35.1, 71.6, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2716,7 +2716,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #endif
 				q(25607, {	-- Ze Gnomecorder
 					["qg"] = 40895,	-- Professor Xakxak Gyromate
-					["coord"] = { 35.3, 71.1, ASHENVALE },
+					["coord"] = { 35.4, 71.1, ASHENVALE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {

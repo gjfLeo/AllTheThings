@@ -2124,7 +2124,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13562, {	-- The Final Flame of Bashal'Aran
 					["qg"] = 32971,	-- Ranger Glynda Nal'Shea (mobileNPC)
-					["description"] = "Ranger Glynda Nal'Shea wanders around Lor'danel.",
+					["description"] = "Ranger Glynda Nal'Shea patrols around Lor'danel.",
 					["sourceQuest"] = 13529,	-- The Corruption's Source
 					["coords"] = {
 						{ 50.1, 20.9, DARKSHORE },
@@ -2379,7 +2379,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(13589, {	-- The Shatterspear Invaders
 					["qg"] = 32971,	-- Ranger Glynda Nal'Shea (mobileNPC)
-					["description"] = "Ranger Glynda Nal'Shea wanders around Lor'danel.",
+					["description"] = "Ranger Glynda Nal'Shea patrols around Lor'danel.",
 					["sourceQuest"] = 13569,	-- The Ritual Bond
 					["coords"] = {
 						{ 50.1, 20.9, DARKSHORE },
@@ -3186,7 +3186,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["cr"] = 3660,	-- Athrikus Narassin <Cult of the Dark Strand>
 				}),
 				-- #endif
-				i(5773, {	-- Pattern: Robes of Arcana
+				i(5773, {	-- Pattern: Robes of Arcana (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3 },
 					["cr"] = 2337,	-- Dark Strand Voidcaller
 				}),

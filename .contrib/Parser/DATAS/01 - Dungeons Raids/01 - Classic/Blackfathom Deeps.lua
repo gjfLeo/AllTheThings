@@ -540,8 +540,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["timeline"] = { REMOVED_6_0_2 },
 				-- #if BEFORE 6.0.1.18322
 				["groups"] = {
-					i(6905),	-- Reef Axe
 					i(6906),	-- Algae Fists
+					i(1470),	-- Murloc Skin Bag
+					i(6905),	-- Reef Axe
 				},
 				-- #endif
 			}),
@@ -616,11 +617,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["creatureID"] = 74565,
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
-					i(6905),	-- Reef Axe
 					i(6906),	-- Algae Fists
 					i(151436, {	-- Murloc Oppressor's Band
 						["timeline"] = { ADDED_7_3_0 },
 					}),
+					i(1470),	-- Murloc Skin Bag
+					i(6905),	-- Reef Axe
 				},
 			}),
 			e(1145, {	-- Thruk
