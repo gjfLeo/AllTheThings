@@ -171,7 +171,7 @@ local EncounterToLoot = {
 		i(230186),	-- Mister Pick-Me-Up
 		i(228882),	-- Refiner's Conveyor Belt
 		i(228888),	-- Rushed Beta Launchers
-		i(228844),	-- Test Pilot's Go-Pack
+		i(228844, {up=IGNORED_VALUE}),	-- Test Pilot's Go-Pack [drops pre-upgraded with lower appearance]
 		i(228884),	-- Test Subject's Clasps
 	};
 	[BANDIT] = {
@@ -196,8 +196,6 @@ local EncounterToLoot = {
 			i(229280),	-- Opulent Treasurescale's Crowned Jewel
 			i(229289),	-- Spectral Gambler's Damned Visage
 		}),
-		i(232526),	-- Best-in-Slots
-		i(232805),	-- Best-in-Slots
 		i(228850),	-- Bottom-Dollar Blouse
 		i(228886),	-- Coin-Operated Girdle
 		i(228883),	-- Dubious Table-Runners
@@ -213,7 +211,6 @@ local EncounterToLoot = {
 		i(228851),	-- "Bullet-Proof" Vestplate
 		i(228893),	-- "Tiny Pal"
 		i(228901),	-- Big Earner's Bludgeon
-		i(232804),	-- Capo's Molten Knuckles
 		i(228879),	-- Cemented Murloc-Swimmers
 		i(228863),	-- Enforcer's Sticky Fingers
 		i(228860),	-- Epaulettes of Failed Enforcers
@@ -493,12 +490,15 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					i(223097),	-- Pattern: Adrenal Surge Clasp (RECIPE!)
 				}),
 				BossOnly(BANDIT, {
+					i(232526,{provider={"i",232805}}),	-- Best-in-Slots
+					i(232805,{provider={"i",232526}}),	-- Best-in-Slots
 					i(237578, {	-- Counterfeit Dealer's Chip
 						["description"] = "Has a small chance dropping as Personal Loot once you have reached Renown 15 with the Gallagio Loyalty Rewards Club.",
 					}),
 				}),
 				BossOnly(MUGZEE, {
 					i(223094),	-- Design: Magnificent Jeweler's Setting (RECIPE!)
+					i(232804),	-- Capo's Molten Knuckles
 				}),
 				BossOnly(GALLYWIX, {
 					i(223144),	-- Formula: Enchant Weapon - Authority of the Depths (RECIPE!)
@@ -513,20 +513,20 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0_SEASONSTART },
 					}),
 				}),
-				header(HEADERS.Achievement, 41225, {	-- Shock and Awesome
-					Boss(VEXIE),
+				header(HEADERS.LFGDungeon, 2780, {	-- Shock and Awesome
 					Boss(CARNAGE),
 					Boss(RIK),
 				}),
-				header(HEADERS.Achievement, 41226, {	-- Maniacle Machinist
+				header(HEADERS.LFGDungeon, 2781, {	-- Maniacle Machinist
 					Boss(STIX),
 					Boss(LOCKENSTOCK),
 				}),
-				header(HEADERS.Achievement, 41227, {	-- Beating the Odds
+				header(HEADERS.LFGDungeon, 2782, {	-- Two Heads Are Better
+					Boss(VEXIE),
 					Boss(BANDIT),
 					Boss(MUGZEE),
 				}),
-				header(HEADERS.Achievement, 41228, {	-- Fall of the Chrome King
+				header(HEADERS.LFGDungeon, 2783, {	-- The Chrome King
 					Boss(GALLYWIX, {
 						i(228819, {	-- Excessively Bejeweled Curio
 							--["crs"] = 227003,	-- Kir'xal (Vendor)
