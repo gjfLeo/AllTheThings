@@ -799,7 +799,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(187546),	-- Consumed Weapon Essence
 			i(187547),	-- Consumed Weapon Essence
 			i(187548),	-- Consumed Weapon Essence
-			i(187497),	-- Delicate Razorwing Figurine
 			i(187123),	-- Empowerment Bauble
 			i(186971),	-- Feeder's Hand
 			i(187151),	-- Field Recovery: Partial Conduit Index
