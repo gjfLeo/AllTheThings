@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 						},
 					}),
 					ach(18257, {	-- Can You Dig It?
-						["_noautomation"] = true,
+						["_noautomation"] = true,	-- links a DNT creature
 					}),
 					ach(18271, {	-- He'sSss All Mine
 						["provider"] = { "i", 205151 },	-- Salverun

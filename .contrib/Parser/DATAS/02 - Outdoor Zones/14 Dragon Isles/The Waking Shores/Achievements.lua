@@ -107,7 +107,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			ach(16406, {	-- All Sides of the Story (automated)
 				crit(55244, {	-- Tarjin the Blind
-					["_noautomation"] = true,	-- Points to a useless HQT otherwise
 					["_quests"] = { 70779 },	-- Tarjin's Tales
 				}),
 			}),

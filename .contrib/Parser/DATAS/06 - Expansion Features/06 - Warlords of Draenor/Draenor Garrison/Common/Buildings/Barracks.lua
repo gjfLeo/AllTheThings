@@ -9,7 +9,7 @@ root(ROOTS.ExpansionFeatures,
 				garrisonBuilding(28, {	-- Barracks (rank 1: 26, rank 2: 27, rank 3: 28)
 					n(ACHIEVEMENTS, {
 						ach(9498, {		-- Wingman
-							["_noautomation"] = true,
+							["sym"] = {{"partial_achievement",9499}},	-- Wingmen
 						}),
 						ach(9499, {		-- Wingmen
 							crit(25890),		-- Leorajh

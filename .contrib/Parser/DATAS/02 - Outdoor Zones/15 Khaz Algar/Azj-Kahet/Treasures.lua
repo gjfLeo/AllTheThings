@@ -90,10 +90,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				-- ["questID"] = 82528,
 				["g"] = {
 					i(222966),	-- Spinner (PET!)
-					crit(69644, {	-- Trapped Trove (INFO: manually added because linked HQT above is wrong, remove when Blizzard fixes it)
-						["achievementID"] = 40828,	-- Treasures of Azj-Kahet
-						["_noautomation"] = true,
-					}),
 				},
 			}),
 			-- The Weaver Treasures, didn't fire questID - repeatable?

@@ -246,6 +246,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			ach(41217),	-- Treasures of Undermine (automated)
 			ach(40900),	-- Undermined (automated)
 			achraw(41708, {	-- You're My Friend Now
+				-- automation links to the individual spell casts for each rat
 				["crs"] = {
 					239250,	-- Grabbable Rat
 					239248,	-- Grabbable Rat

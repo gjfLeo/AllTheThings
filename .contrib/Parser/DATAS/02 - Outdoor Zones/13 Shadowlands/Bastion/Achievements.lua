@@ -6,15 +6,12 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 		n(ACHIEVEMENTS, {
 			ach(14307, {		-- Adventurer of Bastion (automated)
 				crit(50582, {
-					["_noautomation"] = true,	-- This normally points to a quest but we prefer it to point to the rare
 					["_npcs"] = { 158659 },	-- Herculon <Aspirant Assessor>
 				}),
 				crit(50611, {
-					["_noautomation"] = true,	-- This normally points to a quest but we prefer it to point to the rare
 					["_npcs"] = { 171011 },	-- Demi the Relic Hoarder
 				}),
 				crit(50614, {
-					["_noautomation"] = true,	-- This normally points to a quest but we prefer it to point to the rare
 					["_npcs"] = { 171255 },	-- Echo of Aella <Hand of Courage>
 				}),
 			}),

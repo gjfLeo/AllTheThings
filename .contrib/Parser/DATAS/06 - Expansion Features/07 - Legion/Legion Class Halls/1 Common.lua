@@ -102,7 +102,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 			}),
 			ach(10461),	-- Fighting with Style: Classic (automated)
 			ach(10750, {	-- Fighting with Style: Hidden
-				["_noautomation"] = true,
+				["_noautomation"] = true,	-- nests criteria under the below HATs
 				["groups"] = {
 					ach(11152, {	-- Hidden Tracking - Appearance Unlock - Hidden - Color 2
 						["description"] = "Progress indicates number of Legion Dungeons completed",
