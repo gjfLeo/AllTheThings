@@ -562,12 +562,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(230081),	-- Prowler's Brick Mask
 				i(230039),	-- Prowler's Brick Shoulder Cape
 
-				------ Prowler's Camo Set ------
-				i(230170),	-- Ensemble: Prowler's Camo Headgear
-				i(230060),	-- Prowler's Camo Cowl
-				i(230080),	-- Prowler's Camo Mask
-				i(230040),	-- Prowler's Camo Shoulder Cape
-
 				------ Prowler's Cloudy Set ------
 				i(230168),	-- Ensemble: Prowler's Cloudy Headgear
 				i(230058),	-- Prowler's Cloudy Cowl
@@ -621,8 +615,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233153),	-- Banded Azure War Wraps
 				i(233176),	-- Banded Brick War Slippers
 				i(233159),	-- Banded Brick War Wraps
-				i(233175),	-- Banded Camo War Slippers
-				i(233158),	-- Banded Camo War Wraps
 				i(233179),	-- Banded Carrot War Slippers
 				i(233162),	-- Banded Carrot War Wraps
 				i(233173),	-- Banded Cloudy War Slippers
@@ -635,8 +627,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233160),	-- Banded Lively War Wraps
 				i(233169),	-- Banded Midnight War Slippers
 				i(233152),	-- Banded Midnight War Wraps
-				i(233181),	-- Banded Plum War Slippers
-				i(233164),	-- Banded Plum War Wraps
 				i(233180),	-- Banded Rosy War Slippers
 				i(233163),	-- Banded Rosy War Wraps
 				i(233184),	-- Banded Snowy War Slippers
@@ -655,8 +645,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233136),	-- Long Azure War Skirt and Leg Wraps
 				i(233103),	-- Long Brick War Skirt
 				i(233142),	-- Long Brick War Skirt and Leg Wraps
-				i(233102),	-- Long Camo War Skirt
-				i(233141),	-- Long Camo War Skirt and Leg Wraps
 				i(233106),	-- Long Carrot War Skirt
 				i(233145),	-- Long Carrot War Skirt and Leg Wraps
 				i(233100),	-- Long Cloudy War Skirt
@@ -669,8 +657,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233143),	-- Long Lively War Skirt and Leg Wraps
 				i(233096),	-- Long Midnight War Skirt
 				i(233135),	-- Long Midnight War Skirt and Leg Wraps
-				i(233108),	-- Long Plum War Skirt
-				i(233147),	-- Long Plum War Skirt and Leg Wraps
 				i(233107),	-- Long Rosy War Skirt
 				i(233146),	-- Long Rosy War Skirt and Leg Wraps
 				i(233111),	-- Long Snowy War Skirt
@@ -696,8 +682,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233117),	-- Short Azure War Skirt and Leg Wraps
 				i(233086),	-- Short Brick War Skirt
 				i(233125),	-- Short Brick War Skirt and Leg Wraps
-				i(233085),	-- Short Camo War Skirt
-				i(233124),	-- Short Camo War Skirt and Leg Wraps
 				i(233089),	-- Short Carrot War Skirt
 				i(233128),	-- Short Carrot War Skirt and Leg Wraps
 				i(233083),	-- Short Cloudy War Skirt
@@ -710,8 +694,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(233126),	-- Short Lively War Skirt and Leg Wraps
 				i(233079),	-- Short Midnight War Skirt
 				i(233116),	-- Short Midnight War Skirt and Leg Wraps
-				i(233091),	-- Short Plum War Skirt
-				i(233130),	-- Short Plum War Skirt and Leg Wraps
 				i(233090),	-- Short Rosy War Skirt
 				i(233129),	-- Short Rosy War Skirt and Leg Wraps
 				i(233094),	-- Short Snowy War Skirt
@@ -781,7 +763,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235034),	-- Vigilante's Aquatic Mask
 				i(235020),	-- Vigilante's Azure Mask
 				i(235026),	-- Vigilante's Brick Mask
-				i(235025),	-- Vigilante's Camo Mask
 				i(235029),	-- Vigilante's Carrot Mask
 				i(235023),	-- Vigilante's Cloudy Mask
 				i(235032),	-- Vigilante's Crimson Mask
@@ -789,7 +770,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235022),	-- Vigilante's Grassy Mask
 				i(235027),	-- Vigilante's Lively Mask
 				i(235019),	-- Vigilante's Midnight Mask
-				i(235031),	-- Vigilante's Plum Mask
 				i(235030),	-- Vigilante's Rosy Mask
 				i(235035),	-- Vigilante's Snowy Mask
 				i(235036),	-- Vigilante's Sunny Mask
@@ -797,15 +777,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234601),	-- Wings of the Icy Rose Monarch
 			}),
 			n(SETS, {
-				------ Forest Dweller's Blooming Set ------
-				i(235594),	-- Ensemble: Forest Dweller's Blooming Attire
-				i(235590),	-- Forest Dweller's Blooming Belt
-				i(235569),	-- Forest Dweller's Blooming Boots
-				i(235577),	-- Forest Dweller's Blooming Cap
-				i(235573),	-- Forest Dweller's Blooming Glove
-				i(235586),	-- Forest Dweller's Blooming Mantle
-				i(235581),	-- Forest Dweller's Blooming Pants
-				i(235565),	-- Forest Dweller's Blooming Tunic
 
 				------ Forest Dweller's Butterfly Set ------
 				i(235593),	-- Ensemble: Forest Dweller's Butterfly Attire
@@ -891,7 +862,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(234374),	-- Arathi Holy Standard
 				i(234611),	-- Double-Bladed Butterfly Garden Trowel
 				i(234609),	-- Double-Bladed Forest Garden Trowel
-				i(234613),	-- Double-Bladed Rooted Garden Trowel
 				i(234370),	-- Flame-Bearing Crozier
 				i(234371),	-- Hand of Piety
 				i(234373),	-- Imperial Flarebolt
@@ -910,12 +880,9 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(235399),	-- Spring Butterfly Polearm
 				i(235289),	-- Spring Butterfly Sword
 				i(235293),	-- Spring Butterfly Wand
-				i(234724),	-- Topsy Turvy Clown's Cleaver
-				i(235641),	-- Topsy Turvy Clown's Die
 				i(234572),	-- Topsy Turvy Fool's Blade
 				i(234727),	-- Topsy Turvy Fool's Cleaver
 				i(235640),	-- Topsy Turvy Fool's Die
-				i(234575),	-- Topsy Turvy Jester's Blade
 				i(234577),	-- Topsy Turvy Joker's Blade
 				i(234726),	-- Topsy Turvy Joker's Cleaver
 				i(235643),	-- Topsy Turvy Joker's Die
