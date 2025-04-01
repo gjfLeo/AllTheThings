@@ -471,21 +471,7 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 					["provider"] = { "i", 193885 },	-- Jeweled Amber Whelpling
 				}),
 			-- #else
-				crit(63214, {	-- Jeweled Ruby Whelpling
-					["provider"] = { "i", 193887 },	-- Jeweled Ruby Whelpling
-				}),
-				crit(63215, {	-- Jeweled Emerald Whelpling
-					["provider"] = { "i", 193888 },	-- Jeweled Emerald Whelpling
-				}),
-				crit(63216, {	-- Jeweled Sapphire Whelpling
-					["provider"] = { "i", 193886 },	-- Jeweled Sapphire Whelpling
-				}),
-				crit(63217, {	-- Jeweled Onyx Whelpling
-					["provider"] = { "i", 193889 },	-- Jeweled Onyx Whelpling
-				}),
-				crit(63218, {	-- Jeweled Amber Whelpling
-					["provider"] = { "i", 193885 },	-- Jeweled Amber Whelpling
-				}),
+				-- automated properly
 			-- #endif
 			}),
 		})),
