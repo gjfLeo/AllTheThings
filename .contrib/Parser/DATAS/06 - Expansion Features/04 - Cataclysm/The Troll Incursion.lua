@@ -279,7 +279,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					},
 				}),
 				q(29227, {	-- The Hunter's Revenge (H)
-					["qg"] = 52294,	-- Grent Direhammer
+					["qgs"] = {
+						52294,	-- Hemet Nesingwary Jr.
+						52346,	-- Grent Direhammer
+					},
 					["sourceQuest"] = 29226,	-- Track the Tracker
 					["coord"] = { 50.3, 21.7, NORTHERN_STRANGLETHORN },
 					["races"] = HORDE_ONLY,
@@ -310,7 +313,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					["isBreadcrumb"] = true,
 				}),
 				q(29220, {	-- To Bambala
-					["qg"] = 52234,	-- Bwemba
+					["qgs"] = {
+						52234,	-- Bwemba
+						53081,	-- Bwemba
+					},
 					["coord"] = { 32.6, 68.2, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 				}),

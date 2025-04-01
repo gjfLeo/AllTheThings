@@ -1030,16 +1030,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						i(130169),	-- Tournament Favor (TOY!)
 					}),
 					-- Rep Insignias
-					i(152960),	-- Argussian Reach Insignia
-					i(152959),	-- Argussian Reach Insignia
-					i(152957),	-- Army of the Light Insignia
-					i(152958),	-- Army of the Light Insignia
+					i(152960, { ["timeline"] = { ADDED_7_3_0 } }),	-- Argussian Reach Insignia
+					i(152959, { ["timeline"] = { ADDED_7_3_0 } }),	-- Argussian Reach Insignia
+					i(152957, { ["timeline"] = { ADDED_7_3_0 } }),	-- Army of the Light Insignia
+					i(152958, { ["timeline"] = { ADDED_7_3_0 } }),	-- Army of the Light Insignia
 					i(141340),	-- Court of Farondis Insignia
+					i(146937),	-- Court of Farondis Insignia
 					i(146943),	-- Court of Farondis Insignia
 					i(141339),	-- Dreamweaver Insignia
+					i(146936),	-- Dreamweaver Insignia
 					i(146942),	-- Dreamweaver Insignia
-					i(152954),	-- Greater Argussian Reach Insignia
-					i(152955),	-- Greater Army of the Light Insignia
+					i(152954, { ["timeline"] = { ADDED_7_3_0 } }),	-- Greater Argussian Reach Insignia
+					i(152955, { ["timeline"] = { ADDED_7_3_0 } }),	-- Greater Army of the Light Insignia
 					i(150927),	-- Greater Court of Farondis Insignia
 					i(150926),	-- Greater Dreamweaver Insignia
 					i(150928),	-- Greater Highmountain Tribe Insignia
@@ -1049,13 +1051,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(150929),	-- Greater Wardens Insignia
 					i(141341),	-- Highmountain Tribe Insignia
 					i(146944),	-- Highmountain Tribe Insignia
-					i(146950),	-- Legionfall Insignia [BOA]
-					i(146949),	-- Legionfall Insignia [BOP]
+					i(146950, { ["timeline"] = { ADDED_7_2_0 } }),	-- Legionfall Insignia [BOA]
+					i(146949, { ["timeline"] = { ADDED_7_2_0 } }),	-- Legionfall Insignia [BOP]
 					i(141343),	-- Nightfallen Insignia
 					i(146946),	-- Nightfallen Insignia
 					i(141338),	-- Valarjar Insignia
+					i(146935),	-- Valarjar Insignia
 					i(146941),	-- Valarjar Insignia
 					i(141342),	-- Wardens Insignia
+					i(146939),	-- Wardens Insignia
 					i(146945),	-- Wardens Insignia
 					-- Misc
 					un(REMOVED_FROM_GAME, i(143478)),	-- Arena Invitation
@@ -1079,47 +1083,54 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					un(REMOVED_FROM_GAME, i(139473)),	-- Vial of Poisoned Blood -> Darkheart Thicket: Into Darkheart Thicket -> Darkheart Thicket
 					un(REMOVED_FROM_GAME, i(139475)),	-- Waterlogged Letter -> Maw of Souls: Into the Maw of Souls -> Maw of Souls
 					-- Follower Equipments
+					i(152928, { ["timeline"] = { ADDED_7_3_0 } }),	-- Archaic Seerstone
 					i(139802),	-- Auspicious Fetish
 					i(139873),	-- Bottled Sanity
 					i(140582),	-- Bottomless Flask
+					i(147348, { ["timeline"] = { ADDED_7_2_0 } }),	-- Bulky Armor Set
 					i(139814),	-- Carrot on a Stick
 					i(139808),	-- Cuiro of Abundant Happiness
 					i(139877),	-- Death's Touch
 					i(139795),	-- Draught of Courage
 					i(139809),	-- Elixir of Plenty
-					i(152444),	-- Exalted Xenedar Hammer
+					i(151843, { ["timeline"] = { ADDED_7_3_0 } }),	-- Eredath Armor Set
+					i(152444, { ["timeline"] = { ADDED_7_3_0 } }),	-- Exalted Xenedar Hammer
 					i(139792),	-- Fruitful Bauble
 					i(139419),	-- Golden Banana
-					i(147554),	-- Harpy Feather
-					i(152447),	-- Lightburst Charge
+					i(147554, { ["timeline"] = { ADDED_7_2_0 } }),	-- Harpy Feather
+					i(152438, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Sledgehammer
+					i(152447, { ["timeline"] = { ADDED_7_3_0 } }),	-- Lightburst Charge
 					i(139801),	-- Lucky Doodad
 					i(139811),	-- Necklace of Endless Memories
 					i(139799),	-- Pathfinder's Saddle
-					i(152439),	-- Pit Lord Tusk
+					i(152439, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pit Lord Tusk
 					i(139812),	-- Potion of Triton
-					i(147558),	-- Pouch of Wonder
-					i(152929),	-- Pronged Ridgestalker Spear
+					i(147558, { ["timeline"] = { ADDED_7_2_0 } }),	-- Pouch of Wonder
+					i(152929, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pronged Ridgestalker Spear
 					i(139878),	-- Relic of the Ebon Blade
 					i(139876),	-- Rune of Reckoning
-					i(152441),	-- Satchel of Lucidity
+					i(152441, { ["timeline"] = { ADDED_7_3_0 } }),	-- Satchel of Lucidity
 					i(139670),	-- Scream of the Dead
-					i(152933),	-- Shadowguard Void Effusion
-					i(147553),	-- Shard of Twisting Nether
-					i(147572),	-- Sigil of Ebon Frost
+					i(152934, { ["timeline"] = { ADDED_7_3_0 } }),	-- Shadow-Soaked Stalker Heart
+					i(152933, { ["timeline"] = { ADDED_7_3_0 } }),	-- Shadowguard Void Effusion
+					i(147553, { ["timeline"] = { ADDED_7_2_0 } }),	-- Shard of Twisting Nether
+					i(147572, { ["timeline"] = { ADDED_7_2_0 } }),	-- Sigil of Ebon Frost
+					i(147349, { ["timeline"] = { ADDED_7_2_0 } }),	-- Spiked Armor Set
 					i(140581),	-- Sturdy Hiking Boots
-					i(143850),	-- Summon Grimtotem Warrior (maybe put in Shaman class hall only)
+					i(143850, { ["timeline"] = { ADDED_7_2_0 } }),	-- Summon Grimtotem Warrior
 					i(139813),	-- Swift Boots
 					i(139841),	-- Totem of the Earth
 					i(139875),	-- Undead Token
 					i(139851),	-- Valarjar's Might
 					i(140583),	-- Vial of Timeless Breath
-					i(152930),	-- Vilefiend-Spine Whip
-					i(152935),	-- Wakener's Bauble
-					i(147559),	-- Ward of Infinite Fury
+					i(152930, { ["timeline"] = { ADDED_7_3_0 } }),	-- Vilefiend-Spine Whip
+					i(152440, { ["timeline"] = { ADDED_7_3_0 } }),	-- Void-Touched Arinor Blossom
+					i(152935, { ["timeline"] = { ADDED_7_3_0 } }),	-- Wakener's Bauble
+					i(147559, { ["timeline"] = { ADDED_7_2_0 } }),	-- Ward of Infinite Fury
 					i(139816),	-- Well-Worn Stone
-					i(152446),	-- Writ of Holy Orders
-					i(151844),	-- Xenedar Armor Set
-					i(152931),	-- Xenic Tincture
+					i(152446, { ["timeline"] = { ADDED_7_3_0 } }),	-- Writ of Holy Orders
+					i(151844, { ["timeline"] = { ADDED_7_3_0 } }),	-- Xenedar Armor Set
+					i(152931, { ["timeline"] = { ADDED_7_3_0 } }),	-- Xenic Tincture
 				}),
 				n(QUESTS, {
 					q(44057, {	-- A "Noble" Event

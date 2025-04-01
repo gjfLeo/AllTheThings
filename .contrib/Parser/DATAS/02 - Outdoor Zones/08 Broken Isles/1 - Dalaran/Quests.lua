@@ -644,6 +644,10 @@ root(ROOTS.Zones, {
 						{ "n", 115467 },	-- Archmage Kalec
 						{ "n", 105081 },	-- Archmage Kalec
 					},
+					["coords"] = {
+						{ 22.9, 41.1, LEGION_DALARAN },
+						{ 28.7, 49.9, LEGION_DALARAN },
+					},
 					["classes"] = { DEMONHUNTER },
 					["lvl"] = 110,
 				}),
@@ -1266,7 +1270,10 @@ root(ROOTS.Zones, {
 						{ "n", 90431 },		-- Archmage Ansirem Runeweaver
 						{ "n", 115466 },	-- Archmage Ansirem Runeweaver
 					},
-					["coord"] = { 28.5, 49.5, LEGION_DALARAN },
+					["coords"] = {
+						{ 22.5, 40.6, LEGION_DALARAN },
+						{ 28.5, 49.5, LEGION_DALARAN },
+					},
 					["classes"] = { DEMONHUNTER },
 					["lvl"] = 110,
 				}),

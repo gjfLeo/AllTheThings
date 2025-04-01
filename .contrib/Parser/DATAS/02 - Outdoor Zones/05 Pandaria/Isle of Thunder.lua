@@ -189,6 +189,7 @@ root(ROOTS.Zones, {
 										{ "n", 67992 },	-- Lady Jaina Proudmoore <Leader of the Kirin Tor>
 										{ "n", 70370 },	-- Lady Jaina Proudmoore <Leader of the Kirin Tor>
 									},
+									["coord"] = { 34.7, 89.5, ISLE_OF_THUNDER },
 								}),
 								q(32599, {    -- Securing A Future
 									["provider"] = { "n", 67992 },    -- Lady Jaina Proudmoore
@@ -201,8 +202,14 @@ root(ROOTS.Zones, {
 									["provider"] = { "n", 69678 },	-- Image of Archmage Vargoth
 									["coord"] = { 55.6, 74.4, ISLE_OF_THUNDER },
 								}),
-								q(32654),	-- Tear Down This Wall! (A)
-								q(32644),	-- The Assault on Shaol'mara
+								q(32654, {	-- Tear Down This Wall! (A)
+									["provider"] = { "n", 67992 },	-- Lady Jaina Proudmoore
+									["coord"] = { 63.3, 72.3, ISLE_OF_THUNDER },
+								}),
+								q(32644, {	-- The Assault on Shaol'mara
+									["provider"] = { "n", 67992 },	-- Lady Jaina Proudmoore
+									["coord"] = { 34.7, 89.5, ISLE_OF_THUNDER },
+								}),
 								q(32656),	-- The Fall of Shan Bu (A)
 								q(32652),	-- To the Skies! (A)
 							})),

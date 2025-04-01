@@ -35,8 +35,6 @@ i(180786);	-- Empty Binding
 -- Legion
 i(138293);	-- Explorer's Pack
 i(139398);	-- Pant Loaf
-i(147348);	-- Bulky Armor Set
-i(147349);	-- Spiked Armor Set
 i(151492);	-- Bronze Drake
 -- Legion Mission Table Items
 i(139845);	-- Band of Primordial Strength

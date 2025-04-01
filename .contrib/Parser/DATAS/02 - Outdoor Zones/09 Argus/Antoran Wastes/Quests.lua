@@ -17,12 +17,14 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			q(48605, {	-- Commander's Downfall
 				["sourceQuests"] = { 48513 },	-- Invasion Point Offensive
 				["qgs"] = {
+					126408,	-- Illidan Stormrage
 					127051,	-- Illidan Stormrage
 					127057,	-- Illidan Stormrage
 				},
 				["coords"] = {
-					{ 68.8, 25.9, ANTORAN_WASTES },
 					{ 31.4, 60.0, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
+					{ 39.1, 19.8, THE_VINDICAAR_KROKUUN_UPPER },
+					{ 68.8, 25.9, ANTORAN_WASTES },
 				},
 			}),
 			q(48448, {	-- Hindering the Legion War Machine

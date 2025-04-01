@@ -1388,6 +1388,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["timeline"] = { ADDED_6_0_2 },
 							["races"] = HORDE_ONLY,
+							["groups"] = { i(16114) },	-- Foreman's Backpack (QI!)
 						}),
 						q(25134, {	-- Lazy Peons (replaced by 37446)
 							["qg"] = 11378,	-- Foreman Thazz'ril

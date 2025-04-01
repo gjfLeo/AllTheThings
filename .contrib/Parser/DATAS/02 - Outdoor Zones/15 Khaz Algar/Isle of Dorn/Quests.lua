@@ -1200,10 +1200,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 35.8, 77.1, ISLE_OF_DORN },
 				["g"] = {
 					o(428167, {	-- Discarded Research Notes
-						i(216882),	-- Log Entry 467-21-5 (QI!)
+						["coord"] = { 35.8, 77.2, ISLE_OF_DORN },
+						["g"] = { i(216882) },	-- Log Entry 467-21-5 (QI!)
 					}),
 					o(428199, {	-- Discarded Research Notes
-						i(216888),	-- Log Entry 652-12-3 (QI!)
+						["coord"] = { 35.6, 77.1, ISLE_OF_DORN },
+						["g"] = { i(216888) },	-- Log Entry 652-12-3 (QI!)
 					}),
 					i(216889),	-- Log Entry 893-03-9 (QI!)
 				},

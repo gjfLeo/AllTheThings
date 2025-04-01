@@ -175,11 +175,12 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["coord"] = { 50.0, 18.1, EREDATH },
 			}),
 			q(48447, {	-- Shadowguard Dispersion
-				["provider"] = { "n", 121230 },	-- Alleria Windrunner
 				["sourceQuests"] = {
 					48446,	-- Relics of the Ancient Eredar
 					48654,	-- Beneath Oronaar
 				},
+				["provider"] = { "n", 121230 },	-- Alleria Windrunner
+				["coord"] = { 39.6, 26.1, THE_VINDICAAR_KROKUUN_UPPER },
 			}),
 			q(47217, {	-- Sources of Darkness
 				["sourceQuests"] = { 47203 },	-- Throwing Shade
