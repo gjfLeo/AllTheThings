@@ -589,7 +589,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(62377),	--
 				q(62381),	-- Encountered after swapping covenant to necrolord ??
 				q(62578),	--
-				q(62681),	-- Encountered after using Focused Life Anima to create Stabilizing Lens of the Focusing Iris (168622)
 				q(62687),	--
 				q(62690),	-- Encountered after using Focused Life Anima to create the final possible azerite power available from it (according to ATT), which was Fetish of the Hidden Labyrinths (Anima of Life and Death, Rank 3)?? Maybe new HQT for tracking?
 				q(60693),	--

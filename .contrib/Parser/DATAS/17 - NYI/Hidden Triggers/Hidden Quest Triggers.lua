@@ -717,6 +717,9 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(58528),	-- Burgeoning Void Droplet (Rank 2 Formless Void)
 		q(58529),	-- Volatile Void Droplet (Rank 3 Formless Void). Renders the texts unusable.
 
+		-- Azerite essences assembled with Focused Life Anima
+		q(62681),	-- Encountered after using Focused Life Anima to create Stabilizing Lens of the Focusing Iris (168622)
+
 		--	Patch 8.3
 		q(55349),	-- Triggered shortly after "Network Diagnostics"
 		q(56935),	-- Triggered shortly after "Network Diagnostics"
