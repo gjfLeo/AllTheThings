@@ -328,15 +328,9 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 				objective(1, {	-- 0/1 Kirtonos the Herald slain
 					["provider"] = { "n", 10506 },	-- Kirtonos the Herald
 				}),
-				i(15806, {	-- Mirah's Song
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				i(15805, {	-- Penelope's Rose
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
-				i(13544, {	-- Spectral Essence
-					["timeline"] = { REMOVED_4_0_3 },
-				}),
+				i(15806),	-- Mirah's Song
+				i(15805),	-- Penelope's Rose
+				i(13544),	-- Spectral Essence
 			},
 		}),
 		q(27147, {	-- Kirtonos the Herald [CATA]
