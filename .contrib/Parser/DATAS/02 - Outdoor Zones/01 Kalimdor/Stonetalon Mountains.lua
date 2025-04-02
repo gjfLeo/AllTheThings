@@ -3,11 +3,12 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(KALIMDOR, {
 	m(STONETALON_MOUNTAINS, {
-		-- #if AFTER CATA
-		["lore"] = "Stonetalon Mountains was heavily changed in the Shattering. Formerly a sleepy zone facing threats from the goblin loggers, it's now a fast-paced zone tracing a ticking time bomb headed towards a night elf camp by Stonetalon Peak.",
-		-- #else
-		["lore"] = "The Stonetalon Mountains are craggy and forbidding. The air is usually hot, though violent rainstorms and severe winds cool the slopes and endanger travelers. The mountains are home to many fierce creatures, including hippogryphs, harpies, drakes, wyverns and kobolds. This region is inhospitable and extreme.",
-		-- #endif
+		["lore"] =
+			-- #if AFTER CATA
+			"Stonetalon Mountains was heavily changed in the Shattering. Formerly a sleepy zone facing threats from the goblin loggers, it's now a fast-paced zone tracing a ticking time bomb headed towards a night elf camp by Stonetalon Peak.",
+			-- #else
+			"The Stonetalon Mountains are craggy and forbidding. The air is usually hot, though violent rainstorms and severe winds cool the slopes and endanger travelers. The mountains are home to many fierce creatures, including hippogryphs, harpies, drakes, wyverns and kobolds. This region is inhospitable and extreme.",
+			-- #endif
 		["icon"] = 236831,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
@@ -156,32 +157,36 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				fp(541, {	-- Mirkfallon Post, Stonetalon Mountains
 					["cr"] = 41240,	-- Fiora Moonsoar <Flight Master>
-					["coord"] = { 48.6, 51.6, STONETALON_MOUNTAINS },
+					["coord"] = { 48.6, 51.5, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(364, {	-- Northwatch Expedition Base Camp, Stonetalon Mountains
 					["cr"] = 35136,	-- Kaluna Songflight <Flight Master>
-					["coord"] = { 70.8, 80.4, STONETALON_MOUNTAINS },
+					["coord"] = { 70.9, 80.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(29, {	-- Sun Rock Retreat, Stonetalon Mountains
 					["cr"] = 4312,	-- Tharm <Wind Rider Master>
-					-- #if AFTER CATA
-					["coord"] = { 48.4, 62.0, STONETALON_MOUNTAINS },
-					-- #else
-					["coord"] = { 45.2, 59.8, STONETALON_MOUNTAINS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 48.4, 62.0, STONETALON_MOUNTAINS },
+						-- #else
+						{ 45.2, 59.8, STONETALON_MOUNTAINS },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 				}),
 				fp(33, {	-- Thal'darah Overlook, Stonetalon Mountains [CATA+] / Stonetalon Peak, Stonetalon Mountains
 					["cr"] = 4407,	-- Teloren <Hippogryph Master>
-					-- #if AFTER CATA
-					["coord"] = { 40.0, 32.0, STONETALON_MOUNTAINS },
-					-- #else
-					["coord"] = { 36.4, 7.2, STONETALON_MOUNTAINS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 40.1, 32.0, STONETALON_MOUNTAINS },
+						-- #else
+						{ 36.4, 7.2, STONETALON_MOUNTAINS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(540, {	-- The Sludgewerks, Stonetalon Mountains
@@ -283,14 +288,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						25809,	-- Leave No Man Behind
 						25811,	-- Shuttin Her Down
 					},
-					["coord"] = { 72.1, 75.9, STONETALON_MOUNTAINS },
+					["coord"] = { 72.1, 76.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(25852, {	-- All's Clear
 					["qg"] = 41229,	-- Force Commander Valen
 					["sourceQuest"] = 25851,	-- Dances with Grimtotem
-					["coord"] = { 71.0, 79.7, STONETALON_MOUNTAINS },
+					["coord"] = { 71.1, 79.7, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -361,7 +366,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25766, {	-- Arcane Legacy
 					["qg"] = 40899,	-- Arcanist Valdurian
 					["sourceQuest"] = 25669,	-- Rumble in the Lumber...Mill
-					["coord"] = { 58.6, 55.9, STONETALON_MOUNTAINS },
+					["coord"] = { 58.7, 56.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -377,7 +382,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25822, {	-- Armaments for War
 					["qg"] = 41229,	-- Force Commander Valen
 					["sourceQuest"] = 25845,	-- Terms of Service
-					["coord"] = { 71.0, 79.7, STONETALON_MOUNTAINS },
+					["coord"] = { 71.1, 79.7, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -406,7 +411,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25930, {	-- Ascending the Vale
 					["qg"] = 41487,	-- Hierophant Malyk
 					["sourceQuest"] = 25925,	-- Thal'darah's Vengeance
-					["coord"] = { 33.1, 59.5, STONETALON_MOUNTAINS },
+					["coord"] = { 33.1, 59.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -630,7 +635,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25768, {	-- Bombs Away: Mirkfallon Post!
 					["qg"] = 40896,	-- Lord Fallowmere
 					["sourceQuest"] = 25769,	-- Fallowmere Beckons
-					["coord"] = { 59.5, 56.8, STONETALON_MOUNTAINS },
+					["coord"] = { 59.6, 56.9, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -676,8 +681,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25931, {	-- Brood of Seldarria
 					["qg"] = 41487,	-- Hierophant Malyk
+					["description"] = "If you abandon this quest, you can pick it up again at Hierophant Malyk at Farwatcher's Glen.",
 					["sourceQuest"] = 25930,	-- Ascending the Vale
-					["coord"] = { 30.6, 70.4, STONETALON_MOUNTAINS },
+					["coord"] = { 33.1, 59.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -743,7 +749,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25767, {	-- Capturing Memories
 					["qg"] = 40900,	-- Neophyte Starcrest
 					["sourceQuest"] = 25669,	-- Rumble in the Lumber...Mill
-					["coord"] = { 58.6, 55.9, STONETALON_MOUNTAINS },
+					["coord"] = { 58.7, 56.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -779,7 +785,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25652, {	-- Commandeer That Balloon!
 					["qg"] = 40879,	-- Boog the "Gear Whisperer"
 					["sourceQuest"] = 25650,	-- Orders from High Command
-					["coord"] = { 72.5, 61.4, STONETALON_MOUNTAINS },
+					["coord"] = { 72.5, 61.5, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -907,7 +913,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25851, {	-- Dances with Grimtotem
 					["qg"] = 11858,	-- Grundig Darkcloud
 					["sourceQuest"] = 25848,	-- Downfall
-					["coord"] = { 72.2, 83.7, STONETALON_MOUNTAINS },
+					["coord"] = { 72.3, 83.8, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -931,14 +937,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25834, {	-- Death by Proxy
 					["qg"] = 41229,	-- Force Commander Valen
 					["sourceQuest"] = 25821,	-- A Special Kind of Job
-					["coord"] = { 71.0, 79.7, STONETALON_MOUNTAINS },
+					["coord"] = { 71.1, 79.7, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(25642, {	-- Don't Look Them in the Eyes
 					["qg"] = 40879,	-- Boog the "Gear Whisperer"
 					["sourceQuest"] = 25640,	-- Bombs Away: Windshear Mine!
-					["coord"] = { 72.5, 61.4, STONETALON_MOUNTAINS },
+					["coord"] = { 72.5, 61.5, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -955,7 +961,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25848, {	-- Downfall
 					["qg"] = 11858,	-- Grundig Darkcloud
 					["sourceQuest"] = 25847,	-- Grimtotem Supremacy
-					["coord"] = { 72.2, 83.7, STONETALON_MOUNTAINS },
+					["coord"] = { 72.3, 83.8, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -986,7 +992,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i",  55227 },	-- BD-816 War Apparatus
 								{ "o", 203088 },	-- BD-816 War Apparatus
 							},
-							["coord"] = { 63.1, 45.7, STONETALON_MOUNTAINS },
+							["coord"] = { 63.1, 45.6, STONETALON_MOUNTAINS },
 						}),
 						objective(2, {	-- 0/1 Mechanized Fire
 							["providers"] = {
@@ -1096,7 +1102,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						25766,	-- Arcane Legacy
 						25767,	-- Capturing Memories
 					},
-					["coord"] = { 58.6, 55.9, STONETALON_MOUNTAINS },
+					["coord"] = { 58.7, 56.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1131,7 +1137,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25662, {	-- Free Our Sisters
 					["qg"] = 40896,	-- Lord Fallowmere
 					["sourceQuest"] = 25652,	-- Commandeer That Balloon!
-					["coord"] = { 59.5, 56.8, STONETALON_MOUNTAINS },
+					["coord"] = { 59.6, 56.9, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1141,7 +1147,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "o", 203148 },	-- Horde Cage
 								{ "i",  55200 },	-- Horde Cage Key
 							},
-							["coord"] = { 64.1, 66.7, STONETALON_MOUNTAINS },
 							["cr"] = 41062,	-- Krom'gar Infantry
 						}),
 					},
@@ -1207,7 +1212,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25875, {	-- Gnome on the Inside
 					["qg"] = 41233,	-- Scout Commander Barus
 					["sourceQuest"] = 25768,	-- Bombs Away: Mirkfallon Post!
-					["coord"] = { 48.3, 51.8, STONETALON_MOUNTAINS },
+					["coord"] = { 48.3, 51.9, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1246,7 +1251,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25847, {	-- Grimtotem Supremacy
 					["qg"] = 11858,	-- Grundig Darkcloud
 					["sourceQuest"] = 25846,	-- Grundig Darkcloud, Chieftain of the Grimtotem
-					["coord"] = { 72.2, 83.7, STONETALON_MOUNTAINS },
+					["coord"] = { 72.3, 83.8, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1264,7 +1269,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 56061 },	-- Alliance Weapon Crates
 					},
 					["sourceQuest"] = 25822,	-- Armaments for War
-					["coord"] = { 71.0, 79.7, STONETALON_MOUNTAINS },
+					["coord"] = { 71.1, 79.7, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1295,14 +1300,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 24. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 28 (TODO: Test max level between 27 and 35)
+					-- Cataclysm: Maximum is level 28. (TODO: Test max level between 27 and 35)
 					["lvl"] = { 24, 28 },
 					-- #endif
 				})),
 				q(25935, {	-- Hungry Pups
-					["qg"] = 41638,	-- Houndmaster Jonathan
+					["qg"] = 41638,	-- Houndmaster Jonathan (mobileNPC)
+					["description"] = "Houndmaster Jonathan walks his restless, hungry pups, around the tree.",
 					["sourceQuest"] = 25925,	-- Thal'darah's Vengeance
-					["coord"] = { 32.3, 60.4, STONETALON_MOUNTAINS },
+					["coords"] = {
+						{ 33.2, 59.5, STONETALON_MOUNTAINS },
+						{ 33.0, 60.8, STONETALON_MOUNTAINS },
+						{ 32.2, 60.9, STONETALON_MOUNTAINS },
+						{ 32.3, 60.1, STONETALON_MOUNTAINS },
+						{ 32.8, 59.6, STONETALON_MOUNTAINS },
+					},
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1331,7 +1343,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25739, {	-- If the Horde Don't Get You...
 					["qg"] = 40897,	-- Northwatch Captain Kosak
 					["sourceQuest"] = 25669,	-- Rumble in the Lumber...Mill
-					["coord"] = { 59.4, 56.8, STONETALON_MOUNTAINS },
+					["coord"] = { 59.5, 57.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1344,6 +1356,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25647, {	-- Illegible Orc Letter
 					["provider"] = { "i", 55181 },	-- Illegible Orc Letter
 					["sourceQuest"] = 25640,	-- Bombs Away: Windshear Mine
+					["coord"] = { 72.3, 61.7, STONETALON_MOUNTAINS },
 					["crs"] = { 40905 },	-- Windshear Overseer
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -1380,7 +1393,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25808, {	-- Is This Thing On?
 					["qg"] = 41277,	-- Lieutenant Paulson
+					["description"] = "If you abandon this quest, you can pick it up again at Lieutenant Paulson at the barricade near the entrance of The Deep Reaches.",
 					["sourceQuest"] = 25806,	-- They Put the Assass in... Never Mind
+					["coord"] = { 72.1, 76.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1407,7 +1422,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25876, {	-- It's Up There!
 					["qg"] = 41434,	-- "Goblin" Pump Controller
 					["sourceQuest"] = 25875,	-- Gnome on the Inside
-					["coord"] = { 53.6, 42.3, STONETALON_MOUNTAINS },
+					["coord"] = { 53.7, 42.4, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1499,7 +1514,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i",  55222 },	-- Mechanized Ice
 								{ "o", 203176 },	-- Mechanized Ice
 							},
-							["coord"] = { 66.1, 50.0, STONETALON_MOUNTAINS },
+							["coord"] = { 66.2, 50.0, STONETALON_MOUNTAINS },
 						}),
 						objective(4, {	-- 0/1 Mechanized Air
 							["providers"] = {
@@ -1597,14 +1612,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25891, {	-- Last Ditch Effort
 					["qg"] = 41482,	-- Master Thal'darah
 					["sourceQuest"] = 25889,	-- Save the Children!
-					["coord"] = { 39.9, 33.5, STONETALON_MOUNTAINS },
+					["coord"] = { 40.0, 33.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(25809, {	-- Leave No Man Behind!
 					["qg"] = 41282,	-- Corporal Wocard
 					["sourceQuest"] = 25793,	-- The Deep Reaches
-					["coord"] = { 72.0, 75.9, STONETALON_MOUNTAINS },
+					["coord"] = { 72.1, 76.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1648,7 +1663,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 67437 },	-- Illegible Orc Letter
 					},
 					["sourceQuest"] = 25647,	-- Illegible Orc Letter
-					["coord"] = { 72.5, 61.4, STONETALON_MOUNTAINS },
+					["coord"] = { 72.5, 61.5, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1719,7 +1734,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25877, {	-- No Time for Goodbyes!
 					["qg"] = 41434,	-- "Goblin" Pump Controller
 					["sourceQuest"] = 25876,	-- It's Up There!
-					["coord"] = { 53.6, 42.3, STONETALON_MOUNTAINS },
+					["coord"] = { 53.7, 42.4, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1788,7 +1803,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 55182 },	-- Translated Orc Letter
 					},
 					["sourceQuest"] = 25649,	-- Minx'll Fix It
-					["coord"] = { 70.7, 63.0, STONETALON_MOUNTAINS },
+					["coord"] = { 70.8, 63.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1981,7 +1996,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "o", 203171 },	-- Huntress Illiona's Cage
 								{ "i",  55213 },	-- Huntress Illiona's Cage Key
 							},
-							["coord"] = { 66.2, 54.6, STONETALON_MOUNTAINS },
+							["coord"] = { 66.2, 54.5, STONETALON_MOUNTAINS },
 							["cr"] = 41063,	-- Warlord Roktrog
 						}),
 						i(57432, {	-- Thwarter's Boots
@@ -2011,7 +2026,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25889, {	-- Save the Children!
 					["qg"] = 41482,	-- Master Thal'darah
 					["sourceQuest"] = 25880,	-- Warn Master Thal'darah
-					["coord"] = { 39.9, 33.5, STONETALON_MOUNTAINS },
+					["coord"] = { 40.0, 33.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2038,7 +2053,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25878, {	-- Schemin' That Sabotage
 					["qg"] = 41441,	-- Scout Mistress Yvonia
 					["sourceQuest"] = 25768,	-- Bombs Away: Mirkfallon Post!
-					["coord"] = { 48.4, 51.8, STONETALON_MOUNTAINS },
+					["coord"] = { 48.4, 52.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2163,19 +2178,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = {
 						objective(1, {	-- Plant Explosives at First Beam
 							["provider"] = { "i", 56018 },	-- Dynamite Bundle
-							["coord"] = { 70, 75, STONETALON_MOUNTAINS },
+							["coord"] = { 70.7, 76.0, STONETALON_MOUNTAINS },
 						}),
 						objective(2, {	-- Plant Explosives at Second Beam
 							["provider"] = { "i", 56018 },	-- Dynamite Bundle
-							["coord"] = { 69, 75, STONETALON_MOUNTAINS },
+							["coord"] = { 69.7, 75.2, STONETALON_MOUNTAINS },
 						}),
 						objective(3, {	-- Plant Explosives at Third Beam
 							["provider"] = { "i", 56018 },	-- Dynamite Bundle
-							["coord"] = { 68, 72, STONETALON_MOUNTAINS },
+							["coord"] = { 68.7, 71.3, STONETALON_MOUNTAINS },
 						}),
 						objective(4, {	-- Plant Explosives at Fourth Beam
 							["provider"] = { "i", 56018 },	-- Dynamite Bundle
-							["coord"] = { 68, 71, STONETALON_MOUNTAINS },
+							["coord"] = { 68.5, 72.6, STONETALON_MOUNTAINS },
 						}),
 						i(57443, {	-- Deep Reach Helm
 							["timeline"] = { ADDED_4_0_3 },
@@ -2269,7 +2284,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25765, {	-- Tell 'Em Koko Sent You
 					["qg"] = 40897,	-- Northwatch Captain Kosak
 					["sourceQuest"] = 25739,	-- If the Horde Don't Get You...
-					["coord"] = { 59.4, 56.8, STONETALON_MOUNTAINS },
+					["coord"] = { 59.5, 57.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2279,14 +2294,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "i", 56060 },	-- Grimtotem Terms of Service
 					},
 					["sourceQuest"] = 25844,	-- Sating the Savage Beast
-					["coord"] = { 72.6, 81.0, STONETALON_MOUNTAINS },
+					["coord"] = { 72.7, 81.1, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(25925, {	-- Thal'darah's Vengeance
 					["qg"] = 41482,	-- Master Thal'darah
 					["sourceQuest"] = 25891,	-- Last Ditch Effort
-					["coord"] = { 39.9, 33.5, STONETALON_MOUNTAINS },
+					["coord"] = { 40.0, 33.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2307,7 +2322,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25793, {	-- The Deep Reaches
 					["qg"] = 41229,	-- Force Commander Valen
 					["sourceQuest"] = 25765,	-- Tell 'Em Koko Sent You
-					["coord"] = { 71.0, 79.7, STONETALON_MOUNTAINS },
+					["coord"] = { 71.1, 79.7, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2380,7 +2395,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25879, {	-- The Lumbering Oaf Problem
 					["qg"] = 41441,	-- Scout Mistress Yvonia
 					["sourceQuest"] = 25768,	-- Bombs Away: Mirkfallon Post!
-					["coord"] = { 48.4, 51.8, STONETALON_MOUNTAINS },
+					["coord"] = { 48.4, 52.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2460,7 +2475,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25823, {	-- The Unrelenting Horde
 					["qg"] = 41229,	-- Force Commander Valen
 					["sourceQuest"] = 25845,	-- Terms of Service
-					["coord"] = { 71.0, 79.7, STONETALON_MOUNTAINS },
+					["coord"] = { 71.1, 79.7, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2482,7 +2497,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25806, {	-- They Put the Assass in... Never Mind
 					["qg"] = 41277,	-- Lieutenant Paulson
 					["sourceQuest"] = 25793,	-- The Deep Reaches
-					["coord"] = { 72.0, 75.9, STONETALON_MOUNTAINS },
+					["coord"] = { 72.1, 76.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2497,9 +2512,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25671, {	-- Thinning the Horde
 					["qg"] = 40896,	-- Lord Fallowmere
 					["sourceQuest"] = 25652,	-- Commandeer That Ballon!
-					["coord"] = { 59.5, 56.8, STONETALON_MOUNTAINS },
+					["coord"] = { 59.6, 56.9, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
+					-- #if BEFORE 9.0.1
 					["description"] = "This quest cannot be completed after level 30, after reaching Exalted with Darnassus, or after finishing the Stonetalon Mountains questline.",
+					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 					["groups"] = {
@@ -2597,7 +2614,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25880, {	-- Warn Master Thal'darah
 					["qg"] = 41233,	-- Scout Commander Barus
 					["sourceQuest"] = 25877,	-- No Time for Goodbyes!
-					["coord"] = { 48.4, 51.8, STONETALON_MOUNTAINS },
+					["coord"] = { 48.3, 51.9, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2638,7 +2655,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25646, {	-- Windshear Mine Cleanup
 					["qg"] = 40973,	-- Sentinal Heliana
 					["sourceQuest"] = 25640,	-- Bombs Away: Windshear Mine
-					["coord"] = { 72.5, 61.4, STONETALON_MOUNTAINS },
+					["coord"] = { 72.5, 61.5, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2665,7 +2682,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25934, {	-- World First: Gnomegen
 					["qg"] = 41664,	-- Salsbury the "Help"
 					["sourceQuest"] = 25925,	-- Thal'darah's Vengeance
-					["coord"] = { 33.1, 59.5, STONETALON_MOUNTAINS },
+					["coord"] = { 33.1, 59.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2740,11 +2757,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_5_2_0 },
 				}),
 				n(5915, {	-- Brother Ravenoak
-					-- #if AFTER CATA
-					["coord"] = { 41.8, 19.0, STONETALON_MOUNTAINS },
-					-- #else
-					["coord"] = { 28.2, 12.8, STONETALON_MOUNTAINS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 41.8, 19.0, STONETALON_MOUNTAINS },
+						-- #else
+						{ 28.2, 12.8, STONETALON_MOUNTAINS },
+						-- #endif
+					},
 				}),
 				n(50884, {	-- Dustflight the Cowardly
 					["coord"] = { 44.8, 55.8, STONETALON_MOUNTAINS },
@@ -2775,32 +2794,38 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_5_1_0 },
 				}),
 				n(4066, {	-- Nal'taszar
-					-- #if AFTER CATA
-					["coord"] = { 48.6, 73.2, STONETALON_MOUNTAINS },
-					-- #else
-					["coord"] = { 25.6, 12.6, STONETALON_MOUNTAINS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 48.6, 73.2, STONETALON_MOUNTAINS },
+						-- #else
+						{ 25.6, 12.6, STONETALON_MOUNTAINS },
+						-- #endif
+					},
 				}),
 				n(4015, {	-- Pridewing Patriarch
-					-- #if AFTER 7.2.0
-					["description"] = "Can spawn after killing any Pridewing Beasts. Warning: This mob scales with character level up to level cap!",
-					["coord"] = { 55.6, 44.8, STONETALON_MOUNTAINS },
-					-- #elseif BEFORE 4.0.3
-					["description"] = "Can spawn after killing any Pridewing Beasts.",
+					["description"] =
+						-- #if AFTER 7.2.0
+						"Can spawn after killing any Pridewing Beasts.\n|cffe50d12Warning|r: This mob scales with character level up to level cap!",
+						-- #else
+						"Can spawn after killing any Pridewing Beasts.",
+						-- #endif
 					["coords"] = {
+						-- #if AFTER 7.2.0
+						{ 55.6, 44.8, STONETALON_MOUNTAINS },
+						-- #else
 						{ 45.2, 39.2, STONETALON_MOUNTAINS },
 						{ 44.8, 45.6, STONETALON_MOUNTAINS },
 						{ 48.8, 48.0, STONETALON_MOUNTAINS },
 						{ 54.8, 38.0, STONETALON_MOUNTAINS },
+						-- #endif
 					},
-					-- #endif
 					["timeline"] = { REMOVED_4_0_3, ADDED_7_2_0 },
 					["groups"] = {
 						i(5751, {	-- Webwing Cloak
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 						i(5752, {	-- Wyvern Tailspike
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 11.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 					},
 				}),
@@ -2834,47 +2859,45 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				n(5930, {	-- Sister Riven
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 40.4, 70.8, STONETALON_MOUNTAINS },
 						{ 40.4, 71.6, STONETALON_MOUNTAINS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 36.8, 68.8, STONETALON_MOUNTAINS },
 						{ 29.2, 67.0, STONETALON_MOUNTAINS },
 						{ 29.0, 73.6, STONETALON_MOUNTAINS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(5928, {	-- Sorrow Wing
-					-- #if AFTER CATA
-					["coord"] = { 50.2, 41.2, STONETALON_MOUNTAINS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 50.2, 41.2, STONETALON_MOUNTAINS },
+						-- #else
 						{ 46.8, 30.4, STONETALON_MOUNTAINS },
 						{ 45.8, 38.8, STONETALON_MOUNTAINS },
 						{ 49.6, 35.6, STONETALON_MOUNTAINS },
 						{ 51.6, 36.8, STONETALON_MOUNTAINS },
 						{ 51.4, 40.6, STONETALON_MOUNTAINS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(50786, {	-- Sparkwing
 					["coord"] = { 58.8, 86.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_5_2_0 },
 				}),
 				n(5932, {	-- Taskmaster Whipfang
-					-- #if AFTER CATA
-					["coord"] = { 64.6, 45.6, STONETALON_MOUNTAINS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 64.6, 45.6, STONETALON_MOUNTAINS },
+						-- #else
 						{ 64.8, 49.2, STONETALON_MOUNTAINS },
 						{ 60.4, 51.4, STONETALON_MOUNTAINS },
 						{ 63.0, 54.4, STONETALON_MOUNTAINS },
 						{ 64.2, 57.0, STONETALON_MOUNTAINS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(50874, {	-- Tenok
 					["coord"] = { 44.4, 49.2, STONETALON_MOUNTAINS },
@@ -2905,11 +2928,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			-- #endif
 			n(VENDORS, {
 				n(9549, {	-- Borand <Bowyer>
-					-- #if AFTER CATA
-					["coord"] = { 48.6, 61.4, STONETALON_MOUNTAINS },
-					-- #else
-					["coord"] = { 45.2, 59.2, STONETALON_MOUNTAINS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 48.6, 61.4, STONETALON_MOUNTAINS },
+						-- #else
+						{ 45.2, 59.2, STONETALON_MOUNTAINS },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(11304, {	-- Fine Longbow
@@ -2918,11 +2943,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(4083, {	-- Jeeda <Apprentice Witch Doctor>
-					-- #if AFTER CATA
-					["coord"] = { 50.4, 63.4, STONETALON_MOUNTAINS },
-					-- #else
-					["coord"] = { 47.6, 61.6, STONETALON_MOUNTAINS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 50.4, 63.4, STONETALON_MOUNTAINS },
+						-- #else
+						{ 47.6, 61.6, STONETALON_MOUNTAINS },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(6055, {	-- Recipe: Fire Protection Potion (RECIPE!)
@@ -2931,11 +2958,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(12043, {	-- Kulwia <Trade Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 48.6, 61.6, STONETALON_MOUNTAINS },
-					-- #else
-					["coord"] = { 45.4, 59.4, STONETALON_MOUNTAINS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 48.6, 61.6, STONETALON_MOUNTAINS },
+						-- #else
+						{ 45.4, 59.4, STONETALON_MOUNTAINS },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(11101, {	-- Formula: Enchant Bracer - Lesser Strength (RECIPE!)

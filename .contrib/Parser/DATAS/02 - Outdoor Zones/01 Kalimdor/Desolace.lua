@@ -1105,7 +1105,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25938, {	-- Help for Desolace
 					["qg"] = 41487,	-- Hierophant Malyk
-					["coord"] = { 33.0, 59.6, STONETALON_MOUNTAINS },
+					["coord"] = { 33.1, 59.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
