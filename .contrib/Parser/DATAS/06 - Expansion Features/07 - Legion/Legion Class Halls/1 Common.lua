@@ -1087,26 +1087,39 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(139802),	-- Auspicious Fetish
 					i(139873),	-- Bottled Sanity
 					i(140582),	-- Bottomless Flask
+					i(139827),	-- Brooch of Endless Dreams
 					i(147348, { ["timeline"] = { ADDED_7_2_0 } }),	-- Bulky Armor Set
 					i(139814),	-- Carrot on a Stick
+					i(147556, { ["timeline"] = { ADDED_7_2_0 } }),	-- Cloak of Concealment
 					i(139808),	-- Cuiro of Abundant Happiness
 					i(139877),	-- Death's Touch
+					i(139830),	-- Demon in a Box
 					i(139795),	-- Draught of Courage
+					i(139822),	-- Dust of Azeroth
 					i(139809),	-- Elixir of Plenty
+					i(139826),	-- Eltrig's Grace
+					i(139819),	-- Embers of the Firelands
 					i(151843, { ["timeline"] = { ADDED_7_3_0 } }),	-- Eredath Armor Set
 					i(152444, { ["timeline"] = { ADDED_7_3_0 } }),	-- Exalted Xenedar Hammer
+					i(147557, { ["timeline"] = { ADDED_7_2_0 } }),	-- Fel Imp Tooth
 					i(139792),	-- Fruitful Bauble
+					i(139804),	-- Glacial Fang
 					i(139419),	-- Golden Banana
 					i(147554, { ["timeline"] = { ADDED_7_2_0 } }),	-- Harpy Feather
 					i(152438, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Sledgehammer
+					i(13982),	-- Light's Haven
 					i(152447, { ["timeline"] = { ADDED_7_3_0 } }),	-- Lightburst Charge
 					i(139801),	-- Lucky Doodad
 					i(139811),	-- Necklace of Endless Memories
+					i(139823),	-- Nightmare's End
+					i(139821),	-- Omen's Bidding
 					i(139799),	-- Pathfinder's Saddle
 					i(152439, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pit Lord Tusk
+					i(139829),	-- Potion of Sacrifice
 					i(139812),	-- Potion of Triton
 					i(147558, { ["timeline"] = { ADDED_7_2_0 } }),	-- Pouch of Wonder
 					i(152929, { ["timeline"] = { ADDED_7_3_0 } }),	-- Pronged Ridgestalker Spear
+					i(139828),	-- Queen's Feathers
 					i(139878),	-- Relic of the Ebon Blade
 					i(139876),	-- Rune of Reckoning
 					i(152441, { ["timeline"] = { ADDED_7_3_0 } }),	-- Satchel of Lucidity
@@ -1119,9 +1132,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(140581),	-- Sturdy Hiking Boots
 					i(143850, { ["timeline"] = { ADDED_7_2_0 } }),	-- Summon Grimtotem Warrior
 					i(139813),	-- Swift Boots
+					i(139825),	-- Tome of Secrets
 					i(139841),	-- Totem of the Earth
 					i(139875),	-- Undead Token
 					i(139851),	-- Valarjar's Might
+					i(147555, { ["timeline"] = { ADDED_7_2_0 } }),	-- Vial of Sight
 					i(140583),	-- Vial of Timeless Breath
 					i(152930, { ["timeline"] = { ADDED_7_3_0 } }),	-- Vilefiend-Spine Whip
 					i(152440, { ["timeline"] = { ADDED_7_3_0 } }),	-- Void-Touched Arinor Blossom

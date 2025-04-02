@@ -132,13 +132,13 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
-		-- Future trading post quests - unknown timeline
-		--[[
 		q(81718, {	-- Report to the Trading Post -- April 2025
-			["timeline"] = { TODO },
+			["timeline"] = { ADDED_11_1_0 },
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
+		-- Future trading post quests - unknown timeline
+		--[[
 		q(81719, {	-- Report to the Trading Post -- May 2025
 			["timeline"] = { TODO },
 			["isYearly"] = true,
@@ -2857,7 +2857,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			})
 		})),
-		n(MARCH, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.59466", "removed 11.1.0.60037" } }, {	
+		n(MARCH, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.59466", "removed 11.1.0.60037" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(235217),	-- Ensemble: Ornaments of the Pearlescent Monarch
 			}),
@@ -3032,7 +3032,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(212787, {	-- Gloves of the Violet Gala
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
-				i(233102, {	-- Long Camo War Skirt 
+				i(233102, {	-- Long Camo War Skirt
 					["cost"] = {{"c", TRADERS_TENDER, 40}},
 				}),
 				i(233141, {	-- Long Camo War Skirt and Leg Wraps
