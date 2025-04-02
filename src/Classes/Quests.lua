@@ -94,6 +94,10 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 		QuestNameDefault[questID] = nil
 	end
 
+	-- ATT is hooked into the QUEST_DATA_LOAD_RESULT event, and some addons LOVE to request the existing quest data a bazillion times
+	-- we can try our best to ignore IDs which we've already successfully acquired a valid server name
+	local ValidQuestDataLoads = {}
+
 	-- Checks if we need to request Quest data from the Server, and returns whether the request is pending
 	-- Passing in the data(table) will cause the data to have quest rewards populated once the data is retrieved
 	-- Passing in a Callback Function for when the questID is returned from Server
@@ -116,7 +120,13 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 			end
 		end
 
-		Runner.Run(C_QuestLog_RequestLoadQuestByID, questID);
+		if ValidQuestDataLoads[questID] then
+			-- since ATT is specifically requesting a questID, we will make sure not to ignore it in the event handler
+			ValidQuestDataLoads[questID] = nil
+			C_QuestLog_RequestLoadQuestByID(questID)
+		else
+			Runner.Run(C_QuestLog_RequestLoadQuestByID, questID)
+		end
 	end
 	if app.Debugging then
 		app.RequestLoadQuestByID = RequestLoadQuestByID
@@ -124,6 +134,7 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 
 	-- This event seems to fire synchronously from C_QuestLog.RequestLoadQuestByID if we already have the data
 	app:RegisterFuncEvent("QUEST_DATA_LOAD_RESULT", function(questID, success)
+		if ValidQuestDataLoads[questID] then return end
 		-- app.PrintDebug("QUEST_DATA_LOAD_RESULT",questID,success)
 		QuestsRequested[questID] = nil;
 
@@ -135,6 +146,7 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 				app.PrintDebug("Fresh Quest Name!",questID,QuestNameFromServer[questID])
 				app.CallbackEvent("OnRenderDirty")
 			end
+			ValidQuestDataLoads[questID] = true
 		else
 			-- this quest name cannot be populated by the server
 			-- app.PrintDebug("No Server QuestData",questID)
@@ -262,7 +274,8 @@ local function PrintQuestInfoCallback(questID, success, params)
 		if ref then
 			if IsRetrieving(ref.name) then
 				ref._questnameretry = (ref._questnameretry or 0) + 1
-				if ref._questnameretry < 20 then
+				-- TODO: maybe switch to a timer cut-off instead of a bunch of increment checks...
+				if ref._questnameretry < 40 then
 					-- app.PrintDebug("Retry for quest name from ref",app:SearchLink(ref),ref._questnameretry,questID)
 					Runner.Run(PrintQuestInfoCallback, questID, success, params)
 					return
