@@ -380,7 +380,7 @@ do
 				local parent = t.parent
 				if parent then
 					local parentKey = parent.key
-					if parentKey and app.ThingKeys[parentKey] and parentKey ~= "achievementID" then
+					if parentKey and app.ThingKeys[parentKey] and (parentKey ~= "achievementID" or parent[parentKey] ~= achievementID) then
 						name = parent.name
 						if not IsRetrieving(name) and not name:find("Quest #") then return name; end
 					end
