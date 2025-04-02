@@ -303,22 +303,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 		}),
 		n(TREASURES, {
 			o(433370,{	-- War Supply Chest
-				i(225452),    -- Pattern Algari Competitors Chain Chainmail
-				i(225453),    -- Pattern Algari Competitors Chain Cowl
-				i(225458),    -- Pattern Algari Competitors Chain Cuffs
-				i(225457),    -- Pattern Algari Competitors Chain Gauntlets
-				i(225455),    -- Pattern Algari Competitors Chain Girdle
-				i(225456),    -- Pattern Algari Competitors Chain Leggings
-				i(225437),    -- Pattern Algari Competitors Cloth Bands
-				i(225439),    -- Pattern Algari Competitors Cloth Gloves
-				i(225438),    -- Pattern Algari Competitors Cloth Hood
-				i(225434),    -- Pattern Algari Competitors Cloth Leggings
-				i(225435),    -- Pattern Algari Competitors Cloth Shoulderpads
-				i(225436),    -- Pattern Algari Competitors Cloth Treads
-				i(225440),    -- Pattern Algari Competitors Cloth Tunic
-				i(225449),    -- Pattern Algari Competitors Leather Gloves
-				i(225446),    -- Pattern Algari Competitors Leather Shoulderpads
-				i(225448),    -- Pattern Algari Competitors Leather Trousers
+				["sym"] = {{"select","itemID",224556},{"pop"}},	-- Glorious Contender's Strongbox
 			}),
 		}),
 		n(REWARDS, {
