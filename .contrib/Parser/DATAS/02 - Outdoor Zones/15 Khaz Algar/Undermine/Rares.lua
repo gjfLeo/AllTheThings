@@ -195,6 +195,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(234480, {	-- M.A.G.N.O. (Aurumensis)
 				["description"] = "Can be summoned by anyone who has a contract with the Bilgewater Cartel.",
 				["coord"] = { 36.7, 26.3, UNDERMINE },
+				["crs"] = {
+					234819,	-- Magno-Scrapper 9000
+				},
 				["questID"] = 86298,
 				["isWeekly"] = true,
 				["g"] = {
