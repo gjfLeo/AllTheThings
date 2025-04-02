@@ -299,7 +299,7 @@ local function BroadcastMessage(detail, msg)
 		for guid,character in pairs(CharacterData) do
 			local name = character.name;
 			if name and character.realm == CurrentCharacter.realm then characterByInfo[name] = character; end
-			SilentlyLinkedCharacters[character.guid] = true;
+			SilentlyLinkedCharacters[guid] = true;
 			characterByInfo[guid] = character;
 		end
 		
