@@ -5389,10 +5389,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 							i(127320, {	-- Mo'gruth's Discarded Parade Helm
 								["cost"] = {{ "c", TIMEWARPED_BADGE, 25 }},
 							}),
-							i(234862, {	-- Ogre Captains Armor
-								["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
-								["timeline"] = { ADDED_11_0_7 },
-							}),
 						}),
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
@@ -5530,10 +5526,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 							}),
 							i(127320, {	-- Mo'gruth's Discarded Parade Helm
 								["cost"] = {{ "c", TIMEWARPED_BADGE, 25 }},
-							}),
-							i(234862, {	-- Ogre Captains Armor
-								["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
-								["timeline"] = { ADDED_11_0_7 },
 							}),
 						}),
 					}),

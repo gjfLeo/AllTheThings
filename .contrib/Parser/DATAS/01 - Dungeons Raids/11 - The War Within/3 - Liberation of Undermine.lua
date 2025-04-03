@@ -444,6 +444,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						["minReputation"] = { FACTION_GLRC, 4 },
 						["g"] = { i(234389) },	-- Gallagio Loyalty Rewards Card: Silver
 					}),
+					q(89252, {	-- Need a Jump?
+						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
+						["minReputation"] = { FACTION_GLRC, 6 },
+					}),
+					q(89024, {	-- Time is Money!
+						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
+						["minReputation"] = { FACTION_GLRC, 6 },
+					}),
 				}),
 				n(TREASURES, {
 					o(505248, {	-- Rune Dispenser
