@@ -240,6 +240,12 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							144249,	-- Omega Buster
 						},
 						["g"] = {
+							-- TODO: Currently a mass but just trying to get all item sourceids listed for now, split off into categories and timeline eventually
+							-- Veteran Track, modID 67, shared sourceIDs with Champion
+							-- Champion Track
+							-- Hero Track
+							i(235810, {["modID"] = 16 }),	-- Circuit-Linked Chainmail
+							--
 							i(235222),	-- Apogee Inventor's Goggles
 							i(235810),	-- Circuit-Linked Chainmail
 							i(235811),	-- Extravagant Epaulets

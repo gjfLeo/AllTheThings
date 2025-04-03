@@ -201,7 +201,17 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						132713,	-- Mogul Razdunk
 					},
 					["g"] = {
-						i(235416),	-- Crashguard Spaulders
+						-- TODO: Currently a mass but just trying to get all item sourceids listed for now, split off into categories and timeline eventually
+						-- Veteran Track, modID 67, shared sourceIDs with Champion
+						-- Champion Track
+						i(235419, {["modID"] = 23 }),	-- High Altitude Turban
+						i(235415, {["modID"] = 23 }),	-- Skyscorcher Pauldrons
+						i(235417, {["modID"] = 23 }),	-- Venture Co. Plenipotentiary Vest
+						-- Hero Track
+						i(235416, {["modID"] = 16 }),	-- Crashguard Spaulders
+						i(235420, {["modID"] = 16 }),	-- Petticoat of the Self-Stylized Azerite Baron
+						i(235415, {["modID"] = 33 }),	-- Skyscorcher Pauldrons
+						--
 						i(235418),	-- Exquisitely Aerodynamic Shoulderpads
 						i(235419),	-- High Altitude Turban
 						i(235420),	-- Petticoat of the Self-Stylized Azerite Baron
