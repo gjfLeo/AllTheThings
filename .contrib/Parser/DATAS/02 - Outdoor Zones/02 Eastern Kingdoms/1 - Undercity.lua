@@ -1486,7 +1486,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["isLimited"] = true,
 						}),
 						i(13477, {	-- Recipe: Superior Mana Potion (RECIPE!)
-							["timeline"] = { REMOVED_2_0_1 },	-- Moved to Trainers
+							["timeline"] = { REMOVED_2_0_1 },	-- Now taught by trainer, recipe removed from the game.
 						}),
 					},
 				}),

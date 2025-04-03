@@ -2515,7 +2515,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #endif
 			n(ZONE_DROPS, {
 				i(16214, {	-- Formula: Enchant Bracer - Greater Intellect (RECIPE!)
-					["timeline"] = { REMOVED_2_3_0 },	-- Learned at trainer
+					["timeline"] = { REMOVED_2_3_0 },	-- Now taught by trainer, recipe removed from the game.
 					["cr"] = 2642,	-- Vilebranch Shadowcaster
 				}),
 				-- #if SEASON_OF_DISCOVERY

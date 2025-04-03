@@ -2582,7 +2582,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						-- #endif
 						i(11163, {	-- Formula: Enchant Bracer - Lesser Dodge / CLASSIC: Formula: Enchant Bracer - Lesser Deflection (RECIPE!)
-							["timeline"] = { REMOVED_4_1_0 },	-- Learned by trainer
+							["timeline"] = { REMOVED_4_1_0 },	-- Now taught by trainer, recipe removed from the game.
 						}),
 						i(5973, {	-- Pattern: Barbaric Leggings (RECIPE!)
 							["isLimited"] = true,
@@ -2652,9 +2652,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(5624, {	-- Circlet of the Order
 					["description"] =
 						-- #if AFTER 10.1.7
-						"This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item.",
+						"This item is only naturally accessible to Horde players due to the allegiance of the creatures that drop this item.",
 						-- #else
-						"This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
+						"This item is only naturally accessible to Horde players due to the allegiance of the creatures that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
 						-- #endif
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["cr"] = 2584,	-- Stromgarde Defender
@@ -2702,9 +2702,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["description"] =
 						-- #if AFTER 10.1.7
-						"This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item.",
+						"This item is only naturally accessible to Horde players due to the allegiance of the creatures that drop this item.",
 						-- #else
-						"This item is only naturally accessible to Horde players due to the allegiance of the mobs that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
+						"This item is only naturally accessible to Horde players due to the allegiance of the creatures that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
 						-- #endif
 					["coord"] = { 29.8, 59.4, ARATHI_HIGHLANDS },
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
@@ -2757,7 +2757,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				})),
 				applyclassicphase(SOD_PHASE_TWO, i(213446, {	-- Tarnished Prayer Bead III
-					["description"] = "With this in your inventory and while in combat, cast Seal of Justice and then cast Judgement AS THE MOB IS RUNNING AWAY. Judging the enemy before they run will not work.",
+					["description"] = "With this in your inventory and while in combat, cast Seal of Justice and then cast Judgement AS THE CREATURE IS RUNNING AWAY. Judging the enemy before they run will not work.",
 					["timeline"] = { ADDED_1_15_1 },
 					["classes"] = { PALADIN },
 					["races"] = ALLIANCE_ONLY,

@@ -303,11 +303,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						{ "i", 18357 },	-- Codex of Defense
 						{ "n", 14383 },	-- Lorekeeper Kildrath
 					},
-					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { REMOVED_1_15_3 },
-					-- #else
-					["timeline"] = { REMOVED_4_0_3 },
-					-- #endif
+					["timeline"] = {
+						-- #if SEASON_OF_DISCOVERY
+						REMOVED_1_15_3,
+						-- #else
+						REMOVED_4_0_3,
+						-- #endif
+					},
 					["maps"] = CAPITAL_GARDENS_MAPS,
 					["classes"] = { WARRIOR },
 					["lvl"] = 54,
@@ -368,11 +370,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						-- #ENDIF
 						{ "n", 14368 },	-- Lorekeeper Lydros <House of Shen'dralar>
 					},
-					-- #if BEFORE TBC
-					["requireSkill"] = 9788,	-- Armorsmith
-					-- #else
-					["requireSkill"] = BLACKSMITHING,
-					-- #endif
+					["requireSkill"] =
+						-- #if AFTER TBC
+						BLACKSMITHING,
+						-- #else
+						9788,	-- Armorsmith
+						-- #endif
 					["maps"] = {
 						236,	-- Capital Gardens
 						BLACKROCK_SPIRE,
@@ -401,11 +404,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						-- #ENDIF
 						{ "n", 14368 },	-- Lorekeeper Lydros <House of Shen'dralar>
 					},
-					-- #if BEFORE TBC
-					["requireSkill"] = 9788,	-- Armorsmith
-					-- #else
-					["requireSkill"] = BLACKSMITHING,
-					-- #endif
+					["requireSkill"] =
+						-- #if AFTER TBC
+						BLACKSMITHING,
+						-- #else
+						9788,	-- Armorsmith
+						-- #endif
 					["maps"] = {
 						236,	-- Capital Gardens
 						STRATHOLME, SCHOLOMANCE
@@ -424,16 +428,17 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 				})),
 				applyclassicphase(PHASE_THREE_RECIPES, q(7651, {	-- Enchanted Thorium Platemail: Volume III
 					["providers"] = {
-						-- #IF BEFORE 4.0.3
+						-- #if BEFORE 4.0.3
 						{ "i", 18771 },	-- Enchanted Thorium Platemail (Volume III)
-						-- #ENDIF
+						-- #endif
 						{ "n", 14368 },	-- Lorekeeper Lydros <House of Shen'dralar>
 					},
-					-- #if BEFORE TBC
-					["requireSkill"] = 9788,	-- Armorsmith
-					-- #else
-					["requireSkill"] = BLACKSMITHING,
-					-- #endif
+					["requireSkill"] =
+						-- #if AFTER TBC
+						BLACKSMITHING,
+						-- #else
+						9788,	-- Armorsmith
+						-- #endif
 					["maps"] = merge(CAPITAL_GARDENS_MAPS, {
 						BLACKROCK_SPIRE,
 						LBRS_TAZZALOR,
@@ -533,11 +538,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						{ "i", 18356 },	-- Garona: A Study on Stealth and Treachery
 						{ "n", 14383 },	-- Lorekeeper Kildrath
 					},
-					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { REMOVED_1_15_3 },
-					-- #else
-					["timeline"] = { REMOVED_4_0_3 },
-					-- #endif
+					["timeline"] = {
+						-- #if SEASON_OF_DISCOVERY
+						REMOVED_1_15_3,
+						-- #else
+						REMOVED_4_0_3,
+						-- #endif
+					},
 					["maps"] = CAPITAL_GARDENS_MAPS,
 					["classes"] = { ROGUE },
 					["lvl"] = 54,
@@ -803,11 +810,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						{ "i", 18358 },	-- The Arcanist's Cookbook
 						{ "n", 14383 },	-- Lorekeeper Kildrath
 					},
-					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { REMOVED_1_15_3 },
-					-- #else
-					["timeline"] = { REMOVED_4_0_3 },
-					-- #endif
+					["timeline"] = {
+						-- #if SEASON_OF_DISCOVERY
+						REMOVED_1_15_3,
+						-- #else
+						REMOVED_4_0_3,
+						-- #endif
+					},
 					["maps"] = CAPITAL_GARDENS_MAPS,
 					["classes"] = { MAGE },
 					["lvl"] = 54,
@@ -995,11 +1004,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						{ "i", 18359 },	-- The Light and How to Swing It
 						{ "n", 14382 },	-- Lorekeeper Mykos
 					},
-					-- #if SEASON_OF_DISCOVERY
-					["timeline"] = { REMOVED_1_15_3 },
-					-- #else
-					["timeline"] = { REMOVED_4_0_3 },
-					-- #endif
+					["timeline"] = {
+						-- #if SEASON_OF_DISCOVERY
+						REMOVED_1_15_3,
+						-- #else
+						REMOVED_4_0_3,
+						-- #endif
+					},
 					["maps"] = CAPITAL_GARDENS_MAPS,
 					["classes"] = { PALADIN },
 					["lvl"] = 54,
@@ -1163,11 +1174,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					-- #endif
 					i(18357, {	-- Codex of Defense
-						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { REMOVED_1_15_3 },
-						-- #else
-						["timeline"] = { REMOVED_4_0_3 },
-						-- #endif
+						["timeline"] = {
+							-- #if SEASON_OF_DISCOVERY
+							REMOVED_1_15_3,
+							-- #else
+							REMOVED_4_0_3,
+							-- #endif
+						},
 					}),
 					i(18360, {	-- Harnessing Shadows
 						["timeline"] = { REMOVED_4_0_3 },
@@ -1181,11 +1194,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					-- #endif
 					i(18356, {	-- Garona: A Study on Stealth and Treachery
-						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { REMOVED_1_15_3 },
-						-- #else
-						["timeline"] = { REMOVED_4_0_3 },
-						-- #endif
+						["timeline"] = {
+							-- #if SEASON_OF_DISCOVERY
+							REMOVED_1_15_3,
+							-- #else
+							REMOVED_4_0_3,
+							-- #endif
+						},
 					}),
 					i(18362, {	-- Holy Bologna: What the Light Won't Tell You
 						["timeline"] = { REMOVED_4_0_3 },
@@ -1196,11 +1211,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					-- #endif
 					i(18401, {	-- Nostro's Compendium of Dragon Slaying
-						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { REMOVED_1_15_3 },
-						-- #else
-						["timeline"] = { REMOVED_3_2_2 },
-						-- #endif
+						["timeline"] = {
+							-- #if SEASON_OF_DISCOVERY
+							REMOVED_1_15_3,
+							-- #else
+							REMOVED_4_0_3,
+							-- #endif
+						},
 					}),
 					-- #if SEASON_OF_DISCOVERY
 					i(228693, {	-- The Arcanist's Cookbook
@@ -1208,11 +1225,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					-- #endif
 					i(18358, {	-- The Arcanist's Cookbook
-						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { REMOVED_1_15_3 },
-						-- #else
-						["timeline"] = { REMOVED_4_0_3 },
-						-- #endif
+						["timeline"] = {
+							-- #if SEASON_OF_DISCOVERY
+							REMOVED_1_15_3,
+							-- #else
+							REMOVED_4_0_3,
+							-- #endif
+						},
 					}),
 					i(18364, {	-- The Emerald Dream
 						["timeline"] = { REMOVED_4_0_3 },
@@ -1226,11 +1245,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					-- #endif
 					i(18359, {	-- The Light and How to Swing It
-						-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { REMOVED_1_15_3 },
-						-- #else
-						["timeline"] = { REMOVED_4_0_3 },
-						-- #endif
+						["timeline"] = {
+							-- #if SEASON_OF_DISCOVERY
+							REMOVED_1_15_3,
+							-- #else
+							REMOVED_4_0_3,
+							-- #endif
+						},
 					}),
 				},
 			}),
@@ -1240,10 +1261,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					i(18365, {	-- A Thoroughly Read Copy of "Nat Pagle's Guide to Extreme Anglin'."
 						-- #if BEFORE 7.0.3
 						["lore"] = "This item is utterly worthless, however there was a rumor that this item could be used to obtain the original Ashbringer via fishing.",
-						["description"] = "This can be found in various places throughout all the wings of Dire Maul.\n\n North: Southwest corner of Guard Fengus's courtyard or next to King Gordok and Cho'Rush the Observer.\n\n East: Eastern wall of the garden, the ledge above the garden, next to Lethtendris, or next to Alzzin the Wildshaper.\n\n West: By the southern generator in Immol'thar's room.",
-						-- #else
-						["description"] = "Required for the Retribution Paladin Hidden Artifact Appearance.  This can be found in various places throughout all the wings of Dire Maul.\n\n North: Southwest corner of Guard Fengus's courtyard or next to King Gordok and Cho'Rush the Observer.\n\n East: Eastern wall of the garden, the ledge above the garden, next to Lethtendris, or next to Alzzin the Wildshaper.\n\n West: By the southern generator in Immol'thar's room.",
 						-- #endif
+						["description"] =
+							-- #if AFTER 7.0.3
+							"Required for the Retribution Paladin Hidden Artifact Appearance.  This can be found in various places throughout all the wings of Dire Maul.\n\n North: Southwest corner of Guard Fengus's courtyard or next to King Gordok and Cho'Rush the Observer.\n\n East: Eastern wall of the garden, the ledge above the garden, next to Lethtendris, or next to Alzzin the Wildshaper.\n\n West: By the southern generator in Immol'thar's room.",
+							-- #else
+							"This can be found in various places throughout all the wings of Dire Maul.\n\n North: Southwest corner of Guard Fengus's courtyard or next to King Gordok and Cho'Rush the Observer.\n\n East: Eastern wall of the garden, the ledge above the garden, next to Lethtendris, or next to Alzzin the Wildshaper.\n\n West: By the southern generator in Immol'thar's room.",
+							-- #endif
 					}),
 				},
 			}),
@@ -1304,11 +1328,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						["description"] = "Talk to him and then chase him. Eventually he will go up a ramp and become killable.",
 						["groups"] = {
 							i(18249, {	-- Crescent Key
-								-- #if BEFORE 4.0.3
-								["description"] = "This key is required to enter the Gordok Commons and Capital Gardens.",
-								-- #elseif AFTER 5.2.0
-								["description"] = "This key no longer have any practical use, and disappears from the inventory like a conjured item.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
-								-- #endif
+								["description"] =
+									-- #if AFTER 5.2.0
+									"This key no longer have any practical use, and disappears from the inventory like a conjured item.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
+									-- #elseif BEFORE 4.0.3
+									"This key is required to enter the Gordok Commons and Capital Gardens.",
+									-- #endif
 							}),
 							i(18261),	-- Book of Incantations
 							i(207297, {	-- Grimoire of the Felblaze Imp (CI!)
@@ -1689,10 +1714,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					e(413, {	-- Guard Fengus
 						["creatureID"] = 14321,
-						-- #if AFTER 4.0.3
-						["description"] = "Avoid him. His chest is empty.",
-						-- #else
-						["description"] = "Avoid him and loot his chest for a key to open the door.",
+						["description"] =
+							-- #if AFTER 4.0.3
+							"Avoid him. His chest is empty.",
+							-- #else
+							"Avoid him and loot his chest for a key to open the door.",
+							-- #endif
+						-- #if BEFORE 4.0.3
 						["groups"] = {
 							i(18266, {	-- Gordok Courtyard Key
 								["provider"] = { "o", 179516 },	-- Fengus's Chest
@@ -1704,11 +1732,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						["creatureID"] = 14323,
 						["provider"] = { "o", 179485 },	-- Broken Trap
 						["description"] = "Trap him using the Broken Trap.",
-						-- #if AFTER 4.0.3
-						["sourceQuest"] = 27118,	-- A Broken Trap
-						-- #else
-						["sourceQuest"] = 1193,	-- A Broken Trap
-						-- #endif
+						["sourceQuests"] = {
+							-- #if AFTER 4.0.3
+							27118,	-- A Broken Trap
+							-- #else
+							1193,	-- A Broken Trap
+							-- #endif
+						},
 						-- #if BEFORE 7.3.5
 						["groups"] = {
 							i(18498),	-- Hedgecutter
@@ -1821,10 +1851,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					e(415, {	-- Captain Kromcrush
 						["creatureID"] = 14325,
-						-- #if AFTER 4.0.3
-						["description"] = "Use the Gordok Ogre Suit to skip him for the Tribute Run. (talk to him)",
-						-- #else
-						["description"] = "In order to get to this boss, you must use the Inner Door Key or have an engineer open the door using a Seaforium Charge.\n\nUse the Gordok Ogre Suit to skip him. (talk to him)",
+						["description"] =
+							-- #if AFTER 4.0.3
+							"Use the Gordok Ogre Suit to skip him for the Tribute Run. (Talk to him)",
+							-- #else
+							"In order to get to this boss, you must use the Inner Door Key or have an engineer open the door using a Seaforium Charge.\n\nUse the Gordok Ogre Suit to skip him. (talk to him)",
+							-- #endif
+						-- #if BEFORE 4.0.3
 						["cost"] = {
 							{ "i", 18268, 1 },	-- Gordok Inner Door Key
 							{ "i", 18258, 1 },	-- Gordok Ogre Suit
@@ -2051,7 +2084,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					n(VENDORS, {
 						n(14371, {	-- Shen'dralar Provisioner
 							-- #if SEASON_OF_DISCOVERY
-							applyclassicphase(SOD_PHASE_FOUR, i(228303, {	-- Pattern: Incandescent Mooncloth Robe
+							applyclassicphase(SOD_PHASE_FOUR, i(228303, {	-- Pattern: Incandescent Mooncloth Robe (RECIPE!)
 								["timeline"] = { ADDED_1_15_3 },
 							})),
 							-- #endif
@@ -2128,7 +2161,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					e(408, {	-- Magister Kalendris
 						["creatureID"] = 11487,
 						["groups"] = {
-							applyclassicphase(PHASE_FIVE_RECIPES, i(22309)),	-- Pattern: Big Bag of Enchantment
+							applyclassicphase(PHASE_FIVE_RECIPES, i(22309)),	-- Pattern: Big Bag of Enchantment (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_FOUR, i(228067, {	-- Elder Magus Pendant
 								["timeline"] = { ADDED_1_15_3 },
@@ -2146,7 +2179,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 						},
 					}),
 					n(11467, {	-- Tsu'zee
-						["description"] = "This is a rare that is not always present.",
+						["description"] = "This is a Rare Creature and, as such, is not always present.",
 						["groups"] = {
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_FOUR, i(228061, {	-- Brightspark Gloves
@@ -2231,17 +2264,18 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					n(14506, -- Lord Hel'nurath
 						bubbleDown({
-							-- #IF BEFORE 4.0.3
+							-- #if BEFORE 4.0.3
 							["timeline"] = { REMOVED_4_0_3 },
-							-- #ELSE
+							-- #else
 							["u"] = CONDITIONALLY_AVAILABLE,
-							-- #ENDIF
+							-- #endif
 						}, {
-						-- #if AFTER CATA
-						["description"] = "|cff3399ffSTEP 1:|r Warlock with (Dreadsteed of Xoroth) FOS\n|cff3399ffSTEP 2:|r Warlock buys Xorothian Glyphs,  Black Lodestone & J'eevee's Jar from Gorzeeki Wildeyes. (Burning Steppes - 8.2,35.8)\n|cff3399ffSTEP 3:|r Kill Immol'thar.\n|cff3399ffSTEP 4:|r Warlock uses J'eevee's Jar while standing on platform summoning Wheel of the Black March, Doomsday Candle, & Bell of Dethmoora.\n|cff3399ffSTEP 5:|r Kill stuff & use Black Lodestone to keep 3 artifacts active, this requires soul shards to do.\n|cff3399ffSTEP 6:|r Once mobs stop spawning, use Xorothian Glyphs to summon the dreadsteed.\n|cff3399ffSTEP 7:|r Kill Lord Hel'nurath & collect loot.",
-						-- #else
-						["description"] = "|cff3399ffSTEP 1:|r Find a Warlock that is on or has completed Dreadsteed of Xoroth.\n|cff3399ffSTEP 2:|r Warlock buys Xorothian Glyphs, Black Lodestone & J'eevee's Jar from Gorzeeki Wildeyes. (Burning Steppes - 12.4, 31.6)\n|cff3399ffSTEP 3:|r Kill Immol'thar.\n|cff3399ffSTEP 4:|r Warlock uses J'eevee's Jar while standing on platform summoning Wheel of the Black March, Doomsday Candle, & Bell of Dethmoora.\n|cff3399ffSTEP 5:|r Kill stuff & use Black Lodestone to keep 3 artifacts active, this requires soul shards to do.\n|cff3399ffSTEP 6:|r Once mobs stop spawning, use Xorothian Glyphs to summon the dreadsteed.\n|cff3399ffSTEP 7:|r Kill Lord Hel'nurath & collect loot.",
-						-- #endif
+						["description"] =
+							-- #if AFTER CATA
+							"|cff3399ffSTEP 1:|r Warlock with (Dreadsteed of Xoroth) FOS\n|cff3399ffSTEP 2:|r Warlock buys Xorothian Glyphs,  Black Lodestone & J'eevee's Jar from Gorzeeki Wildeyes. (Burning Steppes - 8.2,35.8)\n|cff3399ffSTEP 3:|r Kill Immol'thar.\n|cff3399ffSTEP 4:|r Warlock uses J'eevee's Jar while standing on platform summoning Wheel of the Black March, Doomsday Candle, & Bell of Dethmoora.\n|cff3399ffSTEP 5:|r Kill stuff & use Black Lodestone to keep 3 artifacts active, this requires soul shards to do.\n|cff3399ffSTEP 6:|r Once creatures stop spawning, use Xorothian Glyphs to summon the dreadsteed.\n|cff3399ffSTEP 7:|r Kill Lord Hel'nurath & collect loot.",
+							-- #else
+							"|cff3399ffSTEP 1:|r Find a Warlock that is on or has completed Dreadsteed of Xoroth.\n|cff3399ffSTEP 2:|r Warlock buys Xorothian Glyphs, Black Lodestone & J'eevee's Jar from Gorzeeki Wildeyes. (Burning Steppes - 12.4, 31.6)\n|cff3399ffSTEP 3:|r Kill Immol'thar.\n|cff3399ffSTEP 4:|r Warlock uses J'eevee's Jar while standing on platform summoning Wheel of the Black March, Doomsday Candle, & Bell of Dethmoora.\n|cff3399ffSTEP 5:|r Kill stuff & use Black Lodestone to keep 3 artifacts active, this requires soul shards to do.\n|cff3399ffSTEP 6:|r Once creatures stop spawning, use Xorothian Glyphs to summon the dreadsteed.\n|cff3399ffSTEP 7:|r Kill Lord Hel'nurath & collect loot.",
+							-- #endif
 						["sourceQuest"] = 7631,	-- Dreadsteed of Xoroth
 						["cost"] = {
 							{ "i", 18670, 1 },	-- Xorothian Glyphs

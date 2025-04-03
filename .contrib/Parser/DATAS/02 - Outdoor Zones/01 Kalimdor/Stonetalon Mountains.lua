@@ -2100,7 +2100,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["altQuests"] = { 26115 },	-- To Be Horde...
 					["sourceQuest"] = 26004,	-- Krom'gar Fortress
 					["coord"] = { 66.1, 63.7, STONETALON_MOUNTAINS },
+					-- #if BEFORE 9.0.1
 					["description"] = "This quest cannot be completed after level 30, after reaching Exalted with Orgrimmar, or after finishing the Stonetalon Mountains questline.",
+					-- #endif
 					["timeline"] = { ADDED_4_0_3 },
 					["maxReputation"] = { FACTION_ORGRIMMAR, EXALTED },	-- Orgrimmar, Exalted
 					["races"] = HORDE_ONLY,
@@ -2805,7 +2807,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(4015, {	-- Pridewing Patriarch
 					["description"] =
 						-- #if AFTER 7.2.0
-						"Can spawn after killing any Pridewing Beasts.\n|cffe50d12Warning|r: This mob scales with character level up to level cap!",
+						"Can spawn after killing any Pridewing Beasts.\n|cffe50d12Warning|r: This creaure scales with character level up to level cap!",
 						-- #else
 						"Can spawn after killing any Pridewing Beasts.",
 						-- #endif

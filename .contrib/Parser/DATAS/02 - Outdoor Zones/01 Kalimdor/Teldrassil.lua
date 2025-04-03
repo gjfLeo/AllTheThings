@@ -2298,7 +2298,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(209812, {	-- Fallenroot Poacher
 					["provider"] = { "n", 209811 },	-- Rustling Bush
-					["description"] = "Cast Hunter's Mark on the bush to spawn the rare.",
+					["description"] = "Cast Hunter's Mark on the bush to spawn the Rare Creature.",
 					["coord"] = { 46.6, 46.4, TELDRASSIL },
 					["classes"] = { HUNTER },
 					["groups"] = {

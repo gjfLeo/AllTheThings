@@ -2410,7 +2410,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				i(15738, {	-- Pattern: Heavy Scorpid Gauntlets (RECIPE!)
 					-- #if AFTER 10.0.5
-					["description"] = "Killing the mobs at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
+					["description"] = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 					-- #endif
 					["coords"] = {
 						{ 34.8, 36.3, BURNING_STEPPES },
@@ -2427,7 +2427,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(15748, {	-- Pattern: Heavy Scorpid Leggings (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_0_5 },
 					-- #if AFTER 10.0.5
-					["description"] = "Killing the mobs at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
+					["description"] = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 					-- #endif
 					["coords"] = {
 						{ 34.8, 36.3, BURNING_STEPPES },
@@ -2444,7 +2444,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(15774, {	-- Pattern: Heavy Scorpid Shoulders (RECIPE!)
 					["timeline"] = { REMOVED_4_0_3, ADDED_5_0_4, REMOVED_6_0_2, ADDED_10_0_5 },
 					-- #if AFTER 10.0.5
-					["description"] = "Killing the mobs at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
+					["description"] = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 					-- #endif
 					["coords"] = {
 						{ 34.8, 36.3, BURNING_STEPPES },
@@ -2461,7 +2461,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(15727, {	-- Pattern: Heavy Scorpid Vest (RECIPE!)
 					["timeline"] = { ADDED_10_0_5 },
 					-- #if AFTER 10.0.5
-					["description"] = "Killing the mobs at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
+					["description"] = "Killing the creatures at one of the coordinates, respawns them instantly at the other and vice versa. Farmed with a second person, you get all recipes within 2-3 minutes.",
 					-- #endif
 					["coords"] = {
 						{ 34.8, 36.3, BURNING_STEPPES },
@@ -2499,7 +2499,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(13476, {	-- Recipe: Mighty Rage Potion (RECIPE!)
-					["timeline"] = { REMOVED_4_0_3 },	-- Moved to trainer
+					["timeline"] = { REMOVED_4_0_3 },	-- Now taught by trainer, recipe removed from the game.
 					["cr"] = 7027,	-- Blackrock Slayer
 				}),
 			}),

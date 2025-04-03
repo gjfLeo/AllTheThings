@@ -313,7 +313,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 		}),
 		n(RARES, {
 			n(596, {	-- Brainwashed Noble
-				["description"] = "This is a rare that is not always present.\n\nLocated in the cavern before the instance.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",
 				["coords"] = {
 					-- #if BEFORE CATA
 					{ 44.0, 78.3, WESTFALL },
@@ -325,10 +325,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 				["groups"] = {
 					i(1933, {	-- Staff of Conjuring
-						["timeline"] = { ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+						["timeline"] = { ADDED_10_1_7 },
 					}),
 					i(3902, {	-- Staff of Nobles
-						["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+						["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					}),
 					i(5967, {	-- Girdle of Nobility
 						["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
@@ -336,7 +336,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			n(626, {	-- Foreman Thistlenettle
-				["description"] = "This is a rare that is not always present.\n\nLocated in the cavern before the instance.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",
 				["coords"] = {
 					-- #if BEFORE CATA
 					{ 42.2, 82.6, WESTFALL },
@@ -352,7 +352,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			n(599, {	-- Marisa du'Paige
-				["description"] = "This is a rare that is not always present.\n\nLocated in the cavern before the instance.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.\n\nLocated in the cavern before the instance.",
 				["coords"] = {
 					-- #if BEFORE CATA
 					{ 42.2, 79.9, WESTFALL },
@@ -365,10 +365,10 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 				["groups"] = {
 					i(3019, {	-- Noble's Robe
-						["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 09.09.2023 ATT Discord
+						["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					}),
 					i(4660, {	-- Walking Boots
-						["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 02.09.2023 Data Discord
+						["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					}),
 				},
 			}),
@@ -417,55 +417,71 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				["cr"] = 594,	-- Defias Henchman
 			}),
 			i(1928, {	-- Defias Mage Staff
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
-				-- #if BEFORE 4.0.3
-				["cr"] = 1726,	-- Defias Magician
-				-- #elseif AFTER 10.1.7
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Blood Wizards or Defias Pirates which are located on the boat near the end of the dungeon.",
+				-- #endif
 				["crs"] = {
+					-- #if AFTER 10.1.7
 					48417,	-- Blood Wizard
 					48522,	-- Defias Pirate
+					-- #else
+					1726,	-- Defias Magician
+					-- #endif
 				},
-				-- #endif
 			}),
 			i(1925, {	-- Defias Rapier
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 02.09.2023 Data Discord
-				-- #if BEFORE 4.0.3
-				["cr"] = 1725,	-- Defias Watchman
-				-- #elseif AFTER 10.1.7
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Defias Pirates which are located on the boat near the end of the dungeon.",
-				["cr"] = 48522,	-- Defias Pirate
 				-- #endif
+				["crs"] = {
+					-- #if AFTER 10.1.7
+					48522,	-- Defias Pirate
+					-- #else
+					1725,	-- Defias Watchman
+					-- #endif
+				},
 			}),
 			i(1943, {	-- Goblin Mail Leggings
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 02.09.2023 Data Discord
-				-- #if BEFORE 4.0.3
-				["cr"] = 3947,	-- Goblin Shipbuilder
-				-- #elseif AFTER 10.1.7
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+				-- #if AFTER 10.1.7
 				["description"] = "Drops from Goblin Engineer's around 2nd Boss or Goblin Overseer's around last Boss.",
-				["crs"] = {
-					48279,	-- Goblin Overseer
-					48439,	-- Goblin Engineer
-				},
 				-- #endif
+				["crs"] = {
+					-- #if AFTER 10.1.7
+					48439,	-- Goblin Engineer
+					48279,	-- Goblin Overseer
+					-- #else
+					3947,	-- Goblin Shipbuilder
+					-- #endif
+				},
 			}),
 			i(1936, {	-- Goblin Screwdriver
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 02.09.2023 Data Discord
-				-- #if BEFORE 4.0.3
-				["cr"] = 622,	-- Goblin Engineer
-				-- #elseif AFTER 10.1.7
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Goblins between 1st and 2nd boss.",
-				["cr"] = 48279,	-- Goblin Overseer
 				-- #endif
+				["crs"] = {
+					-- #if AFTER 10.1.7
+					48279,	-- Goblin Overseer
+					-- #else
+					622,	-- Goblin Engineer
+					-- #endif
+				},
 			}),
 			i(1944, {	-- Metalworking Gloves
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 02.09.2023 Data Discord
-				-- #if BEFORE 4.0.3
-				["cr"] = 1731,	-- Goblin Craftsman
-				-- #elseif AFTER 10.1.7
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Goblins between 1st and 2nd boss.",
-				["cr"] = 48280,	-- Goblin Craftsman
 				-- #endif
+				["crs"] = {
+					-- #if AFTER 10.1.7
+					48280,	-- Goblin Craftsman
+					-- #else
+					1731,	-- Goblin Craftsman
+					-- #endif
+				},
 			}),
 			i(1894, {	-- Miners' Union Card
 				["crs"] = {
@@ -476,14 +492,15 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 			}),
 			i(8492, {	-- Green Wing Macaw (PET!)
 				-- #if AFTER 4.0.3
-				["crs"] = {
-					48417,	-- Defias Blood Wizard
-					48522,	-- Defias Pirate
-				},
-				-- #else
 				["description"] = "The item drops from Defias Pirates which are located on the boat near the end of the dungeon.",
-				["cr"] = 657,	-- Defias Pirate
 				-- #endif
+				["crs"] = {
+					-- #if AFTER 4.0.3
+					48522,	-- Defias Pirate
+					-- #else
+					657,	-- Defias Pirate
+					-- #endif
+				},
 			}),
 			i(1958, {	-- Petrified Shinbone
 				["cr"] = 625,	-- Undead Dynamiter
@@ -540,13 +557,17 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 				},
 			}),
 			i(1945, {	-- Woodworking Gloves
-				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 02.09.2023 Data Discord
-				-- #if BEFORE 4.0.3
-				["cr"] = 641,	-- Goblin Woodcarver
-				-- #elseif AFTER 10.1.7
+				["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+				-- #if AFTER 10.1.7
 				["description"] = "The item drops from Goblins or Oaf's Lackey between 1st and 2nd boss.",
-				["cr"] = 48445,	-- Oaf Lackey
 				-- #endif
+				["crs"] = {
+					-- #if AFTER 10.1.7
+					48445,	-- Oaf Lackey
+					-- #else
+					641,	-- Goblin Woodcarver
+					-- #endif
+				},
 			}),
 			i(5787, {	-- Pattern: Murloc Scale Breastplate (RECIPE!)
 				["crs"] = {
@@ -562,7 +583,7 @@ DEADMINES_INSTANCE = inst(63, {	-- Deadmines
 		d(DIFFICULTY.DUNGEON.NORMAL, {
 		-- #endif
 			n(3586, {	-- Miner Johnson
-				["description"] = "This is a rare that is not always present.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.",
 				["timeline"] = { REMOVED_4_0_3 },
 				-- #if BEFORE 4.0.3
 				["groups"] = {

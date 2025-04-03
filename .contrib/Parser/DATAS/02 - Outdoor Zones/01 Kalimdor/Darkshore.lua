@@ -3108,7 +3108,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(5485, {	-- Recipe: Fillet of Frenzy (RECIPE!)
-							["timeline"] = { REMOVED_4_0_3 },	-- Added to Trainers
+							["timeline"] = { REMOVED_4_0_3 },	-- Now taught by trainer, schematic removed from the game.
 						}),
 					},
 				}),

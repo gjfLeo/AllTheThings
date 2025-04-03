@@ -1929,7 +1929,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(8244, {	-- Flawless Draenethyst Sphere
-					["description"] = "A very rare zone drop. It has a higher chance to drop from rare mobs.",
+					["description"] = "A very rare zone drop. It has a higher chance to drop from Rare Creatures.",
 					["crs"] = {
 						7846,	-- Teremus the Devourer
 						7664,	-- Razelikh the Defiler
@@ -1948,7 +1948,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(10593, {	-- Imperfect Draenethyst Fragment (drops from pretty much the whole zone)
-					["description"] = "A rare zone drop from any mob in the zone.",
+					["description"] = "A rare zone drop from any creature in the zone.",
 				}),
 				i(57178, {	-- Nightstalker Leg
 					["timeline"] = { ADDED_4_0_3 },

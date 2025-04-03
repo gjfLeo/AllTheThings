@@ -1529,9 +1529,9 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				["coord"] = { 39.0, 64.0, LBRS_HORDEMAR_CITY },	-- Mok'Doom
 				["description"] =
 					-- #if AFTER 6.0.1
-					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					"This is a Rare Creature and, as such, is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
 					-- #else
-					"This is a rare that is not always present.",
+					"This is a Rare Creature and, as such, is not always present.",
 					-- #endif
 				["groups"] = {
 					i(13285),	-- The Blackrock Slicers
@@ -1551,9 +1551,9 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				["coord"] = { 54.0, 58.0, LBRS_HORDEMAR_CITY },
 				["description"] =
 					-- #if AFTER 6.0.1
-					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					"This is a Rare Creature and, as such, is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
 					-- #else
-					"This is a rare that is not always present.",
+					"This is a Rare Creature and, as such, is not always present.",
 					-- #endif
 				["groups"] = {
 					i(13286),	-- Rivenspike
@@ -1571,7 +1571,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			n(9217, {	-- Spirestone Lord Magus (Rare)
 				["coord"] = { 39.0, 64.0, LBRS_HORDEMAR_CITY },	-- Mok'Doom
-				["description"] = "This is a rare that is not always present.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.",
 				["groups"] = {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_FOUR, i(228563, {	-- Globe of D'sak
@@ -1875,7 +1875,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					{ 53.0, 67.0, LBRS_TAZZALOR },
 					{ 49.0, 55.0, LBRS_TAZZALOR },
 				},
-				["description"] = "This is a rare that is not always present.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.",
 				["groups"] = {
 					i(12838),	-- Plans: Arcanite Reaper (RECIPE!)
 					i(12621),	-- Demonfork
@@ -1905,9 +1905,9 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				["coord"] = { 55.0, 75.0, LBRS_SKITTERWEB_TUNNELS },
 				["description"] =
 					-- #if AFTER 6.0.1
-					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					"This is a Rare Creature and, as such, is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
 					-- #else
-					"This is a rare that is not always present.",
+					"This is a Rare Creature and, as such, is not always present.",
 					-- #endif
 				["groups"] = {
 					-- #if SEASON_OF_DISCOVERY
@@ -2117,9 +2117,9 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				},
 				["description"] =
 					-- #if AFTER 6.0.1
-					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					"This is a Rare Creature and, as such, is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
 					-- #else
-					"This is a rare that is not always present.",
+					"This is a Rare Creature and, as such, is not always present.",
 					-- #endif
 				["groups"] = {
 					i(13204),	-- Bashguuder
@@ -2468,7 +2468,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					-- #if SEASON_OF_DISCOVERY
 					-- Its always up in SoD
 					-- #else
-					["description"] = "This is a rare that is not always present.",
+					["description"] = "This is a Rare Creature and, as such, is not always present.",
 					-- #endif
 					["timeline"] = { REMOVED_6_0_2 },
 					["groups"] = {

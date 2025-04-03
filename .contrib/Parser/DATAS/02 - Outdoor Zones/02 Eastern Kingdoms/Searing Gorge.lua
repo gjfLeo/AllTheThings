@@ -1965,7 +1965,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						8338,	-- Dark Iron Marksman
 						8566,	-- Dark Iron Lookout
 					},
-					["description"] = "In addition to being looted, this item can also be passively obtained by being attacked by said mobs. Required for the quest 'They Build a Better Bullet', is otherwise safe to discard.",
+					["description"] = "In addition to being looted, this item can also be passively obtained by being attacked by said creatures. Required for the quest 'They Build a Better Bullet', is otherwise safe to discard.",
 				}),
 				i(18944, {	-- Incendosaur Scale
 					["cr"] = 9318,	-- Incendosaur

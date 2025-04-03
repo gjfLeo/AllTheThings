@@ -2827,10 +2827,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 43.2, 70.2, THE_CAPE_OF_STRANGLETHORN },
 					["groups"] = {
 						i(13310, {	-- Schematic: Accurate Scope (RECIPE!)
-							["timeline"] = { REMOVED_5_0_4 },	-- Moved to Trainer
+							["timeline"] = { REMOVED_5_0_4 },	-- Now taught by trainer, recipe removed from the game.
 						}),
 						i(18651, {	-- Schematic: Truesilver Transformer (RECIPE!)
-							["timeline"] = { REMOVED_2_0_1 },	-- Moved to Trainer
+							["timeline"] = { REMOVED_2_0_1 },	-- Now taught by trainer, recipe removed from the game.
 						}),
 					},
 				}),

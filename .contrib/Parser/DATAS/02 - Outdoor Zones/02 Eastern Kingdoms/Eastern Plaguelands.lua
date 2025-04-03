@@ -4001,7 +4001,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "i", 15454 },	-- Mortar and Pestle
 							},
 							["cost"] = {{ "i", 15447, 7 }},	-- Living Rot
-							["description"] = "PROTIP: Do NOT loot these until you have a couple of mobs killed nearby. The timer starts the second you pick it up.",
+							["description"] = "PROTIP: Do NOT loot these until you have a couple of creatures killed nearby. The timer starts the second you pick it up.",
 							["crs"] = {
 								8526,	-- Dark Caster
 								8531,	-- Gibbering Ghoul
@@ -4854,7 +4854,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["isLimited"] = true,
 						}),
 						i(15756, {	-- Pattern: Runic Leather Headband (RECIPE!)
-							["timeline"] = { REMOVED_2_3_0 },	-- Learned from Trainer
+							["timeline"] = { REMOVED_2_3_0 },	-- Now taught by trainer, recipe removed from the game.
 							["isLimited"] = true,
 						}),
 					},
@@ -5330,11 +5330,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				i(16242, {	-- Formula: Enchant Chest - Major Mana (RECIPE!)
-					["timeline"] = { REMOVED_2_3_0 },	-- Learned from Trainer
+					["timeline"] = { REMOVED_2_3_0 },	-- Now taught by trainer, recipe removed from the game.
 					["cr"] = 9452,	-- Scarlet Enchanter
 				}),
 				i(16222, {	-- Formula: Enchant Shield - Vitality / TBC-10.1.5:Formula: Enchant Shield - Superior Versatility / CLASSIC: Formula: Enchant Shield - Superior Spirit (RECIPE!)
-					["timeline"] = { REMOVED_2_3_0 },	-- Learned from Trainer
+					["timeline"] = { REMOVED_2_3_0 },	-- Now taught by trainer, recipe removed from the game.
 					["cr"] = 9447,	-- Scarlet Warder
 				}),
 				-- #if AFTER TBC

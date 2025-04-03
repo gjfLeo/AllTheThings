@@ -1844,7 +1844,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(947, {  -- Rohh the Silent
 					-- #if AFTER CATA
-					["description"] = "This is a stealthed mob. You can target it with the macro '/tar Rohh'.",
+					["description"] = "This is a stealthed creature. You can target it with the macro '/tar Rohh'.",
 					-- #endif
 					["coords"] = {
 						-- #if AFTER CATA

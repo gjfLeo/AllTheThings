@@ -36,7 +36,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					spell(921, {	-- Pickpocketing
 						i(2109, {	-- Frostmane Chain Vest
 							["timeline"] = { ADDED_10_1_7 },
-							["description"] = "Can be pickpocketed from Frostmane trolls in Dun Morogh and other lowlevel mobs on Azeroth.",
+							["description"] = "Can be pickpocketed from Frostmane trolls in Dun Morogh and other lowlevel creatures on Azeroth.",
 							--	["cr"] = 706,	-- Frostmane Troll Whelp
 							["coords"] = {
 								{ 32.4, 75.8, DUN_MOROGH },
@@ -1008,7 +1008,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								-- #if AFTER CATA
 								24473,	-- Lockdown in Anvilmar
 								-- #else
-								179,		-- Dwarven Outfitters
+								179,	-- Dwarven Outfitters
 								-- #endif
 							},
 							["coords"] = {
@@ -2414,7 +2414,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			spell(921, {	-- Pickpocketing
 				i(2109, {	-- Frostmane Chain Vest
 					["timeline"] = { ADDED_10_1_7 },	-- ATT Discord 20.09.2023
-					["description"] = "Can be pickpocketed from Frostmane trolls in Dun Morogh and other lowlevel mobs on Azeroth.",
+					["description"] = "Can be pickpocketed from Frostmane trolls in Dun Morogh and other lowlevel creatures on Azeroth.",
 					--	["cr"] = 41122,	-- Frostmane Snowstrider
 					["coords"] = {
 						{ 49.0, 35.4, DUN_MOROGH },

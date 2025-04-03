@@ -3366,7 +3366,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 				}),
 				n(8923, {	-- Panzor the Invincible
-					["description"] = "This is a rare that is not always present.",
+					["description"] = "This is a Rare Creature and, as such, is not always present.",
 					["groups"] = {
 						i(11786),	-- Stone of the Earth
 						i(11785),	-- Rock Golem Bulwark

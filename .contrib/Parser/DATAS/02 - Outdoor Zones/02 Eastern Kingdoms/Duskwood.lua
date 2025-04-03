@@ -2369,7 +2369,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["groups"] = {
 						i(6068, {	-- Recipe: Shadow Oil (RECIPE!)
-							["timeline"] = { REMOVED_4_0_3 },	-- Moved to trainers
+							["timeline"] = { REMOVED_4_0_3 },	-- Now taught by trainer, recipe removed from the game.
 						}),
 					},
 				}),

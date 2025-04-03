@@ -40,7 +40,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(9046, {	-- Scarshield Quartermaster <Scarshield Legion>
-					["description"] = "This mob used to simply be rare and have a limited loot table. He was later repurposed for use with the BWL Attunement Quest Chain. The two items listed below were never available in WoW Classic.",
+					["description"] = "This used to be a simple Rare Creature with a limited loot table. He was later repurposed for use with the BWL Attunement Quest Chain. The two items listed below were never available in WoW Classic.",
 					["groups"] = {
 						i(13254, {	-- Astral Guard
 							["timeline"] = { REMOVED_1_6_0, ADDED_10_1_7 },
@@ -69,7 +69,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				applyclassicphase(SOD_PHASE_FOUR, i(226694, {	-- Rune of Defense Specialization
 					["provider"] = { "o", 457099 },	-- Zirene's Guide to Getting Punched
 					["timeline"] = { ADDED_1_15_3 },
-					["description"] = "1. Head to the South end of Searing Gorge and enter Blackrock Mountain.\n2. As you enter the main chamber, head left down the circular pathway.\n3. When you come to the meeting stone for Lower Blackrock Spire, turn left and head up the hallway.\n4. Watch out for level 54-ish mobs and take the first right in to a small room.\n5. You will see two copies of the book laying on the floor.\n*One is next to a pair of mobs. Another is in a small nook where you may safely loot the book without pulling aggro.",
+					["description"] = "1. Head to the South end of Searing Gorge and enter Blackrock Mountain.\n2. As you enter the main chamber, head left down the circular pathway.\n3. When you come to the meeting stone for Lower Blackrock Spire, turn left and head up the hallway.\n4. Watch out for level 54-ish creatures and take the first right in to a small room.\n5. You will see two copies of the book laying on the floor.\n*One is next to a pair of creatures. Another is in a small nook where you may safely loot the book without pulling aggro.",
 					["classes"] = { WARRIOR, PALADIN, ROGUE, SHAMAN, WARLOCK, DRUID },
 					["groups"] = {
 						recipe(459313, {	-- Engrave Ring - Defense Specialization

@@ -2305,7 +2305,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(20970, {	-- Design: Pendant of the Agate Shield (RECIPE!)
-							["timeline"] = { ADDED_2_0_1, REMOVED_4_1_0 },	-- Moved to Trainer
+							["timeline"] = { ADDED_2_0_1, REMOVED_4_1_0 },	-- Now taught by trainer, recipe removed from the game.
 							["isLimited"] = true,
 						}),
 					},
