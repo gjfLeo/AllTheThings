@@ -815,7 +815,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 24. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 28 (TODO: Test max level between 28 and 35)
+					-- Cataclysm: Maximum is level 28. (TODO: Test max level between 28 and 35)
 					["lvl"] = { 24, 28 },
 					-- #endif
 				})),
@@ -1884,11 +1884,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["description"] =
-					-- #if AFTER BFA
-					"Needs a minimum of 225 skill in Tailoring.",
-					-- #else
-					"Needs a minimum of 225 skill in First Aid.",
-					-- #endif
+						-- #if AFTER BFA
+						"Needs a minimum of 225 skill in Tailoring.",
+						-- #else
+						"Needs a minimum of 225 skill in First Aid.",
+						-- #endif
 					["requireSkill"] =
 						-- #if AFTER BFA
 						TAILORING,
@@ -2115,7 +2115,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 24. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 28 (TODO: Test max level between 26 and 35)
+					-- Cataclysm: Maximum is level 28. (TODO: Test max level between 26 and 35)
 					["lvl"] = { 24, 28 },
 					-- #endif
 				})),

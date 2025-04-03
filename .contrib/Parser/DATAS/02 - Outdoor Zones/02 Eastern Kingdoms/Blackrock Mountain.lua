@@ -36,20 +36,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 37.0, 28.2, BLACKROCK_MOUNTAIN_LEVEL3 },
 					},
 					["groups"] = {
-						i(14486),	-- Pattern: Cloak of Fire
+						i(14486),	-- Pattern: Cloak of Fire (RECIPE!)
 					},
 				}),
 				n(9046, {	-- Scarshield Quartermaster <Scarshield Legion>
 					["description"] = "This mob used to simply be rare and have a limited loot table. He was later repurposed for use with the BWL Attunement Quest Chain. The two items listed below were never available in WoW Classic.",
 					["groups"] = {
 						i(13254, {	-- Astral Guard
-							["timeline"] = { REMOVED_1_6_0, ADDED_10_1_7 },	-- 07.09.2023 ATT DISCORD
+							["timeline"] = { REMOVED_1_6_0, ADDED_10_1_7 },
 						}),
 						i(13248, {	-- Burstshot Harquebus
-							["timeline"] = { REMOVED_1_6_0, ADDED_10_1_7 },	-- 07.09.2023 ATT Discord
+							["timeline"] = { REMOVED_1_6_0, ADDED_10_1_7 },
 						}),
 						i(18987, {	-- Blackhand's Command
-							["timeline"] = { REMOVED_6_0_3 },	-- 07.09.2023 ATT Discord
+							["timeline"] = { REMOVED_6_0_3 },
 						}),
 					},
 				}),

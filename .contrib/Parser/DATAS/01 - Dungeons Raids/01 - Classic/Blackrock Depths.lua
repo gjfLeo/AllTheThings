@@ -3130,11 +3130,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 					["groups"] = {
 						o(160845, {	-- Dark Coffer
-							-- #if BEFORE 4.0.3
-							["sharedDescription"] = "Is used to turn in Librams.",
-							-- #else
-							["sharedDescription"] = "Was used to turn in Librams prior to Cataclysm, is now without any purpose.",
-							-- #endif
+							["sharedDescription"] =
+								-- #if BEFORE 4.0.3
+								"Is used to turn in Librams.",
+								-- #else
+								"Was used to turn in Librams prior to Cataclysm, is now without any purpose.",
+								-- #endif
 							["cost"] = {{ "i", 11197, 1 }},	-- Dark Keeper Key
 							["groups"] = {
 								i(11752),	-- Black Blood of the Tormented

@@ -2509,7 +2509,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27482, {	-- Into the Flames
-					["qg"] = 45574,	-- Vex'tul (MobileNPC)
+					["qg"] = 45574,	-- Vex'tul (mobileNPC)
 					["description"] = "If you abandon this quest, you can pick it up again from Vex'tul at Eastwall Tower.",
 					["sourceQuest"] = 27481,	-- Out of the Ziggurat
 					["coords"] = {	-- Walks back-and-forth between these two points
@@ -2918,7 +2918,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(27481, {	-- Out of the Ziggurat
-					["qg"] = 45574,	-- Vex'tul (MobileNPC)
+					["qg"] = 45574,	-- Vex'tul (mobileNPC)
 					["sourceQuests"] = {
 						27465,	-- Argent Call: The Noxious Glade
 						27449,	-- Honor and Strength
@@ -3041,7 +3041,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 56,
 				}),
 				q(27479, {	-- Righteous Indignation
-					["qg"] = 45736,	-- Deacon Andaal (MobileNPC)
+					["qg"] = 45736,	-- Deacon Andaal (mobileNPC)
 					["coord"] = { 61.6, 43.4, EASTERN_PLAGUELANDS },	-- Walks in the "U" shape in front of the Eastwall Tower
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
@@ -3065,7 +3065,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["repeatable"] = true,
 				}),
 				q(27382, {	-- Rough Roads
-					["qg"] = 45451,	-- Argus Highbeacon (MobileNPC)
+					["qg"] = 45451,	-- Argus Highbeacon (mobileNPC)
 					["sourceQuest"] = 27373,	-- Onward, to Light's Hope Chapel
 					["coord"] = { 35.7, 68.9, EASTERN_PLAGUELANDS },	-- Walks around on top of the Crown Guard Tower
 					["timeline"] = { ADDED_4_0_3 },

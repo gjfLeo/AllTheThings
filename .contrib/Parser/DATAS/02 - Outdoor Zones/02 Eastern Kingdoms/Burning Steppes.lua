@@ -15,39 +15,39 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						crit(1, {	-- Preparation
 							["sourceQuests"] = {
-								28183,	-- Return to Keeshan (alliance)
-								28425,	-- Return to Ariok (horde)
+								28183,	-- Return to Keeshan (A)
+								28425,	-- Return to Ariok (H)
 							},
 						}),
 						crit(2, {	-- Annihilation
 							["sourceQuests"] = {
-								28322,	-- The Spoils of War (alliance)
-								28456,	-- The Spoils of War (horde)
+								28322,	-- The Spoils of War (A)
+								28456,	-- The Spoils of War (H)
 							},
 						}),
 						crit(3, {	-- Infiltration
 							["sourceQuests"] = {
-								28286,	-- Enough Damage For One Day (alliance)
-								28441,	-- Enough Damage For One Day (horde)
+								28286,	-- Enough Damage For One Day (A)
+								28441,	-- Enough Damage For One Day (H)
 							},
 						}),
 						crit(4, {	-- Anticipation
 							["sourceQuests"] = {
-								28326,	-- Placing the Pawns (alliance)
-								28449,	-- Placing the Pawns (horde)
+								28326,	-- Placing the Pawns (A)
+								28449,	-- Placing the Pawns (H)
 							},
 						}),
 					},
 					-- #else
 					["sourceQuests"] = {
-						28183,	-- Return to Keeshan (alliance)
-						28425,	-- Return to Ariok (horde)
-						28322,	-- The Spoils of War (alliance)
-						28456,	-- The Spoils of War (horde)
-						28286,	-- Enough Damage For One Day (alliance)
-						28441,	-- Enough Damage For One Day (horde)
-						28326,	-- Placing the Pawns (alliance)
-						28449,	-- Placing the Pawns (horde)
+						28183,	-- Return to Keeshan (A)
+						28425,	-- Return to Ariok (H)
+						28322,	-- The Spoils of War (A)
+						28456,	-- The Spoils of War (H)
+						28286,	-- Enough Damage For One Day (A)
+						28441,	-- Enough Damage For One Day (H)
+						28326,	-- Placing the Pawns (A)
+						28449,	-- Placing the Pawns (H)
 					},
 					-- #endif
 					-- #endif
@@ -132,7 +132,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(28316, {	-- A Deal With a Dragon (A)
 					["providers"] = {	-- Accepting any quest from the NPC turns him into a mobileNPC
 						{ "n", 48306 },	-- John J. Keeshan
-						{ "n", 48346 },	-- John J. Keeshan (Mobile)
+						{ "n", 48346 },	-- John J. Keeshan (mobileNPC)
 						{ "i", 63431 },	-- Rescued Whelplings
 					},
 					["sourceQuests"] = {
@@ -636,7 +636,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["allianceQuestData"] = q(28314, {	-- Blood Tour (A)
 						["providers"] = {	-- Accepting any quest from the NPC turns him into a mobileNPC
 						{ "n", 48306 },	-- John J. Keeshan
-						{ "n", 48346 },	-- John J. Keeshan (Mobile)
+						{ "n", 48346 },	-- John J. Keeshan (mobileNPC)
 					},
 						["sourceQuests"] = {
 							28313,	-- A Heap of Delicious Worg (A)
@@ -909,7 +909,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["allianceQuestData"] = q(28315, {	-- Draconic Vanguard (A)
 						["providers"] = {	-- Accepting any quest from the NPC turns him into a mobileNPC
 						{ "n", 48306 },	-- John J. Keeshan
-						{ "n", 48346 },	-- John J. Keeshan (Mobile)
+						{ "n", 48346 },	-- John J. Keeshan (mobileNPC)
 					},
 						["sourceQuests"] = {
 							28313,	-- A Heap of Delicious Worg (A)
@@ -1168,7 +1168,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 49. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 50 (TODO: Test max level between 53 and 60)
+					-- Cataclysm: Maximum is level 50. (TODO: Test max level between 53 and 60)
 					["lvl"] = { 49, 50 },
 					-- #endif
 				})),

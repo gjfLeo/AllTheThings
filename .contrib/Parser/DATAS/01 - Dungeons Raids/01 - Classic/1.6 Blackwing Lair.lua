@@ -206,20 +206,26 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(7782, bubbleDownSelf(SOD_REMOVED_1_15_4, {	-- The Lord of Blackrock [A] (2/2)
-					-- #if AFTER LEGION
-					["qg"] = 107574,	-- Anduin Wrynn
-					["coord"] = { 85.6, 31.8, STORMWIND_CITY },
-					-- #elseif AFTER WRATH
-					["qg"] = 29611,	-- King Varian Wrynn <King of Stormwind>
-					-- #if AFTER CATA
-					["coord"] = { 85.6, 31.8, STORMWIND_CITY },
-					-- #else
-					["coord"] = { 79.8, 38.6, STORMWIND_CITY },
-					-- #endif
-					-- #else
-					["qg"] = 1748,	-- Highlord Bolvar Fordragon
-					["coord"] = { 78.0, 18.0, STORMWIND_CITY },
-					-- #endif
+					["qgs"] = {
+						-- #if AFTER LEGION
+						107574,	-- Anduin Wrynn
+						1750,	-- Grand Admiral Jes-Tereth
+						-- #elseif AFTER WRATH
+						29611,	-- King Varian Wrynn <King of Stormwind>
+						-- #else
+						1748,	-- Highlord Bolvar Fordragon
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER LEGION
+						{ 85.6, 31.8, STORMWIND_CITY },	-- Anduin Wrynn <King of Stormwind>
+						{ 85.8, 32.4, STORMWIND_CITY },	-- Grand Admiral Jes-Tereth
+						-- #elseif AFTER WRATH
+						{ 85.6, 31.8, STORMWIND_CITY },	-- King Varian Wrynn <King of Stormwind>
+						-- #else
+						{ 78.0, 18.0, STORMWIND_CITY },	-- Highlord Bolvar Fordragon
+						-- #endif
+					},
 					["sourceQuest"] = 7781,	-- The Lord of Blackrock [A]
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -247,19 +253,28 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					["races"] = HORDE_ONLY,
 				}),
 				q(7784, bubbleDownSelf(SOD_REMOVED_1_15_4, {	-- The Lord of Blackrock [H] (2/2)
-					-- #if BEFORE CATA
-					["qg"] = 4949,	-- Thrall <Warchief>
-					["coord"] = { 32, 37.8, ORGRIMMAR },
-					-- #else
-					-- #if AFTER LEGION
-					["qg"] = 14720,	-- High Overlord Saurfang
-					-- #elseif AFTER CATA
-					["qg"] = 39605,	-- Garrosh Hellscream <Warchief>
-					-- #else
-					["qg"] = 86832,	-- Vol'jin <Warchief>
-					-- #endif
-					["coord"] = { 48.6, 71.0, ORGRIMMAR },
-					-- #endif
+					["qgs"] = {
+						-- #if AFTER BFA
+						3144,	-- Eitrigg
+						-- #elseif AFTER LEGION
+						14720,	-- High Overlord Saurfang
+						-- #elseif AFTER WOD
+						86832,	-- Vol'jin <Warchief>
+						-- #elseif AFTER CATA
+						39605,	-- Garrosh Hellscream <Warchief>
+						-- #else
+						4949,	-- Thrall <Warchief>
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER BFA
+						{ 49.0, 72.8, ORGRIMMAR },	-- Eitrigg
+						-- #elseif AFTER CATA
+						{ 48.6, 71.0, ORGRIMMAR },	-- Saurfang, Vol'jin, Garrosh
+						-- #else
+						{ 32, 37.8, ORGRIMMAR },	-- Thrall <Warchief>
+						-- #endif
+					},
 					["sourceQuest"] = 7783,	-- The Lord of Blackrock [H]
 					["races"] = HORDE_ONLY,
 					["groups"] = {

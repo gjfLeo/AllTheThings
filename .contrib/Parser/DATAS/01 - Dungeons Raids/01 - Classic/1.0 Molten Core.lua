@@ -283,11 +283,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				q(7848, {	-- Attunement to the Core
 					["qg"] = 14387,	-- Lothos Riftwaker
 					["timeline"] = { ADDED_1_3_0 },
-					-- #if BEFORE 5.4.0
-					["description"] = "Complete this quest to be able to quickly teleport to Molten Core by simply talking to Lothos.",
-					-- #else
-					["description"] = "This quest is no longer required to enter Molten Core - you can now speak to Lothos and have him transport you inside without doing the attunement.",
-					-- #endif
+					["description"] =
+						-- #if BEFORE 5.4.0
+						"Complete this quest to be able to quickly teleport to Molten Core by simply talking to Lothos.",
+						-- #else
+						"This quest is no longer required to enter Molten Core - you can now speak to Lothos and have him transport you inside without doing the attunement.",
+						-- #endif
 					["coord"] = { 54.2, 83.3, BLACKROCK_MOUNTAIN },
 					["maps"] = { BLACKROCK_DEPTHS },
 					["lvl"] = 55,

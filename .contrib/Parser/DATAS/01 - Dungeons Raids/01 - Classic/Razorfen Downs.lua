@@ -375,11 +375,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			})),
 			n(75813, {	-- Sah'rhee
 				["description"] =
-				-- #if AFTER 8.3.0
-				"Sah'rhee doesn't spawn in every instance run. Whenever he spawns, he's trackable as a green dot on the mini-map, and you can click his body to start the encounter.",
-				-- #else
-				"Sah'rhee doesn't spawn in every instance run. Click his body in The Murder Pen to start the encounter.",
-				-- #endif
+					-- #if AFTER 8.3.0
+					"Sah'rhee doesn't spawn in every instance run. Whenever he spawns, he's trackable as a green dot on the mini-map, and you can click his body to start the encounter.",
+					-- #else
+					"Sah'rhee doesn't spawn in every instance run. Click his body in The Murder Pen to start the encounter.",
+					-- #endif
 				["coord"] = { 80.0, 26.0, RAZORFEN_DOWNS },	-- The Murder Pens
 				["crs"] = { 75329 },	-- Sah'rhee (prior to clicking)
 				["timeline"] = { ADDED_6_0_2 },

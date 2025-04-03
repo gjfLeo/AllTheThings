@@ -368,7 +368,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						3044,	-- Miles Welsh <Priest Trainer>
 					},
 					["coords"] = {
-						{ 49.01, 18.32, UNDERCITY },
+						{ 49.0, 18.3, UNDERCITY },
 						{ 35.6, 87.6, ORGRIMMAR },
 						{ 26.0, 15.8, THUNDER_BLUFF },
 					},
@@ -622,7 +622,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 8523 },	-- Field Testing Kit
 					},
 					["sourceQuest"] = 238,	-- Errand for Apothecary Zinge (2/2)
-					["coord"] = { 50.13, 67.98, UNDERCITY },
+					["coord"] = { 50.1, 68.0, UNDERCITY },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { TANARIS },
 					["races"] = HORDE_ONLY,
@@ -1376,7 +1376,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if NOT ANYCLASSIC
 				q(5658, {	-- Touch of Weakness [Undercity]
 					["qg"] = 4606,	-- Aelthalyste
-					["coord"] = { 49.01, 18.32, UNDERCITY },
+					["coord"] = { 49.0, 18.3, UNDERCITY },
 					["altQuests"] = {
 						5660,	-- Touch of Weakness [Durotar]
 						5661,	-- Touch of Weakness [Mulgore]
@@ -1400,7 +1400,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(1841, {	-- Velora Nitely and the Brutal Legguards
 					["qg"] = 5878,	-- Thun'grim Firegaze
 					["sourceQuest"] = 1838,	-- Brutal Armor
-					["coord"] = { 257.2, 30.2, THE_BARRENS },
+					["coord"] = { 57.2, 30.2, THE_BARRENS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["classes"] = { WARRIOR },
 					["races"] = HORDE_ONLY,

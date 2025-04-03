@@ -507,14 +507,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				q(26365, {	-- Hero's Call: Redridge Mountains! (From NPCs)
-					["providers"] = {
-						-- #if AFTER 7.0.3
-						{ "n", 107574 },	-- Anduin Wrynn <King of Stormwind>
+					["qgs"] = {
+						-- #if AFTER LEGION
+						107574,	-- Anduin Wrynn
 						-- #else
-						{ "n", 29611 },		-- King Varian Wrynn <King of Stormwind>
+						29611,	-- King Varian Wrynn <King of Stormwind>
 						-- #endif
-						{ "n", 1750 },		-- Grand Admiral Jes-Tereth
-						{ "n", 821 },		-- Captain Danuvin
+						1750,	-- Grand Admiral Jes-Tereth
+						821,	-- Captain Danuvin
 					},
 					["coords"] = {
 						-- #if AFTER 7.0.3
@@ -557,7 +557,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 14. (Confirmed by Hurieve, Crieve's Level 14 Hunter.)
-					-- Cataclysm: Maximum is level 18 (TODO: Test max level between 16 and 30)
+					-- Cataclysm: Maximum is level 18. (TODO: Test max level between 16 and 30)
 					["lvl"] = { 14, 18 },
 					-- #endif
 					["groups"] = {

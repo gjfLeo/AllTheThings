@@ -118,11 +118,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					pet(397),	-- Skunk (PET!)
 					pet(400, {	-- Widow Spiderling (PET!)
 						["description"] =
-						-- #if BEFORE 5.1.0
-						"Spawns during the night between 6:30pm to 6:30am realm time, but can be found as a secondary pet all day long.",
-						-- #else
-						"Spawns during the night between 6:30pm to 6:30am PST(US)/CEST(EU)/AEST(OCE), but can be found as a secondary pet all day long.",
-						-- #endif
+							-- #if BEFORE 5.1.0
+							"Spawns during the night between 6:30pm to 6:30am realm time, but can be found as a secondary pet all day long.",
+							-- #else
+							"Spawns during the night between 6:30pm to 6:30am PST(US)/CEST(EU)/AEST(OCE), but can be found as a secondary pet all day long.",
+							-- #endif
 					}),
 				},
 			}),
@@ -677,7 +677,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 19. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 23 (TODO: Test max level between 22 and 32)
+					-- Cataclysm: Maximum is level 23. (TODO: Test max level between 22 and 32)
 					["lvl"] = { 19, 23 },
 					-- #endif
 				})),
@@ -2105,11 +2105,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(771, {  -- Commander Felstrom
 					["description"] =
-					-- #if AFTER 10.1.7
-					"Wanders the Raven Hill Cemetary, spawns at the given coordinate.",
-					-- #else
-					"Spawns in the Dawning Wood Catacombs.",
-					-- #endif
+						-- #if AFTER 10.1.7
+						"Wanders the Raven Hill Cemetary, spawns at the given coordinate.",
+						-- #else
+						"Spawns in the Dawning Wood Catacombs.",
+						-- #endif
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 21.8, 34.0, DUSKWOOD },
@@ -2142,11 +2142,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(507, {	-- Fenros
 					["description"] =
-					-- #if BEFORE 4.0.3
-					"Patrols between the coordinates.",
-					-- #else
-					"Spawns in one of multiple locations in Brightwood Grove, and can either be stationary or patrolling.",
-					-- #endif
+						-- #if BEFORE 4.0.3
+						"Patrols between the coordinates.",
+						-- #else
+						"Spawns in one of multiple locations in Brightwood Grove, and can either be stationary or patrolling.",
+						-- #endif
 					["coords"] = {
 						-- #if BEFORE 4.0.3
 						{ 59.8, 26.8, DUSKWOOD },
@@ -2183,11 +2183,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(503, {  -- Lord Malathrom
 					["description"] =
-					-- #if AFTER 10.1.7
-					"Spawns in one of multiple locations in the Dawning Wood Catacombs.",
-					-- #else
-					"Spawns in the Dawning Wood Catacombs.",
-					-- #endif
+						-- #if AFTER 10.1.7
+						"Spawns in one of multiple locations in the Dawning Wood Catacombs.",
+						-- #else
+						"Spawns in the Dawning Wood Catacombs.",
+						-- #endif
 					["coords"] = {
 						-- #if AFTER 10.1.7
 						{ 24.2, 34.5, DUSKWOOD },
@@ -2209,11 +2209,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(521, {  -- Lupos
 					["description"] =
-					-- #if AFTER 4.0.3
-					"Spawns in one of multiple locations at the eastern end of the Darkened Bank.",
-					-- #else
-					"Spawns randomly in the north-east area of the zone.",
-					-- #endif
+						-- #if AFTER 4.0.3
+						"Spawns in one of multiple locations at the eastern end of the Darkened Bank.",
+						-- #else
+						"Spawns randomly in the north-east area of the zone.",
+						-- #endif
 					["coords"] = {
 						-- #if AFTER 4.0.3
 						{ 60.8, 20.6, DUSKWOOD },

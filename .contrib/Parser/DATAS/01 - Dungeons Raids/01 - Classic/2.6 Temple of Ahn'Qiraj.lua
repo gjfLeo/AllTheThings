@@ -1324,15 +1324,19 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				["groups"] = {
 			-- #endif
 					n(SILITHID_ROYALTY_SHARED_DROPS, {
+						["description"] =
+							-- #if ANYCLASSIC
+							"This can be a fairly -buggy- encounter if you don't do it right. Kill 1 boss at a time and allow it to get consumed. Then kill the next one and allow it to also get consumed. The last boss you leave alive determines the loot that can drop. These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
+							-- #else
+							"These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
+							-- #endif
 						-- #if ANYCLASSIC
-						["description"] = "This can be a fairly -buggy- encounter if you don't do it right. Kill 1 boss at a time and allow it to get consumed. Then kill the next one and allow it to also get consumed. The last boss you leave alive determines the loot that can drop. These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
 						["providers"] = {
 							{ "n", 15511 },	-- Lord Kri
 							{ "n", 15543 },	-- Princess Yauj
 							{ "n", 15544 },	-- Vem
 						},
 						-- #else
-						["description"] = "These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
 						["crs"] = {
 							15511,	-- Lord Kri
 							15543,	-- Princess Yauj
@@ -1421,11 +1425,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				},
 			}),
 			e(1548, {	-- Viscidus
-				-- #if BEFORE CATA
-				["description"] = "This boss requires 200 frost hits to freeze. Once frozen, you need 75 melee hits to shatter him. Equipping barov peasant caller trinket and using it after boss freezes will help to do this.",
-				-- #else
-				["description"] = "This boss requires 20 frost hits to freeze. Once frozen, you need 30 melee hits to shatter him. Equipping the Crate of Kidnapped Puppies or Barov Peasant Caller and using it after the boss freezes will help.",
-				-- #endif
+				["description"] =
+					-- #if BEFORE CATA
+					"This boss requires 200 frost hits to freeze. Once frozen, you need 75 melee hits to shatter him. Equipping barov peasant caller trinket and using it after boss freezes will help to do this.",
+					-- #else
+					"This boss requires 20 frost hits to freeze. Once frozen, you need 30 melee hits to shatter him. Equipping the Crate of Kidnapped Puppies or Barov Peasant Caller and using it after the boss freezes will help.",
+					-- #endif
 				["creatureID"] = 15299,
 				["groups"] = {
 					i(20928),	-- Qiraji Bindings of Command

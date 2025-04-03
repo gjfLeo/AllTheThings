@@ -393,11 +393,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			applyclassicphase(SOD_PHASE_FOUR, q(84495, {	-- Fiery Plate Gauntlets
 				["qg"] = 10637,	-- Malyfous Darkhammer <The Thorium Brotherhood>
 				["sourceQuest"] = 5103,	-- Hot Fiery Death
-				-- #if BEFORE TBC
-				["requireSkill"] = 9788,	-- Armorsmith
-				-- #else
-				["requireSkill"] = BLACKSMITHING,
-				-- #endif
+				["requireSkill"] =
+					-- #if AFTER TBC
+					BLACKSMITHING,
+					-- #else
+					9788,	-- Armorsmith
+					-- #endif
 				["coord"] = { 61.0, 38.8, WINTERSPRING },
 				["timeline"] = { ADDED_1_15_3 },
 				["cost"] = {
@@ -420,11 +421,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			q(5124, {	-- Fiery Plate Gauntlets
 				["qg"] = 10637,	-- Malyfous Darkhammer <The Thorium Brotherhood>
 				["sourceQuest"] = 5103,	-- Hot Fiery Death
-				-- #if BEFORE TBC
-				["requireSkill"] = 9788,	-- Armorsmith
-				-- #else
-				["requireSkill"] = BLACKSMITHING,
-				-- #endif
+				["requireSkill"] =
+					-- #if AFTER TBC
+					BLACKSMITHING,
+					-- #else
+					9788,	-- Armorsmith
+					-- #endif
 				["coord"] = { 61.0, 38.8, WINTERSPRING },
 				["timeline"] = {
 					-- #if SEASON_OF_DISCOVERY
@@ -547,11 +549,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			q(5103, {	-- Hot Fiery Death
 				["provider"] = { "o", 176090 },	-- Human Remains
-				-- #if BEFORE TBC
-				["requireSkill"] = 9788,	-- Armorsmith
-				-- #else
-				["requireSkill"] = BLACKSMITHING,
-				-- #endif
+				["requireSkill"] =
+					-- #if AFTER TBC
+					BLACKSMITHING,
+					-- #else
+					9788,	-- Armorsmith
+					-- #endif
 				["description"] = "At the bottom floor of Lower Blackrock Spire near the lava.",
 				["timeline"] = { REMOVED_4_0_3 },
 				["lvl"] = 55,
@@ -854,11 +857,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			q(5127, {	-- The Demon Forge
 				["qg"] = 10918,	-- Lorax
 				["sourceQuest"] = 5126,	-- Lorax's Tale
-				-- #if BEFORE TBC
-				["requireSkill"] = 9788,	-- Armorsmith
-				-- #else
-				["requireSkill"] = BLACKSMITHING,
-				-- #endif
+				["requireSkill"] =
+					-- #if AFTER TBC
+					BLACKSMITHING,
+					-- #else
+					9788,	-- Armorsmith
+					-- #endif
 				["coord"] = { 63.8, 73.8, WINTERSPRING },
 				["timeline"] = { REMOVED_4_0_3 },
 				["learnedAt"] = 275,
@@ -1523,10 +1527,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			n(9218, {	-- Spirestone Battle Lord (Rare)
 				["coord"] = { 39.0, 64.0, LBRS_HORDEMAR_CITY },	-- Mok'Doom
-				-- #if BEFORE 6.0.1
-				["description"] = "This is a rare that is not always present.",
-				-- #endif
-				["description"] = "This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+				["description"] =
+					-- #if AFTER 6.0.1
+					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					-- #else
+					"This is a rare that is not always present.",
+					-- #endif
 				["groups"] = {
 					i(13285),	-- The Blackrock Slicers
 					-- #if SEASON_OF_DISCOVERY
@@ -1543,10 +1549,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			n(9219, {	-- Spirestone Butcher (Rare)
 				["coord"] = { 54.0, 58.0, LBRS_HORDEMAR_CITY },
-				-- #if BEFORE 6.0.1
-				["description"] = "This is a rare that is not always present.",
-				-- #endif
-				["description"] = "This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+				["description"] =
+					-- #if AFTER 6.0.1
+					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					-- #else
+					"This is a rare that is not always present.",
+					-- #endif
 				["groups"] = {
 					i(13286),	-- Rivenspike
 					-- #if SEASON_OF_DISCOVERY
@@ -1895,11 +1903,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			n(10376, {	-- Crystal Fang (Rare)
 				["coord"] = { 55.0, 75.0, LBRS_SKITTERWEB_TUNNELS },
-				-- #if BEFORE 6.0.1
-				["description"] = "This is a rare that is not always present.",
-				-- #else
-				["description"] = "This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
-				-- #endif
+				["description"] =
+					-- #if AFTER 6.0.1
+					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					-- #else
+					"This is a rare that is not always present.",
+					-- #endif
 				["groups"] = {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_FOUR, i(228592, {	-- Fang of the Crystal Spider
@@ -2106,11 +2115,12 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					{ 36.0, 72.0, LBRS_HALYCONS_LAIR },
 					{ 36.0, 60.0, LBRS_HALYCONS_LAIR },
 				},
-				-- #if BEFORE 6.0.1
-				["description"] = "This is a rare that is not always present.",
-				-- #else
-				["description"] = "This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
-				-- #endif
+				["description"] =
+					-- #if AFTER 6.0.1
+					"This is a rare that is not always present.\nThe Rare can be seen at the entrance of the Dungeon via the /tar command.",
+					-- #else
+					"This is a rare that is not always present.",
+					-- #endif
 				["groups"] = {
 					i(13204),	-- Bashguuder
 					i(13198),	-- Hurd Smasher

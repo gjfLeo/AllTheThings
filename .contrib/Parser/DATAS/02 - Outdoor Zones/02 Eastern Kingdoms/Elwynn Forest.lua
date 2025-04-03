@@ -3743,7 +3743,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["cr"] = 476,	-- Kobold Geomancer
 				}),
 				i(1389, {	-- Kobold Mining Mallet
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["cr"] = 40,	-- Kobold Miner
 					["coords"] = {
 						{ 61.4, 50.4, ELWYNN_FOREST },
@@ -3752,7 +3752,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(1195, {	-- Kobold Mining Shovel
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["cr"] = 475,	-- Kobold Tunneler
 					["coords"] = {
 						{ 41.6, 78.8, ELWYNN_FOREST },
@@ -3861,7 +3861,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				-- #endif
 				i(781, {	-- Stone Gnoll Hammer
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
 						478,	-- Riverpaw Outrunner
 						97,		-- Riverpaw Runt

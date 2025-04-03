@@ -1001,8 +1001,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				},
 				["coords"] = {
-					{ 27.6, 21.2, STORMWIND_CITY },
-					{ 62.3, 30.3, STORMWIND_CITY },
+					{ 27.6, 21.2, STORMWIND_CITY },	-- Halford Wyrmbane
+					{ 62.3, 30.3, STORMWIND_CITY },	-- Hero's Herald
+					{ 63.2, 71.4, STORMWIND_CITY },	-- Hero's Herald
+					{ 45.2, 50.2, DARNASSUS },	-- Hero's Herald
 				},
 				["timeline"] = { ADDED_8_0_1 },
 				["races"] = ALLIANCE_ONLY,

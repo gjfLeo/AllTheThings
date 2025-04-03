@@ -482,7 +482,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 54. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 57 (TODO: Test max level between 58 and 65)
+					-- Cataclysm: Maximum is level 57. (TODO: Test max level between 58 and 65)
 					["lvl"] = { 54, 57 },
 					-- #endif
 				})),
@@ -1603,7 +1603,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["providers"] = {
 								{ "i",  10759 },	-- Severed Horn of the Defiler
 								{ "i",  10757 },	-- Ward of the Defiler
-								{ "o", 153205 },	-- Altar of the Defiler
+								{ "o", 153205 },	-- Altar of the Defiler
 							},
 							["coord"] = { 47.6, 30.0, BLASTED_LANDS },
 							["cr"] = 7664,	-- Razelikh the Defiler
