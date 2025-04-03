@@ -953,11 +953,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				-- #if AFTER SHADOWLANDS
 				q(53370, {	-- Battle for Azeroth: Hour of Reckoning [SL+] / Hour of Reckoning
 					["qg"] = 144095,	-- Master Mathias Shaw
 					["description"] = "If this quest is not automatically offered, you can try picking it up from a War Board, or taking the boat from Stormwind to Boralus.",
-					["timeline"] = { ADDED_8_0_1 },
+					["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(163542, {	-- Footman's Warmace
@@ -992,7 +991,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				-- #endif
 				q(46727, {	-- Battle for Azeroth: Tides of War (BfA version)
 				["qgs"] = {
 					142930,	-- Halford Wyrmbane
@@ -3049,7 +3047,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 144095,	-- Master Mathias Shaw
 					["sourceQuest"] = 53370,	-- Hour of Reckoning
 					["coord"] = { 22.4, 32.6, STORMWIND_CITY },
-					["timeline"] = { ADDED_8_0_1 },
+					["timeline"] = { ADDED_8_0_1, REMOVED_9_0_1 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				-- #if ANYCLASSIC
