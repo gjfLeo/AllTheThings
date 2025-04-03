@@ -1594,7 +1594,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 22,
 					["groups"] = {
 						objective(1, {	-- 0/1 Flagon of Dwarven Honeymead
-							["provider"] = { "i", 2594 },	-- Flagon of Dwarven Honeymead
+							["cost"] = {{ "i", 2594, 1 }},	-- Flagon of Dwarven Honeymead
 							["coord"] = { 10.6, 60.8, WETLANDS },
 							["cr"] = 1464,	-- Innkeeper Helbrek <Innkeeper>
 						}),

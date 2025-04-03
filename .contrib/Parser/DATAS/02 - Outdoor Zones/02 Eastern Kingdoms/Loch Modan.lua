@@ -586,7 +586,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["lvl"] = 10,
 					["groups"] = {
 						objective(1, {	-- 0/5 Crocolisk Meat
-							["provider"] = { "i", 2924 },	-- Crocolisk Meat
+							["cost"] = {{ "i", 2924, 5 }},	-- Crocolisk Meat
 							["crs"] = {
 								5053,	-- Deviate Crocolisk
 								2476,	-- Large Loch Crocolisk
