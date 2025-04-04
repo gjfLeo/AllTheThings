@@ -894,7 +894,7 @@ local function AddSourceInformation(sourceID, info, sourceGroup)
 	if #allVisualSources < 1 or not contains(allVisualSources, sourceID) then
 		-- Items with SourceInfo which don't register as having any visual data or don't include themselves as a shared appearance...
 		-- This typically happens on Items which can have a collectible SourceID, but not usable for Transmog
-		tinsert(info, 1, { left = L.FORCE_REFRESH_REQUIRED, wrap = true, color = app.Colors.TooltipDescription });
+		tinsert(info, { left = L.FORCE_REFRESH_REQUIRED, wrap = true, color = app.Colors.TooltipDescription });
 	end
 	local text, linkInfo
 	local useItemIDs, origSource = app.Settings:GetTooltipSetting("itemID"), app.Settings:GetTooltipSetting("IncludeOriginalSource")
