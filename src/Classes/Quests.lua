@@ -123,7 +123,7 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 		if ValidQuestDataLoads[questID] then
 			-- since ATT is specifically requesting a questID, we will make sure not to ignore it in the event handler
 			ValidQuestDataLoads[questID] = nil
-			C_QuestLog_RequestLoadQuestByID(questID)
+			Runner.Run(C_QuestLog_RequestLoadQuestByID, questID)
 		else
 			Runner.Run(C_QuestLog_RequestLoadQuestByID, questID)
 		end
