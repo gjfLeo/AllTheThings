@@ -4845,6 +4845,41 @@ profession(LEATHERWORKING, {
 			["name"] = "Helms",
 			["categoryID"] = 905,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Helm",
+					["recipeID"] = 1224263,
+				},
+				{
+					["name"] = "Bloodied Leather Helm",
+					["recipeID"] = 1224259,
+				},
+				{
+					["name"] = "Bloodied Scale Helm",
+					["recipeID"] = 1224269,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Helm",
+					["recipeID"] = 1224265,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Helm",
+					["recipeID"] = 78484,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Helm",
+					["recipeID"] = 78474,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Helm",
+					["recipeID"] = 78469,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Helm",
+					["recipeID"] = 78480,
+				},
+				-- #endif
 				{
 					["name"] = "Darkbrand Helm",
 					["recipeID"] = 78424,
@@ -4853,6 +4888,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Tsunami Helm",
 					["recipeID"] = 78432,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Helm",
+					["recipeID"] = 1224143,
+				},
+				{
+					["name"] = "Vicious Dragonscale Helm",
+					["recipeID"] = 1224151,
+				},
+				{
+					["name"] = "Vicious Leather Helm",
+					["recipeID"] = 1224175,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Helm",
+					["recipeID"] = 1224199,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Helm",
 					["recipeID"] = 78484,
@@ -4869,12 +4923,48 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Helm",
 					["recipeID"] = 78480,
 				},
+				-- #endif
 			},
 		},
 		{
 			["name"] = "Shoulders",
 			["categoryID"] = 906,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Shoulders",
+					["recipeID"] = 1224247,
+				},
+				{
+					["name"] = "Bloodied Leather Shoulders",
+					["recipeID"] = 1224251,
+				},
+				{
+					["name"] = "Bloodied Scale Shoulders",
+					["recipeID"] = 1224260,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Shoulders",
+					["recipeID"] = 1224256,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Shoulders",
+					["recipeID"] = 78470,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Shoulders",
+					["recipeID"] = 78451,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Shoulders",
+					["recipeID"] = 78455,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Shoulders",
+					["recipeID"] = 78464,
+				},
+				-- #endif
 				{
 					["name"] = "Darkbrand Shoulders",
 					["recipeID"] = 78411,
@@ -4883,6 +4973,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Tsunami Shoulders",
 					["recipeID"] = 78415,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Shoulders",
+					["recipeID"] = 1224145,
+				},
+				{
+					["name"] = "Vicious Dragonscale Shoulders",
+					["recipeID"] = 1224153,
+				},
+				{
+					["name"] = "Vicious Leather Shoulders",
+					["recipeID"] = 1224177,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Shoulders",
+					["recipeID"] = 1224201,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Shoulders",
 					["recipeID"] = 78470,
@@ -4899,6 +5008,7 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Shoulders",
 					["recipeID"] = 78464,
 				},
+				-- #endif
 			},
 		},
 		{
@@ -4909,6 +5019,41 @@ profession(LEATHERWORKING, {
 					["name"] = "Assassin's Chestplate",
 					["recipeID"] = 78488,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Chest",
+					["recipeID"] = 1224271,
+				},
+				{
+					["name"] = "Bloodied Leather Chest",
+					["recipeID"] = 1224266,
+				},
+				{
+					["name"] = "Bloodied Scale Chest",
+					["recipeID"] = 1224268,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Chest",
+					["recipeID"] = 1224257,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Chest",
+					["recipeID"] = 78483,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Chest",
+					["recipeID"] = 78486,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Chest",
+					["recipeID"] = 78481,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Chest",
+					["recipeID"] = 78467,
+				},
+				-- #endif
 				{
 					["name"] = "Chestguard of Nature's Fury",
 					["recipeID"] = 78487,
@@ -4929,6 +5074,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Twilight Scale Chestguard",
 					["recipeID"] = 78489,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Chest",
+					["recipeID"] = 1224141,
+				},
+				{
+					["name"] = "Vicious Dragonscale Chest",
+					["recipeID"] = 1224149,
+				},
+				{
+					["name"] = "Vicious Leather Chest",
+					["recipeID"] = 1224173,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Chest",
+					["recipeID"] = 1224197,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Chest",
 					["recipeID"] = 78483,
@@ -4945,6 +5109,7 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Chest",
 					["recipeID"] = 78467,
 				},
+				-- #endif
 			},
 		},
 		{
@@ -4956,6 +5121,41 @@ profession(LEATHERWORKING, {
 					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101940,
 				}),
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Bracers",
+					["recipeID"] = 1224246,
+				},
+				{
+					["name"] = "Bloodied Leather Bracers",
+					["recipeID"] = 1224242,
+				},
+				{
+					["name"] = "Bloodied Scale Bracers",
+					["recipeID"] = 1224244,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Bracers",
+					["recipeID"] = 1224240,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Bracers",
+					["recipeID"] = 78448,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Bracers",
+					["recipeID"] = 78450,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Bracers",
+					["recipeID"] = 78446,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Bracers",
+					["recipeID"] = 78444,
+				},
+				-- #endif
 				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Bracers of Flowing Serenity",
 					["timeline"] = { ADDED_4_3_0 },
@@ -4979,6 +5179,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Tsunami Bracers",
 					["recipeID"] = 78388,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Bracers",
+					["recipeID"] = 1224140,
+				},
+				{
+					["name"] = "Vicious Dragonscale Bracers",
+					["recipeID"] = 1224148,
+				},
+				{
+					["name"] = "Vicious Leather Bracers",
+					["recipeID"] = 1224172,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Bracers",
+					["recipeID"] = 1224196,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Bracers",
 					["recipeID"] = 78448,
@@ -4995,12 +5214,48 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Bracers",
 					["recipeID"] = 78444,
 				},
+				-- #endif
 			},
 		},
 		{
 			["name"] = "Gloves",
 			["categoryID"] = 909,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Gloves",
+					["recipeID"] = 1224255,
+				},
+				{
+					["name"] = "Bloodied Leather Gloves",
+					["recipeID"] = 1224243,
+				},
+				{
+					["name"] = "Bloodied Scale Gloves",
+					["recipeID"] = 1224245,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Gloves",
+					["recipeID"] = 1224248,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Gloves",
+					["recipeID"] = 78449,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Gloves",
+					["recipeID"] = 78459,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Gloves",
+					["recipeID"] = 78447,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Gloves",
+					["recipeID"] = 78452,
+				},
+				-- #endif
 				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Clutches of Evil",
 					["timeline"] = { ADDED_4_2_0 },
@@ -5029,6 +5284,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Tsunami Gloves",
 					["recipeID"] = 78406,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Gloves",
+					["recipeID"] = 1224142,
+				},
+				{
+					["name"] = "Vicious Dragonscale Gloves",
+					["recipeID"] = 1224150,
+				},
+				{
+					["name"] = "Vicious Leather Gloves",
+					["recipeID"] = 1224174,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Gloves",
+					["recipeID"] = 1224198,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Gloves",
 					["recipeID"] = 78449,
@@ -5045,6 +5319,7 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Gloves",
 					["recipeID"] = 78452,
 				},
+				-- #endif
 			},
 		},
 		{
@@ -5055,6 +5330,41 @@ profession(LEATHERWORKING, {
 					["name"] = "Belt of Nefarious Whispers",
 					["recipeID"] = 78461,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Belt",
+					["recipeID"] = 1224262,
+				},
+				{
+					["name"] = "Bloodied Leather Belt",
+					["recipeID"] = 1224258,
+				},
+				{
+					["name"] = "Bloodied Scale Belt",
+					["recipeID"] = 1224253,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Belt",
+					["recipeID"] = 1224241,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Belt",
+					["recipeID"] = 78457,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Belt",
+					["recipeID"] = 78473,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Belt",
+					["recipeID"] = 78468,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Belt",
+					["recipeID"] = 78445,
+				},
+				-- #endif
 				{
 					["name"] = "Corded Viper Belt",
 					["recipeID"] = 78463,
@@ -5075,6 +5385,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Tsunami Belt",
 					["recipeID"] = 78396,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Belt",
+					["recipeID"] = 1224138,
+				},
+				{
+					["name"] = "Vicious Dragonscale Belt",
+					["recipeID"] = 1224146,
+				},
+				{
+					["name"] = "Vicious Leather Belt",
+					["recipeID"] = 1224170,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Belt",
+					["recipeID"] = 1224194,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Belt",
 					["recipeID"] = 78457,
@@ -5091,6 +5420,7 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Belt",
 					["recipeID"] = 78445,
 				},
+				-- #endif
 			},
 		},
 		{
@@ -5102,6 +5432,41 @@ profession(LEATHERWORKING, {
 					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101935,
 				}),
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Legs",
+					["recipeID"] = 1224270,
+				},
+				{
+					["name"] = "Bloodied Leather Legs",
+					["recipeID"] = 1224267,
+				},
+				{
+					["name"] = "Bloodied Scale Legs",
+					["recipeID"] = 1224261,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Legs",
+					["recipeID"] = 1224264,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Legs",
+					["recipeID"] = 78471,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Legs",
+					["recipeID"] = 78485,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Legs",
+					["recipeID"] = 78482,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Legs",
+					["recipeID"] = 78479,
+				},
+				-- #endif
 				{
 					["name"] = "Darkbrand Leggings",
 					["recipeID"] = 78433,
@@ -5125,6 +5490,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Tsunami Leggings",
 					["recipeID"] = 78427,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Legs",
+					["recipeID"] = 1224144,
+				},
+				{
+					["name"] = "Vicious Dragonscale Legs",
+					["recipeID"] = 1224152,
+				},
+				{
+					["name"] = "Vicious Leather Legs",
+					["recipeID"] = 1224176,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Legs",
+					["recipeID"] = 1224200,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Legs",
 					["recipeID"] = 78471,
@@ -5141,12 +5525,48 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Legs",
 					["recipeID"] = 78479,
 				},
+				-- #endif
 			},
 		},
 		{
 			["name"] = "Boots",
 			["categoryID"] = 912,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Bloodied Dragonscale Boots",
+					["recipeID"] = 1224254,
+				},
+				{
+					["name"] = "Bloodied Leather Boots",
+					["recipeID"] = 1224250,
+				},
+				{
+					["name"] = "Bloodied Scale Boots",
+					["recipeID"] = 1224252,
+				},
+				{
+					["name"] = "Bloodied Wyrmhide Boots",
+					["recipeID"] = 1224249,
+				},
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Charscale Boots",
+					["recipeID"] = 78456,
+				},
+				{
+					["name"] = "Bloodthirsty Dragonscale Boots",
+					["recipeID"] = 78458,
+				},
+				{
+					["name"] = "Bloodthirsty Leather Boots",
+					["recipeID"] = 78454,
+				},
+				{
+					["name"] = "Bloodthirsty Wyrmhide Boots",
+					["recipeID"] = 78453,
+				},
+				-- #endif
 				{
 					["name"] = "Darkbrand Boots",
 					["recipeID"] = 78407,
@@ -5175,6 +5595,25 @@ profession(LEATHERWORKING, {
 					["name"] = "Tsunami Boots",
 					["recipeID"] = 78410,
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Charscale Boots",
+					["recipeID"] = 1224139,
+				},
+				{
+					["name"] = "Vicious Dragonscale Boots",
+					["recipeID"] = 1224147,
+				},
+				{
+					["name"] = "Vicious Leather Boots",
+					["recipeID"] = 1224171,
+				},
+				{
+					["name"] = "Vicious Wyrmhide Boots",
+					["recipeID"] = 1224195,
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Charscale Boots",
 					["recipeID"] = 78456,
@@ -5191,6 +5630,7 @@ profession(LEATHERWORKING, {
 					["name"] = "Vicious Wyrmhide Boots",
 					["recipeID"] = 78453,
 				},
+				-- #endif
 			},
 		},
 		{

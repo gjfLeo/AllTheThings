@@ -921,6 +921,7 @@ i(67082, 78475);	-- Razor-Edged Cloak
 i(67072, 78462);	-- Stormleather Sash
 i(67083, 78476);	-- Twilight Dragonscale Cloak
 i(67096, 78489);	-- Twilight Scale Chestguard
+-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 i(67064, 78457);	-- Vicious Charscale Belt
 i(67063, 78456);	-- Vicious Charscale Boots
 i(67049, 78448);	-- Vicious Charscale Bracers
@@ -1003,6 +1004,75 @@ i(72027, 10564);	-- Tough Scorpid Shoulders [New Version]
 --- TRAINER ---
 i(0, 1216335);	-- Bloodthirsty Fur Cloak
 i(0, 1216336);	-- Bloodthirsty Hide Cloak
+
+-----------------
+-- PATCH 4.4.2 --
+-----------------
+--- ITEM ---
+i(238167, 1224262);	-- Bloodied Dragonscale Belt
+i(238159, 1224254);	-- Bloodied Dragonscale Boots
+i(238151, 1224246);	-- Bloodied Dragonscale Bracers
+i(238176, 1224271);	-- Bloodied Dragonscale Chest
+i(238160, 1224255);	-- Bloodied Dragonscale Gloves
+i(238168, 1224263);	-- Bloodied Dragonscale Helm
+i(238175, 1224270);	-- Bloodied Dragonscale Legs
+i(238152, 1224247);	-- Bloodied Dragonscale Shoulders
+i(238163, 1224258);	-- Bloodied Leather Belt
+i(238155, 1224250);	-- Bloodied Leather Boots
+i(238147, 1224242);	-- Bloodied Leather Bracers
+i(238171, 1224266);	-- Bloodied Leather Chest
+i(238148, 1224243);	-- Bloodied Leather Gloves
+i(238164, 1224259);	-- Bloodied Leather Helm
+i(238172, 1224267);	-- Bloodied Leather Legs
+i(238156, 1224251);	-- Bloodied Leather Shoulders
+i(238158, 1224253);	-- Bloodied Scale Belt
+i(238157, 1224252);	-- Bloodied Scale Boots
+i(238149, 1224244);	-- Bloodied Scale Bracers
+i(238173, 1224268);	-- Bloodied Scale Chest
+i(238150, 1224245);	-- Bloodied Scale Gloves
+i(238174, 1224269);	-- Bloodied Scale Helm
+i(238166, 1224261);	-- Bloodied Scale Legs
+i(238165, 1224260);	-- Bloodied Scale Shoulders
+i(238146, 1224241);	-- Bloodied Wyrmhide Belt
+i(238154, 1224249);	-- Bloodied Wyrmhide Boots
+i(238145, 1224240);	-- Bloodied Wyrmhide Bracers
+i(238162, 1224257);	-- Bloodied Wyrmhide Chest
+i(238153, 1224248);	-- Bloodied Wyrmhide Gloves
+i(238170, 1224265);	-- Bloodied Wyrmhide Helm
+i(238169, 1224264);	-- Bloodied Wyrmhide Legs
+i(238161, 1224256);	-- Bloodied Wyrmhide Shoulders
+i(238103, 1224138);	-- Vicious Charscale Belt
+i(238102, 1224139);	-- Vicious Charscale Boots
+i(238094, 1224140);	-- Vicious Charscale Bracers
+i(238118, 1224141);	-- Vicious Charscale Chest
+i(238095, 1224142);	-- Vicious Charscale Gloves
+i(238119, 1224143);	-- Vicious Charscale Helm
+i(238111, 1224144);	-- Vicious Charscale Legs
+i(238110, 1224145);	-- Vicious Charscale Shoulders
+i(238112, 1224146);	-- Vicious Dragonscale Belt
+i(238104, 1224147);	-- Vicious Dragonscale Boots
+i(238096, 1224148);	-- Vicious Dragonscale Bracers
+i(238121, 1224149);	-- Vicious Dragonscale Chest
+i(238105, 1224150);	-- Vicious Dragonscale Gloves
+i(238113, 1224151);	-- Vicious Dragonscale Helm
+i(238120, 1224152);	-- Vicious Dragonscale Legs
+i(238097, 1224153);	-- Vicious Dragonscale Shoulders
+i(238108, 1224170);	-- Vicious Leather Belt
+i(238100, 1224171);	-- Vicious Leather Boots
+i(238092, 1224172);	-- Vicious Leather Bracers
+i(238116, 1224173);	-- Vicious Leather Chest
+i(238093, 1224174);	-- Vicious Leather Gloves
+i(238109, 1224175);	-- Vicious Leather Helm
+i(238117, 1224176);	-- Vicious Leather Legs
+i(238101, 1224177);	-- Vicious Leather Shoulders
+i(238091, 1224194);	-- Vicious Wyrmhide Belt
+i(238099, 1224195);	-- Vicious Wyrmhide Boots
+i(238090, 1224196);	-- Vicious Wyrmhide Bracers
+i(238107, 1224197);	-- Vicious Wyrmhide Chest
+i(238098, 1224198);	-- Vicious Wyrmhide Gloves
+i(238115, 1224199);	-- Vicious Wyrmhide Helm
+i(238114, 1224200);	-- Vicious Wyrmhide Legs
+i(238106, 1224201);	-- Vicious Wyrmhide Shoulders
 -- #endif
 
 -----------------

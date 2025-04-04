@@ -4,7 +4,6 @@
 local ARCTIC_FUR = 44128;
 local HEAVY_BOREAN_LEATHER = 38425;
 local SECRET_OF_DRAENOR_LEATHERWORKING = 118721;
-local HEAVY_SAVAGE_LEATHER = 56516;
 APPRENTICE_JOURNEYMAN_LEATHERWORKING = {
 	r(2108,	{	-- Leatherworking (Apprentice)
 		-- #if NOT ANYCLASSIC
@@ -616,145 +615,156 @@ CATA_LEATHERWORKING
 -- #endif
 );
 COMMON_CATACLYSM_LEATHERWORKING_RECIPES = applyclassicphase(CATA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
-	i(67095, {	-- Pattern: Assassin's Chestplate (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67070, {	-- Pattern: Belt of Nefarious Whispers (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67084, {	-- Pattern: Charscale Leg Armor (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67094, {	-- Pattern: Chestguard of Nature's Fury (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67073, {	-- Pattern: Corded Viper Belt (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67100, {	-- Pattern: Dragonkiller Tunic (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(68193, {	-- Pattern: Dragonscale Leg Armor (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(71721, {	-- Pattern: Drakehide Leg Armor (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
+	heavysavageleather(10, i(67095)),	-- Pattern: Assassin's Chestplate (RECIPE!)
+	heavysavageleather(10, i(67070)),	-- Pattern: Belt of Nefarious Whispers (RECIPE!)
+	-- #if ANYCLASSIC
+	heavysavageleather(10, i(238167)),	-- Pattern: Bloodied Dragonscale Belt (RECIPE!)
+	heavysavageleather(10, i(238159)),	-- Pattern: Bloodied Dragonscale Boots (RECIPE!)
+	heavysavageleather(10, i(238151)),	-- Pattern: Bloodied Dragonscale Bracers (RECIPE!)
+	heavysavageleather(10, i(238176)),	-- Pattern: Bloodied Dragonscale Chest (RECIPE!)
+	heavysavageleather(10, i(238160)),	-- Pattern: Bloodied Dragonscale Gloves (RECIPE!)
+	heavysavageleather(10, i(238168)),	-- Pattern: Bloodied Dragonscale Helm (RECIPE!)
+	heavysavageleather(10, i(238175)),	-- Pattern: Bloodied Dragonscale Legs (RECIPE!)
+	heavysavageleather(10, i(238152)),	-- Pattern: Bloodied Dragonscale Shoulders (RECIPE!)
+	heavysavageleather(10, i(238163)),	-- Pattern: Bloodied Leather Belt (RECIPE!)
+	heavysavageleather(10, i(238155)),	-- Pattern: Bloodied Leather Boots (RECIPE!)
+	heavysavageleather(10, i(238147)),	-- Pattern: Bloodied Leather Bracers (RECIPE!)
+	heavysavageleather(10, i(238171)),	-- Pattern: Bloodied Leather Chest (RECIPE!)
+	heavysavageleather(10, i(238148)),	-- Pattern: Bloodied Leather Gloves (RECIPE!)
+	heavysavageleather(10, i(238164)),	-- Pattern: Bloodied Leather Helm (RECIPE!)
+	heavysavageleather(10, i(238172)),	-- Pattern: Bloodied Leather Legs (RECIPE!)
+	heavysavageleather(10, i(238156)),	-- Pattern: Bloodied Leather Shoulders (RECIPE!)
+	heavysavageleather(10, i(238158)),	-- Pattern: Bloodied Scale Belt (RECIPE!)
+	heavysavageleather(10, i(238157)),	-- Pattern: Bloodied Scale Boots (RECIPE!)
+	heavysavageleather(10, i(238149)),	-- Pattern: Bloodied Scale Bracers (RECIPE!)
+	heavysavageleather(10, i(238173)),	-- Pattern: Bloodied Scale Chest (RECIPE!)
+	heavysavageleather(10, i(238150)),	-- Pattern: Bloodied Scale Gloves (RECIPE!)
+	heavysavageleather(10, i(238174)),	-- Pattern: Bloodied Scale Helm (RECIPE!)
+	heavysavageleather(10, i(238166)),	-- Pattern: Bloodied Scale Legs (RECIPE!)
+	heavysavageleather(10, i(238165)),	-- Pattern: Bloodied Scale Shoulders (RECIPE!)
+	heavysavageleather(10, i(238146)),	-- Pattern: Bloodied Wyrmhide Belt (RECIPE!)
+	heavysavageleather(10, i(238154)),	-- Pattern: Bloodied Wyrmhide Boots (RECIPE!)
+	heavysavageleather(10, i(238145)),	-- Pattern: Bloodied Wyrmhide Bracers (RECIPE!)
+	heavysavageleather(10, i(238162)),	-- Pattern: Bloodied Wyrmhide Chest (RECIPE!)
+	heavysavageleather(10, i(238153)),	-- Pattern: Bloodied Wyrmhide Gloves (RECIPE!)
+	heavysavageleather(10, i(238170)),	-- Pattern: Bloodied Wyrmhide Helm (RECIPE!)
+	heavysavageleather(10, i(238169)),	-- Pattern: Bloodied Wyrmhide Legs (RECIPE!)
+	heavysavageleather(10, i(238161)),	-- Pattern: Bloodied Wyrmhide Shoulders (RECIPE!)
+	-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
+	heavysavageleather(10, i(67064)),	-- Pattern: Bloodthirsty Charscale Belt (RECIPE!)
+	heavysavageleather(10, i(67063)),	-- Pattern: Bloodthirsty Charscale Boots (RECIPE!)
+	heavysavageleather(10, i(67049)),	-- Pattern: Bloodthirsty Charscale Bracers (RECIPE!)
+	heavysavageleather(10, i(67090)),	-- Pattern: Bloodthirsty Charscale Chest (RECIPE!)
+	heavysavageleather(10, i(67053)),	-- Pattern: Bloodthirsty Charscale Gloves (RECIPE!)
+	heavysavageleather(10, i(67091)),	-- Pattern: Bloodthirsty Charscale Helm (RECIPE!)
+	heavysavageleather(10, i(67079)),	-- Pattern: Bloodthirsty Charscale Legs (RECIPE!)
+	heavysavageleather(10, i(67078)),	-- Pattern: Bloodthirsty Charscale Shoulders (RECIPE!)
+	heavysavageleather(10, i(67080)),	-- Pattern: Bloodthirsty Dragonscale Belt (RECIPE!)
+	heavysavageleather(10, i(67065)),	-- Pattern: Bloodthirsty Dragonscale Boots (RECIPE!)
+	heavysavageleather(10, i(67054)),	-- Pattern: Bloodthirsty Dragonscale Bracers (RECIPE!)
+	heavysavageleather(10, i(67093)),	-- Pattern: Bloodthirsty Dragonscale Chest (RECIPE!)
+	heavysavageleather(10, i(67066)),	-- Pattern: Bloodthirsty Dragonscale Gloves (RECIPE!)
+	heavysavageleather(10, i(67081)),	-- Pattern: Bloodthirsty Dragonscale Helm (RECIPE!)
+	heavysavageleather(10, i(67092)),	-- Pattern: Bloodthirsty Dragonscale Legs (RECIPE!)
+	heavysavageleather(10, i(67055)),	-- Pattern: Bloodthirsty Dragonscale Shoulders (RECIPE!)
+	heavysavageleather(10, i(67076)),	-- Pattern: Bloodthirsty Leather Belt (RECIPE!)
+	heavysavageleather(10, i(67060)),	-- Pattern: Bloodthirsty Leather Boots (RECIPE!)
+	heavysavageleather(10, i(67046)),	-- Pattern: Bloodthirsty Leather Bracers (RECIPE!)
+	heavysavageleather(10, i(67087)),	-- Pattern: Bloodthirsty Leather Chest (RECIPE!)
+	heavysavageleather(10, i(67048)),	-- Pattern: Bloodthirsty Leather Gloves (RECIPE!)
+	heavysavageleather(10, i(67077)),	-- Pattern: Bloodthirsty Leather Helm (RECIPE!)
+	heavysavageleather(10, i(67089)),	-- Pattern: Bloodthirsty Leather Legs (RECIPE!)
+	heavysavageleather(10, i(67062)),	-- Pattern: Bloodthirsty Leather Shoulders (RECIPE!)
+	heavysavageleather(10, i(67044)),	-- Pattern: Bloodthirsty Wyrmhide Belt (RECIPE!)
+	heavysavageleather(10, i(67058)),	-- Pattern: Bloodthirsty Wyrmhide Boots (RECIPE!)
+	heavysavageleather(10, i(67042)),	-- Pattern: Bloodthirsty Wyrmhide Bracers (RECIPE!)
+	heavysavageleather(10, i(67075)),	-- Pattern: Bloodthirsty Wyrmhide Chest (RECIPE!)
+	heavysavageleather(10, i(67056)),	-- Pattern: Bloodthirsty Wyrmhide Gloves (RECIPE!)
+	heavysavageleather(10, i(67086)),	-- Pattern: Bloodthirsty Wyrmhide Helm (RECIPE!)
+	heavysavageleather(10, i(67085)),	-- Pattern: Bloodthirsty Wyrmhide Legs (RECIPE!)
+	heavysavageleather(10, i(67074)),	-- Pattern: Bloodthirsty Wyrmhide Shoulders (RECIPE!)
+	-- #endif
+	heavysavageleather(10, i(67084)),	-- Pattern: Charscale Leg Armor (RECIPE!)
+	heavysavageleather(10, i(67094)),	-- Pattern: Chestguard of Nature's Fury (RECIPE!)
+	heavysavageleather(10, i(67073)),	-- Pattern: Corded Viper Belt (RECIPE!)
+	heavysavageleather(10, i(67100)),	-- Pattern: Dragonkiller Tunic (RECIPE!)
+	heavysavageleather(10, i(68193)),	-- Pattern: Dragonscale Leg Armor (RECIPE!)
+	heavysavageleather(10, i(71721, {	-- Pattern: Drakehide Leg Armor (RECIPE!)
 		["timeline"] = { ADDED_4_2_0 },
-	}),
-	i(67068, {	-- Pattern: Lightning Lash (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67082, {	-- Pattern: Razor-Edged Cloak (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67072, {	-- Pattern: Stormleather Sash (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67083, {	-- Pattern: Twilight Dragonscale Cloak (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67096, {	-- Pattern: Twilight Scale Chestguard (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67064, {	-- Pattern: Vicious Charscale Belt (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67063, {	-- Pattern: Vicious Charscale Boots (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67049, {	-- Pattern: Vicious Charscale Bracers (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67090, {	-- Pattern: Vicious Charscale Chest (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67053, {	-- Pattern: Vicious Charscale Gloves (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67091, {	-- Pattern: Vicious Charscale Helm (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67079, {	-- Pattern: Vicious Charscale Legs (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67078, {	-- Pattern: Vicious Charscale Shoulders (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67080, {	-- Pattern: Vicious Dragonscale Belt (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67065, {	-- Pattern: Vicious Dragonscale Boots (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67054, {	-- Pattern: Vicious Dragonscale Bracers (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67093, {	-- Pattern: Vicious Dragonscale Chest (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67066, {	-- Pattern: Vicious Dragonscale Gloves (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67081, {	-- Pattern: Vicious Dragonscale Helm (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67092, {	-- Pattern: Vicious Dragonscale Legs (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67055, {	-- Pattern: Vicious Dragonscale Shoulders (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67076, {	-- Pattern: Vicious Leather Belt (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67060, {	-- Pattern: Vicious Leather Boots (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67046, {	-- Pattern: Vicious Leather Bracers (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67087, {	-- Pattern: Vicious Leather Chest (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67048, {	-- Pattern: Vicious Leather Gloves (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67077, {	-- Pattern: Vicious Leather Helm (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67089, {	-- Pattern: Vicious Leather Legs (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67062, {	-- Pattern: Vicious Leather Shoulders (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67044, {	-- Pattern: Vicious Wyrmhide Belt (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67058, {	-- Pattern: Vicious Wyrmhide Boots (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67042, {	-- Pattern: Vicious Wyrmhide Bracers (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67075, {	-- Pattern: Vicious Wyrmhide Chest (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67056, {	-- Pattern: Vicious Wyrmhide Gloves (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67086, {	-- Pattern: Vicious Wyrmhide Helm (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67085, {	-- Pattern: Vicious Wyrmhide Legs (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(67074, {	-- Pattern: Vicious Wyrmhide Shoulders (RECIPE!)
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
-	i(52980, {	-- Pristine Hide
-		["cost"] = {{ "i", HEAVY_SAVAGE_LEATHER, 10 }},
-	}),
+	})),
+	heavysavageleather(10, i(67068)),	-- Pattern: Lightning Lash (RECIPE!)
+	heavysavageleather(10, i(67082)),	-- Pattern: Razor-Edged Cloak (RECIPE!)
+	heavysavageleather(10, i(67072)),	-- Pattern: Stormleather Sash (RECIPE!)
+	heavysavageleather(10, i(67083)),	-- Pattern: Twilight Dragonscale Cloak (RECIPE!)
+	heavysavageleather(10, i(67096)),	-- Pattern: Twilight Scale Chestguard (RECIPE!)
+	-- #if ANYCLASSIC
+	heavysavageleather(10, i(238103)),	-- Pattern: Vicious Charscale Belt (RECIPE!)
+	heavysavageleather(10, i(238102)),	-- Pattern: Vicious Charscale Boots (RECIPE!)
+	heavysavageleather(10, i(238094)),	-- Pattern: Vicious Charscale Bracers (RECIPE!)
+	heavysavageleather(10, i(238118)),	-- Pattern: Vicious Charscale Chest (RECIPE!)
+	heavysavageleather(10, i(238095)),	-- Pattern: Vicious Charscale Gloves (RECIPE!)
+	heavysavageleather(10, i(238119)),	-- Pattern: Vicious Charscale Helm (RECIPE!)
+	heavysavageleather(10, i(238111)),	-- Pattern: Vicious Charscale Legs (RECIPE!)
+	heavysavageleather(10, i(238110)),	-- Pattern: Vicious Charscale Shoulders (RECIPE!)
+	heavysavageleather(10, i(238112)),	-- Pattern: Vicious Dragonscale Belt (RECIPE!)
+	heavysavageleather(10, i(238104)),	-- Pattern: Vicious Dragonscale Boots (RECIPE!)
+	heavysavageleather(10, i(238096)),	-- Pattern: Vicious Dragonscale Bracers (RECIPE!)
+	heavysavageleather(10, i(238121)),	-- Pattern: Vicious Dragonscale Chest (RECIPE!)
+	heavysavageleather(10, i(238105)),	-- Pattern: Vicious Dragonscale Gloves (RECIPE!)
+	heavysavageleather(10, i(238113)),	-- Pattern: Vicious Dragonscale Helm (RECIPE!)
+	heavysavageleather(10, i(238120)),	-- Pattern: Vicious Dragonscale Legs (RECIPE!)
+	heavysavageleather(10, i(238097)),	-- Pattern: Vicious Dragonscale Shoulders (RECIPE!)
+	heavysavageleather(10, i(238108)),	-- Pattern: Vicious Leather Belt (RECIPE!)
+	heavysavageleather(10, i(238100)),	-- Pattern: Vicious Leather Boots (RECIPE!)
+	heavysavageleather(10, i(238092)),	-- Pattern: Vicious Leather Bracers (RECIPE!)
+	heavysavageleather(10, i(238116)),	-- Pattern: Vicious Leather Chest (RECIPE!)
+	heavysavageleather(10, i(238093)),	-- Pattern: Vicious Leather Gloves (RECIPE!)
+	heavysavageleather(10, i(238109)),	-- Pattern: Vicious Leather Helm (RECIPE!)
+	heavysavageleather(10, i(238117)),	-- Pattern: Vicious Leather Legs (RECIPE!)
+	heavysavageleather(10, i(238101)),	-- Pattern: Vicious Leather Shoulders (RECIPE!)
+	heavysavageleather(10, i(238091)),	-- Pattern: Vicious Wyrmhide Belt (RECIPE!)
+	heavysavageleather(10, i(238099)),	-- Pattern: Vicious Wyrmhide Boots (RECIPE!)
+	heavysavageleather(10, i(238090)),	-- Pattern: Vicious Wyrmhide Bracers (RECIPE!)
+	heavysavageleather(10, i(238107)),	-- Pattern: Vicious Wyrmhide Chest (RECIPE!)
+	heavysavageleather(10, i(238098)),	-- Pattern: Vicious Wyrmhide Gloves (RECIPE!)
+	heavysavageleather(10, i(238115)),	-- Pattern: Vicious Wyrmhide Helm (RECIPE!)
+	heavysavageleather(10, i(238114)),	-- Pattern: Vicious Wyrmhide Legs (RECIPE!)
+	heavysavageleather(10, i(238106)),	-- Pattern: Vicious Wyrmhide Shoulders (RECIPE!)
+	-- #else
+	heavysavageleather(10, i(67064)),	-- Pattern: Vicious Charscale Belt (RECIPE!)
+	heavysavageleather(10, i(67063)),	-- Pattern: Vicious Charscale Boots (RECIPE!)
+	heavysavageleather(10, i(67049)),	-- Pattern: Vicious Charscale Bracers (RECIPE!)
+	heavysavageleather(10, i(67090)),	-- Pattern: Vicious Charscale Chest (RECIPE!)
+	heavysavageleather(10, i(67053)),	-- Pattern: Vicious Charscale Gloves (RECIPE!)
+	heavysavageleather(10, i(67091)),	-- Pattern: Vicious Charscale Helm (RECIPE!)
+	heavysavageleather(10, i(67079)),	-- Pattern: Vicious Charscale Legs (RECIPE!)
+	heavysavageleather(10, i(67078)),	-- Pattern: Vicious Charscale Shoulders (RECIPE!)
+	heavysavageleather(10, i(67080)),	-- Pattern: Vicious Dragonscale Belt (RECIPE!)
+	heavysavageleather(10, i(67065)),	-- Pattern: Vicious Dragonscale Boots (RECIPE!)
+	heavysavageleather(10, i(67054)),	-- Pattern: Vicious Dragonscale Bracers (RECIPE!)
+	heavysavageleather(10, i(67093)),	-- Pattern: Vicious Dragonscale Chest (RECIPE!)
+	heavysavageleather(10, i(67066)),	-- Pattern: Vicious Dragonscale Gloves (RECIPE!)
+	heavysavageleather(10, i(67081)),	-- Pattern: Vicious Dragonscale Helm (RECIPE!)
+	heavysavageleather(10, i(67092)),	-- Pattern: Vicious Dragonscale Legs (RECIPE!)
+	heavysavageleather(10, i(67055)),	-- Pattern: Vicious Dragonscale Shoulders (RECIPE!)
+	heavysavageleather(10, i(67076)),	-- Pattern: Vicious Leather Belt (RECIPE!)
+	heavysavageleather(10, i(67060)),	-- Pattern: Vicious Leather Boots (RECIPE!)
+	heavysavageleather(10, i(67046)),	-- Pattern: Vicious Leather Bracers (RECIPE!)
+	heavysavageleather(10, i(67087)),	-- Pattern: Vicious Leather Chest (RECIPE!)
+	heavysavageleather(10, i(67048)),	-- Pattern: Vicious Leather Gloves (RECIPE!)
+	heavysavageleather(10, i(67077)),	-- Pattern: Vicious Leather Helm (RECIPE!)
+	heavysavageleather(10, i(67089)),	-- Pattern: Vicious Leather Legs (RECIPE!)
+	heavysavageleather(10, i(67062)),	-- Pattern: Vicious Leather Shoulders (RECIPE!)
+	heavysavageleather(10, i(67044)),	-- Pattern: Vicious Wyrmhide Belt (RECIPE!)
+	heavysavageleather(10, i(67058)),	-- Pattern: Vicious Wyrmhide Boots (RECIPE!)
+	heavysavageleather(10, i(67042)),	-- Pattern: Vicious Wyrmhide Bracers (RECIPE!)
+	heavysavageleather(10, i(67075)),	-- Pattern: Vicious Wyrmhide Chest (RECIPE!)
+	heavysavageleather(10, i(67056)),	-- Pattern: Vicious Wyrmhide Gloves (RECIPE!)
+	heavysavageleather(10, i(67086)),	-- Pattern: Vicious Wyrmhide Helm (RECIPE!)
+	heavysavageleather(10, i(67085)),	-- Pattern: Vicious Wyrmhide Legs (RECIPE!)
+	heavysavageleather(10, i(67074)),	-- Pattern: Vicious Wyrmhide Shoulders (RECIPE!)
+	-- #endif
+	heavysavageleather(10, i(52980)),	-- Pristine Hide
 }));
 MOP_LEATHERWORKING = applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	r(110423, {	-- Leatherworking (Zen Master)

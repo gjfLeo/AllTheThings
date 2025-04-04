@@ -683,6 +683,10 @@ gold = function(cost, item)								-- Assign a Gold cost to an item.
 	applycost(item, { "g", cost * 10000 });	-- Gold
 	return item;
 end
+heavysavageleather = function(cost, item)				-- Assign an Heavy Savage Leather cost to an item.
+	if cost > 0 then applycost(item, { "i", 56516, cost }); end
+	return item;
+end
 honor = function(cost, item)							-- Assign an Honor cost to an item. (modern)
 	if cost > 0 then applycost(item, { "c", HONOR, cost }); end
 	return item;
