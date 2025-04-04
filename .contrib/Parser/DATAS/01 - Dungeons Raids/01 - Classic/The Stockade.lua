@@ -11,7 +11,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 		["coords"] = {
 			-- #if AFTER CATA
-			{ 50.48, 66.46, STORMWIND_CITY },
+			{ 50.5, 66.5, STORMWIND_CITY },
 			-- #elseif AFTER WRATH
 			{ 51.6, 69.4, STORMWIND_CITY },
 			-- #else
@@ -29,7 +29,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- #if AFTER WRATH
 						{ 57.7, 47.9, STORMWIND_CITY },
 						-- #else
-						{ 49, 30.2, STORMWIND_CITY },
+						{ 49.0, 30.2, STORMWIND_CITY },
 						-- #endif
 					},
 					["timeline"] = { REMOVED_4_0_1 },

@@ -17,11 +17,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 		["coords"] = {
 			-- #if AFTER CATA
-			{ 36.63, 29.42, 16 },	-- Uldaman [Front], Uldaman [Badlands]
-			{ 60.68, 37.43, BADLANDS },	-- Uldaman [Side]
+			{ 36.6, 29.4, 16 },	-- Uldaman [Front], Uldaman [Badlands]
+			{ 60.7, 37.4, BADLANDS },	-- Uldaman [Side]
 			-- #else
-			{ 36.63, 29.42, 16 },	-- Uldaman [Front], Uldaman [Badlands]
-			{ 64, 44, BADLANDS },	-- Uldaman [Side]
+			{ 36.6, 29.4, 16 },	-- Uldaman [Front], Uldaman [Badlands]
+			{ 64.0, 44.0, BADLANDS },	-- Uldaman [Side]
 			-- #endif
 		},
 		["mapID"] = ULDAMAN,
@@ -411,7 +411,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(2398, {	-- The Lost Dwarves
 					["qg"] = 1356,	-- Prospector Stormpike
-					["coord"] = { 74.64, 11.74, IRONFORGE },
+					["coord"] = { 74.6, 11.7, IRONFORGE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -528,7 +528,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						{ "i", 7886 },	-- Untranslated Journal
 					},
 					["sourceQuest"] = 2318,	-- Translating the Journal
-					["coord"] = { 2.6, 46, BADLANDS },
+					["coord"] = { 2.6, 46.0, BADLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 37,
@@ -595,10 +595,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			n(RARES, {
 				n(7057, {	-- Digmaster Shovelphlange
-					-- #if BEFORE 4.0.3
-					["description"] = "This guy spawns outside of the instance in the cave leading to the instance.",
-					-- #elseif AFTER 10.1.7
-					["description"] = "This guy spawns outside of the instance, inside the halls or cave ends surrounding Dig One. All locations can be reached with '/tar Digmaster Shovelphlange' from the cave leading in to the North Common Hall.",
+					["description"] =
+						-- #if AFTER 10.1.7
+						"This guy spawns outside of the instance, inside the halls or cave ends surrounding Dig One. All locations can be reached with '/tar Digmaster Shovelphlange' from the cave leading in to the North Common Hall.",
+						-- #else
+						"This guy spawns outside of the instance in the cave leading to the instance.",
+						-- #endif
+					-- #if AFTER 10.1.7
 					["coords"] = {
 						{ 62.0, 51.5, 16 },	-- Spur cave
 						{ 51.8, 68.5, 16 },	-- The Sealed Hall
@@ -606,16 +609,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						{ 32.4, 62.4, 16 },	-- South Common Hall
 					},
 					-- #endif
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["groups"] = {
 						i(9378, {	-- Shovelphlange's Mining Axe
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 						i(9375, {	-- Expert Goldminer's Helmet
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 						i(9382, {	-- Tromping Miner's Boots
-							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 07.09.2023
+							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
 					},
 				}),

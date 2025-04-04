@@ -544,13 +544,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				applyclassicphase(PHASE_SIX, i(22526)),	-- Bone Fragments
 				i(12843, {	-- Corruptor's Scourgestone / Inert Corruptor's Scourgestone
 					-- #if BEFORE 4.0.3
-					["description"] = "Can drop from any Undead rare mob or boss in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+					["description"] = "Can drop from any Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 					-- #endif
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				i(12841, {	-- Invader's Scourgestone / Inert Invader's Scourgestone
 					-- #if BEFORE 4.0.3
-					["description"] = "Can drop from any Undead mobs in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+					["description"] = "Can drop from any Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 					-- #endif
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
@@ -559,7 +559,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				i(12840, {	-- Minion's Scourgestone / Inert Minion's Scourgestone
 					-- #if BEFORE 4.0.3
-					["description"] = "Can drop from weak Undead mobs in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+					["description"] = "Can drop from weak Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 					-- #endif
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
@@ -862,7 +862,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					}),
 					n(10393, {	-- Skul
-						["description"] = "This is a rare that is not always present.",
+						["description"] = "This is a Rare Creature and, as such, is not always present.",
 						["groups"] = {
 							i(13396),	-- Skul's Ghastly Touch
 							i(13394),	-- Skul's Cold Embrace
@@ -1245,7 +1245,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 							i(14679, {	-- Of Love and Family
 								-- #if BEFORE 4.0.3
-								["description"] = "Found the wall near Archivist Galford.",
+								["description"] = "Found on the wall near Archivist Galford.",
 								-- #endif
 							}),
 							applyclassicphase(PHASE_SIX_CLASS_BOOKS, {
@@ -1507,7 +1507,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 					}),
 					n(10809, {	-- Stonespine
-						["description"] = "This is a rare that is not always present.",
+						["description"] = "This is a Rare Creature and, as such, is not always present.",
 						["groups"] = {
 							i(13399),	-- Gargoyle Shredder Talons
 							i(13397),	-- Stoneskin Gargoyle Cape

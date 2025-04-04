@@ -77,7 +77,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["provider"] = { "i", 17008 },	-- Small Scroll
 					-- #if BEFORE 4.0.3
 					-- #if AFTER 3.3.0
-					["description"] = "This version of the quest is given to players that have not completed the wrath gate yet.",
+					["description"] = "This version of the quest is given to players that HAVE NOT completed The Wrath Gate yet.",
 					-- #endif
 					-- #endif
 					["timeline"] = { REMOVED_4_0_3 },
@@ -89,7 +89,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["provider"] = { "i", 49205 },	-- Small Scroll
 					-- #if BEFORE 4.0.3
 					-- #if AFTER 3.3.0
-					["description"] = "This version of the quest is given to players that have completed the wrath gate.",
+					["description"] = "This version of the quest is given to players that HAVE completed The Wrath Gate.",
 					-- #endif
 					-- #endif
 					["timeline"] = { ADDED_3_3_0, REMOVED_4_0_3 },
@@ -179,7 +179,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["groups"] = {
 						objective(1, {	-- 0/1 Treshala's Pendant
 							["provider"] = { "i", 5825 },	-- Treshala's Pendant
-							["description"] = "Drops from any mob in the Kraul.",
+							["description"] = "Drops from any creature in the Dungeon.",
 						}),
 						i(6751, {	-- Mourning Shawl
 							["timeline"] = { REMOVED_4_0_3 },
@@ -324,11 +324,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(1978),	-- Wolfclaw Gloves
 			}),
 			n(74900, {	-- Kraulshaper Tukaar
-				-- #if BEFORE 10.1.7
-				["description"] = "This is a rare spawn that is not always present.",
-				-- #else
-				["description"] = "This NPC is always present since 10.1.7.\nTo obtain their drops you have to be in an appropriate loot spec or they will not drop. However their drops are also located on other bosses in the dungeon.",
-				-- #endif
+				["description"] =
+					-- #if AFTER 10.1.7
+					"This NPC is always present since 10.1.7.\nTo obtain their drops you have to be in an appropriate loot spec or they will not drop. However their drops are also located on other bosses in the dungeon.",
+					-- #else
+					"This is a Rare Creature and, as such, is not always present.",
+					-- #endif
 				["timeline"] = { ADDED_6_0_2 },
 				["groups"] = {
 					i(6689),	-- Wind Spirit Staff
@@ -424,7 +425,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			n(4842, {	-- Earthcaller Halmgar
 				["timeline"] = { REMOVED_6_0_2 },
 				-- #if BEFORE 6.0.2
-				["description"] = "After you kill Overlord Ramtusk, go west over a bridge to a plateau.\n\nThis is a rare spawn that is not always present.",
+				["description"] = "After you kill Overlord Ramtusk, go west over a bridge to a plateau.\n\nThis is a Rare Creature and, as such, is not always present.",
 				-- #endif
 				["groups"] = {
 					i(6689),	-- Wind Spirit Staff
@@ -432,7 +433,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(4425, {	-- Blind Hunter
-				["description"] = "This is a rare spawn that is not always present.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.",
 				["timeline"] = { REMOVED_6_0_2 },
 				["groups"] = {
 					i(6696),	-- Nightstalker Bow

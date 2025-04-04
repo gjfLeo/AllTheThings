@@ -12,7 +12,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["mapID"] = WAILING_CAVERNS,
 		["coords"] = {
 			-- #if AFTER CATA
-			{ 55.19, 66.09, 11 },	-- Wailing Caverns, Northern Barrens
+			{ 55.2, 66.1, 11 },	-- Wailing Caverns, Northern Barrens
 			-- #else
 			{ 45.9, 35.7, THE_BARRENS },
 			-- #endif
@@ -375,7 +375,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(5912, {	-- Deviate Faerie Dragon
-				["description"] = "This is a rare that is not always present.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.",
 				["groups"] = {
 					i(5243),	-- Firebelcher
 					i(6632),	-- Feyscale Cloak

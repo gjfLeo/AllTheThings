@@ -88,7 +88,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 		["coords"] = {
 			-- #if AFTER CATA
-			{ 76.04, 45.21, SWAMP_OF_SORROWS },
+			{ 76.0, 45.2, SWAMP_OF_SORROWS },
 			-- #else
 			{ 69.2, 54.8, SWAMP_OF_SORROWS },
 			-- #endif
@@ -294,7 +294,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["qg"] = 5353,	-- Itharius
 					["sourceQuest"] = 3374,	-- The Essence of Eranikus [Part 2]
 					["description"] = "This quest chain seems to be an incomplete one as there is no follow-up. Still an interesting quest chain as most people do not know about it. It essentially details how Eranikus is not actually dead and likely prepares the player for the Opening of AQ quest chain that does involve Eranikus once again.",
-					["coord"] = { 13.67, 71.72, SWAMP_OF_SORROWS },
+					["coord"] = { 13.7, 71.7, SWAMP_OF_SORROWS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { WINTERSPRING },
 					-- #if BEFORE 4.0.3
@@ -417,7 +417,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["sourceQuest"] = 3373,	-- The Essence of Eranikus
 					["provider"] = { "i", 10589 },	-- Oathstone of Ysera's Dragonflight
 					["description"] = "You get the Oathstone by talking to Itharius, at the cave in the SW part of Swamp of Sorrows. You must have the Chained Essence first.",
-					["coord"] = { 13.67, 71.72, SWAMP_OF_SORROWS },
+					["coord"] = { 13.7, 71.7, SWAMP_OF_SORROWS },
 					["timeline"] = { REMOVED_4_0_3 },
 					["cost"] = { { "i", 10455, 1 } },	-- Chained Essence of Eranikus
 					-- #if BEFORE 4.0.3
@@ -690,9 +690,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 				-- #if AFTER 4.0.3
 				["provider"] = { "o", 208321 },	-- Shrine of the Soulflayer
-				["description"] = "There is now a skull pile that you can click on in order to summon the boss.",
-				-- #else
-				["description"] = "Requires the use of the Egg of Hakkar or Yeh'kinya's Scroll to summon.\n\nOnce you start the fight, the room will fill with a variety of mobs. You need to kill the 4 Wind Serpents that appear, and loot the blood off of them, and use it to douse one of the fires in each corner of the room.\n\nEvery time you douse a fire, a dragonkin will walk in and start channeling a spell on Hakkar. Do not let them complete this channel.\n\nThe boss spawns after all 4 flames are doused.",
+				-- #endif
+				["description"] =
+					-- #if AFTER 4.0.3
+					"There is now a skull pile that you can click on in order to summon the boss.",
+					-- #else
+					"Requires the use of the Egg of Hakkar or Yeh'kinya's Scroll to summon.\n\nOnce you start the fight, the room will fill with a variety of creatures. You need to kill the 4 Wind Serpents that appear, and loot the blood off of them, and use it to douse one of the fires in each corner of the room.\n\nEvery time you douse a fire, a dragonkin will walk in and start channeling a spell on Hakkar. Do not let them complete this channel.\n\nThe boss spawns after all 4 flames are doused.",
+					-- #endif
+				-- #if BEFORE 4.0.3
 				["cost"] = {
 					{ "i", 10465, 1 },	-- Egg of Hakkar
 					{ "i", 10818, 1 },	-- Yeh'kinya's Scroll

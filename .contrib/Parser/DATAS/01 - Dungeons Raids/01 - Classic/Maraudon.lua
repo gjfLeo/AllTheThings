@@ -119,7 +119,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						{ "i", 17760 },	-- Seed of Life
 					},
 					-- #if BEFORE 4.0.3
-					["description"] = "This quest becomes available after you defeat Princess Theradras",
+					["description"] = "This quest becomes available after you defeat Princess Theradras.",
 					-- #endif
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = { MOONGLADE },
@@ -248,7 +248,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				q(7028, {	-- Twisted Evils
 					["qg"] = 13656,	-- Willow <Twilight's Hammer>
-					["coord"] = { 62.2, 39.63, DESOLACE },
+					["coord"] = { 62.2, 39.6, DESOLACE },
 					["timeline"] = { REMOVED_4_0_3 },
 					["lvl"] = 41,
 					["groups"] = {
@@ -309,7 +309,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(17684),	-- Theradric Crystal Carving
 			}),
 			n(FOULSPORE_CAVERN, {
-				["coord"] = { 78.01, 55.68, 67 },	-- Maraudon [Orange], The Wicked Grotto [Desolace]
+				["coord"] = { 78.0, 55.7, 67 },	-- Maraudon [Orange], The Wicked Grotto [Desolace]
 				["groups"] = {
 					e(423, {	-- Noxxion
 						["creatureID"] = 13282,
@@ -357,7 +357,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(WICKED_GROTTO, {
-				["coord"] = { 51.68, 24.73, 68 },	-- Maraudon [Purple], Foulspore Cavern [Desolace]
+				["coord"] = { 51.7, 24.7, 68 },	-- Maraudon [Purple], Foulspore Cavern [Desolace]
 				["groups"] = {
 					-- #if AFTER 4.0.3
 					e(425, {	-- Tinkerer Gizlock
@@ -388,7 +388,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(12237, {	-- Meshlok the Harvester
-						["description"] = "This is a rare that is not always present.",
+						["description"] = "This is a Rare Creature and, as such, is not always present.",
 						["coord"] = { 24.0, 75.0, MARAUDON },
 						["groups"] = {
 							i(17741),	-- Nature's Embrace
@@ -399,7 +399,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(MARAUDON_PORTAL, {
-				["coord"] = { 44.49, 77.14, 68 },	-- Maraudon [Falls], Foulspore Cavern [Desolace]
+				["coord"] = { 44.5, 77.1, 68 },	-- Maraudon [Falls], Foulspore Cavern [Desolace]
 				-- #if BEFORE 3.0.8
 				["sourceQuest"] = 7046,	-- The Scepter of Celebras
 				["cost"] = { { "i", 17191, 1 } },	-- Scepter of Celebras

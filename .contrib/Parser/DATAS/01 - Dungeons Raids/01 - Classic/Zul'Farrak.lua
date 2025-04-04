@@ -10,7 +10,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["mapID"] = ZULFARRAK,
 		["coords"] = {
 			-- #if AFTER CATA
-			{ 39.21, 21.29, TANARIS },
+			{ 39.2, 21.3, TANARIS },
 			-- #else
 			{ 39.0, 19.0, TANARIS },
 			-- #endif
@@ -333,7 +333,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #endif
 			n(10080, {	-- Sandarr Dunereaver
-				["description"] = "This is a rare that is not always present.\n\nItems listed for this NPC 'technically' can drop from other creatures in the dungeon, but are extremely rare in comparison.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.\n\nItems listed for this NPC 'technically' can drop from other creatures in the dungeon, but are extremely rare in comparison.",
 				["groups"] = {
 					i(9512),	-- Blackmetal Cape
 					i(9511),	-- Bloodletter Scalpel
@@ -349,7 +349,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(10082, {	-- Zerillis
-				["description"] = "This is a rare that is not always present.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.",
 				["groups"] = {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_THREE, i(223962)),	-- Sandstalker Ankleguards
@@ -404,7 +404,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(10081, {	-- Dustwraith
-				["description"] = "This is a rare that is not always present.",
+				["description"] = "This is a Rare Creature and, as such, is not always present.",
 				["groups"] = {
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_THREE, i(223533)),	-- Desertwalker Cane
@@ -469,11 +469,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 			n(7607, {	-- Weegli Blastfuse
-			-- #if BEFORE 10.0.5
-				["description"] = "You must talk to this mob in order to enter the room with the last boss! If you are not fast enough, their whole party hearthstones out of the instance.",
-			-- #else
-				["description"] = "This NPC no longer needs manually triggered to open the final boss door. You can move out of his vicinity (and also fight the group), and he will run to the door.",
-			-- #endif
+				["description"] =
+					-- #if AFTER 10.0.5
+					"This NPC no longer needs manually triggered to open the final boss door. You can move out of his vicinity (and also fight the group), and he will run to the door.",
+					-- #else
+					"You must talk to this NPC in order to enter the room with the last boss! If you are not fast enough, their whole party hearthstones out of the instance.",
+					-- #endif
 			}),
 			n(7604, {	-- Sergeant Bly
 				["description"] = "These adventurers initially help you clear the gauntlet leading up to the previous boss, but then they turn on you. You don't have to fight them if no one in your party needs the quest item.",

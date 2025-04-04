@@ -770,18 +770,18 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 		}),
 		applyclassicphase(PHASE_SIX, i(22526)),	-- Bone Fragments
 		i(12843, {	-- Corruptor's Scourgestone / Inert Corruptor's Scourgestone
-			["description"] = "Can drop from any Undead rare mob or boss in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+			["description"] = "Can drop from any Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
 		}),
 		i(12841, {	-- Invader's Scourgestone / Inert Invader's Scourgestone
-			["description"] = "Can drop from any Undead mobs in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+			["description"] = "Can drop from any Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
 		}),
 		i(206374, {	-- Invader's Scourgestone
 			["timeline"] = { ADDED_10_1_5 },
 		}),
 		i(12840, {	-- Minion's Scourgestone / Inert Minion's Scourgestone
-			["description"] = "Can drop from weak Undead mobs in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
+			["description"] = "Can drop from weak Undead creature in the Plaguelands and associated dungeons so long as you are equipped with one of the Argent Dawn trinkets.",
 			["timeline"] = { ADDED_1_11_1, REMOVED_4_0_3 },
 		}),
 		i(13920, {	-- Healthy Dragon Scale
@@ -1374,13 +1374,14 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 		i(18694),	-- Shadowy Mail Greaves
 	}),
 	applyclassicphase(PHASE_FIVE_TIER_ZERO_POINT_FIVE_SETS, n(16118, {	-- Kormok
-		-- #if AFTER 10.1.5
-		["description"] = KORMOK_LEGACY_DESCRIPTION,
-		-- #elseif BEFORE 5.0.4
-		["description"] = KORMOK_LEGACY_DESCRIPTION,
-		-- #else
-		["description"] = "This boss was summoned using the Brazier of Beckoning in Ras Frostwhisper's room, which is currently inaccessible.",
-		-- #endif
+		["description"] =
+			-- #if AFTER 10.1.5
+			KORMOK_LEGACY_DESCRIPTION,
+			-- #elseif BEFORE 5.0.4
+			KORMOK_LEGACY_DESCRIPTION,
+			-- #else
+			"This boss was summoned using the Brazier of Beckoning in Ras Frostwhisper's room, which is currently inaccessible.",
+			-- #endif
 		["cost"] = {
 			{ "i", 22052, 1 },	-- Brazier of Beckoning [Kormok]
 			{ "i", 22057, 1 },	-- Brazier of Invocation
@@ -2126,8 +2127,8 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.NORMAL, {
 		["groups"] = {
 			i(88344),	-- Goresoaked Headreaper
 			i(88341),	-- Necromantic Wand
-			-- #if AFTER 7.1.5.23360
-			i(88357),	-- Vigorsteel Spaulders (This was not on the original loot table. TODO: Find out which patch this was added.)
+			-- #if AFTER 7.3.0
+			i(88357),	-- Vigorsteel Spaulders
 			-- #endif
 			i(88340),	-- Deadwalker Bracers
 			i(88342),	-- Rattling Gloves
@@ -2298,13 +2299,9 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 				i(144206, {	-- Rattling Gloves
 					["timeline"] = { ADDED_7_1_5 },
 				}),
-				-- #if AFTER 7.1.5.23360
 				i(144015, {	-- Vigorsteel Spaulders
-					-- NOTE: WoWHead doesn't show any drops for this.
-					-- TODO: Find out if this was actually added.
-					["timeline"] = { ADDED_7_1_5 },
+					["timeline"] = { ADDED_7_3_0 },
 				}),
-				-- #endif
 				-- With Patch 7.1.5, Blizzard did a dumb and recreated all of the items from Heroic.
 				i(82824, {	-- Goresoaked Headreaper
 					["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
@@ -2324,7 +2321,7 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 			},
 		}),
 		n(59369, {	-- Doctor Theolen Krastinov
-			["description"] = "This is a Rare Creature and is not always present.",
+			["description"] = "This is a Rare Creature and, as such, is not always present.\nThe only way to find out if you will encounter him is right after Rattlegore is killed.\nHe will make his presence known...",
 			["timeline"] = { ADDED_5_0_4 },
 			["groups"] = {
 				ach(6396),	-- Sanguinarian

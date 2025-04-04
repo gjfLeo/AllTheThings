@@ -69,11 +69,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			304,	-- Scarlet Monastery: Armory
 			305,	-- Scarlet Monastery: Cathedral
 		},
-		-- #if AFTER 5.0.1
-		["lvl"] = lvlsquish(28, 28, 10),
-		-- #else
-		["lvl"] = lvlsquish(25, 23, 10),
-		-- #endif
+		["lvl"] =
+			-- #if AFTER 5.0.1
+			lvlsquish(28, 28, 10),
+			-- #else
+			lvlsquish(25, 23, 10),
+			-- #endif
 		["groups"] = {
 			-- #if AFTER MOP
 			d(DIFFICULTY.DUNGEON.NORMAL, {
@@ -214,11 +215,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["coord"] = { 56.1, 92.1, UNDERCITY },
 						["timeline"] = { ADDED_3_3_0, REMOVED_4_0_3 },
 						["races"] = HORDE_ONLY,
-						-- #if AFTER TBC
-						["lvl"] = 30,
-						-- #else
-						["lvl"] = 33,
-						-- #endif
+						["lvl"] =
+							-- #if AFTER TBC
+							30,
+							-- #else
+							33,
+							-- #endif
 						["groups"] = {
 							objective(1, {	-- 0/1 High Inquisitor Whitemane slain
 								["provider"] = { "n", 3977 },	-- High Inquisitor Whitemane
