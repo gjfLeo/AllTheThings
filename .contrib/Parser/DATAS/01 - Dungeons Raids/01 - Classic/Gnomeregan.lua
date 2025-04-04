@@ -56,7 +56,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 		["coords"] = {
 			-- #if AFTER MOP
 			{ 30.1, 74.6, NEW_TINKERTOWN_LOWER },	-- Gnomeregan [Dun Morogh]
-			-- #if BEFORE MOP
+			-- #else
 			{ 18.4, 38.6, DUN_MOROGH },	-- Gnomeregan [Dun Morogh]
 			-- #endif
 		},
@@ -896,8 +896,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(6893, {	-- Workshop Key
 						["description"] =
 							-- #if AFTER 5.2.0
-							"This key no longer have any practical use, and disappears from the inventory like a conjured item. Entering through the Workshop entrance will zone you into the main entrance.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
-							-- #elseif BEFORE 4.0.3
+							"This key no longer has any practical use, and disappears from the inventory like a conjured item. Entering through the Workshop entrance will zone you into the main entrance.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
+							-- #elseif AFTER 4.0.3
+							"This key no longer has any practical use.",
+							-- #else
 							"This key allows you to get into the back door of Gnomeregan.",
 							-- #endif
 					}),
