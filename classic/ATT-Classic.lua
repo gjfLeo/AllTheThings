@@ -1725,6 +1725,9 @@ function app:GetDataCache()
 							if dynamicProfessionHeader then
 								recipesList.text = "Recipes";
 								recipesList.icon = 134939;
+								if not dynamicProfessionHeader.g then
+									dynamicProfessionHeader.g = {};
+								end
 								tinsert(dynamicProfessionHeader.g, recipesList);
 							else
 								tinsert(ProfessionsHeader.g, recipesList);

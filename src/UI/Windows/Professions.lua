@@ -20,7 +20,7 @@ end
 
 -- Implementation
 function app:CreateDynamicProfessionCategory(name, commands, professionID, specializationProfessionIDs)
-	app:CreateWindow(name .. " Recipes", {
+	app:CreateWindow("Recipes: " .. name, {
 		AllowCompleteSound = true,
 		IsDynamicCategory = true,
 		DynamicCategoryHeader = app.HeaderConstants.PROFESSIONS,
@@ -56,13 +56,15 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 							
 							-- Build specialization headers
 							local specializations = {};
-							for i,spellID in ipairs(specializationProfessionIDs) do
-								local specialization = app.CreateProfession(spellID);
-								specialization.SortType = "name";
-								specialization.parent = data;
-								specialization.g = {};
-								tinsert(data.g, specialization);
-								specializations[spellID] = specialization;
+							if specializationProfessionIDs then
+								for i,spellID in ipairs(specializationProfessionIDs) do
+									local specialization = app.CreateProfession(spellID);
+									specialization.SortType = "name";
+									specialization.parent = data;
+									specialization.g = {};
+									tinsert(data.g, specialization);
+									specializations[spellID] = specialization;
+								end
 							end
 							
 							local expansions = {};
@@ -134,5 +136,17 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 	});
 end
 
+app:CreateDynamicProfessionCategory("Alchemy", { "attalch" }, 171);
 app:CreateDynamicProfessionCategory("Blacksmithing", { "attbs" }, 164, { 9788, 9787, 17039, 17040, 17041 });
+app:CreateDynamicProfessionCategory("Cooking", { "attcook" }, 185);
+app:CreateDynamicProfessionCategory("Enchanting", { "attench" }, 333);
+app:CreateDynamicProfessionCategory("Engineering", { "atteng" }, 202, { 20222, 20219 });
+app:CreateDynamicProfessionCategory("First Aid", { "attaid" }, 129);
+app:CreateDynamicProfessionCategory("Fishing", { "attfish" }, 356);
+app:CreateDynamicProfessionCategory("Herbalism", { "attherb" }, 182);
+app:CreateDynamicProfessionCategory("Inscription", { "attscribe" }, 773);
+app:CreateDynamicProfessionCategory("Jewelcrafting", { "attjc" }, 755);
 app:CreateDynamicProfessionCategory("Leatherworking", { "attlw" }, 165, { 10656, 10658, 10660 });
+app:CreateDynamicProfessionCategory("Mining", { "attmining" }, 186);
+app:CreateDynamicProfessionCategory("Skinning", { "attskinning" }, 393);
+app:CreateDynamicProfessionCategory("Tailoring", { "atttailoring" }, 197, { 26798, 26801, 26797 });
