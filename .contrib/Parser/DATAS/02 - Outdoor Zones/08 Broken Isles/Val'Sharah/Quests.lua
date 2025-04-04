@@ -789,6 +789,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(45490),	-- Lytheron
 				q(44881),	-- Sharptalon Matriarch Tracking Q From the WQ Sharptalon
 				q(44079),	-- Druids of the Scythe - 1 (Killing Feral Worgen 112820)
+				q(42716),	-- Frost DK - Val'sharah Event
 				q(42575),	-- Shaman Shrine - Valsharah Earth 01
 				q(42576),	-- Shaman Shrine - Valsharah Earth 02
 				q(42581),	-- Shaman Shrine - Valsharah Wind 01

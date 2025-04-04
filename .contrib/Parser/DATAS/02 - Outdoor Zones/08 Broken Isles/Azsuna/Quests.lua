@@ -827,6 +827,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(40584),	-- FLAG - Witnessed Drake Lift Crystal - triggers shortly after arriving in Azurewing Repose when turning in "Journey to the Repose" (questID 38443)
 				q(43815),	-- Karthax
 				q(45496),	-- The Whisperer
+				q(42718),	-- Frost DK - Azsuna Event
 				q(42569),	-- Shaman Shrine - Azsuna Earth 01
 				q(42570),	-- Shaman Shrine - Azsuna Earth 02
 				q(42595),	-- Shaman Shrine - Azsuna Water 01 - DGK

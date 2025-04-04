@@ -1381,7 +1381,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(56004),	-- looting Energy Cell while on the quest "We Can Fix It"
 				q(55495),	-- repelling HK-8 Aerial Oppression Unit during "Send My Father a Message"
 				q(55623),	-- Seems to trigger after completion of the WQ zone daily.  Mechanized chests and Rustbolt Rebellion WQ confirmed triggering this.
-				q(56307),	-- Opened the mechanized supply chest
 				q(56330),	-- Triggered shortly after completing "Chopped Bots". Possibly shuts down the magnet?
 				q(56660),	-- Triggered on Mechagon randomly
 				q(56840),	-- Toys of Destruction - made the Volatile Blaster. Maybe triggers for all the toys to indicate the toy extra action button is available?

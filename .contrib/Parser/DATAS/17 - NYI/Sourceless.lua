@@ -666,7 +666,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 			expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
 				q(78976),	--
 				q(79353),	--
-				q(79474),	--
 			})),
 
 			-- 10.2.6

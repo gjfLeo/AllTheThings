@@ -627,8 +627,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["provider"] = { "n", 181328 },	-- Ve'nish
 				["coord"] = { 35.5, 46.9, 1627 },
 				["isDaily"] = true,
-				["timeline"] = { ADDED_9_1_5, REMOVED_10_0_2 },
+				["timeline"] = { ADDED_9_1_5 },
 				["lockCriteria"] = { 1, "lvl", 60 },
+				--  "able to acquire this quest after skipping the campaign on my fresh level 10"
 			}),
 			------ Oribos Return Quests ------
 			------ Ardenweald ------

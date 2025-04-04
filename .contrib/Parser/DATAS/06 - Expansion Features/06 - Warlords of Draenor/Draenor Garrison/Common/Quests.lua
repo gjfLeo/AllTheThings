@@ -154,13 +154,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				q(34039, {	-- WANTED: Overlord Blackhammer
 					["races"] = HORDE_ONLY,
 					["sourceQuests"] = { 34042 },	-- A Fellow Gearhead
-					["provider"] = { "n", 77928 },	-- Gazlowe
-					["coord"] = { 85.8, 45.8, FROSTFIRE_RIDGE },
+					["qgs"] = {
+						77928,	-- Gazlowe
+						78323,	-- Goblin Engineer
+					},
+					["coord"] = { 88.4, 49.6, FROSTFIRE_RIDGE },
 				}),
 				q(34078, {	-- Payment Due for Services Rendered
 					["races"] = HORDE_ONLY,
 					["sourceQuests"] = { 34039 },	-- WANTED: Overlord Blackhammer
-					["provider"] = { "n", 77928 },	-- Gazlowe
+					["qgs"] = {
+						77928,	-- Gazlowe
+						78323,	-- Goblin Engineer
+					},
 					["coord"] = { 85.8, 45.8, FROSTFIRE_RIDGE },
 				}),
 

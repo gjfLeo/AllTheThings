@@ -406,12 +406,14 @@ root(ROOTS.Zones, {
 						["coord"] = { 31.8, 11.8, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["sourceQuest"] = 34280,	-- All is Revealed
+						["lockCriteria"] = {1,"questID", 34293},	-- Eliminate the Shadow Council
 					}),
 					q(34293, {	-- Eliminate the Shadow Council
 						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
 						["coord"] = { 21.9, 14.6, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["sourceQuest"] = 34280,	-- All is Revealed
+						["lockCriteria"] = {1,"questID", 34292},	-- Eliminate the Shadow Council
 					}),
 					q(32994, {	-- Enfilade
 						["provider"] = { "n", 73097 },	-- Frostwolf Champion
@@ -915,7 +917,10 @@ root(ROOTS.Zones, {
 					}),
 					q(34294, {	-- The Fel Crystals
 						["provider"] = { "n", 73480 },	-- Image of Archmage Khadgar
-						["coord"] = { 31.7, 11.8, FROSTFIRE_RIDGE },
+						["coords"] = {
+							{ 22.0, 14.7, FROSTFIRE_RIDGE },
+							{ 31.7, 11.8, FROSTFIRE_RIDGE },
+						},
 						["races"] = HORDE_ONLY,
 						["sourceQuest"] = 34291,	-- Have a Heart
 					}),
@@ -1009,6 +1014,7 @@ root(ROOTS.Zones, {
 					}),
 					q(36230, {	-- The Restless Spirit
 						["provider"] = { "n", 84494 },	-- Waruk the Frostforger
+						["coord"] = { 46.0, 48.6, FROSTFIRE_RIDGE },
 						["races"] = HORDE_ONLY,
 						["sourceQuest"] = 36207,	-- Waruk the Frostforger
 						["requireSkill"] = BLACKSMITHING,
@@ -1125,7 +1131,10 @@ root(ROOTS.Zones, {
 					}),
 					q(32796, {	-- To the Garrison
 						["provider"] = { "n", 70941 },	-- Ga'nar
-						["coord"] = { 52.6, 66.9, 532 },
+						["coords"] = {
+							{ 51.3, 64.3, 532 },	-- Grulloc's Grotto
+							{ 52.6, 66.9, 532 },	-- Grulloc's Grotto
+						},
 						["races"] = HORDE_ONLY,
 						["sourceQuest"] = 32795,	-- The Eldest
 					}),

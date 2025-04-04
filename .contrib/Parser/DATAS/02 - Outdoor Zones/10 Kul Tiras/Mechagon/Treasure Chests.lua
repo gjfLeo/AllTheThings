@@ -160,8 +160,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						{ 12.2, 85.8, MECHAGON },
 					},
 				}),
-				o(325668, {	-- Mechanized Chest
-					--["questID"] = ,
+				o(330184, {	-- Mechanized Supply Chest
+					["questID"] = 56307,
 					["isDaily"] = true,
 					["coord"] = { 20.6, 71.4, MECHAGON },
 					["cost"] = { { "i", 169873, 1 } },	-- 1x Mechanized Supply Key

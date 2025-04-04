@@ -1082,6 +1082,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(39607),	-- God-King Scene (Vault) - triggers when turning in "Ahead of the Game" (questID 39590)
 				q(38420),	-- Triggered when turning in "Cry Thunder!" (questID 38624)
 				q(43350),	-- Triggered when turning in "Halls of Valor: Securing the Aegis" (questID 40072)
+				q(42717),	-- Frost DK - Stormheim Event
 				q(42573),	-- Shaman Shrine - Stormheim Earth 01
 				q(42574),	-- Shaman Shrine - Stormheim Earth 02
 				q(40398),	-- Shaman Shrine - Stormheim Water 01 - DGK

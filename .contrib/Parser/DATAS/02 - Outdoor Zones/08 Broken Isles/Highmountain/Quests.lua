@@ -1015,6 +1015,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				-- q(40612),	-- 7.0 Highmountain - Vignette - Amateur Hunters - Tracking Quest Credit - See Treasure (JAP) - NYI. Triggered after killing Irewing during Scout It Out
 				q(39991),	-- Blessing of Cenarius - being blessed by Cenarius during "Huln's War - Shadowsong" (questID 40388)
 				q(43957),	-- Jade Darkhaven
+				q(42715),	-- Frost DK - Highmountain Event
 				q(42571),	-- Shaman Shrine - Highmountain Earth 01
 				q(42572),	-- Shaman Shrine - Highmountain Earth 02
 				q(42578),	-- Shaman Shrine - Highmountain Wind 01

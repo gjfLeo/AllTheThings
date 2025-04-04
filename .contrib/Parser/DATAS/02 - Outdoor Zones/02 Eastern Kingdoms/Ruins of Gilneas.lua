@@ -411,6 +411,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
 	m(RUINS_OF_GILNEAS, {
+		q(79474),	-- Loot Tess's Peacebloom (211788)
 		q(80080),	-- Ensemble: Gilnean Noble's Suit
 		q(78903, {	-- Ask Greymane Seneschal by Cathedral or Manor to leave for the day
 			["isDaily"] = true,

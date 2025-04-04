@@ -206,6 +206,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(84670),	-- after turn in weekly delve quest (was 82746 - Delves: Breaking Tough to Loot Stuff - for this one)
 				q(84671),	-- after accept questID 82679 (Archives: Seeking History) / also after 82746 (Delves: Breaking Tough to Loot Stuff)
 				-- Alt intro skip
+				q(84366),	-- Skipping the leveling campaign from Brann in Dornogal
 				q(83621),	-- can be used right after turn in 81930 or 78713 (The War Within)
 				-- 82059 (Transmutation Station)
 				q(65440),	-- provided 15x Carved Harbinger Crest (spellID 446407 Satchel of Carved Harbinger Crests)
