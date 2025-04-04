@@ -259,6 +259,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["coord"] = { 56.8, 79, UNDERMINE },
 				["crs"] = {
 					234911,	-- Vignette Bunny [DNT]
+					234832,	-- Krazzik's Drill Rig
 				},
 				["questID"] = 85778,
 				["isWeekly"] = true,
