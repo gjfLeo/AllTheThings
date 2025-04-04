@@ -333,17 +333,11 @@ or function(fields, className)
 end
 app.BaseClass = CreateClassMeta(nil, "BaseClass");
 
-local MaximumInfoRetries = 40;
-app.MaximumItemInfoRetries = MaximumInfoRetries
 app.TryGetField = function(t, field, fieldFunc, giveUpFunc)
 	local fieldVal = fieldFunc(t, field)
 	-- app.PrintDebug("TGF",t.hash,field,fieldVal)
 	if fieldVal then return fieldVal end
-	local retries = t.retries or 0
-	retries = retries + 1
-	t.retries = retries
-	-- app.PrintDebug("TGF:R",retries)
-	if retries > MaximumInfoRetries then
+	if not t.CanRetry then
 		return giveUpFunc(t, field)
 	end
 end

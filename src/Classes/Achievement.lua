@@ -408,10 +408,8 @@ do
 				name = "Criteria: "..(select(2, GetAchievementInfo(achievementID)) or "#"..criteriaID)
 			end
 		end
-		app.PrintDebug("failed to retrieve criteria name",achievementID,t.criteriaID,name,t._default_name_retry)
-		t._default_name_retry = (t._default_name_retry or 0) + 1
-		if (t._default_name_retry > 25) then
-			t._default_name_retry = nil
+		app.PrintDebug("failed to retrieve criteria name",achievementID,t.criteriaID,name)
+		if not t.CanRetry then
 			return name or UNKNOWN
 		end
 	end

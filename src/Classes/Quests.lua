@@ -272,17 +272,10 @@ local function PrintQuestInfoCallback(questID, success, params)
 	if not success then
 		local ref = Search("questID", questID, "field")
 		if ref then
-			if IsRetrieving(ref.name) then
-				ref._questnameretry = (ref._questnameretry or 0) + 1
-				-- TODO: maybe switch to a timer cut-off instead of a bunch of increment checks...
-				if ref._questnameretry < 40 then
-					-- app.PrintDebug("Retry for quest name from ref",app:SearchLink(ref),ref._questnameretry,questID)
-					Runner.Run(PrintQuestInfoCallback, questID, success, params)
-					return
-				else
-					-- give up trying to get the name
-					ref._questnameretry = nil
-				end
+			if IsRetrieving(ref.name) and ref.CanRetry then
+				-- app.PrintDebug("Retry for quest name from ref",app:SearchLink(ref),questID)
+				Runner.Run(PrintQuestInfoCallback, questID, success, params)
+				return
 			end
 		end
 	end
@@ -2443,18 +2436,15 @@ if app.IsRetail then
 		if not questID then
 			-- Update the group directly immediately since there's no quest to retrieve
 			-- app.PrintDebug("TPQR:No Quest")
-			questObject.retries = nil;
 			app.DirectGroupUpdate(questObject);
 			return;
 		end
-		questObject.retries = (questObject.retries or 0) + 1;
 		-- if we've already requested data for this quest a certain number of times, then ignore making another request
-		if questObject.retries < 5 and not HaveQuestRewardData(questID) then
+		if not HaveQuestRewardData(questID) and questObject.CanRetry then
 			RequestLoadQuestByID(questID, questObject);
 			return;
 		end
 
-		questObject.retries = nil;
 		-- if not HaveQuestRewardData(questID) then
 		-- 	app.PrintDebug("TPQR",questID,"Data",HaveQuestData(questID),"RewardData",HaveQuestRewardData(questID),GetNumQuestLogRewards(questID),GetNumQuestLogRewardCurrencies(questID))
 		-- end

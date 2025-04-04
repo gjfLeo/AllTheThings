@@ -702,8 +702,7 @@ do
 		-- app.PrintDebug("GGLUS",sourceID,"=>",link)
 
 		if IsRetrieving(link) then
-			group.retries = (group.retries or 0) + 1
-			if group.retries > 10 then
+			if not group.CanRetry then
 				return
 			end
 			app.FunctionRunner.Run(GenerateGroupLinkUsingSourceID, group)
