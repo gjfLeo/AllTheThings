@@ -1968,6 +1968,10 @@ function app:CreateWindow(suffix, settings)
 			window:RegisterEvent("PET_BATTLE_OPENING_START");
 			window:RegisterEvent("PET_BATTLE_CLOSE");
 		end
+		window.IsDynamicCategory = settings.IsDynamicCategory;
+		window.DynamicCategoryHeader = settings.DynamicCategoryHeader;
+		window.DynamicProfessionID = settings.DynamicProfessionID;
+		window.IsTopLevel = settings.IsTopLevel;
 		if settings.OnInit then
 			settings.OnInit(window, handlers);
 		end
@@ -1994,8 +1998,6 @@ function app:CreateWindow(suffix, settings)
 		if settings.TooltipAnchor then
 			window.TooltipAnchor = settings.TooltipAnchor;
 		end
-		window.IsDynamicCategory = settings.IsDynamicCategory;
-		window.IsTopLevel = settings.IsTopLevel;
 		LoadSettingsForWindow(window);
 
 		-- Replace some functions.
@@ -2020,13 +2022,30 @@ end
 function app:GetWindow(suffix)
 	return app.Windows[suffix];
 end
+local function CloneReferenceForBuildRequests(group)
+	local clone = {};
+	if group.g then
+		local g = {};
+		for i,group in ipairs(group.g) do
+			if not group.IgnoreBuildRequests then
+				local child = CloneReferenceForBuildRequests(group);
+				child.parent = clone;
+				tinsert(g, child);
+			end
+		end
+		clone.g = g;
+	end
+	return setmetatable(clone, { __index = group });
+end
 function app:BuildFlatSearchFilteredResponse(groups, filter, t)
 	if groups then
 		for i,group in ipairs(groups) do
-			if filter(group) then
-				tinsert(t, CloneReference(group));
-			elseif group.g then
-				app:BuildFlatSearchFilteredResponse(group.g, filter, t);
+			if not group.IgnoreBuildRequests then
+				if filter(group) then
+					tinsert(t, CloneReferenceForBuildRequests(group));
+				elseif group.g then
+					app:BuildFlatSearchFilteredResponse(group.g, filter, t);
+				end
 			end
 		end
 	end
@@ -2034,11 +2053,13 @@ end
 function app:BuildFlatSearchResponse(groups, field, value, t)
 	if groups then
 		for i,group in ipairs(groups) do
-			local v = group[field];
-			if v and (v == value or (field == "requireSkill" and app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == value)) then
-				tinsert(t, CloneReference(group));
-			elseif group.g then
-				app:BuildFlatSearchResponse(group.g, field, value, t);
+			if not group.IgnoreBuildRequests then
+				local v = group[field];
+				if v and (v == value or (field == "requireSkill" and app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == value)) then
+					tinsert(t, CloneReferenceForBuildRequests(group));
+				elseif group.g then
+					app:BuildFlatSearchResponse(group.g, field, value, t);
+				end
 			end
 		end
 	end
@@ -2046,10 +2067,12 @@ end
 function app:BuildFlatSearchResponseForField(groups, field, t)
 	if groups then
 		for i,group in ipairs(groups) do
-			if group[field] then
-				tinsert(t, CloneReference(group));
-			elseif group.g then
-				app:BuildFlatSearchResponseForField(group.g, field, t);
+			if not group.IgnoreBuildRequests then
+				if group[field] then
+					tinsert(t, CloneReferenceForBuildRequests(group));
+				elseif group.g then
+					app:BuildFlatSearchResponseForField(group.g, field, t);
+				end
 			end
 		end
 	end
@@ -2058,14 +2081,16 @@ function app:BuildSearchFilteredResponse(groups, filter)
 	if groups then
 		local t;
 		for i,group in ipairs(groups) do
-			if filter(group) then
-				if not t then t = {}; end
-				tinsert(t, CloneReference(group));
-			else
-				local response = app:BuildSearchFilteredResponse(group.g, filter);
-				if response then
+			if not group.IgnoreBuildRequests then
+				if filter(group) then
 					if not t then t = {}; end
-					tinsert(t, setmetatable({g=response}, { __index = group }));
+					tinsert(t, CloneReferenceForBuildRequests(group));
+				else
+					local response = app:BuildSearchFilteredResponse(group.g, filter);
+					if response then
+						if not t then t = {}; end
+						tinsert(t, setmetatable({g=response}, { __index = group }));
+					end
 				end
 			end
 		end
@@ -2076,15 +2101,17 @@ function app:BuildSearchResponse(groups, field, value)
 	if groups then
 		local t;
 		for i,group in ipairs(groups) do
-			local v = group[field];
-			if v and (v == value or (field == "requireSkill" and app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == value)) then
-				if not t then t = {}; end
-				tinsert(t, CloneReference(group));
-			else
-				local response = app:BuildSearchResponse(group.g, field, value);
-				if response then
+			if not group.IgnoreBuildRequests then
+				local v = group[field];
+				if v and (v == value or (field == "requireSkill" and app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == value)) then
 					if not t then t = {}; end
-					tinsert(t, setmetatable({g=response}, { __index = group }));
+					tinsert(t, CloneReferenceForBuildRequests(group));
+				else
+					local response = app:BuildSearchResponse(group.g, field, value);
+					if response then
+						if not t then t = {}; end
+						tinsert(t, setmetatable({g=response}, { __index = group }));
+					end
 				end
 			end
 		end
@@ -2095,14 +2122,16 @@ function app:BuildSearchResponseForField(groups, field)
 	if groups then
 		local t;
 		for i,group in ipairs(groups) do
-			if group[field] then
-				if not t then t = {}; end
-				tinsert(t, CloneReference(group));
-			else
-				local response = app:BuildSearchResponseForField(group.g, field);
-				if response then
+			if not group.IgnoreBuildRequests then
+				if group[field] then
 					if not t then t = {}; end
-					tinsert(t, setmetatable({g=response}, { __index = group }));
+					tinsert(t, CloneReferenceForBuildRequests(group));
+				else
+					local response = app:BuildSearchResponseForField(group.g, field);
+					if response then
+						if not t then t = {}; end
+						tinsert(t, setmetatable({g=response}, { __index = group }));
+					end
 				end
 			end
 		end
