@@ -2993,6 +2993,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 			}),
 			q(36522, {	-- Solidarity in Death
 				["provider"] = { "n", 85777 },	-- Ahm
+				["coords"] = {
+					{ 50.5, 15.7, FROSTWALL },
+					{ 53.4, 69.2, LUNARFALL },
+				},
 				["sourceQuest"] = 33973,	-- Dying Wish
 				["g"] = {
 					follower(208),	-- Ahm

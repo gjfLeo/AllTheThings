@@ -1510,6 +1510,8 @@ root(ROOTS.ExpansionFeatures,
 
 								-- Warfront Quests
 								q(53673, {	-- Armor Up!
+									["qg"] = 139103,	-- Balinda Darkstone
+									["coord"] = { 49.6, 76.3, 1044 },	-- Arathi Highlands
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(53666, {	-- Armor Up!
@@ -1531,6 +1533,8 @@ root(ROOTS.ExpansionFeatures,
 									},
 								}),
 								q(52118, {	-- Cutting Out the Competition
+									["qg"] = 139446,	-- Lumbering Leo
+									["coord"] = { 36.5, 59.6, 1044 },	-- Arathi Highlands
 									["races"] = ALLIANCE_ONLY,
 									["g"] = {
 										i(156531),	-- Freshly-Chopped Wood (QI!)
@@ -1561,6 +1565,8 @@ root(ROOTS.ExpansionFeatures,
 									},
 								}),
 								q(53672, {	-- Ready for Battle
+									["qg"] = 139727,	-- Sergeant Matthew Walker
+									["coord"] = { 46.1, 73.4, 1044 },
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(53665, {	-- Ready for Battle
@@ -1569,6 +1575,8 @@ root(ROOTS.ExpansionFeatures,
 									["coord"] = { 60.6, 28.1, 943 },
 								}),
 								q(53674, {	-- The Altar's Power
+									["qg"] = 137698,	-- Captain Roderick Brewston
+									["coord"] = { 48.0, 79.9, 1044 },	-- Arathi Highlands
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(53669, {	-- The Altar's Power

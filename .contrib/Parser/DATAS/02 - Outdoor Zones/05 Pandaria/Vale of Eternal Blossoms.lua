@@ -646,6 +646,7 @@ root(ROOTS.Zones, {
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
 						["provider"] = { "n", 59338 },	-- Che Wildwalker
 						["isDaily"] = true,
+						["g"] = { i(87807) },	-- Stone of the Water Strider (QI!)
 						["u"] = REMOVED_FROM_GAME,
 					}),
 					q(31288, {	-- Research Project: The Mogu Dynasties
@@ -655,7 +656,12 @@ root(ROOTS.Zones, {
 					}),
 					q(31289, {	-- Research Project: The Pandaren Empire
 						["provider"] = { "n", 63984 },	-- Master Liu
-						["coord"] = { 83.6, 31.0, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							{ 83.6, 31.0, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #if AFTER 8.3.0
+							{ 84.1, 28.5, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
 						["isDaily"] = true,
 					}),
 					q(30238, {	-- Return to Rest
