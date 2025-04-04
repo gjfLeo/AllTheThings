@@ -1330,8 +1330,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							i(18249, {	-- Crescent Key
 								["description"] =
 									-- #if AFTER 5.2.0
-									"This key no longer have any practical use, and disappears from the inventory like a conjured item.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
-									-- #elseif BEFORE 4.0.3
+									"This key no longer has any practical use, and disappears from the inventory like a conjured item.", -- Removed with 4.0.3, and started dropping again with 5.2.0 for no apparent reason.
+									-- #elseif AFTER 4.0.3
+									"This key no longer has any practical use.",
+									-- #else
 									"This key is required to enter the Gordok Commons and Capital Gardens.",
 									-- #endif
 							}),
