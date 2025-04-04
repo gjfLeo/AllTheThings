@@ -695,8 +695,11 @@ do
 		if not sourceID then return; end
 
 		local link = app.DetermineItemLink(sourceID);
-		if not link then return; end
-		-- app.PrintDebug("GGLUS",sourceID,link)
+		if not link then
+			group.link = "|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"
+			return
+		end
+		-- app.PrintDebug("GGLUS",sourceID,"=>",link)
 
 		if IsRetrieving(link) then
 			group.retries = (group.retries or 0) + 1
