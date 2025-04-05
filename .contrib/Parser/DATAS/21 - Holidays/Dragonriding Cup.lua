@@ -97,7 +97,7 @@ local dragonridingrace = function(id, data)
 end
 local RIDERS_OF_AZEROTH_BADGE = 2588;
 
-root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT, {
+root(ROOTS.Holidays, skyriding(applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT, {
 	["timeline"] = { ADDED_10_1_5 },
 	["groups"] = {
 		applyevent(EVENTS.EASTERN_KINGDOMS_CUP, n(EASTERN_KINGDOMS_CUP_HEADER, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {	-- Eastern Kingdom Cup
@@ -3067,8 +3067,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 		}),
 		n(VENDORS, {
 			n(212027, {	-- Dathendrash  <Riders of Azeroth>
-				["coords"] = { 
-					{ 59.8, 66.2, STORMWIND },
+				["coords"] = {
+					{ 59.8, 66.2, STORMWIND_CITY },
 					{ 52.0, 60.0, ORGRIMMAR },
 				},
 				["timeline"] = { ADDED_10_2_5 },
@@ -3220,7 +3220,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 			}),
 		}),
 	},
-})));
+}))));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_5 } }, {
 	applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT, {

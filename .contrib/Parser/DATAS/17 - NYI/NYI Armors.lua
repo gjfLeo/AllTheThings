@@ -4041,48 +4041,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 					}),
 				})),
 			}),
-			header(HEADERS.LFGDungeon, 1707, {	-- The MOTHERLODE!!
-				n(MYTHIC_PLUS, {
-					filter(CLOTH, {
-						i(235418, {["modID"] = 35 }),	-- Exquisitely Aerodynamic Shoulderpads
-						i(235418, {["modID"] = 162 }),	-- Exquisitely Aerodynamic Shoulderpads
-						i(235420, {["modID"] = 35 }),	-- Petticoat of the Self-Stylized Azerite Baron
-						i(235420, {["modID"] = 162 }),	-- Petticoat of the Self-Stylized Azerite Baron
-					}),
-					filter(LEATHER, {
-						i(235419, {["modID"] = 35 }),	-- High Altitude Turban
-						i(235419, {["modID"] = 162 }),	-- High Altitude Turban
-						i(235417, {["modID"] = 35 }),	-- Venture Co. Plenipotentiary Vest
-						i(235417, {["modID"] = 162 }),	-- Venture Co. Plenipotentiary Vest
-					}),
-					filter(MAIL, {
-						i(235416, {["modID"] = 35 }),	-- Crashguard Spaulders
-						i(235416, {["modID"] = 162 }),	-- Crashguard Spaulders
-						i(235460, {["modID"] = 35 }),	-- Shrapnel-Dampening Chestguard
-						i(235460, {["modID"] = 162 }),	-- Shrapnel-Dampening Chestguard
-					}),
-					filter(PLATE, {
-						i(235415, {["modID"] = 35 }),	-- Skyscorcher Pauldrons
-						i(235415, {["modID"] = 162 }),	-- Skyscorcher Pauldrons
-					}),
-				}),
-			}),
-			header(HEADERS.LFGDungeon, 2006, {	-- Operation: Mechagon
-				n(MYTHIC_PLUS, {
-					filter(CLOTH, {
-						i(235812, {["modID"] = 162 }),	-- Shoulderguards of Fraying Sanity
-					}),
-					filter(LEATHER, {
-						i(235811, {["modID"] = 162 }),	-- Extravagant Epaulets
-					}),
-					filter(MAIL, {
-						i(235810, {["modID"] = 35 }),	-- Circuit-Linked Chainmail
-					}),
-					filter(PLATE, {
-						i(235809, {["modID"] = 162 }),	-- Mechanized Plate Chasse
-					}),
-				}),
-			}),
 		})),
 	}),
 }));

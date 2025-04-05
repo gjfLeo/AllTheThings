@@ -201,17 +201,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						132713,	-- Mogul Razdunk
 					},
 					["g"] = {
-						-- TODO: Currently a mass but just trying to get all item sourceids listed for now, split off into categories and timeline eventually
-						-- Veteran Track, modID 67, shared sourceIDs with Champion
-						-- Champion Track
-						i(235419, {["modID"] = 23 }),	-- High Altitude Turban
-						i(235415, {["modID"] = 23 }),	-- Skyscorcher Pauldrons
-						i(235417, {["modID"] = 23 }),	-- Venture Co. Plenipotentiary Vest
-						-- Hero Track
-						i(235416, {["modID"] = 16 }),	-- Crashguard Spaulders
-						i(235420, {["modID"] = 16 }),	-- Petticoat of the Self-Stylized Azerite Baron
-						i(235415, {["modID"] = 33 }),	-- Skyscorcher Pauldrons
-						--
+						i(235416),	-- Crashguard Spaulders
 						i(235418),	-- Exquisitely Aerodynamic Shoulderpads
 						i(235419),	-- High Altitude Turban
 						i(235420),	-- Petticoat of the Self-Stylized Azerite Baron
@@ -322,6 +312,34 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}),
+			n(MYTHIC_PLUS, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+				e(2116, {	-- Mogul Razdunk
+					["crs"] = {
+						129232,	-- Mogul Razdunk
+						132713,	-- Mogul Razdunk
+					},
+					["g"] = {
+						-- Hero Track
+						iupgrade(235416, 162, 0, {["modID"] = 35 }),	-- Crashguard Spaulders
+						iupgrade(235418, 162, 0, {["modID"] = 35 }),	-- Exquisitely Aerodynamic Shoulderpads
+						iupgrade(235419, 162, 0, {["modID"] = 35 }),	-- High Altitude Turban
+						iupgrade(235420, 162, 0, {["modID"] = 35 }),	-- Petticoat of the Self-Stylized Azerite Baron
+						iupgrade(235460, 162, 0, {["modID"] = 35 }),	-- Shrapnel-Dampening Chestguard
+						iupgrade(235415, 162, 0, {["modID"] = 35 }),	-- Skyscorcher Pauldrons
+						iupgrade(235417, 162, 0, {["modID"] = 35 }),	-- Venture Co. Plenipotentiary Vest
+						-- Myth Track
+						n(UPGRADE, {
+							i(235418, {["modID"] = 162 }),	-- Exquisitely Aerodynamic Shoulderpads
+							i(235420, {["modID"] = 162 }),	-- Petticoat of the Self-Stylized Azerite Baron
+							i(235419, {["modID"] = 162 }),	-- High Altitude Turban
+							i(235417, {["modID"] = 162 }),	-- Venture Co. Plenipotentiary Vest
+							i(235416, {["modID"] = 162 }),	-- Crashguard Spaulders
+							i(235460, {["modID"] = 162 }),	-- Shrapnel-Dampening Chestguard
+							i(235415, {["modID"] = 162 }),	-- Skyscorcher Pauldrons
+						}),
+					},
+				}),
+			})),
 		},
 	}),
 })));

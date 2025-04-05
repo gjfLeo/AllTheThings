@@ -240,12 +240,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							144249,	-- Omega Buster
 						},
 						["g"] = {
-							-- TODO: Currently a mass but just trying to get all item sourceids listed for now, split off into categories and timeline eventually
-							-- Veteran Track, modID 67, shared sourceIDs with Champion
-							-- Champion Track
-							-- Hero Track
-							i(235810, {["modID"] = 16 }),	-- Circuit-Linked Chainmail
-							--
 							i(235222),	-- Apogee Inventor's Goggles
 							i(235810),	-- Circuit-Linked Chainmail
 							i(235811),	-- Extravagant Epaulets
@@ -466,6 +460,23 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					}),
 				},
 			}),
+			n(MYTHIC_PLUS, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+				n(MECHAGON_WORKSHOP, {
+					e(2331, {	-- King Mechagon
+						["crs"] = {
+							150396,	-- Aerial Unit R-21/X
+							150397,	-- King Mechagon
+							144249,	-- Omega Buster
+						},
+						["g"] = {
+							i(235810, {["modID"] = 35 }),	-- Circuit-Linked Chainmail
+							i(235811, {["modID"] = 162 }),	-- Extravagant Epaulets
+							i(235809, {["modID"] = 162 }),	-- Mechanized Plate Chasse
+							i(235812, {["modID"] = 162 }),	-- Shoulderguards of Fraying Sanity
+						},
+					}),
+				}),
+			})),
 		},
 	}),
 })));
