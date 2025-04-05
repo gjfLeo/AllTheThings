@@ -5633,10 +5633,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(37915, {	-- Pattern: Dress Shoes
+							["timeline"] = { ADDED_4_0_3 },
 							["isLimited"] = true,
 						}),
-						i(38327),	-- Pattern: Haliscan Jacket
-						i(38328),	-- Pattern: Haliscan Pantaloons
+						i(38327, {	-- Pattern: Haliscan Jacket
+							["timeline"] = { ADDED_4_0_3 },
+						}),
+						i(38328, {	-- Pattern: Haliscan Pantaloons
+							["timeline"] = { ADDED_4_0_3 },
+						}),
 					},
 				}),
 				-- #if AFTER TBC
@@ -5645,10 +5650,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { REMOVED_4_0_3 },
 					["groups"] = {
 						i(37915, {	-- Pattern: Dress Shoes
+							["timeline"] = { ADDED_2_4_2, REMOVED_4_0_3 },
 							["isLimited"] = true,
 						}),
-						i(38327),	-- Pattern: Haliscan Jacket
-						i(38328),	-- Pattern: Haliscan Pantaloons
+						i(38327, {	-- Pattern: Haliscan Jacket
+							["timeline"] = { ADDED_2_4_2, REMOVED_4_0_3 },
+						}),
+						i(38328, {	-- Pattern: Haliscan Pantaloons
+							["timeline"] = { ADDED_2_4_2, REMOVED_4_0_3 },
+						}),
 					},
 				}),
 				-- #endif
