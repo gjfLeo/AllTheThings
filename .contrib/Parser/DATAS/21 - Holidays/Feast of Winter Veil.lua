@@ -737,7 +737,13 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["timeline"] = { ADDED_4_3_0 },
 		}),
 		ach(7852, {	-- They're Both Footballs? (2012)
+			-- #if AFTER 6.0.0
+			-- #if BEFORE 11.0.7
+			["description"] = "If you have obtained both items but you didn't earn the achievement, try throwing both balls to a friend.\n\nIf you learned the toys on 2 different characters, the achievement cant be completed",
+			-- #else
 			["description"] = "If you have obtained both items but you didn't earn the achievement, try throwing both balls to a friend.",
+			-- #endif
+			-- #endif
 			["providers"] = {
 				{ "i", 90888 },	-- Special Edition Foot Ball (TOY!)
 				{ "i", 90883 },	-- The Pigskin (TOY!)

@@ -2384,6 +2384,7 @@ root(ROOTS.Zones, {
 						["lvl"] = 100,
 						["g"] = {
 							i(119371),	-- Mantle of the Destroyer
+							i(119435),	-- Path of Flame
 						},
 					}),
 					n(77529, {	-- Yazheera the Incinerator
