@@ -2140,9 +2140,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				["races"] = HORDE_ONLY,
 			}),
 			["cost"] = {
-					{ "i", 17197, 5 },	-- Gingerbread Cookie
-					{ "i", 1179, 1 },	-- Ice Cold Milk
-				},
+				{ "i", 17197, 5 },	-- Gingerbread Cookie
+				{ "i", 1179, 1 },	-- Ice Cold Milk
+			},
 			["isYearly"] = true,
 			["lvl"] = 10,
 			["groups"] = {
