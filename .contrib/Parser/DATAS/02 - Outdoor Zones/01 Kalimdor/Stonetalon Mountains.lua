@@ -681,7 +681,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25931, {	-- Brood of Seldarria
 					["qg"] = 41487,	-- Hierophant Malyk
-					["description"] = "If you abandon this quest, you can pick it up again at Hierophant Malyk at Farwatcher's Glen.",
+					["description"] = "If you abandon this quest, you can pick it up again from Hierophant Malyk at Farwatcher's Glen.",
 					["sourceQuest"] = 25930,	-- Ascending the Vale
 					["coord"] = { 33.1, 59.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1393,7 +1393,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25808, {	-- Is This Thing On?
 					["qg"] = 41277,	-- Lieutenant Paulson
-					["description"] = "If you abandon this quest, you can pick it up again at Lieutenant Paulson at the barricade near the entrance of The Deep Reaches.",
+					["description"] = "If you abandon this quest, you can pick it up again from Lieutenant Paulson at the barricade near the entrance of The Deep Reaches.",
 					["sourceQuest"] = 25806,	-- They Put the Assass in... Never Mind
 					["coord"] = { 72.1, 76.0, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },

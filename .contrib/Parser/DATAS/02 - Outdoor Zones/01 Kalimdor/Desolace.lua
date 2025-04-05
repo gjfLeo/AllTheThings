@@ -3,11 +3,12 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(KALIMDOR, {
 	m(DESOLACE, {
-		-- #if AFTER CATA
-		["lore"] = "Desolace used to be a barren zone, primarily populated by centaur tribes. Post-Shattering, the Cenarion Circle has begun to heal the land, leading to regrowth in the center of Desolace.",
-		-- #else
-		["lore"] = "Centaur control this rugged wilderness. Desolace is a land of craggy rock faces and stormy skies, and the rampaging centaur let no other race survive. Five centaur tribes strike from individual strongholds, but the great fortress of Maraudon occasionally plays host to them all.",
-		-- #endif
+		["lore"] =
+			-- #if AFTER CATA
+			"Desolace used to be a barren zone, primarily populated by centaur tribes. Post-Shattering, the Cenarion Circle has begun to heal the land, leading to regrowth in the center of Desolace.",
+			-- #else
+			"Centaur control this rugged wilderness. Desolace is a land of craggy rock faces and stormy skies, and the rampaging centaur let no other race survive. Five centaur tribes strike from individual strongholds, but the great fortress of Maraudon occasionally plays host to them all.",
+			-- #endif
 		["icon"] = 236742,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
@@ -90,18 +91,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					pet(483),	-- Horny Toad (PET!)
 					pet(482),	-- Rock Viper (PET!)
 					pet(485, {	-- Stone Armadillo (PET!)
-						-- #if BEFORE 5.1.0
-						["description"] = "Found in the southeastern area of Desolace. It only spawns during the night between 6:30pm to 6:30am realm time.",
-						-- #else
-						["description"] = "Found in the southeastern area of Desolace. It only spawns during the night between 6:30pm to 6:30am PST(US)/CEST(EU)/AEST(OCE).",
-						-- #endif
+						["description"] =
+							-- #if BEFORE 5.1.0
+							"Found in the southeastern area of Desolace. It only spawns during the night between 6:30pm to 6:30am realm time.",
+							-- #else
+							"Found in the southeastern area of Desolace. It only spawns during the night between 6:30pm to 6:30am PST(US)/CEST(EU)/AEST(OCE).",
+							-- #endif
 					}),
 					pet(480, {	-- Topaz Shale Hatchling (PET!)
 						["description"] = "The biggest concentration can be found in Desolace, the orange section of open world Maraudon. Can also be found in Deepholm around Therazane's Throne, beneath Silvermarsh, as well as inside Fungal Deep.",
 						["coords"] = {
 							{ 26.8, 43.5, DESOLACE },	-- Maraudon entrance
 							{ 69.4, 68.2, DEEPHOLM },	-- Cavern beneath Silvermarsh
-							{ 68.65, 28.5, DEEPHOLM },	-- Fungal Deep cavern entrance
+							{ 68.6, 28.5, DEEPHOLM },	-- Fungal Deep cavern entrance
 							{ 57.0, 13.2, DEEPHOLM },	-- Therazane's Throne
 						},
 					}),
@@ -189,7 +191,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(FLIGHT_PATHS, {
 				fp(370, {	-- Ethel Rethor, Desolace
 					["cr"] = 35562,	-- Korrah's Hippogryph <Flight Master>
-					["coord"] = { 39.0, 27.0, DESOLACE },
+					["coord"] = { 39.1, 26.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				fp(366, {	-- Furien's Post, Desolace
@@ -200,12 +202,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				fp(368, {	-- Karnum's Glade, Desolace
 					["cr"] = 35478,	-- Lastrea Greengale <Flight Master>
-					["coord"] = { 57.6, 49.6, DESOLACE },
+					["coord"] = { 57.7, 49.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				fp(37, {	-- Nijel's Point, Desolace
 					["cr"] = 6706,	-- Baritanas Skyriver <Hippogryph Master>
-					["coord"] = { 64.6, 10.4, DESOLACE },
+					["coord"] = { 64.7, 10.5, DESOLACE },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(38, {	-- Shadowprey Village, Desolace
@@ -215,13 +217,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				fp(367, {	-- Thargad's Camp, Desolace
 					["cr"] = 35481,	-- Moira Steelwing <Gryphon Master>
-					["coord"] = { 36.8, 71.6, DESOLACE },
+					["coord"] = { 36.8, 71.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(369, {	-- Thunk's Abode, Desolace
 					["cr"] = 35556,	-- Thunk's Wyvern <Flight Master>
-					["coord"] = { 70.6, 32.8, DESOLACE },
+					["coord"] = { 70.7, 32.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 			}),
@@ -234,7 +236,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14284, {	-- A Revenant's Vengeance
 					["qg"] = 35902,	-- Lord Hydronis
 					["sourceQuest"] = 14292,	-- The Enemy of Our Enemy
-					["coord"] = { 29.0, 8.0, DESOLACE },
+					["coord"] = { 29.1, 8.1, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/1 Valishj Slain
@@ -244,7 +246,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14305, {	-- A Time to Reap
 					["qg"] = 36060,	-- Botanist Ferrah
-					["coord"] = { 58.5, 48.7, DESOLACE },
+					["coord"] = { 58.6, 48.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/10 Aloe Thistle
@@ -308,7 +310,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14380, {	-- An Impactful Discovery
 					["qg"] = 36329,	-- Thargad
 					["sourceQuest"] = 14378,	-- Hunting Brendol
-					["coord"] = { 36.7, 71.3, DESOLACE },
+					["coord"] = { 36.7, 71.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -376,15 +378,26 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14359, {	-- Blessings From Above
 					["provider"] = { "o", 195497 },	-- Elune's Brazier
 					["sourceQuest"] = 14358,	-- Ten Pounds of Flesh
-					["coord"] = { 78.6, 23.1, DESOLACE },
+					["coord"] = { 78.7, 23.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["repeatable"] = true,
 				}),
 				q(14304, {	-- Blood Theory
-					["qg"] = 36048,	-- Thressa Amberglen
-					["coord"] = { 58.7, 46.5, DESOLACE },
+					["providers"] = {
+						{ "n", 36048 },	-- Thressa Amberglen
+						{ "i", 49138 },	-- Bottle of Leeches
+					},
+					["coord"] = { 58.8, 46.4, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
+					["groups"] = {
+						objective(1, {	-- 0/10 Blood-Filled Leech
+							["providers"] = {
+								{ "n", 35412 },	-- Rejuvenated Thunder Lizzard
+								{ "n", 36059 },	-- Blood-filled Leech
+							},
+						}),
+					},
 				}),
 				q(14334, {	-- Blubbergut
 					["qg"] = 12031,	-- Mai'Lahii
@@ -423,7 +436,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(5501, {	-- Bone Collector
 					["qg"] = 11438,	-- Bibbly F'utzbuckle
-					["coord"] = { 62.2, 38.8, DESOLACE },
+					["coord"] = { 62.3, 39.0, DESOLACE },
 					["lvl"] = lvlsquish(33, 33, 10),
 					["groups"] = {
 						objective(1, {	-- 0/10 Kodo Bone
@@ -464,7 +477,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14314, {	-- Breakout!
 					["qg"] = 36056,	-- Khan Leh'Prah
 					["sourceQuest"] = 14312,	-- An Introduction is in Order
-					["coord"] = { 58.2, 50.0, DESOLACE },
+					["coord"] = { 58.3, 50.1, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(1369, {	-- Broken Tears
@@ -512,7 +525,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14309, {	-- Calming the Kodo
 					["qg"] = 36048,	-- Thressa Amberglen
 					["sourceQuest"] = 14304,	-- Blood Theory
-					["coord"] = { 58.7, 46.4, DESOLACE },
+					["coord"] = { 58.8, 46.4, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(55904, {	-- The Tranquilizer
@@ -707,7 +720,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14381, {	-- Cleansing Our Crevasse (A)
 					["qg"] = 36034,	-- Karnum Marshweaver
 					["sourceQuest"] = 14380,	-- An Impactful Discovery
-					["coord"] = { 57.4, 47.6, DESOLACE },
+					["coord"] = { 57.5, 47.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -731,7 +744,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14346, {	-- Cleansing Our Crevasse (H)
 					["qg"] = 36034,	-- Karnum Marshweaver
 					["sourceQuest"] = 14343,	-- Maurin's Concoction
-					["coord"] = { 57.4, 47.7, DESOLACE },
+					["coord"] = { 57.5, 47.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -755,7 +768,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14394, {	-- Death to Agogridon
 					["qg"] = 36398,	-- Khan Leh'Prah
 					["sourceQuest"] = 14393,	-- Into the Fray!
-					["coord"] = { 72.2, 67.3, DESOLACE },
+					["coord"] = { 72.3, 67.4, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["description"] = "If you completed this quest prior to 8.0.1, go to Karnum's Glade and speak with Karnum Marshweaver (57.4, 47.6) and he'll grant you the rep.\n\n - Crieve",
 					["groups"] = {
@@ -779,7 +792,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14268, {	-- Deep Impact
 					["qg"] = 35827,	-- Valishj
 					["sourceQuest"] = 14264,	-- Wetter than Wet
-					["coord"] = { 30.9, 30.8, DESOLACE },
+					["coord"] = { 30.9, 30.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(14318, {	-- Delicate Negotiations
@@ -788,7 +801,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						14314,	-- Breakout!
 						14316,	-- Cenarion Property
 					},
-					["coord"] = { 58.2, 50.0, DESOLACE },
+					["coord"] = { 58.3, 50.1, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(55909, {	-- Drape of Centaur Dreams
@@ -845,7 +858,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14246, {	-- Early Adoption
 					["qg"] = 35661,	-- Cenarion Embassador Thunk
-					["coord"] = { 70.3, 32.9, DESOLACE },
+					["coord"] = { 70.4, 33.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(55894, {	-- Featherlight Leggings
@@ -860,6 +873,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["provider"] = { "i", 49203 },	-- Burning Blade Ear (Alliance)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["crs"] = {
+						4663,	-- Burning Blade Augur
+						4664,	-- Burning Blade Reaver
+						4665,	-- Burning Blade Adept
+						4666,	-- Burning Blade Felsworn
+						4667,	-- Burning Blade Shadowmage
+					},
 					["groups"] = {
 						objective(1, {	-- 0/25 Burning Blade Ear
 							["provider"] = { "i", 49008 },	-- Burning Blade Ear
@@ -877,6 +897,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["provider"] = { "i", 49010 },	-- Burning Blade Ear (Horde)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
+					["crs"] = {
+						4663,	-- Burning Blade Augur
+						4664,	-- Burning Blade Reaver
+						4665,	-- Burning Blade Adept
+						4666,	-- Burning Blade Felsworn
+						4667,	-- Burning Blade Shadowmage
+					},
 					["groups"] = {
 						objective(1, {	-- 0/25 Burning Blade Ear
 							["provider"] = { "i", 49008 },	-- Burning Blade Ear
@@ -914,7 +941,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14365, {	-- Ethel Rethor (A)
 					["qg"] = 5752,	-- Corporal Melkins
 					["sourceQuest"] = 14354,	-- Elune's Gifts
-					["coord"] = { 66.6, 10.8, DESOLACE },
+					["coord"] = { 66.7, 10.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -962,7 +989,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14253, {	-- Fletch Me Some Plumage!
 					["qg"] = 35757,	-- Bizby
-					["coord"] = { 60.9, 29.0, DESOLACE },
+					["coord"] = { 61.0, 29.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/25 Dread Swoop Feather
@@ -1002,7 +1029,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(6132, {	-- Get Me Out of Here!
 					["qg"] = 12277,	-- Melizza Brimbuzzle
-					["coord"] = { 33.8, 53.4, DESOLACE },
+					["coord"] = { 33.9, 53.5, DESOLACE },
 					["lvl"] = lvlsquish(34, 34, 10),
 				}),
 				q(14338, {	-- Ghost Walker Post
@@ -1057,12 +1084,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14260, {	-- Going Deep
 					["qg"] = 35773,	-- Cenarion Researcher Korrah
 					["sourceQuest"] = 14257,	-- Slitherblade Slaughter
-					["coord"] = { 38.8, 26.9, DESOLACE },
+					["coord"] = { 38.8, 27.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(14252, {	-- Good Gold For Bad Tail
 					["qg"] = 35757,	-- Bizby
-					["coord"] = { 60.9, 29.0, DESOLACE },
+					["coord"] = { 61.0, 29.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/15 Aged Basilisk Tail
@@ -1092,8 +1119,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14254, {	-- Heavy Metal
 					["provider"] = { "o", 195600 },	-- Smouldering Stone
 					["sourceQuest"] = 14247,	-- Stubborn Lands
-					["coord"] = { 69.2, 21.3, DESOLACE },
+					["coord"] = { 69.3, 21.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
+					["modelScale"] = 6,
 					["groups"] = {
 						objective(1, {	-- 0/7 Element 116
 							["providers"] = {
@@ -1117,7 +1145,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["lockCriteria"] = { 1, "questID", 25938 },	-- Help for Desolace
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 29. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 33 (TODO: Test max level between 32 and 37)
+					-- Cataclysm: Maximum is level 33. (TODO: Test max level between 32 and 37)
 					["lvl"] = { 29, 33 },
 					-- #endif
 				})),
@@ -1135,12 +1163,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						14373,	-- Infernal Encroachment
 						14374,	-- Portals of the Legion
 					},
-					["coord"] = { 36.7, 71.3, DESOLACE },
+					["coord"] = { 36.7, 71.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Brendol's Satchel
 							["provider"] = { "i", 49221 },	-- Brendol's Satchel
+							["description"] = "Brendol is stealthed. Be vigilant!",
 							["cr"] = 36353,	-- Brendol
 						}),
 					},
@@ -1159,7 +1188,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14373, {	-- Infernal Encroachment
 					["qg"] = 36329,	-- Thargad
 					["sourceQuest"] = 14372,	-- Thargad's Camp
-					["coord"] = { 36.7, 71.3, DESOLACE },
+					["coord"] = { 36.7, 71.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1200,7 +1229,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14393, {	-- Into the Fray!
 					["qg"] = 36398,	-- Khan Leh'Prah
 					["sourceQuest"] = 14332,	-- Time for Change
-					["coord"] = { 72.2, 67.3, DESOLACE },
+					["coord"] = { 72.3, 67.4, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/15 Burning Blade Warlocks Slain
@@ -1354,7 +1383,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14387, {	-- Lay of the Land
 					["qg"] = 5396,	-- Captain Pentigast
 					["sourceQuest"] = 14384,	-- Rerouted!
-					["coord"] = { 66.6, 11.0, DESOLACE },
+					["coord"] = { 66.7, 10.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1386,13 +1415,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14327, {	-- My Word is My Bond
 					["qg"] = 36163,	-- Khan Kammah
 					["sourceQuest"] = 14325,	-- Will Work For Food
-					["coord"] = { 71.7, 45.5, DESOLACE },
+					["coord"] = { 73.3, 41.6, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(14282, {	-- Mystery Solved
 					["qg"] = 35773,	-- Cenarion Researcher Korrah
+					["description"] = "If you abandon this quest, you can pick it up again from Cenarion Researcher Korrah at Ethel Rethor.",
 					["sourceQuest"] = 14268,	-- Deep Impact
-					["coord"] = { 38.7, 26.9, DESOLACE },
+					["coord"] = { 38.8, 27.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(55896, {	-- Emblazoned Girdle
@@ -1411,7 +1441,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14251, {	-- New Beginnings
 					["qg"] = 35757,	-- Bizby
-					["coord"] = { 60.9, 29.0, DESOLACE },
+					["coord"] = { 61.0, 29.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/15 Scorpion Stinger
@@ -1423,7 +1453,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14329, {	-- Not So Fast!
 					["qg"] = 36185,	-- Khan Shodo
 					["sourceQuest"] = 14328,	-- Three Princes
-					["coord"] = { 40.4, 95.4, DESOLACE },
+					["coord"] = { 40.5, 95.5, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/10 Maraudine Maulers Slain
@@ -1436,21 +1466,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ "o", 195433 },	-- Ancient Tablets
 						{ "o", 195438 },	-- Cup of Elune
 					},
-					["coord"] = { 69.2, 29.2, DESOLACE },
+					["coord"] = { 77.0, 18.1, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(14360, {	-- Nothing a Couple of Melons Won't Fix (H)
 					["provider"] = { "o", 195433 },	-- Ancient Tablets
 					["sourceQuest"] = 14191,	-- Furien's Footsteps
-					["coord"] = { 69.2, 29.2, DESOLACE },
+					["coord"] = { 77.0, 18.1, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
 				q(14302, {	-- Official Assessment
 					["qg"] = 35773,	-- Cenarion Researcher Korrah
 					["sourceQuest"] = 14301,	-- Return and Report
-					["coord"] = { 38.7, 26.9, DESOLACE },
+					["coord"] = { 38.8, 27.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				-- #if SEASON_OF_DISCOVERY
@@ -1499,7 +1529,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14361, {	-- Peace of Mind (A)
 					["qg"] = 5396,	-- Captain Pentigast
 					["sourceQuest"] = 14354,	-- Elune's Gifts
-					["coord"] = { 66.6, 11.0, DESOLACE },
+					["coord"] = { 66.7, 10.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1523,7 +1553,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14374, {	-- Portals of the Legion (A)
 					["qg"] = 36329,	-- Thargad
 					["sourceQuest"] = 14372,	-- Thargad's Camp
-					["coord"] = { 36.7, 71.3, DESOLACE },
+					["coord"] = { 36.7, 71.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1549,14 +1579,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(5581, {	-- Portals of the Legion (H)
-					-- #if AFTER CATA
-					["qg"] = 5395,	-- Felgur Twocuts
-					["coord"] = { 56.1, 59.5, DESOLACE },
-					-- #else
-					["qg"] = 11624,	-- Taiga Wisemane
+					["qgs"] = {
+						-- #if AFTER CATA
+						5395,	-- Felgur Twocuts
+						-- #else
+						11624,	-- Taiga Wisemane
+						-- #endif
+					},
+					-- #if BEFORE CATA
 					["sourceQuest"] = 5381,	-- Hand of Iruxos
-					["coord"] = { 25.8, 68.2, DESOLACE },
 					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 56.1, 59.5, DESOLACE },
+						-- #else
+						{ 25.8, 68.2, DESOLACE },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(32, 32, 10),
 					["groups"] = {
@@ -1589,7 +1628,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14306, {	-- Pulling Weeds
 					["qg"] = 36060,	-- Botanist Ferrah
-					["coord"] = { 58.5, 48.7, DESOLACE },
+					["coord"] = { 58.6, 48.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/7 Uprooted Lashers Slain
@@ -1611,8 +1650,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14364, {	-- Putting Their Heads Together (A)
 					["qg"] = 5396,	-- Captain Pentigast
+					["description"] = "If you abandon this quest, you can pick it up again from Captain Pentigast at Nijel's Point.",
 					["sourceQuest"] = 14363,	-- You'll Know it When You See It
-					["coord"] = { 66.6, 11.0, DESOLACE },
+					["coord"] = { 66.7, 10.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1814,14 +1854,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						25938,	-- Help for Desolace
 						28531,	-- Hero's Call: Desolace!
 					},
-					["coord"] = { 54.25, 9.29, DESOLACE },
+					["coord"] = { 54.2, 9.3, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(14301, {	-- Return and Report
 					["qg"] = 35902,	-- Lord Hydronis
 					["sourceQuest"] = 14284,	-- A Revenant's Vengeance
-					["coord"] = { 29.0, 8.1, DESOLACE },
+					["coord"] = { 29.1, 8.1, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(55906, {	-- Balmy Wraps
@@ -1954,9 +1994,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 				}),
 				q(14257, {	-- Slitherblade Slaughter
-					["qg"] = 35773,	-- Cenarion Researcher Korrahb
+					["qg"] = 35773,	-- Cenarion Researcher Korrah
 					["sourceQuest"] = 14256,	-- The Emerging Threat
-					["coord"] = { 38.8, 26.9, DESOLACE },
+					["coord"] = { 38.8, 27.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/10 Slitherblade Bones
@@ -2025,12 +2065,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14247, {	-- Stubborn Lands
 					["qg"] = 35661,	-- Cenarion Embassador Thunk
-					["coord"] = { 70.3, 32.9, DESOLACE },
+					["coord"] = { 70.4, 33.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(14307, {	-- Stubborn Winds
 					["qg"] = 36034,	-- Karnum Marshweaver
-					["coord"] = { 57.4, 47.7, DESOLACE },
+					["coord"] = { 57.5, 47.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/5 Whirlwind Stormwalkers destroyed
@@ -2044,26 +2084,26 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						14305,	-- A Time to Reap
 						14306,	-- Pulling Weeds
 					},
-					["coord"] = { 58.5, 48.7, DESOLACE },
+					["coord"] = { 58.6, 48.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(14358, {	-- Ten Pounds of Flesh (A)
 					["provider"] = { "o", 195497 },	-- Elune's Brazier
-					["coord"] = { 78.6, 23.1, DESOLACE },
+					["coord"] = { 78.7, 23.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(14213, {	-- Ten Pounds of Flesh (H)
 					["provider"] = { "o", 195497 },	-- Elune's Brazier
 					["sourceQuest"] = 14189,	-- Translation
-					["coord"] = { 78.6, 23.1, DESOLACE },
+					["coord"] = { 78.7, 23.2, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 				}),
 				q(14372, {	-- Thargad's Camp
 					["qg"] = 36034,	-- Karnum Marshweaver
 					["sourceQuest"] = 14327,	-- My Word is My Bond
-					["coord"] = { 57.4, 47.6, DESOLACE },
+					["coord"] = { 57.5, 47.7, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -2201,7 +2241,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						14365,	-- Ethel Rethor (alliance)
 						14255,	-- Ethel Rethor (horde)
 					},
-					["coord"] = { 38.8, 26.9, DESOLACE },
+					["coord"] = { 38.8, 27.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/1 Naga Forces Scouted
@@ -2212,7 +2252,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14292, {	-- The Enemy of Our Enemy
 					["qg"] = 35773,	-- Cenarion Researh Korrah
 					["sourceQuest"] = 14282,	-- Mystery Solved
-					["coord"] = { 38.8, 26.9, DESOLACE },
+					["coord"] = { 38.8, 27.0, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(1454, {	-- The Karnitol Shipwreck (1/4)
@@ -2301,6 +2341,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						14394,	-- Death to Agogridon
 					},
 					["coord"] = { 73.3, 73.0, DESOLACE },
+					["modelScale"] = 1.5,
 					["timeline"] = { ADDED_4_0_3 },
 					["isBreadcrumb"] = true,
 				}),
@@ -2317,7 +2358,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14328, {	-- Three Princes
 					["qg"] = 36056,	-- Khan Leh'Prah
 					["sourceQuest"] = 14327,	-- My Word is My Bond
-					["coord"] = { 58.2, 50.0, DESOLACE },
+					["coord"] = { 58.3, 50.1, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/1 Rhoho Defeated
@@ -2334,7 +2375,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14332, {	-- Time For Change
 					["qg"] = 36196,	-- Kherrah
 					["sourceQuest"] = 14330,	-- Behind Closed Doors
-					["coord"] = { 13.2, 46.7, 67 },	-- quest starts in Maraudon's mapID
+					["coord"] = { 13.0, 46.3, 67 },	-- quest starts in Maraudon's mapID
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(55912, {	-- Wrought Formal Dagger
@@ -2353,7 +2394,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14357, {	-- To the Hilt! (A)
 					["provider"] = { "o", 195517 },	-- Elune's Handmaiden
-					["coord"] = { 75.9, 26.5, DESOLACE },
+					["coord"] = { 75.9, 26.6, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2374,7 +2415,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14219, {	-- To the Hilt! (H)
 					["provider"] = { "o", 195517 },	-- Elune's Handmaiden
 					["sourceQuest"] = 14189,	-- Translation
-					["coord"] = { 75.9, 26.5, DESOLACE },
+					["coord"] = { 75.9, 26.6, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
@@ -2438,7 +2479,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14264, {	-- Wetter Than Wet
 					["qg"] = 35827,	-- Valishj
 					["sourceQuest"] = 14260,	-- Going Deep
-					["coord"] = { 30.9, 30.8, DESOLACE },
+					["coord"] = { 30.9, 30.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(14333, {	-- While You're Here
@@ -2450,7 +2491,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(14325, {	-- Will Work For Food
 					["qg"] = 36163,	-- Khan Kammah
 					["sourceQuest"] = 14318,	-- Delicate Negotiations
-					["coord"] = { 71.7, 45.5, DESOLACE },
+					["coord"] = { 71.7, 45.6, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/5 Basilisk Flank
@@ -2461,8 +2502,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14363, {	-- You'll Know It When You See It (A)
 					["qg"] = 5396,	-- Captain Pentigast
+					["description"] = "If you abandon this quest, you can pick it up again from Captain Pentigast at Nijel's Point.",
 					["sourceQuest"] = 14361,	-- Peace of Mind
-					["coord"] = { 66.6, 11.0, DESOLACE },
+					["coord"] = { 66.7, 10.9, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2471,6 +2513,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 48951 },	-- Ancient Summoning Ritual
 								{ "o", 195531 },	-- Demonic Chest
 							},
+							["coord"] = { 52.9, 29.0, DESOLACE },
 						}),
 					},
 				}),
@@ -2480,30 +2523,37 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 44.8, 29.4, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- 0/1 Ancient Summoning Ritual
+							["providers"] = {
+								{ "i", 48951 },	-- Ancient Summoning Ritual
+								{ "o", 195531 },	-- Demonic Chest
+							},
+							["coord"] = { 52.9, 29.0, DESOLACE },
+						}),
+					},
 				}),
 			}),
 			n(RARES, {
 				n(14229, {	-- Accursed Slitherblade
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 29.4, 13.8, DESOLACE },
 						{ 32.6, 13.4, DESOLACE },
 						{ 32.8, 5.60, DESOLACE },
 						{ 34.2, 9.60, DESOLACE },
 						{ 30.4, 18.8, DESOLACE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 35.8, 3.8, DESOLACE },
 						{ 40.6, 12.8, DESOLACE },
 						{ 29.6, 13.0, DESOLACE },
 						{ 30.8, 19.8, DESOLACE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(18241, {	-- Crusty
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 39.0, 18.2, DESOLACE },
 						{ 36.0, 20.4, DESOLACE },
 						{ 36.4, 23.4, DESOLACE },
@@ -2511,9 +2561,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 34.4, 24.0, DESOLACE },
 						{ 34.6, 22.4, DESOLACE },
 						{ 35.0, 20.0, DESOLACE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 34.8, 16.2, DESOLACE },
 						{ 33.6, 19.6, DESOLACE },
 						{ 31.0, 18.0, DESOLACE },
@@ -2522,23 +2570,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 29.2, 31.6, DESOLACE },
 						{ 32.8, 31.4, DESOLACE },
 						{ 31.6, 29.4, DESOLACE },
+						-- #endif
 					},
-					-- #endif
 					["timeline"] = { ADDED_2_2_0 },
 				}),
 				n(11688, {	-- Cursed Centaur
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 28.4, 64.6, DESOLACE },
 						{ 27.4, 63.2, DESOLACE },
 						{ 28.8, 62.6, DESOLACE },
 						{ 30.2, 62.6, DESOLACE },
 						{ 30.2, 61.0, DESOLACE },
 						{ 30.6, 62.2, DESOLACE },
+						-- #else
+						{ 29.8, 62.6, DESOLACE },
+						-- #endif
 					},
-					-- #else
-					["coord"] = { 29.8, 62.6, DESOLACE },
-					-- #endif
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, n(218931, {	-- Dark Rider
@@ -2550,82 +2598,74 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				-- #endif
 				n(14228, {	-- Giggler
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 58.0, 9.00, DESOLACE },
 						{ 60.4, 23.2, DESOLACE },
 						{ 63.1, 34.3, DESOLACE },
 						{ 66.2, 24.0, DESOLACE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 50.8, 9.2, DESOLACE },
 						{ 57.4, 10.0, DESOLACE },
 						{ 60.2, 24.8, DESOLACE },
 						{ 66.6, 17.4, DESOLACE },
 						{ 67.2, 23.4, DESOLACE },
 						{ 63.8, 34.8, DESOLACE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(14227, {	-- Hissperak
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 52.0, 48.0, DESOLACE },
 						{ 46.8, 53.4, DESOLACE },
 						{ 43.6, 60.6, DESOLACE },
 						{ 42.0, 47.0, DESOLACE },
 						{ 43.8, 43.0, DESOLACE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 55.6, 49.8, DESOLACE },
 						{ 43.6, 42.6, DESOLACE },
 						{ 41.8, 47.8, DESOLACE },
 						{ 43.6, 51.0, DESOLACE },
 						{ 46.6, 54.4, DESOLACE },
 						{ 43.8, 61.8, DESOLACE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(14226, {	-- Kaskk
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 51.2, 84.8, DESOLACE },
 						{ 50.8, 80.8, DESOLACE },
 						{ 51.0, 76.6, DESOLACE },
 						{ 50.0, 72.0, DESOLACE },
 						{ 55.2, 76.6, DESOLACE },
 						{ 56.8, 74.6, DESOLACE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 49.6, 68.8, DESOLACE },
 						{ 50.6, 75.8, DESOLACE },
 						{ 51.0, 80.8, DESOLACE },
 						{ 52.0, 85.8, DESOLACE },
 						{ 57.0, 74.6, DESOLACE },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(14225, {	-- Prince Kellen
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 74.6, 12.4, DESOLACE },
 						{ 75.4, 18.8, DESOLACE },
 						{ 77.8, 23.8, DESOLACE },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 74.6, 13.4, DESOLACE },
 						{ 76.4, 18.6, DESOLACE },
 						{ 77.8, 23.2, DESOLACE },
+						-- #endif
 					},
-					-- #endif
 				}),
 			}),
-			-- #if SEASON_OF_DISCOVERY
 			n(TREASURES, {
+				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_TWO, i(213513, {	-- Libram of Deliverance
 					["provider"] = { "o", 423695 },	-- Libram of Deliverance
 					["coord"] = { 66.5, 7.5, DESOLACE },
@@ -2636,15 +2676,35 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						recipe(416028),	-- Engrave Boots - Sacred Shield
 					},
 				})),
+				-- #endif
+				o(176582, {	-- Shellfish Trap
+					["sourceQuest"] = 14334,	-- Blubbergut
+					["description"] = "You can interract with Shellfish Traps only during the quest |cFFE50D12Fish in a Bucket|r (5421).\n\nIf you want to obtain the |cFFFFFFFFBig Iron Fishing Pole|r, |cFFFFFFFFDO NOT|r turn in the quest until you do.",
+					["coords"] = {
+						{ 20.3, 71.3, DESOLACE },
+						{ 23.4, 77.1, DESOLACE },
+						{ 18.1, 86.5, DESOLACE },
+					},
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						i(6367, {	-- Big Iron Fishing Pole
+							-- #if AFTER 10.0.0
+							["collectible"] = false,
+							-- #endif
+						}),
+						i(13545),	-- Shellfish
+					},
+				}),
 			}),
-			-- #endif
 			n(VENDORS, {
 				n(12045, {	-- Hae'Wilani <Axecrafter>
-					-- #if AFTER CATA
-					["coord"] = { 25.6, 70.8, DESOLACE },
-					-- #else
-					["coord"] = { 25.8, 71.0, DESOLACE },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 25.6, 70.8, DESOLACE },
+						-- #else
+						{ 25.8, 71.0, DESOLACE },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(12249, {	-- Merciless Axe
@@ -2667,11 +2727,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 51.0, 53.4, DESOLACE },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
-						i(20973, {	-- Design: Blazing Citrine Ring
-							["timeline"] = { ADDED_2_0_1, REMOVED_4_0_3 },	-- Learned by trainer
+						i(20973, {	-- Design: Blazing Citrine Ring (RECIPE!)
+							["timeline"] = { ADDED_2_0_1, REMOVED_4_0_3 },	-- Now taught by trainer, recipe removed from the game.
 							["isLimited"] = true,
 						}),
-						i(7114, {	-- Pattern: Azure Silk Gloves
+						i(7114, {	-- Pattern: Azure Silk Gloves (RECIPE!)
 							["isLimited"] = true,
 						}),
 						i(12232),	-- Recipe: Carrion Surprise (RECIPE!)
@@ -2691,7 +2751,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 40.6, 79.2, DESOLACE },
 					["timeline"] = { REMOVED_5_0_4 },
 					["groups"] = {
-						i(7087, {	-- Pattern: Crimson Silk Cloak
+						i(7087, {	-- Pattern: Crimson Silk Cloak (RECIPE!)
 							["isLimited"] = true,
 						}),
 						i(4609, {	-- Recipe: Barbecued Buzzard Wing (RECIPE!)
@@ -2715,7 +2775,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["isLimited"] = true,
 						}),
 						i(13310, {	-- Schematic: Accurate Scope (RECIPE!)
-							["timeline"] = { REMOVED_5_0_4 },	-- Moved to Trainer
+							["timeline"] = { REMOVED_5_0_4 },	-- Now taught by trainer, recipe removed from the game.
 							["isLimited"] = true,
 						}),
 						i(7561, {	-- Schematic: Goblin Jumper Cables (RECIPE!)
@@ -2781,36 +2841,24 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(ZONE_DROPS, {
 				i(2620, {	-- Augural Shroud
-					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- 03.09.2023 Data Discord
-					-- #if BEFORE 4.0.3
-					["cr"] = 4684,	-- Nether Sorceress
-					["coords"] = {
-						{ 52.2, 83.6, DESOLACE },
-						{ 48.2, 75.8, DESOLACE },
-						{ 53.2, 71.0, DESOLACE },
+					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
+					["crs"] = {
+						-- #if AFTER 10.1.7
+						4679,	-- Nether Maiden
+						-- #else
+						4684,	-- Nether Sorceress
+						-- #endif
 					},
-					-- #elseif AFTER 10.1.7
-					["cr"] = 4679,	-- Nether Maiden
 					["coords"] = {
+						-- #if AFTER 10.1.7
 						{ 52.6, 83.8, DESOLACE },
 						{ 50.6, 77.0, DESOLACE },
 						{ 50.2, 71.6, DESOLACE },
-					},
-					-- #endif
-				}),
-				o(176582, {	-- Shellfish Trap
-					["coords"] = {
-						{ 20.3, 71.3, DESOLACE },
-						{ 23.4, 77.1, DESOLACE },
-						{ 18.1, 86.5, DESOLACE },
-					},
-					["groups"] = {
-						i(6367, {	-- Big Iron Fishing Pole
-							-- #if AFTER 10.0.0
-							["collectible"] = false,
-							-- #endif
-						}),
-						i(13545),	-- Shellfish
+						-- #else
+						{ 52.2, 83.6, DESOLACE },
+						{ 48.2, 75.8, DESOLACE },
+						{ 53.2, 71.0, DESOLACE },
+						-- #endif
 					},
 				}),
 				i(6074, {	-- War Horn Mouthpiece
