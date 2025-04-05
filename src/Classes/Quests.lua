@@ -259,6 +259,7 @@ end
 -- Quest Completion Lib
 local PrintQuestInfo
 local DoQuestPrints
+local IgnoreErrorQuests = {}
 do
 	local function UpdateDoQuestPrints()
 		DoQuestPrints = app.IsReady and app.Settings:GetTooltipSetting("Report:CompletedQuests")
@@ -287,13 +288,14 @@ local function PrintQuestInfoCallback(questID, success, params)
 end
 local function PrintQuestInfoViaCallback(questID, new)
 	if not DoQuestPrints then return end
+	-- Users can manually set certain QuestIDs to be ignored because Blizzard decides to toggle them on and off constantly forever
+	if IgnoreErrorQuests[questID] then return end
 	-- app.PrintDebug("PrintQuestInfoViaCallback",questID,new)
 	RequestLoadQuestByID(questID, PrintQuestInfoCallback, new)
 end
 -- DirtyQuests became a table instead of an array like before, so it broke a lot of things... I'll make one for each version to keep it working
 local ClassicDirtyQuests, RetailDirtyQuests = {}, {}
 local CollectibleAsQuest, IsQuestFlaggedCompletedForObject;
-local IgnoreErrorQuests = {}
 app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, accountWideData)
 	OneTimeQuests = accountWideData.OneTimeQuests
 	local userignored = ATTAccountWideData.IGNORE_QUEST_PRINT
