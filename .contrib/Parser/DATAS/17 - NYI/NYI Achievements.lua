@@ -676,6 +676,12 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 			-- 11.0.7.57361
 			ach(41219),	-- Explore Siren Isle => Appeared in build 11.0.7.57361, but hasn't been seen since
 		})),
+
+		-- CREATED_11_1_5
+		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
+			-- 11.1.5.60008
+			ach(15558),	-- Survey Bot (Added in 11.1.5.60008, removed in 11.1.5.60067)
+		})),
 	}),
 }));
 -- #endif

@@ -268,9 +268,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 				},
 			}),
 		})),
-		ach(15558, {	-- Survey Bot
-			["timeline"] = { ADDED_11_1_5 },
-		}),
 		ach(275, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- Veteran Nanny
 			["maps"] = { SHATTRATH_CITY },
 			["groups"] = {
