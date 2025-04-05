@@ -3994,8 +3994,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			n(RARES, {
 				n(1130, {	-- Bjarn
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 69.2, 55.8, DUN_MOROGH },
 						{ 69.8, 58.6, DUN_MOROGH },
 						{ 67.8, 58.8, DUN_MOROGH },
