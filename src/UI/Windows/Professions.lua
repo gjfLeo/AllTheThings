@@ -29,7 +29,7 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 		OnInit = function(self, handlers)
 			local function ProfessionFilter(group)
 				local v = group.requireSkill;
-				if v and (v == professionID or app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == professionID) and group.spellID and not group.g then
+				if v and (v == professionID or app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == professionID) and group.spellID and not group.g and (not group.f or group.f == 200) then
 					return true;
 				end
 			end
@@ -109,7 +109,14 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 													recipe.parent = data;
 												end
 											else
-												recipe.parent = expansions[floor((GetRelativeValue(mostAccessibleSource, "awp") or 10000) / 10000)];
+												local awp = GetRelativeValue(mostAccessibleSource, "awp") or 10000;
+												for i=2,#sources,1 do
+													local sourceAWP = GetRelativeValue(sources[i], "awp") or 10000;
+													if sourceAWP < awp then
+														awp = sourceAWP;
+													end
+												end
+												recipe.parent = expansions[floor(awp / 10000)] or data;
 											end
 											tinsert(recipe.parent.g, recipe);
 											recipes[spellID] = recipe;
