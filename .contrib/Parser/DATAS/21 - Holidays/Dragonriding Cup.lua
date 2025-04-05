@@ -3065,6 +3065,160 @@ root(ROOTS.Holidays, applyevent(EVENTS.DRAGONRIDING_CUP, n(DRAGONRIDING_CUP_ROOT
 				["description"] = "For each achievement in the Dragonriding Cup players earn one badge, with up to 9 badges available per race track by obtaining gold in all three courses.",
 			}),
 		}),
+		n(VENDORS, {
+			n(212027, {	-- Dathendrash  <Riders of Azeroth>
+				["coords"] = { 
+					{ 59.8, 66.2, STORMWIND },
+					{ 52.0, 60.0, ORGRIMMAR },
+				},
+				["timeline"] = { ADDED_10_2_5 },
+				["g"] = {
+					i(196979, {	-- Cliffside Wylderdrake: Curled Head Horns (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197017, {	-- Cliffside Wylderdrake: Large Tail Spikes (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197002, {	-- Cliffside Wylderdrake: Flared Cheek (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(207768, {	-- Grotto Netherwing Drake: Volatile Pattern (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197128, {	-- Highland Drake: Curled Back Horns (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197124, {	-- Highland Drake: Swept Horns (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197113, {	-- Highland Drake: Swept Spiked Head (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197366, {	-- Renewed Proto-Drake: Dual Horned Crest (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(202274, {	-- Renewed Proto-Drake: Plated Brow (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(202280, {	-- Renewed Proto-Drake: Pronged Tail (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197605, {	-- Windborne Velocidrake: Curled Horns (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197619, {	-- Windborne Velocidrake: Hooked Snout (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(197615, {	-- Windborne Velocidrake: Teal Scales (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 50 } },
+					}),
+					i(197594, {	-- Windborne Velocidrake: Small Ears (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(203322, {	-- Winding Slitherdrake: Blonde Hair (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(203349, {	-- Winding Slitherdrake: Curved Nose Horn (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(203306, {	-- Winding Slitherdrake: Horned Brow (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(203348, {	-- Winding Slitherdrake: Pointed Nose (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(203336, {	-- Winding Slitherdrake: Paired Horns (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(203355, {	-- Winding Slitherdrake: Yellow Scales (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 50 } },
+					}),
+					i(203359, {	-- Winding Slitherdrake: Shark Finned Tail (MM!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					-- Toy
+					i(212518, {	-- Vial of Endless Daconic Scales (TOY!)
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 50 } },
+					}),
+					-- Transmogs
+					i(213635, {	-- Checkered Pennant
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 25 } },
+					}),
+					i(206592, {	-- Drake Racer's Belt
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 20 } },
+					}),
+					i(206594, {	-- Drake Racer's Boots
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 20 } },
+					}),
+					i(206591, {	-- Drake Racer's Handwraps
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 20 } },
+					}),
+					i(206588, {	-- Drake Racer's Helmet
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 20 } },
+					}),
+					i(206590, {	-- Drake Racer's Jersey
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 20 } },
+					}),
+					i(206593, {	-- Drake Racer's Leggings
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 20 } },
+					}),
+					i(206589, {	-- Drake Racer's Shoulderpads
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 20 } },
+					}),
+					i(211877, {	-- Drake Racer's Scarf
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 5 } },
+					}),
+					i(213585, {	-- Icy Drake Racer's Scarf
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 5 } },
+					}),
+					i(213586, {	-- Icy Drake Racer's Boots
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(213587, {	-- Icy Drake Racer's Leggings
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(213588, {	-- Icy Drake Racer's Belt
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(213589, {	-- Icy Drake Racer's Handwraps
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(213590, {	-- Icy Drake Racer's Jersey
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(213591, {	-- Icy Drake Racer's Shoulderpads
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(213592, {	-- Icy Drake Racer's Helmet
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(211885, {	-- Outlandish Drake Racer's Belt
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(211887, {	-- Outlandish Drake Racer's Boots
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(211884, {	-- Outlandish Drake Racer's Handwraps
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(211881, {	-- Outlandish Drake Racer's Helmet
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(211883, {	-- Outlandish Drake Racer's Jersey
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(211886, {	-- Outlandish Drake Racer's Leggings
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+					i(211888, {	-- Outlandish  Drake Racer's Scarf
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 5 } },
+					}),
+					i(211882, {	-- Outlandish Drake Racer's Shoulderpads
+						["cost"] = { { "c", RIDERS_OF_AZEROTH_BADGE, 15 } },
+					}),
+				},
+			}),
+		}),
 	},
 })));
 
