@@ -167,7 +167,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 				}),
 				prof(COOKING, {
-					n(3399, {	-- Zamja <Cooking Trainer>
+					n(3399, bubbleDownSelf({ ["timeline"] = { ADDED_1_11_1 }, }, {	-- Zamja <Cooking Trainer>
 						["coord"] = { 32.2, 69.6, ORGRIMMAR },
 						["races"] = HORDE_ONLY,
 						["groups"] = appendGroups(CLASSIC_COOKING,
@@ -177,7 +177,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							{}
 							-- #endif
 						),
-					}),
+					})),
 				}),
 				prof(ENCHANTING, {
 					n(3345, {	-- Godan <Enchanting Trainer>

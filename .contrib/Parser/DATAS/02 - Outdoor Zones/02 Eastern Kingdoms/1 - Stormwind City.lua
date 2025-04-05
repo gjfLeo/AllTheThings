@@ -171,7 +171,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				prof(COOKING, {
-					n(5482, {	-- Stephen Ryback <Cooking Trainer>
+					n(5482, bubbleDownSelf({ ["timeline"] = { ADDED_1_11_1 }, }, {	-- Stephen Ryback <Cooking Trainer>
 						["coords"] = {
 							-- #if AFTER LEGION
 							{ 76.8, 53.6, STORMWIND_CITY },
@@ -189,7 +189,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							{}
 							-- #endif
 						),
-					}),
+					})),
 				}),
 				prof(ENCHANTING, {
 					n(1317, {	-- Lucan Cordell <Enchanting Trainer>

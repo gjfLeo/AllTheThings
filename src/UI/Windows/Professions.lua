@@ -6,7 +6,7 @@ local ipairs, pairs, floor, tinsert, tremove =
 	  ipairs, pairs, floor, tinsert, tremove;
 
 -- App locals
-local GetRelativeValue = app.GetRelativeValue;
+local GetRelativeValue, GetDeepestRelativeFunc = app.GetRelativeValue, app.GetDeepestRelativeFunc;
 local function OnLoad(self, settings)
 	if settings.Progress then
 		self.data.progress = settings.Progress;
@@ -67,7 +67,7 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 								end
 							end
 							
-							local expansions = {};
+							local expansions, events = {}, {};
 							for expansionID,_ in pairs(app.SearchForFieldContainer("expansionID")) do
 								expansionID = floor(expansionID);
 								if not expansions[expansionID] then
@@ -117,6 +117,28 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 													end
 												end
 												recipe.parent = expansions[floor(awp / 10000)] or data;
+												
+												local e = mostAccessibleSource.e;
+												if e then
+													local headerID = GetDeepestRelativeFunc(mostAccessibleSource, function(group)
+														if group.e == e and group.headerID then
+															return group.headerID;
+														end
+													end);
+													if headerID then
+														local event = events[e];
+														if not event then
+															event = app.CreateNPC(headerID);
+															events[e] = event;
+															event.SortType = "name";
+															event.parent = data;
+															event.e = e;
+															event.g = {};
+															tinsert(data.g, event);
+														end
+														recipe.parent = event;
+													end
+												end
 											end
 											tinsert(recipe.parent.g, recipe);
 											recipes[spellID] = recipe;

@@ -19,7 +19,7 @@ CLASSIC_COOKING = {
 		-- #endif
 		["rank"] = 2,
 	}),
-	r(3538, {	-- Blacksmithing (Expert)
+	r(3538, {	-- Cooking (Expert)
 		["timeline"] = { ADDED_3_1_0, REMOVED_8_0_1_LAUNCH },
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
@@ -28,7 +28,7 @@ CLASSIC_COOKING = {
 		-- #endif
 		["rank"] = 3,
 	}),
-	r(9785, {	-- Blacksmithing (Artisan)
+	r(9785, {	-- Cooking (Artisan)
 		["timeline"] = { ADDED_3_1_0, REMOVED_8_0_1_LAUNCH },
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
@@ -116,7 +116,6 @@ CATA_COOKING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = { A
 		["rank"] = 7,
 	}),
 	applyclassicphase(BFA_PHASE_ONE, r(264638, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Cataclysm Cooking
-	r(818),		-- Cooking Fire
 	r(88006),	-- Blackened Surprise
 	r(88015),	-- Darkbrew Lager
 }));

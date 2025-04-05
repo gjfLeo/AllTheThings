@@ -151,6 +151,11 @@ local function GetDeepestRelativeValue(group, field)
 		return GetDeepestRelativeValue(group.sourceParent or group.parent, field) or group[field];
 	end
 end
+local function GetDeepestRelativeFunc(group, func)
+	if group then
+		return GetDeepestRelativeFunc(group.sourceParent or group.parent, func) or func(group);
+	end
+end
 local function GetRelativeField(group, field, value)
 	if group then
 		return group[field] == value or GetRelativeField(group.sourceParent or group.parent, field, value);
@@ -196,6 +201,7 @@ app.CloneArray = CloneArray;
 app.CloneDictionary = CloneDictionary;
 app.CloneReference = CloneReference;
 app.GetBestMapForGroup = GetBestMapForGroup;
+app.GetDeepestRelativeFunc = GetDeepestRelativeFunc;
 app.GetDeepestRelativeValue = GetDeepestRelativeValue;
 app.GetRelativeField = GetRelativeField;
 app.GetRawRelativeField = GetRawRelativeField
