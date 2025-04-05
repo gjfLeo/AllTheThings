@@ -3443,10 +3443,31 @@ profession(TAILORING, {
 			["name"] = "Hats & Hoods",
 			["categoryID"] = 975,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Cowl",
+					["recipeID"] = 75306
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Cowl",
+					["recipeID"] = 75304
+				},
+				-- #endif
 				{
 					["name"] = "Deathsilk Cowl",
 					["recipeID"] = 75256
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Emberfire Cowl",
+					["recipeID"] = 1224222
+				},
+				{
+					["name"] = "Fireweave Cowl",
+					["recipeID"] = 1224220
+				},
+				-- #endif
 				{
 					["name"] = "High Society Top Hat",
 					["recipeID"] = 75289
@@ -3455,6 +3476,17 @@ profession(TAILORING, {
 					["name"] = "Spiritmend Cowl",
 					["recipeID"] = 75266
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Cowl",
+					["recipeID"] = 1224157
+				},
+				{
+					["name"] = "Vicious Fireweave Cowl",
+					["recipeID"] = 1224165
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Cowl",
 					["recipeID"] = 75306
@@ -3462,21 +3494,55 @@ profession(TAILORING, {
 				{
 					["name"] = "Vicious Fireweave Cowl",
 					["recipeID"] = 75304
-				}
+				},
+				-- #endif
 			}
 		},
 		{
 			["name"] = "Shoulders",
 			["categoryID"] = 976,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Shoulders",
+					["recipeID"] = 75291
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Shoulders",
+					["recipeID"] = 75292
+				},
+				-- #endif
 				{
 					["name"] = "Deathsilk Shoulders",
 					["recipeID"] = 75251
 				},
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, these don't appear to exist.
+				{
+					["name"] = "Emberfire Shoulders",
+					["recipeID"] = 1224211
+				},
+				{
+					["name"] = "Fireweave Shoulders",
+					["recipeID"] = 1224212
+				},
+				-- #endif
 				{
 					["name"] = "Spiritmend Shoulders",
 					["recipeID"] = 75260
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Shoulders",
+					["recipeID"] = 1224161
+				},
+				{
+					["name"] = "Vicious Fireweave Shoulders",
+					["recipeID"] = 1224169
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Shoulders",
 					["recipeID"] = 75291
@@ -3484,13 +3550,25 @@ profession(TAILORING, {
 				{
 					["name"] = "Vicious Fireweave Shoulders",
 					["recipeID"] = 75292
-				}
+				},
+				-- #endif
 			}
 		},
 		{
 			["name"] = "Robes & Tunics",
 			["categoryID"] = 977,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Robe",
+					["recipeID"] = 75305
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Robe",
+					["recipeID"] = 75303
+				},
+				-- #endif
 				{
 					["name"] = "Black Embersilk Gown",
 					["recipeID"] = 75288
@@ -3499,10 +3577,31 @@ profession(TAILORING, {
 					["name"] = "Deathsilk Robe",
 					["recipeID"] = 75257
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Emberfire Robe",
+					["recipeID"] = 1224221
+				},
+				{
+					["name"] = "Fireweave Robe",
+					["recipeID"] = 1224219
+				},
+				-- #endif
 				{
 					["name"] = "Spiritmend Robe",
 					["recipeID"] = 75267
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Robe",
+					["recipeID"] = 1224160
+				},
+				{
+					["name"] = "Vicious Fireweave Robe",
+					["recipeID"] = 1224168
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Robe",
 					["recipeID"] = 75305
@@ -3510,13 +3609,25 @@ profession(TAILORING, {
 				{
 					["name"] = "Vicious Fireweave Robe",
 					["recipeID"] = 75303
-				}
+				},
+				-- #endif
 			}
 		},
 		{
 			["name"] = "Bracers",
 			["categoryID"] = 978,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Bracers",
+					["recipeID"] = 75270
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Bracers",
+					["recipeID"] = 75290
+				},
+				-- #endif
 				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Bracers of Unconquered Power",
 					["timeline"] = { ADDED_4_3_0 },
@@ -3531,10 +3642,31 @@ profession(TAILORING, {
 					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101922
 				}),
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Emberfire Bracers",
+					["recipeID"] = 1224209
+				},
+				{
+					["name"] = "Fireweave Bracers",
+					["recipeID"] = 1224210
+				},
+				-- #endif
 				{
 					["name"] = "Spiritmend Bracers",
 					["recipeID"] = 75259
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Bracers",
+					["recipeID"] = 1224156
+				},
+				{
+					["name"] = "Vicious Fireweave Bracers",
+					["recipeID"] = 1224164
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Bracers",
 					["recipeID"] = 75270
@@ -3542,13 +3674,25 @@ profession(TAILORING, {
 				{
 					["name"] = "Vicious Fireweave Bracers",
 					["recipeID"] = 75290
-				}
+				},
+				-- #endif
 			}
 		},
 		{
 			["name"] = "Belts",
 			["categoryID"] = 979,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Belt",
+					["recipeID"] = 75293
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Belt",
+					["recipeID"] = 75269
+				},
+				-- #endif
 				{
 					["name"] = "Belt of the Depths",
 					["recipeID"] = 75298
@@ -3561,10 +3705,31 @@ profession(TAILORING, {
 					["name"] = "Dreamless Belt",
 					["recipeID"] = 75299
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Emberfire Belt",
+					["recipeID"] = 1224213
+				},
+				{
+					["name"] = "Fireweave Belt",
+					["recipeID"] = 1224208
+				},
+				-- #endif
 				{
 					["name"] = "Spiritmend Belt",
 					["recipeID"] = 75258
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Belt",
+					["recipeID"] = 1224154
+				},
+				{
+					["name"] = "Vicious Fireweave Belt",
+					["recipeID"] = 1224162
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Belt",
 					["recipeID"] = 75293
@@ -3572,13 +3737,25 @@ profession(TAILORING, {
 				{
 					["name"] = "Vicious Fireweave Belt",
 					["recipeID"] = 75269
-				}
+				},
+				-- #endif
 			}
 		},
 		{
 			["name"] = "Gloves",
 			["categoryID"] = 980,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Gloves",
+					["recipeID"] = 75295
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Gloves",
+					["recipeID"] = 75296
+				},
+				-- #endif
 				{
 					["name"] = "Deathsilk Gloves",
 					["recipeID"] = 75253
@@ -3588,6 +3765,16 @@ profession(TAILORING, {
 					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99449
 				}),
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Emberfire Gloves",
+					["recipeID"] = 1224215
+				},
+				{
+					["name"] = "Fireweave Gloves",
+					["recipeID"] = 1224216
+				},
+				-- #endif
 				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Grips of Altered Reality",
 					["timeline"] = { ADDED_4_2_0 },
@@ -3597,6 +3784,17 @@ profession(TAILORING, {
 					["name"] = "Spiritmend Gloves",
 					["recipeID"] = 75262
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Gloves",
+					["recipeID"] = 1224158
+				},
+				{
+					["name"] = "Vicious Fireweave Gloves",
+					["recipeID"] = 1224166
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Gloves",
 					["recipeID"] = 75295
@@ -3604,13 +3802,25 @@ profession(TAILORING, {
 				{
 					["name"] = "Vicious Fireweave Gloves",
 					["recipeID"] = 75296
-				}
+				},
+				-- #endif
 			}
 		},
 		{
 			["name"] = "Pants",
 			["categoryID"] = 981,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Pants",
+					["recipeID"] = 75307
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Pants",
+					["recipeID"] = 75302
+				},
+				-- #endif
 				{
 					["name"] = "Breeches of Mended Nightmares",
 					["recipeID"] = 75300
@@ -3619,6 +3829,16 @@ profession(TAILORING, {
 					["name"] = "Deathsilk Leggings",
 					["recipeID"] = 75254
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Emberfire Pants",
+					["recipeID"] = 1224223
+				},
+				{
+					["name"] = "Fireweave Pants",
+					["recipeID"] = 1224218
+				},
+				-- #endif
 				{
 					["name"] = "Flame-Ascended Pantaloons",
 					["recipeID"] = 75301
@@ -3632,6 +3852,17 @@ profession(TAILORING, {
 					["name"] = "Spiritmend Leggings",
 					["recipeID"] = 75263
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Pants",
+					["recipeID"] = 1224159
+				},
+				{
+					["name"] = "Vicious Fireweave Pants",
+					["recipeID"] = 1224167
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Pants",
 					["recipeID"] = 75307
@@ -3640,6 +3871,7 @@ profession(TAILORING, {
 					["name"] = "Vicious Fireweave Pants",
 					["recipeID"] = 75302
 				},
+				-- #endif
 				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "World Mender's Pants",
 					["timeline"] = { ADDED_4_3_0 },
@@ -3651,6 +3883,17 @@ profession(TAILORING, {
 			["name"] = "Boots",
 			["categoryID"] = 982,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- CRIEVE NOTE: In Cata Classic, the "Vicious" items were renamed to "Bloodthirsty".
+				{
+					["name"] = "Bloodthirsty Embersilk Boots",
+					["recipeID"] = 75297
+				},
+				{
+					["name"] = "Bloodthirsty Fireweave Boots",
+					["recipeID"] = 75294
+				},
+				-- #endif
 				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Boots of the Black Flame",
 					["timeline"] = { ADDED_4_2_0 },
@@ -3660,15 +3903,39 @@ profession(TAILORING, {
 					["name"] = "Deathsilk Boots",
 					["recipeID"] = 75252
 				},
+				-- #if ANYCLASSIC
+				
+				-- #endif
 				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Endless Dream Walkers",
 					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99459
 				}),
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Emberfire Boots",
+					["recipeID"] = 1224217
+				},
+				{
+					["name"] = "Fireweave Boots",
+					["recipeID"] = 1224214
+				},
+				-- #endif
 				{
 					["name"] = "Spiritmend Boots",
 					["recipeID"] = 75261
 				},
+				-- #if ANYCLASSIC
+				{
+					["name"] = "Vicious Embersilk Boots",
+					["recipeID"] = 1224155
+				},
+				{
+					["name"] = "Vicious Fireweave Boots",
+					["recipeID"] = 1224163
+				},
+				-- #else
+				-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 				{
 					["name"] = "Vicious Embersilk Boots",
 					["recipeID"] = 75297
@@ -3676,7 +3943,8 @@ profession(TAILORING, {
 				{
 					["name"] = "Vicious Fireweave Boots",
 					["recipeID"] = 75294
-				}
+				},
+				-- #endif
 			}
 		},
 		{

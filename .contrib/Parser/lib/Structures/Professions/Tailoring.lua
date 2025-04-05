@@ -1,92 +1,123 @@
 ---------------
 -- TAILORING --
 ---------------
-COMMON_CATACLYSM_TAILORING_RECIPES = {
+COMMON_CATACLYSM_TAILORING_RECIPES = applyclassicphase(CATA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 	i(54601, {	-- Pattern: Belt of the Depths
 		["cost"] = { { "i", 54440, 1 }, },	-- 1x Dreamcloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(68199, {	-- Pattern: Black Embersilk Gown
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
+	-- #if ANYCLASSIC
+	i(54593, {	-- Pattern: Bloodthirsty Embersilk Cowl
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+	}),
+	i(54594, {	-- Pattern: Bloodthirsty Embersilk Pants
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+	}),
+	i(54595, {	-- Pattern: Bloodthirsty Embersilk Robe
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+	}),
+	i(54596, {	-- Pattern: Bloodthirsty Fireweave Cowl
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+	}),
+	i(54597, {	-- Pattern: Bloodthirsty Fireweave Pants
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+	}),
+	i(54598, {	-- Pattern: Bloodthirsty Fireweave Robe
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+	}),
+	-- #endif
 	i(54603, {	-- Pattern: Breeches of Mended Nightmares
 		["cost"] = { { "i", 54440, 1 }, },	-- 1x Dreamcloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54602, {	-- Pattern: Dreamless Belt
 		["cost"] = { { "i", 54440, 1 }, },	-- 1x Dreamcloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
+	-- #if ANYCLASSIC
+	i(238123, {	-- Pattern: Embersilk Cowl
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	}),
+	i(238124, {	-- Pattern: Embersilk Pants
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	}),
+	i(238125, {	-- Pattern: Embersilk Robe
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	}),
+	i(238126, {	-- Pattern: Fireweave Cowl
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	}),
+	i(238127, {	-- Pattern: Fireweave Pants
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	}),
+	i(238128, {	-- Pattern: Fireweave Robe
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	}),
+	-- #endif
 	i(54604, {	-- Pattern: Flame-Ascended Pantaloons
 		["cost"] = { { "i", 54440, 1 }, },	-- 1x Dreamcloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54605, {	-- Pattern: Illusionary Bag
 		["cost"] = { { "i", 54440, 1 }, },	-- 1x Dreamcloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54600, {	-- Pattern: Powerful Ghostly Spellthread
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54599, {	-- Pattern: Powerful Enchanted Spellthread
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
+	-- #if ANYCLASSIC
+	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(238068, {	-- Pattern: Vicious Embersilk Cowl
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	})),
+	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(238069, {	-- Pattern: Vicious Embersilk Pants
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	})),
+	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(238070, {	-- Pattern: Vicious Embersilk Robe
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	})),
+	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(238071, {	-- Pattern: Vicious Fireweave Cowl
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	})),
+	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(238072, {	-- Pattern: Vicious Fireweave Pants
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	})),
+	applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(238073, {	-- Pattern: Vicious Fireweave Robe
+		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
+		["timeline"] = { ADDED_4_4_2 },
+	})),
+	-- #else
 	i(54593, {	-- Pattern: Vicious Embersilk Cowl
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54594, {	-- Pattern: Vicious Embersilk Pants
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54595, {	-- Pattern: Vicious Embersilk Robe
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54596, {	-- Pattern: Vicious Fireweave Cowl
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54597, {	-- Pattern: Vicious Fireweave Pants
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
 	i(54598, {	-- Pattern: Vicious Fireweave Robe
 		["cost"] = { { "i", 53643, 8 }, },	-- 8x Bolt of Embersilk Cloth
-		["timeline"] = { ADDED_4_0_3 },
-		["requireSkill"] = TAILORING,
-		["f"] = RECIPES,
 	}),
-};
+	-- #endif
+}));
 SL_TAILORING = applyclassicphase(SHADOWLANDS_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	r(310949),	-- Shadowlands Tailoring
 	r(343634, {	-- Shadowlands Cloth Scavenging

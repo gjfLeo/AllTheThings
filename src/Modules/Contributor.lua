@@ -197,6 +197,7 @@ MobileDB.Creature = {
 	 [64337] = true,	-- Nomi
 	 [67153] = true,	-- Zin'Jun
 	 [67976] = true,	-- Tinkmaster Overspark
+	 [75968] = true,	-- Iron Shredder Prototype
 	 [77789] = true,	-- Blingtron 5000
 	 [79815] = true,	-- Grun'lek
 	 [79867] = true,	-- Orgek Ironhand <Blacksmith>

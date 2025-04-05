@@ -569,6 +569,7 @@ i(70176, 100585);	-- Luxurious Silk Gem Bag
 --- PATCH 4.3.0 ---
 -------------------
 --- TRAINER ---
+-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 i(0, 75293);	-- Vicious Embersilk Belt
 i(0, 75297);	-- Vicious Embersilk Boots
 i(0, 75270);	-- Vicious Embersilk Bracers
@@ -584,6 +585,7 @@ i(0, 75292);	-- Vicious Fireweave Shoulders
 i(72004, 101923);	-- Bracers of Unconquered Power
 i(72003, 101922);	-- Dreamwraps of the Light
 i(72002, 101921);	-- Lavaquake Legwraps
+-- CRIEVE NOTE: In Cata Classic, these got renamed to Bloodthirsty instead of Vicious.
 i(54593, 75306);	-- Vicious Embersilk Cowl
 i(54594, 75307);	-- Vicious Embersilk Pants
 i(54595, 75305);	-- Vicious Embersilk Robe
@@ -594,6 +596,47 @@ i(72000, 101920);	-- World Mender's Pants
 --- NYI ---
 i(0, 75287);	--
 i(0, 102171);	--
+
+-- #if ANYCLASSIC
+-----------------
+-- PATCH 4.4.2 --
+-----------------
+--- NYI ---
+i(0, 1224213);	-- Emberfire Belt
+i(0, 1224217);	-- Emberfire Boots
+i(0, 1224209);	-- Emberfire Bracers
+i(0, 1224215);	-- Emberfire Gloves
+i(0, 1224211);	-- Emberfire Shoulders
+i(0, 1224208);	-- Fireweave Belt
+i(0, 1224214);	-- Fireweave Boots
+i(0, 1224210);	-- Fireweave Bracers
+i(0, 1224216);	-- Fireweave Gloves
+i(0, 1224212);	-- Fireweave Shoulders
+--- TRAINER ---
+i(0, 1224154);	-- Vicious Embersilk Belt
+i(0, 1224155);	-- Vicious Embersilk Boots
+i(0, 1224156);	-- Vicious Embersilk Bracers
+i(0, 1224158);	-- Vicious Embersilk Gloves
+i(0, 1224161);	-- Vicious Embersilk Shoulders
+i(0, 1224162);	-- Vicious Fireweave Belt
+i(0, 1224163);	-- Vicious Fireweave Boots
+i(0, 1224164);	-- Vicious Fireweave Bracers
+i(0, 1224166);	-- Vicious Fireweave Gloves
+i(0, 1224169);	-- Vicious Fireweave Shoulders
+--- ITEM ---
+i(238123, 1224222);	-- Pattern: Emberfire Cowl
+i(238124, 1224223);	-- Pattern: Emberfire Pants
+i(238125, 1224221);	-- Pattern: Emberfire Robe
+i(238126, 1224220);	-- Pattern: Fireweave Cowl
+i(238127, 1224218);	-- Pattern: Fireweave Pants
+i(238128, 1224219);	-- Pattern: Fireweave Robe
+i(238068, 1224157);	-- Pattern: Vicious Embersilk Cowl
+i(238069, 1224159);	-- Pattern: Vicious Embersilk Pants
+i(238070, 1224160);	-- Pattern: Vicious Embersilk Robe
+i(238071, 1224165);	-- Pattern: Vicious Fireweave Cowl
+i(238072, 1224167);	-- Pattern: Vicious Fireweave Pants
+i(238073, 1224168);	-- Pattern: Vicious Fireweave Robe
+-- #endif
 
 -------------------
 --- PATCH 5.0.4 ---

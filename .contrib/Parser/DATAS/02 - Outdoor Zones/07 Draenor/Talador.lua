@@ -1178,9 +1178,9 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["sourceQuest"] = 33735,	-- In Short Supply
 						["coords"] = {
-							{ 62.0, 10.9, TALADOR },
-							{ 62.0, 10.9, TALADOR },
 							{ 55.6, 41.0, TALADOR },
+							{ 58.9, 20.3, TALADOR },
+							{ 62.0, 10.9, TALADOR },
 						},
 					}),
 					q(34095, {	-- Iron Them Out

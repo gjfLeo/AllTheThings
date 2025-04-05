@@ -124,16 +124,13 @@ end
 
 local function HandleCollectionChange(t, isadd)
 	-- Report new things to your collection!
-	if IsRetrieving(t.text) then
-		t.__collectionretry = (t.__collectionretry or 0) + 1
-		if t.__collectionretry < 10 then
-			-- app.PrintDebug("HCC:RETRY",app:SearchLink(t))
-			Runner.Run(HandleCollectionChange, t, isadd)
-			return
-		end
+	-- to test: comment out text/name/link from BattlePet class, then cage & relearn a battle pet
+	if IsRetrieving(t.text) and t.CanRetry then
+		-- app.PrintDebug("HCC:RETRY",app:SearchLink(t))
+		Runner.Run(HandleCollectionChange, t, isadd)
+		return
 	end
 
-	t.__collectionretry = nil
 	local ttype = t.__type
 	-- use the Collection Handler for this Type to process the collection
 	-- if that Thing is currently considered collectible
