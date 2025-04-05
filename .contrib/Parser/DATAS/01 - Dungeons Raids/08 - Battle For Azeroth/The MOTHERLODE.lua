@@ -328,6 +328,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						iupgrade(235415, 162, 0, {["modID"] = 35 }),	-- Skyscorcher Pauldrons
 						iupgrade(235417, 162, 0, {["modID"] = 35 }),	-- Venture Co. Plenipotentiary Vest
 						-- Myth Track
+						-- Hero 5/6 should be enough for sourceID collection, but good luck trying to find exact mod/bonus ID for tooltip
 						n(UPGRADE, {
 							i(235418, {["modID"] = 162 }),	-- Exquisitely Aerodynamic Shoulderpads
 							i(235420, {["modID"] = 162 }),	-- Petticoat of the Self-Stylized Azerite Baron
