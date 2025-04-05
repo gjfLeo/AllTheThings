@@ -3299,9 +3299,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 54.0, 65.6, NORTHREND_DALARAN },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
-							i(50166, {	-- Technique: Glyph of Eternal Water / Technique: Glyph of Mana Shield [CATA+] / Technique: Glyph of Counterspell [MOP+]
+							applyclassicphase(WRATH_PHASE_ONE, i(50166, {	-- Technique: Glyph of Eternal Water / Technique: Glyph of Mana Shield [CATA+] / Technique: Glyph of Counterspell [MOP+]
 								["timeline"] = { ADDED_3_3_0, DELETED_7_0_3 },
-							}),
+							})),
 						},
 					}),
 					-- #endif
@@ -3320,9 +3320,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 52.4, 36.0, NORTHREND_DALARAN },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
-							i(50166, {	-- Technique: Glyph of Eternal Water / Technique: Glyph of Mana Shield [CATA+] / Technique: Glyph of Counterspell [MOP+]
+							applyclassicphase(WRATH_PHASE_ONE, i(50166, {	-- Technique: Glyph of Eternal Water / Technique: Glyph of Mana Shield [CATA+] / Technique: Glyph of Counterspell [MOP+]
 								["timeline"] = { ADDED_3_3_0, DELETED_7_0_3 },
-							}),
+							})),
 						},
 					}),
 					-- #endif

@@ -3496,7 +3496,7 @@ r = oldR;
 local DF_INSCRIPTION_KNOWLEDGE = 2028;
 local TWW_INSCRIPTION_KNOWLEDGE = 2790;
 -- Inscription - Skill ID  / SPELL ID
-root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = INSCRIPTION }, {
+root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 }, ["requireSkill"] = INSCRIPTION }, {
 	n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		ach(18858, {	-- Forge and Befuddle
 			["races"] = HORDE_ONLY,
