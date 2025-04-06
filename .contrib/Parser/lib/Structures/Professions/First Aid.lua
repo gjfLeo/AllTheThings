@@ -23,6 +23,15 @@ APPRENTICE_JOURNEYMAN_EXPERT_FIRST_AID = bubbleDown({ ["timeline"] = { REMOVED_8
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
 		-- #else
+		-- #if SEASON_OF_DISCOVERY
+		["OnUpdate"] = [[function(t)
+			if _.Settings:GetUnobtainableFilter(]] .. SOD_PHASE_ONE .. [[) then
+				t.lvl = 26;
+			else
+				t.lvl = 20;
+			end
+		end]],
+		-- #endif
 		["lvl"] = 20,
 		-- #endif
 		["rank"] = 3,
@@ -40,6 +49,15 @@ ARTISAN_FIRST_AID = bubbleDown({ ["timeline"] = { REMOVED_8_0_1 } }, {
 		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
 		-- #else
+		-- #if SEASON_OF_DISCOVERY
+		["OnUpdate"] = [[function(t)
+			if _.Settings:GetUnobtainableFilter(]] .. SOD_PHASE_ONE .. [[) then
+				t.lvl = 41;
+			else
+				t.lvl = 35;
+			end
+		end]],
+		-- #endif
 		["lvl"] = 35,
 		-- #endif
 		["rank"] = 4,
@@ -121,7 +139,10 @@ DRAENOR_FIRST_AID = applyclassicphase(WOD_PHASE_ONE, i(111364, bubbleDownSelf({ 
 })));
 LEGION_FIRST_AID = applyclassicphase(LEGION_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_7_0_3, REMOVED_8_0_1 } }, {
 	r(195113, {	-- First Aid (Legion Master)
+		-- #if NOT ANYCLASSIC
 		["collectible"] = false,
+		-- #endif
+		["rank"] = 10,
 	}),
 	r(211926),	-- Set Bone
 	r(202853),	-- Silkweave Bandage

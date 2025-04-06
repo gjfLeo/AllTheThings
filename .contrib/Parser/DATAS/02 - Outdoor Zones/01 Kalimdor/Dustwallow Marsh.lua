@@ -3704,6 +3704,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if BEFORE CATA
 				n(13476, {	-- Balai Lok'Wein <Potions, Scrolls and Reagents>
 					["coord"] = { 36.4, 30.4, DUSTWALLOW_MARSH, },
+					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(16084, {	-- Expert First Aid - Under Wraps (RECIPE!)

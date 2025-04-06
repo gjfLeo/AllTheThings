@@ -2466,7 +2466,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
-				-- #if BEFORE 3.1.0.9767
 				n(2805, {	-- Deneb Walker <Scrolls & Potions>
 					["coord"] = { 27.0, 58.8, ARATHI_HIGHLANDS },
 					["races"] = ALLIANCE_ONLY,
@@ -2491,7 +2490,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				-- #endif
 				n(2812, {	-- Drovnar Strongbrew <Alchemy Supplies>
 					["coords"] = {
 						-- #if AFTER CATA
