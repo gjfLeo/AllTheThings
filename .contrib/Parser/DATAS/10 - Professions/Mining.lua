@@ -16,13 +16,13 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		r(102163, {["timeline"] = {ADDED_5_0_4, REMOVED_6_0_2}}),	-- Toughness [Rank 8]
 	}),
 	-- #endif
-	expansion(EXPANSION.CLASSIC, {
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
+	expansion(EXPANSION.CLASSIC, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
+		n(ACHIEVEMENTS, {
 			ach(18841, {	-- Doing Your Share
 				["cost"] = {{ "i", 17771, 5 }},	-- 5x Enchanted Elementium Bar
 			}),
-		})),
-	}),
+		}),
+	})),
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 			ach(18839, {	-- Broken Isles Mining Techniques
