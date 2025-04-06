@@ -1,5 +1,5 @@
 -- Localization for Spanish (Spain) and Spanish (Mexico) Clients.
-if GetLocale() ~= "esES" then return; end
+if GetLocale() ~= "esMX" then return; end
 local app = select(2, ...);
 local L = app.L;
 
@@ -451,6 +451,11 @@ for key,value in pairs({
 		--TODO: ["Covenant:"] = "Cov:",
 })
 do a[key] = value; end
+
+
+a["Antorus, el Trono ardiente"] = "Antorus"	-- ["Antorus, the Burning Throne"] = "Antorus"
+a["Ny'alotha, la Ciudad Despierta"] = "Ny'alotha"	-- ["Ny'alotha, the Waking City"] = "Ny'alotha"
+
 
 if app.IsRetail then
 local a = L.HEADER_NAMES;
