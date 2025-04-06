@@ -403,6 +403,10 @@ ResolveSymbolicLink = function(o)
 				if response then tinsert(searchResults, app.CreateNPC(app.HeaderConstants.HOLIDAYS, response));  end
 				response = app:BuildSearchResponse(app.Categories.WorldEvents, "requireSkill", requireSkill);
 				if response then tinsert(searchResults, {text=BATTLE_PET_SOURCE_7,icon = app.asset("Category_Event"),g=response});  end
+				if app.Categories.ExpansionFeatures then
+					response = app:BuildSearchResponse(app.Categories.ExpansionFeatures, "requireSkill", requireSkill);
+					if response then tinsert(searchResults, {text=EXPANSION_FILTER_TEXT,icon = app.asset("Category_ExpansionFeatures"),g=response}); end
+				end
 			elseif cmd == "fill" then
 				-- Instruction to fill with identical content cached elsewhere for this group
 				local cache = SearchForField(o.key, o[o.key]);
