@@ -69,6 +69,7 @@ lib\Audio.lua
 locales\Default Locale.lua
 # locales\en.lua
 locales\es.lua
+locales\mx.lua
 locales\de.lua
 locales\fr.lua
 locales\it.lua
