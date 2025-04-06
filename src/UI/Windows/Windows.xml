@@ -2,6 +2,7 @@
 ..\FrameXML\UI.xsd">
 	<Script file="Prime.lua"/>
 	<Script file="Achievements.lua"/>
+	<Script file="Account Management.lua"/>
 	<Script file="Attunements.lua"/>
 	<Script file="Auctions.lua"/>
 	<Script file="Battle Pets.lua"/>
@@ -38,7 +39,6 @@
 	<Script file="Removed With Patch Loot.lua"/>
 	<Script file="Season of Discovery.lua"/>
 	<Script file="Soft Reserves.lua"/>
-	<Script file="Sync.lua"/>
 	<Script file="Titles.lua"/>
 	<Script file="Toys.lua"/>
 	<Script file="Tradeskills.lua"/>

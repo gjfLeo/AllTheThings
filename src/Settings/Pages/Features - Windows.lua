@@ -21,7 +21,7 @@ local function OnClickForWindowButton(self)
 	self.Window:Show();
 end
 local function UpdateButtonText(self)
-	local text = self.Window.SettingsName or self.Suffix;
+	local text = self.Window.SettingsName;
 	local data = self.Window.data;
 	if data then
 		local icon = data.icon;
