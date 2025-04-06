@@ -15,7 +15,11 @@ PLUNDERSTORM = createHeader({
 		2025, 02, 26,	-- 26/02/2025
 	},
 	text = {
+		-- #if ANYCLASSIC
+		en = "Plunderstorm",
+		-- #else
 		en = [[~WOWLABS_GAMEMODE_HEADER]],
+		-- #endif
 	},
 	description = {
 		en = "Get swept away in the Plunderstorm— a fun, new, limited-time, pirate-themed event of prodigious proportions lasting the next several weeks. Scour the map and try to be the last pirate standing while dashing across the Arathi Highlands to find abilities, upgrades, and loot to plunder just to survive!\n\nTo Play: Login to Retail WoW and select 'Plunderstorm' from the Game Mode on the top left of your Character Select screen.",
