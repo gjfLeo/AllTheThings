@@ -7,7 +7,7 @@ local IsQuestFlaggedCompleted, IsQuestReadyForTurnIn = app.IsQuestFlaggedComplet
 local DESCRIPTION_SEPARATOR = app.DESCRIPTION_SEPARATOR;
 local GetDeepestRelativeValue = app.GetDeepestRelativeValue;
 local GetProgressTextForRow = app.GetProgressTextForRow;
-local GetRelativeValue = app.GetRelativeValue;
+local GetRelativeField, GetRelativeValue = app.GetRelativeField, app.GetRelativeValue;
 local ResolveSymbolicLink = app.ResolveSymbolicLink;
 local SearchForField = app.SearchForField;
 local MergeObject = app.MergeObject;
@@ -1459,14 +1459,20 @@ local BuildCategory = function(self, headers, searchResults, inst)
 				headerType = "pvp";
 			elseif GetRelativeValue(o, "isEventCategory") then
 				headerType = "event";
-			elseif GetRelativeValue(o, "isWorldDropCategory") or o.parent.headerID == app.HeaderConstants.COMMON_BOSS_DROPS then
-				headerType = "drop";
-			elseif o.parent.npcID then
-				headerType = GetDeepestRelativeValue(o, "headerID") or o.parent.parent.headerID == app.HeaderConstants.VENDORS and app.HeaderConstants.VENDORS or "drop";
 			elseif GetRelativeValue(o, "isCraftedCategory") then
 				headerType = "crafted";
 			elseif o.parent.achievementID then
 				headerType = app.HeaderConstants.ACHIEVEMENTS;
+			elseif GetRelativeValue(o, "instanceID") then
+				headerType = "raid";
+			elseif GetRelativeValue(o, "isWorldDropCategory") or o.parent.headerID == app.HeaderConstants.COMMON_BOSS_DROPS then
+				headerType = "drop";
+			elseif o.parent.questID then
+				headerType = app.HeaderConstants.QUESTS;
+			elseif GetRelativeField(o.parent, "headerID", app.HeaderConstants.VENDORS) then
+				headerType = app.HeaderConstants.VENDORS;
+			elseif o.parent.npcID then
+				headerType = GetDeepestRelativeValue(o, "headerID") or "drop";
 			else
 				headerType = GetDeepestRelativeValue(o, "headerID") or "drop";
 				if headerType == true then	-- Seriously don't do this...
@@ -1492,6 +1498,10 @@ local BuildCategory = function(self, headers, searchResults, inst)
 	if not header then
 		if headerType == "holiday" then
 			header = app.CreateNPC(app.HeaderConstants.HOLIDAYS);
+		elseif headerType == "raid" then
+			header = {};
+			header.text = GROUP_FINDER;
+			header.icon = app.asset("Category_D&R");
 		elseif headerType == "promo" then
 			header = {};
 			header.text = BATTLE_PET_SOURCE_8;
