@@ -403,7 +403,11 @@ end
 local SetATTTooltip = function(self, text)
 	self:SetScript("OnEnter", function(self)
 		GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
-		GameTooltip:SetText(text, nil, nil, nil, nil, true);
+		if text then
+			GameTooltip:SetText(text, nil, nil, nil, nil, true);
+		else
+			GameTooltip:ClearLines();
+		end
 		if self.OnTooltip then
 			local tooltipInfo = {};
 			self:OnTooltip(tooltipInfo);
