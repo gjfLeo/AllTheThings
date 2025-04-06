@@ -128,11 +128,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = HORDE_ONLY,
 				}),
 				fp(42, {	-- Camp Mojache, Feralas
-					-- #if AFTER CATA
-					["cr"] = 39898,	-- Shyn <Hippogryph Master>
-					-- #else
-					["cr"] = 8020,	-- Shyn <Hippogryph Master>
-					-- #endif
+					["crs"] = {
+						-- #if AFTER CATA
+						39898,	-- Shyn <Hippogryph Master>
+						-- #else
+						8020,	-- Shyn <Hippogryph Master>
+						-- #endif
+					},
 					["coord"] = { 75.4, 44.2, FERALAS },
 					["races"] = HORDE_ONLY,
 				}),
@@ -143,23 +145,37 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(41, {	-- Feathermoon, Feralas
-					-- #if AFTER CATA
-					["cr"] = 41383,	-- Irela Moonfeather <Hippogryph Master>
-					["coord"] = { 46.8, 45.2, FERALAS },
-					-- #else
-					["cr"] = 8019,	-- Fyldren Moonfeather <Hippogryph Master>
-					["coord"] = { 30.2, 43.2, FERALAS },
-					-- #endif
+					["crs"] = {
+						-- #if AFTER CATA
+						41383,	-- Irela Moonfeather <Hippogryph Master>
+						-- #else
+						8019,	-- Fyldren Moonfeather <Hippogryph Master>
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 46.8, 45.3, FERALAS },
+						-- #else
+						{ 30.2, 43.2, FERALAS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(31, {	-- Shadebough, Feralas [CATA+] / Thalanaar, Feralas
-					-- #if AFTER CATA
-					["cr"] = 40367,	-- Seyala Nightwisp <Hippogryph Master>
-					["coord"] = { 77.2, 56.8, FERALAS },
-					-- #else
-					["cr"] = 4319,	-- Thyssiana <Hippogryph Master>
-					["coord"] = { 89.4, 45.8, FERALAS },
-					-- #endif
+					["crs"] = {
+						-- #if AFTER CATA
+						40367,	-- Seyala Nightwisp <Hippogryph Master>
+						-- #else
+						4319,	-- Thyssiana <Hippogryph Master>
+						-- #endif
+					},
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 77.3, 56.8, FERALAS },
+						-- #else
+						{ 89.4, 45.8, FERALAS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 				}),
 				fp(569, {	-- Stonemaul Hold, Feralas
@@ -170,7 +186,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				fp(567, {	-- Tower of Estulan, Feralas
 					["cr"] = 41580,	-- Aryenda <Flight Master>
-					["coord"] = { 57, 54, FERALAS },
+					["coord"] = { 57.1, 53.9, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -214,6 +230,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					}),
 				}),
+				-- #if AFTER CATA
+				prof(SKINNING, {
+					i(7392, {	-- Green Whelp Scale
+						["cr"] = 39384,	-- Noxious Whelp
+					}),
+				}),
+				-- #endif
 			}),
 			n(QUESTS, {
 				q(25362, {	-- A Grim Discovery
@@ -339,7 +362,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(26574, {	-- Adella's Covert Camp
 					["qg"] = 39653,	-- Silvia
-					["coord"] = { 56.9, 54.9, FERALAS },
+					["coord"] = { 56.9, 55.0, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -514,6 +537,20 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
+						objective(1, {	-- 0/1 Edana's Dark Heart
+							["provider"] = { "i", 9528 },	-- Edana's Dark Heart
+							["cost"] = {{ "i", 9530, 1 }},	-- Horn of Hatetalon
+							["coord"] = { 40.6, 8.6, FERALAS },
+							["cr"] = 8075,	-- Edana Hatetalon
+						}),
+						-- #if AFTER 4.0.3
+						i(9530, {	-- Horn of Hatetalon
+							["crs"] = {
+								5366,	-- Northspring Windcaller
+								5362,	-- Northspring Harpy
+							},
+						}),
+						-- #endif
 						i(54921, {	-- Dark Crystal Waistband
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -617,13 +654,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25402, {	-- Estulan's Examination
 					["qg"] = 39653,	-- Silvia
 					["sourceQuest"] = 25401,	-- The Gordunni Orb
-					["coord"] = { 56.9, 54.9, FERALAS },
+					["coord"] = { 56.9, 55.0, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(25466, {	-- Even More Fuel for the Zapping
 					["qg"] = 14637,	-- Zorbin Fandazzle
-					["coord"] = { 48.6, 44.7, FERALAS },
+					["coord"] = { 48.7, 44.8, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/10 Water Elemental Core
@@ -799,7 +836,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25406, {	-- Gordok Guards
 					["qg"] = 39653,	-- Silvia
 					["sourceQuest"] = 25400,	-- The Gordunni Threat
-					["coord"] = { 56.9, 54.9, FERALAS },
+					["coord"] = { 56.9, 55.0, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -859,7 +896,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 34. (TODO: Confirm this.)
-					-- Cataclysm: Maximum is level 38 (TODO: Test max level between 36 and 44)
+					-- Cataclysm: Maximum is level 38. (TODO: Test max level between 36 and 44)
 					["lvl"] = { 34, 38 },
 					-- #endif
 				})),
@@ -1063,7 +1100,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						25406,	-- Gordok Guards
 						25208,	-- Tell Silvia
 					},
-					["coord"] = { 56.9, 54.9, FERALAS },
+					["coord"] = { 56.9, 55.0, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1254,6 +1291,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25403, {	-- Ogre Abduction [A]
 					["qg"] = 40052,	-- Estulan
+					-- #if AFTER 7.0.3
+					["description"] = "High-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
+					-- #endif
 					["sourceQuest"] = 25402,	-- Estulan's Examination
 					["coord"] = { 57.0, 55.4, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1278,6 +1318,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25344, {	-- Ogre Abduction [H]
 					["qg"] = 39840,	-- Swar'jan
+					-- #if AFTER 7.0.3
+					["description"] = "High-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
+					-- #endif
 					["sourceQuest"] = 25342,	-- Talk to Swar'jan
 					["coord"] = { 51.9, 46.6, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
@@ -1327,6 +1370,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25451, {	-- Pristine Yeti Hide
 					["provider"] = { "i", 55166 },	-- Pristine Yeti Hide
+					["coord"] = { 55.4, 56.4, FERALAS },	-- General area where the Quest Starter can be looted
 					["sourceQuest"] = 25449,	-- The Mark of Quality
 					["crs"] = { 39896 },	-- Feral Scar Yeti
 					["timeline"] = { ADDED_4_0_3 },
@@ -1381,7 +1425,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25476, {	-- Rescue OOX-22/FE!
 					["qg"] = 7807,	-- Homing Robot OOX-22/FE
 					["sourceQuest"] = 25475,	-- Find OOX-22/FE!
-					["coord"] = { 53.3, 55.6, FERALAS },
+					["coord"] = { 53.3, 55.7, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						i(9647),	-- Failed Flying Experiment
@@ -1417,7 +1461,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(26401, {	-- Return to Vestia
 					["provider"] = { "o", 203134 },	-- Empty Pedestal
 					["sourceQuest"] = 25368,	-- Verinias the Twisted
-					["coord"] = { 65.8, 62.8, FERALAS },
+					["coord"] = { 65.9, 62.9, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -1515,7 +1559,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25398, {	-- Sealing the Dream [A]
-					["qg"] = 40032,	-- Telaron Windflight
+					["providers"] = {
+						{ "n", 40032 },	-- Telaron Windflight
+						{ "i", 52576 },	-- Ysondre's Tear
+					},
 					["sourceQuests"] = {
 						25396,	-- Tears of Stone
 						25397,	-- The Land, Corrupted
@@ -1536,7 +1583,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25250, {	-- Sealing the Dream [H]
-					["qg"] = 39377,	-- Konu Runetotem
+					["providers"] = {
+						{ "n", 39377 },	-- Konu Runetotem
+						{ "i", 52576 },	-- Ysondre's Tear
+					},
 					["sourceQuests"] = {
 						25237,	-- Tears of Stone
 						25241,	-- The Land, Corrupted
@@ -1606,8 +1656,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25465, {	-- Still With The Zapped Giants
-					["qg"] = 14637,	-- Zorbin Fandazzle
-					["coord"] = { 48.6, 44.7, FERALAS },
+					["providers"] = {
+						{ "n", 14637 },	-- Zorbin Fandazzle
+						{ "i", 18904 },	-- Zorbin's Ultra-Shrinker
+					},
+					["coord"] = { 48.7, 44.8, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {
 						objective(1, {	-- 0/6 Miniaturization Residue
@@ -1859,7 +1912,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25401, {	-- The Gordunni Orb [A]
 					["qg"] = 39653,	-- Silvia
-					["coord"] = { 56.9, 54.9, FERALAS },
+					["coord"] = { 56.9, 55.0, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1914,7 +1967,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(25400, {	-- The Gordunni Threat [A]
 					["qg"] = 39653,	-- Silvia
-					["coord"] = { 56.9, 54.9, FERALAS },
+					["coord"] = { 56.9, 55.0, FERALAS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -2673,7 +2726,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["lvl"] = 30,
 					["groups"] = {
-						i(8407, {	-- Pattern: Wild Leather Leggings
+						i(8407, {	-- Pattern: Wild Leather Leggings (RECIPE!)
 							["timeline"] = { REMOVED_4_0_3 },
 						}),
 					},
@@ -2745,7 +2798,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "n", 222705 },	-- Blightbark <Guardian of Feralas>
 							},
 							["coord"] = { 58.6, 52.2, FERALAS },
-							["description"] = "Click the shrine to receive a buff called Duty of the Warden.\n\nFight a Gordunni Warlock until it casts Shrink on you. Cast Remove Curse to receive a buff that says 'You have cast out what corrupts the spirit.\n\nFight a Zukkash Wasp until it Poisons you. Cast Abolish Poison to receive a buff that says 'Your duty is fulfilled.'\n\nReturn to the Shrine and then defeat the Treant Avatar that spawns once you approach it.",
+							["description"] = "Click the shrine to receive a buff called Duty of the Warden.\n\nFight a Gordunni Warlock until it casts Shrink on you. Cast Remove Curse to receive a buff that says 'You have cast out what corrupts the spirit.\n\nFight a Zukk'ash Wasp until it Poisons you. Cast Abolish Poison to receive a buff that says 'Your duty is fulfilled.'\n\nReturn to the Shrine and then defeat the Treant Avatar that spawns once you approach it.",
 						}),
 						objective(2, {	-- Guardian of the Hinterlands
 							["providers"] = {
@@ -2902,6 +2955,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(7730, {	-- Zukk'ash Infestation
 					["qg"] = 7875,	-- Hadoken Swiftstrider
+					-- #if AFTER 4.0.3
+					["description"] = "This quest gets marked as completed when you complete the quest 'Verinias the Twisted' (25368).",
+					-- #endif
 					["sourceQuest"] = 2903,	-- The Battle Plans
 					["coord"] = { 74.8, 42.6, FERALAS },
 					["timeline"] = { REMOVED_4_0_3 },
@@ -2946,93 +3002,85 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(RARES, {
 				n(5347, {	-- Antilus the Soarer
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 55.0, 65.8, FERALAS },
 						{ 55.0, 69.0, FERALAS },
 						{ 55.2, 71.6, FERALAS },
 						{ 54.6, 73.6, FERALAS },
 						{ 53.6, 70.6, FERALAS },
 						{ 54.0, 66.4, FERALAS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 53.6, 69.2, FERALAS },
 						{ 54.2, 73.6, FERALAS },
 						{ 57.2, 74.6, FERALAS },
 						{ 59.8, 73.4, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(5349, {	-- Arash-ethis
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 39.6, 20.6, FERALAS },
 						{ 41.0, 22.6, FERALAS },
 						{ 41.4, 23.8, FERALAS },
 						{ 38.8, 24.6, FERALAS },
 						{ 38.0, 24.2, FERALAS },
 						{ 37.8, 23.4, FERALAS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 41.8, 24.8, FERALAS },
 						{ 46.0, 23.8, FERALAS },
 						{ 46.2, 25.4, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(5346, {	-- Bloodroar the Stalker
 					["coord"] = { 52.6, 60.6, FERALAS },
 				}),
 				n(5345, {	-- Diamond Head
-					-- #if AFTER CATA
-					["coord"] = { 49.0, 20.8, FERALAS },
-					-- #else
 					["coords"] = {
+						-- #if AFTER CATA
+						{ 49.0, 20.8, FERALAS },
+						-- #else
 						{ 21.6, 50.0, FERALAS },
 						{ 21.6, 55.2, FERALAS },
 						{ 22.4, 58.0, FERALAS },
 						{ 35.0, 58.0, FERALAS },
 						{ 36.0, 54.4, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(5354, {	-- Gnarl Leafbrother
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 72.4, 39.6, FERALAS },
 						{ 72.0, 43.4, FERALAS },
 						{ 70.6, 46.0, FERALAS },
 						{ 69.4, 44.2, FERALAS },
 						{ 69.6, 41.8, FERALAS },
 						{ 70.6, 41.0, FERALAS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 68.6, 57.2, FERALAS },
 						{ 72.0, 58.0, FERALAS },
 						{ 75.6, 58.8, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(5343, {	-- Lady Szallah
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 31.0, 42.6, FERALAS },
 						{ 32.4, 43.8, FERALAS },
 						{ 31.8, 45.2, FERALAS },
 						{ 30.4, 45.8, FERALAS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 26.6, 65.8, FERALAS },
 						{ 26.0, 67.2, FERALAS },
 						{ 28.2, 67.4, FERALAS },
 						{ 27.8, 68.6, FERALAS },
 						{ 24.8, 72.8, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(43488, {	-- Mordei the Earthrender
 					["coord"] = { 49.6, 30.2, FERALAS },
@@ -3053,8 +3101,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 				}),
 				n(5352, {	-- Old Grizzlegut
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 56.4, 58.2, FERALAS },
 						{ 58.6, 58.4, FERALAS },
 						{ 60.0, 59.4, FERALAS },
@@ -3062,17 +3110,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						{ 59.0, 62.6, FERALAS },
 						{ 56.6, 62.6, FERALAS },
 						{ 55.4, 61.2, FERALAS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 57.4, 56.8, FERALAS },
 						{ 58.6, 59.0, FERALAS },
 						{ 60.6, 60.6, FERALAS },
 						{ 66.2, 47.4, FERALAS },
 						{ 68.2, 48.6, FERALAS },
 						{ 69.4, 45.0, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(54533, {	-- Prince Lakma
 					-- #if AFTER 10.1.7
@@ -3089,21 +3135,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(5350, {	-- Qirot
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 76.6, 61.4, FERALAS },
 						{ 73.6, 64.0, FERALAS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 71.8, 63.4, FERALAS },
 						{ 74.0, 64.6, FERALAS },
 						{ 74.2, 62.2, FERALAS },
 						{ 76.6, 61.4, FERALAS },
 						{ 78.6, 63.8, FERALAS },
 						{ 76.8, 65.4, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(11498, {	-- Skarr the Broken [CATA+] / Skarr the Unbreakable
 					-- #if AFTER CATA
@@ -3113,25 +3157,23 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 				}),
 				n(5356, {	-- Snarler
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 74.6, 35.4, FERALAS },
 						{ 75.8, 38.6, FERALAS },
 						{ 77.8, 37.8, FERALAS },
 						{ 80.2, 39.8, FERALAS },
 						{ 82.2, 39.8, FERALAS },
 						{ 85.0, 37.6, FERALAS },
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 75.0, 36.2, FERALAS },
 						{ 76.6, 39.8, FERALAS },
 						{ 77.6, 37.2, FERALAS },
 						{ 80.0, 39.2, FERALAS },
 						{ 81.6, 39.4, FERALAS },
 						{ 84.0, 39.2, FERALAS },
+						-- #endif
 					},
-					-- #endif
 				}),
 				n(11497, {	-- The Razza
 					-- #if AFTER CATA
@@ -3141,14 +3183,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #endif
 				}),
 			}),
-			-- #if AFTER CATA
-			prof(SKINNING, {
-				["cr"] = 39384,	-- Noxious Whelp
-				["groups"] = {
-					i(7392),	-- Green Whelp Scale
-				},
-			}),
-			-- #endif
 			n(TREASURES, {
 				o(420954, {	-- Carved Eye
 					["coord"] = { 61.5, 30.7, FERALAS },
@@ -3173,7 +3207,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
 						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
 						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
-						i(22307),	-- Pattern: Enchanted Mageweave Pouch
+						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				-- #if BEFORE 4.0.3
@@ -3211,11 +3245,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(7854, {	-- Jangdor Swiftstrider <Leatherworking Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 52.8, 47.0, FERALAS },
-					-- #else
-					["coord"] = { 74.4, 42.8, FERALAS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 52.8, 47.0, FERALAS },
+						-- #else
+						{ 74.4, 42.8, FERALAS },
+						-- #endif
+					},
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(7451, {	-- Pattern: Green Whelp Bracers (RECIPE!)
@@ -3233,11 +3269,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(8157, {	-- Logannas <Alchemy Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 46.6, 43.0, FERALAS },
-					-- #else
-					["coord"] = { 32.6, 44.0, FERALAS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 46.6, 43.0, FERALAS },
+						-- #else
+						{ 32.6, 44.0, FERALAS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(9302, {	-- Recipe: Ghost Dye (RECIPE!)
@@ -3300,11 +3338,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(7947, {	-- Vivianna <Trade Supplies>
-					-- #if AFTER CATA
-					["coord"] = { 46.2, 41.6, FERALAS },
-					-- #else
-					["coord"] = { 31.2, 43.4, FERALAS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 46.3, 41.7, FERALAS },
+						-- #else
+						{ 31.2, 43.4, FERALAS },
+						-- #endif
+					},
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(13949),	-- Recipe: Baked Salmon (RECIPE!)
@@ -3326,21 +3366,28 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				n(14637, {	-- Zorbin Fandazzle
-					-- #if AFTER CATA
+					["description"] =
+						-- #if AFTER CATA
+						"Must complete quests |cFFFFD700Still With The Zapped Giants|r and |cFFFFD700Even More Fuel For The Zapping|r before he will sell to you.",
+						-- #else
+						"Must complete quests |cFFFFD700Zapped Giants|r and |cFFFFD700Fuel For The Zapping|r before he will sell to you.",
+						-- #endif
 					["sourceQuests"] = {
-						25465,	-- Still With The Zapped Giants
+						-- #if AFTER CATA
 						25466,	-- Even More Fuel For The Zapping
-					},
-					["description"] = "Must complete quests |cFFFFD700Still With The Zapped Giants|r and |cFFFFD700Even More Fuel For The Zapping|r before he will sell to you.",
-					["coord"] = { 48.6, 44.8, FERALAS },
-					-- #else
-					["sourceQuests"] = {
-						7003,	-- Zapped Giants
+						25465,	-- Still With The Zapped Giants
+						-- #else
 						7721,	-- Fuel for the Zapping
+						7003,	-- Zapped Giants
+						-- #endif
 					},
-					["description"] = "Must complete quests |cFFFFD700Zapped Giants|r and |cFFFFD700Fuel For The Zapping|r before he will sell to you.",
-					["coord"] = { 44.8, 43.4, FERALAS },
-					-- #endif
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 48.6, 44.8, FERALAS },
+						-- #else
+						{ 44.8, 43.4, FERALAS },
+						-- #endif
+					},
 					["groups"] = {
 						i(19027),	-- Schematic: Snake Burst Firework (RECIPE!)
 					},
@@ -3386,10 +3433,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #if BEFORE 4.0.3
 					["description"] = "This pet only drops from the Darters for Horde players. Alliance players will need to complete 'Becoming a Parent' that is completed in the Hinterlands.",
 					["sourceQuest"] = 4298,	-- Becoming a Parent
-					["cr"] = 5278,	-- Sprite Darter
-					-- #else
-					["description"] = "Teaches you how to summon the pet Sprite Darter Hatchling.",
+					-- #endif
 					["crs"] = {
+						-- #if AFTER 4.0.3
 						5300,	-- Frayfeather Hippogryph
 						5304,	-- Frayfeather Stagwing
 						39949,	-- Grimtotem Marauder
@@ -3398,8 +3444,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						5278,	-- Sprite Darter
 						5249,	-- Woodpaw Mogrel
 						5246,	-- Zukk'ash Worker
+						-- #else
+						5278,	-- Sprite Darter
+						-- #endif
 					},
-					-- #endif
 				}),
 				-- #endif
 			}),

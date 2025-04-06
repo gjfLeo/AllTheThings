@@ -1080,7 +1080,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 14.0, 34.8, WETLANDS },
 					["timeline"] = { REMOVED_4_0_3 },
 					-- #if AFTER 4.0.3
-					["description"] = "This quest gets marked as completed when you complete the quest 'Return the Statuette (25805).",
+					["description"] = "This quest gets marked as completed when you complete the quest 'Return the Statuette' (25805).",
 					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 20,
