@@ -16,6 +16,9 @@ namespace ATT
         /// <summary>
         /// When the <paramref name="field"/> exists in all the <paramref name="groups"/> with an identical value
         /// it will be removed from said groups and copied into the <paramref name="parent"/>
+        /// A / A|A|A => A / _|_|_
+        /// _ / A|A|A => A / _|_|_
+        /// A / A|B|C => A / A|B|C
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalConsolidationFields]</remarks>
         private static void ConsolidateField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
@@ -57,6 +60,9 @@ namespace ATT
         /// When the <paramref name="field"/> exists in all the <paramref name="groups"/> with an identical value
         /// it will be removed from said groups and copied into the <paramref name="parent"/>. Otherwise that field will be removed from the <paramref name="parent"/>
         /// due to it not existing identically within all <paramref name="groups"/>
+        /// A / A|A|A => A / _|_|_
+        /// _ / A|A|A => A / _|_|_
+        /// A / A|B|C => _ / A|B|C
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalConsolidationFields]</remarks>
         private static void ForceConsolidateField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
@@ -110,6 +116,9 @@ namespace ATT
         /// <summary>
         /// When the <paramref name="field"/> exists in all the <paramref name="groups"/> with an identical value
         /// it will be copied into the <paramref name="parent"/>
+        /// A / A|A|A|_ => A / A|A|A|_
+        /// _ / A|A|A|_ => A / A|A|A|_
+        /// A / A|B|C|_ => A / A|B|C|_
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalPropagationFields]</remarks>
         private static void PropagateField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
@@ -144,8 +153,10 @@ namespace ATT
 
         /// <summary>
         /// For each of the <paramref name="groups"/> with an identical <paramref name="field"/> value to the the <paramref name="parent"/>,
-        /// that value will be removed. Additionally, the value will be removed from the <paramref name="parent"/> if it does not exist identically
-        /// in all <paramref name="groups"/>
+        /// that value will be removed
+        /// A / A|A|A => A / _|_|_
+        /// _ / A|A|A => _ / A|A|A
+        /// A / A|B|C => A / _|B|C
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalNonRepeatFields]</remarks>
         private static void NonRepeatField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
@@ -183,16 +194,13 @@ namespace ATT
                     }
                 }
             }
-            else
-            {
-                // multiple values within, so remove the parent value instead
-                parent.Remove(field);
-                Framework.LogDebug($"INFO: Removed field {field}={parentVal} due to " + nameof(PropagateField), parent);
-            }
         }
 
         /// <summary>
         /// If any of the <paramref name="groups"/> contains the same identical <paramref name="field"/> value, it will be copied to the the <paramref name="parent"/>
+        /// A / A|A|_ => A / A|A|_
+        /// _ / A|A|_ => A / A|A|_
+        /// A / A|B|_ => A / A|B|_
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalAnyPropagationFields]</remarks>
         private static void AnyPropagateField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
@@ -222,6 +230,9 @@ namespace ATT
         /// <summary>
         /// Copies the minimum field value of the <paramref name="groups"/> into the <paramref name="parent"/>. If the type of the value does not
         /// implement <see cref="IComparable"/> then only the first non-null value found will be used
+        /// A / A|A|_ => A / A|A|_
+        /// _ / B|C|_ => B / B|C|_
+        /// A / A|B|_ => A / A|B|_
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalMinimumFields]</remarks>
         private static void MinimumField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
@@ -273,6 +284,9 @@ namespace ATT
         /// <summary>
         /// Copies the maximum field value of the <paramref name="groups"/> into the <paramref name="parent"/>. If the type of the value does not
         /// implement <see cref="IComparable"/> then only the first non-null value found will be used
+        /// A / A|A|_ => A / A|A|_
+        /// _ / B|C|_ => C / B|C|_
+        /// A / A|B|_ => B / A|B|_
         /// </summary>
         /// <remarks>Applied to fields defined in Config[HierarchicalMaximumFields]</remarks>
         private static void MaximumField(string field, IDictionary<string, object> parent, IDictionary<string, object>[] groups)
