@@ -93,6 +93,23 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 										local mostAccessibleSource = sources[1];
 										if not mostAccessibleSource.u or mostAccessibleSource.u ~= 1 then
 											local recipe = app.CreateRecipe(tonumber(spellID));
+											recipe.sourceParent = mostAccessibleSource;
+											local u = GetRelativeValue(mostAccessibleSource, "u");
+											if u then recipe.u = u; end
+											local e = GetRelativeValue(mostAccessibleSource, "e");
+											if e then recipe.e = e; end
+											local awp = GetRelativeValue(mostAccessibleSource, "awp");
+											if awp then recipe.awp = awp; end
+											local rwp = GetRelativeValue(mostAccessibleSource, "rwp");
+											if rwp then recipe.rwp = rwp; end
+											local r = GetRelativeValue(mostAccessibleSource, "r");
+											if r then recipe.r = r; end
+											local c = GetRelativeValue(mostAccessibleSource, "c");
+											if c then recipe.c = c; end
+											local nmr = GetRelativeValue(mostAccessibleSource, "nmr");
+											if nmr then recipe.nmr = nmr; end
+											local nmc = GetRelativeValue(mostAccessibleSource, "nmc");
+											if nmc then recipe.nmc = nmc; end
 											for key,value in pairs(mostAccessibleSource) do
 												recipe[key] = value;
 											end
@@ -101,7 +118,7 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 											recipe.itemID = nil;
 											recipe.cost = nil;
 											recipe.g = nil;
-											local specialization = mostAccessibleSource.requireSkill or professionID;
+											local specialization = recipe.requireSkill or professionID;
 											recipe.requireSkill = specialization;
 											if specialization ~= professionID then
 												recipe.parent = specializations[specialization];
@@ -109,7 +126,7 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 													recipe.parent = data;
 												end
 											else
-												local awp = GetRelativeValue(mostAccessibleSource, "awp") or 10000;
+												if not awp then awp = 10000 end;
 												for i=2,#sources,1 do
 													local sourceAWP = GetRelativeValue(sources[i], "awp") or 10000;
 													if sourceAWP < awp then
@@ -118,9 +135,8 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 												end
 												recipe.parent = expansions[floor(awp / 10000)] or data;
 												
-												local e = mostAccessibleSource.e;
 												if e then
-													local headerID = GetDeepestRelativeFunc(mostAccessibleSource, function(group)
+													local headerID = GetDeepestRelativeFunc(mostAccessibleSource.parent, function(group)
 														if group.e == e and group.headerID then
 															return group.headerID;
 														end
