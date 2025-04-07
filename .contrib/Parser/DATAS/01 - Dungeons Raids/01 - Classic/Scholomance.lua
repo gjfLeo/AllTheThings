@@ -318,11 +318,11 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 			["repeatable"] = true,
 			["lvl"] = 55,
 		}),
-		q(5384, {	-- Kirtonos the Herald
+		q(5384,	-- Kirtonos the Herald
+		bubbleDownSelf({["timeline"] = { REMOVED_4_0_3 }},{
 			["qg"] = 11216,	-- Eva Sarkhoff
 			["sourceQuest"] = 5515,	-- Krastinov's Bag of Horrors
 			["coord"] = { 70.2, 73.7, WESTERN_PLAGUELANDS },
-			["timeline"] = { REMOVED_4_0_3 },
 			["lvl"] = 55,
 			["groups"] = {
 				objective(1, {	-- 0/1 Kirtonos the Herald slain
@@ -330,9 +330,9 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 				}),
 				i(15806),	-- Mirah's Song
 				i(15805),	-- Penelope's Rose
-				i(13544),	-- Spectral Essence
+				ig(13544),	-- Spectral Essence
 			},
-		}),
+		})),
 		q(27147, {	-- Kirtonos the Herald [CATA]
 			["qg"] = 45107,	-- Eva Sarkhoff
 			["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
