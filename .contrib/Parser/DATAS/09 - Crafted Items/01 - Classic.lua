@@ -2856,8 +2856,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				-- #endif
 
 				-- #if AFTER CATA
-				applyclassicphase(TBC_PHASE_ONE, i(29964, {["timeline"] = {ADDED_2_0_5}})),	-- Blackstorm Leggings
-				applyclassicphase(TBC_PHASE_ONE, i(29970, {["timeline"] = {ADDED_2_0_5}})),	-- Wildfeather Leggings
+				applyclassicphase(TBC_PHASE_ONE, i(29964, {["requireSkill"] = LEATHERWORKING, ["timeline"] = {ADDED_2_0_5}})),	-- Blackstorm Leggings
+				applyclassicphase(TBC_PHASE_ONE, i(29970, {["requireSkill"] = LEATHERWORKING, ["timeline"] = {ADDED_2_0_5}})),	-- Wildfeather Leggings
 				-- #endif
 
 				-- #if SEASON_OF_DISCOVERY
@@ -3015,7 +3015,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(15047, {["timeline"] = {REMOVED_6_0_2}}),	-- Red Dragonscale Breastplate
 				-- #endif
 				-- #if AFTER CATA
-				applyclassicphase(TBC_PHASE_ONE, i(29971, {["timeline"] = {ADDED_2_0_5}})),	-- Dragonstrike Leggings
+				applyclassicphase(TBC_PHASE_ONE, i(29971, {["requireSkill"] = LEATHERWORKING, ["timeline"] = {ADDED_2_0_5}})),	-- Dragonstrike Leggings
 				-- #endif
 
 				-- #if SEASON_OF_DISCOVERY
@@ -3068,10 +3068,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #endif
 		}),
+		-- #if AFTER 10.0.7
 		n(WEAPONS, {
 			i(203805, {["timeline"] = {ADDED_10_0_7}}),	-- Gurubashi's Grasp
 			i(206491, {["timeline"] = {ADDED_10_1_5}}),	-- Nerubian Persuader
 		}),
+		-- #endif
 	}),
 	prof(MINING, {
 		spell(2575, {	-- Mining
