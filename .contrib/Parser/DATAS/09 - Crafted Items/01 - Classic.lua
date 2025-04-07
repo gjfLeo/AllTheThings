@@ -548,7 +548,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #endif
 			i(7916),	-- Barbaric Iron Boots
-			i(7914),	-- Barbaric Iron Breastplate
+			i(7914, {	-- Barbaric Iron Breastplate
+				["requireSkill"] = BLACKSMITHING,
+			}),
 			i(7917),	-- Barbaric Iron Gloves
 			i(7915),	-- Barbaric Iron Helm
 			i(163964, {["timeline"] = {ADDED_8_0_1}}),	-- Barbaric Iron Hauberk
@@ -743,6 +745,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				-- #if SEASON_OF_DISCOVERY
 				["timeline"] = { REMOVED_1_15_3 },
 				-- #endif
+				["requireSkill"] = BLACKSMITHING,
 			}),
 			i(12628, {["timeline"] = {REMOVED_4_0_3}}),	-- Demon Forged Breastplate
 			applyclassicphase(PHASE_THREE_RECIPES, i(12618, {["timeline"] = {REMOVED_4_0_3}})),	-- Enchanted Thorium Breastplate
@@ -922,7 +925,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #endif
 			i(3853),	-- Moonsteel Broadsword
-			i(12773),	-- Ornate Thorium Handaxe
+			i(12773, {	-- Ornate Thorium Handaxe
+				["requireSkill"] = BLACKSMITHING,
+			}),
 			i(203811, {["timeline"] = {ADDED_10_0_7}}),	-- Pitchfork of Madness
 			i(5540),	-- Pearl-handled Dagger
 			i(7946),	-- Runed Mithril Hammer
@@ -974,6 +979,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				-- #if SEASON_OF_DISCOVERY
 				["timeline"] = { REMOVED_1_15_3 },
 				-- #endif
+				["requireSkill"] = BLACKSMITHING,
 			}),
 			i(17016),	-- Dark Iron Destroyer
 			i(11608),	-- Dark Iron Pulverizer
@@ -3501,13 +3507,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(34085, {	-- Red Winter Clothes
 				["timeline"] = { ADDED_2_3_0, REMOVED_7_3_5 },
 			}),
-			i(7054),	-- Robe of Power
-			i(14152),	-- Robe of the Archmage
+			i(7054, {	-- Robe of Power
+				["requireSkill"] = TAILORING,
+			}),
+			i(14152, {	-- Robe of the Archmage
+				["requireSkill"] = TAILORING,
+			}),
 			i(14153, {	-- Robe of the Void
 				["timeline"] = { REMOVED_5_0_4, ADDED_10_1_5 },
 				-- #if BEFORE WRATH
 				["classes"] = { WARLOCK },
 				-- #endif
+				["requireSkill"] = TAILORING,
 			}),
 			i(14136, {	-- Robe of Winter Night
 				["timeline"] = { REMOVED_4_0_3, ADDED_8_1_5 },
@@ -3521,7 +3532,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(10053),	-- Simple Black Dress
 			i(6786),	-- Simple Dress
 			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22756)),	-- Sylvan Vest
-			i(14154),	-- Truefaith Vestments
+			i(14154, {	-- Truefaith Vestments
+				["requireSkill"] = TAILORING,
+			}),
 			i(10036),	-- Tuxedo Jacket
 			i(6241),	-- White Linen Robe
 			i(10040),	-- White Wedding Dress
