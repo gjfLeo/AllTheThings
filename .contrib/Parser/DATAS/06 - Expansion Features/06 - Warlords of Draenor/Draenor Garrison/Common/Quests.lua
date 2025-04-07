@@ -2350,6 +2350,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["isDaily"] = true,
 			}),
 			q(37773, {	-- Death to Amethon!
+				["coord"] = { 34.4, 32.5, LUNARFALL },
 				["provider"] = { "n", 89805 },	-- Renzik "The Shiv"
 				["isDaily"] = true,
 				["races"] = ALLIANCE_ONLY,
@@ -2369,6 +2370,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				}},
 			}),
 			q(37774, {	-- Death to Gor'thul!
+				["coord"] = { 34.4, 32.5, LUNARFALL },
 				["provider"] = { "n", 89805 },	-- Renzik "The Shiv"
 				["isDaily"] = true,
 				["races"] = ALLIANCE_ONLY,
@@ -2388,6 +2390,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				}},
 			}),
 			q(37778, {	-- Death to Hivelord Ik'rix!
+				["coord"] = { 34.4, 32.5, LUNARFALL },
 				["provider"] = { "n", 89805 },	-- Renzik "The Shiv"
 				["isDaily"] = true,
 				["races"] = ALLIANCE_ONLY,
@@ -2407,6 +2410,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				}},
 			}),
 			q(37775, {	-- Death to Nullifier Darkoor!
+				["coord"] = { 34.4, 32.5, LUNARFALL },
 				["provider"] = { "n", 89805 },	-- Renzik "The Shiv"
 				["isDaily"] = true,
 				["races"] = ALLIANCE_ONLY,
@@ -2426,6 +2430,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				}},
 			}),
 			q(37948, {	-- Death to Nullifier Darkoor!
+				["coord"] = { 34.4, 32.5, LUNARFALL },
 				["provider"] = { "n", 89805 },	-- Renzik "The Shiv"
 				["isDaily"] = true,
 				["races"] = ALLIANCE_ONLY,
@@ -2445,6 +2450,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				}},
 			}),
 			q(37777, {	-- Death to Tremor!
+				["coord"] = { 34.4, 32.5, LUNARFALL },
 				["provider"] = { "n", 89805 },	-- Renzik "The Shiv"
 				["isDaily"] = true,
 				["races"] = ALLIANCE_ONLY,
@@ -2464,6 +2470,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				}},
 			}),
 			q(37776, {	-- Death to Undertow!
+				["coord"] = { 34.4, 32.5, LUNARFALL },
 				["provider"] = { "n", 89805 },	-- Renzik "The Shiv"
 				["isDaily"] = true,
 				["races"] = ALLIANCE_ONLY,

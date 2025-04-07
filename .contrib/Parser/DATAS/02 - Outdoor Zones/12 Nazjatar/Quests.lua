@@ -928,7 +928,6 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		q(57009, {	-- Fame Waits for Gnome One
 			["provider"] = { "n", 156179 },	-- Gila Crosswires
-			["coord"] = { 39.5, 53.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["sourceQuest"] = 56156,	-- A Tempered Blade
 			["isBreadcrumb"] = true,

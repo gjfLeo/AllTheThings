@@ -4,7 +4,7 @@
 root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_ONE, {
 	inst(274, {	-- Gundrak
 		["mapID"] = GUNDRAK,
-		["coord"] = { 28.6, 86.9, ZULDRAK },
+		["coord"] = { 76.3, 21.1, ZULDRAK },
 		["maps"] = { GUNDRAK_FLOOR2 },
 		["lvl"] = lvlsquish(71, 71, 20),
 		["groups"] = {

@@ -243,6 +243,7 @@ MobileDB.Creature = {
 	[146536] = true,	-- Lost Wisp
 	[145707] = true,	-- Advisor Belgrum
 	[153897] = true,	-- Blingtron 7000
+	[156179] = true,	-- Gila Crosswires <Tinkmaster's Assistant>
 	[158544] = true,	-- Lord Herne
 	[158635] = true,	-- Xolartios <Eternal Traveler>
 	[161261] = true,	-- Kael'thas Sunstrider

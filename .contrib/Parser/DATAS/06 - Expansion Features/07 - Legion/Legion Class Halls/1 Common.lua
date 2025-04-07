@@ -1050,6 +1050,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(150925),	-- Greater Valarjar Insignia
 					i(150929),	-- Greater Wardens Insignia
 					i(141341),	-- Highmountain Tribe Insignia
+					i(146938),	-- Highmountain Tribe Insignia
 					i(146944),	-- Highmountain Tribe Insignia
 					i(146950, { ["timeline"] = { ADDED_7_2_0 } }),	-- Legionfall Insignia [BOA]
 					i(146949, { ["timeline"] = { ADDED_7_2_0 } }),	-- Legionfall Insignia [BOP]
@@ -1106,8 +1107,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(139804),	-- Glacial Fang
 					i(139419),	-- Golden Banana
 					i(147554, { ["timeline"] = { ADDED_7_2_0 } }),	-- Harpy Feather
+					i(147350, { ["timeline"] = { ADDED_7_2_0 } }),	-- Invincible Armor Set
 					i(152438, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Sledgehammer
-					i(13982),	-- Light's Haven
+					i(139824),	-- Light's Haven
 					i(152447, { ["timeline"] = { ADDED_7_3_0 } }),	-- Lightburst Charge
 					i(139801),	-- Lucky Doodad
 					i(139811),	-- Necklace of Endless Memories

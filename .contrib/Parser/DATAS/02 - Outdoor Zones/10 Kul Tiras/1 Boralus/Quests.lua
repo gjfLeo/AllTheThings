@@ -71,9 +71,15 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				}),
 				q(56648, {	-- Call to Arms: Nazjatar
 					["sourceQuests"] = { 56156 },	-- A Tempered Blade
-					["provider"] = { "n", 143559 },	-- Grand Marshal Tremblade
+					["qgs"] = {
+						143559,	-- Grand Marshal Tremblade
+						154640,	-- Grand Marshal Tremblade
+					},
 					["isWeekly"] = true,
-					["coord"] = { 56.4, 26.0, BORALUS },
+					["coords"] = {
+						{ 56.4, 26.0, BORALUS },
+						{ 38.0, 55.4, NAZJATAR },
+					},
 					["races"] = ALLIANCE_ONLY,
 					["g"] = {
 						ASPIRANTS_EQUIPMENT_CACHE,
