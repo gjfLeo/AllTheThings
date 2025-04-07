@@ -696,6 +696,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 11309,	-- Parts for the Job
 						["coord"] = { 53.0, 66.0, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["lockCriteria"] = {1, "questID", 12566},	-- Help for Camp Winterhoof
 					}),
 					q(13268, {	-- Cloth Scavenging (A)
 						["isBreadcrumb"] = true,	-- if you learn the recipe from the book (which will drop from the first handful of mobs you kill upon entering Northrend) the Cloth Scavenging quests become unobtainable
@@ -1130,6 +1131,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 71.4, 39.2, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
 						["qg"] = 28314,	-- Longrunner Nanik
+						["lockCriteria"] = {1, "questID", 11411},	-- Camp Winterhoof
 					}),
 					heroscall(q(49551, {	-- Hero's Call: Howling Fjord!
 						["timeline"] = { ADDED_7_3_5 },
