@@ -258,12 +258,14 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 2
 			i(232306, {	-- Prized Champion's Prestigious Banner (TOY!)(PVP)
-			--	["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 4 Cups, available until October 13th 2024, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments/AWC",
-				["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
+				["description"] = "Arena World Championship: TWW Season 2\n\nSign up on Raider.io for any of the 3 Cups, available until April 11th 2025, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments",
+				["timeline"] = { ADDED_11_1_0 },	-- Just to make the items visible for last minute signups
+				--["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 			}),
 			i(232302, {	-- Prized Banner of the Algari (TOY!)
-			--	["description"] = "Mythic Dungeon International: TWW Season 1\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams in a head-to-head race to the finish line.\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 October 2024 1PM PDT and The Time Trials are on 16 October 1PM PDT - 21 October (US) 1PM PDT.",
-				["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
+				["description"] = "Mythic Dungeon International: TWW Season 2\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams in a head-to-head race to the finish line.\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 April 2025 3PM PDT and The Time Trials are on 16 April 1PM PDT - 21 April (US) 3PM PDT.",
+				["timeline"] = { ADDED_11_1_0 },	-- Just to make the items visible for last minute signups
+				--["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 			}),
 			i(238796, {	-- Thrrrdgl
 				["description"] = "Included for free with any purchase from the World of Warcraft Bronze Murloc Collection on the Blizzard Gear Store. Available until March 31, 2025 while supplies last. The code will be emailed and can be redeemed on Battle.net or the launcher.",

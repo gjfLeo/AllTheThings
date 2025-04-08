@@ -434,10 +434,6 @@ root(ROOTS.Unsorted, {
 				i(239106),	-- Shadow Infused Onyx
 				i(239107),	-- Black Blood Infused Bar
 			}),
-			filter(TOYS, {
-				i(232302),	-- Prized Banner of the Algari (TOY!)
-				i(232306),	-- Prized Champion's Prestigious Banner	(TOY!)
-			}),
 			n(WEEKLY_HOLIDAYS, {	-- Childrens Week
 				i(239689),	-- Khaz Algar Orphan Whistle
 				i(240196),	-- Khaz Algar Orphan Whistle
