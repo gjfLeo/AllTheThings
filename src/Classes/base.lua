@@ -111,7 +111,9 @@ local ShouldExcludeFromTooltipHelper = function(t)
 end
 
 -- Represents how long a given group is allowed to permit a retryable operation
-local CAN_RETRY_DURATION_SEC = 2
+local CAN_RETRY_DURATION_SEC = 3
+-- Temp function to allow someone to change the timeout
+app.SetCAN_RETRY_DURATION_SEC = function(sec) CAN_RETRY_DURATION_SEC = sec end
 -- Represents default field evaluation logic for all Classes unless defined within the Class
 local DefaultFields = {
 	-- Cloned groups will not directly have a parent, but they will instead have a sourceParent, so fill in with that instead
@@ -205,7 +207,6 @@ local DefaultFields = {
 			-- first check if we can retry for this group
 			canretry = true
 			t.__canretry = canretry
-			-- TODO: track down why we're hitting CanRetry a heckin' lot of times on startup in Retail... seems weird
 			-- app.PrintDebug("retry:start",app:SearchLink(t))
 			-- after some seconds, mark this group to no longer retry
 			DelayedCallback(function(t)

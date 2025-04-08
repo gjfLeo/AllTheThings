@@ -245,13 +245,13 @@ local KEY = "itemID"
 local cache = app.CreateCache("modItemID");
 -- Consolidated function to cache available Item information
 local function RawSetItemInfoFromLink(t, link)
+	-- app.PrintDebug("RawSetLink:=",link)
 	local name, link, quality, _, _, _, _, _, _, icon, _, _, _, b = GetItemInfo(link);
 	if link then
 		--[[ -- Debug Prints
 		local _t, id = cache.GetCached(t);
 		print("rawset item info",id,link,name,quality,b)
 		--]]
-		-- app.PrintDebug("RawSetLink:=",link)
 		local _t = cache.GetCached(t)
 		_t.name = name;
 		_t.link = link;
@@ -265,8 +265,6 @@ local function RawSetItemInfoFromLink(t, link)
 		end
 		return link;
 	elseif t.CanRetry == nil then
-		-- no longer allow retrying on this Item since the 'link' field will continue being nil and trigger lookup logic when referenced
-		t.CanRetry = false
 		local _t, id = cache.GetCached(t)
 		local itemName = L.ITEM_NAMES[id] or (t.sourceID and L.SOURCE_NAMES and L.SOURCE_NAMES[t.sourceID])
 			or "Item #" .. tostring(id) .. "*";
@@ -275,8 +273,8 @@ local function RawSetItemInfoFromLink(t, link)
 		_t.sourceID = nil;
 		-- save the "name" field in the source group to prevent further requests to the cache
 		t.name = itemName;
-		-- app.PrintDebug("ForceNoRetry",app:SearchLink(t))
-		return itemName;
+		-- app.PrintDebug("NoItemInfo",app:SearchLink(t))
+		return nil
 	end
 end
 local function default_link(t)
