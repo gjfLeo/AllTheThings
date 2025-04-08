@@ -693,7 +693,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 				-- q(65015, {["repeatable"]=true}),	-- Looting 187894, {	-- Energized Firmament
 				-- q(65622, {["repeatable"]=true}),	-- Looting 187885, {	-- Honeycombed Lattice
 				-- q(65014, {["repeatable"]=true}),	-- Looting 187892, {	-- Incorporeal Sand
-				-- q(65005, {["repeatable"]=true}),	-- Looting 187879, {	-- Pollinated Extraction
+				q(65005, {["repeatable"]=true}),	-- Looting 187879, {	-- Pollinated Extraction
 				-- q(65560, {["repeatable"]=true}),	-- Looting 190129, {	-- Serene Pigment
 				-- q(65018, {["repeatable"]=true}),	-- Looting 187889, {	-- Unstable Agitant
 				-- q(65016, {["repeatable"]=true}),	-- Looting 187893, {	-- Volatile Precursor
