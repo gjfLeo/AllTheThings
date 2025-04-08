@@ -1916,6 +1916,9 @@ root(ROOTS.Zones, {
 				crit(42566, {
 					["_quests"] = 50483,	-- Underlord Xerxiz
 				}),
+				crit(42349, {
+					["_quests"] = 51431,	-- Soul Goliath
+				}),
 			},
 		}),
 		petbattle(ach(6590, {		-- World Safari
