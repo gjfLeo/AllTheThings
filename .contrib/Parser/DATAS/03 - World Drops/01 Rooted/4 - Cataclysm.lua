@@ -697,13 +697,17 @@ root(ROOTS.WorldDrops, applyclassicphase(CATA_PHASE_ONE, expansion(EXPANSION.CAT
 		i(66974),	-- Nightrend Choker
 		i(55400),	-- Sishir Amulet
 		i(55399),	-- Swamplight Amulet
+		i(55404),	-- Thondroril Amulet
 	}),
 	filter(FINGER_F, {
+		i(67047),	-- Band of Pleasant Pain
 		i(66987),	-- Band of the Virtuous
+		i(55423),	-- Blackwolf Ring
 		i(67139),	-- Blauvelt's Family Crest
 		i(67136),	-- Gilnean Ring of Ruination
 		i(67116),	-- Heartbinder Ring
 		i(66942),	-- Immaculate Br'etc Signet
+		i(55421),	-- Mereldar Ring
 		i(55419),	-- Mirkfallon Ring
 		i(55416),	-- Moonbrook Ring
 		i(55420),	-- Nethander Ring
