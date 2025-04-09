@@ -678,13 +678,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["description"] = "Only available if you have the |cFFFFD700Tithe|r order hall upgrade.",
 					}),
 					q(44229, {	-- Champion Armaments
-						-- TBD: fill in other fields
+						["provider"] = { "n", 110595 },	-- Lilith
+						["coord"] = { 45.8, 27.2, NETHERLIGHT_TEMPLE },
 						["description"] = "Only available if you have the |cFFFFD700Armaments of Light|r order hall upgrade.",
 					}),
 					q(44230, {	-- The Fates Bless Us
 						["provider"] = { "n", 110819 },	-- Truth
 						["coord"] = { 58.6, 29.9, NETHERLIGHT_TEMPLE },
 						["description"] = "Only available if you have the |cFFFFD700Blessed Seals|r order hall upgrade.",
+					}),
+				}),
+				n(TREASURES, {
+					o(252162, {	-- Light Well
+						["coord"] = { 75.5, 40.6, NETHERLIGHT_TEMPLE },
+						["g"] = {
+							i(139459),	-- Blessing of the Light
+							i(139452),	-- Essence of the Ligh
+							i(139449),	-- Essence of the Naaru
+							i(139447),	-- Vial of Pure Light
+						},
 					}),
 				}),
 				n(VENDORS, {

@@ -231,6 +231,7 @@ MobileDB.Creature = {
 	 [88025] = true,	-- Mylune
 	 [88026] = true,	-- John J. Keeshan
 	 [88027] = true,	-- Impsy
+	 [96038] = true,	-- Rivermane Shaman
 	[101527] = true,	-- Blingtron 6000
 	[105637] = true,	-- Scowling Rosa <Texts and Specialty Goods>
 	[115785] = true,	-- Direbeak Hatchling

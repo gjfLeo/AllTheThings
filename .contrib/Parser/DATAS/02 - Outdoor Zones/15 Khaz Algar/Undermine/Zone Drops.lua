@@ -4,8 +4,23 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(UNDERMINE, {
 		n(ZONE_DROPS, {
-			currency(3226), 	-- Market Research
-			i(236668),	-- C.H.E.T.T. Card
+			currency(3226, {	-- Market Research
+				["description"] = "Drops from S.C.R.A.P. treasures, and as a zone drop.",
+				["sourceQuest"] = 86961,	-- Diversified Investments
+			}),
+			i(236668, {	-- C.H.E.T.T. Card
+				["description"] = "Drops very often from Underpin affiliated enemies in any delve, commonly from Undermine Rares, and rarely as an Undermine zone drop.",
+				["crs"] = {
+					234905,	-- Aggressively Lost Hobgoblin <Underpin's Fan>
+					231925,	-- Drill Sergeant
+					234900,	-- Underpin's Adoring Fan
+					234904,	-- Underpin's Bodyguard's Intern
+					234902,	-- Underpin's Explosive Ally
+					234901,	-- Underpin's Well-Connected Friend
+				},
+				["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 },
+				["timeline"] = { ADDED_11_1_0 },
+			}),
 			-- TODO: idk where to place it better here or in rewards?
 			i(232984, {	-- Handcrank (MM!)
 				-- Included in ReagentDB

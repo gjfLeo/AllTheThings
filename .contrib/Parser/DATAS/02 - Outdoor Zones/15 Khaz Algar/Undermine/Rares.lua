@@ -31,21 +31,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					233472,	-- Volstrike the Charged
 				},
 				["g"] = {
-					currency(3226, {	-- Market Research
-						["description"] = "Drops from rares, S.C.R.A.P. chests, and rarely as a zone drop.",
-						["sourceQuest"] = 86961,	-- Diversified Investments
-					}),
-					i(236668, {	-- C.H.E.T.T. Card
-						["description"] = "Drops very often from Underpin affiliated enemies in any delve, commonly from Undermine Rares, and rarely as an Undermine zone drop.",
-						["crs"] = {
-							234905,	-- Aggressively Lost Hobgoblin <Underpin's Fan>
-							231925,	-- Drill Sergeant
-							234904,	-- Underpin's Bodyguard's Intern
-							234901,	-- Underpin's Well-Connected Friend
-						},
-						["minReputation"] = { FACTION_CARTELS_OF_UNDERMINE, 13 },
-						["timeline"] = { ADDED_11_1_0 },
-					}),
 					i(234415),	-- Handcrank Casing
 					i(234386),	-- Handcrank Fuel Injector
 					i(234381),	-- Handcrank Fuel Tank

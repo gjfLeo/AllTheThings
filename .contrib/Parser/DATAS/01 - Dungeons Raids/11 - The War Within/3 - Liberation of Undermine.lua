@@ -452,6 +452,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
 						["minReputation"] = { FACTION_GLRC, 6 },
 					}),
+					q(89019, {	-- Loyal Customer: Gold
+						["provider"] = { "n", 235617 },	-- Paula Piranha <Renown Quartermaster>
+						["minReputation"] = { FACTION_GLRC, 7 },
+					}),
 				}),
 				n(TREASURES, {
 					o(505248, {	-- Rune Dispenser
@@ -738,8 +742,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		},{
 			-- LFR
 			q(88835),	-- Guk Boomdog Trash
-			q(88838),	-- King Flamespite/Professor Boomspark Trash
-			q(88842),	-- King Flamespite/Professor Boomspark Trash
+			q(88838),	-- Professor Boomspark Trash
+			q(88842),	-- King Flamespite Trash
 			q(88846),	-- Skiggy Muckheimer Trash
 			q(88867),	-- Trashmaster Blazedump Trash
 			q(88829),	-- Scraps Trash

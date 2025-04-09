@@ -92,6 +92,33 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(183063),	-- Words of the Warden
 				},
 			}),
+			o(364560, {	-- Stygian Cache
+				["coords"] = {
+					{ 15.7, 50.5, THE_MAW },
+					{ 19.4, 33.0, THE_MAW },
+					{ 19.7, 44.6, THE_MAW },
+					{ 19.8, 55.0, THE_MAW },
+					{ 24.2, 16.4, THE_MAW },
+					{ 25.5, 36.6, THE_MAW },
+					{ 26.7, 29.2, THE_MAW },
+					{ 27.6, 45.7, THE_MAW },
+					{ 27.6, 71.9, THE_MAW },
+					{ 28.4, 25.4, THE_MAW },
+					{ 29.6, 12.8, THE_MAW },
+					{ 34.2, 61.9, THE_MAW },
+					{ 35.2, 16.3, THE_MAW },
+					{ 35.9, 23.6, THE_MAW },
+					{ 39.7, 25.1, THE_MAW },
+					{ 40.3, 61.4, THE_MAW },
+					{ 44.3, 18.7, THE_MAW },
+					{ 44.8, 48.5, THE_MAW },
+					{ 45.2, 47.4, THE_MAW },
+					{ 47.4, 76.2, THE_MAW },
+					{ 50.8, 84.0, THE_MAW },
+					{ 56.2, 63.2, THE_MAW },
+					{ 61.4, 50.7, THE_MAW },
+				},
+			}),
 			n(173811, {	-- Subject 638
 				["coord"] = { 35.8, 45.5, THE_MAW },
 				["g"] = {
