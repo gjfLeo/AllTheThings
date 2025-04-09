@@ -255,6 +255,7 @@ local function RawSetItemInfoFromLink(t, link)
 		local _t = cache.GetCached(t)
 		_t.name = name;
 		_t.link = link;
+		_t.title = nil
 		_t.icon = icon;
 		_t.q = quality;
 		if quality > 6 then
