@@ -386,35 +386,33 @@ local CompletedQuests = setmetatable({}, {
 		return false;
 	end,
 	__newindex = app.IsClassic and function(t, questID, state)
-		if questID then
-			rawset(t, questID, state);
-			rawset(ClassicDirtyQuests, questID, true);
-			if state then
-				app.SetCollected(nil, "Quests", questID, true);
-				PrintQuestInfoViaCallback(questID);
-			else
-				PrintQuestInfoViaCallback(questID, false);
-			end
+		if not questID then return end
+		rawset(t, questID, state);
+		rawset(ClassicDirtyQuests, questID, true);
+		if state then
+			app.SetCollected(nil, "Quests", questID, true);
+			PrintQuestInfoViaCallback(questID);
+		else
+			PrintQuestInfoViaCallback(questID, false);
 		end
 	end
 	-- Retail __newindex
 	or function(t, questID, state)
-		if questID then
-			RetailDirtyQuests[#RetailDirtyQuests + 1] = questID
-			if state then
-				if not RetailRawQuests[questID] then
-					RetailRawQuests[questID] = state;
-					PrintQuestInfoViaCallback(questID);
-				end
-			else
-				RetailRawQuests[questID] = nil;
-				PrintQuestInfoViaCallback(questID, false);
+		if not questID then return end
+		RetailDirtyQuests[#RetailDirtyQuests + 1] = questID
+		if state then
+			if not RetailRawQuests[questID] then
+				RetailRawQuests[questID] = state;
+				PrintQuestInfoViaCallback(questID);
 			end
-			-- Way too much overhead to assume this should be done every time a key is changed
-			if not BatchRefresh then
-				app.SetCached("Quests", questID, state)
-				app.UpdateRawID("questID", questID)
-			end
+		else
+			RetailRawQuests[questID] = nil;
+			PrintQuestInfoViaCallback(questID, false);
+		end
+		-- Way too much overhead to assume this should be done every time a key is changed
+		if not BatchRefresh then
+			app.SetCached("Quests", questID, state)
+			app.UpdateRawID("questID", questID)
 		end
 	end
 });
@@ -2003,27 +2001,25 @@ app.AddEventRegistration("QUEST_WATCH_UPDATE", softRefresh)
 app.AddEventRegistration("QUEST_ACCEPTED", function(questLogIndex, questID)
 	if not questID then questID = questLogIndex; end	-- NOTE: In Classic there's an extra parameter.
 	softRefresh();
-	if questID then
-		-- app.PrintDebug("QUEST_ACCEPTED",questID)
-		ResetQuestName(questID)
-		PrintQuestInfoViaCallback(questID, true);
-		CheckFollowupQuests(questID);
-	end
+	if not questID then return end
+	-- app.PrintDebug("QUEST_ACCEPTED",questID)
+	ResetQuestName(questID)
+	PrintQuestInfoViaCallback(questID, true);
+	CheckFollowupQuests(questID);
 end)
 app.AddEventRegistration("QUEST_TURNED_IN", function(questID)
-	if questID then
-		LastQuestTurnedIn = questID;
-		if not MostRecentQuestTurnIns then
-			MostRecentQuestTurnIns = {questID}
-			app.MostRecentQuestTurnIns = MostRecentQuestTurnIns
-		else
-			tinsert(MostRecentQuestTurnIns, 1, questID);
-			if #MostRecentQuestTurnIns > 5 then
-				MostRecentQuestTurnIns[6] = nil;
-			end
+	if not questID then return end
+	LastQuestTurnedIn = questID;
+	if not MostRecentQuestTurnIns then
+		MostRecentQuestTurnIns = {questID}
+		app.MostRecentQuestTurnIns = MostRecentQuestTurnIns
+	else
+		tinsert(MostRecentQuestTurnIns, 1, questID);
+		if #MostRecentQuestTurnIns > 5 then
+			MostRecentQuestTurnIns[6] = nil;
 		end
-		RefreshQuestInfo(questID);
 	end
+	RefreshQuestInfo(questID);
 end)
 app.AddEventHandler("OnRefreshCollections", RefreshAllQuestInfo);
 
