@@ -72,7 +72,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			i(180806),	-- Shadebound Testimonial (QI!)
 			i(178044),	-- Shifting Cryptogram (QI!)
 			i(180805),	-- Soulforge Blueprints (QI!)
-			i(186161),	-- Stygian Lockbox
 			i(180807),	-- Venthyr Concordat (QI!)
 			i(180804),	-- Worn Obleron Etching (QI!)
 		}),

@@ -469,12 +469,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(86387),	-- Sandy Snapdragon Treat
 				q(86384),	-- Storminfused Snapdragon Treat
 				-- q(86373),	-- Teal Snapdragon Treat (automated)
-				q(86375),	-- Talk to Gazix Fusegrease and unlock the Inky Snapdragon Treat
+				-- q(86375),	-- Talk to Gazix Fusegrease and unlock the Inky Snapdragon Treat (automated)
 				--
 				--It went live:
 				--it seems like questID fire per item drop for slot now
 				--
-				--q(85839),	-- leather / mail Head slot
 				q(84839, name(HEADERS.Global, "INVTYPE_HEAD")),	-- leather / plate Head slot
 				q(84840, name(HEADERS.Global, "INVTYPE_SHOULDER")),	-- leather / mail / plate Shoulder slot
 				q(84841, name(HEADERS.Global, "INVTYPE_LEGS")),	-- leather / mail / plate Legs slot
