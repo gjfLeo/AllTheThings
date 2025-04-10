@@ -477,7 +477,7 @@ local FillGroups = function(group)
 		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0]
 	};
 
-	-- app.PrintDebug("FillGroups",app:SearchLink(group),group.__type)
+	-- app.PrintDebug("FillGroups",group.__type,app:SearchLink(group))
 	-- app.PrintTable(FillData)
 
 	-- Fill the group with all nestable content

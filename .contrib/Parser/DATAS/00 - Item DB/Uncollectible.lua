@@ -23,7 +23,7 @@ i(3914);	-- Journeyman's Backpack
 i(5571);	-- Small Black Pouch
 i(5572);	-- Small Green Pouch
 i(6457);	-- Rusted Engineering Parts
-i(15636,{collectible=false})	-- Living Branch
+i(23553,{collectible=false})	-- Living Branch
 i(16967,{collectible=false})	-- Feralas Ahi
 i(29570);	-- A Gnmome Effigy
 i(35953);	-- Mead-Basted Caribou

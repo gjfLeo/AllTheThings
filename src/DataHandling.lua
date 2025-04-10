@@ -351,7 +351,7 @@ local function DirectGroupUpdate(group, got)
 			-- app.PrintDebug("DGU_Fill",app:SearchLink(group))
 			app.FillGroups(group)
 		end
-		-- app.PrintDebug("DGU:Update",group.hash,">",window.Suffix,window.Update,window.isQuestChain)
+		-- app.PrintDebug("DGU:Update",app:SearchLink(group),">",window.Suffix,window.Update,window.isQuestChain)
 		DelayedCallback(window.Update, DGUDelay, window, window.isQuestChain, got)
 		window:ToggleExtraFilters()
 	elseif group.DGU_Fill then

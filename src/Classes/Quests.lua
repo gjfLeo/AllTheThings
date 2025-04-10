@@ -298,7 +298,7 @@ local ClassicDirtyQuests, RetailDirtyQuests = {}, {}
 local CollectibleAsQuest, IsQuestFlaggedCompletedForObject;
 app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, accountWideData)
 	OneTimeQuests = accountWideData.OneTimeQuests
-	local userignored = ATTAccountWideData.IGNORE_QUEST_PRINT
+	local userignored = accountWideData.IGNORE_QUEST_PRINT
 	-- add user ignored to the list if any, don't save our hardcoded quests for everyone...
 	if userignored then
 		for i,questID in pairs(userignored) do
@@ -311,7 +311,7 @@ app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, acco
 		-- a bunch of bad data got contaminated into literally everyones saved vars... so let's clean it
 		if IgnoreErrorQuests[7171] or IgnoreErrorQuests[8706] or IgnoreErrorQuests[10759]
 		or userignored[7171] or userignored[8706] or userignored[10759] then
-			ATTAccountWideData.IGNORE_QUEST_PRINT = {}
+			accountWideData.IGNORE_QUEST_PRINT = {}
 			app.CallbackHandlers.DelayedCallback(app.print, 10, "Wiped 'ATTAccountWideData.IGNORE_QUEST_PRINT' Saved Variable table due to bad data!")
 		end
 	end
@@ -320,13 +320,13 @@ app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, acco
 	app.ChatCommands.Add("ignore-quest-print", function(args)
 		if not userignored then
 			userignored = {}
-			ATTAccountWideData.IGNORE_QUEST_PRINT = userignored
+			accountWideData.IGNORE_QUEST_PRINT = userignored
 		end
 		local questID
 		for i=2,#args do
 			questID = tonumber(args[i])
 			if not questID then
-				app.print("Unable to add a questID to ignore",questID)
+				app.print("Unable to add a questID to ignore",args[i])
 			else
 				if not app.contains(userignored, questID) then
 					userignored[#userignored + 1] = questID
@@ -344,13 +344,13 @@ app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, acco
 	app.ChatCommands.Add("allow-quest-print", function(args)
 		if not userignored then
 			userignored = {}
-			ATTAccountWideData.IGNORE_QUEST_PRINT = userignored
+			accountWideData.IGNORE_QUEST_PRINT = userignored
 		end
 		local questID
 		for i=2,#args do
 			questID = tonumber(args[i])
 			if not questID then
-				app.print("Unable to add a questID to allow",questID)
+				app.print("Unable to add a questID to allow",args[i])
 			else
 				tremove(userignored, app.indexOf(userignored, questID))
 				IgnoreErrorQuests[questID] = nil
