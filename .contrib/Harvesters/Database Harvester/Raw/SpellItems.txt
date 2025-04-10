@@ -1939,7 +1939,7 @@
 2826@@@+$i Block
 3726@@@+$i Haste
 1.13.3.33155
-250@@@Weapon Damage +1
+250@@@Weapon Damage +1 
 1.15.0.52124
 6708@@@Deadly Brew
 6709@@@Between the Eyes
@@ -4896,12 +4896,12 @@
 3882@@@+8 Armor Penetration Rating
 3883@@@Rune of the Nerubian Carapace
 3.4.0.45854
-3045@@@+5 Strength and +6 Stamina
-3050@@@+6 Spell Power and +4 Intellect
-3155@@@Chance to Increase Melee/Ranged Attack Speed
-3430@@@+6 Defense Rating and +9 Stamina
-3643@@@Chance to Increase Melee/Ranged Attack Speed
-3700@@@+7 Defense Rating and +11 Stamina
+3045@@@+5 Strength and +6 Stamina 
+3050@@@+6 Spell Power and +4 Intellect 
+3155@@@Chance to Increase Melee/Ranged Attack Speed 
+3430@@@+6 Defense Rating and +9 Stamina 
+3643@@@Chance to Increase Melee/Ranged Attack Speed 
+3700@@@+7 Defense Rating and +11 Stamina 
 3.4.1.49822
 2888@@@+12 Block Value
 2975@@@+10 Block Value
