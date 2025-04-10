@@ -314,6 +314,23 @@ r(1224166),	-- Vicious Fireweave Gloves
 r(1224167),	-- Vicious Fireweave Pants
 r(1224168),	-- Vicious Fireweave Robe
 r(1224169),	-- Vicious Fireweave Shoulders
+4.4.2.60142
+r(1224208),	-- Fireweave Belt
+r(1224209),	-- Emberfire Bracers
+r(1224210),	-- Fireweave Bracers
+r(1224211),	-- Emberfire Shoulders
+r(1224212),	-- Fireweave Shoulders
+r(1224213),	-- Emberfire Belt
+r(1224214),	-- Fireweave Boots
+r(1224215),	-- Emberfire Gloves
+r(1224216),	-- Fireweave Gloves
+r(1224217),	-- Emberfire Boots
+r(1224218),	-- Fireweave Pants
+r(1224219),	-- Fireweave Robe
+r(1224220),	-- Fireweave Cowl
+r(1224221),	-- Emberfire Robe
+r(1224222),	-- Emberfire Cowl
+r(1224223),	-- Emberfire Pants
 5.0.3.15890
 r(104115),	-- Release Fire Spirit
 r(110426),	-- Tailoring
@@ -859,25 +876,6 @@ r(1227724),	-- Crimson Dawnwoven Bag
 3.0.1.8874
 r(56017),	-- Deathchill Cloak
 r(56048),	-- Duskweave Boots
-4.4.1.57916
-r(1216338),	-- Bloodthirsty Embersilk Cape
-4.4.2.59536
-r(1224154),	-- Vicious Embersilk Belt
-r(1224155),	-- Vicious Embersilk Boots
-r(1224156),	-- Vicious Embersilk Bracers
-r(1224157),	-- Vicious Embersilk Cowl
-r(1224158),	-- Vicious Embersilk Gloves
-r(1224159),	-- Vicious Embersilk Pants
-r(1224160),	-- Vicious Embersilk Robe
-r(1224161),	-- Vicious Embersilk Shoulders
-r(1224162),	-- Vicious Fireweave Belt
-r(1224163),	-- Vicious Fireweave Boots
-r(1224164),	-- Vicious Fireweave Bracers
-r(1224165),	-- Vicious Fireweave Cowl
-r(1224166),	-- Vicious Fireweave Gloves
-r(1224167),	-- Vicious Fireweave Pants
-r(1224168),	-- Vicious Fireweave Robe
-r(1224169),	-- Vicious Fireweave Shoulders
 5.0.3.15890
 r(104115),	-- Release Fire Spirit
 8.0.1.26032

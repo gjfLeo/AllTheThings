@@ -99,6 +99,39 @@ r(1224198),	-- Vicious Wyrmhide Gloves
 r(1224199),	-- Vicious Wyrmhide Helm
 r(1224200),	-- Vicious Wyrmhide Legs
 r(1224201),	-- Vicious Wyrmhide Shoulders
+4.4.2.60142
+r(1224240),	-- Bloodied Wyrmhide Bracers
+r(1224241),	-- Bloodied Wyrmhide Belt
+r(1224242),	-- Bloodied Leather Bracers
+r(1224243),	-- Bloodied Leather Gloves
+r(1224244),	-- Bloodied Scale Bracers
+r(1224245),	-- Bloodied Scale Gloves
+r(1224246),	-- Bloodied Dragonscale Bracers
+r(1224247),	-- Bloodied Dragonscale Shoulders
+r(1224248),	-- Bloodied Wyrmhide Gloves
+r(1224249),	-- Bloodied Wyrmhide Boots
+r(1224250),	-- Bloodied Leather Boots
+r(1224251),	-- Bloodied Leather Shoulders
+r(1224252),	-- Bloodied Scale Boots
+r(1224253),	-- Bloodied Scale Belt
+r(1224254),	-- Bloodied Dragonscale Boots
+r(1224255),	-- Bloodied Dragonscale Gloves
+r(1224256),	-- Bloodied Wyrmhide Shoulders
+r(1224257),	-- Bloodied Wyrmhide Chest
+r(1224258),	-- Bloodied Leather Belt
+r(1224259),	-- Bloodied Leather Helm
+r(1224260),	-- Bloodied Scale Shoulders
+r(1224261),	-- Bloodied Scale Legs
+r(1224262),	-- Bloodied Dragonscale Belt
+r(1224263),	-- Bloodied Dragonscale Helm
+r(1224264),	-- Bloodied Wyrmhide Legs
+r(1224265),	-- Bloodied Wyrmhide Helm
+r(1224266),	-- Bloodied Leather Chest
+r(1224267),	-- Bloodied Leather Legs
+r(1224268),	-- Bloodied Scale Chest
+r(1224269),	-- Bloodied Scale Helm
+r(1224270),	-- Bloodied Dragonscale Legs
+r(1224271),	-- Bloodied Dragonscale Chest
 
 
 
@@ -158,36 +191,3 @@ r(1224629),	-- Scarlet Huntsman's Legguards
 r(1224630),	-- Scarlet Huntsman's Boots
 r(1226689),	-- Scarlet Quiver
 r(1226690),	-- Scarlet Ammo Pouch
-4.4.2.59536
-r(1224138),	-- Vicious Charscale Belt
-r(1224139),	-- Vicious Charscale Boots
-r(1224140),	-- Vicious Charscale Bracers
-r(1224141),	-- Vicious Charscale Chest
-r(1224142),	-- Vicious Charscale Gloves
-r(1224143),	-- Vicious Charscale Helm
-r(1224144),	-- Vicious Charscale Legs
-r(1224145),	-- Vicious Charscale Shoulders
-r(1224146),	-- Vicious Dragonscale Belt
-r(1224147),	-- Vicious Dragonscale Boots
-r(1224148),	-- Vicious Dragonscale Bracers
-r(1224149),	-- Vicious Dragonscale Chest
-r(1224150),	-- Vicious Dragonscale Gloves
-r(1224151),	-- Vicious Dragonscale Helm
-r(1224152),	-- Vicious Dragonscale Legs
-r(1224153),	-- Vicious Dragonscale Shoulders
-r(1224170),	-- Vicious Leather Belt
-r(1224171),	-- Vicious Leather Boots
-r(1224172),	-- Vicious Leather Bracers
-r(1224173),	-- Vicious Leather Chest
-r(1224174),	-- Vicious Leather Gloves
-r(1224175),	-- Vicious Leather Helm
-r(1224176),	-- Vicious Leather Legs
-r(1224177),	-- Vicious Leather Shoulders
-r(1224194),	-- Vicious Wyrmhide Belt
-r(1224195),	-- Vicious Wyrmhide Boots
-r(1224196),	-- Vicious Wyrmhide Bracers
-r(1224197),	-- Vicious Wyrmhide Chest
-r(1224198),	-- Vicious Wyrmhide Gloves
-r(1224199),	-- Vicious Wyrmhide Helm
-r(1224200),	-- Vicious Wyrmhide Legs
-r(1224201),	-- Vicious Wyrmhide Shoulders

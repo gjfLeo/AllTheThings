@@ -1,3 +1,7 @@
+1.15.7.60000
+ach(42133),	-- [DNT] Balnazzar Defeated
+3.4.4.59853
+ach(42115),	-- 3.4.4 - CN LKC  - Warglaives of Azzinoth - Transmog
 4.4.1.59069
 ach(41332),	-- Rival: Season 10
 ach(41333),	-- Duelist: Season 10

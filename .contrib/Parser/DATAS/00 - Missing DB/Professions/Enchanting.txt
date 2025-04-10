@@ -45,12 +45,12 @@ r(1231139),	-- Enchant 2H Weapon - Grand Arcanist
 r(1231164),	-- Enchant Weapon - Grand Sorceror
 r(1232172),	-- Enchant 2H Weapon - Grand Inquisitor
 11.1.5.59571
-r(1225074),	-- Twilight Devastation
-r(1225873),	-- Echoing Void
-r(1227206),	-- Infinite Stars
-r(1227288),	-- Gushing Wound
-r(1227294),	-- Twisted Appendage
-r(1227311),	-- Void Ritual
+r(1225074),	-- Lesser Rune of Twilight Devastation \\ Twilight Devastation
+r(1225873),	-- Greater Rune of the Echoing Void \\ Echoing Void
+r(1227206),	-- Greater Rune of Infinite Stars \\ Infinite Stars
+r(1227288),	-- Greater Rune of Gushing Wound \\ Gushing Wound
+r(1227294),	-- Greater Rune of the Twisted Appendage \\ Twisted Appendage
+r(1227311),	-- Greater Rune of the Void Ritual \\ Void Ritual
 
 
 
@@ -102,9 +102,9 @@ r(1231139),	-- Enchant 2H Weapon - Grand Arcanist
 r(1231164),	-- Enchant Weapon - Grand Sorceror
 r(1232172),	-- Enchant 2H Weapon - Grand Inquisitor
 11.1.5.59571
-r(1225074),	-- Twilight Devastation
-r(1225873),	-- Echoing Void
-r(1227206),	-- Infinite Stars
-r(1227288),	-- Gushing Wound
-r(1227294),	-- Twisted Appendage
-r(1227311),	-- Void Ritual
+r(1225074),	-- Lesser Rune of Twilight Devastation \\ Twilight Devastation
+r(1225873),	-- Greater Rune of the Echoing Void \\ Echoing Void
+r(1227206),	-- Greater Rune of Infinite Stars \\ Infinite Stars
+r(1227288),	-- Greater Rune of Gushing Wound \\ Gushing Wound
+r(1227294),	-- Greater Rune of the Twisted Appendage \\ Twisted Appendage
+r(1227311),	-- Greater Rune of the Void Ritual \\ Void Ritual

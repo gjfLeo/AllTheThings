@@ -69,6 +69,23 @@ r(1224190),	-- Vicious Pyrium Gauntlets
 r(1224191),	-- Vicious Pyrium Helm
 r(1224192),	-- Vicious Pyrium Legguards
 r(1224193),	-- Vicious Pyrium Shoulders
+4.4.2.60142
+r(1224224),	-- Bloodied Pyrium Bracers
+r(1224225),	-- Bloodied Pyrium Gauntlets
+r(1224226),	-- Bloodied Pyrium Belt
+r(1224227),	-- Bloodied Pyrium Boots
+r(1224228),	-- Bloodied Pyrium Shoulders
+r(1224229),	-- Bloodied Pyrium Legguards
+r(1224230),	-- Bloodied Pyrium Helm
+r(1224231),	-- Bloodied Pyrium Breastplate
+r(1224232),	-- Ornate Pyrium Bracers
+r(1224233),	-- Ornate Pyrium Gauntlets
+r(1224234),	-- Ornate Pyrium Belt
+r(1224235),	-- Ornate Pyrium Boots
+r(1224236),	-- Ornate Pyrium Shoulders
+r(1224237),	-- Ornate Pyrium Legguards
+r(1224238),	-- Ornate Pyrium Helm
+r(1224239),	-- Ornate Pyrium Breastplate
 
 
 

@@ -4337,3 +4337,16 @@
 90598@@@--
 90599@@@--
 90701@@@Cowardly Cheery Bombs
+90711@@@--
+90661@@@Dastardly Duos
+90709@@@--
+90710@@@--
+90719@@@Borrowing Corruption
+90731@@@Enhancing Corruption
+90752@@@--
+90774@@@--
+90775@@@--
+90779@@@Cracked Keystone
+90780@@@--
+90899@@@--
+90900@@@--

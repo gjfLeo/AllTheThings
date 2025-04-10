@@ -457,6 +457,22 @@ root(ROOTS.Unsorted, {
 				i(241235),	-- Painted Wooden Sword
 				i(241236),	-- Painted Wooden Dagger
 			}),
+			i(242622),	-- Warbound Purifying Kit
+			i(242623),	-- Enchanted Warbound Purifying Kit
+			i(242648),	-- Black Blood Coagulate
+			i(242711),	-- Pungent Truffle
+			i(242919),	-- Cracked Keystone
+			i(237508),	-- Can of Amps
+			i(237509),	-- Bottle of Invisibility
+			i(237510),	-- Goblet
+			i(237511),	-- Vial of Healing
+			i(240199),	-- Podium Upgrade: Scrappiest
+			i(240200),	-- Podium Upgrade: Longest Survival Run
+			i(240201),	-- Podium Upgrade: Longest Time in Spotlights
+			i(240202),	-- Podium Upgrade: Most Yards Traveled
+			i(243245),	-- Gears Grabbed
+			i(243249),	-- Khaz Algar Adventurer Pack \\ Khaz Algar Gift Pack
+			i(239563),	-- Shadowbound Leash
 		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			n(ARMOR, {
