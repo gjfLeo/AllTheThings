@@ -43,6 +43,8 @@
 41009@@@Rune Learned - Shared Acquisition - Dark Riders (40)
 41010@@@Rune Learned - Shared Acquisition - Ley Lines (50)
 41011@@@Rune Learned - Shared Acquisition - Wild Gods (50)
+1.15.7.60000
+42133@@@[DNT] Balnazzar Defeated
 2.5.1.39399
 15018@@@Infernal Gladiator
 15019@@@Gladiator: Season 1

@@ -2836,6 +2836,8 @@
 7941@@@Grand Arcanist
 7942@@@Grand Sorcerer
 7943@@@Grand Inquisitor
+1.15.7.60000
+7944@@@Poultry Precision Scope (+10 Damage)
 2.0.0.6080
 13@@@Sharpened (+3 Damage)
 14@@@Sharpened (+4 Damage)
