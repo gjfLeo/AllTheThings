@@ -319,6 +319,8 @@
 3.4.3.58528
 473478@@@Sha-Touched Riding Tiger
 473487@@@Sha-Touched Cloud Serpent
+3.4.4.59817
+1217476@@@Flaming Royal Fire Hawk
 4.4.0.53627
 10790@@@Tiger
 13819@@@Summon Warhorse
