@@ -15983,3 +15983,5 @@
 42002@@@Bullhorn of Plenty
 42003@@@Bullhorn of More Plenty
 42004@@@Bullhorn of Most Plenty
+11.1.5.60008
+41990@@@Total Kill Score
