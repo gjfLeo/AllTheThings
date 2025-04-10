@@ -36,14 +36,14 @@ local function ProcessSendChunks()
 							if not acks[i] then
 								-- We found one that hasn't been acknowledged yet.
 								pendingChunk.method(pendingChunk.target, "chunk`" .. pendingChunk.uid .. "`" .. i .. "`" .. chunkCount .. "`" .. chunks[i]);
-								app:GetWindow("Synchronization"):Rebuild();
+								app:GetWindow("Account Management"):Rebuild();
 								finished = false;
 								break;
 							end
 						end
 						if finished then
 							user[uid] = nil;
-							app:GetWindow("Synchronization"):Rebuild();
+							app:GetWindow("Account Management"):Rebuild();
 						else
 							-- Reset the cooldown
 							pendingChunk.cooldown = time() + 10;
@@ -143,7 +143,7 @@ local function ReceiveChunk(method, sender, uid, chunkIndex, chunkCount, chunk)
 	method(sender, "Ack " .. uid, "ack," .. uid .. "," .. chunkIndex);
 	if chunkCount > 1 then
 		app.print("Syncing Data Chunk [" .. uid .. "] " .. chunkIndex .. " of " .. chunkCount .. "...");
-		app:GetWindow("Synchronization"):Rebuild();
+		app:GetWindow("Account Management"):Rebuild();
 	end
 	
 	-- Check if we're finished
@@ -159,7 +159,7 @@ local function ReceiveChunk(method, sender, uid, chunkIndex, chunkCount, chunk)
 		end
 		if chunkCount > 1 then
 			app.print("Finished Syncing Data Chunk [" .. uid .. "]!");
-			app:GetWindow("Synchronization"):Rebuild();
+			app:GetWindow("Account Management"):Rebuild();
 		end
 		pending[uid] = nil;
 		
