@@ -184,6 +184,9 @@ namespace ATT
             if (_fieldValues.Count == 1)
             {
                 object val = _fieldValues.First();
+                // parent has a different field val, don't touch it
+                if (parentVal != null && !Equals(parentVal, val))
+                    return;
 
                 foreach (IDictionary<string, object> data in groups)
                 {

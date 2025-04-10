@@ -514,10 +514,6 @@ namespace ATT
             // Check to make sure the data is valid.
             if (data == null) return false;
 
-            // if (data.TryGetValue("encounterID", out long TEMP) && TEMP == 826)
-            // {
-
-            // }
 
             if (DebugMode && MergeItemData)
             {

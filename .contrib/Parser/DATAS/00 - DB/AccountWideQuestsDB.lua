@@ -1789,6 +1789,7 @@ ExportDB.AccountWideQuestsDB = {
 	[86772] = true,	-- Paint: Goblin Green
 	[86773] = true,	-- Paint: Redlining Red
 	[86774] = true,	-- Paint: Yellow Cake Yellow
+	[86878] = true,	-- Nightfall Sanctum Campsite
 	[86931] = true,	-- triggered after turn in of any of the pact weeklies?
 	[86961] = true,	-- Diversified Investments
 	[86974] = true,	-- Level 61 (Brann)
