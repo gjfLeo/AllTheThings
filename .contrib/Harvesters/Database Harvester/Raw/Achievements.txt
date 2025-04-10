@@ -2824,6 +2824,8 @@
 3.4.3.55417
 40821@@@Successfully Stress Test CN Realms
 40841@@@[DNT] Joyous Journeys - Hit 80 with Buff Joyous Journeys (hidden) (copy)
+3.4.4.59853
+42115@@@3.4.4 - CN LKC  - Warglaives of Azzinoth - Transmog
 4.0.1.12911
 736@@@Explore Mulgore NYI
 750@@@Explore Northern Barrens
