@@ -12626,3 +12626,16 @@
 7931@@@Void Ritual |A:Professions-ChatIcon-Quality-Tier1:20:20|a
 7932@@@Void Ritual |A:Professions-ChatIcon-Quality-Tier2:20:20|a
 7933@@@Void Ritual |A:Professions-ChatIcon-Quality-Tier3:20:20|a
+11.1.5.59919
+7912@@@Lesser Twilight Devastation
+7914@@@Greater Twilight Devastation
+7915@@@Lesser Echoing Void
+7917@@@Greater Echoing Void
+7922@@@Lesser Infinite Stars
+7924@@@Greater Infinite Stars
+7925@@@Lesser Gushing Wound
+7927@@@Greater Gushing Wound
+7928@@@Lesser Twisted Appendage
+7930@@@Greater Twisted Appendage
+7931@@@Lesser Void Ritual
+7933@@@Greater Void Ritual
