@@ -37,29 +37,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 							["cost"] = { { "c", CATALOGED_RESEARCH, 800 } },
 						}),
 					}, {	-- Tier 3
-						i(184665, {	-- Chronicle of Lost Memories
+						ChronicleOfLostMemories({	-- Chronicle of Lost Memories
 							["cost"] = { { "c", CATALOGED_RESEARCH, 1500 } },
 							["description"] = "|cFFfe040fYou will not receive a Covenant specific Legendary if you are not part of said Covenant.|r",
 							["_drop"] = { "customCollect" },	-- this is Covenant tagged in various other locations
-							["sym"] = {
-								{ "select", "headerID", LEGENDARIES },	-- Legendary header
-								{ "extract", "runeforgepowerID" },	-- extract all Legendaries into a direct list
-								{ "exclude", "itemID",
-									190584,	-- Memory of Unity (DK)
-									190587,	-- Memory of Unity (DH)
-									190588,	-- Memory of Unity (DRUID)
-									199552,	-- Memory of Unity (EVOKER)
-									190589,	-- Memory of Unity (HUNTER)
-									190590,	-- Memory of Unity (MAGE)
-									190591,	-- Memory of Unity (MONK)
-									190592,	-- Memory of Unity (PALADIN)
-									190593,	-- Memory of Unity (PRIEST)
-									190594,	-- Memory of Unity (ROGUE)
-									190595,	-- Memory of Unity (SHAMAN)
-									190596,	-- Memory of Unity (WARLOCK)
-									190598,	-- Memory of Unity (WARRIOR)
-								},
-							},
 						}),
 						i(186718, {	-- Teleporter Repair Kit
 							["cost"] = { { "c", CATALOGED_RESEARCH, 50 } },
@@ -169,28 +150,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					i(187134, {	-- Alloy-Warping Facetor
 						["cost"] = { { "c", SOUL_CINDERS, 1000 } },
 					}),
-					i(184665, {	-- Chronicle of Lost Memories
-						["cost"] = { { "c", SOUL_CINDERS, 400 } },
-						["sym"] = {
-							{ "select", "headerID", LEGENDARIES },	-- Legendary header
-							{ "extract", "runeforgepowerID" },	-- extract all Legendaries into a direct list
-							{ "exclude", "itemID",
-								190584,	-- Memory of Unity (DK)
-								190587,	-- Memory of Unity (DH)
-								190588,	-- Memory of Unity (DRUID)
-								199552,	-- Memory of Unity (EVOKER)
-								190589,	-- Memory of Unity (HUNTER)
-								190590,	-- Memory of Unity (MAGE)
-								190591,	-- Memory of Unity (MONK)
-								190592,	-- Memory of Unity (PALADIN)
-								190593,	-- Memory of Unity (PRIEST)
-								190594,	-- Memory of Unity (ROGUE)
-								190595,	-- Memory of Unity (SHAMAN)
-								190596,	-- Memory of Unity (WARLOCK)
-								190598,	-- Memory of Unity (WARRIOR)
-							},
-						},
-					}),
+					ChronicleOfLostMemories({["cost"] = { { "c", SOUL_CINDERS, 400 } }})	-- Chronicle of Lost Memories
 				},
 			}),
 			n(179321, {	-- Duchess Mynx <Death's Advance Quartermaster>

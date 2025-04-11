@@ -586,6 +586,32 @@ end
 Sym_PvPWeaponsArsenal = function(TIER, SEASON, PVPSET)
 	return {{"sub","pvp_weapons_ensemble",TIER,SEASON,PVPSET}}
 end
+ChronicleOfLostMemories = function(t)
+	t = t or {}
+	-- TODO: revise this, don't rely on a header containing all legendaries
+	-- also, Covenant legendaries are not rewarded by the Chronicle since they require a specific renown and are rewarded automatically
+	-- so also need to exclude those with custom collect
+	t.sym = {
+		{ "select", "headerID", LEGENDARIES },	-- Legendary header
+		{ "extract", "runeforgepowerID" },	-- extract all Legendaries into a direct list
+		{ "exclude", "itemID",
+			190584,	-- Memory of Unity (DK)
+			190587,	-- Memory of Unity (DH)
+			190588,	-- Memory of Unity (DRUID)
+			199552,	-- Memory of Unity (EVOKER)
+			190589,	-- Memory of Unity (HUNTER)
+			190590,	-- Memory of Unity (MAGE)
+			190591,	-- Memory of Unity (MONK)
+			190592,	-- Memory of Unity (PALADIN)
+			190593,	-- Memory of Unity (PRIEST)
+			190594,	-- Memory of Unity (ROGUE)
+			190595,	-- Memory of Unity (SHAMAN)
+			190596,	-- Memory of Unity (WARLOCK)
+			190598,	-- Memory of Unity (WARRIOR)
+		},
+	}
+	return i(184665, t)	-- Chronicle of Lost Memories
+end
 
 -- Cost Helper Functions
 applycost = function(item, ...)

@@ -9,29 +9,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coord"] = { 59.6, 52.9, ARDENWEALD },
 					["g"] = bubbleDownRep(FACTION_COURT_OF_NIGHT, {
 						{		-- Neutral
-							i(184665, {	-- Chronicle of Lost Memories
-								["sym"] = {
-									{ "select", "headerID", LEGENDARIES },	-- Legendary header
-									{ "extract", "runeforgepowerID" },	-- extract all Legendaries into a direct list
-									{ "exclude", "itemID",
-										190584,	-- Memory of Unity (DK)
-										190587,	-- Memory of Unity (DH)
-										190588,	-- Memory of Unity (DRUID)
-										199552,	-- Memory of Unity (EVOKER)
-										190589,	-- Memory of Unity (HUNTER)
-										190590,	-- Memory of Unity (MAGE)
-										190591,	-- Memory of Unity (MONK)
-										190592,	-- Memory of Unity (PALADIN)
-										190593,	-- Memory of Unity (PRIEST)
-										190594,	-- Memory of Unity (ROGUE)
-										190595,	-- Memory of Unity (SHAMAN)
-										190596,	-- Memory of Unity (WARLOCK)
-										190598,	-- Memory of Unity (WARRIOR)
-									},
-								},
-								["cost"] = {
-									{ "c", GRATEFUL, 35 },
-								},
+							ChronicleOfLostMemories({	-- Chronicle of Lost Memories
+								["cost"] = { { "c", GRATEFUL, 35 } },
 							}),
 							n(NIGHT_FAE, sharedData({["customCollect"] = "SL_COV_NFA" }, {
 								i(187871, {	-- Cricket Soul
