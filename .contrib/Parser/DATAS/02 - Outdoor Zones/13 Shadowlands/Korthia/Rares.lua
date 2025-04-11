@@ -100,6 +100,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					{ 60.6, 23.1, KORTHIA },
 					{ 44.3, 29.5, KORTHIA },
 				},
+				["provider"] = { "o", 369181 },	-- Fleshy Remains
 				["questID"] = 64233,
 				["g"] = {
 					i(186645),	-- Crimson Shardhide (MOUNT!)

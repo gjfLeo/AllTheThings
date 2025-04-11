@@ -5,77 +5,77 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 	m(KORTHIA, {
 		n(ZONE_DROPS, {
 			n(QUESTS, sharedData({ ["isDaily"] = true }, {
-				q(64433, {	-- 30 Relic Fragments
+				hqt(64433, {	-- 30 Relic Fragments
 					["name"] = "30 Relic Fragments",
 					["crs"] = {
 						179823,	-- Relic Gatherer
 						179565,	-- Relic Gorger
 					},
 				}),
-				q(64434, {	-- 20 Relic Fragments
+				hqt(64434, {	-- 20 Relic Fragments
 					["name"] = "20 Relic Fragments",
 					["crs"] = {
 						179823,	-- Relic Gatherer
 						179565,	-- Relic Gorger
 					},
 				}),
-				q(64435, {	-- 15 Relic Fragments
+				hqt(64435, {	-- 15 Relic Fragments
 					["name"] = "15 Relic Fragments",
 					["crs"] = {
 						179823,	-- Relic Gatherer
 						179565,	-- Relic Gorger
 					},
 				}),
-				q(64436, {	-- 5 Relic Fragments
+				hqt(64436, {	-- 5 Relic Fragments
 					["name"] = "5 Relic Fragments",
 					["crs"] = {
 						179823,	-- Relic Gatherer
 						179565,	-- Relic Gorger
 					},
 				}),
-				q(64341, {	-- Bonus Relic Loot #1
+				hqt(64341, {	-- Bonus Relic Loot #1
 					["name"] = "Bonus Relic Loot #1",
 				}),
-				q(64342, {	-- Bonus Relic Loot #2
+				hqt(64342, {	-- Bonus Relic Loot #2
 					["name"] = "Bonus Relic Loot #2",
 				}),
-				q(64343, {	-- Bonus Relic Loot #3
+				hqt(64343, {	-- Bonus Relic Loot #3
 					["name"] = "Bonus Relic Loot #3",
 				}),
-				q(64344, {	-- Bonus Relic Loot #4
+				hqt(64344, {	-- Bonus Relic Loot #4
 					["name"] = "Bonus Relic Loot #4",
 				}),
-				q(64747, {	-- Bonus Relic Loot #5
+				hqt(64747, {	-- Bonus Relic Loot #5
 					["name"] = "Bonus Relic Loot #5",
 				}),
-				q(64748, {	-- Bonus Relic Loot #6
+				hqt(64748, {	-- Bonus Relic Loot #6
 					["name"] = "Bonus Relic Loot #6",
 				}),
-				q(64749, {	-- Bonus Relic Loot #7
+				hqt(64749, {	-- Bonus Relic Loot #7
 					["name"] = "Bonus Relic Loot #7",
 				}),
-				q(64750, {	-- Bonus Relic Loot #8
+				hqt(64750, {	-- Bonus Relic Loot #8
 					["name"] = "Bonus Relic Loot #8",
 				}),
-				q(64751, {	-- Bonus Relic Loot #9
+				hqt(64751, {	-- Bonus Relic Loot #9
 					["name"] = "Bonus Relic Loot #9",
 				}),
-				q(64752, {	-- Bonus Relic Loot #10
+				hqt(64752, {	-- Bonus Relic Loot #10
 					["name"] = "Bonus Relic Loot #10",
 				}),
-				q(64753, {	-- Bonus Relic Loot #11
+				hqt(64753, {	-- Bonus Relic Loot #11
 					["name"] = "Bonus Relic Loot #11",
 				}),
-				q(64754, {	-- Bonus Relic Loot #12
+				hqt(64754, {	-- Bonus Relic Loot #12
 					["name"] = "Bonus Relic Loot #12",
 				}),
-				q(64755, {	-- Bonus Relic Loot #13
+				hqt(64755, {	-- Bonus Relic Loot #13
 					["name"] = "Bonus Relic Loot #13",
 				}),
-				q(64756, {	-- Bonus Relic Loot #14
+				hqt(64756, {	-- Bonus Relic Loot #14
 					["name"] = "Bonus Relic Loot #14",
 				}),
-				q(64757, {	-- Bonus Relic Loot #15
+				hqt(64757, {	-- Bonus Relic Loot #15
 					["name"] = "Bonus Relic Loot #15",
 				}),
 			})),
@@ -204,7 +204,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.SL, bubbleDownSelf({ ["timel
 		m(KORTHIA, {
 			n(ZONE_DROPS, {
 				q(64534),	-- triggered when looting Korthian Relic - i(187311), "Azgoth's Tattered Maps"
-				q(64535),	-- triggered when looting Korthian Relic - i(187333), "Core of an Unknown Titan"
+				q(64535, name(HEADERS.Item, 187333)),	-- looting Core of an Unknown Titan
 			}),
 		}),
 	}),
