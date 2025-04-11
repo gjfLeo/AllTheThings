@@ -124,6 +124,9 @@ local DefaultFields = {
 	["hash"] = function(t)
 		return CreateHash(t);
 	end,
+	["keyval"] = function(t)
+		return t[t.key]
+	end,
 	-- Default text should be a valid link or name
 	["text"] = function(t)
 		return t.link or t.name;
