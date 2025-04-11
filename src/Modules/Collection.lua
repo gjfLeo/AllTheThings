@@ -70,9 +70,9 @@ end)
 
 local DefaultCollectedThingFunc = function(t)
 	if not t._missing then
-		app.print(L.ITEM_ID_ADDED:format(app:SearchLink(t) or t.text or UNKNOWN, t[t.key] or "???"))
+		app.print(L.ITEM_ID_ADDED:format(app:SearchLink(t) or t.text or UNKNOWN, t.keyval or "???"))
 	else
-		app.print(L.ITEM_ID_ADDED_MISSING:format(app:SearchLink(t) or t.text or UNKNOWN, t[t.key] or "???"))
+		app.print(L.ITEM_ID_ADDED_MISSING:format(app:SearchLink(t) or t.text or UNKNOWN, t.keyval or "???"))
 	end
 end
 local CollectionReportFormats = setmetatable({}, { __index = function(t,key) return DefaultCollectedThingFunc end})
@@ -81,7 +81,7 @@ app.AddCollectionReportFormatFunc = function(ttype, func)
 	CollectionReportFormats[ttype] = func
 end
 local DefaultRemovedThingFunc = function(t)
-	app.print(L.ITEM_ID_REMOVED:format(app:SearchLink(t) or t.text or UNKNOWN, t[t.key] or "???"))
+	app.print(L.ITEM_ID_REMOVED:format(app:SearchLink(t) or t.text or UNKNOWN, t.keyval or "???"))
 end
 local RemovalReportFormats = setmetatable({}, { __index = function(t,key) return DefaultRemovedThingFunc end})
 -- Allows supporting more removal report formats from other Modules based on __type

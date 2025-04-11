@@ -929,7 +929,7 @@ local ResolveFunctions = {
 		level = level or 1;
 		-- an search for the specific 'o' to retrieve the source parent since the parent is not always actually attached to the reference resolving the symlink
 		local parent
-		local searchedObject = app.SearchForObject(o.key, o[o.key], "key");
+		local searchedObject = app.SearchForObject(o.key, o.keyval, "key");
 		if searchedObject then
 			parent = searchedObject.parent;
 			while level > 1 do
@@ -2449,9 +2449,10 @@ local function GetSearchResults(method, paramA, paramB, options)
 			-- 	app.PrintTable(o)
 			-- end
 			if o.key then
+				local okey, rootkey = o.key, root.key
 				-- print("Check Single",root.key,root.key and root[root.key],o.key and root[o.key],o.key,o.key and o[o.key],root.key and o[root.key])
 				-- Heroic Tusks of Mannoroth triggers this logic
-				if (root[o.key] == o[o.key]) or (root[root.key] == o[root.key]) then
+				if (root[okey] == o[okey]) or (root[rootkey] == o[rootkey]) then
 					-- print("Single group")
 					root.g = nil;
 					MergeProperties(root, o, true);
@@ -6610,13 +6611,13 @@ customWindowUpdates.list = function(self, force, got)
 				end
 			end
 			or function(o, key)
-				local text, key = o.text, o.key;
+				local text = o.text;
 				if not IsRetrieving(text) then
 					if not self.VerifyGroupSourceID(o) then
 						DGR(o);
 						return "Harvesting..."
 					end
-					return "#"..(o[dataType] or o[key or 0] or "?")..": "..text;
+					return "#"..(o[dataType] or o.keyval or "?")..": "..text;
 				end
 			end,
 			OnLoad = function(o)

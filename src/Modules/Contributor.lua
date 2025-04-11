@@ -1111,12 +1111,12 @@ local function OnQUEST_DETAIL(...)
 
 	-- check coords
 	if not IgnoredChecksByType[guidtype].coord(providerid) then
-		if not Check_coords(objRef, objRef[objRef.key]) then
+		if not Check_coords(objRef, objRef.keyval) then
 			-- is this quest listed directly under an NPC which has coords instead? check that NPC for coords
 			-- e.g. Garrison NPCs Bronzebeard/Saurfang
 			local questParent = objRef.parent
 			if questParent and questParent.__type == "NPC" then
-				if not Check_coords(questParent, questParent[questParent.key]) then
+				if not Check_coords(questParent, questParent.keyval) then
 					AddReportData(objRef.__type,questID,{
 						[objRef.key or "ID"] = questID,
 						MissingCoords = "No Coordinates for this quest under NPC!",
@@ -1177,7 +1177,7 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- check sourced object coords
 	if not IgnoredChecksByType[guidtype].coord(id) then
 		-- object auto-detect can happen from rather far, so using 2 distance
-		local objID = objRef[objRef.key]
+		local objID = objRef.keyval
 		if not Check_coords(objRef, objID, 2) then
 			AddReportData(objRef.__type,objID,{
 				[objRef.key or "ID"] = objID,
@@ -1206,7 +1206,7 @@ local SpellIDHandlers = {
 
 		local tooltipName = GameTooltipTextLeft1:GetText()
 		objRef = app.CreateObject(id)
-		local objID = objRef[objRef.key]
+		local objID = objRef.keyval
 		-- report openable object
 		AddReportData(objRef.__type,objID,{
 			[objRef.key or "ID"] = objID,
