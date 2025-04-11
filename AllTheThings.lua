@@ -297,6 +297,9 @@ app.SourceSpecificFields = {
 	["pvp"] = true,
 	["pb"] = true,
 	["requireSkill"] = true,
+	-- could be more complex, but for now just prevent showing when not true for all sources
+	["minReputation"] = true,
+	["maxReputation"] = true,
 };
 -- Group Merge Handling
 local MergeProperties
@@ -2310,14 +2313,14 @@ local function GetSearchResults(method, paramA, paramB, options)
 									-- app.PrintDebug("filtered root");
 									if root then
 										if filtered then
-											-- app.PrintDebug("merge root",o.key,o[o.key]);
+											-- app.PrintDebug("merge root",app:SearchLink(o));
 											-- app.PrintTable(o)
 											MergeProperties(root, o, filtered);
 											-- other root content will be nested after
 											MergeObjects(nested, o.g);
 										else
 											local otherRoot = root;
-											-- app.PrintDebug("replace root",otherRoot.key,otherRoot[otherRoot.key]);
+											-- app.PrintDebug("replace root",app:SearchLink(otherRoot));
 											root = o;
 											MergeProperties(root, otherRoot);
 											-- previous root content will be nested after
@@ -2325,10 +2328,11 @@ local function GetSearchResults(method, paramA, paramB, options)
 										end
 									else
 										root = o;
+										-- app.PrintDebug("first root",app:SearchLink(o));
 									end
 									filtered = true
 								else
-									-- app.PrintDebug("unfiltered root",o.key,o[o.key],o.modItemID,paramB);
+									-- app.PrintDebug("unfiltered root",app:SearchLink(o),o.modItemID,paramB);
 									if root then MergeProperties(root, o, true);
 									else root = o; end
 								end
@@ -2336,7 +2340,7 @@ local function GetSearchResults(method, paramA, paramB, options)
 						else
 							for _,o in ipairs(refinedMatches[depth]) do
 								-- Not accurate matched enough to be the root, so it will be nested
-								-- app.PrintDebug("nested")
+								-- app.PrintDebug("nested",app:SearchLink(o))
 								nested[#nested + 1] = o
 							end
 						end
@@ -3255,7 +3259,7 @@ local function SearchForLink(link)
 		end
 		id = GetGroupItemIDWithModID(nil, id, id2, id3)
 	end
-	-- app.PrintDebug(#SearchForObject(KeyMaps[kind], id, nil, true))
+	-- app.PrintDebug("Search",kind,id,#SearchForObject(kind, id, nil, true))
 	return SearchForObject(kind, id, nil, true), kind, id
 end
 app.SearchForLink = SearchForLink;
