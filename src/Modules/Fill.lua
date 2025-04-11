@@ -194,7 +194,7 @@ local function DetermineCraftedGroups(group, FillData)
 	-- find recipe(s) which creates this item
 	for recipeID,info in pairs(itemRecipes) do
 		craftedItemID = info[1];
-		-- app.PrintDebug(itemID,"x",info[2],"=>",craftedItemID,"via",recipeID,skipLevel);
+		-- app.PrintDebug(app:RawSearchLink("itemID",itemID),"x",info[2],"=>",app:RawSearchLink("itemID",craftedItemID),"via",app:RawSearchLink("spellID",recipeID));
 		if craftedItemID and not craftableItemIDs[craftedItemID] and (expandedNesting or not craftedItems[craftedItemID]) then
 			-- app.PrintDebug("recipeID",recipeID);
 			recipe = SearchForObject("recipeID",recipeID,"key") or app.CreateRecipe(recipeID)
@@ -205,7 +205,8 @@ local function DetermineCraftedGroups(group, FillData)
 					groups[#groups + 1] = recipe
 				else
 					-- crafted items should be considered unique per recipe
-					craftableItemIDs[craftedItemID + (recipeID / 1000000)] = recipe;
+					-- recipes are 1M+ now :O
+					craftableItemIDs[craftedItemID + (recipeID / 10000000)] = recipe;
 				end
 			else
 				-- app.PrintDebug("Unsourced recipeID",recipe);
@@ -227,7 +228,7 @@ local function DetermineCraftedGroups(group, FillData)
 			search = (search and CreateObject(search)) or app.CreateItem(craftedItemID)
 			-- link the respective crafted item object to the skill required by the crafting recipe
 			search.requireSkill = skillID
-			-- app.PrintDebug("craftedItemID",craftedItemID,"via skill",skillID)
+			-- app.PrintDebug("craftedItemID",app:RawSearchLink("itemID",craftedItemID),"via skill",app:RawSearchLink("professionID",skillID),skillID)
 			groups[#groups + 1] = search
 		end
 	end
@@ -340,10 +341,9 @@ local function DetermineNPCDrops(group, FillData)
 	end
 end
 local function FillGroupDirect(group, FillData, doDGU)
-	local groups;
 	local ignoreSkip = group.sym or group.headerID or group.classID
 	-- Determine Cost/Crafted/Symlink groups
-	groups = ArrayAppend(groups,
+	local groups = ArrayAppend({},
 		DeterminePurchaseGroups(group, FillData),
 		DetermineUpgradeGroups(group, FillData),
 		DetermineCraftedGroups(group, FillData),
@@ -355,9 +355,8 @@ local function FillGroupDirect(group, FillData, doDGU)
 
 	if groups and #groups > 0 then
 		-- if FillData.Debug then
-		-- 	app.print("FG-MergeResults",#groups,app:SearchLink(group))
+		-- 	app.PrintDebug("FG-MergeResults",app:SearchLink(group),#groups,"=>",#group.g)
 		-- end
-		-- app.PrintDebug("FillGroups-MergeResults",group.hash,#groups,"=>",#group.g)
 		AssignChildren(group);
 		if doDGU then app.DirectGroupUpdate(group); end
 		-- mark this group as being filled since it actually received filled content (unless it's ignored for being skipped)
@@ -474,7 +473,8 @@ local FillGroups = function(group)
 		NestNPCData = app.Settings:GetTooltipSetting("NPCData:Nested"),
 		SkipLevel = app.GetSkipLevel(),
 		Root = group,
-		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0]
+		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0],
+		-- Debug = group.itemID == 234420
 	};
 
 	-- app.PrintDebug("FillGroups",group.__type,app:SearchLink(group))
