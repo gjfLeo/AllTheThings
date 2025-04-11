@@ -39,12 +39,13 @@ local SearchForObject, SearchForField, GetRelativeValue, ArrayAppend, AssignChil
 	= app.SearchForObject, app.SearchForField, app.GetRelativeValue, app.ArrayAppend, app.AssignChildren
 
 -- OnLoad locals
-local CreateObject, ResolveSymbolicLink, PriorityNestObjects, NPCExpandHeaders
+local CreateObject, ResolveSymbolicLink, PriorityNestObjects, NPCExpandHeaders, ForceFillDB
 app.AddEventHandler("OnLoad", function()
 	CreateObject = app.__CreateObject
 	ResolveSymbolicLink = app.ResolveSymbolicLink
 	PriorityNestObjects = app.PriorityNestObjects
 	NPCExpandHeaders = app.HeaderData.FILLNPCS or app.EmptyTable
+	ForceFillDB = app.ForceFillDB
 end)
 
 -- ItemID's which should be skipped when filling purchases with certain levels of 'skippability'
@@ -374,6 +375,11 @@ local function FillGroupDirect(group, FillData, doDGU)
 		-- end
 		AssignChildren(group);
 		if doDGU then app.DirectGroupUpdate(group); end
+		-- check if this group is actually force-filled
+		local forceFillType = not ignoreSkip and ForceFillDB[group.__type]
+		if forceFillType and forceFillType[group.keyval] then
+			ignoreSkip = true
+		end
 		-- mark this group as being filled since it actually received filled content (unless it's ignored for being skipped)
 		if not ignoreSkip then
 			local groupHash = group.hash;
@@ -415,7 +421,7 @@ end
 local function FillGroupsLayered(group, FillData)
 	if SkipFillingGroup(group, FillData) then
 		-- if FillData.Debug then
-		-- 	app.print(Colorize("FGR-SKIP",app.Colors.ChatLinkError),app:SearchLink(group))
+		-- 	app.print(app.Modules.Color.Colorize("FGR-SKIP",app.Colors.ChatLinkError),app:SearchLink(group))
 		-- end
 		-- app.PrintDebug(Colorize("FGR-SKIP",app.Colors.ChatLinkError),app:SearchLink(group))
 		return;
@@ -432,7 +438,7 @@ end
 local function FillGroupsLayeredAsync(group, FillData)
 	if SkipFillingGroup(group, FillData) then
 		-- if FillData.Debug then
-		-- 	app.print(Colorize("FGR-SKIP",app.Colors.ChatLinkError),app:SearchLink(group))
+		-- 	app.print(app.Modules.Color.Colorize("FGR-SKIP",app.Colors.ChatLinkError),app:SearchLink(group))
 		-- end
 		-- app.PrintDebug(Colorize("FGR-SKIP",app.Colors.ChatLinkError),app:SearchLink(group))
 		return;
