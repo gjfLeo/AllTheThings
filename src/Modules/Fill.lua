@@ -76,7 +76,7 @@ local function ShouldFillPurchases(group, FillData)
 			val = values[val]
 			if not val then return true end
 			if (FillData.SkipLevel or CurrentSkipLevel) < val - (group == FillData.Root and 0.5 or 0) then
-				return false;
+				return
 			end
 		end
 	end
@@ -99,6 +99,12 @@ end
 local function DeterminePurchaseGroups(group, FillData)
 	-- do not fill purchases on certain items, can skip the skip though based on a level
 	if not ShouldFillPurchases(group, FillData) then return end
+
+	-- Collected Toys which are NOT the Root of the Fill should not be filled
+	if group.__type == "Toy" and group ~= FillData.Root and group.collected then
+		-- app.PrintDebug("Don't Fill purchases for non-Root collected Toy",app:SearchLink(group))
+		return
+	end
 
 	local collectibles = group.costCollectibles;
 	if collectibles and #collectibles > 0 then
@@ -132,6 +138,8 @@ local function DeterminePurchaseGroups(group, FillData)
 		return groups;
 	end
 end
+-- Used with recipeID to make distinct itemID combinations, must be 1 order of magnitude greater than the highest recipeID
+local RECIPEMOD_THRESHOLD = 10000000
 local function DetermineRecipeOutputGroups(group, FillData)
 	local recipeID = group.recipeID;
 	if not recipeID then return end
@@ -150,7 +158,7 @@ local function DetermineRecipeOutputGroups(group, FillData)
 	-- track crafted items which are filled across the entire fill sequence
 	local craftedItems = FillData.CraftedItems
 
-	local recipeMod = recipeID / 1000000
+	local recipeMod = recipeID / RECIPEMOD_THRESHOLD
 	local craftedItemID = info[1];
 	if craftedItemID and not craftedItems[craftedItemID]
 		and not craftedItems[craftedItemID + recipeMod] and skipLevel > 1 then
@@ -206,7 +214,7 @@ local function DetermineCraftedGroups(group, FillData)
 				else
 					-- crafted items should be considered unique per recipe
 					-- recipes are 1M+ now :O
-					craftableItemIDs[craftedItemID + (recipeID / 10000000)] = recipe;
+					craftableItemIDs[craftedItemID + (recipeID / RECIPEMOD_THRESHOLD)] = recipe;
 				end
 			else
 				-- app.PrintDebug("Unsourced recipeID",recipe);
@@ -474,7 +482,7 @@ local FillGroups = function(group)
 		SkipLevel = app.GetSkipLevel(),
 		Root = group,
 		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0],
-		-- Debug = group.itemID == 234420
+		-- Debug = group.itemID == 207026
 	};
 
 	-- app.PrintDebug("FillGroups",group.__type,app:SearchLink(group))
