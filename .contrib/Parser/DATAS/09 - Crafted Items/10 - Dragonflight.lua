@@ -770,29 +770,59 @@ root(ROOTS.Craftables, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = {
 	prof(ENCHANTING, {
 		n(DISCOVERY, {
 			r(391185, {	-- Primal Invocation Extract
-				["description"] = "Discovered only after obtaining all 5 Glimmers and then disenchanting a Sophic Amalgamation. Turn on Quest Tracking to see which Glimmers you have already disenchanted",
-				["cost"] = {
-					{ "i", 201358, 1 },	-- 1x Glimmer of Air
-					{ "i", 201359, 1 },	-- 1x Glimmer of Earth
-					{ "i", 201356, 1 },	-- 1x Glimmer of Fire
-					{ "i", 201357, 1 },	-- 1x Glimmer of Frost
-					{ "i", 201360, 1 },	-- 1x Glimmer of Order
-				},
-				["g"] = {
-					q(71936, { ["name"] = "Disenchanted Glimmer of Air" }),
-					q(71937, { ["name"] = "Disenchanted Glimmer of Earth" }),
-					q(71934, { ["name"] = "Disenchanted Glimmer of Fire" }),
-					q(71935, { ["name"] = "Disenchanted Glimmer of Frost" }),
-					q(71938, { ["name"] = "Disenchanted Glimmer of Order" }),
+				["description"] = "Discovered only after obtaining all 5 Glimmers and then disenchanting a Sophic Amalgamation. Turn on +HQT Tracking to see which Glimmers you have already disenchanted",
+				["cost"] = {{"i",200479,1}},	-- 1x Sophic Amalgamation
+				["provider"] = {"s",13262},	-- Disenchant
+				["sourceQuests"] = {
+					71936,	-- Disenchanted Glimmer of Air
+					71937,	-- Disenchanted Glimmer of Earth
+					71934,	-- Disenchanted Glimmer of Fire
+					71935,	-- Disenchanted Glimmer of Frost
+					71938,	-- Disenchanted Glimmer of Order
 				},
 			}),
+			hqt(71936, {
+				["name"] = "Disenchanted Glimmer of Air",
+				["sourceQuest"] = 71939,	-- Glimmer of Air Drop
+				["provider"] = {"s",13262},	-- Disenchant
+				["cost"] = {{"i",201358,1}},	-- Glimmer of Air
+			}),
+			hqt(71937, {
+				["name"] = "Disenchanted Glimmer of Earth",
+				["sourceQuest"] = 71940,	-- Glimmer of Earth Drop
+				["provider"] = {"s",13262},	-- Disenchant
+				["cost"] = {{"i",201359,1}},	-- Glimmer of Earth
+			}),
+			hqt(71934, {
+				["name"] = "Disenchanted Glimmer of Fire",
+				["sourceQuest"] = 71941,	-- Glimmer of Fire Drop
+				["provider"] = {"s",13262},	-- Disenchant
+				["cost"] = {{"i",201356,1}},	-- Glimmer of Fire
+			}),
+			hqt(71935, {
+				["name"] = "Disenchanted Glimmer of Frost",
+				["sourceQuest"] = 71942,	-- Glimmer of Frost Drop
+				["provider"] = {"s",13262},	-- Disenchant
+				["cost"] = {{"i",201357,1}},	-- Glimmer of Frost
+			}),
+			hqt(71938, {
+				["name"] = "Disenchanted Glimmer of Order",
+				["sourceQuest"] = 71943,	-- Glimmer of Order Drop
+				["provider"] = {"s",13262},	-- Disenchant
+				["cost"] = {{"i",201360,1}},	-- Glimmer of Order
+			}),
+			itemDropHQT(201358, 71939),	-- Glimmer of Air Drop
+			itemDropHQT(201359, 71940),	-- Glimmer of Earth Drop
+			itemDropHQT(201356, 71941),	-- Glimmer of Fire Drop
+			itemDropHQT(201357, 71942),	-- Glimmer of Frost Drop
+			itemDropHQT(201360, 71943),	-- Glimmer of Order Drop
 		}),
 		spell(392888, {	-- Disenchant
 			i(194123),	-- Chromatic Dust
 			i(200113),	-- Resonant Crystal
 			i(194124),	-- Vibrant Shard
-			header(HEADERS.Item, 200479, {	-- Sophic Amalgamation
-				i(201360),	-- Glimmer of Order
+			i(201360, {	-- Glimmer of Order
+				["cost"] = {{"i",200479,1}},	-- 1x Sophic Amalgamation
 			}),
 		}),
 		spell(391304, {	-- Elemental Shatter
@@ -3560,13 +3590,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 		}),
 		prof(BLACKSMITHING, {
 			q(70232),	-- crafting an Alloy material near the Dim Forge in The Waking Shores to trigger the Glimmer of Wisdom (spellID 384716)
-		}),
-		prof(ENCHANTING, {
-			q(71939),	-- Glimmer of Air Drop
-			q(71940),	-- Glimmer of Earth Drop
-			q(71941),	-- Glimmer of Fire Drop
-			q(71942),	-- Glimmer of Frost Drop
-			q(71943),	-- Glimmer of Order Drop
 		}),
 		prof(HERBALISM, {
 			q(74121),	-- Herbing Enraged Sprout
