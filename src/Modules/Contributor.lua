@@ -105,6 +105,7 @@ local MapPrecisionOverrides = {
 	[1177] = 3,	-- Breath Of Pa'ku
 	[1699] = 3,	-- Sinfall
 	[1700] = 3,	-- Sinfall
+	[1912] = 10,	-- The Runecarver's Oubliette
 	[2328] = 3,	-- The Proscenium
 }
 
