@@ -1631,6 +1631,11 @@ h = function(t) -- Flag as Horde Only
 	end
 	return t;
 end
+itemDropHQT = function(itemID, questID, t)
+	t = t or {}
+	t.provider = {"i",itemID}	-- Item
+	return hqt(questID, name(HEADERS.Item, itemID, t))	-- Item Drop
+end
 model = function(displayID, t)
 	t.displayID = displayID;
 	return t;
