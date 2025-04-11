@@ -504,6 +504,7 @@ root(ROOTS.Zones, {
 						["g"] = {
 							q(42911, {	-- Drowned Mana
 								["provider"] = { "n", 108825 },	-- Conjurer Margoss
+								["coord"] = { 44.7, 62.0, BROKEN_ISLES },
 							}),
 							i(138811, {	-- Brinedeep Bottom Feeder (MOUNT!)
 								["cost"] = { { "i", 138777, 100 }, },	-- 100x Drowned Mana

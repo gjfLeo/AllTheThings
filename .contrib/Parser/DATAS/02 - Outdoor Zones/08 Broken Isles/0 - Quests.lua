@@ -444,12 +444,12 @@ root(ROOTS.Zones, {
 						q(44337, {	-- Goddess Watch Over You
 							["description"] = "There are two versions of this quest: One for players that have already finished the quest chain to recover the Tears of Elune and one for those that haven't yet.\n\nThis one is for players that have.",
 							["sourceQuest"] = 44153,	-- Light's Charge
-							["provider"] = { "n", 113857 },	-- Light's Heart
+							["provider"] = { "n", 113686 },	-- Archmage Khadgar
 						}),
 						q(44338, {	-- Goddess Watch Over You
 							["description"] = "There are two versions of this quest: One for players that have already finished the quest chain to recover the Tears of Elune and one for those that haven't yet.\n\nThis one is for players that haven't.",
 							["sourceQuest"] = 44153,	-- Light's Charge
-							["provider"] = { "n", 113857 },	-- Light's Heart
+							["provider"] = { "n", 113686 },	-- Archmage Khadgar
 						}),
 						q(44448, {	-- In the House of Light and Shadow
 							["sourceQuests"] = {

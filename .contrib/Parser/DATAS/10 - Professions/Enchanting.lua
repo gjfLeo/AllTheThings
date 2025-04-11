@@ -604,8 +604,14 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 			}),
 			-- Patch 10.2.0
 			q(77910, {	-- Enchanted Shrubbery
-				["provider"] = { "n", 210162 },	-- Magnolia Oaken
-				["coord"] = { 36.8, 63.1, VALDRAKKEN },
+				["qgs"] = {
+					210162,	-- Magnolia Oaken
+					203172,	-- Dustmonger Topuiz
+				},
+				["coords"] = {
+					{ 36.8, 63.1, VALDRAKKEN },
+					{ 56.0, 56.8, ZARALEK_CAVERN },
+				},
 				["timeline"] = { ADDED_10_2_0 },
 				["g"] = {
 					i(208947),	-- Enchanted Watering Can (QI!)

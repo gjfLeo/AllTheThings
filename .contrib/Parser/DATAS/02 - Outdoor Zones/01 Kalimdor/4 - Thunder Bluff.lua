@@ -909,6 +909,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(156986, {	-- Kodo Gavel
 							["timeline"] = { ADDED_7_3_5 },
 						}),
+						i(57793),	-- Kodo Saddlebag
 					},
 				}),
 			}),

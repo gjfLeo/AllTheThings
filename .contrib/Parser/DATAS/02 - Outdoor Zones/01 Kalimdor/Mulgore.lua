@@ -1505,6 +1505,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = { TAUREN },
 					["groups"] = {
+						i(5415),	-- Thunderhorn Cleansing Totem (QI!)
 						i(57235, {	-- Bloodhoof War Shield
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -1617,6 +1618,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = { TAUREN },
 					["groups"] = {
+						i(5416),	-- Wildmane Cleansing Totem (QI!)
 						i(57238, {	-- Cliff Running Boots
 							["timeline"] = { ADDED_4_0_3 },
 						}),
@@ -1688,6 +1690,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = { TAUREN },
 					["groups"] = {
+						i(5411),	-- Winterhoof Cleansing Totem (QI!)
 						i(57221, {	-- Legs of the Long Day
 							["timeline"] = { ADDED_4_0_3 },
 						}),

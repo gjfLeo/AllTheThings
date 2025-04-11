@@ -488,26 +488,32 @@ root(ROOTS.Zones, {
 				}),
 				q(43473, {	-- Experimental Potion: Test Subjects Needed
 					["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+					["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
 					["isDaily"] = true,
 				}),
 				q(43474, {	-- Experimental Potion: Test Subjects Needed
 					["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+					["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
 					["isDaily"] = true,
 				}),
 				q(43475, {	-- Experimental Potion: Test Subjects Needed
 					["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+					["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
 					["isDaily"] = true,
 				}),
 				q(43477, {	-- Experimental Potion: Test Subjects Needed
 					["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+					["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
 					["isDaily"] = true,
 				}),
 				q(43476, {	-- Experimental Potion: Test Subjects Needed
 					["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+					["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
 					["isDaily"] = true,
 				}),
 				q(43478, {	-- Experimental Potion: Test Subjects Needed
 					["provider"] = { "n", 110642 },	-- Fizzi Liverzapper
+					["coord"] = { 75.4, 83.4, LEGION_THE_UNDERBELLY },
 					["isDaily"] = true,
 				}),
 				q(47059, {	-- Feral: The Folly of Levia Laurence

@@ -987,6 +987,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				q(38568, {	-- We Need a Shipwright
 					["races"] = HORDE_ONLY,
 					["provider"] = { "n", 92400 },	-- Vol'jin
+					["coord"] = { 39.2, 54.9, FROSTWALL },
 					["sourceQuests"] = {
 						38567,	-- Garrison Campaign: War Council
 						40417,	-- To Tanaan!
@@ -1550,6 +1551,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["providers"] = {
 					{ "n", 90894 },	-- Alexi Hackercam
 					{ "n", 91030 },	-- Trixxy Volt
+				},
+				["coords"] = {
+					{ 40.4, 56.0, FROSTWALL },
+					{ 34.4, 33.0, LUNARFALL },
 				},
 				["isDaily"] = true,
 			}),
