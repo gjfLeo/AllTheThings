@@ -371,7 +371,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["g"] = {
 					o(315933, {	-- Gallywix's Getaway Pack
 						["coord"] = { 37.0, 52.1, VOLDUN },
-						["g"] = { i(165942) },	-- Gallywix's Getaway Pack (QI!) 
+						["g"] = { i(165942) },	-- Gallywix's Getaway Pack (QI!)
 					}),
 					i(165656),	-- Spy Gear (QI!)
 				},
@@ -509,3 +509,15 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 		})),
 	}),
 })));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {
+	m(ZANDALAR, {
+		m(VOLDUN, {
+			n(WORLD_QUESTS, {
+				q(54299),	-- triggered when completing #54272, "Battle Bots" WQ
+			}),
+		}),
+	}),
+})));
+
+

@@ -3466,6 +3466,28 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["time
 			q(36559),	-- Garrison Max-level Choice Tracker: Spires Upper Skettis
 			q(36560),	-- Garrison Max-level Choice Tracker: Talador Shattrath City, East
 			q(36561),	-- Garrison Max-level Choice Tracker: Talador Shattrath City, East
+			q(36534),	-- Garrison Max-level Choice Tracker: (GROUP) Talador Shattrath City, West (When picking up Assault on the Heart of Shattrath on Horde character)
+			q(36547),	-- Garrison Max-level Choice Tracker: (GROUP) Talador Shattrath City, West (When picking up Assault on the Heart of Shattrath on Horde character)
+			q(36663),	-- Garrison Max-level Choice Tracker: ANY CHOICE MADE (When picking up Assault on the Heart of Shattrath on Horde character)
+			q(36664),	-- Garrison Max-level Choice Tracker: ANY CHOICE MADE (When picking up Assault on the Heart of Shattrath on Alliance character)
+			q(36537),	-- Garrison Max-level Choice Tracker: Spires Shadowmoon Cliffs
+			q(36558),	-- Garrison Max-level Choice Tracker: Spires Shadowmoon Cliffs
+			q(36532),	-- Garrison Max-level Choice Tracker: (GROUP) Gorgrond Blackrock Foundry
+			q(36545),	-- Garrison Max-level Choice Tracker: (GROUP) Gorgrond Blackrock Foundry
+			q(36527),	-- Garrison Max-level Choice Tracker: Frostfire Bloodmaul Compound
+			q(36549),	-- Garrison Max-level Choice Tracker: Frostfire Bloodmaul Compound
+			q(36528),	-- Garrison Max-level Choice Tracker: Shadowmoon Darktide Roost
+			q(36555),	-- Garrison Max-level Choice Tracker: Shadowmoon Darktide Roost
+			q(36533),	-- Garrison Max-level Choice Tracker: Gorgrond Primal Forest
+			q(36552),	-- Garrison Max-level Choice Tracker: Gorgrond Primal Forest
+			q(36531),	-- Garrison Max-level Choice Tracker: Shadowmoon Sanctum of Othaar
+			q(36556),	-- Garrison Max-level Choice Tracker: Shadowmoon Sanctum of Othaar
+			q(36539),	-- Garrison Max-level Choice Tracker: Spires Mushroom Swamp
+			q(36557),	-- Garrison Max-level Choice Tracker: Spires Mushroom Swamp
+			q(36540),	-- Garrison Max-level Choice Tracker: Nagrand Broken Precipice
+			q(36553),	-- Garrison Max-level Choice Tracker: Nagrand Broken Precipice
+			q(36541),	-- Garrison Max-level Choice Tracker: Nagrand Mok'gol Watchpost
+			q(36554),	-- Garrison Max-level Choice Tracker: Nagrand Mok'gol Watchpost
 			q(36799),	-- Garrison Nodes - Tracking Quest - triggers after unlocking the mine, picking herbs
 			q(36492),	-- Garrison Pet Battle — discord report, "for today's EU garrison menagerie fight, the Blingtron/protectron one"
 			q(39408, { ["timeline"] = { ADDED_6_2_0 } }),	-- Tracking Quest - interact with the mission table.

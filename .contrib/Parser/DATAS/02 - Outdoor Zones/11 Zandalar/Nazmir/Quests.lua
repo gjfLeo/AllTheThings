@@ -1641,6 +1641,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 	m(ZANDALAR, {
 		m(NAZMIR, {
 			n(QUESTS, {
+				q(49179),	-- triggered after speaking to Witch Doctor Kejabu after killing Hir'eek, on quest "Upward and "Onward"
 				q(47531),	-- triggered when turning in "Krag'wa the Terrible"
 				q(47703),	-- triggered while on #47631, "Rendezvous with the Libation"
 				q(50465),	-- triggered with #49950, "Blood Purification"
@@ -1649,6 +1650,18 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(49294),	-- Nazmir - triggers when Hanzabu talks about the Zo'bal shrine
 				q(48779),	-- Nazmir - triggers after activating all the spirits in Zo'bal during "Spiritual Restoration"
 				q(48781),	-- Nazmir - Hir'eek is summoned in Zalamar
+				q(49367, {	-- Nazmir dialogue around the Necropolis: "What is happening?  I was sick in my bed... and now... where am I?"
+					["isWorldQuest"] = true,	-- without this field, this quest inexplicably shows up in /attwq for some characters
+				}),
+				q(49368, {	-- Nazmir dialogue around the Necropolis: "De voice... he is calling to us... we must obey!"
+					["isWorldQuest"] = true,	-- for some reason, this shows up in /attwq for characters who haven't done it.  haunted!
+				}),
+				q(49369, {	-- Nazmir dialogue around the Necropolis: "Do you hear it?  It's Bwonsamdi's call!  Eternity is near!"
+					["isWorldQuest"] = true, -- unsure if this erroneously shows up in /attwq like the others; if so, it needs to be marked as a WQ
+				}),
+				q(49695, {	-- immediately after channeling on the drum finishes during "A Tribute For Death"
+					["isWorldQuest"] = true, -- haunted HQT that shows in /attwq
+				}),
 				-- q(54773),	-- Warmode version of March on the Marsh
 			}),
 		}),

@@ -1778,6 +1778,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			q(52193),	-- triggered when turning in #52186, "The Bulk of the Guard," while on Horde War Campaign
 			q(58417),	-- triggered when starting the mission "Casting the Bait" while on "Under False Colors" during the Horde War Campaign
 			q(55135),	-- triggered after finishing the mission "Casting the Bait" during the Horde War Campaign
+			q(51695),	-- Horde WarCampaign - "Reclaiming What's Ours" (ID 51696) using the horn to reclaim the Foothold
 		}),
 	}),
 })));

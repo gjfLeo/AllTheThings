@@ -260,7 +260,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["g"] = {
 					o(312155, {	-- Gallywix's Getaway Pack
 						["coord"] = { 87.6, 50.7, TIRAGARDE_SOUND },
-						["g"] = { i(165942) },	-- Gallywix's Getaway Pack (QI!) 
+						["g"] = { i(165942) },	-- Gallywix's Getaway Pack (QI!)
 					}),
 				},
 			}),
@@ -509,6 +509,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		m(TIRAGARDE_SOUND, {
 			n(WORLD_QUESTS, {
 				q(54953),	-- Killing Adhara White
+				q(55627),	-- triggered additionally when completing the WQ to kill P4-N73R4.  this is not the first-time kill tracking quest for the rare, so i'm not sure what it's for
 			}),
 		}),
 	}),

@@ -512,6 +512,13 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
 	m(NAZJATAR, {
 		n(RARES, {
+			--	Naga Commanders
+			q(56882),	-- Commander Minezra
+			q(56895),	-- Incantatrix Vazina
+			q(56894),	-- Shadowbinder Athissa
+			q(56890),	-- Theurgist Nitara
+			q(56893),	-- Warlord Zalzjar
+			--
 			q(56582),	-- killing King Gakula in Warmode
 			q(56601),	-- Banescale the Packfather in Warmode
 			q(56884),	-- First time killing Avarius (as miner?)

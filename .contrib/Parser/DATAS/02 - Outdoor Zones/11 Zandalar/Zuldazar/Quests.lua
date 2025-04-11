@@ -2092,7 +2092,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 	m(ZANDALAR, {
 		m(ZULDAZAR, {
 			n(QUESTS, {
+				q(55259),	-- Triggers after turning 'Sleep, Eat, Repeat' (ID 55258) in to finish the achievement criteria 'Sleep, Eat, Repeat' (3) for How to Train Your Direhorn (ID 13542)
+				q(52141),	-- after completing "SKREEEEE!" for How to Ptrain Your Pterrordax
+				q(47436),	-- Picked Pa'ku for "Picking a Side"
+				q(47443),	-- switched loa alignment in Zuldazar to Gonk by speaking to Chronicler Ash'tari
 				q(54738),	-- Loa Changer Jani to Paku
+				q(50844),	-- triggered when turning in #50900, "Maybe When You're Older," part of Kua'fon questline
+				q(50828),	-- triggered when turning in #50412, Back to the Nest, part of Kua'fon questline.
+				q(51992),	-- triggered when turning in "Of Dark Deeds and Dark Days"
+				q(51993),	-- triggered when turning in "Of Dark Deeds and Dark Days"
+				q(55257),	-- triggered after turning in "Held for Observation" in the "How to Train Your Direhorn" questline
+				q(55536),	-- triggered after turning in "Torcali's Blessing" in the "How to Train Your Direhorn" questline
 			}),
 		}),
 	}),

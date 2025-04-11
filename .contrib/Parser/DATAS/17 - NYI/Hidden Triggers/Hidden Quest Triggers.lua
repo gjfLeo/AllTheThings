@@ -190,28 +190,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(38168),	-- WOD 90-99
 
 		-- ASSAULTS
-		q(36534),	-- Garrison Max-level Choice Tracker: (GROUP) Talador Shattrath City, West (When picking up Assault on the Heart of Shattrath on Horde character)
-		q(36547),	-- Garrison Max-level Choice Tracker: (GROUP) Talador Shattrath City, West (When picking up Assault on the Heart of Shattrath on Horde character)
-		q(36663),	-- Garrison Max-level Choice Tracker: ANY CHOICE MADE (When picking up Assault on the Heart of Shattrath on Horde character)
-		q(36664),	-- Garrison Max-level Choice Tracker: ANY CHOICE MADE (When picking up Assault on the Heart of Shattrath on Alliance character)
-		q(36537),	-- Garrison Max-level Choice Tracker: Spires Shadowmoon Cliffs
-		q(36558),	-- Garrison Max-level Choice Tracker: Spires Shadowmoon Cliffs
-		q(36532),	-- Garrison Max-level Choice Tracker: (GROUP) Gorgrond Blackrock Foundry
-		q(36545),	-- Garrison Max-level Choice Tracker: (GROUP) Gorgrond Blackrock Foundry
-		q(36527),	-- Garrison Max-level Choice Tracker: Frostfire Bloodmaul Compound
-		q(36549),	-- Garrison Max-level Choice Tracker: Frostfire Bloodmaul Compound
-		q(36528),	-- Garrison Max-level Choice Tracker: Shadowmoon Darktide Roost
-		q(36555),	-- Garrison Max-level Choice Tracker: Shadowmoon Darktide Roost
-		q(36533),	-- Garrison Max-level Choice Tracker: Gorgrond Primal Forest
-		q(36552),	-- Garrison Max-level Choice Tracker: Gorgrond Primal Forest
-		q(36531),	-- Garrison Max-level Choice Tracker: Shadowmoon Sanctum of Othaar
-		q(36556),	-- Garrison Max-level Choice Tracker: Shadowmoon Sanctum of Othaar
-		q(36539),	-- Garrison Max-level Choice Tracker: Spires Mushroom Swamp
-		q(36557),	-- Garrison Max-level Choice Tracker: Spires Mushroom Swamp
-		q(36540),	-- Garrison Max-level Choice Tracker: Nagrand Broken Precipice
-		q(36553),	-- Garrison Max-level Choice Tracker: Nagrand Broken Precipice
-		q(36541),	-- Garrison Max-level Choice Tracker: Nagrand Mok'gol Watchpost
-		q(36554),	-- Garrison Max-level Choice Tracker: Nagrand Mok'gol Watchpost
 		q(37646),	-- See New Brightstone, See Wolfed Out Thorn (Garrison Attack?)
 
 		--	Short-Supply Reward - UNKNOWN TRIGGERS
@@ -368,16 +346,6 @@ root(ROOTS.HiddenQuestTriggers, {
 				40930,	-- Apocalypse [Unholy Artifact] TODO: confirm
 			},
 		}),
-
-		-- Balance of Power questline -- TODO -Darkal
-		q(43511),	-- Kalec Arrives - triggered when turning in "The Power Within" at Azurewing Repose (starting Balance of Power)
-		q(43775),	-- Kalec Arrives - triggered when completing Seeking the Valkyra (40603) in the Balance of Power questline
-		q(40627),	-- Triggers after looting heart for Halls of Valor: Odyn's Blessing (40615) in the Balance of Power questline
-		q(43529),	-- Triggered when turning in Preparing to Move (43898) in the Balance of Power questline
-
-		--	Treasures -- TODO -Darkal
-		q(40601),	-- 7.0 Highmountain - Vignette - Pinerock Basin - Highmountain Beastmaster See Treasure (JLW) - looting treasure after Arru
-		q(40389),	-- creating Rocfeather Skyhorn Kite
 	})),
 
 	-------------------
@@ -447,7 +415,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(50657),	-- not sure if this is part of the Vulpera allied race questline?  i turned in #53907, picked up #53908, learned the "Nomi's Vintage" toy, refreshed (nothing), went and took the portal from the vineyard to shal'aran, and this popped.  it popped immediately when i clicked the portal
 		-- q(54705),	-- Using 7th Legion Scouting Map
 		q(52969),	-- Going through the Stormwind Portal to Stormshield while on the WoD timeline in Chromie time
-		--q(55464),	-- Triggered with Tandred Proudmoore conversation?
 
 		--	PVP / WAR MODE
 		q(53636),	-- Looting a bounty in Stormsong as Horde (all 3 trigger at the same time)
@@ -598,25 +565,11 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(54877),	-- Opening a Darkshore chest
 		q(54879),	-- Opening a Darkshore chest
 		q(54881),	-- Opening a Darkshore chest
-		q(49695, {	-- immediately after channeling on the drum finishes during "A Tribute For Death"
-			["isWorldQuest"] = true, -- haunted HQT that shows in /attwq
-		}),
 		q(47530),	-- ???? [The Necropolis] (completed after soulbound, but not known)
 		q(50314),	-- triggered when turning in "Target of Opportunity"
 		q(51825),	-- ??? Triggers after turning in "Proudmoore's Parley" in Boralus
 		q(51826),	-- ??? Triggers after turning in "Proudmoore's Parley" in Boralus
 		q(54991),	-- Khaz'gorian Smithing Hammer - Anvil created
-		q(51094),	-- for clicking on object 287238 Ancient Altar in Vol'dun as part of the Treasures of Vol'dun achievement for Grayal's Last Offering
-		q(53420),	-- for clicking on Lost Spawn of Krag'wa at { 52.83, 42.85, NAZMIR },
-		q(53425),	-- for clicking on Lost Spawn of Krag'wa at { 21.86, 69.34, NAZMIR },
-		q(53424),	-- for clicking on Lost Spawn of Krag'wa at { 24.17, 91.72, NAZMIR },
-		q(53422),	-- for clicking on Lost Spawn of Krag'wa at { 44.62, 92.78, NAZMIR },
-		q(53419),	-- for clicking on Lost Spawn of Krag'wa at { 56.02, 65.06, NAZMIR },
-		q(53418),	-- for clicking on Lost Spawn of Krag'wa at { 65.57, 50.93, NAZMIR },
-		q(53417),	-- for clicking on Lost Spawn of Krag'wa at { 69.57, 58.66, NAZMIR },
-		q(53421),	-- for clicking on Lost Spawn of Krag'wa at { 33.46, 61.54, NAZMIR },
-		q(53426),	-- for clicking on Lost Spawn of Krag'wa at { 25.68, 40.57, NAZMIR },
-		q(53423),	-- for clicking on Lost Spawn of Krag'wa at { 28.89, 83.16, NAZMIR },
 
 		--	Zones
 		--	Drustvar
@@ -624,67 +577,18 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(51852),	-- Triggered after completing "Storming the Manor". Didn't appear to trigger anything specific, so not sure what they're used for
 		-- q(54318),	-- Triggered immediately after completing "A Drust Cause" invasion in Drustvar as Alliance (first completion on character? WM off specific? it doesn't trigger later in WM)
 
-		--	Nazmir
-		-- Quests
-		q(49179),	-- triggered after speaking to Witch Doctor Kejabu after killing Hir'eek, on quest "Upward and "Onward"
-		-- Various
-		q(49367, {	-- Nazmir dialogue around the Necropolis: "What is happening?  I was sick in my bed... and now... where am I?"
-			["isWorldQuest"] = true,	-- without this field, this quest inexplicably shows up in /attwq for some characters
-		}),
-		q(49368, {	-- Nazmir dialogue around the Necropolis: "De voice... he is calling to us... we must obey!"
-			["isWorldQuest"] = true,	-- for some reason, this shows up in /attwq for characters who haven't done it.  haunted!
-		}),
-		q(49369, {	-- Nazmir dialogue around the Necropolis: "Do you hear it?  It's Bwonsamdi's call!  Eternity is near!"
-			["isWorldQuest"] = true, -- unsure if this erroneously shows up in /attwq like the others; if so, it needs to be marked as a WQ
-		}),
-
 		--	Stormsong Valley
 		-- Various
-		q(51695),	-- Horde WarCampaign - "Reclaiming What's Ours" (ID 51696) using the horn to reclaim the Foothold
 		q(55626),	-- first kill of yellow Sabertron
-
-		--	Tiragarde Sound
-		-- Various
-		q(55627),	-- triggered additionally when completing the WQ to kill P4-N73R4.  this is not the first-time kill tracking quest for the rare, so i'm not sure what it's for
-
-		--	Vol'dun
-		-- Various
-		q(49684),	-- triggered when picking the staff on "Armed and Ready"
-		q(49685),	-- triggered when picking the scythe/glaive thing on "Armed and Ready"
-		q(49414),	-- Vol'dun - beat Akunda the Exalted to trigger the cinematic and phase the area
-		q(51685),	-- Vol'dun - triggers when turning in "Akunda's Blessing". Probably controls the activation of the Akunda buff idol in Dazar'alor
-		q(51684),	-- Vol'dun - triggers when turning in "Mark of the Loa". Probably controls the activation of the Kimbal buff idol in Dazar'alor
-		q(49416),	-- Vol'dun - triggers during "The Keeper's Keys" after the cinematic
-		q(47887),	-- Vol'dun - triggered when entering the Ashvane Encampment. Possibly controls the spawn of Randall Redmond?
-		q(50522),	-- Vol'dun - triggered after getting a food buff from the goldtusk inn's "All-You-Can-Eat Breakfast Buffet". Could also be related to feeding Tarkaj during "A Goldtusk Greeting"
-		q(54299),	-- triggered when completing #54272, "Battle Bots" WQ
 
 		--	Zuldazar
 		-- Chests
 		q(51363),	-- Weekly m+ chest looted (Horde, probably alliance too?)
 		-- Various
 		q(55413),	-- War Mode supply drop in Zuldazar
-		q(55259),	-- Triggers after turning 'Sleep, Eat, Repeat' (ID 55258) in to finish the achievement criteria 'Sleep, Eat, Repeat' (3) for How to Train Your Direhorn (ID 13542)
-		q(52141),	-- after completing "SKREEEEE!" for How to Ptrain Your Pterrordax
-		q(47436),	-- Picked Pa'ku for "Picking a Side"
-		q(47443),	-- switched loa alignment in Zuldazar to Gonk by speaking to Chronicler Ash'tari
-		q(53567),	-- Sky Queen, rare with no associated loot
-		q(50844),	-- triggered when turning in #50900, "Maybe When You're Older," part of Kua'fon questline
-		q(50828),	-- triggered when turning in #50412, Back to the Nest, part of Kua'fon questline.
-		q(51992),	-- triggered when turning in "Of Dark Deeds and Dark Days"
-		q(51993),	-- triggered when turning in "Of Dark Deeds and Dark Days"
-		q(55257),	-- triggered after turning in "Held for Observation" in the "How to Train Your Direhorn" questline
-		q(55536),	-- triggered after turning in "Torcali's Blessing" in the "How to Train Your Direhorn" questline
-
 		--	Nazjatar
 		--	PVP
 		q(57111),	-- Nazjatar Horde supply chest (both triggered simultaneously)
-		--	Naga Commanders
-		q(56882),	-- Commander Minezra
-		q(56895),	-- Incantatrix Vazina
-		q(56894),	-- Shadowbinder Athissa
-		q(56890),	-- Theurgist Nitara
-		q(56893),	-- Warlord Zalzjar
 
 		-- Various
 		q(55404),	-- Triggered when interacting with the "Deepflame Campfire" in Mezzamere as alliance, but without picking a follower
@@ -731,9 +635,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(58815),	-- Triggers when completing the blacktalon agent daily for a zone vision
 		q(58085),	-- Triggered upon entering the vision to the Shrine of Seven Stars -- TODO:: verify this. didn't pop up since latest PTR build
 		q(59132),	-- probably "Unwavering Resolve" achievement (upgrade cloak to rank 15)
-		q(59030),	-- Vulpera learning Flames of Fury (175158) for Bag of Tricks
-		q(59033),	-- Vulpera learning Sinister Shadows (175159) for Bag of Tricks
-		q(59036),	-- Vulpera learning Holy Relic (175160) for Bag of Tricks
 
 		-- Horrific Visions
 		q(58579),	-- looted the Overflowing Azerite Geode (Rank 1)

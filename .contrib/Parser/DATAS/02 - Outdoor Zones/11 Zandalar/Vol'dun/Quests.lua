@@ -1952,6 +1952,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(51649),	-- Vol'dun - select "the Serene" as your Akunda title during "Trial of Truth"
 				q(51650),	-- Vol'dun - select "the Courageous" as your Akunda title during "Trial of Truth"
 				q(54525),	-- looting Loose Parts from the bridge elites during the Vol'dun incursion, as Horde (the associated WQ wasn't up, not sure if that makes a difference)
+				q(49414),	-- Vol'dun - beat Akunda the Exalted to trigger the cinematic and phase the area
+				q(51685),	-- Vol'dun - triggers when turning in "Akunda's Blessing". Probably controls the activation of the Akunda buff idol in Dazar'alor
+				q(51684),	-- Vol'dun - triggers when turning in "Mark of the Loa". Probably controls the activation of the Kimbal buff idol in Dazar'alor
+				q(49416),	-- Vol'dun - triggers during "The Keeper's Keys" after the cinematic
+				q(47887),	-- Vol'dun - triggered when entering the Ashvane Encampment. Possibly controls the spawn of Randall Redmond?
+				q(50522),	-- Vol'dun - triggered after getting a food buff from the goldtusk inn's "All-You-Can-Eat Breakfast Buffet". Could also be related to feeding Tarkaj during "A Goldtusk Greeting"
+				q(49684),	-- triggered when picking the staff on "Armed and Ready"
+				q(49685),	-- triggered when picking the scythe/glaive thing on "Armed and Ready"
 			}),
 		}),
 	}),

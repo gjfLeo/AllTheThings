@@ -217,3 +217,14 @@ root(ROOTS.Zones, {
 		}),
 	}),
 });
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 } }, {
+	m(BROKEN_ISLES, {
+		m(HIGHMOUNTAIN, {
+			n(TREASURES, {
+				q(40601),	-- 7.0 Highmountain - Vignette - Pinerock Basin - Highmountain Beastmaster See Treasure (JLW) - looting treasure after Arru
+				q(40389),	-- creating Rocfeather Skyhorn Kite
+			}),
+		}),
+	}),
+})));

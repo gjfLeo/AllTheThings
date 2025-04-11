@@ -79,18 +79,48 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			explorationAch(12561),	-- Explore Nazmir
 			ach(13028, {	-- Hoppin' Sad
-				-- TODO:: maybe add individual records here, one for each coord and respective ID
-				["coords"] = {
-					{ 44.6, 92.7, NAZMIR },	-- q(53422),
-					{ 28.8, 83.1, NAZMIR },	-- q(53423),
-					{ 24.1, 91.7, NAZMIR },	-- q(53424),
-					{ 21.8, 69.3, NAZMIR },	-- q(53425),
-					{ 25.6, 40.5, NAZMIR },	-- q(53426),
-					{ 52.8, 42.8, NAZMIR },	-- q(53420),
-					{ 56.0, 65.0, NAZMIR },	-- q(53419),
-					{ 69.5, 58.6, NAZMIR },	-- q(53417),
-					{ 65.5, 50.9, NAZMIR },	-- q(53418),
-					{ 33.4, 61.5, NAZMIR },	-- q(53421),
+				["cr"] = 143317,	-- Lost Spawn of Krag'wa
+				["g"] = {
+					hqt(53417, {
+						["name"] = "Lost Spawn of Krag'wa (The Shattered River)",
+						["coord"] = { 69.5, 58.6, NAZMIR },
+					}),
+					hqt(53418, {
+						["name"] = "Lost Spawn of Krag'wa (Razorjaw River)",
+						["coord"] = { 65.5, 50.9, NAZMIR },
+					}),
+					hqt(53419, {
+						["name"] = "Lost Spawn of Krag'wa (Zul'Nazman)",
+						["coord"] = { 56.0, 65.0, NAZMIR },
+					}),
+					hqt(53421, {
+						["name"] = "Lost Spawn of Krag'wa (Grimwatt's Crash)",
+						["coord"] = { 33.4, 61.5, NAZMIR },
+					}),
+					hqt(53420, {
+						["name"] = "Lost Spawn of Krag'wa (Ruins)",
+						["coord"] = { 52.8, 42.8, NAZMIR },
+					}),
+					hqt(53422, {
+						["name"] = "Lost Spawn of Krag'wa (Drenched Cavern)",
+						["coord"] = { 44.6, 92.7, NAZMIR },
+					}),
+					hqt(53423, {
+						["name"] = "Lost Spawn of Krag'wa (Primal Wetlands)",
+						["coord"] = { 28.8, 83.1, NAZMIR },
+					}),
+					hqt(53424, {
+						["name"] = "Lost Spawn of Krag'wa (Antul'Mita Plateau)",
+						["coord"] = { 24.1, 91.7, NAZMIR },
+					}),
+					hqt(53425, {
+						["name"] = "Lost Spawn of Krag'wa (Plains of Tojek)",
+						["coord"] = { 21.8, 69.3, NAZMIR },
+					}),
+					hqt(53426, {
+						["name"] = "Lost Spawn of Krag'wa (Sethrak Front)",
+						["coord"] = { 25.6, 40.5, NAZMIR },
+					}),
 				},
 			}),
 			ach(12948, {	-- Talanji's Expedition
