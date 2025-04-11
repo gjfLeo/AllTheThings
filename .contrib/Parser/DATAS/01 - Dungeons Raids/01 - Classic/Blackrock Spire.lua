@@ -1523,7 +1523,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 			}),
 			i(12533, {	-- Roughshod Pike
 				["provider"] = { "o", 175886 },	-- Roughshod Pike
-				["description"] = "This item can be found along the back wall as you cross the 2nd bridge to the sleeping orc encampment just after Vorash.",
+				["description"] = "This item can be found along the back wall as you cross the 2nd bridge to the sleeping orc encampment just after Warosh.",
 			}),
 			n(9218, {	-- Spirestone Battle Lord (Rare)
 				["coord"] = { 39.0, 64.0, LBRS_HORDEMAR_CITY },	-- Mok'Doom
