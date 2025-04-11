@@ -67,6 +67,13 @@ local SkipPurchases = {
 		[1166] = 1,		-- Timewarped Badge
 		[2778] = 2.5,		-- Bronze
 	},
+	LearnedTypes = {
+		Toy = 1,
+		Recipe = 1,
+		RecipeWithItem = 1,
+		Mount = 1,
+		BattlePet = 1,
+	}
 }
 local function ShouldFillPurchases(group, FillData)
 	local val
@@ -100,8 +107,8 @@ local function DeterminePurchaseGroups(group, FillData)
 	-- do not fill purchases on certain items, can skip the skip though based on a level
 	if not ShouldFillPurchases(group, FillData) then return end
 
-	-- Collected Toys which are NOT the Root of the Fill should not be filled
-	if group.__type == "Toy" and group ~= FillData.Root and group.collected then
+	-- Certain Collected Types which are NOT the Root of the Fill should not be filled
+	if SkipPurchases.LearnedTypes[group.__type] and group ~= FillData.Root and group.collected then
 		-- app.PrintDebug("Don't Fill purchases for non-Root collected Toy",app:SearchLink(group))
 		return
 	end
