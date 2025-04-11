@@ -3920,12 +3920,12 @@ local function MatchOrCloneParentInHierarchy(group)
 		if parent == MainRoot then
 			groupCopy = CloneGroupIntoHeirarchy(group);
 			groupCopy.__priorSearchRoot = true
-			tinsert(ClonedHierarchyGroups, groupCopy);
+			ClonedHierarchyGroups[#ClonedHierarchyGroups + 1] = groupCopy
 			-- app.PrintDebug("Added top cloned parent",groupCopy.text)
 			return groupCopy;
 		elseif group.__priorSearchRoot then
 			groupCopy = CloneGroupIntoHeirarchy(group);
-			tinsert(ClonedHierarchyGroups, groupCopy);
+			ClonedHierarchyGroups[#ClonedHierarchyGroups + 1] = groupCopy
 			-- app.PrintDebug("Added top cloned parent from __priorSearchRoot",groupCopy.text)
 			return groupCopy;
 		else
@@ -3971,7 +3971,7 @@ local function AddSearchGroupsByField(groups, field)
 	if groups then
 		for _,group in ipairs(groups) do
 			if group[field] ~= nil then
-				tinsert(SearchGroups, group);
+				SearchGroups[#SearchGroups + 1] = group
 			else
 				AddSearchGroupsByField(group.g, field);
 			end
@@ -3983,7 +3983,7 @@ local function AddSearchGroupsByFieldValue(groups, field, value)
 	if groups then
 		for _,group in ipairs(groups) do
 			if Eval_SearchValueCriteria(group, field, value) then
-				tinsert(SearchGroups, group);
+				SearchGroups[#SearchGroups + 1] = group
 			else
 				AddSearchGroupsByFieldValue(group.g, field, value);
 			end
@@ -4952,7 +4952,7 @@ customWindowUpdates.ItemFilter = function(self, force)
 				local results = app:BuildSearchResponse(field, value, {g=true});
 				-- app.PrintDebug("Results",#results)
 				ArrayAppend(self.data.g, results);
-				self.data.text = L.ITEM_FILTER_TEXT..("  [%s=%s]"):format(field,tostring(value));
+				self.data.text = L.ITEM_FILTER_TEXT..("  [%s=%s]"):format(field,tostring(value == app.SearchNil and "nil" or value));
 			end
 
 			-- Item Filter
