@@ -1661,7 +1661,7 @@ end
 -- ref. Classes/Quest.lua
 name = function(type, id, t)
 	if not type or not id then return t end
-	t = t or {}
+	t = togroups(t or {})
 	if t.autoname then
 		error("Cannot use name() when the contained data includes 'autoname' field! "..type..":"..id)
 	end
