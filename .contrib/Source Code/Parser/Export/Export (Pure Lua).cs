@@ -99,6 +99,9 @@ namespace ATT
                 builder.Append(',');
             }
 
+            // Remove the trailing comma
+            builder.Remove(builder.Length - 1, 1);
+
             // Close Bracket for the end of the Dictionary.
 
             if (IncludePureNewlines)
