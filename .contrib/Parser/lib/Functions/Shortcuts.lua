@@ -231,10 +231,10 @@ end
 -- Applies a copy of the provided data into the tables of the provided array/group
 sharedData = function(data, t)
 	if not data then
-		print("sharedData: No Shared Data")
+		print("ERROR: sharedData: No Shared Data")
 	end
 	if not t or (#t == 0 and not t.g and not t.groups) then
-		print("sharedData: No Source 't'")
+		print("ERROR: sharedData: No Source 't'")
 	end
 	if t then
 		for _,group in ipairs(t) do
@@ -251,10 +251,10 @@ end
 -- Performs sharedData logic but also applies the data to the top-level table
 sharedDataSelf = function(data, t)
 	if not data then
-		print("sharedDataSelf: No Shared Data")
+		print("ERROR: sharedDataSelf: No Shared Data")
 	end
 	if not t then
-		print("sharedDataSelf: No Source 't'")
+		print("ERROR: sharedDataSelf: No Source 't'")
 	end
 	-- if this is an array, convert to .groups container first to prevent merge confusion
 	t = togroups(t);
@@ -269,10 +269,10 @@ end
 -- Applies a copy of the provided data into all sub-groups of the provided table/array
 bubbleDown = function(data, t)
 	if not data then
-		print("bubbleDown: No Bubble Data")
+		print("ERROR: bubbleDown: No Bubble Data")
 	end
 	if not t then
-		print("bubbleDown: No Source 't'")
+		print("ERROR: bubbleDown: No Source 't'")
 	end
 	for key,val in pairs(data) do
 		if BubbleDownKeyWarnings[key] then
@@ -338,10 +338,10 @@ end
 -- Performs bubbleDown logic but also applies the data to the top-level table
 bubbleDownSelf = function(data, t)
 	if not data then
-		print("bubbleDownSelf: No Bubble Data")
+		print("ERROR: bubbleDownSelf: No Bubble Data")
 	end
 	if not t then
-		print("bubbleDownSelf: No Source 't'")
+		print("ERROR: bubbleDownSelf: No Source 't'")
 	end
 	-- if this is an array, convert to .g container first to prevent merge confusion
 	t = togroups(t);
@@ -351,10 +351,10 @@ end
 -- Applies the timeline event (epoch) to all sub-groups of the provided table/array
 bubbleDownTimelineEvent = function(epoch, t)
 	if not epoch then
-		print("bubbleDownTimelineEvent: No Epoch")
+		print("ERROR: bubbleDownTimelineEvent: No Epoch")
 	end
 	if not t then
-		print("bubbleDownTimelineEvent: No Source 't'")
+		print("ERROR: bubbleDownTimelineEvent: No Source 't'")
 	end
 	if t then
 		if t.g or t.groups then

@@ -15,6 +15,11 @@ namespace ATT
         public static bool IncludePureNewlines { get; set; } = true;
 
         /// <summary>
+        /// Allows to define whether individual Lua output will be compressed
+        /// </summary>
+        public static bool CompressedLua { get; set; } = false;
+
+        /// <summary>
         /// Export the data to the builder in a raw, longhand Lua format.
         /// Standardized formatting applies here.
         /// </summary>
@@ -69,7 +74,7 @@ namespace ATT
             }
 
             // Increase the indent by 1 tab.
-            var subindent = IncludePureNewlines ? indent + '\t' : string.Empty;
+            var subindent = !CompressedLua ? indent + '\t' : string.Empty;
 
             // Open Bracket for beginning of the Dictionary.
             builder.Append('{');
@@ -112,7 +117,14 @@ namespace ATT
             // Append the Sub-Indent and the Field Name
             builder.Append(subindent).Append("[");
             ExportPureLua(builder, key, subindent);
-            builder.Append("] = ");
+            if (CompressedLua)
+            {
+                builder.Append("]=");
+            }
+            else
+            {
+                builder.Append("] = ");
+            }
 
             // Append the undetermined object's format to the builder.
             ExportPureLua(builder, value, subindent);
@@ -135,7 +147,7 @@ namespace ATT
             }
 
             // Increase the indent by 1 tab.
-            var subindent = IncludePureNewlines ? indent + '\t' : string.Empty;
+            var subindent = !CompressedLua ? indent + '\t' : string.Empty;
 
             // Open Bracket for beginning of the List.
             builder.Append('{');

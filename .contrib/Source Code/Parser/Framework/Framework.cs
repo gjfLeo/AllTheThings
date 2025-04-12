@@ -3742,6 +3742,7 @@ setmetatable(_.HeaderConstants, {
                 foreach (var exportDB in new SortedDictionary<string, object>(Exports))
                 {
                     IncludePureNewlines = !compressedDBs?.ContainsKey(exportDB.Key) ?? true;
+                    CompressedLua = !IncludePureNewlines;
 
                     // some export DBs can filter unreferenced keys from data
                     switch (exportDB.Key)
