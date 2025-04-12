@@ -232,10 +232,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(160379),	-- Stormchaser Buckle
 					i(160382),	-- Dread Corsair Cincture
 					--
-					i(161280, { ["races"] = HORDE_ONLY }),	-- Lastwind Shoes
-					i(161283, { ["races"] = HORDE_ONLY }),	-- Exiled Veteran's Sabatons
-					i(161282, { ["races"] = HORDE_ONLY }),	-- Resilient Outcast's Footguards
-					i(161281, { ["races"] = HORDE_ONLY }),	-- Scorching Sands Treads
+					h(i(161280)),	-- Lastwind Shoes
+					h(i(161283)),	-- Exiled Veteran's Sabatons
+					h(i(161282)),	-- Resilient Outcast's Footguards
+					h(i(161281)),	-- Scorching Sands Treads
 				}),
 			}),
 			q(52070, {	-- Bauer Backup
@@ -919,8 +919,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(160355),	-- Stormchaser Handcovers
 					i(160349),	-- Tidespeaker Mittens
 					--
-					i(161284, { ["races"] = HORDE_ONLY }),	-- Faithless Dinorider's Focus
-					i(161286, { ["races"] = HORDE_ONLY }),	-- Faithless Dinorider's Shield
+					h(i(161284)),	-- Faithless Dinorider's Focus
+					h(i(161286)),	-- Faithless Dinorider's Shield
 				}),
 			}),
 			q(50385, {	-- Indefatigable Purpose
@@ -1120,6 +1120,8 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(160363),	-- Darkwater Pants
 					i(160366),	-- Stormchaser Leggings
 					i(160369),	-- Dread Corsair Legguards
+					---
+					h(i(161285)),	-- Faithless Wingrider's Focus
 				},
 			}),
 			q(50698, {	-- Problem Solving with Gunpowder

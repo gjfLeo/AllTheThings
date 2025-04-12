@@ -1026,7 +1026,6 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				crit(61378, {	-- Metamorphic Draconium
 					["provider"] = { "o", 390138 },	-- Metamorphic Draconium
 					["_quests"] = { 75140 },	-- Metamorphic Draconium
-					["maps"] = { ZARALEK_CAVERN },
 					-- TODO: move to an ObjectDB eventually
 					-- worth coords since it cannot actually be found throughout the entire zone it seems
 					["coords"] = {
