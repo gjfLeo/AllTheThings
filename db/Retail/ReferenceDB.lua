@@ -31,6 +31,8 @@ _.FlightPathDB=
 		2374
 	},
 }
+_.ForceFillDB=
+{["Item"] = {[40610] = 1,[40611] = 1,[40612] = 1,[40619] = 1,[40620] = 1,[40621] = 1,[40622] = 1,[40623] = 1,[40624] = 1,[40625] = 1,[40626] = 1,[40627] = 1,[40634] = 1,[40635] = 1,[40636] = 1,[40637] = 1,[40638] = 1,[40639] = 1,},}
 _.OnTooltipDB=
 {
 	["ForAlteracValley"] = function(t,tooltipInfo)local reputation=t.reputation;if reputation>=0 and reputation<42000 then	local addRepInfo=_.Modules.FactionData.AddReputationTooltipInfo;addRepInfo(tooltipInfo,reputation,"Kill the General",389,42000);addRepInfo(tooltipInfo,reputation,"Kill a Captain",125,42000);addRepInfo(tooltipInfo,reputation,"Kill a Commander",12,42000);addRepInfo(tooltipInfo,reputation,"Kill an Air Master",5,42000);if reputation<21000 then	addRepInfo(tooltipInfo,reputation,"Kill a Guard (To Revered)",5,21000);end	end	end,

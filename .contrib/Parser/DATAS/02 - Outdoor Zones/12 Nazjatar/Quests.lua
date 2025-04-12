@@ -601,9 +601,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["isDaily"] = true,
-			["coord"] = { 66.8, 29.0, NAZJATAR },
+			["coord"] = { 67.1, 26.1, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
-			["provider"] = { "n", 154075 },	-- Tracker Kenji
+			["provider"] = { "n", 155844 },	-- Apprentice Anako
 		}),
 		q(55986, {	-- Break a Few Eggs (H)
 			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",
@@ -928,6 +928,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 		}),
 		q(57009, {	-- Fame Waits for Gnome One
 			["provider"] = { "n", 156179 },	-- Gila Crosswires
+			["coord"] = { 39.5, 53.5, NAZJATAR },
 			["races"] = ALLIANCE_ONLY,
 			["sourceQuest"] = 56156,	-- A Tempered Blade
 			["isBreadcrumb"] = true,
@@ -1120,7 +1121,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Offered when |cFFFFD700Hunter Akana|r reaches rank 9.",
 			["races"] = ALLIANCE_ONLY,
-			["provider"] = { "n", 151626 },	-- Hunter Akana
+			["provider"] = { "n", 150202 },	-- Hunter Akana
 			["g"] = {
 				i(169911, {	-- Liberated Naga Cache
 					currency(1721),	-- Prismatic Manapearl x10
@@ -1652,7 +1653,9 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["races"] = ALLIANCE_ONLY,
 			["provider"] = { "n", 152532 },	-- Shirelle McFadden
 			["g"] = {
-				i(168186),	-- Highborne Relic (QI!)
+				o(325883, {	-- Highborne Relic
+					i(168186),	-- Highborne Relic (QI!)
+				}),
 			},
 		}),
 		q(55723, {	-- Requisition: A Few Carp
