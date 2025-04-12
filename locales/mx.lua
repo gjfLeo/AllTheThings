@@ -1,4 +1,4 @@
--- Localization for Spanish (Spain) and Spanish (Mexico) Clients.
+-- Localization for Spanish (Mexico) Clients.
 if GetLocale() ~= "esMX" then return; end
 local app = select(2, ...);
 local L = app.L;
