@@ -2475,10 +2475,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				i(2566, {	-- Sacrificial Robes
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 					["crs"] = {
-						-- #if BEFORE 4.0.3
-						397,	-- Morganth / Grand Magus Doane [CATA+]
-						-- #elseif AFTER 10.1.7
+						-- #if AFTER 10.1.7
 						429,	-- Shadowhide Darkweaver
+						-- #else
+						397,	-- Morganth / Grand Magus Doane [CATA+]
 						-- #endif
 					},
 					["coords"] = {
