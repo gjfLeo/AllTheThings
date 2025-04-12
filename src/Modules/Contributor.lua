@@ -115,12 +115,15 @@ local function Check_coords(objRef, id, maxCoordDistance)
 	-- fake player coords (instances, etc.) cannot be checked
 	if fake then return true end
 
-	if not objRef or not objRef.coords then return end
+	if not objRef then return end
+	local coords = app.GetRelativeValue(objRef, "coords")
+	if not coords then return end
 
+	local relCoords = not objRef.coords
 	local dist, sameMap, check
 	local closest = 9999
 	maxCoordDistance = MapPrecisionOverrides[mapID] or maxCoordDistance or 1
-	for _, coord in ipairs(objRef.coords) do
+	for _,coord in ipairs(coords) do
 		if mapID == coord[3] then
 			sameMap = mapID
 			dist = app.distance(px, py, coord[1], coord[2])
@@ -135,7 +138,7 @@ local function Check_coords(objRef, id, maxCoordDistance)
 			closest = round(closest, 1)
 			AddReportData(objRef.__type,id,{
 				[objRef.key or "ID"] = id,
-				VerifyOrAddCoords = "Closest existing Coordinates are off by: "..tostring(closest).." on mapID: "..mapID,
+				VerifyOrAddCoords = ("Closest %s Coordinates are off by: %d on mapID: %d"):format(relCoords and "relative" or "existing", closest, mapID),
 			})
 			check = 1
 		end

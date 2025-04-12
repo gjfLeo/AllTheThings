@@ -8682,6 +8682,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 		-- 11.1.0
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_0 } }, {
 			q(83447),
+			q(86651),	-- [DNT] Test (causes Bolt of Silk Cloth to be Sourced when not under NYI)
 		})),
 	}),
 }));
