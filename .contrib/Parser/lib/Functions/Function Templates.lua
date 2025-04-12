@@ -167,6 +167,7 @@ ExportDB.OnTooltipDB = {
 			end
 		end
 	end]],
+	-- TODO: use of this OnTooltip function should be converted into 'sourceAchievements' for proper integration with other logic
 	WithRequiredAchievement = [[~function(t, tooltipInfo)
 		if t.ach then tinsert(tooltipInfo, { left = _.L.REQUIRES, right = t.ach.text }); end
 	end]],
