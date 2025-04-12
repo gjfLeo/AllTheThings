@@ -241,6 +241,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 							{ 27.3, 42.2, ZARALEK_CAVERN },
 							{ 28.9, 44.2, ZARALEK_CAVERN },
 							{ 28.2, 46.3, ZARALEK_CAVERN },
+							{ 28.2, 51.5, ZARALEK_CAVERN },
 						},
 					}),
 				})),
