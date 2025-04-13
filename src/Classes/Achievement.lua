@@ -343,7 +343,7 @@ do
 				end
 				if prereqs and #prereqs > 0 then
 					tooltipInfo[#tooltipInfo + 1] = {
-						left = QUEST_TOOLTIP_REQUIREMENTS
+						left = L.REQUIRED_ACHIEVEMENTS
 					}
 					AddAchievementInfoToTooltip(tooltipInfo, prereqs, reference);
 				end
@@ -351,6 +351,27 @@ do
 		})
 	end)
 end
+
+local function BuildSourceAchievements(group)
+	if not group.sourceAchievements then return end
+
+	local sas = {}
+	local sourceGroup = app.CreateRawText(L.REQUIRED_ACHIEVEMENTS, {
+		description = L.REQUIRED_ACHIEVEMENTS_DESC,
+		icon = 135950,
+		OnUpdate = app.AlwaysShowUpdate,
+		OnClick = app.UI.OnClick.IgnoreRightClick,
+		sourceIgnored = true,
+		skipFill = true,
+		SortPriority = -2.9,
+		g = sas,
+	})
+	for i,achID in ipairs(group.sourceAchievements) do
+		app.NestObject(sourceGroup, SearchForObject("achievementID", achID, "key") or app.CreateAchievement(achID), true)
+	end
+	app.NestObject(group, sourceGroup, nil, 1)
+end
+app.AddEventHandler("OnNewPopoutGroup", BuildSourceAchievements)
 
 -- Achievement Category Lib
 do
