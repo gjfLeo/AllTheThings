@@ -6809,7 +6809,7 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 			end
 		end
 		app.HarvestRecipes = function()
-			local reagentsDB = LocalizeGlobal("AllTheThingsHarvestItems", {})
+			local reagentsDB = LocalizeGlobal("AllTheThingsHarvestItems", true)
 			reagentsDB.ReagentsDB = app.ReagentsDB
 			local Runner = self:GetRunner()
 			Runner.SetPerFrame(100);
@@ -6845,7 +6845,7 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 			if not updates.Recipes then
 				-- app.PrintDebug("UpdateLearnedRecipes",self.lastTradeSkillID)
 				if app.Debugging then
-					local reagentsDB = LocalizeGlobal("AllTheThingsHarvestItems", {})
+					local reagentsDB = LocalizeGlobal("AllTheThingsHarvestItems", true)
 					reagentsDB.ReagentsDB = app.ReagentsDB
 				end
 				updates.Recipes = true;
@@ -8142,8 +8142,8 @@ local function InitDataCoroutine()
 	-- Wait for the app to finish OnStartup event, somehow this can trigger out of order on some clients
 	while app.Wait_OnStartupDone do yield(); end
 
-	local accountWideData = LocalizeGlobalIfAllowed("ATTAccountWideData");
-	local characterData = LocalizeGlobalIfAllowed("ATTCharacterData");
+	local accountWideData = LocalizeGlobalIfAllowed("ATTAccountWideData", true);
+	local characterData = LocalizeGlobalIfAllowed("ATTCharacterData", true);
 	local currentCharacter = characterData[app.GUID];
 
 	-- Clean up other matching Characters with identical Name-Realm but differing GUID

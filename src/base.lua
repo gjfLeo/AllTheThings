@@ -323,12 +323,18 @@ app.IgnoreDataCaching = function()
 		return true;
 	end
 end
--- Returns the Global reference by name, setting it to the 'init' value if not already existing
+-- Returns the Global reference by name, or if not existing,
+-- setting it to {} if 'init' is true, or the 'init' value itself
 app.LocalizeGlobal = function(globalName, init)
-	local val = _G[globalName];
-	if init and not val then
-		val = {};
-		_G[globalName] = val;
+	local val = _G[globalName]
+	if not val then
+		if init == true then
+			val = {}
+			_G[globalName] = val
+		elseif init then
+			val = init
+			_G[globalName] = val
+		end
 	end
 	-- app.PrintDebug("LocalizeGlobal",globalName,val)
 	return val;
