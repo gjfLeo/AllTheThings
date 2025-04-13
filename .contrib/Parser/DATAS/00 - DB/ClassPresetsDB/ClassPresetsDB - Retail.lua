@@ -4,20 +4,47 @@ if true then return end
 -------------------------------------
 --   P R E S E T S   M O D U L E   --
 -------------------------------------
+-- Common Filter types (Class doesn't matter)
+-- TODO: why do we have some filter types assigned if they cant have an impact on ATT filtering?
+local CommonFilterTypes = {
+	-1,	-- Not used
+	1,	-- Held in Off-Hand
+	2,	-- Cosmetic
+	3,	-- Cloak
+	9,	-- Tabard
+	10,	-- Shirt
+	11,	-- Artifacts
+	50,	-- Miscellaneous
+	51,	-- Neck
+	52,	-- Finger
+	53,	-- Trinket
+	54,	-- Artifact Relic
+	55,	-- Consumables
+	56,	-- Not used
+	57,	-- Profession Equipment
+	58,	-- Not used
+	59,	-- Not used
+	60,	-- Not used
+	100,-- Mounts
+	101,-- Battle Pets
+	102,-- Toy
+	103,-- Not used
+	104,-- Quest Items
+	105,-- Not used
+	106,-- Weekly Holidays
+	113,-- Bags
+	114,-- Not used
+	200,-- Recipes
+	999,-- Not used
+}
 ExportDB._Compressed.Presets = true
 ExportDB.Presets = {
 	["DEATHKNIGHT"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		false, -- [5]
 		false, -- [6]
 		true, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -43,43 +70,13 @@ ExportDB.Presets = {
 		false, -- [34]
 		false, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["DEMONHUNTER"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		true, -- [5]
 		false, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -105,43 +102,13 @@ ExportDB.Presets = {
 		true, -- [34]
 		true, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["DRUID"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		true, -- [5]
 		false, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -167,42 +134,13 @@ ExportDB.Presets = {
 		true, -- [34]
 		false, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["EVOKER"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		false, -- [5]
 		true, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
 		false, -- [11]
 		[20] = true,
 		[21] = true,
@@ -219,43 +157,13 @@ ExportDB.Presets = {
 		[33] = false,
 		[34] = true,
 		[35] = false,
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["HUNTER"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		false, -- [5]
 		true, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -281,43 +189,13 @@ ExportDB.Presets = {
 		true, -- [34]
 		false, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["MAGE"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		true, -- [4]
 		false, -- [5]
 		false, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -343,43 +221,13 @@ ExportDB.Presets = {
 		false, -- [34]
 		false, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["MONK"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		true, -- [5]
 		false, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -405,43 +253,13 @@ ExportDB.Presets = {
 		true, -- [34]
 		false, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["PALADIN"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		false, -- [5]
 		false, -- [6]
 		true, -- [7]
 		true, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -467,43 +285,13 @@ ExportDB.Presets = {
 		false, -- [34]
 		false, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["PRIEST"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		true, -- [4]
 		false, -- [5]
 		false, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		[31] = false,
 		[32] = false,
 		[33] = false,
@@ -520,43 +308,13 @@ ExportDB.Presets = {
 		[28] = true,
 		[29] = false,
 		[35] = false,
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["ROGUE"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		true, -- [5]
 		false, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -581,43 +339,13 @@ ExportDB.Presets = {
 		true, -- [33]
 		true, -- [34]
 		false, -- [35]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["SHAMAN"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		false, -- [5]
 		true, -- [6]
 		false, -- [7]
 		true, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		[31] = false,
 		[32] = false,
 		[33] = false,
@@ -633,43 +361,13 @@ ExportDB.Presets = {
 		[28] = true,
 		[29] = false,
 		[35] = false,
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["WARLOCK"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		true, -- [4]
 		false, -- [5]
 		false, -- [6]
 		false, -- [7]
 		false, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		[30] = false,
 		[31] = false,
 		[32] = false,
@@ -687,43 +385,13 @@ ExportDB.Presets = {
 		[28] = true,
 		[36] = true,
 		[29] = false,
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 	["WARRIOR"] = {
-		true, -- [1]
-		true, -- [2]
-		true, -- [3]
 		false, -- [4]
 		false, -- [5]
 		false, -- [6]
 		true, -- [7]
 		true, -- [8]
-		true, -- [9]
-		true, -- [10]
-		true, -- [11]
 		nil, -- [12]
 		nil, -- [13]
 		nil, -- [14]
@@ -749,29 +417,11 @@ ExportDB.Presets = {
 		true, -- [34]
 		false, -- [35]
 		true, -- [36]
-		[50] = true,
-		[57] = true,
-		[100] = true,
-		[101] = true,
-		[102] = true,
-		[103] = true,
-		[104] = true,
-		[105] = true,
-		[106] = true,
-		[200] = true,
-		-- Hidden Filter types (should always be allowed since User cannot show/hide)
-		[-1] = true,
-		[51] = true,
-		[52] = true,
-		[53] = true,
-		[54] = true,
-		[55] = true,
-		[56] = true,
-		[58] = true,
-		[59] = true,
-		[60] = true,
-		[113] = true,
-		[114] = true,
-		[999] = true,
 	},
 }
+-- Assign the Common Filter Types into each Preset
+for k,v in pairs(ExportDB.Presets) do
+	for _,id in ipairs(CommonFilterTypes) do
+		v[id] = true
+	end
+end
