@@ -519,17 +519,14 @@ do
 		RefreshCollectionOnly = true,
 		collectible = function(t) return app.Settings.Collectibles.Achievements end,
 		collected = function(t)
-			-- character saved criteria
-			if t.saved then return 1 end
-			-- otherwise completion based on achievement
+			-- completion based on achievement is faster check
 			return app.TypicalCharacterCollected("Achievements", t.achievementID)
+			-- otherwise lookup character saved criteria
+				or (t.saved and 1)
 		end,
 		trackable = app.ReturnTrue,
 		saved = function(t)
 			return cache.GetCachedField(t, "saved")
-		end,
-		index = function(t)
-			return 1;
 		end,
 	};
 	-- apply parent Achievement field re-mappings
