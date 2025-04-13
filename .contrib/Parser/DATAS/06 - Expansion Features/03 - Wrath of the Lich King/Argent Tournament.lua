@@ -29,6 +29,8 @@ CRUSADER_DAILY_OnClick = nil
 SILVER_COVENTANT_DAILY_OnClick = nil
 SUNREAVERS_DAILY_OnClick = nil
 -- #ENDIF
+-- Ideally Classic switches over and utilizes 'sourceAchievements' as well for all this extra tooltip processing
+-- #IF ANYCLASSIC
 ExportDB.OnUpdateDB.CRUSADER_DAILY = [[~function(t)
 	if not t.ach then
 		local f = _.SearchForField("achievementID", _.Faction == "Horde" and 2771 or 2817);
@@ -68,11 +70,17 @@ ExportDB.OnUpdateDB.SUNREAVERS_DAILY = [[~function(t)
 		end
 	end
 end]];
+-- #ENDIF
 local VALIANT_DAILY_OnUpdate = function(valiantQuestID)
 	-- #if ANYCLASSIC
 	-- Forcibly changing visibility on groups is bad. These quests are impossible to see even in Debug unless actually being on the respective quest.
 	return FUNCTION_TEMPLATES.GenerateOnUpdateIsOnQuestVisibleOverride(valiantQuestID)
 	-- #endif
+end
+local CLASSIC_ONLY_DB_FUNC = function(func)
+	-- #IF ANYCLASSIC
+	return func
+	-- #ENDIF
 end
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_TWO, bubbleDown({ ["timeline"] = { ADDED_3_2_0 } }, {
@@ -826,17 +834,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34880,	-- Narasi Snowdawn <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14143, {	-- A Leg Up (H)
 						["qg"] = 34771,	-- Girana the Blooded <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["isDaily"] = true,
 					["groups"] = {
@@ -1755,9 +1765,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 
 				applyclassicphase(WRATH_PHASE_THREE, q(24442, {	-- Battle Plans Of The Kvaldir
 					["provider"] = { "i", 49676 },	-- Kvaldir Attack Plans
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["crs"] = {
 						34839,	-- Kvaldir Mist Binder
 						34838,	-- Kvaldir Reaver
@@ -1778,17 +1789,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34912,	-- Savinia Loresong <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14092, {	-- Breakfast Of Champions (H)
 						["qg"] = 34914,	-- Tylos Dawnrunner <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["maps"] = { THE_STORM_PEAKS },
 					["isDaily"] = true,
@@ -1827,9 +1840,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				applyclassicphase(WRATH_PHASE_THREE, q(14105, {	-- Deathspeaker Kharos
 					["qg"] = 34882,	-- High Crusader Adelard
 					["coord"] = { 69.4, 23.1, ICECROWN },
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/1 Deathspeaker Kharos slain
@@ -1842,9 +1856,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				applyclassicphase(WRATH_PHASE_THREE, q(14101, {	-- Drottinn Hrothgar
 					["qg"] = 34882,	-- High Crusader Adelard
 					["coord"] = { 69.4, 23.1, ICECROWN },
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/1 Drottinn Hrothgar slain
@@ -1878,9 +1893,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				applyclassicphase(WRATH_PHASE_THREE, q(14108, {	-- Get Kraken!
 					["qg"] = 35094,	-- Crusader Silverdawn
 					["coord"] = { 69.4, 23.1, ICECROWN },
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/8 Hurl Spears at North Sea Kraken
@@ -1901,17 +1917,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34912,	-- Savinia Loresong <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14141, {	-- Gormok Wants His Snobolds (H)
 						["qg"] = 34914,	-- Tylos Dawnrunner <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["maps"] = { THE_STORM_PEAKS },
 					["isDaily"] = true,
@@ -1930,9 +1948,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				applyclassicphase(WRATH_PHASE_THREE, q(14095, {	-- Identifying the Remains
 					["provider"] = { "i", 46955 },	-- Kraken Tooth
 					["description"] = "Defeating the Kraken during |cFFFFD700Get Kraken|r rewards this item.",
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["cr"] = 34925,	-- North Sea Kraken
 					["isDaily"] = true,
 				})),
@@ -2088,9 +2107,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				applyclassicphase(WRATH_PHASE_THREE, q(14102, {	-- Mistcaller Yngvar
 					["qg"] = 34882,	-- High Crusader Adelard
 					["coord"] = { 69.4, 23.1, ICECROWN },
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- Mistcaller Yngvar slain
@@ -2106,9 +2126,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				applyclassicphase(WRATH_PHASE_THREE, q(14104, {	-- Ornolf The Scarred
 					["qg"] = 34882,	-- High Crusader Adelard
 					["coord"] = { 69.4, 23.1, ICECROWN },
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- Ornolf the Scarred slain
@@ -2126,17 +2147,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34880,	-- Narasi Snowdawn <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14136, {	-- Rescue at Sea (H)
 						["qg"] = 34771,	-- Girana the Blooded <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["isDaily"] = true,
 					["groups"] = {
@@ -2154,17 +2177,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34880,	-- Narasi Snowdawn <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14140, {	-- Stop The Aggressors (H)
 						["qg"] = 34771,	-- Girana the Blooded <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["isDaily"] = true,
 					["groups"] = {
@@ -2632,9 +2657,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				applyclassicphase(WRATH_PHASE_THREE, q(14107, {	-- The Fate of the Fallen
 					["qg"] = 35094,	-- Crusader Silverdawn
 					["coord"] = { 69.4, 23.1, ICECROWN },
+					["sourceAchievements"] = { 2771, 2817 },	-- Exalted Champion of the Horde / Exalted Champion of the Alliance
 					["OnClick"] = CRUSADER_DAILY_OnClick,
-					["OnUpdate"] = [[_.OnUpdateDB.CRUSADER_DAILY]],
-					["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+					["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.CRUSADER_DAILY]]),
+					["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/6 Fallen Hero's Spirit blessed
@@ -2942,17 +2968,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34880,	-- Narasi Snowdawn <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14144, {	-- The Light's Mercy (H)
 						["qg"] = 34771,	-- Girana the Blooded <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["isDaily"] = true,
 					["groups"] = {
@@ -3580,17 +3608,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34912,	-- Savinia Loresong <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14145, {	-- What Do You Feed a Yeti, Anyway? (H)
 						["qg"] = 34914,	-- Tylos Dawnrunner <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["isDaily"] = true,
 					["groups"] = {
@@ -3610,17 +3640,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						["qg"] = 34880,	-- Narasi Snowdawn <The Silver Covenant>
 						["coord"] = { 76.2, 19.6, ICECROWN },
 						["minReputation"] = { FACTION_THE_SILVER_COVENANT, EXALTED },	-- The Silver Covenant, Exalted.
+						["sourceAchievements"] = { 3676 },	-- A Silver Confidant
 						["OnClick"] = SILVER_COVENTANT_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SILVER_COVENTANT_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SILVER_COVENTANT_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["hordeQuestData"] = q(14142, {	-- You've Really Done It This Time, Kul (H)
 						["qg"] = 34771,	-- Girana the Blooded <The Sunreavers>
 						["coord"] = { 76.1, 24.0, ICECROWN },
 						["minReputation"] = { FACTION_THE_SUNREAVERS, EXALTED },	-- The Sunreavers, Exalted.
+						["sourceAchievements"] = { 3677 },	-- The Sunreavers
 						["OnClick"] = SUNREAVERS_DAILY_OnClick,
-						["OnUpdate"] = [[_.OnUpdateDB.SUNREAVERS_DAILY]],
-						["OnTooltip"] = [[_.OnTooltipDB.WithRequiredAchievement]],
+						["OnUpdate"] = CLASSIC_ONLY_DB_FUNC([[_.OnUpdateDB.SUNREAVERS_DAILY]]),
+						["OnTooltip"] = CLASSIC_ONLY_DB_FUNC([[_.OnTooltipDB.WithRequiredAchievement]]),
 					}),
 					["isDaily"] = true,
 					["groups"] = {
