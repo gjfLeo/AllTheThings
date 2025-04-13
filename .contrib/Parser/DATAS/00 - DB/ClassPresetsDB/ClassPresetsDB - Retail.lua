@@ -7,7 +7,7 @@ if true then return end
 -- Common Filter types (Class doesn't matter)
 -- TODO: why do we have some filter types assigned if they cant have an impact on ATT filtering?
 local CommonFilterTypes = {
-	-1,	-- Not used
+	-1,	-- Not used					[Not Available in Settings]
 	1,	-- Held in Off-Hand
 	2,	-- Cosmetic
 	3,	-- Cloak
@@ -20,128 +20,57 @@ local CommonFilterTypes = {
 	53,	-- Trinket
 	54,	-- Artifact Relic
 	55,	-- Consumables
-	56,	-- Not used
+	56,	-- Not used (Reagent)		[Not Available in Settings]
 	57,	-- Profession Equipment
-	58,	-- Not used
-	59,	-- Not used
-	60,	-- Not used
-	100,-- Mounts
-	101,-- Battle Pets
-	102,-- Toy
-	103,-- Not used
+	58,	-- Not used					[Not Available in Settings]
+	59,	-- Not used					[Not Available in Settings]
+	60,	-- Not used					[Not Available in Settings]
+	100,-- Mounts					[Not Available in Settings]
+	101,-- Battle Pets				[Not Available in Settings]
+	102,-- Toy						[Not Available in Settings]
+	103,-- Not used					[Not Available in Settings]
 	104,-- Quest Items
-	105,-- Not used
-	106,-- Weekly Holidays
+	105,-- Not used					[Not Available in Settings]
+	106,-- Weekly Holidays			[Not Available in Settings]
 	113,-- Bags
-	114,-- Not used
-	200,-- Recipes
-	999,-- Not used
+	114,-- Not used					[Not Available in Settings]
+	200,-- Recipes					[Not Available in Settings]
+	999,-- Not used					[Not Available in Settings]
 }
 ExportDB._Compressed.Presets = true
 ExportDB.Presets = {
 	["DEATHKNIGHT"] = {
-		false, -- [4]
-		false, -- [5]
-		false, -- [6]
-		true, -- [7]
-		false, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		false, -- [20]
-		true, -- [21]
-		true, -- [22]
-		true, -- [23]
-		true, -- [24]
-		true, -- [25]
-		true, -- [26]
-		false, -- [27]
-		false, -- [28]
-		true, -- [29]
-		false, -- [30]
-		false, -- [31]
-		false, -- [32]
-		false, -- [33]
-		false, -- [34]
-		false, -- [35]
-		true, -- [36]
+		[7] = true,
+		[21] = true,
+		[22] = true,
+		[23] = true,
+		[24] = true,
+		[25] = true,
+		[26] = true,
+		[29] = true,
+		[36] = true,
 	},
 	["DEMONHUNTER"] = {
-		false, -- [4]
-		true, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		false, -- [20]
-		true, -- [21]
-		false, -- [22]
-		false, -- [23]
-		false, -- [24]
-		true, -- [25]
-		false, -- [26]
-		false, -- [27]
-		false, -- [28]
-		false, -- [29]
-		false, -- [30]
-		false, -- [31]
-		false, -- [32]
-		false, -- [33]
-		true, -- [34]
-		true, -- [35]
-		true, -- [36]
+		[5] = true,
+		[21] = true,
+		[25] = true,
+		[34] = true,
+		[35] = true,
+		[36] = true,
 	},
 	["DRUID"] = {
-		false, -- [4]
-		true, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		true, -- [20]
-		false, -- [21]
-		false, -- [22]
-		true, -- [23]
-		true, -- [24]
-		false, -- [25]
-		false, -- [26]
-		false, -- [27]
-		true, -- [28]
-		true, -- [29]
-		true, -- [30]
-		false, -- [31]
-		false, -- [32]
-		false, -- [33]
-		true, -- [34]
-		false, -- [35]
-		true, -- [36]
+		[5] = true,
+		[20] = true,
+		[23] = true,
+		[24] = true,
+		[28] = true,
+		[29] = true,
+		[30] = true,
+		[34] = true,
+		[36] = true,
 	},
 	["EVOKER"] = {
-		false, -- [4]
-		false, -- [5]
-		true, -- [6]
-		false, -- [7]
-		false, -- [8]
-		false, -- [11]
+		[6] = true,
 		[20] = true,
 		[21] = true,
 		[22] = true,
@@ -149,274 +78,112 @@ ExportDB.Presets = {
 		[24] = true,
 		[25] = true,
 		[26] = true,
-		[27] = false,
 		[28] = true,
-		[29] = false,
-		[31] = false,
-		[32] = false,
-		[33] = false,
 		[34] = true,
-		[35] = false,
 	},
 	["HUNTER"] = {
-		false, -- [4]
-		false, -- [5]
-		true, -- [6]
-		false, -- [7]
-		false, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		true, -- [20]
-		true, -- [21]
-		true, -- [22]
-		false, -- [23]
-		false, -- [24]
-		true, -- [25]
-		true, -- [26]
-		false, -- [27]
-		true, -- [28]
-		true, -- [29]
-		true, -- [30]
-		true, -- [31]
-		true, -- [32]
-		true, -- [33]
-		true, -- [34]
-		false, -- [35]
-		true, -- [36]
+		[6] = true,
+		[20] = true,
+		[21] = true,
+		[22] = true,
+		[25] = true,
+		[26] = true,
+		[28] = true,
+		[29] = true,
+		[30] = true,
+		[31] = true,
+		[32] = true,
+		[33] = true,
+		[34] = true,
+		[36] = true,
 	},
 	["MAGE"] = {
-		true, -- [4]
-		false, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		true, -- [20]
-		false, -- [21]
-		false, -- [22]
-		false, -- [23]
-		false, -- [24]
-		true, -- [25]
-		false, -- [26]
-		true, -- [27]
-		true, -- [28]
-		false, -- [29]
-		false, -- [30]
-		false, -- [31]
-		false, -- [32]
-		false, -- [33]
-		false, -- [34]
-		false, -- [35]
-		true, -- [36]
-	},
-	["MONK"] = {
-		false, -- [4]
-		true, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		false, -- [20]
-		true, -- [21]
-		false, -- [22]
-		true, -- [23]
-		false, -- [24]
-		true, -- [25]
-		false, -- [26]
-		false, -- [27]
-		true, -- [28]
-		true, -- [29]
-		true, -- [30]
-		false, -- [31]
-		false, -- [32]
-		false, -- [33]
-		true, -- [34]
-		false, -- [35]
-		true, -- [36]
-	},
-	["PALADIN"] = {
-		false, -- [4]
-		false, -- [5]
-		false, -- [6]
-		true, -- [7]
-		true, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		false, -- [20]
-		true, -- [21]
-		true, -- [22]
-		true, -- [23]
-		true, -- [24]
-		true, -- [25]
-		true, -- [26]
-		false, -- [27]
-		false, -- [28]
-		true, -- [29]
-		false, -- [30]
-		false, -- [31]
-		false, -- [32]
-		false, -- [33]
-		false, -- [34]
-		false, -- [35]
-		true, -- [36]
-	},
-	["PRIEST"] = {
-		true, -- [4]
-		false, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		[31] = false,
-		[32] = false,
-		[33] = false,
-		[34] = false,
+		[4] = true,
 		[20] = true,
-		[21] = false,
-		[22] = false,
-		[23] = true,
-		[36] = true,
-		[24] = false,
-		[25] = false,
-		[26] = false,
+		[25] = true,
 		[27] = true,
 		[28] = true,
-		[29] = false,
-		[35] = false,
+		[36] = true,
+	},
+	["MONK"] = {
+		[5] = true,
+		[21] = true,
+		[23] = true,
+		[25] = true,
+		[28] = true,
+		[29] = true,
+		[30] = true,
+		[34] = true,
+		[36] = true,
+	},
+	["PALADIN"] = {
+		[7] = true,
+		[8] = true,
+		[21] = true,
+		[22] = true,
+		[23] = true,
+		[24] = true,
+		[25] = true,
+		[26] = true,
+		[29] = true,
+		[36] = true,
+	},
+	["PRIEST"] = {
+		[4] = true,
+		[20] = true,
+		[23] = true,
+		[36] = true,
+		[27] = true,
+		[28] = true,
 	},
 	["ROGUE"] = {
-		false, -- [4]
-		true, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		true, -- [20]
-		true, -- [21]
-		false, -- [22]
-		true, -- [23]
-		false, -- [24]
-		true, -- [25]
-		false, -- [26]
-		false, -- [27]
-		false, -- [28]
-		false, -- [29]
-		nil, -- [30]
-		true, -- [31]
-		true, -- [32]
-		true, -- [33]
-		true, -- [34]
-		false, -- [35]
+		[5] = true,
+		[20] = true,
+		[21] = true,
+		[23] = true,
+		[25] = true,
+		[31] = true,
+		[32] = true,
+		[33] = true,
+		[34] = true,
 	},
 	["SHAMAN"] = {
-		false, -- [4]
-		false, -- [5]
-		true, -- [6]
-		false, -- [7]
-		true, -- [8]
-		[31] = false,
-		[32] = false,
-		[33] = false,
+		[6] = true,
+		[8] = true,
 		[34] = true,
 		[20] = true,
 		[21] = true,
 		[22] = true,
 		[23] = true,
 		[24] = true,
-		[25] = false,
-		[26] = false,
-		[27] = false,
 		[28] = true,
-		[29] = false,
-		[35] = false,
 	},
 	["WARLOCK"] = {
-		true, -- [4]
-		false, -- [5]
-		false, -- [6]
-		false, -- [7]
-		false, -- [8]
-		[30] = false,
-		[31] = false,
-		[32] = false,
-		[33] = false,
-		[34] = false,
-		[35] = false,
+		[4] = true,
 		[20] = true,
-		[21] = false,
-		[22] = false,
-		[23] = false,
-		[24] = false,
 		[25] = true,
-		[26] = false,
 		[27] = true,
 		[28] = true,
 		[36] = true,
-		[29] = false,
 	},
 	["WARRIOR"] = {
-		false, -- [4]
-		false, -- [5]
-		false, -- [6]
-		true, -- [7]
-		true, -- [8]
-		nil, -- [12]
-		nil, -- [13]
-		nil, -- [14]
-		nil, -- [15]
-		nil, -- [16]
-		nil, -- [17]
-		nil, -- [18]
-		nil, -- [19]
-		true, -- [20]
-		true, -- [21]
-		true, -- [22]
-		true, -- [23]
-		true, -- [24]
-		true, -- [25]
-		true, -- [26]
-		false, -- [27]
-		true, -- [28]
-		true, -- [29]
-		true, -- [30]
-		true, -- [31]
-		true, -- [32]
-		true, -- [33]
-		true, -- [34]
-		false, -- [35]
-		true, -- [36]
+		[7] = true,
+		[8] = true,
+		[20] = true,
+		[21] = true,
+		[22] = true,
+		[23] = true,
+		[24] = true,
+		[25] = true,
+		[26] = true,
+		[28] = true,
+		[29] = true,
+		[30] = true,
+		[31] = true,
+		[32] = true,
+		[33] = true,
+		[34] = true,
+		[36] = true,
 	},
 }
 -- Assign the Common Filter Types into each Preset
