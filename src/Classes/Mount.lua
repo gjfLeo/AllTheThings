@@ -119,9 +119,6 @@ do
 		costCollectibles = function(t)
 			return cache.GetCachedField(t, "costCollectibles", default_costCollectibles);
 		end,
-		f = function(t)
-			return 100;
-		end,
 		collectibleAsCost = app.CollectibleAsCost,
 		collectible = function(t) return app.Settings.Collectibles[SETTING]; end,
 		collected = function(t)

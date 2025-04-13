@@ -261,9 +261,6 @@ do
 		spellID = function(t)
 			return t[KEY]
 		end,
-		f = function(t)
-			return 200;
-		end,
 		collectible = function(t)
 			return app.Settings.Collectibles[SETTING];
 			-- TODO: revise? this prevents showing a BoP, wrong-profession Recipe under a BoE used to obtain it, when within a Popout and NOT tracking Account-Wide Recipes
