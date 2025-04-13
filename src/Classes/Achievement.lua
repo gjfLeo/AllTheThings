@@ -263,6 +263,24 @@ do
 	end);
 	app.AddSimpleCollectibleSwap(CLASSNAME, CACHE)
 
+	-- Adds ATT information about the list of Achievements into the provided tooltip
+	local function AddAchievementInfoToTooltip(info, achievements, reference)
+		if achievements then
+			local text
+			for _,ach in ipairs(achievements) do
+				text = ach.text;
+				if not text then
+					text = RETRIEVING_DATA;
+					reference.working = true;
+				end
+				text = app.GetCompletionIcon(ach.saved) .. " [" .. ach.achievementID .. "] " .. text;
+				if ach.isGuild then text = text .. " (" .. GUILD .. ")"; end
+				info[#info + 1] = {
+					left = text
+				}
+			end
+		end
+	end
 	-- Information Types
 	app.AddEventHandler("OnLoad", function()
 		app.Settings.CreateInformationType("Achievement_CriteriaFor", {
@@ -290,6 +308,44 @@ do
 							right = reference.statistic,
 						});
 					end
+				end
+			end
+		})
+		app.Settings.CreateInformationType("sourceAchievements", {
+			text = "Achievement_Requirements",
+			HideCheckBox = true, ForceActive = true, priority = 9500,
+			Process = function(t, reference, tooltipInfo)
+				if not reference.sourceAchievements then return end
+				local isDebugMode = app.MODE_DEBUG
+				if not isDebugMode and reference.collected then return end
+
+				local bestMatch, sas
+				local prereqs = {}
+				for i,sourceAchievementID in ipairs(reference.sourceAchievements) do
+					if sourceAchievementID > 0 and (isDebugMode or not app.IsAccountCached("Achievements", sourceAchievementID)) then
+						sas = SearchForObject("achievementID", sourceAchievementID, "field", true)
+						if #sas > 0 then
+							bestMatch = nil;
+							for j,sa in ipairs(sas) do
+								if sa.achievementID == sourceAchievementID then
+									if isDebugMode or (not sa.saved and app.GroupFilter(sa)) then
+										bestMatch = sa;
+									end
+								end
+							end
+							if bestMatch then
+								prereqs[#prereqs + 1] = bestMatch
+							end
+						else
+							prereqs[#prereqs + 1] = app.CreateAchievement(sourceAchievementID)
+						end
+					end
+				end
+				if prereqs and #prereqs > 0 then
+					tooltipInfo[#tooltipInfo + 1] = {
+						left = QUEST_TOOLTIP_REQUIREMENTS
+					}
+					AddAchievementInfoToTooltip(tooltipInfo, prereqs, reference);
 				end
 			end
 		})
