@@ -181,6 +181,13 @@ local CreateInformationType = app.CreateClass("InformationType", "informationTyp
 (function(t) return t.isRecursive; end));
 
 -- Known By / Completed By
+-- TODO maybe handle the specific per-character cases to still show?
+-- Types which have an ID which can be 'known' or 'completed' but is typically spammy to show when account-wide
+local KnownByIgnoredTypes = {
+	BattlePet = true,
+	GarrisonBuildingRecipe = true,
+	Mount = true,
+}
 local knownBy = {};
 local function BuildKnownByInfoForKind(tooltipInfo, kind)
 	if #knownBy > 0 and kind then
@@ -346,8 +353,8 @@ local function ProcessForKnownBy(t, reference, tooltipInfo)
 			end
 		end
 
-		-- If the item is a recipe, then show which characters know this recipe.
-		if reference.filterID ~= 100 then
+		-- If the Thing is not ignored, then show which characters know this Spell
+		if not KnownByIgnoredTypes[reference.__type] then
 			for guid,character in pairs(ATTCharacterData) do
 				if character.Spells and character.Spells[id] then
 					tinsert(knownBy, character);
