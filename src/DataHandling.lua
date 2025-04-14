@@ -235,7 +235,9 @@ local function UpdateGroup(group, parent)
 end
 UpdateGroups = function(parent, g)
 	if g then
-		for _,group in ipairs(g) do
+		local group
+		for i=1,#g do
+			group = g[i]
 			if group.OnUpdate then
 				if not group:OnUpdate(parent, UpdateGroup) then
 					UpdateGroup(group, parent)
@@ -389,8 +391,8 @@ local function UpdateSearchResults(searchResults)
 	-- in extreme cases of tons of search results to update all at once, we will split up the updates to remove the apparent stutter
 	if #searchResults > LIMIT_UPDATE_SEARCH_RESULTS then
 		local subresults = {}
-		for i,result in ipairs(searchResults) do
-			subresults[#subresults + 1] = result
+		for i=1,#searchResults do
+			subresults[#subresults + 1] = searchResults[i]
 			if i % LIMIT_UPDATE_SEARCH_RESULTS == 0 then
 				Runner.Run(UpdateSearchResults, subresults)
 				subresults = {}
@@ -404,7 +406,9 @@ local function UpdateSearchResults(searchResults)
 	local found = {}
 	local HandleEvent = app.HandleEvent
 	-- Directly update the Source groups of the search results, and collect their hashes for updates in other windows
-	for _,result in ipairs(searchResults) do
+	local result
+	for i=1,#searchResults do
+		result = searchResults[i]
 		hashes[result.hash] = true
 		found[#found + 1] = result
 		-- Make sure any update events are handled for this Thing
@@ -418,15 +422,15 @@ local function UpdateSearchResults(searchResults)
 		-- Collect matching groups from the updating groups from visible windows other than Main list
 		if window.Suffix ~= "Prime" and window:IsVisible() then
 			-- app.PrintDebug(window.Suffix)
-			for _,result in ipairs(searchResults) do
-				SearchForSpecificGroups(found, window.data, hashes)
-			end
+			SearchForSpecificGroups(found, window.data, hashes)
 		end
 	end
 
 	-- apply direct updates to all found groups
 	-- app.PrintDebug("Updating",#found,"groups")
-	for _,o in ipairs(found) do
+	local o
+	for i=1,#found do
+		o = found[i]
 		DirectGroupUpdate(o, true)
 	end
 	-- TODO: use event
