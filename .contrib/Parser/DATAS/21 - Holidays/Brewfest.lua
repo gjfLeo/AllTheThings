@@ -671,11 +671,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 						-- #if ANYCLASSIC
 						-- The idiots at Blizzard decided that they wanted to give people 353 ilvl stuff from Coren in Cataclysm Classic.
-						applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(71331, {	-- Direbrew's Bloodied Shanker [Level 85, ilvl 365]
-							["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+						-- Level 365 items will not be available in Classic 2025 Brewfest, it will be in MOP
+						applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(71331, {    -- Direbrew's Bloodied Shanker [Level 85, ilvl 365]
+						["timeline"] = { CREATED_4_0_1 },
 						})),
-						applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(71332, {	-- Tremendous Tankard O'Terror [Level 85, ilvl 365]
-							["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+						applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, i(71332, {    -- Tremendous Tankard O'Terror [Level 85, ilvl 365]
+							["timeline"] = { CREATED_4_0_1 },
 						})),
 						applyclassicphase(CATA_PHASE_ONE, i(232030, {	-- Direbrew's Bloodied Shanker [Level 85, ilvl 353]
 							["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
