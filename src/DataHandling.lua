@@ -5,8 +5,8 @@
 
 local appName, app = ...
 
-local ipairs,pairs,rawget,tonumber,GetTimePreciseSec
-	= ipairs,pairs,rawget,tonumber,GetTimePreciseSec
+local pairs,rawget,tonumber,GetTimePreciseSec,tremove
+	= pairs,rawget,tonumber,GetTimePreciseSec,tremove
 
 local DelayedCallback = app.CallbackHandlers.DelayedCallback
 local Runner = app.CreateRunner("update")
@@ -17,7 +17,83 @@ local DefaultGroupVisibility, DefaultThingVisibility
 local UpdateGroups
 local RecursiveGroupRequirementsFilter, GroupFilter, GroupVisibilityFilter, ThingVisibilityFilter, TrackableFilter
 local FilterSet, FilterGet, Filters_ItemUnbound, ItemUnboundSetting
--- local debug
+local SetGroupVisibility, SetThingVisibility, BaseSetGroupVisibility, BaseSetThingVisibility
+local function SetDefaultVisibility(parent, group)
+	group.visible = true
+end
+-- Visibilty Checks
+-- nil - the check doesn't result in a visible outcome
+-- true - the check resulted in a visible outcome
+-- 2 - the check resulted in a visible outcome and should force the parent to also persist visibility
+local function Visibility_ForceShow(group)
+	if group.forceShow then
+		group.forceShow = nil
+		-- Continue the forceShow visibility outward
+		return 2
+	end
+end
+local function Visibility_Total_Group(group)
+	local total = group.total
+	if total > 0 then
+		return group.progress < total or GroupVisibilityFilter(group)
+	end
+end
+local function Visibility_Total_Thing(group)
+	local total = group.total
+	if total > 0 then
+		return group.progress < total or ThingVisibilityFilter(group)
+	end
+end
+local function Visibility_Cost(group)
+	if (group.costTotal or 0) > 0 then
+		-- app.PrintDebug("SGV.cost",group.hash,visible,group.costTotal)
+		return true
+	end
+end
+local function Visibility_Upgrade(group)
+	if (group.upgradeTotal or 0) > 0 then
+		-- if debug then print("SGV.hasUpgrade",group.hash,visible) end
+		return true
+	end
+end
+local function Visibility_Trackable_Group(group)
+	if TrackableFilter(group) then
+		local visible = not group.saved or GroupVisibilityFilter(group)
+		return visible and 2 or nil
+	end
+end
+local function Visibility_Trackable_Thing(group)
+	if TrackableFilter(group) then
+		local visible = not group.saved or ThingVisibilityFilter(group)
+		return visible and 2 or nil
+	end
+end
+local function Visibility_Custom(group)
+	if group.OnSetVisibility then
+		return group:OnSetVisibility()
+	end
+end
+local function Visibility_LootMode(group)
+	if ((group.itemID and group.f) or group.sym) then
+		return 2
+	end
+end
+local GroupVisibilityChecks = {
+	Visibility_ForceShow,
+	Visibility_Total_Group,
+	Visibility_Cost,
+	Visibility_Upgrade,
+	Visibility_Trackable_Group,
+	Visibility_Custom,
+}
+local ThingVisibilityChecks = {
+	Visibility_ForceShow,
+	Visibility_Total_Thing,
+	Visibility_Cost,
+	Visibility_Upgrade,
+	Visibility_Trackable_Thing,
+	Visibility_Custom,
+}
 -- Local caches for some heavily used functions within updates
 local function CacheFilterFunctions()
 	local FilterApi = app.Modules.Filter
@@ -32,112 +108,59 @@ local function CacheFilterFunctions()
 	DefaultGroupVisibility, DefaultThingVisibility = app.DefaultGroupFilter(), app.DefaultThingFilter()
 	-- app.PrintDebug("CacheFilterFunctions","DG",DefaultGroupVisibility,"DT",DefaultThingVisibility)
 	-- app.PrintDebug("ItemUnboundSetting",ItemUnboundSetting)
+	SetGroupVisibility = DefaultGroupVisibility and SetDefaultVisibility or BaseSetGroupVisibility
+	SetThingVisibility = DefaultThingVisibility and SetDefaultVisibility or BaseSetThingVisibility
+	-- Add Loot Visibility if in Settings
+	if app.Settings.Collectibles.Loot then
+		ThingVisibilityChecks[#ThingVisibilityChecks + 1] = Visibility_LootMode
+	else
+		for i=#ThingVisibilityChecks,1,-1 do
+			if ThingVisibilityChecks[i] == Visibility_LootMode then
+				tremove(ThingVisibilityChecks, i)
+				break
+			end
+		end
+	end
 end
--- TODO: test perf when instead using an array of ordered visibility checkers which is defined via settings changes
--- similar to information types
-local function SetGroupVisibility(parent, group)
-	local forceShowParent
+app.AddEventHandler("OnInit", function()
+	CacheFilterFunctions()
+	app.AddEventHandler("OnSettingsRefreshed", CacheFilterFunctions)
+end)
+BaseSetGroupVisibility = function(parent, group)
 	-- Set visible initially based on the global 'default' visibility, or whether the group should inherently be shown
-	local visible = DefaultGroupVisibility
-	-- Need to check all possible reasons a group could be visible, from simplest to more complex
-	-- Force show
-	if not visible and group.forceShow then
-		visible = true
-		group.forceShow = nil
-		-- Continue the forceShow visibility outward
-		forceShowParent = true
-	end
-	-- Total
-	if not visible and group.total > 0 then
-		visible = group.progress < group.total or GroupVisibilityFilter(group)
-	end
-	-- Cost
-	if not visible and ((group.costTotal or 0) > 0) then
-		visible = true
-		-- app.PrintDebug("SGV.cost",group.hash,visible,group.costTotal)
-	end
-	-- Upgrade
-	if not visible and ((group.upgradeTotal or 0) > 0) then
-		visible = true
-		-- if debug then print("SGV.hasUpgrade",group.hash,visible) end
-	end
-	-- Trackable
-	if not visible and TrackableFilter(group) then
-		visible = not group.saved or GroupVisibilityFilter(group)
-		forceShowParent = visible
-	end
-	-- Custom Visibility
-	if not visible and group.OnSetVisibility then
-		visible = group:OnSetVisibility()
-	end
-	-- Apply the visibility to the group
-	if visible then
-		group.visible = true
-		-- source ignored group which is determined to be visible should ensure the parent is also visible
-		if not forceShowParent and group.sourceIgnored then
-			forceShowParent = true
-			-- app.PrintDebug("SGV:ForceParent",parent.text,"via Source Ignored",group.text)
+	local visible
+	for i=1,#GroupVisibilityChecks do
+		visible = GroupVisibilityChecks[i](group)
+		-- Apply the visibility to the group
+		if visible then
+			group.visible = true
+			if not parent then return end
+
+			-- source ignored group which is determined to be visible should ensure the parent is also visible
+			if visible == 2 or group.sourceIgnored then
+				parent.forceShow = true
+				-- app.PrintDebug("SGV:ForceParent",parent.text,"via Source Ignored",group.text)
+			end
+			return
 		end
-	end
-	if parent and forceShowParent then
-		parent.forceShow = forceShowParent
 	end
 end
-local function SetThingVisibility(parent, group)
-	local forceShowParent
-	local visible = DefaultThingVisibility
-	-- Need to check all possible reasons a group could be visible, from simplest to more complex
-	-- Force show
-	if not visible and group.forceShow then
-		visible = true
-		group.forceShow = nil
-		-- Continue the forceShow visibility outward
-		forceShowParent = true
-		-- if debug then print("forceshow",visible) end
-	end
-	-- Total
-	if not visible and group.total > 0 then
-		visible = group.progress < group.total or ThingVisibilityFilter(group)
-		-- app.PrintDebug("STV.total",group.hash,visible,group.progress,group.total,ThingVisibilityFilter(group))
-	end
-	-- Cost
-	if not visible and ((group.costTotal or 0) > 0) then
-		visible = true
-		-- app.PrintDebug("STV.cost",group.hash,visible,group.costTotal)
-	end
-	-- Upgrade
-	if not visible and ((group.upgradeTotal or 0) > 0) then
-		visible = true
-		-- if debug then print("STV.hasUpgrade",group.hash,visible) end
-	end
-	-- Trackable
-	if not visible and TrackableFilter(group) then
-		visible = not group.saved or ThingVisibilityFilter(group)
-		forceShowParent = visible
-		-- if debug then print("trackable",visible) end
-	end
-	-- Custom Visibility
-	if not visible and group.OnSetVisibility then
-		visible = group:OnSetVisibility()
-	end
-	-- Loot Mode
-	if not visible then
-		if ((group.itemID and group.f) or group.sym) and app.Settings.Collectibles.Loot then
-			visible = true
+BaseSetThingVisibility = function(parent, group)
+	local visible
+	for i=1,#ThingVisibilityChecks do
+		visible = ThingVisibilityChecks[i](group)
+		-- Apply the visibility to the group
+		if visible then
+			group.visible = true
+			if not parent then return end
+
+			-- source ignored group which is determined to be visible should ensure the parent is also visible
+			if visible == 2 or group.sourceIgnored then
+				parent.forceShow = true
+				-- app.PrintDebug("STV:ForceParent",parent.text,"via Source Ignored",group.text)
+			end
+			return
 		end
-		forceShowParent = visible
-	end
-	-- Apply the visibility to the group
-	if visible then
-		group.visible = true
-		-- source ignored group which is determined to be visible should ensure the parent is also visible
-		if not forceShowParent and group.sourceIgnored then
-			forceShowParent = true
-			-- app.PrintDebug("STV:ForceParent",parent.text,"via Source Ignored",group.text)
-		end
-	end
-	if parent and forceShowParent then
-		parent.forceShow = forceShowParent
 	end
 end
 local function UpdateGroup(group, parent)
@@ -284,7 +307,6 @@ local function TopLevelUpdateGroup(group)
 	group.progress = nil
 	group.costTotal = nil
 	group.upgradeTotal = nil
-	CacheFilterFunctions()
 	-- app.PrintDebug("TLUG",group.hash)
 	-- Root data in Windows should ALWAYS be visible
 	if group.window then
