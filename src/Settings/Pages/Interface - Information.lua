@@ -354,7 +354,7 @@ local function ProcessForKnownBy(t, reference, tooltipInfo)
 			local knownByCache
 			for guid,character in pairs(ATTCharacterData) do
 				knownByCache = character[cacheName] or character.Spells
-				if knownByCache[id] then
+				if knownByCache and knownByCache[id] then
 					tinsert(knownBy, character);
 				end
 			end
