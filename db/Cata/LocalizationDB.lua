@@ -9,9 +9,6 @@ local L = _.L;
 -- Category Database Module
 _.CategoryNames = {
 	[3] = "Tarot Decks",
-	[58] = "Holiday Cooking",
-	[63] = "Everyday Cooking",
-	[70] = "Unusual Delights",
 	[103] = "Off-hand",
 	[104] = "Ink",
 	[105] = "Clear Mind",
@@ -294,9 +291,6 @@ _.CategoryNames = {
 }
 _.CategoryIcons = {
 	[3] = 134492,
-	[58] = 134018,
-	[63] = 133968,
-	[70] = 133168,
 	[104] = 237070,
 	[106] = 134492,
 	[107] = 134939,
@@ -757,7 +751,7 @@ localize(L.HEADER_NAMES, {
 	[-1000862] = "Cataclysmic Gladiator: Season 11",
 	[-1000863] = PVP_RATED_BATTLEGROUND,
 	[-1000870] = "The Troll Incursion",
-	[-1000872] = WOWLABS_GAMEMODE_HEADER,
+	[-1000872] = "Plunderstorm",
 	[-1000904] = "Source IDs",
 	[-1000905] = GUILD .. " " .. TUTORIAL_TITLE20,
 	[-1001034] = "Elemental Bonds",
@@ -16606,9 +16600,6 @@ do phases[key].lore = value; end
 end
 if simplifiedLocale == "ko" then
 localize(_.CategoryNames, {
-	[58] = "축제 요리",
-	[63] = "일반 요리",
-	[70] = "특별한 별미",
 	[114] = "다른",
 	[167] = "머리",
 	[168] = "재료",
