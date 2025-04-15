@@ -836,7 +836,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sourceQuest"] = 32471,	-- Light Camera Action (H)
 					["coord"] = { 34.5, 70.8, ORGRIMMAR },
 					["timeline"] = { ADDED_7_3_5 },
-					["collectible"] = false,
+					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(155832),	-- Pristine Crystal Shard (QI!)
@@ -1278,7 +1278,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 34.5, 70.8, ORGRIMMAR },
 					["timeline"] = { ADDED_7_3_5 },
 					["cost"] = { { "i", 4406, 1 } },	-- Standard Scope
-					["collectible"] = false,
+					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Iron Box

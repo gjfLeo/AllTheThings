@@ -136,6 +136,7 @@ local L = setmetatable({
 	LOCK_CRITERIA_SPELL_LABEL = "Learned Spell/Mount/Recipe";
 	LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
 	LOCK_CRITERIA_SOURCE_LABEL = "Known Appearance";
+	LOCK_CRITERIA_TOY_LABEL = "Known Toy";
 	LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
 	TITLES_DESC = "Titles are tracked across your account, however, your individual character must qualify for certain titles to be usable on that character.";
 

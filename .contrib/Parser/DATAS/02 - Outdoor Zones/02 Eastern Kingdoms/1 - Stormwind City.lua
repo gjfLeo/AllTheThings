@@ -1226,7 +1226,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 32470,	-- Light Camera Action (A)
 					["coord"] = { 61.2, 22.8, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_3_5 },
-					["collectible"] = false,
+					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(155832),	-- Pristine Crystal Shard (QI!)
@@ -2171,7 +2171,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 61.2, 22.8, STORMWIND_CITY },
 					["timeline"] = { ADDED_7_3_5 },
 					["cost"] = { { "i", 4406, 1 } },	-- Standard Scope
-					["collectible"] = false,
+					["lockCriteria"] = { 1, "toyID", 122674 },	-- S.E.L.F.I.E. Camera MkII
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						objective(1, {	-- 0/1 Iron Box

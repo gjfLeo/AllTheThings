@@ -1337,6 +1337,15 @@ local criteriaFuncs = {
 		local group = app.SearchForObject("sourceID", sourceID, "field") or app.CreateItemSource(sourceID)
         return group.link or group.text or RETRIEVING_DATA;
     end,
+
+    toyID = function(toyID)
+		return app.IsAccountCached("Toys", toyID)
+	end,
+	label_toyID = L.LOCK_CRITERIA_TOY_LABEL or "Known Toy",
+    text_toyID = function(toyID)
+		local group = app.SearchForObject("toyID", toyID, "field") or app.CreateToy(toyID)
+        return group.link or group.text or RETRIEVING_DATA;
+    end,
 };
 app.AddEventHandler("OnLoad", function()
 	criteriaFuncs.text_spellID = app.GetSpellName
@@ -1344,6 +1353,8 @@ end)
 local AWQuestLockers = setmetatable({
 	-- sourceID is account-wide, so any lock via that will lock account-wide
 	sourceID = app.ReturnTrue,
+	-- toyID is account-wide, so any lock via that will lock account-wide
+	toyID = app.ReturnTrue,
 	-- achID is possibly account-wide, so lock could also mean quest is locked account-wide
 	achID = function(id)
 		local ach = Search("achievementID", id, "field")
