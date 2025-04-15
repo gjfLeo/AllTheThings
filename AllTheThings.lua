@@ -3817,11 +3817,9 @@ local __SearchCriteria = {
 local SearchCriteria = {}
 -- A set of Criteria functions which must all be valid for each search result to be included in the response
 local __SearchValueCriteria = {
-	-- Include if the field of the group matches the desired value, or via translated requireSkill value matches
+	-- Include if the field of the group matches the desired value
 	function(o, field, value)
-		local v = o[field]
-		return v == value
-			or (field == "requireSkill" and v and app.SkillDB.SpellToSkill[app.SpecializationSpellIDs[v] or 0] == value)
+		return o[field] == value
 	end
 }
 local SearchValueCriteria = {}
@@ -6945,6 +6943,18 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 				end
 			end
 		end
+		-- Custom SearchValueCriteria for requireSkill searches
+		local criteria = {
+			SearchValueCriteria = {
+				-- Include if the field of the group matches the desired value (or via translated requireSkill value matches)
+				-- and if it filters for the current character
+				function(o, field, value)
+					local v = o[field]
+					return v and (v == value or app.SkillDB.SpellToSkill[app.SpecializationSpellIDs[v] or 0] == value)
+						and app.CurrentCharacterFilters(o)
+				end
+			}
+		}
 		local function UpdateData(self, updates)
 			-- Open the Tradeskill list for this Profession
 			local data = updates.Data;
@@ -6952,7 +6962,7 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 				-- app.PrintDebug("UpdateData",self.lastTradeSkillID)
 				data = app.CreateProfession(self.lastTradeSkillID);
 				app.BuildSearchResponse_IgnoreUnavailableRecipes = true;
-				NestObjects(data, app:BuildSearchResponse("requireSkill", data.requireSkill));
+				NestObjects(data, app:BuildSearchResponse("requireSkill", data.requireSkill, nil, criteria));
 				-- Profession headers use 'professionID' and don't actually convey a requirement on knowing the skill
 				-- but in a Profession window for that skill it's nice to see what that skill can craft...
 				NestObjects(data, app:BuildSearchResponse("professionID", data.requireSkill));
