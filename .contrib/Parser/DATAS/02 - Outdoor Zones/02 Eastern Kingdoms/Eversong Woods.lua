@@ -2096,6 +2096,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["races"] = HORDE_ONLY,
 				}),
 				i(23553, {	-- Living Branch
+					-- #if NOT COMMON_QUALITY_TRANSMOGS
+					-- CRIEVE NOTE: This is a quest item that disappears once you finish the quest.
+					-- To collect it, it needs to be in your inventory after common quality transmog is added officially.
+					["ignoreSource"] = true,
+					-- #endif
 					["cr"] = 15636,	-- Eversong Green Keeper
 					["coords"] = {
 						{ 54.8, 79.6, EVERSONG_WOODS },
