@@ -2406,30 +2406,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
-				q(25488, {	-- Two If By Boat
-					["qg"] = 39992,	-- Rendow
-					["sourceQuest"] = 25486,	-- The Grimtotem Are Coming
-					["coord"] = { 88.5, 44.4, FERALAS },
-					["timeline"] = { ADDED_4_0_3 },
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(63558, {	-- Mirage Amulet
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(63561, {	-- Bracers of Desperate Need
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(63560, {	-- Floating Belt
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(63559, {	-- Maloof's Spare Boots
-							["timeline"] = { ADDED_4_0_3 },
-						}),
-						i(131430, {	-- Maloof's Spare Treads
-							["timeline"] = { ADDED_7_0_3 },
-						}),
-					},
-				}),
 				q(25339, {	-- Vengeance on the Northspring
 					["qg"] = 7776,	-- Talo Thornhoof
 					["coord"] = { 41.5, 15.2, FERALAS },

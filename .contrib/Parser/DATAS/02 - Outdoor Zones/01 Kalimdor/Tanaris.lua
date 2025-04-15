@@ -4695,7 +4695,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(27447, {	-- Tanaris is Calling [H]
 					["qg"] = 40028,	-- Pozzik
-					["coord"] = { 75.9, 74.6, THOUSAND_NEEDLES },
+					["coord"] = { 75.9, 74.7, THOUSAND_NEEDLES },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
