@@ -865,7 +865,7 @@ local function GetLinkTooltipInfo(sourceGroup, useItemIDs, sameItem)
 			link = RETRIEVING_DATA
 		else
 			missingStr = " |CFFFF0000(INVALID BLIZZARD DATA)|r"
-			link = sourceID and (BuildAppearanceLink(sourceID) or UNKNOWN)
+			link = sourceID and BuildAppearanceLink(sourceID) or UNKNOWN
 		end
 	end
 	local text
