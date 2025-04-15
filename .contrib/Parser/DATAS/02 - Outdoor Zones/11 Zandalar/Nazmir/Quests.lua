@@ -292,17 +292,16 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 72.5, 29.4, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(159088),	-- Nazmani Hexblade
 					i(159085),	-- Ancient Loa-Blessed Mace
+					i(159086),	-- Corrupted Tribe Headsmasher
 					i(159083),	-- Degraded Empire Shortblade
-					i(159084),	-- Handscythe of the First City
-					i(159087),	-- Nazmani Longstaff
 					i(159082),	-- Fallen Nation Recurve
 					i(159081),	-- Fallen Nation Carver
-					i(159086),	-- Corrupted Tribe Headsmasher
-					i(161299, {	-- Stoat-Trapper's Bladefist
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(159084),	-- Handscythe of the First City
+					i(159088),	-- Nazmani Hexblade
+					i(159087),	-- Nazmani Longstaff
+					--
+					a(i(161299)),	-- Stoat-Trapper's Bladefist
 				},
 			}),
 			q(49938, {	-- Corrupted Earth
@@ -506,18 +505,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(159038),	-- Loa Speaker's Bands
 					i(159039),	-- Nazmani Warplate Armguards
 					i(159041),	-- Ritual Flayer's Armbands
-					i(158631, {	-- Wickerwoven Bindings (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158633, {	-- Crone-Seeker's Bindings (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158634, {	-- Waycrest Militia Wristguards (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158632, {	-- Banisher Bindings
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					--
+					a(i(158632)), 	-- Banisher Bindings
+					a(i(158633)), 	-- Crone-Seeker's Bindings
+					a(i(158634)), 	-- Waycrest Militia Wristguards
+					a(i(158631)), 	-- Wickerwoven Bindings
 				},
 			}),
 			q(49314, {	-- Hunting Zardrax
@@ -539,6 +531,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 47.2, 79.8, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
+					i(154724),	-- Ceremonial Torch (QI!)
 					i(155322),	-- Death-Pledged Gauntlets
 					i(155329),	-- Death-Pledged Leggings
 					i(155321),	-- Loa Speaker's Gloves
@@ -547,7 +540,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(155327),	-- Nazmani Warplate Greaves
 					i(155330),	-- Ritual Flayer's Breeches
 					i(155319),	-- Ritual Flayer's Gloves
-					i(154724),	-- Ceremonial Torch
 				},
 			}),
 			q(47105, {	-- Into The Darkness
@@ -681,18 +673,11 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(159013),	-- Nazmani Warplate Stompers
 					i(159016),	-- Ritual Flayer's Footwraps
 					i(158983),	-- Ritual Flayer's Grips
-					i(158588, {	-- Wickerwoven Walkers (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158590, {	-- Crone-Seeker's Striders (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158591, {	-- Waycrest Militia Footguards (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158589, {	-- Banisher Striders
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					--
+					a(i(158589)),	-- Banisher Striders
+					a(i(158590)),	-- Crone-Seeker's Striders
+					a(i(158591)),	-- Waycrest Militia Footguards
+					a(i(158588)),	-- Wickerwoven Walkers
 				},
 			}),
 			q(47264, {	-- Leave None Standing
@@ -809,18 +794,16 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(153572),	-- Nagla's Head (QI!)
-					i(159092),	-- Grim Ritual Mace
-					i(159094),	-- Bloodsinger Wand
 					i(159089),	-- Amaki Scalper
-					i(159091),	-- Bloodrite Sticker
-					i(159093),	-- Marrow Drained Bonestaff
-					i(159090),	-- Crawgmother's Shortbow
-					i(159096),	-- Nagla's Headcracker
 					i(159095),	-- Bloodhunter Greatblade
-					i(161293, {	-- Thrasneck Greatblade (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-
+					i(159091),	-- Bloodrite Sticker
+					i(159094),	-- Bloodsinger Wand
+					i(159090),	-- Crawgmother's Shortbow
+					i(159092),	-- Grim Ritual Mace
+					i(159093),	-- Marrow Drained Bonestaff
+					i(159096),	-- Nagla's Headcracker
+					--
+					a(i(161293)),	-- Thrasneck Greatblade
 				},
 			}),
 			q(48854, {	-- Offer of Power
@@ -1194,26 +1177,19 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 44.1, 62.8, NAZMIR },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(159034),	-- Nazmani Warplate Greatbelt
-					i(159025),	-- Nazmani Warplate Legplates
-					i(159035),	-- Loa Speaker's Cincture
-					i(159026),	-- Loa Speaker's Legwraps
 					i(159036),	-- Death-Pledged Chain
 					i(159027),	-- Death-Pledged Breeches
+					i(159035),	-- Loa Speaker's Cincture
+					i(159026),	-- Loa Speaker's Legwraps
+					i(159034),	-- Nazmani Warplate Greatbelt
+					i(159025),	-- Nazmani Warplate Legplates
 					i(159037),	-- Ritual Flayer's Girdle
 					i(159028),	-- Ritual Flayer's Pants
-					i(158619, {	-- Wickerwoven Waistband (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158621, {	-- Crone-Seeker's Cincture (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158622, {	-- Waycrest Militia Buckle (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158620, {	-- Banisher Waistwrap
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					--
+					a(i(158620)),	-- Banisher Waistwrap
+					a(i(158621)),	-- Crone-Seeker's Cincture
+					a(i(158622)),	-- Waycrest Militia Buckle
+					a(i(158619)),	-- Wickerwoven Waistband
 				},
 			}),
 			q(48577, {	-- Terrorizing Their Eggs

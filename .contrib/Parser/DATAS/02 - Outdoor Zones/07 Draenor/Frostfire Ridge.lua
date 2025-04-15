@@ -1059,18 +1059,11 @@ root(ROOTS.Zones, {
 							i(106134),	-- Frostwolf Scout's Armwraps
 							i(106145),	-- Frostwolf Stalwart Bracers
 							i(106158),	-- Frostwolf Wind-Talker Cuffs
-							i(106155, {	-- Karabor Honor Guard Wristwraps
-								["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-							}),
-							i(106165, {	-- Karabor Sage Wristwraps
-								["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-							}),
-							i(106144, {	-- Karabor Skirmisher Wristwraps
-								["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-							}),
-							i(106178, {	-- Rangari Initiate Wristwraps
-								["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-							}),
+							--
+							a(i(106155)),	-- Karabor Honor Guard Wristwraps
+							a(i(106165)),	-- Karabor Sage Wristwraps
+							a(i(106144)),	-- Karabor Skirmisher Wristwraps
+							a(i(106178)),	-- Rangari Initiate Wristwraps
 						},
 					}),
 					q(33526, {	-- These Colors Don't Run

@@ -26,26 +26,21 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 125922 },	-- Brother Therold
 				["g"] = {
 					i(152401),	-- Bunch of Seaweed (QI!)
-					i(160097),	-- Navigator's Wristwraps
 					i(160098),	-- Freebooter Bands
-					i(160099),	-- Outrigger Bands
-					i(160100),	-- Sea Raider's Shackles
-					i(158260),	-- Navigator's Grips
 					i(158258),	-- Freebooter Handwraps
+					i(158260),	-- Navigator's Grips
+					i(160097),	-- Navigator's Wristwraps
+					i(160099),	-- Outrigger Bands
 					i(158261),	-- Outrigger Handguards
 					i(158259),	-- Sea Raider's Handguards
-					i(161236, {	-- Zanchuli Bracers (confirmed)
-						["races"] = HORDE_ONLY,	-- horde appearance with no other source, granted by learning Alliance appearance
-					}),
-					i(161237, {	-- Jambani Bands (confirmed)
-						["races"] = HORDE_ONLY,	-- horde appearance with no other source, granted by learning Alliance appearance
-					}),
+					i(160100),	-- Sea Raider's Shackles
+					--
+					h(i(161237)),	-- Jambani Bands
+					h(i(161239)),	-- Rastari Armbands
+					h(i(161236)),	-- Zanchuli Bracers
 					--i(161238, {	-- Torcalin Bands
 					--	["races"] = HORDE_ONLY,	-- horde appearance with no other source, granted by learning Alliance appearance
 					--}),
-					i(161239, {	-- Rastari Armbands (confirmed)
-						["races"] = HORDE_ONLY,	-- horde appearance with no other source, granted by learning Alliance appearance
-					}),
 				},
 			}),
 			q(49869, {	-- A Desperate Defense
@@ -96,26 +91,23 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 130101 },	-- Recruit Brutis
 				["g"] = {
-					i(158256),	-- Navigator's Mitts
 					i(158254),	-- Freebooter Grips
+					i(158253),	-- Freebooter Pantaloons
+					i(158256),	-- Navigator's Mitts
+					i(158251),	-- Navigator's Woolies
+					i(158252),	-- Outrigger Pants
 					i(158257),	-- Outrigger Strikers
 					i(158255),	-- Sea Raider's Crushers
-					i(158251),	-- Navigator's Woolies
-					i(158253),	-- Freebooter Pantaloons
-					i(158252),	-- Outrigger Pants
 					i(158250),	-- Sea Raider's Legguards
-					i(161246, {	-- Zanchuli Woolies (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
+					--
+					h(i(161253)),	-- Rastari Greaves
+					h(i(161246)),	-- Zanchuli Woolies
 					--i(161249, {	-- Jambani Britches
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
 					--i(161251, {	-- Torcalin Leggings
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
-					i(161253, {	-- Rastari Greaves (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
 				},
 			}),
 			q(55647, {	-- A Quick Ear Hustle
@@ -437,29 +429,24 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 125962 },	-- Manager Yerold
 				["g"] = {
-					i(160083),	-- Navigator's Footwraps
-					i(160084),	-- Freebooter Shoes
-					i(160085),	-- Outrigger Waders
-					i(160086),	-- Sea Raider's Boots
-					i(160093),	-- Navigator's Waistwrap
 					i(160094),	-- Freebooter Cord
+					i(160084),	-- Freebooter Shoes
+					i(160083),	-- Navigator's Footwraps
+					i(160093),	-- Navigator's Waistwrap
+					i(160085),	-- Outrigger Waders
 					i(160095),	-- Outrigger Waistwrap
+					i(160086),	-- Sea Raider's Boots
 					i(160096),	-- Sea Raider's Cinch
-					i(161242, {	-- Zanchuli Belt (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
+					--
+					h(i(161245)),	-- Rastari Cincture
+					h(i(161242)),	-- Zanchuli Belt
+					h(i(158657)),	-- Zanchuli Shoes
 					--i(161243, {	-- Jambani Cincture
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
 					--i(161244, {	-- Torcalin Cincture
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
-					i(161245, {	-- Rastari Cincture (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
-					i(158657, {	-- Zanchuli Shoes (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
 					-- I am not sure with Torcalin Striders
 					--i(158656, {	-- Torcalin Striders
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
@@ -645,11 +632,13 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 131684 },	-- Penny "Precious" Hardwick
 				["g"] = {
-					i(160087),	-- Penny's Friendship Ring
-					i(158264),	-- Navigator's Handwraps
 					i(158262),	-- Freebooter Mitts
+					i(158264),	-- Navigator's Handwraps
 					i(158265),	-- Outrigger Grips
+					i(160087),	-- Penny's Friendship Ring
 					i(158263),	-- Sea Raider's Gloves
+					--
+					h(i(158664)),	-- Rastari Grips
 					--[[ - did not get this item here (confirmed)
 					i(158663, {	-- Zanchuli Grasps
 						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
@@ -663,9 +652,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					--i(158662, {	-- Torcalin Grasps
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
-					i(158664, {	-- Rastari Grips (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
 				},
 			}),
 			q(49394, {	-- Hold Still
@@ -1101,23 +1087,19 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 129578 },	-- Shawn McClinter
 				["g"] = {
 					i(153679),	-- Tether Shot (QI!)
+					i(158241),	-- Freebooter Striders
 					i(158228),	-- Gryphon Rider's Ring
 					i(158239),	-- Navigator's Walkers
-					i(158241),	-- Freebooter Striders
 					i(158240),	-- Outrigger Striders
 					i(158238),	-- Sea Raider's Footguards
-					--i(158657, {	-- Zanchuli Shoes
-					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					--}),
+					--
+					h(i(158658)),	-- Rastari Greatboots
 					--i(158655, {	-- Jambani Boots
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
 					--i(158656, {	-- Torcalin Striders
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
-					i(158658, {	-- Rastari Greatboots (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
 				},
 			}),
 			q(48670, {	-- Runaway Rider
@@ -1348,9 +1330,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(158296),	-- Angler's Longstaff
 					i(158295),	-- Shark-Hunter Glaive
 					i(155064),	-- Wharf-Porter Cudgel
-					i(155272, {	-- Loa-Defender's Waraxe (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
+					--
+					h(i(161311)),	-- Crescent of Zak'rajan
+					h(i(155272)),	-- Loa-Defender's Waraxe
 				},
 			}),
 			q(51199, {	-- The Glory of the Hunt
@@ -1453,26 +1435,21 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["provider"] = { "n", 125309 },	-- Abbey Watkins
 				["g"] = {
 					i(152642),	-- Soft Stoat Pelt (QI!)
-					i(158247),	-- Navigator's Pants
+					i(158279),	-- Freebooter Bindings
 					i(158249),	-- Freebooter Pants
+					i(158276),	-- Navigator's Bindings
+					i(158247),	-- Navigator's Pants
+					i(158278),	-- Outrigger Bindings
 					i(158248),	-- Outrigger Links
 					i(158246),	-- Sea Raider's Chausses
-					i(158276),	-- Navigator's Bindings
-					i(158279),	-- Freebooter Bindings
-					i(158278),	-- Outrigger Bindings
 					i(158277),	-- Sea Raider's Wristguards
-					i(158675, {	-- Zanchuli Bracelets (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
-					i(158672, {	-- Jambani Bracers (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
+					--
+					h(i(158672)),	-- Jambani Bracers
+					h(i(158674)),	-- Rastari Wristwraps
+					h(i(158675)),	-- Zanchuli Bracelets
 					--i(158673, {	-- Torcalin Armguards
 					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					--}),
-					i(158674, {	-- Rastari Wristwraps (confirmed)
-						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					}),
 				},
 			}),
 			q(50058, {	-- The Witch's Pet

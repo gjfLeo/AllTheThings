@@ -141,22 +141,17 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["g"] = {
 					i(161188),	-- Fangcaller's Staff
 					i(155443),	-- Sandcaster's Conductive Scimitar
-					i(161189),	-- Sethrak Warden's Staff
 					i(161190),	-- Sandscout's Kris
+					i(161194),	-- Sethrak Aggressor's Scimitar
+					i(161193),	-- Sethrak Ravager's Claws
 					i(161191),	-- Sethrak Sandscout's Bow
 					i(161192),	-- Sethrak Warbringer's Scimitar
-					i(161193),	-- Sethrak Ravager's Claws
-					i(161194),	-- Sethrak Aggressor's Scimitar
 					i(161195),	-- Sethrak Warden's Scimitar
-					i(161309, {	-- Ashvane Captain's Gladius
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(161305, {	-- Ashvane Captain's Shortsword
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(161300, {	-- Stoat-Trapper's Striker
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(161189),	-- Sethrak Warden's Staff
+					--
+					a(i(161309)),	-- Ashvane Captain's Gladius
+					a(i(161305)),	-- Ashvane Captain's Shortsword
+					a(i(161300)),	-- Stoat-Trapper's Striker
 				},
 			}),
 			q(47327, {	-- Answering Their Attacks
@@ -466,26 +461,19 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 65.9, 36.6, VOLDUN },	-- Shrouded Hollow
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(155413),	-- Lastwind Bands
-					i(159981),	-- Lastwind Handwraps
-					i(155416),	-- Scorching Sands Wristwraps
-					i(159983),	-- Scorching Sands Handwraps
-					i(155415),	-- Resilient Outcast's Vambraces
-					i(159980),	-- Resilient Outcast's Guantlets
 					i(155414),	-- Exiled Veteran's Armguards
 					i(159982),	-- Exiled Veteran's Crushers
-					i(158696, {	-- Tidespeaker Mitts (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158695, {	-- Dread Corsair Handguards (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158694, {	-- Darkwater Grips
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158697, {	-- Stormchaser Grips
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(155413),	-- Lastwind Bands
+					i(159981),	-- Lastwind Handwraps
+					i(159980),	-- Resilient Outcast's Guantlets
+					i(155415),	-- Resilient Outcast's Vambraces
+					i(159983),	-- Scorching Sands Handwraps
+					i(155416),	-- Scorching Sands Wristwraps
+					--
+					a(i(158694)),	-- Darkwater Grips
+					a(i(158695)),	-- Dread Corsair Handguards
+					a(i(158696)),	-- Tidespeaker Mitts
+					a(i(158697)),	-- Stormchaser Grips
 				},
 			}),
 			q(50770, {	-- Effective Antivenom
@@ -1366,26 +1354,19 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(152660),	-- Weathered Satchel (QI!)
+					i(161275),	-- Exiled Veteran's Armbands
 					i(155400),	-- Exiled Veteran's Wargreaves
 					i(155401),	-- Lastwind Trousers
-					i(155402),	-- Resilient Outcast's Greaves
-					i(155403),	-- Scorching Sands Breeches
 					i(161269),	-- Lastwind Wristguards
-					i(161271),	-- Scorching Sands Bindings
+					i(155402),	-- Resilient Outcast's Greaves
 					i(161273),	-- Resilient Outcast's Wristguards
-					i(161275),	-- Exiled Veteran's Armbands
-					i(160385, {	-- Tidespeaker Bracers (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(160394, {	-- Dread Corsair Shackles (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(160388, {	-- Darkwater Bands
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(160391, {	-- Stormchaser Coils
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(161271),	-- Scorching Sands Bindings
+					i(155403),	-- Scorching Sands Breeches
+					--
+					a(i(160388)),	-- Darkwater Bands
+					a(i(160394)),	-- Dread Corsair Shackles
+					a(i(160391)),	-- Stormchaser Coils
+					a(i(160385)),	-- Tidespeaker Bracers
 				},
 			}),
 			q(50561, {	-- Sulthis' Stone
@@ -1396,13 +1377,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["g"] = {
 					i(157865),	-- Sulthis' Stone (QI!)
 					i(159984),	-- Exiled Veteran's Girdle
-					i(159985),	-- Lastwind Sash
-					i(159986),	-- Scorching Sands Girdle
-					i(159987),	-- Resilient Outcast's Clasp
 					i(159988),	-- Exiled Veteran's Stompers
+					i(159985),	-- Lastwind Sash
 					i(159989),	-- Lastwind Slippers
+					i(159987),	-- Resilient Outcast's Clasp
 					i(159990),	-- Resilient Outcast's Sabatons
 					i(159991),	-- Scorching Sands Boots
+					i(159986),	-- Scorching Sands Girdle
 				},
 			}),
 			q(49437, {	-- Tattered Note
@@ -1496,20 +1477,17 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 51.9, 28.7, VOLDUN },	-- Skycallers' Spire
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(155440),	-- Korthek's Greatstaff
-					i(155434),	-- Skycaller's Ceremonial Mace
-					i(160033),	-- Sethraliss-Blessed Shortblade
-					i(160034),	-- Spireguard's Greatbow
-					i(160032),	-- Korthek's Staff
 					i(155417),	-- Keeper's Crescent
-					i(155418),	-- Spireguard's Waraxe
+					i(155440),	-- Korthek's Greatstaff
+					i(160032),	-- Korthek's Staff
 					i(155444),	-- Sethraliss-Blessed Greatblade
-					i(155146, {	-- Swinestained Pummeler (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(161292, {	-- Grimestone Spellmaul
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(160033),	-- Sethraliss-Blessed Shortblade
+					i(155434),	-- Skycaller's Ceremonial Mace
+					i(160034),	-- Spireguard's Greatbow
+					i(155418),	-- Spireguard's Waraxe
+					--
+					a(i(161292)),	-- Grimestone Spellmaul
+					a(i(155146)),	-- Swinestained Pummeler
 				},
 			}),
 			q(51061, {	-- The First Time I Died
@@ -1587,26 +1565,19 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 47.9, 36.4, VOLDUN },	-- Vorrik's Sanctum
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(160017),	-- Resilient Outcast's Handguards
-					i(160018),	-- Lastwind Gloves
 					i(160019),	-- Exiled Veteran's Gauntlets
-					i(160020),	-- Scorching Sands Gloves
 					i(159992),	-- Exiled Veteran's Legguards
+					i(160018),	-- Lastwind Gloves
 					i(159993),	-- Lastwind Legwraps
 					i(159994),	-- Resilient Outcast's Breeches
+					i(160017),	-- Resilient Outcast's Handguards
+					i(160020),	-- Scorching Sands Gloves
 					i(159995),	-- Scorching Sands Pants
-					i(158704, {	-- Tidespeaker Legwraps (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158705, {	-- Stormchaser Links (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158703, {	-- Dread Corsair Chausses (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(158706, {	-- Darkwater Trousers
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					--
+					a(i(158706)),	-- Darkwater Trousers
+					a(i(158703)),	-- Dread Corsair Chausses
+					a(i(158705)),	-- Stormchaser Links
+					a(i(158704)),	-- Tidespeaker Legwraps
 				},
 			}),
 			q(49227, {	-- The Master Key
@@ -1886,14 +1857,13 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 56.6, 10.3, VOLDUN },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(161183),	-- Honorable Tiger's Cloak
-					i(161184),	-- Scorching Sands Leggings
-					i(161185),	-- Resilient Outcast's Legplates
-					i(161186),	-- Lastwind Pants
 					i(161187),	-- Exiled Veteran's Leg Armor
-					i(161296, {	-- Autumnvale Hunting Rifle (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(161183),	-- Honorable Tiger's Cloak
+					i(161186),	-- Lastwind Pants
+					i(161185),	-- Resilient Outcast's Legplates
+					i(161184),	-- Scorching Sands Leggings
+					--
+					a(i(161296)),	-- Autumnvale Hunting Rifle
 				},
 			}),
 			q(48330, {	-- Zandalari Treasure Trove
@@ -1906,22 +1876,19 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 45.3, 46.2, VOLDUN },
 				["races"] = HORDE_ONLY,
 				["g"] = {
-					i(155445),	-- Mugabu's Soulwand
-					i(155431),	-- Zak'rajan's Hexmace
-					i(155423),	-- Soulwrenching Shortblade
 					i(155421),	-- Jam'jen's Shortbow
-					i(155438),	-- Trapped Soul Warstaff
-					i(155427),	-- Soulwrenching Claws
+					i(155445),	-- Mugabu's Soulwand
 					i(155432),	-- Soul-Cursed Skullcracker
 					i(160028),	-- Soul-Cursed Warglaive
 					i(155433),	-- Soul-Cursed Warmaul
+					i(155427),	-- Soulwrenching Claws
+					i(155423),	-- Soulwrenching Shortblade
 					i(155430),	-- Trapped Soul Warmace
-					i(161301, {	-- Storm's Wake Mace (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(161304, {	-- Mad-Butcher's Mace (confirmed)
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(155438),	-- Trapped Soul Warstaff
+					i(155431),	-- Zak'rajan's Hexmace
+					--
+					a(i(161304)),	-- Mad-Butcher's Mace
+					a(i(161301)),	-- Storm's Wake Mace
 				},
 			}),
 			n(BONUS_OBJECTIVES, sharedData({

@@ -981,25 +981,18 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					i(155246),	-- Jambani Grips
-					i(155247),	-- Rastari Gauntlets
-					i(155248),	-- Zanchuli Handwraps
-					i(155249),	-- Torcalin Gloves
-					i(155263),	-- Rastari Waistguard
-					i(155264),	-- Zanchuli Sash
-					i(155265),	-- Torcalin Girdle
 					i(155266),	-- Jambani Waistwrap
-					i(155047, {	-- Freebooter Belt
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(155045, {	-- Navigator's Sash
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(155046, {	-- Outrigger Belt
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
-					i(155044, {	-- Sea Raider's Girdle
-						["races"] = ALLIANCE_ONLY,	-- Alliance appearance with no other source, granted by learning Horde appearance
-					}),
+					i(155247),	-- Rastari Gauntlets
+					i(155263),	-- Rastari Waistguard
+					i(155265),	-- Torcalin Girdle
+					i(155249),	-- Torcalin Gloves
+					i(155248),	-- Zanchuli Handwraps
+					i(155264),	-- Zanchuli Sash
+					--
+					a(i(155047)),	-- Freebooter Belt
+					a(i(155045)),	-- Navigator's Sash
+					a(i(155046)),	-- Outrigger Belt
+					a(i(155044)),	-- Sea Raider's Girdle
 				},
 			}),
 			q(55650, {	-- Only the Best Will Do
