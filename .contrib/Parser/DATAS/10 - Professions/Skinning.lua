@@ -250,10 +250,6 @@ root(ROOTS.Professions, prof(SKINNING, {
 		n(QUESTS, {
 			q(70363, {	-- Dragon Isles Skinning
 				["description"] = "Do NOT skin any Dragon Isles creatures. This quest can only be picked up PRIOR to learning Dragon Isles Skinning.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 192558 },	-- Toninaar
 				["coord"] = { 76.7, 34.8, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "spellID", 366263},	-- Dragon Isles Skinning

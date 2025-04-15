@@ -803,10 +803,6 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 		n(QUESTS, {
 			q(70355, {	-- Dragon Isles Alchemy
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Alchemy.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 191893 },	-- Zherrak
 				["coord"] = { 60.3, 72.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,
@@ -816,10 +812,6 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			}),
 			q(72245, {	-- Dragon Isles Alchemy
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Alchemy.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 198392 },	-- An'timon
 				["coord"] = { 76.2, 35.8, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,

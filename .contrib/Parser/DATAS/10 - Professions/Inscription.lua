@@ -5074,10 +5074,6 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 		n(QUESTS, {
 			q(70361, {	-- Dragon Isles Inscription
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Inscription.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 198125 },	-- Isarian Shadowplume <Inscription Trainer>
 				["coord"] = { 57.1, 58.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,
@@ -5087,10 +5083,6 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			}),
 			q(72244, {	-- Dragon Isles Inscription
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Inscription.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 198380 },	-- Journalist Jessamine Spitz
 				["coord"] = { 76.1, 35.5, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,

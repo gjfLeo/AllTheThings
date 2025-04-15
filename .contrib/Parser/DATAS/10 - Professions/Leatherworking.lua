@@ -1043,10 +1043,6 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 		n(QUESTS, {
 			q(70362, {	-- Dragon Isles Leatherworking
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Leatherworking.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 192048 },	-- Deidre Flemmin
 				["coord"] = { 76.6, 34.7, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "spellID", 366249 },	-- Dragon Isles Leatherworking

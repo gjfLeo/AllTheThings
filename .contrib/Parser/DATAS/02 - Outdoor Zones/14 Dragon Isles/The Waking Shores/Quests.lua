@@ -956,13 +956,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			header(HEADERS.AchCriteria, 16406.01, {	-- Captain Garrick & Shuja Grimaxe
 				q(67053, {	-- Give Peace a Chance [A]
-					["sourceQuests"] = { 67700 },	-- To The Dragon Isles! [A]
 					["provider"] = { "n", 184449 },	-- Captain Garrick
 					["coord"] = { 76.7, 34.6, THE_WAKING_SHORES },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(66110, {	-- Give Peace a Chance [H]
-					["sourceQuests"] = { 65444 },	-- To the Dragon Isles! [H]
 					["provider"] = { "n", 184452 },	-- Warlord Breka Grimaxe
 					["coord"] = { 76.4, 33.1, THE_WAKING_SHORES },
 					["races"] = HORDE_ONLY,

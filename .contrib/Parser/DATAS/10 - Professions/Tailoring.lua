@@ -505,10 +505,6 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 		n(QUESTS, {
 			q(72249, {	-- Dragon Isles Tailoring
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Tailoring.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 192565 },	-- Zayn Starmaker <Tailoring Trainer>
 				["coord"] = { 75.8, 33.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,
@@ -518,10 +514,6 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 			}),
 			q(70366, {	-- Dragon Isles Tailoring
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Tailoring.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 191894 },	-- Krillonn
 				["coord"] = { 61.3, 70.1, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,
@@ -3904,7 +3896,7 @@ profession(TAILORING, {
 					["recipeID"] = 75252
 				},
 				-- #if ANYCLASSIC
-				
+
 				-- #endif
 				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Endless Dream Walkers",

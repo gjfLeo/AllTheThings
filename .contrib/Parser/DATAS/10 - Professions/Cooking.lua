@@ -870,21 +870,12 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 		n(QUESTS, {
 			q(72251, {	-- Dragon Isles Cooking
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Cooking.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 193121 },	-- Head Chef Stacks
 				["coord"] = { 47.1, 82.7, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "spellID", 366256 },	-- Dragon Isles Cooking
-
 			}),
 			q(72250, {	-- Dragon Isles Cooking
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Cooking.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 198094 },	-- Head Chef Stacks
 				["coord"] = { 76.4, 35.7, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1, "spellID", 366256 },	-- Dragon Isles Cooking

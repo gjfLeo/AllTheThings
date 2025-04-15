@@ -1191,10 +1191,6 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			}),
 			q(72242, {	-- Dragon Isles Engineering
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Engineering.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 190535 },	-- Quizla Blastcaps
 				["coord"] = { 75.9, 33.2, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,
@@ -1204,10 +1200,6 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 			}),
 			q(70359, {	-- Dragon Isles Engineering
 				["description"] = "This quest can only be picked up PRIOR to learning Dragon Isles Engineering.",
-				["sourceQuests"] = {
-					67700,	-- To the Dragon Isles! [A]
-					65444,	-- To the Dragon Isles! [H]
-				},
 				["provider"] = { "n", 192165 },	-- Winnie Fingerspring <Engineering Trainer>
 				["coord"] = { 43.0, 66.5, THE_WAKING_SHORES },
 				["lockCriteria"] = { 1,
