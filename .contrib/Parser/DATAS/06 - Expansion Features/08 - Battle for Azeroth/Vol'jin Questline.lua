@@ -61,7 +61,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 		}),
 		q(51517, {	-- You Owe Me a Spirit
 			["sourceQuest"] = 51516,	-- Atal'Dazar: Ashes of a Warchief
-			["provider"] = { "n", 140405 },	-- Bwonsamdi
+			["provider"] = { "n", 138148 },	-- Bwonsamdi
 			["maps"] = { 934, 935 },	-- Atal'Dazar
 			["g"] = {
 				crit(40709, {	-- The Fallen Chieftain

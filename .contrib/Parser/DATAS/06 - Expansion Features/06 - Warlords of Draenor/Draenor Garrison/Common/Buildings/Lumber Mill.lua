@@ -50,6 +50,7 @@ root(ROOTS.ExpansionFeatures,
 							},
 						}),
 						q(36448, {	-- Reduction in Force
+							["description"] = "Weldon Barov must be an active follower (ideally assigned to a building) to be available to give this quest.",
 							["sourceQuest"] = 36429,	-- The Rise and Fall of Barov Industries: Weldon Barov
 							["provider"] = { "n", 85413 },	-- Weldon Barov <Barov Industries>
 							["races"] = ALLIANCE_ONLY,
@@ -58,6 +59,7 @@ root(ROOTS.ExpansionFeatures,
 							},
 						}),
 						q(36449, {	-- Reduction in Force
+							["description"] = "Weldon Barov must be an active follower (ideally assigned to a building) to be available to give this quest.",
 							["sourceQuests"] = { 36427 },	-- The Rise and Fall of Barov Industries: Alexi Barov
 							["provider"] = { "n", 85414 },	-- Alexi Barov <Barov Industries>
 							["races"] = HORDE_ONLY,

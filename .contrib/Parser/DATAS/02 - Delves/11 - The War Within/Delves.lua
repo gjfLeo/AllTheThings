@@ -2841,6 +2841,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(215466),	-- Sanctified Supplies (QI!)
 				i(216420),	-- Symbol of Light (QI!)
 				i(216433),	-- Stolen Relic (QI!)
+				i(232874, { ["timeline"] = { ADDED_11_1_0 } }),	-- Undermine Stockpile (QI!)
 			}),
 			n(QUESTS, {
 				q(83755, {	-- Delves: Nightfall Sanctum

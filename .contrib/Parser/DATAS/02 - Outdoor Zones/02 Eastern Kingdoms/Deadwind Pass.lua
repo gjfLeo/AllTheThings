@@ -212,6 +212,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #if AFTER 10.2.5
 			n(TREASURES, {
 				o(421150, {	-- Carved Eye
+					["description"] = "Behind the wooden door",
 					["coord"] = { 43.9, 72.8, DEADWIND_PASS },
 					["timeline"] = { ADDED_10_2_5 },
 					["g"] = {

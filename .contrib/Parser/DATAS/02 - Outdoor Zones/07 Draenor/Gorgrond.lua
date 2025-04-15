@@ -713,10 +713,10 @@ root(ROOTS.Zones, {
 							["provider"] = { "n", 75127 },	-- Vindicator Maraad
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuests"] = {
-								35508,	-- Chapter I: Plant Food (Lumber Yard)
-								35527,	-- Chapter II: The Harvest (Lumber Yard)
-								35524,	-- Chapter III: Ritual of the Charred (Lumber Yard)
-								35652,	-- Growing Wood (Lumber Yard)
+								35508,	-- Chapter I: Plant Food
+								35527,	-- Chapter II: The Harvest
+								35524,	-- Chapter III: Ritual of the Charred
+								35652,	-- Growing Wood
 								35255,	-- Power of the Genesaur
 							},
 							["g"] = {
@@ -726,12 +726,14 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(36574, {	-- Strike While the Iron is Hot (H)
+							["provider"] = { "n", 74594 },	-- Durotan <Chieftain of the Frostwolf Clan>
 							["races"] = HORDE_ONLY,
 							["sourceQuests"] = {
 								35508,	-- Chapter I: Plant Food
 								35527,	-- Chapter II: The Harvest
 								35524,	-- Chapter III: Ritual of the Charred
 								35506,	-- Growing Wood
+								35416,	-- Power of the Genesaur
 							},
 							["g"] = {
 								i(112885),	-- Commander Gar's Iron Insignia
@@ -1227,7 +1229,7 @@ root(ROOTS.Zones, {
 							},
 						}),
 						q(36573, {	-- Strike While the Iron is Hot (H)
-							["provider"] = { "n", 74594 },	-- Durotan
+							["provider"] = { "n", 74594 },	-- Durotan <Chieftain of the Frostwolf Clan>
 							["coord"] = { 46.1, 70.1, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuests"] = {

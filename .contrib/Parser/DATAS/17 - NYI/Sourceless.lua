@@ -253,7 +253,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				}),
 				filter(MAIL, {
 					i(158656),	-- Torcalin Striders
-					i(158662),	-- Torcalin Grasps
 					i(158673),	-- Torcalin Armguards
 					i(161146),	-- Torcalin Harness
 					i(161148),	-- Torcalin Shoulderguards
@@ -384,7 +383,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(158569),	-- Dinomancy Cudgel
 				i(158577),	-- Devilsaur Voodoo Figure
 				i(158565),	-- Tiki-Thumper
-				i(161311),	-- Crescent of Zak'rajan
 				i(161287),	-- Faithless Wingrider's Shield
 				i(158562),	-- Howdah-Rider's Bow
 				i(154971),	-- Howdah-Rider's Bow

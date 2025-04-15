@@ -385,8 +385,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						41596,	-- Garbage In, Garbage Out
 						--x,	--
 						41119,	-- One Rank Higher
-						41211,	-- A Good Day to Dye Hard [Both or One?]
-						41337,	-- Sleep with the Fishes [Both or One?]
+						41337,	-- Sleep with the Fishes
 						41347,	-- Scheming on a Thing
 					}},
 					["g"] = {
@@ -762,8 +761,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(88856),	-- The Junkmaker Trash
 			-- Heroic
 			q(88836),	-- Guk Boomdog Trash
-			q(88837),	-- King Flamespite/Professor Boomspark Trash
-			q(88841),	-- King Flamespite/Professor Boomspark Trash
+			q(88837),	-- Professor Boomspark Trash
+			q(88841),	-- King Flamespite Trash
 			q(88845),	-- Skiggy Muckheimer Trash
 			q(88866),	-- Trashmaster Blazedump Trash
 			q(88831),	-- Scraps Trash
@@ -775,8 +774,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(88839),	-- King Flamespite/Professor Boomspark Trash
 			q(88843),	-- King Flamespite/Professor Boomspark Trash
 			q(88847),	-- Skiggy Muckheimer Trash
-			--q(),	-- Trashmaster Blazedump Trash
-			--q(),	-- Scraps Trash
+			q(88868),	-- Trashmaster Blazedump Trash
+			q(88832),	-- Scraps Trash
 			--q(),	-- Globikus Trash
 			--q(),	-- Melbo The Magnificent Trash
 			--q(),	-- The Junkmaker Trash

@@ -107,6 +107,7 @@ root(ROOTS.ExpansionFeatures,
 						["sourceQuests"] = { 45838 },	-- Assault on Azsuna
 						["repeatable"] = true,
 						["provider"] = { "n", 118942 },	-- Prince Farondis
+						["coord"] = { 56.0, 60.8, AZSUNA },
 					}),
 					q(45406, {	-- The Storm's Fury
 						["sourceQuests"] = { 45839 },	-- Assault on Stormheim

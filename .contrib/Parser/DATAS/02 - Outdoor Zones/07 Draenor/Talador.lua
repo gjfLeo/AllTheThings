@@ -1691,11 +1691,15 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(36843, {	-- They Came From Above
-						["sourceQuests"] = { 34579 },	-- Gas Guzzlers
-						["lockCriteria"] = { 1, "questID", 33740 },	-- Burning Sky
 						["provider"] = { "n", 86522 },	-- Akhan
 						["coord"] = { 67.4, 42.2, TALADOR },
+						["lockCriteria"] = { 1, "questID", 33740 },	-- Burning Sky
 						["isBreadcrumb"] = true,
+						["sourceQuestNumRequired"] = 1,
+						["sourceQuests"] = {
+							34579,	-- Gas Guzzlers [H]
+							34875,	-- Next Steps [A]
+						},
 					}),
 					q(34087, {	-- Through the Looking Glass
 						["provider"] = { "n", 75803 },	-- Vindicator Maraad

@@ -56,7 +56,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				}),
 				q(24510, {	-- Inside the Frozen Citadel (A)
 					["qg"] = 37776,	-- Apprentice Nelphi <Kirin Tor>
-					["coord"] = { 46.0, 68.1, NORTHREND_DALARAN },
+					["coords"] = {
+						{ 46.0, 68.1, NORTHREND_DALARAN },
+						{ 46.1, 76.8, NORTHREND_DALARAN },
+					},
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
 					["lvl"] = lvlsquish(78, 78, 25),

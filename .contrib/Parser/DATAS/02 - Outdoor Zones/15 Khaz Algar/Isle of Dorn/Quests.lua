@@ -529,7 +529,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(219961),	-- Fresh Mug of Cinderbrew Mead (QI!)
 						i(220115),	-- Loldren's Market Audit (QI!)
 						o(415584, {	-- Sizzling Magma Core
-							i(211863),	-- Sizzling Magma Core (QI!)
+							["coord"] = { 50.2, 63.4, DORNOGAL },
+							["g"] = { i(211863) },	-- Sizzling Magma Core (QI!)
 						}),
 					},
 				}),

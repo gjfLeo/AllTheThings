@@ -639,6 +639,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(158263),	-- Sea Raider's Gloves
 					--
 					h(i(158664)),	-- Rastari Grips
+					h(i(158662)),	-- Torcalin Grasps
 					--[[ - did not get this item here (confirmed)
 					i(158663, {	-- Zanchuli Grasps
 						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
@@ -649,9 +650,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
 					}),
 					--]]
-					--i(158662, {	-- Torcalin Grasps
-					--	["races"] = HORDE_ONLY,	-- Horde appearance with no other source, granted by learning Alliance appearance
-					--}),
 				},
 			}),
 			q(49394, {	-- Hold Still
@@ -943,7 +941,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["sourceQuests"] = { 49715 },	-- Trouble at Greystone Keep
 				["coord"] = { 81.0, 42.4, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
-				["provider"] = { "n", 133035 },	-- Officer Jovan
+				["provider"] = { "n", 130375 },	-- Tallis Skyheart
 			}),
 			q(49454, {	-- Pest Prevention
 				["sourceQuests"] = { 48369 },	-- Emergent Strategy

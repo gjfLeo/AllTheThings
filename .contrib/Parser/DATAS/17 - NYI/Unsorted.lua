@@ -590,7 +590,6 @@ root(ROOTS.Unsorted, {
 				i(229810),	-- Vintage Kaja'Cola Can
 
 				-- Delve?
-				i(232874),	-- Undermine Stockpile
 				i(233021),	-- Grappling-Grabber 9000
 				i(234616),	-- Supreme Mangoro Madness
 				i(234617),	-- Dulux Bluesberry Blast

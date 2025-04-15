@@ -603,9 +603,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["description"] = "You will not be able to transmog this item.",
 							["timeline"] = { ADDED_7_0_3 },
 						}),
-						i(59253, {	-- Sandrene's Invisible Vest
-							["timeline"] = { ADDED_4_0_3 },
-						}),
 						i(131545, {	-- Spider Venom Legguards
 							["timeline"] = { ADDED_7_0_3 },
 						}),
@@ -640,9 +637,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(131510, {	-- Sandrene's Invisible Hauberk
 							["description"] = "You will not be able to transmog this item.",
 							["timeline"] = { ADDED_7_0_3 },
-						}),
-						i(59253, {	-- Sandrene's Invisible Vest
-							["timeline"] = { ADDED_4_0_3 },
 						}),
 						i(131511, {	-- Spider Venom Legguards
 							["timeline"] = { ADDED_7_0_3 },
