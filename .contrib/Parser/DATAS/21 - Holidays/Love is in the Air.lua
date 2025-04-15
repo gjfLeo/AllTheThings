@@ -1931,7 +1931,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		},
 	}),
 	n(COMMON_VENDOR_ITEMS, {
-		["description"] = "The following items can be purchased from innkeepers.",
+		["sharedDescription"] = "Can be purchased from innkeepers.",
 		["groups"] = {
 			i(21833, {	-- Cologne Bottle
 				["timeline"] = { REMOVED_3_3_2, ADDED_8_1_0 },
@@ -1948,7 +1948,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 		},
 	}),
 	n(DROPS, bubbleDownSelf({["timeline"] = { ADDED_10_2_5 },},{
-		["description"] = "Perfumes and Colognes can be looted from any killed creature related to the Holliday.",
+		["description"] = "Perfumes and Colognes can be looted from any killed creature related to the Holiday.",
 		["groups"] = {
 			i(49859),	-- "Bravado" Cologne
 			i(49857),	-- "Enchantress" Perfume
