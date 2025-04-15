@@ -1086,8 +1086,16 @@ local function OnQUEST_DETAIL(...)
 	local questID = GetQuestID();
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL",questID,...)
 	if questID == 0 then return end
+
 	-- only check logic when the player is not actually on this quest
 	if C_QuestLog_IsOnQuest(questID) then return end
+
+	-- also skip the check if somehow this quest was just turned in but also fired a relevant event afterwards
+	if app.MostRecentQuestTurnIns and app.MostRecentQuestTurnIns[1] == questID then
+		app.PrintDebug(app.Modules.Color.Colorize("Contrib Check attempted on Turned In Quest!",app.Colors.LockedWarning),questID)
+		return
+	end
+
 	local objRef = app.SearchForObject("questID", questID, "field")
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.ref",objRef and objRef.hash)
 	if not objRef then
