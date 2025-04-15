@@ -98,6 +98,12 @@ end
 -- Used to override the precision of coord accuracy based on irregularly sized maps
 -- typically we don't want the report to trigger even when interacting from max range
 -- so can adjust here
+-- To determine the proper value to put into this table:
+-- 1) Go to the map in question with the ability to interact with an object/quest in the zone
+-- 2) Stutter-step to the maximum distance which allows valid interaction
+-- 3) Interact with the object/quest (this should trigger a contrib report link, if not use /att report-reset and try again)
+-- 4) Check the 'coord distance' reported, and round it up to the next whole number
+-- 5) That number goes into this table for the mapID
 local MapPrecisionOverrides = {
 	 [629] = 3,	-- Aegwynn's Gallery
 	[1164] = 3,	-- Dazar'alor
