@@ -247,12 +247,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 							["races"] = HORDE_ONLY,
 						}),
 						q(36870, {	-- Luring Nat
-							["description"] = "Requires upgrading your Fishing Shack to level 3.",
+							["description"] = "Requires upgrading your Fishing Shack to level 3 and having at least 100 Draenor Fishing skill (items/buffs included).",
 							["provider"] = { "n", 85708 },	-- Segumi
 							["races"] = ALLIANCE_ONLY,
 						}),
 						q(36612, {	-- Luring Nat
-							["description"] = "Requires upgrading your Fishing Shack to level 3.",
+							["description"] = "Requires upgrading your Fishing Shack to level 3 and having at least 100 Draenor Fishing skill (items/buffs included).",
 							["provider"] = { "n", 79971 },	-- Rak'jin
 							["races"] = HORDE_ONLY,
 						}),

@@ -1517,7 +1517,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 					q(55052, {	-- Securing Warfang Hold (Sylvanas Version)
 						["sourceQuests"] = { 55034 },	-- Under False Colors (Sylvanas Version)
 						["altQuests"] = { 55047 },	-- Securing Warfang Hold
-						["provider"] = { "n", 146013 },	-- Dark Ranger Alina
+						["provider"] = { "n", 135691 },	-- Nathanos Blightcaller
 						["coord"] = { 58.4, 62.7, ZULDAZAR },
 						["races"] = HORDE_ONLY,
 					}),

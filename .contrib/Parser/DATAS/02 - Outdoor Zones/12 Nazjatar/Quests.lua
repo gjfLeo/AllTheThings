@@ -241,7 +241,10 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["cost"] = { { "i", 171247, 15 } },	-- 15x Abyssal Shard
 		}),
 		q(56813, {	-- An Unexpected Friend
-			["provider"] = { "n", 149904 },	-- Neri Sharpfin
+			["qgs"] = {
+				149904,	-- Neri Sharpfin
+				151300,	-- Kelfin Scout
+			},
 			["races"] = HORDE_ONLY,
 			["description"] = "Offered when |cFFFFD700Neri Sharpfin|r reaches rank 2.",
 			["g"] = {

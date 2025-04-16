@@ -100,7 +100,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					},
 				}),
 				------ Paragon ------
-				q(85805, {	-- Renowned with the Cartels of Undermine (TODO: according to wowhead comment - it is bugged and could be replaced on release)
+				q(85805, {	-- Renowned with the Cartels of Undermine
 					["provider"] = { "n", 231409 },	-- Smaks Topskimmer
 					["coord"] = { 43.8, 50.8, UNDERMINE },
 					["isRepeatable"] = true,
