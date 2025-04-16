@@ -209,6 +209,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 						["questID"] = 73548,
 						["coords"] = {
 							{ 41.7, 44.6, ZARALEK_CAVERN },
+							{ 41.9, 47.1, ZARALEK_CAVERN },
 							{ 40.0, 51.3, ZARALEK_CAVERN },
 							{ 38.1, 49.8, ZARALEK_CAVERN },
 							{ 40.8, 50.2, ZARALEK_CAVERN },
@@ -228,6 +229,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 					o(386090, {	-- Ritual Offerings
 						["questID"] = 73552,
 						["coords"] = {
+							{ 30.1, 51.4, ZARALEK_CAVERN },
 							{ 36.4, 52.3, ZARALEK_CAVERN },
 							{ 35.1, 52.2, ZARALEK_CAVERN },
 							{ 32.0, 52.9, ZARALEK_CAVERN },
