@@ -980,8 +980,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Sample the Love is in the Air candies listed below.","Sweet Tooth",,1702,-1,-1,0,187,0,10,131072,13,135458,0,2023,0,0,0,0
 "Obtain a Bouquet of Red or Ebon Roses during the Love is in the Air celebration.","My Love is Like a Red, Red Rose",,1703,-1,-1,0,187,1,10,0,9,134927,0,10660,0,0,0,0
 "Pity the Love Fool in the locations specified below.","I Pitied The Fool",,1704,-1,-1,0,187,0,10,131072,6,132763,0,11189,0,0,0,0
-"Proud owner of the 2007 Vintage Winter Veil gift, the Clockwork Rocket Bot.","Clockwork Rocket Bot",,1705,-1,-1,0,15274,1,0,2048,17,133202,0,10253,0,0,0,0
-"Proud owner of the 2008 Vintage Winter Veil gift, the Crashin' Thrashin' Racer.","Crashin' Thrashin' Racer",,1706,-1,-1,0,15274,0,0,2048,18,133202,0,9680,0,0,0,0
+"Proud owner of the 2007 Vintage Winter Veil gift, the Clockwork Rocket Bot.","Clockwork Rocket Bot",,1705,-1,-1,0,15274,1,0,133120,17,133202,0,10253,0,0,0,0
+"Proud owner of the 2008 Vintage Winter Veil gift, the Crashin' Thrashin' Racer.","Crashin' Thrashin' Racer",,1706,-1,-1,0,15274,0,0,133120,18,133202,0,9680,0,0,0,0
 "Win the battle for Wintergrasp.","Wintergrasp Victory",,1717,571,-1,0,14901,0,10,131072,1,135836,0,9684,0,0,0,0
 "Win 100 battles for Wintergrasp.","Wintergrasp Veteran",,1718,571,-1,1717,14901,0,10,131072,2,135836,0,3766,0,0,0,0
 "Defeat Archavon the Stone Watcher in 25 player mode.","Archavon the Stone Watcher (25 player)",,1721,624,-1,0,14901,0,10,0,12,134449,0,13722,0,0,0,0
@@ -2489,9 +2489,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Launch off Darkmoon Fireworks in every friendly capital city.","Taking the Show on the Road",,6031,-1,0,0,15101,0,10,131072,15,134289,0,20516,0,0,0,0
 "Complete at least five profession-based quests at the Darkmoon Faire.","Faire Favors",,6032,-1,-1,0,15101,5,10,131072,9,354435,0,20192,0,0,0,0
 "Defeat Occu'thar.",Occu'thar,,6045,757,-1,0,15075,0,10,0,11,237298,0,20797,0,0,0,0
-"Proud owner of the 2009 Vintage Winter Veil gift, the Red Rider Air Rifle.","Red Rider Air Rifle",,6059,-1,-1,0,15274,0,0,2048,19,133202,0,20312,0,0,0,0
-"Proud owner of the 2010 Vintage Winter Veil gift, the MiniZep Controller.","MiniZep Controller",,6060,-1,-1,0,15274,0,0,2048,20,133202,0,20424,0,0,0,0
-"Proud owner of the 2011 Vintage Winter Veil gift, the Gaudy Winter Veil Sweater.","Gaudy Winter Veil Sweater",,6061,-1,-1,0,15274,0,0,2048,21,133202,0,20427,0,0,0,0
+"Proud owner of the 2009 Vintage Winter Veil gift, the Red Rider Air Rifle.","Red Rider Air Rifle",,6059,-1,-1,0,15274,0,0,133120,19,133202,0,20312,0,0,0,0
+"Proud owner of the 2010 Vintage Winter Veil gift, the MiniZep Controller.","MiniZep Controller",,6060,-1,-1,0,15274,0,0,133120,20,133202,0,20424,0,0,0,0
+"Proud owner of the 2011 Vintage Winter Veil gift, the Gaudy Winter Veil Sweater.","Gaudy Winter Veil Sweater",,6061,-1,-1,0,15274,0,0,133120,21,133202,0,20427,0,0,0,0
 "Defeat Mannoroth in Well of Eternity on Heroic Difficulty after dealing enough damage to Mannoroth while Varo'then is still alive to cause him to sacrifice Varo'then to heal himself.","That's Not Canon!",,6070,939,-1,0,15067,0,10,0,59,237553,0,19643,0,0,0,0
 "Defeat Ultraxion in Dragon Soul on Normal or Heroic Difficulty without any raid member being hit by Hour of Twilight more than once.","Minutes to Midnight",,6084,967,-1,0,15068,0,10,0,59,136223,0,19907,0,0,0,0
 "Kill Ook-Ook after assaulting him with 20 Rolling Brew Barrels in Stormstout Brewery on Heroic Difficulty.","Keep Rollin' Rollin' Rollin'",,6089,961,-1,0,15106,0,10,0,20,594274,0,19823,0,0,0,0
@@ -3194,7 +3194,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Owner of the StarCraft II: Heart of the Swarm Collector's Edition Baneling pet.","Collector's Edition: Baneling",,7842,-1,-1,0,15268,1,0,133120,25,656595,0,30299,0,0,0,0
 "Raise 15 reputations to Exalted.",Diplomacy,,7843,-1,0,0,15089,1,10,20480,4,236682,0,30449,0,0,0,0
 "Raise 25 reputations to Exalted.",Ambassadors,,7844,-1,0,7843,15089,1,10,20480,5,236686,0,30305,0,0,0,0
-"Proud owner of the 2012 Vintage Winter Veil gift, the Pigskin and Foot Ball.","They're Both Footballs?",,7852,-1,-1,0,15274,0,0,2048,23,133202,0,30554,0,0,0,0
+"Proud owner of the 2012 Vintage Winter Veil gift, the Pigskin and Foot Ball.","They're Both Footballs?",,7852,-1,-1,0,15274,0,0,133120,23,133202,0,30554,0,0,0,0
 "Logged in during WoW's 9th Anniversary.","WoW's 9th Anniversary",,7853,-1,-1,0,15274,0,0,2048,59,133783,90918,30711,0,0,0,0
 "Obtain 150 mounts (usable by a single character).","We're Going to Need More Saddles","Mount: Jade Pandaren Kite",7860,-1,1,2536,15248,0,10,131072,14,660099,91802,30736,0,0,0,0
 "Obtain 150 mounts (usable by a single character).","We're Going to Need More Saddles","Mount: Jade Pandaren Kite",7862,-1,0,2537,15248,0,10,131072,22,660099,91802,30738,0,0,0,0
@@ -3708,7 +3708,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Garrosh Hellscream in Siege of Orgrimmar on Heroic or Mythic difficulty.","Conqueror of Orgrimmar","Title: Conqueror of Orgrimmar",8679,1136,1,0,15107,0,10,0,76,892447,0,33959,0,0,0,0
 "Defeat Garrosh Hellscream in Siege of Orgrimmar on Heroic or Mythic difficulty.","Liberator of Orgrimmar","Title: Liberator of Orgrimmar",8680,1136,0,0,15107,0,10,0,77,892447,0,33961,0,0,0,0
 "Successfully complete any of the Basic (Silver) trials at the Proving Grounds, while in a specialization not suited for it.","You're Doing it Wrong (Level 90)",,8697,-1,-1,0,15234,0,0,133120,28,463444,0,0,0,0,0,0
-"Proud owner of the 2013 Vintage Winter Veil gift, the Crashin' Thrashin' Flyer.","Crashin' Thrashin' Flyer",,8698,-1,-1,0,15274,0,0,2048,26,133202,0,34025,0,0,0,0
+"Proud owner of the 2013 Vintage Winter Veil gift, the Crashin' Thrashin' Flyer.","Crashin' Thrashin' Flyer",,8698,-1,-1,0,15274,0,0,133120,26,133202,0,34025,0,0,0,0
 "Shoot down another player's Crashin' Thrashin' Flyer with yours.","The Danger Zone",,8699,-1,-1,0,156,0,10,0,20,132241,0,34027,0,0,0,0
 "Obtain the Grievous Gladiator's Cloud Serpent from Arena Season 14 of Mists of Pandaria.","Grievous Gladiator's Cloud Serpent",,8705,-1,-1,0,15269,1,0,133120,31,648627,0,34046,0,0,0,0
 "Obtain the Prideful Gladiator's Cloud Serpent from Arena Season 15 of Mists of Pandaria.","Prideful Gladiator's Cloud Serpent",,8707,-1,-1,0,15269,1,0,133120,32,656175,0,34049,0,0,0,0
@@ -4170,7 +4170,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Successfully jump over 5 of Archmage Sol's Firebloom explosion rings within 5 seconds in The Everbloom on Heroic difficulty.","They Burn, Burn, Burn",,9493,-1,-1,0,15277,0,0,2048,104,133407,0,39117,0,0,0,0
 "Recruit 40 followers.",Commander,,9494,-1,-1,9109,15303,0,5,131072,74,1060990,0,39140,0,0,0,0
 "Collect Broken Bones from other players in Player versus Player combat across Draenor.","The Bone Collector","Unlock: Gladiator's Sanctum, Level 3 Blueprint",9495,-1,-1,0,15303,0,5,131072,42,460686,0,39142,0,0,0,0
-"Qualified to receive the winning entry in the Azeroth Choppers competition.","Warlord's Deathwheel","Mount: Warlord's Deathwheel",9496,-1,-1,0,15268,0,0,133120,51,1044798,116788,39144,0,0,0,0
+"Qualified to receive the winning entry in the Azeroth Choppers competition.","Warlord's Deathwheel","Mount: Warlord's Deathwheel",9496,-1,-1,0,15268,0,0,133120,50,1044798,116788,39144,0,0,0,0
 "Loot 500 Ogre Waystones.","Finding Your Waystones","Unlock: Mage Tower/Spirit Lodge, Level 3 Blueprint",9497,-1,-1,0,15303,0,5,131072,43,528693,0,39146,0,0,0,0
 "Become a Personal Wingman with one of your Barracks Bodyguards.",Wingman,,9498,-1,-1,0,15303,0,5,0,44,132914,0,39148,0,0,0,0
 "Become a Personal Wingman with all of your Barracks Bodyguards.",Wingmen,,9499,-1,-1,9498,15303,0,5,131072,45,132917,0,39156,0,0,0,0
@@ -4399,7 +4399,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect a Heirloom item.","Where's the Mailbox?",,9911,-1,-1,0,15246,0,5,131072,8,135641,0,43143,0,0,0,0
 "Collect twenty Music Rolls for your garrison's jukebox.","Azeroth's Top Twenty Tunes","Toy: Portable Audiophone",9912,-1,1,9828,15303,0,5,131072,13,454048,122700,43267,0,0,0,0
 "Collect twenty Music Rolls for your garrison's jukebox.","Azeroth's Top Twenty Tunes","Toy: Portable Audiophone",9914,-1,0,9897,15303,0,5,131072,16,454048,122700,43331,0,0,0,0
-"Proud owner of the 2014 Vintage Winter Veil gift, the Crashin' Thrashin' Shredder.","Crashin' Thrashin' Shredder",,9915,-1,-1,0,15274,0,0,2048,27,133202,0,43209,0,0,0,0
+"Proud owner of the 2014 Vintage Winter Veil gift, the Crashin' Thrashin' Shredder.","Crashin' Thrashin' Shredder",,9915,-1,-1,0,15274,0,0,133120,27,133202,0,43209,0,0,0,0
 "Complete the Draenor quest achievements listed below.","Loremaster of Draenor",,9923,-1,0,0,15220,0,10,131072,90,1032149,0,43363,0,0,0,0
 "Take a picture with the S.E.L.F.I.E. camera in all of the locations listed below.","Field Photographer","Title: Field Photographer",9924,-1,-1,0,97,0,5,131072,15,1109100,0,43389,0,0,0,0
 "Obtain a Cindermane Charger mount through the Recruit-a-Friend program.","Friends In Places Yet Even Higher Than That",,9925,-1,-1,0,15269,1,0,133120,64,1085933,0,43410,0,0,0,0
@@ -4616,7 +4616,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Proud owner of Murkidan from the 2015 BlizzCon.",Murkidan,,10322,-1,-1,0,15268,1,0,133120,10,1129435,0,45118,0,0,0,0
 "Defeat Xemirkol in Tanaan Jungle.",Predator,"Title: Predator",10334,-1,-1,0,81,0,0,2048,168,236293,0,45263,0,0,0,0
 "Wielded Inflatable Thunderfury, Blessed Blade of the Windseeker.","Did Someone Say...?",,10335,-1,-1,0,15274,0,0,133120,69,135349,0,45273,0,0,0,0
-"Proud owner of the 2015 Vintage Winter Veil gift, the Crashin' Thrashin' Flamer.","Crashin' Thrashin' Flamer",,10337,-1,-1,0,15274,0,0,2048,28,133202,0,45301,0,0,0,0
+"Proud owner of the 2015 Vintage Winter Veil gift, the Crashin' Thrashin' Flamer.","Crashin' Thrashin' Flamer",,10337,-1,-1,0,15274,0,0,133120,28,133202,0,45301,0,0,0,0
 "Discover 100 treasures of Draenor (excluding Tanaan Jungle).","Master Treasure Hunter",,10348,-1,-1,9727,15235,0,10,131200,4,1064187,0,45378,0,0,0,0
 "Earn Revered reputation with all three factions in Tanaan Jungle.","Tanaan Diplomat",,10349,-1,0,0,15232,0,10,131072,13,1048305,0,45688,0,0,0,0
 "Earn Revered reputation with all three factions in Tanaan Jungle.","Tanaan Diplomat",,10350,-1,1,0,15232,0,10,131072,14,1048305,0,45692,0,0,0,0
@@ -4643,7 +4643,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the quest line ""Balance of Power,"" unlocking a new appearance for your artifact weapon.","Improving on History",,10459,-1,-1,0,15304,0,10,131072,19,236531,0,51773,0,0,0,0
 "Locate and unlock a hidden appearance for your artifact.","Hidden Potential",,10460,-1,-1,0,15304,0,10,0,20,236348,0,51775,0,0,0,0
 "Unlock all 4 color variations for your original artifact appearance.","Fighting with Style: Classic",,10461,-1,-1,0,15304,0,10,0,21,236337,0,51987,0,0,0,0
-"Witness the world's finest Gladiators compete!","Patron of War",,10537,-1,-1,0,15268,0,0,133120,57,975743,0,56345,0,0,0,0
+"Witness the world's finest Gladiators compete!","Patron of War",,10537,-1,-1,0,15268,0,0,133120,56,975743,0,56345,0,0,0,0
 "Splash all four vrykul kings with a Mug of Mead in Halls of Valor on Mythic difficulty.","I Got What You Mead",,10542,1477,-1,0,15254,0,10,131072,46,132792,0,47159,0,0,0,0
 "Defeat Odyn without any Stormforged Obliterators successfully casting Surge in Halls of Valor on Mythic difficulty.","Surge Protector",,10543,-1,-1,0,15254,0,10,0,47,839983,0,47163,0,0,0,0
 "Defeat a Storm Drake after allowing it to gain 10 stacks of Killing Blow in Halls of Valor on Mythic difficulty.","Stag Party",,10544,-1,-1,0,15254,0,10,0,45,136112,0,47169,0,0,0,0
@@ -4686,7 +4686,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Establish relations with the Nightfallen by completing the storylines below.","Nightfallen But Not Forgotten","Unlock: Suramar World Quests",10617,-1,-1,0,15252,0,10,131072,24,1409002,0,48103,0,0,0,0
 "Help Zoom win the snail race in Stonedark Grotto.",Zoom!,,10626,-1,-1,0,15252,0,5,133120,31,442735,137298,48216,0,0,0,0
 "Ascend to the top of Nashal's Watch in Stormheim.","Going Up",,10627,-1,-1,0,15257,0,5,0,9,1409000,0,48278,0,0,0,0
-"Raise your character's level to 20.","Fledgling Hero of Warcraft","Cross-Game Reward: Lady Liadrin Paladin Hero in Hearthstone",10657,-1,-1,0,15268,0,0,133124,53,1061040,0,48441,0,0,0,0
+"Raise your character's level to 20.","Fledgling Hero of Warcraft","Cross-Game Reward: Lady Liadrin Paladin Hero in Hearthstone",10657,-1,-1,0,15268,0,0,133124,52,1061040,0,48441,0,0,0,0
 "Defeat Ysondre in The Emerald Nightmare while all members of the raid have Dream Essences from all four gateway locations on Normal difficulty or higher.","Imagined Dragons World Tour",,10663,-1,-1,0,15255,0,10,0,18,1354172,0,48566,0,0,0,0
 "Explore Azsuna, revealing the covered areas of the world map.","Explore Azsuna",,10665,-1,-1,0,15257,0,10,2228224,3,1408998,0,48630,0,0,0,0
 "Explore Val'sharah, revealing the covered areas of the world map.","Explore Val'sharah",,10666,-1,-1,0,15257,0,10,2228224,4,1409010,0,48646,0,0,0,0
@@ -4742,7 +4742,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Unlock all 4 color variations for your valorous artifact appearance.","Fighting with Style: Valorous",,10748,-1,-1,0,15304,0,10,0,22,236341,0,51997,0,0,0,0
 "Unlock all 4 color variations for your war-torn artifact appearance.","Fighting with Style: War-torn",,10749,-1,1,0,15304,0,10,0,24,236342,0,51922,0,0,0,0
 "Unlock all 4 color variations for your hidden artifact appearance.","Fighting with Style: Hidden",,10750,-1,-1,0,15304,0,10,0,25,236343,0,55245,0,0,0,0
-"Proud owner of the 2016 Vintage Winter Veil gift, the Endothermic Blaster.","Brr... It's Cold in Here",,10751,-1,-1,0,15274,0,0,2048,29,133202,0,49553,0,0,0,0
+"Proud owner of the 2016 Vintage Winter Veil gift, the Endothermic Blaster.","Brr... It's Cold in Here",,10751,-1,-1,0,15274,0,0,133120,29,133202,0,49553,0,0,0,0
 "Defeat Ursoc in The Emerald Nightmare while keeping Tur Ragepaw alive on Normal difficulty or higher.","Scare Bear",,10753,-1,-1,0,15255,0,10,0,16,571585,0,51067,0,0,0,0
 "Defeat High Botanist Tel'arn in The Nighthold while all members of the raid are afflicted with Arcane Exposure on Normal Difficulty or higher.","Fruit of All Evil",,10754,1530,-1,0,15255,0,10,0,48,132100,0,49725,0,0,0,0
 "Defeat a Creature in the Dark during each of phase of the encounter with Xavius in The Emerald Nightmare on Normal difficulty or higher.","I Attack the Darkness",,10755,-1,-1,0,15255,0,10,0,20,1357796,0,49729,0,0,0,0
@@ -5070,8 +5070,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Gul'dan in The Nighthold on Heroic difficulty or higher, before the opening of the Tomb of Sargeras.","Ahead of the Curve: Gul'dan",,11195,1530,-1,0,15271,0,0,6144,58,1413856,0,52499,0,0,0,0
 "Defend against the Burning Legion by completing an invasion during the Legion pre-launch events.","Stand Against the Legion",,11200,-1,-1,0,15274,0,0,133120,52,1450455,0,52872,0,0,0,0
 "Defend against each of the Legion's assaults on Azeroth during the Legion pre-launch events.","Defender of Azeroth: Legion Invasions",,11201,-1,-1,11200,15274,0,0,133120,53,1450455,0,52879,0,0,0,0
-"Log in during the two months following the international premiere of Warcraft.","Fight for the Alliance","Reward: Replica Lion's Fang and Lion's Heart",11210,-1,-1,0,15268,0,0,133120,54,1447596,140997,53123,0,0,0,0
-"Log in during the two months following the international premiere of Warcraft.","Fight for the Horde","Reward: Replica Blood Guard's Cleaver and Staff of Gul'dan",11211,-1,-1,0,15268,0,0,133120,55,1447599,140998,53125,0,0,0,0
+"Log in during the two months following the international premiere of Warcraft.","Fight for the Alliance","Reward: Replica Lion's Fang and Lion's Heart",11210,-1,-1,0,15268,0,0,133120,53,1447596,140997,53123,0,0,0,0
+"Log in during the two months following the international premiere of Warcraft.","Fight for the Horde","Reward: Replica Blood Guard's Cleaver and Staff of Gul'dan",11211,-1,-1,0,15268,0,0,133120,54,1447599,140998,53125,0,0,0,0
 "Recruit 20 troops.","Raise an Army",,11212,-1,-1,10706,15304,0,5,131072,5,1033593,0,53178,0,0,0,0
 "Recruit 100 troops.","Lead a Legion",,11213,-1,-1,11212,15304,0,5,131072,6,1033590,0,53180,0,0,0,0
 "Complete 10 Class Hall Missions.","Many Missions",,11214,-1,-1,0,15304,0,5,131072,7,1044527,0,53182,0,0,0,0
@@ -5150,7 +5150,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Helya kills (Heroic Trial of Valor)",,11417,1648,-1,0,15264,0,0,1,75,136243,0,55856,0,0,0,0
 ,"Helya kills (Mythic Trial of Valor)",,11418,1648,-1,0,15264,0,0,1,76,136243,0,55858,0,0,0,0
 "Players must defeat the Chronomatic Anomaly in the Nighthold.","<Hidden> Insurrection - Capper",,11419,-1,-1,0,15252,0,0,1048576,50,136243,0,55860,0,0,0,0
-"Owner of the Primal Flamesaber mount from the Heroes of the Storm promotion.","Herald of Flames",,11425,-1,-1,0,15268,0,0,133120,48,1530249,0,55864,0,0,0,0
+"Owner of the Primal Flamesaber mount from the Heroes of the Storm promotion.","Herald of Flames",,11425,-1,-1,0,15268,0,0,133120,47,1530249,0,55864,0,0,0,0
 "Defeat the following bosses within the Trial of Valor on Heroic difficulty or higher.","Heroic: Trial of Valor",,11426,1648,-1,11394,15255,0,10,131072,22,1530373,0,55912,0,0,0,0
 "Complete the Murky quests listed below.","No Shellfish Endeavor","Toy: Mrgrglhjorn",11427,-1,-1,0,15252,0,5,131072,33,656556,0,55927,0,0,0,0
 "Defeat Viz'aduum the Watcher in Return to Karazhan on Mythic difficulty while in a guild group.","Return to Karazhan Guild Run",,11428,1651,-1,0,15262,0,10,49152,11,1417424,0,55931,0,0,0,0
@@ -5193,8 +5193,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach 2000 in any Rated PvP Bracket during Legion Season 2","Fearless Elite",,11579,-1,-1,0,15270,0,0,2048,469,1582140,0,57285,0,0,0,0
 "Defeat Helya in Trial of Valor on Mythic difficulty, before the opening of the Tomb of Sargeras.","Cutting Edge: Helya",,11580,1648,-1,11581,15271,0,0,6144,56,1530370,0,57174,0,0,0,0
 "Defeat Helya in Trial of Valor on Heroic difficulty or higher, before the opening of the Tomb of Sargeras.","Ahead of the Curve: Helya",,11581,1648,-1,0,15271,0,0,6144,55,1530370,0,57177,0,0,0,0
-"Hidden Achievement to be used to disable Artifact Knowledge Work Orders at 25 sent.","7.1 - Max Work Orders for Artifact Knowledge (Do Not Localize)",,11601,-1,-1,0,15268,0,0,1048576,63,136243,0,57422,0,0,0,0
-"Hidden Achievement to be used to disable Artifact Knowledge Catch Up Quests at 15 work orders.","7.1.5 - Max Catch Up Work Orders for Artifact Knowledge (Do Not Localize)",,11606,-1,-1,0,15268,0,0,1048576,64,136243,0,57426,0,0,0,0
+"Hidden Achievement to be used to disable Artifact Knowledge Work Orders at 25 sent.","7.1 - Max Work Orders for Artifact Knowledge (Do Not Localize)",,11601,-1,-1,0,15268,0,0,1048576,62,136243,0,57422,0,0,0,0
+"Hidden Achievement to be used to disable Artifact Knowledge Catch Up Quests at 15 work orders.","7.1.5 - Max Catch Up Work Orders for Artifact Knowledge (Do Not Localize)",,11606,-1,-1,0,15268,0,0,1048576,63,136243,0,57426,0,0,0,0
 "Successfully deliver a Barrel of Storm Brew without taking any damage.","They See Me Rolling",,11607,-1,-1,0,15252,0,10,2048,43,511713,0,57438,0,0,0,0
 "Unlock a new set of traits for one of your Artifacts.","Power Unbound",,11609,-1,-1,0,15411,0,0,2048,5,967515,0,57440,0,0,0,0
 "Unlock the new set of traits for all of your Artifacts.","Power Unleashed",,11610,-1,-1,11609,15411,0,0,2048,6,967516,0,57450,0,0,0,0
@@ -5204,8 +5204,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect any class armor set from Warlords PvP Season 1.","Untamed Beauty",,11629,-1,-1,0,15259,0,10,131072,71,132139,0,57558,0,0,0,0
 "Collect any class armor set from Legion PvP Season 1 or 2.","More Like Win-dictive",,11630,-1,-1,0,15259,0,10,131072,74,1413123,0,57643,0,0,0,0
 "Collect any class armor set from Hellfire Citadel.","Extreme Makeover: Fel Edition",,11631,-1,-1,0,15259,0,10,131072,35,1113443,0,57645,0,0,0,0
-"25 Work Orders Sent","7.1.5 25 Work Orders Sent",,11632,-1,-1,0,15268,0,0,1048576,65,136243,0,57700,0,0,0,0
-"40 Work Orders Sent","7.2.0 40 Work Orders Sent",,11633,-1,-1,0,15268,0,0,1048576,66,136243,0,57919,0,0,0,0
+"25 Work Orders Sent","7.1.5 25 Work Orders Sent",,11632,-1,-1,0,15268,0,0,1048576,64,136243,0,57700,0,0,0,0
+"40 Work Orders Sent","7.2.0 40 Work Orders Sent",,11633,-1,-1,0,15268,0,0,1048576,65,136243,0,57919,0,0,0,0
 "Earn an exalted Paragon reward from any faction.","The Reputable",,11652,-1,-1,0,15258,0,10,0,8,236687,0,58081,0,0,0,0
 "Earn 10 exalted supply rewards from any faction within the Broken Isles.","Paragon of the Broken Isles",,11653,-1,-1,0,15258,0,10,131200,9,236688,0,58089,0,0,0,0
 ,"Hidden Tracking - Appearance Unlock - Challenge - Color 2 - Spec 1",,11657,-1,-1,0,15304,0,0,1048576,34,136243,0,58130,0,0,0,0
@@ -5319,7 +5319,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Use a Sentinax beacon in each of the following areas.","Bringing Home the Beacon",,11802,-1,-1,0,15257,0,10,131072,24,133267,0,59066,0,0,0,0
 "Slay each of the demonic lieutenants that can be summoned from the Sentinax in Broken Shore.","Naxt Victim",,11841,-1,-1,0,15257,0,10,131072,25,615148,0,59090,0,0,0,0
 "Recruit your Legionfall campaign follower by completing the quest ""Champions of Legionfall.""","Champions of Legionfall",,11846,-1,-1,0,15252,0,10,0,49,1033590,0,59126,0,0,0,0
-"50 Work Orders Sent","7.2.0 50 Work Orders Sent",,11847,-1,-1,0,15268,0,0,1048576,67,136243,0,59128,0,0,0,0
+"50 Work Orders Sent","7.2.0 50 Work Orders Sent",,11847,-1,-1,0,15268,0,0,1048576,66,136243,0,59128,0,0,0,0
 "Logged in during WoW's 13th Anniversary.","WoW's 13th Anniversary",,11848,-1,-1,0,15274,0,0,2048,75,133783,147876,59144,0,0,0,0
 ,"Unlocked Lunarwing Form (DNT)",,11851,-1,-1,0,92,0,0,1179648,87,136243,0,59273,0,0,0,0
 "Complete Pet Battle Challenge in Deadmines.","Pet Battle Challenge: Deadmines","Reward: Mining Monkey",11856,-1,-1,0,15117,0,5,131072,12,1373903,0,59444,0,0,0,0
@@ -5365,7 +5365,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Kil'jaeden kills (Normal Tomb of Sargeras)",,11910,1676,-1,0,15264,0,0,1,150,136243,0,59890,0,0,0,0
 ,"Kil'jaeden kills (Heroic Tomb of Sargeras)",,11911,1676,-1,0,15264,0,0,1,151,136243,0,59892,0,0,0,0
 ,"Kil'jaeden kills (Mythic Tomb of Sargeras)",,11912,1676,-1,0,15264,0,0,1,152,136243,0,59894,0,0,0,0
-"Proud owner of the 2017 Vintage Winter Veil gift, the Toy Weapon Set.","Don't Play With That In The House",,11913,-1,-1,0,15274,0,0,2048,30,133202,0,59896,0,0,0,0
+"Proud owner of the 2017 Vintage Winter Veil gift, the Toy Weapon Set.","Don't Play With That In The House",,11913,-1,-1,0,15274,0,0,133120,30,133202,0,59896,0,0,0,0
 "Defeat Aggramar after slaying a Manifestation of Taeshalach in Antorus, the Burning Throne on Normal difficulty or higher.","Don't Sweat the Technique",,11915,1712,-1,0,15255,0,10,0,100,1600299,0,59908,0,0,0,0
 "Participate in the Blight Boar concert.","Hey, You're a Rockstar!",,11918,-1,-1,0,15101,0,5,524288,58,237186,0,59925,0,0,0,0
 "Have each of the band's roles assigned to you after participating in the Blight Boar concert.","Taking this Show on the Road",,11919,-1,-1,0,15101,0,10,131072,59,236812,0,59927,0,0,0,0
@@ -5667,7 +5667,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the quest below.","Allied Races: Lightforged Draenei (Hidden Character Achievement)","Reward: Lightforged Draenei Race Unlocked",12451,-1,-1,0,81,0,0,1048580,181,1786420,0,65269,0,0,0,0
 "Complete the quest below.","Allied Races: Highmountain Tauren (Hidden Character Achievement)","Reward: Highmountain Tauren Race Unlocked",12452,-1,-1,0,81,0,0,1048580,184,1786419,0,65271,0,0,0,0
 "Complete the quest below.","Allied Races: Nightborne (Hidden Character Achievement)","Reward: Nightborne Race Unlocked",12453,-1,-1,0,81,0,0,1048580,183,1786421,0,65273,0,0,0,0
-"During the week of the 20th anniversary of StarCraft, which launched on March 31, 1998, /salute one of the following StarCraft-themed companion pets: Zergling, Grunty, Mini Thor, Baneling, or Zeradar.","Salute to StarCraft",,12454,-1,-1,0,15268,0,0,2048,58,1125916,0,65282,0,0,0,0
+"During the week of the 20th anniversary of StarCraft, which launched on March 31, 1998, /salute one of the following StarCraft-themed companion pets: Zergling, Grunty, Mini Thor, Baneling, or Zeradar.","Salute to StarCraft",,12454,-1,-1,0,15268,0,0,2048,57,1125916,0,65282,0,0,0,0
 "Complete the Westfall and Duskwood storylines.","Westfall & Duskwood Quests",,12455,-1,1,0,14861,0,0,1179648,3,236852,0,65286,0,0,0,0
 "Complete the Loch Modan and Wetlands storylines.","Loch Modan & Wetlands Quests",,12456,-1,1,0,14861,0,0,1179648,4,236808,0,65289,0,0,0,0
 "Defeat Knight Captain Valyri without detonating any Munitions in Tol Dagor on Mythic difficulty.","Remix to Ignition",,12457,1771,-1,0,15285,0,10,0,47,2011118,0,65318,0,0,0,0
@@ -5891,7 +5891,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Viq'goth in Siege of Boralus on Mythic difficulty.","Siege of Boralus",,12847,1822,-1,0,15285,0,10,0,27,2011139,0,67861,0,0,0,0
 "Defeat Dazar in Kings' Rest on Mythic difficulty.","Kings' Rest",,12848,1762,-1,0,15285,0,10,0,28,2011123,0,67864,0,0,0,0
 "Discover the hidden treasures of Vol'dun.","Treasures of Vol'dun",,12849,-1,-1,0,15298,0,10,131072,32,1001977,0,67872,0,0,0,0
-"Proud owner of the 2018 Vintage Winter Veil gift, the Toy Armor Set.","At Least You're Being Careful",,12850,-1,-1,0,15274,0,0,2048,31,133202,0,67880,0,0,0,0
+"Proud owner of the 2018 Vintage Winter Veil gift, the Toy Armor Set.","At Least You're Being Careful",,12850,-1,-1,0,15274,0,0,133120,31,133202,0,67880,0,0,0,0
 "Discover the hidden treasures of Zuldazar.","Treasures of Zuldazar",,12851,-1,-1,0,15298,0,10,131072,30,1001977,0,67898,0,0,0,0
 "Discover the hidden treasures of Tiragarde Sound.","Treasures of Tiragarde Sound",,12852,-1,-1,0,15298,0,10,131072,27,1001977,0,67942,0,0,0,0
 "Discover the hidden treasures of Stormsong Valley.","Treasures of Stormsong Valley",,12853,-1,-1,0,15298,0,10,131072,29,1518643,0,68002,0,0,0,0
@@ -6118,7 +6118,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete 100 different World Quests in Kul Tiras and Zandalar.","Wide World of Quests",,13144,-1,-1,0,15284,0,10,131200,50,1060986,0,69685,0,0,0,0
 ,"8.0 Darkshore Skip Unlock - Alliance",,13147,-1,1,0,15284,0,0,1179648,111,136243,0,70709,0,0,0,0
 ,"8.0 Darkshore Skip Unlock - Horde",,13148,-1,0,0,15284,0,0,1179648,112,136243,0,70711,0,0,0,0
-,"[DNT] Player Expansion Level is ""Battle for Azeroth""",,13149,-1,-1,0,15268,0,0,1179652,69,136243,0,70730,0,0,0,0
+,"[DNT] Player Expansion Level is ""Battle for Azeroth""",,13149,-1,-1,0,15268,0,0,1179652,68,136243,0,70730,0,0,0,0
 ,"<Hidden> Magni Heart of Azeroth Intro Auto-Launch (DNT)",,13152,-1,-1,0,15284,0,0,1310724,106,136243,0,70746,0,0,0,0
 ,"8.0 Lordaeron Push - Alliance and Horde [CRITERIA 66724 and SPELL 273245 REMOVED]",,13153,-1,-1,0,15284,0,0,1310724,108,136243,0,0,0,0,0,0
 ,"8.0 Lordaeron Push - Horde (UNUSED DELETE ME)",,13154,-1,0,0,15284,0,0,1048580,110,136243,0,0,0,0,0,0
@@ -6153,7 +6153,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach Rank 8 with Bizmo's Brawlpub.","Brawler for Azeroth","Title: Brawler",13191,-1,1,13189,15416,0,0,6144,5,135906,0,71220,0,0,0,0
 "Reach Rank 8 with Brawl'gar Arena.","Brawler for Azeroth","Title: Brawler",13192,-1,0,13190,15416,0,0,6144,9,135906,0,71232,0,0,0,0
 "Defeat 10 bosses using random brawl mode in the Brawler's Guild.","I Am Thrall's Complete Lack Of Surprise",,13194,-1,-1,0,15416,0,0,133120,12,236554,0,71234,0,0,0,0
-"Owner of the Meat Wagon mount from the Warcraft III: Reforged promotion.","Meat Marauder",,13196,-1,-1,0,15268,0,0,133120,49,2147656,0,71244,0,0,0,0
+"Owner of the Meat Wagon mount from the Warcraft III: Reforged promotion.","Meat Marauder",,13196,-1,-1,0,15268,0,0,133120,48,2147656,0,71244,0,0,0,0
 ,"<Hidden> War Campaign - Chapter 04 Complete (H)",,13197,-1,-1,0,15284,0,0,1048576,92,136243,0,71266,0,0,0,0
 ,"<Hidden> War Campaign - Chapter 04 Complete (A)",,13198,-1,-1,0,15284,0,0,1048576,93,136243,0,71269,0,0,0,0
 "Earn the rank of Combatant during Battle for Azeroth Season 1.","Combatant: Battle for Azeroth Season 1","Seasonal Character Title: Combatant",13199,-1,-1,0,15270,0,0,2048,353,236540,0,71278,0,0,0,0
@@ -6594,7 +6594,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Logged in during WoW's 15th Anniversary.","WoW's 15th Anniversary",,13917,-1,-1,0,15274,0,0,2048,70,133783,172014,82252,0,0,0,0
 "Complete the War Campaign in Battle for Azeroth.","The Fourth War","Title: Veteran of the Fourth War",13924,-1,0,0,15284,0,10,131072,39,2270403,0,82338,0,0,0,0
 "Complete the War Campaign in Battle for Azeroth.","The Fourth War","Title: Veteran of the Fourth War",13925,-1,1,0,15284,0,10,131072,42,2270402,0,82345,0,0,0,0
-"Proud owner of the 2019 Vintage Winter Veil gift, the Crashin' Thrashin' Battleship or Juggernaught.","Crashin' Splashin'",,13927,-1,-1,0,15274,0,0,2048,32,133202,0,82361,0,0,0,0
+"Proud owner of the 2019 Vintage Winter Veil gift, the Crashin' Thrashin' Battleship or Juggernaught.","Crashin' Splashin'",,13927,-1,-1,0,15274,0,0,133120,32,133202,0,82361,0,0,0,0
 "Earn 200 Timewarped Badges from doing quests and participating in Alterac Valley Classic.","Alterac Valley of Olde",,13928,-1,1,0,14801,0,10,131072,2,236711,0,82376,0,0,0,0
 "Earn 200 Timewarped Badges from doing quests and participating in Alterac Valley Classic.","Alterac Valley of Olde",,13930,-1,0,0,14801,0,10,131072,3,236711,0,82374,0,0,0,0
 "Defeated the Chromie's Memories events during the WoW 15th Anniversary celebration.","Memories of Fel, Frost and Fire","Mount: Obsidian Worldbreaker",13931,-1,-1,0,15274,0,0,133120,71,136027,172012,82378,0,0,0,0
@@ -7289,7 +7289,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Layer 7 of any run. Account. [DNT]","Torghast: Tracking - Completed Layer 7 - Account [DNT]",,14923,-1,-1,0,15440,0,0,3276804,83,136243,0,0,0,0,0,0
 "Complete Layer 8 of any run. Account. [DNT]","Torghast: Tracking - Completed Layer 8 - Account [DNT]",,14924,-1,-1,0,15440,0,0,3276804,84,136243,0,0,0,0,0,0
 "Hidden shared Achievement for Show Teleport Points. [DNT]","Torghast: Tracking - Vendor - Show Teleport Points [DNT]",,14930,-1,-1,0,15440,0,0,3276804,74,136243,0,90673,0,0,0,0
-"Proud owner of the 2020 Vintage Winter Veil gift, the Wreath-A-Rang.","Flying Festivities",,14931,-1,-1,0,15274,0,0,2048,38,133202,0,90677,0,0,0,0
+"Proud owner of the 2020 Vintage Winter Veil gift, the Wreath-A-Rang.","Flying Festivities",,14931,-1,-1,0,15274,0,0,133120,38,133202,0,90677,0,0,0,0
 "Small Shape form currently selected if you have earned small shapes.","9.0 - Covenant - Night Fae - Small Shape Selected",,14933,-1,-1,0,130,0,0,3145733,8,136243,0,90679,0,0,0,0
 ,"9.1 Campaign - Quest Launch",,14934,-1,-1,0,92,0,0,20185092,74,3847780,0,90682,0,0,0,0
 "Torghast - Into Torghast Character Tracking Achivement [DNT]","Torghast - Into Torghast Character [DNT]",,14936,-1,-1,0,15440,0,0,1048580,76,136243,0,90691,0,0,0,0
@@ -7534,7 +7534,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete a challenge for any specialization at the Mage Tower during Legion Timewalking.","A Towering Success",,15309,-1,-1,0,15454,0,10,0,1,236351,0,94181,0,0,0,0
 "Complete every unique challenge available at the Mage Tower during Legion Timewalking.","A Tour of Towers","Mount: Mage-Bound Spelltome",15310,-1,-1,0,15454,0,20,131072,2,1536896,188674,94127,0,0,0,0
 "Used to control availability of the Blight of the Grizzlemaw druid bear form customization choice.","<Hidden> (Druid) Unlocked Blight of the Grizlemaw Form [DNT]",,15312,-1,-1,0,15259,0,0,9568260,103,136243,0,94196,0,0,0,0
-"Proud owner of the 2021 Vintage Winter Veil gift, the Rockin' Rollin' Racer Customizer 19.9.3.","Rockin' Rollin' Racer",,15313,-1,-1,0,15274,0,0,2048,33,133202,0,94208,0,0,0,0
+"Proud owner of the 2021 Vintage Winter Veil gift, the Rockin' Rollin' Racer Customizer 19.9.3.","Rockin' Rollin' Racer",,15313,-1,-1,0,15274,0,0,133120,33,133202,0,94208,0,0,0,0
 "Achieve a Flawless run on layer 16 in Skoldus Hall.","Flawless: Skoldus Hall (Layer 16)",,15314,-1,-1,15081,15440,0,10,0,37,3555135,0,0,0,0,0,0
 "Defeat the Lords of Dread after finding and completing one simple task during Infiltration of Dread in the Sepulcher of the First Ones on Normal difficulty or higher.","Amidst Ourselves",,15315,2481,-1,0,15438,0,10,0,79,1360761,0,94245,0,0,0,0
 "Achieve a Flawless run on layer 16 in Fracture Chambers.","Flawless: Fracture Chambers (Layer 16)",,15316,-1,-1,15082,15440,0,10,0,39,3592448,0,0,0,0,0,0
@@ -7543,7 +7543,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Achieve a Flawless run on layer 16 in Mort'regar.","Flawless: Mort'regar (Layer 16)",,15319,-1,-1,15087,15440,0,10,0,45,3586456,0,0,0,0,0,0
 "Achieve a Flawless run on layer 16 in The Upper Reaches.","Flawless: The Upper Reaches (Layer 16)",,15320,-1,-1,15088,15440,0,10,0,47,522867,0,0,0,0,0,0
 "Achieve a Flawless run on layer 16 in each wing of Torghast, Tower of the Damned.","Flawless Master (Layer 16)","Mount: Colossal Soulshredder Mawrat",15322,-1,-1,0,15440,0,20,131072,35,3731619,188736,94238,0,0,0,0
-"Owner of the Sarge mount from the Hearthstone: Mercenaries promotion.","Sarge's Tale",,15323,-1,-1,0,15268,0,0,133120,50,4178535,0,94249,0,0,0,0
+"Owner of the Sarge mount from the Hearthstone: Mercenaries promotion.","Sarge's Tale",,15323,-1,-1,0,15268,0,0,133120,49,4178535,0,94249,0,0,0,0
 "Complete the following Torghast Achievements:","Tower Ranger","Title: Tower Ranger",15324,-1,-1,0,15440,0,20,131072,127,3642306,0,94268,0,0,0,0
 "Complete the following storylines in the Forbidden Reach.","Dracthyr, Awaken",,15325,-1,1,0,15455,0,10,131072,21,4616660,0,94275,0,0,0,0
 "End Shadowlands Mythic+ Season 2 with a Mythic+ Rating in the top 0.1% for your faction.","Tormented Hero: Shadowlands Season 2","Title: Tormented Hero",15327,-1,-1,0,15272,0,0,14336,1,618859,0,95383,0,0,0,0
@@ -7713,7 +7713,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the Return to Lordaeron storyline.","Return to Lordaeron","Reward: 'Of Lordaeron' Title, 'Dark Ranger' Elf Customization",15579,-1,-1,0,15422,0,10,131072,2,135003,0,95416,0,0,0,0
 ,"<Hidden> 9.2 ZM - Cypher System - Talent Research Started - Trebalim (fixed)",,15592,-1,-1,0,15422,0,0,1179652,81,136243,0,95478,0,0,0,0
 ,"<Hidden> 9.2 ZM - Cypher System - Talent Research Started - Sopranian (copy)",,15593,-1,-1,0,15422,0,0,1179652,83,136243,0,95500,0,0,0,0
-"Witness the 2022 WoW Esports Finals!","Fearless Spectator","Title: Fearless Spectator",15594,-1,-1,0,15268,0,0,133120,59,236380,0,95502,0,0,0,0
+"Witness the 2022 WoW Esports Finals!","Fearless Spectator","Title: Fearless Spectator",15594,-1,-1,0,15268,0,0,133120,58,236380,0,95502,0,0,0,0
 "Complete the Return to Lordaeron storyline.","Return to Lordaeron (Hidden Character Achievement)",,15596,-1,-1,0,15422,0,0,1048580,3,135003,0,95504,0,0,0,0
 ,"Eternal Combatant",,15598,-1,0,0,15270,0,0,1179648,15,236538,187642,95519,0,0,0,0
 ,"Eternal Combatant",,15599,-1,1,0,15270,0,0,1179648,72,236538,187644,95517,0,0,0,0
@@ -7731,12 +7731,12 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Obtain the Eternal Gladiator's Soul Eater from Shadowlands Season 4.","Eternal Gladiator's Soul Eater",,15612,-1,-1,0,15269,1,0,145408,50,3593821,0,95551,0,0,0,0
 "Complete the following storylines in the Forbidden Reach.","Dracthyr, Awaken",,15638,-1,0,0,15455,0,10,131072,50,4616660,0,95596,0,0,0,0
 "Earn the rank of Elite during Shadowlands Season 4.","Elite: Shadowlands Season 4","Seasonal Character Title: the Elite",15639,-1,-1,0,15270,0,0,14336,346,236542,0,95606,0,0,0,0
-"Owner of the Amalgam of Rage mount from the Diablo IV promotion.","Return to Darkness",,15640,-1,-1,0,15268,0,0,133120,52,4396090,0,95612,0,0,0,0
+"Owner of the Amalgam of Rage mount from the Diablo IV promotion.","Return to Darkness",,15640,-1,-1,0,15268,0,0,133120,51,4396090,0,95612,0,0,0,0
 "Collect 1200 unique pets.","Many More Mini Minions","Pet: Crystalline Mini-Monster",15641,-1,-1,12958,15118,0,10,143360,17,132599,191941,134003,0,0,0,0
 "Collect 1400 unique pets.","Proven Pet Parent","Pet: Secretive Frogduck",15642,-1,-1,15641,15118,0,10,143360,18,132599,191936,134005,0,0,0,0
 "Collect 1600 unique pets.","What Can I Say? They Love Me.","Pet: Violet Violence",15643,-1,-1,15642,15118,0,10,143360,19,132599,191932,134007,0,0,0,0
 "Collect 1800 unique pets.","Good Things Come in Small Packages","Pet: Mister Muskoxeles",15644,-1,-1,15643,15118,0,10,143360,20,132599,191946,134009,0,0,0,0
-"Proud owner of the 2022 Vintage Winter Veil gift, Falling Star Catcher.","To Catch Falling Stars",,15645,-1,-1,0,15274,0,0,2048,34,133202,0,134047,0,0,0,0
+"Proud owner of the 2022 Vintage Winter Veil gift, Falling Star Catcher.","To Catch Falling Stars",,15645,-1,-1,0,15274,0,0,133120,34,133202,0,134047,0,0,0,0
 ,"Algari Blacksmithing 75 (DNT)",,19742,-1,-1,0,15490,0,0,9437188,8,136243,0,154727,0,0,0,0
 "Reach Renown level 80 with each of the four Covenants.",Re-Re-Re-Renowned,,15646,-1,-1,15241,15441,0,10,229376,16,3726261,0,134055,0,0,0,0
 "Complete all four Covenant campaigns.","Dead Men Tell Some Tales",,15647,-1,-1,14790,15422,0,10,131072,32,3726261,0,134068,0,0,0,0
@@ -8649,7 +8649,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete all races in the Forbidden Reach.","Forbidden Reach Racing Completionist",,17294,-1,-1,0,15462,0,20,131072,397,1100022,0,142455,0,0,0,0
 "Obtain silver in all races in the Forbidden Reach.","Forbidden Reach Racing Completionist: Silver",,17296,-1,-1,17294,15462,0,20,131072,398,1100022,0,142465,0,0,0,0
 "Obtain gold in all races in the Forbidden Reach.","Forbidden Reach Racing Completionist: Gold","Title: Forbidden Reach Racer",17298,-1,-1,17296,15462,0,20,131072,399,1100022,0,142478,0,0,0,0
-"Owner of any Dragonflight edition before the month of November 2023.","Trading Post: Dragonflight","Reward: 500 Trader's Tender",17305,-1,-1,0,15268,0,0,2230276,98,4696085,0,142517,0,0,0,0
+"Owner of any Dragonflight edition before the month of November 2023.","Trading Post: Dragonflight","Reward: 500 Trader's Tender",17305,-1,-1,0,15268,0,0,2230276,97,4696085,0,142517,0,0,0,0
 ,"<DNT> Winterpelt Furbolg - 1 - Friendly",,17306,-1,-1,0,15466,0,0,3145728,68,136243,0,142519,0,0,0,0
 ,"<DNT> Winterpelt Furbolg - 1 - Honored",,17307,-1,-1,0,15466,0,0,3145728,69,136243,0,142521,0,0,0,0
 ,"<DNT> Winterpelt Furbolg - 1 - Revered",,17308,-1,-1,0,15466,0,0,3145728,70,136243,0,142523,0,0,0,0
@@ -9379,14 +9379,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Puzzle 28 (Character)",,18247,-1,-1,0,15465,0,0,1048580,141,136243,0,145850,0,0,0,0
 ,"<DNT> Niffen Cave Dive - Completed At Least Once - Tutorial Objectives (Character)",,18248,-1,-1,0,15465,0,0,1048580,142,136243,0,145852,0,0,0,0
 "Collect any armor set from Dragonflight PvP Season 2.","Obsidian Tie Event",,18249,-1,-1,0,15259,0,10,131072,85,4279078,0,145881,0,0,0,0
-"Owner of the Ysergle pet.","Ysergle The Dreamurk",,18250,-1,-1,0,15268,1,0,133120,46,4755147,0,145890,0,0,0,0
+"Owner of the Ysergle pet.","Ysergle The Dreamurk",,18250,-1,-1,0,15268,1,0,133120,45,4755147,0,145890,0,0,0,0
 "Complete the Aberrus, the Shadowed Crucible raid achievements listed below.","Glory of the Aberrus Raider","Mount: Shadowflame Shalewing",18251,2569,-1,0,168,0,25,143360,59,5161748,205205,145901,0,0,0,0
 "Defeat Scalecommander Sarkareth in Aberrus, the Shadowed Crucible on Heroic difficulty or higher, before the release of the next raid tier.","Ahead of the Curve: Scalecommander Sarkareth",,18253,2569,-1,0,15271,0,0,6144,82,5161750,0,145937,0,0,0,0
 "Defeat  Scalecommander Sarkareth in Aberrus, the Shadowed Crucible on Mythic difficulty, before the release of the next raid tier.","Cutting Edge: Scalecommander Sarkareth",,18254,2569,-1,18253,15271,0,0,6144,83,5161750,0,145940,0,0,0,0
 "Complete the following Sniffenseek digs alongside a niffen companion.","Proof of Myrrit",,18255,-1,-1,0,15465,0,5,131072,121,648644,0,145942,0,0,0,0
 "Wielder of Nasz'uro, the Unbound Legacy.","Nasz'uro, the Unbound Legacy",,18256,-1,-1,0,15271,0,0,2048,25,5098442,0,145960,0,0,0,0
 "Complete 50 Sniffenseek digs alongside a niffen companion.","Can You Dig It?",,18257,-1,-1,18255,15465,0,5,131072,122,1060570,0,145972,0,0,0,0
-"Owner of the Baa'lial pet.","Little Lord of Lies",,18258,-1,-1,0,15268,1,0,133120,47,1722953,0,145974,0,0,0,0
+"Owner of the Baa'lial pet.","Little Lord of Lies",,18258,-1,-1,0,15268,1,0,133120,46,1722953,0,145974,0,0,0,0
 "Complete Kalimdor Felwood Flyover Challenge.","Felwood Flyover Challenge: Bronze",,18259,-1,-1,0,15462,0,0,1048576,995,1002572,0,0,0,0,0,0
 "Get Silver ranked time for Kalimdor Felwood Flyover Challenge.","Felwood Flyover Challenge: Silver",,18260,-1,-1,18259,15462,0,0,1048576,996,1002575,0,0,0,0,0,0
 "Get Gold ranked time for Kalimdor Felwood Flyover Challenge.","Felwood Flyover Challenge: Gold",,18261,-1,-1,18260,15462,0,0,1048576,997,1002573,0,0,0,0,0,0
@@ -9933,27 +9933,27 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Craft each of the following goggles listed below.","Chromatic Calibration: Ectoplasmic Specs","Reward: Cosmetic Ectoplasmic Specs of each color",18907,-1,-1,0,15492,0,5,131072,25,3557125,209067,149360,0,0,0,0
 "Craft each of the following goggles listed below.","Chromatic Calibration: Bio-Optic Killshades","Reward: Cosmetic Bio-Optic Killshades of each color",18908,-1,-1,0,15492,0,5,131072,22,133023,209063,149365,0,0,0,0
 "Craft or repair each of the figurines listed below.","Fantastic Figurines",,18909,-1,-1,0,15494,0,5,131072,18,133274,0,149373,0,0,0,0
-"Complete Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Bronze",,18910,-1,-1,0,15268,0,0,1048576,72,1002572,0,0,0,0,0,0
-"Get Silver ranked time for Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Silver",,18911,-1,-1,18910,15268,0,0,1048576,73,1002575,0,0,0,0,0,0
-"Get Gold ranked time for Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Gold",,18912,-1,-1,18911,15268,0,0,1048576,74,1002573,0,0,0,0,0,0
-"Complete Fen Flythrough Storm Gryphon.","Fen Flythrough Storm Gryphon: Bronze",,18913,-1,-1,0,15268,0,0,1048576,75,1002572,0,0,0,0,0,0
-"Get Silver ranked time for Fen Flythrough Storm Gryphon.","Fen Flythrough Storm Gryphon: Silver",,18914,-1,-1,18913,15268,0,0,1048576,76,1002575,0,0,0,0,0,0
-"Get Gold ranked time for Fen Flythrough Storm Gryphon.","Fen Flythrough Storm Gryphon: Gold",,18915,-1,-1,18914,15268,0,0,1048576,77,1002573,0,0,0,0,0,0
-"Complete Vakthros Ascent Storm Gryphon.","Vakthros Ascent Storm Gryphon: Bronze",,18916,-1,-1,0,15268,0,0,1048576,78,1002572,0,0,0,0,0,0
-"Get Silver ranked time for Vakthros Ascent Storm Gryphon.","Vakthros Ascent Storm Gryphon: Silver",,18917,-1,-1,18916,15268,0,0,1048576,79,1002575,0,0,0,0,0,0
-"Get Gold ranked time for Vakthros Ascent Storm Gryphon.","Vakthros Ascent Storm Gryphon: Gold",,18918,-1,-1,18917,15268,0,0,1048576,80,1002573,0,0,0,0,0,0
-"Complete Tyrhold Trial Storm Gryphon.","Tyrhold Trial Storm Gryphon: Bronze",,18919,-1,-1,0,15268,0,0,1048576,81,1002572,0,0,0,0,0,0
-"Get Silver ranked time for Tyrhold Trial Storm Gryphon.","Tyrhold Trial Storm Gryphon: Silver",,18920,-1,-1,18919,15268,0,0,1048576,82,1002575,0,0,0,0,0,0
-"Get Gold ranked time for Tyrhold Trial Storm Gryphon.","Tyrhold Trial Storm Gryphon: Gold",,18921,-1,-1,18920,15268,0,0,1048576,83,1002573,0,0,0,0,0,0
-"Complete Stormsunder Crater Circuit Storm Gryphon.","Stormsunder Crater Circuit Storm Gryphon: Bronze",,18922,-1,-1,0,15268,0,0,1048576,84,1002572,0,0,0,0,0,0
-"Get Silver ranked time for Stormsunder Crater Circuit Storm Gryphon.","Stormsunder Crater Circuit Storm Gryphon: Silver",,18923,-1,-1,18922,15268,0,0,1048576,85,1002575,0,0,0,0,0,0
-"Get Gold ranked time for Stormsunder Crater Circuit Storm Gryphon.","Stormsunder Crater Circuit Storm Gryphon: Gold",,18924,-1,-1,18923,15268,0,0,1048576,86,1002573,0,0,0,0,0,0
-"Complete Crystal Circuit Storm Gryphon.","Crystal Circuit Storm Gryphon: Bronze",,18925,-1,-1,0,15268,0,0,1048576,87,1002572,0,0,0,0,0,0
-"Get Silver ranked time for Crystal Circuit Storm Gryphon.","Crystal Circuit Storm Gryphon: Silver",,18926,-1,-1,18925,15268,0,0,1048576,88,1002575,0,0,0,0,0,0
-"Get Gold ranked time for Crystal Circuit Storm Gryphon.","Crystal Circuit Storm Gryphon: Gold",,18927,-1,-1,18926,15268,0,0,1048576,89,1002573,0,0,0,0,0,0
-"Complete all Storm Gryphon races.","Storm Rider: Bronze",,18928,-1,-1,0,15268,0,0,133120,90,1002572,0,149404,0,0,0,0
-"Obtain silver in all the Storm Gryphon races.","Storm Rider: Silver",,18929,-1,-1,18928,15268,0,0,133120,91,1002575,0,149411,0,0,0,0
-"Obtain gold in all the Storm Gryphon races.","Storm Rider: Gold","Title: The Storm Rider",18931,-1,-1,18929,15268,0,0,133120,92,1002573,0,149418,0,0,0,0
+"Complete Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Bronze",,18910,-1,-1,0,15268,0,0,1048576,71,1002572,0,0,0,0,0,0
+"Get Silver ranked time for Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Silver",,18911,-1,-1,18910,15268,0,0,1048576,72,1002575,0,0,0,0,0,0
+"Get Gold ranked time for Ruby Lifeshrine Loop Storm Gryphon.","Ruby Lifeshrine Loop Storm Gryphon: Gold",,18912,-1,-1,18911,15268,0,0,1048576,73,1002573,0,0,0,0,0,0
+"Complete Fen Flythrough Storm Gryphon.","Fen Flythrough Storm Gryphon: Bronze",,18913,-1,-1,0,15268,0,0,1048576,74,1002572,0,0,0,0,0,0
+"Get Silver ranked time for Fen Flythrough Storm Gryphon.","Fen Flythrough Storm Gryphon: Silver",,18914,-1,-1,18913,15268,0,0,1048576,75,1002575,0,0,0,0,0,0
+"Get Gold ranked time for Fen Flythrough Storm Gryphon.","Fen Flythrough Storm Gryphon: Gold",,18915,-1,-1,18914,15268,0,0,1048576,76,1002573,0,0,0,0,0,0
+"Complete Vakthros Ascent Storm Gryphon.","Vakthros Ascent Storm Gryphon: Bronze",,18916,-1,-1,0,15268,0,0,1048576,77,1002572,0,0,0,0,0,0
+"Get Silver ranked time for Vakthros Ascent Storm Gryphon.","Vakthros Ascent Storm Gryphon: Silver",,18917,-1,-1,18916,15268,0,0,1048576,78,1002575,0,0,0,0,0,0
+"Get Gold ranked time for Vakthros Ascent Storm Gryphon.","Vakthros Ascent Storm Gryphon: Gold",,18918,-1,-1,18917,15268,0,0,1048576,79,1002573,0,0,0,0,0,0
+"Complete Tyrhold Trial Storm Gryphon.","Tyrhold Trial Storm Gryphon: Bronze",,18919,-1,-1,0,15268,0,0,1048576,80,1002572,0,0,0,0,0,0
+"Get Silver ranked time for Tyrhold Trial Storm Gryphon.","Tyrhold Trial Storm Gryphon: Silver",,18920,-1,-1,18919,15268,0,0,1048576,81,1002575,0,0,0,0,0,0
+"Get Gold ranked time for Tyrhold Trial Storm Gryphon.","Tyrhold Trial Storm Gryphon: Gold",,18921,-1,-1,18920,15268,0,0,1048576,82,1002573,0,0,0,0,0,0
+"Complete Stormsunder Crater Circuit Storm Gryphon.","Stormsunder Crater Circuit Storm Gryphon: Bronze",,18922,-1,-1,0,15268,0,0,1048576,83,1002572,0,0,0,0,0,0
+"Get Silver ranked time for Stormsunder Crater Circuit Storm Gryphon.","Stormsunder Crater Circuit Storm Gryphon: Silver",,18923,-1,-1,18922,15268,0,0,1048576,84,1002575,0,0,0,0,0,0
+"Get Gold ranked time for Stormsunder Crater Circuit Storm Gryphon.","Stormsunder Crater Circuit Storm Gryphon: Gold",,18924,-1,-1,18923,15268,0,0,1048576,85,1002573,0,0,0,0,0,0
+"Complete Crystal Circuit Storm Gryphon.","Crystal Circuit Storm Gryphon: Bronze",,18925,-1,-1,0,15268,0,0,1048576,86,1002572,0,0,0,0,0,0
+"Get Silver ranked time for Crystal Circuit Storm Gryphon.","Crystal Circuit Storm Gryphon: Silver",,18926,-1,-1,18925,15268,0,0,1048576,87,1002575,0,0,0,0,0,0
+"Get Gold ranked time for Crystal Circuit Storm Gryphon.","Crystal Circuit Storm Gryphon: Gold",,18927,-1,-1,18926,15268,0,0,1048576,88,1002573,0,0,0,0,0,0
+"Complete all Storm Gryphon races.","Storm Rider: Bronze",,18928,-1,-1,0,15268,0,0,133120,89,1002572,0,149404,0,0,0,0
+"Obtain silver in all the Storm Gryphon races.","Storm Rider: Silver",,18929,-1,-1,18928,15268,0,0,133120,90,1002575,0,149411,0,0,0,0
+"Obtain gold in all the Storm Gryphon races.","Storm Rider: Gold","Title: The Storm Rider",18931,-1,-1,18929,15268,0,0,133120,91,1002573,0,149418,0,0,0,0
 ,"<Hidden> 10.2 Tyr Campaign - Ch 04 - Mail Quest Push - Valunei's Letter (AAO)",,18933,-1,-1,0,15455,0,0,9437188,59,136243,208826,149425,0,0,0,0
 "Perform alchemical research or experimentation 100 times.","Excessive Experimentation",,18934,-1,-1,0,15489,0,10,131072,16,413575,0,149433,0,0,0,0
 "Witness Velen's prophecy of unexpected penitence unfold.","Seeing Red (account)","Customization Reward: Man'ari Eredar Appearances for Draenei",18938,-1,-1,0,15455,0,0,1179648,92,1711329,0,149435,0,0,0,0
@@ -10020,10 +10020,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Attain a Mythic+ Rating of at least 2500 during Dragonflight Season Three.","Dragonflight Keystone Hero: Season Three",,19012,-1,-1,19011,15272,0,0,133120,110,648760,0,149690,0,0,0,0
 "Contribute a seed at each Emerald Bounty locations to help grow the following plants.","I Dream of Seeds",,19013,-1,-1,0,15465,0,15,131072,71,464030,0,149692,0,0,0,0
 "Complete the following storylines in the Emerald Dream.","Defenders of the Dream",,19026,-1,-1,0,15455,0,10,131072,71,5342929,0,149726,0,0,0,0
-"Owner of The War Within Heroic Edition Algarian Stormrider mount.","Heroic Edition: Algarian Stormrider",,19027,-1,-1,0,15268,0,0,133120,93,5306251,0,149859,0,0,0,0
-"Owner of the Lil' Maggz pet.","Lil' Maggz",,19029,-1,-1,0,15268,1,0,133120,95,4891625,0,149929,0,0,0,0
-"Owner of the Squally pet.",Squally,,19030,-1,-1,0,15268,1,0,133120,96,5333904,0,149931,0,0,0,0
-"Owner of the Fyrn pet.",Fyrn,,19031,-1,-1,0,15268,1,0,133120,97,5003505,0,149933,0,0,0,0
+"Owner of The War Within Heroic Edition Algarian Stormrider mount.","Heroic Edition: Algarian Stormrider",,19027,-1,-1,0,15268,0,0,133120,92,5306251,0,149859,0,0,0,0
+"Owner of the Lil' Maggz pet.","Lil' Maggz",,19029,-1,-1,0,15268,1,0,133120,94,4891625,0,149929,0,0,0,0
+"Owner of the Squally pet.",Squally,,19030,-1,-1,0,15268,1,0,133120,95,5333904,0,149931,0,0,0,0
+"Owner of the Fyrn pet.",Fyrn,,19031,-1,-1,0,15268,1,0,133120,96,5003505,0,149933,0,0,0,0
 "Complete the Emerald Dream Shoreline Switchback.","Shoreline Switchback: Bronze",,19032,-1,-1,0,15462,0,0,1048576,1298,1002572,0,0,0,0,0,0
 "Get Silver ranked time for the Emerald Dream Shoreline Switchback.","Shoreline Switchback: Silver",,19033,-1,-1,19032,15462,0,0,1048576,1299,1002575,0,0,0,0,0,0
 "Get Gold ranked time for the Emerald Dream Shoreline Switchback.","Shoreline Switchback: Gold",,19034,-1,-1,19033,15462,0,0,1048576,1300,1002573,0,0,0,0,0,0
@@ -10070,7 +10070,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the Emerald Dream Emerald Amble Reverse Challenge.","Emerald Amble Reverse Challenge: Bronze",,19074,-1,-1,0,15462,0,0,1048576,1340,1002572,0,0,0,0,0,0
 "Get Silver ranked time for the Emerald Dream Emerald Amble Reverse Challenge.","Emerald Amble Reverse Challenge: Silver",,19075,-1,-1,19074,15462,0,0,1048576,1341,1002575,0,0,0,0,0,0
 "Get Gold ranked time for the Emerald Dream Emerald Amble Reverse Challenge.","Emerald Amble Reverse Challenge: Gold",,19076,-1,-1,19075,15462,0,0,1048576,1342,1002573,0,0,0,0,0,0
-"Proud owner of the 2023 Vintage Winter Veil gift, Junior Timekeeper's Racing Belt.","Catch Me If You Can!",,19077,-1,-1,0,15274,0,0,2048,35,133202,0,150037,0,0,0,0
+"Proud owner of the 2023 Vintage Winter Veil gift, Junior Timekeeper's Racing Belt.","Catch Me If You Can!",,19077,-1,-1,0,15274,0,0,133120,35,133202,0,150037,0,0,0,0
 "Gain Mastery of Timeways for 5 weeks during the Turbulent Timeways event.","Master of the Turbulent Timeways","Mount: Sandy Shalewing",19079,-1,-1,0,15269,0,0,131072,69,4630413,205208,150048,0,0,0,0
 "Participated in empowering the Arcane Forge in Valdrakken during the Secrets of Azeroth event.","Arcane Influence",,19080,-1,-1,0,15274,0,0,133120,79,1723986,0,150210,0,0,0,0
 "Complete Throne of the Tides at Mythic Level 20 or higher, within the time limit.","Keystone Hero: Throne of the Tides","Max Level Unlock: Teleport to Throne of the Tides",19082,643,-1,0,15272,0,0,395264,9,409600,0,150227,0,0,0,0
@@ -10133,7 +10133,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Earn the rank of Challenger II during Dragonflight Season 3.","Challenger II: Dragonflight Season 3",,19160,-1,-1,0,15270,0,0,14336,395,236542,0,150627,0,0,0,0
 "End Dragonflight Season 3 in the top 0.5% of the rated battleground ladder (requires 50 games won in Dragonflight Season 3).","Hero of the Horde: Verdant",,19161,-1,0,0,15270,0,0,14336,424,236629,0,0,0,0,0,0
 "End Dragonflight Season 3 in the top 0.5% of the rated battleground ladder (requires 50 games won in Dragonflight Season 3).","Hero of the Alliance: Verdant",,19162,-1,1,0,15270,0,0,14336,439,236593,0,0,0,0,0,0
-"Owner of the Lil' Frostwing pet.","Lil' Frostwing",,19192,-1,-1,0,15268,1,0,133120,94,5260512,0,149927,0,0,0,0
+"Owner of the Lil' Frostwing pet.","Lil' Frostwing",,19192,-1,-1,0,15268,1,0,133120,93,5260512,0,149927,0,0,0,0
 "Defeat the Council of Dreams after recruiting Sergeant Quackers to join the cause in Amirdrassil, the Dream's Hope on Normal difficulty or higher.","Ducks In A Row",,19193,2549,-1,0,15468,0,10,0,54,4048814,210347,150734,0,0,0,0
 "Contribute 10 seeds to the Emerald Bounty.","The Emerald Bounty",,19194,-1,-1,0,15465,0,5,131072,72,656680,0,150736,0,0,0,0
 "Contribute 50 seeds to the Emerald Bounty.","Sowing the Seeds",,19196,-1,-1,19194,15465,0,10,131072,73,656679,0,150738,0,0,0,0
@@ -11342,7 +11342,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the War Within delves listed below.","Delver of the Depths",,40437,-1,-1,0,15523,0,10,143360,61,1786405,0,163440,0,0,0,0
 "Complete the War Within delve achievements listed below.","Glory of the Delver","Mount: Ivory Goliathus",40438,-1,-1,0,15523,0,25,143360,65,6025441,224415,163437,0,0,0,0
 "Successfully complete a Fungarian delve without being hit by Explosive Spores on Tier 8 or higher.",Sporesweeper,,40445,-1,-1,0,15523,0,10,0,40,5789328,0,164004,0,0,0,0
-"Successfully complete a Kobold delve without exhausting an Enchanted Candle or Air Totem on Tier 8 or higher.","I TAKE Candle!",,40446,-1,-1,0,15531,0,10,2048,27,2061718,0,164005,0,0,0,0
+"Successfully complete a Kobold delve without exhausting an Enchanted Candle or Air Totem on Tier 8 or higher.","I TAKE Candle!",,40446,-1,-1,0,15531,0,10,2048,28,2061718,0,164005,0,0,0,0
 "Complete the War Within delves listed below on Tier 4 or higher with lives remaining.","Delver of the Depths II",,40447,-1,-1,40437,15523,0,10,143360,62,1786405,0,163454,0,0,0,0
 "Complete the War Within delves listed below on Tier 8 or higher with lives remaining.","Delver of the Depths III",,40448,-1,-1,40447,15523,0,25,143360,63,1786405,0,163467,0,0,0,0
 "Complete the War Within delves listed below on Tier 11 with lives remaining.","Delver of the Depths IV",,40449,-1,-1,40448,15523,0,25,131072,64,1786405,0,163480,0,0,0,0
@@ -11394,14 +11394,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete The Ringing Deeps world quest ""Reaching for Resources"" while leaping to 25 handholds or less.","Hanging Tight",,40507,-1,-1,0,15506,0,5,0,33,236316,0,164007,0,0,0,0
 "Complete a Tier 2 delve.","War Within Delves: Tier 2","Unlock: Tier 3 delves in The War Within",40512,-1,-1,40631,15523,0,10,131072,3,6025441,0,166446,0,0,0,0
 "Complete a Tier 3 delve.","War Within Delves: Tier 3",,40514,-1,-1,40512,15523,0,10,131072,4,6025441,0,164035,0,0,0,0
-"Complete a Tier 4 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 4 (Season 1)",,40515,-1,-1,0,15531,0,0,133120,10,6025441,0,164037,0,0,0,0
-"Complete a Tier 5 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 5 (Season 1)","Unlock: Tier 6 delves in The War Within",40516,-1,-1,40515,15531,0,0,133120,12,6025441,0,164039,0,0,0,0
+"Complete a Tier 4 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 4 (Season 1)",,40515,-1,-1,0,15531,0,0,133120,11,6025441,0,164037,0,0,0,0
+"Complete a Tier 5 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 5 (Season 1)","Unlock: Tier 6 delves in The War Within",40516,-1,-1,40515,15531,0,0,133120,13,6025441,0,164039,0,0,0,0
 ,"Mycomancer Cavern clears",,40741,-1,-1,0,15534,0,0,1,7,136243,0,166547,0,0,0,0
-"Complete a Tier 6 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 6 (Season 1)","Unlock: Tier 7 delves in The War Within",40517,-1,-1,40516,15531,0,0,133120,13,6025441,0,164041,0,0,0,0
-"Complete a Tier 7 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 7 (Season 1)","Unlock: Tier 8 delves in The War Within",40518,-1,-1,40517,15531,0,0,133120,14,6025441,0,164043,0,0,0,0
-"Complete a Tier 8 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 8 (Season 1)","Unlock: Tier 9 delves in The War Within",40519,-1,-1,40518,15531,0,0,133120,15,6025441,0,164045,0,0,0,0
-"Complete a Tier 9 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 9 (Season 1)","Unlock: Tier 10 delves in The War Within",40520,-1,-1,40519,15531,0,0,133120,16,6025441,0,164047,0,0,0,0
-"Complete a Tier 10 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 10 (Season 1)","Unlock: Tier 11 delves in The War Within",40521,-1,-1,40520,15531,0,0,133120,17,6025441,0,164049,0,0,0,0
+"Complete a Tier 6 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 6 (Season 1)","Unlock: Tier 7 delves in The War Within",40517,-1,-1,40516,15531,0,0,133120,14,6025441,0,164041,0,0,0,0
+"Complete a Tier 7 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 7 (Season 1)","Unlock: Tier 8 delves in The War Within",40518,-1,-1,40517,15531,0,0,133120,15,6025441,0,164043,0,0,0,0
+"Complete a Tier 8 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 8 (Season 1)","Unlock: Tier 9 delves in The War Within",40519,-1,-1,40518,15531,0,0,133120,16,6025441,0,164045,0,0,0,0
+"Complete a Tier 9 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 9 (Season 1)","Unlock: Tier 10 delves in The War Within",40520,-1,-1,40519,15531,0,0,133120,17,6025441,0,164047,0,0,0,0
+"Complete a Tier 10 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 10 (Season 1)","Unlock: Tier 11 delves in The War Within",40521,-1,-1,40520,15531,0,0,133120,18,6025441,0,164049,0,0,0,0
 "Obtain all curios that are available for Brann Bronzebeard.","On Brand",,40523,-1,-1,0,15523,0,10,131072,20,973911,0,164139,0,0,0,0
 "Complete 5 Delver's Call quests in the War Within.","Good Deed Delver",,40524,-1,-1,0,15506,0,5,131200,42,237554,0,166268,0,0,0,0
 "Complete each story variant of Fungal Folly.","Fungal Folly Stories",,40525,-1,-1,0,15523,0,5,131072,26,5789324,0,164059,0,0,0,0
@@ -11548,7 +11548,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete one of the achievements or feats of strength listed below:","Web-Wrapped in the Finest Silks","Reward: Luminous Nerubian Catalyst Stone",40723,-1,-1,0,15259,0,10,131072,53,5857267,0,166425,0,0,0,0
 "Discover the hidden treasures across The Ringing Deeps.","Treasures of The Ringing Deeps",,40724,-1,-1,0,15521,0,5,131072,36,1542858,0,166437,0,0,0,0
 "Reach level 80 and complete the Khaz Algar main story campaign on your Warband.","War Within Delves: Endgame","Unlock: Tier 4 delves in The War Within",40725,-1,-1,40514,15523,0,10,131072,5,6025441,0,164017,0,0,0,0
-"Complete a Tier 11 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 11 (Season 1)","Title: High Explorer",40726,-1,-1,40521,15531,0,0,133120,18,6025441,0,166448,0,0,0,0
+"Complete a Tier 11 delve with lives remaining during The War Within Season 1.","War Within Delves: Tier 11 (Season 1)","Title: High Explorer",40726,-1,-1,40521,15531,0,0,133120,19,6025441,0,166448,0,0,0,0
 "Ride the High Hollows Skittershaw for a full lap around the district.","Skittershaw Spin",,40727,-1,-1,0,15506,0,5,0,34,879828,0,166453,0,0,0,0
 "Collect any armor set from The War Within PvP Season 1.","Forged Finery",,40728,-1,-1,0,15259,0,10,131072,87,5771687,0,166455,0,0,0,0
 "Win a game of Light's Gambit on Hard Difficulty.","Light's Gambit Champion",,40729,-1,-1,0,15506,0,10,0,32,135986,0,166458,0,0,0,0
@@ -11721,7 +11721,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete Operation: Mechagon - Workshop at Mythic Level 10 or higher, within the time limit.","Keystone Hero: Operation: Mechagon - Workshop","Max Level Unlock: Teleport to Operation: Mechagon - Workshop",40966,2097,-1,0,15272,0,0,264192,56,3024540,0,168635,0,0,0,0
 "Uncover Ratts' story and take back her stolen prize.","Ratts' Revenge",,40967,-1,-1,0,81,0,0,133120,222,5370377,0,168787,0,0,0,0
 ,"[DNT] <Hidden> Mythic+ Rating > 0 (The War Within, any season)",,40974,-1,-1,0,15428,0,0,9568260,4,136243,0,168864,0,0,0,0
-"Complete the following achievements.","A Cool Twenty Years","Mount: Coldflame Tempest",40976,-1,-1,0,15268,0,0,133120,99,6036545,0,168873,0,0,0,0
+"Complete the following achievements.","A Cool Twenty Years","Mount: Coldflame Tempest",40976,-1,-1,0,15268,0,0,133120,98,6036545,0,168873,0,0,0,0
 "Complete the scenario ""The Codex of Chromie.""","Codex Editor: Ahn'Qiraj",,40977,-1,-1,0,15532,0,10,131072,12,237538,0,168892,0,0,0,0
 "Find and return all Celebration Crates.","No Crate Left Behind",,40979,-1,-1,40873,15532,0,10,131072,10,132761,0,168921,0,0,0,0
 "Complete the following achievements.","Family Battler of Khaz Algar","Pet: Fuzzy",40980,-1,-1,0,15119,0,10,135168,141,5755548,0,168937,0,0,0,0
@@ -11754,7 +11754,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Earn the rank of Challenger II during The War Within Season 2.","Challenger II: The War Within Season 2",,41023,-1,-1,0,15270,0,0,14336,398,236542,0,169323,0,0,0,0
 "Win 50 3v3 games while at Elite rank during The War Within Season 2.","Gladiator: The War Within Season 2","Reward: Gladiator Mount, Customization, Seasonal Character Title",41032,-1,-1,0,15270,0,0,14336,30,236542,229987,169494,0,0,0,0
 "Purchase a second updated Tier 2 armor set during the WoW Anniversary celebration.","Classy Dresser","Reward: Lower the cost of additional Tier 2 armor ensembles.",41033,-1,-1,41013,15532,0,10,131072,2,6076194,0,169549,0,0,0,0
-"Collect 100 Bronze Celebration Tokens during WoW's 20th Anniversary. (This will become a Feat of Strength.)","Token Collector","Reward: Bronze Celebration Tokens drop from repeatable 20th Anniversary activities.",41038,-1,-1,0,15268,0,0,133120,100,4638504,0,169557,0,0,0,0
+"Collect 100 Bronze Celebration Tokens during WoW's 20th Anniversary. (This will become a Feat of Strength.)","Token Collector","Reward: Bronze Celebration Tokens drop from repeatable 20th Anniversary activities.",41038,-1,-1,0,15268,0,0,133120,99,4638504,0,169557,0,0,0,0
 "Complete the following weekly quests on the Siren Isle.","Siren-ity Now!",,41042,-1,-1,0,15506,0,10,131072,6,237387,0,169530,0,0,0,0
 "Contribute to each of the following excavations on the Siren Isle Command Map.","Excavation Projects",,41043,-1,-1,0,15506,0,5,131072,30,1064187,0,169563,0,0,0,0
 "Earn 2500 Conquest on this character during The War Within Season 1.","Forged Weapons of Conquest","Item Reward: Forged Gladiator's Weapon Token (x2)",41044,-1,-1,0,15270,0,0,33556480,477,1594747,0,169567,0,0,0,0
@@ -11859,14 +11859,14 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Aid the Assembly of the Deeps by completing the achievements below.","Rage Aside the Machine",,41187,-1,-1,0,15521,0,20,131072,3,5770812,0,170240,0,0,0,0
 "Aid the Hallowfall Arathi by completing the achievements below.","Crystal Chronicled",,41188,-1,-1,0,15521,0,20,131072,4,5770810,0,170248,0,0,0,0
 "Experience life in Azj-Kahet by completing the achievements below.","Azj the World Turns",,41189,-1,-1,0,15521,0,20,131072,5,5770809,0,170377,0,0,0,0
-"Complete a Tier 4 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 4 (Season 2)","Unlock: Tier 5 delves in The War Within",41191,-1,-1,0,15531,0,0,133120,19,6025441,0,170263,0,0,0,0
-"Complete a Tier 5 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 5 (Season 2)","Unlock: Tier 6 delves in The War Within",41192,-1,-1,41191,15531,0,0,133120,20,6025441,0,170265,0,0,0,0
-"Complete a Tier 7 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 7 (Season 2)","Unlock: Tier 7 delves in The War Within",41193,-1,-1,41198,15531,0,0,133120,22,6025441,0,170269,0,0,0,0
-"Complete a Tier 8 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 8 (Season 2)","Unlock: Tier 9 delves in The War Within",41194,-1,-1,41193,15531,0,0,133120,23,6025441,0,170271,0,0,0,0
-"Complete a Tier 9 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 9 (Season 2)","Unlock: Tier 10 delves in The War Within",41195,-1,-1,41194,15531,0,0,133120,24,6025441,0,170273,0,0,0,0
-"Complete a Tier 10 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 10 (Season 2)","Unlock: Tier 11 delves in The War Within",41196,-1,-1,41195,15531,0,0,133120,25,6025441,0,170275,0,0,0,0
-"Complete a Tier 11 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 11 (Season 2)","Title: High Explorer",41197,-1,-1,41196,15531,0,0,133120,26,6025441,0,170277,0,0,0,0
-"Complete a Tier 6 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 6 (Season 2)","Unlock: Tier 7 delves in The War Within",41198,-1,-1,41192,15531,0,0,133120,21,6025441,0,170267,0,0,0,0
+"Complete a Tier 4 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 4 (Season 2)","Unlock: Tier 5 delves in The War Within",41191,-1,-1,0,15531,0,0,133120,20,6025441,0,170263,0,0,0,0
+"Complete a Tier 5 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 5 (Season 2)","Unlock: Tier 6 delves in The War Within",41192,-1,-1,41191,15531,0,0,133120,21,6025441,0,170265,0,0,0,0
+"Complete a Tier 7 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 7 (Season 2)","Unlock: Tier 7 delves in The War Within",41193,-1,-1,41198,15531,0,0,133120,23,6025441,0,170269,0,0,0,0
+"Complete a Tier 8 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 8 (Season 2)","Unlock: Tier 9 delves in The War Within",41194,-1,-1,41193,15531,0,0,133120,24,6025441,0,170271,0,0,0,0
+"Complete a Tier 9 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 9 (Season 2)","Unlock: Tier 10 delves in The War Within",41195,-1,-1,41194,15531,0,0,133120,25,6025441,0,170273,0,0,0,0
+"Complete a Tier 10 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 10 (Season 2)","Unlock: Tier 11 delves in The War Within",41196,-1,-1,41195,15531,0,0,133120,26,6025441,0,170275,0,0,0,0
+"Complete a Tier 11 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 11 (Season 2)","Title: High Explorer",41197,-1,-1,41196,15531,0,0,133120,27,6025441,0,170277,0,0,0,0
+"Complete a Tier 6 delve with lives remaining during The War Within Season 2.","War Within Delves: Tier 6 (Season 2)","Unlock: Tier 7 delves in The War Within",41198,-1,-1,41192,15531,0,0,133120,22,6025441,0,170267,0,0,0,0
 "Complete the quest ""Grand, Gutsy Solutions.""","Grand, Gutsy Solutions","Pet: Slim",41200,-1,-1,0,15521,0,0,1245184,99,2027953,222980,170300,0,0,0,0
 "End Xal'atath's schemes (for now) by completing the achievements below.","You Xal Not Pass","Mount Reward: Shadow of Doubt",41201,-1,-1,0,15521,0,40,131072,11,4913234,223313,170302,0,0,0,0
 "Experience Zandalari culture by completing the achievements listed below.","Hot Tropic",,41202,-1,-1,0,15298,0,20,131072,2,2065640,0,170508,0,0,0,0
@@ -12020,7 +12020,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect an armor set from the Liberation of Undermine.","Can You Please Spell ""Gobanna?""",,41525,-1,-1,0,15259,0,10,131072,54,6392630,0,206447,0,0,0,0
 "Defeat The Underpin in his lair on Tier ?? before the release of the next season of delves.","Breaking the Bank","Title: The Real Deal",41529,-1,-1,0,15531,0,0,14336,6,6124649,0,206449,0,0,0,0
 "Defeat The Underpin in his lair before the release of the next season of delves.","My New Nemesis","Reward: Golden-Gob Propulsion Rig",41530,-1,-1,0,15531,0,0,14336,4,5393730,0,206451,0,0,0,0
-"Ask Brann to change his hat ten times after recovering it from the Underpin during the War Within Season 2.","The Hataclysm",,41531,-1,-1,0,15531,0,0,133120,11,5221397,0,206454,0,0,0,0
+"Ask Brann to change his hat ten times after recovering it from the Underpin during the War Within Season 2.","The Hataclysm",,41531,-1,-1,0,15531,0,0,133120,12,5221397,0,206454,0,0,0,0
 "Obtain the Delver's Gob-Trotter.","I've Got a Flying Machine?",,41532,-1,-1,0,15523,0,10,131072,23,5917277,0,206461,0,0,0,0
 "Attain a Mythic+ Rating of at least 2000 during The War Within Season Two.","The War Within Keystone Master: Season Two","Mount: Crimson Shreddertank",41533,-1,-1,40950,15272,0,0,133120,122,618859,235549,168581,0,0,0,0
 "Raise a companion to level 70.","Buddy System VII",,41537,-1,-1,40461,15522,0,10,131072,13,236568,0,206696,0,0,0,0
@@ -12062,21 +12062,21 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Vicious Saddle (40)",,41697,-1,0,19552,15270,0,0,1179648,63,1379171,103533,207460,0,0,0,0
 ,"Vicious Saddle (41)",,41698,-1,1,41696,15270,0,0,1179648,125,1379171,103533,207462,0,0,0,0
 ,"Vicious Saddle (41)",,41699,-1,0,41697,15270,0,0,1179648,64,1379171,103533,207464,0,0,0,0
-"Win Dastardly Duos matches each week!","Dastardly Duos Weekly Wins",,41700,-1,-1,0,15545,0,0,0,1,6740278,0,207470,0,0,0,0
-"Gains new High Scores each week!","Dastardly Duos Weekly High Score",,41706,-1,-1,0,15545,0,0,0,2,6740278,0,207477,0,0,0,0
-"Those bosses are inhuman. Really! Collect their gears to prove it.","Dastardly Devices",,41707,-1,-1,0,15545,0,0,0,9,6740278,0,207484,0,0,0,0
-"Make friends with all 5 Grabbable Rats in Undermine.","You're My Friend Now",,41708,-1,-1,0,15521,0,5,0,2,6351952,0,207587,0,0,0,0
-"Complete the Delver's Journey before Season 2 ends.","Journey's End (Season 2)",,41709,-1,-1,0,15531,0,0,133120,9,6025441,0,207593,0,0,0,0
+"Win Dastardly Duos matches each week!","Dastardly Duos Weekly Wins",,41700,-1,-1,0,15545,0,0,1048576,1,6740278,0,207470,0,0,0,0
+"Gain new High Scores each week!","Dastardly Duos Weekly High Score",,41706,-1,-1,0,15545,0,50,0,2,6740278,0,207477,0,0,0,0
+"Those bosses are inhuman. Really! Collect their gears to prove it.","Dastardly Devices",,41707,-1,-1,0,15545,0,10,0,8,6740278,0,207484,0,0,0,0
+"Make friends with all 5 Grabbable Rats in Undermine.","You're My Friend Now",,41708,-1,-1,0,15521,0,5,131072,2,6351952,0,207587,0,0,0,0
+"Complete the Delver's Journey before Season 2 ends.","Journey's End (Season 2)",,41709,-1,-1,0,15531,0,0,133120,10,6025441,0,207593,0,0,0,0
 "Obtain the Faceless Mask of the Nemesis in a Revisited Vision.","Faceless Mask of the Nemesis",,41710,-1,-1,0,15546,0,0,1048576,14,136243,0,207597,0,0,0,0
 "Defeat Sprocketmonger Lockenstock without being struck by Blazing Beam, Rocket Barrage, Mega Magnetize, Jumbo Void Beam, or Void Barrage in Liberation of Undermine on Normal difficulty or higher.","Conveyor Slayer",,41711,2769,-1,0,15526,0,10,0,27,132996,0,207600,0,0,0,0
 "Collect the following cosmetic unlocks for the Delver's Gob-Trotter.","From Trash to Treasure",,41714,-1,-1,41532,15523,0,10,131072,24,132241,0,207651,0,0,0,0
-"You draw extra cheers from the crowd!","Fiendishly Famous","Cheery bombs collect more cheers near you",41715,-1,-1,0,15545,0,0,0,3,6740278,0,207661,0,0,0,0
-"The fans love you and want to see you succeed.","Duo Darling","Gain higher scores when you don't die in Dastardly Duos matches",41716,-1,-1,0,15545,0,0,0,7,6740278,0,207663,0,0,0,0
-"You came from behind, then won!","Duos Underdog",,41717,-1,-1,0,15545,0,0,0,6,6740278,0,207666,0,0,0,0
-"Give the set workers job security!","Inside Connections","Workers hide an extra present inside one Dastardly Duos prop.",41722,-1,-1,0,15545,0,0,0,4,6740278,0,207761,0,0,0,0
+"You draw extra cheers from the crowd!","Fiendishly Famous","Cheery bombs collect more cheers near you",41715,-1,-1,0,15545,0,10,0,3,6740278,0,207661,0,0,0,0
+"The fans love you and want to see you succeed.","Duo Darling","Gain higher scores when you don't die in Dastardly Duos matches",41716,-1,-1,0,15545,0,10,0,7,6740278,0,207663,0,0,0,0
+"You came from behind, then won!","Duos Underdog",,41717,-1,-1,0,15545,0,10,131072,6,6740278,0,207666,0,0,0,0
+"Give the set workers job security!","Inside Connections","Workers hide an extra present inside one Dastardly Duos prop.",41722,-1,-1,0,15545,0,10,0,4,6740278,0,207761,0,0,0,0
 "Raise a companion to level 80.","Buddy System VIII",,41723,-1,-1,41537,15522,0,10,131072,14,236569,0,207767,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 12 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 12","Keystones will no longer deplete below level 12 during the War Within Season 2.",41724,-1,-1,0,15272,0,0,1050624,125,648754,0,207769,0,0,0,0
-"Purchase all research items in the Hourglass of Horrific Visions.","We Have the Memories",,41725,-1,-1,0,15546,0,10,131072,4,525134,0,207778,0,0,0,0
+"Purchase enough Echoes of N'Zoth to research all of the items in the Hourglass of Horrific Visions.","We Have the Memories",,41725,-1,-1,0,15546,0,10,131072,4,525134,0,207778,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 13 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 13","Keystones will no longer deplete below level 13 during the War Within Season 2.",41726,-1,-1,0,15272,0,0,1050624,126,648754,0,207785,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 14 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 14","Keystones will no longer deplete below level 14 during the War Within Season 2.",41727,-1,-1,0,15272,0,0,1050624,127,648754,0,207794,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 14 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 15","Keystones will no longer deplete below level 15 during the War Within Season 2.",41728,-1,-1,0,15272,0,0,1050624,128,648754,0,207803,0,0,0,0
@@ -12106,7 +12106,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"<DNT> Mug'Zee, Heads of Security defeated",,41800,-1,-1,0,15526,0,0,1048576,59,136243,0,208216,0,0,0,0
 ,"<DNT> Chrome King Gallywix defeated",,41801,-1,-1,0,15526,0,0,1048576,60,136243,0,208218,0,0,0,0
 ,"11.0.7 Plunderstorm - Mainline Power Reward - Fixup Achievement",,41807,-1,-1,0,15506,0,0,137756676,1,136243,0,208252,0,0,0,0
-"Gain and upgrade your podium!","Winner's Podium",,41810,-1,-1,0,15545,0,0,0,5,6403295,0,208328,0,0,0,0
+"Gain and upgrade your podium!","Winner's Podium",,41810,-1,-1,0,15545,0,10,0,5,6403295,0,208328,0,0,0,0
 ,"[DNT] 11.0.7 Plunderstorm - Mainline Power Reward - Fixup Quest Tracker",,41816,-1,-1,0,15506,0,0,3276800,2,136243,0,208370,0,0,0,0
 "Defeat Alleria in the Revisited Horrific Vision of Stormwind.","Horrific Vision of Stormwind",,41853,-1,-1,0,15546,0,5,0,5,135763,0,208642,0,0,0,0
 "Complete all objectives in the Revisited Horrific Vision of Stormwind in a single visit.","The Even More Horrific Vision of Stormwind",,41854,-1,-1,41853,15546,0,10,0,6,135763,0,208644,0,0,0,0
@@ -12135,20 +12135,20 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Obtain 10000 Displaced Corrupted Mementos.","Memento Mori",,41896,-1,-1,41859,15546,0,10,131072,56,646678,0,208973,0,0,0,0
 "Obtain 50000 Displaced Corrupted Mementos.","A Monumental Amount of Mementos",,41897,-1,-1,41983,15546,0,10,131072,58,646678,0,208975,0,0,0,0
 "Obtain 75000 Displaced Corrupted Mementos.","A Mountain of Mementos",,41898,-1,-1,41897,15546,0,20,131072,59,646678,0,208977,0,0,0,0
-"Get into the Limelight! Show the crowd you're a star!","Center of Attention",,41905,-1,-1,0,15545,0,0,0,15,6740278,0,208991,0,0,0,0
-"Keep things moving. Build momemtum!","My Way, The Highway",,41916,-1,-1,0,15545,0,0,0,16,6740278,0,209015,0,0,0,0
-"You somehow snatch victory from dastardly clutches.",Undefeatable,,41922,-1,-1,0,15545,0,0,0,17,6740278,0,209032,0,0,0,0
-"Complete the Revisited Horrific Vision achievements listed below.","Reeking of Visions","Pet: Reek",41928,-1,-1,0,15546,0,10,131072,1,1022950,0,209056,0,0,0,0
+"Get into the Limelight! Show the crowd you're a star!","Center of Attention",,41905,-1,-1,0,15545,0,10,0,14,6740278,0,208991,0,0,0,0
+"Keep things moving. Build momentum!","My Way, The Highway",,41916,-1,-1,0,15545,0,10,0,15,6740278,0,209015,0,0,0,0
+"You somehow snatch victory from dastardly clutches.",Undefeatable,,41922,-1,-1,0,15545,0,10,0,16,6740278,0,209032,0,0,0,0
+"Complete the Revisited Horrific Vision achievements listed below.","Reeking of Visions","Pet: Reek",41928,-1,-1,0,15546,0,10,131072,1,1022950,174463,209056,0,0,0,0
 "Complete the Revisited Horrific Vision achievements listed below.","Through the Depths of Visions","Mount: Black Serpent of N'Zoth",41929,-1,-1,41928,15546,0,20,131072,2,136122,174654,209059,0,0,0,0
 ,"Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)",,41930,-1,-1,0,81,0,0,1048580,202,136243,0,209063,0,0,0,0
 ,"Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)",,41938,-1,-1,0,81,0,0,1048580,205,136243,0,209075,0,0,0,0
 ,"Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)",,41946,-1,-1,0,81,0,0,1048580,203,136243,0,209077,0,0,0,0
 ,"Greater Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)",,41947,-1,-1,0,81,0,0,1048580,206,136243,0,209079,0,0,0,0
-"Defeat at least two bosses","Defeat the Dastardlies",,41948,-1,-1,0,15545,0,0,0,10,6740278,0,209096,0,0,0,0
-"Defeat at least four bosses","Defeat the Dastardlies",,41949,-1,-1,41948,15545,0,0,0,11,6740278,0,209107,0,0,0,0
-"Defeat at least six bosses","Defeat the Dastardlies",,41950,-1,-1,41949,15545,0,0,0,12,6740278,0,209118,0,0,0,0
-"Defeat at least 8 bosses","Defeat the Dastardlies",,41951,-1,-1,41950,15545,0,0,0,13,6740278,0,209129,0,0,0,0
-"Defeat all the Dastardly Bosses","Defeat the Dastardlies",,41952,-1,-1,41951,15545,0,0,0,14,6740278,0,209140,0,0,0,0
+"Defeat at least two bosses.","Defeat the Dastardlies",,41948,-1,-1,0,15545,0,10,0,9,6740278,0,209096,0,0,0,0
+"Defeat at least four bosses.","Defeat the Dastardlies",,41949,-1,-1,41948,15545,0,10,0,10,6740278,0,209107,0,0,0,0
+"Defeat at least six bosses.","Defeat the Dastardlies",,41950,-1,-1,41949,15545,0,10,0,11,6740278,0,209118,0,0,0,0
+"Defeat at least eight bosses.","Defeat the Dastardlies",,41951,-1,-1,41950,15545,0,10,0,12,6740278,0,209129,0,0,0,0
+"Defeat all the Dastardly Bosses","Defeat the Dastardlies",,41952,-1,-1,41951,15545,0,10,0,13,6740278,0,209140,0,0,0,0
 "Complete all objectives in the Revisited Horrific Visions of Stormwind and Orgrimmar in a single visit while not in a party and with any 5 Faceless Masks active .","Mad World","Title: The Faceless One",41953,-1,-1,0,81,0,0,2048,199,3163628,0,209151,0,0,0,0
 "Complete all objectives in the Revisited Horrific Vision of Stormwind in a single visit and with all 8 Faceless Masks active.","Beyond the Most Horrific Vision of Stormwind",,41964,-1,-1,41855,15546,0,20,0,8,135763,0,209174,0,0,0,0
 "Complete all objectives in the Revisited Horrific Vision of Orgrimmar in a single visit and with all 8 Faceless Masks active.","Beyond the Most Horrific Vision of Orgrimmar",,41965,-1,-1,41879,15546,0,20,0,12,135759,0,209176,0,0,0,0
@@ -12162,19 +12162,20 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Highest Kill Score",,41987,-1,-1,0,15550,0,0,1,2,6740278,0,209358,0,0,0,0
 ,"Highest Time Score",,41988,-1,-1,0,15550,0,0,1,3,6740278,0,209360,0,0,0,0
 ,"Highest Survival Score",,41989,-1,-1,0,15550,0,0,1,4,6740278,0,209362,0,0,0,0
-,"Total Killl Score",,41990,-1,-1,0,15550,0,0,1,5,6740278,0,209364,0,0,0,0
+,"Total Kill Score",,41990,-1,-1,0,15550,0,0,1,5,6740278,0,209364,0,0,0,0
 ,"Total Gears Grabbed",,41991,-1,-1,0,15550,0,0,1,6,6740278,0,209366,0,0,0,0
 ,"Total Goblin Zappers Killed",,41992,-1,-1,0,15550,0,0,1,7,6740278,0,209368,0,0,0,0
 ,"Total Pyro Machines Destroyed",,41993,-1,-1,0,15550,0,0,1,8,6740278,0,209370,0,0,0,0
 ,"Total Tombstones",,41994,-1,-1,0,15550,0,0,1,9,6740278,0,209372,0,0,0,0
-"Your party created enough tombstones for two graveyards!","Boot Hill",,41995,-1,-1,0,15545,0,0,2048,8,6740278,0,209374,0,0,0,0
+"Your Dastardly Duos group created enough tombstones for two graveyards!","Boot Hill",,41995,-1,-1,0,15274,0,10,0,84,6740278,0,209374,0,0,0,0
 "Complete the Nightfall Scenario.","I'm Doing My Part",,41996,-1,-1,0,15521,0,10,131072,114,236379,0,209405,0,0,0,0
 "Reach Renown rank 10 with Flame's Radiance.","Owner of a Radiant Heart",,41997,-1,-1,0,15530,0,10,131072,18,5764903,0,209407,0,0,0,0
 "Complete 10 Incursion quests in Hallowfall or Azj-Kahet.","Turning the Venom Tide",,41998,-1,-1,0,15521,0,10,131072,115,5764925,0,209409,0,0,0,0
 "Kill at least 5 of the following Nightfall elites in Hallowfall or Azj-Kahet.","Fighter of the Nightman",,41999,-1,-1,0,15521,0,10,131072,116,135945,0,209392,0,0,0,0
-,"Total Props Destroyed",,42000,-1,-1,0,15550,0,0,1,10,6740278,0,209376,0,0,0,0
+"Total Props Destroyed","Total Props Destroyed",,42000,-1,-1,0,15550,0,0,1,10,6740278,0,209376,0,0,0,0
 ,"Total Runs Completed",,42001,-1,-1,0,15550,0,0,1,11,6740278,0,209378,0,0,0,0
-"Call out more enemies. More, more!!","Bullhorn of Plenty",,42002,-1,-1,0,15545,0,0,0,18,6740278,0,209415,0,0,0,0
-"Call out more enemies. More, more!!","Bullhorn of More Plenty",,42003,-1,-1,42002,15545,0,0,0,19,6740278,0,209417,0,0,0,0
-"Call out more enemies. More, more!!","Bullhorn of Most Plenty",,42004,-1,-1,42003,15545,0,0,0,20,6740278,0,209419,0,0,0,0
+"Call out more enemies. More, more!!","Bullhorn of Plenty",,42002,-1,-1,0,15545,0,10,0,17,6740278,0,209415,0,0,0,0
+"Call out more enemies. More, more!!","Bullhorn of More Plenty",,42003,-1,-1,42002,15545,0,10,0,18,6740278,0,209417,0,0,0,0
+"Call out more enemies. More, more!!","Bullhorn of Most Plenty",,42004,-1,-1,42003,15545,0,10,0,19,6740278,0,209419,0,0,0,0
+"Defeat The Underpin in his lair on Tier ?? without any other players in your party, before the release of the next season of delves.","Let Me Solo Him: The Underpin (copy)","Reward: Delver's Gob-Trotter Schematic: Gold",42116,-1,-1,0,15531,0,0,1179652,9,6100921,0,209721,0,0,0,0
 "Complete the Lingering Shadows storyline.","Lingering Shadows","Appearance: Root Defender's Spear and Root Defender's Shield",41052,-1,-1,0,15506,0,10,131072,5,5976943,0,169684,0,0,0,0
