@@ -599,10 +599,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 			}),
 			n(VENDORS, {
 				n(181135, {	-- Servitor Interface
-					i(189455, {	-- Schematic: Pale Regal Cervid
-						["sourceAchievement"] = 15402,	-- Cyphers of the First Ones
-						["timeline"] = { ADDED_11_0_7 }
-					}),
+					["coord"] = { 70.2, 28.6, ZERETH_MORTIS },
+					["g"] = {
+						i(189455, {	-- Schematic: Pale Regal Cervid
+							["sourceAchievement"] = 15402,	-- Cyphers of the First Ones
+							["timeline"] = { ADDED_11_0_7 }
+						}),
+					},
 				}),
 			}),
 			n(CRAFTABLES, {
