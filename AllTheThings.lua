@@ -3309,11 +3309,11 @@ function app:GetDataCache()
 		-- TODO: yuck all of this... should assign the available functionality during startup events
 		-- and use proper methods
 		__index = function(t, key)
-			-- app.PrintDebug("Top-Root-Get",key)
+			-- app.PrintDebug("Top-Root-Get",rawget(t,"TLUG"),key)
 			if key == "title" then
 				return t.modeString .. DESCRIPTION_SEPARATOR .. t.untilNextPercentage;
 			elseif key == "progressText" then
-				if t.total < 1 then
+				if not rawget(t,"TLUG") and app.CurrentCharacter then
 					local primeData = app.CurrentCharacter.PrimeData;
 					if primeData then
 						return GetProgressColorText(primeData.progress, primeData.total);
@@ -3323,7 +3323,7 @@ function app:GetDataCache()
 			elseif key == "modeString" then
 				return app.Settings:GetModeString();
 			elseif key == "untilNextPercentage" then
-				if t.total < 1 and app.CurrentCharacter then
+				if not rawget(t,"TLUG") and app.CurrentCharacter then
 					local primeData = app.CurrentCharacter.PrimeData;
 					if primeData then
 						return app.Modules.Color.GetProgressTextToNextPercent(primeData.progress, primeData.total);
@@ -3335,12 +3335,12 @@ function app:GetDataCache()
 			end
 		end,
 		__newindex = function(t, key, val)
-			-- app.PrintDebug("Top-Root-Set",key,val)
+			-- app.PrintDebug("Top-Root-Set",rawget(t,"TLUG"),key,val)
 			if key == "visible" then
 				return;
 			end
 			-- until the Main list receives a top-level update
-			if not t.TLUG then
+			if not rawget(t,"TLUG") then
 				-- ignore setting progress/total values
 				if key == "progress" or key == "total" then
 					return;
@@ -5333,9 +5333,9 @@ end;
 customWindowUpdates.Prime = function(self, ...)
 	self:BaseUpdate(...);
 
-	-- Write the current character's progress.
+	-- Write the current character's progress if a top-level update has been completed
 	local rootData = self.data;
-	if rootData and rootData.total and rootData.total > 0 then
+	if rootData and rootData.TLUG and rootData.total and rootData.total > 0 then
 		app.CurrentCharacter.PrimeData = {
 			progress = rootData.progress,
 			total = rootData.total,
