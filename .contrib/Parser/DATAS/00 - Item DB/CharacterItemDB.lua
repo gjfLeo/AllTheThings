@@ -738,10 +738,10 @@ iq(219289, 81618);	-- Puntable Tiny Snowman
 -- PATCH 11.1.0 --
 ------------------
 ihqt(234745, 86598);	-- Bilgewater's Trove (Honored)
---ihqt(235258, XXX);	-- Bilgewater's Trove (Revered)
+ihqt(235258, 86748);	-- Bilgewater's Trove (Revered)
 --ihqt(235259, XXX);	-- Bilgewater's Trove (Exalted)
 ihqt(234744, 86750);	-- Blackwater's Trove (Honored)
---ihqt(235260, 86751?);	-- Blackwater's Trove (Revered)
+ihqt(235260, 86751);	-- Blackwater's Trove (Revered)
 --ihqt(235261, 86752?);	-- Blackwater's Trove (Exalted)
 iq(235037, 86630);		-- Crumpled Schematic: Wormhole Generator: Undermine
 is(0, 467553);			-- Path of the Azerite Refinery [A]

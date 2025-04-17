@@ -476,7 +476,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(200544),	-- Mistvale Map: Illegible
 			i(190191),	-- Muck-Covered Map
 			i(192783),	-- Nokhud Vanguard Orders
-			i(198450),	-- Old Crabshell
 			i(190964),	-- Ornate Chest Key
 			i(191947),	-- Parachutes
 			i(189362),	-- Pheromone Gland

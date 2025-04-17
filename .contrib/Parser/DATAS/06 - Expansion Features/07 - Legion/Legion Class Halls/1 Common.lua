@@ -1181,7 +1181,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 						["sourceQuest"] = 44803,	-- Return to Karazhan: Master of the House
 						["lvl"] = 110,
 						["provider"] = { "n", 115551 },	-- Phantom Valet
-						["maps"] = { DEADWIND_PASS },
+						["coord"] = { 39.9, 75.4, DEADWIND_PASS },
+						["timeline"] = { ADDED_7_1_0 },
 						["g"] = {
 							follower(733),	-- Moroes
 						},

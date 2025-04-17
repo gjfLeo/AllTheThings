@@ -776,7 +776,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(88847),	-- Skiggy Muckheimer Trash
 			q(88868),	-- Trashmaster Blazedump Trash
 			q(88832),	-- Scraps Trash
-			--q(),	-- Globikus Trash
+			q(88860),	-- Globikus Trash
 			--q(),	-- Melbo The Magnificent Trash
 			--q(),	-- The Junkmaker Trash
 			-- All

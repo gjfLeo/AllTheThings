@@ -1274,6 +1274,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["classes"] = { EVOKER },
 				["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
 				["groups"] = {
+					i(198450),	-- Old Crabshell (QI!)
 					i(198456),	-- Oliveye Fry (QI!)
 					i(198455),	-- Tangled Roots (QI!)
 				},
