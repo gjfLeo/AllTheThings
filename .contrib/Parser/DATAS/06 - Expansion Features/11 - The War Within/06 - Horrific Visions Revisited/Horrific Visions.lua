@@ -9,32 +9,28 @@ HORRIFIC_VISIONS_REVISITED = createHeader({
 	},
 });
 
+local RE_HORRIFIC_ORGRIMMAR = 2403;	-- Vision of Orgrimmar
+local RE_HORRIFIC_STORMWIND = 2404;	-- Vision of Stormwind
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
 	n(HORRIFIC_VISIONS_REVISITED, {
 		["maps"] = {
-			2403,	-- Vision of Orgrimmar
-			2404,	-- Vision of Stormwind
+			RE_HORRIFIC_ORGRIMMAR,
+			RE_HORRIFIC_STORMWIND,
 		},
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(41897),	-- A Monumental Amount of Mementos
 				ach(41898),	-- A Mountain of Mementos
-				ach(41873, {	-- Incremental Progress
-					-- TODO: Unlocks TickTak, the Veteran Weaponsmith's weapons
-				}),
+				ach(41873),	-- Incremental Progress
 				ach(41889),	-- Horrific Masquerade
 				ach(41953, {	-- Mad World
-					-- TODO: Title: The Faceless One
+					title(419),	-- <Name>, the Faceless One
 				}),
-				ach(41857, {	-- Masked Soliloquy
-					-- TODO: Unlocks Rhythferr, the Champion Weaponsmith's weapons
-				}),
+				ach(41857),	-- Masked Soliloquy
 				ach(41890),	-- Masked Duet
 				ach(41891),	-- Masked Trio
 				ach(41893),	-- Masked Quartet
-				ach(41874, {	-- Symphony of Masks
-					-- TODO: Unlocks Chreni, the Heroic Weaponsmith's weapons
-				}),
+				ach(41874),	-- Symphony of Masks
 				ach(41858),	-- Masked Sextet
 				ach(41894),	-- Masked Septet
 				ach(41895),	-- Orchestra of Masks
@@ -44,7 +40,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						41965,	-- Beyond the Most Horrific Vision of Orgrimmar
 						41964,	-- Beyond the Most Horrific Vision of Stormwind
 					}},
-					-- TODO: Mount: Ny'alothan Shadow Worm
+					["g"] = { i(235709) },	-- Ny'alothan Shadow Worm
 				}),
 				ach(41983),	-- Memento Mania
 				ach(41896),	-- Memento Mori
@@ -54,7 +50,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						41876,	-- The Even More Horrific Vision of Orgrimmar
 						41854,	-- The Even More Horrific Vision of Stormwind
 					}},
-					-- TODO: Pet: Reek
+					["g"] = { i(174463) },	-- Reek (PET!)
 				}),
 				ach(41859),	-- Thanks For The Mementos
 				ach(41929, {	-- Through the Depths of Visions
@@ -63,10 +59,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						41855,	-- The Most Horrific Vision of Stormwind
 						41725,	-- We Have the Memories
 					}},
-					-- TODO: Mount: Black Serpent of N'Zoth
+					["g"] = { i(174654) },	-- Black Serpent of N'Zoth (MOUNT!)
 				}),
 				ach(41971, {	-- Through the Looking Glass
-					-- TODO: Title: The Mad
+					title(631),	-- <Name> the Mad
 				}),
 				ach(41725),	-- We Have the Memories
 			}),
@@ -85,23 +81,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				-- Objects in the end
 				--- Orgrimmar
 				o(499954, {	-- Corrupted Chest (Main/Thrall chest)
-					["coord"] = { 48.5, 58.7, 2403 },	-- Vision of Orgrimmar
+					["coord"] = { 48.5, 58.7, RE_HORRIFIC_ORGRIMMAR },
 				}),
 				o(499960, {	-- Corrupted Chest (Vale of Spirit wing chest)
-					["coord"] = { 48.8, 58.6, 2403 },	-- Vision of Orgrimmar
+					["coord"] = { 48.8, 58.6, RE_HORRIFIC_ORGRIMMAR },
 				}),
 				--o(XX, {	-- Corrupted Chest (Garona chest (The Drag?))
-				--	["coord"] = { x, y, 2403 },	-- Vision of Orgrimmar
+				--	["coord"] = { x, y, RE_HORRIFIC_ORGRIMMAR },
 				--	["g"] = {
 				--		i(235795),	-- Void-Scarred Scorpid (PET!) (was with 3 masks)
 				--	},
 				--}),
 				--- Stormwind
 				o(499022, {	-- Corrupted Chest
-					["coord"] = { 41.6, 34.4, 2404 },	-- Vision of Stormwind
+					["coord"] = { 41.6, 34.4, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
 				}),
 				o(499031, {	-- Corrupted Chest (Trade District chest)
-					["coord"] = { 41.3, 34.1, 2404 },	-- Vision of Stormwind
+					["coord"] = { 41.3, 34.1, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
 					["g"] = {
 						--TODO: unsure if you it is only source from it
 						i(240178),	-- Voidflame-Resistant Hide (was looted during Faceless Mask of the Long Night run)
@@ -109,10 +105,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					},
 				}),
 				o(499026, {	-- Corrupted Chest (Dwarven District chest)
-					["coord"] = { 41.9, 34.2, 2404 },	-- Vision of Stormwind
+					["coord"] = { 41.9, 34.2, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
 				}),
 				o(499028, {	-- Corrupted Chest (Mage Quarter chest)
-					["coord"] = { 41.0, 33.9, 2404 },	-- Vision of Stormwind
+					["coord"] = { 41.0, 33.9, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
 					["g"] = {
 						--TODO: unsure if you it is only source from it
 						i(240186),	-- Depleted Void Crystal (was looted during Faceless Mask of the Long Night run)
@@ -120,7 +116,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					},
 				}),
 				o(499029, {	-- Corrupted Chest (Old Town chest)
-					["coord"] = { 42.1, 33.9, 2404 },	-- Vision of Stormwind
+					["coord"] = { 42.1, 33.9, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
 					["g"] = {
 						--TODO: unsure if you it is only source from it
 						i(232920),	-- Faceless Mask of the Pained (QI!/QS!)
@@ -186,10 +182,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				q(88903),	-- Faceless Mask of Vengeance
 			}),
 			n(VENDORS, {
+				n(238544, {	-- Chreni
+					["sourceAchievement"] = 41874,	-- Symphony of Masks
+				}),
+				n(238546, {	-- Rhythferr
+					["sourceAchievement"] = 41857,	-- Masked Soliloquy
+				}),
 				n(238545, {	-- TickTak
 					-- TODO: TickTak = veteran, Rhythferr (238546) = champion, Chreni (238544) = hero
 					-- TODO: all itemIDs is same, just different modID per vendor: 83 (veteran), 82 (champion) 84 (hero)
 					["coord"] = { 33.9, 68.8, DORNOGAL },
+					["sourceAchievement"] = 41873,	-- Incremental Progress
 					["g"] = sharedData({ ["cost"] = {{"c", 3149, 500}} }, {
 						-- TODO: sort it out near live release, sorted via listing in vendor for easy self-navigation
 						-- 1
@@ -236,10 +239,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						i(238255, {	-- Bronze Dragonscale Backpack
 							["cost"] = {{ "c", 3149, 5000 }},
 						}),
-						i(174770, {	-- Wicked Swarmer (MOUNT!) (TODO: it is same itemID as bfa one)
+						i(174770, {	-- Wicked Swarmer (MOUNT!)
 							["cost"] = {{ "c", 3149, 20000 }},
 						}),
-						i(174361, {	-- Black Dragonscale Backpack (TODO: it is same itemID as bfa one)
+						i(174361, {	-- Black Dragonscale Backpack
 							["cost"] = {{ "c", 3149, 2000 }},
 						}),
 						i(238666, {	-- Ashjra'kamas, The Corrupted
@@ -367,7 +370,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				}),
 			}),
 			header(HEADERS.Achievement, 41875, {	-- Horrific Vision of Orgrimmar
-				["maps"] = { 2403 },
+				["maps"] = { RE_HORRIFIC_ORGRIMMAR },
 				["g"] = {
 					n(ACHIEVEMENTS, {
 						ach(41875),	-- Horrific Vision of Orgrimmar
@@ -375,16 +378,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						ach(41879),	-- The Most Horrific Vision of Orgrimmar
 						ach(41965),	-- Beyond the Most Horrific Vision of Orgrimmar
 					}),
+					n(RARES, {
+						n(238836, {	-- Void-Scarred Wolf
+							-- TODO: spawn details
+							["g"] = { i(235700) },	-- Void-Scarred Pack Mother's Harness (MOUNT!)
+						}),
+						n(238145, {	-- Void-Scarred Wyvern Matriarch
+							-- TODO: spawn details
+							["g"] = { i(235707) },	-- Reins of the Void-Scarred Windrider (MOUNT!)
+						}),
+					}),
 				},
 			}),
 			header(HEADERS.Achievement, 41853, {	-- Horrific Vision of Stormwind
-				["maps"] = { 2404 },
+				["maps"] = { RE_HORRIFIC_STORMWIND },
 				["g"] = {
 					n(ACHIEVEMENTS, {
 						ach(41853),	-- Horrific Vision of Stormwind
 						ach(41854),	-- The Even More Horrific Vision of Stormwind
 						ach(41855),	-- The Most Horrific Vision of Stormwind
 						ach(41964),	-- Beyond the Most Horrific Vision of Stormwind
+					}),
+					n(RARES, {
+						n(238079, {	-- Void-Forged Stallion
+							-- TODO: spawn details
+							["g"] = { i(235705) },	-- Void-Forged Stallion's Reins (MOUNT!)
+						}),
+						n(237991, {	-- Void-Scarred Gryphon
+							-- TODO: spawn details
+							["g"] = { i(235700) },	-- Reins of the Void-Scarred Gryphon (MOUNT!)
+						}),
 					}),
 				},
 			}),
@@ -428,10 +451,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		--87389 & 88905 also pop on 2nd run (without quests in stormwind)
 
 		-- combine things for byke
-		--q(),	-- 
-		--q(),	-- 
-		--q(),	-- 
-		--q(),	-- 
-		--q(),	-- 
+		--q(),	--
+		--q(),	--
+		--q(),	--
+		--q(),	--
+		--q(),	--
 	}),
 })));

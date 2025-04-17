@@ -4369,6 +4369,7 @@ i(232856, 4633);	-- Scruff
 ------------------
 --- ITEM ---
 i(238986, 4794);	-- Mister Mans
+i(235980, 4756);	-- Scourge of the Aspects
 --- UNSORTED ---
 i(0, 4792);	-- Ada the Sweetest
 i(221851, 4466);	-- Argos
@@ -4377,7 +4378,6 @@ i(236409, 4757);	-- Frumpy Softpaw
 i(232857, 4635);	-- Goggles
 i(241193, 3245);	-- Helpful Workshop Bot
 i(0, 4761);	-- Pascal the Wonder Pup
-i(235980, 4756);	-- Scourge of the Aspects
 i(239019, 4806);	-- Spicy Mean-Ball
 i(241188, 4804);	-- Swiftpaw
 i(235793, 4748);	-- Void-Scarred Parrot

@@ -1309,8 +1309,6 @@ i(206347);	-- Mannequin Charm
 i(212337);	-- Stone of the Hearth
 i(211788);	-- Tess's Peacebloom
 i(212518);	-- Vial of Endless Draconic Scales
---- NYI ---
-i(212525);	-- Delicate Ebony Parasol
 
 ------------------
 -- PATCH 10.2.6 --
@@ -1360,6 +1358,7 @@ i(215147);	-- Beautification Iris
 i(228698);	-- Candleflexer's Dumbbell
 i(224552);	-- Cave Spelunker's Torch
 i(221962);	-- Defective Escape Pod
+i(212525);	-- Delicate Ebony Parasol
 i(221964);	-- Filmless Camera
 i(225969);	-- Forged Flag of Victory
 i(225933);	-- Forged Legend's Pennant
@@ -1446,7 +1445,6 @@ i(235799);	-- Throwin' Sawblade
 i(234951);	-- Uncracked Cold Ones
 i(237382);	-- Undermine Supply Crate
 i(235672);	-- Venture Co. Banner
---- UNSORTED ---
 i(235519);	-- Prized Legend's Pennant
 
 ------------------
@@ -1456,10 +1454,10 @@ i(235519);	-- Prized Legend's Pennant
 i(167698);	-- Secret Fish Goggles
 -- #endif
 i(238850);	-- Arathi Entertainer's Flame
-i(238852);	-- Flame's Radiance Banner
-i(239693);	-- Radiant Lynx Whistle
---- UNSORTED ---
 i(239007);	-- Dastardly Banner
+i(238852);	-- Flame's Radiance Banner
 i(232302);	-- Prized Banner of the Algari
 i(232306);	-- Prized Champion's Prestigious Banner
+i(239693);	-- Radiant Lynx Whistle
 i(239018);	-- Winner's Podium
+--- UNSORTED ---

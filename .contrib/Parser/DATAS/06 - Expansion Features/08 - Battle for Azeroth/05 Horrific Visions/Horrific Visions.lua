@@ -49,18 +49,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						14141,	-- Solo Nightmares - Stormwind
 						14142,	-- Solo Nightmares - Orgrimmar
 					}},
-					["g"] = {
-						title(419),	-- <Name>, the Faceless One
-					},
+					["g"] = { title(419) },	-- <Name>, the Faceless One
 				})),
 				ach(14143, {	-- Reeking of Visions
 					["sym"] = {{"meta_achievement",
 						14065,	-- The Even More Horrific Vision of Orgrimmar
 						14064,	-- The Even More Horrific Vision of Stormwind
 					}},
-					["g"] = {
-						i(174463),	-- Reek (PET!)
-					},
+					["g"] = { i(174463) },	-- Reek (PET!)
 				}),
 				ach(14169),	-- Symphony of Masks
 				ach(14165),	-- Masked Soliloquy
@@ -74,9 +70,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"]
 						14060,	-- Unwavering Resolve
 						14061,	-- We Have the Technology
 					}},
-					["g"] = {
-						i(174654),	-- Black Serpent of N'Zoth (MOUNT!)
-					},
+					["g"] = { i(174654) },	-- Black Serpent of N'Zoth (MOUNT!)
 				}),
 				ach(14060),	-- Unwavering Resolve
 				ach(14061),	-- We Have the Technology

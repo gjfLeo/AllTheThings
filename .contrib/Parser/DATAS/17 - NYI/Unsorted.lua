@@ -374,11 +374,6 @@ root(ROOTS.Unsorted, {
 				i(241616),	-- The Underpin
 			}),
 			filter(MOUNTS, {
-				i(235700),	-- Reins of the Void-Scarred Gryphon
-				i(235705),	-- Void-Forged Stallion's Reins
-				i(235706),	-- Void-Scarred Pack Mother's Harness
-				i(235707),	-- Reins of the Void-Scarred Windrider
-				i(235709),	-- Ny'alothan Shadow Worm
 				i(235712),	-- Void-Crystal Panther
 				i(236415),	-- Reins of the Spotted Black Riding Goat
 				i(238897),	-- Spring Harvesthog
@@ -389,7 +384,6 @@ root(ROOTS.Unsorted, {
 				i(238966),	-- Felborn Cormaera \\ Lavaborn Emerald Chimaera
 				i(238967),	-- Molten Cormaera \\ Lavaborn Ruby Chimaera
 				i(238968),	-- Lavaborn Cormaera \\ Lavaborn Citrine Chimaera
-				i(239020),	-- Tyrannotort's Treat \\ Tyrannotort's Snack
 
 				-- Mount Parts!
 				i(240179),	-- Voidflame Wheel
