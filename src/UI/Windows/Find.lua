@@ -553,6 +553,20 @@ app:CreateWindow("ItemFinder", {
 					return tostring(t.itemID);
 				end,
 			});
+			local ClearButton = 
+			{
+				text = "Clear Harvested Item Database",
+				icon = 133733,
+				description = "Click this to clear the harvested item database.",
+				SortPriority = 1.3,
+				OnClick = function()
+					self.HarvestedItemDatabase = {};
+				end,
+				OnUpdate = function(data)
+					data.visible = true;
+					return true;
+				end,
+			};
 			local StartButton = 
 			{
 				text = "Start Search",
@@ -606,7 +620,7 @@ app:CreateWindow("ItemFinder", {
 				maxItemID = 239220,
 				minItemID = 1,
 				step = 1000,
-				g = { StartButton }
+				g = { ClearButton, StartButton }
 			};
 		end
 	end,
