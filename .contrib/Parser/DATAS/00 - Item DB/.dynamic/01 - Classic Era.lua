@@ -17592,5 +17592,6 @@ _.ItemDB = {
 [24281]={["class"]=15,["equippable"]=0,["name"]="Carved Ivory Bone",["q"]=0,["subclass"]=0},
 [24282]={["class"]=15,["equippable"]=0,["name"]="Rogue's Diary",["q"]=0,["subclass"]=0},
 [24283]={["class"]=15,["equippable"]=0,["name"]="An Antique Gun",["q"]=0,["subclass"]=0},
-[24358]={["b"]=1,["class"]=4,["equippable"]=1,["iLvl"]=6,["inventoryType"]=11,["lvl"]=1,["name"]="QATest +1000 Spell Dmg Ring",["q"]=4,["subclass"]=0},};
+[24358]={["b"]=1,["class"]=4,["equippable"]=1,["iLvl"]=6,["inventoryType"]=11,["lvl"]=1,["name"]="QATest +1000 Spell Dmg Ring",["q"]=4,["subclass"]=0},
+};
 -- #endif

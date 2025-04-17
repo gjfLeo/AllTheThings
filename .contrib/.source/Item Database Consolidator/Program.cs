@@ -36,11 +36,14 @@ namespace ATT
                     sortedKeys.Sort();
                     foreach (var key in sortedKeys)
                     {
-                        builder.AppendLine().Append("[").Append(key).Append("]=");
-                        Export(builder, itemDB[key]);
-                        builder.Append(",");
+                        var subbuilder = new StringBuilder();
+                        Export(subbuilder, itemDB[key]);
+                        if (subbuilder.Length > 0)
+                        {
+                            builder.AppendLine().Append("[").Append(key).Append("]=").Append(subbuilder.ToString()).Append(",");
+                        }
                     }
-                    builder.AppendLine("};").AppendLine("-- #endif");
+                    builder.AppendLine().AppendLine("};").AppendLine("-- #endif");
                     File.WriteAllText(Path.Combine(databaseFolder, $"{dbFileName}.lua"), builder.ToString(), Encoding.UTF8);
                 }
             }

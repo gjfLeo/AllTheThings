@@ -29871,5 +29871,6 @@ _.ItemDB = {
 [39476]={["b"]=1,["class"]=0,["equippable"]=0,["iLvl"]=30,["lvl"]=30,["name"]="Fresh Goblin Brewfest Hops",["q"]=1,["subclass"]=0},
 [39477]={["b"]=1,["class"]=0,["equippable"]=0,["iLvl"]=30,["lvl"]=30,["name"]="Fresh Dwarven Brewfest Hops",["q"]=1,["subclass"]=0},
 [39656]={["b"]=1,["class"]=15,["equippable"]=0,["iLvl"]=20,["name"]="Tyrael's Hilt",["q"]=3,["subclass"]=0},
-[43516]={["b"]=1,["class"]=15,["equippable"]=0,["iLvl"]=30,["lvl"]=27,["name"]="Brutal Nether Drake",["q"]=4,["subclass"]=5},};
+[43516]={["b"]=1,["class"]=15,["equippable"]=0,["iLvl"]=30,["lvl"]=27,["name"]="Brutal Nether Drake",["q"]=4,["subclass"]=5},
+};
 -- #endif
