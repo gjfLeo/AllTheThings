@@ -270,6 +270,10 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_11_1_0, "removed 11.1.0.60037" },	-- Removed March 31, 2025
 				["u"] = REAL_MONEY,
 			}),
+			i(212791, {	-- Beetriz (PET!)
+				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between April 22nd, 10:00 a.m. & May 20th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				["timeline"] = { ADDED_11_1_5, "removed 11.1.5.99999" },	-- Removed May 20, 2025
+			}),
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
 		--		["description"] = "Mythic Dungeon International: TWW Season 1\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams in a head-to-head race to the finish line.\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Tempered Banner of the Algari to use in-game!\nSign-ups close 14 October 2024 1PM PDT and The Time Trials are on 16 October 1PM PDT - 21 October (US) 1PM PDT.",

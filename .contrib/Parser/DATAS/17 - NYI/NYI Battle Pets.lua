@@ -1411,9 +1411,6 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 		-- 10.2.5
 		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_5 } }, {
 			-- With SpeciesID Attached
-			i(212791, {	-- Beetriz (PET!)
-				["displayID"] = 116643,
-			}),
 			i(208446, {	-- Fyrn (PET!)
 				["displayID"] = 113777,
 			}),
