@@ -167,7 +167,7 @@ local function UpdateWindow(self, force, got)
 				-- only add this info row if there is actually nothing visible in the list
 				-- always a header row
 				-- print("any data",#self.Container,#rowData,#data)
-				if #rowData < 2 then
+				if #rowData < 2 and not app.ThingKeys[data.key] then
 					rowData[#rowData + 1] = app.CreateRawText(L.NO_ENTRIES, {
 						description = L.NO_ENTRIES_DESC,
 						collectible = 1,
