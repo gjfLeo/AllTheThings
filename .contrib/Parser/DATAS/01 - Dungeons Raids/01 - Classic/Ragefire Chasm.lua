@@ -225,7 +225,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["qg"] = 3216,	-- Neeru Fireblade
 					["sourceQuest"] = 5727,	-- Hidden Enemies (2/5)
 					["coord"] = { 49.6, 50.6, ORGRIMMAR },
-					["timeline"] = { REMOVED_5_0_4 },
+					["timeline"] = { REMOVED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["lvl"] = 9,
 					["groups"] = {
@@ -252,7 +252,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["races"] = HORDE_ONLY,
 					["lvl"] = lvlsquish(13, 13, 7),
 					["groups"] = {
-						objective(1, {	-- 0/1 Taragaman the Hungerer's Heart
+						objective(1, {	-- 0/4 Searing Blade Cultist slain
+							["provider"] = { "n", 11322 },	-- Searing Blade Cultist
+						}),
+						objective(2, {	-- 0/4 Searing Blade Enforcer slain
+							["provider"] = { "n", 11323 },	-- Searing Blade Enforcer
+						}),
+						objective(3, {	-- 0/3 Searing Blade Warlock slain
+							["provider"] = { "n", 11324 },	-- Searing Blade Warlock
+						}),
+						objective(4, {	-- 0/1 Taragaman the Hungerer's Heart
 							["provider"] = { "i", 14540 },	-- Taragaman the Hungerer's Heart
 						}),
 						i(131614, {	-- Chasm Linked Pants
