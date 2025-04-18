@@ -293,7 +293,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 						["sourceQuest"] = 35186,	-- Garrison Campaign: The Sargerei (H)
 					},
 					["provider"] = { "n", 88276 },	-- Archmage Modera
-					["coord"] = { 43.6, 77.2, FROSTFIRE_RIDGE },
+					["coord"] = { 43.6, 77.2, DRAENOR_SHADOWMOON_VALLEY },
+					["g"] = {
+						i(112791),	-- Sargerei Cowl (QI!)
+						i(112904),	-- Sargerei Disguise (QI!)
+						i(112891),	-- Sargerei Robe (QI!)
+						i(112893),	-- Sargerei Slippers (QI!)
+					},
 				}),
 				q(35188, {	-- Pesky Podlings
 					["sourceQuests"] = { 35187 },	-- Infiltrating the Sargerei

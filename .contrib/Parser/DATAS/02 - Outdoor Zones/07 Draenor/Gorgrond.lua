@@ -1814,7 +1814,7 @@ root(ROOTS.Zones, {
 					}),
 					q(33706, {	-- Laying Dionor to Rest (H)
 						["provider"] = { "n", 82302 },	-- Birchus
-						["coord"] = { 52.8, 51.7, GORGROND },
+						["coord"] = { 50.3, 47.5, GORGROND },
 						["races"] = HORDE_ONLY,
 						["sourceQuest"] = 33695,	-- Taking the Death Bloom
 						["g"] = {

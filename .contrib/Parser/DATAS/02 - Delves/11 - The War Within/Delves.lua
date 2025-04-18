@@ -128,9 +128,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				})),
 				n(DELVE_COMPLETION, {	-- ToDO: check if still available in 11.1
 					n(TREASURES, {
-						filter(BATTLE_PETS, {
-							i(222971),	-- Bouncer (PET!)
-						}),
 						filter(COSMETIC, {
 							i(212163),	-- Soporific Shroom Cap
 						}),
@@ -978,9 +975,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(225891),	-- Vile Vial of Kaheti Bile
 			}),
 		}),
-		filter(BATTLE_PETS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-			i(232848),	-- Mr. DELVER (PET!)
-		})),
+		filter(BATTLE_PETS, {
+			i(222971),	-- Bouncer (PET!)
+			i(221820),	-- Chester (PET!)
+			i(232848, {	-- Mr. DELVER (PET!)
+				["timeline"] = { ADDED_11_1_0 },
+			}),
+			i(225337),	-- Violet Sporbit (PET!)
+		}),
 		filter(TOYS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
 		})),
@@ -997,9 +999,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(235897, {["timeline"]={ ADDED_11_1_0_SEASONSTART}}),	-- Radiant Echo
 				i(228958, {["timeline"]={ REMOVED_11_1_0}}),	-- Radiant Echo (QS!)
 				i(235896, {["timeline"]={ ADDED_11_1_0_SEASONSTART}}),	-- Radiant Echo (QS!)
-				filter(BATTLE_PETS, {
-					i(221820),	-- Chester (PET!)
-				}),
 				n(ARMOR, {
 					filter(BACK_F, {
 						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
@@ -2451,9 +2450,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(222971),	-- Bouncer (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(211801),	-- Poisonous Shroom Cap
@@ -2582,9 +2578,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(225337),	-- Violet Sporbit (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(212162),	-- Bitter Shroom Cap
@@ -2730,9 +2723,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(225337),	-- Violet Sporbit (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212162),	-- Bitter Shroom Cap
 						i(212165),	-- Deep Nautic Helm
@@ -2827,9 +2817,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(225337),	-- Violet Sporbit (PET!)
-					}),
 					filter(COSMETIC, {
 						i(225067),	-- Shadowlit Haversack
 						i(225065),	-- Torchbearer's Haversack
@@ -2946,7 +2933,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
 					filter(BATTLE_PETS, {
-						i(222971),	-- Bouncer (PET!)
 						i(221496),	-- Wriggle (PET!)
 					}),
 					filter(COSMETIC, {
@@ -3069,10 +3055,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(222971),	-- Bouncer (PET!)
-						i(225337),	-- Violet Sporbit (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(212173),	-- Rulk'Nerub Raptorial Spine
@@ -3194,10 +3176,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(222971),	-- Bouncer (PET!)
-						i(225337),	-- Violet Sporbit (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(212173),	-- Rulk'Nerub Raptorial Spine
@@ -3273,10 +3251,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(222971),	-- Bouncer (PET!)
-						i(225337),	-- Violet Sporbit (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(212173),	-- Rulk'Nerub Raptorial Spine

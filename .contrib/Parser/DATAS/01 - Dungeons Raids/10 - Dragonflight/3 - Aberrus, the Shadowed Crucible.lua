@@ -358,6 +358,8 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					q(74924, {	-- Nasz'uro, the Unbound Legacy
 						["sourceQuests"] = { 74923 },	-- It Takes a Village to Make an Artifact
 						["provider"] = { "n", 187669 },	-- Nozdormu
+						["coord"] = { 60.8, 39.2, VALDRAKKEN },
+						["maps"] = { 2176 },	-- The Maelstrom
 						["g"] = {
 							i(204177),	-- Nasz'uro, the Unbound Legacy
 							ach(18256),	-- Nasz'uro, the Unbound Legacy

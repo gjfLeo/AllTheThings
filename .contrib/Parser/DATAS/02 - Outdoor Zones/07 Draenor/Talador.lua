@@ -753,8 +753,8 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(33944, {	-- And the Elekk Too?!
+						["provider"] = { "o", 226987 },	-- Ricky
 						["coord"] = { 30.9, 70.8, TALADOR },
-						["icon"] = 656597,
 					}),
 					q(33967, {	-- Antivenin
 						["provider"] = { "n", 78028 },	-- Soulbinder Tuulani
