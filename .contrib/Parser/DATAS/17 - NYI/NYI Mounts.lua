@@ -773,9 +773,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(211075, {	-- Deathbringer's Shadowcycle (MOUNT!)
 				["displayID"] = 114788,
 			}),
-			i(211089, {	-- Felreaver Deathcycle (MOUNT!)
-				["displayID"] = 114785,
-			}),
 			i(211086, {	-- Jeweled Jade Scarab (MOUNT!)
 				["displayID"] = 114744,
 			}),
@@ -867,9 +864,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			}),
 			i(221778, {	-- [PH] Firefly2Mount (Yellow) (MOUNT!)
 				["displayID"] = 119267,
-			}),
-			i(223265, {	-- [PH] FlyingNerubian2 Mount (Tan Body, Orange Saddle) (MOUNT!)
-				["displayID"] = 119489,
 			}),
 			i(224413, {	-- [PH] Goliathus (Blue) (MOUNT!)
 				["displayID"] = 119273,

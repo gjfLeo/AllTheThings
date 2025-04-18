@@ -1298,3 +1298,9 @@ i(0, 435384);	-- Ring of Earthen Craftsmanship
 i(0, 434544);	-- Versatile Emerald
 i(0, 434548);	-- Versatile Onyx
 i(0, 434552);	-- Versatile Ruby
+
+------------------
+-- PATCH 11.1.5 --
+------------------
+--- ITEM ---
+i(238922, 1226650);	-- Void-Crystal Panther

@@ -66,64 +66,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				}),
 				ach(41725),	-- We Have the Memories
 			}),
-			n(REWARDS, {
-				currency(3149),	-- Displaced Corrupted Mementos
-				-- Gear
-				--- leather
-				i(236843),	-- Mask of the Insatiable Vision
-				i(236832),	-- Shoulderpads of the Insatiable Vision
-				i(236795),	-- Waistguard of the Insatiable Vision
-				--- neck
-				i(236911),	-- Vision Tormentor's Bone Necklace
-				i(236912),	-- Vision Manipulator's Choker
-				-- Masks (QI!/QS!)
-				i(232921),	-- Faceless Mask of the Long Night (QI!/QS!)
-				-- Objects in the end
-				--- Orgrimmar
-				o(499954, {	-- Corrupted Chest (Main/Thrall chest)
-					["coord"] = { 48.5, 58.7, RE_HORRIFIC_ORGRIMMAR },
-				}),
-				o(499960, {	-- Corrupted Chest (Vale of Spirit wing chest)
-					["coord"] = { 48.8, 58.6, RE_HORRIFIC_ORGRIMMAR },
-				}),
-				--o(XX, {	-- Corrupted Chest (Garona chest (The Drag?))
-				--	["coord"] = { x, y, RE_HORRIFIC_ORGRIMMAR },
-				--	["g"] = {
-				--		i(235795),	-- Void-Scarred Scorpid (PET!) (was with 3 masks)
-				--	},
-				--}),
-				--- Stormwind
-				o(499022, {	-- Corrupted Chest
-					["coord"] = { 41.6, 34.4, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
-				}),
-				o(499031, {	-- Corrupted Chest (Trade District chest)
-					["coord"] = { 41.3, 34.1, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
-					["g"] = {
-						--TODO: unsure if you it is only source from it
-						i(240178),	-- Voidflame-Resistant Hide (was looted during Faceless Mask of the Long Night run)
-						i(240193),	-- Tentacle Spokes (was looted during Faceless Mask of the Long Night run)
-					},
-				}),
-				o(499026, {	-- Corrupted Chest (Dwarven District chest)
-					["coord"] = { 41.9, 34.2, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
-				}),
-				o(499028, {	-- Corrupted Chest (Mage Quarter chest)
-					["coord"] = { 41.0, 33.9, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
-					["g"] = {
-						--TODO: unsure if you it is only source from it
-						i(240186),	-- Depleted Void Crystal (was looted during Faceless Mask of the Long Night run)
-						i(232919),	-- Faceless Mask of Dark Imagination (QI!/QS!)
-					},
-				}),
-				o(499029, {	-- Corrupted Chest (Old Town chest)
-					["coord"] = { 42.1, 33.9, RE_HORRIFIC_STORMWIND },	-- Vision of Stormwind
-					["g"] = {
-						--TODO: unsure if you it is only source from it
-						i(232920),	-- Faceless Mask of the Pained (QI!/QS!)
-						i(240183),	-- Twisted Skull-Scythe Handlebars (was looted during Faceless Mask of the Long Night run)
-					},
-				}),
-			}),
 			n(QUESTS, {
 				-- Intro --
 				q(86706, {	-- Seeking Knowledge of the Past
@@ -181,6 +123,124 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				q(88652),	-- Faceless Mask of the Nemesis
 				q(88903),	-- Faceless Mask of Vengeance
 			}),
+			n(RARES, {
+				n(239581, {	-- Nesting Swarmite
+					["description"] = "Has a chance to spawn from piles of Trash in either vision.",
+					["coords"] = {
+						{ 47.6, 74.5, RE_HORRIFIC_ORGRIMMAR },
+						{ 57.4, 60.8, RE_HORRIFIC_ORGRIMMAR },
+						{ 69.0, 49.7, RE_HORRIFIC_ORGRIMMAR },
+						{ 50.8, 45.1, RE_HORRIFIC_ORGRIMMAR },
+						{ 40.3, 79.4, RE_HORRIFIC_ORGRIMMAR },
+						--
+						{ 55.8, 49.3, RE_HORRIFIC_STORMWIND },
+						{ 62.9, 30.7, RE_HORRIFIC_STORMWIND },
+						{ 73.6, 62.7, RE_HORRIFIC_STORMWIND },
+						{ 66.1, 76.3, RE_HORRIFIC_STORMWIND },
+						{ 52.6, 77.3, RE_HORRIFIC_STORMWIND },
+					},
+					["g"] = { i(223265) },	-- Nesting Swarmite (MOUNT!)
+				}),
+				n(160708, {	-- Mail Muncher
+					["description"] = "Click the mailbox!",
+					["coords"] = {
+						{ 40.0, 78.4, RE_HORRIFIC_ORGRIMMAR },
+						{ 52.8, 76.2, RE_HORRIFIC_ORGRIMMAR },
+						{ 60.2, 51.0, RE_HORRIFIC_ORGRIMMAR },
+						{ 67.6, 39.2, RE_HORRIFIC_ORGRIMMAR },
+						{ 39.2, 49.1, RE_HORRIFIC_ORGRIMMAR },
+						--
+						{ 61.8, 75.6, RE_HORRIFIC_STORMWIND },
+						{ 54.8, 57.8, RE_HORRIFIC_STORMWIND },
+						{ 62.0, 30.6, RE_HORRIFIC_STORMWIND },
+						{ 49.7, 87.0, RE_HORRIFIC_STORMWIND },
+						{ 75.7, 64.6, RE_HORRIFIC_STORMWIND },
+					},
+					["g"] = { i(174653) },	-- Mail Muncher (MOUNT!)
+				}),
+			}),
+			n(REWARDS, {
+				currency(3149),	-- Displaced Corrupted Mementos
+				-- Gear
+				--- leather
+				i(236843),	-- Mask of the Insatiable Vision
+				i(236832),	-- Shoulderpads of the Insatiable Vision
+				i(236795),	-- Waistguard of the Insatiable Vision
+				--- neck
+				i(236911),	-- Vision Tormentor's Bone Necklace
+				i(236912),	-- Vision Manipulator's Choker
+				-- Masks (QI!/QS!)
+				i(232921),	-- Faceless Mask of the Long Night (QI!/QS!)
+			}),
+			n(TREASURES, {
+				i(239107, {	-- Black Blood Infused Bar TODO - Almost certainly has an object container
+					["coords"] = {
+						{ 45.0, 52.7, RE_HORRIFIC_ORGRIMMAR },
+						{ 63.7, 37.1, RE_HORRIFIC_STORMWIND },
+					},
+				}),
+			}),
+			n(SPECIAL, {
+				header(HEADERS.Item, 211089, {	-- Felreaver Deathcycle
+					["description"] = "Collect each reagent and craft them together into cycle parts, return the parts to the bike in Dornogal to earn your own.\n\nEach special reagent is available from Visions with at least one mask active.",
+					["sourceQuest"] = 90129,	-- Voidfire Deathcycle Frame Tagged For Extraction
+					["coord"] = { 34.0, 68.2, DORNOGAL },
+					["g"] = {
+						i(240181, {	-- Boarhide Deathcycle Seat
+							["cost"] = {
+								{ "i", 222890, 5 },	-- 5x Weavercloth Spellthread
+								{ "i", 240180, 1 },	-- 1x Void-Scarred Boarhide
+							},
+						}),
+						i(240190, {	-- Deathcycle Exhaust System
+							["cost"] = {
+								{ "i", 44500, 1 },	-- 1x Elementium-Plated Exhaust Pipe
+								{ "i", 240191, 1 },	-- 1x Magic-Lined Manifold
+							},
+						}),
+						i(240185, {	-- Pulsing Void Crystal
+							["cost"] = {
+								{ "i", 221955, 1 },	-- 1x Convincingly Realistic Jumper Cables
+								{ "i", 240186, 1 },	-- 1x Depleted Void Crystal
+								{ "i", 219955, 1 },	-- 1x Refulgent Crystal
+							},
+						}),
+						i(240182, {	-- Skull-Scythe Handlebars
+							["cost"] = {
+								{ "i", 221945, 1 },	-- 1x Irresistible Red Button
+								{ "i", 221925, 1 },	-- 1x Recalibrated Safety Switch
+								{ "i", 219903, 1 },	-- 1x Storm-Touched Weapon Wrap
+								{ "i", 240183, 1 },	-- 1x Twisted Skull-Scythe Handlebars
+								{ "i", 221858, 3 },	-- 3x Whimsical Wiring
+							},
+						}),
+						i(240188, {	-- Void-Forged Inline Four Engine
+							["cost"] = {
+								{ "i", 44501, 4 },	-- 4x Goblin-Machined Piston
+								{ "i", 240189, 1 },	-- 1x Void-Forged Engine Block
+							},
+						}),
+						i(240179, {	-- Voidflame Wheel
+							["cost"] = {
+								{ "i", 221870, 6 },	-- 6x Entropy Enhancer
+								{ "i", 240193, 1 },	-- 1x Tentacle Spokes
+								{ "i", 240178, 1 },	-- 1x Voidflame-Resistant Hide
+							},
+						}),
+						i(211089, {	-- Felreaver Deathcycle
+							["provider"] = { "n", 242544 }, -- or maybe 242545
+							["cost"] = {
+								{ "i", 240181, 1 },	-- 1x Boarhide Deathcycle Seat
+								{ "i", 240190, 1 },	-- 1x Deathcycle Exhaust System
+								{ "i", 240185, 1 },	-- 1x Pulsing Void Crystal
+								{ "i", 240182, 1 },	-- 1x Skull-Scythe Handlebars
+								{ "i", 240188, 1 },	-- 1x Void-Forged Inline Four Engine
+								{ "i", 240179, 2 },	-- 2x Voidflame Wheel
+							},
+						}),
+					},
+				}),
+			}),
 			n(VENDORS, {
 				n(238544, {	-- Chreni
 					["sourceAchievement"] = 41874,	-- Symphony of Masks
@@ -234,6 +294,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["cost"] = {{ "c", 3149, 40000 }},
 						}),
 						i(235980, {	-- Scourge of the Aspects (PET!)
+							["sourceAchievement"] = 41725,	-- We Have the Memories
 							["cost"] = {{ "c", 3149, 5000 }},
 						}),
 						i(238255, {	-- Bronze Dragonscale Backpack
@@ -378,14 +439,82 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						ach(41879),	-- The Most Horrific Vision of Orgrimmar
 						ach(41965),	-- Beyond the Most Horrific Vision of Orgrimmar
 					}),
+					n(SCENARIO_COMPLETION, {
+						o(499956, {	-- Corrupted Chest (The Drag/Garona)
+							["coord"] = { 48.5, 58.3, RE_HORRIFIC_ORGRIMMAR },
+							["g"] = {
+								i(235795),	-- Void-Scarred Scorpid (PET!)
+								i(240193),	-- Tentacle Spokes
+							},
+						}),
+						o(499957, {	-- Corrupted Chest (Valley of Wisdom/Geya'rah)
+							["coord"] = { 48.9, 58.1, RE_HORRIFIC_ORGRIMMAR },
+							["g"] = {
+								i(235797),	-- Void-Scarred Tallstrider Chick (PET!)
+							},
+						}),
+						o(499958, {	-- Corrupted Chest (Valley of Honor/Rexxar)
+							["coord"] = { 48.1, 58.1, RE_HORRIFIC_ORGRIMMAR },
+							["g"] = {
+								i(174457),	-- C'Thuffer (PET!)
+								i(240180),	-- Void-Scarred Boarhide (PET!)
+							},
+						}),
+						o(499960, {	-- Corrupted Chest (Vale of Spirits/Zekhan)
+							["coord"] = { 48.8, 58.3, RE_HORRIFIC_ORGRIMMAR },
+							["g"] = {
+								i(173726),	-- Void-Scarred Toad (PET!)
+								i(174924),	-- Void-Touched Souvenir Totem (TOY!)
+								i(240178),	-- Voidflame-Resistant Hide
+							},
+						}),
+						o(499954, {	-- Corrupted Chest (Valley of Strength/Thrall chest)
+							["coord"] = { 48.5, 58.7, RE_HORRIFIC_ORGRIMMAR },
+							["g"] = {
+								i(174461),	-- Anomalus (PET!)
+								i(239106),	-- Shadow Infused Onyx
+								i(174646),	-- Void-Scarred Pup (PET!)
+							},
+						}),
+					}),
 					n(RARES, {
+						n(241024, {	-- Big Keech <Rare Antiquities>
+							["g"] = {
+								i(238922),	-- Design: Voice-Crystal Panther (RECIPE!)
+								i(238924),	-- Void-Bound Orb of Mystery
+							},
+						}),
 						n(238836, {	-- Void-Scarred Wolf
-							-- TODO: spawn details
+							["description"] = "Interact with Wolf Rider gear in the Valleys of Honor and Wisdom to gain a stacking buff, then interact with a wolf rug at the Drag's leatherworking shop to spawn the rare.\n\nWolf rider packs are only visible with at least one mask active.",
+							["providers"] = {
+								{ "o", 519487 },	-- Wolf Saddle (Honor)
+								{ "o", 519559 },	-- Wolf Tack (Wisdom)
+							},
+							["coords"] = {
+								{ 67.2, 36.2, RE_HORRIFIC_ORGRIMMAR },	-- Wolf Saddle (519487)
+								{ 39.2, 49.5, RE_HORRIFIC_ORGRIMMAR },	-- Wolf Tack (519559)
+								{ 59.5, 54.0, RE_HORRIFIC_ORGRIMMAR },	-- Wolf Rug
+							},
 							["g"] = { i(235700) },	-- Void-Scarred Pack Mother's Harness (MOUNT!)
 						}),
 						n(238145, {	-- Void-Scarred Wyvern Matriarch
-							-- TODO: spawn details
+							["description"] = "Clear the Valley of Wisdom to access the elevator up to the Skyway. Defeat waves of Void-Scarred Wyverns until the matriarch spawns.\n\nThe path up to the Skyway will remain blocked without at least 3 masks active.",
+							["crs"] = {
+								238054,	-- Void Scarred Cub
+								238098,	-- Void-Scarred Wyvern
+							},
 							["g"] = { i(235707) },	-- Reins of the Void-Scarred Windrider (MOUNT!)
+						}),
+					}),
+					n(TREASURES, {
+						o(342098, {	-- Coifcurl's Close Shave Kit
+							["description"] = "Requires entering the Valley of Spirits. The chest is inside the barber shop on the right.",
+							["coord"] = { 40.5, 60.3, RE_HORRIFIC_ORGRIMMAR },
+							["g"] = { i(174920) },	-- Coifcurl's Close Shave Kit (TOY!)
+						}),
+						o(529677, {	--Void-Forged Engine Block
+							["coord"] = { 56.9, 56.8, RE_HORRIFIC_ORGRIMMAR },
+							["g"] = { i(240189) },	-- Void-Forged Engine Block
 						}),
 					}),
 				},
@@ -399,14 +528,115 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						ach(41855),	-- The Most Horrific Vision of Stormwind
 						ach(41964),	-- Beyond the Most Horrific Vision of Stormwind
 					}),
+					n(SCENARIO_COMPLETION, {
+						o(499031, {	-- Corrupted Chest (Trade District/Wyrmbane)
+							["coord"] = { 41.3, 34.1, RE_HORRIFIC_STORMWIND },
+							["g"] = {
+								i(240193),	-- Tentacle Spokes
+								i(235793),	-- Void-Scarred Parrot (PET!)
+							},
+						}),
+						o(499026, {	-- Corrupted Chest (Dwarven District/Kelsey)
+							["coord"] = { 41.9, 34.2, RE_HORRIFIC_STORMWIND },
+							["g"] = {
+								i(240178),	-- Voidflame-Resistant Hide
+								i(174460),	-- Void-Scarred Rat (PET!)
+							},
+						}),
+						o(499028, {	-- Corrupted Chest (Mage Quarter/Umbric)
+							["coord"] = { 41.0, 33.9, RE_HORRIFIC_STORMWIND },
+							["g"] = {
+								i(240186),	-- Depleted Void Crystal
+								i(232919),	-- Faceless Mask of Dark Imagination (QI!/QS!)
+								i(174458),	-- Void-Scarred Hare (PET!)
+							},
+						}),
+						o(499029, {	-- Corrupted Chest (Old Town/Valeera)
+							["coord"] = { 42.1, 33.9, RE_HORRIFIC_STORMWIND },
+							["g"] = {
+								i(235794),	-- Eye of Chaos (PET!)
+								i(232920),	-- Faceless Mask of the Pained (QI!/QS!)
+								i(240183),	-- Twisted Skull-Scythe Handlebars
+								i(239105),	-- Unusual Gems
+							},
+						}),
+						o(499022, {	-- Corrupted Chest (Cathedral/Alleria)
+							["coord"] = { 41.6, 34.4, RE_HORRIFIC_STORMWIND },
+							["g"] = {
+								i(239106),	-- Shadow Infused Onyx
+								i(174459),	-- Void-Scarred Cat (PET!)
+							},
+						}),
+					}),
 					n(RARES, {
+						n(158284, {	-- Craggle Wobbletop <Toys and Novelties>
+							["description"] = "Craggle pats around outside of the Trade District, so selecting a Corrupted or Lost Area is not required.  You need to kill the shielding robot to damage him, which requires using player CC or dropping a Toy Train Set in Craggle's path and pulling the bot while he's distracted.",
+							["coords"] = {
+								{ 58.4, 77.2, RE_HORRIFIC_STORMWIND },
+								{ 56.6, 67.6, RE_HORRIFIC_STORMWIND },
+								{ 62.6, 61.2, RE_HORRIFIC_STORMWIND },
+								{ 69.6, 68.2, RE_HORRIFIC_STORMWIND },
+							},
+							["g"] = { i(174926) },	-- Overly Sensitive Void Spectacles (TOY!)
+						}),
+						n(242639, {	-- Voidfire Deathcycle Frame
+							["description"] = "Must be tagged to start progress towards unlocking the mount, will only be visible with at least one mask active.",
+							["coord"] = { 62.5, 32.0, RE_HORRIFIC_STORMWIND },
+							["cr"] = 242570,	-- Haymar the Devout
+							["questID"] = 90129,
+						}),
 						n(238079, {	-- Void-Forged Stallion
-							-- TODO: spawn details
+							["description"] = "Interact with Cursed Horseshoes around Stormwind's districts to gain a stacking buff, visit the blacksmithing area in the Dwarven District to summon the rare when you have 4 stacks.\n\nHorseshoes are only visible with at least one mask active.",
+							["providers"] = {
+								{ "o", 517344 },	-- Cursed Horseshoe (Cathedral)
+								{ "o", 517350 },	-- Cursed Horseshoe (Old Town)
+								{ "o", 517348 },	-- Cursed Horseshoe (Trade)
+								{ "o", 517349 },	-- Cursed Horseshoe (Mage)
+							},
+							["coords"] = {
+								{ 56.0, 55.5, RE_HORRIFIC_STORMWIND },	-- Cathedral Horseshoe (517344)
+								{ 75.5, 56.7, RE_HORRIFIC_STORMWIND },	-- Old Town Horseshoe (517350)
+								{ 61.5, 75.5, RE_HORRIFIC_STORMWIND },	-- Trade Horseshoe (517348)
+								{ 50.9, 84.0, RE_HORRIFIC_STORMWIND },	-- Mage Horseshoe (517349)
+								{ 63.0, 37.3, RE_HORRIFIC_STORMWIND },	-- Anvil
+							},
 							["g"] = { i(235705) },	-- Void-Forged Stallion's Reins (MOUNT!)
 						}),
-						n(237991, {	-- Void-Scarred Gryphon
-							-- TODO: spawn details
-							["g"] = { i(235700) },	-- Reins of the Void-Scarred Gryphon (MOUNT!)
+						header(HEADERS.Item, 235700, {	-- Reins of the Void-Scarred Gryphon
+							n(237918, {	-- Claw Marked Bowl
+								["description"] = "Interact with the nearby Ripped Note to read the clue then place the desired item into the bowl to spawn the rare.\n...fish: Fresh Fillet\n...fungus: Chopped Mycobloom\n...meat that has been spiced: Spiced Meat Stock\n...steak: Portioned Steak\n\nThe note and bowl are only visible with at least three masks active.",
+								["coord"] = { 66.0, 70.8, RE_HORRIFIC_STORMWIND },
+								["cost"] = {
+									{ "i",  222737, 1 },	-- 1x Chopped Mycobloom
+									{ "i",  222741, 1 },	-- 1x Fresh Fillet
+									{ "i",  222738, 1 },	-- 1x Portioned Steak
+									{ "i",  222739, 1 },	-- 1x Spiced Meat Stock
+								},
+							}),
+							n(237991, {	-- Void-Scarred Gryphon
+								["provider"] = { "n", 237918 },	-- Claw Marked Bowl
+								["g"] = { i(235700) },	-- Reins of the Void-Scarred Gryphon (MOUNT!)
+							}),
+						}),
+					}),
+					n(TREASURES, {
+						i(240191, {	-- Magic-Lined Manifold TODO - Almost certainly has an object container
+							["coord"] = { 61.5, 72.7, RE_HORRIFIC_STORMWIND },
+						}),
+						i(174928, {	-- Rotten Apple (TOY!)
+							["description"] = "Repeatedly click the bouncing apples at the coordinates provided.  Supposedly, clicking them 100 times will guarantee that the toy is in your final chest, but any click should give you a chance if you're running short on time.",
+							["coords"] = {
+								{ 57.0, 55.0, RE_HORRIFIC_STORMWIND },
+								{ 60.0, 58.0, RE_HORRIFIC_STORMWIND },
+								{ 65.0, 62.0, RE_HORRIFIC_STORMWIND },
+								{ 72.0, 67.0, RE_HORRIFIC_STORMWIND },
+								{ 67.0, 51.0, RE_HORRIFIC_STORMWIND },
+							},
+						}),
+						o(343698, {	-- Void-Touched Skull
+							["description"] = "Behind the orphanage in Cathedral Square.  It's on the ground next to some crates, is very small, and doesn't have the typical interactable sparkle.",
+							["coord"] = { 58.9, 52.9, RE_HORRIFIC_STORMWIND },
+							["g"] = { i(174921) },	-- Void-Touched Skull (TOY!)
 						}),
 					}),
 				},
@@ -434,8 +664,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85830),	-- Trade District
 		q(85831),	-- Mage Quarter
 		q(85832),	-- Old Town
-		-- need more data, but probably related to moto, idk?
-		q(90129),	-- after interact with npcID 242639 (Voidfire Deathcycle Frame) @ 62.5, 32.0, 2404 (spellID 1231063 - Tagged for Extraction)
 		--
 		--q(90528),	-- either hqt to pop thing for moto or mask drop hqt after clearing up old town (with Long Night mask)
 		--q(90524),	-- either hqt to pop thing for moto or mask drop hqt after clearing up mage quarter (with Long Night mask)

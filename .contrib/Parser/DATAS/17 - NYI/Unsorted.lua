@@ -224,10 +224,6 @@ root(ROOTS.Unsorted, {
 				i(239142),	-- Bottle of Mysterious Wisdom
 			}),
 			filter(BATTLE_PETS, {
-				i(235793),	-- Parrot Cage (Void-Scarred Parrot)
-				i(235794),	-- Eye of Chaos
-				i(235795),	-- Void-Scarred Scorpid
-				i(235797),	-- Void-Scarred Egg
 				i(236409),	-- Frumpy Softpaw
 				i(238942),	-- Weechi \\ Chihuahua
 				i(241193),	-- Threadis's Workshop Bot 2.0 \\ Threadis's Survey Bot 2.0
@@ -386,16 +382,7 @@ root(ROOTS.Unsorted, {
 				i(238968),	-- Lavaborn Cormaera \\ Lavaborn Citrine Chimaera
 
 				-- Mount Parts!
-				i(240179),	-- Voidflame Wheel
-				i(240180),	-- Void-Scarred Boarhide
-				i(240181),	-- Boarhide Deathcycle Seat
-				i(240182),	-- Skull-Scythe Handlebars
-				i(240185),	-- Pulsing Void Crystal
 				i(240187),	-- Refulgent Crystal Shards
-				i(240188),	-- Void-Forged Inline Four Engine
-				i(240189),	-- Void-Forged Engine Block
-				i(240190),	-- Deathcycle Exhaust System
-				i(240191),	-- Magic-Lined Manifold
 			}),
 			n(PROFESSIONS, {
 				i(238403),	-- Enchant Weapon - Twilight Devastation
@@ -406,7 +393,6 @@ root(ROOTS.Unsorted, {
 				i(238679),	-- Enchant Weapon - Echoing Void
 				i(238680),	-- Enchant Weapon - Echoing Void
 				i(238683),	-- Formula: Enchant Weapon - Echoing Void
-				i(238922),	-- Design: Void-Crystal Panther
 				i(238924),	-- Void-Bound Orb of Mystery \\ Voidbound Orb of Mystery
 				i(239078),	-- Enchant Weapon - Infinite Stars
 				i(239079),	-- Enchant Weapon - Infinite Stars
@@ -424,9 +410,6 @@ root(ROOTS.Unsorted, {
 				i(239094),	-- Enchant Weapon - Void Ritual
 				i(239095),	-- Enchant Weapon - Void Ritual
 				i(239096),	-- Formula: Enchant Weapon - Void Ritual
-				i(239105),	-- Unusual Gems
-				i(239106),	-- Shadow Infused Onyx
-				i(239107),	-- Black Blood Infused Bar
 			}),
 			n(WEEKLY_HOLIDAYS, {	-- Childrens Week
 				i(239689),	-- Khaz Algar Orphan Whistle
