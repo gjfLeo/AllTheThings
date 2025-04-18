@@ -79,15 +79,6 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timelin
 						i(239019),	-- Mean-Ball Bed (TOY!)
 					},
 				}),
-				q(87551, {	-- Week 3: Spread the Word
-					["sourceQuests"] = { 87550 },	-- Week 2: We're Really Taking Off
-					["provider"] = { "n", 234296 },	-- Vinnie Sweets
-					["coord"] = { 52.8, 51.6, ISLE_OF_DORN },
-					["g"] = {
-						i(239440),	-- Dastardly Prize Purse
-						i(239019),	-- Mean-Ball Bed (PET!)
-					},
-				}),
 				q(87552, {	-- Week 4: They've Heard of You
 					["sourceQuests"] = { 87551 },	-- Week 3: Spread the Word
 					["provider"] = { "n", 234296 },	-- Vinnie Sweets
@@ -218,7 +209,11 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timelin
 			}),
 			n(VENDORS, {
 				n(234297, {	-- Wodin the Troll-Servant
-					["coord"] = { 52.7, 51.3, ISLE_OF_DORN },
+					["coords"] = {
+						{ 52.7, 51.3, ISLE_OF_DORN },
+						{ 50.0, 92.4, ORGRIMMAR },
+						{ 67.2, 81.0, STORMWIND_CITY },
+					},
 					["g"] = sharedData({ ["cost"] = {{"c", RESONANCE_CRYSTALS, 500}} }, {
 						--TODO: Don't forget to sort it out
 						i(239507),	-- Dastardly Epaulet, Yellow
@@ -247,16 +242,16 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(87528),	-- so it is just 'after first completion Dastardly Duos, week 2'
 			-- Week 3:
 			q(87512),	-- ^ all poped after first run with week 3 quest
-			q(87513),	-- 
-			q(87529),	-- 
-			q(87530),	-- 
+			q(87513),	--
+			q(87529),	--
+			q(87530),	--
 			-- Week 4:
 			--q(),	-- didn't fire anything this week?
 			-- Week 5:
 			q(87514),	-- ^ fired after first completion Dastardly Duos, week 5 (with quest)
-			q(87515),	-- 
-			q(87531),	-- 
-			q(87532),	-- 
+			q(87515),	--
+			q(87531),	--
+			q(87532),	--
 			-- Week 6:
 			--q(),	-- no hqt this week
 			-- Podium Upgrades

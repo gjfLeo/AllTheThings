@@ -393,7 +393,6 @@ root(ROOTS.Unsorted, {
 				i(238679),	-- Enchant Weapon - Echoing Void
 				i(238680),	-- Enchant Weapon - Echoing Void
 				i(238683),	-- Formula: Enchant Weapon - Echoing Void
-				i(238924),	-- Void-Bound Orb of Mystery \\ Voidbound Orb of Mystery
 				i(239078),	-- Enchant Weapon - Infinite Stars
 				i(239079),	-- Enchant Weapon - Infinite Stars
 				i(239080),	-- Enchant Weapon - Infinite Stars

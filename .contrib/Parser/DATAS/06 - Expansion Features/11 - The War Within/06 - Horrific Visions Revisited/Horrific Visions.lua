@@ -181,7 +181,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				}),
 			}),
 			n(SPECIAL, {
-				header(HEADERS.Item, 211089, {	-- Felreaver Deathcycle
+				header(HEADERS.Item, 211089, {	-- Voidfire Deathcycle
 					["description"] = "Collect each reagent and craft them together into cycle parts, return the parts to the bike in Dornogal to earn your own.\n\nEach special reagent is available from Visions with at least one mask active.",
 					["sourceQuest"] = 90129,	-- Voidfire Deathcycle Frame Tagged For Extraction
 					["coord"] = { 34.0, 68.2, DORNOGAL },
@@ -227,7 +227,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 								{ "i", 240178, 1 },	-- 1x Voidflame-Resistant Hide
 							},
 						}),
-						i(211089, {	-- Felreaver Deathcycle
+						i(211089, {	-- Voidfire Deathcycle
 							["provider"] = { "n", 242544 }, -- or maybe 242545
 							["cost"] = {
 								{ "i", 240181, 1 },	-- 1x Boarhide Deathcycle Seat
