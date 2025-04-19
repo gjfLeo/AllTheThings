@@ -713,11 +713,6 @@ do
 		end
 
 		app.ImportRawLink(group, link, true);
-
-		local sourceGroup = app.SearchForObject("sourceID", sourceID, "key");
-		if not sourceGroup then
-			app.SaveHarvestSource(group);
-		end
 	end
 	local ITEM_FILTERS_WITH_APPEARANCES = {
 		[2]  = true,	-- Cosmetic
