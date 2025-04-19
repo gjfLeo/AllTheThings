@@ -84,38 +84,20 @@ local JEWELCRAFTING_RECIPES = pvp({
 	moh(1, sks(20, i(44066))),	-- Kharmaa's Grace
 });
 local PHASE_ONE_TRINKETS = applyclassicphase(WRATH_PHASE_ONE, pvp({
-	moh(1, wmoh(25, i(44914, {	-- Anvil of Titans
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(44912, {	-- Flow of Knowledge
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
+	-- NOTE: These were previously marked as REMOVED_4_0_1, but they are still in Cata Classic
+	moh(1, wmoh(25, i(44914))),	-- Anvil of Titans
+	moh(1, wmoh(25, i(44912))),	-- Flow of Knowledge
 }));
 local PHASE_TWO_TRINKETS = applyclassicphase(WRATH_PHASE_TWO, pvp({
-	moh(1, wmoh(25, i(46086, {	-- Platinum Disks of Battle
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(46087, {	-- Platinum Disks of Sorcery
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(46088, {	-- Platinum Disks of Swiftness
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(46083, {	-- Titan-Forged Rune of Accuracy
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(46085, {	-- Titan-Forged Rune of Alacrity
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(46081, {	-- Titan-Forged Rune of Audacity
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(46084, {	-- Titan-Forged Rune of Cruelty
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(25, i(46082, {	-- Titan-Forged Rune of Determination
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
+	-- NOTE: These were previously marked as REMOVED_4_0_1, but they are still in Cata Classic
+	moh(1, wmoh(25, i(46086))),	-- Platinum Disks of Battle
+	moh(1, wmoh(25, i(46087))),	-- Platinum Disks of Sorcery
+	moh(1, wmoh(25, i(46088))),	-- Platinum Disks of Swiftness
+	moh(1, wmoh(25, i(46083))), -- Titan-Forged Rune of Accuracy
+	moh(1, wmoh(25, i(46085))), -- Titan-Forged Rune of Alacrity
+	moh(1, wmoh(25, i(46081))),	-- Titan-Forged Rune of Audacity
+	moh(1, wmoh(25, i(46084))),	-- Titan-Forged Rune of Cruelty
+	moh(1, wmoh(25, i(46082))),	-- Titan-Forged Rune of Determination
 }));
 local WINTERGRASP_BELTS = applyclassicphase(WRATH_PHASE_THREE, pvp({
 	moh(1, wmoh(15, i(46076))),	-- Titan-Forged Belt of Dominance
@@ -198,20 +180,14 @@ local WINTERGRASP_LEGS = applyclassicphase(WRATH_PHASE_THREE, pvp({
 	moh(2, wmoh(40, i(48994))),	-- Titan-Forged Ringmail Leggings of Salvation
 }));
 local WINTERGRASP_NECKS = applyclassicphase(WRATH_PHASE_THREE, pvp({
-	moh(1, wmoh(15, i(51568, {	-- Titan-Forged Pendant of Ascendancy
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(15, i(51569, {	-- Titan-Forged Pendant of Victory
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
+	-- NOTE: These were previously marked as REMOVED_4_0_1, but they are still in Cata Classic
+	moh(1, wmoh(15, i(51568))),	-- Titan-Forged Pendant of Ascendancy
+	moh(1, wmoh(15, i(51569))),	-- Titan-Forged Pendant of Victory
 }));
 local WINTERGRASP_RINGS = applyclassicphase(WRATH_PHASE_THREE, pvp({
-	moh(1, wmoh(15, i(48999, {	-- Titan-Forged Band of Ascendancy
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
-	moh(1, wmoh(15, i(49000, {	-- Titan-Forged Band of Victory
-		["timeline"] = { REMOVED_4_0_1 },
-	}))),
+	-- NOTE: These were previously marked as REMOVED_4_0_1, but they are still in Cata Classic
+	moh(1, wmoh(15, i(48999))),	-- Titan-Forged Band of Ascendancy
+	moh(1, wmoh(15, i(49000))),	-- Titan-Forged Band of Victory
 }));
 local WINTERGRASP_SHOULDERS = applyclassicphase(WRATH_PHASE_FOUR, pvp({
 	moh(2, wmoh(40, i(51573))),	-- Titan-Forged Shoulderpads of Domination
@@ -361,7 +337,8 @@ appendGroups(WINTERGRASP_HELMS, CHAMPION_ROSSLAI_GROUPS);
 appendGroups(WINTERGRASP_HELMS, KNIGHT_DAMERON_GROUPS);
 appendGroups(WINTERGRASP_HELMS, STONE_GUARD_GROUPS);
 appendGroups(WINTERGRASP_HELMS, TRAVIS_DAY_GROUPS);
--- #if AFTER CATA
+-- #if AFTER MOP
+-- NOTE: On Retail Wowhead these are listed as sold by all four vendors, though in Cata Classic they are ONLY sold by Ros'slai and Magruder
 appendGroups(WINTERGRASP_SHOULDERS, KNIGHT_DAMERON_GROUPS);
 appendGroups(WINTERGRASP_SHOULDERS, STONE_GUARD_GROUPS);
 -- #else
