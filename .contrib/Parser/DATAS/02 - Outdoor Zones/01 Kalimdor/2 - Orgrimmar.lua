@@ -1510,7 +1510,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["timeline"] = { REMOVED_2_4_1 },
 					["classes"] = { PRIEST },
-					["races"] = { UNDEAD },
+					["races"] = { TROLL },
 					["lvl"] = 20,
 					-- #if BEFORE 2.4.1
 					["groups"] = {
@@ -1532,7 +1532,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 35.6, 87.6, ORGRIMMAR },
 					["timeline"] = { REMOVED_2_4_1 },
 					["classes"] = { PRIEST },
-					["races"] = { UNDEAD },
+					["races"] = { TROLL },
 					["lvl"] = 20,
 					-- #if BEFORE 2.4.1
 					["groups"] = {

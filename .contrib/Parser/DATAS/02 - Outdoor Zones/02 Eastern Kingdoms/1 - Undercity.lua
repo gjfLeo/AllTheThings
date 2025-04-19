@@ -972,7 +972,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 49.01, 18.32, UNDERCITY },
 					["timeline"] = { REMOVED_2_4_1 },
 					["classes"] = { PRIEST },
-					["races"] = { UNDEAD },
+					["races"] = { TROLL },
 					["lvl"] = 20,
 					-- #if BEFORE 2.4.1
 					["groups"] = {
