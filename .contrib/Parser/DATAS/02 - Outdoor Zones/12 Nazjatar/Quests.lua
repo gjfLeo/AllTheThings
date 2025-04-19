@@ -604,9 +604,15 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			["sourceQuests"] = { 56156 },	-- A Tempered Blade
 			["description"] = "Requires |cFFFFD700Hunter Akana|r as your friend.",
 			["isDaily"] = true,
-			["coord"] = { 67.1, 26.1, NAZJATAR },
+			["coords"] = {
+				{ 66.8, 29.2, NAZJATAR },
+				{ 67.1, 26.1, NAZJATAR },
+			},
 			["races"] = ALLIANCE_ONLY,
-			["provider"] = { "n", 155844 },	-- Apprentice Anako
+			["providers"] = {
+				{ "n", 154075 },	-- Tracker Kenji
+				{ "n", 155844 },	-- Apprentice Anako
+			},
 		}),
 		q(55986, {	-- Break a Few Eggs (H)
 			["description"] = "Requires |cFFFFD700Neri Sharpfin|r as your friend.",

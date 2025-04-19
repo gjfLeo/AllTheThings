@@ -2071,7 +2071,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									["provider"] = { "n", 171106 },	-- The Countess
 									["coord"] = { 58.0, 27.4, REVENDRETH },
 									["g"] = {
-										i(180497),	-- House Iremoore Disguise (QI!)
+										o(354185, {	-- House Iremoore Formal Wear
+											["coord"] = { 56, 35.5, REVENDRETH },
+											["g"] = { i(180497) },	-- House Iremoore Disguise (QI!)
+										}),
 										i(176114),	-- RSVP: The Countess
 									},
 								}),

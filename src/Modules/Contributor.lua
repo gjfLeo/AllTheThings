@@ -766,6 +766,7 @@ MobileDB.GameObject = {
 	[348639] = true,	-- Anima Stores (q:59581)
 	[349136] = true,	-- Forgotten Memorandum (q:59717)
 	[349274] = true,	-- Forgotten Memorandum (q:59717)
+	[349393] = true,	-- Battered Chest (q:59740)
 	[349885] = true,	-- Guide To Marching (q:58622)
 	[350978] = true,	-- Queen's Conservatory Cache
 	[351473] = true,	-- Droplets of Anima (q:60176)
