@@ -142,18 +142,20 @@ local function CacheInfo(t, field)
 end
 local function CacheItemInfo(t, field)
 	local _t = cache.GetCached(t);
-	local item = t._refitem
+	local item = _t._refitem
 	if not item then
 		-- this allows using the Item's cache to cache the Item information for the Recipe properly
 		-- eventually can use some shared ItemDB information cache driectly ideally
 		item = app.CreateItem(t.itemID)
-		t._refitem = item
+		_t._refitem = item
 	end
 	if item.link then
 		local itemCache = item._cache.GetCached(item)
 		_t.name = itemCache.name
 		_t.link = itemCache.link
 		_t.icon = itemCache.icon
+	elseif item.name then
+		_t.name = item.name
 	end
 	if field then return _t[field]; end
 end
