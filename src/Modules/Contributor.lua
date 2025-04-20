@@ -285,6 +285,7 @@ MobileDB.Creature = {
 	[161436] = true,	-- Kael'thas Sunstrider
 	[161439] = true,	-- Kael'thas Sunstrider
 	[162476] = true,	-- Ta'eran
+	[164965] = true,	-- Prince Renathal (Ember Court)
 	[168432] = true,	-- Ve'rayn <Assets and Liabilities>
 	[172854] = true,	-- Dredger Butler
 	[181085] = true,	-- Stratholme Supply Crate
