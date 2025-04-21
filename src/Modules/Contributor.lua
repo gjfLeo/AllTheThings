@@ -293,6 +293,7 @@ MobileDB.Creature = {
 	[185749] = true,	-- Gnoll Mon-Ark
 	[191494] = true,	-- Khanam Matra Sarest
 	[193985] = true,	-- Initiate Zorig
+	[197915] = true,	-- Lindormi
 	-- #if BEFORE 10.2.7
 	[205127] = true,	-- Newsy
 	-- #endif
