@@ -206,7 +206,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				i(235414),	-- Faceless Mask of Multitudes (QS!/QI!) (TODO: require to complete run with 4 masks?)
 			}),
 			n(TREASURES, {
-				o(527842, {
+				o(527842, {	-- Black Blood Infused Bar
 					["description"] = "Can be looted once per run",
 					["coords"] = {
 						{ 45.0, 52.7, RE_HORRIFIC_ORGRIMMAR },	-- Alex: can confirm this coord, questID & object for it
