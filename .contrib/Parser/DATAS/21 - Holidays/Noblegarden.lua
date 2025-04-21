@@ -151,6 +151,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			EVERSONG_WOODS,
 			AZUREMYST_ISLE,
 			-- #endif
+			-- #if AFTER TWW
+			DORNOGAL
+			-- #endif
 		},
 		["groups"] = {
 			i(44791, {	-- Noblegarden Chocolate
@@ -177,7 +180,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			i(72145, {	-- Swift Springstrider (MOUNT!)
 				["timeline"] = { ADDED_4_3_0 },
 			}),
-
 			i(19028, {	-- Elegant Dress
 				["timeline"] = { REMOVED_7_2_5 },
 			}),

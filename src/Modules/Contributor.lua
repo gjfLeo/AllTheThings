@@ -352,6 +352,7 @@ MobileDB.GameObject = {
 	 [74448] = true,	-- Large Solid Chest
 	 [75298] = true,	-- Large Solid Chest
 	[113768] = true,	-- Brightly Colored Egg
+	[113769] = true,	-- Brightly Colored Egg
 	[113770] = true,	-- Brightly Colored Egg
 	[148499] = true,	-- Felix's Box (q:3361)
 	[153464] = true,	-- Large Solid Chest
