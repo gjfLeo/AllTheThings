@@ -712,7 +712,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 	-----------------
 	-- 2024 Update --
 	-----------------
-	n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_6 }, }, {
+	n(QUESTS, bubbleDownFiltered({
+		["timeline"] = { ADDED_10_2_6 },
+		["isYearly"] = true,
+	},FILTERFUNC_questID,{
 		q(79134, {	-- A Spring Awakening (A)
 			["qgs"] = {
 				199261,	-- Holiday Enthusiast
@@ -727,7 +730,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				-- #endif
 			},
 			["races"] = ALLIANCE_ONLY,
-			["isYearly"] = true,
 		}),
 		q(79136, {	-- A Spring Awakening (H)
 			["qgs"] = {
@@ -743,7 +745,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				-- #endif
 			},
 			["races"] = HORDE_ONLY,
-			["isYearly"] = true,
 		}),
 		q(79322, {	-- What the Duck? (A)
 			["qg"] = 211646,	-- Zinnia Brooks
@@ -840,16 +841,21 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				i(216902),	-- Yellow Duck Disguise (CI!)
 				i(216488),	-- Duck Potion (QI!)
 				o(424098, {	-- Golden Egg Heirloom
-					i(216489),	-- Golden Egg Heirloom (QI!)
+					["coord"] = { 44.5, 35.2, DUROTAR },
+					["g"]  = { i(216489) },	-- Golden Egg Heirloom (QI!)
 				}),
 			},
 		}),
+	})),
+	n(QUESTS, bubbleDownFiltered({
+		["timeline"] = { ADDED_10_2_6 },
+		["isDaily"] = true,
+	},FILTERFUNC_questID,{
 		q(78274, {	-- Quacking Down (A)
 			["qg"] = 211646,	-- Zinnia Brooks
 			["sourceQuest"] = 79331,	-- Just a Waddle Away (A)
 			["coord"] = { 42.0, 65.0, ELWYNN_FOREST },
 			["races"] = ALLIANCE_ONLY,
-			["isDaily"] = true,
 			["_drop"] = { "g" },	-- Drop Brightly Colored Egg
 		}),
 		q(79135, {	-- Quacking Down (H)
@@ -857,14 +863,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["sourceQuest"] = 79578,	-- Just a Waddle Away (H)
 			["coord"] = { 52.6, 41.2, DUROTAR },
 			["races"] = HORDE_ONLY,
-			["isDaily"] = true,
 			["_drop"] = { "g" },	-- Drop Brightly Colored Egg
 		}),
 		q(73192, {	-- Feathered Fiend (A)
 			["provider"] = { "i", 210594 },	-- Noblegarden Trinket (QI!)
 			["maps"] = ELWYNN_FOREST,
 			["races"] = ALLIANCE_ONLY,
-			["isDaily"] = true,
 			["_drop"] = { "g" },	-- Drop Brightly Colored Egg
 			["groups"] = {
 				i(216874, {	-- Loot-Filled Basket
@@ -896,7 +900,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["provider"] = { "i", 216932 },	-- Noblegarden Trinket (QI!)
 			["maps"] = DUROTAR,
 			["races"] = HORDE_ONLY,
-			["isDaily"] = true,
 			["_drop"] = { "g" },	-- Drop Brightly Colored Egg
 			["groups"] = {
 				i(216874, {	-- Loot-Filled Basket
