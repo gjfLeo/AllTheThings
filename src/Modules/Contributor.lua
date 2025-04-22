@@ -1231,6 +1231,13 @@ AddEventFunc("QUEST_PROGRESS", OnQUEST_DETAIL)
 AddEventFunc("QUEST_COMPLETE", OnQUEST_DETAIL)
 
 -- PLAYER_SOFT_INTERACT_CHANGED
+-- Whenever we can't find a ObjectID in ATT data, create a cached version of it so we can keep resolved data
+-- instead of always generating new
+local UnknownObjectsCache = setmetatable({}, { __index = function(t, objectID)
+	local o = app.CreateObject(objectID)
+	t[objectID] = o
+	return o
+end})
 local LastSoftInteract = {}
 local RegisterUNIT_SPELLCAST_START, UnregisterUNIT_SPELLCAST_START
 -- Allows automatically tracking nearby ObjectID's and running check functions on them for data verification
@@ -1294,7 +1301,7 @@ local SpellIDHandlers = {
 		if objRef then return end
 
 		local tooltipName = GameTooltipTextLeft1:GetText()
-		objRef = app.CreateObject(id)
+		objRef = UnknownObjectsCache[id]
 		local objID = objRef.keyval
 		-- report openable object
 		AddReportData(objRef.__type,objID,{
@@ -1318,6 +1325,7 @@ local function OnUNIT_SPELLCAST_START(...)
 	spellHandler(source)
 end
 UnregisterUNIT_SPELLCAST_START = function()
+	if not RegisteredUNIT_SPELLCAST_START then return end
 	-- app.PrintDebug("Unregister.UNIT_SPELLCAST_START")
 	app:UnregisterEvent("UNIT_SPELLCAST_START")
 	RegisteredUNIT_SPELLCAST_START = nil
