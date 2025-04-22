@@ -790,6 +790,7 @@ MobileDB.GameObject = {
 	[334735] = true,	-- Glimmering Chest
 	[334736] = true,	-- Glimmering Chest
 	[340023] = true,	-- Diagnostic Console: Uldir (q:58506)
+	[340025] = true,	-- Diagnostic Console: Uldaman (q:58506)
 	[340026] = true,	-- Diagnostic Console: Ulduar (q:58506)
 	[340027] = true,	-- Diagnostic Console: Uldum (q:58506)
 	[340625] = true,	-- Alver's Annals of Strategy (q:58622)
