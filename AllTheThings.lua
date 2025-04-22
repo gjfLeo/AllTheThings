@@ -6385,10 +6385,13 @@ customWindowUpdates.list = function(self, force, got)
 			if sourceID and sourceID > 0 then
 				-- only save the source if it is different than what we already have, or being forced
 				if not source or source < 1 or source ~= sourceID then
-					-- app.print("SourceID Update",link,data.modItemID,source,"=>",sourceID);
 					-- print(GetItemInfo(text))
-					data.sourceID = sourceID;
-					app.SaveHarvestSource(data);
+					if not source then
+						-- app.print("SourceID Update",link,data.modItemID,source,"=>",sourceID);
+						data.sourceID = sourceID
+						app.SaveHarvestSource(data)
+					-- else app.PrintDebug("SourceID Diff!",link,source,"=>",sourceID)
+					end
 				end
 			end
 			return true
