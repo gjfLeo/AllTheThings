@@ -1,6 +1,6 @@
------------------------------------------------------
---     W O R L D   E V E N T S   M O D U L E       --
------------------------------------------------------
+--------------------------------------------
+--     H O L I D A Y S  M O D U L E       --
+--------------------------------------------
 DASTARDLY_DUOS = createHeader({
 	readable = "Dastardly Duos",
 	icon = 6740278,
@@ -13,7 +13,7 @@ DASTARDLY_DUOS = createHeader({
 	},
 });
 
-root(ROOTS.WorldEvents, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
+root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
 	n(DASTARDLY_DUOS, {
 		--["maps"] = {  },	--
 		["groups"] = {
