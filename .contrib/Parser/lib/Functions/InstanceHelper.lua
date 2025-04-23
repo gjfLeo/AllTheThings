@@ -40,6 +40,8 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 		if not helper.UpgradeMapping then error("To use 'WithUpgrades', define InstanceHelper.UpgradeMapping = { [DifficultyID] = ModID.BonusID }") end
 		local up = helper.UpgradeMapping[CurrentDifficultyID]
 		if not up then print("Missing 'UpgradeMapping' for Difficulty ",CurrentDifficultyID) end
+		-- allow a 0 upgrade to basically skip applying upgrades on that difficulty... some situations where this is desirable
+		if up == 0 then return end
 		for _,o in ipairs(groups) do
 			-- add upgrades within certain nested groups
 			if o.groups and (o.npcID or o.headerID or o.itemID or o.encounterID) then
