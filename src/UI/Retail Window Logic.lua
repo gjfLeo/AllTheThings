@@ -1640,8 +1640,13 @@ app.AddEventHandler("RowOnClick", function(self, button)
 					return true;
 				else
 					local link = reference.link or reference.silentLink;
-					if link and HandleModifiedItemClick(link) then
-						return true;
+					-- HandleModifiedItemClick now throws a Lua error when the link is not perfectly-handled
+					-- by LinkUtil.ExtractLink, so we need to test if that will break internally
+					if link then
+						local _, linkOptions, _ = LinkUtil.ExtractLink(link)
+						if linkOptions and HandleModifiedItemClick(link) then
+							return true;
+						end
 					end
 				end
 
