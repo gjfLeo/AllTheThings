@@ -3185,9 +3185,9 @@ local function SearchForLink(link)
 			-- ref: https://warcraft.wiki.gg/wiki/ItemLink
 			-- indexes are shifted by 1 due to 'item' being the first index
 			itemID = tonumber(itemID) or 0;
-			local modID = tonumber(linkData[13]) or 0
-			local bonusCount = tonumber(linkData[14]) or 0
-			local bonusID1 = bonusCount > 0 and linkData[15] or 0
+			local modID = tonumber(linkData[14]) or 0
+			local bonusCount = tonumber(linkData[15]) or 0
+			local bonusID1 = bonusCount > 0 and linkData[16] or 0
 			local itemModifierIndex = 15 + bonusCount
 			local itemModifierCount = tonumber(linkData[itemModifierIndex]) or 0
 			local artifactID
