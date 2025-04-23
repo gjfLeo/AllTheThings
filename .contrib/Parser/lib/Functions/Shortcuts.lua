@@ -1004,7 +1004,9 @@ d = function(id, t)										-- Create a DIFFICULTY Object
 					difficulties[#difficulties + 1] = ids[i];
 				end
 				t.difficultyID = difficultyID;
-				t.difficulties = difficulties;
+				if #difficulties > 0 then
+					t.difficulties = difficulties
+				end
 				ids = nil;
 			end
 			-- #if AFTER MOP
