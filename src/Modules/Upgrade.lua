@@ -360,22 +360,23 @@ local NestedUpgradesAllowedByBonusID = {
 local function GetFirstValueAndKey(t, keys)
 	if not t or not keys then return end
 
-	local k
+	local k, tk
 	for i=1,#keys do
 		k = keys[i]
-		if t[k] then return t[k], k end
+		tk = t[k]
+		if tk then return tk, k end
 	end
 end
 local function GetNextItemUnlockBonusIDByString(item)
 	local itemVals = {(":"):split(item)}
 
 	-- BonusID count
-	local bonusCount = tonumber(itemVals[14])
+	local bonusCount = tonumber(itemVals[15])
 	-- app.PrintDebug("Upgrade",item,"BonusCount",bonusCount)
 	if not bonusCount or bonusCount < 1 then return end
 
 	local bonusID, upgrades
-	for i=15,14 + bonusCount,1 do
+	for i=16,15 + bonusCount,1 do
 		bonusID = tonumber(itemVals[i])
 		if bonusID then
 			upgrades = BonusIDNextUnlock[bonusID]
@@ -388,9 +389,8 @@ local function GetNextItemUnlockBonusIDByTable(item)
 	local upgrades = BonusIDNextUnlock[item.bonusID or 0]
 	if upgrades then return upgrades end
 
-	-- we currently don't store all bonusIDs in item groups
-	-- upgrades = GetFirstValueAndKey(BonusIDNextUnlock, item.bonuses)
-	-- if upgrades then return upgrades end
+	upgrades = GetFirstValueAndKey(BonusIDNextUnlock, item.bonuses)
+	if upgrades then return upgrades end
 
 	local link = item.link or item.rawlink or item.silentLink
 	if link then

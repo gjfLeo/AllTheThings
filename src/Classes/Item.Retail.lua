@@ -425,7 +425,7 @@ local itemFields = {
 		local itemVals = {(":"):split(link)}
 
 		-- BonusID count
-		local bonusCount = tonumber(itemVals[14])
+		local bonusCount = tonumber(itemVals[15])
 		if not bonusCount or bonusCount < 1 then
 			t.bonuses = app.EmptyTable
 			return app.EmptyTable
@@ -433,7 +433,7 @@ local itemFields = {
 
 		local bonusID
 		local bonuses = {}
-		for i=15,14 + bonusCount,1 do
+		for i=16,15 + bonusCount,1 do
 			bonusID = tonumber(itemVals[i])
 			if bonusID then
 				bonuses[#bonuses + 1] = bonusID
