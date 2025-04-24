@@ -2018,9 +2018,11 @@ i(0, 466464);	-- Unstable Rocket
 -- PATCH 11.1.5 --
 ------------------
 --- ITEM ---
+i(0, 1226983);	-- Archmage's Great Raven
 i(235711, 1218316);	-- Corruption of the Aspects
 i(223265, 447189);	-- Nesting Swarmite
 i(235709, 1218314);	-- Ny'alothan Shadow Worm
+i(0, 1226760);	-- Prophet's Great Raven
 i(238829, 1226421);	-- Radiant Imperial Lynx
 i(239020, 1227076);	-- Tyrannotort
 i(235712, 1218317);	-- Void-Crystal Panther

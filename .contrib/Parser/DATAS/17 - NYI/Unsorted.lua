@@ -87,7 +87,6 @@ root(ROOTS.Unsorted, {
 				i(239158),	-- Nemesis Shard
 			}),
 			n(SPECIAL, {	-- Duos
-				i(235701),	-- Decaying Mecha-Scrapper Construction Kit \\ Decaying MechaScrapper Construction Kit
 				i(238929),	-- Cloak of Whispering Shells
 				i(238930),	-- Scintillating Coral Band
 				i(238932),	-- Gauntlets of the Bold
@@ -114,8 +113,6 @@ root(ROOTS.Unsorted, {
 				i(233298),	-- Radiant Stalwart's Buckle
 				i(233299),	-- Sacred Templar's Buckle
 				i(239489),	-- Radiant Officer's Cache
-				i(241033),	-- Arathi Templar's Claymore
-				i(241035),	-- Arathi Soldier's Morningstar
 			}),
 			n(SPECIAL, {	-- Mysterious???
 				i(235631),	-- [NOT USED] Mysterious Large Satchel of Goodies

@@ -55,6 +55,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	}),
 	-- #endif
 	filter(MOUNTS, {	-- AVAILABLE --
+		mount(1226983, {	-- Archmage's Great Raven (MOUNT!)
+			["timeline"] = { ADDED_11_1_5 },
+		}),
 		i(190636, {	-- Armored Siege Kodo (MOUNT!)
 			["timeline"] = { ADDED_10_1_5 },
 		}),
@@ -126,6 +129,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		i(190581, {	-- Nether-Gorged Greatwyrm (MOUNT!)
 			["timeline"] = { ADDED_9_2_5 },
+		}),
+		mount(1226760, {	-- Prophet's Great Raven (MOUNT!)
+			["timeline"] = { ADDED_11_1_5 },
 		}),
 		mount(347812, {	-- Sapphire Skyblazer (MOUNT!)
 			["timeline"] = { ADDED_9_0_5 },
@@ -279,10 +285,13 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(109014, {	-- Dread Hatchling (PET!)
 			["timeline"] = { ADDED_5_4_7, REMOVED_8_3_0, ADDED_10_1_0 },
 		}),
+		i(208446, {	-- Fyrn (PET!)
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		--i(229368),	-- Gill'el (PET!)	-- Under TWW Promos
 		i(68385, {	-- Lil' Ragnaros (PET!)
 			["timeline"] = { ADDED_4_0_3 },
 		}),
-		--i(229368),	-- Gill'el (PET!)	-- Under TWW Promos
 		i(190586, {	-- Lil' Ursoc (PET!)
 			["timeline"] = { ADDED_9_2_5 },
 		}),
@@ -308,6 +317,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		i(160587, {	-- Whomper (PET!)
 			["timeline"] = { ADDED_8_0_1_LAUNCH },
+		}),
+		i(223498, {	-- Whoopy (PET!)
+			["timeline"] = { ADDED_11_1_5 },
 		}),
 		cnONLY(i(233190, {	-- Wanderer Liu/Xiao Liu
 			["timeline"] = { ADDED_11_0_7 },
@@ -426,6 +438,33 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		------ Dreadlord's Venombane Set ------
 		iensemble(212219, {	-- Ensemble: Dreadlord's Venombane Regalia
 			["timeline"] = { ADDED_10_2_5 },
+		}),
+
+		------ Feathered Archmage Set ------
+		i(238998, {	-- Feathered Cowl of the Archmage
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		i(238996, {	-- Feathered Drape of the Archmage
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		i(239002, {	-- Feathered Mantle of the Archmage
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		i(238999, {	-- Standard of the Archmage
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		------ Feathered Prophet Set ------
+		i(238997, {	-- Feathered Cowl of the Prophet
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		i(238995, {	-- Feathered Drape of the Prophet
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		i(239001, {	-- Feathered Mantle of the Prophet
+			["timeline"] = { ADDED_11_1_5 },
+		}),
+		i(239000, {	-- Standard of the Prophet
+			["timeline"] = { ADDED_11_1_5 },
 		}),
 
 		------ Fireplume Set ------

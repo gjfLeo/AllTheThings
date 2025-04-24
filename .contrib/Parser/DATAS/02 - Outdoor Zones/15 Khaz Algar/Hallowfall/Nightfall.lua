@@ -100,15 +100,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 				}),
 				n(REWARDS, {
 					-- Caches from progress bar, may have shared loot?
-					i(237743, {	-- Arathi Soldier's Coffer (Uncommon)
+					i(237743, {	-- Arathi Soldier's Coffer (Uncommon) just cosmetics?
 						i(241019),	-- Arathi Camper's Knife (COSMETIC!)
 						i(241016),	-- Arathi Lancer's Polearm (COSMETIC!)
 						i(241007),	-- Mereldar Blacksmithing Hammer (COSMETIC!)
 					}),
-					i(237759, {	-- Arathi Cleric's Chest (Rare)
+					i(237759, {	-- Arathi Cleric's Chest (Rare) just weapons?
 						i(241036),	-- Arathi Anointer's Wand
+						i(241035),	-- Arathi Soldier's Morningstar
+						i(241033),	-- Arathi Templar's Claymore
 					}),
-					i(237760),	-- Arathi Champion's Spoils (Epic)
+					i(237760),	-- Arathi Champion's Spoils (Epic) just vendor armor?
 					-- Crafting reagent?
 					i(238407),	-- Black Blood Residue
 					-- Bosses, they share vendor stuff but with veteran rank

@@ -1408,20 +1408,9 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			pet(4237),	-- Treanthony (PET!)
 		})),
 
-		-- 10.2.5
-		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_5 } }, {
-			-- With SpeciesID Attached
-			i(208446, {	-- Fyrn (PET!)
-				["displayID"] = 113777,
-			}),
-		})),
-
 		-- 10.2.7
 		expansion(EXPANSION.DF, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_7 } }, {
 			-- With SpeciesID Attached
-			i(223498, {	-- Charismatic Courier (PET!)
-				["displayID"] = 120173,
-			}),
 			i(223499, {	-- Lil' Manny (PET!)
 				["displayID"] = 119700,
 			}),

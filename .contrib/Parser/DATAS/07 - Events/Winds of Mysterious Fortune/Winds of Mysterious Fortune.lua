@@ -18,6 +18,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 		KHAZ_ALGAR,
 		NERUBAR,
 		NERUBAR_LOWER,
+		SIREN_ISLE,
 		THE_PROSCENIUM,	-- Theatre Troupe location
 		THE_RINGING_DEEPS,
 	},
@@ -81,6 +82,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 				}),
 				filter(MISC, {
 					i(239142),	-- Bottle of Mysterious Wisdom
+					i(235701),	-- Decaying Mecha-Scrapper Construction Kit
 					i(236959),	-- Empty Mysterious Potion
 					i(240995),	-- Fortuitous Satchel
 					i(235803),	-- Potion of Mysterious Celerity
@@ -131,12 +133,10 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 	},
 }))));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
-		n(WINDS_OF_MYSTERIOUS_FORTUNE_HEADER, {
-			q(86695),	-- Always triggers after getting Pristine Mysterious Satchel
-			q(90134),	-- Always triggers after getting Pristine Mysterious Satchel
-			q(90752),	-- Sometimes triggers after getting Pristine Mysterious Satchel
-		}),
-	})),
-});
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+	n(WINDS_OF_MYSTERIOUS_FORTUNE_HEADER, {
+		q(86695),	-- Always triggers after getting Pristine Mysterious Satchel
+		q(90134),	-- Always triggers after getting Pristine Mysterious Satchel
+		q(90752),	-- Sometimes triggers after getting Pristine Mysterious Satchel
+	}),
+})));

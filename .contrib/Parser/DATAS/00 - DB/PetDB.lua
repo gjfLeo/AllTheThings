@@ -4060,8 +4060,6 @@ i(212700, 4407);	-- Nelle
 i(213133, 4411);	-- Reese
 i(212606, 4406);	-- Sarge
 i(211432, 4402);	-- Teele
---- NYI ---
-i(208446, 4264);	-- Fyrn
 
 ------------------
 -- PATCH 10.2.6 --
@@ -4087,7 +4085,6 @@ i(221817, 4579);	-- Muskpaw Calf
 i(223339, 4565);	-- Trishi
 i(223474, 4566);	-- Worgli the Apprehensive
 --- NYI ---
-i(223498, 4568);	-- Charismatic Courier
 i(223499, 4569);	-- Lil' Manny
 
 ------------------
@@ -4369,11 +4366,13 @@ i(232856, 4633);	-- Scruff
 --- ITEM ---
 i(212791, 4410);	-- Beetriz
 i(235794, 4747);	-- Eye of Chaos
+i(208446, 4264);	-- Fyrn
 i(238986, 4794);	-- Mister Mans
 i(235980, 4756);	-- Scourge of the Aspects
 i(235793, 4748);	-- Void-Scarred Parrot
 i(235795, 4749);	-- Void-Scarred Scorpid
 i(235797, 4750);	-- Void-Scarred Tallstrider Chick
+i(223498, 4568);	-- Whoopy
 --- UNSORTED ---
 i(0, 4792);	-- Ada the Sweetest
 i(221851, 4466);	-- Argos

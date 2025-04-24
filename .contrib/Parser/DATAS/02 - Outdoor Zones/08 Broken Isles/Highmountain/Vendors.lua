@@ -101,9 +101,15 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				faction(FACTION_TALONS_VENGENCE, {	-- Talon's Vengeance
+				header(HEADERS.Faction, FACTION_TALONS_VENGENCE, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {
+					hqt(45029, {	-- Talon's Vengeance - Intro Complete
+						["description"] = "Talk to Aviana while mounted on any Falcosaur Mount to unlock the Talon's Vengence faction.",
+						["qg"] = 97925,	-- Aviana
+						["coord"] = { 32.2, 66.8, HIGHMOUNTAIN },
+					}),
 					n(115887, {	-- Trinket
 						["coord"] = { 32.4, 66.8, HIGHMOUNTAIN },
+						["sourceQuest"] = 45029,	-- Talon's Vengeance - Intro Complete
 						["g"] = pvp(bubbleDownClassicRep(FACTION_TALONS_VENGENCE, {
 							{		-- Neutral
 								i(142366),	-- Regurgitated Leaf
@@ -131,7 +137,7 @@ root(ROOTS.Zones, {
 							},
 						})),
 					}),
-				}),
+				})),
 			}),
 		}),
 	}),
