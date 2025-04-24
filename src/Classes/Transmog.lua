@@ -706,6 +706,7 @@ do
 
 		if IsRetrieving(link) then
 			if not group.CanRetry then
+				group.link = BuildAppearanceLink(sourceID)
 				return
 			end
 			app.FunctionRunner.Run(GenerateGroupLinkUsingSourceID, group)
