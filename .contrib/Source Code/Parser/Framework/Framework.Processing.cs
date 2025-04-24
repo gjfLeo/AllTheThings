@@ -1083,11 +1083,11 @@ namespace ATT
                             LogWarn($"Non-Timelined data being coord-shifted due to {ToJSON(shiftInfo)}", data);
                         }
 
-                        if (coordObj[0].TryConvert(out long coordx))
+                        if (coordObj[0].TryConvert(out float coordx))
                         {
                             coordObj[0] = coordx + shiftInfo.X;
                         }
-                        if (coordObj[1].TryConvert(out long coordy))
+                        if (coordObj[1].TryConvert(out float coordy))
                         {
                             coordObj[1] = coordy + shiftInfo.Y;
                         }

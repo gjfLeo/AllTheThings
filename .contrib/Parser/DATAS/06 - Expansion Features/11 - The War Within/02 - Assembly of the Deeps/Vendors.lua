@@ -5,7 +5,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 	n(THE_ASSEMBLY_OF_THE_DEEPS, {
 		n(VENDORS, {
 			n(221390, {	-- Waxmonger Squick <Quatermaster>
-				["coord"] = { 47.5, 32.8, THE_RINGING_DEEPS },
+				["coord"] = { 47.3, 32.9, THE_RINGING_DEEPS },
 				["g"] = bubbleDownRep(FACTION_THE_ASSEMBLY_OF_THE_DEEPS, {
 					{		-- RENOWN 1 --
 						i(228418, {	-- Noncandescent Smithing Choker
