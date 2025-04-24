@@ -35,6 +35,7 @@ EVENTS = {
 	PLUNDERSTORM = 446916,	-- This is a fake eventID. (Crieve made this up!) ((Pinchy the Plunderer spellID!))
 	REMIX_MOP = 1525,
 	DASTARDLY_DUOS = 1599,
+	WINDS_OF_MYSTERIOUS_FORTUNE = 1670,
 
 	-- Dragonriding Cups
 	-- Note: These need to all be referenced in src\Modules\Events.lua

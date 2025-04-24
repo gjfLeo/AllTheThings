@@ -5,6 +5,11 @@ DASTARDLY_DUOS = createHeader({
 	readable = "Dastardly Duos",
 	icon = 6740278,
 	eventID = EVENTS.DASTARDLY_DUOS,
+	eventSchedule = {
+		0, -- June 3rd, 2025 to July 15th, 2025
+		2025, 6, 03,	-- 6/3/2025
+		2025, 7, 15,	-- 7/15/2025
+	},
 	text = {
 		en = "Dastardly Duos",
 	},

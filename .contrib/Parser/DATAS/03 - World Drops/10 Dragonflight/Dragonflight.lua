@@ -2,12 +2,6 @@
 --       W O R L D   D R O P S   M O D U L E       --
 -----------------------------------------------------
 root(ROOTS.WorldDrops, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	n(SPECIAL, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5, "removed 11.1.5.99999" } }, {
-		i(235054),	-- Pristine Mysterious Satchel
-		i(236944),	-- Weathered Mysterious Satchel (Epic)
-		i(235911),	-- Weathered Mysterious Satchel (Rare)
-		i(235052),	-- Weathered Mysterious Satchel (Uncommon)
-	})),
 	i(201470),	-- Story of a Memorable Victory
 	n(ARMOR, {
 		i(199019),	-- Aerodynamic Cape

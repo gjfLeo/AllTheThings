@@ -606,6 +606,7 @@ HeaderAssignments = {
 	["Whack-a-Gnoll"] = -1000206,
 	["Wild Gladiator: Warlords Season 2"] = -1001168,
 	["Win the Battle"] = -1000192,
+	["Winds of Mysterious Fortune"] = -1001178,
 	["Wisdom"] = -1001134,
 	["Worgen Stalkers"] = -1000856,
 	["Work Orders"] = -1001121,
@@ -647,4 +648,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001178;
+NextHeaderID = -1001179;
