@@ -4,7 +4,7 @@
 root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(SPECIAL, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5, "removed 11.1.5.99999" } }, {
 		i(235054, {	-- Pristine Mysterious Satchel
-			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\nthe first satchel per day will be Pristine and will have increased chanc for better rewards.",
+			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\n\nThe first satchel per day will be Pristine and will have increased chance for better rewards.",
 			["g"] = {
 				n(ARMOR, {
 					n(BACK, {
@@ -74,39 +74,39 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 					i(236959),	-- Empty Mysterious Potion
 				}),
 				n(WEAPONS, {
-					i(235922),	-- Mysterious Shield
-					i(235923),	-- Mysterious Lantern
-					i(235924),	-- Mysterious Drill-Tipped Stave
 					i(235925),	-- Mysterious Beacon Staff
-					i(235926),	-- Mysterious Polearm
-					i(235927),	-- Mysterious Spade
-					i(235928),	-- Mysterious Waraxe
-					i(235929),	-- Mysterious Torch
-					i(235930),	-- Mysterious Sharpshooter
-					i(235931),	-- Mysterious Sword
 					i(235932),	-- Mysterious Blade
+					i(235941),	-- Mysterious Bolthrower
+					i(235939),	-- Mysterious Chisel
+					i(235937),	-- Mysterious Cleaver
+					i(235924),	-- Mysterious Drill-Tipped Stave
 					i(235933),	-- Mysterious Hammer
+					i(235938),	-- Mysterious Hatchet
+					i(235923),	-- Mysterious Lantern
+					i(235926),	-- Mysterious Polearm
 					i(235934),	-- Mysterious Pummeler
 					i(235935),	-- Mysterious Ritual Knife
 					i(235936),	-- Mysterious Shank
-					i(235937),	-- Mysterious Cleaver
-					i(235938),	-- Mysterious Hatchet
-					i(235939),	-- Mysterious Chisel
+					i(235930),	-- Mysterious Sharpshooter
+					i(235922),	-- Mysterious Shield
+					i(235927),	-- Mysterious Spade
 					i(235940),	-- Mysterious Spellblade
-					i(235941),	-- Mysterious Bolthrower
+					i(235931),	-- Mysterious Sword
+					i(235929),	-- Mysterious Torch
+					i(235928),	-- Mysterious Waraxe
 				}),
 			},
 		}),
 		i(236944, {	-- Weathered Mysterious Satchel (Epic)
-			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\nthe first satchel per day will be Pristine and will have increased chanc for better rewards.",
+			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\n\nThe first satchel per day will be Pristine and will have increased chance for better rewards.",
 			["sym"] = {{"select","itemID",235054},{"pop"}},	-- Pristine Mysterious Satchel
 		}),
 		i(235911, {	-- Weathered Mysterious Satchel (Rare)
-			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\nthe first satchel per day will be Pristine and will have increased chanc for better rewards.",
+			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\n\nThe first satchel per day will be Pristine and will have increased chance for better rewards.",
 			["sym"] = {{"select","itemID",235054},{"pop"}},	-- Pristine Mysterious Satchel
 		}),
 		i(235052, {	-- Weathered Mysterious Satchel (Uncommon)
-			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\nthe first satchel per day will be Pristine and will have increased chanc for better rewards.",
+			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\n\nThe first satchel per day will be Pristine and will have increased chance for better rewards.",
 			["sym"] = {{"select","itemID",235054},{"pop"}},	-- Pristine Mysterious Satchel
 		}),
 	})),
