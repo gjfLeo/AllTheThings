@@ -137,6 +137,15 @@ end, {
 	"Usage : /att report-reset",
 	"Allows resetting the tracking of displayed Dialog reports such that duplicate reports can be repeated in the same game session.",
 })
+-- Allows a user to use /att debug-events
+-- to enable Debug Printing of Event messages
+app.ChatCommands.Add("debug-events", function(args)
+	app.DebugEvents()
+	return true
+end, {
+	"Usage : /att debug-events",
+	"Allows toggling the debug printing and monitoring of all game events that ATT handles.",
+})
 
 -- Allows adding a direct slash command(s) to the game
 -- NOTE: This is not super desirable to add so many slash commands.
