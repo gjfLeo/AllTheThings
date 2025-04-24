@@ -498,7 +498,7 @@ app.LoadDebugger = function()
 						local pos = C_Map.GetPlayerMapPosition(mapID, "player");
 						if pos then
 							local px, py = pos:GetXY();
-							info.coord = { math.ceil(px * 10000) / 100, math.ceil(py * 10000) / 100, mapID };
+							info.coord = { math.ceil(px * 10000) / 100, math.ceil(py * 10000) / 100, mapID }
 						end
 						info = CategorizeObject(info)
 					end
@@ -750,9 +750,12 @@ app.LoadDebugger = function()
 						info.name = app.GetQuestName(questID)
 						AddObject(info);
 					end
-				-- Capture various personal/party loot received
+				-- Capture various party loot received
 				elseif e == "CHAT_MSG_LOOT" then
 					local msg, player, a, b, c, d, e, f, g, h, i, j, k, l = ...;
+					-- don't store loot for the player since that is captured by source
+					if j == app.GUID then return end
+
 					-- "You receive item: item:###" will break the match
 					-- this probably doesn't work in other locales
 					msg = msg:gsub("item: ", "");
