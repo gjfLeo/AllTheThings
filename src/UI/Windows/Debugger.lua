@@ -295,6 +295,7 @@ local KeyMaps = setmetatable({
 	enchant = "spellID",
 	fp = "flightpathID",
 	follower = "followerID",
+	gameobject = "objectID",
 	garrbuilding = "garrisonbuildingID",
 	garrfollower = "followerID",
 	i = "modItemID",
@@ -498,6 +499,7 @@ app.LoadDebugger = function()
 						local pos = C_Map.GetPlayerMapPosition(mapID, "player");
 						if pos then
 							local px, py = pos:GetXY();
+							-- TODO: this would be nice for debugger to collect multiple coords
 							info.coord = { math.ceil(px * 10000) / 100, math.ceil(py * 10000) / 100, mapID }
 						end
 						info = CategorizeObject(info)
@@ -586,6 +588,7 @@ app.LoadDebugger = function()
 				end
 			end
 
+			local CleanLink = app.Modules.Item.CleanLink
 			-- Setup Event Handlers and register for events
 			self:SetScript("OnEvent", function(self, e, ...)
 				-- app.PrintDebug(e, ...);
@@ -766,14 +769,24 @@ app.LoadDebugger = function()
 						local itemID = GetItemID(itemString);
 						AddObject({ ["unit"] = j, ["g"] = { { ["itemID"] = itemID, ["rawlink"] = itemString } } });
 					end
+				elseif e == "QUEST_LOOT_RECEIVED" then
+					local questID, itemLink = ...
+					local itemID = GetItemID(itemLink)
+					local info = { ["questID"] = questID, ["g"] = { { ["itemID"] = itemID, ["rawlink"] = itemLink } } }
+					-- app.PrintDebug("Add Quest Loot from",questID,itemLink,itemID)
+					AddObject(info)
 				-- Capture personal loot sources
+				elseif e == "LOOT_CLOSED" then
+					self:RegisterEvent("LOOT_READY");
+					self:UnregisterEvent("LOOT_CLOSED");
 				elseif e == "LOOT_READY" then
 					-- Only register LOOT_READY once per opened loot
+					-- Need to use LOOT_READY since addons can receive loot before the LOOT_OPENED event
 					self:UnregisterEvent("LOOT_READY");
 					self:RegisterEvent("LOOT_CLOSED");
 					local slots = GetNumLootItems();
-					-- print("Loot Slots:",slots);
-					local loot, source, info
+					-- app.PrintDebug("Loot Slots:",slots);
+					local loot, source, info, dropLink
 					local type, zero, server_id, instance_id, zone_uid, id, spawn_uid;
 					local mapID = app.CurrentMapID;
 					if mapID then
@@ -782,59 +795,45 @@ app.LoadDebugger = function()
 							local px, py = pos:GetXY();
 							px = math.ceil(px * 10000) / 100
 							py = math.ceil(py * 10000) / 100
-							app.PrintDebug("Loot @ coord", px, py, mapID)
+							-- app.PrintDebug("Loot @ coord", px, py, mapID)
 						end
 					end
 					for i=1,slots,1 do
 						loot = GetLootSlotLink(i);
 						if loot then
 							-- app.PrintDebug("Loot @",i,":",loot)
-							-- TODO: duplicated logic from SearchForLink
+							loot = CleanLink(loot)
 							local kind, lootID = (":"):split(loot);
-							kind = kind:lower();
-							if kind:sub(1,2) == "|c" then
-								kind = kind:sub(11);
-							end
-							if kind:sub(1,2) == "|h" then
-								kind = kind:sub(3);
-							end
-							kind = KeyMaps[kind:lower()]
+							kind = KeyMaps[kind]
 							if lootID then lootID = tonumber(select(1, ("|["):split(lootID)) or lootID); end
 							-- app.PrintDebug("Loot @",i,kind,lootID)
 							if lootID and kind then
 								source = { GetLootSourceInfo(i) };
 								for j=1,#source,2 do
-									type, zero, server_id, instance_id, zone_uid, id, spawn_uid = ("-"):split(source[j]);
-									-- TODO: test this with Item containers
-									app.print("Add",kind,"Loot",loot,"from",type,id)
+									dropLink = CleanLink(source[j])
+									-- app.PrintDebug("droplink",dropLink)
+									type, zero, server_id, instance_id, zone_uid, id, spawn_uid = ("-"):split(dropLink);
+									-- get Item container link
 									if not id then
-										app.PrintDebug("Unknown Loot Source:",source[j])
+										dropLink = CleanLink(C_Item.GetItemLinkByGUID(dropLink))
+										-- app.PrintDebug("item:droplink",dropLink)
+										type, zero, server_id, instance_id, zone_uid, id, spawn_uid = ("-"):split(dropLink);
 									end
+									type = KeyMaps[type]
+									app.print("Add",kind,"Loot",loot,"from",type,id)
 									info = {
-										[type == "GameObject" and "objectID" or "npcID"] = tonumber(id),
-										g = { { [kind] = lootID, ["rawlink"] = loot } }
-									};
+										[type] = tonumber(id),
+										g = { { [kind] = lootID, rawlink = loot } }
+									}
+									-- try to save the GameTooltip name for objects
+									if info.objectID then
+										local text = GameTooltipTextLeft1:GetText()
+										app.print('ObjectID: '..info.objectID.. ' || ' .. 'Name: ' .. (text or UNKNOWN))
+										info.basename = text or UNKNOWN
+									end
 									AddObject(info);
 								end
 							end
-						end
-					end
-				elseif e == "LOOT_CLOSED" then
-					self:RegisterEvent("LOOT_READY");
-					self:UnregisterEvent("LOOT_CLOSED");
-				elseif e == "QUEST_LOOT_RECEIVED" then
-					local questID, itemLink = ...
-					local itemID = GetItemID(itemLink)
-					local info = { ["questID"] = questID, ["g"] = { { ["itemID"] = itemID, ["rawlink"] = itemLink } } }
-					app.PrintDebug("Add Quest Loot from",questID,itemLink,itemID)
-					AddObject(info)
-				elseif e == "LOOT_OPENED" then
-					local guid = GetLootSourceInfo(1)
-					if guid then
-						local type, zero, server_id, instance_id, zone_uid, npc_id, spawn_uid = ("-"):split(guid);
-						if(type == "GameObject") then
-							local text = GameTooltipTextLeft1:GetText()
-							app.print('ObjectID: '..(npc_id or 'UNKNOWN').. ' || ' .. 'Name: ' .. (text or 'UNKNOWN'))
 						end
 					end
 				end
@@ -849,7 +848,6 @@ app.LoadDebugger = function()
 			self:RegisterEvent("NEW_WMO_CHUNK");
 			self:RegisterEvent("MERCHANT_SHOW");
 			self:RegisterEvent("MERCHANT_UPDATE");
-			self:RegisterEvent("LOOT_OPENED");
 			self:RegisterEvent("LOOT_READY");
 			self:RegisterEvent("CHAT_MSG_LOOT");
 			--self:RegisterAllEvents();
