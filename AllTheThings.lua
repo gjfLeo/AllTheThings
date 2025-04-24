@@ -6364,10 +6364,6 @@ customWindowUpdates.list = function(self, force, got)
 			data._VerifyGroupSourceID = data._VerifyGroupSourceID + 1
 			local link, source = data.link or data.silentLink, data.sourceID;
 			if not link then return; end
-			if not GetItemInfo(link) then
-				-- app.PrintDebug("No Item Data Cached",link,data._VerifyGroupSourceID)
-				return;
-			end
 			-- If it doesn't, the source ID will need to be harvested.
 			local sourceID = app.GetSourceID(link);
 			-- app.PrintDebug("SourceIDs",data.modItemID,source,app.GetSourceID(link),link)
@@ -6379,7 +6375,19 @@ customWindowUpdates.list = function(self, force, got)
 						-- app.print("SourceID Update",link,data.modItemID,source,"=>",sourceID);
 						data.sourceID = sourceID
 						app.SaveHarvestSource(data)
-					-- else app.PrintDebug("SourceID Diff!",link,source,"=>",sourceID)
+					else
+						app.print("SourceID Diff!",link,source,"=>",sourceID)
+						-- replace the item information of the root Item (this affects the Main list)
+						-- since the inherent item information does not match the SourceID any longer
+						local mt = getmetatable(data)
+						if mt then
+							local rootData = mt.__index
+							if rootData then
+								rootData.rawlink = nil
+								rootData.itemID = nil
+								rootData.modItemID = nil
+							end
+						end
 					end
 				end
 			end
