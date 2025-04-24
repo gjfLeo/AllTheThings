@@ -10,16 +10,16 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 					n(BACK, {
 						i(235974),	-- Mysterious Cloak
 						i(235975),	-- Mysterious Shawl
+					}),
+					filter(CLOTH, {
+						i(235942),	-- Mysterious Cuffs
+						i(235943),	-- Mysterious Cord
 						i(235944),	-- Mysterious Shoulderpads
 						i(235945),	-- Mysterious Leggings
 						i(235946),	-- Mysterious Cowl
 						i(235947),	-- Mysterious Handwraps
 						i(235948),	-- Mysterious Sandals
 						i(235949),	-- Mysterious Robes
-					}),
-					filter(CLOTH, {
-						i(235942),	-- Mysterious Cuffs
-						i(235943),	-- Mysterious Cord
 					}),
 					n(FINGER, {
 						i(235977),	-- Mysterious Ring
