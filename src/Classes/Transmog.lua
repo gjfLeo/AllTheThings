@@ -194,7 +194,7 @@ app.DetermineItemLink = function(sourceID)
 	-- bonusID 3524 seems to imply "use ModID to determine SourceID" since without it, everything with ModID resolves as the base SourceID from links
 	itemFormat = "item:"..itemID..":::::::::::%d:1:3524";
 	-- /dump AllTheThings.GetSourceID("item:188859:::::::::::5:1:3524")
-	for m=1,129,1 do
+	for m=1,199,1 do
 		---@diagnostic disable-next-line: undefined-field
 		link = itemFormat:format(m);
 		checkID, found = GetSourceID(link);
@@ -204,7 +204,7 @@ app.DetermineItemLink = function(sourceID)
 
 	-- Check BonusIDs
 	itemFormat = "item:"..itemID.."::::::::::::1:%d";
-	for b=1,11028,1 do
+	for b=1,13999,1 do
 		---@diagnostic disable-next-line: undefined-field
 		link = itemFormat:format(b);
 		checkID, found = GetSourceID(link);
