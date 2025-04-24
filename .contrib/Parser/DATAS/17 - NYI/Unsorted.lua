@@ -140,7 +140,6 @@ root(ROOTS.Unsorted, {
 				i(236945),	-- [NOT USED] Mysterious Outfitters Satchel
 				i(236946),	-- [NOT USED] Mysterious Accessories Satchel
 				i(236958),	-- [NOT USED] Empty Mysterious Potion
-				i(236959),	-- Empty Mysterious Potion
 			}),
 			filter(BATTLE_PETS, {
 				i(236409),	-- Frumpy Softpaw

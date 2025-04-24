@@ -71,6 +71,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 					i(236856),	-- Potion of Mysterious Systemshock
 					i(235838),	-- Potion of Mysterious Tenacity
 					i(236870),	-- Potion of Mysterious Tremorshards
+					i(236959),	-- Empty Mysterious Potion
 				}),
 				n(WEAPONS, {
 					i(235922),	-- Mysterious Shield
