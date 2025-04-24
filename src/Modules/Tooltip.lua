@@ -1050,7 +1050,8 @@ if TooltipDataProcessor and app.GameBuildVersion > 50000 then
 		-- app.PrintDebug("AttachTooltip-Return");
 	end
 
-	app.AddEventRegistration("TOOLTIP_DATA_UPDATE", function(...)
+	local Callback = app.CallbackHandlers.Callback
+	local function ReshowGametooltip()
 		if GameTooltip and GameTooltip:IsVisible() then
 			-- app.PrintDebug("Auto-refresh tooltip")
 			-- Make sure the tooltip will try to re-attach the data if it's from an ATT row
@@ -1058,6 +1059,9 @@ if TooltipDataProcessor and app.GameBuildVersion > 50000 then
 			GameTooltip.ATT_AttachComplete = nil;
 			GameTooltip:Show();
 		end
+	end
+	app.AddEventRegistration("TOOLTIP_DATA_UPDATE", function(...)
+		Callback(ReshowGametooltip)
 	end);
 	app.AddEventHandler("OnReady", function()
 		TooltipDataProcessor.AddTooltipPostCall(TooltipDataProcessor.AllTypes, AttachTooltip)
