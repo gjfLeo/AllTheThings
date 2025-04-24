@@ -608,6 +608,9 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 						conquest(900, i(229802)),	-- Prized Gladiator's Torchblade
 						conquest(875, i(229787)),	-- Prized Gladiator's Warglaive
 					}),
+					i(230721, {	-- Prized Equipment Chest
+						["timeline"] = { ADDED_11_1_5 },
+					}),
 				},
 			}),
 		})),

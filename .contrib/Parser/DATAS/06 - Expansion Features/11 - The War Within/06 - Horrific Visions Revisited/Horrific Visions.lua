@@ -128,6 +128,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["sourceQuests"] = { 90719 },	-- Borrowing Corruption
 					["provider"] = { "n", 238136 },	-- Augermu
 					["coord"] = { 35.2, 68.6, DORNOGAL },
+					["g"] = {
+						i(238680),	-- Greater Rune of Echoing Void
+						i(239086),	-- Greater Rune of Gushing Wound
+						i(239080),	-- Greater Rune of Infinite Stars
+						i(239090),	-- Greater Rune of the Twisted Appendage
+						i(239095),	-- Greater Rune of the Void Ritual
+						i(238405),	-- Greater Rune of Twilight Devastation
+					},
 				}),
 				-- TODO: Some masks still have their old quests, and something is funky with criteria of mask of the long night, WIP on Blizzard's end maybe? v0v
 				q(86153, {	-- Faceless Mask of the Dark Imagination
@@ -194,19 +202,39 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 			}),
 			n(REWARDS, {
 				currency(3149),	-- Displaced Corrupted Mementos
-				-- Gear
-				--- leather
-				i(236812),	-- Leggings of the Insatiable Vision
-				i(236794),	-- Legwraps of the Insatiable Vision
-				i(236843),	-- Mask of the Insatiable Vision
-				i(236832),	-- Shoulderpads of the Insatiable Vision
-				i(236795),	-- Waistguard of the Insatiable Vision
-				--- neck
-				i(236911),	-- Vision Tormentor's Bone Necklace
-				i(236912),	-- Vision Manipulator's Choker
-				-- Masks (QI!/QS!)
-				i(232921),	-- Faceless Mask of the Long Night (QI!/QS!)
-				i(235414),	-- Faceless Mask of Multitudes (QS!/QI!) (TODO: require to complete run with 4 masks?)
+				filter(MISC, {
+					i(232921),	-- Faceless Mask of the Long Night (QI!/QS!)
+					i(235414),	-- Faceless Mask of Multitudes (QS!/QI!) (TODO: require to complete run with 4 masks?)
+				}),
+				n(ARMOR, {
+					filter(BACK_F, {
+						i(236970),	-- Cloak of Insatiable Vision (leathers class only?)
+					}),
+					filter(CLOTH, {
+					}),
+					filter(FINGER_F, {
+					}),
+					filter(LEATHER, {
+						i(236824),	-- Grasp of the Insatiable Vision
+						i(236812),	-- Leggings of the Insatiable Vision
+						i(236794),	-- Legwraps of the Insatiable Vision
+						i(236843),	-- Mask of the Insatiable Vision
+						i(236832),	-- Shoulderpads of the Insatiable Vision
+						i(236795),	-- Waistguard of the Insatiable Vision
+						i(236796),	-- Wristwraps of the Insatiable Vision
+					}),
+					filter(MAIL, {
+					}),
+					filter(NECK_F, {
+						i(236911),	-- Vision Tormentor's Bone Necklace
+						i(236912),	-- Vision Manipulator's Choker
+						i(236913),	-- Pendant of Insatiable Vision
+					}),
+					filter(PLATE, {
+					}),
+					filter(TRINKET_F, {
+					}),
+				}),
 			}),
 			n(TREASURES, {
 				o(527842, {	-- Black Blood Infused Bar
@@ -285,13 +313,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				n(238136, {	-- Augermu
 					["sourceQuest"] = 90719,	-- Borrowing Corruption
 					["coord"] = { 35.2, 68.6, DORNOGAL },
-					["g"] = sharedData({ ["cost" ] = {{"c", 3149, 500}} }, {	-- 500x Displaced Corrupted Mementos
+					["g"] = sharedData({ ["cost"] = {{"c", 3149, 500}} }, {	-- 500x Displaced Corrupted Mementos
 						i(238678),	-- Lesser Rune of Echoing Void
 						i(239084),	-- Lesser Rune of Gushing Wound
 						i(239078),	-- Lesser Rune of Infinite Stars
 						i(239088),	-- Lesser Rune of the Twisted Appendage
 						i(239093),	-- Lesser Rune of the Void Ritual
 						i(238403),	-- Lesser Rune of Twilight Devastation
+						-- Alex: they are cost 1k but who would notice about them anyway (wasn't able to solve double sharedData ;_;)
+						i(238680),	-- Greater Rune of Echoing Void
+						i(239086),	-- Greater Rune of Gushing Wound
+						i(239080),	-- Greater Rune of Infinite Stars
+						i(239090),	-- Greater Rune of the Twisted Appendage
+						i(239095),	-- Greater Rune of the Void Ritual
+						i(238405),	-- Greater Rune of Twilight Devastation
 					}),
 				}),
 				n(238544, {	-- Chreni
@@ -514,6 +549,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						o(499957, {	-- Corrupted Chest (Valley of Wisdom/Geya'rah)
 							["coord"] = { 48.9, 58.1, RE_HORRIFIC_ORGRIMMAR },
 							["g"] = {
+								i(242648),	-- Black Blood Coagulate
 								i(232917),	-- Faceless Mask of the Burned Bridge (QS!/QI!)
 								i(240193),	-- Tentacle Spokes
 								i(235797),	-- Void-Scarred Tallstrider Chick (PET!)
@@ -523,6 +559,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						o(499958, {	-- Corrupted Chest (Valley of Honor/Rexxar)
 							["coord"] = { 48.1, 58.1, RE_HORRIFIC_ORGRIMMAR },
 							["g"] = {
+								i(242648),	-- Black Blood Coagulate
 								i(174457),	-- C'Thuffer (PET!)
 								i(232918),	-- Faceless Mask of the Daredevil (QS!/QI!)
 								i(239106),	-- Shadow Infused Onyx
@@ -559,13 +596,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["providers"] = {
 								{ "o", 519487 },	-- Wolf Saddle (Honor)
 								{ "o", 519559 },	-- Wolf Tack (Wisdom)
+								{ "n", 238836 },	-- Void-Scarred Wolf
 							},
 							["coords"] = {
 								{ 67.2, 36.2, RE_HORRIFIC_ORGRIMMAR },	-- Wolf Saddle (519487)
 								{ 39.2, 49.5, RE_HORRIFIC_ORGRIMMAR },	-- Wolf Tack (519559)
-								{ 59.5, 54.0, RE_HORRIFIC_ORGRIMMAR },	-- Wolf Rug
+								{ 60.8, 54.7, RE_HORRIFIC_ORGRIMMAR },	-- Wolf Rug
 							},
-							["g"] = { i(235700) },	-- Void-Scarred Pack Mother's Harness (MOUNT!)
+							["g"] = { i(235706) },	-- Void-Scarred Pack Mother's Harness (MOUNT!)
 						}),
 						n(238145, {	-- Void-Scarred Wyvern Matriarch
 							["description"] = "Clear the Valley of Wisdom to access the elevator up to the Skyway. Defeat waves of Void-Scarred Wyverns until the matriarch spawns.\n\nThe path up to the Skyway will remain blocked without at least 3 masks active.",
@@ -617,6 +655,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						o(499028, {	-- Corrupted Chest (Mage Quarter/Umbric)
 							["coord"] = { 41.0, 33.9, RE_HORRIFIC_STORMWIND },
 							["g"] = {
+								i(242648),	-- Black Blood Coagulate
 								i(240186),	-- Depleted Void Crystal
 								i(232919),	-- Faceless Mask of Dark Imagination (QI!/QS!)
 								i(174458),	-- Void-Scarred Hare (PET!)
@@ -625,6 +664,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						o(499029, {	-- Corrupted Chest (Old Town/Valeera)
 							["coord"] = { 42.1, 33.9, RE_HORRIFIC_STORMWIND },
 							["g"] = {
+								i(242648),	-- Black Blood Coagulate
 								i(235794),	-- Eye of Chaos (PET!)
 								i(232920),	-- Faceless Mask of the Pained (QI!/QS!)
 								i(240183),	-- Twisted Skull-Scythe Handlebars

@@ -17,7 +17,6 @@ root(ROOTS.Unsorted, {
 				i(236791),	-- Vision Manipulator's Wristwraps
 				i(236792),	-- Footpads of the Insatiable Vision
 				i(236793),	-- Grips of the Insatiable Vision
-				i(236796),	-- Wristwraps of the Insatiable Vision
 				i(236797),	-- Vision Tormentor's Footguards
 				i(236798),	-- Vision Tormentor's Handguards
 				i(236799),	-- Vision Tormentor's Legguards
@@ -44,7 +43,6 @@ root(ROOTS.Unsorted, {
 				i(236821),	-- Boots of the Insatiable Vision
 				i(236822),	-- Vision Manipulator's Treads
 				i(236823),	-- Vision Manipulator's Belt
-				i(236824),	-- Grasp of the Insatiable Vision
 				i(236825),	-- Vision Tormentor's Chain
 				i(236826),	-- Malignant Vision's Girdle
 				i(236827),	-- Vision Manipulator's Robe
@@ -74,7 +72,6 @@ root(ROOTS.Unsorted, {
 				i(236908),	-- Signet of Malignant Vision
 				i(236909),	-- Loop of Insatiable Vision
 				i(236910),	-- Choker of the Malignant Vision
-				i(236913),	-- Pendant of Insatiable Vision
 				i(236914),	-- Unbound Vision Journal
 				i(236915),	-- Book of Dark Visions
 				i(236916),	-- Void-Whittled Spike
@@ -83,7 +80,6 @@ root(ROOTS.Unsorted, {
 				i(236919),	-- Void Spike
 				i(236968),	-- Malignant Vision's Drape
 				i(236969),	-- Vision Tormentor's Tentacles
-				i(236970),	-- Cloak of Insatiable Vision
 				i(236971),	-- Vision Manipulator's Cloak
 				i(237434),	-- Faceless Mask of the Nemesis
 				i(238260),	-- Faceless Mask of Vengeance
@@ -120,7 +116,6 @@ root(ROOTS.Unsorted, {
 				i(239489),	-- Radiant Officer's Cache
 				i(241033),	-- Arathi Templar's Claymore
 				i(241035),	-- Arathi Soldier's Morningstar
-				i(241036),	-- Arathi Anointer's Wand
 			}),
 			n(SPECIAL, {	-- Mysterious???
 				i(235631),	-- [NOT USED] Mysterious Large Satchel of Goodies
@@ -303,22 +298,16 @@ root(ROOTS.Unsorted, {
 			}),
 			n(PROFESSIONS, {
 				i(238404),	-- Enchant Weapon - Twilight Devastation
-				i(238405),	-- Enchant Weapon - Twilight Devastation
 				i(238406),	-- Formula: Enchant Weapon - Twilight Devastation
 				i(238679),	-- Enchant Weapon - Echoing Void
-				i(238680),	-- Enchant Weapon - Echoing Void
 				i(238683),	-- Formula: Enchant Weapon - Echoing Void
 				i(239079),	-- Enchant Weapon - Infinite Stars
-				i(239080),	-- Enchant Weapon - Infinite Stars
 				i(239081),	-- Formula: Enchant Weapon - Infinite Stars
 				i(239085),	-- Enchant Weapon - Gushing Wound
-				i(239086),	-- Enchant Weapon - Gushing Wound
 				i(239087),	-- Formula: Enchant Weapon - Gushing Wound
 				i(239089),	-- Enchant Weapon - Twisted Appendage
-				i(239090),	-- Enchant Weapon - Twisted Appendage
 				i(239091),	-- Formula: Enchant Weapon - Twisted Appendage
 				i(239094),	-- Enchant Weapon - Void Ritual
-				i(239095),	-- Enchant Weapon - Void Ritual
 				i(239096),	-- Formula: Enchant Weapon - Void Ritual
 			}),
 			n(WEEKLY_HOLIDAYS, {	-- Childrens Week
@@ -344,7 +333,6 @@ root(ROOTS.Unsorted, {
 				i(241235),	-- Painted Wooden Sword
 				i(241236),	-- Painted Wooden Dagger
 			}),
-			i(242648),	-- Black Blood Coagulate
 			i(242711),	-- Pungent Truffle
 			i(237508),	-- Can of Amps
 			i(237509),	-- Bottle of Invisibility
@@ -466,8 +454,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {	-- More known
 				-- Chestos
-				i(229422),	-- Undermine Equipment Chest
-				i(230721),	-- Prized Equipment Chest
 				i(238207),	-- Nanny's Surge Dividends
 
 				-- Buying things? see later

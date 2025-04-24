@@ -15,6 +15,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["timeline"] = { ADDED_11_0_5, REMOVED_11_1_0 },
 						["cost"] = {{ "c", 3008, 350 }},	-- 350x Valorstones
 					}),
+					i(229422, {	-- Undermine Equipment Chest
+						["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
+						["cost"] = {{ "c", 3008, 350 }},	-- 350x Valorstones
+					}),
 				},
 			}),
 			n(219036, {	-- Ardgaz <Token Exchange>

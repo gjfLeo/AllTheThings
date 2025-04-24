@@ -25,6 +25,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["coord"] = { 28.3, 56.1, HALLOWFALL },
 				}),
 			}, {	-- RENOWN 4 --
+				q(89398, {	-- Carved Crests
+					["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+					["coord"] = { 28.3, 56.1, HALLOWFALL },
+				}),
+				q(89391, {	-- Flame's Radiance Stipend
+					["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+					["coord"] = { 28.3, 56.1, HALLOWFALL },
+				}),
 			}, {	-- RENOWN 5 --
 				i(233289),	-- Radiant Stalwart's Tabard
 			}, {	-- RENOWN 6 --

@@ -91,7 +91,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					n(241235),	-- Whisperer Hillhelm
 					n(241236),	-- Whisperer Bravefort
 					n(241237),	-- Whisperer Warsididel
-					n(241238),	-- Whisperer Siegesage
+					n(241238, {	-- Whisperer Siegesage
+						["coord"] = { 49.8, 70.2, HALLOWFALL },
+					}),
 					n(241239, {	-- Whisperer Warhavuk
 						["coord"] = { 65.7, 53.9, AZJ_KAHET },
 					}),
@@ -104,7 +106,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 						i(241007),	-- Mereldar Blacksmithing Hammer (COSMETIC!)
 					}),
 					i(237759, {	-- Arathi Cleric's Chest (Rare)
-						i(241016),	-- Arathi Lancer's Polearm
+						i(241036),	-- Arathi Anointer's Wand
 					}),
 					i(237760),	-- Arathi Champion's Spoils (Epic)
 					-- Crafting reagent?
