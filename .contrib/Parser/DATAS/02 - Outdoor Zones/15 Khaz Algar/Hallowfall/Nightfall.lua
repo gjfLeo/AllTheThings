@@ -72,31 +72,90 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					}),
 				})),
 				n(RARES, {
-					n(241227),	-- Dissenter Glaivefur
-					n(241228, {	-- Dissenter Oathland
-						["coord"] = { 62.5, 27.2, AZJ_KAHET },
-					}),
-					n(241229, {	-- Dissenter Fervormyt
+					-- AZJ'KAHET
+					-- Rak-Zakaz
+					o(527416, {	-- Suspicious Document (Dissenter Oathland/Whisperer Warsididel)
 						["coords"] = {
-							{ 50.2, 65.1, HALLOWFALL },
-							{ 49.9, 70.4, HALLOWFALL },
+							{ 61.9, 30.1, AZJ_KAHET },
+							{ 62.6, 26.7, AZJ_KAHET },
+							{ 64.1, 30.1, AZJ_KAHET },
+							{ 67.4, 27.6, AZJ_KAHET },
+						},
+					}),
+					n(241228, {	-- Dissenter Oathland
+						["provider"] = { "o", 527416 },	-- Suspicious Document
+					}),
+					n(241237, {	-- Whisperer Warsididel
+						["provider"] = { "o", 527416 },	-- Suspicious Document
+					}),
+					-- Sureki's End
+					o(527415, {	-- Suspicious Document (Dissenter Tailtrek/Whisperer Hillhelm)
+						["coords"] = {
+							{ 63.7, 6.8, AZJ_KAHET },
+							{ 64.8, 6.6, AZJ_KAHET },
+							{ 64.8, 13.3, AZJ_KAHET },
+							{ 65.3, 9.4, AZJ_KAHET },
 						},
 					}),
 					n(241230, {	-- Dissenter Tailtrek
-						["coord"] = { 63.1, 11.2, AZJ_KAHET },
+						["provider"] = { "o", 527415 },	-- Suspicious Document
 					}),
-					n(241231),	-- Dissenter Fortfervor
-					n(241232),	-- Dissenter Troosilver
-					n(241234),	-- Whisperer Batalsworn
-					n(241235),	-- Whisperer Hillhelm
-					n(241236),	-- Whisperer Bravefort
-					n(241237),	-- Whisperer Warsididel
-					n(241238, {	-- Whisperer Siegesage
-						["coord"] = { 49.8, 70.2, HALLOWFALL },
+					n(241235, {	-- Whisperer Hillhelm
+						["provider"] = { "o", 527415 },	-- Suspicious Document
+					}),
+					-- Toxins and Pheromones
+					o(527413, {	-- Suspicious Document (Dissenter Glaivefur/Whisperer Warhavuk)
+						["coords"] = {
+							{ 66.5, 53.7, AZJ_KAHET },
+							{ 66.7, 50.7, AZJ_KAHET },
+							{ 68.4, 54.6, AZJ_KAHET },
+							{ 69.5, 54.5, AZJ_KAHET },
+						},
+					}),
+					n(241227, {	-- Dissenter Glaivefur
+						["provider"] = { "o", 527413 },	-- Suspicious Document
 					}),
 					n(241239, {	-- Whisperer Warhavuk
-						["coord"] = { 65.7, 53.9, AZJ_KAHET },
+						["provider"] = { "o", 527413 },	-- Suspicious Document
 					}),
+					-- HALLOWFALL
+					-- Hold the Wall --
+					o(527398, {	-- Suspicious Document (Dissenter Fortfervor/Whisperer Batalsworn)
+						["coords"] = {
+							{ 40.1, 58.5, HALLOWFALL },
+							{ 40.3, 59.6, HALLOWFALL },
+							{ 40.3, 60.8, HALLOWFALL },
+							{ 41.0, 62.1, HALLOWFALL },
+							{ 41.3, 59.6, HALLOWFALL },
+							{ 41.5, 61.7, HALLOWFALL },
+						},
+					}),
+					n(241231, {	-- Dissenter Fortfervor
+						["provider"] = { "o", 527398 },	-- Suspicious Document
+					}),
+					n(241234, {	-- Whisperer Batalsworn
+						["provider"] = { "o", 527398 },	-- Suspicious Document
+					}),
+					-- Southern Swarm --
+					o(527409, {	-- Suspicious Document (Dissenter Fervormyt/Whisperer Siegesage)
+						["coords"] = {
+							{ 49.8, 65.0, HALLOWFALL },
+							{ 49.8, 70.4, HALLOWFALL },
+							{ 50.6, 66.2, HALLOWFALL },
+							{ 51.4, 68.7, HALLOWFALL },
+							{ 51.5, 70.0, HALLOWFALL },
+						},
+					}),
+					n(241229, {	-- Dissenter Fervormyt
+						["provider"] = { "o", 527409 },	-- Suspicious Document
+					}),
+					n(241238, {	-- Whisperer Siegesage
+						["provider"] = { "o", 527409 },	-- Suspicious Document
+					}),
+					-- The Eastern Assault
+					--o() TODO
+					n(241232),	-- Dissenter Troosilver
+					n(241236),	-- Whisperer Bravefort
 				}),
 				n(REWARDS, {
 					-- Caches from progress bar, may have shared loot?
