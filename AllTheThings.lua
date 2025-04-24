@@ -511,6 +511,8 @@ local function CreateObject(t, rootOnly)
 		elseif t.questID then
 			t = app.CreateQuest(t.questID, t);
 		-- Non-Thing groups
+		elseif t.unit then
+			t = app.CreateUnit(t.unit, t);
 		elseif t.classID then
 			t = app.CreateCharacterClass(t.classID, t);
 		elseif t.raceID then
@@ -519,8 +521,6 @@ local function CreateObject(t, rootOnly)
 			t = app.CreateNPC(t.headerID, t);
 		elseif t.expansionID then
 			t = app.CreateExpansion(t.expansionID, t);
-		elseif t.unit then
-			t = app.CreateUnit(t.unit, t);
 		elseif t.difficultyID then
 			t = app.CreateDifficulty(t.difficultyID, t);
 		elseif t.spellID then
