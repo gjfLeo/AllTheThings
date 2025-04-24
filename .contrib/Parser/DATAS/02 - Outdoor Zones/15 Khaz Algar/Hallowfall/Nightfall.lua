@@ -97,11 +97,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					}),
 				}),
 				n(REWARDS, {
-					-- Caches from progress bar
+					-- Caches from progress bar, may have shared loot?
 					i(237743, {	-- Arathi Soldier's Coffer (uncommon)
+						i(241019),	-- Arathi Camper's Knife
 						i(241007),	-- Mereldar Blacksmithing Hammer (COSMETIC!)
 					}),
-					i(237759),	-- Arathi Cleric's Chest (rare)
+					i(237759, {	-- Arathi Cleric's Chest (rare)
+						i(241016),	-- Arathi Lancer's Polearm
+					}),
 					i(237760),	-- Arathi Champion's Spoils (epic)
 					-- Crafting reagent?
 					i(238407),	-- Black Blood Residue

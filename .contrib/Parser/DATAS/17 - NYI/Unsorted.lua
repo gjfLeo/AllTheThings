@@ -115,13 +115,9 @@ root(ROOTS.Unsorted, {
 				i(239009),	-- Signet of Repose
 			}),
 			n(SPECIAL, {	-- Radiant
-				i(233289),	-- Radiant Stalwart's Tabard
-				i(233290),	-- Sacred Templar's Tabard
 				i(233298),	-- Radiant Stalwart's Buckle
 				i(233299),	-- Sacred Templar's Buckle
 				i(239489),	-- Radiant Officer's Cache
-				i(241016),	-- Arathi Lancer's Polearm
-				i(241019),	-- Arathi Camper's Knife
 				i(241033),	-- Arathi Templar's Claymore
 				i(241035),	-- Arathi Soldier's Morningstar
 				i(241036),	-- Arathi Anointer's Wand

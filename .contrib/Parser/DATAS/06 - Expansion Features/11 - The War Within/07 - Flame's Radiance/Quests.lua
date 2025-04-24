@@ -26,11 +26,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 				}),
 			}, {	-- RENOWN 4 --
 			}, {	-- RENOWN 5 --
+				i(233289),	-- Radiant Stalwart's Tabard
 			}, {	-- RENOWN 6 --
 			}, {	-- RENOWN 7 --
 			}, {	-- RENOWN 8 --
 			}, {	-- RENOWN 9 --
 			}, {	-- RENOWN 10 --
+				i(233290),	-- Sacred Templar's Tabard
 			},
 		})),
 	}),
