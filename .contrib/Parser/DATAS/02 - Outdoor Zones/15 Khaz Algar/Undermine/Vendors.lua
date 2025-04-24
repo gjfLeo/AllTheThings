@@ -55,42 +55,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(237321),	-- Scoring Guide: Start Counter
 				},
 			}),
-			n(231405, {	-- Boatswain Hardee <Blackwater Quartermaster>
-				["coord"] = { 63.4, 16.7, UNDERMINE },
-				["g"] = bubbleDownClassicRep(FACTION_TWW_BLACKWATER_CARTEL, {
-					{		-- Neutral
-					}, {	-- Friendly
-						i(236763, {	-- Finder's Fee
-							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
-							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
-						}),
-					}, {	-- Honored
-						i(236671, {	-- The Buzzer (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-						}),
-						i(235671, {	-- Blackwater Cartel Banner (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Revered
-						i(232839, {	-- Wavebreaker Mechasaur (PET!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-						}),
-						i(235801, {	-- Personal Fishing Barge (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Exalted
-						i(229948, {	-- Blackwater Shredder Deluxe Mk 2 (MOUNT!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
-						}),
-						i(231528, {	-- Blackwater Undermine Tabard (COSMETIC!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-						}),
-						i(235390, {	-- Paint: Body Roll Blue (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-						}),
-					},
-				}),
-			}),
 			n(239523, {	-- Brondo Packrat
 				["coord"] = { 29.0, 53.8, UNDERMINE },
 				["g"] = {
@@ -156,114 +120,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					i(231744),	-- Venture Co. Bruiser's Helm
 				},
 			}),
-			n(231408, {	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
-				["coord"] = { 27.5, 72.8, UNDERMINE },
-				["g"] = bubbleDownClassicRep(FACTION_TWW_STEAMWHEEDLE_CARTEL, {
-					{		-- Neutral
-					}, {	-- Friendly
-						i(236689, {	-- Finder's Fee
-							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
-							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
-						}),
-					}, {	-- Honored
-						i(236670, {	-- Maniacal Melodies (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-						}),
-						i(235669, {	-- Steamwheedle Cartel Banner (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Revered
-						i(232853, {	-- Eepy (PET!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-						}),
-						i(226373, {	-- Everlasting Noggenfogger Elixir (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Exalted
-						i(229956, {	-- Mean Green Flying Machine (MOUNT!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
-						}),
-						i(231527, {	-- Steamwheedle Undermine Tabard (COSMETIC!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-						}),
-						i(235389, {	-- Paint: Goblin Green (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-						}),
-					},
-				}),
-			}),
-			n(231406, {	-- Rocco Razzboom <Bilgewater Quartermaster>
-				["coord"] = { 39.2, 22.2, UNDERMINE },
-				["g"] = bubbleDownClassicRep(FACTION_TWW_BILGEWATER_CARTEL, {
-					{		-- Neutral
-					}, {	-- Friendly
-						i(236764, {	-- Finder's Fee
-							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
-							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
-						}),
-					}, {	-- Honored
-						i(236672, {	-- The Ol' Low-and-Slow (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-						}),
-						i(235670, {	-- Bilgewater Cartel Banner (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Revered
-						i(232845, {	-- Bilgewater Junkhauler (PET!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-						}),
-						i(235807, {	-- Storefront-in-a-Box (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Exalted
-						i(229935, {	-- Crimson Armored Growler (MOUNT!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 8125 }},
-						}),
-						i(231526, {	-- Bilgewater Undermine Tabard (COSMETIC!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-						}),
-						i(235388, {	-- Paint: Redlining Red (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-						}),
-					},
-				}),
-			}),
-			n(231407, {	-- Shredz the Scrapper <Venture Quartermaster>
-				["coord"] = { 53.3, 72.7, UNDERMINE },
-				["g"] = bubbleDownClassicRep(FACTION_TWW_VENTURE_CO, {
-					{		-- Neutral
-					}, {	-- Friendly
-						i(236765, {	-- Finder's Fee
-							["sourceAchievement"] = 41627,	-- C.H.E.T.T.ing it Twice
-							["cost"] = {{ "i", 235053, 1 }},	-- Completed C.H.E.T.T. List
-						}),
-					}, {	-- Honored
-						i(236669, {	-- The Whole Brass Band (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 975 }},
-						}),
-						i(235672, {	-- Venture Co. Banner (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Revered
-						i(232851, {	-- Rocketfist (PET!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 6500 }},
-						}),
-						i(235799, {	-- Throwin' Sawblade (TOY!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-					}, {	-- Exalted
-						i(229946, {	-- Ocher Delivery Rocket (MOUNT!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
-						}),
-						i(231542, {	-- Venture Co. Undermine Tabard (COSMETIC!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1625 }},
-						}),
-						i(235391, {	-- Paint: Yellow Cake Yellow (MM!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 1350 }},
-						}),
-					},
-				}),
-			}),
 			n(228286, {	-- Skedgit Cinderbangs <Entrepreneur Inc.>
 				["coord"] = { 43.0, 82.8, UNDERMINE },
 				["g"] = {
@@ -277,46 +133,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 						["cost"] = {{ "i", 234741, 25 }},	-- Miscellaneous Mechanica
 					}),
 				},
-			}),
-			n(231396, {	-- Sitch Lowdown <Darkfuse Solutions Quartermaster>
-				["sourceQuest"] = 86961,	-- Diversified Investments
-				["coord"] = { 30.8, 38.2, UNDERMINE },
-				["g"] = bubbleDownClassicRep(FACTION_DARKFUSE_SOLUTIONS, {
-					{		-- Neutral
-						i(235558, {	-- Box of Darkfuse Miscellany
-							["cost"] = {{ "c", 3226, 100 }},	-- 100x Market Research
-							["g"] = {
-								currency(3177),	-- Darkfuse Solutions Commendation
-							},
-						}),
-						i(235532, {	-- Experimental Goblin-FUEL Supplement
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
-						}),
-						i(237276),	-- Refurbished Rocket Glider
-					}, {	-- Friendly
-						i(229823, {	-- Canister of Darkfuse Solution
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
-						}),
-						i(235533, {	-- Prototype Auto-Advertiser
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
-						}),
-					}, {	-- Honored
-						i(234950, {	-- Atomic Regoblinator
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 5000 }},
-						}),
-						i(235534, {	-- Electropuncture Test Model
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 100 }},
-						}),
-					}, {	-- Revered
-						i(229950, {	-- Darkfuse Demolisher (MOUNT!)
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 11375 }},
-						}),
-					}, {	-- Exalted
-						i(231550, {	-- Darkfuse Lowdown Coat
-							["cost"] = {{ "c", RESONANCE_CRYSTALS, 3250 }},
-						}),
-					},
-				}),
 			}),
 		}),
 	}),
