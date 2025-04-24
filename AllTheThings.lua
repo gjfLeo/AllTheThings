@@ -2234,48 +2234,44 @@ local function GetSearchResults(method, paramA, paramB, options)
 	end
 
 	-- Determine if this is a cache for an item
-	local itemString
-	if rawlink then
-		if not paramB then
-			itemString = CleanLink(rawlink)
-			if itemString:match("item") then
-				-- app.PrintDebug("Rawlink SourceID",sourceID,rawlink)
-				local _, itemID, enchantId, gemId1, gemId2, gemId3, gemId4, suffixId, uniqueId, linkLevel, specializationID, upgradeId, linkModID, numBonusIds, bonusID1 = (":"):split(itemString);
-				if itemID then
-					itemID = tonumber(itemID);
-					local modID = tonumber(linkModID) or 0;
-					if modID == 0 then modID = nil; end
-					local bonusID = (tonumber(numBonusIds) or 0) > 0 and tonumber(bonusID1) or 3524;
-					if bonusID == 3524 then bonusID = nil; end
-					local sourceID = app.GetSourceID(rawlink);
-					if sourceID then
-						paramA = "sourceID"
-						paramB = sourceID
-						-- app.PrintDebug("use sourceID params",paramA,paramB)
-					else
-						paramA = "itemID";
-						paramB = GetGroupItemIDWithModID(nil, itemID, modID, bonusID) or itemID;
-						-- app.PrintDebug("use itemID params",paramA,paramB)
-					end
-				end
-			else
-				itemString = nil
-				local kind, id = (":"):split(rawlink);
-				kind = kind:lower();
-				if id then id = tonumber(id); end
-				if kind == "itemid" then
+	if rawlink and not paramB then
+		local itemString = CleanLink(rawlink)
+		if itemString:match("item") then
+			-- app.PrintDebug("Rawlink SourceID",sourceID,rawlink)
+			local _, itemID, enchantId, gemId1, gemId2, gemId3, gemId4, suffixId, uniqueId, linkLevel, specializationID, upgradeId, linkModID, numBonusIds, bonusID1 = (":"):split(itemString);
+			if itemID then
+				itemID = tonumber(itemID);
+				local modID = tonumber(linkModID) or 0;
+				if modID == 0 then modID = nil; end
+				local bonusID = (tonumber(numBonusIds) or 0) > 0 and tonumber(bonusID1) or 3524;
+				if bonusID == 3524 then bonusID = nil; end
+				local sourceID = app.GetSourceID(rawlink);
+				if sourceID then
+					paramA = "sourceID"
+					paramB = sourceID
+					-- app.PrintDebug("use sourceID params",paramA,paramB)
+				else
 					paramA = "itemID";
-					paramB = id;
-				elseif kind == "questid" then
-					paramA = "questID";
-					paramB = id;
-				elseif kind == "creatureid" or kind == "npcid" then
-					paramA = "creatureID";
-					paramB = id;
-				elseif kind == "achievementid" then
-					paramA = "achievementID";
-					paramB = id;
+					paramB = GetGroupItemIDWithModID(nil, itemID, modID, bonusID) or itemID;
+					-- app.PrintDebug("use itemID params",paramA,paramB)
 				end
+			end
+		else
+			local kind, id = (":"):split(rawlink);
+			kind = kind:lower();
+			if id then id = tonumber(id); end
+			if kind == "itemid" then
+				paramA = "itemID";
+				paramB = id;
+			elseif kind == "questid" then
+				paramA = "questID";
+				paramB = id;
+			elseif kind == "creatureid" or kind == "npcid" then
+				paramA = "creatureID";
+				paramB = id;
+			elseif kind == "achievementid" then
+				paramA = "achievementID";
+				paramB = id;
 			end
 		end
 	end
@@ -2504,7 +2500,6 @@ local function GetSearchResults(method, paramA, paramB, options)
 
 	app.TopLevelUpdateGroup(group);
 
-	group.itemString = itemString
 	group.isBaseSearchResult = true;
 
 	return group
