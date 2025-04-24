@@ -6566,7 +6566,9 @@ customWindowUpdates.list = function(self, force, got)
 			if func then return func(id); end
 			-- Simply a visible table whose Base will be the actual referenced object
 			return setmetatable({ visible = true }, {
-				__index = SearchForObject(type, id, "field") or CreateObject({[type]=id})
+				__index = SearchForObject(dataType, id, "key")
+					or SearchForObject(type, id, "field")
+					or CreateObject({[type]=id})
 			});
 		end
 
