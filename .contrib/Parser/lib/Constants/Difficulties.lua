@@ -83,7 +83,24 @@ DIFFICULTY.DUNGEON.MULTI = {
 		DIFFICULTY.DUNGEON.HEROIC,
 		DIFFICULTY.DUNGEON.MYTHIC
 	}),
+	MYTHIC_KEYSTONE = GetOrCreateMultiDifficulty({
+		DIFFICULTY.DUNGEON.MYTHIC,
+		DIFFICULTY.DUNGEON.KEYSTONE
+	}),
 };
+
+-- Special Dungeon Difficulties to accommodate seasonal changes to older dungeons
+DIFFICULTY.DUNGEON.SEASONAL = {
+	TWWS2_CHAMPIONTRACK = GetOrCreateMultiDifficulty({
+		DIFFICULTY.DUNGEON.KEYSTONE
+	}),
+	TWWS2_HEROTRACK = GetOrCreateMultiDifficulty({
+		DIFFICULTY.DUNGEON.KEYSTONE
+	}),
+	TWWS2_MYTHTRACK = GetOrCreateMultiDifficulty({
+		DIFFICULTY.DUNGEON.KEYSTONE
+	}),
+}
 
 -- Raid Multi-Difficulties
 DIFFICULTY.RAID.MULTI = {
@@ -166,4 +183,10 @@ DifficultyDB = {
 	-- This will cause the display to appear as the original difficulty in the addon, but also provide the ability for it to encompass multiple. (Cata -> MOP raids)
 	[DIFFICULTY.LEGACY_RAID.MULTI.NORMAL] = { simplify = true },
 	[DIFFICULTY.LEGACY_RAID.MULTI.HEROIC] = { simplify = true },
+	[DIFFICULTY.DUNGEON.MULTI.MYTHIC_KEYSTONE] = { simplify = true },
+
+	-- Special Seasonal Difficulties to act as existing difficulties with alternate modID assignments
+	[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_CHAMPIONTRACK] = { icon = 311236, modID = 16, simplify = true },
+	[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK] = { icon = 311235, modID = 35, simplify = true },
+	[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_MYTHTRACK] = { icon = 311237, modID = 162, simplify = true },
 };
