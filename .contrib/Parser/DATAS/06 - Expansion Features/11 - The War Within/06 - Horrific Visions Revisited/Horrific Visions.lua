@@ -320,13 +320,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						i(239088),	-- Lesser Rune of the Twisted Appendage
 						i(239093),	-- Lesser Rune of the Void Ritual
 						i(238403),	-- Lesser Rune of Twilight Devastation
-						-- Alex: they are cost 1k but who would notice about them anyway (wasn't able to solve double sharedData ;_;)
-						i(238680),	-- Greater Rune of Echoing Void
-						i(239086),	-- Greater Rune of Gushing Wound
-						i(239080),	-- Greater Rune of Infinite Stars
-						i(239090),	-- Greater Rune of the Twisted Appendage
-						i(239095),	-- Greater Rune of the Void Ritual
-						i(238405),	-- Greater Rune of Twilight Devastation
+						i(238680, {["cost"] = {{"c", 3149, 1000}} }),	-- Greater Rune of Echoing Void
+						i(239086, {["cost"] = {{"c", 3149, 1000}} }),	-- Greater Rune of Gushing Wound
+						i(239080, {["cost"] = {{"c", 3149, 1000}} }),	-- Greater Rune of Infinite Stars
+						i(239090, {["cost"] = {{"c", 3149, 1000}} }),	-- Greater Rune of the Twisted Appendage
+						i(239095, {["cost"] = {{"c", 3149, 1000}} }),	-- Greater Rune of the Void Ritual
+						i(238405, {["cost"] = {{"c", 3149, 1000}} }),	-- Greater Rune of Twilight Devastation
 					}),
 				}),
 				n(238544, {	-- Chreni

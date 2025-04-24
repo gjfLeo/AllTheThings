@@ -62,6 +62,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 				}),
 				filter(MISC, {
 					i(239142),	-- Bottle of Mysterious Wisdom
+					i(236959),	-- Empty Mysterious Potion
 					i(240995),	-- Fortuitous Satchel
 					i(235803),	-- Potion of Mysterious Celerity
 					i(236854),	-- Potion of Mysterious Conflagration
@@ -71,7 +72,6 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 					i(236856),	-- Potion of Mysterious Systemshock
 					i(235838),	-- Potion of Mysterious Tenacity
 					i(236870),	-- Potion of Mysterious Tremorshards
-					i(236959),	-- Empty Mysterious Potion
 				}),
 				n(WEAPONS, {
 					i(235925),	-- Mysterious Beacon Staff

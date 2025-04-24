@@ -65,7 +65,6 @@ root(ROOTS.NeverImplemented, filter(TITLES, {
 		})),
 	}),
 	expansion(EXPANSION.DF, {
-
 		-- 10.2.0
 		expansion(EXPANSION.DF, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_0 } }, {
 			title(518),	-- <Name>, Honorary Historian
@@ -78,7 +77,7 @@ root(ROOTS.NeverImplemented, filter(TITLES, {
 	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.1.5
-		expansion(EXPANSION.DF, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
+		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
 			title(619),	-- Recruit <Name>
 			title(620),	-- Reservist <Name>
 			title(621),	-- Field Sacredite <Name>
