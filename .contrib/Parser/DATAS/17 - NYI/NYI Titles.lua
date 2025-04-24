@@ -76,5 +76,18 @@ root(ROOTS.NeverImplemented, filter(TITLES, {
 			title(539),	-- Mistrunner (TITLE!)
 		})),
 	}),
+	expansion(EXPANSION.TWW, {
+		-- 11.1.5
+		expansion(EXPANSION.DF, patch(1,5), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_5 } }, {
+			title(619),	-- Recruit <Name>
+			title(620),	-- Reservist <Name>
+			title(621),	-- Field Sacredite <Name>
+			title(623),	-- Stalwart <Name>
+			title(624),	-- Ardent <Name>
+			title(625),	-- Aeroknight <Name>
+			title(626),	-- Flame Guard <Name>
+			title(627),	-- Radiant Officer <Name>
+		})),
+	}),
 }));
 -- #endif
