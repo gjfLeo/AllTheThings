@@ -137,10 +137,23 @@ end, {
 	"Usage : /att report-reset",
 	"Allows resetting the tracking of displayed Dialog reports such that duplicate reports can be repeated in the same game session.",
 })
+-- Allows a user to use /att debug-print
+-- to enable Debug Printing of any PrintDebug messages
+app.ChatCommands.Add("debug-print", function(args)
+	app.Debugging = not app.Debugging
+	app.print("Debug Printing:",app.Debugging and "ACTIVE" or "OFF")
+	return true
+end, {
+	"Usage : /att debug-print",
+	"Allows toggling debug printing within ATT",
+})
 -- Allows a user to use /att debug-events
 -- to enable Debug Printing of Event messages
 app.ChatCommands.Add("debug-events", function(args)
 	app.DebugEvents()
+	app.print("Debug Events:",app.DebuggingEvents and "ACTIVE" or "OFF")
+	-- debug prints may/not be toggled due to this, so print status anyway
+	app.print("Debug Printing:",app.Debugging and "ACTIVE" or "OFF")
 	return true
 end, {
 	"Usage : /att debug-events",
