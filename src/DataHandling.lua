@@ -375,7 +375,7 @@ local function DirectGroupUpdate(group, got)
 			-- app.PrintDebug("DGU_Fill",app:SearchLink(group))
 			app.FillGroups(group)
 		end
-		-- app.PrintDebug("DGU:Update",app:SearchLink(group),">",window.Suffix,window.Update,window.isQuestChain)
+		-- app.PrintDebug("DGU:Update",app:SearchLink(group),">",DGUDelay,window.Suffix,window.Update,window.isQuestChain)
 		DelayedCallback(window.Update, DGUDelay, window, window.isQuestChain, got)
 		window:ToggleExtraFilters()
 	elseif group.DGU_Fill then
@@ -400,8 +400,19 @@ app.DirectGroupUpdate = DirectGroupUpdate
 local function DirectGroupRefresh(group)
 	local window = app.GetRelativeRawWithField(group, "window")
 	if window then
-		-- app.PrintDebug("DGR:Refresh",group.hash,">",window.Suffix,window.Refresh)
+		-- app.PrintDebug("DGR:Refresh",group.hash,">",DGUDelay,window.Suffix,window.Refresh)
 		DelayedCallback(window.Update, DGUDelay, window)
+	else
+		-- app.PrintDebug("DGR:Refresh",group.hash,">",DGUDelay,"No window!")
+		-- app.PrintTable(group)
+		-- this scenario happens when the meta-group of a DLO used in /att list triggers a DGR on itself
+		-- due to it being completely detached from the actual 'list' window
+		-- perhaps this is niche enough of an occurrence that we can just try to refresh the 'list' window
+		-- in this situation
+		local window = app.Windows.list
+		if window then
+			DelayedCallback(window.Update, DGUDelay, window)
+		end
 	end
 end
 app.DirectGroupRefresh = DirectGroupRefresh
