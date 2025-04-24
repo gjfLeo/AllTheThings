@@ -355,10 +355,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 			-- Darktide Roost
 				q(35861, {	-- Garrison Campaign: Darktide Roost (A)
 					["provider"] = { "n", 81492 },	-- Bodrick Gray
+					["coord"] = { 37.8, 36.8, LUNARFALL },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(35876, {	-- Garrison Campaign: Darktide Roost (H)
 					["provider"] = { "n", 78487 },	-- Rokhan
+					["coord"] = { 45.8, 43.2, FROSTWALL },
 					["races"] = HORDE_ONLY,
 				}),
 				q(34353, {	-- Shredder Suppressor

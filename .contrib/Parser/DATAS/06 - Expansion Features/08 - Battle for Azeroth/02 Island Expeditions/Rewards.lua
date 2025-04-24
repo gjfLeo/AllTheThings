@@ -671,6 +671,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						["description"] = "|CFFFF0000Turn in to Xun Xun Sweetflower in Drustvar for Order of Embers rep.|r",
 						["races"] = ALLIANCE_ONLY,
 					}),
+					i(173947, {	-- Glittering Abyssal Conch (A)
+						["races"] = ALLIANCE_ONLY,
+						["timeline"] = { ADDED_8_3_0 },
+					}),
+					i(173948, {	-- Glittering Abyssal Conch (H)
+						["races"] = HORDE_ONLY,
+						["timeline"] = { ADDED_8_3_0 },
+					}),
 					i(163619, {	-- Golden Beetle (H)
 						["description"] = "|CFFFF0000Turn in to Krag'wa the Huge in Nazmir for Talanji's Expedition rep.|r",
 						["races"] = HORDE_ONLY,

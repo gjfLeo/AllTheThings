@@ -112,7 +112,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 					["provider"] = { "n", 234297 },	-- Wodin the Troll Servant
 					["coord"] = { 52.7, 51.3, ISLE_OF_DORN },
 					["g"] = {
-						i(239007),	-- Dastardly Banner (TOY!)
 						i(239440, {	-- Dastardly Prize Purse
 							i(238989),	-- Steam-Hinge Chain of Valor (TODO: ph since lack of data)
 						}),

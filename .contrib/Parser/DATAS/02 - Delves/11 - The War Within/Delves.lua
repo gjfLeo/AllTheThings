@@ -986,6 +986,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(232848, {	-- Mr. DELVER (PET!)
 				["timeline"] = { ADDED_11_1_0 },
 			}),
+			i(223624),	-- Sneef (PET!)
 			i(225337),	-- Violet Sporbit (PET!)
 		}),
 		filter(TOYS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
@@ -2528,9 +2529,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 			}),
 			n(DELVE_COMPLETION, {
-				filter(BATTLE_PETS, {
-					i(223624),	-- Sneef (PET!)
-				}),
 				n(TREASURES, {
 					filter(COSMETIC, {
 						i(212168),	-- Cinderbee Wax Candle Hat
@@ -2667,7 +2665,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
 					filter(BATTLE_PETS, {
-						i(223624),	-- Sneef (PET!)
 						i(221496),	-- Wriggle (PET!)
 					}),
 					filter(COSMETIC, {
@@ -3125,6 +3122,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					filter(COSMETIC, {
 						i(212166),	-- Coral Nautic Helm
 						i(212165),	-- Deep Nautic Helm
+						i(225067),	-- Shadowlit Haversack
 						i(212164),	-- Shallow Nautic Helm
 					}),
 				}),
@@ -3319,9 +3317,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(223624),	-- Sneef (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212168),	-- Cinderbee Wax Candle Hat
 						i(212169),	-- Mint-Scented Candle Hat

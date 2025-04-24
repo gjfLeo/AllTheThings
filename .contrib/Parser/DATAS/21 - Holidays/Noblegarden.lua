@@ -635,7 +635,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 			["isYearly"] = true,
 		}),
 		q(13480, {	-- The Great Egg Hunt (A)
-			["qg"] = 32799,	-- Spring Collector
+			["qgs"] = {
+				32799,	-- Spring Collector
+				-- #if AFTER TWW
+				215033,	-- Spring Sorter
+				-- #endif
+			},
 			["sourceQuests"] = {
 				13484,	-- Spring Gathers (A)
 				-- #if AFTER DF
@@ -648,6 +653,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				{ 55.59, 51.36, TELDRASSIL },	-- Dolanaar
 				{ 42.98, 65.40, ELWYNN_FOREST },	-- Goldshire
 				{ 53.99, 50.70, DUN_MOROGH },	-- Kharanos
+				-- #IF AFTER TWW
+				{ 46.0, 54.9, DORNOGAL },	-- Dornogal
+				-- #ENDIF
 				-- #else
 				{ 48.9, 50.0, AZUREMYST_ISLE },	-- Azure Watch, Azuremyst Isle
 				{ 55.9, 58.8, TELDRASSIL },	-- Dolanaar
