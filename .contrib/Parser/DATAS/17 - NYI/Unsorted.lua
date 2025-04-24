@@ -123,95 +123,24 @@ root(ROOTS.Unsorted, {
 				i(241036),	-- Arathi Anointer's Wand
 			}),
 			n(SPECIAL, {	-- Mysterious???
-				i(235052),	-- Weathered Mysterious Satchel
-				i(235054),	-- Pristine Mysterious Satchel
 				i(235631),	-- [NOT USED] Mysterious Large Satchel of Goodies
 				i(235798),	-- Diluted Potion of Celerity
-				i(235803),	-- Potion of Mysterious Celerity
 				i(235804),	-- Concentrated Potion of Celerity
 				i(235815),	-- Diluted Potion of Swiftstrike
-				i(235816),	-- Potion of Mysterious Swiftstrike
 				i(235817),	-- Concentrated Potion of Swiftstrike
 				i(235837),	-- Concentrated Potion of Tenacity
-				i(235838),	-- Potion of Mysterious Tenacity
 				i(235839),	-- Diluted Potion of Tenacity
 				i(235842),	-- Diluted Potion of Revivification
-				i(235843),	-- Potion of Mysterious Revivification
 				i(235844),	-- Concentrated Potion of Revivification
-				i(235911),	-- Weathered Mysterious Satchel
-				i(235922),	-- Mysterious Shield
-				i(235923),	-- Mysterious Lantern
-				i(235924),	-- Mysterious Drill-Tipped Stave
-				i(235925),	-- Mysterious Beacon Staff
-				i(235926),	-- Mysterious Polearm
-				i(235927),	-- Mysterious Spade
-				i(235928),	-- Mysterious Waraxe
-				i(235929),	-- Mysterious Torch
-				i(235930),	-- Mysterious Sharpshooter
-				i(235931),	-- Mysterious Sword
-				i(235932),	-- Mysterious Blade
-				i(235933),	-- Mysterious Hammer
-				i(235934),	-- Mysterious Pummeler
-				i(235935),	-- Mysterious Ritual Knife
-				i(235936),	-- Mysterious Shank
-				i(235937),	-- Mysterious Cleaver
-				i(235938),	-- Mysterious Hatchet
-				i(235939),	-- Mysterious Chisel
-				i(235940),	-- Mysterious Spellblade
-				i(235941),	-- Mysterious Bolthrower
-				i(235942),	-- Mysterious Cuffs
-				i(235943),	-- Mysterious Cord
-				i(235944),	-- Mysterious Shoulderpads
-				i(235945),	-- Mysterious Leggings
-				i(235946),	-- Mysterious Cowl
-				i(235947),	-- Mysterious Handwraps
-				i(235948),	-- Mysterious Sandals
-				i(235949),	-- Mysterious Robes
-				i(235950),	-- Mysterious Bindings
-				i(235951),	-- Mysterious Sash
-				i(235952),	-- Mysterious Epaulets
-				i(235953),	-- Mysterious Pants
-				i(235954),	-- Mysterious Headgear
-				i(235955),	-- Mysterious Gloves
-				i(235956),	-- Mysterious Boots
-				i(235957),	-- Mysterious Vest
-				i(235958),	-- Mysterious Bracers
-				i(235959),	-- Mysterious Belt
-				i(235960),	-- Mysterious Shoulderguards
-				i(235961),	-- Mysterious Greaves
-				i(235962),	-- Mysterious Coif
-				i(235963),	-- Mysterious Grips
-				i(235964),	-- Mysterious Striders
-				i(235965),	-- Mysterious Chainmail
-				i(235966),	-- Mysterious Vambraces
-				i(235967),	-- Mysterious Girdle
-				i(235968),	-- Mysterious Pauldrons
-				i(235969),	-- Mysterious Helm
-				i(235970),	-- Mysterious Legguards
-				i(235971),	-- Mysterious Gauntlets
-				i(235972),	-- Mysterious Sabatons
-				i(235973),	-- Mysterious Breastplate
-				i(235974),	-- Mysterious Cloak
-				i(235975),	-- Mysterious Shawl
-				i(235976),	-- Mysterious Pendant
-				i(235977),	-- Mysterious Ring
-				i(235978),	-- Mysterious Signet
-				i(235979),	-- Mysterious Band
-				i(236854),	-- Potion of Mysterious Conflagration
-				i(236856),	-- Potion of Mysterious Systemshock
-				i(236857),	-- Potion of Mysterious Frostbound
-				i(236870),	-- Potion of Mysterious Tremorshards
 				i(236939),	-- [DNT] TEST
 				i(236940),	-- [NOT USED] Mysterious Outfitters Satchel
 				i(236941),	-- [NOT USED] Mysterious Accessories Satchel
 				i(236942),	-- [NOT USED] Mysterious Outfitters Satchel
 				i(236943),	-- [NOT USED] Mysterious Accessories Satchel
-				i(236944),	-- Weathered Mysterious Satchel
 				i(236945),	-- [NOT USED] Mysterious Outfitters Satchel
 				i(236946),	-- [NOT USED] Mysterious Accessories Satchel
 				i(236958),	-- [NOT USED] Empty Mysterious Potion
 				i(236959),	-- Empty Mysterious Potion
-				i(239142),	-- Bottle of Mysterious Wisdom
 			}),
 			filter(BATTLE_PETS, {
 				i(236409),	-- Frumpy Softpaw
@@ -356,7 +285,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(238896),	-- Macho's Magnificent "Fish" Tacos
-				i(240995),	-- Fortuitous Satchel
 				i(241616),	-- The Underpin
 			}),
 			filter(MOUNTS, {
