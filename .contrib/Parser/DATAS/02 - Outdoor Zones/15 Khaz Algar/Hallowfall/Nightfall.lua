@@ -72,6 +72,82 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					}),
 				})),
 				n(RARES, {
+					n(COMMON_BOSS_DROPS, {
+						["crs"] = {
+							241227, -- Dissenter Glaivefur
+							241228, -- Dissenter Oathland
+							241229, -- Dissenter Fervormyt
+							241230, -- Dissenter Tailtrek
+							241231, -- Dissenter Fortfervor
+							241232, -- Dissenter Troosilver
+							241234, -- Whisperer Batalsworn
+							241235, -- Whisperer Hillhelm
+							241236, -- Whisperer Bravefort
+							241237, -- Whisperer Warsididel
+							241238, -- Whisperer Siegesage
+							241239, -- Whisperer Warhavuk
+						},
+						["sym"] = {{"select","itemID",
+							237471, -- Band of the Voidmancer
+							237474, -- Cult Former's Charm
+							237473, -- Dark Bargainer's Chain
+							237495, -- Excerpt on Dark Summons
+							237435, -- Nightfall Darkcaster's Cloak
+							237436, -- Nightfall Darkcaster's Vestment
+							237437, -- Nightfall Darkcaster's Sandals
+							237438, -- Nightfall Darkcaster's Handwraps
+							237439, -- Nightfall Darkcaster's Cowl
+							237440, -- Nightfall Darkcaster's Leggings
+							237441, -- Nightfall Darkcaster's Mantle
+							237442, -- Nightfall Darkcaster's Cord
+							237443, -- Nightfall Darkcaster's Cuffs
+							237444, -- Nightfall Curseblade's Cape
+							237445, -- Nightfall Curseblade's Vest
+							237446, -- Nightfall Curseblade's Waders
+							237447, -- Nightfall Curseblade's Grips
+							237448, -- Nightfall Curseblade's Breeches
+							237449, -- Nightfall Curseblade's Shoulderpads
+							237450, -- Nightfall Curseblade's Sash
+							237451, -- Nightfall Curseblade's Bindings
+							237452, -- Nightfall Shadowstalker's Shawl
+							237453, -- Nightfall Shadowstalker's Chainmail
+							237454, -- Nightfall Shadowstalker's Striders
+							237455, -- Nightfall Shadowstalker's Grips
+							237456, -- Nightfall Shadowstalker's Coif
+							237457, -- Nightfall Shadowstalker's Greaves
+							237458, -- Nightfall Shadowstalker's Shoulderguards
+							237459, -- Nightfall Shadowstalker's Cinch
+							237460, -- Nightfall Shadowstalker's Bracers
+							237461, -- Nightfall Executioner's Drape
+							237462, -- Nightfall Executioner's Breastplate
+							237463, -- Nightfall Executioner's Sabatons
+							237464, -- Nightfall Executioner's Gauntlets
+							237465, -- Nightfall Executioner's Helm
+							237466, -- Nightfall Executioner's Legguards
+							237467, -- Nightfall Executioner's Mantle
+							237468, -- Nightfall Executioner's Girdle
+							237469, -- Nightfall Executioner's Armplates
+							237470, -- Nightfall Curseblade's Cape
+							237775, -- Nightfall Curseblade's Cleaver
+							237776, -- Nightfall Executioner's Halberd
+							237777, -- Nightfall Shadowalker's Bulwark
+							237778, -- Nightfall Executioner's Greatsword
+							237779, -- Nightfall Darkcaster's Gavel
+							237780, -- Nightfall Curseblade's Cudgel
+							237781, -- Nightfall Shadowalker's Dagger
+							237782, -- Nightfall Curseblade's Knife
+							237783, -- Nightfall Darkcaster's Greatstaff
+							237784, -- Nightfall Shadowalker's Rod
+							237785, -- Nightfall Darkcaster's Implement
+							237786, -- Nightfall Curseblade's Blunderbuss
+							237787, -- Nightfall Darkcaster's Kris
+							237788, -- Nightfall Shadowalker's Shotgun
+							237789, -- Nightfall Curseblade's Warglaive
+							237790, -- Nightfall Darkcaster's Wand
+							237472, -- Seal of Cosmic Embrace
+							225693, -- Shadowed Essence (Hallowfall zone treasure)
+						}},
+					}),
 					-- AZJ'KAHET
 					-- Rak-Zakaz
 					o(527416, {	-- Suspicious Document (Dissenter Oathland/Whisperer Warsididel)
@@ -165,11 +241,74 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 						i(241007),	-- Mereldar Blacksmithing Hammer (COSMETIC!)
 					}),
 					i(237759, {	-- Arathi Cleric's Chest (Rare) just weapons?
-						i(241036),	-- Arathi Anointer's Wand
-						i(241035),	-- Arathi Soldier's Morningstar
-						i(241033),	-- Arathi Templar's Claymore
+						i(237795), -- Arathi Abbot's Gavel
+						i(237799), -- Arathi Abbot's Greatstaff
+						i(237801), -- Arathi Abbot's Implement
+						i(237803), -- Arathi Abbot's Kris
+						i(237806), -- Arathi Abbot's Wand
+						i(241036), -- Arathi Anointer's Wand
+						i(237800), -- Arathi Cleric's Rod
+						i(237802), -- Arathi Cleric's Blunderbuss
+						i(237792), -- Arathi Crusader's Halberd
+						i(237793), -- Arathi Crusader's Bulwark
+						i(237794), -- Arathi Crusader's Greatsword
+						i(241035), -- Arathi Soldier's Morningstar
+						i(241033), -- Arathi Templar's Claymore
+						i(237791), -- Arathi Zealot's Cleaver
+						i(237796), -- Arathi Zealot's Cudgel
+						i(237797), -- Arathi Zealot's Dagger
+						i(237798), -- Arathi Zealot's Knife
+						i(237804), -- Arathi Zealot's Shotgun
+						i(237805), -- Arathi Zealot's Warglaive
 					}),
-					i(237760),	-- Arathi Champion's Spoils (Epic) just vendor armor?
+					i(237760, {	-- Arathi Champion's Spoils (Epic) just vendor armor?
+						i(225647),	-- Shining Arathor Insignia (TWW zone reward)
+						i(238391),	-- Arathi Minister's Receptacle
+						i(237494),	-- Hallowed Tome of the Abbot
+						i(237430),	-- Consecrated Seal
+						-- 3
+						i(237431),	-- Divine Loop of the Crusader
+						i(237432),	-- Clergyman's Anointed Pendant
+						i(237394),	-- Arathi Abbot's Cloak
+						i(237395),	-- Arathi Abbot's Vestment
+						i(237396),	-- Arathi Abbot's Sandals
+						i(237397),	-- Arathi Abbot's Handwraps
+						i(237398),	-- Arathi Abbot's Cowl
+						i(237399),	-- Arathi Abbot's Leggings
+						i(237400),	-- Arathi Abbot's Mantle
+						i(237401),	-- Arathi Abbot's Cord
+						-- 4
+						i(237402),	-- Arathi Abbot's Cuffs
+						i(237403),	-- Arathi Zealot's Cape
+						i(237404),	-- Arathi Zealot's Vest
+						i(237405),	-- Arathi Zealot's Waders
+						i(237406),	-- Arathi Zealot's Grips
+						i(237429),	-- Arathi Zealot's Cape
+						i(237407),	-- Arathi Zealot's Breeches
+						i(237408),	-- Arathi Zealot's Shoulderpads
+						i(237409),	-- Arathi Zealot's Sash
+						i(237410),	-- Arathi Zealot's Bindings
+						-- 5
+						i(237411),	-- Arathi Cleric's Shawl
+						i(237412),	-- Arathi Cleric's Chainmail
+						i(237413),	-- Arathi Cleric's Striders
+						i(237414),	-- Arathi Cleric's Grips
+						i(237415),	-- Arathi Cleric's Coif
+						i(237416),	-- Arathi Cleric's Greaves
+						i(237417),	-- Arathi Cleric's Shoulderguards
+						i(237418),	-- Arathi Cleric's Cinch
+						i(237419),	-- Arathi Cleric's Bracers
+						i(237420),	-- Arathi Crusader's Drape
+						-- 6
+						i(237421),	-- Arathi Crusader's Breastplate
+						i(237422),	-- Arathi Crusader's Sabatons
+						i(237423),	-- Arathi Crusader's Gauntlets
+						i(237424),	-- Arathi Crusader's Helm
+						i(237425),	-- Arathi Crusader's Legguards
+						i(237426),	-- Arathi Crusader's Mantle
+						i(237427),	-- Arathi Crusader's Girdle
+						i(237428),	-- Arathi Crusader's Armplates
+					}),
 					-- Crafting reagent?
 					i(238407),	-- Black Blood Residue
 					-- Bosses, they share vendor stuff but with veteran rank
@@ -195,15 +334,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					i(237449),	-- Nightfall Curseblade's Shoulderpads
 					i(237450),	-- Nightfall Curseblade's Sash
 					i(237451),	-- Nightfall Curseblade's Bindings
-					i(237452),	-- Nightfall Shadowalker's Shawl
-					i(237453),	-- Nightfall Shadowalker's Chainmail
-					i(237454),	-- Nightfall Shadowalker's Striders
-					i(237455),	-- Nightfall Shadowalker's Grips
-					i(237456),	-- Nightfall Shadowalker's Coif
-					i(237457),	-- Nightfall Shadowalker's Greaves
-					i(237458),	-- Nightfall Shadowalker's Shoulderguards
-					i(237459),	-- Nightfall Shadowalker's Cinch
-					i(237460),	-- Nightfall Shadowalker's Bracers
+					i(237452),	-- Nightfall Shadowstalker's Shawl
+					i(237453),	-- Nightfall Shadowstalker's Chainmail
+					i(237454),	-- Nightfall Shadowstalker's Striders
+					i(237455),	-- Nightfall Shadowstalker's Grips
+					i(237456),	-- Nightfall Shadowstalker's Coif
+					i(237457),	-- Nightfall Shadowstalker's Greaves
+					i(237458),	-- Nightfall Shadowstalker's Shoulderguards
+					i(237459),	-- Nightfall Shadowstalker's Cinch
+					i(237460),	-- Nightfall Shadowstalker's Bracers
 					i(237461),	-- Nightfall Executioner's Drape
 					i(237462),	-- Nightfall Executioner's Breastplate
 					i(237463),	-- Nightfall Executioner's Sabatons
