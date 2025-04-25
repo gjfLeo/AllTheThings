@@ -93,6 +93,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 					i(236856),	-- Potion of Mysterious Systemshock
 					i(235838),	-- Potion of Mysterious Tenacity
 					i(236870),	-- Potion of Mysterious Tremorshards
+					i(242711),	-- Pungent Truffle
 				}),
 				n(WEAPONS, {
 					i(235925),	-- Mysterious Beacon Staff

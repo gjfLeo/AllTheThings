@@ -279,7 +279,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 									["g"] = {
 										i(237134, {	-- Steamwheedle Trove (Paragon)
 											i(234741),	-- Miscellaneous Mechanica
-											mount(466014),		-- Steamwheedle Supplier (MOUNT!)
+											i(229943),	-- Steamwheedle Supplier (MOUNT!)
 										}),
 									},
 								}),
@@ -505,7 +505,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										}),
 									},
 								}),
-							}),							
+							}),
 						}),
 						header(HEADERS.Faction, FACTION_TWW_BLACKWATER_CARTEL, {
 							n(231405, {	-- Boatswain Hardee <Blackwater Quartermaster>
@@ -543,7 +543,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										}),
 									},
 								}),
-							}),							
+							}),
 						}),
 						header(HEADERS.Faction, FACTION_TWW_STEAMWHEEDLE_CARTEL, {
 							n(231408, {	-- Lab Assistant Laszly <Steamwheedle Quartermaster>
@@ -581,7 +581,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										}),
 									},
 								}),
-							}),						
+							}),
 						}),
 						header(HEADERS.Faction, FACTION_TWW_VENTURE_CO, {
 							n(231407, {	-- Shredz the Scrapper <Venture Quartermaster>
@@ -619,7 +619,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 										}),
 									},
 								}),
-							}),					
+							}),
 						}),
 					}),
 				}),

@@ -330,7 +330,6 @@ root(ROOTS.Unsorted, {
 				i(241235),	-- Painted Wooden Sword
 				i(241236),	-- Painted Wooden Dagger
 			}),
-			i(242711),	-- Pungent Truffle
 			i(237508),	-- Can of Amps
 			i(237509),	-- Bottle of Invisibility
 			i(237510),	-- Goblet
@@ -341,7 +340,6 @@ root(ROOTS.Unsorted, {
 			i(240202),	-- Podium Upgrade: Most Yards Traveled
 			i(243245),	-- Gears Grabbed
 			i(243249),	-- Khaz Algar Adventurer Pack \\ Khaz Algar Gift Pack
-			i(239563),	-- Shadowbound Leash
 		})),
 		expansion(EXPANSION.TWW, patch(1,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 			n(ARMOR, {
