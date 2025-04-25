@@ -81,10 +81,13 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 					}),
 				}),
 				filter(MISC, {
+					i(198442),	-- Bogthwottle's Shrinky-Do
 					i(239142),	-- Bottle of Mysterious Wisdom
 					i(235701),	-- Decaying Mecha-Scrapper Construction Kit
 					i(236959),	-- Empty Mysterious Potion
+					i(170177),	-- Exposed Fish
 					i(240995),	-- Fortuitous Satchel
+					i(225378),	-- Mohawk Grenade
 					i(235803),	-- Potion of Mysterious Celerity
 					i(236854),	-- Potion of Mysterious Conflagration
 					i(236857),	-- Potion of Mysterious Frostbound
@@ -94,6 +97,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 					i(235838),	-- Potion of Mysterious Tenacity
 					i(236870),	-- Potion of Mysterious Tremorshards
 					i(242711),	-- Pungent Truffle
+					i(200897),	-- Venrik's Goat Milk
 				}),
 				n(WEAPONS, {
 					i(235925),	-- Mysterious Beacon Staff
