@@ -10,9 +10,9 @@ NIGHTFALL = createHeader({
 });
 
 local RADIANT_EMBLEM = 238920;
-root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(HALLOWFALL, {
-		n(NIGHTFALL, {
+		n(NIGHTFALL, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 			["g"] = {
 				n(ACHIEVEMENTS, {
 					ach(41999),	-- Fighter of the Nightman
@@ -615,14 +615,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					}),
 				}),
 			},
-		}),
+		})),
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(KHAZ_ALGAR, {
 		m(HALLOWFALL, {
-			n(NIGHTFALL, {
+			n(NIGHTFALL, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 				q(90105, {["isDaily"]=true}),	-- Bonus reputaion per day for 1st event when you filled progress bar
 				-- after opening Arathi Champion's Spoils (237760) per slot as was for Siren Islands?
 				-- seems like one per Arathi XX set and one per Nightfall XX set?
@@ -669,7 +669,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				--q(),	--
 				q(91150),	--	Daily Rep Flame Radiance for killing Dissenter Oathland (Ajz Kahet)
 				q(91165),	--	Daily Rep Flame Radiance for killing Webspeaker Grik Ik (Ajz Kahet)
-			}),
+			})),
 		}),
 	}),
 })));

@@ -1,34 +1,34 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(HALLOWFALL, {
-		n(FLAMES_RADIANCE, {
-			["g"] = bubbleDownRep(FACTION_FLAMES_RADIANCE, { -- Blizzard changed their mind on most of the titles I guess
-				{		-- RENOWN 1 --
-					--title(619),	-- Recruit <Name>
-				}, {	-- RENOWN 2 --
-					--title(620),	-- Reservist <Name>
-				}, {	-- RENOWN 3 --
-					title(622),	-- Sentry <Name>
-				}, {	-- RENOWN 4 --
-					--title(621),	-- Field Sacredite <Name>
-				}, {	-- RENOWN 5 --
-					--title(623),	-- Stalwart <Name>
-				}, {	-- RENOWN 6 --
-					--title(624),	-- Ardent <Name>
-				}, {	-- RENOWN 7 --
-					--title(625),	-- Aeroknight <Name>
-				}, {	-- RENOWN 8 --
-					--title(626),	-- Flame Guard <Name>
-				}, {	-- RENOWN 9 --
-					--title(627),	-- Radiant Officer <Name>
-				}, {	-- RENOWN 10 --
-					title(628),	-- Sacred Templar <Name>
-				},
+		header(HEADERS.Faction, FACTION_FLAMES_RADIANCE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+			n(FACTIONS, {
+				["g"] = bubbleDownRep(FACTION_FLAMES_RADIANCE, { -- Blizzard changed their mind on most of the titles I guess
+					{		-- RENOWN 1 --
+						--title(619),	-- Recruit <Name>
+					}, {	-- RENOWN 2 --
+						--title(620),	-- Reservist <Name>
+					}, {	-- RENOWN 3 --
+						title(622),	-- Sentry <Name>
+					}, {	-- RENOWN 4 --
+						--title(621),	-- Field Sacredite <Name>
+					}, {	-- RENOWN 5 --
+						--title(623),	-- Stalwart <Name>
+					}, {	-- RENOWN 6 --
+						--title(624),	-- Ardent <Name>
+					}, {	-- RENOWN 7 --
+						--title(625),	-- Aeroknight <Name>
+					}, {	-- RENOWN 8 --
+						--title(626),	-- Flame Guard <Name>
+					}, {	-- RENOWN 9 --
+						--title(627),	-- Radiant Officer <Name>
+					}, {	-- RENOWN 10 --
+						title(628),	-- Sacred Templar <Name>
+					},
+				}),
 			}),
-		}),
-		n(FLAMES_RADIANCE, {
 			n(QUESTS, bubbleDownRep(FACTION_FLAMES_RADIANCE, {
 				{		-- RENOWN 1 --
 					q(89493, {	-- Welcome to the Field
@@ -117,6 +117,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 }
 					}),
 				}),
 			}),
-		}),
+		})),
 	}),
 })));
