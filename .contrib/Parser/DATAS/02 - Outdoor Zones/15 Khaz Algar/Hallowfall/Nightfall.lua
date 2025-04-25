@@ -251,6 +251,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								i(237444),	-- Nightfall Curseblade's Cape
 								i(237452),	-- Nightfall Shadowstalker's Shawl
 								i(237461),	-- Nightfall Executioner's Drape
+							}),
 							filter(FINGER_F, {
 								i(237471),	-- Band of the Voidmancer
 								i(237472),	-- Seal of Cosmic Embrace
