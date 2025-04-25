@@ -2805,8 +2805,9 @@ function app:GetDataCache()
 
 	-- Create Dynamic Groups Button
 	tinsert(g, app.CreateRawText(L.CLICK_TO_CREATE_FORMAT:format(L.SETTINGS_MENU.DYNAMIC_CATEGORY_LABEL), {
-		["icon"] = app.asset("Interface_CreateDynamic"),
-		["OnUpdate"] = app.AlwaysShowUpdate,
+		icon = app.asset("Interface_CreateDynamic"),
+		OnUpdate = app.AlwaysShowUpdate,
+		sourceIgnored = true,
 		-- ["OnClick"] = function(row, button)
 			-- could implement logic to auto-populate all dynamic groups like before... will see if people complain about individual generation
 		-- end,
