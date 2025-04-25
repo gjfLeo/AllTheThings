@@ -1941,7 +1941,6 @@ namespace ATT
                 return;
 
             data.TryGetValue("achID", out long achID);
-
             // Grab AchievementDB info
             ACHIEVEMENTS.TryGetValue(achID, out IDictionary<string, object> achInfo);
             IDictionary<string, object> matchedCriteriaInfo = null;
@@ -3056,8 +3055,12 @@ namespace ATT
                             {
                                 // ignored criteria which are being assigned a questID can be assigned as NYI so
                                 // that when triggered they can be associated with the proper activity
-                                data["u"] = 1;
-                                LogDebugWarn($"Criteria {achID}:{criteriaID} is ignored in UI and marked NYI to trigger reporting of proper Source", data);
+                                // assign NYI only if there are not additional _quests
+                                if (questObjs.Count == 1)
+                                {
+                                    data["u"] = 1;
+                                    LogDebugWarn($"Criteria {achID}:{criteriaID} is ignored in UI and marked NYI to trigger reporting of proper Source", data);
+                                }
                             }
                         }
                         else if (questRefs.All(d => d.ContainsKey("_unsorted")))
