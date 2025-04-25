@@ -667,8 +667,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88887),	--
 				--q(),	--
 				--q(),	--
-				--q(),	--
-				--q(),	--
+				q(91150),	--	Daily Rep Flame Radiance for killing Dissenter Oathland (Ajz Kahet)
+				q(91165),	--	Daily Rep Flame Radiance for killing Webspeaker Grik Ik (Ajz Kahet)
 			}),
 		}),
 	}),
