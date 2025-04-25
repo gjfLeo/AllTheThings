@@ -10,12 +10,12 @@ local _, app = ...;
 -- Miscellaneous
 
 -- Global locals
-local floor, 	  type, tonumber, ipairs, pairs,wipe
-	= math.floor, type, tonumber, ipairs, pairs,wipe
+local floor, 	  type, tonumber,pairs,wipe
+	= math.floor, type, tonumber,pairs,wipe
 
 -- App locals
-local SearchForObject, GetRelativeValue
-	= app.SearchForObject, app.GetRelativeValue
+local SearchForObject, GetRelativeRawWithField
+	= app.SearchForObject, app.GetRelativeRawWithField
 
 -- Upgrade API Implementation
 -- Access via AllTheThings.Modules.Search
@@ -199,8 +199,6 @@ local SearchGroups = {};
 local DropFields = {}
 -- A set of Criteria functions which must all be valid for each search result to be included in the response
 local __SearchCriteria = {
-	-- Include only non-sourceIgnored groups
-	function(o) return not o.sourceIgnored end,
 	-- Include unavailable Recipes or any content which is not a Recipe or meets the BoE filter
 	function(o) return IncludeUnavailableRecipes or not o.spellID or IgnoreBoEFilter(o) end,
 }
@@ -208,9 +206,7 @@ local SearchCriteria = {}
 -- A set of Criteria functions which must all be valid for each search result to be included in the response
 local __SearchValueCriteria = {
 	-- Include if the field of the group matches the desired value
-	function(o, field, value)
-		return o[field] == value
-	end
+	function(o, field, value) return o[field] == value end,
 }
 local SearchValueCriteria = {}
 -- A set of Criteria functions which must all be valid for each search result to be included in the response
@@ -222,67 +218,56 @@ local __ParentInclusionCriteria = {
 			-- app.PrintDebug("Don't capture non-parented",group.text)
 			return
 		end
-		if parent.sourceIgnored then
-			-- app.PrintDebug("Don't capture SourceIgnored",group.text)
+		if GetRelativeRawWithField(parent, "sourceIgnored") then
+			-- app.PrintDebug("Don't capture SourceIgnored",parent.text)
 			return
 		end
-		if GetRelativeValue(parent, "_nosearch") then
-			-- app.PrintDebug("Don't capture _nosearch",group.text)
+		if GetRelativeRawWithField(parent, "_nosearch") then
+			-- app.PrintDebug("Don't capture _nosearch",parent.text)
 			return
 		end
 		return true
 	end
 }
 local ParentInclusionCriteria = {}
-local function ResetCriterias(criteria)
-	wipe(SearchCriteria)
-	wipe(SearchValueCriteria)
-	wipe(ParentInclusionCriteria)
-	if criteria and criteria.SearchCriteria then
-		for _,f in ipairs(criteria.SearchCriteria) do
-			SearchCriteria[#SearchCriteria + 1] = f
-		end
-	else
-		for _,f in ipairs(__SearchCriteria) do
-			SearchCriteria[#SearchCriteria + 1] = f
-		end
-	end
-	if criteria and criteria.SearchValueCriteria then
-		for _,f in ipairs(criteria.SearchValueCriteria) do
-			SearchValueCriteria[#SearchValueCriteria + 1] = f
-		end
-	else
-		for _,f in ipairs(__SearchValueCriteria) do
-			SearchValueCriteria[#SearchValueCriteria + 1] = f
-		end
-	end
-	if criteria and criteria.ParentInclusionCriteria then
-		for _,f in ipairs(criteria.ParentInclusionCriteria) do
-			ParentInclusionCriteria[#ParentInclusionCriteria + 1] = f
-		end
-	else
-		for _,f in ipairs(__ParentInclusionCriteria) do
-			ParentInclusionCriteria[#ParentInclusionCriteria + 1] = f
-		end
-	end
-end
-local function Eval_SearchCriteria(o)
+local Eval_SearchCriteria,Eval_SearchValueCriteria,Eval_ParentInclusionCriteria
+local function __Eval_SearchCriteria(o)
 	for i=1,#SearchCriteria do
 		if not SearchCriteria[i](o) then return end
 	end
 	return true
 end
-local function Eval_SearchValueCriteria(o, field, value)
+local function __Eval_SearchValueCriteria(o, field, value)
 	for i=1,#SearchValueCriteria do
 		if not SearchValueCriteria[i](o, field, value) then return end
 	end
 	return true
 end
-local function Eval_ParentInclusionCriteria(o)
+local function __Eval_ParentInclusionCriteria(o)
 	for i=1,#ParentInclusionCriteria do
 		if not ParentInclusionCriteria[i](o) then return end
 	end
 	return true
+end
+local function ResetCriterias(criteria)
+	wipe(SearchCriteria)
+	wipe(SearchValueCriteria)
+	wipe(ParentInclusionCriteria)
+	local sc = criteria and criteria.SearchCriteria or __SearchCriteria
+	for i=1,#sc do
+		SearchCriteria[#SearchCriteria + 1] = sc[i]
+	end
+	local svc = criteria and criteria.SearchValueCriteria or __SearchValueCriteria
+	for i=1,#svc do
+		SearchValueCriteria[#SearchValueCriteria + 1] = svc[i]
+	end
+	local pic = criteria and criteria.ParentInclusionCriteria or __ParentInclusionCriteria
+	for i=1,#pic do
+		ParentInclusionCriteria[#ParentInclusionCriteria + 1] = pic[i]
+	end
+	Eval_SearchCriteria = #SearchCriteria > 0 and __Eval_SearchCriteria or app.ReturnTrue
+	Eval_SearchValueCriteria = #SearchValueCriteria > 0 and __Eval_SearchValueCriteria or app.ReturnTrue
+	Eval_ParentInclusionCriteria = #ParentInclusionCriteria > 0 and __Eval_ParentInclusionCriteria or app.ReturnTrue
 end
 -- Wraps a given object such that it can act as an unfiltered Header of the base group
 local function CloneGroupIntoHeirarchy(group)
@@ -332,10 +317,12 @@ end
 -- Builds ClonedHierarchyGroups from an array of Sourced groups
 local function BuildClonedHierarchy(sources)
 	-- app.PrintDebug("BSR:Sourced",sources and #sources)
-	if not sources then return end
+	if not sources or #sources == 0 then return end
 	local parent, thing;
 	-- for each source of each Thing with the value
-	for _,source in ipairs(sources) do
+	local source
+	for i=1,#sources do
+		source = sources[i]
 		if Eval_SearchCriteria(source) then
 			-- find/clone the expected parent group in hierachy
 			parent = MatchOrCloneParentInHierarchy(source.parent);
@@ -356,25 +343,27 @@ local function BuildClonedHierarchy(sources)
 end
 -- Recursively collects all groups which have the specified field existing
 local function AddSearchGroupsByField(groups, field)
-	if groups then
-		for _,group in ipairs(groups) do
-			if group[field] ~= nil then
-				SearchGroups[#SearchGroups + 1] = group
-			else
-				AddSearchGroupsByField(group.g, field);
-			end
+	if not groups then return end
+	local group
+	for i=1,#groups do
+		group = groups[i]
+		if group[field] ~= nil then
+			SearchGroups[#SearchGroups + 1] = group
+		else
+			AddSearchGroupsByField(group.g, field);
 		end
 	end
 end
 -- Recursively collects all groups which have the specified field=value
 local function AddSearchGroupsByFieldValue(groups, field, value)
-	if groups then
-		for _,group in ipairs(groups) do
-			if Eval_SearchValueCriteria(group, field, value) then
-				SearchGroups[#SearchGroups + 1] = group
-			else
-				AddSearchGroupsByFieldValue(group.g, field, value);
-			end
+	if not groups then return end
+	local group
+	for i=1,#groups do
+		group = groups[i]
+		if Eval_SearchValueCriteria(group, field, value) then
+			SearchGroups[#SearchGroups + 1] = group
+		else
+			AddSearchGroupsByFieldValue(group.g, field, value);
 		end
 	end
 end
@@ -402,10 +391,11 @@ end
 -- should additionally clear their contents when being cloned
 function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
 	if not groups then return end
-	if groups.g then groups = groups.g end
-	if #groups == 0 then app.PrintDebug("BuildTargettedSearchResponse.FAIL - No groups available") return end
 	MainRoot = app:GetDataCache()
 	if not MainRoot then app.PrintDebug("BuildTargettedSearchResponse.FAIL - No MainRoot available") return end
+	local UseCached = groups == MainRoot
+	if groups.g then groups = groups.g end
+	if #groups == 0 then app.PrintDebug("BuildTargettedSearchResponse.FAIL - No groups available") return end
 	-- make sure each set of search results goes into a new container
 	-- otherwise two searches within the same window will replace the first set
 	ClonedHierarchyGroups = {}
@@ -429,7 +419,7 @@ function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
 	-- app.PrintTable(SearchCriteria)
 	-- app.PrintTable(SearchValueCriteria)
 	-- can only do cache searches if there isn't custom criteria provided if we are actually searching MainRoot
-	local cacheContainer = not criteria and groups == MainRoot and app.GetRawFieldContainer(field);
+	local cacheContainer = not criteria and UseCached and app.GetRawFieldContainer(field)
 	if cacheContainer then
 		BuildSearchResponseViaCacheContainer(cacheContainer, value);
 	elseif value ~= nil then
@@ -438,10 +428,12 @@ function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
 			value = nil;
 		end
 		-- app.PrintDebug("BSR:FieldValue",#groups,field,value)
+		-- TODO: potentially do a first pass ignore of top-level groups to exclude entire categories
 		AddSearchGroupsByFieldValue(groups, field, value);
 		BuildClonedHierarchy(SearchGroups);
 	else
 		-- app.PrintDebug("BSR:Field",#groups,field)
+		-- TODO: potentially do a first pass ignore of top-level groups to exclude entire categories
 		AddSearchGroupsByField(groups, field);
 		BuildClonedHierarchy(SearchGroups);
 	end
