@@ -298,95 +298,128 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 								i(237474),	-- Cult Former's Charm
 							},
 					}),
-					-- Caches from progress bar, may have shared loot?
-					i(237743, {	-- Arathi Soldier's Coffer (Uncommon) just cosmetics?
-						["description"] = "Granted for achieving 33% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
+					i(237743, {	-- Arathi Soldier's Coffer (Uncommon) Only Green Cosmetics
+						["description"] = "Granted for achieving 100% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
 						["groups"] = {
 							i(241019),	-- Arathi Camper's Knife (COSMETIC!)
 							i(241016),	-- Arathi Lancer's Polearm (COSMETIC!)
 							i(241007),	-- Mereldar Blacksmithing Hammer (COSMETIC!)
 						},
 					}),
-					i(237759, {	-- Arathi Cleric's Chest (Rare) just weapons?
-						["description"] = "Granted for achieving 66% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
-						["groups"] = {
-							i(237795), -- Arathi Abbot's Gavel
-							i(237799), -- Arathi Abbot's Greatstaff
-							i(237801), -- Arathi Abbot's Implement
-							i(237803), -- Arathi Abbot's Kris
-							i(237806), -- Arathi Abbot's Wand
-							i(241036), -- Arathi Anointer's Wand
-							i(237800), -- Arathi Cleric's Rod
-							i(237802), -- Arathi Cleric's Blunderbuss
-							i(237792), -- Arathi Crusader's Halberd
-							i(237793), -- Arathi Crusader's Bulwark
-							i(237794), -- Arathi Crusader's Greatsword
-							i(241035), -- Arathi Soldier's Morningstar
-							i(241033), -- Arathi Templar's Claymore
-							i(237791), -- Arathi Zealot's Cleaver
-							i(237796), -- Arathi Zealot's Cudgel
-							i(237797), -- Arathi Zealot's Dagger
-							i(237798), -- Arathi Zealot's Knife
-							i(237804), -- Arathi Zealot's Shotgun
-							i(237805), -- Arathi Zealot's Warglaive
-						},
-					}),
-					i(237760, {	-- Arathi Champion's Spoils (Epic) just vendor armor?
+					i(237759, {	-- Arathi Cleric's Chest (Rare) Only Weapons
 						["description"] = "Granted for achieving 100% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
 						["groups"] = {
-							i(225647),	-- Shining Arathor Insignia (TWW zone reward)
-							i(238391),	-- Arathi Minister's Receptacle
-							i(237494),	-- Hallowed Tome of the Abbot
-							i(237430),	-- Consecrated Seal
-							-- 3
-							i(237431),	-- Divine Loop of the Crusader
-							i(237432),	-- Clergyman's Anointed Pendant
-							i(237394),	-- Arathi Abbot's Cloak
-							i(237395),	-- Arathi Abbot's Vestment
-							i(237396),	-- Arathi Abbot's Sandals
-							i(237397),	-- Arathi Abbot's Handwraps
-							i(237398),	-- Arathi Abbot's Cowl
-							i(237399),	-- Arathi Abbot's Leggings
-							i(237400),	-- Arathi Abbot's Mantle
-							i(237401),	-- Arathi Abbot's Cord
-							-- 4
-							i(237402),	-- Arathi Abbot's Cuffs
-							i(237403),	-- Arathi Zealot's Cape
-							i(237404),	-- Arathi Zealot's Vest
-							i(237405),	-- Arathi Zealot's Waders
-							i(237406),	-- Arathi Zealot's Grips
-							i(237429),	-- Arathi Zealot's Cape
-							i(237407),	-- Arathi Zealot's Breeches
-							i(237408),	-- Arathi Zealot's Shoulderpads
-							i(237409),	-- Arathi Zealot's Sash
-							i(237410),	-- Arathi Zealot's Bindings
-							-- 5
-							i(237411),	-- Arathi Cleric's Shawl
-							i(237412),	-- Arathi Cleric's Chainmail
-							i(237413),	-- Arathi Cleric's Striders
-							i(237414),	-- Arathi Cleric's Grips
-							i(237415),	-- Arathi Cleric's Coif
-							i(237416),	-- Arathi Cleric's Greaves
-							i(237417),	-- Arathi Cleric's Shoulderguards
-							i(237418),	-- Arathi Cleric's Cinch
-							i(237419),	-- Arathi Cleric's Bracers
-							i(237420),	-- Arathi Crusader's Drape
-							-- 6
-							i(237421),	-- Arathi Crusader's Breastplate
-							i(237422),	-- Arathi Crusader's Sabatons
-							i(237423),	-- Arathi Crusader's Gauntlets
-							i(237424),	-- Arathi Crusader's Helm
-							i(237425),	-- Arathi Crusader's Legguards
-							i(237426),	-- Arathi Crusader's Mantle
-							i(237427),	-- Arathi Crusader's Girdle
-							i(237428),	-- Arathi Crusader's Armplates
+							n(WEAPONS, {
+								i(237795), -- Arathi Abbot's Gavel
+								i(237799), -- Arathi Abbot's Greatstaff
+								i(237801), -- Arathi Abbot's Implement
+								i(237803), -- Arathi Abbot's Kris
+								i(237806), -- Arathi Abbot's Wand
+								i(241036), -- Arathi Anointer's Wand
+								i(237800), -- Arathi Cleric's Rod
+								i(237802), -- Arathi Cleric's Blunderbuss
+								i(237792), -- Arathi Crusader's Halberd
+								i(237793), -- Arathi Crusader's Bulwark
+								i(237794), -- Arathi Crusader's Greatsword
+								i(241035), -- Arathi Soldier's Morningstar
+								i(241033), -- Arathi Templar's Claymore
+								i(237791), -- Arathi Zealot's Cleaver
+								i(237796), -- Arathi Zealot's Cudgel
+								i(237797), -- Arathi Zealot's Dagger
+								i(237798), -- Arathi Zealot's Knife
+								i(237804), -- Arathi Zealot's Shotgun
+								i(237805), -- Arathi Zealot's Warglaive
+							}),
+						},
+					}),
+					i(237760, {	-- Arathi Champion's Spoils (Epic)
+						["description"] = "Granted for achieving 100% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
+						["sym"] = {{"select","itemID",
+							237791,	-- Arathi Zealot's Cleaver
+							237797,	-- Arathi Zealot's Dagger
+							237798,	-- Arathi Zealot's Knife
+							237803,	-- Arathi Abbot's Kris
+							237802,	-- Arathi Cleric's Blunderbuss
+							237804,	-- Arathi Zealot's Shotgun
+							237795,	-- Arathi Abbot's Gavel
+							237796,	-- Arathi Zealot's Cudgel
+							237801,	-- Arathi Abbot's Implement
+							237792,	-- Arathi Crusader's Halberd
+							237793,	-- Arathi Crusader's Bulwark
+							237800,	-- Arathi Cleric's Rod
+							237799,	-- Arathi Abbot's Greatstaff
+							237794,	-- Arathi Crusader's Greatsword
+							237806,	-- Arathi Abbot's Wand
+							237805,	-- Arathi Zealot's Warglaive
+						}},
+						["groups"] = {
+							filter(CLOAKS, {
+								i(237394),	-- Arathi Abbot's Cloak
+								i(237403),	-- Arathi Zealot's Cape
+								i(237411),	-- Arathi Cleric's Shawl
+								i(237420),	-- Arathi Crusader's Drape
+							}),
+							filter(CLOTH, {
+								i(237395),	-- Arathi Abbot's Vestment
+								i(237396),	-- Arathi Abbot's Sandals
+								i(237397),	-- Arathi Abbot's Handwraps
+								i(237398),	-- Arathi Abbot's Cowl
+								i(237399),	-- Arathi Abbot's Leggings
+								i(237400),	-- Arathi Abbot's Mantle
+								i(237401),	-- Arathi Abbot's Cord
+								i(237402),	-- Arathi Abbot's Cuffs
+							}),
+							filter(FINGER_F, {
+								i(237431),	-- Divine Loop of the Crusader
+								i(237430),	-- Consecrated Seal
+							}),
+							filter(LEATHER, {
+								i(237404),	-- Arathi Zealot's Vest
+								i(237405),	-- Arathi Zealot's Waders
+								i(237406),	-- Arathi Zealot's Grips
+								i(237429),	-- Arathi Zealot's Cape
+								i(237407),	-- Arathi Zealot's Breeches
+								i(237408),	-- Arathi Zealot's Shoulderpads
+								i(237409),	-- Arathi Zealot's Sash
+								i(237410),	-- Arathi Zealot's Bindings
+							}),
+							filter(MAIL, {
+								i(237412),	-- Arathi Cleric's Chainmail
+								i(237413),	-- Arathi Cleric's Striders
+								i(237414),	-- Arathi Cleric's Grips
+								i(237415),	-- Arathi Cleric's Coif
+								i(237416),	-- Arathi Cleric's Greaves
+								i(237417),	-- Arathi Cleric's Shoulderguards
+								i(237418),	-- Arathi Cleric's Cinch
+								i(237419),	-- Arathi Cleric's Bracers
+							}),
+							filter(NECK_F, {
+								i(237432),	-- Clergyman's Anointed Pendant
+							}),
+							filter(PLATE, {
+								i(237421),	-- Arathi Crusader's Breastplate
+								i(237422),	-- Arathi Crusader's Sabatons
+								i(237423),	-- Arathi Crusader's Gauntlets
+								i(237424),	-- Arathi Crusader's Helm
+								i(237425),	-- Arathi Crusader's Legguards
+								i(237426),	-- Arathi Crusader's Mantle
+								i(237427),	-- Arathi Crusader's Girdle
+								i(237428),	-- Arathi Crusader's Armplates
+							}),
+							filter(TRINKET_F, {
+								i(225647),	-- Shining Arathor Insignia (TWW zone reward)
+								i(238391),	-- Arathi Minister's Receptacle
+								i(237494),	-- Hallowed Tome of the Abbot
+							}),
+							n(WEAPONS, {
+							}),
 						},
 					}),
 					-- Crafting reagent?
 					i(238407),	-- Black Blood Residue
 					n(EVENT_COMPLETION, {
-						["description"] = "Spawns at the end of the Nightfall Event.\nThe Event always starts on the hour.",
-					--	["coord"] = { 43.8, 71.8, EMERALD_DREAM },
+						["description"] = "The Boss spawns at the end of the Nightfall Event.\nThe Event always starts on the hour.",
+						["coord"] = { 25.2, 55.6, HALLOWFALL },
 						["crs"] = {
 							240968, 	--	Ahn'tak
 							240969, 	--	Anub'Ranax
@@ -467,102 +500,117 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 					n(240979, {	-- Vesper Churnmoat
 						["coord"] = { 28.2, 56.0, HALLOWFALL },
 						["g"] = sharedData({ ["cost"] = {{"i", RADIANT_EMBLEM, 1}} }, {
-							-- 1
-							i(237775),	-- Nightfall Curseblade's Cleaver
-							i(237781),	-- Nightfall Shadowalker's Dagger
-							i(237782),	-- Nightfall Curseblade's Knife
-							i(237787),	-- Nightfall Darkcaster's Kris
-							i(237786),	-- Nightfall Curseblade's Blunderbuss
-							i(237788),	-- Nightfall Shadowalker's Shotgun
-							i(237779),	-- Nightfall Darkcaster's Gavel
-							i(237780),	-- Nightfall Curseblade's Cudgel
-							i(237785),	-- Nightfall Darkcaster's Implement
-							i(237776),	-- Nightfall Executioner's Halberd
-							-- 2
-							i(237777),	-- Nightfall Shadowalker's Bulwark
-							i(237784),	-- Nightfall Shadowalker's Rod
-							i(237783),	-- Nightfall Darkcaster's Greatstaff
-							i(237778),	-- Nightfall Executioner's Greatsword
-							i(237790),	-- Nightfall Darkcaster's Wand
-							i(237789),	-- Nightfall Curseblade's Warglaive
-							i(237495),	-- Excerpt on Dark Summons
-							i(225693),	-- Shadowed Essence (Hallowfall zone treasure)
-							i(237471),	-- Band of the Voidmancer
-							i(237472),	-- Seal of Cosmic Embrace
-							i(237473),	-- Dark Bargainer's Chain
-							-- 3
-							i(237474),	-- Cult Former's Charm
-							-- All Nightfall gear (beside weapons, are now missing from vendor)
-							-- and seems like reward from end boss?
+							filter(FINGER_F, {
+								i(237471),	-- Band of the Voidmancer
+								i(237472),	-- Seal of Cosmic Embrace
+							}),
+							filter(NECK_F, {
+								i(237473),	-- Dark Bargainer's Chain
+								i(237474),	-- Cult Former's Charm
+							}),
+							filter(TRINKET_F, {
+								i(237495),	-- Excerpt on Dark Summons
+								i(225693),	-- Shadowed Essence (Hallowfall zone treasure)
+							}),
+							n(WEAPONS, {
+								i(237775),	-- Nightfall Curseblade's Cleaver
+								i(237781),	-- Nightfall Shadowalker's Dagger
+								i(237782),	-- Nightfall Curseblade's Knife
+								i(237787),	-- Nightfall Darkcaster's Kris
+								i(237786),	-- Nightfall Curseblade's Blunderbuss
+								i(237788),	-- Nightfall Shadowalker's Shotgun
+								i(237779),	-- Nightfall Darkcaster's Gavel
+								i(237780),	-- Nightfall Curseblade's Cudgel
+								i(237785),	-- Nightfall Darkcaster's Implement
+								i(237776),	-- Nightfall Executioner's Halberd
+								i(237777),	-- Nightfall Shadowalker's Bulwark
+								i(237784),	-- Nightfall Shadowalker's Rod
+								i(237783),	-- Nightfall Darkcaster's Greatstaff
+								i(237778),	-- Nightfall Executioner's Greatsword
+								i(237790),	-- Nightfall Darkcaster's Wand
+								i(237789),	-- Nightfall Curseblade's Warglaive
+							}),
 						}),
 					}),
 					n(227797, {	-- Raen Dawncavalyr
 						["coord"] = { 28.3, 56.0, HALLOWFALL },
 						["g"] = sharedData({ ["cost"] = {{"i", RADIANT_EMBLEM, 1}} }, {
-							-- 1
-							i(237791),	-- Arathi Zealot's Cleaver
-							i(237797),	-- Arathi Zealot's Dagger
-							i(237798),	-- Arathi Zealot's Knife
-							i(237803),	-- Arathi Abbot's Kris
-							i(237802),	-- Arathi Cleric's Blunderbuss
-							i(237804),	-- Arathi Zealot's Shotgun
-							i(237795),	-- Arathi Abbot's Gavel
-							i(237796),	-- Arathi Zealot's Cudgel
-							i(237801),	-- Arathi Abbot's Implement
-							i(237792),	-- Arathi Crusader's Halberd
-							-- 2
-							i(237793),	-- Arathi Crusader's Bulwark
-							i(237800),	-- Arathi Cleric's Rod
-							i(237799),	-- Arathi Abbot's Greatstaff
-							i(237794),	-- Arathi Crusader's Greatsword
-							i(237806),	-- Arathi Abbot's Wand
-							i(237805),	-- Arathi Zealot's Warglaive
-							i(225647),	-- Shining Arathor Insignia (TWW zone reward)
-							i(238391),	-- Arathi Minister's Receptacle
-							i(237494),	-- Hallowed Tome of the Abbot
-							i(237430),	-- Consecrated Seal
-							-- 3
-							i(237431),	-- Divine Loop of the Crusader
-							i(237432),	-- Clergyman's Anointed Pendant
-							i(237394),	-- Arathi Abbot's Cloak
-							i(237395),	-- Arathi Abbot's Vestment
-							i(237396),	-- Arathi Abbot's Sandals
-							i(237397),	-- Arathi Abbot's Handwraps
-							i(237398),	-- Arathi Abbot's Cowl
-							i(237399),	-- Arathi Abbot's Leggings
-							i(237400),	-- Arathi Abbot's Mantle
-							i(237401),	-- Arathi Abbot's Cord
-							-- 4
-							i(237402),	-- Arathi Abbot's Cuffs
-							i(237403),	-- Arathi Zealot's Cape
-							i(237404),	-- Arathi Zealot's Vest
-							i(237405),	-- Arathi Zealot's Waders
-							i(237406),	-- Arathi Zealot's Grips
-							i(237429),	-- Arathi Zealot's Cape
-							i(237407),	-- Arathi Zealot's Breeches
-							i(237408),	-- Arathi Zealot's Shoulderpads
-							i(237409),	-- Arathi Zealot's Sash
-							i(237410),	-- Arathi Zealot's Bindings
-							-- 5
-							i(237411),	-- Arathi Cleric's Shawl
-							i(237412),	-- Arathi Cleric's Chainmail
-							i(237413),	-- Arathi Cleric's Striders
-							i(237414),	-- Arathi Cleric's Grips
-							i(237415),	-- Arathi Cleric's Coif
-							i(237416),	-- Arathi Cleric's Greaves
-							i(237417),	-- Arathi Cleric's Shoulderguards
-							i(237418),	-- Arathi Cleric's Cinch
-							i(237419),	-- Arathi Cleric's Bracers
-							i(237420),	-- Arathi Crusader's Drape
-							-- 6
-							i(237421),	-- Arathi Crusader's Breastplate
-							i(237422),	-- Arathi Crusader's Sabatons
-							i(237423),	-- Arathi Crusader's Gauntlets
-							i(237424),	-- Arathi Crusader's Helm
-							i(237425),	-- Arathi Crusader's Legguards
-							i(237426),	-- Arathi Crusader's Mantle
-							i(237427),	-- Arathi Crusader's Girdle
-							i(237428),	-- Arathi Crusader's Armplates
+							filter(CLOAKS, {
+								i(237394),	-- Arathi Abbot's Cloak
+								i(237403),	-- Arathi Zealot's Cape
+								i(237411),	-- Arathi Cleric's Shawl
+								i(237420),	-- Arathi Crusader's Drape
+							}),
+							filter(CLOTH, {
+								i(237395),	-- Arathi Abbot's Vestment
+								i(237396),	-- Arathi Abbot's Sandals
+								i(237397),	-- Arathi Abbot's Handwraps
+								i(237398),	-- Arathi Abbot's Cowl
+								i(237399),	-- Arathi Abbot's Leggings
+								i(237400),	-- Arathi Abbot's Mantle
+								i(237401),	-- Arathi Abbot's Cord
+								i(237402),	-- Arathi Abbot's Cuffs
+							}),
+							filter(FINGER_F, {
+								i(237431),	-- Divine Loop of the Crusader
+								i(237430),	-- Consecrated Seal
+							}),
+							filter(LEATHER, {
+								i(237404),	-- Arathi Zealot's Vest
+								i(237405),	-- Arathi Zealot's Waders
+								i(237406),	-- Arathi Zealot's Grips
+								i(237429),	-- Arathi Zealot's Cape
+								i(237407),	-- Arathi Zealot's Breeches
+								i(237408),	-- Arathi Zealot's Shoulderpads
+								i(237409),	-- Arathi Zealot's Sash
+								i(237410),	-- Arathi Zealot's Bindings
+							}),
+							filter(MAIL, {
+								i(237412),	-- Arathi Cleric's Chainmail
+								i(237413),	-- Arathi Cleric's Striders
+								i(237414),	-- Arathi Cleric's Grips
+								i(237415),	-- Arathi Cleric's Coif
+								i(237416),	-- Arathi Cleric's Greaves
+								i(237417),	-- Arathi Cleric's Shoulderguards
+								i(237418),	-- Arathi Cleric's Cinch
+								i(237419),	-- Arathi Cleric's Bracers
+							}),
+							filter(NECK_F, {
+								i(237432),	-- Clergyman's Anointed Pendant
+							}),
+							filter(PLATE, {
+								i(237421),	-- Arathi Crusader's Breastplate
+								i(237422),	-- Arathi Crusader's Sabatons
+								i(237423),	-- Arathi Crusader's Gauntlets
+								i(237424),	-- Arathi Crusader's Helm
+								i(237425),	-- Arathi Crusader's Legguards
+								i(237426),	-- Arathi Crusader's Mantle
+								i(237427),	-- Arathi Crusader's Girdle
+								i(237428),	-- Arathi Crusader's Armplates
+							}),
+							filter(TRINKET_F, {
+								i(225647),	-- Shining Arathor Insignia (TWW zone reward)
+								i(238391),	-- Arathi Minister's Receptacle
+								i(237494),	-- Hallowed Tome of the Abbot
+							}),
+							n(WEAPONS, {
+								i(237791),	-- Arathi Zealot's Cleaver
+								i(237797),	-- Arathi Zealot's Dagger
+								i(237798),	-- Arathi Zealot's Knife
+								i(237803),	-- Arathi Abbot's Kris
+								i(237802),	-- Arathi Cleric's Blunderbuss
+								i(237804),	-- Arathi Zealot's Shotgun
+								i(237795),	-- Arathi Abbot's Gavel
+								i(237796),	-- Arathi Zealot's Cudgel
+								i(237801),	-- Arathi Abbot's Implement
+								i(237792),	-- Arathi Crusader's Halberd
+								i(237793),	-- Arathi Crusader's Bulwark
+								i(237800),	-- Arathi Cleric's Rod
+								i(237799),	-- Arathi Abbot's Greatstaff
+								i(237794),	-- Arathi Crusader's Greatsword
+								i(237806),	-- Arathi Abbot's Wand
+								i(237805),	-- Arathi Zealot's Warglaive
+							}),
 						}),
 					}),
 				}),
