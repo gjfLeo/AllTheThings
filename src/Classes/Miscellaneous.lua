@@ -11,7 +11,7 @@ local NestObjects, CreateObject, NestObject, SearchForFieldContainer, SearchForO
 
 local DynamicDataCache = app.CreateDataCache("dynamic", true);
 local Runner = app.CreateRunner("dynamic");
-Runner.SetPerFrameDefault(5)
+Runner.SetPerFrameDefault(1)
 
 -- Miscellaneous API Implementation
 -- Access via AllTheThings.Modules.Miscellaneous
@@ -164,11 +164,11 @@ end
 
 -- Adds a Dynamic Category Filler function to the Function Runner which will fill the provided group using the existing dynamic/dynamic_value fields
 local function FillDynamicCategory(group, field, value)
-	-- app.PrintDebug("FDC:",group.dynamic,group.dynamic_value)
 	group.OnClick = false
 	-- mark the top group as dynamic for the field which it used (so popouts under the dynamic header are considered unique from other dynamic popouts)
 	group.dynamic = group.dynamicID or field;
 	group.dynamic_value = group.dynamic_value or value;
+	-- app.PrintDebug("FDC:",group.dynamic,group.dynamic_value)
 	Runner.Run(Filler, group);
 	return group
 end
@@ -181,7 +181,7 @@ local function NestDynamicValueCategories(group)
 	local field = group.dynamicValueID
 	local dynamicvalue_field = group.dynamic_valueField
 	local cache = SearchForFieldContainer(field);
-	-- app.PrintDebug("FDVC:",field)
+	-- app.PrintDebug("FDVC:",field,dynamicvalue_field)
 	for id,_ in pairs(cache) do
 		-- create a cloned version of the cached object, or create a new object from the Creator
 		cat = CreateObject(SearchForObject(field, id, "key") or { [field] = id }, true);
