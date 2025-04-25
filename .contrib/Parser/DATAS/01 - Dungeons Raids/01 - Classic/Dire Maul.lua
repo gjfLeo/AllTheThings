@@ -1969,100 +1969,96 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 							}),
 						},
 					})),
-					n(14353, {	-- Mizzle the Crafty
-						["description"] = "Speak with Mizzle after killing |cFFFFD700King Gordok|r to spawn the Tribute Chest.",
+					o(179564, {	-- Gordok Tribute Chest
+						["description"] = "Speak with Mizzle after killing |cFFFFD700King Gordok|r to spawn the Tribute Chest.\n\nA full Tribute Run (5 items) requires leaving all bosses alive except King Gordok, and also requires activating the Frost Trap & fooling Kromcrush with the Ogre Suit, granted by the Goblin near the trap.",
+						["qg"] = 14353,	-- Mizzle the Crafty
+						["modelScale"] = 3,
 						["groups"] = {
-							o(179564, {	-- Gordok Tribute Chest
-								["description"] = "A full Tribute Run (5 items) requires leaving all bosses alive except King Gordok, and also requires activating the Frost Trap & fooling Kromcrush with the Ogre Suit, granted by the Goblin near the trap.",
-								["modelScale"] = 3,
-								["groups"] = {
-									i(18655),	-- Schematic: Major Recombobulator (RECIPE!)
-									i(18499),	-- Barrier Shield
-									i(18479),	-- Carrion Scorpid Helm
-									i(18537),	-- Counterattack Lodestone
-									-- #if SEASON_OF_DISCOVERY
-									applyclassicphase(SOD_PHASE_FOUR, i(228065, {	-- Cyclone Spaulders
-										["timeline"] = { ADDED_1_15_3 },
-									})),
-									-- #endif
-									i(18528, {	-- Cyclone Spaulders
-										-- #if SEASON_OF_DISCOVERY
-										["timeline"] = { REMOVED_1_15_3 },
-										-- #endif
-									}),
-									i(18529),	-- Elemental Plate Girdle
-									i(18533),	-- Gordok Bracers of Power
-									i(18478),	-- Hyena Hide Jerkin
-									-- #if SEASON_OF_DISCOVERY
-									applyclassicphase(SOD_PHASE_FOUR, i(228474, {	-- Mindsurge Robe
-										["timeline"] = { ADDED_1_15_3 },
-									})),
-									-- #endif
-									i(18532, {	-- Mindsurge Robe
-										-- #if SEASON_OF_DISCOVERY
-										["timeline"] = { REMOVED_1_15_3 },
-										-- #endif
-									}),
-									i(18476),	-- Mud Stained Boots
-									i(18475),	-- Oddly Magical Belt
-									-- #if SEASON_OF_DISCOVERY
-									applyclassicphase(SOD_PHASE_FOUR, i(228070, {	-- Ogre Forged Hauberk
-										["timeline"] = { ADDED_1_15_3 },
-									})),
-									-- #endif
-									i(18530, {	-- Ogre Forged Hauberk
-										-- #if SEASON_OF_DISCOVERY
-										["timeline"] = { REMOVED_1_15_3 },
-										-- #endif
-									}),
-									i(18482),	-- Ogre Toothpick Shooter
-									i(18495),	-- Redoubt Cloak
-									-- #if SEASON_OF_DISCOVERY
-									applyclassicphase(SOD_PHASE_FOUR, i(228484, {	-- Rod of the Ogre Magi
-										["timeline"] = { ADDED_1_15_3 },
-									})),
-									-- #endif
-									i(18534, {	-- Rod of the Ogre Magi
-										-- #if SEASON_OF_DISCOVERY
-										["timeline"] = { REMOVED_1_15_3 },
-										-- #endif
-									}),
-									i(18480),	-- Scarab Plate Helm
-									i(18477),	-- Shaggy Leggings
-									i(18481),	-- Skullcracking Mace
-									-- #if SEASON_OF_DISCOVERY
-									applyclassicphase(SOD_PHASE_FOUR, i(228469, {	-- Tarnished Elven Ring
-										["timeline"] = { ADDED_1_15_3 },
-									})),
-									-- #endif
-									i(18500, {	-- Tarnished Elven Ring
-										-- #if SEASON_OF_DISCOVERY
-										["timeline"] = { REMOVED_1_15_3 },
-										-- #endif
-									}),
-									-- #if SEASON_OF_DISCOVERY
-									applyclassicphase(SOD_PHASE_FOUR, i(228486, {	-- Treant's Bane
-										["description"] = "There's no evidence that this version has dropped yet. @Crieve if you get one to drop.",
-										["timeline"] = { CREATED_1_15_3 },
-									})),
-									-- #endif
-									i(18538, {	-- Treant's Bane
-										-- #if SEASON_OF_DISCOVERY
-										-- CRIEVE NOTE: There's no evidence that the reitemized version has dropped yet.
-										--["timeline"] = { REMOVED_1_15_3 },
-										-- #endif
-									}),
-									-- #if SEASON_OF_DISCOVERY
-									applyclassicphase(SOD_PHASE_FOUR, i(228473, {	-- Unyielding Maul
-										["timeline"] = { ADDED_1_15_3 },
-									})),
-									-- #endif
-									i(18531, {	-- Unyielding Maul
-										-- #if SEASON_OF_DISCOVERY
-										["timeline"] = { REMOVED_1_15_3 },
-										-- #endif
-									}),
-								},
+							i(18655),	-- Schematic: Major Recombobulator (RECIPE!)
+							i(18499),	-- Barrier Shield
+							i(18479),	-- Carrion Scorpid Helm
+							i(18537),	-- Counterattack Lodestone
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_FOUR, i(228065, {	-- Cyclone Spaulders
+								["timeline"] = { ADDED_1_15_3 },
+							})),
+							-- #endif
+							i(18528, {	-- Cyclone Spaulders
+								-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_3 },
+								-- #endif
+							}),
+							i(18529),	-- Elemental Plate Girdle
+							i(18533),	-- Gordok Bracers of Power
+							i(18478),	-- Hyena Hide Jerkin
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_FOUR, i(228474, {	-- Mindsurge Robe
+								["timeline"] = { ADDED_1_15_3 },
+							})),
+							-- #endif
+							i(18532, {	-- Mindsurge Robe
+								-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_3 },
+								-- #endif
+							}),
+							i(18476),	-- Mud Stained Boots
+							i(18475),	-- Oddly Magical Belt
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_FOUR, i(228070, {	-- Ogre Forged Hauberk
+								["timeline"] = { ADDED_1_15_3 },
+							})),
+							-- #endif
+							i(18530, {	-- Ogre Forged Hauberk
+								-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_3 },
+								-- #endif
+							}),
+							i(18482),	-- Ogre Toothpick Shooter
+							i(18495),	-- Redoubt Cloak
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_FOUR, i(228484, {	-- Rod of the Ogre Magi
+								["timeline"] = { ADDED_1_15_3 },
+							})),
+							-- #endif
+							i(18534, {	-- Rod of the Ogre Magi
+								-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_3 },
+								-- #endif
+							}),
+							i(18480),	-- Scarab Plate Helm
+							i(18477),	-- Shaggy Leggings
+							i(18481),	-- Skullcracking Mace
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_FOUR, i(228469, {	-- Tarnished Elven Ring
+								["timeline"] = { ADDED_1_15_3 },
+							})),
+							-- #endif
+							i(18500, {	-- Tarnished Elven Ring
+								-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_3 },
+								-- #endif
+							}),
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_FOUR, i(228486, {	-- Treant's Bane
+								["description"] = "There's no evidence that this version has dropped yet. @Crieve if you get one to drop.",
+								["timeline"] = { CREATED_1_15_3 },
+							})),
+							-- #endif
+							i(18538, {	-- Treant's Bane
+								-- #if SEASON_OF_DISCOVERY
+								-- CRIEVE NOTE: There's no evidence that the reitemized version has dropped yet.
+								--["timeline"] = { REMOVED_1_15_3 },
+								-- #endif
+							}),
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_FOUR, i(228473, {	-- Unyielding Maul
+								["timeline"] = { ADDED_1_15_3 },
+							})),
+							-- #endif
+							i(18531, {	-- Unyielding Maul
+								-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_3 },
+								-- #endif
 							}),
 						},
 					}),
