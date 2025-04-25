@@ -7178,7 +7178,7 @@ local function PrePopulateAchievementSymlinks()
 		for achID,groups in pairs(achCache) do
 			for i=1,#groups do
 				group = groups[i]
-				if group.__type == "BaseAchievement" and not GetRelativeValue(group, "sourceIgnored") then
+				if group.__type == "Achievement" and not GetRelativeValue(group, "sourceIgnored") then
 					-- app.PrintDebug("FillAchSym",group.hash)
 					Run(FillSym, group)
 				end
@@ -7186,9 +7186,10 @@ local function PrePopulateAchievementSymlinks()
 		end
 		app.FillRunner.SetPerFrame(25)
 	end
+	app.RemoveEventHandler(PrePopulateAchievementSymlinks)
 	-- app.PrintDebug("Done:FillAchSym")
 end
-app.AddEventHandler("OnInit", PrePopulateAchievementSymlinks)
+app.AddEventHandler("OnRefreshCollectionsDone", PrePopulateAchievementSymlinks)
 
 -- Function which is triggered after Startup
 local function InitDataCoroutine()
