@@ -4,14 +4,18 @@ local _, app = ...;
 
 -- Concepts:
 -- Encapsulates the functionality for performing and handling 'search' type capabilities in ATT
+-- Module Dependencies:
+-- DataHandling, Item
+-- Class Dependencies:
+-- Miscellaneous
 
 -- Global locals
-local floor, 	  type, tonumber, ipairs, pairs
-	= math.floor, type, tonumber, ipairs, pairs
+local floor, 	  type, tonumber, ipairs, pairs,wipe
+	= math.floor, type, tonumber, ipairs, pairs,wipe
 
 -- App locals
-local SearchForObject
-	= app.SearchForObject
+local SearchForObject, GetRelativeValue
+	= app.SearchForObject, app.GetRelativeValue
 
 -- Upgrade API Implementation
 -- Access via AllTheThings.Modules.Search
@@ -19,7 +23,7 @@ local api = {};
 app.Modules.Search = api;
 
 -- Module locals
-local CleanLink, GetGroupItemIDWithModID, GetItemIDAndModID
+local CleanLink,GetGroupItemIDWithModID,GetItemIDAndModID,NestObject,CreateObject,CreateWrapFilterHeader
 app.AddEventHandler("OnLoad", function()
 	CleanLink = app.Modules.Item.CleanLink
 	if not CleanLink then
@@ -32,6 +36,19 @@ app.AddEventHandler("OnLoad", function()
 	GetItemIDAndModID = app.GetItemIDAndModID
 	if not GetItemIDAndModID then
 		error("Search Module requires app.GetItemIDAndModID definition!")
+	end
+	NestObject = app.NestObject
+	if not NestObject then
+		error("Search Module requires app.NestObject definition!")
+	end
+	-- TODO: convert to CreateClassInstance once it uses proper key priority
+	CreateObject = app.__CreateObject
+	if not CreateObject then
+		error("Search Module requires app.__CreateObject definition!")
+	end
+	CreateWrapFilterHeader = app.CreateVisualHeaderWithGroups
+	if not CreateWrapFilterHeader then
+		error("Search Module requires app.CreateWrapFilterHeader definition!")
 	end
 end)
 
@@ -166,3 +183,267 @@ local function SearchForLink(link)
 	return SearchByKindLink(cleanlink)
 end
 app.SearchForLink = SearchForLink;
+
+-- Search Results
+local IncludeUnavailableRecipes, IgnoreBoEFilter;
+-- Set some logic which is used during recursion without needing to set it on every recurse
+local function SetRescursiveFilters()
+	IncludeUnavailableRecipes = not app.BuildSearchResponse_IgnoreUnavailableRecipes;
+	IgnoreBoEFilter = app.Modules.Filter.SettingsFilters.IgnoreBoEFilter;
+end
+api.SearchNil = "zsxdcfawoidsajd"
+local MainRoot
+local ClonedHierarchyGroups = {};
+local ClonedHierarachyMapping = {};
+local SearchGroups = {};
+local DropFields = {}
+-- A set of Criteria functions which must all be valid for each search result to be included in the response
+local __SearchCriteria = {
+	-- Include only non-sourceIgnored groups
+	function(o) return not o.sourceIgnored end,
+	-- Include unavailable Recipes or any content which is not a Recipe or meets the BoE filter
+	function(o) return IncludeUnavailableRecipes or not o.spellID or IgnoreBoEFilter(o) end,
+}
+local SearchCriteria = {}
+-- A set of Criteria functions which must all be valid for each search result to be included in the response
+local __SearchValueCriteria = {
+	-- Include if the field of the group matches the desired value
+	function(o, field, value)
+		return o[field] == value
+	end
+}
+local SearchValueCriteria = {}
+-- A set of Criteria functions which must all be valid for each search result to be included in the response
+local __ParentInclusionCriteria = {
+	-- Exclude heirarchical parents which don't exist, or specify '_nosearch' or are 'sourceIgnored'
+	function(parent)
+		-- check the parent to see if this parent chain will be excluded
+		if not parent then
+			-- app.PrintDebug("Don't capture non-parented",group.text)
+			return
+		end
+		if parent.sourceIgnored then
+			-- app.PrintDebug("Don't capture SourceIgnored",group.text)
+			return
+		end
+		if GetRelativeValue(parent, "_nosearch") then
+			-- app.PrintDebug("Don't capture _nosearch",group.text)
+			return
+		end
+		return true
+	end
+}
+local ParentInclusionCriteria = {}
+local function ResetCriterias(criteria)
+	wipe(SearchCriteria)
+	wipe(SearchValueCriteria)
+	wipe(ParentInclusionCriteria)
+	if criteria and criteria.SearchCriteria then
+		for _,f in ipairs(criteria.SearchCriteria) do
+			SearchCriteria[#SearchCriteria + 1] = f
+		end
+	else
+		for _,f in ipairs(__SearchCriteria) do
+			SearchCriteria[#SearchCriteria + 1] = f
+		end
+	end
+	if criteria and criteria.SearchValueCriteria then
+		for _,f in ipairs(criteria.SearchValueCriteria) do
+			SearchValueCriteria[#SearchValueCriteria + 1] = f
+		end
+	else
+		for _,f in ipairs(__SearchValueCriteria) do
+			SearchValueCriteria[#SearchValueCriteria + 1] = f
+		end
+	end
+	if criteria and criteria.ParentInclusionCriteria then
+		for _,f in ipairs(criteria.ParentInclusionCriteria) do
+			ParentInclusionCriteria[#ParentInclusionCriteria + 1] = f
+		end
+	else
+		for _,f in ipairs(__ParentInclusionCriteria) do
+			ParentInclusionCriteria[#ParentInclusionCriteria + 1] = f
+		end
+	end
+end
+local function Eval_SearchCriteria(o)
+	for i=1,#SearchCriteria do
+		if not SearchCriteria[i](o) then return end
+	end
+	return true
+end
+local function Eval_SearchValueCriteria(o, field, value)
+	for i=1,#SearchValueCriteria do
+		if not SearchValueCriteria[i](o, field, value) then return end
+	end
+	return true
+end
+local function Eval_ParentInclusionCriteria(o)
+	for i=1,#ParentInclusionCriteria do
+		if not ParentInclusionCriteria[i](o) then return end
+	end
+	return true
+end
+-- Wraps a given object such that it can act as an unfiltered Header of the base group
+local function CloneGroupIntoHeirarchy(group)
+	local groupCopy = CreateWrapFilterHeader(group);
+	ClonedHierarachyMapping[group] = groupCopy;
+	return groupCopy;
+end
+-- Finds existing clone of the parent group, or clones the group into the proper clone hierarchy
+local function MatchOrCloneParentInHierarchy(group)
+	if group then
+		-- already cloned group, return the clone
+		local groupCopy = ClonedHierarachyMapping[group];
+		if groupCopy then return groupCopy; end
+
+		-- check the parent to see if this parent chain will be excluded
+		local parent = group.parent;
+		if not Eval_ParentInclusionCriteria(parent) then
+			-- app.PrintDebug("PIH-PCrit",app:SearchLink(parent))
+			return
+		end
+
+		-- is this a top-level group?
+		if parent == MainRoot then
+			groupCopy = CloneGroupIntoHeirarchy(group);
+			groupCopy.__priorSearchRoot = true
+			ClonedHierarchyGroups[#ClonedHierarchyGroups + 1] = groupCopy
+			-- app.PrintDebug("Added top cloned parent",groupCopy.text)
+			return groupCopy;
+		elseif group.__priorSearchRoot then
+			groupCopy = CloneGroupIntoHeirarchy(group);
+			ClonedHierarchyGroups[#ClonedHierarchyGroups + 1] = groupCopy
+			-- app.PrintDebug("Added top cloned parent from __priorSearchRoot",groupCopy.text)
+			return groupCopy;
+		else
+			-- need to clone and attach this group to its cloned parent
+			local clonedParent = MatchOrCloneParentInHierarchy(parent);
+			if not clonedParent then
+				-- app.PrintDebug("PIH-NoParent",app:SearchLink(parent))
+				return
+			end
+			groupCopy = CloneGroupIntoHeirarchy(group);
+			NestObject(clonedParent, groupCopy);
+			return groupCopy;
+		end
+	end
+end
+-- Builds ClonedHierarchyGroups from an array of Sourced groups
+local function BuildClonedHierarchy(sources)
+	-- app.PrintDebug("BSR:Sourced",sources and #sources)
+	if not sources then return end
+	local parent, thing;
+	-- for each source of each Thing with the value
+	for _,source in ipairs(sources) do
+		if Eval_SearchCriteria(source) then
+			-- find/clone the expected parent group in hierachy
+			parent = MatchOrCloneParentInHierarchy(source.parent);
+			if parent then
+				-- clone the Thing into the cloned parent
+				thing = DropFields.g and CreateObject(source, true) or CreateObject(source);
+				-- don't copy in any extra data for the thing which can pull things into groups, or reference other groups
+				if DropFields.sym then thing.sym = nil; end
+				thing.sourceParent = nil;
+				-- need to map the cloned Thing also since it may end up being a parent of another Thing
+				ClonedHierarachyMapping[source] = thing;
+				NestObject(parent, thing);
+			-- else app.PrintDebug("CloneHierarchy-Fail",source.parent,app:SearchLink(source))
+			end
+		-- else app.PrintDebug("Criteria-Fail:",app:SearchLink(source))
+		end
+	end
+end
+-- Recursively collects all groups which have the specified field existing
+local function AddSearchGroupsByField(groups, field)
+	if groups then
+		for _,group in ipairs(groups) do
+			if group[field] ~= nil then
+				SearchGroups[#SearchGroups + 1] = group
+			else
+				AddSearchGroupsByField(group.g, field);
+			end
+		end
+	end
+end
+-- Recursively collects all groups which have the specified field=value
+local function AddSearchGroupsByFieldValue(groups, field, value)
+	if groups then
+		for _,group in ipairs(groups) do
+			if Eval_SearchValueCriteria(group, field, value) then
+				SearchGroups[#SearchGroups + 1] = group
+			else
+				AddSearchGroupsByFieldValue(group.g, field, value);
+			end
+		end
+	end
+end
+-- Builds ClonedHierarchyGroups from the cached container using groups which match a particular key and value
+local function BuildSearchResponseViaCacheContainer(cacheContainer, value)
+	-- app.PrintDebug("BSR:Cached",value)
+	if cacheContainer then
+		if value then
+			local sources = cacheContainer[value];
+			BuildClonedHierarchy(sources);
+		else
+			for id,sources in pairs(cacheContainer) do
+				-- each Thing's Sources need to be built
+				BuildClonedHierarchy(sources);
+			end
+		end
+	end
+end
+-- Collects a cloned hierarchy of groups which have the field and/or value within the given field. Specify 'clear' if found groups which match
+-- should additionally clear their contents when being cloned
+function app:BuildSearchResponse(field, value, drop, criteria)
+	return app:BuildTargettedSearchResponse(app:GetDataCache(), field, value, drop, criteria)
+end
+-- Collects a cloned hierarchy of groups within the given target 'groups' which have the field and/or value within the given field. Specify 'clear' if found groups which match
+-- should additionally clear their contents when being cloned
+function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
+	if not groups then return end
+	if groups.g then groups = groups.g end
+	if #groups == 0 then app.PrintDebug("BuildTargettedSearchResponse.FAIL - No groups available") return end
+	MainRoot = app:GetDataCache()
+	if not MainRoot then app.PrintDebug("BuildTargettedSearchResponse.FAIL - No MainRoot available") return end
+	-- make sure each set of search results goes into a new container
+	-- otherwise two searches within the same window will replace the first set
+	ClonedHierarchyGroups = {}
+	wipe(ClonedHierarachyMapping);
+	wipe(SearchGroups);
+	wipe(DropFields)
+	-- by default always drop 'sym' from results
+	DropFields.sym = true
+	if drop then
+		for k,v in pairs(drop) do
+			DropFields[k] = v
+		end
+	end
+
+	SetRescursiveFilters();
+	-- add custom Criterias from external param
+	ResetCriterias(criteria)
+	-- app.PrintDebug("BSR:",field,value)
+	-- app.PrintTable(DropFields)
+	-- app.PrintTable(criteria)
+	-- app.PrintTable(SearchCriteria)
+	-- app.PrintTable(SearchValueCriteria)
+	-- can only do cache searches if there isn't custom criteria provided if we are actually searching MainRoot
+	local cacheContainer = not criteria and groups == MainRoot and app.GetRawFieldContainer(field);
+	if cacheContainer then
+		BuildSearchResponseViaCacheContainer(cacheContainer, value);
+	elseif value ~= nil then
+		-- allow searching specifically for a nil field
+		if value == api.SearchNil then
+			value = nil;
+		end
+		-- app.PrintDebug("BSR:FieldValue",#groups,field,value)
+		AddSearchGroupsByFieldValue(groups, field, value);
+		BuildClonedHierarchy(SearchGroups);
+	else
+		-- app.PrintDebug("BSR:Field",#groups,field)
+		AddSearchGroupsByField(groups, field);
+		BuildClonedHierarchy(SearchGroups);
+	end
+	return ClonedHierarchyGroups;
+end
