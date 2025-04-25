@@ -5,17 +5,22 @@
 
 local appName, app = ...
 
-local pairs,rawget,tonumber,GetTimePreciseSec,tremove,select,setmetatable,getmetatable,type
-	= pairs,rawget,tonumber,GetTimePreciseSec,tremove,select,setmetatable,getmetatable,type
+local pairs,ipairs,rawget,tinsert,tonumber,GetTimePreciseSec,tremove,select,setmetatable,getmetatable,type
+	= pairs,ipairs,rawget,tinsert,tonumber,GetTimePreciseSec,tremove,select,setmetatable,getmetatable,type
 
 local DelayedCallback = app.CallbackHandlers.DelayedCallback
 local Runner = app.CreateRunner("update")
 app.UpdateRunner = Runner
 
 -- Module Locals
-local L
+local L,Colorize
 app.AddEventHandler("OnLoad", function()
 	L = app.L
+	if app.Modules.Color then
+		Colorize = app.Modules.Color.Colorize
+	else
+		Colorize = function(text) return text end
+	end
 end)
 
 ---- Update Group Data ----
@@ -721,3 +726,353 @@ local function MergeProperties(g, t, noReplace, clone)
 	end
 end
 app.MergeProperties = MergeProperties
+
+-- The base logic for turning a Table of data into an 'object' that provides dynamic information concerning the type of object which was identified
+-- based on the priority of possible key values
+-- TODO: this priority-based object creation will move to Classes/base.lua -- CloneClassInstance does not suffice in its current state
+local function CreateObject(t, rootOnly)
+	-- app.PrintDebug("CO",t);
+	-- Commented this part out because there aren't enough class definitions exposed to the logic yet
+	-- Retail class design is still wildin' and doesn't use the CreateClass functionality
+	--local object = app.CloneClassInstance(t, rootOnly);
+	--if object and getmetatable(object) then return object; end
+	if not t then return {}; end
+	-- already an object, so need to create a new instance of the same data
+	if t.key then
+		local result = {};
+		-- app.PrintDebug("CO.key",t.key,t[t.key],"=>",result);
+		MergeProperties(result, t, nil, true);
+		-- include the raw g since it will be replaced at the end with new objects
+		result.g = t.g;
+		t = result;
+		-- if not getmetatable(t) then
+		-- 	app.PrintDebug(Colorize("Bad CreateObject (key without metatable) used:",app.Colors.ChatLinkError))
+		-- 	app.PrintTable(t)
+		-- end
+		-- app.PrintDebug("Merge done",result.key,result[result.key], t, result);
+	-- is it an array of raw datas which needs to be turned into an array of usable objects
+	elseif t[1] then
+		local result = {};
+		-- array
+		-- app.PrintDebug("CO.[]","=>",result);
+		for i,o in ipairs(t) do
+			result[i] = CreateObject(o, rootOnly);
+		end
+		return result;
+	-- use the highest-priority piece of data which exists in the table to turn it into an object
+	else
+		-- a table which somehow has a metatable which doesn't include a 'key' field
+		local meta = getmetatable(t);
+		if meta then
+			app.PrintDebug(Colorize("Bad CreateObject (metatable without key) used:",app.Colors.ChatLinkError))
+			app.PrintTable(t)
+			local result = {};
+			-- app.PrintDebug("CO.meta","=>",result);
+			MergeProperties(result, t, nil, true);
+			if not rootOnly and t.g then
+				local newg = {}
+				result.g = newg
+				for i,o in ipairs(t.g) do
+					newg[#newg+1] = CreateObject(o)
+				end
+			end
+			setmetatable(result, meta);
+			return result;
+		end
+		if t.mapID then
+			t = app.CreateMap(t.mapID, t);
+		elseif t.explorationID then
+			t = app.CreateExploration(t.explorationID, t);
+		elseif t.sourceID then
+			t = app.CreateItemSource(t.sourceID, t.itemID, t);
+		elseif t.encounterID then
+			t = app.CreateEncounter(t.encounterID, t);
+		elseif t.instanceID then
+			t = app.CreateInstance(t.instanceID, t);
+		elseif t.currencyID then
+			t = app.CreateCurrencyClass(t.currencyID, t);
+		elseif t.mountmodID then
+			t = app.CreateMountMod(t.mountmodID, t);
+		elseif t.speciesID then
+			t = app.CreateSpecies(t.speciesID, t);
+		elseif t.objectID then
+			t = app.CreateObject(t.objectID, t);
+		elseif t.flightpathID then
+			t = app.CreateFlightPath(t.flightpathID, t);
+		elseif t.followerID then
+			t = app.CreateFollower(t.followerID, t);
+		elseif t.illusionID then
+			t = app.CreateIllusion(t.illusionID, t);
+		elseif t.professionID then
+			t = app.CreateProfession(t.professionID, t);
+		elseif t.categoryID then
+			t = app.CreateCategory(t.categoryID, t);
+		elseif t.criteriaID then
+			t = app.CreateAchievementCriteria(t.criteriaID, t);
+		elseif t.achID or t.achievementID then
+			t = app.CreateAchievement(t.achID or t.achievementID, t);
+		elseif t.recipeID then
+			t = app.CreateRecipe(t.recipeID, t);
+		elseif t.factionID then
+			t = app.CreateFaction(t.factionID, t);
+		elseif t.heirloomID then
+			t = app.CreateHeirloom(t.heirloomID, t);
+		elseif t.azeriteessenceID then
+			t = app.CreateAzeriteEssence(t.azeriteessenceID, t);
+		elseif t.itemID or t.modItemID then
+			local itemID, modID, bonusID = app.GetItemIDAndModID(t.modItemID or t.itemID)
+			t.itemID = itemID
+			t.modID = modID
+			t.bonusID = bonusID
+			if t.toyID then
+				t = app.CreateToy(itemID, t);
+			elseif t.runeforgepowerID then
+				t = app.CreateRuneforgeLegendary(t.runeforgepowerID, t);
+			elseif t.conduitID then
+				t = app.CreateConduit(t.conduitID, t);
+			else
+				t = app.CreateItem(itemID, t);
+			end
+		elseif t.npcID or t.creatureID then
+			t = app.CreateNPC(t.npcID or t.creatureID, t);
+		elseif t.questID then
+			t = app.CreateQuest(t.questID, t);
+		-- Non-Thing groups
+		elseif t.unit then
+			t = app.CreateUnit(t.unit, t);
+		elseif t.classID then
+			t = app.CreateCharacterClass(t.classID, t);
+		elseif t.raceID then
+			t = app.CreateRace(t.raceID, t);
+		elseif t.headerID then
+			t = app.CreateNPC(t.headerID, t);
+		elseif t.expansionID then
+			t = app.CreateExpansion(t.expansionID, t);
+		elseif t.difficultyID then
+			t = app.CreateDifficulty(t.difficultyID, t);
+		elseif t.spellID then
+			t = app.CreateSpell(t.spellID, t);
+		elseif t.f or t.filterID then
+			t = app.CreateFilter(t.f or t.filterID, t);
+		elseif t.text then
+			t = app.CreateRawText(t.text, t)
+		else
+			-- app.PrintDebug("CO:raw");
+			-- app.PrintTable(t);
+			if rootOnly then
+				-- shallow copy the root table only, since using t as a metatable will allow .g to exist still on the table
+				-- app.PrintDebug("rootOnly copy of",t.text)
+				local result = {};
+				for k,v in pairs(t) do
+					result[k] = v;
+				end
+				t = result;
+			else
+				-- app.PrintDebug("metatable copy of",t.text)
+				t = setmetatable({}, { __index = t });
+			end
+		end
+		-- app.PrintDebug("CO.field","=>",t);
+	end
+
+	-- allows for copying an object without all of the sub-groups
+	if rootOnly then
+		t.g = nil;
+	else
+		-- app.PrintDebug("CreateObject key/value",t.key,t[t.key]);
+		-- if g, then replace each object in all sub groups with an object version of the table
+		local g = t.g;
+		if g then
+			local gNew = {};
+			for i,o in ipairs(g) do
+				gNew[i] = CreateObject(o)
+			end
+			t.g = gNew;
+		end
+	end
+
+	return t;
+end
+app.__CreateObject = CreateObject;
+
+local function GetHash(t)
+	local hash = app.CreateHash(t);
+	app.PrintDebug(Colorize("No base .hash for t:",app.Colors.ChatLinkError),hash,t.text);
+	app.PrintTable(t)
+	return hash;
+end
+local NestObjects
+-- Merges an Object into an existing set of Objects so as to not duplicate any incoming Objects
+local function MergeObject(g, t, index, newCreate)
+	if g and t then
+		local hash = t.hash or GetHash(t);
+		for i,o in ipairs(g) do
+			if (o.hash or GetHash(o)) == hash then
+				MergeProperties(o, t, true);
+				NestObjects(o, t.g, newCreate);
+				return
+			end
+		end
+		if newCreate then t = CreateObject(t); end
+		if index then
+			tinsert(g, index, t);
+		else
+			g[#g + 1] = t
+		end
+	end
+end
+-- Nests an Object under another Object, only creating the 'g' group if necessary
+-- ex. NestObject(parent, new, newCreate, index)
+local function NestObject(p, t, newCreate, index)
+	if not p or not t then return end
+	local g = p.g;
+	if g then
+		MergeObject(g, t, index, newCreate);
+	elseif newCreate then
+		p.g = { CreateObject(t) };
+	else
+		p.g = { t };
+	end
+end
+-- Merges multiple Objects into an existing set of Objects so as to not duplicate any incoming Objects
+-- ex. MergeObjects(group, group2, newCreate)
+local function MergeObjects(g, g2, newCreate)
+	if not g or not g2 then return end
+	if #g2 > 25 then
+		local t, hash, hashObj
+		local hashTable = {}
+		for i,o in ipairs(g) do
+			local hash = o.hash;
+			if hash then
+				-- are we merging the same object multiple times from one group?
+				hashObj = hashTable[hash]
+				if hashObj then
+					-- don't replace existing properties
+					MergeProperties(hashObj, o, true);
+				else
+					hashTable[hash] = o;
+				end
+			end
+		end
+		if newCreate then
+			for i,o in ipairs(g2) do
+				hash = o.hash;
+				-- print("_",hash);
+				if hash then
+					t = hashTable[hash];
+					if t then
+						MergeProperties(t, o, true);
+						NestObjects(t, o.g, newCreate);
+					else
+						t = CreateObject(o);
+						hashTable[hash] = t;
+						g[#g + 1] = t
+					end
+				else
+					g[#g + 1] = CreateObject(o)
+				end
+			end
+		else
+			for i,o in ipairs(g2) do
+				hash = o.hash;
+				-- print("_",hash);
+				if hash then
+					t = hashTable[hash];
+					if t then
+						MergeProperties(t, o, true);
+						NestObjects(t, o.g);
+					else
+						hashTable[hash] = o;
+						g[#g + 1] = o
+					end
+				else
+					g[#g + 1] = CreateObject(o)
+				end
+			end
+		end
+	else
+		for i,o in ipairs(g2) do
+			MergeObject(g, o, nil, newCreate);
+		end
+	end
+end
+-- Nests multiple Objects under another Object, only creating the 'g' group if necessary
+-- ex. NestObjects(parent, groups, newCreate)
+NestObjects = function(p, g, newCreate)
+	if not g then return; end
+	local pg = p.g;
+	if pg then
+		MergeObjects(pg, g, newCreate);
+	elseif #g > 0 then
+		p.g = {};
+		MergeObjects(p.g, g, newCreate);
+	end
+end
+-- Nests multiple Objects under another Object using an optional set of functions to determine priority on the adding of objects, only creating the 'g' group if necessary
+-- ex. PriorityNestObjects(parent, groups, newCreate, function1, function2, ...)
+local function PriorityNestObjects(p, g, newCreate, ...)
+	if not g or #g == 0 then return; end
+	local pFuncs = {...};
+	if pFuncs[1] then
+		-- app.PrintDebug("PriorityNestObjects",#pFuncs,"Priorities",#g,"Objects")
+		-- setup containers for the priority buckets
+		local pBuckets, pBucket, skipped = {}, nil, nil;
+		for i,_ in ipairs(pFuncs) do
+			pBuckets[i] = {};
+		end
+		-- check each object
+		for _,o in ipairs(g) do
+			-- check each priority function
+			for i,pFunc in ipairs(pFuncs) do
+				-- if the function matches, put the object in the bucket
+				if pFunc(o) then
+					-- app.PrintDebug("Matched Priority Function",i,o.hash)
+					pBucket = pBuckets[i];
+					pBucket[#pBucket + 1] = o
+					break;
+				end
+			end
+			-- no bucket was found, put in skipped
+			if not pBucket then
+				-- app.PrintDebug("No Priority",o.hash)
+				if skipped then skipped[#skipped + 1] = o
+				else skipped = { o }; end
+			end
+			-- reset bucket
+			pBucket = nil;
+		end
+		-- then nest each bucket in order of priority
+		for i,pBucket in ipairs(pBuckets) do
+			-- app.PrintDebug("Nesting Priority Bucket",i,#pBucket)
+			NestObjects(p, pBucket, newCreate);
+			-- app.PrintDebug(".g",p.g and #p.g)
+		end
+		-- and nest anything skipped
+		-- app.PrintDebug("Nesting Skipped",skipped and #skipped)
+		NestObjects(p, skipped, newCreate);
+		-- app.PrintDebug(".g",p.g and #p.g)
+	else
+		NestObjects(p, g, newCreate);
+	end
+	-- app.PrintDebug("PNO-Done",#pFuncs,"Priorities",#g,"Objects",p.g and #p.g)
+end
+-- Merges multiple sources of an object into a single object. Can specify to clean out all sub-groups of the result
+app.MergedObject = function(group, rootOnly)
+	if not group or not group[1] then return group; end
+	local merged = CreateObject(group[1], rootOnly);
+	for i=2,#group do
+		MergeProperties(merged, group[i]);
+	end
+	-- for a merged object, clean any other references it might still have
+	merged.sourceParent = nil;
+	merged.parent = nil;
+	if rootOnly then
+		merged.g = nil;
+	end
+	return merged;
+end
+app.MergeObject = MergeObject
+app.MergeObjects = MergeObjects
+app.NestObject = NestObject
+app.NestObjects = NestObjects
+app.PriorityNestObjects = PriorityNestObjects
