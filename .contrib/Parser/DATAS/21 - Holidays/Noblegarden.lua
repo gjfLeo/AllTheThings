@@ -229,6 +229,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 		i(7808),	-- Chocolate Square
 		i(7806),	-- Lollipop
 		-- #endif
+		i(155905, {	-- Cursed Rabbit's Foot
+			["timeline"] = { ADDED_7_3_5 },
+		}),
 	}),
 	-- #if AFTER 3.1.0.9733
 	n(ACHIEVEMENTS, {
