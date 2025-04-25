@@ -234,10 +234,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(239546, {	-- Confiscated Cultist's Bag
 						["description"] = "Rewarded by completing Radiant Incursion or Sureki Incursion Dailies.",
 						["g"] = {
-								i(239563),	-- Shadowbound Leash (MOUNT!)
-								i(241126),	-- Sovereign Sureki Emblem (COSMETIC!)
-								-- Mog
-								i(237435),	-- Nightfall Darkcaster's Cloak
+							i(239563),	-- Shadowbound Leash (MOUNT!)
+							i(241126),	-- Sovereign Sureki Emblem (COSMETIC!)
+							filter(CLOTH, {
 								i(237436),	-- Nightfall Darkcaster's Vestment
 								i(237437),	-- Nightfall Darkcaster's Sandals
 								i(237438),	-- Nightfall Darkcaster's Handwraps
@@ -246,7 +245,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								i(237441),	-- Nightfall Darkcaster's Mantle
 								i(237442),	-- Nightfall Darkcaster's Cord
 								i(237443),	-- Nightfall Darkcaster's Cuffs
+							}),
+							filter(CLOAKS, {
+								i(237435),	-- Nightfall Darkcaster's Cloak
 								i(237444),	-- Nightfall Curseblade's Cape
+								i(237452),	-- Nightfall Shadowstalker's Shawl
+								i(237461),	-- Nightfall Executioner's Drape
+							filter(FINGER_F, {
+								i(237471),	-- Band of the Voidmancer
+								i(237472),	-- Seal of Cosmic Embrace
+							}),
+							filter(LEATHER, {
 								i(237445),	-- Nightfall Curseblade's Vest
 								i(237446),	-- Nightfall Curseblade's Waders
 								i(237447),	-- Nightfall Curseblade's Grips
@@ -255,7 +264,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								i(237449),	-- Nightfall Curseblade's Shoulderpads
 								i(237450),	-- Nightfall Curseblade's Sash
 								i(237451),	-- Nightfall Curseblade's Bindings
-								i(237452),	-- Nightfall Shadowstalker's Shawl
+							}),
+							filter(MAIL, {
 								i(237453),	-- Nightfall Shadowstalker's Chainmail
 								i(237454),	-- Nightfall Shadowstalker's Striders
 								i(237455),	-- Nightfall Shadowstalker's Grips
@@ -264,7 +274,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								i(237458),	-- Nightfall Shadowstalker's Shoulderguards
 								i(237459),	-- Nightfall Shadowstalker's Cinch
 								i(237460),	-- Nightfall Shadowstalker's Bracers
-								i(237461),	-- Nightfall Executioner's Drape
+							}),
+							filter(NECK_F, {
+								i(237473),	-- Dark Bargainer's Chain
+								i(237474),	-- Cult Former's Charm
+							}),
+							filter(PLATE, {
 								i(237462),	-- Nightfall Executioner's Breastplate
 								i(237463),	-- Nightfall Executioner's Sabatons
 								i(237464),	-- Nightfall Executioner's Gauntlets
@@ -273,7 +288,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								i(237467),	-- Nightfall Executioner's Mantle
 								i(237468),	-- Nightfall Executioner's Girdle
 								i(237469),	-- Nightfall Executioner's Armplates
-								-- Weapons & Accesoirces
+							}),
+							n(WEAPONS, {
 								i(237775),	-- Nightfall Curseblade's Cleaver
 								i(237781),	-- Nightfall Shadowalker's Dagger
 								i(237782),	-- Nightfall Curseblade's Knife
@@ -290,13 +306,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 								i(237778),	-- Nightfall Executioner's Greatsword
 								i(237790),	-- Nightfall Darkcaster's Wand
 								i(237789),	-- Nightfall Curseblade's Warglaive
+							}),
+							filter(TRINKET_F, {
 								i(237495),	-- Excerpt on Dark Summons
 								i(225693),	-- Shadowed Essence (Hallowfall zone treasure)
-								i(237471),	-- Band of the Voidmancer
-								i(237472),	-- Seal of Cosmic Embrace
-								i(237473),	-- Dark Bargainer's Chain
-								i(237474),	-- Cult Former's Charm
-							},
+							}),
+						},
 					}),
 					i(237743, {	-- Arathi Soldier's Coffer (Uncommon) Only Green Cosmetics
 						["description"] = "Granted for achieving 33% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
@@ -668,6 +683,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				--q(),	--
 				--q(),	--
 				q(91150),	--	Daily Rep Flame Radiance for killing Dissenter Oathland (Ajz Kahet)
+				q(91151),	--	Daily Rep Flame Radiance for killing Whisperer Batalsworn
+				q(91154),	--	Daily Rep Flame Radiance for killing Dissenter Tailtrek
+				q(91157),	--	Daily Rep Flame Radiance for killing Whisperer Dissenter Fortfervor
+				q(91159),	--	Daily Rep Flame Radiance for killing Whisperer Siegesage
 				q(91165),	--	Daily Rep Flame Radiance for killing Webspeaker Grik Ik (Ajz Kahet)
 			})),
 		}),
