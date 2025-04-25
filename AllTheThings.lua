@@ -98,6 +98,12 @@ local containsValue = app.containsValue;
 local indexOf = app.indexOf;
 local CloneArray = app.CloneArray
 
+-- OnLoad assignments, probably temporary as code gets migrated
+local ExpandGroupsRecursively
+app.AddEventHandler("OnLoad", function()
+	ExpandGroupsRecursively = app.ExpandGroupsRecursively
+end)
+
 -- Data Lib
 local AllTheThingsAD = {};			-- For account-wide data.
 
@@ -189,48 +195,6 @@ app.AddEventRegistration("SKILL_LINES_CHANGED", function()
 	DelayedCallback(RefreshTradeSkillCache, 2);
 end)
 end -- TradeSkill Functionality
-
-local ExpandGroupsRecursively;
-do
-local SkipAutoExpands = {
-	-- Specific HeaderID values should not expand
-	headerID = {
-		[app.HeaderConstants.ZONE_DROPS] = true,
-		[app.HeaderConstants.COMMON_BOSS_DROPS] = true,
-		[app.HeaderConstants.HOLIDAYS] = true
-	},
-	-- Item/Difficulty as Headers should not expand
-	itemID = true,
-	difficultyID = true,
-}
-local function SkipAutoExpand(group)
-	local key = group.key;
-	local skipKey = SkipAutoExpands[key];
-	if not skipKey then return; end
-	return skipKey == true or skipKey[group[key]];
-end
-ExpandGroupsRecursively = function(group, expanded, manual)
-	-- expand if there is any sub-group
-	if group.g then
-		-- app.PrintDebug("EGR",group.hash,expanded,manual);
-		-- if manually expanding
-		if (manual or (
-				-- not a skipped group for auto-expansion
-				not SkipAutoExpand(group) and
-				-- incomplete things actually exist below itself
-				((group.total or 0) > (group.progress or 0)) and
-				-- account/debug mode is active or it is not a 'saved' thing for this character
-				(app.MODE_DEBUG_OR_ACCOUNT or not group.saved))
-			) then
-			-- app.PrintDebug("EGR:expand");
-			group.expanded = expanded;
-			for _,subgroup in ipairs(group.g) do
-				ExpandGroupsRecursively(subgroup, expanded, manual);
-			end
-		end
-	end
-end
-end
 
 local ResolveSymbolicLink;
 -- Fills & returns a group with its symlink references, along with all sub-groups recursively if specified
