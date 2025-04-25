@@ -299,7 +299,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 							},
 					}),
 					i(237743, {	-- Arathi Soldier's Coffer (Uncommon) Only Green Cosmetics
-						["description"] = "Granted for achieving 100% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
+						["description"] = "Granted for achieving 33% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
 						["groups"] = {
 							i(241019),	-- Arathi Camper's Knife (COSMETIC!)
 							i(241016),	-- Arathi Lancer's Polearm (COSMETIC!)
@@ -307,7 +307,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, 
 						},
 					}),
 					i(237759, {	-- Arathi Cleric's Chest (Rare) Only Weapons
-						["description"] = "Granted for achieving 100% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
+						["description"] = "Granted for achieving 66% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 40%.",
 						["groups"] = {
 							n(WEAPONS, {
 								i(237795), -- Arathi Abbot's Gavel
