@@ -6285,7 +6285,7 @@ customWindowUpdates.list = function(self, force, got)
 						local text = o.text;
 						-- app.PrintDebug("check",text)
 						return IsRetrieving(text) or
-							(not text:find("#") and text ~= UNKNOWN);
+							(not text:find("#") and text ~= UNKNOWN and not text:find("transmogappearance:"));
 					end
 				end
 			else
