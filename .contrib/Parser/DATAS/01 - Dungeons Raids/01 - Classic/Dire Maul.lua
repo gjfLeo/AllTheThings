@@ -200,7 +200,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 			}),
 			n(QUESTS, {
 				q(1193, {	-- A Broken Trap
-					["provider"] = { "o", 179485 },	-- A Broken Trap
+					["provider"] = { "o", 179485 },	-- Broken Trap
 					["timeline"] = { REMOVED_4_0_3 },
 					["maps"] = GORDOK_COMMONS_MAPS,
 					-- #if BEFORE 4.0.3
@@ -214,7 +214,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					["lvl"] = lvlsquish(56, 56, 15),
 				}),
 				q(27118, {	-- A Broken Trap
-					["provider"] = { "o", 179485 },	-- A Broken Trap
+					["provider"] = { "o", 179485 },	-- Broken Trap
+					["description"] = "You must trap Guard Slip'kik in order to qualify for the full Tribute loot table.",
 					["timeline"] = { ADDED_4_0_3 },
 					["maps"] = GORDOK_COMMONS_MAPS,
 					["repeatable"] = true,
@@ -1732,15 +1733,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 					}),
 					e(414, {	-- Guard Slip'kik
 						["creatureID"] = 14323,
-						["provider"] = { "o", 179485 },	-- Broken Trap
-						["description"] = "Trap him using the Broken Trap.",
-						["sourceQuests"] = {
-							-- #if AFTER 4.0.3
-							27118,	-- A Broken Trap
-							-- #else
-							1193,	-- A Broken Trap
-							-- #endif
-						},
 						-- #if BEFORE 7.3.5
 						["groups"] = {
 							i(18498),	-- Hedgecutter
