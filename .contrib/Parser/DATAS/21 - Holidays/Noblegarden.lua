@@ -732,12 +732,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				199261,	-- Holiday Enthusiast
 				-- #if AFTER TWW
 				220307,	-- Holiday Enthusiast
+				220870,	-- Holiday Enthusiast
 				-- #endif
 			},
 			["coords"] = {
 				{ 31.6, 63.1, VALDRAKKEN },
 				-- #if AFTER TWW
 				{ 45.9, 55.0, DORNOGAL },
+				{ 55.5, 61.2, DORNOGAL },
 				-- #endif
 			},
 			["races"] = ALLIANCE_ONLY,
@@ -747,12 +749,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.NOBLEGARDEN, n(NOBLEGARDEN_HEADER, {
 				199261,	-- Holiday Enthusiast
 				-- #if AFTER TWW
 				220307,	-- Holiday Enthusiast
+				220870,	-- Holiday Enthusiast
 				-- #endif
 			},
 			["coords"] = {
 				{ 31.6, 63.1, VALDRAKKEN },
 				-- #if AFTER TWW
 				{ 45.9, 55.0, DORNOGAL },
+				{ 55.5, 61.2, DORNOGAL },
 				-- #endif
 			},
 			["races"] = HORDE_ONLY,
