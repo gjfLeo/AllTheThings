@@ -20,6 +20,8 @@ r(1226211),	-- Tinker: Nitro Boosts
 r(1226212),	-- Tinker: Magnetic Displacement
 r(1226213),	-- Semisafe Transporter: New Avalon
 r(1228088),	-- Pop-Up Shrub
+8.0.1.26476
+r(274621),	-- Mecha-Mogul Mk2
 
 
 

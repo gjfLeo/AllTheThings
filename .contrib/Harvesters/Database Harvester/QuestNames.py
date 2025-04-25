@@ -125,6 +125,7 @@ def get_quest_names() -> None:
         "TBC": "tbc",
         "WOTLK": "wotlk",
         "CATA": "cata",
+        "MOP": "mop-classic",
         "PTR": "ptr",
         "PTR2": "ptr-2",
         "BETA": "beta",

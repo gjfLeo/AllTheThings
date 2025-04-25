@@ -352,7 +352,7 @@ r(125552),	-- Pearlescent Spellthread
 r(125553),	-- Cerulean Spellthread
 r(125557),	-- Imperial Silk
 r(130325),	-- Song of Harmony
-6.0.1.18179
+5.5.0.60481
 r(134585),	-- Bipsi's Gloves
 r(137907),	-- Crafted Dreadful Gladiator's Cape of Cruelty
 r(137908),	-- Crafted Dreadful Gladiator's Cape of Prowess
@@ -435,6 +435,7 @@ r(143086),	-- Crafted Malevolent Gladiator's Felweave Trousers
 r(143087),	-- Crafted Malevolent Gladiator's Felweave Raiment
 r(143088),	-- Crafted Malevolent Gladiator's Felweave Amice
 r(146925),	-- Accelerated Celestial Cloth
+6.0.1.18179
 r(158758),	-- Tailoring
 7.3.0.24473
 r(176313),	-- Inspiring Battle Standard
