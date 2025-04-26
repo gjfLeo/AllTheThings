@@ -1101,6 +1101,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						i(235141), -- Formula: Idol of Ursin Power
 						i(234235), -- Pattern: Glowing Chitin Armor Kit
 						i(234236), -- Pattern: Sharpened Chitin Armor Kit
+						i(234237), -- Pattern: Razorbramble Cowl
+						i(234239), -- Pattern: Razorbramble Leathers
+						i(234238), -- Pattern: Razorbramble Shoulderpads
 						i(234244), -- Pattern: Qiraji Silk Scarf
 						i(234249), -- Pattern: Qiraji Silk Cape
 						i(234250), -- Pattern: Qiraji Silk Cloak
@@ -1126,6 +1129,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				})),
 			}),
+			-- #endif
 			filter(RECIPES, {
 				["crs"] = {
 					15516,	-- Battleguard Sartura
@@ -1370,7 +1374,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_SIX, i(235039, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
 						["timeline"] = { ADDED_1_15_6 },
-					}),
+					})),
 					-- #endif
 					i(21703),	-- Hammer of Ji'zhi
 					i(21128),	-- Staff of the Qiraji Prophets

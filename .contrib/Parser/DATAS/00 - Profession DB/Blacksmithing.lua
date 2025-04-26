@@ -54,7 +54,7 @@ i(228308, 461718, nil, MASTER_HAMMERSMITH);	-- Tranquility
 i(228306, 461714, nil, MASTER_SWORDSMITH);	-- Desecration
 
 ------------------
--- PATCH 1.15.6 --
+-- PATCH 1.15.5 --
 ------------------
 i(234220, 1213481, nil, ARMORSMITH);			-- Razorspike Headcage
 i(234221, 1213484, nil, ARMORSMITH);			-- Razorspike Shoulderplate

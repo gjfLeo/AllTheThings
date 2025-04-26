@@ -59,6 +59,12 @@ i(0, 446185);		-- Shrieking Spaulders
 i(0, 446190);		-- Wailing Chain Mantle
 -- #endif
 
+------------------
+-- PATCH 1.15.5 --
+------------------
+i(234235, 1213513);	-- Glowing Chitin Armor Kit
+i(234236, 1213519);	-- Sharpened Chitin Armor Kit
+
 -----------------
 --   CLASSIC   --
 -----------------

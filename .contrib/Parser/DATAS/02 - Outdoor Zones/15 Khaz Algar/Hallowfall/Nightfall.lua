@@ -233,7 +233,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					n(241234, {	-- Whisperer Batalsworn
 						["description"] = "Within the Hold the Wall assault.",
 						["provider"] = { "o", 527398 },	-- Suspicious Document
-						["quedtID"] = 91151,
+						["questID"] = 91151,
 						["isDaily"] = true,
 					}),
 					-- Southern Swarm --

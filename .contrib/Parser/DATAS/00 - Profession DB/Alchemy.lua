@@ -24,7 +24,7 @@ i(0, 446851);		-- Flask of Nightmarish Mojo
 i(0, 448085);		-- Flask of Restless Dreams
 
 ------------------
--- PATCH 1.15.6 --
+-- PATCH 1.15.5 --
 ------------------
 --- ITEM ---
 i(234252, 1213544);	-- Flask of Unyielding Sorrow

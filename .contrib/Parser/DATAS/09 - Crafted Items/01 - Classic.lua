@@ -2493,12 +2493,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						REMOVED_6_0_2,
 					}
 				}),
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(233803, { ["timeline"] = { ADDED_1_15_5 }, })), -- Sharpened Chitin Armor Kit
+				-- #endif
 			},
 		}),
 		prof(10658, {	-- Elemental Leatherworking
 			["description"] = "These items can only be crafted by Leatherworkers who have completed the associated quest.",
 			["groups"] = {
 				i(8346),	-- Gauntlets of the Sea
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(233802, { ["timeline"] = { ADDED_1_15_5 }, })), -- Glowing Chitin Armor Kit
+				-- #endif
 				i(8348),	-- Helm of Fire
 				i(15059, {	-- Living Breastplate
 					["timeline"] = {
