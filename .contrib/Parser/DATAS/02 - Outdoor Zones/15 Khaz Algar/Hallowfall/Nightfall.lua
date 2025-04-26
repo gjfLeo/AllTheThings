@@ -351,22 +351,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(237760, {	-- Arathi Champion's Spoils (Epic)
 						["description"] = "Granted for achieving 100% during the Nightfall Event.\nThe bar is increased by killing Sureki mobs and completing objectives in Nightfall.\n\nThe Event always starts on the hour.\n\nBest time to fill the bar is the 90seconds before the Boss spawns & the Boss itself also gives 42%.",
 						["sym"] = {{"select","itemID",
-							237791,	-- Arathi Zealot's Cleaver
-							237797,	-- Arathi Zealot's Dagger
-							237798,	-- Arathi Zealot's Knife
-							237803,	-- Arathi Abbot's Kris
-							237802,	-- Arathi Cleric's Blunderbuss
-							237804,	-- Arathi Zealot's Shotgun
-							237795,	-- Arathi Abbot's Gavel
-							237796,	-- Arathi Zealot's Cudgel
-							237801,	-- Arathi Abbot's Implement
-							237792,	-- Arathi Crusader's Halberd
-							237793,	-- Arathi Crusader's Bulwark
-							237800,	-- Arathi Cleric's Rod
-							237799,	-- Arathi Abbot's Greatstaff
-							237794,	-- Arathi Crusader's Greatsword
-							237806,	-- Arathi Abbot's Wand
-							237805,	-- Arathi Zealot's Warglaive
+							237795, -- Arathi Abbot's Gavel
+							237799, -- Arathi Abbot's Greatstaff
+							237801, -- Arathi Abbot's Implement
+							237803, -- Arathi Abbot's Kris
+							237806, -- Arathi Abbot's Wand
+							241036, -- Arathi Anointer's Wand
+							237800, -- Arathi Cleric's Rod
+							237802, -- Arathi Cleric's Blunderbuss
+							237792, -- Arathi Crusader's Halberd
+							237793, -- Arathi Crusader's Bulwark
+							237794, -- Arathi Crusader's Greatsword
+							241035, -- Arathi Soldier's Morningstar
+							241033, -- Arathi Templar's Claymore
+							237791, -- Arathi Zealot's Cleaver
+							237796, -- Arathi Zealot's Cudgel
+							237797, -- Arathi Zealot's Dagger
+							237798, -- Arathi Zealot's Knife
+							237804, -- Arathi Zealot's Shotgun
+							237805, -- Arathi Zealot's Warglaive
 						}},
 						["groups"] = {
 							filter(CLOAKS, {
