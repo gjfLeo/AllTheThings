@@ -60,7 +60,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["coord"] = { 28.3, 56.1, HALLOWFALL },
 					}),
 				}, {	-- RENOWN 5 --
-					i(233289),	-- Radiant Stalwart's Tabard
+					q(89494, {	-- A Frocking Good Job
+						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
+						["g"] = { i(233289) },	-- Radiant Stalwart's Tabard
+					}),
 				}, {	-- RENOWN 6 --
 				}, {	-- RENOWN 7 --
 				}, {	-- RENOWN 8 --
