@@ -1108,6 +1108,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						i(234249), -- Pattern: Qiraji Silk Cape
 						i(234250), -- Pattern: Qiraji Silk Cloak
 						i(234251), -- Pattern: Qiraji Silk Drape
+						i(234240), -- Pattern: Vampiric Cowl
+						i(234241), -- Pattern: Vampiric Shawl
+						i(234242), -- Pattern: Vampiric Robe
 						i(234223), -- Plans: Obsidian Reaver
 						i(234224), -- Plans: Obsidian Champion
 						i(234225), -- Plans: Obsidian Destroyer

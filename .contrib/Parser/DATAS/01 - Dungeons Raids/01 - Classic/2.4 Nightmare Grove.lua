@@ -195,6 +195,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(SOD_PHASE_SEVEN, i(234249, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Qiraji Silk Cape
 					applyclassicphase(SOD_PHASE_SEVEN, i(234250, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Qiraji Silk Cloak
 					applyclassicphase(SOD_PHASE_SEVEN, i(234251, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Qiraji Silk Drape
+					applyclassicphase(SOD_PHASE_SEVEN, i(234240, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Vampiric Cowl
+					applyclassicphase(SOD_PHASE_SEVEN, i(234241, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Vampiric Shawl
+					applyclassicphase(SOD_PHASE_SEVEN, i(234242, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Vampiric Robe
 					applyclassicphase(SOD_PHASE_SEVEN, i(234223, { ["timeline"] = { ADDED_1_15_6 }, })), -- Plans: Obsidian Reaver
 					applyclassicphase(SOD_PHASE_SEVEN, i(234224, { ["timeline"] = { ADDED_1_15_6 }, })), -- Plans: Obsidian Champion
 					applyclassicphase(SOD_PHASE_SEVEN, i(234225, { ["timeline"] = { ADDED_1_15_6 }, })), -- Plans: Obsidian Destroyer
