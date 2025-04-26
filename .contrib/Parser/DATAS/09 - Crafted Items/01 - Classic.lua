@@ -1341,6 +1341,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			i(12810),	-- Enchanted Leather
 			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234002, { ["timeline"] = { ADDED_1_15_5 }, })), -- Enchanted Mushroom (Idol)
+			applyclassicphase(SOD_PHASE_SIX, i(234000, { ["timeline"] = { ADDED_1_15_5 }, })), -- Enchanted Prayer Tome (Libram)
+			applyclassicphase(SOD_PHASE_SIX, i(234001, { ["timeline"] = { ADDED_1_15_5 }, })), -- Enchanted Totem (Totem)
 			applyclassicphase(SOD_PHASE_TWO, i(217308, {	-- Enchanted Sigil: Innovation
 				["timeline"] = { ADDED_1_15_1 },
 			})),
@@ -1349,8 +1352,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			})),
 			-- #endif
 			i(12655),	-- Enchanted Thorium Bar
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234469, { ["timeline"] = { ADDED_1_15_5 }, })), -- Idol of Feline Ferocity
+			applyclassicphase(SOD_PHASE_SIX, i(234474, { ["timeline"] = { ADDED_1_15_5 }, })), -- Idol of Sidereal Wrath
+			applyclassicphase(SOD_PHASE_SIX, i(234468, { ["timeline"] = { ADDED_1_15_5 }, })), -- Idol of Ursin Power
+			-- #endif
 			applyclassicphase(PHASE_FIVE_RECIPES, i(20747)),	-- Lesser Mana Oil
 			applyclassicphase(PHASE_FIVE_RECIPES, i(20746)),	-- Lesser Wizard Oil
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234475, { ["timeline"] = { ADDED_1_15_5 }, })), -- Libram of the Exorcist
+			applyclassicphase(SOD_PHASE_SIX, i(234476, { ["timeline"] = { ADDED_1_15_5 }, })), -- Libram of Sanctity
+			applyclassicphase(SOD_PHASE_SIX, i(234477, { ["timeline"] = { ADDED_1_15_5 }, })), -- Libram of Righteousness
+			-- #endif
 			applyclassicphase(PHASE_FIVE, i(20745)),	-- Minor Mana Oil
 			applyclassicphase(PHASE_FIVE, i(20744)),	-- Minor Wizard Oil
 			i(16207, {["timeline"] = {REMOVED_5_0_4}}),	-- Runed Arcanite Rod
@@ -1363,10 +1376,24 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				["timeline"] = { ADDED_1_15_2 },
 			})),
 			-- #endif
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234479, { ["timeline"] = { ADDED_1_15_5 }, })), -- Totem of Flowing Magma
+			applyclassicphase(SOD_PHASE_SIX, i(234480, { ["timeline"] = { ADDED_1_15_5 }, })), -- Totem of Pyroclastic Thunder
+			applyclassicphase(SOD_PHASE_SIX, i(234478, { ["timeline"] = { ADDED_1_15_5 }, })), -- Totem of Thunderous Strikes
+			-- #endif
 			applyclassicphase(PHASE_FIVE, i(20750)),	-- Wizard Oil
 		}),
 		filter(TRINKET_F, {
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233993, { ["timeline"] = { ADDED_1_15_5 }, })), -- Enchanted Stopwatch
+			applyclassicphase(SOD_PHASE_SIX, i(233992, { ["timeline"] = { ADDED_1_15_5 }, })), -- Lodestone of Retaliation
+			applyclassicphase(SOD_PHASE_SIX, i(233994, { ["timeline"] = { ADDED_1_15_5 }, })), -- Ruby-Encrusted Broach
+			-- #endif
 			i(11811),	-- Smoking Heart of the Mountain
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233990, { ["timeline"] = { ADDED_1_15_5 }, })), -- Speedstone
+			applyclassicphase(SOD_PHASE_SIX, i(233991, { ["timeline"] = { ADDED_1_15_5 }, })), -- Tear of the Dreamer
+			-- #endif
 		}),
 		applyclassicphase(WRATH_PHASE_ONE, n(WEAPON_ENCHANTMENTS, sharedDataSelf({ ["timeline"] = { ADDED_3_0_2 } }, {
 			i(38843, {["timeline"] = {ADDED_3_0_2, REMOVED_5_0_4}}),	-- Enchant Shield - Frost Resistance
