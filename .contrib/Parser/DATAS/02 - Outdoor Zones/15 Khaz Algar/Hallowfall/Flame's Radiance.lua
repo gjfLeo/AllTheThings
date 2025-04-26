@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
 						["coord"] = { 28.3, 56.1, HALLOWFALL },
 						["g"] = { 
-							i(233299)	-- Sacred Templar's Buckle
+							i(233299),	-- Sacred Templar's Buckle
 							i(233290),	-- Sacred Templar's Tabard
 						},
 					}),
