@@ -297,6 +297,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 	}),
 	-- #endif
 	n(QUESTS, {
+		-- ATTACH ME TO A QUEST
+		i(232857),	-- Goggle's Favorite Chew-Wrench
+		i(241193),	-- Threadis's Workshopbot 2.0
+		--
 		q(10952, {	-- A Trip to the Dark Portal [Alliance - Draenei]
 			["providers"] = {
 				{ "i", 31881 },	-- Draenei Orphan Whistle
