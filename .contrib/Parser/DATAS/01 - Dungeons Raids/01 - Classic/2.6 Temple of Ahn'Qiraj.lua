@@ -25,9 +25,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 		-- #endif
 		["coord"] = { 46.76, 7.53, AHNQIRAJ_THE_FALLEN_KINGDOM },
 		["maps"] = {
-			TEMPLE_OF_AHNQIRAJ,	-- The Temple Gates
-			319,	-- The Hive Undergrounds
-			321,	-- Vault of C'Thun
+			TEMPLE_OF_AHNQIRAJ,
+			TEMPLE_OF_AHNQIRAJ_LEVEL2,
+			TEMPLE_OF_AHNQIRAJ_LEVEL3,
 		},
 		["isRaid"] = true,
 		["lvl"] = 50,

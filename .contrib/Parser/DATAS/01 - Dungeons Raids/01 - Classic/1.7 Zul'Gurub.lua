@@ -14,9 +14,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 		-- #endif
 		["maps"] = {
 			ZULGURUB,
-			-- #if ANYCLASSIC
-			233,
-			-- #endif
+			ZULGURUB_OUTDOORS,
 		},
 		["isRaid"] = true,
 		["lvl"] = 58,

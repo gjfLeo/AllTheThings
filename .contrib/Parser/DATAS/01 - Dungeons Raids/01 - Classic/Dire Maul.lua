@@ -65,22 +65,22 @@ local DIREMAUL_SUBMAP = function(mapID, headerID, t)
 	return m(mapID, t);
 end
 local WARPWOOD_QUARTER_MAPS = {
-	239,	-- Warpwood Quarter (main)
+	DIRE_MAUL_WARPWOOD_QUARTER,
 };
 local GORDOK_COMMONS_MAPS = {
-	235,	-- Gordok Commons (main)
+	DIRE_MAUL_GORDOK_COMMONS,
 };
 local CAPITAL_GARDENS_MAPS = {
-	236,	-- Capital Gardens (main)
-	237,	-- Court of the Highborne
-	238,	-- Prison of Immol'Thar
+	DIRE_MAUL_CAPITAL_GARDENS,
+	DIRE_MAUL_COURT_OF_THE_HIGHBORNE,
+	DIRE_MAUL_PRISON_OF_IMMOLTHAR,
 };
 local ALL_DIREMAUL_MAPS = {
-	239,	-- Warpwood Quarter (main)
-	235,	-- Gordok Commons (main)
-	236,	-- Capital Gardens (main)
-	237,	-- Court of the Highborne
-	238,	-- Prison of Immol'Thar
+	DIRE_MAUL_WARPWOOD_QUARTER,
+	DIRE_MAUL_GORDOK_COMMONS,
+	DIRE_MAUL_CAPITAL_GARDENS,
+	DIRE_MAUL_COURT_OF_THE_HIGHBORNE,
+	DIRE_MAUL_PRISON_OF_IMMOLTHAR,
 };
 -- #if BEFORE 4.0.3
 local OnTooltipForShendralar = [[function(t, tooltipInfo)
@@ -139,7 +139,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 		},
 		["maps"] = {
 			DIRE_MAUL,
-			240,	-- The Shrine of Eldretharr?
+			DIRE_MAUL_SHRINE_OF_ELDRETHARR,
 		},
 		["lvl"] = lvlsquish(44, 44, 15),
 		["groups"] = {
