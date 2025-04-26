@@ -2906,10 +2906,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_SIX, i(234272, {	-- Formula: Enchanted Repellent
 							["timeline"] = { ADDED_1_15_5 },
-						}),
+						})),
 						applyclassicphase(SOD_PHASE_SIX, i(234271, {	-- Formula: Scroll: Wrath of the Swarm
 							["timeline"] = { ADDED_1_15_5 },
-						}),
+						})),
 						-- #endif
 						i(20755),	-- Formula: Wizard Oil (RECIPE!)
 						i(22307),	-- Pattern: Enchanted Mageweave Pouch
@@ -2934,14 +2934,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_SIX, i(234263, {		-- Schematic: Obsidian Bomb (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
-							}),
+							})),
 							-- #endif
 						}, {	-- Honored
 							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22773)),	-- Pattern: Sylvan Crown (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_SIX, i(234262, {		-- Schematic: The Fumigator (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
-							}),
+							})),
 							-- #endif
 						}, {	-- Revered
 							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22683)),	-- Pattern: Gaea's Embrace (RECIPE!)
@@ -2950,7 +2950,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_SIX, i(234261, {		-- Schematic: Arcane Megabomb (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
-							}),
+							})),
 							-- #endif
 						}, {	-- Exalted
 						},
@@ -2970,10 +2970,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #if SEASON_OF_DISCOVERY
 							applyclassicphase(SOD_PHASE_SIX, i(234279, {		-- Plans: Obsidian Grinding Stone (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
-							}),
+							})),
 							applyclassicphase(SOD_PHASE_SIX, i(234280, {		-- Schematic: Obsidian Blasting Powder (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
-							}),
+							})),
 							-- #endif
 						}, {	-- Honored
 							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22767)),	-- Plans: Ironvine Gloves (RECIPE!)

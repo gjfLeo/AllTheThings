@@ -944,7 +944,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FOUR,
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_SIX, i(232610, {	-- Formula: Magnificent Trollshine
 							["timeline"] = { ADDED_1_15_5 },
-						}),
+						})),
 						-- #endif
 						i(19772),	-- Pattern: Blood Tiger Breastplate (RECIPE!)
 						i(19773),	-- Pattern: Blood Tiger Shoulders (RECIPE!)
