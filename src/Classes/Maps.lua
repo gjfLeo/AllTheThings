@@ -1014,8 +1014,7 @@ local instanceFields = {
 		return t.isRaid and ("|c" .. app.Colors.Raid .. t.name .. "|r") or t.name;
 	end,
 	["name"] = function(t)
-		local mapID = t.mapID;
-		return mapID and GetMapName(mapID);
+		return GetMapName(t.mapID);
 	end,
 	["icon"] = function(t)
 		return app.asset("Category_Zones");
