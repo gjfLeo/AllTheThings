@@ -114,7 +114,7 @@ local DynamicCategory_Simple = function(self)
 				-- dynamic groups for Things within a specific Value of a Type are expected to be collected under a Header of the Type itself
 			else
 				-- instead of trying to do Simple if the cache doesn't exist, just put a Nested Dynamic group
-				DynamicCategory_Nested(self);
+				return DynamicCategory_Nested(self);
 			end
 		else
 			for id,sources in pairs(dynamicCache) do
@@ -149,7 +149,7 @@ local DynamicCategory_Simple = function(self)
 		app.DirectGroupUpdate(self);
 	else
 		-- instead of trying to do Simple if the cache doesn't exist, just put a Nested Dynamic group
-		DynamicCategory_Nested(self);
+		return DynamicCategory_Nested(self);
 	end
 end
 
@@ -213,16 +213,19 @@ local function dynamic_onclick(row, button)
 	if not RecalculateFiller() then return true end
 	-- fill the dynamic category group
 	FillDynamicCategory(row.ref)
+	row.ref.expanded = true
 	-- don't handle further onclick logic (i.e. expanding)
 	row.ref.__filled = true
 	return true
 end
 local function dynamicvalues_onclick(row, button)
-	if not RecalculateFiller() then return end
+	if not RecalculateFiller() then return true end
 	-- fill the dynamic category group
 	NestDynamicValueCategories(row.ref)
+	row.ref.expanded = true
 	-- allow further onclick logic (i.e. expanding)
 	row.ref.__filled = true
+	return true
 end
 
 -- Allows creating an ATT object which can be toggled true/false, and when clicked captures the toggleID state into the parent and passes it into an optional handler
