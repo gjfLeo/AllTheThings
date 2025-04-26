@@ -650,7 +650,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88684),	-- OH weapon (caster/off spec) / Arathi Abbot's Implement (itemID 237801)
 				q(88896),	-- OH weapon (caster/off spec) / Nightfall Darkcaster's Implement (itemID 237785) (it was looted from boss during nightfall event)
 				q(88687, {	-- Arathi Crusader Set Cape Unlock 
-					["name"] = "Unlocked Cape Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				--	["name"] = "Unlocked Cape Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
 				q(88692, {	-- Arathi Crusader Set Chest Unlock 
 					["name"] = "Unlocked Chest Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
