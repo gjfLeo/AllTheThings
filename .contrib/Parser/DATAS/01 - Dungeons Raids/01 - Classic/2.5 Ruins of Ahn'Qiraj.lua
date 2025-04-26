@@ -896,7 +896,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					-- #if SEASON_OF_DISCOVERY
 					applyclassicphase(SOD_PHASE_SIX, i(234085, {	--	Plans: Black Grasp of the Destroyer (RECIPE!)
 						["timeline"] = { ADDED_1_15_5 },
-					}),
+					})),
 					-- #endif
 				},
 			}),
