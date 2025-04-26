@@ -3352,6 +3352,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(206507, {["timeline"] = {ADDED_10_1_5}}),	-- Necrotic Gown
 			i(206582, {["timeline"] = {ADDED_10_1_5}}),	-- Peculiar Glacial Mantle
 			i(206562, {["timeline"] = {ADDED_10_1_5}}),	-- Shroud of Forbidden Magic
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233826, { ["timeline"] = { ADDED_1_15_5 }, })), -- Vampiric Cowl
+			applyclassicphase(SOD_PHASE_SIX, i(233837, { ["timeline"] = { ADDED_1_15_5 }, })), -- Vampiric Robe
+			applyclassicphase(SOD_PHASE_SIX, i(233833, { ["timeline"] = { ADDED_1_15_5 }, })), -- Vampiric Shawl
+			-- #endif
 		}),
 		category(230, {	-- Materials
 			i(2996),	-- Bolt of Linen Cloth
@@ -3764,6 +3769,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(2570),	-- Linen Cloak
 			i(4326),	-- Long Silken Cloak
 			i(5542),	-- Pearl-Clasped Cloak
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233958, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Cape
+			applyclassicphase(SOD_PHASE_SIX, i(233959, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Cloak
+			applyclassicphase(SOD_PHASE_SIX, i(233960, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Drape
+			applyclassicphase(SOD_PHASE_SIX, i(233956, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Scarf
+			-- #endif
 			i(2580),	-- Reinforced Linen Cape
 			i(13860),	-- Runecloth Cloak
 			i(45626, {["timeline"] = { ADDED_3_1_0 }}),	-- Spidersilk Drape
