@@ -70,7 +70,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}, {	-- RENOWN 8 --
 				}, {	-- RENOWN 9 --
 				}, {	-- RENOWN 10 --
-					i(233290),	-- Sacred Templar's Tabard
+					q(89400, {	-- Carved Crests
+						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
+					}),
+					q(89496, {	-- Defender of the Sacred Flame
+						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
+						["g"] = { i(233299) },	-- Sacred Templar's Buckle -- maybe it was on stipend, not sure
+					}),
+					q(89397, {	-- Flame's Radiance Stipend
+						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
+						["g"] = { i(233290) },	-- Sacred Templar's Tabard
+					}),
 				},
 			})),
 			n(VENDORS, {
