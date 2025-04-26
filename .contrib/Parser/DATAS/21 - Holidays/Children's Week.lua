@@ -297,7 +297,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 	}),
 	-- #endif
 	n(QUESTS, {
-		-- ATTACH ME TO A QUEST
+		-- ATTACH ME TO A QUEST WHEN FOUND
 		i(232857),	-- Goggle's Favorite Chew-Wrench
 		i(241193),	-- Threadis's Workshopbot 2.0
 		--
