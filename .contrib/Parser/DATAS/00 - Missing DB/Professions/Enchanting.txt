@@ -2,13 +2,6 @@
 r(463866),	-- Sigil of Flowing Waters
 r(463869),	-- Conductive Shield Coating
 r(463871),	-- Enchant Shield - Law of Nature
-1.15.5.57537
-r(471400),	-- Magnificent Trollshine
-r(1213607),	-- Scroll: Wrath of the Swarm
-r(1213610),	-- Enchanted Repellent
-r(1213616),	-- Enchant Chest - Living Stats
-r(1213622),	-- Enchant Gloves - Holy Power
-r(1213626),	-- Enchant Gloves - Arcane Power
 1.15.5.57716
 r(1217189),	-- Enchant Bracer - Spell Power
 r(1217203),	-- Enchant Bracer - Agility

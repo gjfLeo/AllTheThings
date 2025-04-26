@@ -1341,6 +1341,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			i(12810),	-- Enchanted Leather
 			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234272, { ["timeline"] = { ADDED_1_15_5 }, })), -- Formula: Enchanted Repellent
 			applyclassicphase(SOD_PHASE_SIX, i(234002, { ["timeline"] = { ADDED_1_15_5 }, })), -- Enchanted Mushroom (Idol)
 			applyclassicphase(SOD_PHASE_SIX, i(234000, { ["timeline"] = { ADDED_1_15_5 }, })), -- Enchanted Prayer Tome (Libram)
 			applyclassicphase(SOD_PHASE_SIX, i(234001, { ["timeline"] = { ADDED_1_15_5 }, })), -- Enchanted Totem (Totem)
@@ -1363,6 +1364,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(SOD_PHASE_SIX, i(234475, { ["timeline"] = { ADDED_1_15_5 }, })), -- Libram of the Exorcist
 			applyclassicphase(SOD_PHASE_SIX, i(234476, { ["timeline"] = { ADDED_1_15_5 }, })), -- Libram of Sanctity
 			applyclassicphase(SOD_PHASE_SIX, i(234477, { ["timeline"] = { ADDED_1_15_5 }, })), -- Libram of Righteousness
+			applyclassicphase(SOD_PHASE_SIX, i(232611, { ["timeline"] = { ADDED_1_15_5 }, })), -- Magnificent Trollshine
 			-- #endif
 			applyclassicphase(PHASE_FIVE, i(20745)),	-- Minor Mana Oil
 			applyclassicphase(PHASE_FIVE, i(20744)),	-- Minor Wizard Oil
@@ -1375,8 +1377,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(SOD_PHASE_THREE, i(220792, {	-- Scroll of Spatial Mending
 				["timeline"] = { ADDED_1_15_2 },
 			})),
-			-- #endif
-			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233995, { ["timeline"] = { ADDED_1_15_5 }, })), -- Scroll: Wrath of the Swarm
 			applyclassicphase(SOD_PHASE_SIX, i(234479, { ["timeline"] = { ADDED_1_15_5 }, })), -- Totem of Flowing Magma
 			applyclassicphase(SOD_PHASE_SIX, i(234480, { ["timeline"] = { ADDED_1_15_5 }, })), -- Totem of Pyroclastic Thunder
 			applyclassicphase(SOD_PHASE_SIX, i(234478, { ["timeline"] = { ADDED_1_15_5 }, })), -- Totem of Thunderous Strikes

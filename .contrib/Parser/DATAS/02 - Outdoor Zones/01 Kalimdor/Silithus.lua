@@ -2903,6 +2903,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(20753),	-- Formula: Lesser Wizard Oil (RECIPE!)
 						i(20752),	-- Formula: Minor Mana Oil (RECIPE!)
 						i(20758),	-- Formula: Minor Wizard Oil (RECIPE!)
+						-- #if SEASON_OF_DISCOVERY
+						applyclassicphase(SOD_PHASE_SIX, i(234272, {	-- Formula: Enchanted Repellent
+							["timeline"] = { ADDED_1_15_5 },
+						}),
+						applyclassicphase(SOD_PHASE_SIX, i(234271, {	-- Formula: Scroll: Wrath of the Swarm
+							["timeline"] = { ADDED_1_15_5 },
+						}),
+						-- #endif
 						i(20755),	-- Formula: Wizard Oil (RECIPE!)
 						i(22307),	-- Pattern: Enchanted Mageweave Pouch
 						i(22308),	-- Pattern: Enchanted Runecloth Bag
