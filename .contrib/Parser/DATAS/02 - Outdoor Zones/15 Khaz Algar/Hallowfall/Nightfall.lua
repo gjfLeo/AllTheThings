@@ -640,7 +640,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	m(KHAZ_ALGAR, {
 		m(HALLOWFALL, {
 			n(NIGHTFALL, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
-				q(90105, {["isDaily"]=true}),	-- Bonus reputaion per day for 1st event when you filled progress bar
+				q(90105, {["isDaily"]=true}),	-- Bonus reputation per day for 1st event when you filled progress bar
 				-- after opening Arathi Champion's Spoils (237760) per slot as was for Siren Islands?
 				-- seems like one per Arathi XX set and one per Nightfall XX set?
 				q(88686),	-- 2H weapon (agi/str weapon) / Arathi Crusader's Halberd (itemID 237792)
@@ -649,23 +649,37 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88895),	-- 1H weapon (caster/off spec) / Nightfall Darkcaster's Kris (itemID 237787)
 				q(88684),	-- OH weapon (caster/off spec) / Arathi Abbot's Implement (itemID 237801)
 				q(88896),	-- OH weapon (caster/off spec) / Nightfall Darkcaster's Implement (itemID 237785) (it was looted from boss during nightfall event)
-				q(88687),	-- Cape / Arathi Abbot's Cloak (itemID 237394)
+				q(88687, {	-- Arathi Crusader Set Cape Unlock 
+					["name"] = "Unlocked Cape Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
+				q(88692, {	-- Arathi Crusader Set Chest Unlock 
+					["name"] = "Unlocked Chest Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
+				q(88691, {	-- Arathi Crusader Set Feet Unlock 
+					["name"] = "Unlocked Feet Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
+				q(88690, {	-- Arathi Crusader Set Hands Unlock 
+					["name"] = "Unlocked Hands Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
+				q(88693, {	-- Arathi Crusader Set Legs Unlock 
+					["name"] = "Unlocked Legs Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
+				q(88694, {	-- Arathi Crusader Set Shoulder Unlock 
+					["name"] = "Unlocked Shoulder Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
+				q(88688, {	-- Arathi Crusader Set Wrists Unlock 
+					["name"] = "Unlocked Wrist Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
+				}),
 				--q(??),	-- Cape / Nightfall Curseblade Cape (itemID 237444)
-				q(88692),	-- Chest / Arathi Zealot's Vest (itemID 237404)
 				q(88888),	-- Chest / Nightfall Curseblade's Vest
-				q(88691),	-- Feet / Arathi Zealot's Waders (itemID 237405)
 				--q(??),	-- Feet / Nightfall Curseblade's Waders (itemID 237446)
-				q(88690),	-- Hands / Arathi Zealot's Grips (itemID 237406)
 				q(88890),	-- Hands / Nightfall Curseblade's Grips (itemID 237447) (it was looted from Dissenter Fervormyt?)
-				q(88693),	-- Legs / Arathi Zealot's Breeches (itemID 237407)
 				--q(??),	-- Legs / Nightfall Curseblade's Breeches (itemID 237448)
 				q(88683),	-- Neck / Clergyman's Anointed Pendant (itemID 237432)
 				q(88682),	-- Ring / Divine Loop of the Crusader (itemID 237431)
-				q(88694),	-- Shoulder / Arathi Zealot's Shoulderpads (itemID 237408)
 				--q(??),	-- Shoulder / Nightfall Curseblade's Shoulderpads (itemID 237449)
 				q(88681),	-- Trinket 1 / Shining Arathor Insignia (itemID 225947)
 				q(88680),	-- Trinket 2 / Hallowed Tome of the Cleric (itemID 237494)
-				q(88688),	-- Wrists / Arathi Zealot's Bindings (itemID 237410)
 				--q(??),	-- Wrists / Nightfall Curseblade's Bindings (itemID 237451)
 				-- after turn in weekly?
 				q(88898),	-- after turn in Radiant Incursion: Rak-Zakaz (88945)
