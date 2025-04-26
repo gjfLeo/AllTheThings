@@ -1381,7 +1381,7 @@ CurrentClassicExpansion = {
 		-- #if ANYCLASSIC
 		en = "Cataclysm Classic",
 		-- #else
-		en = "Wrath of the Lich King",
+		en = "Cataclysm",
 		-- #endif
 	},
 };
@@ -1472,9 +1472,60 @@ CurrentClassicExpansion = {
 		-- #endif
 	},
 };
-MOP_PHASE_ONE = 50;
-MOP_PHASE_TWO = 51;
-MOP_PHASE_THREE = 52;
+MOP_PHASE_ONE = createClassicPhase({
+	readable = "Mists Classic - Phase 1",
+	originalTimelines = { "5.0.4" },
+	minimumBuildVersion = 50500,
+	buildVersion = 50500,
+	phaseID = 50,
+	text = {
+		en = "Phase 1",
+		tw = "第1階段",
+	},
+	lore = {
+		en = "Included Level 85 Theramore's Fall scenario and the updated talent system.",
+	},
+});
+MOP_PHASE_LANDFALL = createClassicPhase({
+	readable = "Mists Classic - Landfall",
+	originalTimelines = { "5.1.0" },
+	minimumBuildVersion = 50500,
+	buildVersion = 50500,
+	phaseID = 51,
+	text = {
+		en = "Landfall",
+	},
+	lore = {
+		en = "Included Mogu'shan Vaults, Heart of Fear, and Terrace of the Endless Spring.",
+	},
+});
+MOP_PHASE_TWO = createClassicPhase({
+	readable = "Mists Classic - Phase 2",
+	originalTimelines = { "5.2.0" },
+	minimumBuildVersion = 50500,
+	buildVersion = 50501,
+	phaseID = 51,
+	text = {
+		en = "Phase 2",
+		tw = "第2階段",
+	},
+	lore = {
+		en = "Included Throne of Thunder, the Isle of Giants, and the Isle of Thunder.",
+	},
+});
+MOP_PHASE_THREE = createClassicPhase({
+	readable = "Mists Classic - Phase 3",
+	minimumBuildVersion = 50500,
+	buildVersion = 50502,
+	phaseID = 52,
+	text = {
+		en = "Phase 3",
+		tw = "第3階段",
+	},
+	lore = {
+		en = "Included Siege of Orgrimmar and the Timeless Isle.",
+	},
+});
 
 
 

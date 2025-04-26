@@ -1385,9 +1385,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					i(21704),	-- Boots of the Redeemed Prophecy
 					i(21706),	-- Boots of the Unwavering Will
 					i(21707),	-- Ring of Swarming Thought
-					applyclassicphase(MOP_PHASE_ONE, i(93041, {	-- Mini Mindslayer (PET!)
+					i(93041, {	-- Mini Mindslayer (PET!)
 						["timeline"] = { ADDED_5_1_0 },
-					})),
+					}),
 				},
 			}),
 			-- #if AFTER LEGION
@@ -1516,9 +1516,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					i(22399, {	-- Idol of Health
 						["timeline"] = { REMOVED_5_0_4 },
 					}),
-					applyclassicphase(MOP_PHASE_ONE, i(93039, {	-- Viscidus Globule (PET!)
+					i(93039, {	-- Viscidus Globule (PET!)
 						["timeline"] = { ADDED_5_1_0 },
-					})),
+					}),
 				},
 			}),
 			e(1546, {	-- Princess Huhuran
@@ -1546,9 +1546,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					i(21598),	-- Royal Qiraji Belt
 					i(21600),	-- Boots of Epiphany
 					i(21601),	-- Ring of Emperor Vek'lor
-					applyclassicphase(MOP_PHASE_ONE, i(93040, {	-- Anubisath Idol (PET!)
+					i(93040, {	-- Anubisath Idol (PET!)
 						["timeline"] = { ADDED_5_1_0 },
-					})),
+					}),
 				}),
 				n(15275, {	-- Emperor Vek'nilash
 					i(20726),	-- Formula: Enchant Gloves - Threat (RECIPE!)
