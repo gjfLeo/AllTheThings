@@ -1593,6 +1593,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(4392),	-- Advanced Target Dummy
 			i(6533),	-- Aquadynamic Fish Attractor
 			i(16040),	-- Arcane Bomb
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233987, { ["timeline"] = { ADDED_1_15_5 }, })), -- Arcane Mega Bomb
+			-- #endif
 			i(6219, {	-- Arclight Spanner
 				["collectible"] = false,
 			}),
@@ -1622,6 +1625,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(21569),	-- Firework Launcher
 			i(4376),	-- Flame Deflector
 			i(4852),	-- Flash Bomb
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233987, { ["timeline"] = { ADDED_1_15_5 }, })), -- G00 DV-1B3 Generator
+			-- #endif
 			i(4397),	-- Gnomish Cloaking Device
 			i(7506),	-- Gnomish Universal Remote
 			i(7148),	-- Goblin Jumper Cables
@@ -1655,6 +1661,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(4381),	-- Minor Recombobulator
 			i(10514),	-- Mithril Frag Bomb
 			i(10513),	-- Mithril Gyro-Shot
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234005, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Blasting Powder
+			applyclassicphase(SOD_PHASE_SIX, i(233986, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Bomb
+			applyclassicphase(SOD_PHASE_SIX, i(235529, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Scope
+			-- #endif
 			i(5507),	-- Ornate Spyglass
 			i(10518),	-- Parachute Cloak
 			i(4403),	-- Portable Bronze Mortar
@@ -1683,6 +1694,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			applyclassicphase(TBC_PHASE_ONE, i(22728, {["timeline"] = { CREATED_1_10_0, ADDED_2_0_1}})),	-- Steam Tonk Controller
 			i(4366),	-- Target Dummy
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233985, { ["timeline"] = { ADDED_1_15_5 }, })), -- The Fumigator
+			-- #endif
 			i(15993),	-- Thorium Grenade
 			i(15997, {["timeline"] = {REMOVED_4_0_1}}),	-- Thorium Shells
 			i(18639),	-- Ultra-Flash Shadow Reflector
@@ -1748,6 +1762,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(10508),	-- Mithril Blunderbuss
 			i(10510),	-- Mithril Heavy-Bore Rifle
 			i(4383),	-- Moonsight Rifle
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234434, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Shotgun
+			-- #endif
 			i(207564, {["timeline"] = {ADDED_10_1_5}}),	-- Refurbished Purifier
 			i(206512, {["timeline"] = {ADDED_10_1_5}}),	-- Replaced Servo Arm
 			i(4362),	-- Rough Boomstick
@@ -1755,6 +1772,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(207562, {["timeline"] = {ADDED_10_1_5}}),	-- Skullstone Bludgeon
 			i(15995),	-- Thorium Rifle
 			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233988, { ["timeline"] = { ADDED_1_15_5 }, })), -- Tuned Force Reactive Disk
 			applyclassicphase(SOD_PHASE_TWO, i(213390, {	-- Whirling Truesilver Gearwall
 				["timeline"] = { ADDED_1_15_1 },
 			})),
