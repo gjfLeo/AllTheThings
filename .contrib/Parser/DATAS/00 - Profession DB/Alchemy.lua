@@ -22,6 +22,15 @@ i(215163, 435971);	-- Mildly Irradiated Rejuvenation Potion
 i(0, 446226);		-- Flask of Everlasting Nightmares
 i(0, 446851);		-- Flask of Nightmarish Mojo
 i(0, 448085);		-- Flask of Restless Dreams
+
+------------------
+-- PATCH 1.15.6 --
+------------------
+--- ITEM ---
+i(234252, 1213544);	-- Flask of Unyielding Sorrow
+i(234253, 1213546);	-- Flask of Ancient Knowledge
+i(234255, 1213548);	-- Flask of the Old Gods
+i(234256, 1213552);	-- Flask of Madness
 -- #endif
 
 -----------------

@@ -2942,6 +2942,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["groups"] = bubbleDownClassicRep(FACTION_CENARION_CIRCLE, {
 						{		-- Neutral
 						}, {	-- Friendly
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SIX, i(234279, {	-- Plans: Obsidian Grinding Stone (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							}),
+							-- #endif
 							applyclassicphase(PHASE_FIVE, i(22209)),	-- Plans: Heavy Obsidian Belt (RECIPE!)
 							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22768)),	-- Plans: Ironvine Belt (RECIPE!)
 						}, {	-- Honored

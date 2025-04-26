@@ -1063,6 +1063,69 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 			}),
+			-- #if SEASON_OF_DISCOVERY
+			n(SPECIAL, {
+				applyclassicphase(SOD_PHASE_SIX, n(234193, {		-- Gilded Scarab
+					["description"] = "Randomly spawns in the Temple of Ahn'Qiraj and will despawn within 10seconds after being attacked",
+					["groups"] = {
+						i(20876),	-- Idol of Death
+						i(20879),	-- Idol of Life
+						i(20875),	-- Idol of Night
+						i(20878),	-- Idol of Rebirth
+						i(20881),	-- Idol of Strife
+						i(20877),	-- Idol of the Sage
+						i(20874),	-- Idol of the Sun
+						i(20882),	-- Idol of War
+						i(233997), -- Formula: Enchant Chest - Living Stats
+						i(233998), -- Formula: Enchant Gloves - Holy Power
+						i(233999), -- Formula: Enchant Gloves - Arcane Power
+						i(234266), -- Formula: Speedstone
+						i(234267), -- Formula: Tear of the Dreamer
+						i(234268), -- Formula: Lodestone of Retaliation
+						i(234269), -- Formula: Enchanted Stopwatch
+						i(234270), -- Formula: Ruby-Encrusted Broach
+						i(234275), -- Formula: Enchanted Prayer Tome
+						i(234276), -- Formula: Enchanted Totem
+						i(234277), -- Formula: Enchanted Mushroom
+						i(234271), -- Formula: Scroll: Wrath of the Swarm
+						i(235526), -- Formula: Enchant Bracer - Spell Power
+						i(235528), -- Formula: Enchant Bracer - Agility
+						i(235133), -- Formula: Libram of Righteousness
+						i(235134), -- Formula: Libram of the Exorcist
+						i(235135), -- Formula: Libram of Sanctity
+						i(235136), -- Formula: Totem of Pyroclastic Thunder
+						i(235137), -- Formula: Totem of Thunderous Strikes
+						i(235138), -- Formula: Totem of Flowing Magma
+						i(235139), -- Formula: Idol of Sidereal Wrath
+						i(235140), -- Formula: Idol of Feline Ferocity
+						i(235141), -- Formula: Idol of Ursin Power
+						i(234235), -- Pattern: Glowing Chitin Armor Kit
+						i(234236), -- Pattern: Sharpened Chitin Armor Kit
+						i(234244), -- Pattern: Qiraji Silk Scarf
+						i(234249), -- Pattern: Qiraji Silk Cape
+						i(234250), -- Pattern: Qiraji Silk Cloak
+						i(234251), -- Pattern: Qiraji Silk Drape
+						i(234223), -- Plans: Obsidian Reaver
+						i(234224), -- Plans: Obsidian Champion
+						i(234225), -- Plans: Obsidian Destroyer
+						i(234226), -- Plans: Obsidian Stormhammer
+						i(234228), -- Plans: Obsidian Defender
+						i(234227), -- Plans: Obsidian Sageblade
+						i(234429), -- Plans: Obsidian Heartseeker
+						i(234220), -- Plans: Razorspike Headcage
+						i(234221), -- Plans: Razorspike Shoulderplates
+						i(234222), -- Plans: Razorspike Battleplate
+						i(234252), -- Recipe: Flask of Unyielding Sorrow
+						i(234253), -- Recipe: Flask of Ancient Knowledge
+						i(234255), -- Recipe: Flask of the Old Gods
+						i(234256), -- Recipe: Flask of Madness
+						i(234264), -- Schematic: G00 DV-1B3 Generator
+						i(234265), -- Schematic: Tuned Force Reactive Disk
+						i(234435), -- Schematic: Obsidian Shotgun
+						i(235530), -- Schematic: Obsidian Scope
+					},
+				})),
+			}),
 			filter(RECIPES, {
 				["crs"] = {
 					15516,	-- Battleguard Sartura
@@ -1299,7 +1362,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 			e(1543, {	-- The Prophet Skeram
 				["creatureID"] = 15263,
 				["groups"] = {
-					i(22222),	-- Plans: Thick Obisidan Breastplate (RECIPE!)
+					i(22222, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
+					-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_6 },
+					-- #endif
+					}),
+					-- #if SEASON_OF_DISCOVERY
+					applyclassicphase(SOD_PHASE_SIX, i(235039, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
+						["timeline"] = { ADDED_1_15_6 },
+					}),
+					-- #endif
 					i(21703),	-- Hammer of Ji'zhi
 					i(21128),	-- Staff of the Qiraji Prophets
 					i(21702),	-- Amulet of Foul Warding

@@ -60,15 +60,19 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(13513, {["timeline"] = {REMOVED_5_0_4}}),	-- Flask of Chromatic Resistance
 			i(13511),	-- Flask of Distilled Wisdom
 			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234253, { ["timeline"] = { ADDED_1_15_5 }, })), -- Recipe: Flask of Ancient Knowledge
 			applyclassicphase(SOD_PHASE_THREE, i(221024, {	-- Flask of Everlasting Nightmares
 				["timeline"] = { ADDED_1_15_2 },
 			})),
+			applyclassicphase(SOD_PHASE_SIX, i(234256, { ["timeline"] = { ADDED_1_15_5 }, })), -- Recipe: Flask of Madness
 			applyclassicphase(SOD_PHASE_THREE, i(221313, {	-- Flask of Nightmarish Mojo
 				["timeline"] = { ADDED_1_15_2 },
 			})),
 			applyclassicphase(SOD_PHASE_THREE, i(222952, {	-- Flask of Restless Dreams
 				["timeline"] = { ADDED_1_15_2 },
 			})),
+			applyclassicphase(SOD_PHASE_SIX, i(234255, { ["timeline"] = { ADDED_1_15_5 }, })), -- Recipe: Flask of the Old Gods
+			applyclassicphase(SOD_PHASE_SIX, i(234252, { ["timeline"] = { ADDED_1_15_5 }, })), -- Recipe: Flask of Unyielding Sorrow
 			-- #endif
 			i(13512),	-- Flask of Supreme Power
 			i(13510),	-- Flask of the Titans
@@ -399,6 +403,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #endif
 				}),
 				i(12640),	-- Lionheart Helm
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(233795, { ["timeline"] = { ADDED_1_15_5 }, })), -- Razorspike Headcage
+				applyclassicphase(SOD_PHASE_SIX, i(233793, { ["timeline"] = { ADDED_1_15_5 }, })), -- Razorspike Shoulderplates
+				applyclassicphase(SOD_PHASE_SIX, i(233492, { ["timeline"] = { ADDED_1_15_5 }, })), -- Razorspike Battleplate
+				-- #endif
 				i(12632, {	-- Storm Gauntlets
 					-- #if SEASON_OF_DISCOVERY
 					["timeline"] = { REMOVED_1_15_3 },
@@ -446,6 +455,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						})),
 						-- #if SEASON_OF_DISCOVERY
+						applyclassicphase(SOD_PHASE_SIX, i(233801, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Defender
+						applyclassicphase(SOD_PHASE_SIX, i(233491, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Reaver
 						applyclassicphase(SOD_PHASE_FOUR, i(227843, {	-- Reaving Nightfall
 							["description"] = "Blizzard stated that Nightfall was an item that forced 1 member of the raid into a role that did not fit their design, so they've decided to not include Nightfall or this updated version of it.",
 							["timeline"] = { CREATED_1_15_3 },
@@ -485,6 +496,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							-- #endif
 						}),
 						-- #if SEASON_OF_DISCOVERY
+						applyclassicphase(SOD_PHASE_SIX, i(233796, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Destroyer
+						applyclassicphase(SOD_PHASE_SIX, i(233797, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Stormhammer
 						applyclassicphase(SOD_PHASE_FOUR, i(227886, {	-- Skyrider's Masterwork Stormhammer
 							["timeline"] = { ADDED_1_15_3 },
 						})),
@@ -513,6 +526,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 						i(12797),	-- Frostguard
 						applyclassicphase(PHASE_FIVE_RECIPES, i(22383)),	-- Sageblade
+						-- #if SEASON_OF_DISCOVERY
+						applyclassicphase(SOD_PHASE_SIX, i(233490, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Champion
+						applyclassicphase(SOD_PHASE_SIX, i(233798, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Sageblade
+						-- #endif
 					},
 				}),
 				n(WEAPONS, {
@@ -533,6 +550,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 							["timeline"] = { REMOVED_1_15_3 },
 							-- #endif
 						}),
+						-- #if SEASON_OF_DISCOVERY
+						applyclassicphase(SOD_PHASE_SIX, i(234428, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Heartseeker
+						-- #endif
 						i(7961, {["timeline"] = {REMOVED_4_0_3, ADDED_4_3_0}}),	-- Phantom Blade
 						i(7954, {["timeline"] = {REMOVED_4_0_3}}),	-- The Shatterer
 						i(7960, {["timeline"] = {REMOVED_4_0_3}}),	-- Truesilver Champion
@@ -556,7 +576,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(163964, {["timeline"] = {ADDED_8_0_1}}),	-- Barbaric Iron Hauberk
 			i(7913),	-- Barbaric Iron Shoulders
 			i(206511, {["timeline"] = {ADDED_10_1_5}}),	-- Belt of the Mentor
-			applyclassicphase(PHASE_FIVE, i(22194)),	-- Black Grasp of the Destroyer
+			applyclassicphase(PHASE_FIVE, i(22194, {	-- Black Grasp of the Destroyer
+				-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+				-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234086, { ["timeline"] = { ADDED_1_15_5 }, })), -- Black Grasp of the Destroyer
+			-- #endif
 			applyclassicphase(PHASE_FOUR, i(19690, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodsoul Breastplate
 			applyclassicphase(PHASE_FOUR, i(19692, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodsoul Gauntlets
 			applyclassicphase(PHASE_FOUR, i(19691, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodsoul Shoulders
@@ -683,7 +710,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(7924),	-- Mithril Scale Bracers
 			i(7920),	-- Mithril Scale Pants
 			i(7932),	-- Mithril Scale Shoulders
-			applyclassicphase(PHASE_FIVE, i(22191)),	-- Obsidian Mail Tunic
+			applyclassicphase(PHASE_FIVE, i(22191, {	-- Obsidian Mail Tunic
+				-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+				-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234460, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Mail Tunic
+			-- #endif
 			i(7929, {["timeline"] = {REMOVED_4_0_3}}),	-- Orcish War Leggings
 			i(7936, {["timeline"] = {REMOVED_4_0_3}}),	-- Ornate Mithril Boots
 			i(7935, {["timeline"] = {REMOVED_4_0_3}}),	-- Ornate Mithril Breastplate
@@ -728,7 +762,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(3481),	-- Silvered Bronze Shoulders
 			i(7963),	-- Steel Breastplate
 			i(7922),	-- Steel Plate Helm
-			applyclassicphase(PHASE_FIVE, i(22196)),	-- Thick Obsidian Breastplate
+			applyclassicphase(PHASE_FIVE, i(22196, {	-- Thick Obsidian Breastplate
+				-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+				-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(235040, { ["timeline"] = { ADDED_1_15_5 }, })), -- Thick Obsidian Breastplate
+			-- #endif
 			i(12405),	-- Thorium Armor
 			i(12406),	-- Thorium Belt
 			i(12409),	-- Thorium Boots
@@ -847,6 +888,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			i(7967),	-- Mithril Shield Spike
 			i(7969),	-- Mithril Spurs
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234004, { ["timeline"] = { ADDED_1_15_5 }, })), -- Obsidian Grinding Stone
+			-- #endif
 			i(3470),	-- Rough Grinding Stone
 			i(2862),	-- Rough Sharpening Stone
 			i(3239),	-- Rough Weightstone
@@ -914,7 +958,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(5541),	-- Iridescent Hammer
 			i(6731),	-- Ironforge Breastplate
 			i(3850),	-- Jade Serpentblade
-			applyclassicphase(PHASE_FIVE, i(22198)),	-- Jagged Obsidian Shield
+			applyclassicphase(PHASE_FIVE, i(22198, {	-- Jagged Obsidian Shield
+				-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+				-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234459, { ["timeline"] = { ADDED_1_15_5 }, })), -- Jagged Obsidian Shield
+			-- #endif
 			i(3855),	-- Massive Iron Axe
 			i(206486, {["timeline"] = {ADDED_10_1_5}}),	-- Midnight's Graze
 			i(3492),	-- Mighty Iron Hammer
