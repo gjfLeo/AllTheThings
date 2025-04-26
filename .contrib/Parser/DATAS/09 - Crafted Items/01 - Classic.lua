@@ -2604,6 +2604,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				applyclassicphase(PHASE_ONE_DIREMAUL, i(18510, {["timeline"] = {REMOVED_4_0_3, ADDED_10_1_5}})),	-- Hide of the Wild
 				i(15066, {["timeline"] = {REMOVED_4_0_3, ADDED_10_1_7}}),	-- Ironfeather Breastplate
 				i(15067),	-- Ironfeather Shoulders
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(233804, { ["timeline"] = { ADDED_1_15_5 }, })), -- Razorbramble Shoulderpads
+				applyclassicphase(SOD_PHASE_SIX, i(233813, { ["timeline"] = { ADDED_1_15_5 }, })), -- Razorbramble Leathers
+				applyclassicphase(SOD_PHASE_SIX, i(233808, { ["timeline"] = { ADDED_1_15_5 }, })), -- Razorbramble Cowl
+				-- #endif
 				i(15064),	-- Warbear Harness
 				i(15065),	-- Warbear Woolies
 				i(8345, {["timeline"] = {REMOVED_4_0_3}}),	-- Wolfshead Helm

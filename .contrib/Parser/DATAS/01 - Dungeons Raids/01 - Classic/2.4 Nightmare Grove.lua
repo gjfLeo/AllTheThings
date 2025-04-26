@@ -188,6 +188,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					applyclassicphase(SOD_PHASE_SEVEN, i(235141, { ["timeline"] = { ADDED_1_15_6 }, })), -- Formula: Idol of Ursin Power
 					applyclassicphase(SOD_PHASE_SEVEN, i(234235, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Glowing Chitin Armor Kit
 					applyclassicphase(SOD_PHASE_SEVEN, i(234236, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Sharpened Chitin Armor Kit
+					applyclassicphase(SOD_PHASE_SEVEN, i(234237, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Razorbramble Cowl
+					applyclassicphase(SOD_PHASE_SEVEN, i(234239, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Razorbramble Leathers
+					applyclassicphase(SOD_PHASE_SEVEN, i(234238, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Razorbramble Shoulderpads
 					applyclassicphase(SOD_PHASE_SEVEN, i(234244, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Qiraji Silk Scarf
 					applyclassicphase(SOD_PHASE_SEVEN, i(234249, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Qiraji Silk Cape
 					applyclassicphase(SOD_PHASE_SEVEN, i(234250, { ["timeline"] = { ADDED_1_15_6 }, })), -- Pattern: Qiraji Silk Cloak
