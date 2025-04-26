@@ -156,9 +156,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					n(241228, {	-- Dissenter Oathland
 						["provider"] = { "o", 527416 },	-- Suspicious Document
+						["maps"] = { AZJ_KAHET },
 					}),
 					n(241237, {	-- Whisperer Warsididel
 						["provider"] = { "o", 527416 },	-- Suspicious Document
+						["maps"] = { AZJ_KAHET },
 					}),
 					-- Sureki's End
 					o(527415, {	-- Suspicious Document (Dissenter Tailtrek/Whisperer Hillhelm)
@@ -171,9 +173,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					n(241230, {	-- Dissenter Tailtrek
 						["provider"] = { "o", 527415 },	-- Suspicious Document
+						["maps"] = { AZJ_KAHET },
 					}),
 					n(241235, {	-- Whisperer Hillhelm
 						["provider"] = { "o", 527415 },	-- Suspicious Document
+						["maps"] = { AZJ_KAHET },
 					}),
 					-- Toxins and Pheromones
 					o(527413, {	-- Suspicious Document (Dissenter Glaivefur/Whisperer Warhavuk)
@@ -186,9 +190,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					n(241227, {	-- Dissenter Glaivefur
 						["provider"] = { "o", 527413 },	-- Suspicious Document
+						["maps"] = { AZJ_KAHET },
 					}),
 					n(241239, {	-- Whisperer Warhavuk
 						["provider"] = { "o", 527413 },	-- Suspicious Document
+						["maps"] = { AZJ_KAHET },
 					}),
 					-- HALLOWFALL
 					-- Hold the Wall --
@@ -652,25 +658,25 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88895),	-- 1H weapon (caster/off spec) / Nightfall Darkcaster's Kris (itemID 237787)
 				q(88684),	-- OH weapon (caster/off spec) / Arathi Abbot's Implement (itemID 237801)
 				q(88896),	-- OH weapon (caster/off spec) / Nightfall Darkcaster's Implement (itemID 237785) (it was looted from boss during nightfall event)
-				q(88687, {	-- Arathi Crusader Set Cape Unlock 
+				q(88687, {	-- Arathi Crusader Set Cape Unlock
 				--	["name"] = "Unlocked Cape Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
-				q(88692, {	-- Arathi Crusader Set Chest Unlock 
+				q(88692, {	-- Arathi Crusader Set Chest Unlock
 					["name"] = "Unlocked Chest Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
-				q(88691, {	-- Arathi Crusader Set Feet Unlock 
+				q(88691, {	-- Arathi Crusader Set Feet Unlock
 					["name"] = "Unlocked Feet Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
-				q(88690, {	-- Arathi Crusader Set Hands Unlock 
+				q(88690, {	-- Arathi Crusader Set Hands Unlock
 					["name"] = "Unlocked Hands Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
-				q(88693, {	-- Arathi Crusader Set Legs Unlock 
+				q(88693, {	-- Arathi Crusader Set Legs Unlock
 					["name"] = "Unlocked Legs Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
-				q(88694, {	-- Arathi Crusader Set Shoulder Unlock 
+				q(88694, {	-- Arathi Crusader Set Shoulder Unlock
 					["name"] = "Unlocked Shoulder Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
-				q(88688, {	-- Arathi Crusader Set Wrists Unlock 
+				q(88688, {	-- Arathi Crusader Set Wrists Unlock
 					["name"] = "Unlocked Wrist Slot for the Arathi Set. RELOG to get them automatically for every Armor Type!",
 				}),
 				--q(??),	-- Cape / Nightfall Curseblade Cape (itemID 237444)

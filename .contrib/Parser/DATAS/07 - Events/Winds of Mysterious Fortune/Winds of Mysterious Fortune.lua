@@ -24,7 +24,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 	},
 	["g"] = {
 		i(235054, {	-- Pristine Mysterious Satchel
-			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\n\nThe first satchel per day will be Pristine and will have increased chance for better rewards.",
+			["description"] = "Players below level 80 can gain Mysterious Satchels from quests and enemy drops when adventuring in Dragonflight or War Within zones.\n\nThe first satchel per day per character will be Pristine and will have increased chance for better rewards.",
 			["g"] = {
 				n(ARMOR, {
 					n(BACK, {
@@ -87,6 +87,8 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 					i(236959),	-- Empty Mysterious Potion
 					i(170177),	-- Exposed Fish
 					i(240995),	-- Fortuitous Satchel
+					i(124640),	-- Inky Black Potion
+					i(200886),	-- Lemon Silverleaf Tea
 					i(225378),	-- Mohawk Grenade
 					i(235803),	-- Potion of Mysterious Celerity
 					i(236854),	-- Potion of Mysterious Conflagration

@@ -5,7 +5,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 	m(UNDERMINE, {
 	--	n(CARTELS_OF_UNDERMINE, {
 			n(FACTIONS, {
-			--	faction(FACTION_CARTELS_OF_UNDERMINE, {
+				faction(FACTION_CARTELS_OF_UNDERMINE, {
 					faction(FACTION_TWW_BILGEWATER_CARTEL),	-- Bilgewater Cartel
 					faction(FACTION_TWW_BLACKWATER_CARTEL),	-- Blackwater Cartel
 					faction(FACTION_TWW_STEAMWHEEDLE_CARTEL),	-- Steamwheedle Cartel
@@ -690,6 +690,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					}),
 				}),
 			}),
-	--	}),
+		}),
 	}),
 })));

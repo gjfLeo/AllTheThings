@@ -63,7 +63,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					q(89494, {	-- A Frocking Good Job
 						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
 						["coord"] = { 28.3, 56.1, HALLOWFALL },
-						["g"] = { i(233289) },	-- Radiant Stalwart's Tabard
+						["g"] = {
+							i(233298),	-- Radiant Stalwart's Buckle
+							i(233289),	-- Radiant Stalwart's Tabard
+						},
 					}),
 				}, {	-- RENOWN 6 --
 				}, {	-- RENOWN 7 --
@@ -77,7 +80,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					q(89496, {	-- Defender of the Sacred Flame
 						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
 						["coord"] = { 28.3, 56.1, HALLOWFALL },
-						["g"] = { 
+						["g"] = {
 							i(233299),	-- Sacred Templar's Buckle
 							i(233290),	-- Sacred Templar's Tabard
 						},

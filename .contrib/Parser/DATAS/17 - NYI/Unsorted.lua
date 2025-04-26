@@ -110,8 +110,6 @@ root(ROOTS.Unsorted, {
 				i(239009),	-- Signet of Repose
 			}),
 			n(SPECIAL, {	-- Radiant
-				i(233298),	-- Radiant Stalwart's Buckle
-				i(233299),	-- Sacred Templar's Buckle
 				i(239489),	-- Radiant Officer's Cache
 			}),
 			n(SPECIAL, {	-- Mysterious???

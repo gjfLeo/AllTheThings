@@ -1774,6 +1774,7 @@ ExportDB.AccountWideQuestsDB = {
 	[86461] = true,	-- Ancient Curiosity: Combat
 	[86462] = true,	-- Ancient Curiosity: Utility
 	[86468] = true,	-- Triggered with Members Only (89016)
+	[86474] = true,	-- Ensemble: Chains of the Stygian Sea
 	[86482] = true,	-- A Lifeline
 	[86483] = true,	-- Snap To It
 	[86484] = true,	-- Temper Like A Tempest
