@@ -66,6 +66,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							}),
 						},
 					}),
+					q(91173),	-- The Flame Burns Eternal
 				})),
 				n(RARES, {
 					n(COMMON_BOSS_DROPS, {
@@ -147,6 +148,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					-- AZJ'KAHET
 					-- Rak-Zakaz
 					o(527416, {	-- Suspicious Document (Dissenter Oathland/Whisperer Warsididel)
+						["description"] = "Spawns Dissenter Oathland/Whisperer Warsididel.",
 						["coords"] = {
 							{ 61.9, 30.1, AZJ_KAHET },
 							{ 62.6, 26.7, AZJ_KAHET },
@@ -155,10 +157,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 					n(241228, {	-- Dissenter Oathland
+						["description"] = "Within the Rak-Zakaz assault.",
 						["provider"] = { "o", 527416 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
+						["questID"] = 91150,
+						["isDaily"] = true,
 					}),
 					n(241237, {	-- Whisperer Warsididel
+						["description"] = "Within the Rak-Zakaz assault.",
 						["provider"] = { "o", 527416 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
 					}),
@@ -172,12 +178,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 					n(241230, {	-- Dissenter Tailtrek
+						["description"] = "Within the Sureki's End assault.",
 						["provider"] = { "o", 527415 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
+						["questID"] = 91154,
+						["isDaily"] = true,
 					}),
 					n(241235, {	-- Whisperer Hillhelm
+						["description"] = "Within the Sureki's End assault.",
 						["provider"] = { "o", 527415 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
+						["questID"] = 91152,
+						["isDaily"] = true,
 					}),
 					-- Toxins and Pheromones
 					o(527413, {	-- Suspicious Document (Dissenter Glaivefur/Whisperer Warhavuk)
@@ -189,10 +201,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 					n(241227, {	-- Dissenter Glaivefur
+						["description"] = "Within the Toxins and Pheromones assault.",
 						["provider"] = { "o", 527413 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
+						["questID"] = 89273,
+						["isDaily"] = true,
 					}),
 					n(241239, {	-- Whisperer Warhavuk
+						["description"] = "Within the Toxins and Pheromones assault.",
 						["provider"] = { "o", 527413 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
 					}),
@@ -209,10 +225,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 					n(241231, {	-- Dissenter Fortfervor
+						["description"] = "Within the Hold the Wall assault.",
 						["provider"] = { "o", 527398 },	-- Suspicious Document
+						["questID"] = 91157,
+						["isDaily"] = true,
 					}),
 					n(241234, {	-- Whisperer Batalsworn
+						["description"] = "Within the Hold the Wall assault.",
 						["provider"] = { "o", 527398 },	-- Suspicious Document
+						["quedtID"] = 91151,
+						["isDaily"] = true,
 					}),
 					-- Southern Swarm --
 					o(527409, {	-- Suspicious Document (Dissenter Fervormyt/Whisperer Siegesage)
@@ -225,15 +247,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 					n(241229, {	-- Dissenter Fervormyt
+						["description"] = "Within the Southern Swarm assault.",
 						["provider"] = { "o", 527409 },	-- Suspicious Document
 					}),
 					n(241238, {	-- Whisperer Siegesage
+						["description"] = "Within the Southern Swarm assault.",
 						["provider"] = { "o", 527409 },	-- Suspicious Document
+						["questID"] = 91159,
+						["isDaily"] = true,
 					}),
 					-- The Eastern Assault
 					--o() TODO
-					n(241232),	-- Dissenter Troosilver
-					n(241236),	-- Whisperer Bravefort
+					n(241232, {	-- Dissenter Troosilver
+						["description"] = "Within The Eastern Assault.",
+					}),
+					n(241236, {	-- Whisperer Bravefort
+						["description"] = "Within The Eastern Assault.",
+					}),
 				}),
 				n(REWARDS, {
 					-- Special Single List Item:
@@ -705,14 +735,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(88897),	--
 				q(88899),	--
 				q(88887),	--
-				--q(),	--
-				--q(),	--
-				q(91150),	--	Daily Rep Flame Radiance for killing Dissenter Oathland (Ajz Kahet)
-				q(91151),	--	Daily Rep Flame Radiance for killing Whisperer Batalsworn
-				q(91154),	--	Daily Rep Flame Radiance for killing Dissenter Tailtrek
-				q(91157),	--	Daily Rep Flame Radiance for killing Whisperer Dissenter Fortfervor
-				q(91159),	--	Daily Rep Flame Radiance for killing Whisperer Siegesage
-				q(91165),	--	Daily Rep Flame Radiance for killing Webspeaker Grik Ik (Ajz Kahet)
+				q(91161),	-- Daily Rep Flame Radiance for killing Deepcrawler Tx'kesh (Ajz Kahet)
+				q(91162),	-- Daily Rep Flame Radiance for killing Kaheti Silk Hauler (Ajz Kahet)
+				q(91163),	-- Daily Rep Flame Radiance for killing Skrimisher Sa'zryk (Ajz Kahet)
+				q(91164),	-- Daily Rep Flame Radiance for killing Umbraclaw Matta (Ajz Kahet)
+				q(91165),	-- Daily Rep Flame Radiance for killing Webspeaker Grik Ik (Ajz Kahet)
 			})),
 		}),
 	}),

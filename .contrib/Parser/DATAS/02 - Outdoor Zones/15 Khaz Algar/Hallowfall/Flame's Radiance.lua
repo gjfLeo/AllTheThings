@@ -69,6 +69,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						},
 					}),
 				}, {	-- RENOWN 6 --
+					q(89393, {	-- Flame's Radiance Stipend
+						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+						["coord"] = { 28.3, 56.1, HALLOWFALL },
+					}),
 				}, {	-- RENOWN 7 --
 				}, {	-- RENOWN 8 --
 				}, {	-- RENOWN 9 --
