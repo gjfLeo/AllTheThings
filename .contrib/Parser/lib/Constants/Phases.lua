@@ -1466,7 +1466,7 @@ CATA_PHASE_HOUR_OF_TWILIGHT = createClassicPhase({
 CurrentClassicExpansion = {
 	text = {
 		-- #if ANYCLASSIC
-		en = "Mists Classic",
+		en = "Mists of Pandaria Classic",
 		-- #else
 		en = "Mists of Pandaria",
 		-- #endif
@@ -1499,28 +1499,40 @@ MOP_PHASE_LANDFALL = createClassicPhase({
 		en = "Included Mogu'shan Vaults, Heart of Fear, and Terrace of the Endless Spring.",
 	},
 });
-MOP_PHASE_TWO = createClassicPhase({
-	readable = "Mists Classic - Phase 2",
+MOP_PHASE_RISE_OF_THE_THUNDER_KING = createClassicPhase({
+	readable = "Mists Classic - Rise of the Thunder King",
 	originalTimelines = { "5.2.0" },
 	minimumBuildVersion = 50500,
 	buildVersion = 50501,
-	phaseID = 51,
+	phaseID = 52,
 	text = {
-		en = "Phase 2",
-		tw = "第2階段",
+		en = "Rise of the Thunder King",
 	},
 	lore = {
 		en = "Included Throne of Thunder, the Isle of Giants, and the Isle of Thunder.",
 	},
 });
-MOP_PHASE_THREE = createClassicPhase({
-	readable = "Mists Classic - Phase 3",
+MOP_PHASE_ESCALATION = createClassicPhase({
+	readable = "Mists Classic - Escalation",
+	originalTimelines = { "5.3.0" },
 	minimumBuildVersion = 50500,
 	buildVersion = 50502,
-	phaseID = 52,
+	phaseID = 53,
 	text = {
-		en = "Phase 3",
-		tw = "第3階段",
+		en = "Escalation",
+	},
+	lore = {
+		en = "Included Heroic Scenarios, Battlefield: Barrens Scenario, Deepwind Gorge, and the Tiger's Peak arena.",
+	},
+});
+MOP_PHASE_SIEGE_OF_ORGRIMMAR = createClassicPhase({
+	readable = "Mists Classic - Siege of Orgrimmar",
+	originalTimelines = { "5.4.0" },
+	minimumBuildVersion = 50500,
+	buildVersion = 50503,
+	phaseID = 54,
+	text = {
+		en = "Siege of Orgrimmar",
 	},
 	lore = {
 		en = "Included Siege of Orgrimmar and the Timeless Isle.",
