@@ -9,6 +9,7 @@ ANACHRONOS_COORD = { 65, 50, TANARIS };
 -- #endif
 local SILITHID_ROYALTY_SHARED_DROPS = COMMON_BOSS_DROPS;
 -- #if ANYCLASSIC
+-- #if SEASON_OF_DISCOVERY
 SILITHID_ROYALTY_SHARED_DROPS = createHeader({
 	readable = "Silithid Royalty",
 	icon = 133575,
@@ -16,6 +17,7 @@ SILITHID_ROYALTY_SHARED_DROPS = createHeader({
 		en = "Silithid Royalty",
 	},
 });
+-- #endif
 -- #endif
 
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE, {
@@ -2695,48 +2697,48 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				n(SILITHID_ROYALTY_SHARED_DROPS, {
-						["description"] = "These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
-						["providers"] = {
-							{ "n", 15511 },	-- Lord Kri
-							{ "n", 15543 },	-- Princess Yauj
-							{ "n", 15544 },	-- Vem
-						},
+					["description"] = "These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
+					["providers"] = {
+						{ "n", 15511 },	-- Lord Kri
+						{ "n", 15543 },	-- Princess Yauj
+						{ "n", 15544 },	-- Vem
+					},
+					["groups"] = {
+						i(233519), -- Cape of the Trinity
+						i(233520), -- Robes of the Triumvirate
+						i(233521), -- Ternary Mantle
+						i(233522), -- Guise of the Devourer
+						i(233523), -- Triad Girdle
+						i(233524), -- Angelista's Touch
+					},
+					n(15511, {	-- Lord Kri
+						["description"] = "Killing this boss last can drop the following items.",
 						["groups"] = {
-							i(233519), -- Cape of the Trinity
-							i(233520), -- Robes of the Triumvirate
-							i(233521), -- Ternary Mantle
-							i(233522), -- Guise of the Devourer
-							i(233523), -- Triad Girdle
-							i(233524), -- Angelista's Touch
+							i(233568), -- Vest of Swift Execution
+							i(233569), -- Ring of the Devoured
+							i(233570), -- Petrified Scarab
+							i(233571), -- Wand of Qiraji Nobility
 						},
-						n(15511, {	-- Lord Kri
-							["description"] = "Killing this boss last can drop the following items.",
-							["groups"] = {
-								i(233568), -- Vest of Swift Execution
-								i(233569), -- Ring of the Devoured
-								i(233570), -- Petrified Scarab
-								i(233571), -- Wand of Qiraji Nobility
-							},
-						}),
-						n(15543, {	-- Princess Yauj
-							["description"] = "Killing this boss last can drop the following items.",
-							["groups"] = {
-								i(233563), -- Mantle of Phrenic Power
-								i(233564), -- Bile-Covered Gauntlets
-								i(233565), -- Ukko's Ring of Darkness
-								i(233566), -- Mantle of the Desert's Fury
-								i(233567), -- Mantle of the Desert Crusade
-							},
-						}),
-						n(15544, {	-- Vem
-							["description"] = "Killing this boss last can drop the following items.",
-							["groups"] = {
-								i(233559), -- Gloves of Ebru
-								i(233560), -- Ooze-Ridden Gauntlets
-								i(233561), -- Boots of the Fallen Hero
-								i(233562), -- Angelista's Charm
-							},
-						}),
+					}),
+					n(15543, {	-- Princess Yauj
+						["description"] = "Killing this boss last can drop the following items.",
+						["groups"] = {
+							i(233563), -- Mantle of Phrenic Power
+							i(233564), -- Bile-Covered Gauntlets
+							i(233565), -- Ukko's Ring of Darkness
+							i(233566), -- Mantle of the Desert's Fury
+							i(233567), -- Mantle of the Desert Crusade
+						},
+					}),
+					n(15544, {	-- Vem
+						["description"] = "Killing this boss last can drop the following items.",
+						["groups"] = {
+							i(233559), -- Gloves of Ebru
+							i(233560), -- Ooze-Ridden Gauntlets
+							i(233561), -- Boots of the Fallen Hero
+							i(233562), -- Angelista's Charm
+						},
+					}),
 				}),
 				e(1544, {	-- Battleguard Sartura
 					["creatureID"] = 15516,
