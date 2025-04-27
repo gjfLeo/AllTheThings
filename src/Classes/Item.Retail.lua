@@ -580,6 +580,7 @@ local HarvestedItemDatabase;
 local C_Item_GetItemInventoryTypeByID = C_Item.GetItemInventoryTypeByID;
 ---@class ATTItemHarvesterForRetail: GameTooltip
 local ItemHarvester = CreateFrame("GameTooltip", "ATTItemHarvester", UIParent, "GameTooltipTemplate");
+ItemHarvester.AllTheThingsIgnored = true;
 local CreateItemTooltipHarvester
 local FilterBind = app.Modules.Filter.Filters.Bind
 app.CreateItemHarvester = app.ExtendClass("Item", "ItemHarvester", "itemID", {

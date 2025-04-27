@@ -65,6 +65,7 @@ if C_TooltipInfo_GetHyperlink then
 else
 	---@class ATTNPCHarvesterForRetail: GameTooltip
 	local ATTCNPCHarvester = CreateFrame("GameTooltip", "ATTCNPCHarvester", UIParent, "GameTooltipTemplate")
+	ATTCNPCHarvester.AllTheThingsIgnored = true;
 	setmetatable(NPCNameFromID, { __index = function(t, id)
 		if id > 0 then
 			ATTCNPCHarvester:SetOwner(UIParent,"ANCHOR_NONE")

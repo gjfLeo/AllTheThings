@@ -2441,6 +2441,7 @@ if app.IsRetail then
 
 	-- Quest Harvesting Lib (http://www.wowinterface.com/forums/showthread.php?t=46934)
 	local QuestHarvester = CreateFrame("GameTooltip", "AllTheThingsQuestHarvester", UIParent, "GameTooltipTemplate");
+	QuestHarvester.AllTheThingsIgnored = true;
 
 	local GetNumQuestLogRewards,HaveQuestRewardData =
 		  GetNumQuestLogRewards,HaveQuestRewardData;

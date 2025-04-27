@@ -8,10 +8,13 @@ local rawset, tostring = rawset, tostring;
 -- WoW API Cache
 local GetItemInfo = app.WOWAPI.GetItemInfo;
 local GetItemID = app.WOWAPI.GetItemID;
+local GetItemSpell = GetItemSpell;
+local C_Item_GetItemInventoryTypeByID = C_Item and C_Item.GetItemInventoryTypeByID;
 
 -- Uncomment this section to also harvest tooltip data.
 --[[
 local ItemHarvester = CreateFrame("GameTooltip", "ATTCItemHarvester", UIParent, "GameTooltipTemplate");
+ItemHarvester.AllTheThingsIgnored = true;
 CreateItemHarvester = app.ExtendClass("ItemHarvester", "ItemTooltipHarvester", "itemID", {
 	IsClassIsolated = true,
 	text = function(t)
@@ -411,65 +414,77 @@ app:CreateWindow("ItemFinder", {
 	OnRebuild = function(self, ...)
 		if not self.data then
 			local ItemHarvester = CreateFrame("GameTooltip", "ATTCItemHarvester", UIParent, "GameTooltipTemplate");
+			ItemHarvester.AllTheThingsIgnored = true;
+			ItemHarvester.Lines = setmetatable({}, {
+				__index = function(t, key)
+					local line = _G["ATTCItemHarvesterTextLeft" .. key];
+					if line then
+						rawset(t, key, line);
+						return line;
+					end
+				end
+			});
 			local CreateItemHarvester = app.ExtendClass("Item", "ItemHarvester", "itemID", {
 				IsClassIsolated = true,
 				collectible = app.ReturnTrue,
 				collected = app.ReturnFalse,
 				text = function(t)
-					if GetItemID(t.itemID) then
+					local itemID = t.itemID;
+					if GetItemID(itemID) then
 						local link = t.link;
 						if link then
-							local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
-							itemEquipLoc, itemTexture, sellPrice, classID, subclassID, bindType, expacID, setID, isCraftingReagent
-								= GetItemInfo(link);
+							local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, _, _, _,
+							itemEquipLoc, _, _, classID, subclassID, bindType = GetItemInfo(link);
 							if itemName then
 								local spellName, spellID;
 								if classID == "Recipe" or classID == "Mount" then
-									spellName, spellID = GetItemSpell(t.itemID);
+									spellName, spellID = GetItemSpell(itemID);
 									if spellName == "Learning" then spellID = nil; end	-- RIP.
 								end
-								--setmetatable(t, t.conditions[2]);
 								local info = {
 									["name"] = itemName,
-									["itemID"] = t.itemID,
-									["equippable"] = itemEquipLoc and itemEquipLoc ~= "" and true or false,
+									["itemID"] = itemID,
 									["class"] = classID,
 									["subclass"] = subclassID,
-									["inventoryType"] = C_Item.GetItemInventoryTypeByID(t.itemID),
-									["b"] = bindType,
-									["q"] = itemQuality,
-									["iLvl"] = itemLevel,
-									["spellID"] = spellID,
 								};
+								if spellID and spellID > 0 then
+									info.spellID = spellID;
+								end
+								if itemEquipLoc and itemEquipLoc ~= "" then
+									info.equippable = true;
+								end
 								if itemMinLevel and itemMinLevel > 1 then
 									info.lvl = itemMinLevel;
 								end
-								if info.inventoryType == 0 then
-									info.inventoryType = nil;
+								if bindType and bindType == 1 then
+									info.b = bindType;
 								end
-								if info.b and info.b ~= 1 then
-									info.b = nil;
+								if itemQuality and itemQuality >= 1 then
+									info.q = itemQuality;
+									if itemQuality > 6 then
+										-- heirlooms return as 1 but are technically BoE for our concern
+										info.b = 2;
+									end
 								end
-								if info.q and info.q < 1 then
-									info.q = nil;
+								if itemLevel and itemLevel >= 2 then
+									info.iLvl = itemLevel;
 								end
-								if info.iLvl and info.iLvl < 2 then
-									info.iLvl = nil;
+								local inventoryType = C_Item_GetItemInventoryTypeByID(itemID);
+								if inventoryType and inventoryType > 0 then
+									info.inventoryType = inventoryType;
 								end
-								t.itemType = itemType;
-								t.itemSubType = itemSubType;
 								t.info = info;
 								t.retries = nil;
-								self.HarvestedItemDatabase[t.itemID] = info;
-								if link then
+								self.HarvestedItemDatabase[itemID] = info;
+								
+								if itemLink then
 									ItemHarvester:SetOwner(UIParent,"ANCHOR_NONE")
-									ItemHarvester:SetHyperlink(link);
+									ItemHarvester:SetHyperlink(itemLink);
 									local lineCount = ItemHarvester:NumLines();
 									local str = ATTCItemHarvesterTextLeft1:GetText();
 									if not IsRetrieving(str) and lineCount > 0 then
-										local requirements = {};
 										for index=2,lineCount,1 do
-											local line = _G["ATTCItemHarvesterTextLeft" .. index] or _G["ATTCItemHarvesterText" .. index];
+											local line = ItemHarvester.Lines[index];
 											if line then
 												local text = line:GetText();
 												if text then
@@ -514,13 +529,7 @@ app:CreateWindow("ItemFinder", {
 																		local skillID = app.SpellIDToSkillID[spellID];
 																		if skillID then
 																			info.requireSkill = skillID;
-																		else
-																			print("Unknown Skill '" .. spellName .. "'");
-																			tinsert(requirements, spellName);
 																		end
-																	else
-																		print("Unknown Spell '" .. spellName .. "'");
-																		tinsert(requirements, spellName);
 																	end
 																end
 															end
@@ -529,28 +538,24 @@ app:CreateWindow("ItemFinder", {
 												end
 											end
 										end
-										if #requirements > 0 then
-											info.otherRequirements = requirements;
-										end
 										rawset(t, "text", itemName);
 										rawset(t, "collected", true);
 									end
 									ItemHarvester:Hide();
 									return itemName;
 								end
-								return link or itemName;
 							end
 						end
-						
 						t.retries = (t.retries or 0) + 1;
 						if t.retries > 3 then
 							rawset(t, "collected", true);
-							self.HarvestedItemDatabase[t.itemID] = {};
+							self.HarvestedItemDatabase[itemID] = {};
 						end
+						return link;
 					else
 						rawset(t, "collected", true);
 					end
-					return tostring(t.itemID);
+					return tostring(itemID);
 				end,
 			});
 			local ClearButton = 
@@ -588,19 +593,24 @@ app:CreateWindow("ItemFinder", {
 								count = count + 1;
 								if count > step then
 									count = 0;
-									print("ItemID: " .. itemID);
 									self:Update();
-									while self.data.progress < self.data.total do
+									while data.progress < data.total do
 										for j=0,5,1 do
 											coroutine.yield();
 										end
 										self:Update();
 									end
-									wipe(self.data.g);
+									wipe(data.g);
 								end
 							end
 						end
 						self:Update();
+						while data.progress < data.total do
+							for j=0,5,1 do
+								coroutine.yield();
+							end
+							self:Update();
+						end
 					end);
 				end,
 				OnUpdate = function(data)
@@ -625,11 +635,12 @@ app:CreateWindow("ItemFinder", {
 		end
 	end,
 	OnUpdate = function(self, ...)
-		self.data.progress = 0;
-		self.data.total = 0;
-		UpdateGroups(self.data, self.data.g);
+		local data = self.data;
+		data.progress = 0;
+		data.total = 0;
+		UpdateGroups(data, data.g);
 		self:DefaultUpdate(...);
-		if self.data.OnUpdate then self.data.OnUpdate(self.data); end
+		if data.OnUpdate then data.OnUpdate(data); end
 	end,
 	--[[
 	OnRefresh = function(self, ...)
