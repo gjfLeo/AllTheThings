@@ -9,4 +9,4 @@ curl -o "SpellEffect.csv" "https://wago.tools/db2/SpellEffect/csv"
 curl -o "TransmogSet.csv" "https://wago.tools/db2/TransmogSet/csv"
 curl -o "TransmogSetItem.csv" "https://wago.tools/db2/TransmogSetItem/csv"
 
-call CleanCSVs.bat "%~dp0\SpellEffect.csv"
+call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.csv" "..\SpellEffect.regex"

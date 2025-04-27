@@ -15,4 +15,4 @@ curl -o "SpellEffect.%BUILD%.csv" "https://wago.tools/db2/SpellEffect/csv?build=
 curl -o "TransmogSet.%BUILD%.csv" "https://wago.tools/db2/TransmogSet/csv?build=%BUILD%"
 curl -o "TransmogSetItem.%BUILD%.csv" "https://wago.tools/db2/TransmogSetItem/csv?build=%BUILD%"
 
-call CleanCSVs.bat "%~dp0\SpellEffect.%BUILD%.csv"
+call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.%BUILD%.csv" "..\SpellEffect.regex"
