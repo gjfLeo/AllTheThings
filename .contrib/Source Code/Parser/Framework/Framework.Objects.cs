@@ -289,6 +289,7 @@ namespace ATT
                                     case 10: return Filters.Cosmetic;           // Gloves (no armor type specified - Cosmetic?)
                                     case 20: return Filters.Cosmetic;           // Chest (no armor type specified - Cosmetic?)
                                     case 23: return Filters.HeldInOffHand;      // Held in Offhand
+                                    case 28: return Filters.Relic;              // Micellaneous (Relics)
                                     default: return Filters.Invalid;
                                 }
                             case 01: return Filters.Cloth;
@@ -297,6 +298,9 @@ namespace ATT
                             case 04: return Filters.Plate;
                             case 05: return Filters.Cosmetic;
                             case 06: return Filters.Shield;
+                            case 07: return Filters.Relic;      // Librams
+                            case 08: return Filters.Relic;      // Idols
+                            case 09: return Filters.Relic;      // Totems
                             default: break;
                         }
                         break;
