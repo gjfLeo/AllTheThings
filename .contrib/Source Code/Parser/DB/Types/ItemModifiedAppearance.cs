@@ -23,7 +23,7 @@ namespace ATT.DB.Types
             {
                 { "itemID", ItemID },
                 //{ "modID", ItemAppearanceModifierID },
-                { "sourceID", ItemAppearanceID }
+                { "sourceID", ID }
             };
         }
         public bool IsNotValidForTransmog() =>

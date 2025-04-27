@@ -2790,7 +2790,7 @@ namespace ATT
             {
                 foreach (ItemModifiedAppearance itemModifiedAppearance in itemModifiedAppearances)
                 {
-                    Objects.Merge(data, "sourceID", itemModifiedAppearance.ItemAppearanceID);
+                    Objects.Merge(data, "sourceID", itemModifiedAppearance.ID);
                 }
             }
 
