@@ -66,6 +66,18 @@ namespace ATT
                 MergeItemDB(wagoSourceDb.Values.Select(i => i.AsData()));
             }
 
+            // GlyphGB
+            if(TypeDB.TryGetValue("GlyphProperties", out IDictionary<long, IDBType> wagoGlyphDb))
+            {
+                foreach(var obj in wagoGlyphDb.Values)
+                {
+                    if (obj is GlyphProperties glyph)
+                    {
+                        GlyphDB[glyph.ID] = glyph.SpellID;
+                    }
+                }
+            }
+
             // Go through all of the items in the database and calculate the Filter ID
             // if the Filter ID is not already assigned. (manual assignment should always override this)
             foreach (var data in Items.AllItems)

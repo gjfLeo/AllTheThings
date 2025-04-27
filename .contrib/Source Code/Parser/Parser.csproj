@@ -79,6 +79,7 @@
     <Compile Include="CustomConfiguration.cs" />
     <Compile Include="DataValidator.cs" />
     <Compile Include="DB\Types\ItemEffect.cs" />
+    <Compile Include="DB\Types\GlyphProperties.cs" />
     <Compile Include="DB\Types\ItemXItemEffect.cs" />
     <Compile Include="DB\Types\Item.cs" />
     <Compile Include="DB\Types\SpellEffect.cs" />

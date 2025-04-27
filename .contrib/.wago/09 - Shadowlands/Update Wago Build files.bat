@@ -7,6 +7,7 @@ del /Q *.csv
 curl -o "Achievement.%BUILD%.csv" "https://wago.tools/db2/Achievement/csv?build=%BUILD%"
 curl -o "Criteria.%BUILD%.csv" "https://wago.tools/db2/Criteria/csv?build=%BUILD%"
 curl -o "CriteriaTree.%BUILD%.csv" "https://wago.tools/db2/CriteriaTree/csv?build=%BUILD%"
+curl -o "GlyphProperties.%BUILD%.csv" "https://wago.tools/db2/GlyphProperties/csv?build=%BUILD%"
 curl -o "Item.%BUILD%.csv" "https://wago.tools/db2/Item/csv?build=%BUILD%"
 curl -o "ItemEffect.%BUILD%.csv" "https://wago.tools/db2/ItemEffect/csv?build=%BUILD%"
 curl -o "ItemXItemEffect.%BUILD%.csv" "https://wago.tools/db2/ItemXItemEffect/csv?build=%BUILD%"

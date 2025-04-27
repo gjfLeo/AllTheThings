@@ -17,6 +17,7 @@ namespace ATT.DB
             typeof(Achievement),
             typeof(Criteria),
             typeof(CriteriaTree),
+            typeof(GlyphProperties),
             typeof(Item),
             typeof(ItemEffect),
             typeof(ItemXItemEffect),
