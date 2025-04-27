@@ -15,6 +15,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	i(180060, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V
 	prof(ALCHEMY, {
 		filter(CONSUMABLES, {
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233977, { ["timeline"] = { ADDED_1_15_5 }, })), -- Elixir of Alacrity
+			-- #endif
 			i(6452, {["timeline"] = {ADDED_8_0_1}}),	-- Anti-Venom
 			i(9155),	-- Arcane Elixir
 			i(10592),	-- Catseye Elixir
@@ -54,6 +57,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(13445),	-- Elixir of Superior Defense
 			i(13452, {["timeline"] = {REMOVED_4_0_3, ADDED_10_1_7}}),	-- Elixir of the Mongoose
 			i(13447),	-- Elixir of the Sages
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233967, { ["timeline"] = { ADDED_1_15_5 }, })), -- Elixir of the Honey Badger
+			applyclassicphase(SOD_PHASE_SIX, i(233969, { ["timeline"] = { ADDED_1_15_5 }, })), -- Elixir of the Ironside
+			applyclassicphase(SOD_PHASE_SIX, i(233968, { ["timeline"] = { ADDED_1_15_5 }, })), -- Elixir of the Mage-Lord
+			-- #endif
 			i(5996),	-- Elixir of Water Breathing
 			i(3383),	-- Elixir of Wisdom
 			i(6049),	-- Fire Protection Potion
@@ -2044,6 +2052,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(108326, {["timeline"] = {ADDED_6_0_2}}),	-- Khadgar's Whisker Stem
 			i(3356),	-- Kingsblood
 			i(108324, {["timeline"] = {ADDED_6_0_2}}),	-- Kingsblood Petal
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234012)),	-- Hive Thistle
+			-- #endif
 			i(3357),	-- Liferoot
 			i(108325, {["timeline"] = {ADDED_6_0_2}}),	-- Liferoot Stem
 			i(785),		-- Mageroyal
@@ -3368,6 +3379,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(20500),	-- Light Silithid Carapace
 			i(4232),	-- Medium Hide
 			i(2319),	-- Medium Leather
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234006)),	-- Monstrous Silithid Chitin
+			-- #endif
 			i(11512),	-- Patch of Tainted Skin
 			i(6471),	-- Perfect Deviate Scale
 			applyclassicphase(PHASE_FOUR, i(19767, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Primal Bat Leather
@@ -3384,6 +3398,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(8154),	-- Scorpid Scale
 			i(7428),	-- Shadowcat Hide
 			i(20498),	-- Silithid Chitin
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234007)),	-- Spiked Silithid Chitin
+			-- #endif
 			i(8169),	-- Thick Hide
 			i(4304),	-- Thick Leather
 			i(8368),	-- Thick Wolfhide

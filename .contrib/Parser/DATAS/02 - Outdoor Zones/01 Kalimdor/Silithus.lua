@@ -2916,6 +2916,37 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(22308),	-- Pattern: Enchanted Runecloth Bag
 					},
 				}),
+				n(15175, {	-- Khur Hornstriker <Reagent Vendor>
+					-- #if AFTER CATA
+					["coord"] = { 52.8, 34.8, SILITHUS },
+					-- #else
+					["coord"] = { 48.8, 37.0, SILITHUS },
+					-- #endif
+					["groups"] = bubbleDownClassicRep(FACTION_CENARION_CIRCLE, {
+						{		-- Neutral
+						}, {	-- Friendly
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SIX, i(234260, {		-- Recipe: Elixir of Alacrity (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
+							-- #endif
+						}, {	-- Honored
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SIX, i(234259, {		-- Recipe: Elixir of the Ironside (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
+							applyclassicphase(SOD_PHASE_SIX, i(234257, {		-- Recipe: Elixir of the Honey Badger (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
+							applyclassicphase(SOD_PHASE_SIX, i(234258, {		-- Recipe: Elixir of the Mage-Lord (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
+							-- #endif
+						}, {	-- Revered
+						}, {	-- Exalted
+						},
+					}),
+				}),
 				n(15179, {	-- Mishta <Trade Supplies> [TBC+] / Mishta <General Trade Goods Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 53.8, 34.4, SILITHUS },
@@ -3030,6 +3061,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 			}),
 			n(ZONE_DROPS, {
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(234010)),	-- Ancient Sandworm Bile
+				-- #endif
 				i(20404, {	-- Encrypted Twilight Text
 					["crs"] = {
 						15308,	-- Twilight Prophet <Twilight's Hammer>
@@ -3078,6 +3112,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						15759,	-- Supreme Silithid Flayer
 					},
 				})),
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(234008)),	-- Qiraji Silk
+				applyclassicphase(SOD_PHASE_SIX, i(234011)),	-- Qiraji Stalker Venom
+				-- #endif
 				i(20408, {	-- Twilight Cultist Cowl
 					-- #if BEFORE 10.0.5
 					-- #if AFTER 4.0.3
