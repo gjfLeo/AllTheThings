@@ -91,7 +91,7 @@ namespace ATT.DB
                     var value = csvline[pi.Name];
                     try
                     {
-                        pi.SetValue(obj, Convert.ChangeType(value, pi.PropertyType));
+                        pi.SetValue(obj, Convert.ChangeType(value, pi.PropertyType, System.Globalization.CultureInfo.InvariantCulture));
                     }
                     catch (Exception ex)
                     {
