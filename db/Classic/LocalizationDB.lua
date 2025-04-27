@@ -2569,6 +2569,13 @@ local phases = {
 		buildVersion = 11307,
 		state = 2,
 	},
+	[1610] = {
+		name = "Phase 6",
+		description = "|cFFAAFFAAThis was not available until Phase 6 of Season of Discovery.|r",
+		lore = "|cFFFFAAAAIncluded Ahn'Qiraj, and the new Nightmare Grove raid|r",
+		minimumBuildVersion = 11500000,
+		state = 2,
+	},
 };
 L.PHASES = phases;
 
@@ -4190,6 +4197,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAADies war erst Phase 4 von WoW Classic verfügbar.|r",
 	[15] = "|cFFAAFFAADies war erst Phase 5 von WoW Classic verfügbar.|r",
 	[16] = "|cFFAAFFAADies war erst Phase 6 von WoW Classic verfügbar.|r",
+	[1610] = "|cFFAAFFAADies war erst Phase 6 von Season of Discovery verfügbar.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -5209,6 +5217,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 4 du WoW Classic.|r",
 	[15] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 5 du WoW Classic.|r",
 	[16] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 6 du WoW Classic.|r",
+	[1610] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 6 du Season of Discovery.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -5873,6 +5882,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 4 di WoW Classic.|r",
 	[15] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 5 di WoW Classic.|r",
 	[16] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 6 di WoW Classic.|r",
+	[1610] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 6 di Season of Discovery.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -6539,6 +6549,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAAIsto não estava disponível até Phase 4 de WoW Classic.|r",
 	[15] = "|cFFAAFFAAIsto não estava disponível até Phase 5 de WoW Classic.|r",
 	[16] = "|cFFAAFFAAIsto não estava disponível até Phase 6 de WoW Classic.|r",
+	[1610] = "|cFFAAFFAAIsto não estava disponível até Phase 6 de Season of Discovery.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -7580,6 +7591,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAAЭто было недоступно до Phase 4 из WoW Classic.|r",
 	[15] = "|cFFAAFFAAЭто было недоступно до Phase 5 из WoW Classic.|r",
 	[16] = "|cFFAAFFAAЭто было недоступно до Phase 6 из WoW Classic.|r",
+	[1610] = "|cFFAAFFAAЭто было недоступно до Phase 6 из Season of Discovery.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -8601,6 +8613,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAAPhase 4(WoW Classic)까지 사용할 수 없습니다.|r",
 	[15] = "|cFFAAFFAAPhase 5(WoW Classic)까지 사용할 수 없습니다.|r",
 	[16] = "|cFFAAFFAAPhase 6(WoW Classic)까지 사용할 수 없습니다.|r",
+	[1610] = "|cFFAAFFAAPhase 6(Season of Discovery)까지 사용할 수 없습니다.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -9605,6 +9618,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAAEsto no estuvo disponible hasta Phase 4 de WoW Classic.|r",
 	[15] = "|cFFAAFFAAEsto no estuvo disponible hasta Phase 5 de WoW Classic.|r",
 	[16] = "|cFFAAFFAAEsto no estuvo disponible hasta Phase 6 de WoW Classic.|r",
+	[1610] = "|cFFAAFFAAEsto no estuvo disponible hasta Phase 6 de Season of Discovery.|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -10605,6 +10619,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAA该功能直到 Phase 4 的 WoW Classic 才可用。|r",
 	[15] = "|cFFAAFFAA该功能直到 Phase 5 的 WoW Classic 才可用。|r",
 	[16] = "|cFFAAFFAA该功能直到 Phase 6 的 WoW Classic 才可用。|r",
+	[1610] = "|cFFAAFFAA该功能直到 Phase 6 的 Season of Discovery 才可用。|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
@@ -10967,6 +10982,7 @@ for key,value in pairs({
 	[3] = "Battle.net 點數",
 	[4] = "PvP 精良/鬥士",
 	[5] = "不可學",
+	[1610] = "第6階段",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -10981,6 +10997,7 @@ for key,value in pairs({
 	[14] = "|cFFAAFFAA該功能直到 Phase 4 的 WoW Classic 才可用。|r",
 	[15] = "|cFFAAFFAA該功能直到 Phase 5 的 WoW Classic 才可用。|r",
 	[16] = "|cFFAAFFAA該功能直到 Phase 6 的 WoW Classic 才可用。|r",
+	[1610] = "|cFFAAFFAA該功能直到 第6階段 的 Season of Discovery 才可用。|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
