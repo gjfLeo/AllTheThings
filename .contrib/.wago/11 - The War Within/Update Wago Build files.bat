@@ -1,19 +1,28 @@
-SET BUILD="11.1.5.60428"
-
-@REM Clear existing files
-del /Q *.csv
+@echo off
+SET BUILD=11.1.5.60428
 
 @REM Download new file versions
-curl -o "Achievement.%BUILD%.csv" "https://wago.tools/db2/Achievement/csv?build=%BUILD%"
-curl -o "Criteria.%BUILD%.csv" "https://wago.tools/db2/Criteria/csv?build=%BUILD%"
-curl -o "CriteriaTree.%BUILD%.csv" "https://wago.tools/db2/CriteriaTree/csv?build=%BUILD%"
-curl -o "GlyphProperties.%BUILD%.csv" "https://wago.tools/db2/GlyphProperties/csv?build=%BUILD%"
-curl -o "Item.%BUILD%.csv" "https://wago.tools/db2/Item/csv?build=%BUILD%"
-curl -o "ItemEffect.%BUILD%.csv" "https://wago.tools/db2/ItemEffect/csv?build=%BUILD%"
-curl -o "ItemXItemEffect.%BUILD%.csv" "https://wago.tools/db2/ItemXItemEffect/csv?build=%BUILD%"
-curl -o "ModifierTree.%BUILD%.csv" "https://wago.tools/db2/ModifierTree/csv?build=%BUILD%"
-curl -o "SpellEffect.%BUILD%.csv" "https://wago.tools/db2/SpellEffect/csv?build=%BUILD%"
-curl -o "TransmogSet.%BUILD%.csv" "https://wago.tools/db2/TransmogSet/csv?build=%BUILD%"
-curl -o "TransmogSetItem.%BUILD%.csv" "https://wago.tools/db2/TransmogSetItem/csv?build=%BUILD%"
+call :download Achievement
+call :download Criteria
+call :download CriteriaTree
+call :download GlyphProperties
+call :download Item
+call :download ItemEffect
+call :download ItemXItemEffect
+call :download ModifierTree
+call :download SpellEffect
+call :download TransmogSet
+call :download TransmogSetItem
 
+@REM Cleanup the SpellEffect file
 call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.%BUILD%.csv" "..\SpellEffect.regex"
+exit /b
+
+:download
+if not exist "%1.%BUILD%.csv" (
+	if exist "%1*.csv" (
+		del /Q "%1*.csv"
+	)
+	curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv?build=%BUILD%"
+)
+exit /b
