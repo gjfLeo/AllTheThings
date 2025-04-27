@@ -3277,6 +3277,15 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(3860, {    -- Mithril Bar
 				["cost"] = ClassicCost({ { "i", 3858, 1 } }),    -- Mithril Ore
 			}),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234003, {	-- Obsidian-Infused Thorium Bar
+				["timeline"] = { ADDED_1_15_5 },
+				["cost"] = ClassicCost({ 
+					{ "i", 12655, 2 }	-- Enchanted Thorium Bar
+					{ "i", 22203, 2 }	-- Large Obsidian Shard
+				}),
+			})),
+			-- #endif
 			i(2842, {    -- Silver Bar
 				["cost"] = ClassicCost({ { "i", 2775, 1 } }),    -- Silver Ore
 			}),
@@ -3407,6 +3416,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		category(230, {	-- Materials
 			i(2996),	-- Bolt of Linen Cloth
 			i(4339),	-- Bolt of Mageweave
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234009, { ["timeline"] = { ADDED_1_15_5 }, })), -- Bolt of Qiraji Silk
+			-- #endif
 			i(14048),	-- Bolt of Runecloth
 			i(4305),	-- Bolt of Silk Cloth
 			i(2997),	-- Bolt of Woolen Cloth
@@ -3497,7 +3509,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				["timeline"] = { REMOVED_4_0_3, ADDED_7_3_0 },
 			}),
 			i(7050),	-- Silk Headband
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22757)),	-- Sylvan Crown
+			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22757,	{	-- Sylvan Crown
+			-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+			-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234315, {	--	Sylvan Crown
+				["timeline"] = { ADDED_1_15_5 },
+			})),
+			-- #endif
 			i(10008),	-- White Bandit Mask
 			i(14130),	-- Wizardweave Turban
 		}),
@@ -3543,7 +3564,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				["timeline"] = { ADDED_1_15_2 },
 			})),
 			-- #endif
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22758)),	-- Sylvan Shoulders
+			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22758, {	-- Sylvan Shoulders
+			-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+			-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234312, {	--	Sylvan Shoulders
+				["timeline"] = { ADDED_1_15_5 },
+			})),
+			-- #endif
 		}),
 		category(236, {	-- Robes & Tunics
 			i(4324),	-- Azure Silk Vest
@@ -3644,7 +3674,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(10004),	-- Shadoweave Robe
 			i(10053),	-- Simple Black Dress
 			i(6786),	-- Simple Dress
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22756)),	-- Sylvan Vest
+			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22756, {	-- Sylvan Vest
+			-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+			-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234317, {	--	Sylvan Vest
+				["timeline"] = { ADDED_1_15_5 },
+			})),
+			-- #endif
 			i(14154, {	-- Truefaith Vestments
 				["requireSkill"] = TAILORING,
 			}),

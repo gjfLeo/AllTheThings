@@ -2929,16 +2929,35 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								["isLimited"] = true,
 							}),
 						}, {	-- Friendly
-							applyclassicphase(PHASE_FIVE, i(22310)),	-- Pattern: Cenarion Herb Bag (RECIPE!)
-							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22772)),	-- Pattern: Sylvan Shoulders (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SIX, i(234445, {		-- Pattern: Bolt of Qiraji Silk (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
+							-- #endif
+							applyclassicphase(PHASE_FIVE, i(22310)),	-- Pattern: Cenarion Herb Bag (RECIPE!)
+							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22772,	{	-- Pattern: Sylvan Shoulders (RECIPE!)
+							-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_5 },
+							-- #endif
+							})),
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SIX, i(234314, {	--	Pattern: Sylvan Shoulders (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
 							applyclassicphase(SOD_PHASE_SIX, i(234263, {		-- Schematic: Obsidian Bomb (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
 							})),
 							-- #endif
 						}, {	-- Honored
-							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22773)),	-- Pattern: Sylvan Crown (RECIPE!)
+							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22773,	{-- Pattern: Sylvan Crown (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_5 },
+							-- #endif
+							})),
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SIX, i(234316, {	--	Pattern: Sylvan Crown (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
 							applyclassicphase(SOD_PHASE_SIX, i(234262, {		-- Schematic: The Fumigator (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
 							})),
@@ -2946,8 +2965,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}, {	-- Revered
 							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22683)),	-- Pattern: Gaea's Embrace (RECIPE!)
 							applyclassicphase(PHASE_FIVE, i(22312)),	-- Pattern: Satchel of Cenarius (RECIPE!)
-							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22774)),	-- Pattern: Sylvan Vest (RECIPE!)
+							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22774,	{	-- Pattern: Sylvan Vest (RECIPE!)
 							-- #if SEASON_OF_DISCOVERY
+								["timeline"] = { REMOVED_1_15_5 },
+							-- #endif
+							})),
+							-- #if SEASON_OF_DISCOVERY
+							applyclassicphase(SOD_PHASE_SIX, i(234318, {	--	Pattern: Sylvan Vest (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
 							applyclassicphase(SOD_PHASE_SIX, i(234261, {		-- Schematic: Arcane Megabomb (RECIPE!)
 								["timeline"] = { ADDED_1_15_5 },
 							})),
@@ -2976,6 +3002,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							})),
 							-- #endif
 						}, {	-- Honored
+							applyclassicphase(SOD_PHASE_SIX, i(234278, {		-- Manual: Smelt Obsidian-Infused Thorium Bar (RECIPE!)
+								["timeline"] = { ADDED_1_15_5 },
+							})),
 							applyclassicphase(PHASE_FIVE_CATCH_UP, i(22767)),	-- Plans: Ironvine Gloves (RECIPE!)
 							applyclassicphase(PHASE_FIVE, i(22214)),	-- Plans: Light Obsidian Belt (RECIPE!)
 						}, {	-- Revered
