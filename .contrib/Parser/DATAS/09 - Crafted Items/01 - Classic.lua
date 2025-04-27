@@ -3292,8 +3292,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			applyclassicphase(SOD_PHASE_SIX, i(234003, {	-- Obsidian-Infused Thorium Bar
 				["timeline"] = { ADDED_1_15_5 },
 				["cost"] = ClassicCost({ 
-					{ "i", 12655, 2 }	-- Enchanted Thorium Bar
-					{ "i", 22203, 2 }	-- Large Obsidian Shard
+					{ "i", 12655, 2 },	-- Enchanted Thorium Bar
+					{ "i", 22203, 2 },	-- Large Obsidian Shard
 				}),
 			})),
 			-- #endif
