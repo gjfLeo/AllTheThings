@@ -17,6 +17,24 @@ SILITHID_ROYALTY_SHARED_DROPS = createHeader({
 	},
 });
 -- #endif
+
+-- #if SEASON_OF_DISCOVERY
+--[[
+local TOKENS = {
+i(233369), -- Qiraji Bindings of Dominance
+i(233370), -- Qiraji Bindings of Command
+i(233371), -- Qiraji Bindings of Sovereignty
+i(233365), -- Intact Viscera
+i(233367), -- Intact Peritoneum
+i(233368), -- Intact Entrails
+i(233362), -- Husk of the Old God
+i(233363), -- Carapace of the Old God
+i(233364), -- Skin of the Old God
+};--]]
+-- #endif
+
+
+
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE, {
 	inst(744, {	-- Temple of Ahn'Qiraj
 		["lore"] = "Dark whispers ride on the winds of Silithus desert. An old god stirs in his wretched lair and the entire world shall soon be the target of his wrath.\n\nAfter thousands of years of slumber, the old god, C'thun has awakened and is quickly regenerating his power. Once he has reached full potential nothing will be able to stop him. The dragons that so humbly sacrificed themselves so long ago to imprison C'thun are weakened or enslaved in the temple, so the charge of protecting the land falls to other heroes.\n\nHeroes must enter Temple of Ahn'Qiraj, challenge C'thun's most wicked servants, and slay a god. The road will not be easy and it is wrought with peril at every turn. Will the heroes turn back now or face C'thun in his mighty lair and put an end to him once and for all?",
@@ -708,10 +726,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 					["repeatable"] = true,
 					["groups"] = {
-						i(21242),	-- Blessed Qiraji War Axe
-						i(21272),	-- Blessed Qiraji Musket
-						i(21244),	-- Blessed Qiraji Pugio
-						i(21269),	-- Blessed Qiraji Bulwark
+						i(21242, {	-- Blessed Qiraji War Axe
+						}),
+						i(21269, {	-- Blessed Qiraji Bulwark
+						}),
+						i(21272, {	-- Blessed Qiraji Musket
+						}),
+						i(21244, {	-- Blessed Qiraji Pugio
+						}),
 					},
 				}),
 				q(8790, {	-- Imperial Qiraji Regalia
@@ -722,9 +744,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 					["repeatable"] = true,
 					["groups"] = {
-						i(21273),	-- Blessed Qiraji Acolyte Staff
-						i(21275),	-- Blessed Qiraji Augur Staff
-						i(21268),	-- Blessed Qiraji War Hammer
+						i(21273, {	-- Blessed Qiraji Acolyte Staff
+						}),
+						i(21275, {	-- Blessed Qiraji Augur Staff
+						}),
+						i(21268, {	-- Blessed Qiraji War Hammer
+						}),
 					},
 				}),
 				q(8579, {	-- Mortal Champions
@@ -1616,6 +1641,35 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 							15263,	-- The Prophet Skeram
 							15544,	-- Vem
 							15299,	-- Viscidus
+						},
+					}),
+				}),
+				n(QUESTS, {
+					q(86672, {	-- Imperial Qiraji Armaments
+						["qg"] = 15380,	-- Arygos
+						["cost"] = {
+							{ "i", 235046, 1 },	-- Imperial Qiraji Armaments
+							{ "i", 18562, 3 },	-- Elementium Ore
+						},
+						["repeatable"] = true,
+						["groups"] = {
+							i(234804), -- Blessed Qiraji War Axe
+							i(234805), -- Blessed Qiraji Musket
+							i(234806), -- Blessed Qiraji Pugio
+							i(234807), -- Blessed Qiraji Bulwark
+						},
+					}),
+					q(86671, {	-- Imperial Qiraji Regalia
+						["qg"] = 15378,	-- Merithra of the Dream
+						["cost"] = {
+							{ "i", 235045, 1 },	-- Imperial Qiraji Regalia
+							{ "i", 18562, 3 },	-- Elementium Ore
+						},
+						["repeatable"] = true,
+						["groups"] = {
+							i(234808), -- Blessed Qiraji Acolyte Staff
+							i(234809), -- Blessed Qiraji Augur Staff
+							i(234810), -- Blessed Qiraji War Hammer
 						},
 					}),
 				}),
