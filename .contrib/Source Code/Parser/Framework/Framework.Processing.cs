@@ -60,6 +60,12 @@ namespace ATT
                 MergeItemDB(wagoItemDb.Values.Select(i => i.AsData()));
             }
 
+            // Item Modified Appearance (Sources)
+            if (TypeDB.TryGetValue("ItemModifiedAppearance", out IDictionary<long, IDBType> wagoSourceDb))
+            {
+                MergeItemDB(wagoSourceDb.Values.Select(i => i.AsData()));
+            }
+
             // Go through all of the items in the database and calculate the Filter ID
             // if the Filter ID is not already assigned. (manual assignment should always override this)
             foreach (var data in Items.AllItems)
@@ -2779,6 +2785,15 @@ namespace ATT
         private static void Incorporate_Item(IDictionary<string, object> data)
         {
             if (!data.TryGetValue("itemID", out long itemID)) return;
+
+            if (TryGetTypeDBObjectCollection(itemID, out List<ItemModifiedAppearance> itemModifiedAppearances))
+            {
+                foreach (ItemModifiedAppearance itemModifiedAppearance in itemModifiedAppearances)
+                {
+                    Objects.Merge(data, "sourceID", itemModifiedAppearance.ItemAppearanceID);
+                }
+            }
+
             if (data.ContainsKey("_noautomation")) return;
 
             // See if there's a Spell and what it links to
