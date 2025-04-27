@@ -1091,6 +1091,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				i(21321),	-- Red Qiraji Battle Tank (MOUNT!)
 				i(21324),	-- Yellow Qiraji Battle Tank (MOUNT!)
 				i(21837, {	-- Anubisath Warhammer
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15264,	-- Anubisath Sentinel
 						15262,	-- Obsidian Eradicator
@@ -1105,6 +1108,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				i(21856, {	-- Neretzek, the Blood Drinker
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15264,	-- Anubisath Sentinel
 						15262,	-- Obsidian Eradicator
@@ -1119,6 +1125,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				i(21838, {	-- Garb of Royal Ascension
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15264,	-- Anubisath Sentinel
 						15262,	-- Obsidian Eradicator
@@ -1133,6 +1142,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				i(21890, {	-- Gloves of the Fallen Prophet
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15277,	-- Anubisath Defender
 						15311,	-- Anubisath Warder
@@ -1143,6 +1155,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				i(21888, {	-- Gloves of the Immortal
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15264,	-- Anubisath Sentinel
 						15262,	-- Obsidian Eradicator
@@ -1157,6 +1172,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				i(21889, {	-- Gloves of the Redeemed Prophecy
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15277,	-- Anubisath Defender
 						15311,	-- Anubisath Warder
@@ -1167,6 +1185,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				i(21836, {	-- Ritssyn's Ring of Chaos
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15264,	-- Anubisath Sentinel
 						15262,	-- Obsidian Eradicator
@@ -1181,6 +1202,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					},
 				}),
 				i(21891, {	-- Shard of the Fallen Star
+					-- #if SEASON_OF_DISCOVERY
+					["timeline"] = { REMOVED_1_15_5 },
+					-- #endif
 					["crs"] = {
 						15277,	-- Anubisath Defender
 						15311,	-- Anubisath Warder
@@ -1549,6 +1573,52 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 			-- #if SEASON_OF_DISCOVERY
 			})),
 			applyclassicphase(SOD_PHASE_SIX, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_5 }, }, {
+				n(COMMON_BOSS_DROPS, {
+					i(235046, {	-- Imperial Qiraji Armaments
+						["crs"] = {
+							15510,	-- Fankriss the Unyielding
+							15516,	-- Battleguard Sartura
+							15509,	-- Princess Huhuran
+							15275,	-- Emperor Vek'nilash
+							15276,	-- Emperor Vek'lor
+							15544,	-- Vem
+							15511,	-- Lord Kri
+							15517,	-- Ouro
+							15543,	-- Princess Yauj
+							15299,	-- Viscidus
+						},
+					}),
+					i(235045, {	-- Imperial Qiraji Regalia
+						["crs"] = {
+							15510,	-- Fankriss the Unyielding
+							15516,	-- Battleguard Sartura
+							15509,	-- Princess Huhuran
+							15275,	-- Emperor Vek'nilash
+							15276,	-- Emperor Vek'lor
+							15544,	-- Vem
+							15511,	-- Lord Kri
+							15517,	-- Ouro
+							15543,	-- Princess Yauj
+							15299,	-- Viscidus
+						},
+					}),
+					i(21229, {	-- Qiraji Lord's Insignia
+						["description"] = "Drops from all bosses, can be turned in to the NPC named Kandrostrasz for reputation with the Brood of Nozdormu and Cenarion Circle. Kandrostrasz can be found with Andorgos and Vethsera inside the temple after killing The Prophet Skeram, in a chamber on the left side.",
+						["crs"] = {
+							15516,	-- Battleguard Sartura
+							15276,	-- Emperor Vek'lor
+							15275,	-- Emperor Vek'nilash
+							15510,	-- Fankriss the Unyielding
+							15511,	-- Lord Kri
+							15517,	-- Ouro
+							15509,	-- Princess Huhuran
+							15543,	-- Princess Yauj
+							15263,	-- The Prophet Skeram
+							15544,	-- Vem
+							15299,	-- Viscidus
+						},
+					}),
+				}),
 				n(SPECIAL, {
 					n(234193, {		-- Gilded Scarab
 						["description"] = "Randomly spawns in the Temple of Ahn'Qiraj and will despawn within 10seconds after being attacked",
@@ -1719,6 +1789,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				e(1545, {	-- Fankriss the Unyielding
 					["creatureID"] = 15510,
 					["groups"] = {
+						i(233369), -- Qiraji Bindings of Dominance
+						i(233370), -- Qiraji Bindings of Command
+						i(233371), -- Qiraji Bindings of Sovereignty
 						i(233585), -- Ancient Qiraji Ripper
 						i(233586), -- Jaw of the Sand Reaver
 						i(233587), -- Barbed Choker
@@ -1736,6 +1809,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					["description"] = "This boss requires 200 frost hits to freeze. Once frozen, you need 75 melee hits to shatter him. Equipping barov peasant caller trinket and using it after boss freezes will help to do this.",
 					["creatureID"] = 15299,
 					["groups"] = {
+						i(233369), -- Qiraji Bindings of Dominance
+						i(233370), -- Qiraji Bindings of Command
+						i(233371), -- Qiraji Bindings of Sovereignty
 						i(233598), -- Slime-Coated Leggings
 						i(233599), -- Sharpened Silithid Femur
 						i(233600), -- Ring of the Qiraji Fury
@@ -1747,6 +1823,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				e(1546, {	-- Princess Huhuran
 					["creatureID"] = 15509,
 					["groups"] = {
+						i(233369), -- Qiraji Bindings of Dominance
+						i(233370), -- Qiraji Bindings of Command
+						i(233371), -- Qiraji Bindings of Sovereignty
 						i(233596), -- Libram of Purification
 						i(233597), -- Totem of Life
 						i(233602), -- Idol of Health
@@ -1812,27 +1891,80 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						i(233362), -- Husk of the Old God
 						i(233363), -- Carapace of the Old God
 						i(233364), -- Skin of the Old God
+						i(233640), -- Dark Edge of Insanity
+						i(233634), -- Death's Sting
+						i(233636), -- Scepter of the False Prophet
+						i(233632), -- Grasp of the Old God
+						i(233633), -- Eyestalk Waist Cord
+						i(233630), -- Cloak of the Devoured
+						i(233631), -- Dark Storm Gauntlets
+						i(233635), -- Belt of Never-Ending Agony
+						i(233637), -- Gauntlets of Annihilation
+						i(233638), -- Ring of the Godslayer
+						i(233639), -- Vanquished Tentacle of C'Thun
+						i(233641), -- Cloak of Clarity
+						i(233642), -- Mark of C'Thun
+						-- Bonus Weapons?
 						i(233585), -- Ancient Qiraji Ripper
 						i(233586), -- Jaw of the Sand Reaver
 						i(233599), -- Sharpened Silithid Femur
 						i(233605), -- Huhuran's Stinger
 						i(233621), -- Kalimdor's Revenge
-						i(233630), -- Cloak of the Devoured
-						i(233631), -- Dark Storm Gauntlets
-						i(233632), -- Grasp of the Old God
-						i(233633), -- Eyestalk Waist Cord
-						i(233634), -- Death's Sting
-						i(233635), -- Belt of Never-Ending Agony
-						i(233636), -- Scepter of the False Prophet
-						i(233637), -- Gauntlets of Annihilation
-						i(233638), -- Ring of the Godslayer
-						i(233639), -- Vanquished Tentacle of C'Thun
-						i(233640), -- Dark Edge of Insanity
-						i(233641), -- Cloak of Clarity
-						i(233642), -- Mark of C'Thun
 					},
 				}),
-				-- HARDMODE LOOT HERE
+				n(AQ_TEMPLE_HARDMODE, {
+					["description"] = "When players enter Ahn'Qiraj (both Ruins and Temple), and arrive at the first boss, they will see an obelisk. By interacting with the obelisk (deactivating it), they add additional mechanics to the raid, and the raid will have a finite number of attempts to defeat the next 3 bosses. Each boss has an individual obelisk that must be deactivated to continue. Doing so will give you bonus loot chests & and you also receive a Void-Touched Emblem which turns Temple of Ahn'Qiraj Weapons into a 'Voidtouched' varient of the weapon. They have a neat void appearance despite providing no difference in quality. (Cosmetic only!)",
+					["groups"] = {
+						i(233351), -- Light Green Qiraji Resonating Crystal
+						i(233352), -- Dark Blue Qiraji Resonating Crystal
+						i(233353), -- Light Blue Qiraji Resonating Crystal
+						i(233356), -- Orange Qiraji Resonating Crystal
+						i(233357), -- Twilight Qiraji Resonating Crystal
+						i(234614, {	--	Void-Touched Emblem
+							i(234650), -- Ancient Qiraji Ripper
+							i(234974), -- Staff of the Qiraji Prophets
+							i(234975), -- Hammer of Jizhi
+							i(234976), -- Wand of Qiraji Nobility
+							i(234977), -- Silithid Claw
+							i(234978), -- Jaw of the Sand Reaver
+							i(234979), -- Sharpened Silithid Femur
+							i(234980), -- Huhuran's Stinger
+							i(234981), -- Kalimdor's Revenge
+							i(234983), -- Larvae of the Great Worm
+							i(234984), -- Death's Sting
+							i(234985), -- Dark Edge of Insanity
+							i(234986), -- Anubisath Warhammer
+							i(234987), -- Neretzek, the Blood Drinker
+							i(234989), -- Qiraji Sacrificial Dagger
+							i(234990), -- Manslayer of the Qiraji
+							i(234991), -- Bow of Taut Sinew
+							i(234992), -- Stinger of Ayamiss
+							i(234993), -- Crossbow of Imminent Doom
+							i(234994), -- Sand-Polished Hammer
+							i(234995), -- Staff of the Ruins
+							i(234996), -- Gavel of Qiraji Authority
+							i(234997), -- Silithid Husked Launcher
+							i(234998), -- The Lost Kris of Zedd
+							i(234999), -- Blessed Qiraji War Hammer
+							i(235000), -- Blessed Qiraji Augur Staff
+							i(235001), -- Blessed Qiraji Acolyte Staff
+							i(235002), -- Blessed Qiraji Pugio
+							i(235003), -- Blessed Qiraji War Axe
+							i(235004), -- Blessed Qiraji Musket
+							i(235005), -- Sickle of Unyielding Strength
+							i(235006), -- Dagger of Veiled Shadows
+							i(235007), -- Scythe of the Unseen Path
+							i(235008), -- Kris of Unspoken Names
+							i(235009), -- Hammer of the Gathering Storm
+							i(235010), -- Gavel of Infinite Wisdom
+							i(235011), -- Blade of Eternal Justice
+							i(235012), -- Mace of Unending Life
+							i(235013), -- Blade of Vaulted Secrets
+							i(235014), -- Scepter of the False Prophet
+							i(235282), -- Antenna of Invigoration
+						}),
+					},
+				}),
 			}))),
 			-- #endif
 		},

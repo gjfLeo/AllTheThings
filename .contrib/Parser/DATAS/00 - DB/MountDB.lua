@@ -20,6 +20,13 @@ i(211498, 429856);	-- Trainee's Sentinel Nightsaber
 i(216570, 436329);	-- Reins of the Golden Sabercat
 i(216492, 436288);	-- Whistle of the Mottled Blood Raptor
 
+-- Phase 6
+i(233351, 0); -- Light Green Qiraji Resonating Crystal
+i(233352, 0); -- Dark Blue Qiraji Resonating Crystal
+i(233353, 0); -- Light Blue Qiraji Resonating Crystal
+i(233356, 0); -- Orange Qiraji Resonating Crystal
+i(233357, 0); -- Twilight Qiraji Resonating Crystal
+
 -- TBC Classic --
 i(184865, 348459);	-- Reawakened Phase-Hunter
 

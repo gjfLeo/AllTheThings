@@ -500,6 +500,7 @@ HeaderAssignments = {
 	["Tanks"] = -1000148,
 	["Tankworks"] = -1001117,
 	["TBC Classic Deluxe Edition"] = -1000247,
+	["Temple of Ahn'Qiraj Hardmode"] = -1001179,
 	["The Ahn'Qiraj War Effort"] = -1000234,
 	["The Arachnid Quarter"] = -1000049,
 	["The Argent Tournament"] = -1000231,
@@ -648,4 +649,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001179;
+NextHeaderID = -1001180;
