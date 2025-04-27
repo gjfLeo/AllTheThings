@@ -2785,15 +2785,6 @@ namespace ATT
         private static void Incorporate_Item(IDictionary<string, object> data)
         {
             if (!data.TryGetValue("itemID", out long itemID)) return;
-
-            if (TryGetTypeDBObjectCollection(itemID, out List<ItemModifiedAppearance> itemModifiedAppearances))
-            {
-                foreach (ItemModifiedAppearance itemModifiedAppearance in itemModifiedAppearances)
-                {
-                    Objects.Merge(data, "sourceID", itemModifiedAppearance.ID);
-                }
-            }
-
             if (data.ContainsKey("_noautomation")) return;
 
             // See if there's a Spell and what it links to
