@@ -142,7 +142,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 	n(WINDS_OF_MYSTERIOUS_FORTUNE_HEADER, {
-		q(86695),	-- Always triggers after getting Pristine Mysterious Satchel
+		q(86695, name(HEADERS.Item, 235054, {isDaily=true})),	-- Always triggers after getting Pristine Mysterious Satchel
 		q(90134),	-- Always triggers after getting Pristine Mysterious Satchel
 		q(90752),	-- Sometimes triggers after getting Pristine Mysterious Satchel
 	}),
