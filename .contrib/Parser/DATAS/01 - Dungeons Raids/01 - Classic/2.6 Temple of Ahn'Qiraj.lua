@@ -1366,19 +1366,15 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					}),
 				},
 			}),
+			-- #if SEASON_OF_DISCOVERY
+			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
+			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf(REMOVED_1_15_5, {
+			-- #endif
 			e(1543, {	-- The Prophet Skeram
 				["creatureID"] = 15263,
 				["groups"] = {
 					i(22222, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
-					-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { REMOVED_1_15_6 },
-					-- #endif
 					}),
-					-- #if SEASON_OF_DISCOVERY
-					applyclassicphase(SOD_PHASE_SIX, i(235039, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
-						["timeline"] = { ADDED_1_15_6 },
-					})),
-					-- #endif
 					i(21703),	-- Hammer of Ji'zhi
 					i(21128),	-- Staff of the Qiraji Prophets
 					i(21702),	-- Amulet of Foul Warding
@@ -1620,6 +1616,226 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					i(21579),	-- Vanquished Tentacle of C'Thun
 				},
 			}),
+			-- #if SEASON_OF_DISCOVERY
+			})),
+			applyclassicphase(SOD_PHASE_SIX, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_5 }, }, {
+				e(1543, {	-- The Prophet Skeram
+					["creatureID"] = 15263,
+					["groups"] = {
+						i(22222, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
+						-- #if SEASON_OF_DISCOVERY
+							["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+						}),
+						i(235039), -- Plans: Thick Obisidan Breastplate (RECIPE!)
+						i(233496), -- Barrage Shoulders
+						i(233502), -- Amulet of Foul Warding
+						i(233503), -- Pendant of the Qiraji Guardian
+						i(233504), -- Cloak of Concentrated Hatred
+						i(233505), -- Leggings of Immersion
+						i(233506), -- Beetle-Scaled Wristguards
+						i(233507), -- Ring of Swarming Thought
+						i(233509), -- Staff of the Qiraji Prophets
+						i(233514), -- Boots of the Unwavering Will
+						i(233515), -- Hammer of Jizhi
+						i(233516), -- Breastplate of Annihilation
+						i(233517), -- Boots of the Redeemed Prophecy
+						i(233518), -- Boots of the Fallen Prophet
+						i(233643), -- Anubisath Warhammer
+						i(233644), -- Garb of Royal Ascension
+						i(233645), -- Gloves of the Immortal
+						i(233647), -- Neretzek, the Blood Drinker
+						i(233648), -- Ritssyn's Ring of Chaos
+					},
+				}),
+				n(SILITHID_ROYALTY_SHARED_DROPS, {
+						["description"] = "These items can drop from killing the Silithid Royalty bosses regardless of order. For the other items, refer to their individual listings.",
+						["providers"] = {
+							{ "n", 15511 },	-- Lord Kri
+							{ "n", 15543 },	-- Princess Yauj
+							{ "n", 15544 },	-- Vem
+						},
+						["groups"] = {
+							i(233519), -- Cape of the Trinity
+							i(233520), -- Robes of the Triumvirate
+							i(233521), -- Ternary Mantle
+							i(233522), -- Guise of the Devourer
+							i(233523), -- Triad Girdle
+							i(233524), -- Angelista's Touch
+						},
+						n(15511, {	-- Lord Kri
+							["description"] = "Killing this boss last can drop the following items.",
+							["groups"] = {
+								i(233568), -- Vest of Swift Execution
+								i(233569), -- Ring of the Devoured
+								i(233570), -- Petrified Scarab
+								i(233571), -- Wand of Qiraji Nobility
+							},
+						}),
+						n(15543, {	-- Princess Yauj
+							["description"] = "Killing this boss last can drop the following items.",
+							["groups"] = {
+								i(233563), -- Mantle of Phrenic Power
+								i(233564), -- Bile-Covered Gauntlets
+								i(233565), -- Ukko's Ring of Darkness
+								i(233566), -- Mantle of the Desert's Fury
+								i(233567), -- Mantle of the Desert Crusade
+							},
+						}),
+						n(15544, {	-- Vem
+							["description"] = "Killing this boss last can drop the following items.",
+							["groups"] = {
+								i(233559), -- Gloves of Ebru
+								i(233560), -- Ooze-Ridden Gauntlets
+								i(233561), -- Boots of the Fallen Hero
+								i(233562), -- Angelista's Charm
+							},
+						}),
+				}),
+				e(1544, {	-- Battleguard Sartura
+					["creatureID"] = 15516,
+					["groups"] = {
+						i(233572), -- Necklace of Purity
+						i(233573), -- Recomposed Boots
+						i(233574), -- Leggings of the Festering Swarm
+						i(233575), -- Robes of the Battleguard
+						i(233576), -- Silithid Claw
+						i(233577), -- Thick Qirajihide Belt
+						i(233578), -- Creeping Vine Helm
+						i(233579), -- Gloves of Enforcement
+						i(233580), -- Badge of the Swarmguard
+						i(233581), -- Sartura's Might
+						i(233582), -- Gauntlets of Steadfast Determination
+						i(233583), -- Legplates of Blazing Light
+						i(233584), -- Scaled Leggings of Qiraji Fury
+						i(233643), -- Anubisath Warhammer
+						i(233644), -- Garb of Royal Ascension
+						i(233645), -- Gloves of the Immortal
+						i(233646), -- Gloves of the Redeemed Prophecy
+						i(233647), -- Neretzek, the Blood Drinker
+						i(233648), -- Ritssyn's Ring of Chaos
+						i(233649), -- Shard of the Fallen Star
+						i(235047), -- Gloves of the Fallen Prophet
+					},
+				}),
+				e(1545, {	-- Fankriss the Unyielding
+					["creatureID"] = 15510,
+					["groups"] = {
+						i(233585), -- Ancient Qiraji Ripper
+						i(233586), -- Jaw of the Sand Reaver
+						i(233587), -- Barbed Choker
+						i(233588), -- Cloak of Untold Secrets
+						i(233589), -- Fetish of the Sand Reaver
+						i(233590), -- Hive Tunneler's Boots
+						i(233591), -- Silithid Carapace Chestguard
+						i(233592), -- Mantle of Wicked Revenge
+						i(233593), -- Pauldrons of the Unrelenting
+						i(233594), -- Robes of the Guardian Saint
+						i(233595), -- Scaled Sand Reaver Leggings
+					},
+				}),
+				e(1548, {	-- Viscidus
+					["description"] = "This boss requires 200 frost hits to freeze. Once frozen, you need 75 melee hits to shatter him. Equipping barov peasant caller trinket and using it after boss freezes will help to do this.",
+					["creatureID"] = 15299,
+					["groups"] = {
+						i(233598), -- Slime-Coated Leggings
+						i(233599), -- Sharpened Silithid Femur
+						i(233600), -- Ring of the Qiraji Fury
+						i(233601), -- Scarab Brooch
+						i(233603), -- Gauntlets of the Righteous Champion
+						i(233604), -- Gauntlets of Kalimdor
+					},
+				}),
+				e(1546, {	-- Princess Huhuran
+					["creatureID"] = 15509,
+					["groups"] = {
+						i(233596), -- Libram of Purification
+						i(233597), -- Totem of Life
+						i(233602), -- Idol of Health
+						i(233605), -- Huhuran's Stinger
+						i(233606), -- Cloak of the Golden Hive
+						i(233607), -- Gloves of the Messiah
+						i(233608), -- Wasphide Gauntlets
+						i(233609), -- Ring of the Martyr
+						i(233610), -- Hive Defiler Wristguards
+					},
+				}),
+				n(15276, {	-- Emperor Vek'lor
+					i(20735),	-- Formula: Enchant Cloak - Subtlety (RECIPE!)
+					i(233365), -- Intact Viscera
+					i(233367), -- Intact Peritoneum
+					i(233368), -- Intact Entrails
+					i(233611), -- Boots of Epiphany
+					i(233612), -- Qiraji Execution Bracers
+					i(233613), -- Veklor's Gloves of Devastation
+					i(233614), -- Royal Qiraji Belt
+					i(233615), -- Ring of Emperor Veklor
+					i(233616), -- Royal Scepter of Vek'lor
+					i(235045), -- Imperial Qiraji Regalia
+					i(235046), -- Imperial Qiraji Armaments
+				}),
+				n(15275, {	-- Emperor Vek'nilash
+					i(20726),	-- Formula: Enchant Gloves - Threat (RECIPE!)
+					i(233365), -- Intact Viscera
+					i(233367), -- Intact Peritoneum
+					i(233368), -- Intact Entrails
+					i(233617), -- Bracelets of Royal Redemption
+					i(233618), -- Gloves of the Hidden Temple
+					i(233619), -- Regenerating Belt of Vek'nilash
+					i(233620), -- Amulet of Vek'nilash
+					i(233621), -- Kalimdor's Revenge
+					i(233622), -- Grasp of the Fallen Emperor
+					i(233623), -- Belt of the Fallen Emperor
+					i(235045), -- Imperial Qiraji Regalia
+					i(235046), -- Imperial Qiraji Armaments
+				}),
+				e(1550, {	-- Ouro
+					["creatureID"] = 15517,
+					["groups"] = {
+						i(233365), -- Intact Viscera
+						i(233367), -- Intact Peritoneum
+						i(233368), -- Intact Entrails
+						i(233624), -- Don Rigoberto's Lost Hat
+						i(233625), -- Burrower Bracers
+						i(233626), -- Larvae of the Great Worm
+						i(233627), -- Jom Gabbar
+						i(233628), -- The Burrower's Shell
+						i(233629), -- Wormscale Blocker
+					},
+				}),
+				e(1551, {	-- C'Thun
+					["creatureID"] = 15727,
+					["groups"] = {
+						i(21221),	-- Eye of C'Thun
+						applyclassicphase(PHASE_SIX, {
+							["itemID"] = 22734,	-- Base of Atiesh
+							["classes"] = { PRIEST, MAGE, WARLOCK, DRUID },
+						}),
+						i(233362), -- Husk of the Old God
+						i(233363), -- Carapace of the Old God
+						i(233364), -- Skin of the Old God
+						i(233585), -- Ancient Qiraji Ripper
+						i(233586), -- Jaw of the Sand Reaver
+						i(233599), -- Sharpened Silithid Femur
+						i(233605), -- Huhuran's Stinger
+						i(233621), -- Kalimdor's Revenge
+						i(233630), -- Cloak of the Devoured
+						i(233631), -- Dark Storm Gauntlets
+						i(233632), -- Grasp of the Old God
+						i(233633), -- Eyestalk Waist Cord
+						i(233634), -- Death's Sting
+						i(233635), -- Belt of Never-Ending Agony
+						i(233636), -- Scepter of the False Prophet
+						i(233637), -- Gauntlets of Annihilation
+						i(233638), -- Ring of the Godslayer
+						i(233639), -- Vanquished Tentacle of C'Thun
+						i(233640), -- Dark Edge of Insanity
+						i(233641), -- Cloak of Clarity
+						i(233642), -- Mark of C'Thun
+					},
+				}),
+			}))),
+			-- #endif
 		},
 	}),
 })));
