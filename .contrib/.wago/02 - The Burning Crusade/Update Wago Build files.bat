@@ -5,6 +5,7 @@ SET BUILD=2.5.4.44833
 call :download Item
 call :download ItemEffect
 call :download ItemModifiedAppearance
+call :download ItemSearchName
 call :download ModifierTree
 call :download SpellEffect
 call :download TaxiNodes

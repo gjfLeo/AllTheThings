@@ -22,6 +22,7 @@ namespace ATT.DB
             typeof(ItemEffect),
             typeof(ItemXItemEffect),
             typeof(ItemModifiedAppearance),
+            typeof(ItemSearchName),
             typeof(ModifierTree),
             typeof(TransmogSet),
             typeof(TransmogSetItem),

@@ -52,7 +52,7 @@ namespace ATT.DB.Types
                 { "_inventoryType", InventoryType },
             };
             long lvl = RequiredLevel;
-            if (lvl > 0) data["lvl"] = lvl;
+            if (lvl > 1) data["lvl"] = lvl;
             long? spellID = SpellID;
             if (spellID.HasValue)
             {

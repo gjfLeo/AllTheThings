@@ -9,6 +9,7 @@ call :download GlyphProperties
 call :download Item
 call :download ItemEffect
 call :download ItemModifiedAppearance
+call :download ItemSearchName
 call :download ModifierTree
 call :download SpellEffect
 call :download TaxiNodes

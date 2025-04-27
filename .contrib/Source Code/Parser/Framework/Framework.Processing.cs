@@ -66,8 +66,14 @@ namespace ATT
                 MergeItemDB(wagoSourceDb.Values.Select(i => i.AsData()));
             }
 
+            // Item Search Name (Quality, Required Skills, Item Level, Race/Class Requirements)
+            if (TypeDB.TryGetValue("ItemSearchName", out IDictionary<long, IDBType> wagoItemSearchDb))
+            {
+                MergeItemDB(wagoItemSearchDb.Values.Select(i => i.AsData()));
+            }
+
             // GlyphGB
-            if(TypeDB.TryGetValue("GlyphProperties", out IDictionary<long, IDBType> wagoGlyphDb))
+            if (TypeDB.TryGetValue("GlyphProperties", out IDictionary<long, IDBType> wagoGlyphDb))
             {
                 foreach(var obj in wagoGlyphDb.Values)
                 {

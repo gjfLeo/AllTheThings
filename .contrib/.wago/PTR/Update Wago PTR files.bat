@@ -1,12 +1,28 @@
-curl -o "Achievement.csv" "https://wago.tools/db2/Achievement/csv"
-curl -o "Criteria.csv" "https://wago.tools/db2/Criteria/csv"
-curl -o "CriteriaTree.csv" "https://wago.tools/db2/CriteriaTree/csv"
-curl -o "Item.csv" "https://wago.tools/db2/Item/csv"
-curl -o "ItemEffect.csv" "https://wago.tools/db2/ItemEffect/csv"
-curl -o "ItemXItemEffect.csv" "https://wago.tools/db2/ItemXItemEffect/csv"
-curl -o "ModifierTree.csv" "https://wago.tools/db2/ModifierTree/csv"
-curl -o "SpellEffect.csv" "https://wago.tools/db2/SpellEffect/csv"
-curl -o "TransmogSet.csv" "https://wago.tools/db2/TransmogSet/csv"
-curl -o "TransmogSetItem.csv" "https://wago.tools/db2/TransmogSetItem/csv"
+@echo off
+@REM Download new file versions
+call :download Achievement
+call :download Criteria
+call :download CriteriaTree
+call :download GlyphProperties
+call :download Item
+call :download ItemEffect
+call :download ItemXItemEffect
+call :download ItemSearchName
+call :download ModifierTree
+call :download SpellEffect
+call :download TaxiNodes
+call :download TransmogSet
+call :download TransmogSetItem
 
+@REM Cleanup the SpellEffect file
 call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.csv" "..\SpellEffect.regex"
+exit /b
+
+:download
+if not exist "%1.%BUILD%.csv" (
+	if exist "%1*.csv" (
+		del /Q "%1*.csv"
+	)
+	curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv"
+)
+exit /b
