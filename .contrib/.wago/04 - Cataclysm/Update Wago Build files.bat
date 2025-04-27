@@ -11,6 +11,7 @@ call :download ItemEffect
 call :download ItemModifiedAppearance
 call :download ModifierTree
 call :download SpellEffect
+call :download TaxiNodes
 
 @REM Cleanup the SpellEffect file
 call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.%BUILD%.csv" "..\SpellEffect.regex"

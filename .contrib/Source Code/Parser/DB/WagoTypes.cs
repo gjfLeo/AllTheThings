@@ -26,6 +26,7 @@ namespace ATT.DB
             typeof(TransmogSet),
             typeof(TransmogSetItem),
             typeof(SpellEffect),
+            typeof(TaxiNodes),
         };
 
         private static readonly IDictionary<Type, PropertyInfo[]> _typeProperties = new Dictionary<Type, PropertyInfo[]>();

@@ -78,6 +78,22 @@ namespace ATT
                 }
             }
 
+            // FlightPathNames (FlightPathDB)
+            if (TypeDB.TryGetValue("TaxiNodes", out IDictionary<long, IDBType> wagoFlightPathDB))
+            {
+                foreach (var obj in wagoFlightPathDB.Values)
+                {
+                    if (obj is TaxiNodes fp)
+                    {
+                        var dict = FlightPathDB[fp.ID] ?? (FlightPathDB[fp.ID] = new Dictionary<string, object>());
+                        dict["text"] = new Dictionary<string, object>
+                        {
+                            { "en", fp.Name_lang }
+                        };
+                    }
+                }
+            }
+
             // Go through all of the items in the database and calculate the Filter ID
             // if the Filter ID is not already assigned. (manual assignment should always override this)
             foreach (var data in Items.AllItems)
