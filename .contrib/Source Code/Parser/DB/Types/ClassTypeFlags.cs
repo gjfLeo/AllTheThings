@@ -18,6 +18,14 @@ namespace ATT.DB.Types
         DRUID = 0x400,
         DEMON_HUNTER = 0x800,
         EVOKER = 0x1000,
+
+        // Combos
+        CLASSIC =       WARRIOR | PALADIN | HUNTER | ROGUE | PRIEST | SHAMAN | MAGE | WARLOCK | DRUID,
+        WRATH =         WARRIOR | PALADIN | HUNTER | ROGUE | PRIEST | SHAMAN | MAGE | WARLOCK | DRUID | DEATH_KNIGHT,
+        MOP =           WARRIOR | PALADIN | HUNTER | ROGUE | PRIEST | SHAMAN | MAGE | WARLOCK | DRUID | DEATH_KNIGHT | MONK,
+        LEGION =        WARRIOR | PALADIN | HUNTER | ROGUE | PRIEST | SHAMAN | MAGE | WARLOCK | DRUID | DEATH_KNIGHT | MONK | DEMON_HUNTER,
+        DRAGONFLIGHT =  WARRIOR | PALADIN | HUNTER | ROGUE | PRIEST | SHAMAN | MAGE | WARLOCK | DRUID | DEATH_KNIGHT | MONK | DEMON_HUNTER | EVOKER,
+        ALL =           DRAGONFLIGHT,
     }
 
     //public static implicit operator object(ClassTypeFlags t) => (long)t;

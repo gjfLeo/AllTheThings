@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Reflection.Emit;
 
@@ -73,22 +74,22 @@ namespace ATT.DB.Types
             {
                 var classes = new List<long>();
                 ClassTypeFlags classTypeFlags = (ClassTypeFlags)allowableClass;
-                if (HasClass(classTypeFlags, ClassTypeFlags.WARRIOR)) classes.Add(1);
-                if (HasClass(classTypeFlags, ClassTypeFlags.PALADIN)) classes.Add(2);
-                if (HasClass(classTypeFlags, ClassTypeFlags.HUNTER)) classes.Add(3);
-                if (HasClass(classTypeFlags, ClassTypeFlags.ROGUE)) classes.Add(4);
-                if (HasClass(classTypeFlags, ClassTypeFlags.PRIEST)) classes.Add(5);
-                if (HasClass(classTypeFlags, ClassTypeFlags.DEATH_KNIGHT)) classes.Add(6);
-                if (HasClass(classTypeFlags, ClassTypeFlags.SHAMAN)) classes.Add(7);
-                if (HasClass(classTypeFlags, ClassTypeFlags.MAGE)) classes.Add(8);
-                if (HasClass(classTypeFlags, ClassTypeFlags.WARLOCK)) classes.Add(9);
-                if (HasClass(classTypeFlags, ClassTypeFlags.MONK)) classes.Add(10);
-                if (HasClass(classTypeFlags, ClassTypeFlags.DRUID)) classes.Add(11);
-                if (HasClass(classTypeFlags, ClassTypeFlags.DEMON_HUNTER)) classes.Add(12);
-                if (HasClass(classTypeFlags, ClassTypeFlags.EVOKER)) classes.Add(13);
-                if (classes.Count > 0)
+                if (!HasClass(classTypeFlags, ClassTypeFlags.ALL))
                 {
-                    data["classes"] = classes;
+                    bool includedAll = true;
+                    foreach(var o in Framework.ALL_CLASSES)
+                    {
+                        if (o is long classID)
+                        {
+                            if (HasClass(classTypeFlags, CLASS_TYPE_FLAGS[classID])) classes.Add(classID);
+                            else includedAll = false;
+                        }
+                    }
+                    if (classes.Count > 0 && !includedAll)
+                    {
+                        classes.Sort();
+                        data["c"] = classes;
+                    }
                 }
             }
 
@@ -97,6 +98,23 @@ namespace ATT.DB.Types
             //long allowableRace = AllowableRace;
             return data;
         }
+
+        private static Dictionary<long, ClassTypeFlags> CLASS_TYPE_FLAGS = new Dictionary<long, ClassTypeFlags>
+        {
+            { 1, ClassTypeFlags.WARRIOR },
+            { 2, ClassTypeFlags.PALADIN },
+            { 3, ClassTypeFlags.HUNTER },
+            { 4, ClassTypeFlags.ROGUE },
+            { 5, ClassTypeFlags.PRIEST },
+            { 6, ClassTypeFlags.DEATH_KNIGHT },
+            { 7, ClassTypeFlags.SHAMAN },
+            { 8, ClassTypeFlags.MAGE },
+            { 9, ClassTypeFlags.WARLOCK },
+            { 10, ClassTypeFlags.MONK },
+            { 11, ClassTypeFlags.DRUID },
+            { 12, ClassTypeFlags.DEMON_HUNTER },
+            { 13, ClassTypeFlags.EVOKER },
+        };
 
         public bool HasClass(ClassTypeFlags classTypeFlags, ClassTypeFlags c)
         {
