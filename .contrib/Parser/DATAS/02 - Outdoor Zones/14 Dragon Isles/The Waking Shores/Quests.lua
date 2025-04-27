@@ -1299,7 +1299,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			q(70159, {	-- A Taste of Home
 				["provider"] = { "n", 194462 },	-- Talon Scaralesh
 				["coord"] = { 47.1, 82.9, THE_WAKING_SHORES },
-				["classes"] = { EVOKER },
 				["races"] = { DRACTHYR_HORDE },
 				["g"] = {
 					i(198447),	-- Bilgewater-Imported Imitation Crab (QI!)
