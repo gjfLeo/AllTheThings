@@ -86,16 +86,18 @@ namespace ATT.DB
             IDBType obj = (IDBType)Activator.CreateInstance(parseType);
             foreach (PropertyInfo pi in _typeProperties[parseType])
             {
-                try
+                if (csvline.Headers.Contains(pi.Name))
                 {
-                    if (csvline.Headers.Contains(pi.Name))
+                    var value = csvline[pi.Name];
+                    try
                     {
-                        pi.SetValue(obj, Convert.ChangeType(csvline[pi.Name], pi.PropertyType));
+                        pi.SetValue(obj, Convert.ChangeType(value, pi.PropertyType));
                     }
-                }
-                catch (Exception ex)
-                {
-                    throw new InvalidProgramException($"Failed converting property {parseType.Name}.{pi.Name} [{pi.PropertyType.Name}] from: '{csvline[pi.Name]}'", ex);
+                    catch (Exception ex)
+                    {
+                        throw new InvalidProgramException($"Failed converting property {parseType.Name}.{pi.Name} [{pi.PropertyType.Name}] from: '{value}' [{value.GetType().Name}]", ex);
+                    }
+
                 }
             }
 
