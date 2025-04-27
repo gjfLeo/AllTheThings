@@ -29,72 +29,43 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 			}),
-			n(QUESTS, bubbleDownRep(FACTION_FLAMES_RADIANCE, {
+			n(QUESTS, sharedData({
+				["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
+				["coord"] = { 28.3, 56.1, HALLOWFALL },
+			}, bubbleDownRep(FACTION_FLAMES_RADIANCE, {
 				{		-- RENOWN 1 --
 					q(89493, {	-- Welcome to the Field
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-						["g"] = {
-							--spell(1227124),	-- Sacred Flame's Ward
-							i(233297),	-- Radiant Recruit's Buckle
-							i(233288),	-- Radiant Recruit's Tabard
-						},
+						--spell(1227124),	-- Sacred Flame's Ward
+						i(233297),	-- Radiant Recruit's Buckle
+						i(233288),	-- Radiant Recruit's Tabard
 					}),
 				}, {	-- RENOWN 2 --
-					q(89349, {	-- Flame's Radiance Stipend
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-					}),
+					q(89349),	-- Flame's Radiance Stipend
 				}, {	-- RENOWN 3 --
-					q(89390, {	-- Flame's Radiance Stipend
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-					}),
+					q(89390),	-- Flame's Radiance Stipend
 				}, {	-- RENOWN 4 --
-					q(89398, {	-- Carved Crests
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-					}),
-					q(89391, {	-- Flame's Radiance Stipend
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-					}),
+					q(89398),	-- Carved Crests
+					q(89391),	-- Flame's Radiance Stipend
 				}, {	-- RENOWN 5 --
 					q(89494, {	-- A Frocking Good Job
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-						["g"] = {
-							i(233298),	-- Radiant Stalwart's Buckle
-							i(233289),	-- Radiant Stalwart's Tabard
-						},
+						i(233298),	-- Radiant Stalwart's Buckle
+						i(233289),	-- Radiant Stalwart's Tabard
 					}),
 				}, {	-- RENOWN 6 --
-					q(89393, {	-- Flame's Radiance Stipend
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-					}),
+					q(89393),	-- Flame's Radiance Stipend
 				}, {	-- RENOWN 7 --
+					q(89399),	-- Carved Crests
 				}, {	-- RENOWN 8 --
 				}, {	-- RENOWN 9 --
 				}, {	-- RENOWN 10 --
-					q(89400, {	-- Carved Crests
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-					}),
+					q(89400),	-- Carved Crests
 					q(89496, {	-- Defender of the Sacred Flame
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-						["g"] = {
-							i(233299),	-- Sacred Templar's Buckle
-							i(233290),	-- Sacred Templar's Tabard
-						},
+						i(233299),	-- Sacred Templar's Buckle
+						i(233290),	-- Sacred Templar's Tabard
 					}),
-					q(89397, {	-- Flame's Radiance Stipend
-						["provider"] = { "n", 240852 },	-- Lars Bronsmaelt
-						["coord"] = { 28.3, 56.1, HALLOWFALL },
-					}),
+					q(89397),	-- Flame's Radiance Stipend
 				},
-			})),
+			}))),
 			n(VENDORS, {
 				n(240852, {	-- Lars Bronsmaelt
 					["coord"] = { 28.3, 56.2, HALLOWFALL },

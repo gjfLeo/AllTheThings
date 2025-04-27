@@ -85,9 +85,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.WINDS_OF_MYSTERIOUS_FORTUNE, n(WINDS_O
 					i(239142),	-- Bottle of Mysterious Wisdom
 					i(235701),	-- Decaying Mecha-Scrapper Construction Kit
 					i(236959),	-- Empty Mysterious Potion
-					i(170177),	-- Exposed Fish
 					i(240995),	-- Fortuitous Satchel
-					i(124640),	-- Inky Black Potion
 					i(200886),	-- Lemon Silverleaf Tea
 					i(225378),	-- Mohawk Grenade
 					i(235803),	-- Potion of Mysterious Celerity
