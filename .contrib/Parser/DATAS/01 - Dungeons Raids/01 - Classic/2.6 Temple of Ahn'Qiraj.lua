@@ -18,23 +18,6 @@ SILITHID_ROYALTY_SHARED_DROPS = createHeader({
 });
 -- #endif
 
--- #if SEASON_OF_DISCOVERY
---[[
-local TOKENS = {
-i(233369), -- Qiraji Bindings of Dominance
-i(233370), -- Qiraji Bindings of Command
-i(233371), -- Qiraji Bindings of Sovereignty
-i(233365), -- Intact Viscera
-i(233367), -- Intact Peritoneum
-i(233368), -- Intact Entrails
-i(233362), -- Husk of the Old God
-i(233363), -- Carapace of the Old God
-i(233364), -- Skin of the Old God
-};--]]
--- #endif
-
-
-
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE, {
 	inst(744, {	-- Temple of Ahn'Qiraj
 		["lore"] = "Dark whispers ride on the winds of Silithus desert. An old god stirs in his wretched lair and the entire world shall soon be the target of his wrath.\n\nAfter thousands of years of slumber, the old god, C'thun has awakened and is quickly regenerating his power. Once he has reached full potential nothing will be able to stop him. The dragons that so humbly sacrificed themselves so long ago to imprison C'thun are weakened or enslaved in the temple, so the charge of protecting the land falls to other heroes.\n\nHeroes must enter Temple of Ahn'Qiraj, challenge C'thun's most wicked servants, and slay a god. The road will not be easy and it is wrought with peril at every turn. Will the heroes turn back now or face C'thun in his mighty lair and put an end to him once and for all?",
@@ -1740,6 +1723,376 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 							i(235530), -- Schematic: Obsidian Scope
 						},
 					}),
+				}),
+				n(15503, {	-- Kandrostrasz (LEGS AND BOOTS)
+					["groups"] = {
+						cl(DRUID, {
+							i(233710, {    -- Genesis Leather Pants
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233712, {    -- Genesis Stompers
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- DPS (Intellect)
+							i(233714, {    -- Genesis Leggings
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233716, {    -- Genesis Treads
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Healer
+							i(233719, {    -- Genesis Breeches
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233721, {    -- Genesis Greaves
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Tank
+							i(233414, {    -- Genesis Boots
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233416, {    -- Genesis Trousers
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(HUNTER, {
+							-- Melee
+							i(233665, {    -- Striker's Treads
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233667, {    -- Striker's Chain Legplates
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Ranged
+							i(233407, {    -- Striker's Footguards
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233408, {    -- Striker's Leggings
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(MAGE, {
+							-- DPS
+							i(233405, {    -- Enigma Boots
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233406, {    -- Enigma Leggings
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Healer
+							i(233674, {    -- Enigma Pants
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233675, {    -- Enigma Slippers
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(PALADIN, {
+							-- DPS
+							i(233399, {    -- Avengers' Greaves
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233400, {    -- Avengers' Legguards
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Healer
+							i(233685, {    -- Avengers' Plate Pants
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233686, {    -- Avengers' Treads
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Tank
+							i(233690, {    -- Avengers' Tassets
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233691, {    -- Avengers' Sabatons
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(PRIEST, {
+							-- DPS
+							i(233392, {    -- Footwraps of the Oracle
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233396, {    -- Trousers of the Oracle
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Healer
+							i(233679, {    -- Leggings of the Oracle
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233683, {    -- Slippers of the Oracle
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(ROGUE, {
+							-- DPS
+							i(233390, {    -- Deathdealer's Leggings
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233391, {    -- Deathdealer's Boots
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- Tank
+							i(233660, {    -- Deathdealer's Treads
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233662, {    -- Deathdealer's Pants
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(SHAMAN, {
+							-- DPS (Agility)
+							i(233701, {    -- Stormcaller's Treads
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233703, {    -- Stormcaller's Chain Leggings
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							-- DPS (Intellect)
+							i(233706, {    -- Stormcaller's Greaves
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233708, {    -- Stormcaller's Mail Leggings
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+
+							-- Healer
+							i(233382, {    -- Stormcaller's Leggings
+								["cost"] = {	
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+								},
+							}),
+							i(233384, {    -- Stormcaller's Footguards
+								["cost"] = {	
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+								},
+							}),
+
+							-- Tank
+							i(233698, {    -- Stormcaller's Legplates
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233701, {    -- Stormcaller's Treads
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(WARLOCK, {
+							-- DPS
+							i(233377, {    -- Doomcaller's Footwraps
+								["cost"] = {	
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+								},
+							}),
+							i(233378, {    -- Doomcaller's Trousers
+								["cost"] = {	
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+								},
+							}),
+
+							-- Tank
+							i(233377, {    -- Doomcaller's Footwraps
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233378, {    -- Doomcaller's Trousers
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+						}),
+						cl(WARRIOR, {
+							-- DPS
+							i(233652, {    -- Conqueror's Sabatons
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+							i(233654, {    -- Conqueror's Tassets
+								["cost"] = {
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+									-- { "i", 231797, 1 },	-- 
+								},
+							}),
+
+							-- Tank
+							i(233372, {    -- Conqueror's Greaves
+								["cost"] = {	
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+								},
+							}),
+							i(233374, {    -- Conqueror's Legguards
+								["cost"] = {	
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+									-- { "i", 231797, 1 },	-- 	-- 
+								},
+							}),
+						}),
+					},
 				}),
 				e(1543, {	-- The Prophet Skeram
 					["creatureID"] = 15263,
