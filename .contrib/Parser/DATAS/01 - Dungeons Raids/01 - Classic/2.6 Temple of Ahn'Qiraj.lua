@@ -1371,30 +1371,93 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 				["groups"] = {
 					i(22222, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
 					-- #if SEASON_OF_DISCOVERY
-						["timeline"] = { REMOVED_1_15_6 },
+						["timeline"] = { REMOVED_1_15_5 },
 					-- #endif
 					}),
-					-- #if SEASON_OF_DISCOVERY
-					applyclassicphase(SOD_PHASE_SIX, i(235039, {	-- Plans: Thick Obisidan Breastplate (RECIPE!)
-						["timeline"] = { ADDED_1_15_6 },
-					})),
-					-- #endif
-					i(21703),	-- Hammer of Ji'zhi
-					i(21128),	-- Staff of the Qiraji Prophets
-					i(21702),	-- Amulet of Foul Warding
-					i(21700),	-- Pendant of the Qiraji Guardian
-					i(21699),	-- Barrage Shoulders
-					i(21701),	-- Cloak of Concentrated Hatred
-					i(21814),	-- Breastplate of Annihilation
-					i(21708),	-- Beetle Scaled Waistguards
-					i(21698),	-- Leggings of Immersion
-					i(21705),	-- Boots of the Fallen Prophet
-					i(21704),	-- Boots of the Redeemed Prophecy
-					i(21706),	-- Boots of the Unwavering Will
-					i(21707),	-- Ring of Swarming Thought
+					i(21703, { -- Hammer of Ji'zhi
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21128, { -- Staff of the Qiraji Prophets
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21702, { -- Amulet of Foul Warding
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21700, { -- Pendant of the Qiraji Guardian
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21699, { -- Barrage Shoulders
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21701, { -- Cloak of Concentrated Hatred
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21814, { -- Breastplate of Annihilation
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21708, { -- Beetle Scaled Waistguards
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21698, { -- Leggings of Immersion
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21705, { -- Boots of the Fallen Prophet
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21704, { -- Boots of the Redeemed Prophecy
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21706, { -- Boots of the Unwavering Will
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
+					i(21707, { -- Ring of Swarming Thought
+						-- #if SEASON_OF_DISCOVERY
+						["timeline"] = { REMOVED_1_15_5 },
+						-- #endif
+					}),
 					i(93041, {	-- Mini Mindslayer (PET!)
 						["timeline"] = { ADDED_5_1_0 },
 					}),
+					-- #if SEASON_OF_DISCOVERY
+					applyclassicphase(SOD_PHASE_SIX, i(235039, { ["timeline"] = { ADDED_1_15_5 }, })), -- Plans: Thick Obisidan Breastplate (RECIPE!)
+					applyclassicphase(SOD_PHASE_SIX, i(233515, { ["timeline"] = { ADDED_1_15_5 }, })), -- Hammer of Ji'zhi
+					applyclassicphase(SOD_PHASE_SIX, i(233509, { ["timeline"] = { ADDED_1_15_5 }, })), -- Staff of the Qiraji Prophets
+					applyclassicphase(SOD_PHASE_SIX, i(233502, { ["timeline"] = { ADDED_1_15_5 }, })), -- Amulet of Foul Warding
+					applyclassicphase(SOD_PHASE_SIX, i(233503, { ["timeline"] = { ADDED_1_15_5 }, })), -- Pendant of the Qiraji Guardian
+					applyclassicphase(SOD_PHASE_SIX, i(233496, { ["timeline"] = { ADDED_1_15_5 }, })), -- Barrage Shoulders
+					applyclassicphase(SOD_PHASE_SIX, i(233504, { ["timeline"] = { ADDED_1_15_5 }, })), -- Cloak of Concentrated Hatred
+					applyclassicphase(SOD_PHASE_SIX, i(233516, { ["timeline"] = { ADDED_1_15_5 }, })), -- Breastplate of Annihilation
+					applyclassicphase(SOD_PHASE_SIX, i(233506, { ["timeline"] = { ADDED_1_15_5 }, })), -- Beetle-Scaled Wristguards
+					applyclassicphase(SOD_PHASE_SIX, i(233505, { ["timeline"] = { ADDED_1_15_5 }, })), -- Leggings of Immersion
+					applyclassicphase(SOD_PHASE_SIX, i(233518, { ["timeline"] = { ADDED_1_15_5 }, })), -- Boots of the Fallen Prophet
+					applyclassicphase(SOD_PHASE_SIX, i(233517, { ["timeline"] = { ADDED_1_15_5 }, })), -- Boots of the Redeemed Prophecy
+					applyclassicphase(SOD_PHASE_SIX, i(233514, { ["timeline"] = { ADDED_1_15_5 }, })), -- Boots of the Unwavering Will
+					applyclassicphase(SOD_PHASE_SIX, i(233507, { ["timeline"] = { ADDED_1_15_5 }, })), -- Ring of Swarming Thought
+					-- #endif
 				},
 			}),
 			-- #if AFTER LEGION
