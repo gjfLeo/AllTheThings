@@ -74,14 +74,14 @@ namespace ATT.DB.Types
             {
                 var classes = new List<long>();
                 ClassTypeFlags classTypeFlags = (ClassTypeFlags)allowableClass;
-                if (!HasClass(classTypeFlags, ClassTypeFlags.ALL))
+                if (!Has(classTypeFlags, ClassTypeFlags.ALL))
                 {
                     bool includedAll = true;
                     foreach(var o in Framework.ALL_CLASSES)
                     {
                         if (o is long classID)
                         {
-                            if (HasClass(classTypeFlags, CLASS_TYPE_FLAGS[classID])) classes.Add(classID);
+                            if (Has(classTypeFlags, CLASS_TYPE_FLAGS[classID])) classes.Add(classID);
                             else includedAll = false;
                         }
                     }
@@ -93,9 +93,31 @@ namespace ATT.DB.Types
                 }
             }
 
+            // Parse Race Requirements
+            long allowableRace = AllowableRace;
+            if (allowableRace > 0)
+            {
+                var races = new List<long>();
+                RaceTypeFlags flags = (RaceTypeFlags)allowableRace;
+                if (!Has(flags, RaceTypeFlags.ALL))
+                {
+                    bool includedAll = true;
+                    foreach (var o in Framework.ALL_RACES)
+                    {
+                        if (o is long raceID)
+                        {
+                            if (Has(flags, RACE_TYPE_FLAGS[raceID])) races.Add(raceID);
+                            else includedAll = false;
+                        }
+                    }
+                    if (races.Count > 0 && !includedAll)
+                    {
+                        races.Sort();
+                        data["races"] = races;
+                    }
+                }
+            }
 
-            // CRIEVE NOTE: Parse these somehow.
-            //long allowableRace = AllowableRace;
             return data;
         }
 
@@ -116,9 +138,47 @@ namespace ATT.DB.Types
             { 13, ClassTypeFlags.EVOKER },
         };
 
-        public bool HasClass(ClassTypeFlags classTypeFlags, ClassTypeFlags c)
+        private static Dictionary<long, RaceTypeFlags> RACE_TYPE_FLAGS = new Dictionary<long, RaceTypeFlags>
         {
-            return (classTypeFlags & c) == c;
+            { 1, RaceTypeFlags.HUMAN },
+            { 2, RaceTypeFlags.ORC },
+            { 3, RaceTypeFlags.DWARF },
+            { 4, RaceTypeFlags.NIGHTELF },
+            { 5, RaceTypeFlags.UNDEAD },
+            { 6, RaceTypeFlags.TAUREN },
+            { 7, RaceTypeFlags.GNOME },
+            { 8, RaceTypeFlags.TROLL },
+            { 9, RaceTypeFlags.GOBLIN },
+            { 10, RaceTypeFlags.BLOODELF },
+            { 11, RaceTypeFlags.DRAENEI },
+            { 22, RaceTypeFlags.WORGEN },
+            { 24, RaceTypeFlags.PANDAREN_NEUTRAL },
+            { 25, RaceTypeFlags.PANDAREN_ALLIANCE },
+            { 26, RaceTypeFlags.PANDAREN_HORDE },
+            { 27, RaceTypeFlags.NIGHTBORNE },
+            { 28, RaceTypeFlags.HIGHMOUNTAIN_TAUREN },
+            { 29, RaceTypeFlags.VOIDELF },
+            { 30, RaceTypeFlags.LIGHTFORGED },
+            { 31, RaceTypeFlags.ZANDALARI },
+            { 32, RaceTypeFlags.KULTIRAN },
+            { 34, RaceTypeFlags.DARKIRON },
+            { 35, RaceTypeFlags.VULPERA },
+            { 36, RaceTypeFlags.MAGHAR },
+            { 37, RaceTypeFlags.MECHAGNOME },
+            { 52, RaceTypeFlags.DRACTHYR_ALLIANCE },
+            { 70, RaceTypeFlags.DRACTHYR_HORDE },
+            { 84, RaceTypeFlags.EARTHEN_HORDE },
+            { 85, RaceTypeFlags.EARTHEN_ALLIANCE },
+        };
+
+        public bool Has(ClassTypeFlags flags, ClassTypeFlags c)
+        {
+            return (flags & c) == c;
+        }
+
+        public bool Has(RaceTypeFlags flags, RaceTypeFlags c)
+        {
+            return (flags & c) == c;
         }
 
         public long ConvertReputation(long level)

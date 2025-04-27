@@ -322,8 +322,21 @@ namespace ATT
                     case 7:
                         switch (itemSubClass)
                         {
-                            case 00: return Filters.Ignored;    // Vendor Trash?
+                            case 00: // Trade Goods
+                                switch (inventoryType)
+                                {
+                                    case 00: return Filters.Ignored;    // Non-Equippable
+                                    case 12: return Filters.Trinket;    // Trinkets
+                                    default: return Filters.Invalid;
+                                }
                             case 01: return Filters.Reagent;    // Engineering
+                            case 03:    // Devices
+                                switch (inventoryType)
+                                {
+                                    case 00: return Filters.Reagent;    // Non-Equippable
+                                    case 12: return Filters.Trinket;    // Trinkets
+                                    default: return Filters.Reagent;
+                                }
                             case 04: return Filters.Reagent;    // Jewelcrafting
                             case 05: return Filters.Reagent;    // Tailoring
                             case 06: return Filters.Reagent;    // Leatherworking
