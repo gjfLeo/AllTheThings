@@ -85,8 +85,11 @@ namespace ATT
                 {
                     if (obj is TaxiNodes fp)
                     {
-                        var dict = FlightPathDB[fp.ID] ?? (FlightPathDB[fp.ID] = new Dictionary<string, object>());
-                        dict["text"] = new Dictionary<string, object>
+                        if (!FlightPathDB.TryGetValue(fp.ID, out var flightPath))
+                        {
+                            FlightPathDB[fp.ID] = flightPath = new Dictionary<string, object>();
+                        }
+                        flightPath["text"] = new Dictionary<string, object>
                         {
                             { "en", fp.Name_lang }
                         };
