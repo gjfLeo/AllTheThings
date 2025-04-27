@@ -51,7 +51,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 					["maps"] = { CAVERNS_OF_TIME, SILITHUS },
 				}),
 			}),
+			-- #if SEASON_OF_DISCOVERY
+			n(QUESTS, bubbleDown({ ["timeline"] = { SOD_REMOVED_1_15_5 } }, {
+			-- #else			
 			n(QUESTS, {
+			-- #endif
 				cl(DRUID, bubbleDown({ ["classes"] = { DRUID } }, {
 					q(8667, {	-- Genesis Helm
 						["qg"] = 15502,	-- Andorgos
@@ -1072,7 +1076,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 						i(21709),	-- Ring of the Fallen God
 					},
 				}),
+			-- #if SEASON_OF_DISCOVERY
+			})),
+			-- #else			
 			}),
+			-- #endif
 			filter(RECIPES, {
 				["crs"] = {
 					15516,	-- Battleguard Sartura
