@@ -21,7 +21,7 @@ namespace ATT.DB.Types
         public long CharacterBitNumber { get; set; }
         public long Flags { get; set; }
         public long UiTextureKitID { get; set; }
-        public long Facing { get; set; }
+        public float Facing { get; set; }
         public long SpecialIconConditionID { get; set; }
         public long VisibilityConditionID { get; set; }
         public long MountCreatureID_0 { get; set; }

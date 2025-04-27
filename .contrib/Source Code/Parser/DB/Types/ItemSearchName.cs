@@ -56,7 +56,10 @@ namespace ATT.DB.Types
             long requiredSkill = RequiredSkill;
             if (requiredSkill > 0)
             {
-                data["requireSkill"] = requiredSkill;
+                // This is used to override the skill to be a specialization in most cases where both are specified.
+                long requiredAbility = RequiredAbility;
+                if (requiredAbility > 0) data["requireSkill"] = requiredAbility;
+                else data["requireSkill"] = requiredSkill;
                 long requiredSkillRank = RequiredSkillRank;
                 if (requiredSkillRank > 0)
                 {
@@ -64,10 +67,40 @@ namespace ATT.DB.Types
                 }
             }
 
+            // Parse Class Requirements
+            long allowableClass = AllowableClass;
+            if (allowableClass > 0)
+            {
+                var classes = new List<long>();
+                ClassTypeFlags classTypeFlags = (ClassTypeFlags)allowableClass;
+                if (HasClass(classTypeFlags, ClassTypeFlags.WARRIOR)) classes.Add(1);
+                if (HasClass(classTypeFlags, ClassTypeFlags.PALADIN)) classes.Add(2);
+                if (HasClass(classTypeFlags, ClassTypeFlags.HUNTER)) classes.Add(3);
+                if (HasClass(classTypeFlags, ClassTypeFlags.ROGUE)) classes.Add(4);
+                if (HasClass(classTypeFlags, ClassTypeFlags.PRIEST)) classes.Add(5);
+                if (HasClass(classTypeFlags, ClassTypeFlags.DEATH_KNIGHT)) classes.Add(6);
+                if (HasClass(classTypeFlags, ClassTypeFlags.SHAMAN)) classes.Add(7);
+                if (HasClass(classTypeFlags, ClassTypeFlags.MAGE)) classes.Add(8);
+                if (HasClass(classTypeFlags, ClassTypeFlags.WARLOCK)) classes.Add(9);
+                if (HasClass(classTypeFlags, ClassTypeFlags.MONK)) classes.Add(10);
+                if (HasClass(classTypeFlags, ClassTypeFlags.DRUID)) classes.Add(11);
+                if (HasClass(classTypeFlags, ClassTypeFlags.DEMON_HUNTER)) classes.Add(12);
+                if (HasClass(classTypeFlags, ClassTypeFlags.EVOKER)) classes.Add(13);
+                if (classes.Count > 0)
+                {
+                    data["classes"] = classes;
+                }
+            }
+
+
             // CRIEVE NOTE: Parse these somehow.
             //long allowableRace = AllowableRace;
-            //long allowableClass = AllowableClass;
             return data;
+        }
+
+        public bool HasClass(ClassTypeFlags classTypeFlags, ClassTypeFlags c)
+        {
+            return (classTypeFlags & c) == c;
         }
 
         public long ConvertReputation(long level)
