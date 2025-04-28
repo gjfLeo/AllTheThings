@@ -6,8 +6,8 @@ LEGENDARY_THE_BLACK_PRINCE = createHeader({
 	icon = 656543,
 	text = {
 		en = "Legendary: The Black Prince",
-		tw = "傳奇：黑龍王子",
 		cn = "传说：黑王子",
+		tw = "傳奇：黑龍王子",
 	},
 });
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 } }, {
