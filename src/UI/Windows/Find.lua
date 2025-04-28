@@ -503,10 +503,20 @@ app:CreateWindow("ItemFinder", {
 															info.classes = classes;
 														end
 													elseif text:find("Races: ") then
-														local races = {};
+														local races,racesByText = {},{};
 														local _,list = (":"):split(text);
 														for i,raceName in ipairs({(","):split(list)}) do
-															tinsert(races, app.RaceDB[raceName:trim()]);
+															racesByText[raceName:trim()] = 1;
+														end
+														for raceName,_ in pairs(racesByText) do
+															local race = app.RaceDB[raceName];
+															if type(race) == 'number' then
+																tinsert(races, race);
+															else
+																for _,raceID in pairs(race) do
+																	tinsert(races, raceID);
+																end
+															end
 														end
 														if #races > 0 then
 															info.races = races;
@@ -634,7 +644,7 @@ app:CreateWindow("ItemFinder", {
 				progress = 0,
 				total = 0,
 				back = 1,
-				maxItemID = 239220,
+				maxItemID = 260000,
 				minItemID = 1,
 				step = 1000,
 				g = { ClearButton, StartButton }
@@ -658,6 +668,20 @@ app:CreateWindow("ItemFinder", {
 	]]--
 	OnLoad = function(self, settings)
 		self.HarvestedItemDatabase = AllTheThingsAD.HarvestedItemDatabase or {};
+		for itemID,data in pairs(self.HarvestedItemDatabase) do
+			if data.races then
+				local clear = false;
+				for i,race in ipairs(data.races) do
+					if type(race) ~= 'number' then
+						clear = true;
+						break;
+					end
+				end
+				if clear then
+					self.HarvestedItemDatabase[itemID] = nil;
+				end
+			end
+		end
 	end,
 	OnSave = function(self, settings)
 		if self.HarvestedItemDatabase then
