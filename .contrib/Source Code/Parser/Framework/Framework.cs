@@ -1501,6 +1501,7 @@ namespace ATT
                 case "_objects":
                 case "_achievements":
                 case "_encounter":
+                case "_exploration":
                 case "_factions":
                 case "_flightpath":
                 case "_species":

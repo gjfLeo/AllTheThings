@@ -80,6 +80,9 @@ namespace ATT.DB.Types
         public long GetCastedSpellID() =>
             Type == 29 ? Asset : 0;
 
+        public long GetExplorationWorldMapOverlayID() =>
+            Type == 43 ? Asset : 0;
+
         public long GetFactionID() =>
             Type == 46 ? Asset : 0;
 

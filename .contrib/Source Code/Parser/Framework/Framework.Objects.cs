@@ -1820,6 +1820,7 @@ end");
                     case "_npcs":
                     case "_objects":
                     case "_achievements":
+                    case "_exploration":
                     case "_factions":
                     case "extraTransmogSetSpells":
                     case "_tmogSetIDs":

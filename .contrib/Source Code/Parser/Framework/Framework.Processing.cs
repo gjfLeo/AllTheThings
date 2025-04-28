@@ -2239,6 +2239,34 @@ namespace ATT
                 }
             }
 
+            long worldMapOverlayID = criteriaData.GetExplorationWorldMapOverlayID();
+            if (worldMapOverlayID > 0)
+            {
+                if (TypeDB.TryGetValue("WorldMapOverlay", out IDictionary<long, IDBType> WorldMapOverlay))
+                {
+                    if (WorldMapOverlay.TryGetValue(worldMapOverlayID, out IDBType obj) && obj is WorldMapOverlay overlay)
+                    {
+                        long explorationID = overlay.AreaID_0;
+                        if (explorationID > 0)
+                        {
+                            // CRIEVE NOTE: This check doesn't work for exploration, Runaway take a look at this when you get a chance.
+                            /*
+                            if (!TryGetSOURCED("explorationID", explorationID, out _))
+                            {
+                                LogWarn($"Exploration {explorationID} should be sourced for nesting Criteria {achID}:{criteriaID}");
+                            }
+                            else
+                            {
+                            */
+                                LogDebug($"INFO: Added _exploration to Criteria {achID}:{criteriaID} => {explorationID}");
+                                Objects.Merge(data, "_exploration", explorationID);
+                                incorporated = true;
+                            //}
+                        }
+                    }
+                }
+            }
+
             long factionID = criteriaData.GetFactionID();
             if (factionID > 0)
             {
@@ -3025,6 +3053,11 @@ namespace ATT
                     DuplicateDataIntoGroups(data, encounterHash, "_encounterHash");
                     encIndex += 2;
                 }
+                cloned = true;
+            }
+            if (data.TryGetValue("_exploration", out object exploration))
+            {
+                DuplicateDataIntoGroups(data, exploration, "explorationID");
                 cloned = true;
             }
             if (data.TryGetValue("_flightpath", out object flightpath))
