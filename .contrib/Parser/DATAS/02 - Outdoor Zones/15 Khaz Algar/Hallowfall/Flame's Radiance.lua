@@ -4,7 +4,8 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(HALLOWFALL, {
 		header(HEADERS.Faction, FACTION_FLAMES_RADIANCE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
-			n(FACTIONS, {
+			faction(FACTION_FLAMES_RADIANCE),
+			f(TITLES, {
 				["g"] = bubbleDownRep(FACTION_FLAMES_RADIANCE, { -- Blizzard changed their mind on most of the titles I guess
 					{		-- RENOWN 1 --
 						--title(619),	-- Recruit <Name>
