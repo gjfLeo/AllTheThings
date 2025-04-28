@@ -554,7 +554,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					n(240979, {	-- Vesper Churnmoat
 						["coord"] = { 28.2, 56.0, HALLOWFALL },
-						["g"] = sharedData({ ["cost"] = {{"i", RADIANT_EMBLEM, 1}} }, {
+						["g"] = bubbleDownFiltered({ ["cost"] = {{"i", RADIANT_EMBLEM, 1}} },FILTERFUNC_itemID,{
 							filter(FINGER_F, {
 								i(237471),	-- Band of the Voidmancer
 								i(237472),	-- Seal of Cosmic Embrace
@@ -589,7 +589,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					n(227797, {	-- Raen Dawncavalyr
 						["coord"] = { 28.3, 56.0, HALLOWFALL },
-						["g"] = sharedData({ ["cost"] = {{"i", RADIANT_EMBLEM, 1}} }, {
+						["g"] = bubbleDownFiltered({ ["cost"] = {{"i", RADIANT_EMBLEM, 1}} },FILTERFUNC_itemID,{
 							filter(CLOAKS, {
 								i(237394),	-- Arathi Abbot's Cloak
 								i(237403),	-- Arathi Zealot's Cape
