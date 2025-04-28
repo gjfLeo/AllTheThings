@@ -583,6 +583,7 @@ HeaderAssignments = {
 	["Visions of Nzoth"] = -1000939,
 	["Volund's Folly"] = -1000328,
 	["Waist"] = -1000072,
+	["Wanderer's Festival"] = -1001180,
 	["War Campaign - Alliance"] = -1001124,
 	["War Campaign - Horde"] = -1001125,
 	["War Effort"] = -1000076,
@@ -649,4 +650,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001180;
+NextHeaderID = -1001181;
