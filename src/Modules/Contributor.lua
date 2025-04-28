@@ -334,6 +334,10 @@ MobileDB.Creature = {
 	[226934] = true,	-- Jojo Gobdre
 	[232660] = true,	-- Alleria Winderunner
 	[235849] = true,	-- Fleet Master Seahorn
+	[241593] = true,	-- Skibbles
+	[241603] = true,	-- Threadis
+	[241604] = true,	-- Destien
+	[241605] = true,	-- Kitzy
 }
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates

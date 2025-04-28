@@ -305,15 +305,10 @@ root(ROOTS.Unsorted, {
 				i(239096),	-- Formula: Enchant Weapon - Void Ritual
 			}),
 			n(WEEKLY_HOLIDAYS, {	-- Childrens Week
-				i(239689),	-- Khaz Algar Orphan Whistle
-				i(240196),	-- Khaz Algar Orphan Whistle
-				i(240197),	-- Khaz Algar Orphan Whistle
-				i(240198),	-- Khaz Algar Orphan Whistle
 				i(241632),	-- Heroic Waxy Figurine
 				i(241633),	-- Tiny Decorative Rocket
 				i(241635),	-- Patchy Spider-Silk Square
 				i(241636),	-- Storm Glass and Feather Necklace
-				i(242242),	-- Khaz Algar Orphan Whistle
 				i(242318),	-- Wooden Orgrimmar Shield
 			}),
 			i(237508),	-- Can of Amps

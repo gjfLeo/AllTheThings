@@ -212,6 +212,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["description"] = "Within the Toxins and Pheromones assault.",
 						["provider"] = { "o", 527413 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
+						["questID"] = 91160,
+						["isDaily"] = true,
 					}),
 					-- HALLOWFALL
 					-- Hold the Wall --
@@ -250,6 +252,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					n(241229, {	-- Dissenter Fervormyt
 						["description"] = "Within the Southern Swarm assault.",
 						["provider"] = { "o", 527409 },	-- Suspicious Document
+						["questID"] = 91153,
+						["isDaily"] = true,
 					}),
 					n(241238, {	-- Whisperer Siegesage
 						["description"] = "Within the Southern Swarm assault.",

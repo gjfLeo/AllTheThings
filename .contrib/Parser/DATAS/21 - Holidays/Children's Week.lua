@@ -122,6 +122,16 @@ local WARDEN_OF_THE_GROUPS = {
 		["timeline"]  = { ADDED_11_1_5 },
 	}),
 };
+local A_BRIGHTER_TOMORROW_GROUPS = {
+	iensemble(242265),	-- Arsenal: Children's Orgrimmar Guard Weapon Set
+	iensemble(242260),	-- Arsenal: Children's Stormwind Guard Weapon Set
+	i(221851),	-- Argos (PET!)
+	i(232857),	-- Goggles (PET!)
+	i(241193),	-- Helpful Workshop Bot (PET!)
+	i(241215),	-- Well-loved Figurine
+	--
+	i(242242),	-- Khaz Algar Orphan Whistle
+};
 local WELL_LOVED_FIGURINE_VENDOR_GROUP = {
 	iensemble(242265),	-- Arsenal: Children's Orgrimmar Guard Weapon Set
 	iensemble(242260),	-- Arsenal: Children's Stormwind Guard Weapon Set
@@ -1934,25 +1944,62 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 		}),
 	}),
 	n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
-		q(81609, {	-- What About the Children?
+		q(81609, {	-- What About the Children? (cross-completes)
 			["qgs"] = {
+				220865,	-- Holiday Enthusiast
 				220870,	-- Holiday Enthusiast
+				220307,	-- Holiday Enthusiast
 			},
 			["coords"] = {
 				{ 31.4, 60.6, DORNOGAL },
+				{ 46.1, 55.0, DORNOGAL },
+				{ 56.8, 28.6, DORNOGAL },
 			},
+			["isYearly"] = true,
 		}),
-		q(81610, {	-- What About the Children?
-
+		q(81610, {	-- What About the Children? (cross-completes)
+			["isYearly"] = true,
 		}),
-		-- ["qg"] = 241732,	-- Ullna <Matron in Training>
-		-- Destien
-		-- Kitzy
-		-- Skibbles
-		-- Threadis
-		--i(241215, {	-- Well-loved Figurine
-			--["timeline"]  = { ADDED_11_1_5 },
-		--}),
+		q(89317, {	-- Children's Week in Dornogal
+			["qg"] = 241732,	-- Ullna <Matron in Training>
+			["coord"] = { 55.2, 27.0, DORNOGAL },
+			["isYearly"] = true,
+		}),
+		q(89318, {	-- Bold for a Kobold
+			["sourceQuest"] = 89317,	-- Children's Week in Dornogal
+			["qg"] = 241593,	-- Skibbles
+			["maps"] = { DORNOGAL },
+			["isYearly"] = true,
+			["g"] = { i(239689) },	-- Khaz Algar Orphan Whistle (QI!)
+		}),
+		q(89319, {	-- The Wondrous Weave
+			["sourceQuest"] = 89318,	-- Bold for a Kobold
+			["qg"] = 241604,	-- Destien
+			["maps"] = { HALLOWFALL },
+			["isYearly"] = true,
+			["g"] = { i(240196) },	-- Khaz Algar Orphan Whistle (QI!)
+		}),
+		q(89320, {	-- The Eager Engineer
+			["sourceQuest"] = 89319,	-- The Wondrous Weave
+			["qg"] = 241603,	-- Threadis
+			["maps"] = { AZJ_KAHET },
+			["isYearly"] = true,
+			["g"] = { i(240197) },	-- Khaz Algar Orphan Whistle (QI!)
+		}),
+		q(89321, {	-- Recreation for Rooks
+			["sourceQuest"] = 89320,	-- The Eager Engineer
+			["qg"] = 241605,	-- Kitzy
+			["maps"] = { UNDERMINE },
+			["isYearly"] = true,
+			["g"] = { i(240198) },	-- Khaz Algar Orphan Whistle (QI!)
+		}),
+		q(89322, {	-- A Brighter Tomorrow
+			["sourceQuest"] = 89321,	-- Recreation for Rooks
+			["qg"] = 241732,	-- Ullna <Matron in Training>
+			["coord"] = { 55.2, 27.0, DORNOGAL },
+			["isYearly"] = true,
+			["g"] = A_BRIGHTER_TOMORROW_GROUPS,
+		}),
 	})),
 	-- #if AFTER 4.1.0.13682
 	n(VENDORS, {
@@ -2051,6 +2098,13 @@ root(ROOTS.HiddenQuestTriggers, {
 			n(QUESTS, {
 				q(55376),	-- completing Hunting for Gold (53969)
 				q(55377),	-- completing Hunting for Gold (53969)
+			}),
+		})),
+	})),
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
+		applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, {
+			n(QUESTS, {
+				q(90599),	-- Dialogue after completing The Eager Engineer
 			}),
 		})),
 	})),
