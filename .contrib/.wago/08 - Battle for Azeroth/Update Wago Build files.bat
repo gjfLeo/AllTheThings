@@ -14,6 +14,7 @@ call :download SpellEffect
 call :download TaxiNodes
 call :download TransmogSet
 call :download TransmogSetItem
+call :download worldmapoverlay
 
 @REM Cleanup the SpellEffect file
 call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.%BUILD%.csv" "..\SpellEffect.regex"
