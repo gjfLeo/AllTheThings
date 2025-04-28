@@ -2640,6 +2640,10 @@ namespace ATT
                         TrackIncorporationData(data, "minReputation", new List<object> { 1271, existingModifierTree.Asset });
                         Objects.Merge(data, "_factions", 1271);
                         break;
+                    // 91 (BETTLE_PET_SPECIES)
+                    case 91:
+                        Objects.Merge(data, "_species", existingModifierTree.Asset);
+                        break;
                     // 95 (FACTION_STANDING)
                     case 95:
                         Objects.Merge(data, "minReputation", new List<object> { existingModifierTree.Asset, existingModifierTree.SecondaryAsset });
@@ -3036,6 +3040,11 @@ namespace ATT
             if (data.TryGetValue("_mission", out object mission))
             {
                 DuplicateDataIntoGroups(data, mission, "missionID");
+                cloned = true;
+            }
+            if (data.TryGetValue("_species", out object species))
+            {
+                DuplicateDataIntoGroups(data, species, "speciesID");
                 cloned = true;
             }
 
