@@ -4314,12 +4314,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						i(45668),	-- Exodar Doublet
 						i(45671),	-- Gnomeregan Doublet
 						i(45666),	-- Ironforge Doublet
-						i(45672),	-- Orgrimmar Doublet
-						i(45669),	-- Sen'jin Doublet
-						i(45664),	-- Silvermoon Doublet
+						i(45672, {	-- Orgrimmar Doublet
+							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+						}),
+						i(45672, {	-- Sen'jin Doublet
+							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+						}),
+						i(45672, {	-- Silvermoon Doublet
+							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+						}),
 						i(45667),	-- Stormwind Doublet
-						i(45673),	-- Thunder Bluff Doublet
-						i(45674),	-- Undercity Doublet
+						i(45672, {	-- Thunder Bluff Doublet
+							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+						}),
+						i(45672, {	-- Undercity Doublet
+							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+						}),
 					},
 				}),
 				n(33307, {	-- Corporal Arthur Flew <Stormwind Quartermaster>

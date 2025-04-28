@@ -1309,6 +1309,9 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(153, {	-- Primitive Kilt
 				["timeline"] = { REMOVED_4_0_3 }
 			}),
+			i(6135, {	-- Primitive Kilt
+				["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3 }	-- Unsure when it got added/removed
+			}),
 			i(52539, {	-- Primal Pants
 				--["races"] = { DWARF },
 				["timeline"] = { ADDED_4_0_3, REMOVED_9_1_5 }
@@ -1982,7 +1985,9 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 		i(37, {	-- Worn Axe
 			-- #if BEFORE 10.1.7
+			-- #if AFTER 7.3.5
 			["description"] = "Former Starter Weapon for Orc, Troll & Worgen Rogues as well as Dwarf, Orc, Tauren & Troll Hunters.",
+			-- #endif
 			-- #endif
 			-- #if ANYCLASSIC
 			-- CRIEVE NOTE: This was not available in Wrath Classic.
@@ -1995,7 +2000,9 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		--	["classes"] = { HUNTER },
 		--	["races"] = { GOBLIN, HUMAN, UNDEAD, WORGEN },
 			-- #if BEFORE 10.1.7
+			-- #if AFTER 5.0.4
 			["description"] = "Former Starter Weapon for Goblin, Human, Undead & Worgen Hunters.",
+			-- #endif
 			-- #endif
 			["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
 		}),
