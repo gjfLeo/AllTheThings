@@ -13,13 +13,18 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(7318),	-- A Taste of History
+					ach(6856),	-- Ballad of Liu Lang (automated)
+					ach(6716),	-- Between a Saurok and a Hard Place (automated)
 					ach(7323),	-- Collateral Damage
 					ach(7320),	-- Dog Pile
 					ach(7315, {	-- Eternally in the Vale
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 					}),
 					explorationAch(6979),	-- Explore Vale of Eternal Blossoms
-					ach(7317, {		-- One Many Army
+					ach(6846),	-- Fish Tales (automated)
+					ach(6850),	-- Hozen in the Mist (automated)
+					ach(7230),	-- Legend of the Brewfathers (automated)
+					ach(7317, {	-- One Many Army
 						crit(20517),		-- Cracklefang
 						crit(20518),		-- Vicejaw
 						crit(20519),		-- General Temuja
@@ -48,8 +53,11 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(7322),	-- Roll Club
+					ach(6754),	-- The Dark Heart of the Mogu (automated)
 					ach(6546),	-- The Golden Lotus
 					ach(6548),	-- The Lorewalkers
+					ach(6855),	-- The Seven Burdens of Shaohao (automated)
+					ach(6847),	-- The Song of the Yaungol (automated)
 				}),
 				battlepets({
 					pet(751),	-- Dancing Water Skimmer (PET!)

@@ -28,6 +28,23 @@ root(ROOTS.Zones, {
 				petbattle(m(571, {	-- Celestial Tournament
 					["icon"] = 645227,
 					["groups"] = {
+						n(ACHIEVEMENTS, {
+							ach(8519, {	-- Celestial Family
+								crit(23600, {	-- Xu-Fu, Cub of Xuen
+									["provider"] = { "i", 101771 },
+								}),
+								crit(23719, {	-- Chi-Chi, Hatchling of Chi-Ji
+									["provider"] = { "i", 102145 },
+								}),
+								crit(23720, {	-- Yu'la, Broodling of Yu'lon
+									["provider"] = { "i", 102147 },
+								}),
+								crit(23721, {	-- Zao, Calfling of Niuzao
+									["provider"] = { "i", 102146 },
+								}),
+							}),
+							ach(8410),	-- The Celestial Tournament
+						}),
 						n(PET_BATTLE, {
 							n(71933, {	-- Blingtron 4000
 								["coord"] = { 34.8, 59.6, 571 },

@@ -3095,21 +3095,73 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(TREASURES, {
+					o(213741, {	-- Ancient Jinyu Staff
+						["coords"] = {
+							{ 44.9, 64.6, THE_JADE_FOREST },
+							{ 47.1, 67.5, THE_JADE_FOREST },
+							{ 46.2, 71.2, THE_JADE_FOREST },
+							{ 44.5, 64.4, THE_JADE_FOREST },
+						},
+						["questID"] = 31402,
+						["g"] = {
+							i(86196),	-- Ancient Jinyu Staff
+						},
+					}),
+					o(213364, {	-- Ancient Pandaren Mining Pick
+						["description"] = "Inside Greenstone Quarry at the lower level. Entrance at (46.1, 29.1).",
+						["coords"] = {
+							{ 33.52, 78.04, 373 },
+							{ 37.95, 13.75, 373 },
+							{ 40.08, 41.82, 373 },
+							{ 64.33, 55.75, 373 },
+						},
+						["questID"] = 31399,
+						["g"] = {
+							i(85777),	-- Ancient Pandaren Mining Pick
+						},
+					}),
 					o(214339, {	-- Chest of Supplies
-						["questID"] = 31864, -- Chest of Supplies
 						["coord"] = { 24.6, 53.2, THE_JADE_FOREST },
+						["questID"] = 31864, -- Chest of Supplies
+					}),
+					o(213742, {	-- Hammer of Ten Thunders
+						["coords"] = {
+							{ 40.24, 13.67, THE_JADE_FOREST },
+							{ 41.21, 13.84, THE_JADE_FOREST },
+							{ 41.76, 17.66, THE_JADE_FOREST },
+							{ 42.01, 17.56, THE_JADE_FOREST },
+							{ 42.97, 11.63, THE_JADE_FOREST },
+						},
+						["questID"] = 31403,
+						["g"] = {
+							i(86198),	-- Hammer of Ten Thunders
+						},
 					}),
 					o(211990, {	-- Hozen Speech
 						["coord"] = { 26.5, 28.3, THE_JADE_FOREST },
 					}),
+					n(64272, {	-- Jade Warrior Statue
+						["coord"] = { 39.26, 46.65, THE_JADE_FOREST },
+						["questID"] = 31307,
+						["g"] = {
+							i(86199),	-- Jade-Infused Blade
+						},
+					}),
+					o(213363, {	-- Wodin's Mantid Shanker
+						["coord"] = { 39.41, 7.23, THE_JADE_FOREST },
+						["questID"] = 31397,
+						["g"] = {
+							i(85776),	-- Wodin's Mantid Shanker
+						},
+					}),
 					o(214338, {	-- Offering of Remembrance
-						["questID"] = 31865, -- Offering of Remembrance
 						["coord"] = { 46.3, 80.6, THE_JADE_FOREST },
+						["questID"] = 31865, -- Offering of Remembrance
 					}),
 					o(214337, {	-- Stash of Gems
+						["coord"] = { 62.4, 27.5, THE_JADE_FOREST },
 						["description"] = "Located in a cave.",
 						["questID"] = 31866, -- Stash of Gems
-						["coord"] = { 62.4, 27.5, THE_JADE_FOREST },
 					}),
 					o(214379),	-- Shrine of Fellowship [TODO]
 					o(213333, {	-- Spirit Binders

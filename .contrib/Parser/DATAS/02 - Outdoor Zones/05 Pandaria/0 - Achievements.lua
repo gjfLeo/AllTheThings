@@ -4,7 +4,7 @@
 root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	-- TODO: lots of these are lacking lots of information! (crs/coords/etc.)
 	n(ACHIEVEMENTS, {
-		ach(6541, {		-- Loremaster of Pandaria
+		ach(6541, {	-- Loremaster of Pandaria
 			["sym"] = {{ "meta_achievement",
 				6301,	-- Rally the Valley
 				6539,	-- One Steppe Forward, Two Steppes Back
@@ -17,325 +17,46 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				6538,	-- Slum It in the Summit (H)
 			}},
 		}),
-		ach(7284, {	-- Is Another Man's Treasure
-			title(200),	-- the Relic Hunter
-			ach(7283),	-- One Man's Trash...
-			ach(7282),	-- Finders Keepers
-			ach(7281),	-- Lost and Found
-			o(213972, {		-- Blade of the Poisoned Mind
-				["coord"] = { 28.9, 41.9, DREAD_WASTES },
-				["questID"] = 31438,
-				["g"] = {
-					i(86527),	-- Blade of the Poisoned Mind
-				},
-			}),
-			o(213967, {		-- Blade of the Prime
-				["coords"] = {
-					{ 66.3, 66.5, DREAD_WASTES },	-- Blade
-					{ 66.7, 63.7, DREAD_WASTES },	-- Cave
-				},
-				["questID"] = 31433,
-				["g"] = {
-					i(86522),	-- Blade of the Prime
-				},
-			}),
-			o(213970, {	-- Bloodsoaked Chitin Fragment
-				["coord"] = { 26.0, 50.3, DREAD_WASTES },
-				["questID"] = 31436,
-				["g"] = {
-					i(86525),	-- Blood Soaked Chiten Fragment
-				},
-			}),
-			o(213969, {		-- Dissector's Staff of Mutation
-				["coord"] = { 30.2, 90.8, DREAD_WASTES },
-				["questID"] = 31435,
-				["g"] = {
-					i(86524),	-- Dissector's Staff of Mutation
-				},
-			}),
-			o(213966, {	-- Lucid Amulet
-				["coord"] = { 33.0, 30.1, DREAD_WASTES },
-				["questID"] = 31431,
-				["g"] = {
-					i(86521),	-- Lucid Amulet of the Agile Mind
-				},
-			}),
-			o(213964, {		-- Malik's Stalwart Spear
-				["coord"] = { 48.8, 30.0, DREAD_WASTES },
-				["questID"] = 31430,
-				["g"] = {
-					i(86520),	-- Malik's Stalwart Spear
-				},
-			}),
-			i(86529, {	-- Manipulator's Talisman
-				["provider"] = { "n", 65552 },	-- Glinting Rapana Whelk
-				["questID"] = 31432,
-			}),
-			o(213968, {		-- Swarming Cleaver of Ka'roz
-				["coord"] = { 56.7, 77.7, DREAD_WASTES },
-				["questID"] = 31434,
-				["g"] = {
-					i(86523),	-- Swarming Cleaver of Ka'roz
-				},
-			}),
-			o(213971, {	-- Swarmkeeper's Medallion
-				["coord"] = { 54.3, 56.5, DREAD_WASTES },
-				["questID"] = 31437,
-				["g"] = {
-					i(86526),	-- Swarmkeeper's Medallion
-				},
-			}),
-			o(213962, {		-- Wind-Reaver's Dagger of Quick Strikes
-				["coord"] = { 71.8, 36.1, DREAD_WASTES },
-				["questID"] = 31429,
-				["g"] = {
-					i(86519),	-- Wind-Reaver's Dagger of Quick Strikes
-				},
-			}),
-			o(214439, {		-- Barrel of Banana Infused Rum
-				["questID"] = 31411,	-- Barrel of Banana Infused Rum Quest Tracker
-				["coords"] = {
-					-- coords vary due to zone phasing
-					{ 52.3, 88.7, KRASARANG_WILDS },
-					{ 54.0, 88.0, KRASARANG_WILDS },
-				},
-				["g"] = {
-					i(87266),	-- Recipe: Banana-Infused Rum (RECIPE!)
-				},
-			}),
-			o(213651, {	-- Equipment Locker
-				["coord"] = { 43.7, 92.3, KRASARANG_WILDS },
-				["icon"] = 985959,
-				["questID"] = 31410,
-				["description"] = "On the bottom level of the ship. You will have to go down two sets of stairs.\nThis chest may follow the personal loot rule and be based on your current spec, NOT your Loot Spec.",
-				["g"] = {
-					i(86122, {	-- Plankwalking Greaves
-						["description"] = "Recommended to be in a Strength DPS Spec to guarantee this item.",
-					}),
-					i(86115, {	-- Swashbuckling Boots
-						["description"] = "Recommended to be in a Leather Agility Spec (Rogue/Feral/Guardian/Brewmaster/Windwalker) to guarantee this item.",
-					}),
-					i(86117, {	-- Seafarer's Treads of Precision
-						["description"] = "Recommended to be in a Cloth DPS Spec (Mage/Warlock) to guarantee this item.",
-					}),
-					i(86116, {	-- Agile Seafarer's Jackboots
-						["description"] = "Recommended to be in a Mail Agility Spec (Hunter/Enhancement) to guarantee this item.",
-					}),
-					i(86123, {	-- Seafarer's Sturdy Boots
-						["description"] = "Recommended to be in a Strength Tank Spec to guarantee this item.",
-					}),
-					i(86118, {	-- Seafaring Advisor's Slippers
-						["description"] = "Recommended to be a Priest (ingame class) to guarantee this item.",
-					}),
-					i(86119, {	-- Seafarer's Boots of Meditation
-						["description"] = "Recommended to be in a Leather Intellect Spec (Mistweaver/Balance/Restoration) to guarantee this item.",
-					}),
-					i(86120, {	-- Seafaring Sabatons of Meditation
-						["description"] = "Recommended to be in a Mail Intellect Spec (Elemental/Restoration) to guarantee this item.",
-					}),
-					i(86121, {	-- Radiant Seafarer's Boots
-						["description"] = "Recommended to be a Paladin in Holy Spec to guarantee this item.",
-					}),
-				},
-			}),
-			o(213653, {		-- Pandaren Fishing Spear
-				["questID"] = 31409,
-				["coord"] = { 50.8, 49.3, KRASARANG_WILDS },
-				["g"] = {
-					i(86124),	-- Pandaren Fishing Spear
-				},
-			}),
-			o(213768, {	-- Hozen Warrior Spear
-				["description"] = "Cave entrance is at |cFFFFD70052.8 71.3|r, go down and to the section with water, it is in a rock. Might take some time to spawn.",
-				["questID"] = 31413,
-				["coords"] = {
-					{ 52.8, 71.3, KUN_LAI_SUMMIT },	-- Cave entrance
-					{ 23.9, 68.1, 384 },	-- The Deeper
-				},
-				["g"] = {
-					i(86394),	-- Hozen Warrior Spear
-				},
-			}),
-			n(64227, {	-- Frozen Trail Packer
-				["coords"] = {
-					{ 37.4, 77.9, KUN_LAI_SUMMIT },	-- Cave entrance
-					{ 35.2, 76.4, KUN_LAI_SUMMIT },
-				},
-				["g"] = {
-					i(86125, {	-- Kafa Press
-						["questID"] = 31304,
-					}),
-				},
-			}),
-			o(213751, {	-- Sprite's Cloth Chest
-				["questID"] = 31412,
-				["description"] = "Cave entrance is at 73.2, 73.6.  This chest might be personal loot and obey rules based on your current Spec, NOT your Loot Spec.",
-				["coord"] = { 74.6, 74.8, 381 },
-				["modelScale"] = 1.5,
-				["g"] = {
-					i(86223, {	-- Agile Sprite Cloak
-						["description"] = "Recommended to be an Agility DPS Spec (Hunter/Rogue) to guarantee this item.", -- verified 2021-10-21 Hunter(Surv)
-					}),
-					i(86222, {	-- Precise Sprite Cloak
-						["description"] = "Recommended to be in an Intellect DPS Spec (Mage/Warlock) to guarantee this item.", -- verified 2021-10-18 Mage(Frost)
-					}),
-					i(86225, {	-- Strong Sprite Cloak
-						["description"] = "Recommended to be in a Strength DPS Spec to guarantee this item.", -- verified 2021-10-22 DK(Unholy)
-					}),
-					i(86221, {	-- Wise Sprite Cloak
-						["description"] = "Recommended to be in a Healer Spec to guarantee this item.", -- verified ?? Shaman(Resto)
-					}),
-					i(86224, {	-- Steadfast Sprite Cape
-						["description"] = "Recommended to be in a Strength Tank Spec to guarantee this item.", -- verified 2021-10-18 Paladin(Prot)
-					}),
-				},
-			}),
-			o(213842, {	-- Stash of Yaungol Weapons
-				["modelScale"] = 3.2,
-				["questID"] = 31421,
-				["coords"] = {
-					{ 70.1, 63.9, KUN_LAI_SUMMIT },
-					{ 71.1, 62.6, KUN_LAI_SUMMIT },
-				},
-				["g"] = {
-					i(88723),	-- Sturdy Yaungol Spear
-				},
-			}),
-			o(213765, {	-- Tablet of Ren Yun
-				["questID"] = 31417,	-- FLAG - Tablet of Ren Yun
-				["g"] = {
-					i(86393),	-- Tablet of Ren Yun (RECIPE!)
-				},
-			}),
-			o(213741, {	-- Ancient Jinyu Staff
-				["questID"] = 31402,
-				["coords"] = {
-					{ 44.9, 64.6, THE_JADE_FOREST },
-					{ 47.1, 67.5, THE_JADE_FOREST },
-					{ 46.2, 71.2, THE_JADE_FOREST },
-					{ 44.5, 64.4, THE_JADE_FOREST },
-				},
-				["g"] = {
-					i(86196),	-- Ancient Jinyu Staff
-				},
-			}),
-			o(213364, {	-- Ancient Pandaren Mining Pick
-				["description"] = "Inside Greenstone Quarry at the lower level. Entrance at (46.1, 29.1).",
-				["questID"] = 31399,
-				["coords"] = {
-					{ 33.52, 78.04, 373 },
-					{ 37.95, 13.75, 373 },
-					{ 40.08, 41.82, 373 },
-					{ 64.33, 55.75, 373 },
-				},
-				["g"] = {
-					i(85777),	-- Ancient Pandaren Mining Pick
-				},
-			}),
-			o(213742, {	-- Hammer of Ten Thunders
-				["questID"] = 31403,
-				["coords"] = {
-					{ 40.24, 13.67, THE_JADE_FOREST },
-					{ 41.21, 13.84, THE_JADE_FOREST },
-					{ 41.76, 17.66, THE_JADE_FOREST },
-					{ 42.01, 17.56, THE_JADE_FOREST },
-					{ 42.97, 11.63, THE_JADE_FOREST },
-				},
-				["g"] = {
-					i(86198),	-- Hammer of Ten Thunders
-				},
-			}),
-			n(64272, {	-- Jade Warrior Statue
-				["questID"] = 31307,
-				["coord"] = { 39.26, 46.65, THE_JADE_FOREST },
-				["g"] = {
-					i(86199),	-- Jade-Infused Blade
-				},
-			}),
-			o(213363, {	-- Wodin's Mantid Shanker
-				["questID"] = 31397,
-				["coord"] = { 39.41, 7.23, THE_JADE_FOREST },
-				["g"] = {
-					i(85776),	-- Wodin's Mantid Shanker
-				},
-			}),
-			o(213960, {		-- Yaungol Fire Carrier
-				["questID"] = 31425,
-				["coords"] = {
-					{ 66.2, 44.7, TOWNLONG_STEPPES },
-					{ 66.8, 48.0, TOWNLONG_STEPPES },
-				},
-				["g"] = {
-					i(86518),	-- Yaungol Fire Carrier
-				},
-			}),
-			n(64004, {	-- Ghostly Pandaren Fisherman
-				["description"] = "Speak with the Ghostly Pandaren Fisherman to get the toy.",
-				["questID"] = 31284,
-				["coord"] = { 46.8, 24.6, VALLEY_OF_THE_FOUR_WINDS },
-				["g"] = {
-					i(85973),	-- Ancient Pandaren Fishing Charm (TOY!)
-				},
-			}),
-			n(64191, {	-- Ghostly Pandaren Craftsman
-				["questID"] = 31292,
-				["coord"] = { 45.4, 38.2, VALLEY_OF_THE_FOUR_WINDS },
-				["g"] = {
-					i(86079),	-- Ancient Pandaren Woodcutter
-				},
-			}),
-			o(213749, {		-- Staff of the Hidden Master
-				["questID"] = 31407,
-				["coords"] = {
-					{ 15.4, 29.1, VALLEY_OF_THE_FOUR_WINDS },
-					{ 17.5, 35.7, VALLEY_OF_THE_FOUR_WINDS },
-					{ 19.1, 37.9, VALLEY_OF_THE_FOUR_WINDS },
-					{ 15.0, 33.7, VALLEY_OF_THE_FOUR_WINDS },
-					{ 19.0, 42.5, VALLEY_OF_THE_FOUR_WINDS },
-				},
-				["g"] = {
-					i(86218),	-- Staff of the Hidden Master
-				},
-			}),
-			o(213649, {		-- Cache of Pilfered Goods
-				["questID"] = 31406,
-				["coord"] = { 43.61, 37.48, VALLEY_OF_THE_FOUR_WINDS },
-				["g"] = {
-					i(86110),	-- Stolen Necklace of Precision
-					i(86111),	-- Stolen Necklace of Accuracy
-					i(86112),	-- Stolen Amulet of Wisdom
-					i(86113),	-- Stolen Amulet of Might
-					i(86114),	-- Stolen Necklace of Fortitude
-				},
-			}),
-		}),
-		ach(6856),	-- Ballad of Liu Lang (automated)
-		ach(6716),	-- Between a Saurok and a Hard Place (automated)
-		petbattle(ach(8519, {	-- Celestial Family
-			crit(23600, {	-- Xu-Fu, Cub of Xuen
-				["provider"] = { "i", 101771 },
-			}),
-			crit(23719, {	-- Chi-Chi, Hatchling of Chi-Ji
-				["provider"] = { "i", 102145 },
-			}),
-			crit(23720, {	-- Yu'la, Broodling of Yu'lon
-				["provider"] = { "i", 102147 },
-			}),
-			crit(23721, {	-- Zao, Calfling of Niuzao
-				["provider"] = { "i", 102146 },
-			}),
+		applyclassicphase(MOP_PHASE_LANDFALL, ach(6974, {	-- Pandaria Explorer [7.0.3] / Explore Pandaria
+			-- Meta Achievement
+			["sym"] = {{"meta_achievement",
+				6978,	-- Explore Dread Wastes
+				6351,	-- Explore Jade Forest
+				6975,	-- Explore Krasarang Wilds
+				6976,	-- Explore Kun-Lai Summit
+				6977,	-- Explore Townlong Steppes
+				6979,	-- Explore Vale of Eternal Blossoms
+				6969,	-- Explore Valley of the Four Winds
+			}},
 		})),
-		ach(7285),	-- Every Day I'm Pand-a-ren
-		ach(6846),	-- Fish Tales (automated)
-		ach(7439, {	-- Glorious!
-			["sym"] = {{"achievement_criteria"}},
+		ach(7281, {	-- Lost and Found
+			["rank"] = 1,
+		}),
+		ach(7282, {	-- Finders Keepers
+			["rank"] = 5,
+		}),
+		ach(7283, {	-- One Man's Trash...
+			["rank"] = 10,
+		}),
+		ach(7284, {	-- Is Another Man's Treasure
+			["rank"] = 20,
 			["groups"] = {
-				ach(7438),	-- Could We Find More Like That?
-				ach(7437),	-- A Worthy Opponent
+				title(200),	-- the Relic Hunter
 			},
 		}),
-		ach(6850),	-- Hozen in the Mist (automated)
-		ach(7230),	-- Legend of the Brewfathers (automated)
+		ach(7285),	-- Every Day I'm Pand-a-ren
+		ach(7437, {	-- A Worthy Opponent
+			["sym"] = {{"achievement_criteria"}},
+			["rank"] = 1,
+		}),
+		ach(7438, {	-- Could We Find More Like That?
+			["sym"] = {{"achievement_criteria"}},
+			["rank"] = 8,
+		}),
+		ach(7439, {	-- Glorious!
+			["sym"] = {{"achievement_criteria"}},
+			["rank"] = 56,
+		}),
 		petbattle(ach(8518, {	-- Master of the Master
 			crit(23620),	-- Blingtron 4000
 			crit(23610),	-- Wrathion
@@ -351,12 +72,13 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 			crit(23614),	-- Zao, Calfling of Niuzao
 			crit(23613),	-- Yu'la, Broodling of Yu'lon
 		})),
-		ach(6828, {		-- Pandaren Ambassador (Alliance)
+		ach(6828, {	-- Pandaren Ambassador (Alliance)
 			["races"] = ALLIANCE_ONLY,
 			["g"] = {
-				i(89785, {		-- Pandaren Kite (A) (MOUNT!)
+				i(89785, {	-- Pandaren Kite (A) (MOUNT!)
 					["races"] = ALLIANCE_ONLY,
 				}),
+				--[[
 				crit(19389),		-- Golden Lotus
 				crit(19388),		-- The August Celestials
 				crit(18993),		-- Shado-Pan
@@ -366,14 +88,16 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				crit(19391),		-- The Tillers
 				crit(19395),		-- Order of the Cloud Serpent
 				crit(19481),		-- Tushui Pandaren
+				]]--
 			},
 		}),
-		ach(6827, {		-- Pandaren Ambassador (Horde)
+		ach(6827, {	-- Pandaren Ambassador (Horde)
 			["races"] = HORDE_ONLY,
 			["g"] = {
-				i(81559, {		-- Pandaren Kite (H) (MOUNT!)
+				i(81559, {	-- Pandaren Kite (H) (MOUNT!)
 					["races"] = HORDE_ONLY,
 				}),
+				--[[
 				crit(19389),		-- Golden Lotus
 				crit(19388),		-- The August Celestials
 				crit(18993),		-- Shado-Pan
@@ -383,21 +107,10 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				crit(19391),		-- The Tillers
 				crit(19395),		-- Order of the Cloud Serpent
 				crit(19480),		-- Huojin Pandaren
+				]]--
 			},
 		}),
-		applyclassicphase(MOP_PHASE_LANDFALL, ach(6974, {	-- Pandaria Explorer [7.0.3] / Explore Pandaria
-			-- Meta Achievement
-			["sym"] = {{"meta_achievement",
-				6978,	-- Explore Dread Wastes
-				6351,	-- Explore Jade Forest
-				6975,	-- Explore Krasarang Wilds
-				6976,	-- Explore Kun-Lai Summit
-				6977,	-- Explore Townlong Steppes
-				6979,	-- Explore Vale of Eternal Blossoms
-				6969,	-- Explore Valley of the Four Winds
-			}},
-		})),
-		ach(6589, {		-- Pandaria Safari
+		ach(6589, {	-- Pandaria Safari
 			crit(21823),		-- Alpine Foxling (Kun-Lai Summit, Townlong Steppes)
 			crit(21824),		-- Alpine Foxling Kit (Kun-Lai Summit, Townlong Steppes)
 			crit(21832),		-- Amber Moth (Townlong Steppes, Dread Wastes)
@@ -454,7 +167,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 			crit(21837),		-- Yakrat (Townlong Steppes)
 			crit(21831),		-- Zooey Snake (Kun-Lai Summit)
 		}),
-		petbattle(ach(6616, {		-- Pandaria Tamer
+		petbattle(ach(6616, {	-- Pandaria Tamer
 			crit(21494),		-- Dread Wastes
 			crit(21489),		-- The Jade Forest
 			crit(21491),		-- Krasarang Wilds
@@ -612,10 +325,6 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 			crit(21856),	-- Wastewalker Shu [Dread Wastes)
 			crit(21857),	-- Aki the Chosen [Vale of Eternal Blossoms)
 		})),
-		petbattle(ach(8410)),	-- The Celestial Tournament
-		ach(6754),	-- The Dark Heart of the Mogu (automated)
-		ach(6855),	-- The Seven Burdens of Shaohao (automated)
-		ach(6847),	-- The Song of the Yaungol (automated)
 		ach(6350, {	-- To All the Squirrels I Once Caressed?
 			crit(20817, {	-- Amethyst Spiderling
 				["provider"] = { "n", 64798 },	-- Amethyst Spiderling

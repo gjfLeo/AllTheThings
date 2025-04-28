@@ -2990,11 +2990,64 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(TREASURES, {
+					o(214439, {	-- Barrel of Banana Infused Rum
+						["questID"] = 31411,	-- Barrel of Banana Infused Rum Quest Tracker
+						["coords"] = {
+							-- coords vary due to zone phasing
+							{ 52.3, 88.7, KRASARANG_WILDS },
+							{ 54.0, 88.0, KRASARANG_WILDS },
+						},
+						["g"] = {
+							i(87266),	-- Recipe: Banana-Infused Rum (RECIPE!)
+						},
+					}),
+					o(213651, {	-- Equipment Locker
+						["coord"] = { 43.7, 92.3, KRASARANG_WILDS },
+						["icon"] = 985959,
+						["questID"] = 31410,
+						["description"] = "On the bottom level of the ship. You will have to go down two sets of stairs.\nThis chest may follow the personal loot rule and be based on your current spec, NOT your Loot Spec.",
+						["g"] = {
+							i(86122, {	-- Plankwalking Greaves
+								["description"] = "Recommended to be in a Strength DPS Spec to guarantee this item.",
+							}),
+							i(86115, {	-- Swashbuckling Boots
+								["description"] = "Recommended to be in a Leather Agility Spec (Rogue/Feral/Guardian/Brewmaster/Windwalker) to guarantee this item.",
+							}),
+							i(86117, {	-- Seafarer's Treads of Precision
+								["description"] = "Recommended to be in a Cloth DPS Spec (Mage/Warlock) to guarantee this item.",
+							}),
+							i(86116, {	-- Agile Seafarer's Jackboots
+								["description"] = "Recommended to be in a Mail Agility Spec (Hunter/Enhancement) to guarantee this item.",
+							}),
+							i(86123, {	-- Seafarer's Sturdy Boots
+								["description"] = "Recommended to be in a Strength Tank Spec to guarantee this item.",
+							}),
+							i(86118, {	-- Seafaring Advisor's Slippers
+								["description"] = "Recommended to be a Priest (ingame class) to guarantee this item.",
+							}),
+							i(86119, {	-- Seafarer's Boots of Meditation
+								["description"] = "Recommended to be in a Leather Intellect Spec (Mistweaver/Balance/Restoration) to guarantee this item.",
+							}),
+							i(86120, {	-- Seafaring Sabatons of Meditation
+								["description"] = "Recommended to be in a Mail Intellect Spec (Elemental/Restoration) to guarantee this item.",
+							}),
+							i(86121, {	-- Radiant Seafarer's Boots
+								["description"] = "Recommended to be a Paladin in Holy Spec to guarantee this item.",
+							}),
+						},
+					}),
 					o(211993, {	-- Hozen Maturity
 						["coord"] = { 52.4, 87.6, KRASARANG_WILDS },
 					}),
 					o(215782, {	-- Origins
 						["coord"] = { 30.6, 38.5, KRASARANG_WILDS },
+					}),
+					o(213653, {	-- Pandaren Fishing Spear
+						["coord"] = { 50.8, 49.3, KRASARANG_WILDS },
+						["questID"] = 31409,
+						["g"] = {
+							i(86124),	-- Pandaren Fishing Spear
+						},
 					}),
 					o(213407, {	-- Quan Tou Kuo the Two Fisted
 						["coord"] = { 81.4, 11.4, KRASARANG_WILDS },

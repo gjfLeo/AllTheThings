@@ -1467,6 +1467,16 @@ root(ROOTS.Zones, {
 					o(213420, {	-- Trapped in a Strange Land
 						["coord"] = { 84.1, 72.8, TOWNLONG_STEPPES },
 					}),
+					o(213960, {	-- Yaungol Fire Carrier
+						["coords"] = {
+							{ 66.2, 44.7, TOWNLONG_STEPPES },
+							{ 66.8, 48.0, TOWNLONG_STEPPES },
+						},
+						["questID"] = 31425,
+						["g"] = {
+							i(86518),	-- Yaungol Fire Carrier
+						},
+					}),
 				}),
 				n(VENDORS, {
 					n(65171, {	-- Alin the Finder <Adventuring Supplies>

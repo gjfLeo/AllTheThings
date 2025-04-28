@@ -1674,17 +1674,90 @@ root(ROOTS.Zones, {
 					o(213411, {	-- Amber
 						["coord"] = { 52.5, 10.1, DREAD_WASTES },
 					}),
+					o(213972, {	-- Blade of the Poisoned Mind
+						["coord"] = { 28.9, 41.9, DREAD_WASTES },
+						["questID"] = 31438,
+						["g"] = {
+							i(86527),	-- Blade of the Poisoned Mind
+						},
+					}),
+					o(213967, {	-- Blade of the Prime
+						["coords"] = {
+							{ 66.3, 66.5, DREAD_WASTES },	-- Blade
+							{ 66.7, 63.7, DREAD_WASTES },	-- Cave
+						},
+						["questID"] = 31433,
+						["g"] = {
+							i(86522),	-- Blade of the Prime
+						},
+					}),
+					o(213970, {	-- Bloodsoaked Chitin Fragment
+						["coord"] = { 26.0, 50.3, DREAD_WASTES },
+						["questID"] = 31436,
+						["g"] = {
+							i(86525),	-- Blood Soaked Chiten Fragment
+						},
+					}),
 					o(213409, {	-- Cycle of the Mantid
 						["coord"] = { 48.5, 32.8, DREAD_WASTES },
 					}),
+					o(213969, {	-- Dissector's Staff of Mutation
+						["coord"] = { 30.2, 90.8, DREAD_WASTES },
+						["questID"] = 31435,
+						["g"] = {
+							i(86524),	-- Dissector's Staff of Mutation
+						},
+					}),
+					n(65552, {	-- Glinting Rapana Whelk
+						["coord"] = { 42.2, 63.8, DREAD_WASTES },
+						["questID"] = 31432,
+						["groups"] = {
+							i(86529),	-- Manipulator's Talisman
+						},
+					}),
+					o(213966, {	-- Lucid Amulet
+						["coord"] = { 33.0, 30.1, DREAD_WASTES },
+						["questID"] = 31431,
+						["g"] = {
+							i(86521),	-- Lucid Amulet of the Agile Mind
+						},
+					}),
+					o(213964, {	-- Malik's Stalwart Spear
+						["coord"] = { 48.8, 30.0, DREAD_WASTES },
+						["questID"] = 31430,
+						["g"] = {
+							i(86520),	-- Malik's Stalwart Spear
+						},
+					}),
 					o(213410, {	-- Mantid Society
 						["coord"] = { 59.9, 55.0, DREAD_WASTES },
+					}),
+					o(213968, {	-- Swarming Cleaver of Ka'roz
+						["coord"] = { 56.7, 77.7, DREAD_WASTES },
+						["questID"] = 31434,
+						["g"] = {
+							i(86523),	-- Swarming Cleaver of Ka'roz
+						},
+					}),
+					o(213971, {	-- Swarmkeeper's Medallion
+						["coord"] = { 54.3, 56.5, DREAD_WASTES },
+						["questID"] = 31437,
+						["g"] = {
+							i(86526),	-- Swarmkeeper's Medallion
+						},
 					}),
 					o(213329, {	-- The Deserters
 						["coord"] = { 67.4, 60.8, DREAD_WASTES },
 					}),
 					o(213412, {	-- The Empress
 						["coord"] = { 29.1, 62.1, DREAD_WASTES },
+					}),
+					o(213962, {	-- Wind-Reaver's Dagger of Quick Strikes
+						["coord"] = { 71.8, 36.1, DREAD_WASTES },
+						["questID"] = 31429,
+						["g"] = {
+							i(86519),	-- Wind-Reaver's Dagger of Quick Strikes
+						},
 					}),
 				}),
 				n(VENDORS, {

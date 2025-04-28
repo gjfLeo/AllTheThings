@@ -2269,6 +2269,27 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(TREASURES, {
+					o(213768, {	-- Hozen Warrior Spear
+						["description"] = "Cave entrance is at |cFFFFD70052.8 71.3|r, go down and to the section with water, it is in a rock. Might take some time to spawn.",
+						["questID"] = 31413,
+						["coords"] = {
+							{ 52.8, 71.3, KUN_LAI_SUMMIT },	-- Cave entrance
+							{ 23.9, 68.1, 384 },	-- The Deeper
+						},
+						["g"] = {
+							i(86394),	-- Hozen Warrior Spear
+						},
+					}),
+					n(64227, {	-- Frozen Trail Packer
+						["coords"] = {
+							{ 37.4, 77.9, KUN_LAI_SUMMIT },	-- Cave entrance
+							{ 35.2, 76.4, KUN_LAI_SUMMIT },
+						},
+						["questID"] = 31304,
+						["g"] = {
+							i(86125),	-- Kafa Press
+						},
+					}),
 					o(214407, {	-- Mo-Mo's Treasure Chest
 						["coord"] = { 47.8, 73.5, KUN_LAI_SUMMIT },
 						["description"] = "Inside Mo-Mo's Cave",
@@ -2279,6 +2300,47 @@ root(ROOTS.Zones, {
 					}),
 					o(215783, {	-- Role Call
 						["coord"] = { 74.5, 83.5, KUN_LAI_SUMMIT },
+					}),
+					o(213751, {	-- Sprite's Cloth Chest
+						["description"] = "Cave entrance is at 73.2, 73.6.  This chest might be personal loot and obey rules based on your current Spec, NOT your Loot Spec.",
+						["coord"] = { 74.6, 74.8, 381 },
+						["modelScale"] = 1.5,
+						["questID"] = 31412,
+						["g"] = {
+							i(86223, {	-- Agile Sprite Cloak
+								["description"] = "Recommended to be an Agility DPS Spec (Hunter/Rogue) to guarantee this item.", -- verified 2021-10-21 Hunter(Surv)
+							}),
+							i(86222, {	-- Precise Sprite Cloak
+								["description"] = "Recommended to be in an Intellect DPS Spec (Mage/Warlock) to guarantee this item.", -- verified 2021-10-18 Mage(Frost)
+							}),
+							i(86225, {	-- Strong Sprite Cloak
+								["description"] = "Recommended to be in a Strength DPS Spec to guarantee this item.", -- verified 2021-10-22 DK(Unholy)
+							}),
+							i(86221, {	-- Wise Sprite Cloak
+								["description"] = "Recommended to be in a Healer Spec to guarantee this item.", -- verified ?? Shaman(Resto)
+							}),
+							i(86224, {	-- Steadfast Sprite Cape
+								["description"] = "Recommended to be in a Strength Tank Spec to guarantee this item.", -- verified 2021-10-18 Paladin(Prot)
+							}),
+						},
+					}),
+					o(213842, {	-- Stash of Yaungol Weapons
+						["coords"] = {
+							{ 70.1, 63.9, KUN_LAI_SUMMIT },
+							{ 71.1, 62.6, KUN_LAI_SUMMIT },
+						},
+						["modelScale"] = 3.2,
+						["questID"] = 31421,
+						["g"] = {
+							i(88723),	-- Sturdy Yaungol Spear
+						},
+					}),
+					o(213765, {	-- Tablet of Ren Yun
+						["coord"] = { 44.7, 52.5, KUN_LAI_SUMMIT },
+						["questID"] = 31417,	-- FLAG - Tablet of Ren Yun
+						["g"] = {
+							i(86393),	-- Tablet of Ren Yun (RECIPE!)
+						},
 					}),
 					o(213328, {	-- The Defiant
 						["description"] = "At the north end of the circular room at the back of the cave.",
