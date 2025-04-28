@@ -4315,20 +4315,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						i(45671),	-- Gnomeregan Doublet
 						i(45666),	-- Ironforge Doublet
 						i(45672, {	-- Orgrimmar Doublet
-							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+							["races"] = exclude({ HUMAN, DWARF }, HORDE_ONLY),	-- Blizz tagged them for 2 Alliance Races
 						}),
 						i(45672, {	-- Sen'jin Doublet
-							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+							["races"] = exclude({ HUMAN, DWARF }, HORDE_ONLY),	-- Blizz tagged them for 2 Alliance Races
 						}),
 						i(45672, {	-- Silvermoon Doublet
-							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+							["races"] = exclude({ HUMAN, DWARF }, HORDE_ONLY),	-- Blizz tagged them for 2 Alliance Races
 						}),
 						i(45667),	-- Stormwind Doublet
 						i(45672, {	-- Thunder Bluff Doublet
-							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+							["races"] = exclude({ HUMAN, DWARF }, HORDE_ONLY),	-- Blizz tagged them for 2 Alliance Races
 						}),
 						i(45672, {	-- Undercity Doublet
-							["races"] = exclude(HUMAN, DWARF),	-- Blizz tagged them for 2 Alliance Races
+							["races"] = exclude({ HUMAN, DWARF }, HORDE_ONLY),	-- Blizz tagged them for 2 Alliance Races
 						}),
 					},
 				}),
