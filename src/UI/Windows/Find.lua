@@ -3,7 +3,7 @@ local appName, app = ...;
 local SearchForField = app.SearchForField;
 local UpdateGroups = app.UpdateGroups;
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
-local rawset, tostring = rawset, tostring;
+local ipairs, rawset, tostring, tinsert = ipairs, rawset, tostring, tinsert;
 
 -- WoW API Cache
 local GetItemInfo = app.WOWAPI.GetItemInfo;
@@ -478,16 +478,21 @@ app:CreateWindow("ItemFinder", {
 								self.HarvestedItemDatabase[itemID] = info;
 								
 								if itemLink then
+									ItemHarvester:ClearLines();
 									ItemHarvester:SetOwner(UIParent,"ANCHOR_NONE")
 									ItemHarvester:SetHyperlink(itemLink);
 									local lineCount = ItemHarvester:NumLines();
 									local str = ATTCItemHarvesterTextLeft1:GetText();
+									local shouldBreak = classID ~= 7 and not (classID == 4 and subclassID == 0);
 									if not IsRetrieving(str) and lineCount > 0 then
 										for index=2,lineCount,1 do
 											local line = ItemHarvester.Lines[index];
 											if line then
 												local text = line:GetText();
 												if text then
+													if shouldBreak and text:len() < 2 or text:sub(1, 1) == '\n' then
+														break;
+													end
 													if text:find("Classes: ") then
 														local classes = {};
 														local _,list = (":"):split(text);
@@ -535,6 +540,8 @@ app:CreateWindow("ItemFinder", {
 															end
 														end
 													end
+												elseif shouldBreak then
+													break;
 												end
 											end
 										end
