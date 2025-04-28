@@ -1,7 +1,6 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		m(DREAD_WASTES, {
@@ -1680,6 +1679,9 @@ root(ROOTS.Zones, {
 					}),
 					o(213410, {	-- Mantid Society
 						["coord"] = { 59.9, 55.0, DREAD_WASTES },
+					}),
+					o(213329, {	-- The Deserters
+						["coord"] = { 67.4, 60.8, DREAD_WASTES },
 					}),
 					o(213412, {	-- The Empress
 						["coord"] = { 29.1, 62.1, DREAD_WASTES },

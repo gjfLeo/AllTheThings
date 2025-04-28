@@ -110,6 +110,62 @@ root(ROOTS.Zones, {
 						-- ["sourceQuests"] = {  },	-- TODO: likely requires some 8.3 quest chain before becoming available?
 					}),
 				}),
+				n(MAILBOX, {
+					["description"] = "The following will be mailed to you upon completion of respective achievements.",
+					["groups"] = {
+						q(31055, {	-- Between a Saurok and a Hard Place
+							["sourceAchievement"] = 6716,	-- Between a Saurok and a Hard Place
+							["providers"] = {
+								{ "i", 83769 },	-- Between a Saurok and a Hard Place
+								{ "i", 83076 },	-- Between a Saurok and a Hard Place
+							},
+						}),
+						q(31094, {	-- Fish Tales
+							["sourceAchievement"] = 6846,	-- Fish Tales
+							["provider"] = { "i", 83771 },	-- Fish Tales
+						}),
+						q(32602, {	-- Gods and Monsters
+							["sourceAchievement"] = 8051,	-- Gods and Monsters
+							["provider"] = { "i", 94199 },	-- Gods and Monsters
+						}),
+						q(31097, {	-- Heart of the Mantid Swarm
+							["sourceAchievement"] = 6857,	-- Heart of the Mantid Swarm
+							["provider"] = { "i", 83773 },	-- Heart of the Mantid Swarm
+						}),
+						q(31093, {	-- Hozen in the Mist
+							["sourceAchievement"] = 6850,	-- Hozen in the Mist
+							["provider"] = { "i", 83770 },	-- Hozen in the Mist
+						}),
+						q(32601, {	-- Rumbles of Thunder
+							["sourceAchievement"] = 8050,	-- Rumbles of Thunder
+							["provider"] = { "i", 94198 },	-- Rumbles of Thunder
+						}),
+						q(31103, {	-- The Ballad of Liu Lang
+							["sourceAchievement"] = 6856,	-- Ballad of Liu Lang
+							["provider"] = { "i", 83780 },	-- The Ballad of Liu Lang
+						}),
+						q(31095, {	-- The Dark Heart of the Mogu
+							["sourceAchievement"] = 6754,	-- The Dark Heart of the Mogu
+							["provider"] = { "i", 83772 },	-- The Dark Heart of the Mogu
+						}),
+						q(31102, {	-- The Seven Burdens of Shaohao
+							["sourceAchievement"] = 6855,	-- The Seven Burdens of Shaohao
+							["provider"] = { "i", 83779 },	-- The Seven Burdens of Shaohao
+						}),
+						q(31100, {	-- The Song of the Yaungol
+							["sourceAchievement"] = 6847,	-- The Song of the Yaungol
+							["provider"] = { "i", 83777 },	-- The Song of the Yaungol
+						}),
+						q(32600, {	-- The Zandalari Prophecy
+							["sourceAchievement"] = 8049,	-- The Zandalari Prophecy
+							["provider"] = { "i", 94197 },	-- The Zandalari Prophecy
+						}),
+						q(31096, {	-- What is Worth Fighting For
+							["sourceAchievement"] = 6858,	-- What Is Worth Fighting For
+							["provider"] = { "i", 83774 },	-- What is Worth Fighting For
+						}),
+					},
+				}),
 				petbattles({
 					n(66741, {	-- Aki the Chosen <Grand Master Pet Tamer>
 						["coord"] = { 31.2, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
@@ -417,10 +473,6 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 59333 },	-- Rook Stonetoe
 						["isDaily"] = true,
 						["u"] = REMOVED_FROM_GAME,
-					}),
-					q(31097, {	-- Heart of the Mantid Swarm
-						["description"] = "The item that starts this quest is mailed to you after you finish the |cffefef01Heart of the Mantid Swarm|r achievement.",
-						["provider"] = { "i", 83773 },	-- Heart of the Mantid Swarm
 					}),
 					q(31756, {	-- High Chance of Rain
 						["coord"] = { 56.6, 43.6, VALE_OF_ETERNAL_BLOSSOMS },
@@ -816,10 +868,6 @@ root(ROOTS.Zones, {
 						["isDaily"] = true,
 						["u"] = REMOVED_FROM_GAME,
 					}),
-					q(31103, {	-- The Ballad of Liu Lang
-						["description"] = "The item that starts this quest is mailed to you after you finish the |cffefef01Ballad of Liu Lang|r achievement.",
-						["provider"] = { "i", 83780 },	-- The Ballad of Liu Lang
-					}),
 					q(30306, {	-- The Battle Ring
 						["coord"] = { 19.0, 75.4, VALE_OF_ETERNAL_BLOSSOMS },
 						["isDaily"] = true,
@@ -838,10 +886,6 @@ root(ROOTS.Zones, {
 						["g"] = {
 							i(87790),	-- Ancient Guo-Lai Artifact (QI!)
 						},
-					}),
-					q(31095, {	-- The Dark Heart of the Mogu
-						["provider"] = { "i", 83772 },	-- The Dark Heart of the Mogu
-						["description"] = "Complete achievement with the same name and you will get the item that starts the quest in the mail.",
 					}),
 					q(30314, {	-- The Displaced Paleblade
 						--["coord"] = { ???, ???, VALE_OF_ETERNAL_BLOSSOMS },	-- TODO
@@ -1444,6 +1488,38 @@ root(ROOTS.Zones, {
 						},
 					}),
 					--n(50843, {	-- Portent	}),
+				}),
+				n(TREASURES, {
+					o(213414, {	-- Always Remember
+						["coords"] = {
+							{ 53.0, 68.3, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #if AFTER BFA
+							{ 53.0, 68.3, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },	-- BFA alternate zone
+							-- #endif
+						},
+					}),
+					o(213456, {	-- The Emperor's Burden - Part 8
+						-- #if AFTER BFA
+						["description"] = "This can only be found in the non-N'zoth phase. Speak to Zidormi atop the Seat of Knowledge to travel to the past.",
+						-- #endif
+						["coord"] = { 67.7, 44.2, VALE_OF_ETERNAL_BLOSSOMS },
+					}),
+					o(213334, {	-- The Thunder King
+						["coords"] = {
+							{ 40.1, 75.6, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #if AFTER BFA
+							{ 40.1, 75.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },	-- BFA alternate zone
+							-- #endif
+						},
+					}),
+					o(213416, {	-- Together, We Are Strong
+						["coords"] = {
+							{ 26.6, 20.8, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #if AFTER BFA
+							{ 26.6, 20.8, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },	-- BFA alternate zone
+							-- #endif
+						},
+					}),
 				}),
 				n(VENDORS, {
 					n(61650, {	-- Big Keech <Rare Antiquities>

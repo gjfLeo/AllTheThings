@@ -2990,12 +2990,35 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(TREASURES, {
+					o(211993, {	-- Hozen Maturity
+						["coord"] = { 52.4, 87.6, KRASARANG_WILDS },
+					}),
+					o(215782, {	-- Origins
+						["coord"] = { 30.6, 38.5, KRASARANG_WILDS },
+					}),
+					o(213407, {	-- Quan Tou Kuo the Two Fisted
+						["coord"] = { 81.4, 11.4, KRASARANG_WILDS },
+					}),
 					o(214403, {	-- Stack of Papers
-						["questID"] = 31863,
+						["provider"] = { "i", 87798 },	-- Stack of Papers
 						["coord"] = { 52.16, 73.42, KRASARANG_WILDS },
-						["g"] = {
-							i(87798),	-- Stack of Papers
+						["questID"] = 31863,
+					}),
+					o(213422, {	-- The Emperor's Burden - Part 4
+						["coord"] = { 40.4, 56.6, KRASARANG_WILDS },
+					}),
+					o(213330, {	-- The Last Stand
+						["coord"] = { 33.3, 25.0, KRASARANG_WILDS },
+					}),
+					o(213332, {	-- The Lost Dynasty
+						["coords"] = {
+							-- not sure correctness of these based on phasing maybe?
+							{ 50.90, 31.67, KRASARANG_WILDS },
+							{ 52.96, 27.42, KRASARANG_WILDS },
 						},
+					}),
+					o(215765, {	-- Waiting for the Turtle
+						["coord"] = { 72.2, 31.1, KRASARANG_WILDS },
 					}),
 				}),
 			},

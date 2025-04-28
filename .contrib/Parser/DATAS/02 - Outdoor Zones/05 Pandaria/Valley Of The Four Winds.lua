@@ -1,7 +1,6 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		m(VALLEY_OF_THE_FOUR_WINDS, {
@@ -2379,6 +2378,9 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(TREASURES, {
+					o(213460, { -- A Most Famous Bill of Sale
+						["coord"] = { 55.0, 47.3, VALLEY_OF_THE_FOUR_WINDS },
+					}),
 					o(210582,	{	-- Dark Soil
 						["coord"] = { 52.8, 48.1, VALLEY_OF_THE_FOUR_WINDS },
 						["groups"] = {
@@ -2396,12 +2398,27 @@ root(ROOTS.Zones, {
 							i(79264),	-- Ruby Shard
 						},
 					}),
+					o(215785, {	-- Embracing the Passions
+						["coord"] = { 83.22, 21.16, VALLEY_OF_THE_FOUR_WINDS },
+					}),
 					o(226956, {	-- Mysterious Fruit Pile
-						["questID"] = 37246,
 						["coord"] = { 52.1, 64.0, VALLEY_OF_THE_FOUR_WINDS },
+						["questID"] = 37246,
 						["g"] = {
 							i(110505),	-- Mesmerizing Fruit Hat [Not a toy, but should be.]
 						},
+					}),
+					o(213413, {	-- Pandaren Fighting Tactics
+						["coord"] = { 18.8, 31.8, VALLEY_OF_THE_FOUR_WINDS },
+					}),
+					o(213459, {	-- The Birthplace of Liu Lang
+						["coord"] = { 20.3, 55.9, VALLEY_OF_THE_FOUR_WINDS },
+					}),
+					o(213461, {	-- The Wandering Widow
+						["coord"] = { 34.6, 64.0, VALLEY_OF_THE_FOUR_WINDS },
+					}),
+					o(215780, {	-- Waterspeakers
+						["coord"] = { 61.52, 34.88, VALLEY_OF_THE_FOUR_WINDS },
 					}),
 				}),
 				n(VENDORS, {

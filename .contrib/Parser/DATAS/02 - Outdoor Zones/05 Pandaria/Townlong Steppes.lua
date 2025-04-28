@@ -1,7 +1,6 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		m(TOWNLONG_STEPPES, {
@@ -1456,6 +1455,17 @@ root(ROOTS.Zones, {
 						["g"] = {
 							i(94229),	-- Slate Primordial Direhorn (MOUNT!)
 						},
+					}),
+				}),
+				n(TREASURES, {
+					o(213418, {	-- Dominance
+						["coord"] = { 65.5, 50.0, TOWNLONG_STEPPES },
+					}),
+					o(213445, {	-- The Emperor's Burden - Part 5
+						["coord"] = { 37.7, 62.9, TOWNLONG_STEPPES },
+					}),
+					o(213420, {	-- Trapped in a Strange Land
+						["coord"] = { 84.1, 72.8, TOWNLONG_STEPPES },
 					}),
 				}),
 				n(VENDORS, {

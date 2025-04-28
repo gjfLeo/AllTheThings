@@ -1,7 +1,6 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		m(KUN_LAI_SUMMIT, {
@@ -2271,9 +2270,47 @@ root(ROOTS.Zones, {
 				}),
 				n(TREASURES, {
 					o(214407, {	-- Mo-Mo's Treasure Chest
-						["questID"] = 31868,
 						["coord"] = { 47.8, 73.5, KUN_LAI_SUMMIT },
 						["description"] = "Inside Mo-Mo's Cave",
+						["questID"] = 31868,
+					}),
+					o(213438, {	-- Ren Yun the Blind
+						["coord"] = { 44.7, 52.5, KUN_LAI_SUMMIT },
+					}),
+					o(215783, {	-- Role Call
+						["coord"] = { 74.5, 83.5, KUN_LAI_SUMMIT },
+					}),
+					o(213328, {	-- The Defiant
+						["description"] = "At the north end of the circular room at the back of the cave.",
+						["coords"] = {
+							{ 73.2, 94.6, KUN_LAI_SUMMIT },	-- entrance
+							{ 54.9, 16.9, 434 },	-- actual object
+						},
+					}),
+					o(215797, {	-- The Emperor's Burden - Part 2
+						["coord"] = { 43.8, 51.2, KUN_LAI_SUMMIT },
+					}),
+					o(213443, {	-- The Emperor's Burden - Part 6
+						["coord"] = { 67.7, 48.3, KUN_LAI_SUMMIT },
+					}),
+					o(213455, {	-- The Emperor's Burden - Part 7
+						["coord"] = { 40.9, 42.3, KUN_LAI_SUMMIT },
+					}),
+					o(211994, {	-- The Hozen Ravage
+						["coord"] = { 45.7, 61.9, KUN_LAI_SUMMIT },
+					}),
+					o(213331, {	-- Valley of the Emperors (Kun-Lai Summit)
+						["coord"] = { 53.0, 46.58, KUN_LAI_SUMMIT },
+						["description"] = "The scroll is in the first big room."
+					}),
+					o(213511, {	-- Victory in Kun-Lai
+						["coord"] = { 63.1, 40.8, KUN_LAI_SUMMIT },
+					}),
+					o(213417, {	-- Yaungol Tactics
+						["coord"] = { 50.5, 79.3, KUN_LAI_SUMMIT },
+					}),
+					o(215798, {	-- Yaungoil
+						["coord"] = { 71.7, 63.0, KUN_LAI_SUMMIT },
 					}),
 				}),
 				n(VENDORS, {

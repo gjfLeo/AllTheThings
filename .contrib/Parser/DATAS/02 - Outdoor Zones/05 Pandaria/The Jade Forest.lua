@@ -1,7 +1,6 @@
 ---------------------------------------------------
 --          Z O N E S        M O D U L E         --
 ---------------------------------------------------
-
 root(ROOTS.Zones, {
 	m(PANDARIA, {
 		applyclassicphase(MOP_PHASE_LANDFALL, m(THE_JADE_FOREST, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
@@ -3100,6 +3099,9 @@ root(ROOTS.Zones, {
 						["questID"] = 31864, -- Chest of Supplies
 						["coord"] = { 24.6, 53.2, THE_JADE_FOREST },
 					}),
+					o(211990, {	-- Hozen Speech
+						["coord"] = { 26.5, 28.3, THE_JADE_FOREST },
+					}),
 					o(214338, {	-- Offering of Remembrance
 						["questID"] = 31865, -- Offering of Remembrance
 						["coord"] = { 46.3, 80.6, THE_JADE_FOREST },
@@ -3109,7 +3111,28 @@ root(ROOTS.Zones, {
 						["questID"] = 31866, -- Stash of Gems
 						["coord"] = { 62.4, 27.5, THE_JADE_FOREST },
 					}),
-					o(214379),	-- Shrine of Fellowship
+					o(214379),	-- Shrine of Fellowship [TODO]
+					o(213333, {	-- Spirit Binders
+						["coord"] = { 42.2, 17.4, THE_JADE_FOREST },
+					}),
+					o(215799, {	-- The Emperor's Burden - Part 1
+						["coord"] = { 47.0, 45.1, THE_JADE_FOREST },
+					}),
+					o(213421, {	-- The Emperor's Burden - Part 3
+						["coord"] = { 55.8, 56.8, THE_JADE_FOREST },
+					}),
+					o(213415, {	-- The First Monks
+						["coord"] = { 35.7, 30.5, THE_JADE_FOREST },
+					}),
+					o(213327, {	-- The Saurok
+						["coord"] = { 67.7, 29.3, THE_JADE_FOREST },
+					}),
+					o(215779, {	-- Watersmithing
+						["coord"] = { 66.0, 87.5, THE_JADE_FOREST },
+					}),
+					o(213512, {	-- Xin Wo Yin the Broken Hearted
+						["coord"] = { 37.5, 30.1, THE_JADE_FOREST },
+					}),
 				}),
 				n(VENDORS, {
 					n(56687, {	-- Metalworker Sashi <Trade Goods>
