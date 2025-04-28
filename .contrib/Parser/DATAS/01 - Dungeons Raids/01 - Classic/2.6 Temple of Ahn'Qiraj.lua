@@ -9,7 +9,6 @@ ANACHRONOS_COORD = { 65, 50, TANARIS };
 -- #endif
 local SILITHID_ROYALTY_SHARED_DROPS = COMMON_BOSS_DROPS;
 -- #if ANYCLASSIC
--- #if SEASON_OF_DISCOVERY
 SILITHID_ROYALTY_SHARED_DROPS = createHeader({
 	readable = "Silithid Royalty",
 	icon = 133575,
@@ -17,7 +16,6 @@ SILITHID_ROYALTY_SHARED_DROPS = createHeader({
 		en = "Silithid Royalty",
 	},
 });
--- #endif
 -- #endif
 
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE, {
