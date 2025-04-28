@@ -229,6 +229,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				n(COMMON_BOX_DROPS, {	-- Common Box Drops
 					i(187880),	-- Goat Soul
 					i(187862),	-- Snake Soul
+					i(184158, {	-- Oozing Necroray Egg
+						["provider"] = { "i", 184159 },	-- Necroray Egg
+						["g"] = {
+							i(184160),	-- Bulbous Necroray (MOUNT!)
+							i(184161),	-- Infested Necroray (MOUNT!)
+							i(184162),	-- Pestilent Necroray (MOUNT!)
+						},
+					}),
 				}),
 			}),
 			-- Calling Boxes
@@ -263,13 +271,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				i(181732, {	-- Tribute of the Ambitious / Maldraxxus
 					["description"] = "Rewarded by completing a Calling based in Maldraxxus.",
 					["g"] = {
-						i(184159, {	-- Necroray Egg (Timer)
-							i(184158, {	-- Oozing Necroray Egg (No Timer)
-								i(184160),	-- Bulbous Necroray (MOUNT!)
-								i(184161),	-- Infested Necroray (MOUNT!)
-								i(184162),	-- Pestilent Necroray (MOUNT!)
-							}),
-						}),
+						i(184159),	-- Necroray Egg
 						i(187913, {	-- Apprentice Slimemancer's Boots (TOY!)
 							["timeline"] = { ADDED_9_1_5 },
 						}),
@@ -308,13 +310,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				i(181733, {	-- Tribute of the Duty-Bound / Maldraxxus
 					["description"] = "Rewarded by completing a 'Challenges' Calling based in Maldraxxus.",
 					["g"] = {
-						i(184159, {	-- Necroray Egg (Timer)
-							i(184158, {	-- Oozing Necroray Egg (No Timer)
-								i(184160),	-- Bulbous Necroray (MOUNT!)
-								i(184161),	-- Infested Necroray (MOUNT!)
-								i(184162),	-- Pestilent Necroray (MOUNT!)
-							}),
-						}),
+						i(184159),	-- Necroray Egg
 						i(187913, {	-- Apprentice Slimemancer's Boots (TOY!)
 							["timeline"] = { ADDED_9_1_5 },
 						}),
