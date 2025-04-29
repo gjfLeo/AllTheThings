@@ -1,11 +1,11 @@
-﻿using ATT.FieldTypes;
+﻿using ATT.DB.Types;
+using ATT.FieldTypes;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using static ATT.Framework;
 
 namespace ATT
 {
@@ -678,7 +678,7 @@ namespace ATT
 
                             newListOfLists = new List<List<object>>();
 
-                            if (!( value is List<object> newList))
+                            if (!(value is List<object> newList))
                             {
                                 LogWarn($"Unable to merge 'sym' data: {ToJSON(value)}", item);
                                 return;
@@ -1033,7 +1033,6 @@ namespace ATT
 #pragma warning disable CS0162 // Unreachable code detected
                         if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} Skipped SourceID due to Filter:{(Objects.Filters)f}");
 #pragma warning restore CS0162 // Unreachable code detected
-                        data.Remove("sourceID");
                         return;
                     }
                 }
@@ -1050,11 +1049,28 @@ namespace ATT
                 {
                     // quite spammmmmy, only enable if needed
 #pragma warning disable CS0162 // Unreachable code detected
-                    if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} ==> s:{sourceID}");
+                    if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} ==> s:{sourceID} (SOURCES)");
 #pragma warning restore CS0162 // Unreachable code detected
                     data["sourceID"] = sourceID;
                     CaptureForSOURCED(data, "sourceID", sourceID);
                     return;
+                }
+
+                // Attempt to get the SourceID from the ItemModifiedAppearanceDB
+                if (TryGetTypeDBObjectCollection<ItemModifiedAppearance>((long)sourceIDKey, out var itemModifiedAppearances))
+                {
+                    // this would need to be revised to ever work with modID/bonusID
+                    sourceID = itemModifiedAppearances.FirstOrDefault(x => x.ItemAppearanceModifierID == 0)?.ID ?? 0;
+                    if (sourceID > 0)
+                    {
+                        // quite spammmmmy, only enable if needed
+#pragma warning disable CS0162 // Unreachable code detected
+                        if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} ==> s:{sourceID} (ItemModifiedAppearanceDB)");
+#pragma warning restore CS0162 // Unreachable code detected
+                        data["sourceID"] = sourceID;
+                        CaptureForSOURCED(data, "sourceID", sourceID);
+                        return;
+                    }
                 }
 
                 // quite spammmmmy, only enable if needed

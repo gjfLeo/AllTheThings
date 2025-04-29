@@ -924,6 +924,11 @@ namespace ATT
             {
                 CollectObjectsByValue<CriteriaTree>(type, (se) => se.Parent);
             }
+            // ItemModifiedAppearance creates ItemID mapping one-time
+            if (type == nameof(ItemModifiedAppearance))
+            {
+                CollectObjectsByValue<ItemModifiedAppearance>(type, (se) => se.ItemID);
+            }
             // ItemEffect creates SpellID mapping one-time
             if (type == nameof(ItemEffect))
             {

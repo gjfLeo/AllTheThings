@@ -60,12 +60,6 @@ namespace ATT
                 MergeItemDB(wagoItemDb.Values.Select(i => i.AsData()));
             }
 
-            // Item Modified Appearance (Sources)
-            if (TypeDB.TryGetValue("ItemModifiedAppearance", out IDictionary<long, IDBType> wagoSourceDb))
-            {
-                MergeItemDB(wagoSourceDb.Values.Select(i => i.AsData()));
-            }
-
             // Item Search Name (Quality, Required Skills, Item Level, Race/Class Requirements)
             if (TypeDB.TryGetValue("ItemSearchName", out IDictionary<long, IDBType> wagoItemSearchDb))
             {
