@@ -910,6 +910,7 @@ app.Settings.CreateInformationType("SourceLocations", {
 	text = "Source Locations",
 	HideCheckBox = true,
 	keys = {
+		["achievementID"] = true,
 		["creatureID"] = true,
 		["expansionID"] = false,
 		["explorationID"] = true,
