@@ -3283,12 +3283,7 @@ namespace ATT
             if (!providers.TryConvert(out List<object> providersList))
                 return;
 
-            //if (data.TryGetValue("questID", out long questID) && questID == 13614)
-            //{
-
-            //}
-
-            bool hasNpcProvider = data.TryGetValue("qgs", out List<long> qgs);
+            bool hasQuestGivers = data.TryGetValue("qgs", out List<object> qgs) && qgs.Count > 0;
 
             int i = 0;
             while (i < providersList.Count)
@@ -3306,7 +3301,7 @@ namespace ATT
                 switch (pType)
                 {
                     case "i":
-                        if (hasNpcProvider || Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
+                        if (hasQuestGivers || Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
                         {
                             // if the provider is an item, we want that item to be listed as having been referenced to keep it out of Unsorted
                             Items.MarkItemAsReferenced(pID);
@@ -3314,13 +3309,13 @@ namespace ATT
                         else
                         {
                             var item = Items.GetNull(pID);
-                            // Crieve doesn't want this. Sometimes the only valid source is the provider, which is fine for quest items.
-                            // Quest Items which specifically are listed AFTER an NPC provider will now be considered referenced
-                            // Actual Quest-providing Items should still have a valid Source
-                            if (item == null || !Items.IsItemReferenced(pID))
+                            // Items which are the 'first' provider indicate that their acquisition is what 'provides' the data
+                            // and thus they must be Sourced to be properly visible for being acquired
+                            if (i == 0 && (item == null || !Items.IsItemReferenced(pID)))
                             {
                                 // The item isn't Sourced in Retail version
                                 // Holy... there are actually a ton of these. Will Debug Log for now until they are cleaned up...
+                                // There are currently about 1000 warnings due to unsourced Items of this nature
                                 LogDebugWarn($"Non-Sourced 'provider-item' {pID}", data);
                             }
                             else if (item.TryGetValue("u", out long u) && u == 1)
@@ -3334,7 +3329,6 @@ namespace ATT
                         break;
                     case "n":
                         NPCS_WITH_REFERENCES[(long)pID] = true;
-                        hasNpcProvider = true;
                         MarkCustomHeaderAsRequired((long)pID);
                         break;
                     case "o":
