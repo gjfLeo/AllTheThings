@@ -6074,44 +6074,45 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 			AfterCombatCallback(self.Update, self);
 		end
 		-- Setup Event Handlers and register for events
-		self:SetScript("OnEvent", function(self, e, ...)
-			-- app.PrintDebug("Tradeskills.event",e,...)
-			if e == "TRADE_SKILL_LIST_UPDATE" then
-				if self:IsVisible() then
-					-- If it's not yours, don't take credit for it.
-					if C_TradeSkillUI.IsTradeSkillLinked() or C_TradeSkillUI.IsTradeSkillGuild() then
-						self:SetVisible(false);
-						return false;
-					end
-
-					-- Check to see if ATT has information about this profession.
-					local tradeSkillID = app.GetTradeSkillLine();
-					if not tradeSkillID or #SearchForField("professionID", tradeSkillID) < 1 then
-						self:SetVisible(false);
-						return false;
-					end
+		local EventHandlers = {
+			TRADE_SKILL_SHOW = function(self)
+				-- If it's not yours, don't take credit for it.
+				if C_TradeSkillUI.IsTradeSkillLinked() or C_TradeSkillUI.IsTradeSkillGuild() then
+					self:SetVisible(false)
+					return false
 				end
-				self:RefreshRecipes();
-			elseif e == "TRADE_SKILL_SHOW" then
+
+				-- Check to see if ATT has information about this profession.
+				local tradeSkillID = app.GetTradeSkillLine()
+				if not tradeSkillID or #SearchForField("professionID", tradeSkillID) < 1 then
+					self:SetVisible(false)
+					return false
+				end
+
 				if self.TSMCraftingVisible == nil then
-					self:SetTSMCraftingVisible(false);
+					self:SetTSMCraftingVisible(false)
 				end
 				if app.Settings:GetTooltipSetting("Auto:ProfessionList") then
-					-- Check to see if ATT has information about this profession.
-					local tradeSkillID = app.GetTradeSkillLine();
-					if not tradeSkillID or #SearchForField("professionID", tradeSkillID) < 1 then
-						self:SetVisible(false);
-					else
-						self:SetVisible(true);
-					end
+					self:SetVisible(true)
 				end
-				self:RefreshRecipes(true);
-			elseif e == "TRADE_SKILL_CLOSE"
-				or e == "GARRISON_TRADESKILL_NPC_CLOSED" then
-				self:SetVisible(false);
-			end
-		end);
-		return;
+				self:RefreshRecipes(true)
+			end,
+			TRADE_SKILL_CLOSE = function(self)
+				self:SetVisible(false)
+			end,
+		}
+		EventHandlers.GARRISON_TRADESKILL_NPC_CLOSED = EventHandlers.TRADE_SKILL_CLOSE
+
+		self:SetScript("OnEvent", function(self, e, ...)
+			-- app.PrintDebug("Tradeskills.event",e,...)
+			local handler = EventHandlers[e]
+			if not handler then return end
+
+			-- app.PrintDebug("Tradeskills.event.handle",e)
+			handler(self, e, ...)
+			-- app.PrintDebugPrior("Tradeskills.event.done")
+		end)
+		return
 	end
 	if self:IsVisible() then
 		if TSM_API and TSMAPI_FOUR then
