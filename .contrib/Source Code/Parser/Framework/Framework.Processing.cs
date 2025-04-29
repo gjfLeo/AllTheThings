@@ -3902,6 +3902,7 @@ namespace ATT
                         case "i":
                             if (!TryGetSOURCED("itemID", pID, out _))
                             {
+                                Items.MarkItemAsReferenced(pID);
                                 providerData = new Dictionary<string, object> { { "itemID", pID } };
                                 Objects.Merge(parentData, "g", providerData);
                             }
