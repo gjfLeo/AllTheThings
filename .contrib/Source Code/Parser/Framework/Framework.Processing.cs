@@ -2580,8 +2580,8 @@ namespace ATT
                         }
                     }
 
-                    // more than 1 criteria tree to nest, but none had any incorporated data, so add basic criterias by index
-                    if (!incorporated && !data.ContainsKey("achievement_criteria") && childTrees.Count > 1)
+                    // more than 1 useful & non-ignored criteria tree to nest, but none had any incorporated data, so add basic criterias by index
+                    if (!incorporated && !data.ContainsKey("achievement_criteria") && childTrees.Any(c => c.IsUseful() && !c.IsIgnoreFlags()))
                     {
                         extraData = extraData ?? new Dictionary<string, object>();
                         if (extraData.TryGetValue("id", out long id) && id == criteriaIndex)
