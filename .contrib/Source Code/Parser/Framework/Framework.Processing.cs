@@ -834,8 +834,10 @@ namespace ATT
 
             Incorporate_Achievement(data);
             Incorporate_Criteria(data);
-            // Handles Spell->SpellEffect incorporation
+            // Handles Item->Spell->SpellEffect incorporation
             Incorporate_Item(data);
+            // Handles Spell->SpellEffect incorporation
+            Incorporate_Spell(data);
             Incorporate_Ensemble(data);
 
             bool cloned = Incorporate_DataCloning(data);
@@ -2262,9 +2264,9 @@ namespace ATT
                             else
                             {
                             */
-                                LogDebug($"INFO: Added _exploration to Criteria {achID}:{criteriaID} => {explorationID}");
-                                Objects.Merge(data, "_exploration", explorationID);
-                                incorporated = true;
+                            LogDebug($"INFO: Added _exploration to Criteria {achID}:{criteriaID} => {explorationID}");
+                            Objects.Merge(data, "_exploration", explorationID);
+                            incorporated = true;
                             //}
                         }
                     }
@@ -2745,47 +2747,25 @@ namespace ATT
             if (!data.TryGetValue("type", out string type) || !(type == "ensembleID" || type == "ensembleSpellID")) return;
             if (data.ContainsKey("_noautomation")) return;
 
-            if (!data.TryGetValue("spellID", out long spellID))
+            if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet) && tmogSet.TrackingQuestID > 0)
             {
-                LogWarn($"Ensemble Type Item missing linking SpellID", data);
-                return;
-            }
+                Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
+                TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
 
-            if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
-            {
-                foreach (SpellEffect spellEffect in spellEffects)
-                {
-                    Incorporate_SpellEffect(data, spellEffect);
-                }
-            }
-            else
-            {
-                data.TryGetValue("itemID", out long itemID);
-                LogWarn($"Ensemble {itemID} with Spell {spellID} missing Wago SpellEffect record(s)", data);
-            }
-
-            if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet))
-            {
-                if (tmogSet.TrackingQuestID > 0)
-                {
-                    Objects.Merge(data, "questID", tmogSet.TrackingQuestID);
-                    TrackIncorporationData(data, "questID", tmogSet.TrackingQuestID);
-
-                    // check if other Ensembles have the same name as well. this could be a case where alternate Ensembles are auto-learned via server-side
-                    // spellID triggers which may need to be added into the 'real' Ensemble Item to pull in the proper set of learned Sources
-                    //IEnumerable<TransmogSet> matchingTmogSets = GetTypeDBObjects<TransmogSet>(i => i.Name_lang == tmogSet.Name_lang
-                    //                                                                            && i.TrackingQuestID > 0
-                    //                                                                            && i.TrackingQuestID != tmogSet.TrackingQuestID);
-                    //data.TryGetValue("itemID", out long ensembleID);
-                    //foreach (var matchingTmogSet in matchingTmogSets)
-                    //{
-                    //    long? matchingTmogSetSpellID = GetTypeDBObjects<SpellEffect>(i => i.EffectMiscValue_0 == matchingTmogSet.ID && i.IsLearnedTransmogSet()).FirstOrDefault()?.SpellID;
-                    //    if (matchingTmogSetSpellID != null)
-                    //    {
-                    //        LogDebugWarn($"Matching Transmog Set {matchingTmogSet.Name_lang}:{matchingTmogSet.ID} may need a manual SpellID {matchingTmogSetSpellID} added within existing iensemble({ensembleID}");
-                    //    }
-                    //}
-                }
+                // check if other Ensembles have the same name as well. this could be a case where alternate Ensembles are auto-learned via server-side
+                // spellID triggers which may need to be added into the 'real' Ensemble Item to pull in the proper set of learned Sources
+                //IEnumerable<TransmogSet> matchingTmogSets = GetTypeDBObjects<TransmogSet>(i => i.Name_lang == tmogSet.Name_lang
+                //                                                                            && i.TrackingQuestID > 0
+                //                                                                            && i.TrackingQuestID != tmogSet.TrackingQuestID);
+                //data.TryGetValue("itemID", out long ensembleID);
+                //foreach (var matchingTmogSet in matchingTmogSets)
+                //{
+                //    long? matchingTmogSetSpellID = GetTypeDBObjects<SpellEffect>(i => i.EffectMiscValue_0 == matchingTmogSet.ID && i.IsLearnedTransmogSet()).FirstOrDefault()?.SpellID;
+                //    if (matchingTmogSetSpellID != null)
+                //    {
+                //        LogDebugWarn($"Matching Transmog Set {matchingTmogSet.Name_lang}:{matchingTmogSet.ID} may need a manual SpellID {matchingTmogSetSpellID} added within existing iensemble({ensembleID}");
+                //    }
+                //}
             }
 
             // add additional ensemble spells as sub-groups of the Item Ensemble
@@ -2864,22 +2844,8 @@ namespace ATT
             if (!data.TryGetValue("itemID", out long itemID)) return;
             if (data.ContainsKey("_noautomation")) return;
 
-            // See if there's a Spell and what it links to
-            if (data.TryGetValue("spellID", out long spellID))
-            {
-                if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
-                {
-                    foreach (SpellEffect spellEffect in spellEffects)
-                    {
-                        Incorporate_SpellEffect(data, spellEffect);
-                    }
-                }
-                else
-                {
-                    // quite spammy now with all Items being incorporated
-                    //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
-                }
-            }
+            // See if there's a Spell already
+            data.TryGetValue("spellID", out long spellID);
 
             // See what direct ItemXItemEffects are linked to this Item
             if (TryGetTypeDBObjectCollection(itemID, out List<ItemXItemEffect> itemXItemEffects))
@@ -2889,18 +2855,49 @@ namespace ATT
                     if (!TryGetTypeDBObject(itemXItemEffect.ItemEffectID, out ItemEffect itemEffect))
                         continue;
 
-                    // we may have already incorporated the specific SpellID above from the direct Item data
+                    // ignore matching spellID
                     if (itemEffect.SpellID == spellID)
                         continue;
 
-                    if (TryGetTypeDBObjectCollection(itemEffect.SpellID, out List<SpellEffect> spellEffects))
+                    // add the SpellID to the Item if it's missing one, this will be incoroprated by Incorporate_Spell
+                    if (spellID == 0)
                     {
-                        foreach (SpellEffect spellEffect in spellEffects)
+                        data["spellID"] = itemEffect.SpellID;
+                        TrackIncorporationData(data, "spellID", itemEffect.SpellID);
+                        LogDebug($"INFO: Added Item {itemID} SpellID {itemEffect.SpellID} from ItemEffect", data);
+                    }
+                    else
+                    {
+                        // Items can actually trigger multiple spells effects, so directly incorporate any other spell effects
+                        if (TryGetTypeDBObjectCollection(itemEffect.SpellID, out List<SpellEffect> spellEffects))
                         {
-                            Incorporate_SpellEffect(data, spellEffect);
+                            foreach (SpellEffect spellEffect in spellEffects)
+                            {
+                                Incorporate_SpellEffect(data, spellEffect);
+                            }
                         }
                     }
                 }
+            }
+        }
+
+        private static void Incorporate_Spell(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("spellID", out long spellID)) return;
+            if (data.ContainsKey("_noautomation")) return;
+
+            // See what the Spell links to
+            if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
+            {
+                foreach (SpellEffect spellEffect in spellEffects)
+                {
+                    Incorporate_SpellEffect(data, spellEffect);
+                }
+            }
+            else
+            {
+                // quite spammy now with all Items being incorporated
+                //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
             }
         }
 
