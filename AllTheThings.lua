@@ -7231,10 +7231,6 @@ local function InitDataCoroutine()
 		if completion == 2 then currentQuestsCache[questID] = nil; end
 	end
 
-	-- Let a frame go before hitting the initial refresh to make sure as much time as possible is allowed for the operation
-	-- app.PrintDebug("Yield prior to Refresh")
-	yield();
-
 	-- Setup the use of profiles after a short delay to ensure that the layout window positions are collected
 	if not AllTheThingsProfiles then DelayedCallback(app.SetupProfiles, 5); end
 
