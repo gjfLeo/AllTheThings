@@ -72,8 +72,8 @@ local function GetUnobtainableTexture(group)
 	if group.e then
 		return L.UNOBTAINABLE_ITEM_TEXTURES[app.Modules.Events.FilterIsEventActive(group) and 5 or 4];
 	end
-	-- anything 'missing' will show as unobtainable to differentiate itself (maybe new icon sometime?)
-	if group._missing then
+	-- any item which is 'missing' will show as unobtainable to differentiate itself (maybe new icon sometime?)
+	if group.itemID and group._missing then
 		return L.UNOBTAINABLE_ITEM_TEXTURES[1]
 	end
 end
