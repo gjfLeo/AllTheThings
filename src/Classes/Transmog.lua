@@ -865,13 +865,9 @@ local function GetLinkTooltipInfo(sourceGroup, useItemIDs, sameItem)
 		end
 	end
 	local text
-	if sourceGroup.e or sourceGroup.u then
-		local texture = app.GetUnobtainableTexture(sourceGroup);
-		if texture then
-			text = "|T"..texture..":0|t";
-		else
-			text = "    ";
-		end
+	local texture = app.GetUnobtainableTexture(sourceGroup);
+	if texture then
+		text = "|T"..texture..":0|t";
 	else
 		text = "    ";
 	end
