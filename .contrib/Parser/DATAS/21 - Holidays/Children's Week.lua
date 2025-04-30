@@ -123,24 +123,8 @@ local WARDEN_OF_THE_GROUPS = {
 	}),
 };
 local A_BRIGHTER_TOMORROW_GROUPS = {
-	i(242265, {	-- Arsenal: Children's Orgrimmar Guard Weapon Set	(TODO: ensemble data unavailable)
-		["questID"] = 90598,
-		["g"] = {
-			i(242261),	-- Painted Axe Prop
-			i(242262),	-- Painted Wooden Axe
-			i(242263),	-- Painted Wooden Hatchet
-			i(242264),	-- Wooden Ogrimmar Shield
-		},
-	}),
-	i(242260, {	-- Arsenal: Children's Stormwind Guard Weapon Set	(TODO: ensemble data unavailable)
-		["questID"] = 90597,
-		["g"] = {
-			i(241234),	-- Painted Fighting Prop
-			i(241235),	-- Painted Wooden Sword
-			i(241236),	-- Painted Wooden Dagger
-			i(242259),	-- Wooden Stormwind Shield
-		},
-	}),
+	iensemble(242265),	-- Arsenal: Children's Orgrimmar Guard Weapon Set
+	iensemble(242260),	-- Arsenal: Children's Stormwind Guard Weapon Set
 	i(221851),	-- Argos (PET!)
 	i(232857),	-- Goggles (PET!)
 	i(241193),	-- Helpful Workshop Bot (PET!)
@@ -149,8 +133,8 @@ local A_BRIGHTER_TOMORROW_GROUPS = {
 	i(242242),	-- Khaz Algar Orphan Whistle
 };
 local WELL_LOVED_FIGURINE_VENDOR_GROUP = {
-	i(242265),	-- Arsenal: Children's Orgrimmar Guard Weapon Set
-	i(242260),	-- Arsenal: Children's Stormwind Guard Weapon Set
+	iensemble(242265),	-- Arsenal: Children's Orgrimmar Guard Weapon Set
+	iensemble(242260),	-- Arsenal: Children's Stormwind Guard Weapon Set
 	i(221851),	-- Argos (PET!)
 	i(167010),	-- Beakbert (PET!)
 	i(46544),	-- Curious Oracle Hatchling (PET!)
