@@ -55,7 +55,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	}),
 	-- #endif
 	filter(MOUNTS, {	-- AVAILABLE --
-		mount(1226983, {	-- Archmage's Great Raven (MOUNT!)
+		i(238994, {	-- Archmage's Great Raven (MOUNT!)
 			["timeline"] = { ADDED_11_1_5 },
 		}),
 		i(190636, {	-- Armored Siege Kodo (MOUNT!)
@@ -119,7 +119,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(190581, {	-- Nether-Gorged Greatwyrm (MOUNT!)
 			["timeline"] = { ADDED_9_2_5 },
 		}),
-		mount(1226760, {	-- Prophet's Great Raven (MOUNT!)
+		i(238943, {	-- Prophet's Great Raven (MOUNT!)
 			["timeline"] = { ADDED_11_1_5 },
 		}),
 		-- #if ANYCLASSIC

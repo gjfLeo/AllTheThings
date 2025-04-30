@@ -64,69 +64,35 @@ root(ROOTS.Unsorted, {
 				i(236946),	-- [NOT USED] Mysterious Accessories Satchel
 				i(236958),	-- [NOT USED] Empty Mysterious Potion
 			}),
-			filter(BATTLE_PETS, {
-				i(236409),	-- Frumpy Softpaw
-				i(238942),	-- Weechi \\ Chihuahua
-			}),
 			filter(COSMETIC, {
-				i(235985),	-- Heroic Half Shell
 				i(235986),	-- Evil King's Half Shell
 				i(235987),	-- Adorned Half Shell
-				i(236402),	-- Night Hag's Stave \\ Deathwarder's Night Stave
 				i(236403),	-- Deathwarder's Grove Stave
 				i(236404),	-- Deathwarder's Twilight Stave
-				i(236405),	-- Deathwarder's Blood Stave
-				i(236627),	-- Night Hag's Blade \\ Deathwarder's Night Blade
 				i(236628),	-- Deathwarder's Grove Blade
 				i(236629),	-- Deathwarder's Twilight Blade
-				i(236630),	-- Deathwarder's Blood Blade
-				i(237176),	-- Night Hag's Claw \\ Deathwarder's Night Fist
 				i(237177),	-- Deathwarder's Grove Fist
 				i(237178),	-- Deathwarder's Twilight Fist
-				i(237179),	-- Deathwarder's Blood Fist
-				i(237180),	-- Night Hag's Fetish \\ Deathwarder's Night Fetish
 				i(237181),	-- Deathwarder's Grove Fetish
 				i(237182),	-- Deathwarder's Twilight Fetish
-				i(237183),	-- Deathwarder's Blood Fetish
-				i(237190),	-- Vestments of the Woodland Racoon \\ Woodland Vestments of the Racoon
 				i(237191),	-- Woodland Vestments of the Grey Wolf
-				i(237192),	-- Vestments of the Swift Fox \\ Woodland Vestments of the Fox
 				i(237193),	-- Woodland Vestments of the Gilneas Fox
-				i(237194),	-- Boots of the Woodland Racoon \\ Woodland Boots of the Racoon
 				i(237195),	-- Woodland Boots of the Grey Wolf
-				i(237197),	-- Boots of the Swift Fox \\ Woodland Boots of the Fox
 				i(237198),	-- Woodland Boots of the Gilneas Fox
-				i(237199),	-- Gloves of the Woodland Racoon \\ Woodland Gloves of the Racoon
 				i(237201),	-- Woodland Gloves of the Grey Wolf
-				i(237202),	-- Gloves of the Swift Fox \\ Woodland Gloves of the Fox
 				i(237203),	-- Woodland Gloves of the Gilneas Fox
-				i(237205),	-- Cowl of the Woodland Racoon \\ Woodland Cowl of the Racoon
 				i(237206),	-- Woodland Cowl of the Grey Wolf
-				i(237207),	-- Cowl of the Swift Fox \\ Woodland Cowl of the Fox
 				i(237208),	-- Woodland Cowl of the Gilneas Fox
-				i(237209),	-- Pants of the Woodland Racoon \\ Woodland Pants of the Racoon
 				i(237210),	-- Woodland Pants of the Grey Wolf
-				i(237211),	-- Pants of the Swift Fox \\ Woodland Pants of the Fox
 				i(237212),	-- Woodland Pants of the Gilneas Fox
-				i(237213),	-- Mantle of the Woodland Racoon \\ Woodland Mantle of the Racoon
 				i(237214),	-- Woodland Mantle of the Grey Wolf
-				i(237215),	-- Mantle of the Swift Fox \\ Woodland Mantle of the Fox
 				i(237216),	-- Woodland Mantle of the Gilneas Fox
-				i(237217),	-- Belt of the Woodland Racoon \\ Woodland Belt of the Racoon
 				i(237218),	-- Woodland Belt of the Grey Wolf
-				i(237219),	-- Belt of the Swift Fox \\ Woodland Belt of the Fox
 				i(237220),	-- Woodland Belt of the Gilneas Fox
-				i(237222),	-- Ensemble: Attire of the Woodland Racoon \\ Ensemble: Woodland Attire of the Racoon
 				i(237223),	-- Ensemble: Woodland Attire of the Grey Wolf
-				i(237224),	-- Ensemble: Attire of the Swift Fox \\ Ensemble: Woodland Attire of the Fox
 				i(237225),	-- Ensemble: Woodland Attire of the Gilneas Fox
-				i(237226),	-- Cloak of the Woodland Racoon \\ Woodland Cloak of the Racoon
 				i(237227),	-- Woodland Cloak of the Grey Wolf
-				i(237228),	-- Cloak of the Swift Fox \\ Woodland Cloak of the Fox
 				i(237229),	-- Woodland Cloak of the Gilneas Fox
-				i(237342),	-- Renaissance Sai \\ Dagger of the Renaissance
-				i(237343),	-- Nunchuck of the Renaissance \\ Flail of the Renaissance
-				i(237344),	-- Renaissance Katana \\ Blade of the Renaissance
 				i(237374),	-- Stormstout's Tunic
 				i(237375),	-- Stormstout's Hat
 				i(237376),	-- Stormstout's Belt
@@ -137,8 +103,6 @@ root(ROOTS.Unsorted, {
 				i(237855),	-- Shadowmoon Flame's Bardiche
 				i(237856),	-- Sunwell Bardiche \\ Hellfire Flame's Bardiche
 				i(237857),	-- Sunwell Flame's Bardiche
-				i(238217),	-- Offhand Renaissance Nunchuck \\ Offhand Flail of the Renaissance
-				i(238252),	-- Large Renaissance Katana \\ Great Blade of the Renaissance
 				i(238397),	-- Coldflame Chopper \\ Lavaborn Azure Choper
 				i(238398),	-- Lavaborn Emerald Chopper \\ Lavaborn Emerald Choper
 				i(238399),	-- Lavaborn Ruby's Edge \\ Lavaborn Ruby Choper
@@ -199,10 +163,8 @@ root(ROOTS.Unsorted, {
 				i(238952),	-- Green Flame Burner
 				i(238953),	-- Red Flame Burner
 				i(238955),	-- Yellow Flame Burner
-				i(238956),	-- Night Hag's Great Blade \\ Deathwarder's Great Night Blade
 				i(238957),	-- Deathwarder's Great Grove Blade
 				i(238958),	-- Deathwarder's Great Twilight Blade
-				i(238959),	-- Deathwarder's Great Blood Blade
 			}),
 			filter(MISC, {
 				i(238896),	-- Macho's Magnificent "Fish" Tacos
@@ -210,7 +172,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MOUNTS, {
 				i(236415),	-- Reins of the Spotted Black Riding Goat
-				i(238897),	-- Spring Harvesthog
 				i(238900),	-- Summer Harvesthog
 				i(238901),	-- Winter Harvesthog
 				i(238902),	-- Autumn Harvesthog

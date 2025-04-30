@@ -780,9 +780,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 		-- 10.2.0
 		expansion(EXPANSION.DF, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_0 } }, {
 			-- With MountID Attached
-			i(210141, {	-- [PH] Brown-Furred Spiky Bakar (MOUNT!)
-				["displayID"] = 111719,
-			}),
 			i(210143, {	-- [PH] White-Furred Bakar (MOUNT!)
 				["displayID"] = 111729,
 			}),
