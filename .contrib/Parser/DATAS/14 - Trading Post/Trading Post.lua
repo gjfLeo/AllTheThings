@@ -3060,6 +3060,9 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(234573, {	-- Topsy Turvy Clown's Blade
 					["cost"] = {{"c", TRADERS_TENDER, 140}},
 				}),
+				i(234724, {	-- Topsy Turvy Clown's Cleaver
+					["cost"] = {{"c", TRADERS_TENDER, 140}},
+				}),
 				i(234725, {	-- Topsy Turvy Jester's Cleaver
 					["cost"] = {{"c", TRADERS_TENDER, 140}},
 				}),
