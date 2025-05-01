@@ -1944,7 +1944,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 		}),
 	}),
 	n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
-		q(81609, {	-- What About the Children? (cross-completes)
+		{	-- What About the Children?
+			["allianceQuestData"] = q(81609),	-- What About the Children? [A]
+			["hordeQuestData"] = q(81610),	-- What About the Children? [H]
 			["qgs"] = {
 				220865,	-- Holiday Enthusiast
 				220870,	-- Holiday Enthusiast
@@ -1954,19 +1956,20 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 				{ 31.4, 60.6, DORNOGAL },
 				{ 46.1, 55.0, DORNOGAL },
 				{ 56.8, 28.6, DORNOGAL },
+				{ 55.6, 61.0, DORNOGAL },
 			},
 			["isYearly"] = true,
-		}),
-		q(81610, {	-- What About the Children? (cross-completes)
-			["isYearly"] = true,
-		}),
+		},
 		q(89317, {	-- Children's Week in Dornogal
-			["qg"] = 241732,	-- Ullna <Matron in Training>
+			["qgs"] = {
+				240696, -- Ullna <Matron in Training>
+				241732,	-- Ullna <Matron in Training>
+			},
 			["coord"] = { 55.2, 27.0, DORNOGAL },
 			["isYearly"] = true,
 		}),
 		q(89318, {	-- Bold for a Kobold
-			["sourceQuest"] = 89317,	-- Children's Week in Dornogal
+			["sourceQuests"] = 89317,	-- Children's Week in Dornogal
 			["qg"] = 241593,	-- Skibbles
 			["maps"] = { DORNOGAL },
 			["isYearly"] = true,
