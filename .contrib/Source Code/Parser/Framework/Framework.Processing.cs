@@ -2728,7 +2728,12 @@ namespace ATT
                         break;
                     // 91 (BETTLE_PET_SPECIES)
                     case 91:
-                        Objects.Merge(data, "_species", existingModifierTree.Asset);
+                        // world quest battle pets have 'speciesID' and are sourced under NYI... don't move any of their criteria there
+                        if (TryGetSOURCED("speciesID", existingModifierTree.Asset, out HashSet<IDictionary<string, object>> sourcedSpecies)
+                            && sourcedSpecies.All(s => IsObtainableData(s)))
+                        {
+                            Objects.Merge(data, "_species", existingModifierTree.Asset);
+                        }
                         break;
                     // 95 (FACTION_STANDING)
                     case 95:
@@ -3356,19 +3361,21 @@ namespace ATT
                     }
                 }
                 // if the Criteria attempts to clone into a Species which is not Sourced, then ignore trying to move the criteria
-                if (data.TryGetValue("_species", out List<object> speciesObjs))
-                {
-                    data.TryGetValue("achID", out long achID);
-                    foreach (long speciesID in speciesObjs.AsTypedEnumerable<long>())
-                    {
-                        if (!TryGetSOURCED("speciesID", speciesID, out var _))
-                        {
-                            LogDebugWarn($"Criteria {achID}:{criteriaID} not nested unsorted SpeciesID {speciesID}. Consider sourcing the SpeciesID");
-                            Objects.TrackPostProcessMergeKey("speciesID", speciesID);
-                            cloned = false;
-                        }
-                    }
-                }
+                //if (data.TryGetValue("_species", out List<object> speciesObjs))
+                //{
+                //    data.DataBreakPoint("criteriaID", 55537);
+                //    data.TryGetValue("achID", out long achID);
+                //    foreach (long speciesID in speciesObjs.AsTypedEnumerable<long>())
+                //    {
+                //        if (!TryGetSOURCED("speciesID", speciesID, out HashSet<IDictionary<string, object>> sourcedSpecies)
+                //            || sourcedSpecies.Any(s => !IsObtainableData(s)))
+                //        {
+                //            LogDebugWarn($"Criteria {achID}:{criteriaID} not nested unsorted SpeciesID {speciesID}. Consider sourcing the SpeciesID");
+                //            Objects.TrackPostProcessMergeKey("speciesID", speciesID);
+                //            cloned = false;
+                //        }
+                //    }
+                //}
             }
 
             // Un-cloned data which is marked as ignored should allow itself to be removed from the list
@@ -4090,7 +4097,9 @@ namespace ATT
 
         private static bool IsObtainableData(IDictionary<string, object> data)
         {
-            return !data.TryGetValue("u", out long u) || u > 2;
+            return !data.ContainsKey("_unsorted")
+                && !data.ContainsKey("_nyi")
+                && (!data.TryGetValue("u", out long u) || u > 2);
         }
 
         /// <summary>
