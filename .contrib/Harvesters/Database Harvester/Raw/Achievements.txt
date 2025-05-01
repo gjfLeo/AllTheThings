@@ -5096,6 +5096,13 @@
 8795@@@Collector's Edition: Treasure Goblin
 8913@@@Collector's Edition: Dread Raven
 8915@@@Collector's Edition: Dread Hatchling
+5.5.0.60548
+8066@@@Heroic: Twin Empyreans
+8193@@@Twin Empyreans kills (LFR Throne of Thunder)
+8194@@@Twin Empyreans kills (10-player Normal Throne of Thunder)
+8195@@@Twin Empyreans kills (25-player Normal Throne of Thunder)
+8196@@@Twin Empyreans kills (10-player Heroic Throne of Thunder)
+8197@@@Twin Empyreans kills (25-player Heroic Throne of Thunder)
 6.0.1.18179
 8394@@@The Frostwind Slayer
 8463@@@Mythic: Immerseus
@@ -9599,7 +9606,6 @@
 15244@@@Renowned - Night Fae
 15245@@@Renowned - Venthyr
 9.1.5.40290
-8066@@@Heroic: Twin Empyreans
 9.1.5.40383
 15308@@@Tower Overwhelming
 15309@@@A Towering Success
