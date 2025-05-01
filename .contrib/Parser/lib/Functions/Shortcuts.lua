@@ -1973,7 +1973,7 @@ createHeader = function(data)
 						hour=0,
 						minute=0,
 					};
-					local startTimeStamp = getTimestamp(startTime);
+					local startTimeStamp = getTimestamp(startTime) + 30;	-- Add a 30 second offset to prevent bad imprecision from causing problems.
 
 					-- Find the first Sunday of the Month
 					for dayOffset = 1,14,1 do
@@ -2029,7 +2029,7 @@ createHeader = function(data)
 					--weekday=7,	-- generated below
 					hour=0,
 					minute=0,
-				});
+				}) + 30;	-- Add a 30 second offset to prevent bad imprecision from causing problems.
 
 				-- Calculate the difference between the first recorded event to now.
 				local currentYear, currentMonth = currentDate.year, currentDate.month;
@@ -2094,7 +2094,7 @@ createHeader = function(data)
 					monthDay=currentDate.day,
 					hour=data.eventSchedule[3],
 					minute=data.eventSchedule[4],
-				});
+				}) + 30;	-- Add a 30 second offset to prevent bad imprecision from causing problems.
 				while os.date("*t", startTimeStamp).wday ~= weekday do
 					startTimeStamp = startTimeStamp - SECONDS_IN_A_DAY;
 				end
