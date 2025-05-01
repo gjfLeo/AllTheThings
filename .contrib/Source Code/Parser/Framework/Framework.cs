@@ -283,6 +283,16 @@ namespace ATT
         private static long NestedHeaderID { get; set; }
 
         /// <summary>
+        /// Represents the nested ItemAppearanceModifierID currently being processed
+        /// </summary>
+        private static long NestedItemAppearanceModifierID { get; set; }
+
+        /// <summary>
+        /// Represents the nested BonusID currently being processed
+        /// </summary>
+        private static long NestedBonusID { get; set; }
+
+        /// <summary>
         /// Represents the nested ModID currently being processed
         /// </summary>
         private static long NestedModID { get; set; }
@@ -291,6 +301,16 @@ namespace ATT
         /// Represents the nested min lvl currently being processed
         /// </summary>
         private static long NestedMinLvl { get; set; } = 1;
+
+        /// <summary>
+        /// Whether or not to report changes to the context.
+        /// </summary>
+        private static bool ShouldReportContextChanges { get; set; }
+
+        /// <summary>
+        /// The depth of the report context.
+        /// </summary>
+        private static long ContextReportDepth { get; set; }
 
         private static HashSet<string> _inhertingFields;
         private static HashSet<string> InheritingFields
@@ -639,6 +659,16 @@ namespace ATT
         /// All of the glyphs that have been loaded into the database.
         /// </summary>
         internal static Dictionary<long, long> GlyphDB { get; private set; } = new Dictionary<long, long>();
+
+        /// <summary>
+        /// All of the ItemAppearanceModifierIDs that have been loaded into the database by their assigned bonusID.
+        /// </summary>
+        internal static Dictionary<long, long> ItemAppearanceModifierIDs_BonusID { get; private set; } = new Dictionary<long, long>();
+
+        /// <summary>
+        /// All of the ItemAppearanceModifierIDs that have been loaded into the database by their assigned modID.
+        /// </summary>
+        internal static Dictionary<long, long> ItemAppearanceModifierIDs_ModID { get; private set; } = new Dictionary<long, long>();
 
         /// <summary>
         /// All of the objects that have been loaded into the database.
@@ -1022,6 +1052,11 @@ namespace ATT
                 case "itemModID":
                     {
                         return "modID";
+                    }
+
+                case "ItemAppearanceModifierID":
+                    {
+                        return "ItemAppearanceModifierID";
                     }
 
                 case "artifactId":

@@ -5,6 +5,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace ATT
@@ -40,27 +41,6 @@ namespace ATT
             /// All of the specific ItemIDs and each corresponding SourceID value
             /// </summary>
             private static IDictionary<decimal, long> SOURCES = new ConcurrentDictionary<decimal, long>();
-
-            /// <summary>
-            /// All of the specific ItemIDs and each corresponding SourceID value
-            /// </summary>
-            private static IDictionary<long, ConcurrentDictionary<decimal, long>> SOURCES_PER_ITEMID = new ConcurrentDictionary<long, ConcurrentDictionary<decimal, long>>();
-
-            /// <summary>
-            /// Get all of the sources available for a given itemID.
-            /// </summary>
-            /// <param name="itemID">The itemID.</param>
-            /// <returns>The sources dictionary.</returns>
-            private static ConcurrentDictionary<decimal, long> GetSourcesForItemID(long itemID)
-            {
-                if (SOURCES_PER_ITEMID.TryGetValue(itemID, out var sources)) return sources;
-                return SOURCES_PER_ITEMID[itemID] = new ConcurrentDictionary<decimal, long>();
-            }
-
-            /// <summary>
-            /// A list of fields that have already warned the programmer.
-            /// </summary>
-            private static IDictionary<string, bool> WARNED_FIELDS = new ConcurrentDictionary<string, bool>();
 
             /// <summary>
             /// Returns whether a specific ItemID has been referenced
@@ -409,6 +389,7 @@ namespace ATT
                     case "sourceID":
                     case "bonusID":
                     case "modID":
+                    case "ItemAppearanceModifierID":
                     case "rank":
                     case "gender":
                     case "artifactID":
@@ -750,7 +731,6 @@ namespace ATT
                     Log($"-- Field Value Overwrite: s:{sourceID} => {newSourceID}");
                 }
                 SOURCES[specificItemID] = newSourceID;
-                GetSourcesForItemID(itemID)[specificItemID] = newSourceID;
             }
 
             public static void AddItemSourceID(KeyValuePair<decimal, object> itemSource)
@@ -758,7 +738,6 @@ namespace ATT
                 if (itemSource.Value.TryConvert(out long sourceID))
                 {
                     SOURCES[itemSource.Key] = sourceID;
-                    GetSourcesForItemID((long)Math.Floor(itemSource.Key))[itemSource.Key] = sourceID;
                 }
             }
 
@@ -767,7 +746,6 @@ namespace ATT
                 if (itemSource.Value.TryConvert(out long sourceID))
                 {
                     SOURCES[itemSource.Key] = sourceID;
-                    GetSourcesForItemID(itemSource.Key)[itemSource.Key] = sourceID;
                 }
             }
 
@@ -1045,99 +1023,109 @@ namespace ATT
                 }
 
                 // Attempt to get the Source ID for this variant of the item.
-                if (SOURCES.TryGetValue(sourceIDKey, out long sourceID))
+                long? sourceIDFromSourcesDB = null;
+                if (SOURCES.TryGetValue(sourceIDKey, out long s)) sourceIDFromSourcesDB = s;
+
+                // Firstly check to see if there's an ArtifactID associated with the data.
+                long ItemAppearanceModifierID = NestedItemAppearanceModifierID;
+                if (data.TryGetValue("artifactID", out var artifactIDObj)
+                    && TryGetTypeDBObject((long)artifactIDObj, out ArtifactAppearance artifactAppearance)
+                    && artifactAppearance != null)
                 {
-                    // quite spammmmmy, only enable if needed
-#pragma warning disable CS0162 // Unreachable code detected
-                    if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} ==> s:{sourceID} (SOURCES)");
-#pragma warning restore CS0162 // Unreachable code detected
-                    data["sourceID"] = sourceID;
-                    CaptureForSOURCED(data, "sourceID", sourceID);
-                    return;
+                    ItemAppearanceModifierID = artifactAppearance.ItemAppearanceModifierID;
                 }
+                else if (data.TryGetValue("ItemAppearanceModifierID", out var ItemAppearanceModifierIDObj)) ItemAppearanceModifierID = (long)ItemAppearanceModifierIDObj;
 
                 // Attempt to get the SourceID from the ItemModifiedAppearanceDB
+                long? ItemModifiedAppearanceID = null;
+                ItemModifiedAppearance itemModifiedAppearance = null;
                 if (TryGetTypeDBObjectCollection<ItemModifiedAppearance>((long)sourceIDKey, out var itemModifiedAppearances))
                 {
-                    // this would need to be revised to ever work with modID/bonusID
-                    sourceID = itemModifiedAppearances.FirstOrDefault(x => x.ItemAppearanceModifierID == 0)?.ID ?? 0;
-                    if (sourceID > 0)
+                    // Try to find the best match for the item appearance modifier ID.
+                    long bestItemAppearanceModifierID = 9999;
+                    foreach (var itemModifiedAppearanceObj in itemModifiedAppearances)
                     {
-                        // quite spammmmmy, only enable if needed
-#pragma warning disable CS0162 // Unreachable code detected
-                        if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} ==> s:{sourceID} (ItemModifiedAppearanceDB)");
-#pragma warning restore CS0162 // Unreachable code detected
-                        data["sourceID"] = sourceID;
-                        CaptureForSOURCED(data, "sourceID", sourceID);
-                        return;
+                        if (itemModifiedAppearanceObj is ItemModifiedAppearance appearance)
+                        {
+                            // Well, we found the sourceID in the database. Let's report it.
+                            if (appearance.ID == sourceIDFromSourcesDB)
+                            {
+                                itemModifiedAppearance = appearance;
+                                break;
+                            }
+                            if (appearance.ItemAppearanceModifierID == ItemAppearanceModifierID)
+                            {
+                                // Set the selected default one to the matched appearance, but don't forget about the exact match.
+                                itemModifiedAppearance = appearance;
+                                bestItemAppearanceModifierID = -1;
+                            }
+                            else if (bestItemAppearanceModifierID > appearance.ItemAppearanceModifierID)
+                            {
+                                itemModifiedAppearance = appearance;
+                                bestItemAppearanceModifierID = appearance.ItemAppearanceModifierID;
+                            }
+                        }
+                    }
+                    if (itemModifiedAppearance != null)
+                    {
+                        ItemModifiedAppearanceID = itemModifiedAppearance.ID;
+                        if(itemModifiedAppearances.Count == 1)
+                        {
+                            // If its the only one, ignore it. This is common for old items that don't conform to modID/bonusID.
+                            ItemAppearanceModifierID = itemModifiedAppearance.ItemAppearanceModifierID;
+                        }
                     }
                 }
 
-                // quite spammmmmy, only enable if needed
-                if (DoSpammyDebugLogging && !data.ContainsKey("sourceID"))
-                    LogDebug($"INFO: Failed to match SourceID for Item {sourceIDKey}");
-
-                // don't "guess" any SourceID's in Retail. This makes it more clear when the harvested data is actually accurate or not
-                if (!Program.PreProcessorTags.ContainsKey("ANYCLASSIC"))
+                // Compare the appearance from the ItemModifiedAppearance database and the one from ours.
+                long? sourceID = sourceIDFromSourcesDB ?? ItemModifiedAppearanceID;
+                if (sourceID.HasValue && sourceID > 0)
                 {
-                    // the base itemID has a Source, but we didn't find one for this sourceIDKey...
-                    if (SOURCES_PER_ITEMID.ContainsKey((long)sourceIDKey) && !data.ContainsKey("_unsorted") && CurrentParseStage != ParseStage.UnsortedGeneration)
-                    {
-                        LogWarn($"Failed to match SourceID for Item {sourceIDKey}", data);
-                    }
-                    return;
-                }
-
-                // Find the best match sourceID for this item. (this is gonna be slow!)
-                if ((long)Math.Floor(sourceIDKey) is long itemID
-                    && itemID == (long)sourceIDKey  // This is only applicable in cases where no modID or bonusID are present.
-                    && SOURCES_PER_ITEMID.TryGetValue(itemID, out ConcurrentDictionary<decimal, long> sources))
-                {
-                    sourceID = sources[sources.Keys.First()];
-                    if (sources.Count == 1)
-                    {
-                        // If there's only one sourceID, then assign it. Probably some dumb missing modID or something.
-                        // quite spammmmmy, only enable if needed
 #pragma warning disable CS0162 // Unreachable code detected
-                        if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} (WATERFALL-SINGLE) ==> s:{sourceID}");
+                    // Details regarding how the selected SourceID was reached.
+                    string message = ItemModifiedAppearanceID.ToString();
+                    if (NestedBonusID > 0) message = $"{message} [BonusID: {NestedBonusID}]";
+                    if (NestedModID > 0) message = $"{message} [ModID: {NestedModID}]";
+
+                    bool substituted = false;
+                    message = $"{message} [ModifierID: {ItemAppearanceModifierID}]";
+                    if (itemModifiedAppearance != null && itemModifiedAppearance.ItemAppearanceModifierID != ItemAppearanceModifierID)
+                    {
+                        message = $"{message} Assign: {{ [\"ItemAppearanceModifierID\"] = {itemModifiedAppearance.ItemAppearanceModifierID} }}";
+                        substituted = true;
+                    }
+
+                    if (sourceIDFromSourcesDB.HasValue)
+                    {
+                        if (ItemModifiedAppearanceID != sourceIDFromSourcesDB)
+                        {
+                            // If we found a modified appearance, then report the difference.
+                            if (itemModifiedAppearance != null)
+                            {
+                                LogWarn($"Item:{sourceIDKey} SourceID {sourceIDFromSourcesDB} != {message}");
+                            }
+                        }
+                        else if (substituted)
+                        {
+                            // Report when we found a matching sourceID to the SourceID database, but 
+                            LogWarn($"Item:{sourceIDKey} SourceID == {message}");
+                        }
+                        else if (DoSpammyDebugLogging)
+                        {
+                            LogDebug($"INFO: Item:{sourceIDKey} SourceID == {message}");
+                        }
+                    }
+                    else if (substituted) LogWarn($"Item:{sourceIDKey} Using SourceID from {message}");
+                    else if(DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} Using SourceID from {message}");
 #pragma warning restore CS0162 // Unreachable code detected
-                        data["sourceID"] = sourceID;
-                        CaptureForSOURCED(data, "sourceID", sourceID);
-                        return;
-                    }
 
-                    // If there is more than one, but they're all the same, just grab the first one.
-                    bool theyAllMatch = true;
-                    foreach (var pair in sources)
-                    {
-                        if (pair.Value == sourceID) continue;
-                        theyAllMatch = false;
-                        break;
-                    }
-                    if (theyAllMatch)
-                    {
-                        // If there's only one unique sourceID, then assign it. Probably some dumb missing modID or something.
-                        // quite spammmmmy, only enable if needed
+                    // quite spammmmmy, only enable if needed
 #pragma warning disable CS0162 // Unreachable code detected
-                        if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} (WATERFALL-MATCHING) ==> s:{sourceID}");
-#pragma warning restore CS0162 // Unreachable code detected
-                        data["sourceID"] = sourceID;
-                        CaptureForSOURCED(data, "sourceID", sourceID);
-                        return;
-                    }
-
-                    // Lastly, if there are no other matches, then the lowest modID version is the default value, use that.
-                    var keys = sources.Keys.ToList();
-                    keys.Sort();
-                    sourceID = sources[keys.First()];
-
-                    // If there's only one sourceID, then assign it. Probably some dumb missing modID or something.
-                    // Definitely report these assignments since they're likely wrong and require harvesting to fix
-#pragma warning disable CS0162 // Unreachable code detected
-                    if (DoSpammyDebugLogging) LogWarn($"Item:{sourceIDKey} (WATERFALL-GUESS) ==> s:{sourceID}", data);
+                    if (DoSpammyDebugLogging) LogDebug($"INFO: Item:{sourceIDKey} ==> s:{sourceID} ({sourceIDFromSourcesDB}:{ItemModifiedAppearanceID})");
 #pragma warning restore CS0162 // Unreachable code detected
                     data["sourceID"] = sourceID;
                     CaptureForSOURCED(data, "sourceID", sourceID);
+                    return;
                 }
             }
 
