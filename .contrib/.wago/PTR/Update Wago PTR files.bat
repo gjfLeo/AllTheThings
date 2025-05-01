@@ -27,9 +27,9 @@ if not exist "%1.%BUILD%.csv" (
 		del /Q "%1*.csv"
 	)
 	if "%1" == "WorldMapOverlay" (
-		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/worldmapoverlay/csv?build=%BUILD%"
+		curl -o "%1.csv" "https://wago.tools/db2/worldmapoverlay/csv?build=%BUILD%"
 	) else (
-		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv?build=%BUILD%"
+		curl -o "%1.csv" "https://wago.tools/db2/%1/csv?build=%BUILD%"
 	)
 )
 exit /b
