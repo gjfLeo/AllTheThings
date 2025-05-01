@@ -566,18 +566,13 @@ namespace ATT
             }
 
             // Cache the state of values that are inherited from parent objects to their children.
-            var cachedParentGroup = CurrentParentGroup;
+            
             var cachedDifficultyRoot = DifficultyRoot;
             long cachedDifficulty = NestedDifficultyID;
             long cachedHeaderID = NestedHeaderID;
             long cachedItemAppearanceModifierID = NestedItemAppearanceModifierID;
             long cachedBonusID = NestedBonusID;
             long cachedModID = NestedModID;
-            long cachedMinLevel = NestedMinLvl;
-
-            // Track the hierarchy of lvl
-            long dataLvl = GetDataMinLvl(data);
-            if (dataLvl > NestedMinLvl) NestedMinLvl = dataLvl;
 
             // Track the hierarchy of difficultyID
             if ((data.TryGetValue("_multiDifficultyID", out long nestedDiffID) || data.TryGetValue("difficultyID", out nestedDiffID)) && nestedDiffID != NestedDifficultyID)
@@ -637,7 +632,6 @@ namespace ATT
             }
 
             /*
-            if (NestedMinLvl != cachedMinLevel) LogDebug($"INFO: Entered MinLevel Context: {NestedMinLvl}");
             if (NestedHeaderID != cachedHeaderID) LogDebug($"INFO: Entered HeaderID Context: {NestedHeaderID}");
             if (NestedDifficultyID != cachedDifficulty) LogDebug($"INFO: Entered DifficultyID Context: {NestedDifficultyID}");
             if (NestedModID != cachedModID) LogDebug($"INFO: Entered ModID Context: {NestedModID}");
@@ -656,6 +650,17 @@ namespace ATT
                 // If this container has groups, then process those groups as well.
                 if (data.TryGetValue("g", out List<object> groups))
                 {
+                    // Cache the state of values that are inherited from parent objects to their children.
+                    var cachedParentGroup = CurrentParentGroup;
+                    long cachedMinLevel = NestedMinLvl;
+
+                    // Track the hierarchy of lvl
+                    long? dataLvl = GetDataMinLevel(data);
+                    if (dataLvl.HasValue && dataLvl > NestedMinLvl) NestedMinLvl = dataLvl.Value;
+                    /*
+                    if (NestedMinLvl != cachedMinLevel) LogDebug($"INFO: Entered MinLevel Context: {NestedMinLvl}");
+                    */
+
                     // Update the Current Parent Group
                     if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
                         CurrentParentGroup = new KeyValuePair<string, object>(objectData.ObjectType, objKeyValue);
@@ -666,6 +671,14 @@ namespace ATT
                     // Parent field consolidation now that groups have been processed
                     if (CurrentParseStage >= ParseStage.Consolidation)
                         HierarchicalFieldAdjustments.Apply(data, groups);
+
+                    /*
+                    if (NestedMinLvl != cachedMinLevel) LogDebug($"INFO: Left MinLevel Context: {NestedMinLvl}");
+                    */
+
+                    // Restore Previous Context
+                    NestedMinLvl = cachedMinLevel;
+                    CurrentParentGroup = cachedParentGroup;
                 }
             }
             else success = false;
@@ -676,18 +689,15 @@ namespace ATT
             if (NestedModID != cachedModID) LogDebug($"INFO: Left ModID Context: {NestedModID}");
             if (NestedDifficultyID != cachedDifficulty) LogDebug($"INFO: Left DifficultyID Context: {NestedDifficultyID}");
             if (NestedHeaderID != cachedHeaderID) LogDebug($"INFO: Left HeaderID Context: {NestedHeaderID}");
-            if (NestedMinLvl != cachedMinLevel) LogDebug($"INFO: Left MinLevel Context: {NestedMinLvl}");
             */
 
             // Restore the Cached Context of the parent object.
-            NestedMinLvl = cachedMinLevel;
             NestedModID = cachedModID;
             NestedBonusID = cachedBonusID;
             NestedItemAppearanceModifierID = cachedItemAppearanceModifierID;
             NestedHeaderID = cachedHeaderID;
             NestedDifficultyID = cachedDifficulty;
             DifficultyRoot = cachedDifficultyRoot;
-            CurrentParentGroup = cachedParentGroup;
 
             // Report context changes.
             if (ShouldReportContextChanges)
@@ -4293,24 +4303,6 @@ namespace ATT
                     }
                 }
             }
-        }
-
-        private static long GetDataMinLvl(IDictionary<string, object> data)
-        {
-            // If the level of this object is less than the current minimum level, we can safely remove it.
-            if (data.TryGetValue("lvl", out object lvlRef))
-            {
-                if (lvlRef is List<object> lvls)
-                {
-                    return Convert.ToInt64(lvls[0]);
-                }
-                else
-                {
-                    return Convert.ToInt64(lvlRef);
-                }
-            }
-
-            return 1;
         }
 
         /// <summary>
