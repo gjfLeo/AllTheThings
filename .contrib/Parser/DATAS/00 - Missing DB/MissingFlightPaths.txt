@@ -1,3 +1,0 @@
-11.1.7.60520
-fp(3005),	-- Quest Path 10165: 0.x Generic - Taxi - Cross Continent Load Spline Test (LAS)
-fp(3122),	-- Quest Path 10677: 11.1.7 Lorewalking - Xal - Q2 - Vehicle - Summon - stormsong to drustvar - Quest Taxi Version (LAS)
