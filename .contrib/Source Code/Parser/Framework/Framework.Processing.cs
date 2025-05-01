@@ -575,10 +575,6 @@ namespace ATT
             long cachedModID = NestedModID;
             long cachedMinLevel = NestedMinLvl;
 
-            // Update the Current Parent Group
-            if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
-                CurrentParentGroup = new KeyValuePair<string, object>(objectData.ObjectType, objKeyValue);
-
             // Track the hierarchy of lvl
             long dataLvl = GetDataMinLvl(data);
             if (dataLvl > NestedMinLvl) NestedMinLvl = dataLvl;
@@ -660,14 +656,16 @@ namespace ATT
                 // If this container has groups, then process those groups as well.
                 if (data.TryGetValue("g", out List<object> groups))
                 {
+                    // Update the Current Parent Group
+                    if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue))
+                        CurrentParentGroup = new KeyValuePair<string, object>(objectData.ObjectType, objKeyValue);
+
                     // Process all relative groups to this object.
                     Process(groups, data);
 
                     // Parent field consolidation now that groups have been processed
                     if (CurrentParseStage >= ParseStage.Consolidation)
                         HierarchicalFieldAdjustments.Apply(data, groups);
-
-
                 }
             }
             else success = false;
