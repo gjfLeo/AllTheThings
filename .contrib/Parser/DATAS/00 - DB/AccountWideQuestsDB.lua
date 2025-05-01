@@ -1856,5 +1856,7 @@ ExportDB.AccountWideQuestsDB = {
 	[89027] = true,	-- Fast Food
 	[89250] = true,
 	[89401] = true,	-- First weekly Gobfather account kill for warbound loot
+	[90597] = true,	-- Arsenal: Children's Stormwind Guard Weapon Set
+	[90598] = true,	-- Arsenal: Children's Orgrimmar Guard Weapon Set
 	-- #ENDIF
 }
