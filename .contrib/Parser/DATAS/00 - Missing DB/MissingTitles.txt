@@ -1,0 +1,4 @@
+11.1.7.60520
+title(629),	-- %s of Hammerfall
+title(630),	-- %s of Stromgarde
+title(636),	-- %s the Triple Threat

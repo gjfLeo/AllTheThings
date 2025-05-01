@@ -111,8 +111,8 @@ def get_available_expansions(patch: str) -> dict[str, str]:
         print("11.0.0-11.1.0 :", patch)
     elif version.parse(patch) < version.parse("11.1.7.99999"):
         expansion_dict = {
-            #"PTR": "ptr",
-            "PTR2": "ptr-2",
+            "PTR": "ptr",
+            #"PTR2": "ptr-2",
         }
         print("11.1.5 :", patch)
     return expansion_dict
