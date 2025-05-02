@@ -908,27 +908,6 @@ root(ROOTS.Unsorted, {
 			filter(COSMETIC, {
 				i(237502),	-- Puzzling Cartel Chip
 			}),
-			n(DELVERS_DIRIGIBLE_SCHEMATIC, {	-- Mount mods
-				-- D.R.I.V.E.
-				-- Employeee
-				i(232980),	-- Axel Sneakfoot (MM!)
-				i(232979),	-- Jaks Jabberjaw (MM!)
-				i(232978),	-- Louie Firehands (MM!)
-				-- MM?
-				i(232930),	-- Zaps Leadfoot
-				-- Dirigible
-				i(235697),	-- Delver's Dirigible Schematic: Alliance Decal (MM!)
-				i(235694),	-- Delver's Dirigible Schematic: Blue Paint (MM!)
-				i(235696),	-- Delver's Dirigible Schematic: Explorer Decal (MM!)
-				i(235688),	-- Delver's Dirigible Schematic: Fan (MM!)
-				i(235690),	-- Delver's Dirigible Schematic: Harpoon (MM!)
-				i(235698),	-- Delver's Dirigible Schematic: Horde Decal (MM!)
-				i(235689),	-- Delver's Dirigible Schematic: Kite (MM!)
-				i(235695),	-- Delver's Dirigible Schematic: Red Paint (MM!)
-				i(235693),	-- Delver's Dirigible Schematic: Rocket (MM!)
-				i(235692),	-- Delver's Dirigible Schematic: Thrusters (MM!)
-				i(235691),	-- Delver's Dirigible Schematic: Yellow Paint (MM!)
-			}),
 			filter(MISC, {	-- More known
 				-- Chestos
 				i(238207),	-- Nanny's Surge Dividends
@@ -947,12 +926,6 @@ root(ROOTS.Unsorted, {
 				i(234392),	-- Gallagio Loyalty Rewards Card: Black
 				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
 				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
-			}),
-			filter(MOUNTS, {
-				i(235659),	-- Midnight Butterfly (MOUNT!) [Trading Post?]
-				i(235554),	-- Midnight Darkmoon Charger (MOUNT!) [Trading Post?]
-				i(235557),	-- Snowy Darkmoon Charger (MOUNT!) [Trading Post?]
-				i(235658),	-- Spring Butterfly (MOUNT!) [Trading Post?]
 			}),
 			n(PVP, {	-- See Later...
 				i(232886),	-- Ensemble: Algari Warmonger's Cloth Armor
@@ -1028,19 +1001,7 @@ root(ROOTS.Unsorted, {
 				i(232869),	-- Arsenal: Elite Prized Gladiator's Weapons
 			}),
 		})),
-		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
-			filter(BATTLE_PETS, {
-				i(234905),	-- Mech-Friend Maya (PET!)
-				i(233057),	-- Rock Hound Mica (PET!)
-			}),
-		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
-			filter(TOYS, {
-				i(232303),	-- Unknown (TOY!)
-				i(232304),	-- Unknown (TOY!)
-				i(232307),	-- Unknown (TOY!)
-				i(232308),	-- Unknown (TOY!)
-			}),
 			-- Left Remaining To Darkal --
 			race(DRACTHYR_HORDE, {	-- New Dracthyr Starting Gear
 				i(232033),	-- Creche-Binder's Cord
