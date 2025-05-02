@@ -890,7 +890,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(88868),	-- Trashmaster Blazedump Trash
 			q(88832),	-- Scraps Trash
 			q(88860),	-- Globikus Trash
-			--q(),	-- Melbo The Magnificent Trash
+			q(88851, name(HEADERS.NPC, 229434)),	-- Melbo The Magnificent Trash
 			--q(),	-- The Junkmaker Trash
 			-- All
 			q(89478),	-- Guk Boomdog Trash first per week any difficulty

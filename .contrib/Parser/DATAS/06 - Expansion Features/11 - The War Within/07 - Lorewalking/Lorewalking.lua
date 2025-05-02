@@ -10,13 +10,13 @@ LOREWALKING = createHeader({
 });
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
-	n(LOREWALKING, {
+	n(LOREWALKING, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 } }, {
 		["groups"] = {
-			n(ACHIEVEMENTS, bubbleDown({ ["timeline"] = { ADDED_11_1_7 } }, {
+			n(ACHIEVEMENTS, {
 				ach(42188),	-- Lorewalking: Blade's Bane
 				ach(42187),	-- Lorewalking: Ethereal Wisdom
 				ach(42189),	-- Lorewalking: The Lich King
-			})),
+			}),
 		},
-	}),
-}))
+	})),
+}));
