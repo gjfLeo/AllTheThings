@@ -110,7 +110,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							["crs"] = { 62983 },	-- Lei Shi
 							["g"] = {
 								i(89277, {	-- Shoulders of the Shadowy Conqueror
+									-- #if AFTER 7.2.0
 									["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+									-- #endif
 								}),
 								i(89278),	-- Shoulders of the Shadowy Protector
 								i(89276),	-- Shoulders of the Shadowy Vanquisher
@@ -140,7 +142,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							["crs"] = { 60999 },	-- Sha of Fear
 							["g"] = {
 								i(89274, {	-- Helm of the Shadowy Conqueror
+									-- #if AFTER 7.2.0
 									["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+									-- #endif
 								}),
 								i(89275),	-- Helm of the Shadowy Protector
 								i(89273),	-- Helm of the Shadowy Vanquisher
@@ -318,7 +322,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 62983 },	-- Lei Shi
 						["g"] = {
 							i(89246, {	-- Shoulders of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89247),	-- Shoulders of the Shadowy Protector
 							i(89248),	-- Shoulders of the Shadowy Vanquisher
@@ -345,7 +351,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 60999 },	-- Sha of Fear
 						["g"] = {
 							i(89235, {	-- Helm of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89236),	-- Helm of the Shadowy Protector
 							i(89234),	-- Helm of the Shadowy Vanquisher
@@ -442,7 +450,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["g"] = {
 							ach(6733),	-- Heroic: Lei Shi
 							i(89262, {	-- Shoulders of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89263),	-- Shoulders of the Shadowy Protector
 							i(89261),	-- Shoulders of the Shadowy Vanquisher
@@ -479,7 +489,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },
 							}),
 							i(89259, {	-- Helm of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89260),	-- Helm of the Shadowy Protector
 							i(89258),	-- Helm of the Shadowy Vanquisher

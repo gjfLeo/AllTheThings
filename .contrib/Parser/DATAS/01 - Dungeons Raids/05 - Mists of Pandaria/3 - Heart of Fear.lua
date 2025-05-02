@@ -138,7 +138,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							["crs"] = { 62397 },	-- Wind Lord Mel'jarak
 							["g"] = {
 								i(89271, {	-- Gauntlets of the Shadowy Conqueror
+									-- #if AFTER 7.2.0
 									["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+									-- #endif
 								}),
 								i(89272),	-- Gauntlets of the Shadowy Protector
 								i(89270),	-- Gauntlets of the Shadowy Vanquisher
@@ -155,7 +157,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							["crs"] = { 62511 },	-- Amber-Shaper Un'sok
 							["g"] = {
 								i(89268, {	-- Leggings of the Shadowy Conqueror
+									-- #if AFTER 7.2.0
 									["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+									-- #endif
 								}),
 								i(89269),	-- Leggings of the Shadowy Protector
 								i(89267),	-- Leggings of the Shadowy Vanquisher
@@ -175,7 +179,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							["crs"] = { 62837 },	-- Grand Empress Shek'zeer
 							["g"] = {
 								i(89265, {	-- Chest of the Shadowy Conqueror
+									-- #if AFTER 7.2.0
 									["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+									-- #endif
 								}),
 								i(89266),	-- Chest of the Shadowy Protector
 								i(89264),	-- Chest of the Shadowy Vanquisher
@@ -359,7 +365,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 62397 },	-- Wind Lord Mel'jarak
 						["g"] = {
 							i(89240, {	-- Gauntlets of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89241),	-- Gauntlets of the Shadowy Protector
 							i(89242),	-- Gauntlets of the Shadowy Vanquisher
@@ -376,7 +384,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 62511 },	-- Amber-Shaper Un'sok
 						["g"] = {
 							i(89243, {	-- Leggings of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89244),	-- Leggings of the Shadowy Protector
 							i(89245),	-- Leggings of the Shadowy Vanquisher
@@ -393,7 +403,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["crs"] = { 62837 },	-- Grand Empress Shek'zeer
 						["g"] = {
 							i(89237, {	-- Chest of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89238),	-- Chest of the Shadowy Protector
 							i(89239),	-- Chest of the Shadowy Vanquisher
@@ -493,7 +505,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["g"] = {
 							ach(6728),	-- Heroic: Wind Lord Mel'jarak
 							i(89256, {	-- Gauntlets of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89257),	-- Gauntlets of the Shadowy Protector
 							i(89255),	-- Gauntlets of the Shadowy Vanquisher
@@ -511,7 +525,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["g"] = {
 							ach(6729),	-- Heroic: Amber-Shaper Un'sok
 							i(89253, {	-- Leggings of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89254),	-- Leggings of the Shadowy Protector
 							i(89252),	-- Leggings of the Shadowy Vanquisher
@@ -536,7 +552,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								["timeline"] = { ADDED_5_0_4, REMOVED_5_1_0 },
 							}),
 							i(89250, {	-- Chest of the Shadowy Conqueror
+								-- #if AFTER 7.2.0
 								["description"] = "Paladin completionists will want to turn this into the vendor since one piece can be awarded in any spec.",
+								-- #endif
 							}),
 							i(89251),	-- Chest of the Shadowy Protector
 							i(89249),	-- Chest of the Shadowy Vanquisher
