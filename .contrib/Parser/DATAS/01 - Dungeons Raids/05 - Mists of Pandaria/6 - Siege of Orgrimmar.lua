@@ -1913,10 +1913,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					i(105644),	-- Xal'atoh, Desecrated Image of Gorehowl Mythic WF
 				}),
 			}),
+			-- #if AFTER 6.0.1
 			d(DIFFICULTY.RAID.LFR, {	-- Queue NPC
 				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
 			}),
+			-- #endif
 			d(DIFFICULTY.RAID.LFR, {
 				header(HEADERS.Item, 104275, {	-- Twisted Treasures of the Vale
 					["description"] = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Siege of Orgrimmar.",

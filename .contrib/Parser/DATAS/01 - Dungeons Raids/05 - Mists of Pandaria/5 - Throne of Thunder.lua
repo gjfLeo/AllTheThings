@@ -215,10 +215,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(96340),	-- Vaultwalker Sabatons
 				}),
 			}),
+			-- #if AFTER 6.0.1
 			d(DIFFICULTY.RAID.FINDER, {	-- Queue NPC
 				["crs"] = { 80633 },	-- Lorewalker Han <Raid Finder Storyteller>
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
 			}),
+			-- #endif
 			d(DIFFICULTY.RAID.FINDER, {
 				header(HEADERS.Item, 95343, {	-- Treasures of the Thunder
 					-- Could sym it to every Throne boss for MOP Classic
