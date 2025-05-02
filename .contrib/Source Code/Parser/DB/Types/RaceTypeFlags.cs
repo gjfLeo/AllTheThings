@@ -8,14 +8,14 @@ namespace ATT.DB.Types
         HUMAN = 0x1,
         ORC = 0x2,
         DWARF = 0x4,
-        NIGHTELF = 0x8, // Guessing, there isn't an Night Elf specific item in the game
+        NIGHTELF = 0x8, // Guessing, there isn't a Night Elf specific item in the game
         UNDEAD = 0x10,  // Guessing, there isn't an Undead specific item in the game
         TAUREN = 0x20,
         GNOME = 0x40,
         TROLL = 0x80,
         GOBLIN = 0x100,
         BLOODELF = 0x200,
-        DRAENEI = 0x400,    // Guessing, there isn't an Undead specific item in the game
+        DRAENEI = 0x400,    // Guessing, there isn't a Draenei specific item in the game
         WORGEN,
         PANDAREN_NEUTRAL,
         PANDAREN_ALLIANCE,
