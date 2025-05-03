@@ -304,6 +304,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					i(87411),	-- Plans: Bloodforged Warfists (RECIPE!)
 					i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
 					i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
+					i(86042),	-- Jade Charioteer Figurine
+					i(86043),	-- Jade Bandit Figurine
+					i(86044),	-- Jade Magistrate Figurine
+					i(86045),	-- Jade Courtesan Figurine
+					i(86046),	-- Jade Warlord Figurine
 				}),
 				e(679, {	-- The Stone Guard
 					["crs"] = {
@@ -371,13 +376,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL, {
 				["ignoreBonus"] = true,
 				["g"] = {
-					n(ZONE_DROPS, {
-						i(86042),	-- Jade Charioteer Figurine
-						i(86043),	-- Jade Bandit Figurine
-						i(86044),	-- Jade Magistrate Figurine
-						i(86045),	-- Jade Courtesan Figurine
-						i(86046),	-- Jade Warlord Figurine
-					}),
 					e(679, {	-- The Stone Guard
 						["crs"] = {
 							60047,	-- Amethyst Guardian
