@@ -21,6 +21,7 @@ RAID_FLEXIBLE_VENDOR = createHeader({
 	text = {
 		en = "Flexible Vendor",
 		--[[
+		-- CRIEVE NOTE: I'll need to wait until after MOP Classic launch populates https://www.wowhead.com/mop-classic/de/npc=74022/thelett-shaleheart
 		de = "",
 		es = "",
 		mx = "",
@@ -56,18 +57,16 @@ RAID_HEROIC_VENDOR = createHeader({
 	icon = 311235,
 	text = {
 		en = "Heroic Vendor",
-		--[[
-		de = "",
-		es = "",
-		mx = "",
-		fr = "",
-		it = "",
-		pt = "",
-		ru = "",
-		ko = "",
-		cn = "",
-		tw = "",
-		]]--
+		de = "Händlerin für heroische Schlachtzüge",
+		es = "Vendedora heroica",
+		mx = "Vendedor de modo heroico",
+		fr = "Marchande d’équipement héroïque",
+		it = "Mercante Eroica",
+		pt = "Comerciante Heroico",
+		ru = "Награды за рейд в героическом режиме",
+		ko = "영웅급 상인",
+		cn = "英雄副本商人",
+		tw = "英雄模式商人",
 	},
 });
 RAID_MYTHIC_VENDOR = createHeader({
@@ -75,18 +74,16 @@ RAID_MYTHIC_VENDOR = createHeader({
 	icon = 311237,
 	text = {
 		en = "Mythic Vendor",
-		--[[
-		de = "",
-		es = "",
-		mx = "",
-		fr = "",
-		it = "",
-		pt = "",
-		ru = "",
-		ko = "",
-		cn = "",
-		tw = "",
-		]]--
+		de = "Händlerin für mythische Schlachtzüge",
+		es = "Vendedora mítica",
+		mx = "Vendedor de modo mítico",
+		fr = "Marchande d’équipement mythique",
+		it = "Mercante Mitica",
+		pt = "Comerciante Mítico",
+		ru = "Награды за рейд в эпохальном режиме",
+		ko = "신화 공격대 상인",
+		cn = "史诗副本商人",
+		tw = "傳奇模式商人",
 	},
 });
 
