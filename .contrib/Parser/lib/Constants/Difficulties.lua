@@ -200,7 +200,7 @@ DifficultyDB = {
 	[DIFFICULTY.LEGACY_RAID.PLAYER10_HEROIC] = { icon = 311235, modID = 1 },
 	[DIFFICULTY.LEGACY_RAID.PLAYER25_HEROIC] = { icon = 311235, modID = 1 },
 	[DIFFICULTY.LEGACY_RAID.FLEXIBLE] = { icon = 311236, modID = 1 },
-	[DIFFICULTY.LEGACY_RAID.FINDER] = { icon = 308480, modID = 1 },
+	[DIFFICULTY.LEGACY_RAID.FINDER] = { icon = [[~_.asset("Category_CommonBossDrop")]], modID = 1 },
 	[DIFFICULTY.RAID.NORMAL] = { icon = 311236, modID = 3 },
 	[DIFFICULTY.RAID.HEROIC] = { icon = 311235, modID = 5 },
 	[DIFFICULTY.RAID.MYTHIC] = { icon = 311237, modID = 6 },
