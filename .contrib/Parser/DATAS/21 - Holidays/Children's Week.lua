@@ -734,6 +734,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 			["races"] = HORDE_ONLY,
 			["isYearly"] = true,
 			["lvl"] = lvlsquish(60, 60, 10),
+			["groups"] = {
+				i(31880),	-- Blood Elf Orphan Whistle
+			},
 		}),
 		q(172, {	-- Children's Week [Horde - Orc - START]
 			["providers"] = {
@@ -758,6 +761,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 			["races"] = HORDE_ONLY,
 			["isYearly"] = true,
 			["lvl"] = lvlsquish(10, 10, 10),
+			["groups"] = {
+				i(18597),	-- Orcish Orphan Whistle
+			},
 		}),
 		q(53965, {	-- Children's Week [Horde - Zandalari - START]
 			["qg"] = 131346,	-- Caretaker Padae
@@ -773,6 +779,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 			["races"] = HORDE_ONLY,
 			["isYearly"] = true,
 			["lvl"] = lvlsquish(110, 110, 10),
+			["groups"] = {
+				i(164965),	-- Casteless Zandalari Whistle
+			},
 		}),
 		q(29093, {	-- Cruisin' the Chasm [Alliance - Human]
 			["providers"] = {
@@ -1042,6 +1051,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 			["timeline"] = { ADDED_3_0_2 },
 			["isYearly"] = true,
 			["lvl"] = lvlsquish(72, 72, 10),
+			["groups"] = {
+				i(46396),	-- Wolvar Orphan Whistle
+			},
 		}),
 		q(13926, {	-- Little Orphan Roo Of The Oracles [Neutral - Oracles - START]
 			["providers"] = {
@@ -1053,6 +1065,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 			["timeline"] = { ADDED_3_0_2 },
 			["isYearly"] = true,
 			["lvl"] = lvlsquish(72, 72, 10),
+			["groups"] = {
+				i(46397),	-- Oracle Orphan Whistle
+			},
 		}),
 		q(53966, {	-- Loa of Winds [Horde - Zandalari]
 			["providers"] = {

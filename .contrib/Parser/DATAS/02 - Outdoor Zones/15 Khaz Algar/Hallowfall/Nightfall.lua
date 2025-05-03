@@ -18,7 +18,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				n(ACHIEVEMENTS, {
 					ach(41999),	-- Fighter of the Nightman
 					ach(41996),	-- I'm Doing My Part
-					ach(41997),	-- Owner of a Radiant Heart
 					ach(41998),	-- Turning the Venom Tide
 				}),
 				n(QUESTS, {
