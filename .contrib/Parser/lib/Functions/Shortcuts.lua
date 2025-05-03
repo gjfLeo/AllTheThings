@@ -866,11 +866,9 @@ achraw = function(id, altID, t)							-- Create an ACHIEVEMENT Object whose Crit
 end
 explorationAch = function(id, t)						-- Create an EXPLORATION ACHIEVEMENT Object
 	t = struct("achievementID", id, t or {});
-	-- #if ANYCLASSIC
+	-- #if BEFORE WRATH
 	t.OnClick = [[_.CommonAchievementHandlers.EXPLORATION_OnClick]];
 	t.OnUpdate = [[_.CommonAchievementHandlers.EXPLORATION_OnUpdate]];
-	-- #else
-	t.sym = {{ "achievement_criteria" }};
 	-- #endif
 	return t;
 end

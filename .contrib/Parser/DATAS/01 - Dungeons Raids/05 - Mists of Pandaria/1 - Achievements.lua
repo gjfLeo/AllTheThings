@@ -6,7 +6,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 		ach(6924, {	-- 100,000 Valor Points
 			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 		}),
-		ach(6927, {		-- Glory of the Pandaria Hero
+		ach(6927, {	-- Glory of the Pandaria Hero
 			["sym"] = {{"meta_achievement",
 				6925,	-- Pandaria Dungeon Hero
 				6460,	-- Hydrophobia
