@@ -1112,7 +1112,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					["sym"] = {{"select","npcID",90866},{"pop"}},	-- Tinkmaster Overspark <Chief Architect of Gnomish Engineering>
 				}),
 			}),
-			d(CURRENT_ALL_DIFFICULTIES, {				-- All Difficulties
+			d(CURRENT_ALL_DIFFICULTIES, {				-- All Difficulties (Also placeholders for achievement criteria, do not delete!)
 				cr(71543, e(852, {	-- Immerseus
 					
 				})),

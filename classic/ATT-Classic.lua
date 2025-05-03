@@ -1188,7 +1188,7 @@ local function GetSearchResults(method, paramA, paramB, ...)
 			local usedToBuy = app.CreateNPC(app.HeaderConstants.VENDORS);
 			if not usedToBuy.g then usedToBuy.g = {}; end
 			for i,o in ipairs(costResults) do
-				if o.key == "instanceID" or ((o.key == "difficultyID" or o.key == "mapID" or o.key == "headerID") and (o.parent and GetRelativeValue(o.parent, "instanceID"))) then
+				if o.key == "instanceID" or ((o.key == "difficultyID" or o.key == "mapID" or o.key == "headerID") and (o.parent and GetRelativeValue(o.parent, "instanceID")) and not o[o.key] == app.HeaderConstants.REWARDS) then
 					if app.Settings.Collectibles.Quests then
 						local d = CloneClassInstance(o);
 						d.sourceParent = o.parent;
