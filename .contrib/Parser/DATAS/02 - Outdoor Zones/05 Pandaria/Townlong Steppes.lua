@@ -1483,8 +1483,9 @@ root(ROOTS.Zones, {
 						["coord"] = { 71.4, 57.2, TOWNLONG_STEPPES },
 						["sym"] = {{"sub","common_vendor",61749}},	-- The Metal Paw <Adventuring Supplies>
 					}),
-					n(70346, {	-- Ao Pye <Shado-Pan Assault Quartermaster>
+					applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, n(70346, {	-- Ao Pye <Shado-Pan Assault Quartermaster>
 						["coord"] = { 38.0, 64.6, TOWNLONG_STEPPES },
+						["timeline"] = { ADDED_5_2_0 },
 						["g"] = bubbleDownClassicRep(FACTION_SHADO_PAN_ASSAULT, {
 							{		-- Neutral
 								i(95146),	-- Destroyer's Battletags
@@ -1577,9 +1578,6 @@ root(ROOTS.Zones, {
 								i(94511),	-- Vicious Talisman of the Shado-Pan Assault
 								i(94510),	-- Volatile Talisman of the Shado-Pan Assault
 								i(95085),	-- Waistplate of Channeled Mending
-								i(95100, {	-- Wallwalker Spaulders
-									["cost"] = 10000000,	-- 1,000g
-								}),
 								i(95133),	-- Willow-Weave Armbands
 								i(95122, {	-- Wisp-Weave Pantaloons
 									["cost"] = 5179700,	-- 517g 97s
@@ -1615,9 +1613,12 @@ root(ROOTS.Zones, {
 								i(95095, {	-- Targetblinder Spaulders
 									["cost"] = 10000000,	-- 1,000g
 								}),
+								i(95100, {	-- Wallwalker Spaulders
+									["cost"] = 10000000,	-- 1,000g
+								}),
 							},
 						}),
-					}),
+					})),
 					n(64607, {	-- Commander Lo Ping <Justice Quartermaster>
 						["coord"] = { 37.8, 64.6, TOWNLONG_STEPPES },
 						-- all items are available via faction vendors in/near main city
