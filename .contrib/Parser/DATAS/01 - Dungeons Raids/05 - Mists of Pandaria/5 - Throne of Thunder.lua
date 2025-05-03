@@ -63,7 +63,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["_encounter"] = { 832, DIFFICULTY.LEGACY_RAID.FINDER },
 					}),
 				}),
-				ach(8124, {		-- Glory of the Thundering Raider
+				ach(8124, {	-- Glory of the Thundering Raider
 					-- Meta Achievement
 					["sym"] = {{"meta_achievement",
 						8056,	-- Heroic: Jin'rokh the Breaker
@@ -94,7 +94,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						i(93662),	-- Armored Skyscreamer (MOUNT!)
 					},
 				}),
-				ach(11758),	-- Thunderwear
+				ach(11758, {["timeline"] = {ADDED_7_2_0}}),	-- Thunderwear
 				ach(8210),	-- Shado-Pan Assault
 
 				-- Guild Achievements

@@ -621,6 +621,7 @@ root(ROOTS.Unsorted, {
 				i(245543),	-- Flotsam Harvester
 				i(245574),	-- Lil' Daz'ti
 			}),
+			-- #if AFTER 7.1.0.22908
 			n(GREEDY_EMISSARY_EVENT, {
 				i(245589),	-- Hellcaller Chest
 				i(245590),	-- Magma Elixir
@@ -667,6 +668,7 @@ root(ROOTS.Unsorted, {
 				i(245899),	-- Bat's Grand Charm
 				i(245924),	-- Mongoose's Grand Charm
 			}),
+			-- #endif
 		})),
 		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 			n(SPECIAL, {	-- Horrific Revisited
