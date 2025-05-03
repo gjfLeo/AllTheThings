@@ -280,7 +280,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 		ach(1791, {	-- Home Alone
 			["timeline"] = { ADDED_3_0_2 },
 		}),
-		ach(1786, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- School of Hard Knocks
+		pvp(ach(1786, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- School of Hard Knocks
 			crit(6643, {	-- Assault a flag in Arathi Basin
 				["maps"] = {
 					ARATHI_BASIN,
@@ -307,7 +307,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 					1339,	-- Warsong Gulch
 				},
 			}),
-		})),
+		}))),
 		ach(275, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- Veteran Nanny
 			["maps"] = { SHATTRATH_CITY },
 			["groups"] = {
