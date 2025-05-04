@@ -224,6 +224,7 @@ root(ROOTS.Zones, {
 					["races"] = ALLIANCE_ONLY,
 					-- #endif
 				}),
+				-- #if BEFORE 5.0.4
 				ach(1680, {	-- Loremaster of Kalimdor (H)
 					-- #if AFTER CATA
 					["sym"] = {{"meta_achievement",
@@ -257,6 +258,7 @@ root(ROOTS.Zones, {
 					["timeline"] = { REMOVED_5_0_4 },
 					["races"] = HORDE_ONLY,
 				}),
+				-- #endif
 				petbattle(ach(6602, bubbleDownSelf({["timeline"] = { ADDED_5_0_4 } }, {	-- Taming Kalimdor
 					["races"] = HORDE_ONLY,
 					["g"] = {

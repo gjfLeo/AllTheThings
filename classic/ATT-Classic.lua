@@ -2339,6 +2339,10 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 							return app.GetQuestName(id);
 						end
 					end
+					local parent = t.parent;
+					if parent and parent.npcID then
+						return parent.text;
+					end
 					return "achievementID:" .. achievementID .. ":" .. criteriaID;
 				end
 			end

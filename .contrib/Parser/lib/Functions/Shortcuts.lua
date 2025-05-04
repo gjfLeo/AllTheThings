@@ -1374,15 +1374,9 @@ o_repeated = function(t, o)								-- Create a group which represents the shared
 	end
 	print("Could not find a group with an objectID value");
 end
--- #if ANYCLASSIC
-petbattle = function(t)									-- Pet Battle (ignored in Classic)
-	return t;
-end
--- #else
 petbattle = function(t)									-- Pet Battle (bubbleDown pb filter)
 	return bubbleDown({ ["pb"] = true }, t);
 end
--- #endif
 prof = function(skillID, t)								-- Create a PROFESSION Object
 	return struct("professionID", skillID, t);
 end

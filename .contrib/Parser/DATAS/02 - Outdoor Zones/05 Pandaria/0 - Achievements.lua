@@ -29,66 +29,12 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				6969,	-- Explore Valley of the Four Winds
 			}},
 		})),
-		ach(7281, {	-- Lost and Found
-			["rank"] = 1,
-		}),
-		ach(7282, {	-- Finders Keepers
-			["rank"] = 5,
-		}),
-		ach(7283, {	-- One Man's Trash...
-			["rank"] = 10,
-		}),
-		ach(7284, {	-- Is Another Man's Treasure
-			["rank"] = 20,
-			["groups"] = {
-				title(200),	-- the Relic Hunter
-			},
-		}),
-		ach(7285),	-- Every Day I'm Pand-a-ren
-		ach(7437, {	-- A Worthy Opponent
-			["sym"] = {{"achievement_criteria"}},
-			["rank"] = 1,
-		}),
-		ach(7438, {	-- Could We Find More Like That?
-			["sym"] = {{"achievement_criteria"}},
-			["rank"] = 8,
-		}),
-		ach(7439, {	-- Glorious!
-			["sym"] = {{"achievement_criteria"}},
-			["rank"] = 56,
-		}),
-		petbattle(ach(8518, {	-- Master of the Master
-			crit(23620),	-- Blingtron 4000
-			crit(23610),	-- Wrathion
-			crit(23611),	-- Lorewalker Cho
-			crit(23616),	-- Chen Stormstout
-			crit(23619),	-- Wise Mari
-			crit(23607),	-- Shademaster Kiryn
-			crit(23617),	-- Sully "The Pickle" McLeary
-			crit(23618),	-- Taran Zhu
-			crit(23621),	-- Dr. Ion Goldbloom
-			crit(23612),	-- Xu-Fu, Cub of Xuen
-			crit(23615),	-- Chi-Chi, Hatchling of Chi-Ji
-			crit(23614),	-- Zao, Calfling of Niuzao
-			crit(23613),	-- Yu'la, Broodling of Yu'lon
-		})),
 		ach(6828, {	-- Pandaren Ambassador (Alliance)
 			["races"] = ALLIANCE_ONLY,
 			["g"] = {
 				i(89785, {	-- Pandaren Kite (A) (MOUNT!)
 					["races"] = ALLIANCE_ONLY,
 				}),
-				--[[
-				crit(19389),		-- Golden Lotus
-				crit(19388),		-- The August Celestials
-				crit(18993),		-- Shado-Pan
-				crit(19390),		-- The Klaxxi
-				crit(19393),		-- The Lorewalkers
-				crit(19392),		-- The Anglers
-				crit(19391),		-- The Tillers
-				crit(19395),		-- Order of the Cloud Serpent
-				crit(19481),		-- Tushui Pandaren
-				]]--
 			},
 		}),
 		ach(6827, {	-- Pandaren Ambassador (Horde)
@@ -97,76 +43,9 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				i(81559, {	-- Pandaren Kite (H) (MOUNT!)
 					["races"] = HORDE_ONLY,
 				}),
-				--[[
-				crit(19389),		-- Golden Lotus
-				crit(19388),		-- The August Celestials
-				crit(18993),		-- Shado-Pan
-				crit(19390),		-- The Klaxxi
-				crit(19393),		-- The Lorewalkers
-				crit(19392),		-- The Anglers
-				crit(19391),		-- The Tillers
-				crit(19395),		-- Order of the Cloud Serpent
-				crit(19480),		-- Huojin Pandaren
-				]]--
 			},
 		}),
-		ach(6589, {	-- Pandaria Safari
-			crit(21823),		-- Alpine Foxling (Kun-Lai Summit, Townlong Steppes)
-			crit(21824),		-- Alpine Foxling Kit (Kun-Lai Summit, Townlong Steppes)
-			crit(21832),		-- Amber Moth (Townlong Steppes, Dread Wastes)
-			crit(21809),		-- Amethyst Spiderling (Krasarang Wilds)
-			crit(21798),		-- Bandicoon (Valley of the Four Winds, Suramar, The Veiled Stair, Azsuna, The Jade Forest)
-			crit(21799),		-- Bandicoon Kit (Valley of the Four Winds, The Jade Forest)
-			crit(21781),		-- Bucktooth Flapper (The Jade Forest, Stormheim, Val'sharah)
-			crit(21838),		-- Clouded Hedgehog (Dread Wastes, Townlong Steppes)
-			crit(21839),		-- Crunchy Scorpion (Dread Wastes, Townlong Steppes)
-			crit(21782),		-- Emerald Turtle (The Jade Forest, Valley of the Four Winds, Krasarang Wilds)
-			crit(21840),		-- Emperor Crab (Dread Wastes)
-			crit(21810),		-- Feverbite Hatchling (Krasarang Wilds)
-			crit(21784),		-- Garden Frog (The Jade Forest)
-			crit(21785),		-- Garden Moth (The Jade Forest)
-			crit(21833),		-- Grassland Hopper (Townlong Steppes)
-			crit(21786),		-- Grove Viper (The Jade Forest)
-			crit(21787),		-- Jumping Spider (The Jade Forest, Azsuna)
-			crit(21788),		-- Jungle Darter (The Jade Forest)
-			crit(21811),		-- Jungle Grub (Krasarang Wilds)
-			crit(21834),		-- Kuitan Mongoose (Townlong Steppes)
-			crit(21789),		-- Leopard Tree Frog (The Jade Forest, Gorgrond)
-			crit(21812),		-- Luyu Moth (Krasarang Wilds)
-			crit(21800),		-- Malayan Quillrat (Valley of the Four Winds, Krasarang Wilds, The Veiled Stair, The Jade Forest)
-			crit(21801),		-- Malayan Quillrat Pup (Valley of the Four Winds, The Veiled Stair)
-			crit(21802),		-- Marsh Fiddler (Valley of the Four Winds)
-			crit(21790),		-- Masked Tanuki (The Jade Forest)
-			crit(21791),		-- Masked Tanuki Pup (The Jade Forest)
-			crit(21814),		-- Mei Li Sparkler (Krasarang Wilds)
-			crit(21792),		-- Mirror Strider (The Jade Forest)
-			crit(21835),		-- Mongoose (Townlong Steppes)
-			crit(21836),		-- Mongoose Pup (Townlong Steppes)
-			crit(21825),		-- Plains Monitor (Kun-Lai Summit)
-			crit(21826),		-- Prairie Mouse (Kun-Lai Summit)
-			crit(21841),		-- Rapana Whelk (Azsuna, Stormheim)
-			crit(21843),		-- Resilient Roach (Dread Wastes)
-			crit(21793),		-- Sandy Petrel (The Jade Forest)
-			crit(21815),		-- Savory Beetle (Krasarang Wilds, Valley of the Four Winds)
-			crit(21640),		-- Sea Gull (Tanaris, Frostfire Ridge, Frostwall)
-			crit(21706),		-- Shore Crab (Westfall, Azshara, Borean Tundra, Twilight Highlands, Howling Fjord)
-			crit(21794),		-- Shrine Fly (The Jade Forest)
-			crit(21803),		-- Shy Bandicoon (Valley of the Four Winds)
-			crit(21797),		-- Sifang Otter (Valley of the Four Winds, Krasarang Wilds, The Jade Forest)
-			crit(21816),		-- Sifang Otter Pup (The Jade Forest, Krasarang Wilds)
-			crit(21842),		-- Silent Hedgehog (Dread Wastes, Townlong Steppes)
-			crit(21795),		-- Silkbead Snail (Gorgrond, Spires of ARak, The Jade Forest, Talador)
-			crit(21806),		-- Softshell Snapling (Valley of the Four Winds)
-			crit(21817),		-- Spiny Terrapin (Krasarang Wilds, The Jade Forest)
-			crit(21796),		-- Spirebound Crab (The Jade Forest)
-			crit(21827),		-- Summit Kid (Kun-Lai Summit)
-			crit(21828),		-- Szechuan Chicken (Kun-Lai Summit)
-			crit(21805),		-- Temple Snake (The Jade Forest)
-			crit(21829),		-- Tolai Hare (Kun-Lai Summit, Townlong Steppes)
-			crit(21830),		-- Tolai Hare Pup (Kun-Lai Summit)
-			crit(21837),		-- Yakrat (Townlong Steppes)
-			crit(21831),		-- Zooey Snake (Kun-Lai Summit)
-		}),
+		ach(6589),	-- Pandaria Safari (automated)
 		petbattle(ach(6616, {	-- Pandaria Tamer
 			crit(21494),		-- Dread Wastes
 			crit(21489),		-- The Jade Forest
@@ -176,10 +55,87 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 			crit(21495),		-- Vale of Eternal Blossoms
 			crit(21490),		-- Valley of the Four Winds
 		})),
+		petbattle(ach(6606)),	-- Taming Pandaria
+		ach(6926, {	-- Tranquil Master
+			title(203),	-- the Tranquil Master
+			crit(19136, {	-- Sha of Anger slain
+				["sourceQuests"] = { 32099 },	-- Sha of Anger
+			}),
+			crit(19668, {	-- Sha of Doubt
+				["_encounter"] = { 335, DIFFICULTY.DUNGEON.HEROIC },
+			}),
+			crit(18829, {	-- Sha of Despair
+				["sourceQuests"] = { 30273 },	-- In the House of the Red Crane
+			}),
+			crit(22274, {	-- Sha of Violence
+				["_encounter"] = { 685, DIFFICULTY.DUNGEON.HEROIC },
+			}),
+			crit(19374, {	-- Sha of Hatred
+				["sourceQuests"] = { 30968 },	-- The Sha of Hatred
+			}),
+			crit(19136, {	-- Sha of Anger
+				["_encounter"] = { 691, WORLD_BOSSES },
+			}),
+			crit(19913, {	-- Sha of Fear
+				["_encounter"] = { 709, DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC },
+			}),
+		}),
+		
+		-- Rare Hunting
+		ach(7437, {	-- A Worthy Opponent
+			["_noautomation"] = true,	-- Glorious! shows them all anyways
+			["rank"] = 1,
+		}),
+		ach(7438, {	-- Could We Find More Like That?
+			["_noautomation"] = true,	-- Glorious! shows them all anyways
+			["rank"] = 8,
+		}),
+		ach(7439, {	-- Glorious!
+			["rank"] = 56,
+		}),
+		
+		-- Daily Doing
+		ach(7285),	-- Every Day I'm Pand-a-ren
+		
+		-- Treasure Hunting
+		ach(7281, {	-- Lost and Found
+			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
+			["rank"] = 1,
+		}),
+		ach(7282, {	-- Finders Keepers
+			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
+			["rank"] = 5,
+		}),
+		ach(7283, {	-- One Man's Trash...
+			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
+			["rank"] = 10,
+		}),
+		ach(7284, {	-- Is Another Man's Treasure
+			["rank"] = 20,
+			["groups"] = {
+				title(200),	-- the Relic Hunter
+			},
+		}),
+		ach(7994, {	-- Treasure of Pandaria
+			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
+			["rank"] = 1,
+		}),
+		ach(7995, {	-- Fortune of Pandaria
+			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
+			["rank"] = 5,
+		}),
+		ach(7996, {	-- Bounty of Pandaria
+			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
+			["rank"] = 10,
+		}),
+		ach(7997),	-- Riches of Pandaria
+		ach(6858),	-- What Is Worth Fighting For
+		
+		
+		
+		
+		
 		ach(7997, {	-- Riches of Pandaria
-			ach(7996),	-- Bounty of Pandaria
-			ach(7995),	-- Fortune of Pandaria
-			ach(7994),	-- Treasure of Pandaria
 			o(213750, {	-- Saurok Stone Tablet
 				["questID"] = 31408,
 				["coord"] = { 71.0, 9.0, KRASARANG_WILDS },
@@ -316,15 +272,6 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				},
 			}),
 		}),
-		petbattle(ach(6606, {	-- Taming Pandaria
-			crit(21853),	-- Hyuna of the Shrines [The Jade Forest)
-			crit(21854),	-- Farmer Nishi [Valley of the Four Winds)
-			crit(21871),	-- Mo'ruk [Krasarang Wilds)
-			crit(21855),	-- Courageous Yon [Kun-Lai Summit)
-			crit(21870),	-- Seeker Zusshi [Townlong Steppes)
-			crit(21856),	-- Wastewalker Shu [Dread Wastes)
-			crit(21857),	-- Aki the Chosen [Vale of Eternal Blossoms)
-		})),
 		ach(6350, {	-- To All the Squirrels I Once Caressed?
 			crit(20817, {	-- Amethyst Spiderling
 				["provider"] = { "n", 64798 },	-- Amethyst Spiderling
@@ -395,31 +342,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				["maps"] = { TOWNLONG_STEPPES },
 			}),
 		}),
-		ach(6926, {	-- Tranquil Master
-			title(203),	-- the Tranquil Master
-			crit(19136, {	-- Sha of Anger slain
-				["sourceQuests"] = { 32099 },	-- Sha of Anger
-			}),
-			crit(19668, {	-- Sha of Doubt
-				["_encounter"] = { 335, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-			crit(18829, {	-- Sha of Despair
-				["sourceQuests"] = { 30273 },	-- In the House of the Red Crane
-			}),
-			crit(22274, {	-- Sha of Violence
-				["_encounter"] = { 685, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-			crit(19374, {	-- Sha of Hatred
-				["sourceQuests"] = { 30968 },	-- The Sha of Hatred
-			}),
-			crit(19136, {	-- Sha of Anger
-				["_encounter"] = { 691, WORLD_BOSSES },
-			}),
-			crit(19913, {	-- Sha of Fear
-				["_encounter"] = { 709, DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC },
-			}),
-		}),
-		ach(6858),	-- What Is Worth Fighting For
+		
 		ach(8078, {	-- Zul'Again
 			crit(22733, {	-- Zandalari Scouts Slain slain (10) (Townlong Steppes, Dread Wastes, Kun-Lai Summit, Krasarang Wilds, The Jade Forest)
 				["provider"] = { "n", 69768 },
