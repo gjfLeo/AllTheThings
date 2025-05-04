@@ -237,10 +237,15 @@ root(ROOTS.Holidays, applyevent(EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA, n(STR
 					i(19806),	-- Dezian Queenfish
 					i(19805),	-- Keefer's Angelfish
 					i(19808, {	-- Rockhide Strongfish
-						-- #if BEFORE LEGION
-						["description"] = "Keep this in your bank until Transmog is added, otherwise you'll need to obtain it again. Fair warning!",
-						-- #elseif AFTER TWW
-						["description"] = "Keep this in your bank until the appearance can be learned again, otherwise you'll need to obtain it again. Fair warning!",
+						["description"] = 
+							-- #if BEFORE LEGION
+							"Keep this in your bank until Transmog is added, otherwise you'll need to obtain it again. Fair warning!",
+							-- #elseif AFTER TWW
+							"Keep this in your bank until the appearance can be learned again, otherwise you'll need to obtain it again. Fair warning!",
+							-- #else
+							nil
+							-- #endif
+						-- #if AFTER TWW
 						["collectible"] = false,  -- remove when Blizzard fix fish collection
 						-- #endif
 					}),
