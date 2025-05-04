@@ -402,6 +402,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					},
 				}),
 			}),
+			d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {
+				ach(8439, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Challenge Master: Siege of Niuzao Temple
+					title(247),	-- Siegebreaker <Name>
+				})),
+				ach(6898),	-- Siege of Niuzao Temple Challenger
+				ach(6917),	-- Siege of Niuzao Temple: Bronze
+				ach(6918),	-- Siege of Niuzao Temple: Silver
+				ach(6919, {	-- Siege of Niuzao Temple: Gold
+					spell(131228),	-- Path of the Black Ox
+				}),
+			})),
 		},
 	})),
 })));

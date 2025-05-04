@@ -388,6 +388,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					},
 				}),
 			}),
+			d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {
+				ach(8432, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Challenge Master: Shado-Pan Monastery
+					title(246),	-- Purified Defender <Name>
+				})),
+				ach(6893),	-- Shado-Pan Monastery Challenger
+				ach(6902),	-- Shado-Pan Monastery: Bronze
+				ach(6903),	-- Shado-Pan Monastery: Silver
+				ach(6904, {	-- Shado-Pan Monastery: Gold
+					spell(131206),	-- Path of the Shado-Pan
+				}),
+			})),
 		},
 	})),
 })));

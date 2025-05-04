@@ -2472,6 +2472,19 @@ table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.HEROIC, {
 		}),
 	},
 }));
+-- #if AFTER 5.0.4
+table.insert(SCHOLOMANCE_GROUPS, d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {
+	ach(8438, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Challenge Master: Scholomance
+		title(245),	-- Darkmaster <Name>
+	})),
+	ach(6897),	-- Scholomance Challenger
+	ach(6914),	-- Scholomance: Bronze
+	ach(6915),	-- Scholomance: Silver
+	ach(6916, {	-- Scholomance: Gold
+		spell(131232),	-- Path of the Necromancer
+	}),
+})));
+-- #endif
 -- #endif
 
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {

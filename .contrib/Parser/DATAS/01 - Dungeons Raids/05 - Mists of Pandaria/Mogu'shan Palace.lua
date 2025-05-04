@@ -354,6 +354,17 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					},
 				}),
 			}),
+			d(DIFFICULTY.DUNGEON.CHALLENGE_MODE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {
+				ach(8433, bubbleDownSelf({ ["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 } }, {	-- Challenge Master: Mogu'shan Palace
+					title(242),	-- Mogu-Slayer <Name>
+				})),
+				ach(6892),	-- Mogu'shan Palace Challenger
+				ach(6899),	-- Mogu'shan Palace: Bronze
+				ach(6900),	-- Mogu'shan Palace: Silver
+				ach(6901, {	-- Mogu'shan Palace: Gold
+					spell(131222),	-- Path of the Mogu King
+				}),
+			})),
 		},
 	})),
 })));
