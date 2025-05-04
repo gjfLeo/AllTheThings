@@ -180,7 +180,9 @@ root(ROOTS.Zones, {
 					crit(21484),	-- The Storm Peaks
 					crit(21485),	-- Zul'Drak
 				}))),
-				petbattle(ach(6605, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }))),	-- Taming Northrend
+				petbattle(ach(6605, {	-- Taming Northrend
+					["timeline"] = { ADDED_5_0_4 },
+				})),
 				ach(2557, {	-- To All The Squirrels Who Shared My Life
 					-- #if ANYCLASSIC
 					crit(9299, {	-- Arctic Hare (Dragonblight, Zul'Drak, Borean Tundra)

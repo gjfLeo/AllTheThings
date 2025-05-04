@@ -9,7 +9,9 @@ root(ROOTS.Zones, {
 		["timeline"] = { ADDED_2_0_1 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				ach(1312, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } })),	-- Bloody Rare
+				ach(1312, {	-- Bloody Rare
+					["timeline"] = { ADDED_3_0_2 },
+				}),
 				ach(1262, {	-- Loremaster of Outland (A)
 					-- #if BEFORE WRATH
 					["OnClick"] = [[_.CommonAchievementHandlers.META_OnClick]],
@@ -112,7 +114,9 @@ root(ROOTS.Zones, {
 					crit(21471),	-- Terokkar Forest
 					crit(21476),	-- Zangarmarsh
 				}))),
-				petbattle(ach(6604, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }))),	-- Taming Outland
+				petbattle(ach(6604, {	-- Taming Outland
+					["timeline"] = { ADDED_5_0_4 },
+				})),
 			}),
 		},
 	})),
