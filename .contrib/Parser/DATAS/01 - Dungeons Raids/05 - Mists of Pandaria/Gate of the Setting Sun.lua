@@ -13,11 +13,20 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 				q(31363, {	-- Lighting the Way
 					["provider"] = { "n", 64467 },	-- Bowmistress Li
 					["coord"] = { 61.0, 88.2, 437 },
+					["groups"] = {
+						objective(1, {	-- 0/1 Light the Signal Flame
+							["provider"] = { "o", 211129 },	-- Signal Flame
+							["coord"] = { 47.2, 24.6, 437 },
+						}),
+					},
 				}),
 				q(31364, {	-- That's a Big Bug!
 					["provider"] = { "n", 64467 },	-- Bowmistress Li
 					["coord"] = { 61.0, 88.2, 437 },
 					["g"] = {
+						objective(1, {	-- 0/1 Raigonn slain
+							["provider"] = { "n", 56877 },	-- Raigonn
+						}),
 						i(87351),	-- Carapace Inlaid Drape
 						i(87352),	-- Cloak of the Unending Swarm
 						i(87353),	-- Cloak of Collective Thought
@@ -139,10 +148,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					["crs"] = { 56877 },	-- Raigonn
 					["g"] = {
 						-- Available
-						i(144101, {	-- Carapace Breaker
+						i(144218, {	-- Klatith, Fangs of the Swarm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144218, {	-- Klatith, Fangs of the Swarm
+						i(144101, {	-- Carapace Breaker
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144140, {	-- Impervious Carapace
@@ -320,10 +329,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						-- Available
 						ach(6759),	-- Heroic: Gate of the Setting Sun
 						ach(6768),	-- Heroic: Gate of the Setting Sun Guild Run
-						i(144101, {	-- Carapace Breaker
+						i(144218, {	-- Klatith, Fangs of the Swarm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144218, {	-- Klatith, Fangs of the Swarm
+						i(144101, {	-- Carapace Breaker
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144140, {	-- Impervious Carapace
@@ -355,10 +364,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						}),
 
 						-- Removed
-						i(81094, {	-- Carapace Breaker
+						i(87546, {	-- Klatith, Fangs of the Swarm
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(87546, {	-- Klatith, Fangs of the Swarm
+						i(81094, {	-- Carapace Breaker
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(81233, {	-- Impervious Carapace
