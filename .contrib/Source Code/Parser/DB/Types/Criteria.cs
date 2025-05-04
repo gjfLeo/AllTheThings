@@ -66,7 +66,9 @@ namespace ATT.DB.Types
             // Mythic Plus Completed
             Type == 216 ||
             // Learned as new pet (Account Only)
-            Type == 155;
+            Type == 155 ||
+            // Obtain a pet through battle (Account Only)
+            Type == 157;
 
         public long GetSourceQuest() =>
             Type == 27 ? Asset : 0;
