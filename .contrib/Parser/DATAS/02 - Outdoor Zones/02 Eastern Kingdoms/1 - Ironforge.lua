@@ -167,7 +167,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["description"] = "Keep this in your bank until Achievements are added, otherwise you'll need to obtain it again. Fair warning!",
 						-- #elseif BEFORE LEGION
 						["description"] = "Keep this in your bank until Transmog is added, otherwise you'll need to obtain it again. Fair warning!",
-						-- #if AFTER TWW
+						-- #elseif AFTER TWW
 						["description"] = "Keep this in your bank until the appearance can be learned again, otherwise you'll need to obtain it again. Fair warning!",
 						["collectible"] = false,  -- remove when Blizzard fix fish collection
 						-- #endif
