@@ -26,6 +26,18 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					},
 				}),
 			}),
+			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
+				e(649, {	-- Raigonn
+					["crs"] = { 56877 },	-- Raigonn
+					["g"] = {
+						-- Available
+						ach(10010, {	-- Gate of the Setting Sun
+							["timeline"] = { ADDED_6_2_0 },
+						}),
+						ach(6945),	-- Mantid Swarm
+					},
+				}),
+			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 				e(655, {	-- Saboteur Kip'tilak
 					["crs"] = { 56906 },	-- Saboteur Kip'tilak
@@ -34,16 +46,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(144018, {	-- Fallout-Filtering Hood
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144134, {	-- Grenadier's Belt
-							["timeline"] = { ADDED_7_1_5 },
-						}),
 						i(144102, {	-- Pendant of Precise Timing
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144135, {	-- Pulled Grenade Pin
+						i(144134, {	-- Grenadier's Belt
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144100, {	-- Saboteur's Stablizing Bracers
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(144135, {	-- Pulled Grenade Pin
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 
@@ -66,13 +78,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(143980, {	-- Acid-Scarred Spaulders
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(143983, {	-- Airstream Treads
-							["timeline"] = { ADDED_7_1_5 },
-						}),
 						i(144137, {	-- Bomber's Precision Gloves
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144095, {	-- Impaler's Girdle
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(143983, {	-- Airstream Treads
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144136, {	-- Vision of the Predator
@@ -83,10 +95,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(80924, {	-- Acid-Scarred Spaulders
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(80922, {	-- Airstream Treads
+						i(80923, {	-- Impaler's Girdle
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(80923, {	-- Impaler's Girdle
+						i(80922, {	-- Airstream Treads
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 					},
@@ -95,16 +107,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					["crs"] = { 56636 },	-- Commander Ri'mok
 					["g"] = {
 						-- Available
-						i(143982, {	-- Leggings of the Frenzy
+						i(144098, {	-- Mantid Trochanter
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144098, {	-- Mantid Trochanter
+						i(144019, {	-- Swarmcall Helm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144138, {	-- Ri'mok's Shattered Scale
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144019, {	-- Swarmcall Helm
+						i(143982, {	-- Leggings of the Frenzy
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144139, {	-- Viscous Ring
@@ -112,13 +124,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						}),
 
 						-- Removed
-						i(80926, {	-- Leggings of the Frenzy
-							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
-						}),
 						i(80933, {	-- Mantid Trochanter
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(80925, {	-- Swarmcall Helm
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
+						i(80926, {	-- Leggings of the Frenzy
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 					},
@@ -127,29 +139,19 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					["crs"] = { 56877 },	-- Raigonn
 					["g"] = {
 						-- Available
-						ach(10010, {	-- Gate of the Setting Sun
-							["timeline"] = { ADDED_6_2_0 },
-						}),
-						ach(6945),	-- Mantid Swarm
 						i(144101, {	-- Carapace Breaker
-							["timeline"] = { ADDED_7_1_5 },
-						}),
-						i(144141, {	-- Drape of the Screeching Swarm
-							["timeline"] = { ADDED_7_1_5 },
-						}),
-						i(144142, {	-- Frenzyswarm Bracers
-							["timeline"] = { ADDED_7_1_5 },
-						}),
-						i(144105, {	-- Hive Protector's Gauntlets
-							["timeline"] = { ADDED_7_1_5 },
-						}),
-						i(144140, {	-- Impervious Carapace
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144218, {	-- Klatith, Fangs of the Swarm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
+						i(144140, {	-- Impervious Carapace
+							["timeline"] = { ADDED_7_1_5 },
+						}),
 						i(144104, {	-- Shield of the Protectorate
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(144141, {	-- Drape of the Screeching Swarm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(143991, {	-- Shoulders of Engulfing Winds
@@ -158,10 +160,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(143955, {	-- Swarmbringer Chestguards
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(143984, {	-- Treads of Fixation
+						i(144142, {	-- Frenzyswarm Bracers
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(144105, {	-- Hive Protector's Gauntlets
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(143977, {	-- Wall-Breaker Legguards
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(143984, {	-- Treads of Fixation
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 
@@ -199,16 +207,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(144018, {	-- Fallout-Filtering Hood
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144134, {	-- Grenadier's Belt
-							["timeline"] = { ADDED_7_1_5 },
-						}),
 						i(144102, {	-- Pendant of Precise Timing
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144135, {	-- Pulled Grenade Pin
+						i(144134, {	-- Grenadier's Belt
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144100, {	-- Saboteur's Stablizing Bracers
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(144135, {	-- Pulled Grenade Pin
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 
@@ -216,13 +224,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(81104, {	-- Fallout-Filtering Hood
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81190, {	-- Grenadier's Belt
-							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
-						}),
 						i(81095, {	-- Pendant of Precise Timing
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
+						i(81190, {	-- Grenadier's Belt
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
 						i(81090, {	-- Saboteur's Stablizing Bracers
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
+						i(81191, {	-- Pulled Grenade Pin
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 					},
@@ -234,13 +245,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(143980, {	-- Acid-Scarred Spaulders
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(143983, {	-- Airstream Treads
-							["timeline"] = { ADDED_7_1_5 },
-						}),
 						i(144137, {	-- Bomber's Precision Gloves
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144095, {	-- Impaler's Girdle
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(143983, {	-- Airstream Treads
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144136, {	-- Vision of the Predator
@@ -251,13 +262,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(81098, {	-- Acid-Scarred Spaulders
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81111, {	-- Airstream Treads
-							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
-						}),
 						i(81229, {	-- Bomber's Precision Gloves
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(81085, {	-- Impaler's Girdle
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
+						i(81111, {	-- Airstream Treads
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
+						i(81192, {	-- Vision of the Predator
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 					},
@@ -266,16 +280,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 					["crs"] = { 56636 },	-- Commander Ri'mok
 					["g"] = {
 						-- Available
-						i(143982, {	-- Leggings of the Frenzy
+						i(144098, {	-- Mantid Trochanter
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144098, {	-- Mantid Trochanter
+						i(144019, {	-- Swarmcall Helm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144138, {	-- Ri'mok's Shattered Scale
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144019, {	-- Swarmcall Helm
+						i(143982, {	-- Leggings of the Frenzy
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144139, {	-- Viscous Ring
@@ -283,16 +297,19 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						}),
 
 						-- Removed
-						i(81106, {	-- Leggings of the Frenzy
+						i(81088, {	-- Mantid Trochanter
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81088, {	-- Mantid Trochanter
+						i(81105, {	-- Swarmcall Helm
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(81230, {	-- Ri'mok's Shattered Scale
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81105, {	-- Swarmcall Helm
+						i(81106, {	-- Leggings of the Frenzy
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
+						i(81232, {	-- Viscous Ring
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 					},
@@ -306,22 +323,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(144101, {	-- Carapace Breaker
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144141, {	-- Drape of the Screeching Swarm
-							["timeline"] = { ADDED_7_1_5 },
-						}),
-						i(144142, {	-- Frenzyswarm Bracers
-							["timeline"] = { ADDED_7_1_5 },
-						}),
-						i(144105, {	-- Hive Protector's Gauntlets
+						i(144218, {	-- Klatith, Fangs of the Swarm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(144140, {	-- Impervious Carapace
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144218, {	-- Klatith, Fangs of the Swarm
+						i(144104, {	-- Shield of the Protectorate
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(144104, {	-- Shield of the Protectorate
+						i(144141, {	-- Drape of the Screeching Swarm
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(143991, {	-- Shoulders of Engulfing Winds
@@ -330,10 +341,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(143955, {	-- Swarmbringer Chestguards
 							["timeline"] = { ADDED_7_1_5 },
 						}),
-						i(143984, {	-- Treads of Fixation
+						i(144142, {	-- Frenzyswarm Bracers
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(144105, {	-- Hive Protector's Gauntlets
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 						i(143977, {	-- Wall-Breaker Legguards
+							["timeline"] = { ADDED_7_1_5 },
+						}),
+						i(143984, {	-- Treads of Fixation
 							["timeline"] = { ADDED_7_1_5 },
 						}),
 
@@ -341,22 +358,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(81094, {	-- Carapace Breaker
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81234, {	-- Drape of the Screeching Swarm
-							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
-						}),
-						i(81236, {	-- Frenzyswarm Bracers
-							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
-						}),
-						i(81100, {	-- Hive Protector's Gauntlets
+						i(87546, {	-- Klatith, Fangs of the Swarm
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(81233, {	-- Impervious Carapace
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(87546, {	-- Klatith, Fangs of the Swarm
+						i(81097, {	-- Shield of the Protectorate
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81097, {	-- Shield of the Protectorate
+						i(81234, {	-- Drape of the Screeching Swarm
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(81235, {	-- Shoulders of Engulfing Winds
@@ -365,10 +376,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(81109, {	-- Swarmbringer Chestguards
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81112, {	-- Treads of Fixation
+						i(81236, {	-- Frenzyswarm Bracers
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
+						i(81100, {	-- Hive Protector's Gauntlets
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(81091, {	-- Wall-Breaker Legguards
+							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
+						}),
+						i(81112, {	-- Treads of Fixation
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 					},
