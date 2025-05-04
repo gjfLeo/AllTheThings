@@ -68,7 +68,9 @@ namespace ATT.DB.Types
             // Learned as new pet (Account Only)
             Type == 155 ||
             // Obtain a pet through battle (Account Only)
-            Type == 157;
+            Type == 157 ||
+            // Win a pet battle
+            Type == 158;
 
         public long GetSourceQuest() =>
             Type == 27 ? Asset : 0;
