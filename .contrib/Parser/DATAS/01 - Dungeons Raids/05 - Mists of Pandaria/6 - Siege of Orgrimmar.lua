@@ -1173,36 +1173,49 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 				cr(71504, e(865, {	-- Siegecrafter Blackfuse
 					i(104158),	-- Blackfuse Bombling (PET!)
 				})),
-				cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-					i(104165),	-- Kovok (PET!)
-					title(231, {	-- <Name> the Poisoned Mind
-						["collectible"] = false,
-					}),
-					title(232, {	-- <Name> the Bloodseeker
-						["collectible"] = false,
-					}),
-					title(233, {	-- <Name> the Locust
-						["collectible"] = false,
-					}),
-					title(234, {	-- <Name> the Swarmkeeper
-						["collectible"] = false,
-					}),
-					title(235, {	-- <Name> the Prime
-						["collectible"] = false,
-					}),
-					title(236, {	-- <Name> the Manipulator
-						["collectible"] = false,
-					}),
-					title(237, {	-- <Name> the Dissector
-						["collectible"] = false,
-					}),
-					title(238, {	-- <Name> the Lucid
-						["collectible"] = false,
-					}),
-					title(239, {	-- <Name> the Wind-Reaver
-						["collectible"] = false,
-					}),
-				})),
+				e(853, {	-- Paragons of the Klaxxi
+					["crs"] = {
+						71153,	-- Hisek the Swarmkeeper
+						71160,	-- Iyyokuk the Lucid
+						71154,	-- Ka'roz the Locust
+						71156,	-- Kaz'tik the Manipulator
+						71161,	-- Kil'ruk the Wind-Reaver
+						71155,	-- Korven the Prime
+						71157,	-- Xaril the Poisoned Mind
+						71158,	-- Rik'kal the Dissector
+						71152,	-- Skeer the Bloodseeker
+					},
+					["groups"] = {
+						i(104165),	-- Kovok (PET!)
+						title(231, {	-- <Name> the Poisoned Mind
+							["collectible"] = false,
+						}),
+						title(232, {	-- <Name> the Bloodseeker
+							["collectible"] = false,
+						}),
+						title(233, {	-- <Name> the Locust
+							["collectible"] = false,
+						}),
+						title(234, {	-- <Name> the Swarmkeeper
+							["collectible"] = false,
+						}),
+						title(235, {	-- <Name> the Prime
+							["collectible"] = false,
+						}),
+						title(236, {	-- <Name> the Manipulator
+							["collectible"] = false,
+						}),
+						title(237, {	-- <Name> the Dissector
+							["collectible"] = false,
+						}),
+						title(238, {	-- <Name> the Lucid
+							["collectible"] = false,
+						}),
+						title(239, {	-- <Name> the Wind-Reaver
+							["collectible"] = false,
+						}),
+					},
+				}),
 				cr(71865, e(869, {	-- Garrosh Hellscream
 					
 				})),
@@ -1500,24 +1513,37 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 							i(105123),	-- Siegecrafter's Forge Hammer LFR
 							i(105114),	-- Ticking Ebon Detonator LFR
 						})),
-						cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-							-- #if BEFORE 6.0.2
-							ig(99675),	-- Leggings of the Cursed Conqueror
-							ig(99676),	-- Leggings of the Cursed Protector
-							ig(99674),	-- Leggings of the Cursed Vanquisher
-							-- #endif
-							i(105131),	-- Amber Parasite Wraps LFR
-							i(105128),	-- Bracers of Sonic Projection LFR
-							i(105132),	-- Chestguard of Toxic Injections LFR
-							i(105133),	-- Gauntlets of Insane Calculations LFR
-							i(105125),	-- Hisek's Reserve Longbow LFR
-							i(105130),	-- Iyyokuk's Hereditary Seal LFR
-							i(105126),	-- Kil'ruk's Band of Ascendancy LFR
-							i(105135),	-- Kil'ruk's Furious Blade LFR
-							i(105127),	-- Korven's Crimson Crescent LFR
-							i(105129),	-- Rik'kal's Bloody Scalpel LFR
-							i(105134),	-- Skeer's Bloodsoaked Talisman LFR
-						})),
+						e(853, {	-- Paragons of the Klaxxi
+							["crs"] = {
+								71153,	-- Hisek the Swarmkeeper
+								71160,	-- Iyyokuk the Lucid
+								71154,	-- Ka'roz the Locust
+								71156,	-- Kaz'tik the Manipulator
+								71161,	-- Kil'ruk the Wind-Reaver
+								71155,	-- Korven the Prime
+								71157,	-- Xaril the Poisoned Mind
+								71158,	-- Rik'kal the Dissector
+								71152,	-- Skeer the Bloodseeker
+							},
+							["groups"] = {
+								-- #if BEFORE 6.0.2
+								ig(99675),	-- Leggings of the Cursed Conqueror
+								ig(99676),	-- Leggings of the Cursed Protector
+								ig(99674),	-- Leggings of the Cursed Vanquisher
+								-- #endif
+								i(105131),	-- Amber Parasite Wraps LFR
+								i(105128),	-- Bracers of Sonic Projection LFR
+								i(105132),	-- Chestguard of Toxic Injections LFR
+								i(105133),	-- Gauntlets of Insane Calculations LFR
+								i(105125),	-- Hisek's Reserve Longbow LFR
+								i(105130),	-- Iyyokuk's Hereditary Seal LFR
+								i(105126),	-- Kil'ruk's Band of Ascendancy LFR
+								i(105135),	-- Kil'ruk's Furious Blade LFR
+								i(105127),	-- Korven's Crimson Crescent LFR
+								i(105129),	-- Rik'kal's Bloody Scalpel LFR
+								i(105134),	-- Skeer's Bloodsoaked Talisman LFR
+							},
+						}),
 						cr(71865, e(869, {	-- Garrosh Hellscream
 							-- #if BEFORE 6.0.2
 							ig(105861),	-- Essence of the Cursed Conqueror
@@ -1833,22 +1859,35 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 							i(112877),	-- Dysmorphic Samophlange of Discontinuity
 							i(112879),	-- Ticking Ebon Detonator
 						})),
-						cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-							ig(99675),	-- Leggings of the Cursed Conqueror
-							ig(99676),	-- Leggings of the Cursed Protector
-							ig(99674),	-- Leggings of the Cursed Vanquisher
-							i(112921),	-- Kil'ruk's Furious Blade
-							i(112920),	-- Korven's Crimson Crescent
-							i(112922),	-- Rik'kal's Bloody Scalpel
-							i(112918),	-- Hisek's Reserve Longbow
-							i(112923),	-- Amber Parasite Wraps
-							i(112919),	-- Chestguard of Toxic Injections
-							i(112914),	-- Bracers of Sonic Projection
-							i(112915),	-- Gauntlets of Insane Calculations
-							i(112916),	-- Iyyokuk's Hereditary Seal
-							i(112917),	-- Kil'ruk's Band of Ascendancy
-							i(112913),	-- Skeer's Bloodsoaked Talisman
-						})),
+						e(853, {	-- Paragons of the Klaxxi
+							["crs"] = {
+								71153,	-- Hisek the Swarmkeeper
+								71160,	-- Iyyokuk the Lucid
+								71154,	-- Ka'roz the Locust
+								71156,	-- Kaz'tik the Manipulator
+								71161,	-- Kil'ruk the Wind-Reaver
+								71155,	-- Korven the Prime
+								71157,	-- Xaril the Poisoned Mind
+								71158,	-- Rik'kal the Dissector
+								71152,	-- Skeer the Bloodseeker
+							},
+							["groups"] = {
+								ig(99675),	-- Leggings of the Cursed Conqueror
+								ig(99676),	-- Leggings of the Cursed Protector
+								ig(99674),	-- Leggings of the Cursed Vanquisher
+								i(112921),	-- Kil'ruk's Furious Blade
+								i(112920),	-- Korven's Crimson Crescent
+								i(112922),	-- Rik'kal's Bloody Scalpel
+								i(112918),	-- Hisek's Reserve Longbow
+								i(112923),	-- Amber Parasite Wraps
+								i(112919),	-- Chestguard of Toxic Injections
+								i(112914),	-- Bracers of Sonic Projection
+								i(112915),	-- Gauntlets of Insane Calculations
+								i(112916),	-- Iyyokuk's Hereditary Seal
+								i(112917),	-- Kil'ruk's Band of Ascendancy
+								i(112913),	-- Skeer's Bloodsoaked Talisman
+							},
+						}),
 						cr(71865, e(869, {	-- Garrosh Hellscream
 							ig(105861),	-- Essence of the Cursed Conqueror
 							ig(105860),	-- Essence of the Cursed Protector
@@ -1965,9 +2004,22 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 						crit(23775),	-- Disassembled Crawler Mines
 					}),
 				})),
-				cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-					ach(8531),	-- Now We are the Paragon
-				})),
+				e(853, {	-- Paragons of the Klaxxi
+					["crs"] = {
+						71153,	-- Hisek the Swarmkeeper
+						71160,	-- Iyyokuk the Lucid
+						71154,	-- Ka'roz the Locust
+						71156,	-- Kaz'tik the Manipulator
+						71161,	-- Kil'ruk the Wind-Reaver
+						71155,	-- Korven the Prime
+						71157,	-- Xaril the Poisoned Mind
+						71158,	-- Rik'kal the Dissector
+						71152,	-- Skeer the Bloodseeker
+					},
+					["groups"] = {
+						ach(8531),	-- Now We are the Paragon
+					},
+				}),
 				cr(71865, e(869, {	-- Garrosh Hellscream
 					ach(8537),	-- Strike!
 				})),
@@ -2265,24 +2317,37 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 						i(104874),	-- Siegecrafter's Forge Hammer Normal
 						i(104865),	-- Ticking Ebon Detonator Normal
 					})),
-					cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-						-- #if BEFORE 6.0.2
-						ig(99752),	-- Leggings of the Cursed Conqueror
-						ig(99753),	-- Leggings of the Cursed Protector
-						ig(99751),	-- Leggings of the Cursed Vanquisher
-						-- #endif
-						i(104882),	-- Amber Parasite Wraps Normal
-						i(104879),	-- Bracers of Sonic Projection Normal
-						i(104883),	-- Chestguard of Toxic Injections Normal
-						i(104884),	-- Gauntlets of Insane Calculations Normal
-						i(104876),	-- Hisek's Reserve Longbow Normal
-						i(104881),	-- Iyyokuk's Hereditary Seal Normal
-						i(104877),	-- Kil'ruk's Band of Ascendancy Normal
-						i(104886),	-- Kil'ruk's Furious Blade Normal
-						i(104878),	-- Korven's Crimson Crescent Normal
-						i(104880),	-- Rik'kal's Bloody Scalpel Normal
-						i(104885),	-- Skeer's Bloodsoaked Talisman Normal
-					})),
+					e(853, {	-- Paragons of the Klaxxi
+						["crs"] = {
+							71153,	-- Hisek the Swarmkeeper
+							71160,	-- Iyyokuk the Lucid
+							71154,	-- Ka'roz the Locust
+							71156,	-- Kaz'tik the Manipulator
+							71161,	-- Kil'ruk the Wind-Reaver
+							71155,	-- Korven the Prime
+							71157,	-- Xaril the Poisoned Mind
+							71158,	-- Rik'kal the Dissector
+							71152,	-- Skeer the Bloodseeker
+						},
+						["groups"] = {
+							-- #if BEFORE 6.0.2
+							ig(99752),	-- Leggings of the Cursed Conqueror
+							ig(99753),	-- Leggings of the Cursed Protector
+							ig(99751),	-- Leggings of the Cursed Vanquisher
+							-- #endif
+							i(104882),	-- Amber Parasite Wraps Normal
+							i(104879),	-- Bracers of Sonic Projection Normal
+							i(104883),	-- Chestguard of Toxic Injections Normal
+							i(104884),	-- Gauntlets of Insane Calculations Normal
+							i(104876),	-- Hisek's Reserve Longbow Normal
+							i(104881),	-- Iyyokuk's Hereditary Seal Normal
+							i(104877),	-- Kil'ruk's Band of Ascendancy Normal
+							i(104886),	-- Kil'ruk's Furious Blade Normal
+							i(104878),	-- Korven's Crimson Crescent Normal
+							i(104880),	-- Rik'kal's Bloody Scalpel Normal
+							i(104885),	-- Skeer's Bloodsoaked Talisman Normal
+						},
+					}),
 					cr(71865, e(869, {	-- Garrosh Hellscream
 						-- #if BEFORE 6.0.2
 						ig(105864),	-- Essence of the Cursed Conqueror
@@ -2618,22 +2683,35 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 						i(112877),	-- Dysmorphic Samophlange of Discontinuity
 						i(112879),	-- Ticking Ebon Detonator
 					})),
-					cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-						ig(99752),	-- Leggings of the Cursed Conqueror
-						ig(99753),	-- Leggings of the Cursed Protector
-						ig(99751),	-- Leggings of the Cursed Vanquisher
-						i(112921),	-- Kil'ruk's Furious Blade
-						i(112920),	-- Korven's Crimson Crescent
-						i(112922),	-- Rik'kal's Bloody Scalpel
-						i(112918),	-- Hisek's Reserve Longbow
-						i(112923),	-- Amber Parasite Wraps
-						i(112919),	-- Chestguard of Toxic Injections
-						i(112914),	-- Bracers of Sonic Projection
-						i(112915),	-- Gauntlets of Insane Calculations
-						i(112916),	-- Iyyokuk's Hereditary Seal
-						i(112917),	-- Kil'ruk's Band of Ascendancy
-						i(112913),	-- Skeer's Bloodsoaked Talisman
-					})),
+					e(853, {	-- Paragons of the Klaxxi
+						["crs"] = {
+							71153,	-- Hisek the Swarmkeeper
+							71160,	-- Iyyokuk the Lucid
+							71154,	-- Ka'roz the Locust
+							71156,	-- Kaz'tik the Manipulator
+							71161,	-- Kil'ruk the Wind-Reaver
+							71155,	-- Korven the Prime
+							71157,	-- Xaril the Poisoned Mind
+							71158,	-- Rik'kal the Dissector
+							71152,	-- Skeer the Bloodseeker
+						},
+						["groups"] = {
+							ig(99752),	-- Leggings of the Cursed Conqueror
+							ig(99753),	-- Leggings of the Cursed Protector
+							ig(99751),	-- Leggings of the Cursed Vanquisher
+							i(112921),	-- Kil'ruk's Furious Blade
+							i(112920),	-- Korven's Crimson Crescent
+							i(112922),	-- Rik'kal's Bloody Scalpel
+							i(112918),	-- Hisek's Reserve Longbow
+							i(112923),	-- Amber Parasite Wraps
+							i(112919),	-- Chestguard of Toxic Injections
+							i(112914),	-- Bracers of Sonic Projection
+							i(112915),	-- Gauntlets of Insane Calculations
+							i(112916),	-- Iyyokuk's Hereditary Seal
+							i(112917),	-- Kil'ruk's Band of Ascendancy
+							i(112913),	-- Skeer's Bloodsoaked Talisman
+						},
+					}),
 					cr(71865, e(869, {	-- Garrosh Hellscream
 						ig(105864),	-- Essence of the Cursed Conqueror
 						ig(105863),	-- Essence of the Cursed Protector
@@ -3247,37 +3325,50 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 							i(105363),	-- Ticking Ebon Detonator Heroic WF
 						}),
 					})),
-					cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-						-- #if BEFORE 6.0.2
-						ig(99688),	-- Leggings of the Cursed Conqueror
-						ig(99693),	-- Leggings of the Cursed Protector
-						ig(99684),	-- Leggings of the Cursed Vanquisher
-						-- #endif
-						i(103948),	-- Amber Parasite Wraps Heroic
-						i(103810),	-- Bracers of Sonic Projection Heroic
-						i(103956),	-- Chestguard of Toxic Injections Heroic
-						i(103819),	-- Gauntlets of Insane Calculations Heroic
-						i(103886),	-- Hisek's Reserve Longbow Heroic
-						i(103824),	-- Iyyokuk's Hereditary Seal Heroic
-						i(103844),	-- Kil'ruk's Band of Ascendancy Heroic
-						i(103972),	-- Kil'ruk's Furious Blade Heroic
-						i(103971),	-- Korven's Crimson Crescent Heroic
-						i(103973),	-- Rik'kal's Bloody Scalpel Heroic
-						i(102308),	-- Skeer's Bloodsoaked Talisman Heroic
-						n(WARFORGED, {
-							i(105380),	-- Amber Parasite Wraps Heroic WF
-							i(105377),	-- Bracers of Sonic Projection Heroic WF
-							i(105381),	-- Chestguard of Toxic Injections Heroic WF
-							i(105382),	-- Gauntlets of Insane Calculations Heroic WF
-							i(105374),	-- Hisek's Reserve Longbow Heroic WF
-							i(105379),	-- Iyyokuk's Hereditary Seal Heroic WF
-							i(105375),	-- Kil'ruk's Band of Ascendancy Heroic WF
-							i(105384),	-- Kil'ruk's Furious Blade Heroic WF
-							i(105376),	-- Korven's Crimson Crescent Heroic WF
-							i(105378),	-- Rik'kal's Bloody Scalpel Heroic WF
-							i(105383),	-- Skeer's Bloodsoaked Talisman Heroic WF
-						}),
-					})),
+					e(853, {	-- Paragons of the Klaxxi
+						["crs"] = {
+							71153,	-- Hisek the Swarmkeeper
+							71160,	-- Iyyokuk the Lucid
+							71154,	-- Ka'roz the Locust
+							71156,	-- Kaz'tik the Manipulator
+							71161,	-- Kil'ruk the Wind-Reaver
+							71155,	-- Korven the Prime
+							71157,	-- Xaril the Poisoned Mind
+							71158,	-- Rik'kal the Dissector
+							71152,	-- Skeer the Bloodseeker
+						},
+						["groups"] = {
+							-- #if BEFORE 6.0.2
+							ig(99688),	-- Leggings of the Cursed Conqueror
+							ig(99693),	-- Leggings of the Cursed Protector
+							ig(99684),	-- Leggings of the Cursed Vanquisher
+							-- #endif
+							i(103948),	-- Amber Parasite Wraps Heroic
+							i(103810),	-- Bracers of Sonic Projection Heroic
+							i(103956),	-- Chestguard of Toxic Injections Heroic
+							i(103819),	-- Gauntlets of Insane Calculations Heroic
+							i(103886),	-- Hisek's Reserve Longbow Heroic
+							i(103824),	-- Iyyokuk's Hereditary Seal Heroic
+							i(103844),	-- Kil'ruk's Band of Ascendancy Heroic
+							i(103972),	-- Kil'ruk's Furious Blade Heroic
+							i(103971),	-- Korven's Crimson Crescent Heroic
+							i(103973),	-- Rik'kal's Bloody Scalpel Heroic
+							i(102308),	-- Skeer's Bloodsoaked Talisman Heroic
+							n(WARFORGED, {
+								i(105380),	-- Amber Parasite Wraps Heroic WF
+								i(105377),	-- Bracers of Sonic Projection Heroic WF
+								i(105381),	-- Chestguard of Toxic Injections Heroic WF
+								i(105382),	-- Gauntlets of Insane Calculations Heroic WF
+								i(105374),	-- Hisek's Reserve Longbow Heroic WF
+								i(105379),	-- Iyyokuk's Hereditary Seal Heroic WF
+								i(105375),	-- Kil'ruk's Band of Ascendancy Heroic WF
+								i(105384),	-- Kil'ruk's Furious Blade Heroic WF
+								i(105376),	-- Korven's Crimson Crescent Heroic WF
+								i(105378),	-- Rik'kal's Bloody Scalpel Heroic WF
+								i(105383),	-- Skeer's Bloodsoaked Talisman Heroic WF
+							}),
+						},
+					}),
 					cr(71865, e(869, {	-- Garrosh Hellscream
 						-- #if BEFORE 6.0.2
 						ig(105858),	-- Essence of the Cursed Conqueror
@@ -3637,22 +3728,35 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 						i(112877),	-- Dysmorphic Samophlange of Discontinuity
 						i(112879),	-- Ticking Ebon Detonator
 					})),
-					cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-						ig(99688),	-- Leggings of the Cursed Conqueror
-						ig(99693),	-- Leggings of the Cursed Protector
-						ig(99684),	-- Leggings of the Cursed Vanquisher
-						i(112921),	-- Kil'ruk's Furious Blade
-						i(112920),	-- Korven's Crimson Crescent
-						i(112922),	-- Rik'kal's Bloody Scalpel
-						i(112918),	-- Hisek's Reserve Longbow
-						i(112923),	-- Amber Parasite Wraps
-						i(112919),	-- Chestguard of Toxic Injections
-						i(112914),	-- Bracers of Sonic Projection
-						i(112915),	-- Gauntlets of Insane Calculations
-						i(112916),	-- Iyyokuk's Hereditary Seal
-						i(112917),	-- Kil'ruk's Band of Ascendancy
-						i(112913),	-- Skeer's Bloodsoaked Talisman
-					})),
+					e(853, {	-- Paragons of the Klaxxi
+						["crs"] = {
+							71153,	-- Hisek the Swarmkeeper
+							71160,	-- Iyyokuk the Lucid
+							71154,	-- Ka'roz the Locust
+							71156,	-- Kaz'tik the Manipulator
+							71161,	-- Kil'ruk the Wind-Reaver
+							71155,	-- Korven the Prime
+							71157,	-- Xaril the Poisoned Mind
+							71158,	-- Rik'kal the Dissector
+							71152,	-- Skeer the Bloodseeker
+						},
+						["groups"] = {
+							ig(99688),	-- Leggings of the Cursed Conqueror
+							ig(99693),	-- Leggings of the Cursed Protector
+							ig(99684),	-- Leggings of the Cursed Vanquisher
+							i(112921),	-- Kil'ruk's Furious Blade
+							i(112920),	-- Korven's Crimson Crescent
+							i(112922),	-- Rik'kal's Bloody Scalpel
+							i(112918),	-- Hisek's Reserve Longbow
+							i(112923),	-- Amber Parasite Wraps
+							i(112919),	-- Chestguard of Toxic Injections
+							i(112914),	-- Bracers of Sonic Projection
+							i(112915),	-- Gauntlets of Insane Calculations
+							i(112916),	-- Iyyokuk's Hereditary Seal
+							i(112917),	-- Kil'ruk's Band of Ascendancy
+							i(112913),	-- Skeer's Bloodsoaked Talisman
+						},
+					}),
 					cr(71865, e(869, {	-- Garrosh Hellscream
 						ig(105858),	-- Essence of the Cursed Conqueror
 						ig(105857),	-- Essence of the Cursed Protector
@@ -4246,38 +4350,51 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 							i(105612),	-- Ticking Ebon Detonator Mythic WF
 						}),
 					})),
-					cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-						-- #if BEFORE 6.0.2
-						ach(8481),	-- Heroic: Paragons of the Klaxxi
-						ig(99712),	-- Leggings of the Cursed Conqueror
-						ig(99713),	-- Leggings of the Cursed Protector
-						ig(99726),	-- Leggings of the Cursed Vanquisher
-						-- #endif
-						i(104633),	-- Amber Parasite Wraps Mythic
-						i(104630),	-- Bracers of Sonic Projection Mythic
-						i(104634),	-- Chestguard of Toxic Injections Mythic
-						i(104635),	-- Gauntlets of Insane Calculations Mythic
-						i(104627),	-- Hisek's Reserve Longbow Mythic
-						i(104632),	-- Iyyokuk's Hereditary Seal Mythic
-						i(104628),	-- Kil'ruk's Band of Ascendancy Mythic
-						i(104637),	-- Kil'ruk's Furious Blade Mythic
-						i(104629),	-- Korven's Crimson Crescent Mythic
-						i(104631),	-- Rik'kal's Bloody Scalpel Mythic
-						i(104636),	-- Skeer's Bloodsoaked Talisman Mythic
-						n(WARFORGED, {
-							i(105629),	-- Amber Parasite Wraps Mythic WF
-							i(105626),	-- Bracers of Sonic Projection Mythic WF
-							i(105630),	-- Chestguard of Toxic Injections Mythic WF
-							i(105631),	-- Gauntlets of Insane Calculations Mythic WF
-							i(105623),	-- Hisek's Reserve Longbow Mythic WF
-							i(105628),	-- Iyyokuk's Hereditary Seal Mythic WF
-							i(105624),	-- Kil'ruk's Band of Ascendancy Mythic WF
-							i(105633),	-- Kil'ruk's Furious Blade Mythic WF
-							i(105625),	-- Korven's Crimson Crescent Mythic WF
-							i(105627),	-- Rik'kal's Bloody Scalpel Mythic WF
-							i(105632),	-- Skeer's Bloodsoaked Talisman Mythic WF
-						}),
-					})),
+					e(853, {	-- Paragons of the Klaxxi
+						["crs"] = {
+							71153,	-- Hisek the Swarmkeeper
+							71160,	-- Iyyokuk the Lucid
+							71154,	-- Ka'roz the Locust
+							71156,	-- Kaz'tik the Manipulator
+							71161,	-- Kil'ruk the Wind-Reaver
+							71155,	-- Korven the Prime
+							71157,	-- Xaril the Poisoned Mind
+							71158,	-- Rik'kal the Dissector
+							71152,	-- Skeer the Bloodseeker
+						},
+						["groups"] = {
+							-- #if BEFORE 6.0.2
+							ach(8481),	-- Heroic: Paragons of the Klaxxi
+							ig(99712),	-- Leggings of the Cursed Conqueror
+							ig(99713),	-- Leggings of the Cursed Protector
+							ig(99726),	-- Leggings of the Cursed Vanquisher
+							-- #endif
+							i(104633),	-- Amber Parasite Wraps Mythic
+							i(104630),	-- Bracers of Sonic Projection Mythic
+							i(104634),	-- Chestguard of Toxic Injections Mythic
+							i(104635),	-- Gauntlets of Insane Calculations Mythic
+							i(104627),	-- Hisek's Reserve Longbow Mythic
+							i(104632),	-- Iyyokuk's Hereditary Seal Mythic
+							i(104628),	-- Kil'ruk's Band of Ascendancy Mythic
+							i(104637),	-- Kil'ruk's Furious Blade Mythic
+							i(104629),	-- Korven's Crimson Crescent Mythic
+							i(104631),	-- Rik'kal's Bloody Scalpel Mythic
+							i(104636),	-- Skeer's Bloodsoaked Talisman Mythic
+							n(WARFORGED, {
+								i(105629),	-- Amber Parasite Wraps Mythic WF
+								i(105626),	-- Bracers of Sonic Projection Mythic WF
+								i(105630),	-- Chestguard of Toxic Injections Mythic WF
+								i(105631),	-- Gauntlets of Insane Calculations Mythic WF
+								i(105623),	-- Hisek's Reserve Longbow Mythic WF
+								i(105628),	-- Iyyokuk's Hereditary Seal Mythic WF
+								i(105624),	-- Kil'ruk's Band of Ascendancy Mythic WF
+								i(105633),	-- Kil'ruk's Furious Blade Mythic WF
+								i(105625),	-- Korven's Crimson Crescent Mythic WF
+								i(105627),	-- Rik'kal's Bloody Scalpel Mythic WF
+								i(105632),	-- Skeer's Bloodsoaked Talisman Mythic WF
+							}),
+						},
+					}),
 					cr(71865, e(869, {	-- Garrosh Hellscream
 						-- #if BEFORE 6.0.2
 						ach(8511),	-- Heroic: Garrosh Hellscream Guild Run
@@ -4652,23 +4769,36 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 						i(112877),	-- Dysmorphic Samophlange of Discontinuity
 						i(112879),	-- Ticking Ebon Detonator
 					})),
-					cr(71161, e(853, {	-- Paragons of the Klaxxi (Kil'ruk the Wind Reaver)
-						ach(8481),	-- Mythic: Paragons of the Klaxxi
-						ig(99712),	-- Leggings of the Cursed Conqueror
-						ig(99713),	-- Leggings of the Cursed Protector
-						ig(99726),	-- Leggings of the Cursed Vanquisher
-						i(112921),	-- Kil'ruk's Furious Blade
-						i(112920),	-- Korven's Crimson Crescent
-						i(112922),	-- Rik'kal's Bloody Scalpel
-						i(112918),	-- Hisek's Reserve Longbow
-						i(112923),	-- Amber Parasite Wraps
-						i(112919),	-- Chestguard of Toxic Injections
-						i(112914),	-- Bracers of Sonic Projection
-						i(112915),	-- Gauntlets of Insane Calculations
-						i(112916),	-- Iyyokuk's Hereditary Seal
-						i(112917),	-- Kil'ruk's Band of Ascendancy
-						i(112913),	-- Skeer's Bloodsoaked Talisman
-					})),
+					e(853, {	-- Paragons of the Klaxxi
+						["crs"] = {
+							71153,	-- Hisek the Swarmkeeper
+							71160,	-- Iyyokuk the Lucid
+							71154,	-- Ka'roz the Locust
+							71156,	-- Kaz'tik the Manipulator
+							71161,	-- Kil'ruk the Wind-Reaver
+							71155,	-- Korven the Prime
+							71157,	-- Xaril the Poisoned Mind
+							71158,	-- Rik'kal the Dissector
+							71152,	-- Skeer the Bloodseeker
+						},
+						["groups"] = {
+							ach(8481),	-- Mythic: Paragons of the Klaxxi
+							ig(99712),	-- Leggings of the Cursed Conqueror
+							ig(99713),	-- Leggings of the Cursed Protector
+							ig(99726),	-- Leggings of the Cursed Vanquisher
+							i(112921),	-- Kil'ruk's Furious Blade
+							i(112920),	-- Korven's Crimson Crescent
+							i(112922),	-- Rik'kal's Bloody Scalpel
+							i(112918),	-- Hisek's Reserve Longbow
+							i(112923),	-- Amber Parasite Wraps
+							i(112919),	-- Chestguard of Toxic Injections
+							i(112914),	-- Bracers of Sonic Projection
+							i(112915),	-- Gauntlets of Insane Calculations
+							i(112916),	-- Iyyokuk's Hereditary Seal
+							i(112917),	-- Kil'ruk's Band of Ascendancy
+							i(112913),	-- Skeer's Bloodsoaked Talisman
+						},
+					}),
 					cr(71865, e(869, {	-- Garrosh Hellscream
 						ach(8511),	-- Heroic: Garrosh Hellscream Guild Run
 						ach(8482, {	-- Mythic: Garrosh Hellscream
