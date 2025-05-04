@@ -290,7 +290,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							-- #elseif AFTER TWW
 							"Keep this in your bank until the appearance can be learned again, otherwise you'll need to obtain it again. Fair warning!",
 							-- #else
-							nil
+							nil,
 							-- #endif
 						-- #if AFTER TWW
 						["collectible"] = false,  -- remove when Blizzard fix fish collection
