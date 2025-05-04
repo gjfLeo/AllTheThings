@@ -685,36 +685,18 @@ root(ROOTS.Unsorted, {
 				i(236919),	-- Void Spike
 			}),
 			n(SPECIAL, {	-- Duos
-				-- The Steamvault (sourced under the dungeon)
-				--i(238929),	-- Cloak of Whispering Shells
-				--i(238930),	-- Scintillating Coral Band
-				--i(238932),	-- Gauntlets of the Bold
-				--i(238988),	-- Earth Mantle Handwraps
-
-				-- Hellfire Ramprats
+				-- Hellfire Ramprats (didnt make it)
 				i(238934),	-- Boots of the Darkwalker
 				i(238936),	-- Scale Leggings of the Skirmisher
 				i(238937),	-- Light-Touched Breastplate
 
-				-- Deadmines
-				i(238938),	-- Vest of the Curious Visitor
-				i(238939),	-- Missing Diplomat's Pauldrons
-				i(238940),	-- Defias Brotherhood Vest
-
 				-- Shadowfang Keeep
-				i(238976),	-- Blinders of the Follower
-				i(238977),	-- Iron Will Girdle
-				i(238978),	-- Burden of Lost Humanity
-				i(238979),	-- Phantom Armor
+				-- Unsure
 				i(238980),	-- Pendant of the Keep
+				-- Didnt make it
 				i(238981),	-- Gloves of the Uplifted Cup
 				i(238982),	-- Baron Silverlaine's Greaves
 				i(238983),	-- Boots of Lingering Sorrow
-
-				-- The Culling of Stratholme (sourced under the dungeon)
-				--i(238991),	-- Gloves of Distorted Time
-				--i(238992),	-- Mobius Band
-				--i(238993),	-- Cracked Epoch Grasps
 
 				-- The Blood Furnace
 				i(239009),	-- Signet of Repose
