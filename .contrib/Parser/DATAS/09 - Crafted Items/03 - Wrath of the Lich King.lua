@@ -681,7 +681,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 			["provider"] = { "o", 192049 },	-- Fangtooth Herring School
 			-- #if BEFORE LEGION
 			["description"] = "Keep this in your bank until Transmog is added, otherwise you'll need to obtain it again. Fair warning!",
-			-- #if AFTER TWW
+			-- #elseif AFTER TWW
 			["description"] = "Keep this in your bank until the appearance can be learned again, otherwise you'll need to obtain it again. Fair warning!",
 			["collectible"] = false,  -- remove when Blizzard fix fish collection
 			-- #endif
