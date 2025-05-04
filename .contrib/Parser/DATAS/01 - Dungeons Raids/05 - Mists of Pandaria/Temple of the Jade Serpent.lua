@@ -302,7 +302,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = ADDED
 						i(81070, {	-- Serpentstrike Shoulderpads
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
-						i(81084, {	-- Cape of Entaglement
+						i(81084, {	-- Cape of Entanglement
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_1_5 },
 						}),
 						i(81127, {	-- Flameheart Sandals

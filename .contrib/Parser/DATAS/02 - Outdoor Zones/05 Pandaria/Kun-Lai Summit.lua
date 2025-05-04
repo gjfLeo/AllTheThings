@@ -1099,19 +1099,6 @@ root(ROOTS.Zones, {
 							i(80308),	-- Fire Lotus Incense (QI!)
 						},
 					}),
-					q(31030, {	-- Into the Monastery
-						["coord"] = { 36.6, 47.7, KUN_LAI_SUMMIT },
-						["provider"] = { "n", 62227 },	-- Ban Bearheart
-						["sourceQuest"] = 30752,	-- Unbelievable!
-						["isBreadcrumb"] = true,
-					}),
-					q(31031, {	-- Into the Monastery
-						["coord"] = { 35.3, 49.5, KUN_LAI_SUMMIT },
-						["provider"] = { "n", 62227 },	-- Ban Bearheart
-						["description"] = "This version is available if you abandon the other version.",
-						["sourceQuest"] = 30752,	-- Unbelievable!
-						["isBreadcrumb"] = true,
-					}),
 					q(30944, {	-- It Takes A Village
 						["coord"] = { 62.3, 29.0, KUN_LAI_SUMMIT },
 						["provider"] = { "n", 61371 },	-- Lorewalker Cho
