@@ -76,28 +76,27 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 		["groups"] = {
 			-- #if AFTER MOP
+			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC, {
+				e(674, {	-- High Inquisitor Whitemane
+					["crs"] = {
+						3977,	-- High Inquisitor Whitemane
+						60040,	-- Commander Durand
+					},
+					["timeline"] = { ADDED_5_0_4 },
+					["groups"] = {
+						ach(637),	-- Scarlet Monastery
+						ach(5046, {	-- Scarlet Monastery Guild Run
+							["timeline"] = { ADDED_5_0_4 },
+						}),
+					},
+				}),
+			}),
 			d(DIFFICULTY.DUNGEON.NORMAL, {
 			-- #endif
 				-- #if BEFORE 5.0.4
 				-- #if AFTER 3.0.1
 				n(ACHIEVEMENTS, {
-					ach(637, {	-- Scarlet Monastery
-						crit(533, {	-- High Inquisitor Whitemane
-							["_npcs"] = { 3977 },	-- High Inquisitor Whitemane
-						}),
-						crit(3264, {	-- Scarlet Commander Mograine
-							["_npcs"] = { 3976 },	-- Scarlet Commander Mograine
-						}),
-						crit(536, {	-- Herod
-							["_npcs"] = { 3975 },	-- Herod
-						}),
-						crit(535, {	-- Arcanist Doan
-							["_npcs"] = { 6487 },	-- Arcanist Doan
-						}),
-						crit(537, {	-- Bloodmage Thalnos
-							["_npcs"] = { 4543 },	-- Bloodmage Thalnos
-						}),
-					}),
+					ach(637),	-- Scarlet Monastery (automated)
 					ach(5046, {	-- Scarlet Monastery Guild Run
 						["timeline"] = { ADDED_4_0_3 },
 					}),
@@ -1070,10 +1069,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					},
 					["timeline"] = { ADDED_5_0_4 },
 					["groups"] = {
-						ach(637),	-- Scarlet Monastery
-						ach(5046, {	-- Scarlet Monastery Guild Run
-							["timeline"] = { ADDED_5_0_4 },
-						}),
 						i(88301),	-- Greatstaff of Righteousness
 						i(88297),	-- Lightbreaker Greatsword
 						i(88299),	-- Whitemane's Embroidered Chapeau
@@ -1215,7 +1210,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 							ach(6761),	-- Heroic: Scarlet Monastery
 							ach(6770),	-- Heroic: Scarlet Monastery Guild Run
-							ach(637),	-- Scarlet Monastery
 							i(144189, {	-- Greatstaff of Righteousness
 								["timeline"] = { ADDED_7_1_5 },
 							}),
