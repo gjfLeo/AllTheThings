@@ -180,13 +180,7 @@ root(ROOTS.Zones, {
 					crit(21484),	-- The Storm Peaks
 					crit(21485),	-- Zul'Drak
 				}))),
-				petbattle(ach(6605, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {	-- Taming Northrend
-					crit(21848),	-- Beegle Blastfuse [Howling Fjord]
-					crit(21849),	-- Nearly Headless Jacob [Crystalsong Forest]
-					crit(21850),	-- Okrut Dragonwaste [Dragonblight]
-					crit(21851),	-- Gutretch [Zul'Drak]
-					crit(21852),	-- Major Payne [Icecrown]
-				}))),
+				petbattle(ach(6605, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }))),	-- Taming Northrend
 				ach(2557, {	-- To All The Squirrels Who Shared My Life
 					-- #if ANYCLASSIC
 					crit(9299, {	-- Arctic Hare (Dragonblight, Zul'Drak, Borean Tundra)
