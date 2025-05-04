@@ -1232,6 +1232,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						i(95202),	-- Necklace of the Terra-Cotta Archer
 						i(95203),	-- Necklace of the Terra-Cotta Invoker
 						i(95204),	-- Necklace of the Terra-Cotta Mender
+						i(95206),	-- Necklace of the Terra-Cotta Protector
 						i(95219),	-- Spiderweb Tabi
 						i(94295),	-- Primal Egg
 					},

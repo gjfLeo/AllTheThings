@@ -1068,15 +1068,18 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				-- #endif
 				["ignoreBonus"] = true,
 				["g"] = {
+					i(89808, {	-- Dividends of the Everlasting Spring (Original)
+						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
+						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+					}),
+					i(89857, {	-- Dividends of the Everlasting Spring (Original)
+						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
+						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+					}),
 					i(95617, {	-- Dividends of the Everlasting Spring
-						-- #if AFTER 8.0.1
-						["description"] = "Since the introduction of Legacy Loot, this bag is only obtainable if you queue up as a Level 91-100 for the intended raid.  If you are 101+ then you will need to seek out each item based on their original sources.  This change occured in Patch 8.0.1.",
-						-- #endif
-						["timeline"] = { ADDED_5_1_0, REMOVED_8_0_1 },
-						["sym"] = {
-							{ "select", "itemID", 95618 },
-							{ "pop" },
-						},
+						["description"] = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Heart of Fear.",
+						["timeline"] = { ADDED_5_2_0, REMOVED_8_0_1 },
+						["sym"] = {{ "select", "itemID", 95618 }},	-- Cache of Mogu Riches
 					}),
 					header(HEADERS.Achievement, 6689, {	-- Terrace of Endless Spring
 						e(683, {	-- Protectors of the Endless

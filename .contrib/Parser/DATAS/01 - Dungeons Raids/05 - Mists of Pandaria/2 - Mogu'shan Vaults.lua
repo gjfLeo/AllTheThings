@@ -120,33 +120,48 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				-- #endif
 				["ignoreBonus"] = true,
 				["g"] = {
+					i(89804, {	-- Cache of Mogu Riches (Original)
+						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
+						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+					}),
+					i(89858, {	-- Cache of Mogu Riches (Original)
+						["description"] = "Contains 28g 50s.\n\nThis item and other consolation items like it created many riots on the WoW Forums and continued to do so until they added the updated bags in 5.2.0.",
+						["timeline"] = { ADDED_5_1_0, REMOVED_5_2_0 },
+					}),
 					i(95618, {	-- Cache of Mogu Riches
-						-- Could sym it to every Mogu boss for MOP Classic
 						["description"] = "This item is awarded as a consolation prize to players who do not win loot after defeating a boss encounter in the Raid Finder mode of Mogu'shan Vaults.",
-						["timeline"] = { ADDED_5_1_0, REMOVED_8_0_1 },
+						["timeline"] = { ADDED_5_2_0, REMOVED_8_0_1 },
 						["sym"] = {MOP_SYM_PETS},
 						["g"] = {
-							i(95972),	-- Abandoned Zandalari Arrowlinks
-							i(95976),	-- Abandoned Zandalari Bucklebreaker
-							i(95961),	-- Abandoned Zandalari Firecord
-							i(95975),	-- Abandoned Zandalari Goreplate
-							i(95974),	-- Abandoned Zandalari Greatbelt
-							i(95971),	-- Abandoned Zandalari Moonstrap
-							i(95962),	-- Abandoned Zandalari Shadowgirdle
-							i(95970),	-- Abandoned Zandalari Silentbelt
-							i(95973),	-- Abandoned Zandalari Waterchain
-							i(95979),	-- Columnbreaker Stompers
-							i(95966),	-- Deeproot Treads
-							i(95965),	-- Home-Warding Slippers
-							i(95978),	-- Locksmasher Greaves
-							i(95958),	-- Necklace of the Terra-Cotta Archer
-							i(95969),	-- Necklace of the Terra-Cotta Mender
-							i(95980),	-- Necklace of the Terra-Cotta Protector
-							i(95960),	-- Scalehide Spurs
-							i(95963),	-- Silentflame Sandals
-							i(95959),	-- Spiderweb Tabi
-							i(95967),	-- Spiritbound Boots
-							i(95968),	-- Vaultwalker Sabatons
+							-- Belts
+							i(86884),	-- Belt of Embodied Terror
+							i(86900),	-- Binder's Chain of Unending Summer
+							i(86895),	-- Healer's Belt of Final Winter
+							i(86896),	-- Invoker's Belt of Final Winter
+							i(86902),	-- Mender's Girdle of Endless Spring
+							i(86904),	-- Patroller's Girdle of Endless Spring
+							i(86903),	-- Protector's Girdle of Endless Spring
+							i(86901),	-- Ranger's Chain of Unending Summer
+							i(86897),	-- Sorcerer's Belt of Final Winter
+							i(86899),	-- Stalker's Cord of Eternal Autumn
+							i(86898),	-- Weaver's Cord of Eternal Autumn
+							-- Bracers
+							i(86850),	-- Darting Damselfly Cuffs
+							i(86844),	-- Gleaming Moth Cuffs
+							i(86846),	-- Inlaid Cricket Bracers
+							i(86847),	-- Jagged Hornet Bracers
+							i(86842),	-- Luminescent Firefly Wristguards
+							i(86845),	-- Pearlescent Butterfly Wristbands
+							i(86849),	-- Plated Locust Bracers
+							i(86848),	-- Serrated Wasp Bracers
+							i(86841),	-- Shining Cicada Bracers
+							i(86843),	-- Smooth Beetle Wristbands
+							-- Trinkets
+							i(86772),	-- Jade Bandit Figurine
+							i(86771),	-- Jade Charioteer Figurine
+							i(86774),	-- Jade Courtesan Figurine
+							i(86773),	-- Jade Magistrate Figurine
+							i(86775),	-- Jade Warlord Figurine
 						},
 					}),
 					header(HEADERS.Achievement, 6458, {	-- Guardians of Mogu'shan

@@ -1,9 +1,10 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
 	applyclassicphase(MOP_PHASE_LANDFALL, n(ACHIEVEMENTS, {
 		ach(6924, {	-- 100,000 Valor Points
+			-- TODO: Move this to Character, it's not expansion specific
 			["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 		}),
 		ach(6927, {	-- Glory of the Pandaria Hero
@@ -92,35 +93,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				6763,	-- Heroic: Siege of Niuzao Temple
 			}},
 		}),
-		ach(6715, sharedData({	-- Polyformic Acid Science
-			["cost"] = {
-				{ "i", 85589, 1 },	-- Nearly Full Vial of Polyformic Acid
-				{ "i", 85592, 1 },	-- Half Full Vial of Polyformic Acid
-				{ "i", 85593, 1 },	-- Nearly Empty Vial of Polyformic Acid
-			},
-		},{
-			crit(19603, {	-- Commander Ri'mok
-				["_encounter"] = { 676, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-			crit(19605, {	-- Liu Flameheart
-				["_encounter"] = { 658, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-			crit(19606, {	-- Gu Cloudstrike
-				["_encounter"] = { 673, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-			crit(19609, {	-- Trial of the King
-				["_encounter"] = { 708, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-			crit(19604, {	-- Vizier Jin'bak
-				["_encounter"] = { 693, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-			crit(19608, {	-- Yan-Zhu the Uncasked
-				["_encounter"] = { 670, DIFFICULTY.DUNGEON.HEROIC },
-			}),
-		})),
 		ach(13469, bubbleDownSelf({ ["timeline"] = { ADDED_8_1_5 } }, {	-- Raiding with Leashes VI: Pets of Pandaria
 			i(167057),	-- Happiness (PET!)
 		})),
-		ach(11757, {["timeline"] = {ADDED_7_2_0}}),	-- Sha of Fabulous (Heart of Fear and Terrace of Endless Spring)
 	})),
 })));

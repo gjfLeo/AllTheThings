@@ -22,6 +22,35 @@ local SCHOLOMANCE_LEGACY_DATA = bubbleDownSelf({ ["timeline"] = { REMOVED_5_0_4,
 				["_npcs"] = { 10506 },
 			}),
 		})),
+		ach(6715, {	-- Polyformic Acid Science
+			["timeline"] = { ADDED_5_1_0 },
+			["groups"] = sharedData({
+				["cost"] = {
+					{ "i", 85589, 1 },	-- Nearly Full Vial of Polyformic Acid
+					{ "i", 85592, 1 },	-- Half Full Vial of Polyformic Acid
+					{ "i", 85593, 1 },	-- Nearly Empty Vial of Polyformic Acid
+				},
+			},{
+				crit(19603, {	-- Commander Ri'mok
+					["_encounter"] = { 676, DIFFICULTY.DUNGEON.HEROIC },
+				}),
+				crit(19605, {	-- Liu Flameheart
+					["_encounter"] = { 658, DIFFICULTY.DUNGEON.HEROIC },
+				}),
+				crit(19606, {	-- Gu Cloudstrike
+					["_encounter"] = { 673, DIFFICULTY.DUNGEON.HEROIC },
+				}),
+				crit(19609, {	-- Trial of the King
+					["_encounter"] = { 708, DIFFICULTY.DUNGEON.HEROIC },
+				}),
+				crit(19604, {	-- Vizier Jin'bak
+					["_encounter"] = { 693, DIFFICULTY.DUNGEON.HEROIC },
+				}),
+				crit(19608, {	-- Yan-Zhu the Uncasked
+					["_encounter"] = { 670, DIFFICULTY.DUNGEON.HEROIC },
+				}),
+			}),
+		}),
 		ach(645, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 } }, {	-- Scholomance
 			crit(548, {	-- Ras Frostwhisper
 				["_npcs"] = { 10508 },	-- Ras Frostwhisper

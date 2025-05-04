@@ -397,6 +397,9 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 		}),
 		ach(6926, {	-- Tranquil Master
 			title(203),	-- the Tranquil Master
+			crit(19136, {	-- Sha of Anger slain
+				["sourceQuests"] = { 32099 },	-- Sha of Anger
+			}),
 			crit(19668, {	-- Sha of Doubt
 				["_encounter"] = { 335, DIFFICULTY.DUNGEON.HEROIC },
 			}),
