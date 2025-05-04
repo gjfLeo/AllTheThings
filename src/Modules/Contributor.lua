@@ -194,6 +194,7 @@ MobileDB.Creature = {
 	 [19644] = true,	-- Image of Archmage Vargoth
 	 [19935] = true,	-- Soridormi
 	 [19936] = true,	-- Arazmodu
+	 [22817] = true,	-- Blood Elf Orphan
 	 [22818] = true,	-- Draenei Orphan
 	 [23870] = true,	-- Ember Clutch Ancient
 	 [26206] = true,	-- Keristrasza
