@@ -171,7 +171,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["description"] = "Keep this in your bank until the appearance can be learned again, otherwise you'll need to obtain it again. Fair warning!",
 						["collectible"] = false,  -- remove when Blizzard fix fish collection
 						-- #endif
-						-- #endif
 						["timeline"] = { ADDED_2_3_0 },
 					}),
 				}),
