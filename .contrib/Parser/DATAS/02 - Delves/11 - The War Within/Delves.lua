@@ -1477,6 +1477,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(234619, {	-- Ultimate Orange O-pocalypse (Curio buff item)
 				["timeline"] = { ADDED_11_1_0_SEASONSTART },
 			}),
+			i(234620, { ["timeline"] = { ADDED_11_1_0_SEASONSTART } }),	-- Perfectly Preserved Kaja'Classic Original Taste
 			--
 			i(228560),	-- Ancient Curio (QI!/QS!)
 			i(228581),	-- Ancient Curio (QI!/QS!)
