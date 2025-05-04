@@ -315,6 +315,25 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 				}),
 			}),
 			n(VENDORS, {
+				n(COMMON_VENDOR_ITEMS, {
+					["aqd"] = {
+						["provider"] = { "n", 73614 },	-- Tinkmaster Overspark <Alliance Supplies> [A]
+					},
+					["hqd"] = {
+						["provider"] = { "n", 73715 },	-- Rivett Clutchpop <Horde Supplies> [H]
+					},
+					["OnInit"] = [[function(t) _.ResolveQuestData(t); return t; end]],
+					["description"] = "Vendor spawns in after opening gate after the Malkorok Boss fight in Kor'kron Barracks.",
+					["g"] = {
+						i(23799, {	-- Schematic: Adamantite Rifle (RECIPE!)
+							["isLimited"] = true,
+						}),
+						i(23807),	-- Schematic: Adamantite Scope (RECIPE!)
+						i(23803),	-- Schematic: Cogspinner Goggles (RECIPE!)
+						i(23816),	-- Schematic: Fel Iron Toolbox (RECIPE!)
+						i(23805),	-- Schematic: Ultra-Spectropic Detection Goggles (RECIPE!)
+					},
+				}),
 				n(SOO_RAID_FINDER_VENDOR, {
 					["aqd"] = n(74020, {	-- Welbiz Cheerwhistle <Raid Finder Vendor> [A]
 						["coord"] = { 41.0, 42.5, 394 },
@@ -1105,11 +1124,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 						i(5643),	-- Recipe: Great Rage Potion (RECIPE!)
 						i(5640),	-- Recipe: Rage Potion (RECIPE!)
 					},
-				}),
-				n(73614, {	-- Tinkmaster Overspark <Alliance Supplies>
-					["description"] = "Vendor spawns in after opening gate after the Malkorok Boss fight in Kor'kron Barracks.",
-					["races"] = ALLIANCE_ONLY,
-					["sym"] = {{"select","npcID",90866},{"pop"}},	-- Tinkmaster Overspark <Chief Architect of Gnomish Engineering>
 				}),
 			}),
 			d(CURRENT_ALL_DIFFICULTIES, {				-- All Difficulties (Also placeholders for achievement criteria, do not delete!)
