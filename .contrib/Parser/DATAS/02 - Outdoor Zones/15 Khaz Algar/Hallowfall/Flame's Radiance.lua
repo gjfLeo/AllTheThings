@@ -68,6 +68,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(233290),	-- Sacred Templar's Tabard
 					}),
 					q(89397),	-- Flame's Radiance Stipend
+					------ Paragon ------
+					q(89515, {	-- Renowned with the Cartels of Undermine
+						["isRepeatable"] = true,
+						["g"] = {
+							i(239489 ),	-- Radiants officer cache 
+						},
+					}),
 				},
 			}))),
 			n(VENDORS, {
