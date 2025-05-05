@@ -760,7 +760,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								["qg"] = 170881, -- Lucky Ansel
 								["coord"] = { 53.3, 36.5, 1644 }, -- Ember Court
 								["g"] = {
-									o(354713, {	-- Ansel's Lucky Violin
+									o(354173, {	-- Ansel's Lucky Violin
 										["coord"] = { 60, 48.2, 1644 },
 										["g"] = { i(180485) },	-- Ansel's Lucky Violin
 									}),
@@ -771,7 +771,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 								["coord"] = { 53.1, 36.2, 1644 }, -- Ember Court
 								["g"] = {
 									o(354174, {	-- Chiu's Lute
-										["coord"] = { 60, 48.2, 1644 },
+										["coord"] = { 38, 31.9, 1644 },
 										["g"] = { i(180486) },	-- Chiu's Lute
 									}),
 								},
