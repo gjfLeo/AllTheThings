@@ -261,6 +261,7 @@ root(ROOTS.Zones, {
 				-- #endif
 				petbattle(ach(6602, {	-- Taming Kalimdor
 					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
 				})),
 			}),
 		},
