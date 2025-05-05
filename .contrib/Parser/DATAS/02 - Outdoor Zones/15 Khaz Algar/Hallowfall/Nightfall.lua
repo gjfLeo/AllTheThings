@@ -42,9 +42,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["provider"] = { "n", 234774 },	-- Mylton Wyldbraun
 						["coord"] = { 28.3, 56.1, HALLOWFALL },
 						["isWeekly"] = true,
-						["sym"] = {{"select","itemID",
-							239546,	-- Confiscated Cultist's Bag
-						}},
+						["g"] = {
+							i(239546, {	-- Confiscated Cultist's Bag
+								["sym"] = {{"fill"}},
+							}),
+						},
 				}, {
 					q(88945),	-- Radiant Incursion: Rak-Zakaz
 					q(88916),	-- Radiant Incursion: Sureki's End
@@ -52,6 +54,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["g"] = {
 							o(529289, {	-- Spore Sample
 								i(240215),	-- Fungal Sample (QI!)
+							}),
+							i(239546, {	-- Confiscated Cultist's Bag
+								["sym"] = {{"fill"}},
 							}),
 						},
 					}),
@@ -66,7 +71,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							}),
 						},
 					}),
-					q(91173),	-- The Flame Burns Eternal
+					q(91173, {	-- The Flame Burns Eternal
+						["g"] = {
+							i(239004, {	-- Radiant Service Satchel
+								i(RADIANT_EMBLEM),
+							}),
+						},
+					}),
 				})),
 				n(RARES, {
 					n(COMMON_BOSS_DROPS, {
