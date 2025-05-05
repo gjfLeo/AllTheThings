@@ -69,10 +69,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					q(89397),	-- Flame's Radiance Stipend
 					------ Paragon ------
-					q(89515, {	-- Renowned with the Cartels of Undermine
+					q(89515, {	-- Renowned with Flame's Radiance
 						["isRepeatable"] = true,
 						["g"] = {
-							i(239489 ),	-- Radiants officer cache 
+							i(239489),	-- Radiant Officer's Cache
 						},
 					}),
 				},
