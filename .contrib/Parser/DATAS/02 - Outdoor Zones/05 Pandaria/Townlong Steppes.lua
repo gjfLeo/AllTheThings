@@ -1458,8 +1458,40 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(TREASURES, {
+					o(213961, {	-- Abandoned Crate of Goods
+						["questID"] = 31427,	-- Abandoned Crate of Goods
+						["coord"] = { 62.8, 34.1, TOWNLONG_STEPPES },
+					}),
+					o(213844, {	-- Amber Encased Moth
+						["questID"] = 31426,
+						["coord"] = { 65.8, 86.1, TOWNLONG_STEPPES },
+						["g"] = {
+							i(86472),	-- Amber Encased Moth
+						},
+					}),
 					o(213418, {	-- Dominance
 						["coord"] = { 65.5, 50.0, TOWNLONG_STEPPES },
+					}),
+					o(213956, {	-- Fragment of Dread
+						["questID"] = 31423,
+						["coords"] = {
+							{ 64.2, 20.3, 389 },	-- Niuzao Catacombs
+							{ 37.7, 87.0, 389 },	-- Niuzao Catacombs
+							{ 47.8, 89.0, 389 },	-- Niuzao Catacombs
+							{ 56.5, 64.7, 389 },	-- Niuzao Catacombs
+						},
+						["description"] = "Entrance is at |cFFFFD70032.6 61.8|r. There are 4 possible spawn points.",
+						["g"] = {
+							i(86516),	-- Fragment of Dread
+						},
+					}),
+					o(213959, {	-- Hardened Sap of Kri'vess
+						["questID"] = 31424,
+						["description"] = "Located all around Kri'vess.",
+						["coord"] = { 53.9, 58.4, TOWNLONG_STEPPES },
+						["g"] = {
+							i(86517),	-- Hardened Sap of Kri'vess
+						},
 					}),
 					o(213445, {	-- The Emperor's Burden - Part 5
 						["coord"] = { 37.7, 62.9, TOWNLONG_STEPPES },

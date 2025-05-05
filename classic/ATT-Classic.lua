@@ -2341,7 +2341,9 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 			if achievementID then
 				local criteriaID = t.criteriaID;
 				if criteriaID then
-					local name = t.GetInfo(achievementID, criteriaID, true) or app.GetNameFromProviders(t);
+					local name = t.GetInfo(achievementID, criteriaID, true);
+					if not IsRetrieving(name) then return name; end
+					name = app.GetNameFromProviders(t);
 					if not IsRetrieving(name) then return name; end
 					local sourceQuests = t.sourceQuests;
 					if sourceQuests then
