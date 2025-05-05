@@ -22,18 +22,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				n(QUESTS, {
 					q(85005, {	-- A Radiant Call
-						--["sourceQuests"] = { xxx },	-- ??
 						["provider"] = { "n", 242126 },	-- Flame's Radiance Recruiter
 						["coord"] = { 45.9, 49.3, DORNOGAL },
-						["isBreadcrumb"] = true,	-- TODO: unsure
 					}),
 					q(89332, {	-- Boot Camp
-						["sourceQuests"] = { 85005 },	-- A Radiant Call (TODO: unsure)
 						["provider"] = { "n", 234774 },	-- Mylton Wyldbraun
 						["coord"] = { 28.3, 56.1, HALLOWFALL },
 					}),
 					q(89331, {	-- Flame Fortification
-						["sourceQuests"] = { 85005 },	-- A Radiant Call (TODO: unsure)
 						["provider"] = { "n", 234774 },	-- Mylton Wyldbraun
 						["coord"] = { 28.3, 56.1, HALLOWFALL },
 					}),
