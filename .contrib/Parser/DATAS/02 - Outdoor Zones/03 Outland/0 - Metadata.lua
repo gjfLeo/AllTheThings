@@ -51,12 +51,7 @@ root(ROOTS.Zones, {
 				}),
 				-- #endif
 				ach(1311, {	-- Medium Rare
-					["sym"] =
-					-- #IF ANYCLASSIC
-						{{"select","achievementID",1312},{"pop"}},	-- Bloody Rare Criteria
-					-- #ELSE
-						{{"partial_achievement",1312}},	-- Bloody Rare
-					-- #ENDIF
+					["sym"] = {{"partial_achievement",1312}},	-- Bloody Rare
 					["timeline"] = { ADDED_3_0_2 },
 				}),
 				applyclassicphase(TBC_PHASE_ONE, ach(44, {	-- Outland Explorer [7.0.3] / Explore Outland

@@ -84,10 +84,12 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 		-- Rare Hunting
 		ach(7437, {	-- A Worthy Opponent
 			["_noautomation"] = true,	-- Glorious! shows them all anyways
+			["sym"] = {{"partial_achievement",7439}},	-- Glorious!
 			["rank"] = 1,
 		}),
 		ach(7438, {	-- Could We Find More Like That?
 			["_noautomation"] = true,	-- Glorious! shows them all anyways
+			["sym"] = {{"partial_achievement",7439}},	-- Glorious!
 			["rank"] = 8,
 		}),
 		ach(7439, {	-- Glorious!
@@ -100,14 +102,17 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 		-- Treasure Hunting
 		ach(7281, {	-- Lost and Found
 			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
+			["sym"] = {{"partial_achievement",7284}},	-- Is Another Man's Treasure
 			["rank"] = 1,
 		}),
 		ach(7282, {	-- Finders Keepers
 			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
+			["sym"] = {{"partial_achievement",7284}},	-- Is Another Man's Treasure
 			["rank"] = 5,
 		}),
 		ach(7283, {	-- One Man's Trash...
 			["_noautomation"] = true,	-- Is Another Man's Treasure shows them all anyways
+			["sym"] = {{"partial_achievement",7284}},	-- Is Another Man's Treasure
 			["rank"] = 10,
 		}),
 		ach(7284, {	-- Is Another Man's Treasure
@@ -118,14 +123,17 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 		}),
 		ach(7994, {	-- Treasure of Pandaria
 			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
+			["sym"] = {{"partial_achievement",7997}},	-- Riches of Pandaria
 			["rank"] = 1,
 		}),
 		ach(7995, {	-- Fortune of Pandaria
 			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
+			["sym"] = {{"partial_achievement",7997}},	-- Riches of Pandaria
 			["rank"] = 5,
 		}),
 		ach(7996, {	-- Bounty of Pandaria
 			["_noautomation"] = true,	-- Riches of Pandaria shows them all anyways
+			["sym"] = {{"partial_achievement",7997}},	-- Riches of Pandaria
 			["rank"] = 10,
 		}),
 		ach(7997),	-- Riches of Pandaria

@@ -225,6 +225,7 @@ root(ROOTS.Zones, {
 					["races"] = ALLIANCE_ONLY,
 					-- #endif
 				}),
+				-- #if BEFORE 5.0.4
 				ach(1677, {	-- Loremaster of Eastern Kingdoms (H)
 					-- #if AFTER CATA
 					["sym"] = {{"meta_achievement",
@@ -254,6 +255,7 @@ root(ROOTS.Zones, {
 					["timeline"] = { REMOVED_5_0_4 },
 					["races"] = HORDE_ONLY,
 				}),
+				-- #endif
 				petbattle(ach(6603, {	-- Taming Eastern Kingdoms
 					["timeline"] = { ADDED_5_0_4 },
 					["races"] = ALLIANCE_ONLY,
