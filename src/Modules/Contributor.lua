@@ -393,6 +393,7 @@ MobileDB.GameObject = {
 	 [30856] = true,	-- Atal'ai Artifact (q:27694)
 	 [74448] = true,	-- Large Solid Chest
 	 [75298] = true,	-- Large Solid Chest
+	 [75300] = true,	-- Large Solid Chest
 	[113768] = true,	-- Brightly Colored Egg
 	[113769] = true,	-- Brightly Colored Egg
 	[113770] = true,	-- Brightly Colored Egg
