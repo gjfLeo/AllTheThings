@@ -54,10 +54,21 @@ local EncounterToLoot = {
 	},
 }
 
+------ EncounterCoords ------
+local EncounterCoords = {
+	[ORTA] = { 18.3, 33.1, NERUBAR },
+	[AOH] = { 64.8, 87.0, THE_RINGING_DEEPS },
+	[KORDAC] = { 48.8, 61.9, ISLE_OF_DORN },
+	[SHURRAI] = { 45.6, 18.4, HALLOWFALL },
+	[GOBFATHER] = { 58.9, 11.2, UNDERMINE },
+}
+
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot)
 local Boss, BossWorldQuest =
 InstanceHelper.Boss, InstanceHelper.BossWorldQuest
+
+InstanceHelper.Coords = EncounterCoords
 
 root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(WORLD_BOSSES, {
@@ -84,43 +95,29 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					i(225734),	-- Sturdy Chitinous Striders
 				},
 			}),
-			Boss(ORTA, {
-				["coord"] = { 18.3, 33.1, NERUBAR },
+			Boss(ORTA, {	-- Orta, the Broken Mountain
 				["questID"] = 83468,
 			}),
-			BossWorldQuest(ORTA, 81624, {	-- Orta, the Broken Mountain (WQ)
-				["coord"] = { 18.3, 33.1, NERUBAR },
-			}),
-			Boss(2635, {	-- Aggregation of Horrors
-				["coord"] = { 64.8, 87.0, THE_RINGING_DEEPS },
+			BossWorldQuest(ORTA, 81624),	-- Orta, the Broken Mountain (WQ)
+			Boss(AOH, {	-- Aggregation of Horrors
 				["questID"] = 83466,
 			}),
-			BossWorldQuest(AOH, 82653, {	-- Aggregation of Horrors (WQ)
-				["coord"] = { 64.8, 87.0, THE_RINGING_DEEPS },
-			}),
-			Boss(2637, {	-- Kordac, the Dormant Protector
-				["coord"] = { 48.8, 61.9, ISLE_OF_DORN },
+			BossWorldQuest(AOH, 82653),	-- Aggregation of Horrors (WQ)
+			Boss(KORDAC, {	-- Kordac, the Dormant Protector
 				--["questID"] = xx,
 			}),
-			BossWorldQuest(KORDAC, 81630, {	-- Activation Protocol (WQ)
-				["coord"] = { 48.8, 61.9, ISLE_OF_DORN },
-			}),
+			BossWorldQuest(KORDAC, 81630),	-- Activation Protocol (WQ)
 			Boss(SHURRAI, {	-- Shurrai, Atrocity of the Undersea
-				["coord"] = { 45.6, 18.4, HALLOWFALL },
 				["questID"] = 83467,
 			}),
-			BossWorldQuest(SHURRAI, 81653, {	-- Shurrai, Atrocity of the Undersea (WQ)
-				["coord"] = { 45.6, 18.4, HALLOWFALL },
-			}),
-			Boss(GOBFATHER,	-- The Gobfather
-			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
-				["coord"] = { 58.9, 11.2, UNDERMINE },
+			BossWorldQuest(SHURRAI, 81653),	-- Shurrai, Atrocity of the Undersea (WQ)
+			Boss(GOBFATHER, {	-- The Gobfather
 				["questID"] = 85089,
-			})),
-			BossWorldQuest(GOBFATHER, 85088,	-- The Main Event (WQ)
-			bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
-				["coord"] = { 58.9, 11.2, UNDERMINE },
-			})),
+				["timeline"] = { ADDED_11_1_0_SEASONSTART }
+			}),
+			BossWorldQuest(GOBFATHER, 85088, {	-- The Main Event (WQ)
+				["timeline"] = { ADDED_11_1_0_SEASONSTART }
+			}),
 		}),
 	}),
 })));

@@ -32,8 +32,8 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 				add(encounter, id, CurrentDifficultyID, data)
 			end
 		end
-		if helper.Coords and not encounter.coords then
-			encounter.coords = helper.Coords[id]
+		if helper.Coords and not encounter.coord then
+			encounter.coord = helper.Coords[id]
 		end
 		encounter.groups = appendAllGroups(encounter.groups, clone(loots[id]))
 		return encounter
@@ -46,8 +46,8 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 		if not quest.sym then
 			quest.sym = {{"select","encounterID",id,},{"pop"}}	-- Original WB
 		end
-		if helper.Coords and not quest.coords then
-			quest.coords = helper.Coords[id]
+		if helper.Coords and not quest.coord then
+			quest.coord = helper.Coords[id]
 		end
 		return quest
 	end

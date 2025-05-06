@@ -106,11 +106,22 @@ local EncounterToLoot = {
 	},
 }
 
+------ EncounterCoords ------
+local EncounterCoords = {
+	[ANTROS] = { 48, 5, ZERETH_MORTIS },
+	[MORGETH] = { 69.1, 44.2, THE_MAW },
+	[MORTANIS] = { 32.1, 67.3, MALDRAXXUS },
+	[NURGASH] = { 27.2, 14.9, REVENDRETH },
+	[ORANOMONOS] = { 20.2, 63.6, ARDENWEALD },
+	[VALINOR] = { 26.3, 22.4, BASTION },
+}
+
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot)
 local Boss, BossWorldQuest, CommonBossDrops =
 InstanceHelper.Boss, InstanceHelper.BossWorldQuest, InstanceHelper.CommonBossDrops
 
+InstanceHelper.Coords = EncounterCoords
 root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	n(WORLD_BOSSES, {
 		["isRaid"] = true,
@@ -170,31 +181,27 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				i(183199),	-- Withering Ground
 				i(187882),	-- Alpaca Soul
 			}),
-			Boss(ANTROS, bubbleDownSelf({ ["timeline"] = { ADDED_9_2_0 } }, {	-- Antros <Keeper of the Antecedents>
+			Boss(ANTROS, {	-- Antros <Keeper of the Antecedents>
 				["questID"] = 65695,
-				["coord"] = { 48, 5, ZERETH_MORTIS },
-			})),
+				["timeline"] = { ADDED_9_2_0 },
+			}),
 			BossWorldQuest(ANTROS, 65143, {	-- Antros (WQ)
-				["coord"] = { 48, 5, ZERETH_MORTIS },
+				["timeline"] = { ADDED_9_2_0 },
 			}),
 			BossWorldQuest(ANTROS, 66619, {	-- Antros (Fated)
-				["coord"] = { 48, 5, ZERETH_MORTIS },
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
 					{"select","encounterID",ANTROS,},{"pop"},	-- Original WB
 					{"modID",89},								-- Make the Items 'Fated'
 				},
 			}),
-			Boss(2456, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Mor'geth <Tormentor of the Damned>
+			Boss(2456, {	-- Mor'geth <Tormentor of the Damned>
 				["questID"] = 64547,
-				["coord"] = { 69.1, 44.2, THE_MAW },
 				["maps"] = { 1820, 1821, 1822, 1823 },	-- all maps in the Maw
-			})),
-			BossWorldQuest(MORGETH, 64531, {	-- Mor'geth (WQ)
-				["coord"] = { 69.1, 44.2, THE_MAW },
+				["timeline"] = { ADDED_9_1_0 },
 			}),
+			BossWorldQuest(MORGETH, 64531),	-- Mor'geth (WQ)
 			BossWorldQuest(MORGETH, 66618, {	-- Mor'geth (Fated)
-				["coord"] = { 69.1, 44.2, THE_MAW },
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
 					{"select","encounterID",MORGETH,},{"pop"},	-- Original WB
@@ -203,13 +210,9 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			Boss(2431, {	-- Mortanis
 				["questID"] = 62810,
-				["coord"] = { 32.1, 67.3, MALDRAXXUS },
 			}),
-			BossWorldQuest(MORTANIS, 61816, {	-- Mortanis (WQ)
-				["coord"] = { 32.1, 67.3, MALDRAXXUS },
-			}),
+			BossWorldQuest(MORTANIS, 61816),	-- Mortanis (WQ)
 			BossWorldQuest(MORTANIS, 66617, {	-- Mortanis (Fated)
-				["coord"] = { 32.1, 67.3, MALDRAXXUS },
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
 					{"select","encounterID",2431,},{"pop"},	-- Original WB
@@ -218,13 +221,9 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			Boss(NURGASH, {	-- Nurgash Muckformed
 				["questID"] = 62812,
-				["coord"] = { 27.2, 14.9, REVENDRETH },
 			}),
-			BossWorldQuest(NURGASH, 61814, {	-- Nurgash Muckfromed (WQ)
-				["coord"] = { 27.2, 14.9, REVENDRETH },
-			}),
+			BossWorldQuest(NURGASH, 61814),	-- Nurgash Muckfromed (WQ)
 			BossWorldQuest(NURGASH, 66615, {	-- Nurgash Muckfromed (Fated)
-				["coord"] = { 27.2, 14.9, REVENDRETH },
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
 					{"select","encounterID",NURGASH,},{"pop"},	-- Original WB
@@ -233,13 +232,9 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			Boss(2432, {	-- Oranomonos the Everbranching
 				["questID"] = 62811,
-				["coord"] = { 20.2, 63.6, ARDENWEALD },
 			}),
-			BossWorldQuest(ORANOMONOS, 61815, {	-- Oranomonos the Everbranching (WQ)
-				["coord"] = { 20.2, 63.6, ARDENWEALD },
-			}),
+			BossWorldQuest(ORANOMONOS, 61815),	-- Oranomonos the Everbranching (WQ)
 			BossWorldQuest(ORANOMONOS, 66616, {	-- Oranomonos the Everbranching (Fated WQ)
-				["coord"] = { 20.2, 63.6, ARDENWEALD },
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
 					{"select","encounterID",2432,},{"pop"},	-- Original WB
@@ -248,16 +243,9 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			}),
 			Boss(VALINOR, {	-- Valinor, the Light of Eons
 				["questID"] = 62809,
-				["coord"] = { 26.3, 22.4, BASTION },
-				["crs"] = { 167524 },	-- Valinor, the Light of Eons
-				["g"] = sharedData({["modID"] = 3}, {
-				}),
 			}),
-			BossWorldQuest(VALINOR, 61813, {	-- Valinor, the Light of Eons (WQ)
-				["coord"] = { 26.3, 22.4, BASTION },
-			}),
+			BossWorldQuest(VALINOR, 61813),	-- Valinor, the Light of Eons (WQ)
 			BossWorldQuest(VALINOR, 66614, {	-- Valinor, the Light of Eons (Fated WQ)
-				["coord"] = { 26.3, 22.4, BASTION },
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
 					{"select","encounterID",2430,},{"pop"},	-- Original WB

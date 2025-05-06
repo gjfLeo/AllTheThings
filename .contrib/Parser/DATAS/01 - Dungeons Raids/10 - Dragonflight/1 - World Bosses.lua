@@ -88,10 +88,22 @@ local EncounterToLoot = {
 	},
 }
 
+------ EncounterCoords ------
+local EncounterCoords = {
+	[STRUNRAAN] = { 82.0, 76.0, OHNAHRAN_PLAINS },
+	[BASRIKRON] = { 55.0, 77.7, THE_WAKING_SHORES },
+	[BAZUAL] = { 77.7, 35.8, THE_AZURE_SPAN },
+	[LISKANOTH] = { 53.7, 64.5, 2085 },
+	[ELDERS] = { 27.5, 44.4, ZARALEK_CAVERN },
+	[AUROSTAR] = { 39.6, 54.1, EMERALD_DREAM },
+}
+
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot)
 local Boss, BossWorldQuest =
 InstanceHelper.Boss, InstanceHelper.BossWorldQuest
+
+InstanceHelper.Coords = EncounterCoords
 
 root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	n(WORLD_BOSSES, {
@@ -101,47 +113,33 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			["isWeekly"] = true,
 		},FILTERFUNC_questIDORencounterID,{
 			Boss(STRUNRAAN, {	-- Strunraan, The Sky's Misery
-				["coord"] = { 82.0, 76.0, OHNAHRAN_PLAINS },
 				["questID"] = 72055,
 			}),
-			BossWorldQuest(STRUNRAAN, 69929, {	-- Strunraan (WQ)
-				["coord"] = { 82.0, 76.0, OHNAHRAN_PLAINS },
-			}),
+			BossWorldQuest(STRUNRAAN, 69929),	-- Strunraan (WQ)
 			Boss(2506, {	-- Basrikron, The Shale Wing
-				["coord"] = { 55.0, 77.7, THE_WAKING_SHORES },
 				["questID"] = 72056,
 			}),
-			BossWorldQuest(BASRIKRON, 69930, {	-- Basrikron (WQ)
-				["coord"] = { 55.0, 77.7, THE_WAKING_SHORES },
-			}),
+			BossWorldQuest(BASRIKRON, 69930),	-- Basrikron (WQ)
 			Boss(2517, {	-- Bazual, The Dreaded Flame
-				["coord"] = { 77.7, 35.8, THE_AZURE_SPAN },
 				["questID"] = 72054,
 			}),
-			BossWorldQuest(BAZUAL, 69927, {	-- Bazual (WQ)
-				["coord"] = { 77.7, 35.8, THE_AZURE_SPAN },
-			}),
+			BossWorldQuest(BAZUAL, 69927),	-- Bazual (WQ)
 			Boss(2518, {	-- Liskanoth, The Futurebane
-				["coord"] = { 53.7, 64.5, 2085 },
 				["questID"] = 72057,
 			}),
-			BossWorldQuest(LISKANOTH, 69928, {	-- Liskanoth (WQ)
-				["coord"] = { 53.7, 64.5, 2085 },
-			}),
+			BossWorldQuest(LISKANOTH, 69928),	-- Liskanoth (WQ)
 			Boss(ELDERS, {	-- The Zaqali Elders
-				["coord"] = { 27.5, 44.4, ZARALEK_CAVERN },
+				["timeline"] = { ADDED_10_1_0 },
 			}),
 			BossWorldQuest(ELDERS, 74892, {	-- Zaqali Elders (WQ)
-				["coord"] = { 27.5, 44.4, ZARALEK_CAVERN },
+				["timeline"] = { ADDED_10_1_0 },
 			}),
-			Boss(2562,	-- Aurostor, The Hibernator
-			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
-				["coord"] = { 39.6, 54.1, EMERALD_DREAM },
-			})),
-			BossWorldQuest(AUROSTAR, 76367,	-- Hibernation Heroes
-			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
-				["coord"] = { 39.6, 54.1, EMERALD_DREAM },
-			})),
+			Boss(2562, {	-- Aurostor, The Hibernator
+				["timeline"] = { ADDED_10_2_0 },
+			}),
+			BossWorldQuest(AUROSTAR, 76367, {	-- Hibernation Heroes
+				["timeline"] = { ADDED_10_2_0 },
+			}),
 		}),
 	}),
 })));
