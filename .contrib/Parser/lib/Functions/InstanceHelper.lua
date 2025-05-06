@@ -40,7 +40,9 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 		local quest = q(questID, t)
 		quest.crs = crs[id]
 		quest.isWorldQuest = true
-		quest.sym = {{"select","encounterID",id,},{"pop"}}	-- Original WB
+		if not quest.sym then
+			quest.sym = {{"select","encounterID",id,},{"pop"}}	-- Original WB
+		end
 		return quest
 	end
 	local function WithUpgrades(groups)
