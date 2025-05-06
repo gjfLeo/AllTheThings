@@ -346,7 +346,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["provider"] = { "n", 159478 },	-- Tal-Inara
 				["coord"] = { 38.8, 69.9, ORIBOS },
 				["isBreadcrumb"] = true,
-				["timeline"] = { REMOVED_10_0_0, ADDED_11_1_0 },
+				["timeline"] = { ADDED_9_0_5, REMOVED_10_0_0, ADDED_11_1_0 },
 				["lockCriteria"] = { 4,	-- Completing 4 Zone Meta Quest
 					"questID", 62763,	-- Support the Court
 					"questID", 62723,	-- Bolstering Bastion
