@@ -35,6 +35,14 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 		encounter.groups = appendAllGroups(encounter.groups, clone(loots[id]))
 		return encounter
 	end
+	-- Represents a World Quest that requires defeating an Encounter
+	local function BossWorldQuest(id, questID, t)
+		local quest = q(questID, t)
+		quest.crs = crs[id]
+		quest.isWorldQuest = true
+		quest.sym = {{"select","encounterID",id,},{"pop"}}	-- Original WB
+		return quest
+	end
 	local function WithUpgrades(groups)
 		if not groups then return end
 		if not helper.UpgradeMapping then error("To use 'WithUpgrades', define InstanceHelper.UpgradeMapping = { [DifficultyID] = ModID.BonusID }") end
@@ -110,6 +118,7 @@ CreateInstanceHelper = function(crs, loots, zonedrops)
 
 	helper.BossOnly = BossOnly
 	helper.Boss = Boss
+	helper.BossWorldQuest = BossWorldQuest
 	helper.Difficulty = Difficulty
 	helper.CommonBossDrops = CommonBossDrops
 	helper.ZoneDrops = ZoneDrops
