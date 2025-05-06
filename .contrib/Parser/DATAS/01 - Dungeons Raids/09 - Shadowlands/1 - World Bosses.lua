@@ -195,7 +195,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					{"modID",89},								-- Make the Items 'Fated'
 				},
 			}),
-			Boss(2456, {	-- Mor'geth <Tormentor of the Damned>
+			Boss(MORGETH, {	-- Mor'geth <Tormentor of the Damned>
 				["questID"] = 64547,
 				["maps"] = { 1820, 1821, 1822, 1823 },	-- all maps in the Maw
 				["timeline"] = { ADDED_9_1_0 },
@@ -208,14 +208,14 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					{"modID",89},								-- Make the Items 'Fated'
 				},
 			}),
-			Boss(2431, {	-- Mortanis
+			Boss(MORTANIS, {	-- Mortanis
 				["questID"] = 62810,
 			}),
 			BossWorldQuest(MORTANIS, 61816),	-- Mortanis (WQ)
 			BossWorldQuest(MORTANIS, 66617, {	-- Mortanis (Fated)
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
-					{"select","encounterID",2431,},{"pop"},	-- Original WB
+					{"select","encounterID",MORTANIS,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
 				},
 			}),
@@ -230,14 +230,14 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					{"modID",89},					-- Make the Items 'Fated'
 				},
 			}),
-			Boss(2432, {	-- Oranomonos the Everbranching
+			Boss(ORANOMONOS, {	-- Oranomonos the Everbranching
 				["questID"] = 62811,
 			}),
 			BossWorldQuest(ORANOMONOS, 61815),	-- Oranomonos the Everbranching (WQ)
 			BossWorldQuest(ORANOMONOS, 66616, {	-- Oranomonos the Everbranching (Fated WQ)
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
-					{"select","encounterID",2432,},{"pop"},	-- Original WB
+					{"select","encounterID",ORANOMONOS,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
 				},
 			}),
@@ -248,7 +248,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			BossWorldQuest(VALINOR, 66614, {	-- Valinor, the Light of Eons (Fated WQ)
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
 				["sym"] = {
-					{"select","encounterID",2430,},{"pop"},	-- Original WB
+					{"select","encounterID",VALINOR,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
 				},
 			}),

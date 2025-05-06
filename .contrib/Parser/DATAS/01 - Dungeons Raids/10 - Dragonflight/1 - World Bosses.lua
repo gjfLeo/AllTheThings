@@ -116,15 +116,15 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				["questID"] = 72055,
 			}),
 			BossWorldQuest(STRUNRAAN, 69929),	-- Strunraan (WQ)
-			Boss(2506, {	-- Basrikron, The Shale Wing
+			Boss(BASRIKRON, {	-- Basrikron, The Shale Wing
 				["questID"] = 72056,
 			}),
 			BossWorldQuest(BASRIKRON, 69930),	-- Basrikron (WQ)
-			Boss(2517, {	-- Bazual, The Dreaded Flame
+			Boss(BAZUAL, {	-- Bazual, The Dreaded Flame
 				["questID"] = 72054,
 			}),
 			BossWorldQuest(BAZUAL, 69927),	-- Bazual (WQ)
-			Boss(2518, {	-- Liskanoth, The Futurebane
+			Boss(LISKANOTH, {	-- Liskanoth, The Futurebane
 				["questID"] = 72057,
 			}),
 			BossWorldQuest(LISKANOTH, 69928),	-- Liskanoth (WQ)
@@ -134,7 +134,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			BossWorldQuest(ELDERS, 74892, {	-- Zaqali Elders (WQ)
 				["timeline"] = { ADDED_10_1_0 },
 			}),
-			Boss(2562, {	-- Aurostor, The Hibernator
+			Boss(AUROSTAR, {	-- Aurostor, The Hibernator
 				["timeline"] = { ADDED_10_2_0 },
 			}),
 			BossWorldQuest(AUROSTAR, 76367, {	-- Hibernation Heroes
