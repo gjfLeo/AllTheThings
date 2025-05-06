@@ -5,13 +5,11 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 	n(WORLD_BOSSES, {
 		["isRaid"] = true,
 		["modID"] = 14,
-		["g"] = sharedData({
-			["isWorldQuest"] = true,
+		["g"] = bubbleDownFiltered({
 			["isRaid"] = true,
-		},{
+			["isWeekly"] = true,
+		},FILTERFUNC_questIDORencounterID,{
 			n(COMMON_BOSS_DROPS, {
-				["isWorldQuest"] = false,
-				["isRaid"] = false,
 				["crs"] = {
 					167525,	-- Mortanis
 					167526,	-- Nurgash Muckformed
@@ -78,9 +76,6 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				},
 				["questID"] = 65695,
 				["coord"] = { 48, 5, ZERETH_MORTIS },
-				["sym"] = {{"select","itemID",
-					187882,    -- Alpaca Soul
-				}},
 				["g"] = sharedData({ ["modID"] = 3 }, {
 					i(187507),	-- Adaptive Armor Fragment
 					i(187506),	-- Condensed Anima Sphere
@@ -92,18 +87,26 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 					i(190617),	-- Destruction-Core Handlers
 					i(190618),	-- Lattice of the Distant Keeper
 					i(190620),	-- Sav'thul's Calamitous Tantour
-					ig(189709, {	-- Pocopoc's Cobalt and Copper Body
-						["questID"] = 65473,
-					}),
+					ig(189709),	-- Pocopoc's Cobalt and Copper Body
 				}),
 			})),
 			q(65143, {	-- Antros (WQ)
+				["isWorldQuest"] = true,
+				["crs"] = {
+					182466,	-- Antros
+					182863,	-- Sav'thul
+				},
 				["sym"] = {
 					{"select","encounterID",2468,},{"pop"},	-- Original WB
 				},
 			}),
 			q(66619, {	-- Antros (Fated)
+				["isWorldQuest"] = true,
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
+				["crs"] = {
+					182466,	-- Antros
+					182863,	-- Sav'thul
+				},
 				["sym"] = {
 					{"select","encounterID",2468,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
@@ -113,7 +116,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				["questID"] = 64547,
 				["coord"] = { 69.1, 44.2, THE_MAW },
 				["maps"] = { 1820, 1821, 1822, 1823 },	-- all maps in the Maw
-				["creatureID"] = 178958,	-- Mor'geth <Tormentor of the Damned>
+				["crs"] = { 178958 },	-- Mor'geth <Tormentor of the Damned>
 				["g"] = sharedData({ ["modID"] = 3 }, {
 					i(187507),	-- Adaptive Armor Fragment
 					i(187506),	-- Condensed Anima Sphere
@@ -129,12 +132,16 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			})),
 			q(64531, {	-- Mor'geth (WQ)
+				["isWorldQuest"] = true,
+				["crs"] = { 178958 },	-- Mor'geth <Tormentor of the Damned>
 				["sym"] = {
 					{"select","encounterID",2456,},{"pop"},	-- Original WB
 				},
 			}),
 			q(66618, {	-- Mor'geth (Fated)
+				["isWorldQuest"] = true,
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
+				["crs"] = { 178958 },	-- Mor'geth <Tormentor of the Damned>
 				["sym"] = {
 					{"select","encounterID",2456,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
@@ -143,7 +150,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			e(2431, {	-- Mortanis
 				["questID"] = 62810,
 				["coord"] = { 32.1, 67.3, MALDRAXXUS },
-				["creatureID"] = 167525,	-- Mortanis
+				["crs"] = { 167525 },	-- Mortanis
 				["g"] = sharedData({["modID"] = 3}, {
 					i(183341),	-- Memory of a Guile Charm
 					i(183386),	-- Memory of Fujieda
@@ -157,12 +164,16 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 			q(61816, {	-- Mortanis (WQ)
+				["isWorldQuest"] = true,
+				["crs"] = { 167525 },	-- Mortanis
 				["sym"] = {
 					{"select","encounterID",2431,},{"pop"},	-- Original WB
 				},
 			}),
 			q(66617, {	-- Mortanis (Fated)
+				["isWorldQuest"] = true,
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
+				["crs"] = { 167525 },	-- Mortanis
 				["sym"] = {
 					{"select","encounterID",2431,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
@@ -171,7 +182,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			e(2433, {	-- Nurgash Muckformed
 				["questID"] = 62812,
 				["coord"] = { 27.2, 14.9, REVENDRETH },
-				["creatureID"] = 167526,	-- Nurgash Muckformed
+				["crs"] = { 167526 },	-- Nurgash Muckformed
 				["g"] = sharedData({["modID"] = 3}, {
 					i(182638),	-- Memory of a Frenzied Monstrosity
 					i(183215),	-- Memory of an Erratic Fel Core
@@ -185,12 +196,16 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 			q(61814, {	-- Nurgash Muckfromed (WQ)
+				["isWorldQuest"] = true,
+				["crs"] = { 167526 },	-- Nurgash Muckformed
 				["sym"] = {
 					{"select","encounterID",2433,},{"pop"},	-- Original WB
 				},
 			}),
 			q(66615, {	-- Nurgash Muckfromed (Fated)
+				["isWorldQuest"] = true,
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
+				["crs"] = { 167526 },	-- Nurgash Muckformed
 				["sym"] = {
 					{"select","encounterID",2433,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
@@ -199,7 +214,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			e(2432, {	-- Oranomonos the Everbranching
 				["questID"] = 62811,
 				["coord"] = { 20.2, 63.6, ARDENWEALD },
-				["creatureID"] = 167527,	-- Oranomonos the Everbranching
+				["crs"] = { 167527 },	-- Oranomonos the Everbranching
 				["g"] = sharedData({["modID"] = 3}, {
 					i(183274),	-- Memory of a Fevered Incantation
 					i(183261),	-- Memory of Surging Shots
@@ -213,12 +228,16 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 			q(61815, {	-- Oranomonos the Everbranching (WQ)
+				["isWorldQuest"] = true,
+				["crs"] = { 167527 },	-- Oranomonos the Everbranching
 				["sym"] = {
 					{"select","encounterID",2432,},{"pop"},	-- Original WB
 				},
 			}),
 			q(66616, {	-- Oranomonos the Everbranching (Fated WQ)
+				["isWorldQuest"] = true,
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
+				["crs"] = { 167527 },	-- Oranomonos the Everbranching
 				["sym"] = {
 					{"select","encounterID",2432,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'
@@ -227,7 +246,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			e(2430, {	-- Valinor, the Light of Eons
 				["questID"] = 62809,
 				["coord"] = { 26.3, 22.4, BASTION },
-				["creatureID"] = 167524,	-- Valinor, the Light of Eons
+				["crs"] = { 167524 },	-- Valinor, the Light of Eons
 				["g"] = sharedData({["modID"] = 3}, {
 					i(183325),	-- Memory of Archbishop Benedictus
 					i(183311),	-- Memory of the Final Verdict
@@ -241,12 +260,16 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 			q(61813, {	-- Valinor, the Light of Eons (WQ)
+				["isWorldQuest"] = true,
+				["crs"] = { 167524 },	-- Valinor, the Light of Eons
 				["sym"] = {
 					{"select","encounterID",2430,},{"pop"},	-- Original WB
 				},
 			}),
 			q(66614, {	-- Valinor, the Light of Eons (Fated WQ)
+				["isWorldQuest"] = true,
 				["timeline"] = { ADDED_9_2_5, REMOVED_10_0_2_LAUNCH },
+				["crs"] = { 167524 },	-- Valinor, the Light of Eons
 				["sym"] = {
 					{"select","encounterID",2430,},{"pop"},	-- Original WB
 					{"modID",89},					-- Make the Items 'Fated'

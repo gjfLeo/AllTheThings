@@ -4,10 +4,10 @@
 root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	n(WORLD_BOSSES, {
 		["isRaid"] = true,
-		["g"] = sharedData({
+		["g"] = bubbleDownFiltered({
 			["isRaid"] = true,
 			["isWeekly"] = true,
-		},{
+		},FILTERFUNC_questIDORencounterID,{
 			e(2515, {	-- Strunraan, The Sky's Misery
 				["crs"] = { 193534 },
 				["coord"] = { 82.0, 76.0, OHNAHRAN_PLAINS },
@@ -25,6 +25,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			q(69929, {	-- Strunraan (WQ)
 				["coord"] = { 82.0, 76.0, OHNAHRAN_PLAINS },
 				["isWorldQuest"] = true,
+				["crs"] = { 193534 },
 				["sym"] = {
 					{"select","encounterID",2515,},{"pop"},	-- Original WB
 				},
@@ -46,6 +47,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			q(69930, {	-- Basrikron (WQ)
 				["coord"] = { 55.0, 77.7, THE_WAKING_SHORES },
 				["isWorldQuest"] = true,
+				["crs"] = { 193535 },
 				["sym"] = {
 					{"select","encounterID",2506,},{"pop"},	-- Original WB
 				},
@@ -67,6 +69,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			q(69927, {	-- Bazual (WQ)
 				["coord"] = { 77.7, 35.8, THE_AZURE_SPAN },
 				["isWorldQuest"] = true,
+				["crs"] = { 193532 },
 				["sym"] = {
 					{"select","encounterID",2517,},{"pop"},	-- Original WB
 				},
@@ -88,6 +91,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			q(69928, {	-- Liskanoth (WQ)
 				["coord"] = { 53.7, 64.5, 2085 },
 				["isWorldQuest"] = true,
+				["crs"] = { 193533 },
 				["sym"] = {
 					{"select","encounterID",2518,},{"pop"},	-- Original WB
 				},
@@ -115,6 +119,10 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 			q(74892, {	-- Zaqali Elders (WQ)
 				["coord"] = { 27.5, 44.4, ZARALEK_CAVERN },
 				["isWorldQuest"] = true,
+				["crs"] = {
+					199853,	-- Gholna
+					199855,	-- Vakan
+				},
 				["sym"] = {
 					{"select","encounterID",2531,},{"pop"},	-- Original WB
 				},
@@ -127,10 +135,9 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				["g"] = sharedData({
 					["modID"] = 3,
 				},{
-					i(210751),	-- Mark of the Hibernating Runebear (CI!)
-					i(210433, {	-- Visage of Aurostor (COSMETIC!)
-						["modID"] = 0,
-					}),
+					ig(210751),	-- Mark of the Hibernating Runebear (CI!)
+					ig(210433),	-- Visage of Aurostor (COSMETIC!)
+					ig(210480),	-- Flourishing Whimsydrake: Sunrise Scales (MM!)
 					i(208440),	-- Aurostor's Sleeping Knickers
 					i(208437),	-- Crown of Freya's Chosen
 					i(208436),	-- Flame-Etched Breastplate
@@ -140,13 +147,13 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 					i(208441),	-- Restful Dozer's Shoes
 					i(208439),	-- Rousing Earth Striders
 					i(208443),	-- Slumbering Ursine Talisman
-					i(210480),	-- Flourishing Whimsydrake: Sunrise Scales (MM!)
 				}),
 			})),
 			q(76367,	-- Hibernation Heroes
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 				["coord"] = { 39.6, 54.1, EMERALD_DREAM },
 				["isWorldQuest"] = true,
+				["crs"] = { 209574 },
 				["sym"] = {
 					{"select","encounterID",2562,},{"pop"},
 				},
