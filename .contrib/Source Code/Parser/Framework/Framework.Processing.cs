@@ -566,7 +566,7 @@ namespace ATT
             }
 
             // Cache the state of values that are inherited from parent objects to their children.
-            
+
             var cachedDifficultyRoot = DifficultyRoot;
             long cachedDifficulty = NestedDifficultyID;
             long cachedHeaderID = NestedHeaderID;
@@ -2884,6 +2884,17 @@ namespace ATT
                     }
                 }
             }
+
+            // Remove any added SourceIDs which don't actually exist in the ItemModifiedAppearance DB
+            allSourceIDs.RemoveAll(id =>
+            {
+                if (!TryGetTypeDBObject<ItemModifiedAppearance>(id, out _))
+                {
+                    LogDebugWarn($"Removing SourceID {id} from TransmogSet {tmogSetID} since it does not exist in ItemModifiedAppearanceDB");
+                    return true;
+                }
+                return false;
+            });
 
             Objects.Merge(data, "_sourceIDs", allSourceIDs);
             TrackIncorporationData(data, "_sourceIDs", allSourceIDs);
