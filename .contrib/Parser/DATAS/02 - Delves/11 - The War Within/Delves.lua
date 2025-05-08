@@ -691,9 +691,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(42212, {	-- Titan Console Overcharged
 			["timeline"] = { ADDED_11_1_7 },
-			["groups"] = {
-				-- TODO: OC91 Chariot (MOUNT!)
-			},
+			["groups"] = { i(246237) },	-- OC91 Chariot (MOUNT!)
 		}),
 		ach(40882, {	-- Copious Coffers
 			["maps"] = ALL_REGULAR_DELVES,
@@ -844,9 +842,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(42241, {	-- Overcharged Delver
 			["timeline"] = { ADDED_11_1_7 },
-			["groups"] = {
-				-- TODO: Redeployment Module (TOY!)
-			},
+			["groups"] = { i(235016) },	-- Redeployment Module (TOY!)
 		}),
 		ach(40863, {	-- Perplexing Puzzle
 			["maps"] = ALL_REGULAR_DELVES,
@@ -1002,6 +998,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			i(223624),	-- Sneef (PET!)
 			i(225337),	-- Violet Sporbit (PET!)
+			i(221496),	-- Wriggle (PET!)
 		}),
 		filter(TOYS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			i(230924), 	-- Spotlight Materializer 1000 (TOY!)
@@ -1845,6 +1842,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(233205),	-- Go-Go Juice
 				i(233062),	-- Pocket Pizza
 				i(233061),	-- Rock-in-a-Bottle
+				i(233186, {	-- Wave Scrambler 2000
+					["timeline"] = { ADDED_11_1_0_SEASONSTART },
+				}),
 			},
 		}),
 		o(455759, {	-- Hulking Raptorial Claw
@@ -2718,9 +2718,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(221496),	-- Wriggle (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212168),	-- Cinderbee Wax Candle Hat
 						i(212169),	-- Mint-Scented Candle Hat
@@ -2941,9 +2938,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(221496),	-- Wriggle (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212162),	-- Bitter Shroom Cap
 						i(212167),	-- Taken Candle
@@ -2992,9 +2986,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(221496),	-- Wriggle (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(212162),	-- Bitter Shroom Cap
@@ -3054,9 +3045,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(221496),	-- Wriggle (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212166),	-- Coral Nautic Helm
 						i(212165),	-- Deep Nautic Helm
@@ -3170,9 +3158,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(DELVE_COMPLETION, {
 				n(TREASURES, {
-					filter(BATTLE_PETS, {
-						i(221496),	-- Wriggle (PET!)
-					}),
 					filter(COSMETIC, {
 						i(212166),	-- Coral Nautic Helm
 						i(212165),	-- Deep Nautic Helm

@@ -157,7 +157,7 @@ root(ROOTS.Unsorted, {
 				i(242386),	-- Lorewalker's Crate of Memorabilia
 				-- Misc
 				i(244848),	-- Severed Threads Commendation
-				i(245942),	-- Tidesage Shrine
+				i(245942),	-- Sea-Blessed Shrine
 			}),
 			filter(COSMETIC, {
 				i(242324),	-- Squall Braced Galoshes
@@ -612,14 +612,7 @@ root(ROOTS.Unsorted, {
 				i(243594),	-- Banshee's Grotesque Charger
 				i(243596),	-- Banshee's Putrid Charger
 				i(243597),	-- Banshee's Sickening Charger
-				i(245694),	-- Reins of the Ivory Savagemane
-				i(245695),	-- Reins of the Moonlit Nightsaber
 				i(245936),	-- Unarmored Deathtusk Felboar
-			}),
-			filter(BATTLE_PETS, {
-				--- BFA TW?
-				i(245543),	-- Flotsam Harvester
-				i(245574),	-- Lil' Daz'ti
 			}),
 			-- #if AFTER 7.1.0.22908
 			n(GREEDY_EMISSARY_EVENT, {
