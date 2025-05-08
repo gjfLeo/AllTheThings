@@ -689,8 +689,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		ach(40455, {	-- Buddy System
 			["maps"] = ALL_THE_DELVES,
 		}),
-		ach(42212, {	-- Console Overcharged
+		ach(42212, {	-- Titan Console Overcharged
 			["timeline"] = { ADDED_11_1_7 },
+			["groups"] = {
+				-- TODO: OC91 Chariot (MOUNT!)
+			},
 		}),
 		ach(40882, {	-- Copious Coffers
 			["maps"] = ALL_REGULAR_DELVES,
@@ -838,6 +841,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(40523, {	-- On Brand
 			["maps"] = ALL_THE_DELVES,
+		}),
+		ach(42241, {	-- Overcharged Delver
+			["timeline"] = { ADDED_11_1_7 },
+			["groups"] = {
+				-- TODO: Redeployment Module (TOY!)
+			},
 		}),
 		ach(40863, {	-- Perplexing Puzzle
 			["maps"] = ALL_REGULAR_DELVES,
