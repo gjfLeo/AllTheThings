@@ -2021,8 +2021,13 @@ namespace ATT
             if (achInfo.TryGetValue("criteriaTreeID", out long criteriaTreeID) &&
                 TryGetTypeDBObject(criteriaTreeID, out CriteriaTree criteriaTree))
             {
-                // Some Achievements we use specific symlinks to show information instead of Criteria
-                if (CheckSymlink(data, "meta_achievement", "partial_achievement", "select"))
+                // Some Achievements we use specific symlinks to show information instead of Criteria (for pre-CATA parses)
+                if (CURRENT_RELEASE_VERSION < FIRST_EXPANSION_PATCH["CATA"].ConvertVersion() && CheckSymlink(data, "meta_achievement"))
+                {
+                    LogDebug($"INFO: Achievement {achID} skipping Criteria incorporation due to symlink:", data["sym"]);
+                    return;
+                }
+                else if (CheckSymlink(data, "partial_achievement", "select"))
                 {
                     LogDebug($"INFO: Achievement {achID} skipping Criteria incorporation due to symlink:", data["sym"]);
                     return;
@@ -3135,6 +3140,17 @@ namespace ATT
                     cloned = true;
                 }
             }
+            if (data.TryGetValue("_species", out object species))
+            {
+                DuplicateDataIntoGroups(data, species, "speciesID");
+                cloned = true;
+                // don't also nest to NPCs if we are nesting species, can warn to remove the NPCs
+                if (data.TryGetValue("_npcs", out object speciesNpcs))
+                {
+                    LogDebugWarn($"Removing _npcs {ToJSON(speciesNpcs)} since _species {ToJSON(species)} was prioritized instead", data);
+                    data.Remove("_npcs");
+                }
+            }
             if (data.TryGetValue("_npcs", out object npcs))
             {
                 // TODO: consolidate when creature/npc are the same... if that ever happens
@@ -3197,11 +3213,6 @@ namespace ATT
                 DuplicateDataIntoGroups(data, mission, "missionID");
                 cloned = true;
             }
-            if (data.TryGetValue("_species", out object species))
-            {
-                DuplicateDataIntoGroups(data, species, "speciesID");
-                cloned = true;
-            }
 
             // specifically Achievement Criteria that is cloned to another location in the addon should not be maintained where it was cloned from
             if (cloned && data.TryGetValue("criteriaID", out criteriaID))
@@ -3212,7 +3223,7 @@ namespace ATT
                     List<long> crs = new List<long>();
                     foreach (long npcID in npcObjs.AsTypedEnumerable<long>())
                     {
-                        if (!SOURCED["npcID"].ContainsKey(npcID))
+                        if (!TryGetSOURCED("npcID", npcID, out var npcSources))
                         {
                             // remove the creatures which are not sourced from being reported as failed to merge
                             data.TryGetValue("achID", out long achID);
