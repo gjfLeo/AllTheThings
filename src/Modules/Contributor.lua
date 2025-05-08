@@ -1151,6 +1151,7 @@ MobileDB.GameObject = {
 	[507868] = true,	-- Stained Journal Page @ 55.8, 14.7, 2369 (q:85571)
 	[507869] = true,	-- Torn Journal Page @ 46.1, 47.1, 2369 (q:85571)
 	[507870] = true,	-- Weathered Journal Page @ 71, 59.2, 2369 (q:85571)
+	[508366] = true,	-- Pile of Unsorted Trash (q:85888)
 	[508727] = true,	-- Partially-Drained Battery
 	[516163] = true,	-- Half-Empty Bag
 	[516296] = true,	-- Sureki Cage (Nightfall)
