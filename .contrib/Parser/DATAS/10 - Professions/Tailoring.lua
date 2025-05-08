@@ -3510,7 +3510,6 @@ profession(TAILORING, {
 					["recipeID"] = 75251
 				},
 				-- #if ANYCLASSIC
-				-- CRIEVE NOTE: In Cata Classic, these don't appear to exist.
 				{
 					["name"] = "Emberfire Shoulders",
 					["recipeID"] = 1224211
