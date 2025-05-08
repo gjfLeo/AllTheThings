@@ -614,6 +614,7 @@ MobileDB.GameObject = {
 	[209447] = true,	-- Portal Energy Focus (Well of Eternity)
 	[209448] = true,	-- Portal Energy Focus (Well of Eternity)
 	[209506] = true,	-- Stolen Treats, (q:7043 [A], q:6983 [H])
+	[215135] = true,	-- Sprinkler
 	[216150] = true,	-- Horde Supply Crate (q:32144)
 	[220908] = true,	-- Mist-Covered Treasure Chest
 	[221689] = true,	-- Ripe Crispfruit
