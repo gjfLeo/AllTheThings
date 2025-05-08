@@ -738,7 +738,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				BossOnly(RIK),
 				BossOnly(STIX),
 				BossOnly(LOCKENSTOCK, {
-					i(228844, {up=IGNORED_VALUE, ["ItemAppearanceModifierID"] = 3}),	-- Test Pilot's Go-Pack [drops pre-upgraded with lower appearance]
+					i(228844, {up=IGNORED_VALUE, modID=5, ["ItemAppearanceModifierID"] = 3}),	-- Test Pilot's Go-Pack [drops pre-upgraded with lower appearance]
 				}),
 				BossOnly(BANDIT),
 				BossOnly(MUGZEE),
