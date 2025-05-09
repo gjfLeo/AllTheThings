@@ -647,10 +647,22 @@ local L = setmetatable({
 	TITLE_NONE_THINGS = "None of the Things ";
 	TITLE_ONLY = " Only ";
 	TITLE_INSANE = app.ccColors.Insane .. "Insane|R ";
+	TITLE_RANKED = "Ranked ";
+	TITLE_CORE = "Core ";
 	TITLE_SOME_THINGS = "Some of the Things ";
 	TITLE_LEVEL = "Level ";
 	TITLE_SOLO = "Solo ";
 	_BETA_LABEL = " |cff4AA7FF[Beta]|R";	-- unused
+
+	PRESET_TOOLTIP = "Enable this preset. This will adjust only the relevant tracking options of the current profile.";
+	PRESET_NONE = "None of the Things Mode disables the tracking of all collectibles. Way to challenge yourself.";
+	PRESET_CORE = "Core Mode enables the collectibles visible in the game's Warband Collections journal.";
+	PRESET_RANKED = "Ranked Mode enables the collectibles tracked by websites such as Data For Azeroth and WoWthing.";
+	PRESET_INSANE = app.ccColors.Insane .. "Insane Mode|R enables all " .. app.ccColors.Insane .. "colored options|R and gives you a real challenge!";
+	PRESET_ACCOUNT = app.ccColors.Account .. "Account Mode|R enables all account-wide tracking, and will show progress from all of your characters.";
+	PRESET_SOLO = "Solo Mode disables all account-wide tracking, and will only show progress for your current character.";
+	PRESET_UNIQUE = "Unique Mode disables Sources, marking gear as collected when you have learned their unique appearance. This will still show gear if you only know a class-locked version of that appearance.";
+	PRESET_COMP = "Completionist Mode enables Sources, only marking gear as collected when you have learned the appearance from that specific item.";
 
 	EXTRA_THINGS_LABEL = "Additional Resources";	-- unused
 
