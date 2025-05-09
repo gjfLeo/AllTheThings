@@ -229,7 +229,7 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 		i(122396, {	-- Brawler's Razor Claws
 			["timeline"] = {
 				ADDED_5_1_0, REMOVED_6_0_2
-				ADDED_6_1_0, REMOVED_7_0_2
+				ADDED_6_1_0, REMOVED_7_0_3
 				ADDED_7_2_0, REMOVED_8_0_1,
 				ADDED_8_2_0, REMOVED_9_0_1,
 			},
