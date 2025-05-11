@@ -3963,11 +3963,13 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			-- Crieve NOTE: I haven't updated this list yet.
 			["groups"] = insertionSort({
 				GLYPH_OF_AQUATIC_FORM,
+				GLYPH_OF_FELGUARD,
 				GLYPH_OF_HEALTH_FUNNEL,
 				GLYPH_OF_ICE_ARMOR_AND_PYROBLAST_AND_MOMENTUM,
 				GLYPH_OF_IMMOLATION_TRAP_AND_EXPLOSIVE_TRAP,
 				GLYPH_OF_SAFE_FALL,
 				GLYPH_OF_SENSE_UNDEAD_AND_TRUTH_AND_SEAL_OF_BLOOD,
+				GLYPH_OF_THE_SHA
 				GLYPH_OF_THE_TREANT,	-- Deleted 7.0.3
 			}),
 		}),
