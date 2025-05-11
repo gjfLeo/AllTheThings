@@ -110,7 +110,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						},
 					}),
 				}),
-				spell(921, {	-- Pickpocketing
+				header(HEADERS.Spell, 921, {	-- Pickpocketing
 					i(234232, {	-- Technique: Glyph of the Ashvane Pistol Shot (RECIPE!)
 						["description"] = "Can be pickpocketed from Pirates.",
 					}),
