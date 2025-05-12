@@ -4296,7 +4296,7 @@ namespace ATT
                             data.Remove("requireSkill");
                             break;
                         default:
-                            Log($"Missing Skill ID in Conversion Table: {requiredSkill}{Environment.NewLine}{ToJSON(data)}");
+                            LogDebugWarn($"Missing Skill ID in Conversion Table: {requiredSkill}", data);
                             break;
                     }
                 }
