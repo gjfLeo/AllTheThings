@@ -2416,6 +2416,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								"This item is only naturally accessible to Horde players due to the allegiance of the NPC that drop this item.",
 								-- #elseif BEFORE 4.0.3
 								"This item is only naturally accessible to Horde players due to the allegiance of the NPC that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
+								-- #else
+								"",
 								-- #endif
 							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
@@ -2473,6 +2475,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								"This item is only naturally accessible to Horde players due to the allegiance of the NPC that drop this item.",
 								-- #elseif BEFORE 4.0.3
 								"This item is only naturally accessible to Horde players due to the allegiance of the NPC that drop this item. If you were to sell this item on the Neutral AH you might be able to fetch a pretty penny to collectors.",
+								-- #else
+								"",
 								-- #endif
 							["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },
 						}),
