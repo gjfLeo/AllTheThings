@@ -5095,7 +5095,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 			q(70031, {	-- Artisan's Supply: Chef's Smooth Rolling Pin
 				["provider"] = { "n", 198125 },	-- Isarian Shadowplume
 				["coord"] = { 57.1, 58.2, THE_WAKING_SHORES },
-				["cost"] = {{ "i", 191233, 2 }},	-- 2x Chef's Smooth Rolling Pin
+				["cost"] = {{ "i", 191233, 1 }},	-- 1x Chef's Smooth Rolling Pin
 				["_drop"] = { "g" },
 			}),
 			q(70254, {	-- Hidden Profession Master Inscription

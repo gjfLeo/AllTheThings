@@ -24,7 +24,6 @@ root(ROOTS.Professions, n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_
 	ach(7379, { ["timeline"] = { ADDED_5_0_4 } }),			-- Pandaren Master of All
 	ach(7378, {			-- Jack of All Trades
 		["timeline"] = { ADDED_5_0_4 },
-		-- identical criteria as full achievement
 		["sym"] = {{"partial_achievement",7379}},	-- Pandaren Master of All
 	}),
 	ach(18719, { ["timeline"] = { ADDED_10_1_7 } }),		-- Cataclysmic Master of All
@@ -171,31 +170,8 @@ root(ROOTS.Professions, n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_
 		["timeline"] = { ADDED_10_1_7 },
 	}),
 	ach(13516, {	-- Massive Tool
-		-- #if AFTER 10.1.7
-		-- Since all possible Criteria are actual Acheivements... technically meta-achievement status
-		["sym"] = {{"meta_achievement",
-			18775,	-- Iwen's Enchanting Rod
-			18773,	-- Jewelhammer's Focus
-			18771,	-- Khaz'gorian Smithing Hammer
-			18777,	-- Mallet of Thunderous Skins
-			18772,	-- Sanguine Feather Quill of Lana'thel
-			18770,	-- Silas' Sphere of Transmutation
-			18774,	-- Synchronous Thread
-			18776,	-- The Ub3r-Spanner
-		}},
-		-- #else
-		["providers"] = {
-			{ "i", 164766 },	-- Iwen's Enchanting Rod
-			{ "i", 153716 },	-- Jewelhammer's Focus
-			{ "i", 152839 },	-- Khaz'gorian Smithing Hammer
-			{ "i", 164978 },	-- Mallet of Thunderous Skins
-			{ "i", 153670 },	-- Sanguine Feather Quill of Lana'thel
-			{ "i", 156631 },	-- Silas' Sphere of Transmutation
-			{ "i", 164733 },	-- Synchronous Thread
-			{ "i", 164740 },	-- Ub3r-Spanner
-		},
-		-- #endif
 		["timeline"] = { ADDED_8_1_5 },
+		["sym"] = {{"partial_achievement",18778}},	-- Massive Toolshed
 	}),
 	ach(10587, {	-- Hot Swapper
 		["provider"] = { "i", 130251 },	-- Jewelcraft
