@@ -1269,3 +1269,16 @@ settings.CreateInformationType("bonuses", {
 		});
 	end
 })
+settings.CreateInformationType("rawfields", {
+	priority = 99999,
+	text = "DEBUG: Raw Fields",
+	HideCheckBox = not app.Debugging,
+	Process = function(t, data, tooltipInfo)
+		for k, v in pairs(data) do
+			tinsert(tooltipInfo, {
+				left = "Raw: "..tostring(k),
+				right = tostring(v)
+			});
+		end
+	end
+})
