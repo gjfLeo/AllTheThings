@@ -302,6 +302,7 @@ namespace ATT
                                     var newItem = new Dictionary<string, object>
                                     {
                                         {"itemID", itemID },
+                                        { "_unsorted", true },
                                     };
                                     Items.MergeInto(itemID, item, newItem);
                                     Items.DetermineSourceID(newItem);
@@ -334,6 +335,7 @@ namespace ATT
                                     var newItem = new Dictionary<string, object>
                                     {
                                         {"itemID", itemID },
+                                        { "_unsorted", true },
                                     };
                                     Items.MergeInto(itemID, item, newItem);
                                     Items.DetermineSourceID(newItem);
