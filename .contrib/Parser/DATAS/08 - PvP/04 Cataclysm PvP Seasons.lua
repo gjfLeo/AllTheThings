@@ -53,9 +53,10 @@ root(ROOTS.PVP, {
 	applyclassicphase(CATA_PHASE_ONE, run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CATA, {
 		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(RATED_BATTLEGROUNDS, bubbleDown({
 			-- #if ANYCLASSIC
-			["timeline"] = { CREATED_4_3_0 }
+			["description"] = "These were never made available to players in Classic. Instead, the original items have been made available to purchase with honor points.",
+			["timeline"] = { CREATED_4_3_0 },
 			-- #else
-			["timeline"] = { ADDED_4_3_0 }
+			["timeline"] = { ADDED_4_3_0 },
 			-- #endif
 		}, {
 			n(FACTION_HEADER_ALLIANCE, {
