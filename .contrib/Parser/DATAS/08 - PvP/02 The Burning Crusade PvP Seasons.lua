@@ -2957,8 +2957,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						}),
 						i(37739, {	-- Brutal Gladiator's Blade of Alacrity
 							-- #if ANYCLASSIC
-							["description"] = "This was never made available to players in Classic.",
-							["timeline"] = { CREATED_4_3_0 },
+							["timeline"] = { CREATED_4_3_0 },	-- This was never made available to players in Classic.
 							-- #endif
 							["cost"] = { { "i", 137642, 5 } },	-- 5x Mark of Honor
 						}),
