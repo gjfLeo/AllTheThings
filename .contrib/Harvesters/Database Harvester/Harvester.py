@@ -106,8 +106,8 @@ def create_patch_dict_from_raw(thing: type[Thing], flavor: str) -> dict[str, lis
 
     with open(Path("Raw", f"{thing.__name__}.txt"), "r") as file:
         for line in file:
-            if "@@@" in line or line.isdigit():
-                parts: list[str] = line.split("@@@")
+            if DELIMITER in line or line.isdigit():
+                parts: list[str] = line.split(DELIMITER)
                 entry: dict[str, Optional[str]] = { key: parts[i] if i < len(parts) else None for i, key in enumerate(keys) }
                 if pre_process(thing, current_patch, parts[0], flavor):
                     patch_data[current_patch].append(entry)
@@ -126,8 +126,8 @@ def create_patch_dict_from_raw_recipes(profession: str, flavor: str) -> dict[str
     with open(Path("Raw", "Professions", f"{profession}.txt"), "r") as file:
         for line in file:
             line = line.strip()
-            if "@@@" in line or line.isdigit():
-                parts: list[str] = line.split("@@@")
+            if DELIMITER in line or line.isdigit():
+                parts: list[str] = line.split(DELIMITER)
                 entry: dict[str, Optional[str]] = { key: parts[i] if i < len(parts) else None for i, key in enumerate(keys) }
                 if pre_process(Recipes, current_patch, parts[0], flavor):
                     if current_patch not in patch_data:
@@ -412,7 +412,7 @@ def write_missing_file(
             missing_file.write(f"{patch.strip()}\n")
             for entry in entries:
                 values = [str((entry.get(field) or "").strip()) for field in thing.id_schema()]
-                line = "@@@".join(values)
+                line = DELIMITER.join(values)
                 missing_file.write(f"{line}\n")
 
         if filtered_patch_data_db:
@@ -421,7 +421,7 @@ def write_missing_file(
                 missing_file.write(f"{patch.strip()}\n")
                 for entry in entries:
                     values = [str((entry.get(field) or "").strip()) for field in thing.id_schema()]
-                    line = "@@@".join(values)
+                    line = DELIMITER.join(values)
                     missing_file.write(f"{line}\n")
         else:
             missing_file.write(f"\n\nNothing is Missing in {db_label}! Good Work!")
