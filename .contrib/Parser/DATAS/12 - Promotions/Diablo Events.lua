@@ -88,7 +88,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			}),
 		},
 	})),
-	applyevent(A_GREEDY_EMISSARY, n(GREEDY_EMISSARY_EVENT, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, ADDED_11_1_7 } }, {
+	applyevent(A_GREEDY_EMISSARY, n(GREEDY_EMISSARY_EVENT, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, ADDED_11_1_7, REMOVED_11_2_0, } }, {
 		-- Event begins on May 25, 2023, and ends on June 13, 2023.
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, } }, {
 			ach(18258, {	--	Little Lord of Lies
@@ -247,8 +247,8 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				}),
 			},
 		})),
-		n(VENDOR, {
-		--	n(205722, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0, } }, {	-- Name Here
+		n(VENDORS, {
+			n(205722, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0, } }, {	-- Name Here
 			--	["coords"] = {
 				--	{ 54.7, 54.4, DORNOGAL },
 			--	},
@@ -272,7 +272,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 					iensemble(244797), -- Ensemble: Timestalker's Armor
 					iensemble(244801), -- Ensemble: Vestments of Searing Radiance
 				}),
-		--	}),
+			})),
 		}),
 	}))),
 	i(206007, {	-- Treasure Nabbin' Bag
