@@ -5103,6 +5103,8 @@
 8195@@@Twin Empyreans kills (25-player Normal Throne of Thunder)
 8196@@@Twin Empyreans kills (10-player Heroic Throne of Thunder)
 8197@@@Twin Empyreans kills (25-player Heroic Throne of Thunder)
+5.5.0.60700
+42242@@@[DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden)
 6.0.1.18179
 8394@@@The Frostwind Slayer
 8463@@@Mythic: Immerseus
