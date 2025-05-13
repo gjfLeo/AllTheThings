@@ -14,6 +14,8 @@ from ThingTypes import (
     DATAS_FOLDER,
     DEBUGGING_FOLDER,
     DELIMITER,
+    FLAVOR_RANGES,
+    FLAVOR_FOLDERS,
     Achievements,
     Factions,
     FlightPaths,
@@ -34,29 +36,6 @@ from ThingTypes import (
     # Creatures,
     remove_non_digits,
 )
-"""Helper Dicts"""
-# Define patch version ranges per flavor
-flavor_ranges: dict[str, tuple[Version, Optional[Version]]] = {
-    "Classic": (version.parse("0.0.0.00000"), version.parse("1.14.1.00000")),
-    "SoM":     (version.parse("1.14.1.00000"), version.parse("1.15.0.00000")),
-    "SoD":     (version.parse("1.15.0.00000"), version.parse("1.16.0.00000")),
-    "TBC":     (version.parse("2.0.0.00000"), version.parse("3.0.0.00000")),
-    "WotLK":   (version.parse("3.0.0.00000"), version.parse("4.0.0.00000")),
-    "Cata":    (version.parse("4.0.0.00000"), version.parse("5.0.0.00000")),
-    "MoP":     (version.parse("5.0.0.00000"), version.parse("6.0.0.00000")),
-    "Retail":  (version.parse("6.0.0.00000"), None),
-}
-
-flavor_folders: dict[str, str] = {
-    "Classic": "01 - Classic",
-    "SoM": "02 - Season of Mastery",
-    "SoD": "03 - Season of Discovery",
-    "TBC": "04 - The Burning Crusade",
-    "WotLK": "05 - Wrath of the Lich King",
-    "Cata": "06 - Cataclysm",
-    "MoP": "07 - Mists of Pandaria",
-    "Retail": "99 - The War Withing",
-}
 
 """Helper Functions"""
 def things_version(build: str) -> list[type[Thing]]:
@@ -106,6 +85,7 @@ def create_patch_dict_from_raw(thing: type[Thing], flavor: str) -> dict[str, lis
 
     with open(Path("Raw", f"{thing.__name__}.txt"), "r") as file:
         for line in file:
+            line = line.strip()
             if DELIMITER in line or line.isdigit():
                 parts: list[str] = line.split(DELIMITER)
                 entry: dict[str, Optional[str]] = { key: parts[i] if i < len(parts) else None for i, key in enumerate(keys) }
@@ -145,7 +125,7 @@ def pre_process(thing: type[Thing], current_patch: str, id: str, flavor: str) ->
     id_int = int(id)
 
     # Check if current patch falls within the flavor's range
-    min_ver, max_ver = flavor_ranges.get(flavor, (None, None))
+    min_ver, max_ver = FLAVOR_RANGES.get(flavor, (None, None))
     if min_ver and (patch > min_ver) and (max_ver is None or patch < max_ver):
         return True
 
@@ -159,9 +139,9 @@ def pre_process(thing: type[Thing], current_patch: str, id: str, flavor: str) ->
         (thing == Pets and id_int < 4100) or
         (thing == Quests and id_int < 60000) or
         (thing == Titles and id_int not in [210, 213, 217]) or
-        (thing == Toys and id_int < 215000) or
+        (thing == Toys and id_int < 183000 and id_int not in [38233, 38506]) or
         (thing == Transmog and id_int < 146735) or
-        (thing == Recipes and id_int < 400000)
+        (thing == Recipes and id_int < 350000)
     ):
         return True
 
@@ -185,7 +165,6 @@ def get_difference(patch_data: dict[str, list[dict[str, Optional[str]]]], raw_id
     difference_set = set(raw_ids) - set(existing_ids) - set(excluded_ids)
 
     seen_ids: set[str] = set()
-
     for patch, entries in patch_data.items():
         filtered_entries: list[dict[str, Optional[str]]] = []
         for entry in entries:
@@ -414,17 +393,17 @@ def write_missing_file(
                 values = [str((entry.get(field) or "").strip()) for field in thing.id_schema()]
                 line = DELIMITER.join(values)
                 missing_file.write(f"{line}\n")
-
-        if filtered_patch_data_db:
-            missing_file.write(f"\n\n\n\nMissing in {db_label}\n\n")
-            for patch, entries in filtered_patch_data_db.items():
-                missing_file.write(f"{patch.strip()}\n")
-                for entry in entries:
-                    values = [str((entry.get(field) or "").strip()) for field in thing.id_schema()]
-                    line = DELIMITER.join(values)
-                    missing_file.write(f"{line}\n")
-        else:
-            missing_file.write(f"\n\nNothing is Missing in {db_label}! Good Work!")
+        if db_ids is not None:
+            if filtered_patch_data_db:
+                missing_file.write(f"\n\n\n\nMissing in {db_label}\n\n")
+                for patch, entries in filtered_patch_data_db.items():
+                    missing_file.write(f"{patch.strip()}\n")
+                    for entry in entries:
+                        values = [str((entry.get(field) or "").strip()) for field in thing.id_schema()]
+                        line = DELIMITER.join(values)
+                        missing_file.write(f"{line}\n")
+            else:
+                missing_file.write(f"\n\nNothing is Missing in {db_label}! Good Work!")
 
     if not filtered_patch_data and not filtered_patch_data_db and output_path.exists():
         output_path.unlink()
@@ -440,7 +419,7 @@ def create_missing_file_recipes(flavor: str) -> None:
         excluded_ids = extract_nth_column(Path("Exclusion", "Professions", f"{profession}.txt"), 0)
         db_ids = get_itemdb_difference(profession)
 
-        missing_path = Path(DATAS_FOLDER, "00 - Missing DB", f"{flavor_folders[flavor]}", "Professions", f"{profession}.txt")
+        missing_path = Path(DATAS_FOLDER, "00 - Missing DB", f"{FLAVOR_FOLDERS[flavor]}", "Professions", f"{profession}.txt")
         write_missing_file(profession, patch_data, Recipes, raw_ids, existing_ids, excluded_ids, db_ids, missing_path, profession)
 
 
@@ -455,16 +434,17 @@ def create_missing_file(thing: type[Thing], flavor: str) -> None:
     raw_ids = get_raw_ids(patch_data)
     existing_ids = get_existing_ids(thing)
     excluded_ids = extract_nth_column(Path("Exclusion", f"{thing.__name__}.txt"), 0)
-    db_ids: list[str] = []
+    db_ids: list[str] | None = None
 
     if thing.db_path:
+        db_ids = []
         with open(thing.db_path, "r", encoding="utf-8") as db_file:
             for line in db_file:
                 info = thing.extract_existing_info(line)
                 if info:
                     db_ids.append(info.strip())
 
-    missing_path = Path(DATAS_FOLDER, "00 - Missing DB", f"{flavor_folders[flavor]}", f"Missing{thing.__name__}.txt")
+    missing_path = Path(DATAS_FOLDER, "00 - Missing DB", f"{FLAVOR_FOLDERS[flavor]}", f"Missing{thing.__name__}.txt")
     write_missing_file(thing.__name__, patch_data, thing, raw_ids, existing_ids, excluded_ids, db_ids, missing_path, thing.db_path.name if thing.db_path else "Database")
 
 
@@ -475,7 +455,7 @@ def post_process_recipes(flavor: str) -> None:
         profession: Path(
             DATAS_FOLDER,
             "00 - Missing DB",
-            f"{flavor_folders[flavor]}",
+            f"{FLAVOR_FOLDERS[flavor]}",
             "Professions",
             f"{profession}.txt",
         )
@@ -511,7 +491,7 @@ def post_process(thing: type[Thing], flavor: str) -> None:
     missing_path = Path(
         DATAS_FOLDER,
         "00 - Missing DB",
-        f"{flavor_folders[flavor]}",
+        f"{FLAVOR_FOLDERS[flavor]}",
         f"Missing{thing.__name__}.txt",
     )
     if not missing_path.exists():
@@ -591,7 +571,7 @@ def post_process(thing: type[Thing], flavor: str) -> None:
             missing_file.writelines(missing_lines)
         return
     elif thing == Quests:
-        get_quest_names()
+        get_quest_names(flavor)
     elif thing == Pets:
         pet_dict: dict[str, list[str]] = create_dict_from_raw("Pets.txt", 1)
         creature_dict = create_dict_from_raw("Creatures.txt", 1)
@@ -714,4 +694,4 @@ def create_missing_files(flavor: str) -> None:
 """Step 1: Delete questDB.json in DATAS/00 - Item Database folder"""
 """Step 2: Parse Retail with Debug Mode. Change parser config to a PTR patch if you want to account for PTR things."""
 """Step 3: Run create_missing_files(flavor) and (you have to uncomment it)"""
-# create_missing_files()
+create_missing_files("Retail")

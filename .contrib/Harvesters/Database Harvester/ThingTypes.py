@@ -2,10 +2,34 @@ import re
 from abc import ABC, abstractmethod
 from pathlib import Path
 from packaging import version
+from packaging.version import Version
+from typing import Optional
 
 DATAS_FOLDER = Path("..", "..", "Parser", "DATAS")
 DEBUGGING_FOLDER = Path("..", "..", "..", ".contrib", "Debugging")
 DELIMITER = "@@@"
+# Define patch version ranges per flavor
+FLAVOR_RANGES: dict[str, tuple[Version, Optional[Version]]] = {
+    "Classic": (version.parse("0.0.0.00000"), version.parse("1.14.1.00000")),
+    "SoM":     (version.parse("1.14.1.00000"), version.parse("1.15.0.00000")),
+    "SoD":     (version.parse("1.15.0.00000"), version.parse("1.16.0.00000")),
+    "TBC":     (version.parse("2.0.0.00000"), version.parse("3.0.0.00000")),
+    "WotLK":   (version.parse("3.0.0.00000"), version.parse("4.0.0.00000")),
+    "Cata":    (version.parse("4.0.0.00000"), version.parse("5.0.0.00000")),
+    "MoP":     (version.parse("5.0.0.00000"), version.parse("6.0.0.00000")),
+    "Retail":  (version.parse("6.0.0.00000"), None),
+}
+
+FLAVOR_FOLDERS: dict[str, str] = {
+    "Classic": "01 - Classic",
+    "SoM": "02 - Season of Mastery",
+    "SoD": "03 - Season of Discovery",
+    "TBC": "04 - The Burning Crusade",
+    "WotLK": "05 - Wrath of the Lich King",
+    "Cata": "06 - Cataclysm",
+    "MoP": "07 - Mists of Pandaria",
+    "Retail": "99 - The War Within",
+}
 
 
 def remove_non_digits(string: str) -> str:
