@@ -15,10 +15,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}, {	-- RENOWN 2 --
 						--title(620),	-- Reservist <Name>
 					}, {	-- RENOWN 3 --
-						title(622),	-- Sentry <Name>
 					}, {	-- RENOWN 4 --
 						--title(621),	-- Field Sacredite <Name>
 					}, {	-- RENOWN 5 --
+						title(622),	-- Sentry <Name>
 						--title(623),	-- Stalwart <Name>
 					}, {	-- RENOWN 6 --
 						--title(624),	-- Ardent <Name>
