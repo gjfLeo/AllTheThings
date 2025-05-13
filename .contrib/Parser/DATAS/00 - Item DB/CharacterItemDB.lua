@@ -164,7 +164,7 @@ iq(128665, 39615);	-- Ball of Tangled Lights
 iq(128666, 39616);	-- Imported Trees
 iq(128667, 39767);	-- Little Helpers
 iq(128669, 39712);	-- Old Box of Decorations
-iq(128668, 39671);	-- Festive Outfits
+-- iq(128668, 39671);	-- Festive Outfits [this quest is not permanently completed, so it can't be a character unlock]
 
 -----------------
 -- PATCH 7.0.3 --

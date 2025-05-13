@@ -221,7 +221,7 @@ local function ProcessForCompletedBy(t, reference, tooltipInfo)
 				end
 			end
 			if #knownBy == 0 and IsQuestFlaggedCompletedOnAccount(id) then
-				tinsert(knownBy, {text=ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE or "Account-Wide"});
+				tinsert(knownBy, {text=ACCOUNT_COMPLETED_QUEST_NOTICE or "Previously completed on your Account"});
 			end
 		end
 		BuildKnownByInfoForKind(tooltipInfo, L.COMPLETED_BY);
