@@ -16052,3 +16052,6 @@
 42228@@@Console Overcharged Purchase 16
 42229@@@Console Overcharged Purchase 17
 42230@@@11.1.5 Mid-Season - Weekly Wrapper - Group Content - Seasonal Raid, First Time Tracker
+11.1.7.60672
+42212@@@Titan Console Overcharged
+42241@@@Overcharged Delver
