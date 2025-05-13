@@ -720,3 +720,33 @@
 89050@@@--
 89051@@@--
 89052@@@--
+934@@@Crown of the Earth
+5628@@@Returning Home
+5629@@@Returning Home
+5630@@@Returning Home
+5631@@@Returning Home
+5632@@@Returning Home
+5633@@@Returning Home
+5635@@@Desperate Prayer
+5636@@@Desperate Prayer
+5637@@@Desperate Prayer
+5638@@@Desperate Prayer
+5639@@@Desperate Prayer
+5640@@@Desperate Prayer
+5642@@@Shadowguard
+5643@@@Shadowguard
+5644@@@Devouring Plague
+5646@@@Devouring Plague
+5654@@@Hex of Weakness
+5655@@@Hex of Weakness
+5656@@@Hex of Weakness
+5657@@@Hex of Weakness
+5660@@@Touch of Weakness
+5661@@@Touch of Weakness
+5662@@@Touch of Weakness
+5663@@@Touch of Weakness
+5673@@@Elune's Grace
+5675@@@Elune's Grace
+5677@@@Arcane Feedback
+5678@@@Arcane Feedback
+8237@@@REUSE
