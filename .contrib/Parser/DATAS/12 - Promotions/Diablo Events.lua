@@ -88,7 +88,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			}),
 		},
 	})),
-	applyevent(A_GREEDY_EMISSARY, n(GREEDY_EMISSARY_EVENT, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, ADDED_11_1_7, REMOVED_11_2_0, } }, {
+	applyevent(A_GREEDY_EMISSARY, n(GREEDY_EMISSARY_EVENT, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, ADDED_11_1_7, REMOVED_11_2_0 } }, {
 		-- Event begins on May 25, 2023, and ends on June 13, 2023.
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, } }, {
 			ach(18258, {	--	Little Lord of Lies
@@ -108,15 +108,9 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				{ 26.7, 56.8, VALDRAKKEN },
 				{ 54.3, 78.6, VALDRAKKEN },
 				{ 57.5, 20.1, VALDRAKKEN },
-			};
-			["maps"] = { 
-				{ ORGRIMMAR },
-				{ STORMWIND_CITY },
-				{ THALDRASZUS },
-				{ THE_AZURE_SPAN },
-				{ VALDRAKKEN },
 			},
-			["description"] = "Every 30 Minutes a Portal spawns in either a Dragonflight Zone & or in a Capital, causing a Treasure Goblin to appear after 5 minutes.",
+			["maps"] = { ORGRIMMAR, STORMWIND_CITY, THALDRASZUS, THE_AZURE_SPAN, VALDRAKKEN },
+			["description"] = "Every 30 Minutes a Portal spawns in either a Dragonflight Zone and/or in a Capital, causing a Treasure Goblin to appear after 5 minutes.",
 			["groups"] = {
 				n(205490, {	-- Treasure Goblin
 					["questID"] = 76215,
@@ -157,12 +151,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			--	{ 54.7, 54.4, STORMWIND_CITY },
 			--	{ 54.7, 54.4, DORNOGAL },
 			},
-			["maps"] = { 
-				{ DORNOGAL },
-				{ ORGRIMMAR },
-				{ STORMWIND_CITY },
-				{ UNDERMINE },
-			},
+			["maps"] = { DORNOGAL, ORGRIMMAR, STORMWIND_CITY, UNDERMINE },
 			["description"] = "Every 60 Minutes a Portal spawns in either Dornogal, Stormwind or Orgrimmar, causing a Treasure Goblin to appear after 5 minutes.\n\nCan also spawn in Undermine after defeating a rare (one portal per rare, per hour)",
 			["groups"] = {
 				n(205490, {	-- Treasure Goblin
@@ -248,11 +237,11 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			},
 		})),
 		n(VENDORS, {
-			n(205722, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0, } }, {	-- Name Here
+			n(205723, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0, } }, {	-- Name Here
 			--	["coords"] = {
 				--	{ 54.7, 54.4, DORNOGAL },
 			--	},
-				["maps"] = { { DORNOGAL },},
+				["maps"] = { DORNOGAL },
 				["g"] = sharedData({
 					["cost"] = {
 						{"c", 3309, 10},	-- 10x Hellstone Shard
