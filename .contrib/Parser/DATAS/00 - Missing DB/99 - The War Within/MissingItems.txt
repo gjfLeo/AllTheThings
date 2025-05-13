@@ -34891,4 +34891,3 @@ i(246114),	-- Catalyst Elixir
 i(246127),	-- Healthy Elixir
 i(246227),	-- Lightning-Blessed Spire
 i(246242),	-- Blood-Wrapped Treasure Bag
-i(246264),	-- Inarius' Charger
