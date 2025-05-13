@@ -29,13 +29,4 @@ pet(4792),	-- Ada the Sweetest
 
 Missing in PetDB.lua
 
-11.1.0.58221
-pet(4665),	-- Yellow Tropical Frog
-pet(4670),	-- Hermes
-pet(4671),	-- Cauldrone
-pet(4672),	-- Finnity
-pet(4673),	-- Crunchy
-pet(4674),	-- Dosh
-pet(4675),	-- FO-MO Mark II
-pet(4676),	-- Bawkinator 2000
-pet(4677),	-- Black Cave Crab
+
