@@ -16012,6 +16012,8 @@
 42004@@@Bullhorn of Most Plenty
 11.1.5.60008
 41990@@@Total Kill Score
+11.1.5.60822
+42240@@@Anu'relos, Flame's Guidance <Tracking Achievement>
 11.1.7.60520
 41757@@@11.1.5 Mid-Season - Weekly Wrapper - Group Content - Seasonal Raid (YGR)
 41779@@@Master of the Turbulent Timeways III
