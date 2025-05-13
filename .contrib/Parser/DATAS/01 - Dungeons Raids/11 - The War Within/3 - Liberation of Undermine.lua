@@ -457,6 +457,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						}),
 						q(89025),	-- Time is Money!!
 					}, {	-- RENOWN 12 --
+						q(89251, {	-- Running Hot!
+							["qg"] = 235616,	-- Mickey Junkfeast <Trash Connoisseur>
+						}),
 					}, {	-- RENOWN 13 --
 						q(89021),	-- Loyal Customer: Black
 					}, {	-- RENOWN 14 --

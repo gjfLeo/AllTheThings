@@ -758,9 +758,6 @@ root(ROOTS.Unsorted, {
 				-- Darkal Check Later
 				i(238243),	-- Hidden Boots
 			}),
-			filter(COSMETIC, {
-				i(237502),	-- Puzzling Cartel Chip
-			}),
 			filter(MISC, {	-- More known
 				i(238207),	-- Nanny's Surge Dividend
 				i(229810),	-- Vintage Kaja'Cola Can
