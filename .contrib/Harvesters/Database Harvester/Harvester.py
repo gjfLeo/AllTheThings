@@ -694,4 +694,4 @@ def create_missing_files(flavor: str) -> None:
 """Step 1: Delete questDB.json in DATAS/00 - Item Database folder"""
 """Step 2: Parse Retail with Debug Mode. Change parser config to a PTR patch if you want to account for PTR things."""
 """Step 3: Run create_missing_files(flavor) and (you have to uncomment it)"""
-create_missing_files("Retail")
+# create_missing_files("")
