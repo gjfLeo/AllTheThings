@@ -177,7 +177,15 @@ local function SearchByKindLink(link)
 		id = GetGroupItemIDWithModID(nil, id, id2, id3)
 	end
 	-- app.PrintDebug("Search",kind,id,#SearchForObject(kind, id, nil, true))
-	local results = SearchForObject(kind, id, nil, true)
+	local results = SearchForObject(kind, id, "key", true)
+	-- field search if nothing found
+	if #results == 0 then
+		results = SearchForObject(kind, id, "field", true)
+	end
+	-- lenient search if nothing found
+	if #results == 0 then
+		results = SearchForObject(kind, id, nil, true)
+	end
 	-- special case for missing criteria
 	if #results == 0 and kind == "criteriaID" then
 		return results, kind, id..":"..(id2 or "")
