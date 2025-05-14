@@ -12,7 +12,7 @@ SEVERED_THREADS_PACT = createHeader({
 });
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(AZJ_KAHET, {
-		header(HEADERS.Faction, THE_SEVERED_THREADS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+		header(HEADERS.Faction, FACTION_THE_SEVERED_THREADS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			n(ACHIEVEMENTS, {
 				ach(41189, {	-- Azj the World Turns
 					["timeline"] = { ADDED_11_0_7 },

@@ -5,7 +5,7 @@ local RADIANT_REMNANT = 206350;
 
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(HALLOWFALL, {
-		header(HEADERS.Faction, HALLOWFALL_ARATHI, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+		header(HEADERS.Faction, FACTION_HALLOWFALL_ARATHI, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			n(ACHIEVEMENTS, {
 				ach(41188, {	-- Crystal Chronicled
 					["timeline"] = { ADDED_11_0_7 },

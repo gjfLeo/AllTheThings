@@ -4,7 +4,7 @@
 
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(ISLE_OF_DORN, {
-		header(HEADERS.Faction, COUNCIL_OF_DORNOGAL, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+		header(HEADERS.Faction, FACTION_COUNCIL_OF_DORNOGAL, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			n(ACHIEVEMENTS, {
 				ach(41186, {	-- Slate of the Union
 					["timeline"] = { ADDED_11_0_7 },

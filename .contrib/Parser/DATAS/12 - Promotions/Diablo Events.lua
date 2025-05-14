@@ -109,7 +109,6 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				{ 54.3, 78.6, VALDRAKKEN },
 				{ 57.5, 20.1, VALDRAKKEN },
 			},
-			["maps"] = { ORGRIMMAR, STORMWIND_CITY, THALDRASZUS, THE_AZURE_SPAN, VALDRAKKEN },
 			["description"] = "Every 30 Minutes a Portal spawns in either a Dragonflight Zone and/or in a Capital, causing a Treasure Goblin to appear after 5 minutes.",
 			["groups"] = {
 				n(205490, {	-- Treasure Goblin
@@ -151,7 +150,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			--	{ 54.7, 54.4, STORMWIND_CITY },
 			--	{ 54.7, 54.4, DORNOGAL },
 			},
-			["maps"] = { DORNOGAL, ORGRIMMAR, STORMWIND_CITY, UNDERMINE },
+			["maps"] = { DORNOGAL, ORGRIMMAR, STORMWIND_CITY, UNDERMINE },	-- TODO: remove once proper coords added, parser will complain
 			["description"] = "Every 60 Minutes a Portal spawns in either Dornogal, Stormwind or Orgrimmar, causing a Treasure Goblin to appear after 5 minutes.\n\nCan also spawn in Undermine after defeating a rare (one portal per rare, per hour)",
 			["groups"] = {
 				n(205490, {	-- Treasure Goblin
@@ -192,7 +191,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 							i(245894), -- Small Charm of Proficiency
 							i(245895), -- Small Charm of Savagery
 							i(245896), -- Small Charm of Adaptability
-							i(245887), -- Stalwart's Grand Charm							
+							i(245887), -- Stalwart's Grand Charm
 							-- Trash Grey Items
 							i(245606), -- Blank Scroll
 							i(245592), -- Chipped Skull

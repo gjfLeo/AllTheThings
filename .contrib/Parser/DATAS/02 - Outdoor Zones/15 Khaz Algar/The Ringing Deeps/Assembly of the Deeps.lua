@@ -22,7 +22,7 @@ SNUFFLING = createHeader({
 });
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(THE_RINGING_DEEPS, {
-		header(HEADERS.Faction, THE_ASSEMBLY_OF_THE_DEEPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+		header(HEADERS.Faction, FACTION_THE_ASSEMBLY_OF_THE_DEEPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			n(ACHIEVEMENTS, {
 				ach(41187, {	-- Rage Aside the Machine
 					["timeline"] = { ADDED_11_0_7 },
