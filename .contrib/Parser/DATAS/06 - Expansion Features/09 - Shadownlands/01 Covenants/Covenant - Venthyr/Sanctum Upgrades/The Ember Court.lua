@@ -144,6 +144,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				n(EMBER_COURT, {
 					["maps"] = { 1644 },	-- Ember Court (Scenario Map)
 					["g"] = {
+						faction(FACTION_THE_EMBER_COURT, {
+							["crs"] = { 165399 },	-- Lord Garridan
+							["maps"] = { REVENDRETH },
+						}),
 						n(ACHIEVEMENTS, {
 							ach(14723, {	-- Be Our Guest
 								crit(49730, {	-- Baroness Vashj
@@ -489,63 +493,57 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 							ach(14725),		-- We Happy Few
 						}),
 						n(FACTIONS, {
-							faction(FACTION_THE_EMBER_COURT, {	-- The Ember court
-								["crs"] = { 165399 },	-- Lord Garridan
-								["maps"] = { REVENDRETH },
-								["g"] = {
-									-- Tier 1
-									faction(FACTION_EMBER_COURT_CHOOFA, {	-- Choofa
-										["npcID"] = 168449,
-									}),
-									faction(FACTION_EMBER_COURT_KASSIR, {	-- Cryptkeeper Kassir
-										["npcID"] = 168450,
-									}),
-									faction(FACTION_EMBER_COURT_MARILETH, {	-- Plague Deviser Marileth
-										["npcID"] = 171852,
-									}),
-									faction(FACTION_EMBER_COURT_SIKA, {	-- Sika
-										["npcID"] = 171854,
-									}),
-									-- Tier 2
-									faction(FACTION_EMBER_COURT_ALIOTHE, {	-- Droman Aliothe
-										["npcID"] = 171847,
-									}),
-									faction(FACTION_EMBER_COURT_VOLE, {	-- Grandmaster Vole
-										["npcID"] = 171848,
-									}),
-									faction(FACTION_EMBER_COURT_KLEIA_PELAGOS, {	-- Kleia and Pelagos
-										["npcID"] = 171850,
-									}),
-									faction(FACTION_EMBER_COURT_STONEHEAD, {	-- Stonehead
-										["npcID"] = 171856,
-									}),
-									-- Tier 3
-									faction(FACTION_EMBER_COURT_MOGRAINE, {	-- Alexandros Mograine
-										["npcID"] = 171833,
-									}),
-									faction(FACTION_EMBER_COURT_KORAYN, {	-- Hunt-Captain Korayn
-										["npcID"] = 171836,
-									}),
-									faction(FACTION_EMBER_COURT_ADRESTES, {	-- Polemarch Adrestes
-										["npcID"] = 168447,
-									}),
-									faction(FACTION_EMBER_COURT_RENDLE_CUDGELFACE, {	-- Rendle and Cudgelface
-										["npcID"] = 171839,
-									}),
-									-- Tier 4
-									faction(FACTION_EMBER_COURT_VASHJ, {	-- Baroness Vashj
-										["npcID"] = 168444,
-									}),
-									faction(FACTION_EMBER_COURT_MOONBERRY, {	-- Lady Moonberry
-										["npcID"] = 171830,
-									}),
-									faction(FACTION_EMBER_COURT_MIKANIKOS, {	-- Mikanikos
-										["npcID"] = 171831,
-									}),
-									faction(FACTION_EMBER_COURT_COUNTESS, {	-- The Countess
-										["npcID"] = 165269,
-									}),
-								},
+							-- Tier 1
+							faction(FACTION_EMBER_COURT_CHOOFA, {	-- Choofa
+								["npcID"] = 168449,
+							}),
+							faction(FACTION_EMBER_COURT_KASSIR, {	-- Cryptkeeper Kassir
+								["npcID"] = 168450,
+							}),
+							faction(FACTION_EMBER_COURT_MARILETH, {	-- Plague Deviser Marileth
+								["npcID"] = 171852,
+							}),
+							faction(FACTION_EMBER_COURT_SIKA, {	-- Sika
+								["npcID"] = 171854,
+							}),
+							-- Tier 2
+							faction(FACTION_EMBER_COURT_ALIOTHE, {	-- Droman Aliothe
+								["npcID"] = 171847,
+							}),
+							faction(FACTION_EMBER_COURT_VOLE, {	-- Grandmaster Vole
+								["npcID"] = 171848,
+							}),
+							faction(FACTION_EMBER_COURT_KLEIA_PELAGOS, {	-- Kleia and Pelagos
+								["npcID"] = 171850,
+							}),
+							faction(FACTION_EMBER_COURT_STONEHEAD, {	-- Stonehead
+								["npcID"] = 171856,
+							}),
+							-- Tier 3
+							faction(FACTION_EMBER_COURT_MOGRAINE, {	-- Alexandros Mograine
+								["npcID"] = 171833,
+							}),
+							faction(FACTION_EMBER_COURT_KORAYN, {	-- Hunt-Captain Korayn
+								["npcID"] = 171836,
+							}),
+							faction(FACTION_EMBER_COURT_ADRESTES, {	-- Polemarch Adrestes
+								["npcID"] = 168447,
+							}),
+							faction(FACTION_EMBER_COURT_RENDLE_CUDGELFACE, {	-- Rendle and Cudgelface
+								["npcID"] = 171839,
+							}),
+							-- Tier 4
+							faction(FACTION_EMBER_COURT_VASHJ, {	-- Baroness Vashj
+								["npcID"] = 168444,
+							}),
+							faction(FACTION_EMBER_COURT_MOONBERRY, {	-- Lady Moonberry
+								["npcID"] = 171830,
+							}),
+							faction(FACTION_EMBER_COURT_MIKANIKOS, {	-- Mikanikos
+								["npcID"] = 171831,
+							}),
+							faction(FACTION_EMBER_COURT_COUNTESS, {	-- The Countess
+								["npcID"] = 165269,
 							}),
 						}),
 						filter(MISC, {

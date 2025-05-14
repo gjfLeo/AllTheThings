@@ -16,6 +16,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 			2262,	-- Traitor's Rest
 		},
 		["g"] = {
+			faction(FACTION_AZEROTHIAN_ARCHIVES),
 			n(ACHIEVEMENTS, {
 				ach(19790, {	-- The Archives Called, You Answered
 					["sym"] = {{"meta_achievement",
@@ -93,15 +94,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					},
 				}),
 				ach(19789),	-- Relic Rescuer
+				ach(19685, {	-- Tenured Archiviest
+					["minReputation"] = { FACTION_AZEROTHIAN_ARCHIVES, 5 },
+				}),
 				ach(19788),	-- Tome Comber
 				ach(19786, {	-- When a Rock is Just a Rock
 					["description"] = "Can be found during Excavation World Quests, look for a rock near dirt piles or geysers."
-				}),
-			}),
-			header(HEADERS.Faction, FACTION_AZEROTHIAN_ARCHIVES, {
-				faction(FACTION_AZEROTHIAN_ARCHIVES),
-				ach(19685, {	-- Tenured Archiviest
-					["minReputation"] = { FACTION_AZEROTHIAN_ARCHIVES, 5 },
 				}),
 			}),
 			n(DROPS, {
