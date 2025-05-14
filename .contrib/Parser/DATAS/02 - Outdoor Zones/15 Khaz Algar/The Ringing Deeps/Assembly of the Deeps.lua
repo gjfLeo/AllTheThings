@@ -23,19 +23,23 @@ SNUFFLING = createHeader({
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(THE_RINGING_DEEPS, {
 		header(HEADERS.Faction, FACTION_THE_ASSEMBLY_OF_THE_DEEPS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+			faction(FACTION_THE_ASSEMBLY_OF_THE_DEEPS),
 			n(ACHIEVEMENTS, {
-				ach(41187, {	-- Rage Aside the Machine
+				ach(40836, {	-- Forging Deep Friendships
+					["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 15 },	-- The Assembly of the Deeps Renown 15
+					["timeline"] = { REMOVED_11_0_7 },
+				}),
+				ach(41165, {	-- Assembly of the Deeps
+					["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 15 },	-- The Assembly of the Deeps Renown 15
 					["timeline"] = { ADDED_11_0_7 },
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						40837,	-- Adventurer of The Ringing Deeps
-						40662,	-- It's Not Much, But It's Honest Work
-						40473,	-- Not So Quick Fix
-						40628,	-- Notable Machines
-						40585,	-- Super Size Snuffling
-						40475,	-- To All the Slimes I Love
-						40724,	-- Treasures of The Ringing Deeps
-					}},
+				}),
+				ach(40905, {	-- From Many, One
+					["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 25 },	-- The Assembly of the Deeps Renown 25
+					["timeline"] = { REMOVED_11_0_7 },
+				}),
+				ach(41166, {	-- From Many, One
+					["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 25 },	-- The Assembly of the Deeps Renown 25
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			}),
 			n(AWAKENING_THE_MACHINE, {
@@ -176,29 +180,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						}),
 					}),
 				},
-			}),
-			n(FACTIONS, {
-				faction(FACTION_THE_ASSEMBLY_OF_THE_DEEPS, {
-					ach(40836, {	-- Forging Deep Friendships
-						["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 15 },	-- The Assembly of the Deeps Renown 15
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41165, {	-- Assembly of the Deeps
-						["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 15 },	-- The Assembly of the Deeps Renown 15
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					ach(40905, {	-- From Many, One
-						["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 25 },	-- The Assembly of the Deeps Renown 25
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41166, {	-- From Many, One
-						["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 25 },	-- The Assembly of the Deeps Renown 25
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					title(564, {	-- Machine Whisperer
-						["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 25 },	-- The Assembly of the Deeps Renown 25
-					}),
-				}),
 			}),
 			n(QUESTS, sharedData({
 				["qgs"] = {
@@ -393,6 +374,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							}),
 						},
 					}),
+				}),
+			}),
+			f(TITLES, {
+				title(564, {	-- Machine Whisperer
+					["minReputation"] = { FACTION_THE_ASSEMBLY_OF_THE_DEEPS, 25 },	-- The Assembly of the Deeps Renown 25
 				}),
 			}),
 			n(VENDORS, {

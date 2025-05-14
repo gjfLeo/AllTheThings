@@ -6,45 +6,23 @@ local RADIANT_REMNANT = 206350;
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(HALLOWFALL, {
 		header(HEADERS.Faction, FACTION_HALLOWFALL_ARATHI, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+			faction(FACTION_HALLOWFALL_ARATHI),
 			n(ACHIEVEMENTS, {
-				ach(41188, {	-- Crystal Chronicled
-					["timeline"] = { ADDED_11_0_7 },
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						40851,	-- Adventurer of Hallowfall
-						40308,	-- Beacon of Hope
-						40622,	-- Biblo Archivist
-						40150,	-- Children's Entertainer
-						40313,	-- Igniting the Keyflames
-						40618,	-- Lost and Found
-						40151,	-- Mereldar Menace
-						40311,	-- Sharing the Light
-						40625,	-- The Missing Lynx
-						40848,	-- Treasures of Hallowfall
-					}},
+				ach(40845, {	-- Hallowfall Arathi
+					["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 15 },	-- Hallowfall Arathi Renown 15
+					["timeline"] = { REMOVED_11_0_7 },
 				}),
-			}),
-			n(FACTIONS, {
-				faction(FACTION_HALLOWFALL_ARATHI, {
-					ach(40845, {	-- Hallowfall Arathi
-						["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 15 },	-- Hallowfall Arathi Renown 15
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41167, {	-- Hallowfall Arathi
-						["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 15 },	-- Hallowfall Arathi Renown 15
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					ach(40906, {	-- The Flame Burns Within
-						["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 25 },	-- Hallowfall Arathi Renown 25
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41168, {	-- The Flame Burns Within
-						["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 25 },	-- Hallowfall Arathi Renown 25
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					title(566, {	-- Lamplighter
-						["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 25 },	-- Hallowfall Arathi Renown 25
-					}),
+				ach(41167, {	-- Hallowfall Arathi
+					["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 15 },	-- Hallowfall Arathi Renown 15
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				ach(40906, {	-- The Flame Burns Within
+					["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 25 },	-- Hallowfall Arathi Renown 25
+					["timeline"] = { REMOVED_11_0_7 },
+				}),
+				ach(41168, {	-- The Flame Burns Within
+					["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 25 },	-- Hallowfall Arathi Renown 25
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			}),
 			n(QUESTS, sharedData({
@@ -1378,6 +1356,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 				},
 			})),
+			f(TITLES, {
+				title(566, {	-- Lamplighter
+					["minReputation"] = { FACTION_HALLOWFALL_ARATHI , 25 },	-- Hallowfall Arathi Renown 25
+				}),
+			}),
 			n(VENDORS, {
 				n(213145, {	-- Auralia Steelstrike <Arathi Quartermaster>
 					["coords"] = {

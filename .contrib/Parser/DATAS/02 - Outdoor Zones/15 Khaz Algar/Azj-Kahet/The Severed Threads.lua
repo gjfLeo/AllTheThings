@@ -13,43 +13,23 @@ SEVERED_THREADS_PACT = createHeader({
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(AZJ_KAHET, {
 		header(HEADERS.Faction, FACTION_THE_SEVERED_THREADS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+			faction(FACTION_THE_SEVERED_THREADS),
 			n(ACHIEVEMENTS, {
-				ach(41189, {	-- Azj the World Turns
-					["timeline"] = { ADDED_11_0_7 },
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						40840,	-- Adventurer of Azj-Kahet
-						40629,	-- Bookworm
-						40624,	-- Itsy Bitsy Spider
-						40542,	-- Smelling History
-						40633,	-- The Unseeming
-						40828,	-- Treasures of Azj-Kahet
-						40869,	-- Worm Theory
-						40634,	-- You Can't Hang With Us
-					}},
+				ach(40838, {	-- The Severed Threads
+					["minReputation"] = { FACTION_THE_SEVERED_THREADS , 15 },	-- The Severed Threads Renown 15
+					["timeline"] = { REMOVED_11_0_7 },
 				}),
-			}),
-			n(FACTIONS, {
-				faction(FACTION_THE_SEVERED_THREADS, {
-					ach(40838, {	-- The Severed Threads
-						["minReputation"] = { FACTION_THE_SEVERED_THREADS , 15 },	-- The Severed Threads Renown 15
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41149, {	-- The Severed Threads
-						["minReputation"] = { FACTION_THE_SEVERED_THREADS , 15 },	-- The Severed Threads Renown 15
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					ach(40907, {	-- We Rise Anew
-						["minReputation"] = { FACTION_THE_SEVERED_THREADS , 25 },	-- The Severed Threads Renown 25
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41164, {	-- We Rise Anew
-						["minReputation"] = { FACTION_THE_SEVERED_THREADS , 25 },	-- The Severed Threads Renown 25
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					title(567, {	-- Thread-Spinner
-						["minReputation"] = { FACTION_THE_SEVERED_THREADS , 25 },	-- The Severed Threads Renown 25
-					}),
+				ach(41149, {	-- The Severed Threads
+					["minReputation"] = { FACTION_THE_SEVERED_THREADS , 15 },	-- The Severed Threads Renown 15
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				ach(40907, {	-- We Rise Anew
+					["minReputation"] = { FACTION_THE_SEVERED_THREADS , 25 },	-- The Severed Threads Renown 25
+					["timeline"] = { REMOVED_11_0_7 },
+				}),
+				ach(41164, {	-- We Rise Anew
+					["minReputation"] = { FACTION_THE_SEVERED_THREADS , 25 },	-- The Severed Threads Renown 25
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			}),
 			n(QUESTS, sharedData({
@@ -115,28 +95,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}))),
 			n(SEVERED_THREADS_PACT, bubbleDownSelf({ ["minReputation"] = { FACTION_THE_SEVERED_THREADS, 3 } }, {
-				n(FACTIONS, {
-					faction(FACTION_THE_GENERAL, {
-						ach(40875, sharedDataSelf({	-- True Strength
-							["minReputation"] = { FACTION_THE_GENERAL, 9 },
-						}, {
-							title(573),	-- Anub'<Name>
-						})),
-					}),
-					faction(FACTION_THE_VIZIER, {
-						ach(40876, sharedDataSelf({	-- Vox Arachnid
-							["minReputation"] = { FACTION_THE_VIZIER, 9 },
-						}, {
-							title(574),	-- <Name>, Hand of the Vizier
-						})),
-					}),
-					faction(FACTION_THE_WEAVER, {
-						ach(40874, sharedDataSelf({	-- The Grand Tapestry
-							["minReputation"] = { FACTION_THE_WEAVER, 9 },
-						}, {
-							title(572),	-- Silksinger <Name>
-						})),
-					}),
+				faction(FACTION_THE_GENERAL),
+				faction(FACTION_THE_VIZIER),
+				faction(FACTION_THE_WEAVER),
+				n(ACHIEVEMENTS, {
+					ach(40874, sharedDataSelf({	-- The Grand Tapestry
+						["minReputation"] = { FACTION_THE_WEAVER, 9 },
+					}, {
+						title(572),	-- Silksinger <Name>
+					})),
+					ach(40875, sharedDataSelf({	-- True Strength
+						["minReputation"] = { FACTION_THE_GENERAL, 9 },
+					}, {
+						title(573),	-- Anub'<Name>
+					})),
+					ach(40876, sharedDataSelf({	-- Vox Arachnid
+						["minReputation"] = { FACTION_THE_VIZIER, 9 },
+					}, {
+						title(574),	-- <Name>, Hand of the Vizier
+					})),
 				}),
 				n(QUESTS, {
 					n(EMISSARY_QUESTS, {
@@ -823,6 +800,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 				}),
 			})),
+			f(TITLES, {
+				title(567, {	-- Thread-Spinner
+					["minReputation"] = { FACTION_THE_SEVERED_THREADS , 25 },	-- The Severed Threads Renown 25
+				}),
+			}),
 			n(TREASURES, sharedData({
 				["isDaily"] = true,
 				["sourceQuest"] = 80544,	-- The Weaver Weekly pickup

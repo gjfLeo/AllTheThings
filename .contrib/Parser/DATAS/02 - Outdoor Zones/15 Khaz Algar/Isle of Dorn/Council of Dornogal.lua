@@ -5,41 +5,23 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(ISLE_OF_DORN, {
 		header(HEADERS.Faction, FACTION_COUNCIL_OF_DORNOGAL, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+			faction(FACTION_COUNCIL_OF_DORNOGAL),
 			n(ACHIEVEMENTS, {
-				ach(41186, {	-- Slate of the Union
-					["timeline"] = { ADDED_11_0_7 },
-					-- Meta Achievement
-					["sym"] = {{"meta_achievement",
-						40860,	-- A Star of Dorn
-						40435,	-- Adventurer of the Isle of Dorn
-						40606,	-- Flat Earthen
-						40504,	-- Rocked to Sleep
-						40434,	-- Treasures of the Isle of Dorn
-						40859,	-- We're Here All Night
-					}},
+				ach(40856, {	-- Council of Dornogal
+					["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 15 },	-- Council of Dornogal Renown 15
+					["timeline"] = { REMOVED_11_0_7 },
 				}),
-			}),
-			n(FACTIONS, {
-				faction(FACTION_COUNCIL_OF_DORNOGAL, {
-					ach(40856, {	-- Council of Dornogal
-						["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 15 },	-- Council of Dornogal Renown 15
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41161, {	-- Council of Dornogal
-						["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 15 },	-- Council of Dornogal Renown 15
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					ach(40904, {	-- Cornerstone of Dornogal
-						["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 25 },	-- Council of Dornogal Renown 25
-						["timeline"] = { REMOVED_11_0_7 },
-					}),
-					ach(41162, {	-- Cornerstone of Dornogal
-						["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 25 },	-- Council of Dornogal Renown 25
-						["timeline"] = { ADDED_11_0_7 },
-					}),
-					title(565, {	-- Honorary Councilmember
-						["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 25 },	-- Council of Dornogal Renown 25
-					}),
+				ach(41161, {	-- Council of Dornogal
+					["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 15 },	-- Council of Dornogal Renown 15
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				ach(40904, {	-- Cornerstone of Dornogal
+					["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 25 },	-- Council of Dornogal Renown 25
+					["timeline"] = { REMOVED_11_0_7 },
+				}),
+				ach(41162, {	-- Cornerstone of Dornogal
+					["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 25 },	-- Council of Dornogal Renown 25
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			}),
 			n(QUESTS, sharedData({
@@ -207,6 +189,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 				},
 			})),
+			f(TITLES, {
+				title(565, {	-- Honorary Councilmember
+					["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 25 },	-- Council of Dornogal Renown 25
+				}),
+			}),
 			n(VENDORS, {
 				n(223728, {	-- Auditor Balwurz <Keeper of Renown>
 					["coord"] = { 39.1, 24.0, DORNOGAL },
