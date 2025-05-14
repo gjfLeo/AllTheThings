@@ -397,41 +397,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				ach(41289),	-- Liberation of Undermine Guild Run
 				ach(41290),	-- Heroic: Liberation of Undermine Guild Run
 			}),
-			n(FACTIONS, {
-				faction(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
-					n(235621, {	-- Ando the Gat <Black Market Broker>
-						["g"] = bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
-							{		-- RENOWN 1 --
-							}, {	-- RENOWN 2 --
-							}, {	-- RENOWN 3 --
-							}, {	-- RENOWN 4 --
-							}, {	-- RENOWN 5 --
-							}, {	-- RENOWN 6 --
-							}, {	-- RENOWN 7 --
-							}, {	-- RENOWN 8 --
-								i(229945),			-- Thunderdrum Misfire (MOUNT!)
-							}, {	-- RENOWN 9 --
-							}, {	-- RENOWN 10 --
-							}, {	-- RENOWN 11 --
-							}, {	-- RENOWN 12 --
-							}, {	-- RENOWN 13 --
-							}, {	-- RENOWN 14 --
-							}, {	-- RENOWN 15 --
-							}, {	-- RENOWN 16 --
-							}, {	-- RENOWN 17 --
-								i(229924),		-- Darkfuse Chompactor (MOUNT!)
-							}, {	-- RENOWN 18 --
-							}, {	-- RENOWN 19 --
-							}, {	-- RENOWN 20 --
-								i(229940),			-- Flarendo the Furious (MOUNT!)
-								title(602),			-- High Roller <Name>
-							},
-						}),
-					}),
-				}),
+			header(HEADERS.Faction, FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+				faction(FACTION_GLRC),
 				n(QUESTS, sharedData({
 					["qg"] = 235617,	-- Paula Piranha <Renown Quartermaster>
-				}, bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+				},bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
 					{		-- RENOWN 1 --
 						q(89016),	-- Members Only
 					}, {	-- RENOWN 2 --
@@ -487,6 +457,35 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}),
 				}),
 				n(VENDORS, {
+					n(235621, {	-- Ando the Gat <Black Market Broker>
+						["g"] = bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+							{		-- RENOWN 1 --
+							}, {	-- RENOWN 2 --
+							}, {	-- RENOWN 3 --
+							}, {	-- RENOWN 4 --
+							}, {	-- RENOWN 5 --
+							}, {	-- RENOWN 6 --
+							}, {	-- RENOWN 7 --
+							}, {	-- RENOWN 8 --
+								i(229945),			-- Thunderdrum Misfire (MOUNT!)
+							}, {	-- RENOWN 9 --
+							}, {	-- RENOWN 10 --
+							}, {	-- RENOWN 11 --
+							}, {	-- RENOWN 12 --
+							}, {	-- RENOWN 13 --
+							}, {	-- RENOWN 14 --
+							}, {	-- RENOWN 15 --
+							}, {	-- RENOWN 16 --
+							}, {	-- RENOWN 17 --
+								i(229924),		-- Darkfuse Chompactor (MOUNT!)
+							}, {	-- RENOWN 18 --
+							}, {	-- RENOWN 19 --
+							}, {	-- RENOWN 20 --
+								i(229940),			-- Flarendo the Furious (MOUNT!)
+								title(602),			-- High Roller <Name>
+							},
+						}),
+					}),
 					n(235624, {	-- Skitto Screwjack
 						i(236413),	-- "Shockproof" Soda
 						i(236749, {	-- Take-Home Torq (TOY!)

@@ -98,6 +98,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["description"] = "Can be found during Excavation World Quests, look for a rock near dirt piles or geysers."
 				}),
 			}),
+			header(HEADERS.Faction, FACTION_AZEROTHIAN_ARCHIVES, {
+				faction(FACTION_AZEROTHIAN_ARCHIVES),
+				ach(19685, {	-- Tenured Archiviest
+					["minReputation"] = { FACTION_AZEROTHIAN_ARCHIVES, 5 },
+				}),
+			}),
 			n(DROPS, {
 				i(213185, {	-- Dusty Centaur Tome
 					["sym"] = {{ "select", "npcID", 208029 },{"pop"}},
@@ -156,13 +162,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 				i(213192),	-- Scratched-Out List of Names
 				i(212762),	-- Tarnished Horn Signet
 				i(212769),	-- Tattered Wanted Poster
-			}),
-			n(FACTIONS, {
-				faction(FACTION_AZEROTHIAN_ARCHIVES, {
-					ach(19685, {	-- Tenured Archiviest
-						["minReputation"] = { FACTION_AZEROTHIAN_ARCHIVES, 5 },
-					}),
-				}),
 			}),
 			n(QUESTS, {
 				q(77325, {	-- To the Archives!
