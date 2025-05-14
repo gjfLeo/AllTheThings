@@ -3,7 +3,8 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 	m(VALDRAKKEN, {
-		faction(FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, {
+		header(HEADERS.Faction, FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH, {
+			faction(FACTION_ARTISANS_CONSORTIUM_DRAGON_ISLES_BRANCH),
 			n(ACHIEVEMENTS, {
 				ach(16539),	-- In High Esteem
 			}),

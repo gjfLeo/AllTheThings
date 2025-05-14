@@ -5,11 +5,14 @@ local SINSTONE_FRAGMENTS = 1816;
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(REVENDRETH, {
 		n(FACTIONS, {
-			faction(FACTION_THE_AVOWED, {	-- The Avowed
+			header(HEADERS.Faction, FACTION_THE_AVOWED, {	-- The Avowed
 				["icon"] = 458226,
 				["description"] = "To unlock this faction, you must complete |cFFFFD700The Final Atonement|r questline in Revendreth.\n\nReputation with The Avowed is gained first by killing Depraved mobs outside the Halls of Atonement.  Once you reach Friendly, use your |cFFFFFFFFSinstone Fragments|r to complete daily quests and summon Inquisitors, High Inquisitors, and Grand Inquisitors.\n\nMembers of the |cFFfe040fVenthyr Covenant|r can purchase a special mount and cosmetic cloak from the Avowed quartermaster that are unavailable to other covenants.",
 				["sourceQuests"] = { 57929 },	-- Hunting an Inquisitor (unlocks ability to collect Sinstone Fragments + gain reputation)
 				["g"] = {
+					faction(FACTION_THE_AVOWED, {	-- The Avowed
+						["icon"] = 458226,
+					}),
 					n(ACHIEVEMENTS, {
 						ach(14274, {	-- Absolution For All
 							["description"] = "Fugitive Souls are friendly NPCs that can be found all over the Court of Harvesters.  Find them and bring them to an Avowed Ritualist to perform a ritual of absolution.\n\nOnly one soul can be picked up at a time.",
