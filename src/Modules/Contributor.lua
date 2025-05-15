@@ -672,6 +672,7 @@ MobileDB.GameObject = {
 	[253280] = true,	-- Leystone Seam
 	[253992] = true,	-- Box of Trinkets (Eye of Azshara)
 	[253993] = true,	-- Crusty Kvaldir Chest (Maw of Souls)
+	[254001] = true,	-- Misplaced Chest (The Arcway)
 	[254003] = true,	-- Legion Cache (Vault of the Wardens)
 	[255344] = true,	-- Felslate Seam
 	[259764] = true,	-- Love Potion No. 13

@@ -79,13 +79,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			-- Ultra Prime is likely one-time for the 3x chips, regular quest will follow other weeks
 			q(91205, {	-- Ultra Prime Deluxe Turbo-Boost: Powerhouse Challenges
-				--["provider"] = { "o", ???? },	-- Object Questgiver, not captured
+				["provider"] = { "o", 525434 },	-- Bounty: Liberation of Undermine
 				["coord"] = { 52.4, 45.9, DORNOGAL },
 				["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 				["g"] = { i(237502) },	-- Puzzling Cartel Chip x3
 			}),
 			q(89039, {	-- Turbo-Boost: Powerhouse Challenges
-				--["provider"] = { "o", ???? },	-- Object Questgiver, not captured
+				["provider"] = { "o", 525434 },	-- Bounty: Liberation of Undermine
 				["coord"] = { 52.4, 45.9, DORNOGAL },
 				["isWeekly"] = true,
 				["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
