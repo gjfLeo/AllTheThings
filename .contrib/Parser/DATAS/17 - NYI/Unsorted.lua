@@ -75,7 +75,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				-- Delves
-				i(239502),	-- Big Wheel of Cheese
 				i(242743),	-- Durable Information Securing Container [Trinket]
 				i(244899),	-- Miniature Titan Disc: Critical Chain
 				i(244901),	-- Miniature Titan Disc: Statically Charged

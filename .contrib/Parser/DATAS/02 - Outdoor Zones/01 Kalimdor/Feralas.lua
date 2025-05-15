@@ -1582,7 +1582,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25398, {	-- Sealing the Dream [A]
 					["providers"] = {
 						{ "n", 40032 },	-- Telaron Windflight
-						{ "i", 52576 },	-- Ysondre's Tear (QI!)
+						{ "i", 52576 },	-- Ysondre's Tear (QI!) not prov
 					},
 					["sourceQuests"] = {
 						25396,	-- Tears of Stone
@@ -1606,7 +1606,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(25250, {	-- Sealing the Dream [H]
 					["providers"] = {
 						{ "n", 39377 },	-- Konu Runetotem
-						{ "i", 52576 },	-- Ysondre's Tear
+						{ "i", 52576 },	-- Ysondre's Tear (QI!) not prov
 					},
 					["sourceQuests"] = {
 						25237,	-- Tears of Stone
