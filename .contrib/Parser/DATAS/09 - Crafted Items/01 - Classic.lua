@@ -1311,7 +1311,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(38857),	-- Enchant Gloves - Greater Strength
 			i(38889),	-- Enchant Gloves - Healing Power
 			i(38801),	-- Enchant Gloves - Herbalism
-			i(38800),	-- Enchant Gloves - Mining
+			i(38800, {	-- Enchant Gloves - Mining
+				["timeline"] = { REMOVED_4_0_3, ADDED_6_1_0 },
+			}),
 			i(38851),	-- Enchant Gloves - Minor Haste
 			i(38850),	-- Enchant Gloves - Riding Skill
 			i(38886),	-- Enchant Gloves - Shadow Power
