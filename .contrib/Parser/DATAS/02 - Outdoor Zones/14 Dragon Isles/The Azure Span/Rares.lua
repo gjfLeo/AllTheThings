@@ -53,9 +53,9 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			n(193157, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_2_5, ADDED_11_0_7 } }, {	-- Dragonhunter Gorund
 				["coords"] = {
 					-- #if AFTER 11.0.7
-					{ 27.8, 45.8, THE_AZURE_SPAN },
-					-- #else
 					{ 24.5, 47.3, THE_AZURE_SPAN },
+					-- #else
+					{ 27.8, 45.8, THE_AZURE_SPAN },
 					-- #endif
 				},
 				["questID"] = 73873,
