@@ -42,7 +42,7 @@ if GetCVar("portal") == "EU" then
 	remapping[652] = 643; -- EU MoP Timewalking
 	remapping[1063] = 1056; -- EU WoD Timewalking
 	remapping[1265] = 1263;	-- EU Legion Timewalking
-	remapping[1667] = 1603;	-- EU BFA Timewalking
+	remapping[1667] = 1669;	-- EU BFA Timewalking
 	remapping[1398] = 1396;	-- EU Secrets of Azeroth
 	remapping[1514] = 1525;	-- EU Remix: Mists of Pandaria
 elseif GetCVar("portal") == "KO" then
@@ -53,9 +53,9 @@ elseif GetCVar("portal") == "KO" then
 	remapping[656] = 643; -- KO MoP Timewalking
 	remapping[1068] = 1056; -- KO WoD Timewalking
 	remapping[1269] = 1263;	-- KO Legion Timewalking
-	remapping[1666] = 1603;	-- KO BFA Timewalking
+	remapping[1666] = 1669;	-- KO BFA Timewalking
 	remapping[1399] = 1396;	-- KO Secrets of Azeroth
-elseif GetCVar("portal") == "TW" then
+elseif GetCVar("portal") == "TW" or "CN" then
 	remapping[1584] = 1508; -- TW Classic Timewalking
 	remapping[624] = 559; -- TW BC Timewalking
 	remapping[617] = 562; -- TW Wrath Timewalking
@@ -63,7 +63,7 @@ elseif GetCVar("portal") == "TW" then
 	remapping[654] = 643; -- TW MoP Timewalking
 	remapping[1065] = 1056; -- TW WoD Timewalking
 	remapping[1267] = 1263;	-- TW Legion Timewalking
-	remapping[1668] = 1603;	-- TW BFA Timewalking
+	remapping[1668] = 1669;	-- TW BFA Timewalking
 --	remapping[1396] = 1399;	-- TW Secrets of Azeroth
 end
 
