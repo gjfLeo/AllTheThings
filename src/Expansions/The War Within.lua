@@ -16,7 +16,7 @@ do
 	local C_WarbandScene_HasWarbandScene, C_WarbandScene_GetWarbandSceneEntry
 		= C_WarbandScene.HasWarbandScene, C_WarbandScene.GetWarbandSceneEntry
 
-	local CACHE = "Campsite"
+	local CACHE = "Campsites"
 	local CLASSNAME = "Campsite"
 	local KEY = "campsiteID"
 	local WarbandSceneInfoMeta = setmetatable({}, {
