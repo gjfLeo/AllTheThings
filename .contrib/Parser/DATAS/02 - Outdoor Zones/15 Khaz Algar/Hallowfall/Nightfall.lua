@@ -176,6 +176,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["provider"] = { "o", 527416 },	-- Suspicious Document
 						["maps"] = { AZJ_KAHET },
 						["questID"] = 91156,
+						["isDaily"] = true,
 					}),
 					-- Sureki's End
 					o(527415, {	-- Suspicious Document (Dissenter Tailtrek/Whisperer Hillhelm)
