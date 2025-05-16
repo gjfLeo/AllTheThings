@@ -1977,7 +1977,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(235608, {	-- Nightfall Sanctum Campsite
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-						["g"] = { ws(5) },	-- Cultists' Quay (CS!)
+						["g"] = { campsite(5) },	-- Cultists' Quay (CS!)
 					}),
 				}),
 				n(ARMOR, {

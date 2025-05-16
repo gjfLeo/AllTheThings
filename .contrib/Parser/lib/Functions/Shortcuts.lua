@@ -902,8 +902,8 @@ azewrongItem = function(id, t)							-- Create an Item which is marked as having
 	t.customCollect = { "!HOA" };
 	return t;
 end
-ws = function(id, t)
-	return struct("warbandSceneID", id, t);
+campsite = function(id, t)
+	return struct("campsiteID", id, t);
 end
 battlepet = function(id, t)								-- Create a BATTLE PET Object (Battle Pet == Species == Pet)
 	return struct("speciesID", id, t);
