@@ -2545,7 +2545,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(MISC, {
 				i(233021, {	-- Grappling-Grabber 9000 (QI!)
-					["timeline"] = { ADDED_11_1_0 },
+					["timeline"] = { ADDED_11_1_7 },
 				}),
 				i(213000),	-- Holy Flamethrower Torch (QI!)
 				i(213085, {	-- Lost Treasure (QI!)
