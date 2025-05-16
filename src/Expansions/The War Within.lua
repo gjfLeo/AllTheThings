@@ -27,6 +27,7 @@ do
 		end
 	})
 	app.CreateWarbandScene = app.CreateClassWithInfo(CLASSNAME, KEY, WarbandSceneInfoMeta, {
+		CACHE = function() return CACHE end,
 		icon = function(t)
 			-- return app.asset("Category_WarbandScenes") PH?
 			return 648901
