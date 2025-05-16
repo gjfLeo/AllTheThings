@@ -29,6 +29,7 @@ local objectNamesToIDs = {};
 local function OnLoad_CacheObjectNames()
 	local o
 	for objectID,name in pairs(app.ObjectNames) do
+		name = name:lower()
 		o = objectNamesToIDs[name];
 		if not o then
 			o = { objectID };
@@ -38,13 +39,17 @@ local function OnLoad_CacheObjectNames()
 		end
 	end
 end
+local function GetObjectIDsByName(name)
+	if not name then return end
+	return objectNamesToIDs[name:trim():lower()]
+end
 local GetBestObjectIDForName;
 if app.IsRetail then
 	local InGame = app.Modules.Filter.Filters.InGame
 	GetBestObjectIDForName = function(name)
 		-- Uses a provided 'name' and scans the ObjectDB to find potentially matching ObjectID's,
 		-- then correlate those search results by closest distance to the player's current position
-		local o = objectNamesToIDs[name];
+		local o = GetObjectIDsByName(name)
 		if o and #o > 0 then
 			local mapID, px, py = GetPlayerPosition();
 			-- if we don't know where the player is, we have literally no way to reduce the set of matching objects by name
@@ -118,7 +123,7 @@ else
 		-- Uses a provided 'name' and scans the ObjectDB to find potentially matching ObjectID's,
 		-- then correlate those search results by closest distance to the player's current position
 		--print("GetBestObjectIDForName:", "'" .. (name or RETRIEVING_DATA) .. "'");
-		local o = objectNamesToIDs[name and name:trim()];
+		local o = GetObjectIDsByName(name)
 		if o and #o > 0 then
 			local objects = {};
 			local mapID, px, py = GetPlayerPosition();
