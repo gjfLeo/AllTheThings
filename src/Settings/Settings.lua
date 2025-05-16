@@ -27,6 +27,7 @@ settings:Hide();
 settings.AccountWide = setmetatable({
 	Achievements = true,
 	BattlePets = true,
+	Campsites = true,
 	DeathTracker = true,
 	Exploration = true,
 	FlightPaths = true,
@@ -66,15 +67,15 @@ settings.Collectibles = {
 };
 settings.ForceAccountWide = {
 	BattlePets = true,
-	MountMods = true,
+	Campsites = true,
 	FlightPaths = app.GameBuildVersion >= 110000,
 	Heirlooms = true,
 	Illusions = true,
+	MountMods = true,
 	Mounts = true,
 	RuneforgeLegendaries = true,
 	Toys = true,
 	Transmog = true,
-	--WarbandScene = app.GameBuildVersion >= 110100,
 }
 
 -- INSANE MODE
@@ -82,6 +83,7 @@ settings.RequiredForInsaneMode = {
 	Achievements = true,
 	AzeriteEssences = app.GameBuildVersion >= 80000,
 	BattlePets = true,
+	Campsites = app.GameBuildVersion >= 110100,
 	CharacterUnlocks = app.IsRetail,	-- CRIEVE NOTE: This class might be up to the chopping block with a thing I have on my todo list. I'll leave it for now.
 	Conduits = app.GameBuildVersion >= 100000,
 	DeathTracker = app.IsClassic,
@@ -100,13 +102,13 @@ settings.RequiredForInsaneMode = {
 	Titles = true,
 	Toys = true,
 	Transmog = app.GameBuildVersion >= 40000,
-	--WarbandScene = app.GameBuildVersion >= 110100,
 }
 
 -- RANKED MODE
 settings.RequiredForRankedMode = {
 	Achievements = true,
 	BattlePets = true,
+	Campsites = app.GameBuildVersion >= 110100,
 	Heirlooms = app.GameBuildVersion >= 30000,
 	Illusions = app.GameBuildVersion >= 70000,
 	Mounts = true,
@@ -120,7 +122,9 @@ settings.RequiredForRankedMode = {
 
 -- CORE MODE
 settings.RequiredForCoreMode = {
+	Achievements = true,
 	BattlePets = true,
+	Campsites = app.GameBuildVersion >= 110100,
 	Heirlooms = app.GameBuildVersion >= 30000,
 	Illusions = app.GameBuildVersion >= 70000,
 	Mounts = true,

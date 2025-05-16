@@ -767,6 +767,7 @@ local InformationTypes = {
 	CreateInformationType("bonusID", { text = L.BONUS_ID, priority = 6 }),
 	CreateInformationType("modID", { text = L.MOD_ID, priority = 6 }),
 	CreateInformationType("artID", { text = L.ART_ID, priority = 7 }),
+	CreateInformationType("campsiteID", { text = L.CAMPSITE_ID, priority = 7 }),
 	CreateInformationType("iconPath", { text = L.ICON_PATH, ShouldDisplayInExternalTooltips = false, priority = 7 }),
 	CreateInformationType("visualID", { text = L.VISUAL_ID, priority = 7 }),
 
