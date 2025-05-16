@@ -505,6 +505,9 @@ local fieldConverters = {
 		CacheField(group, "toyID", value);
 		CacheField(group, "itemID", value);
 	end,
+	["warbandsceneID"] = function(group, value)
+		CacheField(group, "warbandsceneID", value);
+	end,
 
 	-- Complex Converters
 	["altQuests"] = function(group, value)
