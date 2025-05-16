@@ -236,7 +236,7 @@ modeButton:SetScript("OnClick", function()
 			settings:Set("Thing:Mounts", true)
 			settings:Set("Thing:BattlePets", true)
 			settings:Set("Thing:Toys", true)
-			settings:Set("Thing:Campsites", true)
+			settings:Set("Thing:Campsites", false)
 
 			-- General Things
 			settings:Set("Thing:Achievements", true)

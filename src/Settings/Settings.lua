@@ -108,7 +108,6 @@ settings.RequiredForInsaneMode = {
 settings.RequiredForRankedMode = {
 	Achievements = true,
 	BattlePets = true,
-	Campsites = app.GameBuildVersion >= 110100,
 	Heirlooms = app.GameBuildVersion >= 30000,
 	Illusions = app.GameBuildVersion >= 70000,
 	Mounts = true,
