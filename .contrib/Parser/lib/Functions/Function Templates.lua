@@ -90,8 +90,10 @@ FUNCTION_TEMPLATES = {
 		end,
 		ClassORRaceRequirements = [[function(t)
 			if _.indexOf(t.races, _.RaceIndex) then
+				t.c_disp = t.c
 				t.c = nil;
 			elseif _.indexOf(t.c, _.ClassIndex) then
+				t.r_disp = t.races
 				t.races = nil;
 			end
 			return t;
