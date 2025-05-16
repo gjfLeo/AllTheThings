@@ -670,6 +670,7 @@ MobileDB.GameObject = {
 	[249771] = true,	-- Heavy Stone (wq:42172)
 	[250433] = true,	-- Felforge
 	[253280] = true,	-- Leystone Seam
+	[253982] = true,	-- Spoils of Nightmare (Darkheart Thicket)
 	[253992] = true,	-- Box of Trinkets (Eye of Azshara)
 	[253993] = true,	-- Crusty Kvaldir Chest (Maw of Souls)
 	[254001] = true,	-- Misplaced Chest (The Arcway)

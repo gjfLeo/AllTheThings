@@ -68,13 +68,13 @@ root(ROOTS.Character, n(WARBAND, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 
 		}),
 	})),
 	n(CAMPSITES, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
-		ws(1, {	-- Adventurer's Rest (CS!
+		ws(1, {	-- Adventurer's Rest (CS!)
 			["description"] = "Granted to all warbands as default.",
 		}),
-		ws(4, {	-- Ohn'ahran Overlook (CS!
+		ws(4, {	-- Ohn'ahran Overlook (CS!)
 			["description"] = "Granted to all warbands.",
 		}),
-		ws(29, {	-- Randomize From Favorites (CS!
+		ws(29, {	-- Randomize From Favorites (CS!)
 			["description"] = "Granted to all warbands.",
 		}),
 	})),
