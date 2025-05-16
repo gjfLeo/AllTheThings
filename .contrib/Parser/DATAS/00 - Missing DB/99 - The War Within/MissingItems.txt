@@ -34842,20 +34842,6 @@ i(210923),	-- Clutch of Wyrm's Dreaming Crests
 i(211248),	-- Scarlet Explosives
 10.2.6.53840
 i(220205),	-- Satchel of Drake's Dreaming Crests
-11.0.0.54935
-i(226151),	-- Wax-Coated Coffer Unlocker
-11.0.2.55399
-i(228580),	-- Brute Force Idol
-11.0.5.56487
-i(230060),	-- Prowler's Camo Cowl
-i(230080),	-- Prowler's Camo Mask
-11.0.7.57361
-i(224258),	-- [DNT] Flower
-i(226377),	-- Mining Journal - Page 1 \\ Mining Journa - Page 1
-11.0.7.59207
-i(239015),	-- Rock Candy Package
-11.0.7.59302
-i(238946),	-- Letter from Keg Leg
 11.1.7.60520
 i(244053),	-- Ashvane Smuggler's Kilt
 i(244054),	-- Ashvane Smuggler's Longcoat

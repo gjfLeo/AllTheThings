@@ -2133,6 +2133,7 @@ i(234734);	-- Inscribed Drinking Horn
 i(235378);	-- Landro's Loot Box
 i(232638);	-- Loosened Naga Scales
 i(234720);	-- Memoric Residue
+i(226377);	-- Mining Journal - Page 1
 i(234750);	-- Myrmidon's Osminium Bracer
 i(234751);	-- Pearl-Adorned Tailband
 i(232636);	-- Rum-Soaked Hankerchief

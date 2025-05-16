@@ -256,6 +256,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					q(82379, {	-- An Overflowing Bundle of Shinies
 						["g"] = {
 							currency(RESONANCE_CRYSTALS),
+							i(226151),	-- Wax-Coated Coffer Unlocker
 						},
 					}),
 				}, {	-- RENOWN 19 --

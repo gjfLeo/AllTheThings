@@ -1749,6 +1749,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 
 		-- 11.0.7
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+			i(224258),	-- [DNT] Flower
 			i(234313),	-- [DNT] Item
 			i(234969),	-- Archivist Chassis
 			i(233331),	-- Aura of Zealotry
