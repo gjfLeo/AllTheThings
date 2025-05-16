@@ -1935,6 +1935,7 @@ app.ThingKeys = {
 	factionID = true,
 	explorationID = true,
 	titleID = true,
+	campsiteID = true,
 	achievementID = true,	-- special handling
 	criteriaID = true,	-- special handling
 };
@@ -2803,6 +2804,12 @@ function app:GetDataCache()
 			app.CreateDynamicHeader("speciesID", {
 				name = AUCTION_CATEGORY_BATTLE_PETS,
 				icon = app.asset("Category_PetJournal")
+			}),
+
+			-- Campsites
+			app.CreateDynamicHeader("campsiteID", {
+				name = WARBAND_SCENES,
+				icon = 6124644	-- app.asset("Category_Campsites") TODO
 			}),
 
 			-- Character Unlocks
@@ -4043,6 +4050,7 @@ customWindowUpdates.NWP = function(self, force)
 				{ id = "artifactID", name = ITEM_QUALITY6_DESC, icon = app.asset("Weapon_Type_Artifact") },
 				{ id = "azeriteessenceID", name = SPLASH_BATTLEFORAZEROTH_8_2_0_FEATURE2_TITLE, icon = app.asset("Category_AzeriteEssences") },
 				{ id = "speciesID", name = AUCTION_CATEGORY_BATTLE_PETS, icon = app.asset("Category_PetJournal") },
+				{ id = "campsiteID", name = WARBAND_SCENES, icon = 6124644 },	-- app.asset("Category_Campsites") TODO
 				{ id = "characterUnlock", name = CHARACTER .. " " .. UNLOCK .. "s", icon = app.asset("Category_ItemSets") },
 				{ id = "conduitID", name = GetSpellName(348869) .. " (" .. EXPANSION_NAME8 .. ")", icon = 3601566 },
 				{ id = "currencyID", name = CURRENCY, icon = app.asset("Interface_Vendor") },
@@ -4233,6 +4241,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 					{ id = "artifactID", name = ITEM_QUALITY6_DESC, icon = app.asset("Weapon_Type_Artifact") },
 					{ id = "azeriteessenceID", name = SPLASH_BATTLEFORAZEROTH_8_2_0_FEATURE2_TITLE, icon = app.asset("Category_AzeriteEssences") },
 					{ id = "speciesID", name = AUCTION_CATEGORY_BATTLE_PETS, icon = app.asset("Category_PetJournal") },
+					{ id = "campsiteID", name = WARBAND_SCENES, icon = 6124644 },	-- app.asset("Category_Campsites") TODO
 					{ id = "characterUnlock", name = CHARACTER .. " " .. UNLOCK .. "s", icon = app.asset("Category_ItemSets") },
 					{ id = "conduitID", name = GetSpellName(348869) .. " (" .. EXPANSION_NAME8 .. ")", icon = 3601566 },
 					{ id = "currencyID", name = CURRENCY, icon = app.asset("Interface_Vendor") },
