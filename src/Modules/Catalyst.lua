@@ -8,7 +8,7 @@ local setmetatable,tonumber,wipe,ipairs
 
 -- WOWAPI
 local C_Item_GetItemInfoInstant
-	= C_Item.GetItemInfoInstant 
+	= C_Item.GetItemInfoInstant
 
 -- App
 local containsAnyKey, GetRelativeField
@@ -18,6 +18,7 @@ local containsAnyKey, GetRelativeField
 -- then narrow down the matching armor slot, apply the bonusIDs to the new item, and render into tooltip
 
 -- Helpful Reference: https://www.raidbots.com/static/data/live/item-conversions.json
+-- Wago: https://wago.tools/db2/ItemBonus?build=11.1.5.60568&filter%5BType%5D=37&page=2
 -- References the ObjectID of the corresponding Catalyst object which contains the available Catalyst results in ATT
 local PossibleCatalystBonusIDLookups = {
 	-- SL
