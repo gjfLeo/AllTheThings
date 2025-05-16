@@ -561,15 +561,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {	-- More known
 				i(238207),	-- Nanny's Surge Dividend
 				i(229810),	-- Vintage Kaja'Cola Can
-				i(234390),	-- Gallagio Loyalty Rewards Card: Gold
-				i(234391),	-- Gallagio Loyalty Rewards Card: Platinum
-				i(234392),	-- Gallagio Loyalty Rewards Card: Black
-				i(234393),	-- Gallagio Loyalty Rewards Card: Diamond
-				i(234394),	-- Gallagio Loyalty Rewards Card: Legendary
-				-- uncollectible
-				i(233021),	-- Grappling-Grabber 9000
-				i(234616),	-- Supreme Mangoro Madness
-				i(234617),	-- Dulux Bluesberry Blast
 			}),
 			n(PVP, {	-- See Later...
 				i(232886),	-- Ensemble: Algari Warmonger's Cloth Armor
