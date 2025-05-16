@@ -999,6 +999,7 @@ MobileDB.GameObject = {
 	[387727] = true,	-- Sulfuric Crystal (q:74518)
 	[387729] = true,	-- Magma Crystal (q:74518)
 	[390139] = true,	-- Lambent Hochenblume
+	[398755] = true,	-- Bubble Poppy
 	[401844] = true,	-- Smelly Trash Pile
 	[403458] = true,	-- Dauntless Draught
 	[403740] = true,	-- Cleanbrass Bolts
