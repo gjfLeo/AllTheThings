@@ -120,7 +120,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				},
 				["cost"] = {{"i", 229823, 1}},	-- Canister of Darkfuse Solution
 				["coord"] = { 41.2, 91.4, UNDERMINE },
-				["questID"] = 85010,
+				["questID"] = 90488,
 				["isWeekly"] = true,
 				["g"] = {
 					i(229955),	-- Darkfuse Spy-Eye (MOUNT!)
@@ -157,7 +157,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["description"] = "Can be summoned by anyone who has a contract with the Steamwheedle Cartel.",
 				["coord"] = { 32.0, 76.5, UNDERMINE },
 				["crs"] = { 234751 },	-- Noggenfogger Recall Technician
-				["questID"] = 86307,
+				["questID"] = 90489,
 				["isWeekly"] = true,
 				["g"] = {
 					i(235824),	-- Flame Sputterer
@@ -183,7 +183,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 				["crs"] = {
 					234819,	-- Magno-Scrapper 9000
 				},
-				["questID"] = 86298,
+				["questID"] = 90492,
 				["isWeekly"] = true,
 				["g"] = {
 					i(235835),	-- Braided Wire Wrap
@@ -246,7 +246,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 					234911,	-- Vignette Bunny [DNT]
 					234832,	-- Krazzik's Drill Rig
 				},
-				["questID"] = 85778,
+				["questID"] = 90491,
 				["isWeekly"] = true,
 				["g"] = {
 					i(235831),	-- Battery-Powered Longshank
@@ -337,7 +337,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 			n(233472, {	-- Voltstrike the Charged
 				["description"] = "Can be summoned by anyome who has a contract with the Blackwater Cartel.",
 				["coord"] = { 62.7, 26.1, UNDERMINE },
-				["questID"] = 85777,
+				["questID"] = 90490,
 				["isWeekly"] = true,
 				["g"] = {
 					i(235373),	-- Abyssal Volt
@@ -353,12 +353,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_1_0 } }, 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0 } }, {
 	m(KHAZ_ALGAR, {
 		m(UNDERMINE, {
-			n(RARES, {
-				q(90492),	-- Triggers on killing Darkfuse Precipitant
-				q(90488),	-- Triggers on killing M.A.G.N.O.
-				q(90489),	-- Triggers on killing Giovante
-				q(90490),	-- Triggers on killing Voltstrike
-				q(90491),	-- Triggers on killing Scrapchewer
+			n(RARES, { -- Orphaned Cartel Rare HQTs, used to trigger on each kill, no longer trigger at all?
+				q(85010),	-- Related to killing Darkfuse Precipitant
+				q(86298),	-- Related to killing M.A.G.N.O.
+				q(86307),	-- Related to killing Giovante
+				q(85777),	-- Related to killing Voltstrike
+				q(85778),	-- Related to killing Scrapchewer
 			}),
 		}),
 	}),
