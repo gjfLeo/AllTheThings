@@ -86,7 +86,7 @@ is(22739, 28271, MAGE);				-- Tome of Polymorph: Turtle
 is(44714, 61316, MAGE);				-- Tome of Dalaran Brilliance [REMOVED]
 is(44602, 61024, MAGE);				-- Tome of Dalaran Intellect [REMOVED]
 is(44709, 61305, MAGE);				-- Tome of Polymorph: Black Cat
--- NYI --
+--- NYI ---
 is(44600, 61025, MAGE);				-- Tome of Polymorph: Serpent
 
 -----------------
@@ -97,7 +97,7 @@ is(44793, 61721, MAGE);				-- Tome of Polymorph: Rabbit
 -----------------
 -- PATCH 3.3.5 --
 -----------------
--- NYI --
+--- NYI ---
 is(44811, 61780, MAGE);				-- Tome of Polymorph: Turkey
 
 -----------------
@@ -143,34 +143,34 @@ is(0, 159897);						-- Path of the Vigilant
 -----------------
 -- PATCH 6.0.2 --
 -----------------
+iq(139003, 43016);					-- Broken Pet Portal
+iq(118727, 34557);					-- Frostfire Treasure Map
+iq(118729, 36465);					-- Gorgrond Treasure Map
+iq(118732, 36468);					-- Nagrand Treasure Map
+iq(118730, 36466);					-- Talador Treasure Map
+iq(118728, 36464);					-- Shadowmoon Valley Treasure Map
+iq(118731, 36467);					-- Spires of Arak Treasure Map
 is(120138, 161354, MAGE);			-- Tome of Polymorph: Monkey
 is(120139, 161355, MAGE);			-- Tome of Polymorph: Penguin
 is(120137, 161353, MAGE);			-- Tome of Polymorph: Polar Bear Cub
 is(120140, 126819, MAGE);			-- Tome of Polymorph: Porcupine
-iq(139003, 43016);					-- Broken Pet Portal
-iq(118730, 36466);					-- Talador Treasure Map
-iq(118731, 36467);					-- Spires of Arak Treasure Map
-iq(118732, 36468);					-- Nagrand Treasure Map
-iq(118729, 36465);					-- Gorgrond Treasure Map
-iq(118727, 34557);					-- Frostfire Treasure Map
-iq(118728, 36464);					-- Shadowmoon Valley Treasure Map
 
 -----------------
 -- PATCH 6.2.0 --
 -----------------
-iq(128474, 39463);					-- Treasure Map: Tanaan Jungle
-iq(128294, 37485);					-- Trade Agreement: Arakkoa Outcasts
-iq(128250, 39358);					-- Equipment Blueprint: Unsinkable
-iq(128444, 39561);					-- Blueprint: Oil Rig
-iq(113212, 39463);					-- Treasure Map: Tanaan Jungle
+iq(128444, 39561);					-- Blueprint: Oil Rig [A]
+iq(128490, 39561);					-- Blueprint: Oil Rig [H]
 iq(128251, 39359);					-- Equipment Blueprint: Tuskarr Fishing Net
-iq(128490, 39561);					-- Blueprint: Oil Rig
+iq(128250, 39358);					-- Equipment Blueprint: Unsinkable
 iq(128446, 39564);					-- Saberstalker Teachings: Trailblazer
+iq(128294, 37485);					-- Trade Agreement: Arakkoa Outcasts
+iq(128474, 39463);					-- Treasure Map: Tanaan Jungle [A]
+iq(113212, 39463);					-- Treasure Map: Tanaan Jungle [H]
 
 -----------------
 -- PATCH 6.2.2 --
 -----------------
--- Hallow's End
+-- Hallow's End --
 iq(128664, 39759);					-- Creepy Crawlers
 iq(128660, 39758);					-- Ghoulish Guises
 iq(128661, 39612);					-- Hallow's Glow
@@ -186,6 +186,7 @@ iq(128669, 39712);					-- Old Box of Decorations
 -----------------
 -- PATCH 7.0.3 --
 -----------------
+-- Classes --
 is(136796, 127344, DEATHKNIGHT);	-- Necrophile Tome: Corpse Exploder
 is(136795, 127757, DRUID);			-- Tome of the Wilds: Charm Woodland Creature
 is(136794, 164862, DRUID);			-- Tome of the Wilds: Flap
@@ -205,11 +206,13 @@ is(136803, 210108, ROGUE);			-- Dirty Tricks, Vol 1: Detection
 is(136972, 211015, SHAMAN);			-- Tome of Hex: Cockroach
 is(136938, 210873, SHAMAN);			-- Tome of Hex: Compy
 is(136969, 211004, SHAMAN);			-- Tome of Hex: Spider
-iq(140327, 43987);					-- Kyrtos's Research Notes
+-- Ancient Mana --
 iq(140326, 43986);					-- Enchanted Burial Urn
 iq(140329, 43989);					-- Infinite Stone
-iq(140328, 43988);					-- Volatile Leyline Crystal
 iq(136269, 42842);					-- Kel'danath's Manaflask
+iq(140327, 43987);					-- Kyrtos's Research Notes
+iq(140328, 43988);					-- Volatile Leyline Crystal
+-- Reaves Module --
 iq(132528, 40734);					-- Reaves Module: Fireworks Display Mode
 iq(132526, 40733);					-- Reaves Module: Failure Detection Mode
 iq(132529, 40735);					-- Reaves Module: Snack Distribution Mode
@@ -217,14 +220,14 @@ iq(132525, 40732);					-- Reaves Module: Repair Mode
 iq(132531, 40737);					-- Reaves Module: Piloted Combat Mode
 iq(132530, 40736);					-- Reaves Module: Bling Mode
 iq(132524, 40738);					-- Reaves Module: Wormhole Generator Mode
--- NYI
+--- NYI ---
 is(136971, 211010, SHAMAN);			-- Tome of Hex: Snake
 
 -----------------
 -- PATCH 7.2.0 --
 -----------------
 is(147580, 242155, HUNTER);			-- Tome of the Hybrid Beast
--- NYI --
+--- NYI ---
 is(147770, nil, HUNTER);			-- Tome of the PTR Beast
 
 -----------------
@@ -235,11 +238,11 @@ iq(152964, 49006);					-- Krokul Flute
 -----------------
 -- PATCH 8.0.1 --
 -----------------
-is(162626, 277792, MAGE);			-- Tome of Polymorph: Bumblebee
-is(162625, 277787, MAGE);			-- Tome of Polymorph: Direhorn
 is(159841, 269352, SHAMAN);			-- Tome of Hex: Skeletal Hatchling
 is(162624, 277784, SHAMAN);			-- Tome of Hex: Wicker Mongrel
 is(162623, 277778, SHAMAN);			-- Tome of Hex: Zandalari Tendonripper
+is(162626, 277792, MAGE);			-- Tome of Polymorph: Bumblebee
+is(162625, 277787, MAGE);			-- Tome of Polymorph: Direhorn
 
 -----------------
 -- PATCH 8.1.0 --
@@ -266,42 +269,41 @@ iq(175159, 59032, nil, VULPERA);	-- Sinister Shadows
 -----------------
 -- PATCH 9.0.1 --
 -----------------
+-- #if AFTER 9.0.1
+-- Many items were changed only after 9.0.1
+iq(183123, 62254, HUNTER);			-- How to School Your Serpent
 iq(89868, 62677, DRUID);			-- Mark of the Cheetah
 iq(140630, 62678, DRUID);			-- Mark of the Doe
 iq(162022, 62674, DRUID);			-- Mark of the Dolphin
 iq(162029, 62676, DRUID);			-- Mark of the Humble Flyer
--- #if AFTER 9.0.1
--- CRIEVE NOTE: This was appearing in Classic... Ya'll gotta be more careful.
 iq(40919, 62673, DRUID);			-- Mark of the Orca
--- #endif
 iq(129021, 62675, DRUID);			-- Mark of the Sentinel
 iq(162027, 62672, DRUID);			-- Mark of the Tideskipper
-iq(183123, 62254, HUNTER);			-- How to School Your Serpent
 iq(165840, 54264);					-- Shattered Pet Portal
+-- #endif
 
 -----------------
 -- PATCH 9.0.2 --
 -----------------
-iq(183124, 62255, HUNTER);			-- Simple Tome of Bone-Binding
-iq(180705, 61160, HUNTER);			-- Gargon Training Manual
-iq(184219, 62821);					-- Treatise on Sinstone Fragment Acquisition
-iq(184222, 62822);					-- Lemet's Requisition Orders
-iq(184220, 62821);					-- Encyclopedia of Sinstone Fragment Recovery
-iq(183517, 62372);					-- Page 76 of the Necronom-i-nom
 iq(187923, 65039);					-- Aurelid Lure
---- NYI ---
-iq(181443, 61459);					-- The Party Herald's Party Hat
-iq(183957, 62657);					-- Invitation: Grandmaster Vole
+iq(184220, 62821);					-- Encyclopedia of Sinstone Fragment Recovery
+iq(180705, 61160, HUNTER);			-- Gargon Training Manual
 iq(183956, 62656);					-- Invitation: Choofa
+iq(183957, 62657);					-- Invitation: Grandmaster Vole
+iq(184222, 62822);					-- Lemet's Requisition Orders
+iq(183517, 62372);					-- Page 76 of the Necronom-i-nom
+iq(183124, 62255, HUNTER);			-- Simple Tome of Bone-Binding
+ihqt(181443, 61459);				-- The Party Herald's Party Hat
+iq(184219, 62821);					-- Treatise on Sinstone Fragment Acquisition
 
 -----------------
 -- PATCH 9.0.5 --
 -----------------
-ihqt(185473, 63667);				-- Soulforger's Tools
 ihqt(185632, 63668);				-- Intact Rune Codex
 ihqt(185351, 63641);				-- Rune Codex Page: Forging
 ihqt(185352, 63642);				-- Rune Codex Page: Souls
 ihqt(185353, 63643);				-- Rune Codex Page: Binding
+ihqt(185473, 63667);				-- Soulforger's Tools
 
 -----------------
 -- PATCH 9.1.0 --

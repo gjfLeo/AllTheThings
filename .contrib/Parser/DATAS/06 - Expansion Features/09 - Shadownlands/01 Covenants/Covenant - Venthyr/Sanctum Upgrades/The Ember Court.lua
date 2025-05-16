@@ -2272,13 +2272,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									i(176850, {	-- Blank Invitation
 										["cost"] = { { "c", 1820, 15 } },
 									}),
-									i(183956, {	-- Invitation: Choofa
+									i(183956, {	-- Invitation: Choofa (EC!)
 										["minReputation"] = { FACTION_THE_EMBER_COURT, HONORED },
-										["questID"] = 62656,
 									}),
-									i(183957, {	-- Invitation: Grandmaster Vole
+									i(183957, {	-- Invitation: Grandmaster Vole (EC!)
 										["minReputation"] = { FACTION_THE_EMBER_COURT, FRIENDLY },
-										["questID"] = 62657,
 									}),
 									i(183876),	-- Quill of Correspondence (TOY!)
 									i(177234, {	-- Rally Bell (EC!)
@@ -2465,9 +2463,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 										["cost"] = { { "c", 1820, 85 } },	-- 85 Infused Ruby
 										["description"] = "This is intended to be purchased on a 'Main' Venthyr character for personal use, or to send to 'Alt' Venthyr characters to get a head-start on Ember Court progress.",
 									}),
-									i(181443, {	-- The Party Herald's Party hat
+									i(181443, {	-- The Party Herald's Party hat (EC!)
 										["cost"] = { { "c", 1820, 85 } },	-- 85 Infused Ruby
-										["questID"] = 61459,
 										["description"] = "This is intended to be purchased on a 'Main' Venthyr character to send to 'Alt' Venthyr characters to get a head-start on Ember Court progress.",
 									}),
 								},

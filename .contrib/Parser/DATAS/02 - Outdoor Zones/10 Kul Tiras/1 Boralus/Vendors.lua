@@ -117,8 +117,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(163615, {	-- Lost Sea Scroll (A)
 						["description"] = "|CFFFF0000Turn in to Brother Pike in Stormsong Valley for Storm's Wake rep.|r",
 					}),
-					i(166749, {	-- Lyrics: Song of the Sea
-						["questID"] = 54859,
+					i(166749, {	-- Lyrics: Song of the Sea (CI!)
 						["cost"] = { { "c", 1710, 25 }, },	-- 25x Seaferer's Dubloon
 					}),
 					i(160290, {	-- Red Tricorne Hat

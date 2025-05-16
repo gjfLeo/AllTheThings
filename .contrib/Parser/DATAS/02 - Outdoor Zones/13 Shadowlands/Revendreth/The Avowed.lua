@@ -240,8 +240,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 								{		-- Neutral
 								}, {	-- Friendly
 								}, {	-- Honored
-									i(184222, {	-- Lemet's Requisition Orders
-										["questID"] = 62822,
+									i(184222, {	-- Lemet's Requisition Orders (CI!)
 										["cost"] = { { "c", SINSTONE_FRAGMENTS, 350 } },
 									}),
 									i(182660, {	-- Recipe: Shadestone (RECIPE!)
@@ -256,16 +255,14 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 									i(182890, {	-- Rapid Recitation Quill (TOY!)
 										["cost"] = { { "c", SINSTONE_FRAGMENTS, 500 } },
 									}),
-									i(184219, {	-- Treatise on Sinstone Fragment Acquisition
-										["questID"] = 62821,
+									i(184219, {	-- Treatise on Sinstone Fragment Acquisition (CI!)
 										["cost"] = { { "c", SINSTONE_FRAGMENTS, 600 } },
 									}),
 								}, {	-- Exalted
 									i(184221, {	-- Archivist's Quill
 										["cost"] = { { "c", SINSTONE_FRAGMENTS, 1000 } },
 									}),
-									i(184220, {	-- Encyclopedia of Sinstone Fragment Recovery
-										["questID"] = 62821,	-- same spell / quest trigger as Treatise but this is BoA version that can be mailed to alts
+									i(184220, {	-- Encyclopedia of Sinstone Fragment Recovery (CI!)
 										["cost"] = { { "c", SINSTONE_FRAGMENTS, 1200 } },
 									}),
 									n(VENTHYR, sharedData({["customCollect"] = "SL_COV_VEN" }, {

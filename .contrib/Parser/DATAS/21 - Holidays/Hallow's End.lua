@@ -4026,9 +4026,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			["repeatable"] = true,	-- probably yearly, Blizzard API says it's daily, in practice it unflaggs right after completion
 			["maps"] = { 1644 },	-- The Ember Court
 			["groups"] = {
-				i(181442, {	-- Vision of Sire Denathrius
-					["questID"] = 61458,
-				}),
+				i(181442),	-- Vision of Sire Denathrius (EC!)
 			},
 		})),
 		q(76075, {	-- A Ghostly Message

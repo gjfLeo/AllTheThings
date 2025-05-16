@@ -432,9 +432,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					["provider"] = { "n", 177569 },	-- The Primus
 					["coord"] = { 50.2, 58.4, 1912 },	-- The Runecarver's Oubliette
 					["g"] = {
-						i(185965, {	-- Memories of Sunless Skies
-							["questID"] = 63893,
-						}),
+						i(185965),	-- Memories of Sunless Skies (CI!)
 					},
 				}),
 				------ Chapter 5 ------
