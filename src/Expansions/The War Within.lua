@@ -3,22 +3,22 @@
 local _, app = ...
 
 if app.GameBuildVersion < 110100 then
-	app.CreateWarbandScene = app.CreateUnimplementedClass("WarbandScene", "warbandSceneID")
+	app.CreateWarbandScene = app.CreateUnimplementedClass("Campsite", "campsiteID")
 	return
 end
 
 local pairs
 	= pairs
 
--- Warband Scene Lib
+-- Campsite Lib
 do
 
 	local C_WarbandScene_HasWarbandScene, C_WarbandScene_GetWarbandSceneEntry
 		= C_WarbandScene.HasWarbandScene, C_WarbandScene.GetWarbandSceneEntry
 
-	local CACHE = "WarbandScene"
-	local CLASSNAME = "WarbandScene"
-	local KEY = "warbandsceneID"
+	local CACHE = "Campsite"
+	local CLASSNAME = "Campsite"
+	local KEY = "campsiteID"
 	local WarbandSceneInfoMeta = setmetatable({}, {
 		__index = function(t, id)
 			local info = C_WarbandScene_GetWarbandSceneEntry(id) or app.EmptyTable

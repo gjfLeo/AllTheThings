@@ -411,6 +411,9 @@ local fieldConverters = {
 	["azeriteessenceID"] = function(group, value)
 		CacheField(group, "azeriteessenceID", value);
 	end,
+	["campsiteID"] = function(group, value)
+		CacheField(group, "campsiteID", value);
+	end,
 	["creatureID"] = cacheCreatureID,
 	["criteriaID"] = function(group, value)
 		CacheField(group, "criteriaID", value);
@@ -504,9 +507,6 @@ local fieldConverters = {
 	["toyID"] = function(group, value)
 		CacheField(group, "toyID", value);
 		CacheField(group, "itemID", value);
-	end,
-	["warbandsceneID"] = function(group, value)
-		CacheField(group, "warbandsceneID", value);
 	end,
 
 	-- Complex Converters
