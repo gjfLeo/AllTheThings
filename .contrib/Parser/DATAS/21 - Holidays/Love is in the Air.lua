@@ -1990,7 +1990,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 			["g"] = {
 				i(210928),	-- Healthy Body Package
 				i(239015, {	-- Rock Candy Package
-					["timeline"] = { ADDED_11_1_7 },
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			},
 		})),
@@ -2001,7 +2001,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				i(210821),	-- Berry Chocolate Tart
 				i(210819),	-- Chocolate-Covered Cherries
 				i(239015, {	-- Rock Candy Package
-					["timeline"] = { ADDED_11_1_7 },
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			},
 		})),
@@ -2013,7 +2013,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				i(210929),	-- Comfort Food Package
 				i(210842),	-- Fresh Fig
 				i(239015, {	-- Rock Candy Package
-					["timeline"] = { ADDED_11_1_7 },
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			},
 		})),
@@ -2535,7 +2535,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					},
 				}),
 				i(239015, {	-- Rock Candy Package
-					["timeline"] = { ADDED_11_1_7 },
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			},
 		})),
@@ -2554,7 +2554,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				i(210929),	-- Comfort Food Package
 				i(210842),	-- Fresh Fig
 				i(239015, {	-- Rock Candy Package
-					["timeline"] = { ADDED_11_1_7 },
+					["timeline"] = { ADDED_11_0_7 },
 				}),
 			},
 		})),

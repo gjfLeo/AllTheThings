@@ -2539,10 +2539,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 					["cost"] = { { "i", 128659, 5 }, },	-- 5x Merry Supplies
 					["timeline"] = { ADDED_6_0_2 },
 				}),
-				i(128665, {	-- Ball of Tangled Lights
+				i(128665, {	-- Ball of Tangled Lights (CI!)
 					["cost"] = { { "i", 128659, 5 }, },	-- 5x Merry Supplies
 					["timeline"] = { ADDED_6_2_2 },
-					["questID"] = 39615,
 				}),
 				i(128668, {	-- Festive Outfits
 					["description"] = "This becomes un-saved if you remove the decorations even though the decorations remain unlocked.",
@@ -2551,20 +2550,17 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 					["questID"] = 39671,	-- apparently repeatable if you remove the festive decorations... or might be the wrong QuestID for the unlock specifically
 					["repeatable"] = true,
 				}),
-				i(128666, {	-- Imported Trees
+				i(128666, {	-- Imported Trees (CI!)
 					["cost"] = { { "i", 128659, 5 }, },	-- 5x Merry Supplies
 					["timeline"] = { ADDED_6_2_2 },
-					["questID"] = 39616,
 				}),
-				i(128667, {	-- Little Helpers
+				i(128667, {	-- Little Helpers (CI!)
 					["cost"] = { { "i", 128659, 5 }, },	-- 5x Merry Supplies
 					["timeline"] = { ADDED_6_2_2 },
-					["questID"] = 39767,
 				}),
-				i(128669, {	-- Old Box of Decorations
+				i(128669, {	-- Old Box of Decorations (CI!)
 					["cost"] = { { "i", 128659, 5 }, },	-- 5x Merry Supplies
 					["timeline"] = { ADDED_6_2_2 },
-					["questID"] = 39712,
 				}),
 				i(128670, {	-- Savage Gift
 					["cost"] = { { "i", 128659, 5 }, },	-- 5x Merry Supplies

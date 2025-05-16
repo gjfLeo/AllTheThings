@@ -166,10 +166,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						-- #endif
 						["u"] = REMOVED_FROM_GAME,
 					}),
-					i(139003, {	-- Pocket Pet Portal
-						["questID"] = 43016,
+					i(139003, {	-- Pocket Pet Portal (CI!)
 						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
-						["u"] = REMOVED_FROM_GAME,
+						["timeline"] = { REMOVED_9_1_0 },
 					}),
 					i(163512, {	-- Sandstinger Wasp (PET!)
 						["cost"] = { { "i", POLISHED_PET_CHARM, 50 }, },

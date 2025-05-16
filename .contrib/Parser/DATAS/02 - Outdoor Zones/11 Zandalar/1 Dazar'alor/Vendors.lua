@@ -288,10 +288,9 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						["races"] = HORDE_ONLY,	-- Note!! We are only marking the item that learns it as Horde.  Alliance can use it so we don't mark the actual species.
 						["cost"] = { { "i", POLISHED_PET_CHARM, 200 }, },
 					}),
-					i(139003, {	-- Pocket Pet Portal
-						["questID"] = 43016,
+					i(139003, {	-- Pocket Pet Portal (CI!)
 						["cost"] = { { "i", POLISHED_PET_CHARM, 1000 }, },
-						["u"] = REMOVED_FROM_GAME,
+						["timeline"] = { REMOVED_9_1_0 },
 					}),
 					i(163499, {	-- Zandalari Shinchomper (PET!)
 						["cost"] = { { "i", POLISHED_PET_CHARM, 50 }, },

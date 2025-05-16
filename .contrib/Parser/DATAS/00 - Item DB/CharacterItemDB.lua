@@ -105,8 +105,8 @@ is(44811, 61780, MAGE);				-- Tome of Polymorph: Turkey
 -----------------
 is(82470, 120146, MAGE);			-- Ancient Tome of Portal: Dalaran
 is(82469, 120145, MAGE);			-- Ancient Tome of Teleport: Dalaran
--- iq(86125, 31304);					-- Kafa Press
--- iq(86529, 31432);					-- Manipulator's Talisman
+--iq(86125, 31304);					-- Kafa Press
+--iq(86529, 31432);					-- Manipulator's Talisman
 is(0, 131204);						-- Path of the Jade Serpent
 
 -----------------
@@ -116,12 +116,29 @@ is(94232, 138430, HUNTER);			-- Ancient Tome of Dinomancy
 is(0, 101508, WARLOCK);				-- The Codex of Xerrath
 
 -----------------
+-- PATCH 5.4.0 --
+-----------------
+is(0, 131228);						-- Path of the Black Ox
+is(0, 131204);						-- Path of the Jade Serpent
+is(0, 131222);						-- Path of the Mogu King
+is(0, 131232);						-- Path of the Necromancer
+is(0, 131231);						-- Path of the Scarlet Blade
+is(0, 131229);						-- Path of the Scarlet Mitre
+is(0, 131225);						-- Path of the Setting Sun
+is(0, 131206);						-- Path of the Shado-Pan
+is(0, 131205);						-- Path of the Stout Brew
+
+-----------------
 -- PATCH 6.0.1 --
 -----------------
+is(0, 159895);						-- Path of the Bloodmaul
+is(0, 159902);						-- Path of the Burning Mountain
 is(0, 159899);						-- Path of the Crescent Moon
 is(0, 159900);						-- Path of the Dark Rail
 is(0, 159896);						-- Path of the Iron Prow
+is(0, 159898);						-- Path of the Skies
 is(0, 159901);						-- Path of the Verdant
+is(0, 159897);						-- Path of the Vigilant
 
 -----------------
 -- PATCH 6.0.2 --
@@ -154,17 +171,17 @@ iq(128446, 39564);					-- Saberstalker Teachings: Trailblazer
 -- PATCH 6.2.2 --
 -----------------
 -- Hallow's End
-iq(128664, 39759);	-- Creepy Crawlers
-iq(128660, 39758);	-- Ghoulish Guises
-iq(128661, 39612);	-- Hallow's Glow
-iq(128662, 39613);	-- Seer's Invitation
-iq(128663, 39611);	-- Witch's Brew
+iq(128664, 39759);					-- Creepy Crawlers
+iq(128660, 39758);					-- Ghoulish Guises
+iq(128661, 39612);					-- Hallow's Glow
+iq(128662, 39613);					-- Seer's Invitation
+iq(128663, 39611);					-- Witch's Brew
 -- Feast of Winter Veil --
-iq(128665, 39615);	-- Ball of Tangled Lights
-iq(128666, 39616);	-- Imported Trees
-iq(128667, 39767);	-- Little Helpers
-iq(128669, 39712);	-- Old Box of Decorations
--- iq(128668, 39671);	-- Festive Outfits [this quest is not permanently completed, so it can't be a character unlock]
+iq(128665, 39615);					-- Ball of Tangled Lights
+iq(128666, 39616);					-- Imported Trees
+iq(128667, 39767);					-- Little Helpers
+iq(128669, 39712);					-- Old Box of Decorations
+--iq(128668, 39671);				-- Festive Outfits [this quest is not permanently completed, so it can't be a character unlock]
 
 -----------------
 -- PATCH 7.0.3 --
