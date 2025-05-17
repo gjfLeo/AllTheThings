@@ -236,14 +236,14 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			},
 		})),
 		n(VENDORS, {
-			n(205723, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0, } }, {	-- Name Here
+			n(245378, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0, } }, {	-- Baranar <Hellhunter>
 			--	["coords"] = {
 				--	{ 54.7, 54.4, DORNOGAL },
 			--	},
 				["maps"] = { DORNOGAL },
 				["g"] = sharedData({
 					["cost"] = {
-						{"c", 3309, 10},	-- 10x Hellstone Shard
+						{"c", 3309, 40},	-- 40x Hellstone Shard
 					},
 				}, {
 					iensemble(244794), -- Ensemble: Armor of Torment
