@@ -6003,13 +6003,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
-				n(12784, -- Lieutenant Jackspring <Legacy Weapon Quartermaster> [WRATH+] / Lieutenant Jackspring <Weapons Quartermaster>
+				n(12784, {	-- Lieutenant Jackspring <Legacy Weapon Quartermaster> [WRATH+] / Lieutenant Jackspring <Weapons Quartermaster>
 					-- #if NOT ANYCLASSIC
-					sharedData({	
-						["collectible"] = false,	-- Im too tired of people making bug reports for those fucking items. 
-					-- You are only supposed to collect and transmog them when you have the original title from before 2.0
-				}, {				
-					["description"] = "In order to transmog these, you need to have the original title associated with the gear. You might be able to collect some them even if you've never had the title but not all.",
+					["description"] = "Blizzard strikes again. In order to transmog these, you need to have the original title associated with the gear. However, you can still collect them even if you've never had the title.\n\nThese items will require a refresh/reload to register as collected, and it's highly recommended that you keep them in your bank/void storage for later. You'll likely randomly lose credit for them and have to re-equip them to remind the game they exist.",
 					-- #endif
 					["coords"] = {
 						-- #if AFTER WRATH
@@ -6035,7 +6031,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #ENDIF
 					},
 					["races"] = ALLIANCE_ONLY,
-				})),
+				}),
 				n(12783, {	-- Lieutenant Karter <War Mount Quartermaster> [WRATH+] / Lieutenant Karter <Mount Vendor>
 					-- #if AFTER WRATH
 					["coord"] = { 76.2, 65.6, STORMWIND_CITY },
