@@ -661,6 +661,7 @@ MobileDB.GameObject = {
 	[236263] = true,	-- Finalize Garrison Plot
 	[241726] = true,	-- Leystone Deposit
 	[241743] = true,	-- Felslate Deposit
+	[244449] = true,	-- Reflective Mirror
 	[245324] = true,	-- Rich Leystone Deposit
 	[245325] = true,	-- Rich Felslate Deposit
 	[247072] = true,	-- Wax Ingot (q:41127)

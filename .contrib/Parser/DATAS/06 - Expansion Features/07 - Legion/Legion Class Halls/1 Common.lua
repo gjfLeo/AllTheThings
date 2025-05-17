@@ -1108,6 +1108,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					un(REMOVED_FROM_GAME, i(139473)),	-- Vial of Poisoned Blood -> Darkheart Thicket: Into Darkheart Thicket -> Darkheart Thicket
 					un(REMOVED_FROM_GAME, i(139475)),	-- Waterlogged Letter -> Maw of Souls: Into the Maw of Souls -> Maw of Souls
 					-- Follower Equipments
+					i(147569, { ["timeline"] = { ADDED_7_2_0 } }),	-- Arcane Trap
 					i(152928, { ["timeline"] = { ADDED_7_3_0 } }),	-- Archaic Seerstone
 					i(139802),	-- Auspicious Fetish
 					i(139873),	-- Bottled Sanity
@@ -1132,6 +1133,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(139419),	-- Golden Banana
 					i(147554, { ["timeline"] = { ADDED_7_2_0 } }),	-- Harpy Feather
 					i(147350, { ["timeline"] = { ADDED_7_2_0 } }),	-- Invincible Armor Set
+					i(151842, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Armor Set
 					i(152438, { ["timeline"] = { ADDED_7_3_0 } }),	-- Krokul Sledgehammer
 					i(139824),	-- Light's Haven
 					i(152447, { ["timeline"] = { ADDED_7_3_0 } }),	-- Lightburst Charge
