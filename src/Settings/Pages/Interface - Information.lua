@@ -723,13 +723,11 @@ local InformationTypes = {
 		Process = app.IsRetail and ProcessInformationType or function(t, reference, tooltipInfo)
 			local awp = t.GetValue(t, reference);
 			if awp then
-				local formatter = L.WAS_ADDED_WITH_PATCH_CLASSIC_FORMAT;
 				if awp > app.GameBuildVersion then
-					-- Current build is before the awp.
-					local rwp = reference.rwp;
-					formatter = (rwp and rwp < awp and L.READDED_WITH_PATCH_CLASSIC_FORMAT) or L.ADDED_WITH_PATCH_CLASSIC_FORMAT;
+					tinsert(tooltipInfo, 1, { left = Colorize(L.READDED_WITH_PATCH_CLASSIC_FORMAT:format(GetPatchString(awp)), app.Colors.AddedWithPatch)});
+				else
+					tinsert(tooltipInfo, { left = t.text, right = Colorize(GetPatchString(awp), app.Colors.AddedWithPatch)});
 				end
-				tinsert(tooltipInfo, { left = Colorize(formatter:format(GetPatchString(awp)), app.Colors.AddedWithPatch)});
 			end
 		end,
 	}),
@@ -738,7 +736,11 @@ local InformationTypes = {
 		Process = app.IsRetail and ProcessInformationType or function(t, reference, tooltipInfo)
 			local rwp = reference.rwp;	-- NOTE: For Retail, namely pre-Cata, this can't be recursive!
 			if rwp then
-				tinsert(tooltipInfo, { left = Colorize(L.REMOVED_WITH_PATCH_CLASSIC_FORMAT:format(GetPatchString(rwp)), app.Colors.RemovedWithPatch)});
+				if app.GameBuildVersion < rwp then
+					tinsert(tooltipInfo, 1, { left = Colorize(L.REMOVED_WITH_PATCH_CLASSIC_FORMAT:format(GetPatchString(rwp)), app.Colors.RemovedWithPatch)});
+				else
+					tinsert(tooltipInfo, { left = t.text, right = Colorize(GetPatchString(rwp), app.Colors.RemovedWithPatch)});
+				end
 			end
 		end,
 	}),
