@@ -808,6 +808,15 @@ local function AttachBattlePetTooltip(tooltip, data, quantity, detail)
 end
 --hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", AttachBattlePetTooltip); -- Not ready yet.
 
+-- For some reason, Blizzard puts some secure access functionality within the GetOwner() call on certain
+-- tooltips, which means when ATT checks the Owner via this function, a secure code taint error is thrown
+local function SafeGetOwner(tooltip)
+	local ok, owner = pcall(tooltip.GetOwner,tooltip)
+	if ok then
+		return owner
+	else app.PrintDebug("Bad GetOwner on tooltip",tooltip:GetName())
+	end
+end
 -- Tooltip API Differences between Modern and Legacy APIs.
 if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 	-- 10.0.2
@@ -873,7 +882,7 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 		-- self:Show();
 
 		-- Does the tooltip have an owner?
-		local owner = self:GetOwner();
+		local owner = SafeGetOwner(self)
 		if owner then
 			if owner.SpellHighlightTexture	-- Action bars
 			or owner.TrainBook		-- Spellbook spell tooltips
@@ -1124,9 +1133,6 @@ else
 				self:AddDoubleLine("GetUnit", tostring(select(2, self:GetUnit()) or "nil"));
 				--]]--
 
-				-- Does the tooltip have an owner?
-				local owner = self:GetOwner();
-
 				-- Does the tooltip have a target?
 				local target = select(2, self:GetUnit());
 				if target then
@@ -1166,10 +1172,13 @@ else
 					end
 				end
 
+				-- Does the tooltip have an owner?
+				local owner = SafeGetOwner(self)
+
 				-- Does the tooltip have a spell? [Mount Journal, Action Bars, etc]
 				local spellID = select(2, self:GetSpell());
 				if spellID then
-					if owner.SpellHighlightTexture then
+					if owner and owner.SpellHighlightTexture then
 						-- Actionbars, don't want that.
 						return true;
 					end
