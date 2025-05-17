@@ -121,7 +121,6 @@ settings.RequiredForRankedMode = {
 
 -- CORE MODE
 settings.RequiredForCoreMode = {
-	Achievements = true,
 	BattlePets = true,
 	Campsites = app.GameBuildVersion >= 110100,
 	Heirlooms = app.GameBuildVersion >= 30000,
