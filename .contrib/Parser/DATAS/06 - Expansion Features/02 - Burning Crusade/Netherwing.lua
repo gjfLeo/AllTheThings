@@ -364,6 +364,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHA
 					["qg"] = 23149,	-- Mistress of the Mines
 					["sourceQuest"] = 11081,	-- The Great Murkblood Revolt
 					["coord"] = { 63.0, 87.8, SHADOWMOON_VALLEY },
+					["groups"] = {
+						objective(1, {	-- 0/1 Hand of the Overseer
+							["provider"] = { "i", 32734 },	-- Hand of the Overseer
+						}),
+						objective(2, {	-- 0/1 Murkblood Information Gathered
+							["provider"] = { "n", 23309 },	-- Murkblood Overseer
+						}),
+					},
 				}),
 				q(11084, {	-- Stand Tall, Captain!
 					["qg"] = 23140,	-- Taskmaster Varkule Dragonbreath
