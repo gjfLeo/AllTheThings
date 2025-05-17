@@ -464,6 +464,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHA
 					["qg"] = 23427,	-- Illidari Lord Balthas
 					["sourceQuest"] = 11084,	-- Stand Tall, Captain!
 					["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
+					["maps"] = { TEROKKAR_FOREST },
 					["groups"] = {
 						objective(1, {	-- 0/2 Felsteel Bar
 							["providers"] = {
@@ -482,7 +483,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHA
 						}),
 						objective(4, {	-- 0/1 Flawless Arcane Essence
 							["provider"] = { "i", 32822 },	-- Flawless Arcane Essence
-							["cr"] = 23100,	-- Flawless Arcane Elemental
+							["coord"] = { 44.0, 41.0, TEROKKAR_FOREST },
+							["crs"] = {
+								23100,	-- Flawless Arcane Elemental
+								23093,	-- Sar'this
+							},
 						}),
 					},
 				}),
