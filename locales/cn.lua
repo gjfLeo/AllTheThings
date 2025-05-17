@@ -742,10 +742,8 @@ for key,value in pairs({
 	-- Interface: Information Page
 		ACHIEVEMENT_ID = "成就 ID";
 		ACHIEVEMENT_CATEGORY_ID = "成就类别 ID";
-		ADDED_WITH_PATCH_CLASSIC_FORMAT = "该物品是随补丁 %s 添加的";
 		READDED_WITH_PATCH_CLASSIC_FORMAT = "该物品是随补丁 %s 重新添加的";
 		REMOVED_WITH_PATCH_CLASSIC_FORMAT = "该物品是随补丁 %s 移除的";
-		WAS_ADDED_WITH_PATCH_CLASSIC_FORMAT = "该物品曾是随补丁 %s 添加的";
 
 
 	-- Features Page
