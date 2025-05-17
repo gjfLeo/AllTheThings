@@ -5,7 +5,11 @@
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(BROKEN_SHORE, {
-			n(WORLD_QUESTS, sharedData({ ["isWorldQuest"] = true, ["lvl"] = 45, },{
+			n(WORLD_QUESTS, sharedData({ ["isWorldQuest"] = true, 
+				-- #if BEFORE DF
+				["lvl"] = 45, 
+				-- #endif
+			},{
 				q(46209, {	-- A Flare In The Dark
 					["classes"] = { HUNTER },
 				}),
