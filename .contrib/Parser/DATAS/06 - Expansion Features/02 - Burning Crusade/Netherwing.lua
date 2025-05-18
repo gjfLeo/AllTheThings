@@ -386,7 +386,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHA
 					["qg"] = 23427,	-- Illidari Lord Balthas
 					["sourceQuest"] = 11089,	-- The Soul Cannon of Reth'hedron
 					["coord"] = { 66.2, 85.6, SHADOWMOON_VALLEY },
+					["maps"] = { NAGRAND },
 					["groups"] = {
+						objective(1, {	-- Subdue Reth'hedron the Subduer
+							["providers"] = {
+								{ "n", 22357 },	-- Reth'hedron the Subduer
+								{ "i", 32825 },	-- Soul Cannon
+							},
+							["coord"] = { 10.6, 41.4, NAGRAND },
+						}),
 						i(32871),	-- Horns of the Illidari
 						i(32869),	-- Illidari Lord's Tunic
 						i(32872),	-- Illidari Rod of Discipline
