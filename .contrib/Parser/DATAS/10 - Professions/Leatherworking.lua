@@ -766,7 +766,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["g"] = {
 					i(147116),	-- Captured Spirit of the Father of Owls (QI!)
 					i(147075),	-- Spirit Net (QI!)
-				}
+				},
 			}),
 			q(46694, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Mail of the Ancients
 				["sourceQuests"] = { 46690 },	-- The Legend of the Wardenscale

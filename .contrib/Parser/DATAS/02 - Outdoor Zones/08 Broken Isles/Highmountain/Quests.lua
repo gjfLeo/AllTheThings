@@ -821,6 +821,9 @@ root(ROOTS.Zones, {
 					},
 					["coord"] = { 31.3, 25.1, HIGHMOUNTAIN },
 					["provider"] = { "n", 117249 },	-- Navarrogg
+					["g"] = {
+						i(143863),	-- Fel Exfoliator (QI!)
+					},
 				}),
 				q(39321, {	-- The Three
 					["sourceQuests"] = { 38910 },	-- Rocs vs Eagles

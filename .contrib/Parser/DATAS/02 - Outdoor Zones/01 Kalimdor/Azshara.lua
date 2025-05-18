@@ -1477,6 +1477,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						ROGUE,			-- Subtlety
 						WARRIOR,		-- Arms
 					},
+					["g"] = {
+						i(142374),	-- Fanciful Hat (QI!)
+						i(142365),	-- Magnificent Mantle (QI!)
+						i(142372),	-- Well-Tailored Robes (QI!)
+					},
 				}),
 				q(24452, {	-- Profitability Scouting
 					["qg"] = 36749,	-- Commander Molotov
