@@ -357,7 +357,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				i(158509),	-- Tideshaper Staff
 				i(158506),	-- Scalawags Claymore
 				i(161924),	-- Seapriest's Wand (A) (never addedd)
-				i(161926),	-- Talanji's Salutary Scepter (A) (never added)
 
 				-- Nazmir items = Drustvar quest rewards
 
