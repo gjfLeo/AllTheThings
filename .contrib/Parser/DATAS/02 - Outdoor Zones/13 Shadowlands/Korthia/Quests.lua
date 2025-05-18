@@ -1291,21 +1291,27 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			})),
 			q(65020, {	-- Practical Applications
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
-				["coord"] = { 62.8, 22.6, KORTHIA },
+				["coords"] = {
+					{ 62.8, 22.6, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },	-- prior to RP finished after 63738 completion
+				},
 				["timeline"] = { ADDED_9_1_5 },
 			}),
 			q(64289, {	-- Picking Up the Pieces
 				["sourceQuests"] = { 63738 },	-- Establishing the Archive
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
 				["coords"] = {
-					{ 62.7, 22.5, KORTHIA },
-					{ 61.6, 21.8, KORTHIA },
+					{ 62.8, 22.6, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },	-- prior to RP finished after 63738 completion
 				},
 			}),
 			q(65145, {	-- Relic Clues
 				["sourceQuest"] = 63861,	-- Beginning the Collection
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
-				["coord"] = { 62.8, 22.6, KORTHIA },
+				["coords"] = {
+					{ 62.8, 22.6, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },	-- prior to RP finished after 63738 completion
+				},
 				["minReputation"] = { FACTION_THE_ARCHIVISTS_CODEX, 3 },	-- Tier 3
 				["timeline"] = { ADDED_9_1_5 },
 			}),
@@ -1686,8 +1692,8 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			q(65266, {	-- Lost Research
 				["provider"] = { "n", 178257 },	-- Archivist Roh-Suir
 				["coords"] = {
-					{ 62.7, 22.5, KORTHIA },
-					{ 61.6, 21.8, KORTHIA },
+					{ 62.8, 22.6, KORTHIA },
+					{ 61.6, 21.8, KORTHIA },	-- prior to RP finished after 63738 completion
 				},
 				["timeline"] = { ADDED_9_1_5 },
 				["isWeekly"] = true,
