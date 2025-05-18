@@ -794,7 +794,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 		ach(15313, {	-- Rockin' Rollin' Racer (2021)
 			["providers"] = {
 				{ "i", 187422 },	-- Rockin' Rollin' Racer Customizer 19.9.3 (TOY!)
-				{ "i", 187560 },	-- Rockin' Rollin' Racer Pack
+				{ "i", 187560 },	-- Rockin' Rollin' Racer Pack (CI!)
 			},
 			["timeline"] = { ADDED_9_1_5 },
 		}),
@@ -1725,7 +1725,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["_drop"] = { "g" },
 			["lvl"] = 10,
 			["groups"] = {
-				i(187560),	-- Rockin' Rollin' Racer Pack
+				i(187560),	-- Rockin' Rollin' Racer Pack (CI!)
 			},
 		})),
 		q(66507, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_10_0_2_LAUNCH } }, {	-- A Winter Veil Gift (2022)
@@ -2718,11 +2718,6 @@ root(ROOTS.HiddenQuestTriggers, {
 			}),
 		})),
 	})),
-	-- expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {
-	-- 	applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
-	-- 		q(64628),	-- Triggered when learning the additional things for the Rockin' Rollin' Toy (spellID 358761)
-	-- 	})),
-	-- })),
 	expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_2_0 } }, {
 		applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
 			q(78130),	-- Looting Festive Trans-Dimensional Bird Whistle [209859]

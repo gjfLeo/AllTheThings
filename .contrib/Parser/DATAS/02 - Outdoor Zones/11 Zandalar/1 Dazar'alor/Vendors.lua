@@ -556,7 +556,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(161521, {	-- Goblin Sapper's Legguards
 						["cost"] = 14000000,	-- 1,400g
 					}),
-					i(166444),	-- Honorbound Scouting Map
+					i(166444),	-- Honorbound Scouting Map (CI!)
 					i(163779, {	-- Lil' War Machine (PET!)
 						["races"] = HORDE_ONLY,
 						["cost"] = { { "i", POLISHED_PET_CHARM, 200 }, },

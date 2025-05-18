@@ -632,7 +632,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["g"] = bubbleDownClassicRep(FACTION_7TH_LEGION, {
 					{		-- Neutral
-						i(166445),	-- 7th Legion Scouting Map
+						i(166445),	-- 7th Legion Scouting Map (CI!)
 					}, {	-- Friendly
 					}, {	-- Honored
 						i(160536, {	-- 7th Legionnaire's Cloak

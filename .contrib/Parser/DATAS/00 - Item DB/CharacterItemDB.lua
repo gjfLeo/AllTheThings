@@ -220,6 +220,8 @@ iq(132525, 40732);					-- Reaves Module: Repair Mode
 iq(132531, 40737);					-- Reaves Module: Piloted Combat Mode
 iq(132530, 40736);					-- Reaves Module: Bling Mode
 iq(132524, 40738);					-- Reaves Module: Wormhole Generator Mode
+-- Order Hall --
+ihqt(142522, 45315);				-- Rude Letter
 --- NYI ---
 is(136971, 211010, SHAMAN);			-- Tome of Hex: Snake
 
@@ -234,6 +236,7 @@ is(147770, nil, HUNTER);			-- Tome of the PTR Beast
 -- PATCH 7.3.0 --
 -----------------
 iq(152964, 49006);					-- Krokul Flute
+iq(152583, 48546);					-- Underlight Emerald
 
 -----------------
 -- PATCH 8.0.1 --
@@ -243,10 +246,22 @@ is(162624, 277784, SHAMAN);			-- Tome of Hex: Wicker Mongrel
 is(162623, 277778, SHAMAN);			-- Tome of Hex: Zandalari Tendonripper
 is(162626, 277792, MAGE);			-- Tome of Polymorph: Bumblebee
 is(162625, 277787, MAGE);			-- Tome of Polymorph: Direhorn
+-- Flight Path Maps --
+iq(166445, 54705);					-- 7th Legion Scouting Map
+iq(166444, 54704);					-- Honorbound Scouting Map
+-- Outpost Upgrades --
+ihqt(165880, 54304);				-- Outpost Upgrade: Arom's Stand
+ihqt(165836, 54261);				-- Outpost Upgrade: Brennadam
+ihqt(165873, 54283);				-- Outpost Upgrade: Castaway Point
+ihqt(165728, 54226);				-- Outpost Upgrade: The Great Seal
+ihqt(165804, 54259);				-- Outpost Upgrade: Vulpera Hideaway
+ihqt(165750, 54238);				-- Outpost Upgrade: Zul'jan Ruins
 
 -----------------
 -- PATCH 8.1.0 --
 -----------------
+ihqt(165944, 54422);				-- A Shady Message [A]
+ihqt(166242, 54445);				-- A Shady Message [H]
 iq(166502, 54753, HUNTER);			-- Blood-Soaked Tome of Dark Whispers
 iq(166749, 54859);					-- Lyrics: Song of the Sea
 
@@ -265,6 +280,7 @@ is(172405, 309328, SHAMAN);			-- Tome of Hex: Living Honey
 iq(175158, 59029, nil, VULPERA);	-- Flames of Fury
 iq(175160, 59035, nil, VULPERA);	-- Holy Relic
 iq(175159, 59032, nil, VULPERA);	-- Sinister Shadows
+ihqt(169693, 57063);				-- Zem'Lans Lost Treasure Map
 
 -----------------
 -- PATCH 9.0.1 --
@@ -288,13 +304,65 @@ iq(165840, 54264);					-- Shattered Pet Portal
 iq(187923, 65039);					-- Aurelid Lure
 iq(184220, 62821);					-- Encyclopedia of Sinstone Fragment Recovery
 iq(180705, 61160, HUNTER);			-- Gargon Training Manual
-iq(183956, 62656);					-- Invitation: Choofa
-iq(183957, 62657);					-- Invitation: Grandmaster Vole
 iq(184222, 62822);					-- Lemet's Requisition Orders
 iq(183517, 62372);					-- Page 76 of the Necronom-i-nom
 iq(183124, 62255, HUNTER);			-- Simple Tome of Bone-Binding
-ihqt(181443, 61459);				-- The Party Herald's Party Hat
 iq(184219, 62821);					-- Treatise on Sinstone Fragment Acquisition
+-- Ember Court --
+iq(181441, 61457);					-- Altar of Accomplishment
+iq(177230, 59681);					-- Anima-Infused Water
+iq(177232, 59683);					-- Bewitched Wardrobe
+iq(177233, 59684);					-- Bounding Shroom Seeds
+iq(181517, 61493);					-- Building: Dredger Pool
+iq(181518, 61494);					-- Building: Guardhouse
+iq(176130, 59494);					-- Contract: Atoning Rituals
+iq(176135, 59503);					-- Contract: Divine Desserts
+iq(176131, 59491);					-- Contract: Glimpse of the Wilds
+iq(176132, 59488);					-- Contract: Lost Chalice Band
+iq(176140, 59512);					-- Contract: Maldraxxian Army
+iq(176128, 59476);					-- Contract: Mortal Reminders
+iq(176136, 59500);					-- Contract: Mushroom Surprise!
+iq(176127, 59479);					-- Contract: Mystery Mirrors
+iq(176139, 59515);					-- Contract: Stoneborn Reserves
+iq(176126, 59473);					-- Contract: Traditional Theme
+iq(176134, 59506);					-- Contract: Tubbins's Tea Party
+iq(176138, 59518);					-- Contract: Venthyr Volunteers
+iq(177231, 59682);					-- Crown of Honor
+iq(177236, 59687);					-- Dog Bone's Bone
+iq(177237, 59688);					-- Dredger Party Supplies
+iq(181521, 61501);					-- Ember Court Ambassador
+iq(177238, 59689);					-- Generous Gift
+iq(181536, 61504);					-- Guest List Page
+iq(181537, 61505);					-- Guest List Page
+iq(181538, 61506);					-- Guest List Page
+iq(183956, 62656);					-- Invitation: Choofa
+iq(183957, 62657);					-- Invitation: Grandmaster Vole
+iq(177243, 59693);					-- Kyrian Arsenal
+iq(177245, 59695);					-- Maldraxxi Challenge Banner
+iq(177241, 59691);					-- Necrolord Arsenal
+iq(177244, 59694);					-- Night Fae Arsenal
+iq(181439, 61455);					-- Protective Braziers
+iq(177239, 59690);					-- Racing Permit
+iq(177234, 59685);					-- Rally Bell
+iq(181440, 61456);					-- Slippery Muck
+iq(181524, 61502);					-- Staff: Ambassador
+iq(181533, 61499);					-- Stock: Anima Samples
+iq(181532, 61498);					-- Stock: Appetizers
+iq(182343, 61888);					-- Staff: Bastion Ambassador
+iq(181523, 59437);					-- Staff: Bouncers
+iq(181535, 61500);					-- Stock: Comfy Chairs
+iq(181519, 59435);					-- Staff: Dredger Decorators
+iq(181530, 61497);					-- Stock: Greeting Kits
+iq(182342, 61887);					-- Staff: Maldraxxus Ambassador
+iq(181520, 59436);					-- Staff: Stage Crew
+iq(181522, 59433);					-- Staff: Waiters
+ihqt(181443, 61459);				-- The Party Herald's Party Hat
+iq(181438, 61454);					-- The Wild Drum
+iq(181437, 61453);					-- Training Dummies
+iq(177235, 59686);					-- Tubbins's Lucky Teapot
+iq(181436, 61452);					-- Vanity Mirror
+iq(177242, 59692);					-- Venthyr Arsenal
+iq(181442, 61458);					-- Visions of Sire Denathrius
 
 -----------------
 -- PATCH 9.0.5 --
@@ -319,7 +387,6 @@ iq(186716, 64348);					-- Research Report: Ancient Shrines
 iq(186714, 64339);					-- Research Report: All-Seeing Crystal
 iq(186717, 64300);					-- Research Report: Adaptive Alloys
 iq(185965, 63893);					-- Memories of Sunless Skies
-iq(181442, 61458);					-- Visions of Sire Denathrius
 is(0, 354466);						-- Path of the Ascendant
 is(0, 354462);						-- Path of the Courageous
 is(0, 354464);						-- Path of the Misty Forest
@@ -340,6 +407,7 @@ iq(187936, 65062, DRUID);			-- Mark of the Sable Ardenmoth
 iq(187888, 64987, DRUID);			-- Mark of the Shimmering Ardenmoth
 iq(187884, 64986, DRUID);			-- Mark of the Twilight Runestag
 iq(190184, 65623);					-- Incense of Infinity
+iq(187560, 64628);					-- Rockin' Rollin' Racer Pack
 
 -----------------
 -- PATCH 9.2.0 --
@@ -349,6 +417,7 @@ iq(190956, 70705);					-- Decanter of Untapped Potential
 iq(190234, 65617);					-- Enlightened Portal Research
 iq(188793, 65282);					-- Improvised Cypher Analysis Tool
 is(0, 367416);						-- Path of the Streetwise Merchant
+iq(183693, 62409);					-- Plague Doctor's Mask
 
 -----------------
 -- PATCH 9.2.5 --
@@ -490,9 +559,10 @@ is(0, 410080);						-- Path of Wind's Domain
 ------------------
 -- PATCH 10.1.5 --
 ------------------
--- #IF AFTER 10.1.5
+-- #if AFTER 10.1.5
+-- Many items were changed only after 10.1.5
 iq(206473, 76307);					-- Makeshift Grappling Hook
--- #ENDIF
+ihqt(208191, 77421);				-- Time Lost Fragment
 --- Imp ---
 iq(207178, 76743, WARLOCK);			-- Grimoire of the Darkfire Imp
 iq(207295, 76744, WARLOCK);			-- Grimoire of the Dreadfire Imp
@@ -519,9 +589,9 @@ iq(208048, 77182, WARLOCK);			-- Ritual of the Voidmaw Felhunter
 iq(139315, 76376, WARLOCK);			-- Grimoire of the Wrathguard
 --- Infernal ---
 iq(139314, 76370, WARLOCK);			-- Grimoire of the Abyssal
--- 77184 Probably Normal Felhunter
 --- NYI ---
 iq(139313, nil, WARLOCK);			-- Grimoire of the Terrorguard
+-- ##endif
 
 ------------------
 -- PATCH 10.2.0 --
