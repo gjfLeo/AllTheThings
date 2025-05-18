@@ -442,6 +442,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					}, {	-- Revered
 						i(161976, {	-- Admiralty Marine's Duffel
 							["cost"] = 30000000,	-- 3,000g
+							["g"] = { h(i(166700)) },	-- Durable Sailor's Duffel (xfer only)
 						}),
 						i(163200, {	-- Cursed Spyglass (TOY!)
 							["cost"] = 18000000,	-- 1,800g
