@@ -262,6 +262,11 @@ settings.Initialize = function(self)
 	self.sliderMinimapButtonSize:SetValue(self:GetTooltipSetting("MinimapSize"))
 
 	self:UpdateMode()
+	-- TODO: need to properly use other libraries to create minimap button if delayed...
+	-- but other addons only handle pre-existing minimap buttons when they load, so for now move back to the order it was
+	app.SetMinimapButtonSettings(
+		self:GetTooltipSetting("MinimapButton"),
+		self:GetTooltipSetting("MinimapSize"));
 
 	app.AddEventHandler("OnInit", function()
 		if self:GetTooltipSetting("Auto:MainList") then
@@ -277,9 +282,6 @@ settings.Initialize = function(self)
 			app:GetWindow("WorldQuests"):SetVisible(true)
 		end
 		app.SetWorldMapButtonSettings(self:GetTooltipSetting("WorldMapButton"));
-		app.SetMinimapButtonSettings(
-			self:GetTooltipSetting("MinimapButton"),
-			self:GetTooltipSetting("MinimapSize"));
 	end)
 
 	if settings.RefreshActiveInformationTypes then
