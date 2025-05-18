@@ -397,11 +397,11 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				ach(41289),	-- Liberation of Undermine Guild Run
 				ach(41290),	-- Heroic: Liberation of Undermine Guild Run
 			}),
-			header(HEADERS.Faction, FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
-				faction(FACTION_GLRC),
+			header(HEADERS.Faction, FACTION_GALLAGIO, {	-- Gallagio Loyalty Rewards Club
+				faction(FACTION_GALLAGIO),
 				n(QUESTS, sharedData({
 					["qg"] = 235617,	-- Paula Piranha <Renown Quartermaster>
-				},bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+				},bubbleDownRep(FACTION_GALLAGIO, {	-- Gallagio Loyalty Rewards Club
 					{		-- RENOWN 1 --
 						q(89016),	-- Members Only
 					}, {	-- RENOWN 2 --
@@ -451,14 +451,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					o(505248, {	-- Rune Dispenser
 						["description"] = "Interact with for a 10% chance for a free Crystalized Augment Rune.\n\nAt renown 14, you are guaranteed at least one.",
 						["questID"]	= 89350,
-						["minReputation"] = { FACTION_GLRC, 2 },
+						["minReputation"] = { FACTION_GALLAGIO, 2 },
 						["isWeekly"] = true,
 						["g"] = { i(224572) },	-- Crystallized Augment Rune
 					}),
 				}),
 				n(VENDORS, {
 					n(235621, {	-- Ando the Gat <Black Market Broker>
-						["g"] = bubbleDownRep(FACTION_GLRC, {	-- Gallagio Loyalty Rewards Club
+						["g"] = bubbleDownRep(FACTION_GALLAGIO, {	-- Gallagio Loyalty Rewards Club
 							{		-- RENOWN 1 --
 							}, {	-- RENOWN 2 --
 							}, {	-- RENOWN 3 --
@@ -489,14 +489,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					n(235624, {	-- Skitto Screwjack
 						i(236413),	-- "Shockproof" Soda
 						i(236749, {	-- Take-Home Torq (TOY!)
-							["minReputation"] = { FACTION_GLRC, 9 },
+							["minReputation"] = { FACTION_GALLAGIO, 9 },
 						}),
 						i(232806, {	-- Tiny Torq (PET!)
-							["minReputation"] = { FACTION_GLRC, 9 },
+							["minReputation"] = { FACTION_GALLAGIO, 9 },
 						}),
 					}),
 					n(235620, {	-- Sando the Rat <Counterfeit Dealer>
-						["minReputation"] = { FACTION_GLRC, 15 },
+						["minReputation"] = { FACTION_GALLAGIO, 15 },
 						["g"] = sharedData({ ["cost"] = { {"i", 237578, 1} } }, {	-- 1x Counterfeit Dealer's Chip
 							i(238776),	-- Gallagio Raider's Bilgewater Blasthammer
 							i(238697),	-- Gallagio Raider's Bilgewater Boomfist
@@ -573,10 +573,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					n(235623, {	-- Snix Longpocket
 						i(236412),	-- "Fireproof" Punch
 						i(232844, {	-- Fuz-Size Flarendo (PET!)
-							["minReputation"] = { FACTION_GLRC, 9 },
+							["minReputation"] = { FACTION_GALLAGIO, 9 },
 						}),
 						i(236751, {	-- Take-Home Flarendo (TOY!)
-							["minReputation"] = { FACTION_GLRC, 9 },
+							["minReputation"] = { FACTION_GALLAGIO, 9 },
 						}),
 					}),
 				}),
@@ -600,7 +600,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					i(232805,{provider={"i",232526}}),	-- Best-in-Slots
 					i(237578, {	-- Counterfeit Dealer's Chip
 						["description"] = "Has a small chance dropping as Personal Loot once you have reached Renown 15 with the Gallagio Loyalty Rewards Club.",
-						["minReputation"] = { FACTION_GLRC, 15 },
+						["minReputation"] = { FACTION_GALLAGIO, 15 },
 					}),
 				}),
 				BossOnly(MUGZEE, {
@@ -692,7 +692,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				n(QUESTS, {
 					q(89351, {	-- Liberation of Undermine: Splitting Pairs [N]
 						["qg"] = 235619,	-- Lentil Sprocket <Gallagio "Chauffeur">
-						["minReputation"] = { FACTION_GLRC, 5 },
+						["minReputation"] = { FACTION_GALLAGIO, 5 },
 					}),
 				}),
 				ZoneDrops({
@@ -737,7 +737,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				n(QUESTS, {
 					q(89352, {	-- Liberation of Undermine: Splitting Pairs [H]
 						["qg"] = 235619,	-- Lentil Sprocket <Gallagio "Chauffeur">
-						["minReputation"] = { FACTION_GLRC, 5 },
+						["minReputation"] = { FACTION_GALLAGIO, 5 },
 					}),
 				}),
 				ZoneDrops({
@@ -766,7 +766,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				n(QUESTS, {
 					q(89353, {	-- Liberation of Undermine: Splitting Pairs [M]
 						["qg"] = 235619,	-- Lentil Sprocket <Gallagio "Chauffeur">
-						["minReputation"] = { FACTION_GLRC, 5 },
+						["minReputation"] = { FACTION_GALLAGIO, 5 },
 					}),
 				}),
 				ZoneDrops({
@@ -830,7 +830,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 	inst(1296, {	-- Liberation of Undermine
 		n(FACTIONS, {
-			header(HEADERS.Faction, FACTION_GLRC, {
+			header(HEADERS.Faction, FACTION_GALLAGIO, {
 				n(QUESTS, {
 					q(86468),	-- Triggered with Members Only (89016)
 					q(89017),	-- Triggered with Members Only (89016)
