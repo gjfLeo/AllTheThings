@@ -891,7 +891,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["isBreadcrumb"] = true,
 			}),
 			q(64567, {	-- The Missing Scholar
-				["sourceQuests"] = { 64106 },	-- A Unified Effort
 				["provider"] = { "n", 177927 },	-- Tal-Galan
 				["coord"] = { 62.7, 24.8, KORTHIA },
 				["altQuests"] = { 63731 },	-- Researching Korthian Relics
@@ -963,7 +962,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 
 				-- They Could Be Anyone --
 			q(63755, {	-- A Matter of Urgency
-				["sourceQuests"] = { 64106 },	-- A Unified Effort
 				["provider"] = { "n", 177155 },	-- Pathscribe Roh-Vess
 				["coord"] = { 65.1, 23.1, KORTHIA },
 			}),
