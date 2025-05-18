@@ -75,8 +75,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["timeline"] = { ADDED_11_1_5 },
 				["g"] = sharedData({
 					["cost"] = {{ "i", 237502, 3 }},	-- 3x Puzzling Cartel Chip
-					["modID"] = 153, 
-				}, {
+					["modID"] = 153,
+				},{
 					-- Vexie
 					i(231268),	-- Blastfurious Machete
 					i(230197),	-- Geargrinder's Spare Keys
@@ -126,10 +126,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(228899),	-- Gallywix's Iron Thumb
 					i(231265),	-- The Jastor Diamond
 					i(228889),	-- Titan of Industry
-				}),
-				["g"] = sharedData({
-					["cost"] = {{ "i", 237502, 3 }},	-- 3x Puzzling Cartel Chip
-				}, {
+					-- M+ Stuff
 					-- Motherlode
 					i(159612),	-- Azerokk's Resonating Heart
 					i(159611),	-- Razdunk's Big Red Button
