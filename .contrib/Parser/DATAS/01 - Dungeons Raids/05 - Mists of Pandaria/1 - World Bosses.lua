@@ -365,7 +365,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["description"] = "This is awarded as a consolation prize to players who did not win actual loot. Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
 						-- #if BEFORE 9.0.1
 						-- CRIEVE NOTE: Rumor has it that this doesn't drop pets anymore, despite originally having them be possible.
-						["sym"] = {MOP_SYM_PETS},
+						-- Goldenshacal Note: They had very low droprate, similar to a world drop. Commenting them out for visual cleanup
+						--["sym"] = {MOP_SYM_PETS},
 						-- #endif
 						["groups"] = {
 							i(95972),	-- Abandoned Zandalari Arrowlinks
@@ -450,7 +451,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 						["description"] = "This is awarded as a consolation prize to players who did not win actual loot. Can rarely contains flasks, potions, elixirs, battle stones, companions, and Raid Finder level trash drops.",
 						-- #if BEFORE 9.0.1
 						-- CRIEVE NOTE: Rumor has it that this doesn't drop pets anymore, despite originally having them be possible.
-						["sym"] = {MOP_SYM_PETS},
+						-- Goldenshacal Note: They had very low droprate, similar to a world drop. Commenting them out for visual cleanup
+						--["sym"] = {MOP_SYM_PETS},
 						-- #endif
 						["groups"] = {
 							i(95972),	-- Abandoned Zandalari Arrowlinks
