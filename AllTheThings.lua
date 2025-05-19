@@ -1404,7 +1404,7 @@ local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB)
 			-- app.PrintDebug("SourceLocation",text,FilterInGame(j),FilterSettings(parent),FilterCharacter(parent))
 			if showUnsorted or (not text:match(L.UNSORTED) and not text:match(L.HIDDEN_QUEST_TRIGGERS)) then
 				-- doesn't meet current unobtainable filters from the Thing itself
-				if not FilterInGame(j) then
+				if not FilterInGame(parent) then
 					unobtainable[#unobtainable + 1] = text..UnobtainableTexture
 				else
 					-- something user would currently see in a list or not
@@ -1414,8 +1414,8 @@ local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB)
 						sourcesToShow[#sourcesToShow + 1] = text..NotCurrentCharacterTexture
 					else
 						-- check if this needs a status icon even though it's being shown
-						right = GetUnobtainableTexture(FirstParent(j, "e", true) or FirstParent(j, "u", true) or j)
-							or (j.rwp and app.asset("status-prerequisites"))
+						right = GetUnobtainableTexture(FirstParent(parent, "e", true) or FirstParent(parent, "u", true) or parent)
+							or (parent.rwp and app.asset("status-prerequisites"))
 						if right then
 							sourcesToShow[#sourcesToShow + 1] = text.." |T" .. right .. ":0|t"
 						else
