@@ -1083,18 +1083,18 @@ local function BuildSourceInformationForPopout(group)
 			local shared = app.SearchForObject("sourceID", otherSourceID, "key");
 			if shared then
 				shared = app.CloneObject(shared, true);
-				tinsert(g, shared);
+				g[#g + 1] = shared
 				-- print("ATT Appearance:",shared.hash,shared.modItemID)
 			else
 				local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID);
 				-- print("Missing Appearance")
 				-- app.PrintTable(otherSourceInfo)
 				if otherSourceInfo then
-					local newItem = app.CreateItemSource(otherSourceID);
+					local newItem = UnknownAppearancesCache[otherSourceID]
 					if otherSourceInfo.isCollected then
 						AccountSources[otherSourceID] = 1;
 					end
-					tinsert(g, newItem);
+					g[#g + 1] = newItem
 				end
 			end
 		end
