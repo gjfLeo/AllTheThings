@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 									i(190454),	-- Depleted Primal Chaos
 								},
 							})),
-							i(199108, bubbleDown({ ["timeline"] = { ADDED_10_0_5, REMOVED_10_1_0 } }, {		-- Bag of Discount Goods
+							i(199108, bubbleDown({ ["timeline"] = { ADDED_10_0_5, REMOVED_10_1_0 } }, {	-- Bag of Discount Goods
 								["g"] = {
 									i(33012),	-- Terokkar Lilac
 								},

@@ -346,16 +346,16 @@ iq(177239, 59690);					-- Racing Permit
 iq(177234, 59685);					-- Rally Bell
 iq(181440, 61456);					-- Slippery Muck
 iq(181524, 61502);					-- Staff: Ambassador
-iq(181533, 61499);					-- Stock: Anima Samples
-iq(181532, 61498);					-- Stock: Appetizers
 iq(182343, 61888);					-- Staff: Bastion Ambassador
 iq(181523, 59437);					-- Staff: Bouncers
-iq(181535, 61500);					-- Stock: Comfy Chairs
 iq(181519, 59435);					-- Staff: Dredger Decorators
-iq(181530, 61497);					-- Stock: Greeting Kits
 iq(182342, 61887);					-- Staff: Maldraxxus Ambassador
 iq(181520, 59436);					-- Staff: Stage Crew
 iq(181522, 59433);					-- Staff: Waiters
+iq(181533, 61499);					-- Stock: Anima Samples
+iq(181532, 61498);					-- Stock: Appetizers
+iq(181535, 61500);					-- Stock: Comfy Chairs
+iq(181530, 61497);					-- Stock: Greeting Kits
 ihqt(181443, 61459);				-- The Party Herald's Party Hat
 iq(181438, 61454);					-- The Wild Drum
 iq(181437, 61453);					-- Training Dummies
@@ -591,7 +591,7 @@ iq(139315, 76376, WARLOCK);			-- Grimoire of the Wrathguard
 iq(139314, 76370, WARLOCK);			-- Grimoire of the Abyssal
 --- NYI ---
 iq(139313, nil, WARLOCK);			-- Grimoire of the Terrorguard
--- ##endif
+-- #endif
 
 ------------------
 -- PATCH 10.2.0 --
