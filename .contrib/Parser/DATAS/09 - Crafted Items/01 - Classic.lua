@@ -515,7 +515,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				prof(17039, {	-- Master Swordsmith
 					["description"] = "These items can only be crafted by Master Swordsmith specialized Weaponsmiths.",
 					["groups"] = {
-						i(12790, {["timeline"] = {REMOVED_4_0_3, ADDED_7_1_5}}),	-- Arcanite Champion
+						i(12790, {["timeline"] = {REMOVED_6_0_2, ADDED_7_1_5}}),	-- Arcanite Champion
 						applyclassicphase(PHASE_THREE_RECIPES, i(19168)),	-- Blackguard
 						i(12777, {["timeline"] = {REMOVED_4_0_3, ADDED_7_1_5}}),	-- Blazing Rapier
 						i(12782, {	-- Corruption
@@ -1024,7 +1024,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(206488, {["timeline"] = {ADDED_10_1_5}}),	-- Widow's Weep
 			-- #if AFTER TBC
 			i(12798),	-- Annihilator
-			i(12790, {["timeline"] = {REMOVED_4_0_3, ADDED_7_1_5}}),	-- Arcanite Champion
+			i(12790, {["timeline"] = {REMOVED_6_0_2, ADDED_7_1_5}}),	-- Arcanite Champion
 			i(12784),	-- Arcanite Reaper
 			applyclassicphase(PHASE_THREE_RECIPES, i(19166)),	-- Black Amnesty
 			applyclassicphase(PHASE_THREE_RECIPES, i(19167)),	-- Blackfury
