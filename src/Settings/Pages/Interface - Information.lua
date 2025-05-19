@@ -1277,6 +1277,14 @@ settings.CreateInformationType("rawfields", {
 	text = "DEBUG: Raw Fields",
 	HideCheckBox = not app.Debugging,
 	Process = function(t, data, tooltipInfo)
+		tinsert(tooltipInfo, {
+			left = "Self:",
+			right = tostring(data)
+		});
+		tinsert(tooltipInfo, {
+			left = "Row:",
+			right = tostring(app.ActiveRowReference)
+		});
 		for k, v in pairs(data) do
 			tinsert(tooltipInfo, {
 				left = "Raw: "..tostring(k),

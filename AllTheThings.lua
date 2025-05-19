@@ -2116,7 +2116,7 @@ local function BuildSourceParent(group)
 			icon = 134441,
 			OnUpdate = app.AlwaysShowUpdate,
 			sourceIgnored = true,
-			skipFill = true,
+			skipFull = true,
 			SortPriority = -3.0,
 			g = {},
 			OnClick = app.UI.OnClick.IgnoreRightClick,

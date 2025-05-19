@@ -1105,7 +1105,7 @@ local function BuildSourceInformationForPopout(group)
 			OnUpdate = app.AlwaysShowUpdate,
 			OnClick = app.UI.OnClick.IgnoreRightClick,
 			sourceIgnored = true,
-			skipFill = true,
+			skipFull = true,
 			SortPriority = -2.3,
 			g = g,
 		});
@@ -1114,7 +1114,7 @@ local function BuildSourceInformationForPopout(group)
 			OnUpdate = app.AlwaysShowUpdate,
 			OnClick = app.UI.OnClick.IgnoreRightClick,
 			sourceIgnored = true,
-			skipFill = true,
+			skipFull = true,
 			SortPriority = -2.3,
 		});
 	end
