@@ -74,6 +74,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					--["sourceQuests"] = { xx },	-- TODO: doesn't exist/time gated?
 					--["provider"] = { "n", XXX },	-- TODO: Didn't find questgiver for this one, picked up from journal
 					--["coord"] = { X, Y, DORNOGAL },
+					["description"] = "May need to be acquired from the Adventure Journal if not automatically given on login",
 					["isBreadcrumb"] = true,	-- TODO: next quest was up without this one
 				}),
 				q(87328, {	-- Truly Horrific to Behold
