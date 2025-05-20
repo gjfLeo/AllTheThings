@@ -1870,5 +1870,7 @@ ExportDB.AccountWideQuestsDB = {
 	[89401] = true,	-- First weekly Gobfather account kill for warbound loot
 	[90597] = true,	-- Arsenal: Children's Stormwind Guard Weapon Set
 	[90598] = true,	-- Arsenal: Children's Orgrimmar Guard Weapon Set
+	[90719] = true,	-- Borrowing Corruption
+	[90731] = true,	-- Enhancing Corruption
 	-- #ENDIF
 }
