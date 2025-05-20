@@ -1729,6 +1729,7 @@ ExportDB.AccountWideQuestsDB = {
 	[84614] = true, -- Bronze Celebration Token Lockout [from #83468]
 	[84629] = true, -- Bronze Celebration Token Lockout [from #84254]
 	[84630] = true, -- Bronze Celebration Token Lockout [from #84489]
+	[84681] = true, -- Triggered after turn in questID 84682 (Of Pacts and Patrons) (spellID 463432 - [DNT] Choice Complete Credit)
 	[84693] = true,	-- Weaver's Lair Profession Table flag?, shown on i(228946)
 	[84948] = true,
 	[84951] = true,	-- Bilgewater Cartel Weekly Contract

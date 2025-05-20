@@ -20149,6 +20149,7 @@ L.QUEST_NAMES = {
 	[84634] = "Awakening The Machine: Wave 20 Completed. Congratulations.",
 	[84676] = "Acquire The Light of Their Love buff stacked 3 times",
 	[84677] = "Acquire the Key of Shadows from the Ny'Alotha Obelisk",
+	[84681] = "'Of Pacts and Patrons' Completed Credit (Account-wide)",
 	[84685] = "Talk to the Dalaran Survivor while using the Detective title",
 	[84699] = "Stay awhile and listen: Moira Thaurissan",
 	[84702] = "Press the Red Button 100 times",
