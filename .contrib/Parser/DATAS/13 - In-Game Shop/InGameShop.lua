@@ -526,8 +526,8 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_7 },
 		}),
 		------ Lavaborn Emerald Attire Set ------
-		iensemble(238428),	-- Ensemble: Lavaborn Emerald Attire
-		i(238948),	-- Fel Inferno Helm
+		iensemble(238428, {	["timeline"] = { ADDED_11_1_5 } }),	-- Ensemble: Lavaborn Emerald Attire
+		i(238948, {	["timeline"] = { ADDED_11_1_5 } }),	-- Fel Inferno Helm
 
 		------ Murloc Shells Set ------
 		i(188135, {	-- Frrgl's Shaking Shell
