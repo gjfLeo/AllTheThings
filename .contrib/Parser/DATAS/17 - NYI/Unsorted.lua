@@ -514,7 +514,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(238896),	-- Macho's Magnificent "Fish" Tacos
-				i(241616),	-- The Underpin
 			}),
 			filter(MOUNTS, {
 				i(236415),	-- Reins of the Spotted Black Riding Goat

@@ -348,6 +348,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						i(240185, {	-- Pulsing Void Crystal
+							["questID"] = 90135,
 							["cost"] = {
 								{ "i", 221955, 1 },	-- 1x Convincingly Realistic Jumper Cables
 								{ "i", 240186, 1 },	-- 1x Depleted Void Crystal
@@ -355,6 +356,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						i(240182, {	-- Skull-Scythe Handlebars
+							["questID"] = 90132,
 							["cost"] = {
 								{ "i", 221945, 1 },	-- 1x Irresistible Red Button
 								{ "i", 221925, 1 },	-- 1x Recalibrated Safety Switch
@@ -414,6 +416,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["coord"] = { 33.8, 68.6, DORNOGAL },
 					["g"] = {
 						i(242623, {	-- Enchanted Warbound Purifying Kit
+							["questID"] = 90710,
 							["cost"] = {{"c", 3149, 2000 }},	-- 2000x Displaced Corrupted Mementos
 						}),
 					},
@@ -422,6 +425,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
 						}),
 						i(236896, {	-- Void-Touched Blade
+							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+						}),
+						i(236884, {	-- Void-Touched Bludgeon
 							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
 						}),
 						i(236894, {	-- Void-Touched Bow
@@ -497,6 +503,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["coord"] = { 34.1, 68.5, DORNOGAL },
 					["g"] = {
 						i(242622, {	-- Warbound Purifying Kit
+							["questID"] = 90709,
 							["cost"] = {{"c", 3149, 1000 }},	-- 1000x Displaced Corrupted Mementos
 						}),
 					},
@@ -505,6 +512,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
 						}),
 						i(236896, {	-- Void-Touched Blade
+							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+						}),
+						i(236884, {	-- Void-Touched Bludgeon
 							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
 						}),
 						i(236894, {	-- Void-Touched Bow
@@ -585,6 +595,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						i(236896, {	-- Void-Touched Blade
 							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
 						}),
+						i(236884, {	-- Void-Touched Bludgeon
+							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+						}),
 						i(236894, {	-- Void-Touched Bow
 							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
 						}),
@@ -656,24 +669,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				n(238138, {	-- Torie
 					["coord"] = { 34.4, 68.4, DORNOGAL },
 					["g"] = {
-						-- TODO: sort it out near live release, sorted via listing in vendor for easy self-navigation
-						-- 1
-						i(235711, {	-- Corruption of the Aspects (MOUNT!)
-							["cost"] = {{ "c", 3149, 40000 }},
-						}),
-						i(235980, {	-- Scourge of the Aspects (PET!)
-							["sourceAchievement"] = 41725,	-- We Have the Memories
-							["cost"] = {{ "c", 3149, 5000 }},
-						}),
-						i(238255, {	-- Bronze Dragonscale Backpack
-							["cost"] = {{ "c", 3149, 5000 }},
-						}),
-						i(174770, {	-- Wicked Swarmer (MOUNT!)
-							["cost"] = {{ "c", 3149, 20000 }},
-						}),
-						i(174361, {	-- Black Dragonscale Backpack
-							["cost"] = {{ "c", 3149, 2000 }},
-						}),
 						i(238666, {	-- Ashjra'kamas, The Corrupted
 							["cost"] = {{ "c", 3149, 1000 }},
 						}),
@@ -683,20 +678,29 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						i(238668, {	-- Ashjra'kamas, The Celestial
 							["cost"] = {{ "c", 3149, 2000 }},
 						}),
+						i(174361, {	-- Black Dragonscale Backpack
+							["cost"] = {{ "c", 3149, 2000 }},
+						}),
+						i(238255, {	-- Bronze Dragonscale Backpack
+							["cost"] = {{ "c", 3149, 5000 }},
+						}),
+						i(235711, {	-- Corruption of the Aspects (MOUNT!)
+							["cost"] = {{ "c", 3149, 40000 }},
+						}),
+						i(235980, {	-- Scourge of the Aspects (PET!)
+							["cost"] = {{ "c", 3149, 5000 }},
+						}),
+						i(174770, {	-- Wicked Swarmer (MOUNT!)
+							["cost"] = {{ "c", 3149, 20000 }},
+						}),
+						-- Cloth
+						i(236976, {	-- Vision Manipulator's Cinch
+							["cost"] = {{ "c", 3149, 400 }},
+						}),
 						i(237008, {	-- Vision Manipulator's Cloak
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
-						i(237007, {	-- Cloak of the Insatiable Vision
-							["cost"] = {{ "c", 3149, 400 }},
-						}),
-						-- 2
-						i(237006, {	-- Vision Tormentor's Tentacles
-							["cost"] = {{ "c", 3149, 400 }},
-						}),
-						i(237005, {	-- Malignant Vision's Drape
-							["cost"] = {{ "c", 3149, 400 }},
-						}),
-						i(236993, {	-- Vision Manipulator's Robe
+						i(236994, {	-- Vision Manipulator's Cowl
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
 						i(236973, {	-- Vision Manipulator's Footwraps
@@ -705,24 +709,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						i(236974, {	-- Vision Manipulator's Handwraps
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
-						i(236994, {	-- Vision Manipulator's Cowl
-							["cost"] = {{ "c", 3149, 600 }},
-						}),
 						i(236975, {	-- Vision Manipulator's Leggings
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
 						i(236995, {	-- Vision Manipulator's Mantle
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
-						i(236976, {	-- Vision Manipulator's Cinch
-							["cost"] = {{ "c", 3149, 400 }},
+						i(236993, {	-- Vision Manipulator's Robe
+							["cost"] = {{ "c", 3149, 600 }},
 						}),
 						i(236977, {	-- Vision Manipulator's Wristwraps
 							["cost"] = {{ "c", 3149, 200 }},
 						}),
-						-- 3
+						-- Leather
 						i(236996, {	-- Chestguard of the Insatiable Vision
 							["cost"] = {{ "c", 3149, 600 }},
+						}),
+						i(237007, {	-- Cloak of the Insatiable Vision
+							["cost"] = {{ "c", 3149, 400 }},
 						}),
 						i(236978, {	-- Footpads of the Insatiable Vision
 							["cost"] = {{ "c", 3149, 400 }},
@@ -745,55 +749,61 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						i(236982, {	-- Wristwraps of the Insatiable Vision
 							["cost"] = {{ "c", 3149, 200 }},
 						}),
+						-- Mail
+						i(236986, {	-- Vision Tormentor's Belt
+							["cost"] = {{ "c", 3149, 400 }},
+						}),
 						i(236999, {	-- Vision Tormentor's Breastplate
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
 						i(236983, {	-- Vision Tormentor's Footguards
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
-						-- 4
 						i(236984, {	-- Vision Tormentor's Handguards
+							["cost"] = {{ "c", 3149, 400 }},
+						}),
+						i(236985, {	-- Vision Tormentor's Legguards
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
 						i(237000, {	-- Vision Tormentor's Mask
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
-						i(236985, {	-- Vision Tormentor's Legguards
-							["cost"] = {{ "c", 3149, 400 }},
-						}),
 						i(237001, {	-- Vision Tormentor's Spaulders
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
-						i(236986, {	-- Vision Tormentor's Belt
+						i(237006, {	-- Vision Tormentor's Tentacles
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
 						i(236987, {	-- Vision Tormentor's Vambraces
 							["cost"] = {{ "c", 3149, 200 }},
 						}),
+						-- Plate
+							i(236992, {	-- Malignant Vision's Armguards
+							["cost"] = {{ "c", 3149, 200 }},
+						}),
 						i(237002, {	-- Malignant Vision's Chestplate
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
-						i(236988, {	-- Malignant Vision's Stompers
+						i(236989, {	-- Malignant Vision's Crushers
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
-						i(236989, {	-- Malignant Vision's Crushers
+						i(237005, {	-- Malignant Vision's Drape
+							["cost"] = {{ "c", 3149, 400 }},
+						}),
+						i(236991, {	-- Malignant Vision's Greatbelt
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
 						i(237003, {	-- Malignant Vision's Headguard
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
-						-- 5
-						i(236990, {	-- Malignant Vision's Wargreaves
-							["cost"] = {{ "c", 3149, 400 }},
-						}),
 						i(237004, {	-- Malignant Vision's Spaulders
 							["cost"] = {{ "c", 3149, 600 }},
 						}),
-						i(236991, {	-- Malignant Vision's Greatbelt
+						i(236988, {	-- Malignant Vision's Stompers
 							["cost"] = {{ "c", 3149, 400 }},
 						}),
-						i(236992, {	-- Malignant Vision's Armguards
-							["cost"] = {{ "c", 3149, 200 }},
+						i(236990, {	-- Malignant Vision's Wargreaves
+							["cost"] = {{ "c", 3149, 400 }},
 						}),
 					},
 				}),
@@ -1019,7 +1029,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						}),
 						header(HEADERS.Item, 235700, {	-- Reins of the Void-Scarred Gryphon
 							n(237918, {	-- Claw Marked Bowl
-								["description"] = "Interact with the nearby Ripped Note to read the clue then place the desired item into the bowl to spawn the rare.\n...fish: Fresh Fillet\n...fungus: Chopped Mycobloom\n...meat that has been spiced: Spiced Meat Stock\n...steak: Portioned Steak\n\nThe note and bowl are only visible with at least three masks active.",
+								["description"] = "Interact with the nearby Ripped Note to read the clue then place the desired item into the bowl to spawn the rare.\n...fish: Fresh Fillet\n...fungus: Chopped Mycobloom\n...meat that has been spiced: Spiced Meat Stock\n...steak: Portioned Steak\n\nThe note and bowl are only visible with at least two masks active.",
 								["coord"] = { 66.0, 70.8, RE_HORRIFIC_STORMWIND },
 								["cost"] = {
 									{ "i",  222737, 1 },	-- 1x Chopped Mycobloom
@@ -1036,6 +1046,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					}),
 					n(TREASURES, {
 						i(240191, {	-- Magic-Lined Manifold TODO - Almost certainly has an object container
+							["questID"] = 90525,
 							["coord"] = { 61.5, 72.7, RE_HORRIFIC_STORMWIND },
 						}),
 						i(174928, {	-- Rotten Apple (TOY!)
@@ -1102,8 +1113,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		--q(90530),	-- pop after clearing Valley of Wisdom with 2 masks (new masks sourceQuest?)
 		--q(90529),	-- pop after killing Rexxar with 3 masks (mask sourceQuest?)
 		--
-		-- q(90709),	-- after using itemID 242622 (Warbound Purifying Kit)
-		-- q(90710),	-- after using itemID 242623 (Enchanted Warbound Purifying Kit)
 
 		-- combine things for byke
 		--q(),	--

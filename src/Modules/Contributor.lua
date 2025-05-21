@@ -651,6 +651,7 @@ MobileDB.GameObject = {
 	[215137] = true,	-- Sprinkler
 	[216150] = true,	-- Horde Supply Crate (q:32144)
 	[215162] = true,	-- Pest Repeller
+	[215163] = true,	-- Pest Repeller
 	[220908] = true,	-- Mist-Covered Treasure Chest
 	[221689] = true,	-- Ripe Crispfruit
 	[221690] = true,	-- Sand-Covered Egg

@@ -213,6 +213,7 @@ WOW_ANNIVERSARY_TWENTY = createHeader({
 		en = WOWAPI_GetAchievementName(41220),
 	},
 });
+--[[
 WOW_ANNIVERSARY_TWENTYONE = createHeader({
 	readable = "WoW's 21st Anniversary",
 	icon = 133783,
@@ -226,6 +227,7 @@ WOW_ANNIVERSARY_TWENTYONE = createHeader({
 	-- 	en = WOWAPI_GetAchievementName(41220),
 	-- },
 });
+]]--
 local BRONZE_TOKEN = 3100;
 
 ------ Encounter Constants ------
