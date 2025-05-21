@@ -734,7 +734,7 @@ local InformationTypes = {
 			local awp = t.GetValue(t, reference);
 			if awp then
 				if awp > app.GameBuildVersion then
-					tinsert(tooltipInfo, 1, { left = Colorize(L.READDED_WITH_PATCH_CLASSIC_FORMAT:format(GetPatchString(awp)), app.Colors.AddedWithPatch)});
+					tinsert(tooltipInfo, { left = Colorize(L.READDED_WITH_PATCH_CLASSIC_FORMAT:format(GetPatchString(awp)), app.Colors.AddedWithPatch)});
 				else
 					tinsert(tooltipInfo, { left = t.text, right = Colorize(GetPatchString(awp), app.Colors.AddedWithPatch)});
 				end
@@ -747,7 +747,7 @@ local InformationTypes = {
 			local rwp = reference.rwp;	-- NOTE: For Retail, namely pre-Cata, this can't be recursive!
 			if rwp then
 				if app.GameBuildVersion < rwp then
-					tinsert(tooltipInfo, 1, { left = Colorize(L.REMOVED_WITH_PATCH_CLASSIC_FORMAT:format(GetPatchString(rwp)), app.Colors.RemovedWithPatch)});
+					tinsert(tooltipInfo, { left = Colorize(L.REMOVED_WITH_PATCH_CLASSIC_FORMAT:format(GetPatchString(rwp)), app.Colors.RemovedWithPatch)});
 				else
 					tinsert(tooltipInfo, { left = t.text, right = Colorize(GetPatchString(rwp), app.Colors.RemovedWithPatch)});
 				end
