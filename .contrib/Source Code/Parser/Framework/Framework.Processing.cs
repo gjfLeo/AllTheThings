@@ -115,7 +115,7 @@ namespace ATT
                 }
                 foreach (var obj in wagoItemBonusDb.Values.AsTypedEnumerable<ItemBonus>().Where(i => i.Type == 37))
                 {
-                    itemConversionDB[obj.ParentItemBonusListID] = $"{obj.Value_0}:{obj.Value_1}";
+                    itemConversionDB[obj.ParentItemBonusListID] = obj.Value_0;
                 }
             }
 
