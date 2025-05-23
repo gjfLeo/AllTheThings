@@ -1097,24 +1097,26 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85831),	-- Mage Quarter
 		q(85832),	-- Old Town
 		--
-		--q(90528),	-- either hqt to pop thing for moto or mask drop hqt after clearing up old town (with Long Night mask)
-		--q(90524),	-- either hqt to pop thing for moto or mask drop hqt after clearing up mage quarter (with Long Night mask)
+		q(90528, {name="Old Town & Mask"}),	-- either hqt to pop thing for moto or mask drop hqt after clearing up old town (with Long Night mask)
+		q(90524, {name="Mage Quarter & Mask"}),	-- either hqt to pop thing for moto or mask drop hqt after clearing up mage quarter (with Long Night mask)
 		--q(90531),	-- pop with delay after Alleria was killed (all district was cleared with Long Night mask), when was moved into chests room
 		--^ one of it could be tribute upgrade?
 		q(87389),	-- pop after finishing scenario first time (during quest) // lowest reward hqt?
 		q(88905),	-- pop after finishing scenario first time (during quest) // lowest reward hqt?
 		--87389 & 88905 also pop on 2nd run (without quests in stormwind)
 		--q(88906),	-- ???
-		--q(88907),	-- All district was cleared (without masks), pop after killing Alleria // one of it mask sourceQuest
-		--q(87387),	-- All district was cleared (without masks), pop after killing Alleria // or veteran vendor unlock? / champion piece lockout?
-		--q(88908),	-- All district was cleared  (with Long Night mask), pop after killing Alleria // one of it could be champion vendor unlock?
-		--q(87382),	-- All district was cleared  (with Long Night mask), pop after killing Alleria // one of it could be champion vendor unlock? / champion piece lockout?
-		--q(87384),	-- All district was cleared  (3 masks), pop after killing Thrall // reward lockout questID?
-		--q(88910),	-- All district was cleared  (3 masks), pop after killing Thrall // reward lockout questID?
-		--q(87385),	-- All district was cleared  (4 masks), pop after killing Thrall // reward lockout questID?
-		--q(88911),	-- All district was cleared  (4 masks), pop after killing Thrall // reward lockout questID?
-		--q(87386),	-- All district was cleared  (5 masks), pop after killing Thrall // reward lockout questID?
-		--q(88912),	-- All district was cleared  (5 masks), pop after killing Thrall // reward lockout questID?
+		q(87387, {name="Completion"}),	-- All district was cleared (without masks), pop after killing Alleria // or veteran vendor unlock? / champion piece lockout?
+		q(88907, {name="Completion"}),	-- All district was cleared (without masks), pop after killing Alleria // one of it mask sourceQuest
+		q(87382, {name="Completion & 1 Mask"}),	-- All district was cleared  (with Long Night mask), pop after killing Alleria // one of it could be champion vendor unlock? / champion piece lockout?
+		q(88908, {name="Completion & 1 Mask"}),	-- All district was cleared  (with Long Night mask), pop after killing Alleria // one of it could be champion vendor unlock?
+		q(87383, {name="Completion & 2 Mask"}),
+		q(88909, {name="Completion & 2 Mask"}),
+		q(87384, {name="Completion & 3 Mask"}),	-- All district was cleared  (3 masks), pop after killing Thrall // reward lockout questID?
+		q(88910, {name="Completion & 3 Mask"}),	-- All district was cleared  (3 masks), pop after killing Thrall // reward lockout questID?
+		q(87385, {name="Completion & 4 Mask"}),	-- All district was cleared  (4 masks), pop after killing Thrall // reward lockout questID?
+		q(88911, {name="Completion & 4 Mask"}),	-- All district was cleared  (4 masks), pop after killing Thrall // reward lockout questID?
+		q(87386, {name="Completion & 5 Mask"}),	-- All district was cleared  (5 masks), pop after killing Thrall // reward lockout questID?
+		q(88912, {name="Completion & 5 Mask"}),	-- All district was cleared  (5 masks), pop after killing Thrall // reward lockout questID?
 		--
 		--q(90530),	-- pop after clearing Valley of Wisdom with 2 masks (new masks sourceQuest?)
 		--q(90529),	-- pop after killing Rexxar with 3 masks (mask sourceQuest?)
