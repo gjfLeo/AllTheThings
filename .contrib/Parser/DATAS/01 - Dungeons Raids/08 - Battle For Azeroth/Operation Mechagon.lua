@@ -1,6 +1,12 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
+
+-- DO NOT USE THIS FILE AS A REFERENCE FOR OTHER DUNGEON CONSOLIDATION USING INSTANCEHELPER
+-- IT IS A DISASTER DUE TO TWWS2 CONTENT BEING MANGLED BY BLIZZ INSTEAD OF ACTING IN THE SAME
+-- MANNER AS MOTHERLODE. USE THAT AS A REFERENCE INSTEAD UNDER THE ASSUMPTION THAT BLIZZ
+-- DOES THINGS CORRECTLY
+
 ------ Encounter Constants ------
 local GOBBAMAK = 2357
 local GUNKER = 2358
@@ -217,21 +223,85 @@ if CombineSeasonalLoot then
 			-- Azewrong Helms only have a single Appearance
 		-- H/M5+ have Heroic Appearance (non-Season Heroic) -> (Hero track Upgrades to Mythic appearance)
 		-- Technically it requires dropping at M+6 to be on Hero track to Upgrade, but I don't want to duplicate in both places
-		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroupsWithUpgrades({
+		-- TODO add heroic difficulty to this
+		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK, {
+			difficulties = { DIFFICULTY.DUNGEON.HEROIC, DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
+		}).AddGroupsWithUpgrades({
 			n(MECHAGON_WORKSHOP, {
-				Boss(TUSSLETONKS, {
-				}),
-				Boss(KUJO, {
-					i(199921, {	-- Trashmaster's Mantle
-						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-					}),
-				}),
+				BossOnly(TUSSLETONKS, appendAllGroups(
+					-- Items that work properly
+					{
+						i(168962),	-- Apex Perforator
+						i(168955),	-- Electrifying Cognitive Amplifier
+						i(168967),	-- Gold-Coated Superconductors
+						i(168958),	-- Ringmaster's Cummerbund
+						i(168965),	-- Modular Platinum Plating
+					},
+					-- Items that Blizzard switched from the default appearances for this difficulty
+					sharedData({
+						ItemAppearanceModifierID = 3,
+						-- during the Season, Blizz changed the Item/Appearance association such that Heroic Mod is no longer accurate to the previous Heroic Appearance
+						modID = 33,
+						up = 35,	-- Upgrades to the modID 35 version
+					},{
+						i(168966),	-- Heavy Alloy Legplates
+						i(168964),	-- Hyperthread Boots
+						i(168957),	-- Mekgineer's Championship Belt
+					}
+				))),
+				BossOnly(KUJO, appendAllGroups(
+					-- Items that work properly
+					{
+						i(232546, {timeline={ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART}}),	-- K.U.-J.0.'s Flame Vents
+						i(168972),	-- Pyroclastic Greatboots
+						i(168971),	-- Swift Pneumatic Grips
+						i(199921, {	-- Trashmaster's Mantle
+							["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+						}),
+					},
+					-- Items that Blizzard switched from the default appearances for this difficulty
+					sharedData({
+						ItemAppearanceModifierID = 3,
+						-- during the Season, Blizz changed the Item/Appearance association such that Heroic Mod is no longer accurate to the previous Heroic Appearance
+						modID = 33,
+						up = 35,	-- Upgrades to the modID 35 version
+					},{
+						i(168969),	-- Operator's Mitts
+						i(168968),	-- Flame-Seared Leggings
+					}
+				))),
 				Boss(MACHINIST, {
 				}),
-				Boss(KING, clone(AzewrongLoot[KING])),
+				BossOnly(KING, appendAllGroups(
+					-- Items that work properly
+					{
+						i(168978),	-- Anodized Deflectors
+						i(235811),	-- Extravagant Epaulets
+						i(235809),	-- Mechanized Plate Chasse
+						i(235812),	-- Shoulderguards of Fraying Sanity
+					},
+					-- Items that Blizzard switched from the default appearances for this difficulty
+					sharedData({
+						ItemAppearanceModifierID = 3,
+						-- during the Season, Blizz changed the Item/Appearance association such that Heroic Mod is no longer accurate to the previous Heroic Appearance
+						modID = 33,
+						up = 35,	-- Upgrades to the modID 35 version
+					},{
+						i(235810),	-- Circuit-Linked Chainmail
+						i(168989),	-- Hyperthread Wristwraps
+						i(168980),	-- Gauntlets of Absolute Authority
+						i(168985),	-- Self-Sanitizing Handwraps
+						i(168986),	-- Mad King's Sporran
+						i(168983),	-- Maniacal Monarch's Girdle
+						i(168982),	-- Regal Mekanospurs
+						i(168988),	-- Royal Attendant's Trouser
+					}
+				))),
 			}),
 		}),
-		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroups({
+		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK, {
+			difficulties = { DIFFICULTY.DUNGEON.HEROIC, DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
+		}).AddGroups({
 			n(MECHAGON_WORKSHOP, {
 				BossOnly(KING, sharedData({
 					timeline = {ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART},
@@ -255,18 +325,87 @@ if CombineSeasonalLoot then
 				modID = DifficultyDB[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_MYTHTRACK].modID
 			},FILTERFUNC_itemID,{
 				n(MECHAGON_WORKSHOP, {
-					Boss(TUSSLETONKS, {
-					}),
-					Boss(KUJO, {
-						i(199921, {	-- Trashmaster's Mantle
-							["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-						}),
-					}),
+					BossOnly(TUSSLETONKS, appendAllGroups(
+						-- Items that work properly
+						{
+							i(168962),	-- Apex Perforator
+							i(168955),	-- Electrifying Cognitive Amplifier
+							i(168967),	-- Gold-Coated Superconductors
+							i(168958),	-- Ringmaster's Cummerbund
+							i(168965),	-- Modular Platinum Plating
+						},
+						-- Items that Blizzard switched from the default appearances for this difficulty
+						sharedData({
+							ItemAppearanceModifierID = 1,
+							-- during the Season, Blizz changed the Item/Appearance association such that Mythic Mod is no longer accurate to the previous Mythic Appearance
+							modID = 35,
+						},{
+							i(168966),	-- Heavy Alloy Legplates
+							i(168964),	-- Hyperthread Boots
+							i(168957),	-- Mekgineer's Championship Belt
+						}
+					))),
+					BossOnly(KUJO, appendAllGroups(
+						-- Items that work properly
+						{
+							i(232546, {timeline={ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART}}),	-- K.U.-J.0.'s Flame Vents
+							i(168972),	-- Pyroclastic Greatboots
+							i(168971),	-- Swift Pneumatic Grips
+							i(199921, {	-- Trashmaster's Mantle
+								["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+							}),
+						},
+						-- Items that Blizzard switched from the default appearances for this difficulty
+						sharedData({
+							ItemAppearanceModifierID = 1,
+							-- during the Season, Blizz changed the Item/Appearance association such that Heroic Mod is no longer accurate to the previous Heroic Appearance
+							modID = 35,
+						},{
+							i(168969),	-- Operator's Mitts
+							i(168968),	-- Flame-Seared Leggings
+						}
+					))),
 					Boss(MACHINIST, {
 					}),
-					Boss(KING, clone(AzewrongLoot[KING])),
+					BossOnly(KING, appendAllGroups(
+						-- Items that work properly
+						{
+							i(168978),	-- Anodized Deflectors
+							i(235811),	-- Extravagant Epaulets
+							i(235809),	-- Mechanized Plate Chasse
+							i(235812),	-- Shoulderguards of Fraying Sanity
+						},
+						-- Items that Blizzard switched from the default appearances for this difficulty
+						sharedData({
+							ItemAppearanceModifierID = 1,
+							-- during the Season, Blizz changed the Item/Appearance association such that Heroic Mod is no longer accurate to the previous Heroic Appearance
+							modID = 35,
+						},{
+							i(235810),	-- Circuit-Linked Chainmail
+							i(168989),	-- Hyperthread Wristwraps
+							i(168980),	-- Gauntlets of Absolute Authority
+							i(168985),	-- Self-Sanitizing Handwraps
+							i(168986),	-- Mad King's Sporran
+							i(168983),	-- Maniacal Monarch's Girdle
+							i(168982),	-- Regal Mekanospurs
+							i(168988),	-- Royal Attendant's Trouser
+						}
+					))),
 				}),
 			})),
+		}),
+		-- Item Appearance changes during the Season
+		Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
+			n(MECHAGON_JUNKYARD, {
+				ItemAppearanceModifierID = 3,
+				-- during the Season, Blizz changed the Item/Appearance association such that Mythic Mod is no longer accurate to the previous Mythic Appearance
+				modID = 14,
+			}),
+			n(MECHAGON_WORKSHOP, {
+				ItemAppearanceModifierID = 3,
+				-- during the Season, Blizz changed the Item/Appearance association such that Mythic Mod is no longer accurate to the previous Mythic Appearance
+				modID = 14,
+			}),
 		}),
 	}
 else
@@ -348,9 +487,6 @@ appendAllGroups(SeasonDifficultyGroups, {
 		-- Junkyard was removed entirely during 11.1
 		n(MECHAGON_JUNKYARD, {
 			timeline = TIMELINE_UNAVAILABLE_TWWS2,
-			ItemAppearanceModifierID = 3,
-			-- during the Season, Blizz changed the Item/Appearance association such that Mythic Mod is no longer accurate to the previous Mythic Appearance
-			modID = 14,
 			g = {
 				Boss(GOBBAMAK, {
 				}),
@@ -362,16 +498,18 @@ appendAllGroups(SeasonDifficultyGroups, {
 			},
 		}),
 		n(MECHAGON_WORKSHOP, {
-			BossOnly(KUJO, {
-				-- Not entirely sure how this version is obtainable if at all during Seasons... so we will assume it isn't and see if any report
-				i(168970, {	-- Trashmaster's Mantle
-					["description"] = "Equipping this cloak gives you a temporary Trashmaster title.  To get a permanent character-specific Trashmaster title, take this cloak to Jani's trashpile in Dazar'alor (Horde) or Vol'dun (Alliance).",
-					["timeline"] = TIMELINE_UNAVAILABLE_TWWS2,
+			g = {
+				BossOnly(KUJO, {
+					-- Not entirely sure how this version is obtainable if at all during Seasons... so we will assume it isn't and see if any report
+					i(168970, {	-- Trashmaster's Mantle
+						["description"] = "Equipping this cloak gives you a temporary Trashmaster title.  To get a permanent character-specific Trashmaster title, take this cloak to Jani's trashpile in Dazar'alor (Horde) or Vol'dun (Alliance).",
+						["timeline"] = TIMELINE_UNAVAILABLE_TWWS2,
+					}),
 				}),
-			}),
-			-- Azerite from Mythic doesn't exist during the Season
-			BossOnly(KING, sharedData({timeline = TIMELINE_UNAVAILABLE_TWWS2},
-				clone(AzeriteLoot[KING]))),
+				-- Azerite from Mythic doesn't exist during the Season
+				BossOnly(KING, sharedData({timeline = TIMELINE_UNAVAILABLE_TWWS2},
+					clone(AzeriteLoot[KING]))),
+			},
 		}),
 	}),
 })
