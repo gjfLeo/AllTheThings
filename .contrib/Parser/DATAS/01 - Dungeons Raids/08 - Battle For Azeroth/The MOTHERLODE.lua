@@ -86,16 +86,13 @@ local ZoneDropLoot = {
 
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot, ZoneDropLoot)
-local Boss, BossOnly, Difficulty, CommonBossDrops, ZoneDrops =
-InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.CommonBossDrops, InstanceHelper.ZoneDrops
+local Boss, BossOnly, Difficulty, ZoneDrops =
+InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.ZoneDrops
 
 InstanceHelper.UpgradeMapping = setmetatable({}, { __index = function() return 0 end})
 
 local CombineSeasonalLoot
 
-for e,loot in pairs(AzeriteLoot) do
-	sharedData({timeline = {ADDED_8_0_1_LAUNCH,REMOVED_11_1_0_SEASONSTART,ADDED_11_2_0_SEASONSTART}},loot)
-end
 for e,loot in pairs(AzewrongLoot) do
 	sharedData({timeline = {ADDED_11_1_0_SEASONSTART}},loot)
 end
@@ -125,6 +122,9 @@ if CombineSeasonalLoot then
 			Boss(AZEROKK),
 			Boss(RIXXA),
 			Boss(MOGUL),
+		}),
+		-- H/M+ have Azerwrong pieces only
+		Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS).AddGroups({
 			BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
 		}),
 		-- M6+ have Heroic Appearance (non-Season Heroic) -> Upgrades to Mythic appearance
@@ -134,8 +134,7 @@ if CombineSeasonalLoot then
 			Boss(PUMMELER),
 			Boss(AZEROKK),
 			Boss(RIXXA),
-			Boss(MOGUL),
-			BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
+			Boss(MOGUL, clone(AzewrongLoot[MOGUL])),
 		})),
 		-- Myth Track Appearances (non-Season Mythic)
 		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroups(
@@ -146,8 +145,7 @@ if CombineSeasonalLoot then
 				Boss(PUMMELER),
 				Boss(AZEROKK),
 				Boss(RIXXA),
-				Boss(MOGUL),
-				BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
+				Boss(MOGUL, clone(AzewrongLoot[MOGUL])),
 			})),
 		})),
 	}
@@ -157,35 +155,37 @@ else
 			Boss(PUMMELER),
 			Boss(AZEROKK),
 			Boss(RIXXA),
-			Boss(MOGUL),
-			BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
+			Boss(MOGUL, clone(AzeriteLoot[MOGUL])),
 		}),
 		Difficulty(DIFFICULTY.DUNGEON.HEROIC).AddGroups({
 			Boss(PUMMELER),
 			Boss(AZEROKK),
 			Boss(RIXXA),
-			Boss(MOGUL),
-			BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
+			Boss(MOGUL, clone(AzeriteLoot[MOGUL])),
 		}),
 		Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
 			Boss(PUMMELER),
 			Boss(AZEROKK),
 			Boss(RIXXA),
-			Boss(MOGUL),
-			BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
+			Boss(MOGUL, clone(AzeriteLoot[MOGUL])),
 		}),
 	}
 end
 
 appendAllGroups(SeasonDifficultyGroups, {
+	-- Azerite from Normal is still accessible during Seasons
 	Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
-		BossOnly(MOGUL, clone(AzeriteLoot[MOGUL])),
+		BossOnly(MOGUL, sharedData({timeline = {ADDED_8_0_1_LAUNCH}},
+			clone(AzeriteLoot[MOGUL]))),
 	}),
+	-- Azerite from Heroic/Mythic doesn't exist during the Season
 	Difficulty(DIFFICULTY.DUNGEON.HEROIC).AddGroups({
-		BossOnly(MOGUL, clone(AzeriteLoot[MOGUL])),
+		BossOnly(MOGUL, sharedData({timeline = {ADDED_8_0_1_LAUNCH,REMOVED_11_1_0_SEASONSTART,ADDED_11_2_0_SEASONSTART}},
+			clone(AzeriteLoot[MOGUL]))),
 	}),
 	Difficulty(DIFFICULTY.DUNGEON.MYTHIC).AddGroups({
-		BossOnly(MOGUL, clone(AzeriteLoot[MOGUL])),
+		BossOnly(MOGUL, sharedData({timeline = {ADDED_8_0_1_LAUNCH,REMOVED_11_1_0_SEASONSTART,ADDED_11_2_0_SEASONSTART}},
+			clone(AzeriteLoot[MOGUL]))),
 	}),
 })
 
@@ -243,6 +243,7 @@ local INSTANCE_GROUPS = {
 		BossOnly(RIXXA),
 		BossOnly(MOGUL),
 	}),
+	Difficulty(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS),
 	Difficulty(DIFFICULTY.DUNGEON.HEROIC).AddGroups({
 		BossOnly(PUMMELER),
 		BossOnly(AZEROKK),
@@ -308,7 +309,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 			{ 44.3, 92.6, DAZARALOR },	-- Horde
 		},
 		["maps"] = { 1010 },	-- The Motherlode
-		["lvl"] = 110,
 		["g"] = INSTANCE_GROUPS
 	}),
 })));
