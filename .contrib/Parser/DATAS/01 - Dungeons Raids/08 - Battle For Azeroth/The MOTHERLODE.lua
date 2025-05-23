@@ -129,7 +129,9 @@ if CombineSeasonalLoot then
 			BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
 		}),
 		-- M6+ have Heroic Appearance (non-Season Heroic) -> Upgrades to Mythic appearance
-		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroupsWithUpgrades({
+		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK, {
+			difficulties = { DIFFICULTY.DUNGEON.HEROIC, DIFFICULTY.DUNGEON.MYTHIC, DIFFICULTY.DUNGEON.KEYSTONE },
+		}).AddGroupsWithUpgrades({
 			-- Hero Tracks
 			Boss(PUMMELER),
 			Boss(AZEROKK),
