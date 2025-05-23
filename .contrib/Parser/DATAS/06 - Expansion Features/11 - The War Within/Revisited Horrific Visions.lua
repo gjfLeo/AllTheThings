@@ -414,176 +414,178 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				n(238544, {	-- Chreni "HEROIC/Hero Quality Vendor"
 					["sourceAchievement"] = 41874,	-- Symphony of Masks
 					["coord"] = { 33.8, 68.6, DORNOGAL },
-					["g"] = {
-						i(242623, {	-- Enchanted Warbound Purifying Kit
-							["questID"] = 90710,
-							["cost"] = {{"c", 3149, 2000 }},	-- 2000x Displaced Corrupted Mementos
-						}),
-					},
-					["g"] = bubbleDown({["modID"] = 84}, {
-						i(236892, {	-- Void-Touched Battle Staff
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236896, {	-- Void-Touched Blade
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236884, {	-- Void-Touched Bludgeon
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236894, {	-- Void-Touched Bow
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236901, {	-- Void-Touched Broadsword
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236900, {	-- Void-Touched Claws
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236898, {	-- Void-Touched Cleaver
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236903, {	-- Void-Touched Glaive
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236885, {	-- Void-Touched Gladius
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236902, {	-- Void-Touched Greatsword
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236897, {	-- Void-Touched Hacker
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236904, {	-- Void-Touched Lantern
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236888, {	-- Void-Touched Occular
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236891, {	-- Void-Touched Polearm
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236883, {	-- Void-Touched Pummeler
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236882, {	-- Void-Touched Ritual Knife
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236887, {	-- Void-Touched Sharpshooter
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236905, {	-- Void-Touched Shield
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236881, {	-- Void-Touched Shank
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236895, {	-- Void-Touched Spellblade
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236890, {	-- Void-Touched Spear
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236886, {	-- Void-Touched Sword
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236893, {	-- Void-Touched Stave
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236899, {	-- Void-Touched Wand
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236889, {	-- Void-Touched Waraxe
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-					}),
+					["g"] = appendAllGroups(
+						{
+							i(242623, {	-- Enchanted Warbound Purifying Kit
+								["questID"] = 90710,
+								["cost"] = {{"c", 3149, 2000 }},	-- 2000x Displaced Corrupted Mementos
+							}),
+						},
+						bubbleDown({["modID"] = 84}, {
+							i(236892, {	-- Void-Touched Battle Staff
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236896, {	-- Void-Touched Blade
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236884, {	-- Void-Touched Bludgeon
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236894, {	-- Void-Touched Bow
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236901, {	-- Void-Touched Broadsword
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236900, {	-- Void-Touched Claws
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236898, {	-- Void-Touched Cleaver
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236903, {	-- Void-Touched Glaive
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236885, {	-- Void-Touched Gladius
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236902, {	-- Void-Touched Greatsword
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236897, {	-- Void-Touched Hacker
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236904, {	-- Void-Touched Lantern
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236888, {	-- Void-Touched Occular
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236891, {	-- Void-Touched Polearm
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236883, {	-- Void-Touched Pummeler
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236882, {	-- Void-Touched Ritual Knife
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236887, {	-- Void-Touched Sharpshooter
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236905, {	-- Void-Touched Shield
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236881, {	-- Void-Touched Shank
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236895, {	-- Void-Touched Spellblade
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236890, {	-- Void-Touched Spear
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236886, {	-- Void-Touched Sword
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236893, {	-- Void-Touched Stave
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236899, {	-- Void-Touched Wand
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236889, {	-- Void-Touched Waraxe
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+						})),
 				}),
 				n(238546, {	-- Rhythferr "NORMAL/Champion Quality Vendor"
 					["sourceAchievement"] = 41857,	-- Masked Soliloquy
 					["coord"] = { 34.1, 68.5, DORNOGAL },
-					["g"] = {
-						i(242622, {	-- Warbound Purifying Kit
-							["questID"] = 90709,
-							["cost"] = {{"c", 3149, 1000 }},	-- 1000x Displaced Corrupted Mementos
-						}),
-					},
-					["g"] = bubbleDown({["modID"] = 82}, {
-						i(236892, {	-- Void-Touched Battle Staff
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236896, {	-- Void-Touched Blade
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236884, {	-- Void-Touched Bludgeon
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236894, {	-- Void-Touched Bow
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236901, {	-- Void-Touched Broadsword
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236900, {	-- Void-Touched Claws
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236898, {	-- Void-Touched Cleaver
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236903, {	-- Void-Touched Glaive
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236885, {	-- Void-Touched Gladius
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236902, {	-- Void-Touched Greatsword
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236897, {	-- Void-Touched Hacker
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236904, {	-- Void-Touched Lantern
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236888, {	-- Void-Touched Occular
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236891, {	-- Void-Touched Polearm
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236883, {	-- Void-Touched Pummeler
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236882, {	-- Void-Touched Ritual Knife
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236887, {	-- Void-Touched Sharpshooter
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236905, {	-- Void-Touched Shield
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236881, {	-- Void-Touched Shank
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236895, {	-- Void-Touched Spellblade
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236890, {	-- Void-Touched Spear
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236886, {	-- Void-Touched Sword
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236893, {	-- Void-Touched Stave
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236899, {	-- Void-Touched Wand
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-						i(236889, {	-- Void-Touched Waraxe
-							["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
-						}),
-					}),
+					["g"] = appendAllGroups(
+						{
+							i(242622, {	-- Warbound Purifying Kit
+								["questID"] = 90709,
+								["cost"] = {{"c", 3149, 1000 }},	-- 1000x Displaced Corrupted Mementos
+							}),
+						},
+						bubbleDown({["modID"] = 82}, {
+							i(236892, {	-- Void-Touched Battle Staff
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236896, {	-- Void-Touched Blade
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236884, {	-- Void-Touched Bludgeon
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236894, {	-- Void-Touched Bow
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236901, {	-- Void-Touched Broadsword
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236900, {	-- Void-Touched Claws
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236898, {	-- Void-Touched Cleaver
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236903, {	-- Void-Touched Glaive
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236885, {	-- Void-Touched Gladius
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236902, {	-- Void-Touched Greatsword
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236897, {	-- Void-Touched Hacker
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236904, {	-- Void-Touched Lantern
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236888, {	-- Void-Touched Occular
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236891, {	-- Void-Touched Polearm
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236883, {	-- Void-Touched Pummeler
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236882, {	-- Void-Touched Ritual Knife
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236887, {	-- Void-Touched Sharpshooter
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236905, {	-- Void-Touched Shield
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236881, {	-- Void-Touched Shank
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236895, {	-- Void-Touched Spellblade
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236890, {	-- Void-Touched Spear
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236886, {	-- Void-Touched Sword
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236893, {	-- Void-Touched Stave
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236899, {	-- Void-Touched Wand
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+							i(236889, {	-- Void-Touched Waraxe
+								["cost"] = {{"c", 3149, 500}},	-- 500x Displaced Corrupted Mementos
+							}),
+						})),
 				}),
 				n(238545, {	-- TickTak "LFR/Veteran Quality Vendor"
 					["coord"] = { 33.9, 68.8, DORNOGAL },
