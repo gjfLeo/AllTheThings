@@ -9,7 +9,7 @@ local rawget, select, tostring, ipairs, pairs, tinsert, tonumber
 local SearchForField, SearchForFieldContainer
 	= app.SearchForField, app.SearchForFieldContainer;
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
-local IsQuestFlaggedCompleted = app.IsQuestFlaggedCompleted;
+local IsQuestFlaggedCompleted;
 local ResolveSymbolicLink;
 
 -- WoW API Cache
@@ -22,6 +22,7 @@ local GetSpellIcon = app.WOWAPI.GetSpellIcon;
 -- Locals from future-loaded Modules
 app.AddEventHandler("OnLoad", function()
 	ResolveSymbolicLink = app.ResolveSymbolicLink
+	IsQuestFlaggedCompleted = app.IsQuestFlaggedCompleted
 end)
 
 local SetAchievementCollected = function(t, achievementID, collected)
@@ -1205,8 +1206,14 @@ else
 				app.IgnoredReputationsForAchievements = ignored;
 			end
 			for factionID,g in pairs(SearchForFieldContainer("factionID")) do
-				if not ignored[factionID] and #g > 0 and g[1].standing == 8 then
-					count = count + 1;
+				if not ignored[factionID] then
+					for j=1,#g,1 do
+						local o = g[j];
+						if o.key == "factionID" and o.standing == 8 then
+							count = count + 1;
+							break;
+						end
+					end
 				end
 			end
 			if t.rank > 1 then
