@@ -15,8 +15,9 @@ local RE_HORRIFIC_STORMWIND = 2404;	-- Vision of Stormwind
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
 	n(HORRIFIC_VISIONS_REVISITED, {
 		["maps"] = {
-			RE_HORRIFIC_ORGRIMMAR,
-			RE_HORRIFIC_STORMWIND,
+			-- RE_HORRIFIC_ORGRIMMAR,
+			-- RE_HORRIFIC_STORMWIND,
+			DORNOGAL,
 		},
 		["g"] = {
 			n(ACHIEVEMENTS, {
@@ -74,7 +75,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["provider"] = { "n", 238129 },	-- Researcher Onermu
 					["coord"] = { 42.4, 28.3, DORNOGAL },
 					["description"] = "May need to be acquired from the Adventure Journal if not automatically given on login",
-					["isBreadcrumb"] = true,	-- TODO: next quest was up without this one
+					["isBreadcrumb"] = true,
 				}),
 				q(87328, {	-- Truly Horrific to Behold
 					["sourceQuests"] = { 86706 },	-- Seeking Knowledge of the Past
@@ -992,7 +993,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["g"] = { i(174926) },	-- Overly Sensitive Void Spectacles (TOY!)
 						}),
 						n(241698, {	-- Hogger
-							["description"] = "Interact with his WANTED poster just to the right of the entrance to the Mage Quarter area",
+							["description"] = "Interact with his WANTED poster just to the right of the entrance to the Mage Quarter area\n\nRequires an active Mask",
 							--["coord"] = { X, Y, RE_HORRIFIC_STORMWIND },
 							["g"] = {
 								i(239157),	-- Nemesis Shard (HOGGER)
@@ -1002,18 +1003,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							--["coord"] = { X, Y, RE_HORRIFIC_STORMWIND },
 							["g"] = {
 								i(238260, {	-- Faceless Mask of Vengeance (QI!/QS!)
-									["description"] = "Need at least one mask active",
+									["description"] = "Requires an active Mask",
 								}),
 							},
 						}),
 						n(242639, {	-- Voidfire Deathcycle Frame
-							["description"] = "Must be tagged to start progress towards unlocking the mount, will only be visible with at least one mask active.",
+							["description"] = "Must be tagged to start progress towards unlocking the mount\n\nRequires an active Mask",
 							["coord"] = { 62.5, 32.0, RE_HORRIFIC_STORMWIND },
 							["cr"] = 242570,	-- Haymar the Devout
 							["questID"] = 90129,
 						}),
 						n(238079, {	-- Void-Forged Stallion
-							["description"] = "Interact with Cursed Horseshoes around Stormwind's districts to gain a stacking buff, visit the blacksmithing area in the Dwarven District to summon the rare when you have 4 stacks.\n\nHorseshoes are only visible with at least one mask active.",
+							["description"] = "Interact with Cursed Horseshoes around Stormwind's districts to gain a stacking buff, visit the blacksmithing area in the Dwarven District to summon the rare when you have 4 stacks.\n\nRequires an active Mask",
 							["providers"] = {
 								{ "o", 517344 },	-- Cursed Horseshoe (Cathedral)
 								{ "o", 517350 },	-- Cursed Horseshoe (Old Town)
@@ -1047,9 +1048,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						}),
 					}),
 					n(TREASURES, {
-						i(240191, {	-- Magic-Lined Manifold TODO - Almost certainly has an object container
+						o(529673, {	-- Unclaimed Auction House Crate
 							["questID"] = 90525,
 							["coord"] = { 61.5, 72.7, RE_HORRIFIC_STORMWIND },
+							["g"] = {
+								i(240191),	-- Magic-Lined Manifold
+							},
 						}),
 						i(174928, {	-- Rotten Apple (TOY!)
 							["description"] = "Repeatedly click the bouncing apples at the coordinates provided.  Supposedly, clicking them 100 times will guarantee that the toy is in your final chest, but any click should give you a chance if you're running short on time.",
