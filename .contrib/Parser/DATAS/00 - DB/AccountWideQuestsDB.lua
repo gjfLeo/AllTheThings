@@ -1887,5 +1887,6 @@ ExportDB.AccountWideQuestsDB = {
 	[90598] = true,	-- Arsenal: Children's Orgrimmar Guard Weapon Set
 	[90719] = true,	-- Borrowing Corruption
 	[90731] = true,	-- Enhancing Corruption
+	[91038] = true,	-- Hellhunters Wanted
 	-- #ENDIF
 }
