@@ -372,7 +372,6 @@ root(ROOTS.Unsorted, {
 				-- Trinkets?
 				i(236914),	-- Unbound Vision Journal
 				i(236915),	-- Book of Dark Visions
-				i(236916),	-- Void-Whittled Spike
 				i(236917),	-- Dark Dreamer's Talisman
 				i(236918),	-- Pulsating Void Disk
 				i(236919),	-- Void Spike

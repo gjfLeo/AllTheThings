@@ -1176,6 +1176,7 @@ MobileDB.GameObject = {
 	[474822] = true,	-- Runed Storm Cache (Treasure)
 	[475252] = true,	-- Survey Device (q:84252)
 	[475290] = true,	-- Survey Device (q:84252)
+	[475292] = true,	-- Survey Device (q:84252)
 	[475990] = true,	-- Junk Pile
 	[478435] = true,	-- Waiting Garbage Can (q:85514)
 	[478436] = true,	-- Waiting Garbage Can (q:85514)

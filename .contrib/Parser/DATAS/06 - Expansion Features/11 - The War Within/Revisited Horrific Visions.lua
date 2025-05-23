@@ -214,8 +214,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["description"] = "Chance to drop from any Horrific Vision reward chest if at least one mask is active.",
 				}),
 				filter(MISC, {
-					i(232921),	-- Faceless Mask of the Long Night (QI!/QS!)
-					i(235414),	-- Faceless Mask of Multitudes (QS!/QI!) (TODO: require to complete run with 4 masks?)
+					i(232921, {	-- Faceless Mask of the Long Night (QI!/QS!)
+						["description"] = "Granted by completing all five districts within a single visit.",
+					}),
+					i(235414, {	-- Faceless Mask of Multitudes (QS!/QI!)
+						["description"] = "Granted by completing all five districts and killing every last NPC, with at least one mask active.",
+					}),
 				}),
 				n(ARMOR, {
 					filter(BACK_F, {
@@ -309,6 +313,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						i(236804),	-- Malignant Vision's Wargreaves
 					}),
 					filter(TRINKET_F, {
+						i(236916),	-- Void-Whittled Spike
 					}),
 				}),
 			}),
@@ -349,7 +354,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						i(240185, {	-- Pulsing Void Crystal
-							["questID"] = 90135,
 							["cost"] = {
 								{ "i", 221955, 1 },	-- 1x Convincingly Realistic Jumper Cables
 								{ "i", 240186, 1 },	-- 1x Depleted Void Crystal
@@ -357,7 +361,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							},
 						}),
 						i(240182, {	-- Skull-Scythe Handlebars
-							["questID"] = 90132,
 							["cost"] = {
 								{ "i", 221945, 1 },	-- 1x Irresistible Red Button
 								{ "i", 221925, 1 },	-- 1x Recalibrated Safety Switch
@@ -379,15 +382,41 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 								{ "i", 240178, 1 },	-- 1x Voidflame-Resistant Hide
 							},
 						}),
+						---
+						--hqt(???, {	-- Add the Boarhide Deathcycle Seat to the Voidfire Deathcycle Frame
+							--["name"] = "Add the Boarhide Deathcycle Seat to the Voidfire Deathcycle Frame",
+							--["provider"] = { "n", 242545 },	-- Voidfire Deathcycle Frame
+							--["cost"] = {{ "i", 240181, 1 }},	-- 1x Boarhide Deathcycle Seat
+						--}),
+						hqt(90523, {	-- Add the Deathcycle Exhaust System to the Voidfire Deathcycle Frame
+							["name"] = "Add the Deathcycle Exhaust System to the Voidfire Deathcycle Frame",
+							["cost"] = {{ "i", 240190, 1 }},	-- 1x Deathcycle Exhaust System
+						}),
+						hqt(90135, {	-- Add the Pulsing Void Crystal to the Voidfire Deathcycle Frame
+							["name"] = "Add the Pulsing Void Crystal to the Voidfire Deathcycle Frame",
+							["cost"] = {{ "i", 240185, 1 }},	-- 1x Pulsing Void Crystal
+						}),
+						hqt(90132, {	-- Add the Skull-Scythe Handlebars to the Voidfire Deathcycle Frame
+							["name"] = "Add the Skull-Scythe Handlebars to the Voidfire Deathcycle Frame",
+							["cost"] = {{ "i", 240182, 1 }},	-- 1x Skull-Scythe Handlebars
+						}),
+						--hqt(???, {	-- Add the Void-Forged Inline Four Engine to the Voidfire Deathcycle Frame
+							--["name"] = "Add the Void-Forged Inline Four Engine to the Voidfire Deathcycle Frame",
+							--["cost"] = {{ "i", 240188, 1 }},	-- 1x Void-Forged Inline Four Engine
+						--}),
+						--hqt(???, {	-- Add both Voidflame Wheels to the Voidfire Deathcycle Frame
+							--["name"] = "Add both Voidflame Wheels to the Voidfire Deathcycle Frame",
+							--["cost"] = {{ "i", 240179, 2 }},	-- 2x Voidflame Wheel
+						--}),
 						i(211089, {	-- Voidfire Deathcycle
-							["provider"] = { "n", 242544 }, -- or maybe 242545
-							["cost"] = {
-								{ "i", 240181, 1 },	-- 1x Boarhide Deathcycle Seat
-								{ "i", 240190, 1 },	-- 1x Deathcycle Exhaust System
-								{ "i", 240185, 1 },	-- 1x Pulsing Void Crystal
-								{ "i", 240182, 1 },	-- 1x Skull-Scythe Handlebars
-								{ "i", 240188, 1 },	-- 1x Void-Forged Inline Four Engine
-								{ "i", 240179, 2 },	-- 2x Voidflame Wheel
+							["provider"] = { "n", 242545 },
+							["sourceQuests"] = {
+								--??,	-- Boarhide Deathcycle Seat
+								90523,	-- Deathcycle Exhaust System
+								90135,	-- Pulsing Void Crystal
+								90132,	-- Skull-Scythe Handlebars
+								--?,	-- Void-Forged Inline Four Engine
+								--?,	-- Voidflame Wheels
 							},
 						}),
 					},
@@ -956,7 +985,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["g"] = {
 								i(242648),	-- Black Blood Coagulate
 								i(240186),	-- Depleted Void Crystal
-								i(232919),	-- Faceless Mask of Dark Imagination (QI!/QS!)
+								i(232919, {	-- Faceless Mask of Dark Imagination (QI!/QS!)
+									["description"] = "Granted by completing Mage Quarter, with at least one mask active.",
+								}),
 								i(174458),	-- Void-Scarred Hare (PET!)
 							},
 						}),
@@ -966,7 +997,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["g"] = {
 								i(242648),	-- Black Blood Coagulate
 								i(235794),	-- Eye of Chaos (PET!)
-								i(232920),	-- Faceless Mask of the Pained (QI!/QS!)
+								i(232920, {	-- Faceless Mask of the Pained (QI!/QS!)
+									["description"] = "Granted by completing Old Town, with at least one mask active.",
+								}),
 								i(240183),	-- Twisted Skull-Scythe Handlebars
 								i(239105, {	-- Unusual Gems
 									["description"] = "Can only drop if you have at least 1 mask active.",
@@ -994,13 +1027,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						}),
 						n(241698, {	-- Hogger
 							["description"] = "Interact with his WANTED poster just to the right of the entrance to the Mage Quarter area\n\nRequires an active Mask",
-							--["coord"] = { X, Y, RE_HORRIFIC_STORMWIND },
-							["g"] = {
-								i(239157),	-- Nemesis Shard (HOGGER)
-							},
+							["coord"] = { 55.8, 75.2, RE_HORRIFIC_STORMWIND },
+							["g"] = { i(239157) },	-- Nemesis Shard (HOGGER)
 						}),
 						n(241718, {	-- Vengeful Voidspeaker
-							--["coord"] = { X, Y, RE_HORRIFIC_STORMWIND },
+							["coord"] = { 71.0, 70.0, RE_HORRIFIC_STORMWIND },
 							["g"] = {
 								i(238260, {	-- Faceless Mask of Vengeance (QI!/QS!)
 									["description"] = "Requires an active Mask",
@@ -1032,13 +1063,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						}),
 						header(HEADERS.Item, 235700, {	-- Reins of the Void-Scarred Gryphon
 							n(237918, {	-- Claw Marked Bowl
-								["description"] = "Interact with the nearby Ripped Note to read the clue then place the desired item into the bowl to spawn the rare.\n...fish: Fresh Fillet\n...fungus: Chopped Mycobloom\n...meat that has been spiced: Spiced Meat Stock\n...steak: Portioned Steak\n\nThe note and bowl are only visible with at least two masks active.",
+								["description"] = "Interact with the nearby Ripped Notes (top of ramp, right of inquisitor) to read the clues then place the desired item into the bowl to spawn the rare.\n...fish: Fresh Fillet (Raw) / Skewered Fillet (Cooked)\n...fungus: Chopped Mycobloom (Raw) / Roasted Mycobloom (Cooked)\n...meat that has been spiced: Spiced Meat Stock (Raw) / Simple Stew (Cooked)\n...steak: Portioned Steak (Raw) / Unseasoned Field Steak (Cooked)\n\nThe notes and bowl are only visible with at least two masks active.",
 								["coord"] = { 66.0, 70.8, RE_HORRIFIC_STORMWIND },
 								["cost"] = {
 									{ "i",  222737, 1 },	-- 1x Chopped Mycobloom
 									{ "i",  222741, 1 },	-- 1x Fresh Fillet
 									{ "i",  222738, 1 },	-- 1x Portioned Steak
+									{ "i",  222705, 1 },	-- 1x Roasted Mycobloom
+									{ "i",  222703, 1 },	-- 1x Simple Stew
+									{ "i",  222702, 1 },	-- 1x Skewered Fillet
 									{ "i",  222739, 1 },	-- 1x Spiced Meat Stock
+									{ "i",  222704, 1 },	-- 1x Unseasoned Field Steak
 								},
 							}),
 							n(237991, {	-- Void-Scarred Gryphon
