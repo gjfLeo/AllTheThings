@@ -89,18 +89,19 @@ local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot, Zon
 local Boss, BossOnly, Difficulty, ZoneDrops =
 InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty, InstanceHelper.ZoneDrops
 
-InstanceHelper.UpgradeMapping = setmetatable({}, { __index = function() return 0 end})
+InstanceHelper.UpgradeMapping = setmetatable({
+	-- Heroic acts as the HERO track upgrade appearances
+	[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK] = DifficultyDB[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_MYTHTRACK].modID,
+}, { __index = function(t, diffID) print("WARN: Missing UpgradeMapping for ",diffID) return 0 end})
 
 local CombineSeasonalLoot
 
 for e,loot in pairs(AzewrongLoot) do
-	sharedData({timeline = {ADDED_11_1_0_SEASONSTART}},loot)
+	sharedData({timeline = {ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART}},loot)
 end
 -- TODO: revise in TWW S3 for what happens to this dungeon!
 -- #IF AFTER 11.1
 -- #IF BEFORE 11.2
--- Heroic acts as the HERO track upgrade appearances
-InstanceHelper.UpgradeMapping[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK] = DifficultyDB[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_MYTHTRACK].modID
 -- Normal/Heroic/Mythic all shared
 CombineSeasonalLoot = true
 -- During the season, Azewrong gear is available regardless of HOA status for the character
@@ -128,17 +129,15 @@ if CombineSeasonalLoot then
 			BossOnly(MOGUL, clone(AzewrongLoot[MOGUL])),
 		}),
 		-- M6+ have Heroic Appearance (non-Season Heroic) -> Upgrades to Mythic appearance
-		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroupsWithUpgrades(
-		bubbleDown({timeline = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroupsWithUpgrades({
 			-- Hero Tracks
 			Boss(PUMMELER),
 			Boss(AZEROKK),
 			Boss(RIXXA),
 			Boss(MOGUL, clone(AzewrongLoot[MOGUL])),
-		})),
+		}),
 		-- Myth Track Appearances (non-Season Mythic)
-		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroups(
-		bubbleDown({timeline = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+		Difficulty(DIFFICULTY.DUNGEON.SEASONAL.TWWS2_HEROTRACK).AddGroups({
 			n(UPGRADE, bubbleDownFiltered({
 				modID = DifficultyDB[DIFFICULTY.DUNGEON.SEASONAL.TWWS2_MYTHTRACK].modID
 			},FILTERFUNC_itemID,{
@@ -147,7 +146,7 @@ if CombineSeasonalLoot then
 				Boss(RIXXA),
 				Boss(MOGUL, clone(AzewrongLoot[MOGUL])),
 			})),
-		})),
+		}),
 	}
 else
 	SeasonDifficultyGroups = {
@@ -302,13 +301,14 @@ local INSTANCE_GROUPS = {
 
 appendAllGroups(INSTANCE_GROUPS, SeasonDifficultyGroups)
 
-root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
+root(ROOTS.Instances, expansion(EXPANSION.BFA, {
 	inst(1012, {	-- The MOTHERLODE!!
 		["coords"] = {
 			{ 39.2, 71.5, ZULDAZAR },	-- Alliance
 			{ 44.3, 92.6, DAZARALOR },	-- Horde
 		},
 		["maps"] = { 1010 },	-- The Motherlode
+		["timeline"] = { ADDED_8_0_1_LAUNCH },
 		["g"] = INSTANCE_GROUPS
 	}),
-})));
+}))
