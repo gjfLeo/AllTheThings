@@ -150,19 +150,6 @@ local ZoneDropLoot = {
 	i(168798),	-- Trajectory Analysis
 };
 
-local HEROIC_MODS = {}
-local MYTHIC_MODS = {}
--- #IF AFTER 11.1.0
--- #IF BEFORE 11.2.0
--- Blizzard changed the default modID from difficulty to all return the Normal appearance since they made the
--- BFA Dungeon items in TWW:S2 all change appearance based on their upgrade track
--- So we need the proper modIDs to represent the original SourceID's from those difficulties
-HEROIC_MODS.modID = 35
-HEROIC_MODS.sharedDescription = "Obtained from M+ 6+ Loot, or Upgraded M+ 0-5 Loot"
-MYTHIC_MODS.modID = 162
-MYTHIC_MODS.sharedDescription = "Obtained from M+ Great Vault @ Myth track, or Upgraded M+ 6+ Loot"
--- #ENDIF
--- #ENDIF
 MECHAGON_JUNKYARD = createHeader({
 	readable = "Junkyard",
 	icon = 321487,
@@ -178,7 +165,6 @@ MECHAGON_JUNKYARD = createHeader({
 		cn = "垃圾场",
 	},
 });
-local TIMELINE_UNAVAILABLE_TWWS2 = {ADDED_8_2_0,REMOVED_11_1_0_SEASONSTART,ADDED_11_2_0_SEASONSTART}
 MECHAGON_WORKSHOP = createHeader({
 	readable = "Workshop",
 	icon = 134240,
@@ -186,6 +172,8 @@ MECHAGON_WORKSHOP = createHeader({
 		en = WOWAPI_GetSpellName(251998),
 	},
 });
+
+local TIMELINE_UNAVAILABLE_TWWS2 = {ADDED_8_2_0,REMOVED_11_1_0_SEASONSTART,ADDED_11_2_0_SEASONSTART}
 
 ------ Boss Functions ------
 local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot, ZoneDropLoot)
@@ -360,6 +348,9 @@ appendAllGroups(SeasonDifficultyGroups, {
 		-- Junkyard was removed entirely during 11.1
 		n(MECHAGON_JUNKYARD, {
 			timeline = TIMELINE_UNAVAILABLE_TWWS2,
+			ItemAppearanceModifierID = 3,
+			-- during the Season, Blizz changed the Item/Appearance association such that Mythic Mod is no longer accurate to the previous Mythic Appearance
+			modID = 14,
 			g = {
 				Boss(GOBBAMAK, {
 				}),
