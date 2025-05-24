@@ -6,7 +6,7 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/ItemEffect
     /// </summary>
     [DataModule]
-    internal class ItemEffect : IDBType
+    public class ItemEffect : IDBType
     {
         public long ID { get; set; }
         public int TriggerType { get; set; }

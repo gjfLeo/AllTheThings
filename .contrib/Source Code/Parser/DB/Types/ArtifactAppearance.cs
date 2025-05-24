@@ -6,7 +6,7 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/ArtifactAppearance
     /// </summary>
     [DataModule]
-    internal class ArtifactAppearance : IDBType
+    public class ArtifactAppearance : IDBType
     {
         public long ID { get; set; }
         [Localize]

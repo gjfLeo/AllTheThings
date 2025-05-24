@@ -6,7 +6,7 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/GlyphProperties
     /// </summary>
     [DataModule]
-    internal class GlyphProperties : IDBType
+    public class GlyphProperties : IDBType
     {
         public long ID { get; set; }
         public long SpellID { get; set; }

@@ -7,7 +7,7 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/CriteriaTree
     /// </summary>
     [DataModule]
-    internal class CriteriaTree : IDBType
+    public class CriteriaTree : IDBType, IWagoDBChildType
     {
         public long ID { get; set; }
         [Localize]

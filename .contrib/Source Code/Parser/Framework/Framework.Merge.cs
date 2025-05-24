@@ -910,8 +910,6 @@ namespace ATT
 
             // Parse the database file and merge the data elements within
             IDictionary<long, IDBType> parsedWagoData = WagoTypes.ParseCsvType(type, File.ReadAllText(path));
-
-
             if (TypeDB.TryGetValue(type, out var existingTypeDB))
             {
                 // A data module already exists for this type, this must be included for localization or something...

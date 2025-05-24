@@ -6,7 +6,7 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/ItemXItemEffect
     /// </summary>
     [DataModule]
-    internal class ItemXItemEffect : IDBType
+    public class ItemXItemEffect : IDBType, IWagoDBItemExtension
     {
         public long ID { get; set; }
         public long ItemEffectID { get; set; }

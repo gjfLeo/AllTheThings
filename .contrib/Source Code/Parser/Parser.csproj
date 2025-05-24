@@ -78,6 +78,10 @@
     <Compile Include="CollectedStatus.cs" />
     <Compile Include="CustomConfiguration.cs" />
     <Compile Include="DataValidator.cs" />
+    <Compile Include="DB\Attributes\DataModuleAttribute.cs" />
+    <Compile Include="DB\Interfaces\IWagoDBItemExtension.cs" />
+    <Compile Include="DB\Interfaces\IWagoDBChildType.cs" />
+    <Compile Include="DB\Attributes\LocalizeAttribute.cs" />
     <Compile Include="DB\Types\ArtifactAppearance.cs" />
     <Compile Include="DB\Types\ItemBonus.cs" />
     <Compile Include="DB\Types\WorldMapOverlay.cs" />
@@ -131,7 +135,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tracer.cs" />
-    <Compile Include="DB\IDBType.cs" />
+    <Compile Include="DB\Interfaces\IDBType.cs" />
     <Compile Include="DB\Types\Achievement.cs" />
     <Compile Include="DB\Types\Criteria.cs" />
     <Compile Include="DB\Types\CriteriaTree.cs" />

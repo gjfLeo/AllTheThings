@@ -9,9 +9,10 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/ItemSearchName
     /// </summary>
     [DataModule]
-    internal class ItemSearchName : IDBType
+    public class ItemSearchName : IDBType, IWagoDBItemExtension
     {
         public long ID { get; set; }
+        public long ItemID { get {  return ID; } }
         public long AllowableRace { get; set; }
         [Localize]
         public string Display_lang { get; set; }

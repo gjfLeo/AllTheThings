@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ATT.DB.Types
 {
-    internal class TypeCollection<T> : IDBType
+    public class TypeCollection<T> : IDBType
         where T : IDBType
     {
         public long ID { get; set; }
