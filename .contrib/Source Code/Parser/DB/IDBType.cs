@@ -2,7 +2,7 @@
 
 namespace ATT.DB
 {
-    internal interface IDBType
+    public interface IDBType
     {
         long ID { get; }
 

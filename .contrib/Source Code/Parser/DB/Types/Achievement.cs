@@ -27,7 +27,9 @@ namespace ATT.DB.Types
         public long Shares_criteria { get; set; }
         public long CovenantID { get; set; }
 
+#pragma warning disable IDE1006 // Naming Styles
         private TypeFlags _flags => (TypeFlags)Flags;
+#pragma warning restore IDE1006 // Naming Styles
 
         public IDictionary<string, object> AsData()
         {

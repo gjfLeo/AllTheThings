@@ -134,7 +134,7 @@ namespace ATT.DB.Types
             return data;
         }
 
-        private static Dictionary<long, ClassTypeFlags> CLASS_TYPE_FLAGS = new Dictionary<long, ClassTypeFlags>
+        private static readonly Dictionary<long, ClassTypeFlags> CLASS_TYPE_FLAGS = new Dictionary<long, ClassTypeFlags>
         {
             { 1, ClassTypeFlags.WARRIOR },
             { 2, ClassTypeFlags.PALADIN },
@@ -151,7 +151,7 @@ namespace ATT.DB.Types
             { 13, ClassTypeFlags.EVOKER },
         };
 
-        private static Dictionary<long, RaceTypeFlags> RACE_TYPE_FLAGS = new Dictionary<long, RaceTypeFlags>
+        private static readonly Dictionary<long, RaceTypeFlags> RACE_TYPE_FLAGS = new Dictionary<long, RaceTypeFlags>
         {
             { 1, RaceTypeFlags.HUMAN },
             { 2, RaceTypeFlags.ORC },

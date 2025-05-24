@@ -366,8 +366,7 @@ namespace ATT
             //int dataPhase = LAST_EXPANSION_PATCH[CURRENT_RELEASE_PHASE_NAME][0];
             for (int i = unsorted.Count - 1; i >= 0; --i)
             {
-                var o = unsorted[i] as IDictionary<string, object>;
-                if (o == null) continue;
+                if (!(unsorted[i] is IDictionary<string, object> o)) continue;
                 if (o.TryGetValue("g", out List<object> list) && list.Count == 0)
                 {
                     unsorted.RemoveAt(i);
@@ -380,8 +379,7 @@ namespace ATT
             }
             if (unsorted.Count == 1)
             {
-                var o = unsorted[0] as IDictionary<string, object>;
-                if (o != null && o.TryGetValue("g", out List<object> list))
+                if (unsorted[0] is IDictionary<string, object> o && o.TryGetValue("g", out List<object> list))
                 {
                     Objects.AllContainers["Unsorted"] = list;
                 }

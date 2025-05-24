@@ -1758,7 +1758,7 @@ namespace ATT
 
             // Clone this and calculate most significant.
             bool hasG = false;
-            VALUE g = default(VALUE);    // Look for the G Field.
+            VALUE g = default;    // Look for the G Field.
             var data2 = new Dictionary<object, object>();
             var keys = data.Keys.ToList();
             for (int i = 0, count = keys.Count; i < count; ++i)
@@ -2273,10 +2273,9 @@ namespace ATT
 
                                 // Attempt to get the text locale data object.
                                 flightPathData.TryGetValue("text", out object textLocaleObject);
-                                Dictionary<string, object> textLocales = textLocaleObject as Dictionary<string, object>;
 
                                 // Export the complex "text" locales field.
-                                if (textLocales != null)
+                                if (textLocaleObject is Dictionary<string, object> textLocales)
                                 {
                                     // Sort and then ensure es comes after en, to match previous convention.
                                     var supportedLocales = textLocales.Keys.ToList();
