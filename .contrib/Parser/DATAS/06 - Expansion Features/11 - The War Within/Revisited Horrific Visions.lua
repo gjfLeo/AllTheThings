@@ -213,14 +213,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 				i(239106, {	-- Shadow Infused Onyx
 					["description"] = "Chance to drop from any Horrific Vision reward chest if at least one mask is active.",
 				}),
-				filter(MISC, {
-					i(232921, {	-- Faceless Mask of the Long Night (QI!/QS!)
-						["description"] = "Granted by completing all five districts within a single visit.",
-					}),
-					i(235414, {	-- Faceless Mask of Multitudes (QS!/QI!)
-						["description"] = "Granted by completing all five districts and killing every last NPC, with at least one mask active.",
-					}),
-				}),
 				n(ARMOR, {
 					filter(BACK_F, {
 						i(236970),	-- Cloak of Insatiable Vision (leathers class only?)
@@ -390,26 +382,31 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						--}),
 						hqt(90523, {	-- Add the Deathcycle Exhaust System to the Voidfire Deathcycle Frame
 							["name"] = "Add the Deathcycle Exhaust System to the Voidfire Deathcycle Frame",
+							["provider"] = { "n", 242545 },	-- Voidfire Deathcycle Frame
 							["cost"] = {{ "i", 240190, 1 }},	-- 1x Deathcycle Exhaust System
 						}),
 						hqt(90135, {	-- Add the Pulsing Void Crystal to the Voidfire Deathcycle Frame
 							["name"] = "Add the Pulsing Void Crystal to the Voidfire Deathcycle Frame",
+							["provider"] = { "n", 242545 },	-- Voidfire Deathcycle Frame
 							["cost"] = {{ "i", 240185, 1 }},	-- 1x Pulsing Void Crystal
 						}),
 						hqt(90132, {	-- Add the Skull-Scythe Handlebars to the Voidfire Deathcycle Frame
 							["name"] = "Add the Skull-Scythe Handlebars to the Voidfire Deathcycle Frame",
+							["provider"] = { "n", 242545 },	-- Voidfire Deathcycle Frame
 							["cost"] = {{ "i", 240182, 1 }},	-- 1x Skull-Scythe Handlebars
 						}),
 						--hqt(???, {	-- Add the Void-Forged Inline Four Engine to the Voidfire Deathcycle Frame
 							--["name"] = "Add the Void-Forged Inline Four Engine to the Voidfire Deathcycle Frame",
+							--["provider"] = { "n", 242545 },	-- Voidfire Deathcycle Frame
 							--["cost"] = {{ "i", 240188, 1 }},	-- 1x Void-Forged Inline Four Engine
 						--}),
 						--hqt(???, {	-- Add both Voidflame Wheels to the Voidfire Deathcycle Frame
 							--["name"] = "Add both Voidflame Wheels to the Voidfire Deathcycle Frame",
+							--["provider"] = { "n", 242545 },	-- Voidfire Deathcycle Frame
 							--["cost"] = {{ "i", 240179, 2 }},	-- 2x Voidflame Wheel
 						--}),
 						i(211089, {	-- Voidfire Deathcycle
-							["provider"] = { "n", 242545 },
+							["provider"] = { "n", 242545 },	-- -- Voidfire Deathcycle Frame
 							["sourceQuests"] = {
 								--??,	-- Boarhide Deathcycle Seat
 								90523,	-- Deathcycle Exhaust System
@@ -1010,6 +1007,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 							["description"] = "Chest for completing the Cathedral Objective/Alleria.",
 							["coord"] = { 41.6, 34.4, RE_HORRIFIC_STORMWIND },
 							["g"] = {
+								i(232921, {	-- Faceless Mask of the Long Night (QI!/QS!)
+									["description"] = "Granted by completing all five districts within a single visit.",
+								}),
+								i(235414, {	-- Faceless Mask of Multitudes (QS!/QI!)
+									["description"] = "Granted by completing all five districts and killing every last NPC, with at least one mask active.",
+								}),
 								i(174459),	-- Void-Scarred Cat (PET!)
 							},
 						}),
@@ -1063,7 +1066,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 						}),
 						header(HEADERS.Item, 235700, {	-- Reins of the Void-Scarred Gryphon
 							n(237918, {	-- Claw Marked Bowl
-								["description"] = "Interact with the nearby Ripped Notes (top of ramp, right of inquisitor) to read the clues then place the desired item into the bowl to spawn the rare.\n...fish: Fresh Fillet (Raw) / Skewered Fillet (Cooked)\n...fungus: Chopped Mycobloom (Raw) / Roasted Mycobloom (Cooked)\n...meat that has been spiced: Spiced Meat Stock (Raw) / Simple Stew (Cooked)\n...steak: Portioned Steak (Raw) / Unseasoned Field Steak (Cooked)\n\nThe notes and bowl are only visible with at least two masks active.",
+								["description"] = "Interact with the nearby Ripped Notes (top of ramp, right of inquisitor) to read the clues then place the desired item into the bowl and rattle it to spawn the rare.\n...fish: Fresh Fillet (Raw) / Skewered Fillet (Cooked)\n...fungus: Chopped Mycobloom (Raw) / Roasted Mycobloom (Cooked)\n...meat that has been spiced: Spiced Meat Stock (Raw) / Simple Stew (Cooked)\n...steak: Portioned Steak (Raw) / Unseasoned Field Steak (Cooked)\n\nThe notes and bowl are only visible with at least two masks active.",
 								["coord"] = { 66.0, 70.8, RE_HORRIFIC_STORMWIND },
 								["cost"] = {
 									{ "i",  222737, 1 },	-- 1x Chopped Mycobloom
