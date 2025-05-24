@@ -112,6 +112,13 @@ end
 -- 5) That number goes into this table for the mapID
 local MapPrecisionOverrides = {
 	 [629] = 3,	-- Aegwynn's Gallery
+	 [831] = 4,	-- The Vindicaar, Krokuun Upper
+	 [832] = 4,	-- The Vindicaar, Krokuun Lower
+	 [883] = 4,	-- The Vindicaar, Eredath Upper
+	 [884] = 4,	-- The Vindicaar, Eredath Lower
+	 [886] = 4,	-- The Vindicaar, Antoran Wastes Upper
+	 [887] = 4,	-- The Vindicaar, Antoran Wastes Lower
+	 [940] = 4,	-- The Vindicaar
 	[1164] = 3,	-- Dazar'alor
 	[1176] = 3,	-- Breath Of Pa'ku
 	[1177] = 3,	-- Breath Of Pa'ku
