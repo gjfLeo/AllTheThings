@@ -5,9 +5,11 @@ namespace ATT.DB.Types
     /// <summary>
     /// https://wago.tools/db2/TaxiNodes
     /// </summary>
+    [DataModule]
     internal class TaxiNodes : IDBType
     {
         public long ID { get; set; }
+        [Localize]
         public string Name_lang { get; set; }
         public double Pos_0 { get; set; }
         public double Pos_1 { get; set; }

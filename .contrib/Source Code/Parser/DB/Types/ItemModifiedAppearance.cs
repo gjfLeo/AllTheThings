@@ -5,6 +5,7 @@ namespace ATT.DB.Types
     /// <summary>
     /// https://wago.tools/db2/ItemModifiedAppearance
     /// </summary>
+    [DataModule]
     internal class ItemModifiedAppearance : IDBType
     {
         public long ID { get; set; }

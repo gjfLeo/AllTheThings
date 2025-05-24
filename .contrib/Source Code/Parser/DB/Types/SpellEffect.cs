@@ -3,9 +3,10 @@
 namespace ATT.DB.Types
 {
     /// <summary>
-    /// https://wago.tools/db2/TransmogSetItem
+    /// https://wago.tools/db2/SpellEffect
     /// </summary>
     /// <remarks>Any new comparisons by Effect need to update the associated .contrib\.wago\SpellEffect.regex to include the expected Effect value</remarks>
+    [DataModule]
     internal class SpellEffect : IDBType
     {
         public long ID { get; set; }

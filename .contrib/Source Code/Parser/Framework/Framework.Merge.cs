@@ -911,47 +911,78 @@ namespace ATT
             // Parse the database file and merge the data elements within
             IDictionary<long, IDBType> parsedWagoData = WagoTypes.ParseCsvType(type, File.ReadAllText(path));
 
-            // CRIEVE NOTE: At some point I want to parse complex locale data and deprecate the AchievementDB as it is in Classic in favor of this data package
-            TypeDB[type] = parsedWagoData;
 
-            switch (type)
+            if (TypeDB.TryGetValue(type, out var existingTypeDB))
             {
-                case nameof(CriteriaTree):
-                    // CriteriaTree creates parent mapping one-time
-                    CollectObjectsByValue<CriteriaTree>(parsedWagoData, type, (se) => se.Parent);
-                    break;
-                case nameof(ItemModifiedAppearance):
-                    // ItemModifiedAppearance creates ItemID mapping one-time
-                    CollectObjectsByValue<ItemModifiedAppearance>(parsedWagoData, type, (se) => se.ItemID);
-                    break;
-                case nameof(ItemEffect):
-                    // ItemEffect creates SpellID mapping one-time
-                    CollectObjectsByValue<ItemEffect>(parsedWagoData, type, (se) => se.SpellID);
-                    break;
-                case nameof(ItemXItemEffect):
-                    // ItemXItemEffect creates ItemID mapping one-time
-                    CollectObjectsByValue<ItemXItemEffect>(parsedWagoData, type, (se) => se.ItemID);
-                    break;
-                case nameof(ModifierTree):
-                    // ModifierTree creates parent mapping one-time
-                    CollectObjectsByValue<ModifierTree>(parsedWagoData, type, (se) => se.Parent);
-                    break;
-                case nameof(SpellEffect):
-                    // SpellEffect creates SpellID mapping one-time
-                    CollectObjectsByValue<SpellEffect>(parsedWagoData, type, (se) => se.SpellID);
-                    break;
-                case nameof(TransmogSet):
-                    // TransmogSet creates QuestID mapping one-time
-                    CollectObjectsByValue<TransmogSet>(parsedWagoData, type, (se) => se.TrackingQuestID);
-                    break;
-                case nameof(TransmogSetItem):
-                    // TransmogSetItem creates TransmogSetID mapping one-time
-                    CollectObjectsByValue<TransmogSetItem>(parsedWagoData, type, (se) => se.TransmogSetID);
-                    CollectObjectsByValue<TransmogSetItem>(parsedWagoData, type, (se) => se.ItemModifiedAppearanceID, nameof(TransmogSetItem.ItemModifiedAppearanceID));
-                    break;
-                default:
-                    //Console.WriteLine($"WARNING: Unhandled Wago Object Type '{type}'!");
-                    break;
+                // A data module already exists for this type, this must be included for localization or something...
+                if (locale == "enUS")
+                {
+                    // CRIEVE NOTE: This might happen as a result of including the manual data file for Shendralar.
+                    Console.WriteLine($"ERROR: Detected extra database module for a enUS locale file!");
+                    Console.WriteLine("Please make sure the enUS database module is loaded first!");
+                    Console.ReadLine();
+                }
+
+                // Step through the new elements and ensure that there's nothing new
+                foreach (var updatedWagoDataPair in parsedWagoData)
+                {
+                    if (!existingTypeDB.ContainsKey(updatedWagoDataPair.Key))
+                    {
+                        existingTypeDB[updatedWagoDataPair.Key] = updatedWagoDataPair.Value;
+                        Console.WriteLine($"Merging new data into database module '{type}' with ID {updatedWagoDataPair.Key}. This shouldn't happen!");
+                        Console.ReadLine();
+                    }
+                }
+            }
+            else
+            {
+                // Assign the new data module. (This should be the enUS version of the database module.)
+                TypeDB[type] = parsedWagoData;
+                if (locale != "enUS")
+                {
+                    Console.WriteLine($"ERROR: Detected first time database module for a locale that wasn't enUS: '{locale}'");
+                    Console.WriteLine("Please make sure the enUS database module is loaded first!");
+                    Console.ReadLine();
+                }
+                switch (type)
+                {
+                    case nameof(CriteriaTree):
+                        // CriteriaTree creates parent mapping one-time
+                        CollectObjectsByValue<CriteriaTree>(parsedWagoData, type, (se) => se.Parent);
+                        break;
+                    case nameof(ItemModifiedAppearance):
+                        // ItemModifiedAppearance creates ItemID mapping one-time
+                        CollectObjectsByValue<ItemModifiedAppearance>(parsedWagoData, type, (se) => se.ItemID);
+                        break;
+                    case nameof(ItemEffect):
+                        // ItemEffect creates SpellID mapping one-time
+                        CollectObjectsByValue<ItemEffect>(parsedWagoData, type, (se) => se.SpellID);
+                        break;
+                    case nameof(ItemXItemEffect):
+                        // ItemXItemEffect creates ItemID mapping one-time
+                        CollectObjectsByValue<ItemXItemEffect>(parsedWagoData, type, (se) => se.ItemID);
+                        break;
+                    case nameof(ModifierTree):
+                        // ModifierTree creates parent mapping one-time
+                        CollectObjectsByValue<ModifierTree>(parsedWagoData, type, (se) => se.Parent);
+                        break;
+                    case nameof(SpellEffect):
+                        // SpellEffect creates SpellID mapping one-time
+                        CollectObjectsByValue<SpellEffect>(parsedWagoData, type, (se) => se.SpellID);
+                        break;
+                    case nameof(TransmogSet):
+                        // TransmogSet creates QuestID mapping one-time
+                        CollectObjectsByValue<TransmogSet>(parsedWagoData, type, (se) => se.TrackingQuestID);
+                        break;
+                    case nameof(TransmogSetItem):
+                        // TransmogSetItem creates TransmogSetID mapping one-time
+                        CollectObjectsByValue<TransmogSetItem>(parsedWagoData, type, (se) => se.TransmogSetID);
+                        CollectObjectsByValue<TransmogSetItem>(parsedWagoData, type, (se) => se.ItemModifiedAppearanceID, nameof(TransmogSetItem.ItemModifiedAppearanceID));
+                        break;
+                    default:
+                        //Console.WriteLine($"WARNING: Unhandled Wago Object Type '{type}'!");
+                        break;
+                }
             }
         }
 

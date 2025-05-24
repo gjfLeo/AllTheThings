@@ -7,10 +7,14 @@ namespace ATT.DB.Types
     /// <summary>
     /// https://wago.tools/db2/Achievement
     /// </summary>
+    [DataModule]
     public class Achievement : IDBType
     {
+        [Localize]
         public string Description_lang { get; set; }
+        [Localize]
         public string Title_lang { get; set; }
+        [Localize]
         public string Reward_lang { get; set; }
         public long ID { get; set; }
         public long Instance_ID { get; set; }

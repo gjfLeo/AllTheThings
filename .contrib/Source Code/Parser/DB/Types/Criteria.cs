@@ -6,6 +6,7 @@ namespace ATT.DB.Types
     /// <summary>
     /// https://wago.tools/db2/Criteria
     /// </summary>
+    [DataModule]
     internal class Criteria : IDBType
     {
         public long ID { get; set; }

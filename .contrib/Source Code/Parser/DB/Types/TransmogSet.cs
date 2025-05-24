@@ -5,9 +5,11 @@ namespace ATT.DB.Types
     /// <summary>
     /// https://wago.tools/db2/TransmogSet
     /// </summary>
+    [DataModule]
     internal class TransmogSet : IDBType
     {
         public long ID { get; set; }
+        [Localize]
         public string Name_lang { get; set; }
         public long ClassMask { get; set; }
         public long TrackingQuestID { get; set; }

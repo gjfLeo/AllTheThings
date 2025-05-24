@@ -6,6 +6,7 @@ namespace ATT.DB.Types
     /// <summary>
     /// https://wago.tools/db2/ItemBonus
     /// </summary>
+    [DataModule]
     internal class ItemBonus : IDBType
     {
         public long ID { get; set; }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace ATT.DB.Types
 {
+    [DataModule]
     public class ModifierTree : IDBType
     {
         public long ID { get; set; }

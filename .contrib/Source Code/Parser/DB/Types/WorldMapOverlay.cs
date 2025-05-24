@@ -5,6 +5,7 @@ namespace ATT.DB.Types
     /// <summary>
     /// https://wago.tools/db2/worldmapoverlay
     /// </summary>
+    [DataModule]
     internal class WorldMapOverlay : IDBType
     {
         public long ID { get; set; }
