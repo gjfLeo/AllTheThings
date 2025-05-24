@@ -444,7 +444,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				q(48277, {	-- The Speaker Seeks
 					["sourceQuests"] = { 48272 },	-- Visions of Fear
 					["provider"] = { "n", 124312 },	-- High Exarch Turalyon
-					["coord"] = {
+					["coords"] = {
 						{ 33.5, 58.3, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
 						{ 45.9, 24.1, THE_VINDICAAR_EREDATH_UPPER },
 						{ 39.1, 24.9, THE_VINDICAAR_KROKUUN_UPPER },
