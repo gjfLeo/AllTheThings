@@ -1325,9 +1325,13 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(10004, {	-- Patience and Understanding
-						["qg"] = 18417,	-- Altruis the Sufferer
+						["providers"] = {
+							{ "n", 18417 },	-- Altruis the Sufferer
+							{ "i", 25751 },	-- The Master Planner's Blueprints (PQI!)
+						},
 						["sourceQuest"] = 10001,	-- The Master Planner
 						["coord"] = { 27.4, 42.0, NAGRAND },
+						["maps"] = { SHATTRATH_CITY },
 					}),
 					q(9797, {	-- Reinforcements for Garadar
 						["qg"] = 18091,	-- Messenger Gazgrigg
