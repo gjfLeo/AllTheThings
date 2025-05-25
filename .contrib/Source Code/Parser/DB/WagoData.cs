@@ -20,6 +20,24 @@ namespace ATT.DB
         private static readonly Dictionary<string, Type> AllDataTypes = new Dictionary<string, Type>();
 
         /// <summary>
+        /// All of the supported locales mapped to proper locale keys.
+        /// </summary>
+        static readonly Dictionary<string, string> SupportedLocales = new Dictionary<string, string>()
+        {
+            { "enUS", "en" },
+            { "deDE", "de" },
+            { "esES", "es" },
+            { "esMX", "mx" },
+            { "frFR", "fr" },
+            { "itIT", "it" },
+            { "ptBR", "pt" },
+            { "ruRU", "ru" },
+            { "koKR", "ko" },
+            { "zhCN", "cn" },
+            { "zhTW", "tw" },
+        };
+
+        /// <summary>
         /// Get whether or not the cached data contains the key.
         /// </summary>
         /// <param name="id">The unique ID of the data element stored.</param>
@@ -136,7 +154,7 @@ namespace ATT.DB
                     // Build a method with the specific type argument you're interested in
                     CachedGenericMethods[type] = method = typeof(Cache<>).MakeGenericType(module).GetMethod("LoadFromCSV", BindingFlags.Public | BindingFlags.Static);
                 }
-                method.Invoke(null, new object[] { File.ReadAllText(path), locale });
+                method.Invoke(null, new object[] { File.ReadAllText(path), SupportedLocales[locale] });
             }
         }
 
@@ -653,7 +671,7 @@ namespace ATT.DB
         /// </summary>
         /// <param name="id">The id of the object to retrieve localized data for.</param>
         /// <returns>The localized property data.</returns>
-        public static Dictionary<string, Dictionary<string, string>> GetLocalizedData<T>(long id) where T : IDBType
+        public static Dictionary<string, Dictionary<string, object>> GetLocalizedData<T>(long id) where T : IDBType
         {
             return Cache<T>.GetLocalizedData(id);
         }
@@ -663,7 +681,7 @@ namespace ATT.DB
         /// </summary>
         /// <param name="o">The object to retrieve localized data for.</param>
         /// <returns>The localized property data.</returns>
-        public static Dictionary<string, Dictionary<string, string>> GetLocalizedData<T>(T o) where T : IDBType
+        public static Dictionary<string, Dictionary<string, object>> GetLocalizedData<T>(T o) where T : IDBType
         {
             return Cache<T>.GetLocalizedData(o);
         }
@@ -673,7 +691,7 @@ namespace ATT.DB
         /// </summary>
         /// <param name="o">The object.</param>
         /// <param name="locale">The locale.</param>
-        public static void StoreLocalizedData<T>(T o, string locale = "enUS") where T : IDBType
+        public static void StoreLocalizedData<T>(T o, string locale = "en") where T : IDBType
         {
             Cache<T>.StoreLocalizedData(o, locale);
         }
@@ -683,7 +701,7 @@ namespace ATT.DB
         /// </summary>
         /// <param name="db">The db.</param>
         /// <param name="locale">The locale.</param>
-        public static void StoreLocalizedData<T>(IDictionary<long, T> db, string locale = "enUS") where T : IDBType
+        public static void StoreLocalizedData<T>(IDictionary<long, T> db, string locale = "en") where T : IDBType
         {
             Cache<T>.StoreLocalizedData(db, locale);
         }
@@ -781,6 +799,7 @@ namespace ATT.DB
 
             /// <summary>
             /// Load the data from a CSV content string for the given locale.
+            /// CRIEVE NOTE: This function gets called by Reflection, DO NOT DELETE!
             /// </summary>
             /// <param name="content">The content of the CSV.</param>
             /// <param name="locale">The locale of the content within the CSV.</param>
@@ -795,14 +814,17 @@ namespace ATT.DB
                     {
                         if (AllPropertiesByName.TryGetValue(header, out var property))
                         {
-                            var value = line[header];
-                            try
+                            if (line.HasColumn(header))
                             {
-                                property.SetValue(obj, Convert.ChangeType(value, property.PropertyType, System.Globalization.CultureInfo.InvariantCulture));
-                            }
-                            catch (Exception ex)
-                            {
-                                throw new InvalidProgramException($"Failed converting property {ParseType.Name}.{property.Name} [{property.PropertyType.Name}] from: '{value}' [{value.GetType().Name}]", ex);
+                                var value = line[header];
+                                try
+                                {
+                                    property.SetValue(obj, Convert.ChangeType(value, property.PropertyType, System.Globalization.CultureInfo.InvariantCulture));
+                                }
+                                catch (Exception ex)
+                                {
+                                    throw new InvalidProgramException($"Failed converting property {ParseType.Name}.{property.Name} [{property.PropertyType.Name}] from: '{value}' [{value.GetType().Name}]", ex);
+                                }
                             }
                         }
                         /*
@@ -821,7 +843,7 @@ namespace ATT.DB
             /// <summary>
             /// The static container of localized data for this type.
             /// </summary>
-            private static readonly Dictionary<long, Dictionary<string, Dictionary<string, string>>> CachedLocalizedPropertyData = new Dictionary<long, Dictionary<string, Dictionary<string, string>>>();
+            private static readonly Dictionary<long, Dictionary<string, Dictionary<string, object>>> CachedLocalizedPropertyData = new Dictionary<long, Dictionary<string, Dictionary<string, object>>>();
 
             /// <summary>
             /// Check localized property data from the object.
@@ -844,9 +866,9 @@ namespace ATT.DB
             /// </summary>
             /// <param name="id">The id.</param>
             /// <returns>The localized property data for the object id.</returns>
-            public static Dictionary<string, Dictionary<string, string>> GetLocalizedData(long id)
+            public static Dictionary<string, Dictionary<string, object>> GetLocalizedData(long id)
             {
-                return CachedLocalizedPropertyData.TryGetValue(id, out Dictionary<string, Dictionary<string, string>> result) ? result : null;
+                return CachedLocalizedPropertyData.TryGetValue(id, out Dictionary<string, Dictionary<string, object>> result) ? result : null;
             }
 
             /// <summary>
@@ -854,9 +876,9 @@ namespace ATT.DB
             /// </summary>
             /// <param name="o">The object.</param>
             /// <returns>The localized property data for the object.</returns>
-            public static Dictionary<string, Dictionary<string, string>> GetLocalizedData(T o)
+            public static Dictionary<string, Dictionary<string, object>> GetLocalizedData(T o)
             {
-                return CachedLocalizedPropertyData.TryGetValue(o.ID, out Dictionary<string, Dictionary<string, string>> result) ? result : null;
+                return CachedLocalizedPropertyData.TryGetValue(o.ID, out Dictionary<string, Dictionary<string, object>> result) ? result : null;
             }
 
             /// <summary>
@@ -867,22 +889,22 @@ namespace ATT.DB
             public static void StoreLocalizedData(T o, string locale)
             {
                 if (LocalizedProperties == null) return;
-                if (!CachedLocalizedPropertyData.TryGetValue(o.ID, out Dictionary<string, Dictionary<string, string>> result))
+                if (!CachedLocalizedPropertyData.TryGetValue(o.ID, out Dictionary<string, Dictionary<string, object>> result))
                 {
-                    CachedLocalizedPropertyData[o.ID] = result = new Dictionary<string, Dictionary<string, string>>();
+                    CachedLocalizedPropertyData[o.ID] = result = new Dictionary<string, Dictionary<string, object>>();
                 }
                 foreach (var property in LocalizedProperties)
                 {
                     var value = (string)property.GetValue(o);
                     if (!string.IsNullOrWhiteSpace(value))
                     {
-                        if (result.TryGetValue(property.Name, out Dictionary<string, string> localizedData))
+                        if (result.TryGetValue(property.Name, out Dictionary<string, object> localizedData))
                         {
                             localizedData[locale] = value.Trim();
                         }
                         else
                         {
-                            result[property.Name] = new Dictionary<string, string>
+                            result[property.Name] = new Dictionary<string, object>
                                 {
                                     { locale, value.Trim() }
                                 };
@@ -901,22 +923,22 @@ namespace ATT.DB
                 if (LocalizedProperties == null) return;
                 foreach (var updatedWagoDataPair in db)
                 {
-                    if (!CachedLocalizedPropertyData.TryGetValue(updatedWagoDataPair.Key, out Dictionary<string, Dictionary<string, string>> result))
+                    if (!CachedLocalizedPropertyData.TryGetValue(updatedWagoDataPair.Key, out Dictionary<string, Dictionary<string, object>> result))
                     {
-                        CachedLocalizedPropertyData[updatedWagoDataPair.Key] = result = new Dictionary<string, Dictionary<string, string>>();
+                        CachedLocalizedPropertyData[updatedWagoDataPair.Key] = result = new Dictionary<string, Dictionary<string, object>>();
                     }
                     foreach (var property in LocalizedProperties)
                     {
                         var value = (string)property.GetValue(updatedWagoDataPair.Value);
                         if (!string.IsNullOrWhiteSpace(value))
                         {
-                            if (result.TryGetValue(property.Name, out Dictionary<string, string> localizedData))
+                            if (result.TryGetValue(property.Name, out Dictionary<string, object> localizedData))
                             {
                                 localizedData[locale] = value.Trim();
                             }
                             else
                             {
-                                result[property.Name] = new Dictionary<string, string>
+                                result[property.Name] = new Dictionary<string, object>
                                     {
                                         { locale, value.Trim() }
                                     };

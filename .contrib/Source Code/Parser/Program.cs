@@ -32,6 +32,99 @@ namespace ATT
             Framework.LogException(ex);
         }
 
+        static void ImportAchievementData(Achievement achievement)
+        {
+            if (!Framework.AchievementData.TryGetValue(achievement.ID, out var achievementData))
+            {
+                Framework.AchievementData[achievement.ID] = achievementData = new Dictionary<string, object>
+                {
+                    { "category", achievement.Category },
+                    { "icon", achievement.IconFileID },
+                };
+            }
+
+            // Now merge the localized data with it.
+            var localizedData = WagoData.GetLocalizedData(achievement);
+            if (localizedData.TryGetValue("Title_lang", out var text))
+            {
+                achievementData["text"] = text;
+            }
+            if (localizedData.TryGetValue("Description_lang", out var description))
+            {
+                achievementData["description"] = description;
+            }
+            /*
+            // CRIEVE NOTE: We don't use this in the addon itself (yet?)
+            if (localizedData.TryGetValue("Reward_lang", out var reward))
+            {
+                achievementData["reward"] = reward;
+            }
+            */
+
+            /*
+            // CRIEVE NOTE: Uncomment to debug data format
+            Console.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
+            if (localizedData != null)
+            {
+                foreach (var pair in achievementData)
+                {
+                    Console.Write("  ");
+                    Console.Write(pair.Key);
+                    Console.WriteLine(": ");
+                    foreach (var localeDataPair in pair.Value)
+                    {
+                        Console.Write("   ");
+                        Console.Write(localeDataPair.Key);
+                        Console.Write(": ");
+                        Console.WriteLine(localeDataPair.Value);
+                    }
+                }
+            }
+            else Console.WriteLine("  NO LOCALIZED DATA FOUND");
+            */
+        }
+
+
+        static void ImportAchievementCategoryData(AchievementCategory achievementCategory)
+        {
+            if (!Framework.AchievementCategoryData.TryGetValue(achievementCategory.ID, out var achievementCategoryData))
+            {
+                Framework.AchievementCategoryData[achievementCategory.ID] = achievementCategoryData = new Dictionary<string, object>
+                {
+                    { "parent", achievementCategory.Parent },
+                };
+            }
+
+            // Now merge the localized data with it.
+            var localizedData = WagoData.GetLocalizedData(achievementCategory);
+            if (localizedData.TryGetValue("Name_lang", out var text))
+            {
+                achievementCategoryData["text"] = text;
+            }
+
+            /*
+            // CRIEVE NOTE: Uncomment to debug data format
+            Console.WriteLine($"LOCALIZED DATA [{achievementCategory.ID}]");
+            if (localizedData != null)
+            {
+                foreach (var pair in achievementCategoryData)
+                {
+                    Console.Write("  ");
+                    Console.Write(pair.Key);
+                    Console.WriteLine(": ");
+                    foreach (var localeDataPair in pair.Value)
+                    {
+                        Console.Write("   ");
+                        Console.Write(localeDataPair.Key);
+                        Console.Write(": ");
+                        Console.WriteLine(localeDataPair.Value);
+                    }
+                }
+            }
+            else Console.WriteLine("  NO LOCALIZED DATA FOUND");
+            */
+        }
+
         static int Main(string[] args)
         {
             AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(UnhandledExceptionHandler);
@@ -143,6 +236,7 @@ namespace ATT
                 while (Errored && !Framework.Automated);
 
                 /*
+                // Debug all Wago Data Modules
                 Console.WriteLine($"ALL WAGO DATA MODULES: ");
                 foreach (var modulePair in WagoData.GetAllDataModules())
                 {
@@ -153,6 +247,7 @@ namespace ATT
                     Console.WriteLine(" total entries");
                 }
 
+                // Example of how to export localized data for a Wago Data Module
                 if (WagoData.TryGetValue(2336, out Achievement achievement))
                 {
                     Console.WriteLine($"EXPORTED DATA [{achievement.ID}]:");
@@ -171,7 +266,7 @@ namespace ATT
 
                     var localizedData = WagoData.GetLocalizedData<Achievement>(achievement.ID);
 
-                    Console.WriteLine($"LOCALIZED DATA [{achievement.ID}]: {achievement.Title_lang}");
+                    Console.WriteLine($"LOCALIZED DATA [{achievement.ID}]");
                     if (localizedData != null)
                     {
                         foreach (var pair in localizedData)
@@ -192,6 +287,18 @@ namespace ATT
                     Console.ReadLine();
                 }
                 */
+                if (Program.PreProcessorTags.ContainsKey("EXPORT_ACHIEVEMENTDB"))
+                {
+                    // Pre-Wrath we want all of the achievement data.
+                    foreach (var achievement in WagoData.GetAll<Achievement>().Values) ImportAchievementData(achievement);
+                    foreach (var achievementCategory in WagoData.GetAll<AchievementCategory>().Values) ImportAchievementCategoryData(achievementCategory);
+                }
+                else if (Program.PreProcessorTags.ContainsKey("EXPORT_ACHIEVEMENTDB_SHENDRALAR"))
+                {
+                    // Pre-Cata we only want Agent of Shendralar
+                    if (WagoData.TryGetValue(5788, out Achievement achievement)) ImportAchievementData(achievement);
+                }
+
 
                 // Load all of the Lua files into the database.
                 var mainFileName = $"{databaseRootFolder}\\..\\_main.lua";
