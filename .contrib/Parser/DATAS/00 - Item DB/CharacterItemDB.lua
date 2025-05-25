@@ -900,7 +900,9 @@ ihqt(235264, 86756);				-- Venture Co.'s Trove (Revered)
 ------------------
 -- PATCH 11.1.5 --
 ------------------
+iq(242623, 90710);					-- Enchanted Warbound Purifying Kit
 ihqt(242919, 90780);				-- Cracked Keystone
+iq(242622, 90709);					-- Warbound Purifying Kit
 
 ------------
 -- UNUSED --

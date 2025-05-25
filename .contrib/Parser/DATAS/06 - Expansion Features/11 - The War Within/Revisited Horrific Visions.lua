@@ -444,7 +444,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["g"] = appendAllGroups(
 						{
 							i(242623, {	-- Enchanted Warbound Purifying Kit
-								["questID"] = 90710,
 								["cost"] = {{"c", 3149, 2000 }},	-- 2000x Displaced Corrupted Mementos
 							}),
 						},
@@ -532,7 +531,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["g"] = appendAllGroups(
 						{
 							i(242622, {	-- Warbound Purifying Kit
-								["questID"] = 90709,
 								["cost"] = {{"c", 3149, 1000 }},	-- 1000x Displaced Corrupted Mementos
 							}),
 						},
