@@ -1169,23 +1169,25 @@ end)
 checkboxShowPvP:SetATTTooltip(L.SHOW_PVP_CHECKBOX_TOOLTIP)
 checkboxShowPvP:AlignBelow(checkboxShowPetBattles)
 
-local checkboxShowSkyriding = child:CreateCheckBox("|TInterface\\Icons\\ability_dragonriding_dragonridinggliding01:0|t " .. app.ccColors.Insane .. L.SHOW_SKYRIDING_CHECKBOX,
-function(self)
-	self:SetChecked(settings:Get("Show:Skyriding"))
-	if app.MODE_DEBUG then
-		self:Disable()
-		self:SetAlpha(0.4)
-	else
-		self:Enable()
-		self:SetAlpha(1)
-	end
-end,
-function(self)
-	settings:Set("Show:Skyriding", self:GetChecked())
-	settings:UpdateMode(1)
-end)
-checkboxShowSkyriding:SetATTTooltip(L.SHOW_SKYRIDING_CHECKBOX_TOOLTIP)
-checkboxShowSkyriding:AlignBelow(checkboxShowPvP)
+if app.GameBuildVersion >= 100000 then
+	local checkboxShowSkyriding = child:CreateCheckBox("|TInterface\\Icons\\ability_dragonriding_dragonridinggliding01:0|t " .. app.ccColors.Insane .. L.SHOW_SKYRIDING_CHECKBOX,
+	function(self)
+		self:SetChecked(settings:Get("Show:Skyriding"))
+		if app.MODE_DEBUG then
+			self:Disable()
+			self:SetAlpha(0.4)
+		else
+			self:Enable()
+			self:SetAlpha(1)
+		end
+	end,
+	function(self)
+		settings:Set("Show:Skyriding", self:GetChecked())
+		settings:UpdateMode(1)
+	end)
+	checkboxShowSkyriding:SetATTTooltip(L.SHOW_SKYRIDING_CHECKBOX_TOOLTIP)
+	checkboxShowSkyriding:AlignBelow(checkboxShowPvP)
+end
 
 -- Expansion Things
 if app.GameBuildVersion >= 60000 then
