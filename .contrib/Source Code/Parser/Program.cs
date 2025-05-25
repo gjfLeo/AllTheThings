@@ -1,9 +1,12 @@
-﻿using System;
+﻿using ATT.DB;
+using ATT.DB.Types;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 
 namespace ATT
@@ -127,7 +130,7 @@ namespace ATT
                             }
                         }
                         filenames.Sort(StringComparer.InvariantCulture);
-                        foreach (var filename in filenames) Framework.ParseWagoCSV(filename);
+                        foreach (var filename in filenames) WagoData.LoadFromCSV(filename);
 
                         if (Errored)
                         {
@@ -138,6 +141,57 @@ namespace ATT
                     }
                 }
                 while (Errored && !Framework.Automated);
+
+                /*
+                Console.WriteLine($"ALL WAGO DATA MODULES: ");
+                foreach (var modulePair in WagoData.GetAllDataModules())
+                {
+                    Console.Write("  ");
+                    Console.Write(modulePair.Key);
+                    Console.Write(": ");
+                    Console.Write(modulePair.Value.Count);
+                    Console.WriteLine(" total entries");
+                }
+
+                if (WagoData.TryGetValue(2336, out Achievement achievement))
+                {
+                    Console.WriteLine($"EXPORTED DATA [{achievement.ID}]:");
+                    var exportedData = achievement.GetExportableData();
+                    if (exportedData != null)
+                    {
+                        foreach (var pair in exportedData)
+                        {
+                            Console.Write("  ");
+                            Console.Write(pair.Key);
+                            Console.Write(": ");
+                            Console.WriteLine(pair.Value);
+                        }
+                    }
+                    else Console.WriteLine("  NO EXPORTED DATA FOUND");
+
+                    var localizedData = WagoData.GetLocalizedData<Achievement>(achievement.ID);
+
+                    Console.WriteLine($"LOCALIZED DATA [{achievement.ID}]: {achievement.Title_lang}");
+                    if (localizedData != null)
+                    {
+                        foreach (var pair in localizedData)
+                        {
+                            Console.Write("  ");
+                            Console.Write(pair.Key);
+                            Console.WriteLine(": ");
+                            foreach (var localeDataPair in pair.Value)
+                            {
+                                Console.Write("   ");
+                                Console.Write(localeDataPair.Key);
+                                Console.Write(": ");
+                                Console.WriteLine(localeDataPair.Value);
+                            }
+                        }
+                    }
+                    else Console.WriteLine("  NO LOCALIZED DATA FOUND");
+                    Console.ReadLine();
+                }
+                */
 
                 // Load all of the Lua files into the database.
                 var mainFileName = $"{databaseRootFolder}\\..\\_main.lua";

@@ -7,7 +7,7 @@ namespace ATT.DB.Types
     /// https://wago.tools/db2/CriteriaTree
     /// </summary>
     [DataModule]
-    public class CriteriaTree : IDBType, IWagoDBChildType
+    public class CriteriaTree : IDBType, IWagoChild
     {
         public long ID { get; set; }
         [Localize]
@@ -37,10 +37,5 @@ namespace ATT.DB.Types
         /// Represents if this CriteriaTree is useful to process by way of indicating the sub-CriteriaTree are ALL (4) or ANY (8)
         /// </summary>
         public bool IsUseful() => Operator == 4 || Operator == 8;
-
-        public IDictionary<string, object> AsData()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
