@@ -407,7 +407,10 @@ local function FillGroupDirect(group, FillData, doDGU)
 	end
 end
 local function SkipFillingGroup(group, FillData)
-	local skipFill = group.skipFill
+	local skipFill = group.skipFull
+	if skipFill then return true end
+
+	skipFill = group.skipFill
 	if (skipFill and FillData.InWindow) or skipFill == 2 then return true; end
 
 	-- do not fill the same object twice in multiple Locations

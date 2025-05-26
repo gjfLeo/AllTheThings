@@ -2225,7 +2225,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{"sub","common_vendor",20242}},	-- Karaaz <Consortium Quartermaster>
 					}),
 					n(20241, {	-- Provisioner Nasela <Mag'har Quartermaster>
-						["coord"] = { 53.8, 36.8, NAGRAND },
+						["coord"] = { 53.5, 37.0, NAGRAND },
 						["races"] = HORDE_ONLY,
 						["groups"] = bubbleDownClassicRep(FACTION_THE_MAGHAR, {
 							{		-- Neutral
