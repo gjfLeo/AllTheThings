@@ -8,6 +8,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices.ComTypes;
 using System.Text;
+using static ATT.Export;
 
 namespace ATT
 {
@@ -32,6 +33,60 @@ namespace ATT
             Framework.LogException(ex);
         }
 
+        static Dictionary<string, object> ImportCriteriaData(CriteriaTree criteriaTree)
+        {
+            // If criteria is defined, then attach the data for the criteria directly on the data package.
+            if (criteriaTree.CriteriaID > 0 && WagoData.TryGetValue(criteriaTree.CriteriaID, out Criteria criteria))
+            {
+                if (!Framework.AchievementCriteriaData.TryGetValue(criteria.ID, out var criteriaData))
+                {
+                    Framework.AchievementCriteriaData[criteria.ID] = criteriaData = new Dictionary<string, object>();
+                }
+
+                criteriaData["criteriaID"] = criteria.ID;
+                criteriaData["type"] = criteria.Type;
+                if (criteria.Asset > 0) criteriaData["asset"] = criteria.Asset;
+
+                // Criteria itself doesn't have localized data, but its criteria tree parent does.
+                var localizedData = criteriaTree.GetLocalizedData();
+                if (localizedData.TryGetValue("Description_lang", out var text))
+                {
+                    criteriaData["text"] = text;
+                }
+
+                return criteriaData;
+            }
+            else
+            {
+                // This criteria belongs to a tree, it should be merged with the achievement itself.
+                var criteriaData = new Dictionary<string, object>();
+                if (criteriaTree.Operator > 0) criteriaData["operator"] = criteriaTree.Operator;
+                if (criteriaTree.Amount > 0) criteriaData["amount"] = criteriaTree.Amount;
+
+                // Attach the children of this criteria as criteria references
+                var subCriterias = new List<object>();
+                foreach (var criteriaChildRoot in criteriaTree.EnumerateChildren())
+                {
+                    // Determine if this criteria has its own criteriaID, if so, nest it.
+                    var subCriteriaData = ImportCriteriaData(criteriaChildRoot);
+                    if (subCriteriaData.TryGetValue("criteriaID", out var subCriteriaID))
+                    {
+                        subCriterias.Add(subCriteriaID);
+                    }
+                    else
+                    {
+                        // Merge the data from the criteria tree root into the achievement itself.
+                        foreach (var pair in subCriteriaData)
+                        {
+                            criteriaData[pair.Key] = pair.Value;
+                        }
+                    }
+                }
+                if (subCriterias.Count > 0) criteriaData["criteria"] = subCriterias;
+                return criteriaData;
+            }
+        }
+
         static void ImportAchievementData(Achievement achievement)
         {
             if (!Framework.AchievementData.TryGetValue(achievement.ID, out var achievementData))
@@ -41,6 +96,24 @@ namespace ATT
                     { "category", achievement.Category },
                     { "icon", achievement.IconFileID },
                 };
+            }
+
+            if (WagoData.TryGetValue(achievement.Criteria_tree, out CriteriaTree criteriaTree))
+            {
+                // Determine if this criteria has its own criteriaID, if so, nest it.
+                var criteriaData = ImportCriteriaData(criteriaTree);
+                if (criteriaData.TryGetValue("criteriaID", out var criteriaID))
+                {
+                    achievementData["criteria"] = new List<object> { criteriaID };
+                }
+                else
+                {
+                    // Merge the data from the criteria tree root into the achievement itself.
+                    foreach (var pair in criteriaData)
+                    {
+                        achievementData[pair.Key] = pair.Value;
+                    }
+                }
             }
 
             // Now merge the localized data with it.

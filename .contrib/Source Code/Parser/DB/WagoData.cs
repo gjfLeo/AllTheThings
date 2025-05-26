@@ -681,7 +681,7 @@ namespace ATT.DB
         /// </summary>
         /// <param name="o">The object to retrieve localized data for.</param>
         /// <returns>The localized property data.</returns>
-        public static Dictionary<string, Dictionary<string, object>> GetLocalizedData<T>(T o) where T : IDBType
+        public static Dictionary<string, Dictionary<string, object>> GetLocalizedData<T>(this T o) where T : IDBType
         {
             return Cache<T>.GetLocalizedData(o);
         }

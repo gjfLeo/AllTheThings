@@ -1,4 +1,5 @@
 using ATT.DB;
+using ATT.DB.Types;
 using ATT.FieldTypes;
 using System;
 using System.Collections.Concurrent;
@@ -613,6 +614,13 @@ namespace ATT
         /// NOTE: This is used only for Pre-Wrath Builds of LocalizationDB.
         /// </summary>
         internal static Dictionary<long, Dictionary<string, object>> AchievementCategoryData { get; private set; } = new Dictionary<long, Dictionary<string, object>>();
+
+
+        /// <summary>
+        /// All of the achievement criteria data that has been loaded into the database.
+        /// NOTE: This is used only for Pre-Wrath Builds of LocalizationDB.
+        /// </summary>
+        internal static Dictionary<long, Dictionary<string, object>> AchievementCriteriaData { get; private set; } = new Dictionary<long, Dictionary<string, object>>();
 
         /// <summary>
         /// All of the categories that have been loaded into the database.
@@ -3445,6 +3453,7 @@ namespace ATT
                         var localizationForDescriptions = new Dictionary<string, Dictionary<long, string>>();
                         var localizationForLore = new Dictionary<string, Dictionary<long, string>>();
                         var referencedCategoryIDs = new Dictionary<long, bool>();
+                        var referencedCriteriaIDs = new Dictionary<long, bool>();
                         allAchievementKeys.Sort();
                         foreach (var key in allAchievementKeys)
                         {
@@ -3503,6 +3512,19 @@ namespace ATT
                                     builder.Append(category);
                                 }
                                 else builder.Append(-1);
+                                if (achievement.TryGetValue("operator", out var op))
+                                {
+                                    builder.AppendLine(",").Append("\t\toperator = ").Append(op);
+                                }
+                                if (achievement.TryGetValue("amount", out var amount))
+                                {
+                                    builder.AppendLine(",").Append("\t\tamount = ").Append(amount);
+                                }
+                                if (achievement.TryGetValue("criteria", out List<object> criteria))
+                                {
+                                    foreach (var criteriaID in criteria) referencedCriteriaIDs[(long)criteriaID] = true;
+                                    builder.AppendLine(",").Append("\t\tcriteria = ").Append(ExportCompressedLua(criteria));
+                                }
                                 builder.AppendLine(",").AppendLine("\t},");
                             }
                         }
@@ -3562,7 +3584,7 @@ namespace ATT
                         localizationDatabase.AppendLine(builder.ToString());
 
 
-                        // Achievement Criteria
+                        // Achievement Categories
                         builder.Clear();
                         keys.Clear();
                         localizationForText.Clear();
@@ -3584,7 +3606,7 @@ namespace ATT
                         }
                         foreach (var key in allAchievementKeys)
                         {
-                            // Include Only Referenced Achievements!
+                            // Include Only Referenced Categories!
                             if (referencedCategoryIDs.ContainsKey(key))
                             {
                                 if (AchievementCategoryData.TryGetValue(key, out var achievement))
@@ -3653,6 +3675,114 @@ namespace ATT
                                     }
                                 }
                                 localeBuilder.AppendLine("})\ndo achievementCategories[key].name = value; end");
+                            }
+                        }
+
+                        // Append the file content to our localization database.
+                        localizationDatabase.AppendLine(builder.ToString());
+
+                        // Achievement Criteria
+                        builder.Clear();
+                        keys.Clear();
+                        localizationForText.Clear();
+                        localizationForDescriptions.Clear();
+                        allAchievementKeys = AchievementCriteriaData.Keys.ToList();
+                        allAchievementKeys.Sort();
+                        foreach (var key in allAchievementKeys)
+                        {
+                            // Include Only Referenced Criteria!
+                            if (referencedCriteriaIDs.ContainsKey(key))
+                            {
+                                if (AchievementCriteriaData.TryGetValue(key, out var criteria))
+                                {
+                                    keys.Add(key);
+                                    if (criteria.TryGetValue("text", out var value))
+                                    {
+                                        if (!(value is IDictionary<string, object> localeData))
+                                        {
+                                            localeData = new Dictionary<string, object>
+                                            {
+                                                ["en"] = value
+                                            };
+                                        }
+                                        TryColorizeDictionary(localeData);
+                                        foreach (var locale in localeData)
+                                        {
+                                            if (!localizationForText.TryGetValue(locale.Key, out Dictionary<long, string> sublocale))
+                                            {
+                                                localizationForText[locale.Key] = sublocale = new Dictionary<long, string>();
+                                            }
+                                            sublocale[key] = locale.Value.ToString();
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        // Get all of the english translations and always write them to the file.
+                        builder.AppendLine("local achievementCriterias = {");
+                        localizationForText.TryGetValue("en", out localizationForTextByKey);
+                        localizationForText.Remove("en");
+                        foreach (var key in keys)
+                        {
+                            if (AchievementCriteriaData.TryGetValue(key, out var criteriaData))
+                            {
+                                builder.Append("\t[").Append(key).AppendLine("] = {");
+                                builder.Append("\t\tname = ");
+                                if (localizationForTextByKey.TryGetValue(key, out string name))
+                                {
+                                    ExportStringValue(builder, name);
+                                }
+                                else builder.Append("nil");
+                                if (criteriaData.TryGetValue("operator", out var op))
+                                {
+                                    builder.AppendLine(",").Append("\t\toperator = ").Append(op);
+                                }
+                                if (criteriaData.TryGetValue("amount", out var amount))
+                                {
+                                    builder.AppendLine(",").Append("\t\tamount = ").Append(amount);
+                                }
+                                if (criteriaData.TryGetValue("type", out var t))
+                                {
+                                    builder.AppendLine(",").Append("\t\ttype = ").Append(t);
+                                }
+                                if (criteriaData.TryGetValue("asset", out var asset))
+                                {
+                                    builder.AppendLine(",").Append("\t\tasset = ").Append(asset);
+                                }
+                                if (criteriaData.TryGetValue("criteria", out List<object> criteria))
+                                {
+                                    foreach (var criteriaID in criteria)
+                                    {
+                                        long crit = (long)criteriaID;
+                                        if (!referencedCriteriaIDs.ContainsKey(crit))
+                                        {
+                                            referencedCriteriaIDs[crit] = true;
+                                            keys.Add(crit);
+                                        }
+                                    }
+                                    builder.AppendLine(",").Append("\t\tcriteria = ").Append(ExportCompressedLua(criteria));
+                                }
+                                builder.AppendLine(",").AppendLine("\t},");
+                            }
+                        }
+                        builder.AppendLine("};\nL.ACHIEVEMENT_CRITERIA_DATA = achievementCriterias;");
+
+                        // Now grab the non-english localizations and conditionally write them to the file.
+                        foreach (var localePair in localizationForText)
+                        {
+                            if (localePair.Value.Any())
+                            {
+                                var localeBuilder = localizationByLocale[localePair.Key];
+                                localeBuilder.AppendLine("for key,value in pairs({");
+                                foreach (var key in keys)
+                                {
+                                    if (localePair.Value.TryGetValue(key, out string name) && !string.IsNullOrWhiteSpace(name))
+                                    {
+                                        ExportStringKeyValue(localeBuilder, key, name).AppendLine();
+                                    }
+                                }
+                                localeBuilder.AppendLine("})\ndo achievementCriterias[key].name = value; end");
                             }
                         }
 
