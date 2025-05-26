@@ -52,6 +52,13 @@ namespace ATT
                         // We need to make a unique criteriaID for this.
                         criteriaID = --UNIQUE_CRITERIA_ID;
                         break;
+                    case 0:     // Kill an NPC
+                    case 8:     // Earn an Achievement
+                    case 27:    // Complete a Quest
+                    case 36:    // Physically Own an Item
+                    case 43:    // Exploration
+                        criteriaTree.Amount = 0;    // This gets assigned a value of 1 by default, no reason to keep it in the data.
+                        break;
                     default: break;
                 }
                 // This type of achievement should be stored in its own container.
