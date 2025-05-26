@@ -3912,7 +3912,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	}),
 	-- Non-crafted reagents from vendors for professions:
 	-- Dyes and threads from LW and Tailor vendors:
-	-- Unique to Tailor vendors:
 	filter(REAGENTS, {
 		["g"] = appendAllGroups(
 			sharedData({	-- Unique to Tailoring vendors
