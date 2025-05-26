@@ -12,18 +12,15 @@ call :downloadlocalized CriteriaTree
 SET BUILD=4.4.2.60192
 SET FILTER=^&filter^\[ID\]=exact%%3A5788
 call :downloadlocalized Achievement
+SET FILTER=^&filter^\[ID\]=exact%%3A17023
+call :download Criteria
+SET FILTER=^&filter^\[ID\]=exact%%3A18653^|18654
+call :downloadlocalized CriteriaTree
 exit /b
 
 :download
 if not exist "%1.%BUILD%.csv" (
-	if exist "%1*.csv" (
-		del /Q "%1*.csv"
-	)
-	if "%1" == "WorldMapOverlay" (
-		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/worldmapoverlay/csv?build=%BUILD%"
-	) else (
-		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv?build=%BUILD%"
-	)
+	curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv?build=%BUILD%%FILTER%"
 )
 exit /b
 

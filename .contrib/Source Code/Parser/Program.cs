@@ -33,35 +33,53 @@ namespace ATT
             Framework.LogException(ex);
         }
 
+        static long UNIQUE_CRITERIA_ID = 0;
         static Dictionary<string, object> ImportCriteriaData(CriteriaTree criteriaTree)
         {
             // If criteria is defined, then attach the data for the criteria directly on the data package.
             if (criteriaTree.CriteriaID > 0 && WagoData.TryGetValue(criteriaTree.CriteriaID, out Criteria criteria))
             {
-                if (!Framework.AchievementCriteriaData.TryGetValue(criteria.ID, out var criteriaData))
+                // Cache the criteriaID. We will be overriding this for Type 5 criterias.
+                var criteriaID = criteria.ID;
+
+                // A handful of these criteria are semi-useless and can be merged with the logic of the achievement itself
+                Dictionary<string, object> criteriaData;
+                switch (criteria.Type)
                 {
-                    Framework.AchievementCriteriaData[criteria.ID] = criteriaData = new Dictionary<string, object>();
+                    case 5:     // Reach level X.
+                    case 47:    // Raise X reputations to Exalted
+                    case 113:   // X Honorable Kills
+                        // We need to make a unique criteriaID for this.
+                        criteriaID = --UNIQUE_CRITERIA_ID;
+                        break;
+                    default: break;
+                }
+                // This type of achievement should be stored in its own container.
+                if (!Framework.AchievementCriteriaData.TryGetValue(criteriaID, out criteriaData))
+                {
+                    Framework.AchievementCriteriaData[criteriaID] = criteriaData = new Dictionary<string, object>();
                 }
 
-                criteriaData["criteriaID"] = criteria.ID;
+                criteriaData["criteriaID"] = criteriaID;
                 criteriaData["type"] = criteria.Type;
+                if (criteriaTree.Operator > 0) criteriaData["operator"] = criteriaTree.Operator;
+                if (criteriaTree.Amount > 0) criteriaData["amount"] = criteriaTree.Amount;
                 if (criteria.Asset > 0) criteriaData["asset"] = criteria.Asset;
 
                 // Criteria itself doesn't have localized data, but its criteria tree parent does.
+                // CRIEVE NOTE: I might consider NOT doing and simply do the calculation in the tooltip based on the type.
+                // Could free up a bunch of unnecessary locale files since the data doesn't look super useful rather than descriptive.
                 var localizedData = criteriaTree.GetLocalizedData();
                 if (localizedData.TryGetValue("Description_lang", out var text))
                 {
                     criteriaData["text"] = text;
                 }
-
                 return criteriaData;
             }
             else
             {
                 // This criteria belongs to a tree, it should be merged with the achievement itself.
                 var criteriaData = new Dictionary<string, object>();
-                if (criteriaTree.Operator > 0) criteriaData["operator"] = criteriaTree.Operator;
-                if (criteriaTree.Amount > 0) criteriaData["amount"] = criteriaTree.Amount;
 
                 // Attach the children of this criteria as criteria references
                 var subCriterias = new List<object>();
@@ -83,6 +101,8 @@ namespace ATT
                     }
                 }
                 if (subCriterias.Count > 0) criteriaData["criteria"] = subCriterias;
+                if ((criteriaTree.Operator > 0 && criteriaTree.Operator != 4) || (criteriaTree.Operator == 0 && subCriterias.Count > 1)) criteriaData["operator"] = criteriaTree.Operator;
+                if (criteriaTree.Amount > 0) criteriaData["amount"] = criteriaTree.Amount;
                 return criteriaData;
             }
         }
