@@ -118,6 +118,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 					["provider"] = { "n", 238136 },	-- Augermu
 					["coord"] = { 35.2, 68.6, DORNOGAL },
 					["g"] = {
+						i(238407),	-- Black Blood Residue
 						i(238678),	-- Lesser Rune of Echoing Void
 						i(239084),	-- Lesser Rune of Gushing Wound
 						i(239078),	-- Lesser Rune of Infinite Stars
