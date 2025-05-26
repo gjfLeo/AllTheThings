@@ -2150,7 +2150,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(42462, {["timeline"]={ADDED_3_0_2,REMOVED_6_0_2}}),	-- Glyph of Healthstone
 			i(41106, {["timeline"]={ADDED_3_0_2,REMOVED_6_0_2}}),	-- Glyph of Holy Light / Glyph of Divine Favor[CATA] / Glyph of Illumination[MOP]
 			i(42961, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Eviscerate / Glyph of Debilitation[MOP-5.4.0] / Glyph of Recovery[5.4.0+]
-			i(43342, {["timeline"]={ADDED_3_1_0,REMOVED_6_0_2}}),	-- Glyph of Fade
+			i(42398, {["timeline"]={ADDED_3_1_0,REMOVED_6_0_2}}),	-- Glyph of Fade
 			i(43423, {["timeline"]={ADDED_3_0_2,REMOVED_4_0_3}}),	-- Glyph of Rending
 			i(41530, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Fire Nova Totem / Glyph of Fire Nova[3.3.0+]
 			i(40914, {["timeline"]={ADDED_3_0_2,REMOVED_7_0_3}}),	-- Glyph of Healing Touch
