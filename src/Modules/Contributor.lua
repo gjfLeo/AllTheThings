@@ -1002,6 +1002,7 @@ MobileDB.GameObject = {
 	[381375] = true,	-- Dragonscale Expedition Flag
 	[381377] = true,	-- Dragonscale Expedition Flag
 	[381515] = true,	-- Hardened Serevite Deposit
+	[381516] = true,	-- Molten Serevite Deposit
 	[381519] = true,	-- Infurious Serevite Deposit
 	[381673] = true,	-- Gorloc Crystals
 	[382029] = true,	-- Disturbed Dirt

@@ -895,7 +895,7 @@ ihqt(232506, 85744);				-- Undermine Treatise on Skinning
 ihqt(232502, 85745);				-- Undermine Treatise on Tailoring
 ihqt(234746, 86755);				-- Venture Co.'s Trove (Honored)
 ihqt(235264, 86756);				-- Venture Co.'s Trove (Revered)
---ihqt(235265, 86757?);				-- Venture Co.'s Trove (Exalted)
+ihqt(235265, 86599);				-- Venture Co.'s Trove (Exalted)
 
 ------------------
 -- PATCH 11.1.5 --
