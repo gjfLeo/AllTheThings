@@ -845,13 +845,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				prof(LEATHERWORKING, {
-					-- #if AFTER CATA
 					n(5565, {	-- Jillian Tanner <Leatherworking Supplies>
 						["coord"] = { 71.7, 62.8, STORMWIND_CITY },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = appendGroups(COMMON_CATACLYSM_LEATHERWORKING_RECIPES, {}),
 					}),
-					-- #endif
 					n(5564, {	-- Simon Tanner <Expert Leatherworker>
 						["coords"] = {
 							-- #if AFTER WRATH

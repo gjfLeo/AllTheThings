@@ -136,8 +136,6 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						},
 					}),
 				}),
-				prof(FISHING, {
-				}),
 				prof(INSCRIPTION, {
 					n(30716, {	-- Thoth <Inscription Trainer>
 						["coord"] = { 40.5, 39.8, THE_EXODAR },
@@ -614,6 +612,11 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 						2509,    -- Ornate Blunderbuss
 						2511,    -- Hunter's Boomstick
 					}},
+				}),
+				n(16768, {	-- Nurguni <Tradesman>
+					["coord"] = { 57.0, 50.05, THE_EXODAR },
+					["races"] = ALLIANCE_ONLY,
+					-- Danny Donkey: Is used as a provider for reagents.
 				}),
 				n(16632, {	-- Oss
 					["coord"] = { 46.8, 60.4, THE_EXODAR },

@@ -759,6 +759,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 						845,    -- Tanned Leather Pants
 					}},
 				}),
+				n(16613, {	-- Parnis <Tradesman>
+					["coord"] = { 64.9, 64.7, SILVERMOON_CITY },
+					["races"] = HORDE_ONLY,
+					-- Danny Donkey: Is used as a provider for reagents.
+				}),
 				n(16678, {	-- Rahein <Blade Vendor>
 					["coord"] = { 52.6, 64.6, SILVERMOON_CITY },
 					["races"] = HORDE_ONLY,
