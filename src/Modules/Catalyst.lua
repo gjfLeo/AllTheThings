@@ -47,18 +47,35 @@ local CatalystInterchangeSlots = {
 	["INVTYPE_ROBE"] = {"INVTYPE_ROBE","INVTYPE_BODY","INVTYPE_CHEST"},
 }
 
+local CatalystArmorSubtypesByClass = {
+	[1] = 4,
+	[2] = 4,
+	[3] = 3,
+	[4] = 2,
+	[5] = 1,
+	[6] = 4,
+	[7] = 3,
+	[8] = 1,
+	[9] = 1,
+	[10] = 2,
+	[11] = 2,
+	[12] = 2,
+	[13] = 3,
+}
+local ClassArmorSubtype = CatalystArmorSubtypesByClass[app.ClassIndex]
+
 local function GetCatalystSlot(data)
 	local link = data.link
 	if not link then return end
 
-	local itemID, _, _, itemEquipLoc, _, classID, _ = C_Item_GetItemInfoInstant(link)
+	local itemID, _, _, itemEquipLoc, _, classID, subclassID = C_Item_GetItemInfoInstant(link)
 	if not itemID then return end
 
-	-- Armor only
-	if classID ~= 4 then return end
+	-- Armor only / Slot
+	if classID ~= 4 or not CatalystArmorSlots[itemEquipLoc] then return end
 
-	-- Slot
-	if not CatalystArmorSlots[itemEquipLoc] then return end
+	-- Correct Armor type for current Class (or a Cloth Cloak)
+	if subclassID ~= ClassArmorSubtype or (itemEquipLoc == "INVTYPE_CLOAK" and subclassID == 1) then return end
 
 	return itemEquipLoc
 end
