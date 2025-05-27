@@ -1020,6 +1020,42 @@ else
 		local data = achievementCategoryData[t.achievementCategoryID];
 		return data and data.parent or -1;
 	end
+	
+	
+	local onTooltipForAchievement = function(t, tooltipInfo)
+		local data = achievementData[t.achievementID];
+		if data and data.criteria and IsShiftKeyDown() then
+			local criteriaDatas,criteriaDatasByUID = {}, {};
+			for i,__criteriaUID in ipairs(data.criteria) do
+				local criteria = AchievementCriteriaData[__criteriaUID];
+				if criteria then
+					criteriaDatasByUID[__criteriaUID] = true;
+					tinsert(criteriaDatas, {
+						" [" .. __criteriaUID .. "]: " .. tostring(criteria.text),
+						"(" .. tostring(criteria.asset or "--") .. " @ " .. tostring(criteria.type) .. ") " .. tostring(criteria.progress) .. " / " .. tostring(criteria.total) .. " " .. app.GetCompletionIcon(criteria.collected)
+					});
+				end
+			end
+			if #criteriaDatas > 0 then
+				tinsert(tooltipInfo, { left = " " });
+				tinsert(tooltipInfo, {
+					left = "Total Criteria",
+					right = tostring(#criteriaDatas),
+					r = 0.8, g = 0.8, b = 1
+				});
+				for i,criteriaData in ipairs(criteriaDatas) do
+					tinsert(tooltipInfo, {
+						left = criteriaData[1],
+						right = criteriaData[2],
+						r = 1, g = 1, b = 1
+					});
+				end
+			end
+		end
+	end
+	fields.OnTooltip = function()
+		return onTooltipForAchievement;
+	end
 
 	local fieldsWithSpellID = {
 		OnUpdate = function(t)
