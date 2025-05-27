@@ -2833,7 +2833,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(RIDING_TRAINER, {
 				n(4752, {	-- Kildar <Wolf Riding Instructor>
 					["coord"] = { 69.2, 13.0, ORGRIMMAR },
-					["races"] = { ORC, TROLL, UNDEAD },
+					["races"] = HORDE_ONLY,
 
 					-- Available to Orcs without faction requirements.
 					["minReputation"] = { FACTION_ORGRIMMAR, EXALTED },	-- Orgrimmar, Exalted.
