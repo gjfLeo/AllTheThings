@@ -2,8 +2,8 @@
 local _, app = ...;
 
 -- Globals
-local setmetatable,tonumber,ipairs,tremove
-	= setmetatable,tonumber,ipairs,tremove
+local setmetatable,tonumber,ipairs,tremove,unpack
+	= setmetatable,tonumber,ipairs,tremove,unpack
 
 -- WOWAPI
 local C_Item_GetItemInfoInstant,C_Item_GetItemUpgradeInfo
@@ -81,6 +81,12 @@ local CatalystArmorSlots = {
 	["INVTYPE_HAND"] = true,
 	["INVTYPE_CLOAK"] = true,
 	["INVTYPE_ROBE"] = true,
+}
+
+local CatalystInterchangeSlots = {
+	["INVTYPE_CHEST"] = {"INVTYPE_CHEST","INVTYPE_BODY","INVTYPE_ROBE"},
+	["INVTYPE_BODY"] = {"INVTYPE_BODY","INVTYPE_CHEST","INVTYPE_ROBE"},
+	["INVTYPE_ROBE"] = {"INVTYPE_ROBE","INVTYPE_BODY","INVTYPE_CHEST"},
 }
 
 local function GetCatalystSlot(data)
@@ -253,8 +259,14 @@ local function catalyst_select_proper_tier_item(ResolveFunctions)
 		-- app.PrintDebug("Class group contains",#searchResults,"items")
 
 		-- Match the slot
-		invtype(finalized, searchResults, o, "invtype", armorSlot)
-		-- app.PrintDebug("Filtered to",#searchResults,"via slot",armorSlot)
+		local interchanges = CatalystInterchangeSlots[armorSlot]
+		if interchanges then
+			invtype(finalized, searchResults, o, "invtype", unpack(interchanges))
+			-- app.PrintDebug("Filtered to",#searchResults,"via slot",unpack(interchanges))
+		else
+			invtype(finalized, searchResults, o, "invtype", armorSlot)
+			-- app.PrintDebug("Filtered to",#searchResults,"via slot",armorSlot)
+		end
 	end
 end
 
