@@ -292,7 +292,7 @@ local CreateCriteriaType = app.CreateClass("CriteriaType", "__criteriaUID", {
 "ForExploration", ForExplorationFields, function(t) return t.type == 43; end);
 
 -- Add Handlers for updating the completion status
-local AchievementCriteriaData = L.ACHIEVEMENT_CRITERIA_DATA or {};
+local AchievementCriteriaData = rawget(L, "ACHIEVEMENT_CRITERIA_DATA") or {};
 for id,criteria in pairs(AchievementCriteriaData) do
 	AchievementCriteriaData[id] = CreateCriteriaType(id, criteria);
 end
