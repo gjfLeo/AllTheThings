@@ -1,0 +1,3 @@
+ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
+127039,"Purchase 6 bank slots",127038,6,0,2002,0,1
+127038,,0,0,4,0,0,0
