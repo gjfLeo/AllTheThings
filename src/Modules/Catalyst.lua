@@ -75,7 +75,7 @@ local function GetCatalystSlot(data)
 	if classID ~= 4 or not CatalystArmorSlots[itemEquipLoc] then return end
 
 	-- Correct Armor type for current Class (or a Cloth Cloak)
-	if subclassID ~= ClassArmorSubtype or (itemEquipLoc == "INVTYPE_CLOAK" and subclassID == 1) then return end
+	if not (subclassID == ClassArmorSubtype or (itemEquipLoc == "INVTYPE_CLOAK" and subclassID == 1)) then return end
 
 	return itemEquipLoc
 end
