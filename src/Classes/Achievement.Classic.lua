@@ -167,7 +167,7 @@ local function GetRelatedThingsForQuest(t, objects)
 end
 local function GetRelatedThingsForReputation(t, objects)
 	local faction = app.CreateFaction(t.asset);
-	faction.minReputation = { t.asset, t.amount or 42000 };
+	if t.amount ~= 42000 then faction.minReputation = { t.asset, t.amount }; end
 	tinsert(objects, faction);
 end
 local function GetRelatedThingsForSkillRanks(t, objects)

@@ -862,11 +862,7 @@ local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB, group)
 		end
 	end
 end
-app.Settings.CreateInformationType("SourceLocations", {
-	priority = 2.7,
-	text = "Source Locations",
-	HideCheckBox = true,
-	keys = {
+local SourceShowKeys = {
 		["achievementID"] = true,
 		["creatureID"] = true,
 		["expansionID"] = false,
@@ -877,10 +873,17 @@ app.Settings.CreateInformationType("SourceLocations", {
 		["itemID"] = true,
 		["speciesID"] = true,
 		["titleID"] = true,
-	},
+	};
+if app.GameBuildVersion < 20000 then
+	SourceShowKeys.spellID = true;
+end
+app.Settings.CreateInformationType("SourceLocations", {
+	priority = 2.7,
+	text = "Source Locations",
+	HideCheckBox = true,
 	Process = function(t, data, tooltipInfo)
 		local key, id = data.key, data[data.key];
-		if key and id and t.keys[key] then
+		if key and id and SourceShowKeys[key] then
 			if tooltipInfo.hasSourceLocations then return; end
 			AddSourceLinesForTooltip(tooltipInfo, key, id, app.SearchForField(key, id));
 		end
