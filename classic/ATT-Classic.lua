@@ -347,10 +347,6 @@ ResolveSymbolicLink = function(o)
 				end
 			elseif cmd == "selectprofession" then
 				local requireSkill, response = sym[2], nil;
-				if app.Categories.Achievements then
-					response = app:BuildSearchResponse(app.Categories.Achievements, "requireSkill", requireSkill);
-					if response then tinsert(searchResults, {text=ACHIEVEMENTS,icon = app.asset("Category_Achievements"),g=response}); end
-				end
 				response = app:BuildSearchResponse(app.Categories.Instances, "requireSkill", requireSkill);
 				if response then tinsert(searchResults, {text=GROUP_FINDER,icon = app.asset("Category_D&R"),g=response}); end
 				response = app:BuildSearchResponse(app.Categories.Zones, "requireSkill", requireSkill);
@@ -1651,6 +1647,14 @@ function app:GetDataCache()
 		if app.Categories.InGameShop then
 			tinsert(g, app.CreateNPC(app.HeaderConstants.IN_GAME_SHOP, {
 				g = app.Categories.InGameShop,
+				expanded = false
+			}));
+		end
+		
+		-- Pet Battles
+		if app.Categories.PetBattles then
+			tinsert(g, app.CreateNPC(app.HeaderConstants.PET_BATTLE, {
+				g = app.Categories.PetBattles,
 				expanded = false
 			}));
 		end

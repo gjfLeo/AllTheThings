@@ -53,16 +53,16 @@ local function achievementSort(a, b)
 	end
 	if a.rank then
 		if b.rank then
-			if a.f then
-				if b.f then
-					if a.f == b.f then
+			if a.type then
+				if b.type then
+					if a.type == b.type then
 						return a.rank < b.rank;
 					else
-						return a.f < b.f;
+						return a.type < b.type;
 					end
 				end
 				return true;
-			elseif b.f then
+			elseif b.type then
 				return false;
 			end
 			return a.rank < b.rank;
@@ -83,6 +83,7 @@ app:CreateWindow("Achievements", {
 	OnInit = function(self, handlers)
 		self.data = app.CreateCustomHeader(app.HeaderConstants.ACHIEVEMENTS, {
 			description = "This list shows you all of the achievements that you can collect.",
+			IgnoreBuildRequests = true,
 			visible = true,
 			expanded = true,
 			back = 1,
@@ -194,7 +195,6 @@ app:CreateWindow("Achievements", {
 				data.OnUpdate = nil;
 			end
 		});
-		app.CacheFields(self.data);
 		if not (GetCategoryInfo and GetCategoryInfo(92) ~= "") then
 			self.data.description = "This section isn't a thing until Wrath, but by popular demand and my own insanity, I've added this section so you can track your progress for at least one of the big ticket achievements if you have the stomach for it.";
 		end
