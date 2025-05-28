@@ -97,6 +97,7 @@ local GeneralSettingsBase = {
 		["Window:BorderColor"] = { r = 1, g = 1, b = 1, a = 1 },
 		["Window:UseClassForBorder"] = false,
 		["Window:CustomColors"] = {},	-- CRIEVE NOTE: Look into what this does, I'm not sure.
+		["PresetRestore"] = {},
 	},
 };
 local FilterSettingsBase = {
