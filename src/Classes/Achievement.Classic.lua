@@ -916,7 +916,6 @@ local fields = {
 	["parentCategoryID"] = function(t)
 		return -1;
 	end,
-	["OnUpdate"] = function(t) ResolveSymbolicLink(t); end,
 	["GetRelatedThings"] = function(t)
 		return app.EmptyFunction;
 	end,
