@@ -626,14 +626,7 @@ ResolveSymbolicLink = function(o)
                 end
 			elseif cmd == "partial_achievement" then
                 -- Instruction to search the full database for an achievementID and persist the associated Criteria
-                local cache = app.SearchForField("achievementID", sym[2])
-				local crit
-				for i=1,#cache do
-					crit = cache[i]
-					if crit.criteriaID then
-						searchResults[#searchResults + 1] = crit
-					end
-				end
+                -- Do nothing, this is done in the mini list instead. We don't want to build a useless list of criteria.
 			end
 		end
 

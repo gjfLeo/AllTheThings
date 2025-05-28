@@ -2541,7 +2541,11 @@ local function OnInitForPopout(self, questID, group)
 		end
 
 		if not self.data.ignoreSourceLookup then
-			local results = app:BuildSearchResponse(app:GetDataCache().g, dataKey, self.data[dataKey]);
+			local searchID = self.data[dataKey];
+			if self.data.sym and self.data.sym[1][1] == "partial_achievement" then
+				searchID = self.data.sym[1][2];
+			end
+			local results = app:BuildSearchResponse(app:GetDataCache().g, dataKey, searchID);
 			if results and #results > 0 then
 				if not self.data.g then self.data.g = {}; end
 				for i,result in ipairs(results) do
