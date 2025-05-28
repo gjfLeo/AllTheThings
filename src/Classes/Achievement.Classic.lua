@@ -552,20 +552,18 @@ local criteriaFields = {
 		return t.criteriaParent.coords;
 	end,
 	["lvl"] = function(t)
-		return t.criteriaParent.lvl or t.achievementData.lvl;
+		return t.achievementData.lvl or t.criteriaParent.lvl;
+	end,
+	["c"] = function(t)
+		return t.achievementData.c or t.criteriaParent.c;
 	end,
 	["r"] = function(t)
-		return t.criteriaParent.r or t.achievementData.r;
+		return t.achievementData.r or t.criteriaParent.r;
 	end,
-	["classes"] = function(t)
-		return t.criteriaParent.classes or t.achievementData.classes;
-	end,
-	["nmr"] = function(t)
-		return t.criteriaParent.nmr or t.achievementData.nmr;
-	end,
-	["nmc"] = function(t)
-		return t.criteriaParent.nmc or t.achievementData.nmc;
-	end,
+};
+local validAchievementKeys = {
+	achievementID = true,
+	guildAchievementID = true
 };
 local GetAchievementCriteriaInfoByID = GetAchievementCriteriaInfoByID;
 if GetAchievementCriteriaInfoByID then
@@ -646,6 +644,34 @@ if GetAchievementCriteriaInfoByID then
 	end
 	criteriaFields.OnTooltip = function()
 		return onTooltipForAchievementCriteria;
+	end
+	
+	local achievementCacheByID = setmetatable({}, {
+		__index = function(t, id)
+			local searchResults = SearchForField("achievementID", id);
+			if searchResults then
+				for i,achievement in ipairs(searchResults) do
+					if validAchievementKeys[achievement.key] then
+						t[id] = achievement;
+						return achievement;
+					end
+				end
+			end
+			print("FAILED TO CACHE ACHIEVEMENT", id);
+			local achievement = app.EmptyTable;
+			t[id] = achievement;
+			return achievement;
+		end,
+	});
+	local ogCriteriaFields = {
+		lvl = criteriaFields.lvl,
+		c = criteriaFields.c,
+		r = criteriaFields.r,
+	}
+	for key,_ in pairs(ogCriteriaFields) do
+		criteriaFields[key] = function(t)
+			return achievementCacheByID[t.achievementID][key] or ogCriteriaFields[key](t);
+		end
 	end
 end
 local function OnTooltipForAchievementCriteriaData(t, tooltipInfo)
@@ -1006,26 +1032,31 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 		achievementID = tonumber(achievementID) or achievementID;
 		local collected = select(13, GetAchievementInfo(achievementID));
 		if collected ~= app.CurrentCharacter.Achievements[achievementID] then
+			local reference;
 			for i,o in ipairs(SearchForField("achievementID", achievementID)) do
-				if o.key == "achievementID" then
-					SetAchievementCollected(o, achievementID, collected);
-					return;
+				if o.key == "achievementID" or o.key == "guildAchievementID" then
+					reference = o;
+					break;
 				end
 			end
-			SetAchievementCollected(app.CreateAchievement(achievementID), achievementID, collected);
+			SetAchievementCollected(reference or app.CreateAchievement(achievementID), achievementID, collected);
 		end
 	end
 	local function refreshAchievementCollection()
 		if ATTAccountWideData then
+			local charAchievements = app.CurrentCharacter.Achievements;
 			for achievementID,container in pairs(SearchForFieldContainer("achievementID")) do
 				if not AchievementData[achievementID] then
 					local collected = select(13, GetAchievementInfo(achievementID));
-					if collected ~= app.CurrentCharacter.Achievements[achievementID] then
+					if collected ~= charAchievements[achievementID] then
+						local reference;
 						for i,o in ipairs(container) do
-							if o.key == "achievementID" then
-								SetAchievementCollected(o, achievementID, collected);
+							if validAchievementKeys[o.key] then
+								reference = o;
+								break;
 							end
 						end
+						SetAchievementCollected(reference or app.CreateAchievement(achievementID), achievementID, collected);
 					end
 				end
 			end

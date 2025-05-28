@@ -191,8 +191,6 @@ MergeObject = function(g, t, index)
 					rawset(o, k, v);
 				end
 			end
-			rawset(o, "nmr", (o.races and not contains(o.races, app.RaceIndex)) or (o.r and o.r ~= app.FactionID));
-			rawset(o, "nmc", o.c and not contains(o.c, app.ClassIndex));
 			return o;
 		end
 	end
