@@ -133,6 +133,7 @@ local function GetCatalyst(data)
 	-- Copy all but the catalyst bonusID to the resulting item
 	tremove(bonuses, app.indexOf(bonuses, bonusID))
 	catalystResult.bonuses = app.CloneArray(bonuses)
+	catalystResult.containsType = "CATALYST"
 
 	-- app.PrintDebug("Catalyst Result:",catalystResult.hash,app:SearchLink(catalystResult))
 	-- app.PrintTable(catalystResult.bonuses)
@@ -190,3 +191,7 @@ api.ViaCatalyst = function(t)
 	local cata = t._cata or GetCatalyst(t);
 	if cata then return cata end
 end
+
+-- TODO: some way to fill AccountMode/ItemUnbound Catalyst results. Since this typically only happens within Tooltips (other than Item link popouts)
+-- we can dynamically add the extra Fill operation into the Fill sequence based on the Fill Source?? and also only when necessary based on Settings
+-- potentially even the Fill sequence could then be split based on the Source being Filled instead of checking (Window/Tooltip)

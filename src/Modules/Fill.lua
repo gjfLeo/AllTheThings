@@ -93,6 +93,7 @@ end
 
 -- TODO: allow Modules to define Fill functions and use that for Cost/Upgrade/Catalyst/Reagents?
 -- TODO: Settings automatically updated via Modules adding Fill functions
+-- TODO: splitting Fill functions by Fill Source? (Window vs Tooltip)
 
 -- Determines searches required for catalyst using this group
 local function DetermineCatalystGroups(group, FillData)
@@ -259,6 +260,7 @@ local function DetermineCraftedGroups(group, FillData)
 			search = (search and CreateObject(search)) or app.CreateItem(craftedItemID)
 			-- link the respective crafted item object to the skill required by the crafting recipe
 			search.requireSkill = skillID
+			search.containsType = "REAGENT"
 			-- app.PrintDebug("craftedItemID",app:RawSearchLink("itemID",craftedItemID),"via skill",app:RawSearchLink("professionID",skillID),skillID)
 			groups[#groups + 1] = search
 		end
