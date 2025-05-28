@@ -1055,6 +1055,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 								{ "o", 517350 },	-- Cursed Horseshoe (Old Town)
 								{ "o", 517348 },	-- Cursed Horseshoe (Trade)
 								{ "o", 517349 },	-- Cursed Horseshoe (Mage)
+								{ "n", 238549 },	-- Forge
 							},
 							["coords"] = {
 								{ 56.0, 55.5, RE_HORRIFIC_STORMWIND },	-- Cathedral Horseshoe (517344)
