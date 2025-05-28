@@ -85,6 +85,7 @@ local GeneralSettingsBase = {
 		["Show:CollectedThings"] = false,
 		["Show:OnlyActiveEvents"] = true,
 		["Show:PetBattles"] = true,
+		["Show:Skyriding"] = true,
 		["Show:UnavailablePersonalLoot"] = true,
 		["Hide:PvP"] = false,
 		["Dynamic:Style"] = 1,
