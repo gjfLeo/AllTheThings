@@ -43,21 +43,7 @@ root(ROOTS.Zones, {
 									["provider"] = { "i", 102146 },
 								}),
 							}),
-							petbattle(ach(8518, {	-- Master of the Master
-								crit(23620),	-- Blingtron 4000
-								crit(23610),	-- Wrathion
-								crit(23611),	-- Lorewalker Cho
-								crit(23616),	-- Chen Stormstout
-								crit(23619),	-- Wise Mari
-								crit(23607),	-- Shademaster Kiryn
-								crit(23617),	-- Sully "The Pickle" McLeary
-								crit(23618),	-- Taran Zhu
-								crit(23621),	-- Dr. Ion Goldbloom
-								crit(23612),	-- Xu-Fu, Cub of Xuen
-								crit(23615),	-- Chi-Chi, Hatchling of Chi-Ji
-								crit(23614),	-- Zao, Calfling of Niuzao
-								crit(23613),	-- Yu'la, Broodling of Yu'lon
-							})),
+							petbattle(ach(8518)),	-- Master of the Master
 							ach(8410),	-- The Celestial Tournament
 						}),
 						n(PET_BATTLE, {
@@ -66,6 +52,9 @@ root(ROOTS.Zones, {
 							}),
 							n(71927, {	-- Chen Stormstout
 								["coord"] = { 34.8, 59.6, 571 },
+							}),
+							n(72285, {	-- Chi-Chi, Hatchling of Chi-Ji
+								["coord"] = { 38.0, 55.2, 571 },
 							}),
 							n(71934, {	-- Dr. Ion Goldbloom <Jurassic Expedition>
 								["coord"] = { 34.8, 59.6, 571 },
@@ -87,6 +76,15 @@ root(ROOTS.Zones, {
 							}),
 							n(71924, {	-- Wrathion <The Black Prince>
 								["coord"] = { 37.8, 57.2, 571 },
+							}),
+							n(72009, {	-- Xu-Fu, Cub of Xuen
+								["coord"] = { 39.8, 55.2, 571 },
+							}),
+							n(72291, {	-- Yu'la, Broodling of Yu'lon
+								["coord"] = { 39.0, 56.4, 571 },
+							}),
+							n(72290, {	-- Zao, Calfling of Niuzao
+								["coord"] = { 39.0, 53.8, 571 },
 							}),
 						}),
 						n(QUESTS, {
