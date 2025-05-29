@@ -3,6 +3,7 @@ SET BUILD=5.5.0.61051
 
 @REM Download new file versions
 call :download Achievement
+call :download BattlePetSpecies
 call :download Criteria
 call :download CriteriaTree
 call :download GlyphProperties
@@ -28,6 +29,8 @@ if not exist "%1.%BUILD%.csv" (
 	)
 	if "%1" == "WorldMapOverlay" (
 		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/worldmapoverlay/csv?build=%BUILD%"
+	) else if "%1" == "BattlePetSpecies" (
+		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/battlepetspecies/csv?build=%BUILD%"
 	) else (
 		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/%1/csv?build=%BUILD%"
 	)

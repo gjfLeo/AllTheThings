@@ -2,6 +2,7 @@
 @REM Download new file versions
 call :download Achievement
 call :download ArtifactAppearance
+call :download BattlePetSpecies
 call :download Criteria
 call :download CriteriaTree
 call :download GlyphProperties
@@ -30,6 +31,8 @@ if exist "%1*.csv" (
 )
 if "%1" == "WorldMapOverlay" (
 	curl -o "%1.csv" "https://wago.tools/db2/worldmapoverlay/csv"
+) else if "%1" == "BattlePetSpecies" (
+	curl -o "%1.csv" "https://wago.tools/db2/battlepetspecies/csv"
 ) else (
 	curl -o "%1.csv" "https://wago.tools/db2/%1/csv"
 )
