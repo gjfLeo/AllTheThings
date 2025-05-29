@@ -162,24 +162,12 @@ local ActiveFillFunctions = {}
 -- TODO: TBD by functions/values provided by the Modules which define the Fillers
 local FillPriority = {
 	"UPGRADE",
-	"CATALYST",
 	"PURCHASE",
 	"SYMLINK",
 	"CRAFTED",
 }
 -- TODO: TBD provided by the Modules which define the Fillers
 local FillFunctions = {
-	CATALYST = function(group, FillData)
-		local catalystResult = group.catalystResult;
-		if catalystResult then
-			if not catalystResult.collected then
-				group.filledCatalyst = true;
-			end
-			-- app.PrintDebug("filledCatalyst=",catalystResult.modItemID,catalystResult.collected,"<",group.modItemID)
-			local o = CreateObject(catalystResult);
-			return { o };
-		end
-	end,
 	UPGRADE = function(group, FillData)
 		local nextUpgrade = group.nextUpgrade;
 		if nextUpgrade then
@@ -463,8 +451,8 @@ app.AddEventHandler("OnStartup", function()
 	app.AddEventHandler("Fill.RefreshFillers", RefreshActiveFillFunctions)
 	-- add event sequences for filler changes later (this ensures that the refresh event is performed via callback)
 	app.LinkEventSequence("Fill.OnAddFiller", "Fill.RefreshFillers")
-	app.LinkEventSequence("Fill.ActivateFiller", "Fill.RefreshFillers")
-	app.LinkEventSequence("Fill.DeactivateFiller", "Fill.RefreshFillers")
+	app.LinkEventSequence("Fill.OnActivateFiller", "Fill.RefreshFillers")
+	app.LinkEventSequence("Fill.OnDeactivateFiller", "Fill.RefreshFillers")
 end)
 
 -- TODO: how to handle agnostic Filler priorities?
@@ -548,7 +536,7 @@ api.ActivateFiller = function(name)
 		filler = FillPriority[i]
 	end
 
-	app.HandleEvent("Fill.ActivateFiller",name)
+	app.HandleEvent("Fill.OnActivateFiller",name)
 end
 
 -- Handles making an existing Filler inactive, whether or not it is already present within FillPriority
@@ -577,7 +565,7 @@ api.DeactivateFiller = function(name)
 	if not filler then
 		-- app.PrintDebug("Fill.DeactivateFiller.Backup",i,name)
 		FillPriority[i] = name
-		app.HandleEvent("Fill.DeactivateFiller",name)
+		app.HandleEvent("Fill.OnDeactivateFiller",name)
 	end
 end
 
