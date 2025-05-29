@@ -162,33 +162,7 @@ root(ROOTS.PVP, pvp(n(ACHIEVEMENTS, {
 	ach(19417, {		-- Brawlroom Blitzer
 		["timeline"] = { ADDED_10_2_0 },
 	}),
-	applyclassicphase(PHASE_TWO, ach(727, {	-- Call in the Cavalry (automated)
-	-- #IF ANYCLASSIC
-	-- @Crieve: This should be automated now
-		["providers"] = {
-			{ "i", 18243 },	-- Black Battlestrider (Original)
-			{ "i", 18247 },	-- Black War Kodo (Original)
-			{ "i", 18244 },	-- Black War Ram (Original)
-			{ "i", 18241 },	-- Black War Steed Bridle (Original)
-			{ "i", 18245 },	-- Horn of the Black War Wolf (Original)
-			{ "i", 18248 },	-- Red Skeletal Warhorse (Original)
-			{ "i", 18242 },	-- Reins of the Black War Tiger (Original)
-			{ "i", 18246 },	-- Whistle of the Black War Raptor (Original)
-			-- #if AFTER TBC
-			{ "i", 29465 },	-- Black Battlestrider
-			{ "i", 29466 },	-- Black War Kodo
-			{ "i", 29467 },	-- Black War Ram
-			{ "i", 29468 },	-- Black War Steed Bridle
-			{ "i", 29469 },	-- Horn of the Black War Wolf
-			{ "i", 29470 },	-- Red Skeletal Warhorse
-			{ "i", 35906 },	-- Reins of the Black War Elekk
-			{ "i", 29471 },	-- Reins of the Black War Tiger
-			{ "i", 34129 },	-- Swift Warstrider
-			{ "i", 29472 },	-- Whistle of the Black War Raptor
-			-- #endif
-		},
-		-- #ENDIF
-	})),
+	applyclassicphase(PHASE_TWO, ach(727)),	-- Call in the Cavalry (automated)
 	applyclassicphase(WRATH_PHASE_ONE, ach(908, {	-- Call to Arms! (Alliance)
 		["timeline"] = { ADDED_3_0_2 },
 		["races"] = ALLIANCE_ONLY,
