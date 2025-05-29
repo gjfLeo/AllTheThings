@@ -34825,21 +34825,6 @@ i(188187),	-- Quickfinger Pocketlifters
 i(188188),	-- Worldbinder Tricorne
 i(188189),	-- Shadowwrap Leggings
 i(188190),	-- Shoulderpads of the Primordial
-10.0.0.44649
-i(191421),	-- Rudimentary Magical Lockpick
-i(192558),	-- Emerald Tear
-10.0.2.46144
-i(202083),	-- Tyler's Test Box
-i(202103),	-- Immaculate Sac of Swog Treasures
-i(202104),	-- Weighted Sac of Swog Treasures
-10.2.0.51297
-i(210768),	-- Viridescent Bouquet of Aspect's Dreaming Crests \\ Bouquet of Aspect's Dreaming Crests
-10.2.0.51425
-i(210923),	-- Clutch of Wyrm's Dreaming Crests
-10.2.5.52968
-i(211248),	-- Scarlet Explosives
-10.2.6.53840
-i(220205),	-- Satchel of Drake's Dreaming Crests
 11.1.7.60520
 i(244053),	-- Ashvane Smuggler's Kilt
 i(244054),	-- Ashvane Smuggler's Longcoat

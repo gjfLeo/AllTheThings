@@ -1166,6 +1166,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(200937),	-- Flavorful Soup Bone
 			i(201423),	-- Hallowed Helm
 			i(200965),	-- Horde Dueling Flag
+			i(202103),	-- Immaculate Sac of Swog Treasures
 			i(201723),	-- Indecipherable Pages
 			i(193054),	-- Luxurious Loop
 			i(201200),	-- Makeshift Totem
@@ -1187,6 +1188,8 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(192696),	-- Third Head's Eye
 			i(201223),	-- Thorn Bracelet
 			i(193447),	-- Thunder Thigh
+			i(202083),	-- Tyler's Test Box
+			i(202104),	-- Weighted Sac of Swog Treasures
 		})),
 
 		-- 10.0.5

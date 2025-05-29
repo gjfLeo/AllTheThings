@@ -1282,6 +1282,7 @@ i(192689);	-- Eagle Eye
 i(192614);	-- Elemental Ooze
 i(200648);	-- Elemental Shatter
 i(201467);	-- Emerald Bloom
+i(192558);	-- Emerald Tear
 i(193849);	-- Emptied Satchel
 i(201195);	-- Empty Herb Pouch
 i(200685);	-- Enchanted Compass
@@ -1426,6 +1427,7 @@ i(192718);	-- Rock-Hard Eggshell
 i(192650);	-- Roomy Shell
 i(201186);	-- Rope Bonds
 i(200796);	-- Rotting Wood Totem
+i(191421);	-- Rudimentary Magical Lockpick
 i(200808);	-- Runestone Shards
 i(200835);	-- Sand Pouch
 i(192719);	-- Scaled Toes
@@ -1697,6 +1699,7 @@ i(212649);	-- Quilted Tent Scrap
 i(213184);	-- Rock with Chewed Gum
 i(213030);	-- Rusty Garden Shears
 i(212688);	-- Salt-dried Roots
+i(211248);	-- Scarlet Explosives
 i(211937);	-- Scarlet Pendant
 i(211943);	-- Scarlet Silk Bandage
 i(213368);	-- Scratch-and-Sniff Stone
@@ -1733,6 +1736,7 @@ i(212345);	-- Hunted Hakkari Blood
 i(211695);	-- Jagged Crystallized Eye
 i(212352);	-- Mosh'Ogg Totem
 i(211694);	-- Oozing Felfang
+i(220205);	-- Satchel of Drake's Dreaming Crests
 i(224009);	-- Survivalist's Biscuit
 i(224010);	-- Survivalist's Purified Water
 i(224021);	-- Survivalist's Healing Potion
