@@ -161,7 +161,6 @@ end
 local ActiveFillFunctions = {}
 -- TODO: TBD by functions/values provided by the Modules which define the Fillers
 local FillPriority = {
-	[-1] = "NPC",
 	"UPGRADE",
 	"CATALYST",
 	"PURCHASE",
@@ -407,6 +406,7 @@ local function RefreshActiveFillFunctions()
 	wipe(ActiveFillFunctions)
 	for i=1,#FillPriority do
 		ActiveFillFunctions[#ActiveFillFunctions + 1] = FillFunctions[FillPriority[i]]
+		-- app.PrintDebug("ActiveFiller",i,ActiveFillFunctions[i])
 	end
 	-- was there a change in fillers?
 	if ActiveFillers ~= #ActiveFillFunctions then
@@ -414,55 +414,63 @@ local function RefreshActiveFillFunctions()
 		-- only one is minilist can rebuild
 	end
 end
+local function ToggleFiller(name, active)
+	-- if ever 'false' settings require active fillers, then figure that out
+	if active then
+		api.ActivateFiller(name)
+	else
+		api.DeactivateFiller(name)
+	end
+end
+local function ToggleFillersBySetting(container, key)
+	local check = SettingsBasedFillers[container]
+	if not check then return end
+
+	check = check[key]
+	if not check then return end
+
+	local value = app.Settings:GetValue(container, key)
+	for i=1,#check do
+		ToggleFiller(check[i], value)
+	end
+end
+local function ToggleFillersBySettingValue(container, key, value)
+	local check = SettingsBasedFillers[container]
+	if not check then return end
+
+	check = check[key]
+	if not check then return end
+
+	for i=1,#check do
+		ToggleFiller(check[i], value)
+	end
+end
 app.AddEventHandler("OnStartup", function()
-	local GetValue = app.Settings.GetValue
 	-- sync the active fillers with any fillers based on Settings
 	for container,keys in pairs(SettingsBasedFillers) do
 		for key,fillers in pairs(keys) do
-			-- if ever 'false' settings require active fillers, then figure that out
-			if GetValue(nil, container, key) then
-				for i=1,#fillers do
-					api.ActivateFiller(fillers[i])
-				end
-			else
-				for i=1,#fillers do
-					api.DeactivateFiller(fillers[i])
-				end
-			end
+			ToggleFillersBySetting(container, key)
 		end
 	end
 	RefreshActiveFillFunctions()
 
 	-- add a OnSet handler for settings changes later
 	app.AddEventHandler("Settings.OnSet", function(container, key, value)
-		local check = SettingsBasedFillers[container]
-		if not check then return end
-
-		check = check[key]
-		if not check then return end
-
-		-- if ever 'false' settings require active fillers, then figure that out
-		if value then
-			for i=1,#check do
-				api.ActivateFiller(check[i])
-			end
-		else
-			for i=1,#check do
-				api.DeactivateFiller(check[i])
-			end
-		end
-		RefreshActiveFillFunctions()
+		ToggleFillersBySettingValue(container, key, value)
 	end)
 
-	-- add handlers for filler changes later
-	app.AddEventHandler("Fill.OnAddFiller", RefreshActiveFillFunctions)
-	app.AddEventHandler("Fill.ActivateFiller", RefreshActiveFillFunctions)
-	app.AddEventHandler("Fill.DeactivateFiller", RefreshActiveFillFunctions)
+	-- add a refresh fillers event
+	app.AddEventHandler("Fill.RefreshFillers", RefreshActiveFillFunctions)
+	-- add event sequences for filler changes later (this ensures that the refresh event is performed via callback)
+	app.LinkEventSequence("Fill.OnAddFiller", "Fill.RefreshFillers")
+	app.LinkEventSequence("Fill.ActivateFiller", "Fill.RefreshFillers")
+	app.LinkEventSequence("Fill.DeactivateFiller", "Fill.RefreshFillers")
 end)
 
 -- TODO: how to handle agnostic Filler priorities?
 -- Allows adding a Filler to the set of FillFunctions
-api.AddFiller = function(name, func)
+-- options.Settings.[Container|Key]
+api.AddFiller = function(name, func, options)
 	if not name then error("Fill.AddFiller - Requires a 'name'") end
 	if not func or type(func) ~= "function" then error("Fill.AddFillter - Requires a 'func' provided as a function which accepts a 'group' and 'FillData'") end
 
@@ -472,10 +480,35 @@ api.AddFiller = function(name, func)
 	FillFunctions[name] = func
 	FillPriority[#FillPriority + 1] = name
 
+	if options then
+		-- linked to a Settings value
+		if options.Settings then
+			local container = options.Settings.Container
+			local key = options.Settings.Key
+			if not container and not key then error("Fill.AddFiller - Requires both options.Settings.Container or options.Settings.Key for options.Settings: "..name) end
+
+			local settingscontainer = SettingsBasedFillers[container]
+			if not settingscontainer then
+				settingscontainer = {}
+				SettingsBasedFillers[container] = settingscontainer
+			end
+
+			local settingskey = settingscontainer[key]
+			if not settingskey then
+				settingskey = {}
+				settingscontainer[key] = settingskey
+			end
+
+			settingskey[#settingskey + 1] = name
+
+			ToggleFiller(name, app.Settings:GetValue(container, key))
+		end
+	end
+
 	app.HandleEvent("Fill.OnAddFiller",name)
 end
 
--- Handles making an existing Filler active
+-- Handles making an existing Filler active, whether or not it is already present within FillPriority
 api.ActivateFiller = function(name)
 	if not name then error("Fill.ActivateFiller - Requires a 'name'") end
 
@@ -490,8 +523,19 @@ api.ActivateFiller = function(name)
 		filler = FillPriority[i]
 	end
 	-- app.PrintDebug("Fill.ActivateFiller.Backup",i,filler)
-	-- already an active filler
-	if not filler then return end
+	-- already an active filler?
+	-- find the Filler index
+	if not filler then
+		i = 1
+		filler = FillPriority[i]
+		while (filler and filler ~= name) do
+			i = i + 1
+			filler = FillPriority[i]
+		end
+		-- app.PrintDebug("Fill.ActivateFiller.Active",i,filler)
+		-- it's already active, so return
+		if filler then return end
+	end
 
 	-- move the filter to the active filter set
 	FillPriority[#FillPriority + 1] = name
@@ -507,14 +551,14 @@ api.ActivateFiller = function(name)
 	app.HandleEvent("Fill.ActivateFiller",name)
 end
 
--- Handles making an existing Filler inactive
+-- Handles making an existing Filler inactive, whether or not it is already present within FillPriority
 api.DeactivateFiller = function(name)
 	if not name then error("Fill.DeactivateFiller - Requires a 'name'") end
 
 	name = name:upper()
 	if not FillFunctions[name] then error("Fill.DeactivateFiller - Filler is not defined: "..name) end
 
-	-- find the Filler index
+	-- find the Filler index if existing
 	for i=1,#FillPriority do
 		if FillPriority[i] == name then
 			-- app.PrintDebug("Fill.DeactivateFiller.Remove",name,i)
@@ -523,15 +567,18 @@ api.DeactivateFiller = function(name)
 		end
 	end
 
-	-- insert the Filler name in the next available negative index
+	-- find the next negative Filler index if not already deactivated
 	local i = -1
-	while (FillPriority[i]) do
+	local filler = FillPriority[i]
+	while (filler and filler ~= name) do
 		i = i - 1
+		filler = FillPriority[i]
 	end
-	-- app.PrintDebug("Fill.DeactivateFiller.Backup",i)
-	FillPriority[i] = name
-
-	app.HandleEvent("Fill.DeactivateFiller",name)
+	if not filler then
+		-- app.PrintDebug("Fill.DeactivateFiller.Backup",i,name)
+		FillPriority[i] = name
+		app.HandleEvent("Fill.DeactivateFiller",name)
+	end
 end
 
 local function FillGroupDirect(group, FillData, doDGU)
