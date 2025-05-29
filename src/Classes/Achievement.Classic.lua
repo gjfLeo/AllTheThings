@@ -906,13 +906,18 @@ local CreateAchievementDataType = app.CreateClass("AchievementDataType", "__achU
 for id,achievement in pairs(AchievementData) do
 	AchievementData[id] = CreateAchievementDataType(id, achievement);
 end
-app.AddEventHandler("OnRecalculate", function()
+local function RefreshAchievementData()
 	for id,achievement in pairs(AchievementData) do
 		if achievement.collectible then
 			SetAchievementCollected(achievement, id, achievement.collected);
 		end
 	end
-end);
+end
+app.AddEventHandler("OnRecalculate", RefreshAchievementData);
+if app.GameBuildVersion < 30000 then
+	app:RegisterEvent("PLAYERBANKSLOTS_CHANGED");
+	app.events.PLAYERBANKSLOTS_CHANGED = RefreshAchievementData;
+end
 
 -- Achievement Class Fields
 local fields = {
