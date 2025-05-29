@@ -161,11 +161,11 @@ end
 local ActiveFillFunctions = {}
 -- TODO: TBD by functions/values provided by the Modules which define the Fillers
 local FillPriority = {
+	[-1] = "NPC",
 	"UPGRADE",
 	"CATALYST",
 	"PURCHASE",
 	"SYMLINK",
-	"NPC",
 	"CRAFTED",
 }
 -- TODO: TBD provided by the Modules which define the Fillers
@@ -334,7 +334,7 @@ local FillFunctions = {
 	-- Pulls in Common drop content for specific NPCs if any exists
 	-- (so we don't need to always symlink every NPC which is included in common boss drops somewhere)
 	NPC = function(group, FillData)
-		if not FillData.NestNPCData or group.NestNPCDataSkip then return end
+		if group.NestNPCDataSkip then return end
 
 		local npcID = GetNpcIDForDrops(group)
 		if not npcID then return end
@@ -396,6 +396,12 @@ local FillFunctions = {
 	end
 }
 
+local SettingsBasedFillers = {
+	Tooltips = {
+		["NPCData:Nested"] = {"NPC"}
+	}
+}
+
 local function RefreshActiveFillFunctions()
 	local ActiveFillers = #ActiveFillFunctions
 	wipe(ActiveFillFunctions)
@@ -408,11 +414,51 @@ local function RefreshActiveFillFunctions()
 		-- only one is minilist can rebuild
 	end
 end
-app.AddEventHandler("OnLoad", RefreshActiveFillFunctions)
-app.AddEventHandler("OnSettingsRefreshed", RefreshActiveFillFunctions)
-app.AddEventHandler("Fill.OnAddFiller", RefreshActiveFillFunctions)
-app.AddEventHandler("Fill.ActivateFiller", RefreshActiveFillFunctions)
-app.AddEventHandler("Fill.DeactivateFiller", RefreshActiveFillFunctions)
+app.AddEventHandler("OnStartup", function()
+	local GetValue = app.Settings.GetValue
+	-- sync the active fillers with any fillers based on Settings
+	for container,keys in pairs(SettingsBasedFillers) do
+		for key,fillers in pairs(keys) do
+			-- if ever 'false' settings require active fillers, then figure that out
+			if GetValue(nil, container, key) then
+				for i=1,#fillers do
+					api.ActivateFiller(fillers[i])
+				end
+			else
+				for i=1,#fillers do
+					api.DeactivateFiller(fillers[i])
+				end
+			end
+		end
+	end
+	RefreshActiveFillFunctions()
+
+	-- add a OnSet handler for settings changes later
+	app.AddEventHandler("Settings.OnSet", function(container, key, value)
+		local check = SettingsBasedFillers[container]
+		if not check then return end
+
+		check = check[key]
+		if not check then return end
+
+		-- if ever 'false' settings require active fillers, then figure that out
+		if value then
+			for i=1,#check do
+				api.ActivateFiller(check[i])
+			end
+		else
+			for i=1,#check do
+				api.DeactivateFiller(check[i])
+			end
+		end
+		RefreshActiveFillFunctions()
+	end)
+
+	-- add handlers for filler changes later
+	app.AddEventHandler("Fill.OnAddFiller", RefreshActiveFillFunctions)
+	app.AddEventHandler("Fill.ActivateFiller", RefreshActiveFillFunctions)
+	app.AddEventHandler("Fill.DeactivateFiller", RefreshActiveFillFunctions)
+end)
 
 -- TODO: how to handle agnostic Filler priorities?
 -- Allows adding a Filler to the set of FillFunctions
@@ -426,7 +472,7 @@ api.AddFiller = function(name, func)
 	FillFunctions[name] = func
 	FillPriority[#FillPriority + 1] = name
 
-	app.HandleEvent("Fill.OnAddFiller")
+	app.HandleEvent("Fill.OnAddFiller",name)
 end
 
 -- Handles making an existing Filler active
@@ -458,7 +504,7 @@ api.ActivateFiller = function(name)
 		filler = FillPriority[i]
 	end
 
-	app.HandleEvent("Fill.ActivateFiller")
+	app.HandleEvent("Fill.ActivateFiller",name)
 end
 
 -- Handles making an existing Filler inactive
@@ -485,7 +531,7 @@ api.DeactivateFiller = function(name)
 	-- app.PrintDebug("Fill.DeactivateFiller.Backup",i)
 	FillPriority[i] = name
 
-	app.HandleEvent("Fill.DeactivateFiller")
+	app.HandleEvent("Fill.DeactivateFiller",name)
 end
 
 local function FillGroupDirect(group, FillData, doDGU)
@@ -631,7 +677,6 @@ local FillGroups = function(group)
 		NextLayer = {},
 		-- CurrentLayer = 0,	-- debugging
 		InWindow = groupWindow and true or nil,
-		NestNPCData = app.Settings:GetTooltipSetting("NPCData:Nested"),
 		SkipLevel = app.GetSkipLevel(),
 		Root = group,
 		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0],
