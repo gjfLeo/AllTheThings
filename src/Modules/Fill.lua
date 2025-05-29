@@ -38,6 +38,11 @@ local wipe,pairs,ipairs,rawget,math_floor
 local SearchForObject, SearchForField, GetRelativeValue, ArrayAppend, AssignChildren
 	= app.SearchForObject, app.SearchForField, app.GetRelativeValue, app.ArrayAppend, app.AssignChildren
 
+-- Fill API Implementation
+-- Access via AllTheThings.Modules.Fill
+local api = {}
+app.Modules.Fill = api
+
 -- OnLoad locals
 local CreateObject, ResolveSymbolicLink, PriorityNestObjects, NPCExpandHeaders, ForceFillDB
 app.AddEventHandler("OnLoad", function()
@@ -392,13 +397,96 @@ local FillFunctions = {
 }
 
 local function RefreshActiveFillFunctions()
+	local ActiveFillers = #ActiveFillFunctions
 	wipe(ActiveFillFunctions)
 	for i=1,#FillPriority do
 		ActiveFillFunctions[#ActiveFillFunctions + 1] = FillFunctions[FillPriority[i]]
 	end
+	-- was there a change in fillers?
+	if ActiveFillers ~= #ActiveFillFunctions then
+		-- TODO: don't really have a consistent way to 'rebuild' any given window due to Filler changes...
+		-- only one is minilist can rebuild
+	end
 end
 app.AddEventHandler("OnLoad", RefreshActiveFillFunctions)
 app.AddEventHandler("OnSettingsRefreshed", RefreshActiveFillFunctions)
+app.AddEventHandler("Fill.OnAddFiller", RefreshActiveFillFunctions)
+app.AddEventHandler("Fill.ActivateFiller", RefreshActiveFillFunctions)
+app.AddEventHandler("Fill.DeactivateFiller", RefreshActiveFillFunctions)
+
+-- TODO: how to handle agnostic Filler priorities?
+-- Allows adding a Filler to the set of FillFunctions
+api.AddFiller = function(name, func)
+	if not name then error("Fill.AddFiller - Requires a 'name'") end
+	if not func or type(func) ~= "function" then error("Fill.AddFillter - Requires a 'func' provided as a function which accepts a 'group' and 'FillData'") end
+
+	name = name:upper()
+	if FillFunctions[name] then error("Fill.AddFiller - Duplicate Filler name: "..name) end
+
+	FillFunctions[name] = func
+	FillPriority[#FillPriority + 1] = name
+
+	app.HandleEvent("Fill.OnAddFiller")
+end
+
+-- Handles making an existing Filler active
+api.ActivateFiller = function(name)
+	if not name then error("Fill.ActivateFiller - Requires a 'name'") end
+
+	name = name:upper()
+	if not FillFunctions[name] then error("Fill.ActivateFiller - Filler is not defined: "..name) end
+
+	-- find the negative Filler index
+	local i = -1
+	local filler = FillPriority[i]
+	while (filler and filler ~= name) do
+		i = i - 1
+		filler = FillPriority[i]
+	end
+	-- app.PrintDebug("Fill.ActivateFiller.Backup",i,filler)
+	-- already an active filler
+	if not filler then return end
+
+	-- move the filter to the active filter set
+	FillPriority[#FillPriority + 1] = name
+
+	-- remove the backup index and shift any further backups
+	while (filler) do
+		-- app.PrintDebug("Fill.ActivateFiller.Shifted",i,FillPriority[i - 1])
+		FillPriority[i] = FillPriority[i - 1]
+		i = i - 1
+		filler = FillPriority[i]
+	end
+
+	app.HandleEvent("Fill.ActivateFiller")
+end
+
+-- Handles making an existing Filler inactive
+api.DeactivateFiller = function(name)
+	if not name then error("Fill.DeactivateFiller - Requires a 'name'") end
+
+	name = name:upper()
+	if not FillFunctions[name] then error("Fill.DeactivateFiller - Filler is not defined: "..name) end
+
+	-- find the Filler index
+	for i=1,#FillPriority do
+		if FillPriority[i] == name then
+			-- app.PrintDebug("Fill.DeactivateFiller.Remove",name,i)
+			tremove(FillPriority, i)
+			break
+		end
+	end
+
+	-- insert the Filler name in the next available negative index
+	local i = -1
+	while (FillPriority[i]) do
+		i = i - 1
+	end
+	-- app.PrintDebug("Fill.DeactivateFiller.Backup",i)
+	FillPriority[i] = name
+
+	app.HandleEvent("Fill.DeactivateFiller")
+end
 
 local function FillGroupDirect(group, FillData, doDGU)
 	local ignoreSkip = group.sym or group.headerID or group.classID
