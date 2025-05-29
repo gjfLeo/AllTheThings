@@ -308,7 +308,7 @@ local FillFunctions = {
 		end
 		return groups;
 	end,
-	SYMLINK = function(group)
+	SYMLINK = function(group, FillData)
 		if group.sym then
 			-- app.PrintDebug("DSG-Now",app:SearchLink(group));
 			local groups = ResolveSymbolicLink(group);
@@ -391,12 +391,14 @@ local FillFunctions = {
 	end
 }
 
-app.AddEventHandler("OnSettingsRefreshed", function()
+local function RefreshActiveFillFunctions()
 	wipe(ActiveFillFunctions)
 	for i=1,#FillPriority do
 		ActiveFillFunctions[#ActiveFillFunctions + 1] = FillFunctions[FillPriority[i]]
 	end
-end)
+end
+app.AddEventHandler("OnLoad", RefreshActiveFillFunctions)
+app.AddEventHandler("OnSettingsRefreshed", RefreshActiveFillFunctions)
 
 local function FillGroupDirect(group, FillData, doDGU)
 	local ignoreSkip = group.sym or group.headerID or group.classID

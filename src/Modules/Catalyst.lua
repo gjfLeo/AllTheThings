@@ -133,7 +133,7 @@ local function GetCatalyst(data)
 	-- Copy all but the catalyst bonusID to the resulting item
 	tremove(bonuses, app.indexOf(bonuses, bonusID))
 	catalystResult.bonuses = app.CloneArray(bonuses)
-	-- Don't let a backed-in upgrade persist since our upgradeLevel might not allow it
+	-- Don't let a baked-in upgrade persist since our upgradeLevel might not allow it
 	catalystResult.up = nil
 	catalystResult.containsType = "CATALYST"
 
