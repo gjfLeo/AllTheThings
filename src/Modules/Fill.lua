@@ -31,8 +31,8 @@ if app.IsClassic then return end
 
 
 
-local wipe,pairs,ipairs,rawget,math_floor
-	= wipe,pairs,ipairs,rawget,math.floor
+local wipe,pairs,ipairs,rawget,math_floor,unpack
+	= wipe,pairs,ipairs,rawget,math.floor,unpack
 
 -- App locals
 local SearchForObject, SearchForField, GetRelativeValue, ArrayAppend, AssignChildren
@@ -119,6 +119,7 @@ local FillPriority = {
 }
 -- TODO: TBD provided by the Modules which define the Fillers
 local FillFunctions = {
+	-- TODO: Move to Reagents module once added
 	CRAFTED = function(group, FillData)
 		local itemID = group.itemID;
 		local itemRecipes = app.ReagentsDB[itemID];
@@ -198,6 +199,7 @@ local FillFunctions = {
 		end
 		return groups;
 	end,
+	-- TODO: Move to symlink module once added
 	SYMLINK = function(group, FillData)
 		if group.sym then
 			-- app.PrintDebug("DSG-Now",app:SearchLink(group));
@@ -469,11 +471,12 @@ end
 
 local function FillGroupDirect(group, FillData, doDGU)
 	local ignoreSkip = group.sym or group.headerID or group.classID
-	local groups = {}
-	-- TODO compare performance with table assigns and then unpack into single arrayappend, but probably worse?
+	local groups, temp = {}, {}
+	-- Unpack & single Append seems to typically be about 30% faster than repeat Append
 	for i=1,#ActiveFillFunctions do
-		ArrayAppend(groups, ActiveFillFunctions[i](group, FillData))
+		temp[#temp + 1] = ActiveFillFunctions[i](group, FillData)
 	end
+	ArrayAppend(groups, unpack(temp))
 
 	-- Adding the groups normally based on available-source priority
 	PriorityNestObjects(group, groups, nil, app.RecursiveCharacterRequirementsFilter, app.RecursiveGroupRequirementsFilter);
