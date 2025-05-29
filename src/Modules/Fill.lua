@@ -161,24 +161,12 @@ end
 local ActiveFillFunctions = {}
 -- TODO: TBD by functions/values provided by the Modules which define the Fillers
 local FillPriority = {
-	"UPGRADE",
 	"PURCHASE",
 	"SYMLINK",
 	"CRAFTED",
 }
 -- TODO: TBD provided by the Modules which define the Fillers
 local FillFunctions = {
-	UPGRADE = function(group, FillData)
-		local nextUpgrade = group.nextUpgrade;
-		if nextUpgrade then
-			if not nextUpgrade.collected then
-				group.filledUpgrade = true;
-			end
-			-- app.PrintDebug("filledUpgrade=",nextUpgrade.modItemID,nextUpgrade.collected,"<",group.modItemID)
-			local o = CreateObject(nextUpgrade);
-			return { o };
-		end
-	end,
 	PURCHASE = function(group, FillData)
 		-- do not fill purchases on certain items, can skip the skip though based on a level
 		if not ShouldFillPurchases(group, FillData) then return end

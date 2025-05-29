@@ -471,7 +471,6 @@ local itemFields = {
 	end,
 };
 -- Module imports
-itemFields.nextUpgrade = app.Modules.Upgrade.NextUpgrade;
 itemFields.collectibleAsUpgrade = app.Modules.Upgrade.CollectibleAsUpgrade;
 
 -- This is used for the Grand Commendations unlocking Bonus Reputation
