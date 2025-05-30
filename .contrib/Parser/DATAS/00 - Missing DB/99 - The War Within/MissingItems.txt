@@ -34812,19 +34812,6 @@ i(178012),	-- Spoiled Contaminant \\ TR: Versatile III - 20 Corruption \\ Preser
 i(178013),	-- Spoiled Contaminant \\ TR: Void Ritual I - 15 Corruption \\ Preserved Contaminant: Void Ritual
 i(178014),	-- Spoiled Contaminant \\ TR: Void Ritual II - 35 Corruption \\ Preserved Contaminant: Void Ritual
 i(178015),	-- Spoiled Contaminant \\ TR: Void Ritual III - 66 Corruption \\ Preserved Contaminant: Void Ritual
-9.2.0.41089
-i(188179),	-- Vest of the First Rogue
-i(188180),	-- Cloak of the First Rogue
-i(188181),	-- Gloves of the First Rogue
-i(188182),	-- Cavalier Hat of the First Rogue
-i(188183),	-- Pants of the First Rogue
-i(188184),	-- Shoulderpads of the First Rogue
-i(188185),	-- Indomitable Vest
-i(188186),	-- Drape of Dominion
-i(188187),	-- Quickfinger Pocketlifters
-i(188188),	-- Worldbinder Tricorne
-i(188189),	-- Shadowwrap Leggings
-i(188190),	-- Shoulderpads of the Primordial
 11.1.7.60520
 i(244053),	-- Ashvane Smuggler's Kilt
 i(244054),	-- Ashvane Smuggler's Longcoat
