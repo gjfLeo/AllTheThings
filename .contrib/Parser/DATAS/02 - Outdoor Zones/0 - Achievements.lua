@@ -1927,6 +1927,9 @@ root(ROOTS.Zones, {
 				crit(42349, {
 					["_quests"] = 51431,	-- Soul Goliath
 				}),
+				crit(42348, {
+					["_quests"] = 51433,	-- Matron Morana
+				}),
 			},
 		}),
 		petbattle(ach(6590, {		-- World Safari
