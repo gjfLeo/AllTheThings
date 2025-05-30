@@ -34722,43 +34722,6 @@ i(170907),	-- Felsoul Robe
 i(170908),	-- Felsoul Shoulderpads
 i(170909),	-- Felsoul Cord
 i(170910),	-- Felsoul Wristwraps
-i(174878),	-- Veteran Shattered Hand Specialists Contract
-i(174879),	-- Veteran Tauren Earthshakers Contract
-i(174880),	-- Veteran Darkspear Shaman Contract
-i(174881),	-- Veteran Forsaken Dreadguards Contract
-i(174882),	-- Veteran Silvermoon Sorceress Contract
-i(174883),	-- Veteran Goblin Sappers Contract
-i(174884),	-- Veteran Huojin Monks Contract
-i(174885),	-- Veteran Highmountain Warbraves Contract
-i(174886),	-- Veteran Mag'har Outriders Contract
-i(174887),	-- Veteran Unshackled Mercenaries Contract
-i(174888),	-- Veteran Zandalari Wingriders Contract
-i(174889),	-- Veteran Vulpera Sharpshooters Contract
-i(174892),	-- Veteran 7th Legion Shocktroopers Contract
-i(174893),	-- Veteran Dwarven Rifleman Contract
-i(174894),	-- Veteran Darnassus Sentinel Contract
-i(174895),	-- Veteran Gnomeregan Mechano-Tanks Contract
-i(174896),	-- Veteran Exodar Peacekeeper Contract
-i(174897),	-- Veteran Bloodfang Stalkers Contract
-i(174898),	-- Veteran Tushui Monks Contract
-i(174899),	-- Veteran Veiled Riftblades Contract
-i(174900),	-- Veteran Dark Iron Shadowcasters Contract
-i(174901),	-- Veteran Ankoan Tidehunters Contract
-i(174902),	-- Veteran Kul Tiran Marines Contract
-i(174903),	-- Veteran Mechagnome Spidercrawlers Contract
-i(174908),	-- Dragon Heart
-i(174909),	-- Dragon Heart
-i(174910),	-- Dragon Heart
-i(174911),	-- Prophetic Eye
-i(174912),	-- Prophetic Eye
-i(174913),	-- Prophetic Eye
-i(174922),	-- Void-Touched Skull
-8.3.0.32593
-i(174969),	-- Alpaca Saddlebag
-i(174983),	-- Void Sliver
-i(175002),	-- Amber Incubator
-8.3.0.32712
-i(175057),	-- H'partho's Whistle
 11.1.7.60520
 i(244053),	-- Ashvane Smuggler's Kilt
 i(244054),	-- Ashvane Smuggler's Longcoat

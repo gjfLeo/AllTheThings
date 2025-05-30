@@ -304,6 +304,17 @@ i(132183);	-- Razor Tooth
 i(123865);	-- Relic of Ursol
 
 -----------------
+-- PATCH 8.3.0 --
+-----------------
+i(174908);	-- Dragon Heart
+i(174909);	-- Dragon Heart
+i(174910);	-- Dragon Heart
+i(174911);	-- Prophetic Eye
+i(174912);	-- Prophetic Eye
+i(174913);	-- Prophetic Eye
+i(174983);	-- Void Sliver
+
+-----------------
 -- PATCH 8.3.7 --
 -----------------
 i(177955);	-- Spoiled Contaminant \\ TR: Deadly Momentum - 15 Corruption \\ Preserved Contaminant: Deadly Momentum
