@@ -1403,7 +1403,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 	}),
 	expansion(EXPANSION.BFA, {
-		n(P8xx, {	-- Not loading ingame
+		expansion(EXPANSION.BFA, patch(3,0), {	-- Not loading ingame
 			i(173391),	-- Belt of the Black Empire
 			i(173151),	-- Boots of the Black Empire
 			i(173390),	-- Bracers of the Black Empire
