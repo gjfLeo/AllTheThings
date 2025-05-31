@@ -34481,20 +34481,6 @@ i(172147),	-- Nugget Honey
 i(172202),	-- Bee in a Bottle
 i(172224),	-- Winter Veil Gift
 i(172225),	-- Gently Shaken Gift
-8.2.5.31401
-i(172383),	-- Collected Tidebloom Honey
-i(172447),	-- Honey-Glazed Dough
-i(172448),	-- Super Sticky Honey
-i(172500),	-- Lisa Honeysuckle's Photograph
-i(172501),	-- Tantalizing Nectar
-i(172502),	-- Delicious Sugar
-i(172503),	-- Beekeeper Bybee's Photograph
-i(172504),	-- Bottled Tidebreak Water
-8.2.5.31812
-i(173533),	-- Collected Tidebloom Honey
-i(173535),	-- Service Record
-8.2.5.32494
-i(171949),	-- Shadow Arrow
 11.1.7.60520
 i(244053),	-- Ashvane Smuggler's Kilt
 i(244054),	-- Ashvane Smuggler's Longcoat

@@ -401,6 +401,8 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(170487),	-- [DNT] Torn Journal Page #23
 			i(171372),	-- Alterac Valley Mark of Honor
 			i(169295),	-- Dormant Vision Stone
+			i(171949),	-- Shadow Arrow
+			i(173535),	-- Service Record
 		})),
 
 		-- 8.3.0
@@ -526,7 +528,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(178090),	-- Bastion Unique Loot
 			i(180736),	-- Blacksmith's Journal
 			i(175041),	-- Blinding Anima
-			i(175148),	-- Blooming Vale
+		 i(175148),	-- Blooming Vale
 			i(181281),	-- Boss 10 Lure
 			i(180007),	-- Brewfest Pretzel Bowl
 			i(180829),	-- Cache of Anima Tolls
@@ -661,7 +663,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(183190),	-- Oublion Cipher
 			i(183825),	-- Oversized Monocle
 			i(175042),	-- Path to Enlightenment
-			i(175035),	-- Patience is a Virtue
+		 i(175035),	-- Patience is a Virtue
 			i(181444),	-- Perk 24
 			i(181445),	-- Perk 25
 			i(181446),	-- Perk 26
@@ -706,7 +708,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(176058),	-- RSVP: Baroness Vashj
 			i(176094),	-- RSVP: Honor 6
 			i(176090),	-- RSVP: Lady Moonberry
-			i(176092),	-- RSVP: Mikanikos
+		 i(176092),	-- RSVP: Mikanikos
 			i(176091),	-- RSVP: The Countess
 			i(178687),	-- RSVP: VIP 17
 			i(178688),	-- RSVP: VIP 18
@@ -795,37 +797,37 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(181739),	-- Bag of Soul Ash
 			i(184482),	-- Blueprint: Phial of Serenity
 			i(184484),	-- Blueprint: Ring of Warding
-			i(184483),	-- Blueprint: Vial of Lichfrost
-			i(184663),	-- Building: Guardhouse
-			i(184575),	-- Byron Test Happy Fun Rock
-			i(184316),	-- Cache of Nathrian Treasures
-			i(184317),	-- Cache of Nathrian Treasures
-			i(184762),	-- Fragmented Sorrow
-			i(184684),	-- Grimoire of Knowledge
-			i(184685),	-- Grimoire of Knowledge
-			i(184686),	-- Grimoire of Knowledge
-			i(184687),	-- Grimoire of Knowledge
-			i(184688),	-- Grimoire of Knowledge
-			i(184608),	-- Korrath's Grimoire: Aleketh
-			i(184609),	-- Korrath's Grimoire: Belidir
-			i(184610),	-- Korrath's Grimoire: Gyadrek
-			i(184649),	-- Mawrat Cannon
-			i(184649),	-- Mawrat Cannon
-			i(184612),	-- Mawsworn Orders
-			i(184206),	-- Moth-Eaten Covenant Cloak
-			i(181868),	-- Murder Vacation
-			i(181366),	-- Necrostatic Charge
-			i(173929),	-- Perforated Skull
-			i(184153),	-- Polymorphic Polyhedron
-			i(184761),	-- Purified Misery
-			i(184760),	-- Quiescent Orb
-			i(184120),	-- Spare Brain
-			i(184121),	-- Spare Eye
-			i(184122),	-- Spare Foot
-			i(184119),	-- Spare Heart
-			i(184124),	-- Spare Stomach
-			i(184611),	-- Tormentor's Notes
-			i(184607),	-- Words of the Warden
+		 i(184483),	-- Blueprint: Vial of Lichfrost
+		 i(184663),	-- Building: Guardhouse
+		 i(184575),	-- Byron Test Happy Fun Rock
+		 i(184316),	-- Cache of Nathrian Treasures
+		 i(184317),	-- Cache of Nathrian Treasures
+		 i(184762),	-- Fragmented Sorrow
+		 i(184684),	-- Grimoire of Knowledge
+		 i(184685),	-- Grimoire of Knowledge
+		 i(184686),	-- Grimoire of Knowledge
+		 i(184687),	-- Grimoire of Knowledge
+		 i(184688),	-- Grimoire of Knowledge
+		 i(184608),	-- Korrath's Grimoire: Aleketh
+		 i(184609),	-- Korrath's Grimoire: Belidir
+		 i(184610),	-- Korrath's Grimoire: Gyadrek
+		 i(184649),	-- Mawrat Cannon
+		 i(184649),	-- Mawrat Cannon
+		 i(184612),	-- Mawsworn Orders
+		 i(184206),	-- Moth-Eaten Covenant Cloak
+		 i(181868),	-- Murder Vacation
+		 i(181366),	-- Necrostatic Charge
+		 i(173929),	-- Perforated Skull
+		 i(184153),	-- Polymorphic Polyhedron
+		 i(184761),	-- Purified Misery
+		 i(184760),	-- Quiescent Orb
+		 i(184120),	-- Spare Brain
+		 i(184121),	-- Spare Eye
+		 i(184122),	-- Spare Foot
+		 i(184119),	-- Spare Heart
+		 i(184124),	-- Spare Stomach
+		 i(184611),	-- Tormentor's Notes
+		 i(184607),	-- Words of the Warden
 		})),
 
 		-- 9.0.5
@@ -930,8 +932,8 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(189524),	-- Set Keystone Level: 31
 			i(189525),	-- Set Keystone Level: 32
 			i(189526),	-- Set Keystone Level: 33
-			i(189527),	-- Set Keystone Level: 34
-			i(189528),	-- Set Keystone Level: 35
+		 i(189527),	-- Set Keystone Level: 34
+		 i(189528),	-- Set Keystone Level: 35
 		})),
 
 		-- 9.2.0
@@ -1270,42 +1272,42 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(202678),	-- [DNT] Maruuk Centaur Item 04
 			i(202679),	-- [DNT] Maruuk Centaur Item 05
 			i(202680),	-- [DNT] Iskaara Tuskarr Item 01
-			i(202681),	-- [DNT] Iskaara Tuskarr Item 02
-			i(202682),	-- [DNT] Iskaara Tuskarr Item 03
-			i(202683),	-- [DNT] Iskaara Tuskarr Item 04
-			i(202684),	-- [DNT] Iskaara Tuskarr Item 05
-			i(202685),	-- [DNT] Valdrakken Accord Item 01
-			i(202686),	-- [DNT] Valdrakken Accord Item 02
-			i(202687),	-- [DNT] Valdrakken Accord Item 03
-			i(202688),	-- [DNT] Valdrakken Accord Item 04
-			i(202689),	-- [DNT] Valdrakken Accord Item 05
-			i(203693),	-- Ensemble: Cloudburst Regalia
-			i(203694),	-- Ensemble: Cyclonic Battlegear
-			i(203696),	-- Ensemble: Dust Devil Armor
-			i(203695),	-- Ensemble: Firestorm Armor
-			i(203211),	-- Ensemble: Lion's Heritage Blue Armor Set
-			i(203212),	-- Ensemble: Lion's Heritage Scarlet Armor Set
-			i(203213),	-- Ensemble: Lion's Heritage White Armor Set
-			i(203214),	-- Ensemble: Wolf's Heritage Blackrock Armor Set
-			i(203215),	-- Ensemble: Wolf's Heritage Frostwolf Armor Set
-			i(203216),	-- Ensemble: Wolf's Heritage Warsong Armor Set
-			i(203465),	-- Draconic Artifact
-			i(203210),	-- Dragonscale Supply Box
-			i(203466),	-- Dragonscale Surplus Crate
-			i(204330),	-- Inert Primordial Fragments
-			i(203218),	-- Iskaara Supply Pouch
-			i(203221),	-- Maruuk Supply Sack
-			i(204310),	-- Mycelial Threads
-			i(204307),	-- Ornate Bronze Lockbox
-			i(204216),	-- Primordial Pulverizing
-			i(204008),	-- Prodigious Sand Stone
-			i(202202),	-- Revealing Mask
-			i(203730),	-- Rustic Winterpelt Supplies
-			i(204213),	-- Short-Range Teleport
-			i(202075),	-- Temp Currency
-			i(203657),	-- Toxin Antidote
-			i(203223),	-- Valdrakken Supply Coffe
-			i(203854),	-- Warblades of the Hakkari, Reborn
+		 i(202681),	-- [DNT] Iskaara Tuskarr Item 02
+		 i(202682),	-- [DNT] Iskaara Tuskarr Item 03
+		 i(202683),	-- [DNT] Iskaara Tuskarr Item 04
+		 i(202684),	-- [DNT] Iskaara Tuskarr Item 05
+		 i(202685),	-- [DNT] Valdrakken Accord Item 01
+		 i(202686),	-- [DNT] Valdrakken Accord Item 02
+		 i(202687),	-- [DNT] Valdrakken Accord Item 03
+		 i(202688),	-- [DNT] Valdrakken Accord Item 04
+		 i(202689),	-- [DNT] Valdrakken Accord Item 05
+		 i(203693),	-- Ensemble: Cloudburst Regalia
+		 i(203694),	-- Ensemble: Cyclonic Battlegear
+		 i(203696),	-- Ensemble: Dust Devil Armor
+		 i(203695),	-- Ensemble: Firestorm Armor
+		 i(203211),	-- Ensemble: Lion's Heritage Blue Armor Set
+		 i(203212),	-- Ensemble: Lion's Heritage Scarlet Armor Set
+		 i(203213),	-- Ensemble: Lion's Heritage White Armor Set
+		 i(203214),	-- Ensemble: Wolf's Heritage Blackrock Armor Set
+		 i(203215),	-- Ensemble: Wolf's Heritage Frostwolf Armor Set
+		 i(203216),	-- Ensemble: Wolf's Heritage Warsong Armor Set
+		 i(203465),	-- Draconic Artifact
+		 i(203210),	-- Dragonscale Supply Box
+		 i(203466),	-- Dragonscale Surplus Crate
+		 i(204330),	-- Inert Primordial Fragments
+		 i(203218),	-- Iskaara Supply Pouch
+		 i(203221),	-- Maruuk Supply Sack
+		 i(204310),	-- Mycelial Threads
+		 i(204307),	-- Ornate Bronze Lockbox
+		 i(204216),	-- Primordial Pulverizing
+		 i(204008),	-- Prodigious Sand Stone
+		 i(202202),	-- Revealing Mask
+		 i(203730),	-- Rustic Winterpelt Supplies
+		 i(204213),	-- Short-Range Teleport
+		 i(202075),	-- Temp Currency
+		 i(203657),	-- Toxin Antidote
+		 i(203223),	-- Valdrakken Supply Coffe
+		 i(203854),	-- Warblades of the Hakkari, Reborn
 		})),
 
 		-- 10.1.0
