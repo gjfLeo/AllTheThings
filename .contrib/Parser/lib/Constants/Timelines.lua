@@ -554,7 +554,7 @@ CREATED_11_2_0_SEASONSTART = "created 11.2.0.99999";	-- The War Within 11.2.0 la
 ADDED_11_2_0_SEASONSTART = "added 11.2.0.99999";		-- The War Within 11.2.0 launch in summer 2025
 REMOVED_11_2_0_SEASONSTART = "removed 11.2.0.99999";	-- The War Within 11.2.0 launch in summer 2025
 ADDED_LEGION_REMIX = "added 11.2.0.99999";				-- Legion Remix launch on --
-REMOVED_LEGION_REMIX_END = "added 11.2.0.99999";		-- Legion Remix ends on --
+REMOVED_LEGION_REMIX_END = "removed 11.2.0.99999";		-- Legion Remix ends on --
 
 CREATED_11_2_5 = "created 11.2.5";						-- The War Within 11.2.5 launch in autumn 2025
 ADDED_11_2_5 = "added 11.2.5";							-- The War Within 11.2.5 launch in autumn 2025
