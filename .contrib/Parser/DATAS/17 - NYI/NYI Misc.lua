@@ -405,24 +405,50 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 
 		-- 8.3.0
 		expansion(EXPANSION.BFA, patch(3,0), bubbleDownSelf({ ["timeline"] = { CREATED_8_3_0 } }, {
+			i(174097),	-- [DNT] Corruptium \\ [PH] Corruptium
+			i(171321),	-- [DNT] REUSE ME [MTMM]
+			i(171322),	-- [DNT] REUSE ME [MTMM]
+			i(173876),	-- [PH] Tattered Cloth
 			i(174455),	-- Add Keystone Affix: Awakened
+			i(174184),	-- Bag of Cloth
+			i(174194),	-- Bag of Enchanting
+			i(174195),	-- Bag of Gems
+			i(174181),	-- Bag of Herbs
+			i(174183),	-- Bag of Leather
+			i(174182),	-- Bag of Ore
+			i(172494),	-- Baruk Idol
+			i(173159),	-- Cache of Distorted Dreams
 			i(169293),	-- Coalescing Visions
 			i(174838),	-- Collapsed Fusion Core
 			i(171347),	-- Corrupted Bone Fragment
 			i(174642),	-- Corrupted Ny'alotha Raid Item
+			i(172960),	-- Cracked Tushui Training Staff
 			i(174529),	-- Crate of Coalescing Visions
+			i(174039),	-- Crate of Cursed Mementos
+			i(173190),	-- Darkstar
+			i(167788),	-- Detoxifying Vial
+			i(173027),	-- Drum Mallet
 			i(174970),	-- Easeflower
+			i(173188),	-- Enveloping Nightstone
+			i(167198),	-- Gilnean Banners
 			i(174800),	-- HARDCODED - Corrupted Stats Placeholder
 			i(175019),	-- Holy Statuette
+			i(173734),	-- Mysterious Crate
+			i(173189),	-- Nightmare Resonator
 			i(174045),	-- Orb of Dark Portents
 			i(174049),	-- Orb of Darkest Madness
 			i(174047),	-- Orb of Darkest Visions
 			i(174048),	-- Orb of Madness
 			i(174046),	-- Orb of Visions
+			i(173934),	-- Partially Digested Noodles
+			i(167027),	-- Portable Clarity Beam
+			i(169490),	-- Relic of the Black Empire
 			i(174971),	-- Ripe Juicycrunch
+			i(171212),	-- Sanity Restoration Orb
+			i(167747),	-- Seeker's Music Box
+			i(175150),	-- Self-Shaping Amber
 			i(174663),	-- Set Keystone Map: Operation: Mechagon - Junkyard
 			i(174664),	-- Set Keystone Map: Operation: Mechagon - Workshop
-			i(175150),	-- Self-Shaping Amber
 			i(175018),	-- Shadowy Rune
 			i(174892),	-- Veteran 7th Legion Shocktroopers Contract
 			i(174901),	-- Veteran Ankoan Tidehunters Contract
@@ -438,8 +464,10 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(174885),	-- Veteran Highmountain Warbraves Contract
 			i(174884),	-- Veteran Huojin Monks Contract
 			i(174902),	-- Veteran Kul Tiran Marines Contract
+			i(173279),	-- Veteran Lightforged Dragoons Contract \\ Lightforged Dragoons Contract
 			i(174886),	-- Veteran Mag'har Outriders Contract
 			i(174903),	-- Veteran Mechagnome Spidercrawlers Contract
+			i(173284),	-- Veteran Nightborne Warpcaster Contract \\ Nightborne Warpcaster Contract
 			i(174878),	-- Veteran Shattered Hand Specialists Contract
 			i(174882),	-- Veteran Silvermoon Sorceress Contract
 			i(174879),	-- Veteran Tauren Earthshakers Contract
@@ -448,8 +476,10 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(174899),	-- Veteran Veiled Riftblades Contract
 			i(174889),	-- Veteran Vulpera Sharpshooters Contract
 			i(174888),	-- Veteran Zandalari Wingriders Contract
+			i(173983),	-- Vulpera Satchel of Salvage
 			i(171334),	-- Void-Touched Cloth
 			i(175017),	-- Volatile Ember
+			i(172959),	-- Worn Leather Bracelet
 		})),
 
 		-- 8.x.x
