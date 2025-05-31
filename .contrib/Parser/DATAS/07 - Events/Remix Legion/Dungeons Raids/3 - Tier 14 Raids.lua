@@ -1,27 +1,7 @@
 -----------------------------------------------------
 --     W O R L D   E V E N T S   M O D U L E       --
 -----------------------------------------------------
---[[TIER_14_RAIDS = createHeader({
-	readable = "Tier 14 Raids",
-	constant = "TIER_14_RAIDS",
-	minilist_ignore = true,
-	icon = [[~_.asset("Category_D&R")]],
-	text = {
-		en = "Tier 14 Raids",
-	},
-});
-local MAPS = {
-	471,	-- Dais of Conquerors
-	472,	-- The Repository
-	473,	-- Forge of the Endless
-	474,	-- Oratorium of the Voice
-	475,	-- Heart of Fear
-	456,	-- Terrace of Endless Spring
-}
-local mapped = function(t)
-	t.maps = MAPS
-	return t
-end
+--[[
 root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDown({ ["timeline"] = { ADDED_11_2_0, REMOVED_LEGION_REMIX_END } }, {
 	n(RAIDS, {
 		n(TIER_14_RAIDS, {
@@ -905,4 +885,4 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, bubbleDo
 			}),
 		}),
 	}),
-}))));
+}))));--]]

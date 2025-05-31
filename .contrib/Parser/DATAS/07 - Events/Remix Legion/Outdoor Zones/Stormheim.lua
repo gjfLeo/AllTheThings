@@ -242,4 +242,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 	applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 		q(81666),	-- Triggered on first completion of questID 80444 Aid the Anglers
 	})),
-})));
+})));--]]
