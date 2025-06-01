@@ -3251,8 +3251,8 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 			filter(BATTLE_PETS, {
-				i(190607, {	-- Garrlok (PET!)
-					["cost"] = {{"c", TRADERS_TENDER, 750}},
+				i(223145, {	-- Marrlok (PET!)
+					["cost"] = {{"c", TRADERS_TENDER, 500}},
 				}),
 			}),
 			filter(TOYS, {
