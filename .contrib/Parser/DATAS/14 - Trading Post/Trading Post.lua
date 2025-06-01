@@ -3086,7 +3086,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(MAY, bubbleDownSelf({ ["timeline"] = { "added 11.1.5.60568", "removed 11.1.5.99999" } }, {	-- TODO: Timeline out correctly
+		n(MAY, bubbleDownSelf({ ["timeline"] = { "added 11.1.5.60568", "removed 11.1.5.61122" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				i(238942)	-- Weechi (PET!)
 			}),
