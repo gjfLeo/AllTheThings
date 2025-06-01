@@ -1034,13 +1034,15 @@ GLYPH_OF_GHOSTLY_FADE = r(192838, {	-- Glyph of Ghostly Fade
 	["name"] = "Glyph of Ghostly Fade",
 	["timeline"] = { ADDED_7_0_3 },
 });
-GLYPH_OF_GHOSTLY_STRIKE_AND_DETECTION = r(57124, {	-- Glyph of Ghostly Strike / Glyph of Detection [5.0.4+]
-	-- #if AFTER 5.0.4
+GLYPH_OF_GHOSTLY_STRIKE_AND_REVEALING_STRIKE_AND_DETECTION = r(57124, {	-- Glyph of Ghostly Strike / Glyph of Revealing Strike [CATA] / Glyph of Detection [MOP+]
+	-- #if AFTER MOP
 	["name"] = "Glyph of Detection",
+	-- #elseif AFTER CATA
+	["name"] = "Glyph of Revealing Strike",
 	-- #else
 	["name"] = "Glyph of Ghostly Strike",
 	-- #endif
-	["timeline"] = { ADDED_3_0_2, DELETED_4_0_1, ADDED_5_0_4, DELETED_7_0_3 },
+	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
 GLYPH_OF_GOUGE = r(57125, {	-- Glyph of Gouge
 	["name"] = "Glyph of Gouge",
@@ -1080,15 +1082,15 @@ GLYPH_OF_HAMMER_OF_WRATH = r(57028, {	-- Glyph of Hammer of Wrath
 	["name"] = "Glyph of Hammer of Wrath",
 	["timeline"] = { ADDED_3_0_2, DELETED_5_0_4 },
 });
-GLYPH_OF_HAMSTRING_AND_PIERCING_HOWL_AND_RUDE_INTERRUPTION = r(57157, {	-- Glyph of Hamstring / Glyph of Piercing Howl [CATA+] / Glyph of Rude Interruption [5.0.4+]
-	-- #if AFTER 5.0.4
+GLYPH_OF_HAMSTRING_AND_PIERCING_HOWL_AND_RUDE_INTERRUPTION = r(57157, {	-- Glyph of Hamstring / Glyph of Piercing Howl [CATA] / Glyph of Rude Interruption [MOP+]
+	-- #if AFTER MOP
 	["name"] = "Glyph of Rude Interruption",
 	-- #elseif AFTER CATA
 	["name"] = "Glyph of Piercing Howl",
 	-- #else
 	["name"] = "Glyph of Hamstring",
 	-- #endif
-	["timeline"] = { ADDED_3_0_2, DELETED_4_0_3, ADDED_5_0_4, DELETED_7_0_3 },
+	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
 GLYPH_OF_HAUNT_AND_DRAIN_LIFE = r(64291, {	-- Glyph of Haunt / Glyph of Drain Life [5.2.0+]
 	-- #if AFTER 5.2.0
@@ -1590,13 +1592,15 @@ GLYPH_OF_MIRROR_IMAGE = r(64314, {	-- Glyph of Mirror Image
 	["name"] = "Glyph of Mirror Image",
 	["timeline"] = { ADDED_3_1_0, DELETED_6_0_2 },
 });
-GLYPH_OF_MOCKING_BLOW_AND_GUSHING_WOUND = r(58345, {	-- Glyph of Mocking Blow / REMOVED [CATA] / Glyph of Gushing Wound [MOP+]
+GLYPH_OF_MOCKING_BLOW_AND_DEMORALIZING_SHOUT_AND_GUSHING_WOUND = r(58345, {	-- Glyph of Mocking Blow / Glyph of Demoralizing Shout [CATA] / Glyph of Gushing Wound [MOP+]
 	-- #if AFTER MOP
 	["name"] = "Glyph of Gushing Wound",
+	-- #elseif AFTER CATA
+	["name"] = "Glyph of Demoralizing Shout",
 	-- #else
 	["name"] = "Glyph of Mocking Blow",
 	-- #endif
-	["timeline"] = { ADDED_3_0_2, DELETED_4_0_3, ADDED_5_0_4 },
+	["timeline"] = { ADDED_3_0_2 },
 });
 GLYPH_OF_MOLTEN_ARMOR_AND_CRITTERMORPH = r(56986, {	-- Glyph of Molten Armor / Glyph of Crittermorph [CATA+]
 	-- #if AFTER CATA
@@ -3282,7 +3286,7 @@ local CLASS_GLYPHS = cat(1126, {	-- Glyphs
 		GLYPH_OF_FEINT,
 		GLYPH_OF_FLASH_BANG,
 		GLYPH_OF_GARROTE,
-		GLYPH_OF_GHOSTLY_STRIKE_AND_DETECTION,
+		GLYPH_OF_GHOSTLY_STRIKE_AND_REVEALING_STRIKE_AND_DETECTION,
 		GLYPH_OF_GOUGE,
 		GLYPH_OF_HEMORRHAGE,
 		GLYPH_OF_HUNGER_FOR_BLOOD_AND_VENDETTA,
@@ -3417,7 +3421,7 @@ local CLASS_GLYPHS = cat(1126, {	-- Glyphs
 		GLYPH_OF_INTERCEPT_AND_BULL_RUSH,
 		GLYPH_OF_INTERVENE_AND_BLITZ,
 		GLYPH_OF_LAST_STAND,
-		GLYPH_OF_MOCKING_BLOW_AND_GUSHING_WOUND,
+		GLYPH_OF_MOCKING_BLOW_AND_DEMORALIZING_SHOUT_AND_GUSHING_WOUND,
 		GLYPH_OF_MORTAL_STRIKE,
 		GLYPH_OF_OVERPOWER_AND_DIE_BY_THE_SWORD,
 		GLYPH_OF_RAPID_CHARGE_AND_ENRAGED_SPEED,
@@ -3669,7 +3673,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				-- #endif
 				GLYPH_OF_LEVITATE,
 				GLYPH_OF_MEND_PET_AND_LESSER_PROPORTION,
-				GLYPH_OF_MOCKING_BLOW_AND_GUSHING_WOUND,
+				GLYPH_OF_MOCKING_BLOW_AND_DEMORALIZING_SHOUT_AND_GUSHING_WOUND,
 				GLYPH_OF_PESTILENCE_AND_RESILIENT_GRIP,
 				GLYPH_OF_PICK_LOCK,
 				GLYPH_OF_PICK_POCKET,
@@ -3752,7 +3756,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				--GLYPH_OF_LEVITATE,	(Missing?)
 				-- #if BEFORE MOP
 				GLYPH_OF_MEND_PET_AND_LESSER_PROPORTION,	-- Not sure why this is marked like this?
-				GLYPH_OF_MOCKING_BLOW_AND_GUSHING_WOUND,	-- Not sure why this is marked like this?
+				GLYPH_OF_MOCKING_BLOW_AND_DEMORALIZING_SHOUT_AND_GUSHING_WOUND,	-- Not sure why this is marked like this?
 				-- #endif
 				--GLYPH_OF_PESTILENCE_AND_RESILIENT_GRIP,	(Missing?)
 				GLYPH_OF_PICK_LOCK,
@@ -3840,7 +3844,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				GLYPH_OF_FROST_ARMOR_AND_ARMORS,	-- Added with Cataclysm (2024-05-24)
 				GLYPH_OF_FROSTBOLT,
 				GLYPH_OF_FROSTFIRE_BOLT,
-				GLYPH_OF_GHOSTLY_STRIKE_AND_DETECTION,
+				GLYPH_OF_GHOSTLY_STRIKE_AND_REVEALING_STRIKE_AND_DETECTION,
 				GLYPH_OF_GROWL_AND_SOLAR_BEAM_AND_OMENS,
 				GLYPH_OF_HAMMER_OF_WRATH,
 				GLYPH_OF_HEALING_WAVE,
@@ -4041,7 +4045,7 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["timeline"] = { ADDE
 				GLYPH_OF_BLURRED_SPEED,
 				GLYPH_OF_FLAMETONGUE_WEAPON_AND_WIND_SHEAR,
 				GLYPH_OF_HEALING_STREAM_TOTEM,
-				GLYPH_OF_MOCKING_BLOW_AND_GUSHING_WOUND,
+				GLYPH_OF_MOCKING_BLOW_AND_DEMORALIZING_SHOUT_AND_GUSHING_WOUND,
 				GLYPH_OF_PICK_POCKET,
 				GLYPH_OF_SERPENT_STING_AND_TAME_BEAST,
 				GLYPH_OF_THE_PACK_AND_ASPECT_OF_THE_PACK,

@@ -53,7 +53,7 @@ i(0, 57216);	-- Glyph of Frost Strike / Glyph of Shifting Presences[MOP+]
 i(0, 57123);	-- Glyph of Garrote
 i(0, 57125);	-- Glyph of Gouge
 i(0, 57027);	-- Glyph of Hammer of Justice / Glyph of Holy Wrath[MOP+]
-i(0, 57157);	-- Glyph of Hamstring
+i(0, 57157);	-- Glyph of Hamstring / Glyph of Piercing Howl [CATA+] / Glyph of Rude Interruption [MOP+]
 i(0, 56945);	-- Glyph of Healing Touch
 i(0, 57265);	-- Glyph of Health Funnel
 i(0, 57266);	-- Glyph of Healthstone
@@ -165,7 +165,7 @@ i(0, 58337);	-- Glyph of Drain Soul / Glyph of Soul Consumption[MOP+]
 i(0, 58306);	-- Glyph of Frost Armor / Glyph of Conjuring[CATA] / Glyph of Conjure Familiar[MOP+]
 i(0, 58313);	-- Glyph of Lay on Hands / Glyph of Flash of Light[MOP+]
 i(0, 58301);	-- Glyph of Mend Pet / Glyph of Lesser Proportion[4.1.0+]
-i(0, 58345);	-- Glyph of Mocking Blow / REMOVED[CATA] / Glyph of Gushing Wound[MOP+]
+i(0, 58345);	-- Glyph of Mocking Blow / Glyph of Demoralizing Shout [CATA] / Glyph of Gushing Wound [MOP+]
 i(0, 58326);	-- Glyph of Pick Pocket
 i(0, 58300);	-- Glyph of Possessed Strength
 i(0, 58299);	-- Glyph of Revive Pet
@@ -439,7 +439,7 @@ i(0, 59339);	--
 i(0, 57003);	--
 i(0, 57223);	--
 i(0, 59500);	--
-i(0, 57124);	--
+i(0, 57124);	-- Glyph of Ghostly Strike / Glyph of Revealing Strike [CATA] / Glyph of Detection [MOP+]
 i(0, 57190);	--
 i(0, 64283);	--
 i(0, 57192);	--
