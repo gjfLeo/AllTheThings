@@ -3943,6 +3943,16 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(3372, { ["timeline"] = { REMOVED_4_0_1 }}),	-- Leaded Vial, turns into Cracked Vial with Cataclysm.
 				i(8925, { ["timeline"] = { REMOVED_4_0_1 }}),	-- Crystal Vial, turns into Tainted Vial with Cataclysm.
 				i(18256, { ["timeline"] = { REMOVED_4_0_1 }}),	-- Imbued Vial, turns into Melted Vial with Cataclysm.
+			}),
+			-- Blacksmithing reagents from vendors
+			sharedData({
+				["description"] = "Can be bought from Blacksmithing Suppliers, as well as some Trade vendors around the world.",
+			},{
+				i(2880),	-- Weak Flux
+				i(3466),	-- Strong Flux
+				i(18567),	-- Elemental Flux
+				i(3857),	-- Coal
+				i(5956),	-- Blacksmithing Hammer
 			})
 		),
 	}),

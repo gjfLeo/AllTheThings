@@ -4608,6 +4608,11 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				ZULGURUB,
 			},
 		}),
+		-- Black Diamonds:
+			i(11754, {["maps"] = { BLACKROCK_DEPTHS }, }),	-- Black Diamond
+			i(18335, {	-- Pristine Black Diamond
+				["description"] = "Can drop from ANY content intended for level-capped vanilla players, whether it be Dire Maul, Stratholme, Scholomance, or the raids. This is a rare item, farming it requires luck.",
+			}),
 		-- Alchemy:
 		i(19441, {	-- Huge Venom Sac
 			-- #if BEFORE 4.0.3
