@@ -139,6 +139,7 @@ local function GetCatalyst(data)
 	catalystResult.bonuses = app.CloneArray(bonuses)
 	-- Don't let a baked-in upgrade persist since our upgradeLevel might not allow it
 	catalystResult.up = nil
+	catalystResult._up = nil
 	catalystResult.containsType = "CATALYST"
 
 	-- app.PrintDebug("Catalyst Result:",catalystResult.hash,catalystResult.up,app:SearchLink(catalystResult))
