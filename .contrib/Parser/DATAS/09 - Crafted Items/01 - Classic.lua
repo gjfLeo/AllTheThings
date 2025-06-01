@@ -1911,6 +1911,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Can be caught in open sea water in Swamp of Sorrows and Blasted Lands.",
 			-- #endif
 		}),
+		i(6522),	-- Deviate Fish
+		i(6359),	-- Firefin Snapper
+		i(6358),	-- Oily Blackmouth
 		i(6291, {	-- Raw Brilliant Smallfish
 			-- #if AFTER 4.0.3
 			["description"] = "Can be caught in open inland waters in all low level zones around Azeroth.",
@@ -1988,6 +1991,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Can be caught in open inland waters in Blasted Lands, Un'Goro Crater and Winterspring.",
 			-- #endif
 		}),
+		i(13422),	-- Stonescale Eel
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
 				["description"] = "Can be fished from schools.",
