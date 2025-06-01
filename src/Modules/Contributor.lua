@@ -686,6 +686,7 @@ MobileDB.GameObject = {
 	[221763] = true,	-- Fire Poppy
 	[222684] = true,	-- Glinting Sand
 	[222685] = true,	-- Crane Nest
+	[230544] = true,	-- Frostwolf Shamanstone
 	[236262] = true,	-- Finalize Garrison Plot
 	[236263] = true,	-- Finalize Garrison Plot
 	[241726] = true,	-- Leystone Deposit
