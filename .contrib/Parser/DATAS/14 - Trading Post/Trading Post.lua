@@ -3235,7 +3235,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(JUNE, bubbleDownSelf({ ["timeline"] = { "added 11.1.5.60568", "removed 11.1.5.99999" } }, {	-- TODO: Timeline in/out correctly
+		n(JUNE, bubbleDownSelf({ ["timeline"] = { "added 11.1.5.61122", "removed 11.1.5.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				i(238967),	-- Molten Cormaera (MOUNT!)
 			}),
