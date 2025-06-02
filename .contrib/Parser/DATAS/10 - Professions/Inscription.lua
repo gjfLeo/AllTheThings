@@ -288,7 +288,7 @@ GLYPH_OF_BLOOD_TAP_AND_THE_GEIST = r(57209, {	-- Glyph of Blood Tap / Glyph of t
 	-- #endif
 	["timeline"] = { ADDED_3_0_2 },
 });
-GLYPH_OF_BLOODRAGE_AND_BERSERKER_RAGE_AND_BLOODCURDLING_SHOUT = r(58343, {	-- Glyph of Bloodrage / Glyph of Berserker Rage [CATA+] / Glyph of Bloodcurdling Shout [MOP+]
+GLYPH_OF_BLOODRAGE_AND_BERSERKER_RAGE_AND_BLOODCURDLING_SHOUT = r(58343, {	-- Glyph of Bloodrage / Glyph of Berserker Rage [CATA] / Glyph of Bloodcurdling Shout [MOP+]
 	-- #if AFTER MOP
 	["name"] = "Glyph of Bloodcurdling Shout",
 	-- #elseif AFTER CATA
@@ -1132,7 +1132,7 @@ GLYPH_OF_HEMORRHAGE = r(57126, {	-- Glyph of Hemorrhage
 	["name"] = "Glyph of Hemorrhage",
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
-GLYPH_OF_HEROIC_STRIKE_AND_HEROIC_THROW_AND_GAG_ORDER = r(57158, {	-- Glyph of Heroic Strike / Glyph of Heroic Throw [CATA+] / Glyph of Gag Order [MOP+]
+GLYPH_OF_HEROIC_STRIKE_AND_HEROIC_THROW_AND_GAG_ORDER = r(57158, {	-- Glyph of Heroic Strike / Glyph of Heroic Throw [CATA] / Glyph of Gag Order [MOP+]
 	-- #if AFTER MOP
 	["name"] = "Glyph of Gag Order",
 	-- #elseif AFTER CATA
@@ -1496,15 +1496,15 @@ GLYPH_OF_LIVING_BOMB_AND_INFERNO_BLAST = r(94000, {	-- Glyph of Living Bomb / Gl
 	-- #endif
 	["timeline"] = { ADDED_4_0_3, DELETED_7_0_3 },
 });
-GLYPH_OF_MAGE_ARMOR_AND_MANA_GEM = r(56984, {	-- Glyph of Mage Armor / Glyph of Mana Gem [5.0.4+]
-	-- #if AFTER 5.0.4
+GLYPH_OF_MAGE_ARMOR_AND_MANA_GEM = r(56984, {	-- Glyph of Mage Armor / Glyph of Mana Gem [MOP+]
+	-- #if AFTER MOP
 	["name"] = "Glyph of Mana Gem",
 	-- #else
 	["name"] = "Glyph of Mage Armor",
 	-- #endif
 	["timeline"] = { ADDED_3_0_2, DELETED_6_0_2 },
 });
-GLYPH_OF_MANA_GEM = r(56985, {	-- Glyph of Mana Gem
+GLYPH_OF_MANA_GEM = r(56985, {	-- Glyph of Mana Gem (Deleted with Cata - re-added in MoP using Glyph of Mage Armor spell ID)
 	["name"] = "Glyph of Mana Gem",
 	["timeline"] = { ADDED_3_0_2, DELETED_4_0_3 },
 });
@@ -1854,8 +1854,8 @@ GLYPH_OF_REMOVE_CURSE_AND_CONE_OF_COLD_AND_ICY_VEINS = r(56988, {	-- Glyph of Re
 	-- #endif
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },
 });
-GLYPH_OF_RENDING_AND_SLAM_AND_HAMSTRING = r(57163, {	-- Glyph of Rending / Glyph of Slam [CATA+] / Glyph of Hamstring [5.0.4+]
-	-- #if AFTER 5.0.4
+GLYPH_OF_RENDING_AND_SLAM_AND_HAMSTRING = r(57163, {	-- Glyph of Rending / Glyph of Slam [CATA] / Glyph of Hamstring [MOP+]
+	-- #if AFTER MOP
 	["name"] = "Glyph of Hamstring",
 	-- #elseif AFTER CATA
 	["name"] = "Glyph of Slam",
@@ -2040,7 +2040,7 @@ GLYPH_OF_SEAL_OF_WISDOM_AND_LIGHT_OF_DAWN = r(57035, {	-- Glyph of Seal of Wisdo
 	-- #endif
 	["timeline"] = { ADDED_3_0_2, DELETED_6_0_2 },
 });
-GLYPH_OF_SEARING_PAIN_AND_SOUL_SWAP_AND_HAVOC = r(57270, {	-- Glyph of Searing Pain / Glyph of Soul Swap [CATA+] / Glyph of Havoc [MOP+]
+GLYPH_OF_SEARING_PAIN_AND_SOUL_SWAP_AND_HAVOC = r(57270, {	-- Glyph of Searing Pain / Glyph of Soul Swap [CATA] / Glyph of Havoc [MOP+]
 	-- #if AFTER MOP
 	["name"] = "Glyph of Havoc",
 	-- #elseif AFTER CATA
