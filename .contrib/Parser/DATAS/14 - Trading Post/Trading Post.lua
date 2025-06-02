@@ -137,24 +137,21 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
-		-- Future trading post quests - unknown timeline
-		--[[
 		q(81719, {	-- Report to the Trading Post -- May 2025
-			["timeline"] = { TODO },
+			["timeline"] = { ADDED_11_1_5 },
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
 		q(81720, {	-- Report to the Trading Post -- June 2025
-			["timeline"] = { TODO },
+			["timeline"] = { ADDED_11_1_5 },
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
 		q(81721, {	-- Report to the Trading Post -- July 2025
-			["timeline"] = { TODO },
+			["timeline"] = { ADDED_11_1_7 },
 			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
-		]]--
 	}),
 	n(YEAR2023, {
 		n(FEBRUARY, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5, REMOVED_10_0_5 } }, {
