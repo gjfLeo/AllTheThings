@@ -3952,7 +3952,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(3466),	-- Strong Flux
 				i(18567),	-- Elemental Flux
 				i(3857),	-- Coal
-				i(5956),	-- Blacksmithing Hammer
 			})
 		),
 	}),
