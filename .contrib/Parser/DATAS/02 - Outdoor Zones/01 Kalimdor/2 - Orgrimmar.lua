@@ -1034,7 +1034,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					}),
 				}),
 				n(5817, {	-- Shimra <Trade Supplies>
-					["coord"] = { 57.0, 50.05, ORGRIMMAR },
 					["coords"] = {
 						-- #if AFTER CATA
 						{ 54.0, 81.87, ORGRIMMAR },
