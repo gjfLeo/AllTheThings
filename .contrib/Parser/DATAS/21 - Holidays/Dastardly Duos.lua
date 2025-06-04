@@ -24,7 +24,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 		["maps"] = { 2447 },	-- Dastardly Duos
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				-- TODO: These all currently have the same achievement icon so I don't think Blizzard has finished this yet. Maybe the PTR event date 17/3 to 24/3 is their deadline? :D
 				ach(41995),	-- Boot Hill
 				ach(42002),	-- Bullhorn of Plenty
 				ach(42003),	-- Bullhorn of More Plenty
@@ -133,46 +132,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 				q(90497), --
 				q(90496), --
 				q(90495), --
-				q(90504), --
-				q(90503), --
-				q(90502), --
-				q(90501), --
-				q(90500), --
-				q(90499), --
-				q(90498), --
-				q(90497), --
-				q(90496), --
-				q(90495), --
-				q(90504), --
-				q(90503), --
-				q(90502), --
-				q(90501), --
-				q(90500), --
-				q(90499), --
-				q(90498), --
-				q(90497), --
-				q(90496), --
-				q(90495), --
-				q(90504), --
-				q(90503), --
-				q(90502), --
-				q(90501), --
-				q(90500), --
-				q(90499), --
-				q(90498), --
-				q(90497), --
-				q(90496), --
-				q(90495), --
-				q(90504), --
-				q(90503), --
-				q(90502), --
-				q(90501), --
-				q(90500), --
-				q(90499), --
-				q(90498), --
-				q(90497), --
-				q(90496), --
-				q(90495), --
 			}),
 			n(REWARDS, {
 				filter(MISC, {
@@ -247,8 +206,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 				}),
 			}),
 			n(TREASURES, {
-				-- TODO: Sort this section out, it's just here to make the parser happy
-				o(505680),	--
+				o(505680),	-- Animatronic Gear
 			}),
 			n(VENDORS, {
 				n(234297, {	-- Wodin the Troll-Servant
