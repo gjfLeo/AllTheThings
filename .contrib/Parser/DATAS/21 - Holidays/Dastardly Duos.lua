@@ -228,7 +228,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 							-- Shadowfang Keeep (not yet sourced)
 							-- i(238981),	-- Gloves of the Uplifted Cup
 							-- i(238982),	-- Baron Silverlaine's Greaves
-							-- i(238983),	-- Boots of Lingering Sorrow
+							i(238983),	-- Boots of Lingering Sorrow
 
 							-- The Culling of Stratholme (sourced under the dungeon)
 							--i(238991),	-- Gloves of Distorted Time
@@ -279,6 +279,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			-- In order to clear a bit messup and to sort out more clearly on live
 			-- Week 1:
 			--q (87510),	-- fired after first completion Dastardly Duos
+			q(90775),	-- completed with '86503'
 			-- Week 2:
 			--q (87511),	-- ^ same as above, but week 2
 			q(87527),	-- there also was crit for other achievements but I wasn't smart enought to log it
