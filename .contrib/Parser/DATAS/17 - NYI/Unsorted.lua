@@ -381,8 +381,6 @@ root(ROOTS.Unsorted, {
 
 				-- Didnt make it
 				i(238981),	-- Gloves of the Uplifted Cup
-				i(238982),	-- Baron Silverlaine's Greaves
-				i(238983),	-- Boots of Lingering Sorrow
 
 				-- The Blood Furnace
 				i(239009),	-- Signet of Repose

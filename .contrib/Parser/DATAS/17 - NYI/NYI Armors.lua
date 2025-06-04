@@ -4189,8 +4189,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(238937),	-- Light-Touched Breastplate
 				-- Shadowfang Keeep
 				i(238981),	-- Gloves of the Uplifted Cup
-				i(238982),	-- Baron Silverlaine's Greaves
-				i(238983),	-- Boots of Lingering Sorrow
 			}),
 		})),
 	}),

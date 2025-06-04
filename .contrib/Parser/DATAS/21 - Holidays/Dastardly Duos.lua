@@ -227,7 +227,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 
 							-- Shadowfang Keeep (not yet sourced)
 							-- i(238981),	-- Gloves of the Uplifted Cup
-							-- i(238982),	-- Baron Silverlaine's Greaves
+							i(238982),	-- Baron Silverlaine's Greaves
 							i(238983),	-- Boots of Lingering Sorrow
 
 							-- The Culling of Stratholme (sourced under the dungeon)
