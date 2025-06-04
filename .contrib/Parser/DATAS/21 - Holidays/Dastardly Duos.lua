@@ -195,7 +195,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 							--i(238993),	-- Cracked Epoch Grasps
 
 							-- The Blood Furnace (not yet sourced)
-							-- i(239009),	-- Signet of Repose
+							i(239009),	-- Signet of Repose
 						--]]
 						--- Podium Upgrade?
 						i(240203),	-- Podium Upgrade: Scrappy
