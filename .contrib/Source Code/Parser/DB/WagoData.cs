@@ -747,6 +747,99 @@ namespace ATT.DB
             return TransmogSetKeyedCache<T>.TryGetAssociations(transmogSetID, out associations);
         }
         #endregion
+        #region UiMapID-Keyed Collections
+        private static class UiMapIDKeyedCache<T> where T : IWagoUiMapID, IDBType
+        {
+            /// <summary>
+            /// The cached collection of elements matching the primary key "UiMapID".
+            /// </summary>
+            private static Dictionary<long, List<T>> Collection;
+
+            public static void Clear()
+            {
+                Collection = null;
+            }
+
+            public static Dictionary<long, List<T>> GetCollection()
+            {
+                return Collection ?? (Collection = Rebuild());
+            }
+
+            private static Dictionary<long, List<T>> Rebuild()
+            {
+                var collection = new Dictionary<long, List<T>>();
+                foreach (var o in GetAll<T>().Values)
+                {
+                    if (o.UiMapID > 0)
+                    {
+                        if (!collection.TryGetValue(o.UiMapID, out List<T> associations))
+                        {
+                            collection[o.UiMapID] = associations = new List<T>();
+                        }
+                        associations.Add(o);
+                    }
+                }
+                return collection;
+            }
+
+            public static IEnumerable<T> Enumerate(long key)
+            {
+                if (GetCollection().TryGetValue(key, out var associations))
+                {
+                    foreach (var association in associations)
+                    {
+                        yield return association;
+                    }
+                }
+            }
+
+            /// <summary>
+            /// Retrieve a collection of elements matching the key.
+            /// </summary>
+            /// <typeparam name="T">The element type to search for.</typeparam>
+            /// <param name="key">The key.</param>
+            /// <param name="associations">The list of associated elements or null.</param>
+            /// <returns>Whether or not the associations could be found.</returns>
+            public static bool TryGetAssociations(long key, out List<T> associations)
+            {
+                return GetCollection().TryGetValue(key, out associations);
+            }
+        }
+
+        /// <summary>
+        /// Enumerate over a collection of elements matching the UiMapID.
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="o">The object.</param>
+        /// <returns>An enumerable list.</returns>
+        public static IEnumerable<T> EnumerateForUiMapID<T>(this IWagoUiMapID o) where T : IWagoUiMapID, IDBType
+        {
+            return EnumerateForUiMapID<T>(o.UiMapID);
+        }
+
+        /// <summary>
+        /// Enumerate over a collection of elements matching the UiMapID.
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="uiMapID">The UI Map ID.</param>
+        /// <returns>An enumerable list.</returns>
+        public static IEnumerable<T> EnumerateForUiMapID<T>(long uiMapID) where T : IWagoUiMapID, IDBType
+        {
+            return UiMapIDKeyedCache<T>.Enumerate(uiMapID);
+        }
+
+        /// <summary>
+        /// Retrieve a collection of elements matching the key.
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="uiMapID">The UI Map ID.</param>
+        /// <param name="associations">The list of associated elements or null.</param>
+        /// <returns>Whether or not the associations could be found.</returns>
+        public static bool TryGetUiMapIDAssociations<T>(long uiMapID, out List<T> associations) where T : IWagoUiMapID, IDBType
+        {
+            return UiMapIDKeyedCache<T>.TryGetAssociations(uiMapID, out associations);
+        }
+        #endregion
         #endregion
         #region Localized Data Caching + Checking
         /// <summary>

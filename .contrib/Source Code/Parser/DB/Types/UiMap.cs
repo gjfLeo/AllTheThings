@@ -4,7 +4,7 @@
     /// https://wago.tools/db2/UiMap
     /// </summary>
     [DataModule]
-    public class UiMap : IDBType, IWagoChild
+    public class UiMap : IDBType, IWagoChild, IWagoUiMapID
     {
         public long ID { get; set; }
         [Localize]
@@ -28,6 +28,11 @@
         public long Parent
         {
             get { return ParentUiMapID; }
+        }
+
+        public long UiMapID
+        {
+            get { return ID; }
         }
         #endregion
     }
