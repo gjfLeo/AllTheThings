@@ -30,8 +30,8 @@ local GetItemInfoInstant = app.WOWAPI.GetItemInfoInstant;
 
 -- Transmog is supported!
 -- Global locals
-local ipairs, select, tinsert, pairs, rawget
-	= ipairs, select, tinsert, pairs, rawget;
+local ipairs, select, tinsert, pairs, rawget,rawset
+	= ipairs, select, tinsert, pairs, rawget,rawset
 local C_Item_IsDressableItemByID, GetSlotForInventoryType
 ---@diagnostic disable-next-line: deprecated
 	= C_Item.IsDressableItemByID, C_Transmog.GetSlotForInventoryType
@@ -468,6 +468,34 @@ local ArmorTypeMogs = {
 local function MainOnlyCanTransmogAppearanceItem(knownItem)
 	return not knownItem.nmr and not knownItem.nmc and ArmorTypeMogs[knownItem.f] and CurrentCharacterFilterIDSet[knownItem.f]
 end
+local DualFactionCollectedVisualIDs
+do
+local HordeFaction = Enum.FlightPathFaction.Horde
+local HordeVisualIDs = {}
+local AllianceVisualIDs = {}
+local Known = {}
+-- track dual-faction-collected appearances so that we can post-assign those items' shared appearances as also collected in Unique mode...
+DualFactionCollectedVisualIDs = {
+	Add = function(visualID, faction)
+		if faction == HordeFaction then
+			if AllianceVisualIDs[visualID] then
+				Known[visualID] = true
+				-- app.PrintDebug("VisualID",visualID,"known by both Factions!")
+				return
+			end
+			HordeVisualIDs[visualID] = true
+		else
+			if HordeVisualIDs[visualID] then
+				Known[visualID] = true
+				-- app.PrintDebug("VisualID",visualID,"known by both Factions!")
+				return
+			end
+			AllianceVisualIDs[visualID] = true
+		end
+	end,
+	Known = Known,
+}
+end
 -- Given a known SourceID, will mark all Shared Visual SourceID's which meet the filter criteria of the known SourceID as 'collected'
 local function MarkUniqueCollectedSourcesBySource(knownSourceID, currentCharacterOnly)
 	-- Find this source in ATT
@@ -480,13 +508,14 @@ local function MarkUniqueCollectedSourcesBySource(knownSourceID, currentCharacte
 		return;
 	end
 
+	local visualID = knownSource.visualID
 	-- For each shared Visual SourceID
-	-- if knownSource.visualID == 322 then app.Debugging = true; app.PrintTable(knownSource); end
+	-- if visualID == 322 then app.Debugging = true; app.PrintTable(knownSource); end
 	-- account cannot collect sourceID? not available for transmog?
 	-- local _, canCollect = C_TransmogCollection.AccountCanCollectSource(knownSourceID); -- pointless, always false if sourceID is known
 	-- local unknown1 = select(8, C_TransmogCollection.GetAppearanceSourceInfo(knownSourceID)); -- pointless, returns nil for many valid transmogs
 	-- Trust that Blizzard returns SourceID's which can actually be used as Transmog for the VisualID
-	local sourceIDs = VisualIDSourceIDsCache[knownSource.visualID]
+	local sourceIDs = VisualIDSourceIDsCache[visualID]
 	local canMog;
 	local verifySourceIDs
 	for _,sourceID in ipairs(sourceIDs) do
@@ -516,8 +545,20 @@ local function MarkUniqueCollectedSourcesBySource(knownSourceID, currentCharacte
 	local knownRaces, knownClasses, knownFaction, knownFilter = knownItem.races, knownItem.c, knownItem.r, knownItem.f;
 	local factionRaces = app.Modules.FactionData.FACTION_RACES;
 
+	-- if the known item is faction-based, then capture which faction has it known
+	if knownFaction then
+		DualFactionCollectedVisualIDs.Add(visualID, knownFaction)
+		-- if this visual is now learned for both factions, ignore the knownfaction requirement
+		-- note: this will properly apply to all shared appearances regardless of the order of processing
+		-- since the set of unlearned sourceIDs will be repeatably checked for each matching visualID
+		if DualFactionCollectedVisualIDs.Known[visualID] then
+			knownFaction = nil
+			-- app.PrintDebug("Skip Faction Unique Check for shared",app:SearchLink(knownItem))
+		end
+	end
+
 	for _,sourceID in ipairs(verifySourceIDs) do
-		-- app.PrintDebug("visualID",knownSource.visualID,"sourceID",sourceID,"known:",acctSources[sourceID)]
+		-- app.PrintDebug("visualID",visualID,"sourceID",sourceID,"known:",acctSources[sourceID)]
 		-- Find the check Source in ATT
 		checkItem = SearchForSourceIDQuickly(sourceID);
 		if checkItem then
@@ -542,6 +583,8 @@ local function MarkUniqueCollectedSourcesBySource(knownSourceID, currentCharacte
 						-- the known source has a class restriction that is not shared by the source in question
 						if not containsAny(checkItem.c, knownClasses) then valid = nil; end
 					else
+						-- TODO: situation where Classes is the full set of available classes for that armor type
+						-- i.e. Priest/Mage/Lock is learned, and checks against a Cloth with no classes... should consider collected
 						valid = nil;
 					end
 				end
