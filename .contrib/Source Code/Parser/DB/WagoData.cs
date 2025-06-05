@@ -277,6 +277,99 @@ namespace ATT.DB
             return o.Parent > 0 && TryGetValue<T>(o.Parent, out var parent) ? parent : default;
         }
         #endregion
+        #region Area-Keyed Collections
+        private static class AreaKeyedCache<T> where T : IWagoAreaID, IDBType
+        {
+            /// <summary>
+            /// The cached collection of elements matching the primary key "AreaID".
+            /// </summary>
+            private static Dictionary<long, List<T>> Collection;
+
+            public static void Clear()
+            {
+                Collection = null;
+            }
+
+            public static Dictionary<long, List<T>> GetCollection()
+            {
+                return Collection ?? (Collection = Rebuild());
+            }
+
+            private static Dictionary<long, List<T>> Rebuild()
+            {
+                var collection = new Dictionary<long, List<T>>();
+                foreach (var o in GetAll<T>().Values)
+                {
+                    if (o.AreaID > 0)
+                    {
+                        if (!collection.TryGetValue(o.AreaID, out List<T> associations))
+                        {
+                            collection[o.AreaID] = associations = new List<T>();
+                        }
+                        associations.Add(o);
+                    }
+                }
+                return collection;
+            }
+
+            public static IEnumerable<T> Enumerate(long key)
+            {
+                if (GetCollection().TryGetValue(key, out var associations))
+                {
+                    foreach (var association in associations)
+                    {
+                        yield return association;
+                    }
+                }
+            }
+
+            /// <summary>
+            /// Retrieve a collection of elements matching the key.
+            /// </summary>
+            /// <typeparam name="T">The element type to search for.</typeparam>
+            /// <param name="key">The key.</param>
+            /// <param name="associations">The list of associated elements or null.</param>
+            /// <returns>Whether or not the associations could be found.</returns>
+            public static bool TryGetAssociations(long key, out List<T> associations)
+            {
+                return GetCollection().TryGetValue(key, out associations);
+            }
+        }
+
+        /// <summary>
+        /// Enumerate over a collection of elements matching the AreaID.
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="o">The object.</param>
+        /// <returns>An enumerable list.</returns>
+        public static IEnumerable<T> EnumerateForAreaID<T>(this IWagoAreaID o) where T : IWagoAreaID, IDBType
+        {
+            return EnumerateForAreaID<T>(o.AreaID);
+        }
+
+        /// <summary>
+        /// Enumerate over a collection of elements matching the AreaID.
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="areaID">The area ID.</param>
+        /// <returns>An enumerable list.</returns>
+        public static IEnumerable<T> EnumerateForAreaID<T>(long areaID) where T : IWagoAreaID, IDBType
+        {
+            return AreaKeyedCache<T>.Enumerate(areaID);
+        }
+
+        /// <summary>
+        /// Retrieve a collection of elements matching the key.
+        /// </summary>
+        /// <typeparam name="T">The element type to search for.</typeparam>
+        /// <param name="areaID">The area ID.</param>
+        /// <param name="associations">The list of associated elements or null.</param>
+        /// <returns>Whether or not the associations could be found.</returns>
+        public static bool TryGetAreaAssociations<T>(long areaID, out List<T> associations) where T : IWagoAreaID, IDBType
+        {
+            return AreaKeyedCache<T>.TryGetAssociations(areaID, out associations);
+        }
+        #endregion
         #region Item-Keyed Collections
         private static class ItemKeyedCache<T> where T : IWagoItemID, IDBType
         {
