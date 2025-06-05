@@ -185,8 +185,14 @@ app:CreateDynamicProfessionCategory("Engineering", { "atteng" }, 202, { 20222, 2
 app:CreateDynamicProfessionCategory("First Aid", { "attaid" }, 129);
 app:CreateDynamicProfessionCategory("Fishing", { "attfish" }, 356);
 app:CreateDynamicProfessionCategory("Herbalism", { "attherb" }, 182);
-app:CreateDynamicProfessionCategory("Inscription", { "attscribe" }, 773);
-app:CreateDynamicProfessionCategory("Jewelcrafting", { "attjc" }, 755);
+if app.GameBuildVersion > 30000 then
+	-- Inscription came out with Wrath
+	app:CreateDynamicProfessionCategory("Inscription", { "attscribe" }, 773);
+end
+if app.GameBuildVersion > 20000 then
+	-- Jewelcrafting came out with TBC
+	app:CreateDynamicProfessionCategory("Jewelcrafting", { "attjc" }, 755);
+end
 app:CreateDynamicProfessionCategory("Leatherworking", { "attlw" }, 165, { 10656, 10658, 10660 });
 app:CreateDynamicProfessionCategory("Mining", { "attmining" }, 186);
 app:CreateDynamicProfessionCategory("Skinning", { "attskinning" }, 393);
