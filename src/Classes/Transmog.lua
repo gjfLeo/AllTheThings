@@ -980,8 +980,9 @@ local function AddSourceInformation(sourceID, info, sourceGroup)
 						-- This is NOT the same type. Therefore, no credit for you!
 						failText = L.FILTER_ID_TYPES[otherFilter] or L.FILTER_ID
 					-- Classes
-					elseif otherATTSource.nmc then
-						-- This is NOT for your class. Therefore, no credit for you!
+					elseif otherATTSource.c
+						and (not sourceGroup.c or not containsAny(otherATTSource.c, sourceGroup.c)) then
+						-- This is NOT for the shared appearance class. Therefore, no credit for you!
 						if #otherATTSource.c == 1 then
 							failText = app.ClassInfoByID[otherATTSource.c[1]].name or UNKNOWN
 						else
