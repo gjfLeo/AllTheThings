@@ -1037,7 +1037,7 @@ local function AddSourceInformation(sourceID, info, sourceGroup)
 						end
 					-- Faction
 					elseif otherATTSource.r then
-						if sourceGroup.r ~= otherATTSource.r then
+						if sourceGroup.r ~= otherATTSource.r and not DualFactionCollectedVisualIDs.Known[sourceInfo.visualID] then
 							-- This is NOT for your Faction. Therefore, no credit for you!
 							failText = otherATTSource.r == Enum.FlightPathFaction.Horde and FACTION_HORDE or FACTION_ALLIANCE
 						end
