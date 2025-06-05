@@ -177,8 +177,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 
 							-- Hellfire Ramprats (not yet sourced)
 							-- i(238934),	-- Boots of the Darkwalker
-							-- i(238936),	-- Scale Leggings of the Skirmisher
-							-- i(238937),	-- Light-Touched Breastplate
+							i(238936),	-- Scale Leggings of the Skirmisher
+							i(238937),	-- Light-Touched Breastplate
 
 							-- Deadmines (sourced under the dungeon)
 							-- i(238938),	-- Vest of the Curious Visitor

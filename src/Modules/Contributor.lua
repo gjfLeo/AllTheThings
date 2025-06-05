@@ -923,6 +923,7 @@ MobileDB.GameObject = {
 	[329639] = true,	-- Sharas'dal, Scepter of Tides (q:56429)
 	[330194] = true,	-- Prismatic Crystal
 	[334115] = true,	-- Explosive Crate (q:57148)
+	[334122] = true,	-- Bomb Location (Vision of Stormwind)
 	[334732] = true,	-- Glimmering Chest
 	[334733] = true,	-- Glimmering Chest
 	[334734] = true,	-- Glimmering Chest

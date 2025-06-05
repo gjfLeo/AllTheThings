@@ -359,21 +359,13 @@ root(ROOTS.Unsorted, {
 				i(235274),	-- Echo of N'zoth
 				i(235284),	-- Echo of N'zoth
 				i(235285),	-- Echo of N'zoth
-				-- Trinkets?
-				i(236917),	-- Dark Dreamer's Talisman
-				i(236918),	-- Pulsating Void Disk
 			}),
 			n(SPECIAL, {	-- Duos
 				-- Hellfire Ramprats (didnt make it)
 				i(238934),	-- Boots of the Darkwalker
-				i(238936),	-- Scale Leggings of the Skirmisher
-				i(238937),	-- Light-Touched Breastplate
 
 				-- Didnt make it
 				i(238981),	-- Gloves of the Uplifted Cup
-
-				-- The Blood Furnace
-				i(239009),	-- Signet of Repose
 			}),
 			n(SPECIAL, {	-- Mysterious???
 				-- Nothing load atm
