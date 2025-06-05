@@ -529,7 +529,6 @@ EncompassingClassArmorTypeVisualIDs = {
 		-- the first class assigned to the visualID gives an armor-matched set of classes which is a different count than the visualID's classes...
 		if #ClassesByArmorType[ArmorTypeClasses[classes[1]]] ~= #classes then return end
 
-		-- is there more checking required? are cloaks weird?
 		Known[visualID] = true
 		-- app.PrintDebug("VisualID",visualID,"known by encompassing Armor-Type Item!")
 	end,
