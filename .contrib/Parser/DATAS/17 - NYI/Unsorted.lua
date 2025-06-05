@@ -8,12 +8,6 @@ root(ROOTS.Unsorted, {
 			filter(QUEST_ITEMS, {
 				i(228964),	-- Scarlet Signet Ring
 				i(231766),	-- Hammerfall Horn
-				i(231878),	-- Articles of Proof
-				i(231879),	-- Defias Bandana
-				i(231880),	-- Orange Bandana
-				i(231881),	-- Syndicate Emblem
-				i(231883),	-- Scarlet Crusade Tabard
-				i(231884),	-- Stromgarde Tabard
 			}),
 			n(TIMEWALKING_HEADER, {
 				i(238740),	-- Distilled Knowledge of Timeways
@@ -63,10 +57,6 @@ root(ROOTS.Unsorted, {
 				i(239071),	-- Secret Spinner's Miter
 				i(239072),	-- Loa Betrayer's Vestments
 				i(239073),	-- Coif of the Court Spider
-			}),
-			n(QUESTS, {
-				-- Arathor Questline
-				i(239136),	-- Stromgarde Tabard
 			}),
 			n(PROFESSIONS, {
 				-- Ins

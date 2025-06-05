@@ -1244,6 +1244,7 @@ MobileDB.GameObject = {
 	[503329] = true,	-- Corroded Plaque
 	[503440] = true,	-- Discarded Goods
 	[503450] = true,	-- Chunk of Charged Glass
+	[503465] = true,	-- Barrels of Tar
 	[503868] = true,	-- Nemesis Strongbox
 	[503869] = true,	-- Nemesis Strongbox
 	[503870] = true,	-- Nemesis Strongbox

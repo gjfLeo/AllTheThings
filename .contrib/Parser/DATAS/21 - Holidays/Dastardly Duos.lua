@@ -58,7 +58,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 				q(86503, {	-- Who are the Dastardly Duos?
 					["sourceQuests"] = { 86491 },	-- Dastardly Invitation
 					["provider"] = { "n", 234296 },	-- Vinnie Sweets
-					["coord"] = { 52.8, 51.6, ISLE_OF_DORN },
+					["coords"] = {
+						{ 52.8, 51.6, ISLE_OF_DORN },	-- Khaz Algar
+						--{ x, y, ORGRIMMAR },	-- Orgrimmar
+						{ 68.2, 79.0, STORMWIND_CITY },	-- Stormwind
+					},
 					["g"] = {
 						i(239007),	-- Dastardly Banner (TOY!)
 						i(239440),	-- Dastardly Prize Purse
@@ -114,7 +118,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 				q(90701, {	-- Cowardly Cheery Bombs
 					["sourceQuests"] = { 86503 },	-- Who are the Dastardly Duos?
 					["provider"] = { "n", 234297 },	-- Wodin the Troll Servant
-					["coord"] = { 52.7, 51.3, ISLE_OF_DORN },
+					["coords"] = {
+						{ 52.8, 51.6, ISLE_OF_DORN },	-- Khaz Algar
+						--{ x, y, ORGRIMMAR },	-- Orgrimmar
+						{ 68.2, 79.0, STORMWIND_CITY },	-- Stormwind
+					},
 					["g"] = {
 						i(239440, {	-- Dastardly Prize Purse
 							i(238989),	-- Steam-Hinge Chain of Valor (TODO: ph since lack of data)
