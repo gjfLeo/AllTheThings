@@ -236,21 +236,18 @@ app.CreateAchievementCriteria = app.CreateClass("AchievementCriteria", "criteria
 	["rank"] = function(t) return t.data.rank; end,
 	["collected"] = function(t)
 		if t.data.collectible then
-			-- Check to see if the criteria was completed.
-			local achievementID = t.achievementID;
-			if achievementID then
-				if app.CurrentCharacter.Achievements[achievementID] then return 1; end
-				if app.Settings.AccountWide.Achievements and ATTAccountWideData.Achievements[achievementID] then return 2; end
+			if app.Settings.AccountWide.Achievements then
+				-- Check to see if the criteria was completed.
+				local achievementID = t.achievementID;
+				if achievementID and ATTAccountWideData.Achievements[achievementID] then
+					return 2;
+				end
 			end
 			return t.data.collected and 1;
 		end
 	end,
 	["saved"] = function(t)
 		if t.data.collectible then
-			local achievementID = t.achievementID;
-			if achievementID and app.CurrentCharacter.Achievements[achievementID] then
-				return true;
-			end
 			return t.data.collected;
 		end
 	end,
@@ -682,21 +679,18 @@ app.CreateAchievement = app.CreateClass("Achievement", "achievementID", fields,
 	["parentCategoryID"] = function(t) return t.data.category or -1; end,
 	["collected"] = function(t)
 		if t.data.collectible then
-			-- Check to see if the criteria was completed.
-			local achievementID = t.achievementID;
-			if achievementID then
-				if app.CurrentCharacter.Achievements[achievementID] then return 1; end
-				if app.Settings.AccountWide.Achievements and ATTAccountWideData.Achievements[achievementID] then return 2; end
+			if app.Settings.AccountWide.Achievements then
+				-- Check to see if the criteria was completed.
+				local achievementID = t.achievementID;
+				if achievementID and ATTAccountWideData.Achievements[achievementID] then
+					return 2;
+				end
 			end
 			return t.data.collected and 1;
 		end
 	end,
 	["saved"] = function(t)
 		if t.data.collectible then
-			local achievementID = t.achievementID;
-			if achievementID and app.CurrentCharacter.Achievements[achievementID] then
-				return true;
-			end
 			return t.data.collected;
 		end
 	end,

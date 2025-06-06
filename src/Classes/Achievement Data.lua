@@ -516,7 +516,8 @@ local CreateAchievementDataType = app.CreateClass("AchievementDataType", "__achU
 		local criteriaData = t.criteriaData;
 		if criteriaData then return t.collectible; end
 	end,
-	["collected"] = function(t)
+	["collected"] = app.ReturnFalse,	-- This is manually assigned in the Refresh function
+	["CheckCollected"] = function(t)
 		local criteriaData = t.criteriaData;
 		if criteriaData then
 			local current = 0;
@@ -529,12 +530,8 @@ local CreateAchievementDataType = app.CreateClass("AchievementDataType", "__achU
 			end
 			if current == t.total then
 				return 1;
-			elseif current > 0 then
-				if t.requireAny then
-					return 1;
-				elseif current >= (t.amount or 1) then
-					return 1;
-				end
+			elseif current > 0 and t.requireAny then
+				return 1;
 			end
 		end
 	end,
@@ -604,7 +601,9 @@ end
 local function RefreshAchievementData()
 	for id,achievement in pairs(AchievementData) do
 		if achievement.collectible then
-			app.SetCollected(achievement, "Achievements", id, achievement.collected);
+			local collected = achievement.CheckCollected;
+			achievement.collected = collected;
+			app.SetCollected(achievement, "Achievements", id, collected);
 		end
 	end
 end
