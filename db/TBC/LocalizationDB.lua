@@ -15491,6 +15491,7 @@ local worldMapOverlayData = {
 	[1458] = { 4095 },
 	[1459] = { 4091 },
 	[1460] = { 4092 },
+	[1557] = { 4281,4544,4546 },
 };
 L.WORLD_MAP_OVERLAY_DATA = worldMapOverlayData;
 
