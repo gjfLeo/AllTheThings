@@ -219,14 +219,6 @@ do
 		end,
 	})
 
-	app.CreateGuildAchievement = function(id, t)
-		-- TODO: Proper Class Extension Maybe? I think the Achievement class doesn't use a Class Constructor yet, but when it does, do this too.
-		t = app.CreateAchievement(id, t);
-		t.collectible = false;
-		t.isGuild = true;
-		return t;
-	end
-
 	app.AddEventHandler("OnRefreshCollections", function()
 		local me, completed
 		-- app.PrintDebug("OnRefreshCollections.Achievement")
@@ -537,12 +529,5 @@ do
 		end
 	end
 	app.CreateAchievementCriteria = app.CreateClass("Criteria", "criteriaID", criteriaFields)
-	app.CreateGuildAchievementCriteria = function(id, t)
-		-- TODO: Proper Class Extension Maybe? I think the Achievement class doesn't use a Class Constructor yet, but when it does, do this too.
-		t = app.CreateAchievementCriteria(id, t);
-		t.collectible = false;
-		t.isGuild = true;
-		return t;
-	end
 	app.AddSimpleCollectibleSwap("Criteria", "Achievements")
 end

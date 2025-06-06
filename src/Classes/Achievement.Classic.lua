@@ -1355,15 +1355,3 @@ app.CreateAchievement = app.CreateClass("Achievement", "achievementID", fields,
 		return data;
 	end
 end);
-
--- Guild Achievements
-app.CreateGuildAchievement = app.ExtendClass("Achievement", "GuildAchievement", "guildAchievementID", {
-	collectible = app.ReturnFalse,
-	achievementID = function(t) return t.guildAchievementID; end,
-	isGuild = app.ReturnTrue,
-});
-app.CreateGuildAchievementCriteria = app.ExtendClass("AchievementCriteria", "GuildAchievementCriteria", "guildCriteriaID", {
-	collectible = app.ReturnFalse,
-	criteriaID = function(t) return t.guildCriteriaID; end,
-	isGuild = app.ReturnTrue,
-});
