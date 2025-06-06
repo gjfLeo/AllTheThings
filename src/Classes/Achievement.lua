@@ -528,6 +528,6 @@ do
 			return cache.GetCachedField(t, key, GetParentAchievementInfo)
 		end
 	end
-	app.CreateAchievementCriteria = app.CreateClass("Criteria", "criteriaID", criteriaFields)
-	app.AddSimpleCollectibleSwap("Criteria", "Achievements")
+	app.CreateAchievementCriteria = app.CreateClass("AchievementCriteria", "criteriaID", criteriaFields)
+	app.AddSimpleCollectibleSwap("AchievementCriteria", "Achievements")
 end
