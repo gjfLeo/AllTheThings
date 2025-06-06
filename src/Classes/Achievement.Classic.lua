@@ -15,8 +15,7 @@ local ResolveSymbolicLink;
 local IsSpellKnown;
 
 -- WoW API Cache
-local GetAchievementInfo, GetCategoryInfo
-	= GetAchievementInfo, GetCategoryInfo;
+local GetAchievementInfo = GetAchievementInfo;
 local GetItemCount = app.WOWAPI.GetItemCount;
 local GetSpellName = app.WOWAPI.GetSpellName;
 local GetSpellIcon = app.WOWAPI.GetSpellIcon;
@@ -30,55 +29,10 @@ end)
 
 -- Cache Achievement Data if it exists.
 local AchievementData = rawget(L, "ACHIEVEMENT_DATA") or {};
-local AchievementCategoryData = rawget(L, "ACHIEVEMENT_CATEGORY_DATA") or {};
 local AchievementCriteriaData = rawget(L, "ACHIEVEMENT_CRITERIA_DATA") or {};
 local WorldMapOverlayData = rawget(L, "WORLD_MAP_OVERLAY_DATA") or {};
-app.CreateAchievementCategory = app.CreateClass("AchievementCategory", "achievementCategoryID", {
-	["defaultIcon"] = function(t)
-		return app.asset("Category_Achievements");
-	end,
-	["defaultName"] = function(t)
-		local data = GetCategoryInfo(t.achievementCategoryID);
-		if data then return data; end
-		return "Category " .. t.achievementCategoryID;
-	end,
-	["defaultParentCategoryID"] = function(t)
-		local data = select(2, GetCategoryInfo(t.achievementCategoryID));
-		if data then return data; end
-		return -1;
-	end,
-	["name"] = function(t)
-		return t.defaultName;
-	end,
-	["icon"] = function(t)
-		return t.defaultIcon;
-	end,
-	["parentCategoryID"] = function(t)
-		return t.defaultParentCategoryID;
-	end,
-	["ignoreSourceLookup"] = function(t)
-		return true;
-	end,
-},
-"WithData", {	-- When there is data related to the category available in the database module.
-	["name"] = function(t)
-		local name = t.data.name;
-		if not IsRetrieving(name) then return name; end
-		return t.defaultName;
-	end,
-	["parentCategoryID"] = function(t)
-		return t.data.parent or t.defaultParentCategoryID;
-	end,
-	["icon"] = function(t)
-		return t.data.icon or t.defaultIcon;
-	end,
-}, function(t)
-	local data = AchievementCategoryData[t.achievementCategoryID];
-	if data then
-		t.data = data;
-		return data;
-	end
-end);
+
+
 
 -- Achievement Criteria Data have independent detection methods based on their internal type.
 local GetItemID = app.WOWAPI.GetItemID;

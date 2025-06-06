@@ -365,27 +365,6 @@ local function BuildSourceAchievements(group)
 end
 app.AddEventHandler("OnNewPopoutGroup", BuildSourceAchievements)
 
--- Achievement Category Lib
-do
-	local GetCategoryInfo
-		= GetCategoryInfo
-
-	app.CreateAchievementCategory = app.CreateClass("AchievementCategory", "achievementCategoryID", {
-		key = function(t)
-			return "achievementCategoryID";
-		end,
-		name = function(t)
-			return GetCategoryInfo(t.achievementCategoryID);
-		end,
-		icon = function(t)
-			return app.asset("Category_Achievements");
-		end,
-		parentCategoryID = function(t)
-			return select(2, GetCategoryInfo(t.achievementCategoryID)) or -1;
-		end,
-	})
-end
-
 -- Achievement Criteria Lib
 do
 	-- Returns expected criteria data for either criteriaIndex or criteriaID

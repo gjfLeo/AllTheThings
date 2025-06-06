@@ -111,6 +111,7 @@ db\Retail\LocalizationDB.lua
 
 # Load object class templates
 src\Classes\base.lua
+src\Classes\Achievement Categories.lua
 src\Classes\Achievement.lua
 src\Classes\BattlePet.lua
 src\Classes\CharacterClass.lua
