@@ -52,6 +52,12 @@ CollectionCache = setmetatable({}, { __index = function(t, key)
 		return val
 	end
 end})
+local QuickAchievementCache = setmetatable({}, { __index = function(t,key)
+	if not key then return end
+	local achObj = SearchForObject("achievementID", key, "key")
+	t[key] = achObj
+	return achObj
+end})
 
 -- Achievement Lib
 do
@@ -280,7 +286,7 @@ do
 			priority = 1.5, HideCheckBox = true, ForceActive = true,
 			Process = function(t, reference, tooltipInfo)
 				if reference.criteriaID and reference.achievementID then
-					local achievement = SearchForObject("achievementID", reference.achievementID, "key")
+					local achievement = QuickAchievementCache[reference.achievementID]
 					tinsert(tooltipInfo, {
 						left = L.CRITERIA_FOR,
 						right = achievement.text or GetAchievementLink(reference.achievementID),
@@ -315,7 +321,7 @@ do
 				local prereqs = {}
 				for i,sourceAchievementID in ipairs(reference.sourceAchievements) do
 					if sourceAchievementID > 0 and (isDebugMode or not app.IsAccountCached("Achievements", sourceAchievementID)) then
-						sas = SearchForObject("achievementID", sourceAchievementID, "field", true)
+						sas = QuickAchievementCache[sourceAchievementID]
 						if #sas > 0 then
 							bestMatch = nil;
 							for j,sa in ipairs(sas) do
@@ -359,7 +365,7 @@ local function BuildSourceAchievements(group)
 		g = sas,
 	})
 	for i,achID in ipairs(group.sourceAchievements) do
-		app.NestObject(sourceGroup, SearchForObject("achievementID", achID, "key") or app.CreateAchievement(achID), true)
+		app.NestObject(sourceGroup, QuickAchievementCache[achID] or app.CreateAchievement(achID), true)
 	end
 	app.NestObject(group, sourceGroup, nil, 1)
 end
@@ -387,12 +393,6 @@ do
 		end
 	end
 
-	local QuickAchievementCache = setmetatable({}, { __index = function(t,key)
-		if not key then return end
-		local achObj = SearchForObject("achievementID", key, "key")
-		t[key] = achObj
-		return achObj
-	end})
 	-- Criteria field values which will use the value of the respective Achievement instead
 	local UseParentAchievementValueKeys = {
 		"c", "classID", "races", "r", "u", "e", "sr", "pb", "pvp", "requireSkill", "icon"
