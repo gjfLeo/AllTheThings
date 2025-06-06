@@ -368,19 +368,21 @@ local ForSpellsFields = {	-- Type 34
 };
 local ForExplorationFields = {	-- Type 43
 	["collectible"] = function(t)
-		return WorldMapOverlayData[t.asset];
+		for i,explorationID in ipairs(t.overlayData) do
+			local exploration = SearchForField("explorationID", explorationID);
+			if exploration and #exploration > 0 then
+				return exploration[1].collectible;
+			end
+		end
 	end,
 	["amount"] = function(t) return 1; end,
 	["collected"] = function(t)
 		return t.current >= t.amount;
 	end,
 	["current"] = function(t)
-		local overlay = WorldMapOverlayData[t.asset];
-		if overlay then
-			for i,explorationID in ipairs(overlay) do
-				if app.CurrentCharacter.Exploration[explorationID] then
-					return 1;
-				end
+		for i,explorationID in ipairs(t.overlayData) do
+			if app.CurrentCharacter.Exploration[explorationID] then
+				return 1;
 			end
 		end
 		return 0;
@@ -403,13 +405,11 @@ local ForSubAchievementFields = {	-- Type 8
 	end,
 };
 local function OnTooltipForCriteriaData(criteria, tooltipInfo)
-	if criteria.collectible then
-		tinsert(tooltipInfo, {
-			left = " [" .. criteria.__criteriaUID .. "]: " .. tostring(criteria.text),
-			right = "(" .. tostring(criteria.asset or "--") .. " @ " .. tostring(criteria.type) .. ") " .. tostring(criteria.progress) .. " / " .. tostring(criteria.total) .. " " .. app.GetCompletionIcon(criteria.collected),
-			r = 1, g = 1, b = 1
-		});
-	end
+	tinsert(tooltipInfo, {
+		left = " [" .. criteria.__criteriaUID .. "]: " .. tostring(criteria.text),
+		right = "(" .. tostring(criteria.asset or "--") .. " @ " .. tostring(criteria.type) .. ") " .. tostring(criteria.progress) .. " / " .. tostring(criteria.total) .. " " .. app.GetCompletionIcon(criteria.collected),
+		r = 1, g = 1, b = 1
+	});
 end
 local CreateCriteriaType = app.CreateClass("CriteriaType", "__criteriaUID", {
 	RefreshCollectionOnly = true,
@@ -443,7 +443,12 @@ local CreateCriteriaType = app.CreateClass("CriteriaType", "__criteriaUID", {
 "ForOwnItem", ForOwnItemFields, function(t) return t.type == 36 or t.type == 57; end,
 "ForQuest", ForQuestFields, function(t) return t.type == 27; end,
 "ForSpells", ForSpellsFields, function(t) return t.type == 34; end,
-"ForExploration", ForExplorationFields, function(t) return t.type == 43; end);
+"ForExploration", ForExplorationFields, function(t)
+	if t.type == 43 then
+		t.overlayData = WorldMapOverlayData[t.asset] or {};
+		return true;
+	end
+end);
 
 -- Add Handlers for updating the completion status
 for id,criteria in pairs(AchievementCriteriaData) do
