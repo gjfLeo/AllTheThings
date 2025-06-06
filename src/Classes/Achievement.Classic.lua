@@ -1246,11 +1246,11 @@ else
 		
 	};
 end
-local function GetRelatedThingsForAchievementData(t, objects)
+local function GetRelatedThingsForAchievement(t, objects)
 	local func = t.data.GetRelatedThings;
 	if func then func(t.data, objects); end
 end
-local function OnTooltipForAchievementData(t, tooltipInfo)
+local function OnTooltipForAchievement(t, tooltipInfo)
 	t.data.OnTooltip(t.data, tooltipInfo);
 end
 app.CreateAchievement = app.CreateClass("Achievement", "achievementID", fields,
@@ -1297,10 +1297,10 @@ app.CreateAchievement = app.CreateClass("Achievement", "achievementID", fields,
 		end
 	end,
 	["GetRelatedThings"] = function(t)
-		return GetRelatedThingsForAchievementData;
+		return GetRelatedThingsForAchievement;
 	end,
 	["OnTooltip"] = function(t)
-		return OnTooltipForAchievementData;
+		return OnTooltipForAchievement;
 	end,
 }, function(t)
 	local data = AchievementData[t.achievementID];
