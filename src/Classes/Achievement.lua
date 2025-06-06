@@ -321,7 +321,7 @@ do
 				local prereqs = {}
 				for i,sourceAchievementID in ipairs(reference.sourceAchievements) do
 					if sourceAchievementID > 0 and (isDebugMode or not app.IsAccountCached("Achievements", sourceAchievementID)) then
-						sas = QuickAchievementCache[sourceAchievementID]
+						sas = SearchForObject("achievementID", sourceAchievementID, "field", true)
 						if #sas > 0 then
 							bestMatch = nil;
 							for j,sa in ipairs(sas) do
