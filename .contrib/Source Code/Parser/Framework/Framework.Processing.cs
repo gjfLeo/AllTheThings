@@ -2320,7 +2320,7 @@ namespace ATT
             long worldMapOverlayID = criteriaData.GetExplorationWorldMapOverlayID();
             if (worldMapOverlayID > 0)
             {
-                if (WagoData.TryGetValue<WorldMapOverlay>(worldMapOverlayID, out var overlay))
+                if (WagoData.TryGetValue(worldMapOverlayID, out WorldMapOverlay overlay))
                 {
                     long explorationID = overlay.AreaID_0;
                     if (explorationID > 0)
