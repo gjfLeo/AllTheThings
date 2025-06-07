@@ -472,35 +472,38 @@ app.AddEventHandler("OnLoad", function()
 		text = L.EVENT_SCHEDULE,
 		Process = function(t, reference, tooltipInfo)
 			if reference.ShouldShowEventSchedule then
-				local nextEvent = NextEventSchedule[reference.eventID or reference.e];
-				if nextEvent then
-					if nextEvent.remappedID then
-						local mapID = RemappedEventToMapID[nextEvent.remappedID];
-						if mapID then
+				local e = reference.eventID or reference.e;
+				if e then
+					local nextEvent = NextEventSchedule[e];
+					if nextEvent then
+						if nextEvent.remappedID then
+							local mapID = RemappedEventToMapID[nextEvent.remappedID];
+							if mapID then
+								tinsert(tooltipInfo, {
+									left = L.EVENT_WHERE,
+									right = app.GetMapName(mapID),
+									color = app.Colors.TooltipDescription,
+								});
+							end
+						end
+						if nextEvent.endTime then
 							tinsert(tooltipInfo, {
-								left = L.EVENT_WHERE,
-								right = app.GetMapName(mapID),
+								left = L.EVENT_START,
+								right = GetEventTimeString(nextEvent.startTime),
+								color = app.Colors.TooltipDescription,
+							});
+							tinsert(tooltipInfo, {
+								left = L.EVENT_END,
+								right = GetEventTimeString(nextEvent.endTime),
+								color = app.Colors.TooltipDescription,
+							});
+						else
+							tinsert(tooltipInfo, {
+								left = L.EVENT_ACTIVE,
+								right = GetEventTimeString(nextEvent.startTime),
 								color = app.Colors.TooltipDescription,
 							});
 						end
-					end
-					if nextEvent.endTime then
-						tinsert(tooltipInfo, {
-							left = L.EVENT_START,
-							right = GetEventTimeString(nextEvent.startTime),
-							color = app.Colors.TooltipDescription,
-						});
-						tinsert(tooltipInfo, {
-							left = L.EVENT_END,
-							right = GetEventTimeString(nextEvent.endTime),
-							color = app.Colors.TooltipDescription,
-						});
-					else
-						tinsert(tooltipInfo, {
-							left = L.EVENT_ACTIVE,
-							right = GetEventTimeString(nextEvent.startTime),
-							color = app.Colors.TooltipDescription,
-						});
 					end
 				end
 			end
