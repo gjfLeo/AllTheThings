@@ -4,7 +4,7 @@
     /// https://wago.tools/db2/Holidays
     /// </summary>
     [DataModule]
-    public class Holiday : IDBType
+    public class Holiday : IDBType, IWagoHolidayNameID
     {
         public long ID { get; set; }
         public long Region { get; set; }
