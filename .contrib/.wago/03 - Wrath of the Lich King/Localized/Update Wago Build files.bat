@@ -7,6 +7,8 @@ call :downloadlocalized Achievement
 call :downloadlocalized AchievementCategory
 call :download Criteria
 call :downloadlocalized CriteriaTree
+call :downloadlocalized HolidayNames
+call :downloadrenamed WorldMapOverlay worldmapoverlay
 
 @REM Download Cataclysm Classic Achievement database, but ONLY for Agent of Shen'dralar
 SET BUILD=4.4.2.60192
@@ -16,7 +18,6 @@ SET FILTER=^&filter^\[ID\]=exact%%3A17023
 call :download Criteria
 SET FILTER=^&filter^\[ID\]=exact%%3A18653^|18654
 call :downloadlocalized CriteriaTree
-call :downloadrenamed WorldMapOverlay worldmapoverlay
 exit /b
 
 :download
