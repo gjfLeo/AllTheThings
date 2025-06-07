@@ -34,7 +34,8 @@ end
 
 -- Event ID Remapping by Region
 local remapping = L.EVENT_REMAPPING;
-if GetCVar("portal") == "EU" then
+local region = GetCVar("portal");
+if region == "EU" then
 	remapping[1508] = 1583; -- EU Classic Timewalking
 	remapping[622] = 559; -- EU BC Timewalking
 	remapping[616] = 562; -- EU Wrath Timewalking
@@ -45,7 +46,7 @@ if GetCVar("portal") == "EU" then
 	remapping[1667] = 1669;	-- EU BFA Timewalking
 	remapping[1398] = 1396;	-- EU Secrets of Azeroth
 	remapping[1514] = 1525;	-- EU Remix: Mists of Pandaria
-elseif GetCVar("portal") == "KO" then
+elseif region == "KO" then
 	remapping[1508] = 1585; -- KO Classic Timewalking
 	remapping[623] = 559; -- KO BC Timewalking
 	remapping[618] = 562; -- KO Wrath Timewalking
@@ -55,7 +56,7 @@ elseif GetCVar("portal") == "KO" then
 	remapping[1269] = 1263;	-- KO Legion Timewalking
 	remapping[1666] = 1669;	-- KO BFA Timewalking
 	remapping[1399] = 1396;	-- KO Secrets of Azeroth
-elseif GetCVar("portal") == "TW" or "CN" then
+elseif region == "TW" or region == "CN" then
 	remapping[1508] = 1584; -- TW Classic Timewalking
 	remapping[624] = 559; -- TW BC Timewalking
 	remapping[617] = 562; -- TW Wrath Timewalking
@@ -142,10 +143,22 @@ local function GetEventCache()
 										anyEvents = true;
 									end
 									local schedule = CreateSchedule(event.startTime, event.endTime);
+									tinsert(t.times, schedule);
+									
 									if remappedID ~= eventID then
 										schedule.remappedID = eventID;
+										t = cache[eventID];
+										if not t then
+											t = {
+												["name"] = event.title,
+												["icon"] = event.iconTexture,
+												["times"] = {},
+											};
+											cache[eventID] = t;
+											anyEvents = true;
+										end
+										tinsert(t.times, CreateSchedule(event.startTime, event.endTime));
 									end
-									tinsert(t.times, schedule);
 								end
 							end
 						end
@@ -177,7 +190,7 @@ end
 
 -- Event Helpers
 local CustomEventHelpers = {
-	[1271] = { 559,562,587,643,1056,1263 },	-- EVENTS.TIMEWALKING
+	[239] = { 559,562,587,643,1056,1263 },	-- EVENTS.TIMEWALKING
 	[133701] = { 1395, 1400, 1407, 1429, 1430, 1431 },	-- EVENTS.DRAGONRIDING_CUP
 };
 local SortByStart = function(a, b)
@@ -232,7 +245,7 @@ setmetatable(NextEventSchedule, { __index = function(t, id)
 			end
 			t[id] = schedule;
 			return schedule;
-		elseif id == 424 then -- EVENTS.KALUAK_FISHING_DERBY
+		elseif id == 161 then -- EVENTS.KALUAK_FISHING_DERBY
 			local startTime = C_DateAndTime_GetCurrentCalendarTime();
 			local weekDay = date("*t").wday;
 			if weekDay < 7 then
@@ -260,7 +273,7 @@ setmetatable(NextEventSchedule, { __index = function(t, id)
 			});
 			t[id] = schedule;
 			return schedule;
-		elseif id == 301 then -- EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA
+		elseif id == 6 then -- EVENTS.STRANGLETHORN_FISHING_EXTRAVAGANZA
 			local startTime = C_DateAndTime_GetCurrentCalendarTime();
 			local weekDay = date("*t").wday;
 			if weekDay > 1 then
@@ -360,10 +373,10 @@ if PlayerGetTimerunningSeasonID and IsTimerunningActive then
 		return GetRelativeRawWithField(group, "e") == TimerunningSeasonEventID
 	end
 	local function NotMoPRemixTimerunning(group)
-		-- app.PrintDebug("F:~TR",group.e,TimerunningSeasonEventID,group.__type,ThingKeys[group.key],not group.e or group.e ~= 1525)
+		-- app.PrintDebug("F:~TR",group.e,TimerunningSeasonEventID,group.__type,ThingKeys[group.key],not group.e or group.e ~= 437)
 		if not ThingKeys[group.key] then return true end
 		local e = GetRelativeRawWithField(group, "e")
-		return not e or e ~= 1525
+		return not e or e ~= 437
 	end
 
 	-- Add a Timerunning Filter that can be used for Live/Timerunning characters
@@ -449,6 +462,7 @@ end;
 fields.nextEvent = function(t)
 	return NextEventSchedule[t.eventID];
 end;
+fields.ShouldShowEventSchedule = app.ReturnTrue;
 events.Fields = fields;
 
 -- Information Type hook for Events
@@ -457,35 +471,37 @@ app.AddEventHandler("OnLoad", function()
 		priority = 2.3,
 		text = L.EVENT_SCHEDULE,
 		Process = function(t, reference, tooltipInfo)
-			local nextEvent = reference.nextEvent;
-			if nextEvent then
-				if nextEvent.remappedID then
-					local mapID = RemappedEventToMapID[nextEvent.remappedID];
-					if mapID then
+			if reference.ShouldShowEventSchedule then
+				local nextEvent = NextEventSchedule[reference.eventID or reference.e];
+				if nextEvent then
+					if nextEvent.remappedID then
+						local mapID = RemappedEventToMapID[nextEvent.remappedID];
+						if mapID then
+							tinsert(tooltipInfo, {
+								left = L.EVENT_WHERE,
+								right = app.GetMapName(mapID),
+								color = app.Colors.TooltipDescription,
+							});
+						end
+					end
+					if nextEvent.endTime then
 						tinsert(tooltipInfo, {
-							left = L.EVENT_WHERE,
-							right = app.GetMapName(mapID),
+							left = L.EVENT_START,
+							right = GetEventTimeString(nextEvent.startTime),
+							color = app.Colors.TooltipDescription,
+						});
+						tinsert(tooltipInfo, {
+							left = L.EVENT_END,
+							right = GetEventTimeString(nextEvent.endTime),
+							color = app.Colors.TooltipDescription,
+						});
+					else
+						tinsert(tooltipInfo, {
+							left = L.EVENT_ACTIVE,
+							right = GetEventTimeString(nextEvent.startTime),
 							color = app.Colors.TooltipDescription,
 						});
 					end
-				end
-				if nextEvent.endTime then
-					tinsert(tooltipInfo, {
-						left = L.EVENT_START,
-						right = GetEventTimeString(nextEvent.startTime),
-						color = app.Colors.TooltipDescription,
-					});
-					tinsert(tooltipInfo, {
-						left = L.EVENT_END,
-						right = GetEventTimeString(nextEvent.endTime),
-						color = app.Colors.TooltipDescription,
-					});
-				else
-					tinsert(tooltipInfo, {
-						left = L.EVENT_ACTIVE,
-						right = GetEventTimeString(nextEvent.startTime),
-						color = app.Colors.TooltipDescription,
-					});
 				end
 			end
 		end,
