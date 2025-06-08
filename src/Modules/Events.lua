@@ -35,49 +35,48 @@ end
 -- Event ID Remapping by Region
 local remapping = L.EVENT_REMAPPING;
 
---[[
--- Remap Classic Timewalking to the Timewalking header
+-- Remap the extra Timewalking Dungeon Event to the normal one
 remapping[237] = 239;	-- Timewalking Dungeon Event
-remapping[1583] = 239; -- EU
-remapping[1585] = 239; -- KO
-remapping[1584] = 239; -- TW
-]]--
 
---[[
-local region = GetCVar("portal");
-if region == "EU" then
-	remapping[1508] = 1583; -- EU Classic Timewalking
-	remapping[622] = 559; -- EU BC Timewalking
-	remapping[616] = 562; -- EU Wrath Timewalking
-	remapping[628] = 587; -- EU Cata Timewalking
-	remapping[652] = 643; -- EU MoP Timewalking
-	remapping[1063] = 1056; -- EU WoD Timewalking
-	remapping[1265] = 1263;	-- EU Legion Timewalking
-	remapping[1667] = 1669;	-- EU BFA Timewalking
-	remapping[1398] = 1396;	-- EU Secrets of Azeroth
-	remapping[1514] = 1525;	-- EU Remix: Mists of Pandaria
-elseif region == "KO" then
-	remapping[1508] = 1585; -- KO Classic Timewalking
-	remapping[623] = 559; -- KO BC Timewalking
-	remapping[618] = 562; -- KO Wrath Timewalking
-	remapping[629] = 587; -- KO Cata Timewalking
-	remapping[656] = 643; -- KO MoP Timewalking
-	remapping[1068] = 1056; -- KO WoD Timewalking
-	remapping[1269] = 1263;	-- KO Legion Timewalking
-	remapping[1666] = 1669;	-- KO BFA Timewalking
-	remapping[1399] = 1396;	-- KO Secrets of Azeroth
-elseif region == "TW" or region == "CN" then
-	remapping[1508] = 1584; -- TW Classic Timewalking
-	remapping[624] = 559; -- TW BC Timewalking
-	remapping[617] = 562; -- TW Wrath Timewalking
-	remapping[630] = 587; -- TW Cata Timewalking
-	remapping[654] = 643; -- TW MoP Timewalking
-	remapping[1065] = 1056; -- TW WoD Timewalking
-	remapping[1267] = 1263;	-- TW Legion Timewalking
-	remapping[1668] = 1669;	-- TW BFA Timewalking
---	remapping[1396] = 1399;	-- TW Secrets of Azeroth
-end
-]]--
+-- Remap Classic Timewalking => US
+remapping[1583] = 1508; -- EU
+remapping[1585] = 1508; -- KO
+remapping[1584] = 1508; -- TW
+
+-- Remap Outland Timewalking => US
+remapping[622] = 559; -- EU
+remapping[623] = 559; -- KO
+remapping[624] = 559; -- TW
+
+-- Remap Northrend Timewalking => US
+remapping[616] = 562; -- EU
+remapping[618] = 562; -- KO
+remapping[617] = 562; -- TW
+
+-- Remap Cataclysm Timewalking => US
+remapping[628] = 587; -- EU
+remapping[629] = 587; -- KO
+remapping[630] = 587; -- TW
+
+-- Remap MoP Timewalking => US
+remapping[652] = 643; -- EU
+remapping[656] = 643; -- KO
+remapping[654] = 643; -- TW
+
+-- Remap WoD Timewalking => US
+remapping[1063] = 1056; -- EU
+remapping[1068] = 1056; -- KO
+remapping[1065] = 1056; -- TW
+
+-- Remap Legion Timewalking => US
+remapping[1265] = 1263; -- EU
+remapping[1269] = 1263; -- KO
+remapping[1267] = 1263; -- TW
+
+-- Remap BFA Timewalking => US
+remapping[1667] = 1669; -- EU
+remapping[1668] = 1669; -- KO
+remapping[1666] = 1669; -- TW
 
 -- Event Cache
 -- Determine if the Calendar is implemented or not.
@@ -107,11 +106,12 @@ local function CreateSchedule(startTime, endTime, t)
 	};
 end
 local SessionEventCache;
+local CacheVersion = 20250607;
 local function GetEventCache()
 	-- app.PrintDebug("GetEventCache")
 	local now = CreateTimeStamp(C_DateAndTime_GetCurrentCalendarTime());
 	local cache = SessionEventCache or AllTheThingsSavedVariables.EventCache;
-	if cache and (cache.lease or 0) > now then
+	if cache and (cache.lease or 0) > now and (not cache.version or cache.version < CacheVersion) then
 		-- If our cache is still leased, then simply return it.
 		-- app.PrintDebug("GetEventCache.lease")
 		SessionEventCache = cache;
@@ -119,8 +119,10 @@ local function GetEventCache()
 	end
 
 	-- Create a new cache with a week long lease.
-	cache = {};
-	cache.lease = now + 604800;
+	cache = {
+		lease = now + 604800,
+		version = CacheVersion
+	};
 	if isCalendarAvailable then
 		local C_Calendar_SetAbsMonth, C_Calendar_SetMonth, C_Calendar_GetDayEvent, C_Calendar_GetMonthInfo, C_Calendar_GetNumDayEvents
 			= C_Calendar.SetAbsMonth, C_Calendar.SetMonth, C_Calendar.GetDayEvent, C_Calendar.GetMonthInfo, C_Calendar.GetNumDayEvents;
@@ -141,9 +143,21 @@ local function GetEventCache()
 						if event then -- If this is nil, then attempting to index it on the same line will toss an error.
 							if event.calendarType == "HOLIDAY" and (not event.sequenceType or event.sequenceType == "" or event.sequenceType == "START") then
 								local eventID = event.eventID;
-								local remappedID = remapping[eventID] or eventID;
-								if remappedID then
-									local t = cache[remappedID];
+								local t = cache[eventID];
+								if not t then
+									t = {
+										["name"] = event.title,
+										["icon"] = event.iconTexture,
+										["times"] = {},
+									};
+									cache[eventID] = t;
+									anyEvents = true;
+								end
+								tinsert(t.times, CreateSchedule(event.startTime, event.endTime));
+								
+								local remappedID = remapping[eventID];
+								if remappedID and remappedID ~= eventID then
+									t = cache[remappedID];
 									if not t then
 										t = {
 											["name"] = event.title,
@@ -154,18 +168,19 @@ local function GetEventCache()
 										anyEvents = true;
 									end
 									local schedule = CreateSchedule(event.startTime, event.endTime);
+									schedule.remappedID = eventID;
 									tinsert(t.times, schedule);
 									
-									if remappedID ~= eventID then
-										schedule.remappedID = eventID;
-										t = cache[eventID];
+									local finalID = remapping[remappedID];
+									if finalID then
+										local t = cache[finalID];
 										if not t then
 											t = {
 												["name"] = event.title,
 												["icon"] = event.iconTexture,
 												["times"] = {},
 											};
-											cache[eventID] = t;
+											cache[finalID] = t;
 											anyEvents = true;
 										end
 										tinsert(t.times, CreateSchedule(event.startTime, event.endTime));
