@@ -34,6 +34,16 @@ end
 
 -- Event ID Remapping by Region
 local remapping = L.EVENT_REMAPPING;
+
+--[[
+-- Remap Classic Timewalking to the Timewalking header
+remapping[237] = 239;	-- Timewalking Dungeon Event
+remapping[1583] = 239; -- EU
+remapping[1585] = 239; -- KO
+remapping[1584] = 239; -- TW
+]]--
+
+--[[
 local region = GetCVar("portal");
 if region == "EU" then
 	remapping[1508] = 1583; -- EU Classic Timewalking
@@ -67,6 +77,7 @@ elseif region == "TW" or region == "CN" then
 	remapping[1668] = 1669;	-- TW BFA Timewalking
 --	remapping[1396] = 1399;	-- TW Secrets of Azeroth
 end
+]]--
 
 -- Event Cache
 -- Determine if the Calendar is implemented or not.

@@ -2847,9 +2847,11 @@ namespace ATT
                     if (eventRemaps.Any())
                     {
                         builder.AppendLine("localize(L.EVENT_REMAPPING, {");
-                        foreach (var pair in eventRemaps)
+                        var remappedKeys = eventRemaps.Keys.ToList();
+                        remappedKeys.Sort();
+                        foreach (var remappedKey in remappedKeys)
                         {
-                            ExportObjectKeyValue(builder, pair.Key, pair.Value).AppendLine();
+                            ExportObjectKeyValue(builder, remappedKey, eventRemaps[remappedKey]).AppendLine();
                         }
                         builder.AppendLine("});").AppendLine();
                     }

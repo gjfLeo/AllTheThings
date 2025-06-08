@@ -9,7 +9,19 @@
         public long ID { get; set; }
         public long Region { get; set; }
         public long Looping { get; set; }
-        public long HolidayNameID { get; set; }
+        private long _HolidayNameID;
+        public long HolidayNameID
+        {
+            get
+            {
+                return _HolidayNameID;
+            }
+            set
+            {
+                // CRIEVE NOTE: Blizzard did a dumb and duplicated the Timewalking Dungeon Event.
+                if ((_HolidayNameID = value) == 237) _HolidayNameID = 239;
+            }
+        }
         public long HolidayDescriptionID { get; set; }
         public long Priority { get; set; }
         public long CalendarFilterType { get; set; }
