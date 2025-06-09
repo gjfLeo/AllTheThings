@@ -34,49 +34,50 @@ end
 
 -- Event ID Remapping by Region
 local remapping = L.EVENT_REMAPPING;
+app.AddEventHandler("OnLoad", function()
+	-- Remap the extra Timewalking Dungeon Event to the normal one
+	remapping[237] = 239;	-- Timewalking Dungeon Event
 
--- Remap the extra Timewalking Dungeon Event to the normal one
-remapping[237] = 239;	-- Timewalking Dungeon Event
+	-- Remap Classic Timewalking => US
+	remapping[1583] = 1508; -- EU
+	remapping[1585] = 1508; -- KO
+	remapping[1584] = 1508; -- TW
 
--- Remap Classic Timewalking => US
-remapping[1583] = 1508; -- EU
-remapping[1585] = 1508; -- KO
-remapping[1584] = 1508; -- TW
+	-- Remap Outland Timewalking => US
+	remapping[622] = 559; -- EU
+	remapping[623] = 559; -- KO
+	remapping[624] = 559; -- TW
 
--- Remap Outland Timewalking => US
-remapping[622] = 559; -- EU
-remapping[623] = 559; -- KO
-remapping[624] = 559; -- TW
+	-- Remap Northrend Timewalking => US
+	remapping[616] = 562; -- EU
+	remapping[618] = 562; -- KO
+	remapping[617] = 562; -- TW
 
--- Remap Northrend Timewalking => US
-remapping[616] = 562; -- EU
-remapping[618] = 562; -- KO
-remapping[617] = 562; -- TW
+	-- Remap Cataclysm Timewalking => US
+	remapping[628] = 587; -- EU
+	remapping[629] = 587; -- KO
+	remapping[630] = 587; -- TW
 
--- Remap Cataclysm Timewalking => US
-remapping[628] = 587; -- EU
-remapping[629] = 587; -- KO
-remapping[630] = 587; -- TW
+	-- Remap MoP Timewalking => US
+	remapping[652] = 643; -- EU
+	remapping[656] = 643; -- KO
+	remapping[654] = 643; -- TW
 
--- Remap MoP Timewalking => US
-remapping[652] = 643; -- EU
-remapping[656] = 643; -- KO
-remapping[654] = 643; -- TW
+	-- Remap WoD Timewalking => US
+	remapping[1063] = 1056; -- EU
+	remapping[1068] = 1056; -- KO
+	remapping[1065] = 1056; -- TW
 
--- Remap WoD Timewalking => US
-remapping[1063] = 1056; -- EU
-remapping[1068] = 1056; -- KO
-remapping[1065] = 1056; -- TW
+	-- Remap Legion Timewalking => US
+	remapping[1265] = 1263; -- EU
+	remapping[1269] = 1263; -- KO
+	remapping[1267] = 1263; -- TW
 
--- Remap Legion Timewalking => US
-remapping[1265] = 1263; -- EU
-remapping[1269] = 1263; -- KO
-remapping[1267] = 1263; -- TW
-
--- Remap BFA Timewalking => US
-remapping[1667] = 1669; -- EU
-remapping[1668] = 1669; -- KO
-remapping[1666] = 1669; -- TW
+	-- Remap BFA Timewalking => US
+	remapping[1667] = 1669; -- EU
+	remapping[1668] = 1669; -- KO
+	remapping[1666] = 1669; -- TW
+end);
 
 -- Event Cache
 -- Determine if the Calendar is implemented or not.
