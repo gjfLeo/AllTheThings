@@ -342,8 +342,7 @@ app.AddEventHandler("OnStartup", function()
 	end)
 
 	-- add a refresh fillers event
-	-- TODO: hook this to minilist to rebuild
-	app.AddEventHandler("Fill.RefreshFillers", RefreshActiveFillFunctions)
+	app.AddEventHandler("Fill.RefreshFillers", RefreshActiveFillFunctions, true)
 	-- add event sequences for filler changes later (this ensures that the refresh event is performed via callback)
 	app.LinkEventSequence("Fill.OnAddFiller", "Fill.RefreshFillers")
 	app.LinkEventSequence("Fill.OnActivateFiller", "Fill.RefreshFillers")
