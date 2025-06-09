@@ -259,7 +259,7 @@ namespace ATT
                     Framework.InitConfigSettings(".config/retail/retail.config");
 
 #if DEBUG
-                    Framework.InitConfigSettings("parser/retail/debug.config");
+                    Framework.InitConfigSettings(".config/retail/debug.config");
 #endif
                 }
 

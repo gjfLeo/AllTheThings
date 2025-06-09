@@ -54,6 +54,7 @@ namespace ATT
         {
             if (!File.Exists(filepath))
             {
+                Framework.LogWarn($"Config file not found!", filepath);
                 return;
             }
 
