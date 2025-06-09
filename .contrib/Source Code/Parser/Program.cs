@@ -266,6 +266,7 @@ namespace ATT
                 Framework.InitConfigSettings(".config/root.config");
 
                 Framework.Objects.SINGULAR_PLURAL_FIELDS_LONG = Framework.Config["SINGULAR_PLURAL_FIELDS_LONG"];
+                Framework.Objects.NON_SORTED_FIELDS = Framework.Config["NON_SORTED_FIELDS"];
             }
             catch (FormatException configException)
             {
