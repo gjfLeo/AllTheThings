@@ -253,9 +253,6 @@ namespace ATT
                     }
                 }
 
-                Framework.InitConfigSettings(".config/root.config");
-                Framework.Objects.SINGULAR_PLURAL_FIELDS_LONG = Framework.Config["SINGULAR_PLURAL_FIELDS_LONG"];
-
                 if (!Framework.HasConfig())
                 {
                     // Ensure the Parser uses the default config if nothing is specified.
@@ -265,6 +262,10 @@ namespace ATT
                     Framework.InitConfigSettings("parser/retail/debug.config");
 #endif
                 }
+
+                Framework.InitConfigSettings(".config/root.config");
+
+                Framework.Objects.SINGULAR_PLURAL_FIELDS_LONG = Framework.Config["SINGULAR_PLURAL_FIELDS_LONG"];
             }
             catch (FormatException configException)
             {
