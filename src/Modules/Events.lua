@@ -155,7 +155,7 @@ local function GetEventCache()
 									anyEvents = true;
 								end
 								tinsert(t.times, CreateSchedule(event.startTime, event.endTime));
-								
+
 								local remappedID = remapping[eventID];
 								if remappedID and remappedID ~= eventID then
 									t = cache[remappedID];
@@ -171,7 +171,7 @@ local function GetEventCache()
 									local schedule = CreateSchedule(event.startTime, event.endTime);
 									schedule.remappedID = eventID;
 									tinsert(t.times, schedule);
-									
+
 									local finalID = remapping[remappedID];
 									if finalID then
 										local t = cache[finalID];
@@ -403,6 +403,7 @@ if PlayerGetTimerunningSeasonID and IsTimerunningActive then
 		-- app.PrintDebug("F:~TR",group.e,TimerunningSeasonEventID,group.__type,ThingKeys[group.key],not group.e or group.e ~= 437)
 		if not ThingKeys[group.key] then return true end
 		local e = GetRelativeRawWithField(group, "e")
+		-- TODO: revise with Legion Remix since we will need new eventID excluded
 		return not e or e ~= 437
 	end
 
