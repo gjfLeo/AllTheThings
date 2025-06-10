@@ -28,15 +28,6 @@ local RecursiveGroupRequirementsFilter, RecursiveAccountFilter, DGU, UpdateRunne
 local function IsAvailable(ref)
 	return not ref.questID or app.IsQuestAvailable(ref)
 end
-local function ToggleExtraFilters(active)
-	if not ExtraFilters then return end
-	local Set = app.Modules.Filter.Set
-	local Setter
-	for name,_ in pairs(ExtraFilters) do
-		Setter = Set[name]
-		if Setter then Setter(active) end
-	end
-end
 
 local Depth = 0
 local CostDebugIDs = {
