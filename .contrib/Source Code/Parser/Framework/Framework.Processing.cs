@@ -4308,11 +4308,6 @@ namespace ATT
                         Log($"WTF WHY IS THIS HEIRLOOM {itemID} IGNORING SOURCE IDS?!");
                         Framework.WaitForUser();
                     }
-                    else if (data.ContainsKey("ignoreBonus"))
-                    {
-                        Log($"WTF WHY IS THIS HEIRLOOM {itemID} IGNORING BONUS IDS?!");
-                        Framework.WaitForUser();
-                    }
                 }
             }
         }

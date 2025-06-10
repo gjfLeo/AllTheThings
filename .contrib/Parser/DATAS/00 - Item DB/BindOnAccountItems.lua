@@ -5,7 +5,7 @@
 -- treat them for their BoA status
 local Items = ItemDBConditional;
 local i = function(itemID)
-	local item = { ["b"] = 2 };
+	local item = { ["b"] = 2, ["ignoreBonus"] = true };
 	Items[itemID] = item;
 	return item;
 end
