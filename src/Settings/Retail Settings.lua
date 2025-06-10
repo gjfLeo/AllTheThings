@@ -813,14 +813,14 @@ do
 ATTSettingsObjectMixin = {
 	-- Performs SetPoint anchoring against the 'other' frame to align this Checkbox below it. Allows an 'indent' which defines how many steps of indentation to
 	-- apply either positive (right) or negative (left), or specifying another frame against which to LEFT-align
-	AlignBelow = function(self, other, indent)
+	AlignBelow = function(self, other, indent, add)
 		if type(indent) == "number" then
-			self:SetPoint("TOPLEFT", other, "BOTTOMLEFT", indent * 8, 4)
+			self:SetPoint("TOPLEFT", other, "BOTTOMLEFT", indent * 8, add or 4)
 		elseif type(indent) == "table" then
-			self:SetPoint("TOP", other, "BOTTOM", 0, 4)
+			self:SetPoint("TOP", other, "BOTTOM", 0, add or 4)
 			self:SetPoint("LEFT", indent, "LEFT")
 		else
-			self:SetPoint("TOPLEFT", other, "BOTTOMLEFT", 0, 4)
+			self:SetPoint("TOPLEFT", other, "BOTTOMLEFT", 0, add or 4)
 		end
 		return self
 	end,
