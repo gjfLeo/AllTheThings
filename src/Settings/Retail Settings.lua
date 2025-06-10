@@ -473,7 +473,11 @@ settings.Get = function(self, setting, container)
 	return RawSettings.General[setting]
 end
 settings.GetValue = function(self, container, setting)
-	return RawSettings[container][setting]
+	local settingscontainer = RawSettings[container]
+	if not settingscontainer then
+		return
+	end
+	return settingscontainer[setting]
 end
 settings.GetDefaultFilter = function(self, filterID)
 	return FilterSettingsBase.__index[filterID]
@@ -516,6 +520,17 @@ end
 -- end
 settings.GetRawSettings = function(self, name)
 	return RawSettings[name];
+end
+-- Applies a metatable (to provide Defaults) for a given settings Container if one is not already defined
+settings.ApplySettingsMetatable = function(self, container, meta)
+	local settingscontainer = RawSettings[container]
+	if not settingscontainer then
+		settingscontainer = setmetatable({}, meta)
+		RawSettings[container] = settingscontainer
+	elseif not getmetatable(settingscontainer) then
+		setmetatable(settingscontainer, meta)
+		RawSettings[container] = settingscontainer
+	end
 end
 settings.GetModeString = function(self)
 	local mode = L.MODE
@@ -756,7 +771,12 @@ settings.Set = function(self, setting, value)
 	self:Refresh()
 end
 settings.SetValue = function(self, container, setting, value)
-	RawSettings[container][setting] = value
+	local settingscontainer = RawSettings[container]
+	if not settingscontainer then
+		settingscontainer = {}
+		RawSettings[container] = settingscontainer
+	end
+	settingscontainer[setting] = value
 	app.HandleEvent("Settings.OnSet",container,setting,value)
 	self:Refresh()
 end
