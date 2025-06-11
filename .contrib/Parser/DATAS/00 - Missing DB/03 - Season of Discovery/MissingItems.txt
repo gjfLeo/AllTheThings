@@ -3408,3 +3408,12 @@ i(244460),	-- Caladbolg
 1.15.7.60663
 i(244353),	-- Poultry Precision Scope
 i(245675),	-- Gordok Inner Door Key
+1.15.7.60932
+i(246055),	-- Inquisition Grips
+i(246056),	-- Inquisition Armbraces
+i(246057),	-- Inquisition Stompers
+i(246058),	-- Inquisition Plate Pants
+i(246059),	-- Inquisition Cord
+i(246060),	-- Inquisition Cuirass
+i(246061),	-- Inquisition Epaulets
+i(246062),	-- Inquisition Faceguard
