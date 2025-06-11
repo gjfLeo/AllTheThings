@@ -3787,6 +3787,8 @@
 41334@@@Challenger: Season 10
 41336@@@Gladiator: Season 10
 41713@@@[DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) (copy)
+4.4.2.60895
+42242@@@[DNT] Joyous Journeys - Hit 85 with Buff Joyous Journeys (hidden) (copy) (copy)
 5.0.3.15882
 110@@@Lich King 5-player boss defeated the most
 131@@@Journeyman Medic
