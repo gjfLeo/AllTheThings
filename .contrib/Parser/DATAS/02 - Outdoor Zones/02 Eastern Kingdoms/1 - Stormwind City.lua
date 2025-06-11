@@ -254,6 +254,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["description"] = "Elly is walking around in the Tavern.",
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
+							i(2594),	-- Flagon of Dwarven Honeymead/Mead
+							i(2593),	-- Flask of Stormwind Tawny
 							i(1179),	-- Ice Cold Milk
 							i(2596),	-- Skin of Dwarven Stout
 						},

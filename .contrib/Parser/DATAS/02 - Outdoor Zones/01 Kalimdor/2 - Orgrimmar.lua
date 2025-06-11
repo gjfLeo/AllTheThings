@@ -253,8 +253,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["races"] = HORDE_ONLY,
 						["groups"] = {
 							i(1179),	-- Ice Cold Milk
+							-- Danny Donkey: All these items get removed from this vendor with Cataclysm.
 							-- #if BEFORE 4.0.3
-							i(2596),	-- Skin of Dwarven Stout (becomes removed from this vendor with Cata.)
+							i(2594),	-- Flagon of Dwarven Honeymead/Mead
+							i(2593),	-- Flask of Stormwind Tawny
+							i(2596),	-- Skin of Dwarven Stout
 							-- #endif
 						},
 					}),
