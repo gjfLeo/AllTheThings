@@ -16026,8 +16026,14 @@
 41990@@@Total Kill Score
 11.1.5.60822
 42240@@@Anu'relos, Flame's Guidance <Tracking Achievement>
-11.1.7.60520
+11.1.5.61122
 41757@@@11.1.5 Mid-Season - Weekly Wrapper - Group Content - Seasonal Raid (YGR)
+42139@@@The Enterprising Tank
+42141@@@The Enterprising Healer
+42144@@@The Enterprising Damage Dealer
+42148@@@The Enterprising Dungeon Master
+42230@@@11.1.5 Mid-Season - Weekly Wrapper - Group Content - Seasonal Raid, First Time Tracker
+11.1.7.60520
 41779@@@Master of the Turbulent Timeways III
 41818@@@Rise of the Red Dawn
 41820@@@Rise of the Red Dawn
@@ -16038,10 +16044,6 @@
 42031@@@Tomb of Sargeras
 42032@@@Antorus, the Burning Throne
 42114@@@Broken Memories
-42139@@@The Enterprising Tank
-42141@@@The Enterprising Healer
-42144@@@The Enterprising Damage Dealer
-42148@@@The Enterprising Dungeon Master
 42187@@@Lorewalking: Ethereal Wisdom
 42188@@@Lorewalking: Blade's Bane
 42189@@@Lorewalking: The Lich King
@@ -16063,7 +16065,6 @@
 42227@@@Console Overcharged Purchase 15
 42228@@@Console Overcharged Purchase 16
 42229@@@Console Overcharged Purchase 17
-42230@@@11.1.5 Mid-Season - Weekly Wrapper - Group Content - Seasonal Raid, First Time Tracker
 11.1.7.60672
 42212@@@Titan Console Overcharged
 42241@@@Overcharged Delver
