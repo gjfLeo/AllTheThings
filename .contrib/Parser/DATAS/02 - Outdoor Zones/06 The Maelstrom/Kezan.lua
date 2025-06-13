@@ -160,7 +160,7 @@ root(ROOTS.Zones, {
 							i(54303),	-- Total Disaster Bracers
 						},
 					}),
-					q(25143, {	-- Primal Strike (Goblin)
+					q(14011, {	-- Primal Strike (Goblin)
 						["qg"] = 34695,	-- Maxx Avalanche <Shaman Trainer>
 						["coord"] = { 59.6, 77, KEZAN },
 						["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
