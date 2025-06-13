@@ -17,7 +17,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				["groups"] = {
 					n(COMMON_BOSS_DROPS),
 					e(3185, {	-- Balnazzar 
-					--	["creatureID"] = 15263,
+						["creatureID"] = 240811,
 						["groups"] = {
 							i(239216),	-- Lightforged Iron  
 							i(239719),	-- Consecrated Bindings  
@@ -38,8 +38,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(242365),	-- Wing of Balnazzar  
 						},
 					}),
-					e(3187, {	-- Beatrix
-					--	["creatureID"] = 15263,
+					e(3187, {	-- High Commander Beatrix
+						["creatureID"] = 240812,
 						["groups"] = {
 							i(238300),	-- Pattern: Scarlet Augur's Vestaments  
 							i(238308),	-- Pattern: Scarlet Infiltrator's Vest  
@@ -66,7 +66,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					e(3186, {	-- Solidstraza
-					--	["creatureID"] = 15263,
+						["creatureID"] = 238954,
 						["groups"] = {
 							i(236317),	-- Visera, the Gutrender  
 							i(239216),	-- Lightforged Iron  
@@ -88,7 +88,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					e(3196, {	-- Alexei the Beastlord
-					--	["creatureID"] = 15263,
+						["creatureID"] = 240794,
 						["groups"] = {
 							i(238299),	-- Pattern: Scarlet Augur's Mantle  
 							i(238307),	-- Pattern: Scarlet Infiltrator's Shoulderpads  
@@ -113,7 +113,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					e(3197, {	-- Mason the Echo <Grand Admiral>
-					--	["creatureID"] = 15263,
+						["creatureID"] = 241021,
 						["groups"] = {
 							i(239060),	-- Will of the Mountain  
 							i(239216),	-- Lightforged Iron  
@@ -135,13 +135,17 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					e(3188, {	-- Reborn Council
-					--	["creatureID"] = 15263,
+						["crs"] = { 
+							240810,	-- Doan
+							240795,	-- Herod <The Scarlet Champion>
+							240809,	-- Vishas
+						},	
 						["groups"] = {
 						--	https://docs.google.com/spreadsheets/d/19-EpUcPNKG_gXKAd4hdypcYMOm19qF2xFQ1mF-0S55g/edit?gid=0#gid=0
 						},
 					}),
 					e(3190, {	-- Lilian Voss
-					--	["creatureID"] = 15263,
+						["creatureID"] = 243021,
 						["groups"] = {
 							i(239757),	-- Consecrated Legguards
 							i(239709),	-- Consecrated Legplates
@@ -163,7 +167,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					e(3189, {	-- Grand Crusader Caldoran
-					--	["creatureID"] = 15263,
+						["creatureID"] = 241006,
 						["groups"] = {
 							i(238298),	-- Pattern: Scarlet Augur's Hood  
 							i(238299),	-- Pattern: Scarlet Augur's Mantle  
