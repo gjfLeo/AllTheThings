@@ -116,6 +116,15 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								i(240041),	-- Inquisition Handguards
 								i(240042),	-- Inquisition Wristguards
 								i(240043),	-- Inquisition Girdle
+								-- Healer Set but for DPSING
+								i(246055),	-- Inquisition Grips
+								i(246056),	-- Inquisition Armbraces
+								i(246057),	-- Inquisition Stompers
+								i(246058),	-- Inquisition Plate Pants
+								i(246059),	-- Inquisition Cord
+								i(246060),	-- Inquisition Cuirass
+								i(246061),	-- Inquisition Epaulets
+								i(246062),	-- Inquisition Faceguard
 								-- Tank
 								i(240031),	-- Inquisition Bracers
 								i(240032),	-- Inquisition Waistguard
