@@ -936,6 +936,40 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_FIVE,
 			-- #if SEASON_OF_DISCOVERY
 			})),
 			applyclassicphase(SOD_PHASE_SIX, d(DIFFICULTY.SOD.PLAYER20, bubbleDownSelf({ ["timeline"] = { ADDED_1_15_5 }, }, {
+				n(ZONE_DROPS, {
+					i(234119),	-- Antenna of Invigoration
+					i(234123),	-- Coif of Elemental Fury
+					i(234120),	-- Helm of the Holy Avenger
+					i(21805),	-- Polished Obsidian Pauldrons	-- double check??
+					i(234121),	-- Silithid Husked Launcher
+					i(234122),	-- The Lost Kris of Zedd
+					i(20873),	-- Alabaster Idol
+					i(20869),	-- Amber Idol
+					i(20866),	-- Azure Idol
+					i(20870),	-- Jasper Idol
+					i(20868),	-- Lambent Idol
+					i(20871),	-- Obsidian Idol
+					i(20867),	-- Onyx Idol
+					i(20872),	-- Vermillion Idol
+					i(20864),	-- Bone Scarab
+					i(20861),	-- Bronze Scarab
+					i(20863),	-- Clay Scarab
+					i(20862),	-- Crystal Scarab
+					i(20859),	-- Gold Scarab
+					i(20865),	-- Ivory Scarab
+					i(20860),	-- Silver Scarab
+					i(20858),	-- Stone Scarab
+					i(20768, {	-- Oozing Bag
+						["cr"] = 15335,	-- Flesh Hunter
+						["sym"] = {{"select","itemID", 20769}},	-- Disgusting Oozeling (PET!)
+					}),
+					i(21761, {	-- Scarab Coffer Key
+						["timeline"] = {
+							ADDED_1_13_0,
+							DELETED_4_2_2
+						},
+					}),
+				}),
 				n(COMMON_BOSS_DROPS, {
 					i(20888, {	-- Qiraji Ceremonial Ring
 						["crs"] = {

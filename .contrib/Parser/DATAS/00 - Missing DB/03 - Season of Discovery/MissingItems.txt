@@ -1840,11 +1840,6 @@ i(233791),	-- Blood-Caked Copper Coin
 i(233965),	-- Flask of the Old Gods
 i(233984),	-- Arcane Megabomb
 i(233996),	-- Enchanted Repellent
-i(234119),	-- Antenna of Invigoration
-i(234120),	-- Helm of the Holy Avenger
-i(234121),	-- Silithid Husked Launcher
-i(234122),	-- The Lost Kris of Zedd
-i(234123),	-- Coif of Elemental Fury
 i(234124),	-- Handbook of Occult Poison II
 i(234129),	-- Onyx Embedded Leggings
 i(234130),	-- Amulet of Shadow Shielding
