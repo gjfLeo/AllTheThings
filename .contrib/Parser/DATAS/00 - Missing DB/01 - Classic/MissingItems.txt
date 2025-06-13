@@ -3241,7 +3241,6 @@ i(13460),	-- ter Holy Protection Potion \\ Greater Holy Protection Potion
 i(13469),	-- of Weldon Barov \\ Head of Weldon Barov
 i(13470),	-- of Alexi Barov \\ Head of Alexi Barov
 i(13471),	-- Deed to Brill \\ The Deed to Brill
-i(13477),	-- pe: Superior Mana Potion \\ Recipe: Superior Mana Potion
 i(13507),	-- fwatcher Longhorn Report \\ Cliffwatcher Longhorn Report
 i(13536),	-- of Awakening \\ Horn of Awakening
 i(13542),	-- n Box \\ Demon Box
@@ -3506,7 +3505,6 @@ i(16209),	-- is's Order \\ Morris's Order \\ Podrig's Order
 i(16210),	-- on's Crate \\ Gordon's Crate
 i(16211),	-- Test Quality Modifier Chest
 i(16213),	-- Test Quality Modifier Chest
-i(16217),	-- ula: Enchant Shield - Greater Stamina \\ Formula: Enchant Shield - Greater Stamina
 i(16262),	-- naar Recipe Book \\ Dolanaar Recipe Book \\ Nessa's Collection
 i(16263),	-- er Aquinne's Note \\ Sister Aquinne's Note \\ Laird's Response
 i(16282),	-- le of Hides \\ Bundle of Hides
@@ -3860,7 +3858,6 @@ i(18942),	-- Fiery Flux
 i(18943),	-- Iron Pillow \\ Dark Iron Pillow
 i(18946),	-- of Overseer Maltorius \\ Head of Overseer Maltorius
 i(18947),	-- l Scar Yeti Hide \\ Feral Scar Yeti Hide \\ Rage Scar Yeti Hide
-i(18949),	-- ern: Barbaric Bracers \\ Pattern: Barbaric Bracers
 i(18950),	-- Pillamaster's Pillow \\ bermaid Pillaclencher's Pillow \\ Chambermaid Pillaclencher's Pillow
 i(18952),	-- ne's Head \\ Simone's Head
 i(18953),	-- fran's Head \\ Klinfran's Head
