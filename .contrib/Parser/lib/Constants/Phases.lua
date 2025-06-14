@@ -216,7 +216,7 @@ BLACK_MARKET = createPhase({
 		ko = "",
 		pt = "",
 		]]--
-		es = "Casa de subasta del mercado negro[BMAH]",
+		mx = "Casa de subasta del mercado negro[BMAH]",
 		ru = "Черный рынок AH [BMAH]",
 		cn = "黑市拍卖行 [BMAH]",
 		tw = "黑市拍賣行 [BMAH]",
