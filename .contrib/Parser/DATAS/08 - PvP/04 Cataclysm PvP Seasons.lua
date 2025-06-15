@@ -493,7 +493,11 @@ root(ROOTS.PVP, {
 					["description"] = "Awarded to members of the Arena teams during Cata Season 1 that were in the 0.5% bracket of their battlegroup.",
 				}),
 			}))),
-			n(PVP_HONOR, {
+			n(PVP_HONOR, bubbleDownSelf({
+				-- #if ANYCLASSIC
+					["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+				-- #endif
+			}, {
 				cl(DEATHKNIGHT, {
 					i(146423, {	-- Ensemble: Bloodthirsty Gladiator's Dreadplate Armor
 						["description"] = "You will need to log out and back in to register the Vicious Gladiator |cFF1eff00Season 10|r Honor Transmog.\n\n|cffde1c1cYou will not|r gain the Vicious Gladiator |cFF1eff00Season 9|r Transmog with the same name.",
@@ -1276,7 +1280,7 @@ root(ROOTS.PVP, {
 					i(69792),	-- Bloodthirsty Gladiator's Symbol of Meditation
 					i(69791),	-- Bloodthirsty Gladiator's Symbol of Tenacity
 				})),
-			}),
+			})),
 			n(PVP_GLADIATOR, {
 				n(WEAPONS, {
 					i(146641, {	--  Arsenal: Vicious Gladiator's Weapons
@@ -2208,7 +2212,11 @@ root(ROOTS.PVP, {
 					["description"] = "Awarded to members of the Arena teams during Cata Season 2 that were in the 0.5% bracket of their battlegroup.",
 				}),
 			}))),
-			n(PVP_HONOR, {
+			n(PVP_HONOR, bubbleDownSelf({
+				-- #if ANYCLASSIC
+					["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+				-- #endif
+			}, {
 				cl(DEATHKNIGHT, {
 					i(70558),	-- Vicious Gladiator's Dreadplate Chestpiece
 					i(70559),	-- Vicious Gladiator's Dreadplate Gauntlets
@@ -2428,7 +2436,7 @@ root(ROOTS.PVP, {
 					un(REMOVED_FROM_GAME, i(70605)),	-- Vicious Gladiator's Medallion of Meditation (H)
 					un(REMOVED_FROM_GAME, i(70607)),	-- Vicious Gladiator's Medallion of Tenacity (H)
 				}),
-			}),
+			})),
 			n(PVP_GLADIATOR, {
 				n(WEAPONS, {
 					i(146640, {	-- Arsenal: Ruthless Gladiator's Weapons
@@ -4502,8 +4510,9 @@ root(ROOTS.PVP, {
 			}),
 			elitepvp(n(PVP_ELITE, bubbleDownSelf({
 				["timeline"] = { ADDED_4_3_0, REMOVED_5_0_4 },
+
 				-- #if ANYCLASSIC
-				["OnUpdate"] = CATACLYSMIC_ELITE_ONUPDATE,
+					["OnUpdate"] = CATACLYSMIC_ELITE_ONUPDATE,
 				-- #endif
 			}, {
 				-- Original Sources are: Unknown. Presumably:
