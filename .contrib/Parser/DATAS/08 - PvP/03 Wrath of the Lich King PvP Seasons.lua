@@ -72,7 +72,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 			-- #if BEFORE CATA
-			["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(3336, {	-- Deadly Gladiator: Wrath of the Lich King Season 1
@@ -538,22 +538,24 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
 					}),
-					filter(RELICS_F, bubbleDownSelf({
-						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
-						-- #if BEFORE CATA
-						["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
-						-- #endif
-					}, {
-						i(42574),	-- Savage Gladiator's Idol of Resolve
-						i(42575),	-- Savage Gladiator's Idol of Steadfastness
-						i(42576),	-- Savage Gladiator's Idol of Tenacity
-						i(42611),	-- Savage Gladiator's Libram of Fortitude
-						i(42612),	-- Savage Gladiator's Libram of Justice
-						i(42618),	-- Savage Gladiator's Sigil of Strife
-						i(42593),	-- Savage Gladiator's Totem of Indomitability
-						i(42594),	-- Savage Gladiator's Totem of Survival
-						i(42595),	-- Savage Gladiator's Totem of the Third Wind
-					})),
+					-- #if ANYCLASSIC
+						filter(RELICS_F, bubbleDownSelf({
+							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
+							-- #if BEFORE CATA
+								["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+							-- #endif
+						}, {
+							i(42574),	-- Savage Gladiator's Idol of Resolve
+							i(42575),	-- Savage Gladiator's Idol of Steadfastness
+							i(42576),	-- Savage Gladiator's Idol of Tenacity
+							i(42611),	-- Savage Gladiator's Libram of Fortitude
+							i(42612),	-- Savage Gladiator's Libram of Justice
+							i(42618),	-- Savage Gladiator's Sigil of Strife
+							i(42593),	-- Savage Gladiator's Totem of Indomitability
+							i(42594),	-- Savage Gladiator's Totem of Survival
+							i(42595),	-- Savage Gladiator's Totem of the Third Wind
+						})),
+					-- #endif
 				}),
 		-- #if AFTER 7.0.3
 			},
@@ -1211,7 +1213,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(NECK_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42024),	-- Hateful Gladiator's Pendant of Ascendancy
@@ -1225,7 +1227,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(FINGER_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42110),	-- Hateful Gladiator's Band of Dominance
@@ -1234,7 +1236,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42587),	-- Hateful Gladiator's Idol of Resolve
@@ -1907,7 +1909,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42588),	-- Deadly Gladiator's Idol of Resolve
@@ -1923,7 +1925,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {	-- see https://www.wowhead.com/forums/topic/arena-season-5-guide-60347 also has npcs
 						i(42123),	-- (A) Medallion of the Alliance Patch 3.0.1
@@ -1944,7 +1946,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(PVP_ELITE, bubbleDownSelf({
 			["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 			-- #if BEFORE CATA
-			["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Exclusive to classic reward... BLIZZARD.
@@ -1961,7 +1963,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_1_0, REMOVED_3_2_0 },
 			-- #if BEFORE CATA
-			["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(3436, {	-- Furious Gladiator: Wrath of the Lich King Season 2
@@ -2631,7 +2633,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_1_0, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42589),	-- Furious Gladiator's Idol of Resolve
@@ -2647,7 +2649,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_1_0, REMOVED_3_2_0 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42124),	-- (A) Medallion of the Alliance
@@ -2667,7 +2669,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 			-- #endif
 
 			-- #if BEFORE CATA
-			["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Original Sources are:
@@ -2713,7 +2715,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_2_0, REMOVED_3_3_2 },
 			-- #if BEFORE CATA
-			["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(3758, {	-- Relentless Gladiator: Wrath of the Lich King Season 3
@@ -3396,7 +3398,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_2_0, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42591),	-- Relentless Gladiator's Idol of Resolve
@@ -3412,7 +3414,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_2_0, REMOVED_3_3_2 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42133),	-- Battlemaster's Fury
@@ -3435,7 +3437,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 			-- #endif
 
 			-- #if BEFORE CATA
-			["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Original Sources are:
@@ -3484,7 +3486,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_3_2, REMOVED_4_0_1 },
 			-- #if BEFORE CATA
-			["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(4599, {	-- Wrathful Gladiator: Wrath of the Lich King Season  4
@@ -4163,7 +4165,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_3_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(51429),	-- Wrathful Gladiator's Idol of Resolve
@@ -4179,7 +4181,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_3_2, REMOVED_4_0_1 },
 						-- #if BEFORE CATA
-						["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+							["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(51377),	-- (A) Medallion of the Alliance
@@ -4199,7 +4201,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 			-- #endif
 
 			-- #if BEFORE CATA
-			["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+				["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Original Sources are:
@@ -4209,7 +4211,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 			i(51534, {	-- Wrathful Gladiator's Tabard
 				-- #if ANYCLASSIC
 					-- #if AFTER CATA
-						["description"] = "This was never taken of the vendor in Classic.",
+						["description"] = "This was never removed from the vendor in Classic.",
 					-- #endif
 				-- #endif
 			}),
