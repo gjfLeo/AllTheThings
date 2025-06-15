@@ -3390,27 +3390,27 @@ root(ROOTS.PVP, {
 					un(REMOVED_FROM_GAME, i(70407)),	-- Ruthless Gladiator's Relic of Triumph
 				}),
 				filter(TRINKET_F, {
-					i(70399),	-- Ruthless Gladiator's Badge of Conquest
-					i(70401),	-- Ruthless Gladiator's Badge of Dominance
-					i(70400),	-- Ruthless Gladiator's Badge of Victory
-					i(70396),	-- Ruthless Gladiator's Emblem of Cruelty
-					i(70397),	-- Ruthless Gladiator's Emblem of Meditation
-					i(70398),	-- Ruthless Gladiator's Emblem of Tenacity
-					i(70404),	-- Ruthless Gladiator's Insignia of Conquest
-					i(70402),	-- Ruthless Gladiator's Insignia of Dominance
-					i(70403),	-- Ruthless Gladiator's Insignia of Victory
-					i(70390),	-- Ruthless Gladiator's Medallion of Cruelty (A)
-					i(70391),	-- Ruthless Gladiator's Medallion of Meditation (A)
-					i(70392),	-- Ruthless Gladiator's Medallion of Tenacity (A)
-					i(70393),	-- Ruthless Gladiator's Medallion of Cruelty (H)
-					i(70394),	-- Ruthless Gladiator's Medallion of Meditation (H)
-					i(70395),	-- Ruthless Gladiator's Medallion of Tenacity (H)
-					un(REMOVED_FROM_GAME, i(70409)),	-- Ruthless Gladiator's Mark of Cruelty
-					un(REMOVED_FROM_GAME, i(70411)),	-- Ruthless Gladiator's Mark of Meditation
-					un(REMOVED_FROM_GAME, i(70410)),	-- Ruthless Gladiator's Mark of Tenacity
-					un(REMOVED_FROM_GAME, i(70412)),	-- Ruthless Gladiator's Symbol of Cruelty
-					un(REMOVED_FROM_GAME, i(70414)),	-- Ruthless Gladiator's Symbol of Meditation
-					un(REMOVED_FROM_GAME, i(70413)),	-- Ruthless Gladiator's Symbol of Tenacity
+					i(70399),									-- Ruthless Gladiator's Badge of Conquest
+					i(70401),									-- Ruthless Gladiator's Badge of Dominance
+					i(70400),									-- Ruthless Gladiator's Badge of Victory
+					i(70396),									-- Ruthless Gladiator's Emblem of Cruelty
+					i(70397),									-- Ruthless Gladiator's Emblem of Meditation
+					i(70398),									-- Ruthless Gladiator's Emblem of Tenacity
+					i(70404),									-- Ruthless Gladiator's Insignia of Conquest
+					i(70402),									-- Ruthless Gladiator's Insignia of Dominance
+					i(70403),									-- Ruthless Gladiator's Insignia of Victory
+					i(70390),									-- Ruthless Gladiator's Medallion of Cruelty (A)
+					i(70391),									-- Ruthless Gladiator's Medallion of Meditation (A)
+					i(70392),									-- Ruthless Gladiator's Medallion of Tenacity (A)
+					i(70393),									-- Ruthless Gladiator's Medallion of Cruelty (H)
+					i(70394),									-- Ruthless Gladiator's Medallion of Meditation (H)
+					i(70395),									-- Ruthless Gladiator's Medallion of Tenacity (H)
+					i(70409),									-- Ruthless Gladiator's Mark of Cruelty
+					i(70411, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Mark of Meditation
+					i(70410, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Mark of Tenacity
+					i(70412, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Cruelty
+					i(70414, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Meditation
+					i(70413, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Tenacity
 				}),
 			}),
 			elitepvp(n(PVP_ELITE, bubbleDownSelf({
