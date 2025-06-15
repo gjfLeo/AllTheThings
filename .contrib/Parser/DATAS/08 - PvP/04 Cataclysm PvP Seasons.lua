@@ -1993,22 +1993,22 @@ root(ROOTS.PVP, {
 					un(REMOVED_FROM_GAME, i(61390)),	-- Vicious Gladiator's Relic of Triumph
 				}),
 				filter(TRINKET_F, {
-					i(61033),	-- Vicious Gladiator's Badge of Conquest
-					i(61026),	-- Vicious Gladiator's Emblem of Cruelty
-					i(61031),	-- Vicious Gladiator's Emblem of Meditation
-					i(61032),	-- Vicious Gladiator's Emblem of Tenacity
-					i(61047),	-- Vicious Gladiator's Insignia of Conquest
-					i(60794),	-- Vicious Gladiator's Medallion of Cruelty (A)
-					i(60799),	-- Vicious Gladiator's Medallion of Meditation (A)
-					i(60800),	-- Vicious Gladiator's Medallion of Tenacity (A)
-					i(60801),	-- Vicious Gladiator's Medallion of Cruelty (H)
-					i(60806),	-- Vicious Gladiator's Medallion of Meditation (H)
-					i(60807),	-- Vicious Gladiator's Medallion of Tenacity (H)
-					i(61035),	-- Vicious Gladiator's Badge of Dominance
-					i(61034),	-- Vicious Gladiator's Badge of Victory
+					i(61033),							-- Vicious Gladiator's Badge of Conquest
+					i(61026),							-- Vicious Gladiator's Emblem of Cruelty
+					i(61031),							-- Vicious Gladiator's Emblem of Meditation
+					i(61032),							-- Vicious Gladiator's Emblem of Tenacity
+					i(61047),							-- Vicious Gladiator's Insignia of Conquest
+					i(60794),							-- Vicious Gladiator's Medallion of Cruelty (A)
+					i(60799),							-- Vicious Gladiator's Medallion of Meditation (A)
+					i(60800),							-- Vicious Gladiator's Medallion of Tenacity (A)
+					i(60801),							-- Vicious Gladiator's Medallion of Cruelty (H)
+					i(60806),							-- Vicious Gladiator's Medallion of Meditation (H)
+					i(60807),							-- Vicious Gladiator's Medallion of Tenacity (H)
+					i(61035),							-- Vicious Gladiator's Badge of Dominance
+					i(61034),							-- Vicious Gladiator's Badge of Victory
 					un(REMOVED_FROM_GAME, i(61030)),	-- Vicious Gladiator's Emblem of Proficiency
-					i(61045),	-- Vicious Gladiator's Insignia of Dominance
-					i(61046),	-- Vicious Gladiator's Insignia of Victory
+					i(61045),							-- Vicious Gladiator's Insignia of Dominance
+					i(61046),							-- Vicious Gladiator's Insignia of Victory
 					un(REMOVED_FROM_GAME, i(69781)),	-- Vicious Gladiator's Mark of Cruelty
 					un(REMOVED_FROM_GAME, i(69783)),	-- Vicious Gladiator's Mark of Meditation
 					un(REMOVED_FROM_GAME, i(69782)),	-- Vicious Gladiator's Mark of Tenacity
