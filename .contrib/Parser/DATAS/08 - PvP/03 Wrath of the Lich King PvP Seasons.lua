@@ -1067,7 +1067,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
 					}),
-					n(BACK, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
+					n(BACK, bubbleDown({
+						-- #if ANYCLASSIC
+							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						-- #endif
+					}, {
 						i(42057, {	-- Hateful Gladiator's Cloak of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
@@ -1090,7 +1094,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
 					})),
-					n(WRIST, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
+					n(WRIST, bubbleDown({
+						-- #if ANYCLASSIC
+							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						-- #endif
+					}, {
 						i(41638, {	-- Hateful Gladiator's Armwraps of Dominance
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
@@ -1130,7 +1138,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
 					})),
-					n(WAIST, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
+					n(WAIST, bubbleDown({
+						-- #if ANYCLASSIC
+							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						-- #endif
+					}, {
 						i(41628, {	-- Hateful Gladiator's Belt of Dominance
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
@@ -1170,7 +1182,11 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
 					})),
-					n(FEET, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
+					n(FEET, bubbleDown({
+						-- #if ANYCLASSIC
+							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						-- #endif
+					}, {
 						i(41633, {	-- Hateful Gladiator's Boots of Dominance
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
