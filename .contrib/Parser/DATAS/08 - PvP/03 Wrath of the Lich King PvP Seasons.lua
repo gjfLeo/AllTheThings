@@ -1067,7 +1067,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
 					}),
-					n(BACK, {
+					n(BACK, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
 						i(42057, {	-- Hateful Gladiator's Cloak of Ascendancy
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
@@ -1089,8 +1089,8 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(42061, {	-- Hateful Gladiator's Cloak of Victory
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
-					}),
-					n(WRIST, {
+					})),
+					n(WRIST, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
 						i(41638, {	-- Hateful Gladiator's Armwraps of Dominance
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
@@ -1129,8 +1129,8 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(41223, {	-- Hateful Gladiator's Wristguards of Triumph
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
-					}),
-					n(WAIST, {
+					})),
+					n(WAIST, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
 						i(41628, {	-- Hateful Gladiator's Belt of Dominance
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
@@ -1169,8 +1169,8 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(41233, {	-- Hateful Gladiator's Waistguard of Triumph
 							["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 						}),
-					}),
-					n(FEET, {
+					})),
+					n(FEET, bubbleDown({ ["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 } }, {
 						i(41633, {	-- Hateful Gladiator's Boots of Dominance
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
@@ -1209,7 +1209,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						i(41879, {	-- Hateful Gladiator's Slippers of Salvation
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 						}),
-					}),
+					})),
 					filter(NECK_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
