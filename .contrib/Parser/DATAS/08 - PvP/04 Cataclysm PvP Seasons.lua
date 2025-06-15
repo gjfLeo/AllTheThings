@@ -2004,8 +2004,8 @@ root(ROOTS.PVP, {
 					i(60801),	-- Vicious Gladiator's Medallion of Cruelty (H)
 					i(60806),	-- Vicious Gladiator's Medallion of Meditation (H)
 					i(60807),	-- Vicious Gladiator's Medallion of Tenacity (H)
-					un(REMOVED_FROM_GAME, i(61035)),	-- Vicious Gladiator's Badge of Dominance
-					un(REMOVED_FROM_GAME, i(61034)),	-- Vicious Gladiator's Badge of Victory
+					i(61035),	-- Vicious Gladiator's Badge of Dominance
+					i(61034),	-- Vicious Gladiator's Badge of Victory
 					un(REMOVED_FROM_GAME, i(61030)),	-- Vicious Gladiator's Emblem of Proficiency
 					i(61045),	-- Vicious Gladiator's Insignia of Dominance
 					i(61046),	-- Vicious Gladiator's Insignia of Victory
