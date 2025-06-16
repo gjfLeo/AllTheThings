@@ -522,9 +522,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78536),	-- Zeherah's Dragonskull Crown
 				i(78619),	-- Zeherah's Dragonskull Crown
 			}),
-			n(P4xx, {
-				i(68844),	-- Unknown
-			}),
 		}),
 		filter(PLATE, {
 			expansion(EXPANSION.CATA, patch(0,3), {
@@ -588,7 +585,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78614),	-- Visage of Petrification
 			}),
 			n(P4xx, {
-				i(47091),	-- Unfaltering Armguards (4.0)
+				i(68844),	-- Art Template Plate Hand - Plate_PVPDeathKnight_C_02 - Blue
 				i(63054),	-- Fallback Armor - Plate Waist
 				i(63055),	-- Fallback Armor - Plate Feet
 				i(63056),	-- Fallback Armor - Plate Chest
@@ -597,6 +594,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(63059),	-- Fallback Armor - Plate Legs
 				i(63060),	-- Fallback Armor - Plate Shoulder
 				i(63061),	-- Fallback Armor - Plate Wrist
+				i(47091),	-- Unfaltering Armguards (4.0)
 			}),
 		}),
 		filter(SHIRTS, {
@@ -665,7 +663,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		-- #if BEFORE MOP
-		filter(MISC, {
+		filter(RELICS_F, {
 			-- These were created for Dragon Soul, but the Normal Mode relics themselves were added to the Valor vendor instead, meaning the LFR and Heroic versions were never available to players
 			i(78629, {	-- Gutripper Shard (LFR)
 				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
