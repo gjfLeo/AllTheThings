@@ -2024,18 +2024,6 @@ root(ROOTS.PVP, {
 					i(60559, {	-- Vicious Gladiator's Wristguards of Alacrity
 						["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 					}),
-					i(60629, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cuffs of Dominance
-					i(60614, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cuffs of Dominance
-					i(60507, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Salvation
-					i(60515, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Salvation
-					i(60510, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Triumph
-					i(60524, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Triumph
-					i(60529, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Triumph
-					i(60538, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Dominance
-					i(60568, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Salvation
-					i(60553, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Triumph
-					i(60556, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Triumph
-					i(60560, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Triumph
 				}),
 				n(WAIST, {
 					i(60583, {	-- Vicious Gladiator's Belt of Cruelty
@@ -2083,21 +2071,6 @@ root(ROOTS.PVP, {
 					i(60533, {	-- Vicious Gladiator's Waistguard of Meditation
 						["cost"] = { { "i", 137642, 1 } },	-- 1x Mark of Honor
 					}),
-					i(60592, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
-					i(60595, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
-					i(60600, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
-					i(60631, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cord of Dominance
-					i(60632, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cord of Dominance
-					i(60517, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Salvation
-					i(60518, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Salvation
-					i(60514, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Triumph
-					i(60526, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Triumph
-					i(60527, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Triumph
-					i(60566, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Salvation
-					i(60571, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Salvation
-					i(60551, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Triumph
-					i(60558, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Triumph
-					i(60561, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Triumph
 				}),
 				n(FEET, {
 					i(60593, {	-- Vicious Gladiator's Boots of Alacrity
@@ -2145,20 +2118,6 @@ root(ROOTS.PVP, {
 					i(60509, {	-- Vicious Gladiator's Warboots of Cruelty
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 					}),
-					i(60596, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Boots of Triumph
-					i(60599, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Boots of Triumph
-					i(60506, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Salvation
-					i(60519, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Salvation
-					i(60522, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Triumph
-					i(60525, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Triumph
-					i(60528, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Triumph
-					i(60537, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Dominance
-					i(60570, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Salvation
-					i(60552, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Triumph
-					i(60562, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Triumph
-					i(60563, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Triumph
-					i(60627, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Treads of Dominance
-					i(60633, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Treads of Dominance
 				}),
 				filter(NECK_F, {
 					i(60673),	-- Vicious Gladiator's Choker of Accuracy
@@ -2200,22 +2159,8 @@ root(ROOTS.PVP, {
 					i(60801),									-- Vicious Gladiator's Medallion of Cruelty (H)
 					i(60806),									-- Vicious Gladiator's Medallion of Meditation (H)
 					i(60807),									-- Vicious Gladiator's Medallion of Tenacity (H)
-					i(61035, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Badge of Dominance
-					i(61034, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Badge of Victory
-					i(61030, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Emblem of Proficiency
 					i(61045),									-- Vicious Gladiator's Insignia of Dominance
 					i(61046),									-- Vicious Gladiator's Insignia of Victory
-					i(69781, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Mark of Cruelty
-					i(69783, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Mark of Meditation
-					i(69782, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Mark of Tenacity
-					i(69784, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Cruelty
-					i(69786, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Meditation
-					i(69785, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Tenacity
-					i(60795, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Accuracy (A)
-					i(60796, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Alacrity (A)
-					i(60798, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Command (A)
-					i(60797, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Prowess (A)
-					i(69785, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Tenacity
 				}),
 			}),
 			elitepvp(n(PVP_ELITE, bubbleDownSelf({
@@ -3787,11 +3732,6 @@ root(ROOTS.PVP, {
 					i(70394),									-- Ruthless Gladiator's Medallion of Meditation (H)
 					i(70395),									-- Ruthless Gladiator's Medallion of Tenacity (H)
 					i(70409),									-- Ruthless Gladiator's Mark of Cruelty
-					i(70411, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Mark of Meditation
-					i(70410, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Mark of Tenacity
-					i(70412, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Cruelty
-					i(70414, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Meditation
-					i(70413, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Tenacity
 				}),
 			}),
 			elitepvp(n(PVP_ELITE, bubbleDownSelf({
