@@ -303,8 +303,17 @@ i(123865);	-- Relic of Ursol
 -----------------
 -- PATCH 8.0.1 --
 -----------------
+i(158210);	-- Fearsome Claw
+i(155603);	-- Flaky Fish Scales
+i(158874);	-- Frothing Vapor
+i(158859);	-- Jagged Fang
+i(158778);	-- Mucose Tendril
+i(155615);	-- Pestilent Muck
+i(155598);	-- Severed Mandible
+i(155635);	-- Sinewy Wing
 i(158848);	-- Spoiled Feast
 i(158746);	-- Tattered White Flag
+i(155636);	-- Viscous Ink
 
 -----------------
 -- PATCH 8.2.5 --
@@ -2320,90 +2329,7 @@ i(236652);	-- Re-Down-Upcycled Salvage
 i(236925);	-- Satchel of Carved Harbinger Crests
 i(237332);	-- Single-Use Grill
 i(234616);	-- Supreme Mangoro Madness
-i(228194);	-- Fully Scrapped Scrap
-i(234197);	-- Gilded Screwdriver
-i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
-i(237036);	-- Golden Valorstone
-i(237334);	-- Half-Eaten Takeout
-i(236680);	-- Imitation Crab Meat
-i(233031);	-- Intact Interlock
-i(236634);	-- Itty Bitty Bonsai
-i(239115);	-- L.O.S.E.R. Ticket
-i(235268);	-- Misprinted Card
-i(236637);	-- Not-Quite-Crystal Ball
-i(236926);	-- Pack of Runed Harbinger Crests
-i(236924);	-- Pouch of Weathered Harbinger Crests
-i(236652);	-- Re-Down-Upcycled Salvage
-i(236925);	-- Satchel of Carved Harbinger Crests
-i(237332);	-- Single-Use Grill
-i(234616);	-- Supreme Mangoro Madness
-i(228194);	-- Fully Scrapped Scrap
-i(234197);	-- Gilded Screwdriver
-i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
-i(237036);	-- Golden Valorstone
-i(237334);	-- Half-Eaten Takeout
-i(236680);	-- Imitation Crab Meat
-i(233031);	-- Intact Interlock
-i(236634);	-- Itty Bitty Bonsai
-i(239115);	-- L.O.S.E.R. Ticket
-i(235268);	-- Misprinted Card
-i(236637);	-- Not-Quite-Crystal Ball
-i(236926);	-- Pack of Runed Harbinger Crests
-i(236924);	-- Pouch of Weathered Harbinger Crests
-i(236652);	-- Re-Down-Upcycled Salvage
-i(236925);	-- Satchel of Carved Harbinger Crests
-i(237332);	-- Single-Use Grill
-i(234616);	-- Supreme Mangoro Madness
-i(228194);	-- Fully Scrapped Scrap
-i(234197);	-- Gilded Screwdriver
-i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
-i(237036);	-- Golden Valorstone
-i(237334);	-- Half-Eaten Takeout
-i(236680);	-- Imitation Crab Meat
-i(233031);	-- Intact Interlock
-i(236634);	-- Itty Bitty Bonsai
-i(239115);	-- L.O.S.E.R. Ticket
-i(235268);	-- Misprinted Card
-i(236637);	-- Not-Quite-Crystal Ball
-i(236926);	-- Pack of Runed Harbinger Crests
-i(236924);	-- Pouch of Weathered Harbinger Crests
-i(236652);	-- Re-Down-Upcycled Salvage
-i(236925);	-- Satchel of Carved Harbinger Crests
-i(237332);	-- Single-Use Grill
-i(234616);	-- Supreme Mangoro Madness
-i(228194);	-- Fully Scrapped Scrap
-i(234197);	-- Gilded Screwdriver
-i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
-i(237036);	-- Golden Valorstone
-i(237334);	-- Half-Eaten Takeout
-i(236680);	-- Imitation Crab Meat
-i(233031);	-- Intact Interlock
-i(236634);	-- Itty Bitty Bonsai
-i(239115);	-- L.O.S.E.R. Ticket
-i(235268);	-- Misprinted Card
-i(236637);	-- Not-Quite-Crystal Ball
-i(236926);	-- Pack of Runed Harbinger Crests
-i(236924);	-- Pouch of Weathered Harbinger Crests
-i(236652);	-- Re-Down-Upcycled Salvage
-i(236925);	-- Satchel of Carved Harbinger Crests
-i(237332);	-- Single-Use Grill
-i(234616);	-- Supreme Mangoro Madness
-i(228194);	-- Fully Scrapped Scrap
-i(234197);	-- Gilded Screwdriver
-i(236923);	-- Glorious Cluster of Gilded Harbinger Crests
-i(237036);	-- Golden Valorstone
-i(237334);	-- Half-Eaten Takeout
-i(236680);	-- Imitation Crab Meat
-i(233031);	-- Intact Interlock
-i(236634);	-- Itty Bitty Bonsai
-i(239115);	-- L.O.S.E.R. Ticket
-i(235268);	-- Misprinted Card
-i(236637);	-- Not-Quite-Crystal Ball
-i(236926);	-- Pack of Runed Harbinger Crests
-i(236924);	-- Pouch of Weathered Harbinger Crests
-i(236652);	-- Re-Down-Upcycled Salvage
-i(236925);	-- Satchel of Carved Harbinger Crests
-i(237332);	-- Single-Use Grill
+i(231899);	-- Trash
 
 ------------------
 -- PATCH 11.1.5 --
