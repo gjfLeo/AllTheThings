@@ -1113,7 +1113,9 @@ root(ROOTS.NeverImplemented, {
 				i(64861),	-- Bloodthirsty Gladiator's Touch of Defeat
 			}),
 			i(65878),	-- Charbelching Wand
-			i(52969),	-- Heartache Dagger
+			-- #if NOT ANYCLASSIC
+				i(52969),	-- Heartache Dagger (this ID is used in Classic for She Loves Me, She Loves Me NOT! [Male Version])
+			-- #endif
 			--
 			i(54554),	-- Bejeweled Ship's Wheel
 			i(54553),	-- Kliklak's Fearsome Greatsword
