@@ -15,7 +15,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			d(DIFFICULTY.SOD.PLAYER20, {
 				["groups"] = {
 					n(11036, {	-- Leonid Barthalomew the Revered <The Argent Dawn>
-						["coords"] = { 
+						["coords"] = {
 							{ 81.6, 57.8, EASTERN_PLAGUELANDS },	-- Leonid Barthalomew the Revered <The Argent Dawn>
 							{ 98.6, 84.0, EASTERN_PLAGUELANDS },	-- Bryon Steelblade, but he sells the exact same items
 						},
@@ -77,7 +77,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 								i(239543),	-- Dawnstalker Tunic
 								i(239544),	-- Dawnstalker Wristguards
 							}),
-							cl(MAGE, {	
+							cl(MAGE, {
 								-- DPS
 								i(240052),	-- Fireleaf Bindings
 								i(240053),	-- Fireleaf Belt
@@ -254,7 +254,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					n(COMMON_BOSS_DROPS),
-					e(3185, {	-- Balnazzar 
+					e(3185, {	-- Balnazzar
 						["creatureID"] = 240811,
 						["groups"] = {
 							i(239719), -- Consecrated Bindings
@@ -374,11 +374,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						},
 					}),
 					e(3188, {	-- Reborn Council
-						["crs"] = { 
+						["crs"] = {
 							240810,	-- Doan
 							240795,	-- Herod <The Scarlet Champion>
 							240809,	-- Vishas
-						},	
+						},
 						["groups"] = {
 							i(241015), -- Aegis of the Scarlet Bastion
 							i(241008), -- Condemnation
@@ -462,7 +462,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(241001), -- Tyr's Fall
 						},
 					}),
-				}),
+				},
 			}),
 		},
 	}))),
