@@ -690,6 +690,7 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_1_7 } }, {
 			--11.1.7.60520
 			ach(42028),	-- Ashes to Ashes (Temporary home as this will likely return / is planned for Legion Remix, but missing files keeps picking up the commented version)
+		})),
 	}),
 }));
 -- #endif
