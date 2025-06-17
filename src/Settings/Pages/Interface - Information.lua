@@ -207,6 +207,7 @@ local CreateInformationType = app.CreateClass("InformationType", "informationTyp
 local KnownByIgnoredTypes = {
 	Achievement = app.IsRetail,
 	BattlePet = true,
+	BattlePetWithItem = true,
 	Illusion = true,
 	IllusionWithItem = true,
 	Mount = true,
