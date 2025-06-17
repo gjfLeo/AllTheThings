@@ -6580,7 +6580,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				-- #if ANYCLASSIC
 				n(12805, {	-- Officer Areyn <Accessories Quartermaster>
-					["coord"] = {
+					["coords"] = {
 						-- #if AFTER CATA
 							76.8, 65.8, STORMWIND_CITY,
 						-- #else
