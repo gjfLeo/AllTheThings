@@ -353,29 +353,6 @@ root(ROOTS.Unsorted, {
 				i(243596),	-- Wailing Banshee's Charger
 			}),
 
-			i(244053),	-- Ashvane Smuggler's Kilt
-			i(244054),	-- Ashvane Smuggler's Longcoat
-			i(244055),	-- Ashvane Smuggler's Coat
-			i(244058),	-- Ashvane Smuggler's Pants
-			i(244059),	-- Ashvane Smuggler's Waistband
-			i(244170),	-- Ashvane Smuggler's Waistwrap
-			i(244299),	-- Golden Fleet Tunic
-			i(244301),	-- Golden Fleet Mantle
-			i(244302),	-- Golden Fleet Waistcord
-			i(244303),	-- Golden Fleet Trousers
-			i(244304),	-- Golden Fleet Sea-Kilt
-			i(244305),	-- Golden Fleet Cuff
-			i(244307),	-- Bloodsail Smuggler's Kilt
-			i(244308),	-- Bloodsail Smuggler's Longcoat
-			i(244309),	-- Bloodsail Smuggler's Jacket
-			i(244310),	-- Bloodsail Smuggler's Pants
-			i(244312),	-- Bloodsail Smuggler's Waistband
-			i(244328),	-- Zocalo Merchant's Tunic
-			i(244329),	-- Zocalo Merchant's Mantle
-			i(244330),	-- Zocalo Merchant's Waistcord
-			i(244331),	-- Zocalo Merchant's Trousers
-			i(244332),	-- Zocalo Merchant's Trade-Kilt
-			i(244333),	-- Zocalo Merchant's Cuff
 			i(246015),	-- Classic Midnight Eye Patch
 			i(246016),	-- Classic Snowy Eye Patch
 			i(246114),	-- Catalyst Elixir
