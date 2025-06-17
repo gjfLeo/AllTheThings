@@ -22,42 +22,42 @@ local function MarkOfWHOOOWHATNow(t)
 end
 
 -- #if ANYCLASSIC
-	local VICIOUS_ELITE_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-			t.rwp = nil;
-		else
-			t.u = ]] .. CATA_PHASE_ONE .. [[;
-			t.rwp = 40200;
-		end
-	end]];
-	local RUTHLESS_ELITE_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_HOUR_OF_TWILIGHT .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-			t.rwp = nil;
-		else
-			t.u = ]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[;
-			t.rwp = 40300;
-		end
-	end]];
-	local CATACLYSMIC_ELITE_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_LANDFALL .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-			t.rwp = nil;
-		else
-			t.u = ]] .. CATA_PHASE_HOUR_OF_TWILIGHT .. [[;
-			t.rwp = 50004;
-		end
-	end]];
+local VICIOUS_ELITE_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. CATA_PHASE_ONE .. [[;
+		t.rwp = 40200;
+	end
+end]];
+local RUTHLESS_ELITE_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_HOUR_OF_TWILIGHT .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. CATA_PHASE_RAGE_OF_THE_FIRELANDS .. [[;
+		t.rwp = 40300;
+	end
+end]];
+local CATACLYSMIC_ELITE_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. MOP_PHASE_LANDFALL .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+		t.rwp = nil;
+	else
+		t.u = ]] .. CATA_PHASE_HOUR_OF_TWILIGHT .. [[;
+		t.rwp = 50004;
+	end
+end]];
 -- #endif
 
 root(ROOTS.PVP, {
 	run(MarkOfWHOOOWHATNow, pvp(expansion(EXPANSION.CATA, {
 		n(RATED_BATTLEGROUNDS, bubbleDown({
 				-- #if ANYCLASSIC
-					["timeline"] = { CREATED_4_3_0 },	-- These were never made available to players in Classic. Instead, the original items have been made available to purchase with honor points.
+				["timeline"] = { CREATED_4_3_0 },	-- These were never made available to players in Classic. Instead, the original items have been made available to purchase with honor points.
 				-- #else
-					["timeline"] = { ADDED_4_3_0 },
+				["timeline"] = { ADDED_4_3_0 },
 				-- #endif
 			}, {
 				n(FACTION_HEADER_ALLIANCE, {
@@ -495,7 +495,7 @@ root(ROOTS.PVP, {
 			}))),
 			n(PVP_HONOR, bubbleDownSelf({
 				-- #if ANYCLASSIC
-					["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+				["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 				-- #endif
 			}, {
 				cl(DEATHKNIGHT, {
@@ -1284,7 +1284,7 @@ root(ROOTS.PVP, {
 			n(PVP_GLADIATOR, {
 				n(WEAPONS, bubbleDownSelf({
 					-- #if ANYCLASSIC
-						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+					["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 					-- #endif
 				}, {
 					i(146641, {	--  Arsenal: Vicious Gladiator's Weapons
@@ -1403,7 +1403,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60409, {	-- Vicious Gladiator's Dreadplate Gauntlets
@@ -1413,7 +1413,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60411, {	-- Vicious Gladiator's Dreadplate Legguards
@@ -1423,7 +1423,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -1448,7 +1448,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60445, {	-- Vicious Gladiator's Dragonhide Legguards
@@ -1458,14 +1458,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60447, {	-- Vicious Gladiator's Dragonhide Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60448, {	-- Vicious Gladiator's Kodohide Gloves
@@ -1475,7 +1475,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60450, {	-- Vicious Gladiator's Kodohide Legguards
@@ -1485,14 +1485,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60452, {	-- Vicious Gladiator's Kodohide Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60453, {	-- Vicious Gladiator's Wyrmhide Gloves
@@ -1502,7 +1502,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60455, {	-- Vicious Gladiator's Wyrmhide Legguards
@@ -1512,14 +1512,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60457, {	-- Vicious Gladiator's Wyrmhide Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -1541,7 +1541,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60424, {	-- Vicious Gladiator's Chain Gauntlets
@@ -1551,7 +1551,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60426, {	-- Vicious Gladiator's Chain Leggings
@@ -1561,7 +1561,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -1580,14 +1580,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60464, {	-- Vicious Gladiator's Silk Cowl
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60463, {	-- Vicious Gladiator's Silk Handguards
@@ -1597,7 +1597,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60465, {	-- Vicious Gladiator's Silk Trousers
@@ -1622,7 +1622,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60602, {	-- Vicious Gladiator's Ornamented Gloves
@@ -1632,7 +1632,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60604, {	-- Vicious Gladiator's Ornamented Legplates
@@ -1642,14 +1642,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60413, {	-- Vicious Gladiator's Scaled Chestpiece
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60414, {	-- Vicious Gladiator's Scaled Gauntlets
@@ -1659,7 +1659,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60416, {	-- Vicious Gladiator's Scaled Legguards
@@ -1669,7 +1669,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -1691,7 +1691,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60470, {	-- Vicious Gladiator's Mooncloth Leggings
@@ -1701,14 +1701,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60471, {	-- Vicious Gladiator's Mooncloth Robe
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60473, {	-- Vicious Gladiator's Satin Gloves
@@ -1718,7 +1718,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60475, {	-- Vicious Gladiator's Satin Leggings
@@ -1728,14 +1728,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60476, {	-- Vicious Gladiator's Satin Robe
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -1760,7 +1760,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60461, {	-- Vicious Gladiator's Leather Legguards
@@ -1770,14 +1770,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60458, {	-- Vicious Gladiator's Leather Tunic
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -1799,7 +1799,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60434, {	-- Vicious Gladiator's Linked Gauntlets
@@ -1809,7 +1809,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60436, {	-- Vicious Gladiator's Linked Leggings
@@ -1819,14 +1819,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60438, {	-- Vicious Gladiator's Mail Armor
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60439, {	-- Vicious Gladiator's Mail Gauntlets
@@ -1836,7 +1836,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60441, {	-- Vicious Gladiator's Mail Leggings
@@ -1846,14 +1846,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60428, {	-- Vicious Gladiator's Ringmail Armor
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60429, {	-- Vicious Gladiator's Ringmail Gauntlets
@@ -1863,7 +1863,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60431, {	-- Vicious Gladiator's Ringmail Leggings
@@ -1873,7 +1873,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -1892,14 +1892,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60479, {	-- Vicious Gladiator's Felweave Cowl
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60478, {	-- Vicious Gladiator's Felweave Handguards
@@ -1909,7 +1909,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60480, {	-- Vicious Gladiator's Felweave Trousers
@@ -1931,7 +1931,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60419, {	-- Vicious Gladiator's Plate Gauntlets
@@ -1941,7 +1941,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(60421, {	-- Vicious Gladiator's Plate Legguards
@@ -1951,7 +1951,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -2167,7 +2167,7 @@ root(ROOTS.PVP, {
 				["timeline"] = { ADDED_4_0_3, REMOVED_4_2_0 },
 
 				-- #if ANYCLASSIC
-					["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,
+				["OnUpdate"] = VICIOUS_ELITE_ONUPDATE,
 				-- #endif
 			}, {
 				-- Original Sources are:
@@ -2355,7 +2355,7 @@ root(ROOTS.PVP, {
 			}))),
 			n(PVP_HONOR, bubbleDownSelf({
 				-- #if ANYCLASSIC
-					["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+				["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 				-- #endif
 			}, {
 				cl(DEATHKNIGHT, {
@@ -2581,7 +2581,7 @@ root(ROOTS.PVP, {
 			n(PVP_GLADIATOR, {
 				n(WEAPONS, bubbleDownSelf({
 					-- #if ANYCLASSIC
-						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+					["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 					-- #endif
 				}, {
 					i(146640, {	-- Arsenal: Ruthless Gladiator's Weapons
@@ -2710,7 +2710,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70245, {	-- Ruthless Gladiator's Dreadplate Gauntlets
@@ -2720,7 +2720,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70247, {	-- Ruthless Gladiator's Dreadplate Legguards
@@ -2730,7 +2730,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -2842,7 +2842,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70281, {	-- Ruthless Gladiator's Dragonhide Legguards
@@ -2852,14 +2852,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70283, {	-- Ruthless Gladiator's Dragonhide Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70284, {	-- Ruthless Gladiator's Kodohide Gloves
@@ -2869,7 +2869,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70286, {	-- Ruthless Gladiator's Kodohide Legguards
@@ -2879,14 +2879,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70288, {	-- Ruthless Gladiator's Kodohide Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70289, {	-- Ruthless Gladiator's Wyrmhide Gloves
@@ -2896,7 +2896,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70291, {	-- Ruthless Gladiator's Wyrmhide Legguards
@@ -2906,14 +2906,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70293, {	-- Ruthless Gladiator's Wyrmhide Spaulders
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					-- #if BEFORE 7.2.0.23436
@@ -3010,7 +3010,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70260, {	-- Ruthless Gladiator's Chain Gauntlets
@@ -3020,7 +3020,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70262, {	-- Ruthless Gladiator's Chain Leggings
@@ -3030,7 +3030,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -3059,14 +3059,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70300, {	-- Ruthless Gladiator's Silk Cowl
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70299, {	-- Ruthless Gladiator's Silk Handguards
@@ -3076,7 +3076,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70301, {	-- Ruthless Gladiator's Silk Trousers
@@ -3119,7 +3119,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70354, {	-- Ruthless Gladiator's Ornamented Gloves
@@ -3129,7 +3129,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70356, {	-- Ruthless Gladiator's Ornamented Legplates
@@ -3139,14 +3139,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70249, {	-- Ruthless Gladiator's Scaled Chestpiece
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70250, {	-- Ruthless Gladiator's Scaled Gauntlets
@@ -3156,7 +3156,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70252, {	-- Ruthless Gladiator's Scaled Legguards
@@ -3166,7 +3166,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -3203,7 +3203,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70306, {	-- Ruthless Gladiator's Mooncloth Leggings
@@ -3213,14 +3213,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70308, {	-- Ruthless Gladiator's Mooncloth Mantle
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70309, {	-- Ruthless Gladiator's Satin Gloves
@@ -3230,7 +3230,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70311, {	-- Ruthless Gladiator's Satin Leggings
@@ -3240,14 +3240,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70313, {	-- Ruthless Gladiator's Satin Mantle
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -3285,7 +3285,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70297, {	-- Ruthless Gladiator's Leather Legguards
@@ -3295,14 +3295,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70294, {	-- Ruthless Gladiator's Leather Tunic
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -3347,7 +3347,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70270, {	-- Ruthless Gladiator's Linked Gauntlets
@@ -3357,7 +3357,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70272, {	-- Ruthless Gladiator's Linked Leggings
@@ -3367,14 +3367,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70274, {	-- Ruthless Gladiator's Mail Armor
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70275, {	-- Ruthless Gladiator's Mail Gauntlets
@@ -3384,7 +3384,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70277, {	-- Ruthless Gladiator's Mail Leggings
@@ -3394,14 +3394,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70264, {	-- Ruthless Gladiator's Ringmail Armor
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70265, {	-- Ruthless Gladiator's Ringmail Gauntlets
@@ -3411,7 +3411,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70267, {	-- Ruthless Gladiator's Ringmail Leggings
@@ -3421,7 +3421,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -3450,14 +3450,14 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70315, {	-- Ruthless Gladiator's Felweave Cowl
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70314, {	-- Ruthless Gladiator's Felweave Handguards
@@ -3467,7 +3467,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70316, {	-- Ruthless Gladiator's Felweave Trousers
@@ -3499,7 +3499,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70255, {	-- Ruthless Gladiator's Plate Gauntlets
@@ -3509,7 +3509,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 3 } },	-- 3x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 					i(70257, {	-- Ruthless Gladiator's Plate Legguards
@@ -3519,7 +3519,7 @@ root(ROOTS.PVP, {
 						["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
 
 						-- #if ANYCLASSIC
-							["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
+						["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,	-- These were made unavailable together with Elite gear in Cata Classic.
 						-- #endif
 					}),
 				}),
@@ -3738,7 +3738,7 @@ root(ROOTS.PVP, {
 				["timeline"] = { ADDED_4_2_0, REMOVED_4_3_0 },
 
 				-- #if ANYCLASSIC
-					["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,
+				["OnUpdate"] = RUTHLESS_ELITE_ONUPDATE,
 				-- #endif
 			}, {
 				-- Original Sources are:
@@ -4834,7 +4834,7 @@ root(ROOTS.PVP, {
 				["timeline"] = { ADDED_4_3_0, REMOVED_5_0_4 },
 
 				-- #if ANYCLASSIC
-					["OnUpdate"] = CATACLYSMIC_ELITE_ONUPDATE,
+				["OnUpdate"] = CATACLYSMIC_ELITE_ONUPDATE,
 				-- #endif
 			}, {
 				-- Original Sources are: Unknown. Presumably:

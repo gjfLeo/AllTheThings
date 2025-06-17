@@ -22,46 +22,46 @@ local function MarkOfWHOOOWHATNow(t)
 end
 
 -- #if BEFORE CATA
-	local HATEFUL_GLADIATOR_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_TWO .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-		else
-			t.u = ]] .. WRATH_PHASE_ONE .. [[;
-		end
-		if not t.rwp then t.rwp = 30100; end
-	end]];
-	local DEADLY_GLADIATOR_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_TWO .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-		else
-			t.u = ]] .. WRATH_PHASE_ONE .. [[;
-		end
-		if not t.rwp then t.rwp = 30100; end
-	end]];
-	local FURIOUS_GLADIATOR_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_THREE .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-		else
-			t.u = ]] .. WRATH_PHASE_TWO .. [[;
-		end
-		if not t.rwp then t.rwp = 30200; end
-	end]];
-	local RELENTLESS_GLADIATOR_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_FOUR .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-		else
-			t.u = ]] .. WRATH_PHASE_THREE .. [[;
-		end
-		if not t.rwp then t.rwp = 30302; end
-	end]];
-	local WRATHFUL_GLADIATOR_ONUPDATE = [[function(t)
-		if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_ONE .. [[) then
-			t.u = ]] .. REMOVED_FROM_GAME .. [[;
-		else
-			t.u = ]] .. WRATH_PHASE_FOUR .. [[;
-		end
-		if not t.rwp then t.rwp = 40001; end
-	end]];
+local HATEFUL_GLADIATOR_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_TWO .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. WRATH_PHASE_ONE .. [[;
+	end
+	if not t.rwp then t.rwp = 30100; end
+end]];
+local DEADLY_GLADIATOR_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_TWO .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. WRATH_PHASE_ONE .. [[;
+	end
+	if not t.rwp then t.rwp = 30100; end
+end]];
+local FURIOUS_GLADIATOR_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_THREE .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. WRATH_PHASE_TWO .. [[;
+	end
+	if not t.rwp then t.rwp = 30200; end
+end]];
+local RELENTLESS_GLADIATOR_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. WRATH_PHASE_FOUR .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. WRATH_PHASE_THREE .. [[;
+	end
+	if not t.rwp then t.rwp = 30302; end
+end]];
+local WRATHFUL_GLADIATOR_ONUPDATE = [[function(t)
+	if _.Settings:GetUnobtainableFilter(]] .. CATA_PHASE_ONE .. [[) then
+		t.u = ]] .. REMOVED_FROM_GAME .. [[;
+	else
+		t.u = ]] .. WRATH_PHASE_FOUR .. [[;
+	end
+	if not t.rwp then t.rwp = 40001; end
+end]];
 -- #endif
 
 root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleDown({ ["timeline"] = { ADDED_3_0_2 } }, pvp(expansion(EXPANSION.WRATH, {
@@ -72,7 +72,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 			-- #if BEFORE CATA
-				["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(3336, {	-- Deadly Gladiator: Wrath of the Lich King Season 1
@@ -539,22 +539,22 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 						}),
 					}),
 					-- #if ANYCLASSIC
-						filter(RELICS_F, bubbleDownSelf({
-							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
-							-- #if BEFORE CATA
-								["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
-							-- #endif
-						}, {
-							i(42574),	-- Savage Gladiator's Idol of Resolve
-							i(42575),	-- Savage Gladiator's Idol of Steadfastness
-							i(42576),	-- Savage Gladiator's Idol of Tenacity
-							i(42611),	-- Savage Gladiator's Libram of Fortitude
-							i(42612),	-- Savage Gladiator's Libram of Justice
-							i(42618),	-- Savage Gladiator's Sigil of Strife
-							i(42593),	-- Savage Gladiator's Totem of Indomitability
-							i(42594),	-- Savage Gladiator's Totem of Survival
-							i(42595),	-- Savage Gladiator's Totem of the Third Wind
-						})),
+					filter(RELICS_F, bubbleDownSelf({
+						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
+						-- #if BEFORE CATA
+						["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+						-- #endif
+					}, {
+						i(42574),	-- Savage Gladiator's Idol of Resolve
+						i(42575),	-- Savage Gladiator's Idol of Steadfastness
+						i(42576),	-- Savage Gladiator's Idol of Tenacity
+						i(42611),	-- Savage Gladiator's Libram of Fortitude
+						i(42612),	-- Savage Gladiator's Libram of Justice
+						i(42618),	-- Savage Gladiator's Sigil of Strife
+						i(42593),	-- Savage Gladiator's Totem of Indomitability
+						i(42594),	-- Savage Gladiator's Totem of Survival
+						i(42595),	-- Savage Gladiator's Totem of the Third Wind
+					})),
 					-- #endif
 				}),
 		-- #if AFTER 7.0.3
@@ -1069,7 +1069,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					}),
 					n(BACK, bubbleDown({
 						-- #if ANYCLASSIC
-							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
 						i(42057, {	-- Hateful Gladiator's Cloak of Ascendancy
@@ -1096,7 +1096,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					})),
 					n(WRIST, bubbleDown({
 						-- #if ANYCLASSIC
-							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
 						i(41638, {	-- Hateful Gladiator's Armwraps of Dominance
@@ -1140,7 +1140,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					})),
 					n(WAIST, bubbleDown({
 						-- #if ANYCLASSIC
-							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
 						i(41628, {	-- Hateful Gladiator's Belt of Dominance
@@ -1184,7 +1184,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					})),
 					n(FEET, bubbleDown({
 						-- #if ANYCLASSIC
-							["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
+						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 }
 						-- #endif
 					}, {
 						i(41633, {	-- Hateful Gladiator's Boots of Dominance
@@ -1229,7 +1229,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(NECK_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42024),	-- Hateful Gladiator's Pendant of Ascendancy
@@ -1243,7 +1243,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(FINGER_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42110),	-- Hateful Gladiator's Band of Dominance
@@ -1252,7 +1252,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = HATEFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42587),	-- Hateful Gladiator's Idol of Resolve
@@ -1925,7 +1925,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42588),	-- Deadly Gladiator's Idol of Resolve
@@ -1941,7 +1941,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {	-- see https://www.wowhead.com/forums/topic/arena-season-5-guide-60347 also has npcs
 						i(42123),	-- (A) Medallion of the Alliance Patch 3.0.1
@@ -1962,7 +1962,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(PVP_ELITE, bubbleDownSelf({
 			["timeline"] = { ADDED_3_0_2, REMOVED_3_1_0 },
 			-- #if BEFORE CATA
-				["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = DEADLY_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Exclusive to classic reward... BLIZZARD.
@@ -1979,7 +1979,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_1_0, REMOVED_3_2_0 },
 			-- #if BEFORE CATA
-				["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(3436, {	-- Furious Gladiator: Wrath of the Lich King Season 2
@@ -2649,7 +2649,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_1_0, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42589),	-- Furious Gladiator's Idol of Resolve
@@ -2665,7 +2665,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_1_0, REMOVED_3_2_0 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42124),	-- (A) Medallion of the Alliance
@@ -2679,13 +2679,13 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(PVP_ELITE, bubbleDownSelf({
 			["timeline"] =
 			-- #if ANYCLASSIC
-				{ ADDED_3_1_0 },
+			{ ADDED_3_1_0 },
 			-- #else
-				{ ADDED_3_1_0, REMOVED_3_2_0 },
+			{ ADDED_3_1_0, REMOVED_3_2_0 },
 			-- #endif
 
 			-- #if BEFORE CATA
-				["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = FURIOUS_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Original Sources are:
@@ -2731,7 +2731,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_2_0, REMOVED_3_3_2 },
 			-- #if BEFORE CATA
-				["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(3758, {	-- Relentless Gladiator: Wrath of the Lich King Season 3
@@ -3414,7 +3414,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_2_0, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42591),	-- Relentless Gladiator's Idol of Resolve
@@ -3430,7 +3430,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_2_0, REMOVED_3_3_2 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(42133),	-- Battlemaster's Fury
@@ -3447,13 +3447,13 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(PVP_ELITE, bubbleDownSelf({
 			["timeline"] =
 			-- #if ANYCLASSIC
-				{ ADDED_3_2_0 },
+			{ ADDED_3_2_0 },
 			-- #else
-				{ ADDED_3_2_0, REMOVED_3_3_2 },
+			{ ADDED_3_2_0, REMOVED_3_3_2 },
 			-- #endif
 
 			-- #if BEFORE CATA
-				["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = RELENTLESS_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Original Sources are:
@@ -3502,7 +3502,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(ACHIEVEMENTS, elitepvp(bubbleDown({
 			["timeline"] = { ADDED_3_3_2, REMOVED_4_0_1 },
 			-- #if BEFORE CATA
-				["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 			-- #endif
 		},{
 			ach(4599, {	-- Wrathful Gladiator: Wrath of the Lich King Season  4
@@ -4181,7 +4181,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(RELICS_F, bubbleDownSelf({
 						["timeline"] = { ADDED_3_3_2, REMOVED_5_0_4 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(51429),	-- Wrathful Gladiator's Idol of Resolve
@@ -4197,7 +4197,7 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 					filter(TRINKET_F, bubbleDown({
 						["timeline"] = { ADDED_3_3_2, REMOVED_4_0_1 },
 						-- #if BEFORE CATA
-							["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+						["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 						-- #endif
 					}, {
 						i(51377),	-- (A) Medallion of the Alliance
@@ -4211,13 +4211,13 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 		n(PVP_ELITE, bubbleDownSelf({
 			["timeline"] =
 			-- #if ANYCLASSIC
-				{ ADDED_3_3_2 },
+			{ ADDED_3_3_2 },
 			-- #else
-				{ ADDED_3_3_2, REMOVED_4_0_1 },
+			{ ADDED_3_3_2, REMOVED_4_0_1 },
 			-- #endif
 
 			-- #if BEFORE CATA
-				["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
+			["OnUpdate"] = WRATHFUL_GLADIATOR_ONUPDATE,
 			-- #endif
 		}, {
 			-- Original Sources are:
@@ -4226,9 +4226,9 @@ root(ROOTS.PVP, applyclassicphase(WRATH_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbl
 			-- n34093 Blazzek the Biter <Exceptional Arena Weaponry> in Gadgetzan
 			i(51534, {	-- Wrathful Gladiator's Tabard
 				-- #if ANYCLASSIC
-					-- #if AFTER CATA
-						["description"] = "This was never removed from the vendor in Classic.",
-					-- #endif
+				-- #if AFTER CATA
+				["description"] = "This was never removed from the vendor in Classic.",
+				-- #endif
 				-- #endif
 			}),
 			n(WEAPONS, {

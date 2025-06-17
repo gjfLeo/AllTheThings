@@ -360,9 +360,9 @@ root(ROOTS.Zones, {
 							}),
 							i(52937),	-- Chip's Cloak
 							-- #if ANYCLASSIC
-								i(52969),	-- Heartache Dagger (this ID is used in Classic [we'll probably find out sometime])
+							i(52969),	-- Heartache Dagger (this ID is used in Classic [we'll probably find out sometime])
 							-- #else
-								i(52965),	-- Heartache Dagger
+							i(52965),	-- Heartache Dagger
 							-- #endif
 						},
 					}),
