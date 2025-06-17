@@ -177,7 +177,7 @@ do
 	},
 	"WithItem", {
 		ImportFrom = "Item",
-		ImportFields = { "name", "link", "icon", "specs", "tsm" }
+		ImportFields = { "name", "link", "icon", "specs", "tsm" },
 	},
 	function(t) return t.itemID end)
 
