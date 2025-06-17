@@ -407,14 +407,6 @@ root(ROOTS.Unsorted, {
 			i(242944),	-- Emberwind Belt
 			i(242945),	-- Emberwind Bindings
 			i(242946),	-- Emberwind Cloak
-			i(242953),	-- Blood Vindicator's Cloak
-			i(242954),	-- Blood Vindicator's Breastplate
-			i(242955),	-- Blood Vindicator's Sabatons
-			i(242956),	-- Blood Vindicator's Gauntlets
-			i(242957),	-- Blood Vindicator's Crown
-			i(242959),	-- Blood Vindicator's Spaulders
-			i(242960),	-- Blood Vindicator's Belt
-			i(242961),	-- Blood Vindicator's Bindings
 			i(242962),	-- Shadowslayer Cloak
 			i(242963),	-- Shadowslayer Chestpiece \\ Shadowslayer Chestpieces
 			i(242964),	-- Shadowslayer Boots
@@ -499,8 +491,6 @@ root(ROOTS.Unsorted, {
 			i(246127),	-- Healthy Elixir
 			i(246570),	-- Rethfuras, Scorched Stave of Cinders
 			i(246571),	-- Glazfuris, Spire of the Deep Chill
-			i(242958),	-- Blood Vindicator's Legplates
-			i(244447),	-- Blood Vindicator's Greaves
 			i(246730),	-- Landro's Loot Box
 			i(246757),	-- Miniature Roulette Wheel
 			i(246758),	-- Miniature Roulette Wheel
