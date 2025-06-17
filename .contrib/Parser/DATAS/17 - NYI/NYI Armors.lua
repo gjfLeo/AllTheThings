@@ -4244,8 +4244,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			n(SPECIAL, {	-- Duos
 				-- Hellfire Ramprats
 				i(238934),	-- Boots of the Darkwalker
-				-- Shadowfang Keeep
-				i(238981),	-- Gloves of the Uplifted Cup
 			}),
 		})),
 	}),

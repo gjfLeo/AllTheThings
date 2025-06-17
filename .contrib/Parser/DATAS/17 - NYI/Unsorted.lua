@@ -525,9 +525,6 @@ root(ROOTS.Unsorted, {
 			n(SPECIAL, {	-- Duos
 				-- Hellfire Ramprats (didnt make it)
 				i(238934),	-- Boots of the Darkwalker
-
-				-- Didnt make it
-				i(238981),	-- Gloves of the Uplifted Cup
 			}),
 			n(SPECIAL, {	-- Mysterious???
 				-- Nothing load atm
@@ -726,7 +723,6 @@ root(ROOTS.Unsorted, {
 			i(236635),	-- Uncut Semi-Smoky Quartz
 			i(236651),	-- Vince's Old Left Shoe
 			i(236921),	-- Triumphant Satchel of Carved Harbinger Crests
-			i(237313),	-- Totally Legit Samophlange
 		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			-- Left Remaining To Darkal --

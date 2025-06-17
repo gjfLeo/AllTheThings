@@ -2334,6 +2334,7 @@ i(236652);	-- Re-Down-Upcycled Salvage
 i(236925);	-- Satchel of Carved Harbinger Crests
 i(237332);	-- Single-Use Grill
 i(234616);	-- Supreme Mangoro Madness
+i(237313);	-- Totally Legit Samophlange
 i(231899);	-- Trash
 
 ------------------
