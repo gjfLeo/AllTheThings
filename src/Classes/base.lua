@@ -3,8 +3,8 @@
 local appName, app = ...;
 
 -- Global locals
-local type,ipairs,pairs,setmetatable,rawget,tinsert,unpack,rawset
-	= type,ipairs,pairs,setmetatable,rawget,tinsert,unpack,rawset
+local type,ipairs,pairs,setmetatable,rawget,tinsert,unpack,rawset,select
+	= type,ipairs,pairs,setmetatable,rawget,tinsert,unpack,rawset,select
 
 -- App locals
 local GetRelativeValue = app.GetRelativeValue;
@@ -435,6 +435,43 @@ local function CloneObject(object, ignoreChildren)
 	end
 	return clone;
 end
+-- Allow importing a specific set of Class functions from one Class to another
+local function ImportClassFunctions(baseClassName, copyClassName, ...)
+	-- make sure the base class exists
+	local baseClass = type(baseClassName) == "table" and baseClassName or classDefinitions[baseClassName]
+	if not baseClass then error("ImportClassFunctions - base Class does not exist"..(baseClassName or "")) end
+
+	-- make sure the copy class exists
+	local copyClass = type(copyClassName) == "table" and copyClassName or classDefinitions[copyClassName]
+	if not copyClass then error("ImportClassFunctions - copy Class does not exist"..(copyClassName or "")) end
+
+	local funcName, func
+	local count = select("#", ...)
+	if count > 0 then
+		-- app.PrintDebug("ImportClassFunctions - Explicit Copy",baseClassName,copyClassName,...)
+		-- copy the explicitly-named class functions provided, these can replace the base class functions
+		for i=1,count do
+			funcName = select(i, ...)
+			func = copyClass[funcName]
+			if not func then app.print("ImportClassFunctions - func not found in copy Class",funcName,copyClassName)
+			-- elseif baseClass[funcName] then app.print("ImportClassFunctions - func already exists in base Class",funcName,baseClassName)
+			else
+				baseClass[funcName] = func
+				-- app.PrintDebug("Copied Base Func!",funcName,"from",copyClassName,"into",baseClassName)
+			end
+		end
+	else
+		-- app.PrintDebug("ImportClassFunctions - Soft Copy",baseClassName,copyClassName)
+		-- soft-copy any missing class functions into the provided class
+		for field,func in pairs(baseClass) do
+			if not baseClass[field] then
+				baseClass[field] = func
+				-- app.PrintDebug("Copied Base Func!",funcName,"from",copyClassName,"into",baseClassName)
+			-- else app.PrintDebug("ImportClassFunctions - Ignoring func already existing in base Class",field,baseClassName)
+			end
+		end
+	end
+end
 app.CloneObject = CloneObject;
 app.CloneClassInstance = CloneClassInstance;
 app.CreateClassInstance = CreateClassInstance;
@@ -610,6 +647,9 @@ app.CreateClass = function(className, classKey, fields, ...)
 					CloneDictionary(fields, subfields)
 					subfields.__condition = conditional
 					subfields.base = base;
+					if subfields.ImportFrom then
+						ImportClassFunctions(subfields, subfields.ImportFrom, unpack(subfields.ImportFields))
+					end
 					GenerateSimpleMetaClass(subfields, className, subclassName)
 					local subclass = CreateClassMeta(subfields, className .. subclassName)
 					GenerateVariantClasses(subclass)
