@@ -210,6 +210,7 @@ local KnownByIgnoredTypes = {
 	Illusion = true,
 	IllusionWithItem = true,
 	Mount = true,
+	MountWithItem = true,
 }
 local knownBy = {};
 local function BuildKnownByInfoForKind(tooltipInfo, kind)
