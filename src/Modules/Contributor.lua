@@ -334,6 +334,7 @@ MobileDB.Creature = {
 	[146536] = true,	-- Lost Wisp
 	[145707] = true,	-- Advisor Belgrum
 	[146937] = true,	-- Dark Ranger Lyana
+	[149805] = true,	-- Farseer Ori
 	[150202] = true,	-- Hunter Akana
 	[151300] = true,	-- Neri Sharpfin
 	[153897] = true,	-- Blingtron 7000
