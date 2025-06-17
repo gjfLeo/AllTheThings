@@ -936,6 +936,28 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							}),
 						}),
 					}),
+					n(1346, {	-- Georgio Bolero <Tailoring Trainer>
+						["coords"] = {
+							-- #if AFTER CATA
+							{ 53.2, 81.6, STORMWIND_CITY },
+							-- #else
+							{ 43.6, 73.8, STORMWIND_CITY },
+							-- #endif
+						},
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = CLASSIC_TAILORING,
+					}),
+					n(9584, {	-- Jalane Ayrole <Master Shadoweave Tailor>
+						["coords"] = {
+							-- #if AFTER CATA
+							{ 40.6, 83.8, STORMWIND_CITY },
+							-- #else
+							{ 26.6, 77.6, STORMWIND_CITY },
+							-- #endif
+						},
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = SHADOWEAVE_TAILORING,
+					}),
 					n(1318, {	-- Jessara Cordell <Enchanting Supplies>
 						["coords"] = {
 							-- #if AFTER WRATH
@@ -5619,6 +5641,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- Used to just sell trade goods for Cataclysm (Embersilk, Shards, Ore, etc)
 					-- #endif
 				}),
+				-- #if SEASON_OF_DISCOVERY
+				n(213077, {	-- Elaine Compton <Supply Officer>
+					["coord"] = { 54.8, 62.0, STORMWIND_CITY },
+					["groups"] = bubbleDownClassicRep(AZEROTH_COMMERCE_AUTHORITY, {
+						{	-- Neutral
+						},
+						{	-- Friendly
+						},
+						{	-- Honored
+							i(211247),	-- Pattern: Phoenix Bindings (RECIPE!)
+						},
+						{	-- Revered
+						},
+						{	-- Exalted
+						},
+					}),
+				}),
+				-- #endif
 				n(5503, {	-- Eldraeith <Herbalism Supplies> [TBC+] / Eldraeith <Herbalism Supplier>
 					["coords"] = {
 						-- #if AFTER WRATH

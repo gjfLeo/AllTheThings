@@ -253,6 +253,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 						},
 					}),
+					n(ZONE_DROPS, {
+						i(238301),	-- Pattern: Scarlet Augur's Cuffs (RECIPE!)
+						i(238304),	-- Pattern: Scarlet Augur's Leggings (RECIPE!)
+						i(238302),	-- Pattern: Scarlet Augur's Mitts (RECIPE!)
+						i(238305),	-- Pattern: Scarlet Augur's Soles (RECIPE!)
+						i(238303),	-- Pattern: Scarlet Augur's Strap (RECIPE!)
+					}),
 					n(COMMON_BOSS_DROPS),
 					e(3185, {	-- Balnazzar
 						["creatureID"] = 240811,
@@ -294,7 +301,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(241177), -- Kilt of the Scarlet Arcanist
 							i(239216), -- Lightforged Iron
 							i(241159), -- Monastery Garb
-							i(238300), -- Pattern: Scarlet Augur's Vestaments
+							i(238300), -- Pattern: Scarlet Augur's Vestaments (RECIPE!)
 							i(238308), -- Pattern: Scarlet Infiltrator's Vest
 							i(238316), -- Pattern: Scarlet Huntsman's Chain
 							i(238324), -- Plans: Scarlet Soldier's Chestplate
@@ -337,7 +344,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(239710), -- Consecrated Sandals
 							i(239726), -- Consecrated Boots
 							i(239216), -- Lightforged Iron
-							i(238299), -- Pattern: Scarlet Augur's Mantle
+							i(238299), -- Pattern: Scarlet Augur's Mantle (RECIPE!)
 							i(238307), -- Pattern: Scarlet Infiltrator's Shoulderpads
 							i(238315), -- Pattern: Scarlet Huntsman's Pauldrons
 							i(241165), -- Penitent Wraps
@@ -440,9 +447,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(241039), -- Infusion of Souls
 							i(240920), -- Leogan
 							i(239216), -- Lightforged Iron
-							i(238298), -- Pattern: Scarlet Augur's Hood
-							i(238299), -- Pattern: Scarlet Augur's Mantle
-							i(238300), -- Pattern: Scarlet Augur's Vestaments
+							i(238298), -- Pattern: Scarlet Augur's Hood (RECIPE!)
+							i(238299), -- Pattern: Scarlet Augur's Mantle (RECIPE!)
+							i(238300), -- Pattern: Scarlet Augur's Vestaments (RECIPE!)
 							i(238306), -- Pattern: Scarlet Infiltrator's Bandana
 							i(238307), -- Pattern: Scarlet Infiltrator's Shoulderpads
 							i(238308), -- Pattern: Scarlet Infiltrator's Vest
