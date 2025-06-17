@@ -3396,41 +3396,6 @@ root(ROOTS.Unsorted, {
 			i(169977),	-- Crumbling Bark \\ Touch of the Everlasting Empty Item
 			i(169978),	-- Cracked Branch \\ Touch of the Everlasting Empty Item
 			i(169979),	-- Shriveled Roots \\ Touch of the Everlasting Empty Item
-			i(172204),	-- Add Keystone Affix: Beguiling
-		})),
-
-		-- 8.2.5
-		expansion(EXPANSION.BFA, patch(2,5), bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5 } }, {
-			i(169152),	-- Empty Beehive
-			i(169389),	-- [DNT] Lookout's Key
-			i(169651),	-- The Ways of the Old Gods
-			i(169652),	-- Bolt of Embroidered Cloth
-			i(169858),	-- "Bee Bee" Gun
-			i(169862),	-- Alluring Bloom
-			i(170319),	-- Flower of Thoughtfulness
-			i(170321),	-- Flower of Luck
-			i(170322),	-- Flower of Generosity
-			i(171195),	-- Sugary Soul Shard
-			i(171196),	-- Spellstone Delight
-			i(171199),	-- Ookerdooker Elixir
-			i(171348),	-- Torn Scroll of Unearthly Rituals
-			i(171366),	-- Potion of Temporary Lucidity
-			i(171976),	-- Ensemble: Wildheart Raiment
-			i(171977),	-- Ensemble: Beaststalker Armor
-			i(171978),	-- Ensemble: Magister's Regalia
-			i(171979),	-- Ensemble: Lightforge Armor
-			i(171980),	-- Ensemble: Vestments of the Devout
-			i(171981),	-- Ensemble: Shadowcraft Armor
-			i(171982),	-- Ensemble: The Elements
-			i(171983),	-- Ensemble: Dreadmist Raiment
-			i(171984),	-- Ensemble: Battlegear of Valor
-			i(172017),	-- Sharpened Pin
-			i(172018),	-- Red Anniversary Balloons
-			i(172019),	-- Blue Anniversary Balloons
-			i(172091),	-- Leeroy's Spicy Fried Chicken
-			i(172202),	-- Bee in a Bottle
-			i(172224),	-- Winter Veil Gift
-			i(172225),	-- Gently Shaken Gift
 		})),
 	}),
 });

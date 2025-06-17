@@ -318,15 +318,21 @@ i(155636);	-- Viscous Ink
 -----------------
 -- PATCH 8.2.5 --
 -----------------
+i(172202);	-- Bee in a Bottle
 i(172503);	-- Beekeeper Bybee's Photograph
 i(172504);	-- Bottled Tidebreak Water
 i(173533);	-- Collected Tidebloom Honey
 i(172383);	-- Collected Tidebloom Honey
 i(172502);	-- Delicious Sugar
+i(170319);	-- Flower of Thoughtfulness
+i(170321);	-- Flower of Luck
+i(170322);	-- Flower of Generosity
+i(172225);	-- Gently Shaken Gift
 i(172447);	-- Honey-Glazed Dough
 i(172500);	-- Lisa Honeysuckle's Photograph
 i(172448);	-- Super Sticky Honey
 i(172501);	-- Tantalizing Nectar
+i(172224);	-- Winter Veil Gift
 
 -----------------
 -- PATCH 8.3.0 --
@@ -2252,7 +2258,6 @@ i(224194);	-- Fashion Frenzy Ribbon
 i(232011);	-- Finder's Flare
 i(229831);	-- Gold Balloon
 i(232374);	-- Greasy Links
-i(232378);	-- Jenkins' No Nonsense Fried Chicken
 i(229829);	-- Light Blue Balloon
 i(232375);	-- Moon Bread
 i(232377);	-- Pappy Thunderbrew's Cough Syrup
