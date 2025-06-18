@@ -66,8 +66,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {
 				-- Delves
 				i(242743),	-- Durable Information Securing Container [Trinket]
-				-- Lorewalking
-				i(242386),	-- Lorewalker's Crate of Memorabilia
 				-- Misc
 				i(244848),	-- Severed Threads Commendation
 			}),

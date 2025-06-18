@@ -1040,8 +1040,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				["provider"] = { "n", 231837 },	-- Faering Lothar
 				["coord"] = { 19.4, 59.1, 2372 },
 				["g"] = {
-					i(239135),	-- Hammerfall Tabard (COSMETIC!)
-					i(239136),	-- Stromgarde Tabard (COSMETIC!)
+					h(i(239135)),	-- Hammerfall Tabard (COSMETIC!)
+					a(i(239136)),	-- Stromgarde Tabard (COSMETIC!)
 				},
 			}),
 			q(85529, {	-- Past Glory
@@ -1050,9 +1050,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				["coord"] = { 21.6, 65.0, 2372 },
 				["g"] = {
 					i(239137),	-- Lamplighter's Pauldrons (COSMETIC!)
-					-- TODO: Myrh worth a look at here, just in case
-					ach(41820),	-- Rise of the Red Dawn
-					title(629),	-- %s of Hammerfall
+					ach(41818),	-- Rise of the Red Dawn (A)
+					ach(41820),	-- Rise of the Red Dawn (H)
 				},
 			}),
 			--- Stay awhile and listen ---

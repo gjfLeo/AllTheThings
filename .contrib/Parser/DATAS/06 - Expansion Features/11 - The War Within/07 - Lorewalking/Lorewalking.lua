@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 LOREWALKING = createHeader({
 	readable = "Lorewalking",
-	icon = [[~_.asset("Feature_Lorewalking")]],
+	icon = [[~_.asset("Feature_Lorewalking")]], -- TODO Not a real asset file
 	text = {
 		en = "Lorewalking",
 	},
@@ -19,7 +19,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 			}),
 			n(REWARDS, {
 				i(242386,{	-- Lorewalker's Crate of Memorabilia
-					--TODO: party sync loot
+					["sym"] = {{"select","itemID",171305},{"pop"}},	-- Salvaged Cache of Goods [Party Sync Loot]
 				}),
 			}),
 			n(QUESTS, {
