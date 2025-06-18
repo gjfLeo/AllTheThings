@@ -556,6 +556,9 @@ app.CreateItem = app.CreateClass(CLASS, KEY, itemFields,
 -- Wraps the given Type Object as a Cost Item, allowing altered functionality representing this being a calculable 'cost'
 local CreateCostItem = app.CreateClass("CostItem", KEY, {
 	IsClassIsolated = true,
+	-- import the link field from Item so that loading works properly
+	ImportFrom = "Item",
+	ImportFields = { "link" },
 	-- total is the count of the cost item required
 	total = function(t)
 		return t.count or 1;
