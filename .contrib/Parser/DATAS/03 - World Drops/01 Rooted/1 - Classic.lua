@@ -5382,6 +5382,23 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Drops from spiders in the level bracket 5-20 like spiders in Silverpine Forest and Teldrassil.",
 			-- #endif
 		}),
+		i(5468, {	-- Soft Frenzy Flesh
+			-- #if BEFORE 4.0.3
+			["coords"] = {
+				{ 40.0, 20.0, DARKSHORE },
+				{ 33.0, 70.0, DARKSHORE },
+			},
+			-- #endif
+			["crs"] = {
+				-- #if BEFORE 4.0.3
+				2174,	-- Coastal Frenzy
+				-- #endif
+				6033,	-- Lake Frenzy
+				2173,	-- Reef Frenzy
+			},
+			["description"] = "Drops from frenzies found in bodies of water.",
+			["maps"] = { SILVERPINE_FOREST },
+		}),
 		i(67229, {	-- Stag Flank
 			["coords"] = {
 				{ 45.2, 40.8, DARKSHORE },	-- Withering Thicket

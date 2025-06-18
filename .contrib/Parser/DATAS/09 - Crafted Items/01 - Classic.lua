@@ -1738,9 +1738,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_SIX, i(233987, { ["timeline"] = { ADDED_1_15_5 }, })), -- Arcane Mega Bomb
 			-- #endif
-			i(6219, {	-- Arclight Spanner
-				["collectible"] = false,
-			}),
 			i(4380),	-- Big Bronze Bomb
 			i(4394),	-- Big Iron Bomb
 			i(9312),	-- Blue Firework
@@ -1777,7 +1774,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(9313),	-- Green Firework
 			i(21574),	-- Green Rocket Cluster
 			i(18634),	-- Gyrofreeze Ice Reflector
-			i(10498),	-- Gyromatic Micro-Adjustor
 			i(4378),	-- Heavy Dynamite
 			i(10562),	-- Hi-Explosive Bomb
 			i(10512, {["timeline"] = {REMOVED_4_0_1}}),	-- Hi-Impact Mithril Slugs
@@ -1843,6 +1839,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(15997, {["timeline"] = {REMOVED_4_0_1}}),	-- Thorium Shells
 			i(18639),	-- Ultra-Flash Shadow Reflector
 			i(16009),	-- Voice Amplification Modulator
+		}),
+		filter(PROFESSION_EQUIPMENT, {
+			i(6219, {	-- Arclight Spanner
+				["collectible"] = false,
+			}),
+			i(10498),	-- Gyromatic Micro-Adjustor
 		}),
 		filter(REAGENTS, {
 			i(4382),	-- Bronze Framework
@@ -1947,204 +1949,836 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	}),
 	-- #endif
 	prof(FISHING, {
-		filter(ONE_HANDED_MACES, {
-			i(6360, {	-- Steelscale Crushfish
-				-- #if AFTER CATA
-				["description"] = "Can be caught in Ashenvale, Darkmoon Island, Hillsbrad Foothills, Northern Stranglethorn, and Wetlands in open water.",
+		["description"] = "If you struggle to catch an open water fish in a given zone, try a different spot or a different body of water. There might be local variations of which fish you can reliably catch from a given spot.",
+		["groups"] = {
+			filter(ONE_HANDED_MACES, {
+				i(6360, {	-- Steelscale Crushfish
+					["description"] = "Can be caught in open water in the given zones.",
+					["maps"] = {
+						ASHENVALE,
+						HILLSBRAD_FOOTHILLS,
+						WETLANDS,
+						-- #if AFTER CATA
+						DARKMOON_ISLAND,
+						NORTHERN_STRANGLETHORN,
+						-- #endif
+					},
+				}),
+			}),
+			filter(FINGER_F, {
+				i(8350, {	-- The 1 Ring
+					["description"] = "Interestingly enough, you can fish this out of the lava in Ironforge. I guess the gnomes failed their quest...",
+				}),
+			}),
+			filter(HELD_IN_OFF_HAND, bubbleDownSelf({ ["collectible"] = false, }, {
+				i(6292),	-- 10 Pound Mud Snapper
+				i(6294),	-- 12 Pound Mud Snapper
+				i(6295),	-- 15 Pound Mud Snapper
+				i(13901),	-- 15 Pound Salmon
+				i(6309),	-- 17 Pound Catfish
+				i(13902),	-- 18 Pound Salmon
+				i(6310),	-- 19 Pound Catfish
+				i(6311),	-- 22 Pound Catfish
+				i(13903),	-- 22 Pound Salmon
+				i(13904),	-- 25 Pound Salmon
+				i(6363),	-- 26 Pound Catfish
+				i(13905),	-- 29 Pound Salmon
+				i(6364),	-- 32 Pound Catfish
+				i(13906),	-- 32 Pound Salmon
+				i(13885),	-- 34 Pound Redgill
+				i(13886),	-- 37 Pound Redgill
+				i(13882),	-- 42 Pound Redgill
+				i(13883),	-- 45 Pound Redgill
+				i(13884),	-- 49 Pound Redgill
+				i(13887),	-- 52 Pound Redgill
+				i(13914),	-- 70 Pound Mightfish
+				i(13915),	-- 85 Pound Mightfish
+				i(13916),	-- 92 Pound Mightfish
+				i(13917),	-- 103 Pound Mightfish
+			})),
+			filter(MISC, {
+				-- Equippables:
+				i(13907),	-- 7 Pound Lobster
+				i(13908),	-- 9 Pound Lobster
+				i(13909),	-- 12 Pound Lobster
+				i(13910),	-- 15 Pound Lobster
+				i(13911),	-- 19 Pound Lobster
+				i(13912),	-- 21 Pound Lobster
+				i(13913),	-- 22 Pound Lobster
+				i(13876),	-- 40 Pound Grouper
+				i(13877),	-- 47 Pound Grouper
+				i(13878),	-- 53 Pound Grouper
+				i(13879),	-- 59 Pound Grouper
+				i(13880),	-- 68 Pound Grouper
+				-- Bloated fish:
+				i(6646),	-- Bloated Albacore
+				i(6647),	-- Bloated Catfish
+				i(21163),	-- Bloated Firefin
+				i(6644),	-- Bloated Mackerel
+				i(21243),	-- Bloated Mightfish
+				i(6645),	-- Bloated Mud Snapper
+				i(21162),	-- Bloated Oily Blackmouth
+				i(13881, {	-- Bloated Redgill
+					i(7551),	-- Entwined Opaline Talisman
+					i(7549),	-- Fairy's Embrace
+				}),
+				i(21164, {	-- Bloated Rockscale Cod
+					i(7909),	-- Aquamarine
+					i(3864),	-- Citrine
+					i(1529),	-- Jade
+					i(1705),	-- Lesser Moonstone
+				}),
+				i(13891),	-- Bloated Salmon
+				i(6643),	-- Bloated Smallfish
+				i(8366),	-- Bloated Trout
+				-- Containers:
+				i(6351),	-- Dented Crate
+				i(13874),	-- Heavy Crate
+				i(21150, {	-- Iron Bound Trunk
+					["maps"] = {
+						ARATHI_HIGHLANDS,
+						ASHENVALE,
+						AZSHARA,
+						BLASTED_LANDS,
+						DARKSHORE,
+						DESOLACE,
+						DUSTWALLOW_MARSH,
+						FERALAS,
+						HILLSBRAD_FOOTHILLS,
+						SILVERPINE_FOREST,
+						SWAMP_OF_SORROWS,
+						TANARIS,
+						-- #if BEFORE 4.0.3
+						ALTERAC_MOUNTAINS,
+						STRANGLETHORN_VALE,
+						THE_BARRENS,
+						-- #else
+						EASTERN_PLAGUELANDS,
+						FERALAS,
+						MOONGLADE,
+						NORTHERN_BARRENS,
+						NORTHERN_STRANGLETHORN,
+						SOUTHERN_BARRENS,
+						STONETALON_MOUNTAINS,
+						THE_CAPE_OF_STRANGLETHORN,
+						THOUSAND_NEEDLES,
+						UNGORO_CRATER,
+						WESTERN_PLAGUELANDS,
+						-- #endif
+						THE_HINTERLANDS,
+						WESTFALL,
+						WETLANDS,
+					},
+					["providers"] = {
+						{ "o", 180901 },	-- Bloodsail Wreckage
+						{ "o", 180683 },	-- Firefin Snapper School
+						{ "o", 180683 },	-- Greater Sagefish School
+						{ "o", 180682 },	-- Oily Blackmouth School
+						{ "o", 180685 },	-- Waterlogged Wreckage
+						-- #if AFTER 5.1.0
+						{ "o", 216761 },	-- Mixed Ocean School
+						-- #endif
+					},
+					["groups"] = {
+						i(4339),	-- Bolt of Mageweave
+						i(4305),	-- Bolt of Silk Cloth
+						i(1710),	-- Greater Healing Potion
+						i(4234),	-- Heavy Leather
+						i(3827),	-- Mana Potion
+						i(4304),	-- Thick Leather
+					},
+				}),
+				i(6307),	-- Message in a Bottle
+				i(21228, {	-- Mitril Bound Trunk
+					["maps"] = {
+						BLASTED_LANDS,
+						EASTERN_PLAGUELANDS,
+						SWAMP_OF_SORROWS,
+						TANARIS,
+						-- #if AFTER 4.0.3
+						THOUSAND_NEEDLES,
+						-- #endif
+					},
+					["providers"] = {
+						{ "o", 180751 },	-- Floating Wreckage
+						{ "o", 180712 },	-- Stonescale Eel Swarm
+					},
+					["groups"] = {
+						i(4339),	-- Bolt of Mageweave
+						i(14048),	-- Bolt of Runecloth
+						i(6149),	-- Greater Mana Potion
+						i(8170),	-- Rugged Leather
+						i(3928),	-- Superior Healing Potion
+						i(4304),	-- Thick Leather
+					},
+				}),
+				i(6357),	-- Sealed Crate
+				i(20708, {	-- Tightly Sealed Trunk
+					["maps"] = {
+						DARKSHORE,
+						DUSKWOOD,
+						REDRIDGE_MOUNTAINS,
+						SILVERPINE_FOREST,
+						WESTFALL,
+						-- #if BEFORE 4.0.3
+						THE_BARRENS,
+						-- #else
+						AZSHARA,
+						NORTHERN_BARRENS,
+						-- #endif
+					},
+					["providers"] = {
+						{ "o", 180655 },	-- Floating Debris
+						{ "o", 180658 },	-- School of Deviate Fish
+					},
+					["groups"] = {
+						i(2996),	-- Bolt of Linen Cloth
+						i(2997),	-- Bolt of Woolen Cloth
+						i(858),	-- Lesser Healing Potion
+						i(2318),	-- Light Leather
+						i(2319),	-- Medium Leather
+						i(2455),	-- Minor Mana Potion
+					},
+				}),
+				i(6352),	-- Waterlogged Crate
+				i(21113, {	-- Watertight Trunk
+					["maps"] = {
+						ASHENVALE,
+						HILLSBRAD_FOOTHILLS,
+						STONETALON_MOUNTAINS,
+						WETLANDS,
+					},
+					["providers"] = {
+						-- #if AFTER 5.1.0
+						{ "o", 216764 },	-- Sagefish School
+						-- #endif
+						{ "o", 180662 },	-- Schooner Wreckage / Pre WotLK: Floating Wreckage
+					},
+					["groups"] = {
+						i(4305),	-- Bolt of Silk Cloth
+						i(2997),	-- Bolt of Woolen Cloth
+						i(929),	-- Healing Potion
+						i(4234),	-- Heavy Leather
+						i(2319),	-- Medium Leather
+						i(3385),	-- Lesser Mana Potion
+					},
+				}),
+				-- Consumables:
+				i(21151, {	-- Rumsey Rum Black Label
+					["providers"] = {
+						{ "o", 180901 },	-- Bloodsail Wreckage
+						{ "o", 180683 },	-- Firefin Snapper School
+						{ "o", 180655 },	-- Floating Debris
+						{ "o", 180751 },	-- Floating Wreckage
+						{ "o", 180683 },	-- Greater Sagefish School
+						{ "o", 180682 },	-- Oily Blackmouth School
+						{ "o", 180658 },	-- School of Deviate Fish
+						{ "o", 180662 },	-- Schooner Wreckage / Pre WotLK: Floating Wreckage
+						{ "o", 180712 },	-- Stonescale Eel Swarm
+						{ "o", 180685 },	-- Waterlogged Wreckage
+						-- #if AFTER 5.1.0
+						{ "o", 216761 },	-- Mixed Ocean School
+						{ "o", 216764 },	-- Sagefish School
+						-- #else
+						{ "o", 180663 },	-- Sagefish School
+						{ "o", 180656 },	-- Sagefish School
+						-- #endif
+					},
+				}),
+				i(20709, {	-- Rumsey Rum Light
+					["maps"] = {
+						DARKSHORE,
+						DUSKWOOD,
+						REDRIDGE_MOUNTAINS,
+						SILVERPINE_FOREST,
+						WESTFALL,
+						-- #if BEFORE 4.0.3
+						THE_BARRENS,
+						-- #else
+						AZSHARA,
+						NORTHERN_BARRENS,
+						-- #endif
+					},
+					["providers"] = {
+						{ "o", 180655 },	-- Floating Debris
+					},
+				}),
+			}),
+			filter(PROFESSION_EQUIPMENT, {
+				i(6366, {	-- Darkwood Fishing Pole
+					["description"] = "Can be caught in Ashenvale, Arathi Highlands, Hillsbrad Foothills, Northern Stranglethorn, Redridge Mountains and Wetlands.",
+					["maps"] = {
+						ASHENVALE,
+						ARATHI_HIGHLANDS,
+						HILLSBRAD_FOOTHILLS,
+						NORTHERN_STRANGLETHORN,
+						REDRIDGE_MOUNTAINS,
+						WETLANDS,
+					},
+					-- #if AFTER 10.0.0
+					["collectible"] = false,
+					-- #endif
+				}),
+				i(6256, {	-- Fishing Pole
+					-- #if AFTER 10.0.0
+					["collectible"] = false,
+					-- #endif
+				}),
+				i(6365, {	-- Strong Fishing Pole
+					-- #if AFTER 10.0.0
+					["collectible"] = false,
+					-- #endif
+					["isLimited"] = true,
+				}),
+			}),
+			filter(RECIPES, {
+				i(34109, {	-- Weather-Beaten Journal (RECIPE!)
+					["description"] = "Can be fished from schools.",
+					["timeline"] = { ADDED_2_3_0 },
+				}),
+			}),
+			-- Danny Donkey: The post Cata data for fish and school locations is accurate for viability in retail and might deviate from Cata+ classic. Pre Cata data is also not validated in-game.
+			-- Fish:
+			i(13888, {	-- Darkclaw Lobster
+				["description"] = "Can be caught on the seaside.",
 				["maps"] = {
-					ASHENVALE,
-					DARKMOON_ISLAND,
-					HILLSBRAD_FOOTHILLS,
-					NORTHERN_STRANGLETHORN,
-					WETLANDS,
+					-- #if AFTER 4.0.3
+					BLASTED_LANDS,
+					SWAMP_OF_SORROWS,
+					-- #else
+					AZSHARA,
+					-- #endif
 				},
-				-- #else
-				["description"] = "Can be caught in Ashenvale, Hillsbrad Foothills, and the Wetlands in open water.",
-				["maps"] = {
-					ASHENVALE,
-					HILLSBRAD_FOOTHILLS,
-					WETLANDS,
+			}),
+			i(6522, {	-- Deviate Fish
+				["_allowObjectProvider"] = true,
+				["coords"] = {
+					-- #if AFTER 4.0.3
+					{ 56.0, 80.6, NORTHERN_BARRENS },	-- The Stagnant Oasis
+					{ 39.9, 74.9, NORTHERN_BARRENS },	-- Lushwater Oasis
+					{ 37.3, 45.9, NORTHERN_BARRENS },	-- The Forgotten Oasis
+					-- #else
+					{ 56.0, 43.0, THE_BARRENS },	-- The Stagnant Oasis
+					{ 46.0, 38.0, THE_BARRENS },	-- Lushwater Oasis
+					{ 45.0, 22.0, THE_BARRENS },	-- The Forgotten Oasis
+					-- #endif
 				},
-				-- #endif
+				["provider"] = { "o", 180658 },	-- School of Deviate Fish
 			}),
-		}),
-		filter(FINGER_F, {
-			i(8350, {	-- The 1 Ring
-				["description"] = "Interestingly enough, you can fish this out of the lava in Ironforge. I guess the gnomes failed their quest...",
-			}),
-		}),
-		filter(HELD_IN_OFF_HAND, bubbleDownSelf({ ["collectible"] = false, }, {
-			i(6292),	-- 10 Pound Mud Snapper
-			i(6294),	-- 12 Pound Mud Snapper
-			i(6295),	-- 15 Pound Mud Snapper
-			i(13901),	-- 15 Pound Salmon
-			i(6309),	-- 17 Pound Catfish
-			i(13902),	-- 18 Pound Salmon
-			i(6310),	-- 19 Pound Catfish
-			i(6311),	-- 22 Pound Catfish
-			i(13903),	-- 22 Pound Salmon
-			i(13904),	-- 25 Pound Salmon
-			i(6363),	-- 26 Pound Catfish
-			i(13905),	-- 29 Pound Salmon
-			i(6364),	-- 32 Pound Catfish
-			i(13906),	-- 32 Pound Salmon
-			i(13885),	-- 34 Pound Redgill
-			i(13886),	-- 37 Pound Redgill
-			i(13882),	-- 42 Pound Redgill
-			i(13883),	-- 45 Pound Redgill
-			i(13884),	-- 49 Pound Redgill
-			i(13887),	-- 52 Pound Redgill
-			i(13914),	-- 70 Pound Mightfish
-			i(13915),	-- 85 Pound Mightfish
-			i(13916),	-- 92 Pound Mightfish
-			i(13917),	-- 103 Pound Mightfish
-		})),
-		filter(MISC, {
-			i(13907),	-- 7 Pound Lobster
-			i(13908),	-- 9 Pound Lobster
-			i(13909),	-- 12 Pound Lobster
-			i(13910),	-- 15 Pound Lobster
-			i(13911),	-- 19 Pound Lobster
-			i(13912),	-- 21 Pound Lobster
-			i(13913),	-- 22 Pound Lobster
-			i(13876),	-- 40 Pound Grouper
-			i(13877),	-- 47 Pound Grouper
-			i(13878),	-- 53 Pound Grouper
-			i(13879),	-- 59 Pound Grouper
-			i(13880),	-- 68 Pound Grouper
-			i(6646),	-- Bloated Albacore
-			i(6647),	-- Bloated Catfish
-			i(21163),	-- Bloated Firefin
-			i(6644),	-- Bloated Mackerel
-			i(21243),	-- Bloated Mightfish
-			i(6645),	-- Bloated Mud Snapper
-			i(21162),	-- Bloated Oily Blackmouth
-			i(13881, {	-- Bloated Redgill
-				i(7551),	-- Entwined Opaline Talisman
-				i(7549),	-- Fairy's Embrace
-			}),
-			i(21164),	-- Bloated Rockscale Cod
-			i(13891),	-- Bloated Salmon
-			i(6643),	-- Bloated Smallfish
-			i(8366),	-- Bloated Trout
-			i(6351),	-- Dented Crate
-			i(13874),	-- Heavy Crate
-			i(6357),	-- Sealed Crate
-			i(6352),	-- Waterlogged Crate
-		}),
-		filter(PROFESSION_EQUIPMENT, {
-			i(6366, {	-- Darkwood Fishing Pole
-				["description"] = "Can be caught in Ashenvale, Arathi Highlands, Hillsbrad Foothills, Northern Stranglethorn, Redridge Mountains and Wetlands.",
+			i(6359, {	-- Firefin Snapper
+				["description"] = "Schools can be found on the seaside.",
 				["maps"] = {
-					ASHENVALE,
 					ARATHI_HIGHLANDS,
+					ASHENVALE,
+					AZSHARA,
+					BLASTED_LANDS,
+					DARKSHORE,
+					DESOLACE,
+					DUSTWALLOW_MARSH,
+					FERALAS,
 					HILLSBRAD_FOOTHILLS,
+					SILVERPINE_FOREST,
+					SWAMP_OF_SORROWS,
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					STRANGLETHORN_VALE,
+					THE_BARRENS,
+					-- #else
+					NORTHERN_BARRENS,
 					NORTHERN_STRANGLETHORN,
+					SOUTHERN_BARRENS,
+					THE_CAPE_OF_STRANGLETHORN,
+					THOUSAND_NEEDLES,
+					-- #endif
+					THE_HINTERLANDS,
+					WESTFALL,
+					WETLANDS,
+				},
+				["providers"] = {
+					{ "o", 180683 },	-- Firefin Snapper School
+					-- #if AFTER 5.1.0
+					{ "o", 216761 },	-- Mixed Ocean School
+					-- #endif
+				},
+			}),
+			i(13893, {	-- Large Raw Mightfish
+				["description"] = "Can be caught on the seaside.",
+				["maps"] = {
+					-- #if AFTER 4.0.3
+					BLASTED_LANDS,
+					SWAMP_OF_SORROWS,
+					-- #else
+					AZSHARA,
+					-- #endif
+				},
+			}),
+			i(6358, {	-- Oily Blackmouth
+				["description"] = "Schools can be found on the seaside.",
+				["maps"] = {
+					ARATHI_HIGHLANDS,
+					ASHENVALE,
+					AZSHARA,
+					BLASTED_LANDS,
+					DARKSHORE,
+					DESOLACE,
+					DUSTWALLOW_MARSH,
+					FERALAS,
+					HILLSBRAD_FOOTHILLS,
+					SILVERPINE_FOREST,
+					SWAMP_OF_SORROWS,
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					STRANGLETHORN_VALE,
+					THE_BARRENS,
+					-- #else
+					NORTHERN_BARRENS,
+					NORTHERN_STRANGLETHORN,
+					SOUTHERN_BARRENS,
+					THE_CAPE_OF_STRANGLETHORN,
+					THOUSAND_NEEDLES,
+					-- #endif
+					THE_HINTERLANDS,
+					WESTFALL,
+					WETLANDS,
+				},
+				["providers"] = {
+					{ "o", 180682 },	-- Oily Blackmouth School
+					-- #if AFTER 5.1.0
+					{ "o", 216761 },	-- Mixed Ocean School
+					-- #endif
+				},
+			}),
+			i(6291, {	-- Raw Brilliant Smallfish
+				["description"] = "Can be caught in inland waters and waterways.",
+				["maps"] = {
+					DUN_MOROGH,
+					ELWYNN_FOREST,
+					MULGORE,
+					TIRISFAL_GLADES,
+				},
+			}),
+			i(6308, {	-- Raw Bristle Whisker Catfish
+				["description"] = "Can be caught in inland waters and waterways.",
+				["maps"] = {
+					ASHENVALE,
+					DUSKWOOD,
+					REDRIDGE_MOUNTAINS,
+					STONETALON_MOUNTAINS,
+				},
+			}),
+			i(13754, {	-- Raw Glossy Mightfish
+				["description"] = "Can be caught on the seaside.",
+				["maps"] = {
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					AZSHARA,
+					FERALAS,
+					THE_HINTERLANDS,
+					-- #endif
+				},
+			}),
+			i(21153, {	-- Raw Greater Sagefish
+				["description"] = "Schools can be found in inland waters and waterways.",
+				["maps"] = {
+					-- #if BEFORE 4.0.3
+					ALTERAC_MOUNTAINS,
+					STRANGLETHORN_VALE,
+					-- #else
+					ARATHI_HIGHLANDS,
+					BLASTED_LANDS,
+					DESOLACE,
+					DUSTWALLOW_MARSH,
+					EASTERN_PLAGUELANDS,
+					FERALAS,
+					MOONGLADE,
+					STONETALON_MOUNTAINS,
+					THE_HINTERLANDS,
+					UNGORO_CRATER,
+					WESTERN_PLAGUELANDS,
+					-- #endif
+				},
+				["provider"] = { "o", 180683 },	-- Greater Sagefish School
+			}),
+			i(6317, {	-- Raw Loch Frenzy
+				["description"] = "Can be caught in The Loch.",
+				["maps"] = { LOCH_MODAN },
+			}),
+			i(6289, {	-- Raw Longjaw Mud Snapper
+				["description"] = "Can be caught in inland waters and waterways.",
+				["maps"] = {
+					DARNASSUS,
+					-- #if AFTER 4.0.3
+					DUN_MOROGH,
+					IRONFORGE,
+					-- #endif
+					ORGRIMMAR,
+					STORMWIND_CITY,
+					THUNDER_BLUFF,
+				},
+			}),
+			i(8365, {	-- Raw Mithril Head Trout
+				["description"] = "Can be caught in inland waters and waterways.",
+				["maps"] = {
+					-- #if BEFORE 4.0.3
+					ARATHI_HIGHLANDS,
+					THOUSAND_NEEDLES,
+					-- #else
+					DESOLACE,
+					DUSTWALLOW_MARSH,
+					EASTERN_PLAGUELANDS,
+					FERALAS,
+					MOONGLADE,
+					WESTERN_PLAGUELANDS,
+					-- #endif
+				},
+			}),
+			i(13759, {	-- Raw Nightfin Snapper
+				["description"] = "Can be caught in inland waters and waterways during night time: 18:00/6pm to 12:00/12pm server time.",
+				["maps"] = {
+					-- #if BEFORE 4.0.3
+					DEADWIND_PASS,
+					MOONGLADE,
+					WESTERN_PLAGUELANDS,
+					WINTERSPRING,
+					-- #else
+					BLASTED_LANDS,
+					-- #endif
+					EASTERN_PLAGUELANDS,
+					FELWOOD,
+					FERALAS,
+					UNGORO_CRATER,
+				},
+			}),
+			i(6361, {	-- Raw Rainbow Fin Albacore
+				["description"] = "Can be caught on the seaside.",
+				["maps"] = {
+					-- #if BEFORE 4.0.3
+					ASHENVALE,
+					HILLSBRAD_FOOTHILLS,
+					SILVERPINE_FOREST,
+					THE_BARRENS,
+					WESTFALL,
+					WETLANDS,
+					-- #else
+					RUINS_OF_GILNEAS,
+					-- #endif
+					-- #if AFTER TBC
+					BLOODMYST_ISLE,
+					GHOSTLANDS,
+					-- #endif
+					DARKSHORE,
+				},
+			}),
+			i(13758, {	-- Raw Redgill
+				["description"] = "Can be caught in inland waters and waterways.",
+				["maps"] = {
+					FELWOOD,
+					MOONGLADE,
+					-- #if BEFORE 4.0.3
+					UNGORO_CRATER,
+					WESTERN_PLAGUELANDS,
+					-- #endif
+				},
+			}),
+			i(6362, {	-- Raw Rockscale Cod
+				["description"] = "Can be caught on the seaside.",
+				["maps"] = {
+					-- #if BEFORE 4.0.3
+					DUSTWALLOW_MARSH,
+					SWAMP_OF_SORROWS,
+					-- #else
+					DESOLACE,
+					-- #endif
+				},
+			}),
+			i(21071, {	-- Raw Sagefish
+				["coords"] = {
+					-- #if BEFORE 4.0.3
+					{ 50.0, 40.0, STONETALON_MOUNTAINS },	-- Mirkfallon Lake
+					-- #endif
+				},
+				["description"] = "Schools can be found in inland waters and waterways.",
+				["maps"] = {
+					ASHENVALE,
+					HILLSBRAD_FOOTHILLS,
+					LOCH_MODAN,
+					SILVERPINE_FOREST,
+					-- #if AFTER 4.0.3
+					DUSKWOOD,
+					REDRIDGE_MOUNTAINS,
+					WETLANDS,
+					-- #endif
+				},
+				["providers"] = {
+					-- #if AFTER 5.1.0
+					{ "o", 216764 },	-- Sagefish School
+					-- #else
+					{ "o", 180663 },	-- Sagefish School
+					{ "o", 180656 },	-- Sagefish School
+					-- #endif
+				},
+			}),
+			i(6303, {	-- Raw Slitherskin Mackerel
+				["description"] = "Can be caught on the seaside.",
+				["maps"] = {
+					DUROTAR,
+					TELDRASSIL,
+					-- #if AFTER TBC
+					AZUREMYST_ISLE,
+					-- #endif
+				},
+			}),
+			i(4603, {	-- Raw Spotted Yellowtail
+				["description"] = "Can be caught on the seaside.",
+				["maps"] = {
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					SWAMP_OF_SORROWS,
+					THE_HINTERLANDS,
+					-- #else
+					BADLANDS,
+					-- #endif
+				},
+			}),
+			--i(13756),	-- Raw Summer Bass: Is properly sourced in 21 - Holidays/Seasonal Fish.lua.
+			i(13760, {	-- Raw Sunscale Salmon
+				["description"] = "Can be caught in inland waters and waterways during day time: 06:00/6am to 21:00/9pm server time.",
+				["coord"] = { 60.6, 71.7, SILITHUS },
+			}),
+			i(13889, {	-- Raw Whitescale Salmon
+				["description"] = "Can be caught in inland waters and waterways.",
+				["maps"] = {
+					-- #if BEFORE TBC
+					DEADWIND_PASS,
+					-- #endif
+					-- #if BEFORE 4.0.3
+					EASTERN_PLAGUELANDS,
+					-- #else
+					BLASTED_LANDS,
+					UNGORO_CRATER,
+					-- #endif
+					SILITHUS,
+					WINTERSPRING,
+				},
+			}),
+			i(13422, {	-- Stonescale Eel -- confirm
+				["description"] = "Schools can be found on the seaside.",
+				["maps"] = {
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					AZSHARA,
+					FERALAS,
+					THE_HINTERLANDS,
+					STRANGLETHORN_VALE,
+					-- #else
+					BLASTED_LANDS,
+					SWAMP_OF_SORROWS,
+					-- #endif
+				},
+				["provider"] = { "o", 180712 },	-- Stonescale Eel Swarm
+			}),
+			--i(13755),	-- Winter Squid: Is properly sourced in 21 - Holidays/Seasonal Fish.lua.
+			-- Fish schools:
+			o(180684, {	-- Firefin Snapper School
+				["description"] = "Can be found on the seaside.",
+				["maps"] = {
+					ARATHI_HIGHLANDS,
+					ASHENVALE,
+					AZSHARA,
+					BLASTED_LANDS,
+					DARKSHORE,
+					DESOLACE,
+					DUSTWALLOW_MARSH,
+					FERALAS,
+					HILLSBRAD_FOOTHILLS,
+					SILVERPINE_FOREST,
+					SWAMP_OF_SORROWS,
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					THE_BARRENS,
+					-- #else
+					NORTHERN_BARRENS,
+					SOUTHERN_BARRENS,
+					THOUSAND_NEEDLES,
+					-- #endif
+					THE_HINTERLANDS,
+					WESTFALL,
+					WETLANDS,
+				},
+				["nomerge"] = true,
+			}),
+			-- These Firefin Snapper school IDs needs to be confirmed in game.
+			o(180657),	-- Firefin Snapper School 2
+			o(180683),	-- Firefin Snapper School 3
+			o(180752),	-- Firefin Snapper School 4
+			o(180902),	-- Firefin Snapper School 5
+			o(180683, {	-- Greater Sagefish School
+				["description"] = "Can be found in inland waters and waterways.",
+				["maps"] = {
+					-- #if BEFORE 4.0.3
+					ALTERAC_MOUNTAINS,
+					STRANGLETHORN_VALE,
+					-- #else
+					ARATHI_HIGHLANDS,
+					BLASTED_LANDS,
+					DESOLACE,
+					DUSTWALLOW_MARSH,
+					EASTERN_PLAGUELANDS,
+					FERALAS,
+					MOONGLADE,
+					STONETALON_MOUNTAINS,
+					THE_HINTERLANDS,
+					UNGORO_CRATER,
+					WESTERN_PLAGUELANDS,
+					-- #endif
+				},
+			}),
+			o(216761, {	-- Mixed Ocean School
+				["maps"] = {
+					NORTHERN_STRANGLETHORN,
+					THE_CAPE_OF_STRANGLETHORN,
+				},
+				["timeline"] = { ADDED_5_1_0 },
+			}),
+			o(180682, {	-- Oily Blackmouth School
+				["description"] = "Can be found on the seaside.",
+				["maps"] = {
+					ARATHI_HIGHLANDS,
+					ASHENVALE,
+					AZSHARA,
+					BLASTED_LANDS,
+					DARKSHORE,
+					DESOLACE,
+					DUSTWALLOW_MARSH,
+					FERALAS,
+					HILLSBRAD_FOOTHILLS,
+					SILVERPINE_FOREST,
+					SWAMP_OF_SORROWS,
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					THE_BARRENS,
+					-- #else
+					NORTHERN_BARRENS,
+					SOUTHERN_BARRENS,
+					THOUSAND_NEEDLES,
+					-- #endif
+					THE_HINTERLANDS,
+					WESTFALL,
+					WETLANDS,
+				},
+			}),
+			-- The following pre-5.1.0 Sagefish school IDs needs to be confirmed in game.
+			o(180656, {	-- Sagefish School
+				["timeline"] = { REMOVED_5_1_0 },
+			}),
+			o(180663, {	-- Sagefish School
+				["timeline"] = { REMOVED_5_1_0 },
+			}),
+			o(216764, {	-- Sagefish School
+				["description"] = "Can be found in inland waters and waterways.",
+				["maps"] = {
+					ASHENVALE,
+					HILLSBRAD_FOOTHILLS,
+					LOCH_MODAN,
+					SILVERPINE_FOREST,
+					DUSKWOOD,
 					REDRIDGE_MOUNTAINS,
 					WETLANDS,
 				},
-				-- #if AFTER 10.0.0
-				["collectible"] = false,
-				-- #endif
+				["nomerge"] = true,
+				["timeline"] = { ADDED_5_1_0 },
 			}),
-		}),
-		i(13888, {	-- Darkclaw Lobster
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open sea water in Swamp of Sorrows and Blasted Lands.",
-			-- #endif
-		}),
-		i(6522),	-- Deviate Fish
-		i(6359),	-- Firefin Snapper
-		i(13893),	-- Large Raw Mightfish
-		i(6358),	-- Oily Blackmouth
-		i(6291, {	-- Raw Brilliant Smallfish
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in all low level zones around Azeroth.",
-			-- #endif
-		}),
-		i(6308, {	-- Raw Bristle Whisker Catfish
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in all intermediate level zones around Azeroth.",
-			-- #endif
-		}),
-		i(13754, {	-- Raw Glossy Mightfish
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open sea water in Tanaris.",
-			-- #endif
-		}),
-		i(21153, {	-- Raw Greater Sagefish
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in all high level vanilla zones around Azeroth.",
-			-- #endif
-		}),
-		i(6317, {	-- Raw Loch Frenzy
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in The Loch in Loch Modan.",
-			-- #endif
-		}),
-		i(6289, {	-- Raw Longjaw Mud Snapper
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in all low level zones around Azeroth.",
-			-- #endif
-		}),
-		i(8365, {	-- Raw Mithril Head Trout
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in Desolace, Dustwallow Marsh, Eastern Plaguelands, Feralas, Moonglade, and Western Plaguelands.",
-			-- #endif
-		}),
-		i(13759, {	-- Raw Nightfin Snapper
-			-- #if AFTER 9.0.1
-			["description"] = "Can be caught in open inland waters in Blasted Lands, Eastern Plaguelands, Feralas, and Moonglade.",
-			-- #elseif AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in Blasted Lands, Eastern Plaguelands, Feralas, and Moonglade. Can only be caught during night time: 18:00/6pm to 12:00/12pm server time.",
-			-- #endif
-		}),
-		i(6361, {	-- Raw Rainbow Fin Albacore
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open sea water in all low to intermediate level zones around Azeroth, except starting zones.",
-			-- #endif
-		}),
-		i(13758, {	-- Raw Redgill
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in all high level vanilla zones around Azeroth.",
-			-- #endif
-		}),
-		i(6362, {	-- Raw Rockscale Cod
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in all intermediate level zones around Azeroth.",
-			-- #endif
-		}),
-		i(21071, {	-- Raw Sagefish
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in all low to intermediate level zones around Azeroth, except starting zones.",
-			-- #endif
-		}),
-		i(6303, {	-- Raw Slitherskin Mackerel
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in any open waters in Azshara, Azuremyst Isle, Darkshore, Eversong Woods and Westfall.",
-			-- #endif
-		}),
-		i(4603, {	-- Raw Spotted Yellowtail
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open sea water in Azshara, Cape of Stranglethorn, Dustwallow Marsh and Tanaris.",
-			-- #endif
-		}),
-		--i(13756),	-- Raw Summer Bass
-		i(13760),	-- Raw Sunscale Salmon
-		i(13889, {	-- Raw Whitescale Salmon
-			-- #if AFTER 4.0.3
-			["description"] = "Can be caught in open inland waters in Blasted Lands, Un'Goro Crater and Winterspring.",
-			-- #endif
-		}),
-		i(5468),	-- Soft Frenzy Flesh
-		i(13422),	-- Stonescale Eel
-		--i(13755),	-- Winter Squid
-		filter(RECIPES, {
-			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
-				["description"] = "Can be fished from schools.",
-				["timeline"] = { ADDED_2_3_0 },
+			o(180658, {	-- School of Deviate Fish
+				["coords"] = {
+					-- #if AFTER 4.0.3
+					{ 56.0, 80.6, NORTHERN_BARRENS },	-- The Stagnant Oasis
+					{ 39.9, 74.9, NORTHERN_BARRENS },	-- Lushwater Oasis
+					{ 37.3, 45.9, NORTHERN_BARRENS },	-- The Forgotten Oasis
+					-- #else
+					{ 56.0, 43.0, THE_BARRENS },	-- The Stagnant Oasis
+					{ 46.0, 38.0, THE_BARRENS },	-- Lushwater Oasis
+					{ 45.0, 22.0, THE_BARRENS },	-- The Forgotten Oasis
+					-- #endif
+				},
 			}),
-		}),
+			o(180712, {	-- Stonescale Eel Swarm
+				["description"] = "Can be found on the seaside.",
+				["maps"] = {
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					AZSHARA,
+					FERALAS,
+					THE_HINTERLANDS,
+					STRANGLETHORN_VALE,
+					-- #else
+					BLASTED_LANDS,
+					SWAMP_OF_SORROWS,
+					-- #endif
+				},
+			}),
+			-- Wreckages:
+			o(180901, {	-- Bloodsail Wreckage
+				["description"] = "Wreckages can be found on the seaside, as well as inland waters near humanoid structures. If you cannot find any, fish out nearby fishing schools as they share spawns.",
+				["maps"] = {
+					-- #if AFTER 4.0.3
+					NORTHERN_STRANGLETHORN,
+					THE_CAPE_OF_STRANGLETHORN,
+					-- #else
+					STRANGLETHORN_VALE,
+					-- #endif
+				},
+			}),
+			o(180655, {	-- Floating Debris
+				["description"] = "Wreckages can be found on the seaside, as well as inland waters near humanoid structures. If you cannot find any, fish out nearby fishing schools as they share spawns.",
+				["maps"] = {
+					DARKSHORE,
+					DUSKWOOD,
+					REDRIDGE_MOUNTAINS,
+					SILVERPINE_FOREST,
+					WESTFALL,
+					-- #if BEFORE 4.0.3
+					THE_BARRENS,
+					-- #else
+					AZSHARA,
+					NORTHERN_BARRENS,
+					-- #endif
+				},
+				["nomerge"] = true,
+			}),
+			o(180751, {	-- Floating Wreckage
+				["description"] = "Wreckages can be found on the seaside, as well as inland waters near humanoid structures. If you cannot find any, fish out nearby fishing schools as they share spawns.",
+				["maps"] = {
+					BLASTED_LANDS,
+					EASTERN_PLAGUELANDS,
+					SWAMP_OF_SORROWS,
+					TANARIS,
+					-- #if AFTER 4.0.3
+					THOUSAND_NEEDLES,
+					-- #endif
+				},
+			}),
+			o(180662, {	-- Schooner Wreckage / Pre WotLK: Floating Wreckage
+				["description"] = "Wreckages can be found on the seaside, as well as inland waters near humanoid structures. If you cannot find any, fish out nearby fishing schools as they share spawns.",
+				["maps"] = {
+					ASHENVALE,
+					HILLSBRAD_FOOTHILLS,
+					STONETALON_MOUNTAINS,
+					WETLANDS,
+				},
+			}),
+			o(180685, {	-- Waterlogged Wreckage / Pre WotLK: Floating Wreckage
+				["description"] = "Wreckages can be found on the seaside, as well as inland waters near humanoid structures. If you cannot find any, fish out nearby fishing schools as they share spawns.",
+				["maps"] = {
+					TANARIS,
+					-- #if BEFORE 4.0.3
+					STRANGLETHORN_VALE,
+					-- #else
+					FERALAS,
+					WESTERN_PLAGUELANDS,
+					-- #endif
+				},
+			}),
+		},
 	}),
 	prof(HERBALISM, {
 		i(11020, bubbleDownSelf({ ["timeline"] = { REMOVED_4_0_3 } }, {	-- Evergreen Pouch
@@ -3542,163 +4176,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	}),
 	prof(TAILORING, {
 		n(ARMOR, {
-			i(10030),	-- Admiral's Hat
-			applyclassicphase(PHASE_THREE_RECIPES, i(19056)),	-- Argent Boots
-			applyclassicphase(PHASE_THREE_RECIPES, i(19059)),	-- Argent Shoulders
-			i(7060),	-- Azure Shoulders
-			i(7052),	-- Azure Silk Belt
-			i(7053),	-- Azure Silk Cloak
-			i(4319),	-- Azure Silk Gloves
-			i(7048),	-- Azure Silk Hood
-			i(7046),	-- Azure Silk Pants
-			i(4324),	-- Azure Silk Vest
-			i(2578),	-- Barbaric Linen Vest
-			applyclassicphase(PHASE_ONE_DIREMAUL, i(18405, {	-- Belt of the Archmage
-				["timeline"] = {
-					-- #if SEASON_OF_DISCOVERY
-					REMOVED_1_15_3,
-					-- #else
-					REMOVED_4_0_3, ADDED_8_1_5,
-					-- #endif
-				},
-			})),
 			i(206500, {["timeline"] = {ADDED_10_1_5}}),	-- Bindings of the Harvested Soul
-			i(10026),	-- Black Mageweave Boots
-			i(10003),	-- Black Mageweave Gloves
-			i(10024),	-- Black Mageweave Headband
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217247, {["timeline"] = {ADDED_1_15_1}})),	-- Black Mageweave Leggings
-			i(9999, {["timeline"] = {REMOVED_1_15_1}}),	-- Black Mageweave Leggings
-			-- #else
-			i(9999),	-- Black Mageweave Leggings
-			-- #endif
-			i(10001),	-- Black Mageweave Robe
-			i(10027),	-- Black Mageweave Shoulders
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217246, {["timeline"] = {ADDED_1_15_1}})),	-- Black Mageweave Vest
-			i(9998, {["timeline"] = {REMOVED_1_15_1}}),	-- Black Mageweave Vest
-			-- #else
-			i(9998),	-- Black Mageweave Vest
-			-- #endif
-			i(4336),	-- Black Swashbuckler's Shirt
-			i(203796, {["timeline"] = {ADDED_10_0_7}}),	-- Bloodlords Embrace
-			applyclassicphase(PHASE_FOUR, i(19684, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodvine Boots
-			applyclassicphase(PHASE_FOUR, i(19683, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodvine Leggings
-			applyclassicphase(PHASE_FOUR, i(19682, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodvine Vest
-			i(6242),	-- Blue Linen Robe
-			i(2577),	-- Blue Linen Shirt
-			i(6240),	-- Blue Linen Vest
-			i(6263),	-- Blue Overalls
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217253, {["timeline"] = {ADDED_1_15_1}})),	-- Boots of the Enchanter
-			i(4325, {["timeline"] = {REMOVED_1_15_1}}),	-- Boots of the Enchanter
-			-- #else
-			i(4325),	-- Boots of the Enchanter
-			-- #endif
-			i(4332),	-- Bright Yellow Shirt
-			i(14103),	-- Brightcloth Cloak
-			i(14101),	-- Brightcloth Gloves
-			i(14104),	-- Brightcloth Pants
-			i(14100),	-- Brightcloth Robe
-			i(4343),	-- Brown Linen Pants
-			i(6238),	-- Brown Linen Robe
-			i(4344),	-- Brown Linen Shirt
-			i(2568),	-- Brown Linen Vest
-			i(10044),	-- Cindercloth Boots
-			i(14044),	-- Cindercloth Cloak
-			i(14043, {["timeline"] = {REMOVED_4_0_3, ADDED_8_1_5}}),	-- Cindercloth Gloves
-			i(14045),	-- Cindercloth Pants
-			i(10042),	-- Cindercloth Robe
-			i(14042, {["timeline"] = {REMOVED_4_0_3, ADDED_8_1_5}}),	-- Cindercloth Vest
-			i(14134),	-- Cloak of Fire
-			applyclassicphase(PHASE_ONE_DIREMAUL, i(18413, {["timeline"] = {REMOVED_4_0_3, ADDED_8_1_5}})),	-- Cloak of Warding
-			i(10048),	-- Colorful Kilt
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217255, {["timeline"] = {ADDED_1_15_1}})),	-- Crimson Silk Belt
-			i(7055, {["timeline"] = {REMOVED_1_15_1}}),	-- Crimson Silk Belt
-			-- #else
-			i(7055),	-- Crimson Silk Belt
-			-- #endif
-			i(7056),	-- Crimson Silk Cloak
-			i(7064),	-- Crimson Silk Gloves
-			i(7062),	-- Crimson Silk Pantaloons
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217245, {["timeline"] = {ADDED_1_15_1}})),	-- Crimson Silk Robe
-			i(7063, {["timeline"] = {REMOVED_1_15_1}}),	-- Crimson Silk Robe
-			-- #else
-			i(7063),	-- Crimson Silk Robe
-			-- #endif
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217250, {["timeline"] = {ADDED_1_15_1}})),	-- Crimson Silk Shoulders
-			i(7059, {["timeline"] = {REMOVED_1_15_1}}),	-- Crimson Silk Shoulders
-			-- #else
-			i(7059),	-- Crimson Silk Shoulders
-			-- #endif
-			i(7058),	-- Crimson Silk Vest
-			i(4333),	-- Dark Silk Shirt
-			i(4314),	-- Double-stitched Woolen Shoulders
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(234484, {["timeline"] = {ADDED_1_15_5}})),	-- Dreamscale Bracers
-			applyclassicphase(SOD_PHASE_SIX, i(234485, {["timeline"] = {ADDED_1_15_5}})),	-- Dreamscale Mitts
-			-- #endif
-			i(10041),	-- Dreamweave Circlet
-			i(10019),	-- Dreamweave Gloves
-			i(10021),	-- Dreamweave Vest
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217248, {["timeline"] = {ADDED_1_15_1}})),	-- Earthen Silk Belt
-			i(7061, {["timeline"] = {REMOVED_1_15_1}}),	-- Earthen Silk Belt
-			-- #else
-			i(7061),	-- Earthen Silk Belt
-			-- #endif
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217256, {["timeline"] = {ADDED_1_15_1}})),	-- Earthen Vest
-			i(7051, {["timeline"] = {REMOVED_1_15_1}}),	-- Earthen Vest
-			-- #else
-			i(7051),	-- Earthen Vest
-			-- #endif
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_FOUR, i(228476, {["timeline"] = {ADDED_1_15_3}})),	-- Embroidered Belt of the Archmage
-			-- #endif
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217257, {["timeline"] = {ADDED_1_15_1}})),	-- Enchanter's Cowl
-			i(4322, {["timeline"] = {REMOVED_1_15_1}}),	-- Enchanter's Cowl
-			-- #else
-			i(4322),	-- Enchanter's Cowl
-			-- #endif
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_ONE, i(210795, {	-- Extraplanar Spidersilk Boots
-				["timeline"] = { ADDED_1_15_0 },
-				["requireSkill"] = TAILORING,
-			})),
-			-- #endif
-			i(14108),	-- Felcloth Boots
-			applyclassicphase(PHASE_ONE_DIREMAUL, i(18407, {["timeline"] = {REMOVED_4_0_3, ADDED_8_1_5}})),	-- Felcloth Gloves
-			i(14111),	-- Felcloth Hood
-			i(14107),	-- Felcloth Pants
-			i(14106),	-- Felcloth Robe
-			i(14112),	-- Felcloth Shoulders
-			i(151771, {["timeline"] = {ADDED_7_3_5}}),	-- Festival Dress
-			i(21154, {["timeline"] = {REMOVED_7_3_5}}),	-- Festival Dress
-			i(151772, {["timeline"] = {ADDED_7_3_5}}),	-- Festival Suit
-			i(21542, {["timeline"] = {REMOVED_7_3_5}}),	-- Festival Suit
-			i(16979),	-- Flarecore Gloves
-			i(16980),	-- Flarecore Mantle
-			applyclassicphase(PHASE_THREE_RECIPES, i(19165)),	-- Flarecore Leggings
-			applyclassicphase(PHASE_THREE_RECIPES, i(19156)),	-- Flarecore Robe
-			i(18263),	-- Flarecore Wraps
-			i(4334),	-- Formal White Shirt
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_THREE, i(220750, {["timeline"] = {ADDED_1_15_2}})),	-- Fractured Mind Pauldrons
-			-- #endif
-			i(13870),	-- Frostweave Gloves
-			i(13871),	-- Frostweave Pants
-			i(13868),	-- Frostweave Robe
-			i(13869),	-- Frostweave Tunic
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22660)),	-- Gaea's Embrace
-			i(14143),	-- Ghostweave Belt
-			i(14142),	-- Ghostweave Gloves
-			i(14144),	-- Ghostweave Pants
-			i(14141),	-- Ghostweave Vest
 			i(206429, {["timeline"] = {ADDED_10_1_5}}),	-- Glacial Chapeau
 			applyclassicphase(PHASE_SIX, i(22658, {["timeline"] = {REMOVED_3_0_2,ADDED_10_1_5}})),	-- Glacial Cloak
 			i(206428, {["timeline"] = {ADDED_10_1_5}}),	-- Glacial Epaulets
@@ -3708,267 +4186,29 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(206430, {["timeline"] = {ADDED_10_1_5}}),	-- Glacial Tether
 			applyclassicphase(PHASE_SIX, i(22652, {["timeline"] = {REMOVED_3_0_2,ADDED_10_1_5}})),	-- Glacial Vest
 			applyclassicphase(PHASE_SIX, i(22655, {["timeline"] = {REMOVED_3_0_2,ADDED_10_1_5}})),	-- Glacial Wrists
-			i(4318),	-- Gloves of Meditation
-			i(14146),	-- Gloves of Spell Mastery
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(215111, {["timeline"] = {ADDED_1_15_1}})),	-- Gneuro-Linked Arcano-Filament Monocle
-			-- #endif
-			i(2585),	-- Gray Woolen Robe
-			i(2587),	-- Gray Woolen Shirt
-			i(6264),	-- Greater Adept's Robe
-			i(17723),	-- Green Holiday Shirt
-			i(4308),	-- Green Linen Bracers
-			i(2579),	-- Green Linen Shirt
-			i(7065),	-- Green Silk Armor
-			i(7057),	-- Green Silken Shoulders
-			i(2582),	-- Green Woolen Vest
-			i(203820, {["timeline"] = {ADDED_10_0_7}}),	-- Gurubashi Headdress
-			i(203803, {["timeline"] = {ADDED_10_0_7}}),	-- Gurubashi Tigerhide Cloak
-			i(7047),	-- Hands of Darkness
-			i(4309),	-- Handstitched Linen Britches
-			i(4307),	-- Heavy Linen Gloves
-			i(4311),	-- Heavy Woolen Cloak
-			i(4310),	-- Heavy Woolen Gloves
-			i(4316),	-- Heavy Woolen Pants
-			i(4327),	-- Icy Cloak
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_FOUR, i(227863, {["timeline"] = {ADDED_1_15_3}})),	-- Incandescent Mooncloth Circlet
-			applyclassicphase(SOD_PHASE_FOUR, i(227864, {["timeline"] = {ADDED_1_15_3}})),	-- Incandescent Mooncloth Leggings
-			applyclassicphase(SOD_PHASE_FOUR, i(227861, {["timeline"] = {ADDED_1_15_3}})),	-- Incandescent Mooncloth Robe
-			applyclassicphase(SOD_PHASE_FOUR, i(227860, {["timeline"] = {ADDED_1_15_3}})),	-- Incandescent Mooncloth Vest
-			-- #endif
-			applyclassicphase(PHASE_ONE_DIREMAUL, i(18408, {["timeline"] = {REMOVED_4_0_3, ADDED_8_1_5}})),	-- Inferno Gloves
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_ONE, i(215366, {["timeline"] = {ADDED_1_15_0}})),	-- Invoker's Cord
-			applyclassicphase(SOD_PHASE_ONE, i(215365, {["timeline"] = {ADDED_1_15_0}})),	-- Invoker's Mantle
-			-- #endif
-			i(10054),	-- Lavender Mageweave Shirt
-			i(5766),	-- Lesser Wizard's Robe
-			i(7026),	-- Linen Belt
-			i(2569),	-- Linen Boots
-			i(2570),	-- Linen Cloak
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(217252, {["timeline"] = {ADDED_1_15_1}})),	-- Long Silken Cloak
-			i(4326, {["timeline"] = {REMOVED_1_15_1}}),	-- Long Silken Cloak
-			-- #else
-			i(4326),	-- Long Silken Cloak
-			-- #endif
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_THREE, i(220749, {["timeline"] = {ADDED_1_15_2}})),	-- Mantle of Insanity
-			-- #endif
-			applyclassicphase(PHASE_THREE_RECIPES, i(19050)),	-- Mantle of the Timbermaw
-			i(15802),	-- Mooncloth Boots
-			i(14140),	-- Mooncloth Circlet
-			applyclassicphase(PHASE_ONE_DIREMAUL, i(18409, {["timeline"] = {REMOVED_4_0_3, ADDED_8_1_5}})),	-- Mooncloth Gloves
-			i(14137, {	-- Mooncloth Leggings
-				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { REMOVED_1_15_3 },
-				-- #endif
-			}),
-			i(18486, {	-- Mooncloth Robe
-				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { REMOVED_1_15_3 },
-				-- #endif
-			}),
-			i(14139, {	-- Mooncloth Shoulders
-				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { REMOVED_1_15_3 },
-				-- #endif
-			}),
-			i(14138, {	-- Mooncloth Vest
-				-- #if SEASON_OF_DISCOVERY
-				["timeline"] = { REMOVED_1_15_3 },
-				-- #endif
-			}),
 			i(206507, {["timeline"] = {ADDED_10_1_5}}),	-- Necrotic Gown
-			i(10056),	-- Orange Mageweave Shirt
-			i(10052),	-- Orange Martial Shirt
-			i(5542),	-- Pearl-Clasped Cloak
 			i(206582, {["timeline"] = {ADDED_10_1_5}}),	-- Peculiar Glacial Mantle
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_ONE, i(210781, {["timeline"] = {ADDED_1_15_0}})),	-- Phoenix Bindings
-			-- #endif
-			i(4331),	-- Phoenix Gloves
-			i(4317),	-- Phoenix Pants
-			i(10055),	-- Pink Mageweave Shirt
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(233958, {["timeline"] = {ADDED_1_15_5}})), -- Qiraji Silk Cape
-			applyclassicphase(SOD_PHASE_SIX, i(233959, {["timeline"] = {ADDED_1_15_5}})), -- Qiraji Silk Cloak
-			applyclassicphase(SOD_PHASE_SIX, i(233960, {["timeline"] = {ADDED_1_15_5}})), -- Qiraji Silk Drape
-			applyclassicphase(SOD_PHASE_SIX, i(233956, {["timeline"] = {ADDED_1_15_5}})), -- Qiraji Silk Scarf
-			-- #endif
-			i(2572),	-- Red Linen Robe
-			i(2575),	-- Red Linen Shirt
-			i(6239),	-- Red Linen Vest
-			i(10018),	-- Red Mageweave Gloves
-			i(10033),	-- Red Mageweave Headband
-			i(10009),	-- Red Mageweave Pants
-			i(10029),	-- Red Mageweave Shoulders
-			i(10007),	-- Red Mageweave Vest
-			i(6796),	-- Red Swashbuckler's Shirt
-			i(4313),	-- Red Woolen Boots
-			i(2580),	-- Reinforced Linen Cape
-			i(4315),	-- Reinforced Woolen Shoulders
-			i(4335),	-- Rich Purple Silk Shirt
-			i(203800, {["timeline"] = {ADDED_10_0_7}}),	-- Ritualistic Legwarmers
-			i(7054, {	-- Robe of Power
-				["requireSkill"] = TAILORING,
-			}),
-			i(14152, {	-- Robe of the Archmage
-				-- #if BEFORE WRATH
-				["classes"] = { MAGE },
-				-- #endif
-				["requireSkill"] = TAILORING,
-			}),
-			i(14153, {	-- Robe of the Void
-				["timeline"] = { REMOVED_5_0_4, ADDED_10_1_5 },
-				-- #if BEFORE WRATH
-				["classes"] = { WARLOCK },
-				-- #endif
-				["requireSkill"] = TAILORING,
-			}),
-			i(14136, {["timeline"] = {REMOVED_4_0_3,ADDED_8_1_5}}),	-- Robe of Winter Night
-			i(5770, {["timeline"] = {REMOVED_4_0_3,ADDED_8_1_5}}),	-- Robes of Arcana
-			i(13856),	-- Runecloth Belt
-			i(13864),	-- Runecloth Boots
-			i(13860),	-- Runecloth Cloak
-			i(13863),	-- Runecloth Gloves
-			i(13866),	-- Runecloth Headband
-			i(13865),	-- Runecloth Pants
-			i(13858),	-- Runecloth Robe
-			i(13867),	-- Runecloth Shoulders
-			i(13857),	-- Runecloth Tunic
-			applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, i(20539)),	-- Runed Stygian Belt
-			applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, i(20537)),	-- Runed Stygian Boots
-			applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, i(20538)),	-- Runed Stygian Leggings
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_EIGHT, i(238267, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Cuffs
-			applyclassicphase(SOD_PHASE_EIGHT, i(238264, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Hood
-			applyclassicphase(SOD_PHASE_EIGHT, i(238270, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Leggings
-			applyclassicphase(SOD_PHASE_EIGHT, i(238265, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Mantle
-			applyclassicphase(SOD_PHASE_EIGHT, i(238268, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Mitts
-			applyclassicphase(SOD_PHASE_EIGHT, i(238271, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Soles
-			applyclassicphase(SOD_PHASE_EIGHT, i(238269, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Strap
-			applyclassicphase(SOD_PHASE_EIGHT, i(238266, {["timeline"] = {ADDED_1_15_7}})),	-- Scarlet Augur's Vestaments
-			-- #endif
-			i(4323),	-- Shadow Hood
-			i(10031),	-- Shadoweave Boots
-			i(10023),	-- Shadoweave Gloves
-			i(10025, {	-- Shadoweave Mask
-				-- #if AFTER 7.3.0
-				["description"] = "Required for the |cff3399ffLucid Nightmare|r riddle mount.",
-				-- #endif
-				["timeline"] = { REMOVED_4_0_3, ADDED_7_3_0 },
-			}),
-			i(10002),	-- Shadoweave Pants
-			i(10004),	-- Shadoweave Robe
-			i(10028),	-- Shadoweave Shoulders
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_THREE, i(220751, {["timeline"] = {ADDED_1_15_2}})),	-- Shoulderpads of the Deranged
-			-- #endif
 			i(206562, {["timeline"] = {ADDED_10_1_5}}),	-- Shroud of Forbidden Magic
-			i(7050),	-- Silk Headband
-			i(10053),	-- Simple Black Dress
-			i(6786),	-- Simple Dress
-			i(10047),	-- Simple Kilt
-			i(10046),	-- Simple Linen Boots
-			i(10045),	-- Simple Linen Pants
-			i(4312),	-- Soft-Soled Linen Boots
-			i(4328),	-- Spider Belt
-			i(4321),	-- Spider Silk Slippers
-			i(4320),	-- Spidersilk Boots
-			i(4329),	-- Star Belt
-			i(6384),	-- Stylish Blue Shirt
-			i(6385),	-- Stylish Green Shirt
-			i(4330),	-- Stylish Red Shirt
 			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(234315, {["timeline"] = {ADDED_1_15_5}})),	-- Sylvan Crown
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22757, {["timeline"] = {REMOVED_1_15_5}})),	-- Sylvan Crown
-			applyclassicphase(SOD_PHASE_SIX, i(234312, {["timeline"] = {ADDED_1_15_5}})),	-- Sylvan Shoulders
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22758, {["timeline"] = {REMOVED_1_15_5}})),	-- Sylvan Shoulders
-			applyclassicphase(SOD_PHASE_SIX, i(234317, {["timeline"] = {ADDED_1_15_5}})),	-- Sylvan Vest
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22756, {["timeline"] = {REMOVED_1_15_5}})),	-- Sylvan Vest
-			-- #else
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22757)),	-- Sylvan Crown
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22758)),	-- Sylvan Shoulders
-			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22756)),	-- Sylvan Vest
+			applyclassicphase(SOD_PHASE_SIX, i(233826, { ["timeline"] = { ADDED_1_15_5 }, })), -- Vampiric Cowl
+			applyclassicphase(SOD_PHASE_SIX, i(233837, { ["timeline"] = { ADDED_1_15_5 }, })), -- Vampiric Robe
+			applyclassicphase(SOD_PHASE_SIX, i(233833, { ["timeline"] = { ADDED_1_15_5 }, })), -- Vampiric Shawl
 			-- #endif
-			i(7049),	-- Truefaith Gloves
-			i(14154, {	-- Truefaith Vestments
-				["classes"] = { PRIEST },
-				["requireSkill"] = TAILORING,
-			}),
-			i(10036),	-- Tuxedo Jacket
-			i(10035),	-- Tuxedo Pants
-			i(10034),	-- Tuxedo Shirt
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(233826, {["timeline"] = {ADDED_1_15_5}})),	-- Vampiric Cowl
-			applyclassicphase(SOD_PHASE_SIX, i(233837, {["timeline"] = {ADDED_1_15_5}})),	-- Vampiric Robe
-			applyclassicphase(SOD_PHASE_SIX, i(233833, {["timeline"] = {ADDED_1_15_5}})),	-- Vampiric Shawl
-			-- #endif
-			i(10008),	-- White Bandit Mask
-			i(6241),	-- White Linen Robe
-			i(2576),	-- White Linen Shirt
-			i(6795),	-- White Swashbuckler's Shirt
-			i(10040),	-- White Wedding Dress
-			i(6787),	-- White Woolen Dress
-			applyclassicphase(PHASE_THREE_RECIPES, i(19047)),	-- Wisdom of the Timbermaw
-			i(14132),	-- Wizardweave Leggings
-			i(14128),	-- Wizardweave Robe
-			i(14130),	-- Wizardweave Turban
-			i(2583),	-- Woolen Boots
-			i(2584),	-- Woolen Cape
 		}),
-		filter(BAGS, {
-			i(5765, {["timeline"] = {REMOVED_4_0_3, ADDED_10_1_7}}), -- Black Silk Pack
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_FOUR, i(228994, {["timeline"] = {ADDED_1_15_3}})),	-- Bottomless Bag
-			i(14156, {["timeline"] = {REMOVED_1_15_3}}), -- Bottomless Bag
-			-- #else
-			i(14156), -- Bottomless Bag
-			-- #endif
-			i(21342), -- Core Felcloth Bag
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_EIGHT, i(239148, {["timeline"] = {ADDED_1_15_7}})),	-- Crimson Dawnwoven Bag
-			applyclassicphase(SOD_PHASE_EIGHT, i(239147, {["timeline"] = {ADDED_1_15_7}})),	-- Crusader's Knapsack
-			-- #endif
-			i(22246), -- Enchanted Mageweave Pouch
-			i(21341), -- Felcloth Bag
-			i(5764), -- Green Silk Pack
-			i(4241), -- Green Woolen Bag
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_FOUR, i(227844, {["timeline"] = {ADDED_1_15_3}})),	-- Leather-Reinforced Runecloth Bag
-			-- #endif
-			i(4238), -- Linen Bag
-			i(10050), -- Mageweave Bag
-			i(14155), -- Mooncloth Bag
-			i(5762), -- Red Linen Bag
-			i(10051), -- Red Mageweave Bag
-			i(5763), -- Red Woolen Bag
-			i(14046), -- Runecloth Bag
-			i(4245), -- Small Silk Pack
-			i(21340), -- Soul Pouch
-			i(4240), -- Woolen Bag
-			applyclassicphase(PHASE_FIVE_RECIPES, i(22249)), -- Big Bag of Enchantment
-			applyclassicphase(PHASE_FIVE, i(22251)), -- Cenarion Herb Bag
-			applyclassicphase(PHASE_FIVE_RECIPES, i(22248)), -- Enchanted Runecloth Bag
-			applyclassicphase(PHASE_FIVE, i(22252)), -- Satchel of Cenarius
-		}),
-		filter(MISC, {
-			applyclassicphase(PHASE_ONE_DIREMAUL, i(18258, {["timeline"] = {REMOVED_4_0_3, ADDED_10_1_5}})),	-- Gordok Ogre Suit
-		}),
-		filter(REAGENTS, {
+		category(230, {	-- Materials
 			i(2996),	-- Bolt of Linen Cloth
 			i(4339),	-- Bolt of Mageweave
 			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(234009, {["timeline"] = {ADDED_1_15_5}})), -- Bolt of Qiraji Silk
+			applyclassicphase(SOD_PHASE_SIX, i(234009, { ["timeline"] = { ADDED_1_15_5 }, })), -- Bolt of Qiraji Silk
 			-- #endif
 			i(14048),	-- Bolt of Runecloth
 			i(4305),	-- Bolt of Silk Cloth
 			i(2997),	-- Bolt of Woolen Cloth
-			i(206645, {["timeline"] = {ADDED_10_1_5}}),	-- Cursed Cloth
+			applyclassicphase(PHASE_ONE_DIREMAUL, i(18258)),	-- Gordok Ogre Suit
 			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_TWO, i(213379, {["timeline"] = {ADDED_1_15_1}})),	-- Hyperconductive Arcano-Filament
+			applyclassicphase(SOD_PHASE_TWO, i(213379, {	-- Hyperconductive Arcano-Filament
+				["timeline"] = { ADDED_1_15_1 },
+			})),
 			-- #endif
 			i(14342, {	-- Mooncloth
 				["description"] = "Coordinates are for select Moonwells around the world.",
@@ -3990,13 +4230,450 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 		}),
-		-- Check When doing TBC/WRATH
-		i(34087, {["timeline"] = {ADDED_2_3_0, REMOVED_7_3_5}}),	-- Green Winter Clothes
-		i(38277, {["timeline"] = {ADDED_2_4_2}}),	-- Haliscan Jacket
-		i(34085, {["timeline"] = {ADDED_2_3_0, REMOVED_7_3_5}}),	-- Red Winter Clothes
-		i(38278, {["timeline"] = {ADDED_2_4_2}}),	-- Haliscan Pantaloons
-		i(6836),	-- Dress Shoes
-		i(45626, {["timeline"] = { ADDED_3_1_0 }}),	-- Spidersilk Drape
+		category(233, {	-- Bags
+			applyclassicphase(PHASE_FIVE_RECIPES, i(22249)),	-- Big Bag of Enchantment
+			i(5765, {["timeline"] = {REMOVED_4_0_3, ADDED_10_1_7}}),	-- Black Silk Pack
+			i(14156),	-- Bottomless Bag
+			applyclassicphase(PHASE_FIVE, i(22251)),	-- Cenarion Herb Bag
+			i(21342),	-- Core Felcloth Bag
+			i(22246),	-- Enchanted Mageweave Pouch
+			applyclassicphase(PHASE_FIVE_RECIPES, i(22248)),	-- Enchanted Runecloth Bag
+			i(21341),	-- Felcloth Bag
+			i(5764),	-- Green Silk Pack
+			i(4241),	-- Green Woolen Bag
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_FOUR, i(227844, {	-- Leather-Reinforced Runecloth Bag
+				["timeline"] = { ADDED_1_15_3 },
+			})),
+			-- #endif
+			i(4238),	-- Linen Bag
+			i(10050),	-- Mageweave Bag
+			i(14155),	-- Mooncloth Bag
+			i(5762),	-- Red Linen Bag
+			i(10051),	-- Red Mageweave Bag
+			i(5763),	-- Red Woolen Bag
+			i(14046),	-- Runecloth Bag
+			applyclassicphase(PHASE_FIVE, i(22252)),	-- Satchel of Cenarius
+			i(4245),	-- Small Silk Pack
+			i(21340),	-- Soul Pouch
+			i(4240),	-- Woolen Bag
+		}),
+		category(234, {	-- Hats & Hoods
+			i(10030),	-- Admiral's Hat
+			i(7048),	-- Azure Silk Hood
+			i(10024),	-- Black Mageweave Headband
+			i(10041),	-- Dreamweave Circlet
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_TWO, i(217257, {	-- Enchanter's Cowl
+				["timeline"] = { ADDED_1_15_1 },
+			})),
+			-- #endif
+			i(4322, {	-- Enchanter's Cowl
+				-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_1 },
+				-- #endif
+			}),
+			i(14111),	-- Felcloth Hood
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_TWO, i(215111, {	-- Gneuro-Linked Arcano-Filament Monocle
+				["timeline"] = { ADDED_1_15_1 },
+			})),
+			-- #endif
+			i(203820, {["timeline"] = {ADDED_10_0_7}}),	-- Gurubashi Headdress
+			i(14140),	-- Mooncloth Circlet
+			i(10033),	-- Red Mageweave Headband
+			i(13866),	-- Runecloth Headband
+			i(4323),	-- Shadow Hood
+			i(10025, {	-- Shadoweave Mask
+				-- #if AFTER 7.3.0
+				["description"] = "Required for the |cff3399ffLucid Nightmare|r riddle mount.",
+				-- #endif
+				["timeline"] = { REMOVED_4_0_3, ADDED_7_3_0 },
+			}),
+			i(7050),	-- Silk Headband
+			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22757,	{	-- Sylvan Crown
+			-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+			-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234315, {	--	Sylvan Crown
+				["timeline"] = { ADDED_1_15_5 },
+			})),
+			-- #endif
+			i(10008),	-- White Bandit Mask
+			i(14130),	-- Wizardweave Turban
+		}),
+		category(235, {	-- Shoulders
+			applyclassicphase(PHASE_THREE_RECIPES, i(19059)),	-- Argent Shoulders
+			i(7060),	-- Azure Shoulders
+			i(10027),	-- Black Mageweave Shoulders
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_TWO, i(217250, {	-- Crimson Silk Shoulders
+				["timeline"] = { ADDED_1_15_1 },
+			})),
+			i(7059, {	-- Crimson Silk Shoulders
+				["timeline"] = { REMOVED_1_15_1 },
+			}),
+			-- #else
+			i(7059),	-- Crimson Silk Shoulders
+			-- #endif
+			i(4314),	-- Double-stitched Woolen Shoulders
+			i(14112),	-- Felcloth Shoulders
+			i(16980),	-- Flarecore Mantle
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_THREE, i(220750, {	-- Fractured Mind Pauldrons
+				["timeline"] = { ADDED_1_15_2 },
+			})),
+			-- #endif
+			i(7057),	-- Green Silken Shoulders
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_ONE, i(215365, {	-- Invoker's Mantle
+				["timeline"] = { ADDED_1_15_0 },
+			})),
+			applyclassicphase(SOD_PHASE_THREE, i(220749, {	-- Mantle of Insanity
+				["timeline"] = { ADDED_1_15_2 },
+			})),
+			-- #endif
+			applyclassicphase(PHASE_THREE_RECIPES, i(19050)),	-- Mantle of the Timbermaw
+			i(14139),	-- Mooncloth Shoulders
+			i(10029),	-- Red Mageweave Shoulders
+			i(4315),	-- Reinforced Woolen Shoulders
+			i(13867),	-- Runecloth Shoulders
+			i(10028),	-- Shadoweave Shoulders
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_THREE, i(220751, {	-- Shoulderpads of the Deranged
+				["timeline"] = { ADDED_1_15_2 },
+			})),
+			-- #endif
+			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22758, {	-- Sylvan Shoulders
+			-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+			-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234312, {	--	Sylvan Shoulders
+				["timeline"] = { ADDED_1_15_5 },
+			})),
+			-- #endif
+		}),
+		category(236, {	-- Robes & Tunics
+			i(4324),	-- Azure Silk Vest
+			i(2578),	-- Barbaric Linen Vest
+			i(10001),	-- Black Mageweave Robe
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_TWO, i(217246, {	-- Black Mageweave Vest
+				["timeline"] = { ADDED_1_15_1 },
+			})),
+			i(9998, {	-- Black Mageweave Vest
+				["timeline"] = { REMOVED_1_15_1 },
+			}),
+			-- #else
+			i(9998),	-- Black Mageweave Vest
+			-- #endif
+			applyclassicphase(PHASE_FOUR, i(19682, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodvine Vest
+			i(6242),	-- Blue Linen Robe
+			i(6240),	-- Blue Linen Vest
+			i(6263),	-- Blue Overalls
+			i(14100),	-- Brightcloth Robe
+			i(6238),	-- Brown Linen Robe
+			i(2568),	-- Brown Linen Vest
+			i(10042),	-- Cindercloth Robe
+			i(14042),	-- Cindercloth Vest
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_TWO, i(217245, {	-- Crimson Silk Robe
+				["timeline"] = { ADDED_1_15_1 },
+			})),
+			i(7063, {	-- Crimson Silk Robe
+				["timeline"] = { REMOVED_1_15_1 },
+			}),
+			-- #else
+			i(7063),	-- Crimson Silk Robe
+			-- #endif
+			i(7058),	-- Crimson Silk Vest
+			i(10021),	-- Dreamweave Vest
+			i(7051),	-- Earthen Vest
+			i(14106),	-- Felcloth Robe
+			i(21154, {	-- Festival Dress
+				["timeline"] = { REMOVED_7_3_5 },
+			}),
+			i(21542, {	-- Festival Suit
+				["timeline"] = { REMOVED_7_3_5 },
+			}),
+			i(19156),	-- Flarecore Robe
+			i(13868),	-- Frostweave Robe
+			i(13869),	-- Frostweave Tunic
+			i(14141),	-- Ghostweave Vest
+			i(2585),	-- Gray Woolen Robe
+			i(6264),	-- Greater Adept's Robe
+			i(7065),	-- Green Silk Armor
+			i(34087, {	-- Green Winter Clothes
+				["timeline"] = { ADDED_2_3_0, REMOVED_7_3_5 },
+			}),
+			i(2582),	-- Green Woolen Vest
+			i(38277, {	-- Haliscan Jacket
+				["timeline"] = { ADDED_2_4_2 },
+			}),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_FOUR, i(227861, {	-- Incandescent Mooncloth Robe
+				["timeline"] = { ADDED_1_15_3 },
+			})),
+			-- #endif
+			i(5766),	-- Lesser Wizard's Robe
+			i(18486, {	-- Mooncloth Robe
+				-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_3 },
+				-- #endif
+			}),
+			i(14138),	-- Mooncloth Vest
+			i(2572),	-- Red Linen Robe
+			i(6239),	-- Red Linen Vest
+			i(10007),	-- Red Mageweave Vest
+			i(34085, {	-- Red Winter Clothes
+				["timeline"] = { ADDED_2_3_0, REMOVED_7_3_5 },
+			}),
+			i(7054, {	-- Robe of Power
+				["requireSkill"] = TAILORING,
+			}),
+			i(14152, {	-- Robe of the Archmage
+				["requireSkill"] = TAILORING,
+			}),
+			i(14153, {	-- Robe of the Void
+				["timeline"] = { REMOVED_5_0_4, ADDED_10_1_5 },
+				-- #if BEFORE WRATH
+				["classes"] = { WARLOCK },
+				-- #endif
+				["requireSkill"] = TAILORING,
+			}),
+			i(14136, {	-- Robe of Winter Night
+				["timeline"] = { REMOVED_4_0_3, ADDED_8_1_5 },
+			}),
+			i(5770, {	-- Robes of Arcana
+				["timeline"] = { REMOVED_4_0_3, ADDED_8_1_5 },
+			}),
+			i(13858),	-- Runecloth Robe
+			i(13857),	-- Runecloth Tunic
+			i(10004),	-- Shadoweave Robe
+			i(10053),	-- Simple Black Dress
+			i(6786),	-- Simple Dress
+			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22756, {	-- Sylvan Vest
+			-- #if SEASON_OF_DISCOVERY
+				["timeline"] = { REMOVED_1_15_5 },
+			-- #endif
+			})),
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(234317, {	--	Sylvan Vest
+				["timeline"] = { ADDED_1_15_5 },
+			})),
+			-- #endif
+			i(14154, {	-- Truefaith Vestments
+				["requireSkill"] = TAILORING,
+			}),
+			i(10036),	-- Tuxedo Jacket
+			i(6241),	-- White Linen Robe
+			i(10040),	-- White Wedding Dress
+			i(6787),	-- White Woolen Dress
+			i(14128),	-- Wizardweave Robe
+		}),
+		category(237, {	-- Bracers
+			i(18263),	-- Flarecore Wraps
+			i(4308),	-- Green Linen Bracers
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_ONE, i(210781, {	-- Phoenix Bindings
+				["timeline"] = { ADDED_1_15_0 },
+			})),
+			-- #endif
+		}),
+		category(239, {	-- Gloves
+			i(4319),	-- Azure Silk Gloves
+			i(10003),	-- Black Mageweave Gloves
+			i(14101),	-- Brightcloth Gloves
+			i(14043),	-- Cindercloth Gloves
+			i(7064),	-- Crimson Silk Gloves
+			i(10019),	-- Dreamweave Gloves
+			applyclassicphase(PHASE_ONE_DIREMAUL, i(18407, {	-- Felcloth Gloves
+				["timeline"] = { REMOVED_4_0_3, ADDED_8_1_5 },
+			})),
+			i(16979),	-- Flarecore Gloves
+			i(13870),	-- Frostweave Gloves
+			i(14142),	-- Ghostweave Gloves
+			i(4318),	-- Gloves of Meditation
+			i(14146),	-- Gloves of Spell Mastery
+			i(7047),	-- Hands of Darkness
+			i(4307),	-- Heavy Linen Gloves
+			i(4310),	-- Heavy Woolen Gloves
+			applyclassicphase(PHASE_ONE_DIREMAUL, i(18408, {	-- Inferno Gloves
+				["timeline"] = { REMOVED_4_0_3, ADDED_8_1_5 },
+			})),
+			applyclassicphase(PHASE_ONE_DIREMAUL, i(18409, {	-- Mooncloth Gloves
+				["timeline"] = { REMOVED_4_0_3, ADDED_8_1_5 },
+			})),
+			i(4331),	-- Phoenix Gloves
+			i(10018),	-- Red Mageweave Gloves
+			i(13863),	-- Runecloth Gloves
+			i(10023),	-- Shadoweave Gloves
+			i(7049),	-- Truefaith Gloves
+		}),
+		category(238, {	-- Belts
+			i(7052),	-- Azure Silk Belt
+			applyclassicphase(PHASE_ONE_DIREMAUL, i(18405, {	-- Belt of the Archmage
+				["timeline"] = {
+					-- #if SEASON_OF_DISCOVERY
+					REMOVED_1_15_3,
+					-- #else
+					REMOVED_4_0_3, ADDED_8_1_5,
+					-- #endif
+				},
+			})),
+			i(7055),	-- Crimson Silk Belt
+			i(7061),	-- Earthen Silk Belt
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_FOUR, i(228476, {	-- Embroidered Belt of the Archmage
+				["timeline"] = { ADDED_1_15_3 },
+			})),
+			-- #endif
+			i(14143),	-- Ghostweave Belt
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_ONE, i(215366, {	-- Invoker's Cord
+				["timeline"] = { ADDED_1_15_0 },
+			})),
+			-- #endif
+			i(7026),	-- Linen Belt
+			i(13856),	-- Runecloth Belt
+			applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, i(20539)),	-- Runed Stygian Belt
+			i(4328),	-- Spider Belt
+			i(4329),	-- Star Belt
+			applyclassicphase(PHASE_THREE_RECIPES, i(19047)),	-- Wisdom of the Timbermaw
+		}),
+		category(240, {	-- Pants
+			i(7046),	-- Azure Silk Pants
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_TWO, i(217247, {	-- Black Mageweave Leggings
+				["timeline"] = { ADDED_1_15_1 },
+			})),
+			i(9999, {	-- Black Mageweave Leggings
+				["timeline"] = { REMOVED_1_15_1 },
+			}),
+			-- #else
+			i(9999),	-- Black Mageweave Leggings
+			-- #endif
+			applyclassicphase(PHASE_FOUR, i(19683, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodvine Leggings
+			i(14104),	-- Brightcloth Pants
+			i(4343),	-- Brown Linen Pants
+			i(14045),	-- Cindercloth Pants
+			i(10048),	-- Colorful Kilt
+			i(7062),	-- Crimson Silk Pantaloons
+			i(14107),	-- Felcloth Pants
+			i(19165),	-- Flarecore Leggings
+			i(13871),	-- Frostweave Pants
+			i(14144),	-- Ghostweave Pants
+			i(38278, {	-- Haliscan Pantaloons
+				["timeline"] = { ADDED_2_4_2 },
+			}),
+			i(4309),	-- Handstitched Linen Britches
+			i(4316),	-- Heavy Woolen Pants
+			i(14137),	-- Mooncloth Leggings
+			i(4317),	-- Phoenix Pants
+			i(10009),	-- Red Mageweave Pants
+			i(203800, {["timeline"] = {ADDED_10_0_7}}),	-- Ritualistic Legwarmers
+			i(13865),	-- Runecloth Pants
+			applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, i(20538)),	-- Runed Stygian Leggings
+			i(10002),	-- Shadoweave Pants
+			i(10047),	-- Simple Kilt
+			i(10045),	-- Simple Linen Pants
+			i(10035),	-- Tuxedo Pants
+			i(14132),	-- Wizardweave Leggings
+		}),
+		category(241, {	-- Boots
+			applyclassicphase(PHASE_THREE_RECIPES, i(19056)),	-- Argent Boots
+			i(10026),	-- Black Mageweave Boots
+			applyclassicphase(PHASE_FOUR, i(19684, {["timeline"] = {REMOVED_4_0_3, ADDED_10_0_7}})),	-- Bloodvine Boots
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_TWO, i(217253, {	-- Boots of the Enchanter
+				["timeline"] = { ADDED_1_15_1 },
+			})),
+			i(4325, {	-- Boots of the Enchanter
+				["timeline"] = { REMOVED_1_15_1 },
+			}),
+			-- #else
+			i(4325),	-- Boots of the Enchanter
+			-- #endif
+			i(10044),	-- Cindercloth Boots
+			i(6836),	-- Dress Shoes
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_ONE, i(210795, {	-- Extraplanar Spidersilk Boots
+				["timeline"] = { ADDED_1_15_0 },
+				["requireSkill"] = TAILORING,
+			})),
+			-- #endif
+			i(14108),	-- Felcloth Boots
+			i(2569),	-- Linen Boots
+			i(15802),	-- Mooncloth Boots
+			i(4313),	-- Red Woolen Boots
+			i(13864),	-- Runecloth Boots
+			applyclassicphase(PHASE_THREE_SILITHUS_EXPEDITION_QUESTS, i(20537)),	-- Runed Stygian Boots
+			i(10031),	-- Shadoweave Boots
+			i(10046),	-- Simple Linen Boots
+			i(4312),	-- Soft-Soled Linen Boots
+			i(4321),	-- Spider Silk Slippers
+			i(4320),	-- Spidersilk Boots
+			i(2583),	-- Woolen Boots
+		}),
+		category(242, {	-- Cloaks
+			i(7053),	-- Azure Silk Cloak
+			i(14103),	-- Brightcloth Cloak
+			i(203796, {["timeline"] = {ADDED_10_0_7}}),	-- Bloodlords Embrace
+			i(14044),	-- Cindercloth Cloak
+			i(14134),	-- Cloak of Fire
+			applyclassicphase(PHASE_ONE_DIREMAUL, i(18413, {	-- Cloak of Warding
+				["timeline"] = { REMOVED_4_0_3, ADDED_8_1_5 },
+			})),
+			i(7056),	-- Crimson Silk Cloak
+			applyclassicphase(PHASE_FIVE_CATCH_UP, i(22660)),	-- Gaea's Embrace
+			i(203803, {["timeline"] = {ADDED_10_0_7}}),	-- Gurubashi Tigerhide Cloak
+			i(4311),	-- Heavy Woolen Cloak
+			i(4327),	-- Icy Cloak
+			i(2570),	-- Linen Cloak
+			i(4326),	-- Long Silken Cloak
+			i(5542),	-- Pearl-Clasped Cloak
+			-- #if SEASON_OF_DISCOVERY
+			applyclassicphase(SOD_PHASE_SIX, i(233958, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Cape
+			applyclassicphase(SOD_PHASE_SIX, i(233959, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Cloak
+			applyclassicphase(SOD_PHASE_SIX, i(233960, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Drape
+			applyclassicphase(SOD_PHASE_SIX, i(233956, { ["timeline"] = { ADDED_1_15_5 }, })), -- Qiraji Silk Scarf
+			-- #endif
+			i(2580),	-- Reinforced Linen Cape
+			i(13860),	-- Runecloth Cloak
+			i(45626, {["timeline"] = { ADDED_3_1_0 }}),	-- Spidersilk Drape
+			i(2584),	-- Woolen Cape
+		}),
+		category(243, {	-- Shirts
+			i(4336),	-- Black Swashbuckler's Shirt
+			i(2577),	-- Blue Linen Shirt
+			i(4332),	-- Bright Yellow Shirt
+			i(4344),	-- Brown Linen Shirt
+			i(4333),	-- Dark Silk Shirt
+			i(4334),	-- Formal White Shirt
+			i(2587),	-- Gray Woolen Shirt
+			i(17723),	-- Green Holiday Shirt
+			i(2579),	-- Green Linen Shirt
+			i(10054),	-- Lavender Mageweave Shirt
+			i(10056),	-- Orange Mageweave Shirt
+			i(10052),	-- Orange Martial Shirt
+			i(10055),	-- Pink Mageweave Shirt
+			i(2575),	-- Red Linen Shirt
+			i(6796),	-- Red Swashbuckler's Shirt
+			i(4335),	-- Rich Purple Silk Shirt
+			i(6384),	-- Stylish Blue Shirt
+			i(6385),	-- Stylish Green Shirt
+			i(4330),	-- Stylish Red Shirt
+			i(10034),	-- Tuxedo Shirt
+			i(2576),	-- White Linen Shirt
+			i(6795),	-- White Swashbuckler's Shirt
+		}),
+		filter(MISC, {
+			i(206645, {["timeline"] = {ADDED_10_1_5}}),	-- Cursed Cloth
+		}),
 	}),
 	-- Non-crafted reagents from vendors for professions:
 	filter(REAGENTS, {
@@ -4061,6 +4738,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				i(6217),	-- Copper Rod
 				i(4470),	-- Simple Wood
 				i(11291),	-- Star Wood
+			}),
+			-- Engineering reagents from vendors
+			sharedData({
+				["description"] = "Can be bought from Engineering Suppliers, as well as some Trade vendors around the world.",
+			},{
+				i(4400),	-- Heavy Stock
+				i(4399),	-- Wooden Stock
 			})
 		),
 	}),
