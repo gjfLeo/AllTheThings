@@ -11,7 +11,7 @@ LOREWALKING = createHeader({
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 	n(LOREWALKING, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 } }, {
-		["cr"] = 231891,	-- Lorewalker Cho
+		["cr"] = 230246,	-- Lorewalker Cho
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(42188),	-- Lorewalking: Blade's Bane
@@ -35,8 +35,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["provider"] = { "n", 232441 },	-- Lorewalker Cho
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
-							--{, ORGRIMMAR
-							{ 64.2, 16.3, STORMWIND_CITY },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
 						},
 						-- Alex: when I picked up this quest - it flag 40706 & 42074 as completed
 						["g"] = {
@@ -56,8 +56,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["provider"] = { "n", 231891 },	-- Lorewalker Cho
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
-							--{, ORGRIMMAR
-							{ 64.2, 16.3, STORMWIND_CITY },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
 						},
 					}),
 					q(85871, {	-- Lorewalking: The Blade's Forces
@@ -89,8 +89,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["provider"] = { "n", 232441 },	-- Lorewalker Cho
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
-							--{, ORGRIMMAR
-							{ 64.2, 16.3, STORMWIND_CITY },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
 						},
 					}),
 					q(85029, {	-- Lorewalking: Locus-Walker
@@ -108,8 +108,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["provider"] = { "n", 234111 },	-- Om'rajula
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
-							--{, ORGRIMMAR
-							{ 64.2, 16.3, STORMWIND_CITY },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
 						},
 						["g"] = {
 							i(231831),	-- Ve'nari's Parcel (QI!)
@@ -131,8 +131,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["provider"] = { "n", 230246 },	-- Lorewalker Cho
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
-							--{, ORGRIMMAR
-							{ 64.2, 16.3, STORMWIND_CITY },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
 						},
 					}),
 					q(85862, {	-- A Prince's Duty
@@ -145,8 +145,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 						["provider"] = { "n", 236114 },	-- Lorewalker Cho
 						["coords"] = {
 							{ 49.5, 31.6, DORNOGAL },
-							--{, ORGRIMMAR
-							{ 64.2, 16.3, STORMWIND_CITY },
+							{ 54.5, 57.2, ORGRIMMAR },
+							{ 64.2, 16.1, STORMWIND_CITY },
 						},
 						["g"] = {
 							i(245631),	-- Royal Visage (TOY!)

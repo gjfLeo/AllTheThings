@@ -48,7 +48,6 @@ root(ROOTS.Unsorted, {
 				i(239058),	-- Gaping Maw Shoulderguard
 				i(239059),	-- Lockjaw Shoulderplate
 				i(239068),	-- Spymaster's Wrap
-				i(239069),	-- Soulspun Casque
 				i(239070),	-- Mantle of Fastidious Machinations
 				i(239071),	-- Secret Spinner's Miter
 				i(239072),	-- Loa Betrayer's Vestments

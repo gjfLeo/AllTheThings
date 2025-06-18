@@ -7252,6 +7252,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2030, {	-- Yazma
 				["crs"] = { 122968 },	-- Yazma
 				["g"] = {
+					i(239069),	-- Soulspun Casque
 				},
 			}),
 		}),
