@@ -386,6 +386,15 @@ local function default_costCollectibles(t)
 		id = t.itemID;
 		results = GetRawField("itemIDAsCost", id);
 	end
+	-- Spells on Items can also be a Cost for Things
+	local spellID = t.spellID
+	if spellID then
+		local spellResults = GetRawField("spellIDAsCost", spellID)
+		if spellResults and #spellResults > 0 then
+			-- app.PrintDebug("Found spell costs on item",#spellResults,spellID,app:SearchLink(spellResults[1]),app:SearchLink(t))
+			results = app.ArrayAppend({}, results, spellResults)
+		end
+	end
 	if results and #results > 0 then
 		-- not sure we need to copy these into another table
 		-- app.PrintDebug("default_costCollectibles",id,#results,app:SearchLink(t))
