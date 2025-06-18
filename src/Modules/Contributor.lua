@@ -129,7 +129,7 @@ local MapPrecisionOverrides = {
 	[1699] = 3,	-- Sinfall
 	[1700] = 3,	-- Sinfall
 	[1701] = 2,	-- The Trunk
-	[1701] = 2,	-- The Roots
+	[1702] = 2,	-- The Roots
 	[1912] = 10,	-- The Runecarver's Oubliette
 	[2328] = 3,	-- The Proscenium
 }

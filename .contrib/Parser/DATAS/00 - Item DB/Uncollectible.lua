@@ -303,10 +303,12 @@ i(123865);	-- Relic of Ursol
 -----------------
 -- PATCH 8.0.1 --
 -----------------
+i(158862);	-- Ancient Grave Dust
 i(158210);	-- Fearsome Claw
 i(155603);	-- Flaky Fish Scales
 i(158874);	-- Frothing Vapor
 i(158859);	-- Jagged Fang
+i(159140);	-- Lifeless Clay
 i(158778);	-- Mucose Tendril
 i(155615);	-- Pestilent Muck
 i(155598);	-- Severed Mandible

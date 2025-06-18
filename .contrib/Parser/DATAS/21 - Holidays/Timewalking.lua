@@ -7242,6 +7242,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2036, {	-- Vol'kaal
 				["crs"] = { 122965 },	-- Vol'kaal
 				["g"] = {
+					i(158375),	-- Drape of the Loyal Vassal
 				},
 			}),
 			e(2083, {	-- Rezan
@@ -7252,6 +7253,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2030, {	-- Yazma
 				["crs"] = { 122968 },	-- Yazma
 				["g"] = {
+					i(239070),	-- Mantle of Fastidious Machinations
 					i(239069),	-- Soulspun Casque
 				},
 			}),
@@ -7287,6 +7289,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2095,	{	-- Harlan Sweete
 				["crs"] = { 126983 },	-- Harlan Sweete
 				["g"] = {
+					i(239055),	-- Irontide Captain's Hat
+					i(239052),	-- Sea-Brawler's Greathelm
 				},
 			}),
 		}),
@@ -7313,6 +7317,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2172, {	-- Dazar, The First King
 				["crs"] = { 136160 },	-- King Dazar <The First>
 				["g"] = {
+					i(239046),	-- Loa-Blessed Chestguard
+					i(239051),	-- Pauldrons of the Great Unifier
 				},
 			}),
 		}),
@@ -7345,6 +7351,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134069,	-- Vol'zith the Whisperer
 				},
 				["g"] = {
+					i(239040),	-- Cowl of Fluid Machinations
+					i(239044),	-- Helm of Abyssal Malevolence
 				},
 			}),
 		}),
@@ -7362,6 +7370,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					133384,	-- Merektha
 				},
 				["g"] = {
+					i(159375),	-- Legguards of the Awakening Brood
 				},
 			}),
 			e(2144, {	-- Galvazzt
@@ -7374,6 +7383,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2145, {	-- Avatar of Sethraliss
 				["crs"] = { 133392 },	-- Avatar of Sethraliss
 				["g"] = {
+					i(239037),	-- C'thraxxi Binders Pauldrons
+					i(239034),	-- Corrupted Hexxer's Vestments
+					i(239036),	-- Desert Guardian's Breastplate
 				},
 			}),
 		}),

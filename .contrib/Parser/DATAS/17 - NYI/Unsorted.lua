@@ -21,34 +21,24 @@ root(ROOTS.Unsorted, {
 				i(239031),	-- Brood Cleanser's Amice
 				i(239032),	-- Robes of the Reborn Serpent
 				i(239033),	-- Hood of the Slithering Loa
-				i(239034),	-- Corrupted Hexxer's Vestments
 				i(239035),	-- Sethraliss' Fanged Helm
-				i(239036),	-- Desert Guardian's Breastplate
-				i(239037),	-- C'thraxxi Binders Pauldrons
 				i(239038),	-- Mantle of Void-Touched Waters
 				i(239039),	-- Stormlurker's Cowl
-				i(239040),	-- Cowl of Fluid Machinations
 				i(239041),	-- Tentacle-Laced Spaulders
 				i(239042),	-- Hauberk of Sunken Despair
 				i(239043),	-- Chestguard of the Deep Denizen
-				i(239044),	-- Helm of Abyssal Malevolence
 				i(239045),	-- Mantle of Ceremonial Ascension
-				i(239046),	-- Loa-Blessed Chestguard
 				i(239047),	-- Headdress of the First Empire
 				i(239048),	-- Vest of Reverent Adoration
 				i(239049),	-- Spaulders of Prime Emperor
 				i(239050),	-- Helm of the Raptor King
-				i(239051),	-- Pauldrons of the Great Unifier
-				i(239052),	-- Sea-Brawler's Greathelm
 				i(239053),	-- Smartly Plumed Cap
 				i(239054),	-- Sweete's Jeweled Headgear
-				i(239055),	-- Irontide Captain's Hat
 				i(239056),	-- Ruffled Poet Blouse
 				i(239057),	-- Gold-Tasseled Epaulets
 				i(239058),	-- Gaping Maw Shoulderguard
 				i(239059),	-- Lockjaw Shoulderplate
 				i(239068),	-- Spymaster's Wrap
-				i(239070),	-- Mantle of Fastidious Machinations
 				i(239071),	-- Secret Spinner's Miter
 				i(239072),	-- Loa Betrayer's Vestments
 				i(239073),	-- Coif of the Court Spider
@@ -2022,7 +2012,6 @@ root(ROOTS.Unsorted, {
 				i(158857),	-- Untainted Wicker \\ PH Flavor - Porcupine
 				i(158860),	-- Grindstone Molar \\ PH Flavor - Dreadhound
 				i(158861),	-- Tensile Eye Stalk \\ PH Flavor - Troll Male - Blood Troll
-				i(158862),	-- Ancient Grave Dust \\ PH Flavor - Troll Zombie
 				i(158863),	-- Chitinous Exoskeleton \\ PH Flavor - Troll Lich
 				i(158864),	-- Viscous Webbing \\ PH Flavor - Trogg
 				i(158865),	-- Ghastly Ooze \\ PH Flavor - Human Skeleton
@@ -2092,7 +2081,6 @@ root(ROOTS.Unsorted, {
 				i(163919),	-- String of Broken Tusks
 				i(163920),	-- Bracelet of Teeth
 				i(163921),	-- Tiny Wicker Effigy
-				i(159140),	-- Lifeless Clay
 				i(163842),	-- Inert Hearthstone
 				i(163843),	-- Shredded Horde Emblem
 				i(163844),	-- Shredded Alliance Emblem
