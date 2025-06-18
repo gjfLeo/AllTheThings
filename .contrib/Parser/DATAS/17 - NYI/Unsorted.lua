@@ -3760,33 +3760,20 @@ root(ROOTS.Unsorted, {
 				i(151034),	-- Ancient I.O.U.
 				i(151035),	-- Soggy Voodoo Doll
 				i(151038),	-- Alabaster Figurine
-				i(152099),	-- Shriveled Onion
 				i(152867),	-- Hefty Mudfish
-				i(153566),	-- "Shiny" Rock
-				i(153567),	-- "Smooth" Rock
-				i(153568),	-- "Fly" Rock
-				i(153569),	-- "Hard" Rock
-				i(153570),	-- "Magic" Rock
 				i(155595),	-- PH Flavor - Unused \\ Vicious Spike
 				i(155596),	-- PH Flavor - Unused \\ Ivory Tusk
 				i(155597),	-- PH Flavor - Unused \\ Dire Horn
 				i(155599),	-- PH Flavor - Unused \\ Vibrant Feather
-				i(155600),	-- How to Make Money and Influence Subordinates \\ PH Flavor - Unused \\ Trophy Antlers
 				i(155602),	-- PH Flavor - Unused \\ Tarnished Pelt
 				i(155604),	-- PH Flavor - Unused \\ Diamond Flake
-				i(155605),	-- Huge Femur \\ Bloodgorged Sac
 				i(155606),	-- PH Flavor - Unused \\ Intricate Ossicles
-				i(155607),	-- D.E.H.T.A. Membership Card \\ PH Flavor - Unused \\ Runic Bone
-				i(155609),	-- Springy Eyeball \\ Sawtooth Jawbone
 				i(155611),	-- PH Flavor - Unused \\ Lustruous Black Feather
 				i(155612),	-- PH Flavor - Unused \\ Unblighted Wicker
 				i(155613),	-- PH Flavor - Unused \\ Frothing Vapor
 				i(155614),	-- PH Flavor - Unused \\ Resonant Powder
 				i(155616),	-- PH Flavor - Unused \\ Lifeless Clay
-				i(155617),	-- Slime Spore \\ Gill Membrane \\ Corrupt Anima
-				i(155618),	-- Discarded Molting \\ Oily Blubber
 				i(155619),	-- PH Flavor - Unused \\ Chitin Shell
-				i(155620),	-- Singed Sprig of Teldrassil \\ PH Flavor - Unused \\ Runed Stone Shard
 				i(155621),	-- PH Flavor - Unused \\ Runed Ice Shard
 				i(155623),	-- PH Flavor - Unused \\ Ghastly Ichor
 				i(155624),	-- PH Flavor - Unused \\ Disquiet Earth
@@ -3796,7 +3783,7 @@ root(ROOTS.Unsorted, {
 				i(155628),	-- PH Flavor - Unused \\ Cracked Mask
 				i(155630),	-- PH Flavor - Unused \\ Trueflight Fletching
 				i(155632),	-- PH Flavor - Unused \\ Viscous Webbing
-				i(155633),	-- Matted Felt \\ Intact Frog Tongue
+				i(155633),	-- Matted Felt
 				i(155634),	-- PH Flavor - Unused \\ Sleek Quills
 				i(155637),	-- PH Flavor - Unused \\ Shattered Bindings
 				i(155638),	-- PH Flavor - Unused \\ Jar of Truffles
@@ -3809,63 +3796,32 @@ root(ROOTS.Unsorted, {
 				i(155645),	-- PH Flavor - Unused \\ Flaky Scales
 				i(155646),	-- PH Flavor - Unused \\ Sinewy Wing
 				i(155647),	-- PH Flavor - Unused \\ Grim Skull Fetish
-				i(155649),	-- Broken Zandalari Spear
-				i(155841),	-- Defaced Statuette
-				i(155842),	-- "Preserved" Foodstuffs
-				i(155843),	-- Brittle Ceremonial Necklace
-				i(155844),	-- Unreliable Lodestone
 				i(155902),	-- Inert Stone
 				i(158737),	-- PH Flavor - Unused \\ PH Flavor - Wicker Golem / Wicker Man - Drust
 				i(158738),	-- PH Flavor - Unused \\ PH Flavor - Tiki Mask - Zandalari
 				i(158739),	-- PH Flavor - Unused \\ PH Flavor - Brutosaur - Dinosaur
-				i(158740),	-- Pearly Incisor \\ PH Flavor - Makrura
 				i(158741),	-- PH Flavor - Unused \\ PH Flavor - Bloodfeaster - Insect
 				i(158742),	-- PH Flavor - Unused \\ PH Flavor - Lion Seal
-				i(158743),	-- Conductive Antennae \\ PH Flavor - Dire Troll Male - Blood Troll
-				i(158744),	-- Spectral Veil \\ PH Flavor - Rat - Vermin
-				i(158745),	-- Luminous Scale \\ PH Flavor - Siren
-				i(158747),	-- Thorny Prickle \\ PH Flavor - Troll - Zandalari
 				i(158748),	-- PH Pet Reward \\ PH Flavor - Faceless
-				i(158749),	-- Intricate Ossicles \\ PH Flavor - Construct - Drust
-				i(158750),	-- Bonebreaker Beak \\ PH Flavor - Troll Specter
-				i(158751),	-- Matted Pelt \\ PH Flavor - Zandalari Golem - Zandalari
-				i(158752),	-- Severed Foot \\ PH Flavor - Lasher - Plant
 				i(158753),	-- PH Flavor - Unused \\ PH Flavor - Leviathan / Merciless One / Tentacle
-				i(158754),	-- Trueflight Fletching \\ PH Flavor - Pterrordax - Dinosaur
 				i(158755),	-- PH Flavor - Unused \\ PH Flavor - Devilsaur - Dinosaur
-				i(158756),	-- Rotary Gasket \\ PH Flavor - Shale Spider
-				i(158757),	-- Disquiet Earth \\ PH Flavor - Ashvane Co
-				i(158758),	-- Royal Jelly \\ PH Flavor - Scorpion - Insect
-				i(158759),	-- Bloodgorged Sac \\ PH Flavor - Naga Female
-				i(158760),	-- Fin Ray \\ PH Flavor - Raptor Skeleton
 				i(158761),	-- PH Flavor - Unused \\ PH Flavor - Tiger
 				i(158762),	-- PH Flavor - Unused \\ PH Flavor - Direhorn - Dinosaur
 				i(158763),	-- PH Flavor - Unused \\ PH Flavor - Crab
 				i(158764),	-- PH Flavor - Unused \\ PH Flavor - Flesh Beast - Void
-				i(158765),	-- Hardshell Mollusk \\ PH Flavor - Fire Elemental
 				i(158766),	-- PH Flavor - Unused \\ PH Flavor - Diemetradon - Dinosaur
 				i(158767),	-- PH Flavor - Unused \\ PH Flavor - Gorilla
 				i(158768),	-- PH Flavor - Unused \\ PH Flavor - Carrion Bird - Bird
-				i(158769),	-- Monkey's Paw \\ PH Flavor - Turtle
-				i(158770),	-- Gelatinous Roe \\ PH Flavor - Gold Elemental
+				i(158769),	-- Monkey's Paw
 				i(158772),	-- PH Flavor - Unused \\ PH Flavor - Slime / Spore
 				i(158774),	-- PH Flavor - Unused \\ PH Flavor - Kraken
-				i(158775),	-- Thick Hivewax \\ PH Flavor - Unused
 				i(158776),	-- PH Flavor - Unused \\ PH Flavor - Hydra - Reptile
-				i(158777),	-- Glimmering Ember \\ PH Flavor - Gilblin
-				i(158779),	-- Robust Horn \\ PH Flavor - Shark - Fish
 				i(158780),	-- PH Flavor - Unused \\ PH Flavor - Hornet / Wasp - Insect
-				i(158781),	-- Pilfered Curio \\ PH Flavor - Threshadon - Dinosaur
-				i(158783),	-- Silken White Feather \\ PH Flavor - Saurid - Dinosaur
 				i(158784),	-- PH Flavor - Unused \\ PH Flavor - Bat
 				i(158785),	-- PH Flavor - Unused \\ PH Flavor - Albatross / Sea Gull - Bird
 				i(158786),	-- PH Flavor - Unused \\ PH Flavor - Slime - Blood Troll
 				i(158787),	-- PH Flavor - Unused \\ PH Flavor - Air Elemental
-				i(158788),	-- Sleek Quill \\ PH Flavor - Riverbeast
-				i(158789),	-- Webbed Frill \\ PH Flavor - Penguin - Bird
-				i(158790),	-- Charnel Ash \\ PH Flavor - Humanoid - Non-Faction
 				i(158791),	-- PH Flavor - Unused \\ PH Flavor - Crawg - Blood Troll
-				i(158792),	-- Digestive Acid \\ PH Flavor - Crone / Witch / Cultirst - Drust
 				i(158793),	-- PH Flavor - Unused \\ PH Flavor - Frog
 				i(158794),	-- Ivory Tusk \\ PH Flavor - Yeti
 				i(158795),	-- Glittering Chill \\ PH Flavor - Ghost
@@ -3910,7 +3866,6 @@ root(ROOTS.Unsorted, {
 				i(158836),	-- Barbed Stinger \\ PH Flavor - Pirate
 				i(158837),	-- PH Flavor - Unused \\ PH Flavor - Hyena
 				i(158838),	-- Fibrous Sludge \\ Fibrous Void \\ PH Flavor - Alliance
-				i(158839),	-- Thick Crab Claw \\ PH Flavor - Water Elemental
 				i(158840),	-- Prehensile Tongue \\ PH Flavor - Stag / Shoveltusk
 				i(158842),	-- Nibbled Crystal \\ PH Flavor - Thunder Lizard - Reptile
 				i(158843),	-- PH Flavor - Unused \\ PH Flavor - Bee - Insect

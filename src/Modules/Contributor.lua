@@ -473,6 +473,7 @@ MobileDB.GameObject = {
 	[182053] = true,	-- Glowcap
 	[184125] = true,	-- Main Chambers Access Panel
 	[184126] = true,	-- Main Chambers Access Panel
+	[184383] = true,	-- Ethereum Transponder Zeta
 	[186903] = true,	-- Pirate Booty (q:25054)
 	[192818] = true,	-- Infused Mushroom (q:13100, 13112)
 	[192828] = true,	-- Crystalsong Carrot (q:13114)

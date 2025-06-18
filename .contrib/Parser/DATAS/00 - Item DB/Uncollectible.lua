@@ -303,42 +303,87 @@ i(123865);	-- Relic of Ursol
 -----------------
 -- PATCH 8.0.1 --
 -----------------
+i(153568);	-- "Fly" Rock
+i(153569);	-- "Hard" Rock
+i(153570);	-- "Magic" Rock
+i(155842);	-- "Preserved" Foodstuffs
+i(153566);	-- "Shiny" Rock
+i(153567);	-- "Smooth" Rock
 i(158862);	-- Ancient Grave Dust
 i(162675);	-- Ashvane Ledger
+i(158759);	-- Bloodgorged Sac
+i(158750);	-- Bonebreaker Beak
+i(155843);	-- Brittle Ceremonial Necklace
+i(158790);	-- Charnel Ash
 i(158863);	-- Chitinous Exoskeleton
+i(158743);	-- Conductive Antennae
+i(155607);	-- D.E.H.T.A. Membership Card
+i(155841);	-- Defaced Statuette
 i(155608);	-- Defiled Bone
 i(159756);	-- Depleted Azerite
+i(158792);	-- Digestive Acid
+i(155618);	-- Discarded Molting
+i(158757);	-- Disquiet Earth
 i(162978);	-- Blood Magic Ritual Dish
+i(155649);	-- Broken Zandalari Spear
 i(158210);	-- Fearsome Claw
+i(158760);	-- Fin Ray
 i(155603);	-- Flaky Fish Scales
 i(158874);	-- Frothing Vapor
+i(158770);	-- Gelatinous Roe
 i(158865);	-- Ghastly Ooze
 i(158856);	-- Giant Frog Leg
+i(158777);	-- Glimmering Ember
 i(158868);	-- Golden Ornament
 i(158855);	-- Grim Skull Fetish
 i(158860);	-- Grindstone Molar
+i(158765);	-- Hardshell Mollusk
+i(155600);	-- How to Make Money and Influence Subordinates
+i(155605);	-- Huge Femur
 i(155631);	-- Inert Stone
+i(158749);	-- Intricate Ossicles
 i(157844);	-- Iridescent Speck
 i(158859);	-- Jagged Fang
 i(162673);	-- Knotted Bowline
 i(159140);	-- Lifeless Clay
+i(158745);	-- Luminous Scale
+i(158751);	-- Matted Pelt
 i(161201);	-- Mermaid's Looking Glass
 i(158778);	-- Mucose Tendril
 i(158831);	-- Parched Honeycomb
+i(158740);	-- Pearly Incisor
 i(155615);	-- Pestilent Muck
+i(158781);	-- Pilfered Curio
 i(155601);	-- Pointy Leg Segment
+i(158779);	-- Robust Horn
+i(158756);	-- Rotary Gasket
+i(158758);	-- Royal Jelly
 i(157842);	-- Rusty Gear
 i(162630);	-- Sandy Ornate Relic
+i(158752);	-- Severed Foot
 i(155598);	-- Severed Mandible
 i(155629);	-- Shaggy Mane
+i(152099);	-- Shriveled Onion
+i(158783);	-- Silken White Feather
 i(163845);	-- Silver Statue Base
 i(155635);	-- Sinewy Wing
+i(155620);	-- Singed Sprig of Teldrassil
+i(158788);	-- Sleek Quill
+i(155617);	-- Slime Spore
+i(158744);	-- Spectral Veil
 i(158771);	-- Spirit Ichor
 i(158848);	-- Spoiled Feast
+i(155609);	-- Springy Eyeball
 i(155610);	-- Stinging Nettle
 i(158746);	-- Tattered White Flag
 i(161200);	-- Teardrop Pearl
+i(158839);	-- Thick Crab Claw
+i(158775);	-- Thick Hivewax
+i(158747);	-- Thorny Prickle
+i(158754);	-- Trueflight Fletching
+i(155844);	-- Unreliable Lodestone
 i(155636);	-- Viscous Ink
+i(158789);	-- Webbed Frill
 i(158773);	-- Wriggling Goop
 
 -----------------
