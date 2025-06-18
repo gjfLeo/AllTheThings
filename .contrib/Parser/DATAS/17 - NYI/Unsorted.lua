@@ -11,42 +11,6 @@ root(ROOTS.Unsorted, {
 			}),
 			n(TIMEWALKING_HEADER, {
 				i(238740),	-- Distilled Knowledge of Timeways
-				-- New BFA Gear (Might be in dungeons? No azerite versions)
-				i(239024),	-- Soulfuel Headdress
-				i(239025),	-- Raiment of the Blighted Tribe
-				i(239026),	-- Gorak Tul's Mantle
-				i(239027),	-- Deathslaver's Hauberk
-				i(239028),	-- Soulscarred Headgear
-				i(239029),	-- Breastplate of the Vengeful
-				i(239031),	-- Brood Cleanser's Amice
-				i(239032),	-- Robes of the Reborn Serpent
-				i(239033),	-- Hood of the Slithering Loa
-				i(239035),	-- Sethraliss' Fanged Helm
-				i(239038),	-- Mantle of Void-Touched Waters
-				i(239039),	-- Stormlurker's Cowl
-				i(239041),	-- Tentacle-Laced Spaulders
-				i(239042),	-- Hauberk of Sunken Despair
-				i(239043),	-- Chestguard of the Deep Denizen
-				i(239045),	-- Mantle of Ceremonial Ascension
-				i(239047),	-- Headdress of the First Empire
-				i(239048),	-- Vest of Reverent Adoration
-				i(239049),	-- Spaulders of Prime Emperor
-				i(239050),	-- Helm of the Raptor King
-				i(239053),	-- Smartly Plumed Cap
-				i(239054),	-- Sweete's Jeweled Headgear
-				i(239056),	-- Ruffled Poet Blouse
-				i(239057),	-- Gold-Tasseled Epaulets
-				i(239058),	-- Gaping Maw Shoulderguard
-				i(239059),	-- Lockjaw Shoulderplate
-				i(239068),	-- Spymaster's Wrap
-				i(239071),	-- Secret Spinner's Miter
-				i(239072),	-- Loa Betrayer's Vestments
-				i(239073),	-- Coif of the Court Spider
-			}),
-			n(PROFESSIONS, {
-				-- Ins
-				i(243051),	-- Glyph of the Strix
-				i(243052),	-- Technique: Glyph of the Strix
 			}),
 			filter(MISC, {
 				-- Delves
