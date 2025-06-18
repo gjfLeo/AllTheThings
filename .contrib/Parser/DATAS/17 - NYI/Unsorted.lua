@@ -1817,7 +1817,6 @@ root(ROOTS.Unsorted, {
 				i(155605),	-- Huge Femur \\ Bloodgorged Sac
 				i(155606),	-- PH Flavor - Unused \\ Intricate Ossicles
 				i(155607),	-- D.E.H.T.A. Membership Card \\ PH Flavor - Unused \\ Runic Bone
-				i(155608),	-- Defiled Bone \\ Piked Spider Leg
 				i(155609),	-- Springy Eyeball \\ Sawtooth Jawbone
 				i(155610),	-- Stinging Nettle \\ Hooked Talon
 				i(155611),	-- PH Flavor - Unused \\ Lustruous Black Feather
@@ -1838,7 +1837,6 @@ root(ROOTS.Unsorted, {
 				i(155628),	-- PH Flavor - Unused \\ Cracked Mask
 				i(155629),	-- Shaggy Mane \\ Bitter Wind
 				i(155630),	-- PH Flavor - Unused \\ Trueflight Fletching
-				i(155631),	-- Inert Stone \\ Grindstone Molar
 				i(155632),	-- PH Flavor - Unused \\ Viscous Webbing
 				i(155633),	-- Matted Felt \\ Intact Frog Tongue
 				i(155634),	-- PH Flavor - Unused \\ Sleek Quills
@@ -1892,7 +1890,6 @@ root(ROOTS.Unsorted, {
 				i(158768),	-- PH Flavor - Unused \\ PH Flavor - Carrion Bird - Bird
 				i(158769),	-- Monkey's Paw \\ PH Flavor - Turtle
 				i(158770),	-- Gelatinous Roe \\ PH Flavor - Gold Elemental
-				i(158771),	-- Spirit Ichor \\ PH Flavor
 				i(158772),	-- PH Flavor - Unused \\ PH Flavor - Slime / Spore
 				i(158773),	-- Wriggling Goop \\ PH Flavor - Sethrak
 				i(158774),	-- PH Flavor - Unused \\ PH Flavor - Kraken
@@ -1978,9 +1975,7 @@ root(ROOTS.Unsorted, {
 				i(158861),	-- Tensile Eye Stalk \\ PH Flavor - Troll Male - Blood Troll
 				i(158863),	-- Chitinous Exoskeleton \\ PH Flavor - Troll Lich
 				i(158864),	-- Viscous Webbing \\ PH Flavor - Trogg
-				i(158865),	-- Ghastly Ooze \\ PH Flavor - Human Skeleton
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
-				i(158868),	-- Golden Ornament \\ PH Flavor - Drust Skeleton - Drust
 				i(158869),	-- Stone Tusk \\ PH Flavor - Venture Co
 				i(158870),	-- Wooly Hair \\ PH Flavor - Undead Devilsaur
 				i(158871),	-- Autographed Painting of Anduin \\ PH Flavor - Unused \\ PH Flavor - Troll Skeleton
