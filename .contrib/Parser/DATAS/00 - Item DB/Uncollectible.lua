@@ -304,20 +304,20 @@ i(123865);	-- Relic of Ursol
 -- PATCH 8.0.1 --
 -----------------
 i(158862);	-- Ancient Grave Dust
-i(155608),	-- Defiled Bone
+i(155608);	-- Defiled Bone
 i(158210);	-- Fearsome Claw
 i(155603);	-- Flaky Fish Scales
 i(158874);	-- Frothing Vapor
-i(158865),	-- Ghastly Ooze
-i(158868),	-- Golden Ornament
-i(155631),	-- Inert Stone
+i(158865);	-- Ghastly Ooze
+i(158868);	-- Golden Ornament
+i(155631);	-- Inert Stone
 i(158859);	-- Jagged Fang
 i(159140);	-- Lifeless Clay
 i(158778);	-- Mucose Tendril
 i(155615);	-- Pestilent Muck
 i(155598);	-- Severed Mandible
 i(155635);	-- Sinewy Wing
-i(158771),	-- Spirit Ichor
+i(158771);	-- Spirit Ichor
 i(158848);	-- Spoiled Feast
 i(158746);	-- Tattered White Flag
 i(155636);	-- Viscous Ink
