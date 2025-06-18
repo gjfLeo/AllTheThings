@@ -216,7 +216,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 				["g"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
-							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "select", "itemID", 229355 },	-- Chromie's Premium Goodie Bag
 							{ "pop" },
 						},
 					}),
@@ -929,7 +929,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 				["g"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
-							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "select", "itemID", 229355 },	-- Chromie's Premium Goodie Bag
 							{ "pop" },
 						},
 					}),
@@ -2149,7 +2149,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 				["g"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
-							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "select", "itemID", 229355 },	-- Chromie's Premium Goodie Bag
 							{ "pop" },
 						},
 					}),
@@ -3714,7 +3714,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 				["g"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
-							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "select", "itemID", 229355 },	-- Chromie's Premium Goodie Bag
 							{ "pop" },
 						},
 					}),
@@ -4676,7 +4676,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 				["g"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
-							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "select", "itemID", 229355 },	-- Chromie's Premium Goodie Bag
 							{ "pop" },
 						},
 					}),
@@ -5300,7 +5300,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 				["g"] = {
 					i(232877, {	-- Timely Goodie Bag
 						["sym"] = {
-							{ "select", "itemID", 229355},	-- Chromie's Premium Goodie Bag
+							{ "select", "itemID", 229355 },	-- Chromie's Premium Goodie Bag
 							{ "pop" },
 						},
 					}),
@@ -6963,7 +6963,43 @@ AddInstancesToRotation(EXPANSION.LEGION, {
 -- Battle for Azeroth Timewalking
 root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_FOR_AZEROTH_DUNGEON_EVENT, {
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 }},{
+		n(GROUP_FINDER, {
+			i(238790, {	-- Remnant of Azeroth (A)
+				["description"] = "Drops from the last boss of any 'Battle for Azeroth Timewalking' dungeon.",
+			}),
+			i(238791, {	-- Remnant of Azeroth (H)
+				["description"] = "Drops from the last boss of any 'Battle for Azeroth Timewalking' dungeon.",
+			}),
+		}),
 		n(QUESTS, {
+			-- TW BFA Quest under level 80
+			q(88808, {	-- A Scarred Journey Through Time
+				["provider"] = { "n", 239840 },	-- Churbro
+				["coords"] = {
+					{ 70.8, 17.3, BORALUS },	-- Alliance
+					{ 46.1, 94.9, ZULDAZAR },	-- Horde
+				},
+				["weekly"] = true,
+				["lockCriteria"] = { 1, "lvl", 80 },
+				["g"] = {
+				},
+			}),
+			q(89222, {	-- Remnant of Azeroth (A)
+				["provider"] = { "i", 238790 },		-- Remnant of Azeroth (A)
+				["isWeekly"] = true,
+				["races"] = ALLIANCE_ONLY,
+				["groups"] = {
+					currency(TIMEWARPED_BADGE),
+				},
+			}),
+			q(89223, {	-- Remnant of Azeroth (H)
+				["provider"] = { "i", 238791 },		-- Remnant of Azeroth (H)
+				["isWeekly"] = true,
+				["races"] = HORDE_ONLY,
+				["groups"] = {
+					currency(TIMEWARPED_BADGE),
+				},
+			}),
 		}),
 		n(VENDORS, {
 			n(239840, {	-- Churbro <Timewalking Vendor>

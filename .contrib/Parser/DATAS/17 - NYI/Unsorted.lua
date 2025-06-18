@@ -11,8 +11,6 @@ root(ROOTS.Unsorted, {
 			}),
 			n(TIMEWALKING_HEADER, {
 				i(238740),	-- Distilled Knowledge of Timeways
-				i(238790),	-- Remnant of Azeroth
-				i(238791),	-- Remnant of Azeroth
 				-- New BFA Gear (Might be in dungeons? No azerite versions)
 				i(239023),	-- Amice of the Returned
 				i(239024),	-- Soulfuel Headdress
@@ -2517,7 +2515,6 @@ root(ROOTS.Unsorted, {
 				i(158906),	-- Shimmerfin Flesh
 				i(158907),	-- Moonstone Pendant
 				i(158908),	-- Moonstone Weapon
-				i(158918),	-- Bilgewater Patented Flamethrower
 				i(158925),	-- Moonwell Essence
 				i(158933),	-- Depleted Soul Shard
 				i(158934),	-- Empowered Soul Shard
@@ -2887,7 +2884,6 @@ root(ROOTS.Unsorted, {
 
 		-- 8.2.0
 		expansion(EXPANSION.BFA, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
-			i(165668),	-- Azsharan Medallion
 			i(166666),	-- Twisted Kodo Runt Bone
 			i(166845),	-- Glinting Amethyst
 			i(166885),	-- Mark of Azshara

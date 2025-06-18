@@ -836,6 +836,7 @@ MobileDB.GameObject = {
 	[281872] = true,	-- Sea Stalks
 	[281903] = true,	-- Treasure Chest (Zuldazar)
 	[281905] = true,	-- Treasure Chest (Zuldazar)
+	[282481] = true,	-- Ransacked Supplies (wq:50962 [A], wq:50813 [H])
 	[282626] = true,	-- Fish Pile
 	[282740] = true,	-- Mysterious Trashpile
 	[287006] = true,	-- Faithless Weapon Rack (q:49665)
