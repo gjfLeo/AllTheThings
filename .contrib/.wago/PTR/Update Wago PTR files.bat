@@ -1,4 +1,8 @@
 @echo off
+
+@REM Delete all other files first
+del /Q "%1*.csv"
+
 @REM Download new file versions
 call :download Achievement
 call :downloadrenamed AreaTable areatable
@@ -32,15 +36,9 @@ call "..\Release\net8.0\CSVCleaner.exe" "%~dp0\SpellEffect.csv" "..\SpellEffect.
 exit /b
 
 :download
-if exist "%1*.csv" (
-	del /Q "%1*.csv"
-)
 curl -o "%1.csv" "https://wago.tools/db2/%1/csv"
 exit /b
 
 :downloadrenamed
-if exist "%1*.csv" (
-	del /Q "%1*.csv"
-)
 curl -o "%1.csv" "https://wago.tools/db2/%2/csv"
 exit /b
