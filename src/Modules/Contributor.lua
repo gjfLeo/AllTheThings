@@ -1014,6 +1014,7 @@ MobileDB.GameObject = {
 	[368604] = true,	-- Mawsworn Cage
 	[368605] = true,	-- Cage (SoD)
 	[368606] = true,	-- Cage (SoD)
+	[368638] = true,	-- Shipping Documents (q:63979)
 	[369306] = true,	-- Bundle of Writings (q:64224)
 	[369308] = true,	-- Undelivered Mail (q:64224)
 	[369309] = true,	-- Unattended Books (q:64224)

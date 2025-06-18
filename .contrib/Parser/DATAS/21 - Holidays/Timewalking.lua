@@ -7308,6 +7308,8 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 			e(2165, {	-- The Golden Serpent
 				["crs"] = { 135322 },	-- The Golden Serpent
 				["g"] = {
+					i(159313),	-- Breechees of the Sacred Hall
+					i(159617),	-- Lustrous Golden Plumage
 				},
 			}),
 			e(2171, {	-- Mchimba the Embalmer
@@ -7322,6 +7324,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					135472,	-- Zanazal the Wise
 				},
 				["g"] = {
+					i(159300),	-- Kula's Butchering Wristwraps
 				},
 			}),
 			e(2172, {	-- Dazar, The First King
@@ -7344,6 +7347,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134828,	-- Aqualing
 				},
 				["g"] = {
+					i(159420),	-- Stormsurger's Sabatons
 				},
 			}),
 			e(2154, {	-- Tidesage Council
@@ -7352,6 +7356,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134058,	-- Galecaller Faye
 				},
 				["g"] = {
+					i(159295),	-- Footpads of the Serene Wake
+					i(159419),	-- Ironhull's Reinforced Legplates
+					i(158371),	-- Seabreeze
 				},
 			}),
 			e(2155, {	-- Lord Stormsong
@@ -7359,6 +7366,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					134060,	-- Lord Stormsong
 				},
 				["g"] = {
+					i(159308),	-- Bracers of the Sacred Fleet
+					i(159421),	-- Gauntlets of Total Subservience
+					i(159242),	-- Leggings of the Drowned Lord
+					i(159289),	-- Void-Drenched Cape
 				},
 			}),
 			e(2156, {	-- Vol'zith the Whisperer
@@ -7383,6 +7394,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					133944,	-- Aspix
 				},
 				["g"] = {
+					i(159263),	-- Bindings of the Slithering Current
 				},
 			}),
 			e(2143, {	-- Merektha
@@ -7421,6 +7433,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					131824,	-- Sister Malady
 				},
 				["g"] = {
+					i(159133),	-- Jagged Iris Sica
 				},
 			}),
 			e(2126, {	-- Soulbound Goliath
@@ -7428,6 +7441,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					131667,	-- Soulbound Goliath
 				},
 				["g"] = {
+					i(159282),	-- Drust-Thatched Wristwraps
 				},
 			}),
 			e(2127, {	-- Raal the Gluttonous
@@ -7437,6 +7451,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					136541,	-- Bile Oozing
 				},
 				["g"] = {
+					i(159452),	-- Fatty Hooves of Gory Comfort
 				},
 			}),
 			e(2128, {	-- Lord and Lady Waycrest
@@ -7445,6 +7460,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 					131545,	-- Lady Waycrest
 				},
 				["g"] = {
+					i(159457),	-- Risen Lord's Oversized Gauntlets
 				},
 			}),
 			e(2129, {	-- Gorak Tul
