@@ -7233,6 +7233,191 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				},
 			}),
 		}),
+		inst_tw(968, {	-- Atal'Dazar
+			e(2082, {	-- Priestess Alun'za
+				["crs"] = { 122967 },	-- Priestess Alun'za
+				["g"] = {
+				},
+			}),
+			e(2036, {	-- Vol'kaal
+				["crs"] = { 122965 },	-- Vol'kaal
+				["g"] = {
+				},
+			}),
+			e(2083, {	-- Rezan
+				["crs"] = { 122963 },	-- Rezan
+				["g"] = {
+				},
+			}),
+			e(2030, {	-- Yazma
+				["crs"] = { 122968 },	-- Yazma
+				["g"] = {
+				},
+			}),
+		}),
+		inst_tw(1001, {	-- Freehold
+			e(2102, {	-- Skycap'n Kragg
+				["crs"] = {
+					126832,	-- Skycap'n Kragg
+					--  Shark Bait
+				},
+				["g"] = {
+				},
+			}),
+			e(2093, {	-- Council o' Captains
+				["crs"] = {
+					126848,	-- Captain Eudora
+					126845,	-- Captain Jolly
+					126847,	-- Captain Raoul
+				},
+				["g"] = {
+				},
+			}),
+			e(2094, {	-- Ring of Booty
+				["crs"] = {
+					130086,	-- Davey "Two Eyes"
+					130099,	-- Lightning
+					129699,	-- Ludwig Von Tortollan
+					126969,	-- Trothak <The Shark Puncher>
+				},
+				["g"] = {
+				},
+			}),
+			e(2095,	{	-- Harlan Sweete
+				["crs"] = { 126983 },	-- Harlan Sweete
+				["g"] = {
+				},
+			}),
+		}),
+		inst_tw(1041, {	-- King's Rest
+			e(2165, {	-- The Golden Serpent
+				["crs"] = { 135322 },	-- The Golden Serpent
+				["g"] = {
+				},
+			}),
+			e(2171, {	-- Mchimba the Embalmer
+				["crs"] = { 134993 },	-- Mchimba the Embalmer
+				["g"] = {
+				},
+			}),
+			e(2170, {	-- The Council of Tribes
+				["crs"] = {
+					135470,	-- Aka'ali  the Conqueror
+					135475,	-- Kula the Butcher
+					135472,	-- Zanazal the Wise
+				},
+				["g"] = {
+				},
+			}),
+			e(2172, {	-- Dazar, The First King
+				["crs"] = { 136160 },	-- King Dazar <The First>
+				["g"] = {
+				},
+			}),
+		}),
+		inst_tw(1036, {	-- Shrine of the Storm
+			e(2153, {	-- Aqu'sirr
+				["crs"] = {
+					134056,	-- Aqu'sirr
+					134828,	-- Aqualing
+				},
+				["g"] = {
+				},
+			}),
+			e(2154, {	-- Tidesage Council
+				["crs"] = {
+					134063,	-- Brother Ironhull
+					134058,	-- Galecaller Faye
+				},
+				["g"] = {
+				},
+			}),
+			e(2155, {	-- Lord Stormsong
+				["crs"] = {
+					134060,	-- Lord Stormsong
+				},
+				["g"] = {
+				},
+			}),
+			e(2156, {	-- Vol'zith the Whisperer
+				["crs"] = {
+					134069,	-- Vol'zith the Whisperer
+				},
+				["g"] = {
+				},
+			}),
+		}),
+		inst_tw(1030, {	-- Temple of Sethraliss
+			e(2142, {	-- Adderis and Aspix
+				["crs"] = {
+					133379,	-- Adderis
+					133944,	-- Aspix
+				},
+				["g"] = {
+				},
+			}),
+			e(2143, {	-- Merektha
+				["crs"] = {
+					133384,	-- Merektha
+				},
+				["g"] = {
+				},
+			}),
+			e(2144, {	-- Galvazzt
+				["crs"] = {
+					133389,	-- Galvazzt
+				},
+				["g"] = {
+				},
+			}),
+			e(2145, {	-- Avatar of Sethraliss
+				["crs"] = { 133392 },	-- Avatar of Sethraliss
+				["g"] = {
+				},
+			}),
+		}),
+		inst_tw(1021, {	-- Waycrest Manor
+			e(2125, {	-- Heartsbane Triad
+				["crs"] = {
+					131825,	-- Sister Briar
+					131823,	-- Sister Malady
+					131824,	-- Sister Malady
+				},
+				["g"] = {
+				},
+			}),
+			e(2126, {	-- Soulbound Goliath
+				["crs"] = {
+					131667,	-- Soulbound Goliath
+				},
+				["g"] = {
+				},
+			}),
+			e(2127, {	-- Raal the Gluttonous
+				["crs"] = {
+					131863,	-- Raal the Gluttonous
+					133361,	-- Wasting Servant
+					136541,	-- Bile Oozing
+				},
+				["g"] = {
+				},
+			}),
+			e(2128, {	-- Lord and Lady Waycrest
+				["crs"] = {
+					131527,	-- Lord Waycrest
+					131545,	-- Lady Waycrest
+				},
+				["g"] = {
+				},
+			}),
+			e(2129, {	-- Gorak Tul
+				["crs"] = { 131864 },	-- Gorak Tul
+				["g"] = {
+					i(239023),	-- Amice of the Returned
+					i(239030),	-- Pauldrons of the Horned Horror
+				},
+			}),
+		}),
 	})),
 })));
 

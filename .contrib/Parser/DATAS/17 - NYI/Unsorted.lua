@@ -12,14 +12,12 @@ root(ROOTS.Unsorted, {
 			n(TIMEWALKING_HEADER, {
 				i(238740),	-- Distilled Knowledge of Timeways
 				-- New BFA Gear (Might be in dungeons? No azerite versions)
-				i(239023),	-- Amice of the Returned
 				i(239024),	-- Soulfuel Headdress
 				i(239025),	-- Raiment of the Blighted Tribe
 				i(239026),	-- Gorak Tul's Mantle
 				i(239027),	-- Deathslaver's Hauberk
 				i(239028),	-- Soulscarred Headgear
 				i(239029),	-- Breastplate of the Vengeful
-				i(239030),	-- Pauldrons of the Horned Horror
 				i(239031),	-- Brood Cleanser's Amice
 				i(239032),	-- Robes of the Reborn Serpent
 				i(239033),	-- Hood of the Slithering Loa

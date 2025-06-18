@@ -34,6 +34,9 @@ local FUNGARIAN_DELVES = { FUNGAL_FOLLY, MYCOMANCER_CAVERN };
 local KOBOLD_DELVES = { KRIEGVALS_REST, THE_WATERWORKS };
 local SHADOW_DELVES = { NIGHTFALL_SANCTUM };
 local KOBYSS_DELVES = { TAK_RETHAN_ABYSS, THE_SINKHOLE };
+-- #if AFTER 11.1.7
+local OVERCHARGED_DELVES = { FUNGAL_FOLLY, KRIEGVALS_REST, NIGHTFALL_SANCTUM, SIDESTREET_SLUICE, SKITTERING_BREACH, THE_SPIRAL_WEAVE };
+-- #endif
 local ALL_REGULAR_DELVES = {
 	EARTHCRAWL_MINES,
 	FUNGAL_FOLLY,
@@ -690,8 +693,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(42212, {	-- Titan Console Overcharged
+			["maps"] = OVERCHARGED_DELVES,
 			["timeline"] = { ADDED_11_1_7 },
-			["groups"] = { i(246237) },	-- OC91 Chariot (MOUNT!)
+			["g"] = { i(246237) },	-- OC91 Chariot (MOUNT!)
 		}),
 		ach(40882, {	-- Copious Coffers
 			["maps"] = ALL_REGULAR_DELVES,
@@ -842,7 +846,27 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(42241, {	-- Overcharged Delver
 			["timeline"] = { ADDED_11_1_7 },
-			["groups"] = { i(235016) },	-- Redeployment Module (TOY!)
+			["g"] = {
+				crit(105440, {	-- Fungal Folly
+					["maps"] = { FUNGAL_FOLLY },
+				}),
+				crit(105441, {	-- Kriegval's Rest
+					["maps"] = { KRIEGVALS_REST },
+				}),
+				crit(105442, {	-- Skittering Breach
+					["maps"] = { SKITTERING_BREACH },
+				}),
+				crit(105443, {	-- Nightfall Sanctum
+					["maps"] = { NIGHTFALL_SANCTUM },
+				}),
+				crit(105444, {	-- Sidestreet Sluice
+					["maps"] = { SIDESTREET_SLUICE },
+				}),
+				crit(105445, {	-- The Spiral Weave
+					["maps"] = { THE_SPIRAL_WEAVE },
+				}),
+				i(235016),	-- Redeployment Module (TOY!)
+			},
 		}),
 		ach(40863, {	-- Perplexing Puzzle
 			["maps"] = ALL_REGULAR_DELVES,
@@ -1755,7 +1779,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["sourceQuests"] = { 90969 },	-- Titan Consoles
 			["provider"] = { "n", 235490 },	-- Overcharged Titan Console
 			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
-			--["coord"] = { any delve? },
+			["maps"] = OVERCHARGED_DELVES,
 			["g"] = {
 				i(244466),	-- Dagran's Pouch of Fragments
 			},
@@ -1764,11 +1788,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["sourceQuests"] = { 90970 },	-- Titan Disc-Count
 			["provider"] = { "n", 235490 },	-- Overcharged Titan Console
 			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
-			--["coord"] = { any delve? },
+			["maps"] = OVERCHARGED_DELVES,
 		}),
 		q(91009, {	-- Durable Information Storage Container
 			["sourceQuests"] = { 90971 },	-- Overcharged Console (TODO: re-check on live)
-			["provider"] = { "n", 245191 },	-- Dagran Thaurissan II
+			["qgs"] = {
+				235490,	-- Overcharged Titan Console
+				245191,	-- Dagran Thaurissan II
+			},
 			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
 			["coord"] = { 48.0, 43.4, DORNOGAL },
 			["g"] = {
