@@ -2112,6 +2112,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						i(4304),	-- Thick Leather
 					},
 				}),
+				i(13918),	-- Reinforced Locked Chest
 				i(6357),	-- Sealed Crate
 				i(20708, {	-- Tightly Sealed Trunk
 					["maps"] = {
@@ -2310,6 +2311,18 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #else
 					AZSHARA,
 					-- #endif
+				},
+			}),
+			i(13757, {	-- Lightening Eel
+				["coord"] = { 60.6, 71.7, SILITHUS },
+				["description"] = "Can be caught in inland waters and waterways. This fish have a 5-10% drop rate.",
+				["maps"] = {
+					-- #if BEFORE 4.0.3
+					BURNING_STEPPES,
+					EASTERN_PLAGUELANDS,
+					-- #endif
+					DEADWIND_PASS,
+					WINTERSPRING,
 				},
 			}),
 			i(6358, {	-- Oily Blackmouth
@@ -2561,7 +2574,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					WINTERSPRING,
 				},
 			}),
-			i(13422, {	-- Stonescale Eel -- confirm
+			i(13422, {	-- Stonescale Eel
 				["description"] = "Schools can be found on the seaside.",
 				["maps"] = {
 					TANARIS,

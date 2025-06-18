@@ -4723,6 +4723,28 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 				i(5498),	-- Small Lustrous Pearl
 			},
 		}),
+		i(5524, {	-- Thick-Shelled Clam
+			["maps"] = {
+				-- #if AFTER 4.0.3
+				ASHENVALE,
+				DARKSHORE,
+				NORTHERN_STRANGLETHORN,
+				-- #endif
+				BLACKFATHOM_DEEPS,
+				HILLSBRAD_FOOTHILLS,
+				WETLANDS,
+			},
+			-- #if AFTER BFA
+			["description"] = "Drops commonly from humanoid- and beast sea creatures like naga, giants and turtles in the listed zones.",
+			-- #else
+			["description"] = "Drops commonly from humanoid- and beast sea creatures like naga, giants and turtles in the level bracket 20-30.",
+			-- #endif
+			["groups"] = {
+				i(5500),	-- Iridescent Pearl
+				i(5504),	-- Tangy Clam Meat
+				i(5498),	-- Small Lustrous Pearl
+			},
+		}),
 		-- Alchemy:
 		i(19441, {	-- Huge Venom Sac
 			-- #if BEFORE 4.0.3
