@@ -74,7 +74,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = ALLIANCE_ONLY,
 							["lvl"] = 2,
 						}),
-						q(26946, {	-- A Rogue's Advantage
+						q(26946, {	-- A Rogue's Advantage (Night Elf)
 							["qg"] = 3594,	-- Frahun Shadewhisper <Rogue Trainer>
 							["sourceQuest"] = 3118,	-- Encrypted Sigil
 							["coord"] = { 58.8, 34, TELDRASSIL },
@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = { NIGHTELF },
 							["classes"] = { ROGUE },
 						}),
-						q(26947, {	-- A Woodman's Training
+						q(26947, {	-- A Woodman's Training (Night Elf)
 							["qg"] = 3596,	-- Ayanna Everstride <Hunter Trainer>
 							["sourceQuest"] = 3117,	-- Etched Sigil
 							["coord"] = { 58.66, 40.45, TELDRASSIL },
@@ -354,14 +354,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = { NIGHTELF },
 							["classes"] = { PRIEST },
 						}),
-						q(26949, {	-- Healing for the Wounded
-							["qg"] = 3595,	-- Shanda <Priest Trainer>
-							["sourceQuest"] = 3119,	-- Hallowed Sigil
-							["coord"] = { 59.2, 40.4, TELDRASSIL },
-							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
-							["races"] = { NIGHTELF },
-							["classes"] = { PRIEST },
-						}),
 						q(5622, {	-- In Favor of Elune
 							["qg"] = 3595,	-- Shanda <Priest Trainer>
 							["coord"] = { 59.2, 40.4, TELDRASSIL },
@@ -439,7 +431,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								i(10656),	-- Barkmail Vest
 							},
 						}),
-						q(26945, {	-- Learning New Techniques
+						q(26945, {	-- Learning New Techniques (Night Elf)
 							["qg"] = 3593,	-- Alyissia <Warrior Trainer>
 							["sourceQuest"] = 3116,	-- Simple Sigil
 							["coord"] = { 58.8, 33.8, TELDRASSIL },
@@ -447,8 +439,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = { NIGHTELF },
 							["classes"] = { WARRIOR },
 						}),
-						q(26949, {	-- Learning the Word
+						q(26949, {	-- Healing for the Wounded (Night Elf)
 							["qg"] = 3595,	-- Shanda <Priest Trainer>
+							["sourceQuest"] = 3119,	-- Hallowed Sigil
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 47.6, 59.6, SHADOWGLEN },
