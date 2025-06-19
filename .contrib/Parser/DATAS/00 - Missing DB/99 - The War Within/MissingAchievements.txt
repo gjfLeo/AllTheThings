@@ -38,58 +38,7 @@ ach(41622),	-- Mythic: Dimensius, the All-Devouring Guild Run
 ach(41623),	-- Hall of Fame: Dimensius, the All-Devouring
 ach(41624),	-- Ahead of the Curve: Dimensius, the All-Devouring
 ach(41625),	-- Cutting Edge: Dimensius, the All-Devouring
-ach(41633),	-- Plexus Sentinel (Raid Finder Manaforge Omega)
-ach(41634),	-- Plexus Sentinel (Normal Manaforge Omega)
-ach(41635),	-- Plexus Sentinel (Heroic Manaforge Omega)
-ach(41636),	-- Plexus Sentinel (Mythic Manaforge Omega)
-ach(41637),	-- Loom'ithar (Raid Finder Manaforge Omega)
-ach(41638),	-- Loom'ithar (Normal Manaforge Omega)
-ach(41639),	-- Loom'ithar (Heroic Manaforge Omega)
-ach(41640),	-- Loom'ithar (Mythic Manaforge Omega)
-ach(41641),	-- Soulbinder Naazindhri (Raid Finder Manaforge Omega)
-ach(41642),	-- Soulbinder Naazindhri (Normal Manaforge Omega)
-ach(41643),	-- Soulbinder Naazindhri (Heroic Manaforge Omega)
-ach(41644),	-- Soulbinder Naazindhri (Mythic Manaforge Omega)
-ach(41645),	-- Forgeweaver Araz (Raid Finder Manaforge Omega)
-ach(41646),	-- Forgeweaver Araz (Normal Manaforge Omega)
-ach(41647),	-- Forgeweaver Araz (Heroic Manaforge Omega)
-ach(41648),	-- Forgeweaver Araz (Mythic Manaforge Omega)
-ach(41649),	-- The Soul Hunters (Raid Finder Manaforge Omega)
-ach(41650),	-- The Soul Hunters (Normal Manaforge Omega)
-ach(41651),	-- The Soul Hunters (Heroic Manaforge Omega)
-ach(41652),	-- The Soul Hunters (Mythic Manaforge Omega)
-ach(41653),	-- Fractillus (Raid Finder Manaforge Omega)
-ach(41654),	-- Fractillus (Normal Manaforge Omega)
-ach(41655),	-- Fractillus (Heroic Manaforge Omega)
-ach(41656),	-- Fractillus (Mythic Manaforge Omega)
-ach(41657),	-- Nexus-King Salhadaar (Raid Finder Manaforge Omega)
-ach(41658),	-- Nexus-King Salhadaar (Normal Manaforge Omega)
-ach(41659),	-- Nexus-King Salhadaar (Heroic Manaforge Omega)
-ach(41660),	-- Nexus-King Salhadaar (Mythic Manaforge Omega)
-ach(41661),	-- Dimensius, the All-Devouring (Raid Finder Manaforge Omega)
-ach(41662),	-- Dimensius, the All-Devouring (Normal Manaforge Omega)
-ach(41663),	-- Dimensius, the All-Devouring (Heroic Manaforge Omega)
-ach(41664),	-- Dimensius, the All-Devouring (Mythic Manaforge Omega)
-ach(41758),	-- Player has collected 1 Ethereal Strand
-ach(41759),	-- Player has collected 2 Ethereal Strand
-ach(41760),	-- Player has collected 3 Ethereal Strand
-ach(41761),	-- Player has collected 4 Ethereal Strand
-ach(41762),	-- Player has collected 5 Ethereal Strand
-ach(41763),	-- Player has collected 6 Ethereal Strand
-ach(41764),	-- Player has collected 7 Ethereal Strand
-ach(41765),	-- Player has collected 8 Ethereal Strand
-ach(41766),	-- Player has collected 9 Ethereal Strand
-ach(41767),	-- Player has collected 10 Ethereal Strand
-ach(41768),	-- Player has collected 11 Ethereal Strand
-ach(41769),	-- Player has collected 12 Ethereal Strand
-ach(41770),	-- Player has collected 13 Ethereal Strand
-ach(41771),	-- Player has collected 14 Ethereal Strand
-ach(41772),	-- Player has collected 15 Ethereal Strand
-ach(41773),	-- Player has collected 16 Ethereal Strand
-ach(41774),	-- Player has collected 17 Ethereal Strand
-ach(41775),	-- Player has collected 18 Ethereal Strand
 ach(41778),	-- Brokers Don't Care How You Win
-ach(41792),	-- <DNT> Completed EcoFriendly Quest Once
 ach(41808),	-- Otherworldly Ecologist
 ach(41809),	-- Ecological Variety
 ach(41811),	-- Ecological Stability
@@ -105,7 +54,6 @@ ach(41973),	-- The War Within Keystone Master: Season Three
 ach(41978),	-- Moonlighter
 ach(41979),	-- Bounty Seeker
 ach(41980),	-- Vigilante
-ach(41984),	-- Dastardly Duos Highest Score
 ach(42022),	-- A Trusted Partner
 ach(42023),	-- Legend: The War Within Season 3
 ach(42024),	-- Strategist: The War Within Season 3
@@ -120,8 +68,6 @@ ach(42042),	-- Astral Combatant
 ach(42043),	-- Astral Combatant
 ach(42044),	-- Battle Mender: The War Within Season 3
 ach(42118),	-- Of Mice and Manaforges
-ach(42123),	-- Vicious Saddle (42)
-ach(42124),	-- Vicious Saddle (42)
 ach(42131),	-- Tour of Duty: K'aresh
 ach(42149),	-- The War Within Season 3: Resilient Keystone 12
 ach(42150),	-- The War Within Season 3: Resilient Keystone 13
@@ -147,7 +93,6 @@ ach(42190),	-- Let Me Solo Her: Nexus-Princess Ky'veza
 ach(42191),	-- Safer Deposit
 ach(42193),	-- My Stab-Happy Nemesis
 ach(42194),	-- Pruning the Princess
-ach(42195),	-- [HIDDEN] Renown 15 with Manaforge Vandals / Teach Raid Teleport Spell
 ach(42196),	-- War Within Delves: Tier 4 (Season 3)
 ach(42197),	-- War Within Delves: Tier 5 (Season 3)
 ach(42198),	-- War Within Delves: Tier 6 (Season 3)
@@ -162,7 +107,6 @@ ach(42676),	-- Buddy System IX
 ach(42677),	-- This Machine Flies?! Don't Care I Got It!
 ach(42678),	-- So That's Where My Manaflux Capacitor Was!
 ach(42679),	-- Archival Assault Discoveries
-ach(42700),	-- Archival Assault clears
 ach(42712),	-- Skyriding Glyphs: Tazavesh, the Veiled Market
 ach(42713),	-- Skyriding Glyph: Serrated Peaks
 ach(42714),	-- Skyriding Glyphs: The Oasis
@@ -189,9 +133,6 @@ ach(42779),	-- A Flash in the Void
 ach(42780),	-- Eco-Dome Al'dani
 ach(42781),	-- Heroic: Eco-Dome Al'dani
 ach(42782),	-- Mythic: Eco-Dome Al'dani
-ach(42783),	-- Soul-Scribe (Normal Eco-Dome Al'dani)
-ach(42784),	-- Soul-Scribe (Heroic Eco-Dome Al'dani)
-ach(42785),	-- Soul-Scribe (Mythic Eco-Dome Al'dani)
 ach(42799),	-- Let Her Solo Me
 ach(42800),	-- Astral Attire
 ach(42801),	-- Journey's End (Season 3)
@@ -202,18 +143,3 @@ ach(42805),	-- The War Within Season 3: Resilient Keystone 29
 ach(42806),	-- The War Within Season 3: Resilient Keystone 30
 ach(60889),	-- Unraveled and Persevering
 ach(60890),	-- Secrets of the K'areshi
-ach(60915),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 2 [DNT]
-ach(60916),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 3 [DNT]
-ach(60917),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 4 [DNT]
-ach(60918),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 5 [DNT]
-ach(60919),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 6 [DNT]
-ach(60920),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 7 [DNT]
-ach(60921),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 8 [DNT]
-ach(60925),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 9 [DNT]
-ach(60926),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 10 [DNT]
-ach(60927),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 11 [DNT]
-ach(60928),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 12 [DNT]
-ach(60929),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 13 [DNT]
-ach(60930),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 14 [DNT]
-ach(60931),	-- <Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 15 [DNT]
-ach(60932),	-- Voidrazor Sanctuary clears
