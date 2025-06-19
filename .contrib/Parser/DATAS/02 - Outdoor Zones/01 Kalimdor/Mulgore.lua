@@ -177,7 +177,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(27015, {	-- Consecrated Note
 							["qg"] = 44927,	-- Rohaku Stonehoof
-							["coord"] = { 34.0, 54.0, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 46.2, 82.4, MULGORE },
+								-- #else
+								{ 34.0, 54.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { TAUREN },
 							["classes"] = { PALADIN },
@@ -204,7 +210,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9565 },	-- Etched Note
 							},
 							["sourceQuest"] = 747,	-- The Hunt Begins
-							["coord"] = { 44.9, 77.1, MULGORE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 49, 78.2, MULGORE },
+								-- #elseif BEFORE CATA
+								{ 44.9, 77.1, MULGORE },
+								-- #else
+								{ 39.4, 37.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { TAUREN },
 							["classes"] = { HUNTER },
@@ -215,7 +229,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								14456,	-- Rite of Courage
 								14455,	-- Stop the Thorncallers
 							},
-							["coord"] = { 31.0, 50.6, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 46.2, 82.6, MULGORE },
+								-- #else
+								{ 31.0, 50.6, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = { i(49539) },	-- Adana's Torch (QI!)
@@ -223,13 +243,25 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(14458, {	-- Go to Adana
 							["qg"] = 2980,	-- Grull Hawkwind
 							["sourceQuest"] = 24852,	-- Our Tribe, Imprisoned
-							["coord"] = { 39.4, 37.0, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 49, 78.2, MULGORE },
+								-- #else
+								{ 39.4, 37.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 						}),
 						q(27014, {	-- Hallowed Note
 							["qg"] = 44927,	-- Rohaku Stonehoof
-							["coord"] = { 34.0, 54.0, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 46.2, 82.4, MULGORE },
+								-- #else
+								{ 34.0, 54.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { TAUREN },
 							["classes"] = { PRIEST },
@@ -269,7 +301,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(24861, {	-- Last Rites, First Rites
 							["qg"] = 2981,	-- Chief Hawkwind
 							["sourceQuest"] = 14460,	-- Rite of Honor
-							["coord"] = { 27.6, 28.4, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 45.2, 75.6, MULGORE },
+								-- #else
+								{ 27.6, 28.4, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = { i(50465) },	-- Water Pitcher (QI!)
@@ -277,7 +315,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(24852, {	-- Our Tribe, Imprisoned
 							["qg"] = 2980,	-- Grull Hawkwind
 							["sourceQuest"] = 14452,	-- Rite of Strength
-							["coord"] = { 39.4, 37.0, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 49, 78.2, MULGORE },
+								-- #else
+								{ 39.4, 37.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -320,7 +364,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(14456, {	-- Rite of Courage
 							["qg"] = 36694,	-- Adana Thunderhorn
 							["sourceQuest"] = 14458,	-- Go To Adana
-							["coord"] = { 31.0, 50.6, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 46.2, 82.6, MULGORE },
+								-- #else
+								{ 31.0, 50.6, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -346,7 +396,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								14461,	-- Feed of Evil
 								14459,	-- The Battleboars
 							},
-							["coord"] = { 31.0, 50.6, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 46.2, 82.6, MULGORE },
+								-- #else
+								{ 31.0, 50.6, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -369,7 +425,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(14452, {	-- Rite of Strength
 							["qg"] = 2980,	-- Grull Hawkwind
 							["sourceQuest"] = 14449,	-- The First Step
-							["coord"] = { 39.4, 37.0, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 49, 78.2, MULGORE },
+								-- #else
+								{ 39.4, 37.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -432,7 +494,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(23733, {	-- Rites of the Earthmother
 							["qg"] = 2981,	-- Chief Hawkwind
 							["sourceQuest"] = 24861,	-- Last Rites, First Rites
-							["coord"] = { 27.6, 28.4, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 45.2, 75.6, MULGORE },
+								-- #else
+								{ 27.6, 28.4, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 						}),
@@ -459,7 +527,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9552 },	-- Rune-Inscribed Note
 							},
 							["sourceQuest"] = 747,	-- The Hunt Begins
-							["coord"] = { 44.9, 77.1, MULGORE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 49, 78.2, MULGORE },
+								-- #elseif BEFORE CATA
+								{ 44.9, 77.1, MULGORE },
+								-- #else
+								{ 39.4, 37.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { TAUREN },
 							["classes"] = { SHAMAN },
@@ -470,7 +546,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9547 },	-- Simple Note
 							},
 							["sourceQuest"] = 747,	-- The Hunt Begins
-							["coord"] = { 44.9, 77.1, MULGORE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 49, 78.2, MULGORE },
+								-- #elseif BEFORE CATA
+								{ 44.9, 77.1, MULGORE },
+								-- #else
+								{ 39.4, 37.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { TAUREN },
 							["classes"] = { WARRIOR },
@@ -478,7 +562,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(14455, {	-- Stop the Thorncallers
 							["qg"] = 36694,	-- Adana Thunderhorn
 							["sourceQuest"] = 14458,	-- Go To Adana
-							["coord"] = { 31.0, 50.6, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 46.2, 82.6, MULGORE },
+								-- #else
+								{ 31.0, 50.6, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -502,7 +592,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								14456,	-- Rite of Courage
 								14455,	-- Stop the Thorncallers
 							},
-							["coord"] = { 31.0, 50.6, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 46.2, 82.6, MULGORE },
+								-- #else
+								{ 31.0, 50.6, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -545,7 +641,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(14449, {	-- The First Step
 							["qg"] = 2981,	-- Chief Hawkwind
-							["coord"] = { 27.7, 28.5, CAMP_NARACHE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 45.2, 75.6, MULGORE },
+								-- #else
+								{ 27.6, 28.4, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 						}),
@@ -603,7 +705,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9581 },	-- Verdant Note
 							},
 							["sourceQuest"] = 747,	-- The Hunt Begins
-							["coord"] = { 44.9, 77.1, MULGORE },
+							["coords"] = {
+								-- #if BEFORE MOP
+								{ 49, 78.2, MULGORE },
+								-- #elseif BEFORE CATA
+								{ 44.9, 77.1, MULGORE },
+								-- #else
+								{ 39.4, 37.0, CAMP_NARACHE },
+								-- #endif
+							},
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { TAUREN },
 							["classes"] = { DRUID },
