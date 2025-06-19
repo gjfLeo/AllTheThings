@@ -266,6 +266,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = { TAUREN },
 							["classes"] = { PRIEST },
 						}),
+						q(27066, {	-- Healing in a Flash [Cata] / Learning the Word [MoP+] (Tauren)
+							["qg"] = 37724,	-- Seer Ravenfeather <Priest Trainer>
+							["sourceQuest"] = 27014,	-- Hallowed Note
+							["coord"] = { 45, 75.2, MULGORE },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { TAUREN },
+							["classes"] = { PRIEST },
+						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, q(77652, {	-- Icons of Power
 							["qg"] = 3062,	-- Meela Dawnstrider <Shaman Trainer>
@@ -343,6 +351,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { TAUREN },
 							["classes"] = { SHAMAN },
+						}),
+						q(27067, {	-- Rejuvenating Touch [Cata] / Moonfire [MoP+] (Tauren)
+							["qg"] = 3060,	-- Gart Mistrunner <Druid Trainer>
+							["sourceQuest"] = 3094,	-- Verdant Note
+							["coord"] = { 45.2, 75.2, MULGORE },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { TAUREN },
+							["classes"] = { DRUID },
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, q(77648, {	-- Relics of the Tauren
@@ -639,6 +655,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								}),
 							},
 						}),
+						q(27020, {	-- The First Lesson (Tauren)
+							["qg"] = 3059,	-- Harutt Thunderhorn <Warrior Trainer>
+							["sourceQuest"] = 3091,	-- Simple Note
+							["coord"] = { 45, 75.6, MULGORE },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { TAUREN },
+							["classes"] = { WARRIOR },
+						}),
 						q(14449, {	-- The First Step
 							["qg"] = 2981,	-- Chief Hawkwind
 							["coords"] = {
@@ -691,6 +715,22 @@ root(ROOTS.Zones, m(KALIMDOR, {
 									["timeline"] = { REMOVED_4_0_3 },
 								}),
 							},
+						}),
+						q(27021, {	-- The Hunter's Path (Tauren)
+							["qg"] = 3061,	-- Lanka Farshot <Hunter Trainer>
+							["sourceQuest"] = 3092,	-- Etched Note
+							["coord"] = { 45.2, 75.4, MULGORE },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { TAUREN },
+							["classes"] = { HUNTER },
+						}),
+						q(27023, {	-- The Way of the Sunwalkers (Tauren)
+							["qg"] = 37737,	-- Sunwalker Helaku <Paladin Trainer>
+							["sourceQuest"] = 27015,	-- Consecrated Note
+							["coord"] = { 45, 75.6, MULGORE },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { TAUREN },
+							["classes"] = { PALADIN },
 						}),
 						q(31166, {	-- Tiger Palm
 							["qg"] = 63327,	-- Shoyu
