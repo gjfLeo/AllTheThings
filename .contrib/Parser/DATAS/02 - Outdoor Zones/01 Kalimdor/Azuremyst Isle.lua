@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 							["classes"] = { SHAMAN },
 							["races"] = { DRAENEI },
 							["lvl"] = 4,
-							-- #if BEFORE 4.0.3
+							-- #if BEFORE CATA
 							["groups"] = {
 								recipe(8071),	-- Stoneskin Totem
 								i(5175, {	-- Earth Totem
@@ -231,7 +231,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 								}),
 							},
 						}),
-						q(26970, {	-- Learning the Word
+						q(26970, {	-- Aiding the Injured [Cata] / Learning the Word [MoP+]
 							["qg"] = 16502,	-- Zalduun
 							-- #if AFTER MOP
 							["coord"] = { 52.1, 42.4, AMMEN_VALE },
