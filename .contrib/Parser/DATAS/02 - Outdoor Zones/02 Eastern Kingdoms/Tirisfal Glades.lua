@@ -134,8 +134,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							-- #endif
 							["timeline"] = { REMOVED_7_0_3 },
-							["classes"] = { PRIEST },
 							["races"] = { UNDEAD, BLOODELF },
+							["classes"] = { PRIEST },
 						}),
 						q(5651, {	-- In Favor of Darkness
 							["qg"] = 2123,	-- Dark Cleric Duesten <Priest Trainer>
@@ -149,8 +149,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["qg"] = 2124,	-- Isabella
 							["sourceQuest"] = 3098,	-- Glyphic Scroll
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
-							["classes"] = { MAGE },
 							["races"] = { UNDEAD },
+							["classes"] = { MAGE },
 						}),
 						q(6395, {	-- Marla's Last Wish
 							["qg"] = 1661,	-- Novice Elreth
@@ -178,8 +178,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["qg"] = 2123,	-- Dark Cleric Duesten <Priest Trainer>
 							["coord"] = { 31, 66, TIRISFAL_GLADES },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { PRIEST },
 							["races"] = { UNDEAD },
+							["classes"] = { PRIEST },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Penance
@@ -389,8 +389,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							["coord"] = { 30.8, 66, TIRISFAL_GLADES },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { MAGE },
 							["races"] = { UNDEAD },
+							["classes"] = { MAGE },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Ice Lance
@@ -480,8 +480,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["qg"] = 2126,	-- Maximillion <Warlock Trainer>
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { WARLOCK },
 							["races"] = { UNDEAD },
+							["classes"] = { WARLOCK },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Haunt
@@ -495,8 +495,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["qg"] = 2119,	-- Dannal Stern <Warrior Trainer>
 							["coord"] = { 32.6, 65.6, TIRISFAL_GLADES },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { WARRIOR },
 							["races"] = { UNDEAD },
+							["classes"] = { WARRIOR },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Victory Rush
@@ -574,8 +574,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["qg"] = 2122,	-- David Trias <Rogue Trainer>
 							["coord"] = { 32.6, 65.6, TIRISFAL_GLADES },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { ROGUE },
 							["races"] = { UNDEAD },
+							["classes"] = { ROGUE },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Shadowstrike
@@ -1370,8 +1370,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["coord"] = { 61.8, 52.0, TIRISFAL_GLADES },
 					["timeline"] = { REMOVED_2_0_1 },
-					["classes"] = { WARRIOR },
 					["races"] = HORDE_ONLY,
+					["classes"] = { WARRIOR },
 					["groups"] = {
 						i(204716, {	-- Rune of Frenzied Assault
 							["classes"] = { WARRIOR },
@@ -2813,8 +2813,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			applyclassicphase(SOD_PHASE_ONE, n(WILD_POLYMORPH, {
-				["classes"] = { MAGE },
 				["races"] = HORDE_ONLY,
+				["classes"] = { MAGE },
 				["groups"] = {
 					i(203749, {	-- Spell Notes: Enlightenment
 						["cost"] = {{ "i", 208183, 6 }},	-- Apothecary Notes
