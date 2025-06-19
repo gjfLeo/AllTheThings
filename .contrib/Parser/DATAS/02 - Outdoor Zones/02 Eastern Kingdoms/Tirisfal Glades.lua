@@ -60,7 +60,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24971, {	-- Assault on the Rotbrain Encampment
 							["qg"] = 49425,	-- Darnell
 							["sourceQuest"] = 24970,	-- No Better Than the Zombies
+							-- #if AFTER MOP
 							["coord"] = { 67.0, 42.3, DEATHKNELL },
+							-- #else
+							["coord"] = { 35.6, 62.2, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -71,14 +75,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(25089, {	-- Beyond the Graves
 							["qg"] = 2307,	-- Caretaker Caice
 							["sourceQuest"] = 24960,	-- The Wakening
+							-- #if AFTER MOP
 							["coord"] = { 45.9, 80.4, DEATHKNELL },
+							-- #else
+							["coord"] = { 39.6, 71.4, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 						}),
 						q(28652, {	-- Caretaker Caice
 							["qg"] = 1568,	-- Undertaker Mordo
 							["sourceQuest"] = 26799,	-- Those That Couldn't Be Saved
+							-- #if AFTER MOP
 							["coord"] = { 43.4, 79.9, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.2, 71.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 							["isBreadcrumb"] = true,
@@ -108,20 +120,30 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "n", 1569 },	-- Shadow Priest Sarvis
 								{ "i", 9559 },	-- Encrypted Scroll
 							},
+
 							-- #if AFTER CATA
 							["sourceQuest"] = 26801,	-- Scourge on our Perimeter
-							["coord"] = { 46.8, 58.8, DEATHKNELL },
 							-- #else
 							["sourceQuest"] = 364,	-- The Mindless Ones
+							-- #endif
+
+							-- #if AFTER MOP
+							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							-- #endif
+
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { ROGUE },
 						}),
 						q(24959, {	-- Fresh out of the Grave
 							["qg"] = 49044,	-- Agatha
+							-- #if AFTER MOP
 							["coord"] = { 40.7, 78.4, DEATHKNELL },
+							-- #else
+							["coord"] = { 29.4, 71.0, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 						}),
@@ -130,13 +152,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "n", 1569 },	-- Shadow Priest Sarvis
 								{ "i", 9574 },	-- Glyphic Scroll
 							},
+
 							-- #if AFTER CATA
 							["sourceQuest"] = 26801,	-- Scourge on our Perimeter
-							["coord"] = { 46.8, 58.8, DEATHKNELL },
 							-- #else
 							["sourceQuest"] = 364,	-- The Mindless Ones
+							-- #endif
+
+							-- #if AFTER MOP
+							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							-- #endif
+
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { MAGE },
@@ -148,18 +176,23 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 							-- #if AFTER CATA
 							["sourceQuest"] = 26801,	-- Scourge on our Perimeter
-							["coord"] = { 46.8, 58.8, DEATHKNELL },
 							-- #else
 							["sourceQuest"] = 364,	-- The Mindless Ones
+							-- #endif
+
+							-- #if AFTER MOP
+							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							-- #endif
+
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD, BLOODELF },
 							["classes"] = { PRIEST },
 						}),
 						q(5651, {	-- In Favor of Darkness
 							["qg"] = 2123,	-- Dark Cleric Duesten <Priest Trainer>
-							["coord"] = { 31.1, 66.0, TIRISFAL_GLADES },
+							["coord"] = { 31, 66, TIRISFAL_GLADES },
 							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { PRIEST },
@@ -238,7 +271,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24973, {	-- Night Web's Hollow
 							["qg"] = 1570,	-- Executor Arren
 							["sourceQuest"] = 26802,	-- The Damned
+							-- #if AFTER MOP
 							["coord"] = { 55.4, 37.7, DEATHKNELL },
+							-- #else
+							["coord"] = { 33.0, 61.0, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -256,7 +293,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24970, {	-- No Better Than the Zombies
 							["qg"] = 1570,	-- Executor Arren
 							["sourceQuest"] = 24973,	-- Night Web's Hollow
+							-- #if AFTER MOP
 							["coord"] = { 55.4, 37.7, DEATHKNELL },
+							-- #else
+							["coord"] = { 33.0, 61.0, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -269,7 +310,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(28651, {	-- Novice Elreth
 							["qg"] = 1569,	-- Shadow Priest Elreth
 							["sourceQuest"] = 26801,	-- Scourge on our Perimeter
+							-- #if AFTER MOP
 							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["isBreadcrumb"] = true,
@@ -277,7 +322,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24966, {	-- Of Light and Shadows
 							["qg"] = 2123,	-- Dark Cleric Duesten <Priest Trainer>
 							["sourceQuest"] = 3097,	-- Hallowed Scroll
+							-- #if AFTER MOP
 							["coord"] = { 47.6, 58.4, DEATHKNELL },
+							-- #else
+							["coord"] = { 31, 66, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { PRIEST },
@@ -316,9 +365,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #endif
 						}),
 						q(26800, {	-- Recruitment
-							["qg"] = 26800,	-- Deathguard Saltain
+							["qg"] = 1740,	-- Deathguard Saltain
 							["sourceQuest"] = 25089,	-- Beyond the Graves
+							-- #if AFTER MOP
 							["coord"] = { 49.9, 56.3, DEATHKNELL },
+							-- #else
+							["coord"] = { 31.6, 65.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 							["groups"] = {
@@ -358,7 +411,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(26801, {	-- Scourge on our Perimeter
 							["qg"] = 1569,	-- Shadow Priest Sarvis
 							["sourceQuest"] = 28653,	-- Shadow Priest Sarvis
+							-- #if AFTER MOP
 							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -383,7 +440,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(28653, {	-- Shadow Priest Sarvis
 							["qg"] = 1740,	-- Deathguard Saltain
 							["sourceQuest"] = 26800,	-- Recruitment
+							-- #if AFTER MOP
 							["coord"] = { 49.9, 56.3, DEATHKNELL },
+							-- #else
+							["coord"] = { 31.6, 65.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 							["isBreadcrumb"] = true,
@@ -393,13 +454,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "n", 1569 },	-- Shadow Priest Sarvis
 								{ "i", 9546 },	-- Simple Scroll
 							},
+
 							-- #if AFTER CATA
 							["sourceQuest"] = 26801,	-- Scourge on our Perimeter
-							["coord"] = { 46.8, 58.8, DEATHKNELL },
 							-- #else
 							["sourceQuest"] = 364,	-- The Mindless Ones
+							-- #endif
+
+							-- #if AFTER MOP
+							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							-- #endif
+
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARRIOR },
@@ -440,13 +507,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								{ "n", 1569 },	-- Shadow Priest Sarvis
 								{ "i", 9578 },	-- Tainted Scroll
 							},
+
 							-- #if AFTER CATA
 							["sourceQuest"] = 26801,	-- Scourge on our Perimeter
-							["coord"] = { 46.8, 58.8, DEATHKNELL },
 							-- #else
 							["sourceQuest"] = 364,	-- The Mindless Ones
+							-- #endif
+
+							-- #if AFTER MOP
+							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							-- #endif
+
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARLOCK },
@@ -482,7 +555,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(26802, {	-- The Damned
 							["qg"] = 1570,	-- Executor Arren
 							["sourceQuest"] = 28672,	-- The Executor in the Field
+							-- #if AFTER MOP
 							["coord"] = { 55.4, 37.7, DEATHKNELL },
+							-- #else
+							["coord"] = { 33.0, 61.0, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
@@ -496,7 +573,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(28672, {	-- The Executor In the Field
 							["qg"] = 1661,	-- Novice Elreth
 							["sourceQuest"] = 24961,	-- The Truth of the Grave
+							-- #if AFTER MOP
 							["coord"] = { 46.7, 58.2, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.9, 66.1, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 						}),
@@ -616,7 +697,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(28608, {	-- The Shadow Grave
 							["qg"] = 1568,	-- Undertaker Mordo
 							["sourceQuest"] = 24959,	-- Fresh out of the Grave
+							-- #if AFTER MOP
 							["coord"] = { 43.4, 79.9, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.2, 71.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 						}),
@@ -633,21 +718,33 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24961, {	-- The Truth of the Grave
 							["qg"] = 1661,	-- Novice Elreth
 							["sourceQuest"] = 28651,	-- Novice Elreth
-							["coord"] = { 46.7, 58.1, DEATHKNELL },
+							-- #if AFTER MOP
+							["coord"] = { 46.7, 58.2, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.9, 66.1, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 						}),
 						q(24960, {	-- The Wakening
 							["qg"] = 2307,	-- Caretaker Caice
 							["sourceQuest"] = 28652,	-- Caretaker Caice
+							-- #if AFTER MOP
 							["coord"] = { 45.9, 80.4, DEATHKNELL },
+							-- #else
+							["coord"] = { 39.6, 71.4, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 						}),
 						q(26799, {	-- Those That Couldn't Be Saved
 							["qg"] = 1568,	-- Undertaker Mordo
 							["sourceQuest"] = 28608,	-- The Shadow Grave
+							-- #if AFTER MOP
 							["coord"] = { 43.4, 79.9, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.2, 71.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 							["groups"] = {
@@ -665,7 +762,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						q(24962, {	-- Trail-Worn Scroll
 							["qg"] = 1569,	-- Shadow Priest Sarvis
-							-- #if BEFORE MOP
+							-- #if AFTER MOP
+							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
 							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
@@ -686,7 +785,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24972, {	-- Vital Intelligence
 							["qg"] = 1569,	-- Shadow Priest Sarvis
 							["sourceQuest"] = 24971,	-- Assault on the Rotbrain Encampment
+							-- #if AFTER MOP
 							["coord"] = { 46.6, 58.8, DEATHKNELL },
+							-- #else
+							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = HORDE_ONLY,
 						}),
