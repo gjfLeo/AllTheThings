@@ -401,6 +401,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								i(711),	-- Tattered Cloth Gloves
 							},
 						})),
+						q(24967, {	-- Stab!
+							["qg"] = 2122, -- David Trias
+							["sourceQuest"] = 3096,	-- Encrypted Scroll
+							["coord"] = { 32.6, 65.6, DEATHKNELL },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { UNDEAD },
+							["classes"] = { ROGUE },
+						})
 						-- #endif
 						q(3099, {	-- Tainted Scroll
 							["providers"] = {

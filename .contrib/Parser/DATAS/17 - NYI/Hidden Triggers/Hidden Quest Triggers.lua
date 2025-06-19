@@ -66,6 +66,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(29380),	-- FLAG - Teleport to Firelands
 		q(29381),	-- FLAG - Teleport to Hyjal
 		q(29395),	-- FLAG - Teleport to Uldum
+		q(25016),	-- FLAG - Training Complete - Triggered when doing one of lvl 3 class quests in Deathknell
 		q(29286),	-- Druid Tree, Stage 2 Tracking
 		q(29291),	-- triggered with Peaked Interest 29287
 		q(29292),	-- triggered with Peaked Interest 29287
