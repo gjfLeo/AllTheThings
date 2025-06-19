@@ -86,7 +86,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24969, {	-- Charging into Battle
 							["qg"] = 2119,	-- Dannal Stern <Warrior Trainer>
 							["sourceQuest"] = 3095,	-- Simple Scroll
-							["coord"] = { 32.6, 65.6, DEATHKNELL },
+							-- #if BEFORE MOP
+							["coord"] = { 32.6, 65.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARRIOR },
@@ -94,7 +96,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24968, {	-- Dark Deeds
 							["qg"] = 2126,	-- Maximillion <Warlock Trainer>
 							["sourceQuest"] = 3099,	-- Tainted Scroll
-							["coord"] = { 30.8, 66.2, DEATHKNELL },
+							-- #if BEFORE MOP
+							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARLOCK },
@@ -164,7 +168,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24965, {	-- Magic Training
 							["qg"] = 2124,	-- Isabella <Mage Trainer>
 							["sourceQuest"] = 3098,	-- Glyphic Scroll
-							["coord"] = { 30.8, 66, DEATHKNELL },
+							-- #if BEFORE MOP
+							["coord"] = { 30.8, 66, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { MAGE },
@@ -421,7 +427,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24967, {	-- Stab!
 							["qg"] = 2122, -- David Trias <Rogue Trainer>
 							["sourceQuest"] = 3096,	-- Encrypted Scroll
-							["coord"] = { 32.6, 65.6, DEATHKNELL },
+							-- #if BEFORE MOP
+							["coord"] = { 32.6, 65.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { ROGUE },
@@ -615,7 +623,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(24964, {	-- The Thrill of the Hunt
 							["qg"] = 38911,	-- Xavier the Huntsman <Hunter Trainer>
 							["sourceQuest"] = 24962,	-- Trail-Worn Scroll
-							["coord"] = { 31.6, 65.6, DEATHKNELL },
+							-- #if BEFORE MOP
+							["coord"] = { 31.6, 65.6, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { HUNTER },
@@ -655,7 +665,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						q(24962, {	-- Trail-Worn Scroll
 							["qg"] = 1569,	-- Shadow Priest Sarvis
-							["coord"] = { 30.8, 66.2, DEATHKNELL },
+							-- #if BEFORE MOP
+							["coord"] = { 30.8, 66.2, TIRISFAL_GLADES },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { HUNTER },
