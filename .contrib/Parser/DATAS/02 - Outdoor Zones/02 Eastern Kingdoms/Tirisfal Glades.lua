@@ -90,6 +90,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARRIOR },
+							["lvl"] = 3,
 						}),
 						q(24968, {	-- Dark Deeds
 							["qg"] = 2126,	-- Maximillion <Warlock Trainer>
@@ -98,6 +99,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARLOCK },
+							["lvl"] = 3,
 						}),
 						q(3096, {	-- Encrypted Scroll
 							["providers"] = {
@@ -152,6 +154,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD, BLOODELF },
 							["classes"] = { PRIEST },
+							["lvl"] = 3,
 						}),
 						q(5651, {	-- In Favor of Darkness
 							["qg"] = 2123,	-- Dark Cleric Duesten <Priest Trainer>
@@ -168,6 +171,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { MAGE },
+							["lvl"] = 3,
 						}),
 						q(6395, {	-- Marla's Last Wish
 							["qg"] = 1661,	-- Novice Elreth
@@ -275,6 +279,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { PRIEST },
+							["lvl"] = 3,
 						}),
 						q(1470, {	-- Piercing the Veil
 							["qg"] = 5667,	-- Venya Marthand
@@ -397,6 +402,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARRIOR },
+							["lvl"] = 3,
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, q(77671, {	-- Spell Research
@@ -425,6 +431,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { ROGUE },
+							["lvl"] = 3,
 						}),
 						-- #endif
 						q(3099, {	-- Tainted Scroll
@@ -442,6 +449,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { WARLOCK },
+							["lvl"] = 3,
 						}),
 						q(376, {	-- The Damned
 							["qg"] = 1661,	-- Novice Elreth
@@ -619,6 +627,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { HUNTER },
+							["lvl"] = 3,
 						}),
 						q(24961, {	-- The Truth of the Grave
 							["qg"] = 1661,	-- Novice Elreth
@@ -659,6 +668,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { HUNTER },
+							["lvl"] = 3,
 						}),
 						q(383, {	-- Vital Intelligence
 							["providers"] = {
