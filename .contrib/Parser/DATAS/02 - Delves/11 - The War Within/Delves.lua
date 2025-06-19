@@ -28,6 +28,14 @@ DELVES_TWW_S2 = createHeader({
 		cn = "地心之战地下堡第2季",
 	},
 });
+DELVES_TWW_S3 = createHeader({
+	readable = "Delves TWW S3",
+	icon = 1604168,
+	text = {
+		en = "Delves TWW S3",
+		cn = "地心之战地下堡第3季",
+	},
+});
 local UNDERCOIN = 2803;
 local NERUBIAN_DELVES = { EARTHCRAWL_MINES, SKITTERING_BREACH, THE_DREAD_PIT, THE_SPIRAL_WEAVE, THE_UNDERKEEP };
 local FUNGARIAN_DELVES = { FUNGAL_FOLLY, MYCOMANCER_CAVERN };
@@ -115,7 +123,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				},
 			}),
 		})),
-		-- TWW Season 1 Boss (Still available)
+		-- TWW Season 1 Boss
 		m(ZEKVIRS_LAIR, {
 			["icon"] = [[~_.asset("Delves_Nerubian")]],
 			["coord"] = { 6.7, 33.9, NERUBAR },
@@ -193,7 +201,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				["maps"] = ALL_REGULAR_DELVES,
 			}),
 		})),
-		-- TWW Season 2 Boss (Still available)
+		-- TWW Season 2 Boss
 		m(DEMOLITION_DOME, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
 			["icon"] = [[~_.asset("Delves_Goblin")]],
 			["maps"] = { 2426 },
@@ -212,6 +220,11 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 			},
 		})),
+	}),
+	n(DELVES_TWW_S3, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+		})),
+		-- TWW Season 3 Boss
 	}),
 	n(ACHIEVEMENTS, {
 		ach(40817, {	-- A Delver's Bounty
@@ -1060,6 +1073,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235426),	-- Nitroclad Wrap
 							i(235421),	-- Noxious Injector Sheen
 						})),
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						})),
 					}),
 					filter(CLOTH, {
 						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
@@ -1082,6 +1097,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235437),	-- Noxious Injector Tube
 							i(235438),	-- Noxious Injector Manacles
 						})),
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						})),
 					}),
 					filter(FINGER_F, {
 						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
@@ -1094,6 +1111,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235425),	-- Dumpsterdelver's Loop
 							i(235423),	-- Expensive Gemstone Ring
 							i(235424),	-- Rich Uncle's Endowment
+						})),
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 						})),
 					}),
 					filter(LEATHER, {
@@ -1117,6 +1136,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235445),	-- Nitroclad Strap
 							i(235446),	-- Nitroclad Armguards
 						})),
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						})),
 					}),
 					filter(MAIL, {
 						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
@@ -1139,6 +1160,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235453),	-- Blastborne Links
 							i(235454),	-- Blastborne Vambraces
 						})),
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						})),
 					}),
 					filter(NECK_F, {
 						n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0_SEASONSTART } }, {
@@ -1148,6 +1171,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
 							i(235428),	-- Gobtastic Bling
 							i(235429),	-- Moneymaker's Collar
+						})),
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 						})),
 					}),
 					filter(PLATE, {
@@ -1170,6 +1195,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235461),	-- Junkreaver's Shoulderplates
 							i(235462),	-- Junkreaver's Girdle
 							i(235463),	-- Junkreaver's Coils
+						})),
+						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 						})),
 					}),
 				}),
@@ -1218,6 +1245,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235488),	-- Rocket Taped to a Screwdriver
 						i(235486),	-- Springloaded Kneecap Breaker
 						i(235422),	-- Venture Co Seal
+					})),
+					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 					})),
 				}),
 			},
@@ -3562,6 +3591,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			-- q(90951, {["timeline"]={ADDED_11_1_7}}),	-- Charged Touch ability (spellID 1238257); after using Miniature Titan Disc: Charged Touch (itemID 244903)
 			-- q(90949, {["timeline"]={ADDED_11_1_7}}),	-- Static Charge ability (spellID 1238252); after using Miniature Titan Disc: Statically Charged (itemID 244901)
 		})),
+		n(DELVES_TWW_S3, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+
+		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
 
@@ -3580,5 +3612,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		-- Underpin Delve
 		q(86407, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- First weekly Underpin kill
 		q(86439, {["timeline"]={ADDED_11_1_0_SEASONSTART}}),	-- First weekly Underpin kill
+
+		-- Ky'veza Delve
 	}),
 })));
