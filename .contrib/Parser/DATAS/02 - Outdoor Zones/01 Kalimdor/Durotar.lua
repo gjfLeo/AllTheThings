@@ -3199,6 +3199,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isBreadcrumb"] = true,
 					["lvl"] = 10,
 				}),
+				q(25189, {	-- Spirits Be Praised
+					["qg"] = 39325,	-- Grandmatron Tekla
+					["coord"] = { 40.4, 35.6, DUROTAR },
+					["timeline"] = { ADDED_4_0_3, REMOVED_6_2_4 },
+					["races"] = HORDE_ONLY,
+					["lvl"] = 4,
+				}),
 				q(25177, {	-- Storming the Beaches
 					["qg"] = 3139,	-- Gar'Thok
 					["sourceQuest"] = 25173,	-- From Bad to Worse
