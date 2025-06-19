@@ -1073,7 +1073,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(25149, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Orc)
 							["qg"] = 39206, -- Acrypha <Mage Trainer>
 							["sourceQuest"] = 25138,	-- Glyphic Parchment
+							-- #if BEFORE MOP
 							["coord"] = { 42.6, 69, DUROTAR },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { MAGE },
@@ -1228,7 +1230,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(25147, {	-- Charge (Orc)
 							["qg"] = 3153, -- Frang <Warrior Trainer>
 							["sourceQuest"] = 2383,	-- Simple Parchment
+							-- #if BEFORE MOP
 							["coord"] = { 42.8, 69.4, DUROTAR },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { WARRIOR },
@@ -1299,7 +1303,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9560 },	-- Encrypted Parchment
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
+							-- #if BEFORE MOP
 							["coord"] = { 42, 68.4, DUROTAR },
+							-- #endif
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { ROGUE },
@@ -1321,7 +1327,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9553 },	-- Etched Parchment
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
+							-- #if BEFORE MOP
 							["coord"] = { 42, 68.4, DUROTAR },
+							-- #endif
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { HUNTER },
@@ -1340,7 +1348,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(25141, {	-- Eviscerate (Orc)
 							["qg"] = 3155, -- Rwag <Rogue Trainer>
 							["sourceQuest"] = 3088,	-- Encrypted Parchment
+							-- #if BEFORE MOP
 							["coord"] = { 42.4, 68.8, DUROTAR },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { ROGUE },
@@ -1379,7 +1389,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "n", 3143 },	-- Gornek
 								{ "i", 52513 },	-- Glyphic Parchment
 							},
+							-- #if BEFORE MOP
 							["coord"] = { 42.0, 68.4, DUROTAR },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { MAGE },
@@ -1471,7 +1483,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(25145, {	-- Immolate [Cata] / Corruption [MoP+] (Orc)
 							["qg"] = 3156, -- Nartok <Warlock Trainer>
 							["sourceQuest"] = 3090,	-- Tainted Parchment
+							-- #if BEFORE MOP
 							["coord"] = { 42.4, 68, DUROTAR },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { WARLOCK },
@@ -1514,13 +1528,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(37446, {	-- Lazy Peons
 							["qg"] = 11378,	-- Foreman Thazz'ril
 							["sourceQuest"] = 25127,	-- Sting of the Scorpid
-							["coords"] = {
-								-- #if AFTER MOP
-								{ 46, 63.4, VALLEY_OF_TRIALS },
-								-- #else
-								{ 43.3, 67.4, DUROTAR },
-								-- #endif
-							},
+							["coord"] = { 46, 63.4, VALLEY_OF_TRIALS },
 							["timeline"] = { ADDED_6_0_2 },
 							["races"] = HORDE_ONLY,
 							["groups"] = { i(16114) },	-- Foreman's Backpack (QI!)
@@ -1553,7 +1561,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(25143, {	-- Primal Strike (Orc)
 							["qg"] = 3157,	-- Shikrik <Shaman Trainer>
 							["sourceQuest"] = 3089,	-- Rune-Inscribed Parchment
+							-- #if BEFORE MOP
 							["coord"] = { 42.4, 69, DUROTAR },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { SHAMAN },
@@ -1606,7 +1616,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9568 },	-- Rune-Inscribed Parchment
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
+							-- #if BEFORE MOP
 							["coord"] = { 42, 68.4, DUROTAR },
+							-- #endif
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { SHAMAN },
@@ -1675,7 +1687,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 12635 },	-- Simple Parchment
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
+							-- #if BEFORE MOP
 							["coord"] = { 42, 68.4, DUROTAR },
+							-- #endif
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { WARRIOR },
@@ -1715,7 +1729,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(25139, {	-- Steady Shot (Orc)
 							["qg"] = 39214, -- Karranisha <Hunter Trainer>
 							["sourceQuest"] = 3087,	-- Etched Parchment
+							-- #if BEFORE MOP
 							["coord"] = { 42.8, 69.2, DUROTAR },
+							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { ORC },
 							["classes"] = { HUNTER },
@@ -1792,7 +1808,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ "i", 9579 },	-- Tainted Parchment
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
+							-- #if BEFORE MOP
 							["coord"] = { 42, 68.4, DUROTAR },
+							-- #endif
 							["timeline"] = { REMOVED_7_0_3 },
 							["races"] = { ORC, TROLL },
 							["classes"] = { WARLOCK },
