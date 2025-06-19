@@ -303,6 +303,7 @@ i(123865);	-- Relic of Ursol
 -----------------
 -- PATCH 8.0.1 --
 -----------------
+i(152698);	-- Grimestone Stew
 i(153568);	-- "Fly" Rock
 i(153569);	-- "Hard" Rock
 i(153570);	-- "Magic" Rock

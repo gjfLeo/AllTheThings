@@ -4189,7 +4189,6 @@ root(ROOTS.Unsorted, {
 				i(152672),	-- Half-Eaten Supplies
 				i(152673),	-- Heiro's Lucky Tamborine
 				i(152674),	-- Empty Canteen
-				i(152698),	-- Grimestone Stew \\ [PH REWARD] Stone Soup
 				i(152724),	-- Child-sized Backpack
 				i(152728),	-- Living Water Essence
 				i(152729),	-- Redrock Slab
