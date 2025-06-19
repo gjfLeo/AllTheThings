@@ -408,7 +408,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { ROGUE },
-						})
+						}),
 						-- #endif
 						q(3099, {	-- Tainted Scroll
 							["providers"] = {
