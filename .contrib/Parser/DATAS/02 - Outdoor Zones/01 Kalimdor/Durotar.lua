@@ -904,8 +904,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3153,	-- Frang <Warrior Trainer>
 							["coord"] = { 42.8, 69.4, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { WARRIOR },
 							["races"] = { ORC },
+							["classes"] = { WARRIOR },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Victory Rush
@@ -923,8 +923,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3153,	-- Frang <Warrior Trainer>
 							["coord"] = { 42.8, 69.4, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { WARRIOR },
 							["races"] = { TROLL },
+							["classes"] = { WARRIOR },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Victory Rush
@@ -942,8 +942,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3155,	-- Rwag <Rogue Trainer>
 							["coord"] = { 41.2, 68.0, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { ROGUE },
 							["races"] = { ORC },
+							["classes"] = { ROGUE },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Shadowstrike
@@ -961,8 +961,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3155,	-- Rwag <Rogue Trainer>
 							["coord"] = { 41.2, 68.0, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { ROGUE },
 							["races"] = { TROLL },
+							["classes"] = { ROGUE },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Shadowstrike
@@ -1265,8 +1265,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42.0, 68.4, DUROTAR },
 							["timeline"] = { REMOVED_4_0_3 },
-							["classes"] = { MAGE },
 							["races"] = { TROLL },
+							["classes"] = { MAGE },
 						}),
 						q(3085, {	-- Hallowed Tablet
 							["providers"] = {
@@ -1276,8 +1276,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42.0, 68.4, DUROTAR },
 							["timeline"] = { REMOVED_4_0_3 },
-							["classes"] = { PRIEST },
 							["races"] = { TROLL },
+							["classes"] = { PRIEST },
 						}),
 						q(25128, {	-- Hana'zua
 							["qg"] = 5887,	-- Canaga Earthcaller
@@ -1298,8 +1298,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3154,	-- Jen'shan <Hunter Trainer>
 							["coord"] = { 42.8, 69.2, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { HUNTER },
 							["races"] = { ORC },
+							["classes"] = { HUNTER },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Chimera Shot
@@ -1314,8 +1314,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3157,	-- Shikrik <Shaman Trainer>
 							["coord"] = { 42.4, 69, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { SHAMAN },
 							["races"] = { ORC },
+							["classes"] = { SHAMAN },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Chest - Overload
@@ -1329,8 +1329,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3157,	-- Shikrik <Shaman Trainer>
 							["coord"] = { 42.4, 69, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { SHAMAN },
 							["races"] = { TROLL },
+							["classes"] = { SHAMAN },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Chest - Overload
@@ -1345,8 +1345,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3707,	-- Ken'jai
 							["coord"] = { 42.4, 68.8, DUROTAR },
 							["timeline"] = { REMOVED_4_0_3 },
-							["classes"] = { PRIEST },
 							["races"] = { TROLL },
+							["classes"] = { PRIEST },
 							["lvl"] = 5
 						}),
 						q(25172, {	-- Invaders In Our Home
@@ -1452,8 +1452,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3154,	-- Jen'shan <Hunter Trainer>
 							["coord"] = { 42.8, 69.2, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { HUNTER },
 							["races"] = { TROLL },
+							["classes"] = { HUNTER },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Chimera Shot
@@ -1564,8 +1564,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["coord"] = { 42.4, 69, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { MAGE },
 							["races"] = { TROLL },
+							["classes"] = { MAGE },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Ice Lance
@@ -1631,8 +1631,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3156,	-- Nartok <Warlock Trainer>
 							["coord"] = { 40.6, 68.4, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { WARLOCK },
 							["races"] = { ORC },
+							["classes"] = { WARLOCK },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Haunt
@@ -1797,8 +1797,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["qg"] = 3707,	-- Ken'jai <Priest Trainer>
 							["coord"] = { 42.4, 68.8, DUROTAR },
 							["timeline"] = { REMOVED_2_0_1 },
-							["classes"] = { PRIEST },
 							["races"] = { TROLL },
+							["classes"] = { PRIEST },
 							["lvl"] = 2,
 							["groups"] = {
 								objective(1, {	-- 0/1 Learn Spell: Engrave Gloves - Penance
@@ -2475,8 +2475,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sourceQuest"] = 5649,	-- In Favor of Spirituality
 					["coord"] = { 54.2, 42.8, DUROTAR },
 					["timeline"] = { REMOVED_4_0_3 },
-					["classes"] = { PRIEST },
 					["races"] = { TROLL },
+					["classes"] = { PRIEST },
 					["lvl"] = 5,
 					["groups"] = {
 						i(16606, {	-- Juju Hex Robes
@@ -2531,8 +2531,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						5657,	-- Hex of Weakness [Undercity]
 					},
 					["timeline"] = { REMOVED_2_4_1 },
-					["classes"] = { PRIEST },
 					["races"] = { TROLL },
+					["classes"] = { PRIEST },
 					["lvl"] = 10,
 					-- #if BEFORE 3.0.2
 					["groups"] = {
