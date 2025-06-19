@@ -1070,6 +1070,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						})),
 						-- #endif
+						q(25149, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Orc)
+							["qg"] = 39206, -- Acrypha <Mage Trainer>
+							["sourceQuest"] = 25138,	-- Glyphic Parchment
+							["coord"] = { 42.6, 69, DUROTAR },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { ORC },
+							["classes"] = { MAGE },
+						}),
 						q(25130, {	-- Back to the Den
 							["qg"] = 3287,	-- Hana'zua
 							["sourceQuest"] = 25129,	-- Sarkoth
@@ -1217,6 +1225,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = { ORC },
 							["classes"] = { MONK },
 						}),
+						q(25147, {	-- Charge (Orc)
+							["qg"] = 3153, -- Frang <Warrior Trainer>
+							["sourceQuest"] = 2383,	-- Simple Parchment
+							["coord"] = { 42.8, 69.4, DUROTAR },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { ORC },
+							["classes"] = { WARRIOR },
+						}),
 						q(25126, {	-- Cutting Teeth
 							["qg"] = 3143,	-- Gornek
 							["sourceQuest"] = 25152,	-- Your Place In The World
@@ -1321,6 +1337,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["races"] = { TROLL },
 							["classes"] = { HUNTER },
 						}),
+						q(25141, {	-- Eviscerate (Orc)
+							["qg"] = 3155, -- Rwag <Rogue Trainer>
+							["sourceQuest"] = 3088,	-- Encrypted Parchment
+							["coord"] = { 42.4, 68.8, DUROTAR },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { ORC },
+							["classes"] = { ROGUE },
+						}),
 						q(25136, {	-- Galgar's Cactus Apple Surprise
 							["qg"] = 9796,	-- Galgar
 							["sourceQuest"] = 25126,	-- Cutting Teeth
@@ -1349,6 +1373,16 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								}),
 								i(11584),	-- Cactus Apple Surprise
 							},
+						}),
+						q(25138, {	-- Glyphic Parchment
+							["providers"] = {
+								{ "n", 3143 },	-- Gornek
+								{ "i", 52513 },	-- Glyphic Parchment
+							},
+							["coord"] = { 42.0, 68.4, DUROTAR },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { ORC },
+							["classes"] = { MAGE },
 						}),
 						q(3086, {	-- Glyphic Tablet
 							["providers"] = {
@@ -1434,6 +1468,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						})),
 						-- #endif
+						q(25145, {	-- Immolate [Cata] / Corruption [MoP+] (Orc)
+							["qg"] = 3156, -- Nartok <Warlock Trainer>
+							["sourceQuest"] = 3090,	-- Tainted Parchment
+							["coord"] = { 42.4, 68, DUROTAR },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { ORC },
+							["classes"] = { WARLOCK },
+						}),
 						q(5649, {	-- In Favor of Spirituality
 							["qg"] = 3707,	-- Ken'jai
 							["coord"] = { 42.4, 68.8, DUROTAR },
@@ -1670,6 +1712,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						})),
 						-- #endif
+						q(25139, {	-- Steady Shot (Orc)
+							["qg"] = 39214, -- Karranisha <Hunter Trainer>
+							["sourceQuest"] = 3087,	-- Etched Parchment
+							["coord"] = { 42.8, 69.2, DUROTAR },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { ORC },
+							["classes"] = { HUNTER },
+						}),
 						q(25127, {	-- Sting of the Scorpid
 							["qg"] = 3143,	-- Gornek
 							["sourceQuest"] = 25172,	-- Invaders In Our Home
