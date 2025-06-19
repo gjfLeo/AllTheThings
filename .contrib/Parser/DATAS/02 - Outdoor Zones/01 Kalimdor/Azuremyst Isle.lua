@@ -146,16 +146,16 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 							},
 							-- #endif
 						}),
-						q(26968, {	-- Frost Nova
-							["qg"] = 16500,	-- Valaatu
+						q(26968, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Draenei)
+							["qg"] = 16500,	-- Valaatu <Mage Trainer>
 							-- #if AFTER MOP
 							["coord"] = { 51.0, 43.0, AMMEN_VALE },
 							-- #else
 							["coord"] = { 79.6, 48.8, AZUREMYST_ISLE },
 							-- #endif
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
-							["classes"] = { MAGE },
 							["races"] = { DRAENEI },
+							["classes"] = { MAGE },
 							["lvl"] = lvlsquish(3, 3, 1),
 						}),
 						q(9294, {	-- Healing the Lake

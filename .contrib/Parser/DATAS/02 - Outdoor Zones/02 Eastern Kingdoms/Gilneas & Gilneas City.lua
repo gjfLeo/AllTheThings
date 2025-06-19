@@ -151,7 +151,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								i(66247),	-- Timeworn Staff
 							},
 						}),
-						q(14281, {	-- Frost Nova
+						q(14281, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Worgen)
 							["qg"] = 35872,	-- Myriam Spellwalker
 							["sourceQuest"] = 14277,	-- Arcane Inquiries
 							["coord"] = { 68.01, 64.68, GILNEAS_CITY },

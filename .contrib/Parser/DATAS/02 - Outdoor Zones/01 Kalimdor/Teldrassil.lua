@@ -110,6 +110,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						})),
 						-- #endif
+						q(26940, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Night Elf)
+							["qg"] = 43006, -- Rhyanda <Mage Trainer>
+							["coord"] = { 58.4, 35.6, TELDRASSIL },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { NIGHTELF },
+							["classes"] = { MAGE },
+						}),
 						q(31168, {	-- Calligraphed Sigil
 							["providers"] = {
 								{ "n", 2077 },	-- Melithar Staghelm
@@ -284,6 +291,22 @@ root(ROOTS.Zones, m(KALIMDOR, {
 									["timeline"] = { ADDED_7_0_3 },
 								}),
 							},
+						}),
+						q(26841, {	-- Forbidden Sigil
+							["providers"] = {
+								{ "n", 2077 },	-- Melithar Staghelm
+								{ "i", 60400 },	-- Forbidden Sigil
+							},
+							["coords"] = {
+								-- #if AFTER 5.0.4
+								{ 45.9, 72.9, SHADOWGLEN },
+								-- #else
+								{ 58.0, 38.8, TELDRASSIL },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { NIGHTELF },
+							["classes"] = { MAGE },
 						}),
 						q(3119, {	-- Hallowed Sigil
 							["providers"] = {
