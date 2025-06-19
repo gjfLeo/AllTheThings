@@ -681,7 +681,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
 							["classes"] = { MONK },
 						}),
-						q(24784, {	-- The Arts of a Priest
+						q(24784, {	-- The Arts of a Priest [Cata] / Learnin' tha Word [MoP+]
 							["qg"] = 38245,	-- Tunari <Priest Trainer>
 							["sourceQuest"] = 24786, -- Proving Pit (Priest)
 							["coords"] = {
