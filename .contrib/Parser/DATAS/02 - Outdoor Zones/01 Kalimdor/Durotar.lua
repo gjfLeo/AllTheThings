@@ -163,7 +163,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #if AFTER MOP
 								{ 58.9, 23.1, ECHO_ISLES },
 								-- #else
-								{ 67.4, 88.2, DUROTAR },
+								{ 67.8, 74.2, DUROTAR },
 								-- #endif
 							},
 							["classes"] = exclude({
@@ -417,9 +417,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(24812, {	-- No More Mercy
 							["qg"] = 38442,	-- Morakki
 							["sourceQuest"] = 25035,	-- Breaking the Line
-							-- #if AFTER MOP
-							["coord"] = { 58.9, 23.1, ECHO_ISLES },
-							-- #endif
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 58.9, 23.1, ECHO_ISLES },
+								-- #else
+								{ 67.8, 74.2, DUROTAR },
+								-- #endif
+							},
 							["classes"] = exclude({
 								PALADIN,
 								DEATHKNIGHT,
