@@ -330,6 +330,7 @@ MobileDB.Creature = {
 	[145005] = true,	-- Lor'themar Theron
 	[145394] = true,	-- Liam
 	[145463] = true,	-- Casteless Zandalari
+	[145981] = true,	-- Restless Spirit
 	[146462] = true,	-- Rexxar
 	[146536] = true,	-- Lost Wisp
 	[145707] = true,	-- Advisor Belgrum

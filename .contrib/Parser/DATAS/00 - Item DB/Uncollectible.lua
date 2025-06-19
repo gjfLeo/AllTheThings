@@ -338,6 +338,7 @@ i(158868);	-- Golden Ornament
 i(158855);	-- Grim Skull Fetish
 i(158860);	-- Grindstone Molar
 i(158765);	-- Hardshell Mollusk
+i(158806);	-- Hooked Talon
 i(155600);	-- How to Make Money and Influence Subordinates
 i(155605);	-- Huge Femur
 i(155631);	-- Inert Stone
@@ -385,6 +386,21 @@ i(155844);	-- Unreliable Lodestone
 i(155636);	-- Viscous Ink
 i(158789);	-- Webbed Frill
 i(158773);	-- Wriggling Goop
+
+-----------------
+-- PATCH 8.2.0 --
+-----------------
+i(169130);	-- Bent Cogwheel
+i(169128);	-- Chilled Heating Block
+i(169139);	-- Clogged Webbing Fabricator
+i(169132);	-- Cracked Gyroscope
+i(169124);	-- Decorational Whirlycog
+i(169149);	-- Dulled Micro-Serrated Incisor
+i(169138);	-- Fractured Personality Module
+i(169123);	-- Functional Fiddleswitch
+i(169129);	-- Lovingly Worn Wrench
+i(169145);	-- Rusted Precision Gripper
+i(169135);	-- Warped Shock Absorber
 
 -----------------
 -- PATCH 8.2.5 --

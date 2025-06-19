@@ -6977,7 +6977,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_BATTLE_
 				["provider"] = { "n", 239840 },	-- Churbro
 				["coords"] = {
 					{ 70.8, 17.3, BORALUS },	-- Alliance
-					{ 46.1, 94.9, ZULDAZAR },	-- Horde
+					{ 46.1, 94.9, DAZARALOR },	-- Horde
 				},
 				["weekly"] = true,
 				["lockCriteria"] = { 1, "lvl", 80 },
@@ -7511,6 +7511,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(85877),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways II (spellID 471544)
 			q(86295, { ["timeline"] = { ADDED_11_1_5 } }),	-- Disturbance Detected: Black Temple
 			--q(???, { ["timeline"] = { ADDED_11_1_7 } }),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways III (spellID ???)
+			q(89211, { ["timeline"] = { ADDED_11_1_7 } } ),	-- Bugged HQT related to Turbulent Timeways, constantly flags and unflags
 		})),
 	})),
 });

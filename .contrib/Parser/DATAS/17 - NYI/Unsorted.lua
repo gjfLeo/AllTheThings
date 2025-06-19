@@ -3834,7 +3834,6 @@ root(ROOTS.Unsorted, {
 				i(158803),	-- PH Flavor - Unused \\ PH Flavor - Parrot / Axebeak - Bird \\ PH Flavor - Parrot - Bird
 				i(158804),	-- Castor Gland \\ PH Flavor - Horde
 				i(158805),	-- Soft Turtle Shell \\ PH Flavor - Beast  - Raven - Bird
-				i(158806),	-- Hooked Talon \\ PH Flavor - Bird Skeleton
 				i(158807),	-- PH Flavor - Unused \\ PH Flavor - Doe / Gazelle
 				i(158808),	-- Thick Tendon \\ PH Flavor - Troll Female - Blood Troll
 				i(158809),	-- PH Flavor - Unused \\ PH Flavor - Flesh Beast
@@ -4830,22 +4829,11 @@ root(ROOTS.Unsorted, {
 			i(169119),	-- Enhanced Water
 			i(169120),	-- Enhancement-Free Water
 			i(169122),	-- Gibraltian Monkey Wrench
-			i(169123),	-- Functional Fiddleswitch
-			i(169124),	-- Decorational Whirlycog
 			i(169125),	-- Sonic Drive Screw
 			i(169126),	-- Supercharged Graphics Cog
 			i(169127),	-- Tastefully Scented Grease
-			i(169128),	-- Chilled Heating Block
-			i(169129),	-- Lovingly Worn Wrench
-			i(169130),	-- Bent Cogwheel
-			i(169132),	-- Cracked Gyroscope
-			i(169135),	-- Warped Shock Absorber
-			i(169138),	-- Fractured Personality Module
-			i(169139),	-- Clogged Webbing Fabricator
 			i(169143),	-- Seized Sparksaw
-			i(169145),	-- Rusted Precision Gripper
 			i(169146),	-- Brittle Thrust Booster
-			i(169149),	-- Dulled Micro-Serrated Incisor
 			i(169190),	-- Blueprint: Mega-Sized Spare Parts \\ Blueprint: TK45
 			i(169193),	-- Nazjatar Ring A
 			i(169219),	-- Alcohol-Free Brewfest Sampler
