@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				["groups"] = {
 					n(QUESTS, bubbleDown({ ["races"] = HORDE_ONLY, ["timeline"] = { ADDED_4_0_3 } }, {
 						q(24767, {	-- A Rough Start (Druid)
-							["qg"] = 38243,	-- Zen'tabra
+							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
 							["sourceQuest"] = 24765,	-- The Basics: Hitting Things (Druid)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -42,7 +42,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { DRUID },
 						}),
 						q(24779, {	-- A Rough Start (Hunter)
-							["qg"] = 38247,	-- Ortezza
+							["qg"] = 38247,	-- Ortezza <Hunter Trainer>
 							["sourceQuest"] = 24777,	-- The Basics: Hitting Things (Hunter)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -73,7 +73,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { MONK },
 						}),
 						q(24785, {	-- A Rough Start (Priest)
-							["qg"] = 38245,	-- Tunari
+							["qg"] = 38245,	-- Tunari <Priest Trainer>
 							["sourceQuest"] = 24783,	-- The Basics: Hitting Things (Priest)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -85,7 +85,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { PRIEST },
 						}),
 						q(24773, {	-- A Rough Start (Rogue)
-							["qg"] = 38244,	-- Legati
+							["qg"] = 38244,	-- Legati <Rogue Trainer>
 							["sourceQuest"] = 24770,	-- The Basics: Hitting Things (Rogue)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { ROGUE },
 						}),
 						q(24761, {	-- A Rough Start (Shaman)
-							["qg"] = 38242,	-- Nekali
+							["qg"] = 38242,	-- Nekali <Shaman Trainer>
 							["sourceQuest"] = 24759,	-- The Basics: Hitting Things (Shaman)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -109,7 +109,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { SHAMAN },
 						}),
 						q(26275, {	-- A Rough Start (Warlock)
-							["qg"] = 42618,	-- Voldreka
+							["qg"] = 42618,	-- Voldreka <Warlock Trainer>
 							["sourceQuest"] = 26273,	-- The Basics: Hitting Things (Warlock)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -121,7 +121,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { WARLOCK },
 						}),
 						q(24641, {	-- A Rough Start (Warrior)
-							["qg"] = 38037,	-- Nortet
+							["qg"] = 38037,	-- Nortet <Warrior Trainer>
 							["sourceQuest"] = 24639,	-- The Basics: Hitting Things (Warrior)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -312,25 +312,25 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								}, ALL_CLASSES),
 						}),
 						q(24769, {	-- More Than Expected (Druid)
-							["qg"] = 38243,	-- Zen'tabra
+							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
 							["sourceQuest"] = 24768,	-- Proving Pit (Druid)
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 58.0, 54.0, ECHO_ISLES },
 								-- #else
-								{ 67.7, 84.7, ECHO_ISLES },
+								{ 67.7, 84.7, DUROTAR },
 								-- #endif
 							},
 							["classes"] = { DRUID },
 						}),
 						q(24781, {	-- More Than Expected (Hunter)
-							["qg"] = 38247,	-- Ortezza
+							["qg"] = 38247,	-- Ortezza <Hunter Trainer>
 							["sourceQuest"] = 24780,	-- Proving Pit (Hunter)
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 56.4, 50.1, ECHO_ISLES },
 								-- #else
-								{ 67.1, 83.3, ECHO_ISLES },
+								{ 67.1, 83.3, DUROTAR },
 								-- #endif
 							},
 							["classes"] = { HUNTER },
@@ -355,7 +355,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { MONK },
 						}),
 						q(24787, {	-- More Than Expected (Priest)
-							["qg"] = 38245,	-- Tunari
+							["qg"] = 38245,	-- Tunari <Priest Trainer>
 							["sourceQuest"] = 24786,	-- Proving Pit (Priest)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -367,7 +367,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { PRIEST },
 						}),
 						q(24775, {	-- More Than Expected (Rogue)
-							["qg"] = 38244,	-- Legati
+							["qg"] = 38244,	-- Legati <Rogue Trainer>
 							["sourceQuest"] = 24774,	-- Proving Pit (Rogue)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -379,7 +379,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { ROGUE },
 						}),
 						q(24763, {	-- More Than Expected (Shaman)
-							["qg"] = 38242,	-- Nekali
+							["qg"] = 38242,	-- Nekali <Shaman Trainer>
 							["sourceQuest"] = 24762,	-- Proving Pit (Shaman)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -391,7 +391,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { SHAMAN },
 						}),
 						q(26277, {	-- More Than Expected (Warlock)
-							["qg"] = 42618,	-- Voldreka
+							["qg"] = 42618,	-- Voldreka <Warlock Trainer>
 							["sourceQuest"] = 26276,	-- Proving Pit (Warlock)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -403,7 +403,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { WARLOCK },
 						}),
 						q(24643, {	-- More Than Expected (Warrior)
-							["qg"] = 38037,	-- Nortet
+							["qg"] = 38037,	-- Nortet <Warrior Trainer>
 							["sourceQuest"] = 24642,	-- Proving Pit (Warrior)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -444,13 +444,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(24768, {	-- Proving Pit (Druid)
-							["qg"] = 38243,	-- Zen'tabra
+							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
 							["sourceQuest"] = 24767,	-- A Rough Start (Druid)
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 58.0, 54.0, ECHO_ISLES },
 								-- #else
-								{ 67.7, 84.7, ECHO_ISLES },
+								{ 67.7, 84.7, DUROTAR },
 								-- #endif
 							},
 							["classes"] = { DRUID },
@@ -459,13 +459,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(24780, {	-- Proving Pit (Hunter)
-							["qg"] = 38247,	-- Ortezza
+							["qg"] = 38247,	-- Ortezza <Hunter Trainer>
 							["sourceQuest"] = 24779,	-- A Rough Start (Hunter)
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 56.4, 50.1, ECHO_ISLES },
 								-- #else
-								{ 67.1, 83.3, ECHO_ISLES },
+								{ 67.1, 83.3, DUROTAR },
 								-- #endif
 							},
 							["classes"] = { HUNTER },
@@ -501,7 +501,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(24786, {	-- Proving Pit (Priest)
-							["qg"] = 38245,	-- Tunari
+							["qg"] = 38245,	-- Tunari <Priest Trainer>
 							["sourceQuest"] = 24785,	-- A Rough Start (Priest)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -516,7 +516,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(24774, {	-- Proving Pit (Rogue)
-							["qg"] = 38244,	-- Legati
+							["qg"] = 38244,	-- Legati <Rogue Trainer>
 							["sourceQuest"] = 24773,	-- A Rough Start (Rogue)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -531,7 +531,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(24762, {	-- Proving Pit (Shaman)
-							["qg"] = 38242,	-- Nekali
+							["qg"] = 38242,	-- Nekali <Shaman Trainer>
 							["sourceQuest"] = 24761,	-- A Rough Start (Shaman)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -546,7 +546,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(26276, {	-- Proving Pit (Warlock)
-							["qg"] = 42618,	-- Voldreka
+							["qg"] = 42618,	-- Voldreka <Warlock Trainer>
 							["sourceQuest"] = 26275,	-- A Rough Start (Warlock)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -561,7 +561,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 						}),
 						q(24642, {	-- Proving Pit (Warrior)
-							["qg"] = 38037,	-- Nortet
+							["qg"] = 38037,	-- Nortet <Warrior Trainer>
 							["sourceQuest"] = 24641,	-- A Rough Start (Warrior)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -585,7 +585,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								{ 63.4, 95.2, DUROTAR },
 								-- #endif
 							},
-							["coord"] = { 44.6, 85.6, ECHO_ISLES },
 							["classes"] = exclude({
 								PALADIN,
 								DEATHKNIGHT,
@@ -640,8 +639,34 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #endif
 								}, ALL_CLASSES),
 						}),
+						q(24766, {	-- The Arts of a Druid
+							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
+							["sourceQuest"] = 24768, -- Proving Pit (Druid)
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 58.0, 54.0, ECHO_ISLES },
+								-- #else
+								{ 67.7, 84.7, DUROTAR },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["classes"] = { DRUID },
+						}),
+						q(24778, {	-- The Arts of a Hunter
+							["qg"] = 38247,	-- Ortezza <Hunter Trainer>
+							["sourceQuest"] = 24780, -- Proving Pit (Hunter)
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 56.4, 50.1, ECHO_ISLES },
+								-- #else
+								{ 67.1, 83.3, DUROTAR },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["classes"] = { HUNTER },
+						}),
 						q(24752, {	-- The Arts of a Mage
-							["qg"] = 38246,	-- Soratha
+							["qg"] = 38246,	-- Soratha <Mage Trainer>
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 59.6, 52, ECHO_ISLES },
@@ -654,29 +679,93 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 						q(31162, {	-- The Arts of a Monk
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
-							["races"] = { TROLL },
 							["classes"] = { MONK },
 						}),
+						q(24784, {	-- The Arts of a Priest
+							["qg"] = 38245,	-- Tunari <Priest Trainer>
+							["sourceQuest"] = 24786, -- Proving Pit (Priest)
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 58.0, 49.3, ECHO_ISLES },
+								-- #else
+								{ 67.7, 83, DUROTAR },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["classes"] = { PRIEST },
+						}),
+						q(24772, {	-- The Arts of a Rogue
+							["qg"] = 38244,	-- Legati <Rogue Trainer>
+							["sourceQuest"] = 24774, -- Proving Pit (Rogue)
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 52.9, 49.9, ECHO_ISLES },
+								-- #else
+								{ 65.9, 83.2, DUROTAR },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["classes"] = { ROGUE },
+						}),
+						q(24760, {	-- The Arts of a Shaman
+							["qg"] = 38242,	-- Nekali <Shaman Trainer>
+							["sourceQuest"] = 24762, -- Proving Pit (Shaman)
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 50.1, 52.8, ECHO_ISLES },
+								-- #else
+								{ 64.9, 84.2, DUROTAR },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["classes"] = { SHAMAN },
+						}),
+						q(26274, {	-- The Arts of a Warlock
+							["qg"] = 42618,	-- Voldreka <Warlock Trainer>
+							["sourceQuest"] = 26276, -- Proving Pit (Warlock)
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 50.0, 50.0, ECHO_ISLES },
+								-- #else
+								{ 64.9, 83.3, DUROTAR },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["classes"] = { WARLOCK },
+						}),
+						q(24640, {	-- The Arts of a Warrior
+							["qg"] = 38037,	-- Nortet <Warrior Trainer>
+							["sourceQuest"] = 24642, -- Proving Pit (Warrior)
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 52.5, 53.7, ECHO_ISLES },
+								-- #else
+								{ 65.8, 84.5, DUROTAR },
+								-- #endif
+							},
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["classes"] = { WARRIOR },
+						}),
 						q(24765, {	-- The Basics: Hitting Things (Druid)
-							["qg"] = 38243,	-- Zen'tabra
+							["qg"] = 38243,	-- Zen'tabra <Druid Trainer>
 							["sourceQuest"] = 24764,	-- The Rise of the Darkspear (Druid)
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 58.0, 54.0, ECHO_ISLES },
 								-- #else
-								{ 67.7, 84.7, ECHO_ISLES },
+								{ 67.7, 84.7, DUROTAR },
 								-- #endif
 							},
 							["classes"] = { DRUID },
 						}),
 						q(24777, {	-- The Basics: Hitting Things (Hunter)
-							["qg"] = 38247,	-- Ortezza
+							["qg"] = 38247,	-- Ortezza <Hunter Trainer>
 							["sourceQuest"] = 24776,	-- The Rise of the Darkspear (Hunter)
 							["coords"] = {
 								-- #if AFTER MOP
 								{ 56.4, 50.1, ECHO_ISLES },
 								-- #else
-								{ 67.1, 83.3, ECHO_ISLES },
+								{ 67.1, 83.3, DUROTAR },
 								-- #endif
 							},
 							["classes"] = { HUNTER },
@@ -701,7 +790,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { MONK },
 						}),
 						q(24783, {	-- The Basics: Hitting Things (Priest)
-							["qg"] = 38245,	-- Tunari
+							["qg"] = 38245,	-- Tunari <Priest Trainer>
 							["sourceQuest"] = 24782,	-- The Rise of the Darkspear (Priest)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -713,7 +802,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { PRIEST },
 						}),
 						q(24771, {	-- The Basics: Hitting Things (Rogue)
-							["qg"] = 38244,	-- Legati
+							["qg"] = 38244,	-- Legati <Rogue Trainer>
 							["sourceQuest"] = 24770,	-- The Rise of the Darkspear (Rogue)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -725,7 +814,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { ROGUE },
 						}),
 						q(24759, {	-- The Basics: Hitting Things (Shaman)
-							["qg"] = 38242,	-- Nekali
+							["qg"] = 38242,	-- Nekali <Shaman Trainer>
 							["sourceQuest"] = 24758,	-- The Rise of the Darkspear (Shaman)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -737,7 +826,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { SHAMAN },
 						}),
 						q(26273, {	-- The Basics: Hitting Things (Warlock)
-							["qg"] = 42618,	-- Voldreka
+							["qg"] = 42618,	-- Voldreka <Warlock Trainer>
 							["sourceQuest"] = 26272,	-- The Rise of the Darkspear (Warlock)
 							["coords"] = {
 								-- #if AFTER MOP
@@ -749,7 +838,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["classes"] = { WARLOCK },
 						}),
 						q(24639, {	-- The Basics: Hitting Things (Warrior)
-							["qg"] = 38037,	-- Nortet
+							["qg"] = 38037,	-- Nortet <Warrior Trainer>
 							["sourceQuest"] = 24607,	-- The Rise of the Darkspear (Warrior)
 							["coords"] = {
 								-- #if AFTER MOP
