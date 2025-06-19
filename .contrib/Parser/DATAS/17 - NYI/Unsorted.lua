@@ -3848,7 +3848,6 @@ root(ROOTS.Unsorted, {
 				i(158818),	-- Canine Tongue \\ PH Flavor - House Stormsong
 				i(158819),	-- Rat Tail \\ PH Flavor - Spider - Insect
 				i(158820),	-- Blind-Worm Sting \\ PH Flavor - Naga Male
-				i(158821),	-- Cracked Mask \\ PH Flavor - Revenant
 				i(158822),	-- Lustrous Black Feather \\ PH Flavor - Wind Serpent
 				i(158823),	-- Malfunctioning Rocket Boots \\ PH Flavor - Unused \\ PH Flavor - Falcon / Gryphon / Owl - Bird
 				i(158824),	-- PH Flavor - Unused \\ PH Flavor - Firefly - Insect

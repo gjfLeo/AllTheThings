@@ -318,6 +318,7 @@ i(155843);	-- Brittle Ceremonial Necklace
 i(158790);	-- Charnel Ash
 i(158863);	-- Chitinous Exoskeleton
 i(158743);	-- Conductive Antennae
+i(158821);	-- Cracked Mask
 i(155607);	-- D.E.H.T.A. Membership Card
 i(155841);	-- Defaced Statuette
 i(155608);	-- Defiled Bone
