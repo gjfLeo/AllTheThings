@@ -1202,7 +1202,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42, 68.4, DUROTAR },
-							["timeline"] = { REMOVED_7_0_3 },
+							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = { TROLL },
 							["classes"] = { ROGUE },
 						}),
@@ -1224,7 +1224,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42, 68.4, DUROTAR },
-							["timeline"] = { REMOVED_7_0_3 },
+							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = { TROLL },
 							["classes"] = { HUNTER },
 						}),
@@ -1264,7 +1264,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42.0, 68.4, DUROTAR },
-							["timeline"] = { REMOVED_7_0_3 },
+							["timeline"] = { REMOVED_4_0_3 },
 							["classes"] = { MAGE },
 							["races"] = { TROLL },
 						}),
@@ -1275,7 +1275,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42.0, 68.4, DUROTAR },
-							["timeline"] = { REMOVED_7_0_3 },
+							["timeline"] = { REMOVED_4_0_3 },
 							["classes"] = { PRIEST },
 							["races"] = { TROLL },
 						}),
@@ -1483,7 +1483,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42, 68.4, DUROTAR },
-							["timeline"] = { REMOVED_7_0_3 },
+							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = { TROLL },
 							["classes"] = { SHAMAN },
 						}),
@@ -1552,7 +1552,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							},
 							["sourceQuest"] = 788,	-- Cutting Teeth
 							["coord"] = { 42, 68.4, DUROTAR },
-							["timeline"] = { REMOVED_7_0_3 },
+							["timeline"] = { REMOVED_4_0_3 },
 							["races"] = { TROLL },
 							["classes"] = { WARRIOR },
 						}),
