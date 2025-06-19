@@ -83,6 +83,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["races"] = { UNDEAD },
 							["isBreadcrumb"] = true,
 						}),
+						q(24969, {	-- Charging into Battle
+							["qg"] = 2119,	-- Dannal Stern <Warrior Trainer>
+							["sourceQuest"] = 3095,	-- Simple Scroll
+							["coord"] = { 32.6, 65.6, DEATHKNELL },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { UNDEAD },
+							["classes"] = { WARRIOR },
+						}),
+						q(24968, {	-- Dark Deeds
+							["qg"] = 2126,	-- Maximillion <Warlock Trainer>
+							["sourceQuest"] = 3099,	-- Tainted Scroll
+							["coord"] = { 30.8, 66.2, DEATHKNELL },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { UNDEAD },
+							["classes"] = { WARLOCK },
+						}),
 						q(3096, {	-- Encrypted Scroll
 							["providers"] = {
 								{ "n", 1569 },	-- Shadow Priest Sarvis
@@ -146,8 +162,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["lvl"] = 5,
 						}),
 						q(24965, {	-- Magic Training
-							["qg"] = 2124,	-- Isabella
+							["qg"] = 2124,	-- Isabella <Mage Trainer>
 							["sourceQuest"] = 3098,	-- Glyphic Scroll
+							["coord"] = { 30.8, 66, DEATHKNELL },
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { MAGE },
@@ -252,7 +269,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["isBreadcrumb"] = true,
 						}),
 						q(24966, {	-- Of Light and Shadows
-							["qg"] = 2123,	-- Dark Cleric Duesten
+							["qg"] = 2123,	-- Dark Cleric Duesten <Priest Trainer>
 							["sourceQuest"] = 3097,	-- Hallowed Scroll
 							["coord"] = { 47.6, 58.4, DEATHKNELL },
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
@@ -402,7 +419,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						})),
 						q(24967, {	-- Stab!
-							["qg"] = 2122, -- David Trias
+							["qg"] = 2122, -- David Trias <Rogue Trainer>
 							["sourceQuest"] = 3096,	-- Encrypted Scroll
 							["coord"] = { 32.6, 65.6, DEATHKNELL },
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
@@ -595,6 +612,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_4_0_3 },
 							["races"] = { UNDEAD },
 						}),
+						q(24964, {	-- The Thrill of the Hunt
+							["qg"] = 38911,	-- Xavier the Huntsman <Hunter Trainer>
+							["sourceQuest"] = 24962,	-- Trail-Worn Scroll
+							["coord"] = { 31.6, 65.6, DEATHKNELL },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { UNDEAD },
+							["classes"] = { HUNTER },
+						}),
 						q(24961, {	-- The Truth of the Grave
 							["qg"] = 1661,	-- Novice Elreth
 							["sourceQuest"] = 28651,	-- Novice Elreth
@@ -627,6 +652,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
 							["races"] = { UNDEAD },
 							["classes"] = { MONK },
+						}),
+						q(24962, {	-- Trail-Worn Scroll
+							["qg"] = 1569,	-- Shadow Priest Sarvis
+							["coord"] = { 30.8, 66.2, DEATHKNELL },
+							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
+							["races"] = { UNDEAD },
+							["classes"] = { HUNTER },
 						}),
 						q(383, {	-- Vital Intelligence
 							["providers"] = {
