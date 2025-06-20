@@ -50,6 +50,7 @@ HeaderAssignments = {
 	["Artillery Tower"] = -1001109,
 	["Aspirant Gear"] = -1000138,
 	["Assault on the Dark Portal"] = -1000309,
+	["Astral Gladiator: The War Within Season 3"] = -1001207,
 	["Atal'ai Defenders"] = -1000185,
 	["Auchindoun"] = -1001099,
 	["Audience with Arrogance"] = -1001040,
@@ -672,4 +673,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001207;
+NextHeaderID = -1001208;

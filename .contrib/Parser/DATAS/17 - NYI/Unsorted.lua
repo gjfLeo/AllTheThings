@@ -2086,9 +2086,6 @@ root(ROOTS.Unsorted, {
 				i(242632),	-- Grotesque Forsaken Great Blade
 				i(242633),	-- Putrid Forsaken Great Blade
 				i(242634),	-- Sickly Forsaken Great Blade
-				i(242740),	-- Grand Helm of the Fire Festival
-				i(242741),	-- Grand Mantle of the Fire Festival
-				i(242742),	-- Grand Belt of the Fire Festival
 
 				-- Feels like Dastarly Dou??? Cosmetics or Trading Post
 				i(243250),	-- Grandmaster's Fire Tunic
@@ -2169,9 +2166,6 @@ root(ROOTS.Unsorted, {
 				i(244225),	-- Ensemble: Banshee's Grotesque Collection
 				i(244226),	-- Ensemble: Banshee's Putrid Collection
 				i(244227),	-- Ensemble: Banshee's Sickly Collection
-				i(244356),	-- Crown of the Frost Lord
-				i(244422),	-- Glazfuris, Scythe of the Deep Chill
-				i(244423),	-- Rethfuras, Scorched Scythe of Cinders
 				i(244540),	-- Charred Flamewake Sprout
 				i(244541),	-- Zin-Azshari Court Scepter
 				i(244542),	-- Chronosmith's Temporal Safeguard
@@ -2245,8 +2239,6 @@ root(ROOTS.Unsorted, {
 			i(246016),	-- Classic Snowy Eye Patch
 			i(246114),	-- Catalyst Elixir
 			i(246127),	-- Healthy Elixir
-			i(246570),	-- Rethfuras, Scorched Stave of Cinders
-			i(246571),	-- Glazfuris, Spire of the Deep Chill
 			i(246730),	-- Landro's Loot Box
 			i(246757),	-- Miniature Roulette Wheel
 			i(246758),	-- Miniature Roulette Wheel
