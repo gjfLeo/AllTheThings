@@ -47,26 +47,6 @@ ach(41980),	-- Vigilante
 ach(42022),	-- A Trusted Partner
 ach(42118),	-- Of Mice and Manaforges
 ach(42131),	-- Tour of Duty: K'aresh
-ach(42149),	-- The War Within Season 3: Resilient Keystone 12
-ach(42150),	-- The War Within Season 3: Resilient Keystone 13
-ach(42151),	-- The War Within Season 3: Resilient Keystone 14
-ach(42152),	-- The War Within Season 3: Resilient Keystone 15
-ach(42153),	-- The War Within Season 3: Resilient Keystone 16
-ach(42154),	-- The War Within Season 3: Resilient Keystone 17
-ach(42155),	-- The War Within Season 3: Resilient Keystone 18
-ach(42156),	-- The War Within Season 3: Resilient Keystone 19
-ach(42157),	-- The War Within Season 3: Resilient Keystone 20
-ach(42158),	-- The War Within Season 3: Resilient Keystone 21
-ach(42159),	-- The War Within Season 3: Resilient Keystone 22
-ach(42160),	-- The War Within Season 3: Resilient Keystone 23
-ach(42161),	-- The War Within Season 3: Resilient Keystone 24
-ach(42162),	-- The War Within Season 3: Resilient Keystone 25
-ach(42169),	-- The War Within Keystone Explorer: Season Three
-ach(42170),	-- The War Within Keystone Conqueror: Season Three
-ach(42171),	-- The War Within Keystone Hero: Season Three
-ach(42172),	-- The War Within Keystone Legend: Season Three
-ach(42173),	-- Keystone Hero: Eco-Dome Al'dani
-ach(42174),	-- [PH] Hero: The War Within Season Three
 ach(42190),	-- Let Me Solo Her: Nexus-Princess Ky'veza
 ach(42191),	-- Safer Deposit
 ach(42193),	-- My Stab-Happy Nemesis
@@ -113,10 +93,5 @@ ach(42781),	-- Heroic: Eco-Dome Al'dani
 ach(42782),	-- Mythic: Eco-Dome Al'dani
 ach(42799),	-- Let Her Solo Me
 ach(42801),	-- Journey's End (Season 3)
-ach(42802),	-- The War Within Season 3: Resilient Keystone 26
-ach(42803),	-- The War Within Season 3: Resilient Keystone 27
-ach(42804),	-- The War Within Season 3: Resilient Keystone 28
-ach(42805),	-- The War Within Season 3: Resilient Keystone 29
-ach(42806),	-- The War Within Season 3: Resilient Keystone 30
 ach(60889),	-- Unraveled and Persevering
 ach(60890),	-- Secrets of the K'areshi
