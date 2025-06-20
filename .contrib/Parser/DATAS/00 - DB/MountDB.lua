@@ -2080,11 +2080,12 @@ i(243596, 1235819);	-- Wailing Banshee's Charger
 ------------------
 -- PATCH 11.2.0 --
 ------------------
+i(248248, 1246781);	-- Azure Void Flyer
+i(247822, 1245517);	-- Scarlet Void Flyer
 --- UNSORTED ---
 i(0, 1233547);	-- Acidic Void Creeper
 i(247792, 1245358);	-- Akil'darah Windscarred
 i(0, 472157);	-- Astral Gladiator's Fel Bat
-i(248248, 1246781);	-- Azure Void Flyer
 i(242733, 1233559);	-- Blue Barry
 i(248761, 1247662);	-- Brewfest Barrel Bomber
 i(246919, 1244259);	-- Cinder-seared Elekk
@@ -2099,7 +2100,6 @@ i(246067, 1240632);	-- Pearlescent Krolusk
 i(242713, 1221132);	-- Resplendent K'arroc
 i(0, 1242272);	-- Royal Voidwing
 i(0, 1233546);	-- Ruby Void Creeper
-i(247822, 1245517);	-- Scarlet Void Flyer
 i(246160, 1241076);	-- Sthaarbs's Last Lunch
 i(0, 1223191);	-- Terror of the Night
 i(0, 1223187);	-- Terror of the Wastes
