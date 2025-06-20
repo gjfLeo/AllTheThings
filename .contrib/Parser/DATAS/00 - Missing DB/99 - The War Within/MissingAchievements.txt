@@ -1,14 +1,4 @@
 11.2.0.61476
-ach(41024),	-- Rival I: The War Within Season 3
-ach(41025),	-- Rival II: The War Within Season 3
-ach(41026),	-- Duelist: The War Within Season 3
-ach(41027),	-- Elite: The War Within Season 3
-ach(41028),	-- Combatant I: The War Within Season 3
-ach(41029),	-- Combatant II: The War Within Season 3
-ach(41030),	-- Challenger I: The War Within Season 3
-ach(41031),	-- Challenger II: The War Within Season 3
-ach(41048),	-- [11.2 PVP] Weapons of Conquest
-ach(41049),	-- Gladiator: The War Within Season 3
 ach(41212),	-- A Round on the House in Khaz Algar
 ach(41597),	-- Glory of the Omega Raider
 ach(41598),	-- Manaforge Omega
@@ -55,18 +45,6 @@ ach(41978),	-- Moonlighter
 ach(41979),	-- Bounty Seeker
 ach(41980),	-- Vigilante
 ach(42022),	-- A Trusted Partner
-ach(42023),	-- Legend: The War Within Season 3
-ach(42024),	-- Strategist: The War Within Season 3
-ach(42033),	-- Astral Legend: The War Within Season 3
-ach(42034),	-- Astral Warlord: The War Within Season 3
-ach(42035),	-- Astral Marshal: The War Within Season 3
-ach(42036),	-- Astral Gladiator: The War Within Season 3
-ach(42037),	-- Hero of the Horde: Astral
-ach(42038),	-- Hero of the Alliance: Astral
-ach(42039),	-- Astral Gladiator's Fel Bat
-ach(42042),	-- Astral Combatant
-ach(42043),	-- Astral Combatant
-ach(42044),	-- Battle Mender: The War Within Season 3
 ach(42118),	-- Of Mice and Manaforges
 ach(42131),	-- Tour of Duty: K'aresh
 ach(42149),	-- The War Within Season 3: Resilient Keystone 12
@@ -134,7 +112,6 @@ ach(42780),	-- Eco-Dome Al'dani
 ach(42781),	-- Heroic: Eco-Dome Al'dani
 ach(42782),	-- Mythic: Eco-Dome Al'dani
 ach(42799),	-- Let Her Solo Me
-ach(42800),	-- Astral Attire
 ach(42801),	-- Journey's End (Season 3)
 ach(42802),	-- The War Within Season 3: Resilient Keystone 26
 ach(42803),	-- The War Within Season 3: Resilient Keystone 27
