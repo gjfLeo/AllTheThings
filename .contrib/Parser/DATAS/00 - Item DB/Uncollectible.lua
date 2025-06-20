@@ -312,9 +312,11 @@ i(153566);	-- "Shiny" Rock
 i(153567);	-- "Smooth" Rock
 i(158862);	-- Ancient Grave Dust
 i(162675);	-- Ashvane Ledger
+i(162978);	-- Blood Magic Ritual Dish
 i(158759);	-- Bloodgorged Sac
 i(158750);	-- Bonebreaker Beak
 i(155843);	-- Brittle Ceremonial Necklace
+i(155649);	-- Broken Zandalari Spear
 i(158790);	-- Charnel Ash
 i(158863);	-- Chitinous Exoskeleton
 i(158743);	-- Conductive Antennae
@@ -326,8 +328,7 @@ i(159756);	-- Depleted Azerite
 i(158792);	-- Digestive Acid
 i(155618);	-- Discarded Molting
 i(158757);	-- Disquiet Earth
-i(162978);	-- Blood Magic Ritual Dish
-i(155649);	-- Broken Zandalari Spear
+i(162976);	-- Exile's Abandoned Memoirs
 i(158210);	-- Fearsome Claw
 i(158760);	-- Fin Ray
 i(155603);	-- Flaky Fish Scales
@@ -337,6 +338,7 @@ i(158865);	-- Ghastly Ooze
 i(158856);	-- Giant Frog Leg
 i(158777);	-- Glimmering Ember
 i(158868);	-- Golden Ornament
+i(162979);	-- Gral-Adorned Astrolabe
 i(158855);	-- Grim Skull Fetish
 i(158860);	-- Grindstone Molar
 i(158765);	-- Hardshell Mollusk
@@ -347,6 +349,7 @@ i(155631);	-- Inert Stone
 i(158749);	-- Intricate Ossicles
 i(157844);	-- Iridescent Speck
 i(158859);	-- Jagged Fang
+i(155593);	-- Keeled Breastbone
 i(162673);	-- Knotted Bowline
 i(159140);	-- Lifeless Clay
 i(158745);	-- Luminous Scale
@@ -356,6 +359,7 @@ i(158778);	-- Mucose Tendril
 i(158831);	-- Parched Honeycomb
 i(158740);	-- Pearly Incisor
 i(155615);	-- Pestilent Muck
+i(162633);	-- Petrified Jungle Orchid
 i(158781);	-- Pilfered Curio
 i(155601);	-- Pointy Leg Segment
 i(158779);	-- Robust Horn
@@ -387,6 +391,9 @@ i(158754);	-- Trueflight Fletching
 i(155844);	-- Unreliable Lodestone
 i(155636);	-- Viscous Ink
 i(158789);	-- Webbed Frill
+i(158834);	-- Winch Coil
+i(162672);	-- Witch Doctor's Juju Beads
+i(158870);	-- Wooly Hair
 i(158773);	-- Wriggling Goop
 
 -----------------
@@ -2400,6 +2407,7 @@ i(236636);	-- Cracked Crysoberyl
 i(236640);	-- Cracked Earthen Singing Bowl
 i(236955);	-- Crimson Valorstone
 i(235038);	-- Crumpled Schematic
+i(235628);	-- Delver's Bounty (probably exist only to display rewards)
 i(236639);	-- Dented Censer
 i(234204);	-- Depleted Battery
 i(237330);	-- Disposable Hamburger
@@ -2430,3 +2438,27 @@ i(231899);	-- Trash
 -- PATCH 11.1.5 --
 ------------------
 i(241632);	-- Heroic Waxy Figurine
+
+------------------
+-- PATCH 11.2.0 --
+------------------
+i(238874);	-- Congealed Mana
+i(238883);	-- Dimly Glowing Scrap
+i(238838);	-- Enlarged Nerve
+i(238886);	-- Faintly Glowing Vellum
+i(238833);	-- Flowing Ridge Spikes
+i(238872);	-- Fragmented Fin
+i(238799);	-- Harrowed Ichor
+i(238813);	-- Irridescent Eye
+i(238812);	-- Long Fibrous Tongue
+i(238869);	-- Matted Pelt
+i(238855);	-- Netherclaw
+i(238873);	-- Serrated Scale Shard
+i(238832);	-- Sinuous Wing Membrane
+i(238836);	-- Spindly Flesh
+i(238847);	-- Torn Maw Fragment
+i(238887);	-- Torn Voidscript Page
+i(238867);	-- Unstable Void Essence
+i(238814);	-- Vibrantly Colored Crest
+i(238866);	-- Void Dust
+i(238841);	-- Void-Seeping Eyeball

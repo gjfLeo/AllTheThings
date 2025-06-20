@@ -817,7 +817,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["DisablePartySync"] = true,
 						}),
 						q(56260, {	-- Unlocking the Power (H)
-							["provider"] = { "n", 154464 },	-- Earthen Guardian
+							["provider"] = { "n", 154465 },	-- Earthen Guardian
 							["coords"] = {
 								-- #if BEFORE SL
 								{ 51.0, 88.8, DAZARALOR },

@@ -1039,38 +1039,21 @@ root(ROOTS.Unsorted, {
 			i(238663),	-- Crystallized Anima
 			i(238664),	-- Crystallized Anima
 			i(238665),	-- Crystallized Anima
-			i(238799),	-- Harrowed Ichor
 			i(238800),	-- Soggy Bone Splinters
 			i(238801),	-- Mite-Kissed Silver Tooth
 			i(238808),	-- Celeste-Touched Fin
 			i(238810),	-- Mana-Blessed Fin
-			i(238812),	-- Long Fibrous Tongue
-			i(238813),	-- Irridescent Eye
-			i(238814),	-- Vibrantly Colored Crest
-			i(238832),	-- Sinuous Wing Membrane
-			i(238833),	-- Flowing Ridge Spikes
 			i(238834),	-- Burnished Void Claw
-			i(238836),	-- Spindly Flesh
-			i(238838),	-- Enlarged Nerve
-			i(238841),	-- Void-Seeping Eyeball
-			i(238847),	-- Torn Maw Fragment
 			i(238848),	-- Void Tendril
 			i(238849),	-- Ominous Unblinking Eye
 			i(238851),	-- Fractured Dragon Scale
 			i(238853),	-- Netherbound Heart
 			i(238854),	-- Sleek Beak
-			i(238855),	-- Netherclaw
 			i(238856),	-- Nightpiercer Feather
 			i(238865),	-- Void-Warped Hoof
-			i(238866),	-- Void Dust
-			i(238867),	-- Unstable Void Essence
 			i(238868),	-- Flickering Primeval Element
-			i(238869),	-- Matted Pelt
 			i(238870),	-- Pearly Incisor
 			i(238871),	-- Luminous Brushtail
-			i(238872),	-- Fragmented Fin
-			i(238873),	-- Serrated Scale Shard
-			i(238874),	-- Congealed Mana
 			i(238875),	-- Twisted Sediment
 			i(238876),	-- Malicious Mandible
 			i(238877),	-- Hollow Mandible
@@ -1079,11 +1062,8 @@ root(ROOTS.Unsorted, {
 			i(238880),	-- Oily Blubber
 			i(238881),	-- Barbed Predator Tusk
 			i(238882),	-- Cursed Eyeball Cluster
-			i(238883),	-- Dimly Glowing Scrap
 			i(238884),	-- Machine Remnant
 			i(238885),	-- Unstable Power Source
-			i(238886),	-- Faintly Glowing Vellum
-			i(238887),	-- Torn Voidscript Page
 			i(238888),	-- Essence of Ephemeral Knowledge
 			i(238889),	-- Eldritch Signal Antenna
 			i(238903),	-- Appropriated Azerothian Camera
@@ -1806,7 +1786,6 @@ root(ROOTS.Unsorted, {
 			i(247795),	-- Ornery Breezestrider
 			i(247820),	-- Cache of K'areshi Treasures
 			i(247821),	-- Cache of K'areshi Treasures
-			i(247822),	-- Scarlet Void Flyer
 			i(247835),	-- Memory of Illidan
 			i(247864),	-- Memory of Arthas
 			i(247865),	-- Memory of Garrosh
@@ -1864,7 +1843,6 @@ root(ROOTS.Unsorted, {
 			i(248199),	-- The Brothers' Final Gift
 			i(248200),	-- The Brothers' Not-So-Final Present
 			i(248242),	-- Algari Token of Merit
-			i(248248),	-- Azure Void Flyer
 			i(248291),	-- Bronzbeard's Ceremonial Crown
 			i(248292),	-- Bronzbeard's Ceremonial Mantle
 			i(248293),	-- Bronzbeard's Ceremonial Chestplate
@@ -1980,8 +1958,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {
 				-- Delves
 				i(242743),	-- Durable Information Securing Container [Trinket]
-				-- Misc
-				i(244848),	-- Severed Threads Commendation
 			}),
 			filter(COSMETIC, {
 				i(242324),	-- Squall Braced Galoshes
@@ -3573,7 +3549,6 @@ root(ROOTS.Unsorted, {
 				i(160104),	-- Links of Faith
 				i(160105),	-- Trick Vest
 				i(160106),	-- Hidden Cannon
-				i(160109),	-- The Fall of Corlain
 				i(160111),	-- Sun Stone
 				i(160112),	-- Bloom Shroom
 				i(160113),	-- Root Ball
@@ -3600,14 +3575,11 @@ root(ROOTS.Unsorted, {
 				i(162611),	-- Carefully Stashed Cache
 				i(162631),	-- Souvenir Tiki Tumbler
 				i(162632),	-- Lavish Sethrallis Figurine
-				i(162633),	-- Petrified Jungle Orchid
 				i(162634),	-- Ancient Nazmani Coins
 				i(162644),	-- Winter Veil Gift
 				i(162689),	-- Scroll of Town Portal
 				i(162773),	-- REUSE ME
 				i(162974),	-- Gently Shaken Gift
-				i(162976),	-- Exile's Abandoned Memoirs
-				i(162979),	-- Gral-Adorned Astrolabe \\ Gral Adorned Astrolabe
 				i(162980),	-- Spindle of Golden Sailthread
 				i(162981),	-- A Steamy Romance Novel: Stormy Seas
 				i(162982),	-- A Steamy Romance Novel: Stormy Seas
@@ -3859,7 +3831,6 @@ root(ROOTS.Unsorted, {
 				i(158830),	-- Jade Sigilstone \\ PH Flavor - Wolf
 				i(158832),	-- Bushy Tail \\ PH Flavor - Kul Tiran
 				i(158833),	-- PH Flavor - Unused \\ PH Flavor - Tiki Mask - Blood Troll
-				i(158834),	-- Winch Coil \\ PH Flavor - Tortollan
 				i(158835),	-- PH Flavor - Unused \\ PH Flavor - Krolusk
 				i(158836),	-- Barbed Stinger \\ PH Flavor - Pirate
 				i(158837),	-- PH Flavor - Unused \\ PH Flavor - Hyena
@@ -3882,7 +3853,6 @@ root(ROOTS.Unsorted, {
 				i(158864),	-- Viscous Webbing \\ PH Flavor - Trogg
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
 				i(158869),	-- Stone Tusk \\ PH Flavor - Venture Co
-				i(158870),	-- Wooly Hair \\ PH Flavor - Undead Devilsaur
 				i(158871),	-- Autographed Painting of Anduin \\ PH Flavor - Unused \\ PH Flavor - Troll Skeleton
 				i(158872),	-- Unstable Essence \\ Tough Sinew \\ PH Flavor - Troll - Sandfury
 				i(158873),	-- Crystalline Honeymead \\ PH Flavor - Dire Troll Female - Blood Troll
@@ -3902,7 +3872,6 @@ root(ROOTS.Unsorted, {
 				i(161211),	-- Ship-in-a-Bottle
 				i(161212),	-- Wavespeaker's Star Chart
 				i(161213),	-- Sagehold Hymnal
-				i(155593),	-- Keeled Breastbone
 				i(158736),	-- Trophy Antlers
 				i(158797),	-- Jar of Truffles
 				i(158858),	-- Adder's Fork
@@ -3953,7 +3922,6 @@ root(ROOTS.Unsorted, {
 				i(162664),	-- Dented Cuirass
 				i(162666),	-- Ripped Satchel
 				i(162667),	-- Farraki Funeral Urn
-				i(162672),	-- Witch Doctor's Juju Beads
 				i(162683),	-- Archaic Dinomancy Carvings
 				i(162684),	-- Etched Dock Cleat
 				i(162685),	-- Overflowing Loa Tribute
