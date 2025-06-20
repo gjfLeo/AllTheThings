@@ -53661,6 +53661,8 @@ localize(L.HEADER_NAMES, {
 	[-1001065] = "Los Cárteles de Minahonda",
 	[-1001066] = "Carreras de C.A.R.R.O.",
 	[-1001078] = "Pack Heroic imbuido de sha",
+	[-1001087] = "Profundidades TWW T1",
+	[-1001088] = "Profundidades TWW T2",
 	[-1001092] = "Dúos despiadados",
 	[-1001098] = "Evento de pre-parche",
 	[-1001108] = "Recompensa de misión de Ciudadela",
@@ -53698,6 +53700,7 @@ localize(L.HEADER_NAMES, {
 	[-1001185] = "Vendedor de banda",
 	[-1001186] = "Vendedor heroico",
 	[-1001187] = "Vendedor mítico",
+	[-1001206] = "Profundidades TWW T3",
 	[-1001207] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
 	[-1001208] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
@@ -59125,6 +59128,8 @@ localize(L.HEADER_NAMES, {
 	[-1001065] = "Cárteles de Minahonda",
 	[-1001066] = "Carreras de M.O.T.O.R",
 	[-1001078] = "Paquete heroico infundido por los sha",
+	[-1001087] = "Abismos TWW T1",
+	[-1001088] = "Abismos TWW T2",
 	[-1001092] = "Dúos indómitos",
 	[-1001098] = "Evento de pre-expansion",
 	[-1001108] = "Recompensa de misión de Fortaleza",
@@ -59134,6 +59139,7 @@ localize(L.HEADER_NAMES, {
 	[-1001180] = "Festival del errante",
 	[-1001186] = "Vendedor de modo heroico",
 	[-1001187] = "Vendedor de modo mítico",
+	[-1001206] = "Abismos TWW T3",
 	[-1001208] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
