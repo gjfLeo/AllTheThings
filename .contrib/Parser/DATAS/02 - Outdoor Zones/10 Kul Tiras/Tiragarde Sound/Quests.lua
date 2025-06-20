@@ -25,7 +25,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 125922 },	-- Brother Therold
 				["g"] = {
-					i(152401),	-- Bunch of Seaweed (QI!)
+					o(273270, {	-- Harbor Seaweed
+						i(152401),	-- Bunch of Seaweed (QI!) (QI!)
+					}),
 					i(160098),	-- Freebooter Bands
 					i(158258),	-- Freebooter Handwraps
 					i(158260),	-- Navigator's Grips
@@ -149,8 +151,18 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 125922 },	-- Brother Therold
 				["g"] = {
-					i(152586),	-- Bundle of Vellum (QI!)
-					i(152585),	-- Seal Blubber (QI!)
+					o(273799, {	-- Bundle of Vellum
+						["coord"] = { 43.2, 29.7, TIRAGARDE_SOUND },
+						["g"] = {
+							i(152586),	-- Bundle of Vellum (QI!)
+						},
+					}),
+					o(273798, {	-- Jar of Blubber
+						["coord"] = { 41.8, 30.0, TIRAGARDE_SOUND },
+						["g"] = {
+							i(152585),	-- Seal Blubber (QI!)
+						},
+					}),
 				},
 			}),
 			q(49737, {	-- Air Raid
@@ -169,7 +181,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 125922 },	-- Brother Therold
 				["g"] = {
-					i(153513),	-- Cleansing Tonic (QI!)
+					i(153513),	-- Cleansing Tonic (PQI!)
 				},
 			}),
 			q(48080, {	-- An Element of Danger
@@ -843,6 +855,9 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 52.5, 28.5, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 				["provider"] = { "n", 125042 },	-- Gora Layton
+				["g"] = {
+					i(153357),	-- Battlehorn of the Mountain (PQI!)
+				},
 			}),
 			q(49178, {	-- My Favorite Things (A)
 				["sourceQuests"] = { 49218 },	-- The Castaways
@@ -1216,7 +1231,10 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(48778, {	-- Stone Soup
-				["provider"] = { "o", 276837 },	-- Recipe Rock
+				["providers"] = {
+					{ "i", 152666 },	-- Recipe Rock (QS!)
+					{ "o", 276837 },	-- Recipe Rock
+				},
 				["coord"] = { 56.1, 17.9, TIRAGARDE_SOUND },
 				["races"] = ALLIANCE_ONLY,
 				["g"] = {

@@ -4104,9 +4104,6 @@ root(ROOTS.Unsorted, {
 				i(150751),	-- Prickly Fruit
 				i(150757),	-- Mallet of Gee'dae
 				i(150758),	-- Mallet of Mambu
-				i(150761),	-- Crystalline Spear
-				i(150762),	-- Woven Basket
-				i(150763),	-- Spiked Pauldrons
 				i(150932),	-- Akunda's Offering
 				i(150937),	-- Blazing Torch
 				i(151025),	-- Pristine Saurid Skin
@@ -4128,10 +4125,6 @@ root(ROOTS.Unsorted, {
 				i(151212),	-- Cracked Engine Block
 				i(151236),	-- Experimental Salve
 				i(151261),	-- Renford's Letter
-				i(151274),	-- Salted Meats
-				i(151275),	-- Worn Leather Satchel
-				i(151276),	-- Cloudy Potion
-				i(151279),	-- Thundering Idol
 				i(151342),	-- Warden's Key
 				i(151364),	-- Hand-Painted War Mask
 				i(151371),	-- Fistful of Razor Quills
@@ -4140,7 +4133,7 @@ root(ROOTS.Unsorted, {
 				i(151376),	-- Unusual Bone Fragment
 				i(151419),	-- Cora's Rocket Pack
 				i(151525),	-- Stolen Artifact
-				i(151527),	-- Block Warden's Key \\ Karybis Block Key \\ Bundy's Key
+				i(151527),	-- Block Warden's Key
 				i(151612),	-- Pure Ooze Sample
 				i(151613),	-- Mire Terror Eye
 				i(151616),	-- Driftwood
@@ -4150,7 +4143,7 @@ root(ROOTS.Unsorted, {
 				i(151723),	-- Idol of Kimbul
 				i(151751),	-- Salty Coconut
 				i(151752),	-- Calhoun's Key
-				i(151762),	-- Ashvane Uniform \\ Signal Flare
+				i(151762),	-- Ashvane Uniform
 				i(151776),	-- Crate of Pork Product
 				i(151778),	-- Shoak's Artifact
 				i(151816),	-- Horde Banner
@@ -4173,7 +4166,6 @@ root(ROOTS.Unsorted, {
 				i(152471),	-- Animate Sphere
 				i(152484),	-- Chadwick Paxton's Legs
 				i(152584),	-- The Last Pearl
-				i(152587),	-- Levae's Missive
 				i(152588),	-- Loa Offerings
 				i(152599),	-- Skyterror Egg
 				i(152613),	-- Sar'jun's Torch
@@ -4184,7 +4176,6 @@ root(ROOTS.Unsorted, {
 				i(152663),	-- Blood Troll Decorative Bands
 				i(152664),	-- Blood Troll Bone Piercing
 				i(152665),	-- Blood Troll Body Paint
-				i(152666),	-- Recipe Rock
 				i(152672),	-- Half-Eaten Supplies
 				i(152673),	-- Heiro's Lucky Tamborine
 				i(152674),	-- Empty Canteen
@@ -4216,15 +4207,12 @@ root(ROOTS.Unsorted, {
 				i(153017),	-- Rough Forktongue Hide
 				i(153030),	-- Flask of Vile Mojo
 				i(153038),	-- Kruga's Poisoned Claw
-				i(153058),	-- Scroll of Fate's Hand
 				i(153112),	-- Scroll of Purging
 				i(153356),	-- Blood-Corrupted Dagger
-				i(153357),	-- Battlehorn of the Mountain
 				i(153358),	-- Zem'lan's Ritual Book
 				i(153359),	-- Captain Gulnaku's Treasure Map
 				i(153360),	-- Pending's Personal Arcanometer
 				i(153361),	-- Soggy Groggy
-				i(153420),	-- Morrison's Master Key
 				i(153429),	-- Hand Grenade
 				i(153481),	-- Shark Fin
 				i(153496),	-- Tasty Treats
@@ -4251,17 +4239,15 @@ root(ROOTS.Unsorted, {
 				i(153579),	-- Heart of Sethraliss
 				i(153580),	-- Tidepearl of the Winds
 				i(153581),	-- Tidepearl of the Currents
-				i(153593),	-- Bloodcrest's Giant Rib
 				i(153675),	-- Scroll of Capsizing
 				i(153677),	-- Pair of Bongos
-				i(153694),	-- Poisoned Dagger
 				i(153696),	-- Zandalari Soul Fragment
 				i(154112),	-- Jam'jen's Oath
 				i(154113),	-- Mugabu's Oath
 				i(154710),	-- Box of Koba's Toys
 				i(154711),	-- Ahn'keg Food
 				i(154712),	-- Lucille's Sewing Kit
-				i(154714),	-- Kenzou's Dagger \\ Disposable Dagger
+				i(154714),	-- Kenzou's Dagger
 				i(154723),	-- Emergency Bucket
 				i(154733),	-- Sethrak Cache Key
 				i(154890),	-- Partially Digested Horde Missive

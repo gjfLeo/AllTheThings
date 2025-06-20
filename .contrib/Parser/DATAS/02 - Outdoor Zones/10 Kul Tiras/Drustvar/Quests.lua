@@ -154,7 +154,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 			q(48522, {	-- A Revealing Missive
-				["provider"] = {"i",152587},	-- Levae's Missive
+				["provider"] = { "i", 152587 },	-- Levae's Missive (QS!)
 				["races"] = ALLIANCE_ONLY,
 				["description"] = "This quest appears to drop from whichever Sister you kill last.",
 				["sourceQuests"] = { 48520 },	-- The Three Sisters
