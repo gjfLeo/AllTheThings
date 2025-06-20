@@ -3803,10 +3803,18 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(41856),	-- Faceless Mask of the Pained
 			ach(41884),	-- Faceless Mask of Vengeance
 			ach(41885),	-- Faceless Mask of Multitudes
-			ach(41930),	-- Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
-			ach(41938),	-- Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
-			ach(41946),	-- Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
-			ach(41947),	-- Greater Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
+			ach(41930, {	-- Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
+				["timeline"] = { REMOVED_11_2_0 },
+			}),
+			ach(41938, {	-- Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
+				["timeline"] = { REMOVED_11_2_0 },
+			}),
+			ach(41946, {	-- Greater Solo Nightmares - Stormwind - Revisited (Hidden Character Achievement)
+				["timeline"] = { REMOVED_11_2_0 },
+			}),
+			ach(41947, {	-- Greater Solo Nightmares - Orgrimmar - Revisited (Hidden Character Achievement)
+				["timeline"] = { REMOVED_11_2_0 },
+			}),
 			ach(41967),	-- Gift of the Titans Unlocked <Hidden>
 			-- 11.1.5.59651
 			ach(41986),	-- Highest Score

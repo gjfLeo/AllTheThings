@@ -229,6 +229,15 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 	n(DELVES_TWW_S3, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+			ach(42801),	-- Journey's End (Season 3)
+			ach(42196),	-- War Within Delves: Tier 4 (Season 3)
+			ach(42197),	-- War Within Delves: Tier 5 (Season 3)
+			ach(42198),	-- War Within Delves: Tier 6 (Season 3)
+			ach(42199),	-- War Within Delves: Tier 7 (Season 3)
+			ach(42200),	-- War Within Delves: Tier 8 (Season 3)
+			ach(42201),	-- War Within Delves: Tier 9 (Season 3)
+			ach(42202),	-- War Within Delves: Tier 10 (Season 3)
+			ach(42203),	-- War Within Delves: Tier 11 (Season 3)
 		})),
 		-- TWW Season 3 Boss
 	}),
@@ -683,6 +692,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(40635, {	-- Branntastic
+			["maps"] = ALL_THE_DELVES,
+		}),
+		ach(42676, {	-- Buddy System IX
+			["timeline"] = { ADDED_11_2_0_SEASONSTART },
 			["maps"] = ALL_THE_DELVES,
 		}),
 		ach(41723, {	-- Buddy System VIII

@@ -173,6 +173,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		},{
 			ach(42169),	-- The War Within Keystone Explorer: Season Three
 			ach(42170),	-- The War Within Keystone Conqueror: Season Three
+			ach(41973),	-- The War Within Keystone Master: Season Three
 			ach(42171),	-- The War Within Keystone Hero: Season Three
 			ach(42172),	-- The War Within Keystone Legend: Season Three
 			ach(42174),	-- [PH] Hero: The War Within Season Three

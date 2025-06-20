@@ -40,7 +40,6 @@ ach(41888),	-- Runed of the Ethereal
 ach(41892),	-- Gilded of the Ethereal
 ach(41937),	-- The War Within Season 3: Voidborne Victor
 ach(41970),	-- The Knife's Edge
-ach(41973),	-- The War Within Keystone Master: Season Three
 ach(41978),	-- Moonlighter
 ach(41979),	-- Bounty Seeker
 ach(41980),	-- Vigilante
@@ -51,17 +50,8 @@ ach(42190),	-- Let Me Solo Her: Nexus-Princess Ky'veza
 ach(42191),	-- Safer Deposit
 ach(42193),	-- My Stab-Happy Nemesis
 ach(42194),	-- Pruning the Princess
-ach(42196),	-- War Within Delves: Tier 4 (Season 3)
-ach(42197),	-- War Within Delves: Tier 5 (Season 3)
-ach(42198),	-- War Within Delves: Tier 6 (Season 3)
-ach(42199),	-- War Within Delves: Tier 7 (Season 3)
-ach(42200),	-- War Within Delves: Tier 8 (Season 3)
-ach(42201),	-- War Within Delves: Tier 9 (Season 3)
-ach(42202),	-- War Within Delves: Tier 10 (Season 3)
-ach(42203),	-- War Within Delves: Tier 11 (Season 3)
 ach(42316),	-- Fractals? For Spring? Groundbreaking.
 ach(42325),	-- Void Wear Prohibited
-ach(42676),	-- Buddy System IX
 ach(42677),	-- This Machine Flies?! Don't Care I Got It!
 ach(42678),	-- So That's Where My Manaflux Capacitor Was!
 ach(42679),	-- Archival Assault Discoveries
@@ -92,6 +82,5 @@ ach(42780),	-- Eco-Dome Al'dani
 ach(42781),	-- Heroic: Eco-Dome Al'dani
 ach(42782),	-- Mythic: Eco-Dome Al'dani
 ach(42799),	-- Let Her Solo Me
-ach(42801),	-- Journey's End (Season 3)
 ach(60889),	-- Unraveled and Persevering
 ach(60890),	-- Secrets of the K'areshi
