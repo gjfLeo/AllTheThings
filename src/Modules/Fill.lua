@@ -612,7 +612,7 @@ local function FillGroupsLayeredAsync(group, FillData)
 end
 local function RunGroupsLayeredAsync(FillData)
 	local g = FillData.NextLayer;
-	if #g > 0 then
+	if g and #g > 0 then
 		-- if FillData.CurrentLayer then
 		-- 	app.PrintDebug("FillLayered",FillData.CurrentLayer,#g)
 		-- 	FillData.CurrentLayer = FillData.CurrentLayer + 1
