@@ -259,7 +259,7 @@ local MERCHANT_GROUPS = {
 		["timeline"] = { ADDED_10_1_0 },
 	}),
 	i(242742, {	-- Grand Belt of the Fire Festival (COSMETIC!)
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = { { "i", 23247, 150 } },	-- Burning Blossom
 		["timeline"] = { ADDED_11_1_7 },
 	}),
 	i(242740, {	-- Grand Helm of the Fire Festival (COSMETIC!)
