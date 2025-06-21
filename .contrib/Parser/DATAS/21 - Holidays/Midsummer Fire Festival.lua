@@ -668,6 +668,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = { ADDED_10_1_0 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
+			ach(41631, {	-- Flame Warden of Khaz Algar (A)
+				["timeline"] = { ADDED_11_1_7 },
+				["sym"] = {{ "achievement_criteria" }},
+			}),
 		})),
 		n(FACTION_HEADER_HORDE, bubbleDown({ ["races"] = HORDE_ONLY }, {
 			ach(1039, {	-- The Flame Keeper (Horde)
@@ -788,6 +792,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			}),
 			ach(13340, {	-- Flame Keeper of Zandalar (H)
 				["timeline"] = { ADDED_8_1_5 },
+				["sym"] = {{ "achievement_criteria" }},
+			}),
+			ach(41632, {	-- Flame Keeper of Khaz Algar (A)
+				["timeline"] = { ADDED_11_1_7 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
 		})),
@@ -3162,24 +3170,24 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					["timeline"] = { ADDED_10_1_0 },
 				}),
 				honortheflame(87356, {	-- Honor the Flame - Azj-Kahet
-					--["qg"] = ?,	-- ?
-					--["coord"] = { ?, ?, AZJ_KAHET },
-					["timeline"] = { ADDED_11_1_5 },
+					["qg"] = 238339,	-- Azj-Kahet Flame Guardian
+					["coord"] = { 55.54, 43.43, AZJ_KAHET },
+					["timeline"] = { ADDED_11_1_7 },
 				}),
 				honortheflame(87355, {	-- Honor the Flame - Hallowfall
-					--["qg"] = ?,	-- ?
-					--["coord"] = { ?, ?, HALLOWFALL },
-					["timeline"] = { ADDED_11_1_5 },
+					["qg"] = 238338,	-- Hallowfall Guardian
+					["coord"] = { 42.45, 51.59, HALLOWFALL },
+					["timeline"] = { ADDED_11_1_7 },
 				}),
 				honortheflame(87342, {	-- Honor the Flame - Isle of Dorn
-					--["qg"] = ?,	-- ?
-					--["coord"] = { ?, ?, ISLE_OF_DORN },
-					["timeline"] = { ADDED_11_1_5 },
+					["qg"] = 238236,	-- Isle of Dorn Flame Guardian
+					["coord"] = { 48.52, 51.66, DORNOGAL },
+					["timeline"] = { ADDED_11_1_7 },
 				}),
 				honortheflame(87357, {	-- Honor the Flame - The Ringing Deeps
-					--["qg"] = ?,	-- ?
-					--["coord"] = { ?, ?, THE_RINGING_DEEPS },
-					["timeline"] = { ADDED_11_1_5 },
+					["qg"] = 238340,	-- The Ringing Deeps Guardian
+					["coord"] = { 43.65, 32.59, THE_RINGING_DEEPS },
+					["timeline"] = { ADDED_11_1_7 },
 				}),
 			},
 		}),
