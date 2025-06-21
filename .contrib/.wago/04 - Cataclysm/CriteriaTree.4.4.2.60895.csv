@@ -8271,7 +8271,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121712,"Terror Pit Girdle",121678,1,0,4888,0,2
 121713,"Warbringer Chestguard",121678,1,0,4903,0,2
 121715,"Win Eye of the Storm.",121714,1,0,5897,0,2
-121717,"Complete 100 victories in Eye of the Storm",121716,100,0,5897,0,1
+121716,"Complete 100 victories in Eye of the Storm",0,100,5,0,0,0
+121717,"Complete 100 victories in Eye of the Storm",121716,100,0,5897,1,3
 121719,"Capture a flag with 4 bases held",121718,1,0,3693,0,2
 121721,"Terror Run",121720,1,0,1455,0,0
 121722,"Golakka Hot Springs",121720,1,0,1454,0,0
@@ -8595,9 +8596,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122165,"300,000 healing in Isle of Conquest",122154,300000,0,12378,0,3
 122166,"Do 300,000 Damage in Isle of Conquest",122154,300000,0,12379,0,3
 122168,"Level to 80",122167,80,0,5213,0,2
+122276,"Thistle Tea",122252,0,0,4718,0,2
 122170,"Argent Crusade exalted",122169,42000,0,4737,0,2
 122172,"The Oracles exalted",122171,42000,0,4740,0,2
-122440,"Wild Winter Pilsner",122252,0,0,10978,0,2
 122174,"Skarvald the Constructor",122173,1,0,5378,0,0
 122175,"Ingvar the Plunderer",122173,1,0,5621,0,0
 122176,"Prince Keleseth",122173,1,0,5377,0,0
@@ -8675,7 +8676,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122273,"Bash Ale",122252,0,0,4654,0,2
 122274,"Blackrock Fortified Water",122252,0,0,4656,0,2
 122275,"Sweet Nectar",122252,0,0,4717,0,2
-122276,"Thistle Tea",122252,0,0,4718,0,2
 122277,"Glass of Dalaran White",122252,0,0,8867,0,2
 122278,"Blackrock Mineral Water",122252,0,0,4657,0,2
 122279,"Blackrock Spring Water",122252,0,0,4658,0,2
@@ -8836,6 +8836,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122436,"Izzard's Ever Flavor",122252,0,0,10501,0,2
 122437,"Aromatic Honey Brew",122252,0,0,5191,0,2
 122439,"Metok's Bubble Bock",122252,0,0,10504,0,2
+122440,"Wild Winter Pilsner",122252,0,0,10978,0,2
 122441,"Tournament Brew",122252,0,0,10618,0,2
 122442,"Autumnal Acorn Ale",122252,0,0,10498,0,2
 122444,"Stormgarde Muenster",122443,0,0,7087,0,2
@@ -9384,7 +9385,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123012,"Silverpine Forest",122988,1,0,1292,0,0
 123013,"Swamp of Sorrows",122988,1,0,1294,0,0
 123015,"Fished up Lurker",123014,1,0,3622,0,2
-123016,"Eye of the Storm victories",0,0,4,0,0,0
+123016,"Eye of the Storm victories",0,0,5,0,0,0
 123019,"Arathi Basin victories",123018,0,0,5896,0,0
 123021,"Get a reputation to exalted",123020,1,0,982,0,2
 123023,"10 reputations to Exalted",123022,10,0,982,0,1
@@ -9551,7 +9552,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123232,"School of Darter",123228,1,0,3868,0,0
 123233,"Highland Mixed School",123228,1,0,3869,0,0
 123234,"Sporefish School",123228,1,0,3870,0,0
-123567,"Thrallmar Tabard",123544,1,0,2931,22,2
 123236,"86 Blade's Edge Mountains quests",123235,86,0,3587,0,1
 123238,Corporal,123237,0,0,739,0,2
 123240,Meathook,123239,1,0,5467,0,0
@@ -9788,6 +9788,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123564,"Tabard of the Argent Dawn",123544,1,0,2925,19,2
 123565,"Tabard of the Defender",123544,1,0,2926,20,2
 123566,"Tabard of the Shattered Sun",123544,1,0,2929,21,2
+123567,"Thrallmar Tabard",123544,1,0,2931,22,2
 123568,"Tranquillien Tabard",123544,1,0,2932,23,2
 123569,"Warsong Battle Tabard",123544,1,0,2933,24,2
 123570,"Stormpike Battle Tabard",123544,1,0,2916,25,2
@@ -10503,6 +10504,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124555,"Vestments of the Oracle",124521,1,0,8902,0,2
 124556,"Doomcaller's Robes",124521,1,0,4456,0,2
 124557,"Ring of the Godslayer",124521,1,0,4592,0,2
+124745,"Render's Camp",124738,1,0,1190,0,0
 124562,"Kill 2 flag carriers before they leave the Silverwing Flag Room",124561,2,0,7020,0,1
 124564,"30 hks in wsg",124563,30,0,1823,0,2
 124565,"30 hks in arathi",124563,30,0,1820,0,2
@@ -10656,7 +10658,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124741,"Stonewatch Falls",124738,1,0,1194,0,0
 124743,Lakeshire,124738,1,0,1185,0,0
 124744,"Three Corners",124738,1,0,1186,0,0
-124745,"Render's Camp",124738,1,0,1190,0,0
 124746,"Alther's Mill",124738,1,0,1191,0,0
 124747,"Lakeridge Highway",124738,1,0,1187,0,0
 124748,"Redridge Canyons",124738,1,0,1189,0,0
@@ -12347,6 +12348,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126967,"Vehicular Gnomeslaughter",126958,0,0,9769,0,0
 126968,"Leaning Tower",126958,0,0,9770,0,0
 126969,"Didn't Stand a Chance",126958,0,0,9771,0,0
+126970,"Capture the flag",0,1,8,0,0,0
 126971,"Capture the flag",126970,1,0,438,0,2
 126973,"Thistlefur Village",126972,1,0,1326,0,0
 126974,Astranaar,126972,1,0,1329,0,0
@@ -12867,7 +12869,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127722,"Wetlands, Menethil Harbor",127718,1,0,2142,0,0
 127723,"Duskwood, Darkshire",127718,1,0,2133,0,0
 127724,"Loch Modan, Thelsamar",127718,1,0,2138,0,0
-127823,"To The Rescue!",127816,0,0,3421,0,0
 127725,"Redridge Mountains, Lakeshire",127718,1,0,2139,0,0
 127726,"The Hinterlands, Aerie Peak",127718,1,0,2136,0,0
 127727,"Westfall, Sentinel Hill",127718,1,0,2141,0,0
@@ -12946,6 +12947,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127820,"Territorial Dominance",127816,0,0,3423,0,0
 127821,"We Had It All Along *cough*",127816,0,0,3427,0,0
 127822,"Arathi Basin All-Star",127816,0,0,3429,0,0
+127823,"To The Rescue!",127816,0,0,3421,0,0
 127824,"Arathi Basin Assassin",127816,0,0,3430,0,0
 127825,"Disgracin' The Basin",127816,0,0,3419,0,0
 127826,"Overly Defensive",127816,0,0,3420,0,0
@@ -13573,9 +13575,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128618,"You Don't Have An Eternity (25 player)",128609,0,0,7544,7,0
 128619,"Shocking! (25 player)",128609,0,0,7607,8,0
 128622,"Gonna Go When the Volcano Blows (25 player)",128609,0,0,7546,9,0
+128731,Hodir,128728,1,0,10239,0,2
 128623,"The Spellweaver's Downfall (25 player)",128609,0,0,7543,10,0
 128624,"The Hundred Club (25 player)",128609,0,0,7569,11,0
-128735,Freya,128734,1,0,10394,0,2
 128626,"The Twilight Zone (25 player)",128609,0,0,7547,12,0
 128628,"Obtain 10 mounts",128627,10,0,4787,0,1
 128630,"Obtain 50 mounts",128629,50,0,4787,0,1
@@ -13653,8 +13655,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128727,"Riding the Red Rocket",128718,1,0,7286,0,0
 128729,Hodir,128728,1,0,10229,0,2
 128730,Hodir,128728,1,0,10238,0,2
-128731,Hodir,128728,1,0,10239,0,2
 128733,"Loot 1000 Stone Keeper's Shards",128732,1000,0,7403,0,1
+128735,Freya,128734,1,0,10394,0,2
 128736,Freya,128734,1,0,10395,0,2
 128738,Kologarn,128737,1,0,10286,0,2
 128742,"Sartharion the Onyx Guardian",128741,1,0,7330,0,2
@@ -15571,7 +15573,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130859,"Dalaran Doughnut",130552,0,0,6562,0,2
 130860,"Dalaran Sharp",130552,0,0,6563,0,2
 130861,"Darnassian Bleu",130552,0,0,6565,0,2
-130943,"Lobster Stew",130552,0,0,6742,0,2
 130862,"Deep Fried Plantains",130552,0,0,6568,0,2
 130863,"Delicious Cave Mold",130552,0,0,6571,0,2
 130864,"Deviate Fish",130552,0,0,6573,0,2
@@ -15653,6 +15654,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130940,"Fissure Plant",130552,0,0,6683,0,2
 130941,"Grilled Sculpin",130552,0,0,6705,0,2
 130942,"Kaldorei Spider Kabob",130552,0,0,6736,0,2
+130943,"Lobster Stew",130552,0,0,6742,0,2
 130944,"Smoked Salmon",130552,0,0,7007,0,2
 130945,"Smoked Talbuk Venison",130552,0,0,7008,0,2
 130946,"Soft Banana Bread",130552,0,0,7011,0,2
@@ -17810,7 +17812,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 133700,"Defeat the Blood Prince Council",133699,1,0,13122,0,0
 133702,"Defeat the Blood Prince Council",133701,1,0,13359,0,0
 133704,"Defeat the Blood Prince Council",133703,1,0,13123,0,0
-133854,"Lady Deathwhisper",133852,1,0,13106,0,0
 133706,"Rescue Valithiria Dreamwalker",133705,1,0,13125,0,0
 133708,"Rescue Valithiria Dreamwalker",133707,1,0,13355,0,0
 133710,"Rescue Valithiria Dreamwalker",133709,1,0,13126,0,0
@@ -17895,6 +17896,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 133850,"Rescue Valithria Dreamwalker",133849,1,0,13125,0,0
 133851,Sindragosa,133849,1,0,13134,0,0
 133853,"Lord Marrowgar",133852,1,0,13091,0,0
+133854,"Lady Deathwhisper",133852,1,0,13106,0,0
 133855,"Claim victory in the Gunship Battle",133852,1,0,13111,0,0
 133856,"The Deathbringer",133852,1,0,13114,0,0
 133858,Festergut,133857,1,0,13117,0,0
@@ -19777,6 +19779,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 207735,,207734,5,0,103583,0,0
 207737,,207736,5,0,103584,0,0
 207739,,207738,5,0,103585,0,0
+209977,"Eye of the Storm victories",123016,0,0,5897,1,0
+209978,"Complete 100 victories in Eye of the Storm",121716,100,0,5745,0,3
+209979,"Capture the flag",126970,1,0,33092,1,2
+210768,,210767,85,0,105446,0,2
 138064,"Receive a Glowing Pebble from Pebble the penguin.",0,0,4,0,0,0
 138065,"Glowing Pebble",138064,1,0,55087,0,2
 22,server-only,0,0,4,0,0,2
@@ -20884,7 +20890,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121665,,0,0,4,0,0,0
 121667,,0,0,4,0,0,0
 121714,,0,0,4,0,0,0
-121716,,0,0,4,0,0,0
 121718,,0,0,4,0,0,0
 121720,,0,0,4,0,0,0
 121728,,0,0,4,0,0,0
@@ -21494,7 +21499,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126939,,0,0,4,0,0,0
 126949,,0,0,4,0,0,0
 126958,,0,0,4,0,0,0
-126970,,0,0,4,0,0,0
 126972,,0,0,4,0,0,0
 126991,,0,0,4,0,0,0
 127001,,0,0,4,0,0,0
@@ -23117,3 +23121,4 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 206788,"Player is Alliance and Achieved Hero of the Faction (RBG top .5%)",0,0,4,0,0,0
 206790,"Player is Horde and Achieved Hero of the Faction (RBG top .5%)",0,0,4,0,0,0
 207623,"[DNT] Joyous Journeys - Reach Level 85 with buff Joyous Journeys (hidden)",0,0,4,0,0,2
+210767,"[DNT] Joyous Journeys - Reach Level 85 with buff Joyous Journeys (hidden)",0,0,4,0,0,2
