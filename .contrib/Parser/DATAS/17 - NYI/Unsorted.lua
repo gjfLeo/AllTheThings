@@ -969,7 +969,6 @@ root(ROOTS.Unsorted, {
 			i(238663),	-- Crystallized Anima
 			i(238664),	-- Crystallized Anima
 			i(238665),	-- Crystallized Anima
-			i(238800),	-- Soggy Bone Splinters
 			i(238801),	-- Mite-Kissed Silver Tooth
 			i(238808),	-- Celeste-Touched Fin
 			i(238810),	-- Mana-Blessed Fin
@@ -984,7 +983,6 @@ root(ROOTS.Unsorted, {
 			i(238868),	-- Flickering Primeval Element
 			i(238870),	-- Pearly Incisor
 			i(238871),	-- Luminous Brushtail
-			i(238875),	-- Twisted Sediment
 			i(238876),	-- Malicious Mandible
 			i(238877),	-- Hollow Mandible
 			i(238878),	-- Shadow-Touched Fang

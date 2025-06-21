@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84956, {	-- A Shadowy Invitation
 						--["sourceQuests"] = { xx },	-- TODO: does it exist?
 						["provider"] = { "n", 227758 },	-- Alleria Windrunner
-						["coord"] = { 42.3, 26.8, DORNOGAL },
+						["coord"] = { 42.4, 26.9, DORNOGAL },
 					}),
 					q(84957, {	-- Return to the Veiled Market
 						["sourceQuests"] = { 84956 },	-- A Shadowy Invitation
@@ -19,17 +19,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(85003, {	-- Restoring Operational Efficiency
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230604 },	-- Om'en
-						["coord"] = { 59.4, 83.1, 2472 },
+						["coord"] = { 59.5, 83.1, TAZAVESH },
 					}),
 					q(84958, {	-- Beasts Unbound
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230954 },	-- Ta'ka
-						["coord"] = { 56.8, 73.0, 2472 },
+						["coord"] = { 56.8, 73.0, TAZAVESH },
 					}),
 					q(85039, {	-- Compromised Containment
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 231564 },	-- Xy'bin
-						["coord"] = { 56.6, 72.8, 2472 },
+						["coord"] = { 56.6, 72.9, TAZAVESH },
 						["g"] = {
 							i(237891),	-- Menagerie's Lost Relic
 							i(237894),	-- Pendant of Arcane Havoc
@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84959, {	-- Lost Lines of Defense
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230955 },	-- Ba'ver
-						["coord"] = { 53.1, 64.4, 2472 },
+						["coord"] = { 53.1, 64.4, TAZAVESH },
 						["g"] = {
 							o(469475, {	-- Stolen Barrier Projector
 								i(235366),	-- Stolen Barrier Projector (QI!)
@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84960, {	-- The Darkness Among Us
 						["sourceQuests"] = { 85003 },	-- Restoring Operational Efficiency TODO: There is no point to list all quests, I guess?
 						["provider"] = { "n", 233706 },	-- Locus-Walker
-						["coord"] = { 59.7, 83.4, 2472 },
+						["coord"] = { 59.7, 83.4, TAZAVESH },
 						["g"] = {
 							i(237890),	-- Band of the Unseen Hand
 							i(237893),	-- Ring of Lingering Shadows
@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84963, {	-- Sealing the Shadows
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234601 },	-- Om'en
-						["coord"] = { 54.1, 63.7, 2472 },
+						["coord"] = { 54.1, 63.7, TAZAVESH },
 						["g"] = {
 							i(233199),	-- Saturated Entropic Core (QI!)
 							--
@@ -82,18 +82,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84961, {	-- Barriers to Entry
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234596 },	-- Locus-Walker
-						["coord"] = { 54.1, 63.1, 2472 },
+						["coord"] = { 54.2, 63.1, TAZAVESH },
 						["g"] = {
 							o(502525, {	-- Barrier Projector
 								["coords"] = {
-									{ 41.3, 49.1, 2472 },
-									{ 46.0, 51.2, 2472 },
-									{ 49.8, 57.9, 2472 },
-									{ 52.5, 46.8, 2472 },
-									{ 51.3, 41.2, 2472 },
-									{ 44.4, 36.3, 2472 },
-									{ 39.5, 42.0, 2472 },
-									{ 58.4, 32.8, 2472 },
+									{ 41.3, 49.1, TAZAVESH },
+									{ 46.0, 51.2, TAZAVESH },
+									{ 49.8, 57.9, TAZAVESH },
+									{ 52.5, 46.8, TAZAVESH },
+									{ 51.3, 41.2, TAZAVESH },
+									{ 44.4, 36.3, TAZAVESH },
+									{ 39.5, 42.0, TAZAVESH },
+									{ 58.4, 32.8, TAZAVESH },
 								},
 							}),
 						},
@@ -101,7 +101,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84964, {	-- Heroes Among Shadow
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234602 },	-- Alleria Windrunner
-						["coord"] = { 53.7, 63.2, 2472 },
+						["coord"] = { 53.7, 63.2, TAZAVESH },
 						["g"] = {
 							i(238193),	-- Blade of Unyielding Will
 							i(238194),	-- Blaster of Unyielding Will
@@ -121,35 +121,35 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84964,	-- Heroes Among Shadow
 							84963,	-- Sealing the Shadows
 						},
-						["provider"] = { "n", 234483 },	-- Alleria Windrunner
-						--["coord"] = { 53.7, 63.2, 2472 }, mobileNPC
+						["provider"] = { "n", 234483 },	-- Alleria Windrunner (mobileNPC)
+						-- She is following you around. Coordinates depend on where you turned in previous cluster of quests
 					}),
 					q(86835, {	-- Regroup!
 						["sourceQuests"] = { 84965 },	-- Core Contributions
-						["provider"] = { "n", 234483 },	-- Alleria Windrunner
-						--["coord"] = { 53.7, 63.2, 2472 }, mobileNPC
+						["provider"] = { "n", 234483 },	-- Alleria Windrunner (mobileNPC)
+						-- She is following you around. Coordinates depend on where you turned in previous quest
 					}),
 					q(84967, {	-- The Shadowguard Shattered
 						["sourceQuests"] = { 86835 },	-- Regroup!
 						["provider"] = { "n", 234620 },	-- Locus-Walker
-						["coord"] = { 40.5, 67.7, 2472 },
+						["coord"] = { 40.5, 67.8, TAZAVESH },
 					}),
 				--}),
 				--header(HEADERS.AchCriteria, 41970.02, {	-- Chapter 2: Void Alliance
 					q(85032, {	-- What Is Left of Home
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 231128 },	-- Locus-Walker
-						["coord"] = { 37.6, 74.7, 2472 },
+						["coord"] = { 37.7, 74.8, TAZAVESH },
 					}),
 					q(85961, {	-- Moving the Pawns
 						["sourceQuests"] = { 85032 },	-- What Is Left of Home
 						["provider"] = { "n", 230700 },	-- Locus-Walker
-						["coord"] = { 34.0, 10.9, 2472 },
+						["coord"] = { 34.0, 10.9, TAZAVESH },
 					}),
 					q(84855, {	-- Dead Silence
 						["sourceQuests"] = { 85032 },	-- What Is Left of Home
 						["provider"] = { "n", 230806 },	-- Locus-Walker
-						["coord"] = { 48.2, 36.6, KARESH },
+						["coord"] = { 48.2, 36.7, KARESH },
 						["g"] = {
 							i(237861),	-- Cowl of the Lost Trust
 							i(237873),	-- Coif of the Lost Trust
@@ -160,7 +160,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(86495, {	-- The Reshii Ribbon
 						["sourceQuests"] = { 84855 },	-- Dead Silence
 						["provider"] = { "n", 234106 },	-- Locus-Walker
-						["coord"] = { 48.1, 36.5, KARESH },
+						["coord"] = { 48.2, 36.6, KARESH },
 					}),
 					q(84856, {	-- Where the Void Gathers
 						["sourceQuests"] = { 86495 },	-- The Reshii Ribbon
@@ -298,32 +298,32 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					------ Bonus Objective ------
 					q(84966, {	-- Break the Assault
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
-						["coord"] = { 54.0, 63.7, 2472 },
+						["coord"] = { 54.1, 63.7, TAZAVESH },
 					}),
 					------ Stay awhile and listen ------
 					--hqt(???, {	-- Stay awhile and listen: Locus-Walker / 61476 - no questID
 					--	["name"] = "Stay awhile and listen: Locus-Walker",
 					--	["sourceQuests"] = { 84957 },	-- Return to the Veiled Market
 					--	["provider"] = { "n", 233706 },	-- Locus-Walker
-					--	["coord"] = { 59.7, 83.4, 2472 },
+					--	["coord"] = { 59.7, 83.4, TAZAVESH },
 					--}),
 					---hqt(???, {	-- Stay awhile and listen: Alleria Windrunner / 61476 - no questID
 					---	["name"] = "Stay awhile and listen: Alleria Windrunner",
 					---	["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 					---	["provider"] = { "n", 230609 },	-- Alleria Windrunner
-					---	["coord"] = { 54.7, 66.9, 2472 },
+					---	["coord"] = { 54.7, 66.9, TAZAVESH },
 					---}),
 					hqt(90600, {	-- Stay awhile and listen: Xal'atath
 						["name"] = "Stay awhile and listen: Xal'atath",
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 235448 },	-- Xal'atath
-						["coord"] = { 37.4, 74.7, 2472 },
+						["coord"] = { 37.5, 74.7, TAZAVESH },
 					}),
 					hqt(90732, {	-- Stay awhile and listen: Alleria Windrunner
 						["name"] = "Stay awhile and listen: Alleria Windrunner",
 						["sourceQuests"] = { 85032 },	-- What Is Left of Home
 						["provider"] = { "n", 240293 },	-- Alleria Windrunner
-						["coord"] = { 34.1, 10.6, 2472 },
+						["coord"] = { 34.2, 10.6, TAZAVESH },
 					}),
 					---hqt(???, {	-- Stay awhile and listen: Alleria Windrunner / 61476 - no questID
 					---	["name"] = "Stay awhile and listen: Alleria Windrunner",
