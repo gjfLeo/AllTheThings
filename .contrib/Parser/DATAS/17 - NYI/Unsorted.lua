@@ -2269,10 +2269,6 @@ root(ROOTS.Unsorted, {
 			i(237509),	-- Bottle of Invisibility
 			i(237510),	-- Goblet
 			i(237511),	-- Vial of Healing
-			i(240199),	-- Podium Upgrade: Scrappiest
-			i(240200),	-- Podium Upgrade: Longest Survival Run
-			i(240201),	-- Podium Upgrade: Longest Time in Spotlights
-			i(240202),	-- Podium Upgrade: Most Yards Traveled
 			i(243245),	-- Gears Grabbed
 			i(243249),	-- Khaz Algar Adventurer Pack \\ Khaz Algar Gift Pack
 			i(241616),	-- The Underpin

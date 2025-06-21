@@ -433,9 +433,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 						["timeline"] = {
 							ADDED_4_0_1,
 							-- #if ANYCLASSIC
-							REMOVED_4_4_2
+							REMOVED_4_4_2,
 							-- #else
-							REMOVED_5_0_4
+							REMOVED_5_0_4,
 							-- #endif
 						},
 					}),
@@ -520,9 +520,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = {
 					ADDED_4_0_1,
 					-- #if ANYCLASSIC
-					REMOVED_4_4_2
+					REMOVED_4_4_2,
 					-- #else
-					REMOVED_5_0_4
+					REMOVED_5_0_4,
 					-- #endif
 				},
 			}),
@@ -530,9 +530,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = {
 					ADDED_4_0_1,
 					-- #if ANYCLASSIC
-					REMOVED_4_4_2
+					REMOVED_4_4_2,
 					-- #else
-					REMOVED_5_0_4
+					REMOVED_5_0_4,
 					-- #endif
 				},
 			}),
@@ -540,9 +540,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = {
 					ADDED_4_0_1,
 					-- #if ANYCLASSIC
-					REMOVED_4_4_2
+					REMOVED_4_4_2,
 					-- #else
-					REMOVED_5_0_4
+					REMOVED_5_0_4,
 					-- #endif
 				},
 			}),
@@ -550,9 +550,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = {
 					ADDED_4_0_1,
 					-- #if ANYCLASSIC
-					REMOVED_4_4_2
+					REMOVED_4_4_2,
 					-- #else
-					REMOVED_5_0_4
+					REMOVED_5_0_4,
 					-- #endif
 				},
 			}),
@@ -560,9 +560,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = {
 					ADDED_4_0_1,
 					-- #if ANYCLASSIC
-					REMOVED_4_4_2
+					REMOVED_4_4_2,
 					-- #else
-					REMOVED_5_0_4
+					REMOVED_5_0_4,
 					-- #endif
 				},
 			}),
