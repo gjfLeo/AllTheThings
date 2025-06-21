@@ -421,8 +421,23 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					i(95426, {	-- Frostscythe of Lord Ahune [Level 90]
 						["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 					}),
+
+					-- WOUTER NOTE: Blizzard added 403 ilvl items specific to Cata Classic, probably because Midsummer happened a 2nd time in late Dragon Soul
+					-- #if ANYCLASSIC
+					i(248747, {	-- Frostscythe of Lord Ahune [Level 85 - ilvl 403]
+						["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
+					}),
+					-- #endif
+
 					i(69771, {	-- Frostscythe of Lord Ahune [Level 85]
-						["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+						["timeline"] = {
+							ADDED_4_0_1,
+							-- #if ANYCLASSIC
+							REMOVED_4_4_2
+							-- #else
+							REMOVED_5_0_4
+							-- #endif
+						},
 					}),
 					i(54806, {	-- Frostscythe of Lord Ahune [Level 80]
 						["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
@@ -481,21 +496,75 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
 			}),
 
+			-- WOUTER NOTE: Blizzard added 403 ilvl items specific to Cata Classic, probably because Midsummer happened a 2nd time in late Dragon Soul
+			-- #if ANYCLASSIC
+			i(248751, {	-- Cloak of the Frigid Winds [Level 85]
+				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
+			}),
+			i(248752, {	-- Icebound Cloak [Level 85]
+				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
+			}),
+			i(248750, {	-- Shroud of Winter's Chill [Level 85]
+				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
+			}),
+			i(248749, {	-- The Frost Lord's Battle Shroud [Level 85]
+				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
+			}),
+			i(248748, {	-- The Frost Lord's War Cloak [Level 85]
+				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
+			}),
+			-- #endif
+
 			-- Cataclysm Rewards
 			i(69769, {	-- Cloak of the Frigid Winds [Level 85]
-				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+				["timeline"] = {
+					ADDED_4_0_1,
+					-- #if ANYCLASSIC
+					REMOVED_4_4_2
+					-- #else
+					REMOVED_5_0_4
+					-- #endif
+				},
 			}),
 			i(69770, {	-- Icebound Cloak [Level 85]
-				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+				["timeline"] = {
+					ADDED_4_0_1,
+					-- #if ANYCLASSIC
+					REMOVED_4_4_2
+					-- #else
+					REMOVED_5_0_4
+					-- #endif
+				},
 			}),
 			i(69768, {	-- Shroud of Winter's Chill [Level 85]
-				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+				["timeline"] = {
+					ADDED_4_0_1,
+					-- #if ANYCLASSIC
+					REMOVED_4_4_2
+					-- #else
+					REMOVED_5_0_4
+					-- #endif
+				},
 			}),
 			i(69767, {	-- The Frost Lord's Battle Shroud [Level 85]
-				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+				["timeline"] = {
+					ADDED_4_0_1,
+					-- #if ANYCLASSIC
+					REMOVED_4_4_2
+					-- #else
+					REMOVED_5_0_4
+					-- #endif
+				},
 			}),
 			i(69766, {	-- The Frost Lord's War Cloak [Level 85]
-				["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4 },
+				["timeline"] = {
+					ADDED_4_0_1,
+					-- #if ANYCLASSIC
+					REMOVED_4_4_2
+					-- #else
+					REMOVED_5_0_4
+					-- #endif
+				},
 			}),
 
 			i(54805, {	-- Cloak of the Frigid Winds [Level 80]
