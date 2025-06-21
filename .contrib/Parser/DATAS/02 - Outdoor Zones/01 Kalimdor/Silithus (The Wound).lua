@@ -121,9 +121,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							},
 							["g"] = {
 								i(169292),	-- Charged Scale of the Blue Aspect (QI!)
-								i(168614, {	-- Charged Scale of the Blue Aspect
-									["u"] = REMOVED_FROM_GAME,
-								}),
+								i(168614), 	-- Charged Scale of the Blue Aspect
 							},
 						}),
 						q(54938, {	-- A Brother's Help
