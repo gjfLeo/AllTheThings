@@ -671,55 +671,38 @@ root(ROOTS.Unsorted, {
 			i(237353),	-- Om'sto's Veilshards
 			i(237354),	-- A Bag of Veilshards
 			i(237356),	-- Vermin Attuned Optic-Visualizer
-			i(237522),	-- Colossal Lifetether
-			i(237523),	-- Arcanotech Wrist-Matrix
-			i(237524),	-- Laced Lair-Steppers
-			i(237525),	-- Irradiated Impurity Filter
-			i(237526),	-- Breached Containment Guards
-			i(237527),	-- Frock of Spirit's Reunion
-			i(237528),	-- Manaforged Displacement Chassis
-			i(237529),	-- Harvested Attendant's Uniform
-			i(237530),	-- Shrapnel-Fused Legguards
-			i(237531),	-- Elite Shadowguard Legwraps
-			i(237532),	-- Beacons of False Righteousness
-			i(237533),	-- Atomic Phasebelt
-			i(237534),	-- Singed Sievecuffs
-			i(237535),	-- Artoshion's Abyssal Stare
-			i(237536),	-- Bite of the Astral Wastes
-			i(237537),	-- Claws of Failed Resistance
-			i(237538),	-- Forgeweaver's Journal Holster
-			i(237539),	-- Deathspindle Talons
-			i(237540),	-- Winged Gamma Handlers
-			i(237541),	-- Darksorrow's Corrupted Carapace
-			i(237542),	-- Stellar Navigation Slacks
-			i(237543),	-- Chambersieve Waistcoat
-			i(237544),	-- Royal Voidscale Gauntlets
-			i(237545),	-- Discarded Nutrient Shackles
-			i(237546),	-- Bindings of Lost Essence
-			i(237547),	-- Mounted Manacannons
-			i(237548),	-- Twilight Tyrant's Veil
-			i(237549),	-- Bloodwrath's Gnarled Claws
-			i(237550),	-- Fresh Ethereal Fetters
-			i(237551),	-- Sterilized Expulsion Boots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			i(237552),	-- Deathbound Shoulderpads
-			i(237553),	-- Laboratory Test Slippers
-			i(237554),	-- Clasp of Furious Freedom
-			i(237555),	-- Pactbound Vambraces
-			i(237556),	-- Sandals of Scarred Servitude
-			i(237557),	-- Reaper's Dreadbelt
-			i(237558),	-- Conjoined Glass Bracers
-			i(237559),	-- Singularity Cincture
-			i(237560),	-- Greaves of Shattered Space
-			i(237561),	-- Yoke of Enveloping Hatred
-			i(237562),	-- Time-Compressed Wristguards
-			i(237563),	-- Ultradense Fission Girdle
-			i(237564),	-- Darkrider Sabatons
-			i(237565),	-- Kinetic Dunerunners
-			i(237567),	-- Logic Gate: Alpha
-			i(237568),	-- Chrysalis of Sundered Souls
-			i(237569),	-- Duskblaze's Desperation
-			i(237570),	-- Logic Gate: Omega
+
+
+
+
+
+
+
+
+
+
 			i(237572),	-- Smooth Stone
+
+
 			i(237581),	-- Dreadful Voidglass Contaminant
 			i(237582),	-- Mystic Voidglass Contaminant
 			i(237583),	-- Venerated Voidglass Contaminant
@@ -740,9 +723,13 @@ root(ROOTS.Unsorted, {
 			i(237598),	-- Mystic Yearning Cursemark
 			i(237599),	-- Venerated Yearning Cursemark
 			i(237600),	-- Zenith Yearning Cursemark
+
+
 			i(237601),	-- Nagrand Snake
 			i(237602),	-- Hungering Void Curio
 			i(237604),	-- Fragrant Dreaming Glory
+
+
 			i(237605),	-- Living Weapon's Cape
 			i(237606),	-- Living Weapon's Manacles
 			i(237607),	-- Living Weapon's Chain
@@ -860,28 +847,15 @@ root(ROOTS.Unsorted, {
 			i(237719),	-- Augur's Ephemeral Mitts
 			i(237720),	-- Augur's Ephemeral Slippers
 			i(237721),	-- Augur's Ephemeral Habiliments
-			i(237723),	-- Ward of the Weaving-Beast
-			i(237724),	-- Iris of the Dark Beyond
-			i(237725),	-- Supermassive Starcrusher
-			i(237726),	-- Marvel of Technomancy
-			i(237727),	-- Collapsing Phaseblades
-			i(237728),	-- Voidglass Kris
-			i(237729),	-- Prodigious Gene Splicer
-			i(237730),	-- Voidglass Spire
-			i(237731),	-- Ergospheric Cudgel
-			i(237732),	-- Piercing Strandbow
-			i(237733),	-- Lacerated Current Caster
-			i(237734),	-- Oath-Breaker's Recompense
-			i(237735),	-- Voidglass Sovereign's Blade
-			i(237736),	-- Overclocked Plexhammer
-			i(237737),	-- Photon Sabre Prime
-			i(237738),	-- Unbound Training Claws
-			i(237739),	-- Obliteration Beamglaive
-			i(237740),	-- Vengeful Netherspike
-			i(237741),	-- Event Horizon
-			i(237742),	-- Fractillus' Last Breath
+
+
+
+
+
+
+
 			i(237757),	-- Marsh Moss
-			i(237813),	-- Factory-Issue Plexhammer
+
 			i(237858),	-- Encroaching Void Vestment
 			i(237859),	-- Silent Huntsman's Sandals
 			i(237860),	-- Wastelander's Worn Handwraps
@@ -1198,22 +1172,14 @@ root(ROOTS.Unsorted, {
 			i(242323),	-- Chowdar's Favorite Ribbon
 			i(242371),	-- Untethered Xy'bucha
 			i(242380),	-- Black Blood Blower
-			i(242391),	-- Soulbinder's Embrace
-			i(242392),	-- Diamantine Voidcore
-			i(242393),	-- Loom'ithar's Living Silk
-			i(242394),	-- Eradicating Arcanocore
-			i(242395),	-- Astral Antenna
-			i(242396),	-- Unyielding Netherprism
-			i(242397),	-- Sigil of the Cosmic Hunt
-			i(242398),	-- Naazindhri's Mystic Lash
-			i(242399),	-- Screams of a Forgotten Sky
-			i(242400),	-- Nexus-King's Command
-			i(242401),	-- Brand of Ceaseless Ire
-			i(242402),	-- Araz's Ritual Forge
-			i(242403),	-- Perfidious Projector
-			i(242404),	-- All-Devouring Nucleus
-			i(242405),	-- Band of the Shattered Soul
-			i(242406),	-- Salhadaar's Folly
+
+
+
+
+
+
+
+
 			i(242464),	-- Swarmite's Frenzied Pedicel
 			i(242468),	-- Al'dani Attendant's Gauze
 			i(242470),	-- Mandibular Bonewhacker
@@ -1276,7 +1242,7 @@ root(ROOTS.Unsorted, {
 			i(243046),	-- Band of Boundless Hunger
 			i(243048),	-- Technomancer's Service Sandals
 			i(243056),	-- Delver's Mana-Bound Ethergate
-			i(243061),	-- Unbound Star-Eater
+
 			i(243144),	-- Reshi Crystal Fragments
 			i(243145),	-- Well-Preserved Wrappings
 			i(243147),	-- Ethereal Defense Pylon
@@ -1293,13 +1259,10 @@ root(ROOTS.Unsorted, {
 			i(243291),	-- Bag of Brewfest Merchandise
 			i(243292),	-- Bag of Brewfest Merchandise
 			i(243293),	-- Bag of Brewfest Merchandise
-			i(243305),	-- Interloper's Silken Striders
-			i(243306),	-- Interloper's Reinforced Sandals
-			i(243307),	-- Interloper's Plated Sabatons
-			i(243308),	-- Interloper's Chain Boots
+
 			i(243344),	-- Chef's Hat
 			i(243347),	-- Keg of Curiosities
-			i(243365),	-- Maw of the Void
+
 			i(243479),	-- Bag of Brewfest Ingredients
 			i(243496),	-- Wastelander's Gilded Band
 			i(243497),	-- Wastelander's Gilded Signet
@@ -1642,7 +1605,7 @@ root(ROOTS.Unsorted, {
 			i(246451),	-- Shadefur Brewthief
 			i(246492),	-- Soulgorged Augment Rune
 			i(246504),	-- Inscrutable Ore
-			i(246565),	-- Cosmic Hearthstone
+
 			i(246582),	-- Inscrutable Flora
 			i(246584),	-- A Steamy Romance Novel: Devouring Love
 			i(246589),	-- Half-Digested Journal
