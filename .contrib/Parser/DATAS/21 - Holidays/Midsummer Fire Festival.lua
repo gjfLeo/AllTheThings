@@ -1225,12 +1225,28 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			},
 		},
 		q(11882, {	-- Playing with Fire (A)
-			["qg"] = 25962,	-- Fire Eater (A)
+			["qgs"] = {
+				25962,	-- Fire Eater (A)
+				-- #if AFTER 11.1.7
+				240483,	-- Flame Eater
+				--#endif
+			},
+			-- #if AFTER 11.1.7
+			["coord"] = { 47.2, 53.6, DORNOGAL },
+			-- #endif
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = ALLIANCE_ONLY,
 		}),
 		q(11915, {	-- Playing with Fire (H)
-			["qg"] = 25994,	-- Fire Eater (H)
+			["qgs"] = {
+				25994,	-- Fire Eater (H)
+				-- #if AFTER 11.1.7
+				240483,	-- Flame Eater
+				--#endif
+			},
+			-- #if AFTER 11.1.7
+			["coord"] = { 47.2, 53.6, DORNOGAL },
+			-- #endif
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = HORDE_ONLY,
 		}),
@@ -1568,6 +1584,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				19172,	-- Gnome Commoner
 				19173,	-- Night Elf Commoner
 				20102,	-- Goblin Commoner
+				-- #if AFTER 11.1.7
+				220307,	-- Holiday Enthusiast
+				220870,	-- Holiday Enthusiast
+				-- #endif
 			},
 			["maps"] = {
 				STORMWIND_CITY,
@@ -1595,6 +1615,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				-- #if AFTER MOP
 				ISLE_OF_THUNDER,
 				-- #endif
+				-- #if AFTER TWW
+				DORNOGAL
+				-- #endif
 			},
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = ALLIANCE_ONLY,
@@ -1611,6 +1634,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				19177,	-- Troll Commoner
 				19178,	-- Forsaken Commoner
 				20102,	-- Goblin Commoner
+				-- #if AFTER 11.1.7
+				220307,	-- Holiday Enthusiast
+				220870,	-- Holiday Enthusiast
+				-- #endif
 			},
 			["maps"] = {
 				ORGRIMMAR,
@@ -1635,6 +1662,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				-- #endif
 				-- #if AFTER MOP
 				ISLE_OF_THUNDER,
+				-- #endif
+				-- #if AFTER TWW
+				DORNOGAL
 				-- #endif
 			},
 			["timeline"] = { ADDED_2_4_0 },
@@ -1675,7 +1705,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 		q(11731, {	-- Torch Tossing (A)
 			["qg"] = FESTIVAL_MASTER_FIRE_EATER_ID,
 			["coords"] = FESTIVAL_MASTER_FIRE_EATER_COORDS,
-			["timeline"] = { ADDED_2_4_0 },
+			["timeline"] = { ADDED_2_4_0, REMOVED_10_2_7 },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				objective(1, {	-- Hit 8 braziers.
@@ -1687,7 +1717,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 		q(11922, {	-- Torch Tossing (H)
 			["qg"] = FESTIVAL_MASTER_FLAME_EATER_ID,
 			["coords"] = FESTIVAL_MASTER_FLAME_EATER_COORDS,
-			["timeline"] = { ADDED_2_4_0 },
+			["timeline"] = { ADDED_2_4_0, REMOVED_10_2_7 },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
 				objective(1, {	-- Hit 8 braziers.
@@ -1695,6 +1725,20 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				}),
 				i(23247),	-- Burning Blossom
 			},
+		}),
+		q(82087, {	-- Torch Tossing (A)
+			["qg"] = FESTIVAL_MASTER_FLAME_EATER_ID,
+			["coords"] = FESTIVAL_MASTER_FLAME_EATER_COORDS,
+			["races"] = ALLIANCE_ONLY,
+			["timeline"] = { ADDED_10_2_7 },
+			["groups"] = { i(23247) },	-- Burning Blossom
+		}),
+		q(82105, {	-- Torch Tossing (H)
+			["qg"] = FESTIVAL_MASTER_FLAME_EATER_ID,
+			["coords"] = FESTIVAL_MASTER_FLAME_EATER_COORDS,
+			["races"] = HORDE_ONLY,
+			["timeline"] = { ADDED_10_2_7 },
+			["groups"] = { i(23247) },	-- Burning Blossom
 		}),
 		q(11886, {	-- Unusual Activity
 			["qg"] = EARTHEN_RING_ELDER_ID,

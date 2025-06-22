@@ -3467,12 +3467,10 @@ root(ROOTS.Unsorted, {
 				i(162611),	-- Carefully Stashed Cache
 				i(162631),	-- Souvenir Tiki Tumbler
 				i(162632),	-- Lavish Sethrallis Figurine
-				i(162634),	-- Ancient Nazmani Coins
 				i(162644),	-- Winter Veil Gift
 				i(162689),	-- Scroll of Town Portal
 				i(162773),	-- REUSE ME
 				i(162974),	-- Gently Shaken Gift
-				i(162980),	-- Spindle of Golden Sailthread
 				i(162981),	-- A Steamy Romance Novel: Stormy Seas
 				i(162982),	-- A Steamy Romance Novel: Stormy Seas
 				i(163017),	-- Pitch-Soaked Torch
@@ -3516,7 +3514,6 @@ root(ROOTS.Unsorted, {
 				i(163172),	-- Green Glowing Puffer
 				i(163321),	-- Jason's Rusty Blade
 				i(163322),	-- Ian's Empty Bottle
-				i(163323),	-- Julie's Cracked Dish
 				i(163324),	-- Brian's Broken Compass
 				i(163325),	-- Ofer's Bound Journal
 				i(163326),	-- Skye's Pet Rock
@@ -3539,8 +3536,6 @@ root(ROOTS.Unsorted, {
 				i(163546),	-- Scroll of the Forked Tongue
 				i(163580),	-- Delicate Cathedral of Light Replica
 				i(163581),	-- Fragile Model of Stormwind Keep
-				i(163587),	-- Discarded Zandalari Brooch
-				i(163590),	-- Careworn Loa Statuette
 				i(163591),	-- Golden Fleet Sea Charts
 				i(163592),	-- Ceremonial Nose Ring \\ Acolyte's Ceremonial Nose Ring
 				i(163593),	-- Map of Zandalar Trade Winds
@@ -3689,7 +3684,6 @@ root(ROOTS.Unsorted, {
 				i(158793),	-- PH Flavor - Unused \\ PH Flavor - Frog
 				i(158794),	-- Ivory Tusk \\ PH Flavor - Yeti
 				i(158795),	-- Glittering Chill \\ PH Flavor - Ghost
-				i(158796),	-- Venomous Tentacle \\ PH Flavor - Pirahna - Fish
 				i(158798),	-- PH Flavor - Unused \\ PH Flavor - Abyssal Eel - Fish
 				i(158799),	-- PH Flavor - Unused \\ PH Flavor - Wicker Beast - Drust
 				i(158800),	-- PH Flavor - Unused \\ PH Flavor - Camel
@@ -3702,7 +3696,6 @@ root(ROOTS.Unsorted, {
 				i(158808),	-- Thick Tendon \\ PH Flavor - Troll Female - Blood Troll
 				i(158809),	-- PH Flavor - Unused \\ PH Flavor - Flesh Beast
 				i(158810),	-- Humming Dew \\ PH Flavor - Earth Elemental
-				i(158811),	-- Ashen Coal \\ PH Flavor - Troll Spirit
 				i(158812),	-- Glowfly Abdomen \\ PH Flavor - Ettin
 				i(158813),	-- Sausage Casing \\ PH Flavor - Lightning Elemental
 				i(158814),	-- Bulging Coin Purse \\ PH Flavor - Unused \\ PH Flavor - Swamp Plant
@@ -3741,7 +3734,6 @@ root(ROOTS.Unsorted, {
 				i(158853),	-- Bony Skullplate \\ PH Flavor - Naga Brute
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
 				i(158857),	-- Untainted Wicker \\ PH Flavor - Porcupine
-				i(158861),	-- Tensile Eye Stalk \\ PH Flavor - Troll Male - Blood Troll
 				i(158864),	-- Viscous Webbing \\ PH Flavor - Trogg
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
 				i(158869),	-- Stone Tusk \\ PH Flavor - Venture Co
@@ -3768,12 +3760,10 @@ root(ROOTS.Unsorted, {
 				i(158797),	-- Jar of Truffles
 				i(158858),	-- Adder's Fork
 				i(158866),	-- Oily Blubber
-				i(163846),	-- Silver Monkey Head
 				i(163847),	-- Silver Monkey Torso
 				i(163848),	-- Overused Voodoo Doll
 				i(163849),	-- Bad Troll Love Poem
 				i(163850),	-- Bloody Gamekeeper's Arm
-				i(163851),	-- Venerated Golden Censer
 				i(163854),	-- Weighty Bag of Sand
 				i(163855),	-- Duplicate Pilgrimage Scroll
 				i(163896),	-- Salty Pocket Lint
@@ -3802,7 +3792,6 @@ root(ROOTS.Unsorted, {
 				i(163919),	-- String of Broken Tusks
 				i(163920),	-- Bracelet of Teeth
 				i(163921),	-- Tiny Wicker Effigy
-				i(163842),	-- Inert Hearthstone
 				i(163843),	-- Shredded Horde Emblem
 				i(163844),	-- Shredded Alliance Emblem
 				i(160551),	-- Partially Digested Mystery Meat
@@ -3815,7 +3804,6 @@ root(ROOTS.Unsorted, {
 				i(162666),	-- Ripped Satchel
 				i(162667),	-- Farraki Funeral Urn
 				i(162683),	-- Archaic Dinomancy Carvings
-				i(162684),	-- Etched Dock Cleat
 				i(162685),	-- Overflowing Loa Tribute
 			}),
 			filter(MISC, {	-- War Effort
@@ -4836,12 +4824,7 @@ root(ROOTS.Unsorted, {
 			i(170060),	-- Encrypted Message
 			i(170064),	-- Highmountain Totem
 			i(170078),	-- Gleaming Ashmaul Strongbox
-			i(170086),	-- Coral-Flecked Chalice
-			i(170087),	-- Chromatic "Vinegar"
-			i(170096),	-- Sodden Highborne Painting
-			i(170097),	-- Discarded Quel'dorei Tome
 			i(170098),	-- Rusted Girandole Earring
-			i(170099),	-- Corroded Elegant Key
 			i(170100),	-- Hungry Herald's Tentacle Taco
 			i(170113),	-- Deeptide Scroll
 			i(170202),	-- Shwayderbrau
