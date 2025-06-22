@@ -371,6 +371,7 @@ i(158756);	-- Rotary Gasket
 i(158758);	-- Royal Jelly
 i(157842);	-- Rusty Gear
 i(162630);	-- Sandy Ornate Relic
+i(158849);	-- Sawtooth Jawbone
 i(158752);	-- Severed Foot
 i(155598);	-- Severed Mandible
 i(155629);	-- Shaggy Mane
@@ -2470,6 +2471,7 @@ i(238813);	-- Irridescent Eye
 i(247688);	-- K'arroc Feather Quill
 i(244360);	-- K'aresh Nightbloom
 i(238812);	-- Long Fibrous Tongue
+i(238871);	-- Luminous Brushtail
 i(238884);	-- Machine Remnant
 i(238869);	-- Matted Pelt
 i(238855);	-- Netherclaw

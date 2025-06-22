@@ -48,6 +48,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["g"] = {
 					i(245214),	-- Palek'ti, the Mouth of Nothingness (PET!)
 					i(240169),	-- Reshii Magi's Amulet
+					i(240168),	-- Reshii Magi's Seal
 				},
 			}),
 			n(231981, {	-- Maw of the Sands

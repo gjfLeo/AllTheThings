@@ -17,6 +17,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(91058, {	-- Bladed Rifle Of Unfettered Momentum
 				}),
 				o(502603, {	-- Crudely Stitched Sack
+					-- TODO: Bugged. Invisible. Can't be looted 22.06.2025. -Exo
+					["coord"] = { 58.6, 34.3, KARESH },
 					["questID"] = 86323,
 				}),
 				q(90514, {	-- Efrats Forgotten Bulwark
@@ -124,6 +126,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coords"] = {
 						{ 68.8, 47.9, KARESH },	-- Cave Entrance
 						{ 70.2, 47.7, KARESH },	-- Treasure
+						{ 65.3, 63.6, KARESH },	-- Another one near Tazavesh?
 					},
 					["questID"] = 86304,
 				}),

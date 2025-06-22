@@ -633,11 +633,266 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 47.0, 54.5, KARESH },
 					}),
 			}),
+			header(HEADERS.Achievement, 41808, {	-- Otherworldly Ecologist
+				q(87290, {	-- The Oasis
+					["sourceQuests"] = { 85037 },	-- That's a Wrap
+					["provider"] = { "n", 238212 },	-- Om'talad
+					["coord"] = { 39.4, 24.2, TAZAVESH },
+				}),
+				q(87337, {	-- Custodian Duties
+					["sourceQuests"] = { 87290 },	-- The Oasis
+					["provider"] = { "n", 238209 },	-- Om'talad
+					["coord"] = { 75.9, 34.3, KARESH },
+					["g"] = {
+						o(516700, {	-- Oasis Animal Leavings
+							i(236416),	-- Oasis Animal Leavings (QI!)
+						}),
+					},
+				}),
+				q(87338, {	-- Day One Orientation
+					["sourceQuests"] = { 87337 },	-- Custodian Duties
+					["provider"] = { "n", 231820 },	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+				}),
+				q(87339, {	-- Ongoing Activities
+					["sourceQuests"] = { 87337 },	-- Custodian Duties
+					["provider"] = { "n", 231820 },	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+					["g"] = {
+						o(516792, {	-- Watering Jug
+							["coord"] = { 73.0, 33.0, KARESH },
+							["g"] = {
+								i(236641),	-- Watering Jug (QI!)
+							},
+						}),
+					},
+				}),
+				q(87340, {	-- Junk Mail
+					["sourceQuests"] = {
+						87338,	-- Day One Orientation
+						87339,	-- Ongoing Activities
+					},
+					["provider"] = { "n", 231820 },	-- Ve'nari
+					["coord"] = { 75.9, 34.2, KARESH },
+				}),
+				header(HEADERS.AchCriteria, 41808.01, {	-- The Bees Knees
+					q(85075, {	-- To Stormsong
+						["sourceQuests"] = { 87340 },	-- Junk Mail
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = {
+							i(230030),	-- Cartel Ve Communicator (PQI!)
+						},
+					}),
+					q(85076, {	-- Don't Bee Crazy
+						["sourceQuests"] = { 85075 },	-- To Stormsong
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 72.4, 69.9, STORMSONG_VALLEY },
+					}),
+					q(85077, {	-- Sticky Fingers
+						["sourceQuests"] = { 85075 },	-- To Stormsong
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 72.4, 69.9, STORMSONG_VALLEY },
+						["g"] = {
+							i(230053),	-- Honey Globule (QI!)
+						},
+					}),
+					q(85078, {	-- Bee in the Bonnet
+						["sourceQuests"] = {
+							85076,	-- Don't Bee Crazy
+							85077,	-- Sticky Fingers
+						},
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 72.4, 69.9, STORMSONG_VALLEY },
+					}),
+					q(85079, {	-- Such a Sleebee-head
+						["sourceQuests"] = {
+							85076,	-- Don't Bee Crazy
+							85077,	-- Sticky Fingers
+						},
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 72.4, 69.9, STORMSONG_VALLEY },
+						["g"] = {
+							o(475164, {	-- Ve'nari's Package
+								["coord"] = { 72.5, 69.8, STORMSONG_VALLEY },
+								["g"] = {
+									i(230210),	-- Tranquilizing Dart (PQI!)
+								},
+							}),
+						},
+					}),
+					q(85080, {	-- An Un-Bee-lievable Solution
+						["sourceQuests"] = {
+							85078,	-- Bee in the Bonnet
+							85079,	-- Such a Sleebee-head
+						},
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 72.6, 65.8, STORMSONG_VALLEY },
+						["g"] = {
+							o(475213, {	-- Ve'nari's Package
+								["coord"] = { 72.7, 65.8, STORMSONG_VALLEY },
+								["g"] = {
+									i(229424),	-- Anima Vacuum (PQI!)
+								},
+							}),
+						},
+					}),
+					q(85081, {	-- Beehemian Rhapsody
+						["sourceQuests"] = {
+							85078,	-- Bee in the Bonnet
+							85079,	-- Such a Sleebee-head
+						},
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 72.6, 65.8, STORMSONG_VALLEY },
+						["g"] = {
+							o(475207, {	-- Honey Pot
+								["coord"] = { 72.6, 66.0, STORMSONG_VALLEY },
+								["g"] = {
+									i(230549),	-- Queen Bee in a Jar (QI!)
+								},
+							}),
+						},
+					}),
+					q(85082, {	-- To K'aresh
+						["sourceQuests"] = {
+							85080,	-- An Un-Bee-lievable Solution
+							85081,	-- Beehemian Rhapsody
+						},
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 72.6, 65.8, STORMSONG_VALLEY },
+					}),
+					q(85249, {	-- A Bee Test
+						["sourceQuests"] = { 85082 },	-- To K'aresh
+						["provider"] = { "n", 231820 },	-- Ve'nari
+						["coord"] = { 75.9, 34.2, KARESH },
+					}),
+					q(85084, {	-- Bee Strong
+						["sourceQuests"] = { 85249 },	-- A Bee Test
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 48.4, 61.2, KARESH },
+						["g"] = {
+							o(475250, {	-- Honey Pot
+								["coord"] = { 48.4, 61.2, KARESH },
+								["g"] = {
+									i(230732),	-- Honey (PQI!)
+								},
+							}),
+						},
+					}),
+					q(85083, {	-- Photogra-Bee
+						["sourceQuests"] = { 85249 },	-- A Bee Test
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 48.4, 61.2, KARESH },
+						["g"] = {
+							i(230729),	-- Appropriated Azerothian Camera (PQI!)
+						},
+					}),
+					q(85257, {	-- Primus Buzzness
+						["sourceQuests"] = {
+							85084,	-- Bee Strong
+							85083,	-- Photogra-Bee
+						},
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 48.4, 61.2, KARESH },
+					}),
+					q(85255, {	-- Tranquila-Bee
+						["sourceQuests"] = { 85257 },	-- Primus Buzzness
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 49.0, 57.2, KARESH },
+						["g"] = {
+							i(230210),	-- Tranquilizing Dart (PQI!)
+						},
+					}),
+					q(85256, {	-- Botany, Finally
+						["sourceQuests"] = { 85257 },	-- Primus Buzzness
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 49.0, 57.2, KARESH },
+						["g"] = {
+							i(230809, {	-- K'aresh Flora Cutting (QI!)
+								["providers"] = {
+									{ "o", 475321 },	-- Crystalbloom
+									{ "o", 475324 },	-- Firebud
+									{ "o", 475314 },	-- Pricklebloom
+								},
+							}),
+						},
+					}),
+					q(89348, {	-- Let There Bee Love
+						["sourceQuests"] = {
+							85255,	-- Tranquila-Bee
+							85256,	-- Botany, Finally
+						},
+						["provider"] = { "n", 231919 },	-- Botanist Alaenra
+						["coord"] = { 48.4, 61.2, KARESH },
+					}),
+					q(85258, {	-- Oh Honey Honey
+						["sourceQuests"] = { 89348 },	-- Let There Bee Love
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+						["g"] = {
+							i(230907, {	-- Honeycomb (QI!)
+								["providers"] = {
+									{ "o", 475391 },	-- Honeycomb
+									{ "o", 475392 },	-- Honeycomb
+									{ "o", 475393 },	-- Honeycomb
+								},
+							}),
+						},
+					}),
+					------ Stay awhile and listen ------
+					hqt(89305, {	-- Stay awhile and listen: Botanist Alaenra
+						["name"] = "Stay awhile and listen: Botanist Alaenra",
+						["description"] = "Dialogue becomes available after you accept 'Oh Honey Honey' (85258).",
+						["sourceQuests"] = { 89348 },	-- Let There Bee Love
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+					}),
+					--
+					q(85259, {	-- Waggle Dance
+						-- Note: Drawing circles is so obnoxious... Definitelly going to be either a daily or a WQ	-Exo 22.06.2025.
+						["sourceQuests"] = { 85258 },	-- Oh Honey Honey
+						["provider"] = { "n", 230736 },	-- Om'talad
+						["coord"] = { 75.8, 34.2, KARESH },
+					}),
+					q(85260, {	-- Hiving a Hard Day
+						["sourceQuests"] = { 85259 },	-- Waggle Dance
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+					}),
+					q(85261, {	-- Bee Roll
+						["sourceQuests"] = { 85260 },	-- Hiving a Hard Day
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+						["g"] = {
+							i(231163),	-- Appropriated Azerothian Camera (PQI!)
+						},
+					}),
+					q(85262, {	-- The Royal Procession
+						["sourceQuests"] = { 85261 },	-- Bee Roll
+						["provider"] = { "n", 232385 },	-- Botanist Alaenra
+						["coord"] = { 75.8, 33.9, KARESH },
+					}),
+				}),
+			}),
 			n(BONUS_OBJECTIVES, {
 				q(84966, {	-- Break the Assault
 					["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 					["coord"] = { 54.1, 63.7, TAZAVESH },
 				}),
+				q(86464, {	-- Devourer Attack: The Atrium
+					["isWeekly"] = true,
+					["cr"] = 235087,	-- The Harvester
+					["g"] = {
+						i(246240),	-- Devoured Energy-Pod
+						i(238664),	-- Crystallized Anima (QS!)
+					},
+				}),
+			}),
+			-- Quest (item) obtained during Devourer Attack
+			q(85256, {	-- Botany, Finally
+				["sourceQuests"] = { 86464 },	-- Devourer Attack: The Atrium
+				["provider"] = { "i", 238664 },	-- Crystallized Anima (QS!)
+				["isWeekly"] = true,
 			}),
 		}),
 	}),
@@ -648,11 +903,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		m(KARESH, {
 			n(QUESTS, {
 				-- During main story
+				q(84901),	-- [DNT] CH04Q05p - Triggered after completing 'Like a Knife Through Aether' (84900)
 				q(85111),	-- [DNT] K'aresh Trust Renown Unlock (spellID 466720)
 				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
-				q(84901),	-- [DNT] CH04Q05p - Triggered after completing 'Like a Knife Through Aether' (84900)
 				-- ??
 				--q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
+				q(91289),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
+				q(91311),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
+				q(91435),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 			}),
 		}),
 	}),
