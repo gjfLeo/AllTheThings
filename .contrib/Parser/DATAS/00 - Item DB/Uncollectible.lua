@@ -301,6 +301,7 @@ i(153566);	-- "Shiny" Rock
 i(153567);	-- "Smooth" Rock
 i(158862);	-- Ancient Grave Dust
 i(162634);	-- Ancient Nazmani Coins
+i(158808);	-- Thick Tendon
 i(158811);	-- Ashen Coal
 i(162675);	-- Ashvane Ledger
 i(162978);	-- Blood Magic Ritual Dish
