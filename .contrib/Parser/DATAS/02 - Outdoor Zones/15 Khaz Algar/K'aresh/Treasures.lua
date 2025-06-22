@@ -93,6 +93,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(502471, {	-- Rashaal's Vase
 				}),
 				o(499097, {	-- Sand-Worn Coffer
+					["coord"] = { 54.5, 24.5, KARESH },
+					["questID"] = 85840,
+					["g"] = {
+						i(246297),	-- Desperate Defender's Bladed Staff (COSMETIC!)
+					},
 				}),
 				q(90527, {	-- Shadowguard Crusher
 				}),

@@ -486,6 +486,108 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					--	["coord"] = { 60.7, 27.9, KARESH },
 					--}),
 					--
+					q(84899, {	-- Shadowguard Diffusion
+						["sourceQuests"] = { 84897 },	-- The Calm Before we Storm
+						["provider"] = { "n", 230817 },	-- Alleria Windrunner
+						["coord"] = { 60.7, 27.9, KARESH },
+						["g"] = {
+							i(238390),	-- Soulbreaker's Sigil
+						},
+					}),
+					q(84898, {	-- The Sands of K'aresh
+						["sourceQuests"] = { 84896 },	-- The Next Dimension
+						["provider"] = { "n", 231443 },	-- Soul-Scribe
+						["coord"] = { 60.7, 28.0, KARESH },
+						["g"] = {
+							i(237136),	-- Wastes Scanner (PQI!)
+							--
+							o(502375, {	-- Sand Pile
+								["coord"] = { 59.1, 28.5, KARESH },
+								["g"] = {
+									i(233192),	-- Shadowguard Weapon (QI!)
+								},
+							}),
+							o(502376, {	-- Sand Pile
+								["coord"] = { 58.7, 29.5, KARESH },
+								["g"] = {
+									i(233193),	-- Shadowguard Weapon (QI!)
+								},
+							}),
+							o(502377, {	-- Sand Pile
+								["coord"] = { 58.3, 26.3, KARESH },
+								["g"] = {
+									i(233194),	-- Shadowguard Weapon (QI!)
+								},
+							}),
+						},
+					}),
+					q(84900, {	-- Like a Knife Through Aether
+						["sourceQuests"] = {
+							84899,	-- Shadowguard Diffusion
+							84898,	-- The Sands of K'aresh
+						},
+						["provider"] = { "n", 231445 },	-- Xal'atath
+						["coord"] = { 55.1, 30.4, KARESH },
+						["g"] = {
+							i(233333),	-- Forgecaster Wraps (QI!)
+						},
+					}),
+					q(84902, {	-- Adverse Instantiation
+						["sourceQuests"] = { 84900 },	-- Like a Knife Through Aether
+						["provider"] = { "n", 231487 },	-- Locus-Walker
+						["coord"] = { 48.6, 26.7, KARESH },
+					}),
+					q(84904, {	-- And We Will Answer
+						["sourceQuests"] = { 84900 },	-- Like a Knife Through Aether
+						["provider"] = { "n", 231486 },	-- Soul-Scribe
+						["coord"] = { 48.6, 26.8, KARESH },
+						["g"] = {
+							i(233334),	-- Beacon of the Wastes (PQI!)
+						},
+					}),
+					q(84903, {	-- Until the Sands Bleed Void
+						["sourceQuests"] = { 84900 },	-- Like a Knife Through Aether
+						["provider"] = { "n", 231488 },	-- Alleria Windrunner
+						["coord"] = { 48.6, 26.6, KARESH },
+						["g"] = {
+							i(237934),	-- Locket of the Final Purge
+							i(237935),	-- Void-Reckoning Necklace
+						},
+					}),
+					q(84905, {	-- To Walk Among Shadow
+						["sourceQuests"] = {
+							84902,	-- Adverse Instantiation
+							84904,	-- And We Will Answer
+							84903,	-- Until the Sands Bleed Void
+						},
+						["provider"] = { "n", 231492 },	-- Locus-Walker
+						["coord"] = { 48.2, 19.4, KARESH },
+					}),
+					q(84906, {	-- Nexus Regicide
+						["sourceQuests"] = { 84905 },	-- To Walk Among Shadow
+						["provider"] = { "n", 231505 },	-- Alleria Windrunner
+						["coord"] = { 48.2, 19.1, KARESH },
+						["g"] = {
+							i(237936),	-- Fallen Prince's Crown
+							i(237938),	-- Fallen Prince's Headplate
+							i(237937),	-- Fallen Prince's Helm
+							i(237939),	-- Fallen Prince's Mask
+						},
+					}),
+					q(85037, {	-- That's a Wrap
+						["sourceQuests"] = { 84906 },	-- Nexus Regicide
+						["provider"] = { "n", 231520 },	-- Xal'atath
+						["coord"] = { 44.2, 18.5, KARESH },
+					}),
+					------ Stay awhile and listen ------
+					hqt(90614, {	-- Stay awhile and listen: Locus-Walker - no questID
+						["name"] = "Stay awhile and listen: Locus-Walker",
+						["description"] = "Dialogue becomes available after you accept 'That's a Wrap' (85037).",
+						["sourceQuests"] = { 84906 },	-- Nexus Regicide
+						["provider"] = { "n", 231524 },	-- Locus-Walker
+						["coord"] = { 42.9, 21.6, KARESH },
+					}),
+					--
 				}),
 					------ Stay awhile and listen ------
 					--hqt(???, {	-- Stay awhile and listen: Locus-Walker / 61476 - no questID
@@ -548,6 +650,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				-- During main story
 				q(85111),	-- [DNT] K'aresh Trust Renown Unlock (spellID 466720)
 				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
+				q(84901),	-- [DNT] CH04Q05p - Triggered after completing 'Like a Knife Through Aether' (84900)
 				-- ??
 				--q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 			}),

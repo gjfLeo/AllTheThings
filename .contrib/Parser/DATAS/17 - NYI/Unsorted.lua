@@ -6,14 +6,6 @@ root(ROOTS.Unsorted, {
 	expansion(EXPANSION.TWW, {
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			n(ARMOR, {
-				-- Quest Rewards?
-				i(237934),	-- Locket of the Final Purge
-				i(237935),	-- Void-Reckoning Necklace
-				i(237936),	-- Fallen Prince's Crown
-				i(237937),	-- Fallen Prince's Helm
-				i(237938),	-- Fallen Prince's Headplate
-				i(237939),	-- Fallen Prince's Mask
-
 				-- Some Feature Rewards?
 				i(237956),	-- Void-Scarred Band
 				i(237957),	-- Void-Scarred Hoop
@@ -107,7 +99,6 @@ root(ROOTS.Unsorted, {
 				i(239475),	-- Reshii Brute's Helmet
 				i(239476),	-- Reshii Brute's Greaves
 				i(239477),	-- Reshii Brute's Epaulettes
-				i(239478),	-- Reshii Brute's Greatbelt
 				i(239479),	-- Reshii Brute's Vambraces
 				i(240168),	-- Reshii Magi's Seal
 				i(240169),	-- Reshii Magi's Amulet
@@ -297,7 +288,6 @@ root(ROOTS.Unsorted, {
 				i(246071),	-- Mana-Seamster's Arcane-Needle
 				i(246086),	-- Fate Weaver
 				-- Delve Armor?
-				i(238390),	-- Soulbreaker's Sigil
 				i(242867),	-- Automatic Footbomb Dispenser
 				i(246344),	-- Cursed Stone Idol
 				i(246824),	-- Shadowguard's Twisted Harvester
@@ -388,7 +378,6 @@ root(ROOTS.Unsorted, {
 				i(246294),	-- Shattered Buckler of the Last Stand
 				i(246295),	-- Tazavesh Lookout's Mace
 				i(246296),	-- Off-Balance Mace of the Tazavesh Lookout
-				i(246297),	-- Desperate Defender's Bladed Staff
 				i(246298),	-- Cracked Staff of the Desperate Defender
 				i(246299),	-- Blade of Lost Hope
 				i(246301),	-- Pitted Blade of Lost Hope
@@ -849,7 +838,6 @@ root(ROOTS.Unsorted, {
 				i(238880),	-- Oily Blubber
 				i(238881),	-- Barbed Predator Tusk
 				i(238882),	-- Cursed Eyeball Cluster
-				i(238884),	-- Machine Remnant
 				i(238885),	-- Unstable Power Source
 				i(238888),	-- Essence of Ephemeral Knowledge
 				i(238889),	-- Eldritch Signal Antenna
@@ -1696,7 +1684,6 @@ root(ROOTS.Unsorted, {
 				i(233194),	-- Shadowguard Weapon
 				i(233195),	-- Pheromone Disperser
 				i(233287),	-- Barrel of Swirling Energy
-				i(233333),	-- Forgecaster Wraps
 				i(233487),	-- Pheromone Disperser
 				i(233488),	-- Appropriated Azerothian Camera
 				i(233543),	-- Stolen Stolen Weapon
@@ -1752,7 +1739,6 @@ root(ROOTS.Unsorted, {
 				i(237030),	-- Condenser Disc
 				i(237038),	-- Shahata's Supplies
 				i(237127),	-- Damaged Echo Surveyor
-				i(237136),	-- Wastes Scanner
 				i(237266),	-- Stolen Veilshard
 				i(237352),	-- A Dozen Veilshards
 				i(237353),	-- Om'sto's Veilshards
@@ -1793,9 +1779,6 @@ root(ROOTS.Unsorted, {
 				i(233009),	-- Firebud Pollen
 				i(233012),	-- Flamethrower
 				i(233028),	-- Flamethrower
-				i(233192),	-- Shadowguard Weapon
-				i(233193),	-- Shadowguard Weapon
-				i(233194),	-- Shadowguard Weapon
 				i(233195),	-- Pheromone Disperser
 				i(233287),	-- Barrel of Swirling Energy
 				i(233333),	-- Forgecaster Wraps
