@@ -911,7 +911,6 @@ root(ROOTS.Unsorted, {
 				i(238527),	-- Restored Coffer Key
 				i(244193),	-- L00T RAID-R Mini
 				i(244792),	-- Etheric Brannmorpher
-				i(245653),	-- Coffer Key Shard
 				i(245885),	-- Lil Wheel of Cheese
 				i(247835),	-- Memory of Illidan
 				i(247864),	-- Memory of Arthas
@@ -1526,7 +1525,6 @@ root(ROOTS.Unsorted, {
 				i(230719),	-- Astral Warmonger's Dagger
 				i(230720),	-- Astral Warmonger's Dirk
 				i(230722),	-- Astral Equipment Chest
-				i(230724),	-- Astral Jeweler's Setting
 				i(230814),	-- [11.2 PVP] Gladiator's Axe <TEMPLATE>
 				i(230815),	-- [11.2 PVP] Gladiator's Dagger <TEMPLATE>
 				i(230816),	-- [11.2 PVP] Gladiator's Gun <TEMPLATE>
@@ -3774,7 +3772,6 @@ root(ROOTS.Unsorted, {
 				i(158826),	-- Hardy Hoof \\ PH Flavor - Honey Elemental \\ PH Flavor
 				i(158827),	-- PH Flavor - Unused \\ PH Flavor - Fish - Generic
 				i(158829),	-- PH Flavor - Unused \\ PH Flavor - Cockroach - Insect
-				i(158830),	-- Jade Sigilstone \\ PH Flavor - Wolf
 				i(158832),	-- Bushy Tail \\ PH Flavor - Kul Tiran
 				i(158833),	-- PH Flavor - Unused \\ PH Flavor - Tiki Mask - Blood Troll
 				i(158835),	-- PH Flavor - Unused \\ PH Flavor - Krolusk

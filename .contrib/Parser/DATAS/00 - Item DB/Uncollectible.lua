@@ -347,6 +347,7 @@ i(163842);	-- Inert Hearthstone
 i(155631);	-- Inert Stone
 i(158749);	-- Intricate Ossicles
 i(157844);	-- Iridescent Speck
+i(158830);	-- Jade Sigilstone
 i(158859);	-- Jagged Fang
 i(163323);	-- Julie's Cracked Dish
 i(155593);	-- Keeled Breastbone
