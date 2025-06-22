@@ -4695,7 +4695,6 @@ root(ROOTS.Unsorted, {
 			i(168662),	-- Maroon Pigment
 			i(168755),	-- Unpublished Research
 			i(168786),	-- Rotten Food
-			i(168787),	-- Empty Birdcage
 			i(168788),	-- Toy Soldier Weapons
 			i(168789),	-- Perpetual Motion Device
 			i(168790),	-- Sack of Fish Bones
