@@ -1229,7 +1229,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				25962,	-- Fire Eater (A)
 				-- #if AFTER 11.1.7
 				240483,	-- Flame Eater
-				--#endif
+				-- #endif
 			},
 			-- #if AFTER 11.1.7
 			["coord"] = { 47.2, 53.6, DORNOGAL },
@@ -1242,7 +1242,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				25994,	-- Fire Eater (H)
 				-- #if AFTER 11.1.7
 				240483,	-- Flame Eater
-				--#endif
+				-- #endif
 			},
 			-- #if AFTER 11.1.7
 			["coord"] = { 47.2, 53.6, DORNOGAL },
