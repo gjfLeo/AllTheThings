@@ -25,7 +25,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				--["questID"] = ,
 			}),
 			n(245998, {	-- Heka'tamos <the Elemental Disjunction>
-				["coord"] = { 75.3, 30.5, KARESH },
+				["description"] = "You need to interract with Spectral Lantern, Dewminder, Earthy Succulent, and Windcatcher inside The Oasis.\nOnce you have obtained the buffs, you can summon Heka'tamos at the Brazier of Elemental Union near his spawn point.",
+				["coord"] = { 75.2, 31.0, KARESH },
 				["questID"] = 91276,
 				["g"] = {
 					i(245272),	-- Heka'Tarnos, Bringer of Discord (PET!)
@@ -37,8 +38,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["questID"] = 90596,
 			}),
 			n(232077, {	-- Korgorath the Ravager
-				--["coord"] = { x, y, KARESH },
-				--["questID"] = ,
+				["coord"] = { 64.7, 43.6, KARESH },
+				["questID"] = 90586,
 			}),
 			n(245997, {	-- Malek'ta <The Jaws of Oblivion>
 				["description"] = "Malek'ta is burrowed under the ground. Jump around to lure it out.",
@@ -78,7 +79,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["questID"] = 90591,
 			}),
 			n(232006, {	-- Sha'ryth the Cursed
-				["coord"] = { 72.3, 54.8, KARESH },
+				["coord"] = { 72.3, 55.8, KARESH },
 				["questID"] = 90585,
 				["g"] = {
 					i(239453),	-- Reshii Magi's Spines
@@ -101,12 +102,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["questID"] = 90589,
 			}),
 			n(232195, {	-- Urmag <The Terror Below>
-				["coord"] = { 70.2, 50.1, KARESH },
+				["coord"] = { 70.2, 49.7, KARESH },
 				["questID"] = 90593,
 			}),
 			n(232199, {	-- Xarran the Binder
-				["coord"] = { 65.0, 49.9, KARESH },
+				["coord"] = { 65.1, 50.0, KARESH },
 				["questID"] = 90584,
+				["g"] = {
+					i(239451),	-- Reshii Magi's Crown
+				},
 			}),
 		}),
 	}),
@@ -119,8 +123,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90676, {	-- Weekly reputation: "Chowdar"
 					["name"] = "Chowdar weekly reputation obtained.",
 				}),
+				q(91422, {	-- Weekly reputation: Heka'tamos
+					["name"] = "Heka'tamos weekly reputation obtained.",
+				}),
 				q(90685, {	-- Weekly reputation: Ixthar the Unblinking
 					["name"] = "Ixthar the Unblinking weekly reputation obtained.",
+				}),
+				q(90675, {	-- Weekly reputation: Korgorath the Ravager
+					["name"] = "Korgorath the Ravager weekly reputation obtained.",
 				}),
 				q(91421, {	-- Weekly reputation: Malek'ta
 					["name"] = "Malek'ta weekly reputation obtained.",

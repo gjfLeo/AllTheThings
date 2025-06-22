@@ -233,13 +233,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84860,	-- Eco-Stabilizing
 						},
 						["provider"] = { "n", 230825 },	-- Xal'atath
-						["coord"] = { 47.0, 54.5, KARESH },
-						["g"] = {
-							i(237867),	-- Oathsworn Defender's Breeches
-							i(237874),	-- Oathsworn Defender's Greaves
-							i(237862),	-- Oathsworn Defender's Leggings
-							i(237882),	-- Oathsworn Defender's Legguards
-						},
+						["coord"] = { 47.1, 54.6, KARESH },
 					}),
 					q(84863, {	-- Counter Measures
 						["sourceQuests"] = {
@@ -274,8 +268,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							84865,	-- Divide and Conquer
 							84864,	-- Her Dark Side
 						},
-						["provider"] = { "n", 232642 },	-- Alleria Windrunner
-						--["coord"] = { 47.0, 54.5, KARESH }, mobileNPC
+						["provider"] = { "n", 232642 },	-- Alleria Windrunner (mobileNPC)
+						-- She is following you around. Coordinates depend on where you turned in previous cluster of quests
 						["g"] = {
 							i(238386),	-- Void-Touched Fragment
 						},
@@ -291,8 +285,76 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 47.1, 54.5, KARESH },
 					}),
 				--}),
-				--header(HEADERS.AchCriteria, 41970.03, {	-- Chapter 3: 
-
+				--header(HEADERS.AchCriteria, 41970.03, {	-- Chapter 3: Desert Power
+					q(84826, {	-- Eco-Dome: Rhovan
+						["sourceQuests"] = { 90517 },	-- My Part of the Deal
+						["provider"] = { "n", 230811 },	-- Locus-Walker
+						["coord"] = { 47.1, 54.5, KARESH },
+					}),
+					q(84827, {	-- The Shattered Dome
+						["sourceQuests"] = { 84826 },	-- Eco-Dome: Rhovan
+						["provider"] = { "n", 230288 },	-- Locus-Walker
+						["coord"] = { 70.9, 58.1, KARESH },
+						["g"] = {
+							o(466978, {	-- Om'bera's Clipboard
+								["coord"] = { 70.9, 54.4, KARESH },
+								["g"] = {
+									i(229058),	-- Supply Crates Manifest (QI!)
+								},
+							}),
+							o(466983, {	-- Curved Dagger
+								["coord"] = { 70.0, 53.1, KARESH },
+								["g"] = {
+									i(229060),	-- Curved Dagger (QI!)
+								},
+							}),
+						},
+					}),
+					q(84831, {	-- The Rhovan Infestation
+						["sourceQuests"] = { 84826 },	-- Eco-Dome: Rhovan
+						["provider"] = { "n", 230294 },	-- Om'resh
+						["coord"] = { 71.0, 58.0, KARESH },
+					}),
+					q(85730, {	-- Salvaging What's Left
+						["sourceQuests"] = {
+							84827,	-- The Shattered Dome
+							84831,	-- The Rhovan Infestation
+						},
+						["provider"] = { "n", 230294 },	-- Om'resh
+						["coord"] = { 71.0, 58.0, KARESH },
+						["g"] = {
+							o(499949, {	-- Stolen Research Crate
+								i(232876),	-- Stolen Research Crate (QI!)
+							}),
+							--
+							i(237879),	-- Encroaching Void Breastplate
+							i(237870),	-- Encroaching Void Chainmail
+							i(237886),	-- Encroaching Void Vest
+							i(237858),	-- Encroaching Void Vestment
+						},
+					}),
+					q(86327, {	-- The Tempest Fields
+						["sourceQuests"] = { 85730 },	-- Salvaging What's Left
+						["provider"] = { "n", 230602 },	-- Xal'atath
+						["coord"] = { 68.4, 51.9, KARESH },
+					}),
+					q(84834, {	-- Tempest Clefts
+						["sourceQuests"] = { 86327 },	-- The Tempest Fields
+						["provider"] = { "n", 233878 },	-- Xal'atath
+						["coord"] = { 64.1, 47.0, KARESH },
+						["g"] = {
+							i(233018),	-- Essence Collector (PQI!)
+							--
+							o(466810, {	-- Void Cleft
+								i(229994),	-- Void Cleft Essence (QI!)
+							}),
+						},
+					}),
+					q(84869, {	-- Hunting on Glass
+						["sourceQuests"] = { 86327 },	-- The Tempest Fields
+						["provider"] = { "n", 233878 },	-- Xal'atath
+						["coord"] = { 64.1, 47.0, KARESH },
+					}),
 				--}),
 
 					------ Bonus Objective ------
@@ -342,6 +404,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 86946 },	-- Unwrapped and Unraveled
 						["provider"] = { "n", 230811 },	-- Locus-Walker
 						["coord"] = { 47.0, 54.5, KARESH },
+					}),
+					hqt(85774, {	-- Stay awhile and listen: Xal'atath
+						["name"] = "Stay awhile and listen: Xal'atath",
+						["sourceQuests"] = { 86327 },	-- The Tempest Fields
+						["provider"] = { "n", 230602 },	-- Xal'atath
+						["coord"] = { 68.4, 51.9, KARESH },
 					}),
 		}),
 	}),

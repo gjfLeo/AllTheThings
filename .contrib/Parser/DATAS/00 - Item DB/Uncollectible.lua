@@ -2458,6 +2458,7 @@ i(238872);	-- Fragmented Fin
 i(238799);	-- Harrowed Ichor
 i(238813);	-- Irridescent Eye
 i(247688);	-- K'arroc Feather Quill
+i(244360);	-- K'aresh Nightbloom
 i(238812);	-- Long Fibrous Tongue
 i(238869);	-- Matted Pelt
 i(238855);	-- Netherclaw

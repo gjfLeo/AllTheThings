@@ -7,8 +7,6 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			i(186639),	-- Xy Trustee's Gearglider
 			i(186640),	-- Vandal's Gearglider
-			i(229058),	-- Supply Crates Manifest
-			i(229060),	-- Curved Dagger
 			i(229166),	-- Void Stuffs
 			i(229363),	-- Zaranit Bud
 			i(229398),	-- Sabeel's Tuning Key
@@ -29,7 +27,6 @@ root(ROOTS.Unsorted, {
 			i(229905),	-- Satchel of Seeds
 			i(229959),	-- Void-Infused Shard
 			i(229969),	-- Flickering Essence
-			i(229994),	-- Void Cleft Essence
 			i(230032),	-- Overflowing K'aresh Trust Trove
 			i(230053),	-- Honey Globule
 			i(230210),	-- Tranquilizing Dart
@@ -578,13 +575,11 @@ root(ROOTS.Unsorted, {
 			i(232870),	-- Arsenal: Astral Aspirant's Weapons
 			i(232871),	-- Arsenal: Astral Gladiator's Weapons
 			i(232872),	-- Arsenal: Elite Astral Gladiator's Weapons
-			i(232876),	-- Stolen Research Crate
 			i(232908),	-- Astral Gladiator's Tabard
 			i(232992),	-- Large Bug Bits
 			i(233005),	-- Om'taha's Toolkit[DNT]
 			i(233009),	-- Firebud Pollen
 			i(233012),	-- Flamethrower
-			i(233018),	-- Essence Collector
 			i(233028),	-- Flamethrower
 			i(233192),	-- Shadowguard Weapon
 			i(233193),	-- Shadowguard Weapon
@@ -669,38 +664,8 @@ root(ROOTS.Unsorted, {
 			i(237353),	-- Om'sto's Veilshards
 			i(237354),	-- A Bag of Veilshards
 			i(237356),	-- Vermin Attuned Optic-Visualizer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			i(237552),	-- Deathbound Shoulderpads
-
-
-
-
-
-
-
-
-
-
 			i(237572),	-- Smooth Stone
-
-
 			i(237581),	-- Dreadful Voidglass Contaminant
 			i(237582),	-- Mystic Voidglass Contaminant
 			i(237583),	-- Venerated Voidglass Contaminant
@@ -721,13 +686,9 @@ root(ROOTS.Unsorted, {
 			i(237598),	-- Mystic Yearning Cursemark
 			i(237599),	-- Venerated Yearning Cursemark
 			i(237600),	-- Zenith Yearning Cursemark
-
-
 			i(237601),	-- Nagrand Snake
 			i(237602),	-- Hungering Void Curio
 			i(237604),	-- Fragrant Dreaming Glory
-
-
 			i(237605),	-- Living Weapon's Cape
 			i(237606),	-- Living Weapon's Manacles
 			i(237607),	-- Living Weapon's Chain
@@ -845,31 +806,19 @@ root(ROOTS.Unsorted, {
 			i(237719),	-- Augur's Ephemeral Mitts
 			i(237720),	-- Augur's Ephemeral Slippers
 			i(237721),	-- Augur's Ephemeral Habiliments
-
-
-
-
-
-
-
 			i(237757),	-- Marsh Moss
-
-			i(237858),	-- Encroaching Void Vestment
 			i(237859),	-- Silent Huntsman's Sandals
 			i(237860),	-- Wastelander's Worn Handwraps
 			i(237864),	-- Cuffs of the Riftsealer
 			i(237865),	-- Silent Huntsman's Waders
 			i(237866),	-- Wastelander's Worn Gloves
 			i(237869),	-- Bindings of the Riftsealer
-			i(237870),	-- Encroaching Void Chainmail
 			i(237871),	-- Silent Huntsman's Striders
 			i(237872),	-- Wastelander's Worn Grips
 			i(237877),	-- Bracers of the Riftsealer
-			i(237879),	-- Encroaching Void Breastplate
 			i(237880),	-- Silent Huntsman's Sabatons
 			i(237881),	-- Wastelander's Worn Gauntlets
 			i(237885),	-- Armplates of the Riftsealer
-			i(237886),	-- Encroaching Void Vest
 			i(237898),	-- Hemet's Waterin' Can
 			i(237934),	-- Locket of the Final Purge
 			i(237935),	-- Void-Reckoning Necklace
@@ -956,9 +905,6 @@ root(ROOTS.Unsorted, {
 			i(238180),	-- Delver's Mana-Skimmer Schematic: Void Paint
 			i(238181),	-- Delver's Mana-Skimmer Schematic: Energy Thrusters
 			i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive
-			i(238201),	-- K'areshi Ore
-			i(238212),	-- K'areshi Ore
-			i(238213),	-- K'areshi Ore
 			i(238216),	-- Hemet's Soothin' Flute
 			i(238242),	-- K'arroc Egg
 			i(238254),	-- Nuts and Bolts
@@ -1024,7 +970,6 @@ root(ROOTS.Unsorted, {
 			i(239448),	-- Reshii Magi's Vestments
 			i(239449),	-- Reshii Magi's Slippers
 			i(239450),	-- Reshii Magi's Gloves
-			i(239451),	-- Reshii Magi's Crown
 			i(239452),	-- Reshii Magi's Leggings
 			i(239453),	-- Reshii Magi's Spines
 			i(239454),	-- Reshii Magi's Cord
@@ -1077,15 +1022,11 @@ root(ROOTS.Unsorted, {
 			i(239580),	-- Nether Overlay Matrix
 			i(239594),	-- Crimson Valorstone
 			i(239607),	-- Charged Cyrstal
-			i(239690),	-- Phantom Bloom
-			i(239691),	-- Phantom Bloom
-			i(239692),	-- Phantom Bloom
 			i(240168),	-- Reshii Magi's Seal
 			i(240169),	-- Reshii Magi's Amulet
 			i(240171),	-- Observer's Soul Fetters
 			i(240172),	-- Depleted K'areshi Battery
 			i(240175),	-- Crystallized Ethereal Voidsplinter
-			i(240194),	-- K'areshi Lotus
 			i(240207),	-- Golden Valorstone
 			i(240208),	-- Void-Touched Valorstone
 			i(240209),	-- Golden Valorstone
@@ -1126,14 +1067,6 @@ root(ROOTS.Unsorted, {
 			i(242323),	-- Chowdar's Favorite Ribbon
 			i(242371),	-- Untethered Xy'bucha
 			i(242380),	-- Black Blood Blower
-
-
-
-
-
-
-
-
 			i(242464),	-- Swarmite's Frenzied Pedicel
 			i(242468),	-- Al'dani Attendant's Gauze
 			i(242470),	-- Mandibular Bonewhacker
@@ -1156,7 +1089,6 @@ root(ROOTS.Unsorted, {
 			i(242494),	-- Lily of the Eternal Weave
 			i(242495),	-- Incorporeal Warpclaw
 			i(242497),	-- Azhiccaran Parapodia
-			i(242529),	-- Shadowtrade Imports
 			i(242535),	-- Missing Imports
 			i(242547),	-- Cracked Keystone
 			i(242636),	-- Astral Legend's Pennant
@@ -1196,9 +1128,6 @@ root(ROOTS.Unsorted, {
 			i(243046),	-- Band of Boundless Hunger
 			i(243048),	-- Technomancer's Service Sandals
 			i(243056),	-- Delver's Mana-Bound Ethergate
-
-			i(243144),	-- Reshi Crystal Fragments
-			i(243145),	-- Well-Preserved Wrappings
 			i(243147),	-- Ethereal Defense Pylon
 			i(243152),	-- NEW ITem
 			i(243153),	-- Korgorath's Talon
@@ -1213,10 +1142,8 @@ root(ROOTS.Unsorted, {
 			i(243291),	-- Bag of Brewfest Merchandise
 			i(243292),	-- Bag of Brewfest Merchandise
 			i(243293),	-- Bag of Brewfest Merchandise
-
 			i(243344),	-- Chef's Hat
 			i(243347),	-- Keg of Curiosities
-
 			i(243479),	-- Bag of Brewfest Ingredients
 			i(243496),	-- Wastelander's Gilded Band
 			i(243497),	-- Wastelander's Gilded Signet
@@ -1328,7 +1255,6 @@ root(ROOTS.Unsorted, {
 			i(244357),	-- Time-Worn Memento
 			i(244358),	-- "Prophecies of the Void"
 			i(244359),	-- Ethereal Pylon Conduit
-			i(244360),	-- K'aresh Nightbloom
 			i(244361),	-- Void-Carved Amethyst
 			i(244421),	-- Set Keystone Map: Eco-Dome Al'dani
 			i(244467),	-- Veridian Thorntail
@@ -1744,7 +1670,6 @@ root(ROOTS.Unsorted, {
 			i(248127),	-- Delver's Cosmetic Surprise Bag
 			i(248129),	-- Brann's Repossessed Gear
 			i(248142),	-- Delver's Bounty
-			i(248199),	-- The Brothers' Final Gift
 			i(248200),	-- The Brothers' Not-So-Final Present
 			i(248242),	-- Algari Token of Merit
 			i(248291),	-- Bronzbeard's Ceremonial Crown
