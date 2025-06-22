@@ -18,7 +18,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(229422, {	-- Undermine Equipment Chest
 						["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 						["cost"] = {{ "c", 3008, 350 }},	-- 350x Valorstones
+						["sym"] = {
+							-- All TWW Season 3 dungeons (Normal+ difficulty)
+							{"select", "instanceID"
+								,1271			-- Ara-Kara, City of Echoes
+								,1272			-- Cinderbrew Meadery
+								,1210			-- Darkflame Cleft
+								,1298			-- Operation: Floodgate
+								,1267			-- Priory of the Sacred Flame
+								,1268			-- The Rookery
+								,1187			-- Theater of Pain
+								,1012			-- The MOTHERLODE!!
+								,1178			-- TODO: Operation: Mechagon (does not work currently)
+							},
+							{"pop"},
+							{"where","difficultyID",DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS},
+							{"extract", "itemID"},
+							{"invtype", "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_CLOAK", "INVTYPE_CHEST", "INVTYPE_ROBE", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_WEAPON", "INVTYPE_SHIELD", "INVTYPE_RANGED", "INVTYPE_2HWEAPON", "INVTYPE_WEAPONMAINHAND", "INVTYPE_WEAPONOFFHAND", "INVTYPE_HOLDABLE", },
+						}
 					}),
+
 				},
 			}),
 			n(219036, {	-- Ardgaz <Token Exchange>
