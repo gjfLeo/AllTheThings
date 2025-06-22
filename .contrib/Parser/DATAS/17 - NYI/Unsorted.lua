@@ -989,14 +989,9 @@ root(ROOTS.Unsorted, {
 
 				-- Stocket
 				i(248410),	-- Technomancer's Gift
-				-- Token
-				i(248242),	-- Algari Token of Merit
 				-- Misc/ach?
 				i(246727),	-- Ethereal Essence Sliver
 				i(246737),	-- K'areshi Voidstone
-				-- Worldsoul
-				i(246771),	-- Radiant Echo
-				i(246772),	-- Radiant Echo
 				-- Devs having fun?
 				i(244854),	-- Purloined Artifact
 				i(244855),	-- Martin Fury
@@ -3537,7 +3532,6 @@ root(ROOTS.Unsorted, {
 				i(162601),	-- Timeworn Pressed Flower
 				i(162611),	-- Carefully Stashed Cache
 				i(162631),	-- Souvenir Tiki Tumbler
-				i(162632),	-- Lavish Sethrallis Figurine
 				i(162644),	-- Winter Veil Gift
 				i(162689),	-- Scroll of Town Portal
 				i(162773),	-- REUSE ME
@@ -3608,8 +3602,6 @@ root(ROOTS.Unsorted, {
 				i(163580),	-- Delicate Cathedral of Light Replica
 				i(163581),	-- Fragile Model of Stormwind Keep
 				i(163591),	-- Golden Fleet Sea Charts
-				i(163592),	-- Ceremonial Nose Ring \\ Acolyte's Ceremonial Nose Ring
-				i(163593),	-- Map of Zandalar Trade Winds
 				i(163606),	-- Note From Leo
 				i(163632),	-- Pristine Strings of Pearls
 				i(163649),	-- Kul Tiran Harpoon
@@ -3781,7 +3773,6 @@ root(ROOTS.Unsorted, {
 				i(158825),	-- PH Flavor - Unused \\ PH Flavor - K'thir
 				i(158826),	-- Hardy Hoof \\ PH Flavor - Honey Elemental \\ PH Flavor
 				i(158827),	-- PH Flavor - Unused \\ PH Flavor - Fish - Generic
-				i(158828),	-- Cracked Gladiator's Medallion \\ PH Flavor - Unused \\ PH Flavor - Grub / Maggot / Worm - Insect
 				i(158829),	-- PH Flavor - Unused \\ PH Flavor - Cockroach - Insect
 				i(158830),	-- Jade Sigilstone \\ PH Flavor - Wolf
 				i(158832),	-- Bushy Tail \\ PH Flavor - Kul Tiran
@@ -3790,7 +3781,6 @@ root(ROOTS.Unsorted, {
 				i(158836),	-- Barbed Stinger \\ PH Flavor - Pirate
 				i(158837),	-- PH Flavor - Unused \\ PH Flavor - Hyena
 				i(158838),	-- Fibrous Sludge \\ Fibrous Void \\ PH Flavor - Alliance
-				i(158840),	-- Prehensile Tongue \\ PH Flavor - Stag / Shoveltusk
 				i(158842),	-- Nibbled Crystal \\ PH Flavor - Thunder Lizard - Reptile
 				i(158843),	-- PH Flavor - Unused \\ PH Flavor - Bee - Insect
 				i(158844),	-- Shimmerdust \\ PH Flavor - Saurolisk - Reptile
@@ -4846,7 +4836,6 @@ root(ROOTS.Unsorted, {
 			i(169987),	-- Inert Dragonscale
 			i(169988),	-- Inert Mineral Dust
 			i(169992),	-- Cracked Iris Lens
-			i(169997),	-- Cracked Aegis
 			i(169998),	-- Weathered Bulwark
 			i(169999),	-- Crumbling Barrier
 			i(170000),	-- Battered Bastion

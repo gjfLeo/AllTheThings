@@ -310,10 +310,12 @@ i(158750);	-- Bonebreaker Beak
 i(155843);	-- Brittle Ceremonial Necklace
 i(155649);	-- Broken Zandalari Spear
 i(163590);	-- Careworn Loa Statuette
+i(163592);	-- Ceremonial Nose Ring
 i(158790);	-- Charnel Ash
 i(158863);	-- Chitinous Exoskeleton
 i(158743);	-- Conductive Antennae
 i(158821);	-- Cracked Mask
+i(158828);	-- Cracked Gladiator's Medallion
 i(155607);	-- D.E.H.T.A. Membership Card
 i(155841);	-- Defaced Statuette
 i(155608);	-- Defiled Bone
@@ -348,8 +350,10 @@ i(158859);	-- Jagged Fang
 i(163323);	-- Julie's Cracked Dish
 i(155593);	-- Keeled Breastbone
 i(162673);	-- Knotted Bowline
+i(162632);	-- Lavish Sethrallis Figurine
 i(159140);	-- Lifeless Clay
 i(158745);	-- Luminous Scale
+i(163593);	-- Map of Zandalar Trade Winds
 i(158751);	-- Matted Pelt
 i(161201);	-- Mermaid's Looking Glass
 i(158778);	-- Mucose Tendril
@@ -359,6 +363,7 @@ i(155615);	-- Pestilent Muck
 i(162633);	-- Petrified Jungle Orchid
 i(158781);	-- Pilfered Curio
 i(155601);	-- Pointy Leg Segment
+i(158840);	-- Prehensile Tongue
 i(158779);	-- Robust Horn
 i(158756);	-- Rotary Gasket
 i(158758);	-- Royal Jelly
@@ -407,6 +412,7 @@ i(170087);	-- Chromatic "Vinegar"
 i(169139);	-- Clogged Webbing Fabricator
 i(170086);	-- Coral-Flecked Chalice
 i(170099);	-- Corroded Elegant Key
+i(169997);	-- Cracked Aegis
 i(169132);	-- Cracked Gyroscope
 i(169124);	-- Decorational Whirlycog
 i(170097);	-- Discarded Quel'dorei Tome

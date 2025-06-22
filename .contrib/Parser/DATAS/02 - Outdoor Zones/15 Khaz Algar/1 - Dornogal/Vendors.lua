@@ -3,7 +3,7 @@
 ---------------------------------------------------
 local ALGARI_TOKEN_OF_MERIT_S1 = 220769;
 local ALGARI_TOKEN_OF_MERIT_S2 = 230793;
---local ALGARI_TOKEN_OF_MERIT_S3 = xx;
+local ALGARI_TOKEN_OF_MERIT_S3 = 248242;
 --local ALGARI_TOKEN_OF_MERIT_S4 = xx;
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(DORNOGAL, {
@@ -19,9 +19,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 						["cost"] = {{ "c", 3008, 350 }},	-- 350x Valorstones
 						["sym"] = {
-							-- All TWW Season 3 dungeons (Normal+ difficulty)
+							-- All TWW Season 2 dungeons (Normal+ difficulty)
 							{"select", "instanceID"
-								,1271			-- Ara-Kara, City of Echoes
 								,1272			-- Cinderbrew Meadery
 								,1210			-- Darkflame Cleft
 								,1298			-- Operation: Floodgate
@@ -37,7 +36,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 							{"invtype", "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_CLOAK", "INVTYPE_CHEST", "INVTYPE_ROBE", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_WEAPON", "INVTYPE_SHIELD", "INVTYPE_RANGED", "INVTYPE_2HWEAPON", "INVTYPE_WEAPONMAINHAND", "INVTYPE_WEAPONOFFHAND", "INVTYPE_HOLDABLE", },
 						}
 					}),
-
 				},
 			}),
 			n(219036, {	-- Ardgaz <Token Exchange>
