@@ -2457,6 +2457,7 @@ i(238886);	-- Faintly Glowing Vellum
 i(238833);	-- Flowing Ridge Spikes
 i(238872);	-- Fragmented Fin
 i(238799);	-- Harrowed Ichor
+i(238877);	-- Hollow Mandible
 i(238813);	-- Irridescent Eye
 i(247688);	-- K'arroc Feather Quill
 i(244360);	-- K'aresh Nightbloom
@@ -2465,6 +2466,7 @@ i(238869);	-- Matted Pelt
 i(238855);	-- Netherclaw
 i(247687);	-- Overly-Preserved K'areshi Preserves
 i(238873);	-- Serrated Scale Shard
+i(238878);	-- Shadow-Touched Fang
 i(238832);	-- Sinuous Wing Membrane
 i(247685);	-- Slightly Used Containment Device
 i(238800);	-- Soggy Bone Splinters
@@ -2475,4 +2477,5 @@ i(238875);	-- Twisted Sediment
 i(238867);	-- Unstable Void Essence
 i(238814);	-- Vibrantly Colored Crest
 i(238866);	-- Void Dust
+i(238848);	-- Void Tendril
 i(238841);	-- Void-Seeping Eyeball

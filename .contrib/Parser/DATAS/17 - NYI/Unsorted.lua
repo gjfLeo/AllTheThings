@@ -7,18 +7,6 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			n(ARMOR, {
 				-- Quest Rewards?
-				i(237859),	-- Silent Huntsman's Sandals
-				i(237860),	-- Wastelander's Worn Handwraps
-				i(237864),	-- Cuffs of the Riftsealer
-				i(237865),	-- Silent Huntsman's Waders
-				i(237866),	-- Wastelander's Worn Gloves
-				i(237869),	-- Bindings of the Riftsealer
-				i(237871),	-- Silent Huntsman's Striders
-				i(237872),	-- Wastelander's Worn Grips
-				i(237877),	-- Bracers of the Riftsealer
-				i(237880),	-- Silent Huntsman's Sabatons
-				i(237881),	-- Wastelander's Worn Gauntlets
-				i(237885),	-- Armplates of the Riftsealer
 				i(237934),	-- Locket of the Final Purge
 				i(237935),	-- Void-Reckoning Necklace
 				i(237936),	-- Fallen Prince's Crown
@@ -847,7 +835,6 @@ root(ROOTS.Unsorted, {
 				i(238808),	-- Celeste-Touched Fin
 				i(238810),	-- Mana-Blessed Fin
 				i(238834),	-- Burnished Void Claw
-				i(238848),	-- Void Tendril
 				i(238849),	-- Ominous Unblinking Eye
 				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
@@ -858,8 +845,6 @@ root(ROOTS.Unsorted, {
 				i(238870),	-- Pearly Incisor
 				i(238871),	-- Luminous Brushtail
 				i(238876),	-- Malicious Mandible
-				i(238877),	-- Hollow Mandible
-				i(238878),	-- Shadow-Touched Fang
 				i(238879),	-- Cracked Void Carapace
 				i(238880),	-- Oily Blubber
 				i(238881),	-- Barbed Predator Tusk
@@ -1648,7 +1633,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(QUEST_ITEMS, {
 				i(229166),	-- Void Stuffs
-				i(229363),	-- Zaranit Bud
 				i(229398),	-- Sabeel's Tuning Key
 				i(229399),	-- Patram's Tuning Key
 				i(229400),	-- Xaheen's Tuning Key
@@ -1673,10 +1657,8 @@ root(ROOTS.Unsorted, {
 				i(230729),	-- Appropriated Azerothian Camera
 				i(230730),	-- Nether Tuner
 				i(230732),	-- Honey
-				i(230772),	-- Coalesced Void Energy
 				i(230809),	-- K'aresh Flora Cutting
 				i(230907),	-- Honeycomb
-				i(230938),	-- Heartspring Water
 				i(231094),	-- Unused - Tranquilizing Dart [DNT]
 				i(231163),	-- Appropriated Azerothian Camera
 				i(231790),	-- Small Stone Tablet
@@ -1695,7 +1677,6 @@ root(ROOTS.Unsorted, {
 				i(232568),	-- Priest's Remains[DNT]
 				i(232574),	-- Missing Shipment
 				i(232578),	-- Wastelander Artifact
-				i(232599),	-- Tabiqa Dagger
 				i(232601),	-- Entropic Egg
 				i(232609),	-- Overflowing Anima Core
 				i(232612),	-- Laacunite Shard
@@ -1725,7 +1706,6 @@ root(ROOTS.Unsorted, {
 				i(234457),	-- Butcher's Knife
 				i(234815),	-- Plague Sample
 				i(234944),	-- Rancor Essence
-				i(235051),	-- Harvested Energy
 				i(235370),	-- Crate of Food
 				i(235384),	-- Anima Vacuum
 				i(235408),	-- Slateback Fur

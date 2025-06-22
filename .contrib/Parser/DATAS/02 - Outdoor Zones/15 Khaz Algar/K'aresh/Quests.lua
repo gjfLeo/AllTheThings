@@ -4,8 +4,8 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 	m(KARESH, {
 		n(QUESTS, {
-			--header(HEADERS.Achievement, 41970, {	-- The Knife's Edge
-				--header(HEADERS.AchCriteria, 41970.01, {	-- Chapter 1:
+			header(HEADERS.Achievement, 41970, {	-- The Knife's Edge
+				header(HEADERS.AchCriteria, 41970.01, {	-- Chapter 1: A Shadowy Invitation
 					q(84956, {	-- A Shadowy Invitation
 						--["sourceQuests"] = { xx },	-- TODO: does it exist?
 						["provider"] = { "n", 227758 },	-- Alleria Windrunner
@@ -134,8 +134,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 234620 },	-- Locus-Walker
 						["coord"] = { 40.5, 67.8, TAZAVESH },
 					}),
-				--}),
-				--header(HEADERS.AchCriteria, 41970.02, {	-- Chapter 2: Void Alliance
+				}),
+				header(HEADERS.AchCriteria, 41970.02, {	-- Chapter 2: Void Alliance
 					q(85032, {	-- What Is Left of Home
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 231128 },	-- Locus-Walker
@@ -182,6 +182,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 47.1, 54.5, KARESH },
 						["g"] = {
 							o(500813, {	-- Rod of analysis
+							-- TODO: Add coordinate here
 								i(233068),	-- Rod of Analysis
 							}),
 						},
@@ -251,7 +252,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 230825 },	-- Xal'atath
 						["coord"] = { 47.0, 54.5, KARESH },
 						["g"] = {
-							i(233222),	-- Nullbomb (QI!)
+							i(233222),	-- Nullbomb (PQI!)
 						},
 					}),
 					q(84864, {	-- Her Dark Side
@@ -284,8 +285,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 242538 },	-- Ve'nari
 						["coord"] = { 47.1, 54.5, KARESH },
 					}),
-				--}),
-				--header(HEADERS.AchCriteria, 41970.03, {	-- Chapter 3: Desert Power
+				}),
+				header(HEADERS.AchCriteria, 41970.03, {	-- Chapter 3: Desert Power
 					q(84826, {	-- Eco-Dome: Rhovan
 						["sourceQuests"] = { 90517 },	-- My Part of the Deal
 						["provider"] = { "n", 230811 },	-- Locus-Walker
@@ -338,6 +339,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 230602 },	-- Xal'atath
 						["coord"] = { 68.4, 51.9, KARESH },
 					}),
+					------ Stay awhile and listen ------
+					hqt(85774, {	-- Stay awhile and listen: Xal'atath
+						["name"] = "Stay awhile and listen: Xal'atath",
+						["description"] = "Dialogue becomes available after you accept 'The Tempest Fields' (86327).",
+						["sourceQuests"] = { 85730 },	-- Salvaging What's Left
+						["provider"] = { "n", 230602 },	-- Xal'atath
+						["coord"] = { 68.4, 51.9, KARESH },
+					}),
+					--
 					q(84834, {	-- Tempest Clefts
 						["sourceQuests"] = { 86327 },	-- The Tempest Fields
 						["provider"] = { "n", 233878 },	-- Xal'atath
@@ -355,13 +365,128 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 233878 },	-- Xal'atath
 						["coord"] = { 64.1, 47.0, KARESH },
 					}),
-				--}),
-
-					------ Bonus Objective ------
-					q(84966, {	-- Break the Assault
-						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
-						["coord"] = { 54.1, 63.7, TAZAVESH },
+					q(84838, {	-- Enemies of Enemies
+						["sourceQuests"] = {
+							84834,	-- Tempest Clefts
+							84869,	-- Hunting on Glass
+						},
+						["provider"] = { "n", 233878 },	-- Xal'atath
+						["coord"] = { 64.1, 47.0, KARESH },
+						["g"] = {
+							i(230772),	-- Coalesced Void Energy (PQI!)
+						},
 					}),
+					q(84848, {	-- Before the Void
+						["sourceQuests"] = { 84838 },	-- Enemies of Enemies
+						["provider"] = { "n", 230634 },	-- Xal'atath
+						["coord"] = { 64.3, 39.3, KARESH },
+						["g"] = {
+							i(232599),	-- Tabiqa Dagger (PQI!)
+							--
+							i(237881),	-- Wastelander's Worn Gauntlets
+							i(237866),	-- Wastelander's Worn Gloves
+							i(237872),	-- Wastelander's Worn Grips
+							i(237860),	-- Wastelander's Worn Handwraps
+						},
+					}),
+					q(84867, {	-- Stalking Stalkers
+						["sourceQuests"] = { 84848 },	-- Before the Void
+						["provider"] = { "n", 230658 },	-- Xal'atath
+						["coord"] = { 63.1, 39.0, KARESH },
+						["g"] = {
+							i(237880),	-- Silent Huntsman's Sabatons
+							i(237859),	-- Silent Huntsman's Sandals
+							i(237871),	-- Silent Huntsman's Striders
+							i(237865),	-- Silent Huntsman's Waders
+						},
+					}),
+					------ Stay awhile and listen ------
+					hqt(86815, {	-- Stay awhile and listen: Xal'atath
+						["name"] = "Stay awhile and listen: Xal'atath",
+						["description"] = "Dialogue becomes available after you accept 'Stalking Stalkers' (84867).",
+						["sourceQuests"] = { 84848 },	-- Before the Void
+						["provider"] = { "n", 230658 },	-- Xal'atath
+						["coord"] = { 63.1, 39.0, KARESH },
+					}),
+					--
+					q(86332, {	-- Distribution of Power
+						["description"] = "Quest becomes available after you talk to Narathe during 'Stalking Stalkers' (84867).",
+						["sourceQuests"] = { 84848 },	-- Before the Void
+						["provider"] = { "n", 234190 },	-- Narathe
+						["coord"] = { 61.0, 39.9, KARESH },
+						["g"] = {
+							i(235051),	-- Harvested Energy (QI!)
+						},
+					}),
+					q(84876, {	-- The Oasis
+						["sourceQuests"] = {
+							84867,	-- Stalking Stalkers
+							86332,	-- Distribution of Power
+						},
+						["provider"] = { "n", 230658 },	-- Xal'atath
+						["coord"] = { 63.1, 39.0, KARESH },
+					}),
+					q(84879, {	-- Restoring Hope
+						["sourceQuests"] = { 84876 },	-- The Oasis
+						["provider"] = { "n", 230738 },	-- Xal'atath
+						["coord"] = { 75.9, 34.2, KARESH },
+						["g"] = {
+							i(237885),	-- Armplates of the Riftsealer
+							i(237869),	-- Bindings of the Riftsealer
+							i(237877),	-- Bracers of the Riftsealer
+							i(237864),	-- Cuffs of the Riftsealer
+						},
+					}),
+					q(84883, {	-- K'aresh That Was
+						["sourceQuests"] = { 84876 },	-- The Oasis
+						["provider"] = { "n", 230739 },	-- Soul-Scribe
+						["coord"] = { 75.8, 34.3, KARESH },
+						["g"] = {
+							o(475872, {	-- Rippling Wellspring
+								["coord"] = { 76.8, 30.1, KARESH },
+								["g"] = {
+									i(230938),	-- Heartspring Water (QI!)
+								},
+							}),
+							o(467435, {	-- Zaranit Bud
+								i(229363),	-- Zaranit Bud (QI!)
+							}),
+						},
+					}),
+					q(84910, {	-- The Tabiqa
+						["sourceQuests"] = {
+							84879,	-- Restoring Hope
+							84883,	-- K'aresh That Was
+						},
+						["provider"] = { "n", 230739 },	-- Soul-Scribe
+						["coord"] = { 75.8, 34.3, KARESH },
+						["g"] = {
+							-- TODO: This will most likely be moved to Zone Rewards
+							currency(3278),	-- Ethereal Strands
+						},
+					}),
+				}),
+				header(HEADERS.AchCriteria, 41970.04, {	-- Chapter 4: Shadows En Garde
+					q(84896, {	-- The Next Dimension
+						["sourceQuests"] = { 84910 },	-- The Tabiqa
+						["provider"] = { "n", 230786 },	-- Soul-Scribe
+						["coord"] = { 74.4, 30.4, KARESH },
+					}),
+					q(84897, {	-- The Calm Before we Storm
+						["sourceQuests"] = { 84896 },	-- The Next Dimension
+						["provider"] = { "n", 230818 },	-- Soul-Scribe
+						["coord"] = { 60.2, 29.2, KARESH },
+					}),
+					------ Stay awhile and listen ------
+					--hqt(???, {	-- Stay awhile and listen: Alleria Windrunner - no questID
+					--	["name"] = "Stay awhile and listen: Alleria Windrunner",
+					--	["description"] = "Dialogue becomes available after you accept 'The Calm Before we Storm' (84897).",
+					--	["sourceQuests"] = { 84896 },	-- The Next Dimension
+					--	["provider"] = { "n", 230817 },	-- Alleria Windrunner
+					--	["coord"] = { 60.7, 27.9, KARESH },
+					--}),
+					--
+				}),
 					------ Stay awhile and listen ------
 					--hqt(???, {	-- Stay awhile and listen: Locus-Walker / 61476 - no questID
 					--	["name"] = "Stay awhile and listen: Locus-Walker",
@@ -405,12 +530,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 230811 },	-- Locus-Walker
 						["coord"] = { 47.0, 54.5, KARESH },
 					}),
-					hqt(85774, {	-- Stay awhile and listen: Xal'atath
-						["name"] = "Stay awhile and listen: Xal'atath",
-						["sourceQuests"] = { 86327 },	-- The Tempest Fields
-						["provider"] = { "n", 230602 },	-- Xal'atath
-						["coord"] = { 68.4, 51.9, KARESH },
-					}),
+			}),
+			n(BONUS_OBJECTIVES, {
+				q(84966, {	-- Break the Assault
+					["sourceQuests"] = { 84960 },	-- The Darkness Among Us
+					["coord"] = { 54.1, 63.7, TAZAVESH },
+				}),
+			}),
 		}),
 	}),
 })));
@@ -421,6 +547,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			n(QUESTS, {
 				-- During main story
 				q(85111),	-- [DNT] K'aresh Trust Renown Unlock (spellID 466720)
+				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
 				-- ??
 				--q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 			}),
