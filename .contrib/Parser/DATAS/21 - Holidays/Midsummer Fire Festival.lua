@@ -71,11 +71,11 @@ function abonfire(questID, t)
 	t.races = ALLIANCE_ONLY;
 	t.isYearly = true;
 	if t.provider and t.provider[1] == "o" then
-		ObjectDB[t.provider[2]] = ALLIANCE_BONFIRE_OBJECT_DATA;
+		ObjectDB[t.provider[2]] = HORDE_BONFIRE_OBJECT_DATA;
 	elseif t.providers then
 		for i,provider in ipairs(t.providers) do
 			if provider and provider[1] == "o" then
-				ObjectDB[provider[2]] = ALLIANCE_BONFIRE_OBJECT_DATA;
+				ObjectDB[provider[2]] = HORDE_BONFIRE_OBJECT_DATA;
 			end
 		end
 	end
@@ -86,11 +86,11 @@ function hbonfire(questID, t)
 	t.races = HORDE_ONLY;
 	t.isYearly = true;
 	if t.provider and t.provider[1] == "o" then
-		ObjectDB[t.provider[2]] = HORDE_BONFIRE_OBJECT_DATA;
+		ObjectDB[t.provider[2]] = ALLIANCE_BONFIRE_OBJECT_DATA;
 	elseif t.providers then
 		for i,provider in ipairs(t.providers) do
 			if provider and provider[1] == "o" then
-				ObjectDB[provider[2]] = HORDE_BONFIRE_OBJECT_DATA;
+				ObjectDB[provider[2]] = ALLIANCE_BONFIRE_OBJECT_DATA;
 			end
 		end
 	end
