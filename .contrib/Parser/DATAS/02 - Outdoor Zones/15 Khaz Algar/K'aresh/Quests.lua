@@ -589,6 +589,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					--
 				}),
+				header(HEADERS.AchCriteria, 41970.05, {	-- Chapter 5: The Light of K'aresh
+					q(86458),	--
+				}),
 					------ Stay awhile and listen ------
 					--hqt(???, {	-- Stay awhile and listen: Locus-Walker / 61476 - no questID
 					--	["name"] = "Stay awhile and listen: Locus-Walker",
@@ -876,7 +879,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			}),
 			header(HEADERS.Achievement, 41809, {	-- Ecological Variety (Daily Quests)
-				header(HEADERS.AchCriteria, 41809.02, {	-- Honey Bees
+				header(HEADERS.AchCriteria, 41809.01, {	-- Honey Bees
 					q(90545, {	-- A Reel Problem
 						["description"] = "Requires Fishing profession.",
 						["sourceQuests"] = { 85262 },	-- The Royal Procession
@@ -911,7 +914,47 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							i(231508),	-- Stolen Food Shipment (QI!)
 						},
 					}),
-				})
+					q(89194),	--
+					q(89195),	--
+					q(89210),	--
+				}),
+				header(HEADERS.AchCriteria, 41809.02, {	-- Slatebacks
+					q(85462),	--
+					q(88980),	--
+					q(85481),	--
+					q(85710),	--
+				}),
+				header(HEADERS.AchCriteria, 41809.03, {	-- Fox-strut
+					q(89212),	--
+					q(85465),	--
+					q(85721),	--
+					q(89057),	--
+					q(89240),	--
+				}),
+				header(HEADERS.AchCriteria, 41809.04, {	-- Lil' Lapbugs
+					q(89254),	--
+					q(89221),	--
+					q(89297),	--
+					q(85470),	--
+				}),
+				header(HEADERS.AchCriteria, 41809.05, {	-- Rays of Sunshine
+					q(89197),	--
+					q(89065),	--
+					q(89056),	--
+					q(89242),	--
+				}),
+				header(HEADERS.AchCriteria, 41809.06, {	-- Hard K'arroc
+					q(89238),	--
+					q(89192),	--
+					q(89213),	--
+					q(86342),	--
+					q(89198),	--
+				}),
+				header(HEADERS.AchCriteria, 41809.07, {	-- A Slither of Snakes
+					q(88659),	--
+					q(88981),	--
+					q(88975),	--
+				}),
 			}),
 			header(HEADERS.Achievement, 42731, {	-- Become a Hero. Become a Phasediver!
 				q(89380, {	-- Another World
@@ -999,6 +1042,27 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				header(HEADERS.AchCriteria, 42739.11, {	-- A Stranger's Gift
 				}),
 			}),
+			header(HEADERS.Achievement, 42737, {	-- Capstoned
+				q(89294),	-- Special Assignment: Alligned Views
+				q(89293),	-- Special Assignment: Overshadowed
+			}),
+			header(HEADERS.Achievement, 41811, {	-- Ecological Stability
+				q(84744),	-- A Slither of Snakes
+				q(84742),	-- Fox-strut
+				q(86793),	-- Hard K'arroc
+				q(84745),	-- Honey Bees
+				q(85520),	-- Lil' Lapbugs
+				q(89306),	-- Rays of Sunshine
+				q(84992),	-- Slatebacks
+			}),
+			header(HEADERS.Achievement, 41980, {	-- Vigiliante
+				q(90122),	--
+				q(90123),	--
+				q(90124),	--
+				q(90125),	--
+				q(90126),	--
+				q(90127),	--
+			}),
 			n(BONUS_OBJECTIVES, {
 				q(84966, {	-- Break the Assault
 					["sourceQuests"] = { 84960 },	-- The Darkness Among Us
@@ -1032,6 +1096,29 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["provider"] = { "i", 238665 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
+			-- Unsorted
+			q(86359),	--
+			q(86191),	--
+			q(86492),	--
+			q(86195),	--
+			q(86392),	--
+			q(87294),	--
+			q(86607),	--
+			q(86359),	--
+			q(87415),	--
+			q(88672),	--
+			q(90954),	--
+			q(84765),	--
+			q(85434),	--
+			q(91044),	--
+			q(91454),	--
+			q(85009),	--
+			q(85018),	--
+			q(85022),	--
+			q(85394),	--
+			q(85055),	--
+			q(86201),	--
+			q(86193),	--
 		}),
 	}),
 })));
@@ -1046,14 +1133,14 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
 				-- ??
 				--q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
-				
+
 				q(91289),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 				q(91311),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91312),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 				q(91435),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91436),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
-				
+
 				q(90955),	-- Triggered during 'Wrapped Up' (89561) when Reshii Wraps get upgraded (Selecting "Boon of the Reshii" at Hashim
 			}),
 		}),
