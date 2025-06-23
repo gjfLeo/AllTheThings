@@ -300,11 +300,6 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(87532),	--
 			-- Week 6:
 			--q(),	-- no hqt this week
-			-- Podium Upgrades
-			-- q(90463),	-- itemID 240203 (Podium Upgrade: Scrappy)
-			-- q(90464),	-- itemID 240204 (Podium Upgrade: Survival Run)
-			-- q(90465),	-- itemID 240205 (Podium Upgrade: Time in Spotlights)
-			-- q(90466),	-- ItemID 240206 (Podium Upgrade: Yards Traveled)
 		}),
 	})),
 });

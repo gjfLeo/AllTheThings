@@ -907,11 +907,11 @@ iq(242622, 90709);					-- Warbound Purifying Kit
 ------------------
 -- PATCH 11.1.7 --
 ------------------
-iq(244900, 90948);					-- Miniature Titan Disc: Spark Burst
 iq(244905, 90953);					-- Miniature Titan Disc: Charged Crystal
+iq(244903, 90951);					-- Miniature Titan Disc: Charged Touch
 iq(244899, 90947);					-- Miniature Titan Disc: Critical Chain
 iq(244902, 90950);					-- Miniature Titan Disc: Electric Current
-iq(244903, 90951);					-- Miniature Titan Disc: Charged Touch
+iq(244900, 90948);					-- Miniature Titan Disc: Spark Burst
 iq(244901, 90949);					-- Miniature Titan Disc: Statically Charged
 iq(240200, 90460);					-- Podium Upgrade: Longest Survival Run
 iq(240201, 90461);					-- Podium Upgrade: Longest Time in Spotlights
