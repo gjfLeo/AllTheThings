@@ -738,6 +738,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 		i(152544),	-- Slimy Mackerel
 		i(152548),	-- Tiragarde Perch
 		i(168302, {["timeline"] = {ADDED_8_2_0}}),	-- Viper Fish
+		spell(273293, {	-- Aromatic Fish Oil
+			i(160711),	-- Aromatic Fish Oil
+		}),
 		filter(RECIPES, {
 			i(34109, {	-- Weather-Beaten Journal (RECIPE!)
 				["description"] = "Can be fished from schools.",
@@ -904,6 +907,21 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 			spell(305982, bubbleDownSelf({["timeline"] = { ADDED_8_3_0 } }, {	-- Unbound Leviathan's Eye Loop
 				i(171083),	-- Design: Awakened Leviathan's Eye Loop (RECIPE!)
 			})),
+		}),
+		spell(382973, {	-- Kul Tiras and Zandalar Prospecting
+			i(153700),	-- Golden Beryl
+			i(153701),	-- Rubellite
+			i(153702),	-- Kubiline
+			i(153703),	-- Solstone
+			i(153704),	-- Viridium
+			i(153705),	-- Kyanite
+			i(153706),	-- Kraken's Eye
+			i(154120),	-- Owlseye
+			i(154121),	-- Scarlet Diamond
+			i(154122),	-- Tidal Amethyst
+			i(154123),	-- Amberblaze
+			i(154124),	-- Laribole
+			i(154125),	-- Royal Quartz
 		}),
 		filter(FINGER_F, {
 			i(153686),	-- Amberblaze Loop

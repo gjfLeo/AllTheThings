@@ -2389,7 +2389,6 @@ root(ROOTS.Unsorted, {
 				i(232868),	-- Arsenal: Prized Gladiator's Weapons
 				i(232869),	-- Arsenal: Elite Prized Gladiator's Weapons
 			}),
-			i(229809),	-- Weighted Metal Ball
 			i(235713),	-- Weird Sand
 			i(236635),	-- Uncut Semi-Smoky Quartz
 			i(236651),	-- Vince's Old Left Shoe
@@ -3453,7 +3452,6 @@ root(ROOTS.Unsorted, {
 				i(158227),	-- Shiny Metal \\ Scrap Metal
 				i(158720),	-- Staff of the Frosty Cavedweller
 				i(158877),	-- Bloodstained Message \\ Tattered Message
-				i(158879),	-- Bloodstained Message \\ Tattered Message
 				i(158897),	-- Improved Flight Master's Whistle
 				i(159145),	-- Empty Grog Bottle \\ Plundered Supplies
 				i(159224),	-- Zuldazar Hearthstone
@@ -3508,7 +3506,6 @@ root(ROOTS.Unsorted, {
 				i(163017),	-- Pitch-Soaked Torch
 				i(163028),	-- Masterwork Statue of the First Trolls
 				i(163029),	-- Misplaced Funereal Offering
-				i(163030),	-- Rusted Mining Pick
 				i(163031),	-- Crate of Unstable Dynamite
 				i(163035),	-- Orders From Sylvanas
 				i(163040),	-- Storm Glider
@@ -3523,7 +3520,6 @@ root(ROOTS.Unsorted, {
 				i(163070),	-- Rumpled Hat
 				i(163071),	-- Stinkbomb Casing
 				i(163074),	-- Hard White Pellet \\ Pile of Hard White Pellets
-				i(163078),	-- Glittering Earring
 				i(163079),	-- Chipped Trophy Tusk
 				i(163080),	-- Partially Eaten Sunfruit
 				i(163084),	-- Solid Gold Cutlass \\ Gold-Plated Cutlass
@@ -3619,7 +3615,6 @@ root(ROOTS.Unsorted, {
 				i(155016),	-- REUSE ME (DNT)
 				i(155017),	-- REUSE ME (DNT)
 				i(155018),	-- REUSE ME (DNT)
-				i(155838),	-- Briarback Quills
 				i(156832),	-- Immaculate Quilboar Quill
 				i(158325),	-- Soul Fragment
 				i(159880),	-- Vale Flutterby
@@ -3716,7 +3711,6 @@ root(ROOTS.Unsorted, {
 				i(158798),	-- PH Flavor - Unused \\ PH Flavor - Abyssal Eel - Fish
 				i(158799),	-- PH Flavor - Unused \\ PH Flavor - Wicker Beast - Drust
 				i(158800),	-- PH Flavor - Unused \\ PH Flavor - Camel
-				i(158801),	-- Finely Serrated Tooth \\ PH Flavor - Harvest Golem / Crowd Pummeler
 				i(158802),	-- PH Flavor - Unused \\ PH Flavor - Boar
 				i(158803),	-- PH Flavor - Unused \\ PH Flavor - Parrot / Axebeak - Bird \\ PH Flavor - Parrot - Bird
 				i(158804),	-- Castor Gland \\ PH Flavor - Horde
@@ -3734,7 +3728,6 @@ root(ROOTS.Unsorted, {
 				i(158819),	-- Rat Tail \\ PH Flavor - Spider - Insect
 				i(158820),	-- Blind-Worm Sting \\ PH Flavor - Naga Male
 				i(158822),	-- Lustrous Black Feather \\ PH Flavor - Wind Serpent
-				i(158823),	-- Malfunctioning Rocket Boots \\ PH Flavor - Unused \\ PH Flavor - Falcon / Gryphon / Owl - Bird
 				i(158824),	-- PH Flavor - Unused \\ PH Flavor - Firefly - Insect
 				i(158825),	-- PH Flavor - Unused \\ PH Flavor - K'thir
 				i(158826),	-- Hardy Hoof \\ PH Flavor - Honey Elemental \\ PH Flavor
@@ -3783,7 +3776,6 @@ root(ROOTS.Unsorted, {
 				i(158736),	-- Trophy Antlers
 				i(158797),	-- Jar of Truffles
 				i(158858),	-- Adder's Fork
-				i(158866),	-- Oily Blubber
 				i(163847),	-- Silver Monkey Torso
 				i(163848),	-- Overused Voodoo Doll
 				i(163849),	-- Bad Troll Love Poem
@@ -3880,19 +3872,6 @@ root(ROOTS.Unsorted, {
 				i(153659),	-- Glyph of (NEEDS NAME)
 				i(153660),	-- Glyph of (NEEDS NAME)
 				i(153669),	-- Viridescent Pigment
-				i(153700),	-- Golden Beryl
-				i(153701),	-- Rubellite
-				i(153702),	-- Kubiline
-				i(153703),	-- Solstone
-				i(153704),	-- Viridium
-				i(153705),	-- Kyanite
-				i(153706),	-- Kraken's Eye
-				i(154120),	-- Owlseye
-				i(154121),	-- Scarlet Diamond
-				i(154122),	-- Tidal Amethyst
-				i(154123),	-- Amberblaze
-				i(154124),	-- Laribole
-				i(154125),	-- Royal Quartz
 				i(154164),	-- Blood-Stained Bone \\ Bone - Common (NEEDS NAME)
 				i(154165),	-- Calcified Bone \\ Bone - Uncommon (NEEDS NAME)
 				i(154170),	-- RE-USE ME \\ Mallet of Thunderous Skins \\ Curved Diamond Awl Blade \\ Leatherworking Tool (NEEDS NAME)
@@ -3910,15 +3889,12 @@ root(ROOTS.Unsorted, {
 				i(158383),	-- Tidespray Pet Bandage \\ Sun-Bleached Pet Bandage
 				i(159959),	-- Nylon Thread
 				i(160059),	-- Amber Tanning Oil
-				i(160298),	-- Durable Flux
 				i(160398),	-- Choral Honey
 				i(160399),	-- Wild Flour
 				i(160400),	-- Foosaka
 				i(160705),	-- Major's Frothy Coffee
-				i(160502),	-- Chemical Blasting Cap
 				i(160709),	-- Fresh Potato
 				i(160710),	-- Wild Berries
-				i(160711),	-- Aromatic Fish Oil
 				i(160712),	-- Powdered Sugar
 				i(162113),	-- Potion of Herb Tracking
 				i(162115),	-- Magnetic Mining Pick
@@ -3941,7 +3917,6 @@ root(ROOTS.Unsorted, {
 				i(162517),	-- U'taka
 				i(163203),	-- Hypersensitive Azeritometer Sensor
 				i(163569),	-- Insulated Wiring
-				i(163782),	-- Cursed Haunch
 				i(163783),	-- Mount Mugamba Spring Water \\ Mount Mugaba Spring Water
 				i(163784),	-- Seafoam Coconut Water
 				i(163785),	-- Canteen of Rivermarsh Rainwater
@@ -4239,7 +4214,6 @@ root(ROOTS.Unsorted, {
 				i(160316),	-- Dark Iron Curiosity
 				i(160444),	-- Pile of Storm Silver Ingots
 				i(160516),	-- Pristine Quillrat Quill
-				i(160525),	-- Tongo's Head
 				i(160584),	-- Greater Control Charm
 				i(160586),	-- Blasting Stick
 				i(160594),	-- Saw Dust \\ Metal Casing
@@ -4315,7 +4289,6 @@ root(ROOTS.Unsorted, {
 			i(162678),	-- Crimson Flail
 			i(162679),	-- Misfired Pistol
 			i(162680),	-- Ruined Collar
-			i(162681),	-- Bent Sickle
 			i(162682),	-- Tarnished Longsword
 		})),
 		-- 8.1.0
@@ -4420,7 +4393,6 @@ root(ROOTS.Unsorted, {
 			i(166252),	-- Looted Titan Relic
 			i(166253),	-- Mana Crystal
 			i(166281),	-- Page of Dark Magic
-			i(166288),	-- Waterlogged Junk \\ Watterlogged Junk
 			i(166382),	-- Add Keystone Affix: Infested
 			i(166383),	-- Set Keystone Map: Atal'dazar
 			i(166390),	-- Set Keystone Map: Freehold
@@ -4629,7 +4601,6 @@ root(ROOTS.Unsorted, {
 			i(168258),	-- Bundle of Recyclable Parts
 			i(168262),	-- Sentry Fish
 			i(168263),	-- Mundane Recycling Requisition
-			i(168303),	-- Rubbery Flank
 			i(168356),	-- PH - Nazjatar - Mail HEAD 3
 			i(168392),	-- Skate Sushi \\ Jinyu Sushi
 			i(168393),	-- Holographic Combat Entity Data
@@ -4798,7 +4769,6 @@ root(ROOTS.Unsorted, {
 			i(170002),	-- Split Differential
 			i(170003),	-- Grinding Gearbox
 			i(170004),	-- Cracked Turbo
-			i(170005),	-- Fractured Pearl
 			i(170009),	-- Fading Memento
 			i(170010),	-- Crumbling Memento
 			i(170011),	-- Cracked Memento
@@ -4903,9 +4873,6 @@ root(ROOTS.Unsorted, {
 			i(168013),	-- Roo'li's Remains
 			i(168099),	-- Deepcoral Pod
 			i(168213),	-- Tensile Driveshaft
-			i(168215),	-- Machined Gear Assembly
-			i(168216),	-- Tempered Plating
-			i(168217),	-- Hardened Spring
 			i(168949),	-- Tensile Driveshaft
 			i(168950),	-- Machined Gear Assembly
 			i(168951),	-- Tempered Plating

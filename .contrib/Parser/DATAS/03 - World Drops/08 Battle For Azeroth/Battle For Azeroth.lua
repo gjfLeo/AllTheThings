@@ -238,18 +238,16 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { AD
 		i(160928),	-- Weathered Greatsword
 	}),
 	filter(REAGENTS, {
-		prof(COOKING, {
-			i(152631),	-- Briny Flesh
-			i(154898),	-- Meaty Haunch
-			i(168645, {["timeline"] = {ADDED_8_2_0}}),	-- Moist Fillet
-			i(154897),	-- Stringy Loins
-			i(154899),	-- Thick Paleo Steak
-		}),
-		prof(TAILORING, {
-			i(152577),	-- Deep Sea Satin
-			i(167738, {["timeline"] = {ADDED_8_1_5}}),	-- Gilded Seaweave
-			i(152576),	-- Tidespray Linen
-		}),
+		i(152631),	-- Briny Flesh
+		i(163782),	-- Cursed Haunch
+		i(152577),	-- Deep Sea Satin
+		i(167738, {["timeline"] = {ADDED_8_1_5}}),	-- Gilded Seaweave
+		i(154898),	-- Meaty Haunch
+		i(168645, {["timeline"] = {ADDED_8_2_0}}),	-- Moist Fillet
+		i(168303, {["timeline"] = {ADDED_8_2_0}}),	-- Rubbery Flank
+		i(154897),	-- Stringy Loins
+		i(154899),	-- Thick Paleo Steak
+		i(152576),	-- Tidespray Linen
 	}),
 	filter(RECIPES, {
 		prof(BLACKSMITHING, {
