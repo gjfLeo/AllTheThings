@@ -370,6 +370,7 @@ i(158779);	-- Robust Horn
 i(158756);	-- Rotary Gasket
 i(158758);	-- Royal Jelly
 i(157842);	-- Rusty Gear
+i(161053);	-- Salty Dog Crackers
 i(162630);	-- Sandy Ornate Relic
 i(158849);	-- Sawtooth Jawbone
 i(158752);	-- Severed Foot

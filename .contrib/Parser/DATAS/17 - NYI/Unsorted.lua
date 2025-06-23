@@ -3633,7 +3633,6 @@ root(ROOTS.Unsorted, {
 				i(164370),	-- Highmaul Ambassador's Garb
 				i(158923),	-- Mythic Keystone
 				i(161017),	-- Secott's Storm Silver Bucket
-				i(161053),	-- Salty Dog Crackers
 				i(161084),	-- Recovered Stormsong Produce
 				i(161324),	-- Zeth'jir Tidespear
 				i(161345),	-- Abhorrent Essence of the Abyss
@@ -3857,7 +3856,6 @@ root(ROOTS.Unsorted, {
 				i(152580),	-- Pile of Cloth
 				i(152581),	-- Bag of Jewels
 				i(152582),	-- Stack of Skins
-				i(152631),	-- Briny Flesh \\ Meat 01 - Beast (NEEDS NAME)
 				i(152633),	-- Alchemist Tincture - Caster(NEEDS NAME)
 				i(152635),	-- Alchemist Tincture - Caster(NEEDS NAME)
 				i(152822),	-- Monel-Hardened Hatchet \\ Mariner's Hatchet
@@ -4538,7 +4536,6 @@ root(ROOTS.Unsorted, {
 			i(167553),	-- Squeaky Raptor
 			i(167552),	-- Luminescent Research Notes
 			i(167737),	-- Thrice-Folded Letter
-			i(167738),	-- Gilded Seaweave \\ Seaweave
 			i(167742),	-- Silas' Decanter of Disguise
 			i(167743),	-- Silas' Potion of Prosperity
 			i(167797),	-- Jolt Jerky
@@ -4648,7 +4645,6 @@ root(ROOTS.Unsorted, {
 			i(168607),	-- Bottle of Voidwine
 			i(168630),	-- Chitterspine Meat
 			i(168635),	-- Leviathan's Eye
-			i(168645),	-- Moist Fillet
 			i(168649),	-- Dredged Leather
 			i(168650),	-- Cragscale
 			i(168655),	-- Greater Mystical Flask
