@@ -209,14 +209,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 							i(239009),	-- Signet of Repose
 						--]]
 						--- Podium Upgrade?
-						i(240203),	-- Podium Upgrade: Scrappy
-						i(240204),	-- Podium Upgrade: Survival Run
-						i(240205),	-- Podium Upgrade: Time in Spotlights
-						i(240206),	-- Podium Upgrade: Yards Traveled
-						i(240199),	-- Podium Upgrade: Scrappiest
-						i(240200),	-- Podium Upgrade: Longest Survival Run
-						i(240201),	-- Podium Upgrade: Longest Time in Spotlights
-						i(240202),	-- Podium Upgrade: Most Yards Traveled
+						i(240203),	-- Podium Upgrade: Scrappy (CI!)
+						i(240204),	-- Podium Upgrade: Survival Run (CI!)
+						i(240205),	-- Podium Upgrade: Time in Spotlights (CI!)
+						i(240206),	-- Podium Upgrade: Yards Traveled (CI!)
+						i(240199),	-- Podium Upgrade: Scrappiest (CI!)
+						i(240200),	-- Podium Upgrade: Longest Survival Run (CI!)
+						i(240201),	-- Podium Upgrade: Longest Time in Spotlights (CI!)
+						i(240202),	-- Podium Upgrade: Most Yards Traveled (CI!)
 					},
 				}),
 			}),
