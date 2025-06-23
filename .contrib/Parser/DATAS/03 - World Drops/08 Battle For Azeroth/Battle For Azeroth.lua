@@ -244,13 +244,13 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { AD
 			i(168645, {["timeline"] = {ADDED_8_2_0}}),	-- Moist Fillet
 			i(154897),	-- Stringy Loins
 			i(154899),	-- Thick Paleo Steak
-		},
+		}),
 		prof(TAILORING, {
 			i(152577),	-- Deep Sea Satin
 			i(167738, {["timeline"] = {ADDED_8_1_5}}),	-- Gilded Seaweave
 			i(152576),	-- Tidespray Linen
-		},
-	},
+		}),
+	}),
 	filter(RECIPES, {
 		prof(BLACKSMITHING, {
 			i(166260),	-- Plans: Monel-Hardened Hoofplates [Rank 3] (RECIPE!)
