@@ -908,7 +908,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.BFA, applyclassicphase(BFA_PHASE_ONE,
 				i(171083),	-- Design: Awakened Leviathan's Eye Loop (RECIPE!)
 			})),
 		}),
-		spell(382973, {	-- Kul Tiras and Zandalar Prospecting
+		header(HEADERS.Spell, 382973, {	-- Kul Tiras and Zandalar Prospecting
 			i(153700),	-- Golden Beryl
 			i(153701),	-- Rubellite
 			i(153702),	-- Kubiline
