@@ -72,7 +72,6 @@ root(ROOTS.Unsorted, {
 				-- Zone Rewards?
 				i(239448),	-- Reshii Magi's Vestments
 				i(239449),	-- Reshii Magi's Slippers
-				i(239450),	-- Reshii Magi's Gloves
 				i(239452),	-- Reshii Magi's Leggings
 				i(239453),	-- Reshii Magi's Spines
 				i(239454),	-- Reshii Magi's Cord
@@ -85,7 +84,6 @@ root(ROOTS.Unsorted, {
 				i(239461),	-- Reshii Scout's Shoulderpads
 				i(239462),	-- Reshii Scout's Belt
 				i(239463),	-- Reshii Scout's Bracers
-				i(239464),	-- Reshii Skirmisher's Brigandine
 				i(239465),	-- Reshii Skirmisher's Boots
 				i(239466),	-- Reshii Skirmisher's Gauntlets
 				i(239467),	-- Reshii Skirmisher's Cowl
@@ -101,8 +99,6 @@ root(ROOTS.Unsorted, {
 				i(239479),	-- Reshii Brute's Vambraces
 				i(240171),	-- Observer's Soul Fetters
 				i(240172),	-- Depleted K'areshi Battery
-				i(240213),	-- Veiling Mana Shroud
-				i(240214),	-- Miniature Reshii Sandgarden
 
 				-- Zone Rewards/Quest?
 				i(243496),	-- Wastelander's Gilded Band
@@ -215,8 +211,6 @@ root(ROOTS.Unsorted, {
 				i(244527),	-- Worn Shadowguard Warglaive
 
 				-- Quest Rewards/Rares?
-				i(245705),	-- Amulet of Final Charge
-				i(245706),	-- Echo Pendant of K'aresh
 				i(245707),	-- Shoulderpads of the Exiled Vow
 				i(245708),	-- Epaulets of the Exiled Vow
 				i(245709),	-- Shoulderguards of the Exiled Vow
@@ -316,7 +310,6 @@ root(ROOTS.Unsorted, {
 				i(243006),	-- Petrified Branch of Janaa
 				i(243008),	-- Shadowguard Crusher
 				i(243009),	-- Sufaadi Skiff Lantern
-				i(243153),	-- Korgorath's Talon
 				-- Greys if you already looted cosmetic?
 				i(243014),	-- Light-Dimmed Cleaver
 				i(243015),	-- Spear of Forgotten Memories
@@ -340,7 +333,6 @@ root(ROOTS.Unsorted, {
 				i(246295),	-- Tazavesh Lookout's Mace
 				i(246296),	-- Off-Balance Mace of the Tazavesh Lookout
 				i(246298),	-- Cracked Staff of the Desperate Defender
-				i(246299),	-- Blade of Lost Hope
 				i(246301),	-- Pitted Blade of Lost Hope
 
 
@@ -762,12 +754,10 @@ root(ROOTS.Unsorted, {
 				i(238849),	-- Ominous Unblinking Eye
 				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
-				i(238854),	-- Sleek Beak
 				i(238856),	-- Nightpiercer Feather
 				i(238865),	-- Void-Warped Hoof
 				i(238868),	-- Flickering Primeval Element
 				i(238870),	-- Pearly Incisor
-				i(238876),	-- Malicious Mandible
 				i(238879),	-- Cracked Void Carapace
 				i(238881),	-- Barbed Predator Tusk
 				i(238882),	-- Cursed Eyeball Cluster
@@ -795,7 +785,6 @@ root(ROOTS.Unsorted, {
 				i(245747),	-- Energy Urn
 				i(245884),	-- Energy Pyramid
 				i(246053),	-- Waygate Piece
-				i(246063),	-- Void-Polished Warpstalker Stone
 				i(246492),	-- Soulgorged Augment Rune
 				i(246837),	-- Mysterious Notebook
 				i(246839),	-- Multiversal Energy Dynamics and the Murmuration Paradox
@@ -1438,9 +1427,7 @@ root(ROOTS.Unsorted, {
 				i(229406),	-- Codex of The Exchange
 				i(229420),	-- Anima Orb
 				i(229898),	-- Capture Device
-				i(229969),	-- Flickering Essence
 				i(230284),	-- Artisan's Consortium Pamphlet
-				i(230730),	-- Nether Tuner
 				i(231094),	-- Unused - Tranquilizing Dart [DNT]
 				i(231790),	-- Small Stone Tablet
 				i(231801),	-- Well-Worn Coin
@@ -1506,12 +1493,8 @@ root(ROOTS.Unsorted, {
 				i(236407),	-- Voidbane Gem
 				i(236679),	-- Essence Scanner
 				i(236688),	-- Umbral Facade
-				i(236753),	-- Xy'vox Refuge Dampener
-				i(236762),	-- Tazavesh Facade
-				i(236766),	-- Essence Scanner
 				i(236781),	-- Discarded Shadow Writ
 				i(236783),	-- Ethereal Seal
-				i(236858),	-- Zo'kita Fruit
 				i(236859),	-- Untethered Hide
 				i(236937),	-- Energy Encapsulation
 				i(236957),	-- Hollowbane Portal Key
@@ -1606,9 +1589,7 @@ root(ROOTS.Unsorted, {
 				i(236762),	-- Tazavesh Facade
 				i(236766),	-- Essence Scanner
 				i(236781),	-- Discarded Shadow Writ
-				i(236783),	-- Ethereal Seal
 				i(236858),	-- Zo'kita Fruit
-				i(236859),	-- Untethered Hide
 				i(236937),	-- Energy Encapsulation
 				i(236957),	-- Hollowbane Portal Key
 				i(236962),	-- Basket of Zo'kita Fruit

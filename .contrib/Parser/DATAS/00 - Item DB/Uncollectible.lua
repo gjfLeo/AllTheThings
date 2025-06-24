@@ -2488,6 +2488,7 @@ i(244360);	-- K'aresh Nightbloom
 i(238812);	-- Long Fibrous Tongue
 i(238871);	-- Luminous Brushtail
 i(238884);	-- Machine Remnant
+i(238876);	-- Malicious Mandible
 i(238869);	-- Matted Pelt
 i(238855);	-- Netherclaw
 i(238880);	-- Oily Blubber
@@ -2495,6 +2496,7 @@ i(247687);	-- Overly-Preserved K'areshi Preserves
 i(238873);	-- Serrated Scale Shard
 i(238878);	-- Shadow-Touched Fang
 i(238832);	-- Sinuous Wing Membrane
+i(238854);	-- Sleek Beak
 i(247685);	-- Slightly Used Containment Device
 i(238800);	-- Soggy Bone Splinters
 i(238836);	-- Spindly Flesh

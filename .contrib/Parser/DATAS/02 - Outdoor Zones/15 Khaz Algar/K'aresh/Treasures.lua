@@ -8,6 +8,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				-- Quests listed instead of objects are obtained from WoWhead and are there simply as a placeholder for easier editing and to show which Treasures belong under the header (as per current in-game criteria 22.06.2025.).
 				-- TODO: Replace quests with actual ObjectID upon discovery
 				o(499082, {	-- Abandoned Lockbox
+					-- Didn't trigger a quest and didn't count towards the achievement 24.06.2025. -Exo
+					["coord"] = { 54.0, 55.0, KARESH },
+					--["questID"] = ???,
+					["g"] = { i(246299), },	-- Blade of Lost Hope (COSMETIC!)
 				}),
 				q(86416, {	-- Ancient Coffer
 					-- TODO: Bugged. Invisible. Can't be looted 22.06.2025. -Exo
@@ -24,13 +28,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(90514, {	-- Efrats Forgotten Bulwark
 				}),
 				q(89378, {	-- Ethereal Voidforged Container
+					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires some serious jumping precision in order to get to it.",
+					["coord"] = { 52.1, 68.3, KARESH },
 				}),
 				o(499093, {	-- Forlorn Wind Chime
 					["coord"] = { 69.7, 52.3, KARESH },
 					["questID"] = 85837,
-					["g"] = {
-						i(243144),	-- Reshi Crystal Fragments
-					},
+					["g"] = { i(243144), },	-- Reshi Crystal Fragments
 				}),
 				o(500046, {	-- Gift of the Brothers
 					["coord"] = { 76.1, 45.3, KARESH },
@@ -51,41 +55,40 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							["provider"] = { "n", 234113 },	-- M'alim
 							["coord"] = { 68.3, 45.3, KARESH },
 						}),
-						q(85958, {	-- Finding M'alim
+						q(85958, {	-- Ihya's Gratitude
 							["name"] = "Ihya's Gratitude",
 							["provider"] = { "n", 233881 },	-- Ihya
 							["coord"] = { 76.1, 45.3, KARESH },
 						}),
 						o(499334),	-- Flickering Lantern
+						--
 						i(248199),	-- The Brothers' Final Gift (COSMETIC!)
 					},
 				}),
 				o(504172, {	-- Ixthar's Favorite Crystal
 					["coord"] = { 64.1, 44.0, KARESH },
 					["questID"] = 86492,
-					["g"] = {
-						i(243144),	-- Reshi Crystal Fragments
-					},
+					["g"] = { i(243144), },	-- Reshi Crystal Fragments
 				}),
-				q(90532, {	-- Korgoraths Talon
+				o(529669, {	-- Korgoraths Talon
+					["description"] = "You need to Phasedive in order to see the Treasure.",
+					["coord"] = { 64.4, 42.7, KARESH },
+					["questID"] = 90532,
+					["g"] = { i(243153), },	-- Korgorath's Talon (COSMETIC!)
 				}),
 				q(90511, {	-- Light Soaked Cleaver
 				}),
 				o(499086, {	-- Lightly-Dented Luggage
 					["coord"] = { 53.7, 64.1, KARESH },
 					["questID"] = 91352,
-					["g"] = {
-						i(242529),	-- Shadowtrade Imports
-					},
+					["g"] = { i(242529), },	-- Shadowtrade Imports
 				}),
 				o(503823, {	-- Mailroom Distribution
 					["description"] = "Grab the Mail Overflow from the Mailbox in front of the Mailroom.",
 					["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 					["coord"] = { 48.1, 64.1, KARESH_TAZAVESH },
 					["questID"] = 86467,
-					["g"] = {
-						i(245970),	-- P.O.S.T. Master's Express Hearthstone (TOY!)
-					},
+					["g"] = { i(245970), },	-- P.O.S.T. Master's Express Hearthstone (TOY!)
 				}),
 				q(91056, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
 				}),
@@ -99,9 +102,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(499097, {	-- Sand-Worn Coffer
 					["coord"] = { 54.5, 24.5, KARESH },
 					["questID"] = 85840,
-					["g"] = {
-						i(246297),	-- Desperate Defender's Bladed Staff (COSMETIC!)
-					},
+					["g"] = { i(246297), },	-- Desperate Defender's Bladed Staff (COSMETIC!)
 				}),
 				q(90527, {	-- Shadowguard Crusher
 				}),
@@ -148,23 +149,43 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coord"] = { 46.3, 18.6, KARESH_TAZAVESH },
 					["questID"] = 91645,
 				}),
-				q(91687),	-- Checklist of Minor Pleasures
+				o(558375, {	-- Checklist of Minor Pleasures
+					["description"] = "You need to Phasedive in order to see the Lore Object.",
+					["coord"] = { 38.2, 45.6, KARESH_TAZAVESH },
+					["questID"] = 91687,
+				}),
 				o(558115, {	-- Coins: An Oath We Exchange
 					["coord"] = { 41.7, 39.7, KARESH_TAZAVESH },
 					["questID"] = 91648,
 				}),
-				q(91646),	-- From Vengeance to Void
+				o(558110, {	-- From Vengeance to Void
+					["description"] = "You need to Phasedive in order to see the Lore Object.",
+					["coord"] = { 42.3, 20.9, KARESH },
+					["questID"] = 91646,
+				}),
 				o(558372, {	-- Geologist Field Journal
 					["coord"] = { 48.9, 57.2, KARESH },
 					["questID"] = 91686,
 				}),
-				q(91649),	-- I Have Become Void!
-				q(91643),	-- Multiversal Energy Dynamics and the Murmurration Paradox
+				o(558117, {	-- I Have Become Void!
+					["description"] = "You need to Phasedive in order to see the Lore Object.",
+					["coord"] = { 36.7, 58.1, KARESH_TAZAVESH },
+					["questID"] = 91649,
+				}),
+				o(558108, {	-- Multiversal Energy Dynamics and the Murmurration Paradox
+					["description"] = "You need to Phasedive in order to see the Lore Object.",
+					["coord"] = { 49.6, 26.8, KARESH },
+					["questID"] = 91643,
+				}),
 				o(558105, {	-- Mysterious Notebook
 					["coord"] = { 58.5, 91.5, KARESH_TAZAVESH },
 					["questID"] = 91642,
 				}),
-				q(91647),	-- The Facts of K'aresh
+				o(558112, {	-- The Facets of K'aresh
+					["description"] = "You need to Phasedive in order to see the Lore Object.",
+					["coord"] = { 72.1, 29.4, KARESH },
+					["questID"] = 91647,
+				}),
 			}),
 			o(516444, {	-- Ethereal Pocket-Storage
 				["description"] = "Spawns at random locations throughout Tazavesh.",
