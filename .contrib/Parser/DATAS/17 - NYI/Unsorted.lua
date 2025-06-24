@@ -221,40 +221,11 @@ root(ROOTS.Unsorted, {
 				i(245708),	-- Epaulets of the Exiled Vow
 				i(245709),	-- Shoulderguards of the Exiled Vow
 				i(245710),	-- Mantle of the Exiled Vow
-				i(245711),	-- Ring of Blooming Flame
-				i(245712),	-- Terraformer's Seal
-				i(245713),	-- Cord of the First Oath
-				i(245714),	-- Sash of the First Oath
-				i(245715),	-- Cinch of the First Oath
-				i(245716),	-- Girdle of the First Oath
-				i(245717),	-- Legwraps of the Auditbreaker
-				i(245718),	-- Breeches of the Auditbreaker
-				i(245719),	-- Greaves of the Auditbreaker
-				i(245720),	-- Legguards of the Auditbreaker
-				i(245721),	-- Iridescent Huskwrap
-				i(245722),	-- Iridescent Huskjerkin
-				i(245723),	-- Iridescent Husktunic
-				i(245724),	-- Iridescent Huskplate
-				i(245725),	-- Voidmarket Negotiator's Handwraps
-				i(245726),	-- Voidmarket Negotiator's Gloves
-				i(245727),	-- Voidmarket Negotiator's Grips
-				i(245728),	-- Voidmarket Negotiator's Gauntlets
 				i(245729),	-- Sandals of the Endless Hunger
 				i(245730),	-- Waders of the Endless Hunger
 				i(245731),	-- Striders of the Endless Hunger
 				i(245732),	-- Sabatons of the Endless Hunger
-				i(245737),	-- Ritualbreaker's Band
-				i(245738),	-- Seal of the Shattered Dome
 
-				-- Quest?
-				i(245971),	-- Consortium Brute's Clasp
-				i(245972),	-- Consortium Skirmisher's Armbands
-				i(245973),	-- Consortium Scout's Armlets
-				i(245974),	-- Consortium Magi's Cuffs
-				i(245975),	-- Consortium Brute's Chestguard
-				i(245976),	-- Consortium Skirmisher's Cuirass
-				i(245977),	-- Consortium Scout's Jacket
-				i(245978),	-- Consortium Magi's Robes
 				-- Rare
 				i(246064),	-- Reshii Magi's Pendant
 				i(246065),	-- Reshii Magi's Band
@@ -413,9 +384,7 @@ root(ROOTS.Unsorted, {
 				i(237953),	-- Ensemble: Noxious Injector Apparatus
 				i(237954),	-- Arsenal: Undermine Weaponry
 				-- Reputation Cosmetic
-				i(245967),	-- Shawl of the Trust
 				i(245968),	-- Tabard of the Trust
-				i(245969),	-- Mantle of the Trust
 
 				i(248780),	-- Consortium Brute's Cape
 				i(248781),	-- Consortium Skirmisher's Cloak
@@ -443,9 +412,6 @@ root(ROOTS.Unsorted, {
 				i(245527),	-- Consortium's Phasebound Visor
 				i(245528),	-- Wastlander's Phasebound Visor
 				i(245529),	-- Hal'hadar's Phasebound Visor
-				i(245979),	-- Arcano-Charged Wrench
-				i(245980),	-- Inter-Phase Scoop
-				i(245981),	-- K'areshi Multi-Tool
 
 				i(244140),	-- Ethereal Sash Cache
 				i(244806),	-- Renowned Explorer's Versatile Vest
@@ -837,16 +803,13 @@ root(ROOTS.Unsorted, {
 				i(243152),	-- NEW ITem
 				i(243160),	-- Tazavesh Shipping Manifest
 				i(243161),	-- Long-Pressed Flowers
-				i(243191),	-- Ethereal Augment Rune
 				i(243219),	-- Phased Ethereal Bow
 				i(243235),	-- Adventurer's Footlocker
 				i(243246),	-- Funny Candle
 				i(243580),	-- Etheric Pylon
 				i(244141),	-- Barley Soup
 				i(244142),	-- Brew Keg
-				i(244358),	-- "Prophecies of the Void"
 				i(244359),	-- Ethereal Pylon Conduit
-				i(244361),	-- Void-Carved Amethyst
 				i(244421),	-- Set Keystone Map: Eco-Dome Al'dani
 				i(245746),	-- Energy Barrel
 				i(245747),	-- Energy Urn
@@ -952,11 +915,8 @@ root(ROOTS.Unsorted, {
 				-- Reputation/Knowledge
 				i(235855),	-- Ethereal Tome of Tailoring Knowledge
 				i(235856),	-- Ethereal Tome of Skinning Knowledge
-				i(235857),	-- Ethereal Tome of Mining Knowledge
 				i(235858),	-- Ethereal Tome of Leatherworking Knowledge
 				i(235859),	-- Ethereal Tome of Jewelcrafting Knowledge
-				i(235860),	-- Ethereal Tome of Inscription Knowledge
-				i(235861),	-- Ethereal Tome of Herbalism Knowledge
 				i(235862),	-- Ethereal Tome of Engineering Knowledge
 				i(235863),	-- Ethereal Tome of Enchanting Knowledge
 				i(235864),	-- Ethereal Tome of Blacksmithing Knowledge
@@ -1037,18 +997,12 @@ root(ROOTS.Unsorted, {
 				i(238045),	-- Pure Chronomatic Fiber
 				i(238046),	-- Pure Energizing Fiber
 				i(240216),	-- K'areshi Resonating Stone
-				i(239485),	-- Pattern: Pure Energizing Fiber
-				i(239486),	-- Pattern: Pure Chronomatic Fiber
-				i(239487),	-- Pattern: Pure Dexterous Fiber
-				i(239488),	-- Pattern: Pure Precise Fiber
 				i(243821),	-- Contract: The K'aresh Trust
 				i(243822),	-- Contract: The K'aresh Trust
 				i(243823),	-- Contract: The K'aresh Trust
-				i(244043),	-- Technique: Contract: The K'aresh Trust
 				i(244147),	-- Vantus Rune: Manaforge Omega+
 				i(244148),	-- Vantus Rune: Manaforge Omega++
 				i(244149),	-- Vantus Rune: Manaforge Omega+++
-				i(244334),	-- Technique: Vantus Rune: Manaforge Omega
 				i(246809),	-- Inspired Writer's Quill
 				i(246811),	-- Technique: Inspired Writer's Quill
 				i(246584),	-- A Steamy Romance Novel: Devouring Love
@@ -1062,10 +1016,8 @@ root(ROOTS.Unsorted, {
 				i(244835),	-- Invigorating Healing Potion+
 				i(244838),	-- Invigorating Healing Potion++
 				i(244839),	-- Invigorating Healing Potion+++
-				i(244841),	-- Recipe: Invigorating Healing Potion
 				i(244849),	-- Fleeting Invigorating Healing Potion+++
 				i(248331),	-- Umbral Essentia+
-				i(248550),	-- Recipe: Umbral Essentia
 				i(248585),	-- Umbral Essentia++
 				i(248586),	-- Umbral Essentia+++
 			}),
@@ -1603,13 +1555,7 @@ root(ROOTS.Unsorted, {
 				i(229405),	-- Entropic Core
 				i(229406),	-- Codex of The Exchange
 				i(229420),	-- Anima Orb
-				i(229423),	-- Echo Surveyor
-				i(229892),	-- Void Glass Sample
 				i(229898),	-- Capture Device
-				i(229900),	-- Softly Swirling Mote
-				i(229901),	-- Krolusk Husk
-				i(229905),	-- Satchel of Seeds
-				i(229959),	-- Void-Infused Shard
 				i(229969),	-- Flickering Essence
 				i(230284),	-- Artisan's Consortium Pamphlet
 				i(230730),	-- Nether Tuner
@@ -1638,12 +1584,9 @@ root(ROOTS.Unsorted, {
 				i(232627),	-- Wastelander Artifact
 				i(232628),	-- Wastelander Artifact
 				i(232630),	-- Xy Imports Ledger
-				i(232644),	-- Broker Disguise Pin
 				i(232992),	-- Large Bug Bits
 				i(233005),	-- Om'taha's Toolkit[DNT]
-				i(233009),	-- Firebud Pollen
 				i(233012),	-- Flamethrower
-				i(233028),	-- Flamethrower
 				i(233192),	-- Shadowguard Weapon
 				i(233193),	-- Shadowguard Weapon
 				i(233194),	-- Shadowguard Weapon
@@ -1679,7 +1622,6 @@ root(ROOTS.Unsorted, {
 				i(236353),	-- Shatterpulse Cell Key
 				i(236406),	-- Appropriated S.E.L.F.I.E. Camera
 				i(236407),	-- Voidbane Gem
-				i(236411),	-- Mana Matrix
 				i(236679),	-- Essence Scanner
 				i(236688),	-- Umbral Facade
 				i(236753),	-- Xy'vox Refuge Dampener
@@ -1701,8 +1643,6 @@ root(ROOTS.Unsorted, {
 				i(237019),	-- Corrupted Sap
 				i(237022),	-- Discarded Items
 				i(237030),	-- Condenser Disc
-				i(237038),	-- Shahata's Supplies
-				i(237127),	-- Damaged Echo Surveyor
 				i(237266),	-- Stolen Veilshard
 				i(237352),	-- A Dozen Veilshards
 				i(237353),	-- Om'sto's Veilshards
@@ -1730,7 +1670,6 @@ root(ROOTS.Unsorted, {
 				i(232578),	-- Wastelander Artifact
 				i(232599),	-- Tabiqa Dagger
 				i(232601),	-- Entropic Egg
-				i(232609),	-- Overflowing Anima Core
 				i(232612),	-- Laacunite Shard
 				i(232625),	-- Wastelander Artifact
 				i(232626),	-- Wastelander Artifact
@@ -1818,7 +1757,6 @@ root(ROOTS.Unsorted, {
 				i(238254),	-- Nuts and Bolts
 				i(238296),	-- Phase Disruptor
 				i(238663),	-- Crystallized Anima
-				i(238665),	-- Crystallized Anima
 				i(238903),	-- Appropriated Azerothian Camera
 				i(238904),	-- Anima Vacuum
 				i(238905),	-- Condenser Disc
@@ -1834,10 +1772,6 @@ root(ROOTS.Unsorted, {
 				i(238915),	-- Anima Orb
 				i(238916),	-- Anima Vacuum
 				i(238933),	-- Appropriated S.E.L.F.I.E. Camera
-				i(239074),	-- Void Lure
-				i(239153),	-- Key of the Eternal Night
-				i(239154),	-- Key of the Waning Moon
-				i(239155),	-- Key of the Dark Sun
 				i(239249),	-- Untethered Battery
 				i(239276),	-- Purple Peat Cell Key
 				i(239314),	-- Arcane Lure
@@ -1861,18 +1795,15 @@ root(ROOTS.Unsorted, {
 				i(242849),	-- Ancient Curio
 				i(242850),	-- Ancient Curio
 				i(244064),	-- Pretzel
-				i(244847),	-- Aftermarket Ledger
 				i(245740),	-- Etched Fragment
 				i(245743),	-- A Curious Crystalline Fragment
 				i(246041),	-- Brew Keg
 				i(246042),	-- Pretzel
 				i(246044),	-- Bag of Brewfest Ingredients
 				i(246052),	-- Barley Soup
-				i(246244),	-- Phase-Altered Essence
 				i(246446),	-- Mark of the Twilight Oath
 				i(246504),	-- Inscrutable Ore
 				i(246582),	-- Inscrutable Flora
-				i(246589),	-- Half-Digested Journal
 				i(246592),	-- Shadowguard Credentials
 				i(246593),	-- Shadowguard Credentials
 				i(248129),	-- Brann's Repossessed Gear

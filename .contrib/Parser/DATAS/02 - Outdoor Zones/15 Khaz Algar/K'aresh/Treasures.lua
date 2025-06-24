@@ -168,7 +168,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			o(516444, {	-- Ethereal Pocket-Storage
 				["description"] = "Spawns at random locations throughout Tazavesh.",
-				["maps"] = { TAZAVESH },
+				["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
+				["maps"] = { TAZAVESH, KARESH },
 				-- No quest attached to them.
 				["g"] = {	-- Has a chance to drop following
 					-- 'World Drop' gray equipment and other junk

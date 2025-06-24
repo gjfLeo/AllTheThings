@@ -203,9 +203,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["g"] = {
 							o(502907, {	-- Rod of Activation
 								["coord"] = { 48.8, 59.0, KARESH },
-								["g"] = {
-									i(233326),	-- Rod of Activation (QI!)
-								},
+								["g"] = { i(233326), },	-- Rod of Activation (QI!)
 							}),
 							--
 							i(237876),	-- Eco-Stabilizer's Cinch
@@ -251,9 +249,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						},
 						["provider"] = { "n", 230825 },	-- Xal'atath
 						["coord"] = { 47.0, 54.5, KARESH },
-						["g"] = {
-							i(233222),	-- Nullbomb (PQI!)
-						},
+						["g"] = { i(233222), },	-- Nullbomb (PQI!)
 					}),
 					q(84864, {	-- Her Dark Side
 						["sourceQuests"] = {
@@ -299,15 +295,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["g"] = {
 							o(466983, {	-- Curved Dagger
 								["coord"] = { 70.0, 53.1, KARESH },
-								["g"] = {
-									i(229060),	-- Curved Dagger (QI!)
-								},
+								["g"] = { i(229060), },	-- Curved Dagger (QI!)
 							}),
 							o(466978, {	-- Om'bera's Clipboard
 								["coord"] = { 70.9, 54.4, KARESH },
-								["g"] = {
-									i(229058),	-- Supply Crates Manifest (QI!)
-								},
+								["g"] = { i(229058), },	-- Supply Crates Manifest (QI!)
 							}),
 						},
 					}),
@@ -372,9 +364,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						},
 						["provider"] = { "n", 233878 },	-- Xal'atath
 						["coord"] = { 64.1, 47.0, KARESH },
-						["g"] = {
-							i(230772),	-- Coalesced Void Energy (PQI!)
-						},
+						["g"] = { i(230772), },	-- Coalesced Void Energy (PQI!)
 					}),
 					q(84848, {	-- Before the Void
 						["sourceQuests"] = { 84838 },	-- Enemies of Enemies
@@ -414,9 +404,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 84848 },	-- Before the Void
 						["provider"] = { "n", 234190 },	-- Narathe
 						["coord"] = { 61.0, 39.9, KARESH },
-						["g"] = {
-							i(235051),	-- Harvested Energy (QI!)
-						},
+						["g"] = { i(235051), },	-- Harvested Energy (QI!)
 					}),
 					q(84876, {	-- The Oasis
 						["sourceQuests"] = {
@@ -444,9 +432,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["g"] = {
 							o(475872, {	-- Rippling Wellspring
 								["coord"] = { 76.8, 30.1, KARESH },
-								["g"] = {
-									i(230938),	-- Heartspring Water (QI!)
-								},
+								["g"] = { i(230938), },	-- Heartspring Water (QI!)
 							}),
 							o(467435, {	-- Zaranit Bud
 								i(229363),	-- Zaranit Bud (QI!)
@@ -490,9 +476,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 84897 },	-- The Calm Before we Storm
 						["provider"] = { "n", 230817 },	-- Alleria Windrunner
 						["coord"] = { 60.7, 27.9, KARESH },
-						["g"] = {
-							i(238390),	-- Soulbreaker's Sigil
-						},
+						["g"] = { i(238390), },	-- Soulbreaker's Sigil
 					}),
 					q(84898, {	-- The Sands of K'aresh
 						["sourceQuests"] = { 84896 },	-- The Next Dimension
@@ -503,21 +487,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							--
 							o(502375, {	-- Sand Pile
 								["coord"] = { 59.1, 28.5, KARESH },
-								["g"] = {
-									i(233192),	-- Shadowguard Weapon (QI!)
-								},
+								["g"] = { i(233192), },	-- Shadowguard Weapon (QI!)
 							}),
 							o(502376, {	-- Sand Pile
 								["coord"] = { 58.7, 29.5, KARESH },
-								["g"] = {
-									i(233193),	-- Shadowguard Weapon (QI!)
-								},
+								["g"] = { i(233193), },	-- Shadowguard Weapon (QI!)
 							}),
 							o(502377, {	-- Sand Pile
 								["coord"] = { 58.3, 26.3, KARESH },
-								["g"] = {
-									i(233194),	-- Shadowguard Weapon (QI!)
-								},
+								["g"] = { i(233194), },	-- Shadowguard Weapon (QI!)
 							}),
 						},
 					}),
@@ -528,9 +506,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						},
 						["provider"] = { "n", 231445 },	-- Xal'atath
 						["coord"] = { 55.1, 30.4, KARESH },
-						["g"] = {
-							i(233333),	-- Forgecaster Wraps (QI!)
-						},
+						["g"] = { i(233333), },	-- Forgecaster Wraps (QI!)
 					}),
 					q(84902, {	-- Adverse Instantiation
 						["sourceQuests"] = { 84900 },	-- Like a Knife Through Aether
@@ -541,9 +517,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 84900 },	-- Like a Knife Through Aether
 						["provider"] = { "n", 231486 },	-- Soul-Scribe
 						["coord"] = { 48.6, 26.8, KARESH },
-						["g"] = {
-							i(233334),	-- Beacon of the Wastes (PQI!)
-						},
+						["g"] = { i(233334), },	-- Beacon of the Wastes (PQI!)
 					}),
 					q(84903, {	-- Until the Sands Bleed Void
 						["sourceQuests"] = { 84900 },	-- Like a Knife Through Aether
@@ -664,9 +638,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["g"] = {
 						o(516792, {	-- Watering Jug
 							["coord"] = { 73.0, 33.0, KARESH },
-							["g"] = {
-								i(236641),	-- Watering Jug (QI!)
-							},
+							["g"] = { i(236641), },	-- Watering Jug (QI!)
 						}),
 					},
 				}),
@@ -683,9 +655,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 87340 },	-- Junk Mail
 						["provider"] = { "n", 231820 },	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
-						["g"] = {
-							i(230030),	-- Cartel Ve Communicator (PQI!)
-						},
+						["g"] = { i(230030), },	-- Cartel Ve Communicator (PQI!)
 					}),
 					q(85076, {	-- Don't Bee Crazy
 						["sourceQuests"] = { 85075 },	-- To Stormsong
@@ -696,9 +666,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 85075 },	-- To Stormsong
 						["provider"] = { "n", 231919 },	-- Botanist Alaenra
 						["coord"] = { 72.4, 69.9, STORMSONG_VALLEY },
-						["g"] = {
-							i(230053),	-- Honey Globule (QI!)
-						},
+						["g"] = { i(230053), },	-- Honey Globule (QI!)
 					}),
 					q(85078, {	-- Bee in the Bonnet
 						["sourceQuests"] = {
@@ -718,9 +686,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["g"] = {
 							o(475164, {	-- Ve'nari's Package
 								["coord"] = { 72.5, 69.8, STORMSONG_VALLEY },
-								["g"] = {
-									i(230210),	-- Tranquilizing Dart (PQI!)
-								},
+								["g"] = { i(230210), },	-- Tranquilizing Dart (PQI!)
 							}),
 						},
 					}),
@@ -734,9 +700,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["g"] = {
 							o(475213, {	-- Ve'nari's Package
 								["coord"] = { 72.7, 65.8, STORMSONG_VALLEY },
-								["g"] = {
-									i(229424),	-- Anima Vacuum (PQI!)
-								},
+								["g"] = { i(229424), },	-- Anima Vacuum (PQI!)
 							}),
 						},
 					}),
@@ -750,9 +714,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["g"] = {
 							o(475207, {	-- Honey Pot
 								["coord"] = { 72.6, 66.0, STORMSONG_VALLEY },
-								["g"] = {
-									i(230549),	-- Queen Bee in a Jar (QI!)
-								},
+								["g"] = { i(230549), },	-- Queen Bee in a Jar (QI!)
 							}),
 						},
 					}),
@@ -776,9 +738,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["g"] = {
 							o(475250, {	-- Honey Pot
 								["coord"] = { 48.4, 61.2, KARESH },
-								["g"] = {
-									i(230732),	-- Honey (PQI!)
-								},
+								["g"] = { i(230732), },	-- Honey (PQI!)
 							}),
 						},
 					}),
@@ -786,9 +746,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 85249 },	-- A Bee Test
 						["provider"] = { "n", 231919 },	-- Botanist Alaenra
 						["coord"] = { 48.4, 61.2, KARESH },
-						["g"] = {
-							i(230729),	-- Appropriated Azerothian Camera (PQI!)
-						},
+						["g"] = { i(230729), },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 					q(85257, {	-- Primus Buzzness
 						["sourceQuests"] = {
@@ -802,9 +760,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 85257 },	-- Primus Buzzness
 						["provider"] = { "n", 231919 },	-- Botanist Alaenra
 						["coord"] = { 49.0, 57.2, KARESH },
-						["g"] = {
-							i(230210),	-- Tranquilizing Dart (PQI!)
-						},
+						["g"] = { i(230210), },	-- Tranquilizing Dart (PQI!)
 					}),
 					q(85256, {	-- Botany, Finally
 						["sourceQuests"] = { 85257 },	-- Primus Buzzness
@@ -867,9 +823,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["sourceQuests"] = { 85260 },	-- Hiving a Hard Day
 						["provider"] = { "n", 232385 },	-- Botanist Alaenra
 						["coord"] = { 75.8, 33.9, KARESH },
-						["g"] = {
-							i(231163),	-- Appropriated Azerothian Camera (PQI!)
-						},
+						["g"] = { i(231163), },	-- Appropriated Azerothian Camera (PQI!)
 					}),
 					q(85262, {	-- The Royal Procession
 						["sourceQuests"] = { 85261 },	-- Bee Roll
@@ -886,18 +840,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 230736 },	-- Om'talad
 						["coord"] = { 75.8, 34.2, KARESH },
 						["isDaily"] = true,
-						["g"] = {
-							i(241352),	-- Hydrobite (QI!)
-						},
+						["g"] = { i(241352), },	-- Hydrobite (QI!)
 					}),
 					q(85459, {	-- Anima Reclamation Program
 						["sourceQuests"] = { 85262 },	-- The Royal Procession
 						["provider"] = { "n", 231820 },	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
 						["isDaily"] = true,
-						["g"] = {
-							i(229412),	-- Devourer Anima (QI!)
-						},
+						["g"] = { i(229412), },	-- Devourer Anima (QI!)
 					}),
 					q(89209, {	-- Bu-zzz
 						["sourceQuests"] = { 85262 },	-- The Royal Procession
@@ -910,9 +860,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 231820 },	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
 						["isDaily"] = true,
-						["g"] = {
-							i(231508),	-- Stolen Food Shipment (QI!)
-						},
+						["g"] = { i(231508), },	-- Stolen Food Shipment (QI!)
 					}),
 					q(89194),	--
 					q(89195),	--
@@ -985,9 +933,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["g"] = {
 						o(543787, {	-- Phase Energy
 							["coord"] = { 49.1, 37.8, KARESH },
-							["g"] = {
-								i(244042),	-- Phase Energy (QI!)
-							},
+							["g"] = { i(244042), },	-- Phase Energy (QI!)
 						}),
 					},
 				}),
@@ -999,16 +945,234 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			header(HEADERS.Achievement, 42739, {	-- Sojourner of K'aresh
 				header(HEADERS.AchCriteria, 42739.01, {	-- Of Boughs and Bonds
+					q(84740, {	-- Bridge to Nowhere
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 230159 },	-- Om'fennad
+						["coord"] = { 54.4, 63.7, KARESH },
+						["g"] = { i(229423), },	-- Echo Surveyor (PQI!)
+					}),
+					q(84915, {	-- Clearing the Dunes
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 230159 },	-- Om'fennad
+						["coord"] = { 54.4, 63.7, KARESH },
+					}),
+					q(84741, {	-- Signs in the Sands
+						["sourceQuests"] = {
+							84740,	-- Bridge to Nowhere
+							84915,	-- Clearing the Dunes
+						},
+						["provider"] = { "n", 230159 },	-- Om'fennad
+						["coord"] = { 54.4, 63.7, KARESH },
+						["g"] = {
+							o(469681, {	-- Footprints
+								["coord"] = { 57.6, 54.0, KARESH },
+							}),
+						},
+					}),
+					q(84759, {	-- Ill-met in Starlight
+						["sourceQuests"] = { 84741 },	-- Signs in the Sands
+						["provider"] = { "n", 230789 },	-- Shahata
+						["coord"] = { 60.8, 54.3, KARESH },
+					}),
+					q(84761, {	-- Toil and Trespass
+						["sourceQuests"] = { 84759 },	-- Ill-met in Starlight
+						["provider"] = { "n", 230233 },	-- Shahata
+						["coord"] = { 76.4, 55.3, KARESH },
+						["g"] = {
+							o(477249, {	-- Stolen Supplies
+								i(237038),	-- Shahata's Supplies (QI!)
+							}),
+						},
+					}),
+					q(84760, {	-- A Friendly Warning
+						["sourceQuests"] = { 84759 },	-- Ill-met in Starlight
+						["provider"] = { "n", 230233 },	-- Shahata
+						["coord"] = { 76.4, 55.3, KARESH },
+					}),
+					q(84762, {	-- We Are Our Words
+						["sourceQuests"] = {
+							84761,	-- Toil and Trespass
+							84760,	-- A Friendly Warning
+						},
+						["provider"] = { "n", 230233 },	-- Shahata
+						["coord"] = { 76.3, 55.3, KARESH },
+						["g"] = {
+							o(469724, {	-- Damaged Echo Surveyor
+								["coord"] = { 76.4, 55.2, KARESH },
+								["g"] = { i(237127), },	-- Damaged Echo Surveyor (QI!)
+							}),
+							o(509461),	-- Sealed Chest
+						},
+					}),
+					q(84820, {	-- By Oath and Blood
+						["sourceQuests"] = { 84762 },	-- We Are Our Words
+						["provider"] = { "n", 230233 },	-- Shahata
+						["coord"] = { 76.4, 55.2, KARESH },
+					}),
+					q(84765, {	-- Of Bonds and Boughs
+						["sourceQuests"] = { 84820 },	-- By Oath and Blood
+						["provider"] = { "n", 230159 },	-- Om'fennad
+						["coord"] = { 73.8, 53.3, KARESH },
+						["g"] = {
+							i(245715),	-- Cinch of the First Oath
+							i(245713),	-- Cord of the First Oath
+							i(245716),	-- Girdle of the First Oath
+							i(245714),	-- Sash of the First Oath
+						},
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.02, {	-- On a Technicality
+					q(85429, {	-- Overwhelm Them
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 232498 },	-- Associate Xy'nell
+						["coord"] = { 50.5, 38.8, TAZAVESH },
+					}),
+					q(85430, {	-- Mandatory Time Off
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 232498 },	-- Associate Xy'nell
+						["coord"] = { 50.5, 38.8, TAZAVESH },
+					}),
+					q(85431, {	-- Drain Their Resources
+						["sourceQuests"] = {
+							85429,	-- Overwhelm Them
+							85430,	-- Mandatory Time Off
+						},
+						["provider"] = { "n", 232498 },	-- Associate Xy'nell
+						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["g"] = { i(232609), },	-- Overflowing Anima Core (QI!)
+					}),
+					q(85432, {	-- Confuse Their Contacts
+						["sourceQuests"] = {
+							85429,	-- Overwhelm Them
+							85430,	-- Mandatory Time Off
+						},
+						["provider"] = { "n", 232498 },	-- Associate Xy'nell
+						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["g"] = { i(232644), },	-- Broker Disguise Pin (PQI!)
+					}),
+					q(85433, {	-- Eyes on Us
+						["sourceQuests"] = {
+							85431,	-- Drain Their Resources
+							85432,	-- Confuse Their Contacts
+						},
+						["provider"] = { "n", 232498 },	-- Associate Xy'nell
+						["coord"] = { 50.5, 38.8, TAZAVESH },
+					}),
+					q(85434, {	-- On a Technicality
+						["sourceQuests"] = { 85433 },	-- Eyes on Us
+						["provider"] = { "n", 232498 },	-- Associate Xy'nell
+						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["g"] = {
+							i(245718),	-- Breeches of the Auditbreaker
+							i(245719),	-- Greaves of the Auditbreaker
+							i(245720),	-- Legguards of the Auditbreaker
+							i(245717),	-- Legwraps of the Auditbreaker
+						},
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.03, {	-- In Search of Darkness
+					q(90972, {	-- A Common Cause
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 248153 },	-- Magister Umbric
+						["coord"] = { 60.9, 27.7, KARESH },
+					}),
+					q(86786, {	-- The Void Hunter
+						["sourceQuests"] = { 90972 },	-- A Common Cause
+						["provider"] = { "n", 240842 },	-- Leona Darkstrider
+						["coord"] = { 59.3, 24.2, KARESH },
+						["g"] = { i(239074), },	-- Void Lure (PQI!)
+					}),
+					q(89323, {	-- Wasted Lands
+						["sourceQuests"] = { 86786 },	-- The Void Hunter
+						["provider"] = { "n", 236907 },	-- Adarus Duskblaze
+						["coord"] = { 60.1, 29.7, KARESH },
+					}),
+					q(89324, {	-- A Piece of Something Greater
+						["sourceQuests"] = { 89323 },	-- Wasted Lands
+						["provider"] = { "n", 242179 },	-- Adarus Duskblaze
+						["coord"] = { 79.0, 53.4, KARESH },
+						["g"] = {
+							i(239155),	-- Key of the Dark Sun (QI!)
+							i(239153),	-- Key of the Eternal Night (QI!)
+							i(239154),	-- Key of the Waning Moon (QI!)
+						},
+					}),
+					q(89325, {	-- The Void Confluence
+						["sourceQuests"] = { 89324 },	-- A Piece of Something Greater
+						["provider"] = { "n", 242179 },	-- Adarus Duskblaze
+						["coord"] = { 79.0, 53.4, KARESH },
+					}),
+					q(89326, {	-- Distilled Darkness
+						-- Can't be completed. Fragments can't be placed. Bugged 24.06.2025. -Exo
+						["sourceQuests"] = { 89325 },	-- The Void Confluence
+						["provider"] = { "n", 240842 },	-- Leona Darkstrider
+						["coord"] = { 61.9, 53.0, 2477 },	-- Voidscar Cavern
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.04, {	-- Untethered Potential
+					q(91314, {	-- Untethered Potential
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 246601 },	-- Researcher Essarae
+						["coord"] = { 59.9, 29.1, KARESH },
+						["g"] = { i(246244), },	-- Phase-Altered Essence (QI!)
+					}),
+					q(91454, {	-- Phase-Lost Adventurer
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "i", 246589 },	-- Half-Digested Journal (QS!)
+						["cr"] = 246608,	-- Phase-Lost Creeper
+						["coord"] = { 56.8, 24.1, KARESH },
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.05, {	-- Chasing Echoes
 				}),
 				header(HEADERS.AchCriteria, 42739.06, {	-- Avoiding the Void
+					q(84972, {	-- Chipping the Void
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 231162 },	-- Driruj
+						["coord"] = { 76.7, 34.3, KARESH },
+						["g"] = {
+							o(469901, {	-- Void Glass Node
+								i(229892),	-- Void Glass Sample (QI!)
+							}),
+						},
+					}),
+					q(84973, {	-- Of Motes and Husks
+						["sourceQuests"] = { 84972 },	-- Chipping the Void
+						["provider"] = { "n", 231162 },	-- Driruj
+						["coord"] = { 76.7, 34.3, KARESH },
+						["g"] = {
+							i(229901),	-- Krolusk Husk (QI!)
+							i(229900),	-- Softly Swirling Mote (QI!)
+						},
+					}),
+					q(84974, {	-- Shards of Hope
+						["sourceQuests"] = { 84973 },	-- Of Motes and Husks
+						["provider"] = { "n", 231162 },	-- Driruj
+						["coord"] = { 76.7, 34.3, KARESH },
+						["g"] = {
+							i(236411),	-- Mana Matrix (PQI!)
+							--
+							o(473920, {	-- Void-infused Shard
+								i(229959),	-- Void-Infused Shard (QI!)
+							}),
+						},
+					}),
+					q(85018, {	-- Packets of Promises
+						["sourceQuests"] = { 84974 },	-- Shards of Hope
+						["provider"] = { "n", 231162 },	-- Driruj
+						["coord"] = { 76.7, 34.3, KARESH },
+						["g"] = {
+							o(470057, {	-- Satchel of Seeds
+								["coord"] = { 79.0, 32.5, KARESH },
+								["g"] = { i(229905), },	-- Satchel of Seeds (QI!)
+							}),
+							--
+							i(245722),	-- Iridescent Huskjerkin
+							i(245724),	-- Iridescent Huskplate
+							i(245723),	-- Iridescent Husktunic
+							i(245721),	-- Iridescent Huskwrap
+						},
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.07, {	-- Priest of the Old Ways
 				}),
@@ -1036,10 +1200,95 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.09, {	-- Lost and Found Storage
+					q(85052, {	-- A Lucrative Opportunity
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 231674 },	-- Vaultkeeper Xy'vez
+						["coord"] = { 48.1, 24.6, TAZAVESH },
+					}),
+					q(85053, {	-- Obtaining Permits
+						["sourceQuests"] = { 85052 },	-- A Lucrative Opportunity
+						["provider"] = { "n", 232008 },	-- Cartel Boss Xy'eolm
+						["coord"] = { 50.2, 19.3, TAZAVESH },
+					}),
+					q(85054, {	-- Articles of Acquisition
+						["sourceQuests"] = { 85053 },	-- Obtaining Permits
+						["provider"] = { "n", 232008 },	-- Cartel Boss Xy'eolm
+						["coord"] = { 50.2, 19.3, TAZAVESH },
+						["g"] = { i(244847), },	-- Aftermarket Ledger (PQI!)
+					}),
+					q(85055, {	-- Expired Goods
+						["sourceQuests"] = { 85054 },	-- Articles of Acquisition
+						["provider"] = { "n", 232057 },	-- Vaultkeeper Xy'vez
+						["coord"] = { 44.8, 35.7, TAZAVESH },
+						["g"] = {
+							i(245728),	-- Voidmarket Negotiator's Gauntlets
+							i(245726),	-- Voidmarket Negotiator's Gloves
+							i(245727),	-- Voidmarket Negotiator's Grips
+							i(245725),	-- Voidmarket Negotiator's Handwraps
+						},
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.10, {	-- Anyway, Here's Firewall
+					q(86196, {	-- Give me Fuel
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 234216 },	-- Assistant Engineer Om'vek
+						["coord"] = { 49.9, 57.5, KARESH },
+						["g"] = {
+							o(500591, {	-- Firebud
+								i(233009),	-- Firebud Pollen (QI!)
+							}),
+						},
+					}),
+					q(86200, {	-- Give me Fire
+						["sourceQuests"] = { 86196 },	-- Give me Fuel
+						["provider"] = { "n", 234216 },	-- Assistant Engineer Om'vek
+						["coord"] = { 49.9, 57.5, KARESH },
+					}),
+					q(86201, {	-- Watch me Make These Bugs Expire
+						["sourceQuests"] = { 86200 },	-- Give me Fire
+						["provider"] = { "n", 234216 },	-- Assistant Engineer Om'vek
+						["coord"] = { 49.9, 57.5, KARESH },
+						["g"] = {
+							i(233028),	-- Flamethrower (PQI!)
+							--
+							i(245711),	-- Ring of Blooming Flame
+							i(245712),	-- Terraformer's Seal
+						},
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.11, {	-- A Stranger's Gift
+					q(85238, {	-- Stranger on the Steps
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 233500 },	-- Om'taha
+						["coord"] = { 57.0, 57.3, KARESH },
+					}),
+					q(85239, {	-- A New Devouring
+						["sourceQuests"] = { 85238 },	-- Stranger on the Steps
+						["provider"] = { "n", 233500 },	-- Om'taha
+						["coord"] = { 57.0, 57.3, KARESH },
+					}),
+					q(85240, {	-- Only Hunger Remains
+						["sourceQuests"] = { 85238 },	-- Stranger on the Steps
+						["provider"] = { "n", 233500 },	-- Om'taha
+						["coord"] = { 57.0, 57.3, KARESH },
+					}),
+					q(85241, {	-- A Once-Proud Priest
+						["sourceQuests"] = {
+							85239,	-- A New Devouring
+							85240,	-- Only Hunger Remains
+						},
+						["provider"] = { "n", 233500 },	-- Om'taha
+						["coord"] = { 59.5, 60.5, KARESH },
+					}),
+					q(86193, {	-- Life for Life
+						["sourceQuests"] = { 85241 },	-- A Once-Proud Priest
+						["provider"] = { "n", 233500 },	-- Om'taha
+						["coord"] = { 59.5, 60.5, KARESH },
+						["g"] = {
+							i(245737),	-- Ritualbreaker's Band
+							i(245738),	-- Seal of the Shattered Dome
+						},
+					}),
 				}),
 			}),
 			header(HEADERS.Achievement, 42737, {	-- Capstoned
@@ -1141,7 +1390,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91435),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91436),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 
-				q(90955),	-- Triggered during 'Wrapped Up' (89561) when Reshii Wraps get upgraded (Selecting "Boon of the Reshii" at Hashim
+				q(90955),	-- Triggered during 'Wrapped Up' (89561) when Reshii Wraps get upgraded (Selecting "Boon of the Reshii" at Hashim)
 			}),
 		}),
 	}),
