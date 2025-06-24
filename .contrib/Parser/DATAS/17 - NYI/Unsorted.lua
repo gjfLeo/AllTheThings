@@ -575,30 +575,6 @@ root(ROOTS.Unsorted, {
 				i(248396),	-- The Speaker's Ritualistic Mantle
 				i(248397),	-- Bronzbeard's Ritualistic Mantle
 			}),
-			header(HEADERS.LFGDungeon, 2989, {	-- Eco-Dome Al'dani
-				i(242464),	-- Swarmite's Frenzied Pedicel
-				i(242468),	-- Al'dani Attendant's Gauze
-				i(242470),	-- Mandibular Bonewhacker
-				i(242472),	-- Consumed Wastelander's Epaulets
-				i(242473),	-- Spittle-Stained Trousers
-				i(242475),	-- Eco-Dome Access Bands
-				i(242476),	-- Taahbat's Desert Carbine
-				i(242477),	-- Wastland Devotee's Wrappings
-				i(242479),	-- Girdle of Absolute Faith
-				i(242481),	-- Spellstrike Warplance
-				i(242482),	-- Reinforced Stalkerhide Vest
-				i(242483),	-- Greaves of the Wild Pair
-				i(242484),	-- Soul-Scribe's Tabiqa Dagger
-				i(242486),	-- Mantle of Wounded Fate
-				i(242487),	-- Fatebound Crusader
-				i(242488),	-- Tunic of Sworn Revenge
-				i(242490),	-- Ancient Oracle's Caress
-				i(242491),	-- Whispers of K'aresh
-				i(242493),	-- Starlit Safeguard
-				i(242494),	-- Lily of the Eternal Weave
-				i(242495),	-- Incorporeal Warpclaw
-				i(242497),	-- Azhiccaran Parapodia
-			}),
 			header(HEADERS.LFGDungeon, 2805, {	-- Manaforge Omega
 				-- Cosmetic/Raid?
 				i(245510),	-- Loombeast Silk
@@ -616,160 +592,164 @@ root(ROOTS.Unsorted, {
 				i(248983),	-- Ensemble: Inquisitor's All-Seeing Madness
 				i(248984),	-- Ensemble: Living Weapon's Capes
 
-
-				i(237552),	-- Deathbound Shoulderpads
-				i(237581),	-- Dreadful Voidglass Contaminant
-				i(237582),	-- Mystic Voidglass Contaminant
-				i(237583),	-- Venerated Voidglass Contaminant
-				i(237584),	-- Zenith Voidglass Contaminant
-				i(237585),	-- Dreadful Binding Agent
-				i(237586),	-- Mystic Binding Agent
-				i(237587),	-- Venerated Binding Agent
-				i(237588),	-- Zenith Binding Agent
-				i(237589),	-- Dreadful Foreboding Beaker
-				i(237590),	-- Mystic Foreboding Beaker
-				i(237591),	-- Venerated Foreboding Beaker
-				i(237592),	-- Zenith Foreboding Beaker
-				i(237593),	-- Dreadful Silken Offering
-				i(237594),	-- Mystic Silken Offering
-				i(237595),	-- Venerated Silken Offering
-				i(237596),	-- Zenith Silken Offering
-				i(237597),	-- Dreadful Yearning Cursemark
-				i(237598),	-- Mystic Yearning Cursemark
-				i(237599),	-- Venerated Yearning Cursemark
-				i(237600),	-- Zenith Yearning Cursemark
-				i(237602),	-- Hungering Void Curio
-
-				-- Unclear warbound epics? Suppose to be BoE raid??
-				i(243038),	-- Gaze of the Untethered Doom
-				i(243039),	-- Devoured Magi's Cinch
-				i(243040),	-- Crystalblight Legguards
-				i(243041),	-- Umbral Stalker's Footpads
-				i(243042),	-- Void-Bound Hauberk
-				i(243043),	-- Shadowguard's Rift Wrap
-				i(243044),	-- Feasting Fiend's Barbute
-				i(243045),	-- Bygone Wastelander's Girdle
-				i(243046),	-- Band of Boundless Hunger
 				i(243048),	-- Technomancer's Service Sandals
+				--[[
 				n(CLASSES, {
-					i(237605),	-- Living Weapon's Cape
-					i(237606),	-- Living Weapon's Manacles
-					i(237607),	-- Living Weapon's Chain
-					i(237608),	-- Living Weapon's Ramparts
-					i(237609),	-- Living Weapon's Legguards
-					i(237610),	-- Living Weapon's Faceshield
-					i(237611),	-- Living Weapon's Crushers
-					i(237612),	-- Living Weapon's Sabatons
-					i(237613),	-- Living Weapon's Bulwark
-					i(237614),	-- Gilded Cloak of the Lucent Battalion
-					i(237615),	-- Vambraces of the Lucent Battalion
-					i(237616),	-- Seal of the Lucent Battalion
-					i(237617),	-- Chargers of the Lucent Battalion
-					i(237618),	-- Cuisses of the Lucent Battalion
-					i(237619),	-- Lightmane of the Lucent Battalion
-					i(237620),	-- Protectors of the Lucent Battalion
-					i(237621),	-- Stompers of the Lucent Battalion
-					i(237622),	-- Cuirass of the Lucent Battalion
-					i(237623),	-- Hollow Sentinel's Wingdrape
-					i(237624),	-- Hollow Sentinel's Stonecuffs
-					i(237625),	-- Hollow Sentinel's Greatbelt
-					i(237626),	-- Hollow Senintel's Perches
-					i(237627),	-- Hollow Sentinel's Stonekilt
-					i(237628),	-- Hollow Sentinel's Stonemask
-					i(237629),	-- Hollow Sentinel's Gauntlets
-					i(237630),	-- Hollow Sentinel's Greatboots
-					i(237631),	-- Hollow Sentinel's Breastplate
-					i(237632),	-- Shawl of Channeled Fury
-					i(237633),	-- Bracers of Channeled Fury
-					i(237634),	-- Fauld of Channeled Fury
-					i(237635),	-- Fangs of Channeled Fury
-					i(237636),	-- Tassets of Channeled Fury
-					i(237637),	-- Aspect of Channeled Fury
-					i(237638),	-- Claws of Channeled Fury
-					i(237639),	-- Boots of Channeled Fury
-					i(237640),	-- Furs of Channeled Fury
-					i(237641),	-- Midnight Herald's Shroud
-					i(237642),	-- Midnight Herald's Wristguards
-					i(237643),	-- Midnight Herald's Clasp
-					i(237644),	-- Midnight Herald's Shadowguards
-					i(237645),	-- Midnight Herald's Petticoat
-					i(237646),	-- Midnight Herald's Cowl
-					i(237647),	-- Midnight Herald's Gloves
-					i(237648),	-- Midnight Herald's Jackboots
-					i(237649),	-- Midnight Herald's Hauberk
-					i(237650),	-- Spellweaver's Immaculate Runecloak
-					i(237651),	-- Spellweaver's Immaculate Cuffs
-					i(237652),	-- Spellweaver's Immaculate Crystal Cord
-					i(237653),	-- Spellweaver's Immaculate Pauldrons
-					i(237654),	-- Spellweaver's Immaculate Runeslacks
-					i(237655),	-- Spellweaver's Immaculate Focus
-					i(237656),	-- Spellweaver's Immaculate Scaleguards
-					i(237657),	-- Spellweaver's Immaculate Talons
-					i(237658),	-- Spellweaver's Immaculate Crestward
-					i(237659),	-- Cape of the Sudden Eclipse
-					i(237660),	-- Armbands of the Sudden Eclipse
-					i(237661),	-- Strap of the Sudden Eclipse
-					i(237662),	-- Smokemantle of the Sudden Eclipse
-					i(237663),	-- Pants of the Sudden Eclipse
-					i(237664),	-- Hood of the Sudden Eclipse
-					i(237665),	-- Deathgrips of the Sudden Eclipse
-					i(237666),	-- Bladed Boots of the Sudden Eclipse
-					i(237667),	-- Tactical Vest of the Sudden Eclipse
-					i(237668),	-- Breeze of Fallen Storms
-					i(237669),	-- Demigaunts of Fallen Storms
-					i(237670),	-- Thunderbund of Fallen Storms
-					i(237671),	-- Glyphs of Fallen Storms
-					i(237672),	-- Legwraps of Fallen Storms
-					i(237673),	-- Half-Mask of Fallen Storms
-					i(237674),	-- Grasp of Fallen Storms
-					i(237675),	-- Footpads of Fallen Storms
-					i(237676),	-- Gi of Fallen Storms
-					i(237677),	-- Plumage of the Mother Eagle
-					i(237678),	-- Bands of the Mother Eagle
-					i(237679),	-- Dreamsash of the Mother Eagle
-					i(237680),	-- Ritual Pauldrons of the Mother Eagle
-					i(237681),	-- Breeches of the Mother Eagle
-					i(237682),	-- Skymane of the Mother Eagle
-					i(237683),	-- Wings of the Mother Eagle
-					i(237684),	-- Feathered Boots of the Mother Eagle
-					i(237685),	-- Vest of the Mother Eagle
-					i(237686),	-- Charhound's Vicious Felcover
-					i(237687),	-- Charhound's Vicious Restraints
-					i(237688),	-- Charhound's Vicious Huntbelt
-					i(237689),	-- Charhound's Vicious Hornguards
-					i(237690),	-- Charhound's Vicious Hidecoat
-					i(237691),	-- Charhound's Vicious Scalp
-					i(237692),	-- Charhound's Vicious Felclaws
-					i(237693),	-- Charhound's Vicious Flametabi
-					i(237694),	-- Charhound's Vicious Bindings
-					i(237695),	-- Inquisitor's All-Seeing Madness
-					i(237696),	-- Inquisitor's Bracelets of Madness
-					i(237697),	-- Inquisitor's Tome of Madness
-					i(237698),	-- Inquisitor's Gaze of Madness
-					i(237699),	-- Inquisitor's Leggings of Madness
-					i(237700),	-- Inquisitor's Portal to Madness
-					i(237701),	-- Inquisitor's Clutches of Madness
-					i(237702),	-- Inquisitor's Treads of Madness
-					i(237703),	-- Inquisitor's Robes of Madness
-					i(237704),	-- Dying Star's Memory
-					i(237705),	-- Dying Star's Bangles
-					i(237706),	-- Dying Star's Waistlight
-					i(237707),	-- Dying Star's Pyrelights
-					i(237708),	-- Dying Star's Leggings
-					i(237709),	-- Dying Star's Veil
-					i(237710),	-- Dying Star's Caress
-					i(237711),	-- Dying Star's Soles
-					i(237712),	-- Dying Star's Cassock
-					i(237713),	-- Augur's Ephemeral Brilliance
-					i(237714),	-- Augur's Ephemeral Bindings
-					i(237715),	-- Augur's Ephemeral Quillsash
-					i(237716),	-- Augur's Ephemeral Orbs of Power
-					i(237717),	-- Augur's Ephemeral Trousers
-					i(237718),	-- Augur's Ephemeral Wide-Brim
-					i(237719),	-- Augur's Ephemeral Mitts
-					i(237720),	-- Augur's Ephemeral Slippers
-					i(237721),	-- Augur's Ephemeral Habiliments
+					-- Save Tier Sets if Darkal Needs them
+					-- Cloak
+					-- Wrist
+					-- Belt
+					-- Shoulder
+					-- Legs
+					-- Head
+					-- Hands
+					-- Feet
+					-- Chest
+					cl(DEATHKNIGHT, {
+						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237624),	-- Hollow Sentinel's Stonecuffs
+						i(237625),	-- Hollow Sentinel's Greatbelt
+						i(237626),	-- Hollow Senintel's Perches
+						i(237627),	-- Hollow Sentinel's Stonekilt
+						i(237628),	-- Hollow Sentinel's Stonemask
+						i(237629),	-- Hollow Sentinel's Gauntlets
+						i(237630),	-- Hollow Sentinel's Greatboots
+						i(237631),	-- Hollow Sentinel's Breastplate
+					}),
+					cl(DEMONHUNTER, {
+						i(237686),	-- Charhound's Vicious Felcover
+						i(237687),	-- Charhound's Vicious Restraints
+						i(237688),	-- Charhound's Vicious Huntbelt
+						i(237689),	-- Charhound's Vicious Hornguards
+						i(237690),	-- Charhound's Vicious Hidecoat
+						i(237691),	-- Charhound's Vicious Scalp
+						i(237692),	-- Charhound's Vicious Felclaws
+						i(237693),	-- Charhound's Vicious Flametabi
+						i(237694),	-- Charhound's Vicious Bindings
+					}),
+					cl(DRUID, {
+						i(237677),	-- Plumage of the Mother Eagle
+						i(237678),	-- Bands of the Mother Eagle
+						i(237679),	-- Dreamsash of the Mother Eagle
+						i(237680),	-- Ritual Pauldrons of the Mother Eagle
+						i(237681),	-- Breeches of the Mother Eagle
+						i(237682),	-- Skymane of the Mother Eagle
+						i(237683),	-- Wings of the Mother Eagle
+						i(237684),	-- Feathered Boots of the Mother Eagle
+						i(237685),	-- Vest of the Mother Eagle
+					}),
+					cl(EVOKER, {
+						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237651),	-- Spellweaver's Immaculate Cuffs
+						i(237652),	-- Spellweaver's Immaculate Crystal Cord
+						i(237653),	-- Spellweaver's Immaculate Pauldrons
+						i(237654),	-- Spellweaver's Immaculate Runeslacks
+						i(237655),	-- Spellweaver's Immaculate Focus
+						i(237656),	-- Spellweaver's Immaculate Scaleguards
+						i(237657),	-- Spellweaver's Immaculate Talons
+						i(237658),	-- Spellweaver's Immaculate Crestward
+					}),
+					cl(HUNTER, {
+						i(237641),	-- Midnight Herald's Shroud
+						i(237642),	-- Midnight Herald's Wristguards
+						i(237643),	-- Midnight Herald's Clasp
+						i(237644),	-- Midnight Herald's Shadowguards
+						i(237645),	-- Midnight Herald's Petticoat
+						i(237646),	-- Midnight Herald's Cowl
+						i(237647),	-- Midnight Herald's Gloves
+						i(237648),	-- Midnight Herald's Jackboots
+						i(237649),	-- Midnight Herald's Hauberk
+					}),
+					cl(MAGE, {
+						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237714),	-- Augur's Ephemeral Bindings
+						i(237715),	-- Augur's Ephemeral Quillsash
+						i(237716),	-- Augur's Ephemeral Orbs of Power
+						i(237717),	-- Augur's Ephemeral Trousers
+						i(237718),	-- Augur's Ephemeral Wide-Brim
+						i(237719),	-- Augur's Ephemeral Mitts
+						i(237720),	-- Augur's Ephemeral Slippers
+						i(237721),	-- Augur's Ephemeral Habiliments
+					}),
+					cl(MONK, {
+						i(237668),	-- Breeze of Fallen Storms
+						i(237669),	-- Demigaunts of Fallen Storms
+						i(237670),	-- Thunderbund of Fallen Storms
+						i(237671),	-- Glyphs of Fallen Storms
+						i(237672),	-- Legwraps of Fallen Storms
+						i(237673),	-- Half-Mask of Fallen Storms
+						i(237674),	-- Grasp of Fallen Storms
+						i(237675),	-- Footpads of Fallen Storms
+						i(237676),	-- Gi of Fallen Storms
+					}),
+					cl(PALADIN, {
+						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237615),	-- Vambraces of the Lucent Battalion
+						i(237616),	-- Seal of the Lucent Battalion
+						i(237617),	-- Chargers of the Lucent Battalion
+						i(237618),	-- Cuisses of the Lucent Battalion
+						i(237619),	-- Lightmane of the Lucent Battalion
+						i(237620),	-- Protectors of the Lucent Battalion
+						i(237621),	-- Stompers of the Lucent Battalion
+						i(237622),	-- Cuirass of the Lucent Battalion
+					}),
+					cl(PRIEST, {
+						i(237704),	-- Dying Star's Memory
+						i(237705),	-- Dying Star's Bangles
+						i(237706),	-- Dying Star's Waistlight
+						i(237707),	-- Dying Star's Pyrelights
+						i(237708),	-- Dying Star's Leggings
+						i(237709),	-- Dying Star's Veil
+						i(237710),	-- Dying Star's Caress
+						i(237711),	-- Dying Star's Soles
+						i(237712),	-- Dying Star's Cassock
+					}),
+					cl(ROGUE, {
+						i(237659),	-- Cape of the Sudden Eclipse
+						i(237660),	-- Armbands of the Sudden Eclipse
+						i(237661),	-- Strap of the Sudden Eclipse
+						i(237662),	-- Smokemantle of the Sudden Eclipse
+						i(237663),	-- Pants of the Sudden Eclipse
+						i(237664),	-- Hood of the Sudden Eclipse
+						i(237665),	-- Deathgrips of the Sudden Eclipse
+						i(237666),	-- Bladed Boots of the Sudden Eclipse
+						i(237667),	-- Tactical Vest of the Sudden Eclipse
+					}),
+					cl(SHAMAN, {
+						i(237632),	-- Shawl of Channeled Fury
+						i(237633),	-- Bracers of Channeled Fury
+						i(237634),	-- Fauld of Channeled Fury
+						i(237635),	-- Fangs of Channeled Fury
+						i(237636),	-- Tassets of Channeled Fury
+						i(237637),	-- Aspect of Channeled Fury
+						i(237638),	-- Claws of Channeled Fury
+						i(237639),	-- Boots of Channeled Fury
+						i(237640),	-- Furs of Channeled Fury
+					}),
+					cl(WARLOCK, {
+						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237696),	-- Inquisitor's Bracelets of Madness
+						i(237697),	-- Inquisitor's Tome of Madness
+						i(237698),	-- Inquisitor's Gaze of Madness
+						i(237699),	-- Inquisitor's Leggings of Madness
+						i(237700),	-- Inquisitor's Portal to Madness
+						i(237701),	-- Inquisitor's Clutches of Madness
+						i(237702),	-- Inquisitor's Treads of Madness
+						i(237703),	-- Inquisitor's Robes of Madness
+					}),
+					cl(WARRIOR, {
+						i(237605),	-- Living Weapon's Cape
+						i(237606),	-- Living Weapon's Manacles
+						i(237607),	-- Living Weapon's Chain
+						i(237608),	-- Living Weapon's Ramparts
+						i(237609),	-- Living Weapon's Legguards
+						i(237610),	-- Living Weapon's Faceshield
+						i(237611),	-- Living Weapon's Crushers
+						i(237612),	-- Living Weapon's Sabatons
+						i(237613),	-- Living Weapon's Bulwark
+					}),
 				}),
+				--]]
 			}),
 			filter(MISC, {
 				i(232323),	-- Watering Jug
