@@ -4531,6 +4531,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 			i(4328),	-- Spider Belt
 			i(4321),	-- Spider Silk Slippers
 			i(4320),	-- Spidersilk Boots
+			applyclassicphase(WRATH_PHASE_ONE, i(45626, {["timeline"] = { ADDED_3_1_0 }})),	-- Spidersilk Drape
 			i(4329),	-- Star Belt
 			i(6384),	-- Stylish Blue Shirt
 			i(6385),	-- Stylish Green Shirt
@@ -4644,12 +4645,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				},
 			}),
 		}),
-		-- Check When doing TBC/WRATH
-
-
-
-
-		i(45626, {["timeline"] = { ADDED_3_1_0 }}),	-- Spidersilk Drape
 	}),
 	-- Non-crafted reagents from vendors for professions:
 	filter(REAGENTS, {

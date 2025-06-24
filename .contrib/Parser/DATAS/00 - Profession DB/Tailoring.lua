@@ -523,7 +523,7 @@ i(0, 55899);	-- Bolt of Frostweave
 i(0, 55900);	-- Bolt of Imbued Frostweave
 i(0, 56015);	-- Cloak of Frozen Spirits
 i(0, 56014);	-- Cloak of the Moon
-i(0, 55769);	-- Darkglow Embroidery
+i(0, 55769);	-- Darkglow Embroidery [Rank 1] [REMOVED: 6.0.2]
 i(0, 56020);	-- Deep Frozen Cord
 i(0, 55914);	-- Duskweave Belt
 i(0, 55924);	-- Duskweave Boots
@@ -555,34 +555,36 @@ i(0, 56030);	-- Frostwoven Leggings
 i(0, 55903);	-- Frostwoven Robe
 i(0, 55902);	-- Frostwoven Shoulders
 i(0, 56031);	-- Frostwoven Wristwraps
+i(0, 60969);	-- Flying Carpet
 i(0, 60993);	-- Glacial Robe
 i(0, 60994);	-- Glacial Slippers
 i(0, 60990);	-- Glacial Waistband
 i(0, 56000);	-- Green Workman's Shirt
 i(0, 56018);	-- Hat of Wintry Doom
 i(0, 56022);	-- Light Blessed Mittens
-i(0, 55642);	-- Lightweave Embroidery [REMOVED 6.0.2]
-i(0, 56034);	-- Master's Spellthread [Rank 1]
+i(0, 55642);	-- Lightweave Embroidery [Rank 1] [REMOVED 6.0.2]
+i(0, 60971);	-- Magnificent Flying Carpet
+i(0, 56034);	-- Master's Spellthread [Rank 1] [REMOVED 6.0.2]
 i(0, 56001);	-- Moonshroud
 i(0, 56025);	-- Moonshroud Gloves
 i(0, 56024);	-- Moonshroud Robe
 i(0, 55911);	-- Mystic Frostwoven Robe
 i(0, 55910);	-- Mystic Frostwoven Shoulders
 i(0, 55913);	-- Mystic Frostwoven Wristwraps
-i(0, 56039);	-- Sanctified Spellthread [Rank 1]
+i(0, 56039);	-- Sanctified Spellthread [Rank 1] [REMOVED 6.0.2]
 i(0, 56008);	-- Shining Spellthread
 i(0, 56019);	-- Silky Iceshard Boots
 i(0, 56003);	-- Spellweave
 i(0, 56029);	-- Spellweave Gloves
 i(0, 56028);	-- Spellweave Robe
-i(0, 55777);	-- Swordguard Embroidery
+i(0, 55777);	-- Swordguard Embroidery [Rank 1] [REMOVED 6.0.2]
 i(0, 55995);	-- Yellow Lumberjack Shirt
 --- ITEM ---
 i(42183, 56004);	-- Abyssal Bag
 i(42173, 55994);	-- Blue Lumberjack Shirt
 i(42176, 55998);	-- Blue Workman's Shirt
 i(42187, 56009);	-- Brilliant Spellthread
--- i(43876, 59390);	-- Cloth Scavenging \\ Northern Cloth Scavenging (This has a few sources and needs looked at further.)
+i(43876, 59390);	-- Cloth Scavenging \\ Northern Cloth Scavenging
 i(42184, 56005);	-- Glacial Bag
 i(42175, 55996);	-- Green Lumberjack Shirt
 i(42185, 56006);	-- Mysterious Bag
@@ -590,20 +592,17 @@ i(42172, 55993);	-- Red Lumberjack Shirt
 i(42177, 55997);	-- Red Workman's Shirt
 i(42178, 55999);	-- Rustic Workman's Shirt
 i(42188, 56011);	-- Sapphire Spellthread
-
--------------------
---- PATCH 3.0.3 ---
--------------------
---- TRAINER ---
-i(0, 60969);	-- Flying Carpet
-i(0, 60971);	-- Magnificent Flying Carpet
+--- SPECIAL ---
+i(0, 56017);	-- Deathchill Cloak
 i(0, 56016);	-- Wispcloak
+--- NYI ---
+i(0, 56048);	-- Duskweave Boots
 
 -------------------
 --- PATCH 3.0.8 ---
 -------------------
-i(44917, 26407);	-- Pattern: Festival Suit (Guessed via Duplicate SpellID Match with Sourced RecipeID)
-i(44916, 26403);	-- Pattern: Festival Dress (Guessed via Duplicate SpellID Match with Sourced RecipeID)
+i(44917, 26407);	-- Pattern: Festival Suit
+i(44916, 26403);	-- Pattern: Festival Dress
 
 -------------------
 --- PATCH 3.1.0 ---
@@ -671,9 +670,9 @@ i(0, 75247);	-- Embersilk Net
 i(0, 75250);	-- Enchanted Spellthread
 i(0, 75255);	-- Ghostly Spellthread
 i(0, 75268);	-- Hyjal Expedition Bag
-i(0, 75154);	-- Master's Spellthread [Rank 2]
+i(0, 75154);	-- Master's Spellthread [Rank 2]  [REMOVED 6.0.2]
 i(0, 75265);	-- Otherworldly Bag
-i(0, 75155);	-- Sanctified Spellthread [Rank 2]
+i(0, 75155);	-- Sanctified Spellthread [Rank 2]  [REMOVED 6.0.2]
 i(0, 75258);	-- Spiritmend Belt
 i(0, 75261);	-- Spiritmend Boots
 i(0, 75259);	-- Spiritmend Bracers
@@ -696,9 +695,9 @@ i(54600, 75310);	-- Powerful Ghostly Spellthread
 --- NYI ---
 i(0, 75183);	-- Unravel Embersilk Cloth
 i(0, 75143);	--
-i(0, 75172);	--
-i(0, 75175);	--
-i(0, 75178);	--
+i(0, 75172);	-- Lightweave Embroidery [Rank 2] [REMOVED 6.0.2]
+i(0, 75175);	-- Darkglow Embroidery [Rank 2] [REMOVED 6.0.2]
+i(0, 75178);	-- Swordguard Embroidery [Rank 2] [REMOVED 6.0.2]
 
 -------------------
 --- PATCH 4.2.0 ---
@@ -795,9 +794,9 @@ i(238073, 1224168);	-- Pattern: Vicious Fireweave Robe
 i(0, 125551);	-- Bolt of Windwool Cloth
 i(0, 125553);	-- Cerulean Spellthread
 i(0, 125557);	-- Imperial Silk
-i(0, 125496);	-- Master's Spellthread [Rank 3]
+i(0, 125496);	-- Master's Spellthread [Rank 3]  [REMOVED 6.0.2]
 i(0, 125552);	-- Pearlescent Spellthread
-i(0, 125497);	-- Sanctified Spellthread [Rank 3]
+i(0, 125497);	-- Sanctified Spellthread [Rank 3]  [REMOVED 6.0.2]
 i(0, 130325);	-- Song of Harmony
 i(0, 110426);	-- Tailoring (Zen Master) [REMOVED 8.0.1]
 i(0, 125530);	-- Windwool Belt
@@ -837,9 +836,9 @@ i(86369, 125548);	-- Spelltwister's Gloves
 i(86368, 125547);	-- Spelltwister's Grand Robe
 i(86382, 125561);	-- Touch of the Light
 --- NYI ---
-i(0, 125481);	--
-i(0, 125482);	--
-i(0, 125483);	--
+i(0, 125481);	-- Lightweave Embroidery [Rank 2] [REMOVED 6.0.2]
+i(0, 125482);	-- Darkglow Embroidery [Rank 3] [REMOVED 6.0.2]
+i(0, 125483);	-- Swordguard Embroidery [Rank 3] [REMOVED 6.0.2]
 
 -------------------
 --- PATCH 5.1.0 ---
