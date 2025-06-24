@@ -355,6 +355,7 @@ i(158859);	-- Jagged Fang
 i(163323);	-- Julie's Cracked Dish
 i(155593);	-- Keeled Breastbone
 i(162673);	-- Knotted Bowline
+i(163376);	-- Kurt's Ornate Key
 i(162632);	-- Lavish Sethrallis Figurine
 i(159140);	-- Lifeless Clay
 i(158745);	-- Luminous Scale
@@ -579,6 +580,7 @@ i(178015);	-- Spoiled Contaminant
 -----------------
 -- PATCH 9.0.1 --
 -----------------
+i(183695);	-- Decaying Dark Naaru Shard
 i(175241);	-- Expedition Healing Potion
 i(184033);	-- Extra-Spacious Knapsack
 i(169819);	-- Handful of Blood Shards

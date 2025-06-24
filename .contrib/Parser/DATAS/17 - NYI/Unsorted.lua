@@ -903,7 +903,6 @@ root(ROOTS.Unsorted, {
 				i(248410),	-- Technomancer's Gift
 				-- Misc/ach?
 				i(246727),	-- Ethereal Essence Sliver
-				i(246737),	-- K'areshi Voidstone
 				-- Devs having fun?
 				i(244854),	-- Purloined Artifact
 				i(244855),	-- Martin Fury
@@ -3346,7 +3345,6 @@ root(ROOTS.Unsorted, {
 				i(163373),	-- Rachel's Flute \\ Rachel's Tambourine
 				i(163374),	-- Josh's Fang Necklace \\ Josh's Lucky Ferret's Foot
 				i(163375),	-- Portrait of Commander Martens
-				i(163376),	-- Kurt's Ornate Key
 				i(163516),	-- Blue Glowing Puffer
 				i(163517),	-- Red Glowing Puffer
 				i(163518),	-- Purple Glowing Puffer
