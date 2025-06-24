@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
---- Need Zone Drop, Tier Sets, Achievements, AOTC Mount //Braghe
+--- Need Zone Drop, AOTC Mount //Braghe
 ------ Encounter Constants ------
 local PLEXUS = 2684;
 local LOOMITHAR = 2686;
@@ -637,9 +637,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 		},
 	}),
 })));
-
+--[[
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART } }, {
-	inst(1296, {	-- Liberation of Undermine
+	inst(1302, {	-- Manaforge Omega
 		n(FACTIONS, {
 			header(HEADERS.Faction, FACTION_GALLAGIO, {
 				n(QUESTS, {
@@ -711,3 +711,4 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		})),
 	}),
 })));
+--]]
