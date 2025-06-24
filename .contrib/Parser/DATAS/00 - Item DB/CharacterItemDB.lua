@@ -879,6 +879,7 @@ ihqt(235608, 86878);				-- Nightfall Sanctum Campsite
 is(0, 467553);						-- Path of the Azerite Refinery [A]
 is(0, 467555);						-- Path of the Azerite Refinery [H]
 is(0, 1216786);						-- Path of the Circuit Breaker
+is(0, 1226482);						-- Path of the Full House
 ihqt(235262, 86753);				-- Steamwheedle's Trove (Honored)
 ihqt(234743, 86754);				-- Steamwheedle's Trove (Revered)
 ihqt(235263, 86596);				-- Steamwheedle's Trove (Exalted)
@@ -921,6 +922,14 @@ iq(240203, 90463);					-- Podium Upgrade: Scrappy
 iq(240204, 90464);					-- Podium Upgrade: Survival Run
 iq(240205, 90465);					-- Podium Upgrade: Time in Spotlights
 iq(240206, 90466);					-- Podium Upgrade: Yards Traveled
+
+------------------
+-- PATCH 11.2.0 --
+------------------
+is(0, 1239155);						-- Path of the All-Devouring
+is(0, 1237215);						-- Path of the Eco-Dome
+
+
 
 ------------
 -- UNUSED --

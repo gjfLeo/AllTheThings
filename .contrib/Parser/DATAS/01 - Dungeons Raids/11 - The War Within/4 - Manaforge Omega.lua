@@ -428,6 +428,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}, {	-- RENOWN 13 --
 					}, {	-- RENOWN 14 --
 					}, {	-- RENOWN 15 --
+						spell(1239155),	-- Path of the All-Devouring
 					},
 				}))),
 				--]]
