@@ -426,7 +426,7 @@ i(24301, 31441);	-- White Remedy Cape
 i(24311, 31454);	-- Whitemend Hood
 i(24308, 31451);	-- Whitemend Pants
 --- MOONCLOTH ---
-i(0, 26798, nil, MOONCLOTH);		-- Mooncloth Tailoring [REMOVED 4.0.1]
+i(0, 26798, nil, MOONCLOTH);		-- Mooncloth Tailoring [REMOVED 4.0.3]
 -- #if BEFORE CATA
 i(21916, 26760, nil, MOONCLOTH);	-- Primal Mooncloth Belt
 i(21917, 26762, nil, MOONCLOTH);	-- Primal Mooncloth Robe
@@ -437,7 +437,7 @@ i(21917, 26762);	-- Primal Mooncloth Robe
 i(21918, 26761);	-- Primal Mooncloth Shoulders
 -- #endif
 --- SHADOWEAVE ---
-i(0, 26801, nil, SHADOWEAVE);	-- Shadoweave Tailoring [REMOVED 4.0.1]
+i(0, 26801, nil, SHADOWEAVE);	-- Shadoweave Tailoring [REMOVED 4.0.3]
 -- #if BEFORE CATA
 i(21914, 26757, nil, SHADOWEAVE);	-- Frozen Shadoweave Boots
 i(21913, 26758, nil, SHADOWEAVE);	-- Frozen Shadoweave Robe
@@ -448,7 +448,7 @@ i(21913, 26758);	-- Frozen Shadoweave Robe
 i(21912, 26756);	-- Frozen Shadoweave Shoulders
 -- #endif
 --- SPELLFIRE ---
-i(0, 26797, nil, SPELLFIRE);	-- Spellfire Tailoring [REMOVED 4.0.1]
+i(0, 26797, nil, SPELLFIRE);	-- Spellfire Tailoring [REMOVED 4.0.3]
 -- #if BEFORE CATA
 i(21908, 26752, nil, SPELLFIRE);	-- Spellfire Belt
 i(21909, 26753, nil, SPELLFIRE);	-- Spellfire Gloves
@@ -458,10 +458,6 @@ i(21908, 26752);	-- Spellfire Belt
 i(21909, 26753);	-- Spellfire Gloves
 i(21910, 26754);	-- Spellfire Robe
 -- #endif
-
-
-
-
 
 -------------------
 --- PATCH 2.1.0 ---
@@ -496,10 +492,8 @@ i(35205, 46129);	-- Hands of Eternal Light
 i(35207, 46131);	-- Robe of Eternal Light
 i(35204, 46128);	-- Sunfire Handwraps
 i(35206, 46130);	-- Sunfire Robe
-
-
-i(35308, 31434);	-- Unyielding Bracers [See Also 2.4.0]
-i(35309, 31442);	-- Unyielding Girdle [See Also 2.4.0]
+i(35308, 31434);	-- Unyielding Bracers
+i(35309, 31442);	-- Unyielding Girdle
 
 -------------------
 --- PATCH 2.4.2 ---
@@ -516,15 +510,10 @@ i(38328, 50647);	-- Haliscan Pantaloons
 i(38229, 50194);	-- Mycah's Botanical Bag
 
 -------------------
---- PATCH 3.0.1 ---
+--- PATCH 3.0.3 ---
 -------------------
 --- TRAINER ---
 i(0, 51309);	-- Tailoring (Grand Master) [REMOVED 8.0.1]
-
--------------------
---- PATCH 3.0.2 ---
--------------------
---- TRAINER ---
 i(0, 56023);	-- Aurora Slippers
 i(0, 56010);	-- Azure Spellthread
 i(0, 55925);	-- Black Duskweave Leggings

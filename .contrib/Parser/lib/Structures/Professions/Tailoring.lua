@@ -227,6 +227,39 @@ VANILLA_TAILORING_VENDOR_REAGENTS = {
 	i(8343),	-- Heavy Silken Thread
 	i(14341),	-- Rune Thread
 };
+TBC_TAILORING = applyclassicphase(TBC_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_2_0_5 } }, {
+	r(26790, {	-- Tailoring (Master)
+		["timeline"] = { ADDED_2_0_5, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #else
+		["lvl"] = 50,
+		-- #endif
+		["rank"] = 5,
+	}),
+	applyclassicphase(BFA_PHASE_ONE, r(264618, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Outland Tailoring
+	r(330227, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past I [The Burning Cruse]
+	r(330228, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past II [The Burning Cruse]
+	r(330229, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III [The Burning Cruse]
+	r(330230, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV [The Burning Cruse]
+	r(330231, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V [The Burning Cruse]
+	n(ARMOR, {
+		r(26765),	-- Netherweave Belt
+		r(26772),	-- Netherweave Boots
+		r(26764),	-- Netherweave Bracers
+		r(26770),	-- Netherweave Gloves
+		r(26771),	-- Netherweave Pants
+	}),
+	filter(BAGS, {
+		r(26746),	-- Netherweave Bag
+	}),
+	filter(MISC, {
+		r(31460),	-- Netherweave Net
+	}),
+	filter(REAGENTS, {
+		r(26745),	-- Bolt of Netherweave
+	}),
+}));
 COMMON_CATACLYSM_TAILORING_RECIPES = applyclassicphase(CATA_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_4_0_3_LAUNCH } }, {
 	i(54601, {	-- Pattern: Belt of the Depths
 		["cost"] = { { "i", 54440, 1 }, },	-- 1x Dreamcloth
