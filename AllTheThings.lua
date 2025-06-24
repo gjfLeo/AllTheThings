@@ -1502,6 +1502,7 @@ app.AddEventHandler("OnLoad", function()
 	})
 end)
 
+local unpack = unpack
 local function GetSearchResults(method, paramA, paramB, options)
 	-- app.PrintDebug("GetSearchResults",method,paramA,paramB)
 	if not method then
@@ -1522,7 +1523,12 @@ local function GetSearchResults(method, paramA, paramB, options)
 		= app.RecursiveCharacterRequirementsFilter, app.RecursiveGroupRequirementsFilter
 
 	-- Call to the method to search the database.
-	local group, a, b = method(paramA, paramB);
+	local group, a, b
+	if options and options.AppendSearchParams then
+		group, a, b = method(paramA, paramB, unpack(options.AppendSearchParams))
+	else
+		group, a, b = method(paramA, paramB)
+	end
 	-- app.PrintDebug("GetSearchResults:method",group and #group,a,b)
 	if group then
 		if a then paramA = a; end
