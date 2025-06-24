@@ -4414,7 +4414,7 @@ i(245273, 4847);	-- Copper Lapbug
 i(244916, 4835);	-- Cyan Siphonmite
 i(244907, 4827);	-- Dread Horrorling
 i(246339, 4854);	-- Duskytooth Fel Snooter
-i(0, 4842);	-- Duskthief
+i(245254, 4842);	-- Duskthief
 i(245252, 4840);	-- Graceful Cosmic Ray Pup
 i(244909, 4828);	-- Impartial Watcher
 i(245253, 4844);	-- Inquisitive Cosmic Ray Pup
