@@ -19,17 +19,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(85003, {	-- Restoring Operational Efficiency
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230604 },	-- Om'en
-						["coord"] = { 59.5, 83.1, TAZAVESH },
+						["coord"] = { 59.5, 83.1, KARESH_TAZAVESH },
 					}),
 					q(84958, {	-- Beasts Unbound
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230954 },	-- Ta'ka
-						["coord"] = { 56.8, 73.0, TAZAVESH },
+						["coord"] = { 56.8, 73.0, KARESH_TAZAVESH },
 					}),
 					q(85039, {	-- Compromised Containment
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 231564 },	-- Xy'bin
-						["coord"] = { 56.6, 72.9, TAZAVESH },
+						["coord"] = { 56.6, 72.9, KARESH_TAZAVESH },
 						["g"] = {
 							i(237891),	-- Menagerie's Lost Relic
 							i(237894),	-- Pendant of Arcane Havoc
@@ -38,7 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84959, {	-- Lost Lines of Defense
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230955 },	-- Ba'ver
-						["coord"] = { 53.1, 64.4, TAZAVESH },
+						["coord"] = { 53.1, 64.4, KARESH_TAZAVESH },
 						["g"] = {
 							o(469475, {	-- Stolen Barrier Projector
 								i(235366),	-- Stolen Barrier Projector (QI!)
@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84960, {	-- The Darkness Among Us
 						["sourceQuests"] = { 85003 },	-- Restoring Operational Efficiency TODO: There is no point to list all quests, I guess?
 						["provider"] = { "n", 233706 },	-- Locus-Walker
-						["coord"] = { 59.7, 83.4, TAZAVESH },
+						["coord"] = { 59.7, 83.4, KARESH_TAZAVESH },
 						["g"] = {
 							i(237890),	-- Band of the Unseen Hand
 							i(237893),	-- Ring of Lingering Shadows
@@ -62,7 +62,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84963, {	-- Sealing the Shadows
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234601 },	-- Om'en
-						["coord"] = { 54.1, 63.7, TAZAVESH },
+						["coord"] = { 54.1, 63.7, KARESH_TAZAVESH },
 						["g"] = {
 							i(233199),	-- Saturated Entropic Core (QI!)
 							--
@@ -82,18 +82,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84961, {	-- Barriers to Entry
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234596 },	-- Locus-Walker
-						["coord"] = { 54.2, 63.1, TAZAVESH },
+						["coord"] = { 54.2, 63.1, KARESH_TAZAVESH },
 						["g"] = {
 							o(502525, {	-- Barrier Projector
 								["coords"] = {
-									{ 41.3, 49.1, TAZAVESH },
-									{ 46.0, 51.2, TAZAVESH },
-									{ 49.8, 57.9, TAZAVESH },
-									{ 52.5, 46.8, TAZAVESH },
-									{ 51.3, 41.2, TAZAVESH },
-									{ 44.4, 36.3, TAZAVESH },
-									{ 39.5, 42.0, TAZAVESH },
-									{ 58.4, 32.8, TAZAVESH },
+									{ 41.3, 49.1, KARESH_TAZAVESH },
+									{ 46.0, 51.2, KARESH_TAZAVESH },
+									{ 49.8, 57.9, KARESH_TAZAVESH },
+									{ 52.5, 46.8, KARESH_TAZAVESH },
+									{ 51.3, 41.2, KARESH_TAZAVESH },
+									{ 44.4, 36.3, KARESH_TAZAVESH },
+									{ 39.5, 42.0, KARESH_TAZAVESH },
+									{ 58.4, 32.8, KARESH_TAZAVESH },
 								},
 							}),
 						},
@@ -101,7 +101,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84964, {	-- Heroes Among Shadow
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234602 },	-- Alleria Windrunner
-						["coord"] = { 53.7, 63.2, TAZAVESH },
+						["coord"] = { 53.7, 63.2, KARESH_TAZAVESH },
 						["g"] = {
 							i(238193),	-- Blade of Unyielding Will
 							i(238194),	-- Blaster of Unyielding Will
@@ -132,19 +132,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(84967, {	-- The Shadowguard Shattered
 						["sourceQuests"] = { 86835 },	-- Regroup!
 						["provider"] = { "n", 234620 },	-- Locus-Walker
-						["coord"] = { 40.5, 67.8, TAZAVESH },
+						["coord"] = { 40.5, 67.8, KARESH_TAZAVESH },
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41970.02, {	-- Chapter 2: Void Alliance
 					q(85032, {	-- What Is Left of Home
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 231128 },	-- Locus-Walker
-						["coord"] = { 37.7, 74.8, TAZAVESH },
+						["coord"] = { 37.7, 74.8, KARESH_TAZAVESH },
 					}),
 					q(85961, {	-- Moving the Pawns
 						["sourceQuests"] = { 85032 },	-- What Is Left of Home
 						["provider"] = { "n", 230700 },	-- Locus-Walker
-						["coord"] = { 34.0, 10.9, TAZAVESH },
+						["coord"] = { 34.0, 10.9, KARESH_TAZAVESH },
 					}),
 					q(84855, {	-- Dead Silence
 						["sourceQuests"] = { 85032 },	-- What Is Left of Home
@@ -571,25 +571,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					--	["name"] = "Stay awhile and listen: Locus-Walker",
 					--	["sourceQuests"] = { 84957 },	-- Return to the Veiled Market
 					--	["provider"] = { "n", 233706 },	-- Locus-Walker
-					--	["coord"] = { 59.7, 83.4, TAZAVESH },
+					--	["coord"] = { 59.7, 83.4, KARESH_TAZAVESH },
 					--}),
 					---hqt(???, {	-- Stay awhile and listen: Alleria Windrunner / 61476 - no questID
 					---	["name"] = "Stay awhile and listen: Alleria Windrunner",
 					---	["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 					---	["provider"] = { "n", 230609 },	-- Alleria Windrunner
-					---	["coord"] = { 54.7, 66.9, TAZAVESH },
+					---	["coord"] = { 54.7, 66.9, KARESH_TAZAVESH },
 					---}),
 					hqt(90600, {	-- Stay awhile and listen: Xal'atath
 						["name"] = "Stay awhile and listen: Xal'atath",
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 235448 },	-- Xal'atath
-						["coord"] = { 37.5, 74.7, TAZAVESH },
+						["coord"] = { 37.5, 74.7, KARESH_TAZAVESH },
 					}),
 					hqt(90732, {	-- Stay awhile and listen: Alleria Windrunner
 						["name"] = "Stay awhile and listen: Alleria Windrunner",
 						["sourceQuests"] = { 85032 },	-- What Is Left of Home
 						["provider"] = { "n", 240293 },	-- Alleria Windrunner
-						["coord"] = { 34.2, 10.6, TAZAVESH },
+						["coord"] = { 34.2, 10.6, KARESH_TAZAVESH },
 					}),
 					---hqt(???, {	-- Stay awhile and listen: Alleria Windrunner / 61476 - no questID
 					---	["name"] = "Stay awhile and listen: Alleria Windrunner",
@@ -614,7 +614,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(87290, {	-- The Oasis
 					["sourceQuests"] = { 85037 },	-- That's a Wrap
 					["provider"] = { "n", 238212 },	-- Om'talad
-					["coord"] = { 39.4, 24.2, TAZAVESH },
+					["coord"] = { 39.4, 24.2, KARESH_TAZAVESH },
 				}),
 				q(87337, {	-- Custodian Duties
 					["sourceQuests"] = { 87290 },	-- The Oasis
@@ -1025,12 +1025,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(85429, {	-- Overwhelm Them
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 232498 },	-- Associate Xy'nell
-						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["coord"] = { 50.5, 38.8, KARESH_TAZAVESH },
 					}),
 					q(85430, {	-- Mandatory Time Off
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 232498 },	-- Associate Xy'nell
-						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["coord"] = { 50.5, 38.8, KARESH_TAZAVESH },
 					}),
 					q(85431, {	-- Drain Their Resources
 						["sourceQuests"] = {
@@ -1038,7 +1038,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							85430,	-- Mandatory Time Off
 						},
 						["provider"] = { "n", 232498 },	-- Associate Xy'nell
-						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["coord"] = { 50.5, 38.8, KARESH_TAZAVESH },
 						["g"] = { i(232609), },	-- Overflowing Anima Core (QI!)
 					}),
 					q(85432, {	-- Confuse Their Contacts
@@ -1047,7 +1047,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							85430,	-- Mandatory Time Off
 						},
 						["provider"] = { "n", 232498 },	-- Associate Xy'nell
-						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["coord"] = { 50.5, 38.8, KARESH_TAZAVESH },
 						["g"] = { i(232644), },	-- Broker Disguise Pin (PQI!)
 					}),
 					q(85433, {	-- Eyes on Us
@@ -1056,12 +1056,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							85432,	-- Confuse Their Contacts
 						},
 						["provider"] = { "n", 232498 },	-- Associate Xy'nell
-						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["coord"] = { 50.5, 38.8, KARESH_TAZAVESH },
 					}),
 					q(85434, {	-- On a Technicality
 						["sourceQuests"] = { 85433 },	-- Eyes on Us
 						["provider"] = { "n", 232498 },	-- Associate Xy'nell
-						["coord"] = { 50.5, 38.8, TAZAVESH },
+						["coord"] = { 50.5, 38.8, KARESH_TAZAVESH },
 						["g"] = {
 							i(245718),	-- Breeches of the Auditbreaker
 							i(245719),	-- Greaves of the Auditbreaker
@@ -1180,17 +1180,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(85383, {	-- Applied Mixology
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 232351 },	-- Trader Ba'kril
-						["coord"] = { 43.8, 52.3, TAZAVESH },
+						["coord"] = { 43.8, 52.3, KARESH_TAZAVESH },
 					}),
 					q(85384, {	-- Market Research
 						["sourceQuests"] = { 85383 },	-- Applied Mixology
 						["provider"] = { "n", 232351 },	-- Trader Ba'kril
-						["coord"] = { 43.8, 52.3, TAZAVESH },
+						["coord"] = { 43.8, 52.3, KARESH_TAZAVESH },
 					}),
 					q(85394, {	-- An Eye for Trouble
 						["sourceQuests"] = { 85384 },	-- Market Research
 						["provider"] = { "n", 232351 },	-- Trader Ba'kril
-						["coord"] = { 43.8, 52.3, TAZAVESH },
+						["coord"] = { 43.8, 52.3, KARESH_TAZAVESH },
 						["g"] = {
 							i(245736),	-- Unstable Sample Armplates
 							i(245734),	-- Unstable Sample Bindings
@@ -1203,23 +1203,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					q(85052, {	-- A Lucrative Opportunity
 						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 231674 },	-- Vaultkeeper Xy'vez
-						["coord"] = { 48.1, 24.6, TAZAVESH },
+						["coord"] = { 48.1, 24.6, KARESH_TAZAVESH },
 					}),
 					q(85053, {	-- Obtaining Permits
 						["sourceQuests"] = { 85052 },	-- A Lucrative Opportunity
 						["provider"] = { "n", 232008 },	-- Cartel Boss Xy'eolm
-						["coord"] = { 50.2, 19.3, TAZAVESH },
+						["coord"] = { 50.2, 19.3, KARESH_TAZAVESH },
 					}),
 					q(85054, {	-- Articles of Acquisition
 						["sourceQuests"] = { 85053 },	-- Obtaining Permits
 						["provider"] = { "n", 232008 },	-- Cartel Boss Xy'eolm
-						["coord"] = { 50.2, 19.3, TAZAVESH },
+						["coord"] = { 50.2, 19.3, KARESH_TAZAVESH },
 						["g"] = { i(244847), },	-- Aftermarket Ledger (PQI!)
 					}),
 					q(85055, {	-- Expired Goods
 						["sourceQuests"] = { 85054 },	-- Articles of Acquisition
 						["provider"] = { "n", 232057 },	-- Vaultkeeper Xy'vez
-						["coord"] = { 44.8, 35.7, TAZAVESH },
+						["coord"] = { 44.8, 35.7, KARESH_TAZAVESH },
 						["g"] = {
 							i(245728),	-- Voidmarket Negotiator's Gauntlets
 							i(245726),	-- Voidmarket Negotiator's Gloves
@@ -1315,7 +1315,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			n(BONUS_OBJECTIVES, {
 				q(84966, {	-- Break the Assault
 					["sourceQuests"] = { 84960 },	-- The Darkness Among Us
-					["coord"] = { 54.1, 63.7, TAZAVESH },
+					["coord"] = { 54.1, 63.7, KARESH_TAZAVESH },
 				}),
 				q(86464, {	-- Devourer Attack: The Atrium
 					["isWeekly"] = true,
