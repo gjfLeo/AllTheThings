@@ -14,27 +14,27 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["g"] = { i(246299), },	-- Blade of Lost Hope (COSMETIC!)
 				}),
 				q(86416, {	-- Ancient Coffer
-					-- TODO: Bugged. Invisible. Can't be looted 22.06.2025. -Exo
+					-- TODO: Bugged. Invisible. Can't be looted 25.06.2025. -Exo
 					["coord"] = { 60.9, 38.4, KARESH },
 					--["questID"] = 86416,	-- Wowhead data
 				}),
 				q(91058, {	-- Bladed Rifle Of Unfettered Momentum
 				}),
 				o(502603, {	-- Crudely Stitched Sack
-					-- TODO: Bugged. Invisible. Can't be looted 22.06.2025. -Exo
 					["coord"] = { 58.6, 34.3, KARESH },
 					["questID"] = 86323,
 				}),
 				q(90514, {	-- Efrats Forgotten Bulwark
 				}),
 				q(89378, {	-- Ethereal Voidforged Container
+					-- TODO: I think this one is bugged as well. No matter how I get to the top of the pillar, there is no container. 25.06.2025. -Exo
 					["description"] = "You need to Phasedive in order to see the Treasure.\nRequires some serious jumping precision in order to get to it.",
 					["coord"] = { 52.1, 68.3, KARESH },
 				}),
 				o(499093, {	-- Forlorn Wind Chime
 					["coord"] = { 69.7, 52.3, KARESH },
 					["questID"] = 85837,
-					["g"] = { i(243144), },	-- Reshi Crystal Fragments
+					["g"] = { i(246295), },	-- Tazavesh Lookout's Mace (COSMETIC!)
 				}),
 				o(500046, {	-- Gift of the Brothers
 					["coord"] = { 76.1, 45.3, KARESH },
@@ -97,7 +97,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(91057, {	-- Phaseblade Of The Void Marches
 				}),
 				o(502471, {	-- Rashaal's Vase
+					["coords"] = {
+						{ 68.8, 47.9, KARESH },	-- Cave Entrance
+						{ 70.2, 47.7, KARESH },	-- Treasure
+					},
 					["questID"] = 86306,
+					["g"] = {
+						-- Junk item worth 10g. Only source of it for now.
+						i(243161),	-- Long-Pressed Flowers
+					},
 				}),
 				o(499097, {	-- Sand-Worn Coffer
 					["coord"] = { 54.5, 24.5, KARESH },
@@ -107,14 +115,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(90527, {	-- Shadowguard Crusher
 				}),
 				o(502485, {	-- Shattered Crystals
-					-- TODO: Bugged. Can't be looted. 22.06.2025. -Exo
 					["coord"] = { 75.1, 55.3, KARESH },
-					--["questID"] = ,
+					["questID"] = 86308,
+					["g"] = { i(243144), },	-- Reshi Crystal Fragments
 				}),
 				o(502547, {	-- Skeletal Tail Bones
-					-- TODO: Bugged. Can't be looted. 22.06.2025. -Exo
 					["coord"] = { 77.8, 27.9, KARESH },
 					["questID"] = 86322,
+					["g"] = { i(243158), },	-- Ixthal the Observling (PET!)
 				}),
 				q(90512, {	-- Spear Of Fallen Memories
 				}),
@@ -123,13 +131,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(90522, {	-- Tulwar Of The Golden Guard
 				}),
 				o(502452, {	-- Tumbled Package
-					-- TODO: Bugged. Can't be looted. 22.06.2025. -Exo
-					["coords"] = {
-						{ 68.8, 47.9, KARESH },	-- Cave Entrance
-						{ 70.2, 47.7, KARESH },	-- Treasure
-						{ 65.3, 63.6, KARESH },	-- Another one near Tazavesh?
-					},
+					["coord"] = { 65.3, 63.6, KARESH },
 					["questID"] = 86304,
+					["g"] = {
+						-- Junk item worth 10g. Only source of it for now.
+						i(243160),	-- Tazavesh Shipping Manifest
+					},
 				}),
 				q(91055, {	-- Warglaive Of The Audacious Hunter
 				}),

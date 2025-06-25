@@ -446,10 +446,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						},
 						["provider"] = { "n", 230739 },	-- Soul-Scribe
 						["coord"] = { 75.8, 34.3, KARESH },
-						["g"] = {
-							-- TODO: This will most likely be moved to Zone Rewards
-							currency(3278),	-- Ethereal Strands
-						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 41970.04, {	-- Chapter 4: Shadows En Garde
@@ -1383,7 +1379,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 238486 },	-- Citizen Om'sto
 						["coord"] = { 46.6, 50.3, KARESH_TAZAVESH },
 						["repeatable"] = true,
-						["g"] = { i(236783), },	-- Ethereal Seal (QI!) (Reward, required for the Warrant)
+						["g"] = {
+							i(236781, {	-- Discarded Shadow Writ (QI!)
+								["providers"] = {
+									{ "o", 516994 },	-- Tazavesh Trash
+									{ "o", 517000 },	-- Tazavesh Trash
+								},
+							}),
+							--
+							i(236783),	-- Ethereal Seal (QI!) (Reward, required for the Warrant)
+						},
 					}),
 					q(87363, {	-- Tazavesh Facade
 						["description"] = "This quest is available during 'Warrant: Xy'vox the Twisted'.",
@@ -1407,8 +1412,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							i(236858),	-- Zo'kita Fruit (QI!) (Reward, required for the Warrant)
 						},
 					}),
+					q(90122, {	-- Eliminate Xy'vox the Twisted
+						["provider"] = { "i", 236753 },	-- Xy'vox Refuge Dampener (QS!)
+						["repeatable"] = true,
+					}),
 				}),
-				q(90122),	--
 				q(90123),	--
 				q(90124),	--
 				q(90125),	--
@@ -1469,6 +1477,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(90954),	--
 			q(91044),	--
 			q(91454),	--
+			n(REWARDS, {
+				currency(3278),	-- Ethereal Strands
+			}),
 		}),
 	}),
 })));
@@ -1483,7 +1494,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
 				-- ??
 				--q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
-
+				q(90807),	-- Triggered at the completion of 'Warrant: Xy'vox the Twisted' (87345)
+				-- Devourer Attacks
 				q(91289),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 				q(91311),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
