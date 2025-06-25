@@ -3,6 +3,7 @@
 ---------------
 local BOLT_OF_EMBERSILK = 53643;
 local DREAMCLOTH = 54440;
+local SECRET_OF_DRAENOR_TAILORING = 118722;
 APPRENTICE_JOURNEYMAN_EXPERT_TAILORING = {
 	r(3908, {	-- Tailoring (Apprentice)
 		-- #if NOT ANYCLASSIC
@@ -612,6 +613,94 @@ MOP_TAILORING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] 
 		r(125551),	-- Bolt of Windwool Cloth
 		r(125557),	-- Imperial Silk
 		r(130325),	-- Song of Harmony
+	}),
+}));
+DRAENOR_TAILORING = applyclassicphase(WOD_PHASE_ONE, i(115357, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	["description"] = "This is a reward for completing the introductory Tailoring questline that can drop from any Draenor mob. Also sold at Tailoring Emporium for 100 gold.",
+	["g"] = {
+		r(158758, {	-- Tailoring (Draenor Master)
+			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_8_0_1_LAUNCH },
+			-- #if NOT ANYCLASSIC
+			["collectible"] = false,
+			-- #endif
+			["rank"] = 9,
+		}),
+		applyclassicphase(BFA_PHASE_ONE, r(264626, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Draenor Tailoring
+		r(330247, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past I [Warlords of Draenor]
+		r(330248, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past II [Warlords of Draenor]
+		r(330249, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III [Warlords of Draenor]
+		r(330250, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV [Warlords of Draenor]
+		r(330251, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V [Warlords of Draenor]
+		r(168835),	-- Hexweave Cloth
+		r(176058),	-- Secrets of Draenor Tailoring
+		r(168852),	-- Sumptuous Cowl
+		r(168854),	-- Sumptuous Leggings
+		r(168853),	-- Sumptuous Robes
+	},
+})));
+COMMON_DRAENOR_TAILORING_RECIPES = applyclassicphase(WOD_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
+	i(114863, {	-- Pattern: Brilliant Hexweave Cloak (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114866, {	-- Pattern: Creeping Carpet (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 5}},
+	}),
+	i(114865, {	-- Pattern: Elekk Plushie (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 5}},
+	}),
+	i(114872, {	-- Pattern: Greater Hexweave Essence (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 5}},
+		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_6_2_0 },
+	}),
+	i(114864, {	-- Pattern: Hexweave Bag (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 5}},
+	}),
+	i(114860, {	-- Pattern: Hexweave Belt (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114858, {	-- Pattern: Hexweave Bracers (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114854, {	-- Pattern: Hexweave Cowl (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114852, {	-- Pattern: Hexweave Embroidery (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114856, {	-- Pattern: Hexweave Gloves (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114855, {	-- Pattern: Hexweave Leggings (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114853, {	-- Pattern: Hexweave Mantle (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114857, {	-- Pattern: Hexweave Robe (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114859, {	-- Pattern: Hexweave Slippers (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(202234, {	-- Pattern: Impressive Hexweave Essence (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 5}},
+		["timeline"] = { ADDED_10_0_5 },
+	}),
+	i(114862, {	-- Pattern: Nimble Hexweave Cloak (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(114861, {	-- Pattern: Powerful Hexweave Cloak (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 1}},
+	}),
+	i(202235, {	-- Pattern: Remarkable Hexweave Essence (RECIPE!)
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 5}},
+		["timeline"] = { ADDED_10_0_5 },
+	}),
+	i(114871, {	-- Pattern: Hexweave Essence (RECIPE!)
+		["collectible"] = false,
+		["description"] = "The item is still in game but you can't learn the recipe from it anymore (recipe removed in 9.0.1)",
+		["cost"] = {{"i", SECRET_OF_DRAENOR_TAILORING, 5}},
+		["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_10_0_5 },
 	}),
 }));
 SL_TAILORING = applyclassicphase(SL_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {

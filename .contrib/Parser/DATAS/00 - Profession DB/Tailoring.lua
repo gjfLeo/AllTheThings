@@ -941,20 +941,21 @@ i(0, 142951);	-- White Cloud Leggings
 -------------------
 --- PATCH 6.0.1 ---
 -------------------
---- GARRISON ---
-i(0, 176313);	-- Inspiring Battle Standard
-i(0, 176314);	-- Fearsome Battle Standard
-i(0, 176315);	-- Inspiring Battle Standard
-i(0, 176316);	-- Fearsome Battle Standard
---- ITEM ---
+--- TRAINER ---
 i(0, 158758);	-- Tailoring (Draenor)
+i(0, 168835);	-- Hexweave Cloth
+i(0, 176058);	-- Secrets of Draenor Tailoring
+i(0, 168852);	-- Sumptuous Cowl
+i(0, 168854);	-- Sumptuous Leggings
+i(0, 168853);	-- Sumptuous Robes
+--- ITEM ---
 i(114863, 168847);	-- Brilliant Hexweave Cloak
 i(114866, 168850);	-- Creeping Carpet
 i(114865, 168849);	-- Elekk Plushie
+i(114872, 168856);	-- Greater Hexweave Essence [REMOVED: 6.2.0]
 i(114864, 168848);	-- Hexweave Bag
 i(114860, 168844);	-- Hexweave Belt
 i(114858, 168842);	-- Hexweave Bracers
-i(114851, 168835);	-- Hexweave Cloth
 i(114854, 168838);	-- Hexweave Cowl
 i(114852, 168836);	-- Hexweave Embroidery
 i(114871, 168855);	-- Hexweave Essence
@@ -965,11 +966,17 @@ i(114857, 168841);	-- Hexweave Robe
 i(114859, 168843);	-- Hexweave Slippers
 i(114862, 168846);	-- Nimble Hexweave Cloak
 i(114861, 168845);	-- Powerful Hexweave Cloak
+--- GARRISON ---
+i(0, 176313);	-- Inspiring Battle Standard
+i(0, 176314);	-- Fearsome Battle Standard
+i(0, 176315);	-- Inspiring Battle Standard
+i(0, 176316);	-- Fearsome Battle Standard
+--- NYI ---
+i(114851, 168835);	-- Hexweave Cloth
 i(120128, 176058);	-- Secrets of Draenor Tailoring
 i(114868, 168852);	-- Sumptuous Cowl
 i(114870, 168854);	-- Sumptuous Leggings
 i(114869, 168853);	-- Sumptuous Robes
---- NYI ---
 i(0, 169669);	-- Hexweave Cloth
 i(114867, 168851);	-- Pattern: Miniature Flying Carpet - NYI
 i(118098, 173415);	-- Pattern: Murloc Chew Toy
@@ -978,14 +985,15 @@ i(118098, 173415);	-- Pattern: Murloc Chew Toy
 --- PATCH 6.1.0 ---
 -------------------
 --- ITEM ---
+i(122549, 181418);	-- Powerful Hexweave Essence [REMOVED: 6.2.0]
 i(122716, 182123);	-- Primal Weaving
 
 -------------------
 --- PATCH 6.2.0 ---
 -------------------
 --- ITEM ---
-i(127724, 187492);	-- Mighty Hexweave Essence [REMOVED]
-i(127742, 187516);	-- Savage Hexweave Essence [REMOVED]
+i(127724, 187492);	-- Mighty Hexweave Essence [REMOVED: 10.0.5]
+i(127742, 187516);	-- Savage Hexweave Essence [REMOVED: 10.0.5]
 
 -----------------
 -- PATCH 3.0.3 --

@@ -6,15 +6,7 @@ r(75183),	-- Unravel Embersilk Cloth
 r(75287),	--
 4.3.4.15595
 r(102171),	-- Black Silk Vest
-5.0.3.15890
-r(104115),	-- Release Fire Spirit
-6.0.1.18179
-r(158758),	-- Tailoring
 7.3.0.24473
-r(176313),	-- Inspiring Battle Standard
-r(176314),	-- Fearsome Battle Standard
-r(176315),	-- Inspiring Battle Standard
-r(176316),	-- Fearsome Battle Standard
 r(186091),	-- Silkweave Shade
 r(186094),	-- Silkweave Flourish
 r(186097),	-- Silkweave Cover
@@ -57,7 +49,6 @@ r(257135),	-- Battle Flag: Phalanx Defense
 r(257137),	-- Battle Flag: Rallying Swiftness
 r(257138),	-- Battle Flag: Rallying Swiftness
 r(257141),	-- Pet - Hot Air Balloon (DNT)
-r(264626),	-- Draenor Tailoring
 r(264630),	-- Kul Tiran Tailoring
 8.0.1.25976
 r(265815),	-- Zandalari Tailoring
@@ -114,11 +105,6 @@ r(304577),	-- Uncanny Combatant's Satin Belt
 r(304580),	-- Uncanny Combatant's Satin Bracers
 r(307175),	-- Void Focus
 9.0.1.34199
-r(330247),	-- Relic of the Past I
-r(330248),	-- Relic of the Past II
-r(330249),	-- Relic of the Past III
-r(330250),	-- Relic of the Past IV
-r(330251),	-- Relic of the Past V
 r(330252),	-- Relic of the Past I
 r(330253),	-- Relic of the Past II
 r(330254),	-- Relic of the Past III
@@ -140,8 +126,6 @@ r(1228344),	-- Pure Chronomatic Fiber
 
 Missing in Tailoring
 
-5.0.3.15890
-r(104115),	-- Release Fire Spirit
 8.0.1.26032
 r(3275),	-- Linen Bandage
 r(3276),	-- Heavy Linen Bandage
