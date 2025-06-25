@@ -791,14 +791,17 @@ i(0, 1224212);	-- Fireweave Shoulders
 --- PATCH 5.0.4 ---
 -------------------
 --- TRAINER ---
+i(0, 110426);	-- Tailoring (Zen Master) [REMOVED 8.0.1]
 i(0, 125551);	-- Bolt of Windwool Cloth
 i(0, 125553);	-- Cerulean Spellthread
+i(0, 125482);	-- Darkglow Embroidery [Rank 3] [REMOVED 6.0.2]
 i(0, 125557);	-- Imperial Silk
-i(0, 125496);	-- Master's Spellthread [Rank 3]  [REMOVED 6.0.2]
+i(0, 125481);	-- Lightweave Embroidery [Rank 3] [REMOVED 6.0.2]
+i(0, 125496);	-- Master's Spellthread [Rank 3] [REMOVED 6.0.2]
 i(0, 125552);	-- Pearlescent Spellthread
-i(0, 125497);	-- Sanctified Spellthread [Rank 3]  [REMOVED 6.0.2]
+i(0, 125497);	-- Sanctified Spellthread [Rank 3] [REMOVED 6.0.2]
 i(0, 130325);	-- Song of Harmony
-i(0, 110426);	-- Tailoring (Zen Master) [REMOVED 8.0.1]
+i(0, 125483);	-- Swordguard Embroidery [Rank 3] [REMOVED 6.0.2]
 i(0, 125530);	-- Windwool Belt
 i(0, 125529);	-- Windwool Boots
 i(0, 125528);	-- Windwool Bracers
@@ -835,10 +838,6 @@ i(86377, 125556);	-- Royal Satchel
 i(86369, 125548);	-- Spelltwister's Gloves
 i(86368, 125547);	-- Spelltwister's Grand Robe
 i(86382, 125561);	-- Touch of the Light
---- NYI ---
-i(0, 125481);	-- Lightweave Embroidery [Rank 2] [REMOVED 6.0.2]
-i(0, 125482);	-- Darkglow Embroidery [Rank 3] [REMOVED 6.0.2]
-i(0, 125483);	-- Swordguard Embroidery [Rank 3] [REMOVED 6.0.2]
 
 -------------------
 --- PATCH 5.1.0 ---

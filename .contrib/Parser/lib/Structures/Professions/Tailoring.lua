@@ -574,6 +574,46 @@ COMMON_CATACLYSM_TAILORING_RECIPES = applyclassicphase(CATA_PHASE_ONE, sharedDat
 	}),
 	-- #endif
 }));
+MOP_TAILORING = applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+	r(110426, {	-- Tailoring (Zen Master)
+		["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1_LAUNCH },
+		-- #if NOT ANYCLASSIC
+		["collectible"] = false,
+		-- #endif
+		["rank"] = 8,
+	}),
+	applyclassicphase(BFA_PHASE_ONE, r(264624, {["timeline"] = {ADDED_8_0_1_LAUNCH}})),	-- Pandaria Tailoring
+	r(330242, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past I [Mist of Pandaria]
+	r(330243, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past II [Mist of Pandaria]
+	r(330244, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past III [Mist of Pandaria]
+	r(330245, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past IV [Mist of Pandaria]
+	r(330246, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V [Mist of Pandaria]
+	n(ARMOR, {
+		r(134585, {["timeline"] = {ADDED_5_1_0}}),	-- Bipsi's Gloves
+		r(125530),	-- Windwool Belt
+		r(125529),	-- Windwool Boots
+		r(125528),	-- Windwool Bracers
+		r(125526),	-- Windwool Gloves
+		r(125523),	-- Windwool Hood
+		r(125527),	-- Windwool Pants
+		r(125524),	-- Windwool Shoulders
+		r(125525),	-- Windwool Tunic
+	}),
+	n(ARMOR_ENCHANTMENTS, {
+		r(125553),	-- Cerulean Spellthread
+		r(125482, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Darkglow Embroidery [Rank 3]
+		r(125481, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Lightweave Embroidery [Rank 3]
+		r(125496, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Master's Spellthread [Rank 3]
+		r(125552),	-- Pearlescent Spellthread
+		r(125497, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Sanctified Spellthread [Rank 3]
+		r(125483, {["timeline"] = {ADDED_5_0_4,REMOVED_6_0_2}}),	-- Swordguard Embroidery [Rank 3]
+	}),
+	filter(REAGENTS, {
+		r(125551),	-- Bolt of Windwool Cloth
+		r(125557),	-- Imperial Silk
+		r(130325),	-- Song of Harmony
+	}),
+}));
 SL_TAILORING = applyclassicphase(SL_PHASE_ONE, sharedData({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	r(310949),	-- Shadowlands Tailoring
 	r(343634, {	-- Shadowlands Cloth Scavenging
