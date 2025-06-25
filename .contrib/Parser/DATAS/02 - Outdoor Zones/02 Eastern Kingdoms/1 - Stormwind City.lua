@@ -6575,9 +6575,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(12805, {	-- Officer Areyn <Accessories Quartermaster>
 					["coords"] = {
 						-- #if AFTER CATA
-						76.8, 65.8, STORMWIND_CITY,
+						{ 76.8, 65.8, STORMWIND_CITY },
 						-- #else
-						73.8, 53.4, STORMWIND_CITY
+						{ 73.8, 53.4, STORMWIND_CITY },
 						-- #endif
 					},
 					["timeline"] = { ADDED_1_4_0, REMOVED_3_0_2, ADDED_4_0_1, REMOVED_7_0_3 },

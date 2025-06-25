@@ -519,8 +519,6 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = {
 							33229,	-- A Flash of Bronze...	(Alliance)
 							33230,	-- A Flash of Bronze...	(Horde)
-							37188,	-- A Flash of Bronze...	(NYI)
-							37194,	-- A Flash of Bronze...	(NYI)
 						},
 					}),
 					q(33232, {	-- Journey to the Timeless Isle
@@ -530,8 +528,6 @@ root(ROOTS.Zones, {
 						["sourceQuests"] = {
 							33229,	-- A Flash of Bronze...	(Alliance)
 							33230,	-- A Flash of Bronze...	(Horde)
-							37188,	-- A Flash of Bronze...	(NYI)
-							37194,	-- A Flash of Bronze...	(NYI)
 						},
 						["groups"] = {
 							i(104110),	-- Curious Bronze Timepiece (QI!)

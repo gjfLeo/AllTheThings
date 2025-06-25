@@ -405,17 +405,17 @@ CATA_TAILORING = applyclassicphase(CATA_PHASE_ONE, bubbleDown({ ["timeline"] = {
 		r(75267),	-- Spiritmend Robe
 		r(75260),	-- Spiritmend Shoulders
 		-- #if ANYCLASSIC
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224154, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Embersilk Belt
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224155, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Embersilk Boots
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224156, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Embersilk Bracers
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(99537, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Embersilk Cape
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224158, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Embersilk Gloves
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224161, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Embersilk Shoulders
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224162, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Fireweave Belt
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224163, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Fireweave Boots
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224164, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Fireweave Bracers
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224166, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Fireweave Gloves
-		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224169, {["timeline"] = {ADDED_4_4_3}})),	-- Vicious Fireweave Shoulders
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224154, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Embersilk Belt
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224155, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Embersilk Boots
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224156, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Embersilk Bracers
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(99537,   {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Embersilk Cape
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224158, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Embersilk Gloves
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224161, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Embersilk Shoulders
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224162, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Fireweave Belt
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224163, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Fireweave Boots
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224164, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Fireweave Bracers
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224166, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Fireweave Gloves
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, r(1224169, {["timeline"] = {ADDED_4_4_2}})),	-- Vicious Fireweave Shoulders
 		-- #else
 		r(75293),	-- Vicious Embersilk Belt
 		r(75297),	-- Vicious Embersilk Boots
