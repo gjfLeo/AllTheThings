@@ -4443,7 +4443,6 @@ root(ROOTS.Unsorted, {
 			i(169883),	-- Animate Grease
 			i(169895),	-- Azeroth Mini: Beastbot
 			i(169896),	-- Azeroth Mini: Pascal-K1N6
-			i(169763),	-- Mardivas's Magnificent Desalinating Pouch \\ Mardivas' Magnificent Desalinating Pouch \\ Magnificent Desalinating Pouch
 			i(169941),	-- Ceremonial Ankoan Scabbard
 			i(169946),	-- Saltwater Taffy
 			i(169947),	-- Candied Zin-Azshari Sea Grapes
@@ -4470,7 +4469,6 @@ root(ROOTS.Unsorted, {
 			i(169987),	-- Inert Dragonscale
 			i(169988),	-- Inert Mineral Dust
 			i(169992),	-- Cracked Iris Lens
-			i(169998),	-- Weathered Bulwark
 			i(169999),	-- Crumbling Barrier
 			i(170000),	-- Battered Bastion
 			i(170001),	-- Seized Engine
@@ -4490,7 +4488,6 @@ root(ROOTS.Unsorted, {
 			i(170026),	-- Seed Husks
 			i(170027),	-- Withering Seed
 			i(170028),	-- Fading Seed Bud
-			i(170030),	-- Burned Codex
 			i(170031),	-- Moldy Tome
 			i(170032),	-- Crumbling Vellum
 			i(170033),	-- Decharged Battery
@@ -4533,7 +4530,6 @@ root(ROOTS.Unsorted, {
 			i(170272),	-- War-Torn Memento
 			i(170379),	-- Sunwarmed Sand
 			i(170512),	-- Lesser Benthic Arcanocrystal
-			i(168435),	-- Remote Circuit Bypasser
 			i(168632),	-- Slipstream Generator
 			i(168633),	-- Supplemental Oxygenation Device
 			i(168648),	-- Emergency Anti-Gravity Device

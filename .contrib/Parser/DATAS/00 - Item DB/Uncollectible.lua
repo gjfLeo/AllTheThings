@@ -427,6 +427,7 @@ i(166288);	-- Waterlogged Junk
 -- PATCH 8.2.0 --
 -----------------
 i(169130);	-- Bent Cogwheel
+i(170030);	-- Burned Codex
 i(169128);	-- Chilled Heating Block
 i(170087);	-- Chromatic "Vinegar"
 i(169139);	-- Clogged Webbing Fabricator
@@ -445,6 +446,7 @@ i(169129);	-- Lovingly Worn Wrench
 i(170096);	-- Sodden Highborne Painting
 i(169145);	-- Rusted Precision Gripper
 i(169135);	-- Warped Shock Absorber
+i(169998);	-- Weathered Bulwark
 
 -----------------
 -- PATCH 8.2.5 --

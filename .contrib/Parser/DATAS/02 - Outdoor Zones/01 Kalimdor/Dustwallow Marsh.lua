@@ -439,7 +439,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(1220, {	-- Captain Vimes
 					["providers"] = {
 						{ "n", 4947 },	-- Theramore Lieutenant
-						{ "i", 5917 },	-- Spy's Report
+						{ "i", 5917 },	-- Spy's Report (QI!) not QS
 					},
 					["sourceQuest"] = 1219,	-- The Orc Report
 					["coords"] = {
@@ -2961,7 +2961,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(1238, {	-- The Lost Report
 					["providers"] = {
 						{ "o", 20985 },	-- Loose Dirt
-						{ "i", 5917 },	-- Spy's Report
+						{ "i", 5917 },	-- Spy's Report (QI!) not QS
 					},
 					["coord"] = { 55.4, 26, DUSTWALLOW_MARSH },
 					["timeline"] = { REMOVED_4_0_3 },
@@ -3030,7 +3030,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				q(1219, {	-- The Orc Report
 					["providers"] = {
 						{ "o", 20985 },	-- Loose Dirt
-						{ "i", 5917 },	-- Spy's Report
+						{ "i", 5917 },	-- Spy's Report (QI!) not QS
 					},
 					["coord"] = { 55.4, 26, DUSTWALLOW_MARSH },
 					["timeline"] = { REMOVED_4_0_3 },
