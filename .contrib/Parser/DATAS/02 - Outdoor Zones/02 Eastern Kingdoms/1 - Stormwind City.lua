@@ -131,6 +131,19 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			-- #endif
 			n(PROFESSIONS, {
 				prof(ALCHEMY, {
+					n(1302, {	-- Bernard Gump <Florist>
+						["coords"] = {
+							-- #if AFTER CATA
+							{ 69.2, 71.8, STORMWIND_CITY },
+							-- #elseif AFTER WRATH
+							{ 69.6, 71.4, STORMWIND_CITY },
+							-- #else
+							{ 64.2, 61.0, STORMWIND_CITY },
+							-- #endif
+						},
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = appendGroups(VANILLA_HERBS_2, VANILLA_HERBS_3, {}),
+					}),
 					n(1257, {	-- Keldric Boucher <Alchemy Supplies & Reagents>/<Arcane Goods Vendor>
 						["coords"] = {
 							-- #if AFTER WRATH
@@ -140,7 +153,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #endif
 						},
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = VANILLA_ALCHEMY_VENDOR_REAGENTS,
+						["groups"] = VANILLA_ALCHEMY_VIALS,
 					}),
 					n(5499, {	-- Lilyssia Nightbreeze <Alchemy Trainer>
 						["coords"] = {
@@ -168,7 +181,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #endif
 						},
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = appendGroups(VANILLA_ALCHEMY_VENDOR_REAGENTS, {
+						["groups"] = appendGroups(VANILLA_ALCHEMY_VIALS, VANILLA_HERBS_1, VANILLA_HERBS_2, VANILLA_HERBS_3, {
 							i(9301, {	-- Recipe: Elixir of Shadow Power (RECIPE!)
 								["isLimited"] = true,
 							}),
@@ -238,7 +251,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["coord"] = { 51.4, 18.0, STORMWIND_CITY },
 						["timeline"] = { ADDED_7_3_5 },
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = appendGroups(VANILLA_COOKING_VENDOR_REAGENTS, {
+						["groups"] = appendGroups(VANILLA_COOKING_SUPPLIES, {
 							i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 							i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
 						}),
@@ -269,7 +282,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							-- #endif
 						},
 						["races"] = ALLIANCE_ONLY,
-						["groups"] = appendGroups(VANILLA_COOKING_VENDOR_REAGENTS, {
+						["groups"] = appendGroups(VANILLA_COOKING_SUPPLIES, {
 							i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 							i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
 						}),
@@ -545,6 +558,17 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				prof(HERBALISM, {
+					n(5503, {	-- Eldraeith <Herbalism Supplies> [TBC+] / Eldraeith <Herbalism Supplier>
+						["coords"] = {
+							-- #if AFTER WRATH
+							{ 55.6, 85.6, STORMWIND_CITY },
+							-- #else
+							{ 46.6, 78.8, STORMWIND_CITY },
+							-- #endif
+						},
+						["races"] = ALLIANCE_ONLY,
+						["groups"] = HERB_POUCH,
+					}),
 					n(5566, {	-- Tannysa <Herbalism Trainer>
 						["coords"] = {
 							-- #if AFTER LEGION
@@ -5652,19 +5676,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				}),
 				-- #endif
-				n(5503, {	-- Eldraeith <Herbalism Supplies> [TBC+] / Eldraeith <Herbalism Supplier>
-					["coords"] = {
-						-- #if AFTER WRATH
-						{ 55.6, 85.6, STORMWIND_CITY },
-						-- #else
-						{ 46.6, 78.8, STORMWIND_CITY },
-						-- #endif
-					},
-					["races"] = ALLIANCE_ONLY,
-					["groups"] = {
-						i(22250),	-- Herb Pouch
-					},
-				}),
 				n(164942, {	-- Evelyn Thorn <Warlock Trainer>
 					["coord"] = { 79.4, 69.8, STORMWIND_CITY },
 					["timeline"] = { ADDED_9_0_1 },

@@ -190,11 +190,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 57.2, 45.8, DESOLACE },
 				}),
 			}),
-			n(PROFESSIONS, {
-				prof(FISHING, {
-					o(180685),	-- Waterlogged Wreckage
-				}),
-			}),
 			n(QUESTS, {
 				q(14284, {	-- A Revenant's Vengeance
 					["qg"] = 35902,	-- Lord Hydronis
