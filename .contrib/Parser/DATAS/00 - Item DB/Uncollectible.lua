@@ -2480,8 +2480,10 @@ i(241632);	-- Heroic Waxy Figurine
 -- PATCH 11.2.0 --
 ------------------
 i(244358);	-- "Prophecies of the Void"
+i(238834);	-- Burnished Void Claw
 i(238874);	-- Congealed Mana
 i(247686);	-- Crystallized Nightshade
+i(238882);	-- Cursed Eyeball Cluster
 i(238883);	-- Dimly Glowing Scrap
 i(238838);	-- Enlarged Nerve
 i(238886);	-- Faintly Glowing Vellum

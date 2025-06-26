@@ -80,7 +80,6 @@ root(ROOTS.Unsorted, {
 				i(239457),	-- Reshii Scout's Soles
 				i(239458),	-- Reshii Scout's Grips
 				i(239459),	-- Reshii Scout's Hood
-				i(239460),	-- Reshii Scout's Breeches
 				i(239461),	-- Reshii Scout's Shoulderpads
 				i(239462),	-- Reshii Scout's Belt
 				i(239463),	-- Reshii Scout's Bracers
@@ -176,7 +175,6 @@ root(ROOTS.Unsorted, {
 				i(244491),	-- Worn Shadowguard Blade's Belt
 				i(244492),	-- Worn Shadowguard Blade's Bracers
 				i(244493),	-- Worn Shadowguard Striker's Brigandine
-				i(244494),	-- Worn Shadowguard Striker's Boots
 				i(244495),	-- Worn Shadowguard Striker's Gauntlets
 				i(244496),	-- Worn Shadowguard Striker's Cowl
 				i(244497),	-- Worn Shadowguard Striker's Legguards
@@ -581,7 +579,7 @@ root(ROOTS.Unsorted, {
 					-- Feet
 					-- Chest
 					cl(DEATHKNIGHT, {
-						i(237623),	-- Hollow Sentinel's Wingdrape
+						i(237623),	-- Hollow Sentinel's Wingdrape (Contained inside an Ensemble sold by Ba'choso)
 						i(237624),	-- Hollow Sentinel's Stonecuffs
 						i(237625),	-- Hollow Sentinel's Greatbelt
 						i(237626),	-- Hollow Senintel's Perches
@@ -592,7 +590,7 @@ root(ROOTS.Unsorted, {
 						i(237631),	-- Hollow Sentinel's Breastplate
 					}),
 					cl(DEMONHUNTER, {
-						i(237686),	-- Charhound's Vicious Felcover
+						i(237686),	-- Charhound's Vicious Felcover (Contained inside an Ensemble sold by Ba'choso)
 						i(237687),	-- Charhound's Vicious Restraints
 						i(237688),	-- Charhound's Vicious Huntbelt
 						i(237689),	-- Charhound's Vicious Hornguards
@@ -603,7 +601,7 @@ root(ROOTS.Unsorted, {
 						i(237694),	-- Charhound's Vicious Bindings
 					}),
 					cl(DRUID, {
-						i(237677),	-- Plumage of the Mother Eagle
+						i(237677),	-- Plumage of the Mother Eagle (Contained inside an Ensemble sold by Ba'choso)
 						i(237678),	-- Bands of the Mother Eagle
 						i(237679),	-- Dreamsash of the Mother Eagle
 						i(237680),	-- Ritual Pauldrons of the Mother Eagle
@@ -614,7 +612,7 @@ root(ROOTS.Unsorted, {
 						i(237685),	-- Vest of the Mother Eagle
 					}),
 					cl(EVOKER, {
-						i(237650),	-- Spellweaver's Immaculate Runecloak
+						i(237650),	-- Spellweaver's Immaculate Runecloak (Contained inside an Ensemble sold by Ba'choso)
 						i(237651),	-- Spellweaver's Immaculate Cuffs
 						i(237652),	-- Spellweaver's Immaculate Crystal Cord
 						i(237653),	-- Spellweaver's Immaculate Pauldrons
@@ -625,7 +623,7 @@ root(ROOTS.Unsorted, {
 						i(237658),	-- Spellweaver's Immaculate Crestward
 					}),
 					cl(HUNTER, {
-						i(237641),	-- Midnight Herald's Shroud
+						i(237641),	-- Midnight Herald's Shroud (Contained inside an Ensemble sold by Ba'choso)
 						i(237642),	-- Midnight Herald's Wristguards
 						i(237643),	-- Midnight Herald's Clasp
 						i(237644),	-- Midnight Herald's Shadowguards
@@ -636,7 +634,7 @@ root(ROOTS.Unsorted, {
 						i(237649),	-- Midnight Herald's Hauberk
 					}),
 					cl(MAGE, {
-						i(237713),	-- Augur's Ephemeral Brilliance
+						i(237713),	-- Augur's Ephemeral Brilliance (Contained inside an Ensemble sold by Ba'choso)
 						i(237714),	-- Augur's Ephemeral Bindings
 						i(237715),	-- Augur's Ephemeral Quillsash
 						i(237716),	-- Augur's Ephemeral Orbs of Power
@@ -647,7 +645,7 @@ root(ROOTS.Unsorted, {
 						i(237721),	-- Augur's Ephemeral Habiliments
 					}),
 					cl(MONK, {
-						i(237668),	-- Breeze of Fallen Storms
+						i(237668),	-- Breeze of Fallen Storms (Contained inside an Ensemble sold by Ba'choso)
 						i(237669),	-- Demigaunts of Fallen Storms
 						i(237670),	-- Thunderbund of Fallen Storms
 						i(237671),	-- Glyphs of Fallen Storms
@@ -658,7 +656,7 @@ root(ROOTS.Unsorted, {
 						i(237676),	-- Gi of Fallen Storms
 					}),
 					cl(PALADIN, {
-						i(237614),	-- Gilded Cloak of the Lucent Battalion
+						i(237614),	-- Gilded Cloak of the Lucent Battalion (Contained inside an Ensemble sold by Ba'choso)
 						i(237615),	-- Vambraces of the Lucent Battalion
 						i(237616),	-- Seal of the Lucent Battalion
 						i(237617),	-- Chargers of the Lucent Battalion
@@ -669,7 +667,7 @@ root(ROOTS.Unsorted, {
 						i(237622),	-- Cuirass of the Lucent Battalion
 					}),
 					cl(PRIEST, {
-						i(237704),	-- Dying Star's Memory
+						i(237704),	-- Dying Star's Memory (Contained inside an Ensemble sold by Ba'choso)
 						i(237705),	-- Dying Star's Bangles
 						i(237706),	-- Dying Star's Waistlight
 						i(237707),	-- Dying Star's Pyrelights
@@ -680,7 +678,7 @@ root(ROOTS.Unsorted, {
 						i(237712),	-- Dying Star's Cassock
 					}),
 					cl(ROGUE, {
-						i(237659),	-- Cape of the Sudden Eclipse
+						i(237659),	-- Cape of the Sudden Eclipse (Contained inside an Ensemble sold by Ba'choso)
 						i(237660),	-- Armbands of the Sudden Eclipse
 						i(237661),	-- Strap of the Sudden Eclipse
 						i(237662),	-- Smokemantle of the Sudden Eclipse
@@ -691,7 +689,7 @@ root(ROOTS.Unsorted, {
 						i(237667),	-- Tactical Vest of the Sudden Eclipse
 					}),
 					cl(SHAMAN, {
-						i(237632),	-- Shawl of Channeled Fury
+						i(237632),	-- Shawl of Channeled Fury (Contained inside an Ensemble sold by Ba'choso)
 						i(237633),	-- Bracers of Channeled Fury
 						i(237634),	-- Fauld of Channeled Fury
 						i(237635),	-- Fangs of Channeled Fury
@@ -702,7 +700,7 @@ root(ROOTS.Unsorted, {
 						i(237640),	-- Furs of Channeled Fury
 					}),
 					cl(WARLOCK, {
-						i(237695),	-- Inquisitor's All-Seeing Madness
+						i(237695),	-- Inquisitor's All-Seeing Madness (Contained inside an Ensemble sold by Ba'choso)
 						i(237696),	-- Inquisitor's Bracelets of Madness
 						i(237697),	-- Inquisitor's Tome of Madness
 						i(237698),	-- Inquisitor's Gaze of Madness
@@ -713,7 +711,7 @@ root(ROOTS.Unsorted, {
 						i(237703),	-- Inquisitor's Robes of Madness
 					}),
 					cl(WARRIOR, {
-						i(237605),	-- Living Weapon's Cape
+						i(237605),	-- Living Weapon's Cape (Contained inside an Ensemble sold by Ba'choso)
 						i(237606),	-- Living Weapon's Manacles
 						i(237607),	-- Living Weapon's Chain
 						i(237608),	-- Living Weapon's Ramparts
@@ -727,13 +725,11 @@ root(ROOTS.Unsorted, {
 				--]]
 			}),
 			filter(MISC, {
-				i(232323),	-- Watering Jug
 				i(234389),	-- Shadowguard Translocator (Weird reuse??! /Braghe)
 				i(236632),	-- Pouch of Voidbane Gems
 				i(238801),	-- Mite-Kissed Silver Tooth
 				i(238808),	-- Celeste-Touched Fin
 				i(238810),	-- Mana-Blessed Fin
-				i(238834),	-- Burnished Void Claw
 				i(238849),	-- Ominous Unblinking Eye
 				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
@@ -743,7 +739,6 @@ root(ROOTS.Unsorted, {
 				i(238870),	-- Pearly Incisor
 				i(238879),	-- Cracked Void Carapace
 				i(238881),	-- Barbed Predator Tusk
-				i(238882),	-- Cursed Eyeball Cluster
 				i(238885),	-- Unstable Power Source
 				i(238888),	-- Essence of Ephemeral Knowledge
 				i(238889),	-- Eldritch Signal Antenna
@@ -1426,7 +1421,6 @@ root(ROOTS.Unsorted, {
 				i(232574),	-- Missing Shipment
 				i(232578),	-- Wastelander Artifact
 				i(232601),	-- Entropic Egg
-				i(232609),	-- Overflowing Anima Core
 				i(232612),	-- Laacunite Shard
 				i(232625),	-- Wastelander Artifact
 				i(232626),	-- Wastelander Artifact
@@ -1518,10 +1512,8 @@ root(ROOTS.Unsorted, {
 				i(232627),	-- Wastelander Artifact
 				i(232628),	-- Wastelander Artifact
 				i(232630),	-- Xy Imports Ledger
-				i(232644),	-- Broker Disguise Pin
 				i(232992),	-- Large Bug Bits
 				i(233005),	-- Om'taha's Toolkit[DNT]
-				i(233009),	-- Firebud Pollen
 				i(233012),	-- Flamethrower
 				i(233195),	-- Pheromone Disperser
 				i(233287),	-- Barrel of Swirling Energy
@@ -1573,8 +1565,6 @@ root(ROOTS.Unsorted, {
 				i(237019),	-- Corrupted Sap
 				i(237022),	-- Discarded Items
 				i(237030),	-- Condenser Disc
-				i(237038),	-- Shahata's Supplies
-				i(237127),	-- Damaged Echo Surveyor
 				i(237136),	-- Wastes Scanner
 				i(237266),	-- Stolen Veilshard
 				i(237352),	-- A Dozen Veilshards
