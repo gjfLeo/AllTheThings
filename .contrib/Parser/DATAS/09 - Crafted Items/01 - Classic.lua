@@ -2961,9 +2961,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #if AFTER CATA
 					["coord"] = { 33.5,52.7, BADLANDS },	-- Scar of the Worldbreaker
 					-- #else
-					["maps"] = {
-						{ ALTERAC_MOUNTAINS },
-					},
+					["maps"] = { ALTERAC_MOUNTAINS },
 					-- #endif
 					["provider"] = { "o", 2044 },	-- Dragon's Teeth [CATA+] / Wintersbite
 				}),
@@ -3756,9 +3754,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- #if AFTER CATA
 					["coord"] = { 33.5,52.7, BADLANDS },	-- Scar of the Worldbreaker
 					-- #else
-					["maps"] = {
-						{ ALTERAC_MOUNTAINS },
-					},
+					["maps"] = { ALTERAC_MOUNTAINS },
 					-- #endif
 				}),
 				o(176584, {	-- Dreamfoil
@@ -3812,9 +3808,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ 66.7, 52.5, NORTHERN_BARRENS },
 					},
 					-- #else
-					["maps"] = {
-						{ THE_BARRENS },
-					},
+					["maps"] = { THE_BARRENS },
 					-- #endif
 				}),
 				-- #endif
