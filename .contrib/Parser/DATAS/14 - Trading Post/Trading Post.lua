@@ -3331,6 +3331,119 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
+		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.99999", "removed 11.1.7.99999" } }, {	-- TODO: Timeline out correctly
+			n(FILLED_TRAVELERS_LOG, {
+				i(243594),	-- Forsaken's Grotesque Charger
+			}),
+			filter(MOUNTS, {
+				i(245936, {	-- Unarmored Deathtusk Felboar
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(243596, {	-- Wailing Banshee's Charger
+					["cost"] = {{"c", TRADERS_TENDER, 575}},
+				}),
+			}),
+			filter(BATTLE_PETS, {
+				i(206174, {	-- Blub (PET!)
+					["cost"] = {{"c", TRADERS_TENDER, 500}},
+				}),
+			}),
+			filter(TOYS, {
+			}),
+			filter(COSMETIC, {
+				i(245745, {	-- Classic Plum Tabard
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(213155, {	-- Dark Ranger General's Quiver
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(223166, {	-- Deepsea Treasure Pack
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(212618, {	-- Dueler's Plum Shoulder Cape
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				iensemble(223244, {	-- Ensemble: Deepest Depths Diver Suit
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				iensemble(244225, {	-- Ensemble: Forsaken's Grotesque Collection
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				iensemble(242466, {	-- Ensemble: Lively Sweatsuit
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				iensemble(242474, {	-- Ensemble: Plum Sweatsuit
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				iensemble(206323, {	-- Ensemble: Vagabond's Plum Threads
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				iensemble(244226, {	-- Ensemble: Wailing Banshee's Collection
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				iensemble(206334, {	-- Ensemble: Wanderer's Plum Trappings
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242628, {	-- Forsaken's Grotesque Blade
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242522, {	-- Forsaken's Grotesque Cauldron
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242632, {	-- Forsaken's Grotesque Great Blade
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242377, {	-- Forsaken's Grotesque Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242349, {	-- Forsaken's Grotesque Mace
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242382, {	-- Forsaken's Grotesque Quiver
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242387, {	-- Forsaken's Grotesque Wand
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242353, {	-- Forsaken's Grotesque Warglaives
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(210859, {	-- Trader's Plum Sarong
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(223165, {	-- Vengeful Crusader's Helm
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242629, {	-- Wailing Banshee's Blade
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242523, {	-- Wailing Banshee's Cauldron
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(243596, {	-- Wailing Banshee's Charger
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242633, {	-- Wailing Banshee's Great Blade
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242378, {	-- Wailing Banshee's Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242350, {	-- Wailing Banshee's Mace
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242383, {	-- Wailing Banshee's Quiver
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242388, {	-- Wailing Banshee's Wand
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(242354, {	-- Wailing Banshee's Warglaives
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+
+			}),
+		})),
 	}),
 }));
 
