@@ -1756,31 +1756,22 @@ root(ROOTS.Unsorted, {
 
 				-- Cosmetic Trading Post?? or Greedy Emissary?
 				i(244180),	-- Banshee's Chilling Veil
-				i(244182),	-- Banshee's Putrid Veil
 				i(244183),	-- Banshee's Sickly Veil
 				i(244184),	-- Chilling Epaulets of the Banshee
-				i(244186),	-- Putrid Epaulets of the Banshee
 				i(244187),	-- Sickly Epaulets of the Banshee
 				i(244188),	-- Chilling Leggings of the Banshee
-				i(244190),	-- Putrid Leggings of the Banshee
 				i(244191),	-- Sickly Leggings of the Banshee
 				i(244198),	-- Banshee's Chilling Grip
-				i(244200),	-- Banshee's Putrid Grip
 				i(244201),	-- Banshee's Sickly Grip
 				i(244202),	-- Banshee's Chilling Vestment
-				i(244204),	-- Banshee's Putrid Vestment
 				i(244205),	-- Banshee's Sickly Vestment
 				i(244206),	-- Banshee's Chilling Chestplate
-				i(244208),	-- Banshee's Putrid Chestplate
 				i(244209),	-- Banshee's Sickly Chestplate
 				i(244210),	-- Chilling Shroud of the Banshee
-				i(244212),	-- Putrid Shroud of the Banshee
 				i(244213),	-- Sickly Shroud of the Banshee
 				i(244215),	-- Chilling Banshee Boots
-				i(244217),	-- Putrid Banshee Boots
 				i(244218),	-- Sickly Banshee Boots
 				i(244219),	-- Chilling Banshee Cinch
-				i(244221),	-- Putrid Banshee Cinch
 				i(244222),	-- Sickly Banshee Cinch
 				i(244223),	-- Ensemble: Banshee's Chilling Collection
 				i(244227),	-- Ensemble: Banshee's Sickly Collection
@@ -1979,7 +1970,6 @@ root(ROOTS.Unsorted, {
 			i(237511),	-- Vial of Healing
 			i(243245),	-- Gears Grabbed
 			i(243249),	-- Khaz Algar Adventurer Pack \\ Khaz Algar Gift Pack
-			i(241616),	-- The Underpin
 			i(241633),	-- Tiny Decorative Rocket
 			i(241635),	-- Patchy Spider-Silk Square
 			i(241636),	-- Storm Glass and Feather Necklace
@@ -4432,7 +4422,6 @@ root(ROOTS.Unsorted, {
 			i(169987),	-- Inert Dragonscale
 			i(169988),	-- Inert Mineral Dust
 			i(169992),	-- Cracked Iris Lens
-			i(169999),	-- Crumbling Barrier
 			i(170000),	-- Battered Bastion
 			i(170001),	-- Seized Engine
 			i(170002),	-- Split Differential
@@ -4451,7 +4440,6 @@ root(ROOTS.Unsorted, {
 			i(170026),	-- Seed Husks
 			i(170027),	-- Withering Seed
 			i(170028),	-- Fading Seed Bud
-			i(170031),	-- Moldy Tome
 			i(170032),	-- Crumbling Vellum
 			i(170033),	-- Decharged Battery
 			i(170034),	-- Overloaded Capacitor
