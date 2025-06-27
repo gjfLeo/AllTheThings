@@ -3331,7 +3331,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.99999", "removed 11.1.7.99999" } }, {	-- TODO: Timeline out correctly
+		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61491", "removed 11.1.7.99999" } }, {	-- TODO: Timeline in/out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				i(242522, {	-- Forsaken's Grotesque Cauldron
 					["description"] = "Rewarded when reaching 600 points in the Travelers Log."
@@ -3339,15 +3339,15 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				iensemble(244225, {	-- Ensemble: Forsaken's Grotesque Collection
 					["description"] = "Rewarded when reaching 1000 points in the Travelers Log."
 				}),
-				i(243594, {	-- Forsaken's Grotesque Charger
+				i(243594, {	-- Forsaken's Grotesque Charger (MOUNT!)
 					["description"] = "Rewarded when reaching 1400 points in the Travelers Log."
 				}),
 			}),
 			filter(MOUNTS, {
-				i(245936, {	-- Unarmored Deathtusk Felboar
+				i(245936, {	-- Unarmored Deathtusk Felboar (MOUNT!)
 					["cost"] = {{"c", TRADERS_TENDER, 325}},
 				}),
-				i(243596, {	-- Wailing Banshee's Charger
+				i(243596, {	-- Wailing Banshee's Charger (MOUNT!)
 					["cost"] = {{"c", TRADERS_TENDER, 575}},
 				}),
 			}),
@@ -3355,8 +3355,6 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(206174, {	-- Blub (PET!)
 					["cost"] = {{"c", TRADERS_TENDER, 500}},
 				}),
-			}),
-			filter(TOYS, {
 			}),
 			filter(COSMETIC, {
 				i(245745, {	-- Classic Plum Tabard
@@ -3655,11 +3653,6 @@ root(ROOTS.NeverImplemented, {
 					i(206285),	-- Vagabond's Grassy Cape
 					i(206296),	-- Vagabond's Grassy Hood
 
-					------ Vagabond's Plum Threads ------
-					i(206323),	-- Ensemble: Vagabond's Plum Threads
-					i(206279),	-- Vagabond's Plum Cape
-					i(206290),	-- Vagabond's Plum Hood
-
 					------ Wanderer's Deep Trappings ------
 					i(206316),	-- Wanderer's Deep Cloak
 					i(206305),	-- Wanderer's Deep Scarf
@@ -3669,10 +3662,6 @@ root(ROOTS.NeverImplemented, {
 					i(206318),	-- Wanderer's Grassy Cloak
 					i(206307),	-- Wanderer's Grassy Scarf
 
-					------ Wanderer's Plum Trappings ------
-					i(206334),	-- Ensemble: Wanderer's Plum Trappings
-					i(206312),	-- Wanderer's Plum Cloak
-					i(206301),	-- Wanderer's Plum Scarf
 				}),
 				n(WEAPONS, {
 					i(190561),	-- Crystalblade of Shifting Magic
@@ -3684,7 +3673,6 @@ root(ROOTS.NeverImplemented, {
 				n(ARMOR, {
 					i(210856),	-- Trader's Faded Sarong
 					i(210851),	-- Trader's Grassy Sarong
-					i(210859),	-- Trader's Plum Sarong
 				}),
 				n(WEAPONS, {
 					i(190875),	-- Chilled Touch of the Condemned
@@ -3700,7 +3688,6 @@ root(ROOTS.NeverImplemented, {
 					i(190847),	-- Deathmantle Assassin's Barb
 					i(190090),	-- Dessicated Bouquet
 					i(212625),	-- Dueler's Grassy Shoulder Cape
-					i(212618),	-- Dueler's Plum Shoulder Cape
 					i(190893),	-- Jeweled Valkyrion Cape
 					i(190688),	-- Silvered Helm of Righteousness
 					i(212705),	-- Spring Reveler's Cornsilk Attire

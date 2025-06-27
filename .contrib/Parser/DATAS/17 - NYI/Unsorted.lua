@@ -1636,12 +1636,8 @@ root(ROOTS.Unsorted, {
 				i(242346),	-- Ensemble: Rainy Day Attire
 				i(242347),	-- Ensemble: Waterproof Attire
 				i(242348),	-- Chilling Forsaken Mace
-				i(242349),	-- Grotesque Forsaken Mace
-				i(242350),	-- Putrid Forsaken Mace
 				i(242351),	-- Sickly Forsaken Mace
 				i(242352),	-- Chilling Forsaken Warglaives
-				i(242353),	-- Grotesque Forsaken Warglaives
-				i(242354),	-- Putrid Forsaken Warglaives
 				i(242355),	-- Sickly Forsaken Warglaives
 				i(242357),	-- Grandmaster's Fire Grip Stave
 				i(242358),	-- Grandmaster's Blue Stave
@@ -1652,16 +1648,10 @@ root(ROOTS.Unsorted, {
 				i(242374),	-- Grandmaster's Royal Bulwark
 				i(242375),	-- Grandmaster's White Bulwark
 				i(242376),	-- Chilling Forsaken Longbow
-				i(242377),	-- Grotesque Forsaken Longbow
-				i(242378),	-- Putrid Forsaken Longbow
 				i(242379),	-- Sickly Forsaken Longbow
 				i(242381),	-- Chilling Forsaken Quiver
-				i(242382),	-- Grotesque Forsaken Quiver
-				i(242383),	-- Putrid Forsaken Quiver
 				i(242384),	-- Sickly Forsaken Quiver
 				i(242385),	-- Chilling Forsaken Wand
-				i(242387),	-- Grotesque Forsaken Wand
-				i(242388),	-- Putrid Forsaken Wand
 				i(242389),	-- Sickly Forsaken Wand
 				i(242407),	-- Midnight Sweatpants
 				i(242408),	-- Azure Sweatshirt
@@ -1671,11 +1661,9 @@ root(ROOTS.Unsorted, {
 				i(242412),	-- Deep Sweatshirt
 				i(242413),	-- Camo Sweatshirt
 				i(242414),	-- Brick Sweatshirt
-				i(242415),	-- Lively Sweatshirt
 				i(242416),	-- Faded Sweatshirt
 				i(242417),	-- Carrot Sweatshirt
 				i(242418),	-- Rosy Sweatshirt
-				i(242419),	-- Plum Sweatshirt
 				i(242420),	-- Crimson Sweatshirt
 				i(242421),	-- Violet Sweatshirt
 				i(242422),	-- Aquatic Sweatshirt
@@ -1688,11 +1676,9 @@ root(ROOTS.Unsorted, {
 				i(242441),	-- Deep Sweatpants
 				i(242442),	-- Camo Sweatpants
 				i(242443),	-- Brick Sweatpants
-				i(242444),	-- Lively Sweatpants
 				i(242445),	-- Faded Sweatpants
 				i(242446),	-- Carrot Sweatpants
 				i(242447),	-- Rosy Sweatpants
-				i(242448),	-- Plum Sweatpants
 				i(242449),	-- Crimson Sweatpants
 				i(242450),	-- Violet Sweatpants
 				i(242451),	-- Aquatic Sweatpants
@@ -1707,19 +1693,15 @@ root(ROOTS.Unsorted, {
 				i(242460),	-- Ensemble: Deep Sweatsuit
 				i(242461),	-- Ensemble: Camo Sweatsuit
 				i(242462),	-- Ensemble: Brick Sweatsuit
-				i(242466),	-- Ensemble: Lively Sweatsuit
 				i(242467),	-- Ensemble: Faded Sweatsuit
 				i(242469),	-- Ensemble: Carrot Sweatsuit
 				i(242471),	-- Ensemble: Rosy Sweatsuit
-				i(242474),	-- Ensemble: Plum Sweatsuit
 				i(242478),	-- Ensemble: Crimson Sweatsuit
 				i(242480),	-- Ensemble: Violet Sweatsuit
 				i(242485),	-- Ensemble: Aquatic Sweatsuit
 				i(242489),	-- Ensemble: Snowy Sweatsuit
 				i(242492),	-- Ensemble: Sunny Sweatsuit
 				i(242521),	-- Chiling Forsaken Cauldron
-				i(242522),	-- Grotesque Forsaken Cauldron
-				i(242523),	-- Putrid Forsaken Cauldron
 				i(242524),	-- Sickening Forsaken Cauldron
 				i(242525),	-- Grandmaster's Fire Grip Axe
 				i(242526),	-- Grandmaster's Blue Axe
@@ -1730,12 +1712,8 @@ root(ROOTS.Unsorted, {
 				i(242541),	-- Grandmaster's Royal Mace
 				i(242542),	-- Grandmaster's White Mace
 				i(242627),	-- Chilling Forsaken Blade
-				i(242628),	-- Grotesque Forsaken Blade
-				i(242629),	-- Putrid Forsaken Blade
 				i(242630),	-- Sickly Forsaken Blade
 				i(242631),	-- Chilling Forsaken Great Blade
-				i(242632),	-- Grotesque Forsaken Great Blade
-				i(242633),	-- Putrid Forsaken Great Blade
 				i(242634),	-- Sickly Forsaken Great Blade
 
 				-- Feels like Dastarly Dou??? Cosmetics or Trading Post
@@ -1778,44 +1756,33 @@ root(ROOTS.Unsorted, {
 
 				-- Cosmetic Trading Post?? or Greedy Emissary?
 				i(244180),	-- Banshee's Chilling Veil
-				i(244181),	-- Banshee's Grotesque Veil
 				i(244182),	-- Banshee's Putrid Veil
 				i(244183),	-- Banshee's Sickly Veil
 				i(244184),	-- Chilling Epaulets of the Banshee
-				i(244185),	-- Grotesque Epaulets of the Banshee
 				i(244186),	-- Putrid Epaulets of the Banshee
 				i(244187),	-- Sickly Epaulets of the Banshee
 				i(244188),	-- Chilling Leggings of the Banshee
-				i(244189),	-- Grotesque Leggings of the Banshee
 				i(244190),	-- Putrid Leggings of the Banshee
 				i(244191),	-- Sickly Leggings of the Banshee
 				i(244198),	-- Banshee's Chilling Grip
-				i(244199),	-- Banshee's Grotesque Grip
 				i(244200),	-- Banshee's Putrid Grip
 				i(244201),	-- Banshee's Sickly Grip
 				i(244202),	-- Banshee's Chilling Vestment
-				i(244203),	-- Banshee's Grotesque Vestment
 				i(244204),	-- Banshee's Putrid Vestment
 				i(244205),	-- Banshee's Sickly Vestment
 				i(244206),	-- Banshee's Chilling Chestplate
-				i(244207),	-- Banshee's Grotesque Chestplate
 				i(244208),	-- Banshee's Putrid Chestplate
 				i(244209),	-- Banshee's Sickly Chestplate
 				i(244210),	-- Chilling Shroud of the Banshee
-				i(244211),	-- Grotesque Shroud of the Banshee
 				i(244212),	-- Putrid Shroud of the Banshee
 				i(244213),	-- Sickly Shroud of the Banshee
 				i(244215),	-- Chilling Banshee Boots
-				i(244216),	-- Grotesque Banshee Boots
 				i(244217),	-- Putrid Banshee Boots
 				i(244218),	-- Sickly Banshee Boots
 				i(244219),	-- Chilling Banshee Cinch
-				i(244220),	-- Grotesque Banshee Cinch
 				i(244221),	-- Putrid Banshee Cinch
 				i(244222),	-- Sickly Banshee Cinch
 				i(244223),	-- Ensemble: Banshee's Chilling Collection
-				i(244225),	-- Ensemble: Banshee's Grotesque Collection
-				i(244226),	-- Ensemble: Banshee's Putrid Collection
 				i(244227),	-- Ensemble: Banshee's Sickly Collection
 				i(244540),	-- Charred Flamewake Sprout
 				i(244541),	-- Zin-Azshari Court Scepter
@@ -1865,7 +1832,6 @@ root(ROOTS.Unsorted, {
 				i(244834),	-- Hippogryph Lancer's Magespear
 				i(244836),	-- Cane of the Runic Wanderer
 				i(244837),	-- Rookforged Dragonblade
-				i(245745),	-- Classic Plum Tabard
 			}),
 			n(CLASSES, {
 				-- T2 Greedy Emissary Alternative Chest/Offset Pieces?
@@ -1881,9 +1847,6 @@ root(ROOTS.Unsorted, {
 				i(243592),	-- Grandmaster's Smokey Board
 				i(243593),	-- Banshee's Chilling Charger
 				i(243597),	-- Banshee's Sickening Charger
-				i(243594),	-- Forsaken' Grotesque Charger
-				i(245936),	-- Unarmored Deathtusk Felboar
-				i(243596),	-- Wailing Banshee's Charger
 			}),
 
 			i(246015),	-- Classic Midnight Eye Patch
