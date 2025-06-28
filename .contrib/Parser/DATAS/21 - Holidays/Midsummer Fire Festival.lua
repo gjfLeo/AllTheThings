@@ -2685,7 +2685,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				}),
 				honortheflame(13486, {	-- Honor the Flame — Sholazar Basin
 					["qg"] = 32802,	-- Sholazar Basin Flame Warden
-					["coord"] = { 47.0, 66.0, SHOLAZAR_BASIN },
+					["coord"] = { 48.1, 66.4, SHOLAZAR_BASIN },
 					["timeline"] = { ADDED_3_0_2 },
 				}),
 				honortheflame(11831, {	-- Honor the Flame — Silithus
