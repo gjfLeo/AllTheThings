@@ -1190,7 +1190,14 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						}),
 						i(30491, {	-- General's Plate Sabatons / General's Plate Greaves Tier 2 [TBC]
 							["cost"] = { { "i", 137642, 2 } },	-- 2x Mark of Honor
-							["timeline"] = { ADDED_4_0_1, REMOVED_5_0_4, ADDED_6_0_2 },
+							["timeline"] = {
+								-- Wouter NOTE: These aren't in Cata Classic, marking these as CREATED with the Classic patch according to Wowhead - gotta revisit this in WoD Classic :^)
+								-- #if ANYCLASSIC
+								CREATED_2_5_1, ADDED_6_0_2
+								-- #else
+								ADDED_4_0_1, REMOVED_5_0_4, ADDED_6_0_2
+								-- #endif
+							},
 							["races"] = HORDE_ONLY,
 						}),
 						i(32993, {	-- General's Ringmail Sabatons
