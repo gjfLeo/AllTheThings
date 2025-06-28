@@ -1891,7 +1891,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(COSMETIC, {
 				i(235986),	-- Evil King's Half Shell
-				i(235987),	-- Adorned Half Shell
 				i(236403),	-- Deathwarder's Grove Stave
 				i(236404),	-- Deathwarder's Twilight Stave
 				i(236628),	-- Deathwarder's Grove Blade
