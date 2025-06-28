@@ -648,6 +648,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				header(HEADERS.AchCriteria, 41808.01, {	-- The Bees Knees
 					q(85075, {	-- To Stormsong
+						["sourceQuests"] = { 87340 },	-- Junk Mail
 						["provider"] = { "n", 231820 },	-- Ve'nari
 						["coord"] = { 75.9, 34.2, KARESH },
 						["g"] = { i(230030), },	-- Cartel Ve Communicator (PQI!)
@@ -947,11 +948,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			header(HEADERS.Achievement, 42739, {	-- Sojourner of K'aresh
 				header(HEADERS.AchCriteria, 42739.01, {	-- Of Boughs and Bonds
 					q(84740, {	-- Bridge to Nowhere
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 230159 },	-- Om'fennad
 						["coord"] = { 54.4, 63.7, KARESH },
 						["g"] = { i(229423), },	-- Echo Surveyor (PQI!)
 					}),
 					q(84915, {	-- Clearing the Dunes
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 230159 },	-- Om'fennad
 						["coord"] = { 54.4, 63.7, KARESH },
 					}),
@@ -1071,6 +1074,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				header(HEADERS.AchCriteria, 42739.03, {	-- In Search of Darkness
 					q(90972, {	-- A Common Cause
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 248153 },	-- Magister Umbric
 						["coord"] = { 60.9, 27.7, KARESH },
 					}),
@@ -1123,11 +1127,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				header(HEADERS.AchCriteria, 42739.05, {	-- Chasing Echoes
 					q(85006, {	-- Those We Have Lost
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 231314 },	-- Om'dalan
 						["coord"] = { 51.9, 64.8, KARESH },
 						["g"] = { i(229969), },	-- Flickering Essence (QI!)
 					}),
 					q(85007, {	-- Extended Reach
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 231314 },	-- Om'dalan
 						["coord"] = { 51.9, 64.8, KARESH },
 						["g"] = {
@@ -1172,6 +1178,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				header(HEADERS.AchCriteria, 42739.06, {	-- Avoiding the Void
 					q(84972, {	-- Chipping the Void
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 231162 },	-- Driruj
 						["coord"] = { 76.7, 34.3, KARESH },
 						["g"] = {
@@ -1274,6 +1281,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				header(HEADERS.AchCriteria, 42739.10, {	-- Anyway, Here's Firewall
 					q(86196, {	-- Give me Fuel
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 234216 },	-- Assistant Engineer Om'vek
 						["coord"] = { 49.9, 57.5, KARESH },
 						["g"] = {
@@ -1301,6 +1309,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				header(HEADERS.AchCriteria, 42739.11, {	-- A Stranger's Gift
 					q(85238, {	-- Stranger on the Steps
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 						["provider"] = { "n", 233500 },	-- Om'taha
 						["coord"] = { 57.0, 57.3, KARESH },
 					}),
@@ -1347,7 +1356,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(84992),	-- Slatebacks
 			}),
 			header(HEADERS.Achievement, 41980, {	-- Vigiliante
+				-- WORK IN PROGRESS!!! PTR went down mid-questing
 				q(87344, {	-- A Key Threat
+					["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 					["provider"] = { "n", 238255 },	-- Constable Zo'ardaz
 					["coord"] = { 48.6, 57.8, KARESH_TAZAVESH },
 				}),
