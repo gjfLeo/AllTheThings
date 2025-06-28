@@ -48,30 +48,7 @@ local IgnoredReputationsForAchievements = {
 	[169] = 1,	-- Steamweedle Cartel doesn't count toward reputation achievements
 };
 local function GetQuestCompleted(questID)
-	if IsQuestFlaggedCompleted(questID) then
-		return 1;
-	else
-		local quests = SearchForField("questID", questID);
-		if quests then
-			for i,quest in ipairs(quests) do
-				if quest.providers then
-					for i,provider in ipairs(quest.providers) do
-						if provider[1] == "i" and GetItemCount(provider[2], true) > 0 then
-							return 1;
-						end
-					end
-				end
-				if quest.g then
-					for i,o in ipairs(quest.g) do
-						if o.itemID and GetItemCount(o.itemID, true) > 0 then
-							return 1;
-						end
-					end
-				end
-			end
-		end
-	end
-	return 0;
+	return IsQuestFlaggedCompleted(questID) and 1 or 0;
 end
 local function GetSpellCompleted(spellID)
 	if IsSpellKnown(spellID) then
