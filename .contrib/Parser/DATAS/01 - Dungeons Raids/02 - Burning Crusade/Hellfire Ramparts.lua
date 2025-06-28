@@ -149,14 +149,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				e(528, {	-- Omor the Unscarred
 					["creatureID"] = 17308,
 					["groups"] = {
-						ach(647, {	-- Hellfire Ramparts
-							-- #if BEFORE WRATH
-							["sourceQuests"] = {
-								9575,	-- Weaken the Ramparts
-								9572,	-- Weaken the Ramparts
-							},
-							-- #endif
-						}),
+						ach(647),	-- Hellfire Ramparts
 						i(24069),	-- Crystalfire Staff
 						i(24094),	-- Heart Fire Warhammer
 						-- #if AFTER 7.3.5

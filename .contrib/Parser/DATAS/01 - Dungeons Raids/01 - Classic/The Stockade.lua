@@ -272,7 +272,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					-- #if BEFORE 4.0.1
 					ach(633, {	-- Stormwind Stockade
 						-- #if BEFORE WRATH
-						["sourceQuest"] = 391,	-- The Stockade Riots
 						["races"] = ALLIANCE_ONLY,
 						-- #endif
 					}),

@@ -163,11 +163,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				e(565, {	-- Pathaleon the Calculator
 					["creatureID"] = 19220,
 					["groups"] = {
-						ach(658, {	-- The Mechanar
-							-- #if BEFORE WRATH
-							["sourceQuest"] = 10704,	-- How to Break Into the Arcatraz
-							-- #endif
-						}),
+						ach(658),	-- The Mechanar
 						i(28288),	-- Abacus of Violent Odds
 						i(28269),	-- Baba's Cloak of Arcanistry
 						-- #if BEFORE 7.3.5
