@@ -4542,7 +4542,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					{ "i", 3358 },	-- Khadgar's Whisker
 				},
 			}),
-			i(43106, {	-- Roby Pigment
+			i(43106, {	-- Ruby Pigment
 				["providers"] = {
 					{ "i", 8836 },	-- Arthas' Tears
 					{ "i", 8839 },	-- Blindweed
