@@ -412,6 +412,7 @@ i(158872);	-- Unstable Essence
 i(163851);	-- Venerated Golden Censer
 i(158796);	-- Venomous Tentacle
 i(155636);	-- Viscous Ink
+i(158864);	-- Viscous Webbing
 i(158789);	-- Webbed Frill
 i(158834);	-- Winch Coil
 i(162672);	-- Witch Doctor's Juju Beads

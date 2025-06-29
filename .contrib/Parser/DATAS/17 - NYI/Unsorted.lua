@@ -1770,7 +1770,6 @@ root(ROOTS.Unsorted, {
 				i(244549),	-- Light's Dawn Cryptblade
 				i(244550),	-- Sunwalker's Ashen Warmaul
 				i(244551),	-- Time-Lost Worldbreaker
-				i(244552),	-- Prized Gladiator's Torchblade [Pvp?!?]
 				i(244646),	-- Seared Root of Regrowth
 				i(244647),	-- Crook of the White Flame
 				i(244648),	-- Scipture of the Scarlet High Priest
@@ -3400,7 +3399,6 @@ root(ROOTS.Unsorted, {
 				i(158853),	-- Bony Skullplate \\ PH Flavor - Naga Brute
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
 				i(158857),	-- Untainted Wicker \\ PH Flavor - Porcupine
-				i(158864),	-- Viscous Webbing \\ PH Flavor - Trogg
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
 				i(158869),	-- Stone Tusk \\ PH Flavor - Venture Co
 				i(158871),	-- Autographed Painting of Anduin \\ PH Flavor - Unused \\ PH Flavor - Troll Skeleton
