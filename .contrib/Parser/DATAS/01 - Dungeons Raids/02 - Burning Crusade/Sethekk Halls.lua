@@ -304,9 +304,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					e(543, {	-- Talon King Ikiss
 						["creatureID"] = 18473,
 						["groups"] = {
-							ach(674, {	-- Heroic: Sethekk Halls
-								["timeline"] = { ADDED_3_0_2 },
-							}),
+							ach(674),	-- Heroic: Sethekk Halls
 							ach(5074, {	-- Heroic: Sethekk Halls Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),

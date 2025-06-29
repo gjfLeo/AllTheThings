@@ -330,9 +330,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 					e(533, {	-- Kael'thas Sunstrider
 						["creatureID"] = 24664,
 						["groups"] = {
-							ach(682, {	-- Heroic: Magister's Terrace
-								["timeline"] = { ADDED_3_0_2 },
-							}),
+							ach(682),	-- Heroic: Magister's Terrace
 							ach(5082, {	-- Heroic: Magister's Terrace Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),

@@ -258,9 +258,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					e(565, {	-- Pathaleon the Calculator
 						["creatureID"] = 19220,
 						["groups"] = {
-							ach(679, {	-- Heroic: The Mechanar
-								["timeline"] = { ADDED_3_0_2 },
-							}),
+							ach(679),	-- Heroic: The Mechanar
 							ach(5079, {	-- Heroic: The Mechanar Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),

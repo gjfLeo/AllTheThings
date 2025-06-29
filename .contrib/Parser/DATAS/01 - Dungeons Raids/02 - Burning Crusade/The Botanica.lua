@@ -266,9 +266,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					e(562, {	-- Warp Splinter
 						["creatureID"] = 17977,
 						["groups"] = {
-							ach(680, {	-- Heroic: The Botanica
-								["timeline"] = { ADDED_3_0_2 },
-							}),
+							ach(680),	-- Heroic: The Botanica
 							ach(5080, {	-- Heroic: The Botanica Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),

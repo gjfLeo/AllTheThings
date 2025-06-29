@@ -225,9 +225,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					e(554, {	-- Aeonus
 						["creatureID"] = 17881,
 						["groups"] = {
-							ach(676, {	-- Heroic: Opening of the Dark Portal
-								["timeline"] = { ADDED_3_0_2 },
-							}),
+							ach(676),	-- Heroic: Opening of the Dark Portal
 							ach(5076, {	-- Heroic: Opening of the Dark Portal Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),

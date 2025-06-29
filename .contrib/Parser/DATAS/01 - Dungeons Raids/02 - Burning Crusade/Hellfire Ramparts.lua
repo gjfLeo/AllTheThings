@@ -246,14 +246,14 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				-- #endif
 				["lvl"] = lvlsquish(70, 70, 30),
 				["groups"] = {
-					ach(667, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- Heroic: Hellfire Ramparts
+					ach(667, {	-- Heroic: Hellfire Ramparts
 						crit(3705, {	-- Omor the Unscarred
 							["_encounter"] = { 528, DIFFICULTY.DUNGEON.HEROIC },
 						}),
 						crit(3816, {	-- Vazruden
 							["_encounter"] = { 529, DIFFICULTY.DUNGEON.HEROIC },
 						}),
-					})),
+					}),
 					ach(5067, {	-- Heroic: Hellfire Ramparts Guild Run
 						["timeline"] = { ADDED_4_0_3 },
 					}),

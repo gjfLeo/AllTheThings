@@ -344,9 +344,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					e(579, {	-- The Black Stalker
 						["creatureID"] = 17882,
 						["groups"] = {
-							ach(670, {	-- Heroic: Underbog
-								["timeline"] = { ADDED_3_0_2 },
-							}),
+							ach(670),	-- Heroic: Underbog
 							ach(5070, {	-- Heroic: Underbog Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),

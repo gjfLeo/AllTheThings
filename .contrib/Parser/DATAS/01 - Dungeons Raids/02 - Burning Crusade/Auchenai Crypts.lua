@@ -234,9 +234,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					e(524, {	-- Exarch Maladaar
 						["creatureID"] = 18373,
 						["groups"] = {
-							ach(672, {	-- Heroic: Auchenai Crypts
-								["timeline"] = { ADDED_3_0_2 },
-							}),
+							ach(672),	-- Heroic: Auchenai Crypts
 							ach(5072, {	-- Heroic: Auchenai Crypts Guild Run
 								["timeline"] = { ADDED_4_0_3 },
 							}),
