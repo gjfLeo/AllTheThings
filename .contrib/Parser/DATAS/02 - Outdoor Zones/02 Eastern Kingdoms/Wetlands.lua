@@ -495,9 +495,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/8 Highland Raptors slain
 							["providers"] = {
-								{ "n", 41414},	-- Highland Raptor Kill Credit
-								{ "n", 41400},	-- Highland Razormaw
-								{ "n", 41401},	-- Highland Scytheclaw
+								{ "n", 41400 },	-- Highland Razormaw
+								{ "n", 41401 },	-- Highland Scytheclaw
 							},
 						}),
 						i(59095, {	-- Swiftgear Belt
