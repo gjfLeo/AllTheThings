@@ -741,8 +741,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/8 Incendicite Ore
 							["providers"] = {
-								{ "i", 55241 },	-- Incendicite Ore
+								{ "i",  55241 },	-- Incendicite Ore
 								{ "o", 203188 },	-- Incendicite Mineral Vein
+								{ "i",  55240 },	-- Spark-Proof Pick
 							},
 						}),
 						i(59066, {	-- Stabilized Incendicite Legguards
