@@ -297,9 +297,9 @@ i(153566);	-- "Shiny" Rock
 i(153567);	-- "Smooth" Rock
 i(158862);	-- Ancient Grave Dust
 i(162634);	-- Ancient Nazmani Coins
-i(158808);	-- Thick Tendon
 i(158811);	-- Ashen Coal
 i(162675);	-- Ashvane Ledger
+i(158871);	-- Autographed Painting of Anduin
 i(162681);	-- Bent Sickle
 i(158820);	-- Blind-Worm Sting
 i(162978);	-- Blood Magic Ritual Dish
@@ -409,6 +409,7 @@ i(161200);	-- Teardrop Pearl
 i(158861);	-- Tensile Eye Stalk
 i(158839);	-- Thick Crab Claw
 i(158775);	-- Thick Hivewax
+i(158808);	-- Thick Tendon
 i(158747);	-- Thorny Prickle
 i(158754);	-- Trueflight Fletching
 i(155844);	-- Unreliable Lodestone
@@ -2478,6 +2479,7 @@ i(237332);	-- Single-Use Grill
 i(234616);	-- Supreme Mangoro Madness
 i(237313);	-- Totally Legit Samophlange
 i(231899);	-- Trash
+i(236635);	-- Uncut Semi-Smoky Quartz
 i(229809);	-- Weighted Metal Ball
 
 ------------------

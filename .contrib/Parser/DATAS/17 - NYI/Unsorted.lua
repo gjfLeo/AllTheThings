@@ -2040,7 +2040,6 @@ root(ROOTS.Unsorted, {
 				i(232869),	-- Arsenal: Elite Prized Gladiator's Weapons
 			}),
 			i(235713),	-- Weird Sand
-			i(236635),	-- Uncut Semi-Smoky Quartz
 			i(236651),	-- Vince's Old Left Shoe
 			i(236921),	-- Triumphant Satchel of Carved Harbinger Crests
 		})),
@@ -3398,7 +3397,6 @@ root(ROOTS.Unsorted, {
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
 				i(158857),	-- Untainted Wicker \\ PH Flavor - Porcupine
 				i(158867),	-- Needlepoint Bill \\ PH Flavor - Ranishu
-				i(158871),	-- Autographed Painting of Anduin \\ PH Flavor - Unused \\ PH Flavor - Troll Skeleton
 				i(158873),	-- Crystalline Honeymead \\ PH Flavor - Dire Troll Female - Blood Troll
 				i(156624),	-- Blemished Pearl
 				i(158727),	-- Decayed Equipment
@@ -3565,9 +3563,6 @@ root(ROOTS.Unsorted, {
 				i(163837),	-- Forgotten Techniques of Zandalar
 				i(163838),	-- Forgotten Techniques of Kul Tiras
 				i(163839),	-- Forgotten Techniques of Zandalar
-				i(154705),	-- Battle Flag: Rallying Swiftness
-				i(154706),	-- Battle Flag: Phalanx Defense
-				i(154707),	-- Battle Flag: Spirit of Freedom
 			}),
 			filter(QUEST_ITEMS, {
 				i(144031),	-- Hardened Shovel
