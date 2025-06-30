@@ -3154,7 +3154,6 @@ root(ROOTS.Unsorted, {
 				i(162981),	-- A Steamy Romance Novel: Stormy Seas
 				i(162982),	-- A Steamy Romance Novel: Stormy Seas
 				i(163017),	-- Pitch-Soaked Torch
-				i(163028),	-- Masterwork Statue of the First Trolls
 				i(163029),	-- Misplaced Funereal Offering
 				i(163031),	-- Crate of Unstable Dynamite
 				i(163035),	-- Orders From Sylvanas
@@ -3374,7 +3373,6 @@ root(ROOTS.Unsorted, {
 				i(158817),	-- Razorpetal \\ PH Flavor - Snake - Reptile
 				i(158818),	-- Canine Tongue \\ PH Flavor - House Stormsong
 				i(158819),	-- Rat Tail \\ PH Flavor - Spider - Insect
-				i(158820),	-- Blind-Worm Sting \\ PH Flavor - Naga Male
 				i(158822),	-- Lustrous Black Feather \\ PH Flavor - Wind Serpent
 				i(158824),	-- PH Flavor - Unused \\ PH Flavor - Firefly - Insect
 				i(158825),	-- PH Flavor - Unused \\ PH Flavor - K'thir
@@ -3405,12 +3403,10 @@ root(ROOTS.Unsorted, {
 				i(156624),	-- Blemished Pearl
 				i(158727),	-- Decayed Equipment
 				i(161198),	-- Old Sailor's Almanac
-				i(161199),	-- Silver-Plated Tankard
 				i(161202),	-- Polished Brass Sextant
 				i(161203),	-- Shanty Sheet Music
 				i(161204),	-- Oily Glass Eyeball \\ Glass Eyeball
 				i(161205),	-- Wooden Horse Carving
-				i(161206),	-- Faded Treasure Map
 				i(161207),	-- Admiral's Black Rum \\ Admiral's Spiced Black Rum
 				i(161208),	-- Pirate's Snuff Box
 				i(161209),	-- Coven Dream Catcher
@@ -3449,7 +3445,6 @@ root(ROOTS.Unsorted, {
 				i(163915),	-- Discontinued Zandalari Coins
 				i(163916),	-- Dinosaur Training Treats
 				i(163917),	-- Tusk File
-				i(163918),	-- Fleshcarving Knife
 				i(163919),	-- String of Broken Tusks
 				i(163920),	-- Bracelet of Teeth
 				i(163921),	-- Tiny Wicker Effigy
