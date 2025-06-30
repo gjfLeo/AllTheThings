@@ -1953,7 +1953,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			n(TREASURES, {
-				o(207496, {	-- Dark Iron Treasure Chest
+				o(207498, {	-- Dark Iron Treasure Chest
 					["timeline"] = { ADDED_4_0_3 },
 					["modelScale"] = 1.5,
 					["coords"] = {
@@ -1988,15 +1988,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(13062),	-- Thunderwood
 						i(13114),	-- Troll's Bane Leggings
 					},
-				}),
-				o(207498, {	-- Dark Iron Treasure Chest
-					["coords"] = {	-- As opposed to 207496, this one spawns exclusively in Wetlands
-						{ 36.6, 61.2, LOCH_MODAN },
-						{ 61.9, 75.0, LOCH_MODAN },
-						{ 80.3, 51.9, LOCH_MODAN },
-					},
-					["timeline"] = { ADDED_4_0_3 },
-					["sym"] = {{ "select", "objectID", 207496 }, {"pop"}},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(209848, {	-- Goaz Scrolls

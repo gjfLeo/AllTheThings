@@ -1861,7 +1861,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			n(TREASURES, {
-				o(207496, {	-- Dark Iron Treasure Chest
+				o(207497, {	-- Dark Iron Treasure Chest
 					["coords"] = {
 						{ 36.6, 61.2, LOCH_MODAN },
 						{ 61.9, 75.0, LOCH_MODAN },
@@ -1890,15 +1890,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- Still available in some chests
 						i(4596),	-- Discolored Healing Potion
 					},
-				}),
-				o(207497, {	-- Dark Iron Treasure Chest
-					["coords"] = {	-- As opposed to 207496, this one spawns exclusively in Loch Modan
-						{ 36.6, 61.2, LOCH_MODAN },
-						{ 61.9, 75.0, LOCH_MODAN },
-						{ 80.3, 51.9, LOCH_MODAN },
-					},
-					["timeline"] = { ADDED_4_0_3 },
-					["sym"] = {{ "select", "objectID", 207496 }, {"pop"}},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, i(208689, {	-- Ferocious Idol
