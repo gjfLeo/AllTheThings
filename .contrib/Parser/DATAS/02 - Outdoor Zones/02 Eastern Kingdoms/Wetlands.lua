@@ -678,6 +678,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 26.9, 26.0, WETLANDS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- 0/6 Gnolls Freed
+							["providers"] = {
+								{ "n",  41410 },	-- Captured Mosshide
+								{ "o", 203282 },	-- Gnoll Cage
+							},
+							["cost"] = {{ "i", 56081, 6 }},	-- Trapper's Key
+							["cr"] = 41409,	-- Dark Iron Trapper
+						}),
+					},
 				}),
 				heroscall(q(28565, {	-- Hero's Call: Wetlands!
 					["timeline"] = { ADDED_4_0_3 },
