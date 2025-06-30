@@ -341,7 +341,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/12 Bluegill Murloc slain
 							["providers"] = {
-								{ "n", 42109},	-- Bluegill Murloc Kill Credit
 								{ "n", 41425},	-- Bluegill Murloc
 								{ "n", 41426},	-- Bluegill Oracle
 								{ "n", 42110},	-- Bluegill Puddlejumper
@@ -1167,7 +1166,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						objective(2, {	-- 0/16 Angerfang Dragonmaw slain
 							["providers"] = {
-								{ "n", 42151},	-- Angerfang Dragonmaw Kill Credit
 								{ "n", 1034},	-- Dragonmaw Raider
 								{ "n", 1035},	-- Dragonmaw Swamprunner
 								{ "n", 1036},	-- Dragonmaw Centurion
