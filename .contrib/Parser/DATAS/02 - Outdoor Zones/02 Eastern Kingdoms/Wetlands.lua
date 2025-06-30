@@ -617,6 +617,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						objective(1, {	-- 0/7 Fires Extinguished
+							["provider"] = { "i", 56134 },	-- Blessed Floodlily
+						}),
 						i(59109, {	-- Marsh Fire Legguards
 							["timeline"] = { ADDED_4_0_3 },
 						}),
