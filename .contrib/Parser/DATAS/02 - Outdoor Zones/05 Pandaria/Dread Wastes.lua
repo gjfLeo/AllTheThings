@@ -451,7 +451,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 48.1, 49.6, DREAD_WASTES },
 						["provider"] = { "n", 65365 },	-- Kor'ik
 						["altQuests"] = { 31682 },	-- By the Sea, Nevermore
-						["description"] = "This version is available if Kor'ik has not been killed yet.",
+						-- ["description"] = "This version is available if Kor'ik has not been killed yet.",
 						["sourceQuests"] = {
 							31090,	-- Better With Age
 							31088,	-- Crime and Punishment
