@@ -1856,6 +1856,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 33.5, 49.3, HILLSBRAD_FOOTHILLS },
 					-- #if BEFORE 6.0.2
 					["description"] = [[WARNING: If you want the achievements, you'll need to follow this step-by-step guide: (Credit: Toasts-Atiesh)
+
 1. Track bloom and doom progress using /script AddTrackedAchievement(5365)
 2. Make this a macro
   /script SelectGossipAvailableQuest(1)
@@ -1864,11 +1865,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
   /script SelectGossipOption(1)
   /script AcceptQuest()
   /click StaticPopup1Button1
-3. Start Quest and then click leave vehicle (Quest failed)
-4. Click abandon quest (dont confirm abandon) then click npc to open up quest. See Pic 1 below.
+3. Start Quest and then click leave vehicle immediately. (Quest should fail)
+4. Click abandon quest (DO NOT CONFIRM YET!) and then speak to the quest giver.
+5. Use the macro while the abandon quest popup is still open while the npc's Accept Quest dialog is displayed.
 Game should start with a 0/7 wave counter below and u have no plant quest in log.
-Click orbs till zombies spawn 6-8. Then plant nothing.
-3 zombies walk to end trigger lawn mower and die. You should now be  +1 on your FoS tracker.
+Click orbs till zombies spawn 6-8. Then plant NOTHING. (Part of the achievement is to not plant certain types.)
+3 zombies walk to end trigger lawn mower and die. You should now be +1 on your FoS tracker.
 Now a Dk ghoul spawns randomly if it lands in a lane with lawnmower wait and u will get another +1 to FoS tracker.
 Click Leave vehicle and repeat steps 3-8"]],
 					-- #endif
