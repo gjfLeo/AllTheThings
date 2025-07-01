@@ -248,6 +248,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				["provider"] = { "o", 547529 },	-- Scorched Poster
 				["coords"] = {
 					{ 49.1, 27.1, DORNOGAL },
+					{ 50, 63.1, DORNOGAL },
 					{ 60.5, 74.9, DORNOGAL },
 				},
 			}),
