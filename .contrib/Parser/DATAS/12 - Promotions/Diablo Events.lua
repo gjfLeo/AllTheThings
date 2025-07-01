@@ -138,9 +138,9 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 						i(142542),	-- Tome of Town Portal (TOY!)
 						i(143543),	-- Twelve String Guitar (TOY!)
 						i(76755),	-- Tyrael's Charger (MOUNT!)
-						i(206275),	-- Wirt's Fightin' Leg (BOE)
-						i(206276),	-- Wirt's Haunted Leg (BOE)
-						i(206005),	-- Wirt's Last Leg (BOE)
+						i(206275),	-- Wirt's Haunted Leg (BOE)
+						i(206276),	-- Wirt's Last Leg (BOE)
+						i(206005),	-- Wirt's Fightin' Leg (BOE)
 					},
 				}),
 			},
@@ -236,17 +236,20 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 						i(142542),	-- Tome of Town Portal (TOY!)
 						i(143543),	-- Twelve String Guitar (TOY!)
 						--i(76755),	-- Tyrael's Charger (MOUNT!)
-						i(206275),	-- Wirt's Fightin' Leg (BOE)
-						--i(206276),	-- Wirt's Haunted Leg (BOE)
-						i(206005),	-- Wirt's Last Leg (BOE)
+						i(206275),	-- Wirt's Haunted Leg (BOE)
+						i(206276),	-- Wirt's Last Leg (BOE)
+						i(206005),	-- Wirt's Fightin' Leg (BOE)
 					},
 				}),
 			},
 		})),
 		n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0, } }, {
 			q(91038, {	-- Hellhunters Wanted
-				--["provider"] = { "o", ??? },	-- missing objectID
-				["coord"] = { 49.1, 27.1, DORNOGAL },	-- TODO: probably more coords
+				["provider"] = { "o", 547529 },	-- Scorched Poster
+				["coords"] = {
+					{ 49.1, 27.1, DORNOGAL },
+					{ 60.5, 74.9, DORNOGAL },
+				},
 			}),
 		})),
 		n(VENDORS, {
@@ -295,9 +298,9 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			i(206008),	-- Nightmare Banner (TOY!)
 			i(142542),	-- Tome of Town Portal (TOY!)
 			i(143543),	-- Twelve String Guitar (TOY!)
-			i(206275),	-- Wirt's Fightin' Leg
-			i(206276),	-- Wirt's Haunted Leg
-			i(206005),	-- Wirt's Last Leg
+			i(206275),	-- Wirt's Haunted Leg
+			i(206276),	-- Wirt's Last Leg
+			i(206005),	-- Wirt's Fightin' Leg
 		},
 	}),
 }));
