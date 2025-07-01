@@ -6107,13 +6107,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(18902),	-- Swift Stormsaber (MOUNT!)
 					},
 				}),
-				-- #if AFTER 5.3.0.16767
+				-- #if AFTER 7.0.3
 				n(2795, {	-- Lenny "Fingers" McCoy
 					["coord"] = { 72.8, 58.8, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(97921, {	-- Bom'bay's Color-Seein'Sauce (TOY!)
-							["timeline"] = { ADDED_5_3_0 },
+							["timeline"] = { ADDED_7_1_0 },
 						}),
 						i(138382, {	-- Lucky Rat's Tooth
 							["timeline"] = { ADDED_7_0_3 },
