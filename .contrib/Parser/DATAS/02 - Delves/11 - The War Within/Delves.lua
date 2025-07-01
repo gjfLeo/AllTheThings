@@ -1886,7 +1886,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["sourceQuests"] = { 91009 },	-- Durable Information Storage Container
 			["providers"] = {
 				{ "n", 245191 },	-- Dagran Thaurissan II
-				{ "o", 235490 },	-- Overcharged Titan Console
+				{ "n", 235490 },	-- Overcharged Titan Console
 			},
 			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
 			["coord"] = { 48.0, 43.4, DORNOGAL },
