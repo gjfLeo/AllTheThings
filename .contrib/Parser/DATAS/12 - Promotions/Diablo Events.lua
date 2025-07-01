@@ -248,7 +248,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 				["provider"] = { "o", 547529 },	-- Scorched Poster
 				["coords"] = {
 					{ 49.1, 27.1, DORNOGAL },
-					{ 50, 63.1, DORNOGAL },
+					{ 50.0, 63.1, DORNOGAL },
 					{ 60.5, 74.9, DORNOGAL },
 				},
 			}),
@@ -279,7 +279,9 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 		}),
 	}))),
 	i(206007, {	-- Treasure Nabbin' Bag
+		-- #if BEFORE 11.1.7
 		["description"] = "Can be earned by logging into Diablo Immortal on a level 10+ character during the 'Eternal War' crossover event between November 13, 3:00 a.m. & December 11, 2:59 a.m. local server time.",
+		-- #endif
 		["timeline"] = { "added 11.0.5.57388", "removed 11.0.5.57689" },
 	}),
 	--spell(921, {	-- Collector's Bounty
