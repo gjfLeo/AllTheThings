@@ -5942,9 +5942,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
+					-- #if AFTER MOP
 					["sym"] = {{"select","itemID",
 						4565,	-- Simple Dagger
 					}},
+					-- #endif
 				}),
 				n(43694, {	-- Katie Stokx <Horse Breeder>
 					["coord"] = { 77.0, 67.8, STORMWIND_CITY },
@@ -6564,8 +6566,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 74.2, 58.0, STORMWIND_CITY },
 					["timeline"] = { ADDED_3_0_2 },
 					["races"] = ALLIANCE_ONLY,
+					-- #if AFTER MOP
+					["sym"] = {{"select","itemID",
+						4565,	-- Simple Dagger
+					}},
+					-- #endif
 					["groups"] = {
-						i(4565),	-- Simple Dagger
 						i(38579, {	-- Venomous Tome
 							["timeline"] = { ADDED_3_0_2 },
 							["isLimited"] = true,
@@ -7009,9 +7015,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					},
 					["races"] = ALLIANCE_ONLY,
+					-- #if AFTER MOP
 					["sym"] = {{"select","itemID",
 						4565,	-- Simple Dagger
 					}},
+					-- #endif
 					["groups"] = {
 						i(21835, {	-- Anesthetic Poison
 							["timeline"] = { ADDED_3_0_2, REMOVED_5_0_4 },
