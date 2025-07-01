@@ -3234,7 +3234,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(JUNE, bubbleDownSelf({ ["timeline"] = { "added 11.1.5.61122", "removed 11.1.7.99999" } }, {	-- TODO: Timeline out correctly
+		n(JUNE, bubbleDownSelf({ ["timeline"] = { "added 11.1.5.61122", "removed 11.1.7.61609" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				i(238967),	-- Molten Cormaera (MOUNT!)
 			}),
@@ -3331,7 +3331,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61491", "removed 11.1.7.99999" } }, {	-- TODO: Timeline in/out correctly
+		n(JULY, bubbleDownSelf({ ["timeline"] = { "added 11.1.7.61609", "removed 11.1.7.99999" } }, {	-- TODO: Timeline /out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				i(242522, {	-- Forsaken's Grotesque Cauldron
 					-- #if BEFORE 11.2.0
