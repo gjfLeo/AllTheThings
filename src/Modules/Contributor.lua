@@ -458,6 +458,7 @@ MobileDB.GameObject = {
 	[176224] = true,	-- Supply Crate (Stratholme)
 	[176248] = true,	-- Premium Grimm Tobacco (q:27192)
 	[176582] = true,	-- Shellfish Trap (q:5421)
+	[176588] = true,	-- Icecap
 	[176751] = true,	-- Kodo Bones (q:5501)
 	[176752] = true,	-- Kodo Bones (q:5501)
 	[176793] = true,	-- Bundle of Wood (q:5545)
