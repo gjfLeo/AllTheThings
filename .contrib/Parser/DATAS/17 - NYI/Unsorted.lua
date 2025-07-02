@@ -1810,7 +1810,6 @@ root(ROOTS.Unsorted, {
 			}),
 			n(CLASSES, {
 				-- T2 Greedy Emissary Alternative Chest/Offset Pieces?
-				i(244443),	-- Emberwind Blouse
 				i(244444),	-- Staghelm Robe
 				i(244446),	-- Blouse of Searing Radiance
 				i(244448),	-- Hellfire Blouse
