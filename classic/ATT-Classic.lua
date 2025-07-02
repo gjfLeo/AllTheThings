@@ -1633,14 +1633,6 @@ function app:GetDataCache()
 			}));
 		end
 
-		-- Pet Battles
-		if app.Categories.PetBattles then
-			tinsert(g, app.CreateNPC(app.HeaderConstants.PET_BATTLE, {
-				g = app.Categories.PetBattles,
-				expanded = false
-			}));
-		end
-
 		-- PvP
 		if app.Categories.PVP then
 			tinsert(g, app.CreateNPC(app.HeaderConstants.PVP, {
