@@ -716,6 +716,7 @@ MobileDB.GameObject = {
 	[220908] = true,	-- Mist-Covered Treasure Chest
 	[221689] = true,	-- Ripe Crispfruit
 	[221690] = true,	-- Sand-Covered Egg
+	[221747] = true,	-- Huge Yak Roast
 	[221763] = true,	-- Fire Poppy
 	[222684] = true,	-- Glinting Sand
 	[222685] = true,	-- Crane Nest

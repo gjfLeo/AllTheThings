@@ -535,7 +535,6 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 				iensemble(238050, {	-- Ensemble: Stormstout's Sha-Warped Collection
 					["timeline"] = { ADDED_11_1_7 },
 				}),
-				-- TODO: added in MoP Classic Prepatch
 			},
 		}),
 	})),
