@@ -117,15 +117,19 @@ local TIER_FIVE_MAX_REPUTATION = { 909, FRIENDLY + 2001 };	-- Darkmoon Faire, mu
 local DECK_MAX_REPUTATION = { 909, EXALTED };	-- Darkmoon Faire, must be less than Exalted 999/1000.
 local DARKMOON_GAME_PRIZE = i(93724, {	-- Darkmoon Game Prize [Cataclysm Version]
 	["timeline"] = { ADDED_5_2_0 },
+	["pb"] = IGNORED_VALUE,
 });
 local DARKMOON_GAME_TOKEN = i(71083, {	-- Darkmoon Game Token [Cataclysm Version]
 	["timeline"] = { ADDED_4_3_0 },
+	["pb"] = IGNORED_VALUE,
 });
 local DARKMOON_PRIZE_TICKET = currency(515, {	-- Darkmoon Prize Ticket [Cataclysm Version]
 	["timeline"] = { ADDED_4_3_0 },
+	["pb"] = IGNORED_VALUE,
 });
 local TATTERED_DARKMOON_PRIZE_TICKET = i(19182, {	-- Tattered Darkmoon Faire Prize Ticket
 	["timeline"] = { REMOVED_4_3_0 },
+	["pb"] = IGNORED_VALUE,
 });
 
 -- This is what every online guide ever says, but they're incorrect.
