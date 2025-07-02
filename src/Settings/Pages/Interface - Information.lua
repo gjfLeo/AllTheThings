@@ -404,7 +404,7 @@ local function FilterSpecs(specs)
 		app.Sort(specs, app.SortDefaults.Values);
 	end
 end
-local GetFixedItemSpecInfo = function(itemID)
+local GetFixedItemSpecInfo = GetSpecializationInfo and function(itemID)
 	if itemID then
 		local specs = GetItemSpecInfo(itemID);
 		if not specs or #specs < 1 then
@@ -427,6 +427,18 @@ local GetFixedItemSpecInfo = function(itemID)
 			app.Sort(specs, app.SortDefaults.Values);
 		else
 			FilterSpecs(specs);
+		end
+		if #specs > 0 then
+			return specs;
+		end
+	end
+end or function(itemID)
+	if itemID then
+		local specs = GetItemSpecInfo(itemID);
+		if specs then
+			FilterSpecs(specs);
+		else
+			return;
 		end
 		if #specs > 0 then
 			return specs;
