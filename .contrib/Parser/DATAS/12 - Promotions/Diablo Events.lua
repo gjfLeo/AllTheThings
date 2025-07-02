@@ -94,7 +94,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 	})),
 	applyevent(A_GREEDY_EMISSARY, n(GREEDY_EMISSARY_EVENT, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, ADDED_11_1_7, REMOVED_11_2_0 } }, {
 		-- Event begins on May 25, 2023, and ends on June 13, 2023.
-		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, } }, {
+		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0, REMOVED_10_1_0, ADDED_11_1_7, REMOVED_11_2_0, } }, {
 			ach(18258, {	--	Little Lord of Lies
 				["provider"] = { "i", 206018 },	-- Baa'lial Soulstone
 			}),
@@ -316,8 +316,8 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 }));
 
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0} }, {
-	n(DIABLO_EVENTS, {
+root(ROOTS.HiddenQuestTriggers, n(DIABLO_EVENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0} }, {
+	n(GREEDY_EMISSARY_EVENT, {
 		q(76216),	-- 'Bonus loot' if Tyrael's Charger unlearned / first goblin kill per day for account
 		-- #IF AFTER 11.0
 		q(76215,{isDaily=true}),	-- Old daily treasure goblin tracker
