@@ -21,7 +21,7 @@ app:CreateWindow("Pet Battles", {
 			g = app.Categories.PetBattles or {},
 			OnUpdate = function(data)
 				local results = app:BuildSearchResponseForField(app:GetDataCache().g, "pb");
-				if #results > 0 then
+				if results and #results > 0 then
 					for i,result in ipairs(results) do
 						tinsert(data.g, result);
 					end
