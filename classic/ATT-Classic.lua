@@ -2414,7 +2414,6 @@ if C_PetJournal and app.GameBuildVersion > 30000 then
 		return SetBattlePetCollected(t, t.speciesID, count and count > 0);
 	end
 	app.AddEventRegistration("NEW_PET_ADDED", function(...)
-		print("NEW_PET_ADDED", ...);
 		app:RefreshDataQuietly("NEW_PET_ADDED", true);
 	end)
 
