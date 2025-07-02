@@ -7,27 +7,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	n(ACHIEVEMENTS, {
 		ach(8917, {	-- Collector's Edition: Dread Hatchling
 			["provider"] = { "i", 109014 },	-- Dread Hatchling
-			["timeline"] = {
-				-- #if ANYCLASSIC
-				CREATED_5_4_7,
-				-- #else
-				ADDED_5_4_7,
-				-- #endif
-				REMOVED_8_3_0,
-				ADDED_10_1_0
-			},
+			["timeline"] = { ADDED_10_1_0 },
 		}),
 		ach(8916, {	-- Collector's Edition: Dread Raven
 			["provider"] = { "i", 109013 },	-- Dread Raven
-			["timeline"] = {
-				-- #if ANYCLASSIC
-				CREATED_5_4_7,
-				-- #else
-				ADDED_5_4_7,
-				-- #endif
-				REMOVED_8_3_0,
-				ADDED_10_1_0
-			},
+			["timeline"] = { ADDED_10_1_0 },
 		}),
 		ach(12230, {	-- Collector's Edition: Gilded Ravasaur
 			["provider"] = { "i", 153540 },	-- Gilded Ravasaur
@@ -128,15 +112,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_9_0_5 },
 		}),
 		i(109014, {	-- Dread Hatchling (PET!)
-			["timeline"] = {
-				-- #if ANYCLASSIC
-				CREATED_5_4_7,
-				-- #else
-				ADDED_5_4_7,
-				-- #endif
-				REMOVED_8_3_0,
-				ADDED_10_1_0
-			},
+			["timeline"] = { ADDED_10_1_0 },
 		}),
 		i(208446, {	-- Fyrn (PET!)
 			["timeline"] = { ADDED_11_1_5 },
@@ -582,16 +558,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
 		}),
 		i(109013, {	-- Dread Raven (MOUNT!)
-			["timeline"] = {
-				-- #if ANYCLASSIC
-				CREATED_5_4_7,
-				ADDED_5_5_2,	-- Likely will be released as a preorder for WOD Classic at some point during MOP Classic.
-				-- #else
-				ADDED_5_4_7,
-				-- #endif
-				REMOVED_8_3_0,
-				ADDED_10_1_0
-			},
+			["timeline"] = { ADDED_10_1_0 },
 		}),
 		i(97989, {	-- Enchanted Fey Dragon (MOUNT!)
 			["timeline"] = {
