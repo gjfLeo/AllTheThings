@@ -10,7 +10,7 @@ SCENARIOS = createHeader({
 		en = [[~SCENARIOS]],
 	},
 });
-root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_1_0 } }, {
 	applyclassicphase(MOP_PHASE_LANDFALL, n(SCENARIOS, {
 		["crs"] = { 78709 },	-- Lorewalker Fu <Scenario Storyteller>
 		["g"] = {
@@ -251,15 +251,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 					}),
 				},
 			}),
-			m(483, {	-- Theramore's Fall
-				n(ACHIEVEMENTS, {
-					a(ach(7526)),	-- Kite Flight (A)
-					h(ach(7529)),	-- Kite Fight (H)
-					a(ach(7527)),	-- No Tank You (A)
-					h(ach(7530)),	-- No Tank You (H)
-					a(ach(7523)),	-- Theramore's Fall (A)
-					h(ach(7524)),	-- Theramore's Fall (H)
-				}),
+			n(THERAMORES_FALL, {
+				["maps"] = { 483 },	-- Theramore's Fall
+				["groups"] = {
+					n(ACHIEVEMENTS, bubbleDown({ ["lvl"] = lvlsquish(90, 90, 35), }, {
+						a(ach(7526)),	-- Kite Flight (A)
+						h(ach(7529)),	-- Kite Fight (H)
+						a(ach(7527)),	-- No Tank You (A)
+						h(ach(7530)),	-- No Tank You (H)
+						a(ach(7523)),	-- Theramore's Fall (A)
+						h(ach(7524)),	-- Theramore's Fall (H)
+					})),
+				},
 			}),
 			m(450, {	-- Unga Ingoo
 				n(ACHIEVEMENTS, {
