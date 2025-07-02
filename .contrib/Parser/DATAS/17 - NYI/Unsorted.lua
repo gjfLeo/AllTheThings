@@ -1808,12 +1808,6 @@ root(ROOTS.Unsorted, {
 				i(244836),	-- Cane of the Runic Wanderer
 				i(244837),	-- Rookforged Dragonblade
 			}),
-			n(CLASSES, {
-				-- T2 Greedy Emissary Alternative Chest/Offset Pieces?
-				i(244444),	-- Staghelm Robe
-				i(244446),	-- Blouse of Searing Radiance
-				i(244448),	-- Hellfire Blouse
-			}),
 			filter(MOUNTS, {
 				i(243590),	-- Grandmaster's Deep Board
 				i(243572),	-- Grandmaster's Prophetic Board
