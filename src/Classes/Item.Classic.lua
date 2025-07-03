@@ -180,7 +180,9 @@ local itemFields = {
 		end
 	end,
 	["specs"] = function(t)
-		return app.GetFixedItemSpecInfo(t.itemID);
+		local specs = app.GetFixedItemSpecInfo(t.itemID) or {};
+		t.specs = specs;
+		return specs;
 	end,
 	["tsm"] = function(t)
 		return ("i:%d"):format(t.itemID);
