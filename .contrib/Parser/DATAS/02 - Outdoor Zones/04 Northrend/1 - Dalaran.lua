@@ -2903,12 +2903,12 @@ root(ROOTS.Zones, {
 							emoh(50, i(42992, {	-- Discerning Eye of the Beast
 								["timeline"] = { REMOVED_6_1_0 },
 							})),
-							i(93902, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Flamescarred Draconian Deflector
+							i(93902, {	-- Flamescarred Draconian Deflector
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-							})),
-							i(93904, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Musty Tome of the Lost
+							}),
+							i(93904, {	-- Musty Tome of the Lost
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-							})),
+							}),
 							emoh(40, i(42951, {	-- Mystical Pauldrons of Elements
 								["timeline"] = { REMOVED_6_1_0 },
 							})),
@@ -2951,9 +2951,9 @@ root(ROOTS.Zones, {
 							emoh(40, i(48716, {	-- Venerable Mass of McGowan
 								["timeline"] = { REMOVED_6_1_0 },
 							})),
-							i(93903, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Weathered Observer's Shield
+							i(93903, {	-- Weathered Observer's Shield
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-							})),
+							}),
 						},
 					}),
 					n(28951, {	-- Breanni <Pet Supplies>
