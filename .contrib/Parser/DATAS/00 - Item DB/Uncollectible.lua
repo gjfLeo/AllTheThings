@@ -308,6 +308,7 @@ i(158759);	-- Bloodgorged Sac
 i(158750);	-- Bonebreaker Beak
 i(155843);	-- Brittle Ceremonial Necklace
 i(155649);	-- Broken Zandalari Spear
+i(158818);	-- Canine Tongue
 i(163590);	-- Careworn Loa Statuette
 i(163592);	-- Ceremonial Nose Ring
 i(158790);	-- Charnel Ash
@@ -434,6 +435,7 @@ i(166798);	-- Crackling Tourmaline (Opulence Crown Consumable)
 i(166800);	-- Diamond of Sustenance (Opulence Crown Consumable)
 i(166799);	-- Emerald of Vigor (Opulence Crown Consumable)
 i(166801);	-- Sapphire of Brilliance (Opulence Crown Consumable)
+i(166875);	-- Silver Filigreed Devilsaur Tooth
 i(166797);	-- Star Topaz (Opulence Crown Consumable)
 i(166796);	-- Sunset Amber (Opulence Crown Consumable)
 i(166288);	-- Waterlogged Junk

@@ -3354,7 +3354,6 @@ root(ROOTS.Unsorted, {
 				i(158815),	-- Stonebreaker Scale \\ PH Flavor - Raptor - Dinosaur
 				i(158816),	-- PH Flavor - Unused \\ PH Flavor - Dog
 				i(158817),	-- Razorpetal \\ PH Flavor - Snake - Reptile
-				i(158818),	-- Canine Tongue \\ PH Flavor - House Stormsong
 				i(158819),	-- Rat Tail \\ PH Flavor - Spider - Insect
 				i(158822),	-- Lustrous Black Feather \\ PH Flavor - Wind Serpent
 				i(158824),	-- PH Flavor - Unused \\ PH Flavor - Firefly - Insect
@@ -4070,7 +4069,6 @@ root(ROOTS.Unsorted, {
 			i(166872),	-- Sterling Truesilver Flatware
 			i(166873),	-- Amethyst Parrot
 			i(166874),	-- Azerothian Diamond Brooch
-			i(166875),	-- Silver Filigreed Devilsaur Tooth
 			i(166876),	-- Scrimshaw Ivory Direhorn
 			i(166896),	-- Heritage of the Sin'dorei
 		})),
