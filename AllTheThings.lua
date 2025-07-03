@@ -2659,7 +2659,7 @@ function app:GetDataCache()
 
 	-- Pet Battles
 	if app.Categories.PetBattles then
-		db = app.CreateNPC(app.HeaderConstants.PET_BATTLE);
+		db = app.CreateNPC(app.HeaderConstants.PET_BATTLES);
 		db.g = app.Categories.PetBattles;
 		tinsert(g, db);
 	end
