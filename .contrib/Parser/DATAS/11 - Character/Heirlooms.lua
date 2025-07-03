@@ -51,15 +51,23 @@ if true then return end
 root(ROOTS.Character, n(HEIRLOOMS, {
 	n(ARMOR, {
 		n(BACK, {
-			un(REMOVED_FROM_GAME, i(62040)),	-- Ancient Bloodmoon Cloak
+			i(62040, {	-- Ancient Bloodmoon Cloak
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122262),	-- Ancient Bloodmoon Cloak
 			i(166770),	-- Banded Gilnean Cloak
-			un(REMOVED_FROM_GAME, i(62039)),	-- Inherited Cape of the Black Baron
+			i(62039, {	-- Inherited Cape of the Black Baron
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122261),	-- Inherited Cape of the Black Baron
-			un(REMOVED_FROM_GAME, i(69892)),	-- Ripped Sandstorm Cloak
+			i(69892, {	-- Ripped Sandstorm Cloak
+				["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
+			}),
 			i(122266),	-- Ripped Sandstorm Cloak
 			i(166752),	-- Stone Guard's Bladed Cloak
-			un(REMOVED_FROM_GAME, i(62038)),	-- Worn Stoneskin Gargoyle Cape
+			i(62038, {	-- Worn Stoneskin Gargoyle Cape
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122260),	-- Worn Stoneskin Gargoyle Cape
 		}),
 		filter(CLOTH, {
@@ -70,13 +78,17 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			}),
 			i(122378),	-- Exquisite Sunderseer Mantle
 			un(REMOVED_FROM_GAME, i(93861)),	-- Prestigious Sunderseer Mantle
-			un(REMOVED_FROM_GAME, i(62029)),	-- Tattered Dreadmist Leggings
+			i(62029, {	-- Tattered Dreadmist Leggings
+				["timeline"] = { CREATED_4_0_3, ADDED_5_0_4, REMOVED_6_1_0 },
+			}),
 			i(122256),	-- Tattered Dreadmist Leggings
 			i(42985, {	-- Tattered Dreadmist Mantle
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122360),	-- Tattered Dreadmist Mantle
-			un(REMOVED_FROM_GAME, i(61958)),	-- Tattered Dreadmist Mask
+			i(61958, {	-- Tattered Dreadmist Mask
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122250),	-- Tattered Dreadmist Mask
 			i(48691, {	-- Tattered Dreadmist Robe
 				["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
@@ -114,13 +126,21 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122359),	-- Preened Ironfeather Shoulders
-			un(REMOVED_FROM_GAME, i(61942)),	-- Preened Tribal War Feathers
+			i(61942, {	-- Preened Tribal War Feathers
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122249),	-- Preened Tribal War Feathers
-			un(REMOVED_FROM_GAME, i(62027)),	-- Preened Wildfeather Leggings
+			i(62027, {	-- Preened Wildfeather Leggings
+				["timeline"] = { CREATED_4_0_3, ADDED_5_0_4, REMOVED_6_1_0 },
+			}),
 			i(122255),	-- Preened Wildfeather Leggings
-			un(REMOVED_FROM_GAME, i(61937)),	-- Stained Shadowcraft Cap
+			i(61937, {	-- Stained Shadowcraft Cap
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122248),	-- Stained Shadowcraft Cap
-			un(REMOVED_FROM_GAME, i(62026)),	-- Stained Shadowcraft Pants
+			i(62026, {	-- Stained Shadowcraft Pants
+				["timeline"] = { CREATED_4_0_3, ADDED_5_0_4, REMOVED_6_1_0 },
+			}),
 			i(122254),	-- Stained Shadowcraft Pants
 			i(42952, {	-- Stained Shadowcraft Spaulders
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
@@ -153,9 +173,13 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			i(122379),	-- Champion's Deathdealer Breastplate
 			un(REMOVED_FROM_GAME, i(93888)),	-- Furious Deathdealer Breastplate
 			un(REMOVED_FROM_GAME, i(93887)),	-- Grand Champion Herod's Shoulder
-			un(REMOVED_FROM_GAME, i(61936)),	-- Mystical Coif of Elements
+			i(61936, {	-- Mystical Coif of Elements
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122247),	-- Mystical Coif of Elements
-			un(REMOVED_FROM_GAME, i(62025)),	-- Mystical Kilt of Elements
+			i(62025, {	-- Mystical Kilt of Elements
+				["timeline"] = { CREATED_4_0_3, ADDED_5_0_4, REMOVED_6_1_0 },
+			}),
 			i(122253),	-- Mystical Kilt of Elements
 			i(42951, {	-- Mystical Pauldrons of Elements
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
@@ -169,9 +193,13 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122374),	-- Prized Beastmaster's Mantle
-			un(REMOVED_FROM_GAME, i(62024)),	-- Tarnished Leggings of Destruction
+			i(62024, {	-- Tarnished Leggings of Destruction
+				["timeline"] = { CREATED_4_0_3, ADDED_5_0_4, REMOVED_6_1_0 },
+			}),
 			i(122252),	-- Tarnished Leggings of Destruction
-			un(REMOVED_FROM_GAME, i(61935)),	-- Tarnished Raging Berserker's Helm
+			i(61935, {	-- Tarnished Raging Berserker's Helm
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122246),	-- Tarnished Raging Berserker's Helm
 			un(REMOVED_FROM_GAME, i(93889)),	-- Venerated Pauldrons of The Five Thunders
 		}),
@@ -187,13 +215,21 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 		filter(PLATE, {
 			un(REMOVED_FROM_GAME, i(93892)),	-- Brushed Breastplate of Might
 			un(REMOVED_FROM_GAME, i(93893)),	-- Brushed Pauldrons of Might
-			un(REMOVED_FROM_GAME, i(69889)),	-- Burnished Breastplate of Might
+			i(69889, {	-- Burnished Breastplate of Might
+				["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
+			}),
 			i(122387),	-- Burnished Breastplate of Might
-			un(REMOVED_FROM_GAME, i(69887)),	-- Burnished Helm of Might
+			i(69887, {	-- Burnished Helm of Might
+				["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
+			}),
 			i(122263),	-- Burnished Helm of Might
-			un(REMOVED_FROM_GAME, i(69888)),	-- Burnished Legplates of Might
+			i(69888, {	-- Burnished Legplates of Might
+				["timeline"] = { CREATED_4_1_0, ADDED_5_0_4, REMOVED_6_1_0 },
+			}),
 			i(122264),	-- Burnished Legplates of Might
-			un(REMOVED_FROM_GAME, i(69890)),	-- Burnished Pauldrons of Might
+			i(69890, {	-- Burnished Pauldrons of Might
+				["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
+			}),
 			i(122388),	-- Burnished Pauldrons of Might
 			un(REMOVED_FROM_GAME, i(93891)),	-- Gleaming Breastplate of Valor
 			un(REMOVED_FROM_GAME, i(93890)),	-- Gleaming Spaulders of Valor
@@ -202,9 +238,13 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
 			}),
 			i(122381),	-- Polished Breastplate of Valor
-			un(REMOVED_FROM_GAME, i(61931)),	-- Polished Helm of Valor
+			i(61931, {	-- Polished Helm of Valor
+				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
+			}),
 			i(122245),	-- Polished Helm of Valor
-			un(REMOVED_FROM_GAME, i(62023)),	-- Polished Legplates of Valor
+			i(62023, {	-- Polished Legplates of Valor
+				["timeline"] = { CREATED_4_0_3, ADDED_5_0_4, REMOVED_6_1_0 },
+			}),
 			i(122251),	-- Polished Legplates of Valor
 			i(42949, {	-- Polished Spaulders of Valor
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
@@ -276,7 +316,9 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
 		i(122349),	-- Bloodied Arcanite Reaper
-		un(REMOVED_FROM_GAME, i(69893)),	-- Bloodsoaked Skullforge Reaver
+		i(69893, {	-- Bloodsoaked Skullforge Reaver
+			["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
+		}),
 		i(122389),	-- Bloodsoaked Skullforge Reaver
 		un(REMOVED_FROM_GAME, i(93858)),	-- Brawler's Bladed Claws
 		un(REMOVED_FROM_GAME, i(92948)),	-- Brawler's Razor Claws
