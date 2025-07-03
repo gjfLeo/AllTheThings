@@ -386,16 +386,12 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
 		}),
 		i(122389),	-- Bloodsoaked Skullforge Reaver
-		un(REMOVED_FROM_GAME, i(93858)),	-- Brawler's Bladed Claws
-		-- Wouter NOTE: going to fix these after items are actually sourced (aka Brawler's Guild is fixed),
-		-- otherwise they'll show up as uncollected on Classic, while not being available yet.
-		--i(93858, {	-- Brawler's Razor Claws
-		--	["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-		--}),
-		un(REMOVED_FROM_GAME, i(92948)),	-- Brawler's Razor Claws
-		--i(92948, {	-- Brawler's Razor Claws
-		--	["timeline"] = { ADDED_5_1_0, REMOVED_6_1_0 },
-		--}),
+		i(93858, {	-- Brawler's Bladed Claws
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
+		i(92948, {	-- Brawler's Razor Claws
+			["timeline"] = { ADDED_5_1_0, REMOVED_6_1_0 },
+		}),
 		i(122396, {	-- Brawler's Razor Claws
 			["timeline"] = {
 				ADDED_5_1_0, REMOVED_6_0_2,
