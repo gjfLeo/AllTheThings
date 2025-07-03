@@ -321,8 +321,12 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			i(93896, {	-- Forceful Hand of Justice
 				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 			}),
-			un(REMOVED_FROM_GAME, i(133595)),	-- Gronntooth War Horn
-			un(REMOVED_FROM_GAME, i(133597)),	-- Infallible Tracking Charm
+			i(133595, {	-- Gronntooth War Horn
+				["timeline"] = { ADDED_6_2_3, REMOVED_7_0_3_LAUNCH },
+			}),
+			i(133597, {	-- Infallible Tracking Charm
+				["timeline"] = { ADDED_6_2_3, REMOVED_7_0_3_LAUNCH },
+			}),
 			i(44098, {	-- Inherited Insignia of the Alliance
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
@@ -339,12 +343,18 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 			}),
 			i(122530),	-- Inherited Mark of Tyranny
-			un(REMOVED_FROM_GAME, i(133585)),	-- Judgment of the Naaru
-			un(REMOVED_FROM_GAME, i(133596)),	-- Orb of Voidsight
+			i(133585, {	-- Judgment of the Naaru
+				["timeline"] = { ADDED_6_2_3, REMOVED_7_0_3_LAUNCH },
+			}),
+			i(133596, {	-- Orb of Voidsight
+				["timeline"] = { ADDED_6_2_3, REMOVED_7_0_3_LAUNCH },
+			}),
 			i(93897, {	-- Piercing Eye of the Beast
 				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 			}),
-			un(REMOVED_FROM_GAME, i(133598)),	-- Purified Shard of the Third Moon
+			i(133598, {	-- Purified Shard of the Third Moon
+				["timeline"] = { ADDED_6_2_3, REMOVED_7_0_3_LAUNCH },
+			}),
 			i(126949),	-- Returning Champion
 			i(42991, {	-- Swift Hand of Justice
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
