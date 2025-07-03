@@ -20,6 +20,7 @@
 	<Script file="Hidden Achievement Triggers.lua"/>
 	<Script file="Hidden Quest Triggers.lua"/>
 	<Script file="Illusions.lua"/>
+	<Script file="Local List.lua"/>
 	<Script file="Locked.lua"/>
 	<Script file="Maps.lua"/>
 	<Script file="Mini List.lua"/>
