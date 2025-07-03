@@ -131,17 +131,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"]
 						}),
 					},
 				}),
-				-- TODO: Sort this section out, it's just here to make the parser happy
-				q(90504), --
-				q(90503), --
-				q(90502), --
-				q(90501), --
-				q(90500), --
-				q(90499), --
-				q(90498), --
-				q(90497), --
-				q(90496), --
-				q(90495), --
 			}),
 			n(REWARDS, {
 				filter(MISC, {
@@ -300,6 +289,18 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(87532),	--
 			-- Week 6:
 			--q(),	-- no hqt this week
+
+			-- Seemingly no longer in use, but left for reference
+			q(90504), --
+			q(90503), --
+			q(90502), --
+			q(90501), --
+			q(90500), --
+			q(90499), --
+			q(90498), --
+			q(90497), --
+			q(90496), --
+			q(90495), --
 		}),
 	})),
 });
