@@ -352,6 +352,7 @@ i(170021);	-- Inert Slivers
 i(155631);	-- Inert Stone
 i(158749);	-- Intricate Ossicles
 i(157844);	-- Iridescent Speck
+i(158794);	-- Ivory Tusk
 i(158830);	-- Jade Sigilstone
 i(158859);	-- Jagged Fang
 i(163091);	-- Jeweled Spyglass
@@ -429,6 +430,12 @@ i(158773);	-- Wriggling Goop
 -----------------
 -- PATCH 8.1.0 --
 -----------------
+i(166798);	-- Crackling Tourmaline (Opulence Crown Consumable)
+i(166800);	-- Diamond of Sustenance (Opulence Crown Consumable)
+i(166799);	-- Emerald of Vigor (Opulence Crown Consumable)
+i(166801);	-- Sapphire of Brilliance (Opulence Crown Consumable)
+i(166797);	-- Star Topaz (Opulence Crown Consumable)
+i(166796);	-- Sunset Amber (Opulence Crown Consumable)
 i(166288);	-- Waterlogged Junk
 
 -----------------
@@ -454,6 +461,7 @@ i(169123);	-- Functional Fiddleswitch
 i(169129);	-- Lovingly Worn Wrench
 i(170031);	-- Moldy Tome
 i(170096);	-- Sodden Highborne Painting
+i(170098);	-- Rusted Girandole Earring
 i(169145);	-- Rusted Precision Gripper
 i(169135);	-- Warped Shock Absorber
 i(169998);	-- Weathered Bulwark
