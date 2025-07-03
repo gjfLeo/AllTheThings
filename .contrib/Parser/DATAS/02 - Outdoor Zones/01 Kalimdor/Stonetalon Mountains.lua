@@ -166,6 +166,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66137, {	-- Zonya the Sadist <Master Pet Tamer>
 					["coord"] = { 59.6, 71.6, STONETALON_MOUNTAINS },
+					["description"] = "This pet tamer is Horde only.\n\nZonya's pets are level 7 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - see above.",
+					["races"] = HORDE_ONLY,
+					["petBattleLvl"] = 7,
 				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY

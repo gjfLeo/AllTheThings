@@ -101,6 +101,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(65655, {	-- Eric Davidson <Master Pet Tamer>
 					["coord"] = { 19.8, 44.8, DUSKWOOD },
+					["description"] = "This pet tamer is Alliance only.\n\nEric's pets are level 7 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.\n3. Beast - see above.",
+					["races"] = ALLIANCE_ONLY,
+					["petBattleLvl"] = 7,
 				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY

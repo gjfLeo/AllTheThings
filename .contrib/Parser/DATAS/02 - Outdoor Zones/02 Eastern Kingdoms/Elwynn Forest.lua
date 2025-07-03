@@ -2183,6 +2183,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(64330, {	--  Julia Stevens <Aspiring Pet Tamer>
 					["coord"] = { 41.6, 83.6, ELWYNN_FOREST },
+					["description"] = "This pet tamer is Alliance only.\n\nJulia's pets are level 2 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Beast - see above.",
+					["races"] = ALLIANCE_ONLY,
+					["petBattleLvl"] = 2,
 				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY

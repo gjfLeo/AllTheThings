@@ -204,6 +204,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66824, {	-- Obalis <Grand Master Pet Tamer>
 					["coord"] = { 56.6, 41.8, ULDUM },
+					["petBattleLvl"] = 25,
 				}),
 			}),
 			n(QUESTS, {

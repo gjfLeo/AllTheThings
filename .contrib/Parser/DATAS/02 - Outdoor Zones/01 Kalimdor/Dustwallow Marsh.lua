@@ -152,6 +152,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66436, {	-- Grazzle the Great <Master Pet Tamer>
 					["coord"] = { 53.8, 74.8, DUSTWALLOW_MARSH },
+					["description"] = "This pet tamer is Horde only, though Alliance players can battle them once as part of the Alliance version of the quest 'Battle Pet Tamers: Kalimdor'.\n\nGrazzle's pets are level 14 of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Dragonkin - see above.\n3. Dragonkin - see above.",
+					["petBattleLvl"] = 14,
 				}),
 			}),
 			n(PROFESSIONS, {

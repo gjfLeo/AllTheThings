@@ -190,6 +190,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66136, {	-- Analynn <Master Pet Tamer>
 					["coord"] = { 20.2, 29.6, ASHENVALE },
+					["description"] = "This pet tamer is Horde only.\n\nAnalynn's pets are level 5 of the following consecutive pet classes:\n1. Aquatic - use Flying (powerful) or Magic (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Flying - use Magic (powerful) or Dragonkin (tanky) pet.",
+					["races"] = HORDE_ONLY,
+					["petBattleLvl"] = 5,
 				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY

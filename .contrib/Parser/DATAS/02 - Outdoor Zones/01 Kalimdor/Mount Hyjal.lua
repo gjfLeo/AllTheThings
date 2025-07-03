@@ -2072,6 +2072,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66819, {	-- Brok <Master Pet Tamer>
 					["coord"] = { 61.4, 32.8, MOUNT_HYJAL },
+					["petBattleLvl"] = 25,
 				}),
 			}),
 			n(RARES, {

@@ -333,6 +333,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			petbattles({
 				n(66822, {	-- Goz Banefury <Master Pet Tamer>
 					["coord"] = { 56.6, 56.8, TWILIGHT_HIGHLANDS },
+					["petBattleLvl"] = 25,
 				}),
 			}),
 			-- #if ANYCLASSIC

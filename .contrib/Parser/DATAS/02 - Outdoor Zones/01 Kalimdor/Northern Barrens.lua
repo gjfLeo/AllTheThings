@@ -184,6 +184,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			petbattles({
 				n(66135, {	-- Dagra the Fierce <Master Pet Tamer>
 					["coord"] = { 58.6, 53.0, NORTHERN_BARRENS },
+					["description"] = "This pet tamer is Horde only.\n\nDagra's pets are level 3 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.\n3. Beast - see above.",
+					["races"] = HORDE_ONLY,
+					["petBattleLvl"] = 3,
 				}),
 			}),
 			n(PROFESSIONS, {
