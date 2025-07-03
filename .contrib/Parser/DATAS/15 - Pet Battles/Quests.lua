@@ -891,9 +891,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 		}),
 	}),
 	-- Dragonflight
-	n(QUESTS, bubbleDown({
-		["timeline"] = { ADDED_10_0_2_LAUNCH },
-	},{
+	n(QUESTS, {
 		q(70647, {	-- Oh Where, Oh Where Can He Be?
 			["qg"] = 185563,	-- Jyhanna
 			["sourceQuests"] = {
@@ -902,6 +900,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			},
 			["coord"] = { 10.4, 58.3, VALDRAKKEN },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 			["groups"] = {
 				i(199175),	-- Lubbins (PET!)
 			},
@@ -912,12 +911,14 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["sourceQuest"] = 70647,	-- Oh Where, Oh Where Can He Be?
 			["coord"] = { 10.4, 58.3, VALDRAKKEN },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 		}),
 		q(70722, {	-- What Lubbins Needs
 			["qg"] = 196069,	-- Patchu
 			["sourceQuest"] = 70697,	-- An Expert Opinion
 			["coord"] = { 13.9, 49.8, THE_AZURE_SPAN },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 			["_drop"] = { "g" },	-- Drop Polished Pet Charm
 			["sym"] = {{"select","itemID",
 				92683,	-- Flawless Dragonkin Battle-Stone
@@ -929,6 +930,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["sourceQuest"] = 70722,	-- What Lubbins Needs
 			["coord"] = { 13.9, 49.8, THE_AZURE_SPAN },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 			["_drop"] = { "g" },	-- Drop Ultimate Battle-Training Stone
 		}),
 		q(70849, {	-- This Calls for a Specialist
@@ -936,12 +938,14 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["sourceQuest"] = 70732,	-- A Practice Bout
 			["coord"] = { 13.9, 49.8, THE_AZURE_SPAN },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 		}),
 		q(70851, {	-- Born to Be Wilder
 			["qg"] = 196264,	-- Haniko
 			["sourceQuest"] = 70849,	-- This Calls for a Specialist
 			["coord"] = { 38.9, 83.3, THE_WAKING_SHORES },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 			["_drop"] = { "g" },	-- Drop Polished Pet Charm
 			["sym"] = {{"select","itemID",
 				POLISHED_PET_CHARM,
@@ -952,6 +956,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["sourceQuest"] = 70851,	-- Born to Be Wilder
 			["coord"] = { 38.9, 83.3, THE_WAKING_SHORES },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 			["_drop"] = { "g" },	-- Drop Polished Pet Charm
 			["sym"] = {{"select","itemID",
 				116421,	-- Flying Battle-Training Stone
@@ -963,325 +968,21 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["sourceQuest"] = 70853,	-- A Friend for Lubbins
 			["coord"] = { 38.9, 83.3, THE_WAKING_SHORES },
 			["description"] = "Account-Wide Quest.",
+			["timeline"] = { ADDED_10_0_2_LAUNCH },
 			["groups"] = {
 				i(200519),	-- Mister Toots (PET!)
 				ach(16399),	-- Lovin' Lubbins
 			},
 			["_drop"] = { "g" },	-- Drop Ultimate Battle-Training Stone
 		}),
-	})),
+	}),
 	-- Daily Quests
-	n(QUESTS, sharedData({
-		["isDaily"] = true,
-	},{
-		q(31854, {	-- Analynn
-			["qg"] = 66136,	-- Analynn
-			["sourceQuest"] = 31814,	-- Analynn
-			["coord"] = { 20.2, 29.5, ASHENVALE },
-			["races"] = HORDE_ONLY,
-		}),
-		q(47895, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Bert's Bots
-			["qg"] = 124617,	-- Environeer Bert
-			["coord"] = { 42.9, 74.2, NEW_TINKERTOWN_LOWER },
-			["description"] = "This pet has a chance of dropping after defeating Environeer Bert.  He is also located in Gnomeregan.",
-			["groups"] = {
-				i(151638, {	-- Leprous Sack of Pet Supplies
-					i(151645),	-- Dibbler (PET!)
-				}),
-			},
-		})),
-		q(31851, {	-- Bill Buckler
-			["qg"] = 65656,	-- Bill Buckler
-			["sourceQuest"] = 31728,	-- Bill Buckler
-			["coord"] = { 51.4, 73.2, THE_CAPE_OF_STRANGLETHORN },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31904, {	-- Cassandra Kaboom
-			["qg"] = 66422,	-- Cassandra Kaboom
-			["sourceQuest"] = 31870,	-- Cassandra Kaboom
-			["coord"] = { 39.5, 79.1, SOUTHERN_BARRENS },
-			["races"] = HORDE_ONLY,
-		}),
-		q(45083, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_0 } }, {	-- Crysa's Flyers
-			["qg"] = 115286,	-- Crysa
-			["coord"] = { 63.6, 35.8, NORTHERN_BARRENS },
-			["groups"] = {
-				i(142447, {	-- Torn Sack of Pet Supplies
-					i(142448),	-- Albino Buzzard (PET!)
-					i(89587),	-- Porcupette (PET!)
-				}),
-			},
-		})),
-		q(31819, {	-- Dagra the Fierce
-			["qg"] = 66135,	-- Dagra the Fierce
-			["sourceQuest"] = 31813,	-- Dagra the Fierce
-			["coord"] = { 58.6, 53.0, NORTHERN_BARRENS },
-			["races"] = HORDE_ONLY,
-		}),
-		q(31910, {	-- David Kosse
-			["qg"] = 66478,	-- David Kosse
-			["coord"] = { 62.9, 54.5, THE_HINTERLANDS },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31911, {	-- Deiza Plaguehorn
-			["qg"] = 66512,	-- Deiza Plaguehorn
-			["coord"] = { 67.0, 52.4, EASTERN_PLAGUELANDS },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31914, {	-- Durin Darkhammer
-			["qg"] = 66520,	-- Durin Darkhammer
-			["coord"] = { 25.5, 47.4, BURNING_STEPPES },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31908, {	-- Elena Flutterfly
-			["qg"] = 66412,	-- Elena Flutterfly
-			["coord"] = { 46.0, 60.4, MOONGLADE },
-			["races"] = HORDE_ONLY,
-		}),
-		q(31850, {	-- Eric Davidson
-			["qg"] = 65655,	-- Eric Davidson
-			["sourceQuest"] = 31726,	-- Eric Davidson
-			["coord"] = { 19.8, 44.6, DUSKWOOD },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31913, {	-- Everessa
-			["qg"] = 66518,	-- Everessa
-			["coord"] = { 76.8, 41.4, SWAMP_OF_SORROWS },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31916, {	-- Grand Master Lydia Accoste
-			["qg"] = 66522,	-- Lydia Accoste
-			["sourceQuest"] = 31915,	-- Grand Master Lydia Accoste
-			["coord"] = { 40.0, 76.4, DEADWIND_PASS },
-			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
-			},
-		}),
-		q(31909, {	-- Grand Master Trixxy
-			["qg"] = 66466,	-- Grand Master Trixxy
-			["sourceQuest"] = 31897,	-- Grand Master Trixxy
-			["coord"] = { 65.6, 64.5, WINTERSPRING },
-			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
-			},
-		}),
-		q(31905, {	-- Grazzle the Great
-			["qg"] = 66436,	-- Grazzle the Great
-			["coord"] = { 53.8, 74.8, DUSTWALLOW_MARSH },
-		}),
-		q(31693, {	-- Julia Stevens
-			["qg"] = 64330,	-- Julia Stevens
-			["sourceQuest"] = 31316,	-- Julia, The Pet Tamer
-			["coord"] = { 41.6, 83.6, ELWYNN_FOREST },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31906, {	-- Kela Grimtotem
-			["qg"] = 66452,	-- Kela Grimtotem
-			["coord"] = { 31.8, 32.8, THOUSAND_NEEDLES },
-			["races"] = HORDE_ONLY,
-		}),
-		q(31912, {	-- Kortas Darkhammer
-			["qg"] = 66515,	-- Kortas Darkhammer
-			["coord"] = { 35.2, 27.7, SEARING_GORGE },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31781, {	-- Lindsay
-			["qg"] = 65651,	-- Lindsay
-			["sourceQuest"] = 31725,	-- Lindsay
-			["coord"] = { 33.2, 52.5, REDRIDGE_MOUNTAINS },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31872, {	-- Merda Stronghoof
-			["qg"] = 66372,	-- Merda Stronghoof
-			["sourceQuest"] = 31817,	-- Merda Stronghoof
-			["coord"] = { 57.2, 45.8, DESOLACE },
-			["races"] = HORDE_ONLY,
-		}),
-		q(31780, {	-- Old MacDonald
-			["qg"] = 65648,	-- Old MacDonald
-			["sourceQuest"] = 31724,	-- Old MacDonald
-			["coord"] = { 60.9, 18.5, WESTFALL },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31852, {	-- Steven Lisbane
-			["qg"] = 63194,	-- Steven Lisbane
-			["coord"] = { 46.0, 40.4, NORTHERN_STRANGLETHORN },
-			["races"] = ALLIANCE_ONLY,
-		}),
-		q(31871, {	-- Traitor Gluk
-			["qg"] = 66352,	-- Traitor Gluk
-			["coord"] = { 59.6, 49.6, FERALAS },
-			["races"] = HORDE_ONLY,
-		}),
-		q(31862, {	-- Zonya the Sadist
-			["qg"] = 66137,	-- Zonya the Sadist
-			["sourceQuest"] = 31815,	-- Zonya the Sadist
-			["coord"] = { 59.6, 71.6, STONETALON_MOUNTAINS },
-			["races"] = HORDE_ONLY,
-		}),
-		q(31907, {	-- Zoltan
-			["qg"] = 66442,	-- Zoltan
-			["coord"] = { 40.0, 56.6, FELWOOD },
-			["races"] = HORDE_ONLY,
-		}),
-		q(31818, {	-- Zunta
-			["qg"] = 66126,	-- Zunta
-			["sourceQuest"] = 31812,	-- Zunta, The Pet Tramer
-			["coord"] = { 43.9, 28.9, DUROTAR },
-			["races"] = HORDE_ONLY,
-		}),
-		expansion(EXPANSION.TBC, {
-			q(31922, {	-- Nicki Tinytech
-				["qg"] = 66550,	-- Nicki Tinytech
-				["coords"] = {
-					{ 64.3, 49.3, HELLFIRE_PENINSULA },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 62.0, 49.5, TANARIS },
-					-- #endif
-				},
-			}),
-			q(31924, {	-- Narrok
-				["qg"] = 66552,	-- Narrok <Master Pet Tamer>
-				["coords"] = {
-					{ 61.0, 49.4, NAGRAND },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 62.0, 49.5, TANARIS },
-					-- #endif
-				},
-			}),
-			q(31926, {	-- Grand Master Antari
-				["qg"] = 66557,	-- Bloodknight Antari <Grand Master Pet Tamer>
-				["sourceQuest"] = 31920,	-- Grand Master Antari
-				["coord"] = { 30.6, 41.8, SHADOWMOON_VALLEY },
-				["groups"] = {
-					SACK_OF_PET_SUPPLIES
-				},
-			}),
-			q(31923, {	-- Ras'an
-				["qg"] = 66551,	-- Ras'an <Master Pet Tamer>
-				["coords"] = {
-					{ 17.2, 50.5, ZANGARMARSH },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 61.9, 49.6, TANARIS },
-					-- #endif
-				},
-			}),
-			q(31925, {	-- Morulu The Elder
-				["qg"] = 66553,	-- Morulu The Elder
-				["coords"] = {
-					{ 59.0, 70.0, SHATTRATH_CITY },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 61.9, 49.6, TANARIS },
-					-- #endif
-				},
-			}),
-		}),
-		expansion(EXPANSION.WRATH, {
-			q(31932, {	-- Nearly Headless Jacob
-				["qg"] = 66636,	-- Nearly Headless Jacob
-				["coords"] = {
-					{50.2, 59.0, CRYSTALSONG_FOREST },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 61.9, 49.6, TANARIS },
-					-- #endif
-				},
-			}),
-			q(31933, {	-- Okrut Dragonwaste
-				["qg"] = 66638,	-- Okrut Dragonwaste
-				["coords"] = {
-					{ 59.0, 77.0, DRAGONBLIGHT },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 61.9, 49.6, TANARIS },
-					-- #endif
-				},
-			}),
-			q(31931, {	-- Beegle Blastfuse
-				["qg"] = 66635,	-- Beegle Blastfuse
-				["coord"] = { 28.6, 33.8, HOWLING_FJORD },
-				["repeatable"] = true,
-			}),
-			q(31935, {	-- Grand Master Payne
-				["qg"] = 66675,	-- Major Payne
-				["sourceQuest"] = 31928,	-- Grand Master Payne
-				["coords"] = {
-					{ 77.4, 19.6, ICECROWN },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 62.0, 49.5, TANARIS },
-					-- #endif
-				},
-				["groups"] = {
-					SACK_OF_PET_SUPPLIES
-				},
-			}),
-			q(31934, {	-- Gutretch
-				["qg"] = 66639,
-				["coords"] = {
-					{ 13.2, 66.7, ZULDRAK },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 62.0, 49.5, TANARIS },
-					-- #endif
-				},
-			}),
-		}),
-		expansion(EXPANSION.CATA, {
-			q(31972, {	-- Brok
-				["qg"] = 66819,	-- Brok
-				["coords"] = {
-					{ 61.4, 32.7, MOUNT_HYJAL },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 62.1, 49.6, TANARIS },
-					-- #endif
-				},
-			}),
-			q(31974, {	-- Goz Banefury
-				["qg"] = 66822,	-- Goz Banefury
-				["coords"] = {
-					{ 56.5, 56.7, TWILIGHT_HIGHLANDS },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 62.1, 49.6, TANARIS },
-					-- #endif
-				},
-			}),
-			q(31971, {	-- Grand Master Obalis
-				["qg"] = 66824,	-- Obalis
-				["sourceQuest"] = 31970,	-- Grand Master Obalis
-				["coords"] = {
-					{ 56.6, 41.8, ULDUM },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 61.9, 49.6, TANARIS },
-					-- #endif
-				},
-				["groups"] = {
-					SACK_OF_PET_SUPPLIES
-				},
-			}),
-			q(31973, {	-- Bordin Steadyfist
-				["qg"] = 66815,	-- Bordin Steadyfist
-				["coords"] = {
-					{ 49.9, 57.1, DEEPHOLM },
-					-- Coords for location in Tanaris during revamped WoW's Anniversary:
-					-- #if AFTER 11.0.5
-					--{ 61.9, 49.6, TANARIS },
-					-- #endif
-				},
-				["repeatable"] = true,
-			}),
-		}),
+	n(QUESTS, {
 		expansion(EXPANSION.MOP, {
 			q(31957, {	-- Grand Master Shu
 				["qg"] = 66739,	-- Wastewalker Shu
 				["coord"] = { 55.1, 37.6, DREAD_WASTES },
+				["isDaily"] = true,
 				["groups"] = {
 					SACK_OF_PET_SUPPLIES
 				},
@@ -1290,6 +991,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 68462,	-- Flowing Pandaren Spirit
 				["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
 				["coord"] = { 61.1, 87.5, DREAD_WASTES },
+				["isDaily"] = true,
 				["groups"] = {
 					i(93147, {	-- Pandaren Spirit Pet Supplies
 						["sym"] = {{"select","itemID",
@@ -1312,6 +1014,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
+				["isDaily"] = true,
 				["groups"] = {
 					SACK_OF_PET_SUPPLIES
 				},
@@ -1325,6 +1028,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
+				["isDaily"] = true,
 				["groups"] = {
 					SACK_OF_PET_SUPPLIES
 				},
@@ -1332,6 +1036,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			q(63435, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Temple Throwdown
 				["qg"] = 176655,	-- Anthea <Carefree Pet Tamer>
 				["coord"] = { 70.4, 51.4, KUN_LAI_SUMMIT },
+				["isDaily"] = true,
 				["groups"] = {
 					i(184866, {	-- Grummlepouch
 						i(89587),	-- Porcupette (PET!)
@@ -1343,6 +1048,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 68465,	-- Thundering Pandaren Spirit
 				["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
 				["coord"] = { 64.9, 93.8, KUN_LAI_SUMMIT },
+				["isDaily"] = true,
 				["groups"] = {
 					i(93149, {	-- Pandaren Spirit Pet Supplies
 						["sym"] = {{"select","itemID",
@@ -1365,6 +1071,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					--{ 62.0, 49.5, TANARIS },
 					-- #endif
 				},
+				["isDaily"] = true,
 				["groups"] = {
 					SACK_OF_PET_SUPPLIES
 				},
@@ -1373,6 +1080,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 68464,	-- Whispering Pandaren Spirit
 				["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
 				["coord"] = { 28.9, 36.0, THE_JADE_FOREST },
+				["isDaily"] = true,
 				["groups"] = {
 					i(93148, {	-- Pandaren Spirit Pet Supplies
 						["sym"] = {{"select","itemID",
@@ -1389,6 +1097,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			q(31991, {	-- Grand Master Zusshi
 				["qg"] = 66918,	-- Seeker Zusshi
 				["coord"] = { 36.3, 52.2, TOWNLONG_STEPPES },
+				["isDaily"] = true,
 				["groups"] = {
 					SACK_OF_PET_SUPPLIES
 				},
@@ -1397,6 +1106,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 68463,
 				["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
 				["coord"] = { 57.2, 42.1, TOWNLONG_STEPPES },
+				["isDaily"] = true,
 				["groups"] = {
 					i(93146, {	-- Pandaren Spirit Pet Supplies
 						["sym"] = {{"select","itemID",
@@ -1421,6 +1131,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 				},
 				["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
+				["isDaily"] = true,
 				["groups"] = {
 					FABLED_PANDAREN_PET_SUPPLIES
 				},
@@ -1436,6 +1147,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 				},
 				["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
+				["isDaily"] = true,
 				["groups"] = {
 					FABLED_PANDAREN_PET_SUPPLIES
 				},
@@ -1451,6 +1163,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 				},
 				["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
+				["isDaily"] = true,
 				["groups"] = {
 					FABLED_PANDAREN_PET_SUPPLIES
 				},
@@ -1464,6 +1177,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					{ 84.1, 28.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 					-- #endif
 				},
+				["isDaily"] = true,
 				["groups"] = {
 					SACK_OF_PET_SUPPLIES
 				},
@@ -1477,6 +1191,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					--{ 61.9, 49.6, TANARIS },
 					-- #endif
 				},
+				["isDaily"] = true,
 				["groups"] = {
 					SACK_OF_PET_SUPPLIES
 				},
@@ -1488,6 +1203,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 87124,	-- Ashlei
 				["coord"] = { 50.0, 31.2, DRAENOR_SHADOWMOON_VALLEY },
 				["_drop"] = { "g" },	-- Drops Polished Pet Charm
+				["isDaily"] = true,
 				["groups"] = {
 					-- #if BEFORE 10.2.5
 					SHINY_PET_CHARM,
@@ -1498,6 +1214,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 83837,	-- Cymre Brightblade
 				["coord"] = { 51.1, 70.6, GORGROND },
 				["_drop"] = { "g" },	-- Drops Polished Pet Charm
+				["isDaily"] = true,
 				["groups"] = {
 					-- #if BEFORE 10.2.5
 					SHINY_PET_CHARM,
@@ -1508,6 +1225,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 87122,	-- Gargra
 				["coord"] = { 68.5, 64.7, FROSTFIRE_RIDGE },
 				["_drop"] = { "g" },	-- Drops Polished Pet Charm
+				["isDaily"] = true,
 				["groups"] = {
 					-- #if BEFORE 10.2.5
 					SHINY_PET_CHARM,
@@ -1518,6 +1236,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 87125,	-- Taralune
 				["coord"] = { 49.0, 80.3, TALADOR },
 				["_drop"] = { "g" },	-- Drops Polished Pet Charm
+				["isDaily"] = true,
 				["groups"] = {
 					-- #if BEFORE 10.2.5
 					SHINY_PET_CHARM,
@@ -1528,6 +1247,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 87110,	-- Tar the Terrible
 				["coord"] = { 56.2, 9.8, DRAENOR_NAGRAND },
 				["_drop"] = { "g" },	-- Drops Polished Pet Charm
+				["isDaily"] = true,
 				["groups"] = {
 					-- #if BEFORE 10.2.5
 					SHINY_PET_CHARM,
@@ -1538,6 +1258,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["qg"] = 87123,	-- Vesharr
 				["coord"] = { 46.2, 45.3, SPIRES_OF_ARAK },
 				["_drop"] = { "g" },	-- Drops Polished Pet Charm
+				["isDaily"] = true,
 				["groups"] = {
 					-- #if BEFORE 10.2.5
 					SHINY_PET_CHARM,
@@ -1545,11 +1266,9 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				},
 			}),
 		})),
-	})),
+	}),
 	-- Weeklies
-	n(QUESTS, sharedData({
-		["isWeekly"] = true,
-	},{
+	n(QUESTS, {
 		pvp(q(32863, {	-- What We've Been Training For
 			["providers"] = {
 				{ "n", 63596 },	-- Audrey Burnhelp
@@ -1564,6 +1283,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 			},
 			["description"] = "Account-Wide Weekly Quest.",
+			["isWeekly"] = true,
 			["groups"] = {
 				i(98095, {	-- Brawler's Pet Supplies
 					["sym"] = {{"select","itemID",
@@ -1593,6 +1313,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["coord"] = { 49.3, 45.4, AZSUNA },
 			["_drop"] = { "g" },	-- Drop Shiny Pet Charm
 			["timeline"] = { ADDED_7_0_3_LAUNCH },
+			["isWeekly"] = true,
 		}),
-	})),
+	}),
 })));

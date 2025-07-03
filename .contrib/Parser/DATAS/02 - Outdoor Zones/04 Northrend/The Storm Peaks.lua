@@ -340,23 +340,20 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				petbattles({
-					q(44767, {	-- A Celestial Invitation
-						["provider"] = { "i", 142210 },	-- Celestial Invitation
-						["coord"] = { 41.4, 24.4, THE_STORM_PEAKS },
-						["timeline"] = { ADDED_7_1_0 },
-						["groups"] = {
-							objective(1, {	-- Defeat Algalon the Observer
-								["provider"] = { "n", 115307 },	-- Algalon the Observer <Celestial Pet Tamer>
-								["coord"] = { 41.4, 24.4, THE_STORM_PEAKS },
-							}),
-							i(142100),	-- Stardust (PET!)
-						},
-					}),
 					n(115307, {	-- Algalon the Observer <Celestial Pet Tamer>
 						["coord"] = { 41.5, 24.4, THE_STORM_PEAKS },
 						["description"] = "Algalon's pets are level 25 of legendary quality and exceptionally powerful of the following consecutive pet classes:\n1. Dragonkin - use Humanoid (powerful) or Undead (tanky) pet.\n2. Magic - use Dragonkin (powerful) or Mechanical (tanky) pet.\n3. Magic - see above.",
 						["timeline"] = { ADDED_7_1_0 },
 						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(44767, {	-- A Celestial Invitation
+								["provider"] = { "i", 142210 },	-- Celestial Invitation
+								["timeline"] = { ADDED_7_1_0 },
+								["groups"] = {
+									i(142100),	-- Stardust (PET!)
+								},
+							}),
+						},
 					}),
 				}),
 				n(QUESTS, {

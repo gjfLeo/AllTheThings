@@ -1519,6 +1519,23 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 42.9, 74.3, NEW_TINKERTOWN_LOWER },
 							["description"] = "This tamer's pets scale with the level of your pets. (They will be the same level as your highest pet in your party!) Meaning the easiest strategy is actually to bring 3 level 1 Elemental pets with an Elemental attack, spam, and win.",
 							["timeline"] = { ADDED_7_3_0 },
+							["groups"] = {
+								q(47895, {	-- Bert's Bots
+									-- CRIEVE NOTE: Not sure if there's a source achievement or quest required to do first.
+									["timeline"] = { ADDED_7_3_0 },
+									["isDaily"] = true,
+									["groups"] = {
+										i(151638, {	-- Leprous Sack of Pet Supplies
+											["timeline"] = { ADDED_7_3_0 },
+											["groups"] = {
+												i(151645, {	-- Dibbler (PET!)
+													["timeline"] = { ADDED_7_3_0 },
+												}),
+											},
+										}),
+									},
+								}),
+							},
 						}),
 					}),
 					n(QUESTS, {

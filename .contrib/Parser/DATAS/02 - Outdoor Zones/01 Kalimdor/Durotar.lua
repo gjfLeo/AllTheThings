@@ -2162,8 +2162,17 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(66126, {	-- Zunta <Aspiring Pet Tamer>
 					["coord"] = { 43.9, 28.9, DUROTAR },
 					["description"] = "This pet tamer is Horde only.\n\nZunta's pets are level 2 of the following consecutive pet classes:\n1. Beast - use Mechanical (powerful) or Flying (tanky) pet.\n2. Critter - use Beast (powerful) or Humanoid (tanky) pet.",
+					["timeline"] = { ADDED_5_0_4 },
 					["races"] = HORDE_ONLY,
 					["petBattleLvl"] = 2,
+					["groups"] = {
+						q(31818, {	-- Zunta
+							["sourceAchievement"] = 6602,	-- Taming Kalimdor
+							["timeline"] = { ADDED_5_0_4 },
+							["races"] = HORDE_ONLY,
+							["isDaily"] = true,
+						}),
+					},
 				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
