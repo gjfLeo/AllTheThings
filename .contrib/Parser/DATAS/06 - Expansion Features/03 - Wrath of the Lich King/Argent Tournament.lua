@@ -4415,9 +4415,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						})),
 						champ(25, i(93902, {	-- Flamescarred Draconian Deflector
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							-- Wouter NOTE: not in the game in MoP Classic prepatch, originally added with ToT
+							-- #if MOP
+							["u"] = MOP_PHASE_RISE_OF_THE_THUNDER_KING,
+							-- #endif
 						})),
 						champ(25, i(93904, {	-- Musty Tome of the Lost
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							-- Wouter NOTE: not in the game in MoP Classic prepatch, originally added with ToT
+							-- #if MOP
+							["u"] = MOP_PHASE_RISE_OF_THE_THUNDER_KING,
+							-- #endif
 						})),
 						champ(25, i(42951, {	-- Mystical Pauldrons of Elements
 							["timeline"] = { REMOVED_6_1_0 },
@@ -4463,6 +4471,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						})),
 						champ(25, i(93903, {	-- Weathered Observer's Shield
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							-- Wouter NOTE: not in the game in MoP Classic prepatch, originally added with ToT
+							-- #if MOP
+							["u"] = MOP_PHASE_RISE_OF_THE_THUNDER_KING,
+							-- #endif
 						})),
 
 						-- New Heirlooms
