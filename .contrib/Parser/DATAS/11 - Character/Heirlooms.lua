@@ -71,13 +71,19 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			i(122260),	-- Worn Stoneskin Gargoyle Cape
 		}),
 		filter(CLOTH, {
-			un(REMOVED_FROM_GAME, i(93859)),	-- Bloodstained Dreadmist Mantle
-			un(REMOVED_FROM_GAME, i(93860)),	-- Bloodstained Dreadmist Robe
+			i(93859, {	-- Bloodstained Dreadmist Mantle
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93860, {	-- Bloodstained Dreadmist Robe
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(44107, {	-- Exquisite Sunderseer Mantle
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122378),	-- Exquisite Sunderseer Mantle
-			un(REMOVED_FROM_GAME, i(93861)),	-- Prestigious Sunderseer Mantle
+			i(93861, {	-- Prestigious Sunderseer Mantle
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(62029, {	-- Tattered Dreadmist Leggings
 				["timeline"] = { CREATED_4_0_3, ADDED_5_0_4, REMOVED_6_1_0 },
 			}),
@@ -116,8 +122,12 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122377),	-- Lasting Feralheart Spaulders
-			un(REMOVED_FROM_GAME, i(93865)),	-- Majestic Ironfeather Breastplate
-			un(REMOVED_FROM_GAME, i(93864)),	-- Majestic Ironfeather Shoulders
+			i(93865, {	-- Majestic Ironfeather Breastplate
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93864, {	-- Majestic Ironfeather Shoulders
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(48687, {	-- Preened Ironfeather Breastplate
 				["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
 			}),
@@ -150,19 +160,33 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
 			}),
 			i(122383),	-- Stained Shadowcraft Tunic
-			un(REMOVED_FROM_GAME, i(93867)),	-- Superior Stormshroud Shoulders
-			un(REMOVED_FROM_GAME, i(93862)),	-- Supple Shadowcraft Spaulders
-			un(REMOVED_FROM_GAME, i(93863)),	-- Supple Shadowcraft Tunic
-			un(REMOVED_FROM_GAME, i(93866)),	-- Wild Feralheart Spaulders
+			i(93867, {	-- Superior Stormshroud Shoulders
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93862, {	-- Supple Shadowcraft Spaulders
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93863, {	-- Supple Shadowcraft Tunic
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93866, {	-- Wild Feralheart Spaulders
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 		}),
 		filter(MAIL, {
-			un(REMOVED_FROM_GAME, i(93886)),	-- Adorned Beastmaster's Mantle
+			i(93886, {	-- Adorned Beastmaster's Mantle
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(44102, {	-- Aged Pauldrons of The Five Thunders
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122375),	-- Aged Pauldrons of The Five Thunders
-			un(REMOVED_FROM_GAME, i(93876)),	-- Awakened Pauldrons of Elements
-			un(REMOVED_FROM_GAME, i(93885)),	-- Awakened Vest of Elements
+			i(93876, {	-- Awakened Pauldrons of Elements
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93885, {	-- Awakened Vest of Elements
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(42950, {	-- Champion Herod's Shoulder
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
@@ -171,8 +195,12 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
 			}),
 			i(122379),	-- Champion's Deathdealer Breastplate
-			un(REMOVED_FROM_GAME, i(93888)),	-- Furious Deathdealer Breastplate
-			un(REMOVED_FROM_GAME, i(93887)),	-- Grand Champion Herod's Shoulder
+			i(93888, {	-- Furious Deathdealer Breastplate
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93887, {	-- Grand Champion Herod's Shoulder
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(61936, {	-- Mystical Coif of Elements
 				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
 			}),
@@ -201,7 +229,9 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_4_0_3, REMOVED_6_1_0 },
 			}),
 			i(122246),	-- Tarnished Raging Berserker's Helm
-			un(REMOVED_FROM_GAME, i(93889)),	-- Venerated Pauldrons of The Five Thunders
+			i(93889, {	-- Venerated Pauldrons of The Five Thunders
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 		}),
 		n(NECK, {
 			i(122663),	-- Eternal Amulet of the Redeemed
@@ -213,8 +243,12 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			i(153130),	-- Man'ari Training Amulet
 		}),
 		filter(PLATE, {
-			un(REMOVED_FROM_GAME, i(93892)),	-- Brushed Breastplate of Might
-			un(REMOVED_FROM_GAME, i(93893)),	-- Brushed Pauldrons of Might
+			i(93892, {	-- Brushed Breastplate of Might
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93893, {	-- Brushed Pauldrons of Might
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(69889, {	-- Burnished Breastplate of Might
 				["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
 			}),
@@ -231,9 +265,15 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
 			}),
 			i(122388),	-- Burnished Pauldrons of Might
-			un(REMOVED_FROM_GAME, i(93891)),	-- Gleaming Breastplate of Valor
-			un(REMOVED_FROM_GAME, i(93890)),	-- Gleaming Spaulders of Valor
-			un(REMOVED_FROM_GAME, i(93894)),	-- Immaculate Lightforge Spaulders
+			i(93891, {	-- Gleaming Breastplate of Valor
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93890, {	-- Gleaming Spaulders of Valor
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
+			i(93894, {	-- Immaculate Lightforge Spaulders
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(48685, {	-- Polished Breastplate of Valor
 				["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
 			}),
@@ -257,7 +297,9 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122373),	-- Pristine Lightforge Spaulders
-			un(REMOVED_FROM_GAME, i(93895)),	-- Reinforced Stockade Pauldrons
+			i(93895, {	-- Reinforced Stockade Pauldrons
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(44099, {	-- Strengthened Stockade Pauldrons
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
@@ -265,14 +307,20 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 
 		}),
 		n(TRINKET, {
-			un(REMOVED_FROM_GAME, i(93899)),	-- Bequeathed Insignia of the Alliance
-			un(REMOVED_FROM_GAME, i(93898)),	-- Bequeathed Insignia of the Horde
+			i(93899, {	-- Bequeathed Insignia of the Alliance
+				["timeline"] = { ADDED_5_3_0, REMOVED_6_1_0 },
+			}),
+			i(93898, {	-- Bequeathed Insignia of the Horde
+				["timeline"] = { ADDED_5_3_0, REMOVED_6_1_0 },
+			}),
 			i(126948),	-- Defending Champion
 			i(42992, {	-- Discerning Eye of the Beast
 				["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 			}),
 			i(122362),	-- Discerning Eye of the Beast
-			un(REMOVED_FROM_GAME, i(93896)),	-- Forceful Hand of Justice
+			i(93896, {	-- Forceful Hand of Justice
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			un(REMOVED_FROM_GAME, i(133595)),	-- Gronntooth War Horn
 			un(REMOVED_FROM_GAME, i(133597)),	-- Infallible Tracking Charm
 			i(44098, {	-- Inherited Insignia of the Alliance
@@ -287,11 +335,15 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			i(122370, {	-- Inherited Insignia of the Horde
 				["races"] = HORDE_ONLY,
 			}),
-			un(REMOVED_FROM_GAME, i(93900)),	-- Inherited Mark of Tyranny
+			i(93900, {	-- Inherited Mark of Tyranny
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			i(122530),	-- Inherited Mark of Tyranny
 			un(REMOVED_FROM_GAME, i(133585)),	-- Judgment of the Naaru
 			un(REMOVED_FROM_GAME, i(133596)),	-- Orb of Voidsight
-			un(REMOVED_FROM_GAME, i(93897)),	-- Piercing Eye of the Beast
+			i(93897, {	-- Piercing Eye of the Beast
+				["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+			}),
 			un(REMOVED_FROM_GAME, i(133598)),	-- Purified Shard of the Third Moon
 			i(126949),	-- Returning Champion
 			i(42991, {	-- Swift Hand of Justice
@@ -306,8 +358,12 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
 		i(122350),	-- Balanced Heartseeker
-		un(REMOVED_FROM_GAME, i(93851)),	-- Battle-Forged Truesilver Champion
-		un(REMOVED_FROM_GAME, i(93848)),	-- Battle-Hardened Thrash Blade
+		i(93851, {	-- Battle-Forged Truesilver Champion
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
+		i(93848, {	-- Battle-Hardened Thrash Blade
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(44096, {	-- Battleworn Thrash Blade
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
@@ -321,7 +377,15 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 		}),
 		i(122389),	-- Bloodsoaked Skullforge Reaver
 		un(REMOVED_FROM_GAME, i(93858)),	-- Brawler's Bladed Claws
+		-- Wouter NOTE: going to fix these after items are actually sourced (aka Brawler's Guild is fixed),
+		-- otherwise they'll show up as uncollected on Classic, while not being available yet.
+		--i(93858, {	-- Brawler's Razor Claws
+		--	["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		--}),
 		un(REMOVED_FROM_GAME, i(92948)),	-- Brawler's Razor Claws
+		--i(92948, {	-- Brawler's Razor Claws
+		--	["timeline"] = { ADDED_5_1_0, REMOVED_6_1_0 },
+		--}),
 		i(122396, {	-- Brawler's Razor Claws
 			["timeline"] = {
 				ADDED_5_1_0, REMOVED_6_0_2,
@@ -330,14 +394,20 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 				ADDED_8_2_0, REMOVED_9_0_1,
 			},
 		}),
-		un(REMOVED_FROM_GAME, i(79131)),	-- Burnished Warden Staff
+		i(79131, {	-- Burnished Warden Staff
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_1_0 },
+		}),
 		i(122363),	-- Burnished Warden Staff
 		i(42946, {	-- Charmed Ancient Bone Bow
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
 		i(122352),	-- Charmed Ancient Bone Bow
-		un(REMOVED_FROM_GAME, i(93847)),	-- Crushing Mass of McGowan
-		un(REMOVED_FROM_GAME, i(93852)),	-- Deadly Scarlet Kris
+		i(93847, {	-- Crushing Mass of McGowan
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
+		i(93852, {	-- Deadly Scarlet Kris
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(42948, {	-- Devout Aurastone Hammer
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
@@ -347,17 +417,23 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 		}),
 		i(122353),	-- Dignified Headmaster's Charge
 		i(140773),	-- Eagletalon Spear
-		un(REMOVED_FROM_GAME, i(93849)),	-- Elder Staff of Jordan
+		i(93849, {	-- Elder Staff of Jordan
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(93902, {	-- Flamescarred Draconian Deflector
 			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 		}),
 		i(122391),	-- Flamescarred Draconian Deflector
-		un(REMOVED_FROM_GAME, i(93845)),	-- Gore-Steeped Skullforge Reaver
+		i(93845, {	-- Gore-Steeped Skullforge Reaver
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(44095, {	-- Grand Staff of Jordan
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
 		i(122368),	-- Grand Staff of Jordan
-		un(REMOVED_FROM_GAME, i(93843)),	-- Hardened Arcanite Reaper
+		i(93843, {	-- Hardened Arcanite Reaper
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		un(REMOVED_FROM_GAME, i(105687)),	-- Hellscream's Barrier
 		un(REMOVED_FROM_GAME, i(105674)),	-- Hellscream's Barrier
 		i(104409, {	-- Hellscream's Barrier
@@ -417,10 +493,18 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 		}),
 		i(122390),	-- Musty Tome of the Lost
-		un(REMOVED_FROM_GAME, i(93856)),	-- Noble Dal'Rend's Sacred Charge
-		un(REMOVED_FROM_GAME, i(93853)),	-- Pious Aurastone Hammer
-		un(REMOVED_FROM_GAME, i(93846)),	-- Re-Engineered Lava Dredger
-		un(REMOVED_FROM_GAME, i(93844)),	-- Refinished Warden Staff
+		i(93856, {	-- Noble Dal'Rend's Sacred Charge
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
+		i(93853, {	-- Pious Aurastone Hammer
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
+		i(93846, {	-- Re-Engineered Lava Dredger
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
+		i(93844, {	-- Refinished Warden Staff
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(44092, {	-- Reforged Truesilver Champion
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
@@ -429,18 +513,24 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
 		}),
 		i(122386),	-- Repurposed Lava Dredger
-		un(REMOVED_FROM_GAME, i(93854)),	-- Scholarly Headmaster's Charge
+		i(93854, {	-- Scholarly Headmaster's Charge
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(44091, {	-- Sharpened Scarlet Kris
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
 		i(122364),	-- Sharpened Scarlet Kris
-		un(REMOVED_FROM_GAME, i(93841)),	-- Smoothbore Dwarven Hand Cannon
+		i(93841, {	-- Smoothbore Dwarven Hand Cannon
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(131733),	-- Spear of Rethu
 		i(44094, {	-- The Blessed Hammer of Grace
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
 		i(122367),	-- The Blessed Hammer of Grace
-		un(REMOVED_FROM_GAME, i(93850)),	-- The Sanctified Hammer of Grace
+		i(93850, {	-- The Sanctified Hammer of Grace
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(44093, {	-- Upgraded Dwarven Hand Cannon
 			["timeline"] = { ADDED_3_0_2, REMOVED_6_1_0 },
 		}),
@@ -453,8 +543,12 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 			["timeline"] = { ADDED_3_2_0, REMOVED_6_1_0 },
 		}),
 		i(122385),	-- Venerable Mass of McGowan
-		un(REMOVED_FROM_GAME, i(93857)),	-- Vengeful Heartseeker
-		un(REMOVED_FROM_GAME, i(93855)),	-- War-Torn Ancient Bone Bow
+		i(93857, {	-- Vengeful Heartseeker
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
+		i(93855, {	-- War-Torn Ancient Bone Bow
+			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+		}),
 		i(93903, {	-- Weathered Observer's Shield
 			["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 		}),
