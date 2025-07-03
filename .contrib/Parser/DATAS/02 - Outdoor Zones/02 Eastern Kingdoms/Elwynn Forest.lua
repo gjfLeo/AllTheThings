@@ -362,7 +362,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuest"] = 3100,	-- Simple Letter
 							["coords"] = {
 								-- #if AFTER MOP
-								{ 40.6, 53.6, NORTHSHIRE_VALLEY },
+								{ 40.9, 53.8, NORTHSHIRE_VALLEY },
 								-- #else
 								{ 50.2, 42.3, ELWYNN_FOREST },
 								-- #endif
@@ -399,18 +399,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(26914, {	-- Corruption [MoP+] / Immolation [Cata] (Human)
 							["qg"] = 459,	-- Drusilla La Salle <Warlock Trainer>
 							["sourceQuest"] = 3105,	-- Tainted Letter
-							["coords"] = {
-								-- #if AFTER MOP
-								{ 39.6, 55.2, NORTHSHIRE_VALLEY },
-								-- #else
-								{ 49.9, 42.7, ELWYNN_FOREST },
-								-- #endif
-							},
+							["coord"] = { 39.5, 55.1, NORTHSHIRE_VALLEY },
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { HUMAN },
 							["classes"] = { WARLOCK },
 							["groups"] = {
-								objective(1, {	-- Practice Corruption
+								objective(2, {	-- Practice Corruption
 									["provider"] = { "n", 44548 },	-- Training Dummy
 								}),
 							},
@@ -874,13 +868,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(26914, {	-- Immolation [Cata] / Corruption [MoP+] (Human)
 							["qg"] = 459,	-- Drusilla La Salle <Warlock Trainer>
 							["sourceQuest"] = 3105,	-- Tainted Letter
-							["coords"] = {
-								-- #if AFTER MOP
-								{ 39.6, 55.2, NORTHSHIRE_VALLEY },
-								-- #else
-								{ 49.8, 42.6, ELWYNN_FOREST },
-								-- #endif
-							},
+							["coord"] = { 49.9, 42.7, ELWYNN_FOREST },
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { HUMAN },
 							["classes"] = { WARLOCK },
@@ -1054,7 +1042,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(26919, {	-- Learning the Word [MoP+] / Healing the Wounded [Cata] (Human)
 							["qg"] = 375,	-- Priestess Anetta <Priest Trainer>
 							["sourceQuest"] = 3103,	-- Hallowed Letter
-							["coord"] = { 39.2, 44.0, NORTHSHIRE_VALLEY },
+							["coord"] = { 39.3, 43.8, NORTHSHIRE_VALLEY },
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { HUMAN },
 							["classes"] = { PRIEST },
@@ -1278,7 +1266,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuest"] = 3104,	-- Glyphic Letter
 							["coords"] = {
 								-- #if AFTER MOP
-								{ 38.6, 43.6, NORTHSHIRE_VALLEY },
+								{ 38.8, 43.5, NORTHSHIRE_VALLEY },
 								-- #else
 								{ 49.7, 39.4, ELWYNN_FOREST },
 								-- #endif
@@ -1571,7 +1559,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuest"] = 3102,	-- Encrypted Letter
 							["coords"] = {
 								-- #if AFTER MOP
-								{ 41.8, 45.8, NORTHSHIRE_VALLEY },
+								{ 41.1, 45.3, NORTHSHIRE_VALLEY },
 								-- #else
 								{ 50.3, 39.9, ELWYNN_FOREST },
 								-- #endif
@@ -1590,7 +1578,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuest"] = 26910,	-- Etched Letter
 							["coords"] = {
 								-- #if AFTER MOP
-								{ 34.6, 55.8, NORTHSHIRE_VALLEY },
+								{ 34.8, 54.8, NORTHSHIRE_VALLEY },
 								-- #else
 								{ 48.6, 42.6, ELWYNN_FOREST },
 								-- #endif
@@ -1630,7 +1618,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["sourceQuest"] = 3101,	-- Consecrated Letter
 							["coords"] = {
 								-- #if AFTER MOP
-								{ 41.2, 53.0, NORTHSHIRE_VALLEY },
+								{ 41.6, 53.2, NORTHSHIRE_VALLEY },
 								-- #else
 								{ 50.4, 42.0, ELWYNN_FOREST },
 								-- #endif
