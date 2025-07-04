@@ -1,15 +1,6 @@
 ----------------------------------------------
 --   P E T    B A T T L E    M O D U L E    --
 ----------------------------------------------
--- Various simplified rewards
-local SACK_OF_PET_SUPPLIES =
-i(89125, {	-- Sack of Pet Supplies
-	["sym"] = {{ "fill" }},
-});
-local FABLED_PANDAREN_PET_SUPPLIES =
-i(94207, {	-- Fabled Pandaren Pet Supplies
-	["sym"] = {{ "fill" }},
-});
 local SHINY_PET_CHARM = i(116415, { ["timeline"] = { REMOVED_10_2_5 } });	-- Shiny Pet Charm
 root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	n(QUESTS, {
@@ -21,7 +12,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies
 			},
 		}),
 		q(31903, {	-- Battle Pet Tamers: Eastern Kingdoms (H)
@@ -31,7 +22,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["coord"] = { 52.6, 59.3, ORGRIMMAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31889, {	-- Battle Pet Tamers: Kalimdor (A)
@@ -41,7 +32,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["coord"] = { 69.2, 25.0, STORMWIND_CITY },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31891, {	-- Battle Pet Tamers: Kalimdor (H)
@@ -51,7 +42,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["coord"] = { 52.6, 59.3, ORGRIMMAR },
 			["races"] = HORDE_ONLY,
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31919, {	-- Battle Pet Tamers: Outland (A)
@@ -64,7 +55,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				31976,	-- The Returning Champion (A)
 			},
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31921, {	-- Battle Pet Tamers: Outland (H)
@@ -77,7 +68,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				31980,	-- The Returning Champion (H)
 			},
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31927, {	-- Battle Pet Tamers: Northrend (A)
@@ -87,7 +78,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["races"] = ALLIANCE_ONLY,
 			["sourceQuest"] = 31981,	-- Exceeding Expectations (A)
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31929, {	-- Battle Pet Tamers: Northrend (H)
@@ -97,7 +88,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["races"] = HORDE_ONLY,
 			["sourceQuest"] = 31982,	-- Exceeding Expectations (H)
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31966, {	-- Battle Pet Tamers: Cataclysm (A)
@@ -107,7 +98,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["races"] = ALLIANCE_ONLY,
 			["sourceQuest"] = 31984,	-- A Brief Reprieve (A)
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31967, {	-- Battle Pet Tamers: Cataclysm (H)
@@ -117,7 +108,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["races"] = HORDE_ONLY,
 			["sourceQuest"] = 31983,	-- A Brief Reprieve (H)
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31930, {	-- Battle Pet Tamers: Pandaria (A)
@@ -127,7 +118,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["races"] = ALLIANCE_ONLY,
 			["sourceQuest"] = 31985,	-- The Triumphant Return (A)
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31952, {	-- Battle Pet Tamers: Pandaria (H)
@@ -137,7 +128,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			["races"] = HORDE_ONLY,
 			["sourceQuest"] = 31986,	-- The Triumphant Return (H)
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		-- Pet Battle Starting Quests. Alliance = Audrey, Grady, Lehna, Marcus, Valeena, Will. Horde = Ansel, Jarson, Matty, Naleen, Narzak, Varzok.
@@ -540,7 +531,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 64330 },	-- Julia Stevens
 					["coord"] = { 41.6, 83.6, ELWYNN_FOREST },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31724, {	-- Old MacDonald
@@ -554,7 +545,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 65648 },	-- Old MacDonald
 					["coord"] = { 80.6, 18.4, WESTFALL },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31725, {	-- Lindsay
@@ -568,7 +559,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 65651 },	-- Lindsay
 					["coord"] = { 33.2, 52.5, REDRIDGE_MOUNTAINS },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31726, {	-- Eric Davidson
@@ -582,7 +573,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 65655 },	-- Eric Davidson
 					["coord"] = { 19.8, 44.8, DUSKWOOD },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31729, {	-- Steven Lisbane
@@ -596,7 +587,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 63194 },	-- Steven Lisbane
 					["coord"] = { 46.0, 40.4, NORTHERN_STRANGLETHORN },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31728, {	-- Bill Buckler
@@ -610,7 +601,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 65656 },	-- Bill Buckler
 					["coord"] = { 51.4, 73.2, THE_CAPE_OF_STRANGLETHORN },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31917, {	-- A Tamer's Homecoming (A)
@@ -633,7 +624,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 66126 },	-- Zunta
 					["coord"] = { 43.9, 28.9, DUROTAR },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31813, {	-- Dagra the Fierce
@@ -647,7 +638,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 66135 },	-- Dagra the Fierce
 					["coord"] = { 58.6, 53.0, NORTHERN_BARRENS },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31814, {	-- Analynn
@@ -661,7 +652,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 66136 },	-- Analynn
 					["coord"] = { 20.2, 29.5, ASHENVALE },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31815, {	-- Zonya the Sadist
@@ -675,7 +666,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 66137 },	-- Zonya the Sadist
 					["coord"] = { 59.6, 71.6, STONETALON_MOUNTAINS },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31817, {	-- Merda Stronghoof
@@ -689,7 +680,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 66372 },	-- Merda Stronghoof
 					["coord"] = { 57.2, 45.8, DESOLACE },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31870, {	-- Cassandra Kaboom
@@ -703,7 +694,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 					["provider"] = { "n", 66422 },	-- Cassandra Kaboom
 					["coord"] = { 39.5, 79.1, SOUTHERN_BARRENS },
 				}),
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31918, {	-- A Tamer's Homecoming (H)
@@ -723,7 +714,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			},
 			["coord"] = { 40.0, 76.4, DEADWIND_PASS },
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31976, {	-- The Returning Champion (A)
@@ -750,7 +741,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			},
 			["coord"] = { 65.6, 64.5, WINTERSPRING },
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31975, {	-- The Returning Champion (A)
@@ -778,7 +769,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			},
 			["coord"] = { 30.4, 41.8, SHADOWMOON_VALLEY },
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31981, {	-- Exceeding Expectations (A)
@@ -804,7 +795,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			},
 			["coord"] = { 77.4, 19.6, ICECROWN },
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31984, {	-- A Brief Reprieve (A)
@@ -830,7 +821,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			},
 			["coord"] = { 56.6, 41.8, ULDUM },
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(31985, {	-- The Triumphant Return (A)
@@ -855,7 +846,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 			},
 			["coord"] = { 31.2, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
 			["groups"] = {
-				SACK_OF_PET_SUPPLIES,
+				i(89125),	-- Sack of Pet Supplies,
 			},
 		}),
 		q(32603, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {	-- Beasts of Fable
@@ -984,7 +975,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["coord"] = { 55.1, 37.6, DREAD_WASTES },
 				["isDaily"] = true,
 				["groups"] = {
-					SACK_OF_PET_SUPPLIES
+					i(89125),	-- Sack of Pet Supplies
 				},
 			}),
 			q(32439, {	-- Flowing Pandaren Spirit
@@ -1016,7 +1007,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				},
 				["isDaily"] = true,
 				["groups"] = {
-					SACK_OF_PET_SUPPLIES
+					i(89125),	-- Sack of Pet Supplies
 				},
 			}),
 			q(31956, {	-- Grand Master Yon
@@ -1030,7 +1021,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				},
 				["isDaily"] = true,
 				["groups"] = {
-					SACK_OF_PET_SUPPLIES
+					i(89125),	-- Sack of Pet Supplies
 				},
 			}),
 			q(63435, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Temple Throwdown
@@ -1073,7 +1064,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				},
 				["isDaily"] = true,
 				["groups"] = {
-					SACK_OF_PET_SUPPLIES
+					i(89125),	-- Sack of Pet Supplies
 				},
 			}),
 			q(32440, {	-- Whispering Pandaren Spirit
@@ -1099,7 +1090,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["coord"] = { 36.3, 52.2, TOWNLONG_STEPPES },
 				["isDaily"] = true,
 				["groups"] = {
-					SACK_OF_PET_SUPPLIES
+					i(89125),	-- Sack of Pet Supplies
 				},
 			}),
 			q(32434, {	-- Burning Pandaren Spirit
@@ -1133,7 +1124,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
 				["isDaily"] = true,
 				["groups"] = {
-					FABLED_PANDAREN_PET_SUPPLIES
+					i(94207),	-- Fabled Pandaren Pet Supplies
 				},
 			}),
 			q(32868, {	-- Beasts of Fable Book II
@@ -1149,7 +1140,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
 				["isDaily"] = true,
 				["groups"] = {
-					FABLED_PANDAREN_PET_SUPPLIES
+					i(94207),	-- Fabled Pandaren Pet Supplies
 				},
 			}),
 			q(32869, {	-- Beasts of Fable Book III
@@ -1165,7 +1156,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
 				["isDaily"] = true,
 				["groups"] = {
-					FABLED_PANDAREN_PET_SUPPLIES
+					i(94207),	-- Fabled Pandaren Pet Supplies
 				},
 			}),
 			q(31958, {	-- Grand Master Aki
@@ -1179,7 +1170,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				},
 				["isDaily"] = true,
 				["groups"] = {
-					SACK_OF_PET_SUPPLIES
+					i(89125),	-- Sack of Pet Supplies
 				},
 			}),
 			q(31955, {	-- Grand Master Nishi
@@ -1193,7 +1184,7 @@ root(ROOTS.PetBattles, petbattle(bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, 
 				},
 				["isDaily"] = true,
 				["groups"] = {
-					SACK_OF_PET_SUPPLIES
+					i(89125),	-- Sack of Pet Supplies
 				},
 			}),
 		}),

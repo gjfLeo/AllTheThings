@@ -81,7 +81,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				petbattle(filter(BATTLE_PETS, {
+				battlepets({
 					["sym"] = {{"select","speciesID",
 						519,	-- Fel Flame (PET!)
 						483,	-- Horny Toad (PET!)
@@ -96,9 +96,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 26.0, 31.6, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94637, {	-- Corrupted Thundertail
@@ -106,9 +104,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 53.0, 65.2, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94638, {	-- Chaos Pup
@@ -116,9 +112,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 25.0, 76.2, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94639, {	-- Cursed Spirit
@@ -126,9 +120,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 31.4, 38.0, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94640, {	-- Felfly
@@ -136,9 +128,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 55.8, 80.8, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94641, {	-- Tainted Maulclaw
@@ -146,9 +136,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 43.4, 84.6, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94642, {	-- Direflame
@@ -156,9 +144,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 57.8, 37.2, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94643, {	-- Mirecroak
@@ -166,9 +152,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 42.2, 71.6, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94644, {	-- Dark Gazer
@@ -176,9 +160,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 54.0, 29.8, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94645, {	-- Bleakclaw
@@ -186,9 +168,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 15.8, 44.6, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94646, {	-- Vile Blood of Draenor
@@ -196,9 +176,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 44.0, 45.8, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94647, {	-- Dreadwalker
@@ -206,9 +184,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 47.2, 52.6, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94648, {	-- Netherfist
@@ -216,9 +192,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 48.4, 35.6, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94649, {	-- Skrillix
@@ -226,9 +200,7 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 48.4, 31.2, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
 							n(94650, {	-- Defiled Earth
@@ -236,20 +208,9 @@ root(ROOTS.Zones, {
 								["isDaily"] = true,
 								["coord"] = { 75.4, 37.4, TANAAN_JUNGLE },
 								["g"] = {
-									i(127751, {	-- Fel-Touched Pet Supplies
-										["sym"] = { { "fill" } },
-									}),
+									i(127751),	-- Fel-Touched Pet Supplies
 								},
 							}),
-						}),
-						i(127751, {	-- Fel-Touched Pet Supplies
-							["description"] = "Fel-Touched Pet Supplies is the reward for defeating any of the Tiny Terrors in Tanaan. You can defeat each Tiny Terror once per character per day.|r",
-							["g"] = {
-								i(127753),	-- Nightmare Bell (PET!)
-								i(127754),	-- Periwinkle Calf (PET!)
-								i(118105),	-- Seaborne Spore (PET!)
-								i(118101),	-- Zangar Spore (PET!)
-							},
 						}),
 						pet(1468),	--  Bloodbeak (PET!)
 						pet(1586),	--  Cerulean Moth (PET!)
@@ -258,7 +219,7 @@ root(ROOTS.Zones, {
 						}),
 						pet(1591),	--  Violet Firefly (PET!)
 					},
-				})),
+				}),
 				explorationHeader({
 					exploration(7536),	-- Aktar's Post
 					exploration(7717),	-- Bleeding Hollow Hunting Grounds
@@ -1593,6 +1554,17 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+				}),
+				n(REWARDS, {
+					petbattle(container(127751, {	-- Fel-Touched Pet Supplies
+						["description"] = "Fel-Touched Pet Supplies is the reward for defeating any of the Tiny Terrors in Tanaan. You can defeat each Tiny Terror once per character per day.",
+						["g"] = {
+							i(127753),	-- Nightmare Bell (PET!)
+							i(127754),	-- Periwinkle Calf (PET!)
+							i(118105),	-- Seaborne Spore (PET!)
+							i(118101),	-- Zangar Spore (PET!)
+						},
+					})),
 				}),
 				n(TREASURES, {
 					o(241692, {	-- Axe of the Weeping Wolf

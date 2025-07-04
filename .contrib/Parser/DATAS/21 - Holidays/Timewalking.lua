@@ -2717,7 +2717,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 					filter(MISC, {
 						i(46007, {  -- Bag of Fishing Treasure
 							["cost"] = {{"c", TIMEWARPED_BADGE, 150}},
-							["sym"] = {{"fill" }},
 						}),
 						i(129955, {	-- Commendation of the Alliance Vanguard
 							["cost"] = {{"c", TIMEWARPED_BADGE, 50}},
@@ -2742,11 +2741,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 						}),
 						i(44113, {	-- Small Spice Bag
 							["cost"] = {{"c", TIMEWARPED_BADGE, 25}},
-							["g"] = {
-								i(34834),	-- Recipe: Captain Rumsey's Lager (RECIPE!)
-								i(33925),	-- Recipe: Delicious Chocolate Cake (RECIPE!)
-								i(33871),	-- Recipe: Stormchops (RECIPE!)
-							},
 						}),
 					}),
 					filter(MOUNTS, {

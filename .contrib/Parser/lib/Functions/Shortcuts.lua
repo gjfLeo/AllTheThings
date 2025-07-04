@@ -1154,6 +1154,20 @@ iexact = function(itemID, modID, bonusID, t)			-- Create an exact ITEM Object (s
 	end
 	return i;
 end
+container = function(id, t)								-- This function helps build an item container for a "sack" or "bag" or some other type of reward structure.
+	local bag = header(HEADERS.Item, id, t);
+	local providers = bag.providers;
+	if not providers then
+		providers = {};
+		bag.providers = providers;
+	end
+	providers[#providers + 1] = { "i", id };
+	if bag.provider then
+		providers[#providers + 1] = bag.provider;
+		bag.provider = nil;
+	end
+	return bag;
+end
 
 ---@param id number
 ---@param t? table
