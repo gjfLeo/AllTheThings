@@ -412,10 +412,6 @@ root(ROOTS.NeverImplemented, {
 					i(72036),	-- Placeholder Dagger 1
 					i(72037),	-- Placeholder Dagger 2
 				}),
-				filter(FIST_WEAPONS, {
-					i(77278),	-- Trainee's Handwrap
-					i(77279),	-- Trainee's Handwrap
-				}),
 				filter(HELD_IN_OFF_HAND, {
 					i(72034),	-- Placeholder Offhand 1
 					i(72024),	-- Placeholder Offhand 2
