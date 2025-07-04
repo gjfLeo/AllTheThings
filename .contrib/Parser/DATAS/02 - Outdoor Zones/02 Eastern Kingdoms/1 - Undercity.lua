@@ -1033,7 +1033,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(122338, {	-- Ancient Heirloom Armor Casing
-							["sym"] = { { "fill" } },	-- simply fill this item
+							["timeline"] = { ADDED_6_1_0 },
 						}),
 					},
 				}),
@@ -1871,7 +1871,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						n(HEIRLOOMS, {
 							gold(500, i(122338, {	-- Ancient Heirloom Armor Casing
-								["sym"] = { { "fill" } },	-- simply fill this item
+								["timeline"] = { ADDED_6_1_0 },
 							})),
 							gold(750, i(122339, {	-- Ancient Heirloom Scabbard
 								["sym"] = { { "fill" } },	-- simply fill this item

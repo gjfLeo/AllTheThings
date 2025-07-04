@@ -1477,9 +1477,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 			["coord"] = { 53.8, 35.3, MOONGLADE },
 			["groups"] = {
 				i(122338, {	-- Ancient Heirloom Armor Casing
-					["timeline"] = { ADDED_6_1_0 },
 					["cost"] = { { "i", 21100, 40 } },	-- 40x Coin of Ancestry
-					["sym"] = { { "fill" } },	-- simply fill this item
+					["timeline"] = { ADDED_6_1_0 },
 				}),
 				i(167731, {	-- Battle-Hardened Heirloom Armor Casing
 					["timeline"] = { ADDED_8_1_5 },

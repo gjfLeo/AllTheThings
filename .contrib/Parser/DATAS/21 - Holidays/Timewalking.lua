@@ -137,7 +137,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 			["groups"] = {
 				i(122338, {	-- Ancient Heirloom Armor Casing
 					["cost"] = {{ "c", TIMEWARPED_BADGE, 750 }},
-					["sym"] = {{ "fill" }},
 				}),
 				i(122339, {	-- Ancient Heirloom Scabbard
 					["cost"] = {{ "c", TIMEWARPED_BADGE, 900 }},
@@ -354,7 +353,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 					filter(MISC, {	-- Might be unecessary..
 						i(122338, {	-- Ancient Heirloom Armor Casing
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 750 }},
-							["sym"] = {{ "fill" }},
 						}),
 						i(122339, {	-- Ancient Heirloom Scabbard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 900 }},

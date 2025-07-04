@@ -25,9 +25,8 @@ HALLOWS_END_HEADER = createHeader({
 });
 local CANDY_AND_TOY_VENDOR_GROUPS = {
 	i(122338, {	-- Ancient Heirloom Armor Casing
-		["timeline"] = { ADDED_6_1_0 },
 		["cost"] = { { "i", 33226, 250 } },	-- 250x Tricky Treat
-		["sym"] = { { "fill" } },	-- simply fill this item
+		["timeline"] = { ADDED_6_1_0 },
 	}),
 	i(167731, {	-- Battle-Hardened Heirloom Armor Casing
 		["timeline"] = { ADDED_8_1_5 },

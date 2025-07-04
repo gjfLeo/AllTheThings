@@ -210,14 +210,13 @@ local FLAME_STEAL_REWARDS = {
 
 local MERCHANT_GROUPS = {
 	i(122338, {	-- Ancient Heirloom Armor Casing
-		["timeline"] = { ADDED_6_1_0 },
 		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
-		["sym"] = { { "fill" } },	-- simply fill this item
+		["timeline"] = { ADDED_6_1_0 },
 	}),
 	i(167731, {	-- Battle-Hardened Heirloom Armor Casing
-		["timeline"] = { ADDED_8_1_5 },
 		["cost"] = { { "i", 23247, 600 } },	-- Burning Blossom
 		["sym"] = { { "fill" } },	-- simply fill this item
+		["timeline"] = { ADDED_8_1_5 },
 	}),
 	i(187997, {	-- Eternal Heirloom Armor Casing
 		["timeline"] = { ADDED_9_1_5 },

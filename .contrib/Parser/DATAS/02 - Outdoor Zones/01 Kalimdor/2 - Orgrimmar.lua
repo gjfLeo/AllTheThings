@@ -3332,7 +3332,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						})),
 						moh(12, i(122338, {	-- Ancient Heirloom Armor Casing
 							["timeline"] = { ADDED_6_1_0 },
-							["sym"] = {{ "fill" }},	-- simply fill this item
 						})),
 						moh(14, i(122339, {	-- Ancient Heirloom Scabbard
 							["timeline"] = { ADDED_6_1_0 },
