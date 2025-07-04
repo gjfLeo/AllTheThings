@@ -210,7 +210,6 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	})),
 	moh(14, i(122339, {	-- Ancient Heirloom Scabbard
 		["timeline"] = { ADDED_6_1_0 },
-		["sym"] = {{ "fill" }},	-- simply fill this item
 	})),
 	moh(10, i(122369, {	-- Battleworn Thrash Blade
 		["timeline"] = { ADDED_6_1_0 },

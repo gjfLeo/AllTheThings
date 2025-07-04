@@ -2102,7 +2102,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				n(HEIRLOOMS, {
 					i(122339, {	-- Ancient Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 200}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(204337, {	-- Awakened Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
@@ -2213,7 +2212,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				i(122339, {	-- Ancient Heirloom Scabbard
 					["cost"] = { { "i", LOVE_TOKEN, 200 } },	-- 200x Love Token
 					["timeline"] = { ADDED_6_1_0 },
-					["sym"] = { { "fill" } },	-- simply fill this item
 				}),
 				i(167732, {	-- Battle-Hardened Heirloom Scabbard
 					["cost"] = { { "i", LOVE_TOKEN, 450 } },	-- 450x Love Token
@@ -2426,7 +2424,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				n(HEIRLOOMS, {
 					i(122339, {	-- Ancient Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 200}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(204337, {	-- Awakened Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},

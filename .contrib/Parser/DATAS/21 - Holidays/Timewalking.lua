@@ -140,7 +140,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 				}),
 				i(122339, {	-- Ancient Heirloom Scabbard
 					["cost"] = {{ "c", TIMEWARPED_BADGE, 900 }},
-					["sym"] = {{ "fill" }},
 				}),
 				i(204336, {	-- Awakened Heirloom Armor Casing
 					["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
@@ -356,7 +355,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 						}),
 						i(122339, {	-- Ancient Heirloom Scabbard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 900 }},
-							["sym"] = {{ "fill" }},
 						}),
 						i(204336, {	-- Awakened Heirloom Armor Casing
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},

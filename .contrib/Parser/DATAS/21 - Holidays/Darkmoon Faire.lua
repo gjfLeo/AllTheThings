@@ -3827,7 +3827,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						["timeline"] = { ADDED_6_1_0 },
 					})),
 					darkmoonprizeticket(120, i(122339, {	-- Ancient Heirloom Scabbard
-						["sym"] = { { "fill" } },	-- simply fill this item
 						["timeline"] = { ADDED_6_1_0 },
 					})),
 

@@ -2970,7 +2970,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						i(122339, {	-- Ancient Heirloom Scabbard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 900 }},
-							["sym"] = {{ "fill" }},
 						}),
 						i(204336, {	-- Awakened Heirloom Armor Casing
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},

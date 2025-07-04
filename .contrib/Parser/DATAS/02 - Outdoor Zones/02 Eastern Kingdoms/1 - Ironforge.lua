@@ -433,7 +433,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(122339, {	-- Ancient Heirloom Scabbard
-							["sym"] = { { "fill" } },	-- simply fill this item
 							["timeline"] = { ADDED_6_1_0 },
 						}),
 					},
@@ -1985,6 +1984,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if AFTER 6.1.0
 				n(6294, {	-- Krom Stoutarm <Heirloom Curator>
 					["coord"] = { 74.6, 9.8, IRONFORGE },
+					["timeline"] = { ADDED_6_1_0 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						n(ARMOR, {
@@ -2040,7 +2040,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								["timeline"] = { ADDED_6_1_0 },
 							})),
 							gold(750, i(122339, {	-- Ancient Heirloom Scabbard
-								["sym"] = { { "fill" } },	-- simply fill this item
+								["timeline"] = { ADDED_6_1_0 },
 							})),
 							gold(1000, i(122340, {	-- Timeworn Heirloom Armor Casing
 								["sym"] = { { "fill" } },	-- simply fill this item
