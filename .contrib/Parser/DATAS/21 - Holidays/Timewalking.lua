@@ -1224,7 +1224,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_OUTLAND
 					filter(MISC, {
 						i(35348, {	-- Bag of Fishing Treasures
 							["cost"] = {{"c", TIMEWARPED_BADGE, 150}},
-							["sym"] = {{"fill"}},
 						}),
 						i(33844, {	-- Barrel of Fish
 							["cost"] = {{"c", TIMEWARPED_BADGE, 25}},
