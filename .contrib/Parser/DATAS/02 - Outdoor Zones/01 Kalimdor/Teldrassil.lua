@@ -77,18 +77,46 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(26946, {	-- A Rogue's Advantage (Night Elf)
 							["qg"] = 3594,	-- Frahun Shadewhisper <Rogue Trainer>
 							["sourceQuest"] = 3118,	-- Encrypted Sigil
-							["coord"] = { 58.9, 33.9, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 49.2, 53.2, SHADOWGLEN },
+								-- #else
+								{ 58.9, 33.9, TELDRASSIL },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { NIGHTELF },
 							["classes"] = { ROGUE },
+							["groups"] = {
+								-- #if BEFORE MOP
+								-- #else
+								objective(2, {	-- 0/3 Practice using Eviscerate
+									["provider"] = { "n", 44614 },	-- Training Dummy
+								}),
+								-- #endif
+							},
 						}),
 						q(26947, {	-- A Woodman's Training (Night Elf)
 							["qg"] = 3596,	-- Ayanna Everstride <Hunter Trainer>
 							["sourceQuest"] = 3117,	-- Etched Sigil
-							["coord"] = { 58.9, 35.7, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 49.2, 60.5, SHADOWGLEN },
+								-- #else
+								{ 58.9, 35.7, TELDRASSIL },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { NIGHTELF },
 							["classes"] = { HUNTER },
+							["groups"] = {
+								-- #if BEFORE MOP
+								-- #else
+								objective(2, {	-- 0/5 Practice Steady Shot
+									["provider"] = { "n", 44614 },	-- Training Dummy
+								}),
+								-- #endif
+							},
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, q(77568, {	-- A Hunter's Strength
@@ -129,10 +157,24 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(26940, {	-- Arcane Missiles [Cata] / Frost Nova [MoP+] (Night Elf)
 							["qg"] = 43006, -- Rhyanda <Mage Trainer>
 							["sourceQuest"] = 26841,	-- Forbidden Sigil
-							["coord"] = { 58.4, 35.5, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 47.4, 59.7, SHADOWGLEN },
+								-- #else
+								{ 58.4, 35.5, TELDRASSIL },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { NIGHTELF },
 							["classes"] = { MAGE },
+							["groups"] = {
+								-- #if BEFORE MOP
+								-- #else
+								objective(2, {	-- 0/2 Practice using Frost Nova [MoP+]
+									["provider"] = { "n", 44614 },	-- Training Dummy
+								}),
+								-- #endif
+							},
 						}),
 						q(31168, {	-- Calligraphed Sigil
 							["providers"] = {
@@ -432,17 +474,31 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(26945, {	-- Learning New Techniques (Night Elf)
 							["qg"] = 3593,	-- Alyissia <Warrior Trainer>
 							["sourceQuest"] = 3116,	-- Simple Sigil
-							["coord"] = { 58.8, 33.7, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 49.2, 52.4, SHADOWGLEN },
+								-- #else
+								{ 58.8, 33.7, TELDRASSIL },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { NIGHTELF },
 							["classes"] = { WARRIOR },
+							["groups"] = {
+								-- #if BEFORE MOP
+								-- #else
+								objective(2, {	-- 0/1 Practice Charge
+									["provider"] = { "n", 44614 },	-- Training Dummy
+								}),
+								-- #endif
+							},
 						}),
-						q(26949, {	-- Healing for the Wounded (Night Elf)
+						q(26949, {	-- Healing for the Wounded [Cata] / Learning the Word [MoP+] (Night Elf)
 							["qg"] = 3595,	-- Shanda <Priest Trainer>
 							["sourceQuest"] = 3119,	-- Hallowed Sigil
 							["coords"] = {
 								-- #if AFTER MOP
-								{ 47.6, 59.6, SHADOWGLEN },
+								{ 47.6, 59.4, SHADOWGLEN },
 								-- #else
 								{ 58.4, 35.5, TELDRASSIL },
 								-- #endif
@@ -450,6 +506,14 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { NIGHTELF },
 							["classes"] = { PRIEST },
+							["groups"] = {
+								-- #if BEFORE MOP
+								-- #else
+								objective(2, {	-- 0/5 Practice Shadow Word: Pain [MoP+]
+									["provider"] = { "n", 44614 },	-- Training Dummy
+								}),
+								-- #endif
+							},
 						}),
 						-- #if SEASON_OF_DISCOVERY
 						applyclassicphase(SOD_PHASE_ONE, q(77574, {	-- Meditation on Elune
@@ -533,10 +597,24 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						q(26948, {	-- Rejuvenating Touch [Cata] / Moonfire [MoP+] (Night Elf)
 							["qg"] = 3597,	-- Mardant Strongoak <Druid Trainer>
 							["sourceQuest"] = 3120,	-- Verdant Sigil
-							["coord"] = { 58.2, 34.8, TELDRASSIL },
+							["coords"] = {
+								-- #if AFTER MOP
+								{ 46.6, 56.6, SHADOWGLEN },
+								-- #else
+								{ 58.2, 34.8, TELDRASSIL },
+								-- #endif
+							},
 							["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 							["races"] = { NIGHTELF },
 							["classes"] = { DRUID },
+							["groups"] = {
+								-- #if BEFORE MOP
+								-- #else
+								objective(2, {	-- 0/1 Practice Moonfire [MoP+]
+									["provider"] = { "n", 44614 },	-- Training Dummy
+								}),
+								-- #endif
+							},
 						}),
 						-- #if NOT ANYCLASSIC
 						q(5629, {	-- Returning Home [Teldrassil]
