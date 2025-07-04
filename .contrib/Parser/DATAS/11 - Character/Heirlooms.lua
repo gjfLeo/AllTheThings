@@ -17,10 +17,18 @@ root(ROOTS.Character, n(HEIRLOOMS, {
 }))
 
 root(ROOTS.Character, n(HEIRLOOMS, bubbleDownFiltered({},FILTERFUNC_itemID,{
-	container(122338),	-- Ancient Heirloom Armor Casing
-	container(122339),	-- Ancient Heirloom Scabbard
-	container(122340),	-- Timeworn Heirloom Armor Casing
-	container(122341),	-- Timeworn Heirloom Scabbard
+	container(122338, {	-- Ancient Heirloom Armor Casing
+		["timeline"] = { ADDED_6_1_0 },
+	}),
+	container(122339, {	-- Ancient Heirloom Scabbard
+		["timeline"] = { ADDED_6_1_0 },
+	}),
+	container(122340, {	-- Timeworn Heirloom Armor Casing
+		["timeline"] = { ADDED_6_1_0 },
+	}),
+	container(122341, {	-- Timeworn Heirloom Scabbard
+		["timeline"] = { ADDED_6_1_0 },
+	}),
 	container(151614, {	-- Weathered Heirloom Armor Casing
 		["timeline"] = { ADDED_7_2_5 },
 	}),
