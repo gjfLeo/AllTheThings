@@ -915,6 +915,7 @@ localize(L.HEADER_NAMES, {
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "A specific holiday may need to be active for you to complete the referenced Things within this section.",
+	[-1000029] = "This section contains Pet Battle related quests and tamers.",
 	[-1000030] = "This section will only show your current character's professions outside of Account and Debug Mode.",
 	[-1000033] = "Contains Things which are rewarded or are available from other content within the containing section.\nThey are consolidated here in an effort to reduce duplication from many possible Sources.",
 	[-1000097] = "This section will show you things that you could buy in the In-Game Shop in Retail.",
@@ -8574,6 +8575,14 @@ local phases = {
 		buildVersion = 50501,
 		state = 2,
 	},
+	[53] = {
+		name = "Escalation",
+		description = "|cFFAAFFAAThis was not available until Escalation of Mists of Pandaria Classic.|r",
+		lore = "|cFFFFAAAAIncluded Heroic Scenarios, Battlefield: Barrens Scenario, Deepwind Gorge, and the Tiger's Peak arena.|r",
+		minimumBuildVersion = 50500,
+		buildVersion = 50502,
+		state = 2,
+	},
 	[54] = {
 		name = "Siege of Orgrimmar",
 		description = "|cFFAAFFAAThis was not available until Siege of Orgrimmar of Mists of Pandaria Classic.|r",
@@ -11087,6 +11096,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAADies war erst Phase 1 von Mists of Pandaria Classic verfügbar.|r",
 	[51] = "|cFFAAFFAADies war erst Landfall von Mists of Pandaria Classic verfügbar.|r",
 	[52] = "|cFFAAFFAADies war erst Rise of the Thunder King von Mists of Pandaria Classic verfügbar.|r",
+	[53] = "|cFFAAFFAADies war erst Escalation von Mists of Pandaria Classic verfügbar.|r",
 	[54] = "|cFFAAFFAADies war erst Siege of Orgrimmar von Mists of Pandaria Classic verfügbar.|r",
 })
 do phases[key].description = value; end
@@ -13628,6 +13638,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAACeci n'était pas disponible avant le Phase 1 du Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAACeci n'était pas disponible avant le Landfall du Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAACeci n'était pas disponible avant le Rise of the Thunder King du Mists of Pandaria Classic.|r",
+	[53] = "|cFFAAFFAACeci n'était pas disponible avant le Escalation du Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAACeci n'était pas disponible avant le Siege of Orgrimmar du Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
@@ -15688,6 +15699,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAAQuesto non era disponibile fino al Phase 1 di Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAQuesto non era disponibile fino al Landfall di Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAQuesto non era disponibile fino al Rise of the Thunder King di Mists of Pandaria Classic.|r",
+	[53] = "|cFFAAFFAAQuesto non era disponibile fino al Escalation di Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAQuesto non era disponibile fino al Siege of Orgrimmar di Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
@@ -18084,6 +18096,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAAIsto não estava disponível até Phase 1 de Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAIsto não estava disponível até Landfall de Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAIsto não estava disponível até Rise of the Thunder King de Mists of Pandaria Classic.|r",
+	[53] = "|cFFAAFFAAIsto não estava disponível até Escalation de Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAIsto não estava disponível até Siege of Orgrimmar de Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
@@ -20665,6 +20678,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAAЭто было недоступно до Phase 1 из Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAЭто было недоступно до Landfall из Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAЭто было недоступно до Rise of the Thunder King из Mists of Pandaria Classic.|r",
+	[53] = "|cFFAAFFAAЭто было недоступно до Escalation из Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAЭто было недоступно до Siege of Orgrimmar из Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
@@ -23307,6 +23321,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAAPhase 1(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 	[51] = "|cFFAAFFAALandfall(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 	[52] = "|cFFAAFFAARise of the Thunder King(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
+	[53] = "|cFFAAFFAAEscalation(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 	[54] = "|cFFAAFFAASiege of Orgrimmar(Mists of Pandaria Classic)까지 사용할 수 없습니다.|r",
 })
 do phases[key].description = value; end
@@ -25893,6 +25908,7 @@ for key,value in pairs({
 	[50] = "Fase 1",
 	[51] = "Desembarco",
 	[52] = "El Rey del Trueno",
+	[53] = "Intensificación del Conflicto",
 	[54] = "Asedio de Orgrimmar",
 })
 do phases[key].name = value; end
@@ -25947,6 +25963,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAAEsto no estuvo disponible hasta Fase 1 de Mists of Pandaria Classic.|r",
 	[51] = "|cFFAAFFAAEsto no estuvo disponible hasta Desembarco de Mists of Pandaria Classic.|r",
 	[52] = "|cFFAAFFAAEsto no estuvo disponible hasta El Rey del Trueno de Mists of Pandaria Classic.|r",
+	[53] = "|cFFAAFFAAEsto no estuvo disponible hasta Intensificación del Conflicto de Mists of Pandaria Classic.|r",
 	[54] = "|cFFAAFFAAEsto no estuvo disponible hasta Asedio de Orgrimmar de Mists of Pandaria Classic.|r",
 })
 do phases[key].description = value; end
@@ -25996,6 +26013,7 @@ for key,value in pairs({
 	[50] = "|cFFFFAAAAIncluido la gesta de la Caída de Theramore de nivel 85 y el sistema de talentos actualizado.|r",
 	[51] = "|cFFFFAAAAIncluye las Bóvedas Mogu'shan, El Corazón del Miedo y la Veranda de la primavera eterna.|r",
 	[52] = "|cFFFFAAAAIncluía el Trono del Trueno, la Isla de los Gigantes y la Isla del Trueno.|r",
+	[53] = "|cFFFFAAAAIncluia gestas heroicas, Campo de batalla: Gesta Los Baldíos, Cañón del Céfiro y la arena La cima del Tigre.|r",
 	[54] = "|cFFFFAAAAIncluía Asedio de Orgrimmar y la Isla intemporal.|r",
 })
 do phases[key].lore = value; end
@@ -28300,6 +28318,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAA该功能直到 Phase 1 的 Mists of Pandaria Classic 才可用。|r",
 	[51] = "|cFFAAFFAA该功能直到 Landfall 的 Mists of Pandaria Classic 才可用。|r",
 	[52] = "|cFFAAFFAA该功能直到 Rise of the Thunder King 的 Mists of Pandaria Classic 才可用。|r",
+	[53] = "|cFFAAFFAA该功能直到 Escalation 的 Mists of Pandaria Classic 才可用。|r",
 	[54] = "|cFFAAFFAA该功能直到 Siege of Orgrimmar 的 Mists of Pandaria Classic 才可用。|r",
 })
 do phases[key].description = value; end
@@ -28557,6 +28576,7 @@ for key,value in pairs({
 	[50] = "|cFFAAFFAA該功能直到 第1階段 的 Mists of Pandaria Classic 才可用。|r",
 	[51] = "|cFFAAFFAA該功能直到 Landfall 的 Mists of Pandaria Classic 才可用。|r",
 	[52] = "|cFFAAFFAA該功能直到 Rise of the Thunder King 的 Mists of Pandaria Classic 才可用。|r",
+	[53] = "|cFFAAFFAA該功能直到 Escalation 的 Mists of Pandaria Classic 才可用。|r",
 	[54] = "|cFFAAFFAA該功能直到 Siege of Orgrimmar 的 Mists of Pandaria Classic 才可用。|r",
 })
 do phases[key].description = value; end
