@@ -12,7 +12,7 @@ root(ROOTS.Zones, {
 				n(FACTIONS, {
 					faction(1216, {	-- Shang Xi's Academy
 						["description"] = "The maximum obtainable reputation with this faction is 8510/12000 (Honored).",
-						["collectible"] = false,
+						["minReputation"] = { 1216, HONORED + 8510 },	-- Shang Xi's Academy, Honored + change.
 					}),
 				}),
 				n(QUESTS, {
