@@ -106,6 +106,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 				-- #if AFTER 9.1.5.40871
 				180899,	-- Aridormi <Timewalking Vendor>
 				-- #endif
+				-- #if AFTER 11.0.7
+				234555,	-- Bobadormu <Timewalking Vendor>
+				-- #endif
 				-- #if AFTER 11.1.7
 				239840,	-- Churbro <Timewalking Vendor>
 				-- #endif
@@ -131,7 +134,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 				-- #endif
 				-- #if AFTER 11.1.7
 				BORALUS,
-				DAZARALOR, -- TODO or Zuldazar?
+				DAZARALOR,
 				-- #endif
 			},
 			["groups"] = {
@@ -339,52 +342,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 						i(224565),	-- Commendation of the Wintersaber Trainers
 						i(224570),	-- Commendation of the Zandalar Tribe
 					})),
-					filter(MISC, {	-- Might be unecessary..
-						i(122338, {	-- Ancient Heirloom Armor Casing
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 750 }},
-						}),
-						i(122339, {	-- Ancient Heirloom Scabbard
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 900 }},
-						}),
-						i(204336, {	-- Awakened Heirloom Armor Casing
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
-							["timeline"] = { ADDED_10_0_7 },
-						}),
-						i(204337, {	-- Awakened Heirloom Scabbard
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
-							["timeline"] = { ADDED_10_0_7 },
-						}),
-						i(167731, {	-- Battle-Hardened Heirloom Armor Casing
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-						i(167732, {	-- Battle-Hardened Heirloom Scabbard
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-						i(187997, {	-- Eternal Heirloom Armor Casing
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
-							["timeline"] = { ADDED_9_1_5 },
-						}),
-						i(187998, {	-- Eternal Heirloom Scabbard
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
-							["timeline"] = { ADDED_9_1_5 },
-						}),
-						i(122340, {	-- Timeworn Heirloom Armor Casing
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
-						}),
-						i(122341, {	-- Timeworn Heirloom Scabbard
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
-						}),
-						i(151614, {	-- Weathered Heirloom Armor Casing
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
-							["timeline"] = { ADDED_7_2_5 },
-						}),
-						i(151615, {	-- Weathered Heirloom Scabbard
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
-							["timeline"] = { ADDED_7_2_5 },
-						}),
-					}),
 					filter(MISC, {
 						i(224190, {	-- Kreeg's Hardy Draught
 							["cost"] = {{"c", TIMEWARPED_BADGE, 25}}
