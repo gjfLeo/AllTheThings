@@ -560,7 +560,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(122340, {	-- Timeworn Heirloom Armor Casing
-							["sym"] = { { "fill" } },	-- simply fill this item
+							["timeline"] = { ADDED_6_1_0 },
 						}),
 					},
 				}),
@@ -1526,7 +1526,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = HORDE_ONLY,
 					["groups"] = {
 						i(122341, {	-- Timeworn Heirloom Scabbard
-							["sym"] = { { "fill" } },	-- simply fill this item
+							["timeline"] = { ADDED_6_1_0 },
 						}),
 					},
 				}),
@@ -1878,42 +1878,34 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								["timeline"] = { ADDED_6_1_0 },
 							})),
 							gold(1000, i(122340, {	-- Timeworn Heirloom Armor Casing
-								["sym"] = { { "fill" } },	-- simply fill this item
+								["timeline"] = { ADDED_6_1_0 },
 							})),
 							gold(1500, i(122341, {	-- Timeworn Heirloom Scabbard
-								["sym"] = { { "fill" } },	-- simply fill this item
+								["timeline"] = { ADDED_6_1_0 },
 							})),
 							gold(2000, i(151614, {	-- Weathered Heirloom Armor Casing
 								["timeline"] = { ADDED_7_2_5 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 							gold(3000, i(151615, {	-- Weathered Heirloom Scabbard
 								["timeline"] = { ADDED_7_2_5 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 							gold(5000, i(167731, {	-- Battle-Hardened Heirloom Armor Casing
 								["timeline"] = { ADDED_8_1_5 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 							gold(7500, i(167732, {	-- Battle-Hardened Heirloom Scabbard
 								["timeline"] = { ADDED_8_1_5 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 							gold(5000, i(187997, {	-- Eternal Heirloom Armor Casing
 								["timeline"] = { ADDED_9_1_5 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 							gold(7500, i(187998, {	-- Eternal Heirloom Scabbard
 								["timeline"] = { ADDED_9_1_5 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 							gold(5000, i(204336, {	-- Awakened Heirloom Armor Casing
 								["timeline"] = { ADDED_10_0_7 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 							gold(7500, i(204337, {	-- Awakened Heirloom Scabbard
 								["timeline"] = { ADDED_10_0_7 },
-								["sym"] = { { "fill" } },	-- simply fill this item
 							})),
 						}),
 						filter(TOYS, {

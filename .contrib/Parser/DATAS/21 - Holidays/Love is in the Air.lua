@@ -2105,23 +2105,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					}),
 					i(204337, {	-- Awakened Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(167732, {	-- Battle-Hardened Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(187998, {	-- Eternal Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(122341, {	-- Timeworn Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(151615, {	-- Weathered Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 				}),
 				filter(MISC, {
@@ -2216,22 +2211,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				i(167732, {	-- Battle-Hardened Heirloom Scabbard
 					["cost"] = { { "i", LOVE_TOKEN, 450 } },	-- 450x Love Token
 					["timeline"] = { ADDED_8_1_5 },
-					["sym"] = { { "fill" } },	-- simply fill this item
 				}),
 				i(187998, {	-- Eternal Heirloom Scabbard
 					["cost"] = { { "i", LOVE_TOKEN, 450 } },	-- 450x Love Token
 					["timeline"] = { ADDED_9_1_5 },
-					["sym"] = { { "fill" } },	-- simply fill this item
 				}),
 				i(122341, {	-- Timeworn Heirloom Scabbard
 					["cost"] = { { "i", LOVE_TOKEN, 450 } },	-- 450x Love Token
 					["timeline"] = { ADDED_6_1_0 },
-					["sym"] = { { "fill" } },	-- simply fill this item
 				}),
 				i(151615, {	-- Weathered Heirloom Scabbard
 					["cost"] = { { "i", LOVE_TOKEN, 450 } },	-- 450x Love Token
 					["timeline"] = { ADDED_7_2_5 },
-					["sym"] = { { "fill" } },	-- simply fill this item
 				}),
 				i(50161, {	-- Dinner Suit Box
 					["timeline"] = { ADDED_3_3_2 },
@@ -2427,23 +2418,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 					}),
 					i(204337, {	-- Awakened Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(167732, {	-- Battle-Hardened Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(187998, {	-- Eternal Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(122341, {	-- Timeworn Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 					i(151615, {	-- Weathered Heirloom Scabbard
 						["cost"] = {{"i", LOVE_TOKEN, 450}},
-						["sym"] = {{"fill"}},	-- simply fill this item
 					}),
 				}),
 				filter(MISC, {
