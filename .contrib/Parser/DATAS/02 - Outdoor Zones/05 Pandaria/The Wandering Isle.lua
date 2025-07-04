@@ -228,10 +228,10 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- Reignite the Spirit of Fire
 								["providers"] = {
-									{ "n", 54787 },	-- Huo <Ancient Spirit of Fire>
+									{ "n", 57779 },	-- Huo <Ancient Spirit of Fire>
 									{ "i", 72583 },	-- Huo's Offerings (QI!)
 								},
-								["coord"] = { 39.4, 29.6, THE_WANDERING_ISLE_STARTING_ZONE },
+								["coord"] = { 39.44, 29.59, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 						},
 					}),
@@ -458,6 +458,7 @@ root(ROOTS.Zones, {
 							i(73238),	-- Dagger of the Master
 							i(73237),	-- Mace of the Master
 							i(73239),	-- Staff of the Master
+							i(73242),	-- Master's Haversack
 						},
 					}),
 					q(29790, {	-- Passing Wisdom
@@ -1055,6 +1056,10 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 29422,	-- Huo, the Spirit of Fire
 						["coord"] = { 39.4, 29.5, THE_WANDERING_ISLE_STARTING_ZONE },
 						["groups"] = {
+							objective(1, {	-- Bring the Spirit of Fire to the Temple of Five Dawns
+								["provider"] = { "n", 54958 },	-- Huo
+								["coord"] = { 39.4, 29.5, THE_WANDERING_ISLE_STARTING_ZONE },
+							}),
 							i(73236),	-- Dagger of Silent Flame
 							i(73234),	-- Flameheart Crossbow
 							i(73233),	-- Shield of Blazing Will
@@ -1248,7 +1253,7 @@ root(ROOTS.Zones, {
 							{ 59.1, 17.3, THE_WANDERING_ISLE_STARTING_ZONE },
 						},
 						["description"] = "Only available during The Lesson of the Iron Bough.",
-						["groups"] = {
+						["groups"] = bubbleDown({ ["b"] = 1 }, {
 							i(76391, {	-- Trainee's Axe
 								["classes"] = {
 									SHAMAN,
@@ -1306,7 +1311,7 @@ root(ROOTS.Zones, {
 								["timeline"] = { ADDED_5_0_4, REMOVED_9_0_1 },
 								["classes"] = { WARRIOR },
 							}),
-						},
+						}),
 					}),
 				}),
 			},
