@@ -70,7 +70,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 					pet(401),	-- Strand Crab (PET!)
 					pet(410, {	-- Wharf Rat (PET!)
-						["description"] = "Can be found relaibly as secondary pets alongside Baby Apes, but also found in Booty Bay.",
+						["description"] = "Can be found reliably as secondary pets alongside Baby Apes, but also found in Booty Bay.",
 					}),
 				},
 			}),
