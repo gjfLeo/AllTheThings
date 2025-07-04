@@ -1942,9 +1942,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 							38682,	-- Enchanting Vellum
 							-- #endif
 						},
-						["groups"] = {
-							i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
-						},
+					},
+					["groups"] = {
+						i(22307),	-- Pattern: Enchanted Mageweave Pouch (RECIPE!)
 					},
 				}),
 				n(4175, {	-- Vinasia <Cloth Armor Merchant>
