@@ -1871,8 +1871,13 @@ namespace ATT
                 }
             }
 
-            // Convert any 'n' providers into 'qgs' for data simplicity
-            if (data.TryGetValue("providers", out List<object> providers))
+            // Convert any 'n' providers into 'qgs' for data simplicity, if not an item listed first
+            if (data.TryGetValue("providers", out List<object> providers)
+                // if not an item listed first
+                && !(providers.Count > 0
+                    && providers[0] is List<object> firstProvider
+                    && firstProvider.Count > 0
+                    && firstProvider[0].ToString() == "i"))
             {
                 List<object> quest_qgs = new List<object>(providers.Count);
                 for (int p = providers.Count - 1; p >= 0; p--)
