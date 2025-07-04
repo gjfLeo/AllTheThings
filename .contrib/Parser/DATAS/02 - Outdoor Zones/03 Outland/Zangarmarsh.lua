@@ -496,7 +496,10 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 9765,	-- Preparing for War
 						["maxReputation"] = { FACTION_CENARION_EXPEDITION, EXALTED },	-- Cenarion Expedition, Exalted.
 						["timeline"] = { REMOVED_4_3_0 },
+						-- #if BEFORE 4.3.0
+						-- This way it doesnt display as currency once the quest got removed
 						["cost"] = { { "i", 24368, 1 } },	-- Coilfang Armaments
+						-- #endif
 						["maps"] = { COILFANG_RESERVOIR_STEAMVAULT },
 						["repeatable"] = true,
 						["lvl"] = lvlsquish(67, 67, 20),
