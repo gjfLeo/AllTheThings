@@ -2082,14 +2082,14 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						{ "o", 216761 },	-- Mixed Ocean School
 						-- #endif
 					},
-					["groups"] = {
+					--[[["groups"] = {
 						i(4339),	-- Bolt of Mageweave
 						i(4305),	-- Bolt of Silk Cloth
 						i(1710),	-- Greater Healing Potion
 						i(4234),	-- Heavy Leather
 						i(3827),	-- Mana Potion
 						i(4304),	-- Thick Leather
-					},
+					},]]
 				}),
 				i(6307),	-- Message in a Bottle
 				i(21228, {	-- Mitril Bound Trunk
@@ -7063,7 +7063,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						10442,	-- Chromatic Whelp
 					},
 					["description"] = "Can be skinned from creatures of the Chromatic Dragonflight, though is a pain to farm in regards to drop rate.",
-					["maps"] = { BLACROCK_SPIRE },
+					["maps"] = { BLACKROCK_SPIRE },
 					-- #else
 					["description"] = "Can be skinned from elite creatures of the Blue Dragonflight, though is a pain to farm in regards to drop rate.",
 					["coords"] = {
@@ -7118,7 +7118,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 						10442,	-- Chromatic Whelp
 					},
 					["description"] = "Can be skinned from creatures of the Chromatic Dragonflight, though is a pain to farm in regards to drop rate.",
-					["maps"] = { BLACROCK_SPIRE },
+					["maps"] = { BLACKROCK_SPIRE },
 					-- #else
 					["description"] = "Can be skinned from elite creatures of the Red Dragonflight around the world.",
 					["coord"] = { 80.0, 48.0, WETLANDS },
