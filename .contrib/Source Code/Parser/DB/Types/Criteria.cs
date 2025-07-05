@@ -66,6 +66,8 @@ namespace ATT.DB.Types
             Type == 157 ||
             // Win a pet battle
             Type == 158 ||
+            // Object a pet through battle
+            Type == 161 ||
             // Reach Max Level
             Type == 221;
 

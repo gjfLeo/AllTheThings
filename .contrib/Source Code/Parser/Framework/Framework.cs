@@ -166,6 +166,7 @@ namespace ATT
             { "factionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "flightpathID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "followerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "mapID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "missionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "mountID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "npcID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
@@ -705,6 +706,7 @@ namespace ATT
                 "instanceID",
                 "heirloomUnlockID",
                 "heirloomLevelID",
+                "mapID",
                 "questID",
                 "questIDA",
                 "questIDH",
@@ -1551,6 +1553,7 @@ namespace ATT
                 case "_exploration":
                 case "_factions":
                 case "_flightpath":
+                case "_maps":
                 case "_species":
                 case "_text":
                 case "_type":

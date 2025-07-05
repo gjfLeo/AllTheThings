@@ -1792,6 +1792,7 @@ end");
                     case "_achievements":
                     case "_exploration":
                     case "_factions":
+                    case "_maps":
                     case "extraTransmogSetSpells":
                     case "_tmogSetIDs":
                     case "_sourceIDs":

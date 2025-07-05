@@ -2748,8 +2748,10 @@ namespace ATT
                             if (dict.Count > 0)
                             {
                                 var maps = dict.Values.ToList();
-                                Objects.Merge(data, "maps", maps);
-                                TrackIncorporationData(data, "maps", maps);
+                                //Objects.Merge(data, "maps", maps);
+                                //TrackIncorporationData(data, "maps", maps);
+                                TrackIncorporationData(data, "_maps", maps);
+                                Objects.Merge(data, "_maps", maps);
                                 /*
                                 Console.WriteLine("ADDED MAP DATA TO ACHIEVEMENT:");
                                 Console.WriteLine(MiniJSON.Json.Serialize(data));
@@ -3265,6 +3267,11 @@ namespace ATT
             if (data.TryGetValue("_factions", out object factions))
             {
                 DuplicateDataIntoGroups(data, factions, "factionID");
+                cloned = true;
+            }
+            if (data.TryGetValue("_maps", out object maps))
+            {
+                DuplicateDataIntoGroups(data, maps, "mapID");
                 cloned = true;
             }
             if (data.TryGetValue("_encounter", out object encounterData))
