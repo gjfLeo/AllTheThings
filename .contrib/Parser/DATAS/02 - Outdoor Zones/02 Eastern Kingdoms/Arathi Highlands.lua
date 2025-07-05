@@ -2719,6 +2719,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				i(1297, {	-- Robes of the Shadowcaster
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_3_5 },
 					["crs"] = {
 						2553,	-- Witherbark Shadowcaster
 						-- #if BEFORE CATA
