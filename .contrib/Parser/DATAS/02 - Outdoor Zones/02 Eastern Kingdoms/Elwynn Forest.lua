@@ -226,7 +226,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 						q(31139, {	-- Beating Them Back!
 							["qg"] = 197,	-- Marshal McBride
-							["coord"] = { 33.5, 53.1, NORTHSHIRE_VALLEY },
+							["coord"] = { 33.5, 53.0, NORTHSHIRE_VALLEY },
 							["timeline"] = { ADDED_5_0_4 },
 							["races"] = { HUMAN, KULTIRAN },
 							["classes"] = { DEATHKNIGHT, DRUID, MONK },
@@ -239,7 +239,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 									["timeline"] = { ADDED_6_0_2 },
 								}),
 								i(57254, {	-- Runner's Boots
-									["timeline"] = { ADDED_4_0_3, REMOVED_4_0_3 },	-- They were available at some point, but not sure when removed.
+									["timeline"] = { ADDED_4_0_3, REMOVED_6_0_2 },	-- They were available at some point, but not sure when removed.
 								}),
 							},
 						}),
@@ -1207,7 +1207,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(31140, {	-- Lions for Lambs
 							["qg"] = 197,	-- Marshal McBride
 							["sourceQuest"] = 31139,	-- Beating Them Back!
-							["coord"] = { 33.5, 53.1, NORTHSHIRE_VALLEY },
+							["coord"] = { 33.5, 53.0, NORTHSHIRE_VALLEY },
 							["timeline"] = { ADDED_5_0_4 },
 							["races"] = { HUMAN, KULTIRAN },
 							["classes"] = { DEATHKNIGHT, DRUID, MONK },
@@ -1337,14 +1337,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							},
 						}),
 						q(31142, {	-- Palm of the Tiger
-							["qg"] = 63258,	-- Bao
+							["qg"] = 63258,	-- Bao <Monk Trainer>
 							["sourceQuest"] = 31141,	-- Calligraphed Letter
-							["coord"] = { 41.0, 52.2, NORTHSHIRE_VALLEY },
+							["coord"] = { 41.2, 52.1, NORTHSHIRE_VALLEY },
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
 							["races"] = { HUMAN },
 							["classes"] = { MONK },
 							["groups"] = {
-								objective(1, {	-- Practice Tiger Palm
+								objective(2, {	-- Practice Tiger Palm
 									["provider"] = { "n", 44548 },	-- Training Dummy
 								}),
 							},
