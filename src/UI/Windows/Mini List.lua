@@ -132,7 +132,7 @@ local CachedMapData = setmetatable({}, {
 						local headerConst = nil;
 						if key == "criteriaID" then
 							clone.achievementID = group.achievementID;
-							headerConst = app.HeaderConstants.ACHIEVEMENTS;
+							headerConst = group.pb and app.HeaderConstants.PET_BATTLES or app.HeaderConstants.ACHIEVEMENTS;
 						elseif key == "achievementID" then
 							headerConst = app.HeaderConstants.ACHIEVEMENTS;
 						elseif key == "questID" then
