@@ -2577,7 +2577,7 @@ GLYPH_OF_THE_SPECTRAL_RAPTOR = r(192844, {	-- Glyph of the Spectral Raptor
 });
 GLYPH_OF_THE_SUN = r(182158, {	-- Glyph of the Sun
 	["name"] = "Glyph of the Sun",
-	["timeline"] = { ADDED_5_0_4 },
+	["timeline"] = { ADDED_6_1_0 },
 });
 GLYPH_OF_THE_SWIFT_CHAMELEON = r(344335, {  -- Glyph of the Swift Chameleon
 	["name"] = "Glyph of the Swift Chameleon",
