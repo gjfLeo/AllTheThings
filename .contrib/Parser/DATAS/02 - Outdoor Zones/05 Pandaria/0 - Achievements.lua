@@ -4,32 +4,9 @@
 root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 	-- TODO: lots of these are lacking lots of information! (crs/coords/etc.)
 	n(ACHIEVEMENTS, {
-		ach(6541, {	-- Loremaster of Pandaria
-			["sym"] = {{ "meta_achievement",
-				6301,	-- Rally the Valley
-				6539,	-- One Steppe Forward, Two Steppes Back
-				6540,	-- Dread Haste Makes Dread Waste
-				6300,	-- Upjade Complete (A)
-				6534,	-- Upjade Complete (H)
-				6535,	-- Mighty Roamin' Krasaranger (A)
-				6536,	-- Mighty Roamin' Krasaranger (H)
-				6537,	-- Slum It in the Summit (A)
-				6538,	-- Slum It in the Summit (H)
-			}},
-		}),
-		applyclassicphase(MOP_PHASE_LANDFALL, ach(6974, {	-- Pandaria Explorer [7.0.3] / Explore Pandaria
-			-- Meta Achievement
-			["sym"] = {{"meta_achievement",
-				6978,	-- Explore Dread Wastes
-				6351,	-- Explore Jade Forest
-				6975,	-- Explore Krasarang Wilds
-				6976,	-- Explore Kun-Lai Summit
-				6977,	-- Explore Townlong Steppes
-				6979,	-- Explore Vale of Eternal Blossoms
-				6969,	-- Explore Valley of the Four Winds
-			}},
-		})),
-		ach(6828, {	-- Pandaren Ambassador (Alliance)
+		ach(6541),	-- Loremaster of Pandaria (automated)
+		ach(6974),	-- Pandaria Explorer [7.0.3] / Explore Pandaria (automated)
+		ach(6828, {	-- Pandaren Ambassador (Alliance) (automated)
 			["races"] = ALLIANCE_ONLY,
 			["g"] = {
 				i(89785, {	-- Pandaren Kite (A) (MOUNT!)
@@ -37,7 +14,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 				}),
 			},
 		}),
-		ach(6827, {	-- Pandaren Ambassador (Horde)
+		ach(6827, {	-- Pandaren Ambassador (Horde) (automated)
 			["races"] = HORDE_ONLY,
 			["g"] = {
 				i(81559, {	-- Pandaren Kite (H) (MOUNT!)
@@ -46,16 +23,8 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_LANDFALL, bubbleDown({
 			},
 		}),
 		ach(6589),	-- Pandaria Safari (automated)
-		petbattle(ach(6616, {	-- Pandaria Tamer
-			crit(21494),		-- Dread Wastes
-			crit(21489),		-- The Jade Forest
-			crit(21491),		-- Krasarang Wilds
-			crit(21492),		-- Kun-Lai Summit
-			crit(21493),		-- Townlong Steppes
-			crit(21495),		-- Vale of Eternal Blossoms
-			crit(21490),		-- Valley of the Four Winds
-		})),
-		petbattle(ach(6606)),	-- Taming Pandaria
+		petbattle(ach(6616)),	-- Pandaria Tamer (automated)
+		petbattle(ach(6606)),	-- Taming Pandaria (automated)
 		ach(6926, {	-- Tranquil Master
 			title(203),	-- the Tranquil Master
 			crit(19136, {	-- Sha of Anger slain
