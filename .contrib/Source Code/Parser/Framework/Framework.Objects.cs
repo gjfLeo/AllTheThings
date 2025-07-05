@@ -652,6 +652,24 @@ namespace ATT
                                     // merge the objects into the data object
                                     foreach (IDictionary<string, object> mergeObject in mergeObjects)
                                     {
+
+                                        // If we're relative to a map object
+                                        if (mergeObject.ContainsKey("criteriaID") && data.ContainsKey("mapID"))
+                                        {
+                                            var isPetBattleHeader = mergeObject.ContainsKey("pb");
+                                            if (CUSTOM_HEADER_CONSTANTS.TryGetValue(isPetBattleHeader ? "PET_BATTLES" : "ACHIEVEMENTS", out long headerID))
+                                            {
+                                                var header = new Dictionary<string, object>
+                                                {
+                                                    { "npcID", headerID },
+                                                    { "g", new List<object>{ mergeObject } }
+                                                };
+                                                if (isPetBattleHeader) header["pb"] = mergeObject["pb"];
+                                                Merge(data, "g", header);
+                                                continue;
+                                            }
+                                        }
+
                                         // copy the actual object when merging under another Source, since it may merge into multiple Sources
                                         Merge(data, "g", mergeObject);
                                     }

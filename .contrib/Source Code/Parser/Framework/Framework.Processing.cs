@@ -2504,6 +2504,11 @@ namespace ATT
                         Objects.Merge(criteriaData, extraData);
                         extraData = null;
                     }
+                    // Copy pb, pvp, and timeline flags from the parent achievement
+                    if (data.ContainsKey("pb")) criteriaData["pb"] = data["pb"];
+                    if (data.ContainsKey("pvp")) criteriaData["pvp"] = data["pvp"];
+                    if (data.ContainsKey("timeline")) criteriaData["timeline"] = data["timeline"];
+
                     // we can merge single criteria under a criteriatree into the achievement if it's 1 level down,
                     // otherwise it's a criteira which is split instead
                     if (mergeDirectly && level == 1)
