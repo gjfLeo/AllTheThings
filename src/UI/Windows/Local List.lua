@@ -75,7 +75,6 @@ app:CreateWindow("Local List", {
 		["scale"] = 0.7,
 		["width"] = 360,
 		["height"] = 176,
-		["visible"] = true,
 		["point"] = "BOTTOMRIGHT",
 		["relativePoint"] = "BOTTOMRIGHT",
 	},
