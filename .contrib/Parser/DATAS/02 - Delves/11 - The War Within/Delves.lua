@@ -68,7 +68,7 @@ local ALL_REGULAR_DELVES = {
 	EXCAVATION_SITE_9,
 	SIDESTREET_SLUICE,
 	-- #endif
-	-- #if AFTER 11.1.0
+	-- #if AFTER 11.2.0
 	ARCHIVAL_ASSAULT,
 	-- #endif
 };
@@ -91,7 +91,7 @@ local ALL_THE_DELVES = {
 	EXCAVATION_SITE_9,
 	SIDESTREET_SLUICE,
 	-- #endif
-	-- #if AFTER 11.1.0
+	-- #if AFTER 11.2.0
 	ARCHIVAL_ASSAULT,
 	DELVE_ETHEREAL_KYVEZA,
 	-- #endif
