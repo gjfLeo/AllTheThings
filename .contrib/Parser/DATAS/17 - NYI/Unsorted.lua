@@ -4050,17 +4050,13 @@ root(ROOTS.Unsorted, {
 			i(166853),	-- Gilded Egg of Pa'ku
 			i(166854),	-- Jade Sethraliss Effigy
 			i(166855),	-- Obsidian Statue of Kith'ix
-			i(166856),	-- Bwonsamdi Ritual Scepter
 			i(166857),	-- Bethekk's Emerald Eyes
-			i(166858),	-- Silver Sculpture of Sseratus
 			i(166859),	-- Zinj'alor Blue Diamond
 			i(166860),	-- Azj'Aqir Onyx Stone
 			i(166861),	-- Hakkari Blood Garnet
 			i(166862),	-- Crystal Aqiri Skull
 			i(166863),	-- Farrakki Star Rubies
 			i(166864),	-- Engraved Amani Spearpoints
-			i(166867),	-- Embossed Silver Bijou
-			i(166868),	-- Chit of the Black Empire
 			i(166870),	-- Mithril-Trimmed Ritual Plate
 			i(166871),	-- Jeweled Pyrium Goblet
 			i(166872),	-- Sterling Truesilver Flatware
