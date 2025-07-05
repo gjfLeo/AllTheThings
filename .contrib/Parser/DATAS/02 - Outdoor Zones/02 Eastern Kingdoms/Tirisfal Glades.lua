@@ -917,7 +917,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					}),
 				},
 			}),
-			-- #if NOT ANYCLASSIC
+			-- #if AFTER MOP
 			m(SCARLET_MONASTERY_ENTRANCE, {
 				n(QUESTS, {
 					q(77644,{	-- The Scarlet Key
