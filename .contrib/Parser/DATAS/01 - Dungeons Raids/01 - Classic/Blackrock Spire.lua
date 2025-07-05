@@ -2275,6 +2275,14 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 				}),
 				-- #endif
 				n(ZONE_DROPS, {
+					i(12607, {	-- Brilliant Chromatic Scale
+						-- Danny Donkey: This is an ordinary drop from these mobs, not from Skinning.
+						["crs"] = {
+							10447,	-- Chromatic Dragonspawn
+							10814,	-- Chromatic Elite Guard
+							10442,	-- Chromatic Whelp
+						},
+					}),
 					i(16247, {	-- Formula: Enchant 2H Weapon - Superior Impact (RECIPE!)
 						["timeline"] = { REMOVED_6_0_2 },
 						["cr"] = 10317,	-- Blackhand Elite <Blackhand Legion>
@@ -2306,16 +2314,6 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 						-- #endif
 					}),
 					-- #endif
-				}),
-				prof(SKINNING, {
-					["crs"] = {
-						10447,	-- Chromatic Dragonspawn
-						10814,	-- Chromatic Elite Guard
-						10442,	-- Chromatic Whelp
-					},
-					["groups"] = {
-						i(12607),	-- Brilliant Chromatic Scale
-					},
 				}),
 				n(9816, {	-- Pyroguard Emberseer
 					["timeline"] = { REMOVED_6_0_2 },

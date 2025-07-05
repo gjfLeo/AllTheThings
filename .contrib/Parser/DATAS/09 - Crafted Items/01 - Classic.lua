@@ -5516,1293 +5516,1295 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 	}),
 	prof(MINING, {
-		spell(2575, {	-- Mining
-			["description"] = "Mining veins are usually found on uneven terrain and mountainsides as well as inside caves. It is beneficial to mine all veins in the area even if you only need specific ore because the node spawns are often connected.",
-			["groups"] = appendAllGroups(
-				{
-					-- Nodes:
-					-- Copper
-					o(1731, {	-- Copper Vein
-						["maps"] = {
-							DARKSHORE,
-							DUN_MOROGH,
-							DUROTAR,
-							ELWYNN_FOREST,
-							LOCH_MODAN,
-							MULGORE,
-							SILVERPINE_FOREST,
-							TIRISFAL_GLADES,
-							WESTFALL,
-							-- #if AFTER CATA
-							AZSHARA,
-							NORTHERN_BARRENS,
-							-- #else
-							THE_BARRENS,
+		["description"] = "Mining veins are usually found on uneven terrain and mountainsides as well as inside caves. It is beneficial to mine all veins in the area even if you only need specific ore because the node spawns are often connected.",
+		["groups"] = {
+			spell(2575, {	-- Mining
+				["groups"] = appendAllGroups(
+					{
+						-- Nodes:
+						-- Copper
+						o(1731, {	-- Copper Vein
+							["maps"] = {
+								DARKSHORE,
+								DUN_MOROGH,
+								DUROTAR,
+								ELWYNN_FOREST,
+								LOCH_MODAN,
+								MULGORE,
+								SILVERPINE_FOREST,
+								TIRISFAL_GLADES,
+								WESTFALL,
+								-- #if AFTER CATA
+								AZSHARA,
+								NORTHERN_BARRENS,
+								-- #else
+								THE_BARRENS,
+								-- #endif
+								-- #if AFTER TBC
+								AZUREMYST_ISLE,
+								BLOODMYST_ISLE,
+								EVERSONG_WOODS,
+								-- #endif
+							},
+						}),
+						o(2055, {	-- Copper Vein (Redridge Mountains - Rethban Ore)
+							["coord"] = { 20.7, 27.0, REDRIDGE_MOUNTAINS },	-- Rethban Caverns
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
+						-- #if ANYCLASSIC
+						o(103713, {	-- Copper Vein (The Barrens - Horde only)
+							-- Note: This node get removed at an unknown point between MOP and TWW.
+							-- #if BEFORE CATA
+							["coord"] = { 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
 							-- #endif
-							-- #if AFTER TBC
-							AZUREMYST_ISLE,
-							BLOODMYST_ISLE,
-							EVERSONG_WOODS,
-							-- #endif
-						},
-					}),
-					o(2055, {	-- Copper Vein (Redridge Mountains - Rethban Ore)
-						["coord"] = { 20.7, 27.0, REDRIDGE_MOUNTAINS },	-- Rethban Caverns
-						["timeline"] = { REMOVED_4_0_3 },
-					}),
-					-- #if ANYCLASSIC
-					o(103713, {	-- Copper Vein (The Barrens - Horde only)
-						-- Note: This node get removed at an unknown point between MOP and TWW.
-						-- #if BEFORE CATA
-						["coord"] = { 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
+							["races"] = HORDE_ONLY,
+						}),
+						o(3763, {	-- Copper Vein (The Barrens - Blood Shard)
+							-- Note: This node get replaced by o(1731) at an unknown point between MOP and TWW.
+							["maps"] = {
+								-- #if AFTER CATA
+								NORTHERN_BARRENS,
+								-- #else
+								THE_BARRENS,
+								-- #endif
+							},
+						}),
 						-- #endif
-						["races"] = HORDE_ONLY,
-					}),
-					o(3763, {	-- Copper Vein (The Barrens - Blood Shard)
-						-- Note: This node get replaced by o(1731) at an unknown point between MOP and TWW.
-						["maps"] = {
+						o(181248, {	-- Copper Vein (Ghostlands - Underlight Ore)
+							["coord"] = { 30.0, 50.0, GHOSTLANDS },
+							["timeline"] = { ADDED_2_0_1 },
+						}),
+						-- Dark Iron Ore
+						o(165658, {	-- Dark Iron Deposit
+							["maps"] = {
+								BLACKROCK_DEPTHS,
+								MOLTEN_CORE,
+								-- #if BEFORE CATA
+								BURNING_STEPPES,
+								SEARING_GORGE,
+								-- #endif
+							},
+						}),
+						--____________________________________________
+						-- Gold
+						o(1734, {	-- Gold Vein
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								BADLANDS,
+								BURNING_STEPPES,	
+								DESOLACE,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								AZSHARA,
+								FELWOOD,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #endif
+							},
 							-- #if AFTER CATA
-							NORTHERN_BARRENS,
-							-- #else
-							THE_BARRENS,
+							["coord"] = { 44.1, 37.2, THOUSAND_NEEDLES },	-- Splithoof Hold cave
 							-- #endif
-						},
-					}),
-					-- #endif
-					o(181248, {	-- Copper Vein (Ghostlands - Underlight Ore)
-						["coord"] = { 30.0, 50.0, GHOSTLANDS },
-						["timeline"] = { ADDED_2_0_1 },
-					}),
-					-- Dark Iron Ore
-					o(165658, {	-- Dark Iron Deposit
-						["maps"] = {
-							BLACKROCK_DEPTHS,
-							MOLTEN_CORE,
-							-- #if BEFORE CATA
-							BURNING_STEPPES,
-							SEARING_GORGE,
-							-- #endif
-						},
-					}),
-					--____________________________________________
-					-- Gold
-					o(1734, {	-- Gold Vein
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							BADLANDS,
-							BURNING_STEPPES,	
-							DESOLACE,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #else
-							ALTERAC_MOUNTAINS,
-							AZSHARA,
-							FELWOOD,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #endif
-						},
-						-- #if AFTER CATA
-						["coord"] = { 44.1, 37.2, THOUSAND_NEEDLES },	-- Splithoof Hold cave
+						}),
+						-- #if ANYCLASSIC
+						o(150080, {	-- Gold Vein (Blasted Lands - Horde only)
+							-- Note: This node get removed at an unknown point between MOP and TWW.
+							["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
+							["races"] = HORDE_ONLY,
+						}),
+						o(181109, {	-- Gold Vein (Felwood)
+							-- Note: This node get replaced by o(1734) at an unknown point between MOP and TWW.
+							["maps"] = { FELWOOD },
+						}),
 						-- #endif
-					}),
-					-- #if ANYCLASSIC
-					o(150080, {	-- Gold Vein (Blasted Lands - Horde only)
-						-- Note: This node get removed at an unknown point between MOP and TWW.
-						["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
-						["races"] = HORDE_ONLY,
-					}),
-					o(181109, {	-- Gold Vein (Felwood)
-						-- Note: This node get replaced by o(1734) at an unknown point between MOP and TWW.
-						["maps"] = { FELWOOD },
-					}),
-					-- #endif
-					o(73941, {	-- Ooze Covered Gold Vein
-						["coords"] = {
-							{ 76.8, 61.5, FERALAS },	-- The Writhing Deep - west
-							{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
-							{ 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
-						},
-					}),
-					--____________________________________________
-					-- Iron
-					o(1735, {	-- Iron Deposit
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							BADLANDS,	
-							DESOLACE,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #else
-							ALTERAC_MOUNTAINS,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #endif
-						},
-					}),
-					--____________________________________________
-					-- Mithril
-					o(2040, {	-- Mithril Deposit
-						["maps"] = {
-							BADLANDS,
-							BURNING_STEPPES,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							THOUSAND_NEEDLES,
-							-- #else
-							AZSHARA,
-							-- #endif
-							-- #if NOT ANYCLASSIC
-							FELWOOD,
-							-- #endif
-						},
-					}),
-					-- #if ANYCLASSIC
-					o(150079, {	-- Mithril Deposit (Blasted Lands - Horde only)
-						-- Note: This node get removed at an unknown point between MOP and TWW.
-						["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
-						["races"] = HORDE_ONLY,
-					}),
-					o(176645, {	-- Mithril Deposit (Felwood)
-						-- Note: This node get replaced by o(2040) at an unknown point between MOP and TWW.
-						["maps"] = { FELWOOD },
-					}),
-					-- #endif
-					o(123310, {	-- Ooze Covered Mithril Deposit
-						["coords"] = {
-							{ 76.8, 61.5, FERALAS },	-- The Writhing Deep - west
-							{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
-							{ 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
-						},
-					}),
-					--____________________________________________
-					-- Obsidian Chunk
-					o(181069, {	-- Large Obsidian Chunk
-						["maps"] = {
-							RUINS_OF_AHNQIRAJ,
-							TEMPLE_OF_AHNQIRAJ,
-							-- #if BEFORE CATA
-							SILITHUS,
-							-- #endif
-						},
-					}),
-					o(181068, {	-- Small Obsidian Chunk
-						["maps"] = {
-							RUINS_OF_AHNQIRAJ,
-							TEMPLE_OF_AHNQIRAJ,
-							-- #if BEFORE CATA
-							SILITHUS,
-							-- #endif
-						},
-					}),
-					--____________________________________________
-					-- Silver
-					o(73940, {	-- Ooze Covered Silver Vein
-						["coord"] = { 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
-					}),
-					o(1733, {	-- Silver Vein
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							ASHENVALE,
-							BADLANDS,
-							DESOLACE,
-							DUSKWOOD,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							WETLANDS,
-							-- #if BEFORE CATA
-							ALTERAC_MOUNTAINS,
-							REDRIDGE_MOUNTAINS,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #else
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							NORTHERN_STRANGLETHORN,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #endif
-						},
-					}),
-					-- #if ANYCLASSIC
-					o(105569, {	-- Siler Vein (The Barrens/Hillsbrad Foothills - Horde only)
-						-- Note: This node get removed at an unknown point between MOP and TWW.
-						["coords"] = {
-							-- #if AFTER CATA
-							{ 33.5, 72.0, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
-							-- #else
-							{ 27.5, 57.5, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
-							{ 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
-							-- #endif
-						},
-						["races"] = HORDE_ONLY,
-					}),
-					-- #endif
-					--____________________________________________
-					-- Thorium
-					o(180215, {	-- Hakkari Thorium Vein
-						["maps"] = { ZULGURUB },
-						["timeline"] = { REMOVED_4_0_1 },
-					}),
-					o(177388, {	-- Ooze Covered Rich Thorium Vein
-						["maps"] = { SILITHUS },
-					}),
-					o(123848, {	-- Ooze Covered Thorium Vein
-						["coord"] = { 50.0, 81.2, UNGORO_CRATER },	-- The Slithering Scar
-					}),
-					o(175404, {	-- Rich Thorium Vein
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							-- #endif
-						},
-					}),
-					o(324, {	-- Small Thorium Vein
-						["maps"] = {
-							SILITHUS,
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							WESTERN_PLAGUELANDS,
-							-- #endif
-						},
-					}),
-					-- #if ANYCLASSIC
-					o(150082, {	-- Small Thorium Vein (Blasted Lands - Horde only)
-						-- Note: This node get replaced by o(324) at an unknown point between MOP and TWW.
-						["maps"] = { BLASTED_LANDS },
-						["races"] = HORDE_ONLY,
-					}),
-					o(1731, {	-- Small Thorium Vein (Felwood)
-						-- Note: This node get removed at an unknown point between MOP and TWW.
-						["maps"] = { FELWOOD },
-					}),
-					-- #endif
-					--____________________________________________
-					-- Tin
-					o(1732, {	-- Tin Vein
-						["maps"] = {
-							ASHENVALE,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							-- #if BEFORE CATA
-							REDRIDGE_MOUNTAINS,
-							THOUSAND_NEEDLES,
-							-- #else
-							NORTHERN_STRANGLETHORN,
-							-- #endif
-							WETLANDS,
-						},
-					}),
-					-- #if ANYCLASSIC
-					o(103711, {	-- Tin Vein (The Barrens/Hillsbrad Foothills - Horde only)
-						-- Note: This node get removed at an unknown point between MOP and TWW.
-						["coords"] = {
-							-- #if AFTER CATA
-							{ 33.5, 72.0, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
-							-- #else
-							{ 27.5, 57.5, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
-							{ 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
-							-- #endif
-						},
-						["races"] = HORDE_ONLY,
-					}),
-					o(2054, {	-- Tin Vein (Redridge Mountains - Rethban Ore)
-						-- Note: This node get replaced by o(1732) at an unknown point between MOP and TWW.
-						["coord"] = { 20.7, 27.0, REDRIDGE_MOUNTAINS },	-- Rethban Caverns
-					}),
-					o(3764, {	-- Tin Vein (The Barrens - Blood Shard)
-						-- Note: This node get replaced by o(1732) at an unknown point between MOP and TWW.
-						["maps"] = {
-							-- #if AFTER CATA
-							NORTHERN_BARRENS,
-							-- #else
-							THE_BARRENS,
-							-- #endif
-						},
-					}),
-					-- #endif
-					o(181249, {	-- Tin Vein (Ghostlands - Underlight Ore)
-						["coord"] = { 30.0, 50.0, GHOSTLANDS },
-						["timeline"] = { ADDED_2_0_1 },
-					}),
-					--____________________________________________
-					-- Truesilver
-					o(123309, {	-- Ooze Covered Truesilver Deposit
-						["coords"] = {
-							-- #if BEFORE CATA
-							{ 76.8, 61.5, FERALAS },	-- The Writhing Deep - west
-							{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
-							-- #endif
-							{ 50.0, 81.2, UNGORO_CRATER },	-- The Slithering Scar
-						},
-						["maps"] = { SILITHUS },
-					}),
-					o(2047, {	-- Truesilver Deposit
-						["maps"] = {
-							BADLANDS,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							FELWOOD,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							THOUSAND_NEEDLES,
-							-- #else
-							AZSHARA,
-							-- #endif
-						},
-					}),
-					-- #if ANYCLASSIC
-					o(150081, {	-- Truesilver Deposit (Blasted Lands - Horde only)
-						-- Note: This node get removed at an unknown point between MOP and TWW.
-						["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
-						["races"] = HORDE_ONLY,
-					}),
-					o(181108, {	-- Truesilver Deposit (Felwood)
-						-- Note: This node get replaced by o(2047) at an unknown point between MOP and TWW.
-						["maps"] = { FELWOOD },
-					}),
-					-- #endif
-					--____________________________________________
-					-- Ores
-					i(2770, {	-- Copper Ore
-						["maps"] = {
-							DARKSHORE,
-							DUN_MOROGH,
-							DUROTAR,
-							ELWYNN_FOREST,
-							LOCH_MODAN,
-							MULGORE,
-							SILVERPINE_FOREST,
-							TIRISFAL_GLADES,
-							WESTFALL,
-							-- #if AFTER CATA
-							AZSHARA,
-							NORTHERN_BARRENS,
-							-- #else
-							THE_BARRENS,
-							-- #endif
+						o(73941, {	-- Ooze Covered Gold Vein
+							["coords"] = {
+								{ 76.8, 61.5, FERALAS },	-- The Writhing Deep - west
+								{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
+								{ 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
+							},
+						}),
+						--____________________________________________
+						-- Iron
+						o(1735, {	-- Iron Deposit
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								BADLANDS,	
+								DESOLACE,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #endif
+							},
+						}),
+						--____________________________________________
+						-- Mithril
+						o(2040, {	-- Mithril Deposit
+							["maps"] = {
+								BADLANDS,
+								BURNING_STEPPES,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								THOUSAND_NEEDLES,
+								-- #else
+								AZSHARA,
+								-- #endif
+								-- #if NOT ANYCLASSIC
+								FELWOOD,
+								-- #endif
+							},
+						}),
+						-- #if ANYCLASSIC
+						o(150079, {	-- Mithril Deposit (Blasted Lands - Horde only)
+							-- Note: This node get removed at an unknown point between MOP and TWW.
+							["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
+							["races"] = HORDE_ONLY,
+						}),
+						o(176645, {	-- Mithril Deposit (Felwood)
+							-- Note: This node get replaced by o(2040) at an unknown point between MOP and TWW.
+							["maps"] = { FELWOOD },
+						}),
+						-- #endif
+						o(123310, {	-- Ooze Covered Mithril Deposit
+							["coords"] = {
+								{ 76.8, 61.5, FERALAS },	-- The Writhing Deep - west
+								{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
+								{ 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
+							},
+						}),
+						--____________________________________________
+						-- Obsidian Chunk
+						o(181069, {	-- Large Obsidian Chunk
+							["maps"] = {
+								RUINS_OF_AHNQIRAJ,
+								TEMPLE_OF_AHNQIRAJ,
+								-- #if BEFORE CATA
+								SILITHUS,
+								-- #endif
+							},
+						}),
+						o(181068, {	-- Small Obsidian Chunk
+							["maps"] = {
+								RUINS_OF_AHNQIRAJ,
+								TEMPLE_OF_AHNQIRAJ,
+								-- #if BEFORE CATA
+								SILITHUS,
+								-- #endif
+							},
+						}),
+						--____________________________________________
+						-- Silver
+						o(73940, {	-- Ooze Covered Silver Vein
+							["coord"] = { 66.1, 86.2, THOUSAND_NEEDLES },	-- Sunken Dig Site.
+						}),
+						o(1733, {	-- Silver Vein
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								ASHENVALE,
+								BADLANDS,
+								DESOLACE,
+								DUSKWOOD,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								WETLANDS,
+								-- #if BEFORE CATA
+								ALTERAC_MOUNTAINS,
+								REDRIDGE_MOUNTAINS,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #else
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								NORTHERN_STRANGLETHORN,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #endif
+							},
+						}),
+						-- #if ANYCLASSIC
+						o(105569, {	-- Siler Vein (The Barrens/Hillsbrad Foothills - Horde only)
+							-- Note: This node get removed at an unknown point between MOP and TWW.
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 33.5, 72.0, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
+								-- #else
+								{ 27.5, 57.5, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
+								{ 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
+								-- #endif
+							},
+							["races"] = HORDE_ONLY,
+						}),
+						-- #endif
+						--____________________________________________
+						-- Thorium
+						o(180215, {	-- Hakkari Thorium Vein
+							["maps"] = { ZULGURUB },
+							["timeline"] = { REMOVED_4_0_1 },
+						}),
+						o(177388, {	-- Ooze Covered Rich Thorium Vein
+							["maps"] = { SILITHUS },
+						}),
+						o(123848, {	-- Ooze Covered Thorium Vein
+							["coord"] = { 50.0, 81.2, UNGORO_CRATER },	-- The Slithering Scar
+						}),
+						o(175404, {	-- Rich Thorium Vein
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								-- #endif
+							},
+						}),
+						o(324, {	-- Small Thorium Vein
+							["maps"] = {
+								SILITHUS,
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								WESTERN_PLAGUELANDS,
+								-- #endif
+							},
+						}),
+						-- #if ANYCLASSIC
+						o(150082, {	-- Small Thorium Vein (Blasted Lands - Horde only)
+							-- Note: This node get replaced by o(324) at an unknown point between MOP and TWW.
+							["maps"] = { BLASTED_LANDS },
+							["races"] = HORDE_ONLY,
+						}),
+						o(1731, {	-- Small Thorium Vein (Felwood)
+							-- Note: This node get removed at an unknown point between MOP and TWW.
+							["maps"] = { FELWOOD },
+						}),
+						-- #endif
+						--____________________________________________
+						-- Tin
+						o(1732, {	-- Tin Vein
+							["maps"] = {
+								ASHENVALE,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								-- #if BEFORE CATA
+								REDRIDGE_MOUNTAINS,
+								THOUSAND_NEEDLES,
+								-- #else
+								NORTHERN_STRANGLETHORN,
+								-- #endif
+								WETLANDS,
+							},
+						}),
+						-- #if ANYCLASSIC
+						o(103711, {	-- Tin Vein (The Barrens/Hillsbrad Foothills - Horde only)
+							-- Note: This node get removed at an unknown point between MOP and TWW.
+							["coords"] = {
+								-- #if AFTER CATA
+								{ 33.5, 72.0, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
+								-- #else
+								{ 27.5, 57.5, HILLSBRAD_FOOTHILLS },	-- Azureload Mine
+								{ 47.9, 87.2, THE_BARRENS },	-- Bael Modan Excavation
+								-- #endif
+							},
+							["races"] = HORDE_ONLY,
+						}),
+						o(2054, {	-- Tin Vein (Redridge Mountains - Rethban Ore)
+							-- Note: This node get replaced by o(1732) at an unknown point between MOP and TWW.
+							["coord"] = { 20.7, 27.0, REDRIDGE_MOUNTAINS },	-- Rethban Caverns
+						}),
+						o(3764, {	-- Tin Vein (The Barrens - Blood Shard)
+							-- Note: This node get replaced by o(1732) at an unknown point between MOP and TWW.
+							["maps"] = {
+								-- #if AFTER CATA
+								NORTHERN_BARRENS,
+								-- #else
+								THE_BARRENS,
+								-- #endif
+							},
+						}),
+						-- #endif
+						o(181249, {	-- Tin Vein (Ghostlands - Underlight Ore)
+							["coord"] = { 30.0, 50.0, GHOSTLANDS },
+							["timeline"] = { ADDED_2_0_1 },
+						}),
+						--____________________________________________
+						-- Truesilver
+						o(123309, {	-- Ooze Covered Truesilver Deposit
+							["coords"] = {
+								-- #if BEFORE CATA
+								{ 76.8, 61.5, FERALAS },	-- The Writhing Deep - west
+								{ 73.5, 63.5, FERALAS },	-- The Writhing Deep - east
+								-- #endif
+								{ 50.0, 81.2, UNGORO_CRATER },	-- The Slithering Scar
+							},
+							["maps"] = { SILITHUS },
+						}),
+						o(2047, {	-- Truesilver Deposit
+							["maps"] = {
+								BADLANDS,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								FELWOOD,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								THOUSAND_NEEDLES,
+								-- #else
+								AZSHARA,
+								-- #endif
+							},
+						}),
+						-- #if ANYCLASSIC
+						o(150081, {	-- Truesilver Deposit (Blasted Lands - Horde only)
+							-- Note: This node get removed at an unknown point between MOP and TWW.
+							["coord"] = { 50.4, 10.3, BLASTED_LANDS },	-- Nethergarde Mine
+							["races"] = HORDE_ONLY,
+						}),
+						o(181108, {	-- Truesilver Deposit (Felwood)
+							-- Note: This node get replaced by o(2047) at an unknown point between MOP and TWW.
+							["maps"] = { FELWOOD },
+						}),
+						-- #endif
+						--____________________________________________
+						-- Ores
+						i(2770, {	-- Copper Ore
+							["maps"] = {
+								DARKSHORE,
+								DUN_MOROGH,
+								DUROTAR,
+								ELWYNN_FOREST,
+								LOCH_MODAN,
+								MULGORE,
+								SILVERPINE_FOREST,
+								TIRISFAL_GLADES,
+								WESTFALL,
+								-- #if AFTER CATA
+								AZSHARA,
+								NORTHERN_BARRENS,
+								-- #else
+								THE_BARRENS,
+								-- #endif
+								-- #if AFTER TBC
+								AZUREMYST_ISLE,
+								BLOODMYST_ISLE,
+								EVERSONG_WOODS,
+								GHOSTLANDS,
+								-- #endif
+							},
+							["provider"] = { "o", 1731 },	-- Copper Vein
+						}),
+						i(11370, {	-- Dark Iron Ore
+							["maps"] = {
+								BLACKROCK_DEPTHS,
+								MOLTEN_CORE,
+								-- #if BEFORE CATA
+								BURNING_STEPPES,
+								SEARING_GORGE,
+								-- #endif
+							},
+							["provider"] = { "o", 165658 },	-- Dark Iron Deposit
+						}),
+						i(2776, {	-- Gold Ore
+							["description"] = "Gold Veins is a rare spawn in place of Iron Deposits and Mithril Deposits.",
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								BADLANDS,
+								BURNING_STEPPES,	
+								DESOLACE,
+								FELWOOD,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								THOUSAND_NEEDLES,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								AZSHARA,
+								STRANGLETHORN_VALE,
+								-- #endif
+							},
+							["providers"] = {
+								{ "o", 1734 },	-- Gold Vein
+								{ "o", 73941 },	-- Ooze Covered Gold Vein
+							},
+						}),
+						i(108296, {	-- Gold Ore Nugget
+							["providers"] = {
+								{ "o", 1734 },	-- Gold Vein
+								{ "o", 73941 },	-- Ooze Covered Gold Vein
+							},
+							["timeline"] = { ADDED_6_0_2 },
+							["groups"] = {
+								i(2776),	-- Gold Ore
+							},
+						}),
+						i(2772, {	-- Iron Ore
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								BADLANDS,	
+								DESOLACE,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #endif
+							},
+							["provider"] = { "o", 1735 },	-- Iron Deposit
+						}),
+						i(108297, {	-- Iron Ore Nugget
+							["provider"] = { "o", 1735 },	-- Iron Deposit
+							["timeline"] = { ADDED_6_0_2 },
+							["groups"] = {
+								i(2772),	-- Iron Ore
+							},
+						}),
+						applyclassicphase(PHASE_FIVE, i(22203, {	-- Large Obsidian Shard
+							["maps"] = {
+								RUINS_OF_AHNQIRAJ,
+								TEMPLE_OF_AHNQIRAJ,
+								-- #if BEFORE CATA
+								SILITHUS,
+								-- #endif
+							},
+							["providers"] = {
+								{ "o", 181069 },	-- Large Obsidian Chunk
+								{ "o", 181068 },	-- Small Obsidian Chunk
+							},
+						})),
+						i(3858, {	-- Mithril Ore
+							["maps"] = {
+								BADLANDS,
+								BURNING_STEPPES,
+								FELWOOD,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								THOUSAND_NEEDLES,
+								-- #else
+								AZSHARA,
+								-- #endif
+							},
+							["provider"] = { "o", 2040 },	-- Mithril Deposit
+						}),
+						i(108300, {	-- Mithril Ore Nugget
+							["provider"] = { "o", 2040 },	-- Mithril Deposit
+							["timeline"] = { ADDED_6_0_2 },
+							["groups"] = {
+								i(3858),	-- Mithril Ore
+							},
+						}),
+						i(2775, {	-- Silver Ore
+							["description"] = "Silver Veins is a rare spawn in place of Tin Veins and Iron Deposits.",
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								ASHENVALE,
+								BADLANDS,
+								DESOLACE,
+								DUSKWOOD,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								WETLANDS,
+								-- #if BEFORE CATA
+								ALTERAC_MOUNTAINS,
+								REDRIDGE_MOUNTAINS,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #else
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								NORTHERN_STRANGLETHORN,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #endif
+							},
+							["providers"] = {
+								{ "o", 73940 },	-- Ooze Covered Silver Vein
+								{ "o", 1733 },	-- Silver Vein
+							},
+						}),
+						i(108294, {	-- Silver Ore Nugget
+							["providers"] = {
+								{ "o", 73940 },	-- Ooze Covered Silver Vein
+								{ "o", 1733 },	-- Silver Vein
+							},
+							["timeline"] = { ADDED_6_0_2 },
+							["groups"] = {
+								i(2775),	-- Silver Ore
+							},
+						}),
+						applyclassicphase(PHASE_FIVE, i(22202, {	-- Small Obsidian Shard
+							["maps"] = {
+								RUINS_OF_AHNQIRAJ,
+								TEMPLE_OF_AHNQIRAJ,
+								-- #if BEFORE CATA
+								SILITHUS,
+								-- #endif
+							},
+							["providers"] = {
+								{ "o", 181069 },	-- Large Obsidian Chunk
+								{ "o", 181068 },	-- Small Obsidian Chunk
+							},
+						})),
+						i(10620, {	-- Thorium Ore
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
+							["providers"] = {
+								-- #if BEFORE CATA
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								-- #endif
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+							},
+						}),
+						i(108298, {	-- Thorium Ore Nugget
+							["providers"] = {
+								-- #if BEFORE CATA
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								-- #endif
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+							},
+							["timeline"] = { ADDED_6_0_2 },
+							["groups"] = {
+								i(10620),	-- Thorium Ore
+							},
+						}),
+						i(2771, {	-- Tin Ore
+							["maps"] = {
+								ASHENVALE,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								-- #if BEFORE CATA
+								REDRIDGE_MOUNTAINS,
+								THOUSAND_NEEDLES,
+								-- #else
+								NORTHERN_STRANGLETHORN,
+								-- #endif
+								WETLANDS,
+							},
+							["provider"] = { "o", 1732 },	-- Tin Vein
+						}),
+						i(108295, {	-- Tin Ore Nugget
+							["provider"] = { "o", 1732 },	-- Tin Vein
+							["timeline"] = { ADDED_6_0_2 },
+							["groups"] = {
+								i(2771),	-- Tin Ore
+							},
+						}),
+						i(7911, {	-- Truesilver Ore
+							["description"] = "Truesilver Deposits is a rare spawn in place of Mithril Deposits and Thorium Veins.",
+							["maps"] = {
+								BADLANDS,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								THOUSAND_NEEDLES,
+								-- #else
+								AZSHARA,
+								-- #endif
+							},
+							["providers"] = {
+								{ "o", 123309 },	-- Ooze Covered Truesilver Deposit
+								{ "o", 2047 },	-- Truesilver Deposit
+							},
+						}),
+						i(108299, {	-- Truesilver Ore Nugget
+							["providers"] = {
+								{ "o", 123309 },	-- Ooze Covered Truesilver Deposit
+								{ "o", 2047 },	-- Truesilver Deposit
+							},
+							["timeline"] = { ADDED_6_0_2 },
+							["groups"] = {
+								i(7911),	-- Truesilver Ore
+							},
+						}),
+						--____________________________________________
+						-- Stones:
+						i(2836, {	-- Coarse Stone
+							["maps"] = {
+								ASHENVALE,
+								DUSKWOOD,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								-- #if BEFORE CATA
+								REDRIDGE_MOUNTAINS,
+								THOUSAND_NEEDLES,
+								-- #else
+								NORTHERN_STRANGLETHORN,
+								-- #endif
+								WETLANDS,
+							},
+							["provider"] = { "o", 1732 },	-- Tin Vein
+						}),
+						i(12365, {	-- Dense Stone
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
+							["providers"] = {
+								-- #if BEFORE CATA
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								-- #endif
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+							},
+						}),
+						i(2838, {	-- Heavy Stone
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								BADLANDS,	
+								DESOLACE,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #endif
+							},
+							["provider"] = { "o", 1735 },	-- Iron Deposit
+						}),
+						i(2835, {	-- Rough Stone
+							["maps"] = {
+								DARKSHORE,
+								DUN_MOROGH,
+								DUROTAR,
+								ELWYNN_FOREST,
+								LOCH_MODAN,
+								MULGORE,
+								SILVERPINE_FOREST,
+								TIRISFAL_GLADES,
+								WESTFALL,
+								-- #if AFTER CATA
+								AZSHARA,
+								NORTHERN_BARRENS,
+								-- #else
+								THE_BARRENS,
+								-- #endif
+								-- #if AFTER TBC
+								AZUREMYST_ISLE,
+								BLOODMYST_ISLE,
+								EVERSONG_WOODS,
+								GHOSTLANDS,
+								-- #endif
+							},
+							["provider"] = { "o", 1731 },	-- Copper Vein
+						}),
+						i(7912, {	-- Solid Stone
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
+							["provider"] = { "o", 2040 },	-- Mithril Deposit
+						}),
+						--____________________________________________
+						--
+						-- Not Ore --
+						-- Elements with unviably low droprate:
+						-- i(7067),	-- Elemental Earth
+						-- i(7068),	-- Elemental Fire
+						-- applyclassicphase(PHASE_FIVE, i(7076)),	-- Essence of Earth
+						-- Misc:
+						i(12363, {	-- Arcane Crystal
 							-- #if AFTER TBC
-							AZUREMYST_ISLE,
-							BLOODMYST_ISLE,
-							EVERSONG_WOODS,
-							GHOSTLANDS,
-							-- #endif
-						},
-						["provider"] = { "o", 1731 },	-- Copper Vein
-					}),
-					i(11370, {	-- Dark Iron Ore
-						["maps"] = {
-							BLACKROCK_DEPTHS,
-							MOLTEN_CORE,
-							-- #if BEFORE CATA
-							BURNING_STEPPES,
-							SEARING_GORGE,
-							-- #endif
-						},
-						["provider"] = { "o", 165658 },	-- Dark Iron Deposit
-					}),
-					i(2776, {	-- Gold Ore
-						["description"] = "Gold Veins is a rare spawn in place of Iron Deposits and Mithril Deposits.",
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							BADLANDS,
-							BURNING_STEPPES,	
-							DESOLACE,
-							FELWOOD,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							THOUSAND_NEEDLES,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
+							["description"] = "Arcane Crystal is most reliably obtainable from mining veins, although the droprate is low. |CFFFF0000You cannot get it from prospecting.|r",
 							-- #else
-							ALTERAC_MOUNTAINS,
-							AZSHARA,
-							STRANGLETHORN_VALE,
+							["description"] = "Arcane Crystal is most reliably obtainable from mining veins, although the droprate is low.",
 							-- #endif
-						},
-						["providers"] = {
-							{ "o", 1734 },	-- Gold Vein
-							{ "o", 73941 },	-- Ooze Covered Gold Vein
-						},
-					}),
-					i(108296, {	-- Gold Ore Nugget
-						["providers"] = {
-							{ "o", 1734 },	-- Gold Vein
-							{ "o", 73941 },	-- Ooze Covered Gold Vein
-						},
-						["timeline"] = { ADDED_6_0_2 },
-						["groups"] = {
-							i(2776),	-- Gold Ore
-						},
-					}),
-					i(2772, {	-- Iron Ore
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							BADLANDS,	
-							DESOLACE,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #else
-							ALTERAC_MOUNTAINS,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #endif
-						},
-						["provider"] = { "o", 1735 },	-- Iron Deposit
-					}),
-					i(108297, {	-- Iron Ore Nugget
-						["provider"] = { "o", 1735 },	-- Iron Deposit
-						["timeline"] = { ADDED_6_0_2 },
-						["groups"] = {
-							i(2772),	-- Iron Ore
-						},
-					}),
-					applyclassicphase(PHASE_FIVE, i(22203, {	-- Large Obsidian Shard
-						["maps"] = {
-							RUINS_OF_AHNQIRAJ,
-							TEMPLE_OF_AHNQIRAJ,
-							-- #if BEFORE CATA
-							SILITHUS,
-							-- #endif
-						},
-						["providers"] = {
-							{ "o", 181069 },	-- Large Obsidian Chunk
-							{ "o", 181068 },	-- Small Obsidian Chunk
-						},
-					})),
-					i(3858, {	-- Mithril Ore
-						["maps"] = {
-							BADLANDS,
-							BURNING_STEPPES,
-							FELWOOD,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							THOUSAND_NEEDLES,
-							-- #else
-							AZSHARA,
-							-- #endif
-						},
-						["provider"] = { "o", 2040 },	-- Mithril Deposit
-					}),
-					i(108300, {	-- Mithril Ore Nugget
-						["provider"] = { "o", 2040 },	-- Mithril Deposit
-						["timeline"] = { ADDED_6_0_2 },
-						["groups"] = {
-							i(3858),	-- Mithril Ore
-						},
-					}),
-					i(2775, {	-- Silver Ore
-						["description"] = "Silver Veins is a rare spawn in place of Tin Veins and Iron Deposits.",
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							ASHENVALE,
-							BADLANDS,
-							DESOLACE,
-							DUSKWOOD,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							WETLANDS,
-							-- #if BEFORE CATA
-							ALTERAC_MOUNTAINS,
-							REDRIDGE_MOUNTAINS,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #else
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							NORTHERN_STRANGLETHORN,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #endif
-						},
-						["providers"] = {
-							{ "o", 73940 },	-- Ooze Covered Silver Vein
-							{ "o", 1733 },	-- Silver Vein
-						},
-					}),
-					i(108294, {	-- Silver Ore Nugget
-						["providers"] = {
-							{ "o", 73940 },	-- Ooze Covered Silver Vein
-							{ "o", 1733 },	-- Silver Vein
-						},
-						["timeline"] = { ADDED_6_0_2 },
-						["groups"] = {
-							i(2775),	-- Silver Ore
-						},
-					}),
-					applyclassicphase(PHASE_FIVE, i(22202, {	-- Small Obsidian Shard
-						["maps"] = {
-							RUINS_OF_AHNQIRAJ,
-							TEMPLE_OF_AHNQIRAJ,
-							-- #if BEFORE CATA
-							SILITHUS,
-							-- #endif
-						},
-						["providers"] = {
-							{ "o", 181069 },	-- Large Obsidian Chunk
-							{ "o", 181068 },	-- Small Obsidian Chunk
-						},
-					})),
-					i(10620, {	-- Thorium Ore
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						["providers"] = {
-							-- #if BEFORE CATA
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							-- #endif
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-					}),
-					i(108298, {	-- Thorium Ore Nugget
-						["providers"] = {
-							-- #if BEFORE CATA
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							-- #endif
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-						["timeline"] = { ADDED_6_0_2 },
-						["groups"] = {
-							i(10620),	-- Thorium Ore
-						},
-					}),
-					i(2771, {	-- Tin Ore
-						["maps"] = {
-							ASHENVALE,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							-- #if BEFORE CATA
-							REDRIDGE_MOUNTAINS,
-							THOUSAND_NEEDLES,
-							-- #else
-							NORTHERN_STRANGLETHORN,
-							-- #endif
-							WETLANDS,
-						},
-						["provider"] = { "o", 1732 },	-- Tin Vein
-					}),
-					i(108295, {	-- Tin Ore Nugget
-						["provider"] = { "o", 1732 },	-- Tin Vein
-						["timeline"] = { ADDED_6_0_2 },
-						["groups"] = {
-							i(2771),	-- Tin Ore
-						},
-					}),
-					i(7911, {	-- Truesilver Ore
-						["description"] = "Truesilver Deposits is a rare spawn in place of Mithril Deposits and Thorium Veins.",
-						["maps"] = {
-							BADLANDS,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							THOUSAND_NEEDLES,
-							-- #else
-							AZSHARA,
-							-- #endif
-						},
-						["providers"] = {
-							{ "o", 123309 },	-- Ooze Covered Truesilver Deposit
-							{ "o", 2047 },	-- Truesilver Deposit
-						},
-					}),
-					i(108299, {	-- Truesilver Ore Nugget
-						["providers"] = {
-							{ "o", 123309 },	-- Ooze Covered Truesilver Deposit
-							{ "o", 2047 },	-- Truesilver Deposit
-						},
-						["timeline"] = { ADDED_6_0_2 },
-						["groups"] = {
-							i(7911),	-- Truesilver Ore
-						},
-					}),
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
+							["providers"] = {
+								-- #if BEFORE CATA
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								-- #else
+								{ "o", 324 },	-- Small Thorium Vein
+								-- #endif
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+							},
+						}),
+						i(9262, {	-- Black Vitriol
+							["description"] = "This gem is most reliably obtained from mining veins, although the droprate is 1%.",
+							["providers"] = {
+								{ "o", 2040 },	-- Mithril Deposit
+								{ "o", 324 },	-- Small Thorium Vein
+							},
+						}),
+						i(11382, {	-- Blood of the Mountain
+							["maps"] = {
+								BLACKROCK_DEPTHS,
+								MOLTEN_CORE,
+								-- #if BEFORE CATA
+								BURNING_STEPPES,
+								SEARING_GORGE,
+								-- #endif
+							},
+							["provider"] = { "o", 165658 },	-- Dark Iron Deposit
+						}),
+						i(8150, {	-- Deeprock Salt
+							["description"] = "Can drop from any highlevel earth elemental and construct creatures, and miners can get additional yield from mining the corpse.",
+							["maps"] = {
+								BLACKROCK_DEPTHS,
+								MARAUDON,
+								ULDAMAN,
+							},
+						}),
+						applyclassicphase(PHASE_FOUR, i(19774, {	-- Souldarite
+							["provider"] = { "o", 180215 },	-- Hakkari Thorium Vein
+							["timeline"] = { REMOVED_4_0_3 }
+						})),
+					},
 					--____________________________________________
-					-- Stones:
-					i(2836, {	-- Coarse Stone
-						["maps"] = {
-							ASHENVALE,
-							DUSKWOOD,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							-- #if BEFORE CATA
-							REDRIDGE_MOUNTAINS,
-							THOUSAND_NEEDLES,
-							-- #else
-							NORTHERN_STRANGLETHORN,
-							-- #endif
-							WETLANDS,
-						},
-						["provider"] = { "o", 1732 },	-- Tin Vein
-					}),
-					i(12365, {	-- Dense Stone
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						["providers"] = {
-							-- #if BEFORE CATA
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							-- #endif
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-					}),
-					i(2838, {	-- Heavy Stone
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							BADLANDS,	
-							DESOLACE,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #else
-							ALTERAC_MOUNTAINS,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #endif
-						},
-						["provider"] = { "o", 1735 },	-- Iron Deposit
-					}),
-					i(2835, {	-- Rough Stone
-						["maps"] = {
-							DARKSHORE,
-							DUN_MOROGH,
-							DUROTAR,
-							ELWYNN_FOREST,
-							LOCH_MODAN,
-							MULGORE,
-							SILVERPINE_FOREST,
-							TIRISFAL_GLADES,
-							WESTFALL,
-							-- #if AFTER CATA
-							AZSHARA,
-							NORTHERN_BARRENS,
-							-- #else
-							THE_BARRENS,
-							-- #endif
-							-- #if AFTER TBC
-							AZUREMYST_ISLE,
-							BLOODMYST_ISLE,
-							EVERSONG_WOODS,
-							GHOSTLANDS,
-							-- #endif
-						},
-						["provider"] = { "o", 1731 },	-- Copper Vein
-					}),
-					i(7912, {	-- Solid Stone
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						["provider"] = { "o", 2040 },	-- Mithril Deposit
-					}),
-					--____________________________________________
-					--
-					-- Not Ore --
-					-- Elements with unviably low droprate:
-					-- i(7067),	-- Elemental Earth
-					-- i(7068),	-- Elemental Fire
-					-- applyclassicphase(PHASE_FIVE, i(7076)),	-- Essence of Earth
-					-- Misc:
-					i(12363, {	-- Arcane Crystal
+					-- Gems (obtainable from prospecting):
+					-- Note: The gems are linked to respective ores with provider for prospecting in JEWELCRAFTING > Prospecting.
+					sharedData({
 						-- #if AFTER TBC
-						["description"] = "Arcane Crystal is most reliably obtainable from mining veins, although the droprate is low. |CFFFF0000You cannot get it from prospecting.|r",
+						["description"] = "This gem is most reliably obtained from prospecting ores with Jewelcrafting. You can also obtain it from mining veins, although the droprate is 1%.",
 						-- #else
-						["description"] = "Arcane Crystal is most reliably obtainable from mining veins, although the droprate is low.",
-						-- #endif
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						["providers"] = {
-							-- #if BEFORE CATA
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							-- #else
-							{ "o", 324 },	-- Small Thorium Vein
-							-- #endif
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-						},
-					}),
-					i(9262, {	-- Black Vitriol
 						["description"] = "This gem is most reliably obtained from mining veins, although the droprate is 1%.",
-						["providers"] = {
-							{ "o", 2040 },	-- Mithril Deposit
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-					}),
-					i(11382, {	-- Blood of the Mountain
-						["maps"] = {
-							BLACKROCK_DEPTHS,
-							MOLTEN_CORE,
-							-- #if BEFORE CATA
-							BURNING_STEPPES,
-							SEARING_GORGE,
-							-- #endif
-						},
-						["provider"] = { "o", 165658 },	-- Dark Iron Deposit
-					}),
-					i(8150, {	-- Deeprock Salt
-						["description"] = "Can drop from any highlevel earth elemental and construct creatures, and miners can get additional yield from mining the corpse.",
-						["maps"] = {
-							BLACKROCK_DEPTHS,
-							MARAUDON,
-							ULDAMAN,
-						},
-					}),
-					applyclassicphase(PHASE_FOUR, i(19774, {	-- Souldarite
-						["provider"] = { "o", 180215 },	-- Hakkari Thorium Vein
-						["timeline"] = { REMOVED_4_0_3 }
-					})),
-				},
-				--____________________________________________
-				-- Gems (obtainable from prospecting):
-				-- Note: The gems are linked to respective ores with provider for prospecting in JEWELCRAFTING > Prospecting.
-				sharedData({
-					-- #if AFTER TBC
-					["description"] = "This gem is most reliably obtained from prospecting ores with Jewelcrafting. You can also obtain it from mining veins, although the droprate is 1%.",
-					-- #else
-					["description"] = "This gem is most reliably obtained from mining veins, although the droprate is 1%.",
-					-- #endif
-				}, {
-					i(7909, {	-- Aquamarine
-						["maps"] = {
-							BADLANDS,
-							BURNING_STEPPES,
-							FELWOOD,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							THOUSAND_NEEDLES,
-							-- #else
-							AZSHARA,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 2040 },	-- Mithril Deposit
-							{ "o", 2047 },	-- Truesilver Deposit
-						},
 						-- #endif
-					}),
-					i(12800, {	-- Azerothian Diamond
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-						-- #endif
-					}),
-					i(12361, {	-- Blue Sapphire
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-						-- #endif
-					}),
-					i(3864, {	-- Citrine
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							BADLANDS,
-							BURNING_STEPPES,
-							DESOLACE,
-							FELWOOD,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							THOUSAND_NEEDLES,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #else
-							ALTERAC_MOUNTAINS,
-							AZSHARA,
-							STRANGLETHORN_VALE,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 1735 },	-- Iron Deposit
-							{ "o", 2040 },	-- Mithril Deposit
-							{ "o", 1734 },	-- Gold Vein
-							{ "o", 2047 },	-- Truesilver Deposit
-						},
-						-- #endif
-					}),
-					i(12364, {	-- Huge Emerald
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-						-- #endif
-					}),
-					i(1529, {	-- Jade
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							BADLANDS,	
-							DESOLACE,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #else
-							ALTERAC_MOUNTAINS,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 1735 },	-- Iron Deposit
-							{ "o", 1734 },	-- Gold Vein
-						},
-						-- #endif
-					}),
-					i(12799, {	-- Large Opal
-						["maps"] = {
-							UNGORO_CRATER,
-							WINTERSPRING,
-							-- #if AFTER CATA
-							BLASTED_LANDS,
-							SILITHUS,
-							SWAMP_OF_SORROWS,
-							-- #else
-							AZSHARA,
-							BURNING_STEPPES,
-							EASTERN_PLAGUELANDS,
-							FELWOOD,
-							ZULGURUB,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-						},
-						-- #endif
-					}),
-					i(1705, {	-- Lesser Moonstone
-						["maps"] = {
-							ARATHI_HIGHLANDS,
-							ASHENVALE,
-							BADLANDS,	
-							DESOLACE,
-							DUSKWOOD,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							WETLANDS,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							FERALAS,
-							NORTHERN_STRANGLETHORN,
-							SOUTHERN_BARRENS,
-							THE_CAPE_OF_STRANGLETHORN,
-							THE_HINTERLANDS,
-							WESTERN_PLAGUELANDS,
-							-- #else
-							ALTERAC_MOUNTAINS,
-							REDRIDGE_MOUNTAINS,
-							STRANGLETHORN_VALE,
-							THOUSAND_NEEDLES,
-							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 1732 },	-- Tin Vein
-							{ "o", 1735 },	-- Iron Deposit
-							{ "o", 1733 },	-- Silver Vein
-							{ "o", 1734 },	-- Gold Vein
-						},
-						-- #endif
-					}),
-					i(774, {	-- Malachite
-						["maps"] = {
-							DARKSHORE,
-							DUN_MOROGH,
-							DUROTAR,
-							ELWYNN_FOREST,
-							LOCH_MODAN,
-							MULGORE,
-							SILVERPINE_FOREST,
-							TIRISFAL_GLADES,
-							WESTFALL,
-							THE_BARRENS,
-						},
-						-- #if BEFORE TBC
-						["provider"] = { "o", 1731 },	-- Copper Vein
-						-- #endif
-					}),
-					i(1206, {	-- Moss Agate
-						["maps"] = {
-							ASHENVALE,
-							DUSKWOOD,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							-- #if BEFORE CATA
-							REDRIDGE_MOUNTAINS,
-							THOUSAND_NEEDLES,
-							-- #else
-							NORTHERN_STRANGLETHORN,
-							-- #endif
-							WETLANDS,
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 1732 },	-- Tin Vein
-							{ "o", 1733 },	-- Silver Vein
-						},
-						-- #endif
-					}),
-					i(1210, {	-- Shadowgem
-						["maps"] = {
+					}, {
+						i(7909, {	-- Aquamarine
+							["maps"] = {
+								BADLANDS,
+								BURNING_STEPPES,
+								FELWOOD,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								THOUSAND_NEEDLES,
+								-- #else
+								AZSHARA,
+								-- #endif
+							},
 							-- #if BEFORE TBC
-							DARKSHORE,
-							DUN_MOROGH,
-							DUROTAR,
-							ELWYNN_FOREST,
-							LOCH_MODAN,
-							MULGORE,
-							SILVERPINE_FOREST,
-							TIRISFAL_GLADES,
-							WESTFALL,
-							THE_BARRENS,
+							["providers"] = {
+								{ "o", 2040 },	-- Mithril Deposit
+								{ "o", 2047 },	-- Truesilver Deposit
+							},
 							-- #endif
-							ASHENVALE,
-							DUSKWOOD,
-							HILLSBRAD_FOOTHILLS,
-							STONETALON_MOUNTAINS,
-							-- #if BEFORE CATA
-							REDRIDGE_MOUNTAINS,
-							THOUSAND_NEEDLES,
-							-- #else
-							NORTHERN_STRANGLETHORN,
-							-- #endif
-							WETLANDS,
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 1731 },	-- Copper Vein
-							{ "o", 1732 },	-- Tin Vein
-							{ "o", 1733 },	-- Silver Vein
-						},
-						-- #endif
-					}),
-					i(7910, {	-- Star Ruby
-						["maps"] = {
-							BADLANDS,
-							BURNING_STEPPES,
-							FELWOOD,
-							FERALAS,
-							SEARING_GORGE,
-							TANARIS,
-							-- #if AFTER CATA
-							EASTERN_PLAGUELANDS,
-							THOUSAND_NEEDLES,
-							-- #else
-							AZSHARA,
-							-- #endif
+						}),
+						i(12800, {	-- Azerothian Diamond
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
 							-- #if BEFORE TBC
-							UNGORO_CRATER,
-							WINTERSPRING,
-							EASTERN_PLAGUELANDS,
-							ZULGURUB,
+							["providers"] = {
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+							},
 							-- #endif
-						},
-						-- #if BEFORE TBC
-						["providers"] = {
-							{ "o", 2040 },	-- Mithril Deposit
-							{ "o", 180215 },	-- Hakkari Thorium Vein
-							{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
-							{ "o", 123848 },	-- Ooze Covered Thorium Vein
-							{ "o", 175404 },	-- Rich Thorium Vein
-							{ "o", 324 },	-- Small Thorium Vein
-							{ "o", 2047 },	-- Truesilver Deposit
-						},
-						-- #endif
+						}),
+						i(12361, {	-- Blue Sapphire
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+							},
+							-- #endif
+						}),
+						i(3864, {	-- Citrine
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								BADLANDS,
+								BURNING_STEPPES,
+								DESOLACE,
+								FELWOOD,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								THOUSAND_NEEDLES,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								AZSHARA,
+								STRANGLETHORN_VALE,
+								-- #endif
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 1735 },	-- Iron Deposit
+								{ "o", 2040 },	-- Mithril Deposit
+								{ "o", 1734 },	-- Gold Vein
+								{ "o", 2047 },	-- Truesilver Deposit
+							},
+							-- #endif
+						}),
+						i(12364, {	-- Huge Emerald
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+							},
+							-- #endif
+						}),
+						i(1529, {	-- Jade
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								BADLANDS,	
+								DESOLACE,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #endif
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 1735 },	-- Iron Deposit
+								{ "o", 1734 },	-- Gold Vein
+							},
+							-- #endif
+						}),
+						i(12799, {	-- Large Opal
+							["maps"] = {
+								UNGORO_CRATER,
+								WINTERSPRING,
+								-- #if AFTER CATA
+								BLASTED_LANDS,
+								SILITHUS,
+								SWAMP_OF_SORROWS,
+								-- #else
+								AZSHARA,
+								BURNING_STEPPES,
+								EASTERN_PLAGUELANDS,
+								FELWOOD,
+								ZULGURUB,
+								-- #endif
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+							},
+							-- #endif
+						}),
+						i(1705, {	-- Lesser Moonstone
+							["maps"] = {
+								ARATHI_HIGHLANDS,
+								ASHENVALE,
+								BADLANDS,	
+								DESOLACE,
+								DUSKWOOD,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								WETLANDS,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								FERALAS,
+								NORTHERN_STRANGLETHORN,
+								SOUTHERN_BARRENS,
+								THE_CAPE_OF_STRANGLETHORN,
+								THE_HINTERLANDS,
+								WESTERN_PLAGUELANDS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								REDRIDGE_MOUNTAINS,
+								STRANGLETHORN_VALE,
+								THOUSAND_NEEDLES,
+								-- #endif
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 1732 },	-- Tin Vein
+								{ "o", 1735 },	-- Iron Deposit
+								{ "o", 1733 },	-- Silver Vein
+								{ "o", 1734 },	-- Gold Vein
+							},
+							-- #endif
+						}),
+						i(774, {	-- Malachite
+							["maps"] = {
+								DARKSHORE,
+								DUN_MOROGH,
+								DUROTAR,
+								ELWYNN_FOREST,
+								LOCH_MODAN,
+								MULGORE,
+								SILVERPINE_FOREST,
+								TIRISFAL_GLADES,
+								WESTFALL,
+								THE_BARRENS,
+							},
+							-- #if BEFORE TBC
+							["provider"] = { "o", 1731 },	-- Copper Vein
+							-- #endif
+						}),
+						i(1206, {	-- Moss Agate
+							["maps"] = {
+								ASHENVALE,
+								DUSKWOOD,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								-- #if BEFORE CATA
+								REDRIDGE_MOUNTAINS,
+								THOUSAND_NEEDLES,
+								-- #else
+								NORTHERN_STRANGLETHORN,
+								-- #endif
+								WETLANDS,
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 1732 },	-- Tin Vein
+								{ "o", 1733 },	-- Silver Vein
+							},
+							-- #endif
+						}),
+						i(1210, {	-- Shadowgem
+							["maps"] = {
+								-- #if BEFORE TBC
+								DARKSHORE,
+								DUN_MOROGH,
+								DUROTAR,
+								ELWYNN_FOREST,
+								LOCH_MODAN,
+								MULGORE,
+								SILVERPINE_FOREST,
+								TIRISFAL_GLADES,
+								WESTFALL,
+								THE_BARRENS,
+								-- #endif
+								ASHENVALE,
+								DUSKWOOD,
+								HILLSBRAD_FOOTHILLS,
+								STONETALON_MOUNTAINS,
+								-- #if BEFORE CATA
+								REDRIDGE_MOUNTAINS,
+								THOUSAND_NEEDLES,
+								-- #else
+								NORTHERN_STRANGLETHORN,
+								-- #endif
+								WETLANDS,
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 1731 },	-- Copper Vein
+								{ "o", 1732 },	-- Tin Vein
+								{ "o", 1733 },	-- Silver Vein
+							},
+							-- #endif
+						}),
+						i(7910, {	-- Star Ruby
+							["maps"] = {
+								BADLANDS,
+								BURNING_STEPPES,
+								FELWOOD,
+								FERALAS,
+								SEARING_GORGE,
+								TANARIS,
+								-- #if AFTER CATA
+								EASTERN_PLAGUELANDS,
+								THOUSAND_NEEDLES,
+								-- #else
+								AZSHARA,
+								-- #endif
+								-- #if BEFORE TBC
+								UNGORO_CRATER,
+								WINTERSPRING,
+								EASTERN_PLAGUELANDS,
+								ZULGURUB,
+								-- #endif
+							},
+							-- #if BEFORE TBC
+							["providers"] = {
+								{ "o", 2040 },	-- Mithril Deposit
+								{ "o", 180215 },	-- Hakkari Thorium Vein
+								{ "o", 177388 },	-- Ooze Covered Rich Thorium Vein
+								{ "o", 123848 },	-- Ooze Covered Thorium Vein
+								{ "o", 175404 },	-- Rich Thorium Vein
+								{ "o", 324 },	-- Small Thorium Vein
+								{ "o", 2047 },	-- Truesilver Deposit
+							},
+							-- #endif
+						}),
+						i(818, {	-- Tigerseye
+							["maps"] = {
+								DARKSHORE,
+								DUN_MOROGH,
+								DUROTAR,
+								ELWYNN_FOREST,
+								LOCH_MODAN,
+								MULGORE,
+								SILVERPINE_FOREST,
+								TIRISFAL_GLADES,
+								WESTFALL,
+								THE_BARRENS,
+							},
+							-- #if BEFORE TBC
+							["provider"] = { "o", 1731 },	-- Copper Vein
+							-- #endif
+						}),
+					})
+				),
+			}),
+			filter(PROFESSION_EQUIPMENT, {
+				i(2901, {	-- Mining Pick
+					["collectible"] = false,
+					["description"] = "Can be bought from Mining Suppliers, as well as some Trade vendors around the world",
+				}),
+			}),
+			spell(2656, {	-- Smelting
+				i(2841, {    -- Bronze Bar
+					["cost"] = ClassicCost({
+						{ "i", 2840, 1 },    -- Copper Bar
+						{ "i", 3576, 1 },    -- Tin Bar
 					}),
-					i(818, {	-- Tigerseye
-						["maps"] = {
-							DARKSHORE,
-							DUN_MOROGH,
-							DUROTAR,
-							ELWYNN_FOREST,
-							LOCH_MODAN,
-							MULGORE,
-							SILVERPINE_FOREST,
-							TIRISFAL_GLADES,
-							WESTFALL,
-							THE_BARRENS,
-						},
-						-- #if BEFORE TBC
-						["provider"] = { "o", 1731 },	-- Copper Vein
-						-- #endif
+				}),
+				i(2840, {    -- Copper Bar
+					["cost"] = ClassicCost({ { "i", 2770, 1 } }),    -- Copper Ore
+				}),
+				i(11371, {    -- Dark Iron Bar
+					["cost"] = ClassicCost({ { "i", 11370, 8 } }),    -- Dark Iron Ore
+					["description"] = "Learning how to melt Dark Iron Ore from Gloom'rel costs 2 Star Ruby, 20 Gold Bars, and 10 Truesilver Bars.\n\nThe Black Forge can be found in Blackrock Depths, just past the Summoner's Tomb. Head right into The Molten Bridge, and the forge will be on the left side.\nThe Black Anvil can be found by Lord Incendius in the same dungeon.",
+				}),
+				applyclassicphase(PHASE_THREE, i(17771, {    -- Enchanted / Elementium Bar
+					["cost"] = ClassicCost({
+						{ "i", 18562, 1 },    -- Elementium Ore
+						{ "i", 12360, 10 },    -- Arcanite Bar
+						{ "i", 17010, 1 },    -- Fiery Core
+						{ "i", 18567, 3 },    -- Elemental Flux
 					}),
-				})
-			),
-		}),
-		filter(PROFESSION_EQUIPMENT, {
-			i(2901, {	-- Mining Pick
-				["collectible"] = false,
-				["description"] = "Can be bought from Mining Suppliers, as well as some Trade vendors around the world",
-			}),
-		}),
-		spell(2656, {	-- Smelting
-			i(2841, {    -- Bronze Bar
-				["cost"] = ClassicCost({
-					{ "i", 2840, 1 },    -- Copper Bar
-					{ "i", 3576, 1 },    -- Tin Bar
+				})),
+				-- #if AFTER 3.3.0
+				i(12655, {    -- Enchanted Thorium Bar
+					["timeline"] = { ADDED_3_3_3 },
+					["cost"] = ClassicCost({
+						{ "i", 12359, 1 },    -- Thorium Bar
+						{ "i", 11176, 3 },    -- Dream Dust
+					}),
+				}),
+				-- #endif
+				i(3577, {    -- Gold Bar
+					["cost"] = ClassicCost({ { "i", 2776, 1 } }),    -- Gold Ore
+				}),
+				i(3575, {    -- Iron Bar
+					["cost"] = ClassicCost({ { "i", 2772, 1 } }),    -- Iron Ore
+				}),
+				i(3860, {    -- Mithril Bar
+					["cost"] = ClassicCost({ { "i", 3858, 1 } }),    -- Mithril Ore
+				}),
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(234003, {	-- Obsidian-Infused Thorium Bar
+					["timeline"] = { ADDED_1_15_5 },
+					["cost"] = ClassicCost({
+						{ "i", 12655, 2 },	-- Enchanted Thorium Bar
+						{ "i", 22203, 2 },	-- Large Obsidian Shard
+					}),
+				})),
+				-- #endif
+				i(2842, {    -- Silver Bar
+					["cost"] = ClassicCost({ { "i", 2775, 1 } }),    -- Silver Ore
+				}),
+				i(3859, {    -- Steel Bar
+					["cost"] = ClassicCost({
+						{ "i", 3575, 1 },    -- Iron Bar
+						{ "i", 3857, 1 },    -- Coal
+					}),
+				}),
+				i(12359, {    -- Thorium Bar
+					["cost"] = ClassicCost({ { "i", 10620, 1 } }),    -- Thorium Ore
+				}),
+				i(3576, {    -- Tin Bar
+					["cost"] = ClassicCost({ { "i", 2771, 1 } }),    -- Tin Ore
+				}),
+				i(6037, {    -- Truesilver Bar
+					["cost"] = ClassicCost({ { "i", 7911, 1 } }),    -- Truesilver Ore
 				}),
 			}),
-			i(2840, {    -- Copper Bar
-				["cost"] = ClassicCost({ { "i", 2770, 1 } }),    -- Copper Ore
-			}),
-			i(11371, {    -- Dark Iron Bar
-				["cost"] = ClassicCost({ { "i", 11370, 8 } }),    -- Dark Iron Ore
-				["description"] = "Learning how to melt Dark Iron Ore from Gloom'rel costs 2 Star Ruby, 20 Gold Bars, and 10 Truesilver Bars.\n\nThe Black Forge can be found in Blackrock Depths, just past the Summoner's Tomb. Head right into The Molten Bridge, and the forge will be on the left side.\nThe Black Anvil can be found by Lord Incendius in the same dungeon.",
-			}),
-			applyclassicphase(PHASE_THREE, i(17771, {    -- Enchanted / Elementium Bar
-				["cost"] = ClassicCost({
-					{ "i", 18562, 1 },    -- Elementium Ore
-					{ "i", 12360, 10 },    -- Arcanite Bar
-					{ "i", 17010, 1 },    -- Fiery Core
-					{ "i", 18567, 3 },    -- Elemental Flux
-				}),
-			})),
-			-- #if AFTER 3.3.0
-			i(12655, {    -- Enchanted Thorium Bar
-				["timeline"] = { ADDED_3_3_3 },
-				["cost"] = ClassicCost({
-					{ "i", 12359, 1 },    -- Thorium Bar
-					{ "i", 11176, 3 },    -- Dream Dust
-				}),
-			}),
-			-- #endif
-			i(3577, {    -- Gold Bar
-				["cost"] = ClassicCost({ { "i", 2776, 1 } }),    -- Gold Ore
-			}),
-			i(3575, {    -- Iron Bar
-				["cost"] = ClassicCost({ { "i", 2772, 1 } }),    -- Iron Ore
-			}),
-			i(3860, {    -- Mithril Bar
-				["cost"] = ClassicCost({ { "i", 3858, 1 } }),    -- Mithril Ore
-			}),
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(234003, {	-- Obsidian-Infused Thorium Bar
-				["timeline"] = { ADDED_1_15_5 },
-				["cost"] = ClassicCost({
-					{ "i", 12655, 2 },	-- Enchanted Thorium Bar
-					{ "i", 22203, 2 },	-- Large Obsidian Shard
-				}),
-			})),
-			-- #endif
-			i(2842, {    -- Silver Bar
-				["cost"] = ClassicCost({ { "i", 2775, 1 } }),    -- Silver Ore
-			}),
-			i(3859, {    -- Steel Bar
-				["cost"] = ClassicCost({
-					{ "i", 3575, 1 },    -- Iron Bar
-					{ "i", 3857, 1 },    -- Coal
-				}),
-			}),
-			i(12359, {    -- Thorium Bar
-				["cost"] = ClassicCost({ { "i", 10620, 1 } }),    -- Thorium Ore
-			}),
-			i(3576, {    -- Tin Bar
-				["cost"] = ClassicCost({ { "i", 2771, 1 } }),    -- Tin Ore
-			}),
-			i(6037, {    -- Truesilver Bar
-				["cost"] = ClassicCost({ { "i", 7911, 1 } }),    -- Truesilver Ore
-			}),
-		}),
+		},
 	}),
 	prof(POISONS, bubbleDownSelf({ ["timeline"] = { REMOVED_3_0_2 }, ["classes"] = { ROGUE }}, {
 		-- #if SEASON_OF_DISCOVERY
@@ -6841,59 +6843,332 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		i(10922),	-- Wound Poison IV
 	})),
 	prof(SKINNING, {
+		-- #if NOT ANYCLASSIC
+		["description"] = "The following items can be gathered by skinning creatures out in the world.\n\nNote that although Light-/Medium-/Heavy-/Thick-/Rugged Leather is most common to get from skinning, which one you get is dependng on two factors:\n\n* Your skill level in Skinning\n\n*The historic level bracket of the creature.\n\nYou will never be able to obtain Heavy Leather from skinning in Dun Morogh, and if you get Light Leather from skinning in Uldaman your skill level is way too low.",
+		-- #else
 		["description"] = "The following items can be gathered by skinning creatures out in the world.",
+		-- #endif
 		["groups"] = {
-			i(15416),	-- Black Dragonscale
-			i(7286),	-- Black Whelp Scale
-			i(15415),	-- Blue Dragonscale
-			i(12607),	-- Brilliant Chromatic Scale
-			i(15423),	-- Chimera Leather
-			i(17012),	-- Core Leather
-			i(6470),	-- Deviate Scale
-			applyclassicphase(PHASE_FOUR, i(20381, {	-- Dreamscale
-				["timeline"] = { REMOVED_4_0_3 },
-			})),
-			i(15417),	-- Devilsaur Leather
-			i(15422),	-- Frostsaber Leather
-			i(15412),	-- Green Dragonscale
-			i(7392),	-- Green Whelp Scale
-			i(4235),	-- Heavy Hide
-			i(4234),	-- Heavy Leather
-			i(15408),	-- Heavy Scorpid Scale
-			i(20501),	-- Heavy Silithid Carapace
-			i(783),		-- Light Hide
-			i(2318),	-- Light Leather
-			i(20500),	-- Light Silithid Carapace
-			i(4232),	-- Medium Hide
-			i(2319),	-- Medium Leather
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(234006)),	-- Monstrous Silithid Chitin
-			-- #endif
-			i(11512),	-- Patch of Tainted Skin
-			i(6471),	-- Perfect Deviate Scale
-			applyclassicphase(PHASE_FOUR, i(19767, {["timeline"] = { REMOVED_4_0_3, ADDED_10_0_7 }})),	-- Primal Bat Leather
-			applyclassicphase(PHASE_FOUR, i(19768, {["timeline"] = { REMOVED_4_0_3, ADDED_10_0_7 }})),	-- Primal Tiger Leather
-			i(12731, {	-- Pristine Hide of the Beast
-				["timeline"] = { REMOVED_6_0_2 },
+			filter(PROFESSION_EQUIPMENT, {
+				i(7005, {	-- Skinning Knife
+					["collectible"] = false,
+					["description"] = "Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",
+				}),
 			}),
-			i(15414),	-- Red Dragonscale
-			i(7287),	-- Red Whelp Scale
-			i(8171),	-- Rugged Hide
-			i(8170),	-- Rugged Leather
-			i(2934),	-- Ruined Leather Scraps
-			i(15410),	-- Scale of Onyxia
-			i(8154),	-- Scorpid Scale
-			i(7428),	-- Shadowcat Hide
-			i(20498),	-- Silithid Chitin
-			-- #if SEASON_OF_DISCOVERY
-			applyclassicphase(SOD_PHASE_SIX, i(234007)),	-- Spiked Silithid Chitin
-			-- #endif
-			i(8169),	-- Thick Hide
-			i(4304),	-- Thick Leather
-			i(8368),	-- Thick Wolfhide
-			i(8167),	-- Turtle Scale
-			i(15419),	-- Warbear Leather
-			i(8165),	-- Worn Dragonscale
+			spell(8613, {	-- Skinning
+				-- Base leathers:
+				i(4234, {	-- Heavy Leather
+					["maps"] = {
+						DUSTWALLOW_MARSH,
+						TANARIS,
+						THE_HINTERLANDS,
+						-- #if AFTER CATA
+						WESTERN_PLAGUELANDS,
+						-- #endif
+					},
+				}),
+				i(2318, {	-- Light Leather
+					["maps"] = {
+						DARKSHORE,
+						LOCH_MODAN,
+						SILVERPINE_FOREST,
+						WESTFALL,
+						-- #if AFTER CATA
+						AZSHARA,
+						NORTHERN_BARRENS,
+						-- #endif
+					},
+				}),
+				i(2319, {	-- Medium Leather
+					["maps"] = {
+						ARATHI_HIGHLANDS,
+						STONETALON_MOUNTAINS,
+					},
+				}),
+				i(8170, {	-- Rugged Leather
+					["maps"] = {
+						BLASTED_LANDS,
+					},
+				}),
+				i(2934, {	-- Ruined Leather Scraps
+					["maps"] = {
+						DUN_MOROGH,
+						DUROTAR,
+						ELWYNN_FOREST,
+						MULGORE,
+						TELDRASSIL,
+						TIRISFAL_GLADES,
+					},
+				}),
+				i(4304, {	-- Thick Leather
+					["maps"] = {
+						BADLANDS,
+						FELWOOD,
+						THOUSAND_NEEDLES,
+						UNGORO_CRATER,
+						WINTERSPRING,
+					},
+				}),
+				-- Base hides:
+				i(4235, {	-- Heavy Hide
+					["description"] = "Is a rare drop in place of Heavy Leather.",
+					["maps"] = {
+						DUSTWALLOW_MARSH,
+						TANARIS,
+						THE_HINTERLANDS,
+						-- #if AFTER CATA
+						WESTERN_PLAGUELANDS,
+						-- #endif
+					},
+					}),
+				i(783, {	-- Light Hide
+					["description"] = "Is a rare drop in place of Light Leather.",
+					["maps"] = {
+						DARKSHORE,
+						LOCH_MODAN,
+						SILVERPINE_FOREST,
+						WESTFALL,
+						-- #if AFTER CATA
+						AZSHARA,
+						NORTHERN_BARRENS,
+						-- #endif
+					},
+				}),
+				i(4232, {	-- Medium Hide
+					["description"] = "Is a rare drop in place of Medium Leather.",
+					["maps"] = {
+						ARATHI_HIGHLANDS,
+						STONETALON_MOUNTAINS,
+					},
+				}),
+				i(8171, {	-- Rugged Hide
+					["description"] = "Is a rare drop in place of Rugged Leather.",
+					["maps"] = {
+						BLASTED_LANDS,
+					},
+				}),
+				i(8169, {	-- Thick Hide
+					["description"] = "Is a rare drop in place of Thick Leather.",
+					["maps"] = {
+						BADLANDS,
+						FELWOOD,
+						THOUSAND_NEEDLES,
+						UNGORO_CRATER,
+						WINTERSPRING,
+					},
+				}),
+				-- Special leathers
+				i(15423, {	-- Chimera Leather
+					["crs"] = {
+						10807,	-- Brumeran
+						7448,	-- Chillwind Chimaera
+						7449,	-- Chillwind Ravager
+						7447,	-- Fledgling Chillwind
+						8764,	-- Mistwing Ravager
+						8763,	-- Mistwing Rogue
+					},
+					["maps"] = {
+						AZSHARA,
+						WINTERSPRING,
+					},
+					["timeline"] = { REMOVED_3_1_0 },
+				}),
+				i(17012, {	-- Core Leather
+					["crs"] = {
+						11673,	-- Ancient Core Hound (Molten Core) [Retail, namechanged sometimes between MOP and BfA] / Core Hound [Classic iterations]
+						-- #if AFTER CATA
+						53134,	-- Ancient Core Hound (Firelands)
+						-- #endif
+						11982,	-- Magmadar
+					},
+					["maps"] = {
+						-- #if AFTER CATA
+						FIRELANDS,
+						-- #endif
+						MOLTEN_CORE,
+					},
+				}),
+				i(15417),	-- Devilsaur Leather (Sourced in Un'goro Crater)
+				i(15422),	-- Frostsaber Leather (Sourced in Winterspring)
+				applyclassicphase(PHASE_FOUR, i(19767, {["timeline"] = { REMOVED_4_0_3, ADDED_10_0_7 }})),	-- Primal Bat Leather (Sourced in Zul'gurub)
+				applyclassicphase(PHASE_FOUR, i(19768, {["timeline"] = { REMOVED_4_0_3, ADDED_10_0_7 }})),	-- Primal Tiger Leather (Sourced in Zul'gurub)
+				i(15419, {	-- Warbear Leather
+					["crs"] = {
+						7446,	-- Rabid Shardtooth
+						7443,	-- Shardtooth Mauler
+						-- #if AFTER CATA
+						42336,	-- Tainted Black Bear
+						-- #else
+						8957,	-- Angerclaw Grizzly
+						1815,	-- Diseased Black Bear
+						1816,	-- Diseased Grizzly
+						7445,	-- Elder Shardtooth
+						7444,	-- Shardtooth Mauler
+						-- #endif
+					},
+					-- #if AFTER BFA
+					["description"] = "Can be skinned from bears in previously highlevel vanilla zones like shardtooths in Winterspring.",
+					-- #else
+					["description"] = "Can be skinned from bears in the level bracket 50-60 like shardtooths in Winterspring.",
+					-- #endif
+					["coords"] = {
+						{ 55.1, 37.8, WINTERSPRING },
+						{ 58.1, 89.4, WINTERSPRING },
+					},
+				}),
+				-- Special hides
+				i(12731),	-- Pristine Hide of the Beast (Sourced in Blackrock Spire)
+				i(7428, {	-- Shadowcat Hide
+					["crs"] = {
+						1713,	-- Elder Shadowmaw Panther
+						768,	-- Shadow Panther
+						684,	-- Shadowmaw Panther
+					},
+					["description"] = "Panthers can be found in central Stranglethorn Vale and eastern Swamp of Sorrows.",
+					["maps"] = {
+						STRANGLETHORN_VALE,
+						SWAMP_OF_SORROWS,
+					},
+					["timeline"] = { REMOVED_3_1_0 },
+				}),
+				i(8368, {	-- Thick Wolfhide
+					["description"] = "Can be skinned from all wolfs in the level bracket 40-60 though the droprate is 3-5 %.",
+					["maps"] = { BURNING_STEPPES },
+					["timeline"] = { REMOVED_3_1_0 },
+				}),
+				-- Scales
+				i(15416, {	-- Black Dragonscale
+					["description"] = "Can be skinned from elite creatures of the Black Dragonflight.",
+					["maps"] = {
+						BLACKWING_LAIR,
+						-- #if BEFORE WOD
+						BLACKROCK_SPIRE,
+						-- #endif
+						-- #if BEFORE CATA
+						BURNING_STEPPES,
+						-- #endif
+					},
+				}),
+				i(7286),	-- Black Whelp Scale (Sourced in Wetlands [CATA+] / Redridge Mountains)
+				i(15415, {	-- Blue Dragonscale
+					-- #if AFTER WOD
+					["cr"] = 14020,	-- Chromaggus
+					["description"] = "Blizzard being Blizzard, Blue Dragonscale is only obtainable from Chromaggus in Blackwing Lair. All other sources are removed.",
+					["maps"] = { BLACKWING_LAIR },
+					-- #elseif AFTER CATA
+					["crs"] = {
+						14020,	-- Chromaggus
+						10447,	-- Chromatic Dragonspawn
+						10814,	-- Chromatic Elite Guard
+						10442,	-- Chromatic Whelp
+					},
+					["description"] = "Can be skinned from creatures of the Chromatic Dragonflight, though is a pain to farm in regards to drop rate.",
+					["maps"] = { BLACROCK_SPIRE },
+					-- #else
+					["description"] = "Can be skinned from elite creatures of the Blue Dragonflight, though is a pain to farm in regards to drop rate.",
+					["coords"] = {
+						{ 57.2, 65.9, WINTERSPRING },	-- Mazthoril
+						{ 38.0, 75.0, AZSHARA },	-- Lake Mennar
+					},
+					-- #endif
+				}),
+				i(12607),	-- Brilliant Chromatic Scale (Sourced in Blackwing Lair [WOD+] / Blackwing Spire)
+				i(6470),	-- Deviate Scale (Sourced in Wailing Caverns)
+				applyclassicphase(PHASE_FOUR, i(20381, {	-- Dreamscale
+					-- #if AFTER 10.1.5
+					["description"] = "Can be skinned from corrupted creatures of the Green Dragonflight in Temple of Atal'hakkar. Can also be skinned from the Dragons of Nightmare during the Anniversary event.",
+					["maps"] = { TEMPLE_OF_ATALHAKKAR },
+					-- #elseif AFTER 7.2.5
+					["description"] = "Can be skinned from the Dragons of Nightmare during the Anniversary event.",
+					-- #elseif AFTER 4.0.3
+					["description"] = "Blizzard being blizzard, Dreamscale is no longer obtainable.",
+					-- #else
+					["description"] = "Can be skinned from the world bosses Dragons of Nightmare.",
+					-- #endif
+					["timeline"] = { REMOVED_4_0_3, ADDED_7_2_5 },
+				})),
+				i(15412, {	-- Green Dragonscale
+					["description"] = "Can be skinned from elite creatures of the Green Dragonflight around the world.",
+					["maps"] = { TEMPLE_OF_ATALHAKKAR },
+				}),
+				i(7392),	-- Green Whelp Scale (Sourced in Feralas [CATA+] / Swamp of Sorrows)
+				i(15408, {	-- Heavy Scorpid Scale
+					-- #if AFTER 4.0.3
+					["description"] = "Can be skinned from scorpids in Silithus.",
+					["maps"] = { SILITHUS },
+					-- #else
+					["description"] = "Can be skinned from scorpids in the level bracket 50-60.",
+					["maps"] = {
+						BURNING_STEPPES,
+						SILITHUS
+					},
+					-- #endif
+					}),
+				i(6471),	-- Perfect Deviate Scale (Sourced in Wailing Caverns)
+				i(15414, {	-- Red Dragonscale
+					-- #if AFTER WOD
+					["cr"] = 14020,	-- Chromaggus
+					["description"] = "Blizzard being Blizzard, Red Dragonscale is only obtainable from Chromaggus in Blackwing Lair. All other sources are removed.",
+					["maps"] = { BLACKWING_LAIR },
+					-- #elseif AFTER CATA
+					["crs"] = {
+						14020,	-- Chromaggus
+						10447,	-- Chromatic Dragonspawn
+						10814,	-- Chromatic Elite Guard
+						10442,	-- Chromatic Whelp
+					},
+					["description"] = "Can be skinned from creatures of the Chromatic Dragonflight, though is a pain to farm in regards to drop rate.",
+					["maps"] = { BLACROCK_SPIRE },
+					-- #else
+					["description"] = "Can be skinned from elite creatures of the Red Dragonflight around the world.",
+					["coord"] = { 80.0, 48.0, WETLANDS },
+					-- #endif
+				}),
+				i(7287),	-- Red Whelp Scale (Sourced in Wetlands)
+				i(15410),	-- Scale of Onyxia (Sourced in Onyxia's Lair)
+				i(8154, {	-- Scorpid Scale
+					["maps"] = { TANARIS },
+					-- #if AFTER BFA
+					["description"] = "Drops from scorpids in previously higher intermediate- to higher level vanilla zones like scorpids in Tanaris.",
+					-- #elseif AFTER 4.0.3
+					["description"] = "Drops from scorpids in higher intermediate- to higher level vanilla zones like scorpids in Tanaris.",
+					-- #else
+					["description"] = "Drops from scorpids in the level bracket 40-60 like scorpids in Tanaris.",
+					-- #endif
+				}),
+				i(8167, {	-- Turtle Scale
+					-- #if AFTER BFA
+					["description"] = "Can be skinned from turtles in previously higher intermediate- to higher level vanilla zones like Tanaris and Thousand Needles.",
+					-- #elseif AFTER 4.0.3
+					["description"] = "Can be skinned from turtles in higher intermediate- to higher level vanilla zones like Tanaris and Thousand Needles.",
+					-- #else
+					["description"] = "Can be skinned from turtles in the level bracket 35-60 like Mudrock turtles in Dustwallow.",
+					-- #endif
+					["maps"] = {
+						-- #if AFTER CATA
+						TANARIS,
+						THOUSAND_NEEDLES,
+						-- #else
+						DUSTWALLOW_MARSH,
+						-- #endif
+					},
+				}),
+				i(8165, {	-- Worn Dragonscale
+					["description"] = "Can be skinned from elite creatures of any Dragonflights around the world.",
+					["maps"] = { TEMPLE_OF_ATALHAKKAR },
+				}),
+				-- Other
+				i(20501),	-- Heavy Silithid Carapace (Sourced in Silithus)
+				i(20500),	-- Light Silithid Carapace (Sourced in Silithus)
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(234006)),	-- Monstrous Silithid Chitin
+				-- #endif
+				i(11512),	-- Patch of Tainted Skin (Sourced in Felwood)
+				i(20498),	-- Silithid Chitin (Sourced in Silithus)
+				-- #if SEASON_OF_DISCOVERY
+				applyclassicphase(SOD_PHASE_SIX, i(234007)),	-- Spiked Silithid Chitin
+				-- #endif
+			}),
 		},
 	}),
 	prof(TAILORING, {

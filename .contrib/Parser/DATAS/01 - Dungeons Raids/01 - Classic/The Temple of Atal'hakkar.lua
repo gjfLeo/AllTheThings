@@ -564,9 +564,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 			}),
 			-- #if AFTER 10.1.5
-			prof(SKINNING, bubbleDown({ ["timeline"] = { ADDED_10_1_5 } }, {
+			prof(SKINNING, {
 				i(20381),	-- Dreamscale
-			})),
+			}),
 			-- #endif
 			-- #if NOT SEASON_OF_DISCOVERY
 			SUNKEN_TEMPLE_ZONE_DROPS,

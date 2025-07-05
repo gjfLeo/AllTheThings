@@ -173,17 +173,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				-- #endif
 				prof(SKINNING, {
+					-- #if AFTER 4.0.3
 					i(7286, {	-- Black Whelp Scale
+						["coord"] = { 62.1, 47.5, WETLANDS },	-- Greenwarden's Grove, southeast of.
 						["cr"] = 42042,	-- Ebon Whelp
 					}),
-					-- #if BEFORE 4.0.3
+					-- #endif
 					i(7287, {	-- Red Whelp Scale
+						["coord"] = { 62.1, 47.5, WETLANDS },	-- Greenwarden's Grove, southeast of it's future location.
 						["crs"] = {
 							1069,	-- Crimson Whelp
 							1044,	-- Flamesnorting Whelp
 						},
+						["timeline"] = { REMOVED_3_1_0 },
 					}),
-					-- #endif
 				}),
 			}),
 			n(QUESTS, {

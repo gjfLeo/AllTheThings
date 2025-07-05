@@ -304,8 +304,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 			}),
 			prof(SKINNING, {
-				i(6470),	-- Deviate Scale
-				i(6471),	-- Perfect Deviate Scale
+				i(6470, {	-- Deviate Scale
+					["description"] = "Can drop-, as well as be skinned from all deviates within the Wailing Caverns.",
+				}),
+				i(6471, {	-- Perfect Deviate Scale
+					["description"] = "Can drop-, as well as be skinned from all deviates within the Wailing Caverns, although the droprate is low.",
+				}),
 			}),
 			e(474, {	-- Lady Anacondra
 				["creatureID"] = 3671,

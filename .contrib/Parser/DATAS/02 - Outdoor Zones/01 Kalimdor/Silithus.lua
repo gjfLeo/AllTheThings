@@ -187,7 +187,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(PROFESSIONS, {
 				prof(SKINNING, {
 					i(20501, {	-- Heavy Silithid Carapace
-						["timeline"] = { DELETED_4_3_0 },
+						["timeline"] = { REMOVED_4_3_0 },
 						["crs"] = {
 							11723,	-- Hive'Ashi Sandstalker
 							11730,	-- Hive'Regal Ambusher
@@ -197,7 +197,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					i(20500, {	-- Light Silithid Carapace
-						["timeline"] = { DELETED_4_3_0 },
+						["timeline"] = { REMOVED_4_3_0 },
 						["crs"] = {
 							13136,	-- Hive'Ashi Drone
 							11698,	-- Hive'Ashi Stinger
@@ -207,7 +207,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 					}),
 					i(20498, {	-- Silithid Chitin
-						["timeline"] = { DELETED_4_3_0 },
+						["timeline"] = { REMOVED_4_3_0 },
 					}),
 				}),
 			}),

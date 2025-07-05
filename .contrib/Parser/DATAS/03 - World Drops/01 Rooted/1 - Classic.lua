@@ -4560,6 +4560,22 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Cataclysm messed up with the drop sources for Large Fangs. Supposed to drop from some Beast and Demon creatures like hounds, feline, spiders, raptors and bats. The Highland Fleshstalker seems to be the most reliable source. Consider farming this on a character that needs Skining skills or skinned reagents.",
 			-- #endif
 		}),
+		i(17056, {	-- Light Feather
+			-- #if BEFORE 4.0.3
+			["coord"] = { 44.0, 48.0, DARKSHORE },
+			["crs"] = {
+				10158,	-- Moonkin
+				10157,	-- Moonkin Oracle
+				10160,	-- Raging Moonkin
+				10159,	-- Young Moonkin
+			},
+			-- #endif
+			-- #if AFTER 4.0.3
+			["description"] = "Can drop from all birds, harpies, owlkin and striders on Kalimdor, Eastern Kingdoms, Outland and Northrend.",
+			-- #else
+			["description"] = "Drops from birds, harpies, owlkin and striders in the level bracket 10-30 like Moonkin in Darkshore.",
+			-- #endif
+		}),
 		i(5635, {	-- Sharp Claw
 			-- #if BEFORE 4.0.3
 			["description"] = "Drops from some Beast and Demon creatures like hounds, felines, spiders, raptors and bats ranging from level 10 to 30.",
@@ -5641,6 +5657,21 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 		}),
 		-- Engineering:
 		i(7191),	-- Fused Wiring
+		-- Leatherworking:
+		i(4461, {	-- Raptor Hide
+			-- #if BEFORE 4.0.3
+			["description"] = "Drops from raptors ranging from level 30 to 40.",
+			["maps"] = {
+				ARATHI_HIGHLANDS,
+				DUSTWALLOW_MARSH,
+				STRANGLETHORN_VALE,
+			},
+			-- #else
+			["coord"] = { 50.0, 70.0, ARATHI_HIGHLANDS },
+			["cr"] = 2561,	-- Highland Fleshstalker
+			["description"] = "Cataclysm messed up with the drop sources for Large Fangs. Supposed to drop from all raptors within a given level range. The Highland Fleshstalker seems to be the most reliable source. Consider farming this on a character that needs Skining skills or skinned reagents.",
+			-- #endif
+		}),
 		-- Cloth (Leave more details to Danny)
 		i(14256),	-- Felcloth
 		i(14227),	-- Ironweb Spider Silk

@@ -469,14 +469,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			prof(MINING, {
 				i(11382),	-- Blood of the Mountain
 			}),
-			prof(SKINNING, {
-				i(17012, {	-- Core Leather
-					["crs"] = {
-						11673,	-- Ancient Core Hound
-						11982,	-- Magmadar
-					},
-				}),
-			}),
 			-- #if SEASON_OF_DISCOVERY
 			-- In Season of Discovery, this version of the instance has been deprecated and removed in favor of the raid.
 			d(DIFFICULTY.LEGACY_RAID.PLAYER40, bubbleDownTimelineEventSelf(REMOVED_1_15_1, {

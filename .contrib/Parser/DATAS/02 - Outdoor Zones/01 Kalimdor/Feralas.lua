@@ -247,6 +247,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if AFTER CATA
 				prof(SKINNING, {
 					i(7392, {	-- Green Whelp Scale
+						["coord"] = { 47.8, 8.1, FERALAS },
 						["cr"] = 39384,	-- Noxious Whelp
 					}),
 				}),

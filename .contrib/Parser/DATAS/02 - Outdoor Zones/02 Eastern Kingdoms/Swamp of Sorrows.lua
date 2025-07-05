@@ -123,6 +123,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if BEFORE CATA
 				prof(SKINNING, {
 					i(7392, {	-- Green Whelp Scale
+						["coord"] = { 15.0, 59.0, SWAMP_OF_SORROWS },
 						["crs"] = {
 							740,	-- Adolescent Whelp
 							741,	-- Dreaming Whelp

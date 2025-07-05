@@ -554,6 +554,13 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19385),	-- Empowered Leggings
 					i(19387),	-- Chromatic Boots
 					i(19391),	-- Shimmering Geta
+					-- #if AFTER WOD
+					prof(SKINNING, {
+						i(12607, {	-- Brilliant Chromatic Scale
+							["description"] = "Can only be obtained from Chromaggus.",
+						}),
+					}),
+					-- #endif
 				},
 			}),
 			e(1536, {	-- Nefarian
