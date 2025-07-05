@@ -3337,7 +3337,6 @@ root(ROOTS.Unsorted, {
 				i(158787),	-- PH Flavor - Unused \\ PH Flavor - Air Elemental
 				i(158791),	-- PH Flavor - Unused \\ PH Flavor - Crawg - Blood Troll
 				i(158793),	-- PH Flavor - Unused \\ PH Flavor - Frog
-				i(158795),	-- Glittering Chill \\ PH Flavor - Ghost
 				i(158798),	-- PH Flavor - Unused \\ PH Flavor - Abyssal Eel - Fish
 				i(158799),	-- PH Flavor - Unused \\ PH Flavor - Wicker Beast - Drust
 				i(158800),	-- PH Flavor - Unused \\ PH Flavor - Camel
@@ -3366,7 +3365,6 @@ root(ROOTS.Unsorted, {
 				i(158835),	-- PH Flavor - Unused \\ PH Flavor - Krolusk
 				i(158836),	-- Barbed Stinger \\ PH Flavor - Pirate
 				i(158837),	-- PH Flavor - Unused \\ PH Flavor - Hyena
-				i(158838),	-- Fibrous Sludge \\ Fibrous Void \\ PH Flavor - Alliance
 				i(158842),	-- Nibbled Crystal \\ PH Flavor - Thunder Lizard - Reptile
 				i(158843),	-- PH Flavor - Unused \\ PH Flavor - Bee - Insect
 				i(158844),	-- Shimmerdust \\ PH Flavor - Saurolisk - Reptile

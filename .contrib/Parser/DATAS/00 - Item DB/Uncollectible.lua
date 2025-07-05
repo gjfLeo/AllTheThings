@@ -329,6 +329,7 @@ i(162684);	-- Etched Dock Cleat
 i(162976);	-- Exile's Abandoned Memoirs
 i(161206);	-- Faded Treasure Map
 i(158210);	-- Fearsome Claw
+i(158838);	-- Fibrous Sludge \\ Fibrous Void \\ PH Flavor - Alliance
 i(158760);	-- Fin Ray
 i(158801);	-- Finely Serrated Tooth
 i(155603);	-- Flaky Fish Scales
@@ -338,6 +339,7 @@ i(158770);	-- Gelatinous Roe
 i(158865);	-- Ghastly Ooze
 i(158856);	-- Giant Frog Leg
 i(158777);	-- Glimmering Ember
+i(158795);	-- Glittering Chill \\ PH Flavor - Ghost
 i(163078);	-- Glittering Earring
 i(158868);	-- Golden Ornament
 i(162979);	-- Gral-Adorned Astrolabe
