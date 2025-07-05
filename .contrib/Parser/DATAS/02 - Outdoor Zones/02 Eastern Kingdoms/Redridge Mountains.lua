@@ -12,7 +12,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236814,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(780),	-- Explore Redridge Mountains
+				ach(780),	-- Explore Redridge Mountains
 				ach(4902, {	-- Redridge Mountain Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,

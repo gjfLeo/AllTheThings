@@ -93,7 +93,7 @@ root(ROOTS.Zones, {
 						},
 						-- #endif
 					}),
-					explorationAch(4864),	-- Explore Deepholm
+					ach(4864),	-- Explore Deepholm
 					achWithRep(4883, FACTION_THERAZANE),	-- Therazane
 				}),
 				battlepets({

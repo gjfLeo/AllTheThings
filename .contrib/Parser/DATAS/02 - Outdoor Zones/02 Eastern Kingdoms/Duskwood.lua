@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236757,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(778),	-- Explore Duskwood
+				ach(778),	-- Explore Duskwood
 				ach(4907, {	-- Duskwood Quests
 					["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
 					["races"] = ALLIANCE_ONLY,

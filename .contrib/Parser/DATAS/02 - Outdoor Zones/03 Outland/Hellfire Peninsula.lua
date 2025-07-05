@@ -79,7 +79,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236778,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(862),	-- Explore Hellfire Peninsula
+					ach(862),	-- Explore Hellfire Peninsula
 					ach(1189, {	-- To Hellfire and Back [Alliance Version]
 						["races"] = ALLIANCE_ONLY,
 						-- #if BEFORE 7.3.5

@@ -14,7 +14,7 @@ root(ROOTS.Zones, {
 			},
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(6975),	-- Explore Krasarang Wilds
+					ach(6975),	-- Explore Krasarang Wilds
 					ach(6535, {	-- Mighty Roamin' Krasaranger (Alliance)
 						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},

@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236811,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(843),	-- Explore Netherstorm
+					ach(843),	-- Explore Netherstorm
 					ach(1194, {	-- Into the Nether
 						-- #if BEFORE 7.3.5
 						["sourceQuests"] = {

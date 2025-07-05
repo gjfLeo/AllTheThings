@@ -100,7 +100,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					ach(9612),		-- Eggs in One Basket
-					explorationAch(8941),		-- Explore Spires of Arak
+					ach(8941),		-- Explore Spires of Arak
 					ach(9613),		-- Fish Gotta Swim, Birds Gotta Eat
 					ach(9601, {		-- King of the Monsters (Lost Veil Anzu)
 						["sym"] = {{ "achievement_criteria" }},

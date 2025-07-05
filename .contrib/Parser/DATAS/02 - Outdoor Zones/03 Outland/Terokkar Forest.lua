@@ -28,7 +28,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236847,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(867),	-- Explore Terokkar Forest
+					ach(867),	-- Explore Terokkar Forest
 					applyclassicphase(TBC_PHASE_TWO_SKYGUARD, achWithRep(894, FACTION_SHATARI_SKYGUARD, {	-- Flying High Over Skettis
 
 					})),

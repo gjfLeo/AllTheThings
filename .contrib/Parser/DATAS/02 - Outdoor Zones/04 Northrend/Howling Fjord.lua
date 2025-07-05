@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236781,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1263),	-- Explore Howling Fjord
+					ach(1263),	-- Explore Howling Fjord
 					ach(1254, {	-- Friend or Fowl?
 						["coords"] = {
 							{ 69.6, 65.8, HOWLING_FJORD },

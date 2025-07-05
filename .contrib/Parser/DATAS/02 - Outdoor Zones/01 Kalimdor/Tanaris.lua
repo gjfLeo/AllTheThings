@@ -2786,7 +2786,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		},
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(851),	-- Explore Tanaris
+				ach(851),	-- Explore Tanaris
 				ach(4935, {	-- Tanaris Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if ANYCLASSIC

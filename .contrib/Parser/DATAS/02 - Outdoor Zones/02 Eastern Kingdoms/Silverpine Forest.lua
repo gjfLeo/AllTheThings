@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236830,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(769),	-- Explore Silverpine Forest
+				ach(769),	-- Explore Silverpine Forest
 				ach(4894, {	-- Silverpine Forest Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,

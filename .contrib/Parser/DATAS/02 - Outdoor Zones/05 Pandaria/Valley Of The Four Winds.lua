@@ -12,7 +12,7 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(7294),	-- A Taste of Things to Come (Halfhill)
-					explorationAch(6969),	-- Explore Valley of the Four Winds
+					ach(6969),	-- Explore Valley of the Four Winds
 					ach(7295, {	-- Listen to the Drunk Fish (Halfhill)
 						crit(20536),	-- Juicycrunch Carrot
 						crit(21034),	-- Green Cabbage

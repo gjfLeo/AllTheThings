@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236780,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(773),	-- Explore The Hinterlands
+				ach(773),	-- Explore The Hinterlands
 				ach(4897, {	-- Hinterlands Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if AFTER MOP

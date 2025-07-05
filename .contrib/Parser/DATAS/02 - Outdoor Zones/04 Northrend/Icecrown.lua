@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 			["maps"] = { 170 },	-- Hrothgar's Landing
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1270),	-- Explore Icecrown
+					ach(1270),	-- Explore Icecrown
 					ach(40, {	-- Icecrown: The Final Goal
 						-- #if ANYCLASSIC
 						["sourceQuests"] = {

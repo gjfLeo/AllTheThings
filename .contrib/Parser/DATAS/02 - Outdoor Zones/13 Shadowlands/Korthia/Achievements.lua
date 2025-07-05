@@ -137,7 +137,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				}),
 			}),
 			achWithRep(15059, FACTION_DEATHS_ADVANCE),	-- Death's Advance
-			explorationAch(15053),	-- Explore Korthia
+			ach(15053),	-- Explore Korthia
 			ach(15066, {	-- Reliquary Restoration
 				crit(52126, {
 					["sourceQuests"] = { 63860 },	-- Talisman of the Eternal Scholar

@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["icon"] = 134439,
 				}),
 			}),
-			explorationAch(12561),	-- Explore Nazmir
+			ach(12561),	-- Explore Nazmir
 			ach(13028, {	-- Hoppin' Sad
 				["cr"] = 143317,	-- Lost Spawn of Krag'wa
 				["g"] = {

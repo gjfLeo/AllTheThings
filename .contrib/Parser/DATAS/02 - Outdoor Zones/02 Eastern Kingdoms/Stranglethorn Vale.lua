@@ -135,7 +135,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						["timeline"] = { ADDED_3_0_2 },
 					}),
 				})),
-				explorationAch(781),	-- Explore Stranglethorn Vale
+				ach(781),	-- Explore Stranglethorn Vale
 				ach(940),	-- The Green Hills of Stranglethorn
 			}),
 			pvp(o(179697, {	-- Arena Treasure Chest

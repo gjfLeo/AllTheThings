@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					-- #endif
 				}),
-				explorationAch(852),	-- Explore Azshara
+				ach(852),	-- Explore Azshara
 				ach(5448, {	-- Glutton for Fiery Punishment
 					["timeline"] = { ADDED_4_0_3 },
 				}),

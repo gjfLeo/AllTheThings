@@ -771,7 +771,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				explorationAch(771),	-- Explore Eastern Plaguelands
+				ach(771),	-- Explore Eastern Plaguelands
 				ach(5442, {	-- Full Caravan
 					["timeline"] = { ADDED_4_0_3 },
 					["groups"] = {

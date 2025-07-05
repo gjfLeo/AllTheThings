@@ -24,7 +24,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 37204,	-- Rekindling an Old Flame
 					}),
 					ach(9534),	-- Delectable Ogre Delicacies (Bloodmaul Stronghold)
-					explorationAch(8937),	-- Explore Frostfire Ridge
+					ach(8937),	-- Explore Frostfire Ridge
 					ach(9606, {	-- Frostfire Fridge
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},

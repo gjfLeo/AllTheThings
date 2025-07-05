@@ -9,7 +9,7 @@ root(ROOTS.Zones, {
 				ach(11265, {	-- Adventurer of Suramar
 					["sym"] = {{ "achievement_criteria" }},
 				}),
-				explorationAch(10669),	-- Explore Suramar
+				ach(10669),	-- Explore Suramar
 				ach(11124, {	-- Good Suramaritan
 					["sym"] = {{ "achievement_criteria" }},
 				}),

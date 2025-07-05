@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236844,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(781),	-- Explore Northern Stranglethorn
+				ach(781),	-- Explore Northern Stranglethorn
 				ach(4906, {	-- Northern Stranglethorn Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if ANYCLASSIC

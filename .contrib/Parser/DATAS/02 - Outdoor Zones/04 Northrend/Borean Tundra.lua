@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236722,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1264),	-- Explore Borean Tundra
+					ach(1264),	-- Explore Borean Tundra
 					ach(33, {	-- Nothing Boring About Borean (A)
 						["races"] = ALLIANCE_ONLY,
 						-- #if ANYCLASSIC

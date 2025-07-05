@@ -973,7 +973,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #endif
 			n(ACHIEVEMENTS, {
-				explorationAch(768),	-- Explore Tirisfal Glades
+				ach(768),	-- Explore Tirisfal Glades
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

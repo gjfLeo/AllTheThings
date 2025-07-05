@@ -2143,7 +2143,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				},
 			}),
 			n(ACHIEVEMENTS, {
-				explorationAch(776),	-- Explore Elwynn Forest
+				ach(776),	-- Explore Elwynn Forest
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

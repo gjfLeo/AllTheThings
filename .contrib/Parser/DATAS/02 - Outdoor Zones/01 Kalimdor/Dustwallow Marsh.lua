@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					-- #endif
 				}),
-				explorationAch(850),	-- Explore Dustwallow Marsh
+				ach(850),	-- Explore Dustwallow Marsh
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

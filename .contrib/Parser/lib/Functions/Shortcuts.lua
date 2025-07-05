@@ -799,9 +799,6 @@ achraw = function(id, altID, t)							-- Create an ACHIEVEMENT Object whose Crit
 	end
 	return t;
 end
-explorationAch = function(id, t)						-- Create an EXPLORATION ACHIEVEMENT Object
-	return struct("achievementID", id, t or {});
-end
 
 -- SHORTCUTS for Object Class Types
 achcat = function(id, t)								-- Create an ACHIEVEMENT CATEGORY Object

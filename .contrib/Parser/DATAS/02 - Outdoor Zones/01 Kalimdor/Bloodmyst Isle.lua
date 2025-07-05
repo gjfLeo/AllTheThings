@@ -28,7 +28,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 					},
 					-- #endif
 				}),
-				explorationAch(861),	-- Explore Bloodmyst Isle
+				ach(861),	-- Explore Bloodmyst Isle
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

@@ -49,7 +49,7 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					achWithRep(902, FACTION_THE_CONSORTIUM),	-- Chief Exalted Officer
-					explorationAch(866),	-- Explore Nagrand
+					ach(866),	-- Explore Nagrand
 					ach(939, {	-- Hills Like White Elekk
 						["sourceQuest"] = 9852,	-- The Ultimate Bloodsport
 					}),

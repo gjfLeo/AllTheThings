@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					-- #endif
 				}),
-				explorationAch(844),	-- Explore Darkshore
+				ach(844),	-- Explore Darkshore
 				ach(13251, {	-- In Teldrassil's Shadow
 					["timeline"] = { ADDED_8_1_0 },
 					["races"] = ALLIANCE_ONLY,

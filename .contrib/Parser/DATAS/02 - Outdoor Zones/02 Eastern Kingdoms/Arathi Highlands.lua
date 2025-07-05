@@ -68,7 +68,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				explorationAch(761),	-- Explore Arathi Highlands
+				ach(761),	-- Explore Arathi Highlands
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

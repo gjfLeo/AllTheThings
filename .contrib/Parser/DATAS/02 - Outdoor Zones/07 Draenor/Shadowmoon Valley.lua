@@ -89,7 +89,7 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					explorationAch(8938),	-- Explore Shadowmoon Valley
+					ach(8938),	-- Explore Shadowmoon Valley
 					ach(9436, {	-- It's the Stones! (Socrethar's Rise)
 						["description"] = "Must be on the daily quest Assault on Socrethar's Rise.",
 						["coords"] = {

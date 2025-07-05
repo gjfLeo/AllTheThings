@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236816,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(864),	-- Explore Shadowmoon Valley
+					ach(864),	-- Explore Shadowmoon Valley
 					ach(1195, {	-- Shadow of the Betrayer
 						-- #if BEFORE 7.3.5
 						["sourceQuests"] = {

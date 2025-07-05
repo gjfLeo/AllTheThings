@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236851,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(770),	-- Explore Western Plaguelands
+				ach(770),	-- Explore Western Plaguelands
 				ach(4893, {	-- Western Plaguelands Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if ANYCLASSIC

@@ -205,7 +205,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					}),
 				},
 			}),
-			explorationAch(14663),	-- Explore The Maw
+			ach(14663),	-- Explore The Maw
 			ach(14895, {	-- 'Ghast Five (automated)
 				crit(51251, {		-- Vessel of Unfortunate Spirits
 					["provider"] = { "i", 184620 },

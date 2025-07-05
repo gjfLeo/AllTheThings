@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236734,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(775),	-- Explore Burning Steppes
+				ach(775),	-- Explore Burning Steppes
 				ach(4901, {	-- Burning Steppes Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if ANYCLASSIC

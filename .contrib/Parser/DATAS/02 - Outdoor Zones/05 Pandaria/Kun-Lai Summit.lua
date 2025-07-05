@@ -248,7 +248,7 @@ root(ROOTS.Zones, {
 					},
 				})),
 				n(ACHIEVEMENTS, {
-					explorationAch(6976),	-- Explore Kun-Lai Summit
+					ach(6976),	-- Explore Kun-Lai Summit
 					ach(7286, {	-- Finish Them! (Temple of the White Tiger)
 						crit(20440),	-- Brewmaster Chani
 						crit(20442),	-- Lun-Chi

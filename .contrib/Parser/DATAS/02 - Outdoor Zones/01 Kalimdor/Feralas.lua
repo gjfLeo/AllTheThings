@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["icon"] = 236764,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(849),	-- Explore Feralas
+				ach(849),	-- Explore Feralas
 				ach(4932, {	-- Feralas Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,

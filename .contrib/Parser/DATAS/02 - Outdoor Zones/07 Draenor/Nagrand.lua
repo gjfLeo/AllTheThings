@@ -89,7 +89,7 @@ root(ROOTS.Zones, {
 					ach(9548, {		-- Buried Treasures (Mok'gol Watchpost)
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					explorationAch(8942),	-- Explore Nagrand
+					ach(8942),	-- Explore Nagrand
 					ach(9610, {	-- History of Violence (Broken Precipice)
 						["description"] = "In order to get the relics, except the Bust, use Jewel of Transformation in the area and then break boulder piles.",
 						["groups"] = {

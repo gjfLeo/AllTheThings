@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236766,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1266),	-- Explore Grizzly Hills
+					ach(1266),	-- Explore Grizzly Hills
 					ach(37, {	-- Fo' Grizzle My Shizzle (A)
 						["races"] = ALLIANCE_ONLY,
 						-- #if ANYCLASSIC

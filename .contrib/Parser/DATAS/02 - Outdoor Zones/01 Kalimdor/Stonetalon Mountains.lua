@@ -12,7 +12,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["icon"] = 236831,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(847),	-- Explore Stonetalon Mountains
+				ach(847),	-- Explore Stonetalon Mountains
 				ach(4936, {	-- Stonetalon Mountains Quests (A)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,

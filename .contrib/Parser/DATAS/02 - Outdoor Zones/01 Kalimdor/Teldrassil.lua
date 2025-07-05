@@ -993,7 +993,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				},
 			}),
 			n(ACHIEVEMENTS, {
-				explorationAch(842),	-- Explore Teldrassil
+				ach(842),	-- Explore Teldrassil
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

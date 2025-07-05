@@ -2504,7 +2504,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #endif
 			n(ACHIEVEMENTS, {
-				explorationAch(627),	-- Explore Dun Morogh
+				ach(627),	-- Explore Dun Morogh
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

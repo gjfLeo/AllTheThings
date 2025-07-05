@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236845,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(782),	-- Explore Swamp of Sorrows
+				ach(782),	-- Explore Swamp of Sorrows
 				ach(4904, {	-- Swamp of Sorrows Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if ANYCLASSIC

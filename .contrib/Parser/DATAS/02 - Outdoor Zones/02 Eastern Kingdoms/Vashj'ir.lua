@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["races"] = HORDE_ONLY,
 				}),
-				explorationAch(4825, {	-- Explore Vashj'ir
+				ach(4825, {	-- Explore Vashj'ir
 					["maps"] = {
 						VASHJIR_KELPTHAR_FOREST,
 						VASHJIR_ABYSSAL_DEPTHS,

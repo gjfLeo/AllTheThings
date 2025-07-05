@@ -44,7 +44,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236855,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(863),	-- Explore Zangarmarsh
+					ach(863),	-- Explore Zangarmarsh
 					ach(1190, {	-- Mysteries of the Marsh
 						-- #if BEFORE 7.3.5
 						["sourceQuests"] = {

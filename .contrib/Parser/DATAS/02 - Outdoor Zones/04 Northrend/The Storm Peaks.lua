@@ -126,7 +126,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236832,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1269),	-- Explore The Storm Peaks
+					ach(1269),	-- Explore The Storm Peaks
 					ach(1428),	-- Mine Sweeper
 					ach(38, {	-- The Summit of Storm Peaks
 						-- #if ANYCLASSIC

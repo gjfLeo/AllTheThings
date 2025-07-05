@@ -47,7 +47,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_7 } }
 					17398,	-- Dragon Glyphs: Winglord's Perch
 				}},
 			}),
-			explorationAch(17534),	-- Explore the Forbidden Reach
+			ach(17534),	-- Explore the Forbidden Reach
 			ach(17529),	-- Forbidden Spoils
 			petbattle(ach(17541, {	-- Global Swarming
 				["sym"] = {{ "achievement_criteria" }},

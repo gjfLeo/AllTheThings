@@ -32,7 +32,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					-- #endif
 				}),
-				explorationAch(848),	-- Explore Desolace
+				ach(848),	-- Explore Desolace
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

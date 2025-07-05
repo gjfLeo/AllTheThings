@@ -106,7 +106,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236817,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1268),	-- Explore Sholazar Basin
+					ach(1268),	-- Explore Sholazar Basin
 					achWithRep(950, FACTION_FRENZYHEART_TRIBE),	-- Frenzyheart Tribe
 					ach(961, {	-- Honorary Frenzyheart
 						["sourceQuest"] = 12692,	-- Return of the Lich Hunter

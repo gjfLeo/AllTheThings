@@ -19,7 +19,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236741,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(777),	-- Explore Deadwind Pass
+				ach(777),	-- Explore Deadwind Pass
 			}),
 			battlepets({
 				pet(1160, {	-- Arcane Eye (PET!)

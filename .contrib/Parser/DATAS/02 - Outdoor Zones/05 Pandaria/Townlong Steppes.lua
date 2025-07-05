@@ -10,7 +10,7 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(7310),	-- Defender of Gods
-					explorationAch(6977),	-- Explore Townlong Steppes
+					ach(6977),	-- Explore Townlong Steppes
 					ach(7309),	-- Fire in the Yaung-hole!
 					ach(7298, {	-- Getting Around with the Shado-Pan
 						crit(20453),	-- Fei Li

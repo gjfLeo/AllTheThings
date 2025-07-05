@@ -15,7 +15,7 @@ root(ROOTS.Zones, {
 					h(ach(10075, {	-- Draenor's Last Stand (Tanaan Jungle) [H]
 						["sym"] = {{ "achievement_criteria" }},
 					})),
-					explorationAch(10260),	-- Explore Tanaan Jungle
+					ach(10260),	-- Explore Tanaan Jungle
 					ach(10061, {	-- Hellbane
 						["sym"] = {{ "achievement_criteria" }},
 					}),

@@ -34,7 +34,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236743,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1265),	-- Explore Dragonblight
+					ach(1265),	-- Explore Dragonblight
 					ach(35, {	-- Might of Dragonblight (A)
 						["races"] = ALLIANCE_ONLY,
 						-- #if ANYCLASSIC

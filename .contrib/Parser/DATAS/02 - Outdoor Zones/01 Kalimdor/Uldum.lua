@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["timeline"] = { ADDED_4_0_3 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(4865),	-- Explore Uldum
+				ach(4865),	-- Explore Uldum
 				ach(4888, {	-- One Hump or Two? (Uldum)
 					["providers"] = {
 						{ "i", 63044 },	-- Brown Riding Camel

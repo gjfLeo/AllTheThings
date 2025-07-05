@@ -632,7 +632,7 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				},
 			}),
 			n(ACHIEVEMENTS, {
-				explorationAch(860),	-- Explore Azuremyst Isle
+				ach(860),	-- Explore Azuremyst Isle
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

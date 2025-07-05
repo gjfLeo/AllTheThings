@@ -12,7 +12,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["icon"] = 236848,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(846),	-- Explore Thousand Needles
+				ach(846),	-- Explore Thousand Needles
 				ach(4938, {	-- Thousand Needles Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if ANYCLASSIC

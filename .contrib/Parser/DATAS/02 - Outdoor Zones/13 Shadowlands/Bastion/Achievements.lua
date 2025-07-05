@@ -29,7 +29,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coord"] = { 34.7, 30.0, BASTION },
 				}),
 			}),
-			explorationAch(14303),	-- Explore Bastion
+			ach(14303),	-- Explore Bastion
 			ach(14735, {	-- Flight School Graduate
 				crit(49820, {		-- Flight School: Falling With Style
 					["_quests"] = { 60844 },	-- Flight School: Falling With Style

@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["icon"] = 135758,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(855),	-- Explore Moonglade
+				ach(855),	-- Explore Moonglade
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

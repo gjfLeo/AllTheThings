@@ -20,7 +20,7 @@ root(ROOTS.Zones, {
 					ach(7315, {	-- Eternally in the Vale
 						["timeline"] = { ADDED_5_0_4, REMOVED_5_4_0 },
 					}),
-					explorationAch(6979),	-- Explore Vale of Eternal Blossoms
+					ach(6979),	-- Explore Vale of Eternal Blossoms
 					ach(6846),	-- Fish Tales (automated)
 					ach(6850),	-- Hozen in the Mist (automated)
 					ach(7230),	-- Legend of the Brewfathers (automated)

@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236815,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(774),	-- Explore Searing Gorge
+				ach(774),	-- Explore Searing Gorge
 				ach(4910, {	-- Searing Gorge Quests
 					["timeline"] = { ADDED_4_0_1 },
 					-- #if AFTER MOP

@@ -8,7 +8,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["maps"] = { 79 },	-- The Slithering Scar
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(854),	-- Explore Un'Goro Crater
+				ach(854),	-- Explore Un'Goro Crater
 				ach(4939, {	-- Un'Goro Crater Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if ANYCLASSIC

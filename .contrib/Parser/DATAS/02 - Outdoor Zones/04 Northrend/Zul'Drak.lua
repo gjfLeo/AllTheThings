@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236858,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1267),	-- Explore Zul'Drak
+					ach(1267),	-- Explore Zul'Drak
 					ach(1596, {	-- Guru of Drakuru
 						crit(5805, {	-- Betrayal
 							["_quests"] = { 12713 },	-- Betrayal

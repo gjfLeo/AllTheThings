@@ -89,7 +89,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(9667),		-- Burn It to the Ground (Everbloom Wilds)
-					explorationAch(8939),		-- Explore Gorgrond
+					ach(8939),		-- Explore Gorgrond
 					ach(9655, {		-- Fight the Power (The Pit)
 						["sym"] = {{ "achievement_criteria" }},
 					}),

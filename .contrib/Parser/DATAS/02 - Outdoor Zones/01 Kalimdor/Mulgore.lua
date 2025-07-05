@@ -824,7 +824,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				},
 			}),
 			n(ACHIEVEMENTS, {
-				explorationAch(736),	-- Explore Mulgore
+				ach(736),	-- Explore Mulgore
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",

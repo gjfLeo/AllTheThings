@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["icon"] = 236717,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(750),	-- Explore The Barrens
+				ach(750),	-- Explore The Barrens
 			}),
 			explorationHeader({
 				exploration(1700),	-- Agama'gor

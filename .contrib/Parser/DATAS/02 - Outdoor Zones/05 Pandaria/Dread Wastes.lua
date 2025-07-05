@@ -14,7 +14,7 @@ root(ROOTS.Zones, {
 					ach(6540, {	-- Dread Haste Makes Dread Waste
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					explorationAch(6978),	-- Explore Dread Wastes
+					ach(6978),	-- Explore Dread Wastes
 					ach(6857),	-- Heart of the Mantid Swarm (automated)
 					ach(7316, {	-- Over Their Heads
 						crit(20511, {		-- Garalon

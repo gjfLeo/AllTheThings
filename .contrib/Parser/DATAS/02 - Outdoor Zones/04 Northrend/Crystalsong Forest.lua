@@ -8,7 +8,7 @@ root(ROOTS.Zones, {
 			["icon"] = 236735,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(1457),	-- Explore Crystalsong Forest
+					ach(1457),	-- Explore Crystalsong Forest
 				}),
 				battlepets({
 					["sym"] = {{"select","speciesID",

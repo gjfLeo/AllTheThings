@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236711,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(760, {	-- Explore Alterac Mountains
+				ach(760, {	-- Explore Alterac Mountains
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 			}),

@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 		["icon"] = 236763,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(853),	-- Explore Felwood
+				ach(853),	-- Explore Felwood
 				ach(4931, {	-- Felwood Quests
 					["timeline"] = { ADDED_4_0_3},
 					-- #if ANYCLASSIC

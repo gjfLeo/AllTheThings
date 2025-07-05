@@ -14,7 +14,7 @@ root(ROOTS.Zones, {
 			},
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					explorationAch(6351),	-- Explore Jade Forest
+					ach(6351),	-- Explore Jade Forest
 					ach(7290),	-- How To Strain Your Dragon
 					ach(7291),	-- In a Trail of Smoke
 					ach(7381, {	-- Restore Balance

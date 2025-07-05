@@ -101,7 +101,7 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					explorationAch(8940),		-- Explore Talador
+					ach(8940),		-- Explore Talador
 					ach(9486),		-- Goodness Gracious
 					ach(9638, {		-- Heralds of the Legion (Shattrath City)
 						["sym"] = {{ "achievement_criteria" }},

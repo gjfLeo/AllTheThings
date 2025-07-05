@@ -15,11 +15,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				-- #if AFTER CATA
-				explorationAch(760, {	-- Explore Alterac Mountains
+				ach(760, {	-- Explore Alterac Mountains
 					["timeline"] = { REMOVED_4_0_3 },
 				}),
 				-- #endif
-				explorationAch(772),	-- Explore Hillsbrad Foothills
+				ach(772),	-- Explore Hillsbrad Foothills
 				ach(4895, {	-- Hillsbrad Foothills Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,

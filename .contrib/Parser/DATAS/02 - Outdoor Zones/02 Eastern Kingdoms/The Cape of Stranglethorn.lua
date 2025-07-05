@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					-- #endif
 				}),
-				explorationAch(4995, {	-- Explore the Cape of Stranglethorn
+				ach(4995, {	-- Explore the Cape of Stranglethorn
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 			}),

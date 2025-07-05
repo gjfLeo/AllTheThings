@@ -7,7 +7,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["icon"] = 236808,
 		["groups"] = {
 			n(ACHIEVEMENTS, {
-				explorationAch(779),	-- Explore Loch Modan
+				ach(779),	-- Explore Loch Modan
 				ach(4899, {	-- Loch Modan Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,

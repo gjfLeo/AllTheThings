@@ -48,7 +48,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				explorationAch(4866, {	-- Explore Twilight Highlands
+				ach(4866, {	-- Explore Twilight Highlands
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				ach(4873, {	-- Fading into Twilight (Alliance)
