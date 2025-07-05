@@ -136,7 +136,7 @@ local CachedMapData = setmetatable({}, {
 						elseif key == "achievementID" then
 							headerConst = app.HeaderConstants.ACHIEVEMENTS;
 						elseif key == "questID" then
-							headerConst = app.HeaderConstants.QUESTS;
+							headerConst = group.pb and app.HeaderConstants.PET_BATTLES or app.HeaderConstants.QUESTS;
 						elseif key == "factionID" then
 							headerConst = app.HeaderConstants.FACTIONS;
 						elseif key == "explorationID" then
