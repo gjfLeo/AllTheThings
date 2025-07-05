@@ -2842,98 +2842,144 @@ root(ROOTS.Zones, {
 							emoc(28, i(45828)),	-- Windchill Binding
 						},
 					}),
-					n(32509, {	-- Brammold Deepmine <Antiques & Heirlooms>
+					n(32509, bubbleDown({ ["timeline"] = { REMOVED_6_1_0 } }, {	-- Brammold Deepmine <Antiques & Heirlooms>
 						["coord"] = { 51.0, 53.6, NORTHREND_DALARAN },
 						["groups"] = {
-							emoh(40, i(42944, {	-- Balanced Heartseeker
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(65, i(42943, {	-- Bloodied Arcanite Reaper
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							i(69893, {	-- Bloodsoaked Skullforge Reaver
+							emoh(40, i(42944)),	-- Balanced Heartseeker
+							emoh(65, i(42943)),	-- Bloodied Arcanite Reaper
+							i(69893, {			-- Bloodsoaked Skullforge Reaver
 								["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
 							}),
-							i(69889, {	-- Burnished Breastplate of Might
+							i(69889, {			-- Burnished Breastplate of Might
 								["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
 							}),
-							i(69890, {	-- Burnished Pauldrons of Might
+							i(69890, {			-- Burnished Pauldrons of Might
 								["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
 							}),
-							i(79131, {	-- Burnished Warden Staff
+							i(79131, {			-- Burnished Warden Staff
 								["timeline"] = { ADDED_5_0_4, REMOVED_6_1_0 },
 							}),
-							emoh(40, i(42950, {	-- Champion Herod's Shoulder
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(48677, {	-- Champion's Deathdealer Breastplate
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(65, i(42946, {	-- Charmed Ancient Bone Bow
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(50, i(42948, {	-- Devout Aurastone Hammer
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(65, i(42947, {	-- Dignified Headmaster's Charge
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(50, i(42992, {	-- Discerning Eye of the Beast
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							i(93902, {	-- Flamescarred Draconian Deflector
+							emoh(40, i(42950)),	-- Champion Herod's Shoulder
+							emoh(40, i(48677)),	-- Champion's Deathdealer Breastplate
+							emoh(65, i(42946)),	-- Charmed Ancient Bone Bow
+							i(93847, {			-- Crushing Mass of McGowan
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 48716, 1 },	-- Venerable Mass of McGowan
+									{ "c", 395, 870 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							emoh(50, i(42948)),	-- Devout Aurastone Hammer
+							emoh(65, i(42947)),	-- Dignified Headmaster's Charge
+							emoh(50, i(42992)),	-- Discerning Eye of the Beast
+							i(93902, {			-- Flamescarred Draconian Deflector
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
-							i(93904, {	-- Musty Tome of the Lost
+							i(93845, {			-- Gore-Steeped Skullforge Reaver
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 69893, 1 },	-- Bloodsoaked Skullforge Reaver
+									{ "c", 395, 870 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							i(93843, {			-- Hardened Arcanite Reaper
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 42943, 1 },	-- Bloodied Arcanite Reaper
+									{ "c", 395, 1400 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							i(93904, {			-- Musty Tome of the Lost
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
-							emoh(40, i(42951, {	-- Mystical Pauldrons of Elements
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(48683, {	-- Mystical Vest of Elements
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(48685, {	-- Polished Breastplate of Valor
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(42949, {	-- Polished Spaulders of Valor
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(48687, {	-- Preened Ironfeather Breastplate
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(42984, {	-- Preened Ironfeather Shoulders
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(65, i(48718, {	-- Repurposed Lava Dredger
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(42952, {	-- Stained Shadowcraft Spaulders
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(48689, {	-- Stained Shadowcraft Tunic
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(50, i(42991, {	-- Swift Hand of Justice
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(42985, {	-- Tattered Dreadmist Mantle
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(48691, {	-- Tattered Dreadmist Robe
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(42945, {	-- Venerable Dal'Rend's Sacred Charge
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							emoh(40, i(48716, {	-- Venerable Mass of McGowan
-								["timeline"] = { REMOVED_6_1_0 },
-							})),
-							i(93903, {	-- Weathered Observer's Shield
+							emoh(40, i(42951)),	-- Mystical Pauldrons of Elements
+							emoh(40, i(48683)),	-- Mystical Vest of Elements
+							i(93856, {			-- Noble Dal'Rend's Sacred Charge
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 42945, 1 },	-- Venerable Dal'Rend's Sacred Charge
+									{ "c", 395, 870 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							i(93853, {			-- Pious Aurastone Hammer
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 42948, 1 },	-- Devout Aurastone Hammer
+									{ "c", 395, 1090 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							emoh(40, i(48685)),	-- Polished Breastplate of Valor
+							emoh(40, i(42949)),	-- Polished Spaulders of Valor
+							emoh(40, i(48687)),	-- Preened Ironfeather Breastplate
+							emoh(40, i(42984)),	-- Preened Ironfeather Shoulders
+							i(93846, {			-- Re-engineered Lava Dredger
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 48718, 1 },	-- Repurposed Lava Dredger
+									{ "c", 395, 1400 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							i(93844, {			-- Refinished Warden Staff
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 79131, 1 },	-- Burnished Warden Staff
+									{ "c", 395, 1400 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							emoh(65, i(48718)),	-- Repurposed Lava Dredger
+							i(93854, {			-- Scholarly Headmaster's Charge
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 42947, 1 },	-- Dignified Headmaster's Charge
+									{ "c", 395, 1400 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							emoh(40, i(42952)),	-- Stained Shadowcraft Spaulders
+							emoh(40, i(48689)),	-- Stained Shadowcraft Tunic
+							emoh(50, i(42991)),	-- Swift Hand of Justice
+							emoh(40, i(42985)),	-- Tattered Dreadmist Mantle
+							emoh(40, i(48691)),	-- Tattered Dreadmist Robe
+							emoh(40, i(42945)),	-- Venerable Dal'Rend's Sacred Charge
+							emoh(40, i(48716)),	-- Venerable Mass of McGowan
+							i(93857, {			-- Vengeful Heartseeker
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 42944, 1 },	-- Balanced Heartseeker
+									{ "c", 395, 870 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							i(93855, {			-- War-Torn Ancient Bone Bow
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+								-- #if MOP
+								["cost"] = {
+									{ "i", 42946, 1 },	-- Charmed Ancient Bone Bow
+									{ "c", 395, 1400 },	-- Justice Points
+								},
+								-- #endif
+							}),
+							i(93903, {			-- Weathered Observer's Shield
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
 						},
-					}),
+					})),
 					n(28951, {	-- Breanni <Pet Supplies>
 						["coord"] = { 58.7, 39.2, NORTHREND_DALARAN },
 						["groups"] = {
