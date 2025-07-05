@@ -109,6 +109,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					["questID"] = 50727,
 					["coords"] = {
 						{ 40.2, 37.2, ZULDAZAR },
+						{ 42.1, 37.2, ZULDAZAR },
 					},
 				}),
 			}))
