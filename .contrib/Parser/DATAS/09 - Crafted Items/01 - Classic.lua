@@ -1197,7 +1197,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		-- #endif
 	}),
 	prof(ENCHANTING, {
-		spell(13262, {	-- Disenchant
+		header(HEADERS.Spell, 13262, {	-- Disenchant
 			-- Danny Donkey: We need ilvl data from WoD and BfA stat squishes.
 			-- Dust:
 			i(11176, {	-- Dream Dust
@@ -2801,7 +2801,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	prof(HERBALISM, {
 		["description"] = "It is beneficial to gather all herbs in the area even if you only need specific herbs because the node spawns are often connected.",
 		["groups"] = {
-			spell(2366, {	-- Herb Gathering
+			header(HEADERS.Spell, 2366, {	-- Herb Gathering
 				-- Herbs:
 				i(8836, {	-- Arthas' Tears
 					["providers"] = {
@@ -4708,7 +4708,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 		filter(PROFESSION_EQUIPMENT, {
 			i(20815, {["collectible"] = false}),	-- Jeweler's Toolset/-Kit
 		}),
-		spell(31212, {	-- Prospecting
+		header(HEADERS.Spell, 31212, {	-- Prospecting
 			-- Note: Neither Gold, Silver nor Truesilver can be prospected.
 			i(7909, {	-- Aquamarine
 				["provider"] = { "i", 3858 },	-- Mithril Ore
@@ -5518,7 +5518,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 	prof(MINING, {
 		["description"] = "Mining veins are usually found on uneven terrain and mountainsides as well as inside caves. It is beneficial to mine all veins in the area even if you only need specific ore because the node spawns are often connected.",
 		["groups"] = {
-			spell(2575, {	-- Mining
+			header(HEADERS.Spell, 2575, {	-- Mining
 				["groups"] = appendAllGroups(
 					{
 						-- Nodes:
@@ -6383,9 +6383,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					-- Note: The gems are linked to respective ores with provider for prospecting in JEWELCRAFTING > Prospecting.
 					sharedData({
 						-- #if AFTER TBC
-						["description"] = "This gem is most reliably obtained from prospecting ores with Jewelcrafting. You can also obtain it from mining veins, although the droprate is 1%.",
+						["description"] = "This gem is most reliably obtained from prospecting ores with Jewelcrafting. You can also obtain it from mining veins, although the droprate is low.",
 						-- #else
-						["description"] = "This gem is most reliably obtained from mining veins, although the droprate is 1%.",
+						["description"] = "This gem is most reliably obtained from mining veins, although the droprate is low.",
 						-- #endif
 					}, {
 						i(7909, {	-- Aquamarine
@@ -6736,7 +6736,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["description"] = "Can be bought from Mining Suppliers, as well as some Trade vendors around the world",
 				}),
 			}),
-			spell(2656, {	-- Smelting
+			header(HEADERS.Spell, 2656, {	-- Smelting
 				i(2841, {    -- Bronze Bar
 					["cost"] = ClassicCost({
 						{ "i", 2840, 1 },    -- Copper Bar
@@ -6855,7 +6855,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["description"] = "Can be bought from Leatherworking Suppliers, as well as some Trade vendors around the world.",
 				}),
 			}),
-			spell(8613, {	-- Skinning
+			header(HEADERS.Spell, 8613, {	-- Skinning
 				-- Base leathers:
 				i(4234, {	-- Heavy Leather
 					["maps"] = {
