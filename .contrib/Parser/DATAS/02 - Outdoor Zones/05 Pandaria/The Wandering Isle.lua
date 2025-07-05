@@ -7,6 +7,18 @@ root(ROOTS.Zones, {
 			["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE, PANDAREN_HORDE },	-- [Adding faction just to be safe]
 			["icon"] = 133937,
 			["groups"] = {
+				n(EXPLORATION, {
+					exploration(5848),	-- Cave of Meditation
+					exploration(5886),	-- Chamber of Whispers
+					exploration(5944),	-- Forlorn Hut
+					exploration(5828),	-- Mandori Village
+					exploration(5862),	-- Pool of Reflection
+					exploration(5829),	-- Ridge of Laughing Winds
+					exploration(5849),	-- Shrine of Inner-Light
+					exploration(5837),	-- The Dawning Span
+					exploration(5825),	-- The Dawning Valley
+					exploration(5843),	-- Tranquil Grotto
+				}),
 				n(FACTIONS, {
 					faction(1216, {	-- Shang Xi's Academy
 						["description"] = "The maximum obtainable reputation with this faction is 8510/12000 (Honored).",
