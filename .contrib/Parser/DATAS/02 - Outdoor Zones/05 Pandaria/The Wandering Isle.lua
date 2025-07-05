@@ -27,7 +27,7 @@ root(ROOTS.Zones, {
 						["groups"] = {
 							objective(1, {	-- Play with the Spirit of Water
 								["provider"] = { "n", 55212 },	-- Shu <Ancient Spirit of Water>
-								--["coord"] = { , THE_WANDERING_ISLE_STARTING_ZONE },	-- TODO
+								["coord"] = { 78.96, 37.18, THE_WANDERING_ISLE_STARTING_ZONE },
 								["description"] = "If you can't see the water spouts, open Options -> Graphics -> and change \"Particle Density\" to \"Good\" or higher.",
 							}),
 							i(131908, {	-- Gauntlets of Splashing Water
@@ -441,7 +441,7 @@ root(ROOTS.Zones, {
 								["coord"] = { 69.0, 63.0, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 							objective(2, {	-- Wake Wugou
-								["provider"] = { "n", 55539 },	-- Wugou <Ancient Spirit of Earth>
+								["provider"] = { "n", 60916 },	-- Wugou <Ancient Spirit of Earth>
 								["coord"] = { 68.8, 65.0, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 						},
@@ -539,7 +539,12 @@ root(ROOTS.Zones, {
 						["qg"] = 56416,	-- Aysa Cloudsinger
 						["sourceQuest"] = 29798,	-- An Ancient Evil
 						["coord"] = { 36.5, 84.2, THE_WANDERING_ISLE_STARTING_ZONE },
-						-- TODO
+						["groups"] = {
+							objective(1, {	-- Shen-zin Su's Thorn Removed
+								["provider"] = { "n", 60741 },	-- Ji Firepaw
+								["coord"] = { 36.4, 87.36, THE_WANDERING_ISLE_STARTING_ZONE },
+							}),
+						},
 					}),
 					q(29678, {	-- Shu, the Spirit of Water
 						["qg"] = 55020,	-- Old Man Liang
@@ -549,13 +554,16 @@ root(ROOTS.Zones, {
 						},
 						["coord"] = { 70.6, 38.7, THE_WANDERING_ISLE_STARTING_ZONE },
 						["groups"] = {
-							objective(1),	-- Cross to the Pool of Reflection
+							objective(1, {	-- Cross to the Pool of Reflection
+								["description"] = "Jump into the swirling blue effects on the closest rock to the shore to jump up the rest of the stones to ledge.",
+								["coord"] = { 79.979, 41.34, THE_WANDERING_ISLE_STARTING_ZONE },
+							}),
 							objective(2, {	-- Coax Shu, the Water Spirit
 								["providers"] = {
 									{ "n", 55213 },	-- Shu
 									{ "i", 73791 },	-- Sun Pearl (QI!)
 								},
-								--["coord"] = { , THE_WANDERING_ISLE_STARTING_ZONE },	-- TODO
+								["coord"] = { 78.96, 37.18, THE_WANDERING_ISLE_STARTING_ZONE },
 							}),
 						},
 					}),
@@ -682,7 +690,7 @@ root(ROOTS.Zones, {
 					}),
 					q(29662, {	-- Stronger Than Reeds
 						["qg"] = 55021,	-- Jojo Ironbrow
-						--["sourceQuest"] = ,	-- TODO ???
+						["sourceQuest"] = 29521,	-- The Singing Pools
 						["coord"] = { 63.5, 41.9, THE_WANDERING_ISLE_STARTING_ZONE },
 						["groups"] = {
 							objective(1, {	-- 0/8 Hard Tearwood Reed
@@ -1119,6 +1127,16 @@ root(ROOTS.Zones, {
 						["qg"] = 56662,	-- Aysa Cloudsinger
 						["sourceQuest"] = 29790,	-- Passing Wisdom
 						["coord"] = { 15.8, 49.1, THE_WANDERING_ISLE_STARTING_ZONE },
+						["groups"] = {
+							objective(1, {	-- Board the Hot Air Balloon
+								["provider"] = { "n", 55918 },	-- Shang Xi's Hot Air Balloon
+								["coord"] = { 15.67, 49.04, THE_WANDERING_ISLE_STARTING_ZONE },
+							}),
+							objective(2, {	-- Uncover the source of Shen-zin Su's pain
+								["provider"] = { "n", 57769 },	-- Shen-zin Su
+								["coord"] = { 0, 50, THE_WANDERING_ISLE_STARTING_ZONE },
+							}),
+						},
 					}),
 					q(29677, {	-- The Sun Pearl
 						["qg"] = 55020,	-- Old Man Liang

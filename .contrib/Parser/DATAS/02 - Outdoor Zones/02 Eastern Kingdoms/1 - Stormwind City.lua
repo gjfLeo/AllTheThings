@@ -823,7 +823,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 30988,	-- The Alliance Way
 					["coord"] = { 82.6, 28.2, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
-					["races"] = { PANDAREN_ALLIANCE },
+					["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE },
 				}),
 				q(58496, {	-- An Unwelcome Advisor
 					["provider"] = { "o", 369893 },	-- Urgent Missive
@@ -2141,7 +2141,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 60566,	-- Aysa Cloudsinger
 					["coord"] = { 74.2, 92.4, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4 },
-					["races"] = { PANDAREN_NEUTRAL },
+					["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE },
 				}),
 				-- #if BEFORE SL
 				q(27271, {	-- Journey to the Wizard's Sanctum / Frazzle's Request [SL+]
@@ -3023,7 +3023,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 30987,	-- Joining the Alliance
 					["coord"] = { 82.6, 28.2, STORMWIND_CITY },
 					["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
-					["races"] = { PANDAREN_ALLIANCE },
+					["races"] = { PANDAREN_NEUTRAL, PANDAREN_ALLIANCE },
 				}),
 				q(434, {	-- The Attack!
 					["qg"] = 7766,	-- Tyrion
