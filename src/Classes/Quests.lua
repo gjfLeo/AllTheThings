@@ -1685,7 +1685,10 @@ local createQuest = app.CreateClass("Quest", "questID", {
 
 	-- Defaults (Mostly used for nesting quests under their npcs for Pet Battles)
 	qgParent = function(t)
-		local qg = t.parent.creatureID or t.parent.npcID;
+		local parent = t.parent
+		if not parent then return end
+
+		local qg = parent.creatureID or parent.npcID;
 		if qg and qg > 0 then return qg; end
 	end,
 	coords = function(t)
