@@ -563,6 +563,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["sourceQuest"] = 42508,	-- Not a Toothless Dragon
 						["provider"] = { "n", 111553 },	-- Kalecgos
 						["coord"] = { 34.1, 83.4, SURAMAR },
+						["g"] = { i(138115) },	-- Kalec's Image Crystal
 					}),
 					q(42493, {	-- Impending Dooooooom!
 						["sourceQuest"] = 42521,	-- The Enemy of My Enemy...

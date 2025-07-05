@@ -387,6 +387,7 @@ MobileDB.Creature = {
 	[234483] = true,	-- Alleria Winderunner
 	[235490] = true,	-- Overcharged Titan Console
 	[235849] = true,	-- Fleet Master Seahorn
+	[240483] = true,	-- Flame Eater (NOT mobile, but causes quest errors if given a coordinate)
 	[241593] = true,	-- Skibbles
 	[241603] = true,	-- Threadis
 	[241604] = true,	-- Destien

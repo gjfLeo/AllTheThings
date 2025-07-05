@@ -620,7 +620,15 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["provider"] = { "n", 198883 },	-- Vanessa VanCleef
 				["coord"] = { 44.3, 66.0, ELWYNN_FOREST },
 				["g"] = {
-					i(202106),	-- Chewed Piece of Journal (QI!)
+					o(384644, {	-- Hoarded Debris
+						["coords"] = {
+							{ 60.4, 66.3, BURNING_STEPPES },
+							{ 61.1, 67.1, BURNING_STEPPES },
+							{ 61.2, 65.5, BURNING_STEPPES },
+							{ 61.7, 66.6, BURNING_STEPPES },
+						},
+						["g"] = { i(202106) },	-- Chewed Piece of Journal (QI!)
+					}),
 				},
 			}),
 			q(72424, {	-- Looking for Something Specific
@@ -654,7 +662,7 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 			q(72453, {	-- Betrayal of the Brotherhood
 				["sourceQuests"] = { 72431 },	-- Misdeeds in Moonbrook
 				["provider"] = { "n", 199598 },	-- Vanessa VanCleef
-				["coord"] = { 59.5, 59.7, WESTFALL },
+				["coord"] = { 59.5, 59.7, DEADMINES_OUTDOORS },
 			}),
 			q(72445, {	-- To Northshire
 				["sourceQuests"] = {

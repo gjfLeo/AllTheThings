@@ -413,6 +413,7 @@ i(169127);	-- Tastefully Scented Grease
 i(158746);	-- Tattered White Flag
 i(161200);	-- Teardrop Pearl
 i(158861);	-- Tensile Eye Stalk
+i(163914);	-- Tentacle Scrimshaw
 i(158839);	-- Thick Crab Claw
 i(158775);	-- Thick Hivewax
 i(158808);	-- Thick Tendon

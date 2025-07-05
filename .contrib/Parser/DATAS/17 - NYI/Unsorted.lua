@@ -3418,7 +3418,6 @@ root(ROOTS.Unsorted, {
 				i(163911),	-- Fake Eye Patch
 				i(163912),	-- Scale Oil
 				i(163913),	-- Flask of Expressed Poison
-				i(163914),	-- Tentacle Scrimshaw
 				i(163915),	-- Discontinued Zandalari Coins
 				i(163916),	-- Dinosaur Training Treats
 				i(163917),	-- Tusk File
