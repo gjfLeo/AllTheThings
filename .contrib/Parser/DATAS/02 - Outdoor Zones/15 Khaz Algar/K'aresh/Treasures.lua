@@ -23,6 +23,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(502603, {	-- Crudely Stitched Sack
 					["coord"] = { 58.6, 34.3, KARESH },
 					["questID"] = 86323,
+					["g"] = {
+						-- Junk item worth 10g. Only source of it for now.
+						i(246296),	-- Off-Balance Mace of the Tazavesh Lookout
+					},
 				}),
 				q(90514, {	-- Efrats Forgotten Bulwark
 				}),
@@ -79,7 +83,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(90511, {	-- Light Soaked Cleaver
 				}),
 				o(499086, {	-- Lightly-Dented Luggage
-					["coord"] = { 53.7, 64.1, KARESH },
+					["coord"] = { 54.9, 62.5, KARESH },
 					["questID"] = 91352,
 					["g"] = { i(242529), },	-- Shadowtrade Imports
 				}),
@@ -110,7 +114,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(499097, {	-- Sand-Worn Coffer
 					["coord"] = { 54.5, 24.5, KARESH },
 					["questID"] = 85840,
-					["g"] = { i(246297), },	-- Desperate Defender's Bladed Staff (COSMETIC!)
+					["g"] = {
+						i(246297),	-- Desperate Defender's Bladed Staff (COSMETIC!)
+						i(246298),	-- Cracked Staff of the Desperate Defender
+					},
 				}),
 				q(90527, {	-- Shadowguard Crusher
 				}),
@@ -152,7 +159,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			header(HEADERS.Achievement, 60890, {	-- Secrets of the K'areshi
 				q(91640),	-- A Dog-Eared Book
 				o(558109, {	-- Ba'key's Aromatic Broker Cookies Recipes
-					-- TODO: Bugged. does not trigger a HQT. 22.06.2025. -Exo
 					["coord"] = { 46.3, 18.6, KARESH_TAZAVESH },
 					["questID"] = 91645,
 				}),
@@ -195,7 +201,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			}),
 			o(516444, {	-- Ethereal Pocket-Storage
-				["description"] = "Spawns at random locations throughout Tazavesh.",
+				["description"] = "Spawns at random locations throughout K'aresh.",
 				["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
 				["maps"] = { KARESH_TAZAVESH, KARESH },
 				-- No quest attached to them.

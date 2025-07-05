@@ -3,7 +3,12 @@
 -----------------------------------------------------
 root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, {
 	inst(1194, {	-- Tazavesh, the Veiled Market
-		["coord"] = { 88.9, 44.3, TAZAVESH_THE_VEILED_MARKET_WORLD },
+		["coords"] = {
+			{ 88.9, 44.3, TAZAVESH_THE_VEILED_MARKET_WORLD },
+			-- #if AFTER 11.2.0
+			{ 36.3, 12.2, KARESH_TAZAVESH },
+			-- #endif
+		},
 		["maps"] = {
 			TAZAVESH_THE_VEILED_MARKET,
 			TAZAVESH_THE_MENAGERIE,

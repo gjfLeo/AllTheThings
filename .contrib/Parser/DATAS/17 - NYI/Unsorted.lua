@@ -99,7 +99,7 @@ root(ROOTS.Unsorted, {
 				i(240171),	-- Observer's Soul Fetters
 				i(240172),	-- Depleted K'areshi Battery
 
-				-- Zone Rewards/Quest?
+				-- Zone Drops
 				i(243496),	-- Wastelander's Gilded Band
 				i(243497),	-- Wastelander's Gilded Signet
 				i(243498),	-- Wastelander's Gilded Loop
@@ -261,7 +261,6 @@ root(ROOTS.Unsorted, {
 				i(244916),	-- Cyan Siphonmite
 				i(245212),	-- Vitriolic Inchshifter
 				i(245215),	-- Shimmering Inchshifter
-				i(245253),	-- Inquisitive Cosmic Ray Pup
 				i(245256),	-- Sao'rhon
 				i(245269),	-- Mr. Long-Legs
 				i(245273),	-- Copper Lapbug
@@ -317,8 +316,6 @@ root(ROOTS.Unsorted, {
 				i(245693),	-- K'areshi Ribbon Stash
 				i(246293),	-- Buckler of the Last Stand
 				i(246294),	-- Shattered Buckler of the Last Stand
-				i(246296),	-- Off-Balance Mace of the Tazavesh Lookout
-				i(246298),	-- Cracked Staff of the Desperate Defender
 				i(246301),	-- Pitted Blade of Lost Hope
 
 				-- Undermine??
@@ -680,7 +677,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {
 				i(234389),	-- Shadowguard Translocator (Weird reuse??! /Braghe)
 				i(236632),	-- Pouch of Voidbane Gems
-				i(238801),	-- Mite-Kissed Silver Tooth
 				i(238808),	-- Celeste-Touched Fin
 				i(238810),	-- Mana-Blessed Fin
 				i(238849),	-- Ominous Unblinking Eye
@@ -744,7 +740,6 @@ root(ROOTS.Unsorted, {
 				i(247821),	-- Cache of K'areshi Treasures
 				i(244300),	-- Phase-Sealed Box
 				i(244354),	-- Ethereal Equipment Chest
-				i(244842),	-- Fabled Veteran's Cache
 				i(244865),	-- Pinnacle Cache
 				i(244883),	-- Seasoned Undermine Adventurer's Cache
 				i(245280),	-- Seasoned Khaz Algar Adventurer's Cache
@@ -1356,7 +1351,6 @@ root(ROOTS.Unsorted, {
 				i(232281),	-- Small Fossil
 				i(232426),	-- Game Board
 				i(232432),	-- Condenser Disc
-				i(232467),	-- Crystallized Anima
 				i(232516),	-- Fading Essence
 				i(232522),	-- High Priest's Record[DNT]
 				i(232553),	-- Temple Keystone[DNT]
@@ -1374,14 +1368,10 @@ root(ROOTS.Unsorted, {
 				i(232992),	-- Large Bug Bits
 				i(233005),	-- Om'taha's Toolkit[DNT]
 				i(233012),	-- Flamethrower
-				i(233192),	-- Shadowguard Weapon
-				i(233193),	-- Shadowguard Weapon
-				i(233194),	-- Shadowguard Weapon
 				i(233195),	-- Pheromone Disperser
 				i(233287),	-- Barrel of Swirling Energy
 				i(233487),	-- Pheromone Disperser
 				i(233488),	-- Appropriated Azerothian Camera
-				i(233543),	-- Stolen Stolen Weapon
 				i(233552),	-- Tranquilizing Dart
 				i(234036),	-- Bruffalon Meat
 				i(234452),	-- Chopped Wood
@@ -1394,7 +1384,6 @@ root(ROOTS.Unsorted, {
 				i(235409),	-- Thorntail Fur
 				i(235410),	-- Lapbug Molting
 				i(235411),	-- Tagging Dart
-				i(235413),	-- Shadowguard Tool
 				i(235500),	-- Tranquilizing Dart
 				i(235501),	-- Necroray Gunk
 				i(235851),	-- Lasso
@@ -1423,93 +1412,6 @@ root(ROOTS.Unsorted, {
 				i(237019),	-- Corrupted Sap
 				i(237022),	-- Discarded Items
 				i(237030),	-- Condenser Disc
-				i(237266),	-- Stolen Veilshard
-				i(237352),	-- A Dozen Veilshards
-				i(237353),	-- Om'sto's Veilshards
-				i(237354),	-- A Bag of Veilshards
-				i(237356),	-- Vermin Attuned Optic-Visualizer
-				i(237572),	-- Smooth Stone
-				i(237601),	-- Nagrand Snake
-				i(237604),	-- Fragrant Dreaming Glory
-				i(237757),	-- Marsh Moss
-				i(237898),	-- Hemet's Waterin' Cani(231790),	-- Small Stone Tablet
-				i(231801),	-- Well-Worn Coin
-				i(231804),	-- Game Piece
-				i(231805),	-- [DNT]Well-worn Coin
-				i(232280),	-- Cracked Pendant
-				i(232281),	-- Small Fossil
-				i(232426),	-- Game Board
-				i(232432),	-- Condenser Disc
-				i(232467),	-- Crystallized Anima
-				i(232516),	-- Fading Essence
-				i(232522),	-- High Priest's Record[DNT]
-				i(232553),	-- Temple Keystone[DNT]
-				i(232554),	-- Waning Essence[DNT]
-				i(232568),	-- Priest's Remains[DNT]
-				i(232574),	-- Missing Shipment
-				i(232578),	-- Wastelander Artifact
-				i(232599),	-- Tabiqa Dagger
-				i(232601),	-- Entropic Egg
-				i(232612),	-- Laacunite Shard
-				i(232625),	-- Wastelander Artifact
-				i(232626),	-- Wastelander Artifact
-				i(232627),	-- Wastelander Artifact
-				i(232628),	-- Wastelander Artifact
-				i(232630),	-- Xy Imports Ledger
-				i(232992),	-- Large Bug Bits
-				i(233005),	-- Om'taha's Toolkit[DNT]
-				i(233012),	-- Flamethrower
-				i(233195),	-- Pheromone Disperser
-				i(233287),	-- Barrel of Swirling Energy
-				i(233333),	-- Forgecaster Wraps
-				i(233487),	-- Pheromone Disperser
-				i(233488),	-- Appropriated Azerothian Camera
-				i(233543),	-- Stolen Stolen Weapon
-				i(233552),	-- Tranquilizing Dart
-				i(234036),	-- Bruffalon Meat
-				i(234452),	-- Chopped Wood
-				i(234457),	-- Butcher's Knife
-				i(234815),	-- Plague Sample
-				i(234944),	-- Rancor Essence
-				i(235051),	-- Harvested Energy
-				i(235370),	-- Crate of Food
-				i(235384),	-- Anima Vacuum
-				i(235408),	-- Slateback Fur
-				i(235409),	-- Thorntail Fur
-				i(235410),	-- Lapbug Molting
-				i(235411),	-- Tagging Dart
-				i(235413),	-- Shadowguard Tool
-				i(235500),	-- Tranquilizing Dart
-				i(235501),	-- Necroray Gunk
-				i(235851),	-- Lasso
-				i(235866),	-- Calculation Container
-				i(235898),	-- Containment Trap
-				i(235913),	-- Marking Matrix
-				i(235914),	-- Chopped Oasis Plants
-				i(235917),	-- Pile of Voidbane Gems
-				i(235918),	-- Corrupted Granules
-				i(235982),	-- Void Fused Resin
-				i(235983),	-- Warrant: Shatterpulse
-				i(236353),	-- Shatterpulse Cell Key
-				i(236406),	-- Appropriated S.E.L.F.I.E. Camera
-				i(236407),	-- Voidbane Gem
-				i(236411),	-- Mana Matrix
-				i(236416),	-- Oasis Animal Leavings
-				i(236679),	-- Essence Scanner
-				i(236688),	-- Umbral Facade
-				i(236937),	-- Energy Encapsulation
-				i(236957),	-- Hollowbane Portal Key
-				i(236962),	-- Basket of Zo'kita Fruit
-				i(236964),	-- Large Sticky Voidmass
-				i(236966),	-- Flavorful Scraps
-				i(236967),	-- Grubber Lure
-				i(236972),	-- Freshly Picked Zo'kita
-				i(237012),	-- Appropriated Azerothian Camera
-				i(237013),	-- Anima Vacuum
-				i(237019),	-- Corrupted Sap
-				i(237022),	-- Discarded Items
-				i(237030),	-- Condenser Disc
-				i(237136),	-- Wastes Scanner
 				i(237266),	-- Stolen Veilshard
 				i(237352),	-- A Dozen Veilshards
 				i(237353),	-- Om'sto's Veilshards
@@ -1570,8 +1472,6 @@ root(ROOTS.Unsorted, {
 				i(246044),	-- Bag of Brewfest Ingredients
 				i(246052),	-- Barley Soup
 				i(246446),	-- Mark of the Twilight Oath
-				i(246504),	-- Inscrutable Ore
-				i(246582),	-- Inscrutable Flora
 				i(246592),	-- Shadowguard Credentials
 				i(246593),	-- Shadowguard Credentials
 				i(248129),	-- Brann's Repossessed Gear

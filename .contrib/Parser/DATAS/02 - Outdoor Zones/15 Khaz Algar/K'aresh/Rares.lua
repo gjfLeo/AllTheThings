@@ -90,6 +90,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(241920, {	-- Purple Peat
+				["description"] = "Rare can be summoned and killed only during a Warrant quest.",
 				["coord"] = { 42.5, 57.5, KARESH },
 				--["questID"] = ,
 			}),
@@ -138,6 +139,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(238384, {	-- Xy'vox the Twisted
+				["description"] = "Rare can be summoned and killed only during a Warrant quest.",
 				["coord"] = { 31.2, 57.8, KARESH },
 				["questID"] = 90694,
 				-- rep 90695?

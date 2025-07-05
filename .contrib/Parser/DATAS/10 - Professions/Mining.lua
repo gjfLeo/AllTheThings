@@ -1310,6 +1310,17 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				["coord"] = { 52.6, 52.6, DORNOGAL },
 			}),
 		})),
+		n(QUESTS, {
+			q(91420, {	-- Swap Meet
+				["description"] = "Obtained the first time you harvest Desolate Deposit.",
+				["providers"] = {
+					{ "i", 246504 },	-- Inscrutable Ore
+					{ "o", 523491 },	-- Desolate Deposit
+					{ "o", 523512 },	-- Rich Desolate Deposit
+				},
+				["timeline"] = { ADDED_11_0_2 }
+			}),
+		}),
 		n(TREASURES, {
 			o(455957, {	-- Arathi Precision Drill
 				["coord"] = { 46.1, 64.4, HALLOWFALL },

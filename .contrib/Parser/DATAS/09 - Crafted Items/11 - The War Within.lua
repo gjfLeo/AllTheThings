@@ -1565,6 +1565,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(79924, 435865);	-- Irradiated Orbinid
 			FirstCraft(79921, 435830);	-- Lush Orbinid
 			FirstCraft(79926, 435867);	-- Sporefused Orbinid
+			-- Phantom Bloom
+			FirstCraft(92132, 1250314, ADDED_11_2_0);	-- Phantom Bloom
+			FirstCraft(92133, 1250317, ADDED_11_2_0);	-- Lush Phantom Bloom
 		})),
 	}),
 	prof(INSCRIPTION, {
@@ -2427,6 +2430,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(80355, 439711);	-- Rich Ironclaw
 			FirstCraft(80373, 439729);	-- Webbed Ironclaw
 			FirstCraft(80364, 439720);	-- Weeping Ironclaw
+			-- Desolate Talus
+			FirstCraft(92134, 1250351, ADDED_11_2_0);	-- Desolate Deposit
+			FirstCraft(92135, 1250356, ADDED_11_2_0);	-- Rich Desolate Deposit
 		})),
 	}),
 	prof(SKINNING, {

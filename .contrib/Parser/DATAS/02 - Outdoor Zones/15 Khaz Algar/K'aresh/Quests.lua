@@ -21,6 +21,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 230604 },	-- Om'en
 						["coord"] = { 59.5, 83.1, KARESH_TAZAVESH },
 					}),
+					------ Stay awhile and listen ------
+					--hqt(???, {	-- Stay awhile and listen: Locus-Walker
+					--	["name"] = "Stay awhile and listen: Locus-Walker",
+					--	["description"] = "Dialogue becomes available after you accept 'Restoring Operational Efficiency' (85003).",
+					--	["sourceQuests"] = { 84957 },	-- Return to the Veiled Market
+					--	["provider"] = { "n", 233706 },	-- Locus-Walker
+					--	["coord"] = { 59.7, 83.4, KARESH_TAZAVESH },
+					--}),
+					--
 					q(84958, {	-- Beasts Unbound
 						["sourceQuests"] = { 84957 },	-- Return to the Veiled Market TODO: 85111 if skip will be to this place?
 						["provider"] = { "n", 230954 },	-- Ta'ka
@@ -55,10 +64,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 233706 },	-- Locus-Walker
 						["coord"] = { 59.7, 83.4, KARESH_TAZAVESH },
 						["g"] = {
+							o(502448, {	-- Void Presence
+								["coord"] = { 54.8, 66.3, KARESH_TAZAVESH },
+							}),
+							--
 							i(237890),	-- Band of the Unseen Hand
 							i(237893),	-- Ring of Lingering Shadows
 						},
 					}),
+					------ Stay awhile and listen ------
+					--hqt(???, {	-- Stay awhile and listen: Alleria Windrunner
+					--	["name"] = "Stay awhile and listen: Alleria Windrunner",
+					--	["description"] = "Dialogue becomes available after you accept 'The Darkness Among Us' (84960).",
+					--	["sourceQuests"] = { 84960 },	-- The Darkness Among Us
+					--	["provider"] = { "n", 230609 },	-- Alleria Windrunner
+					--	["coord"] = { 54.7, 66.9, KARESH_TAZAVESH },
+					--}),
+					--
 					q(84963, {	-- Sealing the Shadows
 						["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 						["provider"] = { "n", 234601 },	-- Om'en
@@ -141,6 +163,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 231128 },	-- Locus-Walker
 						["coord"] = { 37.7, 74.8, KARESH_TAZAVESH },
 					}),
+					------ Stay awhile and listen ------
+					hqt(90600, {	-- Stay awhile and listen: Xal'atath
+						["name"] = "Stay awhile and listen: Xal'atath",
+						["description"] = "Dialogue becomes available after you accept 'What Is Left of Home' (85032).",
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 235448 },	-- Xal'atath
+						["coord"] = { 37.5, 74.7, KARESH_TAZAVESH },
+					}),
+					hqt(90732, {	-- Stay awhile and listen: Alleria Windrunner
+						["name"] = "Stay awhile and listen: Alleria Windrunner",
+						["description"] = "Dialogue becomes available after you accept 'What Is Left of Home' (85032).",
+						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
+						["provider"] = { "n", 240293 },	-- Alleria Windrunner
+						["coord"] = { 34.2, 10.6, KARESH_TAZAVESH },
+					}),
+					--
 					q(85961, {	-- Moving the Pawns
 						["sourceQuests"] = { 85032 },	-- What Is Left of Home
 						["provider"] = { "n", 230700 },	-- Locus-Walker
@@ -162,6 +200,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["provider"] = { "n", 234106 },	-- Locus-Walker
 						["coord"] = { 48.2, 36.6, KARESH },
 					}),
+					------ Stay awhile and listen ------
+					--hqt(???, {	-- Stay awhile and listen: Alleria Windrunner
+					--	["name"] = "Stay awhile and listen: Alleria Windrunner",
+					--	["description"] = "Dialogue becomes available after you accept 'The Reshii Ribbon' (86495).",
+					--	["sourceQuests"] = { 84855 },	-- Dead Silence
+					--	["provider"] = { "n", 233945 },	-- Alleria Windrunner
+					--	["coord"] = { 48.3, 36.6, KARESH },
+					--}),
+					--
 					q(84856, {	-- Where the Void Gathers
 						["sourceQuests"] = { 86495 },	-- The Reshii Ribbon
 						["provider"] = { "n", 233946 },	-- Xal'atath
@@ -182,11 +229,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 47.1, 54.5, KARESH },
 						["g"] = {
 							o(500813, {	-- Rod of analysis
-							-- TODO: Add coordinate here
-								i(233068),	-- Rod of Analysis
+								["coord"] = { 47.2, 58.6, KARESH },
+								["g"] = { i(233068), },	-- Rod of Analysis (QI!)
 							}),
 						},
 					}),
+					------ Stay awhile and listen ------
+					--hqt(???, {	-- Stay awhile and listen: Xal'atath / 61476 - no questID
+					--	["name"] = "Stay awhile and listen: Xal'atath",
+					--	["description"] = "Dialogue becomes available after you accept 'System Restart' (84858).",
+					--	["sourceQuests"] = { 84857 },	-- Eco-Dome: Primus
+					--	["provider"] = { "n", 230825 },	-- Xal'atath
+					--	["coord"] = { 47.1, 54.6, KARESH },
+					--}),
+					--
 					q(84859, {	-- Damage Report 101
 						["sourceQuests"] = { 84858 },	-- System Restart
 						["provider"] = { "n", 230814 },	-- Ve'nari
@@ -273,14 +329,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					q(86946, {	-- Unwrapped and Unraveled
 						["sourceQuests"] = { 84866 },	-- To Purchase Safety
-						["provider"] = { "n", 237705 },	-- Xal'atath	TODO: unsure
-						--["coord"] = { X, Y, KARESH },	TODO: questID missing accepted part of it
+						["provider"] = { "n", 237705 },	-- Xal'atath
+						["coord"] = { 54.3, 45.5, KARESH },
 					}),
 					q(90517, {	-- My Part of the Deal
 						["sourceQuests"] = { 86946 },	-- Unwrapped and Unraveled
 						["provider"] = { "n", 242538 },	-- Ve'nari
 						["coord"] = { 47.1, 54.5, KARESH },
 					}),
+					------ Stay awhile and listen ------
+					hqt(90572, {	-- Stay awhile and listen: Locus-Walker
+						["name"] = "Stay awhile and listen: Locus-Walker",
+						["description"] = "Dialogue becomes available after you accept 'My Part of the Deal' (90517).",
+						["sourceQuests"] = { 86946 },	-- Unwrapped and Unraveled
+						["provider"] = { "n", 230811 },	-- Locus-Walker
+						["coord"] = { 47.1, 54.5, KARESH },
+					}),
+					--
 				}),
 				header(HEADERS.AchCriteria, 41970.03, {	-- Chapter 3: Desert Power
 					q(84826, {	-- Eco-Dome: Rhovan
@@ -562,49 +627,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				header(HEADERS.AchCriteria, 41970.05, {	-- Chapter 5: The Light of K'aresh
 					q(86458),	--
 				}),
-					------ Stay awhile and listen ------
-					--hqt(???, {	-- Stay awhile and listen: Locus-Walker / 61476 - no questID
-					--	["name"] = "Stay awhile and listen: Locus-Walker",
-					--	["sourceQuests"] = { 84957 },	-- Return to the Veiled Market
-					--	["provider"] = { "n", 233706 },	-- Locus-Walker
-					--	["coord"] = { 59.7, 83.4, KARESH_TAZAVESH },
-					--}),
-					---hqt(???, {	-- Stay awhile and listen: Alleria Windrunner / 61476 - no questID
-					---	["name"] = "Stay awhile and listen: Alleria Windrunner",
-					---	["sourceQuests"] = { 84960 },	-- The Darkness Among Us
-					---	["provider"] = { "n", 230609 },	-- Alleria Windrunner
-					---	["coord"] = { 54.7, 66.9, KARESH_TAZAVESH },
-					---}),
-					hqt(90600, {	-- Stay awhile and listen: Xal'atath
-						["name"] = "Stay awhile and listen: Xal'atath",
-						["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
-						["provider"] = { "n", 235448 },	-- Xal'atath
-						["coord"] = { 37.5, 74.7, KARESH_TAZAVESH },
-					}),
-					hqt(90732, {	-- Stay awhile and listen: Alleria Windrunner
-						["name"] = "Stay awhile and listen: Alleria Windrunner",
-						["sourceQuests"] = { 85032 },	-- What Is Left of Home
-						["provider"] = { "n", 240293 },	-- Alleria Windrunner
-						["coord"] = { 34.2, 10.6, KARESH_TAZAVESH },
-					}),
-					---hqt(???, {	-- Stay awhile and listen: Alleria Windrunner / 61476 - no questID
-					---	["name"] = "Stay awhile and listen: Alleria Windrunner",
-					---	["sourceQuests"] = { 84855 },	-- Dead Silence
-					---	["provider"] = { "n", 233945 },	-- Alleria Windrunner
-					---	["coord"] = { 48.3, 36.6, KARESH },
-					---}),
-					---hqt(???, {	-- Stay awhile and listen: Xal'atath / 61476 - no questID
-					---	["name"] = "Stay awhile and listen: Xal'atath",
-					---	["sourceQuests"] = { 84857 },	-- Eco-Dome: Primus
-					---	["provider"] = { "n", 230825 },	-- Xal'atath
-					---	["coord"] = { 47.1, 54.6, KARESH },
-					---}),
-					hqt(90572, {	-- Stay awhile and listen: Locus-Walker
-						["name"] = "Stay awhile and listen: Locus-Walker",
-						["sourceQuests"] = { 86946 },	-- Unwrapped and Unraveled
-						["provider"] = { "n", 230811 },	-- Locus-Walker
-						["coord"] = { 47.0, 54.5, KARESH },
-					}),
 			}),
 			header(HEADERS.Achievement, 41808, {	-- Otherworldly Ecologist
 				q(87290, {	-- The Oasis
@@ -779,7 +801,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 							85256,	-- Botany, Finally
 						},
 						["provider"] = { "n", 231919 },	-- Botanist Alaenra
-						["coord"] = { 48.4, 61.2, KARESH },
+						["coord"] = { 49.0, 57.2, KARESH },
 					}),
 					q(85258, {	-- Oh Honey Honey
 						["sourceQuests"] = { 89348 },	-- Let There Bee Love
@@ -907,6 +929,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			}),
 			header(HEADERS.Achievement, 42731, {	-- Become a Hero. Become a Phasediver!
+				q(90938, {	-- A Skip Through the Void
+					--["sourceQuests"] = { ??? },	-- Popped up on an alt as soon as I got zoned into Tazavesh for the first time -Exo
+					["provider"] = { "n", 241588 },	-- Hashim
+					["coord"] = { 50.3, 36.3, KARESH },
+				}),
 				q(89380, {	-- Another World
 					--["sourceQuests"] = { ??? },	-- According to playthrough, this unlocks after HQT 91812 is Triggered
 					["provider"] = { "n", 241601 },	-- Shad'anis
@@ -1108,7 +1135,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						-- Can't be completed. Fragments can't be placed. Bugged 24.06.2025. -Exo
 						["sourceQuests"] = { 89325 },	-- The Void Confluence
 						["provider"] = { "n", 240842 },	-- Leona Darkstrider
-						["coord"] = { 61.9, 53.0, 2477 },	-- Voidscar Cavern
+						["coords"] = {
+							{ 56.8, 24.1, KARESH },	-- Voidscar Cavern Entrance
+							{ 61.9, 53.0, 2477 },	-- Voidscar Cavern
+						},
 					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.04, {	-- Untethered Potential
@@ -1344,7 +1374,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			header(HEADERS.Achievement, 42737, {	-- Capstoned
 				q(89294),	-- Special Assignment: Alligned Views
-				q(89293),	-- Special Assignment: Overshadowed
+				q(89293, {	-- Special Assignment: Overshadowed
+					["coord"] = { 56.3, 27.3, KARESH },
+					["g"] = {
+						i(244842),	-- Fabled Veteran's Cache
+					},
+				}),
 			}),
 			header(HEADERS.Achievement, 41811, {	-- Ecological Stability
 				q(84744),	-- A Slither of Snakes
@@ -1356,7 +1391,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(84992),	-- Slatebacks
 			}),
 			header(HEADERS.Achievement, 41980, {	-- Vigiliante
-				-- WORK IN PROGRESS!!! PTR went down mid-questing
 				q(87344, {	-- A Key Threat
 					["sourceQuests"] = { 84967 },	-- The Shadowguard Shattered
 					["provider"] = { "n", 238255 },	-- Constable Zo'ardaz
@@ -1428,33 +1462,58 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 					["coord"] = { 54.1, 63.7, KARESH_TAZAVESH },
 				}),
-				q(86464, {	-- Devourer Attack: The Atrium
-					["isWeekly"] = true,
-					["cr"] = 235087,	-- The Harvester
-					["g"] = {
-						i(246240),	-- Devoured Energy-Pod
-						i(238664),	-- Crystallized Anima (QS!)
-					},
-				}),
 				q(86465, {	-- Devourer Attack: Tazavesh
 					["isWeekly"] = true,
-					["cr"] = 235104,	-- The Wallbreaker
 					["g"] = {
 						i(246240),	-- Devoured Energy-Pod
 						i(238665),	-- Crystallized Anima (QS!)
 					},
 				}),
+				q(86464, {	-- Devourer Attack: The Atrium
+					["isWeekly"] = true,
+					["g"] = {
+						i(246240),	-- Devoured Energy-Pod
+						i(238664),	-- Crystallized Anima (QS!)
+					},
+				}),
+				q(84993, {	-- Devourer Attack: The Oasis
+					["isWeekly"] = true,
+					["g"] = {
+						i(246240),	-- Devoured Energy-Pod
+						i(232467),	-- Crystallized Anima (QS!)
+					},
+				}),
 			}),
 			-- Quest (item) obtained during Devourer Attack
+			q(85722, {	-- Making a Deposit
+				["sourceQuests"] = { 84993 },	-- Devourer Attack: The Oasis
+				["provider"] = { "i", 232467 },	-- Crystallized Anima (QS!)
+				["cr"] = 231229,	-- Korgoth the Hungerer
+				["isWeekly"] = true,
+			}),
 			q(89062, {	-- Making a Deposit
 				["sourceQuests"] = { 86464 },	-- Devourer Attack: The Atrium
 				["provider"] = { "i", 238664 },	-- Crystallized Anima (QS!)
+				["cr"] = 235087,	-- The Harvester
 				["isWeekly"] = true,
 			}),
 			q(89063, {	-- Making a Deposit
 				["sourceQuests"] = { 86465 },	-- Devourer Attack: Tazavesh
 				["provider"] = { "i", 238665 },	-- Crystallized Anima (QS!)
+				["cr"] = 235104,	-- The Wallbreaker
 				["isWeekly"] = true,
+			}),
+			-- Temp placement.
+			q(91093, {	-- More Than Just a Phase
+				["qgs"] = {
+					238255,	-- Constable Zo'ardaz
+					241624,	-- Shad'anis
+				},
+				["coords"] = {
+					{ 48.6, 57.8, KARESH_TAZAVESH },	-- Constable Zo'ardaz
+					{ 50.4, 36.3, KARESH },	-- Shad'anis
+				},
+				["repeatable"] = true,
 			}),
 			-- Unsorted
 			q(84765),	--
@@ -1496,14 +1555,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				--q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 				q(90807),	-- Triggered at the completion of 'Warrant: Xy'vox the Twisted' (87345)
 				-- Devourer Attacks
+				q(91286),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
 				q(91289),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
+				q(91309),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
 				q(91311),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91312),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
+				q(91433),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
 				q(91435),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91436),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 
-				q(90955),	-- Triggered during 'Wrapped Up' (89561) when Reshii Wraps get upgraded (Selecting "Boon of the Reshii" at Hashim)
+				q(90955, name(HEADERS.Spell,1249651)),	-- Boon of the Reshii (Reshii Wraps 1st upgrade)
 			}),
 		}),
 	}),
