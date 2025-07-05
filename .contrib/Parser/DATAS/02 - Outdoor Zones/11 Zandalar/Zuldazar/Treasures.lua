@@ -105,6 +105,12 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						{ 56.8, 19.4, VOLDUN },
 					},
 				}),
+				o(281904, {	-- Treasure Chest
+					["questID"] = 50727,
+					["coords"] = {
+						{ 40.2, 37.2, ZULDAZAR },
+					},
+				}),
 			}))
 		}),
 	}),
@@ -121,7 +127,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 				q(50721),	-- Zuldazar repeatable random chest
 				q(50723),	-- Zuldazar repeatable random chest
 				q(50726),	-- Zuldazar repeatable random chest
-				q(50727),	-- Zuldazar repeatable random chest
 				q(50728),	-- Zuldazar repeatable random chest
 				q(51346),	-- Zuldazar repeatable random chest
 				q(50729),	-- looted a chest in Zuldazar at 58.6, 81.1
