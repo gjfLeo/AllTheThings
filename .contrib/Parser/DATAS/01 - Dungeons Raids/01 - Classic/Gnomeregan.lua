@@ -295,20 +295,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			-- #endif
 			n(QUESTS, {
 				header(HEADERS.Object, 142487, {	-- The Sparklematic 5200
-					n(REWARDS, {
-						container(9363, {	-- Sparklematic-Wrapped Box
-							["description"] = "Kill hostile creatures for [Grime-Encrusted Object], clean them at the Sparklematic 5200 to receive this box.",
-							["groups"] = {
-								i(122207, {	-- Music Roll: Tinkertown
-									["timeline"] = { ADDED_6_1_0 },
-									["races"] = ALLIANCE_ONLY,
-								}),
-								i(9280),	-- Yellow Punch Card
-								i(10299),	-- Gnomeregan Amulet
-								i(10298),	-- Gnomeregan Band
-							},
-						}),
-					}),
 					q(2951, {	-- The Sparklematic 5200!
 						["provider"] = { "o", 142487 },	-- The Sparklematic 5200
 						["cost"] = { { "i", 9308, 1 } },	-- Grime-Encrusted Object
@@ -831,6 +817,20 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
 					["lvl"] = 20,
+				}),
+			}),
+			n(REWARDS, {
+				container(9363, {	-- Sparklematic-Wrapped Box
+					["description"] = "Kill hostile creatures for [Grime-Encrusted Object], clean them at the Sparklematic 5200 to receive this box.",
+					["groups"] = {
+						i(122207, {	-- Music Roll: Tinkertown
+							["timeline"] = { ADDED_6_1_0 },
+							["races"] = ALLIANCE_ONLY,
+						}),
+						i(9280),	-- Yellow Punch Card
+						i(10299),	-- Gnomeregan Amulet
+						i(10298),	-- Gnomeregan Band
+					},
 				}),
 			}),
 			-- #if NOT SEASON_OF_DISCOVERY
