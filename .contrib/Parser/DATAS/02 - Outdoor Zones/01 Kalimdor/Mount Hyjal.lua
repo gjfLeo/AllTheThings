@@ -169,14 +169,16 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 			}),
 			-- #if ANYCLASSIC
-			prof(FISHING, {
-				o(202776, {	-- Mountain Trout School
-					i(22739),	-- Tome of Polymorph: Turtle (CI!)
-				}),
-				i(68050, {	-- Shatterscale Mightfish
-					["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
-					["coord"] = { 52.4, 77.0, MOUNT_HYJAL },	-- The Throne of Flame
-					["description"] = "Can be caught by fishing in lava using a special lure.",
+			n(PROFESSIONS, {
+				prof(FISHING, {
+					o(202776, {	-- Mountain Trout School
+						i(22739),	-- Tome of Polymorph: Turtle (CI!)
+					}),
+					i(68050, {	-- Shatterscale Mightfish
+						["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
+						["coord"] = { 52.4, 77.0, MOUNT_HYJAL },	-- The Throne of Flame
+						["description"] = "Can be caught by fishing in lava using a special lure.",
+					}),
 				}),
 			}),
 			-- #endif
