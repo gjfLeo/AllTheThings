@@ -1681,7 +1681,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								["coord"] = { 45.0, 23.2, VASHJIR_KELPTHAR_FOREST },
 								["races"] = ALLIANCE_ONLY,
 								["sym"] = {
-									{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster> },
+									{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster>
 									{ "pop" },						-- Pop the Headers
 								},
 							}),
@@ -1689,7 +1689,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								["coord"] = { 38.8, 31.6, VASHJIR_KELPTHAR_FOREST },
 								["races"] = HORDE_ONLY,
 								["sym"] = {
-									{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster> },
+									{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster>
 									{ "pop" },						-- Pop the Headers
 								},
 							}),

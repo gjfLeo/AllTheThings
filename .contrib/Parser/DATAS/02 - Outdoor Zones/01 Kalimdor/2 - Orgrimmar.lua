@@ -133,7 +133,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				n(63626, {	-- Varzok <Battle Pet Tamer>
 					["coord"] = { 52.6, 59.3, ORGRIMMAR },
 					["timeline"] = { ADDED_5_0_4 },
-					["description"] = 
+					["description"] =
 						-- #if BEFORE 9.0.3
 						"Provides the Horde Battle Pet questline, the quests are given in the following order:\n\n1. The inital quests touring middle Kalimdor\n2. 'Battle Pet Tamers: Eastern Kingdoms' + 'Battle Pet Tamers: Kalimdor'\n3. 'Grand Master Lydia Accoste' + 'Grand Master Trixxy'\n4. 'Battle Pet Tamers: Outland'\n5. 'Grand Master Antari'\n6. 'Battle Pet Tamers: Northrend'\n7. 'Grand Master Payne'\n8. 'Battle Pet Tamers: Cataclysm'\n9. 'Grand Master Obalis'\n10. 'Battle Pet Tamers: Pandaria'\n11. 'Grand Master Aki'\n\nNew quest might not be given until daily reset.",
 						-- #else
@@ -5483,6 +5483,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+			}),
+			n(52037, {	-- Zulna <Justice Heirlooms>
+				["coord"] = { 48.7, 71.4, ORGRIMMAR },
+				["races"] = HORDE_ONLY,
+				["timeline"] = { ADDED_4_0_6, REMOVED_6_0_2 },
+				["sym"] = {
+					{ "select", "npcID", 32509 },	-- Brammold Deepmine <Antiques & Heirlooms>
+					{ "pop" },						-- Pop the Headers
+				},
 			}),
 			-- #if NOT ANYCLASSIC
 			-- CRIEVE NOTE: I'm going to solve this a different way eventually.
