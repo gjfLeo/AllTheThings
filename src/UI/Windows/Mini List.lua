@@ -61,7 +61,7 @@ local CachedMapData = setmetatable({}, {
 					__index = function(t, f)
 						for i=1,#groups,1 do
 							local o = groups[i];
-							if o.f == f then
+							if o.filterID == f then
 								if not o.g then o.g = {}; end
 								t[f] = o;
 								return o;
