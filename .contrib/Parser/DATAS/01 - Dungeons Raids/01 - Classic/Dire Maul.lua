@@ -129,6 +129,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 		-- #if BEFORE MOP
 		["lore"] = "Dire Maul is a three-wing instance found in north-central Feralas. It was once a proud Highborne city called Eldre'Thalas, but now lies in ruins, overrun by ogres, satyrs, and undead. Only a tiny remnant of the original Highborne population remains in the form of a murderous sect called the Shen'dralar.",
 		-- #endif
+		-- #if BEFORE MOP
 		["zone-text-areas"] = {
 			2557,	-- Dire Maul
 			3217,	-- "The Maul" now points to Dire Maul.
@@ -137,6 +138,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_ONE_D
 			4992,	-- "Broken Commons" now points to Dire Maul.
 			-- #endif
 		},
+		-- #endif
 		["maps"] = {
 			DIRE_MAUL,
 			DIRE_MAUL_SHRINE_OF_ELDRETHARR,
