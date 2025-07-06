@@ -713,6 +713,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 	expansion(EXPANSION.MOP, {
 		filter(CLOTH, {
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(83389),	-- 5.0 QA PVP Test Caster DPS Robes
+				i(83390),	-- 5.0 QA PVP Test Caster DPS Robes 2
+				i(83391),	-- 5.0 QA PVP Test Caster DPS Robes 3
+				i(83392),	-- 5.0 QA PVP Test Caster DPS Shoulders
+				i(83393),	-- 5.0 QA PVP Test Caster DPS Shoulders 2
+				i(83535),	-- ???
+				i(83536),	-- ???
 				i(80948),	-- Peacebreaker's Silk Cowl
 				i(80949),	-- Peacebreaker's Satin Hood
 				i(80988),	-- Scavenger's Silk Amice
@@ -907,6 +914,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(TRINKET_F, {
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(83397),	-- 5.0 QA PVP Test Caster DPS Trinket
+				i(83398),	-- 5.0 QA PVP Test Caster DPS Trinket 2
 				i(80960),	-- Scavenger's Medal
 				i(80961),	-- Scavenger's Emblem
 				i(80962),	-- Scavenger's Medallion

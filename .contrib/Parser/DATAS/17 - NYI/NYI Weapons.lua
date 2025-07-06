@@ -199,6 +199,9 @@ root(ROOTS.NeverImplemented, {
 				i(22738),	-- Monster - Sword, 1H Uber Demon Blade
 				i(23743),	-- Monster - Sword 1H - Widow's Remorse
 			}),
+			expansion(EXPANSION.MOP, {
+				i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
+			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(1,5), {
 					i(187568),	-- Duskwatch Arcblade
@@ -269,6 +272,10 @@ root(ROOTS.NeverImplemented, {
 				i(20718),	-- Monster - Staff, Jeweled Yellow Staff w/Low Purple Glow
 				i(20719),	-- Monster - Staff, Jeweled D01/B02 Yellow w/Low Red Flame
 				i(21795),	-- Monster - Staff, Ahn'Qiraj
+			}),
+			expansion(EXPANSION.MOP, {
+				i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
+				i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,01), {
