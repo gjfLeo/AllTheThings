@@ -1,13 +1,13 @@
 DRAGONRIDING_RACING = createHeader({
 	readable = "Dragonriding Racing",
-	icon = [[~_.asset("Category_Interface_Racing")]],
+	icon = [[~_.asset("Interface_Racing")]],
 	text = {
 		en = WOWAPI_GetSpellName(400433),
 	},
 });
 SKYRIDING = createHeader({
 	readable = "Skyriding",
-	icon = [[~_.asset("Category_Interface_Racing")]],
+	icon = [[~_.asset("Interface_Racing")]],
 	text = {
 		en = WOWAPI_GetSpellName(415581),
 	},
