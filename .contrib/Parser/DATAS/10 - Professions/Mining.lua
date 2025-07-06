@@ -1318,7 +1318,7 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					{ "o", 523491 },	-- Desolate Deposit
 					{ "o", 523512 },	-- Rich Desolate Deposit
 				},
-				["timeline"] = { ADDED_11_0_2 }
+				["timeline"] = { ADDED_11_2_0 }
 			}),
 		}),
 		n(TREASURES, {
