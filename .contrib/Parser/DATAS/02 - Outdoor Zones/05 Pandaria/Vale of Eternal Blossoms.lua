@@ -224,12 +224,12 @@ root(ROOTS.Zones, {
 					q(32603, {	-- Beasts of Fable
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
-							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { 393 },	-- Shrine of Seven Stars
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
-							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { 391 },	-- Shrine of Two Moons
 						},
 						["sourceAchievement"] = 7499,	-- Taming the World
@@ -285,12 +285,12 @@ root(ROOTS.Zones, {
 					q(32604, {	-- Beasts of Fable Book I
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
-							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, 393 },	-- Shrine of Seven Stars
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
-							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, 391 },	-- Shrine of Two Moons
 						},
 						["sourceQuest"] = 32603,	-- Beasts of Fable
@@ -320,12 +320,12 @@ root(ROOTS.Zones, {
 					q(32868, {	-- Beasts of Fable Book II
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
-							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, 393 },	-- Shrine of Seven Stars
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
-							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, 391 },	-- Shrine of Two Moons
 						},
 						["sourceQuest"] = 32603,	-- Beasts of Fable
@@ -351,12 +351,12 @@ root(ROOTS.Zones, {
 					q(32869, {	-- Beasts of Fable Book III
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
-							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, 393 },	-- Shrine of Seven Stars
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
-							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, 391 },	-- Shrine of Two Moons
 						},
 						["sourceQuest"] = 32603,	-- Beasts of Fable
@@ -382,12 +382,12 @@ root(ROOTS.Zones, {
 					q(32428, {	-- Pandaren Spirit Tamer
 						["aqd"] = {
 							["qg"] = 64572,	-- Sara Finkleswitch
-							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, 393 },	-- Shrine of Seven Stars
 						},
 						["hqd"] = {
 							["qg"] = 64582,	-- Gentle San
-							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, 391 },	-- Shrine of Two Moons
 						},
 						["sourceAchievement"] = 7499,	-- Taming the World
@@ -423,7 +423,7 @@ root(ROOTS.Zones, {
 								63596,	-- Audrey Burnhelp
 							},
 							["coords"] = {
-								{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
 								{ 69.2, 25.0, STORMWIND_CITY },
 							},
 							["maps"] = { 393 },	-- Shrine of Seven Stars
@@ -434,7 +434,7 @@ root(ROOTS.Zones, {
 								63626,	-- Varzok
 							},
 							["coords"] = {
-								{ 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
 								{ 52.6, 59.3, ORGRIMMAR },
 							},
 							["maps"] = { 391 },	-- Shrine of Two Moons
