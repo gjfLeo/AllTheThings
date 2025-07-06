@@ -306,6 +306,7 @@ i(158820);	-- Blind-Worm Sting
 i(162978);	-- Blood Magic Ritual Dish
 i(158759);	-- Bloodgorged Sac
 i(158750);	-- Bonebreaker Beak
+i(158851);	-- Bottled Squall
 i(155843);	-- Brittle Ceremonial Necklace
 i(155649);	-- Broken Zandalari Spear
 i(158818);	-- Canine Tongue
@@ -373,6 +374,7 @@ i(158751);	-- Matted Pelt
 i(161201);	-- Mermaid's Looking Glass
 i(158778);	-- Mucose Tendril
 i(158866);	-- Oily Blubber
+i(163848);	-- Overused Voodoo Doll
 i(158831);	-- Parched Honeycomb
 i(158740);	-- Pearly Incisor
 i(155615);	-- Pestilent Muck

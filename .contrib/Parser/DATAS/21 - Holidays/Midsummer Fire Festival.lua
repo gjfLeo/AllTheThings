@@ -1229,6 +1229,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				240483,	-- Flame Eater
 				-- #endif
 			},
+			-- #if AFTER 11.1.7
+			["coord"] = { 47.2, 53.6, DORNOGAL },
+			-- #endif
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = ALLIANCE_ONLY,
 		}),
@@ -1239,6 +1242,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				240483,	-- Flame Eater
 				-- #endif
 			},
+			-- #if AFTER 11.1.7
+			["coord"] = { 47.2, 53.6, DORNOGAL },
+			-- #endif
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = HORDE_ONLY,
 		}),

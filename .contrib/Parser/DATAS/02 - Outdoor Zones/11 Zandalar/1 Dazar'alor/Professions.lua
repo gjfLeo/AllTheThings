@@ -19,7 +19,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH }
 					["races"] = HORDE_ONLY,
 					["g"] = appendGroups(BFA_BLACKSMITHING, {
 						r(265803),	-- Zandalari Blacksmithing
-						i(160298),	-- Durable Flux
 					}),
 				}),
 			}),
@@ -55,8 +54,6 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH }
 					["races"] = HORDE_ONLY,
 					["g"] = appendGroups(BFA_ENGINEERING, {
 						r(265807),	-- Zandalari Engineering
-						i(160502),	-- Chemical Blasting Cap
-						i(163569),	-- Insulated Wiring
 					}),
 				}),
 			}),

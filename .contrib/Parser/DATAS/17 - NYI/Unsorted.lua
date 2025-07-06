@@ -3272,7 +3272,6 @@ root(ROOTS.Unsorted, {
 				i(158846),	-- PH Flavor - Unused \\ PH Flavor - Basilisk
 				i(158847),	-- PH Flavor - Unused \\ PH Flavor - Bog Plant
 				i(158850),	-- Vibrant Plumage \\ PH Flavor - Pig
-				i(158851),	-- Bottled Squall \\ PH Flavor - Mogu
 				i(158852),	-- PH Flavor - Unused \\ PH Flavor - Fox
 				i(158853),	-- Bony Skullplate \\ PH Flavor - Naga Brute
 				i(158854),	-- PH Flavor - Unused \\ PH Flavor - Goat
@@ -3295,7 +3294,6 @@ root(ROOTS.Unsorted, {
 				i(158797),	-- Jar of Truffles
 				i(158858),	-- Adder's Fork
 				i(163847),	-- Silver Monkey Torso
-				i(163848),	-- Overused Voodoo Doll
 				i(163849),	-- Bad Troll Love Poem
 				i(163850),	-- Bloody Gamekeeper's Arm
 				i(163854),	-- Weighty Bag of Sand
@@ -3356,8 +3354,6 @@ root(ROOTS.Unsorted, {
 				i(163610),	-- Outpost Upgrade
 			}),
 			n(PROFESSIONS, {
-				i(152541),	-- Coarse Leather \\ Leather - Common (NEEDS NAME)
-				i(152542),	-- Hardened Tempest Hide \\ Leather - Rare (NEEDS NAME)
 				i(152578),	-- Sack of Herbs
 				i(152580),	-- Pile of Cloth
 				i(152581),	-- Bag of Jewels
@@ -3367,12 +3363,8 @@ root(ROOTS.Unsorted, {
 				i(152822),	-- Monel-Hardened Hatchet \\ Mariner's Hatchet
 				i(152823),	-- Monel-Hardened Battleaxe \\ Mariner's Battleaxe
 				i(152882),	-- REUSE ME \\ Runed Norgal Rod
-				i(153050),	-- Shimmerscale
-				i(153051),	-- Mistscale \\ Scale - Uncommon (NEEDS NAME)
 				i(153477),	-- REUSE ME (DNT) \\ Enchant Weapon - Threat Reduction (NEEDS NAME)
 				i(153590),	-- REUSE ME (DNT) \\ Belt Enchant - Grapple (NEEDS NAME)
-				i(153635),	-- Ultramarine Pigment
-				i(153636),	-- Crimson Pigment
 				i(153649),	-- Glyph of (NEEDS NAME)
 				i(153650),	-- Glyph of (NEEDS NAME)
 				i(153651),	-- Glyph of (NEEDS NAME)
@@ -3385,23 +3377,17 @@ root(ROOTS.Unsorted, {
 				i(153658),	-- Glyph of (NEEDS NAME)
 				i(153659),	-- Glyph of (NEEDS NAME)
 				i(153660),	-- Glyph of (NEEDS NAME)
-				i(153669),	-- Viridescent Pigment
-				i(154164),	-- Blood-Stained Bone \\ Bone - Common (NEEDS NAME)
-				i(154165),	-- Calcified Bone \\ Bone - Uncommon (NEEDS NAME)
 				i(154170),	-- RE-USE ME \\ Mallet of Thunderous Skins \\ Curved Diamond Awl Blade \\ Leatherworking Tool (NEEDS NAME)
 				i(154699),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of the Feather \\ Cloth Cloak - Fall Damage Reduction (NEEDS NAME)
 				i(154702),	-- RESUE ME (DNT) \\ Embroidered Deep Sea Cloak of Resilience \\ Cloth Cloak - Camoflage (NEEDS NAME)
 				i(154709),	-- RE-USE \\ Needle (NEEDS NAME)(DNT) \\ Needle (NEEDS NAME)
-				i(154722),	-- Tempest Hide \\ Leather - Uncommon (NEEDS NAME)
 				i(156632),	-- Silas' Stone of Transportation \\ Silus' Stone of Transportation
 				i(156633),	-- Silas' Potion of Prosperity \\ Silas' Potion of Luck \\ Silus' Potion of Luck
 				i(156634),	-- Silas' Vial of Continuous Curing \\ Silas' Phial of Perpetual Potential \\ Silus' Phial of Perpetual Potential
-				i(158205),	-- Acacia Powder
 				i(158292),	-- PH Cooking Reward \\ Mostly Intact Shell - PH Turtle Rare
 				i(158381),	-- Tidespray Linen Bandage \\ Sun-Bleached Linen Bandage
 				i(158382),	-- Deep Sea Bandage
 				i(158383),	-- Tidespray Pet Bandage \\ Sun-Bleached Pet Bandage
-				i(159959),	-- Nylon Thread
 				i(160059),	-- Amber Tanning Oil
 				i(160398),	-- Choral Honey
 				i(160399),	-- Wild Flour
@@ -4087,7 +4073,6 @@ root(ROOTS.Unsorted, {
 			i(168021),	-- Nullifier Transport Relay
 			i(168187),	-- Highborne Relic
 			i(168188),	-- Sage Agate
-			i(168189),	-- Dark Opal
 			i(168190),	-- Lava Lazuli
 			i(168191),	-- Sea Currant
 			i(168192),	-- Sand Spinel
@@ -4114,8 +4099,6 @@ root(ROOTS.Unsorted, {
 			i(168607),	-- Bottle of Voidwine
 			i(168630),	-- Chitterspine Meat
 			i(168635),	-- Leviathan's Eye
-			i(168649),	-- Dredged Leather
-			i(168650),	-- Cragscale
 			i(168655),	-- Greater Mystical Flask
 			i(168662),	-- Maroon Pigment
 			i(168755),	-- Unpublished Research

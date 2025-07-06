@@ -219,12 +219,6 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				-- #if AFTER 10.2.7
-				n(26540, {	-- Drenk Spannerspark <Tirisfal Glades Zeppelin Master>
-					["description"] = "Seems like blizzard neglected to actually provide a portal back to Tirisfal Glades."
-					-- This have probably been broken for multiple expansions.
-				}),
-				-- #endif
 				explorationHeader({
 					exploration(4062),	-- Apothecary Camp
 					exploration(3996),	-- Baelgun's Excavation Site

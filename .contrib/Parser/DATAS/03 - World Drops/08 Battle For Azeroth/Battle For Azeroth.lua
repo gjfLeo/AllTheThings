@@ -244,6 +244,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { AD
 		i(167738, {["timeline"] = {ADDED_8_1_5}}),	-- Gilded Seaweave
 		i(154898),	-- Meaty Haunch
 		i(168645, {["timeline"] = {ADDED_8_2_0}}),	-- Moist Fillet
+		i(174353, {["timeline"] = {ADDED_8_3_0}}),	-- Questionable Meat
 		i(168303, {["timeline"] = {ADDED_8_2_0}}),	-- Rubbery Flank
 		i(154897),	-- Stringy Loins
 		i(154899),	-- Thick Paleo Steak
