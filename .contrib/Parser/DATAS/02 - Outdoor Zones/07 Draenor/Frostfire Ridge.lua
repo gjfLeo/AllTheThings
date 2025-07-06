@@ -198,14 +198,14 @@ root(ROOTS.Zones, {
 						["races"] = HORDE_ONLY,
 					}),
 				}),
-				petbattles({ ADDED_6_0_2 }, {
+				petbattles({
 					n(87122, {	-- Gargra <Grand Master Pet Tamer>
 						["coord"] = { 68.6, 64.6, FROSTFIRE_RIDGE },
-						["timeline"] = { ADDED_6_0_1 },
+						["timeline"] = { ADDED_6_0_2 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(37205, {	-- Gargra
-								["timeline"] = { ADDED_6_0_1 },
+								["timeline"] = { ADDED_6_0_2 },
 								["isDaily"] = true,
 								["_drop"] = { "g" },	-- Drops Polished Pet Charm
 								["groups"] = {

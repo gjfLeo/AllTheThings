@@ -449,11 +449,11 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(87110, {	-- Tarr the Terrible <Grand Master Pet Tamer>
 						["coord"] = { 56.2, 9.80, DRAENOR_NAGRAND },
-						["timeline"] = { ADDED_6_0_1 },
+						["timeline"] = { ADDED_6_0_2 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(37206, {	-- Tarr the Terrible
-								["timeline"] = { ADDED_6_0_1 },
+								["timeline"] = { ADDED_6_0_2 },
 								["isDaily"] = true,
 								["_drop"] = { "g" },	-- Drops Polished Pet Charm
 								["groups"] = {

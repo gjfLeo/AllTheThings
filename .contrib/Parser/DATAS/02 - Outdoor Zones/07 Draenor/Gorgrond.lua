@@ -316,11 +316,11 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(83837, {	-- Cymre Brightblade <Grand Master Pet Tamer>
 						["coord"] = { 51.0, 70.6, GORGROND },
-						["timeline"] = { ADDED_6_0_1 },
+						["timeline"] = { ADDED_6_0_2 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(37201, {	-- Cymre Brightblade
-								["timeline"] = { ADDED_6_0_1 },
+								["timeline"] = { ADDED_6_0_2 },
 								["isDaily"] = true,
 								["_drop"] = { "g" },	-- Drops Polished Pet Charm
 								["groups"] = {

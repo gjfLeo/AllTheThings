@@ -269,11 +269,11 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(87124, {	-- Ashlei <Grand Master Pet Tamer>
 						["coord"] = { 50.0, 31.2, DRAENOR_SHADOWMOON_VALLEY },
-						["timeline"] = { ADDED_6_0_1 },
+						["timeline"] = { ADDED_6_0_2 },
 						["petBattleLvl"] = 25,
 						["groups"] = {
 							q(37203, {	-- Ashlei
-								["timeline"] = { ADDED_6_0_1 },
+								["timeline"] = { ADDED_6_0_2 },
 								["isDaily"] = true,
 								["_drop"] = { "g" },	-- Drops Polished Pet Charm
 								["groups"] = {
