@@ -199,290 +199,54 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			ach(6019, {	-- Come One, Come All!
 				["timeline"] = { ADDED_4_3_0 },
 			}),
-			ach(6028, {	-- Darkmoon Defender
+			ach(6028, {	-- Darkmoon Defender (automated)
 				["timeline"] = { ADDED_4_3_0 },
-				["groups"] = {
-					crit(18649, {	-- Adventurer's Journal
-						["_quests"] = { 29458 },	-- The Captured Journal
-					}),
-					crit(18650, {	-- Banner of the Fallen
-						["_quests"] = { 29456 },	-- A Captured Banner
-					}),
-					crit(18651, {	-- Captured Insignia
-						["_quests"] = { 29457 },	-- The Enemy's Insignia
-					}),
-				},
 			}),
-			ach(6029, {	-- Darkmoon Despoiler
+			ach(6029, {	-- Darkmoon Despoiler (automated)
 				["timeline"] = { ADDED_4_3_0 },
-				["groups"] = {
-					crit(18649, {	-- Adventurer's Journal
-						["_quests"] = { 29458 },	-- The Captured Journal
-					}),
-					crit(18644, {	-- A Treatise on Strategy
-						["_quests"] = { 29451 },	-- The Master Strategist
-					}),
-					crit(18647, {	-- Mysterious Grimoire
-						["_quests"] = { 29445 },	-- An Intriguing Grimoire
-					}),
-					crit(18648, {	-- Ornate Weapon
-						["_quests"] = { 29446 },	-- A Wondrous Weapon
-					}),
-					crit(18650, {	-- Banner of the Fallen
-						["_quests"] = { 29456 },	-- A Captured Banner
-					}),
-					crit(18287, {	-- Soothsayer's Runes
-						["_quests"] = { 29464 },	-- Tools of Divination
-					}),
-					crit(18651, {	-- Captured Insignia
-						["_quests"] = { 29457 },	-- The Enemy's Insignia
-					}),
-					crit(18645, {	-- Imbued Crystal
-						["_quests"] = { 29443 },	-- A Curious Crystal
-					}),
-					crit(18646, {	-- Monstrous Egg
-						["_quests"] = { 29444 },	-- An Exotic Egg
-					}),
-				},
 			}),
-			ach(6027, {	-- Darkmoon Dungeoneer
+			ach(6027, {	-- Darkmoon Dungeoneer (automated)
 				["timeline"] = { ADDED_4_3_0 },
-				["groups"] = {
-					crit(18644, {	-- A Treatise on Strategy
-						["_quests"] = { 29451 },	-- The Master Strategist
-					}),
-					crit(18645, {	-- Imbued Crystal
-						["_quests"] = { 29443 },	-- A Curious Crystal
-					}),
-					crit(18646, {	-- Monstrous Egg
-						["_quests"] = { 29444 },	-- An Exotic Egg
-					}),
-					crit(18647, {	-- Mysterious Grimoire
-						["_quests"] = { 29445 },	-- An Intriguing Grimoire
-					}),
-					crit(18648, {	-- Ornate Weapon
-						["_quests"] = { 29446 },	-- A Wondrous Weapon
-					}),
-				},
 			}),
-			ach(6032, {	-- Faire Favors
+			ach(6032, {	-- Faire Favors (automated)
 				["timeline"] = { ADDED_4_3_0 },
+				-- #if ANYCLASSIC
 				["groups"] = {
+					-- In MOP Classic this criteria is busted without this.
 					crit(18300, {	-- Alchemy
 						["_quests"] = { 29506 },	-- A Fizzy Fusion
 					}),
-					crit(18301, {	-- Archaeology
-						["_quests"] = { 29507 },	-- Fun for the Little Ones
-					}),
-					crit(18302, {	-- Blacksmithing
-						["_quests"] = { 29508 },	-- Baby Needs Two Pair of Shoes
-					}),
-					crit(18303, {	-- Cooking
-						["_quests"] = { 29509 },	-- Putting the Crunch in the Frog
-					}),
-					crit(18304, {	-- Enchanting
-						["_quests"] = { 29510 },	-- Putting Trash to Good Use
-					}),
-					crit(18305, {	-- Engineering
-						["_quests"] = { 29511 },	-- Talking' Tonks
-					}),
-					crit(18307, {	-- Fishing
-						["_quests"] = { 29513 },	-- Spoilin' for Salty Sea Dogs
-					}),
-					crit(18308, {	-- Herbalism
-						["_quests"] = { 29514 },	-- Herbs for Healing
-					}),
-					crit(18309, {	-- Inscription
-						["_quests"] = { 29515 },	-- Writing the Future
-					}),
-					crit(18310, {	-- Jewelcrafting
-						["_quests"] = { 29516 },	-- Keeping the Faire Sparkling
-					}),
-					crit(18311, {	-- Leatherworking
-						["_quests"] = { 29517 },	-- Eyes on the Prizes
-					}),
-					crit(18312, {	-- Mining
-						["_quests"] = { 29518 },	-- Rearm, Reuse, Recycle
-					}),
-					crit(18313, {	-- Skinning
-						["_quests"] = { 29519 },	-- Tan My Hide
-					}),
-					crit(18370, {	-- Tailoring
-						["_quests"] = { 29520 },	-- Banners, Banners Everywhere!
-					}),
 				},
+				-- #endif
 			}),
-			ach(6026, {	-- Fairegoer's Feast
+			ach(6026, {	-- Fairegoer's Feast (automated)
 				["timeline"] = { ADDED_4_3_0 },
-				["groups"] = {
-					crit(18252, {	-- Corn-Breaded Sausage
-						["provider"] = { "i", 44940 },
-					}),
-					crit(6552, {	-- Crunchy Frog
-						["provider"] = { "i", 19306 },
-					}),
-					crit(7313, {	-- Darkmoon Dog
-						["provider"] = { "i", 19223 },
-					}),
-					crit(6567, {	-- Deep Fried Candybar
-						["provider"] = { "i", 19225 },
-					}),
-					crit(8030, {	-- Forest Strider Drumstick
-						["provider"] = { "i", 33254 },
-					}),
-					crit(7957, {	-- Funnel Cake
-						["provider"] = { "i", 33246 },
-					}),
-					crit(6903, {	-- Pickled Kodo Foot
-						["provider"] = { "i", 19305 },
-					}),
-					crit(6915, {	-- Red Hot Wings
-						["provider"] = { "i", 19224 },
-					}),
-					crit(18596, {	-- Salty Sea Dog
-						["provider"] = { "i", 73260 },
-					}),
-					crit(7017, {	-- Spiced Beef Jerky
-						["provider"] = { "i", 19304 },
-					}),
-					crit(4661, {	-- Bottled Winterspring Water
-						["provider"] = { "i", 19300 },
-					}),
-					crit(4665, {	-- Cheap Beer
-						["provider"] = { "i", 19222 },
-					}),
-					crit(4678, {	-- Darkmoon Special Reserve
-						["provider"] = { "i", 19221 },
-					}),
-					crit(4687, {	-- Fizzy Faire Drink
-						["provider"] = { "i", 19299 },
-					}),
-					crit(9016, {	-- Fizzy Faire Drink "Classic"
-						["provider"] = { "i", 33236 },
-					}),
-					crit(18609, {	-- Fresh-Squeezed Limeade
-						["provider"] = { "i", 44941 },
-					}),
-					crit(9015, {	-- Iced Berry Slush
-						["provider"] = { "i", 33234 },
-					}),
-					crit(18610, {	-- Sasparilla Sinker
-						["provider"] = { "i", 74822 },
-					}),
-				},
 			}),
 			ach(6025, {	-- I Was Promised a Pony
 				["provider"] = { "n", 55715 },	-- Darkmoon Pony
 				["coord"] = { 56.6, 81.6, DARKMOON_ISLAND },
 				["timeline"] = { ADDED_4_3_0 },
 			}),
-			ach(6020, {	-- Step Right Up
+			ach(6020, {	-- Step Right Up (automated)
 				["timeline"] = { ADDED_4_3_0 },
-				["groups"] = {
-					crit(18234, {	-- Cannon Blast
-						["_quests"] = { 29436 },	-- The Humanoid Cannonball
-					}),
-					crit(18236, {	-- Shooting Gallery
-						["_quests"] = { 29438 },	-- He Shoots, He Scores!
-					}),
-					crit(18235, {	-- Ring Toss
-						["_quests"] = { 29455 },	-- Target: Turtle
-					}),
-					crit(18237, {	-- Tonk Battle
-						["_quests"] = { 29434 },	-- Tonk Commander
-					}),
-					crit(18238, {	-- Whack-A-Gnoll
-						["_quests"] = { 29463 },	-- It's Hammer Time
-					}),
-				},
 			}),
-			a(ach(6030, {	-- Taking the Show on the Road (A)
+			a(ach(6030, {	-- Taking the Show on the Road (A) (automated)
 				["timeline"] = { ADDED_4_3_0 },
+				-- #if ANYCLASSIC
 				["groups"] = {
-					-- #if ANYCLASSIC
-					crit(18294, {	-- Dalaran
-						["maps"] = { NORTHREND_DALARAN },
-					}),
-					crit(18290, {	-- Darnassus
-						["maps"] = { DARNASSUS },
-					}),
-					crit(18291, {	-- The Exodar
-						["maps"] = { THE_EXODAR },
-					}),
-					crit(18289, {	-- Ironforge
-						["maps"] = { IRONFORGE },
-					}),
-					crit(18298, {	-- Shattrath City
-						["maps"] = { SHATTRATH_CITY },
-					}),
-					crit(18288, {	-- Stormwind City
-						["maps"] = { STORMWIND_CITY },
-					}),
-					-- #else
-					crit(27718, {	-- Dalaran
-						["maps"] = { NORTHREND_DALARAN },
-					}),
-					crit(27724, {	-- Darnassus
-						["maps"] = { DARNASSUS },
-					}),
-					crit(27725, {	-- The Exodar
-						["maps"] = { THE_EXODAR },
-					}),
-					crit(27726, {	-- Ironforge
-						["maps"] = { IRONFORGE },
-					}),
-					crit(27720, {	-- Shattrath City
-						["maps"] = { SHATTRATH_CITY },
-					}),
-					crit(27727, {	-- Stormwind City
-						["maps"] = { STORMWIND_CITY },
-					}),
-					-- #endif
+					-- In MOP Classic this criteria is busted without this.
+					crit(18294, { ["_maps"] = { NORTHREND_DALARAN } }),	-- Dalaran
 				},
+				-- #endif
 			})),
-			h(ach(6031, {	-- Taking the Show on the Road (H)
+			h(ach(6031, {	-- Taking the Show on the Road (H) (automated)
 				["timeline"] = { ADDED_4_3_0 },
+				-- #if ANYCLASSIC
 				["groups"] = {
-					-- #if ANYCLASSIC
-					crit(18294, {	-- Dalaran
-						["maps"] = { NORTHREND_DALARAN },
-					}),
-					crit(18295, {	-- Orgrimmar
-						["maps"] = { ORGRIMMAR },
-					}),
-					crit(18298, {	-- Shattrath City
-						["maps"] = { SHATTRATH_CITY },
-					}),
-					crit(18296, {	-- Silvermoon City
-						["maps"] = { SILVERMOON_CITY },
-					}),
-					crit(18297, {	-- Thunder Bluff
-						["maps"] = { THUNDER_BLUFF },
-					}),
-					crit(18299, {	-- Undercity
-						["maps"] = { UNDERCITY },
-					}),
-					-- #else
-					crit(27718, {	-- Dalaran
-						["maps"] = { NORTHREND_DALARAN },
-					}),
-					crit(27719, {	-- Orgrimmar
-						["maps"] = { ORGRIMMAR },
-					}),
-					crit(27720, {	-- Shattrath City
-						["maps"] = { SHATTRATH_CITY },
-					}),
-					crit(27721, {	-- Silvermoon City
-						["maps"] = { SILVERMOON_CITY },
-					}),
-					crit(27722, {	-- Thunder Bluff
-						["maps"] = { THUNDER_BLUFF },
-					}),
-					crit(27723, {	-- Undercity
-						["maps"] = { UNDERCITY },
-					}),
-					-- #endif
+					-- In MOP Classic this criteria is busted without this.
+					crit(18294, { ["_maps"] = { NORTHREND_DALARAN } }),	-- Dalaran
 				},
+				-- #endif
 			})),
 		}),
 		-- #endif
@@ -542,37 +306,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 		}),
 		-- #if AFTER 4.3.0
-		prof(FISHING, {
-			i(35286, {	-- Bloated Giant Sunfish
-				["timeline"] = { ADDED_2_4_0 },
-			}),
-			i(127141, {	-- Bloated Thresher
-				["timeline"] = { ADDED_6_2_0 },
-				["groups"] = {
-					i(124669, {	-- Darkmoon Daggermaw
-						["timeline"] = { ADDED_6_2_0 },
-					}),
-				},
-			}),
-			i(124669, {	-- Darkmoon Daggermaw
-				["timeline"] = { ADDED_6_2_0 },
-			}),
-			i(93732, {	-- Darkmoon Fishing Cap
-				["timeline"] = { ADDED_5_2_0 },
-			}),
-			i(73953, {	-- Sea Pony (PET!)
-				["timeline"] = { ADDED_4_3_0 },
-			}),
-			i(124670, {	-- Sealed Darkmoon Crate
-				["timeline"] = { ADDED_6_2_0 },
-			}),
-			i(164973, {	-- Severed Azurefin Head
-				["timeline"] = { ADDED_8_1_5 },
-			}),
-			i(164972, {	-- Severed Crimsonscale Head
-				["timeline"] = { ADDED_8_1_5 },
-			}),
-		}),
 		n(MINIGAMES_HEADER, {
 			["cost"] = {{ "i", 71083, 1 }},	-- Darkmoon Game Token
 			["groups"] = {
@@ -746,6 +479,41 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 				["petBattleLvl"] = 25,
 			}),
 		}),
+		-- #if AFTER 4.3.0
+		n(PROFESSIONS, {
+			prof(FISHING, {
+				i(35286, {	-- Bloated Giant Sunfish
+					["timeline"] = { ADDED_2_4_0 },
+				}),
+				i(127141, {	-- Bloated Thresher
+					["timeline"] = { ADDED_6_2_0 },
+					["groups"] = {
+						i(124669, {	-- Darkmoon Daggermaw
+							["timeline"] = { ADDED_6_2_0 },
+						}),
+					},
+				}),
+				i(124669, {	-- Darkmoon Daggermaw
+					["timeline"] = { ADDED_6_2_0 },
+				}),
+				i(93732, {	-- Darkmoon Fishing Cap
+					["timeline"] = { ADDED_5_2_0 },
+				}),
+				i(73953, {	-- Sea Pony (PET!)
+					["timeline"] = { ADDED_4_3_0 },
+				}),
+				i(124670, {	-- Sealed Darkmoon Crate
+					["timeline"] = { ADDED_6_2_0 },
+				}),
+				i(164973, {	-- Severed Azurefin Head
+					["timeline"] = { ADDED_8_1_5 },
+				}),
+				i(164972, {	-- Severed Crimsonscale Head
+					["timeline"] = { ADDED_8_1_5 },
+				}),
+			}),
+		}),
+		-- #endif
 		n(QUESTS, {
 			q(7930, {	-- 5 Tickets - Darkmoon Flower
 				["qg"] = 14828,	-- Gelvas Grimegate <Darkmoon Faire Ticket Redemption>
