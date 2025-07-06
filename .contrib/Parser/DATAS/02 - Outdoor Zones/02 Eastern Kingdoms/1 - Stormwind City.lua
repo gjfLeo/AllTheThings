@@ -6531,7 +6531,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(8624),	-- Red Sparkler
 					},
 				}),
-				n(52030, {	-- Liliana Emberfrost <Honor Heirlooms>
+				n(52030, pvp({	-- Liliana Emberfrost <Honor Heirlooms>
 					["coord"] = { 74.4, 67.6, STORMWIND_CITY },
 					["timeline"] = { ADDED_4_0_6 },
 					["races"] = ALLIANCE_ONLY,
@@ -6584,11 +6584,106 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						moh(10, i(122367, {	-- The Blessed Hammer of Grace
 							["timeline"] = { ADDED_6_1_0 },
 						})),
-						moh(10, i(122366, {	-- Unpgraded Dwarven Hand Cannon
+						moh(10, i(122366, {	-- Upgraded Dwarven Hand Cannon
 							["timeline"] = { ADDED_6_1_0 },
 						})),
+
+						-- Old Heirlooms
+						i(93886, {	-- Adorned Beastmaster's Mantle
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44102, {	-- Aged Pauldrons of The Five Thunders
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93851, {	-- Battle-Forged Truesilver Champion
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(93848, {	-- Battle-Hardened Thrash Blade
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44096, {	-- Battleworn Thrash Blade
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93899, {	-- Bequeathed Insignia of the Alliance
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(93898, {	-- Bequeathed Insignia of the Horde
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(93852, {	-- Deadly Scarlet Kris
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(93849, {	-- Elder Staff of Jordan
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44103, {	-- Exceptional Stormshroud Shoulders
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(44107, {	-- Exquisite Sunderseer Mantle
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93894, {	-- Immaculate Lightforge Spaulders
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44098, {	-- Inherited Insignia of the Alliance
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(44097, {	-- Inherited Insignia of the Horde
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93900, {	-- Inherited Mark of Tyranny
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44095, {	-- Grand Staff of Jordan
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(44105, {	-- Lasting Feralheart Spaulders
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93861, {	-- Prestigious Sunderseer Mantle
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44100, {	-- Pristine Lightforge Spaulders
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(44101, {	-- Prized Beastmaster's Mantle
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(44092, {	-- Reforged Truesilver Champion
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93895, {	-- Reinforced Stockade Pauldrons
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44091, {	-- Sharpened Scarlet Kris
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93841, {	-- Smoothbore Dwarven Hand Cannon
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44099, {	-- Strengthened Stockade Pauldrons
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93867, {	-- Superior Stormshroud Shoulders
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44094, {	-- The Blessed Hammer of Grace
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93850, {	-- The Sanctified Hammer of Grace
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(44093, {	-- Upgraded Dwarven Hand Cannon
+							["timeline"] = { REMOVED_6_1_0 },
+						}),
+						i(93889, {	-- Venerated Pauldrons of The Five Thunders
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
+						i(93866, {	-- Wild Feralheart Spaulders
+							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+						}),
 					},
-				}),
+				})),
 				n(1297, {	-- Lina Stover <Bow & Gun Merchant>
 					["coords"] = {
 						-- #if AFTER WRATH
