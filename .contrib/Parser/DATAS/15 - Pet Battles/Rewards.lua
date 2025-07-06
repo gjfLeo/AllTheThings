@@ -25,23 +25,6 @@ root(ROOTS.PetBattles, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
 			["races"] = HORDE_ONLY,
 			["timeline"] = { ADDED_8_1_0 },
 		})),
-		container(94207, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {	-- Fabled Pandaren Pet Supplies
-			i(94210),	-- Mountain Panda (PET!)
-			i(94209),	-- Snowy Panda (PET!)
-			i(94208),	-- Sunfur Panda (PET!)
-			i(89139),	-- Chain Pet Leash
-			i(44820),	-- Red Ribbon Pet Leash
-			i(37460),	-- Rope Pet Leash
-			i(92679),	-- Flawless Aquatic Battle-Stone
-			i(92675),	-- Flawless Beast Battle-Stone
-			i(92676),	-- Flawless Critter Battle-Stone
-			i(92665),	-- Flawless Elemental Battle-Stone
-			i(92677),	-- Flawless Flying Battle-Stone
-			i(92682),	-- Flawless Humanoid Battle-Stone
-			i(92678),	-- Flawless Magic Battle-Stone
-			i(92680),	-- Flawless Mechanical Battle-Stone
-			i(92681),	-- Flawless Undead Battle-Stone
-		})),
 		i(89139),	-- Chain Pet Leash
 		i(44820),	-- Red Ribbon Pet Leash
 		i(37460),	-- Rope Pet Leash

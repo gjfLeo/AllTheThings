@@ -831,9 +831,42 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66730, {	-- Hyuna of the Shrines <Grand Master Pet Tamer>
 						["coord"] = { 48.0, 54.0, THE_JADE_FOREST },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(31953, {	-- Grand Master Hyuna
+								["sourceAchievement"] = 6606,	-- Taming Pandaria
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(89125),	-- Sack of Pet Supplies
+								},
+							}),
+						},
 					}),
 					n(68464, {	-- Whispering Pandaren Spirit <Grand Master Pet Tamer>
 						["coord"] = { 28.8, 36.0, THE_JADE_FOREST },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(32440, {	-- Whispering Pandaren Spirit
+								["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(93148, {	-- Pandaren Spirit Pet Supplies
+										["sym"] = {{"select","itemID",
+											89139,	-- Chain Pet Leash
+											44820,	-- Red Ribbon Pet Leash
+											37460,	-- Rope Pet Leash
+										}},
+										["groups"] = {
+											i(92799),	-- Pandaren Air Spirit (PET!)
+										},
+									})
+								},
+							}),
+						},
 					}),
 				}),
 				n(PROFESSIONS, {

@@ -172,6 +172,38 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(89125),	-- Sack of Pet Supplies
 					},
 				}),
+				q(31891, {	-- Battle Pet Tamers: Kalimdor (H)
+					["qg"] = 63626,	-- Varzok
+					["sourceQuest"] = 31918,	-- A Tamer's Homecoming (H)
+					-- ["altQuests"] = { 31889 },
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { FERALAS, DUSTWALLOW_MARSH, THOUSAND_NEEDLES, FELWOOD, MOONGLADE },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Traitor Gluk
+							["provider"] = { "n", 66352 },	-- Traitor Gluk <Master Pet Tamer>
+							["coord"] = { 59.6, 49.6, FERALAS },
+						}),
+						objective(2, {	-- Defeat Grazzle the Great
+							["provider"] = { "n", 66436 },	-- Grazzle the Great <Master Pet Tamer>
+							["coord"] = { 53.8, 74.8, DUSTWALLOW_MARSH },
+						}),
+						objective(3, {	-- Defeat Kela Grimtotem
+							["provider"] = { "n", 66452 },	-- Kela Grimtotem <Master Pet Tamer>
+							["coord"] = { 31.8, 32.8, THOUSAND_NEEDLES },
+						}),
+						objective(4, {	-- Defeat Zoltan
+							["provider"] = { "n", 66442 },	-- Zoltan <Master Pet Tamer>
+							["coord"] = { 40.0, 56.6, FELWOOD },
+						}),
+						objective(5, {	-- Defeat Elena Flutterfly
+							["provider"] = { "n", 66412 },	-- Elena Flutterfly <Master Pet Tamer>
+							["coord"] = { 46.0, 60.6, MOONGLADE },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 				q(31587, {	-- Got one! (Matty)
 					["qg"] = 63086,	-- Matty
 					["sourceQuest"] = 31828,	-- Level Up!

@@ -269,6 +269,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["altQuests"] = { 31976 },	-- The Returning Champion (Deadwind Pass)
 					["coord"] = { 65.6, 64.4, WINTERSPRING },
 					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
 				}),
@@ -281,6 +282,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["altQuests"] = { 31980 },	-- The Returning Champion (Deadwind Pass)
 					["coord"] = { 65.6, 64.4, WINTERSPRING },
 					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { ORGRIMMAR },
 					["races"] = HORDE_ONLY,
 					["isBreadcrumb"] = true,
 				}),

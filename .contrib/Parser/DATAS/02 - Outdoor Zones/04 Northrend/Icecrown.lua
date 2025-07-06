@@ -222,6 +222,40 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					q(31928, {	-- Grand Master Payne
+						["qg"] = 66675,	-- Major Payne
+						["sourceQuests"] = {
+							31927,	-- Battle Pet Tamers: Northrend (A)
+							31929,	-- Battle Pet Tamers: Northrend (H)
+						},
+						["coord"] = { 77.4, 19.6, ICECROWN },
+						["timeline"] = { ADDED_5_0_4 },
+						["groups"] = {
+							objective(1, {	-- Defeat Major Payne
+								["provider"] = { "n", 66675 },	-- Major Payne
+								["coord"] = { 77.4, 19.6, ICECROWN },
+							}),
+							i(89125),	-- Sack of Pet Supplies
+						},
+					}),
+					q(31984, {	-- A Brief Reprieve (A)
+						["qg"] = 66675,	-- Major Payne
+						["sourceQuest"] = 31928,	-- Grand Master Payne
+						["coord"] = { 77.4, 19.6, ICECROWN },
+						["timeline"] = { ADDED_5_0_4 },
+						["maps"] = { STORMWIND_CITY },
+						["races"] = ALLIANCE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
+					q(31983, {	-- A Brief Reprieve (H)
+						["qg"] = 66675,	-- Major Payne
+						["sourceQuest"] = 31928,	-- Grand Master Payne
+						["coord"] = { 77.4, 19.6, ICECROWN },
+						["timeline"] = { ADDED_5_0_4 },
+						["maps"] = { ORGRIMMAR },
+						["races"] = HORDE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
 				}),
 				n(QUESTS, {
 					q(13286, {	-- ...All the Help We Can Get.

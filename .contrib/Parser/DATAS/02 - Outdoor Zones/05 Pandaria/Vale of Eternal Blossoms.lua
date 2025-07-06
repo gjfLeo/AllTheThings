@@ -176,8 +176,291 @@ root(ROOTS.Zones, {
 				}),
 				petbattles({
 					n(66741, {	-- Aki the Chosen <Grand Master Pet Tamer>
-						["coord"] = { 31.2, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
+						["coords"] = {
+							{ 31.2, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #if AFTER 8.3.0
+							{ 84.1, 28.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(31958, {	-- Grand Master Aki
+								["sourceAchievement"] = 6606,	-- Taming Pandaria
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(89125),	-- Sack of Pet Supplies
+								},
+							}),
+						},
 					}),
+					q(31951, {	-- Grand Master Aki
+						["qg"] = 66741,	-- Aki the Chosen
+						["sourceQuests"] = {
+							31930,	-- Battle Pet Tamers: Pandaria (A)
+							31952,	-- Battle Pet Tamers: Pandaria (H)
+						},
+						["coords"] = {
+							{ 31.2, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
+							-- #if AFTER 8.3.0
+							{ 84.1, 28.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
+							-- #endif
+						},
+						["timeline"] = { ADDED_5_0_4 },
+						["groups"] = {
+							objective(1, {	-- Defeat Aki the Chosen
+								["provider"] = { "n", 66741 },	-- Aki the Chosen
+								["coords"] = {
+									{ 31.2, 74.2, VALE_OF_ETERNAL_BLOSSOMS },
+									-- #if AFTER 8.3.0
+									{ 84.1, 28.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
+									-- #endif
+								},
+							}),
+							i(89125),	-- Sack of Pet Supplies
+						},
+					}),
+					q(32603, {	-- Beasts of Fable
+						["aqd"] = {
+							["qg"] = 64572,	-- Sara Finkleswitch
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { 393 },	-- Shrine of Seven Stars
+						},
+						["hqd"] = {
+							["qg"] = 64582,	-- Gentle San
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { 391 },	-- Shrine of Two Moons
+						},
+						["sourceAchievement"] = 7499,	-- Taming the World
+						["description"] = "Account-Wide Quest. Need to have completed the achievement, |cffffff00Taming The World.|r",
+						["timeline"] = { ADDED_5_2_0 },
+						["maps"] = { THE_JADE_FOREST, DREAD_WASTES, VALLEY_OF_THE_FOUR_WINDS, TOWNLONG_STEPPES, KUN_LAI_SUMMIT, KRASARANG_WILDS },
+						["groups"] = {
+							objective(1, {	-- Defeat Ka'wi the Gorger
+								["provider"] = { "n", 68555 },	-- Ka'wi the Gorger
+								["coord"] = { 48.4, 71.0, THE_JADE_FOREST },
+							}),
+							objective(2, {	-- Defeat Gorespine
+								["provider"] = { "n", 68558 },	-- Gorespine
+								["coord"] = { 26.2, 50.2, DREAD_WASTES },
+							}),
+							objective(3, {	-- Defeat No-No
+								["provider"] = { "n", 68559 },	-- No-No
+								["coord"] = { 11.0, 70.6, VALE_OF_ETERNAL_BLOSSOMS },
+							}),
+							objective(4, {	-- Defeat Greyhoof
+								["provider"] = { "n", 68560 },	-- Greyhoof <Calf of Darkhide>
+								["coord"] = { 25.2, 78.6, VALLEY_OF_THE_FOUR_WINDS },
+							}),
+							objective(5, {	-- Defeat Lucky Yi
+								["provider"] = { "n", 68561 },	-- Lucky Yi
+								["coord"] = { 40.4, 43.8, VALLEY_OF_THE_FOUR_WINDS },
+							}),
+							objective(6, {	-- Defeat Ti'un the Wanderer
+								["provider"] = { "n", 68562 },	-- Ti'un the Wanderer
+								["coord"] = { 72.2, 79.8, TOWNLONG_STEPPES },
+							}),
+							objective(7, {	-- Defeat Kafi
+								["provider"] = { "n", 68563 },	-- Kafi
+								["coord"] = { 35.2, 56.0, KUN_LAI_SUMMIT },
+							}),
+							objective(8, {	-- Defeat Dos-Ryga
+								["provider"] = { "n", 68564 },	-- Dos-Ryga
+								["coord"] = { 67.8, 84.6, KUN_LAI_SUMMIT },
+							}),
+							objective(9, {	-- Defeat Nitun
+								["provider"] = { "n", 68565 },	-- Nitun <The Midnight Plunderer>
+								["coord"] = { 57.0, 29.2, THE_JADE_FOREST },
+							}),
+							objective(10, {	-- Defeat Skitterer Xi'a
+								["provider"] = { "n", 68566 },	-- Skitterer Xi'a
+								["coord"] = { 36.2, 37.2, KRASARANG_WILDS },
+							}),
+							i(94025, {	-- Red Panda (PET!)
+								["timeline"] = { ADDED_5_2_0 },
+							}),
+						},
+					}),
+					q(32604, {	-- Beasts of Fable Book I
+						["aqd"] = {
+							["qg"] = 64572,	-- Sara Finkleswitch
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, 393 },	-- Shrine of Seven Stars
+						},
+						["hqd"] = {
+							["qg"] = 64582,	-- Gentle San
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { THE_JADE_FOREST, KUN_LAI_SUMMIT, 391 },	-- Shrine of Two Moons
+						},
+						["sourceQuest"] = 32603,	-- Beasts of Fable
+						["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
+						["timeline"] = { ADDED_5_2_0 },
+						["isDaily"] = true,
+						["groups"] = {
+							objective(1, {	-- Defeat Ka'wi the Gorger
+								["provider"] = { "n", 68555 },	-- Ka'wi the Gorger
+								["coord"] = { 48.4, 71.0, THE_JADE_FOREST },
+							}),
+							objective(2, {	-- Defeat Kafi
+								["provider"] = { "n", 68563 },	-- Kafi
+								["coord"] = { 35.2, 56.0, KUN_LAI_SUMMIT },
+							}),
+							objective(3, {	-- Defeat Dos-Ryga
+								["provider"] = { "n", 68564 },	-- Dos-Ryga
+								["coord"] = { 67.8, 84.6, KUN_LAI_SUMMIT },
+							}),
+							objective(4, {	-- Defeat Nitun
+								["provider"] = { "n", 68565 },	-- Nitun <The Midnight Plunderer>
+								["coord"] = { 57.0, 29.2, THE_JADE_FOREST },
+							}),
+							i(94207),	-- Fabled Pandaren Pet Supplies
+						},
+					}),
+					q(32868, {	-- Beasts of Fable Book II
+						["aqd"] = {
+							["qg"] = 64572,	-- Sara Finkleswitch
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, 393 },	-- Shrine of Seven Stars
+						},
+						["hqd"] = {
+							["qg"] = 64582,	-- Gentle San
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, 391 },	-- Shrine of Two Moons
+						},
+						["sourceQuest"] = 32603,	-- Beasts of Fable
+						["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
+						["timeline"] = { ADDED_5_2_0 },
+						["isDaily"] = true,
+						["groups"] = {
+							objective(1, {	-- Defeat Greyhoof
+								["provider"] = { "n", 68560 },	-- Greyhoof <Calf of Darkhide>
+								["coord"] = { 25.2, 78.6, VALLEY_OF_THE_FOUR_WINDS },
+							}),
+							objective(2, {	-- Defeat Lucky Yi
+								["provider"] = { "n", 68561 },	-- Lucky Yi
+								["coord"] = { 40.4, 43.8, VALLEY_OF_THE_FOUR_WINDS },
+							}),
+							objective(3, {	-- Defeat Skitterer Xi'a
+								["provider"] = { "n", 68566 },	-- Skitterer Xi'a
+								["coord"] = { 36.2, 37.2, KRASARANG_WILDS },
+							}),
+							i(94207),	-- Fabled Pandaren Pet Supplies
+						},
+					}),
+					q(32869, {	-- Beasts of Fable Book III
+						["aqd"] = {
+							["qg"] = 64572,	-- Sara Finkleswitch
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, 393 },	-- Shrine of Seven Stars
+						},
+						["hqd"] = {
+							["qg"] = 64582,	-- Gentle San
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { DREAD_WASTES, TOWNLONG_STEPPES, 391 },	-- Shrine of Two Moons
+						},
+						["sourceQuest"] = 32603,	-- Beasts of Fable
+						["description"] = "Account-Wide Daily Quest. Must have completed the quest |cffffff00Beasts of Fable.|r",
+						["timeline"] = { ADDED_5_2_0 },
+						["isDaily"] = true,
+						["groups"] = {
+							objective(1, {	-- Defeat Gorespine
+								["provider"] = { "n", 68558 },	-- Gorespine
+								["coord"] = { 26.2, 50.2, DREAD_WASTES },
+							}),
+							objective(2, {	-- Defeat No-No
+								["provider"] = { "n", 68559 },	-- No-No
+								["coord"] = { 11.0, 70.6, VALE_OF_ETERNAL_BLOSSOMS },
+							}),
+							objective(3, {	-- Defeat Ti'un the Wanderer
+								["provider"] = { "n", 68562 },	-- Ti'un the Wanderer
+								["coord"] = { 72.2, 79.8, TOWNLONG_STEPPES },
+							}),
+							i(94207),	-- Fabled Pandaren Pet Supplies
+						},
+					}),
+					q(32428, {	-- Pandaren Spirit Tamer
+						["aqd"] = {
+							["qg"] = 64572,	-- Sara Finkleswitch
+							["coord"] = { 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, 393 },	-- Shrine of Seven Stars
+						},
+						["hqd"] = {
+							["qg"] = 64582,	-- Gentle San
+							["coord"] = { 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, 391 },	-- Shrine of Two Moons
+						},
+						["sourceAchievement"] = 7499,	-- Taming the World
+						["description"] = "Account-Wide Quest. Need to have completed the achievement, |cffffff00Taming The World.|r These pets can be found in the Pandaren Spirit Pet Supplies received from the four Pandaren Spirit Tamers in their individual Daily Quests once you complete this quest.|r",
+						["timeline"] = { ADDED_5_0_4 },
+						["groups"] = {
+							objective(1, {	-- Defeat Burning Pandaren Spirit
+								["provider"] = { "n", 68463 },	-- Burning Pandaren Spirit <Grand Master Pet Tamer>
+								["coord"] = { 57.0, 42.2, TOWNLONG_STEPPES },
+							}),
+							objective(2, {	-- Defeat Thundering Pandaren Spirit
+								["provider"] = { "n", 68465 },	-- Thundering Pandaren Spirit <Grand Master Pet Tamer>
+								["coord"] = { 64.8, 93.6, KUN_LAI_SUMMIT },
+							}),
+							objective(3, {	-- Defeat Whispering Pandaren Spirit
+								["provider"] = { "n", 68464 },	-- Whispering Pandaren Spirit <Grand Master Pet Tamer>
+								["coord"] = { 28.8, 36.0, THE_JADE_FOREST },
+							}),
+							objective(4, {	-- Defeat Flowing Pandaren Spirit
+								["provider"] = { "n", 68462 },	-- Flowing Pandaren Spirit <Grand Master Pet Tamer>
+								["coord"] = { 61.2, 87.6, DREAD_WASTES },
+							}),
+							i(92799),	-- Pandaren Air Spirit (PET!)
+							i(92798),	-- Pandaren Fire Spirit (PET!)
+							i(92800),	-- Pandaren Earth Spirit (PET!)
+							i(90173),	-- Pandaren Water Spirit (PET!)
+						},
+					}),
+					pvp(q(32863, {	-- What We've Been Training For
+						["aqd"] = {
+							["qgs"] = {
+								64572,	-- Sara Finkleswitch
+								63596,	-- Audrey Burnhelp
+							},
+							["coords"] = {
+								{ 60.8, 23.6, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 69.2, 25.0, STORMWIND_CITY },
+							},
+							["maps"] = { 393 },	-- Shrine of Seven Stars
+						},
+						["hqd"] = {
+							["qgs"] = {
+								64582,	-- Gentle San
+								63626,	-- Varzok
+							},
+							["coords"] = {
+								{ 86.6, 60.2, VALE_OF_ETERNAL_BLOSSOMS },
+								{ 52.6, 59.3, ORGRIMMAR },
+							},
+							["maps"] = { 391 },	-- Shrine of Two Moons
+						},
+						["description"] = "Account-Wide Weekly Quest.",
+						["timeline"] = { ADDED_5_3_0 },
+						["isWeekly"] = true,
+						["groups"] = {
+							i(98095, {	-- Brawler's Pet Supplies
+								["sym"] = {{"select","itemID",
+									89139,	-- Chain Pet Leash
+									44820,	-- Red Ribbon Pet Leash
+									37460,	-- Rope Pet Leash
+									92679,	-- Flawless Aquatic Battle-Stone
+									92675,	-- Flawless Beast Battle-Stone
+									92676,	-- Flawless Critter Battle-Stone
+									92665,	-- Flawless Elemental Battle-Stone
+									92677,	-- Flawless Flying Battle-Stone
+									92682,	-- Flawless Humanoid Battle-Stone
+									92678,	-- Flawless Magic Battle-Stone
+									92680,	-- Flawless Mechanical Battle-Stone
+									92681,	-- Flawless Undead Battle-Stone
+								}},
+							})
+						},
+					})),
 				}),
 				n(QUESTS, {
 					q(32011, {	-- A Celestial Task (A)
@@ -1492,6 +1775,25 @@ root(ROOTS.Zones, {
 						},
 					}),
 					--n(50843, {	-- Portent	}),
+				}),
+				n(REWARDS, {
+					petbattle(container(94207, bubbleDownSelf({ ["timeline"] = { ADDED_5_2_0 } }, {	-- Fabled Pandaren Pet Supplies
+						i(94210),	-- Mountain Panda (PET!)
+						i(94209),	-- Snowy Panda (PET!)
+						i(94208),	-- Sunfur Panda (PET!)
+						i(89139),	-- Chain Pet Leash
+						i(44820),	-- Red Ribbon Pet Leash
+						i(37460),	-- Rope Pet Leash
+						i(92679),	-- Flawless Aquatic Battle-Stone
+						i(92675),	-- Flawless Beast Battle-Stone
+						i(92676),	-- Flawless Critter Battle-Stone
+						i(92665),	-- Flawless Elemental Battle-Stone
+						i(92677),	-- Flawless Flying Battle-Stone
+						i(92682),	-- Flawless Humanoid Battle-Stone
+						i(92678),	-- Flawless Magic Battle-Stone
+						i(92680),	-- Flawless Mechanical Battle-Stone
+						i(92681),	-- Flawless Undead Battle-Stone
+					}))),
 				}),
 				n(TREASURES, {
 					o(213414, {	-- Always Remember

@@ -139,6 +139,40 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
+					q(31920, {	-- Grand Master Antari
+						["qg"] = 66557,	-- Bloodknight Antari <Grand Master Pet Tamer>
+						["sourceQuests"] = {
+							31919,	-- Battle Pet Tamers: Outland (A)
+							31921,	-- Battle Pet Tamers: Outland (H)
+						},
+						["coord"] = { 30.4, 41.8, SHADOWMOON_VALLEY },
+						["timeline"] = { ADDED_5_0_4 },
+						["groups"] = {
+							objective(1, {	-- Defeat Grand Master Antari
+								["provider"] = { "n", 66557 },	-- Bloodknight Antari
+								["coord"] = { 30.4, 41.8, SHADOWMOON_VALLEY },
+							}),
+							i(89125),	-- Sack of Pet Supplies
+						},
+					}),
+					q(31981, {	-- Exceeding Expectations (A)
+						["qg"] = 66557,	-- Bloodknight Antari <Grand Master Pet Tamer>
+						["sourceQuest"] = 31920,	-- Grand Master Antari
+						["coord"] = { 30.4, 41.8, SHADOWMOON_VALLEY },
+						["timeline"] = { ADDED_5_0_4 },
+						["maps"] = { STORMWIND_CITY },
+						["races"] = ALLIANCE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
+					q(31982, {	-- Exceeding Expectations (H)
+						["qg"] = 66557,	-- Bloodknight Antari <Grand Master Pet Tamer>
+						["sourceQuest"] = 31920,	-- Grand Master Antari
+						["coord"] = { 30.4, 41.8, SHADOWMOON_VALLEY },
+						["timeline"] = { ADDED_5_0_4 },
+						["maps"] = { ORGRIMMAR },
+						["races"] = HORDE_ONLY,
+						["isBreadcrumb"] = true,
+					}),
 				}),
 				n(PROFESSIONS, {
 					prof(ENGINEERING, {

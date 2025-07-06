@@ -183,6 +183,56 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 22.2, 64.8, ULDUM },
 				}),
 			}),
+			petbattles({
+				n(66824, {	-- Obalis <Grand Master Pet Tamer>
+					["coord"] = { 56.6, 41.8, ULDUM },
+					["timeline"] = { ADDED_5_0_4 },
+					["petBattleLvl"] = 25,
+					["groups"] = {
+						q(31971, {	-- Grand Master Obalis
+							["sourceAchievement"] = 7525,	-- Taming Cataclysm
+							["timeline"] = { ADDED_5_0_4 },
+							["isDaily"] = true,
+							["groups"] = {
+								i(89125),	-- Sack of Pet Supplies
+							},
+						}),
+					},
+				}),
+				q(31970, {	-- Grand Master Obalis
+					["qg"] = 66824,	-- Obalis
+					["sourceQuests"] = {
+						31966,	-- Battle Pet Tamers: Cataclysm (A)
+						31967,	-- Battle Pet Tamers: Cataclysm (H)
+					},
+					["coord"] = { 56.6, 41.8, ULDUM },
+					["timeline"] = { ADDED_5_0_4 },
+					["groups"] = {
+						objective(1, {	-- Defeat Obalis
+							["provider"] = { "n", 66824 },	-- Obalis
+							["coord"] = { 56.6, 41.8, ULDUM },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31985, {	-- The Triumphant Return (A)
+					["qg"] = 66824,	-- Obalis
+					["sourceQuest"] = 31970,	-- Grand Master Obalis
+					["coord"] = { 56.6, 41.8, ULDUM },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+				}),
+				q(31986, {	-- The Triumphant Return (H)
+					["qg"] = 66824,	-- Obalis
+					["coord"] = { 56.6, 41.8, ULDUM },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { ORGRIMMAR },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+				}),
+			}),
 			-- #if ANYCLASSIC
  			n(PROFESSIONS, {
 				prof(FISHING, {
@@ -201,23 +251,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 			}),
 			-- #endif
-			petbattles({
-				n(66824, {	-- Obalis <Grand Master Pet Tamer>
-					["coord"] = { 56.6, 41.8, ULDUM },
-					["timeline"] = { ADDED_5_0_4 },
-					["petBattleLvl"] = 25,
-					["groups"] = {
-						q(31971, {	-- Grand Master Obalis
-							["sourceAchievement"] = 7525,	-- Taming Cataclysm
-							["timeline"] = { ADDED_5_0_4 },
-							["isDaily"] = true,
-							["groups"] = {
-								i(89125),	-- Sack of Pet Supplies
-							},
-						}),
-					},
-				}),
-			}),
 			n(QUESTS, {
 				q(27761, {	-- A Disarming Distraction
 					["coord"] = { 74.1, 64.4, ULDUM },

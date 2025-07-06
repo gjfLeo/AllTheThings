@@ -266,9 +266,25 @@ root(ROOTS.Zones, {
 					-- This FlightPath is not collectible, but is faked on the map by Blizzard
 					fp(1567, {["collectible"] = false}),	-- Temple of Karabor, Shadowmoon Valley
 				}),
-				petbattles({ ADDED_6_0_2 }, {
+				petbattles({
 					n(87124, {	-- Ashlei <Grand Master Pet Tamer>
 						["coord"] = { 50.0, 31.2, DRAENOR_SHADOWMOON_VALLEY },
+						["timeline"] = { ADDED_6_0_1 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(37203, {	-- Ashlei
+								["timeline"] = { ADDED_6_0_1 },
+								["isDaily"] = true,
+								["_drop"] = { "g" },	-- Drops Polished Pet Charm
+								["groups"] = {
+									-- #if BEFORE 10.2.5
+									i(116415, {	-- Shiny Pet Charm
+										["timeline"] = { REMOVED_10_2_5 },
+									}),
+									-- #endif
+								},
+							}),
+						},
 					}),
 				}),
 				n(QUESTS, {

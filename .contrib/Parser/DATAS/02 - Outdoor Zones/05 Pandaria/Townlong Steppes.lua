@@ -173,9 +173,42 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(68463, {	-- Burning Pandaren Spirit <Grand Master Pet Tamer>
 						["coord"] = { 57.0, 42.2, TOWNLONG_STEPPES },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(32434, {	-- Burning Pandaren Spirit
+								["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(93146, {	-- Pandaren Spirit Pet Supplies
+										["sym"] = {{"select","itemID",
+											89139,	-- Chain Pet Leash
+											44820,	-- Red Ribbon Pet Leash
+											37460,	-- Rope Pet Leash
+										}},
+										["groups"] = {
+											i(92798),	-- Pandaren Fire Spirit (PET!)
+										},
+									})
+								},
+							}),
+						},
 					}),
 					n(66918, {	-- Seeker Zusshi <Grand Master Pet Tamer>
 						["coord"] = { 36.2, 52.2, TOWNLONG_STEPPES },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(31991, {	-- Grand Master Zusshi
+								["sourceAchievement"] = 6606,	-- Taming Pandaria
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(89125),	-- Sack of Pet Supplies
+								},
+							}),
+						},
 					}),
 				}),
 				n(QUESTS, {

@@ -1093,6 +1093,18 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66734, {	-- Farmer Nishi <Grand Master Pet Tamer>
 						["coord"] = { 46.0, 43.6, VALLEY_OF_THE_FOUR_WINDS },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(31955, {	-- Grand Master Nishi
+								["sourceAchievement"] = 6606,	-- Taming Pandaria
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(89125),	-- Sack of Pet Supplies
+								},
+							}),
+						},
 					}),
 				}),
 				n(PROFESSIONS, {

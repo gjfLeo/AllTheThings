@@ -246,9 +246,25 @@ root(ROOTS.Zones, {
 						["coord"] = { 46.2, 44.0, SPIRES_OF_ARAK },
 					}),
 				}),
-				petbattles({ ADDED_6_0_2 }, {
+				petbattles({
 					n(87123, {	-- Vesharr <Grand Master Pet Tamer>
 						["coord"] = { 46.4, 45.2, SPIRES_OF_ARAK },
+						["timeline"] = { ADDED_6_0_1 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(37207, {	-- Vesharr
+								["timeline"] = { ADDED_6_0_1 },
+								["isDaily"] = true,
+								["_drop"] = { "g" },	-- Drops Polished Pet Charm
+								["groups"] = {
+									-- #if BEFORE 10.2.5
+									i(116415, {	-- Shiny Pet Charm
+										["timeline"] = { REMOVED_10_2_5 },
+									}),
+									-- #endif
+								},
+							}),
+						},
 					}),
 				}),
 				n(QUESTS, {

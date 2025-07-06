@@ -182,9 +182,42 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(68462, {	-- Flowing Pandaren Spirit <Grand Master Pet Tamer>
 						["coord"] = { 61.2, 87.6, DREAD_WASTES },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(32439, {	-- Flowing Pandaren Spirit
+								["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(93147, {	-- Pandaren Spirit Pet Supplies
+										["sym"] = {{"select","itemID",
+											89139,	-- Chain Pet Leash
+											44820,	-- Red Ribbon Pet Leash
+											37460,	-- Rope Pet Leash
+										}},
+										["groups"] = {
+											i(90173),	-- Pandaren Water Spirit (PET!)
+										},
+									})
+								},
+							}),
+						},
 					}),
 					n(66739, {	-- Wastewalker Shu <Grand Master Pet Tamer>
 						["coord"] = { 55.0, 37.6, DREAD_WASTES },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(31957, {	-- Grand Master Shu
+								["sourceAchievement"] = 6606,	-- Taming Pandaria
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(89125),	-- Sack of Pet Supplies
+								},
+							}),
+						},
 					}),
 				}),
 				n(PROFESSIONS, {

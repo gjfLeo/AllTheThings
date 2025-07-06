@@ -488,9 +488,54 @@ root(ROOTS.Zones, {
 				petbattles({
 					n(66738, {	-- Courageous Yon <Grand Master Pet Tamer>
 						["coord"] = { 35.8, 73.6, KUN_LAI_SUMMIT },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(31956, {	-- Grand Master Yon
+								["sourceAchievement"] = 6606,	-- Taming Pandaria
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(89125),	-- Sack of Pet Supplies
+								},
+							}),
+							q(63435, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_0 } }, {	-- Temple Throwdown
+								["qg"] = 176655,	-- Anthea <Carefree Pet Tamer>
+								["coord"] = { 70.4, 51.4, KUN_LAI_SUMMIT },
+								["timeline"] = { ADDED_9_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(184866, {	-- Grummlepouch
+										i(89587),	-- Porcupette (PET!)
+										i(184867),	-- Squibbles (PET!)
+									}),
+								},
+							})),
+						},
 					}),
 					n(68465, {	-- Thundering Pandaren Spirit <Grand Master Pet Tamer>
 						["coord"] = { 64.8, 93.6, KUN_LAI_SUMMIT },
+						["timeline"] = { ADDED_5_1_0 },
+						["petBattleLvl"] = 25,
+						["groups"] = {
+							q(32441, {	-- Thundering Pandaren Spirit
+								["sourceQuest"] = 32428,	-- Pandaren Spirit Tamer
+								["timeline"] = { ADDED_5_1_0 },
+								["isDaily"] = true,
+								["groups"] = {
+									i(93149, {	-- Pandaren Spirit Pet Supplies
+										["sym"] = {{"select","itemID",
+											89139,	-- Chain Pet Leash
+											44820,	-- Red Ribbon Pet Leash
+											37460,	-- Rope Pet Leash
+										}},
+										["groups"] = {
+											i(92800),	-- Pandaren Earth Spirit (PET!)
+										},
+									}),
+								},
+							}),
+						},
 					}),
 				}),
 				n(PROFESSIONS, {
