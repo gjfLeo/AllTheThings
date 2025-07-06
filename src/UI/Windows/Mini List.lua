@@ -57,6 +57,27 @@ local CachedMapData = setmetatable({}, {
 			if #results > 0 then
 				-- Simplify the returned groups
 				local groups = {};
+				local filters = setmetatable({}, {
+					__index = function(t, f)
+						for i=1,#groups,1 do
+							local o = groups[i];
+							if o.f == f then
+								if not o.g then o.g = {}; end
+								t[f] = o;
+								return o;
+							end
+						end
+
+						local o = app.CreateFilter(f);
+						tinsert(groups, o);
+						t[f] = o;
+						o.g = {};
+						return o;
+					end
+				});
+				local function MergeIntoFilter(f, o)
+					MergeObject(filters[f].g, o);
+				end
 				local headers = setmetatable({}, {
 					__index = function(t, headerID)
 						for i=1,#groups,1 do
@@ -162,6 +183,8 @@ local CachedMapData = setmetatable({}, {
 							else
 								MergeObject(groups, clone);
 							end
+						elseif key == "speciesID" then
+							MergeIntoFilter(101, clone);	-- Pet Battles
 						else
 							local headerID = GetRelativeValue(group, "headerID");
 							if headerID then
