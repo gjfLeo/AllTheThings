@@ -1121,27 +1121,33 @@ for i=2,MaxLayer do
 end
 local ContainsTypesIndicators
 app.AddEventHandler("OnStartup", function() ContainsTypesIndicators = app.Modules.Fill.Settings.Icons end)
-local function BuildContainsInfo(subgroups, entries, indent, layer)
+local function BuildContainsInfo(root, entries, indent, layer)
+	local subgroups = root and root.g
 	if not subgroups or #subgroups == 0 then return end
 
 	for _,group in ipairs(subgroups) do
 		-- If there's progress to display for a non-sourceIgnored group, then let's summarize a bit better.
 		if group.visible and not group.sourceIgnored and not group.skipContains then
-			-- Count it, but don't actually add it to entries if it meets the limit
-			if #entries >= ContainsLimit then
-				ContainsExceeded = ContainsExceeded + 1;
+			-- Special case to ignore 'container' layers where the container is a Header which matches the ItemID of the parent
+			if group.headerID and group.headerID == root.itemID then
+				BuildContainsInfo(group, entries, indent, layer)
 			else
-				-- Insert into the display.
-				-- app.PrintDebug("INCLUDE",app.Debugging,GetProgressTextForRow(group),group.hash,group.key,group.key and group[group.key])
-				local o = { group = group, right = GetProgressTextForRow(group) };
-				local indicator = ContainsTypesIndicators[group.filledType] or Indicator(group);
-				o.prefix = indicator and (Indents[indent]:sub(3) .. "|T" .. indicator .. ":0|t ") or Indents[indent]
-				entries[#entries + 1] = o
-			end
+				-- Count it, but don't actually add it to entries if it meets the limit
+				if #entries >= ContainsLimit then
+					ContainsExceeded = ContainsExceeded + 1;
+				else
+					-- Insert into the display.
+					-- app.PrintDebug("INCLUDE",app.Debugging,GetProgressTextForRow(group),group.hash,group.key,group.key and group[group.key])
+					local o = { group = group, right = GetProgressTextForRow(group) };
+					local indicator = ContainsTypesIndicators[group.filledType] or Indicator(group);
+					o.prefix = indicator and (Indents[indent]:sub(3) .. "|T" .. indicator .. ":0|t ") or Indents[indent]
+					entries[#entries + 1] = o
+				end
 
-			-- Only go down one more level.
-			if layer < MaxLayer then
-				BuildContainsInfo(group.g, entries, indent + 1, layer + 1);
+				-- Only go down one more level.
+				if layer < MaxLayer then
+					BuildContainsInfo(group, entries, indent + 1, layer + 1);
+				end
 			end
 			-- else
 			-- 	app.PrintDebug("EXCLUDE",app.Debugging,GetProgressTextForRow(group),group.hash,group.key,group.key and group[group.key])
@@ -1183,7 +1189,7 @@ local function AddContainsData(group, tooltipInfo)
 	-- app.Debugging = "CONTAINS-"..group.hash;
 	ContainsLimit = app.Settings:GetTooltipSetting("ContainsCount") or 25;
 	ContainsExceeded = 0;
-	BuildContainsInfo(group.g, entries, 1, 1)
+	BuildContainsInfo(group, entries, 1, 1)
 	-- app.Debugging = nil;
 	-- app.PrintDebug(entries and #entries,"contains entries")
 	if #entries > 0 then
