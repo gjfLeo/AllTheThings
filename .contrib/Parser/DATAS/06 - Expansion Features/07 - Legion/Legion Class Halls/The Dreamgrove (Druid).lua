@@ -3,6 +3,7 @@
 -------------------------------------------------------------------
 DAILY_DREAMWAY_EVENT_ROLL = createHeader({
 	readable = "Daily Dreamway Event Roll",
+	standalone = true,
 	icon = 1128042,
 	text = {
 		en = "Event Roll",
@@ -21,6 +22,7 @@ DAILY_DREAMWAY_EVENT_ROLL = createHeader({
 });
 DUSKWOOD_ACTIVE = createHeader({
 	readable = "Duskwood Active",
+	standalone = true,
 	icon = 236757,
 	text = {
 		en = [[~DUNGEON_FLOOR_NIGHTMARERAID8.." "..]] .. WOWAPI_GetSpellName(133137),
@@ -32,6 +34,7 @@ DUSKWOOD_ACTIVE = createHeader({
 });
 FERALAS_ACTIVE = createHeader({
 	readable = "Feralas Active",
+	standalone = true,
 	icon = 236764,
 	text = {
 		en = [[~DUNGEON_FLOOR_NIGHTMARERAID9.." "..]] .. WOWAPI_GetSpellName(133137),
@@ -43,6 +46,7 @@ FERALAS_ACTIVE = createHeader({
 });
 THE_HINTERLANDS_ACTIVE = createHeader({
 	readable = "The Hinterlands Active",
+	standalone = true,
 	icon = 236780,
 	text = {
 		en = [[~DUNGEON_FLOOR_NIGHTMARERAID7.." "..]] .. WOWAPI_GetSpellName(133137),
@@ -54,6 +58,7 @@ THE_HINTERLANDS_ACTIVE = createHeader({
 });
 DUSKWOOD_ACTIVATED = createHeader({
 	readable = "Duskwood Activated",
+	standalone = true,
 	icon = 236757,
 	text = {
 		en = [[~DUNGEON_FLOOR_NIGHTMARERAID8.." "..]] .. WOWAPI_GetSpellName(78741),
@@ -65,6 +70,7 @@ DUSKWOOD_ACTIVATED = createHeader({
 });
 FERALAS_ACTIVATED = createHeader({
 	readable = "Feralas Activated",
+	standalone = true,
 	icon = 236764,
 	text = {
 		en = [[~DUNGEON_FLOOR_NIGHTMARERAID9.." "..]] .. WOWAPI_GetSpellName(78741),
@@ -77,6 +83,7 @@ FERALAS_ACTIVATED = createHeader({
 THE_HINTERLANDS_ACTIVATED = createHeader({
 	readable = "The Hinterlands Activated",
 	icon = 236780,
+	standalone = true,
 	text = {
 		en = [[~DUNGEON_FLOOR_NIGHTMARERAID7.." "..]] .. WOWAPI_GetSpellName(78741),
 		ru = "Внутренние земли - активирован",

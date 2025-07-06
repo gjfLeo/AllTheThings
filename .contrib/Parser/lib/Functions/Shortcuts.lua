@@ -2094,7 +2094,10 @@ createHeader = function(data)
 			end
 			data.eventSchedule = schedule .. "\n}";
 		end
-
+		
+		-- Whether or not to allow empty headers for this type (Default: No)
+		if not data.standalone then data.standalone = false; end
+		
 		-- Try to find the headerID assignment from the readable table.
 		local headerID = HeaderAssignments[data.readable];
 		if not headerID then
