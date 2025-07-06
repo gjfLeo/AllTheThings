@@ -2845,10 +2845,28 @@ root(ROOTS.Zones, {
 					n(32509, bubbleDown({ ["timeline"] = { REMOVED_6_1_0 } }, {	-- Brammold Deepmine <Antiques & Heirlooms>
 						["coord"] = { 51.0, 53.6, NORTHREND_DALARAN },
 						["groups"] = {
+							i(93876, {			-- Awakened Pauldrons of Elements
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93885, {			-- Awakened Vest of Elements
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
 							emoh(40, i(42944)),	-- Balanced Heartseeker
 							emoh(65, i(42943)),	-- Bloodied Arcanite Reaper
 							i(69893, {			-- Bloodsoaked Skullforge Reaver
 								["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
+							}),
+							i(93859, {			-- Bloodstained Dreadmist Mantle
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93860, {			-- Bloodstained Dreadmist Robe
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93892, {			-- Brushed Breastplate of Might
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93893, {			-- Brushed Pauldrons of Might
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
 							i(69889, {			-- Burnished Breastplate of Might
 								["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
@@ -2877,6 +2895,18 @@ root(ROOTS.Zones, {
 							i(93902, {			-- Flamescarred Draconian Deflector
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
+							i(93896, {			-- Forceful Hand of Justice
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93888, {			-- Furious Deathdealer Breastplate
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93891, {			-- Gleaming Breastplate of Valor
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93890, {			-- Gleaming Spaulders of Valor
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
 							i(93845, {			-- Gore-Steeped Skullforge Reaver
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 								-- #if MOP
@@ -2886,6 +2916,9 @@ root(ROOTS.Zones, {
 								},
 								-- #endif
 							}),
+							i(93887, {			-- Grand Champion Herod's Shoulder
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
 							i(93843, {			-- Hardened Arcanite Reaper
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 								-- #if MOP
@@ -2894,6 +2927,12 @@ root(ROOTS.Zones, {
 									{ "c", 395, 1400 },	-- Justice Points
 								},
 								-- #endif
+							}),
+							i(93865, {			-- Majestic Ironfeather Breastplate
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93864, {			-- Majestic Ironfeather Shoulders
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
 							i(93904, {			-- Musty Tome of the Lost
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
@@ -2908,6 +2947,9 @@ root(ROOTS.Zones, {
 									{ "c", 395, 870 },	-- Justice Points
 								},
 								-- #endif
+							}),
+							i(93897, {			-- Piercing Eye of the Beast
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
 							i(93853, {			-- Pious Aurastone Hammer
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
@@ -2952,6 +2994,12 @@ root(ROOTS.Zones, {
 							}),
 							emoh(40, i(42952)),	-- Stained Shadowcraft Spaulders
 							emoh(40, i(48689)),	-- Stained Shadowcraft Tunic
+							i(93862, {			-- Supple Shadowcraft Spaulders
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
+							i(93863, {			-- Supple Shadowcraft Tunic
+								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+							}),
 							emoh(50, i(42991)),	-- Swift Hand of Justice
 							emoh(40, i(42985)),	-- Tattered Dreadmist Mantle
 							emoh(40, i(48691)),	-- Tattered Dreadmist Robe
