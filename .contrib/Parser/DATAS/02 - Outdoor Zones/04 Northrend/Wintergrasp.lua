@@ -258,6 +258,9 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	})),
 
 	-- Old Heirlooms before they became learnable
+	i(93886, {			-- Adorned Beastmaster's Mantle
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(200, i(44102, {	-- Aged Pauldrons of The Five Thunders
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
@@ -288,6 +291,9 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(200, i(44107, {	-- Exquisite Sunderseer Mantle
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93894, {			-- Immaculate Lightforge Spaulders
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(250, i(44098, {	-- Inherited Insignia of the Alliance
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
@@ -303,6 +309,9 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(200, i(44105, {	-- Lasting Feralheart Spaulders
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93861, {			-- Prestigious Sunderseer Mantle
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(200, i(44100, {	-- Pristine Lightforge Spaulders
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
@@ -312,6 +321,9 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(325, i(44092, {	-- Reforged Truesilver Champion
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93895, {			-- Reinforced Stockade Pauldrons
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(200, i(44091, {	-- Sharpened Scarlet Kris
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
@@ -321,15 +333,24 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(200, i(44099, {	-- Strengthened Stockade Pauldrons
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93867, {			-- Superior Stormshroud Shoulders
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(250, i(44094, {	-- The Blessed Hammer of Grace
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
 	i(93850, {			-- The Sanctified Hammer of Grace
 		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 	}),
-	sks(325, i(44093, {	-- Unpgraded Dwarven Hand Cannon
+	sks(325, i(44093, {	-- Upgraded Dwarven Hand Cannon
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93889, {			-- Venerated Pauldrons of The Five Thunders
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
+	i(93866, {			-- Wild Feralheart Spaulders
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 });
 
 -- Group content that changes randomly throughout the ages because Blizzard is bad at making up their damn minds.
