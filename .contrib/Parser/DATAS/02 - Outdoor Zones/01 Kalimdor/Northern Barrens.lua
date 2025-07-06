@@ -4812,15 +4812,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						3384,	-- Southsea Privateer
 					},
 				}),
-				i(97821, {	-- Gahz'rooki (PET!)
-					["timeline"] = { ADDED_5_3_0 },
+				applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, i(97821, {	-- Gahz'rooki (PET!)
+					["timeline"] = { ADDED_5_4_0 },
 					["crs"] = {
 						70997,	-- Hellscream Laborer
 						70999,	-- Kor'kron Marauder
 						71000,	-- Mercenary Engineer
 						71001,	-- Mercenary Shredder
 					},
-				}),
+				})),
 				i(5020, {	-- Kolkar Booty Key
 					["description"] = "Used to open Kolkar's Booty.",
 					["timeline"] = { ADDED_1_11_1 },
