@@ -114,6 +114,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				q(31729, {	-- Steven Lisbane
+					["qg"] = 65655,	-- Eric Davidson
+					["sourceQuest"] = 31726,	-- Eric Davidson
+					["coord"] = { 19.8, 44.8, DUSKWOOD },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { NORTHERN_STRANGLETHORN },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Steven Lisbane
+							["provider"] = { "n", 63194 },	-- Steven Lisbane
+							["coord"] = { 46.0, 40.4, NORTHERN_STRANGLETHORN },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			header(HEADERS.Spell, 921, {	-- Pickpocketing

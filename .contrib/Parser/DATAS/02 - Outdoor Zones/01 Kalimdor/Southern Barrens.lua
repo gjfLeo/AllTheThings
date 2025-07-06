@@ -166,6 +166,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				q(31918, {	-- A Tamer's Homecoming (H)
+					["qg"] = 66422,	-- Cassandra Kaboom
+					["sourceQuest"] = 31870,	-- Cassandra Kaboom
+					["altQuests"] = { 31917 },	-- A Tamer's Homecoming (A) -- CRIEVE NOTE: Check this on MOP Classic
+					["coord"] = { 39.5, 79.1, SOUTHERN_BARRENS },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { ORGRIMMAR },
+					["races"] = HORDE_ONLY,
+				}),
 			}),
 			n(QUESTS, {
 				q(1153, {	-- A New Ore Sample

@@ -223,6 +223,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				q(31814, {	-- Analynn
+					["qg"] = 66135,	-- Dagra the Fierce
+					["sourceQuest"] = 31813,	-- Dagra the Fierce
+					["coord"] = { 58.6, 53.0, NORTHERN_BARRENS },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { ASHENVALE },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Analynn
+							["provider"] = { "n", 66136 },	-- Analynn
+							["coord"] = { 20.2, 29.5, ASHENVALE },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			n(PROFESSIONS, {
 				prof(FISHING, {

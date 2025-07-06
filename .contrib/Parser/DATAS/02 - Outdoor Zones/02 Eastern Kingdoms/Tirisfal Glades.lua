@@ -1052,6 +1052,41 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			-- #endif
+			petbattles({
+				q(31578, {	-- Got one! (Ansel)
+					["qg"] = 63073,	-- Ansel Fincap
+					["sourceQuest"] = 31823,	-- Level Up!
+					["coord"] = { 60.8, 54.2, TIRISFAL_GLADES },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31576, {	-- Learning the Ropes (Ansel)
+					["qg"] = 63073,	-- Ansel Fincap
+					["coord"] = { 60.8, 54.2, TIRISFAL_GLADES },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31823, {	-- Level Up! (Ansel)
+					["qg"] = 63073,	-- Ansel Fincap
+					["sourceQuest"] = 31577,	-- On The Mend
+					["coord"] = { 60.8, 54.2, TIRISFAL_GLADES },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31577, {	-- On The Mend (Ansel)
+					["qg"] = 63073,	-- Ansel Fincap
+					["sourceQuest"] = 31576,	-- Learning the Ropes
+					["coord"] = { 60.8, 54.2, TIRISFAL_GLADES },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 10055 },	-- Morganus <Stable Master>
+							["coord"] = { 61.8, 52.0, TIRISFAL_GLADES },
+						}),
+					},
+				}),
+			}),
 			-- #if AFTER 10.1.7
 			header(HEADERS.Spell, 921, {	-- Pickpocketing
 				i(3330, {	-- Dargol's Hauberk

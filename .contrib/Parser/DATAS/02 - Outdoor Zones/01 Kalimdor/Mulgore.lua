@@ -869,6 +869,41 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 			}),
 			-- #endif
+			petbattles({
+				q(31575, {	-- Got one! (Naleen)
+					["qg"] = 63067,	-- Naleen
+					["sourceQuest"] = 31831,	-- Level Up!
+					["coord"] = { 49.2, 56.1, MULGORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31573, {	-- Learning the Ropes (Naleen)
+					["qg"] = 63067,	-- Naleen
+					["coord"] = { 49.2, 56.1, MULGORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31831, {	-- Level Up! (Naleen)
+					["qg"] = 63067,	-- Naleen
+					["sourceQuest"] = 31574,	-- On The Mend
+					["coord"] = { 49.2, 56.1, MULGORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31574, {	-- On The Mend (Naleen)
+					["qg"] = 63067,	-- Naleen
+					["sourceQuest"] = 31573,	-- Learning the Ropes
+					["coord"] = { 49.2, 56.1, MULGORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 10050 },	-- Seikwa <Stable Master>
+							["coord"] = { 47.0, 59.6, MULGORE },
+						}),
+					},
+				}),
+			}),
 			n(QUESTS, {
 				q(833, {	-- A Sacred Burial
 					["qg"] = 3233,	-- Lorekeeper Raintotem

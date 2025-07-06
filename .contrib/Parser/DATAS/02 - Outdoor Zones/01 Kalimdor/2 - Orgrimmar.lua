@@ -141,6 +141,176 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					["races"] = HORDE_ONLY,
 				}),
+				q(31903, {	-- Battle Pet Tamers: Eastern Kingdoms (H)
+					["qg"] = 63626,	-- Varzok
+					["sourceQuest"] = 31918,	-- A Tamer's Homecoming (H)
+					-- ["altQuests"] = { 31902 },	-- Battle Pet Tamers: Eastern Kingdoms (Alliance version, since only one can be completed per account and Blizz doesn't check it off, apparently)
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat David Kosse
+							["provider"] = { "n", 66478 },	-- David Kosse <Master Pet Tamer>
+							["coord"] = { 62.8, 54.6, THE_HINTERLANDS },
+						}),
+						objective(2, {	-- Defeat Deiza Plaguehorn
+							["provider"] = { "n", 66512 },	-- Deiza Plaguehorn <Master Pet Tamer>
+							["coord"] = { 67.0, 52.4, EASTERN_PLAGUELANDS },
+						}),
+						objective(3, {	-- Defeat Kortas Darkhammer
+							["provider"] = { "n", 66515 },	-- Kortas Darkhammer <Master Pet Tamer>
+							["coord"] = { 35.4, 27.8, SEARING_GORGE },
+						}),
+						objective(4, {	-- Defeat Everessa
+							["provider"] = { "n", 66518 },	-- Everessa <Master Pet Tamer>
+							["coord"] = { 76.6, 41.6, SWAMP_OF_SORROWS },
+						}),
+						objective(5, {	-- Defeat Durin Darkhammer
+							["provider"] = { "n", 66520 },	-- Durin Darkhammer <Master Pet Tamer>
+							["coord"] = { 25.6, 47.6, BURNING_STEPPES },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31587, {	-- Got one! (Matty)
+					["qg"] = 63086,	-- Matty
+					["sourceQuest"] = 31828,	-- Level Up!
+					["coord"] = { 36.8, 77.4, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31590, {	-- Got one! (Varzok)
+					["qg"] = 63626,	-- Varzok
+					["sourceQuest"] = 31827,	-- Level Up!
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31585, {	-- Learning the Ropes (Matty)
+					["qg"] = 63086,	-- Matty
+					["coord"] = { 36.8, 77.4, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31588, {	-- Learning the Ropes (Varzok)
+					["qg"] = 63626,	-- Varzok
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31828, {	-- Level Up! (Matty)
+					["qg"] = 63086,	-- Matty
+					["sourceQuest"] = 31586,	-- On The Mend
+					["coord"] = { 36.8, 77.4, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31827, {	-- Level Up! (Varzok)
+					["qg"] = 63626,	-- Varzok
+					["sourceQuest"] = 31589,	-- On The Mend
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31586, {	-- On The Mend (Matty)
+					["qg"] = 63086,	-- Matty
+					["sourceQuest"] = 31585,	-- Learning the Ropes
+					["coord"] = { 36.8, 77.4, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 45789 },	-- Bezzil <Stable Master>
+							["coord"] = { 40.8, 80.6, ORGRIMMAR },
+						}),
+					},
+				}),
+				q(31589, {	-- On The Mend (Varzok)
+					["qg"] = 63626,	-- Varzok
+					["sourceQuest"] = 31588,	-- Learning the Ropes
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 47764 },	-- Murog <Stable Master>
+							["coord"] = { 62.6, 35.6, ORGRIMMAR },
+						}),
+					},
+				}),
+				-- Infamous Breadcrumbs, these are offered at the end of the training quests in each of the starter zones. Can't find any info on which one is appropriate to which map, so this is going to need to be something figured out on an entirely new account that has done none of the pet battle quests
+				q(32009, {	-- Varzok
+					["qg"] = 63626,	-- Varzok
+					["altQuests"] = {
+						-- Alliance Shared Account-Wide Pet Battle Intro Quests
+						32008,	-- Audrey Burnhep (Will be marked completed if any Audrey Burnhep quest is completed)
+					},
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["description"] = "|CFFFF0000Do not under any circumstances abandon this quest, you cannot reobtain it.|r",
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31882, {	-- Varzok
+					["altQuests"] = {
+						-- Alliance Shared Account-Wide Pet Battle Intro Quests
+						32008,	-- Audrey Burnhep (Will be marked completed if any Audrey Burnhep quest is completed)
+					},
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31883, {	-- Varzok
+					["altQuests"] = {
+						-- Alliance Shared Account-Wide Pet Battle Intro Quests
+						32008,	-- Audrey Burnhep (Will be marked completed if any Audrey Burnhep quest is completed)
+					},
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31884, {	-- Varzok
+					["altQuests"] = {
+						-- Alliance Shared Account-Wide Pet Battle Intro Quests
+						32008,	-- Audrey Burnhep (Will be marked completed if any Audrey Burnhep quest is completed)
+					},
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31885, {	-- Varzok
+					["altQuests"] = {
+						-- Alliance Shared Account-Wide Pet Battle Intro Quests
+						32008,	-- Audrey Burnhep (Will be marked completed if any Audrey Burnhep quest is completed)
+					},
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31812, {	-- Zunta, The Pet Tramer
+					["qg"] = 63626,	-- Varzok
+					["sourceQuests"] = { 32009, 31882, 31883, 31884, 31885 },	-- Varzok (all breadcrumbs)
+					["coord"] = { 52.6, 59.3, ORGRIMMAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { DUROTAR },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Zunta
+							["provider"] = { "n", 66126 },	-- Zunta
+							["coord"] = { 43.9, 28.9, DUROTAR },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			n(PROFESSIONS, {
 				prof(ALCHEMY, {

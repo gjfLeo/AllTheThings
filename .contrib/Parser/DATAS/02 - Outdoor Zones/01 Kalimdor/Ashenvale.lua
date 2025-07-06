@@ -203,6 +203,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				q(31815, {	-- Zonya the Sadist
+					["qg"] = 66136,	-- Analynn
+					["sourceQuest"] = 31814,	-- Analynn
+					["coord"] = { 20.2, 29.5, ASHENVALE },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { STONETALON_MOUNTAINS },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Zonya the Sadist
+							["provider"] = { "n", 66137 },	-- Zonya the Sadist
+							["coord"] = { 59.6, 71.6, STONETALON_MOUNTAINS },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			pvp(n(PVP, {

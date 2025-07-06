@@ -81,21 +81,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				visit_exploration(5290,{coord={35.3,45.3,WESTFALL}}),	-- The Raging Chasm
 				exploration(115),	-- Westfall Lighthouse
 			}),
-			-- #if AFTER 4.1.0.13726
-			n(PROFESSIONS, {
-				prof(FISHING, {
-					i(68795, {	-- Stendel's Bane
-						["timeline"] = { ADDED_4_1_0 },
-						["coord"] = { 46.3, 59.0, WESTFALL },
-						["groups"] = {
-							i(68797, {	-- Stendel's Wedding Band
-								["timeline"] = { ADDED_4_1_0 },
-							}),
-						},
-					}),
-				}),
-			}),
-			-- #endif
 			n(FLIGHT_PATHS, {
 				fp(584, {	-- Furlbrow's Pumpkin Farm, Westfall
 					["cr"] = 42406,	-- Hoboair <Gryphon Master>
@@ -137,6 +122,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				q(31725, {	-- Lindsay
+					["qg"] = 65648,	-- Old MacDonald
+					["sourceQuest"] = 31724,	-- Old MacDonald
+					["coord"] = { 80.6, 18.4, WESTFALL },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { REDRIDGE_MOUNTAINS },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Lindsay
+							["provider"] = { "n", 65651 },	-- Lindsay
+							["coord"] = { 33.2, 52.5, REDRIDGE_MOUNTAINS },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			header(HEADERS.Spell, 921, {	-- Pickpocketing
@@ -174,6 +174,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						},
 					})),
 				},
+			}),
+			-- #endif
+			-- #if AFTER 4.1.0.13726
+			n(PROFESSIONS, {
+				prof(FISHING, {
+					i(68795, {	-- Stendel's Bane
+						["timeline"] = { ADDED_4_1_0 },
+						["coord"] = { 46.3, 59.0, WESTFALL },
+						["groups"] = {
+							i(68797, {	-- Stendel's Wedding Band
+								["timeline"] = { ADDED_4_1_0 },
+							}),
+						},
+					}),
+				}),
 			}),
 			-- #endif
 			n(QUESTS, {

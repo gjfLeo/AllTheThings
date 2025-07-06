@@ -994,6 +994,41 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 					["races"] = HORDE_ONLY,
 				}),
 			}),
+			petbattles({
+				q(31581, {	-- Got one! (Jarson)
+					["qg"] = 63080,	-- Jarson Everlong
+					["sourceQuest"] = 31830,	-- Level Up!
+					["coord"] = { 47.2, 47.2, EVERSONG_WOODS },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31579, {	-- Learning the Ropes (Jarson)
+					["qg"] = 63080,	-- Jarson Everlong
+					["coord"] = { 47.2, 47.2, EVERSONG_WOODS },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31824, {	-- Level Up! (Jarson)
+					["qg"] = 63080,	-- Jarson Everlong
+					["sourceQuest"] = 31572,	-- On The Mend
+					["coord"] = { 47.2, 47.2, EVERSONG_WOODS },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31580, {	-- On The Mend (Jarson)
+					["qg"] = 63080,	-- Jarson Everlong
+					["sourceQuest"] = 31571,	-- Learning the Ropes
+					["coord"] = { 47.2, 47.2, EVERSONG_WOODS },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 16185 },	-- Anathos <Stable Master>
+							["coord"] = { 47.6, 47.2, EVERSONG_WOODS },
+						}),
+					},
+				}),
+			}),
 			n(QUESTS, {
 				q(8473, {	-- A Somber Task
 					["qg"] = 15398,	-- Larianna Riverwind

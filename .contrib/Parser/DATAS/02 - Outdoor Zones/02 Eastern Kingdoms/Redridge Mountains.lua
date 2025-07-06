@@ -121,6 +121,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				q(31726, {	-- Eric Davidson
+					["qg"] = 65651,	-- Lindsay
+					["sourceQuest"] = 31725,	-- Lindsay
+					["coord"] = { 33.2, 52.5, REDRIDGE_MOUNTAINS },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { DUSKWOOD },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Eric Davidson
+							["provider"] = { "n", 65655 },	-- Eric Davidson
+							["coord"] = { 19.8, 44.8, DUSKWOOD },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			-- #if BEFORE CATA
 			n(PROFESSIONS, {

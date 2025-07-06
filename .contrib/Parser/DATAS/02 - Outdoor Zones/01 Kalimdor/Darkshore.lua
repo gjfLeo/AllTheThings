@@ -133,6 +133,41 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
+			petbattles({
+				q(31584, {	-- Got one! (Will)
+					["qg"] = 63083,	-- Will Larsons
+					["sourceQuest"] = 31832,	-- Level Up!
+					["coord"] = { 50.1, 20.2, DARKSHORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31582, {	-- Learning the Ropes (Will)
+					["qg"] = 63083,	-- Will Larsons
+					["coord"] = { 50.1, 20.2, DARKSHORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31832, {	-- Level Up! (Will)
+					["qg"] = 63083,	-- Will Larsons
+					["sourceQuest"] = 31583,	-- On The Mend
+					["coord"] = { 50.1, 20.2, DARKSHORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31583, {	-- On The Mend (Will)
+					["qg"] = 63083,	-- Will Larsons
+					["sourceQuest"] = 31582,	-- Learning the Ropes
+					["coord"] = { 50.1, 20.2, DARKSHORE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 10085 },	-- Jaelysia <Stable Master>
+							["coord"] = { 50.4, 19.2, DARKSHORE },
+						}),
+					},
+				}),
+			}),
 			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(12238),	-- Darkshore Grouper

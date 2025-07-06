@@ -179,6 +179,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				q(31817, {	-- Merda Stronghoof
+					["qg"] = 66137,	-- Zonya the Sadist
+					["sourceQuest"] = 31815,	-- Zonya the Sadist
+					["coord"] = { 59.6, 71.6, STONETALON_MOUNTAINS },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { DESOLACE },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Merda Stronghoof
+							["provider"] = { "n", 66372 },	-- Merda Stronghoof
+							["coord"] = { 57.2, 45.8, DESOLACE },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			header(HEADERS.Spell, 921, {	-- Pickpocketing

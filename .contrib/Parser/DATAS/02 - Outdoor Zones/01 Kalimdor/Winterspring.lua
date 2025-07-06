@@ -244,6 +244,46 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				q(31897, {	-- Grand Master Trixxy
+					["qg"] = 66466,	-- Grand Master Trixxy
+					["sourceQuests"] = {
+						31917,	-- A Tamer's Homecoming (A)
+						31918,	-- A Tamer's Homecoming (H)
+					},
+					["coord"] = { 65.6, 64.5, WINTERSPRING },
+					["timeline"] = { ADDED_5_0_4 },
+					["groups"] = {
+						objective(1, {	-- Defeat Grand Master Trixxy
+							["provider"] = { "n", 66466 },	-- Grand Master Trixxy
+							["coord"] = { 65.6, 64.5, WINTERSPRING },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31975, {	-- The Returning Champion (A)
+					["qg"] = 66466,	-- Stone Cold Trixxy
+					["sourceQuests"] = {
+						31915,	-- Grand Master Lydia Accoste
+						31897,	-- Grand Master Trixxy
+					},
+					["altQuests"] = { 31976 },	-- The Returning Champion (Deadwind Pass)
+					["coord"] = { 65.6, 64.4, WINTERSPRING },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+				}),
+				q(31977, {	-- The Returning Champion (H)
+					["qg"] = 66466,	-- Stone Cold Trixxy
+					["sourceQuests"] = {
+						31915,	-- Grand Master Lydia Accoste
+						31897,	-- Grand Master Trixxy
+					},
+					["altQuests"] = { 31980 },	-- The Returning Champion (Deadwind Pass)
+					["coord"] = { 65.6, 64.4, WINTERSPRING },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["isBreadcrumb"] = true,
+				}),
 			}),
 			n(QUESTS, {
 				q(29037, {	-- 'Borrowing' From the Winterfall

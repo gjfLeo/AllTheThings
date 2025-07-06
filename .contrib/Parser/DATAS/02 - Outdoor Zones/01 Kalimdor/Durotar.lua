@@ -2174,6 +2174,54 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				q(31813, {	-- Dagra the Fierce
+					["qg"] = 66126,	-- Zunta
+					["sourceQuest"] = 31812,	-- Zunta, The Pet Tramer
+					["coord"] = { 43.9, 28.9, DUROTAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { NORTHERN_BARRENS },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Dagra the Fierce
+							["provider"] = { "n", 66135 },	-- Dagra the Fierce
+							["coord"] = { 58.6, 53.0, NORTHERN_BARRENS },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31570, {	-- Got one! (Narzak)
+					["qg"] = 63061,	-- Narzak
+					["sourceQuest"] = 31830,	-- Level Up!
+					["coord"] = { 52.7, 41.3, DUROTAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31571, {	-- Learning the Ropes (Narzak)
+					["qg"] = 63061,	-- Narzak
+					["coord"] = { 52.7, 41.3, DUROTAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31830, {	-- Level Up! (Narzak)
+					["qg"] = 63061,	-- Narzak
+					["sourceQuest"] = 31572,	-- On The Mend
+					["coord"] = { 52.7, 41.3, DUROTAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+				}),
+				q(31572, {	-- On The Mend (Narzak)
+					["qg"] = 63061,	-- Narzak
+					["sourceQuest"] = 31571,	-- Learning the Ropes
+					["coord"] = { 52.7, 41.3, DUROTAR },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 9987 },	-- Shoja'my <Stable Master>
+							["coord"] = { 52.0, 41.8, DUROTAR },
+						}),
+					},
+				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			header(HEADERS.Spell, 921, {	-- Pickpocketing

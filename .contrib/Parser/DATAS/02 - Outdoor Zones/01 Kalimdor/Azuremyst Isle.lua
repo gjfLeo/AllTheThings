@@ -679,6 +679,41 @@ root(ROOTS.Zones, m(KALIMDOR, applyclassicphase(TBC_PHASE_ONE, {
 				}),
 			}),
 			-- #endif
+			petbattles({
+				q(31569, {	-- Got one! (Lehna)
+					["qg"] = 63077,	-- Lehna
+					["sourceQuest"] = 31825,	-- Level Up!
+					["coord"] = { 49.2, 52.0, AZUREMYST_ISLE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31556, {	-- Learning the Ropes (Lehna)
+					["qg"] = 63077,	-- Lehna
+					["coord"] = { 49.2, 52.0, AZUREMYST_ISLE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31825, {	-- Level Up! (Lehna)
+					["qg"] = 63077,	-- Lehna
+					["sourceQuest"] = 31568,	-- On The Mend
+					["coord"] = { 49.2, 52.0, AZUREMYST_ISLE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31568, {	-- On The Mend (Lehna)
+					["qg"] = 63077,	-- Lehna
+					["sourceQuest"] = 31556,	-- Learning the Ropes
+					["coord"] = { 49.2, 52.0, AZUREMYST_ISLE },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 17485 },	-- Esbina <Stable Master>
+							["coord"] = { 49.0, 49.8, AZUREMYST_ISLE },
+						}),
+					},
+				}),
+			}),
 			n(QUESTS, {
 				q(9528, {	-- A Cry For Help
 					["qg"] = 17312,	-- Magwin

@@ -141,6 +141,143 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					["races"] = ALLIANCE_ONLY,
 				}),
+				-- Infamous Breadcrumbs, these are offered at the end of the training quests in each of the starter zones. Can't find any info on which one is appropriate to which map, so this is going to need to be something figured out on an entirely new account that has done none of the pet battle quests
+				q(32008, {	-- Audrey Burnhep
+					["qg"] = 63596,	-- Audrey Burnhelp
+					["altQuests"] = {
+						-- Horde Shared Account-Wide Pet Battle Intro Quests
+						32009,	-- Varzok (Will be marked completed if any Varzok quest is completed)
+					},
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["description"] = "|CFFFF0000Do not under any circumstances abandon this quest, you cannot reobtain it.|r",
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31878, {	-- Audrey Burnhep
+					["altQuests"] = {
+						-- Horde Shared Account-Wide Pet Battle Intro Quests
+						32009,	-- Varzok (Will be marked completed if any Varzok quest is completed)
+					},
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31879, {	-- Audrey Burnhep
+					["altQuests"] = {
+						-- Horde Shared Account-Wide Pet Battle Intro Quests
+						32009,	-- Varzok (Will be marked completed if any Varzok quest is completed)
+					},
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31880, {	-- Audrey Burnhep
+					["altQuests"] = {
+						-- Horde Shared Account-Wide Pet Battle Intro Quests
+						32009,	-- Varzok (Will be marked completed if any Varzok quest is completed)
+					},
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31881, {	-- Audrey Burnhep
+					["altQuests"] = {
+						-- Horde Shared Account-Wide Pet Battle Intro Quests
+						32009,	-- Varzok (Will be marked completed if any Varzok quest is completed)
+					},
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["isBreadcrumb"] = true,
+					["DisablePartySync"] = true,
+				}),
+				q(31902, {	-- Battle Pet Tamers: Eastern Kingdoms (A)
+					["qg"] = 63596,	-- Audrey Burnhelp
+					["sourceQuest"] = 31917,	-- A Tamer's Homecoming (A)
+					-- ["altQuests"] = { 31903 },	-- Battle Pet Tamers: Eastern Kingdoms (Horde version, since only one can be completed per account and Blizz doesn't check it off, apparently)
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["maps"] = { THE_HINTERLANDS, EASTERN_PLAGUELANDS, SEARING_GORGE, SWAMP_OF_SORROWS, BURNING_STEPPES },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat David Kosse
+							["provider"] = { "n", 66478 },	-- David Kosse <Master Pet Tamer>
+							["coord"] = { 62.8, 54.6, THE_HINTERLANDS },
+						}),
+						objective(2, {	-- Defeat Deiza Plaguehorn
+							["provider"] = { "n", 66512 },	-- Deiza Plaguehorn <Master Pet Tamer>
+							["coord"] = { 67.0, 52.4, EASTERN_PLAGUELANDS },
+						}),
+						objective(3, {	-- Defeat Kortas Darkhammer
+							["provider"] = { "n", 66515 },	-- Kortas Darkhammer <Master Pet Tamer>
+							["coord"] = { 35.4, 27.8, SEARING_GORGE },
+						}),
+						objective(4, {	-- Defeat Everessa
+							["provider"] = { "n", 66518 },	-- Everessa <Master Pet Tamer>
+							["coord"] = { 76.6, 41.6, SWAMP_OF_SORROWS },
+						}),
+						objective(5, {	-- Defeat Durin Darkhammer
+							["provider"] = { "n", 66520 },	-- Durin Darkhammer <Master Pet Tamer>
+							["coord"] = { 25.6, 47.6, BURNING_STEPPES },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31593, {	-- Got one! (Audrey)
+					["qg"] = 63596,	-- Audrey Burnhep
+					["sourceQuest"] = 31821,	-- Level Up!
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31316, {	-- Julia, The Pet Tamer
+					["qg"] = 63596,	-- Audrey Burnhelp
+					["sourceQuests"] = { 32008, 31878, 31879, 31880, 31881 },	-- Audrey Burnhep (all breadcrumbs)
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { ELWYNN_FOREST },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Julia Stevens
+							["provider"] = { "n", 64330 },	-- Julia Stevens
+							["coord"] = { 41.6, 83.6, ELWYNN_FOREST },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31591, {	-- Learning the Ropes (Audrey)
+					["qg"] = 63596,	-- Audrey Burnhep
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31821, {	-- Level Up! (Audrey)
+					["qg"] = 63596,	-- Audrey Burnhep
+					["sourceQuest"] = 31592,	-- On The Mend
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31592, {	-- On The Mend (Audrey)
+					["qg"] = 63596,	-- Audrey Burnhep
+					["sourceQuest"] = 31591,	-- Learning the Ropes
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 11069 },	-- Jenova Stoneshield <Stable Master>
+							["coord"] = { 67.0, 37.6, STORMWIND_CITY },
+						}),
+					},
+				}),
 			}),
 			n(PROFESSIONS, {
 				prof(ALCHEMY, {

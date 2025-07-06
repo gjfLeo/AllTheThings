@@ -138,6 +138,15 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				q(31917, {	-- A Tamer's Homecoming (A)
+					["qg"] = 65656,	-- Bill Buckler
+					["sourceQuest"] = 31728,	-- Bill Buckler
+					["altQuests"] = { 31918 },	-- A Tamer's Homecoming (H) -- CRIEVE NOTE: Check this on MOP Classic
+					["coord"] = { 51.4, 73.2, THE_CAPE_OF_STRANGLETHORN },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { STORMWIND_CITY },
+					["races"] = ALLIANCE_ONLY,
+				}),
 			}),
 			n(PROFESSIONS, {
 				prof(ENGINEERING, {

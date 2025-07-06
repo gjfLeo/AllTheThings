@@ -2591,6 +2591,46 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			-- #endif
+			petbattles({
+				q(31551, {	-- Got one! (Grady)
+					["qg"] = 63075,	-- Grady Bannson
+					["sourceQuest"] = 31822,	-- Level Up!
+					["coord"] = { 53.8, 50.1, DUN_MOROGH },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31548, {	-- Learning the Ropes (Grady)
+					["qg"] = 63075,	-- Grady Bannson
+					["coord"] = { 53.8, 50.1, DUN_MOROGH },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31822, {	-- Level Up! (Grady)
+					["qg"] = 63075,	-- Grady Bannson
+					["sourceQuest"] = 31549,	-- On The Mend
+					["coord"] = { 53.8, 50.1, DUN_MOROGH },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31549, {	-- On The Mend (Grady)
+					["qg"] = 63075,	-- Grady Bannson
+					["sourceQuest"] = 31548,	-- Learning the Ropes
+					["coord"] = { 53.8, 50.1, DUN_MOROGH },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["providers"] = {
+								{ "n",   9980 },	-- Shelby Stoneflint <Stable Master>
+								-- #if AFTER LEGION
+								{ "n", 109178 },	-- Shelby Stoneflint <Stable Master>
+								-- #endif
+							},
+							["coord"] = { 54.0, 51.0, DUN_MOROGH },
+						}),
+					},
+				}),
+			}),
 			header(HEADERS.Spell, 921, {	-- Pickpocketing
 				["classes"] = { ROGUE },
 				["groups"] = {

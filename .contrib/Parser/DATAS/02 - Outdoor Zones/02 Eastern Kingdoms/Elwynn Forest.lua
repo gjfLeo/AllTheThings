@@ -2220,6 +2220,54 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				q(31550, {	-- Got one! (Marcus)
+					["qg"] = 63014,	-- Marcus Jensen
+					["sourceQuest"] = 31785,	-- Level Up!
+					["coord"] = { 40.3, 66.0, ELWYNN_FOREST },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31308, {	-- Learning the Ropes (Marcus)
+					["qg"] = 63014,	-- Marcus Jensen
+					["coord"] = { 40.3, 66.0, ELWYNN_FOREST },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31785, {	-- Level Up! (Marcus)
+					["qg"] = 63014,	-- Marcus Jensen
+					["sourceQuest"] = 31309,	-- On The Mend
+					["coord"] = { 40.3, 66.0, ELWYNN_FOREST },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31724, {	-- Old MacDonald
+					["qg"] = 64330,	-- Julia Stevens
+					["sourceQuest"] = 31316,	-- Julia, The Pet Tamer
+					["coord"] = { 41.6, 83.6, ELWYNN_FOREST },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { WESTFALL },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Old MacDonald
+							["provider"] = { "n", 65648 },	-- Old MacDonald
+							["coord"] = { 80.6, 18.4, WESTFALL },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31309, {	-- On The Mend (Marcus)
+					["qg"] = 63014,	-- Marcus Jensen
+					["sourceQuest"] = 31308,	-- Learning the Ropes
+					["coord"] = { 40.3, 66.0, ELWYNN_FOREST },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 6749 },	-- Erma <Stable Master>
+							["coord"] = { 42.8, 65.8, ELWYNN_FOREST },
+						}),
+					},
+				}),
 			}),
 			-- #if SEASON_OF_DISCOVERY
 			header(HEADERS.Spell, 921, {	-- Pickpocketing

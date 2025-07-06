@@ -128,6 +128,21 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				q(31728, {	-- Bill Buckler
+					["qg"] = 63194,	-- Steven Lisbane
+					["sourceQuest"] = 31729,	-- Steven Lisbane
+					["coord"] = { 46.0, 40.4, NORTHERN_STRANGLETHORN },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { THE_CAPE_OF_STRANGLETHORN },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Bill Buckler
+							["provider"] = { "n", 65656 },	-- Bill Buckler
+							["coord"] = { 51.4, 73.2, THE_CAPE_OF_STRANGLETHORN },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			n(PROFESSIONS, {
 				prof(LEATHERWORKING, {

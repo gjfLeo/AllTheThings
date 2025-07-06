@@ -201,6 +201,21 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
+				q(31870, {	-- Cassandra Kaboom
+					["qg"] = 66372,	-- Merda Stronghoof
+					["sourceQuest"] = 31817,	-- Merda Stronghoof
+					["coord"] = { 57.2, 45.8, DESOLACE },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { SOUTHERN_BARRENS },
+					["races"] = HORDE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Cassandra Kaboom
+							["provider"] = { "n", 66422 },	-- Cassandra Kaboom
+							["coord"] = { 39.5, 79.1, SOUTHERN_BARRENS },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 			}),
 			n(QUESTS, {
 				q(14284, {	-- A Revenant's Vengeance

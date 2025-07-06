@@ -1044,6 +1044,41 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
+			petbattles({
+				q(31555, {	-- Got one! (Valeena)
+					["qg"] = 63070,	-- Valeena
+					["sourceQuest"] = 31826,	-- Level Up!
+					["coord"] = { 55.2, 51.2, TELDRASSIL },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31552, {	-- Learning the Ropes (Valeena)
+					["qg"] = 63070,	-- Valeena
+					["coord"] = { 55.2, 51.2, TELDRASSIL },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31826, {	-- Level Up! (Valeena)
+					["qg"] = 63070,	-- Valeena
+					["sourceQuest"] = 31553,	-- On The Mend
+					["coord"] = { 55.2, 51.2, TELDRASSIL },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+				}),
+				q(31553, {	-- On The Mend (Valeena)
+					["qg"] = 63070,	-- Valeena
+					["sourceQuest"] = 31552,	-- Learning the Ropes
+					["coord"] = { 55.2, 51.2, TELDRASSIL },
+					["timeline"] = { ADDED_5_0_4 },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Battle Pets Healed
+							["provider"] = { "n", 10051 },	-- Seriadne <Stable Master>
+							["coord"] = { 56.2, 52.0, TELDRASSIL },
+						}),
+					},
+				}),
+			}),
 			-- #if SEASON_OF_DISCOVERY
 			header(HEADERS.Spell, 921, {	-- Pickpocketing
 				["classes"] = { ROGUE },
