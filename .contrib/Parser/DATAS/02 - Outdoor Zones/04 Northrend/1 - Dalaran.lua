@@ -2882,12 +2882,6 @@ root(ROOTS.Zones, {
 							emoh(65, i(42946)),	-- Charmed Ancient Bone Bow
 							i(93847, {			-- Crushing Mass of McGowan
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 48716, 1 },	-- Venerable Mass of McGowan
-									{ "c", 395, 870 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							emoh(50, i(42948)),	-- Devout Aurastone Hammer
 							emoh(65, i(42947)),	-- Dignified Headmaster's Charge
@@ -2909,24 +2903,12 @@ root(ROOTS.Zones, {
 							}),
 							i(93845, {			-- Gore-Steeped Skullforge Reaver
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 69893, 1 },	-- Bloodsoaked Skullforge Reaver
-									{ "c", 395, 870 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							i(93887, {			-- Grand Champion Herod's Shoulder
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
 							i(93843, {			-- Hardened Arcanite Reaper
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 42943, 1 },	-- Bloodied Arcanite Reaper
-									{ "c", 395, 1400 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							i(93865, {			-- Majestic Ironfeather Breastplate
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
@@ -2941,24 +2923,12 @@ root(ROOTS.Zones, {
 							emoh(40, i(48683)),	-- Mystical Vest of Elements
 							i(93856, {			-- Noble Dal'Rend's Sacred Charge
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 42945, 1 },	-- Venerable Dal'Rend's Sacred Charge
-									{ "c", 395, 870 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							i(93897, {			-- Piercing Eye of the Beast
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 							}),
 							i(93853, {			-- Pious Aurastone Hammer
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 42948, 1 },	-- Devout Aurastone Hammer
-									{ "c", 395, 1090 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							emoh(40, i(48685)),	-- Polished Breastplate of Valor
 							emoh(40, i(42949)),	-- Polished Spaulders of Valor
@@ -2966,31 +2936,13 @@ root(ROOTS.Zones, {
 							emoh(40, i(42984)),	-- Preened Ironfeather Shoulders
 							i(93846, {			-- Re-engineered Lava Dredger
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 48718, 1 },	-- Repurposed Lava Dredger
-									{ "c", 395, 1400 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							i(93844, {			-- Refinished Warden Staff
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 79131, 1 },	-- Burnished Warden Staff
-									{ "c", 395, 1400 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							emoh(65, i(48718)),	-- Repurposed Lava Dredger
 							i(93854, {			-- Scholarly Headmaster's Charge
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 42947, 1 },	-- Dignified Headmaster's Charge
-									{ "c", 395, 1400 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							emoh(40, i(42952)),	-- Stained Shadowcraft Spaulders
 							emoh(40, i(48689)),	-- Stained Shadowcraft Tunic
@@ -3007,21 +2959,9 @@ root(ROOTS.Zones, {
 							emoh(40, i(48716)),	-- Venerable Mass of McGowan
 							i(93857, {			-- Vengeful Heartseeker
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 42944, 1 },	-- Balanced Heartseeker
-									{ "c", 395, 870 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							i(93855, {			-- War-Torn Ancient Bone Bow
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-								-- #if MOP
-								["cost"] = {
-									{ "i", 42946, 1 },	-- Charmed Ancient Bone Bow
-									{ "c", 395, 1400 },	-- Justice Points
-								},
-								-- #endif
 							}),
 							i(93903, {			-- Weathered Observer's Shield
 								["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
