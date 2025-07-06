@@ -200,6 +200,11 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			expansion(EXPANSION.WRATH, patch(2,0), {
 				i(47103),	-- Rotting Handwraps
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206701),	-- Oracle Mantle
+			}),
+			-- #endif
 			n(P3xx, {
 				i(37296),	-- BT59 Cloth Spell Gloves4
 				i(37295),	-- HF28 Cloth Spell Head4
@@ -362,6 +367,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78533),	-- The Hands of Gilly
 				i(78607),	-- The Hands of Gilly
 			}),
+			-- Wouter NOTE: no clue when these got removed, no data on Wowwiki and not on Wowhead Retail
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.CATA, patch(4,2), {
+				i(92085),	-- Deliverer Bindings
+				i(92086),	-- Deliverer Wristwraps
+			}),
+			-- #endif
 		}),
 		filter(LEATHER, {
 			expansion(EXPANSION.CATA, patch(0,3), {
