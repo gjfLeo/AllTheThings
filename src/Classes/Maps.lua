@@ -965,6 +965,7 @@ app.CreateMap = app.CreateClass("Map", "mapID", {
 		t.isMinilistHeader = isHeader
 		return isHeader
 	end,
+	SortType = function(t) return "MapClassSortType" end,
 },
 "WithHeader", {
 	["name"] = function(t)
