@@ -264,6 +264,12 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(200, i(44096, {	-- Battleworn Thrash Blade
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93899, {			-- Bequeathed Insignia of the Alliance
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
+	i(93898, {			-- Bequeathed Insignia of the Horde
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(200, i(44103, {	-- Exceptional Stormshroud Shoulders
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
@@ -276,6 +282,9 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(250, i(44097, {	-- Inherited Insignia of the Horde
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93900, {			-- Inherited Mark of Tyranny
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(325, i(44095, {	-- Grand Staff of Jordan
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
