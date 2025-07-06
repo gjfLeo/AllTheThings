@@ -3294,6 +3294,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 		n(VENDORS, {
 			n(55072, bubbleDownSelf({ ["timeline"] = { ADDED_4_3_0 }, }, {	-- Barum <Replica Armor Prizes>
 				["coord"] = { 47.5, 66.3, DARKMOON_ISLAND },
+				["description"] = "This vendor sells additional ensembles which are only visible to those who completed the original T0.5 questline. If you do not see them, you don't meet the requirements, and they can no longer be unlocked as the questline was removed from the game.",
 				["groups"] = {
 					clWithoutLock(WARRIOR, {	-- Battlegear of Valor
 						darkmoonprizeticket(55, i(78319)),	-- Replica Belt of Valor
@@ -3386,40 +3387,40 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						darkmoonprizeticket(75, i(78242)),	-- Replica Wildheart Vest
 					}),
 					darkmoonprizeticket(75, iensemble(171984, {	-- Ensemble: Battlegear of Valor
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171977, {	-- Ensemble: Beaststalker Armor
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171983, {	-- Ensemble: Dreadmist Raiment
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171979, {	-- Ensemble: Lightforge Armor
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171978, {	-- Ensemble: Magister's Regalia
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171981, {	-- Ensemble: Shadowcraft Armor
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171982, {	-- Ensemble: The Elements
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171980, {	-- Ensemble: Vestments of the Devout
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 					darkmoonprizeticket(75, iensemble(171976, {	-- Ensemble: Wildheart Raiment
-						["description"] = "Only appears for those who have done the original T0.5 questline",
-						["timeline"] = { ADDED_8_2_5 },
+						["description"] = "Only appears for those who have done the original T0.5 questline, which is removed from the game at the time of adding the ensembles",
+						["timeline"] = { ADDED_8_2_5, REMOVED_8_2_5 },
 					})),
 				},
 			})),
