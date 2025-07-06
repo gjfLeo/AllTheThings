@@ -261,6 +261,12 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(200, i(44102, {	-- Aged Pauldrons of The Five Thunders
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93851, {			-- Battle-Forged Truesilver Champion
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
+	i(93848, {			-- Battle-Hardened Thrash Blade
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(200, i(44096, {	-- Battleworn Thrash Blade
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
@@ -268,6 +274,12 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 	}),
 	i(93898, {			-- Bequeathed Insignia of the Horde
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
+	i(93852, {			-- Deadly Scarlet Kris
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
+	i(93849, {			-- Elder Staff of Jordan
 		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 	}),
 	sks(200, i(44103, {	-- Exceptional Stormshroud Shoulders
@@ -303,12 +315,18 @@ local WINTERGRASP_HEIRLOOMS = pvp({
 	sks(200, i(44091, {	-- Sharpened Scarlet Kris
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93841, {			-- Smoothbore Dwarven Hand Cannon
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(200, i(44099, {	-- Strengthened Stockade Pauldrons
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
 	sks(250, i(44094, {	-- The Blessed Hammer of Grace
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
+	i(93850, {			-- The Sanctified Hammer of Grace
+		["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
+	}),
 	sks(325, i(44093, {	-- Unpgraded Dwarven Hand Cannon
 		["timeline"] = { REMOVED_6_1_0 },
 	})),
