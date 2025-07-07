@@ -56,7 +56,9 @@ root(ROOTS.Zones, {
 					}),
 					ach(1273, {	-- Nagrand Slam (Horde)
 						["races"] = HORDE_ONLY,
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- Birth of a Warchief
 							10172,	-- There Is No Hope
@@ -98,7 +100,9 @@ root(ROOTS.Zones, {
 					}),
 					ach(1192, {	-- Nagrand Slam (Alliance)
 						["races"] = ALLIANCE_ONLY,
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- The Adventures of Corki
 							9955,	-- Cho'war the Pillager

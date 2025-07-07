@@ -38,44 +38,7 @@ root(ROOTS.Zones, {
 					ach(35, {	-- Might of Dragonblight (A)
 						["races"] = ALLIANCE_ONLY,
 						-- #if AFTER 7.3.5
-						["groups"] = {
-							crit(39007, {	-- The Warden's Task
-								["sourceQuest"] = 12169,	-- The High Cultist
-							}),
-							crit(39008, {	-- Redirecting the Ley Lines
-								["sourceQuest"] = 12107,	-- The End of the Line
-							}),
-							crit(39009, {	-- Informing the Queen
-								["sourceQuest"] = 12123,	-- Informing the Queen
-							}),
-							crit(39010, {	-- The Dragonflights
-								["sourceQuest"] = 12266,	-- Tales of Destruction
-							}),
-							crit(39011, {	-- The Dragonflights
-								["sourceQuest"] = 12459,	-- That Which Creates Can Also Destroy
-							}),
-							crit(39012, {	-- The Dragonflights
-								["sourceQuest"] = 12456,	-- The Plume of Alystros
-							}),
-							crit(39013, {	-- The Dragonflights
-								["sourceQuest"] = 13343,	-- Mystery of the Infinite, Redux
-							}),
-							crit(285, {	-- Angrathar the Wrathgate
-								["sourceQuest"] = 12499,	-- Return to Angrathar
-							}),
-							crit(39014, {	-- Frostmourne
-								["sourceQuest"] = 12478,	-- Frostmourne Cavern
-							}),
-							crit(39016, {	-- "Strategic Alliance"
-								["sourceQuest"] = 12078,	-- Worm Wrangler
-							}),
-							crit(39017, {	-- "Strategic Alliance"
-								["sourceQuest"] = 12080,	-- Really Big Worm
-							}),
-							crit(39024, {	-- Oacha'noa
-								["sourceQuest"] = 12032,	-- Conversing With the Depths
-							}),
-						},
+						["_doautomation"] = true,
 						-- #else
 						["sourceQuests"] = {
 							12169,	-- The High Cultist
@@ -98,50 +61,7 @@ root(ROOTS.Zones, {
 					ach(1359, {	-- Might of Dragonblight (H)
 						["races"] = HORDE_ONLY,
 						-- #if AFTER 7.3.5
-						["groups"] = {
-							crit(39018, {	-- The Taunka
-								["sourceQuest"] = 12008,	-- Agmar's Hammer
-							}),
-							crit(39021, {	-- Traitors to the Horde
-								["sourceQuest"] = 12136,	-- The Translated Tome
-							}),
-							crit(39019, {	-- Redirecting the Ley Lines
-								["sourceQuest"] = 12110,	-- The End of the Line
-							}),
-							crit(39022, {	-- Containing the Rot
-								["sourceQuest"] = 12111,	-- Where the Wild Things Roam
-							}),
-							crit(286, {	-- Angrathar the Wrathgate
-								["sourceQuest"] = 12500,	-- Return To Angrathar
-							}),
-							crit(39020, {	-- Informing the Queen
-								["sourceQuest"] = 12124,	-- Informing the Queen
-							}),
-							crit(39010, {	-- The Dragonflights
-								["sourceQuest"] = 12266,	-- Tales of Destruction
-							}),
-							crit(39011, {	-- The Dragonflights
-								["sourceQuest"] = 12459,	-- That Which Creates Can Also Destroy
-							}),
-							crit(39012, {	-- The Dragonflights
-								["sourceQuest"] = 12456,	-- The Plume of Alystros
-							}),
-							crit(39013, {	-- The Dragonflights
-								["sourceQuest"] = 13343,	-- Mystery of the Infinite, Redux
-							}),
-							crit(39016, {	-- "Strategic Alliance"
-								["sourceQuest"] = 12078,	-- Worm Wrangler
-							}),
-							crit(39017, {	-- "Strategic Alliance"
-								["sourceQuest"] = 12080,	-- Really Big Worm
-							}),
-							crit(39023, {	-- The Scarlet Onslaught
-								["sourceQuest"] = 12285,	-- Do Unto Others
-							}),
-							crit(39024, {	-- Oacha'noa
-								["sourceQuest"] = 12032,	-- Conversing With the Depths
-							}),
-						},
+						["_doautomation"] = true,
 						-- #else
 						["sourceQuests"] = {
 							12008,	-- Agmar's Hammer

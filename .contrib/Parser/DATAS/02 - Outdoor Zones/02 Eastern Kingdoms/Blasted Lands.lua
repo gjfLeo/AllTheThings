@@ -12,7 +12,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ACHIEVEMENTS, {
 				ach(4909, {	-- Blasted Lands Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						26171,	-- You Are Rakh'likh, Demon (alliance)
 						25701,	-- You Are Rakh'likh, Demon (horde)

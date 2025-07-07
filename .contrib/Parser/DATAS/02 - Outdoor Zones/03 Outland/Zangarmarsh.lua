@@ -46,7 +46,9 @@ root(ROOTS.Zones, {
 				n(ACHIEVEMENTS, {
 					ach(863),	-- Explore Zangarmarsh
 					ach(1190, {	-- Mysteries of the Marsh
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- Draenei Diplomacy (A)
 							9803,	-- Messenger to the Feralfen

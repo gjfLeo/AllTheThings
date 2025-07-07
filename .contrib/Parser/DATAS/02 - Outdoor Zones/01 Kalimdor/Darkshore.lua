@@ -19,30 +19,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 7.3.5
-					["groups"] = {
-						crit(38792, {	-- The Great Animal Spirit
-							["sourceQuests"] = {
-								13568,	-- Spirit of the Moonstalker
-								13567,	-- Spirit of the Stag
-								13597,	-- Spirit of the Thistle Bear
-							},
-						}),
-						crit(38791, {	-- The Shatterspear
-							["sourceQuest"] = 13515,	-- Ending the Threat
-						}),
-						crit(38793, {	-- The Eye of All Storms
-							["sourceQuest"] = 13588,	-- The Eye of All Storms
-						}),
-						crit(38794, {	-- The Devourer
-							["sourceQuest"] = 13891,	-- The Devourer of Darkshore
-						}),
-						crit(38795, {	-- Consumed by Madness
-							["sourceQuest"] = 13546,	-- The Defiler
-						}),
-						crit(38796, {	-- The Battle for Darkshore
-							["sourceQuest"] = 13897,	-- The Battle for Darkshore
-						}),
-					},
+					["_doautomation"] = true,
 					-- #else
 					["sourceQuests"] = {
 						13568,	-- Spirit of the Moonstalker

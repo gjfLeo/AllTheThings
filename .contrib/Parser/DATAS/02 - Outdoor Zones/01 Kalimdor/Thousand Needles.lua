@@ -15,7 +15,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(846),	-- Explore Thousand Needles
 				ach(4938, {	-- Thousand Needles Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						25627,	-- Two-Tusk Takedown [A]
 						25628,	-- Two-Tusk Takedown [H]

@@ -11,7 +11,9 @@ root(ROOTS.Zones, {
 				n(ACHIEVEMENTS, {
 					ach(843),	-- Explore Netherstorm
 					ach(1194, {	-- Into the Nether
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- Socrethar
 							10409,	-- Deathblow to the Legion (Aldor)

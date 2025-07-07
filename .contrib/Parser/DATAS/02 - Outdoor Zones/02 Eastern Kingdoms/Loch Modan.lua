@@ -11,7 +11,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4899, {	-- Loch Modan Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						26148,	-- A Decisive Strike
 						26147,	-- Bigger and Uglier

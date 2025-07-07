@@ -12,26 +12,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER 7.3.5
-					["groups"] = {
-						crit(38361, {	-- Forsaken High Command
-							["sourceQuest"] = 27056,	-- Belmont's Report
-						}),
-						crit(38362, {	-- Forsaken Rear Guard
-							["sourceQuest"] = 27096,	-- Orcs are in Order
-						}),
-						crit(38363, {	-- The Sepulcher
-							["sourceQuest"] = 27290,	-- To Forsaken Forward Command
-						}),
-						crit(38364, {	-- The Ruins of Gilneas
-							["sourceQuest"] = 27438,	-- The Great Escape
-						}),
-						crit(38365, {	-- Ambermill
-							["sourceQuest"] = 27518,	-- Transdimensional Warfare: Chapter III
-						}),
-						crit(38366, {	-- On the Battlefront
-							["sourceQuest"] = 27601,	-- Cities in Dust
-						}),
-					},
+					["_doautomation"] = true,
 					-- #else
 					["sourceQuests"] = {
 						27056,	-- Belmont's Report

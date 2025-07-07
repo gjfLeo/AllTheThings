@@ -111,24 +111,7 @@ root(ROOTS.Zones, {
 					ach(961),	-- Honorary Frenzyheart (automated)
 					ach(39, {	-- Into the Basin
 						-- #if AFTER 7.3.5
-						crit(39053, {	-- Hunting Bigger Game
-							["sourceQuest"] = 12595,	-- In Search of Bigger Game
-						}),
-						crit(2004, {	-- Teeth, Spikes, and Talons
-							["sourceQuest"] = 12614,	-- Post-partum Aggression
-						}),
-						crit(39054, {	-- The Wolvar
-							["sourceQuest"] = 12540,	-- Just Following Orders
-						}),
-						crit(39055, {	-- The Oracles
-							["sourceQuest"] = 12581,	-- A Hero's Burden
-						}),
-						crit(39056, {	-- The Lifewarden
-							["sourceQuest"] = 12805,	-- Salvaging Life's Strength
-						}),
-						crit(39726, {	-- Watching Over the Basin
-							["sourceQuest"] = 12546,	-- Reclamation
-						}),
+						["_doautomation"] = true,
 						-- #else
 						["sourceQuests"] = {
 							12595,	-- In Search of Bigger Game

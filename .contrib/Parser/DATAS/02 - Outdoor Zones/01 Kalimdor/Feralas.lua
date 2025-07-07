@@ -12,26 +12,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					-- #if AFTER 7.3.5
-					["groups"] = {
-						crit(38913, {	-- The Fate of Taerar
-							["sourceQuest"] = 25398,	-- Sealing the Dream
-						}),
-						crit(38914, {	-- The Twilight Sermon
-							["sourceQuest"] = 25333,	-- Might of the Sentinels
-						}),
-						crit(38915, {	-- Freed
-							["sourceQuest"] = 26401,	-- Return to Vestia
-						}),
-						crit(38916, {	-- Forces of Nature
-							["sourceQuest"] = 25468,	-- Forces of Nature: Faerie Dragons
-						}),
-						crit(38917, {	-- Forces of Nature
-							["sourceQuest"] = 25469,	-- Forces of Nature: Mountain Giants
-						}),
-						crit(38918, {	-- The Dragons of Nightmare
-							["sourceQuest"] = 25438,	-- Ysondre's Farewell
-						}),
-					},
+					["_doautomation"] = true,
 					-- #else
 					["sourceQuests"] = {
 						25398,	-- Sealing the Dream
@@ -47,23 +28,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					-- #if AFTER 7.3.5
-					["groups"] = {
-						crit(38919, {	-- The Fate of Taerar
-							["sourceQuest"] = 25250,	-- Sealing the Dream
-						}),
-						crit(38920, {	-- The Twilight Sermon
-							["sourceQuest"] = 25329,	-- Might of the Stonemaul
-						}),
-						crit(38921, {	-- Muisek
-							["sourceQuest"] = 25391,	-- Weapons of Spirit
-						}),
-						crit(38922, {	-- Freed
-							["sourceQuest"] = 25645,	-- Return to Sage Palerunner
-						}),
-						crit(38923, {	-- The Dragons of Nightmare
-							["sourceQuest"] = 25383,	-- Ysondre's Farewell
-						}),
-					},
+					["_doautomation"] = true,
 					-- #else
 					["sourceQuests"] = {
 						25250,	-- Sealing the Dream

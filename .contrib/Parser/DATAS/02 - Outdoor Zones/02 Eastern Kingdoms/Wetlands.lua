@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(841),	-- Explore Wetlands
 				ach(4898, {	-- Wetlands Quests
 					-- In 5.0.4, this was merged into the Loch Modan quests achievement for some stupid reason no one knows the answer to.
-					["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
+					["timeline"] = { ADDED_4_0_3, DELETED_5_0_4 },
 					-- #if BEFORE 5.0.4
 					["sourceQuests"] = {
 						25734,	-- Down in Thelgen Rock
@@ -45,6 +45,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 				ach(12429, {	-- Wetlands Quests
+					["_doautomation"] = true,
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = ALLIANCE_ONLY,
 				}),

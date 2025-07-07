@@ -54,10 +54,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4873, {	-- Fading into Twilight (Alliance)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #IF RETAIL
+					-- #if AFTER 7.3.5
 					["_doautomation"] = true,
-					-- #ENDIF
-					-- #if BEFORE 7.3.5
+					-- #else
 					["sourceQuests"] = {
 						27468,	-- Siege Tank Rescue
 						27545,	-- The Way is Open
@@ -77,10 +76,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(5501, {	-- Fading into Twilight (Horde)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #IF RETAIL
+					-- #if AFTER 7.3.5
 					["_doautomation"] = true,
-					-- #ENDIF
-					-- #if BEFORE 7.3.5
+					-- #else
 					["sourceQuests"] = {
 						26337,	-- Beating the Market
 						26840,	-- Return to the Highlands

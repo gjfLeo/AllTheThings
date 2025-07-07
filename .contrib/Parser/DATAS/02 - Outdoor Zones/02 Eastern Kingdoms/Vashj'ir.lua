@@ -42,10 +42,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				ach(4869, {	-- Sinking into Vashj'ir (A)
 					["races"] = ALLIANCE_ONLY,
-					-- #IF RETAIL
+					-- #if AFTER 7.3.5
 					["_doautomation"] = true,
-					-- #ENDIF
-					-- #if BEFORE 7.3.5
+					-- #else
 					["sourceQuests"] = {
 						25558,	-- All or Nothing
 						25638,	-- A Desperate Plea
@@ -64,10 +63,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				ach(4982, {	-- Sinking into Vashj'ir (H)
 					["races"] = HORDE_ONLY,
-					-- #IF RETAIL
+					-- #if AFTER 7.3.5
 					["_doautomation"] = true,
-					-- #ENDIF
-					-- #if BEFORE 7.3.5
+					-- #else
 					["sourceQuests"] = {
 						25949,	-- Blood and Thunder!
 						25638,	-- A Desperate Plea

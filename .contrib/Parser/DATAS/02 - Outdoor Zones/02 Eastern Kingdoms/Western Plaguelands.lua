@@ -14,7 +14,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(770),	-- Explore Western Plaguelands
 				ach(4893, {	-- Western Plaguelands Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						27165,	-- Victory, For Now (A)
 						26926,	-- Victory, For Now (H)

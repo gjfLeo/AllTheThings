@@ -135,7 +135,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #endif
 				ach(4940, {	-- Winterspring Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						28472,	-- Words of the High Chief
 						28848,	-- Trailing the Spiritspeaker

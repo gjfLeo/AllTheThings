@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 				ach(760, {	-- Explore Alterac Mountains
-					["timeline"] = { REMOVED_4_0_3 },
+					["timeline"] = { DELETED_4_0_3 },
 				}),
 			}),
 			explorationHeader({

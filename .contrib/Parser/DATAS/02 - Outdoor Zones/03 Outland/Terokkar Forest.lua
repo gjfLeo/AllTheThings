@@ -40,7 +40,9 @@ root(ROOTS.Zones, {
 					}),
 					ach(1191, {	-- Terror of Terokkar (A)
 						["races"] = ALLIANCE_ONLY,
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- The Skettis Offensive
 							10879,	-- The Skettis Offensive
@@ -80,7 +82,9 @@ root(ROOTS.Zones, {
 					}),
 					ach(1272, {	-- Terror of Terokkar (H)
 						["races"] = HORDE_ONLY,
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- The Skettis Offensive
 							10879,	-- The Skettis Offensive

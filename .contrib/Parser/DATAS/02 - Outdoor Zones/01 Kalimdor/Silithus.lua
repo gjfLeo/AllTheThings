@@ -79,23 +79,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4934, {	-- Silithus Quests
 					["timeline"] = { ADDED_4_0_3 },
 					-- #if AFTER 7.3.5
-					["groups"] = {
-						crit(38738, {	-- Twilight's Run
-							["sourceQuest"] = 8321,	-- Vyral the Vile
-						}),
-						crit(38739, {	-- Mistress Natalia Mar'alith
-							["sourceQuest"] = 8306,	-- Into The Maw of Madness
-						}),
-						crit(38740, {	-- Unraveling the Mystery
-							["sourceQuest"] = 8314,	-- Unraveling the Mystery
-						}),
-						crit(38741, {	-- A Terrible Purpose
-							["sourceQuest"] = 8287,	-- A Terrible Purpose
-						}),
-						crit(38742, {	-- Twilight Lexicon
-							["sourceQuest"] = 8323,	-- True Believers
-						}),
-					},
+					["_doautomation"] = true,
 					-- #else
 					["sourceQuests"] = {
 						8321,	-- Vyral the Vile

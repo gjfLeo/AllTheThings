@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ACHIEVEMENTS, {
 				ach(778),	-- Explore Duskwood
 				ach(4907, {	-- Duskwood Quests
-					["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
+					["timeline"] = { ADDED_4_0_3, DELETED_5_0_4 },
 					["races"] = ALLIANCE_ONLY,
 					-- #if BEFORE 5.0.4
 					["sourceQuests"] = {
@@ -25,6 +25,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				ach(12430, {	-- Duskwood Quests
+					["_doautomation"] = true,
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = ALLIANCE_ONLY,
 				}),

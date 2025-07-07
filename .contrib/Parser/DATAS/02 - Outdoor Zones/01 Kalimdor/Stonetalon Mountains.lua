@@ -16,7 +16,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4936, {	-- Stonetalon Mountains Quests (A)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						25642,	-- Don't Look Them in the Eyes
 						25646,	-- Windshear Mine Cleanup
@@ -28,7 +30,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4980, {	-- Stonetalon Mountains Quests (H)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						26010,	-- Ashes to Ashes
 						26058,	-- In Defense of Krom'Gar Fortress

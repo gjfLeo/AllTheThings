@@ -15,10 +15,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["description"] = "Requires the regrowth phase of Mount Hyjal.",
 				}),
 				ach(4870, {	-- Coming Down the Mountain
-					-- #IF RETAIL
+					-- #if AFTER 7.3.5
 					["_doautomation"] = true,
-					-- #ENDIF
-					-- #if BEFORE 7.3.5
+					-- #else
 					["sourceQuests"] = {
 						25584,	-- The Return of the Ancients
 						25298,	-- Free Your Mind, the Rest Follows

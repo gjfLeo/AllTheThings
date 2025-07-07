@@ -11,7 +11,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(781),	-- Explore Northern Stranglethorn
 				ach(4906, {	-- Northern Stranglethorn Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						26775,	-- Be Raptor (A)
 						26362,	-- Be Raptor (H)

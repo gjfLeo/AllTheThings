@@ -28,10 +28,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				ach(4872, {	-- Unearthing Uldum
-					-- #IF RETAIL
+					-- #if AFTER 7.3.5
 					["_doautomation"] = true,
-					-- #ENDIF
-					-- #if BEFORE 7.3.5
+					-- #else
 					["sourceQuests"] = {
 						28112,	-- Escape From the Lost City
 						28533,	-- The High Council's Decision

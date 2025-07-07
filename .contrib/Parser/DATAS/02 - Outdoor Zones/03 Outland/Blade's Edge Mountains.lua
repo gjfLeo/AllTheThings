@@ -45,7 +45,9 @@ root(ROOTS.Zones, {
 					ach(865),	-- Explore Blade's Edge Mountains
 					ach(1193, {	-- On the Blade's Edge
 						-- CRIEVE NOTE: The storyline criteria doesn't appear to exist in Retail anymore? [TODO: Add them or fix automation?]
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- Sylvanaar (A)
 							10518,	-- Planting the Banner

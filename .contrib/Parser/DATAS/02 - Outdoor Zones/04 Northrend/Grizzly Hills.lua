@@ -12,26 +12,7 @@ root(ROOTS.Zones, {
 					ach(37, {	-- Fo' Grizzle My Shizzle (A)
 						["races"] = ALLIANCE_ONLY,
 						-- #if AFTER 7.3.5
-						["groups"] = {
-							crit(39108, {	-- Ursoc, the Bear God
-								["sourceQuest"] = 12249,	-- Ursoc, the Bear God
-							}),
-							crit(39109, {	-- The Iron Thane
-								["sourceQuest"] = 12153,	-- The Iron Thane and His Anvil
-							}),
-							crit(39110, {	-- Loken's Orders
-								["sourceQuest"] = 12185,	-- Put on Your Best Face for Loken
-							}),
-							crit(39111, {	-- Revelation!
-								["sourceQuest"] = 12068,	-- Voices From the Dust
-							}),
-							crit(39112, {	-- Hour of the Worg
-								["sourceQuest"] = 12164,	-- Hour of the Worg
-							}),
-							crit(39113, {	-- Eons of Misery
-								["sourceQuest"] = 12152,	-- Jin'arrak's End
-							}),
-						},
+						["_doautomation"] = true,
 						-- #else
 						["sourceQuests"] = {
 							12249,	-- Ursoc, the Bear God
@@ -46,29 +27,7 @@ root(ROOTS.Zones, {
 					ach(1357, {	-- Fo' Grizzle My Shizzle (H)
 						["races"] = HORDE_ONLY,
 						-- #if AFTER 7.3.5
-						["groups"] = {
-							crit(39114, {	-- Ursoc, the Bear God
-								["sourceQuest"] = 12236,	-- Ursoc, the Bear God
-							}),
-							crit(39115, {	-- The Final Showdown
-								["sourceQuest"] = 12431,	-- The Conquest Pit: Final Showdown
-							}),
-							crit(39116, {	-- The Iron Thane
-								["sourceQuest"] = 12199,	-- Bringing Down the Iron Thane
-							}),
-							crit(39117, {	-- Loken's Orders
-								["sourceQuest"] = 12203,	-- Loken's Orders
-							}),
-							crit(39112, {	-- Hour of the Worg
-								["sourceQuest"] = 12164,	-- Hour of the Worg
-							}),
-							crit(39111, {	-- Revelation!
-								["sourceQuest"] = 12068,	-- Voices From the Dust
-							}),
-							crit(39113, {	-- Eons of Misery
-								["sourceQuest"] = 12152,	-- Jin'arrak's End
-							}),
-						},
+						["_doautomation"] = true,
 						-- #else
 						["sourceQuests"] = {
 							12236,	-- Ursoc, the Bear God

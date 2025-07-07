@@ -11,7 +11,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(854),	-- Explore Un'Goro Crater
 				ach(4939, {	-- Un'Goro Crater Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if BEFORE 7.3.5
+					-- #if AFTER 7.3.5
+					["_doautomation"] = true,
+					-- #else
 					["sourceQuests"] = {
 						24720,	-- Crystals of Power
 						24721,	-- The Eastern Pylon

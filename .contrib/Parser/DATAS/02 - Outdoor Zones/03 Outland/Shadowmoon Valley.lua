@@ -10,7 +10,9 @@ root(ROOTS.Zones, {
 				n(ACHIEVEMENTS, {
 					ach(864),	-- Explore Shadowmoon Valley
 					ach(1195, {	-- Shadow of the Betrayer
-						-- #if BEFORE 7.3.5
+						-- #if AFTER 7.3.5
+						["_doautomation"] = true,
+						-- #else
 						["sourceQuests"] = {
 							-- Wildhammer Stronghold
 							10776,	-- Dissension Amongst the Ranks...

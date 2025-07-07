@@ -64,24 +64,7 @@ root(ROOTS.Zones, {
 				n(ACHIEVEMENTS, {
 					ach(4871, {	-- Deep into Deepholm
 						-- #if AFTER 7.3.5
-						crit(39584, {	-- The Middle World Pillar Fragment
-							["sourceQuest"] = 27938,	-- The Middle Fragment
-						}),
-						crit(39588, {	-- The Upper World Pillar Fragment
-							["sourceQuest"] = 26876,	-- The World Pillar Fragment
-						}),
-						crit(39595, {	-- The Stone Lords
-							["sourceQuest"] = 26583,	-- Wrath of the Fungalmancer
-						}),
-						crit(39594, {	-- The Stone Lords
-							["sourceQuest"] = 26584,	-- Shaken and Stirred
-						}),
-						crit(39596, {	-- The Stone Lords
-							["sourceQuest"] = 26585,	-- Corruption Destruction
-						}),
-						crit(39597, {	-- Mending the Wound
-							["sourceQuest"] = 26971,	-- The Binding
-						}),
+						["_doautomation"] = true,
 						-- #else
 						["sourceQuests"] = {
 							27938,	-- The Middle Fragment
