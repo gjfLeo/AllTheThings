@@ -284,6 +284,8 @@ root(ROOTS.NeverImplemented, {
 				i(79717),	-- Monster - Staff, Panda B01 - Gold
 				i(79718),	-- Monster - Staff, Panda B01 - Jade
 				i(79719),	-- Monster - Staff, Panda B01 - Red
+				i(77358),	-- Monster - Stave_2h_PanStart_A_01 - Blue
+				i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,01), {

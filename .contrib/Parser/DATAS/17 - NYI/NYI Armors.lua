@@ -340,7 +340,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(62646),	-- Fallback Armor - Cloth Robe
 				i(62647),	-- Fallback Armor - Cloth Shoulder
 				i(62648),	-- Fallback Armor - Cloth Wrist
-				--
+				-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+				-- #if BEFORE WOD
+				i(55748),	-- Galardell Cowl
+				i(55739),	-- Galardell Handwraps
+				i(55721),	-- Galardell Robe
+				-- #endif
 				i(54542),	-- Robes of Restored Hope
 				i(54550),	-- Hood of Vigorous Defense
 				i(54977),	-- Revitalizing Sandals
@@ -720,6 +725,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83393),	-- 5.0 QA PVP Test Caster DPS Shoulders 2
 				i(83535),	-- ???
 				i(83536),	-- ???
+				i(77506),	-- Art Template Cloth Wrist - Cloth_PanStart_A_01 - Default
 				i(80948),	-- Peacebreaker's Silk Cowl
 				i(80949),	-- Peacebreaker's Satin Hood
 				i(80988),	-- Scavenger's Silk Amice
@@ -751,6 +757,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(LEATHER, {
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
+				i(77313),	-- Art Template Leather Legs - Leather_PanProg_B_01 - White
 				i(80946),	-- Peacebreaker's Leather Helm
 				i(80950),	-- Peacebreaker's Hide Helm
 				i(80986),	-- Scavenger's Leather Spaulders
