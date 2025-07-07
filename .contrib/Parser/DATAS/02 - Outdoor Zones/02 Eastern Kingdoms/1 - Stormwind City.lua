@@ -199,6 +199,30 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["isBreadcrumb"] = true,
 					["DisablePartySync"] = true,
 				}),
+				q(31966, {	-- Battle Pet Tamers: Cataclysm (A)
+					["qg"] = 63596,	-- Audrey Burnhelp
+					["sourceQuest"] = 31984,	-- A Brief Reprieve (A)
+					-- ["altQuests"] = { 31967 },
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { MOUNT_HYJAL, DEEPHOLM, TWILIGHT_HIGHLANDS },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Brok
+							["provider"] = { "n", 66819 },	-- Brok <Master Pet Tamer>
+							["coord"] = { 61.4, 32.8, MOUNT_HYJAL },
+						}),
+						objective(2, {	-- Defeat Bordin Steadyfist
+							["provider"] = { "n", 66815 },	-- Bordin Steadyfist <Master Pet Tamer>
+							["coord"] = { 49.8, 57.0, DEEPHOLM },
+						}),
+						objective(3, {	-- Defeat Goz Banefury
+							["provider"] = { "n", 66822 },	-- Goz Banefury <Master Pet Tamer>
+							["coord"] = { 56.6, 56.8, TWILIGHT_HIGHLANDS },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
 				q(31902, {	-- Battle Pet Tamers: Eastern Kingdoms (A)
 					["qg"] = 63596,	-- Audrey Burnhelp
 					["sourceQuest"] = 31917,	-- A Tamer's Homecoming (A)
@@ -258,6 +282,101 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						objective(5, {	-- Defeat Elena Flutterfly
 							["provider"] = { "n", 66412 },	-- Elena Flutterfly <Master Pet Tamer>
 							["coord"] = { 46.0, 60.6, MOONGLADE },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31927, {	-- Battle Pet Tamers: Northrend (A)
+					["qg"] = 63596,	-- Audrey Burnhelp
+					["sourceQuest"] = 31981,	-- Exceeding Expectations (A)
+					-- ["altQuests"] = { 31929 },
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { HOWLING_FJORD, CRYSTALSONG_FOREST, DRAGONBLIGHT, ZULDRAK },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Beegle Blastfuse
+							["provider"] = { "n", 66635 },	-- Beegle Blastfuse <Master Pet Tamer>
+							["coord"] = { 28.6, 33.8, HOWLING_FJORD },
+						}),
+						objective(2, {	-- Defeat Nearly Headless Jacob
+							["provider"] = { "n", 66636 },	-- Nearly Headless Jacob <Master Pet Tamer>
+							["coord"] = { 50.2, 59.0, CRYSTALSONG_FOREST },
+						}),
+						objective(3, {	-- Defeat Okrut Dragonwaste
+							["provider"] = { "n", 66638 },	-- Okrut Dragonwaste <Master Pet Tamer>
+							["coord"] = { 59.0, 77.0, DRAGONBLIGHT },
+						}),
+						objective(4, {	-- Defeat Gutretch
+							["provider"] = { "n", 66639 },	-- Gutretch <Master Pet Tamer>
+							["coord"] = { 13.2, 66.8, ZULDRAK },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31919, {	-- Battle Pet Tamers: Outland (A)
+					["qg"] = 63596,	-- Audrey Burnhelp
+					["sourceQuests"] = {
+						31975,	-- The Returning Champion (A)
+						31976,	-- The Returning Champion (A)
+					},
+					-- ["altQuests"] = { 31921 },
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { HELLFIRE_PENINSULA, ZANGARMARSH, NAGRAND, SHATTRATH_CITY },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Nicki Tinytech
+							["provider"] = { "n", 66550 },	-- Nicki Tinytech <Master Pet Tamer>
+							["coord"] = { 64.4, 49.2, HELLFIRE_PENINSULA },
+						}),
+						objective(2, {	-- Defeat Ras'an
+							["provider"] = { "n", 66551 },	-- Ras'an <Master Pet Tamer>
+							["coord"] = { 17.2, 50.6, ZANGARMARSH },
+						}),
+						objective(3, {	-- Defeat Narrok
+							["provider"] = { "n", 66552 },	-- Narrok <Master Pet Tamer>
+							["coord"] = { 61.0, 49.4, NAGRAND },
+						}),
+						objective(4, {	-- Defeat Morulu The Elder
+							["provider"] = { "n", 66553 },	-- Morulu The Elder <Master Pet Tamer>
+							["coord"] = { 59.0, 70.0, SHATTRATH_CITY },
+						}),
+						i(89125),	-- Sack of Pet Supplies
+					},
+				}),
+				q(31930, {	-- Battle Pet Tamers: Pandaria (A)
+					["qg"] = 63596,	-- Audrey Burnhelp
+					["sourceQuest"] = 31985,	-- The Triumphant Return (A)
+					-- ["altQuests"] = { 31952 },
+					["coord"] = { 69.2, 25.0, STORMWIND_CITY },
+					["timeline"] = { ADDED_5_0_4 },
+					["maps"] = { THE_JADE_FOREST, VALLEY_OF_THE_FOUR_WINDS, KRASARANG_WILDS, KUN_LAI_SUMMIT, TOWNLONG_STEPPES, DREAD_WASTES },
+					["races"] = ALLIANCE_ONLY,
+					["groups"] = {
+						objective(1, {	-- Defeat Hyuna of the Shrines
+							["provider"] = { "n", 66730 },	-- Hyuna of the Shrines <Grand Master Pet Tamer>
+							["coord"] = { 48.0, 54.0, THE_JADE_FOREST },
+						}),
+						objective(2, {	-- Defeat Farmer Nishi
+							["provider"] = { "n", 66734 },	-- Farmer Nishi <Grand Master Pet Tamer>
+							["coord"] = { 46.0, 43.6, VALLEY_OF_THE_FOUR_WINDS },
+						}),
+						objective(3, {	-- Defeat Mo'ruk
+							["provider"] = { "n", 66733 },	-- Mo'ruk <Grand Master Pet Tamer>
+							["coord"] = { 65.0, 42.6, KRASARANG_WILDS },
+						}),
+						objective(4, {	-- Defeat Courageous Yon
+							["provider"] = { "n", 66738 },	-- Courageous Yon <Grand Master Pet Tamer>
+							["coord"] = { 35.8, 73.6, KUN_LAI_SUMMIT },
+						}),
+						objective(5, {	-- Defeat Seeker Zusshi
+							["provider"] = { "n", 66918 },	-- Seeker Zusshi <Grand Master Pet Tamer>
+							["coord"] = { 36.2, 52.2, TOWNLONG_STEPPES },
+						}),
+						objective(6, {	-- Defeat Wastewalker Shu
+							["provider"] = { "n", 66739 },	-- Wastewalker Shu <Grand Master Pet Tamer>
+							["coord"] = { 55.0, 37.6, DREAD_WASTES },
 						}),
 						i(89125),	-- Sack of Pet Supplies
 					},
