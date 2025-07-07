@@ -11,7 +11,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					DF_ACCOUNT_CAMPAIGN_QUEST,
 				},
 				["coord"] = { 10.4, 58.3, VALDRAKKEN },
-				["description"] = "Account-Wide Quest.",
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 				["groups"] = {
 					i(199175),	-- Lubbins (PET!)
@@ -22,7 +21,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["qg"] = 185563,	-- Jyhanna
 				["sourceQuest"] = 70647,	-- Oh Where, Oh Where Can He Be?
 				["coord"] = { 10.4, 58.3, VALDRAKKEN },
-				["description"] = "Account-Wide Quest.",
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 				["maps"] = { THE_AZURE_SPAN },
 			}),

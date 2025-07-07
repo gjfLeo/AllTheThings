@@ -233,7 +233,6 @@ root(ROOTS.Zones, {
 							["maps"] = { 391 },	-- Shrine of Two Moons
 						},
 						["sourceAchievement"] = 7499,	-- Taming the World
-						["description"] = "Account-Wide Quest. Need to have completed the achievement, |cffffff00Taming The World.|r",
 						["timeline"] = { ADDED_5_2_0 },
 						["maps"] = { THE_JADE_FOREST, DREAD_WASTES, VALLEY_OF_THE_FOUR_WINDS, TOWNLONG_STEPPES, KUN_LAI_SUMMIT, KRASARANG_WILDS },
 						["groups"] = {
@@ -391,7 +390,7 @@ root(ROOTS.Zones, {
 							["maps"] = { TOWNLONG_STEPPES, KUN_LAI_SUMMIT, THE_JADE_FOREST, DREAD_WASTES, 391 },	-- Shrine of Two Moons
 						},
 						["sourceAchievement"] = 7499,	-- Taming the World
-						["description"] = "Account-Wide Quest. Need to have completed the achievement, |cffffff00Taming The World.|r These pets can be found in the Pandaren Spirit Pet Supplies received from the four Pandaren Spirit Tamers in their individual Daily Quests once you complete this quest.|r",
+						["description"] = "These pets can be found in the Pandaren Spirit Pet Supplies received from the four Pandaren Spirit Tamers in their individual Daily Quests once you complete this quest.",
 						["timeline"] = { ADDED_5_0_4 },
 						["groups"] = {
 							objective(1, {	-- Defeat Burning Pandaren Spirit

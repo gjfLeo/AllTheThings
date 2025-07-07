@@ -9,7 +9,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["qg"] = 196069,	-- Patchu
 				["sourceQuest"] = 70722,	-- What Lubbins Needs
 				["coord"] = { 13.9, 49.8, THE_AZURE_SPAN },
-				["description"] = "Account-Wide Quest.",
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 				["_drop"] = { "g" },	-- Drop Ultimate Battle-Training Stone
 			}),
@@ -17,7 +16,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["qg"] = 196069,	-- Patchu
 				["sourceQuest"] = 70732,	-- A Practice Bout
 				["coord"] = { 13.9, 49.8, THE_AZURE_SPAN },
-				["description"] = "Account-Wide Quest.",
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 				["maps"] = { THE_WAKING_SHORES },
 			}),
@@ -25,7 +23,6 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["qg"] = 196069,	-- Patchu
 				["sourceQuest"] = 70697,	-- An Expert Opinion
 				["coord"] = { 13.9, 49.8, THE_AZURE_SPAN },
-				["description"] = "Account-Wide Quest.",
 				["timeline"] = { ADDED_10_0_2_LAUNCH },
 				["_drop"] = { "g" },	-- Drop Polished Pet Charm
 				["sym"] = {{"select","itemID",
