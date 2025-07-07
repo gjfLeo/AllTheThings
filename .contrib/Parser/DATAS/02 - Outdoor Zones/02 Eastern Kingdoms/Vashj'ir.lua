@@ -14,6 +14,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						26193,	-- Defending the Rift (A)
 						-- TODO: There are a lot more source quests than just this, but no good info on what they are
 					},
+					["maps"] = { VASHJIR_ABYSSAL_DEPTHS },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				ach(5319, {	-- 20,000 Leagues Under the Sea (H)
@@ -21,6 +22,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						26194,	-- Defending the Rift (H)
 						-- TODO: There are a lot more source quests than just this, but no good info on what they are
 					},
+					["maps"] = { VASHJIR_ABYSSAL_DEPTHS },
 					["races"] = HORDE_ONLY,
 				}),
 				ach(4825, {	-- Explore Vashj'ir
@@ -43,7 +45,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #IF RETAIL
 					["_doautomation"] = true,
 					-- #ENDIF
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						25558,	-- All or Nothing
 						25638,	-- A Desperate Plea
@@ -65,7 +67,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #IF RETAIL
 					["_doautomation"] = true,
 					-- #ENDIF
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						25949,	-- Blood and Thunder!
 						25638,	-- A Desperate Plea

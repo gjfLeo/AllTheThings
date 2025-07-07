@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4928, {	-- Darkshore Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38792, {	-- The Great Animal Spirit
 							["sourceQuests"] = {

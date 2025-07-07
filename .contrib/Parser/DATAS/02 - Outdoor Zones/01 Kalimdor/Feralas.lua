@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4932, {	-- Feralas Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38913, {	-- The Fate of Taerar
 							["sourceQuest"] = 25398,	-- Sealing the Dream
@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4979, {	-- Feralas Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38919, {	-- The Fate of Taerar
 							["sourceQuest"] = 25250,	-- Sealing the Dream

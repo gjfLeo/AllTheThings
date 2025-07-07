@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4925, {	-- Ashenvale Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						13626,	-- Respect for the Fallen
 						13853,	-- Return Fire
@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4976, {	-- Ashenvale Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						13653,	-- Crisis at Splintertree
 						13619,	-- Final Report

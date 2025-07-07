@@ -46,12 +46,8 @@ root(ROOTS.Zones, {
 						crit(20531),		-- Kri'chon
 						crit(20532),		-- Vyraxxis
 					}),
-					ach(7324, {	-- One Step at a Time
-						["sym"] = {{ "achievement_criteria" }},
-					}),
-					ach(7319, {	-- Ready for Raiding III
-						["sym"] = {{ "achievement_criteria" }},
-					}),
+					ach(7324),	-- One Step at a Time
+					ach(7319),	-- Ready for Raiding III
 					ach(7322),	-- Roll Club
 					ach(6754),	-- The Dark Heart of the Mogu (automated)
 					ach(6546),	-- The Golden Lotus

@@ -2789,7 +2789,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(851),	-- Explore Tanaris
 				ach(4935, {	-- Tanaris Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						25166,	-- Captain Dreadbeard (A)
 						24950,	-- Captain Dreadbeard (H)

@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ACHIEVEMENTS, {
 				ach(4900, {	-- Badlands Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						27769,	-- Rhea Revealed
 						27930,	-- Devastation

@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4903, {	-- Westfall Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38343, {	-- Crime Scene Investigation
 							["sourceQuest"] = 26270,	-- You Have Our Thanks

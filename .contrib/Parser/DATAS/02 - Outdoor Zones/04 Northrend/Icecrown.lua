@@ -11,24 +11,7 @@ root(ROOTS.Zones, {
 				n(ACHIEVEMENTS, {
 					ach(1270),	-- Explore Icecrown
 					ach(40, {	-- Icecrown: The Final Goal
-						-- #if ANYCLASSIC
-						["sourceQuests"] = {
-							13083,	-- Light Within the Darkness
-							13219,	-- Battle at Valhalas: Final Challenge
-							13235,	-- The Flesh Giant Champion
-							13403,	-- Tirion's Gambit (A)
-							13364,	-- Tirion's Gambit (H)
-							12898,	-- The Shadow Vault (A)
-							12899,	-- The Shadow Vault (H)
-							13174,	-- Amidst the Confusion
-							-- TODO: verify below:
-							13172,	-- Seeds of Chaos
-							13164,	-- The Fate of Bloodbane
-							13157,	-- The Crusaders' Pinnacle
-							13346,	-- No Rest For The Wicked (A)
-							13367,	-- No Rest For The Wicked (H)
-						},
-						-- #else
+						-- #if AFTER 7.3.5
 						crit(39139, {	-- Crusader Bridenbrad
 							["sourceQuest"] = 13083,	-- Light Within the Darkness
 						}),
@@ -98,6 +81,23 @@ root(ROOTS.Zones, {
 						crit(39129, {	-- Corp'rethar: The Horror Gate
 							["races"] = HORDE_ONLY,
 						}),
+						-- #else
+						["sourceQuests"] = {
+							13083,	-- Light Within the Darkness
+							13219,	-- Battle at Valhalas: Final Challenge
+							13235,	-- The Flesh Giant Champion
+							13403,	-- Tirion's Gambit (A)
+							13364,	-- Tirion's Gambit (H)
+							12898,	-- The Shadow Vault (A)
+							12899,	-- The Shadow Vault (H)
+							13174,	-- Amidst the Confusion
+							-- TODO: verify below:
+							13172,	-- Seeds of Chaos
+							13164,	-- The Fate of Bloodbane
+							13157,	-- The Crusaders' Pinnacle
+							13346,	-- No Rest For The Wicked (A)
+							13367,	-- No Rest For The Wicked (H)
+						},
 						-- #endif
 					}),
 					achWithReps(945, { FACTION_ARGENT_DAWN, FACTION_ARGENT_CRUSADE }, {	-- The Argent Champion

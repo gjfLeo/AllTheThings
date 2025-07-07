@@ -8,12 +8,8 @@ root(ROOTS.Zones, {
 			["icon"] = 624970,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					ach(7312, {	-- Amber is the Color of My Energy
-						["sym"] = {{ "achievement_criteria" }},
-					}),
-					ach(6540, {	-- Dread Haste Makes Dread Waste
-						["sym"] = {{ "achievement_criteria" }},
-					}),
+					ach(7312),	-- Amber is the Color of My Energy
+					ach(6540),	-- Dread Haste Makes Dread Waste
 					ach(6978),	-- Explore Dread Wastes
 					ach(6857),	-- Heart of the Mantid Swarm (automated)
 					ach(7316, {	-- Over Their Heads

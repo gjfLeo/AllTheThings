@@ -22,9 +22,7 @@ root(ROOTS.Zones, {
 						crit(21038),	-- Pink Turnip
 						crit(21039),	-- White Turnip
 					}),
-					ach(6301, {	-- Rally the Valley
-						["sym"] = {{ "achievement_criteria" }},
-					}),
+					ach(6301),	-- Rally the Valley
 					ach(7293),	-- Till the Break of Dawn (Halfhill)
 				}),
 				battlepets({

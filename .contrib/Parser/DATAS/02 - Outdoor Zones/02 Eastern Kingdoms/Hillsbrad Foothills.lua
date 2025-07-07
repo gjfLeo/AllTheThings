@@ -23,7 +23,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4895, {	-- Hillsbrad Foothills Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						28237,	-- A Blight Upon the Land
 						28616,	-- Stormpike Apocalypse

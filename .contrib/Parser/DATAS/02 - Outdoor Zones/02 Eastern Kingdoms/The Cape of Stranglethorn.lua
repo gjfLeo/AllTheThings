@@ -20,7 +20,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				})),
 				ach(4905, {	-- Cape of Stranglethorn Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						26814, 26555,	-- High Priest Venoxis (A, H)
 						26612,	-- Details of the Attack

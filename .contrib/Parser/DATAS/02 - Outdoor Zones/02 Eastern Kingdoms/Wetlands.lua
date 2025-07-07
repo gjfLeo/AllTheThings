@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4898, {	-- Wetlands Quests
 					-- In 5.0.4, this was merged into the Loch Modan quests achievement for some stupid reason no one knows the answer to.
 					["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
-					-- #if ANYCLASSIC
+					-- #if BEFORE 5.0.4
 					["sourceQuests"] = {
 						25734,	-- Down in Thelgen Rock
 						25733,	-- Get Out of Here, Stalkers
@@ -47,32 +47,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(12429, {	-- Wetlands Quests
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if ANYCLASSIC
-					["sourceQuests"] = {
-						25734,	-- Down in Thelgen Rock
-						25733,	-- Get Out of Here, Stalkers
-						25735,	-- Incendicite Ore
-						25780,	-- Assault on Menethil Keep
-						25801,	-- Claws from the Deep
-						25805,	-- Return the Statuette
-						25819,	-- The Eye of Paleth
-						25857,	-- Hunting Horrorjaw
-						26189,	-- The Angerfang Menace
-						25868,	-- Yorla Darksnare
-						--[[	TODO: possibly required -- first two from same hub as Yorla Darksnare, second two from same hub as The Angerfang Menace
-						25855,	-- Gizmos and Gadgets
-						25850,	-- Strike the Earth!
-						25853,	-- Tooling Around
-						--]]
-						26128,	-- The Battle of Thandol Span
-						26120,	-- The Crazed Dragonmaw
-						--[[ TODO: possibly needed
-						25939,	-- For Peat's Sake
-						26196,	-- Longbraid the Grim
-						25927,	-- The Threat of Flame
-						]]--
-					},
-					-- #endif
 				}),
 			}),
 			battlepets({

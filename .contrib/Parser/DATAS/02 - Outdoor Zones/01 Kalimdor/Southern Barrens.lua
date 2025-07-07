@@ -15,7 +15,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4937, {	-- Southern Barrens Quests (A)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						25186,	-- Futile Resistance
 						24939,	-- Run Out the Guns
@@ -45,7 +45,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4981, {	-- Southern Barrens Quests (H)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						24513,	-- Eye for an Eye
 						25284,	-- Feeding the Fear

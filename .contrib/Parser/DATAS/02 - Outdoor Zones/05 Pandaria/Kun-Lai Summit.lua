@@ -267,11 +267,9 @@ root(ROOTS.Zones, {
 					}),
 					ach(6537, {	-- Slum It in the Summit (A)
 						["races"] = ALLIANCE_ONLY,
-						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(6538, {	-- Slum It in the Summit (H)
 						["races"] = HORDE_ONLY,
-						["sym"] = {{ "achievement_criteria" }},
 					}),
 				}),
 				battlepets({

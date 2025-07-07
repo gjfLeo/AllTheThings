@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4894, {	-- Silverpine Forest Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38361, {	-- Forsaken High Command
 							["sourceQuest"] = 27056,	-- Belmont's Report

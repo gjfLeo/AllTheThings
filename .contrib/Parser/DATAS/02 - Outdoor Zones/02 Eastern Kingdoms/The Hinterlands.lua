@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(773),	-- Explore The Hinterlands
 				ach(4897, {	-- Hinterlands Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38375, {	-- Quel'Danil Lodge
 							["races"] = ALLIANCE_ONLY,

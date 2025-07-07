@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4907, {	-- Duskwood Quests
 					["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 5.0.4
 					["sourceQuests"] = {
 						26674,	-- Mistmantle's Revenge
 						26754,	-- Morbent's Bane
@@ -27,18 +27,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(12430, {	-- Duskwood Quests
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if ANYCLASSIC
-					["sourceQuests"] = {
-						26674,	-- Mistmantle's Revenge
-						26754,	-- Morbent's Bane
-						26727,	-- The Embalmer's Revenge
-						26797,	-- A Daughter's Love
-						26686,	-- Bones That Walk
-						26623,	-- Dusky Crab Cakes
-						26620,	-- Seasoned Wolf Kabobs
-						26691,	-- Worgen in the Woods
-					},
-					-- #endif
 				}),
 			}),
 			battlepets({

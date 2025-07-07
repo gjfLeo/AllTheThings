@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(775),	-- Explore Burning Steppes
 				ach(4901, {	-- Burning Steppes Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						28183,	-- Return to Keeshan (A)
 						28425,	-- Return to Ariok (H)

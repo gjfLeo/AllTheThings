@@ -37,24 +37,7 @@ root(ROOTS.Zones, {
 					ach(1265),	-- Explore Dragonblight
 					ach(35, {	-- Might of Dragonblight (A)
 						["races"] = ALLIANCE_ONLY,
-						-- #if ANYCLASSIC
-						["sourceQuests"] = {
-							12169,	-- The High Cultist
-							12107,	-- The End of the Line
-							12123,	-- Informing the Queen
-							13343,	-- Mystery of the Infinite, Redux
-							12459,	-- That Which Creates Can Also Destroy
-							-- TODO:: confirm below
-							12266,	-- Tales of Destruction
-							12419,	-- The Fate of the Ruby Dragonshrine
-							12456,	-- The Plume of Alystros
-							12499,	-- Return to Angrathar
-							12478,	-- Frostmourne Cavern
-							12080,	-- Really Big Worm
-							12078,	-- Worm Wrangler
-							12032,	-- Conversing With the Depths
-						},
-						-- #else
+						-- #if AFTER 7.3.5
 						["groups"] = {
 							crit(39007, {	-- The Warden's Task
 								["sourceQuest"] = 12169,	-- The High Cultist
@@ -93,30 +76,28 @@ root(ROOTS.Zones, {
 								["sourceQuest"] = 12032,	-- Conversing With the Depths
 							}),
 						},
-						-- #endif
-					}),
-					ach(1359, {	-- Might of Dragonblight (H)
-						["races"] = HORDE_ONLY,
-						-- #if ANYCLASSIC
+						-- #else
 						["sourceQuests"] = {
-							12008,	-- Agmar's Hammer
-							12136,	-- The Translated Tome
-							12110,	-- The End of the Line
-							12111,	-- Where the Wild Things Roam
-							12500,	-- Return To Angrathar
-							12124,	-- Informing the Queen
+							12169,	-- The High Cultist
+							12107,	-- The End of the Line
+							12123,	-- Informing the Queen
 							13343,	-- Mystery of the Infinite, Redux
 							12459,	-- That Which Creates Can Also Destroy
 							-- TODO:: confirm below
 							12266,	-- Tales of Destruction
 							12419,	-- The Fate of the Ruby Dragonshrine
 							12456,	-- The Plume of Alystros
+							12499,	-- Return to Angrathar
+							12478,	-- Frostmourne Cavern
 							12080,	-- Really Big Worm
 							12078,	-- Worm Wrangler
-							12285,	-- Do Unto Others
 							12032,	-- Conversing With the Depths
 						},
-						-- #else
+						-- #endif
+					}),
+					ach(1359, {	-- Might of Dragonblight (H)
+						["races"] = HORDE_ONLY,
+						-- #if AFTER 7.3.5
 						["groups"] = {
 							crit(39018, {	-- The Taunka
 								["sourceQuest"] = 12008,	-- Agmar's Hammer
@@ -161,6 +142,25 @@ root(ROOTS.Zones, {
 								["sourceQuest"] = 12032,	-- Conversing With the Depths
 							}),
 						},
+						-- #else
+						["sourceQuests"] = {
+							12008,	-- Agmar's Hammer
+							12136,	-- The Translated Tome
+							12110,	-- The End of the Line
+							12111,	-- Where the Wild Things Roam
+							12500,	-- Return To Angrathar
+							12124,	-- Informing the Queen
+							13343,	-- Mystery of the Infinite, Redux
+							12459,	-- That Which Creates Can Also Destroy
+							-- TODO:: confirm below
+							12266,	-- Tales of Destruction
+							12419,	-- The Fate of the Ruby Dragonshrine
+							12456,	-- The Plume of Alystros
+							12080,	-- Really Big Worm
+							12078,	-- Worm Wrangler
+							12285,	-- Do Unto Others
+							12032,	-- Conversing With the Depths
+						},
 						-- #endif
 					}),
 					achWithRep(1007, FACTION_THE_WYRMREST_ACCORD, {	-- The Wyrmrest Accord
@@ -169,12 +169,7 @@ root(ROOTS.Zones, {
 					achWithRep(949, FACTION_THE_KALUAK, {	-- Tuskarrmageddon
 						["maps"] = { BOREAN_TUNDRA, HOWLING_FJORD },
 					}),
-					ach(547, {	-- Veteran of the Wrathgate
-						["sourceQuests"] = {
-							12499,	-- Return to Angrathar (A)
-							12500,	-- Return to Angrathar (H)
-						},
-					}),
+					ach(547),	-- Veteran of the Wrathgate
 				}),
 				battlepets({
 					["sym"] = {{"select","speciesID",

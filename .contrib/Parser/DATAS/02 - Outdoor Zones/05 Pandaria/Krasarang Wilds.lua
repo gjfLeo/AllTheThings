@@ -17,11 +17,9 @@ root(ROOTS.Zones, {
 					ach(6975),	-- Explore Krasarang Wilds
 					ach(6535, {	-- Mighty Roamin' Krasaranger (Alliance)
 						["races"] = ALLIANCE_ONLY,
-						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(6536, {	-- Mighty Roamin' Krasaranger (Horde)
 						["races"] = HORDE_ONLY,
-						["sym"] = {{ "achievement_criteria" }},
 					}),
 				}),
 				battlepets({

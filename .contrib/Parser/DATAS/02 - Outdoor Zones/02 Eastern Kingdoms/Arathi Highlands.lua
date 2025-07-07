@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ACHIEVEMENTS, {
 				ach(4896, {	-- Arathi Highlands Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38274, {	-- Faldir's Cove
 							["sourceQuest"] = 26628,	-- Death From Below

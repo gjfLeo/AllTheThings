@@ -23,15 +23,9 @@ root(ROOTS.Zones, {
 						crit(20458),	-- Tenwu of the Red Smoke
 						crit(20459),	-- Lao-Chin the Iron Belly
 					}),
-					ach(7308, {	-- Know Your Role
-						["sym"] = {{ "achievement_criteria" }},
-					}),
-					ach(7299, {	-- Loner and a Rebel
-						["sym"] = {{ "achievement_criteria" }},
-					}),
-					ach(6539, {	-- One Steppe Forward, Two Steppes Back
-						["sym"] = {{ "achievement_criteria" }},
-					}),
+					ach(7308),	-- Know Your Role
+					ach(7299),	-- Loner and a Rebel
+					ach(6539),	-- One Steppe Forward, Two Steppes Back
 					ach(7297, {	-- Proven Strength (Shado-Pan Garrison)
 						crit(22174),	-- Fei Li
 						crit(22168),	-- Snow Blossom

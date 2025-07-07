@@ -42,7 +42,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4929, {	-- Dustwallow Marsh Quests (Alliance)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						27213,	-- The End of the Deserters
 						27190,	-- Cleansing Witch Hill
@@ -60,7 +60,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4978, {	-- Dustwallow Marsh Quests (Horde)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						26682,	-- A Shambling Threat
 						25051,	-- Darkmist Extermination

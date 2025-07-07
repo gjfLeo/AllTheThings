@@ -31,7 +31,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #IF RETAIL
 					["_doautomation"] = true,
 					-- #ENDIF
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						28112,	-- Escape From the Lost City
 						28533,	-- The High Council's Decision

@@ -32,45 +32,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_2_0 },
 					["requireSkill"] = FISHING,
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						crit(15817, {	-- Clammy Hands
-							["_quests"] = { 26543 },
-						}),
-						crit(15818, {	-- No Dumping Allowed
-							["_quests"] = { 26556 },
-						}),
-						crit(15819, {	-- A Staggering Effort
-							["_quests"] = { 26557 },
-						}),
-						crit(15820, {	-- A Furious Catch
-							["_quests"] = { 26588 },
-						}),
-						crit(15821, {	-- A Golden Opportunity
-							["_quests"] = { 26572 },
-						}),
-					},
 				})),
 				applyclassicphase(CATA_PHASE_ONE, ach(5475, {	-- Let's Do Lunch: Orgrimmar
 					["timeline"] = { ADDED_4_2_0 },
 					["requireSkill"] = COOKING,
 					["races"] = HORDE_ONLY,
-					["groups"] = {
-						crit(15807, {	-- Careful, This Fruit Bites Back
-							["_quests"] = { 26227 },
-						}),
-						crit(15808, {	-- Crawfish Creole
-							["_quests"] = { 26226 },
-						}),
-						crit(15809, {	-- Even Thieves Get Hungry
-							["_quests"] = { 26235 },
-						}),
-						crit(15810, {	-- Everything Is Better with Bacon
-							["_quests"] = { 26220 },
-						}),
-						crit(16244, {	-- Stealing From Our Own
-							["_quests"] = { 26233, 26234 },
-						}),
-					},
 				})),
 				applyclassicphase(TBC_PHASE_ONE, ach(1836, {	-- Old Crafty
 					["provider"] = { "i", 34486 },	-- Old Crafty

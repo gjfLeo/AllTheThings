@@ -11,7 +11,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4899, {	-- Loch Modan Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						26148,	-- A Decisive Strike
 						26147,	-- Bigger and Uglier
@@ -29,6 +29,32 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						--	above definitely required; unclear if these are
 						--	27028,	-- Hornet Hunting
 						--	27030,	-- Foxtails by the Handful
+						
+						-- #if AFTER 5.0.4
+						-- Patch 5.0.4 (2012-08-28): Merged with Wetlands quests. 
+						25734,	-- Down in Thelgen Rock
+						25733,	-- Get Out of Here, Stalkers
+						25735,	-- Incendicite Ore
+						25780,	-- Assault on Menethil Keep
+						25801,	-- Claws from the Deep
+						25805,	-- Return the Statuette
+						25819,	-- The Eye of Paleth
+						25857,	-- Hunting Horrorjaw
+						26189,	-- The Angerfang Menace
+						25868,	-- Yorla Darksnare
+						--[[	TODO: possibly required -- first two from same hub as Yorla Darksnare, second two from same hub as The Angerfang Menace
+						25855,	-- Gizmos and Gadgets
+						25850,	-- Strike the Earth!
+						25853,	-- Tooling Around
+						--]]
+						26128,	-- The Battle of Thandol Span
+						26120,	-- The Crazed Dragonmaw
+						--[[ TODO: possibly needed
+						25939,	-- For Peat's Sake
+						26196,	-- Longbraid the Grim
+						25927,	-- The Threat of Flame
+						]]--
+						-- #endif
 					},
 					-- #endif
 				}),

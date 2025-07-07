@@ -10,7 +10,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(853),	-- Explore Felwood
 				ach(4931, {	-- Felwood Quests
 					["timeline"] = { ADDED_4_0_3},
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						27997,	-- The Corruption of the Jadefire
 						28148,	-- Culling the Corrupted

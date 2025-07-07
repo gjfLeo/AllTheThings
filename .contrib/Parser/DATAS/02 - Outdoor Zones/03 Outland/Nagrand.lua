@@ -50,9 +50,7 @@ root(ROOTS.Zones, {
 				n(ACHIEVEMENTS, {
 					achWithRep(902, FACTION_THE_CONSORTIUM),	-- Chief Exalted Officer
 					ach(866),	-- Explore Nagrand
-					ach(939, {	-- Hills Like White Elekk
-						["sourceQuest"] = 9852,	-- The Ultimate Bloodsport
-					}),
+					ach(939),	-- Hills Like White Elekk
 					achWithRep(901, FACTION_THE_MAGHAR, {	-- Mag'har of Draenor
 						["races"] = HORDE_ONLY,
 					}),

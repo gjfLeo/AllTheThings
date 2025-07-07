@@ -26,7 +26,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4933, {	-- Northern Barrens Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38779, {	-- Far Watch
 							["sourceQuests"] = {

@@ -57,7 +57,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #IF RETAIL
 					["_doautomation"] = true,
 					-- #ENDIF
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						27468,	-- Siege Tank Rescue
 						27545,	-- The Way is Open
@@ -80,7 +80,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #IF RETAIL
 					["_doautomation"] = true,
 					-- #ENDIF
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						26337,	-- Beating the Market
 						26840,	-- Return to the Highlands
@@ -94,17 +94,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #endif
 				}),
 				ach(4960, {	-- Round Three. Fight!
-					["sourceQuest"] = 27868,	-- The Crucible of Carnage: The Twilight Terror!
 					["timeline"] = { ADDED_4_0_3 },
-				}),
-				ach(4958, {	-- The First Rule of Ring of Blood is You Don't Talk About Ring of Blood
-					["timeline"] = { ADDED_4_0_3 },
-					["collectible"] = false,	-- not all criteria are available in this zone, so the header shouldn't be collectible here.
-					["groups"] = {
-						crit(13918, {	-- Crucible of Carnage in Twilight Highlands
-							["sourceQuest"] = 27868,	-- The Crucible of Carnage: The Twilight Terror!
-						}),
-					},
 				}),
 				achWithRep(4885, FACTION_WILDHAMMER_CLAN, {	-- Wildhammer Clan
 					["races"] = ALLIANCE_ONLY,
@@ -2680,10 +2670,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 46935,	-- Gurgthock
 				}),
 				q(27868, {	-- The Crucible of Carnage: The Twilight Terror!
+					["qg"] = 46935,	-- Gurgthock
 					["sourceQuest"] = 27867,	-- The Crucible of Carnage: The Earl of Evisceration!
 					["coord"] = { 50.6, 58.3, TWILIGHT_HIGHLANDS },
-					["qg"] = 46935,	-- Gurgthock
 					["groups"] = {
+						ach(4960, {	-- Round Three. Fight!
+							["timeline"] = { ADDED_4_0_3 },
+						}),
 						i(63790),	-- Gurgthock's Garish Gorebat
 						i(63792),	-- Laquered Lung-Leak Longknife
 						i(63788),	-- Calder's Coated Carrion Carver

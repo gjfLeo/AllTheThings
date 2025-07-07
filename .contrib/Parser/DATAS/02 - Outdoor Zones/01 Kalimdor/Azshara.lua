@@ -14,7 +14,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(4927, {	-- Azshara Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						14155,	-- Arborcide
 						14216,	-- Mystery of the Sarcen Stone

@@ -759,9 +759,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			n(ACHIEVEMENTS, {
 				ach(4892, {	-- Eastern Plaguelands Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if AFTER MOP
-					["sym"] = {{ "achievement_criteria" }},
-					-- #else
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						27373,    -- Onward, to Light's Hope Chapel
 						27391,    -- Hidden Treasures

@@ -78,7 +78,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(856),	-- Explore Silithus
 				ach(4934, {	-- Silithus Quests
 					["timeline"] = { ADDED_4_0_3 },
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38738, {	-- Twilight's Run
 							["sourceQuest"] = 8321,	-- Vyral the Vile

@@ -11,31 +11,7 @@ root(ROOTS.Zones, {
 					ach(1264),	-- Explore Borean Tundra
 					ach(33, {	-- Nothing Boring About Borean (A)
 						["races"] = ALLIANCE_ONLY,
-						-- #if ANYCLASSIC
-						["sourceQuests"] = {
-							11794,	-- The Hunt is On
-							11965,	-- Call to Arms!
-							12035,	-- Repurposed Technology
-							11913,	-- Take No Chances
-							11892,	-- The Assassination of Harold Lane
-							11931,	-- Cracking the Code
-							11914,	-- Keep the Secret Safe
-							12728,	-- Monitoring the Rift: Winterfin Cavern	-- verify this
-							11900,	-- Reading the Meters	-- verify this
-							11910,	-- Secrets of the Ancients	-- verify this
-							11969,	-- Springing the Trap
-							11733,	-- Traversing the Rift
-							11626,	-- The Emissary
-							11968,	-- The Tides Turn
-							11570,	-- Escape from the Winterfin Caverns
-							11569,	-- Keymaster Urmgrgl
-							11564,	-- Succulent Orca Stew
-							11566,	-- Surrender... Not!
-							11561,	-- Them!
-							12088,	-- Thassarian, the Death Knight
-							12019,	-- Last Rites
-						},
-						-- #else
+						-- #if AFTER 7.3.5
 						["groups"] = {
 							crit(39025, {	-- Hiding in Plain Sight
 								["sourceQuest"] = 11794,	-- The Hunt is On
@@ -95,15 +71,12 @@ root(ROOTS.Zones, {
 								["sourceQuest"] = 12019,	-- Last Rites
 							}),
 						},
-						-- #endif
-					}),
-					ach(1358, {	-- Nothing Boring About Borean (H)
-						["races"] = HORDE_ONLY,
-						-- #if ANYCLASSIC
+						-- #else
 						["sourceQuests"] = {
-							11638,	-- Return My Remains
-							11652,	-- The Plains of Nasam
-							11705,	-- Foolish Endeavors
+							11794,	-- The Hunt is On
+							11965,	-- Call to Arms!
+							12035,	-- Repurposed Technology
+							11913,	-- Take No Chances
 							11892,	-- The Assassination of Harold Lane
 							11931,	-- Cracking the Code
 							11914,	-- Keep the Secret Safe
@@ -119,16 +92,14 @@ root(ROOTS.Zones, {
 							11564,	-- Succulent Orca Stew
 							11566,	-- Surrender... Not!
 							11561,	-- Them!
-							11916,	-- Hellscream's Champion
-							11906,	-- Cleaning Up the Pools
-							11909,	-- Defeat the Gearmaster
-							-- 11683,	-- Fallen Necropolis	-- needs verification
-							11689,	-- Return with the Bad News
-							11706,	-- The Collapse
-							11907,	-- The Sub-Chieftains
-							11930,	-- Across Transborea
+							12088,	-- Thassarian, the Death Knight
+							12019,	-- Last Rites
 						},
-						-- #else
+						-- #endif
+					}),
+					ach(1358, {	-- Nothing Boring About Borean (H)
+						["races"] = HORDE_ONLY,
+						-- #if AFTER 7.3.5
 						["groups"] = {
 							crit(39043, {	-- The Fate of Farseer Grimwalker
 								["sourceQuest"] = 11638,	-- Return My Remains
@@ -199,6 +170,35 @@ root(ROOTS.Zones, {
 							crit(39052, {	-- Somber Realization
 								["sourceQuest"] = 11930,	-- Across Transborea
 							}),
+						},
+						-- #else
+						["sourceQuests"] = {
+							11638,	-- Return My Remains
+							11652,	-- The Plains of Nasam
+							11705,	-- Foolish Endeavors
+							11892,	-- The Assassination of Harold Lane
+							11931,	-- Cracking the Code
+							11914,	-- Keep the Secret Safe
+							12728,	-- Monitoring the Rift: Winterfin Cavern	-- verify this
+							11900,	-- Reading the Meters	-- verify this
+							11910,	-- Secrets of the Ancients	-- verify this
+							11969,	-- Springing the Trap
+							11733,	-- Traversing the Rift
+							11626,	-- The Emissary
+							11968,	-- The Tides Turn
+							11570,	-- Escape from the Winterfin Caverns
+							11569,	-- Keymaster Urmgrgl
+							11564,	-- Succulent Orca Stew
+							11566,	-- Surrender... Not!
+							11561,	-- Them!
+							11916,	-- Hellscream's Champion
+							11906,	-- Cleaning Up the Pools
+							11909,	-- Defeat the Gearmaster
+							-- 11683,	-- Fallen Necropolis	-- needs verification
+							11689,	-- Return with the Bad News
+							11706,	-- The Collapse
+							11907,	-- The Sub-Chieftains
+							11930,	-- Across Transborea
 						},
 						-- #endif
 					}),

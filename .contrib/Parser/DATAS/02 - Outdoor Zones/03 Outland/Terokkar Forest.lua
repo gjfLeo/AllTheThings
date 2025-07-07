@@ -29,9 +29,7 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(867),	-- Explore Terokkar Forest
-					applyclassicphase(TBC_PHASE_TWO_SKYGUARD, achWithRep(894, FACTION_SHATARI_SKYGUARD, {	-- Flying High Over Skettis
-
-					})),
+					applyclassicphase(TBC_PHASE_TWO_SKYGUARD, achWithRep(894, FACTION_SHATARI_SKYGUARD)),	-- Flying High Over Skettis
 					ach(726, {	-- Mr. Pinchy's Magical Crawdad Box
 						["provider"] = { "i", 27445 },	-- Magical Crawdad Box
 						["requireSkill"] = FISHING,
@@ -39,28 +37,6 @@ root(ROOTS.Zones, {
 					ach(905, {	-- Old Man Barlowned
 						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
-						["groups"] = {
-							crit(5706, {	-- Crocolisks in the City
-								["timeline"] = { ADDED_3_0_2 },
-								["_quests"] = { 11665 },
-							}),
-							crit(5707, {	-- Bait Bandits
-								["timeline"] = { ADDED_3_0_2 },
-								["_quests"] = { 11666 },
-							}),
-							crit(5708, {	-- Felblood Fillet
-								["timeline"] = { ADDED_3_0_2 },
-								["_quests"] = { 11669 },
-							}),
-							crit(5709, {	-- The One That Got Away
-								["timeline"] = { ADDED_3_0_2 },
-								["_quests"] = { 11667 },
-							}),
-							crit(5710, {	-- Shrimpin' Ain't Easy
-								["timeline"] = { ADDED_3_0_2 },
-								["_quests"] = { 11668 },
-							}),
-						},
 					}),
 					ach(1191, {	-- Terror of Terokkar (A)
 						["races"] = ALLIANCE_ONLY,

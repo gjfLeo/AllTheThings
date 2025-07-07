@@ -18,7 +18,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					-- #IF RETAIL
 					["_doautomation"] = true,
 					-- #ENDIF
-					-- #if ANYCLASSIC
+					-- #if BEFORE 7.3.5
 					["sourceQuests"] = {
 						25584,	-- The Return of the Ancients
 						25298,	-- Free Your Mind, the Rest Follows

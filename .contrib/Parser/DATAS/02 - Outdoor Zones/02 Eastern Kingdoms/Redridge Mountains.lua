@@ -16,7 +16,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4902, {	-- Redridge Mountain Quests
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
-					-- #if AFTER MOP
+					-- #if AFTER 7.3.5
 					["groups"] = {
 						crit(38367, {	-- The Gnoll Offensive
 							["sourceQuest"] = 26545,	-- Yowler Must Die!
