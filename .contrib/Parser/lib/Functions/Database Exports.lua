@@ -229,7 +229,9 @@ for i,mapID in ipairs({
 	2276,	-- Khaz Algar
 	2298,	-- Nerub-ar Palace (has FPs inside)
 	2374,	-- Undermine
+	-- if AFTER 11.2
 	2398,	-- K'aresh
+	-- #endif
 	-- #endif
 })
 do table.insert(FlightPathMapIDs, mapID); end
