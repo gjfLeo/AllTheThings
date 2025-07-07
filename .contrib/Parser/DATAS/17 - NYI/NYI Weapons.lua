@@ -276,6 +276,14 @@ root(ROOTS.NeverImplemented, {
 			expansion(EXPANSION.MOP, {
 				i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
 				i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
+				i(79720),	-- Monster - Staff, Panda A01
+				i(79721),	-- Monster - Staff, Panda A01 - Blue
+				i(79722),	-- Monster - Staff, Panda A01 - Green
+				i(79723),	-- Monster - Staff, Panda A01 - Purple
+				i(79716),	-- Monster - Staff, Panda B01 - Blue
+				i(79717),	-- Monster - Staff, Panda B01 - Gold
+				i(79718),	-- Monster - Staff, Panda B01 - Jade
+				i(79719),	-- Monster - Staff, Panda B01 - Red
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,01), {

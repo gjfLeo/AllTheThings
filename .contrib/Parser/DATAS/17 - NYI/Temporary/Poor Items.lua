@@ -2968,14 +2968,6 @@ root(ROOTS.NeverImplemented, {
 					i(80007),	-- Monster - PVP_320_C_01, Dark
 					i(80290),	-- Monster - PVP_320_C_01, Dark (Scholomance Acolyte)
 					i(93368),	-- Monster - Staff_2h_PVP400_C_01 - Blue
-					i(79720),	-- Monster - Staff, Panda A01
-					i(79721),	-- Monster - Staff, Panda A01 - Blue
-					i(79722),	-- Monster - Staff, Panda A01 - Green
-					i(79723),	-- Monster - Staff, Panda A01 - Purple
-					i(79716),	-- Monster - Staff, Panda B01 - Blue
-					i(79717),	-- Monster - Staff, Panda B01 - Gold
-					i(79718),	-- Monster - Staff, Panda B01 - Jade
-					i(79719),	-- Monster - Staff, Panda B01 - Red
 					i(79980),	-- Monster - Stave_2h_430Future_C_01 - Test
 					i(97562),	-- Monster - Stave_2h_deathwingraid_d_03 Red
 					i(80292),	-- Monster, Malevolence (Scholomance Neophyte)
