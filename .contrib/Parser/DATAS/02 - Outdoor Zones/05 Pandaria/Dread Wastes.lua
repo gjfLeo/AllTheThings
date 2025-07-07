@@ -80,14 +80,7 @@ root(ROOTS.Zones, {
 					ach(7321),	-- Spreading the Warmth
 					ach(7314),	-- Test Drive
 					ach(8023, {		-- Wakener
-						-- Meta Achievement
-						["sym"] = {{"meta_achievement",
-							7312,		-- Amber is the Color of My Energy
-							6545,		-- Klaxxi
-						}},
-						["g"] = {
-							title(218),		-- <Name> the Wakener
-						},
+						title(218),		-- <Name> the Wakener
 					}),
 				}),
 				battlepets({

@@ -55,10 +55,8 @@ root(ROOTS.Zones, {
 					ach(8120),	-- Direhorn in a China Shop
 					ach(8117),	-- For the Ward!
 					ach(8051),	-- Gods and Monsters (automated)
-					ach(8099, {		-- Isle of Thunder
-						["sym"] = {{ "achievement_criteria" }},
-					}),
-					ach(8101, {	-- It Was Worth Every Ritual Stone
+					ach(8099),	-- Isle of Thunder [TODO: This looks weird]
+					ach(8101, {	-- It Was Worth Every Ritual Stone [TODO: This looks weird]
 						crit(22814),	-- Spirit of Warlord Teng
 						crit(22815),	-- Kor'dok and Tinzo the Emberkeeper
 						crit(22812),	-- Echo of Kros
@@ -73,24 +71,17 @@ root(ROOTS.Zones, {
 						crit(22844),	-- All four blessings active
 						crit(22845),	-- No blessings active
 					}),
-					ach(8100),	-- Pay to Slay
+					ach(8100),	-- Pay to Slay [TODO: This looks weird]
 					ach(8114),	-- Platform Hero
 					ach(8107),	-- Ready for RAAAAIIIIDDD?!?ing
 					ach(8050),	-- Rumbles of Thunder (automated)
 					ach(8115),	-- Speed Metal
 					ach(8049),	-- The Zandalari Prophecy (automated)
-					ach(8110, {	-- These Mogu Have Gotta Go-gu
-						ach(8109),	-- The Mogu Below-gu
-						crit(22836, {	-- Haqin of the Hundred Spears slain
-							["_npcs"] = { 69800 },
-						}),
-						crit(22837, {	-- Forgemaster Deng slain
-							["_npcs"] = { 69809 },
-						}),
-						crit(22838, {	-- Sparkmancer Vu slain
-							["_npcs"] = { 69961 },
-						}),
+					ach(8109, {	-- The Mogu Below-gu
+						["_noautomation"] = true,	-- Glorious! shows them all anyways
+						["sym"] = {{"partial_achievement",8110}},	-- These Mogu Have Gotta Go-gu
 					}),
+					ach(8110),	-- These Mogu Have Gotta Go-gu (automated)
 					ach(8111, {	-- This Isn't Even My Final Form
 						["description"] = "Kill Drakkari God-Hulk patrolling on foot path near coord, then drink a Zandalari Potion nearby.",
 						["coord"] = { 36.6, 70.2, ISLE_OF_THUNDER },
@@ -109,9 +100,7 @@ root(ROOTS.Zones, {
 					ach(8116, {	-- You Made Me Bleed My Own Blood
 						["provider"] = { "n", 69435 },	-- Fleshcrafter Hoku
 					}),
-					ach(8212, {	-- Zandalari Library Card
-						["sym"] = {{ "achievement_criteria" }},
-					}),
+					ach(8212),	-- Zandalari Library Card
 				}),
 				petbattle(filter(BATTLE_PETS, {
 					pet(1181),	-- Elder Python (PET!)

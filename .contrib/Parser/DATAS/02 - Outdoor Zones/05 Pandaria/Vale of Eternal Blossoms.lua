@@ -24,28 +24,7 @@ root(ROOTS.Zones, {
 					ach(6846),	-- Fish Tales (automated)
 					ach(6850),	-- Hozen in the Mist (automated)
 					ach(7230),	-- Legend of the Brewfathers (automated)
-					ach(7317, {	-- One Many Army
-						crit(20517),		-- Cracklefang
-						crit(20518),		-- Vicejaw
-						crit(20519),		-- General Temuja
-						crit(20520),		-- Shadowmaster Sydow
-						crit(20521, {		-- Aetha
-							["crs"] = { 58778 },
-						}),
-						crit(20522, {		-- Quid
-							["crs"] = { 58771 },
-						}),
-						crit(20523),		-- Spirit of Lao-Fe
-						crit(20524),		-- Baolai the Immolator
-						crit(20525),		-- Gaohun the Soul-Severer
-						crit(20526),		-- Bloodtip
-						crit(20527),		-- Wulon
-						crit(20528),		-- Gochao the Ironfist
-						crit(20529),		-- Huo-Shuang
-						crit(20530),		-- Bai-Jin the Butcher
-						crit(20531),		-- Kri'chon
-						crit(20532),		-- Vyraxxis
-					}),
+					ach(7317),	-- One Many Army
 					ach(7324),	-- One Step at a Time
 					ach(7319),	-- Ready for Raiding III
 					ach(7322),	-- Roll Club

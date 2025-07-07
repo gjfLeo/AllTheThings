@@ -217,75 +217,7 @@ root(ROOTS.PetBattles, petbattle({
 		ach(6559, {	-- Traveling Pet Mauler (30)
 			["sym"] = {{"partial_achievement",6560}},	-- World Pet Mauler (60)
 		}),
-		ach(6560, {	-- World Pet Mauler (60)
-			crit(21389),	-- Durotar
-			crit(21546),	-- Azuremyst Isle
-			crit(21545),	-- Teldrassil
-			crit(21543),	-- Mulgore
-			crit(21547),	-- Bloodmyst Isle
-			crit(21390),	-- Northern Barrens
-			crit(21537),	-- Azshara
-			crit(21536),	-- Darkshore
-			crit(21391),	-- Ashenvale
-			crit(21529),	-- Stonetalon Mountains
-			crit(21392),	-- Feralas
-			crit(21532),	-- Thousand Needles
-			crit(21533),	-- Tanaris
-			crit(21535),	-- Southern Barrens
-			crit(21539),	-- Felwood
-			crit(21534),	-- Un'Goro Crater
-			crit(21544),	-- Dustwallow Marsh
-			crit(21542),	-- Silithus
-			crit(21540),	-- Winterspring
-			crit(21538),	-- Mount Hyjal
-			crit(21541),	-- Uldum
-			crit(21548),	-- Elwynn Forest
-			crit(21549),	-- Westfall
-			crit(21550),	-- Redridge Mountains
-			crit(21551),	-- Duskwood
-			crit(21552),	-- Northern Stranglethorn
-			crit(21553),	-- Swamp of Sorrows
-			crit(21554),	-- Blasted Lands
-			crit(21555),	-- Burning Steppes
-			crit(21556),	-- Searing Gorge
-			crit(21557),	-- Badlands
-			crit(21558),	-- Dun Morogh
-			crit(21559),	-- Loch Modan
-			crit(21560),	-- Wetlands
-			crit(21561),	-- Twilight Highlands
-			crit(21562),	-- Arathi Highlands
-			crit(21563),	-- Hillsbrad Foothills
-			crit(21564),	-- The Hinterlands
-			crit(21565),	-- Silverpine Forest
-			crit(21566),	-- Tirisfal Glades
-			crit(21567),	-- Eastern Plaguelands
-			crit(21568),	-- Western Plaguelands
-			crit(21569),	-- Ghostlands
-			crit(21570),	-- Eversong Woods
-			crit(21571),	-- Hellfire Peninsula
-			crit(21572),	-- Zangarmarsh
-			crit(21573),	-- Terokkar Forest
-			crit(21574),	-- Nagrand
-			crit(21575),	-- Blade's Edge Mountains
-			crit(21576),	-- Netherstorm
-			crit(21577),	-- Shadowmoon Valley
-			crit(21578),	-- Borean Tundra
-			crit(21579),	-- Howling Fjord
-			crit(21580),	-- Dragonblight
-			crit(21581),	-- Sholazar Basin
-			crit(21582),	-- Grizzly Hills
-			crit(21583),	-- Zul'Drak
-			crit(21584),	-- The Storm Peaks
-			crit(21585),	-- Icecrown
-			crit(21586),	-- Deepholm
-			crit(21587),	-- The Jade Forest
-			crit(21588),	-- Valley of the Four Winds
-			crit(21589),	-- Krasarang Wilds
-			crit(21590),	-- Kun-Lai Summit
-			crit(21591),	-- Dread Wastes
-			crit(21592),	-- Townlong Steppes
-			crit(21593),	-- Vale of Eternal Blossoms
-		}),
+		ach(6560),	-- World Pet Mauler (60) (automated)
 		ach(16731,	bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {	-- Court is Now in Session
 			crit(56693),	-- Lord Basilton
 			crit(56700),	-- Lady Feathersworth
