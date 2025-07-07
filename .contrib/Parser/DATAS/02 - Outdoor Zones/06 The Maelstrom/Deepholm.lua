@@ -63,7 +63,7 @@ root(ROOTS.Zones, {
 			["groups"] = {
 				n(ACHIEVEMENTS, {
 					ach(4871, {	-- Deep into Deepholm
-						-- #if AFTER MOP
+						-- #if AFTER 7.3.5
 						crit(39584, {	-- The Middle World Pillar Fragment
 							["sourceQuest"] = 27938,	-- The Middle Fragment
 						}),
