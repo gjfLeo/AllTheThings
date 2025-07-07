@@ -3058,7 +3058,6 @@ root(ROOTS.Unsorted, {
 				i(163084),	-- Solid Gold Cutlass \\ Gold-Plated Cutlass
 				i(163085),	-- Onion Garland
 				i(163086),	-- Crimsonwood Dentures
-				i(163087),	-- Satchel of Blood Oranges
 				i(163088),	-- Perfectly Ordinary Broomstick
 				i(163089),	-- Long-Stemmed Pipe
 				i(163090),	-- Cured Billow-Weed
@@ -3072,7 +3071,6 @@ root(ROOTS.Unsorted, {
 				i(163113),	-- Corroded Copper Kettle \\ Copper Tea Kettle
 				i(163171),	-- De Gral Kantik
 				i(163172),	-- Green Glowing Puffer
-				i(163321),	-- Jason's Rusty Blade
 				i(163322),	-- Ian's Empty Bottle
 				i(163324),	-- Brian's Broken Compass
 				i(163325),	-- Ofer's Bound Journal
@@ -3281,7 +3279,6 @@ root(ROOTS.Unsorted, {
 				i(158727),	-- Decayed Equipment
 				i(161198),	-- Old Sailor's Almanac
 				i(161202),	-- Polished Brass Sextant
-				i(161203),	-- Shanty Sheet Music
 				i(161204),	-- Oily Glass Eyeball \\ Glass Eyeball
 				i(161205),	-- Wooden Horse Carving
 				i(161207),	-- Admiral's Black Rum \\ Admiral's Spiced Black Rum
@@ -3937,7 +3934,6 @@ root(ROOTS.Unsorted, {
 			i(166854),	-- Jade Sethraliss Effigy
 			i(166855),	-- Obsidian Statue of Kith'ix
 			i(166857),	-- Bethekk's Emerald Eyes
-			i(166859),	-- Zinj'alor Blue Diamond
 			i(166860),	-- Azj'Aqir Onyx Stone
 			i(166861),	-- Hakkari Blood Garnet
 			i(166862),	-- Crystal Aqiri Skull
@@ -4298,7 +4294,6 @@ root(ROOTS.Unsorted, {
 			i(170269),	-- Elemental Chargestone
 			i(170272),	-- War-Torn Memento
 			i(170379),	-- Sunwarmed Sand
-			i(170512),	-- Lesser Benthic Arcanocrystal
 			i(168632),	-- Slipstream Generator
 			i(168633),	-- Supplemental Oxygenation Device
 			i(168648),	-- Emergency Anti-Gravity Device

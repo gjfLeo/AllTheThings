@@ -320,6 +320,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 						}),
 					})),
 					n(ZONE_DROPS, {
+						i(172494),	-- Baruk Idol
 						i(173937, {	-- Severed Oculus
 							i(174041),	-- Eyeball Jelly
 						}),

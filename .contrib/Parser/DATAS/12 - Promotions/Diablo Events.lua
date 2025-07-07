@@ -170,10 +170,10 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 						-- previous loot
 						-- uncomment if confirmed
 						i(206018),	-- Baa'lial (PET!)
-						--i(206039, {	-- Enmity Bundle
+						i(206039, {	-- Enmity Bundle
 							i(206004),	-- Enmity Cloak
-							--i(206020),	-- Enmity Hood
-						--}),
+							i(206020),	-- Enmity Hood
+						}),
 						i(206003),	-- Horadric Haversack (BAG)
 						--i(142548),	-- Large Charm of Dexterity
 						--i(206274),	-- Large Charm of Intelligence

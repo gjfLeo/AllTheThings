@@ -168,6 +168,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 				currency(1721),	-- Prismatic Manapearl
 			},
 		}),
+		i(170512),	-- Lesser Benthic Arcanocrystal
 		i(170190, {	-- Mardivas' Bag of Containing
 			["crs"] = {	-- may drop from additional mobs.  check back and add crs as appropriate.
 				148475,	-- Blackfin Seer

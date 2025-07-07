@@ -148,6 +148,16 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 				["crs"] = { 111246 },	-- Archmage Timear
 				["coord"] = { 63.7, 55.0, LEGION_DALARAN },
 			}),
+			d(DIFFICULTY.RAID.MULTI.ALL, {
+				e(1861, {	-- Mistress Sassz'ine
+					["creatureID"] = 115767,	-- Mistress Sassz'ine
+					["g"] = {
+						i(213016, {	-- Grimoire of the Abyssal Darkglare (CI!)
+							["timeline"] = { ADDED_10_2_5 },
+						}),
+					},
+				}),
+			}),
 			d(DIFFICULTY.RAID.LFR, {
 				n(ZONE_DROPS, {
 					i(147422),	-- Acolyte's Abandoned Footwraps
@@ -218,9 +228,6 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					e(1861, {	-- Mistress Sassz'ine
 						["creatureID"] = 115767,	-- Mistress Sassz'ine
 						["g"] = {
-							i(213016, {	-- Grimoire of the Abyssal Darkglare (CI!)
-								["timeline"] = { ADDED_10_2_5 },
-							}),
 							i(143643),	-- Abyss Worm (MOUNT!)
 							i(147049),	-- Azure Squallshaper's Helm
 							i(146990),	-- Hundred-Fathom Veil
@@ -444,9 +451,6 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					["creatureID"] = 115767,	-- Mistress Sassz'ine
 					["g"] = {
 						i(143643),	-- Abyss Worm (MOUNT!)
-						i(213016, {	-- Grimoire of the Abyssal Darkglare (CI!)
-							["timeline"] = { ADDED_10_2_5 },
-						}),
 					},
 				}),
 				e(1898, {	-- Kil'jaeden

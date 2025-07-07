@@ -359,6 +359,7 @@ i(157844);	-- Iridescent Speck
 i(158794);	-- Ivory Tusk
 i(158830);	-- Jade Sigilstone
 i(158859);	-- Jagged Fang
+i(163321);	-- Jason's Rusty Blade
 i(163091);	-- Jeweled Spyglass
 i(163323);	-- Julie's Cracked Dish
 i(155593);	-- Keeled Breastbone
@@ -389,10 +390,12 @@ i(163030);	-- Rusted Mining Pick
 i(157842);	-- Rusty Gear
 i(161053);	-- Salty Dog Crackers
 i(162630);	-- Sandy Ornate Relic
+i(163087);	-- Satchel of Blood Oranges
 i(158849);	-- Sawtooth Jawbone
 i(158752);	-- Severed Foot
 i(155598);	-- Severed Mandible
 i(155629);	-- Shaggy Mane
+i(161203);	-- Shanty Sheet Music
 i(163844);	-- Shredded Alliance Emblem
 i(163843);	-- Shredded Horde Emblem
 i(152099);	-- Shriveled Onion
@@ -448,6 +451,7 @@ i(166858);	-- Silver Sculpture of Sseratus
 i(166797);	-- Star Topaz (Opulence Crown Consumable)
 i(166796);	-- Sunset Amber (Opulence Crown Consumable)
 i(166288);	-- Waterlogged Junk
+i(166859);	-- Zinj'alor Blue Diamond
 
 -----------------
 -- PATCH 8.2.0 --

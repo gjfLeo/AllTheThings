@@ -421,7 +421,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(174181),	-- Bag of Herbs
 			i(174183),	-- Bag of Leather
 			i(174182),	-- Bag of Ore
-			i(172494),	-- Baruk Idol
 			i(173159),	-- Cache of Distorted Dreams
 			i(169293),	-- Coalescing Visions
 			i(174838),	-- Collapsed Fusion Core

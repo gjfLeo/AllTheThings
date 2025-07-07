@@ -1415,6 +1415,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 					-- ["sourceQuests"] = {  },	--
 					["coord"] = { 64.0, 17.8, OHNAHRAN_PLAINS },
 					["description"] = "You must be at least level 62 for this to pop up.\nIt does not appear there are any pre-requisite quests.\nThis became available at 70 during TWW pre-patch.",
+					["lockCriteria"] = { 1, "lvl", 71 },
 				}),
 				q(66421, {	-- The Storm Scar
 					["sourceQuests"] = { 66331 },	-- The Primalist Front
