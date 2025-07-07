@@ -138,6 +138,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			q(91205, {	-- Ultra Prime Deluxe Turbo-Boost: Powerhouse Challenges
 				["provider"] = { "o", 525434 },	-- Bounty: Liberation of Undermine
 				["coord"] = { 52.4, 45.9, DORNOGAL },
+				["isWeekly"] = true,	-- this quest was also reset by blizz for some reason
 				["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 				["g"] = { i(237502) },	-- Puzzling Cartel Chip x3
 			}),
