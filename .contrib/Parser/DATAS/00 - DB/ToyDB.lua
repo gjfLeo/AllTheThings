@@ -1479,5 +1479,9 @@ i(244792);	-- Etheric Brannmorpher
 i(245970);	-- P.O.S.T. Master's Express Hearthstone
 --- UNSORTED ---
 i(245946);	-- Brewer's Balloon
+i(246907);	-- Broker Supply Crate
 i(249713);	-- Cartel Transmorpher
 i(244470);	-- Etheric Victory
+i(246903);	-- Guise of the Phase Diver
+i(246908);	-- K'areshi Supply Crate
+i(246905);	-- Overtuned K'areshi Goggles

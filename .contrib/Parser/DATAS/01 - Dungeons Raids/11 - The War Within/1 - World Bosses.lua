@@ -19,7 +19,7 @@ local EncounterToCRS = {
 	},
 	[KORDAC] = {
 		221084,	-- Kordac <Dormant Protector>
-	 },
+	},
 	[SHURRAI] = {
 		221224,	-- Shurrai <Atrocity of the Undersea>
 	},
@@ -41,7 +41,7 @@ local EncounterToLoot = {
 	},
 	[KORDAC] = {
 		i(225748),	-- Seal of the Silent Vigil
-	 },
+	},
 	[SHURRAI] = {
 		i(225750),	-- Seal of the Abyssal Terror
 	},

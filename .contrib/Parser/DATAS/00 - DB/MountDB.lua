@@ -2081,15 +2081,17 @@ i(243592, 1235806);	-- Grandmaster's Smokey Board
 -- PATCH 11.2.0 --
 ------------------
 i(242730, 1233547);	-- Acidic Void Creeper
+i(232617, 472157);	-- Astral Gladiator's Fel Bat
 i(248248, 1246781);	-- Azure Void Flyer
 i(242717, 1233518);	-- Lavender K'arroc
 i(242729, 1233546);	-- Ruby Void Creeper
 i(247822, 1245517);	-- Scarlet Void Flyer
 i(237484, 1223187);	-- Terror of the Wastes
 i(243061, 1234573);	-- Unbound Star-Eater
+i(243157, 1234820);	-- Vicious Void Creeper [A]
+i(243159, 1234821);	-- Vicious Void Creeper [H]
 --- UNSORTED ---
 i(247791, 1245357);	-- Adorned Northeron Gryphon
-i(0, 472157);	-- Astral Gladiator's Fel Bat
 i(242733, 1233559);	-- Blue Barry
 i(248761, 1247662);	-- Brewfest Barrel Bomber
 i(247793, 1245359);	-- Cinder-Plumed Highland Gryphon
@@ -2105,6 +2107,7 @@ i(242713, 1221132);	-- Resplendent K'arroc
 i(0, 1242272);	-- Royal Voidwing
 i(246160, 1241076);	-- Sthaarbs's Last Lunch
 i(0, 1223191);	-- Terror of the Night
+i(0, 1233542);	-- The Bone Freezer
 i(247722, 1245202);	-- The Headless Horseman's Burning Charger
 i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
 i(247723, 1245205);	-- The Headless Horseman's Hallowed Charger
@@ -2113,7 +2116,5 @@ i(246917, 1244247);	-- Thunder-ridged Elekk
 i(246159, 1241070);	-- Translocated Gorger
 i(0, 1233511);	-- Umbral K'arroc
 i(186640, 353265);	-- Vandal's Gearglider
-i(0, 1234820);	-- Vicious Void Creeper [A]
-i(0, 1234821);	-- Vicious Void Creeper [H]
 i(246920, 1244260);	-- Void-Razed Elekk
 i(186639, 353264);	-- Xy Trustee's Gearglider

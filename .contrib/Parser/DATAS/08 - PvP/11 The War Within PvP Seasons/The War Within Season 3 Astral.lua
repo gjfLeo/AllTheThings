@@ -23,7 +23,9 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 			ach(41031),	-- Challenger II: The War Within Season 3
 			ach(41026),	-- Duelist: The War Within Season 3
 			ach(41027),	-- Elite: The War Within Season 3
-			ach(41049),	-- Gladiator: The War Within Season 3
+			ach(41049, {	-- Gladiator: The War Within Season 3
+				i(232617),	-- Astral Gladiator's Fel Bat (MOUNT!)
+			}),
 			ach(41024),	-- Rival I: The War Within Season 3
 			ach(41025),	-- Rival II: The War Within Season 3
 			-- RBG
@@ -55,15 +57,15 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 			-- Fashion
 			ach(42800),	-- Astral Attire
 		})),
-		--[[
-		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
-			i(229989, {	-- Vicious Electro Eel [A] (MOUNT!)
+		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_11_2_0 } }, {
+			i(243157, {	-- Vicious Void Creeper [A] (MOUNT!)
 				["races"] = ALLIANCE_ONLY,
 			}),
-			i(229988, {	-- Vicious Electro Eel [H] (MOUNT!)
+			i(243159, {	-- Vicious Void Creeper [H] (MOUNT!)
 				["races"] = HORDE_ONLY,
 			}),
 		})),
+		--[[
 		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			n(219213, {	-- Gilderann <War Mode Quartermaster>
 				["coord"] = { 55.2, 76.8, DORNOGAL },
