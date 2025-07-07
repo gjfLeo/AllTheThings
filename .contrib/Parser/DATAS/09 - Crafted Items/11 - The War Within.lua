@@ -41,6 +41,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		["cost"] = {{"i", 230905, 2}},	-- Fractured Spark of Fortunes
 		["timeline"] = { ADDED_11_1_0 },
 	}),
+	i(231756, {	-- Spark of Starlight
+		["cost"] = {{"i", 231757, 2}},	-- Fractured Spark of Starlight
+		["timeline"] = { ADDED_11_2_0 },
+	}),
 	prof(ALCHEMY, {
 		n(DISCOVERY, {
 			spell(430345, {	-- Meticulous Experimentation

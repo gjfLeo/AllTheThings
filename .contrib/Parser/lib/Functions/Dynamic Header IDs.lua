@@ -160,6 +160,7 @@ HeaderAssignments = {
 	["Delve Completion"] = -1001041,
 	["Delver's Dirigible Schematic"] = -1001033,
 	["Delver's Gob-Trotter Schematic"] = -1001063,
+	["Delver's Mana-Skimmer Schematic"] = -1001210,
 	["Delves"] = -1000907,
 	["Delves TWW S1"] = -1001087,
 	["Delves TWW S2"] = -1001088,
@@ -675,4 +676,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001210;
+NextHeaderID = -1001211;

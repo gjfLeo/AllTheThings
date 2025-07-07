@@ -102,6 +102,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S2, 2}},
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					}),
+					-- Season 3
+					i(240931, {	-- Triumphant Satchel of Carved Ethereal Crests
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S3, 1}},
+						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+					}),
+					i(240930, {	-- Celebratory Pack of Runed Ethereal Crests
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S3, 2}},
+						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+					}),
+					i(248410, {	-- Technomancer's Gift
+						["cost"] = {{"i", ALGARI_TOKEN_OF_MERIT_S3, 6}},
+						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+					}),
 				},
 			}),
 			n(240481, {	-- Consultant Wrexxle <Undermine Dealer>
@@ -252,6 +265,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(232543),	-- Ringing Ritual Mud
 					})
 				),
+			}),
+			n(248341, {	-- Dip Stickshift <Memories-R-Us>
+				["coord"] = { 48.1, 45.4, DORNOGAL },
+				["timeline"] = { ADDED_11_2_0 },
+				["g"] = {
+					i(247864),	-- Memory of Arthas
+					i(247865),	-- Memory of Garrosh
+					i(247866),	-- Memory of Guldan
+					i(247835),	-- Memory of Illidan
+					i(247869),	-- Memory of Putricide
+					i(247870),	-- Memory of Saurfang
+					i(247867),	-- Memory of Suramar
+					i(247871),	-- Memory of Sylvanas
+					i(247872),	-- Memory of Theotar
+					i(247873),	-- Memory of Thrall
+				},
 			}),
 			n(219230, {	-- Erani <Pet Charm Trader>
 				["coord"] = { 58.5, 64.9, DORNOGAL },
@@ -603,6 +632,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 58.0, 56.8, DORNOGAL },
 				["timeline"] = { ADDED_11_1_0 },
 				["g"] = {
+					-- Season 2
 					i(230937),	-- Enchanted Weathered Undermine Crest
 					i(230936),	-- Enchanted Runed Undermine Crest
 					i(230935),	-- Enchanted Gilded Undermine Crest
@@ -611,6 +641,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					}),
 					i(239203, {	-- Runed Augmentation Matrix
 						["timeline"] = { ADDED_11_1_5 },
+					}),
+					-- Season 3
+					i(231768, {	-- Enchanted Gilded Ethereal Crest
+						["timeline"] = { ADDED_11_2_0 },
+					}),
+					i(231769, {	-- Enchanted Runed Ethereal Crest
+						["timeline"] = { ADDED_11_2_0 },
+					}),
+					i(231767, {	-- Enchanted Weathered Ethereal Crest
+						["timeline"] = { ADDED_11_2_0 },
 					}),
 				},
 			}),

@@ -116,6 +116,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
 		}),
+		i(244865, {	-- Pinnacle Cache (S3)
+			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+			["timeline"] = { ADDED_11_2_0_SEASONSTART },
+		}),
 		i(228361, {	-- Seasoned Adventurer's Cache (S1)
 			["sym"] = { -- [Khaz Algar Zone Rewards content]
 				{"select","mapID",KHAZ_ALGAR},{"pop"},

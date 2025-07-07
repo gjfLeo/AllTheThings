@@ -317,13 +317,6 @@ root(ROOTS.Unsorted, {
 				i(246293),	-- Buckler of the Last Stand
 				i(246294),	-- Shattered Buckler of the Last Stand
 				i(246301),	-- Pitted Blade of Lost Hope
-
-				-- Undermine??
-				i(237944),	-- Ensemble: Junkreaver's Plates
-				i(237945),	-- Ensemble: Blastborne Loadout
-				i(237949),	-- Ensemble: Nitroclad Kit
-				i(237953),	-- Ensemble: Noxious Injector Apparatus
-				i(237954),	-- Arsenal: Undermine Weaponry
 				-- Reputation Cosmetic
 				i(248780),	-- Consortium Brute's Cape
 				i(248781),	-- Consortium Skirmisher's Cloak
@@ -345,7 +338,6 @@ root(ROOTS.Unsorted, {
 				i(246915),	-- Arsenal: Ethereal Weaponry
 				i(245523),	-- Shadowguard Credentials
 				i(245524),	-- Shadowguard's Phasebound Visor
-				i(245525),	-- Opulent Phasebound Visor
 				i(245526),	-- Bloodmarked Phasebound Visor
 				i(245527),	-- Consortium's Phasebound Visor
 				i(245528),	-- Wastlander's Phasebound Visor
@@ -740,26 +732,10 @@ root(ROOTS.Unsorted, {
 				i(247821),	-- Cache of K'areshi Treasures
 				i(244300),	-- Phase-Sealed Box
 				i(244354),	-- Ethereal Equipment Chest
-				i(244865),	-- Pinnacle Cache
 				i(244883),	-- Seasoned Undermine Adventurer's Cache
 				i(245280),	-- Seasoned Khaz Algar Adventurer's Cache
 				-- Delve
-				i(238526),	-- Restored Coffer Key
-				i(238527),	-- Restored Coffer Key
-				i(244193),	-- L00T RAID-R Mini
-				i(244792),	-- Etheric Brannmorpher
-				i(245885),	-- Lil Wheel of Cheese
-				i(247835),	-- Memory of Illidan
-				i(247864),	-- Memory of Arthas
-				i(247865),	-- Memory of Garrosh
-				i(247866),	-- Memory of Guldan
-				i(247867),	-- Memory of Suramar
-				i(247869),	-- Memory of Putricide
-				i(247870),	-- Memory of Saurfang
-				i(247871),	-- Memory of Sylvanas
-				i(247872),	-- Memory of Theotar
-				i(247873),	-- Memory of Thrall
-				i(248017),	-- Shrieking Quartz
+				i(245885),	-- Lil Wheel of Cheese=
 				i(248126),	-- Delver's Starter Kit
 				i(248127),	-- Delver's Cosmetic Surprise Bag
 				i(248142),	-- Delver's Bounty
@@ -789,8 +765,6 @@ root(ROOTS.Unsorted, {
 
 				-- Crests
 				i(240929),	-- Glorious Cluster of Gilded Ethereal Crests
-				i(240930),	-- Celebratory Pack of Runed Ethereal Crests
-				i(240931),	-- Triumphant Satchel of Carved Ethereal Crests
 				i(240932),	-- Pack of Runed Undermine Crests
 				i(240933),	-- Satchel of Carved Undermine Crests
 				i(240934),	-- Pouch of Weathered Undermine Crests
@@ -816,9 +790,6 @@ root(ROOTS.Unsorted, {
 				i(243344),	-- Chef's Hat
 				i(243347),	-- Keg of Curiosities
 				i(243479),	-- Bag of Brewfest Ingredients
-
-				-- Stocket
-				i(248410),	-- Technomancer's Gift
 				-- Misc/ach?
 				i(246727),	-- Ethereal Essence Sliver
 				-- Devs having fun?
@@ -857,19 +828,10 @@ root(ROOTS.Unsorted, {
 				i(238051),	-- Delver's Mana-Skimmer
 
 				-- Mount Mods
-				i(238177),	-- Delver's Mana-Skimmer Schematic: Emitter
-				i(238178),	-- Delver's Mana-Skimmer Schematic: Canister
-				i(238179),	-- Delver's Mana-Skimmer Schematic: Quad Glider
-				i(238180),	-- Delver's Mana-Skimmer Schematic: Void Paint
-				i(238181),	-- Delver's Mana-Skimmer Schematic: Energy Thrusters
 				i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive
 			}),
 			n(PROFESSIONS, {
-				i(231756),	-- Spark of Starlight
 				i(231757),	-- Fractured Spark of Starlight
-				i(231767),	-- Enchanted Weathered Ethereal Crest
-				i(231768),	-- Enchanted Gilded Ethereal Crest
-				i(231769),	-- Enchanted Runed Ethereal Crest
 				i(231770),	-- Formula: Enchanted Gilded Ethereal Crest
 				i(231771),	-- Formula: Enchanted Runed Ethereal Crest
 				i(231772),	-- Formula: Enchanted Weathered Ethereal Crest
@@ -1478,7 +1440,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(TOYS, {
 				i(242636),	-- Astral Legend's Pennant
-				i(243056),	-- Delver's Mana-Bound Ethergate
 				i(245946),	-- Brewer's Balloon
 				i(245970),	-- P.O.S.T. Master's Express Hearthstone
 			}),

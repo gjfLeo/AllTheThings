@@ -725,8 +725,9 @@ localize(L.HEADER_NAMES, {
 	[-1001207] = select(2,GetAchievementInfo(42036)),
 	[-1001208] = ADVENTURE_JOURNAL,
 	[-1001209] = select(2,GetAchievementInfo(7467)),
-	[-1001210] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
-	[-1001211] = "|cFFFFFFFFStep 1:|r Conspicious Note",
+	[-1001210] = C_Spell.GetSpellName(1224048),
+	[-1001211] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
+	[-1001212] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "These items can be obtained by doing Emissary Quests or gaining a paragon box.",
@@ -1149,7 +1150,7 @@ localize(L.HEADER_ICONS, {
 	[-1000352] = 3193420,
 	[-1000353] = 4622465,
 	[-1000354] = 1911518,
-	[-1000355] = _.asset("category_interface_racing"),
+	[-1000355] = _.asset("interface_racing"),
 	[-1000356] = 1394891,
 	[-1000357] = 1394953,
 	[-1000358] = 441139,
@@ -1211,7 +1212,7 @@ localize(L.HEADER_ICONS, {
 	[-1000917] = 5145984,
 	[-1000918] = 5499973,
 	[-1000919] = 2437241,
-	[-1000920] = _.asset("category_interface_racing"),
+	[-1000920] = _.asset("interface_racing"),
 	[-1000921] = 236739,
 	[-1000922] = 575534,
 	[-1000923] = 4728198,
@@ -1388,6 +1389,7 @@ localize(L.HEADER_ICONS, {
 	[-1001207] = 6124221,
 	[-1001208] = 133733,
 	[-1001209] = 135764,
+	[-1001210] = 2915721,
 });
 localize(L.HEADER_EVENTS, {
 	[-1000199] = 248,
@@ -1587,7 +1589,6 @@ _.Modules.Events.SetEventInformation(1509, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=29,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=6,["monthDay"]=29,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=6,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=6,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025}),
@@ -1639,7 +1640,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=7,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=7,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -6628,6 +6630,10 @@ local ObjectNames = {
 	[242328] = "Small Treasure Chest",
 	[242350] = "Treasure Chest",
 	[242446] = "Small Treasure Chest",
+	[242633] = "Tanithria's Silkweave",
+	[242634] = "Tanithria's Thread",
+	[242636] = "Tanithria's Purple Dye",
+	[242638] = "Tanithria's Red Dye",
 	[242642] = "Small Treasure Chest",
 	[242643] = "Small Treasure Chest",
 	[242644] = "Treasure Chest",
@@ -13954,6 +13960,10 @@ local ObjectModels = {
 	[242328] = 1349620,
 	[242350] = 1349621,
 	[242446] = 1349620,
+	[242633] = 1284869,
+	[242634] = 950799,
+	[242636] = 528633,
+	[242638] = 243422,
 	[242642] = 1349620,
 	[242643] = 1349620,
 	[242644] = 1349621,
@@ -19910,7 +19920,7 @@ L.QUEST_NAMES = {
 	[50185] = "Green Crystal Monocle",
 	[50250] = "Posthaste",
 	[50384] = "Doug Test - Completable Quest4",
-	[52819] = _.L.HEADER_NAMES[-1001211],
+	[52819] = _.L.HEADER_NAMES[-1001212],
 	[52917] = "Grimmy Dialogue",
 	[53417] = "Lost Spawn of Krag'wa (The Shattered River)",
 	[53418] = "Lost Spawn of Krag'wa (Razorjaw River)",
@@ -21048,8 +21058,8 @@ localize(L.HEADER_NAMES, {
 	[-1001185] = "Händlerin für Schlachtzüge",
 	[-1001186] = "Händlerin für heroische Schlachtzüge",
 	[-1001187] = "Händlerin für mythische Schlachtzüge",
-	[-1001210] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
-	[-1001211] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
+	[-1001211] = "|cffFF0000Ogom der Mangler scheint gerade dann zu erscheinen, wenn Sie den täglichen „Angriff auf das Eiserne Belagerungswerk“ durchführen. Diese Quest war seit Beginn von Legion nicht mehr aktiv und die käufliche Quest „Missive: Angriff auf das Eiserne Belagerungswerk“ funktioniert auch nicht.|r",
+	[-1001212] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -23738,6 +23748,10 @@ localize(ObjectNames, {
 	[242328] = "Kleine Schatztruhe",
 	[242350] = "Schatztruhe",
 	[242446] = "Kleine Schatztruhe",
+	[242633] = "Tanithrias Seidengewebe",
+	[242634] = "Tanithrias Faden",
+	[242636] = "Tanithrias violetter Farbstoff",
+	[242638] = "Tanithrias roter Farbstoff",
 	[242642] = "Kleine Schatztruhe",
 	[242643] = "Kleine Schatztruhe",
 	[242644] = "Schatztruhe",
@@ -26954,8 +26968,8 @@ localize(L.HEADER_NAMES, {
 	[-1001185] = "Marchande d’équipement de raids",
 	[-1001186] = "Marchande d’équipement héroïque",
 	[-1001187] = "Marchande d’équipement mythique",
-	[-1001210] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
-	[-1001211] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
+	[-1001211] = "|cffFF0000Ogom le Mangler semble apparaître lorsque vous effectuez l'« Assaut quotidien sur les usines de siège de fer ». Cette quête n'était plus active depuis le début de Legion et la quête achetable « Missive : Assaut sur les usines de siège de fer » ne fonctionne pas non plus.|r",
+	[-1001212] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "Ces objets peuvent être obtenus en effectuant des quêtes d’émissaire ou en l’obtaenant via un coffre de parangon.",
@@ -29660,6 +29674,10 @@ localize(ObjectNames, {
 	[242328] = "Petit coffre au trésor",
 	[242350] = "Coffre au trésor",
 	[242446] = "Petit coffre au trésor",
+	[242633] = "Soie tissée de Tanithria",
+	[242634] = "Fil de Tanithria",
+	[242636] = "Teinture pourpre de Tanithria",
+	[242638] = "Teinture rouge de Tanithria",
 	[242642] = "Petit coffre au trésor",
 	[242643] = "Petit coffre au trésor",
 	[242644] = "Coffre au trésor",
@@ -32747,8 +32765,8 @@ localize(L.HEADER_NAMES, {
 	[-1001185] = "Mercante delle Incursioni",
 	[-1001186] = "Mercante Eroica",
 	[-1001187] = "Mercante Mitica",
-	[-1001210] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
-	[-1001211] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
+	[-1001211] = "|cffFF0000Ogom the Mangler sembra apparire solo quando stai eseguendo l'\"Assalto alle officine d'assedio di ferro\" giornaliero. Questa missione non era attiva dall'inizio di Legion e neanche la missione acquistabile \"Missiva: Assalto alle officine d'assedio di ferro\" funziona.|r",
+	[-1001212] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "Gli elementi in questo elenco sono aspetti condivisi per l'elemento precedente. Nella modalità Aspetto unico, questo elenco può aiutarti a capire perché o perché un oggetto specifico verrebbe contrassegnato come Raccolto.",
@@ -35219,6 +35237,10 @@ localize(ObjectNames, {
 	[242328] = "Cassa del Tesoro Piccola",
 	[242350] = "Cassa del Tesoro",
 	[242446] = "Cassa del Tesoro Piccola",
+	[242633] = "Fildiseta di Tanithria",
+	[242634] = "Filo di Tanithria",
+	[242636] = "Tintura Viola di Tanithria",
+	[242638] = "Tintura Rossa di Tanithria",
 	[242642] = "Cassa del Tesoro Piccola",
 	[242643] = "Cassa del Tesoro Piccola",
 	[242644] = "Cassa del Tesoro",
@@ -38055,8 +38077,8 @@ localize(L.HEADER_NAMES, {
 	[-1001185] = "Comerciante do Raide",
 	[-1001186] = "Comerciante Heroico",
 	[-1001187] = "Comerciante Mítico",
-	[-1001210] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
-	[-1001211] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
+	[-1001211] = "|cffFF0000Ogom, o Mangler, parece surgir apenas quando você está fazendo o 'Assalto ao Cerco de Ferro' diário. Esta missão não estava ativa desde o início de Legion e a missão comprável 'Missiva: Assault on the Iron Siegeworks' também não funciona.|r",
+	[-1001212] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "Os itens nesta lista são aparências compartilhadas do item acima. No Modo de Aparência Única, esta lista pode ajudá-lo a entender por que ou não um item específico seria marcado como Coletado.",
@@ -40698,6 +40720,10 @@ localize(ObjectNames, {
 	[242328] = "Baú do Tesouro Pequeno",
 	[242350] = "Baú do Tesouro",
 	[242446] = "Baú do Tesouro Pequeno",
+	[242633] = "Tramasseda de Tanithria",
+	[242634] = "Fio de Tanithria",
+	[242636] = "Pigmento Roxo de Tanithria",
+	[242638] = "Pigmento Vermelho de Tanithria",
 	[242642] = "Baú do Tesouro Pequeno",
 	[242643] = "Baú do Tesouro Pequeno",
 	[242644] = "Baú do Tesouro",
@@ -43816,8 +43842,8 @@ localize(L.HEADER_NAMES, {
 	[-1001185] = "Награды за рейд",
 	[-1001186] = "Награды за рейд в героическом режиме",
 	[-1001187] = "Награды за рейд в эпохальном режиме",
-	[-1001210] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
-	[-1001211] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
+	[-1001211] = "|cffFF0000Огом Уничтожитель появляется только при выполнении ежедневного задания 'Штурм осадного лагеря Железной Орды'. Данное задание не было доступно со старта Легиона, а приобретаемое в гарнизоне задание 'Донесение: Штурм осадного лагеря Железной Орды' тоже не помогает.|r",
+	[-1001212] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "Эти предметы можно получить в награду Заданий эмиссаров или из припасов.",
@@ -46534,6 +46560,10 @@ localize(ObjectNames, {
 	[242328] = "Маленький сундук с сокровищами",
 	[242350] = "Сундук с сокровищами",
 	[242446] = "Маленький сундук с сокровищами",
+	[242633] = "Шелковое полотно Танитрии",
+	[242634] = "Нить Танитрии",
+	[242636] = "Лиловая краска Танитрии",
+	[242638] = "Красная краска Танитрии",
 	[242642] = "Маленький сундук с сокровищами",
 	[242643] = "Маленький сундук с сокровищами",
 	[242644] = "Сундук с сокровищами",
@@ -49692,8 +49722,8 @@ localize(L.HEADER_NAMES, {
 	[-1001185] = "공격대 상인",
 	[-1001186] = "영웅급 상인",
 	[-1001187] = "신화 공격대 상인",
-	[-1001210] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
-	[-1001211] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
+	[-1001211] = "|cffFF0000약탈자 오곰은 일일 '철 공성 작업장 공격'을 수행할 때 생성되는 것 같습니다. 이 퀘스트는 Legion이 시작된 이후 활성화되지 않았으며 구매 가능한 퀘스트 'Missive: Iron Siegeworks 공격'도 작동하지 않습니다.|r",
+	[-1001212] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "이 목록의 항목은 위 항목의 공유 모양입니다. 고유 외형 모드에서 이 목록은 특정 항목이 수집됨으로 표시되는 이유와 이유를 이해하는 데 도움이 될 수 있습니다.",
@@ -52282,6 +52312,10 @@ localize(ObjectNames, {
 	[242328] = "작은 보물 상자",
 	[242350] = "보물 상자",
 	[242446] = "작은 보물 상자",
+	[242633] = "타니스리아의 비단매듭 옷감",
+	[242634] = "타니스리아의 실",
+	[242636] = "타니스리아의 자색 염료",
+	[242638] = "타니스리아의 적색 염료",
 	[242642] = "작은 보물 상자",
 	[242643] = "작은 보물 상자",
 	[242644] = "보물 상자",
@@ -55042,8 +55076,8 @@ localize(L.HEADER_NAMES, {
 	[-1001186] = "Vendedor heroico",
 	[-1001187] = "Vendedor mítico",
 	[-1001206] = "Profundidades TWW T3",
-	[-1001210] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
-	[-1001211] = "|cFFFFFFFFStep 1:|r Nota llamativa",
+	[-1001211] = "|cffFF0000Ogom the Mangler parece aparecer cuando estás realizando el 'Asalto a los Sitios de Hierro' diario. Esta misión no estuvo activa desde el inicio de Legion y la misión comprable 'Misiva: Asalto a los Sitios de Hierro' tampoco funciona.|r",
+	[-1001212] = "|cFFFFFFFFStep 1:|r Nota llamativa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "Estos objetos son obtenidos al completar misiones de emisario o cajas de paragon",
@@ -57752,6 +57786,10 @@ localize(ObjectNames, {
 	[242328] = "Arqueta pequeña",
 	[242350] = "Arqueta",
 	[242446] = "Arqueta pequeña",
+	[242633] = "Filoseda de Tanithria",
+	[242634] = "Hilo de Tanithria",
+	[242636] = "Tinte morado de Tanithria",
+	[242638] = "Tinte rojo de Tanithria",
 	[242642] = "Arqueta pequeña",
 	[242643] = "Arqueta pequeña",
 	[242644] = "Arqueta",
@@ -60691,7 +60729,7 @@ localize(L.HEADER_NAMES, {
 	[-1001186] = "Vendedor de modo heroico",
 	[-1001187] = "Vendedor de modo mítico",
 	[-1001206] = "Abismos TWW T3",
-	[-1001211] = "|cFFFFFFFFStep 1:|rNota sospechosa",
+	[-1001212] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000030] = "Esta sección solo mostrará las profesiones de tu personaje actual fuera del modo Cuenta y Debug.",
@@ -61105,8 +61143,8 @@ localize(L.HEADER_NAMES, {
 	[-1001186] = "英雄副本商人",
 	[-1001187] = "史诗副本商人",
 	[-1001206] = "地心之战地下堡第3季",
-	[-1001210] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
-	[-1001211] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
+	[-1001211] = "|cffFF0000绞肉机奥戈姆似乎只是在你做每日突袭钢铁军工厂的时候刷新的。这个任务从军团开始后就没有激活过，可购买的任务密报：突袭钢铁军工厂也不能用了。|r",
+	[-1001212] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000018] = "这些物品可以通过做大使任务或获得巅峰宝箱来获得。",
@@ -63542,6 +63580,8 @@ localize(ObjectNames, {
 	[242328] = "小宝箱",
 	[242350] = "宝箱",
 	[242446] = "小宝箱",
+	[242636] = "坦妮瑟娅的紫色染料",
+	[242638] = "坦妮瑟娅的红色染料",
 	[242642] = "小宝箱",
 	[242643] = "小宝箱",
 	[242644] = "宝箱",

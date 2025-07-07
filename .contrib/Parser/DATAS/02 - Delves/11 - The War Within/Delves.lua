@@ -251,7 +251,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		m(DELVE_ETHEREAL_KYVEZA, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
 			["icon"] = [[~_.asset("Delves_Shadow")]],
 			--["maps"] = { X },
-			--["coord"] = { X, Y, Z },
+			["coord"] = { 38.5, 51.1, KARESH_TAZAVESH },
 			["g"] = {
 				n(ACHIEVEMENTS, {
 					ach(42190),	-- Let Me Solo Her: Nexus-Princess Ky'veza
@@ -2095,6 +2095,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(224982, {	-- Delver's Dirigible Schematic: Exhaust (MM!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
+					i(235696, {	-- Delver's Dirigible Schematic: Explorer Decal (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
 					i(224980, {	-- Delver's Dirigible Schematic: Front-Mounted Lantern (MM!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
@@ -2122,10 +2126,35 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 					}),
 				})),
+				n(DELVERS_MANASKIMMER_SCHEMATIC, sharedDataSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+					i(238178, {	-- Delver's Mana-Skimmer Schematic: Canister (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(238177, {	-- Delver's Mana-Skimmer Schematic: Emitter (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(238181, {	-- Delver's Mana-Skimmer Schematic: Energy Thrusters (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(238179, {	-- Delver's Mana-Skimmer Schematic: Quad Glider (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+					i(238180, {	-- Delver's Mana-Skimmer Schematic: Void Paint (MM!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+					}),
+				})),
 				filter(TOYS, {
+					i(243056, {	-- Delver's Mana-Bound Ethergate (TOY!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
 					i(230850, {	-- Delve-O-Bot 7001 (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					}),
+					i(244792, {	-- Etheric Brannmorpher (TOY!)
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(223312, {	-- Trusty Hat (TOY!)
 						["cost"] = {{"c", RESONANCE_CRYSTALS, 10}},
@@ -2309,6 +2338,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(224771, {	-- Delver's Dirigible Schematic: Empennage (MM!)
 						["cost"] = {{"c", UNDERCOIN, 1000}},
 					}),
+					i(235688, {	-- Delver's Dirigible Schematic: Fan (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
 					i(224770, {	-- Delver's Dirigible Schematic: Front-Mounted Propeller (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
@@ -2316,12 +2349,24 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
+					i(235690, {	-- Delver's Dirigible Schematic: Harpoon (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
+					i(235689, {	-- Delver's Dirigible Schematic: Kite (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
 					i(224769, {	-- Delver's Dirigible Schematic: Rotor Blades (MM!)
 						["cost"] = {{"c", UNDERCOIN, 3000}},
 					}),
 					i(235687, {	-- Delver's Dirigible Schematic: Spoiler (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					}),
+					i(235692, {	-- Delver's Dirigible Schematic: Thrusters (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(235683, {	-- Delver's Dirigible Schematic: Turbine (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2333,6 +2378,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(235686, {	-- Delver's Dirigible Schematic: White Paint (MM!)
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					}),
+					i(235691, {	-- Delver's Dirigible Schematic: Yellow Paint (MM!)
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 				}),
 				filter(BATTLE_PETS, {
@@ -2349,17 +2398,41 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
+					iensemble(237954, {	-- Arsenal: Undermine Weaponry
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
 					iensemble(234385, {	-- Ensemble: Aegis Of Hidden Stars
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					}),
+					iensemble(237945, {	-- Ensemble: Blastborne Loadout
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
+					iensemble(248788, {	-- Ensemble: Bundle of Ethereal Cloaks
+						["cost"] = {{"c", UNDERCOIN, 2000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(234384, {	-- Ensemble: Chains Of The Stygian Sea
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
 					}),
+					iensemble(237944, {	-- Ensemble: Junkreaver's Plates
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
 					iensemble(234383, {	-- Ensemble: Myconic Shell
 						["cost"] = {{"c", UNDERCOIN, 5000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					}),
+					iensemble(237949, {	-- Ensemble: Nitroclad Kit
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
+					iensemble(237953, {	-- Ensemble: Noxious Injector Apparatus
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					iensemble(234382, {	-- Ensemble: Unkindled Waxweave Panoply
 						["cost"] = {{"c", UNDERCOIN, 5000}},
@@ -2372,6 +2445,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(212169, {	-- Mint-Scented Candle Hat
 						["cost"] = {{"c", UNDERCOIN, 2500}},
 						["timeline"] = { ADDED_11_0_5 },
+					}),
+					i(245525, {	-- Opulent Phasebound Visor
+						["cost"] = {{"c", UNDERCOIN, 2500}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(212163, {	-- Soporific Shroom Cap
 						["cost"] = {{"c", UNDERCOIN, 2500}},
@@ -2419,17 +2496,35 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					i(232498, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
 					}),
+					-- Season 2
 					i(235531, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
 					}),
 					i(233555, {	-- Restored Coffer Key
 						["cost"] = {{"c", UNDERCOIN, 2000}},
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
 					}),
 					i(233186, {	-- Wave Scrambler 2000
 						["cost"] = {{"c", UNDERCOIN, 1500}},
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
+						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+					}),
+					-- Season 3
+					i(244193, {	-- L00T RAID-R Mini
+						["cost"] = {{"c", UNDERCOIN, 1000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
+					i(238526, {	-- Restored Coffer Key
+						["cost"] = {{"c", UNDERCOIN, 2000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
+					i(238527, {	-- Restored Coffer Key
+						["cost"] = {{"c", UNDERCOIN, 2000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
+					i(248017, {	-- Shrieking Quartz
+						["cost"] = {{"c", UNDERCOIN, 2000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 				}),
 				filter(TOYS, {
@@ -2674,7 +2769,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	})),
 	m(ARCHIVAL_ASSAULT, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 		["icon"] = [[~_.asset("Delves_Shadow")]],
-		--["coord"] = { X, Y, Z },
+		["coord"] = { 55.1, 48.1, KARESH },
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(42679),	-- Archival Assault Discoveries
@@ -3665,7 +3760,25 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(90952, {["timeline"]={ADDED_11_1_7}}),	-- Energy Shield ability (spellID 1238258); after learning Titan Force Shield (spellID 1225004) in delve console
 		})),
 		n(DELVES_TWW_S3, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART } }, {
+			-- Delver's Journey Rewards
+			q(88823),	-- Delver's Mana-Skimmer Schematic: Canister (spellID 1224293)
+			q(88825),	-- Delver's Mana-Skimmer Schematic: Emitter (spellID 1224295)
+			q(88824),	-- Delver's Mana-Skimmer Schematic: Energy Thrusters (spellID 1224294)
+			q(88826),	-- Purchaseable Restored Coffer Key (spellID 1224304)
+			q(88811),	-- Delver's Mana-Skimmer Schematic: Quad Glider (spellID 1224298)
+			q(88827),	-- Delver's Mana-Skimmer Schematic: Void Paint (spellID 1224319)
+			--q(0),	-- Veteran's Warbound Battlegear Drop (spellID 1224320) // TODO: fix questiD since Blizzard are dumb
+			--q(0),	-- The Delver Within (spellID 1238213) // TODO: fix questID since Blizzard are dumb
+			--q(),	-- Delver's Mana-Bound Ethergate toy missing?
+			-- Invasion / Map
 
+			-- First delve of day
+
+			-- Items (probably automation will do a thing, just in case)
+			--q(89040),	-- Purchaseable Rare Delve Key - 1 (spellID 1225596) (itemID 238526)
+			--q(89041),	-- Purchaseable Rare Delve Key - 2 (spellID 1225597) (itemID 238527)
+			--q(91783),	-- Delver's Cosmetic Surprise Bag (spellID 1246295) (itemID 248127)
+			--q(91784),	-- Delver's Starter Kit (spellID 1246296) (itemID 248126)
 		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve

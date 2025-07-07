@@ -1474,10 +1474,10 @@ i(245942);	-- Sea-Blessed Shrine
 ------------------
 i(242323);	-- Chowdar's Favorite Ribbon
 i(246565);	-- Cosmic Hearthstone
+i(243056);	-- Delver's Mana-Bound Ethergate
+i(244792);	-- Etheric Brannmorpher
 i(245970);	-- P.O.S.T. Master's Express Hearthstone
 --- UNSORTED ---
 i(245946);	-- Brewer's Balloon
-i(243056);	-- Delver's Mana-Bound Ethergate
-i(244792);	-- Etheric Brannmorpher
+i(249713);	-- Cartel Transmorpher
 i(244470);	-- Etheric Victory
-i(249713);	--
