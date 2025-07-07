@@ -1845,7 +1845,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 	}),
 	-- #endif
-	filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 }, }, {
+	filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3 }, }, {
 		ill(5387),	-- Agility (ILLUSION!)
 		ill(5861),	-- Beastslayer (ILLUSION!)
 		ill(5393),	-- Crusader (ILLUSION!)
