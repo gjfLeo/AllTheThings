@@ -228,7 +228,9 @@ for i,mapID in ipairs({
 	-- #if AFTER TWW
 	2276,	-- Khaz Algar
 	2298,	-- Nerub-ar Palace (has FPs inside)
+	-- if AFTER 11.1
 	2374,	-- Undermine
+	-- #endif
 	-- if AFTER 11.2
 	2398,	-- K'aresh
 	-- #endif
