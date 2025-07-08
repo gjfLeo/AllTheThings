@@ -410,27 +410,63 @@ end
 
 root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, {
 	-- Stuff that's completely gone.
-	n(WOW_ANNIVERSARY_FOUR, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_3, REMOVED_3_1_0 } }, {
+	n(WOW_ANNIVERSARY_FOUR, bubbleDownSelf({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_3_0_3,	-- 4th anniversary will not happen during Classic
+			-- #else
+			ADDED_3_0_3, REMOVED_3_1_0,
+			-- #endif
+		}
+	},
+	{
 		ach(2398),	-- 4th Anniversary
 		i(44819),	-- Baby Blizzard Bear (PET!)
 	})),
-	n(WOW_ANNIVERSARY_FIVE, bubbleDownSelf({ ["timeline"] = { ADDED_3_2_2, REMOVED_3_3_2 } }, {
+	n(WOW_ANNIVERSARY_FIVE, bubbleDownSelf({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_3_2_2,	-- 5th anniversary will not happen during Classic
+			-- #else
+			ADDED_3_2_2, REMOVED_3_3_2,
+			-- #endif
+		}
+	},
+	{
 		ach(4400),	-- 5th Anniversary
 		i(49362),	-- Onyxian Whelpling (PET!)
 	})),
-	n(WOW_ANNIVERSARY_SIX, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_1, REMOVED_4_2_2 } }, {
+	n(WOW_ANNIVERSARY_SIX, bubbleDownSelf({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_4_0_1,	-- 6th anniversary will not happen during Classic
+			-- #else
+			ADDED_4_0_1, REMOVED_4_2_2,
+			-- #endif
+		}
+	},
+	{
 		ach(5512),	-- 6th Anniversary
 	})),
-	n(WOW_ANNIVERSARY_SEVEN, bubbleDownSelf({ ["timeline"] = { ADDED_4_2_2, REMOVED_4_3_0 } }, {
+	n(WOW_ANNIVERSARY_SEVEN, bubbleDownSelf({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_4_2_2,	-- 7th anniversary will not happen during Classic
+			-- #else
+			ADDED_4_2_2, REMOVED_4_3_0,
+			-- #endif
+		},
+	},
+	{
 		ach(5863),	-- 7th Anniversary
 		i(71134),	-- Celebration Package
 	})),
 	n(WOW_ANNIVERSARY_EIGHT, bubbleDownSelf({
 		["timeline"] = {
 			-- #if ANYCLASSIC
-			CREATED_4_3_0, -- 8th anniversary will not happen during Cataclysm version of the game
+			CREATED_4_3_0,	-- 8th anniversary will not happen during Classic
 			-- #else
-			ADDED_4_3_0, REMOVED_5_1_0
+			ADDED_4_3_0, REMOVED_5_1_0,
 			-- #endif
 		},
 	},
@@ -438,13 +474,31 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		ach(6131),	-- 8th Anniversary
 		i(71134),	-- Celebration Package
 	})),
-	n(WOW_ANNIVERSARY_NINE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {
+	n(WOW_ANNIVERSARY_NINE, bubbleDownSelf({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_5_1_0,	-- 9th anniversary will not happen during Classic
+			-- #else
+			ADDED_5_1_0, REMOVED_6_0_2,
+			-- #endif
+		}
+	},
+	{
 		ach(7853),	-- 9th Anniversary
 		n(MAILBOX, {
 			i(90918),	-- Celebration Package
 		}),
 	})),
-	n(WOW_ANNIVERSARY_TEN, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_2, REMOVED_6_2_0 } },{
+	n(WOW_ANNIVERSARY_TEN, bubbleDownSelf({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_6_0_2,	-- 10th anniversary will not happen during Classic
+			-- #else
+			ADDED_6_0_2, REMOVED_6_2_0,
+			-- #endif
+		}
+	},
+	{
 		ach(8820, {	-- 10th Anniversary
 			i(115301),	-- Molten Corgi (PET!)
 		}),
@@ -478,7 +532,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			},
 		}),
 	})),
-	n(WOW_ANNIVERSARY_ELEVEN, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_0, REMOVED_6_2_0 } },{
+	n(WOW_ANNIVERSARY_ELEVEN, bubbleDownSelf({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_6_2_0,	-- 11th anniversary will not happen during Classic
+			-- #else
+			ADDED_6_2_0, REMOVED_6_2_0,
+			-- #endif
+		}
+	},
+	{
 		ach(10058),	-- 11th Anniversary
 		n(MAILBOX, {
 			i(128513, {	-- Anniversary Gift
@@ -493,7 +556,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_TWELVE, bubbleDown({ ["timeline"] = { ADDED_7_0_3, REMOVED_7_2_5 } },{
+	n(WOW_ANNIVERSARY_TWELVE, bubbleDown({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_7_0_3,	-- 12th anniversary will not happen during Classic
+			-- #else
+			ADDED_7_0_3, REMOVED_7_2_5,
+			-- #endif
+		}
+	},
+	{
 		ach(10741),	-- 12th Anniversary
 		n(MAILBOX, {
 			i(139284, {	-- Anniversary Gift
@@ -517,7 +589,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_THIRTEEN, bubbleDown({ ["timeline"] = { ADDED_7_2_5, REMOVED_7_2_5 } },{
+	n(WOW_ANNIVERSARY_THIRTEEN, bubbleDown({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_7_2_5,	-- 13th anniversary will not happen during Classic
+			-- #else
+			ADDED_7_2_5, REMOVED_7_2_5,
+			-- #endif
+		}
+	},
+	{
 		ach(11848),	-- 13th Anniversary
 		n(MAILBOX, {
 			i(147876, {	-- Anniversary Gift
@@ -541,7 +622,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_FOURTEEN, bubbleDown({ ["timeline"] = { ADDED_8_0_1, REMOVED_8_2_5 } },{
+	n(WOW_ANNIVERSARY_FOURTEEN, bubbleDown({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_8_0_1,	-- 14th anniversary will not happen during Classic
+			-- #else
+			ADDED_8_0_1, REMOVED_8_2_5,
+			-- #endif
+		}
+	},
+	{
 		ach(12827),	-- 14th Anniversary
 		n(MAILBOX, {
 			i(162637, {	-- Anniversary Gift
@@ -553,7 +643,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 			}),
 		}),
 	})),
-	n(WOW_ANNIVERSARY_FIFTEEN, bubbleDown({ ["timeline"] = { ADDED_8_2_5, REMOVED_9_0_1 } },{
+	n(WOW_ANNIVERSARY_FIFTEEN, bubbleDown({
+		["timeline"] = {
+			-- #if ANYCLASSIC
+			CREATED_8_2_5,	-- 15th anniversary will not happen during Classic
+			-- #else
+			ADDED_8_2_5, REMOVED_9_0_1,
+			-- #endif
+		}
+	},
+	{
 		ach(13917),	-- 15th Anniversary
 		n(157113, {	-- Chromie
 			--	inst(2235, {	-- doesn't show up in-game
