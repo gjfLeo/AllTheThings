@@ -150,7 +150,7 @@ app.CreateSpecies = app.CreateClass(CLASSNAME, KEY, {
 },
 "WithItem", {
 	ImportFrom = "Item",
-	ImportFields = { "name", "link", "tsm", "costCollectibles" },
+	ImportFields = { "name", "link", "tsm", "costCollectibles", "AsyncRefreshFunc" },
 },
 function(t) return t.itemID end);
 

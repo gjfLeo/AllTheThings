@@ -96,7 +96,6 @@ do
 	local KEY = "npcID"
 	local cache = app.CreateCache(KEY, "NPC")
 	cache.DefaultFunctions.name = function(t)
-		app.DirectGroupRefresh(t, true)
 		local _t, id = cache.GetCached(t)
 		local name = NPCNameFromID[id]
 		_t.name = name

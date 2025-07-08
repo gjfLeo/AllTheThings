@@ -187,9 +187,21 @@ api.CleanLink = CleanLink
 local CLASS = "Item"
 local KEY = "itemID"
 local cache = app.CreateCache("modItemID");
+local function ItemAsyncRefreshFunc(t)
+	local _t, id = cache.GetCached(t)
+	if _t.__Retrieved then return end
+
+	_t.__Retrieved = true
+	-- app.PrintDebug("RetrievalFunc",t.hash)
+	-- app.PrintDebug("Item Callback", id)
+	ItemEventListener:AddCallback(math_floor(id), function()
+		-- app.PrintDebug("Item Loaded", id)
+		app.DirectGroupRefresh(t, true)
+	end)
+	return true
+end
 -- Consolidated function to cache available Item information
-local function RawSetItemInfoFromLink(t, rawlink, attemptRefresh)
-	if attemptRefresh then app.DirectGroupRefresh(t, true) end
+local function RawSetItemInfoFromLink(t, rawlink)
 	local name, link, quality, _, _, _, _, _, _, icon, _, _, _, b = GetItemInfo(rawlink);
 	-- app.PrintDebug("RawSetLink:=",rawlink,"->",link)
 	local _t, id = cache.GetCached(t)
@@ -207,16 +219,6 @@ local function RawSetItemInfoFromLink(t, rawlink, attemptRefresh)
 			_t.b = b;
 		end
 		return link;
-	end
-	if not _t.__RawSetItemInfoFromLink then
-		_t.__RawSetItemInfoFromLink = true
-		-- app.PrintDebug("__RawSetItemInfoFromLink.set.fresh",t.hash,t.__RawSetItemInfoFromLink,canretry)
-		-- app.PrintDebug("Item Callback", id)
-		ItemEventListener:AddCallback(math_floor(id), function()
-			-- app.PrintDebug("Item Loaded", id)
-			RawSetItemInfoFromLink(t, rawlink, true)
-		end)
-		return
 	end
 	if _t.NoServerData or not t.CanRetry then
 		if _t.name then
@@ -334,6 +336,9 @@ end
 local itemFields = {
 	_cache = function(t)
 		return cache;
+	end,
+	AsyncRefreshFunc = function()
+		return ItemAsyncRefreshFunc
 	end,
 	icon = function(t)
 		return cache.GetCachedField(t, "icon", default_icon);
@@ -496,7 +501,7 @@ local CreateCostItem = app.CreateClass("CostItem", KEY, {
 	IsClassIsolated = true,
 	-- import the link field from Item so that loading works properly
 	ImportFrom = "Item",
-	ImportFields = { "link" },
+	ImportFields = { "link", "AsyncRefreshFunc" },
 	-- total is the count of the cost item required
 	total = function(t)
 		return t.count or 1;

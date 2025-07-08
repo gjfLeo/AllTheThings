@@ -62,6 +62,10 @@ end
 -- Load Quest Lib
 local RequestLoadQuestByID, ResetQuestName, QuestNameFromID;
 local RefreshQuestIDs = {}
+local function QuestAsyncRefreshFunc(t)
+	RefreshQuestIDs[t.questID] = t
+	return true
+end
 local C_QuestLog_RequestLoadQuestByID = C_QuestLog.RequestLoadQuestByID;
 if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA_LOAD_RESULT") then
 	local QuestsRequested = {};
@@ -1613,6 +1617,9 @@ end
 
 -- Quest Lib
 local createQuest = app.CreateClass("Quest", "questID", {
+	AsyncRefreshFunc = function()
+		return QuestAsyncRefreshFunc
+	end,
 	CollectibleType = function() return "Quests" end,
 	text = app.IsClassic and function(t)
 		if t.repeatable then return "|cff0070DD" .. t.name .. "|r"; end
@@ -1620,13 +1627,7 @@ local createQuest = app.CreateClass("Quest", "questID", {
 	end or nil,
 	name = function(t)
 		-- TODO: need app.GetAutomaticHeaderData to provide name if not returned from server prior to using QuestNameDefault
-		local questID = t.questID
-		local name = QuestNameFromID[questID]
-		if name then return name end
-
-		-- hook the current group into a cache so that when its name is retrieved it can refresh automatically
-		RefreshQuestIDs[questID] = t
-		return RETRIEVING_DATA
+		return QuestNameFromID[t.questID] or RETRIEVING_DATA
 	end,
 	icon = function(t)
 		-- TODO: need app.GetAutomaticHeaderData to provide icon

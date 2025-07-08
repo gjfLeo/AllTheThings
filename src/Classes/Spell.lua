@@ -124,7 +124,6 @@ local function default_costCollectibles(t)
 	return app.EmptyTable
 end
 local function CacheInfo(t, field)
-	app.DirectGroupRefresh(t, true)
 	local _t, id = cache.GetCached(t);
 	local name, icon = GetSpellName(id), GetSpellIcon(id);
 	_t.name = name;
@@ -177,7 +176,7 @@ do
 	},
 	"WithItem", {
 		ImportFrom = "Item",
-		ImportFields = { "name", "link", "icon", "specs", "tsm", "costCollectibles" },
+		ImportFields = { "name", "link", "icon", "specs", "tsm", "costCollectibles", "AsyncRefreshFunc" },
 	},
 	function(t) return t.itemID end)
 
@@ -266,7 +265,7 @@ do
 	},
 	"WithItem", {
 		ImportFrom = "Item",
-		ImportFields = { "name", "link", "icon", "specs", "tsm", "costCollectibles" },
+		ImportFields = { "name", "link", "icon", "specs", "tsm", "costCollectibles", "AsyncRefreshFunc" },
 		b = function(t)
 			-- If not tracking Recipes Account-Wide, then pretend that every Recipe is BoP
 			return app.Settings.AccountWide[SETTING] and 2 or 1;

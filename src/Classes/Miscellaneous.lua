@@ -305,8 +305,7 @@ local VisualHeaderFields = {
 	hash = BaseClass__class.hash,
 	text = BaseClass__class.text,
 }
-local CreateVisualHeader, CreateVisualHeader__class
-CreateVisualHeader, CreateVisualHeader__class = app.CreateClass("VisualHeader", "noKey-VisualHeader", VisualHeaderFields);
+local CreateVisualHeader, CreateVisualHeader__class = app.CreateClass("VisualHeader", "noKey-VisualHeader", VisualHeaderFields);
 app.CreateVisualHeader = CreateVisualHeader
 local Wrap = app.WrapObject;
 app.CreateVisualHeaderWithGroups = function(base, groups)
@@ -348,7 +347,6 @@ for _,field in ipairs({
 	"progress",
 	"total",
 	"visible",
-	"modItemID",
 	"rawlink",
 	"sourceIgnored",
 	"costTotal",
