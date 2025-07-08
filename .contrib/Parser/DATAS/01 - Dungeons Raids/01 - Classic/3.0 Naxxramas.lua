@@ -21,10 +21,10 @@ THE_FOUR_HORSEMEN = createHeader({
 ExportDB.OnUpdateDB.OMARIONS_HANDBOOK = [[~function(t)
 	t.visible = true;
 	t.collectible = nil;
-	if app.MODE_DEBUG_OR_ACCOUNT or IsQuestFlaggedCompleted(9233) or C_QuestLog.IsOnQuest(9233) then
+	if _.MODE_DEBUG_OR_ACCOUNT or IsQuestFlaggedCompleted(9233) or C_QuestLog.IsOnQuest(9233) then
 		return false;
 	else
-		for spellID,skills in pairs(app.CurrentCharacter.ActiveSkills) do
+		for spellID,skills in pairs(_.CurrentCharacter.ActiveSkills) do
 			if (spellID == 2018 or spellID == 2108 or spellID == 3908) and skills[1] > 270 then
 				t.collectible = false;
 				t.visible = false;

@@ -19,10 +19,10 @@ ExportDB = CreateDatabaseContainer("Exports", {__index = autotable__index})
 ExportDB.OnUpdateDB.FOR_CRAFTER = [[~function(t)
 	t.visible = nil;
 	t.collectible = nil;
-	if app.MODE_DEBUG_OR_ACCOUNT then
+	if _.MODE_DEBUG_OR_ACCOUNT then
 		return false;
 	else
-		local skills = app.CurrentCharacter.ActiveSkills;
+		local skills = _.CurrentCharacter.ActiveSkills;
 		if skills[2018] or skills[2108] or skills[3908] then
 			return false;
 		end
