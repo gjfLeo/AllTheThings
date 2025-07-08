@@ -1163,7 +1163,7 @@ local InformationTypes = {
 						else
 							if _ == "i" then
 								local item = CostItemCache[v[2]];
-								name = item.name;
+								name = item.text;
 								icon = item.icon;
 							elseif _ == "c" then
 								local currency = CostCurrencyCache[v[2]];
@@ -1268,7 +1268,7 @@ local InformationTypes = {
 			end
 		end,
 	}),
-	
+
 	CreateInformationType("SpecializationRequirements", {
 		priority = 9003,
 		text = "Specializations",
@@ -1282,7 +1282,7 @@ local InformationTypes = {
 					return;
 				end
 			end
-			
+
 			-- specs is already filtered/sorted to only current class
 			if specs and #specs > 0 then
 				tinsert(tooltipInfo, { right = app.GetSpecsString(specs, true, true) });
@@ -1296,7 +1296,7 @@ local InformationTypes = {
 			end
 		end,
 	});
-	
+
 	-- We want this after most of the regular fields.
 	CreateInformationType("OnTooltip", {
 		priority = 10000,
