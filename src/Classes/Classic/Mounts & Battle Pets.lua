@@ -73,7 +73,7 @@ local mountFields = {
 		return app.Settings.Collectibles.Mounts;
 	end,
 	["explicitlyCollected"] = function(t)
-		return IsSpellKnown(t.spellID) or (t.questID and IsQuestFlaggedCompleted(t.questID)) or (t.itemID and GetItemCount(t.itemID, true) > 0);
+		return IsSpellKnown(t.spellID) or (t.questID and app.IsQuestFlaggedCompleted(t.questID)) or (t.itemID and GetItemCount(t.itemID, true) > 0);
 	end,
 	["b"] = function(t)
 		return (t.parent and t.parent.b) or 1;
