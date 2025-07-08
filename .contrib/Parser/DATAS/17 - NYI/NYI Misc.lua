@@ -356,6 +356,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(159693),	-- Set Keystone Map: Vault of the Wardens
 			i(158782),	-- Warchief's Prideful
 			i(158922),	-- Zany Zombiefied Raptor
+			i(159224),	-- Zuldazar Hearthstone
 		})),
 
 		-- 8.1.0
