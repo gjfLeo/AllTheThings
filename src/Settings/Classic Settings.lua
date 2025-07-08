@@ -114,6 +114,7 @@ local TooltipSettingsBase = {
 		["Auto:ProfessionList"] = true,
 		["Celebrate"] = true,
 		["Channel"] = "Master",
+		["Cost"] = true,
 		["Screenshot"] = false,
 		["DisplayInCombat"] = true,
 		["Enabled"] = true,

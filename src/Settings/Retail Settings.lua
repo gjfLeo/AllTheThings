@@ -115,6 +115,7 @@ local TooltipSettingsBase = {
 		["Auto:AH"] = false,
 		["Celebrate"] = true,
 		["Channel"] = "Master",
+		["Cost"] = true,
 		["Screenshot"] = false,
 		["DisplayInCombat"] = true,
 		["Enabled"] = true,
