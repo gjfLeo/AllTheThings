@@ -1943,28 +1943,6 @@ app.CreateCurrencyClass = app.CreateClass("Currency", "currencyID", {
 });
 end)();
 
--- Profession Lib
-app.CreateProfession = app.CreateClass("Profession", "professionID", {
-	["text"] = function(t)
-		return GetSpellName(t.spellID);
-	end,
-	["icon"] = function(t)
-		return GetSpellIcon(t.spellID);
-	end,
-	["spellID"] = function(t)
-		return app.SkillDB.SkillToSpell[t.professionID];
-	end,
-	["requireSkill"] = function(t)
-		return t.professionID;
-	end,
-	["ignoreSourceLookup"] = function(t)
-		return true;
-	end,
-	["sym"] = function(t)
-		return {{"selectprofession", t.professionID}};
-	end
-});
-
 -- Recipe & Spell Lib
 (function()
 local grey = RGBToHex(0.75, 0.75, 0.75);

@@ -1,40 +1,26 @@
-
 local _, app = ...
-
--- Globals
-local setmetatable, rawget, select, tostring, ipairs, pairs, tonumber
-	= setmetatable, rawget, select, tostring, ipairs, pairs, tonumber
-local C_TradeSkillUI_GetTradeSkillDisplayName
-	= C_TradeSkillUI.GetTradeSkillDisplayName
 
 -- WoW API Cache
 local GetSpellName = app.WOWAPI.GetSpellName;
 local GetSpellIcon = app.WOWAPI.GetSpellIcon;
 local GetTradeSkillTexture = app.WOWAPI.GetTradeSkillTexture;
-
--- Module
-
--- App
+local C_TradeSkillUI_GetTradeSkillDisplayName
+	= C_TradeSkillUI.GetTradeSkillDisplayName
 
 -- Profession Lib
-local CLASS = "Profession"
-local KEY = "professionID"
+local CLASS, KEY = "Profession", "professionID";
 app.CreateProfession = app.CreateClass(CLASS, KEY, {
 	name = function(t)
-		local spellID = t.spellID
 		local name
+		local spellID = t.spellID;
 		if spellID and spellID ~= 2366 then
 			name = GetSpellName(spellID)
 		end
 		return name or C_TradeSkillUI_GetTradeSkillDisplayName(t[KEY])
 	end,
 	icon = function(t)
-		local icon
-		local spellID = t.spellID
-		if spellID then
-			icon = GetSpellIcon(spellID)
-		end
-		return icon or GetTradeSkillTexture(t[KEY]);
+		local spellID = t.spellID;
+		return spellID and GetSpellIcon(spellID) or GetTradeSkillTexture(t[KEY]);
 	end,
 	spellID = function(t)
 		return app.SkillDB.SkillToSpell[t[KEY]];
@@ -45,10 +31,10 @@ app.CreateProfession = app.CreateClass(CLASS, KEY, {
 	requireSkill = function(t)
 		return t[KEY];
 	end,
-	--[[
-	sym = function(t)
-		return {{"selectprofession", t[KEY]},
-				{"not","headerID",app.HeaderConstants.PROFESSIONS}};	-- Ignore the Main Professions header that will get pulled in
+	ignoreSourceLookup = function(t)
+		return true;
 	end,
-	--]]--
+	sym = app.IsClassic and function(t)
+		return {{"selectprofession", t.professionID}};
+	end
 })
