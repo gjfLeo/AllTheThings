@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						-- #endif
 					["races"] = HORDE_ONLY,
 					["g"] = {
-						r(119467),	-- Battle Pet Training
+						spell(119467),	-- Battle Pet Training
 					}
 				}),
 				q(31967, {	-- Battle Pet Tamers: Cataclysm (H)

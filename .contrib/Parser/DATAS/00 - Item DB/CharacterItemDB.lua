@@ -105,9 +105,9 @@ is(44811, 61780, MAGE);				-- Tome of Polymorph: Turkey
 -----------------
 is(82470, 120146, MAGE);			-- Ancient Tome of Portal: Dalaran
 is(82469, 120145, MAGE);			-- Ancient Tome of Teleport: Dalaran
+is(0, 119467);						-- Battle Pet Training
 --iq(86125, 31304);					-- Kafa Press
 --iq(86529, 31432);					-- Manipulator's Talisman
-is(0, 131204);						-- Path of the Jade Serpent
 
 -----------------
 -- PATCH 5.2.0 --

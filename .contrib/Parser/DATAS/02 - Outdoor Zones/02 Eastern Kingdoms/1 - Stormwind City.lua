@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["g"] = {
-						r(119467),	-- Battle Pet Training
+						spell(119467),	-- Battle Pet Training
 					}
 				}),
 				-- Infamous Breadcrumbs, these are offered at the end of the training quests in each of the starter zones. Can't find any info on which one is appropriate to which map, so this is going to need to be something figured out on an entirely new account that has done none of the pet battle quests
