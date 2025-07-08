@@ -3022,7 +3022,6 @@ root(ROOTS.Unsorted, {
 				i(163088),	-- Perfectly Ordinary Broomstick
 				i(163089),	-- Long-Stemmed Pipe
 				i(163090),	-- Cured Billow-Weed
-				i(163092),	-- Embroidered Falconry Hood
 				i(163093),	-- Witch's Ritual Chalk
 				i(163095),	-- Golden Troll Berserker \\ Finely Crafted Tin Soldier
 				i(163096),	-- Lead-Glass Hand Mirror

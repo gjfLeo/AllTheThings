@@ -325,6 +325,7 @@ i(158792);	-- Digestive Acid
 i(155618);	-- Discarded Molting
 i(163587);	-- Discarded Zandalari Brooch
 i(158757);	-- Disquiet Earth
+i(163092);	-- Embroidered Falconry Hood
 i(168787);	-- Empty Birdcage
 i(162684);	-- Etched Dock Cleat
 i(162976);	-- Exile's Abandoned Memoirs
