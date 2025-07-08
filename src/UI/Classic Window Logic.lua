@@ -808,45 +808,6 @@ local function RowOnEnter(self)
 		});
 	end
 
-	if reference.cost then
-		if type(reference.cost) == "table" then
-			local _, name, icon, amount;
-			for k,v in pairs(reference.cost) do
-				_ = v[1];
-				if _ == "g" then
-					tinsert(tooltipInfo, {
-						left = (k == 1 and "Cost"),
-						right = GetCoinTextureString(v[2]),
-					});
-				else
-					if _ == "i" then
-						local item = app.CreateItem(v[2]);
-						name = item.name;
-						icon = item.icon;
-					elseif _ == "c" then
-						local currency = app.CreateCurrencyClass(v[2]);
-						name = currency.text;
-						icon = currency.icon;
-					end
-					name = (icon and ("|T" .. icon .. ":0|t") or "") .. (name or RETRIEVING_DATA);
-					_ = (v[3] or 1);
-					if _ > 1 then
-						name = _ .. "x  " .. name;
-					end
-					tinsert(tooltipInfo, {
-						left = (k == 1 and "Cost"),
-						right = name,
-					});
-				end
-			end
-		else
-			tinsert(tooltipInfo, {
-				left = "Cost",
-				right = GetCoinTextureString(reference.cost),
-			});
-		end
-	end
-
 	-- Process all Information Types
 	if tooltip.ATT_AttachComplete == nil then
 		app.ProcessInformationTypes(tooltipInfo, reference);

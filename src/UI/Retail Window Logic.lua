@@ -1448,34 +1448,6 @@ local function AddQuestInfoToTooltip(info, quests, reference)
 		end
 	end
 end
-local function formatNumericWithCommas(amount)
-    local k
-    while true do
-        amount, k = tostring(amount):gsub("^(-?%d+)(%d%d%d)", '%1,%2')
-        if k == 0 then
-            break
-        end
-    end
-    return amount
-end
-local function GetMoneyString(amount)
-    if amount > 0 then
-        local formatted
-        local gold, silver, copper = math_floor(amount / 100 / 100), math_floor((amount / 100) % 100),
-            math_floor(amount % 100)
-        if gold > 0 then
-            formatted = formatNumericWithCommas(gold) .. "|T237618:0|t"
-        end
-        if silver > 0 then
-            formatted = (formatted or "") .. silver .. "|T237620:0|t"
-        end
-        if copper > 0 then
-            formatted = (formatted or "") .. copper .. "|T237617:0|t"
-        end
-        return formatted
-    end
-    return amount
-end
 
 -- Returns true if any subgroup of the provided group is currently expanded, otherwise nil
 local function HasExpandedSubgroup(group)
@@ -1810,52 +1782,6 @@ app.AddEventHandler("RowOnEnter", function(self)
 			tooltipInfo[#tooltipInfo + 1] = {
 				left = L.QUEST_ONCE_PER_ACCOUNT,
 				color = "ffcf271b",
-			}
-		end
-	end
-
-	-- TODO: Convert cost to an InformationType.
-	if reference.cost then
-		if type(reference.cost) == "table" then
-			local _, name, icon, amount;
-			for k,v in pairs(reference.cost) do
-				_ = v[1];
-				if _ == "i" then
-					_,name,_,_,_,_,_,_,_,icon = GetItemInfo(v[2]);
-					amount = v[3];
-					if amount > 1 then
-						amount = formatNumericWithCommas(amount) .. "x ";
-					else
-						amount = "";
-					end
-				elseif _ == "c" then
-					amount = v[3];
-					local currencyData = C_CurrencyInfo.GetCurrencyInfo(v[2]);
-					name = C_CurrencyInfo.GetCurrencyLink(v[2], amount) or (currencyData and currencyData.name) or "Unknown";
-					icon = currencyData and currencyData.iconFileID or nil;
-					if amount > 1 then
-						amount = formatNumericWithCommas(amount) .. "x ";
-					else
-						amount = "";
-					end
-				elseif _ == "g" then
-					name = "";
-					icon = nil;
-					amount = GetMoneyString(v[2]);
-				end
-				if not name then
-					reference.working = true;
-					name = RETRIEVING_DATA;
-				end
-				tooltipInfo[#tooltipInfo + 1] = {
-					left = (k == 1 and L.COST),
-					right = amount .. (icon and ("|T" .. icon .. ":0|t") or "") .. name,
-				}
-			end
-		else
-			tooltipInfo[#tooltipInfo + 1] = {
-				left = L.COST,
-				right = GetMoneyString(reference.cost),
 			}
 		end
 	end
