@@ -18,6 +18,21 @@ THE_FOUR_HORSEMEN = createHeader({
 		tw = "四騎士",
 	},
 });
+ExportDB.OnUpdateDB.OMARIONS_HANDBOOK = [[~function(t)
+	t.visible = true;
+	t.collectible = nil;
+	if app.MODE_DEBUG_OR_ACCOUNT or IsQuestFlaggedCompleted(9233) or C_QuestLog.IsOnQuest(9233) then
+		return false;
+	else
+		for spellID,skills in pairs(app.CurrentCharacter.ActiveSkills) do
+			if (spellID == 2018 or spellID == 2108 or spellID == 3908) and skills[1] > 270 then
+				t.collectible = false;
+				t.visible = false;
+				return true;
+			end
+		end
+	end
+end]];
 root(ROOTS.Instances, expansion(EXPANSION.CLASSIC,
 -- #if BEFORE WRATH
 applyclassicphase(PHASE_SIX,
@@ -1354,7 +1369,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
 								{ "i",  7080, 2 },	-- Essence of Water
@@ -1372,7 +1389,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { PRIEST, MAGE, WARLOCK },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
 								{ "i",  7080, 4 },	-- Essence of Water
@@ -1391,7 +1410,9 @@ applyclassicphase(PHASE_SIX,
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { PRIEST, MAGE, WARLOCK },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 8 },	-- Frozen Rune
 								{ "i",  7080, 6 },	-- Essence of Water
@@ -1409,7 +1430,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { PRIEST, MAGE, WARLOCK },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
 								{ "i",  7080, 2 },	-- Essence of Water
@@ -1427,7 +1450,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { WARRIOR, PALADIN },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
 								{ "i", 7080, 2 },	-- Essence of Water
@@ -1446,7 +1471,9 @@ applyclassicphase(PHASE_SIX,
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { WARRIOR, PALADIN },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 8 },	-- Frozen Rune
 								{ "i", 7080, 4 },	-- Essence of Water
@@ -1464,7 +1491,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { WARRIOR, PALADIN },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
 								{ "i", 7080, 2 },	-- Essence of Water
@@ -1482,7 +1511,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { HUNTER, SHAMAN },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
 								{ "i",  7080, 5 },	-- Essence of Water
@@ -1501,7 +1532,9 @@ applyclassicphase(PHASE_SIX,
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { HUNTER, SHAMAN },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 8 },	-- Frozen Rune
 								{ "i",  7080, 7 },	-- Essence of Water
@@ -1519,7 +1552,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { HUNTER, SHAMAN },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
 								{ "i",  7080, 5 },	-- Essence of Water
@@ -1536,7 +1571,9 @@ applyclassicphase(PHASE_SIX,
 							["provider"] = { "i", 22719 },	-- Omarion's Handbook
 							["description"] = "You must not have a profession above 270 skill for you to get this item from Omarion.",
 							["minReputation"] = { FACTION_ARGENT_DAWN, REVERED },	-- Argent Dawn, Revered.
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["lvl"] = 60,
 						}),
 						q(9241, {	-- Polar Bracers
@@ -1544,7 +1581,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { ROGUE, DRUID },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 4 },	-- Frozen Rune
 								{ "i",  7080, 3 },	-- Essence of Water
@@ -1562,7 +1601,9 @@ applyclassicphase(PHASE_SIX,
 							["sourceQuest"] = 9233,	-- Omarion's Handbook
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { ROGUE, DRUID },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 5 },	-- Frozen Rune
 								{ "i",  7080, 3 },	-- Essence of Water
@@ -1581,7 +1622,9 @@ applyclassicphase(PHASE_SIX,
 							["minReputation"] = { FACTION_ARGENT_DAWN, EXALTED },	-- Argent Dawn, Exalted.
 							["coord"] = { 81.0, 59.6, EASTERN_PLAGUELANDS },
 							["classes"] = { ROGUE, DRUID },
-							["OnUpdate"] = [[_.OnUpdateForOmarionsHandbook]],
+							-- #if BEFORE WRATH
+							["OnUpdate"] = [[_.OnUpdateDB.OMARIONS_HANDBOOK]],
+							-- #endif
 							["cost"] = {
 								{ "i", 22682, 8 },	-- Frozen Rune
 								{ "i",  7080, 5 },	-- Essence of Water

@@ -16,6 +16,22 @@ end
 
 ExportDB = CreateDatabaseContainer("Exports", {__index = autotable__index})
 
+ExportDB.OnUpdateDB.FOR_CRAFTER = [[~function(t)
+	t.visible = nil;
+	t.collectible = nil;
+	if app.MODE_DEBUG_OR_ACCOUNT then
+		return false;
+	else
+		local skills = app.CurrentCharacter.ActiveSkills;
+		if skills[2018] or skills[2108] or skills[3908] then
+			return false;
+		end
+		t.collectible = false;
+		t.visible = false;
+		return true;
+	end
+end]];
+
 -- RaceDB --
 
 local RaceDB = {

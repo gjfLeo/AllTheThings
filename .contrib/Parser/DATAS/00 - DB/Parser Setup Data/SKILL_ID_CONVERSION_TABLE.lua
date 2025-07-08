@@ -265,7 +265,7 @@ ExportDB.SkillDB = {
 	-- Mapping of Base Skill to known Spell
 	SkillToSpell = {
 		[171] = 2259,	-- Alchemy
-		[794] = 158762,	-- Arch
+		[794] = 78670,	-- Arch
 		[261] = 5149,	-- Beast Training
 		[164] = 2018,	-- Blacksmithing
 		[185] = 2550,	-- Cooking
@@ -307,6 +307,8 @@ ExportDB.SkillDB = {
 		[125587] = 125587,	-- Way of the Steamer
 		[125584] = 125584,	-- Way of the Wok
 		
+		-- Riding
+		[762] = 33388,	-- Riding
 		-- #if BEFORE TBC
 		[148] = 824,	-- Horse Riding
 		[713] = 18995,	-- Kodo Riding

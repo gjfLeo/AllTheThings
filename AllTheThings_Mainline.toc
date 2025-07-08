@@ -148,6 +148,9 @@ src\Classes\Spell.lua
 src\Classes\Ensemble.lua
 src\Classes\CharacterUnlock.lua
 
+# Classic Specific Modules
+# src\Classes\Classic\Mounts & Battle Pets.lua
+
 # Item Sub-Classes
 src\Classes\Heirloom.lua
 src\Classes\Toys.lua

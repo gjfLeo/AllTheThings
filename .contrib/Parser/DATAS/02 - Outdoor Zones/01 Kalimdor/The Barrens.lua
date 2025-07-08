@@ -2477,7 +2477,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["sourceQuest"] = 78908,	--  Speak to N'ora
 					["coord"] = { 62.0, 39.4, THE_BARRENS },
 					["timeline"] = { REMOVED_2_0_1 },
-					["OnUpdate"] = [[_.OnUpdateForCrafter]],
+					["OnUpdate"] = [[_.OnUpdateDB.FOR_CRAFTER]],
 					["cost"] = {
 						{ "i", 10940, 40 },	-- Strange Dust
 						{ "i", 10939, 5 },	-- Greater Magic Essence
@@ -2582,7 +2582,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["coord"] = { 62.0, 39.4, THE_BARRENS },
 					["description"] = "You need to loot the Handful of Shifting Scales before this quest will be displayed to you.",
 					["timeline"] = { REMOVED_2_0_1 },
-					["OnUpdate"] = [[_.OnUpdateForCrafter]],
+					["OnUpdate"] = [[_.OnUpdateDB.FOR_CRAFTER]],
 					["lvl"] = 20,
 				})),
 				-- #endif
