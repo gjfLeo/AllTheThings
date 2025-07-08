@@ -117,23 +117,6 @@ local function formatNumericWithCommas(amount)
   end
   return amount
 end
-local function GetMoneyString(amount)
-	if amount > 0 then
-		local formatted
-		local gold,silver,copper = math_floor(amount / 100 / 100), math_floor((amount / 100) % 100), math_floor(amount % 100)
-		if gold > 0 then
-			formatted = formatNumericWithCommas(gold) .. "|T237618:0|t"
-		end
-		if silver > 0 then
-			formatted = (formatted or "") .. silver .. "|T237620:0|t"
-		end
-		if copper > 0 then
-			formatted = (formatted or "") .. copper .. "|T237617:0|t"
-		end
-		return formatted
-	end
-	return amount
-end
 
 do -- TradeSkill Functionality
 local tradeSkillSpecializationMap = app.SkillDB.Specializations
