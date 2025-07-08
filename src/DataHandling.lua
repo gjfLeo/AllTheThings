@@ -427,10 +427,11 @@ local function DirectGroupRefresh(group, immediate)
 	end
 	local window = app.GetRelativeRawWithField(group, "window")
 	if window then
-		-- app.PrintDebug("DGR:Refresh",group.hash,">",DGUDelay,window.Suffix,window.Refresh)
 		if immediate then
+			-- app.PrintDebug("DGR:Refresh:Now",group.hash,window.Suffix)
 			Callback(window.Update, window)
 		else
+			-- app.PrintDebug("DGR:Refresh:Delay",group.hash,window.Suffix)
 			DelayedCallback(window.Update, DGUDelay, window)
 		end
 	else
