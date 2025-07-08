@@ -664,6 +664,8 @@ settings.GetShortModeString = function(self)
 		local totalThingCount = 0
 		local keyPrefix, thingName, thingActive
 		local insaneTotalCount, insaneCount = 0, 0;
+		local rankedTotalCount, rankedCount = 0, 0;
+		local coreTotalCount, coreCount = 0, 0;
 		local solo = not app.MODE_DEBUG_OR_ACCOUNT
 		for key,_ in pairs(GeneralSettingsBase.__index) do
 			keyPrefix, thingName = (":"):split(key)
@@ -681,8 +683,24 @@ settings.GetShortModeString = function(self)
 						insaneTotalCount = insaneTotalCount + 1;
 						insaneCount = insaneCount + 1;
 					end
-				elseif self.RequiredForInsaneMode[thingName] then
-					insaneTotalCount = insaneTotalCount + 1;
+					if self.RequiredForRankedMode[thingName] then
+						rankedTotalCount = rankedTotalCount + 1;
+						rankedCount = rankedCount + 1;
+					end
+					if self.RequiredForCoreMode[thingName] then
+						coreTotalCount = coreTotalCount + 1;
+						coreCount = coreCount + 1;
+					end
+				else
+					if self.RequiredForInsaneMode[thingName] then
+						insaneTotalCount = insaneTotalCount + 1;
+					end
+					if self.RequiredForRankedMode[thingName] then
+						rankedTotalCount = rankedTotalCount + 1;
+					end
+					if self.RequiredForCoreMode[thingName] then
+						coreTotalCount = coreTotalCount + 1;
+					end
 				end
 			elseif solo and keyPrefix == "AccountWide"
 				and not settings.ForceAccountWide[thingName]
