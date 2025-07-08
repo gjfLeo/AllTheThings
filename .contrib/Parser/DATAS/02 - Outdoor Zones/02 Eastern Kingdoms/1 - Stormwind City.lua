@@ -106,6 +106,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						"Provides the Alliance Battle Pet questline, the quests are given in the following order:\n\n1. The inital quests touring southern Eastern Kingdoms\n2. 'Battle Pet Tamers: Eastern Kingdoms' + 'Battle Pet Tamers: Kalimdor'\n3. 'Grand Master Lydia Accoste' + 'Grand Master Trixxy'\n4. 'Battle Pet Tamers: Outland'\n5. 'Grand Master Antari'\n6. 'Battle Pet Tamers: Northrend'\n7. 'Grand Master Payne'\n8. 'Battle Pet Tamers: Cataclysm'\n9. 'Grand Master Obalis'\n10. 'Battle Pet Tamers: Pandaria'\n11. 'Grand Master Aki'\n\nYou might have to tinker with Chromie time on low-level character to obtain these account-wide quests, and new quest might not be given until daily reset.",
 						-- #endif
 					["races"] = ALLIANCE_ONLY,
+					["g"] = {
+						r(119467),	-- Battle Pet Training
+					}
 				}),
 				-- Infamous Breadcrumbs, these are offered at the end of the training quests in each of the starter zones. Can't find any info on which one is appropriate to which map, so this is going to need to be something figured out on an entirely new account that has done none of the pet battle quests
 				q(32008, {	-- Audrey Burnhep
