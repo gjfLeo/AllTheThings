@@ -167,6 +167,7 @@ root(ROOTS.Zones, {
 								["providers"] = {
 									{ "i", 72112 },	-- Fluttering Breeze (QI!)
 									{ "i", 72109 },	-- Wind Stone (QI!)
+									{ "o", 209325 }, -- Wind Stone
 								},
 								["coord"] = { 47.8, 31.6, THE_WANDERING_ISLE_STARTING_ZONE },
 								["cr"] = 54631,	-- Living Air
@@ -584,7 +585,7 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 29787,	-- Worthy of Passing
 						["coord"] = { 19.5, 51.2, THE_WANDERING_ISLE_STARTING_ZONE },
 						["groups"] = {
-							objective(1, {	-- 0/8 Kun-Pai Ritual Charm 
+							objective(1, {	-- 0/8 Kun-Pai Ritual Charm
 								["providers"] = {
 									{ "i",  74634 },	-- Kun-Pai Ritual Charm (QI!)
 									{ "o", 209671 },	-- Kun-Pai Ritual Charm
