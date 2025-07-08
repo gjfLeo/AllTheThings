@@ -2765,7 +2765,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 	mapped(n(ZONE_DROPS, {
 		i(225692),	-- Glowglow Cap (sturdy chest)
-		i(236668),	-- C.H.E.T.T. Card
 	})),
 	m(ARCHIVAL_ASSAULT, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 		["icon"] = [[~_.asset("Delves_Shadow")]],
@@ -3262,6 +3261,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					["coord"] = { 76.8, 75.0, SIDESTREET_SLUICE },
 					["questID"] = 86788,
 				}),
+			}),
+			n(ZONE_DROPS, {
+				i(236668),	-- C.H.E.T.T. Card
 			}),
 		},
 	})),
