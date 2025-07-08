@@ -8,7 +8,6 @@ local appName, app = ...;
 local L = app.L;
 
 local AssignChildren, CloneClassInstance, GetRelativeValue = app.AssignChildren, app.CloneClassInstance, app.GetRelativeValue;
-local IsQuestFlaggedCompleted, IsQuestFlaggedCompletedForObject = app.IsQuestFlaggedCompleted, app.IsQuestFlaggedCompletedForObject;
 
 -- Abbreviations
 L.ABBREVIATIONS[L.UNSORTED .. " %> " .. L.UNSORTED] = "|T" .. app.asset("WindowIcon_Unsorted") .. ":0|t " .. L.SHORTTITLE .. " %> " .. L.UNSORTED;
@@ -41,9 +40,8 @@ BINDING_NAME_ALLTHETHINGS_REROLL_RANDOM = L.REROLL_RANDOM
 -- While this may seem silly, caching references to commonly used APIs is actually a performance gain...
 local C_DateAndTime_GetServerTimeLocal
 	= C_DateAndTime.GetServerTimeLocal;
-local ipairs, pairs, rawset, rawget, pcall, select, tinsert, tremove, math_floor
-	= ipairs, pairs, rawset, rawget, pcall, select, tinsert, tremove, math.floor;
-local C_Map_GetPlayerMapPosition = C_Map.GetPlayerMapPosition;
+local ipairs, pairs, rawset, rawget, select, tinsert, tremove
+	= ipairs, pairs, rawset, rawget, select, tinsert, tremove;
 local GetAchievementNumCriteria = _G["GetAchievementNumCriteria"];
 local GetAchievementCriteriaInfo = _G["GetAchievementCriteriaInfo"];
 local IsPlayerSpell, IsSpellKnown, IsSpellKnownOrOverridesKnown =
