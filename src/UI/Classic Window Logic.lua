@@ -2094,7 +2094,7 @@ function app:BuildFlatSearchResponse(groups, field, value, t)
 		for i,group in ipairs(groups) do
 			if not group.IgnoreBuildRequests then
 				local v = group[field];
-				if v and (v == value or (field == "requireSkill" and app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == value)) then
+				if v and (v == value or (field == "requireSkill" and app.SkillDB.SpellToSkill[app.SkillDB.SpecializationSpells[v] or 0] == value)) then
 					tinsert(t, CloneReferenceForBuildRequests(group));
 				elseif group.g then
 					app:BuildFlatSearchResponse(group.g, field, value, t);
@@ -2142,7 +2142,7 @@ function app:BuildSearchResponse(groups, field, value)
 		for i,group in ipairs(groups) do
 			if not group.IgnoreBuildRequests then
 				local v = group[field];
-				if v and (v == value or (field == "requireSkill" and app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == value)) then
+				if v and (v == value or (field == "requireSkill" and app.SkillDB.SpellToSkill[app.SkillDB.SpecializationSpells[v] or 0] == value)) then
 					if not t then t = {}; end
 					tinsert(t, CloneReferenceForBuildRequests(group));
 				else

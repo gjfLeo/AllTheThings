@@ -69,7 +69,7 @@ CreateItemHarvester = app.ExtendClass("ItemHarvester", "ItemTooltipHarvester", "
 											if spellName == "Herbalism" then spellName = "Herb Gathering"; end
 											local spellID = app.SpellNameToSpellID[spellName];
 											if spellID then
-												local skillID = app.SpellIDToSkillID[spellID];
+												local skillID = app.SkillDB.SpellToSkill[spellID];
 												if skillID then
 													t.info.requireSkill = skillID;
 												else
@@ -541,7 +541,7 @@ app:CreateWindow("ItemFinder", {
 																	if spellName == "Herbalism" then spellName = "Herb Gathering"; end
 																	local spellID = app.SpellNameToSpellID[spellName];
 																	if spellID then
-																		local skillID = app.SpellIDToSkillID[spellID];
+																		local skillID = app.SkillDB.SpellToSkill[spellID];
 																		if skillID then
 																			info.requireSkill = skillID;
 																		end

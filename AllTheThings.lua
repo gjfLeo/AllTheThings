@@ -139,8 +139,6 @@ do -- TradeSkill Functionality
 local tradeSkillSpecializationMap = app.SkillDB.Specializations
 local specializationTradeSkillMap = app.SkillDB.BaseSkills
 local tradeSkillMap = app.SkillDB.Conversion
--- this is still required by Shared Modules
-app.SkillIDToSpellID = app.SkillDB.SkillToSpell
 local function GetBaseTradeSkillID(skillID)
 	return tradeSkillMap[skillID] or skillID;
 end
@@ -5932,7 +5930,7 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 				-- and if it filters for the current character
 				function(o, field, value)
 					local v = o[field]
-					return v and (v == value or app.SkillDB.SpellToSkill[app.SpecializationSpellIDs[v] or 0] == value)
+					return v and (v == value or app.SkillDB.SpellToSkill[app.SkillDB.SpecializationSpells[v] or 0] == value)
 						and app.CurrentCharacterFilters(o)
 				end
 			}

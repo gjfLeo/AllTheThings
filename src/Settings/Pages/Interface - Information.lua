@@ -123,7 +123,7 @@ local ConversionMethods = setmetatable({
 		end
 	end,
 	professionName = function(spellID, reference)
-		return IsRetrievingConversionMethod(GetSpellName(app.SkillIDToSpellID[spellID] or 0), reference)
+		return IsRetrievingConversionMethod(GetSpellName(app.SkillDB.SkillToSpell[spellID] or 0), reference)
 	end,
 }, {
 	__index = function(t, key)

@@ -63,10 +63,10 @@ SpellNameToSpellID = setmetatable(L.SPELL_NAME_TO_SPELL_ID, {
 		for spellID,g in pairs(cache) do
 			GetSpellName(spellID);
 		end
-		for _,spellID in pairs(app.SkillIDToSpellID) do
+		for _,spellID in pairs(app.SkillDB.SkillToSpell) do
 			GetSpellName(spellID);
 		end
-		for specID,spellID in pairs(app.SpecializationSpellIDs) do
+		for specID,spellID in pairs(app.SkillDB.SpecializationSpells) do
 			GetSpellName(spellID);
 		end
 		local numSpellTabs, offset, lastSpellName, currentSpellRank = GetNumSpellTabs(), select(4, GetSpellTabInfo(1)), "", 1;
@@ -104,7 +104,7 @@ local SkillIcons = setmetatable({
 	[2886] = 1394946,	-- Supply Shipments
 }, { __index = function(t, key)
 	if not key then return; end
-	local skillSpellID = app.SkillIDToSpellID[key];
+	local skillSpellID = app.SkillDB.SkillToSpell[key];
 	if skillSpellID then
 		return GetSpellIcon(skillSpellID);
 	end

@@ -19,20 +19,7 @@ local GetTradeSkillTexture = app.WOWAPI.GetTradeSkillTexture;
 -- Profession Lib
 local CLASS = "Profession"
 local KEY = "professionID"
-app.SpecializationSpellIDs = setmetatable(app.SkillDB.SpecializationSpells, {__index = function(t,k) return k; end})
 app.CreateProfession = app.CreateClass(CLASS, KEY, {
-	--[[
-	name = function(t)
-		if app.GetSpecializationBaseTradeSkill(t[KEY]) then return GetSpellName(t[KEY]); end
-		if t[KEY] == 129 then return GetSpellName(t.spellID); end
-		return C_TradeSkillUI_GetTradeSkillDisplayName(t[KEY]);
-	end,
-	icon = function(t)
-		if app.GetSpecializationBaseTradeSkill(t[KEY]) then return GetSpellIcon(t[KEY]); end
-		if t[KEY] == 129 then return GetSpellIcon(t.spellID); end
-		return GetTradeSkillTexture(t[KEY]);
-	end,
-	]]--
 	name = function(t)
 		local spellID = t.spellID
 		local name

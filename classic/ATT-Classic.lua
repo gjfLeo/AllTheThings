@@ -1944,11 +1944,6 @@ app.CreateCurrencyClass = app.CreateClass("Currency", "currencyID", {
 end)();
 
 -- Profession Lib
-(function()
-app.SkillIDToSpellID = setmetatable(app.SkillDB.SkillToSpell, {__index = function(t,k) return k; end});
-app.SpellIDToSkillID = {};
-for skillID,spellID in pairs(app.SkillIDToSpellID) do app.SpellIDToSkillID[spellID] = skillID; end
-app.SpecializationSpellIDs = setmetatable(app.SkillDB.SpecializationSpells, {__index = function(t,k) return k; end})
 app.CreateProfession = app.CreateClass("Profession", "professionID", {
 	["text"] = function(t)
 		return GetSpellName(t.spellID);
@@ -1957,7 +1952,7 @@ app.CreateProfession = app.CreateClass("Profession", "professionID", {
 		return GetSpellIcon(t.spellID);
 	end,
 	["spellID"] = function(t)
-		return app.SkillIDToSpellID[t.professionID];
+		return app.SkillDB.SkillToSpell[t.professionID];
 	end,
 	["requireSkill"] = function(t)
 		return t.professionID;
@@ -1969,7 +1964,6 @@ app.CreateProfession = app.CreateClass("Profession", "professionID", {
 		return {{"selectprofession", t.professionID}};
 	end
 });
-end)();
 
 -- Recipe & Spell Lib
 (function()
@@ -2051,10 +2045,10 @@ app.IsSpellKnown = function(spellID, rank, ignoreHigherRanks)
 end
 app.SpellNameToSpellID = setmetatable(L.SPELL_NAME_TO_SPELL_ID, {
 	__index = function(t, key)
-		for _,spellID in pairs(app.SkillIDToSpellID) do
+		for _,spellID in pairs(app.SkillDB.SkillToSpell) do
 			app.GetSpellName(spellID);
 		end
-		for specID,spellID in pairs(app.SpecializationSpellIDs) do
+		for specID,spellID in pairs(app.SkillDB.SpecializationSpells) do
 			app.GetSpellName(spellID);
 		end
 		for spellID,g in pairs(SearchForFieldContainer("spellID")) do

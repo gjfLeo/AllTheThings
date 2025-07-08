@@ -29,7 +29,7 @@ function app:CreateDynamicProfessionCategory(name, commands, professionID, speci
 		OnInit = function(self, handlers)
 			local function ProfessionFilter(group)
 				local v = group.requireSkill;
-				if v and (v == professionID or app.SpellIDToSkillID[app.SpecializationSpellIDs[v] or 0] == professionID) and group.spellID and not group.g and (not group.f or group.f == 200) then
+				if v and (v == professionID or app.SkillDB.SpellToSkill[app.SkillDB.SpecializationSpells[v] or 0] == professionID) and group.spellID and not group.g and (not group.f or group.f == 200) then
 					return true;
 				end
 			end
