@@ -42,6 +42,13 @@ root(ROOTS.NeverImplemented, {
 				i(22215),	-- Monster - Dagger, Bonescraper
 				i(23369),	-- Monster - Dagger, Claw of Chromaggus
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206692),	-- Parrying Dagger
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,01), {
 					i(189680),	-- 10.0 Dungeon Template - Dagger - Agi - Weapon
@@ -199,6 +206,14 @@ root(ROOTS.NeverImplemented, {
 				i(22738),	-- Monster - Sword, 1H Uber Demon Blade
 				i(23743),	-- Monster - Sword 1H - Widow's Remorse
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206688),	-- Primitive Scimitar
+					i(206694),	-- Primitive Scimitar
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
 			}),
