@@ -14,16 +14,9 @@ local wipe, setmetatable, rawget, select,pairs
 -- BattlePet Lib / Species Lib
 local KEY, CACHE = "speciesID", "BattlePets"
 local CLASSNAME = "BattlePet"
--- TODO: Classic implementation will need some heavily-modified functionality here
-if not C_PetBattles or not C_PetJournal then
-	app.CreateSpecies = app.CreateUnimplementedClass("BattlePet", KEY);
-	app.CreatePetAbility = app.CreateUnimplementedClass("PetAbility", "petAbilityID");
-	app.CreatePetType = app.CreateUnimplementedClass("PetType", "petTypeID");
-	return
-end
 
-local C_PetBattles_GetAbilityInfoByID,C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID,C_PetJournal_GetPetInfoByIndex,C_PetJournal_GetNumPets
-	= C_PetBattles.GetAbilityInfoByID,C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID,C_PetJournal.GetPetInfoByIndex,C_PetJournal.GetNumPets
+local C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID,C_PetJournal_GetPetInfoByIndex,C_PetJournal_GetNumPets
+	= C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID,C_PetJournal.GetPetInfoByIndex,C_PetJournal.GetNumPets
 
 -- Due to bad Blizzard data being returned from C_PetJournal.GetNumPets
 -- we can only use the method of scanning the players collected pets if this API returns the proper number of total
@@ -150,17 +143,17 @@ app.CreateSpecies = app.CreateClass(CLASSNAME, KEY, {
 },
 "WithItem", {
 	ImportFrom = "Item",
-	ImportFields = { "name", "link", "tsm", "costCollectibles", "AsyncRefreshFunc" },
+	ImportFields = app.IsRetail and { "name", "link", "tsm", "costCollectibles", "AsyncRefreshFunc" } or { "name", "link", "tsm" },
 },
 function(t) return t.itemID end);
 
 local function RefreshBattlePets()
-	app.PrintDebug("RCBP",C_PetJournal_GetNumPets())
+	local totalPets, ownedPets = C_PetJournal_GetNumPets()
+	app.PrintDebug("RCBP",totalPets,ownedPets)
 	wipe(CollectedSpeciesHelper)
 	local acct, char, none = {}, {}, {}
 	local count = 0
 	local num
-	local totalPets, ownedPets = C_PetJournal_GetNumPets()
 	-- ownedPets may reflect accurately but the C_PetJournal_GetPetInfoByIndex data will be missing entirely regardless
 	ownedPets = (totalPets or 0) >= TOTAL_PETS_FOR_SCAN and ownedPets or 0
 
@@ -253,17 +246,23 @@ app.AddEventRegistration("PET_JOURNAL_PET_DELETED", function(petID, speciesID)
 end)
 app.AddSimpleCollectibleSwap(CLASSNAME, CACHE)
 
-app.CreatePetAbility = app.CreateClass("PetAbility", "petAbilityID", {
-	["text"] = function(t)
-		return select(2, C_PetBattles_GetAbilityInfoByID(t.petAbilityID));
-	end,
-	["icon"] = function(t)
-		return select(3, C_PetBattles_GetAbilityInfoByID(t.petAbilityID));
-	end,
-	["description"] = function(t)
-		return select(5, C_PetBattles_GetAbilityInfoByID(t.petAbilityID));
-	end,
-})
+local C_PetBattles_GetAbilityInfoByID
+	= C_PetBattles.GetAbilityInfoByID
+if C_PetBattles_GetAbilityInfoByID then
+	app.CreatePetAbility = app.CreateClass("PetAbility", "petAbilityID", {
+		["text"] = function(t)
+			return select(2, C_PetBattles_GetAbilityInfoByID(t.petAbilityID));
+		end,
+		["icon"] = function(t)
+			return select(3, C_PetBattles_GetAbilityInfoByID(t.petAbilityID));
+		end,
+		["description"] = function(t)
+			return select(5, C_PetBattles_GetAbilityInfoByID(t.petAbilityID));
+		end,
+	});
+else
+	app.CreatePetAbility = app.CreateUnimplementedClass("PetAbility", "petAbilityID");
+end
 
 app.CreatePetType = app.CreateClass("PetType", "petTypeID", {
 	["text"] = function(t)
@@ -271,8 +270,5 @@ app.CreatePetType = app.CreateClass("PetType", "petTypeID", {
 	end,
 	["icon"] = function(t)
 		return app.asset("Icon_PetFamily_"..PET_TYPE_SUFFIX[t.petTypeID]);
-	end,
-	["filterID"] = function(t)
-		return 101;
 	end,
 })

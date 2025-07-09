@@ -117,7 +117,7 @@ src\Classes\Guild Achievements.lua
 src\Classes\Quests.lua
 # src\Classes\Item.Retail.lua
 src\Classes\Item.Classic.lua
-# src\Classes\BattlePet.lua
+src\Classes\BattlePet.lua
 src\Classes\Encounter.lua
 src\Classes\Expansion.lua
 src\Classes\FlightPath.lua
@@ -143,9 +143,6 @@ src\Classes\Transmog.lua
 # src\Classes\Ensemble.lua
 # src\Classes\CharacterUnlock.lua
 
-# Classic Specific Modules
-src\Classes\Classic\Mounts & Battle Pets.lua
-
 # Item Sub-Classes
 # src\Classes\Heirloom.lua
 src\Classes\Toys.lua
@@ -163,6 +160,10 @@ src\Settings\Classic Settings.xml
 # Load primary addon source files
 # AllTheThings.lua
 classic\ATT-Classic.lua
+
+# Classic Specific Modules
+src\Classes\Classic\Mounts & Battle Pets.lua
+
 src\UI\Game Tooltip.lua
 src\UI\Minimap Button.lua
 src\UI\Waypoints.lua

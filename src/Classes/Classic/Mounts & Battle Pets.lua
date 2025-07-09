@@ -19,11 +19,117 @@ local IsSpellKnown
 local SearchForField = app.SearchForField;
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
 
-local SetBattlePetCollected = function(t, speciesID, collected)
+
+local function SetMountCollected(t, spellID, collected)
+	return app.SetCollected(t, "Spells", spellID, collected, "Mounts");
+end
+local function IsMountObjectCollected(t)
+	for i,o in ipairs(SearchForField("spellID", t.spellID)) do
+		if o.explicitlyCollected then
+			return true;
+		end
+	end
+	return false;
+end
+local mountFields = {
+	IsClassIsolated = true,
+	CACHE = function() return "Spells" end,
+	["text"] = function(t)
+		return "|cffb19cd9" .. t.name .. "|r";
+	end,
+	["icon"] = function(t)
+		return GetSpellIcon(t.spellID);
+	end,
+	["link"] = function(t)
+		return (t.itemID and select(2, GetItemInfo(t.itemID))) or GetSpellLink(t.spellID);
+	end,
+	["f"] = function(t)
+		return app.FilterConstants.MOUNTS;
+	end,
+	RefreshCollectionOnly = true,
+	["collectible"] = function(t)
+		return app.Settings.Collectibles.Mounts;
+	end,
+	["collected"] = function(t)
+		return SetMountCollected(t, t.spellID, IsMountObjectCollected(t));
+	end,
+	["explicitlyCollected"] = function(t)
+		return IsSpellKnown(t.spellID) or (t.questID and app.IsQuestFlaggedCompleted(t.questID)) or (t.itemID and GetItemCount(t.itemID, true) > 0);
+	end,
+	["b"] = function(t)
+		return (t.parent and t.parent.b) or 1;
+	end,
+	["name"] = function(t)
+		return GetSpellName(t.spellID) or RETRIEVING_DATA;
+	end,
+	["tsmForItem"] = function(t)
+		---@diagnostic disable-next-line: undefined-field
+		if t.itemID then return ("i:%d"):format(t.itemID); end
+		---@diagnostic disable-next-line: undefined-field
+		if t.parent and t.parent.itemID then return ("i:%d"):format(t.parent.itemID); end
+	end,
+	["linkForItem"] = function(t)
+		return select(2, GetItemInfo(t.itemID)) or GetSpellLink(t.spellID);
+	end,
+};
+local C_MountJournal = _G["C_MountJournal"];
+if C_MountJournal and app.GameBuildVersion > 30000 then
+	-- Once the Mount Journal API is available, then all mounts become account wide.
+	SetMountCollected = function(t, spellID, collected)
+		return app.SetAccountCollected(t, "Spells", spellID, collected);
+	end
+	local SpellIDToMountID = setmetatable({}, { __index = function(t, id)
+		local allMountIDs = C_MountJournal.GetMountIDs();
+		if allMountIDs and #allMountIDs > 0 then
+			for i,mountID in ipairs(allMountIDs) do
+				local spellID = select(2, C_MountJournal.GetMountInfoByID(mountID));
+				if spellID then rawset(t, spellID, mountID); end
+			end
+			setmetatable(t, nil);
+			return rawget(t, id);
+		end
+	end });
+	mountFields.mountID = function(t)
+		return SpellIDToMountID[t.spellID];
+	end
+	mountFields.name = function(t)
+		local mountID = t.mountID;
+		if mountID then return C_MountJournal.GetMountInfoByID(mountID); end
+		return GetSpellName(t.spellID) or RETRIEVING_DATA;
+	end
+	mountFields.displayID = function(t)
+		local mountID = t.mountID;
+		if mountID then return C_MountJournal.GetMountInfoExtraByID(mountID); end
+	end
+	mountFields.lore = function(t)
+		local mountID = t.mountID;
+		if mountID then return select(2, C_MountJournal.GetMountInfoExtraByID(mountID)); end
+	end
+	IsMountObjectCollected = function(t)
+		local mountID = t.mountID;
+		if mountID then return select(11, C_MountJournal.GetMountInfoByID(mountID)); end
+	end
+else
+	mountFields.name = function(t)
+		return GetSpellName(t.spellID) or RETRIEVING_DATA;
+	end
+end
+
+app.CreateMount = app.CreateClass("Mount", "spellID", mountFields,
+	"WithItem", {	-- This is a conditional contructor.
+		link = mountFields.linkForItem;
+		tsm = mountFields.tsmForItem
+	}, function(t) return t.itemID; end);
+
+-- Battle Pets are done in the Battle Pets lib for MOP Classic
+if app.GameBuildVersion > 50000 then return; end
+
+-- Battle Pets / Companions
+local function SetBattlePetCollected(t, speciesID, collected)
 	return app.SetCollected(t, "BattlePets", speciesID, collected);
 end
-local SetMountCollected = function(t, spellID, collected)
-	return app.SetCollected(t, "Spells", spellID, collected, "Mounts");
+local function IsBattlePetCollected(t)
+	return t.itemID and GetItemCount(t.itemID, true) > 0
 end
 local speciesFields = {
 	CACHE = function() return "BattlePets" end,
@@ -32,6 +138,9 @@ local speciesFields = {
 	end,
 	["collectible"] = function(t)
 		return app.Settings.Collectibles.BattlePets;
+	end,
+	["collected"] = function(t)
+		return SetBattlePetCollected(t, t.speciesID, IsBattlePetCollected(t));
 	end,
 	["text"] = function(t)
 		return "|cff0070dd" .. (t.name or RETRIEVING_DATA) .. "|r";
@@ -53,45 +162,6 @@ local speciesFields = {
 	end,
 	["RefreshCollectionOnly"] = true,
 };
-local mountFields = {
-	IsClassIsolated = true,
-	CACHE = function() return "Spells" end,
-	["text"] = function(t)
-		return "|cffb19cd9" .. t.name .. "|r";
-	end,
-	["icon"] = function(t)
-		return GetSpellIcon(t.spellID);
-	end,
-	["link"] = function(t)
-		return (t.itemID and select(2, GetItemInfo(t.itemID))) or GetSpellLink(t.spellID);
-	end,
-	["f"] = function(t)
-		return app.FilterConstants.MOUNTS;
-	end,
-	RefreshCollectionOnly = true,
-	["collectible"] = function(t)
-		return app.Settings.Collectibles.Mounts;
-	end,
-	["explicitlyCollected"] = function(t)
-		return IsSpellKnown(t.spellID) or (t.questID and app.IsQuestFlaggedCompleted(t.questID)) or (t.itemID and GetItemCount(t.itemID, true) > 0);
-	end,
-	["b"] = function(t)
-		return (t.parent and t.parent.b) or 1;
-	end,
-	["name"] = function(t)
-		return GetSpellName(t.spellID) or RETRIEVING_DATA;
-	end,
-	["tsmForItem"] = function(t)
-		---@diagnostic disable-next-line: undefined-field
-		if t.itemID then return ("i:%d"):format(t.itemID); end
-		---@diagnostic disable-next-line: undefined-field
-		if t.parent and t.parent.itemID then return ("i:%d"):format(t.parent.itemID); end
-	end,
-	["linkForItem"] = function(t)
-		return select(2, GetItemInfo(t.itemID)) or GetSpellLink(t.spellID);
-	end,
-};
-
 if C_PetJournal and app.GameBuildVersion > 30000 then
 	local C_PetJournal = _G["C_PetJournal"];
 	-- Once the Pet Journal API is available, then all pets become account wide.
@@ -104,6 +174,10 @@ if C_PetJournal and app.GameBuildVersion > 30000 then
 			-- Stop turning it off, dumbass Blizzard API.
 			return app.IsAccountCached("BattlePets", speciesID);
 		end
+	end
+	IsBattlePetCollected = function(t)
+		local count = C_PetJournal.GetNumCollectedInfo(t.speciesID);
+		return count and count > 0;
 	end
 	speciesFields.icon = function(t)
 		return select(2, C_PetJournal.GetPetInfoBySpeciesID(t.speciesID));
@@ -120,76 +194,9 @@ if C_PetJournal and app.GameBuildVersion > 30000 then
 	speciesFields.description = function(t)
 		return select(6, C_PetJournal.GetPetInfoBySpeciesID(t.speciesID));
 	end
-	speciesFields.collected = function(t)
-		local count = C_PetJournal.GetNumCollectedInfo(t.speciesID);
-		return SetBattlePetCollected(t, t.speciesID, count and count > 0);
-	end
 	app.AddEventRegistration("NEW_PET_ADDED", function(...)
 		app:RefreshDataQuietly("NEW_PET_ADDED", true);
 	end)
-
-	local C_MountJournal = _G["C_MountJournal"];
-	if C_MountJournal then
-		-- Once the Mount Journal API is available, then all mounts become account wide.
-		SetMountCollected = function(t, spellID, collected)
-			return app.SetAccountCollected(t, "Spells", spellID, collected);
-		end
-		local SpellIDToMountID = setmetatable({}, { __index = function(t, id)
-			local allMountIDs = C_MountJournal.GetMountIDs();
-			if allMountIDs and #allMountIDs > 0 then
-				for i,mountID in ipairs(allMountIDs) do
-					local spellID = select(2, C_MountJournal.GetMountInfoByID(mountID));
-					if spellID then rawset(t, spellID, mountID); end
-				end
-				setmetatable(t, nil);
-				return rawget(t, id);
-			end
-		end });
-		mountFields.mountID = function(t)
-			return SpellIDToMountID[t.spellID];
-		end
-		mountFields.name = function(t)
-			local mountID = t.mountID;
-			if mountID then return C_MountJournal.GetMountInfoByID(mountID); end
-			return GetSpellName(t.spellID) or RETRIEVING_DATA;
-		end
-		mountFields.displayID = function(t)
-			local mountID = t.mountID;
-			if mountID then return C_MountJournal.GetMountInfoExtraByID(mountID); end
-		end
-		mountFields.lore = function(t)
-			local mountID = t.mountID;
-			if mountID then return select(2, C_MountJournal.GetMountInfoExtraByID(mountID)); end
-		end
-		mountFields.collected = function(t)
-			local mountID = t.mountID;
-			if mountID then
-				local _, spellID, _, _, _, _, _, _, _, _, isCollected = C_MountJournal.GetMountInfoByID(mountID);
-				return SetMountCollected(t, spellID, isCollected);
-			else
-				local spellID = t.spellID;
-				for i,o in ipairs(SearchForField("spellID", spellID)) do
-					if o.explicitlyCollected then
-						return SetMountCollected(t, spellID, true);
-					end
-				end
-				return SetMountCollected(t, spellID, false);
-			end
-		end
-	else
-		mountFields.name = function(t)
-			return GetSpellName(t.spellID) or RETRIEVING_DATA;
-		end
-		mountFields.collected = function(t)
-			local spellID = t.spellID;
-			for i,o in ipairs(SearchForField("spellID", spellID)) do
-				if o.explicitlyCollected then
-					return SetMountCollected(t, spellID, true);
-				end
-			end
-			return SetMountCollected(t, spellID, false);
-		end
-	end
 else
 	speciesFields.icon = function(t)
 		if t.itemID then
@@ -199,9 +206,6 @@ else
 	end
 	speciesFields.name = function(t)
 		return t.itemID and GetItemInfo(t.itemID) or RETRIEVING_DATA;
-	end
-	mountFields.name = function(t)
-		return GetSpellName(t.spellID) or RETRIEVING_DATA;
 	end
 	if GetCompanionInfo and GetNumCompanions("CRITTER") ~= nil then
 		local CollectedBattlePetHelper = {};
@@ -249,11 +253,11 @@ else
 		end };
 		setmetatable(CollectedBattlePetHelper, meta);
 		setmetatable(CollectedMountHelper, meta);
-		speciesFields.collected = function(t)
-			return SetBattlePetCollected(t, t.speciesID, (t.spellID and CollectedBattlePetHelper[t.spellID]));
+		IsBattlePetCollected = function(t)
+			return t.spellID and CollectedBattlePetHelper[t.spellID];
 		end
-		mountFields.collected = function(t)
-			return SetMountCollected(t, t.spellID, (t.spellID and CollectedMountHelper[t.spellID]));
+		IsMountObjectCollected = function(t)
+			return t.spellID and CollectedMountHelper[t.spellID];
 		end
 		app:RegisterEvent("COMPANION_LEARNED");
 		app:RegisterEvent("COMPANION_UNLEARNED");
@@ -261,27 +265,10 @@ else
 		app.events.COMPANION_LEARNED = RefreshCompanionCollectionStatus;
 		app.events.COMPANION_UNLEARNED = RefreshCompanionCollectionStatus;
 		app.events.COMPANION_UPDATE = RefreshCompanionCollectionStatus;
-	else
-		speciesFields.collected = function(t)
-			return SetBattlePetCollected(t, t.speciesID, t.itemID and GetItemCount(t.itemID, true) > 0);
-		end
-		mountFields.collected = function(t)
-			local spellID = t.spellID;
-			for i,o in ipairs(SearchForField("spellID", spellID)) do
-				if o.explicitlyCollected then
-					return SetMountCollected(t, spellID, true);
-				end
-			end
-			return SetMountCollected(t, spellID, false);
-		end
 	end
 end
 
-app.CreateMount = app.CreateClass("Mount", "spellID", mountFields,
-	"WithItem", {	-- This is a conditional contructor.
-		link = mountFields.linkForItem;
-		tsm = mountFields.tsmForItem
-	}, function(t) return t.itemID; end);
+app.CreateSpecies = app.CreateClass("Species", "speciesID", speciesFields);
 app.CreatePetAbility = app.CreateUnimplementedClass("PetAbility", "petAbilityID");
 app.CreatePetType = app.CreateClass("PetType", "petTypeID", {
 	["text"] = function(t)
@@ -291,4 +278,3 @@ app.CreatePetType = app.CreateClass("PetType", "petTypeID", {
 		return app.asset("Icon_PetFamily_"..PET_TYPE_SUFFIX[t.petTypeID]);
 	end,
 });
-app.CreateSpecies = app.CreateClass("Species", "speciesID", speciesFields);
