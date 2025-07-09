@@ -1176,7 +1176,7 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 	}),
 	expansion(EXPANSION.DF, {
 		-- 10.0.0
-		expansion(EXPANSION.DF, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
 			-- Trainer Pets --
 			pet(3393),	-- Anubisath Idol (PET!)
 			pet(3401),	-- Arcantus (PET!)
@@ -1418,7 +1418,7 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.0.0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			-- Only itemID
 			i(220163),	-- [PH] Cinder Bee
 			-- Only SpeciesID

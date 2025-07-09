@@ -584,7 +584,7 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 	}),
 	expansion(EXPANSION.DF, {
 		-- 10.0.0
-		expansion(EXPANSION.DF, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
 			ach(15517),	-- Solo Shuffle rounds participated in
 			ach(15516),	-- Solo Shuffle rounds won
 			ach(15798),	-- Winding Slitherdrake
@@ -641,7 +641,7 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 	}),
 	expansion(EXPANSION.TWW, {
 		-- CREATED_11_0_0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			ach(18830),	-- Level 2
 			ach(20512),	-- Herding Cats
 			ach(40099),	-- That Extra Push Over the Cliff

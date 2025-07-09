@@ -7349,7 +7349,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 	}),
 	expansion(EXPANSION.DF, {
 		-- 10.0.0
-		expansion(EXPANSION.DF, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
 			q(70390),	-- (DNT) Chloe's Onboarding Kill Quest
 			q(65894),	-- [DNT] - Removed - Eggs Benediction
 			q(65897),	-- [DNT] - Removed - Focus Locus
@@ -8652,7 +8652,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.0.0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			q(80950),	-- First Craft: Deepfury Hide
 			q(81114),	-- First Craft: Vicious Flask of Manifested Fury
 			q(81651),	-- Delver's Guide to Delves

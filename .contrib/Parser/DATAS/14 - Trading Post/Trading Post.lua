@@ -3469,7 +3469,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(COSMETIC, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				n(SETS, {
 					------ Honored Valarjar Set [Mail] ------
 					i(190563),	-- Armbands of the Honored Valarjar

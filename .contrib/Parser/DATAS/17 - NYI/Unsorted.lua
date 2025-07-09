@@ -1905,7 +1905,7 @@ root(ROOTS.Unsorted, {
 			-- Have QuestID attached
 			i(228947),	-- Weaver's Lair Profession Table
 		})),
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
 			-- Left Remaining To Darkal --
 			explorationHeader({
 				exploration(14484),	-- 10.2 Devland

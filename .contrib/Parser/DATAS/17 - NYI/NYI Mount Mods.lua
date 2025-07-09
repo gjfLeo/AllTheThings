@@ -5,7 +5,7 @@
 root(ROOTS.NeverImplemented, n(MOUNT_MODS, {
 	expansion(EXPANSION.DF, {
 		-- 10.0.0
-		expansion(EXPANSION.DF, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
 			-- With QuestID attached
 			i(196984),	-- Cliffside Wylderdrake: Finned Jaw (MM!)
 			i(196993),	-- Cliffside Wylderdrake: Sleek Horns (MM!)
@@ -49,7 +49,7 @@ root(ROOTS.NeverImplemented, n(MOUNT_MODS, {
 	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.0.0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			i(223510),	-- Delver's Dirigible Schematic: Template (MM!)
 		})),
 

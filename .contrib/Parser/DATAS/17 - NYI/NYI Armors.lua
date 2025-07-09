@@ -2680,7 +2680,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 	expansion(EXPANSION.DF, {
 		filter(BACK_F, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189669),	-- 10.0 Dungeon Template - Generic - Cloak
 				i(189061),	-- 10.0 End Game Template <Descriptor> Shawl
 				i(192038),	-- 10.0 PH Dragonscale Expedition Shawl
@@ -2721,7 +2721,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		cl(DRUID, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(198145),	-- Copy Bracers of the druid name PH
 				i(198144),	-- Copy Chestguard of the druid name PH
 				i(198147),	-- Copy Cincture of the druid name PH
@@ -2735,7 +2735,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(CLOTH, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189683),	-- 10.0 Dungeon Template - Cloth - Feet
 				i(189641),	-- 10.0 Dungeon Template - Cloth - Hand
 				i(189643),	-- 10.0 Dungeon Template - Cloth - Head
@@ -2798,7 +2798,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(LEATHER, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189638),	-- 10.0 Dungeon Template - Leather - Chest
 				i(189685),	-- 10.0 Dungeon Template - Leather - Feet
 				i(189639),	-- 10.0 Dungeon Template - Leather - Hand
@@ -2849,7 +2849,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(MAIL, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189637),	-- 10.0 Dungeon Template - Mail - Chest
 				i(189684),	-- 10.0 Dungeon Template - Mail - Feet
 				i(189642),	-- 10.0 Dungeon Template - Mail - Hand
@@ -2921,7 +2921,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(PLATE, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189636),	-- 10.0 Dungeon Template - Plate - Chest
 				i(189634),	-- 10.0 Dungeon Template - Plate - Feet
 				i(189640),	-- 10.0 Dungeon Template - Plate - Hand
@@ -3001,14 +3001,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(TABARDS, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(191271),	-- Black Smith's Tabard
 				i(194676),	-- Emboldened Dracthyr's Tabard [Lol they changed model]
 			})),
 		}),
 		filter(NECK_F, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189667),	-- 10.0 Dungeon Template - Generic - Neck
 				i(189062),	-- 10.0 End Game Template <Descriptor> Choker
 				i(192039),	-- 10.0 PH Dragonscale Expedition Choker
@@ -3030,7 +3030,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(FINGER_F, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189662),	-- 10.0 Dungeon Template - Generic - Finger
 				i(189049),	-- 10.0 End Game Template <Descriptor> Band
 				i(189059),	-- 10.0 End Game Template <Descriptor> Band
@@ -3057,7 +3057,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(TRINKET_F, {
 			-- 10.0.0
-			expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+			expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 				i(189666),	-- 10.0 Dungeon Template - Generic - Trinket
 				i(189058),	-- 10.0 End Game Template <Descriptor> Trinket
 				i(192035),	-- 10.0 PH Dragonscale Expedition Trinket
@@ -3097,12 +3097,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			})),
 		}),
 		-- 10.0.0
-		expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {	-- Unknown
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {	-- Unknown
 			i(198681),	-- Luke Test Belt [DNT]
 		})),
 
 		-- 10.0.0
-		expansion(EXPANSION.DF, patch(0,01), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDown({ ["timeline"] = { CREATED_10_0_0 } }, {
 			i(191942),	-- Belloc's Hat [Added SpellIDs regarding this.. Belloc also lost his hat... In Waking Shores 371683 (Wear Belloc's Hat [DNT]), 371665 (Sit on Belloc's Head [DNT]) /Brage ]
 		})),
 
@@ -3438,7 +3438,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.0.0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			-- Leave this for Darkal //Braghe
 			i(211620),	-- 11.0 Dungeon Template - Plate - Feet
 			i(211621),	-- 11.0 Dungeon Template - Cloth - Robe

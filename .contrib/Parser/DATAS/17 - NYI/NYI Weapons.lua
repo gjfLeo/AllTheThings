@@ -17,7 +17,7 @@ root(ROOTS.NeverImplemented, {
 				i(21550),	-- Monster - Bow, Kaldorei
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189689),	-- 10.0 Dungeon Template - Bows - Ranged
 					i(189127),	-- 10.0 QRP Template <Descriptor> Longbow
 					i(189346),	-- 10.0 Zone Uncommon Template <Descriptor> Longbow
@@ -26,7 +26,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(CROSSBOWS, {
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189690),	-- 10.0 Dungeon Template - Crossbow - RangedRight
 					i(189128),	-- 10.0 QRP Template <Descriptor> Crossbow
 					i(189347),	-- 10.0 Zone Uncommon Template <Descriptor> Crossbow
@@ -50,7 +50,7 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #endif
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189680),	-- 10.0 Dungeon Template - Dagger - Agi - Weapon
 					i(189679),	-- 10.0 Dungeon Template - Dagger - Int - Weapon
 					i(189043),	-- 10.0 End Game Template <Descriptor> Kris
@@ -67,7 +67,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(PROFESSION_EQUIPMENT, {
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(199898),	-- Iskaara Fishing Pole
 				}),
 			}),
@@ -78,7 +78,7 @@ root(ROOTS.NeverImplemented, {
 				i(22210),	-- Monster - Knuckle, B01 Red
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189699),	-- 10.0 Dungeon Template - FistWeapon - Weapon
 					i(189137),	-- 10.0 QRP Template <Descriptor> Fist
 					i(189356),	-- 10.0 Zone Uncommon Template <Descriptor> Fist
@@ -92,7 +92,7 @@ root(ROOTS.NeverImplemented, {
 				i(21564),	-- Monster - Gun, Kaldorei PVP Alliance
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189675),	-- 10.0 Dungeon Template - Guns - RangedRight
 					i(189042),	-- 10.0 End Game Template <Descriptor> Gun
 					i(189107),	-- 10.0 QRP Template <Descriptor> Gun
@@ -109,7 +109,7 @@ root(ROOTS.NeverImplemented, {
 				i(22211),	-- Monster - Knuckle, B01 Red Offhand
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189672),	-- 10.0 Dungeon Template - Generic - Holdable
 					i(189040),	-- 10.0 End Game Template <Descriptor> Offhand
 					i(189104),	-- 10.0 QRP Template <Descriptor> Offhand
@@ -130,7 +130,7 @@ root(ROOTS.NeverImplemented, {
 				i(23582),	-- Monster - Lady Blameux
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189348),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
 					i(189349),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
 					i(189350),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
@@ -147,7 +147,7 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189692),	-- 10.0 Dungeon Template - Axe1H - Agi - Weapon
 					i(189693),	-- 10.0 Dungeon Template - Axe1H - Int - Weapon
 					i(189691),	-- 10.0 Dungeon Template - Axe1H - Str - Weapon
@@ -176,7 +176,7 @@ root(ROOTS.NeverImplemented, {
 				-- #endif
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189688),	-- 10.0 Dungeon Template - Mace1H - Agi - Weapon
 					i(189694),	-- 10.0 Dungeon Template - Mace1H - Int - Weapon
 					i(189696),	-- 10.0 Dungeon Template - Mace1H - Str - Weapon
@@ -223,7 +223,7 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189681),	-- 10.0 Dungeon Template - Sword1H - Agi - Weapon
 					i(189695),	-- 10.0 Dungeon Template - Sword1H - Int - Weapon
 					i(189677),	-- 10.0 Dungeon Template - Sword1H - Str -Weapon
@@ -247,7 +247,7 @@ root(ROOTS.NeverImplemented, {
 				-- #endif
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189703),	-- 10.0 Dungeon Template - Polearms - Agi - 2 Hand
 					i(189678),	-- 10.0 Dungeon Template - Polearms - Int - 2 Hand
 					i(189054),	-- 10.0 End Game Template <Descriptor> Halberd
@@ -271,7 +271,7 @@ root(ROOTS.NeverImplemented, {
 				i(23356),	-- Monster - Shield, Skullflame
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189671),	-- 10.0 Dungeon Template - Shield - Shield
 					i(189039),	-- 10.0 End Game Template <Descriptor> Shield
 					i(189103),	-- 10.0 QRP Template <Descriptor> Shield
@@ -303,7 +303,7 @@ root(ROOTS.NeverImplemented, {
 				i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189674),	-- 10.0 Dungeon Template - Staff - Agi - 2 Hand
 					i(189687),	-- 10.0 Dungeon Template - Staff - Int - 2 Hand
 					i(189056),	-- 10.0 End Game Template <Descriptor> Staff
@@ -331,7 +331,7 @@ root(ROOTS.NeverImplemented, {
 				i(22199),	-- Monster - Axe, 2H Arcanite Reaper
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189697),	-- 10.0 Dungeon Template - Axe2H - Str - 2 Hand
 					i(189135),	-- 10.0 QRP Template <Descriptor> Axe
 					i(189354),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
@@ -347,7 +347,7 @@ root(ROOTS.NeverImplemented, {
 				-- #endif
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189700),	-- 10.0 Dungeon Template - Mace2H - Int - 2 Hand
 					i(189673),	-- 10.0 Dungeon Template - Mace2H - Str - 2 Hand
 					i(189048),	-- 10.0 End Game Template <Descriptor> Great Mace
@@ -377,13 +377,13 @@ root(ROOTS.NeverImplemented, {
 				-- #endif
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189355),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
 					i(189358),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
 				}),
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189701),	-- 10.0 Dungeon Template - Sword2H - Int - 2 Hand
 					i(189698),	-- 10.0 Dungeon Template - Sword2H - Str - 2 Hand
 					i(189136),	-- 10.0 QRP Template <Descriptor> Greatsword
@@ -395,7 +395,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(WANDS, {
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189702),	-- 10.0 Dungeon Template - Wand - RangedRight
 					i(199932),	-- 10.0 Enchanting - Weapon - Wand 1
 					i(199933),	-- 10.0 Enchanting - Weapon - Wand 2
@@ -408,7 +408,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(WARGLAIVES, {
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,01), {
+				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189676),	-- 10.0 Dungeon Template - Warglaives - Weapon
 					i(189057),	-- 10.0 End Game Template <Descriptor> Warglaive
 					i(189108),	-- 10.0 QRP Template <Descriptor> Glaive
@@ -874,7 +874,7 @@ root(ROOTS.NeverImplemented, {
 		})),
 
 		-- 11.0.0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			-- Reported in Discord
 			moh(10, i(225862)),	-- Forged Gladiator's Greatstaff
 			-- Leave this for Darkal //Braghe

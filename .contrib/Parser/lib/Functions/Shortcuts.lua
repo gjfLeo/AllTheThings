@@ -1644,10 +1644,10 @@ patch = function(major, minor, build)
 	if minor >= RevShift then
 		print("Using a Minor Patch with too many digits! It will not be represented properly in-game",minor)
 	end
-	if build > 0 then
-		print("WARN: Not currently supporting Build within a Patch",build)
+	if build > 99999 then
+		print("WARN: Not currently supporting Build > 99999 within a Patch",build)
 	end
-	return major + minor / RevShift
+	return major + (minor / RevShift) + (build / 100000)
 end
 un = function(u, t) t.u = u; return t; end						-- Mark an object unobtainable where u is the type.
 
@@ -2094,10 +2094,10 @@ createHeader = function(data)
 			end
 			data.eventSchedule = schedule .. "\n}";
 		end
-		
+
 		-- Whether or not to allow empty headers for this type (Default: No)
 		if not data.standalone then data.standalone = false; end
-		
+
 		-- Try to find the headerID assignment from the readable table.
 		local headerID = HeaderAssignments[data.readable];
 		if not headerID then

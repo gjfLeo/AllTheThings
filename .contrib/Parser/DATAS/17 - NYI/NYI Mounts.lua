@@ -678,7 +678,7 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 	}),
 	expansion(EXPANSION.DF, {
 		-- 10.0.0
-		expansion(EXPANSION.DF, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
+		expansion(EXPANSION.DF, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_10_0_0 } }, {
 			mount(371571, {	-- Dragon Isles Drake Model Test (MOUNT!)
 				["displayID"] = 102924,
 			}),
@@ -837,7 +837,7 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.0.0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			mount(405623, {	-- Armadillo Roller
 				["displayID"] = 91633,
 			}),
@@ -963,7 +963,7 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 		})),
 
 		-- 11.1.0
-		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+		expansion(EXPANSION.TWW, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			-- With MountID attached
 			i(232523, {	-- G-99 Breakneck
 				--["displayID"] = ,
