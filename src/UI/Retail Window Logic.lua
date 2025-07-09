@@ -12,13 +12,11 @@ local SetPortraitTextureFromDisplayID = SetPortraitTextureFromCreatureDisplayID
 
 local GetTradeSkillTexture = app.WOWAPI.GetTradeSkillTexture
 local GetSpellIcon = app.WOWAPI.GetSpellIcon
-local GetItemInfo = app.WOWAPI.GetItemInfo
 local GetFactionName = app.WOWAPI.GetFactionName
 local Callback = app.CallbackHandlers.Callback
 local AfterCombatOrDelayedCallback = app.CallbackHandlers.AfterCombatOrDelayedCallback
 local DelayedCallback = app.CallbackHandlers.DelayedCallback
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving
-local Colorize = app.Modules.Color.Colorize
 local GetProgressColorText = app.Modules.Color.GetProgressColorText
 local GetNumberWithZeros = app.Modules.Color.GetNumberWithZeros
 local GetProgressColor = app.Modules.Color.GetProgressColor
