@@ -1845,14 +1845,6 @@ root(ROOTS.Zones, {
 						["timeline"] = { ADDED_6_2_0 },
 						["races"] = HORDE_ONLY,
 						["isBreadcrumb"] = true,
-						["groups"] = {
-							objective(1, {	-- 0/8 Warmaul Brute slain
-								["provider"] = { "n", 18065 },	-- Warmaul Brute
-							}),
-							objective(2, {	-- 0/8 Warmaul Warlock slain
-								["provider"] = { "n", 18037 },	-- Warmaul Warlock
-							}),
-						},
 					})),
 					q(10101, {	-- When Spirits Speak
 						["qg"] = 18687,	-- Mother Kashur
