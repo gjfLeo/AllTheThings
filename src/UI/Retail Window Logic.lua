@@ -144,6 +144,7 @@ local function UpdateWindow(self, force, got)
 		wipe(rowData)
 
 		data.expanded = true;
+		local didUpdate
 		if not self.doesOwnUpdate and force then
 			self:ToggleExtraFilters(true)
 			-- app.PrintDebug(Colorize("TLUG", app.Colors.Time),self.Suffix)
@@ -151,6 +152,7 @@ local function UpdateWindow(self, force, got)
 			self.HasPendingUpdate = nil;
 			-- app.PrintDebugPrior("Done")
 			self:ToggleExtraFilters()
+			didUpdate = true
 		end
 
 		-- Should the groups in this window be expanded prior to processing the rows for display
@@ -197,6 +199,7 @@ local function UpdateWindow(self, force, got)
 
 		self:Refresh();
 		-- app.PrintDebugPrior("Update:Done")
+		app.HandleEvent("OnWindowUpdated", self, didUpdate)
 		return true;
 	else
 		local expireTime = self.ExpireTime;
