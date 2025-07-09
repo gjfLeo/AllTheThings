@@ -342,9 +342,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(62648),	-- Fallback Armor - Cloth Wrist
 				-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
 				-- #if BEFORE WOD
+				i(55775),	-- Galardell Cord
 				i(55748),	-- Galardell Cowl
 				i(55739),	-- Galardell Handwraps
+				i(55757),	-- Galardell Leggings
 				i(55721),	-- Galardell Robe
+				i(55730),	-- Galardell Sandals
+				i(55766),	-- Galardell Shoulderpads
+				i(55712),	-- Galardell Wristwraps
 				-- #endif
 				i(54542),	-- Robes of Restored Hope
 				i(54550),	-- Hood of Vigorous Defense
