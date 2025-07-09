@@ -200,43 +200,6 @@ local function ItemAsyncRefreshFunc(t)
 	end)
 	return true
 end
--- Consolidated function to cache available Item information
-local function RawSetItemInfoFromLink(t, rawlink)
-	local name, link, quality, _, _, _, _, _, _, icon, _, _, _, b = GetItemInfo(rawlink);
-	-- app.PrintDebug("RawSetLink:=",rawlink,"->",link)
-	local _t, id = cache.GetCached(t)
-	if link then
-		-- app.PrintDebug("rawset item info",id,link,name,quality,b)
-		_t.name = name;
-		_t.link = link;
-		_t.title = nil
-		_t.icon = icon;
-		_t.q = quality;
-		if quality > 6 then
-			-- heirlooms return as 1 but are technically BoE for our concern
-			_t.b = 2;
-		else
-			_t.b = b;
-		end
-		return link;
-	end
-	if _t.NoServerData or not t.CanRetry then
-		if _t.name then
-			return
-		end
-		local itemName = t.baselink or L.ITEM_NAMES[id] or (t.sourceID and L.SOURCE_NAMES and L.SOURCE_NAMES[t.sourceID])
-			or "Item #" .. tostring(id) .. "*";
-		_t.title = L.FAILED_ITEM_INFO;
-		_t.link = nil;
-		_t.sourceID = nil;
-		-- save the "name" field in the source group to prevent further requests to the cache
-		if _t.NoServerData then
-			_t.name = itemName;
-			-- app.PrintDebug("NoItemInfo",t.hash)
-		end
-		return
-	end
-end
 app.AddEventRegistration("ITEM_DATA_LOAD_RESULT", function(itemID, success)
 	if not success then
 		local _t = cache.GetCachedByID(itemID)
@@ -244,13 +207,12 @@ app.AddEventRegistration("ITEM_DATA_LOAD_RESULT", function(itemID, success)
 		_t.NoServerData = true
 	end
 end)
-local function default_link(t)
+-- Consolidated function to cache available Item information
+local function CacheInfo(t, field)
 	local itemLink = t.rawlink
-	-- item already has a pre-determined itemLink so use that
-	if itemLink then return RawSetItemInfoFromLink(t, itemLink); end
-	-- need to 'create' a valid accurate link for this item
-	itemLink = t.itemID;
-	if itemLink then
+	if not itemLink then
+		-- need to 'create' a valid accurate link for this item
+		itemLink = t.itemID
 		local modID, bonusID;
 		-- sometimes the raw itemID is actually a modItemID, so try splitting that here as a final adjustment
 		itemLink, modID, bonusID = GetItemIDAndModID(itemLink);
@@ -274,24 +236,48 @@ local function default_link(t)
 			itemLink = ("item:%d"):format(itemLink);
 		end
 		-- save this link so it doesn't need to be built again
-		t.rawlink = itemLink;
-		return RawSetItemInfoFromLink(t, itemLink);
+		t.rawlink = itemLink
 	end
-end
-cache.DefaultFunctions.link = default_link
-local function default_icon(t)
-	return t.itemID and GetItemIcon(t.itemID) or 134400;
-end
-local function default_b(t, field, _t)
-	-- TODO: 'b' is accessed during update process, but might not yet be available from server
-	-- can we wait and do TLUG on any Item which determines b=1 later on?
-	if default_link(t) then
-		local b = _t.b
-		if b and b ~= 2 and t.__canretry then
 
+	local name, link, quality, _, _, _, _, _, _, icon, _, _, _, b = GetItemInfo(itemLink);
+	-- app.PrintDebug("RawSetLink:=",rawlink,"->",link)
+	local _t, id = cache.GetCached(t)
+	if link then
+		-- app.PrintDebug("rawset item info",id,link,name,quality,b)
+		_t.name = name;
+		_t.link = link;
+		_t.title = nil
+		_t.icon = icon;
+		_t.q = quality;
+		if quality > 6 then
+			-- heirlooms return as 1 but are technically BoE for our concern
+			_t.b = 2;
+		else
+			_t.b = b;
+		end
+	else
+		local icon = id and GetItemIcon(id) or 134400
+		_t.icon = icon
+		if _t.NoServerData or not t.CanRetry then
+			if not _t.name then
+				local itemName = t.baselink or L.ITEM_NAMES[id] or (t.sourceID and L.SOURCE_NAMES and L.SOURCE_NAMES[t.sourceID])
+					or "Item #" .. tostring(id) .. "*";
+				_t.title = L.FAILED_ITEM_INFO;
+				_t.link = nil;
+				_t.sourceID = nil;
+				-- save the "name" field in the source group to prevent further requests to the cache
+				if _t.NoServerData then
+					_t.name = itemName;
+					-- app.PrintDebug("NoItemInfo",t.hash)
+				end
+			end
 		end
 	end
+	if field then return _t[field] end
 end
+cache.DefaultFunctions.link = CacheInfo
+cache.DefaultFunctions.name = CacheInfo
+cache.DefaultFunctions.icon = CacheInfo
 local function default_specs(t)
 	return app.GetFixedItemSpecInfo(t.itemID);
 end
@@ -341,7 +327,7 @@ local itemFields = {
 		return ItemAsyncRefreshFunc
 	end,
 	icon = function(t)
-		return cache.GetCachedField(t, "icon", default_icon);
+		return cache.GetCachedField(t, "icon");
 	end,
 	link = function(t)
 		return cache.GetCachedField(t, "link");
