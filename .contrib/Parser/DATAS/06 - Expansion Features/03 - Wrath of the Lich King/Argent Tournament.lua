@@ -4410,12 +4410,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						champ(75, i(42992, {	-- Discerning Eye of the Beast
 							["timeline"] = { REMOVED_6_1_0 },
 						})),
-						champ(60, i(93902, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Flamescarred Draconian Deflector
+						-- #if NOT ANYCLASSIC
+						champ(60, i(93902 {	-- Flamescarred Draconian Deflector
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-						}))),
-						champ(60, i(93904, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Musty Tome of the Lost
+						})),
+						champ(60, i(93904 {	-- Musty Tome of the Lost
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-						}))),
+						})),
+						-- #endif
 						champ(60, i(42951, {	-- Mystical Pauldrons of Elements
 							["timeline"] = { REMOVED_6_1_0 },
 						})),
@@ -4458,9 +4460,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 						champ(60, i(48716, {	-- Venerable Mass of McGowan
 							["timeline"] = { REMOVED_6_1_0 },
 						})),
-						champ(60, i(93903, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Weathered Observer's Shield
+						-- #if NOT ANYCLASSIC
+						champ(60, i(93903 {	-- Weathered Observer's Shield
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-						}))),
+						})),
+						-- #endif
 
 						-- New Heirlooms
 						champ(25, i(122350, {	-- Balanced Heartseeker
