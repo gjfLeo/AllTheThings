@@ -520,6 +520,14 @@ local function SetRowData(self, row, data)
 		local text = data.text;
 		if IsRetrieving(text) then
 			text = RETRIEVING_DATA;
+
+			local AsyncRefreshFunc = data.AsyncRefreshFunc
+			if AsyncRefreshFunc then
+				AsyncRefreshFunc(data)
+			else
+				-- app.PrintDebug("No Async Refresh Func for Type!",data.__type)
+				Callback(self.Update, self)
+			end
 		end
 		local leftmost, relative, rowPad = row, "LEFT", 8;
 		local x = CalculateRowIndent(data) * rowPad + rowPad;

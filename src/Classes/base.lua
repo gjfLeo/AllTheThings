@@ -266,25 +266,13 @@ local DefaultFields = {
 
 if app.IsRetail then
 	local TryColorizeName = app.TryColorizeName
-	local IsRetrieving = app.Modules.RetrievingData.IsRetrieving
 	-- Crieve doesn't see these fields being included as necessary,
 	-- future research project is to look into seeing if this is something we want to keep or put somewhere else. (such as a function)
 	-- Default text should be a valid link or name
 	-- In Retail, text can be colored and can be based on a variety of possible fields
 	-- trying to individually maintain variable coloring in every object class is quite absurd
 	DefaultFields.text = function(t)
-		local text = t.link or TryColorizeName(t)
-		if not IsRetrieving(text) then return text end
-
-		local AsyncRefreshFunc = t.AsyncRefreshFunc
-		if not AsyncRefreshFunc then
-			-- app.PrintDebug("No Async Refresh Func for Type!",t.__type)
-			app.DirectGroupRefresh(t, true)
-			return
-		end
-
-		-- otherwise call AsyncRefreshFunc with the Thing
-		AsyncRefreshFunc(t)
+		return t.link or TryColorizeName(t)
 	end
 end
 
