@@ -5326,6 +5326,34 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 						}),
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+						i(244734, {	-- Anchorite's Crystal Torch
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244733, {	-- Aruuna Miner's Pick
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244784, {	-- Beastmaster's Lost Hatchet
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244723, {	-- Blade of the Pale Flame
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244722, {	-- Bloodied Ashran Battletome
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244721, {	-- Crystalsmith's Energy Focus
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244787, {	-- Elodor Attuning Beacon
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 						iensemble(234903, {	-- Ensemble: Gorgrond Cragstalker's Hunting Gear
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
@@ -5338,8 +5366,56 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 						iensemble(234902, {	-- Ensemble: Shattrath Artificer's Regalia
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
+						i(244725, {	-- Frostwall Defender's Axe
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244786, {	-- Grom'gar Hunting Spear
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244728, {	-- Lunarfall Rifle
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244732, {	-- Lunarfall Scout's Shortsword
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244729, {	-- Mok'gol Howling Shield
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244731, {	-- Rangari Climbing Hooks
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244730, {	-- Razorwall of the Foundry
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 						i(234907, {	-- Tattered Iron Horde Tabard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
+						}),
+						i(244726, {	-- Time-Lost Sight of the Shadowmoon
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 3000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244785, {	-- Time-Lost Wolfbite, Legacy of Garad
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1800 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244776, {	-- Truesteel Gavel
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244724, {	-- Vindicator's Taladite Warmaul
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244727, {	-- Warsong Raider's Longbow
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
 						}),
 					})),
 					filter(MISC, {
@@ -5464,9 +5540,37 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 						}),
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+						i(244734, {	-- Anchorite's Crystal Torch
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244733, {	-- Aruuna Miner's Pick
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 						i(234906, {	-- Auchenai Tabard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 							["minReputation"] = { FACTION_COUNCIL_OF_EXARCHS, EXALTED },
+						}),
+						i(244784, {	-- Beastmaster's Lost Hatchet
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244723, {	-- Blade of the Pale Flame
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244722, {	-- Bloodied Ashran Battletome
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244721, {	-- Crystalsmith's Energy Focus
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244787, {	-- Elodor Attuning Beacon
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
 						}),
 						iensemble(234903, {	-- Ensemble: Gorgrond Cragstalker's Hunting Gear
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
@@ -5480,8 +5584,56 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 						iensemble(234902, {	-- Ensemble: Shattrath Artificer's Regalia
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 4000 }},
 						}),
+						i(244725, {	-- Frostwall Defender's Axe
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244786, {	-- Grom'gar Hunting Spear
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244728, {	-- Lunarfall Rifle
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244732, {	-- Lunarfall Scout's Shortsword
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244729, {	-- Mok'gol Howling Shield
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244731, {	-- Rangari Climbing Hooks
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244730, {	-- Razorwall of the Foundry
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 						i(234907, {	-- Tattered Iron Horde Tabard
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
+						}),
+						i(244726, {	-- Time-Lost Sight of the Shadowmoon
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 3000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244785, {	-- Time-Lost Wolfbite, Legacy of Garad
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1800 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244776, {	-- Truesteel Gavel
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244724, {	-- Vindicator's Taladite Warmaul
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244727, {	-- Warsong Raider's Longbow
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
 						}),
 					})),
 					filter(MISC, {
