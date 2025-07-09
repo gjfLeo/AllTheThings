@@ -54,6 +54,26 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				["coord"] = { 83.0, 30.6, VALE_OF_ETERNAL_BLOSSOMS },
 				-- #endif
 				["groups"] = {
+					n(ZONE_DROPS, {
+						i(86238),	-- Pattern: Chestguard of Nemeses (RECIPE!)
+						i(86272),	-- Pattern: Fists of Lightning (RECIPE!)
+						i(86279),	-- Pattern: Liferuned Leather Gloves (RECIPE!)
+						i(86280),	-- Pattern: Murderer's Gloves (RECIPE!)
+						i(86281),	-- Pattern: Nightfire Robe (RECIPE!)
+						i(86283),	-- Pattern: Raiment of Blood and Bone (RECIPE!)
+						i(86284),	-- Pattern: Raven Lord's Gloves (RECIPE!)
+						i(86297),	-- Pattern: Stormbreaker Chestguard (RECIPE!)
+						i(86379),	-- Pattern: Robe of Eternal Rule (RECIPE!)
+						i(86380),	-- Pattern: Imperial Silk Gloves (RECIPE!)
+						i(86381),	-- Pattern: Legacy of the Emperor (RECIPE!)
+						i(86382),	-- Pattern: Touch of the Light (RECIPE!)
+						i(87408),	-- Plans: Unyielding Bloodplate (RECIPE!)
+						i(87409),	-- Plans: Gauntlets of Battle Command (RECIPE!)
+						i(87410),	-- Plans: Ornate Battleplate of the Master (RECIPE!)
+						i(87411),	-- Plans: Bloodforged Warfists (RECIPE!)
+						i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
+						i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
+					}),
 					e(679, {	-- The Stone Guard
 						["crs"] = {
 							60047,	-- Amethyst Guardian
@@ -303,24 +323,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					ach(7933),	-- And... It's Good!
 				}),
 				n(ZONE_DROPS, {
-					i(86238),	-- Pattern: Chestguard of Nemeses (RECIPE!)
-					i(86272),	-- Pattern: Fists of Lightning (RECIPE!)
-					i(86279),	-- Pattern: Liferuned Leather Gloves (RECIPE!)
-					i(86280),	-- Pattern: Murderer's Gloves (RECIPE!)
-					i(86281),	-- Pattern: Nightfire Robe (RECIPE!)
-					i(86283),	-- Pattern: Raiment of Blood and Bone (RECIPE!)
-					i(86284),	-- Pattern: Raven Lord's Gloves (RECIPE!)
-					i(86297),	-- Pattern: Stormbreaker Chestguard (RECIPE!)
-					i(86379),	-- Pattern: Robe of Eternal Rule (RECIPE!)
-					i(86380),	-- Pattern: Imperial Silk Gloves (RECIPE!)
-					i(86381),	-- Pattern: Legacy of the Emperor (RECIPE!)
-					i(86382),	-- Pattern: Touch of the Light (RECIPE!)
-					i(87408),	-- Plans: Unyielding Bloodplate (RECIPE!)
-					i(87409),	-- Plans: Gauntlets of Battle Command (RECIPE!)
-					i(87410),	-- Plans: Ornate Battleplate of the Master (RECIPE!)
-					i(87411),	-- Plans: Bloodforged Warfists (RECIPE!)
-					i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
-					i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
 					i(86042),	-- Jade Charioteer Figurine
 					i(86043),	-- Jade Bandit Figurine
 					i(86044),	-- Jade Magistrate Figurine

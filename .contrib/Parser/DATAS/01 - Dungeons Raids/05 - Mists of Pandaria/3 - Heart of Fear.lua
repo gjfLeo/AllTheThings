@@ -493,52 +493,74 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			}),
 			]]--
 			d(DIFFICULTY.LEGACY_RAID.MULTI.ALL, {
-				e(745, {	-- Imperial Vizier Zor'lok
-					["crs"] = { 62980 },	-- Imperial Vizier Zor'lok
-					["g"] = {
-						i(167058, {	-- Kor'thik Swarmling (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-					},
-				}),
-				e(744, {	-- Blade Lord Ta'yak
-					["crs"] = { 62543 },	-- Blade Lord Ta'yak
-					["g"] = {
-						i(167053, {	-- Amberglow Stinger (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-					},
-				}),
-				e(713, {	-- Garalon
-					["crs"] = { 62164 },	-- Garalon
-					["g"] = {
-						i(167054, {	-- Spawn of Garalon (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-					},
-				}),
-				e(741, {	-- Wind Lord Mel'jarak
-					["crs"] = { 62397 },	-- Wind Lord Mel'jarak
-					["g"] = {
+				["groups"] = {
+					n(ZONE_DROPS, {
+						i(86238),	-- Pattern: Chestguard of Nemeses (RECIPE!)
+						i(86272),	-- Pattern: Fists of Lightning (RECIPE!)
+						i(86279),	-- Pattern: Liferuned Leather Gloves (RECIPE!)
+						i(86280),	-- Pattern: Murderer's Gloves (RECIPE!)
+						i(86281),	-- Pattern: Nightfire Robe (RECIPE!)
+						i(86283),	-- Pattern: Raiment of Blood and Bone (RECIPE!)
+						i(86284),	-- Pattern: Raven Lord's Gloves (RECIPE!)
+						i(86297),	-- Pattern: Stormbreaker Chestguard (RECIPE!)
+						i(86379),	-- Pattern: Robe of Eternal Rule (RECIPE!)
+						i(86380),	-- Pattern: Imperial Silk Gloves (RECIPE!)
+						i(86381),	-- Pattern: Legacy of the Emperor (RECIPE!)
+						i(86382),	-- Pattern: Touch of the Light (RECIPE!)
+						i(87408),	-- Plans: Unyielding Bloodplate (RECIPE!)
+						i(87409),	-- Plans: Gauntlets of Battle Command (RECIPE!)
+						i(87410),	-- Plans: Ornate Battleplate of the Master (RECIPE!)
+						i(87411),	-- Plans: Bloodforged Warfists (RECIPE!)
+						i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
+						i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
+					}),
+					e(745, {	-- Imperial Vizier Zor'lok
+						["crs"] = { 62980 },	-- Imperial Vizier Zor'lok
+						["g"] = {
+							i(167058, {	-- Kor'thik Swarmling (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(744, {	-- Blade Lord Ta'yak
+						["crs"] = { 62543 },	-- Blade Lord Ta'yak
+						["g"] = {
+							i(167053, {	-- Amberglow Stinger (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(713, {	-- Garalon
+						["crs"] = { 62164 },	-- Garalon
+						["g"] = {
+							i(167054, {	-- Spawn of Garalon (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(741, {	-- Wind Lord Mel'jarak
+						["crs"] = { 62397 },	-- Wind Lord Mel'jarak
+						["g"] = {
 
-					},
-				}),
-				e(737, {	-- Amber-Shaper Un'sok
-					["crs"] = { 62511 },	-- Amber-Shaper Un'sok
-					["g"] = {
-						i(167055, {	-- Living Amber (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-					},
-				}),
-				e(743, {	-- Grand Empress Shek'zeer
-					["crs"] = { 62837 },	-- Grand Empress Shek'zeer
-					["g"] = {
-						i(167056, {	-- Ravenous Prideling (PET!)
-							["timeline"] = { ADDED_8_1_5 },
-						}),
-					},
-				}),
+						},
+					}),
+					e(737, {	-- Amber-Shaper Un'sok
+						["crs"] = { 62511 },	-- Amber-Shaper Un'sok
+						["g"] = {
+							i(167055, {	-- Living Amber (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+					e(743, {	-- Grand Empress Shek'zeer
+						["crs"] = { 62837 },	-- Grand Empress Shek'zeer
+						["g"] = {
+							i(167056, {	-- Ravenous Prideling (PET!)
+								["timeline"] = { ADDED_8_1_5 },
+							}),
+						},
+					}),
+				},
 			}),
 			-- #if NOT ANYCLASSIC
 			d(DIFFICULTY.LEGACY_RAID.FINDER, {
@@ -661,7 +683,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 								i(86860),	-- Shoulderpads of Misshapen Life
 								i(86859),	-- Treads of Deadly Secretions
 								i(86862),	-- Un'sok's Amber Scalpel
-
 							},
 						}),
 						e(743, {	-- Grand Empress Shek'zeer
@@ -689,24 +710,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 			-- #endif
 			d(DIFFICULTY.LEGACY_RAID.MULTI.NORMAL_HEROIC, {
 				n(ZONE_DROPS, {
-					i(86238),	-- Pattern: Chestguard of Nemeses (RECIPE!)
-					i(86272),	-- Pattern: Fists of Lightning (RECIPE!)
-					i(86279),	-- Pattern: Liferuned Leather Gloves (RECIPE!)
-					i(86280),	-- Pattern: Murderer's Gloves (RECIPE!)
-					i(86281),	-- Pattern: Nightfire Robe (RECIPE!)
-					i(86283),	-- Pattern: Raiment of Blood and Bone (RECIPE!)
-					i(86284),	-- Pattern: Raven Lord's Gloves (RECIPE!)
-					i(86297),	-- Pattern: Stormbreaker Chestguard (RECIPE!)
-					i(86379),	-- Pattern: Robe of Eternal Rule (RECIPE!)
-					i(86380),	-- Pattern: Imperial Silk Gloves (RECIPE!)
-					i(86381),	-- Pattern: Legacy of the Emperor (RECIPE!)
-					i(86382),	-- Pattern: Touch of the Light (RECIPE!)
-					i(87408),	-- Plans: Unyielding Bloodplate (RECIPE!)
-					i(87409),	-- Plans: Gauntlets of Battle Command (RECIPE!)
-					i(87410),	-- Plans: Ornate Battleplate of the Master (RECIPE!)
-					i(87411),	-- Plans: Bloodforged Warfists (RECIPE!)
-					i(87412),	-- Plans: Chestplate of Limitless Faith (RECIPE!)
-					i(87413),	-- Plans: Gauntlets of Unbound Devotion (RECIPE!)
 					i(86192),	-- Darting Damselfly Cuffs
 					i(86186),	-- Gleaming Moth Cuffs
 					i(86188),	-- Inlaid Cricket Bracers
