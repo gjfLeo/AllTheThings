@@ -586,95 +586,96 @@ namespace ATT
                 {
                     string key = mergeKvp.Key;
                     // merge into anything that's not an Achievement, or into Achievements which are not within the Achievements category
-                    if (!ProcessingAchievementCategory || key != "achID")
+                    if (ProcessingAchievementCategory && key == "achID")
+                        continue;
+
+                    // does this data contain the key? and never merge into a Criteria directly
+                    if (!data.TryGetValue(key, out decimal keyValue) || data.ContainsKey("criteriaID"))
+                        continue;
+
+                    // for 'factionID' merge into, make sure it does not also have 'itemID' (commendations etc.)
+                    if (key == "factionID" && data.ContainsKey("itemID"))
+                        continue;
+
+                    var typeObjects = mergeKvp.Value;
+                    //LogDebug($"Post Process MergeInto Matched: {key}:{keyValue}");
+                    // get the container for objects of this key
+                    if (!typeObjects.TryGetValue(keyValue, out List<IDictionary<string, object>> mergeObjects))
+                        continue;
+
+                    // probably cleaner way to make this chunk re-usable if other merge-filtering is required in future... can't think atm
+
+                    // for '_encounterHash' merge into, make sure the merged Encounter matches the specific EventID
+                    if (key == "_encounterHash")
                     {
-                        // does this data contain the key? and never merge into a Criteria directly
-                        if (data.TryGetValue(key, out decimal keyValue) && !data.ContainsKey("criteriaID"))
+                        if (data.TryGetValue("e", out long eventID))
                         {
-                            // for 'factionID' merge into, make sure it does not also have 'itemID' (commendations etc.)
-                            if (key == "factionID" && data.ContainsKey("itemID"))
+                            // merge the objects into the data object
+                            foreach (IDictionary<string, object> mergeObject in mergeObjects)
                             {
-                                continue;
+                                if (!mergeObject.TryGetValue("e", out long mergingEventID) || mergingEventID != eventID)
+                                    continue;
+
+                                // track the data which is actually being merged into another group
+                                TrackPostProcessMergeKey(key, keyValue);
+
+                                // match EventID when merging
+                                // copy the actual object when merging under another Source, since it may merge into multiple Sources
+                                Merge(data, "g", mergeObject);
                             }
-
-                            var typeObjects = mergeKvp.Value;
-                            //LogDebug($"Post Process MergeInto Matched: {key}:{keyValue}");
-                            // get the container for objects of this key
-                            if (typeObjects.TryGetValue(keyValue, out List<IDictionary<string, object>> mergeObjects))
+                        }
+                        else
+                        {
+                            // merge the objects into the data object
+                            foreach (IDictionary<string, object> mergeObject in mergeObjects)
                             {
-                                // probably cleaner way to make this chunk re-usable if other merge-filtering is required in future... can't think atm
+                                if (mergeObject.ContainsKey("e"))
+                                    continue;
 
-                                // for '_encounterHash' merge into, make sure the merged Encounter matches the specific EventID
-                                if (key == "_encounterHash")
+                                // track the data which is actually being merged into another group
+                                TrackPostProcessMergeKey(key, keyValue);
+
+                                // copy the actual object when merging under another Source, since it may merge into multiple Sources
+                                Merge(data, "g", mergeObject);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // merge the objects into the data object
+                        foreach (IDictionary<string, object> mergeObject in mergeObjects)
+                        {
+                            // If we're relative to a map object
+                            if (mergeObject.ContainsKey("criteriaID") && data.ContainsKey("mapID"))
+                            {
+                                // (and not under NYI)
+                                if (data.ContainsKey("_nyi"))
                                 {
-                                    if (data.TryGetValue("e", out long eventID))
-                                    {
-                                        // merge the objects into the data object
-                                        foreach (IDictionary<string, object> mergeObject in mergeObjects)
-                                        {
-                                            if (!mergeObject.TryGetValue("e", out long mergingEventID) || mergingEventID != eventID)
-                                            {
-                                                continue;
-                                            }
-
-                                            // track the data which is actually being merged into another group
-                                            TrackPostProcessMergeKey(key, keyValue);
-
-                                            // match EventID when merging
-                                            // copy the actual object when merging under another Source, since it may merge into multiple Sources
-                                            Merge(data, "g", mergeObject);
-                                        }
-                                    }
-                                    else
-                                    {
-                                        // merge the objects into the data object
-                                        foreach (IDictionary<string, object> mergeObject in mergeObjects)
-                                        {
-                                            if (mergeObject.ContainsKey("e"))
-                                            {
-                                                continue;
-                                            }
-
-                                            // track the data which is actually being merged into another group
-                                            TrackPostProcessMergeKey(key, keyValue);
-
-                                            // copy the actual object when merging under another Source, since it may merge into multiple Sources
-                                            Merge(data, "g", mergeObject);
-                                        }
-
-                                    }
-                                }
-                                else
-                                {
-                                    // track the data which is actually being merged into another group
+                                    // the sourced map is under NYI, so just 'pretend' we merged into it to bypass warnings
                                     TrackPostProcessMergeKey(key, keyValue);
+                                    continue;
+                                }
 
-                                    // merge the objects into the data object
-                                    foreach (IDictionary<string, object> mergeObject in mergeObjects)
-                                    {
-
-                                        // If we're relative to a map object
-                                        if (mergeObject.ContainsKey("criteriaID") && data.ContainsKey("mapID"))
-                                        {
-                                            var isPetBattleHeader = mergeObject.ContainsKey("pb");
-                                            if (CUSTOM_HEADER_CONSTANTS.TryGetValue(isPetBattleHeader ? "PET_BATTLES" : "ACHIEVEMENTS", out long headerID))
-                                            {
-                                                var header = new Dictionary<string, object>
+                                var isPetBattleHeader = mergeObject.ContainsKey("pb");
+                                if (CUSTOM_HEADER_CONSTANTS.TryGetValue(isPetBattleHeader ? "PET_BATTLES" : "ACHIEVEMENTS", out long headerID))
+                                {
+                                    var header = new Dictionary<string, object>
                                                 {
                                                     { "npcID", headerID },
                                                     { "g", new List<object>{ mergeObject } }
                                                 };
-                                                if (isPetBattleHeader) header["pb"] = mergeObject["pb"];
-                                                Merge(data, "g", header);
-                                                continue;
-                                            }
-                                        }
-
-                                        // copy the actual object when merging under another Source, since it may merge into multiple Sources
-                                        Merge(data, "g", mergeObject);
-                                    }
+                                    if (isPetBattleHeader) header["pb"] = mergeObject["pb"];
+                                    // track the data which is actually being merged into another group
+                                    TrackPostProcessMergeKey(key, keyValue);
+                                    Merge(data, "g", header);
+                                    continue;
                                 }
                             }
+
+                            // track the data which is actually being merged into another group
+                            TrackPostProcessMergeKey(key, keyValue);
+                            // copy the actual object when merging under another Source, since it may merge into multiple Sources
+                            Merge(data, "g", mergeObject);
                         }
                     }
                 }

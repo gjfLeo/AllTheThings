@@ -3349,7 +3349,7 @@ namespace ATT
                     {
                         if (!TryGetSOURCED("objectID", objectID, out var objectSources))
                         {
-                            // remove the creatures which are not sourced from being reported as failed to merge
+                            // remove the maps which are not sourced from being reported as failed to merge
                             data.TryGetValue("achID", out long achID);
                             LogWarn($"Criteria {achID}:{criteriaID} not nested to Unsourced Object {objectID}. Consider Sourcing Object");
                             Objects.TrackPostProcessMergeKey("objectID", objectID);
