@@ -307,6 +307,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["g"] = {
 					i(224763),	-- Design: Cubic Blasphemia (RECIPE!)
 					i(228921),	-- Griftah's Heavy-Duty Embellishing Powder
+					i(202046),	-- Lucky Tortollan Charm
 				},
 			}),
 			n(219255, {	-- Karbath <Weapon Trader>
