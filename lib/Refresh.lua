@@ -367,6 +367,7 @@ local RefreshCollections = function()
 	else
 		print(app.L.REFRESHING_COLLECTION);
 	end
+	coroutine.yield();
 
 	-- Execute the OnRefreshCollections handlers.
 	app.HandleEvent("OnRefreshCollections");
