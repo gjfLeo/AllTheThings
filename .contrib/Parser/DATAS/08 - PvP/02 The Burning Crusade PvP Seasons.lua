@@ -61,7 +61,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 			["timeline"] = {
 				-- Wouter NOTE: these were never removed in Classic and are still available on vendors at the PvP area in capital cities
 				-- #if ANYCLASSIC
-				ADDED_2_0_1
+				ADDED_2_0_1,
 				-- #else
 				ADDED_2_0_1, REMOVED_5_0_4
 				-- #endif
@@ -219,7 +219,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 			["timeline"] = {
 				-- Wouter NOTE: these were never removed in Classic and are still available on vendors at the PvP area in capital cities
 				-- #if ANYCLASSIC
-				ADDED_2_0_1
+				ADDED_2_0_1,
 				-- #else
 				ADDED_2_0_1, REMOVED_3_0_2
 				-- #endif
@@ -1211,7 +1211,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 							["timeline"] = {
 								-- Wouter NOTE: These aren't in Cata Classic, marking these as CREATED with the Classic patch according to Wowhead - gotta revisit this in WoD Classic :^)
 								-- #if ANYCLASSIC
-								CREATED_2_5_1, ADDED_6_0_2
+								CREATED_2_5_1, ADDED_6_0_2,
 								-- #else
 								ADDED_4_0_1, REMOVED_5_0_4, ADDED_6_0_2
 								-- #endif
