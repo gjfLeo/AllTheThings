@@ -9,22 +9,25 @@ local C_ChatInfo, GetRealmName, IsInGuild, IsInGroup, IsInInstance, IsInRaid, Un
 local LE_PARTY_CATEGORY_INSTANCE, LE_PARTY_CATEGORY_HOME
 	= LE_PARTY_CATEGORY_INSTANCE, LE_PARTY_CATEGORY_HOME;
 local GetProgressColorText = app.Modules.Color.GetProgressColorText;
+local Callback = app.CallbackHandlers.Callback
 
 -- Addon Message Handling
 local function SendGroupMessage(msg)
 	if IsInGroup(LE_PARTY_CATEGORY_INSTANCE) and IsInInstance() then
 		C_ChatInfo.SendAddonMessage("ATTC", msg, "INSTANCE_CHAT")
+		return true
 	elseif IsInRaid() then
 		C_ChatInfo.SendAddonMessage("ATTC", msg, "RAID")
+		return true
 	elseif IsInGroup(LE_PARTY_CATEGORY_HOME) then
 		C_ChatInfo.SendAddonMessage("ATTC", msg, "PARTY")
+		return true
 	end
 end
 local function SendGuildMessage(msg)
 	if IsInGuild() then
 		C_ChatInfo.SendAddonMessage("ATTC", msg, "GUILD");
-	else
-		app.events.CHAT_MSG_ADDON("ATTC", msg, "WHISPER", "player");
+		return true
 	end
 end
 local function SendResponseMessage(msg, player)
@@ -65,7 +68,7 @@ local CurrentVersion = VersionCache[app.Version];
 app.events.CHAT_MSG_ADDON = function(prefix, text, channel, sender, target, ...)
 	if not target then target = sender; end
 	if prefix == "ATTC" then
-		--print(prefix, text, channel, sender, target, ...)
+		-- app.PrintDebug(prefix, text, channel, sender, target, ...)
 		local args = { ("\t"):split(text) };
 		local cmd = args[1];
 		if cmd then
@@ -191,7 +194,7 @@ app.events.CHAT_MSG_ADDON = function(prefix, text, channel, sender, target, ...)
 			end
 		end
 	elseif prefix == "ATT" then	-- old format, supported until Retail supports the new sync window
-		--print(prefix, text, channel, sender, target, ...)
+		-- app.PrintDebug(prefix, text, channel, sender, target, ...)
 		local args = { ("\t"):split(text) };
 		local cmd = args[1];
 		if cmd then
@@ -287,17 +290,35 @@ if app.IsClassic then
 end
 
 local lastProgressUpdateMessage;
-app.AddEventHandler("OnRefreshComplete", function()
+local function SendVersionAnnounce()
 	-- Send a message to your party members.
 	local currentCharacter = app.CurrentCharacter and app.CurrentCharacter;
 	local data = currentCharacter.PrimeData or app:GetDataCache();
 	local msg = "A\t" .. app.Version .. "\t" .. (data.progress or 0) .. "\t" .. (data.total or 0) .. "\t" .. data.modeString .. "\t" .. currentCharacter.guid;
 	if lastProgressUpdateMessage ~= msg then
 		lastProgressUpdateMessage = msg;
-		SendGroupMessage(msg);
-		SendGuildMessage(msg);
+		local anySent
+		anySent = SendGroupMessage(msg)
+		anySent = SendGuildMessage(msg) or anySent
+		if not anySent then
+			-- self-call the chat function to refresh own data
+			app.events.CHAT_MSG_ADDON("ATTC", msg, "WHISPER", "player");
+		end
 	end
-end);
+end
+-- this is rather pointless for Retail since at this event there's been no recalculation of the actual
+-- progress of the user's data... we've only refreshed the collection
+if app.IsClassic then
+	app.AddEventHandler("OnRefreshComplete", SendVersionAnnounce)
+else
+	app.AddEventHandler("OnWindowUpdated", function(window, didUpdate)
+		-- only the Prime window updates the 'PrimeData' cache
+		if not window or window.Suffix ~= "Prime" then return end
+
+		-- announce the updated ATT info on the next frame following an update
+		Callback(SendVersionAnnounce)
+	end)
+end
 app.AddEventHandler("OnSavedVariablesAvailable", function()
 	local savedCache = AllTheThingsSavedVariables.PlayerProgressCacheByGUID;
 	if savedCache then
