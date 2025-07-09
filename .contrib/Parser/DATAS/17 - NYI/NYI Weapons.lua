@@ -394,6 +394,13 @@ root(ROOTS.NeverImplemented, {
 			}),
 		}),
 		filter(WANDS, {
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206697),	-- Chilled Wand
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189702),	-- 10.0 Dungeon Template - Wand - RangedRight

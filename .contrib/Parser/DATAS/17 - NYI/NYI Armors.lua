@@ -202,7 +202,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206699),	-- Oracle Bracelets
+				i(206703),	-- Oracle Circlet
+				i(206704),	-- Oracle Gloves
+				i(206702),	-- Oracle Leggings
 				i(206701),	-- Oracle Mantle
+				i(206705),	-- Oracle Slippers
 			}),
 			-- #endif
 			n(P3xx, {
