@@ -4411,10 +4411,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 							["timeline"] = { REMOVED_6_1_0 },
 						})),
 						-- #if NOT ANYCLASSIC
-						champ(60, i(93902 {	-- Flamescarred Draconian Deflector
+						champ(60, i(93902, {	-- Flamescarred Draconian Deflector
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 						})),
-						champ(60, i(93904 {	-- Musty Tome of the Lost
+						champ(60, i(93904, {	-- Musty Tome of the Lost
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 						})),
 						-- #endif
@@ -4461,7 +4461,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 							["timeline"] = { REMOVED_6_1_0 },
 						})),
 						-- #if NOT ANYCLASSIC
-						champ(60, i(93903 {	-- Weathered Observer's Shield
+						champ(60, i(93903, {	-- Weathered Observer's Shield
 							["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
 						})),
 						-- #endif
