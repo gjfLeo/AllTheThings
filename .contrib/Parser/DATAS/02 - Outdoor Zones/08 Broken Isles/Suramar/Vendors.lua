@@ -195,6 +195,12 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
+				n(107467, {	-- Jacin
+					["coord"] = { 49.0, 81.6, SURAMAR },
+					["g"] = {
+						i(137467),	-- Shimmerfield Crystal
+					},
+				}),
 				n(113843, {	-- Kieule <Souvenirs>
 					["coord"] = { 50.4, 53.0, SURAMAR },
 					["g"] = {

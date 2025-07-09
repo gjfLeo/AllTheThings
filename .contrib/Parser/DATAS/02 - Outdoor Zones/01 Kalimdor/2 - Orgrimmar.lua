@@ -2496,9 +2496,12 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_7_3_5 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
+						i(155909),	-- Bottled Stillwater
 						i(134831, {	-- Doomsayer's Robes (TOY!)
 							["timeline"] = { ADDED_7_0_3 },
 						}),
+						i(155907),	-- Undercity "Skull Shocker"
+						i(155910),	-- Tirisfal Sourdough
 					},
 				}),
 			}),

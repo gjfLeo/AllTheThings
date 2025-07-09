@@ -287,6 +287,16 @@ i(132183);	-- Razor Tooth
 i(123865);	-- Relic of Ursol
 
 -----------------
+-- PATCH 7.3.5 --
+-----------------
+i(155856);	-- Iron Box
+i(155915);	-- Special Duty Assignments
+i(155918);	-- Special Duty Assignments
+i(156474);	-- Special Duty Assignments
+i(156477);	-- Special Duty Assignments
+i(132208);	-- Various Small Bones
+
+-----------------
 -- PATCH 8.0.1 --
 -----------------
 i(153568);	-- "Fly" Rock
@@ -301,6 +311,7 @@ i(158811);	-- Ashen Coal
 i(162675);	-- Ashvane Ledger
 i(158871);	-- Autographed Painting of Anduin
 i(162681);	-- Bent Sickle
+i(158918);	-- Bilgewater Patented Flamethrower
 i(156624);	-- Blemished Pearl
 i(158820);	-- Blind-Worm Sting
 i(162978);	-- Blood Magic Ritual Dish
@@ -460,6 +471,7 @@ i(166859);	-- Zinj'alor Blue Diamond
 -----------------
 -- PATCH 8.2.0 --
 -----------------
+i(165668);	-- Azsharan Medallion
 i(169130);	-- Bent Cogwheel
 i(170030);	-- Burned Codex
 i(169128);	-- Chilled Heating Block

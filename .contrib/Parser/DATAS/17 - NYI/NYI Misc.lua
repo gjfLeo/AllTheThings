@@ -286,6 +286,18 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(146799),	-- BUILDING CONTRIBUTION REWARD ITEM [NYI]
 		})),
 
+		-- 7.3.2
+		expansion(EXPANSION.LEGION, patch(3,2), bubbleDownSelf({ ["timeline"] = { CREATED_7_3_2 } }, {
+			i(155657),	-- Alor'idal Crystal Shard
+			i(154991),	-- Brawler's Footlocker
+		})),
+
+		-- 7.3.5
+		expansion(EXPANSION.LEGION, patch(3,5), bubbleDownSelf({ ["timeline"] = { CREATED_7_3_5 } }, {
+			i(156707),	-- Bret's Satchel of Helpful Goods
+			i(156718),	-- Stolen Ore \\ Stolen Azerite
+		})),
+
 		-- 7.x.x
 		n(P7xx, {
 			i(132250),	-- Unknown
