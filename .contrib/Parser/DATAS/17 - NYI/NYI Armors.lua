@@ -267,6 +267,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(37477),	-- Lost Crusader Chestplate
 				i(42885),	-- Mountaineer's Helm
 				i(39460),	-- Sabatons of the Rampaging Construct
+				i(92130),	-- Scourgeheart Girdle
+				i(92131),	-- Scourgeheart Waistband
 			}),
 		}),
 		filter(NECK_F, {
@@ -777,20 +779,21 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			expansion(EXPANSION.MOP, patch(0,1), {
 				i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
 				i(77313),	-- Art Template Leather Legs - Leather_PanProg_B_01 - White
-				i(80946),	-- Peacebreaker's Leather Helm
-				i(80950),	-- Peacebreaker's Hide Helm
-				i(80986),	-- Scavenger's Leather Spaulders
-				i(80990),	-- Scavenger's Hide Spaulders
-				i(81031),	-- Scavenger's Leather Gloves
-				i(81035),	-- Scavenger's Hide Gloves
-				i(81040),	-- Scavenger's Leather Armwraps
-				i(81044),	-- Scavenger's Hide Bindings
-				i(80995),	-- Leather Tunic of Eniment Domain
+				i(88569),	-- Contender's Boots
 				i(80999),	-- Hide Tunic of Eminent Domain
-				i(81004),	-- Honorary Combat Engineer's Leather Trousers
 				i(81008),	-- Honorary Combat Engineer's Hide Leggings
+				i(81004),	-- Honorary Combat Engineer's Leather Trousers
 				i(81013),	-- Landfall Leather Boots
 				i(81017),	-- Landfall Moccasins
+				i(80995),	-- Leather Tunic of Eniment Domain
+				i(80950),	-- Peacebreaker's Hide Helm
+				i(80946),	-- Peacebreaker's Leather Helm
+				i(80990),	-- Scavenger's Hide Spaulders
+				i(80986),	-- Scavenger's Leather Spaulders
+				i(81035),	-- Scavenger's Hide Gloves
+				i(81031),	-- Scavenger's Leather Gloves
+				i(81044),	-- Scavenger's Hide Bindings
+				i(81040),	-- Scavenger's Leather Armwraps
 			}),
 			-- #if BEFORE 10.2.7
 			-- All was added into MoP: Remix Throne of Thunder Ensembles
