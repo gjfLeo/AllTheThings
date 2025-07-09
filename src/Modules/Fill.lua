@@ -556,9 +556,9 @@ local function SkipFillingGroup(group, FillData)
 	-- do not fill 'saved' groups in ATT tooltips
 	-- or groups directly under saved groups unless in Debug mode
 	if not app.MODE_DEBUG then
-		-- only ignored filling saved 'quest' groups (unless it's an Item, which we ignore the ignore... :D)
+		-- only ignore filling non-repeatable saved 'quest' groups (unless it's an Item, which we ignore the ignore... :D)
 		if group.questID then
-			if not group.itemID and group.saved then
+			if not (group.itemID or group.repeatable) and group.saved then
 				return true
 			end
 			-- don't fill under locked quests
@@ -568,8 +568,8 @@ local function SkipFillingGroup(group, FillData)
 		end
 		-- root fills of a thing from a saved parent should still show their contains, so don't use .parent
 		local parent = rawget(group, "parent");
-		-- direct parent is a saved quest, then do not fill with stuff
-		if parent and parent.questID and (parent.saved or parent.locked) then return true; end
+		-- direct parent is a non-repeatable saved quest, then do not fill with stuff
+		if parent and parent.questID and not parent.repeatable and (parent.saved or parent.locked) then return true; end
 	end
 end
 -- Fills the group and returns an array of the next layer of groups to fill
