@@ -189,7 +189,7 @@ app.events.CHAT_MSG_ADDON = function(prefix, text, channel, sender, target, ...)
 				if guid then PlayerProgressCacheByGUID[guid] = { tonumber(args[3]), tonumber(args[4]), args[5] }; end
 				if a ~= "[Git]" and not rawget(VersionCache, a) and CurrentVersion < VersionCache[a] then
 					local flavors = app.L.NEW_VERSION_FLAVORS;
-					print(app.L.NEW_VERSION_AVAILABLE:format(app.L.TITLE, flavors[math.random(#flavors)]));
+					print(app.L.NEW_VERSION_AVAILABLE:format(app.L.TITLE.." ("..a..")", flavors[math.random(#flavors)]));
 				end
 			end
 		end
@@ -290,8 +290,8 @@ if app.IsClassic then
 end
 
 local lastProgressUpdateMessage;
-local function SendVersionAnnounce()
-	-- Send a message to your party members.
+local function SendProgressAnnounce()
+	-- Send a message to your party members with your current Prime progress
 	local currentCharacter = app.CurrentCharacter and app.CurrentCharacter;
 	local data = currentCharacter.PrimeData or app:GetDataCache();
 	local msg = "A\t" .. app.Version .. "\t" .. (data.progress or 0) .. "\t" .. (data.total or 0) .. "\t" .. data.modeString .. "\t" .. currentCharacter.guid;
@@ -306,17 +306,23 @@ local function SendVersionAnnounce()
 		end
 	end
 end
+local function SendVersionAnnounce()
+	-- Send a message to your party members with your current ATT version only
+	local msg = "A\t" .. app.Version
+	SendGroupMessage(msg)
+	SendGuildMessage(msg)
+end
 -- this is rather pointless for Retail since at this event there's been no recalculation of the actual
 -- progress of the user's data... we've only refreshed the collection
 if app.IsClassic then
-	app.AddEventHandler("OnRefreshComplete", SendVersionAnnounce)
+	app.AddEventHandler("OnRefreshComplete", SendProgressAnnounce)
 else
 	app.AddEventHandler("OnWindowUpdated", function(window, didUpdate)
 		-- only the Prime window updates the 'PrimeData' cache
 		if not window or window.Suffix ~= "Prime" then return end
 
 		-- announce the updated ATT info on the next frame following an update
-		Callback(SendVersionAnnounce)
+		Callback(SendProgressAnnounce)
 	end)
 end
 app.AddEventHandler("OnSavedVariablesAvailable", function()
@@ -334,4 +340,5 @@ end);
 app.AddEventHandler("OnReady", function()
 	app:RegisterEvent("CHAT_MSG_ADDON");
 	C_ChatInfo.RegisterAddonMessagePrefix("ATTC");
+	SendVersionAnnounce()
 end);
