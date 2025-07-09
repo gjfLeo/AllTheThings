@@ -2008,9 +2008,16 @@ local function BuildSourceParent(group)
 							if isAchievement and KeepSourced[thing.key] then
 								NestObject(parent, thing, true)
 							end
-							break;
+							break
+						elseif parent.mapID then
+							parent = app.CreateVisualHeaderWithGroups(CreateObject(parent, true))
+							parents[#parents + 1] = parent
+							-- achievement criteria can nest inside their Source for clarity
+							if isAchievement and KeepSourced[thing.key] then
+								NestObject(parent, thing, true)
+							end
+							break
 						end
-						-- TODO: maybe handle mapID/instanceID in a different way as a fallback for things nested under headers within a zone....?
 					end
 					-- move to the next parent if the current parent is not a valid 'Thing'
 					parent = parent.parent;
