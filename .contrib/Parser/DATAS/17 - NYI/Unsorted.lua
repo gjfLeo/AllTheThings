@@ -1640,25 +1640,6 @@ root(ROOTS.Unsorted, {
 				i(244652),	-- Prayer Beacon of the Goddess
 				i(244680),	-- Morchie's Desynchronized Chime
 				i(244681),	-- Pyrewood Silver Blade
-				i(244721),	-- Crystalsmith's Energy Focus
-				i(244722),	-- Bloodied Ashran Battletome
-				i(244723),	-- Blade of the Pale Flame
-				i(244724),	-- Vindicator's Taladite Warmaul
-				i(244725),	-- Frostwall Defender's Axe
-				i(244726),	-- Time-Lost Sight of the Shadowmoon
-				i(244727),	-- Warsong Raider's Longbow
-				i(244728),	-- Lunarfall Rifle
-				i(244729),	-- Wor'gol Howling Shield
-				i(244730),	-- Razorwall of the Foundry
-				i(244731),	-- Rangari Climbing Hooks
-				i(244732),	-- Lunarfall Scout's Shortsword
-				i(244733),	-- Aruuna Miner's Pick
-				i(244734),	-- Anchorite's Crystal Torch
-				i(244776),	-- Truesteel Gavel
-				i(244784),	-- Beastmaster's Lost Hatchet
-				i(244785),	-- Time-Lost Wolfbite
-				i(244786),	-- Grom'gar Hunting Spear
-				i(244787),	-- Elodor Attuning Beacon
 				i(244823),	-- Blackrook Dragonblade
 				i(244824),	-- Time-Lost Dreadbow of the Banshee
 				i(244827),	-- Valarjar Sparring Buckler
@@ -3895,15 +3876,12 @@ root(ROOTS.Unsorted, {
 			i(166855),	-- Obsidian Statue of Kith'ix
 			i(166857),	-- Bethekk's Emerald Eyes
 			i(166860),	-- Azj'Aqir Onyx Stone
-			i(166861),	-- Hakkari Blood Garnet
 			i(166862),	-- Crystal Aqiri Skull
 			i(166863),	-- Farrakki Star Rubies
 			i(166864),	-- Engraved Amani Spearpoints
-			i(166870),	-- Mithril-Trimmed Ritual Plate
 			i(166871),	-- Jeweled Pyrium Goblet
 			i(166872),	-- Sterling Truesilver Flatware
 			i(166873),	-- Amethyst Parrot
-			i(166874),	-- Azerothian Diamond Brooch
 			i(166876),	-- Scrimshaw Ivory Direhorn
 			i(166896),	-- Heritage of the Sin'dorei
 		})),

@@ -440,12 +440,15 @@ i(158773);	-- Wriggling Goop
 -----------------
 -- PATCH 8.1.0 --
 -----------------
+i(166874);	-- Azerothian Diamond Brooch
 i(166856);	-- Bwonsamdi Ritual Scepter
 i(166868);	-- Chit of the Black Empire
 i(166798);	-- Crackling Tourmaline (Opulence Crown Consumable)
 i(166800);	-- Diamond of Sustenance (Opulence Crown Consumable)
 i(166867);	-- Embossed Silver Bijou
 i(166799);	-- Emerald of Vigor (Opulence Crown Consumable)
+i(166861);	-- Hakkari Blood Garnet
+i(166870);	-- Mithril-Trimmed Ritual Plate
 i(166801);	-- Sapphire of Brilliance (Opulence Crown Consumable)
 i(166875);	-- Silver Filigreed Devilsaur Tooth
 i(166858);	-- Silver Sculpture of Sseratus

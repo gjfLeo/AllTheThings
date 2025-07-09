@@ -286,7 +286,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(87531),	--
 			q(87532),	--
 			-- Week 6:
-			-- q(87515),	--
+			q(87515),	-- Week 6 Completion
 		}),
 	})),
 });

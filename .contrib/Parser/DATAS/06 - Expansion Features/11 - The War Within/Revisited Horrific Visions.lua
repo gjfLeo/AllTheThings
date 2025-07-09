@@ -28,6 +28,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"]
 			-- RE_HORRIFIC_STORMWIND,
 			DORNOGAL,
 		},
+		["cr"] = 238254,	-- Portal to Horrific Visions
 		["g"] = {
 			n(ACHIEVEMENTS, {
 				ach(41897),	-- A Monumental Amount of Mementos
