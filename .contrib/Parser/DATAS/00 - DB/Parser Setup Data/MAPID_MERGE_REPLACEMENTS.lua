@@ -6,6 +6,11 @@
 -- small set of mapID replacements tells parser that instead of merging into one of these maps
 
 MAPID_MERGE_REPLACEMENTS = {
+	-- #if AFTER CATA
 	[224] = THE_CAPE_OF_STRANGLETHORN,
+	-- #endif
+	-- #if AFTER WOD
+	-- not sure when this map changed?
 	[1339] = WARSONG_GULCH,
+	-- #endif
 }
