@@ -172,7 +172,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			["timeline"] = { ADDED_11_2_0, REMOVED_12_PH_PREPATCH }
 		},{
 			ach(42169),	-- The War Within Keystone Explorer: Season Three
-			ach(42170),	-- The War Within Keystone Conqueror: Season Three
+			ach(42170, {	-- The War Within Keystone Conqueror: Season Three
+				title(453),	-- <Name> the Unbound
+			}),
 			ach(41973, {	-- The War Within Keystone Master: Season Three
 				i(248248),	-- Azure Void Flyer (MOUNT!)
 			}),
@@ -180,7 +182,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 			ach(42172, {	-- The War Within Keystone Legend: Season Three
 				i(247822),	-- Scarlet Void Flyer (MOUNT!)
 			}),
-			ach(42174),	-- [PH] Hero: The War Within Season Three
+			ach(42174, {	-- Unbound Hero: The War Within Season Three
+				title(637),	-- <Name> the Unbound Hero
+			}),
 			ach(20586, {	-- Keystone Hero: Ara-Kara, City of Echoes
 				spell(445417),	-- Path of the Ruined City
 			}),
