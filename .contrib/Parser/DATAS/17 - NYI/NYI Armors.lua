@@ -254,20 +254,19 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(PLATE, {
 			expansion(EXPANSION.WRATH, patch(0,1), {
 				i(37485),	-- Clam Collector Gauntlets
-				i(37510),	-- Wristguards of Edification
 				i(37511),	-- Crucible Waistguard
 				i(41759),	-- Shackles of Perpetual Friendship
+				i(37510),	-- Wristguards of Edification
 			}),
 			n(P3xx, {
+				i(43938),	-- Belt of Rising Hope
+				i(43848),	-- Bracers of Icy Resolve
+				i(38524),	-- Carapace of the Scarlet Commander
 				i(37175),	-- Glassy Silver Bracers
 				i(37468),	-- HF28 Plate Physical Boots Says
-				i(38524),	-- Carapace of the Scarlet Commander
 				i(37477),	-- Lost Crusader Chestplate
-				i(38524),	-- Carapace of the Scarlet Commander
-				i(39460),	-- Sabatons of the Rampaging Construct
 				i(42885),	-- Mountaineer's Helm
-				i(43848),	-- Bracers of Icy Resolve
-				i(43938),	-- Belt of Rising Hope
+				i(39460),	-- Sabatons of the Rampaging Construct
 			}),
 		}),
 		filter(NECK_F, {
