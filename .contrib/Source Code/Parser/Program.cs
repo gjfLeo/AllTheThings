@@ -528,6 +528,10 @@ namespace ATT
                     Framework.FIRST_EXPANSION_PATCH =
                         Framework.ParseAsStringDictionary(lua.GetTable("FIRST_EXPANSION_PATCH") ?? throw new InvalidDataException("Missing 'FIRST_EXPANSION_PATCH' Global!"))
                          .ToDictionary(kvp => kvp.Key, kvp => (kvp.Value as List<object>)?.Select(o => int.Parse(o.ToString())).ToArray());
+
+                    Framework.MAPID_MERGE_REPLACEMENTS =
+                        Framework.ParseAsDictionary<long>(lua.GetTable("MAPID_MERGE_REPLACEMENTS") ?? throw new InvalidDataException("Missing 'MAPID_MERGE_REPLACEMENTS' Global!"))
+                        .ToDictionary(kvp => kvp.Key, kvp => (long)kvp.Value);
                 }
                 catch (Exception e)
                 {

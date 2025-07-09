@@ -648,10 +648,10 @@ namespace ATT
                             // If we're relative to a map object
                             if (mergeObject.ContainsKey("criteriaID") && data.ContainsKey("mapID"))
                             {
-                                // (and not under NYI)
-                                if (data.ContainsKey("_nyi"))
+                                // (and not under NYI or Unsorted)
+                                if (data.ContainsKey("_nyi") || data.ContainsKey("_unsorted"))
                                 {
-                                    // the sourced map is under NYI, so just 'pretend' we merged into it to bypass warnings
+                                    // the sourced map is under NYI/Unsorted, so just 'pretend' we merged into it to bypass warnings
                                     TrackPostProcessMergeKey(key, keyValue);
                                     continue;
                                 }

@@ -2752,6 +2752,10 @@ namespace ATT
                             foreach (var uiMapAssociation in associations)
                             {
                                 var mapID = uiMapAssociation.UiMapID;
+                                if (MAPID_MERGE_REPLACEMENTS.TryGetValue(mapID, out long replacementMapID))
+                                {
+                                    mapID = replacementMapID;
+                                }
                                 if (mapID > 0) dict[mapID] = mapID;
                             }
                             if (dict.Count > 0)

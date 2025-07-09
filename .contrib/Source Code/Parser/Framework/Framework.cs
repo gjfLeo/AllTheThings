@@ -105,6 +105,8 @@ namespace ATT
         /// </summary>
         public static Dictionary<string, int[]> FIRST_EXPANSION_PATCH { get; set; }
 
+        public static Dictionary<long,long> MAPID_MERGE_REPLACEMENTS { get; set; }
+
         /// <summary>
         /// Represents the function to use when performing a processing pass against the data
         /// </summary>
