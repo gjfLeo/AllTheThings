@@ -780,6 +780,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
 				i(77313),	-- Art Template Leather Legs - Leather_PanProg_B_01 - White
 				i(88569),	-- Contender's Boots
+				i(88574),	-- Contender's Leggings
+				i(88575),	-- Contender's Shoulders
 				i(80999),	-- Hide Tunic of Eminent Domain
 				i(81008),	-- Honorary Combat Engineer's Hide Leggings
 				i(81004),	-- Honorary Combat Engineer's Leather Trousers
