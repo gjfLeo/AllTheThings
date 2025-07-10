@@ -159,7 +159,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 			--},
 			-- #IF AFTER 11.0
 			["maps"] = { DORNOGAL, ORGRIMMAR, STORMWIND_CITY, UNDERMINE },	-- TODO: remove once proper coords added, parser will complain
-			["description"] = "Every 60 Minutes a Portal spawns in Dornogal, Stormwind and Orgrimmar, causing a Treasure Goblin to appear after 5 minutes.\n\nCan also spawn in Undermine after defeating a rare (one portal per rare, per hour, spawning up to 3x2 sets of Treasure Goblins)",
+			["description"] = "Every 60 Minutes a Portal spawns in Dornogal, Stormwind and Orgrimmar, causing a Treasure Goblin to appear after 5 minutes.\n\nCan also spawn in Undermine after defeating a rare.",
 			-- #ENDIF
 			["groups"] = {
 				n(205490, {	-- Treasure Goblin
