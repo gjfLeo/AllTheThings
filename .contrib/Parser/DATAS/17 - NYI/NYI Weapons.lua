@@ -49,6 +49,11 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			-- #endif
+			expansion(EXPANSION.MOP, {
+				n(P5xx, {
+					i(90273),	-- Honorary Combat Engineer's Heavy Legplates
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189680),	-- 10.0 Dungeon Template - Dagger - Agi - Weapon
@@ -129,16 +134,15 @@ root(ROOTS.NeverImplemented, {
 				i(21465),	-- Monster - Axe, Insano
 				i(23582),	-- Monster - Lady Blameux
 			}),
-			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,0,1), {
-					i(189348),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
-					i(189349),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
-					i(189350),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
-				}),
-			}),
 			expansion(EXPANSION.WRATH, {
 				n(P3xx, {
 					i(50251),	-- Shadow's Edge One-Hander
+				}),
+			}),
+			expansion(EXPANSION.MOP, {
+				n(P5xx, {
+					i(90276),	-- Landfall Silk Treads
+					i(90281),	-- Landfall Warboots
 				}),
 			}),
 			expansion(EXPANSION.LEGION, {
@@ -154,6 +158,9 @@ root(ROOTS.NeverImplemented, {
 					i(189129),	-- 10.0 QRP Template <Descriptor> Axe
 					i(189130),	-- 10.0 QRP Template <Descriptor> Axe
 					i(189131),	-- 10.0 QRP Template <Descriptor> Axe
+					i(189348),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
+					i(189349),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
+					i(189350),	-- 10.0 Zone Uncommon Template <Descriptor> Axe
 					i(201241),	-- Green Dragonskull Crescent
 					i(201239),	-- Verdant Drakefire Cleaver
 					i(201240),	-- Viridescent Stalked Reaver
@@ -289,18 +296,23 @@ root(ROOTS.NeverImplemented, {
 				i(21795),	-- Monster - Staff, Ahn'Qiraj
 			}),
 			expansion(EXPANSION.MOP, {
-				i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
-				i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
-				i(79720),	-- Monster - Staff, Panda A01
-				i(79721),	-- Monster - Staff, Panda A01 - Blue
-				i(79722),	-- Monster - Staff, Panda A01 - Green
-				i(79723),	-- Monster - Staff, Panda A01 - Purple
-				i(79716),	-- Monster - Staff, Panda B01 - Blue
-				i(79717),	-- Monster - Staff, Panda B01 - Gold
-				i(79718),	-- Monster - Staff, Panda B01 - Jade
-				i(79719),	-- Monster - Staff, Panda B01 - Red
-				i(77358),	-- Monster - Stave_2h_PanStart_A_01 - Blue
-				i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
+				n(P5xx, {
+					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
+					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
+					i(90278),	-- Landfall Moccasins
+					i(90282),	-- Landfall Plate Boots
+					i(90279),	-- Landfall Sabatons
+					i(79720),	-- Monster - Staff, Panda A01
+					i(79721),	-- Monster - Staff, Panda A01 - Blue
+					i(79722),	-- Monster - Staff, Panda A01 - Green
+					i(79723),	-- Monster - Staff, Panda A01 - Purple
+					i(79716),	-- Monster - Staff, Panda B01 - Blue
+					i(79717),	-- Monster - Staff, Panda B01 - Gold
+					i(79718),	-- Monster - Staff, Panda B01 - Jade
+					i(79719),	-- Monster - Staff, Panda B01 - Red
+					i(77358),	-- Monster - Stave_2h_PanStart_A_01 - Blue
+					i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
+				}),
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
@@ -345,6 +357,11 @@ root(ROOTS.NeverImplemented, {
 				-- #if SEASON_OF_DISCOVERY
 				i(228214),	-- Monster - Mace2H, Unstoppable Force
 				-- #endif
+			}),
+			expansion(EXPANSION.MOP, {
+				n(P5xx, {
+					i(90280),	-- Landfall Burnished Greaves
+				}),
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
