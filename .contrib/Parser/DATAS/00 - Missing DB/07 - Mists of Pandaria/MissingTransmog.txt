@@ -18,9 +18,7 @@ s(267243)/i(77307),	-- Art Template Leather Legs - Leather_PanProg_B_01 - Blue
 s(267244)/i(77308),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Blue
 s(267245)/i(77309),	-- Art Template Leather Belt - Leather_PanProg_B_01 - White
 s(267246)/i(77310),	-- Art Template Leather Boot - Leather_PanProg_B_01 - White
-s(267247)/i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
 s(267248)/i(77312),	-- Art Template Leather Hand - Leather_PanProg_B_01 - White
-s(267249)/i(77313),	-- Art Template Leather Legs - Leather_PanProg_B_01 - White
 s(267250)/i(77314),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - White
 s(267251)/i(77328),	-- Art Template Leather Belt - Leather_PanProg_B_01 - Red
 s(267252)/i(77329),	-- Art Template Leather Boot - Leather_PanProg_B_01 - Red
@@ -28,8 +26,6 @@ s(267253)/i(77330),	-- Art Template Leather Chest - Leather_PanProg_B_01 - Red
 s(267254)/i(77331),	-- Art Template Leather Hand - Leather_PanProg_B_01 - Red
 s(267255)/i(77332),	-- Art Template Leather Legs - Leather_PanProg_B_01 - Red
 s(267256)/i(77333),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Red
-s(267257)/i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
-s(267258)/i(77358),	-- Monster - Stave_2h_PanStart_A_01 - Blue
 s(267259)/i(77359),	-- Monster - Stave_2h_PanStart_A_01 - Green
 s(267260)/i(77360),	-- Monster - Stave_2h_PanStart_A_01 - Purple
 s(267261)/i(77369),	-- Monster - Mace_1h_PanStart_A_01 - Default
@@ -106,7 +102,6 @@ s(267331)/i(77494),	-- Art Template Mail Chest - Mail_PanProg_B_01 - Yellow
 s(267332)/i(77495),	-- Art Template Mail Hand - Mail_PanProg_B_01 - Yellow
 s(267333)/i(77496),	-- Art Template Mail Legs - Mail_PanProg_B_01 - Yellow
 s(267334)/i(77505),	-- Art Template Cloth Belt - Cloth_PanStart_A_01 - Default
-s(267335)/i(77506),	-- Art Template Cloth Wrist - Cloth_PanStart_A_01 - Default
 s(267336)/i(77507),	-- Art Template Cloth Legs - Cloth_PanStart_A_01 - Default
 s(267337)/i(77508),	-- Art Template Cloth Chest - Cloth_PanStart_A_01 - Default
 s(267339)/i(77511),	-- Art Template Cloth Wrist - Robe_PanProg_B_01 - White
@@ -150,16 +145,13 @@ s(267478)/i(79785),	-- QA Combat Test Healer 1H Mace 3
 s(267479)/i(79786),	-- QA Combat Test Agility Fist Weapon (MH) 2
 s(267480)/i(79787),	-- QA Combat Test Agility Fist Weapon (MH) 3
 s(267481)/i(79788),	-- QA Combat Test Offhand Agility Axe 2
-s(267482)/i(79789),	-- QA Combat Test Shaman Healer Chest 3
 s(267483)/i(79790),	-- QA Combat Test Agility DPS Cloak 3
 s(267484)/i(79791),	-- QA Combat Test Healer Cloak 2
 s(267485)/i(79792),	-- QA Combat Test Caster DPS Boots 2
 s(267486)/i(79793),	-- QA Combat Test Hunter Boots 2
-s(267487)/i(79795),	-- QA Combat Test Caster DPS Bracer 2
 s(267488)/i(79796),	-- QA Combat Test Hunter Bracer 2
 s(267489)/i(79797),	-- QA Combat Test Paladin Healer Bracer 2
 s(267490)/i(79798),	-- QA Combat Test Plate DPS Bracer 3
-s(267491)/i(79799),	-- QA Combat Test Priest Healer Bracer 2
 s(267492)/i(79800),	-- QA Combat Test Rogue Bracer 2
 s(267493)/i(79801),	-- QA Combat Test Shaman Healer Bracer 2
 s(267494)/i(79803),	-- QA Combat Test Rogue Helm 3
@@ -291,7 +283,6 @@ s(267626)/i(80206),	-- Art Template Plate Hand - Plate_Panda_B_01 - Silver
 s(267627)/i(80207),	-- Art Template Plate Chest - Plate_Panda_B_01 - Silver
 s(267628)/i(80208),	-- Art Template Plate Boot - Plate_Panda_B_01 - Silver
 s(267629)/i(80209),	-- Art Template Plate Belt - Plate_Panda_B_01 - Silver
-s(267630)/i(80211),	-- Enchanting Test Sword
 s(267631)/i(80219),	--
 s(267632)/i(80246),	-- Monster - Serilas Copy
 s(267633)/i(80263),	-- Monster - Knife_1h_PanProg_B_01 - Green
@@ -967,13 +958,8 @@ s(269736)/i(83356),	-- 5.0 QA PVP Test Agility Polearm
 s(269737)/i(83357),	-- 5.0 QA PVP Test Agility Staff
 s(269738)/i(83358),	-- 5.0 QA PVP Test Agility Staff 2
 s(269739)/i(83359),	-- 5.0 QA PVP Test Agility Staff 3
-s(269740)/i(83360),	-- 5.0 QA PVP Test Caster DPS Belt
-s(269741)/i(83361),	-- 5.0 QA PVP Test Caster DPS Belt 2
-s(269742)/i(83362),	-- 5.0 QA PVP Test Caster DPS Belt 3
 s(269743)/i(83363),	-- 5.0 QA PVP Test Caster DPS Boots
 s(269744)/i(83364),	-- 5.0 QA PVP Test Caster DPS Boots 2
-s(269745)/i(83365),	-- 5.0 QA PVP Test Caster DPS Bracer
-s(269746)/i(83366),	-- 5.0 QA PVP Test Caster DPS Bracer 2
 s(269747)/i(83367),	-- 5.0 QA PVP Test Caster DPS Cloak
 s(269748)/i(83368),	-- 5.0 QA PVP Test Caster DPS Cloak 2
 s(269749)/i(83369),	-- 5.0 QA PVP Test Caster DPS Dagger
@@ -983,18 +969,8 @@ s(269752)/i(83372),	-- 5.0 QA PVP Test Caster DPS Gloves 2
 s(269753)/i(83373),	-- 5.0 QA PVP Test Caster DPS Helm
 s(269754)/i(83374),	-- 5.0 QA PVP Test Caster DPS Helm 2
 s(269755)/i(83375),	-- 5.0 QA PVP Test Caster DPS Helm 3
-s(269756)/i(83376),	-- 5.0 QA PVP Test Caster DPS Legs
-s(269757)/i(83377),	-- 5.0 QA PVP Test Caster DPS Legs 2
 s(269758)/i(83382),	-- 5.0 QA PVP Test Caster DPS Offhand
 s(269759)/i(83383),	-- 5.0 QA PVP Test Caster DPS Offhand 2
-s(269760)/i(83389),	-- 5.0 QA PVP Test Caster DPS Robes
-s(269761)/i(83390),	--
-s(269762)/i(83391),	-- 5.0 QA PVP Test Caster DPS Robes 3
-s(269763)/i(83392),	-- 5.0 QA PVP Test Caster DPS Shoulders
-s(269764)/i(83393),	-- 5.0 QA PVP Test Caster DPS Shoulders 2
-s(269765)/i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
-s(269766)/i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
-s(269767)/i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
 s(269768)/i(83402),	-- 5.0 QA PVP Test Druid Healer Belt
 s(269769)/i(83403),	--
 s(269770)/i(83404),	--
@@ -1047,8 +1023,6 @@ s(269816)/i(83464),	-- 5.0 QA PVP Test Hunter Gun No Variance
 s(269817)/i(83465),	-- 5.0 QA PVP Test Hunter Helm
 s(269818)/i(83466),	-- 5.0 QA PVP Test Hunter Helm 2
 s(269819)/i(83467),	-- 5.0 QA PVP Test Hunter Helm 3
-s(269820)/i(83468),	-- 5.0 QA PVP Test Hunter Legs
-s(269821)/i(83469),	-- 5.0 QA PVP Test Hunter Legs 2
 s(269822)/i(83470),	-- 5.0 QA PVP Test Hunter Shoulders
 s(269823)/i(83471),	-- 5.0 QA PVP Test Hunter Shoulders 2
 s(269824)/i(83472),	-- 5.0 QA PVP Test Offhand Agility Axe
@@ -1102,11 +1076,7 @@ s(269871)/i(83519),	-- 5.0 QA PVP Test Plate Tank Legs
 s(269872)/i(83520),	-- 5.0 QA PVP Test Plate Tank Legs 2
 s(269873)/i(83521),	-- 5.0 QA PVP Test Plate Tank Shoulders
 s(269874)/i(83522),	-- 5.0 QA PVP Test Plate Tank Shoulders 2
-s(269875)/i(83523),	-- 5.0 QA PVP Test Priest Healer Belt
-s(269876)/i(83524),	-- 5.0 QA PVP Test Priest Healer Belt 2
 s(269877)/i(83525),	--
-s(269878)/i(83526),	-- 5.0 QA PVP Test Priest Healer Bracer
-s(269879)/i(83527),	-- 5.0 QA PVP Test Priest Healer Bracer 2
 s(269880)/i(83528),	-- 5.0 QA PVP Test Priest Healer Gloves
 s(269881)/i(83529),	-- 5.0 QA PVP Test Priest Healer Gloves 2
 s(269882)/i(83530),	--
@@ -1114,10 +1084,6 @@ s(269883)/i(83531),	--
 s(269884)/i(83532),	--
 s(269885)/i(83533),	--
 s(269886)/i(83534),	--
-s(269887)/i(83535),	--
-s(269888)/i(83536),	--
-s(269889)/i(83537),	--
-s(269890)/i(83538),	--
 s(269891)/i(83539),	--
 s(269892)/i(83540),	--
 s(269893)/i(83541),	--
@@ -1142,9 +1108,6 @@ s(269911)/i(83559),	--
 s(269912)/i(83560),	--
 s(269913)/i(83561),	--
 s(269914)/i(83562),	-- 5.0 QA PVP Test Shaman Healer Bracer 2
-s(269915)/i(83563),	-- 5.0 QA PVP Test Shaman Healer Chest
-s(269916)/i(83564),	-- 5.0 QA PVP Test Shaman Healer Chest 2
-s(269917)/i(83565),	-- 5.0 QA PVP Test Shaman Healer Chest 3
 s(269918)/i(83566),	-- 5.0 QA PVP Test Shaman Healer Gloves
 s(269919)/i(83567),	-- 5.0 QA PVP Test Shaman Healer Gloves 2
 s(269920)/i(83568),	-- 5.0 QA PVP Test Shaman Healer Helm
@@ -1152,8 +1115,6 @@ s(269921)/i(83569),	-- 5.0 QA PVP Test Shaman Healer Helm 2
 s(269922)/i(83570),	--
 s(269923)/i(83571),	-- 5.0 QA PVP Test Shaman Healer Legs 2
 s(269924)/i(83572),	-- 5.0 QA PVP Test Shaman Healer Legs 3
-s(269925)/i(83573),	-- 5.0 QA PVP Test Shaman Healer Shoulder 2
-s(269926)/i(83574),	-- 5.0 QA PVP Test Shaman Healer Shoulders
 s(269927)/i(83575),	-- 5.0 QA PVP Test Slow Rogue Dagger 3
 s(269928)/i(83576),	-- 5.0 QA PVP Test Strength 1h Axe
 s(269929)/i(83577),	-- 5.0 QA PVP Test Strength 1h Mace
@@ -1477,7 +1438,6 @@ s(271194)/i(85659),	-- Art Template Cloth Cloak - Cape_Pandaria_B_01 - Red
 s(271195)/i(85660),	-- Art Template Cloth Cloak - Cape_Pandaria_B_02
 s(271196)/i(85661),	-- Art Template Cloth Cloak - Cape_Pandaria_B_02 - Dark
 s(271197)/i(85662),	-- Art Template Cloth Cloak - Cape_Pandaria_B_02 - Orange
-s(271198)/i(85663),	-- alist's Spade \\ Herbalist's Spade
 s(271199)/i(85667),	-- Monster - Knife_1h_PanDung_C_01 - Gold
 s(271200)/i(85668),	-- Monster - Knife_1h_PanDung_C_01 - Gray
 s(271201)/i(85669),	-- Monster - Knife_1h_PanDung_C_01 - Red
@@ -2221,13 +2181,10 @@ s(273100)/i(88557),	-- Monster - Shield_PVPPandariaS1_C_01 - Blue
 s(273101)/i(88558),	-- Monster - Shield_PVPPandariaS1_C_01 - Green
 s(273102)/i(88559),	-- Monster - Shield_PVPPandariaS1_C_01 - Purple
 s(273103)/i(88568),	-- Contender's Belt
-s(273104)/i(88569),	-- Contender's Boots
 s(273105)/i(88570),	-- Contender's Bracers
 s(273106)/i(88571),	-- Contender's Chestguard
 s(273107)/i(88572),	-- Contender's Gloves
 s(273108)/i(88573),	-- Contender's Helm
-s(273109)/i(88574),	-- Contender's Leggings
-s(273110)/i(88575),	-- Contender's Shoulders
 s(273111)/i(88591),	-- Monster - Sword_1h_PVPPandariaS1_C_02
 s(273112)/i(88592),	-- Monster - Sword_1h_PVPPandariaS1_C_02 - Blue
 s(273113)/i(88593),	-- Monster - Sword_1h_PVPPandariaS1_C_02 - Green
@@ -2466,7 +2423,6 @@ s(273442)/i(89158),	-- Monster - Mace_1H_PandariaQuest_B_01 - Blue
 s(273443)/i(89159),	-- Monster - Mace_1H_PandariaQuest_B_01 - Green
 s(273444)/i(89160),	-- Monster - Mace_1H_PandariaQuest_B_01 - Purple
 s(273445)/i(89161),	-- Monster - Mace_1H_PandariaQuest_B_01 - Red
-s(273452)/i(89196),	-- amore Tabard \\ Theramore Tabard
 s(273454)/i(89221),	-- Monster - Axe_1h_PanDung_C_01 - Green
 s(273455)/i(89226),	-- Monster - Axe_1h_PanDung_C_01 - Purple
 s(273456)/i(89228),	-- Monster - Axe_1h_PanDung_C_01 - Red
@@ -2726,26 +2682,6 @@ s(273963)/i(90013),	-- Monster - Shield_PandaRaid_D_01
 s(273964)/i(90014),	-- Monster - Shield_PandaRaid_D_01 - Bronze
 s(273965)/i(90015),	-- Monster - Shield_PandaRaid_D_01 - Green
 s(273966)/i(90016),	-- Monster - Shield_PandaRaid_D_01 - Red
-s(273967)/i(90017),	-- amore Arcanist's Hat \\ Theramore Arcanist's Hat
-s(273968)/i(90018),	-- llshaper's Hat \\ Squallshaper's Hat
-s(273969)/i(90019),	-- nah Hag's Hat \\ Rok'nah Hag's Hat
-s(273970)/i(90020),	-- nah Skirmisher's Helm \\ Rok'nah Skirmisher's Helm
-s(273971)/i(90021),	-- nah Raider's Helm \\ Rok'nah Raider's Helm
-s(273972)/i(90022),	-- nah Wolfstalker's Helm \\ Rok'nah Wolfstalker's Helm
-s(273973)/i(90023),	-- nah Wolfcaller's Helm \\ Rok'nah Wolfcaller's Helm
-s(273974)/i(90024),	-- er Circlet \\ Silver Circlet
-s(273975)/i(90025),	-- k Circlet \\ Black Circlet
-s(273976)/i(90026),	-- en Circlet \\ Golden Circlet
-s(273977)/i(90027),	-- misher's Spear \\ Skirmisher's Spear
-s(273978)/i(90028),	-- seer's Handaxe \\ Overseer's Handaxe
-s(273979)/i(90029),	-- ne's Rifle \\ Marine's Rifle
-s(273980)/i(90030),	-- ain's Cutlass \\ Captain's Cutlass
-s(273981)/i(90031),	-- f of the Faithful \\ Staff of the Faithful
-s(273982)/i(90032),	-- t's Greataxe \\ Grunt's Greataxe
-s(273983)/i(90033),	-- sman's Blade \\ Marksman's Blade
-s(273984)/i(90034),	-- mage's Staff \\ Archmage's Staff
-s(273985)/i(90035),	-- or's Scimitar \\ Sailor's Scimitar
-s(273986)/i(90036),	-- d Guard's Shield \\ Blood Guard's Shield
 s(273987)/i(90037),	-- Monster - Hand_1h_PVPPandariaS1_C_01 (right hand) - Purple
 s(273988)/i(90038),	-- Monster - Hand_1h_PVPPandariaS1_C_01 (left hand) - Purple
 s(274043)/i(90106),	-- Monster - Firearm_2h_Rifle_PanDung_C_01
@@ -2775,13 +2711,6 @@ s(274108)/i(90237),	-- Peacebreaker's Burnished Headcover
 s(274109)/i(90238),	-- Peacebreaker's Armored Helm
 s(274110)/i(90250),	-- Axe of Aborted Deforestation
 s(274111)/i(90261),	-- Ringmail Armor of Eminent Domain
-s(274112)/i(90273),	-- Honorary Combat Engineer's Heavy Legplates
-s(274113)/i(90276),	-- Landfall Silk Treads
-s(274114)/i(90278),	-- Landfall Moccasins
-s(274115)/i(90279),	-- Landfall Sabatons
-s(274116)/i(90280),	-- Landfall Burnished Greaves
-s(274117)/i(90281),	-- Landfall Warboots
-s(274118)/i(90282),	-- Landfall Plate Boots
 s(274223)/i(90402),	-- Monster - Shield_PandariaQuest_B_01
 s(274224)/i(90403),	-- Monster - Shield_PandariaQuest_B_01 - Blue
 s(274225)/i(90404),	-- Monster - Shield_PandariaQuest_B_01 - Green
@@ -3481,32 +3410,7 @@ s(276239)/i(93837),	-- Art Template Plate Head - Plate_PVPWarrior_F_01 - Bronze
 s(276240)/i(93838),	-- Art Template Plate Legs - Plate_PVPWarrior_F_01 - Bronze
 s(276241)/i(93839),	-- Art Template Plate Shoulder - Plate_PVPWarrior_F_01 - Bronze
 s(276242)/i(93840),	-- Art Template Plate Wrist - Plate_PVPWarrior_F_01 - Bronze
-s(276243)/i(93841),	-- thbore Dwarven Hand Cannon \\ Smoothbore Dwarven Hand Cannon
-s(276244)/i(93843),	-- ened Arcanite Reaper \\ Hardened Arcanite Reaper
-s(276245)/i(93844),	-- nished Warden Staff \\ Refinished Warden Staff
-s(276246)/i(93845),	-- -Steeped Skullforge Reaver \\ Gore-Steeped Skullforge Reaver
-s(276247)/i(93846),	-- ngineered Lava Dredger \\ Re-Engineered Lava Dredger
-s(276248)/i(93847),	-- hing Mass of McGowan \\ Crushing Mass of McGowan
-s(276249)/i(93848),	-- le-Hardened Thrash Blade \\ Battle-Hardened Thrash Blade
-s(276250)/i(93849),	-- r Staff of Jordan \\ Elder Staff of Jordan
-s(276251)/i(93850),	-- Sanctified Hammer of Grace \\ The Sanctified Hammer of Grace
-s(276252)/i(93851),	-- le-Forged Truesilver Champion \\ Battle-Forged Truesilver Champion
-s(276253)/i(93852),	-- ly Scarlet Kris \\ Deadly Scarlet Kris
-s(276254)/i(93853),	-- s Aurastone Hammer \\ Pious Aurastone Hammer
-s(276255)/i(93854),	-- larly Headmaster's Charge \\ Scholarly Headmaster's Charge
-s(276256)/i(93855),	-- Torn Ancient Bone Bow \\ War-Torn Ancient Bone Bow
-s(276257)/i(93856),	-- e Dal'Rend's Sacred Charge \\ Noble Dal'Rend's Sacred Charge
-s(276258)/i(93857),	-- eful Heartseeker \\ Vengeful Heartseeker
 s(276259)/i(93858),	-- ler's Bladed Claws \\ Brawler's Bladed Claws
-s(276260)/i(93859),	-- dstained Dreadmist Mantle \\ Bloodstained Dreadmist Mantle
-s(276261)/i(93860),	-- dstained Dreadmist Robe \\ Bloodstained Dreadmist Robe
-s(276262)/i(93861),	-- tigious Sunderseer Mantle \\ Prestigious Sunderseer Mantle
-s(276263)/i(93862),	-- le Shadowcraft Spaulders \\ Supple Shadowcraft Spaulders
-s(276264)/i(93863),	-- le Shadowcraft Tunic \\ Supple Shadowcraft Tunic
-s(276265)/i(93864),	-- stic Ironfeather Shoulders \\ Majestic Ironfeather Shoulders
-s(276266)/i(93865),	-- stic Ironfeather Breastplate \\ Majestic Ironfeather Breastplate
-s(276267)/i(93866),	-- Feralheart Spaulders \\ Wild Feralheart Spaulders
-s(276268)/i(93867),	-- rior Stormshroud Shoulders \\ Superior Stormshroud Shoulders
 s(276269)/i(93868),	-- Art Template Plate Belt - Plate_PVPWarrior_F_01 - Gold
 s(276270)/i(93869),	-- Art Template Plate Boot - Plate_PVPWarrior_F_01 - Gold
 s(276271)/i(93870),	-- Art Template Plate Chest - Plate_PVPWarrior_F_01 - Gold
@@ -3515,7 +3419,6 @@ s(276273)/i(93872),	-- Art Template Plate Head - Plate_PVPWarrior_F_01 - Gold
 s(276274)/i(93873),	-- Art Template Plate Legs - Plate_PVPWarrior_F_01 - Gold
 s(276275)/i(93874),	-- Art Template Plate Shoulder - Plate_PVPWarrior_F_01 - Gold
 s(276276)/i(93875),	-- Art Template Plate Wrist - Plate_PVPWarrior_F_01 - Gold
-s(276277)/i(93876),	-- ened Pauldrons of Elements \\ Awakened Pauldrons of Elements
 s(276278)/i(93877),	-- Art Template Plate Belt - Plate_PVPWarrior_F_01 - Silver
 s(276279)/i(93878),	-- Art Template Plate Boot - Plate_PVPWarrior_F_01 - Silver
 s(276280)/i(93879),	-- Art Template Plate Chest - Plate_PVPWarrior_F_01 - Silver
@@ -3524,17 +3427,6 @@ s(276282)/i(93881),	-- Art Template Plate Head - Plate_PVPWarrior_F_01 - Silver
 s(276283)/i(93882),	-- Art Template Plate Legs - Plate_PVPWarrior_F_01 - Silver
 s(276284)/i(93883),	-- Art Template Plate Shoulder - Plate_PVPWarrior_F_01 - Silver
 s(276285)/i(93884),	-- Art Template Plate Wrist - Plate_PVPWarrior_F_01 - Silver
-s(276286)/i(93885),	-- ened Vest of Elements \\ Awakened Vest of Elements
-s(276287)/i(93886),	-- ned Beastmaster's Mantle \\ Adorned Beastmaster's Mantle
-s(276288)/i(93887),	-- d Champion Herod's Shoulder \\ Grand Champion Herod's Shoulder
-s(276289)/i(93888),	-- ous Deathdealer Breastplate \\ Furious Deathdealer Breastplate
-s(276290)/i(93889),	-- rated Pauldrons of The Five Thunders \\ Venerated Pauldrons of The Five Thunders
-s(276291)/i(93890),	-- ming Spaulders of Valor \\ Gleaming Spaulders of Valor
-s(276292)/i(93891),	-- ming Breastplate of Valor \\ Gleaming Breastplate of Valor
-s(276293)/i(93892),	-- hed Breastplate of Might \\ Brushed Breastplate of Might
-s(276294)/i(93893),	-- hed Pauldrons of Might \\ Brushed Pauldrons of Might
-s(276295)/i(93894),	-- culate Lightforge Spaulders \\ Immaculate Lightforge Spaulders
-s(276296)/i(93895),	-- forced Stockade Pauldrons \\ Reinforced Stockade Pauldrons
 s(276300)/i(93905),	-- Art Template Cloth Belt - Cloth_RaidMage_M_01 - Green
 s(276301)/i(93906),	-- Art Template Cloth Boot - Cloth_RaidMage_M_01 - Green
 s(276302)/i(93907),	-- Art Template Cloth Shoulder - Cloth_RaidMage_M_01 - Green

@@ -154,8 +154,12 @@ i(70910),	-- of the Vicious War Wolf \\ Horn of the Vicious War Wolf \\ Vicious 
 i(71079),	-- mering Lotus \\ Shimmering Lotus
 i(71155),	-- Charred Glyph \\ red Glyph \\ Glyph of Lightning Shield \\ Glyph of Unleashed Lightning
 i(71799),	-- zzOLD Glyph of Stabbing \\ Glyph of Stabbing
+i(72071),	-- en Training Supplies \\ Stolen Training Supplies
 i(72097),	-- DEPRECATED Manticyte Bar
 i(72108),	-- Stuff Tail
+i(72109),	-- Stone \\ Wind Stone
+i(72111),	-- Dogwood Root \\ Dry Dogwood Root
+i(72112),	-- tering Breeze \\ Fluttering Breeze
 i(72132),	-- Nectarbreeze Cider
 i(72162),	-- Touched Leather \\ Sha-Touched Leather
 i(72163),	-- ificent Hide \\ Magnificent Hide
@@ -165,17 +169,21 @@ i(72174),	-- Type3 Leather [PH]
 i(72175),	-- Type4 Leather [PH]
 i(72247),	-- Gingerleaf
 i(72475),	-- Stalker Steak
+i(72583),	-- s Offerings \\ Huo's Offerings
 i(72987),	-- Dense Windwool Bandage DEPRECATED
 i(73058),	-- Pocket Lint \\ Mogu Pocket Lint
 i(73059),	-- Pocket Lint \\ Mogu Pocket Lint
 i(73069),	-- The Pandanator
-i(73241),	-- hant's Satchel \\ Merchant's Satchel
+i(73178),	-- Tearwood Reed \\ Hard Tearwood Reed
+i(73183),	-- blossom Petals \\ Snowblossom Petals
+i(73184),	-- Pearl \\ Sun Pearl
 i(73265),	-- rim's Axe \\ Nazgrim's Axe
 i(73366),	-- Waterlogged Scrap
 i(73367),	-- n's Throwing Star \\ Kiryn's Throwing Star
 i(73411),	-- en Brewsky \\ Stolen Brewsky
 i(73782),	-- able Solenoid \\ Unstable Solenoid
 i(73784),	-- Hozen Head
+i(73791),	-- Pearl \\ Sun Pearl
 i(73798),	-- h Water Barrel \\ Fresh Water Barrel
 i(73799),	-- it-Touched Water Globule \\ Spirit-Touched Water Globule
 i(73800),	-- y Water Barrel \\ Empty Water Barrel
@@ -192,14 +200,23 @@ i(74051),	-- Monster - Sword, 1H Blood Elf A01 Gold (Off-Hand) \\ Monster - Swor
 i(74279),	-- u's Key \\ Jardu's Key
 i(74280),	-- 's Key \\ Raki's Key
 i(74281),	-- a's Key \\ Soota's Key
+i(74295),	-- oted Turnip \\ Uprooted Turnip
+i(74296),	-- en Carrot \\ Stolen Carrot
+i(74297),	-- ered Pumpkin \\ Pilfered Pumpkin
+i(74298),	-- Lo Recess Mallet \\ Dai-Lo Recess Mallet
+i(74301),	-- arded Wood Plank \\ Discarded Wood Plank
 i(74323),	-- kle Key - Test \\ Shackle Key - Test
 i(74609),	-- ered Carp \\ Battered Carp
 i(74612),	-- Panda Lasso \\ Red Panda Lasso
 i(74613),	-- Pollinated Orchid
 i(74614),	-- ered Carp \\ Battered Carp
+i(74615),	-- t Soaked Brush \\ Paint Soaked Brush
 i(74620),	-- n Sample \\ Toxin Sample
 i(74622),	-- Dead Fire Spirit \\ Fire Spirit \\ Fire Spirit
+i(74624),	-- doned Stone Block \\ Abandoned Stone Block
+i(74631),	-- en Firework Bundle \\ Stolen Firework Bundle
 i(74633),	-- ring Herbs \\ Sobering Herbs
+i(74634),	-- Pai Ritual Charm \\ Kun-Pai Ritual Charm
 i(74637),	-- n's Poison Vial \\ Kiryn's Poison Vial
 i(74659),	-- Chicken \\ Farm Chicken
 i(74660),	-- aren Peach \\ Pandaren Peach
@@ -235,7 +252,11 @@ i(74854),	-- ant Noodles \\ Instant Noodles
 i(74871),	-- Monster - Ancient Amani Longbow (Dark) - Offhand (Invis Sheathe)
 i(74872),	-- Vile Brew
 i(74925),	-- tation Candle \\ Meditation Candle
+i(74955),	-- ed Explosion Charge \\ Packed Explosion Charge
+i(74958),	-- ance Medical Supplies \\ Alliance Medical Supplies
 i(74999),	-- Mirror of Truesight
+i(75000),	-- h of Prismatic Flame \\ Torch of Prismatic Flame
+i(75008),	-- t Challenger's Torch \\ Unlit Challenger's Torch
 i(75014),	-- Crocolisk Belly \\ Raw Crocolisk Belly
 i(75015),	-- oin Steak \\ Sirloin Steak
 i(75047),	-- Totem of Seafaring
@@ -256,6 +277,7 @@ i(76135),	-- estone \\ Roguestone
 i(76136),	-- arian Garnet \\ Pandarian Garnet
 i(76137),	-- andrite \\ Alexandrite
 i(76167),	-- Dream Brew
+i(76174),	-- Tiger Pillar \\ Jade Tiger Pillar
 i(76308),	-- Monster - Bow, Panda Great Wall
 i(76349),	-- <DEPRECATED> Silver Filigree Flask
 i(76467),	-- Jade Staff
@@ -504,9 +526,7 @@ i(77307),	-- Art Template Leather Legs - Leather_PanProg_B_01 - Blue
 i(77308),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Blue
 i(77309),	-- Art Template Leather Belt - Leather_PanProg_B_01 - White
 i(77310),	-- Art Template Leather Boot - Leather_PanProg_B_01 - White
-i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
 i(77312),	-- Art Template Leather Hand - Leather_PanProg_B_01 - White
-i(77313),	-- Art Template Leather Legs - Leather_PanProg_B_01 - White
 i(77314),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - White
 i(77328),	-- Art Template Leather Belt - Leather_PanProg_B_01 - Red
 i(77329),	-- Art Template Leather Boot - Leather_PanProg_B_01 - Red
@@ -514,8 +534,6 @@ i(77330),	-- Art Template Leather Chest - Leather_PanProg_B_01 - Red
 i(77331),	-- Art Template Leather Hand - Leather_PanProg_B_01 - Red
 i(77332),	-- Art Template Leather Legs - Leather_PanProg_B_01 - Red
 i(77333),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Red
-i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
-i(77358),	-- Monster - Stave_2h_PanStart_A_01 - Blue
 i(77359),	-- Monster - Stave_2h_PanStart_A_01 - Green
 i(77360),	-- Monster - Stave_2h_PanStart_A_01 - Purple
 i(77369),	-- Monster - Mace_1h_PanStart_A_01 - Default
@@ -597,7 +615,6 @@ i(77496),	-- Art Template Mail Legs - Mail_PanProg_B_01 - Yellow
 i(77497),	-- ing Ticket! \\ Winning Ticket!
 i(77501),	-- Blizzcon Bag \\ Blue Blizzcon Bag
 i(77505),	-- Art Template Cloth Belt - Cloth_PanStart_A_01 - Default
-i(77506),	-- Art Template Cloth Wrist - Cloth_PanStart_A_01 - Default
 i(77507),	-- Art Template Cloth Legs - Cloth_PanStart_A_01 - Default
 i(77508),	-- Art Template Cloth Chest - Cloth_PanStart_A_01 - Default
 i(77511),	-- Art Template Cloth Wrist - Robe_PanProg_B_01 - White
@@ -680,16 +697,13 @@ i(79785),	-- QA Combat Test Healer 1H Mace 3
 i(79786),	-- QA Combat Test Agility Fist Weapon (MH) 2
 i(79787),	-- QA Combat Test Agility Fist Weapon (MH) 3
 i(79788),	-- QA Combat Test Offhand Agility Axe 2
-i(79789),	-- QA Combat Test Shaman Healer Chest 3
 i(79790),	-- QA Combat Test Agility DPS Cloak 3
 i(79791),	-- QA Combat Test Healer Cloak 2
 i(79792),	-- QA Combat Test Caster DPS Boots 2
 i(79793),	-- QA Combat Test Hunter Boots 2
-i(79795),	-- QA Combat Test Caster DPS Bracer 2
 i(79796),	-- QA Combat Test Hunter Bracer 2
 i(79797),	-- QA Combat Test Paladin Healer Bracer 2
 i(79798),	-- QA Combat Test Plate DPS Bracer 3
-i(79799),	-- QA Combat Test Priest Healer Bracer 2
 i(79800),	-- QA Combat Test Rogue Bracer 2
 i(79801),	-- QA Combat Test Shaman Healer Bracer 2
 i(79803),	-- QA Combat Test Rogue Helm 3
@@ -845,7 +859,7 @@ i(80206),	-- Art Template Plate Hand - Plate_Panda_B_01 - Silver
 i(80207),	-- Art Template Plate Chest - Plate_Panda_B_01 - Silver
 i(80208),	-- Art Template Plate Boot - Plate_Panda_B_01 - Silver
 i(80209),	-- Art Template Plate Belt - Plate_Panda_B_01 - Silver
-i(80211),	-- Enchanting Test Sword
+i(80212),	-- Master's Flame \\ The Master's Flame
 i(80217),	-- Jasmine Incense
 i(80218),	-- Silversage Incense
 i(80220),	-- st Remedy \\ Forest Remedy
@@ -1068,6 +1082,7 @@ i(80597),	-- iguing Mogu Relic \\ Intriguing Mogu Relic
 i(80598),	-- 's Banner \\ Zhen's Banner
 i(80610),	-- ured Mana Pudding \\ Conjured Mana Pudding
 i(80618),	-- Conjured Mana Fritter \\ ured Mana Fritter \\ Conjured Mana Buns
+i(80806),	-- en Bamboo Stalk \\ Broken Bamboo Stalk
 i(80807),	-- le Axe of the Thunder King \\ Battle Axe of the Thunder King
 i(80808),	-- le Spear of the Thunder King \\ Battle Spear of the Thunder King
 i(80809),	-- of Green Cabbage Seeds \\ Bag of Green Cabbage Seeds
@@ -1432,12 +1447,6 @@ i(82417),	-- Tranquil Gloves
 i(82418),	-- Tranquil Pants
 i(82419),	-- Tranquil Bracers
 i(82420),	-- Tranquil Boots
-i(82441),	-- of Windwool Cloth \\ Bolt of Windwool Cloth
-i(82442),	-- lescent Spellthread \\ Pearlescent Spellthread
-i(82443),	-- lean Spellthread \\ Cerulean Spellthread
-i(82444),	-- ter Pearlescent Spellthread \\ Greater Pearlescent Spellthread
-i(82445),	-- ter Cerulean Spellthread \\ Greater Cerulean Spellthread
-i(82447),	-- rial Silk \\ Imperial Silk
 i(82448),	-- ed Squid Belly \\ Smoked Squid Belly
 i(82449),	-- acle Bouillabaisse \\ Barnacle Bouillabaisse
 i(82450),	-- meal Biscuit \\ Cornmeal Biscuit
@@ -1728,13 +1737,8 @@ i(83356),	-- 5.0 QA PVP Test Agility Polearm
 i(83357),	-- 5.0 QA PVP Test Agility Staff
 i(83358),	-- 5.0 QA PVP Test Agility Staff 2
 i(83359),	-- 5.0 QA PVP Test Agility Staff 3
-i(83360),	-- 5.0 QA PVP Test Caster DPS Belt
-i(83361),	-- 5.0 QA PVP Test Caster DPS Belt 2
-i(83362),	-- 5.0 QA PVP Test Caster DPS Belt 3
 i(83363),	-- 5.0 QA PVP Test Caster DPS Boots
 i(83364),	-- 5.0 QA PVP Test Caster DPS Boots 2
-i(83365),	-- 5.0 QA PVP Test Caster DPS Bracer
-i(83366),	-- 5.0 QA PVP Test Caster DPS Bracer 2
 i(83367),	-- 5.0 QA PVP Test Caster DPS Cloak
 i(83368),	-- 5.0 QA PVP Test Caster DPS Cloak 2
 i(83369),	-- 5.0 QA PVP Test Caster DPS Dagger
@@ -1744,8 +1748,6 @@ i(83372),	-- 5.0 QA PVP Test Caster DPS Gloves 2
 i(83373),	-- 5.0 QA PVP Test Caster DPS Helm
 i(83374),	-- 5.0 QA PVP Test Caster DPS Helm 2
 i(83375),	-- 5.0 QA PVP Test Caster DPS Helm 3
-i(83376),	-- 5.0 QA PVP Test Caster DPS Legs
-i(83377),	-- 5.0 QA PVP Test Caster DPS Legs 2
 i(83378),	-- 5.0 QA PVP Test Caster DPS Neck
 i(83379),	-- 5.0 QA PVP Test Caster DPS Neck 2
 i(83381),	-- 5.0 QA PVP Test Caster DPS Neck 4
@@ -1756,15 +1758,6 @@ i(83385),	-- 5.0 QA PVP Test Caster DPS Ring 2
 i(83386),	-- 5.0 QA PVP Test Caster DPS Ring 3
 i(83387),	-- 5.0 QA PVP Test Caster DPS Ring 4
 i(83388),	-- 5.0 QA PVP Test Caster DPS Ring 5
-i(83389),	-- 5.0 QA PVP Test Caster DPS Robes
-i(83391),	-- 5.0 QA PVP Test Caster DPS Robes 3
-i(83392),	-- 5.0 QA PVP Test Caster DPS Shoulders
-i(83393),	-- 5.0 QA PVP Test Caster DPS Shoulders 2
-i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
-i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
-i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
-i(83397),	-- 5.0 QA PVP Test Caster DPS Trinket
-i(83398),	-- 5.0 QA PVP Test Caster DPS Trinket 2
 i(83402),	-- 5.0 QA PVP Test Druid Healer Belt
 i(83416),	-- 5.0 QA PVP Test Druid Healer Shoulders
 i(83418),	-- 5.0 QA PVP Test Druid Healer Shoulders 3
@@ -1805,8 +1798,6 @@ i(83464),	-- 5.0 QA PVP Test Hunter Gun No Variance
 i(83465),	-- 5.0 QA PVP Test Hunter Helm
 i(83466),	-- 5.0 QA PVP Test Hunter Helm 2
 i(83467),	-- 5.0 QA PVP Test Hunter Helm 3
-i(83468),	-- 5.0 QA PVP Test Hunter Legs
-i(83469),	-- 5.0 QA PVP Test Hunter Legs 2
 i(83470),	-- 5.0 QA PVP Test Hunter Shoulders
 i(83471),	-- 5.0 QA PVP Test Hunter Shoulders 2
 i(83472),	-- 5.0 QA PVP Test Offhand Agility Axe
@@ -1857,24 +1848,15 @@ i(83519),	-- 5.0 QA PVP Test Plate Tank Legs
 i(83520),	-- 5.0 QA PVP Test Plate Tank Legs 2
 i(83521),	-- 5.0 QA PVP Test Plate Tank Shoulders
 i(83522),	-- 5.0 QA PVP Test Plate Tank Shoulders 2
-i(83523),	-- 5.0 QA PVP Test Priest Healer Belt
-i(83524),	-- 5.0 QA PVP Test Priest Healer Belt 2
-i(83526),	-- 5.0 QA PVP Test Priest Healer Bracer
-i(83527),	-- 5.0 QA PVP Test Priest Healer Bracer 2
 i(83528),	-- 5.0 QA PVP Test Priest Healer Gloves
 i(83529),	-- 5.0 QA PVP Test Priest Healer Gloves 2
 i(83562),	-- 5.0 QA PVP Test Shaman Healer Bracer 2
-i(83563),	-- 5.0 QA PVP Test Shaman Healer Chest
-i(83564),	-- 5.0 QA PVP Test Shaman Healer Chest 2
-i(83565),	-- 5.0 QA PVP Test Shaman Healer Chest 3
 i(83566),	-- 5.0 QA PVP Test Shaman Healer Gloves
 i(83567),	-- 5.0 QA PVP Test Shaman Healer Gloves 2
 i(83568),	-- 5.0 QA PVP Test Shaman Healer Helm
 i(83569),	-- 5.0 QA PVP Test Shaman Healer Helm 2
 i(83571),	-- 5.0 QA PVP Test Shaman Healer Legs 2
 i(83572),	-- 5.0 QA PVP Test Shaman Healer Legs 3
-i(83573),	-- 5.0 QA PVP Test Shaman Healer Shoulder 2
-i(83574),	-- 5.0 QA PVP Test Shaman Healer Shoulders
 i(83575),	-- 5.0 QA PVP Test Slow Rogue Dagger 3
 i(83576),	-- 5.0 QA PVP Test Strength 1h Axe
 i(83577),	-- 5.0 QA PVP Test Strength 1h Mace
@@ -3619,13 +3601,10 @@ i(88558),	-- Monster - Shield_PVPPandariaS1_C_01 - Green
 i(88559),	-- Monster - Shield_PVPPandariaS1_C_01 - Purple
 i(88564),	-- ered Journal \\ Tattered Journal
 i(88568),	-- Contender's Belt
-i(88569),	-- Contender's Boots
 i(88570),	-- Contender's Bracers
 i(88571),	-- Contender's Chestguard
 i(88572),	-- Contender's Gloves
 i(88573),	-- Contender's Helm
-i(88574),	-- Contender's Leggings
-i(88575),	-- Contender's Shoulders
 i(88576),	-- red Basket \\ Covered Basket
 i(88578),	-- of Kafa \\ Cup of Kafa
 i(88581),	-- hy Wolf \\ Trophy Wolf
@@ -3928,10 +3907,8 @@ i(89158),	-- Monster - Mace_1H_PandariaQuest_B_01 - Blue
 i(89159),	-- Monster - Mace_1H_PandariaQuest_B_01 - Green
 i(89160),	-- Monster - Mace_1H_PandariaQuest_B_01 - Purple
 i(89161),	-- Monster - Mace_1H_PandariaQuest_B_01 - Red
-i(89196),	-- amore Tabard \\ Theramore Tabard
 i(89197),	-- shear Cactus Seed \\ Windshear Cactus Seed
 i(89202),	-- orleaf Seed \\ Raptorleaf Seed
-i(89205),	-- Mana Bomb \\ Mini Mana Bomb
 i(89221),	-- Monster - Axe_1h_PanDung_C_01 - Green
 i(89226),	-- Monster - Axe_1h_PanDung_C_01 - Purple
 i(89228),	-- Monster - Axe_1h_PanDung_C_01 - Red
@@ -4273,29 +4250,8 @@ i(90013),	-- Monster - Shield_PandaRaid_D_01
 i(90014),	-- Monster - Shield_PandaRaid_D_01 - Bronze
 i(90015),	-- Monster - Shield_PandaRaid_D_01 - Green
 i(90016),	-- Monster - Shield_PandaRaid_D_01 - Red
-i(90017),	-- amore Arcanist's Hat \\ Theramore Arcanist's Hat
-i(90018),	-- llshaper's Hat \\ Squallshaper's Hat
-i(90019),	-- nah Hag's Hat \\ Rok'nah Hag's Hat
-i(90020),	-- nah Skirmisher's Helm \\ Rok'nah Skirmisher's Helm
-i(90021),	-- nah Raider's Helm \\ Rok'nah Raider's Helm
-i(90022),	-- nah Wolfstalker's Helm \\ Rok'nah Wolfstalker's Helm
-i(90023),	-- nah Wolfcaller's Helm \\ Rok'nah Wolfcaller's Helm
-i(90024),	-- er Circlet \\ Silver Circlet
-i(90025),	-- k Circlet \\ Black Circlet
-i(90026),	-- en Circlet \\ Golden Circlet
-i(90027),	-- misher's Spear \\ Skirmisher's Spear
-i(90028),	-- seer's Handaxe \\ Overseer's Handaxe
-i(90029),	-- ne's Rifle \\ Marine's Rifle
-i(90030),	-- ain's Cutlass \\ Captain's Cutlass
-i(90031),	-- f of the Faithful \\ Staff of the Faithful
-i(90032),	-- t's Greataxe \\ Grunt's Greataxe
-i(90033),	-- sman's Blade \\ Marksman's Blade
-i(90034),	-- mage's Staff \\ Archmage's Staff
-i(90035),	-- or's Scimitar \\ Sailor's Scimitar
-i(90036),	-- d Guard's Shield \\ Blood Guard's Shield
 i(90037),	-- Monster - Hand_1h_PVPPandariaS1_C_01 (right hand) - Purple
 i(90038),	-- Monster - Hand_1h_PVPPandariaS1_C_01 (left hand) - Purple
-i(90041),	-- ls of Theramore \\ Spoils of Theramore
 i(90043),	-- y Pet Cage \\ Rusty Pet Cage
 i(90044),	-- ered Collar \\ Tattered Collar
 i(90047),	-- of Expired Pet Food \\ Sack of Expired Pet Food
@@ -4332,13 +4288,6 @@ i(90237),	-- Peacebreaker's Burnished Headcover
 i(90238),	-- Peacebreaker's Armored Helm
 i(90250),	-- Axe of Aborted Deforestation
 i(90261),	-- Ringmail Armor of Eminent Domain
-i(90273),	-- Honorary Combat Engineer's Heavy Legplates
-i(90276),	-- Landfall Silk Treads
-i(90278),	-- Landfall Moccasins
-i(90279),	-- Landfall Sabatons
-i(90280),	-- Landfall Burnished Greaves
-i(90281),	-- Landfall Warboots
-i(90282),	-- Landfall Plate Boots
 i(90395),	-- ts of Research \\ Facets of Research
 i(90396),	-- Fragments \\ Gem Fragments
 i(90397),	-- ts of Research \\ Facets of Research
@@ -4927,9 +4876,6 @@ i(92549),	-- PattyMac - Rare Pet Maker Test
 i(92550),	-- terfeit Scroll \\ Counterfeit Scroll
 i(92556),	-- wered Soulcore \\ Empowered Soulcore
 i(92558),	-- Energized Seeds
-i(92560),	-- et Head \\ Mallet Head
-i(92561),	-- et Handle \\ Mallet Handle
-i(92562),	-- onic Ointment \\ Harmonic Ointment
 i(92580),	-- rant Perfume \\ Fragrant Perfume
 i(92581),	-- rant Perfume \\ Fragrant Perfume
 i(92582),	-- p Cologne \\ Cheap Cologne
@@ -5450,32 +5396,7 @@ i(93837),	-- Art Template Plate Head - Plate_PVPWarrior_F_01 - Bronze
 i(93838),	-- Art Template Plate Legs - Plate_PVPWarrior_F_01 - Bronze
 i(93839),	-- Art Template Plate Shoulder - Plate_PVPWarrior_F_01 - Bronze
 i(93840),	-- Art Template Plate Wrist - Plate_PVPWarrior_F_01 - Bronze
-i(93841),	-- thbore Dwarven Hand Cannon \\ Smoothbore Dwarven Hand Cannon
-i(93843),	-- ened Arcanite Reaper \\ Hardened Arcanite Reaper
-i(93844),	-- nished Warden Staff \\ Refinished Warden Staff
-i(93845),	-- -Steeped Skullforge Reaver \\ Gore-Steeped Skullforge Reaver
-i(93846),	-- ngineered Lava Dredger \\ Re-Engineered Lava Dredger
-i(93847),	-- hing Mass of McGowan \\ Crushing Mass of McGowan
-i(93848),	-- le-Hardened Thrash Blade \\ Battle-Hardened Thrash Blade
-i(93849),	-- r Staff of Jordan \\ Elder Staff of Jordan
-i(93850),	-- Sanctified Hammer of Grace \\ The Sanctified Hammer of Grace
-i(93851),	-- le-Forged Truesilver Champion \\ Battle-Forged Truesilver Champion
-i(93852),	-- ly Scarlet Kris \\ Deadly Scarlet Kris
-i(93853),	-- s Aurastone Hammer \\ Pious Aurastone Hammer
-i(93854),	-- larly Headmaster's Charge \\ Scholarly Headmaster's Charge
-i(93855),	-- Torn Ancient Bone Bow \\ War-Torn Ancient Bone Bow
-i(93856),	-- e Dal'Rend's Sacred Charge \\ Noble Dal'Rend's Sacred Charge
-i(93857),	-- eful Heartseeker \\ Vengeful Heartseeker
 i(93858),	-- ler's Bladed Claws \\ Brawler's Bladed Claws
-i(93859),	-- dstained Dreadmist Mantle \\ Bloodstained Dreadmist Mantle
-i(93860),	-- dstained Dreadmist Robe \\ Bloodstained Dreadmist Robe
-i(93861),	-- tigious Sunderseer Mantle \\ Prestigious Sunderseer Mantle
-i(93862),	-- le Shadowcraft Spaulders \\ Supple Shadowcraft Spaulders
-i(93863),	-- le Shadowcraft Tunic \\ Supple Shadowcraft Tunic
-i(93864),	-- stic Ironfeather Shoulders \\ Majestic Ironfeather Shoulders
-i(93865),	-- stic Ironfeather Breastplate \\ Majestic Ironfeather Breastplate
-i(93866),	-- Feralheart Spaulders \\ Wild Feralheart Spaulders
-i(93867),	-- rior Stormshroud Shoulders \\ Superior Stormshroud Shoulders
 i(93868),	-- Art Template Plate Belt - Plate_PVPWarrior_F_01 - Gold
 i(93869),	-- Art Template Plate Boot - Plate_PVPWarrior_F_01 - Gold
 i(93870),	-- Art Template Plate Chest - Plate_PVPWarrior_F_01 - Gold
@@ -5484,7 +5405,6 @@ i(93872),	-- Art Template Plate Head - Plate_PVPWarrior_F_01 - Gold
 i(93873),	-- Art Template Plate Legs - Plate_PVPWarrior_F_01 - Gold
 i(93874),	-- Art Template Plate Shoulder - Plate_PVPWarrior_F_01 - Gold
 i(93875),	-- Art Template Plate Wrist - Plate_PVPWarrior_F_01 - Gold
-i(93876),	-- ened Pauldrons of Elements \\ Awakened Pauldrons of Elements
 i(93877),	-- Art Template Plate Belt - Plate_PVPWarrior_F_01 - Silver
 i(93878),	-- Art Template Plate Boot - Plate_PVPWarrior_F_01 - Silver
 i(93879),	-- Art Template Plate Chest - Plate_PVPWarrior_F_01 - Silver
@@ -5493,22 +5413,6 @@ i(93881),	-- Art Template Plate Head - Plate_PVPWarrior_F_01 - Silver
 i(93882),	-- Art Template Plate Legs - Plate_PVPWarrior_F_01 - Silver
 i(93883),	-- Art Template Plate Shoulder - Plate_PVPWarrior_F_01 - Silver
 i(93884),	-- Art Template Plate Wrist - Plate_PVPWarrior_F_01 - Silver
-i(93885),	-- ened Vest of Elements \\ Awakened Vest of Elements
-i(93886),	-- ned Beastmaster's Mantle \\ Adorned Beastmaster's Mantle
-i(93887),	-- d Champion Herod's Shoulder \\ Grand Champion Herod's Shoulder
-i(93888),	-- ous Deathdealer Breastplate \\ Furious Deathdealer Breastplate
-i(93889),	-- rated Pauldrons of The Five Thunders \\ Venerated Pauldrons of The Five Thunders
-i(93890),	-- ming Spaulders of Valor \\ Gleaming Spaulders of Valor
-i(93891),	-- ming Breastplate of Valor \\ Gleaming Breastplate of Valor
-i(93892),	-- hed Breastplate of Might \\ Brushed Breastplate of Might
-i(93893),	-- hed Pauldrons of Might \\ Brushed Pauldrons of Might
-i(93894),	-- culate Lightforge Spaulders \\ Immaculate Lightforge Spaulders
-i(93895),	-- forced Stockade Pauldrons \\ Reinforced Stockade Pauldrons
-i(93896),	-- eful Hand of Justice \\ Forceful Hand of Justice
-i(93897),	-- cing Eye of the Beast \\ Piercing Eye of the Beast
-i(93898),	-- eathed Insignia of the Horde \\ Bequeathed Insignia of the Horde
-i(93899),	-- eathed Insignia of the Alliance \\ Bequeathed Insignia of the Alliance
-i(93900),	-- rited Mark of Tyranny \\ Inherited Mark of Tyranny
 i(93905),	-- Art Template Cloth Belt - Cloth_RaidMage_M_01 - Green
 i(93906),	-- Art Template Cloth Boot - Cloth_RaidMage_M_01 - Green
 i(93907),	-- Art Template Cloth Shoulder - Cloth_RaidMage_M_01 - Green
@@ -8240,3 +8144,14 @@ i(247802),	-- Venerable Potion of Invisibility
 5.5.0.61217
 i(50164),	-- Siabi's Barely Bigger Beer \\ Ezra Grimm's Barely Bigger Beer \\ Fras Siabi's Barely Bigger Beer
 i(63272),	-- Overwhelming Cologne \\ Siabi's Smoked Cologne \\ Ezra Grimm's Smoked Cologne \\ Fras Siabi's Smoked Cologne
+5.5.0.61411
+i(248143),	-- Massive Bag of Gold
+i(248204),	-- Chimera of Doubt
+i(248329),	-- Satchel of Stone Fragments
+i(248666),	-- Satchel of Celestial Chance
+i(248741),	-- Reins of the Celestial Riding Crane
+i(248742),	-- Reins of the Celestial Riding Tiger
+i(248743),	-- Reins of the Celestial Riding Serpent
+i(248744),	-- Reins of the Celestial Riding Ox
+5.5.0.61916
+i(249899),	-- Coinpurse of Good Fortune

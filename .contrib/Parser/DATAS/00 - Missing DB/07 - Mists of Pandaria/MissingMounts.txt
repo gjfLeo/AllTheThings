@@ -17,6 +17,19 @@ mount(473741),	-- Meeksi Softpaw
 mount(473743),	-- Meeksi Rollingpaw
 mount(473744),	-- Meeksi Teatuft
 mount(473745),	-- Meeksi Brewthief
+5.5.0.61411
+mount(1247591),	-- Celestial Riding Crane
+mount(1247596),	-- Celestial Riding Serpent
+mount(1247597),	-- Celestial Riding Ox
+mount(1247598),	-- Celestial Riding Tiger
 
 
-Nothing is Missing in MountDB.lua! Good Work!
+
+
+Missing in MountDB.lua
+
+5.5.0.61411
+mount(1247591),	-- Celestial Riding Crane
+mount(1247596),	-- Celestial Riding Serpent
+mount(1247597),	-- Celestial Riding Ox
+mount(1247598),	-- Celestial Riding Tiger

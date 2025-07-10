@@ -28,3 +28,5 @@ q(91715),	-- MOP:A Celestial Challenge: Yan-zhu the Uncasked
 q(91716),	-- MOP:A Celestial Challenge: Yan-zhu the Uncasked
 q(91717),	--
 q(91718),	--
+5.5.0.61496
+q(91786),	--

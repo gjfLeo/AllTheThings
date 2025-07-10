@@ -1,6 +1,5 @@
 5.0.3.15882
 pet(115),	-- Baby Shark
-pet(347),	-- Soul of the Aspects
 pet(382),	-- Sun Darter Hatchling \\ Raccoon Kit
 pet(666),	-- Micronax \\ Elayna
 5.5.0.60481
@@ -20,7 +19,6 @@ pet(4211),	-- Lucky
 pet(4228),	-- Alarming Clockbot
 pet(4229),	-- XS-001 Constructor Bot
 pet(4683),	-- Reven
-pet(4685),	-- Timbered Air Snakelet
 pet(4734),	-- Joyous
 
 
@@ -40,5 +38,4 @@ pet(4211),	-- Lucky
 pet(4228),	-- Alarming Clockbot
 pet(4229),	-- XS-001 Constructor Bot
 pet(4683),	-- Reven
-pet(4685),	-- Timbered Air Snakelet
 pet(4734),	-- Joyous
