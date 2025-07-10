@@ -1537,70 +1537,17 @@ s(182256)/i(199747),	-- Collective Plate Gauntlets
 s(182400)/i(200235),	-- Collective Cloak
 3.4.2.49563
 s(188054)/i(206684),	-- Runed Talon
-s(188055)/i(206685),	-- Tenacious Vine Staff
 s(188056)/i(206686),	-- Lumbering Bludgeon
 s(188057)/i(206687),	-- Acute Shortbow
-s(188058)/i(206688),	-- Primitive Scimitar
 s(188059)/i(206689),	-- Brass-Bound Cudgel
 s(188060)/i(206690),	-- Embossed Brazen Shield
 s(188061)/i(206691),	-- Embossed Brazen Shield
-s(188062)/i(206692),	-- Parrying Dagger
 s(188063)/i(206693),	-- Flying Knives
-s(188064)/i(206694),	-- Primitive Scimitar
-s(188066)/i(206697),	-- Chilled Wand
-s(188067)/i(206699),	-- Oracle Bracelets
-s(188068)/i(206700),	-- Oracle Belt
-s(188069)/i(206701),	-- Oracle Mantle
-s(188070)/i(206702),	-- Oracle Leggings
-s(188071)/i(206703),	-- Oracle Circlet
-s(188072)/i(206704),	-- Oracle Gloves
-s(188073)/i(206705),	-- Oracle Slippers
-s(188074)/i(206706),	-- Oracle Robe
 s(188075)/i(206707),	-- Fleece Cloak
-s(188076)/i(206709),	-- Ghrino Vest
-s(188077)/i(206710),	-- Ghrino Bracers
-s(188078)/i(206711),	-- Ghrino Belt
-s(188079)/i(206712),	-- Ghrino Pauldrons
-s(188080)/i(206713),	-- Ghrino Britches
-s(188081)/i(206714),	-- Ghrino Cover
-s(188082)/i(206715),	-- Ghrino Gloves
-s(188083)/i(206716),	-- Ghrino Boots
 s(188084)/i(206717),	-- Brass-Bound Cudgel
-s(188085)/i(206718),	-- Wolvar Bindings
-s(188086)/i(206719),	-- Wolvar Belt
-s(188087)/i(206720),	-- Wolvar Shoulderguards
-s(188088)/i(206721),	-- Wolvar Legguards
-s(188089)/i(206722),	-- Wolvar Helmet
-s(188090)/i(206723),	-- Wolvar Fists
-s(188091)/i(206724),	-- Wolvar Greaves
-s(188092)/i(206725),	-- Wolvar Armor
 s(188093)/i(206726),	-- Spiked Greatstaff
 s(188094)/i(206728),	-- Fleece Cloak
-s(188095)/i(206730),	-- Wolvar Bindings
-s(188096)/i(206731),	-- Wolvar Shoulderguards
-s(188097)/i(206732),	-- Wolvar Legguards
-s(188098)/i(206733),	-- Wolvar Helmet
-s(188099)/i(206734),	-- Wolvar Fists
-s(188100)/i(206735),	-- Wolvar Armor
-s(188101)/i(206736),	-- Wolvar Greaves
-s(188102)/i(206737),	-- Wolvar Belt
 s(188103)/i(206740),	-- Fleece Cloak
-s(188104)/i(206741),	-- Magnataur Girdle
-s(188105)/i(206742),	-- Magnataur Sabatons
-s(188106)/i(206743),	-- Magnataur Breastplate
-s(188107)/i(206744),	-- Magnataur Gauntlets
-s(188108)/i(206745),	-- Magnataur Helm
-s(188109)/i(206746),	-- Magnataur Legplates
-s(188110)/i(206747),	-- Magnataur Pauldrons
-s(188111)/i(206748),	-- Magnataur Bracers
-s(188112)/i(206750),	-- Ghrino Belt
-s(188113)/i(206751),	-- Ghrino Boots
-s(188114)/i(206752),	-- Ghrino Vest
-s(188115)/i(206753),	-- Ghrino Gloves
-s(188116)/i(206754),	-- Ghrino Cover
-s(188117)/i(206755),	-- Ghrino Britches
-s(188118)/i(206756),	-- Ghrino Pauldrons
-s(188119)/i(206757),	-- Ghrino Bracers
 3.4.3.51831
 s(48336)/i(92553),	-- ish X-Ray Specs Visual \\ Gnomish X-Ray Specs Visual
 3.4.3.52237

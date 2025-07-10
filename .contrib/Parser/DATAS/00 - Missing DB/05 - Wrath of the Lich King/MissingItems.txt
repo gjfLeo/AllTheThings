@@ -9,7 +9,6 @@ i(5522),	-- Spellstone (DEPRECATED) \\ Spellstone
 i(9594),	-- t Muisek \\ Beast Muisek \\ Wildkin Muisek
 i(9618),	-- t Muisek Vessel \\ Beast Muisek Vessel \\ Wildkin Muisek Vessel
 i(9628),	-- sh's Herb Pouch \\ Xerash's Herb Pouch \\ Neeru's Herb Pouch
-i(10648),	-- on Parchment \\ Common Parchment \\ Blank Parchment
 i(11367),	-- mon's Plea to King Wrynn \\ Solomon's Plea to King Wrynn \\ Solomon's Plea to Bolvar
 i(11368),	-- n's Decree \\ Wrynn's Decree \\ Bolvar's Decree
 i(13602),	-- Greater Spellstone (DEPRECATED) \\ Greater Spellstone
@@ -1185,7 +1184,6 @@ i(39126),	-- QR IC35 Fast Dagger2 - PH
 i(39137),	-- QR IC35 Healer Axe - PH
 i(39145),	-- QR IC35 Fast Mace - PH
 i(39150),	-- ed Adornment \\ Sacred Adornment
-i(39151),	-- aster Pigment \\ Alabaster Pigment
 i(39153),	-- Manual: Dense Frostweave Bandage
 i(39154),	-- ting Additive \\ Diluting Additive
 i(39156),	-- rworld Power Fragment \\ Underworld Power Fragment
@@ -1242,11 +1240,6 @@ i(39326),	-- Chain \\ Iron Chain
 i(39327),	-- 's Special Brew \\ Noth's Special Brew
 i(39328),	-- ader Skull \\ Crusader Skull
 i(39329),	-- of Crusader Skulls \\ Pile of Crusader Skulls
-i(39334),	-- y Pigment \\ Dusky Pigment
-i(39338),	-- en Pigment \\ Golden Pigment
-i(39339),	-- ald Pigment \\ Emerald Pigment
-i(39340),	-- et Pigment \\ Violet Pigment
-i(39341),	-- ery Pigment \\ Silvery Pigment
 i(39342),	-- er Pigment \\ Nether Pigment
 i(39343),	-- e Pigment \\ Azure Pigment
 i(39349),	-- ed Vellum \\ Ruined Vellum \\ Weapon Vellum
@@ -1254,7 +1247,6 @@ i(39350),	-- ed Vellum \\ Ruined Vellum \\ Weapon Vellum II
 i(39351),	-- ly Appointed Pipe \\ Richly Appointed Pipe
 i(39352),	-- Deprecated Ebon Ink
 i(39353),	-- -Crescent Necklace \\ Moon-Crescent Necklace
-i(39354),	-- t Parchment \\ Light Parchment
 i(39355),	-- e Club Membership Card \\ Haute Club Membership Card
 i(39356),	-- -Soothing Bauble \\ Mind-Soothing Bauble
 i(39357),	-- stly Preening: Be Like Your Betters \\ Priestly Preening: Be Like Your Betters
@@ -1263,11 +1255,7 @@ i(39360),	-- ngs of the High General \\ Musings of the High General
 i(39361),	-- ing the Other Cheek \\ Turning the Other Cheek
 i(39362),	-- Avalon Registry \\ New Avalon Registry
 i(39434),	-- of Warlord Zol'Maz \\ Key of Warlord Zol'Maz
-i(39469),	-- glow Ink \\ Moonglow Ink
-i(39501),	-- y Parchment \\ Heavy Parchment
-i(39502),	-- lient Parchment \\ Resilient Parchment
 i(39504),	-- Avalon Patrol Schedule \\ New Avalon Patrol Schedule
-i(39505),	-- uoso Inking Set \\ Virtuoso Inking Set
 i(39506),	-- eted Element 115 \\ Depleted Element 115
 i(39510),	-- oth's Head \\ Valroth's Head
 i(39511),	-- DEPRECATED Six of Swords
@@ -1344,7 +1332,6 @@ i(39739),	-- ar Berries \\ Wolvar Berries
 i(39740),	-- n Tor Signet \\ Kirin Tor Signet
 i(39747),	-- ant Polished Crystal \\ Dormant Polished Crystal
 i(39748),	-- gized Polished Crystal \\ Energized Polished Crystal
-i(39774),	-- ight Ink \\ Midnight Ink
 i(39813),	-- QR ZD25 Cloth Spell Glove2 - PH
 i(39832),	-- QR ZD26 Spell Offhand - PH
 i(39879),	-- QR ZD25 Leather Physical Shoulder2 - PH
@@ -1899,9 +1886,6 @@ i(41504),	-- hee Essence \\ Banshee Essence
 i(41505),	-- im's Charm of Earth \\ Thorim's Charm of Earth
 i(41506),	-- ite Boulder \\ Granite Boulder
 i(41507),	-- o Seaforium Charge \\ Jumbo Seaforium Charge
-i(41509),	-- tweave Net \\ Frostweave Net
-i(41510),	-- of Frostweave \\ Bolt of Frostweave
-i(41511),	-- of Imbued Frostweave \\ Bolt of Imbued Frostweave
 i(41514),	-- e of the Wind \\ Voice of the Wind
 i(41517),	-- Charred Glyph \\ red Glyph \\ Glyph of Unstable Earth \\ Glyph of Chain Heal
 i(41518),	-- Charred Glyph \\ red Glyph \\ Glyph of Chain Lightning
@@ -1920,9 +1904,6 @@ i(41558),	-- ous Spark \\ Furious Spark
 i(41584),	-- tbite Bullets \\ Frostbite Bullets
 i(41585),	-- Covered Metal \\ Slag Covered Metal
 i(41586),	-- orshaft Arrow \\ Terrorshaft Arrow
-i(41593),	-- weave \\ Ebonweave
-i(41594),	-- shroud \\ Moonshroud
-i(41595),	-- lweave \\ Spellweave
 i(41605),	-- zzDEPRECATED Sanctified Spellthread
 i(41606),	-- zzDEPRECATED Master's Spellthread
 i(41612),	-- of Frost Oil \\ Vial of Frost Oil
@@ -2246,22 +2227,8 @@ i(43097),	-- Lining - Attack Power \\ Fur Lining - Attack Power
 i(43098),	-- Ochre Pigment [PH]
 i(43099),	-- sed Mushroom Meatloaf \\ Infused Mushroom Meatloaf
 i(43101),	-- loaf Pan \\ Meatloaf Pan
-i(43103),	-- ant Pigment \\ Verdant Pigment
-i(43104),	-- t Pigment \\ Burnt Pigment
-i(43105),	-- go Pigment \\ Indigo Pigment
-i(43106),	-- Pigment \\ Ruby Pigment
-i(43107),	-- hire Pigment \\ Sapphire Pigment
 i(43108),	-- Pigment \\ Ebon Pigment
 i(43109),	-- Pigment \\ Icy Pigment
-i(43115),	-- er's Ink \\ Hunter's Ink
-i(43116),	-- 's Ink \\ Lion's Ink
-i(43117),	-- star Ink \\ Dawnstar Ink
-i(43118),	-- fire Ink \\ Jadefire Ink
-i(43119),	-- l Ink \\ Royal Ink
-i(43120),	-- stial Ink \\ Celestial Ink
-i(43121),	-- y Ink \\ Fiery Ink
-i(43122),	-- mering Ink \\ Shimmering Ink
-i(43123),	-- of the Sky \\ Ink of the Sky
 i(43124),	-- real Ink \\ Ethereal Ink
 i(43125),	-- flame Ink \\ Darkflame Ink
 i(43126),	-- of the Sea \\ Ink of the Sea
@@ -3383,76 +3350,23 @@ i(206272),	-- Holy Hand Grenade
 i(206580),	-- Charred Glyph \\ Glyph of Omen of Clarity
 3.4.2.49563
 i(206684),	-- Runed Talon
-i(206685),	-- Tenacious Vine Staff
 i(206686),	-- Lumbering Bludgeon
 i(206687),	-- Acute Shortbow
-i(206688),	-- Primitive Scimitar
 i(206689),	-- Brass-Bound Cudgel
 i(206690),	-- Embossed Brazen Shield
 i(206691),	-- Embossed Brazen Shield
-i(206692),	-- Parrying Dagger
 i(206693),	-- Flying Knives
-i(206694),	-- Primitive Scimitar
-i(206697),	-- Chilled Wand
 i(206698),	-- Stirrup Ring
-i(206699),	-- Oracle Bracelets
-i(206700),	-- Oracle Belt
-i(206701),	-- Oracle Mantle
-i(206702),	-- Oracle Leggings
-i(206703),	-- Oracle Circlet
-i(206704),	-- Oracle Gloves
-i(206705),	-- Oracle Slippers
-i(206706),	-- Oracle Robe
 i(206707),	-- Fleece Cloak
 i(206708),	-- Gold Clasped Chain
-i(206709),	-- Ghrino Vest
-i(206710),	-- Ghrino Bracers
-i(206711),	-- Ghrino Belt
-i(206712),	-- Ghrino Pauldrons
-i(206713),	-- Ghrino Britches
-i(206714),	-- Ghrino Cover
-i(206715),	-- Ghrino Gloves
-i(206716),	-- Ghrino Boots
 i(206717),	-- Brass-Bound Cudgel
-i(206718),	-- Wolvar Bindings
-i(206719),	-- Wolvar Belt
-i(206720),	-- Wolvar Shoulderguards
-i(206721),	-- Wolvar Legguards
-i(206722),	-- Wolvar Helmet
-i(206723),	-- Wolvar Fists
-i(206724),	-- Wolvar Greaves
-i(206725),	-- Wolvar Armor
 i(206726),	-- Spiked Greatstaff
 i(206727),	-- Stirrup Ring
 i(206728),	-- Fleece Cloak
 i(206729),	-- Gold Clasped Chain
-i(206730),	-- Wolvar Bindings
-i(206731),	-- Wolvar Shoulderguards
-i(206732),	-- Wolvar Legguards
-i(206733),	-- Wolvar Helmet
-i(206734),	-- Wolvar Fists
-i(206735),	-- Wolvar Armor
-i(206736),	-- Wolvar Greaves
-i(206737),	-- Wolvar Belt
 i(206738),	-- Stirrup Ring
 i(206739),	-- Gold Clasped Chain
 i(206740),	-- Fleece Cloak
-i(206741),	-- Magnataur Girdle
-i(206742),	-- Magnataur Sabatons
-i(206743),	-- Magnataur Breastplate
-i(206744),	-- Magnataur Gauntlets
-i(206745),	-- Magnataur Helm
-i(206746),	-- Magnataur Legplates
-i(206747),	-- Magnataur Pauldrons
-i(206748),	-- Magnataur Bracers
-i(206750),	-- Ghrino Belt
-i(206751),	-- Ghrino Boots
-i(206752),	-- Ghrino Vest
-i(206753),	-- Ghrino Gloves
-i(206754),	-- Ghrino Cover
-i(206755),	-- Ghrino Britches
-i(206756),	-- Ghrino Pauldrons
-i(206757),	-- Ghrino Bracers
 i(206759),	-- Essence or Dust
 i(206953),	-- Charred Glyph \\ Glyph of Shattering Throw
 3.4.2.49979
@@ -3583,12 +3497,9 @@ i(230766),	-- The Horseman's Seal
 i(230767),	-- The Horseman's Baleful Blade
 i(230768),	-- The Horseman's Horrific Helm
 i(230769),	-- Wicked Witch's Band
-3.4.3.57082
-i(224002),	-- Swoopy
 3.4.3.57269
 i(232614),	-- Skybound Spectral Tiger
 3.4.3.58528
-i(231312),	-- Timbered Air Snakelet
 i(235464),	-- Sha-Touched Tea Set
 i(235561),	-- Joyous
 3.4.3.58629

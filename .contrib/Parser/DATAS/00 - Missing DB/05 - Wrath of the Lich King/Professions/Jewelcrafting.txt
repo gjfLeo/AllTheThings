@@ -7,7 +7,6 @@ r(51311),	-- Jewelcrafting
 Missing in Jewelcrafting
 
 3.0.1.8622
-r(51311),	-- Jewelcrafting
 r(53831),	-- Bold Bloodstone
 r(53832),	-- Delicate Bloodstone
 r(53834),	-- Brilliant Bloodstone \\ Runed Bloodstone
