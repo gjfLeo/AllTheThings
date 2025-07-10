@@ -2526,11 +2526,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				honortheflame(11809, {	-- Honor the Flame — Bloodmyst Isle
 					["qg"] = 25891,	-- Bloodmyst Isle Flame Warden
 					["coords"] = {
-						-- #if AFTER CATA
-						{ 55.0, 69.0, BLOODMYST_ISLE },
-						-- #else
-							{ 55.8, 67.9, BLOODMYST_ISLE },
-						-- #endif
+						{ 55.8, 67.9, BLOODMYST_ISLE },
 					},
 				}),
 				honortheflame(13485, {	-- Honor the Flame — Borean Tundra
