@@ -222,7 +222,10 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #endif
 			expansion(EXPANSION.MOP, {
-				i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
+					i(80211),	-- Enchanting Test Sword
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(1,5), {
