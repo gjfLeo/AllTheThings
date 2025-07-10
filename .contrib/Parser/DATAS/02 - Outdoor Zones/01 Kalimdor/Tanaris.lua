@@ -4749,6 +4749,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(56899, {	-- Rosy Tablet Belt
 							["timeline"] = { ADDED_4_0_3 },
 						}),
+						--
+						i(52470),	-- The Grand Tablet (QI!)
 					},
 				}),
 				q(25107, {	-- The Grand Tablet (H)
@@ -4766,6 +4768,8 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(56902, {	-- Rosy Tablet Belt
 							["timeline"] = { ADDED_4_0_3 },
 						}),
+						--
+						i(52470),	-- The Grand Tablet (QI!)
 					},
 				}),
 				q(2773, {	-- The Mithril Kid

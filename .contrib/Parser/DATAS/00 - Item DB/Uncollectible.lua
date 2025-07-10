@@ -394,6 +394,7 @@ i(155615);	-- Pestilent Muck
 i(162633);	-- Petrified Jungle Orchid
 i(158781);	-- Pilfered Curio
 i(155601);	-- Pointy Leg Segment
+i(163375);	-- Portrait of Commander Martens
 i(158840);	-- Prehensile Tongue
 i(158779);	-- Robust Horn
 i(158756);	-- Rotary Gasket

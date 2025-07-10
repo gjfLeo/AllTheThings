@@ -354,9 +354,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 						i(224398, {	-- Frayfeather Hippogryph (MOUNT!)
 							["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
 						}),
-						i(205208, {	-- Sandy Shalewing (MOUNT!)
-							["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
-						}),
 					}),
 					filter(TOYS, {
 						i(224192, {	-- Practice Ravager (TOY!)

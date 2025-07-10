@@ -227,6 +227,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					REVENDRETH,
 				},
 				["_drop"] = { "isDaily" },
+				["g"] = { i(161475) },	-- Secret Fish Lure
 			}),
 			q(62457, {	-- The Great Vault
 				["provider"] = { "n", 173350 },	-- Ba'vol

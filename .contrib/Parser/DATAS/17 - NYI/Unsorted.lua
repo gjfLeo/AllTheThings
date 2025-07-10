@@ -3022,7 +3022,6 @@ root(ROOTS.Unsorted, {
 				i(163372),	-- Damarcus' Backpack
 				i(163373),	-- Rachel's Flute \\ Rachel's Tambourine
 				i(163374),	-- Josh's Fang Necklace \\ Josh's Lucky Ferret's Foot
-				i(163375),	-- Portrait of Commander Martens
 				i(163516),	-- Blue Glowing Puffer
 				i(163517),	-- Red Glowing Puffer
 				i(163518),	-- Purple Glowing Puffer
@@ -3101,7 +3100,6 @@ root(ROOTS.Unsorted, {
 				i(161084),	-- Recovered Stormsong Produce
 				i(161324),	-- Zeth'jir Tidespear
 				i(161345),	-- Abhorrent Essence of the Abyss
-				i(161475),	-- Secret Fish Lure \\ Grappling Hook
 				i(161878),	-- Tiny Coin Purse
 				i(162025),	-- Sermon of the High Exarch
 			}),

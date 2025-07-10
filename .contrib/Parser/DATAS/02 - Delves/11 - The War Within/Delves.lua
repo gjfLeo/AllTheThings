@@ -2506,7 +2506,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
 					}),
 					i(233186, {	-- Wave Scrambler 2000
-						["cost"] = {{"c", UNDERCOIN, 1500}},
+						["cost"] = {{"c", UNDERCOIN, 2000}},
 						["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
 					}),
 					-- Season 3

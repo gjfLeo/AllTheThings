@@ -220,6 +220,7 @@ MobileDB.Creature = {
 	 [33276] = true,	-- Moon Priestess Maestra
 	 [33533] = true,	-- Oracle Orphan
 	 [33777] = true,	-- Gaivan Shadewalker
+	 [34320] = true,	-- Venomhide Hatchling
 	 [34653] = true,	-- Bountiful Table Hostess
 	 [37087] = true,	-- Jona Ironstock
 	 [37172] = true,	-- Detective Snap Snagglebolt
