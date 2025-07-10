@@ -268,6 +268,11 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(41759),	-- Shackles of Perpetual Friendship
 				i(37510),	-- Wristguards of Edification
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206745),	-- Magnataur Helm
+			}),
+			-- #endif
 			n(P3xx, {
 				i(43938),	-- Belt of Rising Hope
 				i(43848),	-- Bracers of Icy Resolve
@@ -502,10 +507,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(44428),	-- Dark Frostscale Chestpiece
 			}),
 			expansion(EXPANSION.CATA, patch(0,3), {
-				i(63002),	-- Bat Claw Boots
-				i(54551),	-- Defiant Bracers
-				i(59789),	-- Sea-Snack Footguards
-				i(65744),	-- Nimble Command Shoulderguards
 				i(62715),	-- Art Template Mail Belt - Mail_Cataclysm_B_01 - Blue
 				i(62716),	-- Art Template Mail Boot - Mail_Cataclysm_B_01 - Blue
 				i(62717),	-- Art Template Mail Chest - Mail_Cataclysm_B_01 - Blue
@@ -514,15 +515,25 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(62720),	-- Art Template Mail Legs - Mail_Cataclysm_B_01 - Blue
 				i(62721),	-- Art Template Mail Shoulder - Mail_Cataclysm_B_01 - Blue
 				i(62722),	-- Art Template Mail Wrist - Mail_Cataclysm_B_01 - Blue
-				i(54757),	-- Double Link Tunic
-				i(54765),	-- Burnished Leggings
-				i(54766),	-- Burnished Gloves
-				i(54767),	-- Burnished Girdle
+				i(63002),	-- Bat Claw Boots
 				i(54768),	-- Burnished Boots
-				i(54769),	-- Rough Bronze Bracers -- Do Not Remove until somebody provides proof as obtained. Guild Tab shows somebody might be able to craft it, but its a visual bug. 27th Oct 2020 -- Gold
 				i(54778),	-- Burnished Boots (Again)
-				i(54781),	-- Thorbia's Gauntlets
+				i(54765),	-- Burnished Leggings
+				i(54767),	-- Burnished Girdle
+				i(54766),	-- Burnished Gloves
+				i(54551),	-- Defiant Bracers
+				i(54757),	-- Double Link Tunic
+				-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+				-- #if BEFORE WOD
+				i(55604),	-- Frayfeather Helm
+				i(55622),	-- Frayfeather Spaulders
+				i(55577),	-- Frayfeather Vest
+				-- #endif
+				i(65744),	-- Nimble Command Shoulderguards
+				i(54769),	-- Rough Bronze Bracers -- Do Not Remove until somebody provides proof as obtained. Guild Tab shows somebody might be able to craft it, but its a visual bug. 27th Oct 2020 -- Gold
+				i(59789),	-- Sea-Snack Footguards
 				i(54783),	-- Silvered Bronze Shoulders
+				i(54781),	-- Thorbia's Gauntlets
 				i(60537, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Dominance
 				i(60570, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Salvation
 				i(60552, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Triumph
@@ -832,9 +843,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(MAIL, {
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(83468),	-- 5.0 QA PVP Test Hunter Legs
+				i(83469),	-- 5.0 QA PVP Test Hunter Legs 2
 				i(83563),	-- 5.0 QA PVP Test Shaman Healer Chest
 				i(83564),	-- 5.0 QA PVP Test Shaman Healer Chest 2
 				i(83565),	-- 5.0 QA PVP Test Shaman Healer Chest 3
+				i(83574),	-- 5.0 QA PVP Test Shaman Healer Shoulders
+				i(83573),	-- 5.0 QA PVP Test Shaman Healer Shoulder 2
 				i(79789),	-- QA Combat Test Shaman Healer Chest 3
 				--
 				i(80947),	-- Peacebreaker's Chain Helm
