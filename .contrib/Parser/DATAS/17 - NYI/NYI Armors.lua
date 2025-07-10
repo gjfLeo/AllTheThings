@@ -574,6 +574,16 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78536),	-- Zeherah's Dragonskull Crown
 				i(78619),	-- Zeherah's Dragonskull Crown
 			}),
+			n(P4xx, {
+				i(92095),	-- Forestwalker Belt
+				i(92079),	-- Forestwalker Bracers
+				i(92267),	-- Forestwalker Gauntlets
+				i(92327),	-- Forestwalker Greaves
+				i(92247),	-- Forestwalker Helm
+				i(92227),	-- Forestwalker Legguards
+				i(92153),	-- Forestwalker Spaulders
+				i(92371),	-- Forestwalker Vest
+			}),
 		}),
 		filter(PLATE, {
 			expansion(EXPANSION.CATA, patch(0,3), {
