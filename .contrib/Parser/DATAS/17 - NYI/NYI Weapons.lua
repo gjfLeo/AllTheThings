@@ -16,6 +16,11 @@ root(ROOTS.NeverImplemented, {
 				i(5290),	-- Monster - Bow, Black Bow White Grip
 				i(21550),	-- Monster - Bow, Kaldorei
 			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178450),	-- zzzRated - Weapon - Bow
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189689),	-- 10.0 Dungeon Template - Bows - Ranged
@@ -52,6 +57,15 @@ root(ROOTS.NeverImplemented, {
 			expansion(EXPANSION.MOP, {
 				n(P5xx, {
 					i(90273),	-- Honorary Combat Engineer's Heavy Legplates
+				}),
+			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(179501),	-- Ardenweald Dagger
+					i(178400),	-- UNUSED - Rated - Weapon - Dagger Caster
+					i(176010),	-- UNUSED - Rated - Weapon - Dagger Caster
+					i(178451),	-- zzzRated - Weapon - Dagger Agi
+					i(178461),	-- zzzRated - Weapon - Dagger Caster
 				}),
 			}),
 			expansion(EXPANSION.DF, {
@@ -113,6 +127,11 @@ root(ROOTS.NeverImplemented, {
 				i(20337),	-- Gnome Head on a Stick
 				i(22211),	-- Monster - Knuckle, B01 Red Offhand
 			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178459),	-- zzzRated - Weapon - Offhand
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189672),	-- 10.0 Dungeon Template - Generic - Holdable
@@ -150,6 +169,11 @@ root(ROOTS.NeverImplemented, {
 					i(144217),	-- Inelava, Spirit of Inebriation
 				}),
 			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178449),	-- zzzRated - Weapon - 1H Axe Melee
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189692),	-- 10.0 Dungeon Template - Axe1H - Agi - Weapon
@@ -181,6 +205,17 @@ root(ROOTS.NeverImplemented, {
 				i(217336),	-- Monster - Incubus Whip Mace1H
 				i(227802),	-- Monster - Torch
 				-- #endif
+			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178401),	-- UNUSED - Rated - Weapon - 1H Mace Caster
+					i(176011),	-- UNUSED - Rated - Weapon - 1H Mace Caster
+					i(176001),	-- UNUSED - Rated - Weapon - 1H Mace Melee
+					i(178391),	-- UNUSED - Rated - Weapon - 1H Mace Melee
+					i(178666),	-- UNUSED - Unrated - Weapon - 1H Mace Melee
+					i(178462),	-- zzzRated - Weapon - 1H Mace Caster
+					i(178452),	-- zzzRated - Weapon - 1H Mace Melee
+				}),
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
@@ -228,6 +263,9 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178455),	-- zzzRated - Weapon - 1H Sword Melee
+				}),
 				expansion(EXPANSION.SL, patch(1,5), {
 					i(187568),	-- Duskwatch Arcblade
 				}),
@@ -256,6 +294,11 @@ root(ROOTS.NeverImplemented, {
 				i(204910),	-- Monster - Trident, Naga (Gold)
 				-- #endif
 			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178453),	-- zzzRated - Weapon - Polearm Agi
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189703),	-- 10.0 Dungeon Template - Polearms - Agi - 2 Hand
@@ -279,6 +322,13 @@ root(ROOTS.NeverImplemented, {
 				i(21549),	-- Monster - Shield, Shieldguard
 				i(21572),	-- Monster - Shield, Alliance PVP
 				i(23356),	-- Monster - Shield, Skullflame
+			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(179606),	-- Ardenweald Quest Shield
+					i(178028),	-- Gormwrought Shield
+					i(178458),	-- zzzRated - Weapon - Shield
+				}),
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
@@ -317,6 +367,13 @@ root(ROOTS.NeverImplemented, {
 					i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
 				}),
 			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178026),	-- Gormwrought Staff
+					i(178669),	-- UNUSED - Unrated - Weapon - Staff AGI
+					i(178454),	-- zzzRated - Weapon - Staff Caster
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189674),	-- 10.0 Dungeon Template - Staff - Agi - 2 Hand
@@ -345,6 +402,13 @@ root(ROOTS.NeverImplemented, {
 				i(21580),	-- Monster - 2H Axe, Horde PvP
 				i(22199),	-- Monster - Axe, 2H Arcanite Reaper
 			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(176005),	-- UNUSED - Rated - Weapon - 2H Axe Melee
+					i(178395),	-- UNUSED - Rated - Weapon - 2H Axe Melee
+					i(178456),	-- zzzRated - Weapon - 2H Axe Melee
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189697),	-- 10.0 Dungeon Template - Axe2H - Str - 2 Hand
@@ -364,6 +428,11 @@ root(ROOTS.NeverImplemented, {
 			expansion(EXPANSION.MOP, {
 				n(P5xx, {
 					i(90280),	-- Landfall Burnished Greaves
+				}),
+			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178667),	-- UNUSED - Unrated - Weapon - 2H Mace STR
 				}),
 			}),
 			expansion(EXPANSION.DF, {
@@ -396,6 +465,13 @@ root(ROOTS.NeverImplemented, {
 				i(228607),	-- Monster - Sword2H, Basic
 				-- #endif
 			}),
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(176006),	-- UNUSED - Rated - Weapon - 2H Sword Melee
+					i(178396),	-- UNUSED - Rated - Weapon - 2H Sword Melee
+					i(178457),	-- zzzRated - Weapon - 2H Sword Melee
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189355),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
@@ -421,6 +497,11 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			-- #endif
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(172461),	-- Eternal Twilight Wand
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189702),	-- 10.0 Dungeon Template - Wand - RangedRight
@@ -434,6 +515,11 @@ root(ROOTS.NeverImplemented, {
 			}),
 		}),
 		filter(WARGLAIVES, {
+			expansion(EXPANSION.SL, {
+				expansion(EXPANSION.SL, patch(0,1), {
+					i(178460),	-- zzzRated - Weapon - Warglaive
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189676),	-- 10.0 Dungeon Template - Warglaives - Weapon
@@ -447,41 +533,9 @@ root(ROOTS.NeverImplemented, {
 	}),
 	n(WEAPONS, {
 		-- 9.0.1
-		i(179501),	-- Ardenweald Dagger
-		i(179606),	-- Ardenweald Quest Shield
-		i(172461),	-- Eternal Twilight Wand
-		i(178028),	-- Gormwrought Shield
-		i(178026),	-- Gormwrought Staff
 		i(175991),	-- Grove Defender's Focus
 		i(180492),	-- Nethrezim Spire
-		i(178401),	-- UNUSED - Rated - Weapon - 1H Mace Caster
-		i(176011),	-- UNUSED - Rated - Weapon - 1H Mace Caster
-		i(176001),	-- UNUSED - Rated - Weapon - 1H Mace Melee
-		i(178391),	-- UNUSED - Rated - Weapon - 1H Mace Melee
-		i(176005),	-- UNUSED - Rated - Weapon - 2H Axe Melee
-		i(178395),	-- UNUSED - Rated - Weapon - 2H Axe Melee
-		i(176006),	-- UNUSED - Rated - Weapon - 2H Sword Melee
-		i(178396),	-- UNUSED - Rated - Weapon - 2H Sword Melee
-		i(178400),	-- UNUSED - Rated - Weapon - Dagger Caster
-		i(176010),	-- UNUSED - Rated - Weapon - Dagger Caster
-		i(178666),	-- UNUSED - Unrated - Weapon - 1H Mace Melee
-		i(178667),	-- UNUSED - Unrated - Weapon - 2H Mace STR
-		i(178669),	-- UNUSED - Unrated - Weapon - Staff AGI
 		i(173044),	-- Wreathed Fishing Pole
-		i(178449),	-- zzzRated - Weapon - 1H Axe Melee
-		i(178462),	-- zzzRated - Weapon - 1H Mace Caster
-		i(178452),	-- zzzRated - Weapon - 1H Mace Melee
-		i(178455),	-- zzzRated - Weapon - 1H Sword Melee
-		i(178456),	-- zzzRated - Weapon - 2H Axe Melee
-		i(178457),	-- zzzRated - Weapon - 2H Sword Melee
-		i(178450),	-- zzzRated - Weapon - Bow
-		i(178451),	-- zzzRated - Weapon - Dagger Agi
-		i(178461),	-- zzzRated - Weapon - Dagger Caster
-		i(178459),	-- zzzRated - Weapon - Offhand
-		i(178453),	-- zzzRated - Weapon - Polearm Agi
-		i(178458),	-- zzzRated - Weapon - Shield
-		i(178454),	-- zzzRated - Weapon - Staff Caster
-		i(178460),	-- zzzRated - Weapon - Warglaive
 		-- 9.2.0
 		i(190392),	-- Pocopoc Shield
 		i(184231),	-- 9.0 Covenant - Bastion - Weapon - Warglaive AGI - Blue
