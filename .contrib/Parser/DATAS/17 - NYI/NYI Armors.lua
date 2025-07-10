@@ -763,6 +763,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 	expansion(EXPANSION.MOP, {
 		filter(CLOTH, {
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(83360),	-- 5.0 QA PVP Test Caster DPS Belt
+				i(83361),	-- 5.0 QA PVP Test Caster DPS Belt 2
+				i(83362),	-- 5.0 QA PVP Test Caster DPS Belt 3
 				i(83365),	-- 5.0 QA PVP Test Caster DPS Bracer
 				i(83366),	-- 5.0 QA PVP Test Caster DPS Bracer 2
 				i(83376),	-- 5.0 QA PVP Test Caster DPS Legs
@@ -772,10 +775,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83391),	-- 5.0 QA PVP Test Caster DPS Robes 3
 				i(83392),	-- 5.0 QA PVP Test Caster DPS Shoulders
 				i(83393),	-- 5.0 QA PVP Test Caster DPS Shoulders 2
+				i(83523),	-- 5.0 QA PVP Test Priest Healer Belt
+				i(83524),	-- 5.0 QA PVP Test Priest Healer Belt 2
 				i(83526),	-- 5.0 QA PVP Test Priest Healer Bracer
 				i(83527),	-- 5.0 QA PVP Test Priest Healer Bracer 2
 				i(83535),	-- ???
 				i(83536),	-- ???
+				i(83537),	-- ???
+				i(83538),	-- ???
 				i(77506),	-- Art Template Cloth Wrist - Cloth_PanStart_A_01 - Default
 				i(79795),	-- QA Combat Test Caster DPS Bracer 2
 				i(79799),	-- QA Combat Test Priest Healer Bracer 2
