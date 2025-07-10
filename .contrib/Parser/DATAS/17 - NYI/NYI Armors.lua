@@ -239,6 +239,16 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(37420),	-- Sharkproof Boots
 				i(41758),	-- Blood-Bond Helm
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206725),	-- Wolvar Armor
+				i(206735),	-- Wolvar Armor
+				i(206724),	-- Wolvar Greaves
+				i(206736),	-- Wolvar Greaves
+				i(206718),	-- Wolvar Bindings
+				i(206730),	-- Wolvar Bindings
+			}),
+			-- #endif
 			n(P3xx, {
 				i(37454),	-- HF28 Mail Physical Chest4
 				i(38527),	-- Onslaught Scalemail Hauberk
@@ -488,6 +498,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			})
 		}),
 		filter(MAIL, {
+			expansion(EXPANSION.CATA, patch(0,1), {
+				i(44428),	-- Dark Frostscale Chestpiece
+			}),
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(63002),	-- Bat Claw Boots
 				i(54551),	-- Defiant Bracers
@@ -819,6 +832,11 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(MAIL, {
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(83563),	-- 5.0 QA PVP Test Shaman Healer Chest
+				i(83564),	-- 5.0 QA PVP Test Shaman Healer Chest 2
+				i(83565),	-- 5.0 QA PVP Test Shaman Healer Chest 3
+				i(79789),	-- QA Combat Test Shaman Healer Chest 3
+				--
 				i(80947),	-- Peacebreaker's Chain Helm
 				i(80951),	-- Peacebreaker's Ringmail Helm
 				i(80987),	-- Scavenger's Chain Spaulders
