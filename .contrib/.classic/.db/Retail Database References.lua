@@ -65,6 +65,7 @@
 
 -- Character
 -- #IMPORT: 11 - Character\\Achievements.lua
+-- #IMPORT: 11 - Character\\Class Trials\\03 - Wrath of the Lich King
 -- #IMPORT: 11 - Character\\Factions.lua
 -- #IMPORT: 11 - Character\\Guild.lua
 -- #IMPORT: 11 - Character\\Lore.lua

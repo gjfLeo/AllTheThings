@@ -1,6 +1,8 @@
 -----------------------------------------------------
 --        P R O M O T I O N S   M O D U L E        --
 -----------------------------------------------------
+
+-- #if NOT ANYCLASSIC
 SCROLL_OF_RESURRECTION = createHeader({
 	readable = "Scroll of Resurrection",
 	icon = [[~_.asset("Promotion_Scroll_of_Rez")]],
@@ -13,8 +15,7 @@ SCROLL_OF_RESURRECTION = createHeader({
 		mx = "Los siguientes conjuntos de objetos se implementaron como recompensas de mejoras de personaje para los receptores del Pergamino de la Resurrección.\n\nPosteriormente, se añadieron a los vendedores del Monte Hyjal y Vash'jir una vez que se retiró el Servicio del Pergamino de la Resurrección.",
 	},
 });
-root(ROOTS.Promotions, applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(SCROLL_OF_RESURRECTION, {
-	-- #if NOT ANYCLASSIC
+root(ROOTS.Promotions, n(SCROLL_OF_RESURRECTION, {
 	["timeline"] = { ADDED_4_3_0, REMOVED_5_3_0 },
 	["groups"] = {
 		cl(DEATHKNIGHT, {
@@ -438,5 +439,5 @@ root(ROOTS.Promotions, applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(SCROLL_O
 			},
 		}))),
 	},
-	-- #endif
-})));
+}));
+-- #endif

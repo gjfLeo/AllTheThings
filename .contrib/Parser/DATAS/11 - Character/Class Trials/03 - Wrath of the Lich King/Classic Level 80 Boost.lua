@@ -1,6 +1,6 @@
+-- #if ANYCLASSIC
 root(ROOTS.Character, n(CLASS_TRIAL, {
 	expansion(EXPANSION.WRATH, bubbleDown({["u"] = REMOVED_FROM_GAME}, {
-		-- #if ANYCLASSIC
 		["groups"] = {
 			--[[cl(DEATHKNIGHT, {
 				i(72994),	-- Ebonsoul Blade
@@ -375,6 +375,6 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				-- #endif
 			}),
 		},
-		-- #endif
 	})),
 }));
+-- #endif
