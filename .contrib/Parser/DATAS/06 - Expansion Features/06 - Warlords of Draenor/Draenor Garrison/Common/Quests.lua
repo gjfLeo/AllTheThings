@@ -2662,6 +2662,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 					crit(27579, {
 						["achievementID"] = 9825,	-- Master Relic Hunter (A)
 					}),
+					i(122103),	-- Empowered Gronnsbane (QI!)
 				},
 			}),
 			q(37995, {	-- Gronnsbane: The Blessing of Beasts (H)
