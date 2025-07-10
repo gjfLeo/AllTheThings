@@ -4530,7 +4530,15 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_8_1_5 },
 					["lvl"] = 50,
 					["g"] = {
-						i(167232),	-- Mechanical Parts (QI!)
+						objective(1, {	-- 0/100 Mechanical Parts
+							["provider"] = { "i", 167232 },	-- Mechanical Parts (QI!)
+							["coord"] = { 62.6, 45.0, TANARIS },
+							["crs"] = {
+								151150,	-- Venture Salvager <Venture Co.>
+								151152,	-- Venture Overseer <Venture Co.>
+								151151,	-- Venture Oaf <Venture Co.>
+							},
+						}),
 					},
 				}),
 				q(8366, {	-- Southsea Shakedown
@@ -4735,7 +4743,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				q(25421, {	-- The Grand Tablet (A)
-					["provider"] = { "o", 202474 },	-- Antediluvean Chest
+					["providers"] = {
+						{ "o", 202474 },	-- Antediluvean Chest
+						{ "i",  52470 },	-- The Grand Tablet (QI!)
+					},
 					["coord"] = { 37.8, 84.1, TANARIS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -4749,12 +4760,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(56899, {	-- Rosy Tablet Belt
 							["timeline"] = { ADDED_4_0_3 },
 						}),
-						--
-						i(52470),	-- The Grand Tablet (QI!)
 					},
 				}),
 				q(25107, {	-- The Grand Tablet (H)
-					["provider"] = { "o", 202474 },	-- Antediluvean Chest
+					["providers"] = {
+						{ "o", 202474 },	-- Antediluvean Chest
+						{ "i",  52470 },	-- The Grand Tablet (QI!)
+					},
 					["coord"] = { 37.8, 84.1, TANARIS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
@@ -4768,8 +4780,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						i(56902, {	-- Rosy Tablet Belt
 							["timeline"] = { ADDED_4_0_3 },
 						}),
-						--
-						i(52470),	-- The Grand Tablet (QI!)
 					},
 				}),
 				q(2773, {	-- The Mithril Kid
