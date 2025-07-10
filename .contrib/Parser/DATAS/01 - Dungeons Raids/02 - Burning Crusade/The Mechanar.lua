@@ -28,7 +28,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				}),
 				q(29659, {	-- Lost Treasure
 					["qg"] = 18481,	-- A'dal
-					-- #if ANYCLASSIC
+					-- #if BEFORE MOP
 					["description"] = "Blizzard broke the cache of the legion with Cataclysm Classic by removing the keys and not adding the automatic unlock from killing the mini bosses.",
 					["isBounty"] = true,
 					-- #else
@@ -40,9 +40,8 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					-- #endif
 					["timeline"] = {
 						ADDED_4_3_0,
-						-- #if ANYCLASSIC
 						REMOVED_4_3_0,
-						-- #endif
+						ADDED_5_0_4,
 					},
 					["lvl"] = lvlsquish(67, 67, 20),
 					["groups"] = {
@@ -99,7 +98,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			o(184465, bubbleDownSelf({
 				-- #if BEFORE MOP
-				["timeline"] = { REMOVED_4_0_3, ADDED_5_0_3 },
+				["timeline"] = { REMOVED_4_0_3, ADDED_5_0_4 },
 				["isBounty"] = true,
 				-- #endif
 			}, {	-- Cache of the Legion
