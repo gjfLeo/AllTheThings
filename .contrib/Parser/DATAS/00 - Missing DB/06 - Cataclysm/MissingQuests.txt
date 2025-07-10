@@ -16,10 +16,8 @@ q(13996),	-- Can You Get This Quest While I'm In Combat?
 q(14000),	-- Hunt or Be Hunted
 q(14002),	-- A Job for a Bloodhound
 q(14007),	-- Steady Shot	 CATA:Steady Shot	 MOP:Steady Shot
-q(14008),	-- Frost Nova	 CATA:Arcane Missiles	 MOP:Arcane Missiles
 q(14009),	-- Learning the Word	 CATA:Flash Heal	 MOP:Flash Heal
 q(14010),	-- Eviscerate	 CATA:Eviscerate	 MOP:Eviscerate
-q(14011),	-- Primal Strike	 CATA:Primal Strike	 MOP:Primal Strike
 q(14012),	-- Corruption	 CATA:Immolate	 MOP:Immolate
 q(14013),	-- Charge	 CATA:Charge	 MOP:Charge
 q(14015),	-- Incomplete Cartography
@@ -55,33 +53,18 @@ q(24466),	-- Battle Shout
 q(24481),	-- Rockbiter Weapon
 q(24482),	-- Power Word: Fortitude
 q(24485),	-- Seal of Righteousness
-q(24494),	-- Empowered Rune	 CATA:Empowered Rune	 MOP:Empowered Rune
-q(24527),	-- Your Path Begins Here	 CATA:Your Path Begins Here	 MOP:Your Path Begins Here
-q(24530),	-- Oh, A Hunter's Life For Me	 CATA:Oh, A Hunter's Life For Me	 MOP:Oh, A Hunter's Life For Me
-q(24531),	-- Getting Battle-Ready	 CATA:Getting Battle-Ready	 MOP:Getting Battle-Ready
 q(24544),	-- Paul Test Quest
-q(24640),	-- The Arts of a Warrior	 CATA:The Arts of a Warrior	 MOP:The Arts of a Warrior
 q(24696),	-- Un'Goro: PRK - E - Shizzle's Flyer 02 - Testing It Out
 q(24738),	-- Williden's Journal
 q(24739),	-- Expedition Salvation
-q(24760),	-- The Arts of a Shaman	 CATA:The Arts of a Shaman	 MOP:The Arts of a Shaman
-q(24766),	-- The Arts of a Druid	 CATA:The Arts of a Druid	 MOP:The Arts of a Druid
-q(24772),	-- The Arts of a Rogue	 CATA:The Arts of a Rogue	 MOP:The Arts of a Rogue
-q(24778),	-- The Arts of a Hunter	 CATA:The Arts of a Hunter	 MOP:The Arts of a Hunter
-q(24784),	-- Learnin' tha Word	 CATA:The Arts of a Priest	 MOP:The Arts of a Priest
 q(24860),	-- Profitable Preservation
 q(24900),	-- Blueleaf Tubers
 q(24935),	-- Body And Soul
-q(24962),	-- Trail-Worn Scroll	 CATA:Trail-Worn Scroll	 MOP:Trail-Worn Scroll
-q(24964),	-- The Thrill of the Hunt	 CATA:The Thrill of the Hunt	 MOP:The Thrill of the Hunt
 q(24967),	-- Stab!	 CATA:Stab!	 MOP:Stab!
-q(24968),	-- Dark Deeds	 CATA:Dark Deeds	 MOP:Dark Deeds
-q(24969),	-- Charging into Battle	 CATA:Charging into Battle	 MOP:Charging into Battle
 q(24984),	-- The Prodigal Lich
 q(24985),	-- Proving Allegiance
 q(24986),	-- The Prodigal Lich Returns
 q(24987),	-- Dark Lady, Watch Over Us
-q(25016),	-- FLAG - Training Complete
 q(25076),	-- Taming the Beast
 q(25077),	-- Taming the Beast
 q(25078),	-- Taming the Beast
@@ -94,20 +77,12 @@ q(25114),	-- [DEPRECATED]Basilisk Poaching: Gazer Guts
 q(25116),	-- [DEPRECATED]Hyena Poaching: Rabid Livers
 q(25119),	-- Impulse Hunting
 q(25137),	-- Valley of Trials: PRK - H - Warlock Pet Imp
-q(25138),	-- Glyphic Parchment	 CATA:Glyphic Parchment	 MOP:Glyphic Parchment
-q(25139),	-- Steady Shot	 CATA:Steady Shot	 MOP:Steady Shot
 q(25140),	-- Swine Hunting
-q(25141),	-- Eviscerate	 CATA:Eviscerate	 MOP:Eviscerate
 q(25142),	-- Into the Shadows
-q(25143),	-- Primal Strike	 CATA:Primal Strike	 MOP:Primal Strike
 q(25144),	-- Rock Meets Flesh
-q(25145),	-- Corruption	 CATA:Immolate	 MOP:Immolate
 q(25146),	-- A Demonic Fire
-q(25147),	-- Charge	 CATA:Charge	 MOP:Charge
 q(25148),	-- Hone Your Holler
-q(25149),	-- Frost Nova	 CATA:Arcane Missiles	 MOP:Arcane Missiles
 q(25150),	-- Empowered Minds
-q(25189),	-- Spirits Be Praised	 CATA:Spirits Be Praised	 MOP:Spirits Be Praised
 q(25225),	-- Oil Change
 q(25231),	-- Southseas Scum
 q(25302),	-- Remnants of Battle
@@ -149,7 +124,6 @@ q(26239),	-- <PH>Wildhammer Totems
 q(26242),	-- Deepholm, Plane of Earth
 q(26253),	-- Preserve the Evidence
 q(26262),	-- Twilight Armaments
-q(26274),	-- The Arts of a Warlock	 CATA:The Arts of a Warlock	 MOP:The Arts of a Warlock
 q(26392),	-- Voucher of Bravery
 q(26458),	-- Twilight Falls
 q(26459),	-- Researching the Corruption
@@ -162,7 +136,6 @@ q(26715),	-- Malfurion Stormrage	 CATA:Malfurion Stormrage	 MOP:Malfurion Stormr
 q(26716),	-- A Bit of Privacy
 q(26789),	-- You no take axe!	 CATA:You no take axe!	 MOP:You no take axe!
 q(26790),	-- Magmadar Must Die!
-q(26841),	-- Forbidden Sigil	 CATA:Forbidden Sigil	 MOP:Forbidden Sigil
 q(26847),	-- The Quaking Fields
 q(26848),	-- X Marks the Spot
 q(26849),	-- The Axe of Earthly Sundering
@@ -174,19 +147,8 @@ q(26859),	-- Searching for the Lost Satchel
 q(26877),	-- The Fragment's Inside
 q(26880),	-- Gilneas City Unphase Cheat
 q(26900),	-- Agamaggan
-q(26940),	-- Frost Nova	 CATA:Arcane Missiles	 MOP:Arcane Missiles
-q(26945),	-- Learning New Techniques	 CATA:Learning New Techniques	 MOP:Learning New Techniques
-q(26946),	-- A Rogue's Advantage	 CATA:A Rogue's Advantage	 MOP:A Rogue's Advantage
-q(26947),	-- A Woodsman's Training	 CATA:A Woodsman's Training	 MOP:A Woodsman's Training
-q(26948),	-- Moonfire	 CATA:Rejuvenating Touch	 MOP:Rejuvenating Touch
 q(26990),	-- Water They Up To?	 CATA:Water They Up To?	 MOP:Water They Up To?
-q(27020),	-- The First Lesson	 CATA:The First Lesson	 MOP:The First Lesson
-q(27021),	-- The Hunter's Path	 CATA:The Hunter's Path	 MOP:The Hunter's Path
-q(27023),	-- The Way of the Sunwalkers	 CATA:The Way of the Sunwalkers	 MOP:The Way of the Sunwalkers
-q(27027),	-- Primal Strike	 CATA:Primal Strike	 MOP:Primal Strike
 q(27052),	-- Lingering Twilight
-q(27066),	-- Learning the Word	 CATA:Healing in a Flash	 MOP:Healing in a Flash
-q(27067),	-- Moonfire	 CATA:Rejuvenating Touch	 MOP:Rejuvenating Touch
 q(27081),	-- [DEPRECATED]Trusting the Traitor
 q(27122),	-- Fired Up and Not So Good To Go.	 CATA:Fired Up and Not So Good To Go.	 MOP:Fired Up and Not So Good To Go.
 q(27127),	-- Fired Up and Not So Good To Go.	 CATA:Fired Up and Not So Good To Go.	 MOP:Fired Up and Not So Good To Go.

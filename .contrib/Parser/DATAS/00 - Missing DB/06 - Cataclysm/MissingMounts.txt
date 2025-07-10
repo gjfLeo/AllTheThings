@@ -4,7 +4,6 @@ mount(100332),	-- Vicious War Steed
 mount(100333),	-- Vicious War Wolf
 mount(107516),	-- Spectral Gryphon
 mount(107517),	-- Spectral Wind Rider
-mount(110051),	-- Heart of the Aspects
 mount(121820),	-- Obsidian Nightwing
 
 

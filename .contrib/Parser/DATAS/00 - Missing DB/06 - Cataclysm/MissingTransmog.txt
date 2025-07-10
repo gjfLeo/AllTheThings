@@ -427,7 +427,6 @@ s(203767)/i(55307),	-- maul Bow \\ Rustmaul Bow
 s(203776)/i(55316),	-- owmurk Cloak \\ Sorrowmurk Cloak
 s(203785)/i(55325),	-- maul Crossbow \\ Rustmaul Crossbow
 s(203794)/i(55334),	-- maul Dagger \\ Rustmaul Dagger
-s(203803)/i(55343),	-- maul Staff \\ Rustmaul Staff
 s(203812)/i(55352),	-- maul Knuckles \\ Rustmaul Knuckles
 s(203821)/i(55361),	-- maul Gun \\ Rustmaul Gun
 s(203830)/i(55370),	-- owmurk Scepter \\ Sorrowmurk Scepter
@@ -435,9 +434,7 @@ s(203839)/i(55379),	-- owmurk Crystal \\ Sorrowmurk Crystal
 s(203848)/i(55388),	-- maul Mace \\ Rustmaul Mace
 s(203857)/i(55397),	-- maul Hammer \\ Rustmaul Hammer
 s(203866)/i(55415),	-- maul Spear \\ Rustmaul Spear
-s(203875)/i(55433),	-- lgrill Shield \\ Steelgrill Shield
 s(203884)/i(55442),	-- owmurk Spellblade \\ Sorrowmurk Spellblade
-s(203893)/i(55451),	-- maul Staff \\ Rustmaul Staff
 s(203902)/i(55460),	-- maul Sword \\ Rustmaul Sword
 s(203911)/i(55469),	-- maul Greatsword \\ Rustmaul Greatsword
 s(203912)/i(55470),	-- rwind Knives \\ Razorwind Knives
@@ -450,38 +447,6 @@ s(203918)/i(55476),	-- efist Knives \\ Bladefist Knives
 s(203919)/i(55477),	-- tree Knives \\ Irontree Knives
 s(203920)/i(55478),	-- maul Knives \\ Rustmaul Knives
 s(203929)/i(55487),	-- owmurk Wand \\ Sorrowmurk Wand
-s(203938)/i(55496),	-- lgrill Vambraces \\ Steelgrill Vambraces
-s(203947)/i(55505),	-- lgrill Breastplate \\ Steelgrill Breastplate
-s(203956)/i(55514),	-- lgrill Sabatons \\ Steelgrill Sabatons
-s(203965)/i(55523),	-- lgrill Gauntlets \\ Steelgrill Gauntlets
-s(203974)/i(55532),	-- lgrill Helm \\ Steelgrill Helm
-s(203983)/i(55541),	-- lgrill Legplates \\ Steelgrill Legplates
-s(203992)/i(55550),	-- lgrill Pauldrons \\ Steelgrill Pauldrons
-s(204001)/i(55559),	-- lgrill Girdle \\ Steelgrill Girdle
-s(204010)/i(55568),	-- feather Bracers \\ Frayfeather Bracers
-s(204019)/i(55577),	-- feather Vest \\ Frayfeather Vest
-s(204028)/i(55586),	-- feather Greaves \\ Frayfeather Greaves
-s(204037)/i(55595),	-- feather Gauntlets \\ Frayfeather Gauntlets
-s(204046)/i(55604),	-- feather Helm \\ Frayfeather Helm
-s(204055)/i(55613),	-- feather Legguards \\ Frayfeather Legguards
-s(204064)/i(55622),	-- feather Spaulders \\ Frayfeather Spaulders
-s(204073)/i(55631),	-- feather Belt \\ Frayfeather Belt
-s(204082)/i(55640),	-- thaven Bindings \\ Nighthaven Bindings
-s(204091)/i(55649),	-- thaven Jerkin \\ Nighthaven Jerkin
-s(204100)/i(55658),	-- thaven Boots \\ Nighthaven Boots
-s(204109)/i(55667),	-- thaven Gloves \\ Nighthaven Gloves
-s(204118)/i(55676),	-- thaven Hood \\ Nighthaven Hood
-s(204127)/i(55685),	-- thaven Britches \\ Nighthaven Britches
-s(204136)/i(55694),	-- thaven Shoulders \\ Nighthaven Shoulders
-s(204145)/i(55703),	-- thaven Waistband \\ Nighthaven Waistband
-s(204154)/i(55712),	-- rdell Wristwraps \\ Galardell Wristwraps
-s(204163)/i(55721),	-- rdell Robe \\ Galardell Robe
-s(204172)/i(55730),	-- rdell Sandals \\ Galardell Sandals
-s(204181)/i(55739),	-- rdell Handwraps \\ Galardell Handwraps
-s(204190)/i(55748),	-- rdell Cowl \\ Galardell Cowl
-s(204199)/i(55757),	-- rdell Leggings \\ Galardell Leggings
-s(204208)/i(55766),	-- rdell Shoulderpads \\ Galardell Shoulderpads
-s(204217)/i(55775),	-- rdell Cord \\ Galardell Cord
 s(204247)/i(55825),	-- test for lecraft
 s(204356)/i(56001),	-- hing Thorns \\ Slashing Thorns
 s(204358)/i(56015),	-- TEST - holdable price
@@ -3965,14 +3930,6 @@ s(214018)/i(72614),	-- Art Template Cloth Head - Robe_PVPWarlock_D_01 - Green
 s(214019)/i(72615),	-- Art Template Cloth Legs - Robe_PVPWarlock_D_01 - Green
 s(214020)/i(72616),	-- Art Template Cloth Robe - Robe_PVPWarlock_D_01 - Green
 s(214022)/i(72618),	-- Art Template Cloth Wrist - Robe_PVPWarlock_D_01 - Green
-s(214023)/i(72621),	-- soul Robe \\ Magesoul Robe
-s(214024)/i(72622),	-- soul Sandals \\ Magesoul Sandals
-s(214025)/i(72623),	-- soul Handwraps \\ Magesoul Handwraps
-s(214026)/i(72624),	-- soul Hood \\ Magesoul Hood
-s(214027)/i(72625),	-- soul Leggings \\ Magesoul Leggings
-s(214028)/i(72626),	-- soul Shoulderpads \\ Magesoul Shoulderpads
-s(214029)/i(72627),	-- soul Cord \\ Magesoul Cord
-s(214030)/i(72628),	-- soul Wristwraps \\ Magesoul Wristwraps
 s(214031)/i(72629),	-- Art Template Cloth Belt - Robe_PVPWarlock_D_01 - Orange
 s(214032)/i(72630),	-- Art Template Cloth Boot - Robe_PVPWarlock_D_01 - Orange
 s(214033)/i(72631),	-- Art Template Cloth Chest - Robe_PVPWarlock_D_01 - Orange
@@ -3981,94 +3938,6 @@ s(214035)/i(72633),	-- Art Template Cloth Head - Robe_PVPWarlock_D_01 - Orange
 s(214036)/i(72634),	-- Art Template Cloth Legs - Robe_PVPWarlock_D_01 - Orange
 s(214037)/i(72635),	-- Art Template Cloth Robe - Robe_PVPWarlock_D_01 - Orange
 s(214039)/i(72637),	-- Art Template Cloth Wrist - Robe_PVPWarlock_D_01 - Orange
-s(214040)/i(72638),	-- dsoul Sandals \\ Dreadsoul Sandals
-s(214041)/i(72639),	-- dsoul Handwraps \\ Dreadsoul Handwraps
-s(214042)/i(72640),	-- dsoul Cowl \\ Dreadsoul Cowl
-s(214043)/i(72641),	-- dsoul Leggings \\ Dreadsoul Leggings
-s(214044)/i(72642),	-- dsoul Robe \\ Dreadsoul Robe
-s(214045)/i(72643),	-- dsoul Shoulderpads \\ Dreadsoul Shoulderpads
-s(214046)/i(72644),	-- dsoul Cord \\ Dreadsoul Cord
-s(214047)/i(72645),	-- dsoul Wristwraps \\ Dreadsoul Wristwraps
-s(214048)/i(72646),	-- phic Boots \\ Seraphic Boots
-s(214049)/i(72647),	-- phic Gloves \\ Seraphic Gloves
-s(214050)/i(72648),	-- phic Cowl \\ Seraphic Cowl
-s(214051)/i(72649),	-- phic Pants \\ Seraphic Pants
-s(214052)/i(72650),	-- phic Robe \\ Seraphic Robe
-s(214053)/i(72651),	-- phic Mantle \\ Seraphic Mantle
-s(214054)/i(72652),	-- phic Sash \\ Seraphic Sash
-s(214055)/i(72653),	-- phic Bindings \\ Seraphic Bindings
-s(214056)/i(72655),	-- phic Sandals \\ Seraphic Sandals
-s(214057)/i(72656),	-- phic Handwraps \\ Seraphic Handwraps
-s(214058)/i(72657),	-- phic Hood \\ Seraphic Hood
-s(214059)/i(72658),	-- phic Leggings \\ Seraphic Leggings
-s(214060)/i(72659),	-- phic Vestments \\ Seraphic Vestments
-s(214061)/i(72660),	-- phic Shoulderpads \\ Seraphic Shoulderpads
-s(214062)/i(72661),	-- phic Cord \\ Seraphic Cord
-s(214063)/i(72662),	-- phic Wristwraps \\ Seraphic Wristwraps
-s(214064)/i(72664),	-- owstalking Jerkin \\ Shadowstalking Jerkin
-s(214065)/i(72665),	-- owstalking Boots \\ Shadowstalking Boots
-s(214066)/i(72666),	-- owstalking Gloves \\ Shadowstalking Gloves
-s(214067)/i(72667),	-- owstalking Hood \\ Shadowstalking Hood
-s(214068)/i(72668),	-- owstalking Britches \\ Shadowstalking Britches
-s(214069)/i(72669),	-- owstalking Shoulders \\ Shadowstalking Shoulders
-s(214070)/i(72670),	-- owstalking Waistband \\ Shadowstalking Waistband
-s(214071)/i(72671),	-- owstalking Bindings \\ Shadowstalking Bindings
-s(214072)/i(72672),	-- soul Vest \\ Wildsoul Vest
-s(214073)/i(72673),	-- soul Footpads \\ Wildsoul Footpads
-s(214074)/i(72674),	-- soul Handguards \\ Wildsoul Handguards
-s(214075)/i(72675),	-- soul Helm \\ Wildsoul Helm
-s(214076)/i(72676),	-- soul Legguards \\ Wildsoul Legguards
-s(214077)/i(72677),	-- soul Pauldrons \\ Wildsoul Pauldrons
-s(214078)/i(72678),	-- soul Cord \\ Wildsoul Cord
-s(214079)/i(72679),	-- soul Cuffs \\ Wildsoul Cuffs
-s(214080)/i(72681),	-- soul Jerkin \\ Wildsoul Jerkin
-s(214081)/i(72682),	-- soul Boots \\ Wildsoul Boots
-s(214082)/i(72683),	-- soul Gloves \\ Wildsoul Gloves
-s(214083)/i(72684),	-- soul Hood \\ Wildsoul Hood
-s(214084)/i(72685),	-- soul Britches \\ Wildsoul Britches
-s(214085)/i(72686),	-- soul Shoulders \\ Wildsoul Shoulders
-s(214086)/i(72687),	-- soul Waistband \\ Wildsoul Waistband
-s(214087)/i(72688),	-- soul Bindings \\ Wildsoul Bindings
-s(214088)/i(72689),	-- soul Tunic \\ Wildsoul Tunic
-s(214089)/i(72690),	-- soul Treads \\ Wildsoul Treads
-s(214090)/i(72691),	-- soul Grips \\ Wildsoul Grips
-s(214091)/i(72692),	-- soul Headpiece \\ Wildsoul Headpiece
-s(214092)/i(72693),	-- soul Leggings \\ Wildsoul Leggings
-s(214093)/i(72694),	-- soul Spaulders \\ Wildsoul Spaulders
-s(214094)/i(72695),	-- soul Belt \\ Wildsoul Belt
-s(214095)/i(72696),	-- soul Bracers \\ Wildsoul Bracers
-s(214097)/i(72698),	-- mbinder Chestguard \\ Stormbinder Chestguard
-s(214098)/i(72699),	-- mbinder Greaves \\ Stormbinder Greaves
-s(214099)/i(72700),	-- mbinder Gauntlets \\ Stormbinder Gauntlets
-s(214100)/i(72701),	-- mbinder Helm \\ Stormbinder Helm
-s(214101)/i(72702),	-- mbinder Legguards \\ Stormbinder Legguards
-s(214102)/i(72703),	-- mbinder Shoulderguards \\ Stormbinder Shoulderguards
-s(214103)/i(72704),	-- mbinder Waistguard \\ Stormbinder Waistguard
-s(214104)/i(72705),	-- mbinder Armguard \\ Stormbinder Armguard
-s(214189)/i(72889),	-- mbinder Tunic \\ Stormbinder Tunic
-s(214190)/i(72890),	-- mbinder Boots \\ Stormbinder Boots
-s(214191)/i(72891),	-- mbinder Gloves \\ Stormbinder Gloves
-s(214192)/i(72892),	-- mbinder Coif \\ Stormbinder Coif
-s(214193)/i(72893),	-- mbinder Legwraps \\ Stormbinder Legwraps
-s(214194)/i(72894),	-- mbinder Pauldrons \\ Stormbinder Pauldrons
-s(214195)/i(72895),	-- mbinder Belt \\ Stormbinder Belt
-s(214196)/i(72896),	-- mbinder Armbands \\ Stormbinder Armbands
-s(214197)/i(72902),	-- mbinder Vest \\ Stormbinder Vest
-s(214198)/i(72903),	-- mbinder Sabatons \\ Stormbinder Sabatons
-s(214199)/i(72904),	-- mbinder Grips \\ Stormbinder Grips
-s(214200)/i(72905),	-- mbinder Cowl \\ Stormbinder Cowl
-s(214201)/i(72906),	-- mbinder Leggings \\ Stormbinder Leggings
-s(214202)/i(72907),	-- mbinder Spaulders \\ Stormbinder Spaulders
-s(214203)/i(72908),	-- mbinder Girdle \\ Stormbinder Girdle
-s(214204)/i(72909),	-- mbinder Bracers \\ Stormbinder Bracers
-s(214205)/i(72910),	-- tsoul Vest \\ Beastsoul Vest
-s(214206)/i(72911),	-- tsoul Greaves \\ Beastsoul Greaves
-s(214207)/i(72912),	-- tsoul Gauntlets \\ Beastsoul Gauntlets
-s(214208)/i(72913),	-- tsoul Helm \\ Beastsoul Helm
-s(214209)/i(72914),	-- tsoul Legguards \\ Beastsoul Legguards
-s(214210)/i(72915),	-- tsoul Spaulders \\ Beastsoul Spaulders
-s(214211)/i(72916),	-- tsoul Belt \\ Beastsoul Belt
-s(214212)/i(72917),	-- tsoul Bracers \\ Beastsoul Bracers
 s(214213)/i(72918),	-- soul Breastplate \\ Ebonsoul Breastplate
 s(214214)/i(72919),	-- soul Sabatons \\ Ebonsoul Sabatons
 s(214215)/i(72920),	-- soul Gauntlets \\ Ebonsoul Gauntlets
@@ -4085,75 +3954,9 @@ s(214225)/i(72933),	-- soul Legguards \\ Ebonsoul Legguards
 s(214226)/i(72934),	-- soul Shoulderguards \\ Ebonsoul Shoulderguards
 s(214227)/i(72935),	-- soul Waistband \\ Ebonsoul Waistband
 s(214228)/i(72936),	-- soul Armguards \\ Ebonsoul Armguards
-s(214229)/i(72937),	-- ant Chestguard \\ Valiant Chestguard
-s(214230)/i(72938),	-- ant Greaves \\ Valiant Greaves
-s(214231)/i(72939),	-- ant Handguards \\ Valiant Handguards
-s(214232)/i(72940),	-- ant Faceguard \\ Valiant Faceguard
-s(214233)/i(72941),	-- ant Legguards \\ Valiant Legguards
-s(214234)/i(72942),	-- ant Shoulderguards \\ Valiant Shoulderguards
-s(214235)/i(72943),	-- ant Waistband \\ Valiant Waistband
-s(214236)/i(72944),	-- ant Armguards \\ Valiant Armguards
-s(214237)/i(72945),	-- ant Breastplate \\ Valiant Breastplate
-s(214238)/i(72946),	-- ant Sabatons \\ Valiant Sabatons
-s(214239)/i(72947),	-- ant Gauntlets \\ Valiant Gauntlets
-s(214240)/i(72948),	-- ant Helm \\ Valiant Helm
-s(214241)/i(72949),	-- ant Legplates \\ Valiant Legplates
-s(214242)/i(72950),	-- ant Pauldrons \\ Valiant Pauldrons
-s(214243)/i(72951),	-- ant Girdle \\ Valiant Girdle
-s(214244)/i(72952),	-- ant Vambraces \\ Valiant Vambraces
-s(214245)/i(72955),	-- ous Battleplate \\ Zealous Battleplate
-s(214246)/i(72956),	-- ous Sabatons \\ Zealous Sabatons
-s(214247)/i(72957),	-- ous Gauntlets \\ Zealous Gauntlets
-s(214248)/i(72958),	-- ous Helm \\ Zealous Helm
-s(214249)/i(72959),	-- ous Legplates \\ Zealous Legplates
-s(214250)/i(72960),	-- ous Pauldrons \\ Zealous Pauldrons
-s(214251)/i(72961),	-- ous Girdle \\ Zealous Girdle
-s(214252)/i(72962),	-- ous Vambraces \\ Zealous Vambraces
-s(214253)/i(72963),	-- ous Chestguard \\ Zealous Chestguard
-s(214254)/i(72964),	-- ous Greaves \\ Zealous Greaves
-s(214255)/i(72965),	-- ous Handguards \\ Zealous Handguards
-s(214256)/i(72966),	-- ous Faceguard \\ Zealous Faceguard
-s(214257)/i(72967),	-- ous Legguards \\ Zealous Legguards
-s(214258)/i(72968),	-- ous Shoulderguards \\ Zealous Shoulderguards
-s(214259)/i(72969),	-- ous Waistband \\ Zealous Waistband
-s(214260)/i(72970),	-- ous Armguards \\ Zealous Armguards
-s(214261)/i(72971),	-- ous Breastplate \\ Zealous Breastplate
-s(214262)/i(72972),	-- ous Boots \\ Zealous Boots
-s(214263)/i(72973),	-- ous Gloves \\ Zealous Gloves
-s(214264)/i(72974),	-- ous Headpiece \\ Zealous Headpiece
-s(214265)/i(72975),	-- ous Leggings \\ Zealous Leggings
-s(214266)/i(72976),	-- ous Spaulders \\ Zealous Spaulders
-s(214267)/i(72977),	-- ous Belt \\ Zealous Belt
-s(214268)/i(72978),	-- ous Armplates \\ Zealous Armplates
-s(214269)/i(72980),	-- ant Sword \\ Valiant Sword
-s(214270)/i(72981),	-- ous Sword \\ Zealous Sword
-s(214271)/i(72982),	-- ant Bulwark \\ Valiant Bulwark
-s(214272)/i(72983),	-- ous Bulwark \\ Zealous Bulwark
-s(214273)/i(72984),	-- ous Shield \\ Zealous Shield
-s(214274)/i(72989),	-- ous Scepter \\ Zealous Scepter
 s(214275)/i(72990),	-- soul Hammer \\ Ebonsoul Hammer
 s(214276)/i(72991),	-- soul Maul \\ Ebonsoul Maul
-s(214277)/i(72992),	-- ant Greatsword \\ Valiant Greatsword
-s(214278)/i(72993),	-- ous Greatsword \\ Zealous Greatsword
 s(214279)/i(72994),	-- soul Blade \\ Ebonsoul Blade
-s(214280)/i(72995),	-- owstalking Dagger \\ Shadowstalking Dagger
-s(214281)/i(72996),	-- owstalking Shiv \\ Shadowstalking Shiv
-s(214282)/i(72997),	-- owstalking Sword \\ Shadowstalking Sword
-s(214283)/i(72998),	-- mbinder Mace \\ Stormbinder Mace
-s(214284)/i(72999),	-- ant Maul \\ Valiant Maul
-s(214285)/i(73000),	-- tsoul Rifle \\ Beastsoul Rifle
-s(214286)/i(73001),	-- tsoul Spear \\ Beastsoul Spear
-s(214287)/i(73002),	-- mbinder Scepter \\ Stormbinder Scepter
-s(214288)/i(73003),	-- mbinder Gavel \\ Stormbinder Gavel
-s(214289)/i(73004),	-- mbinder Shield \\ Stormbinder Shield
-s(214290)/i(73005),	-- mbinder Aegis \\ Stormbinder Aegis
-s(214291)/i(73006),	-- soul Staff \\ Magesoul Staff
-s(214292)/i(73007),	-- dsoul Staff \\ Dreadsoul Staff
-s(214293)/i(73008),	-- phic Staff \\ Seraphic Staff
-s(214294)/i(73009),	-- phic Stave \\ Seraphic Stave
-s(214295)/i(73010),	-- soul Stave \\ Wildsoul Stave
-s(214296)/i(73011),	-- soul Staff \\ Wildsoul Staff
-s(214297)/i(73012),	-- soul Spear \\ Wildsoul Spear
 s(214298)/i(73028),	-- Monster - Knife, 1H 430OldGod C 02 - Blue
 s(214299)/i(73029),	-- Monster - Knife, 1H 430OldGod C 02 - Green
 s(214300)/i(73030),	-- Monster - Knife, 1H 430OldGod C 02 - Pink
@@ -4188,27 +3991,8 @@ s(214328)/i(73072),	-- Monster - Mace, 1H PVPCataclysmS3 C 02 - Red
 s(214329)/i(73093),	-- x3 - 4.3 - Spell Visual Visual Test Dagger
 s(214330)/i(73203),	-- Monster - Dagger, Cataclysm B02 Blue (Purple Glow)
 s(214331)/i(73302),	-- Art Template Mail Head - Mail PVPHunter D 01 - Blue
-s(214332)/i(73306),	-- soul Cloak of Rage \\ Wildsoul Cloak of Rage
-s(214333)/i(73307),	-- soul Cloak of Wisdom \\ Wildsoul Cloak of Wisdom
-s(214334)/i(73308),	-- soul Cloak of Destruction \\ Wildsoul Cloak of Destruction
-s(214335)/i(73309),	-- ant Cloak of Stoicism \\ Valiant Cloak of Stoicism
-s(214336)/i(73310),	-- ant Cloak of Battle \\ Valiant Cloak of Battle
-s(214337)/i(73311),	-- mbinder Cloak of Rage \\ Stormbinder Cloak of Rage
-s(214338)/i(73312),	-- mbinder Cloak of Wisdom \\ Stormbinder Cloak of Wisdom
-s(214339)/i(73313),	-- mbinder Cloak of Destruction \\ Stormbinder Cloak of Destruction
-s(214340)/i(73314),	-- tsoul Cloak of Rage \\ Beastsoul Cloak of Rage
 s(214341)/i(73315),	-- soul Cloak of Battle \\ Ebonsoul Cloak of Battle
 s(214342)/i(73316),	-- soul Cloak of Stoicism \\ Ebonsoul Cloak of Stoicism
-s(214343)/i(73317),	-- ous Cloak of Battle \\ Zealous Cloak of Battle
-s(214344)/i(73318),	-- ous Cloak of Stoicism \\ Zealous Cloak of Stoicism
-s(214345)/i(73319),	-- ous Cloak of Wisdom \\ Zealous Cloak of Wisdom
-s(214346)/i(73320),	-- owstalking Cloak of Rage \\ Shadowstalking Cloak of Rage
-s(214347)/i(73321),	-- phic Cloak of Wisdom \\ Seraphic Cloak of Wisdom
-s(214348)/i(73322),	-- phic Cloak of Destruction \\ Seraphic Cloak of Destruction
-s(214349)/i(73323),	-- soul Cloak of Destruction \\ Magesoul Cloak of Destruction
-s(214350)/i(73324),	-- dsoul Cloak of Destruction \\ Dreadsoul Cloak of Destruction
-s(214351)/i(73325),	-- soul Wand \\ Magesoul Wand
-s(214352)/i(73326),	-- dsoul Wand \\ Dreadsoul Wand
 s(214353)/i(73327),	-- Art Template Cloth Wrist - Robe PVPPriest D 01 - Black
 s(214355)/i(73329),	-- Art Template Cloth Robe - Robe PVPPriest D 01 - Black
 s(214356)/i(73330),	-- Art Template Cloth Legs - Robe PVPPriest D 01 - Black
@@ -4217,7 +4001,6 @@ s(214358)/i(73332),	-- Art Template Cloth Hand - Robe PVPPriest D 01 - Black
 s(214359)/i(73333),	-- Art Template Cloth Chest - Robe PVPPriest D 01 - Black
 s(214360)/i(73334),	-- Art Template Cloth Boot - Robe PVPPriest D 01 - Black
 s(214361)/i(73335),	-- Art Template Cloth Belt - Robe PVPPriest D 01 - Black
-s(214362)/i(73336),	-- phic Wand \\ Seraphic Wand
 s(214363)/i(73344),	--
 s(214364)/i(73345),	-- Art Template Mail Hand - Mail PVPHunter D 01 - Red
 s(214365)/i(73347),	-- Art Template Mail Belt - Mail PVPHunter D 01 - Red
@@ -4954,9 +4737,6 @@ s(216531)/i(78655),	-- ers of the Black Dream \\ Bracers of the Black Dream
 s(216532)/i(78656),	-- noboost Bracers \\ Chronoboost Bracers
 s(216732)/i(79001),	-- Monster - Knife_1h_DeathwingRaid_D_01 - Purple \\ Monster - Knife_1h_DeathwingRaid_D_01 - Green
 s(216733)/i(79062),	-- Monster - Axe_2H_430Future_C_01 - Red
-s(216734)/i(206719),	-- Wolvar Belt
-s(216735)/i(206737),	-- Wolvar Belt
-s(218313)/i(206703),	-- Oracle Circlet
 4.4.0.57244
 s(230300)/i(232544),	-- The Horseman's Horrific Helmet
 s(230301)/i(232548),	-- The Horseman's Sinister Saber
@@ -4968,14 +4748,11 @@ s(275294)/i(92075),	-- Scourgeheart Vambraces
 s(275295)/i(92076),	-- Scourgeheart Armguards
 s(275296)/i(92077),	-- Naturalist Bracers
 s(275297)/i(92078),	-- Naturalist Cuffs
-s(275298)/i(92079),	-- Forestwalker Bracers
 s(275299)/i(92080),	-- Naturalist Bindings
 s(275300)/i(92081),	-- Enlightened Wristwraps
 s(275301)/i(92082),	-- Partisan Armplates
 s(275302)/i(92083),	-- Partisan Vambraces
 s(275303)/i(92084),	-- Partisan Armguards
-s(275304)/i(92085),	-- Deliverer Bindings
-s(275305)/i(92086),	-- Deliverer Wristwraps
 s(275306)/i(92087),	-- Darkwalker Bindings
 s(275307)/i(92088),	-- Thundercaller Armbands
 s(275308)/i(92089),	-- Thundercaller Armguard
@@ -4984,7 +4761,6 @@ s(275310)/i(92091),	-- Martial Vambraces
 s(275311)/i(92092),	-- Soulseizer Wristwraps
 s(275312)/i(92093),	-- Martial Armguards
 s(275313)/i(92094),	-- Naturalist Cord
-s(275314)/i(92095),	-- Forestwalker Belt
 s(275315)/i(92096),	-- Naturalist Waistband
 s(275316)/i(92097),	-- Enlightened Cord
 s(275317)/i(92098),	-- Partisan Belt
@@ -5002,11 +4778,8 @@ s(275328)/i(92109),	-- Martial Waistband
 s(275329)/i(92110),	-- Scourgeheart Blade
 s(275330)/i(92111),	-- Partisan Sword
 s(275331)/i(92112),	-- Thundercaller Mace
-s(275332)/i(92130),	-- Scourgeheart Girdle
-s(275333)/i(92131),	-- Scourgeheart Waistband
 s(275334)/i(92132),	-- Naturalist Belt
 s(275335)/i(92152),	-- Naturalist Pauldrons
-s(275336)/i(92153),	-- Forestwalker Spaulders
 s(275337)/i(92154),	-- Enlightened Shoulderpads
 s(275338)/i(92155),	-- Partisan Spaulders
 s(275339)/i(92156),	-- Partisan Pauldrons
@@ -5059,7 +4832,6 @@ s(275385)/i(92223),	-- Scourgeheart Legguards
 s(275386)/i(92224),	-- Naturalist Legguards
 s(275387)/i(92225),	-- Naturalist Leggings
 s(275388)/i(92226),	-- Naturalist Britches
-s(275389)/i(92227),	-- Forestwalker Legguards
 s(275390)/i(92228),	-- Enlightened Leggings
 s(275391)/i(92229),	-- Partisan Leggings
 s(275392)/i(92230),	-- Partisan Legplates
@@ -5079,7 +4851,6 @@ s(275405)/i(92243),	-- Scourgeheart Faceguard
 s(275406)/i(92244),	-- Naturalist Helm
 s(275407)/i(92245),	-- Naturalist Headpiece
 s(275408)/i(92246),	-- Naturalist Hood
-s(275409)/i(92247),	-- Forestwalker Helm
 s(275410)/i(92248),	-- Partisan Helm
 s(275411)/i(92249),	-- Enlightened Hood
 s(275412)/i(92250),	-- Partisan Headpiece
@@ -5092,7 +4863,6 @@ s(275418)/i(92263),	-- Scourgeheart Handguards
 s(275419)/i(92264),	-- Naturalist Handguards
 s(275420)/i(92265),	-- Naturalist Grips
 s(275421)/i(92266),	-- Naturalist Gloves
-s(275422)/i(92267),	-- Forestwalker Gauntlets
 s(275423)/i(92268),	-- Partisan Gauntlets
 s(275424)/i(92269),	-- Enlightened Handwraps
 s(275425)/i(92270),	-- Partisan Gloves
@@ -5121,7 +4891,6 @@ s(275447)/i(92323),	-- Scourgeheart Sabatons
 s(275448)/i(92324),	-- Naturalist Footpads
 s(275449)/i(92325),	-- Naturalist Treads
 s(275450)/i(92326),	-- Naturalist Boots
-s(275451)/i(92327),	-- Forestwalker Greaves
 s(275452)/i(92328),	-- Partisan Sabatons
 s(275453)/i(92329),	-- Enlightened Sandals
 s(275454)/i(92330),	-- Partisan Boots
@@ -5165,7 +4934,6 @@ s(275491)/i(92367),	-- Scourgeheart Breastplate
 s(275492)/i(92368),	-- Naturalist Vest
 s(275493)/i(92369),	-- Naturalist Tunic
 s(275494)/i(92370),	-- Naturalist Jerkin
-s(275495)/i(92371),	-- Forestwalker Vest
 s(275496)/i(92372),	-- Waterdancer Spire
 s(275497)/i(92373),	-- Waterdancer Staff
 s(275498)/i(92374),	-- Waterdancer Jerkin
