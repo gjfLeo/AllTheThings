@@ -5,16 +5,18 @@ root(ROOTS.NeverImplemented, {
 	n(WEAPONS, {
 		filter(BOWS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(19490),	-- 2800 Test Bow 63 Blue
-				i(20313),	-- 63 Green Rogue Bow
-				i(20278),	-- 90 Epic Rogue Bow
-				i(20299),	-- 90 Green Rogue Bow
-				i(20368),	-- Bland Bow of Steadiness
-				i(19868),	-- Mandokir's Sting DEPRECATED
-				i(19966),	-- Thrice Strung Longbow DEPRECATED
-				i(20488),	-- Rhok'delar, Longbow of the Ancient Keepers DEP
-				i(5290),	-- Monster - Bow, Black Bow White Grip
-				i(21550),	-- Monster - Bow, Kaldorei
+				n(P1xx, {
+					i(19490),	-- 2800 Test Bow 63 Blue
+					i(20313),	-- 63 Green Rogue Bow
+					i(20278),	-- 90 Epic Rogue Bow
+					i(20299),	-- 90 Green Rogue Bow
+					i(20368),	-- Bland Bow of Steadiness
+					i(19868),	-- Mandokir's Sting DEPRECATED
+					i(19966),	-- Thrice Strung Longbow DEPRECATED
+					i(20488),	-- Rhok'delar, Longbow of the Ancient Keepers DEP
+					i(5290),	-- Monster - Bow, Black Bow White Grip
+					i(21550),	-- Monster - Bow, Kaldorei
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
@@ -40,12 +42,14 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(DAGGERS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(24071),	-- Bland Dagger
-				i(17142),	-- Shard of the Defiler
-				i(21122),	-- Monster - Dagger, Korean A01 Black
-				i(21551),	-- Monster - Dagger, Alliance PvP
-				i(22215),	-- Monster - Dagger, Bonescraper
-				i(23369),	-- Monster - Dagger, Claw of Chromaggus
+				n(P1xx, {
+					i(24071),	-- Bland Dagger
+					i(17142),	-- Shard of the Defiler
+					i(21122),	-- Monster - Dagger, Korean A01 Black
+					i(21551),	-- Monster - Dagger, Alliance PvP
+					i(22215),	-- Monster - Dagger, Bonescraper
+					i(23369),	-- Monster - Dagger, Claw of Chromaggus
+				}),
 			}),
 			expansion(EXPANSION.WRATH, {
 				expansion(EXPANSION.WRATH, patch(0,2), {
@@ -158,9 +162,11 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(HELD_IN_OFF_HAND, {
 			expansion(EXPANSION.CLASSIC, {
-				i(19989),	-- Tome of Devouring Shadows
-				i(20337),	-- Gnome Head on a Stick
-				i(22211),	-- Monster - Knuckle, B01 Red Offhand
+				n(P1xx, {
+					i(19989),	-- Tome of Devouring Shadows
+					i(20337),	-- Gnome Head on a Stick
+					i(22211),	-- Monster - Knuckle, B01 Red Offhand
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
@@ -175,8 +181,6 @@ root(ROOTS.NeverImplemented, {
 					i(189334),	-- 10.0 Zone Uncommon Template <Descriptor> Offhand
 					i(201249),	-- Dreamfire Imbued Drakehorn
 				}),
-
-				-- 10.0.7
 				expansion(EXPANSION.DF, patch(0,7), bubbleDown({ ["timeline"] = { CREATED_10_0_7 } }, {
 					i(203798),	-- Copy Jin'do's Bag of Whammies
 				})),
@@ -184,9 +188,11 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(ONE_HANDED_AXES, {
 			expansion(EXPANSION.CLASSIC, {
-				i(21129),	-- Monster - Axe, Doctor Weavil
-				i(21465),	-- Monster - Axe, Insano
-				i(23582),	-- Monster - Lady Blameux
+				n(P1xx, {
+					i(21129),	-- Monster - Axe, Doctor Weavil
+					i(21465),	-- Monster - Axe, Insano
+					i(23582),	-- Monster - Lady Blameux
+				}),
 			}),
 			expansion(EXPANSION.WRATH, {
 				n(P3xx, {
@@ -280,15 +286,17 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(ONE_HANDED_SWORDS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(9380),	-- Jang'thraze the Protector
-				i(22805),	-- Naxxramas Sword 1H 1 PH
-				i(17802),	-- Thunderfury, Blessed Blade of the Windseeker DEPRECATED
-				i(18582),	-- The Twin Blades of Azzinoth
-				i(18583),	-- Warglaive of Azzinoth (Right)
-				i(18584),	-- Warglaive of Azzinoth (Left)
-				i(21573),	-- Monster - Sword, 1H Alliance PvP
-				i(22738),	-- Monster - Sword, 1H Uber Demon Blade
-				i(23743),	-- Monster - Sword 1H - Widow's Remorse
+				n(P1xx, {
+					i(9380),	-- Jang'thraze the Protector
+					i(22805),	-- Naxxramas Sword 1H 1 PH
+					i(17802),	-- Thunderfury, Blessed Blade of the Windseeker DEPRECATED
+					i(18582),	-- The Twin Blades of Azzinoth
+					i(18583),	-- Warglaive of Azzinoth (Right)
+					i(18584),	-- Warglaive of Azzinoth (Left)
+					i(21573),	-- Monster - Sword, 1H Alliance PvP
+					i(22738),	-- Monster - Sword, 1H Uber Demon Blade
+					i(23743),	-- Monster - Sword 1H - Widow's Remorse
+				}),
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
@@ -331,10 +339,12 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(POLEARMS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(12986),	-- Monster - Spear, Broad Notched
-				-- #if SEASON_OF_DISCOVERY
-				i(204910),	-- Monster - Trident, Naga (Gold)
-				-- #endif
+				n(P1xx, {
+					i(12986),	-- Monster - Spear, Broad Notched
+					-- #if SEASON_OF_DISCOVERY
+					i(204910),	-- Monster - Trident, Naga (Gold)
+					-- #endif
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
@@ -391,12 +401,30 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(STAVES, {
 			expansion(EXPANSION.CLASSIC, {
-				i(3738),	-- Brewing Rod
-				i(20522),	-- Feral Staff
-				i(20718),	-- Monster - Staff, Jeweled Yellow Staff w/Low Purple Glow
-				i(20719),	-- Monster - Staff, Jeweled D01/B02 Yellow w/Low Red Flame
-				i(21795),	-- Monster - Staff, Ahn'Qiraj
+				n(P1xx, {
+					i(3738),	-- Brewing Rod
+					i(20522),	-- Feral Staff
+					i(20718),	-- Monster - Staff, Jeweled Yellow Staff w/Low Purple Glow
+					i(20719),	-- Monster - Staff, Jeweled D01/B02 Yellow w/Low Red Flame
+					i(21795),	-- Monster - Staff, Ahn'Qiraj
+				}),
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206685),	-- Tenacious Vine Staff
+				}),
+			}),
+			-- #endif
+			-- #if BEFORE WOD
+			expansion(EXPANSION.CATA, {
+				expansion(EXPANSION.CATA, patch(0,3), {
+					-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+					i(55343),	-- Rustmaul Staff
+					i(55451),	-- Rustmaul Staff
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				n(P5xx, {
 					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
@@ -441,15 +469,19 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(THROWN, {
 			expansion(EXPANSION.CLASSIC, {
-				i(21135),	-- Broken Assassin's Throwing Axe
+				n(P1xx, {
+					i(21135),	-- Broken Assassin's Throwing Axe
+				}),
 			}),
 		}),
 		filter(TWO_HANDED_AXES, {
 			expansion(EXPANSION.CLASSIC, {
-				i(21192),	-- Monster - Axe, 2H UBER Blackwing
-				i(21286),	-- Monster - Axe, 2H Large Double Bladed, Gold
-				i(21580),	-- Monster - 2H Axe, Horde PvP
-				i(22199),	-- Monster - Axe, 2H Arcanite Reaper
+				n(P1xx, {
+					i(21192),	-- Monster - Axe, 2H UBER Blackwing
+					i(21286),	-- Monster - Axe, 2H Large Double Bladed, Gold
+					i(21580),	-- Monster - 2H Axe, Horde PvP
+					i(22199),	-- Monster - Axe, 2H Arcanite Reaper
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
@@ -468,11 +500,13 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(TWO_HANDED_MACES, {
 			expansion(EXPANSION.CLASSIC, {
-				i(21555),	-- Monster - Mace2H, Alliance PvP
-				i(22346),	-- Monster - Mace2H, Unstoppable Force
-				-- #if SEASON_OF_DISCOVERY
-				i(228214),	-- Monster - Mace2H, Unstoppable Force
-				-- #endif
+				n(P1xx, {
+					i(21555),	-- Monster - Mace2H, Alliance PvP
+					i(22346),	-- Monster - Mace2H, Unstoppable Force
+					-- #if SEASON_OF_DISCOVERY
+					i(228214),	-- Monster - Mace2H, Unstoppable Force
+					-- #endif
+				}),
 			}),
 			expansion(EXPANSION.MOP, {
 				n(P5xx, {
@@ -500,19 +534,21 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(TWO_HANDED_SWORDS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(13262),	-- Ashbringer
-				i(913),		-- Huge Ogre Sword
-				i(12469),	-- Mutilator
-				i(21553),	-- Monster - Sword2H, Alliance PvP
-				i(21794),	-- Monster - Sword2H, Ahn'Qiraj
-				i(22596),	-- Monster - Sword2H, Horde A02
-				i(22709),	-- Monster - Sword2H, Corrupted Ashbringer
-				i(23328),	-- Monster - Sword2H, Instructor Razuvious
-				-- #if SEASON_OF_DISCOVERY
-				i(209526),	-- TEST Darkwater Talwar
-				i(215235),	-- 2hander Animation as 1hander test copy
-				i(228607),	-- Monster - Sword2H, Basic
-				-- #endif
+				n(P1xx, {
+					i(13262),	-- Ashbringer
+					i(913),		-- Huge Ogre Sword
+					i(12469),	-- Mutilator
+					i(21553),	-- Monster - Sword2H, Alliance PvP
+					i(21794),	-- Monster - Sword2H, Ahn'Qiraj
+					i(22596),	-- Monster - Sword2H, Horde A02
+					i(22709),	-- Monster - Sword2H, Corrupted Ashbringer
+					i(23328),	-- Monster - Sword2H, Instructor Razuvious
+					-- #if SEASON_OF_DISCOVERY
+					i(209526),	-- TEST Darkwater Talwar
+					i(215235),	-- 2hander Animation as 1hander test copy
+					i(228607),	-- Monster - Sword2H, Basic
+					-- #endif
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
@@ -526,8 +562,6 @@ root(ROOTS.NeverImplemented, {
 					i(189355),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
 					i(189358),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
 				}),
-			}),
-			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189701),	-- 10.0 Dungeon Template - Sword2H - Int - 2 Hand
 					i(189698),	-- 10.0 Dungeon Template - Sword2H - Str - 2 Hand
