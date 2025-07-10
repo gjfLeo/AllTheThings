@@ -382,6 +382,14 @@ root(ROOTS.NeverImplemented, {
 					i(34415),	-- Crystaline Shard Shield
 				}),
 			}),
+			-- #if BEFORE WOD
+			expansion(EXPANSION.CATA, {
+				expansion(EXPANSION.CATA, {
+					-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+					i(55433),	-- Steelgrill Shield
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(179606),	-- Ardenweald Quest Shield

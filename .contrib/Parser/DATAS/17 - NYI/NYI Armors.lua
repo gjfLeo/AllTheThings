@@ -525,7 +525,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(54757),	-- Double Link Tunic
 				-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
 				-- #if BEFORE WOD
+				i(55631),	-- Frayfeather Belt
+				i(55568),	-- Frayfeather Bracers
+				i(55595),	-- Frayfeather Gauntlets
+				i(55586),	-- Frayfeather Greaves
 				i(55604),	-- Frayfeather Helm
+				i(55613),	-- Frayfeather Legguards
 				i(55622),	-- Frayfeather Spaulders
 				i(55577),	-- Frayfeather Vest
 				-- #endif
@@ -587,16 +592,26 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(PLATE, {
 			expansion(EXPANSION.CATA, patch(0,3), {
-				i(49450),	-- Defusing Cinch
-				i(59795),	-- Harp Shell Shoulderplates
-				--
-				i(54544),	-- Scrapped Spaulders
-				i(54552),	-- Retaliation Gauntlets
-				i(54751),	-- Silverscale Chestguard
+				i(54789),	-- Art Template Plate Belt - Plate_Common_C_01 - Rust
 				i(59768),	-- Bracers of Burbling Freedom
 				i(59772),	-- Bracers of Burbling Freedom (Yes, Same name)
+				i(49450),	-- Defusing Cinch
+				i(59795),	-- Harp Shell Shoulderplates
 				i(65743),	-- Helm of Vicious Direction
-				i(54789),	-- Art Template Plate Belt - Plate_Common_C_01 - Rust
+				i(54552),	-- Retaliation Gauntlets
+				i(54544),	-- Scrapped Spaulders
+				i(54751),	-- Silverscale Chestguard
+				-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+				-- #if BEFORE WOD
+				i(55505),	-- Steelgrill Breastplate
+				i(55523),	-- Steelgrill Gauntlets
+				i(55559),	-- Steelgrill Girdle
+				i(55532),	-- Steelgrill Helm
+				i(55541),	-- Steelgrill Legplates
+				i(55550),	-- Steelgrill Pauldrons
+				i(55514),	-- Steelgrill Sabatons
+				i(55496),	-- Steelgrill Vambraces
+				-- #endif
 				i(60507, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Salvation
 				i(60515, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Salvation
 				i(60510, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Triumph
