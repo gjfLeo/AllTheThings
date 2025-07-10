@@ -1993,19 +1993,40 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						}),
 						i(6323),	-- Baron's Scepter
 						i(5254, {	-- Rugged Spaulders
-							["timeline"] = { ADDED_7_1_5 },
+							["timeline"] = {
+								CREATED_4_0_3,
+								-- #if ANYCLASSIC
+								ADDED_5_0_4,
+								-- #else
+								ADDED_7_1_5,
+								-- #endif
+							},
 						}),
 						i(132568, {	-- Shadowfang Pauldrons
 							["timeline"] = { ADDED_7_0_3 },
 						}),
 						i(5943, {	-- Rift Bracers
-							["timeline"] = { ADDED_7_1_5 },
+							["timeline"] = {
+								CREATED_4_0_3,
+								-- #if ANYCLASSIC
+								ADDED_5_0_4,
+								-- #else
+								ADDED_7_1_5,
+								-- #endif
+							},
 						}),
 						i(132567, {	-- Blindwatcher's Chain
 							["timeline"] = { ADDED_7_0_3 },
 						}),
 						i(6319, {	-- Girdle of the Blindwatcher
-							["timeline"] = { ADDED_7_1_5 },
+							["timeline"] = {
+								CREATED_4_0_3,
+								-- #if ANYCLASSIC
+								ADDED_5_0_4,
+								-- #else
+								ADDED_7_1_5,
+								-- #endif
+							},
 						}),
 						i(6321),	-- Silverlaine's Family Seal
 					},
