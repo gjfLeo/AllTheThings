@@ -9141,6 +9141,8 @@
 5265@@@+$k1 Critical Strike
 5266@@@+$k1 Haste
 5267@@@+$k1 Haste
+5.5.0.61916
+8221@@@
 6.0.1.18179
 2523@@@+$k1 Ranged Critical Strike
 2586@@@+$k1 Ranged Attack Power/+$k2 Stamina/+$k3 Critical Strike

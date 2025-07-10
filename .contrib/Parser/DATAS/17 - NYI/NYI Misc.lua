@@ -187,6 +187,13 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(103535),	-- Bulging Bag of Charms (was planned for asia store)
 		})),
 
+		-- 5.5.0
+		-- #if ANYCLASSIC
+		expansion(EXPANSION.MOP, patch(5,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_5_0 } }, {
+			i(249899),	-- Coinpurse of Good Fortune (a way of giving beta testers quick Elder Charms of Good Fortune)
+		})),
+		-- #endif
+
 		-- 5.x.x
 		n(P5xx, {
 			i(103975),	-- Elder Charm of Good Fortune
