@@ -202,11 +202,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206700),	-- Oracle Belt
 				i(206699),	-- Oracle Bracelets
 				i(206703),	-- Oracle Circlet
 				i(206704),	-- Oracle Gloves
 				i(206702),	-- Oracle Leggings
 				i(206701),	-- Oracle Mantle
+				i(206706),	-- Oracle Robe
 				i(206705),	-- Oracle Slippers
 			}),
 			-- #endif
@@ -223,6 +225,26 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(37400),	-- Whalehunter Cuffs
 				i(41757),	-- Vest of Unyielding Companionship
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206711),	-- Ghrino Belt
+				i(206750),	-- Ghrino Belt
+				i(206716),	-- Ghrino Boots
+				i(206751),	-- Ghrino Boots
+				i(206710),	-- Ghrino Bracers
+				i(206757),	-- Ghrino Bracers
+				i(206713),	-- Ghrino Britches
+				i(206755),	-- Ghrino Britches
+				i(206714),	-- Ghrino Cover
+				i(206754),	-- Ghrino Cover
+				i(206715),	-- Ghrino Gloves
+				i(206753),	-- Ghrino Gloves
+				i(206712),	-- Ghrino Pauldrons
+				i(206756),	-- Ghrino Pauldrons
+				i(206709),	-- Ghrino Vest
+				i(206752),	-- Ghrino Vest
+			}),
+			-- #endif
 			n(P3xx, {
 				i(37176),	-- Cavern Leather Treads
 				i(37316),	-- HF28 Leather Physical Legs4
@@ -243,10 +265,20 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206725),	-- Wolvar Armor
 				i(206735),	-- Wolvar Armor
-				i(206724),	-- Wolvar Greaves
-				i(206736),	-- Wolvar Greaves
+				i(206719),	-- Wolvar Belt
+				i(206737),	-- Wolvar Belt
 				i(206718),	-- Wolvar Bindings
 				i(206730),	-- Wolvar Bindings
+				i(206723),	-- Wolvar Fists
+				i(206734),	-- Wolvar Fists
+				i(206724),	-- Wolvar Greaves
+				i(206736),	-- Wolvar Greaves
+				i(206722),	-- Wolvar Helmet
+				i(206733),	-- Wolvar Helmet
+				i(206721),	-- Wolvar Legguards
+				i(206732),	-- Wolvar Legguards
+				i(206720),	-- Wolvar Shoulderguards
+				i(206731),	-- Wolvar Shoulderguards
 			}),
 			-- #endif
 			n(P3xx, {
@@ -270,7 +302,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206748),	-- Magnataur Bracers
+				i(206743),	-- Magnataur Breastplate
+				i(206744),	-- Magnataur Gauntlets
+				i(206741),	-- Magnataur Girdle
 				i(206745),	-- Magnataur Helm
+				i(206746),	-- Magnataur Legplates
+				i(206747),	-- Magnataur Pauldrons
+				i(206742),	-- Magnataur Sabatons
 			}),
 			-- #endif
 			n(P3xx, {
@@ -408,50 +447,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		filter(LEATHER, {
 			expansion(EXPANSION.CATA, patch(0,3), {
-				i(56701),	-- Jinxed Vest
-				i(56405),	-- Oasis Bracers
-				i(59796),	-- Treads of Decapod Death
-				i(63012),	-- Skull Kickers
-				--
-				i(54543),	-- Orca-Tooth Treads
-				i(54649),	-- Cow King's Hide
-				i(54650),	-- Forest's Embrace
-				i(54652),	-- Righteous Armor
-				i(54655),	-- Stormshroud Armor
-				i(54658),	-- Lionfur Armor
-				i(54665),	-- Maatparm's Fungus Lined Vest
-				i(54666),	-- Ceremonial Leather Harness
-				i(54667),	-- Vest of the Dragon Slayer
-				i(54668),	-- Murloc Scale Breastplate
-				i(54670),	-- Hillman's Leather Vest
-				i(54671),	-- Starsight Tunic
-				i(54673),	-- Barkshell Tunic
-				i(54674),	-- Gloomshroud Armor
-				i(54677),	-- Raptorbane Armor
-				i(54680),	-- Raptor Hide Harness
-				i(54681),	-- Thick Murloc Armor
-				i(54683),	-- Dusky Leather Armor
-				i(54684),	-- Guardian Armor
 				i(54685),	-- Archer's Jerkin
-				i(54686),	-- Barbaric Harness
-				i(54687),	-- Sentinel Breastplate
-				i(54689),	-- Marshwarden's Tunic
-				i(54691),	-- Nightscape Tunic
-				i(54694),	-- Wolf Rider's Padded Armor
-				i(54695),	-- Surveyor's Tunic
-				i(54696),	-- Scorpashi Breastplate
-				i(54698),	-- Ceremonial Leather Loincloth
-				i(54703),	-- Bogwalker Boots
-				i(54708),	-- Ceremonial Leather Gloves
-				i(54707),	-- Researcher's Gloves
-				i(54711),	-- Wendigo Collar
-				i(54716),	-- Juicy Bracers
-				i(54723),	-- Living Leggings
-				i(54724),	-- Shadowcraft Bracers
-				i(54725),	-- Shadowcraft Gloves
-				i(54726),	-- Clouddrift Mantle
-				i(54727),	-- Traveler's Boots
-				i(54731),	-- not used
 				i(62697),	-- Art Template Leather Belt - Leather_Cataclysm_B_01 - Brown
 				i(62698),	-- Art Template Leather Boot - Leather_Cataclysm_B_01 - Brown
 				i(62699),	-- Art Template Leather Chest - Leather_Cataclysm_B_01 - Brown
@@ -460,11 +456,64 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(62702),	-- Art Template Leather Legs - Leather_Cataclysm_B_01 - Brown
 				i(62703),	-- Art Template Leather Shoulder - Leather_Cataclysm_B_01 - Brown
 				i(62704),	-- Art Template Leather Wrist - Leather_Cataclysm_B_01 - Brown
+				i(54686),	-- Barbaric Harness
+				i(54673),	-- Barkshell Tunic
+				i(54703),	-- Bogwalker Boots
+				i(54708),	-- Ceremonial Leather Gloves
+				i(54666),	-- Ceremonial Leather Harness
+				i(54698),	-- Ceremonial Leather Loincloth
+				i(54726),	-- Clouddrift Mantle
+				i(54649),	-- Cow King's Hide
+				i(54683),	-- Dusky Leather Armor
+				i(54650),	-- Forest's Embrace
+				i(54674),	-- Gloomshroud Armor
+				i(54684),	-- Guardian Armor
+				i(54670),	-- Hillman's Leather Vest
+				i(56701),	-- Jinxed Vest
+				i(54716),	-- Juicy Bracers
+				i(54658),	-- Lionfur Armor
+				i(54723),	-- Living Leggings
+				i(54665),	-- Maatparm's Fungus Lined Vest
+				i(54689),	-- Marshwarden's Tunic
+				i(54668),	-- Murloc Scale Breastplate
+				-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+				-- #if BEFORE WOD
+				i(55640),	-- Nighthaven Bindings
+				i(55658),	-- Nighthaven Boots
+				i(55685),	-- Nighthaven Britches
+				i(55667),	-- Nighthaven Gloves
+				i(55676),	-- Nighthaven Hood
+				i(55649),	-- Nighthaven Jerkin
+				i(55694),	-- Nighthaven Shoulders
+				i(55703),	-- Nighthaven Waistband
+				-- #endif
+				i(54691),	-- Nightscape Tunic
+				i(54731),	-- not used (yes that's what it's called)
+				i(56405),	-- Oasis Bracers
+				i(54543),	-- Orca-Tooth Treads
+				i(54680),	-- Raptor Hide Harness
+				i(54677),	-- Raptorbane Armor
+				i(54707),	-- Researcher's Gloves
+				i(54652),	-- Righteous Armor
+				i(59796),	-- Treads of Decapod Death
+				i(54696),	-- Scorpashi Breastplate
+				i(54687),	-- Sentinel Breastplate
+				i(54724),	-- Shadowcraft Bracers
+				i(54725),	-- Shadowcraft Gloves
+				i(63012),	-- Skull Kickers
+				i(54671),	-- Starsight Tunic
+				i(54655),	-- Stormshroud Armor
+				i(54695),	-- Surveyor's Tunic
+				i(54681),	-- Thick Murloc Armor
+				i(54727),	-- Traveler's Boots
+				i(54667),	-- Vest of the Dragon Slayer
 				i(60592, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
 				i(60595, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
 				i(60600, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
 				i(60596, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Boots of Triumph
 				i(60599, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Boots of Triumph
+				i(54711),	-- Wendigo Collar
+				i(54694),	-- Wolf Rider's Padded Armor
 			}),
 			expansion(EXPANSION.CATA, patch(2,0), {
 				i(71569),	-- Flamebinder Bracers
