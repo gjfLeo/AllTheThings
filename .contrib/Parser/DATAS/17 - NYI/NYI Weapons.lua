@@ -47,16 +47,30 @@ root(ROOTS.NeverImplemented, {
 				i(22215),	-- Monster - Dagger, Bonescraper
 				i(23369),	-- Monster - Dagger, Claw of Chromaggus
 			}),
-			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(0,2), {
+					i(23422),	-- Engraved Dagger
+					i(38247),	-- Entrail Render
+				}),
+				-- #if ANYCLASSIC
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206692),	-- Parrying Dagger
 				}),
+				-- #endif
 			}),
-			-- #endif
+			expansion(EXPANSION.CATA, {
+				expansion(EXPANSION.CATA, patch(0,1), {
+					i(62329),	-- Dire Slasher
+				}),
+			}),
 			expansion(EXPANSION.MOP, {
 				n(P5xx, {
 					i(90273),	-- Honorary Combat Engineer's Heavy Legplates
+				}),
+			}),
+			expansion(EXPANSION.WOD, {
+				expansion(EXPANSION.WOD, patch(0,1), {
+					i(115446),	-- Brianium Dagger
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -93,8 +107,17 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(FIST_WEAPONS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(19226),	-- Fast Test Fist
-				i(22210),	-- Monster - Knuckle, B01 Red
+				n(P1xx, {
+					i(20003),	-- Devilsaur Claws
+					i(20005),	-- Devilsaur Claws
+					i(19226),	-- Fast Test Fist
+					i(22210),	-- Monster - Knuckle, B01 Red
+				}),
+			}),
+			expansion(EXPANSION.WRATH, {
+				n(P3xx, {
+					i(38243),	-- Ravaging Steelfist
+				}),
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
@@ -107,8 +130,20 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(GUNS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(21554),	-- Monster - Gun, PvP Horde
-				i(21564),	-- Monster - Gun, Kaldorei PVP Alliance
+				n(P1xx, {
+					i(21554),	-- Monster - Gun, PvP Horde
+					i(21564),	-- Monster - Gun, Kaldorei PVP Alliance
+				}),
+			}),
+			expansion(EXPANSION.WRATH, {
+				n(P3xx, {
+					i(38246),	-- Skull-Forged Blunderbuss
+				}),
+			}),
+			expansion(EXPANSION.CATA, {
+				expansion(EXPANSION.CATA, patch(0,3), {
+					i(49455),	-- Blunderbuss of Deforestation
+				}),
 			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
@@ -193,18 +228,25 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(ONE_HANDED_MACES, {
 			expansion(EXPANSION.CLASSIC, {
-				i(17733),	-- Fist of Stone
-				i(16792),	-- Giant Club
-				i(20738),	-- Monster - Mace, Scepter of the Shifting Sands
-				i(22213),	-- Monster - Mace, Hand of Edward the Odd
-				i(22341),	-- Monster - Mace, Horde A04 Pale - Bone Wrench
-				i(22724),	-- Monster - Mace1H, Korth'azz
-				i(23583),	-- Monster - Sir Zeliek
-				-- #if SEASON_OF_DISCOVERY
-				i(215444),	-- Monster - Mace - Broken Pipes
-				i(217336),	-- Monster - Incubus Whip Mace1H
-				i(227802),	-- Monster - Torch
-				-- #endif
+				n(P1xx, {
+					i(17733),	-- Fist of Stone
+					i(16792),	-- Giant Club
+					i(20738),	-- Monster - Mace, Scepter of the Shifting Sands
+					i(22213),	-- Monster - Mace, Hand of Edward the Odd
+					i(22341),	-- Monster - Mace, Horde A04 Pale - Bone Wrench
+					i(22724),	-- Monster - Mace1H, Korth'azz
+					i(23583),	-- Monster - Sir Zeliek
+					-- #if SEASON_OF_DISCOVERY
+					i(215444),	-- Monster - Mace - Broken Pipes
+					i(217336),	-- Monster - Incubus Whip Mace1H
+					i(227802),	-- Monster - Torch
+					-- #endif
+				}),
+			}),
+			expansion(EXPANSION.WRATH, {
+				n(P3xx, {
+					i(38468),	-- Kalu'ak Peacebringer
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
@@ -316,12 +358,19 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(SHIELDS, {
 			expansion(EXPANSION.CLASSIC, {
-				i(7748),	-- Forcestone Buckler
-				i(20502),	-- Ironbark Shield [NPC Shield]
-				i(18342),	-- Quel'dorei Guard [NPC Shield I believe]
-				i(21549),	-- Monster - Shield, Shieldguard
-				i(21572),	-- Monster - Shield, Alliance PVP
-				i(23356),	-- Monster - Shield, Skullflame
+				n(P1xx, {
+					i(7748),	-- Forcestone Buckler
+					i(20502),	-- Ironbark Shield [NPC Shield]
+					i(18342),	-- Quel'dorei Guard [NPC Shield I believe]
+					i(21549),	-- Monster - Shield, Shieldguard
+					i(21572),	-- Monster - Shield, Alliance PVP
+					i(23356),	-- Monster - Shield, Skullflame
+				}),
+			}),
+			expansion(EXPANSION.TBC, {
+				n(P2xx, {
+					i(34415),	-- Crystaline Shard Shield
+				}),
 			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
@@ -590,13 +639,9 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(DAGGERS, {
 			-- Load In Game
-			i(62329),	-- Dire Slasher (never added)
-			i(115446),	-- Brianium Dagger
 			i(182564, { ["ItemAppearanceModifierID"] = 153 }),	-- NPE Weapon Dagger AGI
 			i(182573, { ["ItemAppearanceModifierID"] = 153 }),	-- NPE Weapon Dagger AGI 2
 			-- ItemID/Retrieving
-			i(23422),	-- Engraved Dagger
-			i(38247),	-- Entrail Render
 			i(108785),	-- 7.0 PH Weapon - 1H Dagger Agi
 			i(108786),	-- 7.0 PH Weapon - 1H Dagger Int
 			i(109269),	-- QA Combat Test Agility Dagger 2
@@ -615,9 +660,6 @@ root(ROOTS.NeverImplemented, {
 			i(85588),	-- Reflex Edges [This version never implemented]
 			i(115797),	-- test fist weapon
 			-- ItemID/Retrieving
-			i(20003),	-- Devilsaur Claws
-			i(20005),	-- Devilsaur Claws
-			i(38243),	-- Ravaging Steelfist
 			i(108787),	-- 7.0 PH Weapon - 1H Fist Int
 			i(171191),	-- Owen Test (Season 8 Elite? Added 8.2.5)
 			i(171192),	-- Owen Test (Season 8 Elite? Added 8.2.5)
@@ -632,8 +674,6 @@ root(ROOTS.NeverImplemented, {
 			-- Load In Game
 			i(165270, {["sourceID"] = 101575 }),	-- Fallback Weapon - Gun
 			-- ItemID/Retrieving
-			i(38246),	-- Skull-Forged Blunderbuss
-			i(49455),	-- Blunderbuss of Deforestation
 			i(108790),	-- 7.0 PH Weapon - Gun Agi
 			i(109491),	-- 6.0 QA Combat Test Hunter Gun
 			i(109529),	-- 6.0 QA Combat Test Hunter Gun No Variance
@@ -671,7 +711,6 @@ root(ROOTS.NeverImplemented, {
 			-- Load In Game
 			i(182578, { ["ItemAppearanceModifierID"] = 153 }),	-- NPE Weapon 1H Mace AGI
 			-- ItemID/Retrieving
-			i(38468),	-- Kalu'ak Peacebringer
 			i(108791),	-- 7.0 PH Weapon - 1H Mace Agi
 			i(108792),	-- 7.0 PH Weapon - 1H Mace Str
 			i(108793),	-- 7.0 PH Weapon - 1H Mace Int
@@ -778,7 +817,6 @@ root(ROOTS.NeverImplemented, {
 			i(182570, { ["ItemAppearanceModifierID"] = 153 }),	-- NPE Weapon Shield
 			i(182576, { ["ItemAppearanceModifierID"] = 153 }),	-- NPE Weapon Shield 2
 			-- ItemID/Retrieving
-			i(34415),	-- Crystaline Shard Shield
 			i(60220),	-- Theodore's Heirloom Buckler
 			i(108808),	-- 7.0 PH Shield - Shield Str
 			i(108809),	-- 7.0 PH Shield - Shield Int
