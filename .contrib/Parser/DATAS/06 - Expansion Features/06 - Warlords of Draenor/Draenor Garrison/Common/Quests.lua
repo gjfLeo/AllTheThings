@@ -2681,6 +2681,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["provider"] = { "o", 239791 },	-- Relic Hunting Notes
 				["coords"] = { { 40.2, 56.0, FROSTWALL }, { 34.6, 32.7, LUNARFALL } },
 				["isDaily"] = true,
+				["g"] = {
+					i(122102),	-- Gronnsbane (QI!)
+					i(122096),	-- Gronnsbane's Blade (QI!)
+					i(122098),	-- Gronnsbane's Haft (QI!)
+					i(122099),	-- Gronnsbane's Weight (QI!)
+				},
 			}),
 			q(37799, {	-- Gutrek's Cleaver: The Final Piece
 				["sourceQuest"] = 37798,	-- Gutrek's Cleaver: The Second Piece
