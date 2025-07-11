@@ -383,7 +383,17 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(60221),	-- Furlbrow Cloak
 			}),
 			n(P4xx, {
+				i(92315),	-- Deliverer Cloak of Destruction
+				i(92352),	-- Deliverer Cloak of Wisdom
+				i(92348),	-- Enlightened Cloak of Destruction
 				i(59791),	-- Giantslayer Cloak
+				i(92345),	-- Naturalist Cloak of Destruction
+				i(92346),	-- Naturalist Cloak of Wisdom
+				i(92349),	-- Partisan Cloak of Wisdom
+				i(92320),	-- Soulseizer Cloak of Destruction
+				i(92317),	-- Thundercaller Cloak of Destruction
+				i(92318),	-- Thundercaller Cloak of Wisdom
+				i(92376),	-- Waterdancer Cloak of Wisdom
 			}),
 		}),
 		filter(CLOTH, {
