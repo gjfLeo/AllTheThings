@@ -3,7 +3,7 @@
 -------------------------------------------------------------------
 LOREWALKING = createHeader({
 	readable = "Lorewalking",
-	icon = [[~_.asset("Feature_Lorewalking")]], -- TODO Not a real asset file
+	icon = 441147,--[[~_.asset("Feature_Lorewalking")]]--, -- TODO Not a real asset file
 	text = {
 		en = "Lorewalking",
 		de = "Lehrensuche",
