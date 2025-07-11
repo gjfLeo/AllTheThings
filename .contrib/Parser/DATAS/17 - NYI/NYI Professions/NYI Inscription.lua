@@ -5,6 +5,11 @@
 root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 	prof(INSCRIPTION, {
 		n(CRAFTABLES, {
+			-- #if BEFORE MOP
+			expansion(EXPANSION.WRATH, {
+				i(43362),	-- Glyph of the Bear Cub
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				-- 5.2.0
 				expansion(EXPANSION.MOP, patch(2,0), bubbleDownSelf({ ["timeline"] = { CREATED_5_2_0 } }, {
@@ -380,6 +385,11 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 			}),
 		}),
 		filter(RECIPES, {
+			-- #if BEFORE MOP
+			expansion(EXPANSION.WRATH, {
+				r(58309),	-- Glyph of the Bear Cub
+			}),
+			-- #endif
 			expansion(EXPANSION.BFA, {
 				-- 8.0.1
 				expansion(EXPANSION.BFA, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_8_0_1 } }, {
