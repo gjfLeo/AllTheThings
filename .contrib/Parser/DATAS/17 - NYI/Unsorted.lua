@@ -1662,7 +1662,6 @@ root(ROOTS.Unsorted, {
 			i(246015),	-- Classic Midnight Eye Patch
 			i(246016),	-- Classic Snowy Eye Patch
 			i(246114),	-- Catalyst Elixir
-			i(246127),	-- Healthy Elixir
 			i(246730),	-- Landro's Loot Box
 			i(246757),	-- Miniature Roulette Wheel
 			i(246758),	-- Miniature Roulette Wheel

@@ -342,9 +342,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 	})),
 	expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
-			ach(18775, {	-- Iwen's Enchanting Rod
-				["provider"] = { "i", 164766 },	-- Iwen's Enchanting Rod
-			}),
+			ach(18775),	-- Iwen's Enchanting Rod
 		})),
 		n(QUESTS, {
 			q(54473, {	-- Enchanted Formulae [A]

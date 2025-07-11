@@ -202,6 +202,7 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 							i(245636), -- Deafening Elixir
 							i(245638), -- Explosive Elixir
 							i(245630), -- Ghostly Elixir
+							i(246127), -- Healthy Elixir
 							i(245590), -- Magma Elixir
 							i(245641), -- Molten Elixir
 							i(245632), -- Rallying Elixir
