@@ -66,6 +66,10 @@ root(ROOTS.NeverImplemented, {
 				expansion(EXPANSION.CATA, patch(0,1), {
 					i(62329),	-- Dire Slasher
 				}),
+				n(P4xx, {
+					i(92204),	-- Darkwalker Dagger
+					i(92192),	-- Darkwalker Shiv
+				}),
 			}),
 			expansion(EXPANSION.MOP, {
 				n(P5xx, {
