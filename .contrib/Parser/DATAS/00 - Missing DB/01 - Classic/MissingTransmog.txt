@@ -70,7 +70,6 @@ s(156868)/i(2519),	-- y Shot \\ Heavy Shot
 s(156885)/i(2543),	--
 s(156916)/i(2586),	-- master's Robe \\ Gamemaster's Robe
 s(156945)/i(2664),	-- ner Fang \\ Spinner Fang
-s(157024)/i(2901),	-- ng Pick \\ Mining Pick
 s(157041)/i(2944),	-- ed Eye of Paleth \\ Cursed Eye of Paleth
 s(157042)/i(2946),	-- en Balanced Throwing Dagger \\ Broken Balanced Throwing Dagger \\ Balanced Throwing Dagger
 s(157043)/i(2947),	-- en Small Throwing Knife \\ Broken Small Throwing Knife \\ Small Throwing Knife
@@ -170,8 +169,8 @@ s(158350)/i(6182),	-- Dim Torch
 s(158599)/i(6606),	--
 s(158623)/i(6653),	-- h of the Dormant Flame \\ Torch of the Dormant Flame
 s(158624)/i(6654),	-- h of the Eternal Flame \\ Torch of the Eternal Flame
+s(158707)/i(6836),	-- s Shoes \\ Dress Shoes
 s(158708)/i(6886),	-- Monster - Throwing Knife
-s(158751)/i(7005),	-- ning Knife \\ Skinning Knife
 s(158774)/i(7066),	--
 s(158795)/i(7167),	--
 s(158796)/i(7169),	--

@@ -497,10 +497,8 @@ i(2561),	-- 'sul's Head \\ Chok'sul's Head
 i(2563),	-- nge Smelling Powder \\ Strange Smelling Powder
 i(2586),	-- master's Robe \\ Gamemaster's Robe
 i(2588),	-- Deprecated Red Leather Mask
-i(2589),	-- n Cloth \\ Linen Cloth
 i(2590),	-- st Spider Webbing \\ Forest Spider Webbing
 i(2591),	-- y Trogg Cloth \\ Dirty Trogg Cloth
-i(2592),	-- Cloth \\ Wool Cloth
 i(2595),	-- of Badlands Bourbon \\ Jug of Badlands Bourbon \\ Jug of Bourbon
 i(2606),	-- er Venom \\ Lurker Venom
 i(2607),	-- rosh Crystal \\ Mo'grosh Crystal
@@ -1114,9 +1112,6 @@ i(4285),	-- Codex of Holy Word: Fortitude IV
 i(4286),	-- Codex of Prayer of Healing II
 i(4287),	-- Codex of Nullify Disease II
 i(4288),	-- Codex of Remove Curse II
-i(4289),	--  \\ Salt
-i(4306),	-- Cloth \\ Silk Cloth
-i(4337),	-- k Spider's Silk \\ Thick Spider's Silk
 i(4418),	-- Deprecated Creeper Cakes
 i(4419),	-- ll of Intellect III \\ Scroll of Intellect III
 i(4421),	-- ll of Protection III \\ Scroll of Protection III
@@ -1140,12 +1135,10 @@ i(4453),	-- l of Thoradin \\ Sigil of Thoradin
 i(4458),	-- l of Arathor \\ Sigil of Arathor
 i(4459),	-- tle Dragon Bone \\ Brittle Dragon Bone
 i(4460),	-- ed Wing Webbing \\ Ripped Wing Webbing
-i(4461),	-- or Hide \\ Raptor Hide
 i(4466),	-- l of Trollbane \\ Sigil of Trollbane
 i(4467),	-- l of Ignaeus \\ Sigil of Ignaeus
 i(4468),	-- thed Trol'kalar \\ Sheathed Trol'kalar
 i(4469),	-- of Order \\ Rod of Order
-i(4470),	-- le Wood \\ Simple Wood
 i(4471),	-- t and Tinder \\ Flint and Tinder
 i(4472),	-- ll of Myzrael \\ Scroll of Myzrael
 i(4473),	-- itch Shackles \\ Eldritch Shackles
@@ -1615,7 +1608,6 @@ i(5460),	-- dil's Cure \\ Orendil's Cure
 i(5461),	-- ch of Cenarius \\ Branch of Cenarius
 i(5463),	-- ing Gem \\ Glowing Gem
 i(5464),	-- Shaft \\ Iron Shaft
-i(5468),	-- Frenzy Flesh \\ Soft Frenzy Flesh
 i(5475),	-- en Key \\ Wooden Key
 i(5481),	-- r Horns \\ Satyr Horns
 i(5490),	-- htail Head \\ Wrathtail Head
@@ -1635,7 +1627,6 @@ i(5519),	-- Pommel \\ Iron Pommel
 i(5520),	-- nde's Journal \\ Velinde's Journal
 i(5521),	-- nde's Key \\ Velinde's Key
 i(5522),	-- Spellstone (DEPRECATED) \\ Spellstone
-i(5524),	-- k-Shelled Clam \\ Thick-Shelled Clam \\ Thick-shelled Clam
 i(5529),	-- Dust \\ Tomb Dust
 i(5531),	-- Deprecated Brakgul Deathbringer's Head
 i(5533),	-- ud Magthrull's Tome \\ Ilkrud Magthrull's Tome
@@ -1903,7 +1894,6 @@ i(6209),	-- PVP - Horde Mine Deed
 i(6210),	-- PVP - Alliance Mine Deed
 i(6213),	-- Test Sharpening Stone
 i(6216),	-- Mystical Powder
-i(6217),	-- er Rod \\ Copper Rod
 i(6244),	-- ggggfg
 i(6245),	-- itol's Satchel \\ Karnitol's Satchel
 i(6246),	-- fury Claw \\ Hatefury Claw
@@ -1942,7 +1932,6 @@ i(6302),	-- cate Insect Wing \\ Delicate Insect Wing
 i(6304),	-- Diary Page (Day 4) \\ Damp Diary Page (Day 4)
 i(6305),	-- Diary Page (Day 87) \\ Damp Diary Page (Day 87)
 i(6306),	-- Diary Page (Day 512) \\ Damp Diary Page (Day 512)
-i(6307),	-- age in a Bottle \\ Message in a Bottle
 i(6312),	-- n's Heart \\ Dalin's Heart
 i(6313),	-- r's Heart \\ Corma's Heart \\ Comar's Heart
 i(6353),	-- l Chest \\ Small Chest
@@ -1982,9 +1971,6 @@ i(6499),	-- Inscribed Kodo Leather
 i(6500),	-- ribed Kodo Leather \\ Inscribed Kodo Leather
 i(6501),	-- ribed Kodo Leather \\ Inscribed Kodo Leather
 i(6516),	-- Summoning Scroll \\ Imp Summoning Scroll
-i(6529),	-- y Bauble \\ Shiny Bauble
-i(6530),	-- tcrawlers \\ Nightcrawlers
-i(6532),	-- ht Baubles \\ Bright Baubles
 i(6534),	-- ed Steel Bars \\ Forged Steel Bars
 i(6535),	-- et of Verga \\ Tablet of Verga
 i(6544),	-- Voidwalker Summoning Scroll
@@ -2129,12 +2115,6 @@ i(7307),	-- h Eating Worm \\ Flesh Eating Worm
 i(7308),	-- ation of Manifestation \\ Cantation of Manifestation
 i(7309),	-- ran Status Report \\ Dalaran Status Report
 i(7333),	-- seer's Whistle \\ Overseer's Whistle
-i(7337),	-- Rock \\ The Rock
-i(7338),	-- Ring \\ Mood Ring
-i(7339),	-- scule Diamond Ring \\ Miniscule Diamond Ring
-i(7340),	-- less Diamond Solitaire \\ Flawless Diamond Solitaire
-i(7341),	-- c Zirconia Ring \\ Cubic Zirconia Ring
-i(7342),	-- er Piffeny Band \\ Silver Piffeny Band
 i(7343),	-- les' Wrench \\ Bingles' Wrench
 i(7345),	-- les' Screwdriver \\ Bingles' Screwdriver
 i(7346),	-- les' Hammer \\ Bingles' Hammer
@@ -2816,7 +2796,6 @@ i(10005),	-- ol's Gigantic Horn \\ Margol's Gigantic Horn
 i(10022),	-- f of Deed \\ Proof of Deed
 i(10049),	-- Diabolist's Blade
 i(10283),	-- Heart Samples \\ Wolf Heart Samples
-i(10285),	-- ow Silk \\ Shadow Silk
 i(10305),	-- ll of Protection IV \\ Scroll of Protection IV
 i(10306),	-- Scroll of Versatility IV \\ ll of Versatility IV \\ Scroll of Spirit IV
 i(10307),	-- ll of Stamina IV \\ Scroll of Stamina IV
@@ -2968,7 +2947,6 @@ i(11283),	-- spark's Signed Pledge \\ Overspark's Signed Pledge
 i(11284),	-- rate Slugs \\ Accurate Slugs
 i(11285),	-- ed Arrow \\ Jagged Arrow
 i(11286),	-- ium Shackles \\ Thorium Shackles
-i(11291),	-- Wood \\ Star Wood
 i(11316),	-- dpetal \\ Bloodpetal
 i(11319),	-- aded Zapper \\ Unloaded Zapper
 i(11362),	-- um Quiver \\ Medium Quiver
@@ -3320,7 +3298,6 @@ i(13733),	-- [PH] Rising Dawn Fists
 i(13734),	-- [PH] Rising Dawn Gauntlets
 i(13735),	-- [PH] Shining Dawn Mitts
 i(13752),	-- bound Keepsake \\ Soulbound Keepsake
-i(13757),	-- tning Eel \\ Lightning Eel
 i(13761),	-- en Eggs \\ Frozen Eggs
 i(13774),	-- [PH] Cloth Leggings of the Brilliant Dawn
 i(13786),	-- [PH] Brilliant Dawn Hat
@@ -3341,10 +3318,6 @@ i(13872),	-- le of Wood \\ Bundle of Wood
 i(13875),	-- bound Locked Chest \\ Ironbound Locked Chest
 i(13890),	-- ed Armorfish \\ Plated Armorfish
 i(13892),	-- Kombobulator \\ Kodo Kombobulator
-i(13918),	-- forced Locked Chest \\ Reinforced Locked Chest
-i(14047),	-- cloth \\ Runecloth
-i(14227),	-- web Spider Silk \\ Ironweb Spider Silk
-i(14256),	-- loth \\ Felcloth
 i(14338),	-- y Water Tube \\ Empty Water Tube
 i(14339),	-- well Water Tube \\ Moonwell Water Tube
 i(14381),	-- totem Satchel \\ Grimtotem Satchel
@@ -3634,7 +3607,6 @@ i(17035),	-- nglethorn Seed \\ Stranglethorn Seed
 i(17036),	-- ood Seed \\ Ashwood Seed
 i(17037),	-- beam Seed \\ Hornbeam Seed
 i(17038),	-- wood Seed \\ Ironwood Seed
-i(17056),	-- t Feather \\ Light Feather
 i(17057),	-- y Fish Scales \\ Shiny Fish Scales
 i(17058),	-- Oil \\ Fish Oil
 i(17114),	-- 's Phylactery Shard \\ Araj's Phylactery Shard
@@ -4018,8 +3990,6 @@ i(20676),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20677),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20678),	-- ded Twilight Text \\ Decoded Twilight Text
 i(20679),	-- ded Twilight Text \\ Decoded Twilight Text
-i(20708),	-- tly Sealed Trunk \\ Tightly Sealed Trunk
-i(20709),	-- ey Rum Light \\ Rumsey Rum Light
 i(20737),	-- ed Corestone \\ Singed Corestone
 i(20739),	-- Deadwood Headdress Feather DEPRECATED
 i(20740),	-- Winterfall Spirit Beads DEPRECATED
@@ -4044,7 +4014,6 @@ i(21038),	-- packed Snowball \\ Hardpacked Snowball
 i(21043),	-- erious Envelope \\ Mysterious Envelope
 i(21111),	-- onic For Dummies: Volume II \\ Draconic For Dummies: Volume II
 i(21112),	-- cal Book Binding \\ Magical Book Binding
-i(21113),	-- rtight Trunk \\ Watertight Trunk
 i(21114),	-- ey Rum Dark \\ Rumsey Rum Dark
 i(21121),	-- Monster - Item, Flower - Purple
 i(21123),	-- Monster - Item, Flower - White
@@ -4063,8 +4032,6 @@ i(21146),	-- ment of the Nightmare's Corruption \\ Fragment of the Nightmare's C
 i(21147),	-- ment of the Nightmare's Corruption \\ Fragment of the Nightmare's Corruption
 i(21148),	-- ment of the Nightmare's Corruption \\ Fragment of the Nightmare's Corruption
 i(21149),	-- ment of the Nightmare's Corruption \\ Fragment of the Nightmare's Corruption
-i(21150),	-- Bound Trunk \\ Iron Bound Trunk
-i(21151),	-- ey Rum Black Label \\ Rumsey Rum Black Label
 i(21152),	-- Nightmare's Corruption \\ The Nightmare's Corruption
 i(21155),	-- ermaw Offering of Peace \\ Timbermaw Offering of Peace
 i(21158),	-- 'Zora Scout Report \\ Hive'Zora Scout Report
@@ -4083,7 +4050,6 @@ i(21224),	-- ent Armor Fragment \\ Ancient Armor Fragment
 i(21225),	-- y Silithid Husk \\ Heavy Silithid Husk
 i(21226),	-- c Stone \\ Runic Stone
 i(21227),	-- ent Hero's Skull \\ Ancient Hero's Skull
-i(21228),	-- ril Bound Trunk \\ Mithril Bound Trunk
 i(21236),	-- Winter Veil Loaf
 i(21238),	-- Winter Veil Cookie UNUSED
 i(21240),	-- Winter Veil Candy

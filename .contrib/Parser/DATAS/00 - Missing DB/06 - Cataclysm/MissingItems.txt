@@ -336,7 +336,6 @@ i(40903),	-- Charred Glyph \\ red Glyph \\ Glyph of Pounce \\ Glyph of Rake
 i(41094),	-- Charred Glyph \\ red Glyph \\ Glyph of Devotion Aura \\ Glyph of Rebuke \\ Glyph of Seal of Command
 i(41101),	-- Charred Glyph \\ red Glyph \\ Glyph of Focused Shield \\ Glyph of Avenger's Shield
 i(41105),	-- Charred Glyph \\ red Glyph \\ Glyph of Word of Glory \\ Glyph of Flash of Light
-i(41107),	-- Charred Glyph \\ red Glyph \\ Glyph of Harsh Words \\ Glyph of the Ascetic Crusader \\ Glyph of Avenging Wrath
 i(41109),	-- Charred Glyph \\ red Glyph \\ Glyph of Light of Dawn \\ Glyph of Seal of Wisdom
 i(41110),	-- Charred Glyph \\ red Glyph \\ Glyph of Blessed Life \\ Glyph of Seal of Insight \\ Glyph of Seal of Light
 i(41170),	-- stone \\ Firestone \\ Lesser Firestone
@@ -396,9 +395,7 @@ i(42740),	-- red Glyph \\ Charred Glyph \\ Glyph of Fire Blast
 i(42753),	-- Charred Glyph \\ red Glyph \\ Glyph of Icy Veins \\ Glyph of Cone of Cold \\ Glyph of Remove Curse
 i(42754),	-- Charred Glyph \\ red Glyph \\ Glyph of Spellsteal \\ Glyph of Dragon's Breath \\ Glyph of Water Elemental
 i(42899),	-- Charred Glyph \\ red Glyph \\ Glyph of Liberation \\ Glyph of Trap Launcher \\ Glyph of the Beast
-i(42901),	-- Charred Glyph \\ red Glyph \\ Glyph of Distracting Shot \\ Glyph of Concussive Shot \\ Glyph of Aspect of the Viper
 i(42906),	-- Charred Glyph \\ red Glyph \\ Glyph of Ice Trap \\ Glyph of Frost Trap
-i(42909),	-- Charred Glyph \\ red Glyph \\ Glyph of Animal Bond \\ Glyph of the Dazzled Prey \\ Glyph of the Hawk
 i(42915),	-- Charred Glyph \\ red Glyph \\ Glyph of Mend Pet \\ Glyph of Kill Command \\ Glyph of Trueshot Aura
 i(42916),	-- red Glyph \\ Charred Glyph \\ Glyph of Volley
 i(42965),	-- Charred Glyph \\ red Glyph \\ Glyph of Detection \\ Glyph of Revealing Strike \\ Glyph of Ghostly Strike
@@ -409,7 +406,6 @@ i(43145),	-- ed Vellum \\ Ruined Vellum \\ Armor Vellum III
 i(43146),	-- ed Vellum \\ Ruined Vellum \\ Weapon Vellum III
 i(43394),	-- h of Soulwell \\ Glyph of Soulwell \\ Glyph of Ritual of Souls \\ Glyph of Souls
 i(43412),	-- Charred Glyph \\ red Glyph \\ Glyph of Bloody Healing \\ Glyph of Bloodthirst
-i(43425),	-- Charred Glyph \\ red Glyph \\ Glyph of Shield Slam \\ Glyph of Blocking
 i(43426),	-- red Glyph \\ Charred Glyph \\ Glyph of Last Stand
 i(43429),	-- red Glyph \\ Charred Glyph \\ Glyph of Taunt
 i(43432),	-- Charred Glyph \\ red Glyph \\ Glyph of Raging Wind \\ Glyph of Raging Blow \\ Glyph of Whirlwind
@@ -8347,7 +8343,6 @@ i(92188),	-- Thundercaller Necklace
 i(92189),	-- Soulseizer Medallion
 i(92190),	-- Martial Pendant
 i(92191),	-- Martial Amulet
-i(92192),	-- Darkwalker Shiv
 i(92193),	-- Forestwalker Rifle
 i(92194),	-- Enlightened Wand
 i(92195),	-- Deliverer Wand
@@ -8359,7 +8354,6 @@ i(92200),	-- Martial Legplates
 i(92201),	-- Martial Legguards
 i(92202),	-- Partisan Scepter
 i(92203),	-- Darkwalker Sword
-i(92204),	-- Darkwalker Dagger
 i(92205),	-- Thundercaller Gavel
 i(92206),	-- Thundercaller Scepter
 i(92207),	-- Scourgeheart Pendant

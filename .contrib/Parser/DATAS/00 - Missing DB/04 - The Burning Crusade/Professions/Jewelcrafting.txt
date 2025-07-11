@@ -16,8 +16,6 @@ r(32810),	-- Primal Stone Statue
 Missing in Jewelcrafting
 
 2.0.0.6080
-r(25229),	-- Jewelcrafting
-r(25230),	-- Jewelcrafting
 r(25255),	-- Delicate Copper Wire
 r(25278),	-- Bronze Setting
 r(25280),	-- Elegant Silver Ring
@@ -54,8 +52,6 @@ r(26925),	-- Woven Copper Ring
 r(26926),	-- Heavy Copper Ring
 r(26927),	-- Thick Bronze Necklace
 r(26928),	-- Ornate Tigerseye Necklace
-r(28894),	-- Jewelcrafting
-r(28895),	-- Jewelcrafting
 r(28897),	-- Jewelcrafting
 r(28906),	-- Brilliant Blood Garnet \\ Runed Blood Garnet
 r(28907),	-- Delicate Blood Garnet

@@ -98,7 +98,6 @@ s(118018)/i(2519),	-- y Shot \\ Heavy Shot
 s(118036)/i(2543),	--
 s(118075)/i(2586),	-- master's Robe \\ Gamemaster's Robe
 s(118139)/i(2664),	-- ner Fang \\ Spinner Fang
-s(118338)/i(2901),	-- ng Pick \\ Mining Pick
 s(118371)/i(2944),	-- ed Eye of Paleth \\ Cursed Eye of Paleth
 s(118377)/i(2952),	--
 s(118442)/i(3030),	-- r Arrow \\ Razor Arrow
@@ -178,7 +177,6 @@ s(120996)/i(6182),	-- Dim Torch
 s(121409)/i(6606),	--
 s(121451)/i(6653),	-- h of the Dormant Flame \\ Torch of the Dormant Flame
 s(121452)/i(6654),	-- h of the Eternal Flame \\ Torch of the Eternal Flame
-s(121696)/i(7005),	-- ning Knife \\ Skinning Knife
 s(121721)/i(7066),	--
 s(121786)/i(7167),	--
 s(121788)/i(7169),	--

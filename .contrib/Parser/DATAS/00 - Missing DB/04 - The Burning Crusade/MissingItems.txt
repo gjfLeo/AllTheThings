@@ -48,10 +48,8 @@ i(20804),	-- a's Package \\ Erona's Package
 i(20812),	-- ered Pelt \\ Tattered Pelt
 i(20813),	-- Tooth \\ Lynx Tooth
 i(20814),	-- Broken Master's Throwing Dagger \\ Master's Throwing Dagger
-i(20815),	-- Jeweler's Toolset \\ ler's Kit \\ Jeweler's Kit
 i(20819),	-- Malachite \\ Cut Malachite
 i(20822),	-- Tigerseye \\ Cut Tigerseye
-i(20824),	-- le Grinder \\ Simple Grinder
 i(20825),	-- Cut Shadowgem
 i(20829),	-- Cut Moonstone
 i(20842),	-- ed Tender Vine \\ Frayed Tender Vine
@@ -1258,7 +1256,6 @@ i(29477),	-- son Crystal Shard \\ Crimson Crystal Shard
 i(29478),	-- of Revitalization \\ Seed of Revitalization
 i(29480),	-- hed Hydra Sample \\ Parched Hydra Sample
 i(29481),	-- ered Bog Lord Sample \\ Withered Bog Lord Sample
-i(29482),	-- reum Essence \\ Ethereum Essence
 i(29501),	-- naar Key \\ Sha'naar Key
 i(29513),	-- f of the Dreghood Elders \\ Staff of the Dreghood Elders
 i(29545),	-- ury Military Briefing \\ Sunfury Military Briefing
@@ -1299,7 +1296,6 @@ i(29589),	-- ing Legion Missive \\ Burning Legion Missive
 i(29591),	-- ared Ethereum Wrapping \\ Prepared Ethereum Wrapping
 i(29592),	-- gnia of the Horde \\ Insignia of the Horde
 i(29593),	-- gnia of the Alliance \\ Insignia of the Alliance
-i(29618),	-- ectorate Disruptor \\ Protectorate Disruptor
 i(29624),	-- t Half of Socrethar's Stone \\ First Half of Socrethar's Stone
 i(29625),	-- nd Half of Socrethar's Stone \\ Second Half of Socrethar's Stone
 i(29699),	-- ethar's Teleportation Stone \\ Socrethar's Teleportation Stone
@@ -2272,7 +2268,6 @@ i(35713),	-- Ninja Hook [PH]
 i(35720),	-- of Frost's Private Label \\ Lord of Frost's Private Label
 i(35721),	-- Flaskataur's Lamp
 i(35722),	-- r's Wipe Neutralizer \\ Wipe Neutralizer \\ Foror's Wipe Neutralizer
-i(35725),	-- er Incense \\ Summer Incense
 i(35732),	-- TEST HELM
 i(35758),	-- dy Seaspray Emerald \\ Steady Seaspray Emerald
 i(35759),	-- eful Seaspray Emerald \\ Forceful Seaspray Emerald

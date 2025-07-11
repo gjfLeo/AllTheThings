@@ -17,11 +17,8 @@ i(40900),	-- Charred Glyph \\ red Glyph \\ Glyph of the Stag \\ Glyph of Mangle
 i(40915),	-- Charred Glyph \\ red Glyph \\ Glyph of Efflorescence \\ Glyph of Lifebloom
 i(40921),	-- Charred Glyph \\ red Glyph \\ Glyph of Skull Bash \\ Glyph of Starfall
 i(41094),	-- Charred Glyph \\ red Glyph \\ Glyph of Devotion Aura \\ Glyph of Rebuke \\ Glyph of Seal of Command
-i(41097),	-- Charred Glyph \\ red Glyph \\ Glyph of Templar's Verdict \\ Glyph of Hammer of Wrath
 i(41102),	-- Charred Glyph \\ red Glyph \\ Glyph of Burden of Guilt \\ Glyph of Turn Evil
-i(41107),	-- Charred Glyph \\ red Glyph \\ Glyph of Harsh Words \\ Glyph of the Ascetic Crusader \\ Glyph of Avenging Wrath
 i(41110),	-- Charred Glyph \\ red Glyph \\ Glyph of Blessed Life \\ Glyph of Seal of Insight \\ Glyph of Seal of Light
-i(41517),	-- Charred Glyph \\ red Glyph \\ Glyph of Unstable Earth \\ Glyph of Chain Heal
 i(41524),	-- Charred Glyph \\ red Glyph \\ Glyph of Spirit Walk \\ Glyph of Lava Burst \\ Glyph of Lava
 i(41526),	-- Charred Glyph \\ red Glyph \\ Glyph of Capacitor Totem \\ Glyph of Shocking
 i(41527),	-- Charred Glyph \\ red Glyph \\ Glyph of Purge \\ Glyph of Earthliving Weapon
@@ -48,9 +45,7 @@ i(42751),	-- h of Crittermorph \\ Glyph of Crittermorph \\ Glyph of Molten Armor
 i(42753),	-- Charred Glyph \\ red Glyph \\ Glyph of Icy Veins \\ Glyph of Cone of Cold \\ Glyph of Remove Curse
 i(42754),	-- Charred Glyph \\ red Glyph \\ Glyph of Spellsteal \\ Glyph of Dragon's Breath \\ Glyph of Water Elemental
 i(42899),	-- Charred Glyph \\ red Glyph \\ Glyph of Liberation \\ Glyph of Trap Launcher \\ Glyph of the Beast
-i(42901),	-- Charred Glyph \\ red Glyph \\ Glyph of Distracting Shot \\ Glyph of Concussive Shot \\ Glyph of Aspect of the Viper
 i(42902),	-- Charred Glyph \\ red Glyph \\ Glyph of Endless Wrath \\ Glyph of Bestial Wrath
-i(42909),	-- Charred Glyph \\ red Glyph \\ Glyph of Animal Bond \\ Glyph of the Dazzled Prey \\ Glyph of the Hawk
 i(42911),	-- Charred Glyph \\ red Glyph \\ Glyph of Pathfinding \\ Glyph of Rapid Fire
 i(42914),	-- Charred Glyph \\ red Glyph \\ Glyph of Aimed Shot \\ Glyph of Steady Shot
 i(42915),	-- Charred Glyph \\ red Glyph \\ Glyph of Mend Pet \\ Glyph of Kill Command \\ Glyph of Trueshot Aura
@@ -62,7 +57,6 @@ i(42965),	-- Charred Glyph \\ red Glyph \\ Glyph of Detection \\ Glyph of Reveal
 i(42968),	-- Charred Glyph \\ red Glyph \\ Glyph of Smoke Bomb \\ Glyph of Preparation
 i(42969),	-- Charred Glyph \\ red Glyph \\ Glyph of Cheap Shot \\ Glyph of Rupture
 i(43356),	-- Charred Glyph \\ red Glyph \\ Glyph of Stampede \\ Glyph of Scare Beast
-i(43362),	-- Charred Glyph \\ red Glyph \\ Glyph of the Bear Cub \\ zzOLDGlyph of the Bear Cub
 i(43372),	-- Charred Glyph \\ red Glyph \\ Glyph of Reflective Shield \\ Glyph of Shadow Protection
 i(43374),	-- Charred Glyph \\ red Glyph \\ Glyph of Dark Archangel \\ Glyph of Shadowfiend
 i(43394),	-- h of Soulwell \\ Glyph of Soulwell \\ Glyph of Ritual of Souls \\ Glyph of Souls
@@ -82,16 +76,13 @@ i(43827),	-- Charred Glyph \\ red Glyph \\ Glyph of Corpse Explosion \\ Glyph of
 i(43867),	-- Charred Glyph \\ red Glyph \\ Glyph of Denounce \\ Glyph of Holy Wrath
 i(43869),	-- Charred Glyph \\ red Glyph \\ Glyph of Immediate Truth \\ Glyph of Seal of Truth \\ Glyph of Seal of Vengeance
 i(44684),	-- Charred Glyph \\ red Glyph \\ Glyph of Frostfire Bolt \\ Glyph of Frostfire
-i(44920),	-- Charred Glyph \\ red Glyph \\ Glyph of Remove Curse \\ Glyph of Blast Wave
 i(44922),	-- h of Stars \\ Glyph of Stars \\ Glyph of Typhoon
 i(44924),	-- Lute of the Phoenix King \\ Sun-Lute of the Phoenix King \\ Arcanite Ripper (NEW)
 i(44928),	-- Charred Glyph \\ red Glyph \\ Glyph of Master Shapeshifter \\ Glyph of Focus
-i(44955),	-- Charred Glyph \\ red Glyph \\ Glyph of Arcane Power \\ Glyph of Arcane Blast
 i(45601),	-- Charred Glyph \\ red Glyph \\ Glyph of Survival Instincts \\ Glyph of Berserk
 i(45603),	-- Charred Glyph \\ red Glyph \\ Glyph of Might of Ursoc \\ Glyph of Starsurge \\ Glyph of Nourish
 i(45604),	-- Charred Glyph \\ red Glyph \\ Glyph of Stampeding Roar \\ Glyph of Savage Roar
 i(45731),	-- Charred Glyph \\ red Glyph \\ Glyph of Tranquilizing Shot \\ Glyph of Explosive Shot
-i(45732),	-- Charred Glyph \\ red Glyph \\ Glyph of Aspect of the Cheetah \\ Glyph of Kill Shot
 i(45735),	-- Charred Glyph \\ red Glyph \\ Glyph of Mirrored Blades \\ Glyph of Raptor Strike
 i(45736),	-- Charred Glyph \\ red Glyph \\ Glyph of Water Elemental \\ Glyph of Deep Freeze
 i(45738),	-- Charred Glyph \\ red Glyph \\ Glyph of Illusion \\ Glyph of Arcane Barrage
@@ -106,7 +97,6 @@ i(45766),	-- Charred Glyph \\ red Glyph \\ Glyph of Deadly Momentum \\ Glyph of 
 i(45778),	-- Charred Glyph \\ red Glyph \\ Glyph of Totemic Vigor \\ Glyph of Stoneclaw Totem
 i(45779),	-- Charred Glyph \\ red Glyph \\ Glyph of Drain Life \\ Glyph of Haunt
 i(45780),	-- Charred Glyph \\ red Glyph \\ Glyph of Demon Hunting \\ Glyph of Metamorphosis
-i(45781),	-- Charred Glyph \\ red Glyph \\ Glyph of Ember Tap \\ Glyph of Chaos Bolt
 i(45783),	-- Charred Glyph \\ red Glyph \\ Glyph of Unending Resolve \\ Glyph of Shadowflame
 i(45789),	-- h of Crimson Banish \\ Glyph of Crimson Banish \\ Glyph of Soul Link
 i(45790),	-- Charred Glyph \\ red Glyph \\ Glyph of Whirlwind \\ Glyph of Bladestorm
@@ -677,7 +667,6 @@ i(79321),	-- Monster - Staff (Darkmaster Gandling)
 i(79322),	-- Monster - Axe, Stone Basic (Savagery)
 i(79338),	-- et of Meaty Dog Food \\ Bucket of Meaty Dog Food
 i(79344),	-- arvest Firework \\ Pomharvest Firework
-i(79513),	-- Charred Glyph \\ red Glyph \\ Glyph of Mind Flay
 i(79514),	-- Charred Glyph \\ red Glyph \\ Glyph of Shadow Word: Death
 i(79515),	-- Charred Glyph \\ red Glyph \\ Glyph of Vampiric Embrace
 i(79538),	-- h of the Heavens \\ Glyph of the Heavens
@@ -2557,7 +2546,6 @@ i(85678),	-- Monster - Staff_2h_PVPPandariaS1_C_02 - Red
 i(85679),	-- Monster - Staff_2h_PVPPandariaS1_C_03
 i(85680),	-- Monster - Staff_2h_PVPPandariaS1_C_03 - Green
 i(85681),	-- room \\ Lushroom
-i(85683),	-- Charred Glyph \\ red Glyph \\ Glyph of Aspect of the Beast
 i(85684),	-- Charred Glyph \\ red Glyph \\ Glyph of Black Ice
 i(85685),	-- Charred Glyph \\ red Glyph \\ Glyph of Breath of Fire
 i(85686),	-- zzOLD Glyph of Chi Wave
@@ -2566,11 +2554,7 @@ i(85688),	-- ssive from Lorewalker Cho \\ A Missive from Lorewalker Cho
 i(85689),	-- Charred Glyph \\ red Glyph \\ Glyph of Enduring Healing Sphere
 i(85691),	-- Charred Glyph \\ red Glyph \\ Glyph of Guard
 i(85692),	-- Charred Glyph \\ red Glyph \\ Glyph of Mana Tea
-i(85695),	-- Charred Glyph \\ red Glyph \\ Glyph of Zen Meditation
-i(85696),	-- Charred Glyph \\ red Glyph \\ Glyph of Renewing Mists
-i(85697),	-- Charred Glyph \\ red Glyph \\ Glyph of Spinning Crane Kick
 i(85698),	-- Charred Glyph \\ red Glyph \\ Glyph of Spinning Fire Blossom
-i(85699),	-- Charred Glyph \\ red Glyph \\ Glyph of Surging Mist
 i(85700),	-- Charred Glyph \\ red Glyph \\ Glyph of Touch of Death
 i(85708),	-- zzOLD Glyph of Vampiric Touch
 i(85711),	-- zzOLD Glyph of the Bear Cub
@@ -3166,7 +3150,6 @@ i(87389),	-- e of the Anointed \\ Blade of the Anointed
 i(87390),	-- es of the Anointed \\ Blades of the Anointed
 i(87391),	-- dered Treasure \\ Plundered Treasure
 i(87392),	-- h of Shadowy Friends \\ Glyph of Shadowy Friends
-i(87393),	-- Charred Glyph \\ red Glyph \\ Glyph of Fetch
 i(87395),	-- Monster - Sword_1h_PandaRaid_D_03
 i(87396),	-- Monster - Sword_1h_PandaRaid_D_03 - Dark
 i(87397),	-- Monster - Sword_1h_PandaRaid_D_03 - Green
@@ -3311,7 +3294,6 @@ i(87866),	-- Monster - Staff_2h_PandaRaid_D_04 - Green
 i(87871),	-- ive Kyparite Core \\ Massive Kyparite Core
 i(87875),	-- Charred Glyph \\ red Glyph \\ Glyph of Lightspring
 i(87878),	-- mous Kunchong Mandibles \\ Enormous Kunchong Mandibles
-i(87880),	-- Charred Glyph \\ red Glyph \\ Glyph of Nimble Brew
 i(87881),	-- h of Crackling Tiger Lightning \\ Glyph of Crackling Tiger Lightning
 i(87882),	-- Charred Glyph \\ red Glyph \\ Glyph of Flying Serpent Kick
 i(87883),	-- h of Honor \\ Glyph of Honor
@@ -3322,17 +3304,6 @@ i(87887),	-- Charred Glyph \\ red Glyph \\ Glyph of Spirit Roll
 i(87888),	-- h of Fighting Pose \\ Glyph of Fighting Pose
 i(87889),	-- Charred Glyph \\ red Glyph \\ Glyph of Water Roll
 i(87890),	-- Charred Glyph \\ red Glyph \\ Glyph of Zen Flight
-i(87891),	-- Charred Glyph \\ red Glyph \\ Glyph of Afterlife
-i(87892),	-- Charred Glyph \\ red Glyph \\ Glyph of Fists of Fury
-i(87893),	-- Charred Glyph \\ red Glyph \\ Glyph of Fortifying Brew
-i(87894),	-- Charred Glyph \\ red Glyph \\ Glyph of Leer of the Ox
-i(87895),	-- Charred Glyph \\ red Glyph \\ Glyph of Life Cocoon
-i(87896),	-- Charred Glyph \\ red Glyph \\ Glyph of Fortuitous Spheres
-i(87897),	-- Charred Glyph \\ red Glyph \\ Glyph of Paralysis
-i(87898),	-- Charred Glyph \\ red Glyph \\ Glyph of Sparring
-i(87899),	-- Charred Glyph \\ red Glyph \\ Glyph of Detox
-i(87900),	-- Charred Glyph \\ red Glyph \\ Glyph of Touch of Karma
-i(87901),	-- Charred Glyph \\ red Glyph \\ Glyph of Targeted Expulsion
 i(87902),	-- Charred Glyph \\ red Glyph \\ Glyph of Lightwell
 i(87911),	-- Art Template Cloth Cloak - Cape_Pandaria_D_04
 i(87912),	-- Art Template Cloth Cloak - Cape_Pandaria_D_04 - Green
@@ -8153,5 +8124,3 @@ i(248741),	-- Reins of the Celestial Riding Crane
 i(248742),	-- Reins of the Celestial Riding Tiger
 i(248743),	-- Reins of the Celestial Riding Serpent
 i(248744),	-- Reins of the Celestial Riding Ox
-5.5.0.61916
-i(249899),	-- Coinpurse of Good Fortune

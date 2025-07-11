@@ -51,9 +51,13 @@ root(ROOTS.NeverImplemented, {
 					i(23369),	-- Monster - Dagger, Claw of Chromaggus
 				}),
 			}),
+			expansion(EXPANSION.TBC, {
+				n(P2xx, {
+					i(23422),	-- Engraved Dagger
+				}),
+			}),
 			expansion(EXPANSION.WRATH, {
 				expansion(EXPANSION.WRATH, patch(0,2), {
-					i(23422),	-- Engraved Dagger
 					i(38247),	-- Entrail Render
 				}),
 				-- #if ANYCLASSIC

@@ -1704,11 +1704,9 @@ i(41058),	-- nir Harpoon \\ Hyldnir Harpoon
 i(41091),	-- Hand-Mounted Pyro Rocket
 i(41093),	-- rspeed Accelerators \\ Hyperspeed Accelerators
 i(41094),	-- Charred Glyph \\ red Glyph \\ Glyph of Devotion Aura \\ Glyph of Rebuke \\ Glyph of Seal of Command
-i(41097),	-- Charred Glyph \\ red Glyph \\ Glyph of Templar's Verdict \\ Glyph of Hammer of Wrath
 i(41101),	-- Charred Glyph \\ red Glyph \\ Glyph of Focused Shield \\ Glyph of Avenger's Shield
 i(41102),	-- Charred Glyph \\ red Glyph \\ Glyph of Burden of Guilt \\ Glyph of Turn Evil
 i(41105),	-- Charred Glyph \\ red Glyph \\ Glyph of Word of Glory \\ Glyph of Flash of Light
-i(41107),	-- Charred Glyph \\ red Glyph \\ Glyph of Harsh Words \\ Glyph of the Ascetic Crusader \\ Glyph of Avenging Wrath
 i(41109),	-- Charred Glyph \\ red Glyph \\ Glyph of Light of Dawn \\ Glyph of Seal of Wisdom
 i(41110),	-- Charred Glyph \\ red Glyph \\ Glyph of Blessed Life \\ Glyph of Seal of Insight \\ Glyph of Seal of Light
 i(41111),	-- weave Underlay \\ Flexweave Underlay
@@ -1887,7 +1885,6 @@ i(41505),	-- im's Charm of Earth \\ Thorim's Charm of Earth
 i(41506),	-- ite Boulder \\ Granite Boulder
 i(41507),	-- o Seaforium Charge \\ Jumbo Seaforium Charge
 i(41514),	-- e of the Wind \\ Voice of the Wind
-i(41517),	-- Charred Glyph \\ red Glyph \\ Glyph of Unstable Earth \\ Glyph of Chain Heal
 i(41518),	-- Charred Glyph \\ red Glyph \\ Glyph of Chain Lightning
 i(41524),	-- Charred Glyph \\ red Glyph \\ Glyph of Spirit Walk \\ Glyph of Lava Burst \\ Glyph of Lava
 i(41526),	-- Charred Glyph \\ red Glyph \\ Glyph of Capacitor Totem \\ Glyph of Shocking
@@ -2164,10 +2161,8 @@ i(42839),	-- Lorehammer \\ The Lorehammer
 i(42840),	-- of the Peaks \\ Horn of the Peaks
 i(42894),	-- of Elemental Fury \\ Horn of Elemental Fury
 i(42899),	-- Charred Glyph \\ red Glyph \\ Glyph of Liberation \\ Glyph of Trap Launcher \\ Glyph of the Beast
-i(42901),	-- Charred Glyph \\ red Glyph \\ Glyph of Distracting Shot \\ Glyph of Concussive Shot \\ Glyph of Aspect of the Viper
 i(42902),	-- Charred Glyph \\ red Glyph \\ Glyph of Endless Wrath \\ Glyph of Bestial Wrath
 i(42906),	-- Charred Glyph \\ red Glyph \\ Glyph of Ice Trap \\ Glyph of Frost Trap
-i(42909),	-- Charred Glyph \\ red Glyph \\ Glyph of Animal Bond \\ Glyph of the Dazzled Prey \\ Glyph of the Hawk
 i(42911),	-- Charred Glyph \\ red Glyph \\ Glyph of Pathfinding \\ Glyph of Rapid Fire
 i(42913),	-- Charred Glyph \\ red Glyph \\ Glyph of Snake Trap
 i(42914),	-- Charred Glyph \\ red Glyph \\ Glyph of Aimed Shot \\ Glyph of Steady Shot
@@ -2304,7 +2299,6 @@ i(43336),	-- Deprecated Glyph of the Black Bear
 i(43337),	-- Deprecated Glyph of the Forest Lynx
 i(43341),	-- rmed Shoes \\ Unwarmed Shoes
 i(43356),	-- Charred Glyph \\ red Glyph \\ Glyph of Stampede \\ Glyph of Scare Beast
-i(43362),	-- Charred Glyph \\ red Glyph \\ Glyph of the Bear Cub \\ zzOLDGlyph of the Bear Cub
 i(43372),	-- Charred Glyph \\ red Glyph \\ Glyph of Reflective Shield \\ Glyph of Shadow Protection
 i(43374),	-- Charred Glyph \\ red Glyph \\ Glyph of Dark Archangel \\ Glyph of Shadowfiend
 i(43383),	-- Deprecated Glyph of the Arctic Wolf
@@ -2317,7 +2311,6 @@ i(43412),	-- Charred Glyph \\ red Glyph \\ Glyph of Bloody Healing \\ Glyph of B
 i(43415),	-- Charred Glyph \\ red Glyph \\ Glyph of Heavy Repercussions \\ Glyph of Devastate
 i(43419),	-- Charred Glyph \\ red Glyph \\ Glyph of Blitz \\ Glyph of Intervene
 i(43421),	-- Charred Glyph \\ red Glyph \\ Glyph of Mortal Strike
-i(43425),	-- Charred Glyph \\ red Glyph \\ Glyph of Shield Slam \\ Glyph of Blocking
 i(43426),	-- red Glyph \\ Charred Glyph \\ Glyph of Last Stand
 i(43428),	-- Charred Glyph \\ red Glyph \\ Glyph of Sweeping Strikes
 i(43429),	-- red Glyph \\ Charred Glyph \\ Glyph of Taunt
@@ -2766,7 +2759,6 @@ i(44882),	-- num of the Fleeing Shadow \\ Arcanum of the Fleeing Shadow
 i(44883),	-- num of Toxic Warding \\ Arcanum of Toxic Warding
 i(44884),	-- num of the Frosty Soul \\ Arcanum of the Frosty Soul
 i(44890),	-- ini's Blowgun \\ To'kini's Blowgun
-i(44920),	-- Charred Glyph \\ red Glyph \\ Glyph of Remove Curse \\ Glyph of Blast Wave
 i(44921),	-- rak Raptor Egg \\ Gundrak Raptor Egg
 i(44922),	-- h of Stars \\ Glyph of Stars \\ Glyph of Typhoon
 i(44923),	-- Charred Glyph \\ red Glyph \\ Glyph of Thunderstorm
@@ -2780,7 +2772,6 @@ i(44946),	-- ant Weapon - Titanguard \\ Enchant Weapon - Titanguard \\ Scroll of
 i(44948),	-- Titansteel Defender
 i(44950),	-- orasz' Spark \\ Raelorasz' Spark
 i(44952),	-- Monster - Sonic Spear
-i(44955),	-- Charred Glyph \\ red Glyph \\ Glyph of Arcane Power \\ Glyph of Arcane Blast
 i(44964),	-- Omar's Family Jewels
 i(44972),	-- ming Clockbot (NOT IN USE) \\ Alarming Clockbot (NOT IN USE)
 i(44986),	-- s-B-Gone Lip Balm \\ Warts-B-Gone Lip Balm
@@ -2863,12 +2854,10 @@ i(45603),	-- Charred Glyph \\ red Glyph \\ Glyph of Might of Ursoc \\ Glyph of S
 i(45604),	-- Charred Glyph \\ red Glyph \\ Glyph of Stampeding Roar \\ Glyph of Savage Roar
 i(45623),	-- Charred Glyph \\ red Glyph \\ Glyph of Barkskin
 i(45624),	-- em of Conquest \\ Emblem of Conquest
-i(45625),	-- Charred Glyph \\ red Glyph \\ Glyph of Chimera Shot
 i(45692),	-- Monster - Sword, Vargul (Blue) (2H)
 i(45706),	-- endation of Bravery \\ Commendation of Bravery
 i(45724),	-- pion's Purse \\ Champion's Purse
 i(45731),	-- Charred Glyph \\ red Glyph \\ Glyph of Tranquilizing Shot \\ Glyph of Explosive Shot
-i(45732),	-- Charred Glyph \\ red Glyph \\ Glyph of Aspect of the Cheetah \\ Glyph of Kill Shot
 i(45733),	-- Charred Glyph \\ red Glyph \\ Glyph of Master's Call \\ Glyph of Explosive Trap
 i(45734),	-- Charred Glyph \\ red Glyph \\ Glyph of Scatter Shot
 i(45735),	-- Charred Glyph \\ red Glyph \\ Glyph of Mirrored Blades \\ Glyph of Raptor Strike
@@ -2902,7 +2891,6 @@ i(45777),	-- Charred Glyph \\ red Glyph \\ Glyph of Hex
 i(45778),	-- Charred Glyph \\ red Glyph \\ Glyph of Totemic Vigor \\ Glyph of Stoneclaw Totem
 i(45779),	-- Charred Glyph \\ red Glyph \\ Glyph of Drain Life \\ Glyph of Haunt
 i(45780),	-- Charred Glyph \\ red Glyph \\ Glyph of Demon Hunting \\ Glyph of Metamorphosis
-i(45781),	-- Charred Glyph \\ red Glyph \\ Glyph of Ember Tap \\ Glyph of Chaos Bolt
 i(45782),	-- Charred Glyph \\ red Glyph \\ Glyph of Demonic Circle
 i(45783),	-- Charred Glyph \\ red Glyph \\ Glyph of Unending Resolve \\ Glyph of Shadowflame
 i(45785),	-- Charred Glyph \\ red Glyph \\ Glyph of Life Tap

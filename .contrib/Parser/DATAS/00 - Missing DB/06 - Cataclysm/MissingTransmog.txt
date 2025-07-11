@@ -4806,7 +4806,6 @@ s(275359)/i(92178),	-- Scourgeheart Pauldrons
 s(275360)/i(92179),	-- Scourgeheart Shoulderguards
 s(275361)/i(92180),	-- Naturalist Spaulders
 s(275362)/i(92181),	-- Naturalist Shoulders
-s(275363)/i(92192),	-- Darkwalker Shiv
 s(275364)/i(92193),	-- Forestwalker Rifle
 s(275365)/i(92194),	-- Enlightened Wand
 s(275366)/i(92195),	-- Deliverer Wand
@@ -4818,7 +4817,6 @@ s(275371)/i(92200),	-- Martial Legplates
 s(275372)/i(92201),	-- Martial Legguards
 s(275373)/i(92202),	-- Partisan Scepter
 s(275374)/i(92203),	-- Darkwalker Sword
-s(275375)/i(92204),	-- Darkwalker Dagger
 s(275376)/i(92205),	-- Thundercaller Gavel
 s(275377)/i(92206),	-- Thundercaller Scepter
 s(275378)/i(92216),	-- Thundercaller Coif
