@@ -128,25 +128,6 @@ root(ROOTS.Unsorted, {
 				i(243529),	-- Wastelander Brute's Epaulettes
 				i(243530),	-- Wastelander Brute's Greatbelt
 				i(243531),	-- Wastelander Brute's Vambraces
-				i(243532),	-- Wastelander's Gilded Cleaver
-				i(243533),	-- Wastelander's Gilded Carver
-				i(243534),	-- Wastelander's Gilded Chopper
-				i(243535),	-- Wastelander's Gilded Stiletto
-				i(243536),	-- Wastelander's Gilded Kris
-				i(243537),	-- Wastelander's Gilded Mace
-				i(243538),	-- Wastelander's Gilded Warmace
-				i(243539),	-- Wastelander's Gilded Falchion
-				i(243540),	-- Wastelander's Gilded Longsword
-				i(243541),	-- Wastelander's Gilded Blaster
-				i(243542),	-- Wastelander's Gilded Spear
-				i(243543),	-- Wastelander's Gilded Bident
-				i(243544),	-- Wastelander's Gilded Pole
-				i(243545),	-- Wastelander's Gilded Staff
-				i(243546),	-- Wastelander's Gilded Greatsword
-				i(243547),	-- Wastelander's Gilded Blade
-				i(243548),	-- Wastelander's Gilded Censer
-				i(243549),	-- Wastelander's Gilded Bastion
-				i(243550),	-- Wastelander's Gilded Warglaive
 				i(244473),	-- Worn Shadowguard Band
 				i(244474),	-- Worn Shadowguard Signet
 				i(244475),	-- Worn Shadowguard Loop
@@ -234,9 +215,7 @@ root(ROOTS.Unsorted, {
 				i(246071),	-- Mana-Seamster's Arcane-Needle
 				i(246086),	-- Fate Weaver
 				-- Delve Armor?
-				i(242867),	-- Automatic Footbomb Dispenser
 				i(246344),	-- Cursed Stone Idol
-				i(246824),	-- Shadowguard's Twisted Harvester
 				i(246825),	-- Chaotic Nethergate
 				i(246939),	-- Essence-Hunter's Eyeglass
 				i(246940),	-- Manaforged Aethercell
@@ -337,7 +316,6 @@ root(ROOTS.Unsorted, {
 				i(246319),	-- Festering Scythe
 				i(246915),	-- Arsenal: Ethereal Weaponry
 				i(245523),	-- Shadowguard Credentials
-				i(245524),	-- Shadowguard's Phasebound Visor
 				i(245526),	-- Bloodmarked Phasebound Visor
 				i(245527),	-- Consortium's Phasebound Visor
 				i(245528),	-- Wastlander's Phasebound Visor
@@ -722,35 +700,22 @@ root(ROOTS.Unsorted, {
 				i(247926),	-- Muted Mana-Stone
 				i(247927),	-- Humming Mana-Stone
 				i(248200),	-- The Brothers' Not-So-Final Present
-				i(248954),	-- Nether-warped Seedlings
 				i(248970),	-- Nexus-Princess Ky'veza
 				-- Box/Weekly Box
 				i(230032),	-- Overflowing K'aresh Trust Trove
 				i(238921),	-- Containment Canister
 				i(239204),	-- (DNT NEEDS CRESTS) Overflowing K'aresh Trove
-				i(247820),	-- Cache of K'areshi Treasures
-				i(247821),	-- Cache of K'areshi Treasures
 				i(244300),	-- Phase-Sealed Box
 				i(244354),	-- Ethereal Equipment Chest
-				i(244883),	-- Seasoned Undermine Adventurer's Cache
-				i(245280),	-- Seasoned Khaz Algar Adventurer's Cache
 				-- Delve
 				i(245885),	-- Lil Wheel of Cheese=
 				i(248126),	-- Delver's Starter Kit
 				i(248127),	-- Delver's Cosmetic Surprise Bag
 				i(248142),	-- Delver's Bounty
 				i(248755),	-- Star-in-a-jar
-				i(248764),	-- Artisanal Blink Trap
 				-- Curios
-				i(239567),	-- Tailwind Conduit
-				i(239568),	-- Audio Amplification Crystal
 				i(239569),	-- Battered Aegis
 				i(239570),	-- Temporal Decelerator Crystal
-				i(239571),	-- Sands of K'aresh
-				i(239573),	-- Ethereal Energy Converter
-				i(239576),	-- Mana-Tinted Glasses
-				i(239578),	-- Quizzical Device
-				i(239579),	-- Hatarang
 				i(239580),	-- Nether Overlay Matrix
 
 				-- Valorstone
@@ -831,7 +796,6 @@ root(ROOTS.Unsorted, {
 				i(238182),	-- Delver's Mana-Skimmer Schematic: Hyperdrive
 			}),
 			n(PROFESSIONS, {
-				i(231757),	-- Fractured Spark of Starlight
 				i(231770),	-- Formula: Enchanted Gilded Ethereal Crest
 				i(231771),	-- Formula: Enchanted Runed Ethereal Crest
 				i(231772),	-- Formula: Enchanted Weathered Ethereal Crest
@@ -1318,7 +1282,6 @@ root(ROOTS.Unsorted, {
 				i(232553),	-- Temple Keystone[DNT]
 				i(232554),	-- Waning Essence[DNT]
 				i(232568),	-- Priest's Remains[DNT]
-				i(232574),	-- Missing Shipment
 				i(232578),	-- Wastelander Artifact
 				i(232601),	-- Entropic Egg
 				i(232612),	-- Laacunite Shard
@@ -1423,9 +1386,7 @@ root(ROOTS.Unsorted, {
 				i(242654),	-- Shadowtrade Overstock
 				i(242794),	-- Dustback Flank
 				i(242796),	-- Siltwing Tail
-				i(242797),	-- Swoopwing Eggs
-				i(242849),	-- Ancient Curio
-				i(242850),	-- Ancient Curio
+				i(242797),	-- Swoopwing Egg
 				i(244064),	-- Pretzel
 				i(245740),	-- Etched Fragment
 				i(245743),	-- A Curious Crystalline Fragment
@@ -1436,7 +1397,6 @@ root(ROOTS.Unsorted, {
 				i(246446),	-- Mark of the Twilight Oath
 				i(246592),	-- Shadowguard Credentials
 				i(246593),	-- Shadowguard Credentials
-				i(248129),	-- Brann's Repossessed Gear
 			}),
 			filter(TOYS, {
 				i(242636),	-- Astral Legend's Pennant

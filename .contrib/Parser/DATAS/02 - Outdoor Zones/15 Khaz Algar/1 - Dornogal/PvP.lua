@@ -7,11 +7,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			n(QUESTS, {
 				q(83489, {	-- Gathering All Gladiators!
 					["provider"] = { "i", 225772 },	-- Artisan's Consortium Advertisement
-					["timeline"] = { REMOVED_11_1_0_SEASONSTART },
+					["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 				}),
 				q(84925, {	-- Rallying All Rapscallions!
 					["provider"] = { "i", 229401 },	-- Artisan's Consortium Pamphlet
-					["timeline"] = { REMOVED_11_2_0_SEASONSTART },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+				}),
+				q(85229, {	-- Rallying All Rapscallions!
+					["provider"] = { "i", 230284 },	-- Artisan's Consortium Pamphlet
+					["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 				}),
 				q(83711, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_0_2 } }, {	-- Weapons of Conquest
 					["provider"] = { "n", 219222 },	-- Lalandi <Conquest Quartermaster>
@@ -44,6 +48,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(86853, {	-- Sparks of War: Undermine
 					["timeline"] = { ADDED_11_1_0 },
 				}),
+				--q(??, {	-- Sparks of War: K'aresh
+				--	["timeline"] = { ADDED_11_2_0 },
+				--}),
 			})),
 			n(VENDORS, {
 				n(219215, {	-- Hotharn <Competitor's Recipes>

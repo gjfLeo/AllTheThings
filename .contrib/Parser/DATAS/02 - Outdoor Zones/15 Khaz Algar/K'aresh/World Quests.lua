@@ -26,6 +26,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(86709, {	-- Mana Falling from the Skies
 				["coord"] = { 47.5, 23.5, KARESH },
 			}),
+			q(86584, {	-- Overwhelm Them with Mandatory Time Off
+				["coord"] = { 57.7, 33.6, KARESH_TAZAVESH },
+			}),
 			q(86872, {	-- Phase Diving: Experimental Extermination
 				["description"] = "You need to phasedive in order to get this World Quest.",
 				["coord"] = { 52.8, 61.7, KARESH },
@@ -41,6 +44,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(86429, {	-- Phase Diving: The Bound Unbound
 				["description"] = "You need to phasedive in order to get this World Quest.",
 				["coord"] = { 80.2, 49.8, KARESH },
+			}),
+			q(85812, {	-- Raid the Raiders
+				["coord"] = { 74.7, 51.1, KARESH },
+				["g"] = {
+					o(495583, {	-- Missing Shipment
+						i(232574),	-- Missing Shipment (QI!)
+					}),
+				},
+			}),
+			q(86696, {	-- Shadow Re-Disruption
+				["coord"] = { 46.9, 25.3, KARESH },
 			}),
 			q(86409, {	-- Stalking the Crags
 				["coord"] = { 76.2, 57.5, KARESH },
@@ -60,6 +74,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						i(235413),	-- Shadowguard Tool (QI!)
 					}),
 				},
+			}),
+			q(86391, {	-- Taking Back our Power
+				["coord"] = { 62.5, 37.2, KARESH },
 			}),
 			q(86707, {	-- The Shadowguard Resurgence
 				["coord"] = { 38.9, 65.5, KARESH_TAZAVESH },
@@ -93,6 +110,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(91179),	-- Triggered after completing 'Ecological Succession' (first time/Curious Slateback hqt?)
 							-- Triggered after completing 'Special Assignment: Overshadowed' (89293)
 				q(91193),	-- Special Assignment: Capstone 1 - Unlock
+				q(91203),	-- Special Assignment: Capstone 2 - Unlock
 				-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
 				q(91175, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st
 				q(91176, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 2nd

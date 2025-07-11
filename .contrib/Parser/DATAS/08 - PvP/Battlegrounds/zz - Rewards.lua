@@ -351,7 +351,10 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 			["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART },
 		}),
 		i(229401, {	-- Artisan's Consortium Pamphlet (QS!/QI!)
-			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART},
+			["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+		}),
+		i(230284, {	-- Artisan's Consortium Pamphlet (QS!/QI!)
+			["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 },
 		}),
 	})),
 })));

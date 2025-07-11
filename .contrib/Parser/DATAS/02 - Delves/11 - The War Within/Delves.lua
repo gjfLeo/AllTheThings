@@ -1060,6 +1060,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(232891, {	-- Amorphous Relic
 					["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				}),
+				i(242867, {	-- Automatic Footbomb Dispenser
+					["timeline"] = { ADDED_11_2_0_SEASONSTART },
+				}),
 				i(234717, {	-- Blastmaster3000
 					["timeline"] = { ADDED_11_1_0_SEASONSTART },
 				}),
@@ -1077,6 +1080,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
+				i(246824, {	-- Shadowguard's Twisted Harvester
+					["timeline"] = { ADDED_11_2_0_SEASONSTART },
+				}),
 				i(215172),	-- Silken Chain Weaver
 				i(225668),	-- Unstable Power Suit Core
 				i(225891),	-- Vile Vial of Kaheti Bile
@@ -1462,104 +1468,127 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 				--]]
 				n(RANK_FOUR, {
-					i(225903, {	-- Amorphous Relic [Rank 4]
-						["bonusID"] = 11268,
-					}),
-					i(234014, {	-- Automatic Footbomb Dispenser [Rank 4]
-						["bonusID"] = 12160,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(230233, {	-- Biofuel Rocket Gear [Rank 4]
-						["bonusID"] = 12124,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(225897, {	-- Brute Force Idol [Rank 4]
-						["bonusID"] = 11238
-					}),
-					i(230232, {	-- Comically Large Magnet [Rank 4]
-						["bonusID"] = 12120,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(230227, {	-- Goblomagnetic Bouncing Grenade [Rank 4]
-						["bonusID"] = 12148,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(225902, {	-- Idol of Final Will [Rank 4]
-						["bonusID"] = 11263,
-					}),
-					i(225898, {	-- Idol of the Earthmother [Rank 4]
-						["bonusID"] = 11243,
-					}),
-					i(230229, {	-- Impact Conversion Matrix [Rank 4]
-						["bonusID"] = 12156,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(230225, {	-- Kaja'Cola Carrier [Rank 4]
-						["bonusID"] = 12116,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(230230, {	-- L00T RAID-R [Rank 4]
-						["bonusID"] = 12105,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(225906, {	-- Lifeless Necrotic Relic [Rank 4]
-						["bonusID"] = 11283,
-					}),
-					i(225900, {	-- Light-Touched Idol [Rank 4]
-						["bonusID"] = 11253,
-					}),
-					i(234015, {	-- Mechasaur EZ-Build Kit [Rank 4]
-						["bonusID"] = 12164,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(225905, {	-- Olden Seeker Relic [Rank 4]
-						["bonusID"] = 11278,
-					}),
-					i(230950, {	-- Overdrive Pylon [Rank 4]
-						["bonusID"] = 12132,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(234013, {	-- Pacifist Rig [Rank 4]
-						["bonusID"] = 12136,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(230234, {	-- Pinged Augment Chip [Rank 4]
-						["bonusID"] = 12144,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(230228, {	-- Pocket Factory [Rank 4]
-						["bonusID"] = 12152,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(218129, {	-- Porcelain Arrowhead Idol [Rank 4]
-						["bonusID"] = 11233,
-					}),
-					i(229353, {	-- Rage-Filled Idol [Rank 4]
-						["bonusID"] = 12011,
-					}),
-					i(225907, {	-- Relic of Sentience [Rank 4]
-						["bonusID"] = 11288,
-					}),
-					i(225908, {	-- Relicblood of Zekvir [Rank 4]
-						["bonusID"] = 11293,
-					}),
-					i(230231, {	-- Reverse Engineered Goblin Death Bomb [Rank 4]
-						["bonusID"] = 12140,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(225901, {	-- Streamlined Relic [Rank 4]
-						["bonusID"] = 11258,
-					}),
-					i(230226, {	-- Three Dimensional Bioprinter [Rank 4]
-						["bonusID"] = 12128,
-						["timeline"] = { ADDED_11_1_0_SEASONSTART },
-					}),
-					i(225904, {	-- Time Lost Relic [Rank 4]
-						["bonusID"] = 11273,
-					}),
-					i(225899, {	-- Unbreakable Iron Idol [Rank 4]
-						["bonusID"] = 11248,
-					}),
+					n(DELVES_TWW_S1, bubbleDown({ ["timeline"] = { REMOVED_11_1_0 } }, {
+						i(225903, {	-- Amorphous Relic [Rank 4]
+							["bonusID"] = 11268,
+						}),
+						i(225897, {	-- Brute Force Idol [Rank 4]
+							["bonusID"] = 11238
+						}),
+						i(225902, {	-- Idol of Final Will [Rank 4]
+							["bonusID"] = 11263,
+						}),
+						i(225898, {	-- Idol of the Earthmother [Rank 4]
+							["bonusID"] = 11243,
+						}),
+						i(225906, {	-- Lifeless Necrotic Relic [Rank 4]
+							["bonusID"] = 11283,
+						}),
+						i(225900, {	-- Light-Touched Idol [Rank 4]
+							["bonusID"] = 11253,
+						}),
+						i(225905, {	-- Olden Seeker Relic [Rank 4]
+							["bonusID"] = 11278,
+						}),
+						i(218129, {	-- Porcelain Arrowhead Idol [Rank 4]
+							["bonusID"] = 11233,
+						}),
+						i(229353, {	-- Rage-Filled Idol [Rank 4]
+							["bonusID"] = 12011,
+						}),
+						i(225907, {	-- Relic of Sentience [Rank 4]
+							["bonusID"] = 11288,
+						}),
+						i(225908, {	-- Relicblood of Zekvir [Rank 4]
+							["bonusID"] = 11293,
+						}),
+						i(225901, {	-- Streamlined Relic [Rank 4]
+							["bonusID"] = 11258,
+						}),
+						i(225904, {	-- Time Lost Relic [Rank 4]
+							["bonusID"] = 11273,
+						}),
+						i(225899, {	-- Unbreakable Iron Idol [Rank 4]
+							["bonusID"] = 11248,
+						}),
+					})),
+					n(DELVES_TWW_S2, bubbleDown({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
+						i(234014, {	-- Automatic Footbomb Dispenser [Rank 4]
+							["bonusID"] = 12160,
+						}),
+						i(230233, {	-- Biofuel Rocket Gear [Rank 4]
+							["bonusID"] = 12124,
+						}),
+						i(230232, {	-- Comically Large Magnet [Rank 4]
+							["bonusID"] = 12120,
+						}),
+						i(230227, {	-- Goblomagnetic Bouncing Grenade [Rank 4]
+							["bonusID"] = 12148,
+						}),
+						i(230229, {	-- Impact Conversion Matrix [Rank 4]
+							["bonusID"] = 12156,
+						}),
+						i(230225, {	-- Kaja'Cola Carrier [Rank 4]
+							["bonusID"] = 12116,
+						}),
+						i(230230, {	-- L00T RAID-R [Rank 4]
+							["bonusID"] = 12105,
+						}),
+						i(234015, {	-- Mechasaur EZ-Build Kit [Rank 4]
+							["bonusID"] = 12164,
+						}),
+						i(230950, {	-- Overdrive Pylon [Rank 4]
+							["bonusID"] = 12132,
+						}),
+						i(234013, {	-- Pacifist Rig [Rank 4]
+							["bonusID"] = 12136,
+						}),
+						i(230234, {	-- Pinged Augment Chip [Rank 4]
+							["bonusID"] = 12144,
+						}),
+						i(230228, {	-- Pocket Factory [Rank 4]
+							["bonusID"] = 12152,
+						}),
+						i(230231, {	-- Reverse Engineered Goblin Death Bomb [Rank 4]
+							["bonusID"] = 12140,
+						}),
+						i(230226, {	-- Three Dimensional Bioprinter [Rank 4]
+							["bonusID"] = 12128,
+						}),
+					})),
+					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						--TODO: only itemID, no bonusIDs for r4
+						i(239568, {	-- Audio Amplification Crystal [Rank 4]
+							--["bonusID"] = xx,
+						}),
+						--i(239569, {	-- Battered Aegis [Rank 4]
+						--	--["bonusID"] = xx,
+						--}),
+						i(239573, {	-- Ethereal Energy Converter [Rank 4]
+							--["bonusID"] = xx,
+						}),
+						i(239579, {	-- Hatarang [Rank 4]
+							--["bonusID"] = xx,
+						}),
+						i(239576, {	-- Mana-Tinted Glasses [Rank 4]
+							--["bonusID"] = xx,
+						}),
+						--i(239580, {	-- Nether Overlay Matrix [Rank 4]
+						--	--["bonusID"] = xx,
+						--}),
+						i(239578, {	-- Quizzical Device [Rank 4]
+							--["bonusID"] = xx,
+						}),
+						i(239571, {	-- Sands of K'aresh [Rank 4]
+							--["bonusID"] = xx,
+						}),
+						i(239567, {	-- Tailwind Conduit [Rank 4]
+							--["bonusID"] = xx,
+						}),
+						--i(239570, {	-- Temporal Decelerator Crystal [Rank 4]
+						--	--["bonusID"] = xx,
+						--}),
+					})),
 				}),
 			},
 		}),
@@ -1571,6 +1600,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			i(239502, {["timeline"]={ ADDED_11_1_5 }}),	-- Big Wheel of Cheese (Hidden Cache)
 			i(227784, {["timeline"]={ REMOVED_11_1_0_SEASONSTART }}),	-- Delver's Bounty
 			i(233071, {["timeline"]={ ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 },["isWeekly"]=true}),	-- Delver's Bounty (actual item, looted from Jettisoned Pile of Goblin-Bucks)
+			i(235628, {["timeline"]={ ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 }}),	-- Delver's Bounty (Delve reward UI)
 			i(222922),	-- Expeditionary Spoils (Tier 1)
 			i(222923),	-- Expeditionary Spoils (Tier 2)
 			i(225178),	-- Expeditionary Spoils (Tier 3)
@@ -1604,6 +1634,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			i(234330, {	-- Ancient Curio (QS!)
 				["timeline"] = { ADDED_11_1_0_SEASONSTART },
+			}),
+			i(242849, {	-- Ancient Curio (QS!)
+				["timeline"] = { ADDED_11_2_0_SEASONSTART },
+			}),
+			i(242850, {	-- Ancient Curio (QS!)
+				["timeline"] = { ADDED_11_2_0_SEASONSTART },
 			}),
 			--
 			currency(2803),	-- Undercoin
@@ -1712,6 +1748,26 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		hqt(86991, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 78
 		hqt(86992, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 79
 		--hqt(86993, {["timeline"] = { ADDED_11_1_0_SEASONSTART }}),	-- Level 80 Attached on achievement
+		hqt(88948, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 81
+		hqt(88949, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 82
+		hqt(88950, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 83
+		hqt(88951, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 84
+		hqt(88952, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 85
+		hqt(88953, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 86
+		hqt(88954, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 87
+		hqt(88955, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 88
+		hqt(88956, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 89
+		hqt(88957, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 90
+		hqt(88958, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 91
+		hqt(88959, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 92
+		hqt(88960, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 93
+		hqt(88961, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 94
+		hqt(88962, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 95
+		hqt(88963, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 96
+		hqt(88964, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 97
+		hqt(88965, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 98
+		hqt(88966, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 99
+		hqt(88967, {["timeline"] = { ADDED_11_2_0_SEASONSTART }}),	-- Level 100 TODO: probably attached to achievement
 	}),
 	n(QUESTS, {
 		q(84370, {	-- The Key to Success
@@ -1943,6 +1999,60 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(244696),	-- Overcharged Chest (delve s2 loot table)
 			},
 		}),
+		-- Season 3
+		q(90776, {	-- Ancient Curiosity: Combat
+			["provider"] = { "i", 242849 },	-- Ancient Curio
+			["maps"] = ALL_REGULAR_DELVES,
+			["timeline"] = { ADDED_11_2_0_SEASONSTART },
+		}),
+		q(90778, {	-- Ancient Curiosity: Utility
+			["provider"] = { "i", 242850 },	-- Ancient Curio
+			["maps"] = ALL_REGULAR_DELVES,
+			["timeline"] = { ADDED_11_2_0_SEASONSTART },
+		}),
+		q(91780, {	-- Ethereal Delves
+			-- auto pop on login
+			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+		}),
+		q(91781, {	-- Seasonal Reminder
+			["sourceQuests"] = { 91780 },	-- Ethereal Delves
+			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+			["coord"] = { 47.4, 44.4, DORNOGAL },
+			["g"] = {
+				i(248127),	-- Delver's Cosmetic Surprise Bag
+				i(248126),	-- Delver's Starter Kit
+			},
+		}),
+		q(91782, {	-- Repossessed!
+			["sourceQuests"] = { 91781 },	-- Seasonal Reminder
+			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+			["coord"] = { 47.4, 44.4, DORNOGAL },
+			["g"] = {
+				o(563555, {	-- Writ of Repossession
+					["coord"] = { 47.5, 44.4, DORNOGAL },
+				}),
+				o(564545, {	-- Brann's Repossessed Gear
+					["coord"] = { 47.1, 19.9, KARESH_TAZAVESH },
+					["g"] = {
+						i(248129),	-- Brann's Repossessed Gear (QI!)
+					},
+				}),
+				--
+				i(238051),	-- Delver's Mana-Skimmer (MOUNT!)
+			},
+		}),
+		q(91089, {	-- Defeating Ky'veza
+			["sourceQuests"] = { 91782 },	-- Repossessed!
+			["provider"] = { "n", 206017 },	-- Brann Bronzebeard
+			["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+			["coord"] = { 47.4, 44.4, DORNOGAL },
+			["g"] = {
+				i(244470),	--  Etheric Victory (TOY!)
+			},
+		}),
+
 	}),
 	n(QUESTS, sharedData({
 		["provider"] = { "n", 206017 },	-- Brann Bronzebeard
@@ -1970,6 +2080,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	})),
 	n(RARES, {
 		-- TODO: These might not appear in all delves, look into refining these down
+		n(244453, {	-- D'rude
+			["timeline"] = { ADDED_11_2_0 },
+		}),
 		n(236886, {	-- Hovering Menace
 			["timeline"] = { ADDED_11_1_0 },
 		}),
@@ -1990,6 +2103,21 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 	}),
 	mapped(n(TREASURES, {
 		-- Mislaid Curiosities can be found throughout all Delves, random coordinates
+		n(245938, {	-- Flickergate
+			["timeline"] = { ADDED_11_2_0 },
+			["g"] = {
+				i(248764),	-- Artisanal Blink Trap
+				i(248954),	-- Nether-warped Seedlings (also from Nemesis Strongbox s3)
+				i(245524),	-- Shadowguard's Phasebound Visor (COSMETIC!)
+			},
+		}),
+		o(567732, {	-- Kaja'6-Pack
+			["timeline"] = { ADDED_11_2_0 },
+			["g"] = {
+				i(249032),	-- Dulux Bluesberry Blast
+				i(249031),	-- Supreme Mangoro Madness
+			},
+		}),
 		o(455914, {	-- Mislaid Curiosity
 			["description"] = "Contains Chunk of Companion Experience tokens.",
 			["timeline"] = { REMOVED_11_1_0_SEASONSTART },
@@ -2021,6 +2149,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(233061),	-- Rock-in-a-Bottle
 				i(233186, {	-- Wave Scrambler 2000
 					["timeline"] = { ADDED_11_1_0_SEASONSTART },
+				}),
+				-- No new objectID atm
+				i(248764, {	-- Artisanal Blink Trap
+					["timeline"] = { ADDED_11_2_0_SEASONSTART },
 				}),
 			},
 		}),
@@ -3781,6 +3913,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			--q(89041),	-- Purchaseable Rare Delve Key - 2 (spellID 1225597) (itemID 238527)
 			--q(91783),	-- Delver's Cosmetic Surprise Bag (spellID 1246295) (itemID 248127)
 			--q(91784),	-- Delver's Starter Kit (spellID 1246296) (itemID 248126)
+			-- ??
+			--q(91453),	-- after completion 4th bountiful delve per day / new bonus rep hqt / first blue curio / seasonal 'limit' hqt for cloak threads upgrade
 		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve

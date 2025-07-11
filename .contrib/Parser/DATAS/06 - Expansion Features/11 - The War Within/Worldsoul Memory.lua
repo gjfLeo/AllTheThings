@@ -50,10 +50,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					["provider"] = { "i", 235896 },	-- Radiant Echo
 					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
 				}),
-				--q(, {	-- A Radiant Echo
-					--["provider"] = { "i", 246772 },	-- Radiant Echo
-					--["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
-				--}),
+				q(91539, {	-- A Radiant Echo
+					["provider"] = { "i", 246772 },	-- Radiant Echo
+					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
+				}),
 				q(82285, {	-- Worldsoul Memory: A Wounded Soul
 					["coord"] = { 65.2, 56.1, AZJ_KAHET },
 					["repeatable"] = true,

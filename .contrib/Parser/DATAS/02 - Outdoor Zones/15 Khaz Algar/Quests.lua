@@ -779,5 +779,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				--
 			}),
 		})),
+		-- TODO: probably need a better place?
+		q(91624, {	-- Spark of Starlight
+			["provider"] = { "i", 231757 },	-- Fractured Spark of Starlight
+			["timeline"] = { ADDED_11_2_0 },
+		}),
 	}),
 })));

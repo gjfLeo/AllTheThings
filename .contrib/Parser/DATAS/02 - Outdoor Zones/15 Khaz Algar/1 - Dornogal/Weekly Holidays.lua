@@ -15,6 +15,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(234729, {	-- Cache of Undermine Treasures (N)
 						["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
 					}),
+					i(247821, {	-- Cache of K'areshi Treasures (N)
+						["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
+					}),
 				},
 			}, {
 				q(83363),										-- A Burning Path Through Time
@@ -62,6 +65,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						}),
 						i(234731, {	-- Cache of Undermine Treasures (H)
 							["timeline"] = { ADDED_11_1_0, REMOVED_11_2_0 },
+						}),
+						i(247820, {	-- Cache of K'areshi Treasures (H)
+							["timeline"] = { ADDED_11_2_0, REMOVED_12_0_0 },
 						}),
 					},
 				}),

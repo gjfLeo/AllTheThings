@@ -34,19 +34,37 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(242730, {	-- Acidic Void Creeper (MOUNT!)
 						["cost"] = { { "c", 3303, 7 }, },	-- Untethered Coin
 					}),
+					i(246907, {	-- Broker Supply Crate (TOY!)
+						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+					}),
+					i(246903, {	-- Guise of the Phase Diver (TOY!)
+						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+					}),
 					i(244336, {	-- K'aresh Box of Resonance Crystals
 						["cost"] = { { "c", 3303, 1 }, },	-- Untethered Coin
 					}),
 					i(244335, {	-- K'aresh Box of Valorstones
 						["cost"] = { { "c", 3303, 1 }, },	-- Untethered Coin
 					}),
+					i(246908, {	-- K'areshi Supply Crate (TOY!)
+						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+					}),
 					i(242717, {	-- Lavender K'arroc (MOUNT!)
 						["cost"] = { { "c", 3303, 10 }, },	-- Untethered Coin
+					}),
+					i(246905, {	-- Overtuned K'areshi Goggles (TOY!)
+						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
 					}),
 					i(244910, {	-- Penumbral Terror (PET!)
 						["cost"] = { { "c", 3303, 4 }, },	-- Untethered Coin
 					}),
 					i(247882),	-- Phase Regulator
+					iensemble(250442, {	-- Ensemble: Ancient Capes of the Reshii
+						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+					}),
+					iensemble(250441, {	-- Ensemble: Shoulderguards of the Wastelander Seer
+						["cost"] = { { "c", 3303, 5 }, },	-- Untethered Coin
+					}),
 					iensemble(248996, {	-- Ensemble: Untethered Blade's Garb
 						["cost"] = { { "c", 3303, 8 }, },	-- Untethered Coin
 					}),

@@ -623,6 +623,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 42.9, 21.6, KARESH },
 					}),
 					--
+					-- Speculation
+					--q(86820, {	-- Manaforge Omega: Dimensius Looms
+					--	["sourceQuests"] = { 85037 },	-- That's a Wrap
+					--	["g"] = {
+					--		i(236954),	-- Void-Touched Valorstone
+					--	},
+					--}),
 				}),
 				header(HEADERS.AchCriteria, 41970.05, {	-- Chapter 5: The Light of K'aresh
 					q(86458),	--
@@ -1373,7 +1380,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 			}),
 			header(HEADERS.Achievement, 42737, {	-- Capstoned
-				q(89294),	-- Special Assignment: Alligned Views
+				q(89294, {	-- Special Assignment: Alligned Views
+					["coord"] = { 74.7, 51.1, KARESH },	-- could be a bit inaccurate
+					["g"] = {
+						i(244842),	-- Fabled Veteran's Cache
+					},
+				}),
 				q(89293, {	-- Special Assignment: Overshadowed
 					["coord"] = { 56.3, 27.3, KARESH },
 					["g"] = {

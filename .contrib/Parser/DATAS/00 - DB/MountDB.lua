@@ -2083,6 +2083,7 @@ i(243592, 1235806);	-- Grandmaster's Smokey Board
 i(242730, 1233547);	-- Acidic Void Creeper
 i(232617, 472157);	-- Astral Gladiator's Fel Bat
 i(248248, 1246781);	-- Azure Void Flyer
+i(238051, 1224048);	-- Delver's Mana-Skimmer
 i(242717, 1233518);	-- Lavender K'arroc
 i(242729, 1233546);	-- Ruby Void Creeper
 i(247822, 1245517);	-- Scarlet Void Flyer
@@ -2097,7 +2098,6 @@ i(248761, 1247662);	-- Brewfest Barrel Bomber
 i(247793, 1245359);	-- Cinder-Plumed Highland Gryphon
 i(246919, 1244259);	-- Cinder-seared Elekk
 i(242734, 1233561);	-- Curious Slateback
-i(238051, 1224048);	-- Delver's Mana-Skimmer
 i(247794, 1245361);	-- Emberwing Sky Guide
 i(247792, 1245358);	-- High Shaman's Aerie Gryphon
 i(246921, 1244261);	-- Legion Forged Elekk

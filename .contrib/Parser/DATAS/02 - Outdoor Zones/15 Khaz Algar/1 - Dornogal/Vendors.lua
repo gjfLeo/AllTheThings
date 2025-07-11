@@ -267,6 +267,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				),
 			}),
 			n(248341, {	-- Dip Stickshift <Memories-R-Us>
+				-- TODO: as of 61871 build - items no longer exist?
 				["coord"] = { 48.1, 45.4, DORNOGAL },
 				["timeline"] = { ADDED_11_2_0 },
 				["g"] = {

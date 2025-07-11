@@ -12,6 +12,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				230020,	-- Defias Ringleader
 			},
 		}),
+		i(231757, {	-- Fractured Spark of Starlight
+			-- TODO: need more data for more sources. During ptr was looted from one of delve run.
+			["timeline"] = { ADDED_11_2_0 },
+		}),
 	}),
 	n(ZONE_REWARDS, {
 		n(ARMOR, {
@@ -153,6 +157,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 		i(235610, {	-- Seasoned Adventurer's Cache (Undermine)
 			["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
 			["timeline"] = { ADDED_11_1_0_SEASONSTART },
+		}),
+		i(245280, {	-- Seasoned Khaz Algar Adventurer's Cache
+			["sym"] = {{"select","itemID",228361},{"pop"}},	-- Seasoned Adventurer's Cache [Khaz Algar Zone Rewards content]
+			["timeline"] = { ADDED_11_2_0_SEASONSTART },
+		}),
+		i(244883, {	-- Seasoned Undermine Adventurer's Cache
+			["sym"] = {{"select","itemID",235639},{"pop"}},	-- Seasoned Adventurer's Cache [Undermine Zone Rewards content]
+			["timeline"] = { ADDED_11_2_0_SEASONSTART },
 		}),
 	}),
 })));
