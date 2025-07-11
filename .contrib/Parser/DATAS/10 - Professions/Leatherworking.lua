@@ -194,20 +194,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 	}),
 	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_5 } }, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
-			ach(18894, {	-- Free Stylin'
-				crit(61631, {	-- Stylin' Purple Hat
-					["provider"] = { "i", 25680 },	-- Stylin' Purple Hat
-				}),
-				crit(61632, {	-- Stylin' Adventure Hat
-					["provider"] = { "i", 25681 },	-- Stylin' Adventure Hat
-				}),
-				crit(61633, {	-- Stylin' Crimson Hat
-					["provider"] = { "i", 25683 },	-- Stylin' Crimson Hat
-				}),
-				crit(61634, {	-- Stylin' Jungle Hat
-					["provider"] = { "i", 25682 },	-- Stylin' Jungle Hat
-				}),
-			}),
+			ach(18894),	-- Free Stylin' (automated)
 		})),
 	})),
 	expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_0_3_LAUNCH } }, {
