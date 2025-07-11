@@ -18,6 +18,13 @@ root(ROOTS.NeverImplemented, {
 					i(21550),	-- Monster - Bow, Kaldorei
 				}),
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206687),	-- Acute Shortbow
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178450),	-- zzzRated - Weapon - Bow
@@ -63,6 +70,7 @@ root(ROOTS.NeverImplemented, {
 				-- #if ANYCLASSIC
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206692),	-- Parrying Dagger
+					i(206684),	-- Runed Talon
 				}),
 				-- #endif
 			}),
@@ -258,6 +266,12 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.WRATH, {
+				-- #if ANYCLASSIC
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206689),	-- Brass-Bound Cudgel
+					i(206717),	-- Brass-Bound Cudgel
+				}),
+				-- #endif
 				n(P3xx, {
 					i(38468),	-- Kalu'ak Peacebringer
 				}),
@@ -390,6 +404,14 @@ root(ROOTS.NeverImplemented, {
 					i(34415),	-- Crystaline Shard Shield
 				}),
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206690),	-- Embossed Brazen Shield
+					i(206691),	-- Embossed Brazen Shield
+				}),
+			}),
+			-- #endif
 			-- #if BEFORE WOD
 			expansion(EXPANSION.CATA, {
 				expansion(EXPANSION.CATA, {
@@ -428,6 +450,7 @@ root(ROOTS.NeverImplemented, {
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
 				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206726),	-- Spiked Greatstaff
 					i(206685),	-- Tenacious Vine Staff
 				}),
 			}),
@@ -489,6 +512,13 @@ root(ROOTS.NeverImplemented, {
 					i(21135),	-- Broken Assassin's Throwing Axe
 				}),
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206693),	-- Flying Knives
+				}),
+			}),
+			-- #endif
 		}),
 		filter(TWO_HANDED_AXES, {
 			expansion(EXPANSION.CLASSIC, {
@@ -524,6 +554,13 @@ root(ROOTS.NeverImplemented, {
 					-- #endif
 				}),
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, {
+				expansion(EXPANSION.WRATH, patch(4,2), {
+					i(206686),	-- Lumbering Bludgeon
+				}),
+			}),
+			-- #endif
 			expansion(EXPANSION.MOP, {
 				n(P5xx, {
 					i(90280),	-- Landfall Burnished Greaves

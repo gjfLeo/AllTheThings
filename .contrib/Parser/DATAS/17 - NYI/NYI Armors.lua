@@ -178,6 +178,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 	}),
 	expansion(EXPANSION.WRATH, {
 		filter(BACK_F, {
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206707),	-- Fleece Cloak
+				i(206728),	-- Fleece Cloak
+				i(206740),	-- Fleece Cloak
+			}),
+			-- #endif
 			n(P3xx, {
 				i(37174),	-- Rippling Azure Cloak
 				i(35876),	-- Talbuk Cape
@@ -334,6 +341,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(49312),	-- Purified Onyxia Blood Talisman
 				i(49314),	-- Sparkling Onyxia Tooth Pendant
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206708),	-- Gold Clasped Chain
+				i(206729),	-- Gold Clasped Chain
+				i(206739),	-- Gold Clasped Chain
+			}),
+			-- #endif
 			n(P3xx, {
 				i(33197),	-- Mossy Necklace
 				--
@@ -347,6 +361,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			expansion(EXPANSION.WRATH, patch(0,1), {
 				i(41756),	-- Heart's Blood Signet
 			}),
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.WRATH, patch(4,2), {
+				i(206698),	-- Stirrup Ring
+				i(206727),	-- Stirrup Ring
+				i(206738),	-- Stirrup Ring
+			}),
+			-- #endif
 			n(P3xx, {
 				i(34712),	-- Prismatic Signet
 				i(37531),	-- Circle of Frigid Wind

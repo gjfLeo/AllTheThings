@@ -88,6 +88,14 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(50329),	-- Icecrown-10 Normal Loot Token
 		})),
 
+		-- 3.4.2
+		-- #if ANYCLASSIC
+		expansion(EXPANSION.WRATH, patch(4,2), bubbleDownSelf({ ["timeline"] = { CREATED_3_4_2 } }, {
+			i(208157),	-- Bounty Satchel
+			i(206759),	-- Essence or Dust
+		})),
+		-- #endif
+
 		-- 3.x.x
 		n(P3xx, {
 			i(33565),	-- Uncommon Drop Certificate
