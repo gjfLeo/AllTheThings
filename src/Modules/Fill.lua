@@ -111,7 +111,7 @@ local function GetRelativeFieldInSet(group, field, set)
 	end
 end
 
-local Scopes = {"TOOLTIP","LIST"}
+local Scopes = {"TOOLTIP","LIST","POPOUT"}
 local FillSettings = {
 	Container = "Fillers",
 	ScopesIgnored = {},
@@ -656,7 +656,7 @@ local FillGroups = function(group)
 		-- TODO: Fillers can provide context requirements for themselves to be utilized for a given
 		-- fill operation.
 		-- i.e. provided the Root/Window/Instance/Combat -- the Filler may return that it should not be included
-		Fillers = ActiveFillFunctions[groupWindow and "LIST" or "TOOLTIP"],
+		Fillers = ActiveFillFunctions[groupWindow and (groupWindow.Suffix == "CurrentInstance" and "LIST" or "POPOUT") or "TOOLTIP"],
 		SkipLevel = app.GetSkipLevel(),
 		Root = group,
 		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0],

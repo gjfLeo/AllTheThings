@@ -97,6 +97,7 @@ local CatalystUpgradeTrackShift = {
 
 local function GetCatalyst(data)
 	-- app.PrintDebug("GetCatalyst", data.hash)
+	data._cata = 0
 	local bonuses = data.bonuses
 	if not bonuses or #bonuses < 1 then return end
 	local bonusID = containsAnyKey(PossibleCatalystBonusIDLookups, bonuses)
@@ -214,7 +215,7 @@ app.AddEventHandler("OnLoad", function()
 	Fill.AddFiller("CATALYST",
 	function(t, FillData)
 		local catalystResult = t._cata or GetCatalyst(t)
-		if not catalystResult then return end
+		if not catalystResult or catalystResult == 0 then return end
 
 		if not catalystResult.collected then
 			t.filledCatalyst = true
@@ -226,7 +227,7 @@ app.AddEventHandler("OnLoad", function()
 	{
 		ScopesIgnored = { "LIST" },
 		SettingsIcon = app.asset("Interface_Catalyst"),
-		SettingsTooltip = "Fills the Catalyst |T"..app.asset("Interface_Catalyst")..":0|t result of the current Item if one is possible and determined via ATT.\n\nNOTE: This Filler is not applied to ATT Lists."
+		SettingsTooltip = "Fills the Catalyst |T"..app.asset("Interface_Catalyst")..":0|t result of the current Item if one is possible and determined via ATT.\n\nNOTE: This Filler is not applied to the ATT Mini List."
 	})
 end)
 

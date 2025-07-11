@@ -59,6 +59,7 @@ app.AddEventHandler("Fill.DefinedSettings", function(fillSettings)
 			local usersettings = settings:GetRawSettings(fillSettings.Container)
 			usersettings["TOOLTIP:NPC"] = true
 			usersettings["LIST:NPC"] = true
+			usersettings["POPOUT:NPC"] = true
 			-- TODO: some way to cleanup deprecated settings from user cache
 			app.Settings:SetTooltipSetting("NPCData:Nested", false)
 		end
