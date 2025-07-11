@@ -745,6 +745,8 @@ local L = setmetatable({
 	UPGRADE_TEXT = "|T" .. app.asset("Interface_Upgrade") .. ":0|t |cff62e37e"..UPGRADE.."|r";
 	REAGENT_ICON = "|T" .. app.asset("Interface_Reagent") .. ":0|t";
 	REAGENT_TEXT = "|T" .. app.asset("Interface_Reagent") .. ":0|t |cffdedade"..GetItemClassInfo(5).."|r";
+	CATALYST_ICON = "|T" .. app.asset("Interface_Catalyst") .. ":0|t";
+	CATALYST_TEXT = "|T" .. app.asset("Interface_Catalyst") .. ":0|t |cffffd900Catalyst|r";
 
 	-- Unobtainable Listing (for fellow 100%s out there)
 	UNOBTAINABLE_ITEM_TEXTURES = {

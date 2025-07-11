@@ -337,6 +337,11 @@ local function GetUpgradeIconForTooltip(data, iconOnly)
 		return L[iconOnly and "UPGRADE_ICON" or "UPGRADE_TEXT"];
 	end
 end
+local function GetCatalystIcon(data, iconOnly)
+	if data.filledCatalyst then
+		return L[iconOnly and "CATALYST_ICON" or "CATALYST_TEXT"];
+	end
+end
 local function GetCostIconForRow(data, iconOnly)
 	-- cost only for filled groups, or if itself is a cost
 	if data.filledCost or data.isCost or (data.progress == data.total and ((data.costTotal or 0) > 0)) then
@@ -391,6 +396,11 @@ local function GetProgressTextForRow(data)
 	end
 	-- Upgrade (show upgrade icon)
 	icon = GetUpgradeIconForRow(data, true);
+	if icon then
+		__Text[#__Text + 1] = icon
+	end
+	-- Upgrade (show upgrade icon)
+	icon = GetCatalystIcon(data, true);
 	if icon then
 		__Text[#__Text + 1] = icon
 	end
@@ -452,6 +462,11 @@ local function GetProgressTextForTooltip(data)
 	end
 	-- Upgrade (show upgrade icon)
 	icon = GetUpgradeIconForTooltip(data, iconOnly);
+	if icon then
+		__Text[#__Text + 1] = icon
+	end
+	-- Catalyst (show catalyst icon)
+	icon = GetCatalystIcon(data, iconOnly);
 	if icon then
 		__Text[#__Text + 1] = icon
 	end
