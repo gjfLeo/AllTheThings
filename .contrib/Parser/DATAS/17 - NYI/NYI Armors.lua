@@ -1009,10 +1009,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83524),	-- 5.0 QA PVP Test Priest Healer Belt 2
 				i(83526),	-- 5.0 QA PVP Test Priest Healer Bracer
 				i(83527),	-- 5.0 QA PVP Test Priest Healer Bracer 2
-				i(83535),	-- ???
-				i(83536),	-- ???
-				i(83537),	-- ???
-				i(83538),	-- ???
 				i(77506),	-- Art Template Cloth Wrist - Cloth_PanStart_A_01 - Default
 				i(81007),	-- Honorary Combat Engineer's Satin Leggings
 				i(81006),	-- Honorary Combat Engineer's Silk Trousers
