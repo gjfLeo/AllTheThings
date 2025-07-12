@@ -79,8 +79,6 @@ root(ROOTS.NeverImplemented, {
 					i(62329),	-- Dire Slasher
 				}),
 				n(P4xx, {
-					i(92204),	-- Darkwalker Dagger
-					i(92192),	-- Darkwalker Shiv
 					i(77960),	-- Monster - Item, Bottle - Green (Dagger)
 					i(72107),	-- Monster - Item, Draenei A 02 Purple
 				}),

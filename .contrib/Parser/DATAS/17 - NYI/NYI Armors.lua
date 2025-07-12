@@ -328,8 +328,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(37477),	-- Lost Crusader Chestplate
 				i(42885),	-- Mountaineer's Helm
 				i(39460),	-- Sabatons of the Rampaging Construct
-				i(92130),	-- Scourgeheart Girdle
-				i(92131),	-- Scourgeheart Waistband
 			}),
 		}),
 		filter(NECK_F, {
@@ -415,17 +413,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 
 			-- 4.x.x
 			n(P4xx, {
-				i(92315),	-- Deliverer Cloak of Destruction
-				i(92352),	-- Deliverer Cloak of Wisdom
-				i(92348),	-- Enlightened Cloak of Destruction
 				i(59791),	-- Giantslayer Cloak
-				i(92345),	-- Naturalist Cloak of Destruction
-				i(92346),	-- Naturalist Cloak of Wisdom
-				i(92349),	-- Partisan Cloak of Wisdom
-				i(92320),	-- Soulseizer Cloak of Destruction
-				i(92317),	-- Thundercaller Cloak of Destruction
-				i(92318),	-- Thundercaller Cloak of Wisdom
-				i(92376),	-- Waterdancer Cloak of Wisdom
 			}),
 		}),
 		filter(CLOTH, {
@@ -664,16 +652,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78537),	-- Wolfdream Circlet
 				i(78536),	-- Zeherah's Dragonskull Crown
 				i(78619),	-- Zeherah's Dragonskull Crown
-			}),
-			n(P4xx, {
-				i(92095),	-- Forestwalker Belt
-				i(92079),	-- Forestwalker Bracers
-				i(92267),	-- Forestwalker Gauntlets
-				i(92327),	-- Forestwalker Greaves
-				i(92247),	-- Forestwalker Helm
-				i(92227),	-- Forestwalker Legguards
-				i(92153),	-- Forestwalker Spaulders
-				i(92371),	-- Forestwalker Vest
 			}),
 		}),
 		filter(PLATE, {
