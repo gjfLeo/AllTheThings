@@ -4,180 +4,210 @@
 root(ROOTS.NeverImplemented, n(ARMOR, {
 	expansion(EXPANSION.CLASSIC, {
 		filter(BACK_F, {
-			i(22230),	-- Frightmaw Hide
+			-- 1.x.x
+			n(P1xx, {
+				i(22230),	-- Frightmaw Hide
+			}),
 		}),
 		filter(CLOTH, {
-			i(1216),	-- Frost Bracers
-			i(4990),	-- Scorched Bands
-			i(18341),	-- Quel'dorei Sash
-			--
-			i(4989),	-- Mage Dragon Robe
-			i(6478),	-- Rat Stompers
-			i(12107),	-- Whispersilk Leggings
-			i(13080),	-- Widow's Clutch
+			-- 1.x.x
+			n(P1xx, {
+				i(1216),	-- Frost Bracers
+				i(4989),	-- Mage Dragon Robe
+				i(18341),	-- Quel'dorei Sash
+				i(6478),	-- Rat Stompers
+				i(4990),	-- Scorched Bands
+				i(12107),	-- Whispersilk Leggings
+				i(13080),	-- Widow's Clutch
+			}),
 		}),
 		filter(LEATHER, {
-			i(5821),	-- Darkstalker Boots
-			i(12104),	-- Brindlethorn Tunic
-			i(14550),	-- Bladebane Armguards
-			i(20524),	-- Shadowhide Leggings
-			i(21614),	-- Wormhide Protector
+			-- 1.x.x
+			n(P1xx, {
+				i(14550),	-- Bladebane Armguards
+				i(12104),	-- Brindlethorn Tunic
+				i(5821),	-- Darkstalker Boots
+				i(20524),	-- Shadowhide Leggings
+				i(21614),	-- Wormhide Protector
+			}),
 		}),
 		filter(MAIL, {
-			i(12105),	-- Pridemail Leggings
-			i(13090),	-- Breastplate of the Chosen
-			i(12615),	-- Savage Mail Tunic
-			i(12616),	-- Savage Boots
-			i(12617),	-- Savage Pauldrons
-			i(21584),	-- Bracers of Eternal Reckoning
-			i(21612),	-- Wormscale Stompers
-			i(21588),	-- Wristguards of Elemental Fury
+			-- 1.x.x
+			n(P1xx, {
+				i(21584),	-- Bracers of Eternal Reckoning
+				i(13090),	-- Breastplate of the Chosen
+				i(12105),	-- Pridemail Leggings
+				i(12616),	-- Savage Boots
+				i(12615),	-- Savage Mail Tunic
+				i(12617),	-- Savage Pauldrons
+				i(21612),	-- Wormscale Stompers
+				i(21588),	-- Wristguards of Elemental Fury
+			}),
 		}),
 		filter(PLATE, {
-			--
-			i(5822),	-- Hedgeseed Gauntlets
-			i(12106),	-- Boulderskin Breastplate
-			i(21587),	-- Wristguards of Castigation
+			-- 1.x.x
+			n(P1xx, {
+				i(12106),	-- Boulderskin Breastplate
+				i(5822),	-- Hedgeseed Gauntlets
+				i(21587),	-- Wristguards of Castigation
+			}),
 		}),
 		filter(TABARDS, {
-			i(746),	-- Lord Brandon's Tabard (Test)
-			i(3557),	-- Unused Tabard of Chow
-			i(7725),	-- Tabard of the Scarlet Crusade DEPRECATED
-			i(11364),	-- Tabard of Stormwind
-			i(23710),	-- Upperdeck Tabard #3
+			-- 1.x.x
+			n(P1xx, {
+				i(746),		-- Lord Brandon's Tabard (Test)
+				i(11364),	-- Tabard of Stormwind
+				i(7725),	-- Tabard of the Scarlet Crusade DEPRECATED
+				i(3557),	-- Unused Tabard of Chow
+				i(23710),	-- Upperdeck Tabard #3
+			}),
 		}),
 		filter(NECK_F, {
-			i(18023),	-- Blood Ruby Pendant
-			i(7427),	-- Cerulean Talisman
-			i(5005),	-- Emberspark Pendant
-			i(23058),	-- Life Channeling Necklace
-			i(13811),	-- Necklace of the Dawn
-			i(7548),	-- Onyx Choker
-			i(17783),	-- Talisman of Binding Fragment
-			i(7467),	-- Vermilion Necklace
-			i(7550),	-- Warrior's Honor
-			i(19122),	-- Woven Ivy Necklace DEPRECATED
+			-- 1.x.x
+			n(P1xx, {
+				i(18023),	-- Blood Ruby Pendant
+				i(7427),	-- Cerulean Talisman
+				i(5005),	-- Emberspark Pendant
+				i(23058),	-- Life Channeling Necklace
+				i(13811),	-- Necklace of the Dawn
+				i(7548),	-- Onyx Choker
+				i(17783),	-- Talisman of Binding Fragment
+				i(7467),	-- Vermilion Necklace
+				i(7550),	-- Warrior's Honor
+				i(19122),	-- Woven Ivy Necklace DEPRECATED
+			}),
 		}),
 		filter(FINGER_F, {
-			i(13812),	-- Ring of the Dawn
-			i(19065),	-- Emerald Circle
-			i(33959, {	-- Ring of Ghoulish Delight
-				["timeline"] = { CREATED_2_3_0 },
+			n(P1xx, {
+				i(17000),	-- Band of the Wraith
+				i(4988),	-- Burning Obsidian Band
+				i(19065),	-- Emerald Circle
+				i(5010),	-- Inscribed Gold Ring
+				i(17108),	-- Mark of Deflection
+				i(5008),	-- Quicksilver Ring
+				i(13812),	-- Ring of the Dawn
 			}),
-			i(33958, {	-- The Horseman's Signet Ring
-				["timeline"] = { CREATED_2_3_0 },
-			}),
-			i(33957, {	-- Witches Band
-				["timeline"] = { CREATED_2_3_0 },
-			}),
-			--
-			i(4988),	-- Burning Obsidian Band
-			i(17000),	-- Band of the Wraith
-			i(5010),	-- Inscribed Gold Ring
-			i(17108),	-- Mark of Deflection
-			i(5008),	-- Quicksilver Ring
 		}),
 		filter(TRINKET_F, {
-			-- #if BEFORE TBC
-			i(13503),	-- Alchemists' Stone
-			-- #endif
-			i(12805),	-- Orb of Fire
-			i(18355),	-- Ferras Collar
-			i(18438),	-- Sergeant's Mark
-			i(20084),	-- Hunting Net
-			i(20525),	-- Earthen Sigil
+			-- 1.x.x
+			n(P1xx, {
+				-- #if BEFORE TBC
+				i(13503),	-- Alchemists' Stone
+				-- #endif
+				i(20525),	-- Earthen Sigil
+				i(18355),	-- Ferras Collar
+				i(20084),	-- Hunting Net
+				i(12805),	-- Orb of Fire
+				i(18438),	-- Sergeant's Mark
+			}),
 		}),
 	}),
 	expansion(EXPANSION.TBC, {
 		filter(BACK_F, {
+			-- 2.x.x
 			n(P2xx, {
 				i(28045),	-- Cloak of the Demon Stalker
 			}),
 		}),
 		filter(CLOTH, {
+			-- 2.x.x
 			n(P2xx, {
-				i(23433),	-- Blood Robes
-				i(23434),	-- Robes of the Shard
-				i(25793),	-- Curate's Footwraps
-				--
 				i(26015),	-- Anchorite Neophyte's Cuffs
-				i(27720),	-- Robes of the Aldor
+				i(23433),	-- Blood Robes
+				i(25793),	-- Curate's Footwraps
 				i(30287),	-- Mantle of Arcane Mastery
+				i(27720),	-- Robes of the Aldor
+				i(23434),	-- Robes of the Shard
 			}),
 		}),
 		filter(LEATHER, {
+			-- 2.x.x
 			n(P2xx, {
+				i(27719),	-- Aldor Leggings of Puissance
+				i(30288),	-- Cenarion Warden's Gloves
 				i(25795),	-- Gloves of Preservation
 				i(25796),	-- Lurking Shadow Spaulders
-				--
-				i(19986),	-- Pirate's Eye Patch
 				i(22273),	-- Moonshadow Hood
-				i(26029),	-- Watchman's Bracers
-				i(27719),	-- Aldor Leggings of Puissance
+				i(19986),	-- Pirate's Eye Patch
 				i(28145),	-- Tranquillien Wraps
-				i(30288),	-- Cenarion Warden's Gloves
+				i(26029),	-- Watchman's Bracers
 			}),
 		}),
 		filter(MAIL, {
+			-- 2.0.3
 			expansion(EXPANSION.TBC, patch(0,3), {
-				i(38387),	-- Grizzled Hat
 				i(38388),	-- Cap of the North
 				i(38389),	-- Comfy Raccoonskin Hat
+				i(38387),	-- Grizzled Hat
 				i(38390),	-- The Rugged Marksman
 			}),
+
+			-- 2.x.x
 			n(P2xx, {
 				i(25794),	-- Bone Studded Girdle
-				i(33964),	-- Helm of the Stormcaller
-				--
 				i(30289),	-- Cenarion Warden's Belt
+				i(33964),	-- Helm of the Stormcaller
 			}),
 		}),
 		filter(PLATE, {
+			-- 2.0.3
 			expansion(EXPANSION.TBC, patch(0,3), {
 				i(27965),	-- TEST 130 Epic Paladin DPS Chest
 			}),
+
+			-- 2.x.x
 			n(P2xx, {
+				i(27718),	-- Aldor Defender's Legplates
 				i(25797),	-- Crushing Grasp Says
+				i(24137),	-- PH Plate Ramparts Reward
 				i(26041),	-- Vigilant Vambraces
 				i(29237),	-- Warpath Bracers Says
-				i(24137),	-- PH Plate Ramparts Reward
-				--
-				i(27718),	-- Aldor Defender's Legplates
 			}),
 		}),
 		filter(SHIRTS, {
+			-- 2.x.x
 			n(P2xx, {
 				i(23351),	-- Battleworn Shirt
 				i(23470),	-- Rugged Trapper's Shirt
 			}),
 		}),
 		filter(NECK_F, {
+			-- 2.x.x
 			n(P2xx, {
+				i(33200),	-- Ancient Ceremonial Necklace
+				i(31933),	-- Dark Charm
 				i(28043),	-- Demon Stalker Pendant
 				i(31930),	-- Enigmatic Charm
 				i(31931),	-- Fiery Charm
-				i(31932),	-- Living Charm
-				i(31933),	-- Dark Charm
 				i(31934),	-- Frigid Charm
+				i(31932),	-- Living Charm
 				i(33198),	-- Necklace of Decay
 				i(33199),	-- Pendant of Old
-				i(33200),	-- Ancient Ceremonial Necklace
 				i(33201),	-- Silver Moonstone Pendant
 			}),
 		}),
 		filter(FINGER_F, {
+			-- 2.3.0
+			expansion(EXPANSION.TBC, patch(3,0), {
+				i(33959),	-- Ring of Ghoulish Delight
+				i(33958),	-- The Horseman's Signet Ring
+				i(33957),	-- Witches Band
+			}),
+
+			-- 2.x.x
 			n(P2xx, {
-				i(28044),	-- Band of the Demon Stalker
-				i(33097),	-- Mushroom Ring
-				i(33193),	-- Mossy Band
 				i(33194),	-- Ancient Ceremonial Band
+				i(28044),	-- Band of the Demon Stalker
 				i(33195),	-- Cracked Stone Band
+				i(33193),	-- Mossy Band
+				i(33097),	-- Mushroom Ring
 				i(33196),	-- Softly-Glowing Ring
 			}),
 		}),
 	}),
 	expansion(EXPANSION.WRATH, {
 		filter(BACK_F, {
+			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206707),	-- Fleece Cloak
@@ -185,28 +215,39 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(206740),	-- Fleece Cloak
 			}),
 			-- #endif
+
+			-- 3.x.x
 			n(P3xx, {
+				i(47058),	-- Pennant Cloak (4.0)
+				i(39828),	-- Punisher's Cloak
 				i(37174),	-- Rippling Azure Cloak
 				i(35876),	-- Talbuk Cape
-				i(39828),	-- Punisher's Cloak
-				i(47058),	-- Pennant Cloak (4.0)
 			}),
 		}),
 		filter(CLOTH, {
+			-- 3.0.1
 			expansion(EXPANSION.WRATH, patch(0,1), {
+				i(37273),	-- Crimson Keeper Mitts
 				i(37210),	-- Seafarer Cinch
 				i(37225),	-- Sweltering Sandals
-				i(37273),	-- Crimson Keeper Mitts
 			}),
+
+			-- 3.0.2
 			expansion(EXPANSION.WRATH, patch(0,2), {
 				i(43878),	-- Mantle of Unholy Power
 			}),
+
+			-- 3.1.0
 			expansion(EXPANSION.WRATH, patch(1,0), {
 				i(45629),	-- Shadoweave Belt
 			}),
+
+			-- 3.2.0
 			expansion(EXPANSION.WRATH, patch(2,0), {
 				i(47103),	-- Rotting Handwraps
 			}),
+
+			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206700),	-- Oracle Belt
@@ -219,6 +260,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(206705),	-- Oracle Slippers
 			}),
 			-- #endif
+
+			-- 3.x.
 			n(P3xx, {
 				i(37296),	-- BT59 Cloth Spell Gloves4
 				i(37295),	-- HF28 Cloth Spell Head4
@@ -226,12 +269,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(LEATHER, {
+			-- 3.0.1
 			expansion(EXPANSION.WRATH, patch(0,1), {
-				i(37385),	-- Seared Harness
 				i(37386),	-- Ruby Heart Spaulders
-				i(37400),	-- Whalehunter Cuffs
+				i(37385),	-- Seared Harness
 				i(41757),	-- Vest of Unyielding Companionship
+				i(37400),	-- Whalehunter Cuffs
 			}),
+
+			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206711),	-- Ghrino Belt
@@ -252,22 +298,26 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(206752),	-- Ghrino Vest
 			}),
 			-- #endif
+
+			-- 3.x.x
 			n(P3xx, {
 				i(37176),	-- Cavern Leather Treads
-				i(37316),	-- HF28 Leather Physical Legs4
-				--
-				i(38525),	-- Jailor's Padded Cover
 				i(39410),	-- Gauntlets of Rampant Destruction
-				i(42875),	-- Worg-Hide Pants
+				i(37316),	-- HF28 Leather Physical Legs4
+				i(38525),	-- Jailor's Padded Cover
 				i(43895),	-- Leggings of Silent Echoes
+				i(42875),	-- Worg-Hide Pants
 			}),
 		}),
 		filter(MAIL, {
+			-- 3.0.1
 			expansion(EXPANSION.WRATH, patch(0,1), {
+				i(41758),	-- Blood-Bond Helm
 				i(37433),	-- Layered Scale Boots
 				i(37420),	-- Sharkproof Boots
-				i(41758),	-- Blood-Bond Helm
 			}),
+
+			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206725),	-- Wolvar Armor
@@ -288,25 +338,30 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(206731),	-- Wolvar Shoulderguards
 			}),
 			-- #endif
+
+			-- 3.x.x
 			n(P3xx, {
+				i(43936),	-- Battlesurgeon's Gauntlets
+				i(43460),	-- Giantmaim Girdle
+				i(42886),	-- Gloves of the Howling Peaks
+				i(39440),	-- Greaves of the Titan Protectorate
+				i(43475),	-- Grips of the Chilling Revenant
 				i(37454),	-- HF28 Mail Physical Chest4
 				i(38527),	-- Onslaught Scalemail Hauberk
-				i(39440),	-- Greaves of the Titan Protectorate
-				i(42886),	-- Gloves of the Howling Peaks
-				i(43460),	-- Giantmaim Girdle
-				i(43936),	-- Battlesurgeon's Gauntlets
 				i(54549),	-- Saline-Soaked Spaulders
-				i(43475),	-- Grips of the Chilling Revenant
 				i(37444),	-- Wavekeeper's Helm
 			}),
 		}),
 		filter(PLATE, {
+			-- 3.0.1
 			expansion(EXPANSION.WRATH, patch(0,1), {
 				i(37485),	-- Clam Collector Gauntlets
 				i(37511),	-- Crucible Waistguard
 				i(41759),	-- Shackles of Perpetual Friendship
 				i(37510),	-- Wristguards of Edification
 			}),
+
+			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206748),	-- Magnataur Bracers
@@ -319,6 +374,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(206742),	-- Magnataur Sabatons
 			}),
 			-- #endif
+
+			-- 3.x.x
 			n(P3xx, {
 				i(43938),	-- Belt of Rising Hope
 				i(43848),	-- Bracers of Icy Resolve
@@ -331,14 +388,19 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(NECK_F, {
+			-- 3.0.2
 			expansion(EXPANSION.WRATH, patch(0,2), {
 				i(44391),	-- Cast Steel Choker
 				i(44392),	-- Necklace of Permeation
 			}),
+
+			-- 3.3.0
 			expansion(EXPANSION.WRATH, patch(3,3), {
 				i(49312),	-- Purified Onyxia Blood Talisman
 				i(49314),	-- Sparkling Onyxia Tooth Pendant
 			}),
+
+			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206708),	-- Gold Clasped Chain
@@ -346,19 +408,23 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(206739),	-- Gold Clasped Chain
 			}),
 			-- #endif
+
+			-- 3.x.x
 			n(P3xx, {
-				i(33197),	-- Mossy Necklace
-				--
+				i(44389),	-- Curative Necklace
 				i(37544),	-- Drakebone Necklace
 				i(42856),	-- Frosthowl Amulet
-				i(44389),	-- Curative Necklace
+				i(33197),	-- Mossy Necklace
 				i(44390),	-- Venomous Pendant
 			}),
 		}),
 		filter(FINGER_F, {
+			-- 3.0.1
 			expansion(EXPANSION.WRATH, patch(0,1), {
 				i(41756),	-- Heart's Blood Signet
 			}),
+
+			-- 3.4.2
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, patch(4,2), {
 				i(206698),	-- Stirrup Ring
@@ -366,30 +432,36 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(206738),	-- Stirrup Ring
 			}),
 			-- #endif
+
+			-- 3.x.x
 			n(P3xx, {
-				i(34712),	-- Prismatic Signet
 				i(37531),	-- Circle of Frigid Wind
 				i(46842),	-- Crusader's Band
+				i(34712),	-- Prismatic Signet
 			}),
 		}),
 		filter(TRINKET_F, {
+			-- 3.1.0
 			expansion(EXPANSION.WRATH, patch(1,0), {
 				i(44869),	-- Frenzyheart Insignia of Fury
 				i(44870),	-- Oracle Talisman of Ablution
 			}),
+
+			-- 3.x.x
 			n(P3xx, {
-				i(38572),	-- Bounty Procurement Enhancer
-				i(39819),	-- Bloodbinder's Runestone
-				i(37561),	-- Touch of the Elements
-				i(38383),	-- Valonforth's Folly
 				i(38526),	-- Binding of the Imprisoned Soul
+				i(39819),	-- Bloodbinder's Runestone
+				i(38572),	-- Bounty Procurement Enhancer
 				i(46839),	-- Frostwolf Insignia Rank 7
 				i(46840),	-- Frostwolf Insignia Rank 7
+				i(37561),	-- Touch of the Elements
+				i(38383),	-- Valonforth's Folly
 			}),
 		}),
 	}),
 	expansion(EXPANSION.CATA, {
 		cl(ROGUE, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(54692),	-- Armor of Thero-Shan
 				i(59600),	-- Phosphora Fedora
@@ -398,9 +470,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(BACK_F, {
 			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
-				i(56355),	-- Skin of Stone
 				i(65815),	-- Drape of the Mortal Guardians
 				i(60221),	-- Furlbrow Cloak
+				i(56355),	-- Skin of Stone
 			}),
 
 			-- 4.3.0
@@ -417,10 +489,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(CLOTH, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(59797),	-- Abalone-Linked Robes
-				i(62988),	-- Sash of the Unhonored
-				i(66013),	-- Mantle of the Glorious Song
 				i(62640),	-- Fallback Armor - Cloth Waist
 				i(62641),	-- Fallback Armor - Cloth Feet
 				i(62642),	-- Fallback Armor - Cloth Chest
@@ -441,13 +512,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(55766),	-- Galardell Shoulderpads
 				i(55712),	-- Galardell Wristwraps
 				-- #endif
-				i(54542),	-- Robes of Restored Hope
-				i(54550),	-- Hood of Vigorous Defense
-				i(54977),	-- Revitalizing Sandals
 				i(57528),	-- Hogger's Mangy Handgrips
+				i(54550),	-- Hood of Vigorous Defense
 				i(60728),	-- Keeshan's Burlap Vest
 				i(65746),	-- Leggings of Valorous Defense
 				i(47102),	-- Manaweave Robe
+				i(66013),	-- Mantle of the Glorious Song
+				i(54977),	-- Revitalizing Sandals
+				i(54542),	-- Robes of Restored Hope
+				i(62988),	-- Sash of the Unhonored
 				i(60631),	-- Vicious Gladiator's Cord of Dominance
 				i(60632),	-- Vicious Gladiator's Cord of Dominance
 				i(60629),	-- Vicious Gladiator's Cuffs of Dominance
@@ -471,6 +544,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(LEATHER, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(54685),	-- Archer's Jerkin
 				i(62697),	-- Art Template Leather Belt - Leather_Cataclysm_B_01 - Brown
@@ -540,11 +614,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(54711),	-- Wendigo Collar
 				i(54694),	-- Wolf Rider's Padded Armor
 			}),
+
+			-- 4.2.0
 			expansion(EXPANSION.CATA, patch(2,0), {
 				i(71569),	-- Flamebinder Bracers
 				i(71394),	-- Flamebinding Girdle
 				i(71581),	-- Smolderskull Bindings
 			}),
+
+			-- 4.3.0
 			expansion(EXPANSION.CATA, patch(3,0), {
 				i(78565),	-- Belt of Hidden Keys
 				i(78640),	-- Belt of Hidden Keys
@@ -558,12 +636,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78582),	-- Decaying Herbalist's Robes
 				i(78531),	-- Fungus-Born Gloves
 				i(78604),	-- Fungus-Born Gloves
+				i(78540),	-- Helmet of Perpetual Rebirth
+				i(78618),	-- Helmet of Perpetual Rebirth
 				i(78530),	-- Lightfinger Handwraps
 				i(78609),	-- Lightfinger Handwraps
 				i(78575),	-- Luminescent Bracers
 				i(78652),	-- Luminescent Bracers
-				i(78540),	-- Helmet of Perpetual Rebirth
-				i(78618),	-- Helmet of Perpetual Rebirth
 				i(78539),	-- Nocturnal Gaze
 				i(78617),	-- Nocturnal Gaze
 				i(78516),	-- Rooftop Griptoes
@@ -571,15 +649,20 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78504),	-- Shadowbinder Chestguard
 				i(78581),	-- Shadowbinder Chestguard
 			}),
+
+			-- 4.x.x
 			n(P4xx, {
 				i(59790),	-- Gnash-Crusher Helm
 				i(65099),	-- Tsanga's Helm
 			})
 		}),
 		filter(MAIL, {
+			-- 4.0.1
 			expansion(EXPANSION.CATA, patch(0,1), {
 				i(44428),	-- Dark Frostscale Chestpiece
 			}),
+
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(62715),	-- Art Template Mail Belt - Mail_Cataclysm_B_01 - Blue
 				i(62716),	-- Art Template Mail Boot - Mail_Cataclysm_B_01 - Blue
@@ -592,9 +675,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(63002),	-- Bat Claw Boots
 				i(54768),	-- Burnished Boots
 				i(54778),	-- Burnished Boots (Again)
-				i(54765),	-- Burnished Leggings
 				i(54767),	-- Burnished Girdle
 				i(54766),	-- Burnished Gloves
+				i(54765),	-- Burnished Leggings
 				i(54551),	-- Defiant Bracers
 				i(54757),	-- Double Link Tunic
 				-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
@@ -629,10 +712,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(60556),	-- Vicious Gladiator's Wristguards of Triumph
 				i(60560),	-- Vicious Gladiator's Wristguards of Triumph
 			}),
+
+			-- 4.2.0
 			expansion(EXPANSION.CATA, patch(2,0), {
 				i(71570),	-- Bracers of Forked Lightning
 				i(71582),	-- Bracers of Misting Ash
 			}),
+
+			-- 4.3.0
 			expansion(EXPANSION.CATA, patch(3,0), {
 				i(78527),	-- Arrowflick Gauntlets
 				i(78610),	-- Arrowflick Gauntlets
@@ -752,35 +839,36 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			-- 4.x.x
 			n(P4xx, {
 				i(68844),	-- Art Template Plate Hand - Plate_PVPDeathKnight_C_02 - Blue
-				i(63054),	-- Fallback Armor - Plate Waist
-				i(63055),	-- Fallback Armor - Plate Feet
 				i(63056),	-- Fallback Armor - Plate Chest
+				i(63055),	-- Fallback Armor - Plate Feet
 				i(63057),	-- Fallback Armor - Plate Hand
 				i(63058),	-- Fallback Armor - Plate Head
 				i(63059),	-- Fallback Armor - Plate Legs
 				i(63060),	-- Fallback Armor - Plate Shoulder
+				i(63054),	-- Fallback Armor - Plate Waist
 				i(63061),	-- Fallback Armor - Plate Wrist
 				i(47091),	-- Unfaltering Armguards (4.0)
 			}),
 		}),
 		filter(SHIRTS, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
-				i(52548),	-- Initiate's Tunic
-				i(53869),	-- War Paint (Shirt) NOT GOOD FOR THE LADIES (NYI)
-				i(53879),	-- Rugged Work Shirt
-				i(53880),	-- Super Girly Shirt
-				i(60619),	-- No Shirt
-				i(62061),	-- Irradiated Gnome Shirt
 				i(63074),	-- "Behind You!" Shirt
-				i(46103),	-- Shirt of Titanic Scaling
-				i(49402),	-- Gilnean Apprentice's Shirt
-				i(49405),	-- Gilnean Neophyte's Shirt
+				i(54331),	-- Black Velvet Chest
 				i(49410),	-- Gilnean Acolyte's Shirt
 				i(49414),	-- Gilnean Acolyte's Shirt
+				i(49402),	-- Gilnean Apprentice's Shirt
 				i(49418),	-- Gilnean Apprentice's Shirt
+				i(49405),	-- Gilnean Neophyte's Shirt
 				i(49422),	-- Gilnean Neophyte's Shirt
+				i(52548),	-- Initiate's Tunic
+				i(62061),	-- Irradiated Gnome Shirt
+				i(60619),	-- No Shirt
+				i(53879),	-- Rugged Work Shirt
 				i(55047),	-- Shirt of No Criticals
-				i(54331),	-- Black Velvet Chest
+				i(46103),	-- Shirt of Titanic Scaling
+				i(53880),	-- Super Girly Shirt
+				i(53869),	-- War Paint (Shirt) NOT GOOD FOR THE LADIES (NYI)
 			}),
 		}),
 		filter(NECK_F, {
@@ -800,15 +888,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(FINGER_F, {
 			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
-				i(57708),	-- QA Test Finger 500 Strength
-				i(57709),	-- QA Test Finger Strength
-				i(57710),	-- QA Test Finger 2000 Strength
-				i(57713),	-- QA Test Finger 500 Agility
 				i(57721),	-- QA Test Finger 10000 attack power
-				i(57723),	-- QA Test Finger 500 intellect
-				i(57727),	-- QA Test Finger Spell Power
-				i(57738),	-- QA Test Finger 250 Mastery
+				i(57710),	-- QA Test Finger 2000 Strength
 				i(58816),	-- QA Test Finger 250 Hit
+				i(57738),	-- QA Test Finger 250 Mastery
+				i(57713),	-- QA Test Finger 500 Agility
+				i(57723),	-- QA Test Finger 500 intellect
+				i(57708),	-- QA Test Finger 500 Strength
+				i(57727),	-- QA Test Finger Spell Power
+				i(57709),	-- QA Test Finger Strength
 			}),
 
 			-- 4.3.0
@@ -885,7 +973,25 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		-- #endif
 	}),
 	expansion(EXPANSION.MOP, {
+		filter(BACK_F, {
+			-- 5.0.1
+			expansion(EXPANSION.MOP, patch(0,1), {
+				i(80965),	-- Scavenger's Cape
+				i(80968),	-- Scavenger's Cloak
+				i(80966),	-- Scavenger's Drape
+				i(80969),	-- Scavenger's Manteau
+				i(80967),	-- Scavenger's Shawl
+			}),
+
+			-- 5.3.0
+			expansion(EXPANSION.MOP, patch(3,0), {
+				i(97518),	-- Dreadful Gladiator's Drape of Prowess
+				i(97836),	-- Malevolent Gladiator's Drape of Prowess
+				i(97926),	-- Malevolent Gladiator's Drape of Prowess
+			}),
+		}),
 		filter(CLOTH, {
+			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
 				i(83360),	-- 5.0 QA PVP Test Caster DPS Belt
 				i(83361),	-- 5.0 QA PVP Test Caster DPS Belt 2
@@ -908,11 +1014,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83537),	-- ???
 				i(83538),	-- ???
 				i(77506),	-- Art Template Cloth Wrist - Cloth_PanStart_A_01 - Default
-				i(79795),	-- QA Combat Test Caster DPS Bracer 2
-				i(79799),	-- QA Combat Test Priest Healer Bracer 2
-				--
+				i(81007),	-- Honorary Combat Engineer's Satin Leggings
+				i(81006),	-- Honorary Combat Engineer's Silk Trousers
+				i(81016),	-- Landfall Satin Treads
+				i(81015),	-- Landfall Silk Treads
 				i(80948),	-- Peacebreaker's Silk Cowl
 				i(80949),	-- Peacebreaker's Satin Hood
+				i(79795),	-- QA Combat Test Caster DPS Bracer 2
+				i(79799),	-- QA Combat Test Priest Healer Bracer 2
 				i(80988),	-- Scavenger's Silk Amice
 				i(80989),	-- Scavenger's Satin Mantle
 				i(81033),	-- Scavenger's Silk Handguards
@@ -921,13 +1030,11 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(81043),	-- Scavenger's Satin Cuffs
 				i(80997),	-- Silk Robe of Eminent Domain
 				i(80998),	-- Satin Robe of Eminent Domain
-				i(81006),	-- Honorary Combat Engineer's Silk Trousers
-				i(81007),	-- Honorary Combat Engineer's Satin Leggings
-				i(81015),	-- Landfall Silk Treads
-				i(81016),	-- Landfall Satin Treads
 			}),
+
+			-- 5.2.0
 			-- #if BEFORE 10.2.7
-			-- All was added into MoP: Remix Throne of Thunder Ensembles
+			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
 			expansion(EXPANSION.MOP, patch(2,0), {
 				i(96705),	-- Abandoned Zandalari Firecord
 				i(97077),	-- Abandoned Zandalari Firecord
@@ -941,6 +1048,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			-- #endif
 		}),
 		filter(LEATHER, {
+			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
 				i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
 				i(77313),	-- Art Template Leather Legs - Leather_PanProg_B_01 - White
@@ -955,15 +1063,17 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(80995),	-- Leather Tunic of Eniment Domain
 				i(80950),	-- Peacebreaker's Hide Helm
 				i(80946),	-- Peacebreaker's Leather Helm
-				i(80990),	-- Scavenger's Hide Spaulders
-				i(80986),	-- Scavenger's Leather Spaulders
-				i(81035),	-- Scavenger's Hide Gloves
-				i(81031),	-- Scavenger's Leather Gloves
 				i(81044),	-- Scavenger's Hide Bindings
+				i(81035),	-- Scavenger's Hide Gloves
+				i(80990),	-- Scavenger's Hide Spaulders
 				i(81040),	-- Scavenger's Leather Armwraps
+				i(81031),	-- Scavenger's Leather Gloves
+				i(80986),	-- Scavenger's Leather Spaulders
 			}),
+
+			-- 5.2.0
 			-- #if BEFORE 10.2.7
-			-- All was added into MoP: Remix Throne of Thunder Ensembles
+			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
 			expansion(EXPANSION.MOP, patch(2,0), {
 				i(96715),	-- Abandoned Zandalari Moonstrap
 				i(97087),	-- Abandoned Zandalari Moonstrap
@@ -975,41 +1085,45 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(97075),	-- Spiderweb Tabi
 			}),
 			-- #endif
+
+			-- 5.4.0
 			-- #if BEFORE 10.2.7
-			-- All was added into MoP: Remix Throne of Thunder Ensembles
+			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
 			expansion(EXPANSION.MOP, patch(4,0), {
 				i(104986),	-- Unrepentant Heels
 			}),
 			-- #endif
 		}),
 		filter(MAIL, {
+			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
 				i(83468),	-- 5.0 QA PVP Test Hunter Legs
 				i(83469),	-- 5.0 QA PVP Test Hunter Legs 2
 				i(83563),	-- 5.0 QA PVP Test Shaman Healer Chest
 				i(83564),	-- 5.0 QA PVP Test Shaman Healer Chest 2
 				i(83565),	-- 5.0 QA PVP Test Shaman Healer Chest 3
-				i(83574),	-- 5.0 QA PVP Test Shaman Healer Shoulders
 				i(83573),	-- 5.0 QA PVP Test Shaman Healer Shoulder 2
-				i(79789),	-- QA Combat Test Shaman Healer Chest 3
-				--
+				i(83574),	-- 5.0 QA PVP Test Shaman Healer Shoulders
+				i(80996),	-- Chain Armor of Eminent Domain (not added version)
+				i(81005),	-- Honorary Combat Engineer's Chain Leggings
+				i(81009),	-- Honorary Combat Engineer's Ringmail Leggings
+				i(81014),	-- Landfall Chain Boots
+				i(81018),	-- Landfall Sabatons
 				i(80947),	-- Peacebreaker's Chain Helm
 				i(80951),	-- Peacebreaker's Ringmail Helm
+				i(79789),	-- QA Combat Test Shaman Healer Chest 3
+				i(81000),	-- Ringmail Armor of Eminent Domain (not added version)
 				i(80987),	-- Scavenger's Chain Spaulders
 				i(80991),	-- Scavenger's Ringmail Spaulders
 				i(81032),	-- Scavenger's Chain Gauntlets
 				i(81036),	-- Scavenger's Ringmail Gauntlets
 				i(81041),	-- Scavenger's Chain Wristguards
 				i(81045),	-- Scavenger's Ringmail Armbands
-				i(80996),	-- Chain Armor of Eminent Domain (not added version)
-				i(81000),	-- Ringmail Armor of Eminent Domain (not added version)
-				i(81005),	-- Honorary Combat Engineer's Chain Leggings
-				i(81009),	-- Honorary Combat Engineer's Ringmail Leggings
-				i(81014),	-- Landfall Chain Boots
-				i(81018),	-- Landfall Sabatons
 			}),
+
+			-- 5.2.0
 			-- #if BEFORE 10.2.7
-			-- All was added into MoP: Remix Throne of Thunder Ensembles
+			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
 			expansion(EXPANSION.MOP, patch(2,0), {
 				i(96716),	-- Abandoned Zandalari Arrowlinks
 				i(97088),	-- Abandoned Zandalari Arrowlinks
@@ -1023,9 +1137,19 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			-- #endif
 		}),
 		filter(PLATE, {
+			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(81002),	-- Armored Chestpiece of Eminent Domain
 				i(81709),	-- Belt of Broken Bones
+				i(81001),	-- Burnished Chestguard of Eminent Domain
 				i(81710),	-- Grinning Skull Greatboots
+				i(81003),	-- Heavy Chestpiece of Eminent Domain
+				i(81010),	-- Honorary Combat Engineer's Burnished Legplates
+				i(81012),	-- Honorary Combat Engineer's Heavy Legplates
+				i(81011),	-- Honorary Combat Engineer's Legguards
+				i(81019),	-- Landfall Burnished Greaves
+				i(81021),	-- Landfall Plate Boots
+				i(81020),	-- Landfall Warboots
 				i(80952),	-- Peacebreaker's Burnished Headcover
 				i(80953),	-- Peacebreaker's Armored Helm
 				i(80954),	-- Peacebreaker's Heavy Helm
@@ -1038,18 +1162,11 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(81046),	-- Scavenger's Burnished Bracers
 				i(81047),	-- Scavenger's Armored Bracers
 				i(81048),	-- Scavenger's Heavy Armplates
-				i(81001),	-- Burnished Chestguard of Eminent Domain
-				i(81002),	-- Armored Chestpiece of Eminent Domain
-				i(81003),	-- Heavy Chestpiece of Eminent Domain
-				i(81010),	-- Honorary Combat Engineer's Burnished Legplates
-				i(81011),	-- Honorary Combat Engineer's Legguards
-				i(81012),	-- Honorary Combat Engineer's Heavy Legplates
-				i(81019),	-- Landfall Burnished Greaves
-				i(81020),	-- Landfall Warboots
-				i(81021),	-- Landfall Plate Boots
 			}),
+
+			-- 5.2.0
 			-- #if BEFORE 10.2.7
-			-- All was added into MoP: Remix Throne of Thunder Ensembles
+			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
 			expansion(EXPANSION.MOP, patch(2,0), {
 				i(96720),	-- Abandoned Zandalari Bucklebreaker
 				i(97092),	-- Abandoned Zandalari Bucklebreaker
@@ -1066,81 +1183,74 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 			-- #endif
 		}),
-		filter(BACK_F, {
-			expansion(EXPANSION.MOP, patch(0,1), {
-				i(80965),	-- Scavenger's Cape
-				i(80966),	-- Scavenger's Drape
-				i(80967),	-- Scavenger's Shawl
-				i(80968),	-- Scavenger's Cloak
-				i(80969),	-- Scavenger's Manteau
-			}),
-			expansion(EXPANSION.MOP, patch(3,0), {
-				i(97518),	-- Dreadful Gladiator's Drape of Prowess
-				i(97926),	-- Malevolent Gladiator's Drape of Prowess
-				i(97836),	-- Malevolent Gladiator's Drape of Prowess
-			}),
-		}),
 		filter(FINGER_F, {
+			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(80957),	-- Scavenger's Band
 				i(80955),	-- Scavenger's Loop
 				i(80956),	-- Scavenger's Ring
-				i(80957),	-- Scavenger's Band
 				i(80958),	-- Scavenger's Seal
 				i(80959),	-- Scavenger's Signet
 			}),
+
+			-- 5.3.0
 			expansion(EXPANSION.MOP, patch(3,0), {
 				i(97527),	-- Dreadful Gladiator's Band of Meditation
 				i(97529),	-- Dreadful Gladiator's Band of Meditation
 				i(97844),	-- Malevolent Gladiator's Band of Accuracy
-				i(97933),	-- Malevolent Gladiator's Band of Cruelty
-				i(97843),	-- Malevolent Gladiator's Band of Cruelty
 				i(97528),	-- Malevolent Gladiator's Band of Cruelty
+				i(97843),	-- Malevolent Gladiator's Band of Cruelty
+				i(97933),	-- Malevolent Gladiator's Band of Cruelty
 				i(98037),	-- QA Test Finger Dodge
 				i(98038),	-- QA Test Finger Parry
 			}),
+
+			-- 5.4.0
 			expansion(EXPANSION.MOP, patch(4,0), {
 				i(103825),	-- 5.4 Raid - Normal - Siege of Orgrimmar - Wildcard - Int Hit Ring
 				i(103897),	-- 5.4 Raid - Normal - Siege of Orgrimmar - Wildcard - Str Tank Ring
 			}),
 		}),
 		filter(NECK_F, {
+			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
-				i(81049),	-- Scavenger's Necklace
+				i(81052),	-- Scavenger's Amulet
 				i(81050),	-- Scavenger's Choker
 				i(81051),	-- Scavenger's Locket
-				i(81052),	-- Scavenger's Amulet
+				i(81049),	-- Scavenger's Necklace
 				i(81053),	-- Scavenger's Pendant
 			}),
+
+			-- 5.3.0
 			expansion(EXPANSION.MOP, patch(3,0), {
 				i(97516),	-- Dreadful Gladiator's Pendant of Meditation
-				i(97924),	-- Malevolent Gladiator's Pendant of Cruelty
 				i(97834),	-- Malevolent Gladiator's Pendant of Cruelty
+				i(97924),	-- Malevolent Gladiator's Pendant of Cruelty
 			}),
 		}),
 		filter(TRINKET_F, {
+			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
 				i(83397),	-- 5.0 QA PVP Test Caster DPS Trinket
 				i(83398),	-- 5.0 QA PVP Test Caster DPS Trinket 2
-				i(80960),	-- Scavenger's Medal
-				i(80961),	-- Scavenger's Emblem
-				i(80962),	-- Scavenger's Medallion
 				i(80963),	-- Scavenger's Badge
+				i(80961),	-- Scavenger's Emblem
 				i(80964),	-- Scavenger's Insignia
+				i(80960),	-- Scavenger's Medal
+				i(80962),	-- Scavenger's Medallion
 			}),
+
+			-- 5.1.0
 			expansion(EXPANSION.MOP, patch(1,0), {
-				i(91330),	-- Tyrannical Gladiator's Medallion of Cruelty [H]
-				i(91334),	-- Tyrannical Gladiator's Medallion of Meditation [H]
-				i(91332),	-- Tyrannical Gladiator's Medallion of Tenacity [H]
 				i(91329),	-- Tyrannical Gladiator's Medallion of Cruelty [A]
-				i(91333),	-- Tyrannical Gladiator's Medallion of Meditation [A]
-				i(91331),	-- Tyrannical Gladiator's Medallion of Tenacity [A]
-				i(91329),	-- Tyrannical Gladiator's Medallion of Cruelty [A]
-				i(91333),	-- Tyrannical Gladiator's Medallion of Meditation [A]
-				i(91331),	-- Tyrannical Gladiator's Medallion of Tenacity [A]
 				i(91330),	-- Tyrannical Gladiator's Medallion of Cruelty [H]
+				i(91333),	-- Tyrannical Gladiator's Medallion of Meditation [A]
 				i(91334),	-- Tyrannical Gladiator's Medallion of Meditation [H]
+				i(91331),	-- Tyrannical Gladiator's Medallion of Tenacity [A]
 				i(91332),	-- Tyrannical Gladiator's Medallion of Tenacity [H]
 			}),
+
+			-- 5.3.0
 			expansion(EXPANSION.MOP, patch(3,0), {
 				i(97531),	-- Malevolent Gladiator's Badge of Dominance
 				i(97532),	-- Malevolent Gladiator's Badge of Dominance
@@ -1149,6 +1259,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(97845),	-- Malevolent Gladiator's Medallion of Cruelty [H]
 				i(97935),	-- Malevolent Gladiator's Medallion of Cruelty [H]
 			}),
+
+			-- 5.4.0
 			expansion(EXPANSION.MOP, patch(4,0), {
 				i(102312),	-- 5.4 Raid - Normal - Siege of Orgrimmar - Boss X Loot X - Agi DPS Trinket (5)
 				i(102313),	-- 5.4 Raid - Normal - Siege of Orgrimmar - Boss X Loot X - Int Hit Trinket (5)
@@ -1159,19 +1271,22 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		}),
 		-- These have no armor type
 		n(WRIST, {
+			-- 5.3.0
 			expansion(EXPANSION.MOP, patch(3,0), {
 				i(97838),	-- Malevolent Gladiator's Cuffs of Accuracy
 				i(97521),	-- Malevolent Gladiator's Cuffs of Meditation
 			}),
 		}),
 		n(WAIST, {
+			-- 5.3.0
 			expansion(EXPANSION.MOP, patch(3,0), {
-				i(97930),	-- Malevolent Gladiator's Cord of Accuracy
 				i(97840),	-- Malevolent Gladiator's Cord of Accuracy
+				i(97930),	-- Malevolent Gladiator's Cord of Accuracy
 				i(97523),	-- Malevolent Gladiator's Cord of Cruelty
 			}),
 		}),
 		n(FEET, {
+			-- 5.3.0
 			expansion(EXPANSION.MOP, patch(3,0), {
 				i(97526),	-- Malevolent Gladiator's Treads of Alacrity
 				i(97842),	-- Malevolent Gladiator's Treads of Cruelty
@@ -1181,6 +1296,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 	}),
 	expansion(EXPANSION.WOD, {
 		filter(BACK_F, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				i(114421),	-- Arrowleaf Longcloak
 				i(114301),	-- Axebreak Darkcloak
@@ -1203,12 +1319,12 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(114364),	-- Towerkin Cloak
 				-- Does Not Load In Game --
 				i(108814),	-- 6.0 PH Cloak Agi
-				i(108822),	-- 6.0 PH Cloak STR
 				i(108823),	-- 6.0 PH Cloak Int
+				i(108822),	-- 6.0 PH Cloak STR
 				i(109282),	-- 7.0 QA Combat Test Cloak 1
 				i(109453),	-- 7.0 QA Combat Test Cloak 2
-				i(109496),	-- 7.0 QA Combat Test Cloak 4
 				i(109538),	-- 7.0 QA Combat Test Cloak 3
+				i(109496),	-- 7.0 QA Combat Test Cloak 4
 				--
 				i(117494),	-- Windfang Drape
 				i(117495),	-- Windfang Greatcloak
@@ -1216,6 +1332,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(CLOTH, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				i(114247),	-- Firefly Bracers
 				i(114275),	-- Firefly Cord
@@ -1260,19 +1377,27 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(109303),	-- 7.0 QA Combat Test Caster Shoulders 2
 				i(109344),	-- 7.0 QA Combat Test Caster Shoulders 3
 				i(109473),	-- 7.0 QA Combat Test Caster Shoulders 4
+				i(114247),	-- Firefly Bracers
+				i(114275),	-- Firefly Cord
+				i(114255),	-- Firefly Sandals
 				i(105710),	-- Lasso Bracers, Humanoid
 				i(105928),	-- Magic Bunny Hat
 				i(104355),	-- Titan Rocket Boots
 			}),
+
+			-- 6.0.2
 			expansion(EXPANSION.WOD, patch(0,2), {
 				i(116001),	-- Cord of Skulls
 			}),
+
+			-- 6.0.3
 			expansion(EXPANSION.WOD, patch(0,3), {
 				-- Does Not Load In Game --
 				i(120318),	-- Sol-Shaper's Sandals
 			}),
 		}),
 		filter(LEATHER, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				i(107660),	-- Battle Aged Leather Pauldrons
 				i(114276),	-- Bloodthorn Belt
@@ -1312,13 +1437,19 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(109486),	-- 6.0 QA Combat Test Leather Shoulders 4
 				i(107203),	-- Lasso Bracers, Powerup
 			}),
+
+			-- 6.0.2
 			expansion(EXPANSION.WOD, patch(0,2), {
 				i(116207),	-- 6.0 LFR - Highmaul Raid - UNUSED - Leather Belt 1
 			}),
+
+			-- 6.0.3
 			expansion(EXPANSION.WOD, patch(0,3), {
 				-- Does Not Load In Game --
 				i(107337),	-- Practice Power Bracers
 			}),
+
+			-- 6.x.x
 			n(P6xx, {
 				-- Does Not Load In Game --
 				i(107889),	-- 7.0 PH Leather Belt
@@ -1333,6 +1464,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			})
 		}),
 		filter(MAIL, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				i(114277),	-- Leafscale Belt
 				i(114257),	-- Leafscale Boots
@@ -1380,11 +1512,14 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(109425),	-- 7.0 QA Combat Test Mail Shoulders 3
 				i(109484),	-- 7.0 QA Combat Test Mail Shoulders 4
 			}),
+
+			-- 6.0.2
 			expansion(EXPANSION.WOD, patch(0,2), {
 				i(116031),	-- 6.0 LFR - Highmaul Raid - UNUSED - Mail Versatile Belt 1
 			}),
 		}),
 		filter(PLATE, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				i(114250),	-- Ruby Plate Bracers
 				i(114258),	-- Ruby Plate Greaves
@@ -1422,9 +1557,13 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(109332),	-- 7.0 QA Combat Test Plate Shoulders 3
 				i(109338),	-- 7.0 QA Combat Test Plate Shoulders 4
 			}),
+
+			-- 6.0.2
 			expansion(EXPANSION.WOD, patch(0,2), {
 				i(116232),	-- 6.0 LFR - Highmaul Raid - UNUSED - Plate Versatile Belt 1
 			}),
+
+			-- 6.x.x
 			n(P6xx, {
 				-- Does Not Load In Game --
 				i(107862),	-- 7.0 PH Plate Chestplate
@@ -1438,6 +1577,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			})
 		}),
 		filter(NECK_F, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				-- Does Not Load In Game --
 				i(108812),	-- 6.0 PH Neck Agi
@@ -1456,6 +1596,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(FINGER_F, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				-- Does Not Load In Game --
 				i(108813),	-- 6.0 PH Ring Agi
@@ -1471,12 +1612,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(109512),	-- 6.0 QA Combat Test Caster DPS Ring 5
 				i(109277),	-- 7.0 QA Combat Test Ring 1
 			}),
+
+			-- 6.x.x
 			n(P6xx, {
 				-- Does Not Load In Game --
 				i(109516),	-- 7.0 QA Combat Test Ring 5
 			}),
 		}),
 		filter(TRINKET_F, {
+			-- 6.0.1
 			expansion(EXPANSION.WOD, patch(0,1), {
 				i(114960),	-- Spires unused
 				-- Does Not Load In Game --
@@ -1504,104 +1648,134 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(113018),	-- 7.0 QRP Template PH Str Trinket #1
 				i(113019),	-- 7.0 QRP Template PH Str Trinket #2
 			}),
+
+			-- 6.0.2
 			expansion(EXPANSION.WOD, patch(2,0), {
-				i(124870),	-- Wild Gladiator's Accolade of Conquest
 				i(125044),	-- Wild Combatant's Accolade of Conquest
-				i(125347),	-- Wild Gladiator's Accolade of Conquest
 				i(125521),	-- Wild Combatant's Accolade of Conquest
-				i(124871),	-- Wild Gladiator's Accolade of Dominance
 				i(125045),	-- Wild Combatant's Accolade of Dominance
-				i(125348),	-- Wild Gladiator's Accolade of Dominance
 				i(125522),	-- Wild Combatant's Accolade of Dominance
-				i(124874),	-- Wild Gladiator's Accolade of Endurance
 				i(125048),	-- Wild Combatant's Accolade of Endurance
-				i(125351),	-- Wild Gladiator's Accolade of Endurance
 				i(125525),	-- Wild Combatant's Accolade of Endurance
-				i(124873),	-- Wild Gladiator's Accolade of Meditation
 				i(125047),	-- Wild Combatant's Accolade of Meditation
-				i(125350),	-- Wild Gladiator's Accolade of Meditation
 				i(125524),	-- Wild Combatant's Accolade of Meditation
-				i(124872),	-- Wild Gladiator's Accolade of Victory
 				i(125046),	-- Wild Combatant's Accolade of Victory
-				i(125349),	-- Wild Gladiator's Accolade of Victory
 				i(125523),	-- Wild Combatant's Accolade of Victory
+				i(124870),	-- Wild Gladiator's Accolade of Conquest
+				i(125347),	-- Wild Gladiator's Accolade of Conquest
+				i(124871),	-- Wild Gladiator's Accolade of Dominance
+				i(125348),	-- Wild Gladiator's Accolade of Dominance
+				i(124874),	-- Wild Gladiator's Accolade of Endurance
+				i(125351),	-- Wild Gladiator's Accolade of Endurance
+				i(124873),	-- Wild Gladiator's Accolade of Meditation
+				i(125350),	-- Wild Gladiator's Accolade of Meditation
+				i(124872),	-- Wild Gladiator's Accolade of Victory
+				i(125349),	-- Wild Gladiator's Accolade of Victory
 			}),
 		}),
 	}),
 	expansion(EXPANSION.LEGION, {
 		cl(ROGUE, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(130327),	-- Artful Britches
 			}),
 		}),
 		filter(BACK_F, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
-				i(134579),	-- Vanguard Cape
-				i(134605),	-- Vanguard Cloak
 				i(134609),	-- Scorching Cape
 				i(134617),	-- Scorching Drape
+				i(134579),	-- Vanguard Cape
+				i(134605),	-- Vanguard Cloak
 			}),
+
+			-- 7.1.0
 			expansion(EXPANSION.LEGION, patch(1,0), {
 				i(134693),	-- Enveloping Cape
 				i(134699),	-- Enveloping Drape
 			}),
+
+			-- 7.2.5
 			expansion(EXPANSION.LEGION, patch(2,5), {
 				i(150489),	-- Shroud of Forgiveness
 				i(150714),	-- Travel-Worn Shawl
 			}),
+
+			-- 7.3.5
 			expansion(EXPANSION.LEGION, patch(3,5), {
 				i(157751),	-- Drape of New Beginnings
 			}),
 		}),
 		filter(CLOTH, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(134017),	-- Don Carlos' Famous Hat
 				i(138420),	-- Pilfered Ettin String
 			}),
+
+			-- 7.3.0
 			expansion(EXPANSION.LEGION, patch(3,0), {
 				i(153289),	-- Eredar Priestess' Tunic
 			}),
+
+			-- 7.3.5
 			expansion(EXPANSION.LEGION, patch(3,5), {
 				i(142214),	-- 7.1 Dungeon - Karazhan - Cloth SHOULDER 2
 			}),
 		}),
 		filter(LEATHER, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(129046),	-- 7.0 PH Leather Helm
 				i(129127),	-- Ebon Stalker's Boots
 			}),
+
+			-- 7.2.0
 			expansion(EXPANSION.LEGION, patch(2,0), {
 				i(147036),	-- Fel-Stippled Legguards
 			}),
 		}),
 		filter(MAIL, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(129152),	-- Boulderfall Stompers
 			}),
+
+			-- 7.2.0
 			expansion(EXPANSION.LEGION, patch(2,0), {
 				i(147058),	-- Chaos-Calming Wristguards
 			}),
+
+			-- 7.2.5
 			expansion(EXPANSION.LEGION, patch(2,5), {
 				i(140011),	-- Duskwatch Adjudicator's Pauldrons
 			}),
+
+			-- 7.3.0
 			expansion(EXPANSION.LEGION, patch(3,0), {
 				i(152745),	-- REUSE ME
 			}),
 		}),
 		filter(PLATE, {
+			-- 7.1.0
 			expansion(EXPANSION.LEGION, patch(1,0), {
 				i(138489),	-- Kargath's Sacrified Hands
 			}),
+
+			-- 7.2.0
 			expansion(EXPANSION.LEGION, patch(2,0), {
 				i(147074),	-- Vambraces of Resoulte Justice
 			}),
 		}),
 		filter(TABARDS, {
+			-- 7.2.0
 			expansion(EXPANSION.LEGION, patch(2,0), {
 				i(147204),	-- Black Apron - TEST
 			}),
 		}),
 		filter(NECK_F, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(131919),	-- Bitestone Incisor
 				i(134710),	-- Enveloping Choker
@@ -1611,61 +1785,86 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(134597),	-- Vanguard Necklace
 				i(134598),	-- Vanguard Pendant
 			}),
+
+			-- 7.3.0
 			expansion(EXPANSION.LEGION, patch(3,0), {
 				i(153484),	-- Fierce Combatant's Necklace
 			}),
+
+			-- 7.3.5
 			expansion(EXPANSION.LEGION, patch(3,5), {
 				i(157750),	-- Pendant of Good Fortune
 			}),
 		}),
 		filter(FINGER_F, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(141907),	-- Arena Victory Bonus
 			}),
+
+			-- 7.1.0
 			expansion(EXPANSION.LEGION, patch(1,0), {
 				i(143604),	-- Rating Min Item Level Reward
 			}),
+
+			-- 7.1.5
 			expansion(EXPANSION.LEGION, patch(1,5), {
 				i(144455),	-- Rating Min Item Level Reward
 			}),
+
+			-- 7.2.0
 			expansion(EXPANSION.LEGION, patch(2,0), {
 				i(147397),	-- Rating Min Item Level Reward
 				i(147421),	-- Rating Min Item Level Reward
 			}),
+
+			-- 7.3.0
 			expansion(EXPANSION.LEGION, patch(3,0), {
 				i(150368),	-- Rating Min Item Level Reward
 				i(150369),	-- Rating Min Item Level Reward
 				i(150370),	-- Rating Min Item Level Reward
 			}),
+
+			-- 7.3.5
 			expansion(EXPANSION.LEGION, patch(3,5), {
-				i(157748),	-- Simple Golden Ring
 				i(157749),	-- Ornate Silver Loop
+				i(157748),	-- Simple Golden Ring
 			}),
 		}),
 		filter(TRINKET_F, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(133062),	-- Demon Trophy of Insanity
 				i(131803),	-- Spine of Barax
 			}),
+
+			-- 7.1.0
 			expansion(EXPANSION.LEGION, patch(1,0), {
 				i(138084),	-- Iron Wrought Insignia of Conquest
 				i(138090),	-- Iron Wrought Insignia of Dominance
 				i(138093),	-- Iron Wrought Insignia of Victory
 				i(140027),	-- Ley Spark
 			}),
+
+			-- 7.3.0
 			expansion(EXPANSION.LEGION, patch(3,0), {
 				i(151967),	-- Electrostatic Lasso
 				i(151961),	-- Legionsteel Flywheel
 			}),
+
+			-- 7.3.5
 			expansion(EXPANSION.LEGION, patch(3,5), {
 				i(157746),	-- Graven Keepsake
 				i(157747),	-- Illuminated Charm
 			}),
+
+			-- 7.x.x
 			n(P7xx, {
 				i(150367),	-- Test Trinket
 			}),
 		}),
 		n(RELICS, {
+			-- 7.0.3
 			expansion(EXPANSION.LEGION, patch(0,3), {
 				i(133018),	-- Azsuna Package 3 - Holy 1 - Unused
 				i(138229),	-- Nightmare Boss 3 Relic Storm
@@ -1673,6 +1872,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		n(TRIAL_OF_STYLE_HEADER, {
+			-- 7.2.5
 			expansion(EXPANSION.LEGION, patch(2,5), {
 				i(188240),	-- Augur's Walkers
 				i(188246),	-- Bloodbathed Slippers
