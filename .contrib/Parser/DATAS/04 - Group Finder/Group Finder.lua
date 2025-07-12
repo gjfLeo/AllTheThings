@@ -589,8 +589,8 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			["sym"] = {{"select","itemID",98546},{"pop"}},
 		}),
 		i(69903, {	-- Satchel of Exotic Mysteries
-			["u"] = REMOVED_FROM_GAME,
-			["sym"] = {MOP_SYM_PETS, {"select", "itemID",
+			["timeline"] = { ADDED_4_1_0, REMOVED_6_1_0 },
+			["sym"] = { MOP_SYM_PETS, {"select", "itemID",
 				13335,	-- Deathcharger's Reins
 				43953,	-- Reins of the Blue Drake
 				44151,	-- Reins of the Blue Proto-Drake
@@ -601,7 +601,7 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			}},
 		}),
 		i(90818, {	-- Misty Satchel of Exotic Mysteries
-			["u"] = REMOVED_FROM_GAME,
+			["timeline"] = { ADDED_5_0_4, REMOVED_6_1_0 },
 			["sym"] = {
 				{"select", "itemID", 69903},{"pop"},	-- Satchel of Exotic Mysteries
 			},
@@ -609,13 +609,13 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 	}),
 	expansion(EXPANSION.WOD, {
 		i(120334, {	-- Satchel of Cosmic Mysteries
-			["timeline"] = { ADDED_5_4_0, REMOVED_6_0_3 },
+			["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
 			["sym"] = {
 				{"select", "itemID", 69903},{"pop"},	-- Satchel of Exotic Mysteries
 			},
 		}),
 		i(104260, {	-- Satchel of Savage Mysteries
-			["timeline"] = { ADDED_6_0_3, REMOVED_6_1_0 },
+			["timeline"] = { ADDED_6_0_2, REMOVED_6_1_0 },
 			["sym"] = {
 				{"select", "itemID", 69903},{"pop"},	-- Satchel of Exotic Mysteries
 			},
