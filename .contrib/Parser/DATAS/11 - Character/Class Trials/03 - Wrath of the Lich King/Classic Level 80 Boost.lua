@@ -2,47 +2,6 @@
 root(ROOTS.Character, n(CLASS_TRIAL, {
 	expansion(EXPANSION.WRATH, bubbleDown({["u"] = REMOVED_FROM_GAME}, {
 		["groups"] = {
-			--[[cl(DEATHKNIGHT, {
-				i(72994),	-- Ebonsoul Blade
-				i(72990),	-- Ebonsoul Hammer
-				i(72991),	-- Ebonsoul Maul
-				i(72932),	-- Ebonsoul Faceguard
-				i(72921),	-- Ebonsoul Helm
-				i(72923),	-- Ebonsoul Pauldrons
-				i(72934),	-- Ebonsoul Shoulderguards
-				i(73156),	-- Ebonsoul Amulet
-				i(73151),	-- Ebonsoul Pendant
-				i(73315),	-- Ebonsoul Cloak of Battle
-				i(73316),	-- Ebonsoul Cloak of Stoicism
-				i(72918),	-- Ebonsoul Breastplate
-				i(72929),	-- Ebonsoul Chestguard
-				i(72936),	-- Ebonsoul Armguards
-				i(72925),	-- Ebonsoul Vambraces
-				i(72920),	-- Ebonsoul Gauntlets
-				i(72931),	-- Ebonsoul Handguards
-				i(72924),	-- Ebonsoul Girdle
-				i(72935),	-- Ebonsoul Waistband
-				i(72933),	-- Ebonsoul Legguards
-				i(72922),	-- Ebonsoul Legplates
-				i(72930),	-- Ebonsoul Greaves
-				i(72919),	-- Ebonsoul Sabatons
-				i(73152),	-- Ebonsoul Band of Might
-				i(73159),	-- Ebonsoul Band of Stoicism
-				i(73153),	-- Ebonsoul Ring of Might
-				i(73158),	-- Ebonsoul Ring of Stoicism
-				i(73157),	-- Ebonsoul Defender's Idol
-				i(73160),	-- Ebonsoul Defender's Stone
-				i(73155),	-- Ebonsoul Idol of Battle
-				i(73154),	-- Ebonsoul Stone of Battle
-				-- #if BEFORE MOP
-				i(73343, {	-- Ebonsoul Sigil of Battle
-					["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
-				}),
-				i(73346, {	-- Ebonsoul Sigil of Stoicism
-					["timeline"] = { ADDED_4_0_3, REMOVED_5_0_4 },
-				}),
-				-- #endif
-			}),--]]
 			cl(DRUID, {
 				i(73012),	-- Wildsoul Spear
 				i(73011),	-- Wildsoul Staff

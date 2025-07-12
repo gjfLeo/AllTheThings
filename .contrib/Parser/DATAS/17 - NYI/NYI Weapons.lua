@@ -390,10 +390,16 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
-				-- 4.4.2
+				-- 3.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206688),	-- Primitive Scimitar
 					i(206694),	-- Primitive Scimitar
+				}),
+			}),
+			expansion(EXPANSION.CATA, {
+				-- 4.3.0
+				expansion(EXPANSION.CATA, patch(3,0), {
+					i(72994),	-- Ebonsoul Blade
 				}),
 			}),
 			-- #endif
@@ -644,6 +650,13 @@ root(ROOTS.NeverImplemented, {
 			expansion(EXPANSION.WRATH, {
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206686),	-- Lumbering Bludgeon
+				}),
+			}),
+			expansion(EXPANSION.CATA, {
+				-- 4.3.0
+				expansion(EXPANSION.CATA, patch(3,0), {
+					i(72990),	-- Ebonsoul Hammer
+					i(72991),	-- Ebonsoul Maul
 				}),
 			}),
 			-- #endif

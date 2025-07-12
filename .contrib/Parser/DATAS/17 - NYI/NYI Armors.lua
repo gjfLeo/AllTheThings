@@ -398,11 +398,22 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(BACK_F, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(56355),	-- Skin of Stone
 				i(65815),	-- Drape of the Mortal Guardians
 				i(60221),	-- Furlbrow Cloak
 			}),
+
+			-- 4.3.0
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.CATA, patch(3,0), {
+				i(73315),	-- Ebonsoul Cloak of Battle
+				i(73316),	-- Ebonsoul Cloak of Stoicism
+			}),
+			-- #endif
+
+			-- 4.x.x
 			n(P4xx, {
 				i(92315),	-- Deliverer Cloak of Destruction
 				i(92352),	-- Deliverer Cloak of Wisdom
@@ -449,13 +460,15 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(60728),	-- Keeshan's Burlap Vest
 				i(65746),	-- Leggings of Valorous Defense
 				i(47102),	-- Manaweave Robe
-				i(60631, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cord of Dominance
-				i(60632, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cord of Dominance
-				i(60629, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cuffs of Dominance
-				i(60614, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Cuffs of Dominance
-				i(60627, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Treads of Dominance
-				i(60633, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Treads of Dominance
+				i(60631),	-- Vicious Gladiator's Cord of Dominance
+				i(60632),	-- Vicious Gladiator's Cord of Dominance
+				i(60629),	-- Vicious Gladiator's Cuffs of Dominance
+				i(60614),	-- Vicious Gladiator's Cuffs of Dominance
+				i(60627),	-- Vicious Gladiator's Treads of Dominance
+				i(60633),	-- Vicious Gladiator's Treads of Dominance
 			}),
+
+			-- 4.3.0
 			expansion(EXPANSION.CATA, patch(3,0), {
 				i(78532),	-- Clockwinder's Immaculate Gloves
 				i(78608),	-- Clockwinder's Immaculate Gloves
@@ -468,13 +481,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78533),	-- The Hands of Gilly
 				i(78607),	-- The Hands of Gilly
 			}),
-			-- Wouter NOTE: no clue when these got removed, no data on Wowwiki and not on Wowhead Retail
-			-- #if ANYCLASSIC
-			expansion(EXPANSION.CATA, patch(4,2), {
-				i(92085),	-- Deliverer Bindings
-				i(92086),	-- Deliverer Wristwraps
-			}),
-			-- #endif
 		}),
 		filter(LEATHER, {
 			expansion(EXPANSION.CATA, patch(0,3), {
@@ -538,11 +544,11 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(54681),	-- Thick Murloc Armor
 				i(54727),	-- Traveler's Boots
 				i(54667),	-- Vest of the Dragon Slayer
-				i(60592, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
-				i(60595, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
-				i(60600, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Belt of Triumph
-				i(60596, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Boots of Triumph
-				i(60599, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Boots of Triumph
+				i(60592),	-- Vicious Gladiator's Belt of Triumph
+				i(60595),	-- Vicious Gladiator's Belt of Triumph
+				i(60600),	-- Vicious Gladiator's Belt of Triumph
+				i(60596),	-- Vicious Gladiator's Boots of Triumph
+				i(60599),	-- Vicious Gladiator's Boots of Triumph
 				i(54711),	-- Wendigo Collar
 				i(54694),	-- Wolf Rider's Padded Armor
 			}),
@@ -619,21 +625,21 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(59789),	-- Sea-Snack Footguards
 				i(54783),	-- Silvered Bronze Shoulders
 				i(54781),	-- Thorbia's Gauntlets
-				i(60537, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Dominance
-				i(60570, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Salvation
-				i(60552, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Triumph
-				i(60562, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Triumph
-				i(60563, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Sabatons of Triumph
-				i(60566, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Salvation
-				i(60571, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Salvation
-				i(60551, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Triumph
-				i(60558, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Triumph
-				i(60561, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Waistguard of Triumph
-				i(60538, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Dominance
-				i(60568, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Salvation
-				i(60553, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Triumph
-				i(60556, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Triumph
-				i(60560, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Wristguards of Triumph
+				i(60537),	-- Vicious Gladiator's Sabatons of Dominance
+				i(60570),	-- Vicious Gladiator's Sabatons of Salvation
+				i(60552),	-- Vicious Gladiator's Sabatons of Triumph
+				i(60562),	-- Vicious Gladiator's Sabatons of Triumph
+				i(60563),	-- Vicious Gladiator's Sabatons of Triumph
+				i(60566),	-- Vicious Gladiator's Waistguard of Salvation
+				i(60571),	-- Vicious Gladiator's Waistguard of Salvation
+				i(60551),	-- Vicious Gladiator's Waistguard of Triumph
+				i(60558),	-- Vicious Gladiator's Waistguard of Triumph
+				i(60561),	-- Vicious Gladiator's Waistguard of Triumph
+				i(60538),	-- Vicious Gladiator's Wristguards of Dominance
+				i(60568),	-- Vicious Gladiator's Wristguards of Salvation
+				i(60553),	-- Vicious Gladiator's Wristguards of Triumph
+				i(60556),	-- Vicious Gladiator's Wristguards of Triumph
+				i(60560),	-- Vicious Gladiator's Wristguards of Triumph
 			}),
 			expansion(EXPANSION.CATA, patch(2,0), {
 				i(71570),	-- Bracers of Forked Lightning
@@ -671,6 +677,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(PLATE, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(54789),	-- Art Template Plate Belt - Plate_Common_C_01 - Rust
 				i(59768),	-- Bracers of Burbling Freedom
@@ -692,28 +699,32 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(55514),	-- Steelgrill Sabatons
 				i(55496),	-- Steelgrill Vambraces
 				-- #endif
-				i(60507, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Salvation
-				i(60515, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Salvation
-				i(60510, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Triumph
-				i(60524, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Triumph
-				i(60529, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Bracers of Triumph
-				i(60517, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Salvation
-				i(60518, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Salvation
-				i(60514, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Triumph
-				i(60526, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Triumph
-				i(60527, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Girdle of Triumph
-				i(60506, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Salvation
-				i(60519, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Salvation
-				i(60522, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Triumph
-				i(60525, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Triumph
-				i(60528, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Greaves of Triumph
+				i(60507),	-- Vicious Gladiator's Bracers of Salvation
+				i(60515),	-- Vicious Gladiator's Bracers of Salvation
+				i(60510),	-- Vicious Gladiator's Bracers of Triumph
+				i(60524),	-- Vicious Gladiator's Bracers of Triumph
+				i(60529),	-- Vicious Gladiator's Bracers of Triumph
+				i(60517),	-- Vicious Gladiator's Girdle of Salvation
+				i(60518),	-- Vicious Gladiator's Girdle of Salvation
+				i(60514),	-- Vicious Gladiator's Girdle of Triumph
+				i(60526),	-- Vicious Gladiator's Girdle of Triumph
+				i(60527),	-- Vicious Gladiator's Girdle of Triumph
+				i(60506),	-- Vicious Gladiator's Greaves of Salvation
+				i(60519),	-- Vicious Gladiator's Greaves of Salvation
+				i(60522),	-- Vicious Gladiator's Greaves of Triumph
+				i(60525),	-- Vicious Gladiator's Greaves of Triumph
+				i(60528),	-- Vicious Gladiator's Greaves of Triumph
 			}),
+
+			-- 4.2.0
 			expansion(EXPANSION.CATA, patch(2,0), {
 				i(71583),	-- Bracers of Imperious Truths
 				i(71585),	-- Bracers of Regal Force
 				i(71584),	-- Gigantiform Bracers
 				i(71400),	-- Girdle of the Indomitable Flame
 			}),
+
+			-- 4.3.0
 			expansion(EXPANSION.CATA, patch(3,0), {
 				i(78563),	-- Blinding Girdle of Truth
 				i(78644),	-- Blinding Girdle of Truth
@@ -723,6 +734,24 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78584),	-- Chestplate of the Unshakable Titan
 				i(78564),	-- Demonbone Waistguard
 				i(78645),	-- Demonbone Waistguard
+				-- #if ANYCLASSIC
+				i(72936),	-- Ebonsoul Armguards
+				i(72918),	-- Ebonsoul Breastplate
+				i(72929),	-- Ebonsoul Chestguard
+				i(72932),	-- Ebonsoul Faceguard
+				i(72920),	-- Ebonsoul Gauntlets
+				i(72924),	-- Ebonsoul Girdle
+				i(72930),	-- Ebonsoul Greaves
+				i(72931),	-- Ebonsoul Handguards
+				i(72921),	-- Ebonsoul Helm
+				i(72933),	-- Ebonsoul Legguards
+				i(72922),	-- Ebonsoul Legplates
+				i(72923),	-- Ebonsoul Pauldrons
+				i(72919),	-- Ebonsoul Sabatons
+				i(72934),	-- Ebonsoul Shoulderguards
+				i(72925),	-- Ebonsoul Vambraces
+				i(72935),	-- Ebonsoul Waistband
+				-- #endif
 				i(78573),	-- Flashing Bracers of Warmth
 				i(78648),	-- Flashing Bracers of Warmth
 				i(78646),	-- Forgesmelter Waistplate
@@ -741,6 +770,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(78534),	-- Visage of Petrification
 				i(78614),	-- Visage of Petrification
 			}),
+
+			-- 4.x.x
 			n(P4xx, {
 				i(68844),	-- Art Template Plate Hand - Plate_PVPDeathKnight_C_02 - Blue
 				i(63054),	-- Fallback Armor - Plate Waist
@@ -775,11 +806,21 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 		}),
 		filter(NECK_F, {
+			-- 4.3.0
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.CATA, patch(3,0), {
+				i(73156),	-- Ebonsoul Amulet
+				i(73151),	-- Ebonsoul Pendant
+			}),
+			-- #endif
+
+			-- 4.x.x
 			n(P4xx, {
 				i(59665),	-- Emerald Dragonet Choker
 			}),
 		}),
 		filter(FINGER_F, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(57708),	-- QA Test Finger 500 Strength
 				i(57709),	-- QA Test Finger Strength
@@ -791,66 +832,76 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(57738),	-- QA Test Finger 250 Mastery
 				i(58816),	-- QA Test Finger 250 Hit
 			}),
+
+			-- 4.3.0
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.CATA, patch(3,0), {
+				i(73152),	-- Ebonsoul Band of Might
+				i(73159),	-- Ebonsoul Band of Stoicism
+				i(73153),	-- Ebonsoul Ring of Might
+				i(73158),	-- Ebonsoul Ring of Stoicism
+			}),
+			-- #endif
 		}),
 		filter(TRINKET_F, {
+			-- 4.0.3
 			expansion(EXPANSION.CATA, patch(0,3), {
 				i(54547),	-- Cracked Jewelry Box
 				i(65015),	-- DONTUSEFury of Angerforge
-				i(61035, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Badge of Dominance
-				i(61034, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Badge of Victory
-				i(61030, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Emblem of Proficiency
-				i(69781, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Mark of Cruelty
-				i(69783, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Mark of Meditation
-				i(69782, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Mark of Tenacity
-				i(60795, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Accuracy (A)
-				i(60796, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Alacrity (A)
-				i(60798, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Command (A)
-				i(60797, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Medallion of Prowess (A)
-				i(69784, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Cruelty
-				i(69786, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Meditation
-				i(69785, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Tenacity
-				i(69785, { ["timeline"] = CREATED_4_0_3 }),	-- Vicious Gladiator's Symbol of Tenacity
+				i(61035),	-- Vicious Gladiator's Badge of Dominance
+				i(61034),	-- Vicious Gladiator's Badge of Victory
+				i(61030),	-- Vicious Gladiator's Emblem of Proficiency
+				i(69781),	-- Vicious Gladiator's Mark of Cruelty
+				i(69783),	-- Vicious Gladiator's Mark of Meditation
+				i(69782),	-- Vicious Gladiator's Mark of Tenacity
+				i(60795),	-- Vicious Gladiator's Medallion of Accuracy (A)
+				i(60796),	-- Vicious Gladiator's Medallion of Alacrity (A)
+				i(60798),	-- Vicious Gladiator's Medallion of Command (A)
+				i(60797),	-- Vicious Gladiator's Medallion of Prowess (A)
+				i(69784),	-- Vicious Gladiator's Symbol of Cruelty
+				i(69786),	-- Vicious Gladiator's Symbol of Meditation
+				i(69785),	-- Vicious Gladiator's Symbol of Tenacity
+				i(69785),	-- Vicious Gladiator's Symbol of Tenacity
 			}),
+
+			-- 4.2.0
 			expansion(EXPANSION.CATA, patch(2,0), {
-				i(70411, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Mark of Meditation
-				i(70410, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Mark of Tenacity
-				i(70412, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Cruelty
-				i(70414, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Meditation
-				i(70413, { ["timeline"] = CREATED_4_2_0 }),	-- Ruthless Gladiator's Symbol of Tenacity
+				i(70411),	-- Ruthless Gladiator's Mark of Meditation
+				i(70410),	-- Ruthless Gladiator's Mark of Tenacity
+				i(70412),	-- Ruthless Gladiator's Symbol of Cruelty
+				i(70414),	-- Ruthless Gladiator's Symbol of Meditation
+				i(70413),	-- Ruthless Gladiator's Symbol of Tenacity
 			}),
+
+			-- 4.3.0
+			-- #if ANYCLASSIC
+			expansion(EXPANSION.CATA, patch(3,0), {
+				i(73157),	-- Ebonsoul Defender's Idol
+				i(73160),	-- Ebonsoul Defender's Stone
+				i(73155),	-- Ebonsoul Idol of Battle
+				i(73154),	-- Ebonsoul Stone of Battle
+			}),
+			-- #endif
 		}),
 		-- #if BEFORE MOP
 		filter(RELICS_F, {
-			-- These were created for Dragon Soul, but the Normal Mode relics themselves were added to the Valor vendor instead, meaning the LFR and Heroic versions were never available to players
-			i(78629, {	-- Gutripper Shard (LFR)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78550, {	-- Gutripper Shard (Heroic)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78631, {	-- Lightning Spirit in a Bottle (LFR)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78552, {	-- Lightning Spirit in a Bottle (Heroic)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78630, {	-- Mindbender Lens (LFR)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78553, {	-- Mindbender Lens (Heroic)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78633, {	-- Ripfang Relic (LFR)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78554, {	-- Ripfang Relic (Heroic)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78632, {	-- Stoutheart Talisman (LFR)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
-			}),
-			i(78551, {	-- Stoutheart Talisman (Heroic)
-				["timeline"] = { CREATED_4_3_0, REMOVED_5_0_4 },
+			-- 4.3.0
+			expansion(EXPANSION.CATA, patch(3,0), {
+				-- #if ANYCLASSIC
+				i(73343),	-- Ebonsoul Sigil of Battle
+				i(73346),	-- Ebonsoul Sigil of Stoicism
+				-- #endif
+				-- These were created for Dragon Soul, but the Normal Mode relics themselves were added to the Valor vendor instead, meaning the LFR and Heroic versions were never available to players
+				i(78629),	-- Gutripper Shard (LFR)
+				i(78550),	-- Gutripper Shard (Heroic)
+				i(78631),	-- Lightning Spirit in a Bottle (LFR)
+				i(78552),	-- Lightning Spirit in a Bottle (Heroic)
+				i(78630),	-- Mindbender Lens (LFR)
+				i(78553),	-- Mindbender Lens (Heroic)
+				i(78633),	-- Ripfang Relic (LFR)
+				i(78554),	-- Ripfang Relic (Heroic)
+				i(78632),	-- Stoutheart Talisman (LFR)
+				i(78551),	-- Stoutheart Talisman (Heroic)
 			}),
 		}),
 		-- #endif
