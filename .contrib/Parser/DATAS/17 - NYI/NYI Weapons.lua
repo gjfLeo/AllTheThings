@@ -81,6 +81,8 @@ root(ROOTS.NeverImplemented, {
 				n(P4xx, {
 					i(92204),	-- Darkwalker Dagger
 					i(92192),	-- Darkwalker Shiv
+					i(77960),	-- Monster - Item, Bottle - Green (Dagger)
+					i(72107),	-- Monster - Item, Draenei A 02 Purple
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
@@ -165,6 +167,11 @@ root(ROOTS.NeverImplemented, {
 					i(49455),	-- Blunderbuss of Deforestation
 				}),
 			}),
+			expansion(EXPANSION.MOP, {
+				n(P5xx, {
+					i(90188),	-- Airship Gunner's Rifle
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189675),	-- 10.0 Dungeon Template - Guns - RangedRight
@@ -179,9 +186,42 @@ root(ROOTS.NeverImplemented, {
 		filter(HELD_IN_OFF_HAND, {
 			expansion(EXPANSION.CLASSIC, {
 				n(P1xx, {
-					i(19989),	-- Tome of Devouring Shadows
 					i(20337),	-- Gnome Head on a Stick
+					i(21796),	-- Monster - Item, Ahn'Qiraj Held Scepter
+					i(21121),	-- Monster - Item, Flower - Purple
+					i(21123),	-- Monster - Item, Flower - White
 					i(22211),	-- Monster - Knuckle, B01 Red Offhand
+					i(19989),	-- Tome of Devouring Shadows
+				}),
+			}),
+			expansion(EXPANSION.TBC, {
+				n(P2xx, {
+					i(33162),	-- Monster - Item, Tankard Gold Offhand (Yellow Glow)
+					i(36761),	-- Monster - Item, Tankard Metal Offhand (Red Glow)
+				}),
+			}),
+			expansion(EXPANSION.WRATH, {
+				n(P3xx, {
+					i(49160),	-- Monster - Item, Book - C01 Silver
+					i(71741),	-- Monster - Item, Draenei A 02 Purple (Offhand)
+					i(52359),	-- Monster - Item, Potion Purple Offhand
+					i(42756),	-- Monster - Item, Tome of Divine Right
+					i(34717),	-- Monster - Item, Vial Green Offhand
+				}),
+			}),
+			expansion(EXPANSION.CATA, {
+				n(P4xx, {
+					i(72515),	-- Monster - Item, Book - C06 Green Offhand
+					i(71736),	-- Monster - Item, Draenei A 01 Pink (Offhand)
+					i(77233),	-- Monster - Item, Mutton with Bite Offhand, Poisoned
+				}),
+			}),
+			expansion(EXPANSION.MOP, {
+				n(P5xx, {
+					i(93027),	-- Monster - Item, Book - C03 Red Offhand
+					i(79820),	-- Monster - Item, Lantern - Round Offhand (Sheathes Hip)
+					i(79712),	-- Monster - Item, Orb - A01 Ice Offhand
+					i(79711),	-- Monster - Item, Orb - A02 White Offhand
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -204,6 +244,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(ONE_HANDED_AXES, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(21129),	-- Monster - Axe, Doctor Weavil
 					i(21465),	-- Monster - Axe, Insano
@@ -211,27 +252,32 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.WRATH, {
+				-- 3.x.x
 				n(P3xx, {
 					i(50251),	-- Shadow's Edge One-Hander
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
+				-- 5.x.x
 				n(P5xx, {
 					i(90276),	-- Landfall Silk Treads
 					i(90281),	-- Landfall Warboots
 				}),
 			}),
 			expansion(EXPANSION.LEGION, {
+				-- 8.1.5
 				expansion(EXPANSION.LEGION, patch(1,5), {
 					i(144217),	-- Inelava, Spirit of Inebriation
 				}),
 			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178449),	-- zzzRated - Weapon - 1H Axe Melee
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189692),	-- 10.0 Dungeon Template - Axe1H - Agi - Weapon
 					i(189693),	-- 10.0 Dungeon Template - Axe1H - Int - Weapon
@@ -246,6 +292,11 @@ root(ROOTS.NeverImplemented, {
 					i(201239),	-- Verdant Drakefire Cleaver
 					i(201240),	-- Viridescent Stalked Reaver
 				}),
+
+				-- 10.1.0
+				expansion(EXPANSION.DF, patch(1,0), bubbleDown({ ["timeline"] = { CREATED_10_1_0 } }, {
+					i(204638),	-- Sunder Wing
+				})),
 			}),
 		}),
 		filter(ONE_HANDED_MACES, {
@@ -267,16 +318,26 @@ root(ROOTS.NeverImplemented, {
 			}),
 			expansion(EXPANSION.WRATH, {
 				-- #if ANYCLASSIC
+				-- 3.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206689),	-- Brass-Bound Cudgel
 					i(206717),	-- Brass-Bound Cudgel
 				}),
 				-- #endif
+
+				-- 3.x.x
 				n(P3xx, {
 					i(38468),	-- Kalu'ak Peacebringer
 				}),
 			}),
+			expansion(EXPANSION.MOP, {
+				-- 5.x.x
+				n(P5xx, {
+					i(104200),	-- Monster - Item, Fishing Pole (Shoulder)
+				}),
+			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178401),	-- UNUSED - Rated - Weapon - 1H Mace Caster
 					i(176011),	-- UNUSED - Rated - Weapon - 1H Mace Caster
@@ -288,6 +349,7 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189688),	-- 10.0 Dungeon Template - Mace1H - Agi - Weapon
 					i(189694),	-- 10.0 Dungeon Template - Mace1H - Int - Weapon
@@ -304,10 +366,16 @@ root(ROOTS.NeverImplemented, {
 					i(201242),	-- Growth Evoking Furnace
 					i(201238),	-- Vision Enforcing Bludgeon
 				}),
+
+				-- 10.1.5
+				expansion(EXPANSION.DF, patch(1,5), bubbleDown({ ["timeline"] = { CREATED_10_1_5 } }, {
+					i(208001),	-- Timewalker's Cudgel
+				})),
 			}),
 		}),
 		filter(ONE_HANDED_SWORDS, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(9380),	-- Jang'thraze the Protector
 					i(22805),	-- Naxxramas Sword 1H 1 PH
@@ -322,6 +390,7 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
+				-- 4.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206688),	-- Primitive Scimitar
 					i(206694),	-- Primitive Scimitar
@@ -329,20 +398,25 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #endif
 			expansion(EXPANSION.MOP, {
+				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
 					i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
 					i(80211),	-- Enchanting Test Sword
 				}),
 			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178455),	-- zzzRated - Weapon - 1H Sword Melee
 				}),
+
+				-- 9.1.5
 				expansion(EXPANSION.SL, patch(1,5), {
 					i(187568),	-- Duskwatch Arcblade
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189681),	-- 10.0 Dungeon Template - Sword1H - Agi - Weapon
 					i(189695),	-- 10.0 Dungeon Template - Sword1H - Int - Weapon
@@ -357,6 +431,18 @@ root(ROOTS.NeverImplemented, {
 					i(189352),	-- 10.0 Zone Uncommon Template <Descriptor> Sword
 					i(200995),	-- Obsidian Soldier's Cutlass
 				}),
+
+				-- 10.1.5
+				expansion(EXPANSION.DF, patch(1,5), bubbleDown({ ["timeline"] = { CREATED_10_1_5 } }, {
+					i(207044),	-- <DNT> Lo'Gosh Offhand Weapon
+					i(207045),	-- <DNT> Lo'Gosh Mainhand Weapon
+				})),
+
+				-- 10.1.7
+				expansion(EXPANSION.DF, patch(1,7), bubbleDown({ ["timeline"] = { CREATED_10_1_7 } }, {
+					i(208987),	-- The Horseman's Sinister Slicer [Hallow's End]
+					i(209022),	-- The Horseman's Sinister Slicer [Hallow's End]
+				})),
 			}),
 		}),
 		filter(POLEARMS, {
@@ -587,6 +673,7 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(TWO_HANDED_SWORDS, {
 			expansion(EXPANSION.CLASSIC, {
+				-- 1.x.x
 				n(P1xx, {
 					i(13262),	-- Ashbringer
 					i(913),		-- Huge Ogre Sword
@@ -604,6 +691,7 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(176006),	-- UNUSED - Rated - Weapon - 2H Sword Melee
 					i(178396),	-- UNUSED - Rated - Weapon - 2H Sword Melee
@@ -611,34 +699,41 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.DF, {
-				expansion(EXPANSION.DF, patch(0,0,1), {
-					i(189355),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
-					i(189358),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
-				}),
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189701),	-- 10.0 Dungeon Template - Sword2H - Int - 2 Hand
 					i(189698),	-- 10.0 Dungeon Template - Sword2H - Str - 2 Hand
 					i(189136),	-- 10.0 QRP Template <Descriptor> Greatsword
 					i(189139),	-- 10.0 QRP Template <Descriptor> Greatsword
+					i(189355),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
+					i(189358),	-- 10.0 Zone Uncommon Template <Descriptor> Greatsword
 					i(201244),	-- Dreamfire-Infused Broadsword
 					i(201245),	-- Emerald Blessed Greatsword
 				}),
+
+				-- 10.1.5
+				expansion(EXPANSION.DF, patch(1,5), bubbleDown({ ["timeline"] = { CREATED_10_1_5 } }, {
+					i(206931),	-- Truesilver Champion
+				})),
 			}),
 		}),
 		filter(WANDS, {
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
+				-- 4.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206697),	-- Chilled Wand
 				}),
 			}),
 			-- #endif
 			expansion(EXPANSION.SL, {
+				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(172461),	-- Eternal Twilight Wand
 				}),
 			}),
 			expansion(EXPANSION.DF, {
+				-- 10.0.0
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189702),	-- 10.0 Dungeon Template - Wand - RangedRight
 					i(199932),	-- 10.0 Enchanting - Weapon - Wand 1
@@ -648,6 +743,11 @@ root(ROOTS.NeverImplemented, {
 					i(201246),	-- Coiled Green Draketail
 					i(201775),	-- Crimson Aspirant's Wand
 				}),
+
+				-- 10.1.5
+				expansion(EXPANSION.DF, patch(1,5), bubbleDown({ ["timeline"] = { CREATED_10_1_5 } }, {
+					i(207984),	-- Chroniton Wand
+				})),
 			}),
 		}),
 		filter(WARGLAIVES, {
@@ -1020,26 +1120,10 @@ root(ROOTS.NeverImplemented, {
 		}),
 	}),
 	n(WEAPONS, {
-		-- 10.1.0
-		expansion(EXPANSION.DF, patch(1,0), bubbleDown({ ["timeline"] = { CREATED_10_1_0 } }, {
-			i(204638),	-- Sunder Wing
-		})),
-
 		-- 10.1.5
 		expansion(EXPANSION.DF, patch(1,5), bubbleDown({ ["timeline"] = { CREATED_10_1_5 } }, {
 			i(208003),	-- 10.1.5 Time Rifts - Bronze Weapons - Capture Media
 			i(208002),	-- 10.1.5 Time Rifts - Infinite Weapons - Capture Media
-			i(207044),	-- <DNT> Lo'Gosh Offhand Weapon
-			i(207045),	-- <DNT> Lo'Gosh Mainhand Weapon
-			i(207984),	-- Chroniton Wand
-			i(208001),	-- Timewalker's Cudgel
-			i(206931),	-- Truesilver Champion
-		})),
-
-		-- 10.1.7
-		expansion(EXPANSION.DF, patch(1,7), bubbleDown({ ["timeline"] = { CREATED_10_1_7 } }, {
-			i(208987),	-- The Horseman's Sinister Slicer [Hallow's End]
-			i(209022),	-- The Horseman's Sinister Slicer [Hallow's End]
 		})),
 
 		-- 10.2.0
