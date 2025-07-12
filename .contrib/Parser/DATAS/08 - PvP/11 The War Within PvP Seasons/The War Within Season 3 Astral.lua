@@ -65,85 +65,83 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 				["races"] = HORDE_ONLY,
 			}),
 		})),
-		--[[
 		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			n(219213, {	-- Gilderann <War Mode Quartermaster>
 				["coord"] = { 55.2, 76.8, DORNOGAL },
 				["g"] = {
 					filter(BACK_F, {
-						bloody(525, i(230138)),	-- Prized Warmonger's Cape
-						bloody(525, i(230140)),	-- Prized Warmonger's Cloak
-						bloody(525, i(230141)),	-- Prized Warmonger's Drape
-						bloody(525, i(230139)),	-- Prized Warmonger's Shawl
+						bloody(525, i(230695)),	-- Astral Warmonger's Cape
+						bloody(525, i(230697)),	-- Astral Warmonger's Cloak
+						bloody(525, i(230698)),	-- Astral Warmonger's Drape
+						bloody(525, i(230696)),	-- Astral Warmonger's Shawl 
 					}),
 					filter(CLOTH, {
-						bloody(525, i(230112)),	-- Prized Warmonger's Bindings
-						bloody(700, i(230111)),	-- Prized Warmonger's Cord
-						bloody(875, i(230109)),	-- Prized Warmonger's Crown
-						bloody(875, i(230106)),	-- Prized Warmonger's Garb
-						bloody(700, i(230108)),	-- Prized Warmonger's Gloves
-						bloody(700, i(230113)),	-- Prized Warmonger's Mantle
-						bloody(875, i(230110)),	-- Prized Warmonger's Pants
-						bloody(700, i(230107)),	-- Prized Warmonger's Slippers
+						bloody(525, i(230669)),	-- Astral Warmonger's Bindings
+						bloody(700, i(230668)),	-- Astral Warmonger's Cord
+						bloody(875, i(230663)),	-- Astral Warmonger's Garb
+						bloody(700, i(230665)),	-- Astral Warmonger's Gloves
+						bloody(700, i(230670)),	-- Astral Warmonger's Mantle
+						bloody(875, i(230666)),	-- Astral Warmonger's Mask
+						bloody(875, i(230667)),	-- Astral Warmonger's Pants
+						bloody(700, i(230664)),	-- Astral Warmonger's Slippers
 					}),
 					filter(LEATHER, {
-						bloody(700, i(230118)),	-- Prized Warmonger's Belt
-						bloody(700, i(230114)),	-- Prized Warmonger's Boots
-						bloody(875, i(230117)),	-- Prized Warmonger's Breeches
-						bloody(700, i(230115)),	-- Prized Warmonger's Handwraps
-						bloody(875, i(230116)),	-- Prized Warmonger's Hood
-						bloody(875, i(230120)),	-- Prized Warmonger's Jerkin
-						bloody(700, i(230121)),	-- Prized Warmonger's Shoulderguard
-						bloody(525, i(230119)),	-- Prized Warmonger's Wraps
+						bloody(700, i(230675)),	-- Astral Warmonger's Belt
+						bloody(700, i(230671)),	-- Astral Warmonger's Boots 
+						bloody(875, i(230674)),	-- Astral Warmonger's Breeches
+						bloody(700, i(230672)),	-- Astral Warmonger's Handwraps
+						bloody(875, i(230673)),	-- Astral Warmonger's Hood
+						bloody(875, i(230677)),	-- Astral Warmonger's Jerkin
+						bloody(700, i(230678)),	-- Astral Warmonger's Shoulderguard
+						bloody(525, i(230676)),	-- Astral Warmonger's Wraps
 					}),
 					filter(MAIL, {
-						bloody(525, i(230137)),	-- Prized Warmonger's Armguards
-						bloody(875, i(230130)),	-- Prized Warmonger's Chestguard
-						bloody(700, i(230136)),	-- Prized Warmonger's Cinch
-						bloody(700, i(230135)),	-- Prized Warmonger's Epaulets
-						bloody(700, i(230131)),	-- Prized Warmonger's Greaves
-						bloody(700, i(230132)),	-- Prized Warmonger's Grips
-						bloody(875, i(230133)),	-- Prized Warmonger's Helm
-						bloody(875, i(230134)),	-- Prized Warmonger's Leggings
+						bloody(525, i(230694)),	-- Astral Warmonger's Armguards
+						bloody(875, i(230687)),	-- Astral Warmonger's Chestguard
+						bloody(700, i(230693)),	-- Astral Warmonger's Cinch
+						bloody(700, i(230692)),	-- Astral Warmonger's Epaulets
+						bloody(700, i(230688)),	-- Astral Warmonger's Greaves
+						bloody(700, i(230689)),	-- Astral Warmonger's Grips
+						bloody(875, i(230690)),	-- Astral Warmonger's Helm
+						bloody(875, i(230691)),	-- Astral Warmonger's Leggings
 					}),
 					filter(PLATE, {
-						bloody(525, i(230129)),	-- Prized Warmonger's Bracers
-						bloody(700, i(230128)),	-- Prized Warmonger's Clasp
-						bloody(875, i(230123)),	-- Prized Warmonger's Cuirass
-						bloody(875, i(230122)),	-- Prized Warmonger's Faceplate
-						bloody(700, i(230125)),	-- Prized Warmonger's Gauntlets
-						bloody(875, i(230126)),	-- Prized Warmonger's Legguards
-						bloody(700, i(230124)),	-- Prized Warmonger's Sabatons
-						bloody(700, i(230127)),	-- Prized Warmonger's Spaulders
+						bloody(525, i(230686)),	-- Astral Warmonger's Bracers
+						bloody(700, i(230685)),	-- Astral Warmonger's Clasp
+						bloody(875, i(230680)),	-- Astral Warmonger's Cuirass
+						bloody(875, i(230679)),	-- Astral Warmonger's Faceplate
+						bloody(700, i(230682)),	-- Astral Warmonger's Gauntlets
+						bloody(875, i(230683)),	-- Astral Warmonger's Legguards
+						bloody(700, i(230681)),	-- Astral Warmonger's Sabatons
+						bloody(700, i(230684)),	-- Astral Warmonger's Spaulders
 					}),
 					n(WEAPONS, {
-						bloody(525, i(230156)),		-- Prized Warmonger's Aegis
-						bloody(875, i(230142)),		-- Prized Warmonger's Battleaxe
-						bloody(1750, i(230149)),	-- Prized Warmonger's Battlestaff
-						bloody(1750, i(230151)),	-- Prized Warmonger's Broadsword
-						bloody(875, i(230144)),		-- Prized Warmonger's Carver
-						bloody(1225, i(230153)),	-- Prized Warmonger's Club
-						bloody(875, i(230161)),		-- Prized Warmonger's Crusher
-						bloody(1225, i(230163)),	-- Prized Warmonger's Dagger
-						bloody(875, i(230164)),		-- Prized Warmonger's Dirk
-						bloody(525, i(230147)),		-- Prized Warmonger's Firebomb
-						bloody(1750, i(230145)),	-- Prized Warmonger's Flameshot
-						bloody(875, i(230155)),		-- Prized Warmonger's Gavel
-						bloody(1750, i(230150)),	-- Prized Warmonger's Greatsword
-						bloody(875, i(230154)),		-- Prized Warmonger's Hammer
-						bloody(1225, i(230143)),	-- Prized Warmonger's Hatchet
-						bloody(1750, i(230157)),	-- Prized Warmonger's Impaler
-						bloody(875, i(230160)),		-- Prized Warmonger's Mace
-						bloody(1225, i(230162)),	-- Prized Warmonger's Scepter
-						bloody(1750, i(230158)),	-- Prized Warmonger's Spear
-						bloody(1750, i(230148)),	-- Prized Warmonger's Spire
-						bloody(875, i(230146)),		-- Prized Warmonger's Twinblade
-						bloody(1225, i(230159)),	-- Prized Warmonger's Wand
+						bloody(525, i(230712)),	-- Astral Warmonger's Aegis
+						bloody(875, i(230699)),	-- Astral Warmonger's Battleaxe
+						bloody(1750, i(230706)),	-- Astral Warmonger's Battlestaff
+						bloody(1750, i(230708)),	-- Astral Warmonger's Broadsword
+						bloody(875, i(230701)),	-- Astral Warmonger's Carver
+						bloody(1225, i(230709)),	-- Astral Warmonger's Club
+						bloody(875, i(230717)),	-- Astral Warmonger's Crusher
+						bloody(875, i(230711)),	-- Astral Warmonger's Cudgel
+						bloody(1225, i(230719)),	-- Astral Warmonger's Dagger
+						bloody(875, i(230720)),	-- Astral Warmonger's Dirk
+						bloody(1750, i(230702)),	-- Astral Warmonger's Flameshot
+						bloody(1750, i(230707)),	-- Astral Warmonger's Greatsword
+						bloody(875, i(230710)),	-- Astral Warmonger's Hammer
+						bloody(1225, i(230700)),	-- Astral Warmonger's Hatchet
+						bloody(1750, i(230713)),	-- Astral Warmonger's Impaler
+						bloody(525, i(230704)),	-- Astral Warmonger's Lantern
+						bloody(875, i(230716)),	-- Astral Warmonger's Mace
+						bloody(1750, i(230714)),	-- Astral Warmonger's Spear
+						bloody(1750, i(230705)),	-- Astral Warmonger's Spire
+						bloody(1225, i(230718)),	-- Astral Warmonger's Scepter
+						bloody(875, i(230703)),	-- Astral Warmonger's Twinblade
+						bloody(1225, i(230715)),	-- Astral Warmonger's Wand
 					}),
 				},
 			}),
 		})),
-		--]]
 		n(PVP_ASPIRANT, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 			n(219217, {	-- Velerd <Honor Quartermaster>
 				["coord"] = { 55.0, 76.5, DORNOGAL },

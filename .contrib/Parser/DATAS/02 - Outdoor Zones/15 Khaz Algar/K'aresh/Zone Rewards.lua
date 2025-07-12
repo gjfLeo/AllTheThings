@@ -8,24 +8,48 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				filter(BACK_F, {
 				}),
 				filter(CLOTH, {
+					i(243507),	-- Wastelander Magi's Bands
+					i(243506),	-- Wastelander Magi's Cord
+					i(243503),	-- Wastelander Magi's Crown
+					i(243502),	-- Wastelander Magi's Gloves
+					i(243504),	-- Wastelander Magi's Leggings
+					i(243501),	-- Wastelander Magi's Slippers
+					i(243505),	-- Wastelander Magi's Spines
+					i(243500),	-- Wastelander Magi's Vestments
 				}),
 				filter(FINGER_F, {
 				}),
 				filter(LEATHER, {
-					i(243508),	-- Wastelander Scout's Jerkin
-					i(243509),	-- Wastelander Scout's Soles
-					i(243510),	-- Wastelander Scout's Grips
-					i(243511),	-- Wastelander Scout's Hood
-					i(243512),	-- Wastelander Scout's Breeches
-					i(243513),	-- Wastelander Scout's Shoulderpads
 					i(243514),	-- Wastelander Scout's Belt
 					i(243515),	-- Wastelander Scout's Bracers
+					i(243512),	-- Wastelander Scout's Breeches
+					i(243510),	-- Wastelander Scout's Grips
+					i(243511),	-- Wastelander Scout's Hood
+					i(243508),	-- Wastelander Scout's Jerkin
+					i(243513),	-- Wastelander Scout's Shoulderpads
+					i(243509),	-- Wastelander Scout's Soles
 				}),
 				filter(MAIL, {
+					i(243523),	-- Wastelander Skirmisher's Armguards
+					i(243517),	-- Wastelander Skirmisher's Boots
+					i(243516),	-- Wastelander Skirmisher's Brigandine
+					i(243519),	-- Wastelander Skirmisher's Cowl
+					i(243518),	-- Wastelander Skirmisher's Gauntlets
+					i(243520),	-- Wastelander Skirmisher's Legguards
+					i(243521),	-- Wastelander Skirmisher's Pauldrons
+					i(243522),	-- Wastelander Skirmisher's Sash
 				}),
 				filter(NECK_F, {
 				}),
 				filter(PLATE, {
+					i(243524),	-- Wastelander Brute's Breastplate
+					i(243529),	-- Wastelander Brute's Epaulettes
+					i(243530),	-- Wastelander Brute's Greatbelt
+					i(243528),	-- Wastelander Brute's Greaves
+					i(243526),	-- Wastelander Brute's Handguards
+					i(243527),	-- Wastelander Brute's Helmet
+					i(243525),	-- Wastelander Brute's Sollerets
+					i(243531),	-- Wastelander Brute's Vambraces
 				}),
 				filter(TRINKET_F, {
 				}),

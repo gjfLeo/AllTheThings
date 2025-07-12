@@ -104,63 +104,10 @@ root(ROOTS.Unsorted, {
 				i(243497),	-- Wastelander's Gilded Signet
 				i(243498),	-- Wastelander's Gilded Loop
 				i(243499),	-- Wastelander's Gilded Pendant
-				i(243500),	-- Wastelander Magi's Vestments
-				i(243501),	-- Wastelander Magi's Slippers
-				i(243502),	-- Wastelander Magi's Gloves
-				i(243503),	-- Wastelander Magi's Crown
-				i(243504),	-- Wastelander Magi's Leggings
-				i(243505),	-- Wastelander Magi's Spines
-				i(243506),	-- Wastelander Magi's Cord
-				i(243507),	-- Wastelander Magi's Bands
-				i(243516),	-- Wastelander Skirmisher's Brigandine
-				i(243517),	-- Wastelander Skirmisher's Boots
-				i(243518),	-- Wastelander Skirmisher's Gauntlets
-				i(243519),	-- Wastelander Skirmisher's Cowl
-				i(243520),	-- Wastelander Skirmisher's Legguards
-				i(243521),	-- Wastelander Skirmisher's Pauldrons
-				i(243522),	-- Wastelander Skirmisher's Sash
-				i(243523),	-- Wastelander Skirmisher's Armguards
-				i(243524),	-- Wastelander Brute's Breastplate
-				i(243525),	-- Wastelander Brute's Sollerets
-				i(243526),	-- Wastelander Brute's Handguards
-				i(243527),	-- Wastelander Brute's Helmet
-				i(243528),	-- Wastelander Brute's Greaves
-				i(243529),	-- Wastelander Brute's Epaulettes
-				i(243530),	-- Wastelander Brute's Greatbelt
-				i(243531),	-- Wastelander Brute's Vambraces
 				i(244473),	-- Worn Shadowguard Band
 				i(244474),	-- Worn Shadowguard Signet
 				i(244475),	-- Worn Shadowguard Loop
 				i(244476),	-- Worn Shadowguard Pendant
-				i(244477),	-- Worn Shadowguard Seer's Vestments
-				i(244478),	-- Worn Shadowguard Seer's Slippers
-				i(244479),	-- Worn Shadowguard Seer's Gloves
-				i(244480),	-- Worn Shadowguard Seer's Crown
-				i(244481),	-- Worn Shadowguard Seer's Leggings
-				i(244482),	-- Worn Shadowguard Seer's Spines
-				i(244483),	-- Worn Shadowguard Seer's Cord
-				i(244484),	-- Worn Shadowguard Seer's Bands
-				i(244485),	-- Worn Shadowguard Blade's Jerkin
-				i(244486),	-- Worn Shadowguard Blade's Soles
-				i(244487),	-- Worn Shadowguard Blade's Grips
-				i(244488),	-- Worn Shadowguard Blade's Hood
-				i(244490),	-- Worn Shadowguard Blade's Shoulderpads
-				i(244491),	-- Worn Shadowguard Blade's Belt
-				i(244492),	-- Worn Shadowguard Blade's Bracers
-				i(244493),	-- Worn Shadowguard Striker's Brigandine
-				i(244495),	-- Worn Shadowguard Striker's Gauntlets
-				i(244496),	-- Worn Shadowguard Striker's Cowl
-				i(244497),	-- Worn Shadowguard Striker's Legguards
-				i(244498),	-- Worn Shadowguard Striker's Pauldrons
-				i(244499),	-- Worn Shadowguard Striker's Sash
-				i(244500),	-- Worn Shadowguard Striker's Armguards
-				i(244501),	-- Worn Shadowguard Captain's Breastplate
-				i(244502),	-- Worn Shadowguard Captain's Sollerets
-				i(244503),	-- Worn Shadowguard Captain's Handguards
-				i(244504),	-- Worn Shadowguard Captain's Helmet
-				i(244505),	-- Worn Shadowguard Captain's Greaves
-				i(244507),	-- Worn Shadowguard Captain's Greatbelt
-				i(244508),	-- Worn Shadowguard Captain's Vambraces
 				i(244509),	-- Worn Shadowguard Cleaver
 				i(244510),	-- Worn Shadowguard Carver
 				i(244511),	-- Worn Shadowguard Chopper
@@ -305,7 +252,6 @@ root(ROOTS.Unsorted, {
 				i(248785),	-- Ensemble: Void-Scarred Striker's Battlegear
 				i(248786),	-- Ensemble: Void-Scarred Blade's Attire
 				i(248787),	-- Ensemble: Void-Scarred Seer's Wrappings
-				i(248788),	-- Ensemble: Bundle of Ethereal Cloaks
 				i(248790),	-- Wastelander Scout's Serape
 				i(248791),	-- Wastelander Skirmisher's Cloak
 				i(248792),	-- Wastelander Magi's Shawl
@@ -1110,64 +1056,6 @@ root(ROOTS.Unsorted, {
 				i(230660),	-- Astral Gladiator's Sword
 				i(230661),	-- Astral Gladiator's Skewer
 				i(230662),	-- Astral Gladiator's Battlestaff
-				i(230663),	-- Astral Warmonger's Garb
-				i(230664),	-- Astral Warmonger's Slippers
-				i(230665),	-- Astral Warmonger's Gloves
-				i(230666),	-- Astral Warmonger's Mask
-				i(230667),	-- Astral Warmonger's Pants
-				i(230668),	-- Astral Warmonger's Cord
-				i(230669),	-- Astral Warmonger's Bindings
-				i(230670),	-- Astral Warmonger's Mantle
-				i(230671),	-- Astral Warmonger's Boots
-				i(230672),	-- Astral Warmonger's Handwraps
-				i(230673),	-- Astral Warmonger's Hood
-				i(230674),	-- Astral Warmonger's Breeches
-				i(230675),	-- Astral Warmonger's Belt
-				i(230676),	-- Astral Warmonger's Wraps
-				i(230677),	-- Astral Warmonger's Jerkin
-				i(230678),	-- Astral Warmonger's Shoulderguard
-				i(230679),	-- Astral Warmonger's Faceplate
-				i(230680),	-- Astral Warmonger's Cuirass
-				i(230681),	-- Astral Warmonger's Sabatons
-				i(230682),	-- Astral Warmonger's Gauntlets
-				i(230683),	-- Astral Warmonger's Legguards
-				i(230684),	-- Astral Warmonger's Spaulders
-				i(230685),	-- Astral Warmonger's Clasp
-				i(230686),	-- Astral Warmonger's Bracers
-				i(230687),	-- Astral Warmonger's Chestguard
-				i(230688),	-- Astral Warmonger's Greaves
-				i(230689),	-- Astral Warmonger's Grips
-				i(230690),	-- Astral Warmonger's Helm
-				i(230691),	-- Astral Warmonger's Leggings
-				i(230692),	-- Astral Warmonger's Epaulets
-				i(230693),	-- Astral Warmonger's Cinch
-				i(230694),	-- Astral Warmonger's Armguards
-				i(230695),	-- Astral Warmonger's Cape
-				i(230696),	-- Astral Warmonger's Shawl
-				i(230697),	-- Astral Warmonger's Cloak
-				i(230698),	-- Astral Warmonger's Drape
-				i(230699),	-- Astral Warmonger's Battleaxe
-				i(230700),	-- Astral Warmonger's Hatchet
-				i(230701),	-- Astral Warmonger's Carver
-				i(230702),	-- Astral Warmonger's Flameshot
-				i(230703),	-- Astral Warmonger's Twinblade
-				i(230704),	-- Astral Warmonger's Lantern
-				i(230705),	-- Astral Warmonger's Spire
-				i(230706),	-- Astral Warmonger's Battlestaff
-				i(230707),	-- Astral Warmonger's Greatsword
-				i(230708),	-- Astral Warmonger's Broadsword
-				i(230709),	-- Astral Warmonger's Club
-				i(230710),	-- Astral Warmonger's Hammer
-				i(230711),	-- Astral Warmonger's Cudgel
-				i(230712),	-- Astral Warmonger's Aegis
-				i(230713),	-- Astral Warmonger's Impaler
-				i(230714),	-- Astral Warmonger's Spear
-				i(230715),	-- Astral Warmonger's Wand
-				i(230716),	-- Astral Warmonger's Mace
-				i(230717),	-- Astral Warmonger's Crusher
-				i(230718),	-- Astral Warmonger's Scepter
-				i(230719),	-- Astral Warmonger's Dagger
-				i(230720),	-- Astral Warmonger's Dirk
 				i(230722),	-- Astral Equipment Chest
 				i(230814),	-- [11.2 PVP] Gladiator's Axe <TEMPLATE>
 				i(230815),	-- [11.2 PVP] Gladiator's Dagger <TEMPLATE>
@@ -1283,7 +1171,6 @@ root(ROOTS.Unsorted, {
 				i(232554),	-- Waning Essence[DNT]
 				i(232568),	-- Priest's Remains[DNT]
 				i(232578),	-- Wastelander Artifact
-				i(232601),	-- Entropic Egg
 				i(232612),	-- Laacunite Shard
 				i(232625),	-- Wastelander Artifact
 				i(232626),	-- Wastelander Artifact

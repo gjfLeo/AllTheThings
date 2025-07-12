@@ -4,6 +4,12 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, {
 	m(KARESH, {
 		n(WORLD_QUESTS, {
+			pvp(q(89241, {	-- Up and Up
+				["coord"] = { 72.6, 12.4, KARESH },
+			})),
+			q(85855, {	-- Anything to Declare?
+				["coord"] = { 55.1, 63.4, KARESH },
+			}),
 			q(85460, {	-- Ecological Succession
 				["coord"] = { 74.1, 32.6, KARESH },
 				["isWeekly"] = true,	-- TODO: remove after Blizzard fix it flag
@@ -23,8 +29,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(85834, {	-- Endangered Specimens
 				["coord"] = { 43.6, 57.4, KARESH },
 			}),
+			q(84962, {	-- Exigent Extermination
+				["coord"] = { 65.9, 48.5, KARESH },
+				["g"] = {
+					o(499099, {	-- Entropic Egg
+						i(232601),	-- Entropic Egg (QI!)
+					}),
+				},
+			}),
 			q(86709, {	-- Mana Falling from the Skies
 				["coord"] = { 47.5, 23.5, KARESH },
+			}),
+			q(86610, {	-- Nor Void of Night
+				["coord"] = { 59.0, 83.4, KARESH_TAZAVESH },
+			}),
+			q(88774, {	-- Out of Energy
+				["coord"] = { 50.1, 20.0, KARESH },
 			}),
 			q(86584, {	-- Overwhelm Them with Mandatory Time Off
 				["coord"] = { 57.7, 33.6, KARESH_TAZAVESH },
@@ -95,9 +115,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(89274, {	-- The Ugly Mirror
 				["coord"] = { 61.0, 28.1, KARESH },
 			}),
-			pvp(q(89241, {	-- Up and Up
-				["coord"] = { 72.6, 12.4, KARESH },
-			})),
+			q(86372, {	-- Wasting the Wastelanders
+				["coord"] = { 62.9, 41.2, KARESH },
+			}),
+			q(86305, {	-- Watch me Make these Bugs Expire
+				["coord"] = { 49.3, 64.3, KARESH },
+				["g"] = {
+					i(249417),	-- Flamethrower (QI!)
+				},
+			}),
 		}),
 	}),
 })));
