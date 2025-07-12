@@ -23,47 +23,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "i", 122674 },	-- S.E.L.F.I.E. Camera MkII
 			}),
 		}),
-		ach(18900, {	-- Budget Bard
-			crit(61660, {	-- Drums of Panic
-				["provider"] = { "i", 29532 },	-- Drums of Panic
-			}),
-			crit(61661, {	-- Drums of Restoration
-				["provider"] = { "i", 29531 },	-- Drums of Restoration
-			}),
-			crit(61662, {	-- Drums of War
-				["provider"] = { "i", 29528 },	-- Drums of War
-			}),
-			crit(61663, {	-- Drums of Battle
-				["provider"] = { "i", 29529 },	-- Drums of Battle
-			}),
-			crit(61664, {	-- Drums of Speed
-				["provider"] = { "i", 29530 },	-- Drums of Speed
-			}),
-			crit(61665, {	-- Drums of Forgotten Kings
-				["provider"] = { "i", 49633 },	-- Drums of Forgotten Kings
-			}),
-			crit(61666, {	-- Drums of the Wild
-				["provider"] = { "i", 49634 },	-- Drums of the Wild
-			}),
-			crit(61667, {	-- Drums of Rage
-				["provider"] = { "i", 102351 },	-- Drums of Rage
-			}),
-			crit(61668, {	-- Drums of Fury
-				["provider"] = { "i", 120257 },	-- Drums of Fury
-			}),
-			crit(61669, {	-- Drums of the Mountain
-				["provider"] = { "i", 142406 },	-- Drums of the Mountain
-			}),
-			crit(61672, {	-- Drums of the Maelstrom
-				["provider"] = { "i", 154167 },	-- Drums of the Maelstrom
-			}),
-			crit(61673, {	-- Drums of Deathly Ferocity
-				["provider"] = { "i", 172233 },	-- Drums of Deathly Ferocity
-			}),
-			crit(61675, {	-- Feral Hide Drums
-				["provider"] = { "i", 193470 },	-- Feral Hide Drums
-			}),
-		}),
+		ach(18900),	-- Budget Bard (automated)
 	})),
 	expansion(EXPANSION.CLASSIC, {
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
