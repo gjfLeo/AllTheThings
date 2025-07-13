@@ -1443,8 +1443,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 24992,	-- Escaped From Gilneas
 					["coord"] = { 60.5, 51.8, TIRISFAL_GLADES },
 					-- #if ANYCLASSIC
-					["description"] = "This quest was never available in Cata Classic.",
-					["timeline"] = { CREATED_4_0_3 },
+					["timeline"] = { CREATED_4_0_3, ADDED_5_0_4 },
 					-- #else
 					["timeline"] = { ADDED_4_0_3 },
 					-- #endif
@@ -1689,11 +1688,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(24992, {	-- Escaped From Gilneas
 					["sourceQuest"] = 24990,	-- Darkhound Pounding
 					["cr"] = 1548,	-- Cursed Darkhound
-					-- #if ANYCLASSIC
-					["description"] = "This quest was never available in Cata Classic.",
-					["timeline"] = { CREATED_4_0_3 },
-					-- #else
 					["description"] = "Quest is granted by getting in combat with (not by killing) a Cursed Darkhound while on or after completing |cFFFFD700Darkhound Pounding|r.",
+					-- #if ANYCLASSIC
+					["timeline"] = { CREATED_4_0_3, ADDED_5_0_4 },
+					-- #else
 					["timeline"] = { ADDED_4_0_3 },
 					-- #endif
 					["races"] = HORDE_ONLY,
@@ -1883,11 +1881,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["qg"] = 6785,	-- Ratslin Maime
 					["sourceQuest"] = 24980,	-- The Scarlet Palisade
 					["coord"] = { 61.9, 52.0, TIRISFAL_GLADES },
-					-- #if ANYCLASSIC
-					["description"] = "This quest was never available in Cata Classic.",
-					["timeline"] = { CREATED_4_0_3 },
-					-- #else
 					["description"] = "Available if you abandon |cFFFFD700Escaped From Gilneas|r.",
+					-- #if ANYCLASSIC
+					["timeline"] = { CREATED_4_0_3, ADDED_5_0_4 },
+					-- #else
 					["timeline"] = { ADDED_4_0_3 },
 					-- #endif
 					["races"] = HORDE_ONLY,
