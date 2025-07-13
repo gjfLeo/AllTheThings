@@ -20,6 +20,7 @@ timeFormatter:Init(1, SecondsFormatter.Abbreviation.Truncate);
 -- App locals
 local GetRelativeValue, SearchForField, SearchForObject = app.GetRelativeValue, app.SearchForField, app.SearchForObject
 local distance = app.distance
+local Callback = app.CallbackHandlers.Callback
 
 -- Module locals (can be set via OnLoad if they do not change during Session but are not yet defined)
 local SearchForLink, GetPlayerPosition
@@ -712,6 +713,18 @@ local function ClearTooltip(tooltip)
 	tooltip.AllTheThingsProcessing = nil;
 	tooltip.ATT_AttachComplete = nil;
 end
+local function ReshowGametooltip()
+	if GameTooltip and GameTooltip:IsVisible() then
+		-- app.PrintDebug("Auto-refresh tooltip",GameTooltip.AllTheThingsProcessing)
+		-- Make sure the tooltip will try to re-attach the data if it's from an ATT row
+		---@diagnostic disable-next-line: inject-field
+		GameTooltip.ATT_AttachComplete = nil
+		GameTooltip:Show()
+	end
+end
+app.AddEventHandler("OnRefreshComplete", function()
+	Callback(ReshowGametooltip)
+end);
 
 -- Stores a cache of the 'tooltipInfo' for a given group
 -- TODO: this isnt too effective right now since we have to clear the search cache as well
@@ -1105,16 +1118,6 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 		-- app.PrintDebug("AttachTooltip-Return");
 	end
 
-	local Callback = app.CallbackHandlers.Callback
-	local function ReshowGametooltip()
-		if GameTooltip and GameTooltip:IsVisible() then
-			-- app.PrintDebug("Auto-refresh tooltip")
-			-- Make sure the tooltip will try to re-attach the data if it's from an ATT row
-			---@diagnostic disable-next-line: inject-field
-			GameTooltip.ATT_AttachComplete = nil;
-			GameTooltip:Show();
-		end
-	end
 	app.AddEventRegistration("TOOLTIP_DATA_UPDATE", function(...)
 		Callback(ReshowGametooltip)
 	end);
