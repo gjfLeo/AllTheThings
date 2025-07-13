@@ -56,7 +56,7 @@ root(ROOTS.Zones, {
 						["races"] = { GOBLIN },
 						["classes"] = { MAGE },
 					}),
-					q(14013, {	-- Charge
+					q(14013, {	-- Charge (Goblin)
 						["qg"] = 34697,	-- Warrior-Matic NX-01 <Warrior Trainer>
 						["coord"] = { 60.6, 77.4, KEZAN },
 						["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
@@ -76,7 +76,7 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					q(14010, {	-- Eviscerate
+					q(14010, {	-- Eviscerate (Goblin)
 						["qg"] = 34693,	-- Slinky Sharpshiv <Rogue Trainer>
 						["coord"] = { 59.2, 76.2, KEZAN },
 						["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
@@ -112,7 +112,7 @@ root(ROOTS.Zones, {
 						["qg"] = 34872,	-- Foreman Dampwick
 						["sourceQuest"] = 14138,	-- Taking Care of Business
 					}),
-					q(14009, {	-- Flash Heal [Cata] / Learning the Word [MoP+]
+					q(14009, {	-- Flash Heal [Cata] / Learning the Word [MoP+] (Goblin)
 						["qg"] = 34692,	-- Sister Goldskimmer <Priest Trainer>
 						["coord"] = { 58.8, 76.8, KEZAN },
 						["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
@@ -120,7 +120,7 @@ root(ROOTS.Zones, {
 						["races"] = { GOBLIN },
 						["lvl"] = lvlsquish(3, 3, 1),
 					}),
-					q(14012, {	-- Immolate [Cata] / Corruption [MoP+]
+					q(14012, {	-- Immolate [Cata] / Corruption [MoP+] (Goblin)
 						["qg"] = 34696,	-- Evol Fingers <Warlock Trainer>
 						["coord"] = { 58.2, 74.2, KEZAN },
 						["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
@@ -229,7 +229,7 @@ root(ROOTS.Zones, {
 							i(54300),	-- Tight-Fitting Leather Leggings
 						},
 					}),
-					q(14007, {	-- Steady Shot
+					q(14007, {	-- Steady Shot (Goblin)
 						["qg"] = 34673,	-- Bamm Megabomb <Hunter Trainer>
 						["coord"] = { 60.6, 77.8, KEZAN },
 						["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
