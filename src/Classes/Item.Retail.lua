@@ -18,6 +18,7 @@ local GetItemInfo = app.WOWAPI.GetItemInfo;
 local GetItemIcon = app.WOWAPI.GetItemIcon;
 local GetItemCount = app.WOWAPI.GetItemCount;
 local GetFactionBonusReputation = app.WOWAPI.GetFactionBonusReputation;
+local IsBoAOverride = C_Item.IsItemBindToAccountUntilEquip
 
 -- Class locals
 
@@ -165,6 +166,11 @@ app.ImportRawLink = function(group, rawlink, ignoreSource)
 				app.GetGroupSourceID(group)
 			end
 		end
+		-- specific versions of a given Item can actually be BoA while the base version is typically BoP
+		-- so store the BoA flag for this instance of the Item
+		if IsBoAOverride(rawlink) then
+			group.b = 3
+		end
 	end
 end
 -- Removes the color and hyperlink text/formatting from the link string
@@ -253,7 +259,13 @@ local function CacheInfo(t, field)
 			-- heirlooms return as 1 but are technically BoE for our concern
 			_t.b = 2;
 		else
-			_t.b = b;
+			-- specific versions of a given Item can actually be BoA while the base version is typically BoP
+			-- so store the BoA flag for this instance of the Item
+			if b and IsBoAOverride(itemLink) then
+				t.b = 3
+			else
+				_t.b = b
+			end
 		end
 	else
 		local icon = id and GetItemIcon(id) or 134400
