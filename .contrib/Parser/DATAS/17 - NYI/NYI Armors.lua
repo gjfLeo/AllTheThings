@@ -847,6 +847,52 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(63060),	-- Fallback Armor - Plate Shoulder
 				i(63054),	-- Fallback Armor - Plate Waist
 				i(63061),	-- Fallback Armor - Plate Wrist
+				i(58564),	-- QA Combat Test Paladin Healer Belt
+				i(58616),	-- QA Combat Test Paladin Healer Belt 2
+				i(58708),	-- QA Combat Test Paladin Healer Boots
+				i(58655),	-- QA Combat Test Paladin Healer Bracer
+				i(58565),	-- QA Combat Test Paladin Healer Chest
+				i(58682),	-- QA Combat Test Paladin Healer Chest 2
+				i(58775),	-- QA Combat Test Paladin Healer Chest 3
+				i(58532),	-- QA Combat Test Paladin Healer Gloves
+				i(58566),	-- QA Combat Test Paladin Healer Gloves 2
+				i(58746),	-- QA Combat Test Paladin Healer Helm
+				i(58567),	-- QA Combat Test Paladin Healer Helm 2
+				i(58568),	-- QA Combat Test Paladin Healer Legs
+				i(58697),	-- QA Combat Test Paladin Healer Legs 3
+				i(58757),	-- QA Combat Test Paladin Healer Shoulders
+				i(58605),	-- QA Combat Test Paladin Healer Shoulders 2
+				i(58569),	-- QA Combat Test Paladin Healer Shoulders 3
+				i(58570),	-- QA Combat Test Plate DPS Belt
+				i(58638),	-- QA Combat Test Plate DPS Belt 2
+				i(58702),	-- QA Combat Test Plate DPS Boots
+				i(58683),	-- QA Combat Test Plate DPS Bracer
+				i(58510),	-- QA Combat Test Plate DPS Bracer 2
+				i(58571),	-- QA Combat Test Plate DPS Chest
+				i(58677),	-- QA Combat Test Plate DPS Chest 2
+				i(58572),	-- QA Combat Test Plate DPS Gloves
+				i(58611),	-- QA Combat Test Plate DPS Gloves 2
+				i(58763),	-- QA Combat Test Plate DPS Helm
+				i(58573),	-- QA Combat Test Plate DPS Helm 2
+				i(58574),	-- QA Combat Test Plate DPS Legs
+				i(58739),	-- QA Combat Test Plate DPS Legs 2
+				i(58778),	-- QA Combat Test Plate DPS Legs 3
+				i(58575),	-- QA Combat Test Plate DPS Shoulders
+				i(58527),	-- QA Combat Test Plate DPS Shoulders 2
+				i(58576),	-- QA Combat Test Plate Tank Belt
+				i(58713),	-- QA Combat Test Plate Tank Belt 2
+				i(58749),	-- QA Combat Test Plate Tank Boots
+				i(58517),	-- QA Combat Test Plate Tank Chest
+				i(58577),	-- QA Combat Test Plate Tank Chest 2
+				i(58578),	-- QA Combat Test Plate Tank Gloves
+				i(58690),	-- QA Combat Test Plate Tank Gloves 2
+				i(58730),	-- QA Combat Test Plate Tank Helm
+				i(58686),	-- QA Combat Test Plate Tank Helm 2
+				i(58579),	-- QA Combat Test Plate Tank Helm 3
+				i(58580),	-- QA Combat Test Plate Tank Legs
+				i(58768),	-- QA Combat Test Plate Tank Legs 2
+				i(58643),	-- QA Combat Test Plate Tank Shoulders
+				i(58581),	-- QA Combat Test Plate Tank Shoulders 2
 				i(47091),	-- Unfaltering Armguards (4.0)
 			}),
 		}),
