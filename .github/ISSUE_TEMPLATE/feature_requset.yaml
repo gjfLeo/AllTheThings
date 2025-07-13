@@ -14,7 +14,7 @@ body:
       multiple: true
       options:
         - "Retail"
-        - "MOP Classic"
+        - "MoP Classic"
         - "Cata Classic"
         - "WotLK Classic"
         - "Classic Era"
