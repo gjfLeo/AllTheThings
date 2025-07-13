@@ -3636,12 +3636,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					darkmoonprizeticket(130, i(42992, {	-- Discerning Eye of the Beast
 						["timeline"] = { REMOVED_6_1_0 },
 					})),
-					darkmoonprizeticket(110, i(93902, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Flamescarred Draconian Deflector
+					-- #if NOT ANYCLASSIC
+					darkmoonprizeticket(110, i(93902, {	-- Flamescarred Draconian Deflector
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-					}))),
-					darkmoonprizeticket(110, i(93904, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Musty Tome of the Lost
+					})),
+					darkmoonprizeticket(110, i(93904, {	-- Musty Tome of the Lost
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-					}))),
+					})),
+					-- #endif
 					darkmoonprizeticket(110, i(42951, {	-- Mystical Pauldrons of Elements
 						["timeline"] = { REMOVED_6_1_0 },
 					})),
@@ -3684,9 +3686,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					darkmoonprizeticket(110, i(48716, {	-- Venerable Mass of McGowan
 						["timeline"] = { REMOVED_6_1_0 },
 					})),
-					darkmoonprizeticket(110, i(93903, applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {	-- Weathered Observer's Shield
+					-- #if NOT ANYCLASSIC
+					darkmoonprizeticket(110, i(93903, {	-- Weathered Observer's Shield
 						["timeline"] = { ADDED_5_2_0, REMOVED_6_1_0 },
-					}))),
+					})),
+					-- #endif
 
 					-- New Heirlooms
 					darkmoonprizeticket(50, i(122350, {	-- Balanced Heartseeker
