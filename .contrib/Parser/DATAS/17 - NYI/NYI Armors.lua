@@ -1224,6 +1224,55 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(97084),	-- Vaultwalker Sabatons
 			}),
 			-- #endif
+
+			-- 5.x.x
+			n(P5xx, {
+				i(83476),	-- 5.0 QA PVP Test Paladin Healer Belt 2
+				i(83477),	-- 5.0 QA PVP Test Paladin Healer Boots
+				i(83478),	-- 5.0 QA PVP Test Paladin Healer Bracer
+				i(83479),	-- 5.0 QA PVP Test Paladin Healer Bracer 2
+				i(83480),	-- 5.0 QA PVP Test Paladin Healer Chest
+				i(83481),	-- 5.0 QA PVP Test Paladin Healer Chest 2
+				i(83482),	-- 5.0 QA PVP Test Paladin Healer Chest 3
+				i(83483),	-- 5.0 QA PVP Test Paladin Healer Gloves
+				i(83484),	-- 5.0 QA PVP Test Paladin Healer Gloves 2
+				i(83485),	-- 5.0 QA PVP Test Paladin Healer Helm
+				i(83486),	-- 5.0 QA PVP Test Paladin Healer Helm 2
+				i(83487),	-- 5.0 QA PVP Test Paladin Healer Legs
+				i(83488),	-- 5.0 QA PVP Test Paladin Healer Legs 3
+				i(83489),	-- 5.0 QA PVP Test Paladin Healer Shoulders
+				i(83491),	-- 5.0 QA PVP Test Paladin Healer Shoulders 3
+				i(83492),	-- 5.0 QA PVP Test Plate DPS Belt
+				i(83493),	-- 5.0 QA PVP Test Plate DPS Belt 2
+				i(83494),	-- 5.0 QA PVP Test Plate DPS Boots
+				i(83495),	-- 5.0 QA PVP Test Plate DPS Bracer
+				i(83496),	-- 5.0 QA PVP Test Plate DPS Bracer 2
+				i(83497),	-- 5.0 QA PVP Test Plate DPS Bracer 3
+				i(83498),	-- 5.0 QA PVP Test Plate DPS Chest
+				i(83499),	-- 5.0 QA PVP Test Plate DPS Chest 2
+				i(83501),	-- 5.0 QA PVP Test Plate DPS Gloves 2
+				i(83502),	-- 5.0 QA PVP Test Plate DPS Helm
+				i(83503),	-- 5.0 QA PVP Test Plate DPS Helm 2
+				i(83504),	-- 5.0 QA PVP Test Plate DPS Legs
+				i(83505),	-- 5.0 QA PVP Test Plate DPS Legs 2
+				i(83506),	-- 5.0 QA PVP Test Plate DPS Legs 3
+				i(83507),	-- 5.0 QA PVP Test Plate DPS Shoulders
+				i(83508),	-- 5.0 QA PVP Test Plate DPS Shoulders 2
+				i(83509),	-- 5.0 QA PVP Test Plate Tank Belt
+				i(83510),	-- 5.0 QA PVP Test Plate Tank Belt 2
+				i(83511),	-- 5.0 QA PVP Test Plate Tank Boots
+				i(83512),	-- 5.0 QA PVP Test Plate Tank Chest
+				i(83513),	-- 5.0 QA PVP Test Plate Tank Chest 2
+				i(83514),	-- 5.0 QA PVP Test Plate Tank Gloves
+				i(83515),	-- 5.0 QA PVP Test Plate Tank Gloves 2
+				i(83516),	-- 5.0 QA PVP Test Plate Tank Helm
+				i(83517),	-- 5.0 QA PVP Test Plate Tank Helm 2
+				i(83518),	-- 5.0 QA PVP Test Plate Tank Helm 3
+				i(83519),	-- 5.0 QA PVP Test Plate Tank Legs
+				i(83520),	-- 5.0 QA PVP Test Plate Tank Legs 2
+				i(83521),	-- 5.0 QA PVP Test Plate Tank Shoulders
+				i(83522),	-- 5.0 QA PVP Test Plate Tank Shoulders 2
+			}),
 		}),
 		filter(FINGER_F, {
 			-- 5.0.1
