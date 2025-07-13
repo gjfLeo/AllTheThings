@@ -1,7 +1,5 @@
 5.0.3.15890
 q(30526),	-- Lost and Lonely
-q(30982),	-- Animal Control
-q(30997),	-- Animal Control	 MOP:Animal Control
 q(31153),	-- Tracking Event - Saved Diaani
 q(31154),	-- Tracking Event - Saved Zuulo
 q(31155),	-- Tracking Event - Saved Arekk

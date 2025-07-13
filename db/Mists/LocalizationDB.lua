@@ -700,6 +700,7 @@ _.HeaderData = {
 localize(L.HEADER_NAMES, {
 	[-1000004] = ACHIEVEMENTS,
 	[-1000007] = RAID_BOSSES,
+	[-1000008] = "Class Trial",
 	[-1000009] = CLASS,
 	[-1000010] = BATTLE_PET_BREED_QUALITY2.." "..TRANSMOG_SOURCE_1,
 	[-1000013] = "Common Vendor Items",
@@ -855,7 +856,6 @@ localize(L.HEADER_NAMES, {
 	[-1000260] = "Hearthstone",
 	[-1000263] = "iCoke",
 	[-1000264] =  AUCTION_CATEGORY_MISCELLANEOUS,
-	[-1000265] = SCROLL_OF_RESURRECTION,
 	[-1000266] = C_PetJournal.GetPetInfoBySpeciesID(179),
 	[-1000267] = BATTLE_PET_SOURCE_9,
 	[-1000282] = "Brewfest",
@@ -948,7 +948,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000260] = "Win 3 games in Hearthstone to qualify for these rewards.\n\nThe game is free, go get it!\n\nNOTE: You can thank IceQ1337 for this!",
 	[-1000263] = "These were only available through the 2006 iCoke Promotion (China Only)",
 	[-1000264] = "This section is for miscellaneous promotions that took place in the real world or something to do with account management.",
-	[-1000265] = "The following item sets were implemented as boosted character rewards for recipients of the Scroll of Resurrection.\n\nThey were later added to vendors in Mount Hyjal and Vash'jir once the Scroll of Resurrection Service was retired.",
 	[-1000266] = "This is a Battlegrounds-based event that coincides with the beginning of the Summer Olympic games. The only time this was celebrated was in 2008 to correspond to the Beijing Olympics, and although there appeared to be the intention to repeat this event, it never returned.",
 	[-1000284] = "This is a yearly recurring event that occurs between the beginning of November and the end of the year.",
 	[-1000380] = "This list contains Unobtainable items that the ATT Discord has reported as bugs that Blizzard has yet to fix.\n\nNOTE: All filters are ignored within this list for visibility. Only items removed from the game due to negligence rather than a gigantic fire breathing dragon are present on this list.\n\nTo Blizzard Devs: Please fix the items and encounters listed below.",
@@ -971,6 +970,7 @@ localize(L.HEADER_LORE, {
 localize(L.HEADER_ICONS, {
 	[-1000004] = _.asset("category_achievements"),
 	[-1000007] = _.asset("interface_world_boss"),
+	[-1000008] = 134162,
 	[-1000009] = 136455,
 	[-1000010] = _.asset("category_commonbossdrop"),
 	[-1000013] = 133785,
@@ -1126,7 +1126,6 @@ localize(L.HEADER_ICONS, {
 	[-1000260] = 134414,
 	[-1000263] = 461806,
 	[-1000264] = 135999,
-	[-1000265] = _.asset("promotion_scroll_of_rez"),
 	[-1000266] = 133278,
 	[-1000267] = 418250,
 	[-1000282] = _.asset("holiday_brewfest"),
@@ -1239,7 +1238,6 @@ _.Modules.Events.SetEventInformation(444, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=26,["weekday"]=4,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=6,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=6,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025}),
@@ -1291,7 +1289,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(1262, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=6,["weekday"]=1,["year"]=2022},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=27,["weekday"]=1,["year"]=2022})
@@ -8619,6 +8618,7 @@ L.PHASES = phases;
 local simplifiedLocale = GetLocale():sub(1,2);
 if simplifiedLocale == "de" then
 localize(L.HEADER_NAMES, {
+	[-1000008] = "Klassenprozess",
 	[-1000010] = "Gemeinsame Bossbeute",
 	[-1000019] = "Erkundung",
 	[-1000025] = "Feiertage",
@@ -11135,6 +11135,7 @@ do phases[key].description = value; end
 end
 if simplifiedLocale == "fr" then
 localize(L.HEADER_NAMES, {
+	[-1000008] = "Essai de Classe",
 	[-1000013] = "Objets communs des vendeurs",
 	[-1000025] = "Évènements saisonniers",
 	[-1000048] = "Dragons du Cauchemar",
@@ -13689,6 +13690,7 @@ do phases[key].description = value; end
 end
 if simplifiedLocale == "it" then
 localize(L.HEADER_NAMES, {
+	[-1000008] = "Prova di Classe",
 	[-1000025] = "Festività",
 	[-1000132] = "Gladiatore Perfido",
 	[-1000162] = "Aspetti Condivisi",
@@ -15762,6 +15764,7 @@ do phases[key].description = value; end
 end
 if simplifiedLocale == "pt" then
 localize(L.HEADER_NAMES, {
+	[-1000008] = "Teste de Classe",
 	[-1000025] = "Feriados",
 	[-1000132] = "Gladiador Odioso",
 	[-1000162] = "Aparências Compartilhadas",
@@ -18171,6 +18174,7 @@ do phases[key].description = value; end
 end
 if simplifiedLocale == "ru" then
 localize(L.HEADER_NAMES, {
+	[-1000008] = "Испытание класса",
 	[-1000010] = "Общая добыча с боссов",
 	[-1000013] = "Обычные предметы у Торговцев",
 	[-1000017] = BATTLE_PET_SOURCE_1,
@@ -21019,6 +21023,7 @@ localize(_.CategoryNames, {
 	[1011] = "등",
 });
 localize(L.HEADER_NAMES, {
+	[-1000008] = "학급 재판",
 	[-1000025] = "축제",
 	[-1000132] = "원한에 검투사",
 	[-1000162] = "공유된 모습",
@@ -23419,6 +23424,7 @@ do phases[key].description = value; end
 end
 if simplifiedLocale == "es" then
 localize(L.HEADER_NAMES, {
+	[-1000008] = "Prueba de Clase",
 	[-1000010] = "Botín común de jefe",
 	[-1000013] = "Objetos comunes entre vendedores",
 	[-1000017] = "Botín",
@@ -23536,7 +23542,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000202] = "Los siguientes minijuegos cuestan una Ficha de Juego de la Luna Negra y tienen una misión diaria que otorga vale de premio, así como una serie de logros asociados.",
 	[-1000205] = "Para maximizar tu puntuación, espera a que la marca actual desaparezca y luego apunta al objetivo central. En cuanto aparezca una marca verde, presiona 1 inmediatamente y, durante el breve tiempo de lanzamiento, mueve tu arma para apuntar al objetivo izquierdo o derecho si es necesario.",
 	[-1000206] = "Cerca de la entrada, los visitantes reciben un mazo para golpear a unos gnolls disecados que salen de nueve barriles en la zona. Los jugadores tendrán 60 segundos para ganar 30 puntos. Los gnolls son de tres tipos: normales, Hogger y bebés, que otorgan 1 punto, 3 puntos o un derribo, respectivamente.",
-	[-1000265] = "Los siguientes conjuntos de objetos se implementaron como recompensas de mejoras de personaje para los receptores del Pergamino de la Resurrección.\n\nPosteriormente, se añadieron a los vendedores del Monte Hyjal y Vash'jir una vez que se retiró el Servicio del Pergamino de la Resurrección.",
 	[-1000266] = "Este es un evento basado en Campos de batalla que coincide con el inicio de los Juegos Olímpicos de Verano. La única vez que se celebró fue en 2008 para coincidir con los Juegos Olímpicos de Pekín, y aunque parecía haber intención de repetirlo, nunca regresó.",
 	[-1000284] = "Es el aniversario de World of Warcraft! Desde el equipo de desarrollo de WoW, te damos las gracias por disfrutar del mundo de Azeroth y más allá junto a nosotros.",
 	[-1000380] = "Esta lista contiene objetos no obtenibles que ATT Discord ha informado como errores que Blizzard aún no ha solucionado.\n\nNOTA: Todos los filtros se ignoran en esta lista para mayor visibilidad. En esta lista solo están presentes los objetos eliminados del juego debido a negligencia y no a un gigantesco dragón que escupe fuego.\n\nA los desarrolladores de Blizzard: arreglen los objetos y encuentros que se enumeran a continuación.",
@@ -26159,6 +26164,7 @@ localize(_.CategoryNames, {
 	[3] = "塔罗牌",
 });
 localize(L.HEADER_NAMES, {
+	[-1000008] = "职业试玩",
 	[-1000010] = "首领共同掉落",
 	[-1000013] = "商人共同物品",
 	[-1000017] = "掉落",
@@ -28457,6 +28463,7 @@ localize(_.CategoryNames, {
 	[1002] = "背包",
 });
 localize(L.HEADER_NAMES, {
+	[-1000008] = "職業試玩",
 	[-1000010] = "首領共通掉落",
 	[-1000013] = "商人共通物品",
 	[-1000021] = "飛行路線",
