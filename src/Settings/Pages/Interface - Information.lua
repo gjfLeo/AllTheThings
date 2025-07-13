@@ -263,8 +263,8 @@ local function ProcessForCompletedBy(t, reference, tooltipInfo)
 		BuildKnownByInfoForKind(tooltipInfo, L.COMPLETED_BY);
 	end
 
-	-- Pre-MOP Known By types
-	if app.GameBuildVersion < 50000 then
+	-- Pre-WOD Known By types
+	if app.GameBuildVersion < 60000 then
 		id = reference.achievementID;
 		if id then
 			-- Prior to Cata, Achievements were not tracked account wide
