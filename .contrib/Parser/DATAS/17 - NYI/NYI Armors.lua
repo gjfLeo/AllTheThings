@@ -1039,6 +1039,237 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(CLOTH, {
 			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(76865),	-- Art Template Cloth - Belt with Belt Buckle Model
+				i(77394),	-- Art Template Cloth Belt - Robe_PanProg_B_01 - Blue
+				i(77395),	-- Art Template Cloth Boot - Robe_PanProg_B_01 - Blue
+				i(77396),	-- Art Template Cloth Wrist - Robe_PanProg_B_01 - Blue
+				i(77397),	-- Art Template Cloth Robe - Robe_PanProg_B_01 - Blue
+				i(77398),	-- Art Template Cloth Hand - Robe_PanProg_B_01 - Blue
+				i(77399),	-- Art Template Cloth Legs - Robe_PanProg_B_01 - Blue
+				i(77400),	-- Art Template Cloth Chest - Robe_PanProg_B_01 - Blue
+				i(77420),	-- Art Template Cloth Belt - Robe_Panda_A_02 - Yellow
+				i(77421),	-- Art Template Cloth Boot - Robe_Panda_A_02 - Yellow
+				i(77422),	-- Art Template Cloth Legs - Robe_Panda_A_02 - Yellow
+				i(77423),	-- Art Template Cloth Robe - Robe_Panda_A_02 - Yellow
+				i(77427),	-- Art Template Cloth Belt - Robe_Panda_A_02 - Brown
+				i(77428),	-- Art Template Cloth Boot - Robe_Panda_A_02 - Brown
+				i(77429),	-- Art Template Cloth Legs - Robe_Panda_A_02 - Brown
+				i(77430),	-- Art Template Cloth Robe - Robe_Panda_A_02 - Brown
+				i(77433),	-- Art Template Cloth Belt - Robe_Panda_A_02 - Red
+				i(77434),	-- Art Template Cloth Boot - Robe_Panda_A_02 - Red
+				i(77435),	-- Art Template Cloth Legs - Robe_Panda_A_02 - Red
+				i(77436),	-- Art Template Cloth Robe - Robe_Panda_A_02 - Red
+				i(77437),	-- Art Template Cloth Belt - Robe_Panda_A_02 - Green
+				i(77438),	-- Art Template Cloth Boot - Robe_Panda_A_02 - Green
+				i(77439),	-- Art Template Cloth Legs - Robe_Panda_A_02 - Green
+				i(77440),	-- Art Template Cloth Robe - Robe_Panda_A_02 - Green
+				i(77451),	-- Art Template Cloth Head - Cloth_SunHat_B_01
+				i(77505),	-- Art Template Cloth Belt - Cloth_PanStart_A_01 - Default
+				i(77507),	-- Art Template Cloth Legs - Cloth_PanStart_A_01 - Default
+				i(77508),	-- Art Template Cloth Chest - Cloth_PanStart_A_01 - Default
+				i(77511),	-- Art Template Cloth Wrist - Robe_PanProg_B_01 - White
+				i(77512),	-- Art Template Cloth Robe - Robe_PanProg_B_01 - White
+				i(77513),	-- Art Template Cloth Legs - Robe_PanProg_B_01 - White
+				i(77514),	-- Art Template Cloth Hand - Robe_PanProg_B_01 - White
+				i(77515),	-- Art Template Cloth Chest - Robe_PanProg_B_01 - White
+				i(77516),	-- Art Template Cloth Boot - Robe_PanProg_B_01 - White
+				i(77517),	-- Art Template Cloth Belt - Robe_PanProg_B_01 - White
+				i(77518),	-- Art Template Cloth Wrist - Robe_PanProg_B_01 - Green
+				i(77519),	-- Art Template Cloth Robe - Robe_PanProg_B_01 - Green
+				i(77520),	-- Art Template Cloth Legs - Robe_PanProg_B_01 - Green
+				i(77521),	-- Art Template Cloth Hand - Robe_PanProg_B_01 - Green
+				i(77522),	-- Art Template Cloth Chest - Robe_PanProg_B_01 - Green
+				i(77523),	-- Art Template Cloth Boot - Robe_PanProg_B_01 - Green
+				i(77524),	-- Art Template Cloth Belt - Robe_PanProg_B_01 - Green
+				i(79834),	-- Art Template Cloth Belt - Cloth_Panda_B_02 - Default
+				i(79835),	-- Art Template Cloth Boot - Cloth_Panda_B_02 - Default
+				i(79836),	-- Art Template Cloth Chest - Cloth_Panda_B_02 - Default
+				i(79837),	-- Art Template Cloth Hand - Cloth_Panda_B_02 - Default
+				i(79838),	-- Art Template Cloth Head - Cloth_Panda_B_02 - Default
+				i(79839),	-- Art Template Cloth Legs - Cloth_Panda_B_02 - Default
+				i(79840),	-- Art Template Cloth Robe - Cloth_Panda_B_02 - Default
+				i(79841),	-- Art Template Cloth Shoulder - Cloth_Panda_B_02 - Default
+				i(79842),	-- Art Template Cloth Wrist - Cloth_Panda_B_02 - Default
+				i(79843),	-- Art Template Cloth Belt - Cloth_Panda_B_02 - White
+				i(79844),	-- Art Template Cloth Boot - Cloth_Panda_B_02 - White
+				i(79845),	-- Art Template Cloth Chest - Cloth_Panda_B_02 - White
+				i(79846),	-- Art Template Cloth Hand - Cloth_Panda_B_02 - White
+				i(79847),	-- Art Template Cloth Head - Cloth_Panda_B_02 - White
+				i(79848),	-- Art Template Cloth Legs - Cloth_Panda_B_02 - White
+				i(79849),	-- Art Template Cloth Robe - Cloth_Panda_B_02 - White
+				i(79850),	-- Art Template Cloth Shoulder - Cloth_Panda_B_02 - White
+				i(79851),	-- Art Template Cloth Wrist - Cloth_Panda_B_02 - White
+				i(79852),	-- Art Template Cloth Belt - Cloth_Panda_B_02 - Blue
+				i(79853),	-- Art Template Cloth Boot - Cloth_Panda_B_02 - Blue
+				i(79854),	-- Art Template Cloth Chest - Cloth_Panda_B_02 - Blue
+				i(79855),	-- Art Template Cloth Hand - Cloth_Panda_B_02 - Blue
+				i(79856),	-- Art Template Cloth Head - Cloth_Panda_B_02 - Blue
+				i(79857),	-- Art Template Cloth Legs - Cloth_Panda_B_02 - Blue
+				i(79858),	-- Art Template Cloth Robe - Cloth_Panda_B_02 - Blue
+				i(79859),	-- Art Template Cloth Shoulder - Cloth_Panda_B_02 - Blue
+				i(79860),	-- Art Template Cloth Wrist - Cloth_Panda_B_02 - Blue
+				i(79953),	-- Art Template Cloth Belt Robe_RaidMage_E_01 - Test
+				i(79954),	-- Art Template Cloth Boot Robe_RaidMage_E_01 - Test
+				i(79955),	-- Art Template Cloth Chest Robe_RaidMage_E_01 - Test
+				i(79956),	-- Art Template Cloth Hand Robe_RaidMage_E_01 - Test
+				i(79957),	-- Art Template Cloth Head Robe_RaidMage_E_01 - Test
+				i(79958),	-- Art Template Cloth Legs Robe_RaidMage_E_01 - Test
+				i(79959),	-- Art Template Cloth Robe Robe_RaidMage_E_01 - Test
+				i(79960),	-- Art Template Cloth Shoulder Robe_RaidMage_E_01 - Test
+				i(79961),	-- Art Template Cloth Wrist Robe_RaidMage_E_01 - Test
+				i(79962),	-- Art Template Cloth Belt Robe_RaidMage_E_01 - Test2
+				i(79963),	-- Art Template Cloth Boot Robe_RaidMage_E_01 - Test2
+				i(79964),	-- Art Template Cloth Chest Robe_RaidMage_E_01 - Test2
+				i(79965),	-- Art Template Cloth Hand Robe_RaidMage_E_01 - Test2
+				i(79966),	-- Art Template Cloth Head Robe_RaidMage_E_01 - Test2
+				i(79967),	-- Art Template Cloth Legs Robe_RaidMage_E_01 - Test2
+				i(79968),	-- Art Template Cloth Robe Robe_RaidMage_E_01 - Test2
+				i(79969),	-- Art Template Cloth Shoulder Robe_RaidMage_E_01 - Test2
+				i(79970),	-- Art Template Cloth Wrist Robe_RaidMage_E_01 - Test2
+				i(79971),	-- Art Template Cloth Wrist Robe_RaidMage_E_01 - Test3
+				i(79972),	-- Art Template Cloth Shoulder Robe_RaidMage_E_01 - Test3
+				i(79973),	-- Art Template Cloth Robe Robe_RaidMage_E_01 - Test3
+				i(79974),	-- Art Template Cloth Legs Robe_RaidMage_E_01 - Test3
+				i(79975),	-- Art Template Cloth Head Robe_RaidMage_E_01 - Test3
+				i(79976),	-- Art Template Cloth Hand Robe_RaidMage_E_01 - Test3
+				i(79977),	-- Art Template Cloth Chest Robe_RaidMage_E_01 - Test3
+				i(79978),	-- Art Template Cloth Boot Robe_RaidMage_E_01 - Test3
+				i(79979),	-- Art Template Cloth Belt Robe_RaidMage_E_01 - Test3
+				i(80120),	-- Art Template Cloth Head - Helm_Robe_Holiday_Summerfest_A_02
+				i(80818),	-- Art Template Cloth Head - Helm_Misc_Beerhat_A_01
+				i(81327),	-- Art Template Cloth Belt - Cloth_ChallengePriest_D_01 - Gold
+				i(81328),	-- Art Template Cloth Boot - Cloth_ChallengePriest_D_01 - Gold
+				i(81329),	-- Art Template Cloth Shoulder - Cloth_ChallengePriest_D_01 - Gold
+				i(81330),	-- Art Template Cloth Wrist - Cloth_ChallengePriest_D_01 - Gold
+				i(81331),	-- Art Template Cloth Robe - Cloth_ChallengePriest_D_01 - Gold
+				i(81332),	-- Art Template Cloth Hand - Cloth_ChallengePriest_D_01 - Gold
+				i(81333),	-- Art Template Cloth Head - Cloth_ChallengePriest_D_01 - Gold
+				i(81334),	-- Art Template Cloth Legs - Cloth_ChallengePriest_D_01 - Gold
+				i(81335),	-- Art Template Cloth Chest - Cloth_ChallengePriest_D_01 - Gold
+				i(81336),	-- Art Template Cloth Belt - Cloth_ChallengePriest_D_01 - Green
+				i(81337),	-- Art Template Cloth Boot - Cloth_ChallengePriest_D_01 - Green
+				i(81338),	-- Art Template Cloth Shoulder - Cloth_ChallengePriest_D_01 - Green
+				i(81339),	-- Art Template Cloth Wrist - Cloth_ChallengePriest_D_01 - Green
+				i(81340),	-- Art Template Cloth Robe - Cloth_ChallengePriest_D_01 - Green
+				i(81341),	-- Art Template Cloth Hand - Cloth_ChallengePriest_D_01 - Green
+				i(81342),	-- Art Template Cloth Head - Cloth_ChallengePriest_D_01 - Green
+				i(81343),	-- Art Template Cloth Legs - Cloth_ChallengePriest_D_01 - Green
+				i(81344),	-- Art Template Cloth Chest - Cloth_ChallengePriest_D_01 - Green
+				i(81345),	-- Art Template Cloth Belt - Cloth_ChallengePriest_D_01 - Red
+				i(81346),	-- Art Template Cloth Boot - Cloth_ChallengePriest_D_01 - Red
+				i(81347),	-- Art Template Cloth Shoulder - Cloth_ChallengePriest_D_01 - Red
+				i(81348),	-- Art Template Cloth Wrist - Cloth_ChallengePriest_D_01 - Red
+				i(81349),	-- Art Template Cloth Robe - Cloth_ChallengePriest_D_01 - Red
+				i(81350),	-- Art Template Cloth Hand - Cloth_ChallengePriest_D_01 - Red
+				i(81351),	-- Art Template Cloth Head - Cloth_ChallengePriest_D_01 - Red
+				i(81352),	-- Art Template Cloth Legs - Cloth_ChallengePriest_D_01 - Red
+				i(81353),	-- Art Template Cloth Chest - Cloth_ChallengePriest_D_01 - Red
+				i(81359),	-- Art Template Cloth Belt - Cloth_Shadowpan_A_01
+				i(81360),	-- Art Template Cloth Boot - Cloth_Shadowpan_A_01
+				i(81361),	-- Art Template Cloth Shoulder - Cloth_Shadowpan_A_01
+				i(81362),	-- Art Template Cloth Wrist - Cloth_Shadowpan_A_01
+				i(81364),	-- Art Template Cloth Hand - Cloth_Shadowpan_A_01
+				i(81365),	-- Art Template Cloth Head - Cloth_Shadowpan_A_01
+				i(81366),	-- Art Template Cloth Legs - Cloth_Shadowpan_A_01
+				i(81367),	-- Art Template Cloth Chest - Cloth_Shadowpan_A_01
+				i(81368),	-- Art Template Cloth Belt - Cloth_Shadowpan_A_01 - Dark
+				i(81369),	-- Art Template Cloth Boot - Cloth_Shadowpan_A_01 - Dark
+				i(81370),	-- Art Template Cloth Chest - Cloth_Shadowpan_A_01 - Dark
+				i(81371),	-- Art Template Cloth Hand - Cloth_Shadowpan_A_01 - Dark
+				i(81372),	-- Art Template Cloth Head - Cloth_Shadowpan_A_01 - Dark
+				i(81373),	-- Art Template Cloth Legs - Cloth_Shadowpan_A_01 - Dark
+				i(81375),	-- Art Template Cloth Shoulder - Cloth_Shadowpan_A_01 - Dark
+				i(81376),	-- Art Template Cloth Wrist - Cloth_Shadowpan_A_01 - Dark
+				i(81714),	-- Art Template Cloth Belt - Cloth_DungeonCloth_C_06
+				i(81715),	-- Art Template Cloth Boot - Cloth_DungeonCloth_C_06
+				i(81716),	-- Art Template Cloth Shoulder - Cloth_DungeonCloth_C_06
+				i(81717),	-- Art Template Cloth Wrist - Cloth_DungeonCloth_C_06
+				i(81718),	-- Art Template Cloth Robe - Cloth_DungeonCloth_C_06
+				i(81719),	-- Art Template Cloth Hand - Cloth_DungeonCloth_C_06
+				i(81720),	-- Art Template Cloth Head - Cloth_DungeonCloth_C_06
+				i(81721),	-- Art Template Cloth Legs - Cloth_DungeonCloth_C_06
+				i(81722),	-- Art Template Cloth Chest - Cloth_DungeonCloth_C_06
+				i(81723),	-- Art Template Cloth Belt - Cloth_DungeonCloth_C_06 - Purple
+				i(81724),	-- Art Template Cloth Boot - Cloth_DungeonCloth_C_06 - Purple
+				i(81725),	-- Art Template Cloth Shoulder - Cloth_DungeonCloth_C_06 - Purple
+				i(81726),	-- Art Template Cloth Wrist - Cloth_DungeonCloth_C_06 - Purple
+				i(81727),	-- Art Template Cloth Robe - Cloth_DungeonCloth_C_06 - Purple
+				i(81728),	-- Art Template Cloth Hand - Cloth_DungeonCloth_C_06 - Purple
+				i(81729),	-- Art Template Cloth Head - Cloth_DungeonCloth_C_06 - Purple
+				i(81730),	-- Art Template Cloth Legs - Cloth_DungeonCloth_C_06 - Purple
+				i(81731),	-- Art Template Cloth Chest - Cloth_DungeonCloth_C_06 - Purple
+				i(81732),	-- Art Template Cloth Belt - Cloth_DungeonCloth_C_06 - Red
+				i(81733),	-- Art Template Cloth Boot - Cloth_DungeonCloth_C_06 - Red
+				i(81734),	-- Art Template Cloth Shoulder - Cloth_DungeonCloth_C_06 - Red
+				i(81735),	-- Art Template Cloth Wrist - Cloth_DungeonCloth_C_06 - Red
+				i(81736),	-- Art Template Cloth Robe - Cloth_DungeonCloth_C_06 - Red
+				i(81737),	-- Art Template Cloth Hand - Cloth_DungeonCloth_C_06 - Red
+				i(81738),	-- Art Template Cloth Head - Cloth_DungeonCloth_C_06 - Red
+				i(81739),	-- Art Template Cloth Legs - Cloth_DungeonCloth_C_06 - Red
+				i(81740),	-- Art Template Cloth Chest - Cloth_DungeonCloth_C_06 - Red
+				i(82320),	-- Art Template Cloth Legs - Misc_Panda_A_TailRing_PR_F - Blue
+				i(82321),	-- Art Template Cloth Legs - Misc_Panda_A_TailRing_PR_F - Gold
+				i(82322),	-- Art Template Cloth Legs - Misc_Panda_A_TailRing_PR_F - Green
+				i(82323),	-- Art Template Cloth Legs - Misc_Panda_A_TailRing_PR_F - Orange
+				i(82324),	-- Art Template Cloth Legs - Misc_Panda_A_TailRing_PR_F - Purple
+				i(82325),	-- Art Template Cloth Legs - Misc_Panda_A_TailRing_PR_F - Red
+				i(82326),	-- Art Template Cloth Legs - Misc_Panda_A_TailRing_PR_F - Silver
+				i(82735),	-- Art Template Cloth Belt - Cloth_RaidPriest_L_01 - Green
+				i(82736),	-- Art Template Cloth Boot - Cloth_RaidPriest_L_01 - Green
+				i(82737),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_L_01 - Green
+				i(82738),	-- Art Template Cloth Wrist - Cloth_RaidPriest_L_01 - Green
+				i(82739),	-- Art Template Cloth Robe - Cloth_RaidPriest_L_01 - Green
+				i(82740),	-- Art Template Cloth Hand - Cloth_RaidPriest_L_01 - Green
+				i(82741),	-- Art Template Cloth Head - Cloth_RaidPriest_L_01 - Green
+				i(82742),	-- Art Template Cloth Legs - Cloth_RaidPriest_L_01 - Green
+				i(82743),	-- Art Template Cloth Chest - Cloth_RaidPriest_L_01 - Green
+				i(82745),	-- Art Template Cloth Belt - Cloth_RaidPriest_L_01 - Red
+				i(82746),	-- Art Template Cloth Boot - Cloth_RaidPriest_L_01 - Red
+				i(82747),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_L_01 - Red
+				i(82748),	-- Art Template Cloth Wrist - Cloth_RaidPriest_L_01 - Red
+				i(82749),	-- Art Template Cloth Robe - Cloth_RaidPriest_L_01 - Red
+				i(82750),	-- Art Template Cloth Hand - Cloth_RaidPriest_L_01 - Red
+				i(82751),	-- Art Template Cloth Head - Cloth_RaidPriest_L_01 - Red
+				i(82752),	-- Art Template Cloth Legs - Cloth_RaidPriest_L_01 - Red
+				i(82753),	-- Art Template Cloth Chest - Cloth_RaidPriest_L_01 - Red
+				i(82754),	-- Art Template Cloth Belt - Cloth_RaidPriest_L_01 - Tan
+				i(82755),	-- Art Template Cloth Boot - Cloth_RaidPriest_L_01 - Tan
+				i(82756),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_L_01 - Tan
+				i(82757),	-- Art Template Cloth Wrist - Cloth_RaidPriest_L_01 - Tan
+				i(82758),	-- Art Template Cloth Robe - Cloth_RaidPriest_L_01 - Tan
+				i(82759),	-- Art Template Cloth Hand - Cloth_RaidPriest_L_01 - Tan
+				i(82760),	-- Art Template Cloth Head - Cloth_RaidPriest_L_01 - Tan
+				i(82761),	-- Art Template Cloth Legs - Cloth_RaidPriest_L_01 - Tan
+				i(82762),	-- Art Template Cloth Chest - Cloth_RaidPriest_L_01 - Tan
+				i(82802),	-- Art Template Cloth Head - Blindfold_A_01 - Leather
+				i(82803),	-- Art Template Cloth Head - Blindfold_A_01 - Red
+				i(82987),	-- Art Template Cloth Belt - Cloth_RaidWarlock_L_01 - Green
+				i(82988),	-- Art Template Cloth Boot - Cloth_RaidWarlock_L_01 - Green
+				i(82989),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_L_01 - Green
+				i(82990),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_L_01 - Green
+				i(82991),	-- Art Template Cloth Robe - Cloth_RaidWarlock_L_01 - Green
+				i(82992),	-- Art Template Cloth Hand - Cloth_RaidWarlock_L_01 - Green
+				i(82993),	-- Art Template Cloth Head - Cloth_RaidWarlock_L_01 - Green
+				i(82994),	-- Art Template Cloth Legs - Cloth_RaidWarlock_L_01 - Green
+				i(82995),	-- Art Template Cloth Chest - Cloth_RaidWarlock_L_01 - Green
+				i(82997),	-- Art Template Cloth Belt - Cloth_RaidWarlock_L_01 - Purple
+				i(82998),	-- Art Template Cloth Boot - Cloth_RaidWarlock_L_01 - Purple
+				i(82999),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_L_01 - Purple
+				i(83000),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_L_01 - Purple
+				i(83001),	-- Art Template Cloth Robe - Cloth_RaidWarlock_L_01 - Purple
+				i(83002),	-- Art Template Cloth Hand - Cloth_RaidWarlock_L_01 - Purple
+				i(83003),	-- Art Template Cloth Head - Cloth_RaidWarlock_L_01 - Purple
+				i(83004),	-- Art Template Cloth Legs - Cloth_RaidWarlock_L_01 - Purple
+				i(83005),	-- Art Template Cloth Chest - Cloth_RaidWarlock_L_01 - Purple (Don't use)
+				i(83008),	-- Art Template Cloth Belt - Cloth_RaidWarlock_L_01 - Red
+				i(83009),	-- Art Template Cloth Boot - Cloth_RaidWarlock_L_01 - Red
+				i(83010),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_L_01 - Red
+				i(83011),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_L_01 - Red
+				i(83012),	-- Art Template Cloth Robe - Cloth_RaidWarlock_L_01 - Red
+				i(83013),	-- Art Template Cloth Hand - Cloth_RaidWarlock_L_01 - Red
+				i(83014),	-- Art Template Cloth Head - Cloth_RaidWarlock_L_01 - Red
+				i(83015),	-- Art Template Cloth Legs - Cloth_RaidWarlock_L_01 - Red
+				i(83016),	-- Art Template Cloth Chest - Cloth_RaidWarlock_L_01 - Red
 				i(83360),	-- 5.0 QA PVP Test Caster DPS Belt
 				i(83361),	-- 5.0 QA PVP Test Caster DPS Belt 2
 				i(83362),	-- 5.0 QA PVP Test Caster DPS Belt 3
@@ -1055,6 +1286,192 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83524),	-- 5.0 QA PVP Test Priest Healer Belt 2
 				i(83526),	-- 5.0 QA PVP Test Priest Healer Bracer
 				i(83527),	-- 5.0 QA PVP Test Priest Healer Bracer 2
+				i(85165),	-- Art Template Cloth Belt - Cloth_ChallengeMage_D_01 - Blue
+				i(85166),	-- Art Template Cloth Boot - Cloth_ChallengeMage_D_01 - Blue
+				i(85167),	-- Art Template Cloth Shoulder - Cloth_ChallengeMage_D_01 - Blue
+				i(85168),	-- Art Template Cloth Wrist - Cloth_ChallengeMage_D_01 - Blue
+				i(85169),	-- Art Template Cloth Robe - Cloth_ChallengeMage_D_01 - Blue
+				i(85170),	-- Art Template Cloth Hand - Cloth_ChallengeMage_D_01 - Blue
+				i(85171),	-- Art Template Cloth Head - Cloth_ChallengeMage_D_01 - Blue
+				i(85172),	-- Art Template Cloth Legs - Cloth_ChallengeMage_D_01 - Blue
+				i(85173),	-- Art Template Cloth Chest - Cloth_ChallengeMage_D_01 - Blue
+				i(85232),	-- Art Template Cloth Belt - Cloth_ChallengeMage_D_01 - Purple
+				i(85233),	-- Art Template Cloth Boot - Cloth_ChallengeMage_D_01 - Purple
+				i(85234),	-- Art Template Cloth Shoulder - Cloth_ChallengeMage_D_01 - Purple
+				i(85235),	-- Art Template Cloth Wrist - Cloth_ChallengeMage_D_01 - Purple
+				i(85236),	-- Art Template Cloth Robe - Cloth_ChallengeMage_D_01 - Purple
+				i(85237),	-- Art Template Cloth Hand - Cloth_ChallengeMage_D_01 - Purple
+				i(85238),	-- Art Template Cloth Head - Cloth_ChallengeMage_D_01 - Purple
+				i(85239),	-- Art Template Cloth Legs - Cloth_ChallengeMage_D_01 - Purple
+				i(85240),	-- Art Template Cloth Chest - Cloth_ChallengeMage_D_01 - Purple
+				i(85248),	-- Art Template Cloth Belt - Cloth_ChallengeMage_D_01 - Red
+				i(85249),	-- Art Template Cloth Boot - Cloth_ChallengeMage_D_01 - Red
+				i(85250),	-- Art Template Cloth Shoulder - Cloth_ChallengeMage_D_01 - Red
+				i(85251),	-- Art Template Cloth Wrist - Cloth_ChallengeMage_D_01 - Red
+				i(85252),	-- Art Template Cloth Robe - Cloth_ChallengeMage_D_01 - Red
+				i(85253),	-- Art Template Cloth Hand - Cloth_ChallengeMage_D_01 - Red
+				i(85254),	-- Art Template Cloth Head - Cloth_ChallengeMage_D_01 - Red
+				i(85255),	-- Art Template Cloth Legs - Cloth_ChallengeMage_D_01 - Red
+				i(85256),	-- Art Template Cloth Chest - Cloth_ChallengeMage_D_01 - Red
+				i(85410),	-- Art Template Cloth Belt - Cloth_ChallengeMage_D_01 - White
+				i(85411),	-- Art Template Cloth Boot - Cloth_ChallengeMage_D_01 - White
+				i(85412),	-- Art Template Cloth Shoulder - Cloth_ChallengeMage_D_01 - White
+				i(85413),	-- Art Template Cloth Wrist - Cloth_ChallengeMage_D_01 - White
+				i(85414),	-- Art Template Cloth Robe - Cloth_ChallengeMage_D_01 - White
+				i(85415),	-- Art Template Cloth Hand - Cloth_ChallengeMage_D_01 - White
+				i(85416),	-- Art Template Cloth Head - Cloth_ChallengeMage_D_01 - White
+				i(85417),	-- Art Template Cloth Legs - Cloth_ChallengeMage_D_01 - White
+				i(85418),	-- Art Template Cloth Chest - Cloth_ChallengeMage_D_01 - White
+				i(85419),	-- Art Template Cloth Belt - Cloth_ChallengeMage_D_01 - Black
+				i(85420),	-- Art Template Cloth Boot - Cloth_ChallengeMage_D_01 - Black
+				i(85421),	-- Art Template Cloth Shoulder - Cloth_ChallengeMage_D_01 - Black
+				i(85422),	-- Art Template Cloth Wrist - Cloth_ChallengeMage_D_01 - Black
+				i(85423),	-- Art Template Cloth Robe - Cloth_ChallengeMage_D_01 - Black
+				i(85424),	-- Art Template Cloth Hand - Cloth_ChallengeMage_D_01 - Black
+				i(85425),	-- Art Template Cloth Head - Cloth_ChallengeMage_D_01 - Black
+				i(85426),	-- Art Template Cloth Legs - Cloth_ChallengeMage_D_01 - Black
+				i(85427),	-- Art Template Cloth Chest - Cloth_ChallengeMage_D_01 - Black
+				i(85468),	-- Art Template Cloth Belt - Cloth_RaidMage_L_01 - Green
+				i(85469),	-- Art Template Cloth Boot - Cloth_RaidMage_L_01 - Green
+				i(85470),	-- Art Template Cloth Shoulder - Cloth_RaidMage_L_01 - Green
+				i(85471),	-- Art Template Cloth Wrist - Cloth_RaidMage_L_01 - Green
+				i(85472),	-- Art Template Cloth Robe - Cloth_RaidMage_L_01 - Green
+				i(85473),	-- Art Template Cloth Hand - Cloth_RaidMage_L_01 - Green
+				i(85474),	-- Art Template Cloth Head - Cloth_RaidMage_L_01 - Green
+				i(85475),	-- Art Template Cloth Legs - Cloth_RaidMage_L_01 - Green
+				i(85476),	-- Art Template Cloth Chest - Cloth_RaidMage_L_01 - Green
+				i(85478),	-- Art Template Cloth Belt - Cloth_RaidMage_L_01 - Purple
+				i(85479),	-- Art Template Cloth Boot - Cloth_RaidMage_L_01 - Purple
+				i(85480),	-- Art Template Cloth Shoulder - Cloth_RaidMage_L_01 - Purple
+				i(85481),	-- Art Template Cloth Wrist - Cloth_RaidMage_L_01 - Purple
+				i(85482),	-- Art Template Cloth Robe - Cloth_RaidMage_L_01 - Purple
+				i(85483),	-- Art Template Cloth Hand - Cloth_RaidMage_L_01 - Purple
+				i(85484),	-- Art Template Cloth Head - Cloth_RaidMage_L_01 - Purple
+				i(85485),	-- Art Template Cloth Legs - Cloth_RaidMage_L_01 - Purple
+				i(85486),	-- Art Template Cloth Chest - Cloth_RaidMage_L_01 - Purple
+				i(85487),	-- Art Template Cloth Belt - Cloth_RaidMage_L_01 - Red
+				i(85488),	-- Art Template Cloth Boot - Cloth_RaidMage_L_01 - Red
+				i(85489),	-- Art Template Cloth Shoulder - Cloth_RaidMage_L_01 - Red
+				i(85490),	-- Art Template Cloth Wrist - Cloth_RaidMage_L_01 - Red
+				i(85491),	-- Art Template Cloth Robe - Cloth_RaidMage_L_01 - Red
+				i(85492),	-- Art Template Cloth Hand - Cloth_RaidMage_L_01 - Red
+				i(85493),	-- Art Template Cloth Head - Cloth_RaidMage_L_01 - Red
+				i(85494),	-- Art Template Cloth Legs - Cloth_RaidMage_L_01 - Red
+				i(85495),	-- Art Template Cloth Chest - Cloth_RaidMage_L_01 - Red
+				i(85514),	-- Art Template Cloth Belt - Cloth_PVPWarlock_E_01 - Blue
+				i(85515),	-- Art Template Cloth Boot - Cloth_PVPWarlock_E_01 - Blue
+				i(85516),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_E_01 - Blue
+				i(85517),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_E_01 - Blue
+				i(85518),	-- Art Template Cloth Robe - Cloth_PVPWarlock_E_01 - Blue
+				i(85519),	-- Art Template Cloth Hand - Cloth_PVPWarlock_E_01 - Blue
+				i(85520),	-- Art Template Cloth Head - Cloth_PVPWarlock_E_01 - Blue
+				i(85521),	-- Art Template Cloth Legs - Cloth_PVPWarlock_E_01 - Blue
+				i(85522),	-- Art Template Cloth Chest - Cloth_PVPWarlock_E_01 - Blue
+				i(85523),	-- Art Template Cloth Belt - Cloth_PVPWarlock_E_01 - Brown
+				i(85524),	-- Art Template Cloth Boot - Cloth_PVPWarlock_E_01 - Brown
+				i(85525),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_E_01 - Brown
+				i(85526),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_E_01 - Brown
+				i(85527),	-- Art Template Cloth Robe - Cloth_PVPWarlock_E_01 - Brown
+				i(85528),	-- Art Template Cloth Hand - Cloth_PVPWarlock_E_01 - Brown
+				i(85529),	-- Art Template Cloth Head - Cloth_PVPWarlock_E_01 - Brown
+				i(85530),	-- Art Template Cloth Legs - Cloth_PVPWarlock_E_01 - Brown
+				i(85531),	-- Art Template Cloth Chest - Cloth_PVPWarlock_E_01 - Brown
+				i(85532),	-- Art Template Cloth Belt - Cloth_PVPWarlock_E_01 - Green
+				i(85533),	-- Art Template Cloth Boot - Cloth_PVPWarlock_E_01 - Green
+				i(85534),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_E_01 - Green
+				i(85535),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_E_01 - Green
+				i(85536),	-- Art Template Cloth Robe - Cloth_PVPWarlock_E_01 - Green
+				i(85537),	-- Art Template Cloth Hand - Cloth_PVPWarlock_E_01 - Green
+				i(85538),	-- Art Template Cloth Head - Cloth_PVPWarlock_E_01 - Green
+				i(85539),	-- Art Template Cloth Legs - Cloth_PVPWarlock_E_01 - Green
+				i(85540),	-- Art Template Cloth Chest - Cloth_PVPWarlock_E_01 - Green
+				i(86029),	-- Art Template Cloth Belt - Cloth_Panda_B_01 - Blue
+				i(86030),	-- Art Template Cloth Boot - Cloth_Panda_B_01 - Blue
+				i(86031),	-- Art Template Cloth Shoulder - Cloth_Panda_B_01 - Blue
+				i(86032),	-- Art Template Cloth Wrist - Cloth_Panda_B_01 - Blue
+				i(86033),	-- Art Template Cloth Robe - Cloth_Panda_B_01 - Blue
+				i(86034),	-- Art Template Cloth Hand - Cloth_Panda_B_01 - Blue
+				i(86035),	-- Art Template Cloth Head - Cloth_Panda_B_01 - Blue
+				i(86036),	-- Art Template Cloth Legs - Cloth_Panda_B_01 - Blue
+				i(86037),	-- Art Template Cloth Chest - Cloth_Panda_B_01 - Blue
+				i(86048),	-- Art Template Cloth Belt - Cloth_Panda_B_01 - Green
+				i(86049),	-- Art Template Cloth Boot - Cloth_Panda_B_01 - Green
+				i(86050),	-- Art Template Cloth Shoulder - Cloth_Panda_B_01 - Green
+				i(86051),	-- Art Template Cloth Wrist - Cloth_Panda_B_01 - Green
+				i(86052),	-- Art Template Cloth Robe - Cloth_Panda_B_01 - Green
+				i(86053),	-- Art Template Cloth Hand - Cloth_Panda_B_01 - Green
+				i(86054),	-- Art Template Cloth Head - Cloth_Panda_B_01 - Green
+				i(86055),	-- Art Template Cloth Legs - Cloth_Panda_B_01 - Green
+				i(86056),	-- Art Template Cloth Chest - Cloth_Panda_B_01 - Green
+				i(86058),	-- Art Template Cloth Belt - Cloth_Panda_B_01 - Red
+				i(86059),	-- Art Template Cloth Boot - Cloth_Panda_B_01 - Red
+				i(86060),	-- Art Template Cloth Shoulder - Cloth_Panda_B_01 - Red
+				i(86061),	-- Art Template Cloth Wrist - Cloth_Panda_B_01 - Red
+				i(86062),	-- Art Template Cloth Robe - Cloth_Panda_B_01 - Red
+				i(86063),	-- Art Template Cloth Hand - Cloth_Panda_B_01 - Red
+				i(86064),	-- Art Template Cloth Head - Cloth_Panda_B_01 - Red
+				i(86065),	-- Art Template Cloth Legs - Cloth_Panda_B_01 - Red
+				i(86066),	-- Art Template Cloth Chest - Cloth_Panda_B_01 - Red
+				i(86437),	-- Art Template Cloth Belt - Cloth_PVPPriest_E_01
+				i(86438),	-- Art Template Cloth Boot - Cloth_PVPPriest_E_01
+				i(86439),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_E_01
+				i(86440),	-- Art Template Cloth Wrist - Cloth_PVPPriest_E_01
+				i(86441),	-- Art Template Cloth Robe - Cloth_PVPPriest_E_01
+				i(86442),	-- Art Template Cloth Hand - Cloth_PVPPriest_E_01
+				i(86443),	-- Art Template Cloth Head - Cloth_PVPPriest_E_01
+				i(86444),	-- Art Template Cloth Legs - Cloth_PVPPriest_E_01
+				i(86445),	-- Art Template Cloth Chest - Cloth_PVPPriest_E_01
+				i(86447),	-- Art Template Cloth Belt - Cloth_PVPPriest_E_01 - Light
+				i(86448),	-- Art Template Cloth Boot - Cloth_PVPPriest_E_01 - Light
+				i(86449),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_E_01 - Light
+				i(86450),	-- Art Template Cloth Wrist - Cloth_PVPPriest_E_01 - Light
+				i(86451),	-- Art Template Cloth Robe - Cloth_PVPPriest_E_01 - Light
+				i(86452),	-- Art Template Cloth Hand - Cloth_PVPPriest_E_01 - Light
+				i(86453),	-- Art Template Cloth Head - Cloth_PVPPriest_E_01 - Light
+				i(86454),	-- Art Template Cloth Legs - Cloth_PVPPriest_E_01 - Light
+				i(86455),	-- Art Template Cloth Chest - Cloth_PVPPriest_E_01 - Light
+				i(86456),	-- Art Template Cloth Belt - Cloth_PVPPriest_E_01 - Shadow
+				i(86457),	-- Art Template Cloth Boot - Cloth_PVPPriest_E_01 - Shadow
+				i(86458),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_E_01 - Shadow
+				i(86459),	-- Art Template Cloth Wrist - Cloth_PVPPriest_E_01 - Shadow
+				i(86460),	-- Art Template Cloth Robe - Cloth_PVPPriest_E_01 - Shadow
+				i(86461),	-- Art Template Cloth Hand - Cloth_PVPPriest_E_01 - Shadow
+				i(86462),	-- Art Template Cloth Head - Cloth_PVPPriest_E_01 - Shadow
+				i(86463),	-- Art Template Cloth Legs - Cloth_PVPPriest_E_01 - Shadow
+				i(86464),	-- Art Template Cloth Chest - Cloth_PVPPriest_E_01 - Shadow
+				i(87969),	-- Art Template Cloth Belt - Cloth_ChallengeWarlock_D_01
+				i(87970),	-- Art Template Cloth Boot - Cloth_ChallengeWarlock_D_01
+				i(87971),	-- Art Template Cloth Shoulder - Cloth_ChallengeWarlock_D_01
+				i(87972),	-- Art Template Cloth Wrist - Cloth_ChallengeWarlock_D_01
+				i(87973),	-- Art Template Cloth Robe - Cloth_ChallengeWarlock_D_01
+				i(87974),	-- Art Template Cloth Hand - Cloth_ChallengeWarlock_D_01
+				i(87975),	-- Art Template Cloth Head - Cloth_ChallengeWarlock_D_01
+				i(87976),	-- Art Template Cloth Legs - Cloth_ChallengeWarlock_D_01
+				i(87977),	-- Art Template Cloth Chest - Cloth_ChallengeWarlock_D_01
+				i(87978),	-- Art Template Cloth Belt - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87979),	-- Art Template Cloth Boot - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87980),	-- Art Template Cloth Shoulder - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87981),	-- Art Template Cloth Wrist - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87982),	-- Art Template Cloth Robe - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87983),	-- Art Template Cloth Hand - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87984),	-- Art Template Cloth Head - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87985),	-- Art Template Cloth Legs - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87986),	-- Art Template Cloth Chest - Cloth_ChallengeWarlock_D_01 - Purple
+				i(87987),	-- Art Template Cloth Belt - Cloth_ChallengeWarlock_D_01 - Red
+				i(87988),	-- Art Template Cloth Boot - Cloth_ChallengeWarlock_D_01 - Red
+				i(87989),	-- Art Template Cloth Shoulder - Cloth_ChallengeWarlock_D_01 - Red
+				i(87990),	-- Art Template Cloth Wrist - Cloth_ChallengeWarlock_D_01 - Red
+				i(87991),	-- Art Template Cloth Robe - Cloth_ChallengeWarlock_D_01 - Red
+				i(87992),	-- Art Template Cloth Hand - Cloth_ChallengeWarlock_D_01 - Red
+				i(87993),	-- Art Template Cloth Head - Cloth_ChallengeWarlock_D_01 - Red
+				i(87994),	-- Art Template Cloth Legs - Cloth_ChallengeWarlock_D_01 - Red
+				i(87995),	-- Art Template Cloth Chest - Cloth_ChallengeWarlock_D_01 - Red
+				i(88608),	-- Art Template Cloth Head - Helm_PandariaTradeskill_D_01 - Black
+				i(88609),	-- Art Template Cloth Head - Helm_PandariaTradeskill_D_01 - Blue
+				i(88610),	-- Art Template Cloth Head - Helm_PandariaTradeskill_D_01 - Green
+				i(88611),	-- Art Template Cloth Head - Helm_PandariaTradeskill_D_01 - Red
+				i(88612),	-- Art Template Cloth Head - Helm_PandariaTradeskill_D_01 - White
+				i(88613),	-- Art Template Cloth Head - Helm_PandariaTradeskill_D_01 - Yellow
 				i(77506),	-- Art Template Cloth Wrist - Cloth_PanStart_A_01 - Default
 				i(81007),	-- Honorary Combat Engineer's Satin Leggings
 				i(81006),	-- Honorary Combat Engineer's Silk Trousers
@@ -1074,7 +1491,250 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(80998),	-- Satin Robe of Eminent Domain
 			}),
 
+			-- 5.0.3
+			expansion(EXPANSION.MOP, patch(0,3), {
+				i(89381),	-- Art Template Cloth Belt - Cloth_Reputation_C_01 - Black
+				i(89382),	-- Art Template Cloth Boot - Cloth_Reputation_C_01 - Black
+				i(89383),	-- Art Template Cloth Chest - Cloth_Reputation_C_01 - Black
+				i(89384),	-- Art Template Cloth Hand - Cloth_Reputation_C_01 - Black
+				i(89385),	-- Art Template Cloth Head - Cloth_Reputation_C_01 - Black
+				i(89386),	-- Art Template Cloth Legs - Cloth_Reputation_C_01 - Black
+				i(89387),	-- Art Template Cloth Robe - Cloth_Reputation_C_01 - Black
+				i(89388),	-- Art Template Cloth Shoulder - Cloth_Reputation_C_01 - Black
+				i(89389),	-- Art Template Cloth Wrist - Cloth_Reputation_C_01 - Black
+				i(89402),	-- Art Template Cloth Belt - Cloth_Reputation_C_01 - Blue
+				i(89403),	-- Art Template Cloth Boot - Cloth_Reputation_C_01 - Blue
+				i(89404),	-- Art Template Cloth Chest - Cloth_Reputation_C_01 - Blue
+				i(89405),	-- Art Template Cloth Hand - Cloth_Reputation_C_01 - Blue
+				i(89406),	-- Art Template Cloth Head - Cloth_Reputation_C_01 - Blue
+				i(89407),	-- Art Template Cloth Legs - Cloth_Reputation_C_01 - Blue
+				i(89408),	-- Art Template Cloth Robe - Cloth_Reputation_C_01 - Blue
+				i(89409),	-- Art Template Cloth Shoulder - Cloth_Reputation_C_01 - Blue
+				i(89410),	-- Art Template Cloth Wrist - Cloth_Reputation_C_01 - Blue
+				i(89411),	-- Art Template Cloth Belt - Cloth_Reputation_C_01 - Yellow
+				i(89412),	-- Art Template Cloth Boot - Cloth_Reputation_C_01 - Yellow
+				i(89413),	-- Art Template Cloth Chest - Cloth_Reputation_C_01 - Yellow
+				i(89414),	-- Art Template Cloth Hand - Cloth_Reputation_C_01 - Yellow
+				i(89415),	-- Art Template Cloth Head - Cloth_Reputation_C_01 - Yellow
+				i(89416),	-- Art Template Cloth Legs - Cloth_Reputation_C_01 - Yellow
+				i(89417),	-- Art Template Cloth Robe - Cloth_Reputation_C_01 - Yellow
+				i(89418),	-- Art Template Cloth Shoulder - Cloth_Reputation_C_01 - Yellow
+				i(89419),	-- Art Template Cloth Wrist - Cloth_Reputation_C_01 - Yellow
+				i(89727),	-- Art Template Cloth Belt - Cloth_PVPMage_E_01
+				i(89728),	-- Art Template Cloth Boot - Cloth_PVPMage_E_01
+				i(89729),	-- Art Template Cloth Shoulder - Cloth_PVPMage_E_01
+				i(89730),	-- Art Template Cloth Wrist - Cloth_PVPMage_E_01
+				i(89731),	-- Art Template Cloth Robe - Cloth_PVPMage_E_01
+				i(89732),	-- Art Template Cloth Hand - Cloth_PVPMage_E_01
+				i(89733),	-- Art Template Cloth Head - Cloth_PVPMage_E_01
+				i(89734),	-- Art Template Cloth Legs - Cloth_PVPMage_E_01
+				i(89735),	-- Art Template Cloth Chest - Cloth_PVPMage_E_01
+				i(89748),	-- Art Template Cloth Belt - Cloth_PVPMage_E_01 - Blue
+				i(89749),	-- Art Template Cloth Boot - Cloth_PVPMage_E_01 - Blue
+				i(89750),	-- Art Template Cloth Chest - Cloth_PVPMage_E_01 - Blue
+				i(89751),	-- Art Template Cloth Hand - Cloth_PVPMage_E_01 - Blue
+				i(89752),	-- Art Template Cloth Head - Cloth_PVPMage_E_01 - Blue
+				i(89753),	-- Art Template Cloth Legs - Cloth_PVPMage_E_01 - Blue
+				i(89754),	-- Art Template Cloth Robe - Cloth_PVPMage_E_01 - Blue
+				i(89755),	-- Art Template Cloth Shoulder - Cloth_PVPMage_E_01 - Blue
+				i(89756),	-- Art Template Cloth Wrist - Cloth_PVPMage_E_01 - Blue
+				i(89757),	-- Art Template Cloth Belt - Cloth_PVPMage_E_01 - Red
+				i(89758),	-- Art Template Cloth Boot - Cloth_PVPMage_E_01 - Red
+				i(89759),	-- Art Template Cloth Chest - Cloth_PVPMage_E_01 - Red
+				i(89760),	-- Art Template Cloth Hand - Cloth_PVPMage_E_01 - Red
+				i(89761),	-- Art Template Cloth Head - Cloth_PVPMage_E_01 - Red
+				i(89762),	-- Art Template Cloth Legs - Cloth_PVPMage_E_01 - Red
+				i(89763),	-- Art Template Cloth Robe - Cloth_PVPMage_E_01 - Red
+				i(89764),	-- Art Template Cloth Shoulder - Cloth_PVPMage_E_01 - Red
+				i(89765),	-- Art Template Cloth Wrist - Cloth_PVPMage_E_01 - Red
+			}),
+
+			-- 5.0.4
+			expansion(EXPANSION.MOP, patch(0,4), {
+				i(90698),	-- Art Template Cloth - Robe_CharCreate_Warlock_B_01 Hand
+				i(90699),	-- Art Template Cloth - Robe_CharCreate_Warlock_B_01 Robe
+				i(90701),	-- Art Template Cloth - Robe_CharCreate_Warlock_B_01 Boot
+				i(90703),	-- Art Template Cloth - Robe_CharCreate_Mage_B_01 Boot
+				i(90704),	-- Art Template Cloth - Robe_CharCreate_Mage_B_01 Robe
+				i(90705),	-- Art Template Cloth - Robe_CharCreate_Mage_B_01 Hand
+				i(90730),	-- Art Template Cloth - CharCreate_Priest_B_01 - Robe
+				i(90733),	-- Art Template Cloth - CharCreate_Priest_B_01 - Boot
+				i(90847),	-- Art Template Cloth - CharCreate_Priest_B_01 - Shoulder
+				i(90848),	-- Art Template Cloth - CharCreate_Mage_B_01 - Shoulder
+				i(90849),	-- Art Template Cloth - CharCreate_Warlock_B_01 - Shoulder
+			}),
+
+			-- 5.1.0
+			expansion(EXPANSION.MOP, patch(1,0), {
+				i(91944),	-- Art Template Cloth Belt - Cloth_PVPPriest_F_01 - Alliance
+				i(91945),	-- Art Template Cloth Boot - Cloth_PVPPriest_F_01 - Alliance
+				i(91946),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_F_01 - Alliance
+				i(91947),	-- Art Template Cloth Wrist - Cloth_PVPPriest_F_01 - Alliance
+				i(91948),	-- Art Template Cloth Robe - Cloth_PVPPriest_F_01 - Alliance
+				i(91949),	-- Art Template Cloth Hand - Cloth_PVPPriest_F_01 - Alliance
+				i(91950),	-- Art Template Cloth Head - Cloth_PVPPriest_F_01 - Alliance
+				i(91951),	-- Art Template Cloth Legs - Cloth_PVPPriest_F_01 - Alliance
+				i(91952),	-- Art Template Cloth Chest - Cloth_PVPPriest_F_01 - Alliance
+				i(91953),	-- Art Template Cloth Belt - Cloth_PVPPriest_F_01 - Horde
+				i(91954),	-- Art Template Cloth Boot - Cloth_PVPPriest_F_01 - Horde
+				i(91955),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_F_01 - Horde
+				i(91956),	-- Art Template Cloth Wrist - Cloth_PVPPriest_F_01 - Horde
+				i(91957),	-- Art Template Cloth Robe - Cloth_PVPPriest_F_01 - Horde
+				i(91958),	-- Art Template Cloth Hand - Cloth_PVPPriest_F_01 - Horde
+				i(91959),	-- Art Template Cloth Head - Cloth_PVPPriest_F_01 - Horde
+				i(91960),	-- Art Template Cloth Legs - Cloth_PVPPriest_F_01 - Horde
+				i(91961),	-- Art Template Cloth Chest - Cloth_PVPPriest_F_01 - Horde
+				i(91962),	-- Art Template Cloth Belt - Cloth_PVPPriest_F_01 - Dark
+				i(91963),	-- Art Template Cloth Boot - Cloth_PVPPriest_F_01 - Dark
+				i(91964),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_F_01 - Dark
+				i(91965),	-- Art Template Cloth Wrist - Cloth_PVPPriest_F_01 - Dark
+				i(91966),	-- Art Template Cloth Robe - Cloth_PVPPriest_F_01 - Dark
+				i(91967),	-- Art Template Cloth Hand - Cloth_PVPPriest_F_01 - Dark
+				i(91968),	-- Art Template Cloth Head - Cloth_PVPPriest_F_01 - Dark
+				i(91969),	-- Art Template Cloth Legs - Cloth_PVPPriest_F_01 - Dark
+				i(91970),	-- Art Template Cloth Chest - Cloth_PVPPriest_F_01 - Dark
+				i(91985),	-- Art Template Cloth Belt - Cloth_PVPMage_F_01 - Blue
+				i(91986),	-- Art Template Cloth Boot - Cloth_PVPMage_F_01 - Blue
+				i(91987),	-- Art Template Cloth Shoulder - Cloth_PVPMage_F_01 - Blue
+				i(91988),	-- Art Template Cloth Wrist - Cloth_PVPMage_F_01 - Blue
+				i(91989),	-- Art Template Cloth Robe - Cloth_PVPMage_F_01 - Blue
+				i(91990),	-- Art Template Cloth Hand - Cloth_PVPMage_F_01 - Blue
+				i(91991),	-- Art Template Cloth Head - Cloth_PVPMage_F_01 - Blue
+				i(91992),	-- Art Template Cloth Legs - Cloth_PVPMage_F_01 - Blue
+				i(91993),	-- Art Template Cloth Chest - Cloth_PVPMage_F_01 - Blue
+				i(91994),	-- Art Template Cloth Belt - Cloth_PVPMage_F_01 - Red
+				i(91995),	-- Art Template Cloth Boot - Cloth_PVPMage_F_01 - Red
+				i(91996),	-- Art Template Cloth Shoulder - Cloth_PVPMage_F_01 - Red
+				i(91997),	-- Art Template Cloth Wrist - Cloth_PVPMage_F_01 - Red
+				i(91998),	-- Art Template Cloth Robe - Cloth_PVPMage_F_01 - Red
+				i(91999),	-- Art Template Cloth Hand - Cloth_PVPMage_F_01 - Red
+				i(92000),	-- Art Template Cloth Head - Cloth_PVPMage_F_01 - Red
+				i(92001),	-- Art Template Cloth Legs - Cloth_PVPMage_F_01 - Red
+				i(92002),	-- Art Template Cloth Chest - Cloth_PVPMage_F_01 - Red
+				i(92003),	-- Art Template Cloth Belt - Cloth_PVPMage_F_01 - Purple
+				i(92004),	-- Art Template Cloth Boot - Cloth_PVPMage_F_01 - Purple
+				i(92005),	-- Art Template Cloth Shoulder - Cloth_PVPMage_F_01 - Purple
+				i(92006),	-- Art Template Cloth Wrist - Cloth_PVPMage_F_01 - Purple
+				i(92007),	-- Art Template Cloth Robe - Cloth_PVPMage_F_01 - Purple
+				i(92008),	-- Art Template Cloth Hand - Cloth_PVPMage_F_01 - Purple
+				i(92009),	-- Art Template Cloth Head - Cloth_PVPMage_F_01 - Purple
+				i(92010),	-- Art Template Cloth Legs - Cloth_PVPMage_F_01 - Purple
+				i(92011),	-- Art Template Cloth Chest - Cloth_PVPMage_F_01 - Purple
+				i(92540),	-- Art Template Cloth Belt - Cloth_RaidWarlock_M_01 - Brown
+				i(92541),	-- Art Template Cloth Boot - Cloth_RaidWarlock_M_01 - Brown
+				i(92542),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_M_01 - Brown
+				i(92543),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_M_01 - Brown
+				i(92544),	-- Art Template Cloth Robe - Cloth_RaidWarlock_M_01 - Brown
+				i(92545),	-- Art Template Cloth Hand - Cloth_RaidWarlock_M_01 - Brown
+				i(92546),	-- Art Template Cloth Head - Cloth_RaidWarlock_M_01 - Brown
+				i(92547),	-- Art Template Cloth Legs - Cloth_RaidWarlock_M_01 - Brown
+				i(92548),	-- Art Template Cloth Chest - Cloth_RaidWarlock_M_01 - Brown
+				i(92666),	-- Art Template Cloth Belt - Cloth_RaidWarlock_M_01 - Grey
+				i(92667),	-- Art Template Cloth Boot - Cloth_RaidWarlock_M_01 - Grey
+				i(92668),	-- Art Template Cloth Chest - Cloth_RaidWarlock_M_01 - Grey
+				i(92669),	-- Art Template Cloth Hand - Cloth_RaidWarlock_M_01 - Grey
+				i(92670),	-- Art Template Cloth Head - Cloth_RaidWarlock_M_01 - Grey
+				i(92671),	-- Art Template Cloth Legs - Cloth_RaidWarlock_M_01 - Grey
+				i(92672),	-- Art Template Cloth Robe - Cloth_RaidWarlock_M_01 - Grey
+				i(92673),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_M_01 - Grey
+				i(92674),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_M_01 - Grey
+				i(92991),	-- Art Template Cloth Belt - Cloth_PVPWarlock_F_01 - Alliance
+				i(92992),	-- Art Template Cloth Boot - Cloth_PVPWarlock_F_01 - Alliance
+				i(92993),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_F_01 - Alliance
+				i(92994),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_F_01 - Alliance
+				i(92995),	-- Art Template Cloth Robe - Cloth_PVPWarlock_F_01 - Alliance
+				i(92996),	-- Art Template Cloth Hand - Cloth_PVPWarlock_F_01 - Alliance
+				i(92997),	-- Art Template Cloth Head - Cloth_PVPWarlock_F_01 - Alliance
+				i(92998),	-- Art Template Cloth Legs - Cloth_PVPWarlock_F_01 - Alliance
+				i(92999),	-- Art Template Cloth Chest - Cloth_PVPWarlock_F_01 - Alliance
+				i(93000),	-- Art Template Cloth Belt - Cloth_PVPWarlock_F_01 - Horde
+				i(93001),	-- Art Template Cloth Boot - Cloth_PVPWarlock_F_01 - Horde
+				i(93002),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_F_01 - Horde
+				i(93003),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_F_01 - Horde
+				i(93004),	-- Art Template Cloth Robe - Cloth_PVPWarlock_F_01 - Horde
+				i(93005),	-- Art Template Cloth Hand - Cloth_PVPWarlock_F_01 - Horde
+				i(93006),	-- Art Template Cloth Head - Cloth_PVPWarlock_F_01 - Horde
+				i(93007),	-- Art Template Cloth Legs - Cloth_PVPWarlock_F_01 - Horde
+				i(93008),	-- Art Template Cloth Chest - Cloth_PVPWarlock_F_01 - Horde
+				i(93010),	-- Art Template Cloth Belt - Cloth_PVPWarlock_F_01 - Purple
+				i(93011),	-- Art Template Cloth Boot - Cloth_PVPWarlock_F_01 - Purple
+				i(93012),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_F_01 - Purple
+				i(93013),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_F_01 - Purple
+				i(93014),	-- Art Template Cloth Robe - Cloth_PVPWarlock_F_01 - Purple
+				i(93015),	-- Art Template Cloth Hand - Cloth_PVPWarlock_F_01 - Purple
+				i(93016),	-- Art Template Cloth Head - Cloth_PVPWarlock_F_01 - Purple
+				i(93017),	-- Art Template Cloth Legs - Cloth_PVPWarlock_F_01 - Purple
+				i(93018),	-- Art Template Cloth Chest - Cloth_PVPWarlock_F_01 - Purple
+				i(93285),	-- Art Template Cloth Belt - Cloth_RaidPriest_M_01
+				i(93286),	-- Art Template Cloth Boot - Cloth_RaidPriest_M_01
+				i(93287),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_M_01
+				i(93288),	-- Art Template Cloth Wrist - Cloth_RaidPriest_M_01
+				i(93289),	-- Art Template Cloth Robe - Cloth_RaidPriest_M_01
+				i(93290),	-- Art Template Cloth Hand - Cloth_RaidPriest_M_01
+				i(93291),	-- Art Template Cloth Head - Cloth_RaidPriest_M_01
+				i(93292),	-- Art Template Cloth Legs - Cloth_RaidPriest_M_01
+				i(93293),	-- Art Template Cloth Chest - Cloth_RaidPriest_M_01
+				i(93294),	-- Art Template Cloth Belt - Cloth_RaidPriest_M_01 - Blue
+				i(93295),	-- Art Template Cloth Boot - Cloth_RaidPriest_M_01 - Blue
+				i(93296),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_M_01 - Blue
+				i(93297),	-- Art Template Cloth Wrist - Cloth_RaidPriest_M_01 - Blue
+				i(93298),	-- Art Template Cloth Robe - Cloth_RaidPriest_M_01 - Blue
+				i(93299),	-- Art Template Cloth Hand - Cloth_RaidPriest_M_01 - Blue
+				i(93300),	-- Art Template Cloth Head - Cloth_RaidPriest_M_01 - Blue
+				i(93301),	-- Art Template Cloth Legs - Cloth_RaidPriest_M_01 - Blue
+				i(93302),	-- Art Template Cloth Chest - Cloth_RaidPriest_M_01 - Blue
+				i(93303),	-- Art Template Cloth Belt - Cloth_RaidPriest_M_01 - Dark
+				i(93304),	-- Art Template Cloth Boot - Cloth_RaidPriest_M_01 - Dark
+				i(93305),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_M_01 - Dark
+				i(93306),	-- Art Template Cloth Wrist - Cloth_RaidPriest_M_01 - Dark
+				i(93307),	-- Art Template Cloth Robe - Cloth_RaidPriest_M_01 - Dark
+				i(93308),	-- Art Template Cloth Hand - Cloth_RaidPriest_M_01 - Dark
+				i(93309),	-- Art Template Cloth Head - Cloth_RaidPriest_M_01 - Dark
+				i(93310),	-- Art Template Cloth Legs - Cloth_RaidPriest_M_01 - Dark
+				i(93311),	-- Art Template Cloth Chest - Cloth_RaidPriest_M_01 - Dark
+			}),
+
 			-- 5.2.0
+			expansion(EXPANSION.MOP, patch(2,0), {
+				i(93782),	-- Art Template Cloth Belt - Cloth_RaidWarlock_M_01 - Purple
+				i(93783),	-- Art Template Cloth Boot - Cloth_RaidWarlock_M_01 - Purple
+				i(93784),	-- Art Template Cloth Chest - Cloth_RaidWarlock_M_01 - Purple
+				i(93785),	-- Art Template Cloth Hand - Cloth_RaidWarlock_M_01 - Purple
+				i(93786),	-- Art Template Cloth Head - Cloth_RaidWarlock_M_01 - Purple
+				i(93787),	-- Art Template Cloth Legs - Cloth_RaidWarlock_M_01 - Purple
+				i(93788),	-- Art Template Cloth Robe - Cloth_RaidWarlock_M_01 - Purple
+				i(93789),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_M_01 - Purple
+				i(93790),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_M_01 - Purple
+				i(93905),	-- Art Template Cloth Belt - Cloth_RaidMage_M_01 - Green
+				i(93906),	-- Art Template Cloth Boot - Cloth_RaidMage_M_01 - Green
+				i(93907),	-- Art Template Cloth Shoulder - Cloth_RaidMage_M_01 - Green
+				i(93908),	-- Art Template Cloth Wrist - Cloth_RaidMage_M_01 - Green
+				i(93909),	-- Art Template Cloth Robe - Cloth_RaidMage_M_01 - Green
+				i(93910),	-- Art Template Cloth Hand - Cloth_RaidMage_M_01 - Green
+				i(93911),	-- Art Template Cloth Head - Cloth_RaidMage_M_01 - Green
+				i(93912),	-- Art Template Cloth Legs - Cloth_RaidMage_M_01 - Green
+				i(93913),	-- Art Template Cloth Chest - Cloth_RaidMage_M_01 - Green
+				i(93914),	-- Art Template Cloth Belt - Cloth_RaidMage_M_01 - Red
+				i(93915),	-- Art Template Cloth Boot - Cloth_RaidMage_M_01 - Red
+				i(93916),	-- Art Template Cloth Shoulder - Cloth_RaidMage_M_01 - Red
+				i(93917),	-- Art Template Cloth Wrist - Cloth_RaidMage_M_01 - Red
+				i(93918),	-- Art Template Cloth Robe - Cloth_RaidMage_M_01 - Red
+				i(93919),	-- Art Template Cloth Hand - Cloth_RaidMage_M_01 - Red
+				i(93920),	-- Art Template Cloth Head - Cloth_RaidMage_M_01 - Red
+				i(93921),	-- Art Template Cloth Legs - Cloth_RaidMage_M_01 - Red
+				i(93922),	-- Art Template Cloth Chest - Cloth_RaidMage_M_01 - Red
+				i(93923),	-- Art Template Cloth Belt - Cloth_RaidMage_M_01 - Blue
+				i(93924),	-- Art Template Cloth Boot - Cloth_RaidMage_M_01 - Blue
+				i(93925),	-- Art Template Cloth Shoulder - Cloth_RaidMage_M_01 - Blue
+				i(93926),	-- Art Template Cloth Wrist - Cloth_RaidMage_M_01 - Blue
+				i(93927),	-- Art Template Cloth Robe - Cloth_RaidMage_M_01 - Blue
+				i(93928),	-- Art Template Cloth Hand - Cloth_RaidMage_M_01 - Blue
+				i(93929),	-- Art Template Cloth Head - Cloth_RaidMage_M_01 - Blue
+				i(93930),	-- Art Template Cloth Legs - Cloth_RaidMage_M_01 - Blue
+				i(93931),	-- Art Template Cloth Chest - Cloth_RaidMage_M_01 - Blue
+			}),
+
+			-- 5.2.0 (again)
 			-- #if BEFORE 10.2.7
 			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
 			expansion(EXPANSION.MOP, patch(2,0), {
@@ -1088,12 +1748,193 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(97079),	-- Silentflame Sandals
 			}),
 			-- #endif
+
+			-- 5.3.0
+			expansion(EXPANSION.MOP, patch(3,0), {
+				i(98705),	-- Art Template Cloth Belt - Cloth_PVPPriest_G_01 - Blue
+				i(98706),	-- Art Template Cloth Boot - Cloth_PVPPriest_G_01 - Blue
+				i(98707),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_G_01 - Blue
+				i(98708),	-- Art Template Cloth Wrist - Cloth_PVPPriest_G_01 - Blue
+				i(98709),	-- Art Template Cloth Robe - Cloth_PVPPriest_G_01 - Blue
+				i(98710),	-- Art Template Cloth Hand - Cloth_PVPPriest_G_01 - Blue
+				i(98711),	-- Art Template Cloth Head - Cloth_PVPPriest_G_01 - Blue
+				i(98712),	-- Art Template Cloth Legs - Cloth_PVPPriest_G_01 - Blue
+				i(98713),	-- Art Template Cloth Chest - Cloth_PVPPriest_G_01 - Blue
+				i(98714),	-- Art Template Cloth Kilt - Cloth_PVPPriest_G_01 - Blue
+				i(98718),	-- Art Template Cloth Belt - Cloth_PVPPriest_G_01 - Green
+				i(98719),	-- Art Template Cloth Boot - Cloth_PVPPriest_G_01 - Green
+				i(98720),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_G_01 - Green
+				i(98721),	-- Art Template Cloth Wrist - Cloth_PVPPriest_G_01 - Green
+				i(98722),	-- Art Template Cloth Robe - Cloth_PVPPriest_G_01 - Green
+				i(98723),	-- Art Template Cloth Hand - Cloth_PVPPriest_G_01 - Green
+				i(98724),	-- Art Template Cloth Head - Cloth_PVPPriest_G_01 - Green
+				i(98725),	-- Art Template Cloth Legs - Cloth_PVPPriest_G_01 - Green
+				i(98726),	-- Art Template Cloth Chest - Cloth_PVPPriest_G_01 - Green
+				i(98727),	-- Art Template Cloth Kilt - Cloth_PVPPriest_G_01 - Green
+				i(98736),	-- Art Template Cloth Belt - Cloth_PVPPriest_G_01 - Red
+				i(98737),	-- Art Template Cloth Boot - Cloth_PVPPriest_G_01 - Red
+				i(98738),	-- Art Template Cloth Shoulder - Cloth_PVPPriest_G_01 - Red
+				i(98739),	-- Art Template Cloth Wrist - Cloth_PVPPriest_G_01 - Red
+				i(98740),	-- Art Template Cloth Robe - Cloth_PVPPriest_G_01 - Red
+				i(98741),	-- Art Template Cloth Hand - Cloth_PVPPriest_G_01 - Red
+				i(98742),	-- Art Template Cloth Head - Cloth_PVPPriest_G_01 - Red
+				i(98743),	-- Art Template Cloth Legs - Cloth_PVPPriest_G_01 - Red
+				i(98744),	-- Art Template Cloth Chest - Cloth_PVPPriest_G_01 - Red
+				i(98745),	-- Art Template Cloth Kilt - Cloth_PVPPriest_G_01 - Red
+			}),
+
+			-- 5.4.0
+			expansion(EXPANSION.MOP, patch(4,0), {
+				i(101408),	-- Art Template Cloth Belt - RaidMage_N_01 - Blue
+				i(101409),	-- Art Template Cloth Boot - RaidMage_N_01 - Blue
+				i(101410),	-- Art Template Cloth Shoulder - RaidMage_N_01 - Blue
+				i(101411),	-- Art Template Cloth Wrist - RaidMage_N_01 - Blue
+				i(101412),	-- Art Template Cloth Robe - RaidMage_N_01 - Blue
+				i(101413),	-- Art Template Cloth Hand - RaidMage_N_01 - Blue
+				i(101414),	-- Art Template Cloth Head - RaidMage_N_01 - Blue
+				i(101415),	-- Art Template Cloth Legs - RaidMage_N_01 - Blue
+				i(101416),	-- Art Template Cloth Chest - RaidMage_N_01 - Blue
+				i(101417),	-- Art Template Cloth Belt - RaidMage_N_01 - Ice
+				i(101418),	-- Art Template Cloth Boot - RaidMage_N_01 - Ice
+				i(101419),	-- Art Template Cloth Shoulder - RaidMage_N_01 - Ice
+				i(101420),	-- Art Template Cloth Wrist - RaidMage_N_01 - Ice
+				i(101421),	-- Art Template Cloth Robe - RaidMage_N_01 - Ice
+				i(101422),	-- Art Template Cloth Hand - RaidMage_N_01 - Ice
+				i(101423),	-- Art Template Cloth Head - RaidMage_N_01 - Ice
+				i(101424),	-- Art Template Cloth Legs - RaidMage_N_01 - Ice
+				i(101425),	-- Art Template Cloth Chest - RaidMage_N_01 - Ice
+				i(101494),	-- Art Template Cloth Belt - Cloth_PVPWarlock_G_01 - Black
+				i(101495),	-- Art Template Cloth Boot - Cloth_PVPWarlock_G_01 - Black
+				i(101496),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_G_01 - Black
+				i(101497),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_G_01 - Black
+				i(101498),	-- Art Template Cloth Robe - Cloth_PVPWarlock_G_01 - Black
+				i(101499),	-- Art Template Cloth Hand - Cloth_PVPWarlock_G_01 - Black
+				i(101500),	-- Art Template Cloth Head - Cloth_PVPWarlock_G_01 - Black
+				i(101501),	-- Art Template Cloth Legs - Cloth_PVPWarlock_G_01 - Black
+				i(101502),	-- Art Template Cloth Chest - Cloth_PVPWarlock_G_01 - Black
+				i(101503),	-- Art Template Cloth Belt - Cloth_PVPWarlock_G_01 - Red
+				i(101504),	-- Art Template Cloth Boot - Cloth_PVPWarlock_G_01 - Red
+				i(101505),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_G_01 - Red
+				i(101506),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_G_01 - Red
+				i(101507),	-- Art Template Cloth Robe - Cloth_PVPWarlock_G_01 - Red
+				i(101508),	-- Art Template Cloth Hand - Cloth_PVPWarlock_G_01 - Red
+				i(101509),	-- Art Template Cloth Head - Cloth_PVPWarlock_G_01 - Red
+				i(101510),	-- Art Template Cloth Legs - Cloth_PVPWarlock_G_01 - Red
+				i(101511),	-- Art Template Cloth Chest - Cloth_PVPWarlock_G_01 - Red
+				i(101512),	-- Art Template Cloth Belt - Cloth_PVPWarlock_G_01 - Green
+				i(101513),	-- Art Template Cloth Boot - Cloth_PVPWarlock_G_01 - Green
+				i(101514),	-- Art Template Cloth Shoulder - Cloth_PVPWarlock_G_01 - Green
+				i(101515),	-- Art Template Cloth Wrist - Cloth_PVPWarlock_G_01 - Green
+				i(101516),	-- Art Template Cloth Robe - Cloth_PVPWarlock_G_01 - Green
+				i(101517),	-- Art Template Cloth Hand - Cloth_PVPWarlock_G_01 - Green
+				i(101518),	-- Art Template Cloth Head - Cloth_PVPWarlock_G_01 - Green
+				i(101519),	-- Art Template Cloth Legs - Cloth_PVPWarlock_G_01 - Green
+				i(101520),	-- Art Template Cloth Chest - Cloth_PVPWarlock_G_01 - Green
+				i(101572),	-- Art Template Cloth Head - Helm_Robe_B_03earthenring
+				i(101700),	-- Art Template Cloth Belt - Cloth_RaidWarlock_N_01 - Blue
+				i(101701),	-- Art Template Cloth Boot - Cloth_RaidWarlock_N_01 - Blue
+				i(101702),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_N_01 - Blue
+				i(101703),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_N_01 - Blue
+				i(101704),	-- Art Template Cloth Robe - Cloth_RaidWarlock_N_01 - Blue
+				i(101705),	-- Art Template Cloth Hand - Cloth_RaidWarlock_N_01 - Blue
+				i(101706),	-- Art Template Cloth Head - Cloth_RaidWarlock_N_01 - Blue
+				i(101707),	-- Art Template Cloth Legs - Cloth_RaidWarlock_N_01 - Blue
+				i(101708),	-- Art Template Cloth Chest - Cloth_RaidWarlock_N_01 - Blue
+				i(101709),	-- Art Template Cloth Belt - Cloth_RaidWarlock_N_01 - Red
+				i(101710),	-- Art Template Cloth Boot - Cloth_RaidWarlock_N_01 - Red
+				i(101711),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_N_01 - Red
+				i(101712),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_N_01 - Red
+				i(101713),	-- Art Template Cloth Robe - Cloth_RaidWarlock_N_01 - Red
+				i(101714),	-- Art Template Cloth Hand - Cloth_RaidWarlock_N_01 - Red
+				i(101715),	-- Art Template Cloth Head - Cloth_RaidWarlock_N_01 - Red
+				i(101716),	-- Art Template Cloth Legs - Cloth_RaidWarlock_N_01 - Red
+				i(101717),	-- Art Template Cloth Chest - Cloth_RaidWarlock_N_01 - Red
+				i(101718),	-- Art Template Cloth Belt - Cloth_RaidWarlock_N_01 - Gold
+				i(101719),	-- Art Template Cloth Boot - Cloth_RaidWarlock_N_01 - Gold
+				i(101720),	-- Art Template Cloth Shoulder - Cloth_RaidWarlock_N_01 - Gold
+				i(101721),	-- Art Template Cloth Wrist - Cloth_RaidWarlock_N_01 - Gold
+				i(101722),	-- Art Template Cloth Robe - Cloth_RaidWarlock_N_01 - Gold
+				i(101723),	-- Art Template Cloth Hand - Cloth_RaidWarlock_N_01 - Gold
+				i(101724),	-- Art Template Cloth Head - Cloth_RaidWarlock_N_01 - Gold
+				i(101725),	-- Art Template Cloth Legs - Cloth_RaidWarlock_N_01 - Gold
+				i(101726),	-- Art Template Cloth Chest - Cloth_RaidWarlock_N_01 - Gold
+				i(102373),	-- Art Template Cloth Belt - Cloth_RaidPriest_N_01 - Holy
+				i(102374),	-- Art Template Cloth Boot - Cloth_RaidPriest_N_01 - Holy
+				i(102375),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_N_01 - Holy
+				i(102376),	-- Art Template Cloth Wrist - Cloth_RaidPriest_N_01 - Holy
+				i(102377),	-- Art Template Cloth Robe - Cloth_RaidPriest_N_01 - Holy
+				i(102378),	-- Art Template Cloth Hand - Cloth_RaidPriest_N_01 - Holy
+				i(102379),	-- Art Template Cloth Head - Cloth_RaidPriest_N_01 - Holy
+				i(102380),	-- Art Template Cloth Legs - Cloth_RaidPriest_N_01 - Holy
+				i(102381),	-- Art Template Cloth Chest - Cloth_RaidPriest_N_01 - Holy
+				i(102382),	-- Art Template Cloth Belt - Cloth_RaidPriest_N_01 - Discipline
+				i(102383),	-- Art Template Cloth Boot - Cloth_RaidPriest_N_01 - Discipline
+				i(102384),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_N_01 - Discipline
+				i(102385),	-- Art Template Cloth Wrist - Cloth_RaidPriest_N_01 - Discipline
+				i(102386),	-- Art Template Cloth Robe - Cloth_RaidPriest_N_01 - Discipline
+				i(102387),	-- Art Template Cloth Hand - Cloth_RaidPriest_N_01 - Discipline
+				i(102388),	-- Art Template Cloth Head - Cloth_RaidPriest_N_01 - Discipline
+				i(102389),	-- Art Template Cloth Legs - Cloth_RaidPriest_N_01 - Discipline
+				i(102390),	-- Art Template Cloth Chest - Cloth_RaidPriest_N_01 - Discipline
+				i(102427),	-- Art Template Cloth Belt - Cloth_RaidPriest_N_01 - Shadow
+				i(102428),	-- Art Template Cloth Boot - Cloth_RaidPriest_N_01 - Shadow
+				i(102429),	-- Art Template Cloth Shoulder - Cloth_RaidPriest_N_01 - Shadow
+				i(102430),	-- Art Template Cloth Wrist - Cloth_RaidPriest_N_01 - Shadow
+				i(102431),	-- Art Template Cloth Robe - Cloth_RaidPriest_N_01 - Shadow
+				i(102432),	-- Art Template Cloth Hand - Cloth_RaidPriest_N_01 - Shadow
+				i(102433),	-- Art Template Cloth Head - Cloth_RaidPriest_N_01 - Shadow
+				i(102434),	-- Art Template Cloth Legs - Cloth_RaidPriest_N_01 - Shadow
+				i(102435),	-- Art Template Cloth Chest - Cloth_RaidPriest_N_01 - Shadow
+				i(102504),	-- Art Template Cloth Belt - Cloth_PVPMage_G_01 - Cool
+				i(102505),	-- Art Template Cloth Boot - Cloth_PVPMage_G_01 - Cool
+				i(102506),	-- Art Template Cloth Shoulder - Cloth_PVPMage_G_01 - Cool
+				i(102507),	-- Art Template Cloth Wrist - Cloth_PVPMage_G_01 - Cool
+				i(102508),	-- Art Template Cloth Robe - Cloth_PVPMage_G_01 - Cool
+				i(102509),	-- Art Template Cloth Hand - Cloth_PVPMage_G_01 - Cool
+				i(102510),	-- Art Template Cloth Head - Cloth_PVPMage_G_01 - Cool
+				i(102511),	-- Art Template Cloth Legs - Cloth_PVPMage_G_01 - Cool
+				i(102512),	-- Art Template Cloth Chest - Cloth_PVPMage_G_01 - Cool
+				i(102515),	-- Art Template Cloth Belt - Cloth_PVPMage_G_01 - Dark
+				i(102516),	-- Art Template Cloth Boot - Cloth_PVPMage_G_01 - Dark
+				i(102517),	-- Art Template Cloth Shoulder - Cloth_PVPMage_G_01 - Dark
+				i(102518),	-- Art Template Cloth Wrist - Cloth_PVPMage_G_01 - Dark
+				i(102519),	-- Art Template Cloth Robe - Cloth_PVPMage_G_01 - Dark
+				i(102520),	-- Art Template Cloth Hand - Cloth_PVPMage_G_01 - Dark
+				i(102521),	-- Art Template Cloth Head - Cloth_PVPMage_G_01 - Dark
+				i(102522),	-- Art Template Cloth Legs - Cloth_PVPMage_G_01 - Dark
+				i(102523),	-- Art Template Cloth Chest - Cloth_PVPMage_G_01 - Dark
+				i(102524),	-- Art Template Cloth Belt - Cloth_PVPMage_G_01 - Warm
+				i(102525),	-- Art Template Cloth Boot - Cloth_PVPMage_G_01 - Warm
+				i(102526),	-- Art Template Cloth Shoulder - Cloth_PVPMage_G_01 - Warm
+				i(102527),	-- Art Template Cloth Wrist - Cloth_PVPMage_G_01 - Warm
+				i(102528),	-- Art Template Cloth Robe - Cloth_PVPMage_G_01 - Warm
+				i(102529),	-- Art Template Cloth Hand - Cloth_PVPMage_G_01 - Warm
+				i(102530),	-- Art Template Cloth Head - Cloth_PVPMage_G_01 - Warm
+				i(102531),	-- Art Template Cloth Legs - Cloth_PVPMage_G_01 - Warm
+				i(102532),	-- Art Template Cloth Chest - Cloth_PVPMage_G_01 - Warm
+			}),
 		}),
 		filter(LEATHER, {
 			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
-				i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
+				i(77303),	-- Art Template Leather Belt - Leather_PanProg_B_01 - Blue
+				i(77309),	-- Art Template Leather Belt - Leather_PanProg_B_01 - White
+				i(77328),	-- Art Template Leather Belt - Leather_PanProg_B_01 - Red
+				i(77304),	-- Art Template Leather Boot - Leather_PanProg_B_01 - Blue
+				i(77310),	-- Art Template Leather Boot - Leather_PanProg_B_01 - White
+				i(77329),	-- Art Template Leather Boot - Leather_PanProg_B_01 - Red
+				i(77306),	-- Art Template Leather Hand - Leather_PanProg_B_01 - Blue
+				i(77312),	-- Art Template Leather Hand - Leather_PanProg_B_01 - White
+				i(77331),	-- Art Template Leather Hand - Leather_PanProg_B_01 - Red
+				i(77307),	-- Art Template Leather Legs - Leather_PanProg_B_01 - Blue
 				i(77313),	-- Art Template Leather Legs - Leather_PanProg_B_01 - White
+				i(77332),	-- Art Template Leather Legs - Leather_PanProg_B_01 - Red
+				i(77305),	-- Art Template Leather Chest - Leather_PanProg_B_01 - Blue
+				i(77311),	-- Art Template Leather Chest - Leather_PanProg_B_01 - White
+				i(77330),	-- Art Template Leather Chest - Leather_PanProg_B_01 - Red
+				i(77308),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Blue
+				i(77314),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - White
+				i(77333),	-- Art Template Leather Wrist - Leather_PanProg_B_01 - Red
 				i(88569),	-- Contender's Boots
 				i(88574),	-- Contender's Leggings
 				i(88575),	-- Contender's Shoulders
@@ -1146,6 +1987,24 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83565),	-- 5.0 QA PVP Test Shaman Healer Chest 3
 				i(83573),	-- 5.0 QA PVP Test Shaman Healer Shoulder 2
 				i(83574),	-- 5.0 QA PVP Test Shaman Healer Shoulders
+				i(77477),	-- Art Template Mail Wrist - Mail_PanProg_B_01 - Green
+				i(77478),	-- Art Template Mail Belt - Mail_PanProg_B_01 - Green
+				i(77479),	-- Art Template Mail Boot - Mail_PanProg_B_01 - Green
+				i(77480),	-- Art Template Mail Chest - Mail_PanProg_B_01 - Green
+				i(77481),	-- Art Template Mail Hand - Mail_PanProg_B_01 - Green
+				i(77482),	-- Art Template Mail Legs - Mail_PanProg_B_01 - Green
+				i(77483),	-- Art Template Mail Wrist - Mail_PanProg_B_01 - Red
+				i(77484),	-- Art Template Mail Belt - Mail_PanProg_B_01 - Red
+				i(77485),	-- Art Template Mail Boot - Mail_PanProg_B_01 - Red
+				i(77486),	-- Art Template Mail Chest - Mail_PanProg_B_01 - Red
+				i(77487),	-- Art Template Mail Hand - Mail_PanProg_B_01 - Red
+				i(77488),	-- Art Template Mail Legs - Mail_PanProg_B_01 - Red
+				i(77491),	-- Art Template Mail Wrist - Mail_PanProg_B_01 - Yellow
+				i(77492),	-- Art Template Mail Belt - Mail_PanProg_B_01 - Yellow
+				i(77493),	-- Art Template Mail Boot - Mail_PanProg_B_01 - Yellow
+				i(77494),	-- Art Template Mail Chest - Mail_PanProg_B_01 - Yellow
+				i(77495),	-- Art Template Mail Hand - Mail_PanProg_B_01 - Yellow
+				i(77496),	-- Art Template Mail Legs - Mail_PanProg_B_01 - Yellow
 				i(80996),	-- Chain Armor of Eminent Domain (not added version)
 				i(81005),	-- Honorary Combat Engineer's Chain Leggings
 				i(81009),	-- Honorary Combat Engineer's Ringmail Leggings
