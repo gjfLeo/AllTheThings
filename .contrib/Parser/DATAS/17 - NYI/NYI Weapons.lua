@@ -84,6 +84,16 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(79001),	-- Monster - Knife_1h_DeathwingRaid_D_01 - Purple \\ Monster - Knife_1h_DeathwingRaid_D_01 - Green
+					i(77442),	-- Monster - Knife_1h_PanStart_A_01 - Blue
+					i(77441),	-- Monster - Knife_1h_PanStart_A_01 - Default
+					i(77443),	-- Monster - Knife_1h_PanStart_A_01 - Green
+					i(77444),	-- Monster - Knife_1h_PanStart_A_01 - Red
+				}),
+
+				-- 5.x.x
 				n(P5xx, {
 					i(90273),	-- Honorary Combat Engineer's Heavy Legplates
 				}),
@@ -215,6 +225,15 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(77380),	-- Monster - Offhand_1h_PanStart_A_01 - Brown
+					i(77381),	-- Monster - Offhand_1h_PanStart_A_01 - Green
+					i(77382),	-- Monster - Offhand_1h_PanStart_A_01 - Purple
+					i(77383),	-- Monster - Offhand_1h_PanStart_A_01 - Red
+				}),
+
+				-- 5.x.x
 				n(P5xx, {
 					i(93027),	-- Monster - Item, Book - C03 Red Offhand
 					i(79820),	-- Monster - Item, Lantern - Round Offhand (Sheathes Hip)
@@ -256,6 +275,15 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(77373),	-- Monster - Axe_1h_PanStart_A_01 - Blue
+					i(77374),	-- Monster - Axe_1h_PanStart_A_01 - Gold
+					i(77375),	-- Monster - Axe_1h_PanStart_A_01 - Green
+					i(77376),	-- Monster - Axe_1h_PanStart_A_01 - Purple
+					i(77377),	-- Monster - Axe_1h_PanStart_A_01 - Yellow
+				}),
+
 				-- 5.x.x
 				n(P5xx, {
 					i(90276),	-- Landfall Silk Treads
@@ -329,6 +357,14 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(77369),	-- Monster - Mace_1h_PanStart_A_01 - Default
+					i(77370),	-- Monster - Mace_1h_PanStart_A_01 - Blue
+					i(77371),	-- Monster - Mace_1h_PanStart_A_01 - Green
+					i(77372),	-- Monster - Mace_1h_PanStart_A_01 - Red
+				}),
+
 				-- 5.x.x
 				n(P5xx, {
 					i(104200),	-- Monster - Item, Fishing Pole (Shoulder)
@@ -406,6 +442,15 @@ root(ROOTS.NeverImplemented, {
 				expansion(EXPANSION.MOP, patch(0,1), {
 					i(83396),	-- 5.0 QA PVP Test Caster DPS Sword
 					i(80211),	-- Enchanting Test Sword
+					i(77384),	-- Monster - Sword_1H_PanStart_A_01 - Default
+					i(77385),	-- Monster - Sword_1H_PanStart_A_01 - Blue
+					i(77386),	-- Monster - Sword_1H_PanStart_A_01 - Green
+					i(77387),	-- Monster - Sword_1H_PanStart_A_01 - Red
+					i(79002),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Default
+					i(79003),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Dark
+					i(79004),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Gold
+					i(79005),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Green
+					i(79006),	-- Monster - Sword_1h_PVPPandariaS1_C_01 - Purple
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -510,6 +555,16 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			-- #endif
+			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(77409),	-- Monster - Shield_PanStart_A_01 - Blue
+					i(77410),	-- Monster - Shield_PanStart_A_01 - Green
+					i(77408),	-- Monster - Shield_PanStart_A_01 - Default
+					i(77412),	-- Monster - Shield_PanStart_A_01 - Red
+					i(77414),	-- Monster - Shield_PanStart_A_01 - Yellow
+				}),
+			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(179606),	-- Ardenweald Quest Shield
@@ -555,12 +610,8 @@ root(ROOTS.NeverImplemented, {
 			}),
 			-- #endif
 			expansion(EXPANSION.MOP, {
-				n(P5xx, {
-					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
-					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
-					i(90278),	-- Landfall Moccasins
-					i(90282),	-- Landfall Plate Boots
-					i(90279),	-- Landfall Sabatons
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
 					i(79720),	-- Monster - Staff, Panda A01
 					i(79721),	-- Monster - Staff, Panda A01 - Blue
 					i(79722),	-- Monster - Staff, Panda A01 - Green
@@ -571,6 +622,17 @@ root(ROOTS.NeverImplemented, {
 					i(79719),	-- Monster - Staff, Panda B01 - Red
 					i(77358),	-- Monster - Stave_2h_PanStart_A_01 - Blue
 					i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
+					i(77359),	-- Monster - Stave_2h_PanStart_A_01 - Green
+					i(77360),	-- Monster - Stave_2h_PanStart_A_01 - Purple
+				}),
+
+				-- 5.x.x
+				n(P5xx, {
+					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
+					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
+					i(90278),	-- Landfall Moccasins
+					i(90282),	-- Landfall Plate Boots
+					i(90279),	-- Landfall Sabatons
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -699,6 +761,16 @@ root(ROOTS.NeverImplemented, {
 					i(215235),	-- 2hander Animation as 1hander test copy
 					i(228607),	-- Monster - Sword2H, Basic
 					-- #endif
+				}),
+			}),
+			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(77388),	-- Monster - Sword_2h_PanStart_A_01 - Default
+					i(77389),	-- Monster - Sword_2h_PanStart_A_01 - Blue
+					i(77390),	-- Monster - Sword_2h_PanStart_A_01 - Green
+					i(77391),	-- Monster - Sword_2h_PanStart_A_01 - Orange
+					i(77392),	-- Monster - Sword_2h_PanStart_A_01 - Yellow
 				}),
 			}),
 			expansion(EXPANSION.SL, {
