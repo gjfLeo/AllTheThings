@@ -646,6 +646,7 @@ local FillGroups = function(group)
 	if skipFull then return end
 	-- Check if this group is inside a Window or not
 	local groupWindow = app.GetRelativeRawWithField(group, "window");
+	local fillScope = groupWindow and (groupWindow.Suffix == "CurrentInstance" and "LIST" or "POPOUT") or "TOOLTIP"
 	-- Setup the FillData for this fill operation
 	local FillData = {
 		Included = {},
@@ -656,14 +657,14 @@ local FillGroups = function(group)
 		-- TODO: Fillers can provide context requirements for themselves to be utilized for a given
 		-- fill operation.
 		-- i.e. provided the Root/Window/Instance/Combat -- the Filler may return that it should not be included
-		Fillers = ActiveFillFunctions[groupWindow and (groupWindow.Suffix == "CurrentInstance" and "LIST" or "POPOUT") or "TOOLTIP"],
+		Fillers = ActiveFillFunctions[fillScope],
 		SkipLevel = app.GetSkipLevel(),
 		Root = group,
 		FillRecipes = group.recipeID or app.ReagentsDB[group.itemID or 0],
 		-- Debug = group.itemID == 207026
 	};
 
-	-- app.PrintDebug("FillGroups",group.__type,group,app:SearchLink(group))
+	-- app.PrintDebug("FillGroups",group.__type,group,"Fillers",fillScope,app:SearchLink(group))
 	-- app.PrintTable(FillData)
 
 	-- Fill the group with all nestable content
