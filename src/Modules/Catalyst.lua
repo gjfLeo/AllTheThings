@@ -4,6 +4,7 @@ local _, app = ...;
 -- Globals
 local setmetatable,tonumber,ipairs,tremove,unpack
 	= setmetatable,tonumber,ipairs,tremove,unpack
+local GameTooltip = GameTooltip
 
 -- WOWAPI
 local C_Item_GetItemInfoInstant,C_Item_GetItemUpgradeInfo
@@ -68,6 +69,30 @@ local CatalystArmorSubtypesByClass = {
 }
 local ClassArmorSubtype = CatalystArmorSubtypesByClass[app.ClassIndex]
 
+local SharedArmorTypeClasses = {[1]={},[2]={},[3]={},[4]={}}
+for classID,armorType in pairs(CatalystArmorSubtypesByClass) do
+	local classes = SharedArmorTypeClasses[armorType]
+	classes[#classes + 1] = classID
+end
+
+local function IncludeCatalystResults(data)
+	-- TODO: improve this, swap function based on settings changes, localize filter check
+	local canShowResults = (app.MODE_DEBUG_OR_ACCOUNT or app.Settings:Get("Filter:BoEs")) and not app.Modules.Filter.Filters.Bind(data)
+	if not canShowResults then return end
+
+	local tooltipData = GameTooltip and GameTooltip:GetTooltipData()
+	tooltipData = tooltipData and tooltipData.lines
+	-- not sure how this could happen
+	if not tooltipData then return true end
+
+	for i=1,#tooltipData do
+		-- scan the tooltip data lines for the 'bonding' line, and only return false if the item's tooltip is 'Soulbound'
+		-- ref: https://warcraft.wiki.gg/wiki/Enum.TooltipDataItemBinding
+		if tooltipData[i].bonding == 3 then return end
+	end
+	return true
+end
+
 local function GetCatalystSlot(data)
 	local link = data.link
 	if not link then return end
@@ -78,8 +103,14 @@ local function GetCatalystSlot(data)
 	-- Armor only / Slot
 	if classID ~= 4 or not CatalystArmorSlots[itemEquipLoc] then return end
 
-	-- Correct Armor type for current Class (or a Cloth Cloak)
-	if not (subclassID == ClassArmorSubtype or (itemEquipLoc == "INVTYPE_CLOAK" and subclassID == 1)) then return end
+	-- Correct Armor type for current Class (or a Cloth Cloak) or BoA included
+	if not (subclassID == ClassArmorSubtype or (itemEquipLoc == "INVTYPE_CLOAK" and subclassID == 1)) then
+		-- check BoA too if not for current class
+		local boaIncluded = IncludeCatalystResults(data)
+		if not boaIncluded then return end
+
+		data.__boaIncluded = boaIncluded
+	end
 
 	return itemEquipLoc
 end
@@ -95,7 +126,7 @@ local CatalystUpgradeTrackShift = {
 	[978] = 978,
 }
 
-local function GetCatalyst(data)
+local function GetCatalysts(data)
 	-- app.PrintDebug("GetCatalyst", data.hash)
 	data._cata = 0
 	local bonuses = data.bonuses
@@ -127,26 +158,30 @@ local function GetCatalyst(data)
 			slot,
 			data}}
 	}
-	local catalystResults = app.ResolveSymbolicLink(SymlinkGroup, true)
-	local catalystResult = catalystResults and catalystResults[1]
 
-	if not catalystResult then
+	local catalystResults = app.ResolveSymbolicLink(SymlinkGroup, true)
+	if not catalystResults or #catalystResults == 0 then
 		app.PrintDebug("Catalyst Item failed to find matching catalyst output",catalystID,upgradeTrackID,slot,app:SearchLink(data))
 		return
 	end
 
-	-- Copy all but the catalyst bonusID to the resulting item
 	tremove(bonuses, app.indexOf(bonuses, bonusID))
-	catalystResult.bonuses = app.CloneArray(bonuses)
-	-- Don't let a baked-in upgrade persist since our upgradeLevel might not allow it
-	catalystResult.up = nil
-	catalystResult._up = nil
-	catalystResult.filledType = "CATALYST"
+	local catalystResult
+	for i=1,#catalystResults do
+		catalystResult = catalystResults[i]
+		-- Copy all but the catalyst bonusID to the resulting item
+		-- TODO: probably build a proper rawlink instead so it works properly for further nesting
+		catalystResult.bonuses = app.CloneArray(bonuses)
+		-- Don't let a baked-in upgrade persist since our upgradeLevel might not allow it
+		catalystResult.up = nil
+		catalystResult._up = nil
+		catalystResult.filledType = "CATALYST"
+	end
 
 	-- app.PrintDebug("Catalyst Result:",catalystResult.hash,catalystResult.up,app:SearchLink(catalystResult))
 	-- app.PrintTable(catalystResult.bonuses)
-	data._cata = catalystResult
-	return catalystResult
+	data._cata = catalystResults
+	return catalystResults
 end
 
 local function catalyst_select_proper_tier_item(ResolveFunctions)
@@ -184,11 +219,26 @@ local function catalyst_select_proper_tier_item(ResolveFunctions)
 			pop(finalized, searchResults)
 		end
 
-		-- Find the Class
-		contains(finalized, searchResults, o, "contains", "c", classID)
-		-- app.PrintDebug("Matching",#searchResults,"groups by c =",classID)
-		pop(finalized, searchResults)	-- this includes the sym on the Class
-		-- app.PrintDebug("Class group contains",#searchResults,"items")
+		-- Only 1 Class result
+		-- if item is really BoP or not Account Mode or not Ignore BoE Filters
+		local includeBoA = baseItem.__boaIncluded or IncludeCatalystResults(baseItem)
+		if not includeBoA then
+			-- Find the Class
+			contains(finalized, searchResults, o, "contains", "c", classID)
+			-- app.PrintDebug("Matching",#searchResults,"groups by c =",classID)
+			pop(finalized, searchResults)	-- this includes the sym on the Class
+			-- app.PrintDebug("Class group contains",#searchResults,"items")
+		else
+			-- get the Armor type of the Item
+			local _, _, _, itemEquipLoc, _, _, armorType = C_Item_GetItemInfoInstant(baseItem.link)
+			-- popout all the matching Armor Type items (if not a cloak)
+			if itemEquipLoc ~= "INVTYPE_CLOAK" then
+				contains(finalized, searchResults, o, "contains", "c", unpack(SharedArmorTypeClasses[armorType]))
+				-- app.PrintDebug("Matching",#searchResults,"groups by c =",unpack(SharedArmorTypeClasses[armorType]))
+			end
+			pop(finalized, searchResults)
+			-- app.PrintDebug("All Class group contains",#searchResults,"items")
+		end
 
 		-- Match the slot
 		local interchanges = CatalystInterchangeSlots[armorSlot]
@@ -214,15 +264,20 @@ app.AddEventHandler("OnLoad", function()
 	local CreateObject = app.__CreateObject
 	Fill.AddFiller("CATALYST",
 	function(t, FillData)
-		local catalystResult = t._cata or GetCatalyst(t)
-		if not catalystResult or catalystResult == 0 then return end
+		local catalystResults = t._cata or GetCatalysts(t)
+		if not catalystResults or catalystResults == 0 then return end
 
-		if not catalystResult.collected then
-			t.filledCatalyst = true
+		local objs = {}
+		local o
+		for i=1,#catalystResults do
+			o = CreateObject(catalystResults[i])
+			if not o.collected then
+				t.filledCatalyst = true
+			end
+			objs[i] = o
 		end
-		-- app.PrintDebug("filledCatalyst=",catalystResult.modItemID,catalystResult.collected,"<",t.modItemID)
-		local o = CreateObject(catalystResult)
-		return { o };
+		-- app.PrintDebug("filledCatalyst=",#objs,"<",t.modItemID)
+		return objs
 	end,
 	{
 		ScopesIgnored = { "LIST" },
@@ -230,7 +285,3 @@ app.AddEventHandler("OnLoad", function()
 		SettingsTooltip = "Fills the Catalyst |T"..app.asset("Interface_Catalyst")..":0|t result of the current Item if one is possible and determined via ATT.\n\nNOTE: This Filler is not applied to the ATT Mini List."
 	})
 end)
-
--- TODO: some way to fill AccountMode/ItemUnbound Catalyst results. Since this typically only happens within Tooltips (other than Item link popouts)
--- we can dynamically add the extra Fill operation into the Fill sequence based on the Fill Source?? and also only when necessary based on Settings
--- potentially even the Fill sequence could then be split based on the Source being Filled instead of checking (Window/Tooltip)
