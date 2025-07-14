@@ -58,6 +58,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 						31861,	-- The Peak of Serenity - Continue Your Training
 					},
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
+					["lvl"] = lvlsquish(80, 80, 30),
 					["groups"] = {
 						objective(1, {	-- Master Hsu's Training Completed
 							["provider"] = { "n", 66207 },	-- Master Hsu
@@ -97,6 +98,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 						31860,	-- The Peak of Serenity - Continue Your Training
 					},
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
+					["lvl"] = lvlsquish(70, 70, 25),
 					["groups"] = {
 						objective(1, {	-- Master Tsang's Training Completed
 							["provider"] = { "n", 66257 },	-- Master Tsang
@@ -133,6 +135,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 						31858,	-- The Peak of Serenity - Continue Your Training
 					},
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
+					["lvl"] = lvlsquish(50, 50, 15),
 					["groups"] = {
 						objective(1, {	-- Master Yoon's Training Completed
 							["provider"] = { "n", 66255 },	-- Master Yoon
@@ -150,6 +153,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 						31989,	-- The Peak of Serenity - Complete Your Training
 					},
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
+					["lvl"] = lvlsquish(90, 90, 35),
 					["groups"] = {
 						i(90010),	-- Cranedancer's Staff
 						i(90012),	-- Staff of Ox-Hoof Thunder
@@ -186,6 +190,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["qg"] = 66260,	-- Master Hight <Grand Master>
 					["sourceQuest"] = 31839,	-- Continue Your Training: Master Hsu
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
+					["lvl"] = lvlsquish(80, 80, 30),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- Master Hsu's Training Completed
@@ -211,6 +216,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["qg"] = 66260,	-- Master Hight <Grand Master>
 					["sourceQuest"] = 31838,	-- Continue Your Training: Master Tsang
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
+					["lvl"] = lvlsquish(70, 70, 25),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- Master Tsang's Training Completed
@@ -237,6 +243,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["qg"] = 66260,	-- Master Hight <Grand Master>
 					["sourceQuest"] = 31836,	-- Continue Your Training: Master Yoon
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
+					["lvl"] = lvlsquish(50, 50, 15),
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- Master Yoon's Training Completed
@@ -278,6 +285,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["sourceQuest"] = 31835,	-- Continue Your Training: Master Kistane
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
 					["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },	-- baiting this for #errors to get more information
+					["lvl"] = lvlsquish(50, 50, 15),
 					["isBreadcrumb"] = true,
 				}),
 				q(31859, {	-- The Peak of Serenity - Continue Your Training /lvl 20
@@ -285,6 +293,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["sourceQuest"] = 31836,	-- Continue Your Training: Master Yoon
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
 					["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },	-- baiting this for #errors to get more information
+					["lvl"] = lvlsquish(60, 60, 20),
 					["isBreadcrumb"] = true,
 				}),
 				q(31860, {	-- The Peak of Serenity - Continue Your Training /lvl 25
@@ -292,6 +301,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["sourceQuest"] = 31837,	-- Continue Your Training: Master Cheng
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
 					["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },	-- baiting this for #errors to get more information
+					["lvl"] = lvlsquish(70, 70, 25),
 					["isBreadcrumb"] = true,
 				}),
 				q(31861, {	-- The Peak of Serenity - Continue Your Training /lvl 30
@@ -299,6 +309,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["sourceQuest"] = 31838,	-- Continue Your Training: Master Tsang
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
 					["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },	-- baiting this for #errors to get more information
+					["lvl"] = lvlsquish(80, 80, 30),
 					["isBreadcrumb"] = true,
 				}),
 				q(31989, {	-- The Peak of Serenity - Complete Your Training /lvl 35
@@ -306,6 +317,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, {
 					["sourceQuest"] = 31839,	-- Continue Your Training: Master Hsu
 					["coord"] = { 48.6, 42.8, KUN_LAI_SUMMIT },
 					["timeline"] = { ADDED_5_0_4, REMOVED_8_0_1 },	-- baiting this for #errors to get more information
+					["lvl"] = lvlsquish(90, 90, 35),
 					["isBreadcrumb"] = true,
 				}),
 			}),
