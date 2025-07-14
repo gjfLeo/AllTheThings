@@ -220,7 +220,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = { 2426 },
 			["coord"] = { 52.7, 9.4, UNDERMINE },
 			["g"] = {
-				n(ACHIEVEMENTS, {
+				n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART } }, {
 					ach(41529, {	-- Breaking the Bank
 						title(612),	-- %s, the Real Deal
 					}),
@@ -230,7 +230,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					ach(41530, {	-- My New Nemesis
 						i(235614),	-- Golden-Gob Propulsion Rig
 					}),
-				}),
+				})),
 			},
 		})),
 	}),
