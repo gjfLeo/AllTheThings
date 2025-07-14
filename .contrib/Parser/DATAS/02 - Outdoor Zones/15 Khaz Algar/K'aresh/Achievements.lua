@@ -22,7 +22,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			ach(41978),	-- Moonlighter
 			ach(41808),	-- Otherworldly Ecologist (automated)
 			ach(61017),	-- Phase-Lost-and-Found
-			ach(42742),	-- Power of the Reshii
+			ach(42742, {	-- Power of the Reshii
+				i(247703),	-- Reshii Hood
+				i(247704),	-- Reshii Mantle
+			}),
 			ach(42761),	-- Remnants of a Shattered World (automated)
 			ach(60890),	-- Secrets of the K'areshi (automated)
 			skyriding(ach(42719)),	-- Skydiving Glyphs: North Sufaad

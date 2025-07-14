@@ -57,7 +57,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 			-- Fashion
 			ach(42800),	-- Astral Attire
 		})),
-		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_11_2_0 } }, {
+		filter(MOUNTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 			i(243157, {	-- Vicious Void Creeper [A] (MOUNT!)
 				["races"] = ALLIANCE_ONLY,
 			}),
@@ -65,7 +65,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 				["races"] = HORDE_ONLY,
 			}),
 		})),
-		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
+		n(PVP_WARMODE, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 			n(219213, {	-- Gilderann <War Mode Quartermaster>
 				["coord"] = { 55.2, 76.8, DORNOGAL },
 				["g"] = {
@@ -263,7 +263,6 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 				},
 			})
 		})),
-		--[[
 		n(PVP_GLADIATOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
 			n(219222, {	-- Lalandi <Conquest Quartermaster>
 				["coord"] = { 55.1, 76.2, DORNOGAL },
@@ -271,330 +270,326 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 				["g"] = {
 					n(CLASSES, {
 						cl(DEATHKNIGHT, {
-							conquest(525, i(229731)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229732)),	-- Prized Gladiator's Drape
-							conquest(525, i(229733)),	-- Prized Gladiator's Shawl
-							conquest(875, i(229713)),	-- Prized Gladiator's Chestguard
-							conquest(875, i(229715)),	-- Prized Gladiator's Chestplate
-							conquest(700, i(229718)),	-- Prized Gladiator's Plate Gauntlets
-							conquest(700, i(229727)),	-- Prized Gladiator's Plate Girdle
-							conquest(700, i(229728)),	-- Prized Gladiator's Plate Greatbelt
-							conquest(700, i(229719)),	-- Prized Gladiator's Plate Handguards
-							conquest(875, i(229721)),	-- Prized Gladiator's Plate Helm
-							conquest(875, i(229722)),	-- Prized Gladiator's Plate Helmet
-							conquest(875, i(229723)),	-- Prized Gladiator's Plate Legguards
-							conquest(700, i(229726)),	-- Prized Gladiator's Plate Pauldrons
-							conquest(700, i(229725)),	-- Prized Gladiator's Plate Shoulders
-							conquest(700, i(229717)),	-- Prized Gladiator's Plate Stompers
-							conquest(525, i(229730)),	-- Prized Gladiator's Plate Vambraces
-							conquest(700, i(229716)),	-- Prized Gladiator's Plate Warboots
-							conquest(875, i(229724)),	-- Prized Gladiator's Plate Wargreaves
-							conquest(525, i(229729)),	-- Prized Gladiator's Plate Wristguards
+							conquest(525, i(230591)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230592)),	-- Astral Gladiator's Drape
+							conquest(525, i(230593)),	-- Astral Gladiator's Shawl
+							conquest(875, i(230575)),	-- Astral Gladiator's Chestguard
+							conquest(875, i(230576)),	-- Astral Gladiator's Chestplate
+							conquest(700, i(230579)),	-- Astral Gladiator's Plate Gauntlets
+							conquest(700, i(230587)),	-- Astral Gladiator's Plate Girdle
+							conquest(700, i(230588)),	-- Astral Gladiator's Plate Greatbelt
+							conquest(700, i(230580)),	-- Astral Gladiator's Plate Handguards
+							conquest(875, i(230581)),	-- Astral Gladiator's Plate Helm
+							conquest(875, i(230582)),	-- Astral Gladiator's Plate Helmet
+							conquest(875, i(230583)),	-- Astral Gladiator's Plate Legguards
+							conquest(700, i(230586)),	-- Astral Gladiator's Plate Pauldrons
+							conquest(700, i(230585)),	-- Astral Gladiator's Plate Shoulders
+							conquest(700, i(230578)),	-- Astral Gladiator's Plate Stompers
+							conquest(525, i(230590)),	-- Astral Gladiator's Plate Vambraces
+							conquest(700, i(230577)),	-- Astral Gladiator's Plate Warboots
+							conquest(875, i(230584)),	-- Astral Gladiator's Plate Wargreaves
+							conquest(525, i(230589)),	-- Astral Gladiator's Plate Wristguards
 						}),
 						cl(DEMONHUNTER, {
-							conquest(525, i(229615)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229616)),	-- Prized Gladiator's Drape
-							conquest(525, i(229617)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229611)),	-- Prized Gladiator's Leather Belt
-							conquest(700, i(229601)),	-- Prized Gladiator's Leather Boots
-							conquest(875, i(229607)),	-- Prized Gladiator's Leather Breeches
-							conquest(700, i(229603)),	-- Prized Gladiator's Leather Gloves
-							conquest(700, i(229604)),	-- Prized Gladiator's Leather Grips
-							conquest(875, i(229605)),	-- Prized Gladiator's Leather Helm
-							conquest(875, i(229608)),	-- Prized Gladiator's Leather Legwraps
-							conquest(875, i(229606)),	-- Prized Gladiator's Leather Mask
-							conquest(700, i(229610)),	-- Prized Gladiator's Leather Shoulderpads
-							conquest(700, i(229609)),	-- Prized Gladiator's Leather Spaulders
-							conquest(700, i(229612)),	-- Prized Gladiator's Leather Strap
-							conquest(700, i(229602)),	-- Prized Gladiator's Leather Treads
-							conquest(875, i(229599)),	-- Prized Gladiator's Leather Vest
-							conquest(875, i(229600)),	-- Prized Gladiator's Leather Jerkin
-							conquest(525, i(229614)),	-- Prized Gladiator's Leather Wristguards
-							conquest(525, i(229613)),	-- Prized Gladiator's Leather Wristwraps
+							conquest(525, i(230476)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230477)),	-- Astral Gladiator's Drape
+							conquest(525, i(230478)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230472)),	-- Astral Gladiator's Leather Belt
+							conquest(875, i(230468)),	-- Astral Gladiator's Leather Breeches
+							conquest(700, i(230462)),	-- Astral Gladiator's Leather Boots
+							conquest(700, i(230464)),	-- Astral Gladiator's Leather Gloves
+							conquest(700, i(230465)),	-- Astral Gladiator's Leather Grips
+							conquest(875, i(230466)),	-- Astral Gladiator's Leather Helm
+							conquest(875, i(230461)),	-- Astral Gladiator's Leather Jerkin
+							conquest(875, i(230469)),	-- Astral Gladiator's Leather Legwraps
+							conquest(875, i(230467)),	-- Astral Gladiator's Leather Mask
+							conquest(700, i(230471)),	-- Astral Gladiator's Leather Shoulderpads
+							conquest(700, i(230470)),	-- Astral Gladiator's Leather Spaulders
+							conquest(700, i(230473)),	-- Astral Gladiator's Leather Strap
+							conquest(700, i(230463)),	-- Astral Gladiator's Leather Treads
+							conquest(875, i(230460)),	-- Astral Gladiator's Leather Vest
+							conquest(525, i(230475)),	-- Astral Gladiator's Leather Wristguards
+							conquest(525, i(230474)),	-- Astral Gladiator's Leather Wristwraps
 						}),
 						cl(DRUID, {
-							conquest(525, i(229596)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229597)),	-- Prized Gladiator's Drape
-							conquest(525, i(229598)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229591)),	-- Prized Gladiator's Leather Belt
-							conquest(700, i(229581)),	-- Prized Gladiator's Leather Boots
-							conquest(875, i(229587)),	-- Prized Gladiator's Leather Breeches
-							conquest(700, i(229583)),	-- Prized Gladiator's Leather Gloves
-							conquest(700, i(229584)),	-- Prized Gladiator's Leather Grips
-							conquest(875, i(229585)),	-- Prized Gladiator's Leather Helm
-							conquest(875, i(229588)),	-- Prized Gladiator's Leather Legwraps
-							conquest(875, i(229586)),	-- Prized Gladiator's Leather Mask
-							conquest(700, i(229590)),	-- Prized Gladiator's Leather Shoulderpads
-							conquest(700, i(229589)),	-- Prized Gladiator's Leather Spaulders
-							conquest(700, i(229592)),	-- Prized Gladiator's Leather Strap
-							conquest(700, i(229582)),	-- Prized Gladiator's Leather Treads
-							conquest(875, i(229579)),	-- Prized Gladiator's Leather Vest
-							conquest(875, i(229580)),	-- Prized Gladiator's Leather Vestments
-							conquest(525, i(229595)),	-- Prized Gladiator's Leather Wristguards
-							conquest(525, i(229594)),	-- Prized Gladiator's Leather Wristwraps
+							conquest(525, i(230457)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230458)),	-- Astral Gladiator's Drape
+							conquest(525, i(230459)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230453)),	-- Astral Gladiator's Leather Belt
+							conquest(700, i(230443)),	-- Astral Gladiator's Leather Boots
+							conquest(875, i(230449)),	-- Astral Gladiator's Leather Breeches
+							conquest(700, i(230445)),	-- Astral Gladiator's Leather Gloves
+							conquest(700, i(230446)),	-- Astral Gladiator's Leather Grips
+							conquest(875, i(230447)),	-- Astral Gladiator's Leather Helm
+							conquest(875, i(230450)),	-- Astral Gladiator's Leather Legwraps
+							conquest(875, i(230448)),	-- Astral Gladiator's Leather Mask
+							conquest(700, i(230452)),	-- Astral Gladiator's Leather Shoulderpads
+							conquest(700, i(230451)),	-- Astral Gladiator's Leather Spaulders
+							conquest(700, i(230454)),	-- Astral Gladiator's Leather Strap
+							conquest(700, i(230444)),	-- Astral Gladiator's Leather Treads
+							conquest(875, i(230441)),	-- Astral Gladiator's Leather Vest
+							conquest(875, i(230442)),	-- Astral Gladiator's Leather Vestments
+							conquest(525, i(230455)),	-- Astral Gladiator's Leather Wristwraps
+							conquest(525, i(230456)),	-- Astral Gladiator's Leather Wristguards
 						}),
 						cl(EVOKER, {
-							conquest(525, i(229672)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229673)),	-- Prized Gladiator's Drape
-							conquest(525, i(229674)),	-- Prized Gladiator's Shawl
-							conquest(875, i(229656)),	-- Prized Gladiator's Armored Scales
-							conquest(700, i(229668)),	-- Prized Gladiator's Chain Belt
-							conquest(700, i(229659)),	-- Prized Gladiator's Chain Boots
-							conquest(525, i(229671)),	-- Prized Gladiator's Chain Bracers
-							conquest(875, i(229665)),	-- Prized Gladiator's Chain Breeches
-							conquest(875, i(229663)),	-- Prized Gladiator's Chain Faceguard
-							conquest(700, i(229660)),	-- Prized Gladiator's Chain Gauntlets
-							conquest(700, i(229669)),	-- Prized Gladiator's Chain Girdle
-							conquest(700, i(229661)),	-- Prized Gladiator's Chain Handguards
-							conquest(875, i(229662)),	-- Prized Gladiator's Chain Helm
-							conquest(875, i(229664)),	-- Prized Gladiator's Chain Leggings
-							conquest(700, i(229666)),	-- Prized Gladiator's Chain Monnion
-							conquest(700, i(229658)),	-- Prized Gladiator's Chain Sabatons
-							conquest(700, i(229667)),	-- Prized Gladiator's Chain Shoulderguard
-							conquest(525, i(229670)),	-- Prized Gladiator's Chain Wristguards
-							conquest(875, i(229657)),	-- Prized Gladiator's Scaleguard
+							conquest(525, i(230533)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230534)),	-- Astral Gladiator's Drape
+							conquest(525, i(230535)),	-- Astral Gladiator's Shawl
+							conquest(875, i(230517)),	-- Astral Gladiator's Armored Scales
+							conquest(875, i(230518)),	-- Astral Gladiator's Scaleguard
+							conquest(700, i(230529)),	-- Astral Gladiator's Chain Belt
+							conquest(700, i(230520)),	-- Astral Gladiator's Chain Boots
+							conquest(525, i(230532)),	-- Astral Gladiator's Chain Bracers
+							conquest(875, i(230526)),	-- Astral Gladiator's Chain Breeches
+							conquest(875, i(230524)),	-- Astral Gladiator's Chain Faceguard
+							conquest(700, i(230521)),	-- Astral Gladiator's Chain Gauntlets
+							conquest(700, i(230530)),	-- Astral Gladiator's Chain Girdle
+							conquest(700, i(230522)),	-- Astral Gladiator's Chain Handguards
+							conquest(875, i(230523)),	-- Astral Gladiator's Chain Helm
+							conquest(875, i(230525)),	-- Astral Gladiator's Chain Leggings
+							conquest(700, i(230527)),	-- Astral Gladiator's Chain Monnion
+							conquest(700, i(230519)),	-- Astral Gladiator's Chain Sabatons
+							conquest(700, i(230528)),	-- Astral Gladiator's Chain Shoulderguard
+							conquest(525, i(230531)),	-- Astral Gladiator's Chain Wristguards
 						}),
 						cl(HUNTER, {
-							conquest(525, i(229691)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229692)),	-- Prized Gladiator's Drape
-							conquest(525, i(229693)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229687)),	-- Prized Gladiator's Chain Belt
-							conquest(700, i(229678)),	-- Prized Gladiator's Chain Boots
-							conquest(525, i(229690)),	-- Prized Gladiator's Chain Bracers
-							conquest(875, i(229684)),	-- Prized Gladiator's Chain Breeches
-							conquest(875, i(229682)),	-- Prized Gladiator's Chain Faceguard
-							conquest(700, i(229679)),	-- Prized Gladiator's Chain Gauntlets
-							conquest(700, i(229688)),	-- Prized Gladiator's Chain Girdle
-							conquest(700, i(229680)),	-- Prized Gladiator's Chain Handguards
-							conquest(875, i(229681)),	-- Prized Gladiator's Chain Helm
-							conquest(875, i(229683)),	-- Prized Gladiator's Chain Leggings
-							conquest(700, i(229685)),	-- Prized Gladiator's Chain Monnion
-							conquest(700, i(229677)),	-- Prized Gladiator's Chain Sabatons
-							conquest(700, i(229686)),	-- Prized Gladiator's Chain Shoulderguard
-							conquest(875, i(229676)),	-- Prized Gladiator's Chain Tunic
-							conquest(875, i(229675)),	-- Prized Gladiator's Chain Vest
-							conquest(525, i(229689)),	-- Prized Gladiator's Chain Wristguards
+							conquest(525, i(230553)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230554)),	-- Astral Gladiator's Drape
+							conquest(525, i(230555)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230548)),	-- Astral Gladiator's Chain Belt
+							conquest(700, i(230539)),	-- Astral Gladiator's Chain Boots
+							conquest(525, i(230552)),	-- Astral Gladiator's Chain Bracers
+							conquest(875, i(230545)),	-- Astral Gladiator's Chain Breeches
+							conquest(875, i(230543)),	-- Astral Gladiator's Chain Faceguard
+							conquest(700, i(230540)),	-- Astral Gladiator's Chain Gauntlets
+							conquest(700, i(230550)),	-- Astral Gladiator's Chain Girdle
+							conquest(700, i(230541)),	-- Astral Gladiator's Chain Handguards
+							conquest(875, i(230542)),	-- Astral Gladiator's Chain Helm
+							conquest(875, i(230544)),	-- Astral Gladiator's Chain Leggings
+							conquest(700, i(230546)),	-- Astral Gladiator's Chain Monnion
+							conquest(700, i(230538)),	-- Astral Gladiator's Chain Sabatons
+							conquest(700, i(230547)),	-- Astral Gladiator's Chain Shoulderguard
+							conquest(875, i(230537)),	-- Astral Gladiator's Chain Tunic
+							conquest(875, i(230536)),	-- Astral Gladiator's Chain Vest
+							conquest(525, i(230551)),	-- Astral Gladiator's Chain Wristguards
 						}),
 						cl(MAGE, {
-							conquest(525, i(229538)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229539)),	-- Prized Gladiator's Drape
-							conquest(525, i(229540)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229533)),	-- Prized Gladiator's Silk Amice
-							conquest(525, i(229537)),	-- Prized Gladiator's Silk Armbands
-							conquest(700, i(229535)),	-- Prized Gladiator's Silk Belt
-							conquest(875, i(229529)),	-- Prized Gladiator's Silk Cap
-							conquest(700, i(229534)),	-- Prized Gladiator's Silk Cord
-							conquest(700, i(229526)),	-- Prized Gladiator's Silk Gloves
-							conquest(875, i(229523)),	-- Prized Gladiator's Silk Gown
-							conquest(700, i(229527)),	-- Prized Gladiator's Silk Handwraps
-							conquest(875, i(229528)),	-- Prized Gladiator's Silk Hat
-							conquest(875, i(229530)),	-- Prized Gladiator's Silk Leggings
-							conquest(700, i(229532)),	-- Prized Gladiator's Silk Mantle
-							conquest(875, i(229522)),	-- Prized Gladiator's Silk Robe
-							conquest(700, i(229524)),	-- Prized Gladiator's Silk Slippers
-							conquest(700, i(229525)),	-- Prized Gladiator's Silk Treads
-							conquest(875, i(229531)),	-- Prized Gladiator's Silk Trousers
-							conquest(525, i(229536)),	-- Prized Gladiator's Silk Wristwraps
+							conquest(525, i(230399)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230400)),	-- Astral Gladiator's Drape
+							conquest(525, i(230401)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230394)),	-- Astral Gladiator's Silk Amice
+							conquest(525, i(230398)),	-- Astral Gladiator's Silk Armbands
+							conquest(700, i(230396)),	-- Astral Gladiator's Silk Belt
+							conquest(875, i(230390)),	-- Astral Gladiator's Silk Cap
+							conquest(700, i(230395)),	-- Astral Gladiator's Silk Cord
+							conquest(700, i(230387)),	-- Astral Gladiator's Silk Gloves
+							conquest(875, i(230384)),	-- Astral Gladiator's Silk Gown
+							conquest(700, i(230388)),	-- Astral Gladiator's Silk Handwraps
+							conquest(875, i(230389)),	-- Astral Gladiator's Silk Hat
+							conquest(875, i(230391)),	-- Astral Gladiator's Silk Leggings
+							conquest(700, i(230393)),	-- Astral Gladiator's Silk Mantle
+							conquest(875, i(230383)),	-- Astral Gladiator's Silk Robe
+							conquest(700, i(230385)),	-- Astral Gladiator's Silk Slippers
+							conquest(700, i(230386)),	-- Astral Gladiator's Silk Treads
+							conquest(875, i(230392)),	-- Astral Gladiator's Silk Trousers
+							conquest(525, i(230397)),	-- Astral Gladiator's Silk Wristwraps
 						}),
 						cl(MONK, {
-							conquest(525, i(229634)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229635)),	-- Prized Gladiator's Drape
-							conquest(525, i(229636)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229630)),	-- Prized Gladiator's Leather Belt
-							conquest(700, i(229620)),	-- Prized Gladiator's Leather Boots
-							conquest(875, i(229626)),	-- Prized Gladiator's Leather Breeches
-							conquest(700, i(229622)),	-- Prized Gladiator's Leather Gloves
-							conquest(700, i(229623)),	-- Prized Gladiator's Leather Grips
-							conquest(875, i(229624)),	-- Prized Gladiator's Leather Helm
-							conquest(875, i(229627)),	-- Prized Gladiator's Leather Legwraps
-							conquest(875, i(229625)),	-- Prized Gladiator's Leather Mask
-							conquest(700, i(229629)),	-- Prized Gladiator's Leather Shoulderpads
-							conquest(700, i(229628)),	-- Prized Gladiator's Leather Spaulders
-							conquest(700, i(229631)),	-- Prized Gladiator's Leather Strap
-							conquest(700, i(229621)),	-- Prized Gladiator's Leather Treads
-							conquest(875, i(229618)),	-- Prized Gladiator's Leather Vest
-							conquest(875, i(229619)),	-- Prized Gladiator's Leather Jerkin
-							conquest(525, i(229633)),	-- Prized Gladiator's Leather Wristguards
-							conquest(525, i(229632)),	-- Prized Gladiator's Leather Wristwraps
+							conquest(525, i(230495)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230496)),	-- Astral Gladiator's Drape
+							conquest(525, i(230497)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230491)),	-- Astral Gladiator's Leather Belt
+							conquest(700, i(230481)),	-- Astral Gladiator's Leather Boots
+							conquest(875, i(230487)),	-- Astral Gladiator's Leather Breeches
+							conquest(700, i(230483)),	-- Astral Gladiator's Leather Gloves
+							conquest(700, i(230484)),	-- Astral Gladiator's Leather Grips
+							conquest(875, i(230485)),	-- Astral Gladiator's Leather Helm
+							conquest(875, i(230480)),	-- Astral Gladiator's Leather Jerkin
+							conquest(875, i(230488)),	-- Astral Gladiator's Leather Legwraps
+							conquest(875, i(230486)),	-- Astral Gladiator's Leather Mask
+							conquest(700, i(230490)),	-- Astral Gladiator's Leather Shoulderpads
+							conquest(700, i(230489)),	-- Astral Gladiator's Leather Spaulders
+							conquest(700, i(230492)),	-- Astral Gladiator's Leather Strap
+							conquest(700, i(230482)),	-- Astral Gladiator's Leather Treads
+							conquest(875, i(230479)),	-- Astral Gladiator's Leather Vest
+							conquest(525, i(230494)),	-- Astral Gladiator's Leather Wristguards
+							conquest(525, i(230493)),	-- Astral Gladiator's Leather Wristwraps
 						}),
 						cl(PALADIN, {
-							conquest(525, i(229751)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229752)),	-- Prized Gladiator's Drape
-							conquest(525, i(229753)),	-- Prized Gladiator's Shawl
-							conquest(875, i(229734)),	-- Prized Gladiator's Chestguard
-							conquest(875, i(229735)),	-- Prized Gladiator's Chestplate
-							conquest(700, i(229738)),	-- Prized Gladiator's Plate Gauntlets
-							conquest(700, i(229746)),	-- Prized Gladiator's Plate Girdle
-							conquest(700, i(229747)),	-- Prized Gladiator's Plate Greatbelt
-							conquest(700, i(229739)),	-- Prized Gladiator's Plate Handguards
-							conquest(875, i(229740)),	-- Prized Gladiator's Plate Helm
-							conquest(875, i(229741)),	-- Prized Gladiator's Plate Helmet
-							conquest(875, i(229742)),	-- Prized Gladiator's Plate Legguards
-							conquest(700, i(229745)),	-- Prized Gladiator's Plate Pauldrons
-							conquest(700, i(229744)),	-- Prized Gladiator's Plate Shoulders
-							conquest(700, i(229737)),	-- Prized Gladiator's Plate Stompers
-							conquest(875, i(229743)),	-- Prized Gladiator's Plate Tasses
-							conquest(525, i(229750)),	-- Prized Gladiator's Plate Vambraces
-							conquest(700, i(229736)),	-- Prized Gladiator's Plate Warboots
-							conquest(525, i(229748)),	-- Prized Gladiator's Plate Wristguards
+							conquest(525, i(230610)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230611)),	-- Astral Gladiator's Drape
+							conquest(525, i(230612)),	-- Astral Gladiator's Shawl
+							conquest(875, i(230594)),	-- Astral Gladiator's Chestguard
+							conquest(875, i(230595)),	-- Astral Gladiator's Chestplate
+							conquest(700, i(230598)),	-- Astral Gladiator's Plate Gauntlets
+							conquest(700, i(230606)),	-- Astral Gladiator's Plate Girdle
+							conquest(700, i(230607)),	-- Astral Gladiator's Plate Greatbelt
+							conquest(700, i(230599)),	-- Astral Gladiator's Plate Handguards
+							conquest(875, i(230600)),	-- Astral Gladiator's Plate Helm
+							conquest(875, i(230601)),	-- Astral Gladiator's Plate Helmet
+							conquest(875, i(230602)),	-- Astral Gladiator's Plate Legguards
+							conquest(700, i(230604)),	-- Astral Gladiator's Plate Shoulders
+							conquest(700, i(230605)),	-- Astral Gladiator's Plate Pauldrons
+							conquest(700, i(230597)),	-- Astral Gladiator's Plate Stompers
+							conquest(875, i(230603)),	-- Astral Gladiator's Plate Tasses
+							conquest(525, i(230609)),	-- Astral Gladiator's Plate Vambraces
+							conquest(700, i(230596)),	-- Astral Gladiator's Plate Warboots
+							conquest(525, i(230608)),	-- Astral Gladiator's Plate Wristguards
 						}),
 						cl(PRIEST, {
-							conquest(525, i(229557)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229558)),	-- Prized Gladiator's Drape
-							conquest(525, i(229559)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229552)),	-- Prized Gladiator's Silk Amice
-							conquest(525, i(229556)),	-- Prized Gladiator's Silk Armbands
-							conquest(700, i(229554)),	-- Prized Gladiator's Silk Belt
-							conquest(875, i(229541)),	-- Prized Gladiator's Silk Chestwrap
-							conquest(700, i(229553)),	-- Prized Gladiator's Silk Cord
-							conquest(700, i(229545)),	-- Prized Gladiator's Silk Gloves
-							conquest(875, i(229548)),	-- Prized Gladiator's Silk Guise
-							conquest(700, i(229546)),	-- Prized Gladiator's Silk Handwraps
-							conquest(875, i(229547)),	-- Prized Gladiator's Silk Hood
-							conquest(875, i(229549)),	-- Prized Gladiator's Silk Leggings
-							conquest(700, i(229551)),	-- Prized Gladiator's Silk Mantle
-							conquest(700, i(229543)),	-- Prized Gladiator's Silk Slippers
-							conquest(700, i(229544)),	-- Prized Gladiator's Silk Treads
-							conquest(875, i(229550)),	-- Prized Gladiator's Silk Trousers
-							conquest(875, i(229542)),	-- Prized Gladiator's Silk Vest
-							conquest(525, i(229555)),	-- Prized Gladiator's Silk Wristwraps
+							conquest(525, i(230418)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230419)),	-- Astral Gladiator's Drape
+							conquest(525, i(230420)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230413)),	-- Astral Gladiator's Silk Amice
+							conquest(525, i(230417)),	-- Astral Gladiator's Silk Armbands
+							conquest(700, i(230415)),	-- Astral Gladiator's Silk Belt
+							conquest(700, i(230414)),	-- Astral Gladiator's Silk Cord
+							conquest(700, i(230406)),	-- Astral Gladiator's Silk Gloves
+							conquest(875, i(230409)),	-- Astral Gladiator's Silk Guise
+							conquest(700, i(230407)),	-- Astral Gladiator's Silk Handwraps
+							conquest(875, i(230408)),	-- Astral Gladiator's Silk Hood
+							conquest(875, i(230410)),	-- Astral Gladiator's Silk Leggings
+							conquest(700, i(230412)),	-- Astral Gladiator's Silk Mantle
+							conquest(875, i(230402)),	-- Astral Gladiator's Silk Robes
+							conquest(700, i(230404)),	-- Astral Gladiator's Silk Slippers
+							conquest(700, i(230405)),	-- Astral Gladiator's Silk Treads
+							conquest(875, i(230411)),	-- Astral Gladiator's Silk Trousers
+							conquest(875, i(230403)),	-- Astral Gladiator's Silk Vestments
+							conquest(525, i(230416)),	-- Astral Gladiator's Silk Wristwraps
 						}),
 						cl(ROGUE, {
-							conquest(525, i(229653)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229654)),	-- Prized Gladiator's Drape
-							conquest(525, i(229655)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229649)),	-- Prized Gladiator's Leather Belt
-							conquest(700, i(229639)),	-- Prized Gladiator's Leather Boots
-							conquest(875, i(229645)),	-- Prized Gladiator's Leather Breeches
-							conquest(700, i(229641)),	-- Prized Gladiator's Leather Gloves
-							conquest(700, i(229642)),	-- Prized Gladiator's Leather Grips
-							conquest(875, i(229643)),	-- Prized Gladiator's Leather Helm
-							conquest(875, i(229646)),	-- Prized Gladiator's Leather Legwraps
-							conquest(875, i(229644)),	-- Prized Gladiator's Leather Mask
-							conquest(700, i(229648)),	-- Prized Gladiator's Leather Shoulderpads
-							conquest(700, i(229647)),	-- Prized Gladiator's Leather Spaulders
-							conquest(700, i(229650)),	-- Prized Gladiator's Leather Strap
-							conquest(700, i(229640)),	-- Prized Gladiator's Leather Treads
-							conquest(875, i(229637)),	-- Prized Gladiator's Leather Vest
-							conquest(875, i(229638)),	-- Prized Gladiator's Leather Jerkin
-							conquest(525, i(229652)),	-- Prized Gladiator's Leather Wristguards
-							conquest(525, i(229651)),	-- Prized Gladiator's Leather Wristwraps
+							conquest(525, i(230514)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230515)),	-- Astral Gladiator's Drape
+							conquest(525, i(230516)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230510)),	-- Astral Gladiator's Leather Belt
+							conquest(700, i(230500)),	-- Astral Gladiator's Leather Boots
+							conquest(875, i(230506)),	-- Astral Gladiator's Leather Breeches
+							conquest(700, i(230502)),	-- Astral Gladiator's Leather Gloves
+							conquest(700, i(230503)),	-- Astral Gladiator's Leather Grips
+							conquest(875, i(230504)),	-- Astral Gladiator's Leather Helm
+							conquest(875, i(230499)),	-- Astral Gladiator's Leather Jerkin
+							conquest(875, i(230507)),	-- Astral Gladiator's Leather Legwraps
+							conquest(875, i(230505)),	-- Astral Gladiator's Leather Mask
+							conquest(700, i(230509)),	-- Astral Gladiator's Leather Shoulderpads
+							conquest(700, i(230508)),	-- Astral Gladiator's Leather Spaulders
+							conquest(700, i(230511)),	-- Astral Gladiator's Leather Strap
+							conquest(700, i(230501)),	-- Astral Gladiator's Leather Treads
+							conquest(875, i(230498)),	-- Astral Gladiator's Leather Vest
+							conquest(525, i(230513)),	-- Astral Gladiator's Leather Wristguards
+							conquest(525, i(230512)),	-- Astral Gladiator's Leather Wristwraps
 						}),
 						cl(SHAMAN, {
-							conquest(525, i(229710)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229711)),	-- Prized Gladiator's Drape
-							conquest(525, i(229712)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229706)),	-- Prized Gladiator's Chain Belt
-							conquest(700, i(229697)),	-- Prized Gladiator's Chain Boots
-							conquest(525, i(229709)),	-- Prized Gladiator's Chain Bracers
-							conquest(875, i(229703)),	-- Prized Gladiator's Chain Breeches
-							conquest(875, i(229701)),	-- Prized Gladiator's Chain Faceguard
-							conquest(700, i(229698)),	-- Prized Gladiator's Chain Gauntlets
-							conquest(700, i(229707)),	-- Prized Gladiator's Chain Girdle
-							conquest(700, i(229699)),	-- Prized Gladiator's Chain Handguards
-							conquest(875, i(229700)),	-- Prized Gladiator's Chain Helm
-							conquest(875, i(229702)),	-- Prized Gladiator's Chain Leggings
-							conquest(700, i(229704)),	-- Prized Gladiator's Chain Monnion
-							conquest(700, i(229696)),	-- Prized Gladiator's Chain Sabatons
-							conquest(700, i(229705)),	-- Prized Gladiator's Chain Shoulderguard
-							conquest(875, i(229695)),	-- Prized Gladiator's Chain Tunic
-							conquest(875, i(229694)),	-- Prized Gladiator's Chain Vest
-							conquest(525, i(229708)),	-- Prized Gladiator's Chain Wristguards
+							conquest(525, i(230572)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230573)),	-- Astral Gladiator's Drape
+							conquest(525, i(230574)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230568)),	-- Astral Gladiator's Chain Belt
+							conquest(700, i(230559)),	-- Astral Gladiator's Chain Boots
+							conquest(525, i(230571)),	-- Astral Gladiator's Chain Bracers
+							conquest(875, i(230565)),	-- Astral Gladiator's Chain Breeches
+							conquest(875, i(230563)),	-- Astral Gladiator's Chain Faceguard
+							conquest(700, i(230560)),	-- Astral Gladiator's Chain Gauntlets
+							conquest(700, i(230569)),	-- Astral Gladiator's Chain Girdle
+							conquest(700, i(230561)),	-- Astral Gladiator's Chain Handguards
+							conquest(875, i(230562)),	-- Astral Gladiator's Chain Helm
+							conquest(875, i(230564)),	-- Astral Gladiator's Chain Leggings
+							conquest(700, i(230566)),	-- Astral Gladiator's Chain Monnion
+							conquest(700, i(230558)),	-- Astral Gladiator's Chain Sabatons
+							conquest(700, i(230567)),	-- Astral Gladiator's Chain Shoulderguard
+							conquest(875, i(230557)),	-- Astral Gladiator's Chain Tunic
+							conquest(875, i(230556)),	-- Astral Gladiator's Chain Vest
+							conquest(525, i(230570)),	-- Astral Gladiator's Chain Wristguards
 						}),
 						cl(WARLOCK, {
-							conquest(525, i(229576)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229577)),	-- Prized Gladiator's Drape
-							conquest(525, i(229578)),	-- Prized Gladiator's Shawl
-							conquest(700, i(229571)),	-- Prized Gladiator's Silk Amice
-							conquest(525, i(229575)),	-- Prized Gladiator's Silk Armbands
-							conquest(700, i(229573)),	-- Prized Gladiator's Silk Belt
-							conquest(700, i(229572)),	-- Prized Gladiator's Silk Cord
-							conquest(700, i(229564)),	-- Prized Gladiator's Silk Gloves
-							conquest(875, i(229567)),	-- Prized Gladiator's Silk Guise
-							conquest(700, i(229565)),	-- Prized Gladiator's Silk Handwraps
-							conquest(875, i(229566)),	-- Prized Gladiator's Silk Hood
-							conquest(875, i(229568)),	-- Prized Gladiator's Silk Leggings
-							conquest(700, i(229570)),	-- Prized Gladiator's Silk Mantle
-							conquest(875, i(229560)),	-- Prized Gladiator's Silk Raiment
-							conquest(700, i(229562)),	-- Prized Gladiator's Silk Slippers
-							conquest(700, i(229563)),	-- Prized Gladiator's Silk Treads
-							conquest(875, i(229569)),	-- Prized Gladiator's Silk Trousers
-							conquest(875, i(229561)),	-- Prized Gladiator's Silk Vestments
-							conquest(525, i(229574)),	-- Prized Gladiator's Silk Wristwraps
+							conquest(525, i(230438)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230439)),	-- Astral Gladiator's Drape
+							conquest(525, i(230440)),	-- Astral Gladiator's Shawl
+							conquest(700, i(230433)),	-- Astral Gladiator's Silk Amice
+							conquest(525, i(230437)),	-- Astral Gladiator's Silk Armbands
+							conquest(700, i(230435)),	-- Astral Gladiator's Silk Belt
+							conquest(700, i(230434)),	-- Astral Gladiator's Silk Cord
+							conquest(700, i(230426)),	-- Astral Gladiator's Silk Gloves
+							conquest(875, i(230429)),	-- Astral Gladiator's Silk Guise
+							conquest(700, i(230427)),	-- Astral Gladiator's Silk Handwraps
+							conquest(875, i(230428)),	-- Astral Gladiator's Silk Hood
+							conquest(875, i(230430)),	-- Astral Gladiator's Silk Leggings
+							conquest(700, i(230432)),	-- Astral Gladiator's Silk Mantle
+							conquest(875, i(230421)),	-- Astral Gladiator's Silk Raiment
+							conquest(700, i(230423)),	-- Astral Gladiator's Silk Slippers
+							conquest(700, i(230424)),	-- Astral Gladiator's Silk Treads
+							conquest(875, i(230431)),	-- Astral Gladiator's Silk Trousers
+							conquest(875, i(230422)),	-- Astral Gladiator's Silk Vestments
+							conquest(525, i(230436)),	-- Astral Gladiator's Silk Wristwraps
 						}),
 						cl(WARRIOR, {
-							conquest(525, i(229771)),	-- Prized Gladiator's Cloak
-							conquest(525, i(229772)),	-- Prized Gladiator's Drape
-							conquest(525, i(229773)),	-- Prized Gladiator's Shawl
-							conquest(875, i(229754)),	-- Prized Gladiator's Chestguard
-							conquest(875, i(229755)),	-- Prized Gladiator's Chestplate
-							conquest(700, i(229758)),	-- Prized Gladiator's Plate Gauntlets
-							conquest(700, i(229767)),	-- Prized Gladiator's Plate Girdle
-							conquest(700, i(229768)),	-- Prized Gladiator's Plate Greatbelt
-							conquest(700, i(229759)),	-- Prized Gladiator's Plate Handguards
-							conquest(875, i(229760)),	-- Prized Gladiator's Plate Helm
-							conquest(875, i(229761)),	-- Prized Gladiator's Plate Helmet
-							conquest(875, i(229762)),	-- Prized Gladiator's Plate Legguards
-							conquest(700, i(229766)),	-- Prized Gladiator's Plate Pauldrons
-							conquest(700, i(229765)),	-- Prized Gladiator's Plate Shoulders
-							conquest(700, i(229757)),	-- Prized Gladiator's Plate Stompers
-							conquest(525, i(229770)),	-- Prized Gladiator's Plate Vambraces
-							conquest(700, i(229756)),	-- Prized Gladiator's Plate Warboots
-							conquest(875, i(229763)),	-- Prized Gladiator's Plate Wargreaves
-							conquest(525, i(229769)),	-- Prized Gladiator's Plate Wristguards
+							conquest(525, i(230629)),	-- Astral Gladiator's Cloak
+							conquest(525, i(230630)),	-- Astral Gladiator's Drape
+							conquest(525, i(230631)),	-- Astral Gladiator's Shawl
+							conquest(875, i(230613)),	-- Astral Gladiator's Chestguard
+							conquest(875, i(230614)),	-- Astral Gladiator's Chestplate
+							conquest(700, i(230617)),	-- Astral Gladiator's Plate Gauntlets
+							conquest(700, i(230625)),	-- Astral Gladiator's Plate Girdle
+							conquest(700, i(230626)),	-- Astral Gladiator's Plate Greatbelt
+							conquest(700, i(230618)),	-- Astral Gladiator's Plate Handguards
+							conquest(875, i(230619)),	-- Astral Gladiator's Plate Helm
+							conquest(875, i(230620)),	-- Astral Gladiator's Plate Helmet
+							conquest(875, i(230621)),	-- Astral Gladiator's Plate Legguards
+							conquest(700, i(230624)),	-- Astral Gladiator's Plate Pauldrons
+							conquest(700, i(230623)),	-- Astral Gladiator's Plate Shoulders
+							conquest(700, i(230616)),	-- Astral Gladiator's Plate Stompers
+							conquest(525, i(230628)),	-- Astral Gladiator's Plate Vambraces
+							conquest(700, i(230615)),	-- Astral Gladiator's Plate Warboots
+							conquest(875, i(230622)),	-- Astral Gladiator's Plate Wargreaves
+							conquest(525, i(230627)),	-- Astral Gladiator's Plate Wristguards
 						}),
 					}),
 					filter(FINGER_F, {
-						conquest(525, i(229775)),	-- Prized Gladiator's Band
-						conquest(525, i(229774)),	-- Prized Gladiator's Ring
-						conquest(525, i(229776)),	-- Prized Gladiator's Signet
-					}),
-					filter(MISC, {
-						conquest(700, i(236938)),	-- Conqueror's Prized Lacquer
-						conquest(875, i(236936)),	-- Conqueror's Prized Varnish
+						conquest(525, i(230633)),	-- Astral Gladiator's Band
+						conquest(525, i(230632)),	-- Astral Gladiator's Ring
+						conquest(525, i(230634)),	-- Astral Gladiator's Signet
 					}),
 					filter(NECK_F, {
-						conquest(525, i(229779)),	-- Prized Gladiator's Amulet
-						conquest(525, i(229777)),	-- Prized Gladiator's Necklace
-						conquest(525, i(229778)),	-- Prized Gladiator's Pendant
+						conquest(525, i(230637)),	-- Astral Gladiator's Amulet
+						conquest(525, i(230635)),	-- Astral Gladiator's Necklace
+						conquest(525, i(230636)),	-- Astral Gladiator's Pendant
 					}),
 					filter(TRINKET_F, {
-						conquest(700, i(229780)),	-- Prized Gladiator's Badge of Ferocity
-						conquest(700, i(229782)),	-- Prized Gladiator's Emblem
-						conquest(700, i(229781)),	-- Prized Gladiator's Insignia of Alacrity
-						conquest(525, i(229783)),	-- Prized Gladiator's Medallion
-						conquest(525, i(229784)),	-- Prized Gladiator's Sigil of Adaptation
+						conquest(700, i(230638)),	-- Astral Gladiator's Badge of Ferocity
+						conquest(700, i(230640)),	-- Astral Gladiator's Emblem
+						conquest(700, i(230639)),	-- Astral Gladiator's Insignia of Alacrity
+						conquest(525, i(230641)),	-- Astral Gladiator's Medallion
+						conquest(525, i(230642)),	-- Astral Gladiator's Sigil of Adaptation
 					}),
 					n(WEAPONS, {
-						conquest(525, i(229792)),	-- Prized Gladiator's Army Knife
-						conquest(1750, i(229797)),	-- Prized Gladiator's Blaster
-						conquest(1225, i(229791)),	-- Prized Gladiator's Bludgeon
-						conquest(1750, i(229790)),	-- Prized Gladiator's Bow
-						conquest(525, i(229799)),	-- Prized Gladiator's Bulwark
-						conquest(525, i(232620)),	-- Prized Gladiator's Conduit
-						conquest(875, i(229786)),	-- Prized Gladiator's Dagger
-						conquest(875, i(229796)),	-- Prized Gladiator's Detonator
-						conquest(1750, i(229788)),	-- Prized Gladiator's Drill
-						conquest(875, i(229794)),	-- Prized Gladiator's Flail
-						conquest(525, i(229793)),	-- Prized Gladiator's Gasket
-						conquest(1750, i(229800)),	-- Prized Gladiator's Greatsaw
-						conquest(1750, i(229798)),	-- Prized Gladiator's Greatstaff
-						conquest(875, i(229785)),	-- Prized Gladiator's Last Resort
-						conquest(1225, i(229795)),	-- Prized Gladiator's Pincer
-						conquest(1750, i(229801)),	-- Prized Gladiator's Pulverizer
-						conquest(1750, i(229804)),	-- Prized Gladiator's Pylon
-						conquest(900, i(229803)),	-- Prized Gladiator's Skewer
-						conquest(1750, i(229789)),	-- Prized Gladiator's Staff
-						conquest(900, i(229802)),	-- Prized Gladiator's Torchblade
-						conquest(875, i(229787)),	-- Prized Gladiator's Warglaive
+						conquest(1750, i(230658)),	-- Astral Gladiator's Greatsword
+						conquest(1750, i(230648)),	-- Astral Gladiator's Bow
+						conquest(1750, i(230655)),	-- Astral Gladiator's Crossbow
+						conquest(1750, i(230659)),	-- Astral Gladiator's Pulverizer
+						conquest(1750, i(230646)),	-- Astral Gladiator's Spear
+						conquest(1750, i(230662)),	-- Astral Gladiator's Battlestaff
+						conquest(1750, i(230647)),	-- Astral Gladiator's Staff
+						conquest(1750, i(230656)),	-- Astral Gladiator's Greatstaff
+						conquest(875, i(230643)),	-- Astral Gladiator's Splitter
+						conquest(875, i(230652)),	-- Astral Gladiator's Axe
+						conquest(875, i(230644)),	-- Astral Gladiator's Dagger
+						conquest(1225, i(230653)),	-- Astral Gladiator's Cinquedea
+						conquest(875, i(230654)),	-- Astral Gladiator's Claws
+						conquest(1225, i(248341)),	-- Astral Gladiator's Mace
+						conquest(1225, i(230649)),	-- Astral Gladiator's Scepter
+						conquest(875, i(230661)),	-- Astral Gladiator's Skewer
+						conquest(875, i(230660)),	-- Astral Gladiator's Sword
+						conquest(875, i(230645)),	-- Astral Gladiator's Warglaive
+						conquest(525, i(248340)),	-- Astral Gladiator's Focus
+						conquest(525, i(230650)),	-- Astral Gladiator's Censer
+						conquest(525, i(230651)),	-- Astral Gladiator's Shield
+						conquest(525, i(230657)),	-- Astral Gladiator's Bulwark
 					}),
-					i(230721, {	-- Prized Equipment Chest
-						["timeline"] = { ADDED_11_1_5 },
-					}),
+					--i(230722, {	-- Astral Equipment Chest
+					--	["timeline"] = { ADDED_11_2_5 },
+					--}),
 				},
 			}),
 		})),
-		]]--
 		n(PVP_ELITE, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 }, ["bonusID"] = 7532 }, {
 			--[[
 			n(CLASSES, {
@@ -749,23 +744,24 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 					honor(100, i(232908, {	-- Astral Gladiator's Tabard
 						["sourceAchievements"] = { 41027 },	-- Elite: The War Within Season 3
 					})),
-					--moh(5, i(230784)),	-- Prized Gladiator's Army Knife
-					--moh(10, i(230776)),	-- Prized Gladiator's Blaster
-					--moh(5, i(230774)),	-- Prized Gladiator's Bludgeon
-					--moh(10, i(230788)),	-- Prized Gladiator's Bow
-					--moh(5, i(230785)),	-- Prized Gladiator's Conduit
-					--moh(10, i(230782)),	-- Prized Gladiator's Dagger
-					--moh(5, i(230787)),	-- Prized Gladiator's Detonator
-					--moh(10, i(230778)),	-- Prized Gladiator's Drill
-					--moh(5, i(230783)),	-- Prized Gladiator's Flail
-					--moh(5, i(230786)),	-- Prized Gladiator's Gasket
-					--moh(10, i(230789)),	-- Prized Gladiator's Greatsaw
-					--moh(5, i(230775)),	-- Prized Gladiator's Pincer
-					--moh(10, i(230790)),	-- Prized Gladiator's Pulverizer
-					--moh(10, i(230781)),	-- Prized Gladiator's Pylon
-					--moh(10, i(230779)),	-- Prized Gladiator's Staff
-					--moh(10, i(230780)),	-- Prized Gladiator's Torchblade
-					--moh(5, i(230777)),	-- Prized Gladiator's Warglaive
+					moh(5, i(248364)),	-- Astral Gladiator's Axe
+					moh(10, i(248349)),	-- Astral Gladiator's Battlestaff
+					moh(10, i(248356)),	-- Astral Gladiator's Bow
+					moh(5, i(248367)),	-- Astral Gladiator's Censer
+					moh(5, i(248365)),	-- Astral Gladiator's Cinquedea
+					moh(5, i(248355)),	-- Astral Gladiator's Claws
+					moh(10, i(248350)),	-- Astral Gladiator's Crossbow
+					moh(5, i(248343)),	-- Astral Gladiator's Dagger
+					moh(5, i(248352)),	-- Astral Gladiator's Focus
+					moh(10, i(248348)),	-- Astral Gladiator's Greatsword
+					moh(5, i(248366)),	-- Astral Gladiator's Mace
+					moh(10, i(248358)),	-- Astral Gladiator's Pulverizer
+					moh(5, i(248351)),	-- Astral Gladiator's Scepter
+					moh(5, i(248353)),	-- Astral Gladiator's Shield
+					moh(10, i(248346)),	-- Astral Gladiator's Spear
+					moh(10, i(248347)),	-- Astral Gladiator's Staff
+					moh(5, i(248359)),	-- Astral Gladiator's Sword
+					moh(5, i(248345)),	-- Astral Gladiator's Warglaive
 				},
 			}),
 		})),

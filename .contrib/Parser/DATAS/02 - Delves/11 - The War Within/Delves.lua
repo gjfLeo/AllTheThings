@@ -2148,7 +2148,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(233062),	-- Pocket Pizza
 				i(233061),	-- Rock-in-a-Bottle
 				i(233186, {	-- Wave Scrambler 2000
-					["timeline"] = { ADDED_11_1_0_SEASONSTART },
+					["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0_SEASONSTART },
 				}),
 				-- No new objectID atm
 				i(248764, {	-- Artisanal Blink Trap

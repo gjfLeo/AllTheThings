@@ -1545,7 +1545,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(87294),	--
 			q(87415),	--
 			q(88672),	--
-			q(90954),	--
+			--q(90954),	--	TODO: Alex - ach(42742) Power of the Reshii / Regalia of the Reshii upgrade, should probably be automated in future?
 			q(91044),	--
 			q(91454),	--
 			n(REWARDS, {
