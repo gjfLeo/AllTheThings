@@ -5618,7 +5618,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		-- 11.1.5
 		expansion(EXPANSION.TWW, patch(1,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_5 } }, {
 			n(SPECIAL, {	-- Duos
-				-- Hellfire Ramprats
+				-- Hellfire Ramparts
 				i(238934),	-- Boots of the Darkwalker
 			}),
 		})),

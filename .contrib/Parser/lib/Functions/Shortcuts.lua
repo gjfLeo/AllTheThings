@@ -849,23 +849,23 @@ category = function(id, t)								-- Create a CATEGORY Object.
 	return struct("categoryID", id, t);
 end
 cat = category
-cl = function(id, specc, t)								-- Create a CHARACTER CLASS Object
-	-- specc is optional
+cl = function(id, spec, t)								-- Create a CHARACTER CLASS Object
+	-- spec is optional
 	if not t then
-		t = specc;
+		t = spec;
 	else
-		if specc == FROST or specc == RESTORATION or specc == HOLY or specc == PROTECTION then
+		if spec == FROST or spec == RESTORATION or spec == HOLY or spec == PROTECTION then
 			if id == MAGE then
-				specc = 64;
+				spec = 64;
 			elseif id == SHAMAN then
-				specc = 264;
+				spec = 264;
 			elseif id == PRIEST then
-				specc = 257
+				spec = 257
 			elseif id == WARRIOR then
-				specc = 73;
+				spec = 73;
 			end
 		end
-		id = id + (specc / 1000)
+		id = id + (spec / 1000)
 		t = togroups(t)
 	end;
 	return struct("classID", id, t);

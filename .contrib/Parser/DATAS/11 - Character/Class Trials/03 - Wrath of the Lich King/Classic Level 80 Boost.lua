@@ -1,6 +1,11 @@
+-------------------------------------------
+--    C H A R A C T E R   M O D U L E    --
+-------------------------------------------
+
 -- #if ANYCLASSIC
+-- Wouter NOTE: level 80 boosts became available in Classic shortly after the launch of Icecrown Citadel, with the Blazing Heroic Pack for Cata
 root(ROOTS.Character, n(CLASS_TRIAL, {
-	expansion(EXPANSION.WRATH, bubbleDown({["u"] = REMOVED_FROM_GAME}, {
+	expansion(EXPANSION.WRATH, bubbleDown({ ["u"] = REAL_MONEY, ["timeline"] = { ADDED_3_4_2, REMOVED_4_4_2 } }, {
 		["groups"] = {
 			cl(DRUID, {
 				i(73012),	-- Wildsoul Spear
