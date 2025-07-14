@@ -170,6 +170,7 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 		if questObject then
 			RefreshQuestIDs[questID] = nil
 			app.DirectGroupRefresh(questObject, true)
+			app.CallbackHandlers.Callback(app.ReshowGametooltip)
 		end
 
 		-- see if this Quest is awaiting a callback, call it with the questID and success from the server

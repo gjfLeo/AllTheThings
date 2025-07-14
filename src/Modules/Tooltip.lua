@@ -722,6 +722,7 @@ local function ReshowGametooltip()
 		GameTooltip:Show()
 	end
 end
+app.ReshowGametooltip = ReshowGametooltip
 app.AddEventHandler("OnRefreshComplete", function()
 	Callback(ReshowGametooltip)
 end);

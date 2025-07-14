@@ -1154,6 +1154,7 @@ local SourceLocationSettingsKey = setmetatable({
 });
 local UnobtainableTexture = " |T"..L.UNOBTAINABLE_ITEM_TEXTURES[1]..":0|t"
 local NotCurrentCharacterTexture = " |T"..L.UNOBTAINABLE_ITEM_TEXTURES[0]..":0|t"
+local RETRIEVING_DATA = RETRIEVING_DATA
 local SummarizeShowForActiveRowKeys
 local function AddContainsData(group, tooltipInfo)
 	local key = group.key
@@ -1184,8 +1185,18 @@ local function AddContainsData(group, tooltipInfo)
 			if not entry.objectiveID then
 				left = entry.text;
 				if not left or IsRetrieving(left) then
-					left = RETRIEVING_DATA;
-					working = true;
+					left = RETRIEVING_DATA
+
+					if not working then
+						local AsyncRefreshFunc = entry.AsyncRefreshFunc
+						if AsyncRefreshFunc then
+							AsyncRefreshFunc(entry)
+						else
+							-- app.PrintDebug("No Async Refresh Func for TT Type!",entry.__type)
+							Callback(app.ReshowGametooltip)
+						end
+					end
+					working = true
 				end
 				left = TryColorizeName(entry, left);
 				-- app.PrintDebug("Entry#",i,app:SearchLink(entry),app.GenerateSourcePathForTooltip(entry))
@@ -1497,7 +1508,7 @@ local function GetSearchResults(method, paramA, paramB, options)
 	else
 		group, a, b = method(paramA, paramB)
 	end
-	-- app.PrintDebug("GetSearchResults:method",group and #group,a,b)
+	-- app.PrintDebug("GetSearchResults:method",group and #group,a,b,paramA,paramB)
 	if group then
 		if a then paramA = a; end
 		if b then paramB = b; end
