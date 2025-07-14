@@ -722,7 +722,9 @@ local function ReshowGametooltip()
 		GameTooltip:Show()
 	end
 end
-app.ReshowGametooltip = ReshowGametooltip
+app.ReshowGametooltip = function()
+	Callback(ReshowGametooltip)
+end
 app.AddEventHandler("OnRefreshComplete", function()
 	Callback(ReshowGametooltip)
 end);
@@ -786,7 +788,7 @@ local function AttachTooltipSearchResults(tooltip, method, ...)
 		app.PrintDebug("pcall tooltip failed",group)
 	end
 	tooltip.ATT_AttachComplete = not (working or (group and group.working));
-	-- app.PrintDebug("ATT_AttachComplete",tooltip.ATT_AttachComplete,working,group.working)
+	-- app.PrintDebug("ATT_AttachComplete",group.hash,tooltip.ATT_AttachComplete,working,group.working)
 end
 
 local AttachTypicalSearchResults
@@ -1110,8 +1112,12 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 			if knownSearchField and ttId then
 				-- app.PrintDebug("TT Search",knownSearchField,ttId)
 				AttachTypicalSearchResults(self, knownSearchField, ttId)
-				if knownSearchField == "currencyID" and self.ATT_AttachComplete == false then
-					app.CallbackHandlers.DelayedCallback(RerenderCurrency, 0.05, self, ttId);
+				if self.ATT_AttachComplete == false then
+					if knownSearchField == "currencyID" then
+						app.CallbackHandlers.DelayedCallback(RerenderCurrency, 0.05, self, ttId)
+					else
+						app.ReshowGametooltip()
+					end
 				end
 				return true;
 			end
@@ -1120,7 +1126,7 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 	end
 
 	app.AddEventRegistration("TOOLTIP_DATA_UPDATE", function(...)
-		Callback(ReshowGametooltip)
+		app.ReshowGametooltip()
 	end);
 	app.AddEventHandler("OnReady", function()
 		TooltipDataProcessor.AddTooltipPostCall(TooltipDataProcessor.AllTypes, AttachTooltip)

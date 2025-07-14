@@ -1193,7 +1193,7 @@ local function AddContainsData(group, tooltipInfo)
 							AsyncRefreshFunc(entry)
 						else
 							-- app.PrintDebug("No Async Refresh Func for TT Type!",entry.__type)
-							Callback(app.ReshowGametooltip)
+							app.ReshowGametooltip()
 						end
 					end
 					working = true

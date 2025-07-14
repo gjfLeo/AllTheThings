@@ -7,7 +7,6 @@ local GetRawField, contains
 	= app.GetRawField, app.contains
 local IsQuestFlaggedCompleted, IsQuestFlaggedCompletedForObject = app.IsQuestFlaggedCompleted, app.IsQuestFlaggedCompletedForObject;
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
-local Callback = app.CallbackHandlers.Callback
 
 -- Global locals
 local ipairs, pairs, rawset, rawget, tinsert, math_floor, tonumber, tostring
@@ -204,7 +203,7 @@ local function ItemAsyncRefreshFunc(t)
 	ItemEventListener:AddCallback(math_floor(id), function()
 		-- app.PrintDebug("Item Loaded", id)
 		app.DirectGroupRefresh(t, true)
-		Callback(app.ReshowGametooltip)
+		app.ReshowGametooltip()
 	end)
 	return true
 end

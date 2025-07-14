@@ -157,6 +157,7 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 			-- app.PrintDebug("No Server QuestData",questID)
 			QuestNameFromServer[questID] = false;
 		end
+		app.ReshowGametooltip()
 
 		-- see if this Quest is awaiting Reward population & Updates
 		local questObject = QuestsToPopulate[questID];
@@ -170,7 +171,6 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 		if questObject then
 			RefreshQuestIDs[questID] = nil
 			app.DirectGroupRefresh(questObject, true)
-			app.CallbackHandlers.Callback(app.ReshowGametooltip)
 		end
 
 		-- see if this Quest is awaiting a callback, call it with the questID and success from the server
