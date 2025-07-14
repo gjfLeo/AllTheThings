@@ -2644,7 +2644,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					o(228483, {	-- Rusted Lockbox
-						["questID"] = 34276,
+						["questID"] = 34276,	-- triggers together with questID 34760 (another treasure)
 						["description"] = "Inside Deathweb Hollow. Swim down to the bottom of the cavern.",
 						["coords"] = {
 							{ 61.1, 83.9, TALADOR },	-- Deathweb Hollow Cave Entrance

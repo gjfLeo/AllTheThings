@@ -1580,7 +1580,6 @@ _.Modules.Events.SetEventInformation(1509, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=6,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=6,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025}),
@@ -1632,7 +1631,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -6163,6 +6163,7 @@ local ObjectNames = {
 	[230611] = "Pale Loot Sack",
 	[230643] = "Teroclaw Nest",
 	[230664] = "The Crystal Blade of Torvath",
+	[230725] = "Treasure of Kull'krosh",
 	[230865] = "List of Ingredients",
 	[230909] = "Forgotten Supplies",
 	[230933] = "Defense Pylon Central Control Console",
@@ -13434,6 +13435,7 @@ local ObjectModels = {
 	[230611] = 874401,
 	[230643] = 191835,
 	[230664] = 370669,
+	[230725] = 953811,
 	[230865] = 936419,
 	[230909] = 579113,
 	[230933] = 193552,
@@ -23196,6 +23198,7 @@ localize(ObjectNames, {
 	[230611] = "Beutesack der Fahlen",
 	[230643] = "Terokrallennest",
 	[230664] = "Torvaths Kristallklinge",
+	[230725] = "Schatz von Kull'krosh",
 	[230865] = "Liste mit Zutaten",
 	[230909] = "Vergessene Vorräte",
 	[230933] = "Zentralsteuerungskonsole der Verteidigungspylonen",
@@ -29155,6 +29158,7 @@ localize(ObjectNames, {
 	[230611] = "Sac de butin de blafard",
 	[230643] = "Nid de terogriffe",
 	[230664] = "La lame de cristal de Torvath",
+	[230725] = "Trésor de Kull’krosh",
 	[230865] = "Liste d’ingrédients",
 	[230909] = "Fournitures oubliées",
 	[230933] = "Console de commande centrale du pylône de défense",
@@ -34752,6 +34756,7 @@ localize(ObjectNames, {
 	[230611] = "Sacco del Bottino dei Pallidi",
 	[230643] = "Nido di Grinfiafurente",
 	[230664] = "Lama di Cristallo di Torvath",
+	[230725] = "Tesoro di Kull'krosh",
 	[230865] = "Lista di ingredienti",
 	[230909] = "Rifornimenti Dimenticati",
 	[230933] = "Console di Comando Centrale del Pilone",
@@ -40267,6 +40272,7 @@ localize(ObjectNames, {
 	[230611] = "Saco de Tesouro Desbotado",
 	[230643] = "Ninho de Terogarra",
 	[230664] = "A Lâmina de Cristal de Torvath",
+	[230725] = "Tesouro de Kull'krosh",
 	[230865] = "Lista de Ingredientes",
 	[230909] = "Suprimentos Esquecidos",
 	[230933] = "Painel de Controle Central do Pilar de Defesa",
@@ -46141,6 +46147,7 @@ localize(ObjectNames, {
 	[230611] = "Мешок с добычей бледнокожих",
 	[230643] = "Гнездо страхоклюва",
 	[230664] = "Хрустальный клинок Торвата",
+	[230725] = "Сокровище Кулл'кроша",
 	[230865] = "Список ингредиентов",
 	[230909] = "Забытые припасы",
 	[230933] = "Центральная панель управления защитным пилоном",
@@ -57436,6 +57443,7 @@ localize(ObjectNames, {
 	[230611] = "Saco de botín de pálido",
 	[230643] = "Nido de garráptero",
 	[230664] = "Espada de cristal de Torvath",
+	[230725] = "Tesoro de Kull'krosh",
 	[230865] = "Lista de ingredientes",
 	[230909] = "Suministros olvidados",
 	[230933] = "Consola de control central de torre de defensa",

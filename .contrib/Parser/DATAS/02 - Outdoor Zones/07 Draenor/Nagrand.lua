@@ -2573,6 +2573,13 @@ root(ROOTS.Zones, {
 							i(118253),	-- Trophy Band of Telaar
 						},
 					}),
+					o(230725, {	-- Treasure of Kull'krosh
+						["questID"] = 34760,	-- triggers together with questID 34276 (another treasure)
+						["coord"] = { 37.7, 70.6, DRAENOR_NAGRAND },
+						["g"] = {
+							currency(824),	-- Garrison Resources
+						},
+					}),
 					o(243282, {	-- Viking Pepe
 						["coord"] = { 80.11, 50.4, DRAENOR_NAGRAND },
 						["timeline"] = { ADDED_6_2_0 },
