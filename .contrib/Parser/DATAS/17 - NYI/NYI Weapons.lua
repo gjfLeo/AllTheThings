@@ -25,6 +25,34 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			-- #endif
+			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(76308),	-- Monster - Bow, Panda Great Wall
+					i(85758),	-- Monster - Bow_1h_PVPPandariaS1_D_01 - Blue
+					i(85759),	-- Monster - Bow_1h_PVPPandariaS1_D_01 - Green
+					i(85760),	-- Monster - Bow_1h_PVPPandariaS1_D_01 - Orange
+					i(85761),	-- Monster - Bow_1h_PVPPandariaS1_D_01 - Purple
+					i(85762),	-- Monster - Bow_1h_PVPPandariaS1_D_01 - Red
+					i(86538),	-- Monster - Bow_1H_PVP_C_01 - Gold
+					i(86601),	-- Monster - Bow_1h_PanProg_B_01
+					i(86602),	-- Monster - Bow_1h_PanProg_B_01 - Blue
+					i(86603),	-- Monster - Bow_1h_PanProg_B_01 - Jade
+					i(88685),	-- Monster - Bow_1h_PandaRaid_D_01 - Green
+					i(88686),	-- Monster - Bow_1h_PandaRaid_D_01 - Red
+					i(88687),	-- Monster - Bow_1h_PandaRaid_D_01 - Teal
+					i(88688),	-- Monster - Bow_1h_PandaRaid_D_01 - Yellow
+					i(89313),	-- Monster - Bow_1h_PandariaQuest_B_01
+					i(89314),	-- Monster - Bow_1h_PandariaQuest_B_01 - Blue
+					i(89315),	-- Monster - Bow_1h_PandariaQuest_B_01 - Green
+					i(89316),	-- Monster - Bow_1h_PandariaQuest_B_01 - Silver
+					i(89706),	-- Monster - Bow_1h_PanDung_C_01 - Blue
+					i(89707),	-- Monster - Bow_1h_PanDung_C_01 - Gold
+					i(89708),	-- Monster - Bow_1h_PanDung_C_01 - Red
+					i(89709),	-- Monster - Bow_1h_PanDung_C_01 - Silver
+					i(91795),	-- Monster - Bow_1H_Standard_B02 (Purple)
+				}),
+			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178450),	-- zzzRated - Weapon - Bow
@@ -39,6 +67,31 @@ root(ROOTS.NeverImplemented, {
 			}),
 		}),
 		filter(CROSSBOWS, {
+			expansion(EXPANSION.CATA, {
+				-- 4.x.x
+				n(P4xx, {
+					i(65434),	-- Monster - Bow_2h_Crossbow_C_01 - Black \\ Monster - Crossbow C01 Black
+				}),
+			}),
+			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(76715),	-- Monster - Bow_2H_Crossbow_PVP_C_01 - Red
+					i(76979),	-- Monster - Bow_2h_Crossbow_PanStart_A_01 - Jade
+					i(76980),	-- Monster - Bow_2h_Crossbow_PanStart_A_01 - Blue
+					i(76981),	-- Monster - Bow_2h_Crossbow_PanStart_A_01 - Gold
+					i(76982),	-- Monster - Bow_2h_Crossbow_PanStart_A_01 - Red
+					i(81397),	-- Monster - Bow_2H_Crossbow_PVP_C_01 - Light Brown
+					i(85857),	-- Monster - Bow_2h_Crossbow_PanStart_A_01 - Blue
+					i(88896),	-- Monster - Bow_2h_Crossbow_PandaRaid_D_01 - Brass
+					i(88897),	-- Monster - Bow_2h_Crossbow_PandaRaid_D_01 - Gold
+					i(88898),	-- Monster - Bow_2h_Crossbow_PandaRaid_D_01 - Silver
+					i(89348),	-- Monster - Bow_2H_Crossbow_PandariaQuest_B_01
+					i(89349),	-- Monster - Bow_2H_Crossbow_PandariaQuest_B_01 - Blue
+					i(89350),	-- Monster - Bow_2H_Crossbow_PandariaQuest_B_01 - Copper
+					i(89351),	-- Monster - Bow_2H_Crossbow_PandariaQuest_B_01 - Green
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189690),	-- 10.0 Dungeon Template - Crossbow - RangedRight
@@ -149,6 +202,13 @@ root(ROOTS.NeverImplemented, {
 					i(38243),	-- Ravaging Steelfist
 				}),
 			}),
+			expansion(EXPANSION.MOP, {
+				-- 5.0.1
+				expansion(EXPANSION.MOP, patch(0,1), {
+					i(79786),	-- QA Combat Test Agility Fist Weapon (MH) 2
+					i(79787),	-- QA Combat Test Agility Fist Weapon (MH) 3
+				}),
+			}),
 			expansion(EXPANSION.DF, {
 				expansion(EXPANSION.DF, patch(0,0,1), {
 					i(189699),	-- 10.0 Dungeon Template - FistWeapon - Weapon
@@ -171,8 +231,14 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			expansion(EXPANSION.CATA, {
+				-- 4.0.3
 				expansion(EXPANSION.CATA, patch(0,3), {
 					i(49455),	-- Blunderbuss of Deforestation
+				}),
+
+				-- 4.x.x
+				n(P4xx, {
+					i(58750),	-- ObsoleteQA Combat Test Warrior Tank Gun \\ QA Combat Test Warrior Tank Gun
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
@@ -282,6 +348,7 @@ root(ROOTS.NeverImplemented, {
 					i(77375),	-- Monster - Axe_1h_PanStart_A_01 - Green
 					i(77376),	-- Monster - Axe_1h_PanStart_A_01 - Purple
 					i(77377),	-- Monster - Axe_1h_PanStart_A_01 - Yellow
+					i(79788),	-- QA Combat Test Offhand Agility Axe 2
 				}),
 
 				-- 5.x.x
@@ -363,6 +430,7 @@ root(ROOTS.NeverImplemented, {
 					i(77370),	-- Monster - Mace_1h_PanStart_A_01 - Blue
 					i(77371),	-- Monster - Mace_1h_PanStart_A_01 - Green
 					i(77372),	-- Monster - Mace_1h_PanStart_A_01 - Red
+					i(79785),	-- QA Combat Test Healer 1H Mace 3
 				}),
 
 				-- 5.x.x
@@ -503,6 +571,12 @@ root(ROOTS.NeverImplemented, {
 					-- #endif
 				}),
 			}),
+			expansion(EXPANSION.CATA, {
+				-- 4.x.x
+				n(P4xx, {
+					i(58703),	-- QA Combat Test Agility Polearm \\ QA Combat Test Polearm (Agility)
+				}),
+			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(178453),	-- zzzRated - Weapon - Polearm Agi
@@ -563,6 +637,7 @@ root(ROOTS.NeverImplemented, {
 					i(77408),	-- Monster - Shield_PanStart_A_01 - Default
 					i(77412),	-- Monster - Shield_PanStart_A_01 - Red
 					i(77414),	-- Monster - Shield_PanStart_A_01 - Yellow
+					i(79804),	-- QA Combat Test Healer Shield 4
 				}),
 			}),
 			expansion(EXPANSION.SL, {
@@ -600,18 +675,22 @@ root(ROOTS.NeverImplemented, {
 				}),
 			}),
 			-- #endif
-			-- #if BEFORE WOD
 			expansion(EXPANSION.CATA, {
 				expansion(EXPANSION.CATA, patch(0,3), {
+					i(58534),	-- QA Combat Test Agility Staff \\ QA Combat Test Druid Feral Staff
+					i(58618),	-- QA Combat Test Agility Staff 2 \\ QA Combat Test Druid Feral Staff 2
 					-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
+					-- #if BEFORE WOD
 					i(55343),	-- Rustmaul Staff
 					i(55451),	-- Rustmaul Staff
+					-- #endif
 				}),
 			}),
-			-- #endif
 			expansion(EXPANSION.MOP, {
 				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
+					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
+					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
 					i(79720),	-- Monster - Staff, Panda A01
 					i(79721),	-- Monster - Staff, Panda A01 - Blue
 					i(79722),	-- Monster - Staff, Panda A01 - Green
@@ -624,12 +703,12 @@ root(ROOTS.NeverImplemented, {
 					i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
 					i(77359),	-- Monster - Stave_2h_PanStart_A_01 - Green
 					i(77360),	-- Monster - Stave_2h_PanStart_A_01 - Purple
+					i(79749),	-- QA Combat Test Agility Staff 3
+					i(79750),	-- QA Combat Test Healer Staff 2
 				}),
 
 				-- 5.x.x
 				n(P5xx, {
-					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
-					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
 					i(90278),	-- Landfall Moccasins
 					i(90282),	-- Landfall Plate Boots
 					i(90279),	-- Landfall Sabatons
@@ -681,6 +760,12 @@ root(ROOTS.NeverImplemented, {
 					i(22199),	-- Monster - Axe, 2H Arcanite Reaper
 				}),
 			}),
+			expansion(EXPANSION.CATA, {
+				-- 4.x.x
+				n(P4xx, {
+					i(58769),	-- QA Combat Test Strength 2H Axe \\ QA Combat Test Strength 2h Axe
+				}),
+			}),
 			expansion(EXPANSION.SL, {
 				expansion(EXPANSION.SL, patch(0,1), {
 					i(176005),	-- UNUSED - Rated - Weapon - 2H Axe Melee
@@ -717,6 +802,11 @@ root(ROOTS.NeverImplemented, {
 				expansion(EXPANSION.CATA, patch(3,0), {
 					i(72990),	-- Ebonsoul Hammer
 					i(72991),	-- Ebonsoul Maul
+				}),
+
+				-- 4.x.x
+				n(P4xx, {
+					i(58647),	-- QA Combat Test Strength 2H Mace \\ QA Combat Test Strength 2h Mace
 				}),
 			}),
 			-- #endif
@@ -803,12 +893,18 @@ root(ROOTS.NeverImplemented, {
 		filter(WANDS, {
 			-- #if ANYCLASSIC
 			expansion(EXPANSION.WRATH, {
-				-- 4.4.2
+				-- 3.4.2
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206697),	-- Chilled Wand
 				}),
 			}),
 			-- #endif
+			expansion(EXPANSION.CATA, {
+				-- 4.x.x
+				n(P4xx, {
+					i(58637),	-- ObsoleteQA Combat Test Healer Wand \\ QA Combat Test Healer Wand
+				}),
+			}),
 			expansion(EXPANSION.SL, {
 				-- 9.0.1
 				expansion(EXPANSION.SL, patch(0,1), {

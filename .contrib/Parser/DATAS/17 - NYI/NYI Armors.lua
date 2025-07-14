@@ -486,6 +486,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			-- 4.x.x
 			n(P4xx, {
 				i(59791),	-- Giantslayer Cloak
+				i(58696),	-- QA Combat Test Healer Cloak 3 \\ QA Combat Test Healer Cloak 2
 			}),
 		}),
 		filter(CLOTH, {
@@ -1022,6 +1023,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(BACK_F, {
 			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
+				i(79790),	-- QA Combat Test Agility DPS Cloak 3
+				i(79791),	-- QA Combat Test Healer Cloak 2
 				i(80965),	-- Scavenger's Cape
 				i(80968),	-- Scavenger's Cloak
 				i(80966),	-- Scavenger's Drape
@@ -1479,6 +1482,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(81015),	-- Landfall Silk Treads
 				i(80948),	-- Peacebreaker's Silk Cowl
 				i(80949),	-- Peacebreaker's Satin Hood
+				i(79792),	-- QA Combat Test Caster DPS Boots 2
 				i(79795),	-- QA Combat Test Caster DPS Bracer 2
 				i(79799),	-- QA Combat Test Priest Healer Bracer 2
 				i(80988),	-- Scavenger's Silk Amice
@@ -1946,6 +1950,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(80995),	-- Leather Tunic of Eniment Domain
 				i(80950),	-- Peacebreaker's Hide Helm
 				i(80946),	-- Peacebreaker's Leather Helm
+				i(79800),	-- QA Combat Test Rogue Bracer 2
+				i(79803),	-- QA Combat Test Rogue Helm 3
 				i(81044),	-- Scavenger's Hide Bindings
 				i(81035),	-- Scavenger's Hide Gloves
 				i(80990),	-- Scavenger's Hide Spaulders
@@ -2012,6 +2018,9 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(81018),	-- Landfall Sabatons
 				i(80947),	-- Peacebreaker's Chain Helm
 				i(80951),	-- Peacebreaker's Ringmail Helm
+				i(79793),	-- QA Combat Test Hunter Boots 2
+				i(79796),	-- QA Combat Test Hunter Bracer 2
+				i(79801),	-- QA Combat Test Shaman Healer Bracer 2
 				i(79789),	-- QA Combat Test Shaman Healer Chest 3
 				i(81000),	-- Ringmail Armor of Eminent Domain (not added version)
 				i(80987),	-- Scavenger's Chain Spaulders
@@ -2040,52 +2049,6 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 		filter(PLATE, {
 			-- 5.0.1
 			expansion(EXPANSION.MOP, patch(0,1), {
-				i(81002),	-- Armored Chestpiece of Eminent Domain
-				i(81709),	-- Belt of Broken Bones
-				i(81001),	-- Burnished Chestguard of Eminent Domain
-				i(81710),	-- Grinning Skull Greatboots
-				i(81003),	-- Heavy Chestpiece of Eminent Domain
-				i(81010),	-- Honorary Combat Engineer's Burnished Legplates
-				i(81012),	-- Honorary Combat Engineer's Heavy Legplates
-				i(81011),	-- Honorary Combat Engineer's Legguards
-				i(81019),	-- Landfall Burnished Greaves
-				i(81021),	-- Landfall Plate Boots
-				i(81020),	-- Landfall Warboots
-				i(80952),	-- Peacebreaker's Burnished Headcover
-				i(80953),	-- Peacebreaker's Armored Helm
-				i(80954),	-- Peacebreaker's Heavy Helm
-				i(80992),	-- Scavenger's Burnished Spaulders
-				i(80993),	-- Scavenger's Armored Shoulders
-				i(80994),	-- Scavenger's Heavy Shoulders
-				i(81037),	-- Scavenger's Burnished Gloves
-				i(81038),	-- Scavenger's Armored Gauntlets
-				i(81039),	-- Scavenger's Heavy Gauntlets
-				i(81046),	-- Scavenger's Burnished Bracers
-				i(81047),	-- Scavenger's Armored Bracers
-				i(81048),	-- Scavenger's Heavy Armplates
-			}),
-
-			-- 5.2.0
-			-- #if BEFORE 10.2.7
-			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
-			expansion(EXPANSION.MOP, patch(2,0), {
-				i(96720),	-- Abandoned Zandalari Bucklebreaker
-				i(97092),	-- Abandoned Zandalari Bucklebreaker
-				i(96719),	-- Abandoned Zandalari Goreplate
-				i(97091),	-- Abandoned Zandalari Goreplate
-				i(96718),	-- Abandoned Zandalari Greatbelt
-				i(97090),	-- Abandoned Zandalari Greatbelt
-				i(96723),	-- Columnbreaker Stompers
-				i(97095),	-- Columnbreaker Stompers
-				i(96722),	-- Locksmasher Greaves
-				i(97094),	-- Locksmasher Greaves
-				i(96712),	-- Vaultwalker Sabatons
-				i(97084),	-- Vaultwalker Sabatons
-			}),
-			-- #endif
-
-			-- 5.x.x
-			n(P5xx, {
 				i(83476),	-- 5.0 QA PVP Test Paladin Healer Belt 2
 				i(83477),	-- 5.0 QA PVP Test Paladin Healer Boots
 				i(83478),	-- 5.0 QA PVP Test Paladin Healer Bracer
@@ -2131,7 +2094,52 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(83520),	-- 5.0 QA PVP Test Plate Tank Legs 2
 				i(83521),	-- 5.0 QA PVP Test Plate Tank Shoulders
 				i(83522),	-- 5.0 QA PVP Test Plate Tank Shoulders 2
+				i(81002),	-- Armored Chestpiece of Eminent Domain
+				i(81709),	-- Belt of Broken Bones
+				i(81001),	-- Burnished Chestguard of Eminent Domain
+				i(81710),	-- Grinning Skull Greatboots
+				i(81003),	-- Heavy Chestpiece of Eminent Domain
+				i(81010),	-- Honorary Combat Engineer's Burnished Legplates
+				i(81012),	-- Honorary Combat Engineer's Heavy Legplates
+				i(81011),	-- Honorary Combat Engineer's Legguards
+				i(81019),	-- Landfall Burnished Greaves
+				i(81021),	-- Landfall Plate Boots
+				i(81020),	-- Landfall Warboots
+				i(80952),	-- Peacebreaker's Burnished Headcover
+				i(80953),	-- Peacebreaker's Armored Helm
+				i(80954),	-- Peacebreaker's Heavy Helm
+				i(79797),	-- QA Combat Test Paladin Healer Bracer 2
+				i(79798),	-- QA Combat Test Plate DPS Bracer 3
+				i(79746),	-- QA Combat Test Tank Bracer
+				i(80992),	-- Scavenger's Burnished Spaulders
+				i(80993),	-- Scavenger's Armored Shoulders
+				i(80994),	-- Scavenger's Heavy Shoulders
+				i(81037),	-- Scavenger's Burnished Gloves
+				i(81038),	-- Scavenger's Armored Gauntlets
+				i(81039),	-- Scavenger's Heavy Gauntlets
+				i(81046),	-- Scavenger's Burnished Bracers
+				i(81047),	-- Scavenger's Armored Bracers
+				i(81048),	-- Scavenger's Heavy Armplates
 			}),
+
+			-- 5.2.0
+			-- #if BEFORE 10.2.7
+			-- All of these were added with MoP: Remix Throne of Thunder Ensembles
+			expansion(EXPANSION.MOP, patch(2,0), {
+				i(96720),	-- Abandoned Zandalari Bucklebreaker
+				i(97092),	-- Abandoned Zandalari Bucklebreaker
+				i(96719),	-- Abandoned Zandalari Goreplate
+				i(97091),	-- Abandoned Zandalari Goreplate
+				i(96718),	-- Abandoned Zandalari Greatbelt
+				i(97090),	-- Abandoned Zandalari Greatbelt
+				i(96723),	-- Columnbreaker Stompers
+				i(97095),	-- Columnbreaker Stompers
+				i(96722),	-- Locksmasher Greaves
+				i(97094),	-- Locksmasher Greaves
+				i(96712),	-- Vaultwalker Sabatons
+				i(97084),	-- Vaultwalker Sabatons
+			}),
+			-- #endif
 		}),
 		filter(FINGER_F, {
 			-- 5.0.1
