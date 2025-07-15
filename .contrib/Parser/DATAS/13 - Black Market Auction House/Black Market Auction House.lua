@@ -261,7 +261,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 				["timeline"] = { ADDED_8_2_5 },
 			}),
 			i(118572, {	-- Illusion: Flame of Ragnaros (ILLUSION!)
-				["timeline"] = { ADDED_6_2_5 },	-- https://www.wowhead.com/item=118572/illusion-flames-of-ragnaros#comments
+				["timeline"] = { ADDED_6_2_0 },	-- https://www.wowhead.com/item=118572/illusion-flames-of-ragnaros#comments
 			}),
 			i(128649, {	-- Illusion: Winter's Grasp (ILLUSION!)
 				["timeline"] = { ADDED_8_2_5 },
