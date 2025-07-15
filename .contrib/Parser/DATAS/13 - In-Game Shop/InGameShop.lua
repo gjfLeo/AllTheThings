@@ -278,6 +278,14 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 	-- #endif
 	-- #if AFTER 5.4.0.17227
 	filter(COSMETIC, {	-- AVAILABLE --
+		-- Black Tropical
+		iensemble(221540, {	-- Ensemble: Black Tropical Beachwear
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" }, -- Removed September 15, 2025
+		}),
+		iensemble(221847, {	-- Ensemble: Black Tropical Swimwear
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" }, -- Removed September 15, 2025
+		}),
+
 		------ Cosmic Weapons Set ------
 		iensemble(208943, {	-- Arsenal: Cosmic Weapons Cache
 			["timeline"] = { ADDED_11_0_0 },
@@ -382,9 +390,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		iensemble(223485, {	-- Ensemble: Green Snugglefin Murloc Romper
 			["timeline"] = { ADDED_10_2_7 },
 		}),
-		------ Lavaborn Emerald Attire Set ------
-		iensemble(238428, {	["timeline"] = { ADDED_11_1_5, "removed 11.1.7.99999" } }),	-- Ensemble: Lavaborn Emerald Attire -- Removed July 14, 2025
-		i(238948, {	["timeline"] = { ADDED_11_1_5, "removed 11.1.7.99999" } }),	-- Fel Inferno Helm -- Removed July 14, 2025
 
 		------ Murloc Shells Set ------
 		i(188135, {	-- Frrgl's Shaking Shell
@@ -455,7 +460,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(188256, {	-- Obsidian Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
 		}),
-		
+
 		-- #if ANYCLASSIC
 		i(23705, {	-- Tabard of Flame
 			["timeline"] = { ADDED_5_5_0 },
@@ -481,6 +486,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		iensemble(208412, {	-- High Scholar's Arcana
 			["timeline"] = { ADDED_10_1_5, REMOVED_10_1_7 },	-- Removed Oct 31st, 2023
 		}),
+
+		------ Lavaborn Emerald Attire Set ------
+		iensemble(238428, {	["timeline"] = { ADDED_11_1_5, "removed 11.1.7.61967" } }),	-- Ensemble: Lavaborn Emerald Attire -- Removed July 14, 2025
+		i(238948, {	["timeline"] = { ADDED_11_1_5, "removed 11.1.7.61967" } }),	-- Fel Inferno Helm -- Removed July 14, 2025
 
 		------ Sky Witch's Attire Set ------
 		iensemble(212221, {	-- Ensemble: Sky Witch's Attire
@@ -573,9 +582,6 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		mount(307932, {	-- Ensorcelled Everwyrm (MOUNT!)
 			["timeline"] = { ADDED_10_2_0 },
 		}),
-		i(238966, {	-- Felborn Cormaera (MOUNT!)
-			["timeline"] = { ADDED_11_1_5, "removed 11.1.7.99999" }, -- Removed July 14, 2025
-		}),
 		mount(457485, {	-- Grizzly Hills Packmaster (MOUNT!)
 			["timeline"] = { ADDED_11_0_2 },
 		}),
@@ -602,6 +608,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_2_5_4_A },
 		}),
 		-- #endif
+		i(221270, {	-- Kickin' Kezan Waveshredder (MOUNT!)
+			["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" }, -- Removed September 15, 2025
+		}),
 		mount(308087, {	-- Lucky Yun (MOUNT!)
 			["timeline"] = { ADDED_9_0_2 },
 		}),
@@ -711,6 +720,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		i(208598, {	-- Eve's Ghastly Rider (MOUNT!)
 			["timeline"] = { ADDED_11_0_2, REMOVED_11_0_5 },	-- 1st October 2024 until 5th November 2024
+		}),
+		i(238966, {	-- Felborn Cormaera (MOUNT!)
+			["timeline"] = { ADDED_11_1_5, "removed 11.1.7.61967" }, -- Removed July 14, 2025
 		}),
 		i(112327, {	-- Grinning Reaver (MOUNT!)
 			["timeline"] = { ADDED_6_0_2, REMOVED_8_3_0 },

@@ -824,9 +824,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(223282, {	-- [PH] Blue Old God Fish Mount (MOUNT!)
 				["displayID"] = 119505,
 			}),
-			i(221270, {	-- [PH] Goblin Surfboard (MOUNT!)
-				["displayID"] = 119192,
-			}),
 			i(223460, {	-- [PH] Nightsaber Horde Mount White (MOUNT!)
 				["displayID"] = 119658,
 			}),

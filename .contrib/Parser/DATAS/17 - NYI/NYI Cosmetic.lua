@@ -397,22 +397,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				q(82270),	-- Ensemble: Copper Diver Suit
 				i(222959),	-- Ensemble: Tropical Sunrise Swimwear
 				q(82231),	-- Ensemble: Tropical Sunrise Swimwear
-				------ Black Tropical Set ------
-				i(221540),	-- Ensemble: Black Tropical
-				q(82137),	-- Ensemble: Black Tropical
-				i(221847),	-- Ensemble: Black Tropical Swimwear
-				q(82198),	-- Ensemble: Black Tropical Swimwear
-				i(221826),	-- Black Tropical Airy Sandals
-				i(221825),	-- Black Tropical Beads
-				i(221524),	-- Black Tropical Floater
-				i(221822),	-- Black Tropical Halter Top
-				i(221523),	-- Black Tropical Sandals
-				i(221827),	-- Black Tropical Sash
-				i(221520),	-- Black Tropical Shirt
-				i(221824),	-- Black Tropical Skirt
-				i(221828),	-- Black Tropical Sunshade
-				i(221521),	-- Black Tropical Trunks
-				i(221522),	-- Black Tropical Wristwraps
 
 				------ Green Diver Set ------
 				i(223245),	-- Ensemble: Green Diver Suit

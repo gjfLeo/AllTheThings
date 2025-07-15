@@ -282,6 +282,11 @@ root(ROOTS.Promotions, {
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between July 14th, 10:00 a.m. & August 11th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" },	-- Removed August 11, 2025
 			}),
+			mount(1227192, {	-- Herald of Sa'bak (MOUNT!)
+				["description"] = "Obtained if you set up a 6-Month WoW Subscription.",
+				["timeline"] = { ADDED_11_1_7, },
+				["u"] = REAL_MONEY,
+			}),
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,
 		--		["description"] = "Mythic Dungeon International: TWW Season 2\n\nThe Mythic Dungeon International (MDI) returns with its global competitions, pitting the best Mythic Dungeon teams on pushing keys as high as they can, striving to out survive their competitors and be crowned the champion!\n\nAll registered teams that complete under time the two dungeons within the Proving Grounds will receive the exclusive Prized Banner of the Algari to use in-game!\nSign-ups close 14 April 2025 3PM PDT and The Time Trials are on 16 April 1PM PDT - 21 April (US) 3PM PDT. For more details & requirements checkout: Raider.io/tournaments",

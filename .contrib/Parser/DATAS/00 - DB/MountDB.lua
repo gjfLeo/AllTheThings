@@ -1824,7 +1824,6 @@ i(223285, 448851);	-- Underlight Corrupted Behemoth
 --- NYI ---
 i(223470, 449141);	-- [PH] Alliance Wolf Mount Red
 i(223282, 448845);	-- [PH] Blue Old God Fish Mount
-i(221270, 446352);	-- [PH] Goblin Surfboard - Blue
 i(223460, 449133);	-- [PH] Nightsaber Horde Mount White
 i(223284, 448849);	-- Underlight Shorestalker
 
@@ -2064,6 +2063,8 @@ i(238739, 1226144);	-- Chrono Corsair
 i(243594, 1235817);	-- Forsaken's Grotesque Charger
 i(246264, 1241429);	-- Inarius' Charger
 i(245694, 1237703);	-- Ivory Savagemane
+i(0, 1227192);	-- Herald of Sa'Bak
+i(221270, 446352);	-- Kickin' Kezan Waveshredder
 i(245695, 1237631);	-- Moonlit Nightsaber
 i(246237, 1241263);	-- OC91 Chariot
 i(0, 1236262);	-- Shaohao's Sage Serpent
