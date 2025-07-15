@@ -151,6 +151,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_5_5_0 },
 		}),
 		-- #endif
+		i(239082, {	-- Sa'bak's Blessed
+			["timeline"] = { ADDED_11_1_7 },
+		}),
 		i(151234, {	-- Shadow (PET!)
 			["timeline"] = { ADDED_7_3_0 },
 		}),
@@ -594,6 +597,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 				-- #endif
 			},
 		}),
+		i(239076, {	-- Herald of Sa'bak (MOUNT!)
+			["description"] = "Also obtained if you set up a 6-Month WoW Subscription.",
+			["timeline"] = { ADDED_11_1_7, },
+		}),
 		i(166774, {	-- Hogrus, Swine of Good Fortune (MOUNT!)
 			["timeline"] = { ADDED_8_1_0 },
 		}),
@@ -654,6 +661,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		}),
 		mount(359843, {	-- Tangled Dreamweaver (MOUNT!)
 			["timeline"] = { ADDED_10_2_0 },
+		}),
+		i(231297, {	-- Timbered Sky Snake (MOUNT!)
+			["description"] = "Also obtained if you set up a 6-Month WoW Subscription.",
+			["timeline"] = { ADDED_11_0_7, },
 		}),
 		mount(346136, {	-- Viridian Phase-Hunter (MOUNT!)
 			["timeline"] = { ADDED_10_0_2 },	-- Not sure when exactly it got added to the shop.

@@ -4399,6 +4399,7 @@ i(0, 4761);	-- Pascal the Wonder Pup
 ------------------
 i(245543, 4849);	-- Flotsam Harvester
 i(245574, 4852);	-- Lil' Daz'ti
+i(239082, 4796);	-- Sa'bak's Blessed
 
 ------------------
 -- PATCH 11.2.0 --

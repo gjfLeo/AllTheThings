@@ -2063,7 +2063,7 @@ i(238739, 1226144);	-- Chrono Corsair
 i(243594, 1235817);	-- Forsaken's Grotesque Charger
 i(246264, 1241429);	-- Inarius' Charger
 i(245694, 1237703);	-- Ivory Savagemane
-i(0, 1227192);	-- Herald of Sa'Bak
+i(239076, 1227192);	-- Herald of Sa'Bak
 i(221270, 446352);	-- Kickin' Kezan Waveshredder
 i(245695, 1237631);	-- Moonlit Nightsaber
 i(246237, 1241263);	-- OC91 Chariot

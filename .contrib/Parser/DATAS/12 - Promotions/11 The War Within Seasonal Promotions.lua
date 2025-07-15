@@ -238,11 +238,6 @@ root(ROOTS.Promotions, {
 					cnONLY(i(46779)),	-- Path of Cenarius
 				},
 			})),
-			i(231297, {	-- Timbered Sky Snake (MOUNT!)
-				["description"] = "Obtained if you set up a 6-Month WoW Subscription.",
-				["timeline"] = { ADDED_11_0_7, },
-				["u"] = REAL_MONEY,
-			}),
 			i(238261, {	-- Tock the Clocker Spaniel (PET!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between February 25th, 10:00 a.m. & March 25th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				["timeline"] = { ADDED_11_1_0, "removed 11.1.0.59679" },
@@ -281,11 +276,6 @@ root(ROOTS.Promotions, {
 			i(235987, { -- Adorned Half Shell (COSMETIC!)
 				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between July 14th, 10:00 a.m. & August 11th, 10:00 a.m. PST.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
 				["timeline"] = { ADDED_11_1_7, "removed 11.2.0.99999" },	-- Removed August 11, 2025
-			}),
-			mount(1227192, {	-- Herald of Sa'bak (MOUNT!)
-				["description"] = "Obtained if you set up a 6-Month WoW Subscription.",
-				["timeline"] = { ADDED_11_1_7, },
-				["u"] = REAL_MONEY,
 			}),
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE
 		--		["sourceID"] = 500001,

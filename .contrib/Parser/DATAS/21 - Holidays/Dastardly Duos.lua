@@ -18,7 +18,7 @@ DASTARDLY_DUOS = createHeader({
 	},
 });
 
-root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"] = { ADDED_11_1_5 } }, {
+root(ROOTS.Holidays, applyevent(EVENTS.DASTARDLY_DUOS, bubbleDown({ ["timeline"] = { ADDED_11_1_5, "removed 11.1.7.61967" } }, {
 	n(DASTARDLY_DUOS, {
 		["maps"] = { 2447 },	-- Dastardly Duos
 		["groups"] = {
