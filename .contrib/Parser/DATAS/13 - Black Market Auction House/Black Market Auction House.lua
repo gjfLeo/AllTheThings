@@ -1,7 +1,7 @@
 -------------------------------------------------------------------
 --     B L A C K   M A R K E T   A U C T I O N   H O U S E       --
 -------------------------------------------------------------------
--- Sources: 
+-- Sources:
 --   8.2.5: https://www.wowhead.com/news/new-black-market-auction-house-listings-in-8-2-5-revealed-tusks-of-mannoroth-295182
 BLACK_MARKET_AUCTION_HOUSE = createHeader({
 	readable = "Black Market Auction House",
@@ -15,26 +15,28 @@ BLACK_MARKET_AUCTION_HOUSE = createHeader({
 	},
 });
 root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 }, ["u"] = BLACK_MARKET }, {
-	["maps"] = {
-		-- #if BEFORE WOD
-		THE_VEILED_STAIR,
-		-- #elseif BEFORE LEGION
-		DRAENOR_NAGRAND,
-		-- #elseif BEFORE BFA
-		626,	-- [Rogue Class Hall]
-		LEGION_THE_UNDERBELLY,
-		-- #elseif BEFORE SL
-		BORALUS,
-		ZULDAZAR,
-		-- #elseif BEFORE DF
-		REVENDRETH,
-		-- #elseif BEFORE TWW
-		VALDRAKKEN,
-		-- #elseif BEFORE MID
-		DORNOGAL,
-		LEGION_THE_UNDERBELLY,
-		-- #endif
-	},
+	-- BMAH content is being loaded properly by the Madam X NPCs who are mapped into the zone. With these maps, the BMAH was loading
+	-- into the zone, then also symlinking all included versions of the NPC into the zone from the mapped group
+	-- ["maps"] = {
+	-- 	-- #if BEFORE WOD
+	-- 	THE_VEILED_STAIR,
+	-- 	-- #elseif BEFORE LEGION
+	-- 	DRAENOR_NAGRAND,
+	-- 	-- #elseif BEFORE BFA
+	-- 	626,	-- [Rogue Class Hall]
+	-- 	LEGION_THE_UNDERBELLY,
+	-- 	-- #elseif BEFORE SL
+	-- 	BORALUS,
+	-- 	ZULDAZAR,
+	-- 	-- #elseif BEFORE DF
+	-- 	REVENDRETH,
+	-- 	-- #elseif BEFORE TWW
+	-- 	VALDRAKKEN,
+	-- 	-- #elseif BEFORE MID
+	-- 	DORNOGAL,
+	-- 	LEGION_THE_UNDERBELLY,
+	-- 	-- #endif
+	-- },
 	["groups"] = {
 		n(ARMOR, {
 			header(HEADERS.NPC, 72057, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5 }, }, { -- Ordos
