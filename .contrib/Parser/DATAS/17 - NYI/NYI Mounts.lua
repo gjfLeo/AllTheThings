@@ -643,9 +643,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(186639, {	-- Pilfered Gearglider (MOUNT!)
 				["displayID"] = 100052,
 			}),
-			i(186640, {	-- Silver Gearglider (MOUNT!)
-				["displayID"] = 100053,
-			}),
 			i(186491, {	-- Spring Wilderling (MOUNT!)
 				["displayID"] = 101004,
 			}),

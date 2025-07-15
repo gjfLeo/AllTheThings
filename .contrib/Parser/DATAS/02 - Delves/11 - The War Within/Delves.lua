@@ -2516,6 +2516,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 				}),
+				filter(MOUNTS, {
+					i(246237, {	-- OC91 Chariot (MOUNT!)
+						["cost"] = {{"c", UNDERCOIN, 15000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
+					}),
+				}),
 				filter(BATTLE_PETS, {
 					i(222974, {	-- Sir Shady Mrrgglton Junior (PET!)
 						["cost"] = {{"c", UNDERCOIN, 10000}},
@@ -2668,6 +2674,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					i(225910, {	-- Pileus Delight (TOY!)
 						["cost"] = {{"c", UNDERCOIN, 500}},
+					}),
+					i(235016, {	-- Redeployment Module (TOY!)
+						["cost"] = {{"c", UNDERCOIN, 5000}},
+						["timeline"] = { ADDED_11_2_0_SEASONSTART },
 					}),
 					i(230924, {	-- Spotlight Materializer 1000 (TOY!)
 						["cost"] = {{"c", UNDERCOIN, 500}},

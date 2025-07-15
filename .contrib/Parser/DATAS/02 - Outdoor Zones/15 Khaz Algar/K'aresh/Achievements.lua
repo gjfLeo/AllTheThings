@@ -41,7 +41,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			pvp(ach(42131)),	-- Tour of Duty: K'aresh
 			ach(42741),	-- Treasures of K'aresh (automated)
 			ach(60889),	-- Unraveled and Persevering (automated)
-			ach(41980),	-- Vigilante (automated)
+			ach(41980, {	-- Vigilante (automated)
+				i(237485),	-- Terror of the Night (MOUNT!)
+			}),
 			ach(42738),	-- We've All Got Swords! (automated)
 		}),
 	}),

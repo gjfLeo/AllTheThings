@@ -162,10 +162,5 @@ root(ROOTS.NeverImplemented, filter(TOYS, {
 			i(232307),	-- Unknown (TOY!)
 			i(232308),	-- Unknown (TOY!)
 		})),
-
-		-- 11.0.7
-		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
-			i(235016),	-- Redeployment Module
-		})),
 	}),
 }));

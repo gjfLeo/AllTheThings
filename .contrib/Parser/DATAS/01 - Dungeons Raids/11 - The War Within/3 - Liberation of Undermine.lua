@@ -389,9 +389,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 						41337,	-- Sleep with the Fishes
 						41347,	-- Scheming on a Thing
 					}},
-					["g"] = {
-						i(231173),		-- Junkmaestro's Magnetomech (MOUNT!)
-					},
+					["g"] = { i(231173) },		-- Junkmaestro's Magnetomech (MOUNT!)
 				}),
 				ach(41525),	-- Can You Please Spell "Gobanna?"
 				ach(41289),	-- Liberation of Undermine Guild Run

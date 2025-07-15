@@ -2088,8 +2088,12 @@ i(238051, 1224048);	-- Delver's Mana-Skimmer
 i(242717, 1233518);	-- Lavender K'arroc
 i(242729, 1233546);	-- Ruby Void Creeper
 i(247822, 1245517);	-- Scarlet Void Flyer
+i(237485, 1223191);	-- Terror of the Night
 i(237484, 1223187);	-- Terror of the Wastes
+i(242728, 1233542);	-- The Bone Freezer
+i(242714, 1233511);	-- Umbral K'arroc
 i(243061, 1234573);	-- Unbound Star-Eater
+i(186640, 353265);	-- Vandal's Gearglider
 i(243157, 1234820);	-- Vicious Void Creeper [A]
 i(243159, 1234821);	-- Vicious Void Creeper [H]
 --- UNSORTED ---
@@ -2104,18 +2108,15 @@ i(247792, 1245358);	-- High Shaman's Aerie Gryphon
 i(246921, 1244261);	-- Legion Forged Elekk
 i(247795, 1245370);	-- Ornery Breezestrider
 i(246067, 1240632);	-- Pearlescent Krolusk
+i(0, 1250578);	-- Phase-Lost Slateback
 i(242713, 1221132);	-- Resplendent K'arroc
-i(0, 1242272);	-- Royal Voidwing
+i(246445, 1242272);	-- Royal Voidwing
 i(246160, 1241076);	-- Sthaarbs's Last Lunch
-i(0, 1223191);	-- Terror of the Night
-i(0, 1233542);	-- The Bone Freezer
 i(247722, 1245202);	-- The Headless Horseman's Burning Charger
 i(247720, 1245197);	-- The Headless Horseman's Chilling Charger
 i(247723, 1245205);	-- The Headless Horseman's Hallowed Charger
 i(247721, 1245198);	-- The Headless Horseman's Ghoulish Charger
 i(246917, 1244247);	-- Thunder-ridged Elekk
 i(246159, 1241070);	-- Translocated Gorger
-i(0, 1233511);	-- Umbral K'arroc
-i(186640, 353265);	-- Vandal's Gearglider
 i(246920, 1244260);	-- Void-Razed Elekk
 i(186639, 353264);	-- Xy Trustee's Gearglider

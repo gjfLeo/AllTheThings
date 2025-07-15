@@ -199,7 +199,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(3000, iensemble(234524)),	-- Ensemble: Awakened Ambassador's Uniform
 					fbiron(500, i(224167)),	-- Gundargaz Tabard
 					fbiron(500, i(233980)),	-- Noble's Forgegrounds Worksack
-					--fbiron(1000, i(235016)),	-- Redeployment Module (TOY!) (57788 - NYI?)
 					fbiron(350, i(235297)),	-- Smuggled Councilor's Chalice
 					fbiron(200, i(233829)),	-- Smuggled Councilor's Chalice
 					fbiron(350, i(235298)),	-- Smuggled Forgegrounds Hammer

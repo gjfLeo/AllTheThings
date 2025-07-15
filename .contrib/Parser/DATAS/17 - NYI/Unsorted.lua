@@ -177,7 +177,6 @@ root(ROOTS.Unsorted, {
 			filter(BATTLE_PETS, {
 				i(244467),	-- Veridian Thorntail
 				i(244468),	-- Scrappy Thorntail
-				i(244470),	-- Etheric Victory
 				i(244907),	-- Dread Horrorling
 				i(244909),	-- Impartial Watcher
 				i(244914),	-- Xanthous Siphonmite
@@ -631,12 +630,8 @@ root(ROOTS.Unsorted, {
 				i(246842),	-- The Facets of K'aresh
 				i(246843),	-- Coins: An Oath We Exchange
 				i(246844),	-- I Have Become Void!
-				i(246903),	-- Guise of the Phase Diver
 				i(246904),	-- Unseen Path of the Phase Stalker
-				i(246905),	-- Overtuned K'areshi Goggles
 				i(246906),	-- Locus Console
-				i(246907),	-- Broker Supply Crate
-				i(246908),	-- K'areshi Supply Crate
 				i(247689),	-- K'areshi Copper Ingot
 				i(247690),	-- Void-Tainted Lotus
 				i(247691),	-- Slateback Hide
@@ -698,8 +693,6 @@ root(ROOTS.Unsorted, {
 				i(243344),	-- Chef's Hat
 				i(243347),	-- Keg of Curiosities
 				i(243479),	-- Bag of Brewfest Ingredients
-				-- Misc/ach?
-				i(246727),	-- Ethereal Essence Sliver
 				-- Devs having fun?
 				i(244854),	-- Purloined Artifact
 				i(244855),	-- Martin Fury
@@ -712,7 +705,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MOUNTS, {
 				i(186639),	-- Xy Trustee's Gearglider
-				i(186640),	-- Vandal's Gearglider
 				i(242713),	-- Resplendent K'arroc
 				i(242733),	-- Blue Barry
 				i(246067),	-- Pearlescent Krolusk
@@ -988,7 +980,6 @@ root(ROOTS.Unsorted, {
 			filter(TOYS, {
 				i(242636),	-- Astral Legend's Pennant
 				i(245946),	-- Brewer's Balloon
-				i(245970),	-- P.O.S.T. Master's Express Hearthstone
 			}),
 		})),
 		expansion(EXPANSION.TWW, patch(1,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 } }, {

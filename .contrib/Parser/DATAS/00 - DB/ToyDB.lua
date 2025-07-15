@@ -1485,3 +1485,4 @@ i(245970);	-- P.O.S.T. Master's Express Hearthstone
 --- UNSORTED ---
 i(245946);	-- Brewer's Balloon
 i(249713);	-- Cartel Transmorpher
+i(250722);	-- Ethereal Stall

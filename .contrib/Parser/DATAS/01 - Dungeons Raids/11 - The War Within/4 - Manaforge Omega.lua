@@ -375,11 +375,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				}),
 				ach(41600),	-- Mythic: Manaforge Omega (automated)
 				ach(41597, {	-- Glory of the Omega Raider (automated)
-					--[[
-					["g"] = {
-
-					},
-					--]]
+					i(242714),	-- Umbral K'arroc (MOUNT!)
 				}),
 				ach(42316),	-- Fractals? For Spring? Groundbreaking.
 				ach(41620),	-- Manaforge Omega Guild Run
@@ -403,12 +399,15 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					}, {	-- RENOWN 6 --
 					}, {	-- RENOWN 7 --
 					}, {	-- RENOWN 8 --
+						i(186640),	-- Vandal's Gearglider (MOUNT!)
 					}, {	-- RENOWN 9 --
 					}, {	-- RENOWN 10 --
 					}, {	-- RENOWN 11 --
 					}, {	-- RENOWN 12 --
 					}, {	-- RENOWN 13 --
 					}, {	-- RENOWN 14 --
+						i(242728),	-- The Bone Freezer (MOUNT!)
+						title(640),	-- Star Savior <Name>
 					}, {	-- RENOWN 15 --
 						spell(1239155),	-- Path of the All-Devouring
 					},
@@ -554,7 +553,12 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				BossOnly(FRACTILLUS, {
 					i(223094),	-- Design: Magnificent Jeweler's Setting (RECIPE!)
 				}),
-				BossOnly(SALHADAAR),
+				BossOnly(SALHADAAR, {
+					i(246727, {	-- Ethereal Essence Sliver
+						["description"] = "Has a small chance dropping as Personal Loot from Nexus-King Salhadaar once you have reached Renown 12 with the Manaforge Vandals.",
+						["minReputation"] = { FACTION_MANAFORGE_VANDALS, 12 },
+					}),
+				}),
 				BossOnly(DIMENSIUS, {
 					i(246565),	-- Cosmic Hearthstone (TOY!)
 					i(223144),	-- Formula: Enchant Weapon - Authority of the Depths (RECIPE!)
