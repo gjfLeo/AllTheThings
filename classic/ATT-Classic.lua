@@ -1535,7 +1535,10 @@ function app:GetDataCache()
 			end
 		});
 		local g = rootData.g;
-
+		
+		-----------------------------------------
+		-- P R I M A R Y   C A T E G O R I E S --
+		-----------------------------------------
 		-- Dungeons & Raids
 		if app.Categories.Instances then
 			tinsert(g, {
@@ -1612,7 +1615,10 @@ function app:GetDataCache()
 				g = app.Categories.ExpansionFeatures
 			});
 		end
-
+		
+		-----------------------------------------
+		-- L I M I T E D   C A T E G O R I E S --
+		-----------------------------------------
 		-- Character
 		if app.Categories.Character then
 			local db = {};
@@ -1621,14 +1627,6 @@ function app:GetDataCache()
 			db.name = db.text;
 			db.icon = app.asset("Category_ItemSets");
 			tinsert(g, db);
-		end
-
-		-- In-Game Store
-		if app.Categories.InGameShop then
-			tinsert(g, app.CreateNPC(app.HeaderConstants.IN_GAME_SHOP, {
-				g = app.Categories.InGameShop,
-				expanded = false
-			}));
 		end
 
 		-- PvP
@@ -1676,8 +1674,24 @@ function app:GetDataCache()
 				isEventCategory = true,
 			});
 		end
-
-		-- Dynamic Categories
+		
+		---------------------------------------
+		-- M A R K E T   C A T E G O R I E S --
+		---------------------------------------
+		-- Black Market
+		if app.Categories.BlackMarket then tinsert(g, app.Categories.BlackMarket[1]); end
+		
+		-- In-Game Store
+		if app.Categories.InGameShop then
+			tinsert(g, app.CreateNPC(app.HeaderConstants.IN_GAME_SHOP, {
+				g = app.Categories.InGameShop,
+				expanded = false
+			}));
+		end
+		
+		-----------------------------------------
+		-- D Y N A M I C   C A T E G O R I E S --
+		-----------------------------------------
 		if app.Windows then
 			local keys,sortedList = {},{};
 			for suffix,window in pairs(app.Windows) do

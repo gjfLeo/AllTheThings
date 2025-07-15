@@ -51,6 +51,7 @@
 
 -- Promotions & In-Game Shop
 -- #IMPORT: 12 - Promotions\\
+-- #IMPORT: 13 - Black Market Auction House\\
 -- #IMPORT: 13 - In-Game Shop\\
 
 -- PvP

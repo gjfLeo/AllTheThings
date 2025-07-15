@@ -762,6 +762,7 @@ localize(L.HEADER_NAMES, {
 	[-1000104] = ITEM_QUALITY5_DESC,
 	[-1000106] = ITEM_QUALITY0_DESC,
 	[-1000108] = "Thunderforged",
+	[-1000109] = string.format(GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, 3),
 	[-1000112] = "Warforged",
 	[-1000114] = "Patch 1.x.x",
 	[-1000115] = "Patch 2.x.x",
@@ -918,6 +919,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000029] = "This section contains Pet Battle related quests and tamers.",
 	[-1000030] = "This section will only show your current character's professions outside of Account and Debug Mode.",
 	[-1000033] = "Contains Things which are rewarded or are available from other content within the containing section.\nThey are consolidated here in an effort to reduce duplication from many possible Sources.",
+	[-1000083] = "Instead of buying items from other players like the regular Auction House, items on the Black Market are generated and listed by NPCs. The items are listed for one day only. The items for sale vary from items that were made unobtainable, to rare drops and TCG items. All items are listed infrequently, so it should not be seen as a reliable way to farm rarities.\n\n  Mount bids start at 20,000g, with some exceptions.\n  Companion bids start between 1g and 20,000g, depending on the original source and how hard it is to get.\n  Vanity/misc items start between 10,000g and 15,000g.\n\nBidding works like the regular Auction House. There is no buyout price. The sky (or the gold cap) is the limit when competing with other players for the final bid. With a successful purchase, the item is sent in the mail. Normal Bind on Pickup rules apply, so you must bid on the correct character.\n\nThe supply of items is realm-based. Each realm will have different items for sale at any one time and prices are likely to vary wildly from server to server.\n\nIf empty, the item window will list \"There are no items at this time. Please check back later.\"",
 	[-1000097] = "This section will show you things that you could buy in the In-Game Shop in Retail.",
 	[-1000162] = "The items in this list are shared appearances for the above item. In Unique Appearance Mode, this list can help you understand why or why not a specific item would be marked Collected.",
 	[-1000163] = "This item has a Unique Appearance. You must collect this item specifically to earn the appearance.",
@@ -1032,6 +1034,7 @@ localize(L.HEADER_ICONS, {
 	[-1000104] = _.asset("weapon_type_legendary"),
 	[-1000106] = 135025,
 	[-1000108] = 839979,
+	[-1000109] = 236489,
 	[-1000112] = 450907,
 	[-1000114] = _.asset("expansion_classic"),
 	[-1000115] = _.asset("expansion_tbc"),
@@ -1229,11 +1232,6 @@ localize(L.EVENT_REMAPPING, {
 });
 
 -- Programmatic Event Scheduling
-_.Modules.Events.SetEventInformation(133899, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=4,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=6,["year"]=2027})
-});
 _.Modules.Events.SetEventInformation(444, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=14,["weekday"]=3,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=26,["weekday"]=4,["year"]=2025})
 });
@@ -1299,6 +1297,11 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=4,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=4,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
+});
+_.Modules.Events.SetEventInformation(133899, {
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=4,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=6,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133889, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
@@ -18193,6 +18196,7 @@ localize(L.HEADER_NAMES, {
 	[-1000059] = "Последний Сундук",
 	[-1000100] = "Элитный",
 	[-1000108] = "Создано в Кузне Грома",
+	[-1000109] = "Комплект 3-го уровня",
 	[-1000127] = select(2,GetAchievementInfo(2091))..": Сезон 1",
 	[-1000128] = select(2,GetAchievementInfo(418))..": Сезон 2",
 	[-1000129] = select(2,GetAchievementInfo(419))..": Сезон 3",
@@ -23444,6 +23448,7 @@ localize(L.HEADER_NAMES, {
 	[-1000059] = "Cofre final",
 	[-1000069] = "Reliquias",
 	[-1000108] = "Forjas del trueno",
+	[-1000109] = "Conjunto de nivel 3",
 	[-1000112] = "Forjado por la guerra",
 	[-1000114] = "Parche 1.x.x",
 	[-1000115] = "Parche 2.x.x",
@@ -26185,6 +26190,7 @@ localize(L.HEADER_NAMES, {
 	[-1000059] = "最终宝箱",
 	[-1000103] = ITEM_QUALITY7_DESC,
 	[-1000108] = "雷霆",
+	[-1000109] = "T3套装",
 	[-1000127] = select(2,GetAchievementInfo(2091)).."：第1赛季",
 	[-1000128] = select(2,GetAchievementInfo(418)).."：第2赛季",
 	[-1000129] = select(2,GetAchievementInfo(419)).."：第3赛季",
@@ -28478,6 +28484,7 @@ localize(L.HEADER_NAMES, {
 	[-1000057] = "第二個箱子",
 	[-1000058] = "第三個箱子",
 	[-1000059] = "最後的箱子",
+	[-1000109] = "T3套裝",
 	[-1000127] = select(2,GetAchievementInfo(2091)).."：第1賽季",
 	[-1000128] = select(2,GetAchievementInfo(418)).."：第2賽季",
 	[-1000129] = select(2,GetAchievementInfo(419)).."：第3賽季",

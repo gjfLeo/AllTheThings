@@ -143,8 +143,8 @@ local BubbleDownKeyWarnings = {
 applyData = function(data, t)
 	if data and t then
 		for key, value in pairs(data) do
-			if t[key] == nil then	-- don't replace existing data
-				if SharedKeyWarnings[key] then
+			if t[key] == nil and key ~= "IgnoreWarnings" then	-- don't replace existing data
+				if SharedKeyWarnings[key] and not data.IgnoreWarnings then
 					print(SharedKeyWarnings[key],"[",value,"]")
 				end
 				t[key] = clone(value)
@@ -274,9 +274,11 @@ bubbleDown = function(data, t)
 	if not t then
 		print("ERROR: bubbleDown: No Source 't'")
 	end
-	for key,val in pairs(data) do
-		if BubbleDownKeyWarnings[key] then
-			print(BubbleDownKeyWarnings[key],"[",val,"]")
+	if not data.IgnoreWarnings then
+		for key,val in pairs(data) do
+			if BubbleDownKeyWarnings[key] then
+				print(BubbleDownKeyWarnings[key],"[",val,"]")
+			end
 		end
 	end
 	if t then
