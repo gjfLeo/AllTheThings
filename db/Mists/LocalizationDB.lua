@@ -5075,6 +5075,7 @@ local ObjectNames = {
 	[307307] = "Broken Barrel",
 	[307330] = "Captain's Footlocker",
 	[375544] = "Wooden Figurine",
+	[420873] = "Ritual Book",
 	[100000000] = "Archaeologist's Cart",
 	[100000001] = "Unlit Torch",
 }; _.ObjectNames = ObjectNames;
@@ -8188,6 +8189,7 @@ local ObjectModels = {
 	[307307] = 199567,
 	[307330] = 198238,
 	[375544] = 201094,
+	[420873] = 1125316,
 	[100000001] = 201129,
 }; _.ObjectModels = ObjectModels;
 
@@ -11101,6 +11103,7 @@ localize(ObjectNames, {
 	[307307] = "Zerbrochenes Fass",
 	[307330] = "Schließkiste des Kapitäns",
 	[375544] = "Holzstatuette",
+	[420873] = "Ritualbuch",
 	[100000001] = "Nicht angezündete Fackel",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Freudenfeuer der Allianz"; end
@@ -13656,6 +13659,7 @@ localize(ObjectNames, {
 	[307307] = "Tonneau cassé",
 	[307330] = "Cantine du capitaine",
 	[375544] = "Figurine en bois",
+	[420873] = "Livre du rituel",
 	[100000001] = "Torche éteinte",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Feu de joie de l'Alliance"; end
@@ -15731,6 +15735,7 @@ localize(ObjectNames, {
 	[307277] = "Vecchio Fiasco",
 	[307307] = "Barile Spezzato",
 	[307330] = "Scrigno del Capitano",
+	[420873] = "Libro Rituale",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Falò dell'Alleanza"; end
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "Secchio delle Caramelle"; end
@@ -20722,6 +20727,7 @@ localize(ObjectNames, {
 	[307307] = "Разбитая бочка",
 	[307330] = "Сундучок капитана",
 	[375544] = "Деревянная статуэтка",
+	[420873] = "Обрядовая книга",
 	[100000001] = "Незажженный факел",
 });
 for i,objectID in ipairs(ALLIANCE_BONFIRES) do ObjectNames[objectID] = "Большой костер Альянса"; end
@@ -26149,6 +26155,9 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000284] = "¡Es el aniversario de World of Warcraft! Desde el equipo de desarrollo de WoW, te damos las gracias por disfrutar del mundo de Azeroth y más allá junto a nosotros.",
 	[-1000850] = "Contiene cosas que se obtienen como recompensa al completar este escenario.",
 });
+localize(ObjectNames, {
+	[420873] = "Libro ritual",
+});
 for key,value in pairs({
 	[2] = "Removido del juego",
 })
@@ -28645,6 +28654,7 @@ localize(ObjectNames, {
 	[208316] = "英雄召喚告示板",
 	[208317] = "大酋長的命令告示板",
 	[209325] = "風石",
+	[420873] = "儀式之書",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({
