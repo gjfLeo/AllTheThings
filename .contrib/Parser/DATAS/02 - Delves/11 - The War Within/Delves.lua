@@ -184,7 +184,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_0_SEASONSTART, REMOVED_11_2_0 } }, {
 			ach(41709),	-- Journey's End (Season 2)
 			ach(41531, {	-- The Hataclysm
-				["description"] = "After you've defeated the Underpin once, Ask Brann to change his hat 10 times at his spot in Dornogal.",
+				["description"] = "After you've defeated the Underpin once (specifically on '?' difficulty; '??' won't unlock this achievement), Ask Brann to change his hat 10 times at his spot in Dornogal.",
 				["provider"] = { "n", 206017 },	-- Brann Bronzebeard
 				["coord"] = { 47.6, 44.6, DORNOGAL },
 				["sourceAchievement"] = 41530,	-- My New Nemesis
