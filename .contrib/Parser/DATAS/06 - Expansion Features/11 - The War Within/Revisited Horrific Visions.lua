@@ -1185,7 +1185,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(87386, {name="Completion & 5 Mask"}),	-- All district was cleared  (5 masks), pop after killing Thrall // reward lockout questID?
 		q(88912, {name="Completion & 5 Mask"}),	-- All district was cleared  (5 masks), pop after killing Thrall // reward lockout questID?
 		q(88913),	-- Popped in Orgrimmar
-		--q(88914),	-- Popped in Stormwind
+		q(88914),	-- Popped in Stormwind
 		q(88915),	-- First 8 Mask Vision of Stormwind?
 	}),
 })));

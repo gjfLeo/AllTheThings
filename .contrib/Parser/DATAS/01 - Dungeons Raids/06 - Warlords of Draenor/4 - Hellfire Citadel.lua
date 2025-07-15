@@ -112,6 +112,11 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				})),
 				cr(90316, e(1433, {	-- Shadow-Lord Iskar
 				})),
+				cr(91331, e(1438, {	-- Archimonde
+					i(212780, {	-- Grimoire of the Felbrute Tyrant (CI!)
+						["timeline"] = { ADDED_10_2_5 },
+					}),
+				})),
 			}),
 			d(DIFFICULTY.RAID.LFR, {	-- Queue NPC
 				["crs"] = { 94870 },	-- Seer Kazal <Shadowmoon Exile>
@@ -320,9 +325,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				}),
 				header(HEADERS.Achievement, 10019, {	-- The Black Gate
 					cr(91331, e(1438, {	-- Archimonde
-						i(212780, {	-- Grimoire of the Felbrute Tyrant (CI!)
-							["timeline"] = { ADDED_10_2_5 },
-						}),
 						i(128199),	-- Fractured Soulgem Staff
 						i(128201),	-- Greatsword of Chaos
 						i(128044),	-- Voidsight Hood
@@ -420,9 +422,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 					ach(10073),	-- Echoes of Doomfire
 					ach(9680, {	-- Time is a Flat Circle
 						["timeline"] = { ADDED_6_2_0, REMOVED_7_0_3 },
-					}),
-					i(212780, {	-- Grimoire of the Felbrute Tyrant (CI!)
-						["timeline"] = { ADDED_10_2_5 },
 					}),
 					un(REMOVED_FROM_GAME, i(127785)),	-- Crystallized Fel
 				})),

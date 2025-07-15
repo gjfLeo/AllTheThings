@@ -246,6 +246,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { AD
 		i(168645, {["timeline"] = {ADDED_8_2_0}}),	-- Moist Fillet
 		i(174353, {["timeline"] = {ADDED_8_3_0}}),	-- Questionable Meat
 		i(168303, {["timeline"] = {ADDED_8_2_0}}),	-- Rubbery Flank
+		i(168138, {["timeline"] = {ADDED_8_1_5}}),	-- Spirit of the Bested
 		i(154897),	-- Stringy Loins
 		i(154899),	-- Thick Paleo Steak
 		i(152576),	-- Tidespray Linen

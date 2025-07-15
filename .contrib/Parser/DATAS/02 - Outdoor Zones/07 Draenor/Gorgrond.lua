@@ -2362,14 +2362,12 @@ root(ROOTS.Zones, {
 						q(36603, {	-- Brimstone Springs
 							["coord"] = { 40.4, 54.6, GORGROND },
 						}),
-						q(37921, {	-- Clearing the Docks (A)
+						q(37921, {	-- Clearing the Docks
 							["lvl"] = 100,
-							["races"] = ALLIANCE_ONLY,
 							["sourceQuests"] = { 36615 },	-- My Very Own Castle (A)
 						}),
-						q(38569, {	-- Clearing the Docks (H)
+						q(38569, {	-- Clearing the Docks
 							["lvl"] = 100,
-							["races"] = HORDE_ONLY,
 							["sourceQuests"] = { 36614 },	-- My Very Own Fortress (H)
 						}),
 						q(36571, {	-- Iyun Weald
@@ -2579,9 +2577,10 @@ root(ROOTS.Zones, {
 					n(86574, {	-- Inventor Blammo
 						["questID"] = 37367,
 						["isDaily"] = true,
-						["coord"] = { 47.6, 30.8, GORGROND },	-- **Coords unconfirmed, relied on wowhead**
+						["coord"] = { 47.6, 30.8, GORGROND },
 						["lvl"] = 100,
 						["g"] = {
+							i(119438),	-- Automated Critter Defense Cannon
 							i(119226),	-- Blammo's Blammer
 						},
 					}),

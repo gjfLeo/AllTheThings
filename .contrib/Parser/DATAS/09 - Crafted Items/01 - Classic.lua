@@ -4218,7 +4218,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 					["description"] = "Can be found on uneven terrain and mountain sides.",
 				}),
 			}),
-			n(MISC, {
+			filter(MISC, {
 				i(11020, bubbleDownSelf({ ["timeline"] = { REMOVED_4_0_3 } }, {	-- Evergreen Pouch
 					["cost"] = {
 						{ "i", 11018, 2 },	-- Un'Goro Soil

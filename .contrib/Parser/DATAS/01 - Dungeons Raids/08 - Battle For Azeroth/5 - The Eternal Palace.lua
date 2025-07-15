@@ -556,6 +556,11 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					},
 				}),
 			}),
+			d(DIFFICULTY.RAID.MULTI.HEROIC_PLUS, {
+				cr(150859, e(2349, {	-- Za'qul, Harbinger of Ny'alotha
+					i(168868),	-- Pauldrons of Za'qul
+				})),
+			}),
 			d(DIFFICULTY.RAID.HEROIC, {
 				n(ZONE_DROPS, {
 					i(169930),	-- Handwraps of Unhindered Resonance
@@ -695,7 +700,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					["g"] = {
 						i(168902),	-- Dream's End
 						i(168301),	-- Sever, Edge of Madness
-						i(168868),	-- Pauldrons of Za'qul
 						i(168349),	-- Shroud of Unmooring Whispers
 						i(169588),	-- Gardbrace of Fractured Reality
 						i(168391),	-- Cloak of Ill Tidings
@@ -876,7 +880,6 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 						ach(13732),	-- Mythic: Za'qul
 						i(168902),	-- Dream's End
 						i(168301),	-- Sever, Edge of Madness
-						i(168868),	-- Pauldrons of Za'qul
 						i(168349),	-- Shroud of Unmooring Whispers
 						i(169588),	-- Gardbrace of Fractured Reality
 						i(168391),	-- Cloak of Ill Tidings

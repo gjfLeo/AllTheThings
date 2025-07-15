@@ -40,11 +40,6 @@ i(139398);	-- Pant Loaf
 i(151492);	-- Bronze Drake
 -- BFA Vendor
 i(162588);	-- Weathered Scrollcase
--- BFA Trash drops available during quest
-i(168006);	-- Wilted Direbloom Petal
-i(168007);	-- Torn Direbloom Petal
-i(168008);	-- Young Direbloom Petal
-i(168009);	-- Rotten Direbloom Petal
 -- SL
 i(184412);	-- Title Reward: Spirestalker
 i(187499);	-- Sculpted Elethium Orb
@@ -257,6 +252,10 @@ i(10922);	-- Wound Poison IV
 -----------------
 -- PATCH 4.0.3 --
 -----------------
+-- #if AFTER CATA
+i(22393);	-- Codex: Prayer of Shadow Protection
+i(22891);	-- Grimoire of Shadow Ward
+-- #endif
 i(62370);	-- Bear Whisker
 i(60406);	-- Blood-Caked Incisors
 i(56149);	-- Empty Town-In-A-Box
@@ -456,6 +455,7 @@ i(166874);	-- Azerothian Diamond Brooch
 i(166856);	-- Bwonsamdi Ritual Scepter
 i(166868);	-- Chit of the Black Empire
 i(166798);	-- Crackling Tourmaline (Opulence Crown Consumable)
+i(166862);	-- Crystal Aqiri Skull
 i(166800);	-- Diamond of Sustenance (Opulence Crown Consumable)
 i(166867);	-- Embossed Silver Bijou
 i(166799);	-- Emerald of Vigor (Opulence Crown Consumable)
@@ -473,6 +473,10 @@ i(166859);	-- Zinj'alor Blue Diamond
 -- PATCH 8.2.0 --
 -----------------
 i(165668);	-- Azsharan Medallion
+i(168006);	-- Wilted Direbloom Petal
+i(168007);	-- Torn Direbloom Petal
+i(168008);	-- Young Direbloom Petal
+i(168009);	-- Rotten Direbloom Petal
 i(169130);	-- Bent Cogwheel
 i(170030);	-- Burned Codex
 i(169128);	-- Chilled Heating Block

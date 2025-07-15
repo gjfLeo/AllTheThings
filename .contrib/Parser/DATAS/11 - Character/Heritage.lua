@@ -1004,12 +1004,11 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["sourceQuests"] = { 72467 },	-- The Blessing of the Clan
 				["providers"] = {
 					{ "n", 199173 },	-- Thrall
-					-- maybe given by who you chose in previous quest?
-					-- { "n", TODO },	-- Eitrigg
-					-- { "n", TODO },	-- Jorin Deadeye
-					-- { "n", TODO },	-- Gorgonna
-					-- { "n", TODO },	-- Gorfax Angerfang
-					-- { "n", TODO },	-- Thega Graveblade
+					{ "n", 199152 },	-- Eitrigg
+					{ "n", 200616 },	-- Jorin Deadeye
+					{ "n", 199154 },	-- Gorgonna
+					{ "n", 199156 },	-- Gorfax Angerfang
+					{ "n", 199151 },	-- Thega Graveblade
 				},
 				["coord"] = { 52.3, 42.9, DUROTAR },
 			}),

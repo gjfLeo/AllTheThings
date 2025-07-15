@@ -201,3 +201,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 		},
 	})),
 }));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_1_7 } }, {
+	n(LOREWALKING, {
+		q(91025),	-- After completing Lorewalking: Blade's Bane
+		q(91027),	-- After completing Lorewalking: The Lich King
+		q(91028),	-- After completing Lorewalking: Ethereal Wisdom
+	}),
+})));

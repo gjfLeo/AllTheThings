@@ -500,6 +500,7 @@ local QUANTUM_GROUP = sharedData({
 		ig(3222),	-- Wicked Dagger						(NYI)
 
 		ig(14151),	-- Chanting Blade						(Removed)
+		ig(134725),	-- Cold-Touched Mageblade				(Removed)
 		ig(134718),	-- Cold-Touched Shanker					(Removed)
 		ig(134748),	-- Covert Shanker						(Removed)
 		ig(37597),	-- Direbrew's Shanker					(Removed)
@@ -608,7 +609,6 @@ local QUANTUM_GROUP = sharedData({
 
 		ig(68195),	-- Bazzalan's Blade						(Removed)
 		ig(19110),	-- Cold Forged Blade					(Removed)
-		ig(134725),	-- Cold-Touched Mageblade				(Removed)
 		ig(134726),	-- Cold-Touched Sword					(Removed)
 		ig(134758),	-- Covert Mageblade						(Removed)
 		ig(14145),	-- Cursed Felblade						(Removed)

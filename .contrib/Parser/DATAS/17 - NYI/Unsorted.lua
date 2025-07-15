@@ -3411,7 +3411,6 @@ root(ROOTS.Unsorted, {
 			i(166855),	-- Obsidian Statue of Kith'ix
 			i(166857),	-- Bethekk's Emerald Eyes
 			i(166860),	-- Azj'Aqir Onyx Stone
-			i(166862),	-- Crystal Aqiri Skull
 			i(166863),	-- Farrakki Star Rubies
 			i(166864),	-- Engraved Amani Spearpoints
 			i(166871),	-- Jeweled Pyrium Goblet
@@ -3488,7 +3487,6 @@ root(ROOTS.Unsorted, {
 			i(168134),	-- Fine Azerite Powder
 			i(168135),	-- Titan's Blood
 			i(168137),	-- Precision Blessing Tools
-			i(168138),	-- Spirit of the Bested
 			i(168141),	-- Ice-Encased Ancient Blood Pigment
 			i(168147),	-- Just a Stone
 			i(168148),	-- A "Just Right" Stone
