@@ -601,6 +601,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		}),
 		i(169430, {	-- Unclaimed Black Market Container [8.2.5+]
 			["timeline"] = { ADDED_8_2_5 },
+			["skipFill"] = true,
 			["sym"] = {
 				{"select", "headerID", BLACK_MARKET_AUCTION_HOUSE },		-- Select BMAH header
 				{"pop"},							-- Pop the header
@@ -611,6 +612,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		i(141995, {	-- Unclaimed Black Market Container [7.0.3+]
 			["timeline"] = { ADDED_7_0_3, REMOVED_8_2_5 },
 			-- #if BEFORE 8.2.5
+			["skipFill"] = true,
 			["sym"] = {
 				{"select", "headerID", BLACK_MARKET_AUCTION_HOUSE },		-- Select BMAH header
 				{"pop"},							-- Pop the header
@@ -622,6 +624,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		i(127995, {	-- Unclaimed Black Market Container [6.2.0+]
 			["timeline"] = { ADDED_6_2_0, REMOVED_7_0_3 },
 			-- #if BEFORE 7.0.3
+			["skipFill"] = true,
 			["sym"] = {
 				{"select", "headerID", BLACK_MARKET_AUCTION_HOUSE },		-- Select BMAH header
 				{"pop"},							-- Pop the header
@@ -633,6 +636,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		i(110592, {	-- Unclaimed Black Market Container [6.0.2+]
 			["timeline"] = { ADDED_6_0_2, REMOVED_6_2_0 },
 			-- #if BEFORE 6.2.0
+			["skipFill"] = true,
 			["sym"] = {
 				{"select", "headerID", BLACK_MARKET_AUCTION_HOUSE },		-- Select BMAH header
 				{"pop"},							-- Pop the header
@@ -644,6 +648,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		i(102137, {	-- Unclaimed Black Market Container [5.4.0+]
 			["timeline"] = { ADDED_5_4_0, REMOVED_6_0_2 },
 			-- #if BEFORE 6.0.2
+			["skipFill"] = true,
 			["sym"] = {
 				{"select", "headerID", BLACK_MARKET_AUCTION_HOUSE },		-- Select BMAH header
 				{"pop"},							-- Pop the header
@@ -655,6 +660,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		i(97565, {	-- Unclaimed Black Market Container [5.1.0+]
 			["timeline"] = { ADDED_5_1_0, REMOVED_5_4_0 },
 			-- #if BEFORE 5.4.0
+			["skipFill"] = true,
 			["sym"] = {
 				{"select", "headerID", BLACK_MARKET_AUCTION_HOUSE },		-- Select BMAH header
 				{"pop"},							-- Pop the header
