@@ -374,7 +374,12 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 			d(DIFFICULTY.DUNGEON.MYTHIC, {
 				n(ACHIEVEMENTS, {
 					ach(11433, {	-- Burn After Reading
-						["provider"] = { "o", 265602 },	-- Sealed Tome
+						["providers"] = {
+							{ "o", 265597 },	-- Sealed Tome
+							{ "o", 265599 },	-- Sealed Tome
+							{ "o", 265600 },	-- Sealed Tome
+							{ "o", 265602 },	-- Sealed Tome
+						},
 						["groups"] = {
 							crit(34852, {	-- Legacy of the Mountain King
 								["provider"] = { "i", 142049 },	-- Legacy of the Mountain King
