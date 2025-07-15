@@ -6456,6 +6456,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 						}),
 					}),
 					filter(COSMETIC, {
+						i(244836, {	-- Cane of the Runic Wanderer
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 						i(234954, {	-- Corrupted Knot
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 							["timeline"] = { ADDED_11_0_7 },
@@ -6495,17 +6499,33 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1800 }},
 							["timeline"] = { ADDED_11_0_7 },
 						}),
+						i(244834, {	-- Hippogryph Lancer's Magespear
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 						i(234949, {	-- Howling Echoes
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1800 }},
-							["timeline"] = { ADDED_11_0_7 },
-						}),
-						i(234957, {	-- Monstrous Gluttony
-							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
 							["timeline"] = { ADDED_11_0_7 },
 						}),
 						i(234959, {	-- Key to the Halls
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(244830, {	-- Krokuun Tunneler's Axe
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244837, {	-- Mage-Forged Dragonblade
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(234957, {	-- Monstrous Gluttony
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(244828, {	-- Nightforged Spellblade
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1500 }},
+							["timeline"] = { ADDED_11_1_7 },
 						}),
 						i(227294, {	-- Ravencrest's Wrath
 							["modID"] = 14,
@@ -6519,10 +6539,26 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
 							["timeline"] = { ADDED_11_0_7 },
 						}),
+						i(244823, {	-- Silver Dragonblade of the Resistance
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
 						i(227287, {	-- Skovald's Resolve
 							["modID"] = 14,
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 2000 }},
 							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(244833, {	-- Stonedark Chieftain's Bartered Tool
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1200 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244824, {	-- Time-Lost Dreadbow of the Banshee
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
+							["timeline"] = { ADDED_11_1_7 },
+						}),
+						i(244827, {	-- Valarjar Sparring Buckler
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["timeline"] = { ADDED_11_1_7 },
 						}),
 					}),
 					filter(MISC, {

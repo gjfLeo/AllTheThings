@@ -1187,15 +1187,6 @@ root(ROOTS.Unsorted, {
 				i(244652),	-- Prayer Beacon of the Goddess
 				i(244680),	-- Morchie's Desynchronized Chime
 				i(244681),	-- Pyrewood Silver Blade
-				i(244823),	-- Blackrook Dragonblade
-				i(244824),	-- Time-Lost Dreadbow of the Banshee
-				i(244827),	-- Valarjar Sparring Buckler
-				i(244828),	-- Nightforged Spellblade
-				i(244830),	-- Krokuun Tunneler's Axe
-				i(244833),	-- Stonedark Chieftain's Bartered Tool
-				i(244834),	-- Hippogryph Lancer's Magespear
-				i(244836),	-- Cane of the Runic Wanderer
-				i(244837),	-- Rookforged Dragonblade
 			}),
 			filter(MOUNTS, {
 				i(243590),	-- Grandmaster's Deep Board
