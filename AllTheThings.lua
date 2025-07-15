@@ -416,21 +416,29 @@ local ResolveFunctions = {
 	end,
 	-- Instruction to include only search results where a key value is not a value
 	["not"] = function(finalized, searchResults, o, cmd, field, ...)
-		local vals = select("#", ...);
-		if vals < 1 then
-			app.print("'",cmd,"' had empty value set")
-			return;
-		end
-		local result, value;
-		for k=#searchResults,1,-1 do
-			result = searchResults[k];
-			for i=1,vals do
-				value = select(i, ...);
-				if result[field] == value then
+		local values = {...};
+		if #values > 1 then
+			local matches = {};
+			for i,o in ipairs(values) do
+				matches[o] = true;
+			end
+			for k=#searchResults,1,-1 do
+				local result = searchResults[k];
+				local value = result[field];
+				if value and matches[value] then
 					tremove(searchResults, k);
-					break;
 				end
 			end
+		elseif #values == 1 then
+			local value = values[1];
+			for k=#searchResults,1,-1 do
+				local result = searchResults[k];
+				if result[field] and result[field] == value then
+					tremove(searchResults, k);
+				end
+			end
+		else
+			app.print("'",cmd,"' had empty value set")
 		end
 	end,
 	-- Instruction to include only search results where a key exists
@@ -2578,6 +2586,9 @@ function app:GetDataCache()
 	});
 	local g, db = rootData.g, nil;
 
+	-----------------------------------------
+	-- P R I M A R Y   C A T E G O R I E S --
+	-----------------------------------------
 	-- Dungeons & Raids
 	db = app.CreateRawText(GROUP_FINDER);
 	db.g = app.Categories.Instances;
@@ -2696,7 +2707,10 @@ function app:GetDataCache()
 		db = app.CreateNPC(app.HeaderConstants.SECRETS, app.Categories.Secrets);
 		tinsert(g, db);
 	end
-
+	
+	-----------------------------------------
+	-- L I M I T E D   C A T E G O R I E S --
+	-----------------------------------------
 	-- Character
 	if app.Categories.Character then
 		db = app.CreateRawText(CHARACTER);
@@ -2704,6 +2718,12 @@ function app:GetDataCache()
 		db.icon = app.asset("Category_ItemSets");
 		tinsert(g, db);
 	end
+
+	---------------------------------------
+	-- M A R K E T   C A T E G O R I E S --
+	---------------------------------------
+	-- Black Market
+	if app.Categories.BlackMarket then tinsert(g, app.Categories.BlackMarket[1]); end
 
 	-- In-Game Store
 	if app.Categories.InGameShop then
@@ -2716,13 +2736,6 @@ function app:GetDataCache()
 		db = app.CreateRawText(L.TRADING_POST);	-- Probably some global string Later
 		db.g = app.Categories.TradingPost;
 		db.icon = app.asset("Category_TradingPost");
-		tinsert(g, db);
-	end
-
-	-- Black Market
-	if app.Categories.BlackMarket then
-		db = app.CreateNPC(app.HeaderConstants.BLACK_MARKET_AUCTION_HOUSE, app.Categories.BlackMarket);
-		db.icon = app.asset("Category_Blackmarket");
 		tinsert(g, db);
 	end
 

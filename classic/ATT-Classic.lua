@@ -391,30 +391,25 @@ ResolveSymbolicLink = function(o)
 					end
 				end
 			elseif cmd == "not" then
-				-- Instruction to include only search results where a key value is not a value
+				-- Instruction to include only search results where a key value for a field is not a value
+				local field = sym[2];
 				if #sym > 3 then
-					local dict = {};
-					for k=2,#sym,2 do
-						dict[sym[k] ] = sym[k + 1];
+					local matches = {};
+					for k=3,#sym,1 do
+						matches[sym[k]] = true;
 					end
 					for k=#searchResults,1,-1 do
 						local result = searchResults[k];
-						local matched = true;
-						for key,value in pairs(dict) do
-							if not result[key] or result[key] ~= value then
-								matched = false;
-								break;
-							end
-						end
-						if matched then
+						local value = result[field];
+						if value and matches[value] then
 							tremove(searchResults, k);
 						end
 					end
 				else
-					local key, value = sym[2], sym[3];
+					local value = sym[3];
 					for k=#searchResults,1,-1 do
 						local result = searchResults[k];
-						if result[key] and result[key] == value then
+						if result[field] and result[field] == value then
 							tremove(searchResults, k);
 						end
 					end
