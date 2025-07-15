@@ -270,7 +270,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 		-- #endif
 		filter(MOUNTS, {
 			i(143643, {	-- Abyss Worm (MOUNT!)
-				["timeline"] = { ADDED_9_0_1 },	-- CRIEVE NOTE: Was this available immediately after being added to TOS?
+				["timeline"] = { ADDED_8_2_5 },
 			}),
 			i(168830, {	-- Aerial Unit R-21/X
 				["timeline"] = { ADDED_10_1_5 },
@@ -304,7 +304,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 				["timeline"] = { ADDED_8_2_5 },
 			}),
 			i(137574, {	-- Felblaze Infernal (MOUNT!)
-				["timeline"] = { ADDED_9_0_1 },	-- CRIEVE NOTE: Was this available immediately after being added to Nighthold?
+				["timeline"] = { ADDED_8_2_5 },
 			}),
 			i(123890, {	-- Felsteel Annihilator (MOUNT!)
 				["timeline"] = { ADDED_8_2_5 },
@@ -412,7 +412,7 @@ root(ROOTS.BlackMarket, n(BLACK_MARKET_AUCTION_HOUSE, bubbleDownSelf({ ["timelin
 			}),
 			i(63043),	-- Vitreous Stone Drake (MOUNT!)
 			i(152790, {	-- Vile Fiend (MOUNT!)
-				["timeline"] = { ADDED_9_0_1 },	-- CRIEVE NOTE: Was this available immediately after being added to Argus?
+				["timeline"] = { ADDED_8_2_5 },
 			}),
 			i(43962),	-- White Polar Bear (MOUNT!)
 			i(54068),	-- Wooly White Rhino (MOUNT!)
