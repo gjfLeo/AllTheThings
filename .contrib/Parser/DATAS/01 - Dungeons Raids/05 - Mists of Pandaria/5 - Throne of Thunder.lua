@@ -200,7 +200,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.CHEST, i(95987)),		-- Battleplate of the Last Mogu
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.GAUNTLETS, i(95988)),	-- Gauntlets of the Last Mogu
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.LEGS, i(95989)),		-- Legplates of the Last Mogu
-							
+
 							-- Tank
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.HELM, i(95993)),		-- Faceguard of the Last Mogu
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.SHOULDERS, i(95995)),	-- Shoulderguards of the Last Mogu
@@ -215,14 +215,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.CHEST, i(95910)),		-- Lightning Emperor's Battleplate
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.GAUNTLETS, i(95911)),	-- Lightning Emperor's Gauntlets
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.LEGS, i(95913)),	-- Lightning Emperor's Legplates
-							
+
 							-- Healer
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.HELM, i(95917)),		-- Lightning Emperor's Headguard
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.SHOULDERS, i(95919)),	-- Lightning Emperor's Mantle
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.CHEST, i(95915)),		-- Lightning Emperor's Breastplate
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.GAUNTLETS, i(95916)),	-- Lightning Emperor's Gloves
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.LEGS, i(95918)),		-- Lightning Emperor's Greaves
-							
+
 							-- Tank
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.HELM, i(95922)),		-- Lightning Emperor's Faceguard
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.SHOULDERS, i(95924)),	-- Lightning Emperor's Shoulderguards
@@ -237,7 +237,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.CHEST, i(95825)),		-- Breastplate of the All-Consuming Maw
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.GAUNTLETS, i(95826)),	-- Gauntlets of the All-Consuming Maw
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.LEGS, i(95828)),			-- Greaves of the All-Consuming Maw
-							
+
 							-- Tank
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.HELM, i(95832)),			-- Faceguard of the All-Consuming Maw
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.SHOULDERS, i(95834)),	-- Shoulderguards of the All-Consuming Maw
@@ -266,7 +266,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.CHEST, i(95933)),		-- Raiment of the Exorcist
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.GAUNTLETS, i(95930)),	-- Gloves of the Exorcist
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.LEGS, i(95932)),		-- Leggings of the Exorcist
-							
+
 							-- Healer
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.HELM, i(95926)),		-- Cowl of the Exorcist
 							tokencost(TOKENS.RAIDFINDER.CONQUEROR.SHOULDERS, i(95929)),	-- Mantle of the Exorcist
@@ -281,14 +281,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.CHEST, i(95945)),		-- Cuirass of the Witch Doctor
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.GAUNTLETS, i(95946)),	-- Grips of the Witch Doctor
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.LEGS, i(95948)),		-- Legguards of the Witch Doctor
-							
+
 							-- DPS (Elemental)
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.HELM, i(95952)),		-- Headpiece of the Witch Doctor
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.SHOULDERS, i(95954)),	-- Shoulderwraps of the Witch Doctor
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.CHEST, i(95950)),		-- Hauberk of the Witch Doctor
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.GAUNTLETS, i(95951)),	-- Gloves of the Witch Doctor
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.LEGS, i(95953)),		-- Kilt of the Witch Doctor
-							
+
 							-- Healer
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.HELM, i(95942)),		-- Faceguard of the Witch Doctor
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.SHOULDERS, i(95944)),	-- Mantle of the Witch Doctor
@@ -310,14 +310,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.CHEST, i(95895)),		-- Fire-Charm Tunic
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.GAUNTLETS, i(95896)),	-- Fire-Charm Grips
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.LEGS, i(95898)),		-- Fire-Charm Leggings
-							
+
 							-- Healer
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.HELM, i(95901)),		-- Fire-Charm Helm
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.SHOULDERS, i(95904)),	-- Fire-Charm Mantle
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.CHEST, i(95903)),		-- Fire-Charm Vest
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.GAUNTLETS, i(95900)),	-- Fire-Charm Handwraps
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.LEGS, i(95902)),		-- Fire-Charm Legwraps
-							
+
 							-- Tank
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.HELM, i(95907)),		-- Fire-Charm Crown
 							tokencost(TOKENS.RAIDFINDER.PROTECTOR.SHOULDERS, i(95909)),	-- Fire-Charm Shoulderguards
@@ -339,21 +339,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.CHEST, i(95848)),		-- Vestment of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.GAUNTLETS, i(95845)),	-- Gloves of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.LEGS, i(95847)),			-- Leggings of the Haunted Forest
-							
+
 							-- DPS (Feral)
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.HELM, i(95837)),			-- Headpiece of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.SHOULDERS, i(95839)),	-- Spaulders of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.CHEST, i(95835)),		-- Raiment of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.GAUNTLETS, i(95836)),	-- Grips of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.LEGS, i(95838)),			-- Legguards of the Haunted Forest
-							
+
 							-- Healer
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.HELM, i(95841)),			-- Helm of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.SHOULDERS, i(95844)),	-- Mantle of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.CHEST, i(95843)),		-- Robes of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.GAUNTLETS, i(95840)),	-- Handwraps of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.LEGS, i(95842)),			-- Legwraps of the Haunted Forest
-							
+
 							-- Tank
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.HELM, i(95852)),			-- Headguard of the Haunted Forest
 							tokencost(TOKENS.RAIDFINDER.VANQUISHER.SHOULDERS, i(95854)),	-- Shoulderguards of the Haunted Forest
@@ -374,7 +374,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.NORMAL.PROTECTOR.CHEST, i(95331)),		-- Battleplate of the Last Mogu
 							tokencost(TOKENS.NORMAL.PROTECTOR.GAUNTLETS, i(95332)),	-- Gauntlets of the Last Mogu
 							tokencost(TOKENS.NORMAL.PROTECTOR.LEGS, i(95333)),		-- Legplates of the Last Mogu
-							
+
 							-- Tank
 							tokencost(TOKENS.NORMAL.PROTECTOR.HELM, i(95337)),		-- Faceguard of the Last Mogu
 							tokencost(TOKENS.NORMAL.PROTECTOR.SHOULDERS, i(95339)),	-- Shoulderguards of the Last Mogu
@@ -389,14 +389,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.NORMAL.CONQUEROR.CHEST, i(95280)),		-- Lightning Emperor's Battleplate
 							tokencost(TOKENS.NORMAL.CONQUEROR.GAUNTLETS, i(95281)),	-- Lightning Emperor's Gauntlets
 							tokencost(TOKENS.NORMAL.CONQUEROR.LEGS, i(95283)),		-- Lightning Emperor's Legplates
-							
+
 							-- Healer
 							tokencost(TOKENS.NORMAL.CONQUEROR.HELM, i(95287)),		-- Lightning Emperor's Headguard
 							tokencost(TOKENS.NORMAL.CONQUEROR.SHOULDERS, i(95289)),	-- Lightning Emperor's Mantle
 							tokencost(TOKENS.NORMAL.CONQUEROR.CHEST, i(95285)),		-- Lightning Emperor's Breastplate
 							tokencost(TOKENS.NORMAL.CONQUEROR.GAUNTLETS, i(95286)),	-- Lightning Emperor's Gloves
 							tokencost(TOKENS.NORMAL.CONQUEROR.LEGS, i(95288)),		-- Lightning Emperor's Greaves
-							
+
 							-- Tank
 							tokencost(TOKENS.NORMAL.CONQUEROR.HELM, i(95292)),		-- Lightning Emperor's Faceguard
 							tokencost(TOKENS.NORMAL.CONQUEROR.SHOULDERS, i(95294)),	-- Lightning Emperor's Shoulderguards
@@ -411,7 +411,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.NORMAL.VANQUISHER.CHEST, i(95225)),		-- Breastplate of the All-Consuming Maw
 							tokencost(TOKENS.NORMAL.VANQUISHER.GAUNTLETS, i(95226)),	-- Gauntlets of the All-Consuming Maw
 							tokencost(TOKENS.NORMAL.VANQUISHER.LEGS, i(95228)),			-- Greaves of the All-Consuming Maw
-							
+
 							-- Tank
 							tokencost(TOKENS.NORMAL.VANQUISHER.HELM, i(95232)),			-- Faceguard of the All-Consuming Maw
 							tokencost(TOKENS.NORMAL.VANQUISHER.SHOULDERS, i(95234)),	-- Shoulderguards of the All-Consuming Maw
@@ -440,7 +440,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.NORMAL.CONQUEROR.CHEST, i(95303)),		-- Raiment of the Exorcist
 							tokencost(TOKENS.NORMAL.CONQUEROR.GAUNTLETS, i(95300)),	-- Gloves of the Exorcist
 							tokencost(TOKENS.NORMAL.CONQUEROR.LEGS, i(95302)),		-- Leggings of the Exorcist
-							
+
 							-- Healer
 							tokencost(TOKENS.NORMAL.CONQUEROR.HELM, i(95296)),		-- Cowl of the Exorcist
 							tokencost(TOKENS.NORMAL.CONQUEROR.SHOULDERS, i(95299)),	-- Mantle of the Exorcist
@@ -455,14 +455,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.NORMAL.PROTECTOR.CHEST, i(95315)),		-- Cuirass of the Witch Doctor
 							tokencost(TOKENS.NORMAL.PROTECTOR.GAUNTLETS, i(95316)),	-- Grips of the Witch Doctor
 							tokencost(TOKENS.NORMAL.PROTECTOR.LEGS, i(95318)),		-- Legguards of the Witch Doctor
-							
+
 							-- DPS (Elemental)
 							tokencost(TOKENS.NORMAL.PROTECTOR.HELM, i(95322)),		-- Headpiece of the Witch Doctor
 							tokencost(TOKENS.NORMAL.PROTECTOR.SHOULDERS, i(95324)),	-- Shoulderwraps of the Witch Doctor
 							tokencost(TOKENS.NORMAL.PROTECTOR.CHEST, i(95320)),		-- Hauberk of the Witch Doctor
 							tokencost(TOKENS.NORMAL.PROTECTOR.GAUNTLETS, i(95321)),	-- Gloves of the Witch Doctor
 							tokencost(TOKENS.NORMAL.PROTECTOR.LEGS, i(95323)),		-- Kilt of the Witch Doctor
-							
+
 							-- Healer
 							tokencost(TOKENS.NORMAL.PROTECTOR.HELM, i(95312)),		-- Faceguard of the Witch Doctor
 							tokencost(TOKENS.NORMAL.PROTECTOR.SHOULDERS, i(95314)),	-- Mantle of the Witch Doctor
@@ -484,14 +484,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.NORMAL.PROTECTOR.CHEST, i(95265)),		-- Fire-Charm Tunic
 							tokencost(TOKENS.NORMAL.PROTECTOR.GAUNTLETS, i(95266)),	-- Fire-Charm Grips
 							tokencost(TOKENS.NORMAL.PROTECTOR.LEGS, i(95268)),		-- Fire-Charm Leggings
-							
+
 							-- Healer
 							tokencost(TOKENS.NORMAL.PROTECTOR.HELM, i(95271)),		-- Fire-Charm Helm
 							tokencost(TOKENS.NORMAL.PROTECTOR.SHOULDERS, i(95274)),	-- Fire-Charm Mantle
 							tokencost(TOKENS.NORMAL.PROTECTOR.CHEST, i(95273)),		-- Fire-Charm Vest
 							tokencost(TOKENS.NORMAL.PROTECTOR.GAUNTLETS, i(95270)),	-- Fire-Charm Handwraps
 							tokencost(TOKENS.NORMAL.PROTECTOR.LEGS, i(95272)),		-- Fire-Charm Legwraps
-							
+
 							-- Tank
 							tokencost(TOKENS.NORMAL.PROTECTOR.HELM, i(95277)),		-- Fire-Charm Crown
 							tokencost(TOKENS.NORMAL.PROTECTOR.SHOULDERS, i(95279)),	-- Fire-Charm Shoulderguards
@@ -513,21 +513,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.NORMAL.VANQUISHER.CHEST, i(95248)),		-- Vestment of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.GAUNTLETS, i(95245)),	-- Gloves of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.LEGS, i(95247)),			-- Leggings of the Haunted Forest
-							
+
 							-- DPS (Feral)
 							tokencost(TOKENS.NORMAL.VANQUISHER.HELM, i(95237)),			-- Headpiece of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.SHOULDERS, i(95239)),	-- Spaulders of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.CHEST, i(95235)),		-- Raiment of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.GAUNTLETS, i(95236)),	-- Grips of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.LEGS, i(95238)),			-- Legguards of the Haunted Forest
-							
+
 							-- Healer
 							tokencost(TOKENS.NORMAL.VANQUISHER.HELM, i(95241)),			-- Helm of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.SHOULDERS, i(95244)),	-- Mantle of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.CHEST, i(95243)),		-- Robes of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.GAUNTLETS, i(95240)),	-- Handwraps of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.LEGS, i(95242)),			-- Legwraps of the Haunted Forest
-							
+
 							-- Tank
 							tokencost(TOKENS.NORMAL.VANQUISHER.HELM, i(95252)),			-- Headguard of the Haunted Forest
 							tokencost(TOKENS.NORMAL.VANQUISHER.SHOULDERS, i(95254)),	-- Shoulderguards of the Haunted Forest
@@ -548,7 +548,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.HEROIC.PROTECTOR.CHEST, i(96731)),		-- Battleplate of the Last Mogu
 							tokencost(TOKENS.HEROIC.PROTECTOR.GAUNTLETS, i(96732)),	-- Gauntlets of the Last Mogu
 							tokencost(TOKENS.HEROIC.PROTECTOR.LEGS, i(96733)),		-- Legplates of the Last Mogu
-							
+
 							-- Tank
 							tokencost(TOKENS.HEROIC.PROTECTOR.HELM, i(96737)),		-- Faceguard of the Last Mogu
 							tokencost(TOKENS.HEROIC.PROTECTOR.SHOULDERS, i(96739)),	-- Shoulderguards of the Last Mogu
@@ -563,14 +563,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.HEROIC.CONQUEROR.CHEST, i(96654)),		-- Lightning Emperor's Battleplate
 							tokencost(TOKENS.HEROIC.CONQUEROR.GAUNTLETS, i(96655)),	-- Lightning Emperor's Gauntlets
 							tokencost(TOKENS.HEROIC.CONQUEROR.LEGS, i(96657)),		-- Lightning Emperor's Legplates
-							
+
 							-- Healer
 							tokencost(TOKENS.HEROIC.CONQUEROR.HELM, i(96661)),		-- Lightning Emperor's Headguard
 							tokencost(TOKENS.HEROIC.CONQUEROR.SHOULDERS, i(96663)),	-- Lightning Emperor's Mantle
 							tokencost(TOKENS.HEROIC.CONQUEROR.CHEST, i(96659)),		-- Lightning Emperor's Breastplate
 							tokencost(TOKENS.HEROIC.CONQUEROR.GAUNTLETS, i(96660)),	-- Lightning Emperor's Gloves
 							tokencost(TOKENS.HEROIC.CONQUEROR.LEGS, i(96662)),		-- Lightning Emperor's Greaves
-							
+
 							-- Tank
 							tokencost(TOKENS.HEROIC.CONQUEROR.HELM, i(96666)),		-- Lightning Emperor's Faceguard
 							tokencost(TOKENS.HEROIC.CONQUEROR.SHOULDERS, i(96668)),	-- Lightning Emperor's Shoulderguards
@@ -585,7 +585,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.HEROIC.VANQUISHER.CHEST, i(96569)),		-- Breastplate of the All-Consuming Maw
 							tokencost(TOKENS.HEROIC.VANQUISHER.GAUNTLETS, i(96570)),	-- Gauntlets of the All-Consuming Maw
 							tokencost(TOKENS.HEROIC.VANQUISHER.LEGS, i(96572)),			-- Greaves of the All-Consuming Maw
-							
+
 							-- Tank
 							tokencost(TOKENS.HEROIC.VANQUISHER.HELM, i(96576)),			-- Faceguard of the All-Consuming Maw
 							tokencost(TOKENS.HEROIC.VANQUISHER.SHOULDERS, i(96578)),	-- Shoulderguards of the All-Consuming Maw
@@ -614,7 +614,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.HEROIC.CONQUEROR.CHEST, i(96677)),		-- Raiment of the Exorcist
 							tokencost(TOKENS.HEROIC.CONQUEROR.GAUNTLETS, i(96674)),	-- Gloves of the Exorcist
 							tokencost(TOKENS.HEROIC.CONQUEROR.LEGS, i(96676)),		-- Leggings of the Exorcist
-							
+
 							-- Healer
 							tokencost(TOKENS.HEROIC.CONQUEROR.HELM, i(96670)),		-- Cowl of the Exorcist
 							tokencost(TOKENS.HEROIC.CONQUEROR.SHOULDERS, i(96673)),	-- Mantle of the Exorcist
@@ -629,14 +629,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.HEROIC.PROTECTOR.CHEST, i(96689)),		-- Cuirass of the Witch Doctor
 							tokencost(TOKENS.HEROIC.PROTECTOR.GAUNTLETS, i(96690)),	-- Grips of the Witch Doctor
 							tokencost(TOKENS.HEROIC.PROTECTOR.LEGS, i(96692)),		-- Legguards of the Witch Doctor
-							
+
 							-- DPS (Elemental)
 							tokencost(TOKENS.HEROIC.PROTECTOR.HELM, i(96696)),		-- Headpiece of the Witch Doctor
 							tokencost(TOKENS.HEROIC.PROTECTOR.SHOULDERS, i(96698)),	-- Shoulderwraps of the Witch Doctor
 							tokencost(TOKENS.HEROIC.PROTECTOR.CHEST, i(96694)),		-- Hauberk of the Witch Doctor
 							tokencost(TOKENS.HEROIC.PROTECTOR.GAUNTLETS, i(96695)),	-- Gloves of the Witch Doctor
 							tokencost(TOKENS.HEROIC.PROTECTOR.LEGS, i(96697)),		-- Kilt of the Witch Doctor
-							
+
 							-- Healer
 							tokencost(TOKENS.HEROIC.PROTECTOR.HELM, i(96686)),		-- Faceguard of the Witch Doctor
 							tokencost(TOKENS.HEROIC.PROTECTOR.SHOULDERS, i(96688)),	-- Mantle of the Witch Doctor
@@ -658,14 +658,14 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.HEROIC.PROTECTOR.CHEST, i(96639)),		-- Fire-Charm Tunic
 							tokencost(TOKENS.HEROIC.PROTECTOR.GAUNTLETS, i(96640)),	-- Fire-Charm Grips
 							tokencost(TOKENS.HEROIC.PROTECTOR.LEGS, i(96642)),		-- Fire-Charm Leggings
-							
+
 							-- Healer
 							tokencost(TOKENS.HEROIC.PROTECTOR.HELM, i(96645)),		-- Fire-Charm Helm
 							tokencost(TOKENS.HEROIC.PROTECTOR.SHOULDERS, i(96648)),	-- Fire-Charm Mantle
 							tokencost(TOKENS.HEROIC.PROTECTOR.CHEST, i(96647)),		-- Fire-Charm Vest
 							tokencost(TOKENS.HEROIC.PROTECTOR.GAUNTLETS, i(96644)),	-- Fire-Charm Handwraps
 							tokencost(TOKENS.HEROIC.PROTECTOR.LEGS, i(96646)),		-- Fire-Charm Legwraps
-							
+
 							-- Tank
 							tokencost(TOKENS.HEROIC.PROTECTOR.HELM, i(96651)),		-- Fire-Charm Crown
 							tokencost(TOKENS.HEROIC.PROTECTOR.SHOULDERS, i(96653)),	-- Fire-Charm Shoulderguards
@@ -687,21 +687,21 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 							tokencost(TOKENS.HEROIC.VANQUISHER.CHEST, i(96592)),		-- Vestment of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.GAUNTLETS, i(96589)),	-- Gloves of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.LEGS, i(96591)),			-- Leggings of the Haunted Forest
-							
+
 							-- DPS (Feral)
 							tokencost(TOKENS.HEROIC.VANQUISHER.HELM, i(96581)),			-- Headpiece of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.SHOULDERS, i(96583)),	-- Spaulders of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.CHEST, i(96579)),		-- Raiment of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.GAUNTLETS, i(96580)),	-- Grips of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.LEGS, i(96582)),			-- Legguards of the Haunted Forest
-							
+
 							-- Healer
 							tokencost(TOKENS.HEROIC.VANQUISHER.HELM, i(96585)),			-- Helm of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.SHOULDERS, i(96588)),	-- Mantle of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.CHEST, i(96587)),		-- Robes of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.GAUNTLETS, i(96584)),	-- Handwraps of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.LEGS, i(96586)),			-- Legwraps of the Haunted Forest
-							
+
 							-- Tank
 							tokencost(TOKENS.HEROIC.VANQUISHER.HELM, i(96596)),			-- Headguard of the Haunted Forest
 							tokencost(TOKENS.HEROIC.VANQUISHER.SHOULDERS, i(96598)),	-- Shoulderguards of the Haunted Forest
@@ -775,18 +775,20 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					e(818, {	-- Durumu the Forgotten
 						["crs"] = { 68036 },	-- Durumu the Forgotten
 						["g"] = {
+							header(HEADERS.Item, 212750, {	-- Grimoire of the Ancient Observer
+								["description"] = "1. Queue for Halls of Flesh-Shaping LFR at Mogu'Shan Palace in the Vale of Eternal Blossoms. If you can't see the LFR queue NPC, speak to Zidormi outside to change phase.\n2. Kill Durumu and loot Durumus Glass Pupil, then use the item, it doesn't matter where you target the throw.\n3. Wait for the candles around the edge of the platform to spawn in, then head for the purple circle with the cauldrons and the book.\n4. Click the book to get started. :)\n\nYou'll be shown a puzzle that connects some of the candles with coloured beams. You have to count how many beams there are of each colour and click the corresponding cauldron colour that many times.\ne.g 2 candles are connected with 1 beam of green light. Click the green cauldron once.\nYou can keep track of your clicks in your buffs. Once you have the numbers right, click the book to proceed. If you're wrong, the book will knock you over and reset your buffs but will not reset the whole chain of puzzles. You can also right-click off the buff if you overshoot to avoid resetting all of them.\nAs the puzzles progress and get more complicated, the purple cauldron will start giving you more than 1 stack of the purple buff when you click it. This is to help you get to the higher numbers faster. Be careful when you start spam clicking!\n\nTo calculate the higher purple numbers:\nThere are a couple different methods to count them, however the easiest way is using the automatic calculator linked in the WoWhead comments for this item.\n\nThanks to Fiamma from WoWhead for the comment.",
+								["cost"] = {{"i",211949,1}},	-- Durumu's Glass Pupil
+								["g"] = {
+									o(420873, {	-- Ritual Book
+										i(212750, {	-- Grimoire of the Ancient Observer (CI!)
+											["timeline"] = { ADDED_10_2_5 },
+										}),
+									}),
+								},
+							}),
 							i(211949, {	-- Durumu's Glass Pupil
 								["timeline"] = { ADDED_10_2_5 },
 								["classes"] = { WARLOCK },
-								["sym"] = {{"select","itemID",
-									212750,    -- Grimoire of the Ancient Observer (CI!)
-								}},
-								["g"] = {
-									i(212750, {	-- Grimoire of the Ancient Observer (CI!)
-										["description"] = "1. Queue for Halls of Flesh-Shaping LFR at Mogu'Shan Palace in the Vale of Eternal Blossoms. If you can't see the LFR queue NPC, speak to Zidormi outside to change phase.\n2. Kill Durumu and loot Durumus Glass Pupil, then use the item, it doesn't matter where you target the throw.\n3. Wait for the candles around the edge of the platform to spawn in, then head for the purple circle with the cauldrons and the book.\n4. Click the book to get started. :)\n\nYou'll be shown a puzzle that connects some of the candles with coloured beams. You have to count how many beams there are of each colour and click the corresponding cauldron colour that many times.\ne.g 2 candles are connected with 1 beam of green light. Click the green cauldron once.\nYou can keep track of your clicks in your buffs. Once you have the numbers right, click the book to proceed. If you're wrong, the book will knock you over and reset your buffs but will not reset the whole chain of puzzles. You can also right-click off the buff if you overshoot to avoid resetting all of them.\nAs the puzzles progress and get more complicated, the purple cauldron will start giving you more than 1 stack of the purple buff when you click it. This is to help you get to the higher numbers faster. Be careful when you start spam clicking!\n\nTo calculate the higher purple numbers:\nThere are a couple different methods to count them, however the easiest way is using the automatic calculator linked in the WoWhead comments for this item.\n\nThanks to Fiamma from WoWhead for the comment.",
-										["timeline"] = { ADDED_10_2_5 },
-									}),
-								},
 							}),
 						},
 					}),
