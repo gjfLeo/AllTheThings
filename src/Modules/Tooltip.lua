@@ -1456,32 +1456,34 @@ if BattlePetTooltip then
 	hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", function(tooltip, data)
 		if data and data.speciesID then
 			C_Timer.After(0.01, function()
-				local shoppingTooltip = TSMExtraTooltip3;
-				if shoppingTooltip then
-					shoppingTooltip:AddLine(" ");
-					AttachTooltipSearchResults(shoppingTooltip, SearchForField, "speciesID", data.speciesID);
-					shoppingTooltip:Show();
-					return;
-				end
-				
-				---@diagnostic disable-next-line: undefined-field
-				shoppingTooltip = GameTooltip.shoppingTooltips[1];
-				if shoppingTooltip then
-					shoppingTooltip.attSpeciesID = data.speciesID;
-					shoppingTooltip.attHelper = function(tooltip)
-						tooltip:ClearLines();
-						AttachTooltipSearchResults(tooltip, SearchForField, "speciesID", tooltip.attSpeciesID);
-						tooltip.attSpeciesID = nil;
-						tooltip.attHelper = nil;
-						tooltip:Show();
+				if BattlePetTooltip:IsShown() then
+					local shoppingTooltip = TSMExtraTooltip3;
+					if shoppingTooltip then
+						shoppingTooltip:AddLine(" ");
+						AttachTooltipSearchResults(shoppingTooltip, SearchForField, "speciesID", data.speciesID);
+						shoppingTooltip:Show();
+						return;
 					end
-					if not tooltip.attBattlePetHooked then
-						tooltip.attBattlePetHooked = 1;
-						tooltip:HookScript("OnHide", function()
-							shoppingTooltip:Hide();
-						end)
+					
+					---@diagnostic disable-next-line: undefined-field
+					shoppingTooltip = GameTooltip.shoppingTooltips[1];
+					if shoppingTooltip then
+						shoppingTooltip.attSpeciesID = data.speciesID;
+						shoppingTooltip.attHelper = function(tooltip)
+							tooltip:ClearLines();
+							AttachTooltipSearchResults(tooltip, SearchForField, "speciesID", tooltip.attSpeciesID);
+							tooltip.attSpeciesID = nil;
+							tooltip.attHelper = nil;
+							tooltip:Show();
+						end
+						if not tooltip.attBattlePetHooked then
+							tooltip.attBattlePetHooked = 1;
+							tooltip:HookScript("OnHide", function()
+								shoppingTooltip:Hide();
+							end)
+						end
+						PrepareShoppingTooltips(tooltip, 1);
 					end
-					PrepareShoppingTooltips(tooltip, 1);
 				end
 			end);
 		end
