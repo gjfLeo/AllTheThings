@@ -233,8 +233,14 @@ local function CacheInfo(t, field)
 			modID = nil;
 			t.modID = nil;
 		end
+		local rawbonuses = rawget(t, "bonuses")
 		-- app.PrintDebug("default_link",itemLink,modID,bonusID)
-		if bonusID then
+		if rawbonuses then
+			local bonusesString = #rawbonuses..":"..app.TableConcat(rawbonuses, nil, nil, ":")
+			itemLink = ("item:%d:::::::::::%s:%s:"):format(itemLink, modID or "", bonusesString)
+			-- set the bonusID to the first bonusID
+			t.bonusID = rawbonuses[1]
+		elseif bonusID then
 			itemLink = ("item:%d:::::::::::%s:1:%d:"):format(itemLink, modID or "", bonusID);
 		elseif modID then
 			-- bonusID 3524 seems to imply "use ModID to determine SourceID" since without it, everything with ModID resolves as the base SourceID from links
@@ -244,6 +250,7 @@ local function CacheInfo(t, field)
 		end
 		-- save this link so it doesn't need to be built again
 		t.rawlink = itemLink
+		t.modItemID = nil
 	end
 
 	local name, link, quality, _, _, _, _, _, _, icon, _, _, _, b = GetItemInfo(itemLink);
