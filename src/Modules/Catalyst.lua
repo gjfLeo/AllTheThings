@@ -165,16 +165,21 @@ local function GetCatalysts(data)
 		return
 	end
 
-	tremove(bonuses, app.indexOf(bonuses, bonusID))
+	local newBonuses = app.CloneArray(bonuses)
+	tremove(newBonuses, app.indexOf(newBonuses, bonusID))
 	local catalystResult
 	for i=1,#catalystResults do
 		catalystResult = catalystResults[i]
 		-- Copy all but the catalyst bonusID to the resulting item
 		-- TODO: probably build a proper rawlink instead so it works properly for further nesting
-		catalystResult.bonuses = app.CloneArray(bonuses)
+		catalystResult.bonuses = newBonuses
+		-- use a ridiculous bonusID to force the item cache to not find a matching modItemID
+		-- hacky af but idk...
+		catalystResult.bonusID = 99999
 		-- Don't let a baked-in upgrade persist since our upgradeLevel might not allow it
 		catalystResult.up = nil
 		catalystResult._up = nil
+		catalystResult.rawlink = nil
 		catalystResult.filledType = "CATALYST"
 	end
 
