@@ -826,7 +826,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				-- #if BEFORE 11.1
 				40446,	-- I TAKE Candle!
 				-- #endif
+				-- #if BEFORE 11.2.0
 				40452,	-- Just Keep Swimming
+				-- #endif
 				40453,	-- Spider Senses
 				40454,	-- Daystormer
 				-- #if BEFORE 11.1.0.59490
@@ -866,6 +868,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		ach(40452, {	-- Just Keep Swimming
 			["maps"] = KOBYSS_DELVES,
+			["timeline"] = { REMOVED_11_2_0 },
 		}),
 		ach(40506, {	-- Leave No Treasure Unfound
 			-- Meta Achievement
