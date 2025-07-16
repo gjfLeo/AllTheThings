@@ -1453,39 +1453,54 @@ app.ShowItemCompareTooltips = ShowItemCompareTooltips;
 
 -- Battle Pet Tooltip Integration with TSM (if available)
 if BattlePetTooltip then
-	hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", function(tooltip, data)
-		if data and data.speciesID then
-			C_Timer.After(0.01, function()
-				if tooltip:IsShown() then
-					local shoppingTooltip = TSMExtraTooltip3;
-					if shoppingTooltip then
-						shoppingTooltip:AddLine(" ");
-						AttachTooltipSearchResults(shoppingTooltip, SearchForField, "speciesID", data.speciesID);
-						shoppingTooltip:Show();
-						return;
-					end
-					
-					---@diagnostic disable-next-line: undefined-field
-					shoppingTooltip = GameTooltip.shoppingTooltips[1];
-					if shoppingTooltip then
-						shoppingTooltip.attSpeciesID = data.speciesID;
-						shoppingTooltip.attHelper = function(tooltip)
-							tooltip:ClearLines();
-							AttachTooltipSearchResults(tooltip, SearchForField, "speciesID", tooltip.attSpeciesID);
-							tooltip.attSpeciesID = nil;
-							tooltip.attHelper = nil;
-							tooltip:Show();
-						end
-						if not tooltip.attBattlePetHooked then
-							tooltip.attBattlePetHooked = 1;
-							tooltip:HookScript("OnHide", function()
-								shoppingTooltip:Hide();
-							end)
-						end
-						PrepareShoppingTooltips(tooltip, 1);
-					end
+	function UpdateBattlePetTooltip(tooltip)
+		if not tooltip.attBattlePetOnUpdateHooked then
+			tooltip.attBattlePetOnUpdateHooked = 1;
+			tooltip:HookScript("OnUpdate", UpdateBattlePetTooltip)
+		end
+		if tooltip:IsShown() then
+			if CanAttachTooltips() then
+				local shoppingTooltip = TSMExtraTooltip3;
+				if shoppingTooltip then
+					shoppingTooltip:AddLine(" ");
+					AttachTooltipSearchResults(shoppingTooltip, SearchForField, "speciesID", tooltip.attSpeciesID);
+					shoppingTooltip:Show();
+					return;
 				end
+				
+				---@diagnostic disable-next-line: undefined-field
+				shoppingTooltip = GameTooltip.shoppingTooltips[1];
+				if shoppingTooltip then
+					shoppingTooltip.attHelper = function(t)
+						t:ClearLines();
+						AttachTooltipSearchResults(t, SearchForField, "speciesID", tooltip.attSpeciesID);
+						t.attHelper = nil;
+						t:Show();
+					end
+					if not tooltip.attBattlePetOnHideHooked then
+						tooltip.attBattlePetOnHideHooked = 1;
+						tooltip:HookScript("OnHide", function()
+							shoppingTooltip:Hide();
+						end)
+					end
+					PrepareShoppingTooltips(tooltip, 1);
+				end
+			else
+				---@diagnostic disable-next-line: undefined-field
+				local shoppingTooltip = GameTooltip.shoppingTooltips[1];
+				if shoppingTooltip and shoppingTooltip:IsShown() then
+					shoppingTooltip:Hide();
+				end
+			end
+		end
+	end
+	function BattlePetTooltipTemplate_SetBattlePetHook(tooltip, data)
+		if data and data.speciesID then
+			tooltip.attSpeciesID = data.speciesID;
+			C_Timer.After(0.01, function()
+				UpdateBattlePetTooltip(tooltip);
 			end);
 		end
-	end)
+	end
+	hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", BattlePetTooltipTemplate_SetBattlePetHook);
 end
