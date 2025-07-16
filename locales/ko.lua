@@ -7,35 +7,244 @@ local L = app.L;
 local GetSpellName = app.WOWAPI.GetSpellName;
 
 -- General Text
+	L.TITLE = "|c" .. app.Colors.ATT .. "ALL THE THINGS|r";
+	L.SHORTTITLE = "|c" .. app.Colors.ATT .. "ATT|r";
 	--TODO: L.DESCRIPTION = "\"Foolishly you have sought your own demise. Brazenly you have disregarded powers beyond your understanding. You have fought hard to invade the realm of the Collector. Now there is only one way out - To walk the lonely path... of the damned.\"";
 	--TODO: L.THINGS_UNTIL = " THINGS UNTIL ";
 	--TODO: L.THING_UNTIL = " THING UNTIL ";
 	--TODO: L.YOU_DID_IT = "YOU DID IT!";
 
--- Big new chunk from AllTheThings.lua
+	-- Social Module
+	--TODO: L.NEW_VERSION_AVAILABLE = "A newer version of %s is available. Please update the AddOn %s";
+	--TODO: L.NEW_VERSION_FLAVORS = {
+	--TODO: 	"AllTheThings hungers.",
+	--TODO: 	"or Sylvanas might get another lighter.",
+	--TODO: 	"as Alexstrasza is worried about you.",
+	--TODO: 	"and Invincible will drop |cffffaaaafor sure|r next time.",
+	--TODO: 	"this was merely a setback.",
+	--TODO: 	", Yes Chef!",
+	--TODO: 	"and Crieve will help a turtle to make it to the water.",
+	--TODO: 	"CHAMPYUUN, DE AZURIITE.",
+	--TODO: };
+	--TODO: L.SOCIAL_PROGRESS = "Social Progress";
+	--TODO: L.TRACKING_PROGRESS = "Tracking Progress";
+	--TODO: L.COLLECTION_PROGRESS = "Collection Progress";
+
+	-- Settings
+	--TODO: L.DATA_TYPE_NOT_SUPPORTED = "This data type is not supported at this time.";
+	--TODO: L.OPEN_MINILIST_FOR = "Open mini list for ";
+	--TODO: L.REFRESHING_COLLECTION = "Refreshing collection...";
+	--TODO: L.DONE_REFRESHING = "Done refreshing collection.";
+	--TODO: L.ADDED_WITH_PATCH = "Added With Patch";
+	--TODO: L.REMOVED_WITH_PATCH = "Removed With Patch";
+	--TODO: L.AVAILABILITY = "Availability";
+	--TODO: L.CREATURES_COUNT = "[%s Creatures]";
+	--TODO: L.CREATURES_LIST = "Creatures List";
 	--TODO: L.PROGRESS = "Progress";
+	--TODO: L.COMPLETED_BY = "Completed By: %s";
+	--TODO: L.KNOWN_BY = "Known by %s";
+	--TODO: L.OWNED_BY = "Owned by %s";
+	--TODO: L.ALIVE = "Alive";
+	--TODO: L.SPAWNED = "Spawned";
+	--TODO: L.LAYER = "Layer";
+	--TODO: L.BINDING = "Binding";
+	--TODO: L.BONUS_ID = "Bonus ID";
+	--TODO: L.CONDUIT_ID = "Conduit ID";
+	--TODO: L.DISPLAY_ID = "Display ID";
+	--TODO: L.PET_BATTLES = "Pet Battles";
+	--TODO: L.EVENT_ID = "Event ID";
+	--TODO: L.ICON_PATH = "Icon Path";
+	--TODO: L.ITEM_LEVEL = "iLvl";
+	--TODO: L.ITEM_STRING = "Item String";
+	--TODO: L.MOD_ID = "Mod ID";
+	--TODO: L.OBJECT_TYPE = "Object Type";
+	--TODO: L.OBJECTIVES = "Objectives";
+	--TODO: L.QUEST_GIVERS = "Quest Givers";
+	--TODO: L.QUEST_ITEMS = "Quest Items";
+	--TODO: L.RUNEFORGE_POWER_ID = "Runeforge Power ID";
+
+-- Instructional Text
+	--TODO: L.MINIMAP_MOUSEOVER_TEXT = "Right Click to change settings.\nLeft Click to open the Main List.\n"..CTRL_KEY_TEXT.." Click to open the Mini List.\n"..SHIFT_KEY_TEXT.." Click to Refresh Collections.";
+	--TODO: L.TOP_ROW_INSTRUCTIONS = "|cff3399ffLeft Click and Drag to Move\nRight Click to Open the Settings Menu\n"..CTRL_KEY_TEXT.." Click to Expand/Collapse Recursively\n"..SHIFT_KEY_TEXT.." Click to Refresh Collections\n"..SHIFT_KEY_TEXT.." Right Click to Sort Groups/Popout Lists|r";
+	--TODO: L.OTHER_ROW_INSTRUCTIONS = "|cff3399ffLeft Click to Expand/Collapse\nRight Click to Pop Out to Mini List\n"..CTRL_KEY_TEXT.." Click to Expand/Collapse Recursively\n"..SHIFT_KEY_TEXT.." Click to Refresh Collections\n"..SHIFT_KEY_TEXT.." Right Click to Sort Groups/Popout Lists\n"..ALT_KEY_TEXT.." Right Click to Plot Waypoints|r";
+	--TODO: L.TOP_ROW_INSTRUCTIONS_AH = "|cff3399ffLeft Click and Drag to Move\nRight Click to Open the Settings Menu\n"..SHIFT_KEY_TEXT.." Click to Search the Auction House|r";
+	--TODO: L.OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ffLeft Click to Expand/Collapse\nRight Click to Pop Out to Mini List\n"..SHIFT_KEY_TEXT.." Click to Search the Auction House|r";
+	--TODO: L.RECENTLY_MADE_OBTAINABLE = "|CFFFF0000If this recently dropped for you (anywhere but Salvage\nCrates), please post in Discord where you got it to drop!|r";
+	--TODO: L.RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000The more information, the better. Thanks!|r";
+	--TODO: L.MAIN_LIST_REQUIRES_REFRESH = "[Click to Update Progress]";
+	--TODO: L.UPDATES_PAUSED = "Updates Paused";
+	--TODO: L.VISIT_FLIGHT_MASTER = "Visit the Flight Master to cache.";
+	--TODO: L.REQUIRES_PVP = "|CFF00FFDERequires PvP Activities or Currencies|r";
+	--TODO: L.REQUIRES_PETBATTLES = "|CFF00FFDERequires Pet Battling|r";
+	--TODO: L.REQUIRES_SKYRIDING = "|CFF00FFDE"..(SPELL_FAILED_CUSTOM_ERROR_1029 or "Requires Skyriding").."|r";
+	--TODO: L.PLEASE_REPORT_MESSAGE = "Please report this to the ATT Discord in #retail-errors! Thanks!";
+	--TODO: L.REPORT_TIP = "\n("..CTRL_KEY_TEXT.."+C to copy multiline report to your clipboard)";
+	--TODO: L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "Quest '%s' %s will prevent collection of Breadcrumb Quest '%s' %s";
+	--TODO: L.REPORT_INACCURATE_QUEST = "Wrong Quest Info! (Click to Report)";
+	--TODO: L.ITEM_GIVES_REP = "Provides Reputation with '";
+
+-- Event Text
+	--TODO: L.ITEM_ID_ADDED = "%s (%d) was added to your collection.";
+	--TODO: L.ITEM_ID_ADDED_RANK = "%s (%d) [Rank %d] was added to your collection.";
+	--TODO: L.ITEM_ID_ADDED_MISSING = "%s (%d) was added to your collection. Not found in the database. Please report to the ATT Discord!";
+	--TODO: L.ITEM_ID_ADDED_SHARED = "%s (%d) [+%d] was added to your collection.";
+	--TODO: L.ITEM_ID_ADDED_SHARED_MISSING = "%s (%d) [+%d] was added to your collection. Not found in the database. Please report to the ATT Discord!";
+	--TODO: L.ITEM_ID_REMOVED = "%s (%d) was removed from your collection.";
+	--TODO: L.ITEM_ID_REMOVED_SHARED = "%s (%d) [+%d] was removed from your collection.";
+
+-- Tooltip Text
+	--TODO: L.DROP_RATE = "Drop Rate";
+	--TODO: L.QUEST_GIVER = "Quest Giver";
+	--TODO: L.COORDINATES = "Coordinates";
+	--TODO: L.PLAYER_COORDINATES = "Player Coordinates";
+	--TODO: L.EVENT_SCHEDULE = "Event Schedule";
+	--TODO: L.EVENT_ACTIVE = "Active:";
+	--TODO: L.EVENT_START = "Start:";
+	--TODO: L.EVENT_END = "End:";
+	--TODO: L.EVENT_WHERE = "Where:";
+	--TODO: L.REQUIRES_EVENT = "Requires Event";
+	--TODO: L.BREADCRUMBS = "Breadcrumbs";
+	--TODO: L.MAPS = "Maps";
+	--TODO: L.LOCKOUT = "Lockout";
+	--TODO: L.LOCKOUTS = "Lockouts";
+	--TODO: L.RESETS = "Resets";
+	--TODO: L.SHARED = "Shared";
+	--TODO: L.SPLIT = "Per Difficulty";
+	L.REQUIRES = "필요 전문화";
+	--TODO: L.REQUIRES_LEVEL = "Requires Level";
+	--TODO: L.LIMITED_QUANTITY = "This has a limited quantity and may not always be present on the vendor.";
+	--TODO: L.ADDED_WITH_PATCH_FORMAT = "This gets added with patch %s";
+	--TODO: L.ADDED_BACK_WITH_PATCH_FORMAT = "This gets added back with patch %s";
+	--TODO: L.REMOVED_WITH_PATCH_FORMAT = "This gets removed with patch %s";
+	--TODO: L.WAS_ADDED_WITH_PATCH_FORMAT = "This was added with patch %s";
+	--TODO: L.WAS_ADDED_BACK_WITH_PATCH_FORMAT = "This was added back with patch %s";
+	--TODO: L.CRITERIA_FORMAT = "|cffffff00[Criteria: %s]|r";
+
+	--TODO: L.FACTION_SPECIFIC_REP = "Not all reputations can be viewed on a single character. IE: Warsong Outriders cannot be viewed by an Alliance Player and Silverwing Sentinels cannot be viewed by a Horde Player.";
+	--TODO: L.MINUMUM_STANDING_WITH_FACTION = "Requires a minimum standing of %s with %s.";
+	--TODO: L.MAXIMUM_STANDING_WITH_FACTION = "Requires a standing lower than %s with %s.";
+	--TODO: L.MIN_MAX_STANDING_WITH_FACTION = "Requires a standing between %s and %s with %s.";
+
+	--TODO: L.HEIRLOOM_TEXT = "Unlocked Heirloom";
+	--TODO: L.HEIRLOOM_TEXT_DESC = "This indicates whether or not you have acquired or purchased the heirloom yet.";
+	--TODO: L.HEIRLOOMS_UPGRADES_DESC = "This indicates whether or not you have upgraded the heirloom to a certain level.\n\nR.I.P. Gold.\n - Crieve";
+
+	--TODO: L.LOCK_CRITERIA_LEVEL_LABEL = "Player Level";
+	--TODO: L.LOCK_CRITERIA_QUEST_LABEL = "Completed Quest";
+	--TODO: L.LOCK_CRITERIA_SPELL_LABEL = "Learned Spell/Mount/Recipe";
+	--TODO: L.LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
+	--TODO: L.LOCK_CRITERIA_SOURCE_LABEL = "Known Appearance";
+	--TODO: L.LOCK_CRITERIA_TOY_LABEL = "Known Toy";
+	--TODO: L.LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
+	--TODO: L.TITLES_DESC = "Titles are tracked across your account, however, your individual character must qualify for certain titles to be usable on that character.";
+
+-- Filter Text
+	--TODO: L.ARTIFACT_ID = "Artifact ID";
+	--TODO: L.AZERITE_ESSENCE_ID = "Azerite Essence ID";
+	--TODO: L.ART_ID = "Art ID";
+	--TODO: L.CAMPSITE_ID = "Campsite ID";
+	--TODO: L.CREATURE_ID = "Creature ID";
+	--TODO: L.CURRENCY_ID = "Currency ID";
+	--TODO: L.DESCRIPTIONS = "Descriptions";
+	--TODO: L.DIFFICULTY_ID = "Difficulty ID";
+	--TODO: L.ENCOUNTER_ID = "Encounter ID";
+	--TODO: L.EXPANSION_ID = "Expansion ID";
+	--TODO: L.EXPLORATION_ID = "Exploration ID";
+	--TODO: L.FILTER_ID = "Filter ID";
+	--TODO: L.FOLLOWER_ID = "Follower ID";
+	--TODO: L.GUID = "Global ID";
+	--TODO: L.HEADER_ID = "Header ID";
+	--TODO: L.ILLUSION_ID = "Illusion ID";
+	--TODO: L.INSTANCE_ID = "Instance ID";
+	--TODO: L.SAVED_INSTANCE_ID = "Saved Instance ID";
+	--TODO: L.ITEM_ID = "Item ID";
+	--TODO: L.FACTION_ID = "Faction ID";
+	--TODO: L.FLIGHT_PATH_ID = "Flight Path ID";
+	--TODO: L.LORE = "Lore";
+	--TODO: L.MAP_ID = "Map ID";
+	--TODO: L.MISSION_ID = "Mission ID";
+	--TODO: L.MOUNT_ID = "Mount ID";
+	--TODO: L.MUSIC_ROLL_ID = "Music Roll ID";
+	--TODO: L.NPC_ID = "NPC ID";
+	--TODO: L.OBJECT_ID = "Object ID";
+	--TODO: L.PROVIDERS = "Provider(s)";
+	--TODO: L.QUEST_ID = "Quest ID";
+	--TODO: L.SET_ID = "Gear Set ID";
+	--TODO: L.SOURCE_ID = "Source ID";
+	--TODO: L.SPELL_ID = "Spell ID";
+	--TODO: L.SPELL_NAME = "Spell Name";
+	--TODO: L.SPECIES_ID = "Species ID";
+	--TODO: L.TITLE_ID = "Title ID";
+	--TODO: L.TOY_ID = "Toy ID";
+	--TODO: L.VISUAL_ID = "Visual ID";
+	--TODO: L.AND_MORE = "And %s more...";
+	--TODO: L.SYM_ROW_INFORMATION = "Right Click to see additional content which is Sourced in another location";
+	--TODO: L.SYM_ROW_SKIP_DESC = "Linked content is only displayed in the tooltip for this object.";
+	--TODO: L.ACHIEVEMENT_PRE_WRATH_SOURCE_QUEST_INFO = "This achievement has associated quests that can be completed before the introduction of the Achievement system coming with the Wrath Prepatch. Not all achievements can be tracked this way, but for those that can, they will be displayed. All other non-trackable achievements will be activated with the prepatch.";
+	--TODO: L.CLASSES = "Classes";
+
+	--TODO: L.ADDITIONAL_LABEL = "Additional Information";
+	--TODO: L.CRITERIA_FOR = "Criteria for";
+	--TODO: L.CURRENCY_FOR = "Currency for";
+
+	--TODO: L.CHAT_COMMANDS_LABEL = "Chat Commands";
+	--TODO: L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFFor|R /allthethings\n|cffFFFFFFOpens the Main List.\n\n|R/attmini\n|cffFFFFFFOpens the Mini List.\n\n|R/attbounty\n|cffFFFFFFOpens a list of bugged or unconfirmed items.\n\n|R/attra\n|cffFFFFFFOpens the Raid Assistant.\n\n|R/attwq\n|cffFFFFFFOpens the World Quests List.\n\n|R/att item:1234 |cffFFFFFFor|R /att [Item Link]\n|cffFFFFFFOpens a window with shared appearances.\nAlso works with other things, such as|R quest:1234|cffFFFFFF, |Rnpcid:1234|cffFFFFFF, |Rmapid:1234|cffFFFFFF or |Rrecipeid:1234|cffFFFFFF.\n\n|R/attrwp\n|cffFFFFFFShows all future Removed With Patch things.\n\n|R/attnwp\n|cffFFFFFFShows all current New With Patch things.\n\n|R/attrandom\n|cffFFFFFFOpens the Random List.\n\n|R/attunsorted\n|cffFFFFFFOpens a list of unsourced items.\nBest opened in Debug Mode.\n\n|R/rl\n|cffFFFFFFReload your WoW interface.|R";
+	--TODO: L.ICON_LEGEND_STATUS_LABEL = "Status Icons Legend";
+	--TODO: L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White ..
+	--TODO:		"|T" .. app.asset("status-unobtainable") .. ":0|t " .. "Unobtainable" ..
+	--TODO:		"\n|T" .. app.asset("status-prerequisites") .. ":0|t " .. "Obtainable only with prerequisites" ..
+	--TODO:		"\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "Available seasonal content" ..
+	--TODO:		"\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "Unavailable seasonal content" ..
+	--TODO:		"\n|T374225:0|t " .. "Unavailable on current character" ..
+	--TODO:		"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
+	--TODO: L.ICON_LEGEND_MISC_LABEL = "Miscellaneous Icons Legend";
+	--TODO: L.ICON_LEGEND_MISC_TEXT = app.ccColors.White ..
+	--TODO:		"|T" .. app.asset("Currency") .. ":0|t " .. "Used as a currency" ..
+	--TODO:		"\n|T" .. app.asset("Interface_Reagent") .. ":0|t " .. "Used as a crafting reagent" ..
+	--TODO:		"\n|T" .. app.asset("Interface_Catalyst") .. ":0|t " .. "Convertible at the Catalyst for a new appearance" ..
+	--TODO:		"\n|T" .. app.asset("Interface_Upgrade") .. ":0|t " .. "Can be upgraded for a new appearance";
+	L.KEYBINDINGS = SETTINGS_KEYBINDINGS_LABEL;
+	--TODO: L.KEYBINDINGS_TEXT = "You can set keybindings for ATT in the game's options.";
+	--TODO: L.MINIMAP_LABEL = "Minimap Button";
+	--TODO: L.MODULES_LABEL = "Modules & Mini Lists";
+	--TODO: L.AUTO_PROF_LIST_CHECKBOX = "Automatically Open the Profession List";
+	--TODO: L.AUTO_PROF_LIST_CHECKBOX_TOOLTIP = "Enable this option if you want ATT to open and refresh the profession list when you open your professions. Due to an API limitation imposed by Blizzard, the only time an addon can interact with your profession data is when it is open. The list will automatically switch when you change to a different profession.\n\nWe don't recommend disabling this option as it may prevent recipes from tracking correctly.\n\nYou can also bind this setting to a Key. (only works when a profession is open)\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Profession Mini List";
+	--TODO: L.SKIP_CUTSCENES_CHECKBOX = "Automatically Skip Cutscenes";
+	--TODO: L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Enable this option if you want ATT to automatically skip all cutscenes on your behalf.";
+	--TODO: L.MINIMAP_BUTTON_CHECKBOX = "Show the Minimap Button";
+	--TODO: L.MINIMAP_BUTTON_CHECKBOX_TOOLTIP = "Enable this option if you want to see the minimap button. This button allows you to quickly access the Main List, show your Overall Collection Progress, and access the Settings Menu by right clicking it.\n\nSome people don't like clutter. Alternatively, you can access the Main List by typing '/att' in your chatbox. From there, you can right click the header to get to the Settings Menu.";
+	--TODO: L.MINIMAP_SLIDER = "Minimap Button Size";
+	--TODO: L.MINIMAP_SLIDER_TOOLTIP = 'Use this to customize the size of the Minimap Button.\n\nDefault: 36';
+	--TODO: L.WORLDMAP_BUTTON_CHECKBOX = "Show the World Map Button";
+	--TODO: L.WORLDMAP_BUTTON_CHECKBOX_TOOLTIP = "Enable this option if you want to see the ATT button on your world map. This button allows you to quickly access the Mini List for the currently displayed zone. Regularly, you'd need to physically travel to the zone in order to see the content on the mini list that you can access by typing '/att mini' in your chatbox.";
+
+-- Icons and Collection Text
+	L.COLLECTED_ICON = "|T" .. app.asset("known") .. ":0|t";	-- Acquired the colors and icon from CanIMogIt.
+	L.COLLECTED_APPEARANCE_ICON = "|T" .. app.asset("known_circle") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.COMPLETE_ICON = "|T" .. app.asset("known_green") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.NOT_COLLECTED_ICON = "|T" .. app.asset("unknown") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	--TODO: L.COLLECTED = "|T" .. app.asset("known") .. ":0|t |c" .. app.Colors.Completed .. "Collected|r";		-- Acquired the colors and icon from CanIMogIt.
+	--TODO: L.COLLECTED_APPEARANCE = "|T" .. app.asset("known_circle") .. ":0|t |c" .. app.Colors.Completed .. "Collected*|r";	-- Acquired the colors and icon from CanIMogIt.
+	--TODO: L.NOT_COLLECTED = "|T" .. app.asset("unknown") .. ":0|t |cffff9333Not Collected|r";		-- Acquired the colors and icon from CanIMogIt.
+	--TODO: L.COMPLETE = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Complete|r";		-- Acquired the colors and icon from CanIMogIt.
+	--TODO: L.COMPLETE_OTHER = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Complete*|r";		-- Acquired the colors and icon from CanIMogIt.
+	--TODO: L.INCOMPLETE = "|T" .. app.asset("incomplete") .. ":0|t |c" .. app.Colors.Completed .. "Incomplete|r";		-- Acquired the colors and icon from CanIMogIt.
+	L.INCOMPLETE_ICON = "|T" .. app.asset("incomplete") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+
+-- Big new chunk from AllTheThings.lua
 	--TODO: L.TRACKING_PROGRESS = "Tracking Progress";
 	--TODO: L.COLLECTED_STRING = " Collected";
 	--TODO: L.PROVIDERS = "Provider(s)";
 	--TODO: L.COLLECTION_PROGRESS = "Collection Progress";
 	--TODO: L.CONTAINS = "Contains:";
 	--TODO: L.FACTIONS = "Factions";
-	--TODO: L.COORDINATES = "Coordinates";
-	--TODO: L.AND_MORE = "And %s more...";
-	--TODO: L.AND_OTHER_SOURCES = "And %s other sources...";
-	--TODO: L.PLAYER_COORDINATES = "Player Coordinates";
 	--TODO: L.NO_COORDINATES_FORMAT = "No known coordinates for %s";
 	--TODO: L.TOM_TOM_NOT_FOUND = "You must have TomTom installed to plot coordinates.";
 	--TODO: L.FLIGHT_PATHS = "Flight Paths";
-	--TODO: L.KNOWN_BY = "Known by %s";
-	L.REQUIRES = "필요 전문화";
 	--TODO: L.RACE_LOCKED = "Race Locked";
-	--TODO: L.PLEASE_REPORT_MESSAGE = "Please report this to the ATT Discord in #retail-errors! Thanks!";
-	--TODO: L.REPORT_TIP = "\n("..CTRL_KEY_TEXT.."+C to copy multiline report to your clipboard)";
 	--TODO: L.NOT_AVAILABLE_IN_PL = "Not available in Personal Loot.";
 	--TODO: L.MARKS_OF_HONOR_DESC = "Marks of Honor must be viewed in a Popout window to see all of the normal 'Contains' content.\n(Type '/att ' in chat then "..SHIFT_KEY_TEXT.." click to link the item)\n\n|cFFfe040fAfter purchasing and using an ensemble, relogging & a forced ATT refresh (in this order)\nmay be required to register all the items correctly.|r";
 	--TODO: L.MOP_REMIX_BRONZE_DESC = "Bronze must be viewed in a Popout window to see all of the normal 'Contains' content.\n(Type '/att ' in chat then "..SHIFT_KEY_TEXT.." click to link the currency)\n\n|cFFfe040fAfter purchasing and using an ensemble, relogging & a forced ATT refresh (in this order)\nmay be required to register all the items correctly.|r";
-	--TODO: L.ITEM_GIVES_REP = "Provides Reputation with '";
 	--TODO: L.COST = "Cost";
 	--TODO: L.COST_DESC = "This contains the visual breakdown of what is required to obtain or purchase this Thing";
 	--TODO: L.COST_TOTAL = "Total Cost";
@@ -44,15 +253,11 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	--TODO: L.SOURCES_DESC = "Shows the Source of this Thing.\n\nParticularly, a specific Vendor/NPC, Quest, Encounter, etc.";
 	--TODO: L.WRONG_FACTION = "You might need to be on the other faction to view this.";
 	--TODO: L.ARTIFACT_INTRO_REWARD = "Awarded for completing the introductory quest for this Artifact.";
-	--TODO: L.VISIT_FLIGHT_MASTER = "Visit the Flight Master to cache.";
 	--TODO: L.FLIGHT_PATHS_DESC = "Flight paths are cached when you talk to the flight master on each continent.\n  - Crieve";
 	if app.IsRetail then
 	L.FOLLOWERS_COLLECTION_DESC = "Followers can be collected account wide, if you enable this setting in ATT.\n\nYou must manually refresh the addon by "..SHIFT_KEY_TEXT.." clicking the header for this to be detected.";	--TODO
 	end
-	--TODO: L.HEIRLOOM_TEXT = "Unlocked Heirloom";
-	--TODO: L.HEIRLOOM_TEXT_DESC = "This indicates whether or not you have acquired or purchased the heirloom yet.";
 	--TODO: L.FAILED_ITEM_INFO = "Failed to acquire item information. The item may be invalid or may not have been cached on your server yet.";
-	--TODO: L.HEIRLOOMS_UPGRADES_DESC = "This indicates whether or not you have upgraded the heirloom to a certain level.\n\nR.I.P. Gold.\n - Crieve";
 	if app.IsRetail then
 	L.MUSIC_ROLLS_DESC = "These are unlocked per-character and are not currently shared across your account. If someone at Blizzard is reading this, it would be really swell if you made these account wide.\n\nYou must manually refresh the addon by "..SHIFT_KEY_TEXT.." clicking the header for this to be detected.";	--TODO
 	end
@@ -73,7 +278,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	--TODO: L.EXPANSION_DATA[11].lore = "The War Within is the tenth expansion for World of Warcraft and the beginning of the Worldsoul Saga. Journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the nerubian empire, where the malicious Harbinger of the Void is gathering arachnid forces to bring Azeroth to its knees.";
 	--TODO: L.EXPANSION_DATA[12].lore = "Midnight is the eleventh expansion for World of Warcraft and the second installment of the Worldsoul Saga.";
 	--TODO: L.EXPANSION_DATA[13].lore = "The Last Titan is the twelfth expansion for World of Warcraft and the final installment of the Worldsoul Saga.";
-	--TODO: L.TITLES_DESC = "Titles are tracked across your account, however, your individual character must qualify for certain titles to be usable on that character.";
 	--TODO: L.UPON_COMPLETION = "Upon Completion";
 	--TODO: L.UPON_COMPLETION_DESC = "The above quests need to be completed before being able to complete the things listed below.";
 	--TODO: L.QUEST_CHAIN_REQ = "Quest Chain Requirements";
@@ -89,31 +293,16 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	--TODO: L.TSM4_ERROR = "TSM4 is not compatible with ATT yet. If you know how to create Presets like we used to do in TSM3, please whisper Crieve on Discord!";
 	--TODO: L.QUEST_MAY_BE_REMOVED = "Failed to acquire information. This quest may have been removed from the game. ";
 
-	--TODO: L.FACTION_SPECIFIC_REP = "Not all reputations can be viewed on a single character. IE: Warsong Outriders cannot be viewed by an Alliance Player and Silverwing Sentinels cannot be viewed by a Horde Player.";
-	--TODO: L.MINUMUM_STANDING_WITH_FACTION = "Requires a minimum standing of %s with %s.";
-	--TODO: L.MAXIMUM_STANDING_WITH_FACTION = "Requires a standing lower than %s with %s.";
-	--TODO: L.MIN_MAX_STANDING_WITH_FACTION = "Requires a standing between %s and %s with %s.";
-
-	--TODO: L.ADDED_WITH_PATCH = "Added With Patch";
-	--TODO: L.REMOVED_WITH_PATCH = "Removed With Patch";
-	--TODO: L.ALIVE = "Alive";
-	--TODO: L.SPAWNED = "Spawned";
-	--TODO: L.OBJECT_TYPE = "Object Type";
-	--TODO: L.OBJECTIVES = "Objectives";
-	--TODO: L.QUEST_GIVERS = "Quest Givers";
 	--TODO: L.DURING_WQ_ONLY = "This can be completed when the world quest is active.";
 	--TODO: L.COMPLETED_DAILY = "This can be completed daily.";
 	--TODO: L.COMPLETED_WEEKLY = "This can be completed weekly.";
 	--TODO: L.COMPLETED_MONTHLY = "This can be completed monthly.";
 	--TODO: L.COMPLETED_YEARLY = "This can be completed yearly.";
 	--TODO: L.COMPLETED_MULTIPLE = "This can be repeated multiple times.";
-	--TODO: L.CRITERIA_FOR = "Criteria for";
-	--TODO: L.CURRENCY_FOR = "Currency for";
 	--TODO: L.LOOT_TABLE_CHANCE = "Loot Table Chance";
 	--TODO: L.BEST_BONUS_ROLL_CHANCE = "Best Bonus Roll Chance";
 	--TODO: L.BEST_PERSONAL_LOOT_CHANCE = "Best Personal Loot Chance";
 	--TODO: L.PREREQUISITE_QUESTS = "There are prerequisite quests that must be completed before this may be obtained:";
-	--TODO: L.BREADCRUMBS = "Breadcrumbs";
 	--TODO: L.BREADCRUMBS_WARNING = "There are breadcrumb quests that may not be obtainable after completing this:";
 	--TODO: L.THIS_IS_BREADCRUMB = "This is a breadcrumb quest.";
 	--TODO: L.BREADCRUMB_PARTYSYNC = "This may be unable to be completed without Party Sync if completing any of these quests first:";
@@ -210,24 +399,11 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	--TODO: L.REAGENT_CACHE_OUT_OF_DATE = "Reagent Cache is out-of-date and will be re-cached when opening your professions!";
 	--TODO: L.ARTIFACT_CACHE_OUT_OF_DATE = "Artifact Cache is out-of-date/inaccurate and will be re-cached when logging onto each character!";
 	--TODO: L.QUEST_LOOP = "Likely just broke out of an infinite source quest loop.";
-	--TODO: L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "Quest '%s' %s will prevent collection of Breadcrumb Quest '%s' %s";
 	--TODO: L.QUEST_OBJECTIVE_INVALID = "Invalid Quest Objective";
-	--TODO: L.REFRESHING_COLLECTION = "Refreshing collection...";
-	--TODO: L.DONE_REFRESHING = "Done refreshing collection.";
 	--TODO: L.ADHOC_UNIQUE_COLLECTED_INFO = "This Item is Unique-Collected but failed to be detected due to missing Blizzard API information.\n\nIt will be fixed after the next Force-Refresh.";
-	--TODO: L.AVAILABILITY = "Availability";
-	--TODO: L.REQUIRES_PVP = "|CFF00FFDEThis Thing requires Player vs Player activities or a currency related to those activities.|r";
-	--TODO: L.REQUIRES_PETBATTLES = "|CFF00FFDEThis Thing requires Pet Battling.|r";
-	--TODO: L.REPORT_INACCURATE_QUEST = "Wrong Quest Info! (Click to Report)";
 	--TODO: L.NESTED_QUEST_REQUIREMENTS = "Nested Quest Requirements";
-	--TODO: L.MAIN_LIST_REQUIRES_REFRESH = "[Open Main list to update progress]";
 	--TODO: L.DOES_NOT_CONTRIBUTE_TO_PROGRESS = "|cffe08207This group and its content do not contribute to the progress of this window since it is Sourced in another Location!|r";
 	--TODO: L.CURRENCY_NEEDED_TO_BUY = "Estimated amount needed to obtain remaining Things";
-	--TODO: L.LOCK_CRITERIA_LEVEL_LABEL = "Player Level";
-	--TODO: L.LOCK_CRITERIA_QUEST_LABEL = "Completed Quest";
-	--TODO: L.LOCK_CRITERIA_SPELL_LABEL = "Learned Spell/Mount/Recipe";
-	--TODO: L.LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
-	--TODO: L.LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
 	--TODO: L.FORCE_REFRESH_REQUIRED = "This may require a Force Refresh ("..SHIFT_KEY_TEXT.." click) to properly be collected.";
 	--TODO: L.FUTURE_UNOBTAINABLE = "Future Unobtainable!";
 	--TODO: L.FUTURE_UNOBTAINABLE_TOOLTIP = "This is content that has been confirmed or is highly-probable to be made unobtainable in a known future patch.";
@@ -240,34 +416,10 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		--TODO: L.ITEM_FILTER_BUTTON_DESCRIPTION = "Click this to change the item filter you want to search for within ATT.";
 		--TODO: L.ITEM_FILTER_POPUP_TEXT = "Which Item Filter would you like to search for?";
 
--- Instructional Text
-	--TODO: L.MINIMAP_MOUSEOVER_TEXT = "Right click to change settings.\nLeft click to open the Main List.\n"..CTRL_KEY_TEXT.." click to open the Mini List.\n"..SHIFT_KEY_TEXT.." click to Refresh Collections.";
-	--TODO: L.TOP_ROW_INSTRUCTIONS = "|cff3399ffLeft Click and Drag to Move\nRight Click to Open the Settings Menu\n"..SHIFT_KEY_TEXT.." click to Refresh Collections\n"..CTRL_KEY_TEXT.." click to Expand/Collapse Recursively\n"..SHIFT_KEY_TEXT.." right click to Sort Groups/Popout Lists|r";
-	--TODO: L.OTHER_ROW_INSTRUCTIONS = "|cff3399ffLeft Click to Expand/Collapse\nRight Click to Pop Out to Mini List\n"..SHIFT_KEY_TEXT.." click to Refresh Collections\n"..CTRL_KEY_TEXT.." click to Expand/Collapse Recursively\n"..SHIFT_KEY_TEXT.." right click to Sort Groups/Popout Lists\n"..ALT_KEY_TEXT.." right click to Plot Waypoints|r";
-	--TODO: L.TOP_ROW_INSTRUCTIONS_AH = "|cff3399ffLeft Click and Drag to Move\nRight Click to Open the Settings Menu\n"..SHIFT_KEY_TEXT.." click to Search the Auction House|r";
-	--TODO: L.OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ffLeft Click to Expand/Collapse\nRight Click to Pop Out to Mini List\n"..SHIFT_KEY_TEXT.." click to Search the Auction House|r";
-	--TODO: L.RECENTLY_MADE_OBTAINABLE = "|CFFFF0000If this recently dropped for you (anywhere but Salvage\nCrates), please post in Discord where you got it to drop!|r";
-	--TODO: L.RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000The more information, the better.  Thanks!|r";
 	--TODO: L.TOP_ROW_TO_LOCK = "|cff3399ff"..ALT_KEY_TEXT.." click to Lock this Window";
 	--TODO: L.TOP_ROW_TO_UNLOCK = "|cffcf0000"..ALT_KEY_TEXT.." click to Unlock this Window";
 	--TODO: L.QUEST_ROW_INSTRUCTIONS = "Right Click to see any Quest Chain Requirements";
-	--TODO: L.SYM_ROW_INFORMATION = "Right Click to see additional content which is Sourced in another location";
 	--TODO: L.QUEST_ONCE_PER_ACCOUNT = "Once-Per-Account Quest";
-	--TODO: L.COMPLETED_BY = "Completed By: %s";
-	--TODO: L.OWNED_BY = "Owned by %s";
-
--- Social Module
-	--TODO: L.NEW_VERSION_AVAILABLE = "A newer version of %s is available. Please update the AddOn, %s.";
-	--TODO: L.NEW_VERSION_FLAVORS = {
-	-- 	"or we'll give Sylvanas another lighter",
-	-- 	"Alexstrasza is worried about you",
-	-- 	"and Invincible will drop |cffffaaaafor sure|r next time",
-	-- 	"this was merely a setback",
-	-- 	"time to drop your % down",
-	-- 	"and a turtle will make it to the water",
-	-- 	"CHAMPYUUN, DE AZURIITE",
-	-- };
-	--TODO: L.SOCIAL_PROGRESS = "Social Progress";
 
 -- Settings.lua
 	--TODO: L.AFTER_REFRESH = "After Refresh";
@@ -302,45 +454,22 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 			--TODO: L.PRESET_RESTORE = "Restore";
 			--TODO: L.PRESET_RESTORE_TOOLTIP = "Restore your tracking options to before applying any presets.";
 
-		--TODO: L.MINIMAP_SLIDER = "Minimap Button Size";
-		--TODO: L.MINIMAP_SLIDER_TOOLTIP = 'Use this to customize the size of the Minimap Button.\n\nDefault: 36';
 		--TODO: L.EXTRA_THINGS_LABEL = "Additional Resources";
-		--TODO: L.MINIMAP_BUTTON_CHECKBOX = "Show the Minimap Button";
-		--TODO: L.MINIMAP_BUTTON_CHECKBOX_TOOLTIP = "Enable this option if you want to see the minimap button. This button allows you to quickly access the Main List, show your Overall Collection Progress, and access the Settings Menu by right clicking it.\n\nSome people don't like clutter. Alternatively, you can access the Main List by typing '/att' in your chatbox. From there, you can right click the header to get to the Settings Menu.";
-		--TODO: L.WORLDMAP_BUTTON_CHECKBOX = "Show the World Map Button";
-		--TODO: L.WORLDMAP_BUTTON_CHECKBOX_TOOLTIP = "Enable this option if you want to see the ATT button on your world map. This button allows you to quickly access the Mini List for the currently displayed zone. Regularly, you'd need to physically travel to the zone in order to see the content on the mini list that you can access by typing '/att mini' in your chatbox.";
 		--TODO: L.CLICK_TO_CREATE_FORMAT = "Click to Create %s";
-		--TODO: L.KEYBINDINGS_TEXT = "You can set keybindings for ATT in the game's options.";
-
-	-- Interface tab
-		--TODO: L.ADDITIONAL_LABEL = "Additional Information";
-		--TODO: L.DESCRIPTIONS = "Descriptions";
-		--TODO: L.LORE = "Lore";
-		--TODO: L.CLASSES = "Classes";
 
 	-- Features tab
-		--TODO: L.MINIMAP_LABEL = "Minimap Button";
-		--TODO: L.MODULES_LABEL = "Modules & Mini Lists";
-		--TODO: L.SKIP_CUTSCENES_CHECKBOX = "Automatically Skip Cutscenes";
-		--TODO: L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Enable this option if you want ATT to automatically skip all cutscenes on your behalf.";
 		--TODO: L.AUTO_BOUNTY_CHECKBOX = "Automatically Open the Bounty List";
 		--TODO: L.AUTO_BOUNTY_CHECKBOX_TOOLTIP = "Enable this option if you want to see the items that have an outstanding collection bounty. If you manage to snag one of the items posted on this list, you could make a good sum of gold.\n\nShortcut Command: /attbounty";
 		--TODO: L.AUTO_MAIN_LIST_CHECKBOX = "Automatically Open the Main List";
 		--TODO: L.AUTO_MAIN_LIST_CHECKBOX_TOOLTIP = "Enable this option if you want to automatically open the Main List when you login.\n\nYou can also bind this setting to a Key:\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Main List\n\nShortcut Command: /att";
 		--TODO: L.AUTO_MINI_LIST_CHECKBOX = "Automatically Open the Mini List";
 		--TODO: L.AUTO_MINI_LIST_CHECKBOX_TOOLTIP = "Enable this option if you want to see everything you can collect in your current zone. The list will automatically switch when you change zones. Some people don't like this feature, but when you are solo farming, this feature is extremely useful.\n\nYou can also bind this setting to a Key.\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Mini List\n\nShortcut Command: /att mini";
-		--TODO: L.AUTO_PROF_LIST_CHECKBOX = "Automatically Open the Profession List";
-		--TODO: L.AUTO_PROF_LIST_CHECKBOX_TOOLTIP = "Enable this option if you want ATT to open and refresh the profession list when you open your professions. Due to an API limitation imposed by Blizzard, the only time an addon can interact with your profession data is when it is open. The list will automatically switch when you change to a different profession.\n\nWe don't recommend disabling this option as it may prevent recipes from tracking correctly.\n\nYou can also bind this setting to a Key. (only works when a profession is open)\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Profession Mini List";
 		--TODO: L.AUTO_RAID_ASSISTANT_CHECKBOX = "Automatically Open the Raid Assistant";
 		--TODO: L.AUTO_RAID_ASSISTANT_CHECKBOX_TOOLTIP = "Enable this option if you want to see an alternative group/party/raid settings manager called the 'Raid Assistant'. The list will automatically update whenever group settings change.\n\nYou can also bind this setting to a Key.\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Raid Assistant\n\nShortcut Command: /attra";
 		--TODO: L.AUTO_WQ_LIST_CHECKBOX = "Automatically Open the World Quests List";
 		--TODO: L.AUTO_WQ_LIST_CHECKBOX_TOOLTIP = "Enable this option if you want the 'World Quests' list to appear automatically. The list will automatically update whenever you switch zones.\n\nYou can also bind this setting to a Key.\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle World Quests List\n\nShortcut Command: /attwq";
 		--TODO: L.AUCTION_TAB_CHECKBOX = "Show the Auction House Module Tab";
 		--TODO: L.AUCTION_TAB_CHECKBOX_TOOLTIP = "Enable this option if you want to see the Auction House Module provided with ATT.\n\nSome addons are naughty and modify this frame extensively. ATT doesn't always play nice with those toys.";
-		--TODO: L.ICON_LEGEND_STATUS_LABEL = "Icon Legend";
-		--TODO: L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White .. "|T" .. app.asset("status-unobtainable") .. ":0|t " .. "Unobtainable" .. "\n|T" .. app.asset("status-prerequisites") .. ":0|t " .. "Obtainable only with prerequisites" .. "\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "Available seasonal content" .. "\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "Unavailable seasonal content" .. "\n|T374225:0|t " .. "Unavailable on current character";
-		--TODO: L.CHAT_COMMANDS_LABEL = "Chat Commands";
-		--TODO: L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFFor|R /things |cffFFFFFFor|R /allthethings\n|cffFFFFFFOpens the Main List.\n\n|R/att mini |cffFFFFFFor|R /attmini\n|cffFFFFFFOpens the Mini List.\n\n|R/att bounty\n|cffFFFFFFOpens a list of bugged or unconfirmed items.\n\n|R/att ra |cffFFFFFFor|R /attra\n|cffFFFFFFOpens the Raid Assistant.\n\n|R/att wq |cffFFFFFFor|R /attwq\n|cffFFFFFFOpens the World Quests List.\n\n|R/att item:1234 |cffFFFFFFor|R /att [Item Link]\n|cffFFFFFFOpens a window with shared appearances. Also works with other things, such as|R quest:1234|cffFFFFFF, |Rnpcid:1234|cffFFFFFF, |Rmapid:1234|cffFFFFFF or |Rrecipeid:1234|cffFFFFFF.\n\n|R/att rwp\n|cffFFFFFFShows all future Removed With Patch things.\n\n|R/att random |cffFFFFFFor|R /attrandom |cffFFFFFFor|R /attran\n|cffFFFFFFOpens the Random List.\n\n|R/att unsorted\n|cffFFFFFFOpens a list of unsourced items. Best opened in Debug Mode.\n\n|R/rl\n|cffFFFFFFReload your WoW interface.|R";
 
 	-- Sync Window
 		--TODO: L.ACCOUNT_MANAGEMENT = "Account Management";
@@ -378,41 +507,8 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		--TODO: L.TOGGLE_RANDOM = "Toggle ATT Random";
 		--TODO: L.REROLL_RANDOM = "Reroll the Random Selection";
 
-	-- Event Text
-		--TODO: L.ITEM_ID_ADDED = "%s (%d) was added to your collection.";
-		--TODO: L.ITEM_ID_ADDED_RANK = "%s (%d) [Rank %d] was added to your collection.";
-		--TODO: L.ITEM_ID_ADDED_MISSING = "%s (%d) was added to your collection. Not found in the database. Please report to the ATT Discord!";
-		--TODO: L.ITEM_ID_ADDED_SHARED = "%s (%d) [+%d] were added to your collection.";
-		--TODO: L.ITEM_ID_ADDED_SHARED_MISSING = "%s (%d) [+%d] were added to your collection. Not found in the database. Please report to the ATT Discord!";
-		--TODO: L.ITEM_ID_REMOVED = "%s (%d) was removed from your collection.";
-		--TODO: L.ITEM_ID_REMOVED_SHARED = "%s (%d) [+%d] were removed from your collection.";
-
-	-- Tooltip Text
-		--TODO: L.DROP_RATE = "Drop Rate";
-		--TODO: L.QUEST_GIVER = "Quest Giver";
-		--TODO: L.EVENT_SCHEDULE = "Event Schedule";
-		--TODO: L.EVENT_ACTIVE = "Active:";
-		--TODO: L.EVENT_START = "Start:";
-		--TODO: L.EVENT_END = "End:";
-		--TODO: L.EVENT_WHERE = "Where:";
-		--TODO: L.REQUIRES_EVENT = "Requires Event";
-		--TODO: L.LOCKOUT = "Lockout";
-		--TODO: L.RESETS = "Resets";
-		--TODO: L.SHARED = "Shared";
-		--TODO: L.SPLIT = "Per Difficulty";
-		--TODO: L.REQUIRES_LEVEL = "Requires Level";
 		--TODO: L.SECRETS_HEADER = "Secrets";
-		--TODO: L.LIMITED_QUANTITY = "This has a limited quantity and may not always be present on the vendor.";
 		--TODO: L.SOURCE_ID_MISSING = "Please report this Item and where it was acquired to the ATT Discord in #retail-errors!";
-		--TODO: L.ADDED_WITH_PATCH_FORMAT = "Added in %s";
-		--TODO: L.WAS_ADDED_WITH_PATCH_FORMAT = "Added in %s";
-		--TODO: L.ADDED_BACK_WITH_PATCH_FORMAT = "Re-added in %s";
-		--TODO: L.WAS_ADDED_BACK_WITH_PATCH_FORMAT = "Added in %s";
-		--TODO: L.REMOVED_WITH_PATCH_FORMAT = "Removed in %s";
-
-	-- Filter Text
-		--TODO: L.CREATURES_COUNT = "[%s Creatures]";
-		--TODO: L.CREATURES_LIST = "Creatures List";
 
 	-- Artifact Relic Completion
 		--TODO: L.ARTIFACT_RELIC_CACHE = "Open your Artifact UI for all of your Artifact Weapons to cache whether this is an upgrade or not. This is useful for determining if you can trade this item to a Twink or not.";
@@ -425,12 +521,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		--TODO: L.DISABLED = "disabled";
 
 	-- Icons and Collection Text
-		--TODO: L.COLLECTED = "|T" .. app.asset("known") .. ":0|t |cff15abffCollected|r";	-- Acquired the colors and icon from CanIMogIt.
-		--TODO: L.COLLECTED_APPEARANCE = "|T" .. app.asset("known_circle") .. ":0|t |cff15abffCollected*|r";	-- Acquired the colors and icon from CanIMogIt.
-		--TODO: L.NOT_COLLECTED = "|T" .. app.asset("unknown") .. ":0|t |cffff9333Not Collected|r";	-- Acquired the colors and icon from CanIMogIt.
-		--TODO: L.COMPLETE"] = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Complete|r";	-- Acquired the colors and icon from CanIMogIt.
-		--TODO: L.COMPLETE_OTHER"] = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Complete*|r";	-- Acquired the colors and icon from CanIMogIt.
-		--TODO: L.INCOMPLETE"] = "|T" .. app.asset("incomplete") .. ":0|t |cff15abffIncomplete|r";	-- Acquired the colors and icon from CanIMogIt.
 		--TODO: L.SAVED = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Saved|r";	-- Acquired the colors and icon from CanIMogIt.
 		--TODO: L.COST_TEXT = "|T" .. app.asset("Currency") .. ":0|t |cff0891ffCurrency|r";
 

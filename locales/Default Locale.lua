@@ -25,7 +25,7 @@ local L = setmetatable({
 		"or Sylvanas might get another lighter.",
 		"as Alexstrasza is worried about you.",
 		"and Invincible will drop |cffffaaaafor sure|r next time.",
-	--	"this was merely a setback.",
+		"this was merely a setback.",
 		", Yes Chef!",
 		"and Crieve will help a turtle to make it to the water.",
 		"CHAMPYUUN, DE AZURIITE.",
@@ -74,7 +74,7 @@ local L = setmetatable({
 	TOP_ROW_INSTRUCTIONS_AH = "|cff3399ffLeft Click and Drag to Move\nRight Click to Open the Settings Menu\n"..SHIFT_KEY_TEXT.." Click to Search the Auction House|r";
 	OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ffLeft Click to Expand/Collapse\nRight Click to Pop Out to Mini List\n"..SHIFT_KEY_TEXT.." Click to Search the Auction House|r";
 	RECENTLY_MADE_OBTAINABLE = "|CFFFF0000If this recently dropped for you (anywhere but Salvage\nCrates), please post in Discord where you got it to drop!|r";
-	RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000The more information, the better.  Thanks!|r";
+	RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000The more information, the better. Thanks!|r";
 	MAIN_LIST_REQUIRES_REFRESH = "[Click to Update Progress]";
 	UPDATES_PAUSED = "Updates Paused";
 	VISIT_FLIGHT_MASTER = "Visit the Flight Master to cache.";
@@ -234,7 +234,6 @@ local L = setmetatable({
 	COMPLETE_OTHER = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Complete*|r";		-- Acquired the colors and icon from CanIMogIt.
 	INCOMPLETE = "|T" .. app.asset("incomplete") .. ":0|t |c" .. app.Colors.Completed .. "Incomplete|r";		-- Acquired the colors and icon from CanIMogIt.
 	INCOMPLETE_ICON = "|T" .. app.asset("incomplete") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
-
 
 	-- temporary move
 	COLLECTED_STRING = " Collected";

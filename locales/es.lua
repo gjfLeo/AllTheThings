@@ -7,35 +7,246 @@ local L = app.L;
 local GetSpellName = app.WOWAPI.GetSpellName;
 
 -- General Text
+	L.TITLE = "|c" .. app.Colors.ATT .. "ALL THE THINGS|r";
+	L.SHORTTITLE = "|c" .. app.Colors.ATT .. "ATT|r";
 	L.DESCRIPTION = "\"Insensatamente has buscado tu propia muerte. Descaradamente has ignorado poderes que escapan a tu comprensión. Has luchado con ahínco para invadir el reino del Coleccionista. Ahora solo queda una salida: recorrer el solitario camino... de los condenados.\"";
 	L.THINGS_UNTIL = " COSAS HASTA ";
 	L.THING_UNTIL = " COSAS HASTA ";
 	L.YOU_DID_IT = "¡LO LOGRASTE! ";
 
--- Big new chunk from AllTheThings.lua
+-- Social Module
+	L.NEW_VERSION_AVAILABLE = "Hay una nueva versión de %s disponible. Por favor actualiza el AddOn, %s.";
+	L.NEW_VERSION_FLAVORS = {
+		"AllTheThings tiene hambre.",
+		"o le daremos otro mechero a Sylvanas",
+	 	"Alexstrasza está preocupada por ti",
+	 	"e Invencible te caerá |cffffaaaasegurísimo|r la próxima vez",
+	 	"fue solo un mero contratiempo",
+		", Si, Chef"
+	 	"y Crieve ayudará a una tortuga a llegar al agua.",
+	 	"ADALIIID, LA AZERITAAA",
+	};
+	L.SOCIAL_PROGRESS = "Progreso social";
+	L.TRACKING_PROGRESS = "Seguimiento del progreso";
+	L.COLLECTION_PROGRESS = "Progreso de la colección";
+
+	-- Settings
+	L.DATA_TYPE_NOT_SUPPORTED = "Este tipo de datos no se admite en este momento.";
+	L.OPEN_MINILIST_FOR = "Abrir Mini lista para";
+	L.REFRESHING_COLLECTION = "Refrescando colección...";
+	L.DONE_REFRESHING = "Refresco de colección acabado.";
+	L.ADDED_WITH_PATCH = "Agregado en el parche";
+	L.REMOVED_WITH_PATCH = "Eliminado en el Parche";
+	L.AVAILABILITY = "Disponibilidad";
+	L.CREATURES_COUNT = "[%s Criaturas]";
+	L.CREATURES_LIST = "Lista de Criaturas";
 	L.PROGRESS = "Progreso";
+	L.COMPLETED_BY = "Completado por: %s";
+	L.KNOWN_BY = "Conocido por %s";
+	L.OWNED_BY = "Poseído por %s";
+	L.ALIVE = "Vivo";
+	L.SPAWNED = "Hace aparición";
+	L.LAYER = "Capa";
+	L.BINDING = "Ligado";
+	L.BONUS_ID = "Bonus ID";
+	L.CONDUIT_ID = "Conducto ID";
+	L.DISPLAY_ID = "Mostrar ID";
+	L.PET_BATTLES = "Duelo de mascotas";
+	L.EVENT_ID = "Evento ID";
+	L.ICON_PATH = "Icono de ruta";
+	L.ITEM_LEVEL = "iLvl (Nivel promedio de objetos)";
+	L.ITEM_STRING = "Cadena de texto de objetos";
+	L.MOD_ID = "Mod ID";
+	L.OBJECT_TYPE = "Tipo de objeto";
+	L.OBJECTIVES = "Objetivos";
+	L.QUEST_GIVERS = "Asignadores de misiones";
+	L.QUEST_ITEMS = "Objetos de misión";
+	L.RUNEFORGE_POWER_ID = "Poder de forja de runas ID";
+
+-- Instructional Text
+	L.MINIMAP_MOUSEOVER_TEXT = "Clic derecho para cambiar ajustes.\nClic izquierdo para abrir la Lista Principal.\n"..CTRL_KEY_TEXT.." + clic para abrir la Mini Lista.\n"..SHIFT_KEY_TEXT.." + clic para Refrescar las Colecciones.";
+	L.TOP_ROW_INSTRUCTIONS = "|cff3399ffClic izquierdo y arrastra para mover\nClic derecho para abrir el menú de ajustes\n"..SHIFT_KEY_TEXT.." + clic para Refrescar las Colecciones\n"..CTRL_KEY_TEXT.." + clic para Expandir/Contraer recursivamente\n"..SHIFT_KEY_TEXT.." + clic derecho para ordenar grupos o listas emergentes|r";
+	L.OTHER_ROW_INSTRUCTIONS = "|cff3399ffClic izquierdo para Expandir/Contraer\nClic derecho para abrir una mini lista\n"..SHIFT_KEY_TEXT.." + clic para Refrescar las Colecciones\n"..CTRL_KEY_TEXT.." + clic para Expandir/Contraer recursivamente\n"..SHIFT_KEY_TEXT.." + clic derecho para ordenar grupos o listas emergentes\n"..ALT_KEY_TEXT.." + clic derecho para marcar puntos de referencia|r";
+	L.TOP_ROW_INSTRUCTIONS_AH = "|cff3399ffClic izquierdo y arrastra para mover\nClic derecho para abrir el menú de ajustes\n"..SHIFT_KEY_TEXT.." + clic para buscar en la Casa de Subastas|r";
+	L.OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ffClic izquierdo para Expandir/Contraer\nClic derecho para abrir una mini lista\n"..SHIFT_KEY_TEXT.." + clic para buscar en la Casa de Subastas|r";
+	L.RECENTLY_MADE_OBTAINABLE = "|CFFFF0000Si conseguiste esto (cualquier sitio excepto de Cajones\nde objetos recuperados), por favor dí en nuestro Discord dónde lo conseguiste!|r";
+	L.RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000Cuanta más información, mejor. Gracias!|r";
+	L.MAIN_LIST_REQUIRES_REFRESH = "[Abrir Lista Principal para actualizar el progreso]";
+	L.UPDATES_PAUSED = "Actualizaciones pausadas";
+	L.VISIT_FLIGHT_MASTER = "Visita al maestro de vuelo para detectarlo";
+	L.REQUIRES_PVP = "|CFF00FFDEEsta cosa requiere actividades Jugador contra Jugador o una divisa relacionada con esas actividades.|r";
+	L.REQUIRES_PETBATTLES = "|CFF00FFDEEsta cosa requiere duelos de mascota.|r";
+	L.REQUIRES_SKYRIDING = "|CFF00FFDE"..(SPELL_FAILED_CUSTOM_ERROR_1029 or "Requiere Surcacielos").."|r";
+	L.PLEASE_REPORT_MESSAGE = "¡Por favor, reporte esto al Discord de ATT en #retail-errors! ¡gracias!";
+	L.REPORT_TIP = "\n("..CTRL_KEY_TEXT.."+C para copiar un informe de varias líneas al portapapeles)";
+	L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "La misión '%s' %s evitará que puedas completar la cadena de misiones '%s' %s";
+	L.REPORT_INACCURATE_QUEST = "Información de misión errónea! (Clic para Reportar)";
+	L.ITEM_GIVES_REP = "Provee reputación con '";
+
+-- Event Text
+	L.ITEM_ID_ADDED = "%s (%d) fue añadido a tu colección.";
+	L.ITEM_ID_ADDED_RANK = "%s (%d) [Rango %d] fue añadido a tu colección.";
+	L.ITEM_ID_ADDED_MISSING = "%s (%d) fue añadido a tu colección. No encontrado en la base de datos. Por favor reportarlo al Discord de ATT!";
+	L.ITEM_ID_ADDED_SHARED = "%s (%d) [+%d] fueron añadidos a tu colección.";
+	L.ITEM_ID_ADDED_SHARED_MISSING = "%s (%d) [+%d] fueron añadidos a tu colección. No encontrado en la base de datos. Por favor reportarlo al Discord de ATT!";
+	L.ITEM_ID_REMOVED = "%s (%d) fue eliminado de tu colección.";
+	L.ITEM_ID_REMOVED_SHARED = "%s (%d) [+%d] fueron eliminados de tu colección.";
+
+-- Tooltip Text
+	L.DROP_RATE = "Probabilidad de botín";
+	L.QUEST_GIVER = "Asignador de misión";
+	L.COORDINATES = "Coordenadas";
+	L.PLAYER_COORDINATES = "Coordenadas del jugador";
+	L.EVENT_SCHEDULE = "Horario del evento";
+	L.EVENT_ACTIVE = "Activo:";
+	L.EVENT_START = "Inicio:";
+	L.EVENT_END = "Fin:";
+	L.EVENT_WHERE = "Dónde:";
+	L.REQUIRES_EVENT = "Requiere el evento";
+	L.BREADCRUMBS = "Cadena";
+	L.MAPS = "Mapas";
+	L.LOCKOUT = "Bloqueo";
+	L.LOCKOUTS = "Bloqueos";
+	L.RESETS = "Reinicios";
+	L.SHARED = "Compartido";
+	L.SPLIT = "Por dificultad";
+	L.REQUIRES = "Requiere";
+	L.REQUIRES_LEVEL = "Necesitas ser nivel";
+	L.LIMITED_QUANTITY = "Tiene una cantidad limitada puede que no esté presente siempre en este vendedor.";
+	L.ADDED_WITH_PATCH_FORMAT = "Añadido en el parche %s";
+	L.ADDED_BACK_WITH_PATCH_FORMAT = "Re añadido en el parche %s";
+	L.REMOVED_WITH_PATCH_FORMAT = "Eliminado en el parche %s";
+	L.WAS_ADDED_WITH_PATCH_FORMAT = "Añadido en el parche %s";
+	L.WAS_ADDED_BACK_WITH_PATCH_FORMAT = "Re añadido en el parche %s";
+	L.CRITERIA_FORMAT = "|cffffff00[Criterio: %s]|r";
+
+	L.FACTION_SPECIFIC_REP = "No se pueden ver todas las reputaciones de un mismo personaje. Por ejemplo, los jugadores de la Alianza no pueden ver a los Escoltas Grito de Guerra, y los de la Horda no pueden ver a los Centinelas Ala de Plata.";
+	L.MINUMUM_STANDING_WITH_FACTION = "Requiere un nivel mínimo de %s con %s.";
+	L.MAXIMUM_STANDING_WITH_FACTION = "Requiere un nivel menor de %s con %s.";
+	L.MIN_MAX_STANDING_WITH_FACTION = "Requiere un nivel entre %s y %s con %s.";
+
+	L.HEIRLOOM_TEXT = "Reliquias desbloqueadas";
+	L.HEIRLOOM_TEXT_DESC = "Esto indica si ya ha adquirido o comprado la reliquia.";
+	L.HEIRLOOMS_UPGRADES_DESC = "Esto indica si has mejorado o no la reliquia a un cierto nivel.\n\nD.E.P. Oro.\n - Crieve";
+
+	L.LOCK_CRITERIA_LEVEL_LABEL = "Nivel de personaje";
+	L.LOCK_CRITERIA_QUEST_LABEL = "Misión completada";
+	L.LOCK_CRITERIA_SPELL_LABEL = "Habilidad/Montura/Receta aprendida";
+	L.LOCK_CRITERIA_FACTION_LABEL = "Reputación con facción";
+	L.LOCK_CRITERIA_SOURCE_LABEL = "Apariencia conocida";
+	L.LOCK_CRITERIA_TOY_LABEL = "Juguete conocido";
+	L.LOCK_CRITERIA_FACTION_FORMAT = "%s con %s (Actual: %s)";
+	L.TITLES_DESC = "Los títulos se rastrean en toda tu cuenta, sin embargo, tu personaje individual debe calificar para ciertos títulos para poder usarse en ese personaje.";
+
+-- Filter Text
+	L.ARTIFACT_ID = "Artefacto ID";
+	L.AZERITE_ESSENCE_ID = "Esencia de Azerita ID";
+	L.ART_ID = "Arte ID";
+	L.CAMPSITE_ID = "Campamento ID";
+	L.CREATURE_ID = "Criatura ID";
+	L.CURRENCY_ID = "Moneda ID";
+	L.DESCRIPTIONS = "Descripciones";
+	L.DIFFICULTY_ID = "Dificultad ID";
+	L.ENCOUNTER_ID = "Encuentro ID";
+	L.EXPANSION_ID = "Expansión ID";
+	L.EXPLORATION_ID = "Exploración ID";
+	L.FILTER_ID = "Filtro ID";
+	L.FOLLOWER_ID = "Seguidores ID";
+	L.GUID = "Global ID";
+	L.HEADER_ID = "Encabezado ID";
+	L.ILLUSION_ID = "Ilusión ID";
+	L.INSTANCE_ID = "Mazmorra ID";
+	L.SAVED_INSTANCE_ID = "Mazmorras guardadas ID";
+	L.ITEM_ID = "Objeto ID";
+	L.FACTION_ID = "Facción ID";
+	L.FLIGHT_PATH_ID = "Ruta de vuelo ID";
+	L.LORE = "Trasfondo";
+	L.MAP_ID = "Mapa ID";
+	L.MISSION_ID = "Misión ID";
+	L.MOUNT_ID = "Montura ID";
+	L.MUSIC_ROLL_ID = "Rollo de música ID";
+	L.NPC_ID = "Pnj ID";
+	L.OBJECT_ID = "Objeto ID";
+	L.PROVIDERS = "Otorgador(es)";
+	L.QUEST_ID = "Misión ID";
+	L.SET_ID = "Set de equipo ID";
+	L.SOURCE_ID = "Origen ID";
+	L.SPELL_ID = "Hechizo ID";
+	L.SPELL_NAME = "Nombre del hechizo";
+	L.SPECIES_ID = "Especies ID";
+	L.TITLE_ID = "Titulo ID";
+	L.TOY_ID = "Juguete ID";
+	L.VISUAL_ID = "Visual ID";
+	L.AND_MORE = "y %s mas...";
+	L.SYM_ROW_INFORMATION = "Clic derecho para ver contenido adicional que su fuente está en otra zona";
+	L.SYM_ROW_SKIP_DESC = "El contenido vinculado solo se muestra en la información sobre la ventana emergente de este objeto.";
+	L.ACHIEVEMENT_PRE_WRATH_SOURCE_QUEST_INFO = "Este logro tiene misiones asociadas que pueden completarse antes de la introducción del sistema de logros que viene con el pre parche de Wrath. No todos los logros se pueden rastrear de esta manera, pero los que sí se puedan, se mostrarán. Los demás logros no rastreables se activarán con el pre parche.";
+	L.CLASSES = "Clases";
+
+	L.ADDITIONAL_LABEL = "Información adicional";
+	L.CRITERIA_FOR = "Criterio para";
+	L.CURRENCY_FOR = "Moneda para";
+
+	L.CHAT_COMMANDS_LABEL = "Comandos de Chat";
+	L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFFor|R /things |cffFFFFFFor|R /allthethings\n|cffFFFFFFAbre la lista principal.\n\n|R/att mini |cffFFFFFFor|R /attmini\n|cffFFFFFFAbre la Mini Lista.\n\n|R/att bounty\n|cffFFFFFFAbre una lista de objetos con errores o no confirmados.\n\n|R/att ra |cffFFFFFFor|R /attra\n|cffFFFFFFAbre el Asistente de Banda.\n\n|R/att wq |cffFFFFFFor|R /attwq\n|cffFFFFFFAbre la lista de Misiones de Mundo.\n\n|R/att item:1234 |cffFFFFFFor|R /att [Enlace del objeto]\n|cffFFFFFFAbre una lista con las apariencias compartidas. También funciona con otras cosas, como|R quest:1234|cffFFFFFF, |Rnpcid:1234|cffFFFFFF, |Rmapid:1234|cffFFFFFF or |Rrecipeid:1234|cffFFFFFF.\n\n|R/att rwp\n|cffFFFFFFMuestra todas las cosas con 'Eliminado en el parche' en un futuro.\n\n|R/att random |cffFFFFFFor|R /attrandom |cffFFFFFFor|R /attran\n|cffFFFFFFAbre la lista Aleatoria.\n\n|R/att unsorted\n|cffFFFFFFAbre la lista de objetos sin fuente. Mejor abrir en Modo Depuración.\n\n|R/rl\n|cffFFFFFFRecarga tu interfaz de WoW.|R";
+	L.ICON_LEGEND_STATUS_LABEL = "Texto de los iconos de estado";
+	L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White ..
+			"|T" .. app.asset("status-unobtainable") .. ":0|t " .. "No conseguible" ..
+			"\n|T" .. app.asset("status-prerequisites") .. ":0|t " .. "Conseguible solo con requisitos" ..
+			"\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "Contenido de temporada disponible" ..
+			"\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "Contenido de temporada no disponible" ..
+			"\n|T374225:0|t " .. "No disponible en el personaje actual" ..
+			"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Sin listar en ATT";
+	L.ICON_LEGEND_MISC_LABEL = "Iconos para textos varios";
+	L.ICON_LEGEND_MISC_TEXT = app.ccColors.White ..
+			"|T" .. app.asset("Currency") .. ":0|t " .. "Usado como una moneda" ..
+			"\n|T" .. app.asset("Interface_Reagent") .. ":0|t " .. "Usado como un componente de fabricación" ..
+			"\n|T" .. app.asset("Interface_Catalyst") .. ":0|t " .. "Convertible en el Catalyst para una nueva apariencia" ..
+			"\n|T" .. app.asset("Interface_Upgrade") .. ":0|t " .. "Se puede mejorar para una nueva apariencia.";
+	L.KEYBINDINGS = SETTINGS_KEYBINDINGS_LABEL;
+	L.KEYBINDINGS_TEXT = "Puedes definir atajos de teclado para ATT en las opciones del juego.";
+	L.MINIMAP_LABEL = "Botón del minimapa";
+	L.MODULES_LABEL = "Módulos y Mini Listas";
+	L.AUTO_PROF_LIST_CHECKBOX = "Abre automáticamente la Lista de Profesiones";
+	L.AUTO_PROF_LIST_CHECKBOX_TOOLTIP = "Activa esta opción si quieres que ATT abra y refresque la lista de profesiones cuando abres tus profesiones. Debido a limitaciones en la API impuestas por Blizzard, el único momento en el que un addon puede interactuar con los datos de profesión es cuando son abiertas. La lista cambia automáticamente cuando cambias a una profesión diferente.\n\nNo recomendamos desactivar esta opción porque pude que prevenir que se rastreen recetas correctamente.\n\nTambién puedes configurar este ajuste a un atajo. (sólo funciona cuando una profesión es abierta)\n\nAtajos de teclado -> Addons -> ALL THE THINGS -> Activar Lista de Profesiones ATT";
+	L.SKIP_CUTSCENES_CHECKBOX = "Saltar automáticamente cinemáticas";
+	L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Activa esta opción si quieres que ATT salte todas las cinemáticas automáticamente por ti.";
+	L.MINIMAP_BUTTON_CHECKBOX = "Muestra el botón del minimapa";
+	L.MINIMAP_BUTTON_CHECKBOX_TOOLTIP = "Activa esta opción si quieres ver el botón del minimapa. Este botón te permite acceder rápidamente a la Lista Principal, que muestra tu progreso total de colección, y acceder a los Ajustes haciendo clic derecho.\n\nA algunas personas no les gusta el desorden. Como alternativa, puedes acceder a la Lista Principal escribiendo '/att' en el chat. Desde allí, puedes hacer clic derecho en el título para ir al menú de ajustes.";
+	L.MINIMAP_SLIDER = "Tamaño del botón del minimapa";
+	L.MINIMAP_SLIDER_TOOLTIP = 'Usa esto para personalizar el tamaño del botón del Minimapa.\n\nPredeterminado: 36';
+	L.WORLDMAP_BUTTON_CHECKBOX = "Muestra el botón del mapa de mundo";
+	L.WORLDMAP_BUTTON_CHECKBOX_TOOLTIP = "Activa esta opción si quiere ver el botón de ATT en tu mapa del mundo. Este botón te permite acceder rápidamente a la Mini Lista de la zona mostrada actualmente. Aunque deberás viajar físicamente a la zona para poder ver el contenido en la Mini Lista a la que puedes acceder cuando escribes '/att mini' en tu chat.";
+
+-- Icons and Collection Text
+	L.COLLECTED_ICON = "|T" .. app.asset("known") .. ":0|t";	-- Acquired the colors and icon from CanIMogIt.
+	L.COLLECTED_APPEARANCE_ICON = "|T" .. app.asset("known_circle") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.COMPLETE_ICON = "|T" .. app.asset("known_green") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.NOT_COLLECTED_ICON = "|T" .. app.asset("unknown") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.COLLECTED = "|T" .. app.asset("known") .. ":0|t |cff15abffAdquirido|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.COLLECTED_APPEARANCE = "|T" .. app.asset("known_circle") .. ":0|t |cff15abffAdquirido*|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.NOT_COLLECTED = "|T" .. app.asset("unknown") .. ":0|t |cffff9333No adquirido|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.COMPLETE = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Completado|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.COMPLETE_OTHER = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Completado*|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.INCOMPLETE = "|T" .. app.asset("incomplete") .. ":0|t |cff15abffIncompleto|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.INCOMPLETE_ICON = "|T" .. app.asset("incomplete") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+
+-- Big new chunk from AllTheThings.lua
 	L.TRACKING_PROGRESS = "Rastreando progreso";
 	L.COLLECTED_STRING = " Recolectado";
 	L.PROVIDERS = "Proveedor(es)";
 	L.COLLECTION_PROGRESS = "Progreso de la colección";
 	L.CONTAINS = "Contiene:";
 	L.FACTIONS = "Reputaciones";
-	L.COORDINATES = "Coordenadas";
 	L.AND_MORE = "Y %s más...";
 	L.AND_OTHER_SOURCES = "Y %s otras fuentes...";
-	L.PLAYER_COORDINATES = "Coordenadas del jugador";
 	L.NO_COORDINATES_FORMAT = "No hay coordenadas conocidas para %s";
 	L.TOM_TOM_NOT_FOUND = "Debe tener instalado TomTom para poder seguir coordenadas.";
 	L.FLIGHT_PATHS = "Rutas de vuelo";
-	L.KNOWN_BY = "Conocido por %s";
-	L.REQUIRES = "Requiere";
 	L.RACE_LOCKED = "Exclusivo de raza/facción";
-	L.PLEASE_REPORT_MESSAGE = "¡Por favor, reporte esto al Discord de ATT en #retail-errors! ¡gracias!";
-	L.REPORT_TIP = "\n("..CTRL_KEY_TEXT.."+C para copiar un informe de varias líneas al portapapeles)";
 	L.NOT_AVAILABLE_IN_PL = "No disponible en botín personal.";
 	L.MARKS_OF_HONOR_DESC = "Las Marcas de Honor deben visualizarse en una ventana emergente para ver todo el contenido normal de \"Contiene\".\n(Escribe '/att ' en el chat entonces "..SHIFT_KEY_TEXT.." click para linkear el item)\n\n|cFFfe040fDespués de comprar y usar un conjunto, volver a iniciar sesión y realizar una actualización forzada de ATT (en este orden)\npuede ser necesario para registrar todos los artículos correctamente.|r";
 	L.MOP_REMIX_BRONZE_DESC = "El bronce debe visualizarse en una ventana emergente para ver todo el contenido normal de \"Contiene\".\n(Escribe '/att ' en el chat entonces "..SHIFT_KEY_TEXT.." click para linkear la moneda)\n\n|cFFfe040fDespués de comprar y usar un conjunto, volver a iniciar sesión y realizar una actualización forzada de ATT (en este orden)\npuede ser necesario para registrar todos los artículos correctamente.|r";
-	L.ITEM_GIVES_REP = "Provee reputación con '";
 	L.COST = "Coste";
 	L.COST_DESC = "Esto contiene el desglose visual de lo que se requiere para obtener o comprar esta cosa.";
 	L.COST_TOTAL = "Coste total";
@@ -44,15 +255,11 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.SOURCES_DESC = "Muestra la fuente de esta cosa.\n\nEn particular, un vendedor/NPC específico, una misión, un encuentro, etc.";
 	L.WRONG_FACTION = "Quizás necesites estar en la otra facción para ver esto.";
 	L.ARTIFACT_INTRO_REWARD = "Se otorga por completar la misión introductoria de este artefacto.";
-	L.VISIT_FLIGHT_MASTER = "Visita al maestro de vuelo para detectarlo";
 	L.FLIGHT_PATHS_DESC = "Las rutas de vuelo son detectadas cuando hablas con un maestro de vuelo de cada continente.\n  - Crieve";
 	if app.IsRetail then
 	L.FOLLOWERS_COLLECTION_DESC = "Se pueden recopilar seguidores en toda la cuenta si habilita esta configuración en ATT.\n\nDebes actualizar manualmente el addon con "..SHIFT_KEY_TEXT.." clic en el encabezado para que esto se detecte.";
 	end
-	L.HEIRLOOM_TEXT = "Reliquias desbloqueadas";
-	L.HEIRLOOM_TEXT_DESC = "Esto indica si ya ha adquirido o comprado la reliquia.";
 	L.FAILED_ITEM_INFO = "No se pudo obtener la información del objeto. Es posible que el objeto no sea válido o que aún no se haya almacenado en caché en el servidor.";
-	L.HEIRLOOMS_UPGRADES_DESC = "Esto indica si has mejorado o no la reliquia a un cierto nivel.\n\nR.I.P. Oro.\n - Crieve";
 	if app.IsRetail then
 	L.MUSIC_ROLLS_DESC = "Estos se desbloquean por personaje y actualmente no se comparten entre cuentas. Si alguien de Blizzard está leyendo esto, sería genial que los hicieran accesibles para toda la cuenta.\n\nDebes actualizar manualmente el addon "..SHIFT_KEY_TEXT.." clic en el encabezado para que esto se detecte.";
 	end
@@ -73,7 +280,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.EXPANSION_DATA[11].lore = "The War Within es la décima expansión de World of Warcraft y el inicio de la Saga Alma del Mundo. Viaja a través de mundos subterráneos nunca antes vistos, repletos de maravillas ocultas y peligros acechantes, hasta las oscuras profundidades del imperio nerubiano, donde la maligna Presagista del Vacío reúne fuerzas arácnidas para doblegar a Azeroth.";
 	L.EXPANSION_DATA[12].lore = "Midnight es la undécima expansión de World of Warcraft y la segunda entrega de la saga Alma del Mundo.";
 	L.EXPANSION_DATA[13].lore = "The Last Titan es la duodécima expansión de World of Warcraft y la última entrega de la saga Alma del Mundo.";
-	L.TITLES_DESC = "Los títulos se rastrean en toda tu cuenta, sin embargo, tu personaje individual debe calificar para ciertos títulos para poder usarse en ese personaje.";
 	L.UPON_COMPLETION = "Al finalizar";
 	L.UPON_COMPLETION_DESC = "Las misiones anteriores deben completarse antes de poder completar las cosas que se enumeran a continuación.";
 	L.QUEST_CHAIN_REQ = "Requisitos de la cadena de misiones";
@@ -89,17 +295,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.TSM4_ERROR = "TSM4 aún no es compatible con ATT. Si sabes cómo crear presets como en TSM3, ¡Susurrale a Crieve en Discord!";
 	L.QUEST_MAY_BE_REMOVED = "No se pudo obtener información. Es posible que esta misión haya sido eliminada del juego. ";
 
-	L.FACTION_SPECIFIC_REP = "No se pueden ver todas las reputaciones de un mismo personaje. Por ejemplo, los jugadores de la Alianza no pueden ver a los Escoltas Grito de Guerra, y los de la Horda no pueden ver a los Centinelas Ala de Plata.";
-	L.MINUMUM_STANDING_WITH_FACTION = "Requiere un nivel mínimo de %s con %s.";
-	L.MAXIMUM_STANDING_WITH_FACTION = "Requiere un nivel menor de %s con %s.";
-	L.MIN_MAX_STANDING_WITH_FACTION = "Requiere un nivel entre %s y %s con %s.";
-
-	L.ADDED_WITH_PATCH = "Agregado en el parche";
-	L.REMOVED_WITH_PATCH = "Eliminado en el Parche";
-	L.ALIVE = "Vivo";
-	L.SPAWNED = "Hace aparición";
-	L.OBJECT_TYPE = "Tipo de objeto";
-	L.OBJECTIVES = "Objetivos";
 	L.QUEST_GIVERS = "Asignadores de misiones";
 	L.DURING_WQ_ONLY = "Esto se puede completar cuando la misión de mundo está activa.";
 	L.COMPLETED_DAILY = "Esto se puede completar diariamente.";
@@ -107,13 +302,10 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.COMPLETED_MONTHLY = "Esto se puede completar mensualmente.";
 	L.COMPLETED_YEARLY = "Esto se puede completar anualmente.";
 	L.COMPLETED_MULTIPLE = "Esto se puede completar múltiples veces.";
-	L.CRITERIA_FOR = "Criterio para";
-	L.CURRENCY_FOR = "Moneda para";
 	L.LOOT_TABLE_CHANCE = "Probabilidad en la tabla de botín";
 	L.BEST_BONUS_ROLL_CHANCE = "Mejor probabilidad de tirada de bonificación";
 	L.BEST_PERSONAL_LOOT_CHANCE = "Mejor probabilidad de botín personal";
 	L.PREREQUISITE_QUESTS = "Hay misiones previas que deben completarse antes de poder obtener esto:";
-	L.BREADCRUMBS = "Cadena";
 	L.BREADCRUMBS_WARNING = "Hay una cadena de misiones que no puede conseguirse después de completar esto:";
 	L.THIS_IS_BREADCRUMB = "Esto es una cadena de misiones.";
 	L.BREADCRUMB_PARTYSYNC = "Es posible que esto no se pueda completar sin Sincronización de grupo si primero se completa alguna de estas misiones:";
@@ -210,24 +402,11 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.REAGENT_CACHE_OUT_OF_DATE = "La cache de ingredientes está desactualizada y se actualizará cuando abras tus profesiones!";
 	L.ARTIFACT_CACHE_OUT_OF_DATE = "La cache de Artefactos está desactalizada/imprecisa y se actualizará cuando entres al juego con cada personaje!";
 	L.QUEST_LOOP = "Seguramente se ha salido de un bucle infinito de fuentes de misión.";
-	L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "La misión '%s' %s evitará que puedas completar la cadena de misiones '%s' %s";
 	L.QUEST_OBJECTIVE_INVALID = "Objetivo de misión inválido";
-	L.REFRESHING_COLLECTION = "Refrescando colección...";
-	L.DONE_REFRESHING = "Refresco de colección acabado.";
 	L.ADHOC_UNIQUE_COLLECTED_INFO = "Este objeto es Único-Coleccionado pero no se pudo detectar por falta de información de la API de Blizzard.\n\nSe arreglará después de un Refresco Forzado.";
-	L.AVAILABILITY = "Disponibilidad";
-	L.REQUIRES_PVP = "|CFF00FFDEEsta cosa requiere actividades Jugador contra Jugador o una divisa relacionada con esas actividades.|r";
-	L.REQUIRES_PETBATTLES = "|CFF00FFDEEsta cosa requiere duelos de mascota.|r";
-	L.REPORT_INACCURATE_QUEST = "Información de misión errónea! (Clic para Reportar)";
 	L.NESTED_QUEST_REQUIREMENTS = "Requisitos de Misión anidados";
-	L.MAIN_LIST_REQUIRES_REFRESH = "[Abrir Lista Principal para actualizar el progreso]";
 	L.DOES_NOT_CONTRIBUTE_TO_PROGRESS = "|cffe08207Este grupo y su contenido no contribuyen al progreso de esta ventana porque sus fuentes estan en otra zona!|r";
 	L.CURRENCY_NEEDED_TO_BUY = "Cantidad estimada necesaria para obtener las cosas restantes";
-	L.LOCK_CRITERIA_LEVEL_LABEL = "Nivel de personaje";
-	L.LOCK_CRITERIA_QUEST_LABEL = "Misión completada";
-	L.LOCK_CRITERIA_SPELL_LABEL = "Habilidad/Montura/Receta aprendida";
-	L.LOCK_CRITERIA_FACTION_LABEL = "Reputación con facción";
-	L.LOCK_CRITERIA_FACTION_FORMAT = "%s con %s (Actual: %s)";
 	L.FORCE_REFRESH_REQUIRED = "Esto puede requerir un refresco forzado ("..SHIFT_KEY_TEXT.." + clic) para coleccionarlo correctamente.";
 	L.FUTURE_UNOBTAINABLE = "No conseguible en un futuro!";
 	L.FUTURE_UNOBTAINABLE_TOOLTIP = "Esto es contenido que se ha confirmado o es muy probable que no se pueda conseguir en un futuro parche conocido.";
@@ -240,34 +419,10 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		L.ITEM_FILTER_BUTTON_DESCRIPTION = "Haz clic aquí para cambiar el filtro de objeto por el que quieres buscar en ATT.";
 		L.ITEM_FILTER_POPUP_TEXT = "Qué filtro de objetos quieres usar para buscar?";
 
--- Instructional Text
-	L.MINIMAP_MOUSEOVER_TEXT = "Clic derecho para cambiar ajustes.\nClic izquierdo para abrir la Lista Principal.\n"..CTRL_KEY_TEXT.." + clic para abrir la Mini Lista.\n"..SHIFT_KEY_TEXT.." + clic para Refrescar las Colecciones.";
-	L.TOP_ROW_INSTRUCTIONS = "|cff3399ffClic izquierdo y arrastra para mover\nClic derecho para abrir el menú de ajustes\n"..SHIFT_KEY_TEXT.." + clic para Refrescar las Colecciones\n"..CTRL_KEY_TEXT.." + clic para Expandir/Contraer recursivamente\n"..SHIFT_KEY_TEXT.." + clic derecho para ordenar grupos o listas emergentes|r";
-	L.OTHER_ROW_INSTRUCTIONS = "|cff3399ffClic izquierdo para Expandir/Contraer\nClic derecho para abrir una mini lista\n"..SHIFT_KEY_TEXT.." + clic para Refrescar las Colecciones\n"..CTRL_KEY_TEXT.." + clic para Expandir/Contraer recursivamente\n"..SHIFT_KEY_TEXT.." + clic derecho para ordenar grupos o listas emergentes\n"..ALT_KEY_TEXT.." + clic derecho para marcar puntos de referencia|r";
-	L.TOP_ROW_INSTRUCTIONS_AH = "|cff3399ffClic izquierdo y arrastra para mover\nClic derecho para abrir el menú de ajustes\n"..SHIFT_KEY_TEXT.." + clic para buscar en la Casa de Subastas|r";
-	L.OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ffClic izquierdo para Expandir/Contraer\nClic derecho para abrir una mini lista\n"..SHIFT_KEY_TEXT.." + clic para buscar en la Casa de Subastas|r";
-	L.RECENTLY_MADE_OBTAINABLE = "|CFFFF0000Si conseguiste esto (cualquier sitio excepto del Cajón\nrescatado), por favor dí en nuestro Discord dónde lo conseguiste!|r";
-	L.RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000Cuanta más información, mejor.  Gracias!|r";
 	L.TOP_ROW_TO_LOCK = "|cff3399ff"..ALT_KEY_TEXT.." + clic para bloquear esta ventana";
 	L.TOP_ROW_TO_UNLOCK = "|cffcf0000"..ALT_KEY_TEXT.." + clic para desbloquear esta ventana";
 	L.QUEST_ROW_INSTRUCTIONS = "Clic derecho para ver los requisitos de cualquier cadena de misiones";
-	L.SYM_ROW_INFORMATION = "Clic derecho para ver contenido adicional que su fuente está en otra zona";
 	L.QUEST_ONCE_PER_ACCOUNT = "Misión única por cuenta";
-	L.COMPLETED_BY = "Completado por: %s";
-	L.OWNED_BY = "Poseído por %s";
-
--- Social Module
-	L.NEW_VERSION_AVAILABLE = "Hay una nueva versión de %s disponible. Por favor actualiza el AddOn, %s.";
-	L.NEW_VERSION_FLAVORS = {
-		"o le daremos otro mechero a Sylvanas",
-	 	"Alexstrasza está preocupada por ti",
-	 	"e Invencible te caerá |cffffaaaasegurísimo|r la próxima vez",
-	 	"fue solo un mero contratiempo",
-	 	"Es hora de bajar tu porcentaje",
-	 	"y una tortuga va a llegar al agua",
-	 	"ADALIIID, LA AZERITAAA",
-	};
-	L.SOCIAL_PROGRESS = "Progreso social";
 
 -- Settings.lua
 	L.AFTER_REFRESH = "Después de refrescar";
@@ -302,35 +457,16 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 			--TODO: L.PRESET_RESTORE = "Restore";
 			--TODO: L.PRESET_RESTORE_TOOLTIP = "Restore your tracking options to before applying any presets.";
 
-		L.MINIMAP_SLIDER = "Tamaño del botón del minimapa";
-		L.MINIMAP_SLIDER_TOOLTIP = 'Usa esto para personalizar el tamaño del botón del Minimapa.\n\nPredeterminado: 36';
 		L.EXTRA_THINGS_LABEL = "Recursos adicionales";
-		L.MINIMAP_BUTTON_CHECKBOX = "Muestra el botón del minimapa";
-		L.MINIMAP_BUTTON_CHECKBOX_TOOLTIP = "Activa esta opción si quieres ver el botón del minimapa. Este botón te permite acceder rápidamente a la Lista Principal, que muestra tu progreso total de colección, y acceder a los Ajustes haciendo clic derecho.\n\nA algunas personas no les gusta el desorden. Como alternativa, puedes acceder a la Lista Principal escribiendo '/att' en el chat. Desde allí, puedes hacer clic derecho en el título para ir al menú de ajustes.";
-		L.WORLDMAP_BUTTON_CHECKBOX = "Muestra el botón del mapa de mundo";
-		L.WORLDMAP_BUTTON_CHECKBOX_TOOLTIP = "Activa esta opción si quiere ver el botón de ATT en tu mapa del mundo. Este botón te permite acceder rápidamente a la Mini Lista de la zona mostrada actualmente. Aunque deberás viajar físicamente a la zona para poder ver el contenido en la Mini Lista a la que puedes acceder cuando escribes '/att mini' en tu chat.";
 		L.CLICK_TO_CREATE_FORMAT = "Haz clic para crear%s";
-		L.KEYBINDINGS_TEXT = "Puedes definir atajos de teclado para ATT en las opciones del juego.";
-
-	-- Interface tab
-		L.ADDITIONAL_LABEL = "Información adicional";
-		L.DESCRIPTIONS = "Descripciones";
-		L.LORE = "Trasfondo";
-		L.CLASSES = "Clases";
 
 	-- Features tab
-		L.MINIMAP_LABEL = "Botón del minimapa";
-		L.MODULES_LABEL = "Módulos y Mini Listas";
-		L.SKIP_CUTSCENES_CHECKBOX = "Saltar automáticamente cinemáticas";
-		L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Activa esta opción si quieres que ATT salte todas las cinemáticas automáticamente por ti.";
 		L.AUTO_BOUNTY_CHECKBOX = "Abre automáticamente la Lista de Recompensas";
 		L.AUTO_BOUNTY_CHECKBOX_TOOLTIP = "Activa esta opción si quieres ver los objetos que tienen una recompensa extraordinaria de colección. Si consigues uno de los objetos de esta lista, puedes conseguir una buena cantidad de oro.\n\nComando corto: /attbounty";
 		L.AUTO_MAIN_LIST_CHECKBOX = "Abre automáticamente la Lista Principal";
 		L.AUTO_MAIN_LIST_CHECKBOX_TOOLTIP = "Activa esta opción si quieres abrir automáticamente la Lista Principal cuando entres al juego.\n\nTambién puedes configurar este ajuste a un atajo:\n\nAtajos de teclado -> Addons -> ALL THE THINGS -> Activar Lista Principal ATT\n\nComando corto: /att";
 		L.AUTO_MINI_LIST_CHECKBOX = "Abre automáticamente la Mini Lista";
 		L.AUTO_MINI_LIST_CHECKBOX_TOOLTIP = "Activa esta opción si quieres ver todo lo que puedes coleccionar en la zona en la que te encuentras. La lista cambiará automáticamente cuando cambies de zona. A alguna gente no le gusta esta funcionalidad, pero cuando estas farmeando sólo, esta funcionalidad es extremadamente útil.\n\nTambién puedes configurar este ajuste a un atajo.\n\nAtajos de teclado -> Addons -> ALL THE THINGS -> Activar Mini Lista ATT\n\nShortcut Command: /att mini";
-		L.AUTO_PROF_LIST_CHECKBOX = "Abre automáticamente la Lista de Profesiones";
-		L.AUTO_PROF_LIST_CHECKBOX_TOOLTIP = "Activa esta opción si quieres que ATT abra y refresque la lista de profesiones cuando abres tus profesiones. Debido a limitaciones en la API impuestas por Blizzard, el único momento en el que un addon puede interactuar con los datos de profesión es cuando son abiertas. La lista cambia automáticamente cuando cambias a una profesión diferente.\n\nNo recomendamos desactivar esta opción porque pude que prevenir que se rastreen recetas correctamente.\n\nTambién puedes configurar este ajuste a un atajo. (sólo funciona cuando una profesión es abierta)\n\nAtajos de teclado -> Addons -> ALL THE THINGS -> Activar Lista de Profesiones ATT";
 		L.AUTO_RAID_ASSISTANT_CHECKBOX = "Abre automáticamente el Asistente de Banda";
 		L.AUTO_RAID_ASSISTANT_CHECKBOX_TOOLTIP = "Activa esta opción si quieres ver un gestor alternativo de grupo/banda llamado 'Asistente de Banda'. La lista se actualizará automáticamente cuando cambien ajustes de grupo.\n\nTambién puedes configurar este ajuste a un atajo.\n\nAtajos de teclado -> Addons -> ALL THE THINGS -> Activar Asistente de Banda ATT\n\nComando corto: /attra";
 		L.AUTO_WQ_LIST_CHECKBOX = "Abre automáticamente la Lista de Misiones de Mundo";
@@ -338,9 +474,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		L.AUCTION_TAB_CHECKBOX = "Muestra la pestaña del módulo de Casa de Subastas";
 		L.AUCTION_TAB_CHECKBOX_TOOLTIP = "Activa esta opción si quieres ver el módulo de la Casa de Subastas que viene con ATT.\n\nAlgunos addons son traviesos y modifican esta ventana extensamente. ATT no funciona muy bien con algunos de estos juguetitos.";
 		L.ICON_LEGEND_STATUS_LABEL = "Leyenda de iconos";
-		L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White .. "|T" .. app.asset("status-unobtainable") .. ":0|t " .. "No conseguible" .. "\n|T" .. app.asset("status-prerequisites") .. ":0|t " .. "Conseguible sólo con prerequisitos" .. "\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "Contenido temporal disponible" .. "\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "Contenido temporal no disponible" .. "\n|T374225:0|t " .. "No disponible en tu personaje actual";
-		L.CHAT_COMMANDS_LABEL = "Comandos de Chat";
-		L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFFor|R /things |cffFFFFFFor|R /allthethings\n|cffFFFFFFAbre la lista principal.\n\n|R/att mini |cffFFFFFFor|R /attmini\n|cffFFFFFFAbre la Mini Lista.\n\n|R/att bounty\n|cffFFFFFFAbre una lista de objetos con errores o no confirmados.\n\n|R/att ra |cffFFFFFFor|R /attra\n|cffFFFFFFAbre el Asistente de Banda.\n\n|R/att wq |cffFFFFFFor|R /attwq\n|cffFFFFFFAbre la lista de Misiones de Mundo.\n\n|R/att item:1234 |cffFFFFFFor|R /att [Enlace del objeto]\n|cffFFFFFFAbre una lista con las apariencias compartidas. También funciona con otras cosas, como|R quest:1234|cffFFFFFF, |Rnpcid:1234|cffFFFFFF, |Rmapid:1234|cffFFFFFF or |Rrecipeid:1234|cffFFFFFF.\n\n|R/att rwp\n|cffFFFFFFMuestra todas las cosas con 'Eliminado en el parche' en un futuro.\n\n|R/att random |cffFFFFFFor|R /attrandom |cffFFFFFFor|R /attran\n|cffFFFFFFAbre la lista Aleatoria.\n\n|R/att unsorted\n|cffFFFFFFAbre la lista de objetos sin fuente. Mejor abrir en Modo Depuración.\n\n|R/rl\n|cffFFFFFFRecarga tu interfaz de WoW.|R";
 
 	-- Sync Window
 		L.ACCOUNT_MANAGEMENT = "Administración de Cuenta";
@@ -378,41 +511,8 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		L.TOGGLE_RANDOM = "Activar ATT Aleatorio";
 		L.REROLL_RANDOM = "Repetir tirada de dados de la selección aleatoria";
 
-	-- Event Text
-		L.ITEM_ID_ADDED = "%s (%d) fue añadido a tu colección.";
-		L.ITEM_ID_ADDED_RANK = "%s (%d) [Rango %d] fue añadido a tu colección.";
-		L.ITEM_ID_ADDED_MISSING = "%s (%d) fue añadido a tu colección. No encontrado en la base de datos. Por favor repórtalo al discord de ATT!";
-		L.ITEM_ID_ADDED_SHARED = "%s (%d) [+%d] fueron añadidos a tu colección.";
-		L.ITEM_ID_ADDED_SHARED_MISSING = "%s (%d) [+%d] fueron añadidos a tu colección. No encontrado en la base de datos. Por favor repórtalo al discord de ATT!";
-		L.ITEM_ID_REMOVED = "%s (%d) fue eliminado de tu colección.";
-		L.ITEM_ID_REMOVED_SHARED = "%s (%d) [+%d] fueron eliminados de tu colección.";
-
-	-- Tooltip Text
-		L.DROP_RATE = "Probabilidad de botín";
-		L.QUEST_GIVER = "Asignador de misión";
-		L.EVENT_SCHEDULE = "Horario del evento";
-		L.EVENT_ACTIVE = "Activo:";
-		L.EVENT_START = "Inicio:";
-		L.EVENT_END = "Fin:";
-		L.EVENT_WHERE = "Dónde:";
-		L.REQUIRES_EVENT = "Requiere el evento";
-		L.LOCKOUT = "Bloqueo";
-		L.RESETS = "Reinicios";
-		L.SHARED = "Compartido";
-		L.SPLIT = "Por dificultad";
-		L.REQUIRES_LEVEL = "Necesitas ser nivel";
 		L.SECRETS_HEADER = "Secretos";
-		L.LIMITED_QUANTITY = "Tiene una cantidad limitada puede que no esté presente siempre en este vendedor.";
 		L.SOURCE_ID_MISSING = "Por favor, reporta este objeto y dónde fue obtenido al discord de ATT en #retail-errors!";
-		L.ADDED_WITH_PATCH_FORMAT = "Añadido en %s";
-		L.WAS_ADDED_WITH_PATCH_FORMAT = "Añadido en %s";
-		L.ADDED_BACK_WITH_PATCH_FORMAT = "Reañadido en %s";
-		L.WAS_ADDED_BACK_WITH_PATCH_FORMAT = "Añadido en %s";
-		L.REMOVED_WITH_PATCH_FORMAT = "Eliminado en %s";
-
-	-- Filter Text
-		L.CREATURES_COUNT = "[%s Criaturas]";
-		L.CREATURES_LIST = "Lista de Criaturas";
 
 	-- Artifact Relic Completion
 		L.ARTIFACT_RELIC_CACHE = "Abre la interfaz de Armas de Artefacto para cargar si esto es una mejora o no. Es útil para determinar si puedes comerciar este objeto a un Twink o no.";
@@ -425,12 +525,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		L.DISABLED = "desactivado";
 
 	-- Icons and Collection Text
-		L.COLLECTED = "|T" .. app.asset("known") .. ":0|t |cff15abffAdquirido|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.COLLECTED_APPEARANCE = "|T" .. app.asset("known_circle") .. ":0|t |cff15abffAdquirido*|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.NOT_COLLECTED = "|T" .. app.asset("unknown") .. ":0|t |cffff9333No adquirido|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.COMPLETE = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Completado|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.COMPLETE_OTHER = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Completado*|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.INCOMPLETE = "|T" .. app.asset("incomplete") .. ":0|t |cff15abffIncompleto|r";	-- Acquired the colors and icon from CanIMogIt.
 		L.SAVED = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Conocido|r";	-- Acquired the colors and icon from CanIMogIt.
 		L.COST_TEXT = "|T" .. app.asset("Currency") .. ":0|t |cff0891ffDivisa|r";
 

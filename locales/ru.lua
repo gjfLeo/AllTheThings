@@ -7,35 +7,245 @@ local L = app.L;
 local GetSpellName = app.WOWAPI.GetSpellName;
 
 -- General Text
+	L.TITLE = "|c" .. app.Colors.ATT .. "ALL THE THINGS|r";
+	L.SHORTTITLE = "|c" .. app.Colors.ATT .. "ATT|r";
 	L.DESCRIPTION = "\"Глупцы! Вы сами нашли свою погибель! Вам никогда не понять, сколь велика сила, потревоженная вами.  Вы сражались отчаянно, чтобы проникнуть в царство Жнеца. Теперь перед вами лежит лишь один путь – путь проклятых.\"";
 	L.THINGS_UNTIL = " ШТУЧЕК ДО ";
 	L.THING_UNTIL = " ШТУЧКА ДО ";
 	L.YOU_DID_IT = "ВЫ СДЕЛАЛИ ЭТО!";
 
--- Big new chunk from AllTheThings.lua
+-- Social Module
+	L.NEW_VERSION_AVAILABLE = "Доступна новая версия %s. Пожалуйста, обновите Аддон, %s.";
+	L.NEW_VERSION_FLAVORS = {
+		--TODO: "AllTheThings hungers.",
+		"или мы дадим Сильване ещё одну зажигалку",
+		"Алекстраза беспокоится о Вас",
+		"и Непобедимый |cffffaaaaточно|r дропнет в следующий раз",
+		"это была всего лишь мелкая помеха",
+		--TODO:	", Yes Chef!",
+		--TODO:	"and Crieve will help a turtle to make it to the water.",
+		--TODO:	"CHAMPYUUN, DE AZURIITE.",
+	};
+	L.SOCIAL_PROGRESS = "Социальный Прогресс";
+	--TODO: L.TRACKING_PROGRESS = "Tracking Progress";
+	--TODO: L.COLLECTION_PROGRESS = "Collection Progress";
+
+	-- Settings
+	--TODO: L.DATA_TYPE_NOT_SUPPORTED = "This data type is not supported at this time.";
+	--TODO: L.OPEN_MINILIST_FOR = "Open mini list for ";
+	L.REFRESHING_COLLECTION = "Обновление коллекции...";
+	L.DONE_REFRESHING = "Коллекция обновлена.";
+	L.ADDED_WITH_PATCH = "Добавлено в патче";
+	L.REMOVED_WITH_PATCH = "Убрано в патче";
+	L.AVAILABILITY = "Доступность";
+	L.CREATURES_COUNT = "[%s Существ]";
+	L.CREATURES_LIST = "Список Существ";
 	L.PROGRESS = "Прогресс";
+	L.COMPLETED_BY = "Выполнено На: %s";
+	L.KNOWN_BY = "Изучено на %s";
+	L.OWNED_BY = "Имеется на %s";
+	--TODO: L.ALIVE = "Alive";
+	--TODO: L.SPAWNED = "Spawned";
+	--TODO: L.LAYER = "Layer";
+	--TODO: L.BINDING = "Binding";
+	--TODO: L.BONUS_ID = "Bonus ID";
+	--TODO: L.CONDUIT_ID = "Conduit ID";
+	--TODO: L.DISPLAY_ID = "Display ID";
+	--TODO: L.PET_BATTLES = "Pet Battles";
+	--TODO: L.EVENT_ID = "Event ID";
+	--TODO: L.ICON_PATH = "Icon Path";
+	--TODO: L.ITEM_LEVEL = "iLvl";
+	--TODO: L.ITEM_STRING = "Item String";
+	--TODO: L.MOD_ID = "Mod ID";
+	--TODO: L.OBJECT_TYPE = "Object Type";
+	L.OBJECTIVES = "Цели";
+	L.QUEST_GIVERS = "Квестодатели";
+	--TODO: L.QUEST_ITEMS = "Quest Items";
+	--TODO: L.RUNEFORGE_POWER_ID = "Runeforge Power ID";
+
+-- Instructional Text
+	L.MINIMAP_MOUSEOVER_TEXT = "Правый клик - Меню Настроек.\nЛевый клик - Основной список.\n"..CTRL_KEY_TEXT.." клик - открыть Мини список.\n"..SHIFT_KEY_TEXT.." клик - Обновить Коллекцию.";
+	L.TOP_ROW_INSTRUCTIONS = "|cff3399ffЗажатая Левая кнопка - Перемещение\nПравый клик - Меню Настроек\n"..SHIFT_KEY_TEXT.." клик - Обновить Коллекцию\n"..CTRL_KEY_TEXT.." клик - Свернуть/Развернуть Рекурсивно\n"..SHIFT_KEY_TEXT.." правый клик - Отсортировать список|r";
+	L.OTHER_ROW_INSTRUCTIONS = "|cff3399ffКлик - Свернуть/Развернуть\nПравый клик - Открыть Мини список\n"..SHIFT_KEY_TEXT.." клик - Обновить Коллекцию\n"..CTRL_KEY_TEXT.." клик - Свернуть/Развернуть Рекурсивно\n"..SHIFT_KEY_TEXT.." правый клик - Отсортировать список\n"..ALT_KEY_TEXT.." правый клик - Расставить Указатели|r";
+	L.TOP_ROW_INSTRUCTIONS_AH = "|cff3399ffЗажатая Левая кнопка - Перемещение\nПравый клик - Меню Настроек\n"..SHIFT_KEY_TEXT.." + Левый Клик - Поиск на Аукционе|r";
+	L.OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ffКлик - Свернуть/Развернуть\nПравый клик - Открыть Мини список\n"..SHIFT_KEY_TEXT.." клик - Поиск на Аукционе|r";
+	L.RECENTLY_MADE_OBTAINABLE = "|CFFFF0000Если это недавно выпало для Вас (везде, кроме Утиля/Ящиков), пожалуйста, напишите в Discord, где Вы получили предмет!|r";
+	L.RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000Чем больше информации, тем лучше. Спасибо!|r";
+	L.MAIN_LIST_REQUIRES_REFRESH = "[Откройте Основной список, чтобы обновить прогресс]";
+	--TODO: L.UPDATES_PAUSED = "Updates Paused";
+	L.VISIT_FLIGHT_MASTER = "Посетите Распорядителя Полётов для добавления в кэш.";
+	L.REQUIRES_PVP = "|CFF00FFDEЭта Штучка требует участия в ПвП или ПвП валюту.|r";
+	L.REQUIRES_PETBATTLES = "|CFF00FFDEЭта Штучка требует игру с Боевыми Питомцами.|r";
+	--TODO: L.REQUIRES_SKYRIDING = "|CFF00FFDE"..(SPELL_FAILED_CUSTOM_ERROR_1029 or "Requires Skyriding").."|r";
+	L.PLEASE_REPORT_MESSAGE = "Пожалуйста, сообщите об этом на Discord-сервере ATT в канале #retail-errors! Спасибо!";
+	L.REPORT_TIP = "\n("..CTRL_KEY_TEXT.."+C, чтобы скопировать многострочный отчёт в буфер обмена)";
+	L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "Задание '%s' %s не позволит собрать Хлебную Кроху '%s' %s";
+	L.REPORT_INACCURATE_QUEST = "Неверная Информация о Задании! (Нажмите для Отчёта)";
+	L.ITEM_GIVES_REP = "Улучшает Репутацию с '";
+
+-- Event Text
+	L.ITEM_ID_ADDED = "%s (%d) добавлен в Вашу коллекцию.";
+	L.ITEM_ID_ADDED_RANK = "%s (%d) [Ранг %d] добавлен в Вашу коллекцию.";
+	L.ITEM_ID_ADDED_MISSING = "%s (%d) добавлен в Вашу коллекцию. Не найден в базе данных. Пожалуйста, сообщите в Discord ATT!";
+	L.ITEM_ID_ADDED_SHARED = "%s (%d) [+%d] были добавлены в Вашу коллекцию.";
+	L.ITEM_ID_ADDED_SHARED_MISSING = "%s (%d) [+%d] были добавлены в Вашу коллекцию. Не найдены в базе данных. Пожалуйста, сообщите в Discord ATT!";
+	L.ITEM_ID_REMOVED = "%s (%d) был удален из Вашей коллекции.";
+	L.ITEM_ID_REMOVED_SHARED = "%s (%d) [+%d] были удалены из Вашей коллекции.";
+
+-- Tooltip Text
+	L.DROP_RATE = "Шанс Выпадения";
+	L.QUEST_GIVER = "Начинает Задание";
+	L.COORDINATES = "Координаты";
+	L.PLAYER_COORDINATES = "Ваши Координаты";
+	L.EVENT_SCHEDULE = "Расписание События";
+	L.EVENT_ACTIVE = "Активно:";
+	L.EVENT_START = "Начало:";
+	L.EVENT_END = "Конец:";
+	L.EVENT_WHERE = "Когда:";
+	L.REQUIRES_EVENT = "Требуется Событие";
+	L.BREADCRUMBS = "Задания-\"хлебные крохи\"";
+	--TODO: L.MAPS = "Maps";
+	L.LOCKOUT = "Сохранение";
+	--TODO: L.LOCKOUTS = "Lockouts";
+	--TODO: L.RESETS = "Resets";
+	L.SHARED = "Все Сложности";
+	L.SPLIT = "Отдельные Сложности";
+	L.REQUIRES = "Требуется";
+	L.REQUIRES_LEVEL = "Требуется Уровень";
+	L.LIMITED_QUANTITY = "Предмет имеется в ограниченном количестве и может не всегда быть доступен у торговца.";
+	L.ADDED_WITH_PATCH_FORMAT = "Добавлено в %s";
+	L.ADDED_BACK_WITH_PATCH_FORMAT = "Добавлено снова в %s";
+	L.REMOVED_WITH_PATCH_FORMAT = "Удалено в %s";
+	L.WAS_ADDED_WITH_PATCH_FORMAT = "Добавлено в %s";
+	L.WAS_ADDED_BACK_WITH_PATCH_FORMAT = "Добавлено снова в %s";
+	--TODO: L.CRITERIA_FORMAT = "|cffffff00[Criteria: %s]|r";
+
+	L.FACTION_SPECIFIC_REP = "Не все репутации видны одному персонажу. Например, Всадники Песни Войны не видны Игрокам Альянса, а Среброкрылые Часовые - Игрокам Орды.";
+	L.MINUMUM_STANDING_WITH_FACTION = "Требуется отношение не менее, чем %s с %s.";
+	L.MAXIMUM_STANDING_WITH_FACTION = "Требуется отношение менее, чем %s с %s.";
+	L.MIN_MAX_STANDING_WITH_FACTION = "Требуется отношение между %s и %s с %s.";
+
+	L.HEIRLOOM_TEXT = "Разблокированное Наследство";
+	L.HEIRLOOM_TEXT_DESC = "Показывает, получено или нет данное наследство.";
+	L.HEIRLOOMS_UPGRADES_DESC = "Показывает, улучшили ли Вы наследство до определённого уровня или нет.\n\nПокойся с миром, Золото.\n - Crieve";
+
+	L.LOCK_CRITERIA_LEVEL_LABEL = "Уровень Игрока";
+	L.LOCK_CRITERIA_QUEST_LABEL = "Выполненное Задание";
+	L.LOCK_CRITERIA_SPELL_LABEL = "Выученный Навык/Транспорт/Рецепт";
+	L.LOCK_CRITERIA_FACTION_LABEL = "Репутация";
+	--TODO: L.LOCK_CRITERIA_SOURCE_LABEL = "Known Appearance";
+	--TODO: L.LOCK_CRITERIA_TOY_LABEL = "Known Toy";
+	L.LOCK_CRITERIA_FACTION_FORMAT = "%s с %s (Текущее: %s)";
+	L.TITLES_DESC = "Звания отслеживаются по всей учётной записи, однако, некоторые Ваши персонажи могут иметь звания, доступные только им.";
+
+-- Filter Text
+	--TODO: L.ARTIFACT_ID = "Artifact ID";
+	--TODO: L.AZERITE_ESSENCE_ID = "Azerite Essence ID";
+	--TODO: L.ART_ID = "Art ID";
+	--TODO: L.CAMPSITE_ID = "Campsite ID";
+	--TODO: L.CREATURE_ID = "Creature ID";
+	--TODO: L.CURRENCY_ID = "Currency ID";
+	L.DESCRIPTIONS = "Описания";
+	--TODO: L.DIFFICULTY_ID = "Difficulty ID";
+	--TODO: L.ENCOUNTER_ID = "Encounter ID";
+	--TODO: L.EXPANSION_ID = "Expansion ID";
+	--TODO: L.EXPLORATION_ID = "Exploration ID";
+	--TODO: L.FILTER_ID = "Filter ID";
+	--TODO: L.FOLLOWER_ID = "Follower ID";
+	--TODO: L.GUID = "Global ID";
+	--TODO: L.HEADER_ID = "Header ID";
+	--TODO: L.ILLUSION_ID = "Illusion ID";
+	--TODO: L.INSTANCE_ID = "Instance ID";
+	--TODO: L.SAVED_INSTANCE_ID = "Saved Instance ID";
+	--TODO: L.ITEM_ID = "Item ID";
+	--TODO: L.FACTION_ID = "Faction ID";
+	--TODO: L.FLIGHT_PATH_ID = "Flight Path ID";
+	L.LORE = "Лор";
+	--TODO: L.MAP_ID = "Map ID";
+	--TODO: L.MISSION_ID = "Mission ID";
+	--TODO: L.MOUNT_ID = "Mount ID";
+	--TODO: L.MUSIC_ROLL_ID = "Music Roll ID";
+	--TODO: L.NPC_ID = "NPC ID";
+	--TODO: L.OBJECT_ID = "Object ID";
+	--TODO: L.PROVIDERS = "Provider(s)";
+	--TODO: L.QUEST_ID = "Quest ID";
+	--TODO: L.SET_ID = "Gear Set ID";
+	--TODO: L.SOURCE_ID = "Source ID";
+	--TODO: L.SPELL_ID = "Spell ID";
+	--TODO: L.SPELL_NAME = "Spell Name";
+	--TODO: L.SPECIES_ID = "Species ID";
+	--TODO: L.TITLE_ID = "Title ID";
+	--TODO: L.TOY_ID = "Toy ID";
+	--TODO: L.VISUAL_ID = "Visual ID";
+	L.AND_MORE = "И ещё %s...";
+	L.SYM_ROW_INFORMATION = "Правый клик - Показать дополнительный контент из других источников";
+	--TODO: L.SYM_ROW_SKIP_DESC = "Linked content is only displayed in the tooltip for this object.";
+	--TODO: L.ACHIEVEMENT_PRE_WRATH_SOURCE_QUEST_INFO = "This achievement has associated quests that can be completed before the introduction of the Achievement system coming with the Wrath Prepatch. Not all achievements can be tracked this way, but for those that can, they will be displayed. All other non-trackable achievements will be activated with the prepatch.";
+	L.CLASSES = "Классы";
+
+	L.ADDITIONAL_LABEL = "Дополнительная Информация";
+	L.CRITERIA_FOR = "Критерий для";
+	L.CURRENCY_FOR = "Валюта для";
+
+	L.CHAT_COMMANDS_LABEL = "Команды Чата";
+	L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFFили|R /things |cffFFFFFFиои|R /allthethings\n|cffFFFFFFОткрыть Главный Список.\n\n|R/att mini |cffFFFFFFиои|R /attmini\n|cffFFFFFFОткрыть Мини Список.\n\n|R/att bounty\n|cffFFFFFFОткрыть список забагованных или неподтверждённых предметов.\n\n|R/att ra |cffFFFFFFили|R /attra\n|cffFFFFFFОткрыть Рейдовый Помощник.\n\n|R/att wq |cffFFFFFFили|R /attwq\n|cffFFFFFFОткрыть Список Локальных Заданий.\n\n|R/att item:1234 |cffFFFFFFили|R /att [Ссылка на Предмет]\n|cffFFFFFFОткрыть окно общих моделей. Также работает с другими Штучками, например, |R quest:1234|cffFFFFFF, |Rnpcid:1234|cffFFFFFF, |Rmapid:1234|cffFFFFFF или |Rrecipeid:1234|cffFFFFFF.\n\n|R/att rwp\n|cffFFFFFFПоказать все Штучки, которые будет невозможно получить в будущем.\n\n|R/att nwp\n|cffFFFFFFПоказать все Штучки, добавленные в последнем патче.\n\n|R/att random |cffFFFFFFили|R /attrandom |cffFFFFFFили|R /attran\n|cffFFFFFFОткрыть Случайный Список.\n\n|R/att unsorted\n|cffFFFFFFОткрыть список несортированных Штучек. Лучше в Режиме Отладки.\n\n|R/rl\n|cffFFFFFFПерезагрузить интерфейс WoW.|R";
+	L.ICON_LEGEND_STATUS_LABEL = "Аннотация иконок";
+	L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White ..
+			"|T" .. app.asset("status-unobtainable") .. ":0|t " .. "Недоступно" ..
+			"\n|T" .. app.asset("status-prerequisites") .. ":0|t " .. "Доступно с условием" ..
+			"\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "Доступная Праздничная Штучка" ..
+			"\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "Недоступная Праздничная Штучка" ..
+			"\n|T374225:0|t " .. "Недоступно на текущем персонаже" ..
+	--TODO:		"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
+	--TODO: L.ICON_LEGEND_MISC_LABEL = "Miscellaneous Icons Legend";
+	--TODO: L.ICON_LEGEND_MISC_TEXT = app.ccColors.White ..
+	--TODO:		"|T" .. app.asset("Currency") .. ":0|t " .. "Used as a currency" ..
+	--TODO:		"\n|T" .. app.asset("Interface_Reagent") .. ":0|t " .. "Used as a crafting reagent" ..
+	--TODO:		"\n|T" .. app.asset("Interface_Catalyst") .. ":0|t " .. "Convertible at the Catalyst for a new appearance" ..
+	--TODO:		"\n|T" .. app.asset("Interface_Upgrade") .. ":0|t " .. "Can be upgraded for a new appearance";
+	L.KEYBINDINGS = SETTINGS_KEYBINDINGS_LABEL;
+	L.KEYBINDINGS_TEXT = "Вы можете назначить клавиши для ATT в настройках игры.";
+	L.MINIMAP_LABEL = "Кнопка у Миникарты";
+	L.MODULES_LABEL = "Модули и Мини Списки";
+	L.AUTO_PROF_LIST_CHECKBOX = "Авто Открывать Список Профессии";
+	L.AUTO_PROF_LIST_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал и обновлял список профессии, когда Вы открываете Ваши профессии. Из-за навязанных ограничений API, аддоны могут взаимодействовать с профессиями только, когда они открыты. Этот список будет автоматически переключаться, когда Вы открываете другую профессию.\n\nМы не рекомедуем отключать данную опцию, поскольку она может предотватить некорректное отслеживание рецептов.\n\nВы также можете назначить клавишу для данной настройки (работает только при открытой профессии):\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Список Профессии";
+	L.SKIP_CUTSCENES_CHECKBOX = "Авто Пропуск Сцен";
+	L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматичски пропускал все внутриигровые сцены.";
+	L.MINIMAP_BUTTON_CHECKBOX = "Показывать Кнопку у Миникарты";
+	L.MINIMAP_BUTTON_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите кнопку у миникарты. Эта кнопка позволяет Вам быстро открыть Основной список, показать Ваш общий прогресс и открыть Меню Настроек по Правому Клику.\n\nНекоторые люди не любят захламленность. Альтернативно, Вы можете открыть Основной список командой '/att' в чате. Оттуда Правым Кликом по заголовку открыть Меню Настроек.";
+	L.MINIMAP_SLIDER = "Размер Кнопки Миникарты";
+	L.MINIMAP_SLIDER_TOOLTIP = 'Используйте для установления желаемого размера Кнопки Миникарты.\n\nПо умолчанию: 36';
+	L.WORLDMAP_BUTTON_CHECKBOX = "Показывать Кнопку на Карте";
+	L.WORLDMAP_BUTTON_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите кнопку ATT на Вашей карте. Эта кнопка позволяет открыть Мини список ATT для открытой зоны на карте. В обычной ситуации Вам требуется физически быть в зоне, чтобы набрать '/att mini' в чате.";
+
+-- Icons and Collection Text
+	L.COLLECTED_ICON = "|T" .. app.asset("known") .. ":0|t";	-- Acquired the colors and icon from CanIMogIt.
+	L.COLLECTED_APPEARANCE_ICON = "|T" .. app.asset("known_circle") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.COMPLETE_ICON = "|T" .. app.asset("known_green") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.NOT_COLLECTED_ICON = "|T" .. app.asset("unknown") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+	L.COLLECTED = "|T" .. app.asset("known") .. ":0|t |cff15abffСобрано|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.COLLECTED_APPEARANCE = "|T" .. app.asset("known_circle") .. ":0|t |cff15abffСобрано*|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.NOT_COLLECTED = "|T" .. app.asset("unknown") .. ":0|t |cffff9333Не Собрано|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.COMPLETE = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Выполнено|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.COMPLETE_OTHER = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Выполнено*|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.INCOMPLETE = "|T" .. app.asset("incomplete") .. ":0|t |cff15abffНе Выполнено|r";	-- Acquired the colors and icon from CanIMogIt.
+	L.INCOMPLETE_ICON = "|T" .. app.asset("incomplete") .. ":0|t";		-- Acquired the colors and icon from CanIMogIt.
+
+-- Big new chunk from AllTheThings.lua
 	L.TRACKING_PROGRESS = "Отслеживание выполнения";
 	L.COLLECTED_STRING = " Собрано";
 	L.PROVIDERS = "Начинает";
 	L.COLLECTION_PROGRESS = "Прогресс Коллекции";
 	L.CONTAINS = "Содержит:";
 	L.FACTIONS = "Фракции";
-	L.COORDINATES = "Координаты";
-	L.AND_MORE = "И ещё %s...";
 	L.AND_OTHER_SOURCES = "И %s других источников...";
-	L.PLAYER_COORDINATES = "Ваши Координаты";
 	L.NO_COORDINATES_FORMAT = "Нет координат для %s";
 	L.TOM_TOM_NOT_FOUND = "Нужен TomTom, чтобы ставить Указатели.";
 	L.FLIGHT_PATHS = "Пути Полётов";
-	L.KNOWN_BY = "Изучено на %s";
-	L.REQUIRES = "Требуется";
 	L.RACE_LOCKED = "Ограничено Расой";
-	L.PLEASE_REPORT_MESSAGE = "Пожалуйста, сообщите об этом на Discord-сервере ATT в канале #retail-errors! Спасибо!";
-	L.REPORT_TIP = "\n("..CTRL_KEY_TEXT.."+C, чтобы скопировать многострочный отчёт в буфер обмена)";
 	L.NOT_AVAILABLE_IN_PL = "Недоступно в Персональной добыче.";
 	L.MARKS_OF_HONOR_DESC = "Почётные знаки должны быть рассмотрены во всплывающем окне, чтобы видеть всё их 'Содержимое'.\n(Введите '/att' в чат и затем "..SHIFT_KEY_TEXT.." клик для ссылки на предмет)\n\n|cFFfe040fПосле покупки и использования Набора может потребоваться полностью выйти из игры и вручную обновить коллекцию (в таком порядке),\nчтобы корректно зарегистрировать все предметы.|r";
 	--TODO: L.MOP_REMIX_BRONZE_DESC = "Bronze must be viewed in a Popout window to see all of the normal 'Contains' content.\n(Type '/att ' in chat then "..SHIFT_KEY_TEXT.." click to link the currency)\n\n|cFFfe040fAfter purchasing and using an ensemble, relogging & a forced ATT refresh (in this order)\nmay be required to register all the items correctly.|r";
-	L.ITEM_GIVES_REP = "Улучшает Репутацию с '";
 	L.COST = "Стоимость";
 	L.COST_DESC = "Содержит визуальную справку о предметах, необходимых для покупки или получения данной Штучки";
 	L.COST_TOTAL = "Полная Стоимость";
@@ -44,13 +254,9 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.SOURCES_DESC = "Показывает Источник этой Штучки.\n\nВ частности, конкретный торговец/НИП, Задание, Событие и т.д.";
 	L.WRONG_FACTION = "Вы должны быть за другую фракцию, чтобы видеть это.";
 	L.ARTIFACT_INTRO_REWARD = "Выдаётся в награду за выполнение вводного задания для данного Артефакта.";
-	L.VISIT_FLIGHT_MASTER = "Посетите Распорядителя Полётов для добавления в кэш.";
 	L.FLIGHT_PATHS_DESC = "Пути Полётов засчитываются, когда Вы говорите с Распорядителем Полётов на каждом континенте.\n  - Crieve";
 	L.FOLLOWERS_COLLECTION_DESC = "Спутники могут быть собраны на Весь Аккаунт, если включена соответствующая опция.\n\nВы должны вручную обновить коллекцию через "..SHIFT_KEY_TEXT.." клик по заголовку, чтобы они засчитались.";
-	L.HEIRLOOM_TEXT = "Разблокированное Наследство";
-	L.HEIRLOOM_TEXT_DESC = "Показывает, получено или нет данное наследство.";
 	L.FAILED_ITEM_INFO = "Не удалось получить информацию о предмете. Предмет может быть неправильный или ещё не был кэширован на Вашем сервере.";
-	L.HEIRLOOMS_UPGRADES_DESC = "Показывает, улучшили ли Вы наследство до определённого уровня или нет.\n\nПокойся с миром, Золото.\n - Crieve";
 	L.MUSIC_ROLLS_DESC = "Эти Штучки открываются на каждом персонаже отдельно и на данный момент не распределяются на Вашу учётную запись. Если кто-нибудь из Blizzard читает это, будет просто шикарно, если Вы сделаете их на весь аккаунт.\n\nВы должны вручную обновить коллекцию через "..SHIFT_KEY_TEXT.." клик по заголовку, чтобы засчитать эту Штучку.";
 	L.MUSIC_ROLLS_DESC_2 = "\n\nСначала нужно разблокировать Мелодии, выполнив задание \"Врубай басы\" в Вашем гарнизоне, чтобы данный предмет мог выпасть.\n\nДля фильтров нужно иметь Камеру СЕЛФИ 2.0.";
 	L.OPPOSITE_FACTION_EQ = "Эквивалент противоположной фракции: ";
@@ -70,7 +276,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	--TODO: L.EXPANSION_DATA[11].lore = "The War Within is the tenth expansion for World of Warcraft and the beginning of the Worldsoul Saga. Journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the nerubian empire, where the malicious Harbinger of the Void is gathering arachnid forces to bring Azeroth to its knees.";
 	--TODO: L.EXPANSION_DATA[12].lore = "Midnight is the eleventh expansion for World of Warcraft and the second installment of the Worldsoul Saga.";
 	--TODO: L.EXPANSION_DATA[13].lore = "The Last Titan is the twelfth expansion for World of Warcraft and the final installment of the Worldsoul Saga.";
-	L.TITLES_DESC = "Звания отслеживаются по всей учётной записи, однако, некоторые Ваши персонажи могут иметь звания, доступные только им.";
 	L.UPON_COMPLETION = "По выполнении";
 	L.UPON_COMPLETION_DESC = "Задания выше должны быть выполнены прежде, чем Вы сможете выполнить штучки, указанные ниже.";
 	L.QUEST_CHAIN_REQ = "Требования для Цепочки Заданий";
@@ -86,32 +291,16 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.TSM4_ERROR = "TSM4 пока что не совместим с ATT. Если Вы знаете, как создавать Группы, как мы делали это в TSM3, пожалуйста, свяжитесь с Crieve в Дискорде!";
 	L.QUEST_MAY_BE_REMOVED = "Ошибка при получении информации. Это задание, возможно, удалено из игры. ";
 
-
-	L.FACTION_SPECIFIC_REP = "Не все репутации видны одному персонажу. Например, Всадники Песни Войны не видны Игрокам Альянса, а Среброкрылые Часовые - Игрокам Орды.";
-	L.MINUMUM_STANDING_WITH_FACTION = "Требуется отношение не менее, чем %s с %s.";
-	L.MAXIMUM_STANDING_WITH_FACTION = "Требуется отношение менее, чем %s с %s.";
-	L.MIN_MAX_STANDING_WITH_FACTION = "Требуется отношение между %s и %s с %s.";
-
-	L.ADDED_WITH_PATCH = "Добавлено в патче";
-	L.REMOVED_WITH_PATCH = "Убрано в патче";
-	--TODO: L.ALIVE = "Alive";
-	--TODO: L.SPAWNED = "Spawned";
-	L.OBJECT_TYPE = "Тип Объекта";
-	L.OBJECTIVES = "Цели";
-	L.QUEST_GIVERS = "Квестодатели";
 	L.DURING_WQ_ONLY = "Может быть выполнено, когда локальное задание активно.";
 	L.COMPLETED_DAILY = "Может быть выполнено ежедневно.";
 	L.COMPLETED_WEEKLY = "Может быть выполнено еженедельно.";
 	L.COMPLETED_MONTHLY = "Может быть выполнено ежемесячно.";
 	L.COMPLETED_YEARLY = "Может быть выполнено ежегодно.";
 	L.COMPLETED_MULTIPLE = "Может быть выполнено несколько раз.";
-	L.CRITERIA_FOR = "Критерий для";
-	L.CURRENCY_FOR = "Валюта для";
 	L.LOOT_TABLE_CHANCE = "Общий шанс получения";
 	L.BEST_BONUS_ROLL_CHANCE = "Наилучший шанс бонусного броска";
 	L.BEST_PERSONAL_LOOT_CHANCE = "Наилучший шанс Персональной добычи";
 	L.PREREQUISITE_QUESTS = "Есть предшествующие задания, которые должны быть выполнены перед получением:";
-	L.BREADCRUMBS = "Задания-\"хлебные крохи\"";
 	L.BREADCRUMBS_WARNING = "Есть задания-\"хлебные крохи\", которые могут быть недоступны после выполнения:";
 	L.THIS_IS_BREADCRUMB = "Это задание-\"хлебная кроха\".";
 	L.BREADCRUMB_PARTYSYNC = "Может быть недоступно для выполнения без Синхронизации группы, если выполнить любое из этих заданий:";
@@ -208,24 +397,11 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.REAGENT_CACHE_OUT_OF_DATE = "Кэш реагентов устарел и будет обновлен, когда откроете Ваши профессии!";
 	L.ARTIFACT_CACHE_OUT_OF_DATE = "Кэш Артефактов устарел и будет обновлен, когда перелогинитесь!";
 	L.QUEST_LOOP = "Скорее всего ATT вырвался из цепочки зацикленных заданий.";
-	L.QUEST_PREVENTS_BREADCRUMB_COLLECTION_FORMAT = "Задание '%s' %s не позволит собрать Хлебную Кроху '%s' %s";
 	L.QUEST_OBJECTIVE_INVALID = "Недействительная Цель Задания";
-	L.REFRESHING_COLLECTION = "Обновление коллекции...";
-	L.DONE_REFRESHING = "Коллекция обновлена.";
 	L.ADHOC_UNIQUE_COLLECTED_INFO = "Этот Предмет сломан в ATT из-за отсутствующей информации от Blizzard. Можно поправить, если вручную обновить коллекцию (Shift+Клик на окне ATT).";
-	L.AVAILABILITY = "Доступность";
-	L.REQUIRES_PVP = "|CFF00FFDEЭта Штучка требует участия в ПвП или ПвП валюту.|r";
-	L.REQUIRES_PETBATTLES = "|CFF00FFDEЭта Штучка требует игру с Боевыми Питомцами.|r";
-	L.REPORT_INACCURATE_QUEST = "Неверная Информация о Задании! (Нажмите для Отчёта)";
 	L.NESTED_QUEST_REQUIREMENTS = "Вложенные Требования Заданий";
-	L.MAIN_LIST_REQUIRES_REFRESH = "[Откройте Основной список, чтобы обновить прогресс]";
 	L.DOES_NOT_CONTRIBUTE_TO_PROGRESS = "|cffe08207Эта группа и её содержимое не влияют на прогресс данного окна, так как у этой Штучки уже указан Источник в другом месте!|r";
 	L.CURRENCY_NEEDED_TO_BUY = "Примерно необходимо для покупки Не Собранных Штучек";
-	L.LOCK_CRITERIA_LEVEL_LABEL = "Уровень Игрока";
-	L.LOCK_CRITERIA_QUEST_LABEL = "Выполненное Задание";
-	L.LOCK_CRITERIA_SPELL_LABEL = "Выученный Навык/Транспорт/Рецепт";
-	L.LOCK_CRITERIA_FACTION_LABEL = "Репутация";
-	L.LOCK_CRITERIA_FACTION_FORMAT = "%s с %s (Текущее: %s)";
 	L.FORCE_REFRESH_REQUIRED = "Может потребоваться Полное Обновление коллекции ("..SHIFT_KEY_TEXT.." клик).";
 	L.FUTURE_UNOBTAINABLE = "Будущие Недоступные!";
 	L.FUTURE_UNOBTAINABLE_TOOLTIP = "Это контент, который точно или очень вероятно будет недоступен в будущем патче.";
@@ -238,33 +414,10 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		L.ITEM_FILTER_BUTTON_DESCRIPTION = "Нажмите, чтобы поменять фильтр.";
 		L.ITEM_FILTER_POPUP_TEXT = "Какой фильтр Вы хотите задать для поиска?";
 
--- Instructional Text
-	L.MINIMAP_MOUSEOVER_TEXT = "Правый клик - Меню Настроек.\nЛевый клик - Основной список.\n"..CTRL_KEY_TEXT.." клик - открыть Мини список.\n"..SHIFT_KEY_TEXT.." клик - Обновить Коллекцию.";
-	L.TOP_ROW_INSTRUCTIONS = "|cff3399ffЗажатая Левая кнопка - Перемещение\nПравый клик - Меню Настроек\n"..SHIFT_KEY_TEXT.." клик - Обновить Коллекцию\n"..CTRL_KEY_TEXT.." клик - Свернуть/Развернуть Рекурсивно\n"..SHIFT_KEY_TEXT.." правый клик - Отсортировать список|r";
-	L.OTHER_ROW_INSTRUCTIONS = "|cff3399ffКлик - Свернуть/Развернуть\nПравый клик - Открыть Мини список\n"..SHIFT_KEY_TEXT.." клик - Обновить Коллекцию\n"..CTRL_KEY_TEXT.." клик - Свернуть/Развернуть Рекурсивно\n"..SHIFT_KEY_TEXT.." правый клик - Отсортировать список\n"..ALT_KEY_TEXT.." правый клик - Расставить Указатели|r";
-	L.TOP_ROW_INSTRUCTIONS_AH = "|cff3399ffЗажатая Левая кнопка - Перемещение\nПравый клик - Меню Настроек\n"..SHIFT_KEY_TEXT.." + Левый Клик - Поиск на Аукционе|r";
-	L.OTHER_ROW_INSTRUCTIONS_AH = "|cff3399ffКлик - Свернуть/Развернуть\nПравый клик - Открыть Мини список\n"..SHIFT_KEY_TEXT.." клик - Поиск на Аукционе|r";
-	L.RECENTLY_MADE_OBTAINABLE = "|CFFFF0000Если это недавно выпало для Вас (везде, кроме Утиля/Ящиков), пожалуйста, напишите в Discord, где Вы получили предмет!|r";
-	L.RECENTLY_MADE_OBTAINABLE_PT2 = "|CFFFF0000Чем больше информации, тем лучше. Спасибо!|r";
 	L.TOP_ROW_TO_LOCK = "|cff3399ff"..ALT_KEY_TEXT.." клик - Закрепить это Окно";
 	L.TOP_ROW_TO_UNLOCK = "|cffcf0000"..ALT_KEY_TEXT.." клик - Открепить это Окно";
 	L.QUEST_ROW_INSTRUCTIONS = "Правый клик - Открыть Цепочку Заданий";
-	L.SYM_ROW_INFORMATION = "Правый клик - Показать дополнительный контент из других источников";
 	L.QUEST_ONCE_PER_ACCOUNT = "Один-Раз-На-Аккаунт Задание";
-	L.COMPLETED_BY = "Выполнено На: %s";
-	L.OWNED_BY = "Имеется на %s";
-
--- Social Module
-	L.NEW_VERSION_AVAILABLE = "Доступна новая версия %s. Пожалуйста, обновите Аддон, %s.";
-	L.NEW_VERSION_FLAVORS = {
-		"или мы дадим Сильване ещё одну зажигалку",
-		"Алекстраза беспокоится о Вас",
-		"и Непобедимый |cffffaaaaточно|r дропнет в следующий раз",
-		"это была всего лишь мелкая помеха",
-		"время понизить Ваш %",
-		"и черепаха доберётся до воды",
-	};
-	L.SOCIAL_PROGRESS = "Социальный Прогресс";
 
 -- Settings.lua
 	L.AFTER_REFRESH = "После Обновления";
@@ -299,47 +452,25 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 			--TODO: L.PRESET_RESTORE = "Restore";
 			--TODO: L.PRESET_RESTORE_TOOLTIP = "Restore your tracking options to before applying any presets.";
 
-		L.MINIMAP_SLIDER = "Размер Кнопки Миникарты";
-		L.MINIMAP_SLIDER_TOOLTIP = 'Используйте для установления желаемого размера Кнопки Миникарты.\n\nПо умолчанию: 36';
 		L.EXTRA_THINGS_LABEL = "Дополнительные Штучки";
-		L.MINIMAP_BUTTON_CHECKBOX = "Показывать Кнопку у Миникарты";
-		L.MINIMAP_BUTTON_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите кнопку у миникарты. Эта кнопка позволяет Вам быстро открыть Основной список, показать Ваш общий прогресс и открыть Меню Настроек по Правому Клику.\n\nНекоторые люди не любят захламленность. Альтернативно, Вы можете открыть Основной список командой '/att' в чате. Оттуда Правым Кликом по заголовку открыть Меню Настроек.";
-		L.WORLDMAP_BUTTON_CHECKBOX = "Показывать Кнопку на Карте";
-		L.WORLDMAP_BUTTON_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите кнопку ATT на Вашей карте. Эта кнопка позволяет открыть Мини список ATT для открытой зоны на карте. В обычной ситуации Вам требуется физически быть в зоне, чтобы набрать '/att mini' в чате.";
 		L.CLICK_TO_CREATE_FORMAT = "Нажмите, чтобы создать %s";
 		L.LOADING_FORMAT = "%s загружаются...";
 		L.READY_FORMAT = "%s загрузились";
-		L.KEYBINDINGS_TEXT = "Вы можете назначить клавиши для ATT в настройках игры.";
-
-	-- Interface tab
-		L.ADDITIONAL_LABEL = "Дополнительная Информация";
-		L.DESCRIPTIONS = "Описания";
-		L.LORE = "Лор";
-		L.CLASSES = "Классы";
 
 	-- Features tab
-		L.MINIMAP_LABEL = "Кнопка у Миникарты";
-		L.MODULES_LABEL = "Модули и Мини Списки";
-		L.SKIP_CUTSCENES_CHECKBOX = "Авто Пропуск Сцен";
-		L.SKIP_CUTSCENES_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматичски пропускал все внутриигровые сцены.";
 		L.AUTO_BOUNTY_CHECKBOX = "Авто Открывать Список Пропаж";
 		L.AUTO_BOUNTY_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал список предметов, которые считаются крайне важными для нахождения. Если у Вас получится стащить один из перечисленных здесь предметов, Вы можете сделать получить хорошую сумку золотых.\n\nБыстрая Команда: /attbounty";
 		L.AUTO_MAIN_LIST_CHECKBOX = "Авто Открывать Основной Список";
 		L.AUTO_MAIN_LIST_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал Основной Список при входе в игру.\n\nВы также можете назначить клавишу для данной настройки:\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Основной Список\n\nБыстрая Команда: /att";
 		L.AUTO_MINI_LIST_CHECKBOX = "Авто Открывать Мини Список";
 		L.AUTO_MINI_LIST_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть всё, что можно собрать в текущей локации. Этот список будет автоматически изменяться при смене зоны. Некоторым людям не нравится данная особенность, но когда Вы играете соло, данная опция крайне полезна.\n\nВы также можете назначить клавишу для данной настройки:\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Мини Список\n\nБыстрая Команда: /att mini";
-		L.AUTO_PROF_LIST_CHECKBOX = "Авто Открывать Список Профессии";
-		L.AUTO_PROF_LIST_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал и обновлял список профессии, когда Вы открываете Ваши профессии. Из-за навязанных ограничений API, аддоны могут взаимодействовать с профессиями только, когда они открыты. Этот список будет автоматически переключаться, когда Вы открываете другую профессию.\n\nМы не рекомедуем отключать данную опцию, поскольку она может предотватить некорректное отслеживание рецептов.\n\nВы также можете назначить клавишу для данной настройки (работает только при открытой профессии):\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Список Профессии";
 		L.AUTO_RAID_ASSISTANT_CHECKBOX = "Авто Открывать Рейдового Помощника";
 		L.AUTO_RAID_ASSISTANT_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал альтернативное окно для управления настройками группы/рейда под названием 'Рейдовый Помощник'. Список автоматически обновляется, когда настройки группы меняются.\n\nВы также можете назначить клавишу для данной настройки:\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Рейдового Помощника\n\nБыстрая Команда: /attra";
 		L.AUTO_WQ_LIST_CHECKBOX = "Авто Открывать Локальные Задания";
 		L.AUTO_WQ_LIST_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите, чтобы ATT автоматически открывал Список 'Локальных Заданий'. Этот список автоматически обновляется, когда Вы меняете локацию.\n\nВы также можете назначить клавишу для данной настройки:\n\nНазначение Клавиш -> Модификации -> ALL THE THINGS -> Переключить Локальные Задания\n\nБыстрая Команда: /attwq";
 		L.AUCTION_TAB_CHECKBOX = "Показать Модуль Ауциона";
 		L.AUCTION_TAB_CHECKBOX_TOOLTIP = "Включите данную опцию, если Вы хотите видеть Модуль Аукциона ATT.\n\nНекоторые модификации - плохие ребята, и значительно изменяют это окно. ATT не всегда хорошо играет с такими игрушками.";
-		L.ICON_LEGEND_STATUS_LABEL = "Аннотация иконок";
 		L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White .. "|T" .. app.asset("status-unobtainable") .. ":0|t " .. "Недоступно" .. "\n|T" .. app.asset("status-prerequisites") .. ":0|t " .. "Доступно с условием" .. "\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "Доступная Праздничная Штучка" .. "\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "Недоступная Праздничная Штучка" .. "\n|T374225:0|t " .. "Недоступно на текущем персонаже";
-		L.CHAT_COMMANDS_LABEL = "Команды Чата";
-		L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFFили|R /things |cffFFFFFFиои|R /allthethings\n|cffFFFFFFОткрыть Главный Список.\n\n|R/att mini |cffFFFFFFиои|R /attmini\n|cffFFFFFFОткрыть Мини Список.\n\n|R/att bounty\n|cffFFFFFFОткрыть список забагованных или неподтверждённых предметов.\n\n|R/att ra |cffFFFFFFили|R /attra\n|cffFFFFFFОткрыть Рейдовый Помощник.\n\n|R/att wq |cffFFFFFFили|R /attwq\n|cffFFFFFFОткрыть Список Локальных Заданий.\n\n|R/att item:1234 |cffFFFFFFили|R /att [Ссылка на Предмет]\n|cffFFFFFFОткрыть окно общих моделей. Также работает с другими Штучками, например, |R quest:1234|cffFFFFFF, |Rnpcid:1234|cffFFFFFF, |Rmapid:1234|cffFFFFFF или |Rrecipeid:1234|cffFFFFFF.\n\n|R/att rwp\n|cffFFFFFFПоказать все Штучки, которые будет невозможно получить в будущем.\n\n|R/att nwp\n|cffFFFFFFПоказать все Штучки, добавленные в последнем патче.\n\n|R/att random |cffFFFFFFили|R /attrandom |cffFFFFFFили|R /attran\n|cffFFFFFFОткрыть Случайный Список.\n\n|R/att unsorted\n|cffFFFFFFОткрыть список несортированных Штучек. Лучше в Режиме Отладки.\n\n|R/rl\n|cffFFFFFFПерезагрузить интерфейс WoW.|R";
 
 	-- Sync Window
 		L.ACCOUNT_MANAGEMENT = "Управление Аккаунтами";
@@ -377,41 +508,8 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		L.TOGGLE_RANDOM = "Переключить Рандомизатор";
 		L.REROLL_RANDOM = "Повторный бросок Рандомизатора";
 
-	-- Event Text
-		L.ITEM_ID_ADDED = "%s (%d) добавлен в Вашу коллекцию.";
-		L.ITEM_ID_ADDED_RANK = "%s (%d) [Ранг %d] добавлен в Вашу коллекцию.";
-		L.ITEM_ID_ADDED_MISSING = "%s (%d) добавлен в Вашу коллекцию. Не найден в базе данных. Пожалуйста, сообщите в Discord ATT!";
-		L.ITEM_ID_ADDED_SHARED = "%s (%d) [+%d] были добавлены в Вашу коллекцию.";
-		L.ITEM_ID_ADDED_SHARED_MISSING = "%s (%d) [+%d] были добавлены в Вашу коллекцию. Не найдены в базе данных. Пожалуйста, сообщите в Discord ATT!";
-		L.ITEM_ID_REMOVED = "%s (%d) был удален из Вашей коллекции.";
-		L.ITEM_ID_REMOVED_SHARED = "%s (%d) [+%d] были удалены из Вашей коллекции.";
-
-	-- Tooltip Text
-		L.DROP_RATE = "Шанс Выпадения";
-		L.QUEST_GIVER = "Начинает Задание";
-		L.EVENT_SCHEDULE = "Расписание События";
-		L.EVENT_ACTIVE = "Активно:";
-		L.EVENT_START = "Начало:";
-		L.EVENT_END = "Конец:";
-		L.EVENT_WHERE = "Когда:";
-		L.REQUIRES_EVENT = "Требуется Событие";
-		L.LOCKOUT = "Сохранение";
-		--TODO: L.RESETS = "Resets";
-		L.SHARED = "Все Сложности";
-		L.SPLIT = "Отдельные Сложности";
-		L.REQUIRES_LEVEL = "Требуется Уровень";
 		L.SECRETS_HEADER = "Секреты";
-		L.LIMITED_QUANTITY = "Предмет имеется в ограниченном количестве и может не всегда быть доступен у торговца.";
 		L.SOURCE_ID_MISSING = "Пожалуйста, сообщите в канале #retail-errors на нашем сервере Discord, где Вы нашли эту вещь!";
-		L.ADDED_WITH_PATCH_FORMAT = "Добавлено в %s";
-		L.WAS_ADDED_WITH_PATCH_FORMAT = "Добавлено в %s";
-		L.ADDED_BACK_WITH_PATCH_FORMAT = "Добавлено снова в %s";
-		L.WAS_ADDED_BACK_WITH_PATCH_FORMAT = "Добавлено снова в %s";
-		L.REMOVED_WITH_PATCH_FORMAT = "Удалено в %s";
-
-	-- Filter Text
-		L.CREATURES_COUNT = "[%s Существ]";
-		L.CREATURES_LIST = "Список Существ";
 
 	-- Artifact Relic Completion
 		--TODO: L.ARTIFACT_RELIC_CACHE = "Open your Artifact UI for all of your Artifact Weapons to cache whether this is an upgrade or not. This is useful for determining if you can trade this item to a Twink or not.";
@@ -424,12 +522,6 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 		--TODO: L.DISABLED = "disabled";
 
 	-- Icons and Collection Text
-		L.COLLECTED = "|T" .. app.asset("known") .. ":0|t |cff15abffСобрано|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.COLLECTED_APPEARANCE = "|T" .. app.asset("known_circle") .. ":0|t |cff15abffСобрано*|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.NOT_COLLECTED = "|T" .. app.asset("unknown") .. ":0|t |cffff9333Не Собрано|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.COMPLETE = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Выполнено|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.COMPLETE_OTHER = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Выполнено*|r";	-- Acquired the colors and icon from CanIMogIt.
-		L.INCOMPLETE = "|T" .. app.asset("incomplete") .. ":0|t |cff15abffНе Выполнено|r";	-- Acquired the colors and icon from CanIMogIt.
 		L.SAVED = "|T" .. app.asset("known_green") .. ":0|t |cff6dce47Сохранено|r";	-- Acquired the colors and icon from CanIMogIt.
 		L.COST_TEXT = "|T" .. app.asset("Currency") .. ":0|t |cff0891ffВалюта|r";
 
