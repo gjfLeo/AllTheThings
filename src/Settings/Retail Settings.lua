@@ -120,6 +120,7 @@ local TooltipSettingsBase = {
 		["DisplayInCombat"] = true,
 		["Enabled"] = true,
 		["Enabled:Mod"] = "None",
+		["EnablePetCageTooltips"] = true,
 		["Expand:Difficulty"] = true,
 		["IncludeOriginalSource"] = true,
 		["LootSpecializations"] = true,

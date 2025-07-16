@@ -119,6 +119,7 @@ local TooltipSettingsBase = {
 		["DisplayInCombat"] = true,
 		["Enabled"] = true,
 		["Enabled:Mod"] = "None",
+		["EnablePetCageTooltips"] = true,
 		["CompletedBy"] = true,
 		["KnownBy"] = true,
 		["Locations"] = 5,

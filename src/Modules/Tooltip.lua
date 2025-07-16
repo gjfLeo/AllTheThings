@@ -1504,7 +1504,7 @@ if BattlePetTooltip then
 		end
 	end
 	function BattlePetTooltipTemplate_SetBattlePetHook(tooltip, data)
-		if data and data.speciesID then
+		if data and data.speciesID and app.Settings:GetTooltipSetting("EnablePetCageTooltips") then
 			tooltip.attSpeciesID = data.speciesID;
 			C_Timer.After(0.01, function()
 				UpdateBattlePetTooltip(tooltip);

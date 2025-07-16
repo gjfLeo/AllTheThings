@@ -193,6 +193,23 @@ end)
 checkboxExceptNPCs:SetATTTooltip(L.NOT_DISPLAY_IN_COMBAT_NPCS_CHECKBOX_TOOLTIP)
 checkboxExceptNPCs:AlignAfter(checkboxDisplayInCombat)
 
+local checkboxPetCageTooltips = child:CreateCheckBox(L.PET_CAGE_TOOLTIPS_CHECKBOX,
+function(self)
+	self:SetChecked(settings:GetTooltipSetting("EnablePetCageTooltips"))
+	if not settings:GetTooltipSetting("Enabled") then
+		self:Disable()
+		self:SetAlpha(0.4)
+	else
+		self:Enable()
+		self:SetAlpha(1)
+	end
+end,
+function(self)
+	settings:SetTooltipSetting("EnablePetCageTooltips", self:GetChecked())
+end)
+checkboxPetCageTooltips:SetATTTooltip(L.PET_CAGE_TOOLTIPS_CHECKBOX_TOOLTIP)
+checkboxPetCageTooltips:AlignAfter(checkboxExceptNPCs)
+
 local checkboxSummarizeThings = child:CreateCheckBox(L.SUMMARIZE_CHECKBOX,
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("SummarizeThings"))
