@@ -196,7 +196,7 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 			"\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "Доступная Праздничная Штучка" ..
 			"\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "Недоступная Праздничная Штучка" ..
 			"\n|T374225:0|t " .. "Недоступно на текущем персонаже" ..
-	--TODO:		"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
+			"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
 	--TODO: L.ICON_LEGEND_MISC_LABEL = "Miscellaneous Icons Legend";
 	--TODO: L.ICON_LEGEND_MISC_TEXT = app.ccColors.White ..
 	--TODO:		"|T" .. app.asset("Currency") .. ":0|t " .. "Used as a currency" ..

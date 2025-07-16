@@ -190,13 +190,13 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.CHAT_COMMANDS_LABEL = "聊天命令";
 	L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFF或|R /things |cffFFFFFF或|R /allthethings\n|cffFFFFFF打开主列表。\n\n|R/att mini |cffFFFFFF或|R /attmini\n|cffFFFFFF打开小列表。\n\n|R/att bounty\n|cffFFFFFF打开被出错或未确认的物品列表。\n\n|R/att ra |cffFFFFFF或|R /attra\n|cffFFFFFF打开团队助手。\n\n|R/att wq |cffFFFFFF或|R /attwq\n|cffFFFFFF打开世界任务列表。\n\n|R/att item:1234 |cffFFFFFF或|R /att [物品链接]\n|cffFFFFFF打开一个共享外观的窗口。也适用于其他事物，例如|R quest:1234|cffFFFFFF，|Rnpcid:1234|cffFFFFFF，|Rmapid:1234|cffFFFFFF 或 |Rrecipeid:1234|cffFFFFFF。\n\n|R/att rwp\n|cffFFFFFF显示所有未来用补丁删除的东西。\n\n|R/att random |cffFFFFFF或|R /attrandom |cffFFFFFF或|R /attran\n|cffFFFFFF打开随机列表。\n\n|R/att unsorted\n|cffFFFFFF打开未知源物品列表。最好在调试模式下打开。\n\n|R/rl\n|cffFFFFFF重载魔兽界面。|R";
 		L.ICON_LEGEND_STATUS_LABEL = "图标图例";
-		L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White ..     "\n|T374225:0|t " .. "当前角色不可用";
+		L.ICON_LEGEND_STATUS_TEXT = app.ccColors.White ..     "\n|T374225:0|t " .. "当前角色不可用" ..
 			"|T" .. app.asset("status-unobtainable") .. ":0|t " .. "不可获得" ..
 			"\n|T" .. app.asset("status-prerequisites") .. ":0|t " .. "仅在满足先决条件的情况下可获得" ..
 			"\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "当前可用的季节性内容" ..
 			"\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "当前不可用的季节性内容" ..
-	--TODO:		"\n|T374225:0|t " .. "Unavailable on current character" ..
-	--TODO:		"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
+			"\n|T374225:0|t " .. "Unavailable on current character" ..
+			"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
 	--TODO: L.ICON_LEGEND_MISC_LABEL = "Miscellaneous Icons Legend";
 	--TODO: L.ICON_LEGEND_MISC_TEXT = app.ccColors.White ..
 	--TODO:		"|T" .. app.asset("Currency") .. ":0|t " .. "Used as a currency" ..

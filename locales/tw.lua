@@ -58,7 +58,7 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	--TODO: L.ITEM_STRING = "Item String";
 	--TODO: L.MOD_ID = "Mod ID";
 	L.OBJECT_TYPE = "目標類型";
-	L.OBJECTIVES
+	--TODO: L.OBJECTIVES = "Objectives";
 	L.QUEST_GIVERS = "任務給予者";
 	--TODO: L.QUEST_ITEMS = "Quest Items";
 	--TODO: L.RUNEFORGE_POWER_ID = "Runeforge Power ID";
@@ -196,7 +196,7 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 			"\n|T" .. app.asset("status-seasonal-available") .. ":0|t " .. "季節性內容" ..
 			"\n|T" .. app.asset("status-seasonal-unavailable") .. ":0|t " .. "季節性內容" ..
 			"\n|T374225:0|t " .. "當前角色不可用" ..
-	--TODO:		"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
+			"\n|T" .. app.asset("status-unsorted") .. ":0|t " .. "Unsorted in ATT";
 	--TODO: L.ICON_LEGEND_MISC_LABEL = "Miscellaneous Icons Legend";
 	--TODO: L.ICON_LEGEND_MISC_TEXT = app.ccColors.White ..
 	--TODO:		"|T" .. app.asset("Currency") .. ":0|t " .. "Used as a currency" ..

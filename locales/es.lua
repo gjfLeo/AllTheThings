@@ -22,7 +22,7 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	 	"Alexstrasza está preocupada por ti",
 	 	"e Invencible te caerá |cffffaaaasegurísimo|r la próxima vez",
 	 	"fue solo un mero contratiempo",
-		", Si, Chef"
+		", Si, Chef",
 	 	"y Crieve ayudará a una tortuga a llegar al agua.",
 	 	"ADALIIID, LA AZERITAAA",
 	};
