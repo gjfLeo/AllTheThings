@@ -825,6 +825,17 @@ end)
 checkboxFillDynamicQuests:SetATTTooltip(L.FILL_DYNAMIC_QUESTS_CHECKBOX_TOOLTIP)
 checkboxFillDynamicQuests:AlignBelow(checkboxModelPreview)
 
+-- TODO: remove after a few versions from ATT 4.5
+local checkboxFillNPCData = child:CreateCheckBox(L.FILL_NPC_DATA_CHECKBOX,
+function(self)
+	self:SetAlpha(0.5)
+end,
+function(self)
+	self:SetChecked(false)
+end)
+checkboxFillNPCData:SetATTTooltip("|cffFF0000This option is deprecated and has been replaced by the 'NPC' Filler on the 'Interface > Fillers' tab|r")
+checkboxFillNPCData:AlignBelow(checkboxFillDynamicQuests)
+
 checkboxNestedQuestChains = child:CreateCheckBox(L.NESTED_QUEST_CHAIN_CHECKBOX,
 function(self)
 	self:SetChecked(settings:GetTooltipSetting("QuestChain:Nested"))
@@ -833,7 +844,7 @@ function(self)
 	settings:SetTooltipSetting("QuestChain:Nested", self:GetChecked())
 end)
 checkboxNestedQuestChains:SetATTTooltip(L.NESTED_QUEST_CHAIN_CHECKBOX_TOOLTIP)
-checkboxNestedQuestChains:AlignBelow(checkboxFillDynamicQuests)
+checkboxNestedQuestChains:AlignBelow(checkboxFillNPCData)
 end
 
 local checkboxSortByProgress = child:CreateCheckBox(L.SORT_BY_PROGRESS_CHECKBOX,
