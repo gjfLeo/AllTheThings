@@ -709,8 +709,6 @@ for key,value in pairs({
 		SHOW_MODELS_CHECKBOX_TOOLTIP = "启用此选项可在预览中显示模型而不是鼠标提示上的图标。\n\n此选项可帮助你识别稀有生物或商人的模样。因为这个原因你可能想保持这个开启。";
 		FILL_DYNAMIC_QUESTS_CHECKBOX = "显示可回收成本组";
 		FILL_DYNAMIC_QUESTS_CHECKBOX_TOOLTIP = "如果您想让用于购买收藏品的物品/货币被视为收藏品并显示在动态填充的任务下，请启用此选项。 ";
-		FILL_NPC_DATA_CHECKBOX = "显示嵌套 NPC 数据";
-		FILL_NPC_DATA_CHECKBOX_TOOLTIP = "如果希望在迷你列表中显示时将所有相关数据嵌套到给定的 NPC（常见首领掉落、掉落等），请启用此选项。此选项可能会导致大量重复，但其想法是该 NPC 将在迷你列表中保持可见，就好像需要特定于该 NPC 的内容一样。\n\n默认：关闭";
 		NESTED_QUEST_CHAIN_CHECKBOX = "显示嵌套任务链";
 		NESTED_QUEST_CHAIN_CHECKBOX_TOOLTIP = "如果你想让任务链要求（右键单击任务）窗口将所需任务显示为其后续任务的子组，即它们必须从内到外完成，请启用此选项。\n\n这一点很有用，不会错过个别任务，应该主要用于完成任务的考虑。\n\n否则任务链要求将以自上而下的方式显示，最早的任务在最上面。";
 		SORT_BY_PROGRESS_CHECKBOX = "按进度排序";
