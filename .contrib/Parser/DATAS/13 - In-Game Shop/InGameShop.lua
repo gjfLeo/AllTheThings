@@ -585,6 +585,11 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		mount(307932, {	-- Ensorcelled Everwyrm (MOUNT!)
 			["timeline"] = { ADDED_10_2_0 },
 		}),
+		-- #if ANYCLASSIC
+		mount(1238816, {	-- Envoy of Sa'bak
+			["timeline"] = { ADDED_5_5_0 },
+		}),
+		-- #endif
 		mount(457485, {	-- Grizzly Hills Packmaster (MOUNT!)
 			["timeline"] = { ADDED_11_0_2 },
 		}),

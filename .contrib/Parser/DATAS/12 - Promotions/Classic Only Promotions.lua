@@ -297,10 +297,6 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				["description"] = "Obtained if you set up a 6 Month WoW Subscription after 10th January 2024.",
 				["u"] = REMOVED_FROM_GAME,
 			}),
-			i(231312, {	-- Timbered Air Snakelet
-				["description"] = "Obtained if you set up a 6/12 Month WoW Subscription after 1th July 2025.",
-				["timeline"] = { ADDED_5_5_0 },
-			}),
 			mount(49290, {	-- Magic Rooster (TW Only)[2023 10th October until 8th January 2024]
 				["description"] = "Obtained if you set up a 3 Month WoW Subscription between 10th October 2022 until 8th January 2024.",
 				["u"] = REMOVED_FROM_GAME,
@@ -336,13 +332,27 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 	expansion(EXPANSION.CATA, {
 		["timeline"] = { ADDED_4_4_0 },
 		["groups"] = {
+			i(224002, {	-- Swoopy
+				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 9th July 2024.",
+				["u"] = REMOVED_FROM_GAME,
+			}),
 			mount(463045, {	-- Lava Drake
 				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
+				["u"] = REMOVED_FROM_GAME,
 			}),
-			i(224002, {	-- Swoopy
-				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
+			i(231312, {	-- Timbered Air Snakelet
+				["description"] = "Obtained if you set up a 6/12 Month WoW Subscription after 31st January 2025.",
+				["u"] = REMOVED_FROM_GAME,
 			}),
 		},
 	}),
+	expansion(EXPANSION.MOP, {
+		["timeline"] = { ADDED_5_5_0 },
+		["groups"] = {
+			pet(4850, {	-- Sa'bak's Blessed
+				["description"] = "Obtained if you set up a 6/12 Month WoW Subscription after 15th July 2025.",
+			}),
+		},
+	})
 	-- #endif
 }));
