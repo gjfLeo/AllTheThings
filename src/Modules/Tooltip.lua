@@ -815,39 +815,6 @@ or
 	end
 end
 
--- Battle Pet Tooltips
-local function AttachBattlePetTooltip(tooltip, data, quantity, detail)
-	if not data or data.att or not data.speciesID then return end
-	data.att = 1;
-
-	-- GameTooltip_ShowCompareItem
-	-- local searchResults = SearchForField("speciesID", data.speciesID);
-	local owned = C_PetJournal.GetOwnedBattlePetString(data.speciesID);
-	tooltip.Owned:SetText(owned);
-	if owned == nil then
-		if tooltip.Delimiter then
-			-- if .Delimiter is present it requires special handling (FloatingBattlePetTooltip)
-			tooltip:SetSize(260,150 + h)
-			tooltip.Delimiter:ClearAllPoints()
-			tooltip.Delimiter:SetPoint("TOPLEFT",tooltip.SpeedTexture,"BOTTOMLEFT",-6,-5)
-		else
-			tooltip:SetSize(260,122)
-		end
-	else
-		local h = tooltip.Owned:GetHeight() or 0;
-		if tooltip.Delimiter then
-			tooltip:SetSize(260,150 + h)
-			tooltip.Delimiter:ClearAllPoints()
-			tooltip.Delimiter:SetPoint("TOPLEFT",tooltip.SpeedTexture,"BOTTOMLEFT",-6,-(5 + h))
-		else
-			tooltip:SetSize(260,122 + h)
-		end
-	end
-	tooltip:Show()
-	return true;
-end
---hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", AttachBattlePetTooltip); -- Not ready yet.
-
 -- For some reason, Blizzard puts some secure access functionality within the GetOwner() call on certain
 -- tooltips, which means when ATT checks the Owner via this function, a secure code taint error is thrown
 local function SafeGetOwner(tooltip)
@@ -1385,8 +1352,81 @@ app.AddEventHandler("OnLoad", function()
 	OnLoad_CacheObjectNames();
 end);
 
+
 -- TODO: This is referenced in addon database code in classic, refactor this.
 -- Don't worry about optimizing it for now.
+local function PrepareShoppingTooltips(owner, count)
+	if not owner then owner = GameTooltip; end
+	
+	-- Quick maths
+	-- Taken from https://github.com/Ennie/wow-ui-source/blob/master/FrameXML/GameTooltip.lua
+	---@diagnostic disable-next-line: undefined-field
+	local shoppingTooltip1, shoppingTooltip2, shoppingTooltip3 = unpack(GameTooltip.shoppingTooltips);
+	local leftPos, rightPos = (owner:GetLeft() or 0), (owner:GetRight() or 0);
+	if GetScreenWidth() - rightPos < leftPos then
+		side = "left";
+	else
+		side = "right";
+	end
+
+	if owner == GameTooltip then
+		-- see if we should slide the tooltip
+		local anchorType = owner:GetAnchorType();
+		if anchorType and anchorType ~= "ANCHOR_PRESERVE" then
+			local totalWidth = shoppingTooltip1:GetWidth();
+			if count > 1 then totalWidth = totalWidth + shoppingTooltip2:GetWidth(); end
+			if count > 2 then totalWidth = totalWidth + shoppingTooltip3:GetWidth(); end
+			if ( (side == "left") and (totalWidth > leftPos) ) then
+				owner:SetAnchorType(anchorType, (totalWidth - leftPos), 0);
+			elseif ( (side == "right") and (rightPos + totalWidth) > GetScreenWidth() ) then
+				owner:SetAnchorType(anchorType, -((rightPos + totalWidth) - GetScreenWidth()), 0);
+			end
+		end
+	end
+
+	-- anchor the compare tooltips
+	if count > 2 then
+		shoppingTooltip3:SetOwner(owner, "ANCHOR_NONE");
+		shoppingTooltip3:ClearAllPoints();
+		if side == "left" then
+			shoppingTooltip3:SetPoint("TOPRIGHT", owner, "TOPLEFT", 0, -10);
+		else
+			shoppingTooltip3:SetPoint("TOPLEFT", owner, "TOPRIGHT", 0, -10);
+		end
+		if shoppingTooltip3.attHelper then shoppingTooltip3:attHelper(); end
+		shoppingTooltip1:SetOwner(shoppingTooltip3, "ANCHOR_NONE");
+	else
+		shoppingTooltip1:SetOwner(owner, "ANCHOR_NONE");
+	end
+	shoppingTooltip1:ClearAllPoints();
+	if side == "left" then
+		if count > 2 then
+			shoppingTooltip1:SetPoint("TOPRIGHT", shoppingTooltip3, "TOPLEFT", 0, 0);
+		else
+			shoppingTooltip1:SetPoint("TOPRIGHT", owner, "TOPLEFT", 0, -10);
+		end
+	else
+		if count > 2 then
+			shoppingTooltip1:SetPoint("TOPLEFT", shoppingTooltip3, "TOPRIGHT", 0, 0);
+		else
+			shoppingTooltip1:SetPoint("TOPLEFT", owner, "TOPRIGHT", 0, -10);
+		end
+	end
+	if shoppingTooltip1.attHelper then shoppingTooltip1:attHelper(); end
+
+	if count > 1 then
+		shoppingTooltip2:SetOwner(shoppingTooltip1, "ANCHOR_NONE");
+		shoppingTooltip2:ClearAllPoints();
+		if side == "left" then
+			shoppingTooltip2:SetPoint("TOPRIGHT", shoppingTooltip1, "TOPLEFT", 0, 0);
+		else
+			shoppingTooltip2:SetPoint("TOPLEFT", shoppingTooltip1, "TOPRIGHT", 0, 0);
+		end
+		if shoppingTooltip2.attHelper then shoppingTooltip2:attHelper(); end
+	end
+
+	return shoppingTooltip1, shoppingTooltip2, shoppingTooltip3;
+end
 local function ShowItemCompareTooltips(...)
 	local items = { ... };
 	local count = #items;
@@ -1395,82 +1435,55 @@ local function ShowItemCompareTooltips(...)
 			---@diagnostic disable-next-line: undefined-field
 			local shoppingTooltip = GameTooltip.shoppingTooltips[i];
 			if shoppingTooltip then
-				shoppingTooltip.attItem = type(item) == "number" and select(2, GetItemInfo(item)) or item;
-				pcall(shoppingTooltip.SetHyperlink, shoppingTooltip, shoppingTooltip.attItem);
+				shoppingTooltip.attItemData = type(item) == "number" and select(2, GetItemInfo(item)) or item;
+				shoppingTooltip.attHelper = function(tooltip)
+					pcall(tooltip.SetHyperlink, tooltip, tooltip.attItemData);
+					tooltip.attItemData = nil;
+					tooltip.attHelper = nil;
+					tooltip:Show();
+				end
 			else
 				break;
 			end
 		end
-
-		-- Quick maths
-		-- Taken from https://github.com/Ennie/wow-ui-source/blob/master/FrameXML/GameTooltip.lua
-		---@diagnostic disable-next-line: undefined-field
-		local shoppingTooltip1, shoppingTooltip2, shoppingTooltip3 = unpack(GameTooltip.shoppingTooltips);
-		local leftPos, rightPos = (GameTooltip:GetLeft() or 0), (GameTooltip:GetRight() or 0);
-		if GetScreenWidth() - rightPos < leftPos then
-			side = "left";
-		else
-			side = "right";
-		end
-
-		-- see if we should slide the tooltip
-		local anchorType = GameTooltip:GetAnchorType();
-		if anchorType and anchorType ~= "ANCHOR_PRESERVE" then
-			local totalWidth = shoppingTooltip1:GetWidth();
-			if count > 1 then totalWidth = totalWidth + shoppingTooltip2:GetWidth(); end
-			if count > 2 then totalWidth = totalWidth + shoppingTooltip3:GetWidth(); end
-			if ( (side == "left") and (totalWidth > leftPos) ) then
-				GameTooltip:SetAnchorType(anchorType, (totalWidth - leftPos), 0);
-			elseif ( (side == "right") and (rightPos + totalWidth) > GetScreenWidth() ) then
-				GameTooltip:SetAnchorType(anchorType, -((rightPos + totalWidth) - GetScreenWidth()), 0);
-			end
-		end
-
-		-- anchor the compare tooltips
-		if count > 2 then
-			shoppingTooltip3:SetOwner(GameTooltip, "ANCHOR_NONE");
-			shoppingTooltip3:ClearAllPoints();
-			if side == "left" then
-				shoppingTooltip3:SetPoint("TOPRIGHT", GameTooltip, "TOPLEFT", 0, -10);
-			else
-				shoppingTooltip3:SetPoint("TOPLEFT", GameTooltip, "TOPRIGHT", 0, -10);
-			end
-			pcall(shoppingTooltip3.SetHyperlink, shoppingTooltip3, shoppingTooltip3.attItem);
-			shoppingTooltip3:Show();
-			shoppingTooltip1:SetOwner(shoppingTooltip3, "ANCHOR_NONE");
-		else
-			shoppingTooltip1:SetOwner(GameTooltip, "ANCHOR_NONE");
-		end
-		shoppingTooltip1:ClearAllPoints();
-		if side == "left" then
-			if count > 2 then
-				shoppingTooltip1:SetPoint("TOPRIGHT", shoppingTooltip3, "TOPLEFT", 0, 0);
-			else
-				shoppingTooltip1:SetPoint("TOPRIGHT", GameTooltip, "TOPLEFT", 0, -10);
-			end
-		else
-			if count > 2 then
-				shoppingTooltip1:SetPoint("TOPLEFT", shoppingTooltip3, "TOPRIGHT", 0, 0);
-			else
-				shoppingTooltip1:SetPoint("TOPLEFT", GameTooltip, "TOPRIGHT", 0, -10);
-			end
-		end
-		pcall(shoppingTooltip1.SetHyperlink, shoppingTooltip1, shoppingTooltip1.attItem);
-		shoppingTooltip1:Show();
-
-		if count > 1 then
-			shoppingTooltip2:SetOwner(shoppingTooltip1, "ANCHOR_NONE");
-			shoppingTooltip2:ClearAllPoints();
-			if side == "left" then
-				shoppingTooltip2:SetPoint("TOPRIGHT", shoppingTooltip1, "TOPLEFT", 0, 0);
-			else
-				shoppingTooltip2:SetPoint("TOPLEFT", shoppingTooltip1, "TOPRIGHT", 0, 0);
-			end
-			pcall(shoppingTooltip2.SetHyperlink, shoppingTooltip2, shoppingTooltip2.attItem);
-			shoppingTooltip2:Show();
-		end
-
-		return shoppingTooltip1, shoppingTooltip2, shoppingTooltip3;
+		return PrepareShoppingTooltips(GameTooltip, count);
 	end
 end
 app.ShowItemCompareTooltips = ShowItemCompareTooltips;
+
+-- Battle Pet Tooltip Integration with TSM (if available)
+if BattlePetTooltip then
+	hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", function(tooltip, data)
+		if data and data.speciesID then
+			C_Timer.After(0.01, function()
+				local shoppingTooltip = TSMExtraTooltip3;
+				if shoppingTooltip then
+					shoppingTooltip:AddLine(" ");
+					AttachTooltipSearchResults(shoppingTooltip, SearchForField, "speciesID", data.speciesID);
+					shoppingTooltip:Show();
+					return;
+				end
+				
+				---@diagnostic disable-next-line: undefined-field
+				shoppingTooltip = GameTooltip.shoppingTooltips[1];
+				if shoppingTooltip then
+					shoppingTooltip.attSpeciesID = data.speciesID;
+					shoppingTooltip.attHelper = function(tooltip)
+						tooltip:ClearLines();
+						AttachTooltipSearchResults(tooltip, SearchForField, "speciesID", tooltip.attSpeciesID);
+						tooltip.attSpeciesID = nil;
+						tooltip.attHelper = nil;
+						tooltip:Show();
+					end
+					if not tooltip.attBattlePetHooked then
+						tooltip.attBattlePetHooked = 1;
+						tooltip:HookScript("OnHide", function()
+							shoppingTooltip:Hide();
+						end)
+					end
+					PrepareShoppingTooltips(tooltip, 1);
+				end
+			end);
+		end
+	end)
+end
