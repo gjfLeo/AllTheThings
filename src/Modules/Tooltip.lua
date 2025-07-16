@@ -1462,9 +1462,18 @@ if BattlePetTooltip then
 			if CanAttachTooltips() then
 				local shoppingTooltip = TSMExtraTooltip3;
 				if shoppingTooltip then
-					shoppingTooltip:AddLine(" ");
-					AttachTooltipSearchResults(shoppingTooltip, SearchForField, "speciesID", tooltip.attSpeciesID);
-					shoppingTooltip:Show();
+					if not shoppingTooltip.attBattlePetAttached then
+						shoppingTooltip.attBattlePetAttached = 1;
+						shoppingTooltip:AddLine(" ");
+						AttachTooltipSearchResults(shoppingTooltip, SearchForField, "speciesID", tooltip.attSpeciesID);
+						shoppingTooltip:Show();
+						if not tooltip.attBattlePetOnHideForTSMHooked then
+							tooltip.attBattlePetOnHideForTSMHooked = 1;
+							tooltip:HookScript("OnHide", function()
+								shoppingTooltip.attBattlePetAttached = nil;
+							end)
+						end
+					end
 					return;
 				end
 				
