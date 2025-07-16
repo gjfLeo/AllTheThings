@@ -8,7 +8,7 @@ PROVING_GROUNDS = createHeader({
 		en = [[~TRACKER_HEADER_PROVINGGROUNDS]],
 	},
 });
-root(ROOTS.ExpansionFeatures, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, {
+root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADDED_5_0_4 } }, applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, {
 	n(PROVING_GROUNDS, {
 		["maps"] = { 480 },	-- Proving Grounds
 		["g"] = {
