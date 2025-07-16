@@ -1458,7 +1458,7 @@ if BattlePetTooltip then
 			tooltip.attBattlePetOnUpdateHooked = 1;
 			tooltip:HookScript("OnUpdate", UpdateBattlePetTooltip)
 		end
-		if tooltip:IsShown() then
+		if tooltip:IsShown() and app.Settings:GetTooltipSetting("EnablePetCageTooltips") then
 			if CanAttachTooltips() then
 				local shoppingTooltip = TSMExtraTooltip3;
 				if shoppingTooltip then
@@ -1504,7 +1504,7 @@ if BattlePetTooltip then
 		end
 	end
 	function BattlePetTooltipTemplate_SetBattlePetHook(tooltip, data)
-		if data and data.speciesID and app.Settings:GetTooltipSetting("EnablePetCageTooltips") then
+		if data and data.speciesID then
 			tooltip.attSpeciesID = data.speciesID;
 			C_Timer.After(0.01, function()
 				UpdateBattlePetTooltip(tooltip);
