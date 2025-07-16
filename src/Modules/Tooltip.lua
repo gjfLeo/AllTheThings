@@ -1456,7 +1456,7 @@ if BattlePetTooltip then
 	hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", function(tooltip, data)
 		if data and data.speciesID then
 			C_Timer.After(0.01, function()
-				if BattlePetTooltip:IsShown() then
+				if tooltip:IsShown() then
 					local shoppingTooltip = TSMExtraTooltip3;
 					if shoppingTooltip then
 						shoppingTooltip:AddLine(" ");
