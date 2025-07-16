@@ -82,6 +82,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				--["questID"] = ,
 			}),
 			n(232182, {	-- Prototype Mk-V
+				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 45.8, 24.2, KARESH },
 				["questID"] = 90590,
 				["g"] = {
@@ -95,6 +96,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				--["questID"] = ,
 			}),
 			n(232189, {	-- Revenant of the Wasteland
+				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 50.5, 64.6, KARESH },
 				["questID"] = 90591,
 			}),
@@ -143,6 +145,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 31.2, 57.8, KARESH },
 				["questID"] = 90694,
 				-- rep 90695?
+				["g"] = {
+					i(239479),	-- Reshii Brute's Vambraces
+				},
 			}),
 		}),
 	}),

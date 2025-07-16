@@ -37,6 +37,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(246907, {	-- Broker Supply Crate (TOY!)
 						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
 					}),
+					i(250722, {	-- Ethereal Stall (TOY!)
+						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
+					}),
 					i(246903, {	-- Guise of the Phase Diver (TOY!)
 						["cost"] = { { "c", 3303, 3 }, },	-- Untethered Coin
 					}),

@@ -8,10 +8,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				-- Quests listed instead of objects are obtained from WoWhead and are there simply as a placeholder for easier editing and to show which Treasures belong under the header (as per current in-game criteria 22.06.2025.).
 				-- TODO: Replace quests with actual ObjectID upon discovery
 				o(499082, {	-- Abandoned Lockbox
-					-- Didn't trigger a quest and didn't count towards the achievement 24.06.2025. -Exo
 					["coord"] = { 54.0, 55.0, KARESH },
-					--["questID"] = ???,
-					["g"] = { i(246299), },	-- Blade of Lost Hope (COSMETIC!)
+					-- Found at { 60.1, 60.9, KARESH }, 16.07.2025. Changed coordinates? Verification required for old coord
+					["questID"] = 92348,
+					["g"] = {
+						i(246299),	-- Blade of Lost Hope (COSMETIC!)
+						i(246301),	-- Pitted Blade of Lost Hope
+					},
 				}),
 				q(86416, {	-- Ancient Coffer
 					-- TODO: Bugged. Invisible. Can't be looted 25.06.2025. -Exo

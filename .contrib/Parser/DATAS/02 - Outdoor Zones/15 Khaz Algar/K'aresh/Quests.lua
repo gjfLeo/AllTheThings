@@ -1139,12 +1139,31 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						["coord"] = { 79.0, 53.4, KARESH },
 					}),
 					q(89326, {	-- Distilled Darkness
-						-- Can't be completed. Fragments can't be placed. Bugged 24.06.2025. -Exo
 						["sourceQuests"] = { 89325 },	-- The Void Confluence
 						["provider"] = { "n", 240842 },	-- Leona Darkstrider
 						["coords"] = {
 							{ 56.8, 24.1, KARESH },	-- Voidscar Cavern Entrance
 							{ 61.9, 53.0, 2477 },	-- Voidscar Cavern
+						},
+					}),
+					q(89327, {	-- Chaos
+						["sourceQuests"] = { 89326 },	-- Distilled Darkness
+						["provider"] = { "n", 240842 },	-- Leona Darkstrider
+						["coords"] = {
+							{ 62.0, 53.0, 2477 },	-- Voidscar Cavern
+						},
+					}),
+					q(91044, {	-- Hunger of the Void
+						["sourceQuests"] = { 89327 },	-- Chaos
+						["provider"] = { "n", 240842 },	-- Leona Darkstrider
+						["coords"] = {
+							{ 62.0, 53.1, 2477 },	-- Voidscar Cavern
+						},
+						["g"] = {
+							i(245732),	-- Sabatons of the Endless Hunger
+							i(245729),	-- Sandals of the Endless Hunger
+							i(245731),	-- Striders of the Endless Hunger
+							i(245730),	-- Waders of the Endless Hunger
 						},
 					}),
 				}),
@@ -1263,6 +1282,36 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.07, {	-- Priest of the Old Ways
+					-- According to quest data, this quest should start somewhere around The Oasis or Shan'dorah but I can't find the [qg] anywhere	-Exo
+					-- "The ruined town of Sufaad to the southeast of here was where I resided as a Wastelander."
+					q(85019, {	-- An Outcast's Request
+						--["sourceQuests"] = { ??? },
+						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
+						--["coord"] = { x, y, KARESH },
+						["g"] = {
+							i(229902),	-- K'areshi Priest's Bowl (QI!)
+							i(229895),	-- Scepter of Priesthood (QI!)
+							i(229893),	-- Ways of the Priesthood (QI!)
+						},
+					}),
+					q(85020, {	-- The Blood of K'aresh
+						["sourceQuests"] = { 85019 },	-- An Outcast's Request
+						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
+						--["coord"] = { x, y, KARESH },
+						["g"] = {
+							i(229970),	-- Blood of K'aresh Deposit (QI!)
+						},
+					}),
+					q(85021, {	-- Cleansing the Void
+						["sourceQuests"] = { 85020 },	-- The Blood of K'aresh
+						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
+						--["coord"] = { x, y, KARESH },
+					}),
+					q(85022, {	-- Priest of the Old Ways
+						["sourceQuests"] = { 85021 },	-- Cleansing the Void
+						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
+						--["coord"] = { x, y, KARESH },
+					}),
 				}),
 				header(HEADERS.AchCriteria, 42739.08, {	-- That Tazavesh Taste
 					q(85383, {	-- Applied Mixology
@@ -1528,16 +1577,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["repeatable"] = true,
 			}),
 			-- Unsorted
-			q(84765),	--
-			q(85018),	--
-			q(85022),	--
-			q(85055),	--
-			q(85394),	--
-			q(85434),	--
 			q(86191),	--
-			q(86193),	--
 			q(86195),	--
-			q(86201),	--
 			q(86359),	--
 			q(86392),	--
 			q(86492),	--
@@ -1546,8 +1587,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(87415),	--
 			q(88672),	--
 			--q(90954),	--	TODO: Alex - ach(42742) Power of the Reshii / Regalia of the Reshii upgrade, should probably be automated in future?
-			q(91044),	--
-			q(91454),	--
 			n(REWARDS, {
 				currency(3278),	-- Ethereal Strands
 			}),
@@ -1564,7 +1603,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(85111),	-- [DNT] K'aresh Trust Renown Unlock (spellID 466720)
 				q(91812),	-- Triggered after unlocking Renown 2 of The K'aresh Trust right after completing 'The Tabiqa' (84910)
 				-- ??
-				--q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
+				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 				q(90807),	-- Triggered at the completion of 'Warrant: Xy'vox the Twisted' (87345)
 				-- Devourer Attacks
 				q(91286),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)

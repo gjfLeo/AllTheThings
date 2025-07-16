@@ -489,6 +489,7 @@ MobileDB.GameObject = {
 	[184126] = true,	-- Main Chambers Access Panel
 	[184383] = true,	-- Ethereum Transponder Zeta
 	[186903] = true,	-- Pirate Booty (q:25054)
+	[187333] = true,	-- Bloodberry Bush (q:11546)
 	[192818] = true,	-- Infused Mushroom (q:13100, 13112)
 	[192828] = true,	-- Crystalsong Carrot (q:13114)
 	[194088] = true,	-- Highborne Relic (q:13505)
@@ -1363,7 +1364,11 @@ MobileDB.GameObject = {
 	[517000] = true,	-- Tazavesh Trash (q:87376)
 	[517672] = true,	-- Emergency Exit (qs: 75874, 83121, 83123, 84121)
 	[522157] = true,	-- Bomb Pile (Nightfall)
+	[523491] = true,	-- Desolate Deposit
+	[523512] = true,	-- Rich Desolate Deposit
 	[523535] = true,	-- Torch (Nightfall)
+	[527488] = true,	-- Phantom Bloom
+	[527489] = true,	-- Lush Phantom Bloom
 	[529289] = true,	-- Spore Sample (q: 88711)
 }
 

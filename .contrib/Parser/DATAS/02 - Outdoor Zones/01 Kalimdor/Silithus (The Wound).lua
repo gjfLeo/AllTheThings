@@ -498,6 +498,17 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["coord"] = { 50.1, 59.1, REPAIRED_CHAMBER_OF_HEART },
 							["provider"] = { "n", 152206 },	-- Magni Bronzebeard
 							["sourceQuest"] = 58737,	-- Magni's Findings
+							["g"] = {
+								o(341445, {	-- Chamber of Heart Relay
+									["coord"] = { 56.9, 64.7, REPAIRED_CHAMBER_OF_HEART },
+								}),
+								o(341449, {	-- Engine of Nalak'sha Relay
+									["coord"] = { 50.1, 74.7, REPAIRED_CHAMBER_OF_HEART },
+								}),
+								o(341450, {	-- Forge of Origination Relay
+									["coord"] = { 43.4, 64.8, REPAIRED_CHAMBER_OF_HEART },
+								}),
+							},
 						}),
 						q(57221, {	-- Re-Origination
 							["coord"] = { 50.1, 59.1, REPAIRED_CHAMBER_OF_HEART },

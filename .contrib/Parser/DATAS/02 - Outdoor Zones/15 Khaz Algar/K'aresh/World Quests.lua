@@ -140,6 +140,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				-- Restored Coffer Key (Pop from any weekly activity, orders (of activity) doesn't matter)
 				q(91175, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 1st
 				q(91176, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 2nd
+				q(91177, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 3rd
 			}),
 		}),
 	}),

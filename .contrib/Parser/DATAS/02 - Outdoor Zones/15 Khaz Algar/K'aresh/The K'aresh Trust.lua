@@ -119,9 +119,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 								["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 							}),
 						}, {	-- RENOWN 14 --
+							i(245693, {	-- K'areshi Ribbon Stash
+								["cost"] = {{"c", RESONANCE_CRYSTALS, 2250}},
+							}),
 						}, {	-- RENOWN 15 --
 							i(242729, {	-- Ruby Void Creeper (MOUNT!)
-								--["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},	-- No value at the moment. 23.06.2025. -Exo
+								["cost"] = {{"c", RESONANCE_CRYSTALS, 8125}},
 							}),
 						}, {	-- RENOWN 16 --
 							i(245971, {	-- Consortium Brute's Clasp

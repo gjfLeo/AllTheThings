@@ -95,7 +95,6 @@ root(ROOTS.Unsorted, {
 				i(239474),	-- Reshii Brute's Handguards
 				i(239475),	-- Reshii Brute's Helmet
 				i(239476),	-- Reshii Brute's Greaves
-				i(239479),	-- Reshii Brute's Vambraces
 				i(240171),	-- Observer's Soul Fetters
 				i(240172),	-- Depleted K'areshi Battery
 
@@ -133,10 +132,6 @@ root(ROOTS.Unsorted, {
 				i(245708),	-- Epaulets of the Exiled Vow
 				i(245709),	-- Shoulderguards of the Exiled Vow
 				i(245710),	-- Mantle of the Exiled Vow
-				i(245729),	-- Sandals of the Endless Hunger
-				i(245730),	-- Waders of the Endless Hunger
-				i(245731),	-- Striders of the Endless Hunger
-				i(245732),	-- Sabatons of the Endless Hunger
 
 				-- Rare
 				i(246064),	-- Reshii Magi's Pendant
@@ -235,10 +230,8 @@ root(ROOTS.Unsorted, {
 				i(245672),	-- Blade of the Void Swamp
 				i(245673),	-- Bladed Rifle of Unfettered Momentum
 				i(245674),	-- Rifle of Leaden Movement
-				i(245693),	-- K'areshi Ribbon Stash
 				i(246293),	-- Buckler of the Last Stand
 				i(246294),	-- Shattered Buckler of the Last Stand
-				i(246301),	-- Pitted Blade of Lost Hope
 				-- Reputation Cosmetic
 				i(248780),	-- Consortium Brute's Cape
 				i(248781),	-- Consortium Skirmisher's Cloak
