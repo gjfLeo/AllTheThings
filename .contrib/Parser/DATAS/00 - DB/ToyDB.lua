@@ -1477,6 +1477,7 @@ i(242323);	-- Chowdar's Favorite Ribbon
 i(246565);	-- Cosmic Hearthstone
 i(243056);	-- Delver's Mana-Bound Ethergate
 i(244792);	-- Etheric Brannmorpher
+i(250722);	-- Ethereal Stall
 i(244470);	-- Etheric Victory
 i(246903);	-- Guise of the Phase Diver
 i(246908);	-- K'areshi Supply Crate
@@ -1485,4 +1486,3 @@ i(245970);	-- P.O.S.T. Master's Express Hearthstone
 --- UNSORTED ---
 i(245946);	-- Brewer's Balloon
 i(249713);	-- Cartel Transmorpher
-i(250722);	-- Ethereal Stall

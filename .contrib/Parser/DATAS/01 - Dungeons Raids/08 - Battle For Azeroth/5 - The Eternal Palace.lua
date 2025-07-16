@@ -397,6 +397,12 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					i(169936),	-- Gauntlets of Crashing Tides
 					i(169935),	-- Brutish Myrmidon's Vambraces
 					i(168602),	-- Cloak of Blessed Depths
+					i(170199, {	-- Zanj'ir Weapon Rack (TOY!)
+						["crs"] = {
+							155920,	-- Azsh'ari Galeblade
+							155619,	-- Zanj'ir Honor Guard
+						},
+					}),
 				}),
 				e(2352, {	-- Abyssal Commander Sivara
 					["crs"] = { 151881 },	-- Abyssal Commander Sivara	-- Abyssal Commander Sivara
