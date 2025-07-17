@@ -660,51 +660,277 @@ root(ROOTS.NeverImplemented, {
 		filter(STAVES, {
 			expansion(EXPANSION.CLASSIC, {
 				n(P1xx, {
+					i(1907),	-- Monster - Staff, Basic
+					i(1908),	-- Monster - Staff, Crooked
+					i(1948),	-- Deprecated Large Broom
+					i(2176),	-- Monster - Staff, Ornate Priest Staff
+					i(2177),	-- Monster - Staff, Ornate Mage Staff
+					i(2559),	-- Monster - Staff, Ornate Warlock Staff
 					i(3738),	-- Brewing Rod
+					i(5276),	-- Monster - Staff, 3 Piece Taped Staff
+					i(5277),	-- Monster - Staff, Metal /w Spike Crystal
+					i(5303),	-- Monster - Staff, Wooden Handle Rounded Head
+					i(5304),	-- Monster - Staff, Large Metal Shaft
+					i(5558),	-- Fast Test Staff
+					i(6322),	-- Monster - Staff, Arugal
+					i(7826),	-- Monster - Staff, Special NPC (Whitemane)
+					i(11343),	-- Monster - Staff, Jeweled Red Staff
+					i(11365),	-- Monster - Staff, Badass Red Staff
+					i(11424),	-- Monster - Staff, Wooden Handle Spiral Head
+					i(11542),	-- Monster - Staff, Red Feathered
+					i(11588),	-- Monster - Staff, Jeweled D01 Green
+					i(12182),	-- Monster - Staff of Jordan
+					i(12328),	-- Monster - Staff, 3 Piece Taped Staff Green
+					i(12322),	-- Monster - Staff, Green Feathered
+					i(12329),	-- Monster - Staff, Crooked Green
+					i(12421),	-- Monster - Staff, White Jeweled
+					i(12591),	-- Monster - Staff, Holy Staff
+					i(12937),	-- Monster - Staff, Basic Red
+					i(12943),	-- Monster - Staff, 3 Piece Taped Staff Red
+					i(12959),	-- Monster - Staff, Demon Skull Staff
+					i(13050),	-- Monster - Staff, Ornate Jeweled Staff - Red
+					i(13061),	-- Monster - Staff, Green Crystal Sphere
+					i(13069),	-- Monster - Staff, D01 Flaming Red
+					i(13078),	-- Monster - Staff, Pointed Red Crystal
+					i(13336),	-- Monster - Staff, Feathered Black
+					i(13337),	-- Monster - Staff, Feathered Gold
+					i(13338),	-- Monster - Staff, Feathered Invert
+					i(13339),	-- Monster - Staff, Feathered Silver
+					i(13622),	-- Monster - Staff, D01 Circling Black Skull
+					i(13698),	-- Monster - Staff, Ornate Warlock Staff Black Glow Low
+					i(13705),	-- Monster - Staff, Yellow Jeweled with Low Purple Glow
+					i(13709),	-- Monster - Staff Green Sphere Glowing
+					i(13720),	-- Monster - Staff, Feathered Invert - Glow Black High
+					i(13721),	-- Monster - Staff, Wooden Handle Spiral Head White
+					i(13722),	-- Monster - Staff, Demon Skull Staff Low Purple Fl
+					i(13723),	-- Monster - Staff, Wood w/ Spiral Head White Low Purple Glow
+					i(13750),	-- Monster - Staff, Jeweled Blue Staff
+					i(13751),	-- Monster - Staff, Jeweled Yellow Staff
+					i(13753),	-- Monster - Staff, Jeweled Green Staff
+					i(14092),	-- Monster - Staff, Holy Staff Archbishop Benedictusame
+					i(14618),	-- Monster - Staff, Jeweled Red Staff Low Red Flame
+					i(14706),	-- Monster - Staff, 3 Piece Taped Staff Purple
+					i(14707),	-- Monster - Staff, 3 Piece Taped Staff Blue
+					i(14836),	-- Monster - Staff, Ornate Jeweled Staff - Purple
+					i(14837),	-- Monster - Staff, Ornate Jeweled Staff - Purple Low Purple Glow
+					i(14873),	-- Monster - Staff, Ornate Jeweled Staff - Blue
+					i(14845),	-- Monster - Staff, Wooden Handle Rounded Head Low Yellow Glow
+					i(18122),	-- Monster - Staff, Ornate Jeweled Staff - Blue High Blue Glow
+					i(18123),	-- Monster - Staff, Feathered Silver Glow
+					i(18644),	-- Monster - Staff, Ornate Jeweled Staff - Red Low Red Flame
+					i(19214),	-- Monster - Staff, Wooden Handle Spiral Head Dark
 					i(20522),	-- Feral Staff
 					i(20718),	-- Monster - Staff, Jeweled Yellow Staff w/Low Purple Glow
 					i(20719),	-- Monster - Staff, Jeweled D01/B02 Yellow w/Low Red Flame
 					i(21795),	-- Monster - Staff, Ahn'Qiraj
 				}),
 			}),
-			-- #if ANYCLASSIC
+			expansion(EXPANSION.TBC, {
+				-- 2.0.3
+				expansion(EXPANSION.TBC, patch(0,3), {
+					i(23240),	-- Monster - Staff, Blood Elf A01 Blue
+					i(28738),	-- Monster - Staff, Benediction
+					i(28739),	-- Monster - Staff, Anathema
+					i(29715),	-- Monster - Staff, Blood Elf A01 Green
+					i(29716),	-- Monster - Staff, Blood Elf A01 Red
+					i(29748),	-- Monster - Staff, Blooming Druid Staff
+					i(30423),	-- Monster - Staff, Blood Elf A01 Blue - Med Blue Glow
+					i(30424),	-- Monster - Staff, Blood Elf A01 Red - High Red Glow
+					i(30441),	-- Monster - Staff, Blood Elf A02 Red (Yellow Flame)
+					i(31253),	-- (Action Figure) Night Elf Druid Staff
+					i(31257),	-- (Action Figure) Troll Priest Staff
+				}),
+
+				-- 2.1.0
+				expansion(EXPANSION.TBC, patch(1,0), {
+					i(33983),	-- Monster - Zul'Aman - Staff, 2H - Amani'shi Flame Caster
+				}),
+			}),
 			expansion(EXPANSION.WRATH, {
+				-- 3.0.1
+				expansion(EXPANSION.WRATH, patch(0,1), {
+					i(35942),	-- Monster - Staff, Greatmother Icemist
+					i(36869),	-- Monster - Staff, Lord Valthalak (Particles)
+					i(41090),	-- Monster - Zul'Aman - Staff, 2H, Drakuru Prophet
+					i(42139),	-- Monster - Staff, Rhonin
+					i(43093),	-- Monster - Staff, Dalaran
+					i(43220),	-- Monster - Staff, Blood Elf A01 Blue - High Yellow Glow
+					i(43223),	-- Monster - Shandaral - Staff
+					i(43617),	-- Monster - Staff, Dalaran Blue
+					i(43618),	-- Monster - Staff, Dalaran Green
+					i(43619),	-- Monster - Staff, Dalaran Red
+				}),
+
+				-- 3.3.0
+				expansion(EXPANSION.WRATH, patch(3,0), {
+					i(52009),	-- Monster - Staff of Balzaphon
+				}),
+
+				-- 3.4.2
+				-- #if ANYCLASSIC
 				expansion(EXPANSION.WRATH, patch(4,2), {
 					i(206726),	-- Spiked Greatstaff
 					i(206685),	-- Tenacious Vine Staff
 				}),
+				-- #endif
 			}),
-			-- #endif
 			expansion(EXPANSION.CATA, {
+				-- 4.0.3
 				expansion(EXPANSION.CATA, patch(0,3), {
-					i(58534),	-- QA Combat Test Agility Staff \\ QA Combat Test Druid Feral Staff
-					i(58618),	-- QA Combat Test Agility Staff 2 \\ QA Combat Test Druid Feral Staff 2
+					i(49391),	-- Shattered Oar
+					i(49606),	-- Battlescarred Stave
+					i(54301),	-- Promotion Prodder
 					-- Wouter NOTE: these are made available with the addition of Crate of Salvage in WoD
 					-- #if BEFORE WOD
 					i(55343),	-- Rustmaul Staff
 					i(55451),	-- Rustmaul Staff
 					-- #endif
+					i(56063),	-- Monster, Grimtotem Alliance Weapon (Staff)
+					i(58534),	-- QA Combat Test Agility Staff \\ QA Combat Test Druid Feral Staff
+					i(58618),	-- QA Combat Test Agility Staff 2 \\ QA Combat Test Druid Feral Staff 2
+					i(63052),	-- Monster - Staff - Ulduar Raid D04 Green
+					i(63084),	-- Monster - Staff, Feathered Black (Low Black Flame)
+					i(63257),	-- Monster - Staff, Cataclysm C 02 - Purple
+					i(63381),	-- Monster - Staff, Cataclysm B02 Blue (White Glow)
+					i(64351),	-- Monster - Staff, Cataclysm C 01 Red
+					i(68040),	-- Monster - Staff, GrimBatolRaid_D_02 Purple
+				}),
+
+				-- 4.1.0
+				expansion(EXPANSION.CATA, patch(1,0), {
+					i(68821),	-- Monster - Staff (Venoxis 4.x)
+					i(69046),	-- Monster - Staff, Crooked (1h)
+					i(69208),	-- Monster - Staff (Cauldron-Tender)
+					i(69642),	-- Monster - Staff, Outland Raid D06, Blue (yellow glow)
+				}),
+
+				-- 4.2.0
+				expansion(EXPANSION.CATA, patch(2,0), {
+					i(70691),	-- Monster - Staff 2H, Firelands Raid D_04 (Orange)
+					i(71732),	-- Monster - Staff - 2H Crystal - Ethereal, White (Purple Glow)
+				}),
+
+				-- 4.3.0
+				expansion(EXPANSION.CATA, patch(3,0), {
+					i(72253),	-- Monster - Staff, DeathwingRaidDW D 01 -  Default
+					i(72254),	-- Monster - Staff, DeathwingRaidDW D 01 -  Blue
+					i(72255),	-- Monster - Staff, DeathwingRaidDW D 01 - Purple
+					i(72256),	-- Monster - Staff, DeathwingRaidDW D 01 - Green
+					i(72257),	-- Monster - Staff, DeathwingRaidDW D 01 - Red
+					i(72481),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - Green
+					i(72482),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - Grey
+					i(72483),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - Purple
+					i(72484),	-- Monster - Staff, 2H PVPCataclysmS3 C 03 - White
+					i(73361),	-- Monster - Staff, 2H 430Future C 01 - Default
+					i(73362),	-- Monster - Staff, 2H 430Future C 01 - Blue
+					i(73363),	-- Monster - Staff, 2H 430Future C 01 - Purple
+					i(73364),	-- Monster - Staff, 2H 430Future C 01 - Red
+					i(75262),	-- Monster - Staff, Holy Staff Archbishop Benedictus (Twilight)
+					i(75265),	-- Monster - Stave_2h_PVPCataclysmS3_C_01 - Blue
+					i(75266),	-- Monster - Stave_2h_PVPCataclysmS3_C_01 - Green
+					i(75267),	-- Monster - Stave_2h_PVPCataclysmS3_C_01 - Red
+					i(76163),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Blue
+					i(76164),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Green
+					i(76165),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Orange
+					i(76166),	-- Monster - Stave_2h_DeathwingRaid_D_01 -  Purple
+					i(76271),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Default
+					i(76272),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Blue
+					i(76273),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Green
+					i(76274),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Purple
+					i(76363),	-- Monster - Staff, Dalaran Blue (Frost)
+					i(76364),	-- Monster - Staff, Dalaran (Fire)
+					i(76369),	-- Monster - Staff, Cataclysm C 01 Green (Purple Glow)
+					i(76410),	-- Monster - Stave_2h_430NightElf_C_01 - Green
+					i(76411),	-- Monster - Stave_2h_430NightElf_C_01 - Purple
+					i(76412),	-- Monster - Stave_2h_430NightElf_C_01 - Red
+					i(76413),	-- Monster - Stave_2h_430NightElf_C_01 - Teal
+					i(77404),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Default
+					i(77405),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Blue
+					i(77406),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Green
+					i(77407),	-- Monster - Staff_2h_PVPCataclysmS3_C_02 - Purple
+					i(78360),	-- Monster - Stave_2h_DeathwingRaid_D_03 - Purple - Deathfrost
 				}),
 			}),
 			expansion(EXPANSION.MOP, {
 				-- 5.0.1
 				expansion(EXPANSION.MOP, patch(0,1), {
-					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
-					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
-					i(79720),	-- Monster - Staff, Panda A01
-					i(79721),	-- Monster - Staff, Panda A01 - Blue
-					i(79722),	-- Monster - Staff, Panda A01 - Green
-					i(79723),	-- Monster - Staff, Panda A01 - Purple
-					i(79716),	-- Monster - Staff, Panda B01 - Blue
-					i(79717),	-- Monster - Staff, Panda B01 - Gold
-					i(79718),	-- Monster - Staff, Panda B01 - Jade
-					i(79719),	-- Monster - Staff, Panda B01 - Red
 					i(77358),	-- Monster - Stave_2h_PanStart_A_01 - Blue
 					i(77357),	-- Monster - Stave_2h_PanStart_A_01 - Default
 					i(77359),	-- Monster - Stave_2h_PanStart_A_01 - Green
 					i(77360),	-- Monster - Stave_2h_PanStart_A_01 - Purple
+					i(79272),	-- Monster - Stave_2h_PanProg_B_01 - Jade
+					i(79273),	-- Monster - Stave_2h_PanProg_B_01 - Blue
+					i(79274),	-- Monster - Stave_2h_PanProg_B_01 - Gold
+					i(79275),	-- Monster - Stave_2h_PanProg_B_01 - Red
+					i(79716),	-- Monster - Staff, Panda B01 - Blue
+					i(79717),	-- Monster - Staff, Panda B01 - Gold
+					i(79718),	-- Monster - Staff, Panda B01 - Jade
+					i(79719),	-- Monster - Staff, Panda B01 - Red
+					i(79720),	-- Monster - Staff, Panda A01
+					i(79721),	-- Monster - Staff, Panda A01 - Blue
+					i(79722),	-- Monster - Staff, Panda A01 - Green
+					i(79723),	-- Monster - Staff, Panda A01 - Purple
 					i(79749),	-- QA Combat Test Agility Staff 3
 					i(79750),	-- QA Combat Test Healer Staff 2
+					i(80278),	-- Monster - Stave_2h_PanProg_B_02 - Blue
+					i(80279),	-- Monster - Stave_2h_PanProg_B_02 - Green
+					i(80280),	-- Monster - Stave_2h_PanProg_B_02 - Purple
+					i(80281),	-- Monster - Stave_2h_PanProg_B_02 - Red
+					i(82771),	-- Monster - Stave_2H_MoguShanVaults_A_01 (baked)
+					i(83394),	-- 5.0 QA PVP Test Caster DPS Staff
+					i(83395),	-- 5.0 QA PVP Test Caster DPS Staff 2
+				}),
+
+				-- 5.0.4
+				expansion(EXPANSION.MOP, patch(0,4), {
+					i(90854),	-- Weapon - Stave_2h_PVPPandariaS2_C_01 - Alliance
+					i(90855),	-- Weapon - Stave_2h_PVPPandariaS2_C_01 - Bronze
+					i(90856),	-- Weapon - Stave_2h_PVPPandariaS2_C_01 - Horde
+					i(90857),	-- Weapon - Stave_2h_PVPPandariaS2_C_01 - Purple
+					i(90864),	-- Weapon - Stave_2h_PVPPandariaS2_C_02 - Alliance
+					i(90865),	-- Weapon - Stave_2h_PVPPandariaS2_C_02 - Horde
+					i(90866),	-- Weapon - Stave_2h_PVPPandariaS2_C_02 - Orange
+					i(90867),	-- Weapon - Stave_2h_PVPPandariaS2_C_02 - Red
+					i(90870),	-- Weapon - Stave_2h_PVPPandariaS2_C_03 - Alliance
+					i(90871),	-- Weapon - Stave_2h_PVPPandariaS2_C_03 - Green
+					i(90872),	-- Weapon - Stave_2h_PVPPandariaS2_C_03 - Horde
+					i(90873),	-- Weapon - Stave_2h_PVPPandariaS2_C_03 - Red
+				}),
+
+				-- 5.1.0
+				expansion(EXPANSION.MOP, patch(1,0), {
+					i(91801),	-- Monster - Staff, stave_2h_zulaman_d_02 (Purple)
+				}),
+
+				-- 5.2.0
+				expansion(EXPANSION.MOP, patch(2,0), {
+					i(93238),	-- Weapon - Stave_2h_ThunderIsleRaid_D_01
+					i(93239),	-- Weapon - Stave_2h_ThunderIsleRaid_D_01 - Blue
+					i(93240),	-- Weapon - Stave_2h_ThunderIsleRaid_D_01 - Green
+					i(93241),	-- Weapon - Stave_2h_ThunderIsleRaid_D_01 - Red
+					i(94107),	-- Weapon - Stave_2h_ThunderIsleRaid_D_04 - Gold
+					i(94108),	-- Weapon - Stave_2h_ThunderIsleRaid_D_04 - Gray
+					i(94109),	-- Weapon - Stave_2h_ThunderIsleRaid_D_04 - Green
+					i(94110),	-- Weapon - Stave_2h_ThunderIsleRaid_D_04 - Red
+					i(94132),	-- Weapon - Stave_2h_ThunderIsleRaid_D_03
+					i(94133),	-- Weapon - Stave_2h_ThunderIsleRaid_D_03 - Blue
+					i(94134),	-- Weapon - Stave_2h_ThunderIsleRaid_D_03 - Dark
+					i(94135),	-- Weapon - Stave_2h_ThunderIsleRaid_D_03 - Green
+					i(95604),	-- Weapon - Stave_2h_Thunderisleraid_D_02 - Blue
+					i(95605),	-- Weapon - Stave_2h_Thunderisleraid_D_02 - Green
+					i(95606),	-- Weapon - Stave_2h_Thunderisleraid_D_02 - Red
+					i(95607),	-- Weapon - Stave_2h_Thunderisleraid_D_02 - Yellow
+				}),
+
+				-- 5.4.0
+				expansion(EXPANSION.MOP, patch(4,0), {
+					i(104002),	-- Weapon - Stave_2H_PVPHorde_A_01 - Red UpRes
+					i(104003),	-- Weapon - Stave_2H_PVPHorde_A_01 - Red
+					i(104004),	-- Weapon - Stave_2H_PVPHorde_A_01 - Red Pieces
+					i(104005),	-- Weapon - Stave_2H_PVPHorde_A_01 - Red Pieces UpRes
+					i(104006),	-- Weapon - Stave_2H_PVPHorde_A_01 - Green
+					i(104007),	-- Weapon - Stave_2H_PVPHorde_A_01 - Green Pieces
+					i(104284),	-- Monster - Stave_2H_MoguShanVaults_A_01 (baked) (Lightning)
 				}),
 
 				-- 5.x.x
