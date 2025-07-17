@@ -571,6 +571,13 @@ root(ROOTS.NeverImplemented, {
 					-- #endif
 				}),
 			}),
+			expansion(EXPANSION.TBC, {
+				-- 2.0.3
+				expansion(EXPANSION.TBC, patch(0,3), {
+					i(79734),	-- Hellreaver
+					i(79735),	-- Hellreaver
+				}),
+			}),
 			expansion(EXPANSION.CATA, {
 				-- 4.x.x
 				n(P4xx, {
