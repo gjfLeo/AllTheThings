@@ -51,20 +51,7 @@ local L = {
 		["Cнятие шкур"] = 8613,    -- Skinning        -- Required for RU
 	},
 	
-	NEW_VERSION_FLAVORS = {
-        "because AllTheThings hungers.",
-        "and Invincible will drop |cffffaaaafor sure|r next time.",
-        "or a murloc will scream outside your window tonight.",
-        "because collecting is just hoarding with extra steps.",
-        "and Crieve will help a turtle to make it to the water.",
-        "or your battle pets will unionize.",
-        --[[ Old Ones
-        "or Sylvanas might get another lighter.",
-        "as Alexstrasza is worried about you.",
-        "this was merely a setback.",
-        ", Yes Chef!",
-        "CHAMPYUUN, DE AZURIITE.",--]]
-	},
+	NEW_VERSION_FLAVORS = { "because AllTheThings hungers." },
 	ABBREVIATIONS = {
 		["ALL THE THINGS"] = "ATT",
 		["Expansion Pre"] = "Pre",
@@ -313,16 +300,6 @@ if localeString == "deDE" then
 	do a[key] = value; end
 end
 if localeString == "esES" then
-	L.NEW_VERSION_FLAVORS = {
-		"AllTheThings tiene hambre.",
-		"o le daremos otro mechero a Sylvanas",
-		"Alexstrasza está preocupada por ti",
-		"e Invencible te caerá |cffffaaaasegurísimo|r la próxima vez",
-		"fue solo un mero contratiempo",
-		", Si, Chef",
-		"y Crieve ayudará a una tortuga a llegar al agua.",
-		"ADALIIID, LA AZERITAAA",
-	};
 	L.EXPANSION_DATA[1].lore = "Cuatro años después de la batalla del Monte Hyjal, tensiones entre la Alianza y la Horda empiezan a surgir nuevamente. Con la intención de establecerse en la región árida de Durotar, la nueva Horda de Thrall expande sus miembros, invitando a los no muertos a unirse a orcos, tauren, y trols. Mientras tanto, enanos, gnomos y los ancestrales elfos de la noche prometieron su lealtad a una Alianza revitalizada, guiada por el reino humano de Ventormenta. Después de que el rey de Ventormenta Varian Wrynn misteriosamente desapareciera, el Alto Señor Bolvar Fordragon sirve como Regente pero Su servicio se vio empañado por las manipulaciones y el control mental de Onyxia, quien gobierna disfrazada como una humana de la nobleza. Mientras los héroes investigaban las manipulaciones de Onyxia, antiguos enemigos surgieron en tierras de todo el mundo para amenazar a la Horda y a la Alianza por igual.";
 	L.EXPANSION_DATA[2].lore = "The Burning Crusade es la primera expansión. Sus principales características incluyen un aumento del nivel máximo a 70, la introducción de los elfos de sangre y los draenei como razas jugables, y la incorporación del mundo de Terrallende, junto con varias zonas, mazmorras, objetos, misiones y monstruos nuevos.";
 	L.EXPANSION_DATA[3].lore = "Wrath of the Lich King es la segunda expansión. La mayor parte del contenido de la expansión se desarrolla en Rasganorte y se centra en los planes del Rey Exánime. Entre sus contenidos más destacados se incluyen el aumento del límite de nivel de 70 a 80, la introducción de la clase de héroe caballero de la Muerte y nuevo contenido JcJ/JcJ en el mundo.";
@@ -367,17 +344,6 @@ if localeString == "esES" then
 	do a[key] = value; end
 	
 	if localeString == "esMX" then
-		L.NEW_VERSION_FLAVORS = {
-			"AllTheThings tiene hambre.",
-			"o le daremos otro encendedor a Sylvanas",
-			"Alexstrasza está preocupada por ti",
-			"e Invencible te caerá |cffffaaaasegurísimo|r la próxima vez",
-			"fue solo un mero contratiempo",
-			", Si, Chef",
-			"y Crieve ayudará a una tortuga a llegar al agua.",
-			"ADALIIID, LA AZERITAAA",
-		};
-		
 		L.EXPANSION_DATA[1].lore = "Cuatro años después de la batalla del Monte Hyjal, tensiones entre la Alianza y la Horda empiezan a surgir nuevamente. Con la intención de establecerse en la región árida de Durotar, la nueva Horda de Thrall expande sus miembros, invitando a los no muertos a unirse a orcos, tauren, y trols. Mientras tanto, enanos, gnomos y los ancestrales elfos de la noche prometieron su lealtad a una Alianza revitalizada, guiada por el reino humano de Ventormenta. Después de que el rey de Ventormenta Varian Wrynn misteriosamente desapareciera, el Alto Señor Bolvar Fordragon sirve como Regente pero Su servicio se vio empañado por las manipulaciones y el control mental de Onyxia, quien gobierna disfrazada como una humana de la nobleza. Mientras los héroes investigaban las manipulaciones de Onyxia, antiguos enemigos surgieron en tierras de todo el mundo para amenazar a la Horda y a la Alianza por igual.";
 		L.EXPANSION_DATA[2].lore = "The Burning Crusade es la primera expansión. Sus principales características incluyen un aumento del nivel máximo a 70, la introducción de los elfos de sangre y los draenei como razas jugables, y la incorporación del mundo de Terrallende, junto con varias zonas, calabozos, objetos, misiones y monstruos nuevos.";
 		L.EXPANSION_DATA[3].lore = "Wrath of the Lich King es la segunda expansión. La mayor parte del contenido de la expansión se desarrolla en Rasganorte y se centra en los planes del Rey Exánime. Entre sus contenidos más destacados se incluyen el aumento del límite de nivel de 70 a 80, la introducción de la clase de héroe caballero de la Muerte y nuevo contenido JcJ/JcJ en el mundo.";
@@ -499,17 +465,6 @@ if localeString == "ptBR" then
 	do a[key] = value; end
 end
 if localeString == "ruRU" then
-	L.NEW_VERSION_FLAVORS = {
-		--TODO: "AllTheThings hungers.",
-		"или мы дадим Сильване ещё одну зажигалку",
-		"Алекстраза беспокоится о Вас",
-		"и Непобедимый |cffffaaaaточно|r дропнет в следующий раз",
-		"это была всего лишь мелкая помеха",
-		--TODO:	", Yes Chef!",
-		--TODO:	"and Crieve will help a turtle to make it to the water.",
-		--TODO:	"CHAMPYUUN, DE AZURIITE.",
-	};
-
 	L.EXPANSION_DATA[1].name = "Classic";
 	L.EXPANSION_DATA[1].lore = "Полный решимости заселить засушливые земли Дуротара, Тралл позволил Отрекшимся присоединиться к Орде, состоявшей из орков, тауренов и троллей. В то же время дворфы, гномы и древние ночные эльфы присягнули Альянсу, управляемому королевством людей. После таинственного исчезновения короля Штормграда Вариана Ринна, регентом был назначен Верховный лорд Болвар Фордрагон, но истинная власть находилась в руках черного дракона Ониксии, скрывавшейся под личиной дворянки и подчинившей Фордрагона своей воле. По мере того как герои узнавали новые подробности страшного заговора, во всех концах мира пробуждались древние силы, представлявшие угрозу как для Альянса, так и для Орды.";
 	L.EXPANSION_DATA[2].lore = "Владыка Судеб Каззак вновь открыл Темный портал в Запределье, из которого в Азерот хлынули кровожадные демоны Пылающего Легиона. Эльфы крови и дренеи присоединились к экспедиционным силам Альянса и Орды, которые отправились через портал в самое сердце Запределья, чтобы нанести поражение демонам прямо в их логове. На испепеленном Полуострове Адского Пламени в Запределье герои Альянса обнаружили нескольких своих соплеменников, которые давным-давно прошли через портал. В это же время воины Орды встретились с «неоскверненными» орками из племени Маг'хар, которые не участвовали во вторжении на Азерот. В ходе кампании в Запределье союзные войска все больше увязали в конфликте с Легионом и подручными Иллидана Ярости Бури, который распространил свое влияние на все уголки разрушенного мира.";
@@ -557,17 +512,6 @@ if localeString == "koKR" then
 	do a[key] = value; end
 end
 if localeString == "zhCN" or localeString == "zhTW" then
-	L.NEW_VERSION_FLAVORS = {
-		--TODO: "AllTheThings hungers.",
-		"不然希尔瓦娜斯要拿到另一个打火机了。",
-		"阿莱克丝塔萨很担心你。",
-		"下次|cffffaaaa一定|r出无敌！",
-		"这只是一个小挫折。",
-		"是，大厨！",
-		--TODO: "and Crieve will help a turtle to make it to the water.",
-		"艾泽拉斯的勇士。",
-	};
-	
 	L.EXPANSION_DATA[1].lore = "海加尔山之战的四年后，联盟和部落之间的关系又一次紧张了起来。为了能在贫瘠之地杜隆塔尔立足，萨尔邀请亡灵被遗忘者加入到兽人、牛头人和巨魔中，以扩大他的部落。与此同时，在另一边矮人、侏儒和古暗夜精灵则发誓它们将效忠人类暴风城王国所领导的新的联盟。当暴风城的国王瓦里安·乌瑞恩神秘消失之后，领主伯瓦尔·弗塔根担任摄政王，但是伯瓦尔的所做的一切被伪装成人类贵妇的黑龙奥尼克希亚通过意识控制所破坏。当英雄们正在研究对抗奥克尼希亚的手法时，古代的敌人出现在大陆上，并威胁着部落和联盟的生存。";
 	L.EXPANSION_DATA[2].lore = "燃烧的远征是第一个资料片。它的主要内容包括将等级上限提高到70，将血精灵和德莱尼作为可玩的种族引入，以及外域世界的加入，以及许多新区域、地下城、物品、任务和怪物。";
 	L.EXPANSION_DATA[3].lore = "巫妖王之怒是第二个资料片。大部分资料片内容都发生在诺森德，并以巫妖王的计划为中心。内容亮点包括将等级上限从70增加到80，引入英雄职业死亡骑士，以及新的 PvP/世界 PvP 内容。";
@@ -595,17 +539,6 @@ if localeString == "zhCN" or localeString == "zhTW" then
 	do a[key] = value; end
 	
 	if localeString == "zhTW" then
-		L.NEW_VERSION_FLAVORS = {
-			--TODO: "AllTheThings hungers.",
-			"要不我們給希爾瓦娜斯另一把火炬",
-			"雅立史卓莎很擔心你",
-			"無敵下次|cffffaaaa|肯定|r會掉落",
-			"這只是一個挫折",
-			--TODO:	", Yes Chef!",
-			--TODO:	"and Crieve will help a turtle to make it to the water.",
-			"艾澤拉斯的勇士",
-		};
-
 		L.EXPANSION_DATA[1].lore = "海加爾山之戰的四年後，聯盟和部落之間的關係又一次緊張了起來。在貧瘠之地杜洛塔，由索爾所領導的部落安頓定居下來並繼續擴充軍隊的規模，他們邀請被遺忘者加入獸人、牛頭人和食人妖的行列。同時，矮人、地精和古老的夜精靈也發誓效忠由人類王國暴風城所領導的聯盟。在暴風城國王瓦里安·烏瑞恩神秘失蹤後，大領主伯瓦爾‧弗塔根擔任攝政王一職，但是偽裝成人類女貴族的黑龍軍團的奧妮克希亞控制他的心智，從幕後操控整個王國。正當英雄們探查奧妮克希亞的陰謀時，古老的強敵卻現身世界各地，威脅著部落和聯盟。";
 		L.EXPANSION_DATA[2].lore = "燃燒的遠征是第一個資料片。它的主要內容包括將等級上限提高到70，將血精靈和德萊尼作為可玩的種族引入，以及外域世界的加入，以及許多新區域、地城、物品、任務和怪物。";
 		L.EXPANSION_DATA[3].lore = "巫妖王之怒是第二個資料片。大部分資料片內容都發生在諾森德，並以巫妖王的計劃為中心。內容亮點包括將等級上限從70增加到80，引入英雄職業死亡騎士，以及新的 PvP/世界 PvP 內容。";
