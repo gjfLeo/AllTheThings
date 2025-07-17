@@ -52,14 +52,18 @@ local L = {
 	},
 	
 	NEW_VERSION_FLAVORS = {
-		"AllTheThings hungers.",
-		"or Sylvanas might get another lighter.",
-		"as Alexstrasza is worried about you.",
-		"and Invincible will drop |cffffaaaafor sure|r next time.",
-		"this was merely a setback.",
-		", Yes Chef!",
-		"and Crieve will help a turtle to make it to the water.",
-		"CHAMPYUUN, DE AZURIITE.",
+        "because AllTheThings hungers.",
+        "and Invincible will drop |cffffaaaafor sure|r next time.",
+        "or a murloc will scream outside your window tonight.",
+        "because collecting is just hoarding with extra steps.",
+        "and Crieve will help a turtle to make it to the water.",
+        "or your battle pets will unionize.",
+        --[[ Old Ones
+        "or Sylvanas might get another lighter.",
+        "as Alexstrasza is worried about you.",
+        "this was merely a setback.",
+        ", Yes Chef!",
+        "CHAMPYUUN, DE AZURIITE.",--]]
 	},
 	ABBREVIATIONS = {
 		["ALL THE THINGS"] = "ATT",
