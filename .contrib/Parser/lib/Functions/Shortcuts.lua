@@ -1737,6 +1737,13 @@ TempForceMisc = function(t)
 	return t
 end
 
+-- Create a String.
+(function()
+createLocalizationString = function(data)
+	-- TODO
+end
+end)();
+
 -- Create a Header. Returns a UNIQUE ID, starting at 0.
 (function()
 if not NextHeaderID then

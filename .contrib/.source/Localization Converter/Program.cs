@@ -1,0 +1,215 @@
+﻿using Newtonsoft.Json.Linq;
+using System.Collections.Immutable;
+using System.Text;
+
+internal class Program
+{
+    private static Dictionary<string, string> LocalizeRemapper = new()
+    {
+        { "Default Locale", "en" }
+    };
+
+    private static Dictionary<string, string> GlobalStrings = new();
+
+    static void AppendLocalePair(StringBuilder builder, string enValue, Dictionary<string, string> locales, string key)
+    {
+        if (locales.TryGetValue(key, out string? value)) AppendLocalePair(builder, enValue, key, value);
+        else AppendLocalePairPlaceholder(builder, enValue, key);
+    }
+    static void AppendLocalePair(StringBuilder builder, string enValue, Dictionary<string, string> locales, string key, string subKey)
+    {
+        if (locales.TryGetValue(key, out string? value))
+        {
+            AppendLocalePair(builder, enValue, key, value);
+            if (locales.TryGetValue(subKey, out string? subValue))
+            {
+                if (value != subValue) AppendLocalePair(builder, enValue, subKey, subValue);
+                else AppendLocalePairPlaceholder(builder, enValue, subKey);
+            }
+            else AppendLocalePairPlaceholder(builder, enValue, subKey);
+        }
+        else
+        {
+            AppendLocalePairPlaceholder(builder, enValue, key);
+            AppendLocalePairPlaceholder(builder, enValue, subKey);
+        }
+    }
+
+    static void AppendLocalePair(StringBuilder builder, string key, string value)
+    {
+        builder.Append("\t\t").Append(key).Append(" = ");
+        if (value.StartsWith('[')) builder.Append(value).AppendLine(",");
+        else builder.AppendLine($"\"{value.Replace("\"", "\\\"")}\",");
+    }
+
+    static void AppendLocalePair(StringBuilder builder, string enValue, string key, string value)
+    {
+        if (value != enValue) AppendLocalePair(builder, key, value);
+    }
+
+    static void AppendLocalePairPlaceholder(StringBuilder builder, string enValue, string key)
+    {
+        if (!enValue.StartsWith('[')) builder.Append("\t\t-- TODO: ").Append(key).AppendLine(" = \"\",");
+    }
+
+    private static void Main(string[] args)
+    {
+        Console.OutputEncoding = Encoding.UTF8;
+
+        // Import GlobalStrings
+        foreach (var line in File.ReadLines("../GlobalStrings.lua"))
+        {
+            string trimmedLine = line.Trim();
+            if (trimmedLine.StartsWith('-')) continue;      // Ignore comments
+            string[] splitString = trimmedLine.Split('=');
+            if (splitString.Length == 1) continue;          // Ignore lines without assignments
+            string variableName = splitString[0].Trim().ToUpper();    // Simplify the Variable Name
+            if (variableName.StartsWith("_G[\"")) variableName = variableName.Substring(4, variableName.Length - 7);
+            string localeData = splitString[1].Trim();
+            /*
+            Console.Write(variableName);
+            Console.Write(" = ");
+            Console.WriteLine(localeData);
+            */
+            GlobalStrings[variableName] = localeData.Substring(1, localeData.Length - 3);
+        }
+
+        // Parse the Locale files
+        Dictionary<string, Dictionary<string, string>> LocalizationStrings = [];
+        Console.WriteLine("PARSING LOCALE FILES...");
+        foreach (var localeFile in Directory.EnumerateFiles("../../locales/", "*.lua"))
+        {
+            Console.WriteLine(localeFile);
+
+            // Remap the locale referenced by the locale files based on the remapper.
+            string locale = Path.GetFileNameWithoutExtension(localeFile);
+            if (LocalizeRemapper.TryGetValue(locale, out string? remappedLocale)) locale = remappedLocale;
+
+            // Parse each of the files.
+            var lines = File.ReadAllLines(localeFile);
+            for (int lineIndex = 0; lineIndex < lines.Length; ++lineIndex)
+            {
+                string line = lines[lineIndex];
+                string trimmedLine = line.Trim();
+                if (trimmedLine.StartsWith('-')) continue;      // Ignore comments
+                string[] splitString = trimmedLine.Split('=');
+                if (splitString.Length == 1) continue;          // Ignore lines without assignments
+                string variableName = splitString[0].Trim().ToUpper();    // Simplify the Variable Name
+                if (variableName.Contains(' ')) continue;       // Ignore if-statements.
+                if (variableName.StartsWith("L.")) variableName = variableName[2..];
+                if (variableName.Contains("EXPANSION_DATA")) continue;  // Ignore Expansion Data
+                if (variableName.StartsWith('[')) continue;     // Ignore Array Data (Custom Collects)
+                string localeData = splitString[1].Trim();
+                if (localeData.Length == 0) continue;           // Ignore empty strings
+                localeData = localeData.Split("-- ")[0].Split("--TODO")[0].Trim();
+                //Console.WriteLine(trimmedLine);
+
+
+                if (localeData[0] == '{')   // Is this an array of locale strings?
+                {
+                    for (++lineIndex; lineIndex < lines.Length; ++lineIndex)
+                    {
+                        line = lines[lineIndex];
+                        trimmedLine = line.Trim();
+                        if (trimmedLine.Length == 0) continue;          // Ignore empty strings
+                        if (trimmedLine.StartsWith('-')) continue;      // Ignore comments
+                        trimmedLine = line.Split("-- ")[0].Split("--TODO")[0].Trim();
+                        //Console.WriteLine(trimmedLine);
+                        if (trimmedLine.StartsWith('}'))
+                        {
+                            localeData += "\n\t\t}";
+                            break;
+                        }
+                        else localeData += "\n\t\t\t" + trimmedLine;
+                    }
+                }
+
+                // Clean up the locale data
+                if (localeData.EndsWith(';')) localeData = localeData[..^1];
+                localeData = localeData.Replace("..", " .. ").Replace(". .", "..").Replace("  ..  ", " .. ").Replace("app.", "_.");
+                if (localeData.StartsWith('{') || !localeData.Contains('"')) localeData = $"[[~{localeData}]]";
+                else if (localeData.StartsWith('"') && localeData.EndsWith('"'))
+                {
+                    localeData = localeData[1..^1];
+                    if (localeData.EndsWith(" .. ")) localeData = localeData[..^4] + ".";
+                }
+                else if (localeData.Contains(" .. ")) localeData = $"[[~{localeData}]]";
+                while (localeData.Contains("\\\"")) localeData = localeData.Replace("\\\"", "\"");
+
+                /*
+                Console.Write(locale);
+                Console.Write(": ");
+                Console.Write(variableName);
+                Console.Write(" = ");
+                Console.Write(localeData);
+                Console.ReadLine();
+                */
+
+                // Attempt to record the localization string for the variable name constant to the localization strings table.
+                if (!LocalizationStrings.TryGetValue(variableName, out Dictionary<string, string>? stringsByLocale))
+                {
+                    LocalizationStrings[variableName] = stringsByLocale = [];
+                }
+                stringsByLocale[locale] = localeData;
+            }
+        }
+
+
+        File.WriteAllText("Localization Strings.lua", Newtonsoft.Json.JsonConvert.SerializeObject(LocalizationStrings, Newtonsoft.Json.Formatting.Indented));
+        Console.WriteLine("All done!");
+
+        DirectoryInfo StringsDirectory = Directory.CreateDirectory("../Parser/lib/Strings");
+        Dictionary<string, Dictionary<string, string>> BrokenStrings = [];
+        foreach (var localizationStringPair in LocalizationStrings)
+        {
+            // Check to see if this localization string has an en key.
+            var key = localizationStringPair.Key;
+            var locales = localizationStringPair.Value;
+            if (locales.TryGetValue("en", out string? enString) && !(key.Contains('[') || key.Contains('.')))
+            {
+                StringBuilder builder = new(); builder.AppendLine("createLocalizationString({");
+                string readable = enString;
+                if (readable.StartsWith('['))
+                {
+                    // Try to acquire global strings if it is possible.
+                    if(GlobalStrings.TryGetValue(readable.Substring(3, readable.Length - 5), out string? globalString))
+                    {
+                        readable = globalString;
+                    }
+                    else
+                    {
+                        // FAILED!
+                        Console.WriteLine("Failed to find GlobalString");
+                        Console.Write(" ");
+                        Console.WriteLine(readable);
+                    }
+                }
+                builder.Append("\treadable = \"").Append(readable).AppendLine("\",");
+                builder.Append("\tconstant = \"").Append(key).AppendLine("\",");
+                builder.AppendLine("\texport = true,"); // Export all keys until determined otherwise
+                builder.AppendLine("\ttext = {");
+
+                // Write the locale key assignments
+                AppendLocalePair(builder, "en", enString);  // Write en first every time. 'Merica!
+                AppendLocalePair(builder, enString, locales, "de");
+                AppendLocalePair(builder, enString, locales, "es", "mx");
+                AppendLocalePair(builder, enString, locales, "fr");
+                AppendLocalePair(builder, enString, locales, "it");
+                AppendLocalePair(builder, enString, locales, "pt");
+                AppendLocalePair(builder, enString, locales, "ru");
+                AppendLocalePair(builder, enString, locales, "ko");
+                AppendLocalePair(builder, enString, locales, "cn", "tw");
+
+                File.WriteAllText($"{StringsDirectory.FullName}/{localizationStringPair.Key}.lua", builder.AppendLine("\t},").Append("})").ToString());
+            }
+            else
+            {
+                BrokenStrings[key] = locales;
+            }
+        }
+        if (BrokenStrings.Any())
+        {
+            File.WriteAllText($"{StringsDirectory.FullName}/__BROKEN_STRINGS.lua", Newtonsoft.Json.JsonConvert.SerializeObject(BrokenStrings));
+        }
+    }
+}
