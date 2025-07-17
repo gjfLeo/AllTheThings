@@ -1030,7 +1030,7 @@ local InformationTypes = {
 		end,
 	}),
 	CreateInformationType("criteriaID", { text = "Criteria ID" }),
-	CreateInformationType("currencyID", { text = "Currency ID" }),
+	CreateInformationType("currencyID", { text = L.CURRENCY_ID }),
 	CreateInformationType("difficultyID", { text = L.DIFFICULTY_ID }),
 	CreateInformationType("displayID", { text = L.DISPLAY_ID }),
 	CreateInformationType("encounterID", { text = L.ENCOUNTER_ID }),
