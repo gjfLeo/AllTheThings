@@ -1739,8 +1739,77 @@ end
 
 -- Create a String.
 (function()
+local localizationStringsByConstant = {};
+LocalizationStrings = localizationStringsByConstant;	-- This is global, so that it can be found by Parser!
+function isTextProgrammatic(str)
+	return str:sub(1, 1) == '~';
+end
 createLocalizationString = function(data)
-	-- TODO
+	if not data then
+		print("INVALID LOCALIZATION STRING: You must pass data into the createLocalizationString function.");
+	elseif not data.constant then
+		print("INVALID LOCALIZATION STRING (missing 'constant')", data.readable);
+	elseif localizationStringsByConstant[data.constant] then
+		error("ERROR: LOCALIZATION STRING CONSTANT " .. data.constant .. " ALREADY ASSIGNED TO " .. localizationStringsByConstant[data.constant].readable .. ". Please double check that the localization definitions are unique or reuse the same localization.");
+	else
+		local textData = data.text;
+		if (not (textData and (type(textData) == "string" or (type(textData) == "table" and textData.en)))) and not data.icon then
+			print("INVALID LOCALIZATION STRING", data.readable, textData);
+		else
+			localizationStringsByConstant[data.constant] = data;
+			
+			-- Build the text using icon and color, if supplied.
+			if data.color then
+				-- Include the color first!
+				if isTextProgrammatic(data.color) then
+					for key,value in pairs(textData) do
+						if isTextProgrammatic(value) then
+							textData[key] = "~\"|c\" .. " .. data.color:sub(2) .. " .. " .. value:sub(2) .. " .. \"|r\"";
+						else
+							textData[key] = "~\"|c\" .. " .. data.color:sub(2) .. " .. \"" .. value .. "|r\"";
+						end
+					end
+				else
+					-- Simple color prefixing
+					for key,value in pairs(textData) do
+						if isTextProgrammatic(value) then
+							textData[key] = "~\"|c" .. data.color .. "\" .. " .. value:sub(2) .. " .. \"|r\"";
+						else
+							textData[key] = "|c" .. data.color .. value .. "|r";
+						end
+					end
+				end
+			end
+			if data.icon then
+				-- Prefix the string with the texture.
+				if isTextProgrammatic(data.icon) then
+					for key,value in pairs(textData) do
+						if value == "" then
+							textData[key] = "~\"|T\" .. " .. data.icon:sub(2) .. " .. \":0|t\"";
+						elseif isTextProgrammatic(value) then
+							textData[key] = "~\"|T\" .. " .. data.icon:sub(2) .. " .. \":0|t \" .. " .. value:sub(2);
+						else
+							textData[key] = "~\"|T\" .. " .. data.icon:sub(2) .. " .. \":0|t " .. value .. "\"";
+						end
+					end
+				else
+					-- Simple texture prefixing (this is very infrequent)
+					for key,value in pairs(textData) do
+						if value == "" then
+							textData[key] = "|T" .. data.icon .. ":0|t";
+						elseif isTextProgrammatic(value) then
+							textData[key] = "~\"|T" .. data.icon .. ":0|t \" .. " .. value:sub(2);
+						else
+							textData[key] = "|T" .. data.icon .. ":0|t " .. value;
+						end
+					end
+				end
+			end
+			for key,value in pairs(textData) do
+				textData[key] = textData[key]:gsub("\" .. \"", "");
+			end
+		end
+	end
 end
 end)();
 

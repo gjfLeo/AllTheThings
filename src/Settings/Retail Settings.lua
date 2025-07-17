@@ -1,5 +1,5 @@
 local appName, app = ...;
-local L = app.L.SETTINGS_MENU;
+local L = app.L;
 local settings = app.Settings;
 
 -- Settings Class
@@ -742,7 +742,7 @@ settings.GetShortModeString = function(self)
 		end
 		-- Waiting on Refresh to properly show values
 		if self.NeedsRefresh then
-			style = "R:" .. " " .. style
+			style = "R: " .. style
 		end
 		if self:Get("Completionist") then
 			if app.MODE_ACCOUNT then
