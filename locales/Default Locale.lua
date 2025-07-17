@@ -51,109 +51,7 @@ local L = {
 		["Cнятие шкур"] = 8613,    -- Skinning        -- Required for RU
 	},
 	
-	NEW_VERSION_FLAVORS = { "because AllTheThings hungers." },
-	ABBREVIATIONS = {
-		["ALL THE THINGS"] = "ATT",
-		["Expansion Pre"] = "Pre",
-		["Expansion Features"] = "EF",
-		[GROUP_FINDER] = "D&R",
-		["Dungeons & Raids"] = "D&R",
-		["Player vs Player"] = STAT_CATEGORY_PVP,
-		["Player vs. Player"] = STAT_CATEGORY_PVP,
-		["Outdoor Zones"] = LFG_TYPE_ZONE,
-		-- Expansion sorted
-		["Classic %> "] = "",
-		["The Burning Crusade"] = "BC",
-		["Burning Crusade"] = "BC",
-		["The BC"] = "BC",
-		["Wrath of the Lich King"] = "WotLK",
-		["Cataclysm %>"] = "Cata >",
-		["Cataclysm "] = "Cata ",
-		["Mists of Pandaria"] = "MoP",
-		["Warlords of Draenor"] = "WoD",
-		["Battle for Azeroth"] = "BFA",
-		["The Shadowlands"] = "SL",
-		["Shadowlands"] = "SL",
-		["Dragonflight"] = "DF",
-		["The War Within"] = "TWW",
-		-- Dungeon & Raid
-		["Normal"] = "N",
-		["Heroic"] = "H",
-		["Mythic"] = "M",
-		["M Keystone"] = "M+",
-		["Raid Finder"] = "LFR",
-		["Looking For Raid"] = "LFR",
-		["10 Player"] = "10M",
-		["10 Player (Heroic)"] = "10M (H)",
-		["25 Player"] = "25M",
-		["25 Player (Heroic)"] = "25M (H)",
-		[BATTLEGROUNDS] = "BGs",
-		-- Dungeon & Raid Names
-		-- Classic
-		["Scarlet Monastery of Old"] = "SM: Old",
-		-- Cata
-		["Baleroc, the Gatekeeper"] = "Baleroc",
-		["The Conclave of Wind"] = "Conclave",
-		["Hagara the Stormbinder"] = "Hagara",
-		["Majordomo Staghelm"] = "Majordomo",
-		["Omnotron Defense System"] = "Omnotron",
-		["Theralion and Valiona"] = "Theralion&Valiona",
-		["Yor'sahj the Unsleeping"] = "Yor'sahj",
-		-- DF
-		["Aberrus, the Shadowed Crucible"] = "Aberrus",
-		["Antorus, the Burning Throne"] = "Antorus",
-		["Amirdrassil, the Dream's Hope"] = "Amirdrassil",
-		["Kazzara, the Hellforged"] = "Kazzara",
-		["Larodar, Keeper of the Flame"] = "Larodar",
-		["Nymue, Weaver of the Cycle"] = "Nymue",
-		["Tindral Sageswift, Seer of the Flame"] = "Tindral Sageswift",
-		-- Legion
-		["Il'gynoth, The Heart of Corruption"] = "Il'gynoth",
-		-- BFA
-		["Ny'alotha, the Waking City"] = "Ny'alotha",
-		-- SL
-		["Tazavesh, the Veiled Market"] = "Tazavesh",
-		-- TWW
-		["Ara-Kara, City of Echoes"] = "Ara-Kara",
-		["Enterprising Hero: The War Within Season Two"] = "Enterprising Hero: TWW S2",
-		["The War Within Keystone Legend: SeasonTwo"] = "TWW Keystone Legend: S2",
-		["Mug'Zee, Heads of Security"] = "Mug'Zee",
-		["Sikran, Captain of the Sureki"] = "Sikran",
-		["Vexie and the Geargrinders"] = "Vexie & the Geargrinders",
-		-- Outdoor Zones
-		["Quartermaster Miranda Breechlock"] = "Quartermaster Miranda",
-		["Season "] = "S",
-		["Sanctum Upgrades %> "] = "",
-		["The Azure Span"] = "Azure Span",
-		["The Forbidden Reach"] = "Forbidden Reach",
-		["The Superbloom"] = "Superbloom",
-		["The Waking Shores"] = "Waking Shores",
-		["The Primalist Future"] = "Primalist Future",
-		["The Storm's Fury"] = "Storm's Fury",
-		["WoW Anniversary"] = "Anniversary",
-		["Dragonriding Challenge: Dragon Isles: Gold > "] = "",
-		["Dragon Racing Completionist: Gold > "] = "",
-		["Emerald Dream Challenge Racing Completionist: Gold > "] = "",
-		["Emerald Dream Racing Completionist: Gold > "] = "",
-		["Forbidden Reach Challenge Racing Completionist: Gold > "] = "",
-		["Forbidden Reach Racing Completionist: Gold > "] = "",
-		["Zaralek Cavern Racing Completionist: Gold > "] = "",
-
-		["WoW's Anniversary %> "] = "",
-		[BLACK_MARKET_AUCTION_HOUSE] = "BMAH",
-		["Emissary Quests"] = "Emissary",
-		["Item Sets"] = WARDROBE_SETS,
-		["Zone Wide"] = LFG_TYPE_ZONE,
-		["Mini World Events"] = "Mini",
-		["Monthly World Events"] = CALENDAR_REPEAT_MONTHLY,
-		[TRACKER_HEADER_WORLD_QUESTS] = "WQ",
-		["Weekly World Events"] = CALENDAR_REPEAT_WEEKLY,
-		["Covenant:"] = "Cov:",
-		[CLASS.." %> "] = "",
-
-		["Pet Journal"] = PETS,
-		["Toy Box"] = TOY,
-	},
+	
 	EXPANSION_DATA = {
 		{	-- Classic
 			["icon"] = app.asset("Expansion_CLASSIC"),
@@ -208,7 +106,6 @@ local L = {
 			["lore"] = "The Last Titan is the twelfth expansion for World of Warcraft and the final installment of the Worldsoul Saga.",
 		},
 	},
-	
 	UNOBTAINABLE_ITEM_TEXTURES = {
 		[0] = 374225,	-- 0 Available, but not due to Current Character filters
 		app.asset("status-unobtainable"),	-- 1
@@ -240,6 +137,111 @@ local L = {
 };
 app.L = L;
 
+-- Abbreviations are used to reduce the length of the source locations
+local ABBREVIATIONS = {
+	["ALL THE THINGS"] = "ATT",
+	["Expansion Pre"] = "Pre",
+	["Expansion Features"] = "EF",
+	[GROUP_FINDER] = "D&R",
+	["Dungeons & Raids"] = "D&R",
+	["Player vs Player"] = STAT_CATEGORY_PVP,
+	["Player vs. Player"] = STAT_CATEGORY_PVP,
+	["Outdoor Zones"] = LFG_TYPE_ZONE,
+	-- Expansion sorted
+	["Classic %> "] = "",
+	["The Burning Crusade"] = "BC",
+	["Burning Crusade"] = "BC",
+	["The BC"] = "BC",
+	["Wrath of the Lich King"] = "WotLK",
+	["Cataclysm %>"] = "Cata >",
+	["Cataclysm "] = "Cata ",
+	["Mists of Pandaria"] = "MoP",
+	["Warlords of Draenor"] = "WoD",
+	["Battle for Azeroth"] = "BFA",
+	["The Shadowlands"] = "SL",
+	["Shadowlands"] = "SL",
+	["Dragonflight"] = "DF",
+	["The War Within"] = "TWW",
+	-- Dungeon & Raid
+	["Normal"] = "N",
+	["Heroic"] = "H",
+	["Mythic"] = "M",
+	["M Keystone"] = "M+",
+	["Raid Finder"] = "LFR",
+	["Looking For Raid"] = "LFR",
+	["10 Player"] = "10M",
+	["10 Player (Heroic)"] = "10M (H)",
+	["25 Player"] = "25M",
+	["25 Player (Heroic)"] = "25M (H)",
+	[BATTLEGROUNDS] = "BGs",
+	-- Dungeon & Raid Names
+	-- Classic
+	["Scarlet Monastery of Old"] = "SM: Old",
+	-- Cata
+	["Baleroc, the Gatekeeper"] = "Baleroc",
+	["The Conclave of Wind"] = "Conclave",
+	["Hagara the Stormbinder"] = "Hagara",
+	["Majordomo Staghelm"] = "Majordomo",
+	["Omnotron Defense System"] = "Omnotron",
+	["Theralion and Valiona"] = "Theralion&Valiona",
+	["Yor'sahj the Unsleeping"] = "Yor'sahj",
+	-- DF
+	["Aberrus, the Shadowed Crucible"] = "Aberrus",
+	["Antorus, the Burning Throne"] = "Antorus",
+	["Amirdrassil, the Dream's Hope"] = "Amirdrassil",
+	["Kazzara, the Hellforged"] = "Kazzara",
+	["Larodar, Keeper of the Flame"] = "Larodar",
+	["Nymue, Weaver of the Cycle"] = "Nymue",
+	["Tindral Sageswift, Seer of the Flame"] = "Tindral Sageswift",
+	-- Legion
+	["Il'gynoth, The Heart of Corruption"] = "Il'gynoth",
+	-- BFA
+	["Ny'alotha, the Waking City"] = "Ny'alotha",
+	-- SL
+	["Tazavesh, the Veiled Market"] = "Tazavesh",
+	-- TWW
+	["Ara-Kara, City of Echoes"] = "Ara-Kara",
+	["Enterprising Hero: The War Within Season Two"] = "Enterprising Hero: TWW S2",
+	["The War Within Keystone Legend: SeasonTwo"] = "TWW Keystone Legend: S2",
+	["Mug'Zee, Heads of Security"] = "Mug'Zee",
+	["Sikran, Captain of the Sureki"] = "Sikran",
+	["Vexie and the Geargrinders"] = "Vexie & the Geargrinders",
+	-- Outdoor Zones
+	["Quartermaster Miranda Breechlock"] = "Quartermaster Miranda",
+	["Season "] = "S",
+	["Sanctum Upgrades %> "] = "",
+	["The Azure Span"] = "Azure Span",
+	["The Forbidden Reach"] = "Forbidden Reach",
+	["The Superbloom"] = "Superbloom",
+	["The Waking Shores"] = "Waking Shores",
+	["The Primalist Future"] = "Primalist Future",
+	["The Storm's Fury"] = "Storm's Fury",
+	["WoW Anniversary"] = "Anniversary",
+	["Dragonriding Challenge: Dragon Isles: Gold > "] = "",
+	["Dragon Racing Completionist: Gold > "] = "",
+	["Emerald Dream Challenge Racing Completionist: Gold > "] = "",
+	["Emerald Dream Racing Completionist: Gold > "] = "",
+	["Forbidden Reach Challenge Racing Completionist: Gold > "] = "",
+	["Forbidden Reach Racing Completionist: Gold > "] = "",
+	["Zaralek Cavern Racing Completionist: Gold > "] = "",
+
+	["WoW's Anniversary %> "] = "",
+	[BLACK_MARKET_AUCTION_HOUSE] = "BMAH",
+	["Emissary Quests"] = "Emissary",
+	["Item Sets"] = WARDROBE_SETS,
+	["Zone Wide"] = LFG_TYPE_ZONE,
+	["Mini World Events"] = "Mini",
+	["Monthly World Events"] = CALENDAR_REPEAT_MONTHLY,
+	[TRACKER_HEADER_WORLD_QUESTS] = "WQ",
+	["Weekly World Events"] = CALENDAR_REPEAT_WEEKLY,
+	["Covenant:"] = "Cov:",
+	[CLASS.." %> "] = "",
+
+	["Pet Journal"] = PETS,
+	["Toy Box"] = TOY,
+};
+L.ABBREVIATIONS = ABBREVIATIONS;
+
 app.GetCollectionIcon = function(state)
 	return L[(state and (state == 2 and "COLLECTED_APPEARANCE_ICON" or "COLLECTED_ICON")) or "NOT_COLLECTED_ICON"];
 end
@@ -269,7 +271,6 @@ if localeString == "deDE" then
 	L.EXPANSION_DATA[9].lore = "Shadowlands ist die achte Erweiterung. Was liegt hinter die Welt die du kennst? Die Shadowlands, Ruheplatz für jede sterbliche seele—tugendhaft oder abscheulich—die jemals gelebt hat.";
 	L.EXPANSION_DATA[10].lore = "Dragonflight ist die neunte Erweiterung. Die Drachenschwärme von Azeroth sind zurück und folgen dem Ruf, die Dracheninseln, ihre angestammte Heimat, zu verteidigen. Erfüllt von elementarer Macht und Azeroths Lebensenergie erwachen die Inseln erneut, und es liegt an euch, ihre urzeitlichen Wunder zu erforschen und lang vergessene Geheimnisse ans Licht zu bringen.";
 
-	local a = L.ABBREVIATIONS;
 	for key,value in pairs({
 		["Antorus, der Brennende Thron"] = "Antorus",	-- ["Antorus, the Burning Throne"] = "Antorus"
 		[GROUP_FINDER] = "D&S",	-- ["Dungeons & Raids"] = "D&R"
@@ -297,7 +298,7 @@ if localeString == "deDE" then
 		["25 Spieler (Heroisch)"] = "25M (H)",
 		["WoW Geburtstag"] = "Geburtstag",
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 end
 if localeString == "esES" then
 	L.EXPANSION_DATA[1].lore = "Cuatro años después de la batalla del Monte Hyjal, tensiones entre la Alianza y la Horda empiezan a surgir nuevamente. Con la intención de establecerse en la región árida de Durotar, la nueva Horda de Thrall expande sus miembros, invitando a los no muertos a unirse a orcos, tauren, y trols. Mientras tanto, enanos, gnomos y los ancestrales elfos de la noche prometieron su lealtad a una Alianza revitalizada, guiada por el reino humano de Ventormenta. Después de que el rey de Ventormenta Varian Wrynn misteriosamente desapareciera, el Alto Señor Bolvar Fordragon sirve como Regente pero Su servicio se vio empañado por las manipulaciones y el control mental de Onyxia, quien gobierna disfrazada como una humana de la nobleza. Mientras los héroes investigaban las manipulaciones de Onyxia, antiguos enemigos surgieron en tierras de todo el mundo para amenazar a la Horda y a la Alianza por igual.";
@@ -314,7 +315,6 @@ if localeString == "esES" then
 	L.EXPANSION_DATA[12].lore = "Midnight es la undécima expansión de World of Warcraft y la segunda entrega de la saga Alma del Mundo.";
 	L.EXPANSION_DATA[13].lore = "The Last Titan es la duodécima expansión de World of Warcraft y la última entrega de la saga Alma del Mundo.";
 	
-	local a = L.ABBREVIATIONS;
 	for key,value in pairs({
 		["Antorus, el Trono Ardiente"] = "Antorus",	-- ["Antorus, the Burning Throne"] = "Antorus"
 		["Expansion Pre"] = "Pre",
@@ -341,7 +341,7 @@ if localeString == "esES" then
 		[TRACKER_HEADER_WORLD_QUESTS] = "WQ",	-- ["World Quests"] = "WQ"
 		["Curia:"] = "Curia:",
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 	
 	if localeString == "esMX" then
 		L.EXPANSION_DATA[1].lore = "Cuatro años después de la batalla del Monte Hyjal, tensiones entre la Alianza y la Horda empiezan a surgir nuevamente. Con la intención de establecerse en la región árida de Durotar, la nueva Horda de Thrall expande sus miembros, invitando a los no muertos a unirse a orcos, tauren, y trols. Mientras tanto, enanos, gnomos y los ancestrales elfos de la noche prometieron su lealtad a una Alianza revitalizada, guiada por el reino humano de Ventormenta. Después de que el rey de Ventormenta Varian Wrynn misteriosamente desapareciera, el Alto Señor Bolvar Fordragon sirve como Regente pero Su servicio se vio empañado por las manipulaciones y el control mental de Onyxia, quien gobierna disfrazada como una humana de la nobleza. Mientras los héroes investigaban las manipulaciones de Onyxia, antiguos enemigos surgieron en tierras de todo el mundo para amenazar a la Horda y a la Alianza por igual.";
@@ -358,7 +358,6 @@ if localeString == "esES" then
 		L.EXPANSION_DATA[12].lore = "Midnight es la undécima expansión de World of Warcraft y la segunda entrega de la saga Worldsoul.";
 		L.EXPANSION_DATA[13].lore = "The Last Titan es la duodécima expansión de World of Warcraft y la última entrega de la saga Worldsoul.";
 		
-		local a = L.ABBREVIATIONS;
 		for key,value in pairs({
 			["Antorus, el Trono Ardiente"] = "Antorus",	-- ["Antorus, the Burning Throne"] = "Antorus"
 			["Expansion Pre"] = "Pre",
@@ -391,7 +390,7 @@ if localeString == "esES" then
 			["WoW Anniversary"] = "Anniversary",
 			["Pacto:"] = "Pacto:",
 		})
-		do a[key] = value; end
+		do ABBREVIATIONS[key] = value; end
 	end
 end
 if localeString == "frFR" then
@@ -405,8 +404,7 @@ if localeString == "frFR" then
 	L.EXPANSION_DATA[8].lore = "Battle for Azeroth est la 7ème extension. Les blessures ouvertes en Azeroth par Sargeras, le titan noir, ont fait apparaître une substance instable : l’azérite, le sang de la planète elle-même. Les tensions entre la Horde et l’Alliance ont redoublé d’intensité depuis que les deux factions ont découvert le véritable pouvoir de l’azérite, marquant le début d’une guerre totale qui a mené à la chute de Teldrassil et Fossoyeuse. Affaiblies et à la recherche de nouveaux alliés, l’Alliance et la Horde ont sollicité l’aide de leurs plus valeureux héros pour étayer leurs rangs. Jaina Portvaillant s’est rendue dans son royaume natal, Kul Tiras, dans l’espoir de convaincre les siens de revenir dans l’Alliance. Elle y a rencontré des nobles querelleurs et un peuple amer, unis dans leur mépris à l’égard de ses actions passées. De son côté, la Horde a fait sortir la princesse zandalari Talanji de la prison de Hurlevent. En retour, celle-ci s’est efforcée de convaincre les Trolls zandalari de prêter main-forte à la Horde malgré la réticence de son père, le roi Rastakhan. Ces efforts diplomatiques ont porté leurs fruits, et avec l’appui de leurs nouveaux alliés, les deux factions ont pu établir de nouveaux avant-postes en Zandalar et en Kul Tiras. Aux côtés de leurs nouveaux frères d’armes, l’Alliance et la Horde se tiennent une fois de plus sur les rives de la guerre, alors que les flots de la vengeance menacent à l’horizon…";
 	L.EXPANSION_DATA[9].lore = "Shadowlands est la 8ème extension. Après avoir fui Orgrimmar, Sylvanas Coursevent met le cap vers la citadelle de la Couronne de glace. Là, elle affronte Bolvar, le roi-liche, et s’empare du Heaume de domination. Par un simple acte de destruction, Sylvanas ouvre le passage vers le royaume de l’au-delà : l’Ombreterre, un monde entre les mondes dont l’équilibre délicat préserve aussi bien la vie que la mort. Anduin, Baine, Jaina, Thrall et les héros d’Azeroth suivent Sylvanas en Ombreterre, mais se retrouvent pris au piège dans l’Antre, un royaume effroyable réservé aux âmes malfaisantes au-delà de toute rédemption. Après avoir réussi à s’échapper envers et contre tout, nos héros finissent par se rendre à Oribos, la cité éternelle qui accueille habituellement toutes les âmes fraîchement arrivées en Ombreterre. Ils découvrent alors que l’impassible Arbitre, chargée d’aiguiller les défunts vers leur dernière demeure, est en sommeil et incapable d’honorer ses devoirs. Pire encore, les quatre congrégations de l’Ombreterre ont plongé dans le chaos, et se livrent bataille pour s’approprier une ressource aussi rare que vitale : l’anima. Les héros d’Azeroth décident de venir en aide aux habitants de l’Ombreterre, espérant lever le voile sur les agissements de Sylvanas. Ils finissent par découvrir un traître au sein des congrégations : Denathrius, fondateur et dirigeant de Revendreth, foyer des Venthyrs. Ce dernier assiste secrètement Sylvanas dans son projet de libérer leur mystérieux bienfaiteur commun : une entité surnommée le Geôlier, qui règne sur tout l’Antre. L’infâme seigneur de Revendreth est mis en déroute dans son propre domaine, le château Nathria, mais Sylvanas et le Geôlier ont déjà mis leur plan à exécution : utiliser Anduin contre son gré pour servir leurs terribles desseins.";
 	L.EXPANSION_DATA[10].lore = "Dragonflight est la 9ème extension. Les Vols draconiques d’Azeroth sont de retour pour défendre leur foyer ancestral, les îles aux Dragons. Débordantes de magie élémentaire et de l’essence vitale d’Azeroth, les îles s’éveillent de nouveau et vous invitent à découvrir leurs merveilles primordiales et leurs secrets longtemps oubliés.";
-
-	local a = L.ABBREVIATIONS;
+	
 	for key,value in pairs({
 		["Antorus, le Trône ardent"] = "Antorus",	-- ["Antorus, the Burning Throne"] = "Antorus"
 		["Expansion Pre"] = "Pré",
@@ -440,29 +438,27 @@ if localeString == "frFR" then
 		["WoW Anniversary"] = "Anniversaire",
 		["Covenant:"] = "Cov :",
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 end
 if localeString == "itIT" then
 	L.EXPANSION_DATA[10].lore = "Dragonflight is the ninth expansion. Gli Stormi dei Draghi di Azeroth sono tornati, richiamati a difendere la loro dimora ancestrale, le Isole dei Draghi. Ricche di magia elementale e delle energie vitali di Azeroth, le isole si sono risvegliate, e starà a te esplorare le loro meraviglie primordiali e i loro segreti dimenticati da tempo immemore.";	--TODO: First sentence
-
-	local a = L.ABBREVIATIONS;
+	
 	for key,value in pairs({
 		["Antorus, il Trono Infuocato"] = "Antorus",	-- ["Antorus, the Burning Throne"] = "Antorus"
 		["Ny'alotha, la Città Risvegliata"] = "Ny'alotha",	-- ["Ny'alotha, the Waking City"] = "Ny'alotha"
 		["Tazavesh, il Bazar Celato"] = "Tazavesh",	-- ["Tazavesh, the Veiled Market"] = "Tazavesh"
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 end
 if localeString == "ptBR" then
 	L.EXPANSION_DATA[10].lore = "Dragonflight is the ninth expansion. As revoadas dragônicas de Azeroth retornaram, convocadas a defender seu lar ancestral, as Ilhas do Dragão. Repletas de magia elemental e das energias vitais de Azeroth, as Ilhas despertam uma vez mais. Cabe a você explorar suas maravilhas primordiais e revelar segredos há muito esquecidos.";	--TODO: First sentence
-
-	local a = L.ABBREVIATIONS;
+	
 	for key,value in pairs({
 		["Antorus, o Trono Ardente"] = "Antorus",	-- ["Antorus, the Burning Throne"] = "Antorus"
 		["Ny'alotha, a Cidade Desperta"] = "Ny'alotha",	-- ["Ny'alotha, the Waking City"] = "Ny'alotha"
 		["Tazavesh, o Mercado Oculto"] = "Tazavesh",	-- ["Tazavesh, the Veiled Market"] = "Tazavesh"
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 end
 if localeString == "ruRU" then
 	L.EXPANSION_DATA[1].name = "Classic";
@@ -476,8 +472,7 @@ if localeString == "ruRU" then
 	L.EXPANSION_DATA[8].lore = "Когда Саргерас нанес Азерот страшную рану, из недр планеты поднялась нестабильная субстанция, прозванная азеритом — кровь самого спящего титана. Вскоре Альянс и Орда поняли, какой потенциал сокрыт в этом веществе, и взаимная неприязнь перешла в открытую конфронтацию. В стремлении завладеть как можно большим количеством азерита, Орда сожгла Тельдрассил, а затем Альянс осадил Подгород.\n\nОбе фракции были ослаблены и нуждались в новых союзниках и в героях, которые бы помогли их найти. Так Джайна Праудмур отправилась на свою родину, Кул-Тирас, в надежде уговорить морскую державу вновь присоединиться к Альянсу. Однако местные дворянские дома погрязли в конфликтах и проявили единодушие лишь в ненависти к Джайне за ее прошлые поступки. В то же время герои Орды вызволили зандаларскую принцессу Таланджи из тюрьмы Штормграда. И, хотя сперва ее отец, король Растахан, не был настроен слушать послов, со временем Таланджи все-таки уговорила зандаларских троллей присоединиться к Орде. Дипломатия помогла обеим фракциям, и в результате успешных военных кампаний они основали надежные базы в Зандаларе и Кул-Тирасе.\n\nДобившись доверия со стороны своих новых союзников, Альянс и Орда вновь скрестили клинки, не замечая, что над ними нависли грозные волны возмездия…";
 	L.EXPANSION_DATA[9].lore = "Одним отчаянным ударом Сильвана Ветрокрылая разрушила границу между миром живых и загробным царством. Храбрейших защитников Азерота затянула всепожирающая тьма. Несущая смерть древняя сила грозит сбросить оковы и уничтожить саму реальность.\n\nТех, кто осмелится сделать шаг в царство мертвых, ждут чудесные и пугающие неизведанные миры. Темные земли — это царство, в котором обитают души умерших. Это мир между мирами, от хрупкого баланса в котором зависит само существование жизни и смерти.\n\nКак одного из величайших защитников Азерота, вас наделили способностью пребывать в этом мире, не теряя своей телесной оболочки. Теперь вам предстоит раскрыть заговор, грозящий уничтожением Вселенной, и помочь легендарным героям всех эпох Warcraft вернуться в Азерот... или окончательно покинуть этот мир.";
 	L.EXPANSION_DATA[10].lore = "Драконы Азерота откликнулись на зов и вернулись, чтобы защитить свою родину, Драконьи острова. Магия стихий и энергия жизни Азерота наполняют вновь пробудившиеся Драконьи острова, и теперь вам предстоит исследовать их первобытные чудеса и раскрыть давно забытые тайны.";
-
-	local a = L.ABBREVIATIONS;
+	
 	for key,value in pairs({
 		["Анторус, Пылающий Трон"] = "Анторус";	-- ["Antorus, the Burning Throne"] = "Antorus"
 		["Expansion Pre"] = "Препатч";
@@ -498,18 +493,17 @@ if localeString == "ruRU" then
 		["годовщина World of Warcraft"] = "годовщина";
 		["Ковенант:"] = "Ков:",
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 end
 if localeString == "koKR" then
 	L.EXPANSION_DATA[10].lore = "용군단 is the ninth expansion. 아제로스의 용군단이 부름을 받들어 선조의 보금자리인 용의 섬을 수호하고자 귀환했습니다. 섬 전역에서 정령 마력과 아제로스의 생명력이 넘쳐흐르는 지금, 용의 섬이 다시 한번 기지개를 켜며 깨어나고 있습니다. 여러분은 이제 태고의 경이를 모험하며 아득히 먼 옛날 잊힌 비밀을 탐구해야 합니다.";	--TODO: First sentence
-
-	local a = L.ABBREVIATIONS;
+	
 	for key,value in pairs({
 		["안토러스 - 불타는 왕좌"] = "안토러스",	-- ["Antorus, the Burning Throne"] = "Antorus"
 		["깨어난 도시 나이알로사"] = "나이알로사",	-- ["Ny'alotha, the Waking City"] = "Ny'alotha"
 		["미지의 시장 타자베쉬"] = "타자베쉬",	-- ["Tazavesh, the Veiled Market"] = "Tazavesh"
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 end
 if localeString == "zhCN" or localeString == "zhTW" then
 	L.EXPANSION_DATA[1].lore = "海加尔山之战的四年后，联盟和部落之间的关系又一次紧张了起来。为了能在贫瘠之地杜隆塔尔立足，萨尔邀请亡灵被遗忘者加入到兽人、牛头人和巨魔中，以扩大他的部落。与此同时，在另一边矮人、侏儒和古暗夜精灵则发誓它们将效忠人类暴风城王国所领导的新的联盟。当暴风城的国王瓦里安·乌瑞恩神秘消失之后，领主伯瓦尔·弗塔根担任摄政王，但是伯瓦尔的所做的一切被伪装成人类贵妇的黑龙奥尼克希亚通过意识控制所破坏。当英雄们正在研究对抗奥克尼希亚的手法时，古代的敌人出现在大陆上，并威胁着部落和联盟的生存。";
@@ -526,7 +520,6 @@ if localeString == "zhCN" or localeString == "zhTW" then
 	L.EXPANSION_DATA[12].lore = "至暗之夜是第十一个资料片。也是世界之魂传说的第二部份。";
 	L.EXPANSION_DATA[13].lore = "最后的泰坦是第十二个资料片。也是世界之魂传说三部曲终章。";
 	
-	local a = L.ABBREVIATIONS;
 	for key,value in pairs({
 		["安托鲁斯，燃烧王座"] = "安托鲁斯",	-- ["Antorus, the Burning Throne"] = "Antorus"
 		["资料片前夕"] = "前夕",	-- ["Expansion Pre"] = "Pre"
@@ -536,7 +529,7 @@ if localeString == "zhCN" or localeString == "zhTW" then
 		["阿梅达希尔，梦境之愿"] = "阿梅达希尔",	-- ["Amirdrassil, the Dream's Hope"] = "Amirdrassil"
 		["艾拉-卡拉，回响之城"] = "回响之城",	-- ["Ara-Kara, City of Echoes"] = "Ara-Kara"
 	})
-	do a[key] = value; end
+	do ABBREVIATIONS[key] = value; end
 	
 	if localeString == "zhTW" then
 		L.EXPANSION_DATA[1].lore = "海加爾山之戰的四年後，聯盟和部落之間的關係又一次緊張了起來。在貧瘠之地杜洛塔，由索爾所領導的部落安頓定居下來並繼續擴充軍隊的規模，他們邀請被遺忘者加入獸人、牛頭人和食人妖的行列。同時，矮人、地精和古老的夜精靈也發誓效忠由人類王國暴風城所領導的聯盟。在暴風城國王瓦里安·烏瑞恩神秘失蹤後，大領主伯瓦爾‧弗塔根擔任攝政王一職，但是偽裝成人類女貴族的黑龍軍團的奧妮克希亞控制他的心智，從幕後操控整個王國。正當英雄們探查奧妮克希亞的陰謀時，古老的強敵卻現身世界各地，威脅著部落和聯盟。";
@@ -552,8 +545,7 @@ if localeString == "zhCN" or localeString == "zhTW" then
 		L.EXPANSION_DATA[11].lore = "地心之戰是第十個資料片。也是世界之魂戰記三部曲的開端。穿越前所未見的地下世界，那裡充滿了隱藏的奇觀和潛伏的危險，一直到蛛魔帝國的黑暗深處，那裡邪惡的虛空先驅正在聚集蛛魔力量，試圖讓艾澤拉斯屈服。";
 		L.EXPANSION_DATA[12].lore = "至暗之夜是第十一個資料片。也是世界之魂戰記的第二部份。";
 		L.EXPANSION_DATA[13].lore = "最後的泰坦是第十二個資料片。也是世界之魂戰記三部曲終章。";
-
-		local a = L.ABBREVIATIONS;
+		
 		for key,value in pairs({
 			["資料片前夕"] = "前夕",
 			["安托洛斯，燃燒王座"] = "安托洛斯",		-- ["Antorus, the Burning Throne"] = "Antorus"
@@ -563,122 +555,148 @@ if localeString == "zhCN" or localeString == "zhTW" then
 			["『夢境希望』埃達希爾"] = "埃達希爾",		-- ["Amirdrassil, the Dream's Hope"] = "Amirdrassil"
 			["『回音之城』厄拉卡拉"] = "厄拉卡拉",		-- ["Ara-Kara, City of Echoes"] = "Ara-Kara"
 		})
-		do a[key] = value; end
+		do ABBREVIATIONS[key] = value; end
 	end
 end
 
 if app.IsRetail then
-	L.CUSTOM_COLLECTS_REASONS = {
-		["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "New Player Experience", desc = "Only a New Character can Collect this." },
-		["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Threads of Fate", desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this." },
-		["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-		["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-		["SL_COV_KYR"] = { icon = "|T"..(3257748)..":0|t", color = "ff516bfe", text = GetSpellName(321076) },
-		["SL_COV_NEC"] = { icon = "|T"..(3257749)..":0|t", color = "ff40bf40", text = GetSpellName(321078) },
-		["SL_COV_NFA"] = { icon = "|T"..(3257750)..":0|t", color = "ffA330C9", text = GetSpellName(321077) },
-		["SL_COV_VEN"] = { icon = "|T"..(3257751)..":0|t", color = "fffe040f", text = GetSpellName(321079) },
+	local CUSTOM_COLLECTS_REASONS = {
+		["NPE"] = {
+			color = "ff5bc41d",
+			icon = "|T"..(3567434)..":0|t",
+			text = "New Player Experience",
+			desc = "Only a New Character can Collect this."
+		},
+		["SL_SKIP"] = {
+			color = "ff76879c",
+			icon = "|T"..app.asset("Expansion_SL")..":0|t",
+			text = "Threads of Fate",
+			desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this."
+		},
+		["HOA"] = {
+			color = "ffe6cc80",
+			icon = "|T"..(1869493)..":0|t",
+			text = GetSpellName(275825),
+			desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this."
+		},
+		["!HOA"] = {
+			color = "ffe6cc80",
+			icon = "|T"..(2480886)..":0|t",
+			text = "|cffff0000"..NO.."|r "..GetSpellName(275825),
+			desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this."
+		},
+		["SL_COV_KYR"] = {
+			color = "ff516bfe",
+			icon = "|T"..(3257748)..":0|t",
+			text = GetSpellName(321076)
+		},
+		["SL_COV_NEC"] = {
+			color = "ff40bf40",
+			icon = "|T"..(3257749)..":0|t",
+			text = GetSpellName(321078)
+		},
+		["SL_COV_NFA"] = {
+			color = "ffA330C9",
+			icon = "|T"..(3257750)..":0|t",
+			text = GetSpellName(321077)
+		},
+		["SL_COV_VEN"] = {
+			color = "fffe040f",
+			icon = "|T"..(3257751)..":0|t",
+			text = GetSpellName(321079)
+		},
 	};
+	L.CUSTOM_COLLECTS_REASONS = CUSTOM_COLLECTS_REASONS;
 	
+	--[[
 	if localeString == "deDE" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "New Player Experience", desc = "Only a New Character can Collect this." },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Threads of Fate", desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this." },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "New Player Experience";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Only a New Character can Collect this.";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Threads of Fate";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this.";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
 	end
+	]]--
 	if localeString == "esES" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "Experiencia de los jugadores nuevos", desc = "Sólo un personaje nuevo puede coleccionar esto." },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Hilos del destino", desc = "Sólo un personaje que elige saltarse la historia de las Tierras Sombrías puede coleccionar esto." },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Sólo un personaje que ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto." },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Sólo un personaje que |cffff0000no|r ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto." },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "Experiencia de los jugadores nuevos";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Sólo un personaje nuevo puede coleccionar esto.";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Hilos del destino";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Sólo un personaje que elige saltarse la historia de las Tierras Sombrías puede coleccionar esto.";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "Sólo un personaje que ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto.";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Sólo un personaje que |cffff0000no|r ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto.";
 		
 		if localeString == "esMX" then
-			local a = L.CUSTOM_COLLECTS_REASONS;
-			for key,value in pairs({
-				["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "Experiencia de los jugadores nuevos", desc = "Sólo un personaje nuevo puede coleccionar esto." },
-				["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Hilos del destino", desc = "Sólo un personaje que elige saltarse la historia de las Tierras Sombrías puede coleccionar esto." },
-				["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Sólo un personaje que ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto." },
-				["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Sólo un personaje que |cffff0000no|r ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto." },
-			})
-			do a[key] = value; end
+			CUSTOM_COLLECTS_REASONS["NPE"].text = "Experiencia de los jugadores nuevos";
+			CUSTOM_COLLECTS_REASONS["NPE"].desc = "Sólo un personaje nuevo puede coleccionar esto.";
+			CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Hilos del destino";
+			CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Sólo un personaje que elige saltarse la historia de las Tierras Sombrías puede coleccionar esto.";
+			CUSTOM_COLLECTS_REASONS["HOA"].desc = "Sólo un personaje que ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto.";
+			CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Sólo un personaje que |cffff0000no|r ha obtenido el |cffe6cc80"..GetSpellName(275825).."|r puede coleccionar esto.";
 		end
 	end
 	if localeString == "frFR" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "Expérience Nouveau Joueur", desc = "Seul un nouveau personnage peut collecter ceci." },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Fil du destin", desc = "Seul un personnage ayant passé la suite de quête principale de Shadowlands peut collecter ceci." },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Seul un personnage ayant obtenu le |cffe6cc80"..GetSpellName(275825).."|r peut collecter ceci." },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Seul un personnage |cffff0000n’ayant pas|r obtenu le |cffe6cc80"..GetSpellName(275825).."|r peut collecter ceci." },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "Expérience Nouveau Joueur";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Seul un nouveau personnage peut collecter ceci.";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Fil du destin";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Seul un personnage ayant passé la suite de quête principale de Shadowlands peut collecter ceci.";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "Seul un personnage ayant obtenu le |cffe6cc80"..GetSpellName(275825).."|r peut collecter ceci.";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Seul un personnage |cffff0000n’ayant pas|r obtenu le |cffe6cc80"..GetSpellName(275825).."|r peut collecter ceci.";
 	end
+	--[[
 	if localeString == "itIT" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "New Player Experience", desc = "Only a New Character can Collect this." },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Threads of Fate", desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this." },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "New Player Experience";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Only a New Character can Collect this.";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Threads of Fate";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this.";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
 	end
+	]]--
+	--[[
 	if localeString == "ptBR" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "New Player Experience", desc = "Only a New Character can Collect this." },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Threads of Fate", desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this." },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "New Player Experience";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Only a New Character can Collect this.";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Threads of Fate";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this.";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
 	end
+	]]--
 	if localeString == "ruRU" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "Новый Персонаж", desc = "Только Новый Персонаж может собрать эти предметы." },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Нити Судьбы", desc = "Только Персонаж, который пропустил сюжет Тёмных Земель, может собрать эти предметы." },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Только Персонаж с |cffe6cc80Сердцем Азерот|r может собрать эти предметы." },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000Без|r Сердца Азерот", desc = "Только Персонаж |cffff0000без|r |cffe6cc80Сердца Азерот|r может собрать эти предметы." },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "Новый Персонаж";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Только Новый Персонаж может собрать эти предметы.";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Нити Судьбы";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Только Персонаж, который пропустил сюжет Тёмных Земель, может собрать эти предметы.";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "Только Персонаж с |cffe6cc80Сердцем Азерот|r может собрать эти предметы.";
+		CUSTOM_COLLECTS_REASONS["!HOA"].text = "|cffff0000Без|r Сердца Азерот";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Только Персонаж |cffff0000без|r |cffe6cc80Сердца Азерот|r может собрать эти предметы.";
 	end
+	--[[
 	if localeString == "koKR" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "New Player Experience", desc = "Only a New Character can Collect this." },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "Threads of Fate", desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this." },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this." },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "New Player Experience";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "Only a New Character can Collect this.";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "Threads of Fate";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "Only a Character who chose to skip the Shadowlands Storyline can Collect this.";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "Only a Character who has obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "Only a Character who has |cffff0000not|r obtained the |cffe6cc80"..GetSpellName(275825).."|r can collect this.";
 	end
+	]]--
 	if localeString == "zhCN" or localeString == "zhTW" then
-		local a = L.CUSTOM_COLLECTS_REASONS;
-		for key,value in pairs({
-			["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "新玩家体验", desc = "只有新角色可以收藏这个。" },
-			["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "命运丝线", desc = "只有选择跳过暗影国度故事线的角色才能收藏这个。" },
-			["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "只有角色获得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。" },
-			["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "只有角色 |cffff0000没有|r 获得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。" },
-		})
-		do a[key] = value; end
+		CUSTOM_COLLECTS_REASONS["NPE"].text = "新玩家体验";
+		CUSTOM_COLLECTS_REASONS["NPE"].desc = "只有新角色可以收藏这个。";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "命运丝线";
+		CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "只有选择跳过暗影国度故事线的角色才能收藏这个。";
+		CUSTOM_COLLECTS_REASONS["HOA"].desc = "只有角色获得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。";
+		CUSTOM_COLLECTS_REASONS["!HOA"].desc = "只有角色 |cffff0000没有|r 获得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。";
 		
 		if localeString == "zhTW" then
-			local a = L.CUSTOM_COLLECTS_REASONS;
-			for key,value in pairs({
-				["NPE"] = { icon = "|T"..(3567434)..":0|t", color = "ff5bc41d", text = "新玩家體驗", desc = "只有新角色可以收藏這個。" },
-				["SL_SKIP"] = { icon = "|T"..app.asset("Expansion_SL")..":0|t", color = "ff76879c", text = "命運絲線", desc = "只有選擇跳過暗影之境故事線的角色才能收集這個。" },
-				["HOA"] = { icon = "|T"..(1869493)..":0|t", color = "ffe6cc80", text = GetSpellName(275825), desc = "只有角色獲得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。" },
-				["!HOA"] = { icon = "|T"..(2480886)..":0|t", color = "ffe6cc80", text = "|cffff0000"..NO.."|r "..GetSpellName(275825), desc = "只有角色 |cffff0000沒有|r 獲得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。" },
-			})
-			do a[key] = value; end
+			CUSTOM_COLLECTS_REASONS["NPE"].text = "新玩家體驗";
+			CUSTOM_COLLECTS_REASONS["NPE"].desc = "只有新角色可以收藏這個。";
+			CUSTOM_COLLECTS_REASONS["SL_SKIP"].text = "命運絲線";
+			CUSTOM_COLLECTS_REASONS["SL_SKIP"].desc = "只有選擇跳過暗影之境故事線的角色才能收集這個。";
+			CUSTOM_COLLECTS_REASONS["HOA"].desc = "只有角色獲得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。";
+			CUSTOM_COLLECTS_REASONS["!HOA"].desc = "只有角色 |cffff0000沒有|r 獲得 |cffe6cc80"..GetSpellName(275825).."|r 可以收集。";
 		end
 	end
 end
