@@ -1818,7 +1818,7 @@ end)();
 if not NextHeaderID then
 	-- Once we've eliminated all of the old style NPC IDs, we can change this value and
 	-- delete the Dynamic Header IDs file to reassign easier to manage header IDs.
-	NextHeaderID = -1000000; -- TODO: Change this to 0. (when the above task is done)
+	NextHeaderID = -1;
 	HeaderAssignments = {};
 end
 local customHeaders = {};
