@@ -6,7 +6,7 @@
 -- Wouter NOTE: level 80 boosts became available in Classic shortly after the launch of Icecrown Citadel, with the Blazing Heroic Pack for Cata
 root(ROOTS.Character, n(CLASS_TRIAL, {
 	-- Wouter NOTE: these are 187 boosted items made for Classic, they eventually got replaced in Cata by the 232 gear that was originally from Scroll of Resurrection
-	expansion(EXPANSION.WRATH, bubbleDown({ ["u"] = REAL_MONEY, ["timeline"] = { ADDED_3_4_3, REMOVED_4_4_0 } }, {
+	expansion(EXPANSION.CATA, bubbleDown({ ["u"] = REAL_MONEY, ["timeline"] = { ADDED_3_4_3, REMOVED_4_4_0 } }, {
 		["groups"] = {
 			cl(DRUID, {
 				i(209529),	-- Secondhand Crown
@@ -109,6 +109,7 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				i(209645),	-- Secondhand Belt
 				i(209651),	-- Secondhand Legguards
 				i(209657),	-- Secondhand Boots
+				i(209803),	-- Secondhand Knives
 			}),
 			cl(SHAMAN, {
 				i(209801),	-- Secondhand Left Claw
@@ -161,22 +162,19 @@ root(ROOTS.Character, n(CLASS_TRIAL, {
 				i(209521),	-- Secondhand Plate Girdle
 				i(209522),	-- Secondhand Plate Leggings
 				i(209519),	-- Secondhand Plate Greaves
+				i(209803),	-- Secondhand Knives
 			}),
-			-- Wouter NOTE: I have no clue to which classes some of these got assigned so I'm leaving them unsorted  (it's been 2 years and I don't have data)
+			-- Wouter NOTE: I have no clue to which classes some of these got assigned so I'm leaving them unsorted (it's been 2 years and I don't have data)
 			i(209785),	-- Secondhand Blade
 			i(209789),	-- Secondhand Bow
 			i(209796),	-- Secondhand Dagger
 			i(209782),	-- Secondhand Guardian
-			-- #if BEFORE MOP
-			i(209803, {	-- Secondhand Knives
-				["timeline"] = { ADDED_3_4_3, REMOVED_5_0_4 },
-			}),
-			-- #endif
 			i(209794),	-- Secondhand Smasher
 			i(209792),	-- Secondhand Staff
 			i(209791),	-- Secondhand Stave
 			i(209784),	-- Secondhand Sword
 			i(209790),	-- Secondhand Warmaul
+			i(210135),	-- Secondhand Rose
 			i(209556),	-- Secondhand Necklace
 			i(209557),	-- Secondhand Necklace
 			i(209558),	-- Secondhand Necklace
