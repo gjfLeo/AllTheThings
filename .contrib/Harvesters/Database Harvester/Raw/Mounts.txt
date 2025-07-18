@@ -2225,3 +2225,5 @@
 1245361@@@Emberwing Sky Guide
 11.2.0.61787
 1233542@@@The Bone Freezer
+11.2.0.61981
+1250578@@@Phase-Lost Slateback

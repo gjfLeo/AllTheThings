@@ -22953,3 +22953,6 @@
 232367@@@Narathe
 235155@@@Ve'nari
 249660@@@[DNT] 11.2 Raid - Manaforge - Boss 1 - Post Death - Power Down - Sound Stalker
+11.2.0.61981
+250676@@@Xal'atath
+250848@@@Tracker Skyriding Glyph
