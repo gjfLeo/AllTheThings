@@ -5,13 +5,27 @@ local contains, MergeClone = app.contains, app.MergeClone;
 -- Global locals
 local ipairs, pairs, select, tinsert =
 	  ipairs, pairs, select, tinsert;
-local GetAchievementCriteriaInfo, GetAchievementNumCriteria, GetAchievementInfo, GetCategoryInfo, GetCategoryList, GetCategoryNumAchievements =
-	  GetAchievementCriteriaInfo, GetAchievementNumCriteria, GetAchievementInfo, GetCategoryInfo, GetCategoryList, GetCategoryNumAchievements;
+local GetAchievementCriteriaInfo, GetAchievementNumCriteria, GetAchievementInfo, GetCategoryInfo, GetCategoryList, GetGuildCategoryList, GetCategoryNumAchievements =
+	  GetAchievementCriteriaInfo, GetAchievementNumCriteria, GetAchievementInfo, GetCategoryInfo, GetCategoryList, GetGuildCategoryList, GetCategoryNumAchievements;
 
 -- App locals
 local GetRelativeValue = app.GetRelativeValue;
 
 -- Module locals
+local AchievementPriority = setmetatable({
+	[92] = -100,		-- General
+	[96] = -99,			-- Quests
+	[97] = -98,			-- Exploration
+	[95] = -97,			-- Player vs. Player
+	[168] = -96,		-- Dungeons & Raids
+	[169] = -95,		-- Professions
+	[201] = -94,		-- Reputations
+	[15165] = -93,		-- Scenarios
+	[155] = -92,		-- World Events
+	[15117] = -91,		-- Pet Battles
+	[81] = 100000,		-- Feats of Strength
+	[15076] = 100001,	-- Guild
+}, { __index = function(t, id) return id; end });
 local function cacheAchievementData(self, categories, g)
 	if g then
 		for i,o in ipairs(g) do
@@ -38,6 +52,9 @@ local function getAchievementCategory(categories, achievementCategoryID)
 		local p = getAchievementCategory(categories, c.parentCategoryID);
 		if not p.g then p.g = {}; end
 		tinsert(p.g, c);
+		if c.parentCategoryID == -1 then
+		print(#p.g, achievementCategoryID, c.text);
+		end
 		c.parent = p;
 	end
 	return c;
@@ -45,7 +62,7 @@ end
 local function achievementSort(a, b)
 	if a.achievementCategoryID then
 		if b.achievementCategoryID then
-			return a.achievementCategoryID < b.achievementCategoryID;
+			return AchievementPriority[a.achievementCategoryID] < AchievementPriority[b.achievementCategoryID];
 		end
 		return true;
 	elseif b.achievementCategoryID then
@@ -92,6 +109,16 @@ app:CreateWindow("Achievements", {
 			OnUpdate = function(data)
 				local categories = {};
 				categories[-1] = data;
+				if GetCategoryList then
+					for _,categoryID in ipairs(GetCategoryList()) do
+						getAchievementCategory(categories, categoryID);
+					end
+				end
+				if GetGuildCategoryList then
+					for _,categoryID in ipairs(GetGuildCategoryList()) do
+						getAchievementCategory(categories, categoryID);
+					end
+				end
 				cacheAchievementData(data, categories, data.g);
 				for i,matches in pairs(app.SearchForFieldContainer("achievementID")) do
 					if not data.achievements[i] then
@@ -189,7 +216,6 @@ app:CreateWindow("Achievements", {
 				data.OnUpdate = nil;
 			end
 		});
-		--app.CacheFields(self.data);
 		if not (GetCategoryInfo and GetCategoryInfo(92) ~= "") then
 			self.data.description = "This section isn't a thing until Wrath, but by popular demand and my own insanity, I've added this section so you can track your progress for at least one of the big ticket achievements if you have the stomach for it.";
 		end
