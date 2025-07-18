@@ -2560,6 +2560,7 @@ function app:GetDataCache()
 
 	-- Update the Row Data by filtering raw data (this function only runs once)
 	local rootData = setmetatable({
+		key = "ROOT",
 		text = L.TITLE,
 		icon = app.asset("logo_32x32"),
 		preview = app.asset("Discord_2_128"),
