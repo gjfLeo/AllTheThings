@@ -225,6 +225,14 @@
 3.4.3.58528
 232536@@@Timbered Air Snakelet
 237248@@@Joyous
+3.4.5.61815
+46898@@@Enchanted Lantern
+51601@@@Moonkin Hatchling
+51649@@@Moonkin Hatchling
+54438@@@Murkablo
+56266@@@Fetish Shaman
+59020@@@Eye of the Legion
+245603@@@Sa'bak's Favored
 4.4.0.53627
 25706@@@Searing Scorchling
 40295@@@Blue Clockwork Rocket Bot
@@ -238,7 +246,6 @@
 45247@@@Pebble
 45340@@@Fossilized Hatchling
 46896@@@Lil' Deathwing
-46898@@@Enchanted Lantern
 47944@@@Dark Phoenix Hatchling
 48107@@@Rustberg Gull
 48242@@@Armadillo Pup
@@ -256,10 +263,8 @@
 51090@@@Singing Sunflower
 51122@@@Deathy
 51600@@@Lil' Ragnaros
-51601@@@Moonkin Hatchling
 51632@@@Tiny Flamefly
 51635@@@Scooter the Snail
-51649@@@Moonkin Hatchling
 52226@@@Panther Cub
 52343@@@Landro's Lichling
 52344@@@Nightsaber Cub
@@ -278,7 +283,6 @@
 54227@@@Nuts
 54374@@@Brilliant Kaliri
 54383@@@Purple Puffer
-54438@@@Murkablo
 54487@@@Darkmoon Turtle
 54491@@@Darkmoon Monkey
 54539@@@Alliance Balloon
@@ -295,9 +299,7 @@
 56031@@@Darkmoon Cub
 56082@@@Green Balloon
 56083@@@Yellow Balloon
-56266@@@Fetish Shaman
 58163@@@Soul of the Aspects
-59020@@@Eye of the Legion
 4.4.1.57359
 232527@@@Reven
 5.0.3.15882
