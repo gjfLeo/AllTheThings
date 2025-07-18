@@ -105,7 +105,7 @@ app:CreateWindow("Achievements", {
 			visible = true,
 			expanded = true,
 			back = 1,
-			g = app.Categories.Achievements or {},
+			g = {},
 			achievements = {},
 			OnUpdate = function(data)
 				local categories = {};
