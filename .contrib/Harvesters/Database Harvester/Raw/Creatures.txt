@@ -22945,3 +22945,11 @@
 248837@@@[DNT] 11.2 Raid - Manaforge - Boss 1 - Cosmetic Orb - Sound Stalker
 248997@@@[DNT] 11.2 Raid - Manaforge - Boss 3 - Enter Combat - Sound Stalker
 249357@@@[DNT] 11.2 Raid - Manaforge - Boss 1 - Post Death - Power Down - Sound Stalker
+11.2.0.61787
+230292@@@Soul-Scribe
+230658@@@Xal'atath
+231451@@@Mega-Mecha Gorilla
+231523@@@Xal'atath
+232367@@@Narathe
+235155@@@Ve'nari
+249660@@@[DNT] 11.2 Raid - Manaforge - Boss 1 - Post Death - Power Down - Sound Stalker

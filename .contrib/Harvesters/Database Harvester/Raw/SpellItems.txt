@@ -12683,3 +12683,6 @@
 7903@@@Pure Dexterous Fiber
 7904@@@Dexterous Fiber
 8058@@@11.2 - FX - Arcane - Enchants
+11.2.0.61787
+7901@@@Chronomantic Fiber
+7902@@@Pure Chronomantic Fiber
