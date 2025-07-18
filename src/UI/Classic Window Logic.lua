@@ -1065,6 +1065,10 @@ local function ApplySettingsForWindow(self, windowSettings)
 		local r, g, b, a = unpack(windowSettings.borderColor);
 		self:SetBackdropBorderColor(r or 0, g or 0, b or 0, a or 1);
 	end
+	if windowSettings.Progress and self.data then
+		self.data.progress = windowSettings.Progress;
+		self.data.total = windowSettings.Total;
+	end
 	self.RecordSettings = oldRecordSettings;
 end
 local function BuildSettingsForWindow(self, windowSettings, isForDefaults)
@@ -1105,6 +1109,10 @@ local function BuildSettingsForWindow(self, windowSettings, isForDefaults)
 		windowSettings.backdropColor = { r or 0, g or 0, b or 0, a or 1 };
 		r, g, b, a = self:GetBackdropBorderColor();
 		windowSettings.borderColor = { r or 0, g or 0, b or 0, a or 1 };
+	end
+	if self.data then
+		windowSettings.Progress = self.data.progress;
+		windowSettings.Total = self.data.total;
 	end
 end
 local function ClearSettingsForWindow(self)
