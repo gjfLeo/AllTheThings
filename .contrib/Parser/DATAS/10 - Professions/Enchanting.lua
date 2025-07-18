@@ -950,7 +950,7 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 
 
 -- #if ANYCLASSIC
-profession(ENCHANTING, sharedData({["sourceIgnored"]=true},{
+profession(ENCHANTING, {
 	expansion(EXPANSION.CLASSIC, {
 		r(7411, {	-- Enchanting (Apprentice)
 			-- #if NOT ANYCLASSIC
@@ -1828,7 +1828,7 @@ profession(ENCHANTING, sharedData({["sourceIgnored"]=true},{
 			r(191078),	-- Leylight Brazier
 		}),
 	}))),
-}));
+});
 
 -- Enchanting Item Database
 local itemDB = ItemDBConditional;
