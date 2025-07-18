@@ -519,6 +519,11 @@
 1247596@@@Celestial Riding Serpent
 1247597@@@Celestial Riding Ox
 1247598@@@Celestial Riding Tiger
+5.5.0.62044
+127272@@@Orange Water Strider
+127274@@@Jade Water Strider
+127278@@@Golden Water Strider
+1238816@@@Envoy of Sa'bak
 6.0.1.18179
 0@@@TEST - Traveler's Tundra Mammoth (Alliance)
 0@@@TEST - Running Wild
@@ -618,9 +623,6 @@
 121805@@@RAF Mount III
 123160@@@Crimson Riding Crane
 127180@@@Albino Riding Crane
-127272@@@Orange Water Strider
-127274@@@Jade Water Strider
-127278@@@Golden Water Strider
 128859@@@zzOldDepleted-Kyparium Rocket
 130678@@@Unruly Behemoth
 130730@@@Kafa-Crazed Goat
