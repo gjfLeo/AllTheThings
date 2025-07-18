@@ -3025,7 +3025,6 @@ function app:GetDataCache()
 	end
 	return rootData;
 end
-app.AddEventHandler("OnLoad", app.GetDataCache)
 
 end	-- Dynamic/Main Data
 

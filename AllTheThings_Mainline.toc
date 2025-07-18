@@ -173,4 +173,4 @@ db\Retail\Categories.lua
 src\UI\Windows\Debugger.lua
 
 # Finally, prepare the Data Cache
-# src\Root.lua
+src\Root.lua
