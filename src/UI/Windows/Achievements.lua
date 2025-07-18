@@ -52,9 +52,6 @@ local function getAchievementCategory(categories, achievementCategoryID)
 		local p = getAchievementCategory(categories, c.parentCategoryID);
 		if not p.g then p.g = {}; end
 		tinsert(p.g, c);
-		if c.parentCategoryID == -1 then
-		print(#p.g, achievementCategoryID, c.text);
-		end
 		c.parent = p;
 	end
 	return c;
