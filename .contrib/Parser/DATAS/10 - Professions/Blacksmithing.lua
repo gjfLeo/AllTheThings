@@ -464,6 +464,9 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["coord"] = { 55.2, 84.2, HIGHMOUNTAIN },
 			["maps"] = { 706, 707, 708 },	-- Maw of Souls
 			["g"] = {
+				i(124025, {	-- Ancient Vrykul Hammer (QI!)
+					["cr"] = 96759,	-- Helya
+				}),
 				i(136350),	-- Brumdysla, Hammer of Vrorsk
 			},
 		}),
