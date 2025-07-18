@@ -16347,3 +16347,6 @@
 61014@@@<DNT> Fractillus defeated on Raid Finder
 61015@@@<DNT> Nexus-King Salhadaar defeated on Raid Finder
 61016@@@<DNT> Dimensius, the All-Devouring defeated on Raid Finder
+11.2.0.61871
+42174@@@Unbound Hero: The War Within Season Three
+61017@@@Phase-Lost-and-Found
