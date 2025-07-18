@@ -180,6 +180,13 @@ local function ProcessInformationType(t, reference, tooltipInfo)
 end
 local CreateInformationType = app.CreateClass("InformationType", "informationTypeID", {
 	textLower = function(t)
+		if not t.text then
+			print("TEXT MISSING FOR INFORMATION TYPE");
+			for key,value in pairs(t) do
+				print("  ", key, value);
+			end
+			t.text = "WTF";
+		end
 		local textLower = t.text:lower();
 		t.textLower = textLower;
 		return textLower;
