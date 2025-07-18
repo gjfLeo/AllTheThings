@@ -2227,3 +2227,5 @@
 1233542@@@The Bone Freezer
 11.2.0.61981
 1250578@@@Phase-Lost Slateback
+11.2.0.62049
+1227192@@@Herald of Sa'bak
