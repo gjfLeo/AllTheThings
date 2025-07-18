@@ -13,18 +13,22 @@ local GetRelativeValue = app.GetRelativeValue;
 
 -- Module locals
 local AchievementPriority = setmetatable({
-	[92] = -100,		-- General
+	[92] = -100,		-- General / Character [Retail]
 	[96] = -99,			-- Quests
 	[97] = -98,			-- Exploration
-	[95] = -97,			-- Player vs. Player
-	[168] = -96,		-- Dungeons & Raids
-	[169] = -95,		-- Professions
-	[201] = -94,		-- Reputations
-	[15165] = -93,		-- Scenarios
-	[155] = -92,		-- World Events
-	[15117] = -91,		-- Pet Battles
+	[15522] = -97,		-- Delves
+	[95] = -96,			-- Player vs. Player
+	[168] = -95,		-- Dungeons & Raids
+	[169] = -94,		-- Professions
+	[201] = -93,		-- Reputations
+	[15165] = -92,		-- Scenarios
+	[155] = -91,		-- World Events
+	[15117] = -90,		-- Pet Battles
+	[15246] = -89,		-- Collections
+	[15301] = -88,		-- Expansion Features
 	[81] = 100000,		-- Feats of Strength
-	[15076] = 100001,	-- Guild
+	[15234] = 100001,	-- Legacy
+	[15076] = 100002,	-- Guild
 }, { __index = function(t, id) return id; end });
 local function cacheAchievementData(self, categories, g)
 	if g then
