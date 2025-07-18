@@ -2804,6 +2804,9 @@ function app:GetDataCache()
 				icon = app.asset("Interface_Newly_Added")
 			}),
 
+			-- Achievements
+			app.CreateDynamicHeader("achievementID", SimpleNPCGroup(app.HeaderConstants.ACHIEVEMENTS)),
+
 			-- Artifacts
 			app.CreateDynamicHeader("artifactID", SimpleNPCGroup(app.HeaderConstants.ARTIFACTS)),
 
