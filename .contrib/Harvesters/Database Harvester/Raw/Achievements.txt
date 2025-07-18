@@ -16310,3 +16310,10 @@
 60930@@@<Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 14 [DNT]
 60931@@@<Hidden> 11.2 Raid Renown - Manaforge Vandals Rank 15 [DNT]
 60932@@@Voidrazor Sanctuary clears
+11.2.0.61624
+41048@@@Astral Weapons of Conquest
+60933@@@With Flying Colors
+60934@@@With Flying Colors
+60939@@@Bringing Down the House
+60940@@@Vandals! In! Space!
+60941@@@<Hidden> 11.2 Raid Renown - Activated All Dead Drops

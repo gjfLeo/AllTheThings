@@ -2757,3 +2757,5 @@
 3034@@@Overlook Zo'shuul, K'aresh
 3035@@@Hosaas Rest, K'aresh
 3111@@@Quest Path 10562: 11.2 Raid - Manaforge - Zone - Traversal - Dimensius Forward Left (Quest/Event) - SRC
+11.2.0.61624
+3034@@@Overlook Zo'Shuul, K'aresh

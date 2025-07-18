@@ -22939,3 +22939,9 @@
 248855@@@Purloined Artifact
 248997@@@11.2 Raid - Manaforge - Boss 3 - Enter Combat - Sound Stalker
 249001@@@Purloined Artifact
+11.2.0.61624
+248559@@@[DNT] 11.2 Dungeon - Sound Stalker - Boss 1 - Portal RP
+248600@@@[DNT] 11.2 Dungeon - Sound Stalker - Boss 2 - Teleport RP
+248837@@@[DNT] 11.2 Raid - Manaforge - Boss 1 - Cosmetic Orb - Sound Stalker
+248997@@@[DNT] 11.2 Raid - Manaforge - Boss 3 - Enter Combat - Sound Stalker
+249357@@@[DNT] 11.2 Raid - Manaforge - Boss 1 - Post Death - Power Down - Sound Stalker

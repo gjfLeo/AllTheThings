@@ -2217,3 +2217,9 @@
 1245517@@@Scarlet Void Flyer
 1246781@@@Azure Void Flyer
 1247662@@@Brewfest Barrel Bomber
+11.2.0.61624
+1245205@@@The Headless Horseman's Hallowed Charger
+1245357@@@Adorned Northeron Gryphon
+1245358@@@High Shaman's Aerie Gryphon
+1245359@@@Cinder-Plumed Highland Gryphon
+1245361@@@Emberwing Sky Guide
