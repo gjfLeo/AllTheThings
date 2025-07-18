@@ -2525,8 +2525,38 @@ function app:GetDataCache()
 		return nil;
 	end
 
-	-- app.PrintDebug("Start loading data cache")
-	-- app.PrintMemoryUsage()
+	-- app.PrintMemoryUsage("app:GetDataCache init")
+
+	-- not really worth moving this into a Class since it's literally allowed to be used once
+	local DefaultRootKeys = {
+		__type = function(t) return "ROOT" end,
+		title = function(t)
+			return t.modeString .. DESCRIPTION_SEPARATOR .. t.untilNextPercentage
+		end,
+		progressText = function(t)
+			if not rawget(t,"TLUG") and app.CurrentCharacter then
+				local primeData = app.CurrentCharacter.PrimeData
+				if primeData then
+					return GetProgressColorText(primeData.progress, primeData.total)
+				end
+			end
+			return GetProgressColorText(t.progress, t.total)
+		end,
+		modeString = function(t)
+			return app.Settings:GetModeString()
+		end,
+		untilNextPercentage = function(t)
+			if not rawget(t,"TLUG") and app.CurrentCharacter then
+				local primeData = app.CurrentCharacter.PrimeData
+				if primeData then
+					return app.Modules.Color.GetProgressTextToNextPercent(primeData.progress, primeData.total)
+				end
+			end
+			return app.Modules.Color.GetProgressTextToNextPercent(t.progress, t.total)
+		end,
+		visible = app.ReturnTrue,
+	}
+	app.CloneDictionary(app.BaseClass.__class, DefaultRootKeys)
 
 	-- Update the Row Data by filtering raw data (this function only runs once)
 	local rootData = setmetatable({
@@ -2536,38 +2566,11 @@ function app:GetDataCache()
 		description = L.DESCRIPTION,
 		font = "GameFontNormalLarge",
 		expanded = true,
-		visible = true,
-		progress = 0,
-		total = 0,
 		g = {},
 	}, {
-		-- TODO: yuck all of this... should assign the available functionality during startup events
-		-- and use proper methods
 		__index = function(t, key)
-			-- app.PrintDebug("Top-Root-Get",rawget(t,"TLUG"),key)
-			if key == "title" then
-				return t.modeString .. DESCRIPTION_SEPARATOR .. t.untilNextPercentage;
-			elseif key == "progressText" then
-				if not rawget(t,"TLUG") and app.CurrentCharacter then
-					local primeData = app.CurrentCharacter.PrimeData;
-					if primeData then
-						return GetProgressColorText(primeData.progress, primeData.total);
-					end
-				end
-				return GetProgressColorText(t.progress, t.total);
-			elseif key == "modeString" then
-				return app.Settings:GetModeString();
-			elseif key == "untilNextPercentage" then
-				if not rawget(t,"TLUG") and app.CurrentCharacter then
-					local primeData = app.CurrentCharacter.PrimeData;
-					if primeData then
-						return app.Modules.Color.GetProgressTextToNextPercent(primeData.progress, primeData.total);
-					end
-				end
-				return app.Modules.Color.GetProgressTextToNextPercent(t.progress, t.total);
-			elseif key == "visible" then
-				return true;
-			end
+			local defaultKeyFunc = DefaultRootKeys[key]
+			if defaultKeyFunc then return defaultKeyFunc(t) end
 		end,
 		__newindex = function(t, key, val)
 			-- app.PrintDebug("Top-Root-Set",rawget(t,"TLUG"),key,val)
@@ -2707,7 +2710,7 @@ function app:GetDataCache()
 		db = app.CreateNPC(app.HeaderConstants.SECRETS, app.Categories.Secrets);
 		tinsert(g, db);
 	end
-	
+
 	-----------------------------------------
 	-- L I M I T E D   C A T E G O R I E S --
 	-----------------------------------------
