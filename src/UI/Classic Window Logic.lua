@@ -429,24 +429,6 @@ local function RedrawVisibleRowData(self)
 		end
 	end
 end
-local function UpdateRowProgress(group)
-	if group.collectible then
-		group.progress = group.collected and 1 or 0;
-		group.total = 1;
-	else
-		group.progress = 0;
-		group.total = 0;
-	end
-	if group.g then
-		for i,subgroup in ipairs(group.g) do
-			UpdateRowProgress(subgroup);
-			if subgroup.total then
-				group.progress = group.progress + subgroup.progress;
-				group.total = group.total + subgroup.total;
-			end
-		end
-	end
-end
 local function UpdateVisibleRowData(self)
 	-- If there is no raw data, then return immediately.
 	if not self.rowData then return; end
