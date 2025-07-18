@@ -15,216 +15,216 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 		["isRaid"] = true,
 		["g"] = appendGroups(
 			applyclassicphase(MOP_PHASE_LANDFALL, {
-			------ Chapter 1 ------
-			q(31488, {	-- Stranger in a Strange Land
-				["providers"] = {
-					-- There are many providers choosing only two
-					{ "n", 64047 },	-- Kurong Caskhead <Bartender>
-					{ "n", 64144 },	-- Brewmaster Tsu
-				},
-				["coords"] = {
-					{ 59.6, 75.8, 391 },
-					{ 36.6, 76.6, 393 },
-				},
-				["classes"] = exclude(ROGUE, ALL_CLASSES),
-			}),
-			q(31489, {	-- Stranger in a Strange Land
-				["providers"] = {
-					-- There are many providers choosing only two
-					{ "n", 64047 },	-- Kurong Caskhead <Bartender>
-					{ "n", 64144 },	-- Brewmaster Tsu
-				},
-				["coords"] = {
-					{ 59.6, 75.8, 391 },
-					{ 36.6, 76.6, 393 },
-				},
-				["classes"] = { ROGUE },
-			}),
-			q(31454, {	-- A Legend in the Making
-				["sourceQuests"] = {
-					31488,	-- Stranger in a Strange Land
-					31489,	-- Stranger in a Strange Land
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["sourceQuestNumRequired"] = 1,
-			}),
-			q(31468, {	-- Trial of the Black Prince
-				-- Rogues can skip this if they done Patricide Rogue Leggo
-				["sourceQuests"] = { 31454 },	-- A Legend in the Making
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["minReputation"] = { FACTION_THE_BLACK_PRINCE, HONORED },
-			}),
-			q(31473, {	-- The Strength of One's Foes
-				["sourceQuests"] = { 31454 },	-- A Legend in the Making
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["maps"] = {
-					471, 472, 473,	-- Mogu'shan Vaults
-					474, 475,		-- Heart of Fear
-					456,			-- Terrace of Endless Spring
-				},
-				["groups"] = {
-					objective(1, {	-- 0/10 Sigil of Power
-						["provider"] = { "i", 87208 },	-- Sigil of Power
-					}),
-					objective(2, {	-- 0/10 Sigil of Wisdom
-						["provider"] = { "i", 87209 },	-- Sigil of Wisdom
-					}),
-				},
-			}),
-			q(31481, {	-- Fear Itself
-				["sourceQuests"] = {
-					31468,	-- Trial of the Black Prince
-					31473,	-- The Strength of One's Foes
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["maps"] = { 456 },	-- Terrace of Endless Spring
-			}),
-			q(31482, {	-- Breath of the Black Prince
-				["sourceQuests"] = { 31481 },	-- Fear Itself
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["g"] = {
-					ach(7533),	-- Chapter I: Trial of the Black Prince
-					i(89873),	-- Crystallized Dread
-					i(89882),	-- Crystallized Horror
-					i(89881),	-- Crystallized Terror
-				},
-			}),
-			------ Chapter 2 ------
-			q(31483, {	-- Incoming...
-				["sourceQuests"] = { 31482 },	-- Breath of the Black Prince
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["isBreadcrumb"] = true,
-			}),
-			q(32373, {	-- The Measure of a Leader (A)
-				["sourceQuests"] = {
-					31482,	-- Breath of the Black Prince
-					32109,	-- Lion's Landing
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = ALLIANCE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
-			q(32427, {	-- The Measure of a Leader (H)
-				["sourceQuests"] = {
-					31482,	-- Breath of the Black Prince
-					32108,	-- Domination Point
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = HORDE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
-			q(32374, {	-- The Prince's Pursuit (A)
-				["sourceQuests"] = { 32373 },	-- The Measure of a Leader (A)
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = ALLIANCE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
-			q(32429, {	-- The Prince's Pursuit (H)
-				["sourceQuests"] = { 32427 },	-- The Measure of a Leader (H)
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = HORDE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
-			q(32474, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- A Test of Valor (A)
-				["sourceQuests"] = { 32373 },	-- The Measure of a Leader (A)
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = ALLIANCE_ONLY,
-				["cost"] = { { "c", 396, 3000 }, },	-- 3000 Valor
-				["g"] = {
-					ach(8030, {	-- A Test of Valor (A)
-						["races"] = ALLIANCE_ONLY,
-					}),
-				},
-			})),
-			q(32476, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- A Test of Valor (H)
-				["sourceQuests"] = { 32427 },	-- The Measure of a Leader (H)
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = HORDE_ONLY,
-				["cost"] = { { "c", 396, 3000 }, },	-- 3000 Valor
-				["g"] = {
-					ach(8031, {	-- A Test of Valor (H)
-						["races"] = HORDE_ONLY,
-					}),
-				},
-			})),
-			q(32388, {	-- A Change of Command (A)
-				["sourceQuests"] = {
-					32374,	-- The Prince's Pursuit (A)
-					32474,	-- A Test of Valor (A)
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = ALLIANCE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
-			q(32430, {	-- A Change of Command (H)
-				["sourceQuests"] = {
-					32429,	-- The Prince's Pursuit (H)
-					32476,	-- A Test of Valor (H)
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = HORDE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			}),
-			pvp(q(32389, {	-- The Lion Roars
-				["sourceQuests"] = {
-					32374,	-- The Prince's Pursuit (A)
-					32474,	-- A Test of Valor (A)
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = ALLIANCE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			})),
-			pvp(q(32431, {	-- Glory to the Horde
-				["sourceQuests"] = {
-					32429,	-- The Prince's Pursuit (H)
-					32476,	-- A Test of Valor (H)
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = HORDE_ONLY,
-				["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-			})),
-			q(32390, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- Call of the Packmaster
-				["sourceQuests"] = {
-					32388,	-- A Change of Command (A)
-					32389,	-- The Lion Roars
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = ALLIANCE_ONLY,
-				["g"] = {
-					ach(7534),	-- Chapter II: Wrathion's War
-					i(93403),	-- Eye of the Black Prince
-				},
-			})),
-			q(32432, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- The Soul of the Horde
-				["sourceQuests"] = {
-					32430,	-- A Change of Command (H)
-					32431,	-- Glory to the Horde
-				},
-				["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
-				["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
-				["races"] = HORDE_ONLY,
-				["g"] = {
-					ach(8008),	-- Chapter II: Wrathion's War
-					i(93403),	-- Eye of the Black Prince
-				},
-			})),
+				------ Chapter 1 ------
+				q(31488, {	-- Stranger in a Strange Land
+					["providers"] = {
+						-- There are many providers choosing only two
+						{ "n", 64047 },	-- Kurong Caskhead <Bartender>
+						{ "n", 64144 },	-- Brewmaster Tsu
+					},
+					["coords"] = {
+						{ 59.6, 75.8, 391 },
+						{ 36.6, 76.6, 393 },
+					},
+					["classes"] = exclude(ROGUE, ALL_CLASSES),
+				}),
+				q(31489, {	-- Stranger in a Strange Land
+					["providers"] = {
+						-- There are many providers choosing only two
+						{ "n", 64047 },	-- Kurong Caskhead <Bartender>
+						{ "n", 64144 },	-- Brewmaster Tsu
+					},
+					["coords"] = {
+						{ 59.6, 75.8, 391 },
+						{ 36.6, 76.6, 393 },
+					},
+					["classes"] = { ROGUE },
+				}),
+				q(31454, {	-- A Legend in the Making
+					["sourceQuests"] = {
+						31488,	-- Stranger in a Strange Land
+						31489,	-- Stranger in a Strange Land
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["sourceQuestNumRequired"] = 1,
+				}),
+				q(31468, {	-- Trial of the Black Prince
+					-- Rogues can skip this if they done Patricide Rogue Leggo
+					["sourceQuests"] = { 31454 },	-- A Legend in the Making
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["minReputation"] = { FACTION_THE_BLACK_PRINCE, HONORED },
+				}),
+				q(31473, {	-- The Strength of One's Foes
+					["sourceQuests"] = { 31454 },	-- A Legend in the Making
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["maps"] = {
+						471, 472, 473,	-- Mogu'shan Vaults
+						474, 475,		-- Heart of Fear
+						456,			-- Terrace of Endless Spring
+					},
+					["groups"] = {
+						objective(1, {	-- 0/10 Sigil of Power
+							["provider"] = { "i", 87208 },	-- Sigil of Power
+						}),
+						objective(2, {	-- 0/10 Sigil of Wisdom
+							["provider"] = { "i", 87209 },	-- Sigil of Wisdom
+						}),
+					},
+				}),
+				q(31481, {	-- Fear Itself
+					["sourceQuests"] = {
+						31468,	-- Trial of the Black Prince
+						31473,	-- The Strength of One's Foes
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["maps"] = { 456 },	-- Terrace of Endless Spring
+				}),
+				q(31482, {	-- Breath of the Black Prince
+					["sourceQuests"] = { 31481 },	-- Fear Itself
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["g"] = {
+						ach(7533),	-- Chapter I: Trial of the Black Prince
+						i(89873),	-- Crystallized Dread
+						i(89882),	-- Crystallized Horror
+						i(89881),	-- Crystallized Terror
+					},
+				}),
+				------ Chapter 2 ------
+				q(31483, {	-- Incoming...
+					["sourceQuests"] = { 31482 },	-- Breath of the Black Prince
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["isBreadcrumb"] = true,
+				}),
+				q(32373, {	-- The Measure of a Leader (A)
+					["sourceQuests"] = {
+						31482,	-- Breath of the Black Prince
+						32109,	-- Lion's Landing
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = ALLIANCE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				}),
+				q(32427, {	-- The Measure of a Leader (H)
+					["sourceQuests"] = {
+						31482,	-- Breath of the Black Prince
+						32108,	-- Domination Point
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = HORDE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				}),
+				q(32374, {	-- The Prince's Pursuit (A)
+					["sourceQuests"] = { 32373 },	-- The Measure of a Leader (A)
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = ALLIANCE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				}),
+				q(32429, {	-- The Prince's Pursuit (H)
+					["sourceQuests"] = { 32427 },	-- The Measure of a Leader (H)
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = HORDE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				}),
+				q(32474, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- A Test of Valor (A)
+					["sourceQuests"] = { 32373 },	-- The Measure of a Leader (A)
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = ALLIANCE_ONLY,
+					["cost"] = { { "c", 396, 3000 }, },	-- 3000 Valor
+					["g"] = {
+						ach(8030, {	-- A Test of Valor (A)
+							["races"] = ALLIANCE_ONLY,
+						}),
+					},
+				})),
+				q(32476, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- A Test of Valor (H)
+					["sourceQuests"] = { 32427 },	-- The Measure of a Leader (H)
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = HORDE_ONLY,
+					["cost"] = { { "c", 396, 3000 }, },	-- 3000 Valor
+					["g"] = {
+						ach(8031, {	-- A Test of Valor (H)
+							["races"] = HORDE_ONLY,
+						}),
+					},
+				})),
+				q(32388, {	-- A Change of Command (A)
+					["sourceQuests"] = {
+						32374,	-- The Prince's Pursuit (A)
+						32474,	-- A Test of Valor (A)
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = ALLIANCE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				}),
+				q(32430, {	-- A Change of Command (H)
+					["sourceQuests"] = {
+						32429,	-- The Prince's Pursuit (H)
+						32476,	-- A Test of Valor (H)
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = HORDE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				}),
+				pvp(q(32389, {	-- The Lion Roars
+					["sourceQuests"] = {
+						32374,	-- The Prince's Pursuit (A)
+						32474,	-- A Test of Valor (A)
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = ALLIANCE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				})),
+				pvp(q(32431, {	-- Glory to the Horde
+					["sourceQuests"] = {
+						32429,	-- The Prince's Pursuit (H)
+						32476,	-- A Test of Valor (H)
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = HORDE_ONLY,
+					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+				})),
+				q(32390, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- Call of the Packmaster
+					["sourceQuests"] = {
+						32388,	-- A Change of Command (A)
+						32389,	-- The Lion Roars
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = ALLIANCE_ONLY,
+					["g"] = {
+						ach(7534),	-- Chapter II: Wrathion's War
+						i(93403),	-- Eye of the Black Prince
+					},
+				})),
+				q(32432, bubbleDownSelf({["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 } }, {	-- The Soul of the Horde
+					["sourceQuests"] = {
+						32430,	-- A Change of Command (H)
+						32431,	-- Glory to the Horde
+					},
+					["provider"] = { "n", 64616 },	-- Wrathion <The Black Prince>
+					["coord"] = { 54.6, 72.6, THE_VEILED_STAIR },
+					["races"] = HORDE_ONLY,
+					["g"] = {
+						ach(8008),	-- Chapter II: Wrathion's War
+						i(93403),	-- Eye of the Black Prince
+					},
+				})),
 			}),
 			applyclassicphase(MOP_PHASE_RISE_OF_THE_THUNDER_KING, {
 				------ Chapter 3 ------
