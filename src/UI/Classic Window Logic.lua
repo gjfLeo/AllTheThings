@@ -1777,26 +1777,33 @@ function app:CreateWindow(suffix, settings)
 		if onRefresh then
 			if debugging then
 				function window:Refresh()
-					print("Refresh: " .. suffix);
-					local lastUpdate = GetTimePreciseSec();
-					if onRefresh(self) then defaultOnRefresh(self); end
-					print("Refresh: " .. suffix, (GetTimePreciseSec() - lastUpdate) * 10000);
+					if self:IsShown() then
+						print("Refresh: " .. suffix);
+						local lastUpdate = GetTimePreciseSec();
+						if onRefresh(self) then defaultOnRefresh(self); end
+						print("Refresh: " .. suffix, (GetTimePreciseSec() - lastUpdate) * 10000);
+					end
 				end
 			else
 				function window:Refresh()
-					if onRefresh(self) then defaultOnRefresh(self); end
+					if self:IsShown() and onRefresh(self) then defaultOnRefresh(self); end
 				end
 			end
 		else
 			if debugging then
 				function window:Refresh()
-					print("Refresh: " .. suffix);
-					local lastUpdate = GetTimePreciseSec();
-					defaultOnRefresh(self);
-					print("Refresh: " .. suffix, (GetTimePreciseSec() - lastUpdate) * 10000);
+					if self:IsShown() then
+						print("Refresh: " .. suffix);
+						local lastUpdate = GetTimePreciseSec();
+						defaultOnRefresh(self);
+						print("Refresh: " .. suffix, (GetTimePreciseSec() - lastUpdate) * 10000);
+					end
 				end
 			else
-				window.Refresh = defaultOnRefresh;
+				--window.Refresh = defaultOnRefresh;
+				function window:Refresh()
+					if self:IsShown() then defaultOnRefresh(self); end
+				end
 			end
 		end
 
