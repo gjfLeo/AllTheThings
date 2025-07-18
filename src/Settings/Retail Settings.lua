@@ -1180,7 +1180,7 @@ end
 
 Mixin(settings, ATTSettingsPanelMixin);
 
-local Categories, AddOnCategoryID, RootCategoryID = {}, appName, nil;
+local OptionsPages, AddOnCategoryID, RootCategoryID = {}, appName, nil;
 local openToCategory = Settings and Settings.OpenToCategory or InterfaceOptionsFrame_OpenToCategory;
 settings.Open = function(self)
 	if not openToCategory(RootCategoryID or AddOnCategoryID) then
@@ -1203,7 +1203,7 @@ settings.CreateOptionsPage = function(self, text, parentCategory, isRootCategory
 			Settings.RegisterAddOnCategory(category);
 			AddOnCategoryID = category.ID;
 		else
-			parentCategory = Categories[parentCategory or appName];
+			parentCategory = OptionsPages[parentCategory or appName];
 			category = Settings.RegisterCanvasLayoutSubcategory(parentCategory.category, subcategory, text)
 			if isRootCategory then RootCategoryID = category.ID; end
 		end
@@ -1214,7 +1214,7 @@ settings.CreateOptionsPage = function(self, text, parentCategory, isRootCategory
 		if text ~= appName then subcategory.parent = parentCategory or appName; end
 		InterfaceOptions_AddCategory(subcategory);
 	end
-	Categories[text] = subcategory;
+	OptionsPages[text] = subcategory;
 
 	-- Common Header
 	local logo = subcategory:CreateTexture(nil, "ARTWORK");
