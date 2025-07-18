@@ -1824,14 +1824,7 @@ app.AddEventHandler("RowOnEnter", function(self)
 		-- Add any ID toggle fields
 		app.ProcessInformationTypes(tooltipInfo, reference);
 	end
-
-	-- Ignored for Source/Progress
-	if reference.sourceIgnored then
-		tooltipInfo[#tooltipInfo + 1] = {
-			left = L.DOES_NOT_CONTRIBUTE_TO_PROGRESS,
-			wrap = true,
-		}
-	end
+	
 	-- Further conditional texts that can be displayed
 	if reference.timeRemaining then
 		tooltipInfo[#tooltipInfo + 1] = {

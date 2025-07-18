@@ -51,9 +51,11 @@ local function UpdateGroup(group, parent)
 
 			-- If the 'can equip' filter says true
 			if app.GroupFilter(group) then
-				-- Increment the parent group's totals.
-				parent.total = (parent.total or 0) + group.total;
-				parent.progress = (parent.progress or 0) + group.progress;
+				if not group.sourceIgnored then
+					-- Increment the parent group's totals.
+					parent.total = (parent.total or 0) + group.total;
+					parent.progress = (parent.progress or 0) + group.progress;
+				end
 
 				-- If this group is trackable, then we should show it.
 				if group.total > 0 and app.GroupVisibilityFilter(group) then

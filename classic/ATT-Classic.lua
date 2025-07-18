@@ -1726,7 +1726,9 @@ function app:GetDataCache()
 			end
 			app.Sort(sortedList, app.SortDefaults.Strings);
 			for i,suffix in ipairs(sortedList) do
-				tinsert(g, app.CreateDynamicCategory(suffix));
+				local dynamicCategory = app.CreateDynamicCategory(suffix);
+				dynamicCategory.sourceIgnored = 1;
+				tinsert(g, dynamicCategory);
 			end
 		end
 

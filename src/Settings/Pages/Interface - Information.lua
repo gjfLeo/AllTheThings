@@ -174,7 +174,7 @@ local function ProcessInformationType(t, reference, tooltipInfo)
 	if val then
 		local text = ConversionMethods[t.informationTypeID](val, reference)
 		if text then
-			tinsert(tooltipInfo, { left = t.text, right = text});
+			tinsert(tooltipInfo, { left = t.text, right = text });
 		end
 	end
 end
@@ -1268,7 +1268,14 @@ local InformationTypes = {
 			end
 		end,
 	}),
-
+	CreateInformationType("sourceIgnored", { text = "sourceIgnored", priority = 11001, HideCheckBox = true, ForceActive = true, ShouldDisplayInExternalTooltips = false, 
+		Process = function(t, reference, tooltipInfo)
+			if reference.sourceIgnored then
+				tinsert(tooltipInfo, { left = L.DOES_NOT_CONTRIBUTE_TO_PROGRESS, wrap = true });
+			end
+		end,
+	}),
+	
 	CreateInformationType("SpecializationRequirements", {
 		priority = 9003,
 		text = "Specializations",
