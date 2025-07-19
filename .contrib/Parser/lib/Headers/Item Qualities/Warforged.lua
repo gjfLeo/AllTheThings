@@ -7,3 +7,7 @@ WARFORGED = createHeader({
 		mx = "Forjas de la guerra",
 	},
 });
+
+HEADER_WARFORGED = function(t)
+	return n(WARFORGED, bubbleDown({["bonusID"] = 4746 }, t))
+end
