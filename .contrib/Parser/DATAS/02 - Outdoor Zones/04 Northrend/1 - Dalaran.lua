@@ -1305,11 +1305,6 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				-- #endif
-				prof(COOKING, {
-					i(43143, {	-- Wild Mustard
-						["provider"] = { "o", 192827 },	-- Wild Mustard
-					}),
-				}),
 				n(FACTIONS, {
 					faction(FACTION_KIRIN_TOR, {	-- Kirin Tor
 						["provider"] = { "i", 43157 },	-- Tabard of the Kirin Tor
@@ -1324,37 +1319,6 @@ root(ROOTS.Zones, {
 						["icon"] = 132850,
 						["maps"] = { ICECROWN },
 						["races"] = HORDE_ONLY,
-					}),
-				}),
-				prof(FISHING, {
-					i(45328, {	-- Bloated Slippery Eel
-						i(45323),	-- Severed Arm
-					}),
-					i(43659, {	-- Bloodied Prison Shank
-						["timeline"] = { ADDED_3_0_2 },
-						["description"] = "Can be fished up from the waters outside Violet Hold on WotLK Dalaran.",
-					}),
-					o(193402, {	-- Rusted Prisoner's Footlocker
-						["coord"] = { 64.5, 73.8, NORTHREND_DALARAN },
-						["cost"] = {
-							-- #if AFTER 5.2.0
-							{ "i", 93738, 1 },	-- Rusty Prison Key
-							-- #else
-							{ "i", 43650, 1 },	-- Rusty Prison Key
-							-- #endif
-						},
-						["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3, ADDED_5_2_0 },
-						["groups"] = {
-							i(37891),	-- Cast Iron Shackles
-							i(37890),	-- Chain Gang Legguards
-							i(37889),	-- Prison Manifest
-						},
-					}),
-					i(93738, {	-- Rusty Prison Key
-						["timeline"] = { ADDED_5_2_0 },
-					}),
-					i(43650, {	-- Rusty Prison Key
-						["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3 },
 					}),
 				}),
 				n(FLIGHT_PATHS, {
@@ -1405,15 +1369,63 @@ root(ROOTS.Zones, {
 						}),
 					}),
 					prof(COOKING, {
-						["crs"] = {
-							28705,	-- Katherine Lee <Cooking Trainer> [A]
-							29631,	-- Awilo Lon'gomba <Cooking Trainer> [H]
+						{
+							["aqd"] = n(28705, {	-- Katherine Lee <Cooking Trainer>
+								["coord"] = { 41.6, 64.6, NORTHREND_DALARAN },
+							}),
+							["hqd"] = n(29631, {	-- Awilo Lon'gomba <Cooking Trainer>
+								["coord"] = { 52.2, 36.4, NORTHREND_DALARAN },
+							}),
+							["groups"] = WRATH_COOKING,
 						},
-						["coords"] = {
-							{ 41.6, 64.6, NORTHREND_DALARAN },
-							{ 52.2, 36.4, NORTHREND_DALARAN },
+						{
+							["aqd"] = n(31032, {	-- Derek Odds <Cooking Supplies>
+								["coord"] = { 40.7, 65.9, NORTHREND_DALARAN },
+							}),
+							["hqd"] = n(31031, {	-- Misensi <Cooking Supplies>
+								["coord"] = { 70.0, 38.6, NORTHREND_DALARAN },
+							}),
+							["groups"] = {
+								epicurean(100, i(46349, {	-- Chef's Hat
+									["timeline"] = { DELETED_7_0_3 },
+								})),
+								epicurean(100, i(134020, {	-- Chef's Hat (TOY!)
+									["timeline"] = { ADDED_7_0_3 },
+								})),
+								epicurean(1, i(43007)),	-- Northern Spices
+								epicurean(3, i(43035)),	-- Recipe: Blackened Dragonfin (RECIPE!)
+								epicurean(3, i(43032)),	-- Recipe: Blackened Worg Steak (RECIPE!)
+								epicurean(3, i(43029)),	-- Recipe: Critter Bites (RECIPE!)
+								epicurean(3, i(43033)),	-- Recipe: Cuttlesteak (RECIPE!)
+								epicurean(3, i(43036)),	-- Recipe: Dragonfin Filet (RECIPE!)
+								epicurean(3, i(43024)),	-- Recipe: Firecracker Salmon (RECIPE!)
+								epicurean(5, i(43017, {	-- Recipe: Fish Feast (RECIPE!)
+									["timeline"] = { ADDED_3_0_8 },
+								})),
+								epicurean(3, i(43505)),	-- Recipe: Gigantic Feast (RECIPE!)
+								epicurean(3, i(43030)),	-- Recipe: Hearty Rhino (RECIPE!)
+								epicurean(3, i(43026)),	-- Recipe: Imperial Manta Steak (RECIPE!)
+								epicurean(3, i(43018)),	-- Recipe: Mega Mammoth Meal (RECIPE!)
+								epicurean(3, i(43022)),	-- Recipe: Mighty Rhino Dogs (RECIPE!)
+								epicurean(3, i(43023)),	-- Recipe: Poached Northern Sculpin (RECIPE!)
+								epicurean(3, i(43028)),	-- Recipe: Rhinolicious Wormsteak (RECIPE!)
+								epicurean(3, i(43506)),	-- Recipe: Small Feast (RECIPE!)
+								epicurean(3, i(43031)),	-- Recipe: Snapper Extreme (RECIPE!)
+								epicurean(3, i(43034)),	-- Recipe: Spiced Mammoth Treats (RECIPE!)
+								epicurean(3, i(43020)),	-- Recipe: Spiced Worm Burger (RECIPE!)
+								epicurean(3, i(43025)),	-- Recipe: Spicy Blue Nettlefish (RECIPE!)
+								epicurean(3, i(43027)),	-- Recipe: Spicy Fried Herring (RECIPE!)
+								epicurean(3, i(43019)),	-- Recipe: Tender Shoveltusk Steak (RECIPE!)
+								epicurean(3, i(43037)),	-- Recipe: Tracker Snacks (RECIPE!)
+								epicurean(3, i(43021)),	-- Recipe: Very Burnt Worg (RECIPE!)
+								epicurean(3, i(44954, {	-- Recipe: Worg Tartare (RECIPE!)
+									["timeline"] = { ADDED_3_0_8 },
+								})),
+							},
 						},
-						["groups"] = WRATH_COOKING,
+						i(43143, {	-- Wild Mustard
+							["provider"] = { "o", 192827 },	-- Wild Mustard
+						}),
 					}),
 					prof(ENCHANTING, {
 						n(28693, {	-- Enchanter Nalthanis <Enchanting Trainer>
@@ -1437,6 +1449,35 @@ root(ROOTS.Zones, {
 						n(28742, {	-- Marcia Chase <Fishing Trainer & Supplies>
 							["coord"] = { 52.6, 65.6, NORTHREND_DALARAN },
 							["groups"] = WRATH_FISHING,
+						}),
+						i(45328, {	-- Bloated Slippery Eel
+							i(45323),	-- Severed Arm
+						}),
+						i(43659, {	-- Bloodied Prison Shank
+							["timeline"] = { ADDED_3_0_2 },
+							["description"] = "Can be fished up from the waters outside Violet Hold on WotLK Dalaran.",
+						}),
+						o(193402, {	-- Rusted Prisoner's Footlocker
+							["coord"] = { 64.5, 73.8, NORTHREND_DALARAN },
+							["cost"] = {
+								-- #if AFTER 5.2.0
+								{ "i", 93738, 1 },	-- Rusty Prison Key
+								-- #else
+								{ "i", 43650, 1 },	-- Rusty Prison Key
+								-- #endif
+							},
+							["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3, ADDED_5_2_0 },
+							["groups"] = {
+								i(37891),	-- Cast Iron Shackles
+								i(37890),	-- Chain Gang Legguards
+								i(37889),	-- Prison Manifest
+							},
+						}),
+						i(93738, {	-- Rusty Prison Key
+							["timeline"] = { ADDED_5_2_0 },
+						}),
+						i(43650, {	-- Rusty Prison Key
+							["timeline"] = { ADDED_3_0_2, REMOVED_4_0_3 },
 						}),
 					}),
 					prof(HERBALISM, {
@@ -3072,47 +3113,6 @@ root(ROOTS.Zones, {
 							emoh(40, i(40683)),	-- Valor Medal of the First War
 						},
 					}),
-					n(31032, {	-- Derek Odds <Cooking Supplies>
-						["coord"] = { 40.7, 65.9, NORTHREND_DALARAN },
-						["races"] = ALLIANCE_ONLY,
-						["groups"] = {
-							epicurean(100, i(46349, {	-- Chef's Hat
-								["timeline"] = { DELETED_7_0_3 },
-							})),
-							epicurean(100, i(134020, {	-- Chef's Hat (TOY!)
-								["timeline"] = { ADDED_7_0_3 },
-							})),
-							epicurean(1, i(43007)),	-- Northern Spices
-							epicurean(3, i(43035)),	-- Recipe: Blackened Dragonfin (RECIPE!)
-							epicurean(3, i(43032)),	-- Recipe: Blackened Worg Steak (RECIPE!)
-							epicurean(3, i(43029)),	-- Recipe: Critter Bites (RECIPE!)
-							epicurean(3, i(43033)),	-- Recipe: Cuttlesteak (RECIPE!)
-							epicurean(3, i(43036)),	-- Recipe: Dragonfin Filet (RECIPE!)
-							epicurean(3, i(43024)),	-- Recipe: Firecracker Salmon (RECIPE!)
-							epicurean(5, i(43017, {	-- Recipe: Fish Feast (RECIPE!)
-								["timeline"] = { ADDED_3_0_8 },
-							})),
-							epicurean(3, i(43505)),	-- Recipe: Gigantic Feast (RECIPE!)
-							epicurean(3, i(43030)),	-- Recipe: Hearty Rhino (RECIPE!)
-							epicurean(3, i(43026)),	-- Recipe: Imperial Manta Steak (RECIPE!)
-							epicurean(3, i(43018)),	-- Recipe: Mega Mammoth Meal (RECIPE!)
-							epicurean(3, i(43022)),	-- Recipe: Mighty Rhino Dogs (RECIPE!)
-							epicurean(3, i(43023)),	-- Recipe: Poached Northern Sculpin (RECIPE!)
-							epicurean(3, i(43028)),	-- Recipe: Rhinolicious Wormsteak (RECIPE!)
-							epicurean(3, i(43506)),	-- Recipe: Small Feast (RECIPE!)
-							epicurean(3, i(43031)),	-- Recipe: Snapper Extreme (RECIPE!)
-							epicurean(3, i(43034)),	-- Recipe: Spiced Mammoth Treats (RECIPE!)
-							epicurean(3, i(43020)),	-- Recipe: Spiced Worm Burger (RECIPE!)
-							epicurean(3, i(43025)),	-- Recipe: Spicy Blue Nettlefish (RECIPE!)
-							epicurean(3, i(43027)),	-- Recipe: Spicy Fried Herring (RECIPE!)
-							epicurean(3, i(43019)),	-- Recipe: Tender Shoveltusk Steak (RECIPE!)
-							epicurean(3, i(43037)),	-- Recipe: Tracker Snacks (RECIPE!)
-							epicurean(3, i(43021)),	-- Recipe: Very Burnt Worg (RECIPE!)
-							epicurean(3, i(44954, {	-- Recipe: Worg Tartare (RECIPE!)
-								["timeline"] = { ADDED_3_0_8 },
-							})),
-						},
-					}),
 					n(34252, {	-- Dubin Clay <Plate Armor Merchant>
 						["coord"] = { 46.2, 27.2, NORTHREND_DALARAN },
 						["groups"] = {
@@ -3727,47 +3727,6 @@ root(ROOTS.Zones, {
 								["cost"] = { { "c", 101, 200 } },	-- Emblem of Heroism
 								-- #endif
 							}),
-						},
-					}),
-					n(31031, {	-- Misensi <Cooking Supplies>
-						["coord"] = { 70.0, 38.6, NORTHREND_DALARAN },
-						["races"] = HORDE_ONLY,
-						["groups"] = {
-							epicurean(100, i(46349, {	-- Chef's Hat
-								["timeline"] = { DELETED_7_0_3 },
-							})),
-							epicurean(100, i(134020, {	-- Chef's Hat (TOY!)
-								["timeline"] = { ADDED_7_0_3 },
-							})),
-							epicurean(1, i(43007)),	-- Northern Spices
-							epicurean(3, i(43035)),	-- Recipe: Blackened Dragonfin (RECIPE!)
-							epicurean(3, i(43032)),	-- Recipe: Blackened Worg Steak (RECIPE!)
-							epicurean(3, i(43029)),	-- Recipe: Critter Bites (RECIPE!)
-							epicurean(3, i(43033)),	-- Recipe: Cuttlesteak (RECIPE!)
-							epicurean(3, i(43036)),	-- Recipe: Dragonfin Filet (RECIPE!)
-							epicurean(3, i(43024)),	-- Recipe: Firecracker Salmon (RECIPE!)
-							epicurean(5, i(43017, {	-- Recipe: Fish Feast (RECIPE!)
-								["timeline"] = { ADDED_3_0_8 },
-							})),
-							epicurean(3, i(43505)),	-- Recipe: Gigantic Feast (RECIPE!)
-							epicurean(3, i(43030)),	-- Recipe: Hearty Rhino (RECIPE!)
-							epicurean(3, i(43026)),	-- Recipe: Imperial Manta Steak (RECIPE!)
-							epicurean(3, i(43018)),	-- Recipe: Mega Mammoth Meal (RECIPE!)
-							epicurean(3, i(43022)),	-- Recipe: Mighty Rhino Dogs (RECIPE!)
-							epicurean(3, i(43023)),	-- Recipe: Poached Northern Sculpin (RECIPE!)
-							epicurean(3, i(43028)),	-- Recipe: Rhinolicious Wormsteak (RECIPE!)
-							epicurean(3, i(43506)),	-- Recipe: Small Feast (RECIPE!)
-							epicurean(3, i(43031)),	-- Recipe: Snapper Extreme (RECIPE!)
-							epicurean(3, i(43034)),	-- Recipe: Spiced Mammoth Treats (RECIPE!)
-							epicurean(3, i(43020)),	-- Recipe: Spiced Worm Burger (RECIPE!)
-							epicurean(3, i(43025)),	-- Recipe: Spicy Blue Nettlefish (RECIPE!)
-							epicurean(3, i(43027)),	-- Recipe: Spicy Fried Herring (RECIPE!)
-							epicurean(3, i(43019)),	-- Recipe: Tender Shoveltusk Steak (RECIPE!)
-							epicurean(3, i(43037)),	-- Recipe: Tracker Snacks (RECIPE!)
-							epicurean(3, i(43021)),	-- Recipe: Very Burnt Worg (RECIPE!)
-							epicurean(3, i(44954, {	-- Recipe: Worg Tartare (RECIPE!)
-								["timeline"] = { ADDED_3_0_8 },
-							})),
 						},
 					}),
 					n(29529, {	-- Ninsianna <Relics>
