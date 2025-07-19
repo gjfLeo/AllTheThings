@@ -310,8 +310,8 @@ root(ROOTS.Zones, {
 							16583,	-- Rohok <Blacksmithing Trainer> (H)
 						},
 						["coords"] = {
-							{ 56.8, 63.8, HELLFIRE_PENINSULA },
-							{ 53.2, 38.2, HELLFIRE_PENINSULA },
+							{ 56.8, 63.8, HELLFIRE_PENINSULA },	-- Honour Hold
+							{ 53.2, 38.2, HELLFIRE_PENINSULA },	-- Thrallmar
 						},
 						["groups"] = TBC_BLACKSMITHING,
 					}),
@@ -3059,6 +3059,15 @@ root(ROOTS.Zones, {
 					n(18802, {	-- Alchemist Gribble <Alchemy Trainer>
 						["coord"] = { 53.8, 65.8, HELLFIRE_PENINSULA },
 						["races"] = ALLIANCE_ONLY,
+						["sym"] = {
+							{ "select","itemID",
+								-- #if AFTER CATA
+								3371,	-- Crystal Vial
+								-- #else
+								18256,	-- Imbued Vial
+								-- #endif
+							},
+						},
 						["groups"] = {
 							i(22900, {	-- Recipe: Elixir of Camouflage (RECIPE!)
 								["isLimited"] = true,
@@ -3068,6 +3077,15 @@ root(ROOTS.Zones, {
 					n(16588, {	-- Apothecary Antonivich <Alchemy Trainer>
 						["coord"] = { 52.2, 36.4, HELLFIRE_PENINSULA },
 						["races"] = HORDE_ONLY,
+						["sym"] = {
+							{ "select","itemID",
+								-- #if AFTER CATA
+								3371,	-- Crystal Vial
+								-- #else
+								18256,	-- Imbued Vial
+								-- #endif
+							},
+						},
 						["groups"] = {
 							i(22900, {	-- Recipe: Elixir of Camouflage (RECIPE!)
 								["isLimited"] = true,

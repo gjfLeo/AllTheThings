@@ -2603,6 +2603,15 @@ root(ROOTS.Zones, {
 					n(19074, {	-- Skreah <Alchemy Supplies>
 						["coord"] = { 45.8, 20.8, SHATTRATH_CITY },
 						["minReputation"] = { FACTION_LOWER_CITY, NEUTRAL },	-- Lower City, Neutral.
+						["sym"] = {
+							{ "select","itemID",
+								-- #if AFTER CATA
+								3371,	-- Crystal Vial
+								-- #else
+								18256,	-- Imbued Vial
+								-- #endif
+							},
+						},
 						["groups"] = {
 							i(23574, {	-- Recipe: Transmute Primal Might (RECIPE!)
 								["isLimited"] = true,

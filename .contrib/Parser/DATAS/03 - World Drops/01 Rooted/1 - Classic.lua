@@ -4990,6 +4990,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Drops from boars in the level bracket 5-20 like Goretusks in Westfall.",
 			-- #endif
 		}),
+		-- i(5503),	-- Clam Meat > Properly sourced under Giant Clam listed above.
 		i(2675, {	-- Crawler Claw
 			["maps"] = {
 				ASHENVALE,
@@ -5502,6 +5503,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Drops from wolves in the level bracket 5-17 like wolves in Elwynn Forest and Mulgore.",
 			-- #endif
 		}),
+		-- i(5504),	-- Tangy Clam Meat > Properly sourced under Giant Clam listed above.
 		i(12206, {	-- Tender Crab Meat
 			["coords"] = {
 				{ 81.9, 11.5, SWAMP_OF_SORROWS },	-- Bogpaddle, east of.
@@ -5637,6 +5639,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.CLASSIC, {
 			["description"] = "Drops from spiders in the level bracket 35-60 like spiders in Dustwallow Marsh.",
 			-- #endif
 		}),
+		-- i(7974),	-- Zesty Clam Meat > Properly sourced under Big-mouth Clam listed above.
 		--______________________________________
 		--
 		-- Other reagents:
