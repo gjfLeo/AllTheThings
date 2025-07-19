@@ -36,13 +36,8 @@ local EncounterToLoot = {
 	};
 };
 
------- Zone Drops ----------
-local ZoneDropLoot = {
-	i(142541),	-- Drape of the Forgotten Souls
-};
-
 ------ Boss Functions ------
-local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot, ZoneDropLoot)
+local InstanceHelper = CreateInstanceHelper(EncounterToCRS, EncounterToLoot)
 local Boss, BossOnly, Difficulty =
 InstanceHelper.Boss, InstanceHelper.BossOnly, InstanceHelper.Difficulty
 
