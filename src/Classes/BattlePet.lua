@@ -15,8 +15,8 @@ local wipe, setmetatable, rawget, select,pairs
 local KEY, CACHE = "speciesID", "BattlePets"
 local CLASSNAME = "BattlePet"
 
-local C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID,C_PetJournal_GetPetInfoByIndex,C_PetJournal_GetNumPets
-	= C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID,C_PetJournal.GetPetInfoByIndex,C_PetJournal.GetNumPets
+local C_PetJournal_GetNumCollectedInfo,C_PetJournal_GetPetInfoByPetID,C_PetJournal_GetPetInfoBySpeciesID,C_PetJournal_GetPetInfoByIndex,C_PetJournal_GetNumPets,C_PetJournal_GetPetStats
+	= C_PetJournal.GetNumCollectedInfo,C_PetJournal.GetPetInfoByPetID,C_PetJournal.GetPetInfoBySpeciesID,C_PetJournal.GetPetInfoByIndex,C_PetJournal.GetNumPets,C_PetJournal.GetPetStats
 
 -- Due to bad Blizzard data being returned from C_PetJournal.GetNumPets
 -- we can only use the method of scanning the players collected pets if this API returns the proper number of total
@@ -82,6 +82,34 @@ local PetIDSpeciesIDHelper = setmetatable({}, {
 		return speciesID;
 	end
 });
+local onTooltipForBattlePet;
+if C_PetJournal_GetPetStats then
+	onTooltipForBattlePet = function(t, tooltipInfo)
+		local speciesID = t.speciesID;
+		if speciesID then
+			local totalPets, ownedPets = C_PetJournal_GetNumPets()
+			if ownedPets > 0 then
+				local index = 0;
+				local petID, s, owned, customName, level, health, maxHealth, power, speed, rarity;
+				for i=1,ownedPets do
+					petID, s, owned, customName, level = C_PetJournal_GetPetInfoByIndex(i);
+					if petID and speciesID == s then
+						index = index + 1;
+						if index == 1 then
+							tinsert(tooltipInfo, { left = " " });
+							tinsert(tooltipInfo, { left = "Owned Pets:" });
+						end
+						health, maxHealth, power, speed, rarity = C_PetJournal_GetPetStats(petID);
+						tinsert(tooltipInfo, {
+							left = LEVEL .. " " .. level .. " (" .. _G["BATTLE_PET_BREED_QUALITY" .. rarity] .. ")",
+							right = tostring(health) .. " / " .. tostring(maxHealth) .. " [" .. power .. " | " .. power .. " | " .. speed .. "]"
+						});
+					end
+				end
+			end
+		end
+	end
+end
 
 local PerCharacterSpecies = {
 	[280] = true, 	-- Guild Page [A]
@@ -139,7 +167,10 @@ app.CreateSpecies = app.CreateClass(CLASSNAME, KEY, {
 	end,
 	perCharacter = function(t)
 		return PerCharacterSpecies[t.speciesID]
-	end
+	end,
+	OnTooltip = onTooltipForBattlePet and function(t)
+		return onTooltipForBattlePet;
+	end or nil,
 },
 "WithItem", {
 	ImportFrom = "Item",
