@@ -683,7 +683,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Ragnaros kills (Molten Core)","Ragnaros kills (Molten Core)",,1099,409,-1,0,14821,0,5,1,23,135790,0,1716,0,0,0,0
 "Nefarian kills (Blackwing Lair)","Nefarian kills (Blackwing Lair)",,1100,469,-1,0,14821,0,5,1,24,134154,0,3403,0,0,0,0
 "C'Thun kills (Temple of Ahn'Qiraj)","C'Thun kills (Temple of Ahn'Qiraj)",,1101,531,-1,0,14821,0,5,1,25,133575,0,6183,0,0,0,0
-"Hakkar kills (Zul'Gurub)","Hakkar kills (Zul'Gurub)",,1102,309,-1,0,15176,0,5,524289,7,133798,0,3419,0,0,0,0
+"Hakkar kills (Zul'Gurub)","Hakkar kills (Zul'Gurub)",,1102,309,-1,0,15176,0,5,524289,10,133798,0,3419,0,0,0,0
 "Lich King 5-player dungeons completed (final boss killed)","Lich King 5-player dungeons completed (final boss defeated)",,1103,-1,-1,0,14807,0,0,1,4,136243,0,6738,0,0,0,0
 "Lich King 10-player raids completed (final boss killed)","Lich King 10-player raids completed (final boss defeated)",,1104,-1,-1,0,14807,0,0,9,5,136243,0,12356,0,0,0,0
 "5v5 Arena Honorable Kills","5v5 Arena Honorable Kills",,1109,-1,-1,0,136,0,0,524289,7,136243,0,4236,0,0,0,0
@@ -1555,7 +1555,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Logged in during WoW's 5th Anniversary.","WoW's 5th Anniversary",,4400,-1,-1,0,15274,0,0,2048,55,133783,49362,1972,0,0,0,0
 "Defeat Onyxia in less than 5 minutes in 10-player mode.","More Dots! (10 player)",,4402,249,-1,0,14922,0,10,0,59,254648,0,7563,0,0,0,0
 "Cause 50 Onyxia Whelplings to hatch within 10 seconds of Onyxia's liftoff, and then defeat her in 10-player mode.","Many Whelps! Handle It! (10 player)",,4403,249,-1,0,14922,0,10,0,61,134154,0,10743,0,0,0,0
-"Emblems of Frost acquired","Emblems of Frost acquired",,4730,-1,-1,0,15176,0,0,524289,6,136243,0,14171,0,0,0,0
+"Emblems of Frost acquired","Emblems of Frost acquired",,4730,-1,-1,0,15176,0,0,524289,9,136243,0,14171,0,0,0,0
 "Defeat Onyxia without anyone taking damage from a Deep Breath in 10-player mode.","She Deep Breaths More (10 player)",,4404,249,-1,0,14922,0,10,0,63,135789,0,7850,0,0,0,0
 "Defeat Onyxia in less than 5 minutes in 25-player mode.","More Dots! (25 player)",,4405,249,-1,0,14922,0,10,0,60,254648,0,11235,0,0,0,0
 "Cause 50 Onyxia Whelplings to hatch within 10 seconds of Onyxia's liftoff, and then defeat her in 25-player mode.","Many Whelps! Handle It! (25 player)",,4406,249,-1,0,14922,0,10,0,62,134154,0,8583,0,0,0,0
@@ -1709,7 +1709,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Lich King escapes (Halls of Reflection)",,4726,-1,-1,0,14823,0,0,1,144,136243,0,18720,0,0,0,0
 ,"Lich King escapes (Heroic Halls of Reflection)",,4727,-1,-1,0,14823,0,0,1,145,136243,0,14902,0,0,0,0
 ,"Forgemaster Garfrost kills (Heroic Pit of Saron)",,4728,-1,-1,0,14823,0,0,1,135,136243,0,15290,0,0,0,0
-"Emblems of Triumph acquired","Emblems of Triumph acquired",,4729,-1,-1,0,15176,0,0,524289,5,136243,0,14168,0,0,0,0
+"Emblems of Triumph acquired","Emblems of Triumph acquired",,4729,-1,-1,0,15176,0,0,524289,7,136243,0,14168,0,0,0,0
 "Isle of Conquest Killing Blows","Isle of Conquest Killing Blows",,4777,-1,-1,0,137,0,0,1,13,136243,0,16627,0,0,0,0
 "Isle of Conquest Honorable Kills","Isle of Conquest Honorable Kills",,4779,-1,-1,0,136,0,0,1,13,136243,0,14264,0,0,0,0
 "Proud owner of the 2009 Vintage Green Brewfest Stein.","Green Brewfest Stein",,4782,-1,-1,0,15274,1,0,2048,14,133701,0,12476,0,0,0,0
@@ -3123,9 +3123,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the Brewmaster scenario achievements listed below.","Pub Crawl","Toy: Honorary Brewmaster Keg",7385,-1,-1,0,15302,0,10,131072,4,516667,87528,24272,0,0,0,0
 "Obtain a Grand Expedition Yak from Uncle Bigpocket in Kun-Lai Summit.","Grand Expedition Yak",,7386,-1,-1,0,15248,1,10,131072,7,616692,0,24292,0,0,0,0
 ,"Challenge mode dungeons completed",,7399,-1,-1,0,14807,0,0,1,35,136243,0,0,0,0,0,0
-,"Bronze Challenge ratings earned",,7400,-1,-1,0,15176,0,0,524289,11,136243,0,24492,0,0,0,0
-,"Silver Challenge ratings earned",,7401,-1,-1,0,15176,0,0,524289,12,136243,0,24502,0,0,0,0
-,"Gold Challenge ratings earned",,7402,-1,-1,0,15176,0,0,524289,13,136243,0,24512,0,0,0,0
+,"Bronze Challenge ratings earned",,7400,-1,-1,0,15176,0,0,524289,14,136243,0,24492,0,0,0,0
+,"Silver Challenge ratings earned",,7401,-1,-1,0,15176,0,0,524289,15,136243,0,24502,0,0,0,0
+,"Gold Challenge ratings earned",,7402,-1,-1,0,15176,0,0,524289,16,136243,0,24512,0,0,0,0
 "Complete 5000 daily quests.","5000 Daily Quests Completed",,7410,-1,-1,5751,96,0,10,131072,16,236677,0,28329,0,0,0,0
 "Complete 10000 daily quests.","10000 Daily Quests Completed",,7411,-1,-1,7410,96,0,10,131072,17,236678,0,28331,0,0,0,0
 "Owner of the Diablo III Collector's Edition Fetish Shaman pet.","Collector's Edition: Fetish Shaman",,7412,-1,-1,0,15268,1,0,133120,23,135128,0,24865,0,0,0,0
@@ -3579,9 +3579,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Garrosh Hellscream in Siege of Orgrimmar on Heroic difficulty while in a guild group.","Heroic: Garrosh Hellscream Guild Run",,8511,-1,-1,0,15154,0,10,61440,16,892447,0,33555,0,0,0,0
 "First guild on the realm to defeat Garrosh Hellscream in Siege of Orgrimmar on 10-player Heroic difficulty while in a guild group.","Realm First! Garrosh Hellscream (10 player)",,8512,-1,-1,0,15093,0,0,63744,19,892447,0,33557,0,0,0,0
 "First guild on the realm to defeat Garrosh Hellscream in Siege of Orgrimmar on 25-player Heroic difficulty while in a guild group.","Realm First! Garrosh Hellscream (25 player)",,8513,-1,-1,0,15093,0,0,63744,20,892447,0,33559,0,0,0,0
-"Highest score on the Basic Damage (Endless) trial at the Proving Grounds","Highest score on Basic Damage (Endless) at the Proving Grounds (Level 90)",,8514,-1,-1,0,15176,0,0,524289,8,136243,0,33562,0,0,0,0
-"Highest score on the Basic Tank (Endless) trial at the Proving Grounds","Highest score on Basic Tank (Endless) at the Proving Grounds (Level 90)",,8515,-1,-1,0,15176,0,0,524289,9,136243,0,33564,0,0,0,0
-"Highest score on the Basic Healer (Endless) trial at the Proving Grounds","Highest score on Basic Healer (Endless) at the Proving Grounds (Level 90)",,8516,-1,-1,0,15176,0,0,524289,10,136243,0,33566,0,0,0,0
+"Highest score on the Basic Damage (Endless) trial at the Proving Grounds","Highest score on Basic Damage (Endless) at the Proving Grounds (Level 90)",,8514,-1,-1,0,15176,0,0,524289,11,136243,0,33562,0,0,0,0
+"Highest score on the Basic Tank (Endless) trial at the Proving Grounds","Highest score on Basic Tank (Endless) at the Proving Grounds (Level 90)",,8515,-1,-1,0,15176,0,0,524289,12,136243,0,33564,0,0,0,0
+"Highest score on the Basic Healer (Endless) trial at the Proving Grounds","Highest score on Basic Healer (Endless) at the Proving Grounds (Level 90)",,8516,-1,-1,0,15176,0,0,524289,13,136243,0,33566,0,0,0,0
 "Defeat all the trainers listed below from the Celestial Tournament.","Master of the Masters",,8518,-1,-1,0,15119,0,5,131072,53,803763,0,33577,0,0,0,0
 "Obtain all four of the celestial pets.","Celestial Family",,8519,-1,-1,0,15118,0,5,131072,56,877408,0,33591,0,0,0,0
 "Stomp on 6 superheated Crawler Mines and then defeat the Iron Juggernaut in Siege of Orgrimmar on Normal difficulty or higher.","Fire in the Hole!",,8520,1136,-1,0,15107,0,10,0,98,465879,0,33596,0,0,0,0
@@ -9015,11 +9015,11 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Earn the rank of Elite during Dragonflight Season 2.","Elite: Dragonflight Season 2","Seasonal Character Title: the Elite",17831,-1,-1,0,15270,0,0,17053696,362,236542,0,144922,0,0,0,0
 "Sniff out five special items while exploring caves alongside a niffen companion.","Sniffen Around",,17832,-1,-1,0,15465,0,5,131072,119,5140835,0,144927,0,0,0,0
 "Sniff out all possible special items while exploring caves alongside a niffen companion.","Sniffen Sage",,17833,-1,-1,17832,15465,0,10,131072,120,5140835,0,144937,0,0,0,0
-,"Flightstones earned",,17836,-1,-1,0,15176,0,0,1,15,136243,0,144947,0,0,0,0
-,"Whelpling's Shadowflame Crest Fragments earned",,17837,-1,-1,0,15176,0,0,1,16,136243,0,144949,0,0,0,0
-,"Drake's Shadowflame Crest Fragments earned",,17838,-1,-1,0,15176,0,0,1,17,136243,0,144951,0,0,0,0
-,"Wyrm's Shadowflame Crest Fragments earned",,17839,-1,-1,0,15176,0,0,1,18,136243,0,144953,0,0,0,0
-,"Aspect's Shadowflame Crest Fragments earned",,17840,-1,-1,0,15176,0,0,1,19,136243,0,144955,0,0,0,0
+,"Flightstones earned",,17836,-1,-1,0,15176,0,0,1,18,136243,0,144947,0,0,0,0
+,"Whelpling's Shadowflame Crest Fragments earned",,17837,-1,-1,0,15176,0,0,1,19,136243,0,144949,0,0,0,0
+,"Drake's Shadowflame Crest Fragments earned",,17838,-1,-1,0,15176,0,0,1,20,136243,0,144951,0,0,0,0
+,"Wyrm's Shadowflame Crest Fragments earned",,17839,-1,-1,0,15176,0,0,1,21,136243,0,144953,0,0,0,0
+,"Aspect's Shadowflame Crest Fragments earned",,17840,-1,-1,0,15176,0,0,1,22,136243,0,144955,0,0,0,0
 "Bring Barter Boulders to barter boldly with Ponzo and bring back his hat.","Pyramid Scheme","Title: Barter Boss",17841,-1,-1,0,15246,0,5,131072,16,5144320,0,144970,0,0,0,0
 "Attain a Mythic+ Rating of at least 750 during Dragonflight Season Two.","Dragonflight Keystone Explorer: Season Two",,17842,-1,-1,0,15272,0,0,133120,103,618860,0,145030,0,0,0,0
 "Attain a Mythic+ Rating of at least 1500 during Dragonflight Season Two.","Dragonflight Keystone Conqueror: Season Two","Title: The Smoldering",17843,-1,-1,17842,15272,0,0,133120,104,618858,0,145032,0,0,0,0
@@ -10267,10 +10267,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Participate in 50 matches in Battleground Blitz.","Brawlroom Blitzer",,19417,-1,-1,19416,15092,0,10,131072,233,236378,0,151800,0,0,0,0
 "Participate in 100 matches in Battleground Blitz.","Battle-scarred Battler",,19418,-1,-1,19417,15092,0,15,131072,235,236378,0,151802,0,0,0,0
 "Complete one of the achievements listed below.","Dragonflight Season 3 Hero","Reward: Emerald Blossom Dreamstone",19420,-1,-1,0,81,0,0,133120,53,5342929,0,151840,0,0,0,0
-,"Whelpling's Dreaming Crests earned",,19421,-1,-1,0,15176,0,0,1,20,136243,0,151844,0,0,0,0
-,"Drake's Dreaming Crests earned",,19422,-1,-1,0,15176,0,0,1,21,136243,0,151846,0,0,0,0
-,"Wyrm's Dreaming Crests earned",,19423,-1,-1,0,15176,0,0,1,22,136243,0,151848,0,0,0,0
-,"Aspect's Dreaming Crests earned",,19424,-1,-1,0,15176,0,0,1,23,136243,0,151850,0,0,0,0
+,"Whelpling's Dreaming Crests earned",,19421,-1,-1,0,15176,0,0,1,23,136243,0,151844,0,0,0,0
+,"Drake's Dreaming Crests earned",,19422,-1,-1,0,15176,0,0,1,24,136243,0,151846,0,0,0,0
+,"Wyrm's Dreaming Crests earned",,19423,-1,-1,0,15176,0,0,1,25,136243,0,151848,0,0,0,0
+,"Aspect's Dreaming Crests earned",,19424,-1,-1,0,15176,0,0,1,26,136243,0,151850,0,0,0,0
 "Collect an armor set from Amirdrassil, the Dream's Hope.","Fire Catwalk With Me",,19442,-1,-1,0,15259,0,10,131072,51,5342929,0,152031,0,0,0,0
 "Win 50 Solo Shuffle rounds as a Healer at or above Rival I during Dragonflight Season 3.","Battle Mender: Dragonflight Season 3",,19443,-1,-1,0,15270,0,0,133120,2,236249,0,152098,0,0,0,0
 ,"<DNT> Eggs in Abundance Completed",,19447,-1,-1,0,15466,0,0,3276800,3,136243,0,153013,0,0,0,0
@@ -10322,10 +10322,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "This achievement would ideally tracking 5 characters hitting level 80, but unfortunately triggers after a single character hits 80. (DNT)","Test - For PH - Multiple Characters Hitting Max Level (DNT)",,19510,-1,-1,0,92,0,0,1179652,121,136243,0,153638,0,0,0,0
 "Win 50 Solo Shuffle rounds as a Healer at or above Rival I during Dragonflight Season 4.","Battle Mender: Dragonflight Season 4",,19513,-1,-1,0,15270,0,0,133120,3,236249,0,153765,0,0,0,0
 "Obtain maximum skill points in the ""Khaz Algar"" category of five primary professions.","Algari Master of Many","Appearance: Formed Artisan's Talent Ensemble",19515,-1,-1,19409,169,5,30,135168,27,3622200,0,153767,0,0,0,0
-,"Whelpling's Awakened Crests earned",,19538,-1,-1,0,15176,0,0,1,24,136243,0,153783,0,0,0,0
-,"Drake's Awakened Crests earned",,19539,-1,-1,0,15176,0,0,1,25,136243,0,153785,0,0,0,0
-,"Wyrm's Awakened Crests earned",,19540,-1,-1,0,15176,0,0,1,26,136243,0,153787,0,0,0,0
-,"Aspect's's Awakened Crests earned",,19541,-1,-1,0,15176,0,0,1,27,136243,0,153789,0,0,0,0
+,"Whelpling's Awakened Crests earned",,19538,-1,-1,0,15176,0,0,1,27,136243,0,153783,0,0,0,0
+,"Drake's Awakened Crests earned",,19539,-1,-1,0,15176,0,0,1,28,136243,0,153785,0,0,0,0
+,"Wyrm's Awakened Crests earned",,19540,-1,-1,0,15176,0,0,1,29,136243,0,153787,0,0,0,0
+,"Aspect's's Awakened Crests earned",,19541,-1,-1,0,15176,0,0,1,30,136243,0,153789,0,0,0,0
 ,"Vicious Saddle (39)",,19551,-1,1,19287,15270,0,0,1180672,129,1379171,103533,153799,0,0,0,0
 ,"Vicious Saddle (39)",,19552,-1,0,19289,15270,0,0,1180672,65,1379171,103533,153801,0,0,0,0
 "Complete the following storylines in Azj-Kahet.",Azj-Kahet,,19559,-1,-1,0,15506,0,10,0,13,5770809,0,153818,0,0,0,0
@@ -10495,7 +10495,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Attain a Mythic+ Rating of at least 1500 during Dragonflight Season Four.","Dragonflight Keystone Conqueror: Season Four","Title: The Draconic",19781,-1,-1,19780,15272,0,0,133120,113,618860,0,154805,0,0,0,0
 "Attain a Mythic+ Rating of at least 2000 during Dragonflight Season Four.","Dragonflight Keystone Master: Season Four","Mount: Infinite Armoredon",19782,-1,-1,19781,15272,0,0,133120,114,618859,213438,154807,0,0,0,0
 "Attain a Mythic+ Rating of at least 2500 during Dragonflight Season Four.","Dragonflight Keystone Hero: Season Four",,19783,-1,-1,19782,15272,0,0,133120,115,648760,0,154809,0,0,0,0
-,"Hearthstone Game Wins",,19784,-1,-1,0,15176,0,0,5,14,136243,0,154811,0,0,0,0
+,"Hearthstone Game Wins",,19784,-1,-1,0,15176,0,0,5,17,136243,0,154811,0,0,0,0
 "End Dragonflight Mythic+ Season 4 with a Mythic+ Rating in the top 0.1% of all players in your region.","Draconic Hero: Dragonflight Season 4","Title: The Draconic Hero",19785,-1,-1,0,15272,0,0,14336,116,618859,0,154813,0,0,0,0
 "Collect rocks with Roska while Excavating with the Azerothian Archives around the Dragon Isles.","When a Rock is Just a Rock",,19786,-1,-1,0,15455,0,5,131072,91,135242,0,154825,0,0,0,0
 "Work with Nirobin to discover Information-Stuffed Clues while Researching with the Azerothian Archives around the Dragon Isles.","Clued In",,19787,-1,-1,0,15455,0,5,131200,95,618973,0,154827,0,0,0,0
@@ -10898,10 +10898,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Ki'katal the Harvester kills (Heroic Ara-Kara, City of Echoes)",,20486,2660,-1,0,15520,0,0,1,2,136243,0,157113,0,0,0,0
 ,"Ki'katal the Harvester kills (Mythic Ara-Kara, City of Echoes)",,20487,2660,-1,0,15520,0,0,1,3,136243,0,157115,0,0,0,0
 ,"Valorstones earned",,20488,-1,-1,0,130,0,0,1,71,136243,0,157157,0,0,0,0
-,"Weathered Harbinger Crests earned",,20489,-1,-1,0,15176,0,0,1,28,136243,0,157159,0,0,0,0
-,"Carved Harbinger Crests earned",,20490,-1,-1,0,15176,0,0,1,29,136243,0,157161,0,0,0,0
-,"Runed Harbinger Crests earned",,20491,-1,-1,0,15176,0,0,1,30,136243,0,157163,0,0,0,0
-,"Gilded Harbinger Crests earned",,20492,-1,-1,0,15176,0,0,1,31,136243,0,157165,0,0,0,0
+,"Weathered Harbinger Crests earned",,20489,-1,-1,0,15176,0,0,1,31,136243,0,157159,0,0,0,0
+,"Carved Harbinger Crests earned",,20490,-1,-1,0,15176,0,0,1,32,136243,0,157161,0,0,0,0
+,"Runed Harbinger Crests earned",,20491,-1,-1,0,15176,0,0,1,33,136243,0,157163,0,0,0,0
+,"Gilded Harbinger Crests earned",,20492,-1,-1,0,15176,0,0,1,34,136243,0,157165,0,0,0,0
 "Complete the Lion's Landing scenario with a Timerunner.","Lion's Landing","Minor Bronze Cache",20500,-1,1,0,15536,0,0,2048,101,902177,0,157221,0,0,0,0
 "Leave the Shadowlands better than they were when you entered by completing the following achievements.","Back from the Beyond","Mount: Zovaal's Soul Eater",20501,-1,-1,0,15301,0,100,131072,6,3642306,217612,157225,0,0,0,0
 ,"<Hidden> Achievement Title - Plunderlord - 10.2.6 Void Zone",,20507,-1,-1,0,81,0,0,3276804,18,136243,0,157442,0,0,0,0
@@ -11339,18 +11339,18 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Discover the hidden treasures across the Isle of Dorn.","Treasures of the Isle of Dorn",,40434,-1,-1,0,15521,0,5,131072,43,1518646,0,163290,0,0,0,0
 "Complete 10 of the following special encounters across the Isle of Dorn.","Adventurer of the Isle of Dorn",,40435,-1,-1,0,15521,0,5,131072,50,5770811,0,163303,0,0,0,0
 "Complete a delve.","You're Getting a Delve!",,40436,-1,-1,0,15522,0,5,0,1,441139,0,163364,0,0,0,0
-"Complete the War Within delves listed below.","Delver of the Depths",,40437,-1,-1,0,15523,0,10,143360,67,1786405,0,163440,0,0,0,0
-"Complete the War Within delve achievements listed below.","Glory of the Delver","Mount: Ivory Goliathus",40438,-1,-1,0,15523,0,25,143360,71,6025441,224415,163437,0,0,0,0
+"Complete the War Within delves listed below.","Delver of the Depths",,40437,-1,-1,0,15523,0,10,143360,66,1786405,0,163440,0,0,0,0
+"Complete the War Within delve achievements listed below.","Glory of the Delver","Mount: Ivory Goliathus",40438,-1,-1,0,15523,0,25,143360,70,6025441,224415,163437,0,0,0,0
 "Successfully complete a Fungarian delve without being hit by Explosive Spores on Tier 8 or higher.",Sporesweeper,,40445,-1,-1,0,15523,0,10,0,45,5789328,0,164004,0,0,0,0
 "Successfully complete a Kobold delve without exhausting an Enchanted Candle or Air Totem on Tier 8 or higher.","I TAKE Candle!",,40446,-1,-1,0,15531,0,10,2048,43,2061718,0,164005,0,0,0,0
-"Complete the War Within delves listed below on Tier 4 or higher with lives remaining.","Delver of the Depths II",,40447,-1,-1,40437,15523,0,10,143360,68,1786405,0,163454,0,0,0,0
-"Complete the War Within delves listed below on Tier 8 or higher with lives remaining.","Delver of the Depths III",,40448,-1,-1,40447,15523,0,25,143360,69,1786405,0,163467,0,0,0,0
-"Complete the War Within delves listed below on Tier 11 with lives remaining.","Delver of the Depths IV",,40449,-1,-1,40448,15523,0,25,131072,70,1786405,0,163480,0,0,0,0
+"Complete the War Within delves listed below on Tier 4 or higher with lives remaining.","Delver of the Depths II",,40447,-1,-1,40437,15523,0,10,143360,67,1786405,0,163454,0,0,0,0
+"Complete the War Within delves listed below on Tier 8 or higher with lives remaining.","Delver of the Depths III",,40448,-1,-1,40447,15523,0,25,143360,68,1786405,0,163467,0,0,0,0
+"Complete the War Within delves listed below on Tier 11 with lives remaining.","Delver of the Depths IV",,40449,-1,-1,40448,15523,0,25,131072,69,1786405,0,163480,0,0,0,0
 "Raise a companion to level 20.","Buddy System II",,40450,-1,-1,40455,15522,0,10,131072,8,236563,0,163495,0,0,0,0
 "Raise a companion to level 30.","Buddy System III",,40451,-1,-1,40450,15522,0,10,131072,9,236564,0,163497,0,0,0,0
-"Successfully complete a Kobyss delve without ever losing your breath on Tier 8 or higher.","Just Keep Swimming",,40452,-1,-1,0,15523,0,10,0,46,136148,0,164006,0,0,0,0
-"Successfully complete a Nerubian delve without spawning ambushers from Nerubian Webs or taking damage from Nerubian Eggs on Tier 8 or higher.","Spider Senses",,40453,-1,-1,0,15523,0,10,0,47,135737,0,164009,0,0,0,0
-"Successfully complete an Order of Night delve without being targeted by Artillery fire on Tier 8 or higher.",Daystormer,,40454,-1,-1,0,15523,0,10,0,48,2011125,0,164010,0,0,0,0
+"Successfully complete a Kobyss delve without ever losing your breath on Tier 8 or higher.","Just Keep Swimming",,40452,-1,-1,0,15531,0,10,2048,44,136148,0,164006,0,0,0,0
+"Successfully complete a Nerubian delve without spawning ambushers from Nerubian Webs or taking damage from Nerubian Eggs on Tier 8 or higher.","Spider Senses",,40453,-1,-1,0,15523,0,10,0,46,135737,0,164009,0,0,0,0
+"Successfully complete an Order of Night delve without being targeted by Artillery fire on Tier 8 or higher.",Daystormer,,40454,-1,-1,0,15523,0,10,0,47,2011125,0,164010,0,0,0,0
 "Raise a companion to level 10.","Buddy System",,40455,-1,-1,0,15522,0,10,131072,7,236562,0,163513,0,0,0,0
 "Raise a companion to level 40.","Buddy System IV",,40456,-1,-1,40451,15522,0,10,131072,10,236565,0,163515,0,0,0,0
 "Raise a companion to level 50.","Buddy System V",,40457,-1,-1,40456,15522,0,10,131072,11,236566,0,163517,0,0,0,0
@@ -11390,7 +11390,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Collect and use 50 Algari Anglerthread to permanently increase the power of your Algari Weaverline.","50 Algari Anglerthread","Share the Anglerthread collected across your Warband.",40502,-1,-1,40499,171,0,10,131072,93,3622226,0,163931,0,0,0,0
 "Collect and use 90 Algari Anglerthread to permanently increase the power of your Algari Weaverline.","90 Algari Anglerthread","Share the Anglerthread collected across your Warband.",40503,-1,-1,40500,171,0,10,131072,97,3622226,0,163923,0,0,0,0
 "Read the plaques of the following inert earthen.","Rocked to Sleep",,40504,-1,-1,0,15521,0,5,131072,25,5788303,0,163943,0,0,0,0
-"Find and open all Sturdy Chests hidden throughout the War Within delves.","Leave No Treasure Unfound","Title: Seeker of Loot",40506,-1,-1,0,15523,0,25,131072,65,4203076,0,167552,0,0,0,0
+"Find and open all Sturdy Chests hidden throughout the War Within delves.","Leave No Treasure Unfound","Title: Seeker of Loot",40506,-1,-1,0,15523,0,25,131072,64,4203076,0,167552,0,0,0,0
 "Complete The Ringing Deeps world quest ""Reaching for Resources"" while leaping to 25 handholds or less.","Hanging Tight",,40507,-1,-1,0,15506,0,5,0,39,236316,0,164007,0,0,0,0
 "Complete a Tier 2 delve.","War Within Delves: Tier 2","Unlock: Tier 3 delves in The War Within",40512,-1,-1,40631,15523,0,10,131072,5,6025441,0,166446,0,0,0,0
 "Complete a Tier 3 delve.","War Within Delves: Tier 3",,40514,-1,-1,40512,15523,0,10,131072,6,6025441,0,164035,0,0,0,0
@@ -11416,7 +11416,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete each story variant of The Underkeep.","The Underkeep Stories",,40534,-1,-1,0,15523,0,5,131072,40,5779389,0,164119,0,0,0,0
 "Complete each story variant of Tak-Rethan Abyss.","Tak-Rethan Abyss Stories",,40535,-1,-1,0,15523,0,5,131072,41,5372523,0,164124,0,0,0,0
 "Complete each story variant of The Spiral Weave.","The Spiral Weave Stories",,40536,-1,-1,0,15523,0,5,131072,42,5862764,0,164128,0,0,0,0
-"Complete the War Within delve achievements listed below.","Delve Loremaster: War Within",,40537,-1,-1,0,15523,0,25,131072,66,645218,0,164057,0,0,0,0
+"Complete the War Within delve achievements listed below.","Delve Loremaster: War Within",,40537,-1,-1,0,15523,0,25,131072,65,645218,0,164057,0,0,0,0
 "Raise Brann Bronzebeard to level 25.","Brann Development",,40538,-1,-1,0,15523,0,25,131072,21,5453546,0,166269,0,0,0,0
 "Catch all fish throughout Khaz Algar and turn in the quest within the Mereldar Fishing Derby time limit.","The Derby Dash","Mount: Kah, Legend of the Deep",40539,-1,-1,0,171,0,10,131072,99,5746561,223286,164154,0,0,0,0
 "Read the following Azj-Kahet books while under the effects of Polymorphic Translation.","Smelling History",,40542,-1,-1,0,15521,0,5,131072,108,4549130,0,164172,0,0,0,0
@@ -11554,7 +11554,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Win a game of Light's Gambit on Hard Difficulty.","Light's Gambit Champion",,40729,-1,-1,0,15506,0,10,0,38,135986,0,166458,0,0,0,0
 "Defeat the Silken Court after Anub'arash and Takazj have gained the Bond of Friendship in Nerub-ar Palace on Normal difficulty or higher.","Love is in the Lair",,40730,2657,-1,0,15526,0,10,0,22,135450,0,166476,0,0,0,0
 "Land 10 hits with the Frying Pans that drop from the Overworked Cooks in the Deepforge Golemworks.",Panhandled,,40731,-1,-1,0,15506,0,5,131072,26,629054,0,166486,0,0,0,0
-"Get killed by a Delve Nemesis.",Heavy-Handed,,40732,-1,-1,0,15523,0,10,0,49,5368433,0,166531,0,0,0,0
+"Get killed by a Delve Nemesis.",Heavy-Handed,,40732,-1,-1,0,15523,0,10,0,48,5368433,0,166531,0,0,0,0
 ,"Total delves completed",,40734,-1,-1,0,15533,0,0,1,16,136243,0,166533,0,0,0,0
 ,"Fungal Folly clears",,40735,-1,-1,0,15534,0,0,1,1,136243,0,166535,0,0,0,0
 ,"Kriegval's Rest clears",,40736,-1,-1,0,15534,0,0,1,2,136243,0,166537,0,0,0,0
@@ -11607,18 +11607,18 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat each of the remembered bosses during The War Within pre-launch events.","This Takes Me Back",,40796,-1,-1,0,15274,0,0,133120,82,2967110,0,166864,0,0,0,0
 "Complete the optional Ringing Deeps storylines listed below.","Sojourner of The Ringing Deeps",,40799,-1,-1,0,15506,0,10,131072,23,5891367,0,166895,0,0,0,0
 ,"Warband Tutorial Complete - Teach Warband Bank Summon (DNT)",,40800,-1,-1,0,92,0,0,1310720,126,136243,0,166929,0,0,0,0
-"Find and open all Sturdy Chests hidden in Fungal Folly.","Fungal Folly Discoveries",,40803,-1,-1,0,15523,0,5,131200,50,4203076,0,167486,0,0,0,0
-"Find and open all Sturdy Chests hidden in Earthcrawl Mines.","Earthcrawl Mines Discoveries",,40806,-1,-1,0,15523,0,5,131200,51,4203076,0,167494,0,0,0,0
-"Find and open all Sturdy Chests hidden in Kriegval's Rest.","Kriegval's Rest Discoveries",,40807,-1,-1,0,15523,0,5,131200,52,4203076,0,167500,0,0,0,0
-"Find and open all Sturdy Chests hidden in Mycomancer Cavern.","Mycomancer Cavern Discoveries",,40808,-1,-1,0,15523,0,5,131200,53,4203076,0,167505,0,0,0,0
-"Find and open all Sturdy Chests hidden in Nightfall Sanctum.","Nightfall Sanctum Discoveries",,40809,-1,-1,0,15523,0,5,131200,54,4203076,0,167510,0,0,0,0
-"Find and open all Sturdy Chests hidden in Skittering Breach.","Skittering Breach Discoveries",,40810,-1,-1,0,15523,0,5,131200,55,4203076,0,167515,0,0,0,0
-"Find and open all Sturdy Chests hidden in Tak-Rethan Abyss.","Tak-Rethan Abyss Discoveries",,40811,-1,-1,0,15523,0,5,131200,56,4203076,0,167520,0,0,0,0
-"Find and open all Sturdy Chests hidden in The Dread Pit.","The Dread Pit Discoveries",,40812,-1,-1,0,15523,0,5,131200,57,4203076,0,167525,0,0,0,0
-"Find and open all Sturdy Chests hidden in The Sinkhole.","The Sinkhole Discoveries",,40813,-1,-1,0,15523,0,5,131200,58,4203076,0,167530,0,0,0,0
-"Find and open all Sturdy Chests hidden in The Spiral Weave.","The Spiral Weave Discoveries",,40814,-1,-1,0,15523,0,5,131200,59,4203076,0,167535,0,0,0,0
-"Find and open all Sturdy Chests hidden in The Underkeep.","The Underkeep Discoveries",,40815,-1,-1,0,15523,0,5,131200,60,4203076,0,167540,0,0,0,0
-"Find and open all Sturdy Chests hidden in The Waterworks.","The Waterworks Discoveries",,40816,-1,-1,0,15523,0,5,131200,61,4203076,0,167545,0,0,0,0
+"Find and open all Sturdy Chests hidden in Fungal Folly.","Fungal Folly Discoveries",,40803,-1,-1,0,15523,0,5,131200,49,4203076,0,167486,0,0,0,0
+"Find and open all Sturdy Chests hidden in Earthcrawl Mines.","Earthcrawl Mines Discoveries",,40806,-1,-1,0,15523,0,5,131200,50,4203076,0,167494,0,0,0,0
+"Find and open all Sturdy Chests hidden in Kriegval's Rest.","Kriegval's Rest Discoveries",,40807,-1,-1,0,15523,0,5,131200,51,4203076,0,167500,0,0,0,0
+"Find and open all Sturdy Chests hidden in Mycomancer Cavern.","Mycomancer Cavern Discoveries",,40808,-1,-1,0,15523,0,5,131200,52,4203076,0,167505,0,0,0,0
+"Find and open all Sturdy Chests hidden in Nightfall Sanctum.","Nightfall Sanctum Discoveries",,40809,-1,-1,0,15523,0,5,131200,53,4203076,0,167510,0,0,0,0
+"Find and open all Sturdy Chests hidden in Skittering Breach.","Skittering Breach Discoveries",,40810,-1,-1,0,15523,0,5,131200,54,4203076,0,167515,0,0,0,0
+"Find and open all Sturdy Chests hidden in Tak-Rethan Abyss.","Tak-Rethan Abyss Discoveries",,40811,-1,-1,0,15523,0,5,131200,55,4203076,0,167520,0,0,0,0
+"Find and open all Sturdy Chests hidden in The Dread Pit.","The Dread Pit Discoveries",,40812,-1,-1,0,15523,0,5,131200,56,4203076,0,167525,0,0,0,0
+"Find and open all Sturdy Chests hidden in The Sinkhole.","The Sinkhole Discoveries",,40813,-1,-1,0,15523,0,5,131200,57,4203076,0,167530,0,0,0,0
+"Find and open all Sturdy Chests hidden in The Spiral Weave.","The Spiral Weave Discoveries",,40814,-1,-1,0,15523,0,5,131200,58,4203076,0,167535,0,0,0,0
+"Find and open all Sturdy Chests hidden in The Underkeep.","The Underkeep Discoveries",,40815,-1,-1,0,15523,0,5,131200,59,4203076,0,167540,0,0,0,0
+"Find and open all Sturdy Chests hidden in The Waterworks.","The Waterworks Discoveries",,40816,-1,-1,0,15523,0,5,131200,60,4203076,0,167545,0,0,0,0
 "Find and open 10 Hidden Troves using Delver's Bounties.","A Delver's Bounty",,40817,-1,-1,0,15522,0,10,131072,26,1064187,0,167550,0,0,0,0
 "Open a Bountiful Coffer with a Restored Coffer Key.","Ready to Turn",,40819,-1,-1,0,15522,0,5,131072,20,2032583,0,167595,0,0,0,0
 "Revive Brann Bronzebeard after he has fallen unconscious.","Raisin' Brann",,40820,-1,-1,0,15523,0,5,131072,20,132132,0,167599,0,0,0,0
@@ -11808,8 +11808,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Loot 100 mislaid curiosities within delves.","Curiosity Never Killed the Looter",,41097,-1,-1,40763,15522,0,10,131072,28,132118,0,169933,0,0,0,0
 "Complete each story variant of Excavation Site 9.","Excavation Site 9 Stories",,41098,-1,-1,0,15523,0,5,131072,43,534176,0,169935,0,0,0,0
 "Complete each story variant of Sidestreet Sluice.","Sidestreet Sluice Stories",,41099,-1,-1,0,15523,0,5,131072,44,5768515,0,169939,0,0,0,0
-"Find and open all Sturdy Chests hidden in Excavation Site 9.","Excavation Site 9 Discoveries",,41100,-1,-1,0,15523,0,5,131200,62,4203076,0,169943,0,0,0,0
-"Find and open all Sturdy Chests hidden in Sidestreet Sluice.","Sidestreet Sluice Discoveries",,41101,-1,-1,0,15523,0,5,131200,63,4203076,0,169944,0,0,0,0
+"Find and open all Sturdy Chests hidden in Excavation Site 9.","Excavation Site 9 Discoveries",,41100,-1,-1,0,15523,0,5,131200,61,4203076,0,169943,0,0,0,0
+"Find and open all Sturdy Chests hidden in Sidestreet Sluice.","Sidestreet Sluice Discoveries",,41101,-1,-1,0,15523,0,5,131200,62,4203076,0,169944,0,0,0,0
 ,"Excavation Site 9 clears",,41102,-1,-1,0,15534,0,0,1,13,136243,0,169945,0,0,0,0
 ,"Sidestreet Sluice clears",,41103,-1,-1,0,15534,0,0,1,14,136243,0,169947,0,0,0,0
 ,"Demolition Dome clears",,41104,-1,-1,0,15534,0,0,1,17,136243,0,169949,0,0,0,0
@@ -12058,7 +12058,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete a S.C.R.A.P. job at every location in Undermine.","Cleanin' the Streets",,41593,-1,-1,0,15521,0,10,131072,126,5768266,0,207014,0,0,0,0
 "Slay the Gallagio Garbage during a S.C.R.A.P. job.","Can You Believe What People Throw Away?",,41594,-1,-1,0,15521,0,10,131072,127,2484341,0,207022,0,0,0,0
 "Collect any armor set from The War Within PvP Season 2.","Prized Guise",,41595,-1,-1,0,15259,0,10,131072,90,6055037,0,207024,0,0,0,0
-,"Weathered Undermine Crests earned",,41786,-1,-1,0,130,0,0,1,72,136243,0,208192,0,0,0,0
+,"Weathered Undermine Crests earned",,41786,-1,-1,0,15176,0,0,1,35,136243,0,208192,0,0,0,0
 "Defeat Stix Bunkjunker after absorbing or incinerating every Garbage Pile created by Electromagnetic Sorting before the next cast of Electromagnetic Sorting in Liberation of Undermine on Normal difficulty or higher.","Garbage In, Garbage Out","Title: Junkmaestro",41596,2769,-1,0,15526,0,10,0,2,252179,0,207030,0,0,0,0
 "Complete the Manaforge Omega raid achievements listed below.","Glory of the Omega Raider","Mount: Umbral K'arroc",41597,2810,-1,0,168,0,25,143360,63,6997112,242714,207155,0,0,0,0
 "Defeat the following bosses on any difficulty.","Manaforge Omega",,41598,2810,-1,0,15526,0,10,131072,65,6997112,0,207156,0,0,0,0
@@ -12077,10 +12077,10 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Defeat Dimensius, the All-Devouring in Manaforge Omega on Mythic difficulty.","Mythic: Dimensius, the All-Devouring","Title: Void Vanquisher",41611,2810,-1,0,15526,0,10,0,75,6922083,0,207176,0,0,0,0
 "Defeat Loom'ithar after everyone decides whether they would rather /cower from it or /cuddle it before starting the battle in Manaforge Omega on Normal difficulty or higher.","Time to Vote! Cute or Scary?",,41613,2810,-1,0,15526,0,10,0,77,134393,0,212688,0,0,0,0
 "Defeat Soulbinder Naazindhri after defeating all Little Unbound Souls in Manaforge Omega on Normal difficulty or higher.","Mother of All Tantrums",,41614,2810,-1,0,15526,0,10,0,78,1723993,0,212780,0,0,0,0
-"Defeat Forgeweaver Araz after feeding a Void Forged Echo to the Dark Singularity in Manaforge Omega on Normal difficulty or higher.","Cheat Meal",,41615,2810,-1,0,15526,0,10,131072,79,1387652,0,212078,0,0,0,0
-"Defeat the Soul Hunters after all players have worn Adarus' spare blindfold at least 4 times in Manaforge Omega on Normal difficulty or higher.","I See... Absolutely Nothing",,41616,2810,-1,0,15526,0,10,0,80,1360261,0,213897,0,0,0,0
-"Defeat Fractillus after destroying a fourth wall 20 times in Manaforge Omega on Normal difficulty or higher.","Breaking the Fourth Wall",,41617,2810,-1,0,15526,0,10,0,81,612393,0,209742,0,0,0,0
-"Defeat Nexus-King Salhadaar without any Dark Stars being hit by Starkiller Swing in Manaforge Omega on Normal difficulty or higher.","Swing and a Miss",,41618,2810,-1,0,15526,0,10,0,82,1033912,0,0,0,0,0,0
+"Defeat Forgeweaver Araz after feeding a Void Forged Echo to the Dark Singularity in Manaforge Omega on Normal difficulty or higher.","Cheat Meal",,41615,2810,-1,0,15526,0,10,0,79,1387652,0,212078,0,0,0,0
+"Defeat the Soul Hunters after all players have worn Adarus' spare blindfold at least 1 time in Manaforge Omega on Normal difficulty or higher.","I See... Absolutely Nothing",,41616,2810,-1,0,15526,0,10,0,80,1360261,0,213897,0,0,0,0
+"Defeat Fractillus after destroying a fourth wall 18 times in Manaforge Omega on Normal difficulty or higher.","Breaking the Fourth Wall",,41617,2810,-1,0,15526,0,10,0,81,612393,0,209742,0,0,0,0
+"Defeat Nexus-King Salhadaar alongside a hidden assassin in Manaforge Omega on Normal difficulty or higher.","King's Ransom",,41618,2810,-1,0,15526,0,10,0,82,370211,0,214563,0,0,0,0
 "Defeat Dimensius, the All-Devouring after allowing every member of your raid to be hit by Reverse Gravity at least once in Manaforge Omega on Normal difficulty or higher.","Defying Gravity",,41619,2810,-1,0,15526,0,10,0,83,236552,0,213899,0,0,0,0
 "Defeat the following bosses in Manaforge Omega on Normal difficulty or higher while in a guild group.","Manaforge Omega Guild Run",,41620,2810,-1,0,15529,0,10,61440,7,6997112,0,207220,0,0,0,0
 "Defeat the following bosses in Manaforge Omega on Heroic difficulty or higher while in a guild group.","Heroic: Manaforge Omega Guild Run",,41621,2810,-1,0,15529,0,10,61440,8,6997112,0,207229,0,0,0,0
@@ -12094,38 +12094,38 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Prove yourself as C.H.E.T.T.'s most dedicated and hardest working ""employee"" of the last pay period.","""Employee"" of the Month",,41630,-1,-1,0,81,0,0,133120,1,134391,0,207254,0,0,0,0
 "Honor the flames of Khaz Algar.","Flame Warden of Khaz Algar",,41631,-1,1,0,161,0,10,131072,15,135265,0,207256,0,0,0,0
 "Honor the flames of Khaz Algar.","Flame Keeper of Khaz Algar",,41632,-1,0,0,161,0,10,131072,35,135265,0,207261,0,0,0,0
-,"Plexus Sentinel (Raid Finder Manaforge Omega)",,41633,2810,-1,0,15520,0,0,1,95,136243,0,207266,0,0,0,0
-,"Plexus Sentinel (Normal Manaforge Omega)",,41634,2810,-1,0,15520,0,0,1,96,136243,0,207268,0,0,0,0
-,"Plexus Sentinel (Heroic Manaforge Omega)",,41635,2810,-1,0,15520,0,0,1,97,136243,0,207270,0,0,0,0
-,"Plexus Sentinel (Mythic Manaforge Omega)",,41636,2810,-1,0,15520,0,0,1,98,136243,0,207272,0,0,0,0
-,"Loom'ithar (Raid Finder Manaforge Omega)",,41637,2810,-1,0,15520,0,0,1,99,136243,0,207274,0,0,0,0
-,"Loom'ithar (Normal Manaforge Omega)",,41638,2810,-1,0,15520,0,0,1,100,136243,0,207276,0,0,0,0
-,"Loom'ithar (Heroic Manaforge Omega)",,41639,2810,-1,0,15520,0,0,1,101,136243,0,207278,0,0,0,0
-,"Loom'ithar (Mythic Manaforge Omega)",,41640,2810,-1,0,15520,0,0,1,102,136243,0,207280,0,0,0,0
-,"Soulbinder Naazindhri (Raid Finder Manaforge Omega)",,41641,2810,-1,0,15520,0,0,1,103,136243,0,207282,0,0,0,0
-,"Soulbinder Naazindhri (Normal Manaforge Omega)",,41642,2810,-1,0,15520,0,0,1,104,136243,0,207284,0,0,0,0
-,"Soulbinder Naazindhri (Heroic Manaforge Omega)",,41643,2810,-1,0,15520,0,0,1,105,136243,0,207286,0,0,0,0
-,"Soulbinder Naazindhri (Mythic Manaforge Omega)",,41644,2810,-1,0,15520,0,0,1,106,136243,0,207288,0,0,0,0
-,"Forgeweaver Araz (Raid Finder Manaforge Omega)",,41645,2810,-1,0,15520,0,0,1,107,136243,0,207290,0,0,0,0
-,"Forgeweaver Araz (Normal Manaforge Omega)",,41646,2810,-1,0,15520,0,0,1,108,136243,0,207292,0,0,0,0
-,"Forgeweaver Araz (Heroic Manaforge Omega)",,41647,2810,-1,0,15520,0,0,1,109,136243,0,207294,0,0,0,0
-,"Forgeweaver Araz (Mythic Manaforge Omega)",,41648,2810,-1,0,15520,0,0,1,110,136243,0,207296,0,0,0,0
-,"The Soul Hunters (Raid Finder Manaforge Omega)",,41649,2810,-1,0,15520,0,0,1,111,136243,0,207298,0,0,0,0
-,"The Soul Hunters (Normal Manaforge Omega)",,41650,2810,-1,0,15520,0,0,1,112,136243,0,207300,0,0,0,0
-,"The Soul Hunters (Heroic Manaforge Omega)",,41651,2810,-1,0,15520,0,0,1,113,136243,0,207302,0,0,0,0
-,"The Soul Hunters (Mythic Manaforge Omega)",,41652,2810,-1,0,15520,0,0,1,114,136243,0,207304,0,0,0,0
-,"Fractillus (Raid Finder Manaforge Omega)",,41653,2810,-1,0,15520,0,0,1,115,136243,0,207306,0,0,0,0
-,"Fractillus (Normal Manaforge Omega)",,41654,2810,-1,0,15520,0,0,1,116,136243,0,207308,0,0,0,0
-,"Fractillus (Heroic Manaforge Omega)",,41655,2810,-1,0,15520,0,0,1,117,136243,0,207310,0,0,0,0
-,"Fractillus (Mythic Manaforge Omega)",,41656,2810,-1,0,15520,0,0,1,118,136243,0,207312,0,0,0,0
-,"Nexus-King Salhadaar (Raid Finder Manaforge Omega)",,41657,2810,-1,0,15520,0,0,1,119,136243,0,207314,0,0,0,0
-,"Nexus-King Salhadaar (Normal Manaforge Omega)",,41658,2810,-1,0,15520,0,0,1,120,136243,0,207316,0,0,0,0
-,"Nexus-King Salhadaar (Heroic Manaforge Omega)",,41659,2810,-1,0,15520,0,0,1,121,136243,0,207318,0,0,0,0
-,"Nexus-King Salhadaar (Mythic Manaforge Omega)",,41660,2810,-1,0,15520,0,0,1,122,136243,0,207320,0,0,0,0
-,"Dimensius, the All-Devouring (Raid Finder Manaforge Omega)",,41661,2810,-1,0,15520,0,0,1,123,136243,0,207322,0,0,0,0
-,"Dimensius, the All-Devouring (Normal Manaforge Omega)",,41662,2810,-1,0,15520,0,0,1,124,136243,0,207324,0,0,0,0
-,"Dimensius, the All-Devouring (Heroic Manaforge Omega)",,41663,2810,-1,0,15520,0,0,1,125,136243,0,207326,0,0,0,0
-,"Dimensius, the All-Devouring (Mythic Manaforge Omega)",,41664,2810,-1,0,15520,0,0,1,126,136243,0,207328,0,0,0,0
+,"Plexus Sentinel (Raid Finder Manaforge Omega)",,41633,2810,-1,0,15520,0,0,1,95,6922080,0,207266,0,0,0,0
+,"Plexus Sentinel (Normal Manaforge Omega)",,41634,2810,-1,0,15520,0,0,1,96,6922080,0,207268,0,0,0,0
+,"Plexus Sentinel (Heroic Manaforge Omega)",,41635,2810,-1,0,15520,0,0,1,97,6922080,0,207270,0,0,0,0
+,"Plexus Sentinel (Mythic Manaforge Omega)",,41636,2810,-1,0,15520,0,0,1,98,6922080,0,207272,0,0,0,0
+,"Loom'ithar (Raid Finder Manaforge Omega)",,41637,2810,-1,0,15520,0,0,1,99,6922087,0,207274,0,0,0,0
+,"Loom'ithar (Normal Manaforge Omega)",,41638,2810,-1,0,15520,0,0,1,100,6922087,0,207276,0,0,0,0
+,"Loom'ithar (Heroic Manaforge Omega)",,41639,2810,-1,0,15520,0,0,1,101,6922087,0,207278,0,0,0,0
+,"Loom'ithar (Mythic Manaforge Omega)",,41640,2810,-1,0,15520,0,0,1,102,6922087,0,207280,0,0,0,0
+,"Soulbinder Naazindhri (Raid Finder Manaforge Omega)",,41641,2810,-1,0,15520,0,0,1,103,6922081,0,207282,0,0,0,0
+,"Soulbinder Naazindhri (Normal Manaforge Omega)",,41642,2810,-1,0,15520,0,0,1,104,6922081,0,207284,0,0,0,0
+,"Soulbinder Naazindhri (Heroic Manaforge Omega)",,41643,2810,-1,0,15520,0,0,1,105,6922081,0,207286,0,0,0,0
+,"Soulbinder Naazindhri (Mythic Manaforge Omega)",,41644,2810,-1,0,15520,0,0,1,106,6922081,0,207288,0,0,0,0
+,"Forgeweaver Araz (Raid Finder Manaforge Omega)",,41645,2810,-1,0,15520,0,0,1,107,6922084,0,207290,0,0,0,0
+,"Forgeweaver Araz (Normal Manaforge Omega)",,41646,2810,-1,0,15520,0,0,1,108,6922084,0,207292,0,0,0,0
+,"Forgeweaver Araz (Heroic Manaforge Omega)",,41647,2810,-1,0,15520,0,0,1,109,6922084,0,207294,0,0,0,0
+,"Forgeweaver Araz (Mythic Manaforge Omega)",,41648,2810,-1,0,15520,0,0,1,110,6922084,0,207296,0,0,0,0
+,"The Soul Hunters (Raid Finder Manaforge Omega)",,41649,2810,-1,0,15520,0,0,1,111,6922082,0,207298,0,0,0,0
+,"The Soul Hunters (Normal Manaforge Omega)",,41650,2810,-1,0,15520,0,0,1,112,6922082,0,207300,0,0,0,0
+,"The Soul Hunters (Heroic Manaforge Omega)",,41651,2810,-1,0,15520,0,0,1,113,6922082,0,207302,0,0,0,0
+,"The Soul Hunters (Mythic Manaforge Omega)",,41652,2810,-1,0,15520,0,0,1,114,6922082,0,207304,0,0,0,0
+,"Fractillus (Raid Finder Manaforge Omega)",,41653,2810,-1,0,15520,0,0,1,115,6922085,0,207306,0,0,0,0
+,"Fractillus (Normal Manaforge Omega)",,41654,2810,-1,0,15520,0,0,1,116,6922085,0,207308,0,0,0,0
+,"Fractillus (Heroic Manaforge Omega)",,41655,2810,-1,0,15520,0,0,1,117,6922085,0,207310,0,0,0,0
+,"Fractillus (Mythic Manaforge Omega)",,41656,2810,-1,0,15520,0,0,1,118,6922085,0,207312,0,0,0,0
+,"Nexus-King Salhadaar (Raid Finder Manaforge Omega)",,41657,2810,-1,0,15520,0,0,1,119,6922086,0,207314,0,0,0,0
+,"Nexus-King Salhadaar (Normal Manaforge Omega)",,41658,2810,-1,0,15520,0,0,1,120,6922086,0,207316,0,0,0,0
+,"Nexus-King Salhadaar (Heroic Manaforge Omega)",,41659,2810,-1,0,15520,0,0,1,121,6922086,0,207318,0,0,0,0
+,"Nexus-King Salhadaar (Mythic Manaforge Omega)",,41660,2810,-1,0,15520,0,0,1,122,6922086,0,207320,0,0,0,0
+,"Dimensius, the All-Devouring (Raid Finder Manaforge Omega)",,41661,2810,-1,0,15520,0,0,1,123,6922083,0,207322,0,0,0,0
+,"Dimensius, the All-Devouring (Normal Manaforge Omega)",,41662,2810,-1,0,15520,0,0,1,124,6922083,0,207324,0,0,0,0
+,"Dimensius, the All-Devouring (Heroic Manaforge Omega)",,41663,2810,-1,0,15520,0,0,1,125,6922083,0,207326,0,0,0,0
+,"Dimensius, the All-Devouring (Mythic Manaforge Omega)",,41664,2810,-1,0,15520,0,0,1,126,6922083,0,207328,0,0,0,0
 "Complete one of the achievements or feats of strength listed below:","Dressed to the Mines","Reward: Gallagio Highroller's Bombstone",41665,-1,-1,0,15259,0,10,131072,55,6392630,0,207347,0,0,0,0
 "Catch every battle pet on Khaz Algar.","Khaz Algar Safari (copy)","Pet: Waxwick",41683,-1,-1,0,15118,0,0,1179648,55,5777860,221821,207362,0,0,0,0
 "Defeat the Cauldron of Carnage while being Flarendo's Biggest Fan in Liberation of Undermine on Normal difficulty or higher.","Flarendo's Biggest Fan",,41694,2769,-1,0,15526,0,10,0,50,6123444,0,207437,0,0,0,0
@@ -12153,8 +12153,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete all Mythic+ dungeons within the time limit at keystone level 14 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 15","Keystones will no longer deplete below level 15 during the War Within Season 2.",41728,-1,-1,0,15272,0,0,1050624,134,648754,0,207803,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 16 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 16","Keystones will no longer deplete below level 16 during the War Within Season 2.",41729,-1,-1,0,15272,0,0,1050624,135,648754,0,207812,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 17 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 17","Keystones will no longer deplete below level 17 during the War Within Season 2.",41730,-1,-1,0,15272,0,0,1050624,136,648754,0,207821,0,0,0,0
-,"Carved Undermine Crests earned",,41789,-1,-1,0,130,0,0,1,73,136243,0,208194,0,0,0,0
-,"Runed Undermine Crests earned",,41790,-1,-1,0,130,0,0,1,74,136243,0,208196,0,0,0,0
+,"Carved Undermine Crests earned",,41789,-1,-1,0,15176,0,0,1,5,136243,0,208194,0,0,0,0
+,"Runed Undermine Crests earned",,41790,-1,-1,0,15176,0,0,1,6,136243,0,208196,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 18 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 18","Keystones will no longer deplete below level 18 during the War Within Season 2.",41731,-1,-1,0,15272,0,0,1050624,137,648754,0,207830,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 19 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 19","Keystones will no longer deplete below level 19 during the War Within Season 2.",41732,-1,-1,0,15272,0,0,1050624,138,648754,0,207839,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 20 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 20","Keystones will no longer deplete below level 20 during the War Within Season 2.",41733,-1,-1,0,15272,0,0,1050624,139,648754,0,207848,0,0,0,0
@@ -12163,7 +12163,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete all Mythic+ dungeons within the time limit at keystone level 23 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 23","Keystones will no longer deplete below level 23 during the War Within Season 2.",41736,-1,-1,0,15272,0,0,1050624,142,648754,0,207875,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 24 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 24","Keystones will no longer deplete below level 24 during the War Within Season 2.",41737,-1,-1,0,15272,0,0,1050624,143,648754,0,207884,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 25 during The War Within Season Two.","The War Within Season 2: Resilient Keystone 25","Keystones will no longer deplete below level 25 during the War Within Season 2.",41738,-1,-1,0,15272,0,0,1050624,144,648754,0,207893,0,0,0,0
-"Has completed quest Ship it! and does not have mount.","Delver's Dirigible Recovery",,41751,-1,-1,0,15523,0,0,1179652,72,136243,219391,207943,0,0,0,0
+"Has completed quest Ship it! and does not have mount.","Delver's Dirigible Recovery",,41751,-1,-1,0,15523,0,0,1179652,71,136243,219391,207943,0,0,0,0
 ,"<DNT> Plunderstorm Plunder Tracker - Mainline Power Rewards",,41752,-1,-1,0,15455,0,0,3276804,108,136243,0,205853,0,0,0,0
 "Quest counter remaining for mid-season 11.1.5","11.1.5 Mid-Season - Weekly Wrapper - Group Content - Seasonal Raid (YGR)",,41757,-1,-1,0,96,0,0,3145732,35,136243,0,208065,0,0,0,0
 ,"Player has collected 1 Ethereal Strand",,41758,-1,-1,0,15301,0,0,1179648,8,136243,0,208067,0,0,0,0
@@ -12186,7 +12186,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Player has collected 18 Ethereal Strand",,41775,-1,-1,0,15301,0,0,1179648,25,136243,0,208101,0,0,0,0
 "Win the two challenge mode races in the Oasis.","Brokers Don't Care How You Win",,41778,-1,-1,0,15506,0,5,131072,58,1100022,0,208136,0,0,0,0
 "Gain Mastery of Timeways for 5 weeks during the Turbulent Timeways III event.","Master of the Turbulent Timeways III","Mount: Chrono Corsair",41779,-1,-1,0,15454,0,20,131072,3,525134,238739,208163,0,0,0,0
-,"Gilded Undermine Crests earned",,41791,-1,-1,0,130,0,0,1,75,136243,0,208198,0,0,0,0
+,"Gilded Undermine Crests earned",,41791,-1,-1,0,15176,0,0,1,8,136243,0,208198,0,0,0,0
 ,"<DNT> Completed EcoFriendly Quest Once",,41792,-1,-1,0,15521,0,0,11665412,133,136243,0,208200,0,0,0,0
 ,"[HIDDEN] Renown 20 with Gallagio Loyalty Rewards / Teach Raid Teleport Spell",,41793,-1,-1,0,15526,0,0,1310720,51,136243,0,208202,0,0,0,0
 ,"<DNT> Vexie and the Geargrinders defeated",,41794,-1,-1,0,15526,0,0,1048576,53,136243,0,208204,0,0,0,0
@@ -12231,7 +12231,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Obtain all 8 Faceless Masks.","Horrific Masquerade",,41889,-1,-1,0,15546,0,10,131072,22,1354189,0,208954,0,0,0,0
 "Complete all objectives in any Revisited Horrific Vision with any 2 Faceless Masks active.","Masked Duet",,41890,-1,-1,41857,15546,0,5,0,24,367033,0,208963,0,0,0,0
 "Complete all objectives in any Revisited Horrific Vision with any 3 Faceless Masks active.","Masked Trio",,41891,-1,-1,41890,15546,0,5,0,25,446126,0,208965,0,0,0,0
-"Obtain an average item level of 714 during The War Within Season 3.","Gilded of the Ethereal",,41892,-1,-1,41888,81,0,0,2048,227,5872057,236953,208750,0,0,0,0
+"Obtain an average item level of 720 during The War Within Season 3.","Gilded of the Ethereal",,41892,-1,-1,41888,81,0,0,2048,227,5872057,236953,208750,0,0,0,0
 "Complete all objectives in any Revisited Horrific Vision with any 4 Faceless Masks active.","Masked Quartet",,41893,-1,-1,41891,15546,0,5,0,26,367814,0,208967,0,0,0,0
 "Complete all objectives in any Revisited Horrific Vision with any 7 Faceless Masks active.","Masked Septet",,41894,-1,-1,41858,15546,0,10,0,29,446124,0,208969,0,0,0,0
 "Complete all objectives in any Revisited Horrific Vision with all 8 Faceless Masks active.","Orchestra of Masks",,41895,-1,-1,41894,15546,0,10,0,30,446124,0,208971,0,0,0,0
@@ -12283,7 +12283,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Call out more enemies. More, more!!","Bullhorn of Plenty",,42002,-1,-1,0,15545,0,10,131072,17,6740278,0,209415,0,0,0,0
 "Call out more enemies. More, more!!","Bullhorn of More Plenty",,42003,-1,-1,42002,15545,0,10,131072,18,6740278,0,209417,0,0,0,0
 "Call out more enemies. More, more!!","Bullhorn of Most Plenty",,42004,-1,-1,42003,15545,0,10,131072,19,6740278,0,209419,0,0,0,0
-"Reach rank 20 with The K'aresh Trust.","A Trusted Partner",,42022,-1,-1,0,15530,0,10,131072,20,136243,0,209546,0,0,0,0
+"Reach rank 20 with The K'aresh Trust.","A Trusted Partner",,42022,-1,-1,0,15530,0,10,131072,20,6937965,0,209546,0,0,0,0
 "Win 100 Rated Solo Shuffle rounds while at Elite rank during The War Within Season 3","Legend: The War Within Season 3","Reward: Pennant & Seasonal Character Title",42023,-1,-1,0,15270,0,0,14336,39,236537,0,209538,0,0,0,0
 "Win 25 Rated Battleground Blitz matches while at Elite rank during The War Within Season 3.","Strategist: The War Within Season 3","Reward: Pennant & Seasonal Character Title",42024,-1,-1,0,15270,0,0,14336,510,236537,0,209540,0,0,0,0
 "Defeat the bosses of The Emerald Nightmare on Normal difficulty or higher.","The Emerald Nightmare",,42029,1520,-1,0,15255,0,10,0,7,1413864,0,209567,0,0,0,0
@@ -12312,6 +12312,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete the following achievements during The War Within Season 2.","The Enterprising Dungeon Master","Title: Triple Threat",42148,-1,-1,0,15272,0,0,131072,149,255347,0,210082,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 12 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 12","Keystones will no longer deplete below level 12 during the War Within Season 3.",42149,-1,-1,0,15272,0,0,2048,150,648754,0,210126,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 13 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 13","Keystones will no longer deplete below level 13 during the War Within Season 3.",42150,-1,-1,0,15272,0,0,2048,151,648754,0,210135,0,0,0,0
+,"Runed Ethereal Crests earned",,60977,-1,-1,0,130,0,0,1,74,136243,0,214631,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 14 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 14","Keystones will no longer deplete below level 14 during the War Within Season 3.",42151,-1,-1,0,15272,0,0,2048,152,648754,0,210144,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 15 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 15","Keystones will no longer deplete below level 15 during the War Within Season 3.",42152,-1,-1,0,15272,0,0,2048,153,648754,0,210153,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 16 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 16","Keystones will no longer deplete below level 16 during the War Within Season 3.",42153,-1,-1,0,15272,0,0,2048,154,648754,0,210162,0,0,0,0
@@ -12325,16 +12326,17 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete all Mythic+ dungeons within the time limit at keystone level 24 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 24","Keystones will no longer deplete below level 24 during the War Within Season 3.",42161,-1,-1,0,15272,0,0,2048,162,648754,0,210234,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 25 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 25","Keystones will no longer deplete below level 25 during the War Within Season 3.",42162,-1,-1,0,15272,0,0,2048,163,648754,0,210243,0,0,0,0
 "Complete a Mythic+ dungeon within the time limit during The War Within Season Three.","The War Within Keystone Explorer: Season Three",,42169,-1,-1,0,15272,0,0,133120,126,618860,0,210288,0,0,0,0
-"Attain a Mythic+ Rating of at least 1500 during The War Within Season Three.","The War Within Keystone Conqueror: Season Three",,42170,-1,-1,0,15272,0,0,133120,127,618860,0,210290,0,0,0,0
+"Attain a Mythic+ Rating of at least 1500 during The War Within Season Three.","The War Within Keystone Conqueror: Season Three","Title: The Unbound",42170,-1,-1,0,15272,0,0,133120,127,618860,0,210290,0,0,0,0
 "Attain a Mythic+ Rating of at least 2500 during The War Within Season Three.","The War Within Keystone Hero: Season Three",,42171,-1,-1,0,15272,0,0,133120,129,648760,0,210292,0,0,0,0
 "Attain a Mythic+ Rating of at least 3000 during The War Within Season Three.","The War Within Keystone Legend: Season Three","Mount: Scarlet Void Flyer",42172,-1,-1,0,15272,0,0,133120,130,648758,247822,210294,0,0,0,0
 "Complete Eco-Dome Al'dani at Mythic Level 10 or higher, within the time limit.","Keystone Hero: Eco-Dome Al'dani","Max Level Unlock: Teleport to Eco-Dome Al'dani",42173,2830,-1,0,15272,0,0,2048,57,136243,0,210296,0,0,0,0
-"End The War Within Mythic+ Season 3 with a Mythic+ Rating in the top 0.1% of all players in your region.","[PH] Hero: The War Within Season Three",,42174,-1,-1,0,15272,0,0,14336,169,618859,0,210298,0,0,0,0
+"End The War Within Mythic+ Season 3 with a Mythic+ Rating in the top 0.1% of all players in your region.","Unbound Hero: The War Within Season Three","Title: The Unbound Hero",42174,-1,-1,0,15272,0,0,14336,169,618859,0,210298,0,0,0,0
 "Complete the Ethereals Lorewalking Campaign.","Lorewalking: Ethereal Wisdom",,42187,-1,-1,0,15552,0,0,131072,3,1711337,0,210375,0,0,0,0
 "Complete the Xal'atath Lorewalking Campaign.","Lorewalking: Blade's Bane",,42188,-1,-1,0,15552,0,5,131072,1,1131285,0,210377,0,0,0,0
 "Complete the Lich King Lorewalking Campaign.","Lorewalking: The Lich King",,42189,-1,-1,0,15552,0,5,131072,2,343637,0,210379,0,0,0,0
 "Defeat Nexus-Princess Ky'veza in her lair on Tier ?? without any other players in your party, before the release of the next season of delves.","Let Me Solo Her: Nexus-Princess Ky'veza","Reward: Delver's Mana-Skimmer Schematic: Hyperdrive",42190,-1,-1,0,15531,0,0,14336,14,6361900,0,210387,0,0,0,0
 "Buy six bank tabs.","Safer Deposit",,42191,-1,-1,0,92,0,10,0,128,4203076,0,210425,0,0,0,0
+"Complete one of the achievements or feats of strength listed below:","Void Wear Prohibited","Reward: K'areshi Voidstone",42325,-1,-1,0,15259,0,10,131072,57,6921878,0,211460,0,0,0,0
 "Defeat Nexus-Princess Ky'veza in her lair before the release of the next season of delves.","My Stab-Happy Nemesis","Reward: Hal'hadar's Phasebound Visor",42193,-1,-1,0,15531,0,0,14336,8,6218232,0,210434,0,0,0,0
 "Defeat Nexus-Princess Ky'veza in her lair on Tier ?? before the release of the next season of delves.","Pruning the Princess","Title: Contract Killer",42194,-1,-1,0,15531,0,0,14336,11,5779388,0,210437,0,0,0,0
 ,"[HIDDEN] Renown 15 with Manaforge Vandals / Teach Raid Teleport Spell",,42195,-1,-1,0,15526,0,0,1310720,52,136243,0,210452,0,0,0,0
@@ -12346,33 +12348,32 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Complete a Tier 9 delve with lives remaining during The War Within Season 3.","War Within Delves: Tier 9 (Season 3)","Unlock: Tier 10 delves in The War Within",42201,-1,-1,42200,15531,0,0,133120,37,6025441,0,210484,0,0,0,0
 "Complete a Tier 10 delve with lives remaining during The War Within Season 3.","War Within Delves: Tier 10 (Season 3)","Unlock: Tier 11 delves in The War Within",42202,-1,-1,42201,15531,0,0,133120,39,6025441,0,210482,0,0,0,0
 "Complete a Tier 11 delve with lives remaining during The War Within Season 3.","War Within Delves: Tier 11 (Season 3)","Title: High Explorer",42203,-1,-1,42202,15531,0,0,133120,41,6025441,0,210480,0,0,0,0
-"Purchase enough Titan Discs to unlock all of the skills in the Overcharged Titan Console.","Titan Console Overcharged","Mount: OC91 Chariot",42212,-1,-1,0,15523,0,0,131072,73,2000853,246237,210543,0,0,0,0
-,"Console Overcharged Purchase 1",,42213,-1,-1,0,15523,0,0,1179648,75,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 2",,42214,-1,-1,0,15523,0,0,1179648,76,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 3",,42215,-1,-1,0,15523,0,0,1179648,77,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 4",,42216,-1,-1,0,15523,0,0,1179648,78,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 5",,42217,-1,-1,0,15523,0,0,1179648,79,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 6",,42218,-1,-1,0,15523,0,0,1179648,80,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 7",,42219,-1,-1,0,15523,0,0,1179648,81,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 8",,42220,-1,-1,0,15523,0,0,1179648,82,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 9",,42221,-1,-1,0,15523,0,0,1179648,83,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 10",,42222,-1,-1,0,15523,0,0,1179648,84,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 11",,42223,-1,-1,0,15523,0,0,1179648,85,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 12",,42224,-1,-1,0,15523,0,0,1179648,86,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 13",,42225,-1,-1,0,15523,0,0,1179648,87,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 14",,42226,-1,-1,0,15523,0,0,1179648,88,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 15",,42227,-1,-1,0,15523,0,0,1179648,89,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 16",,42228,-1,-1,0,15523,0,0,1179648,90,136243,0,0,0,0,0,0
-,"Console Overcharged Purchase 17",,42229,-1,-1,0,15523,0,0,1179648,91,136243,0,0,0,0,0,0
+"Purchase enough Titan Discs to unlock all of the skills in the Overcharged Titan Console.","Titan Console Overcharged","Mount: OC91 Chariot",42212,-1,-1,0,15523,0,0,131072,72,2000853,246237,210543,0,0,0,0
+,"Console Overcharged Purchase 1",,42213,-1,-1,0,15523,0,0,1179648,74,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 2",,42214,-1,-1,0,15523,0,0,1179648,75,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 3",,42215,-1,-1,0,15523,0,0,1179648,76,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 4",,42216,-1,-1,0,15523,0,0,1179648,77,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 5",,42217,-1,-1,0,15523,0,0,1179648,78,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 6",,42218,-1,-1,0,15523,0,0,1179648,79,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 7",,42219,-1,-1,0,15523,0,0,1179648,80,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 8",,42220,-1,-1,0,15523,0,0,1179648,81,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 9",,42221,-1,-1,0,15523,0,0,1179648,82,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 10",,42222,-1,-1,0,15523,0,0,1179648,83,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 11",,42223,-1,-1,0,15523,0,0,1179648,84,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 12",,42224,-1,-1,0,15523,0,0,1179648,85,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 13",,42225,-1,-1,0,15523,0,0,1179648,86,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 14",,42226,-1,-1,0,15523,0,0,1179648,87,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 15",,42227,-1,-1,0,15523,0,0,1179648,88,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 16",,42228,-1,-1,0,15523,0,0,1179648,89,136243,0,0,0,0,0,0
+,"Console Overcharged Purchase 17",,42229,-1,-1,0,15523,0,0,1179648,90,136243,0,0,0,0,0,0
 "Quest counter remaining for first mid-season quest","11.1.5 Mid-Season - Weekly Wrapper - Group Content - Seasonal Raid, First Time Tracker",,42230,-1,-1,0,96,0,0,3145732,36,136243,0,210549,0,0,0,0
 ,"Anu'relos, Flame's Guidance <Tracking Achievement>",,42240,-1,-1,0,15248,0,0,1179652,34,136243,0,210585,0,0,0,0
-"Complete 4 out of the 6 Overcharged Delves.","Overcharged Delver","Toy: Redeployment Module",42241,-1,-1,0,15523,0,0,131072,74,2000853,235016,210760,0,0,0,0
+"Complete 4 out of the 6 Overcharged Delves.","Overcharged Delver","Toy: Redeployment Module",42241,-1,-1,0,15523,0,0,131072,73,2000853,235016,210760,0,0,0,0
 "Collect an armor set from Manaforge Omega.","Fractals? For Spring? Groundbreaking.",,42316,-1,-1,0,15259,0,10,131072,56,6921878,0,211458,0,0,0,0
-"Complete one of the achievements or feats of strength listed below:","Void Wear Prohibited","Reward: K'areshi Voidstone",42325,-1,-1,0,15259,0,10,131072,57,6921878,0,211460,0,0,0,0
 "Raise a companion to level 100.","Buddy System IX",,42676,-1,-1,41723,15522,0,10,131072,15,1033987,0,211526,0,0,0,0
 "Obtain the Delver's Mana-Skimmer.","This Machine Flies?! Don't Care I Got It!",,42677,-1,-1,0,15523,0,10,131072,26,6361900,0,211648,0,0,0,0
 "Collect the following cosmetic unlocks for the Delver's Mana-Skimmer.","So That's Where My Manaflux Capacitor Was!",,42678,-1,-1,42677,15523,0,10,131072,27,6215895,0,211650,0,0,0,0
-"Find and open all Sturdy Chests hidden in Archival Assault.","Archival Assault Discoveries",,42679,-1,-1,0,15523,0,5,131200,64,4203076,0,211656,0,0,0,0
+"Find and open all Sturdy Chests hidden in Archival Assault.","Archival Assault Discoveries",,42679,-1,-1,0,15523,0,5,131200,63,4203076,0,211656,0,0,0,0
 ,"Archival Assault clears",,42700,-1,-1,0,15534,0,0,1,15,136243,0,211667,0,0,0,0
 "Collect the Skyriding Glyph at Tazavesh, the Veiled Market, in K'aresh.","Skyriding Glyphs: Tazavesh, the Veiled Market",,42712,-1,-1,0,15521,0,0,1179648,64,5926319,0,0,0,0,0,0
 "Collect the Skyriding Glyph at The Serrated Peaks in K'aresh.","Skyriding Glyph: Serrated Peaks",,42713,-1,-1,0,15521,0,0,1179648,65,5926319,0,0,0,0,0,0
@@ -12395,8 +12396,8 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Fully upgrade the Reshii Wraps.","Power of the Reshii",,42742,-1,-1,0,15521,0,10,0,138,7110834,0,212218,0,0,0,0
 "Defeat all of the rare creatures found on K'aresh.","Remnants of a Shattered World",,42761,-1,-1,0,15521,0,15,131072,122,132147,0,212265,0,0,0,0
 "Complete each story variant of Archival Assault.","Archival Assault Stories",,42771,-1,-1,0,15523,0,5,131072,31,6999168,0,212380,0,0,0,0
-"Open 10 Flickergates.","A Flicker in the Dark",,42778,-1,-1,0,15523,0,0,131200,2,4914669,0,212398,0,0,0,0
-"Open 100 Flickergates.","A Flash in the Void","Title: Flickering",42779,-1,-1,42778,15523,0,0,131200,3,5927657,0,212400,0,0,0,0
+"Open 10 Flickergates.","A Flicker in the Dark",,42778,-1,-1,0,15523,0,5,131200,2,4914669,0,212398,0,0,0,0
+"Open 100 Flickergates.","A Flash in the Void","Title: Flickering",42779,-1,-1,42778,15523,0,5,131200,3,5927657,0,212400,0,0,0,0
 "Defeat Soul-Scribe in Eco-Dome Al'dani.","Eco-Dome Al'dani",,42780,2830,-1,0,15524,0,10,0,32,6921877,0,212410,0,0,0,0
 "Defeat Soul-Scribe in Eco-Dome Al'dani on Heroic difficulty or higher.","Heroic: Eco-Dome Al'dani",,42781,2830,-1,0,15524,0,10,0,33,6921877,0,212412,0,0,0,0
 "Defeat Soul-Scribe in Eco-Dome Al'dani on Mythic or Mythic Keystone difficulty.","Mythic: Eco-Dome Al'dani",,42782,2830,-1,0,15524,0,10,0,34,6921877,0,212414,0,0,0,0
@@ -12405,7 +12406,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Soul-Scribe (Mythic Eco-Dome Al'dani)",,42785,2830,-1,0,15520,0,0,1,30,136243,0,212420,0,0,0,0
 "Get killed by Ky'veza in a delve.","Let Her Solo Me",,42799,-1,-1,0,15531,0,0,133120,2,6694635,0,212482,0,0,0,0
 "Collect any armor set from The War Within PvP Season 3.","Astral Attire",,42800,-1,-1,0,15259,0,10,131072,91,6784665,0,212491,0,0,0,0
-"Complete the Delver's Journey before Season 2 ends.","Journey's End (Season 3)",,42801,-1,-1,0,15531,0,0,133120,17,6025441,0,212703,0,0,0,0
+"Complete the Delver's Journey before Season 3 ends.","Journey's End (Season 3)",,42801,-1,-1,0,15531,0,0,133120,17,6025441,0,212703,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 26 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 26","Keystones will no longer deplete below level 26 during the War Within Season 3.",42802,-1,-1,0,15272,0,0,2048,164,648754,0,212705,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 27 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 27","Keystones will no longer deplete below level 27 during the War Within Season 3.",42803,-1,-1,0,15272,0,0,2048,165,648754,0,212714,0,0,0,0
 "Complete all Mythic+ dungeons within the time limit at keystone level 28 during The War Within Season Three.","The War Within Season 3: Resilient Keystone 28","Keystones will no longer deplete below level 28 during the War Within Season 3.",42804,-1,-1,0,15272,0,0,2048,166,648754,0,212723,0,0,0,0
@@ -12433,4 +12434,34 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach rank 20 with the Gallagio Loyalty Rewards Club.","Bringing Down the House",,60939,-1,-1,0,15530,0,10,131072,19,6392630,0,214439,0,0,0,0
 "Reach rank 15 with the Manaforge Vandals","Vandals! In! Space!",,60940,-1,-1,0,15530,0,10,131072,21,6997112,0,214441,0,0,0,0
 ,"<Hidden> 11.2 Raid Renown - Activated All Dead Drops",,60941,-1,-1,0,81,0,0,3276804,16,136243,0,214443,0,0,0,0
+,"Weathered Ethereal Crests earned",,60975,-1,-1,0,130,0,0,1,72,136243,0,214627,0,0,0,0
+,"Carved Ethereal Crests earned",,60976,-1,-1,0,130,0,0,1,73,136243,0,214629,0,0,0,0
+,"Gilded Ethereal Crests earned",,60978,-1,-1,0,130,0,0,1,75,136243,0,214633,0,0,0,0
+,"<DNT> Plexus Sentinel defeated on Heroic",,60993,-1,-1,0,15526,0,0,1048576,84,136243,0,214682,0,0,0,0
+,"<DNT> Loom'ithar defeated on Heroic",,60994,-1,-1,0,15526,0,0,1048576,85,136243,0,214684,0,0,0,0
+,"<DNT> Soulbinder Naazindhri defeated on Heroic",,60995,-1,-1,0,15526,0,0,1048576,86,136243,0,214686,0,0,0,0
+,"<DNT> Forgeweaver Araz defeated on Heroic",,60996,-1,-1,0,15526,0,0,1048576,87,136243,0,214688,0,0,0,0
+,"<DNT> The Soul Hunters defeated on Heroic",,60997,-1,-1,0,15526,0,0,1048576,88,136243,0,214690,0,0,0,0
+,"<DNT> Fractillus defeated on Heroic",,60998,-1,-1,0,15526,0,0,1048576,89,136243,0,214692,0,0,0,0
+,"<DNT> Nexus-King Salhadaar defeated on Heroic",,60999,-1,-1,0,15526,0,0,1048576,90,136243,0,214694,0,0,0,0
+,"<DNT> Dimensius, the All-Devouring defeated on Heroic",,61000,-1,-1,0,15526,0,0,1048576,91,136243,0,214696,0,0,0,0
+,"<DNT> Plexus Sentinel defeated on Normal",,61001,-1,-1,0,15526,0,0,1048576,92,136243,0,214698,0,0,0,0
+,"<DNT> Loom'ithar defeated on Normal",,61002,-1,-1,0,15526,0,0,1048576,93,136243,0,214700,0,0,0,0
+,"<DNT> Soulbinder Naazindhri defeated on Normal",,61003,-1,-1,0,15526,0,0,1048576,94,136243,0,214702,0,0,0,0
+,"<DNT> Forgeweaver Araz defeated on Normal",,61004,-1,-1,0,15526,0,0,1048576,95,136243,0,214704,0,0,0,0
+,"<DNT> The Soul Hunters defeated on Normal",,61005,-1,-1,0,15526,0,0,1048576,96,136243,0,214706,0,0,0,0
+,"<DNT> Fractillus defeated on Normal",,61006,-1,-1,0,15526,0,0,1048576,97,136243,0,214708,0,0,0,0
+,"<DNT> Nexus-King Salhadaar defeated on Normal",,61007,-1,-1,0,15526,0,0,1048576,98,136243,0,214710,0,0,0,0
+,"<DNT> Dimensius, the All-Devouring defeated on Normal",,61008,-1,-1,0,15526,0,0,1048576,99,136243,0,214712,0,0,0,0
+,"<DNT> Plexus Sentinel defeated on Raid Finder",,61009,-1,-1,0,15526,0,0,1048576,100,136243,0,214714,0,0,0,0
+,"<DNT> Loom'ithar defeated on Raid Finder",,61010,-1,-1,0,15526,0,0,1048576,101,136243,0,214716,0,0,0,0
+,"<DNT> Soulbinder Naazindhri defeated on Raid Finder",,61011,-1,-1,0,15526,0,0,1048576,102,136243,0,214718,0,0,0,0
+,"<DNT> Forgeweaver Araz defeated on Raid Finder",,61012,-1,-1,0,15526,0,0,1048576,103,136243,0,214720,0,0,0,0
+,"<DNT> The Soul Hunters defeated on Raid Finder",,61013,-1,-1,0,15526,0,0,1048576,104,136243,0,214722,0,0,0,0
+,"<DNT> Fractillus defeated on Raid Finder",,61014,-1,-1,0,15526,0,0,1048576,105,136243,0,214724,0,0,0,0
+,"<DNT> Nexus-King Salhadaar defeated on Raid Finder",,61015,-1,-1,0,15526,0,0,1048576,106,136243,0,214726,0,0,0,0
+,"<DNT> Dimensius, the All-Devouring defeated on Raid Finder",,61016,-1,-1,0,15526,0,0,1048576,107,136243,0,214728,0,0,0,0
+"Collect all of the Phase-Lost item appearances found from Phase Diving orbs.",Phase-Lost-and-Found,"Mount: Phase-Lost Slateback",61017,-1,-1,0,15521,0,10,0,139,135305,250240,214739,0,0,0,0
+"Defeat So'leah in Tazavesh, the Veiled Market on Hard Mode during The War Within Season 3.","Hard Mode: Tazavesh, the Veiled Market",,61092,-1,-1,0,15272,0,0,2048,170,4062727,0,215930,0,0,0,0
+"Within a single lockout, defeat all bosses in Tazavesh, the Veiled Market without any player dying on Hard Mode during The War Within Season 3.","Flawless Transaction",,61093,-1,-1,0,15272,0,0,2048,171,413573,0,215932,0,0,0,0
 "Complete the Lingering Shadows storyline.","Lingering Shadows","Appearance: Root Defender's Spear and Root Defender's Shield",41052,-1,-1,0,15506,0,10,131072,5,5976943,0,169684,0,0,0,0

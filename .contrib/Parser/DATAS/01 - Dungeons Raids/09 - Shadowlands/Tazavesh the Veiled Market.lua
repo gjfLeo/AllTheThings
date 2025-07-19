@@ -21,6 +21,12 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 		},
 		["g"] = {
 			n(ACHIEVEMENTS, {
+				ach(61093, {	-- Flawless Transaction
+					["timeline"] = { ADDED_11_2_0_SEASONSTART },
+				}),
+				ach(61092, {	-- Hard Mode: Tazavesh, the Veiled Market
+					["timeline"] = { ADDED_11_2_0_SEASONSTART },
+				}),
 				ach(15190, {	-- Mischief!
 					crit(52460, {	-- Pickle
 						["cr"] = 180817,	-- Pickle

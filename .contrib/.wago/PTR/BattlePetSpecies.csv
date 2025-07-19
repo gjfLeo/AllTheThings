@@ -2746,7 +2746,7 @@ INTERNAL TEMPERATURE: LOW.","|cFFFFD200Promotion|r |n",4618,229901,463251,586966
 "It totally fell into a pit of acid but then it came back ten times stronger! So cool!!!","|cFFFFD200Drop:|r Sifted Pile of Scrap|n|cFFFFD200Zone: |rUndermine",4639,231456,471944,6105006,9,2,0,6,7,0
 "Nuh-uh! Yellow is coolest! It's themed after the original, who's totally gonna beat that stupid gorilla!","|cFFFFD200Vendor: |rSnix Longpocket|n|cFFFFD200Zone: |rLiberation of Undermine",4640,231454,471933,6105008,9,18,2,6,7,0
 "And even if they reach the danish, they'll never get past Rocketfist!","|cFFFFD200Vendor: |rShredz the Scrapper|n|cFFFFD200Zone: |rUndermine|n|cFFFFD200Cost: |r6500|Hcurrency:2815|h|TInterface\ICONS\SPELL_AZERITE_ESSENCE14.BLP:0|t|h",4641,231450,471918,5904914,9,2,2,6,7,0
-"Gorillion possesses the strength of not one, but FIVE gorillas.","|cFFFFD200Quest: |rInoperative Gorillion|n|cFFFFD200Zone: |rUndermine",4642,231451,471935,5904911,9,18,1,6,7,0
+"Mega-Mecha Gorilla possesses the strength of not one, but FIVE gorillas.","Quest: Mega-Mecha Gorilla|nZone: Undermine",4642,231451,471935,5904911,9,18,1,6,7,0
 "Tiny Torq's dad could TOTALLY beat up Flarendo's dad.","|cFFFFD200Vendor: |rSkitto Screwjack|n|cFFFFD200Zone: |rLiberation of Undermine",4643,231448,471945,5904913,9,18,2,6,7,0
 "And he was all like, Primal Punch!!","|cFFFFD200Vendor: |rDitty Fuzeboy|n|cFFFFD200Zone: |rUndermine|n|cFFFFD200Cost: |r8|Hitem:234741|h|TInterface\ICONS\INV_Engineering_90_Toolbox_Orange.BLP:0|t|h",4644,231453,471940,5904912,9,2,2,6,7,0
 "Scrap metal hunks hauling junk.","|cFFFFD200Vendor: |rRocco Razzboom|n|cFFFFD200Zone: |rUndermine|n|cFFFFD200Cost: |r6500|Hcurrency:2815|h|TInterface\ICONS\SPELL_AZERITE_ESSENCE14.BLP:0|t|h",4645,231458,471925,6383539,9,2,2,6,7,0
@@ -2876,9 +2876,9 @@ INTERNAL TEMPERATURE: LOW.","|cFFFFD200Promotion|r |n",4618,229901,463251,586966
 "An especially agressive snooter. Its unpleasant disposition makes it an outcast among other snooters.","|cFFFFD200Trading Post|r",4855,246662,1241760,6993783,7,16466,11,6,7,0
 "Of all snooters, this one has the scruffiest and warmest fur. It is a very friendly snooter but use extreme caution when petting it.","|cFFFFD200Trading Post|r",4856,246663,1241763,6993782,7,16466,11,6,7,0
 "If you have milk tea, keep an eye on it. Brewthieves love to pop out of the shadows and steal tea. Even worse, once in paw they love to show off their newly acquired beverage.",|cFFFFD200Promotion|r,4858,246983,1242265,6310500,0,16466,7,6,7,0
-"Zo'ya is cunning and beautiful, both highly desirable traits among purrkins. Despite being the culprit behind many mishaps, her warm glow ensures she is forgiven for any transgression.","|cFFFFD200Vendor: |rBa'choso
-|cFFFFD200Zone: |rShadow Point",4859,247463,1243337,3742946,7,2,-1,6,7,0
+"Zo'ya is cunning and beautiful, both highly desirable traits among purrkins. Despite being the culprit behind many mishaps, her warm glow ensures she is forgiven for any transgression.","|cFFFFD200Faction: |rManaforge Vandals|n|cFFFFD200Renown: |r8|n|cFFFFD200Location: |rShadow Point",4859,247463,1243337,3742946,7,2,1,6,7,0
 "While purrkin have a knack for getting lost, none have ever been so talented as this one. Purrfectly unbothered however, this curious creature can thrive in any situation.","|cFFFFD200Source: |r???
 |cFFFFD200Zone: |rTazavesh, the Veiled Market",4860,247465,1243343,3742947,7,2,-1,6,7,0
+"According to Tol'vir beliefs, a crocolisk nest that hatches during the Festival of the Sun is said to be blessed by the river guardian, Sa'bak.",|cFFFFD200Promotion|r,4796,241416,1227251,6694821,8,16466,7,6,7,0
 "Like most young meeksi, Liu has a penchant for finding both trouble and adventure. Unlike other meeksi, Liu can teleport across great distances in search of both.","|cFFFFD200In-Game Shop|r",4717,234439,473300,6310496,0,16466,7,6,7,0
 "The name 'Beepbop' followed by the words 'Made by Threadis' are roughly but lovingly scratched into the bottom plate on this tiny nerubian-crafted bot.","|cFFFFD200World Event:|r Children's Week",3245,185425,367189,4235634,9,2,6,6,7,0
