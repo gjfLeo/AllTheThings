@@ -7,180 +7,180 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 		["mapID"] = 593,
 		["coord"] = { 46.27, 73.92, TALADOR },
 		["groups"] = {
-			d(DIFFICULTY.DUNGEON.NORMAL, {
+			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS, {
 				e(1185, {	-- Vigilant Kaathar
 					["crs"] = { 75839 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 1, WAIST},
-						{"sub", "common_wod_dungeon_drop", 1, FINGER},
+				}),
+				e(1186, {	-- Soulbinder Nyami
+					["crs"] = { 76177 },
+				}),
+				e(1216, {	-- Azzakel
+					["crs"] = { 75927 },
+				}),
+				e(1225, {	-- Teron'gor
+					["crs"] = { 77734 },
+					["g"] = {
+						ach(9039),	-- Auchindoun
 					},
+				}),
+			}),
+			d(DIFFICULTY.DUNGEON.MULTI.NORMAL_MYTHIC, {
+				e(1185, {	-- Vigilant Kaathar
+					["crs"] = { 75839 },
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL_MYTHIC, WAIST, FINGER),
 					["g"] = {
 						i(110045),	-- Kamui's Crystalline Staff of Wizardry
-						n(WARFORGED, bubbleDown({["bonusID"] = 4746 }, {
-							i(110045),	-- Kamui's Crystalline Staff of Wizardry
-						})),
 					},
 				}),
 				e(1186, {	-- Soulbinder Nyami
 					["crs"] = { 76177 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 1, CHEST},
-						{"sub", "common_wod_dungeon_drop", 1, NECK},
-					},
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL_MYTHIC, CHEST, NECK),
 					["g"] = {
 						i(110046),	-- Hammer of the Soulbinder
 						i(110047),	-- Soulcutter Mageblade
-						n(WARFORGED, bubbleDown({["bonusID"] = 4746 }, {
-							i(110046),	-- Hammer of the Soulbinder
-							i(110047),	-- Soulcutter Mageblade
-						})),
 					},
 				}),
 				e(1216, {	-- Azzakel
 					["crs"] = { 75927 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 1, WRIST},
-						{"sub", "common_wod_dungeon_drop", 1, HANDS},
-					},
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL_MYTHIC, WRIST, HANDS),
 					["g"] = {
 						i(110048),	-- Azzakel's Boltslinger
 						i(109995),	-- Blood Seal of Azzakel
-						n(WARFORGED, bubbleDown({["bonusID"] = 4746 }, {
-							i(110048),	-- Azzakel's Boltslinger
-							i(109995),	-- Blood Seal of Azzakel
-						})),
 					},
 				}),
 				e(1225, {	-- Teron'gor
 					["crs"] = { 77734 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 1, BACK},
-						{"sub", "common_wod_dungeon_drop", 1, LEGS},
-						{"sub", "common_wod_dungeon_drop", 1, FEET},
-					},
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL_MYTHIC, BACK, LEGS, FEET),
 					["g"] = {
-						ach(9039),	-- Auchindoun
 						i(110049),	-- Bloodblade of Teron'Gor
 						i(110050),	-- Dagger of the Sanguine Emeralds
 						i(110005),	-- Crystalline Blood Drop
 						i(110010),	-- Mote of Corruption
-						n(WARFORGED, bubbleDown({["bonusID"] = 4746 }, {
+					},
+				}),
+			}),
+			d(DIFFICULTY.DUNGEON.NORMAL, {
+				e(1185, {	-- Vigilant Kaathar
+					["crs"] = { 75839 },
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL, WAIST, FINGER),
+					["g"] = {
+						HEADER_WARFORGED({
+							i(110045),	-- Kamui's Crystalline Staff of Wizardry
+						}),
+					},
+				}),
+				e(1186, {	-- Soulbinder Nyami
+					["crs"] = { 76177 },
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL, CHEST, NECK),
+					["g"] = {
+						HEADER_WARFORGED({
+							i(110046),	-- Hammer of the Soulbinder
+							i(110047),	-- Soulcutter Mageblade
+						}),
+					},
+				}),
+				e(1216, {	-- Azzakel
+					["crs"] = { 75927 },
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL, WRIST, HANDS),
+					["g"] = {
+						HEADER_WARFORGED({
+							i(110048),	-- Azzakel's Boltslinger
+							i(109995),	-- Blood Seal of Azzakel
+						}),
+					},
+				}),
+				e(1225, {	-- Teron'gor
+					["crs"] = { 77734 },
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.NORMAL, BACK, LEGS, FEET),
+					["g"] = {
+						HEADER_WARFORGED({
 							i(110049),	-- Bloodblade of Teron'Gor
 							i(110050),	-- Dagger of the Sanguine Emeralds
 							i(110005),	-- Crystalline Blood Drop
 							i(110010),	-- Mote of Corruption
-						})),
+						}),
+					},
+				}),
+			}),
+			d(DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS, {
+				e(1185, {	-- Vigilant Kaathar
+					["crs"] = { 75839 },
+				}),
+				e(1186, {	-- Soulbinder Nyami
+					["crs"] = { 76177 },
+					["g"] = {
+						ach(9023, {	-- ...They All Fall Down
+							["crs"] = { 76283 },	-- Malefic Defender
+						}),
+					},
+				}),
+				e(1216, {	-- Azzakel
+					["crs"] = { 75927 },
+					["g"] = {
+						ach(9551),	-- Demon's Souls
+					},
+				}),
+				e(1225, {	-- Teron'gor
+					["crs"] = { 77734 },
+					["g"] = {
+						ach(9049),	-- Heroic: Auchindoun
+						ach(9371),	-- Heroic: Auchindoun Guild Run
+						ach(9552),	-- No Tag-backs!
+						un(REMOVED_FROM_GAME, i(114240)),	-- Corrupted Blood of Teron'gor
 					},
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.HEROIC, {
 				e(1185, {	-- Vigilant Kaathar
 					["crs"] = { 75839 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 2, WAIST},
-						{"sub", "common_wod_dungeon_drop", 2, FINGER},
-					},
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.HEROIC, WAIST, FINGER),
 					["g"] = {
 						i(110045),	-- Kamui's Crystalline Staff of Wizardry
 					},
 				}),
 				e(1186, {	-- Soulbinder Nyami
 					["crs"] = { 76177 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 2, CHEST},
-						{"sub", "common_wod_dungeon_drop", 2, NECK},
-					},
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.HEROIC, CHEST, NECK),
 					["g"] = {
-						ach(9023, {	-- ...They All Fall Down
-							["crs"] = { 76283 },	-- Malefic Defender
-						}),
 						i(110046),	-- Hammer of the Soulbinder
 						i(110047),	-- Soulcutter Mageblade
 					},
 				}),
 				e(1216, {	-- Azzakel
 					["crs"] = { 75927 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 2, WRIST},
-						{"sub", "common_wod_dungeon_drop", 2, HANDS},
-					},
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.HEROIC, WRIST, HANDS),
 					["g"] = {
-						ach(9551),	-- Demon's Souls
 						i(110048),	-- Azzakel's Boltslinger
 						i(109995),	-- Blood Seal of Azzakel
 					},
 				}),
 				e(1225, {	-- Teron'gor
 					["crs"] = { 77734 },
-					["sym"] = {
-						{"sub", "common_wod_dungeon_drop", 2, BACK},
-						{"sub", "common_wod_dungeon_drop", 2, LEGS},
-						{"sub", "common_wod_dungeon_drop", 2, FEET},
-					},
+					["sym"] = SYM_WOD_COMMON_DUNGEON_SLOTS(DIFFICULTY.DUNGEON.HEROIC, BACK, LEGS, FEET),
 					["g"] = {
-						ach(9049),	-- Heroic: Auchindoun
-						ach(9371),	-- Heroic: Auchindoun Guild Run
-						ach(9552),	-- No Tag-backs!
 						i(110049),	-- Bloodblade of Teron'Gor
 						i(110050),	-- Dagger of the Sanguine Emeralds
 						i(110005),	-- Crystalline Blood Drop
 						i(110010),	-- Mote of Corruption
-						un(REMOVED_FROM_GAME, i(114240)),	-- Corrupted Blood of Teron'gor
 					},
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.MYTHIC, {
-				["ItemAppearanceModifierID"] = 0,
-				["groups"] = {
-					e(1185, {	-- Vigilant Kaathar
-						["crs"] = { 75839 },
-						["sym"] = {
-							{"sub", "common_wod_dungeon_drop", 23, WAIST},
-							{"sub", "common_wod_dungeon_drop", 23, FINGER},
-						},
-						["g"] = {
-							i(110045),	-- Kamui's Crystalline Staff of Wizardry
-						},
-					}),
-					e(1186, {	-- Soulbinder Nyami
-						["crs"] = { 76177 },
-						["sym"] = {
-							{"sub", "common_wod_dungeon_drop", 23, CHEST},
-							{"sub", "common_wod_dungeon_drop", 23, NECK},
-						},
-						["g"] = {
-							i(110046),	-- Hammer of the Soulbinder
-							i(110047),	-- Soulcutter Mageblade
-						},
-					}),
-					e(1216, {	-- Azzakel
-						["crs"] = { 75927 },
-						["sym"] = {
-							{"sub", "common_wod_dungeon_drop", 23, WRIST},
-							{"sub", "common_wod_dungeon_drop", 23, HANDS},
-						},
-						["g"] = {
-							i(110048),	-- Azzakel's Boltslinger
-							i(109995),	-- Blood Seal of Azzakel
-						},
-					}),
-					e(1225, {	-- Teron'gor
-						["crs"] = { 77734 },
-						["sym"] = {
-							{"sub", "common_wod_dungeon_drop", 23, BACK},
-							{"sub", "common_wod_dungeon_drop", 23, LEGS},
-							{"sub", "common_wod_dungeon_drop", 23, FEET},
-						},
-						["g"] = {
-							ach(10080),	-- Mythic: Auchindoun
-							i(110049),	-- Bloodblade of Teron'Gor
-							i(110050),	-- Dagger of the Sanguine Emeralds
-							i(110005),	-- Crystalline Blood Drop
-							i(110010),	-- Mote of Corruption
-							un(REMOVED_FROM_GAME, i(114240)),	-- Corrupted Blood of Teron'gor
-						},
-					}),
-				},
+				e(1185, {	-- Vigilant Kaathar
+					["crs"] = { 75839 },
+				}),
+				e(1186, {	-- Soulbinder Nyami
+					["crs"] = { 76177 },
+				}),
+				e(1216, {	-- Azzakel
+					["crs"] = { 75927 },
+				}),
+				e(1225, {	-- Teron'gor
+					["crs"] = { 77734 },
+					["g"] = {
+						ach(10080),	-- Mythic: Auchindoun
+					},
+				}),
 			}),
 		},
 	}),
