@@ -1928,21 +1928,8 @@ root(ROOTS.Zones, {
 								i(30623, {	-- Reservoir Key [Revered]
 									["timeline"] = { REMOVED_4_2_0 },
 									-- #if ANYCLASSIC
-									-- Blizzard added "Honored" versions of this key for TBC Classic... BLIZZARD.
-									["OnTooltip"] = [[function(t, tooltipInfo)
-										local tooltip = _.ShowItemCompareTooltips(t.otherItemID);
-										if _.Settings:GetUnobtainableFilter(]] .. TBC_PHASE_FOUR .. [[) then
-											tooltip:AddLine("This is now available at Honored reputation.", 0.4, 0.8, 1, 1);
-										else
-											tooltip:AddLine("This will be available at Honored reputation after TBC Phase 4.", 0.4, 0.8, 1, 1);
-										end
-										tooltip:Show();
-									end]],
-									["OnInit"] = [[function(t)
-										t.otherItemID = 185690;
-										t.GetItemCount = function(t) return ]] .. WOWAPI_GetItemCount("t.itemID") .. [[ + ]] .. WOWAPI_GetItemCount("t.otherItemID") .. [[; end
-										return t;
-									end]],
+									["OnTooltip"] = [[_.OnTooltipDB.ShowHonoredKeyComparison]],
+									["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateCompareOtherKey(185690),
 									-- #endif
 								}),
 								i(29192, {	-- Glyph of Ferocity

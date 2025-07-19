@@ -3330,21 +3330,8 @@ root(ROOTS.Zones, {
 									["timeline"] = { REMOVED_4_2_0 },
 									["races"] = ALLIANCE_ONLY,
 									-- #if ANYCLASSIC
-									-- Blizzard added "Honored" versions of this key for TBC Classic... BLIZZARD.
-									["OnTooltip"] = [[function(t, tooltipInfo)
-										local tooltip = _.ShowItemCompareTooltips(t.otherItemID);
-										if _.Settings:GetUnobtainableFilter(]] .. TBC_PHASE_FOUR .. [[) then
-											tooltip:AddLine("This is now available at Honored reputation.", 0.4, 0.8, 1, 1);
-										else
-											tooltip:AddLine("This will be available at Honored reputation after TBC Phase 4.", 0.4, 0.8, 1, 1);
-										end
-										tooltip:Show();
-									end]],
-									["OnInit"] = [[function(t)
-										t.otherItemID = 185687;
-										t.GetItemCount = function(t) return ]] .. WOWAPI_GetItemCount("t.itemID") .. [[ + ]] .. WOWAPI_GetItemCount("t.otherItemID") .. [[; end
-										return t;
-									end]],
+									["OnTooltip"] = [[_.OnTooltipDB.ShowHonoredKeyComparison]],
+									["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateCompareOtherKey(185687),
 									-- #endif
 								}),
 								i(22547),	-- Formula: Enchant Chest - Exceptional Stats (RECIPE!)
@@ -3429,21 +3416,8 @@ root(ROOTS.Zones, {
 									["timeline"] = { REMOVED_4_2_0 },
 									["races"] = HORDE_ONLY,
 									-- #if ANYCLASSIC
-									-- Blizzard added "Honored" versions of this key for TBC Classic... BLIZZARD.
-									["OnTooltip"] = [[function(t, tooltipInfo)
-										local tooltip = _.ShowItemCompareTooltips(t.otherItemID);
-										if _.Settings:GetUnobtainableFilter(]] .. TBC_PHASE_FOUR .. [[) then
-											tooltip:AddLine("This is now available at Honored reputation.", 0.4, 0.8, 1, 1);
-										else
-											tooltip:AddLine("This will be available at Honored reputation after TBC Phase 4.", 0.4, 0.8, 1, 1);
-										end
-										tooltip:Show();
-									end]],
-									["OnInit"] = [[function(t)
-										t.otherItemID = 185686;
-										t.GetItemCount = function(t) return ]] .. WOWAPI_GetItemCount("t.itemID") .. [[ + ]] .. WOWAPI_GetItemCount("t.otherItemID") .. [[; end
-										return t;
-									end]],
+									["OnTooltip"] = [[_.OnTooltipDB.ShowHonoredKeyComparison]],
+									["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateCompareOtherKey(185686),
 									-- #endif
 								}),
 								i(24003),	-- Formula: Enchant Chest - Exceptional Stats (RECIPE!)

@@ -98,6 +98,17 @@ FUNCTION_TEMPLATES = {
 			end
 			return t;
 		end]],
+		GenerateCompareOtherKey = function(itemID)
+			local OnInitName = "GenerateCompareOtherKey_" .. itemID;
+			ExportDB.OnInitDB[OnInitName] = [[~function(t)
+				t.otherItemID = ]] .. itemID .. [[;
+				t.GetItemCount = function(t)
+					return ]] .. WOWAPI_GetItemCount("t.itemID") .. [[ + ]] .. WOWAPI_GetItemCount("t.otherItemID") .. [[;
+				end
+				return t;
+			end]];
+			return [[_.OnInitDB.]]..OnInitName..[[]]
+		end
 	},
 	-- TODO: use _.IsSpellKnownHelper once Classic uses Classes/Spell.lua
 	-- Generates an OnTooltip function into ExportDB.OnTooltipDB to return the cooldown status of a
@@ -180,6 +191,15 @@ ExportDB.OnTooltipDB = {
 	-- TODO: use of this OnTooltip function should be converted into 'sourceAchievements' for proper integration with other logic
 	WithRequiredAchievement = [[~function(t, tooltipInfo)
 		if t.ach then tinsert(tooltipInfo, { left = _.L.REQUIRES, right = t.ach.text }); end
+	end]],
+	ShowHonoredKeyComparison = [[~function(t, tooltipInfo)
+		local tooltip = _.ShowItemCompareTooltips(t.otherItemID);
+		if _.Settings:GetUnobtainableFilter(]] .. TBC_PHASE_FOUR .. [[) then
+			tooltip:AddLine("This is now available at Honored reputation.", 0.4, 0.8, 1, 1);
+		else
+			tooltip:AddLine("This will be available at Honored reputation after TBC Phase 4.", 0.4, 0.8, 1, 1);
+		end
+		tooltip:Show();
 	end]],
 }
 ExportDB.OnClickDB = {

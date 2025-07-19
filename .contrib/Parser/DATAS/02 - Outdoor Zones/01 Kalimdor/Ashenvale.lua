@@ -266,7 +266,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						},
 						["maxReputation"] = { FACTION_WARSONG_OUTRIDERS, HONORED },	-- Warsong Outriders, Honored.
 					},
-					--["OnInit"] = [[function(t) return _.CreateCustomHeader(t.headerID, t); end]],
 					["timeline"] = { REMOVED_2_0_1 },
 					["repeatable"] = true,
 					["groups"] = {
@@ -303,7 +302,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["coord"] = { 50.5, 72.0, ASHENVALE },
 						["maxReputation"] = { FACTION_WARSONG_OUTRIDERS, HONORED },	-- Warsong Outriders, Honored.
 					},
-					--["OnInit"] = [[function(t) return _.CreateCustomHeader(t.headerID, t); end]],
 					["timeline"] = { REMOVED_2_0_1 },
 					["repeatable"] = true,
 				})),
