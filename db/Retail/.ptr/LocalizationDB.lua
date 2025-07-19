@@ -2370,7 +2370,6 @@ localize(L.EVENT_REMAPPING, {
 	[1671] = 450,
 	[1672] = 450,
 	[1673] = 451,
-	[1683] = 450,
 	[1688] = 422,
 	[1689] = 451,
 	[1691] = 422,
@@ -3997,6 +3996,19 @@ _.FlightPathNames = {
 	[3034] = "Overlook Zo'Shuul, K'aresh",
 	[3035] = "Hosaas Rest, K'aresh",
 	[3122] = "Quest Path 10677: 11.1.7 Lorewalking - Xal - Q2 - Vehicle - Summon - stormsong to drustvar - Quest Taxi Version (LAS)",
+	[3145] = "Tazavesh, the Veiled Market",
+	[3146] = "The Oasis",
+	[3147] = "Shan'dorah",
+	[3155] = "Shadow Point",
+	[3156] = "Serrated Peaks",
+	[3157] = "Overlook Zo'Shuul",
+	[3158] = "Lunnall River",
+	[3159] = "North Sufaad",
+	[3160] = "Naakroa",
+	[3161] = "Fracture of Laacuna",
+	[3162] = "Untethered Space",
+	[3163] = "Ruins of Yaathron",
+	[3164] = "Hosaas' Rest",
 }
 
 -- Glyphs Database Module
@@ -57290,7 +57302,7 @@ L.CLASSES = "Clases";
 L.CLEAR_WORLD_QUESTS = "Limpiar misiones de mundo";
 L.CLEAR_WORLD_QUESTS_DESC = "Haz clic para limpiar la información actual en el marco de misiones de mundo";
 L.CLICK_TO_CHANGE = "Haz clic para cambiar ahora. (si está disponible)";
-L.CLICK_TO_CREATE_FORMAT = "Haz clic para crear%s";
+L.CLICK_TO_CREATE_FORMAT = "Haz clic para crear %s";
 L.CLIPBOARDCOPYPASTE = "Ctrl+A, Ctrl+C para Copiar a tu Portapapeles.";
 L.COLLECTED = "|T" .. _.asset("known") .. ":0|t |c" .. _.DefaultColors.Completed .. "Adquirido|r";
 L.COLLECTED_APPEARANCE = "|T" .. _.asset("known_circle") .. ":0|t |c" .. _.DefaultColors.Completed .. "Adquirido*|r";
@@ -57944,6 +57956,11 @@ localize(L.HEADER_NAMES, {
 	[-118] = "Torre de artilleria",
 	[-130] = "Ciudadelas",
 	[-132] = "Equilibrio de poderes",
+	[-133] = "Apariencia base",
+	[-134] = "Apariencia de desafío",
+	[-135] = "Campaña de sede de clase",
+	[-136] = "Apariencia oculta",
+	[-137] = "Recompensas de prestigio",
 	[-139] = "Invasiones de la legion",
 	[-144] = "Puesto de avanzada",
 	[-153] = "Especulador Ve'ken y Especulador Ve'nott",
@@ -63782,7 +63799,7 @@ L.CHAT_COMMANDS_TEXT = "/att |cffFFFFFFor|R /things |cffFFFFFFor|R /allthethings
 L.CLASS_DEFAULTS_BUTTON_TOOLTIP = "Haz click en este botón para restaurar todos los filtros a tus predeterminados de clase.\n\nNOTA: Sólo pueden activarse los filtros que son conseguibles por tu clase.";
 L.CLEAR_WORLD_QUESTS_DESC = "Haz click para limpiar la información actual en el marco de misiones de mundo";
 L.CLICK_TO_CHANGE = "Haz click para cambiar ahora. (si está disponible)";
-L.CLICK_TO_CREATE_FORMAT = "Haz click para crear%s";
+L.CLICK_TO_CREATE_FORMAT = "Haz click para crear %s";
 L.COLLECTED = "|T" .. _.asset("known") .. ":0|t |c" .. _.DefaultColors.Completed .. "Coleccionado|r";
 L.COLLECTED_APPEARANCE = "|T" .. _.asset("known_circle") .. ":0|t |c" .. _.DefaultColors.Completed .. "Coleccionado*|r";
 L.COLLECTED_STRING = " Coleccionado";
@@ -64001,6 +64018,8 @@ localize(L.HEADER_NAMES, {
 	[-103] = "Evento de pre-expansion",
 	[-117] = "Recompensa de misión de Fortaleza",
 	[-130] = "Fortalezas",
+	[-132] = "Equilibrio de poder",
+	[-135] = "Campaña de orden de clase",
 	[-139] = "Asaltos de la legion",
 	[-153] = "Negociante Ve'ken y Negociante Ve'nott",
 	[-156] = "Asaltos de los pactos",

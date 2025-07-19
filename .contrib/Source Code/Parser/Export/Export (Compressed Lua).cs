@@ -204,6 +204,10 @@ namespace ATT
                 // Write a comma for the start of the data dictionary contents.
                 if (objectType != null && objectType.ShouldWriteObjectType) builder.Append(',');
 
+                // Check if the body has OnInit, if so, rip it out and append it before the constructor
+                var hasFactionSpecificData = data.ContainsKey("aqd") && fields.Contains("aqd") && !data.ContainsKey("otherQuestData");    // Quests in Retail split into two quests if they use AQD/HQD
+                if (hasFactionSpecificData) builder.Append("_.ResolveQuestData(");
+
                 // We don't need to write the "g" tag if that's the only field.
                 if (fields.Count == 1 && fields[0] == "g")
                 {
@@ -275,6 +279,14 @@ namespace ATT
                     // Close Bracket for the end of the Dictionary.
                     builder.Append('}');
                 }
+
+                // If we have faction specific data, append the finishing parenthesis.
+                if (hasFactionSpecificData) builder.Append(')');
+            }
+            else
+            {
+                // Uhh, that shouldn't happen.
+                if (hasOnInit) Framework.LogError("ERROR: OnInit in a place where it does not belong!");
             }
 
             // Close the Parenthesis for the end of the constructor.

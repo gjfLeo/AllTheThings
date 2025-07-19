@@ -36,6 +36,59 @@ app.AlwaysShowUpdateWithoutReturn = function(data) data.visible = true; end
 app.ReturnTrue = function() return true; end
 app.ReturnFalse = function() return false; end
 
+-- Faction Specific Data
+local NonQuestDataKeys = {
+	aqd = 1,
+	hqd = 1,
+	otherQuestData = 1,
+	g = 1,
+}
+local HORDE_FACTION_ID = Enum.FlightPathFaction.Horde;
+app.ResolveQuestData = function(t)
+	local aqd, hqd = t.aqd, t.hqd;
+	if aqd and hqd then
+		local questData, otherQuestData;
+		if app.FactionID == HORDE_FACTION_ID then
+			questData = hqd;
+			otherQuestData = aqd;
+		else
+			questData = aqd;
+			otherQuestData = hqd;
+		end
+
+		-- Move over the quest data's groups.
+		if questData.g then
+			if not t.g then
+				t.g = questData.g;
+			else
+				for _,o in ipairs(questData.g) do
+					tinsert(t.g, 1, o);
+				end
+			end
+			questData.g = nil;
+		end
+		app.AssignChildren(otherQuestData)
+		otherQuestData.parent = t.parent
+
+		-- Apply this quest's current data into the other faction's quest. (this is for tooltip caching and source quest resolution)
+		for key,value in pairs(t) do
+			if not NonQuestDataKeys[key] then
+				otherQuestData[key] = value;
+			end
+		end
+
+		-- Apply the faction specific quest data to this object.
+		for key,value in pairs(questData) do t[key] = value; end
+		t.otherQuestData = otherQuestData;
+		t.aqd = nil
+		t.hqd = nil
+		otherQuestData.nmr = 1;
+	else
+		error("Missing AQD / HQD: " .. (aqd and 1 or 0) .. " " .. (hqd and 1 or 0));
+	end
+	return t;
+end
+
 -- External API
 -- TODO: We will use a common API eventually.
 if not _G.ATTC then

@@ -65,7 +65,6 @@ namespace ATT
             ObjectData.Create("professionID",       "prof",         "_.CreateProfession", "requireSkill", "modID", "f");
             ObjectData.Create("npcID",              "n",            "_.CreateNPC", "f", "creatureID");
             ObjectData.Create("spellID",            "sp",           "_.CreateSpell", "f");
-            ObjectData.Create<FactionQuestData>("aqd", "aqd",       "_.CreateQuestWithFactionData", "f");
             ObjectData.Create("questID",            "q",            "_.CreateQuest", "f");
             ObjectData.Create("f",                  "flt",          "_.CreateFilter");
         }

@@ -1745,7 +1745,7 @@ namespace ATT
             }
 
             // Warn about Encounters with no NPCID assignment
-            if (!data.ContainsKey("npcID") && !data.ContainsKey("crs"))
+            if (!data.ContainsKey("npcID") && !data.ContainsKey("crs") && !data.ContainsKey("aqd"))
             {
                 switch (encounterID)
                 {
@@ -1755,7 +1755,7 @@ namespace ATT
                     case 1552:  // Servant's Quarters (Kara)
                         break;
                     default:
-                        LogError($"Encounter {encounterID} is missing an NPC assignment! (Could lead to unassigned Achievement data)");
+                        LogWarn($"Encounter {encounterID} is missing an NPC assignment! (Could lead to unassigned Achievement data)");
                         break;
                 }
             }

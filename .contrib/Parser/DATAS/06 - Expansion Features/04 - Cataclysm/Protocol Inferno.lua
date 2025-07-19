@@ -116,7 +116,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					["hqd"] = {
 						["coord"] = { 48.6, 71.4, ORGRIMMAR },
 					},
-					["OnInit"] = [[function(t) _.ResolveQuestData(t); t.OnInit = nil; return t; end]],
 					["groups"] = {
 						filter(MOUNTS, {
 							["providers"] = {

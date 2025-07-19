@@ -278,18 +278,12 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 					-- #endif
 					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						-- This is a smart header that will change itself to the faction specific version on initial load.
-						["crs"] = { 26796 },	-- Commander Kolurg (A)
-						["OnInit"] = [[function(t)
-							if _.FactionID == Enum.FlightPathFaction.Horde then
-								t.crs = { 26798 };
-							else
-								t.encounterID = 833;
-								t.npcID = 26798;
-								t.crs = { 26796 };
-							end
-							return t;
-						end]],
+						["aqd"] = {
+							["creatureID"] = 26798,	-- Commander Kolurg (A)
+						},
+						["hqd"] = {
+							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
+						},
 						["groups"] = {
 							i(37728),	-- Cloak of the Enemy
 							i(37729),	-- Grips of Sculptured Icicles
@@ -393,18 +387,12 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
 					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						-- This is a smart header that will change itself to the faction specific version on initial load.
-						["crs"] = { 26796 },	-- Commander Kolurg (A)
-						["OnInit"] = [[function(t)
-							if _.FactionID == Enum.FlightPathFaction.Horde then
-								t.crs = { 26798 };
-							else
-								t.encounterID = 833;
-								t.npcID = 26798;
-								t.crs = { 26796 };
-							end
-							return t;
-						end]],
+						["aqd"] = {
+							["creatureID"] = 26798,	-- Commander Kolurg (A)
+						},
+						["hqd"] = {
+							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
+						},
 						["groups"] = {
 							i(39394),	-- Charmed Cierge
 							i(39398),	-- Massive Skeletal Ribcage
@@ -450,18 +438,12 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
 					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						-- This is a smart header that will change itself to the faction specific version on initial load.
-						["crs"] = { 26796 },	-- Commander Kolurg (A)
-						["OnInit"] = [[function(t)
-							if _.FactionID == Enum.FlightPathFaction.Horde then
-								t.crs = { 26798 };
-							else
-								t.encounterID = 833;
-								t.npcID = 26798;
-								t.crs = { 26796 };
-							end
-							return t;
-						end]],
+						["aqd"] = {
+							["creatureID"] = 26798,	-- Commander Kolurg (A)
+						},
+						["hqd"] = {
+							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
+						},
 						["groups"] = {
 							i(45832),	-- Mantle of the Preserver
 							i(45713),	-- Nurturing Touch
@@ -503,18 +485,12 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
 					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						-- This is a smart header that will change itself to the faction specific version on initial load.
-						["crs"] = { 26796 },	-- Commander Kolurg (A)
-						["OnInit"] = [[function(t)
-							if _.FactionID == Enum.FlightPathFaction.Horde then
-								t.crs = { 26798 };
-							else
-								t.encounterID = 833;
-								t.npcID = 26798;
-								t.crs = { 26796 };
-							end
-							return t;
-						end]],
+						["aqd"] = {
+							["creatureID"] = 26798,	-- Commander Kolurg (A)
+						},
+						["hqd"] = {
+							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
+						},
 					}),
 					e(618, {	-- Grand Magus Telestra
 						["creatureID"] = 26731,	-- Grand Magus Telestra

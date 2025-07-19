@@ -21,7 +21,6 @@ local C_QuestLog_ReadyForTurnIn = C_QuestLog.ReadyForTurnIn or IsQuestComplete;
 local C_QuestLog_IsOnQuest = C_QuestLog.IsOnQuest;
 local GetQuestLogRewardInfo =
 	  GetQuestLogRewardInfo;
-local HORDE_FACTION_ID = Enum.FlightPathFaction.Horde;
 
 -- WoW API Cache
 local GetFactionName = app.WOWAPI.GetFactionName;
@@ -627,55 +626,6 @@ local function GetQuestIndicator(t)
 		elseif OneTimeQuests[questID] then
 			return app.asset("Interface_Quest_Arrow");
 		end
-	end
-end
-local NonQuestDataKeys = {
-	aqd = 1,
-	hqd = 1,
-	otherQuestData = 1,
-	g = 1,
-}
-local function ResolveQuestData(t)
-	local aqd, hqd = t.aqd, t.hqd;
-	if aqd and hqd then
-		local questData, otherQuestData;
-		if app.FactionID == HORDE_FACTION_ID then
-			questData = hqd;
-			otherQuestData = aqd;
-		else
-			questData = aqd;
-			otherQuestData = hqd;
-		end
-
-		-- Move over the quest data's groups.
-		if questData.g then
-			if not t.g then
-				t.g = questData.g;
-			else
-				for _,o in ipairs(questData.g) do
-					tinsert(t.g, 1, o);
-				end
-			end
-			questData.g = nil;
-		end
-		app.AssignChildren(otherQuestData)
-		otherQuestData.parent = t.parent
-
-		-- Apply this quest's current data into the other faction's quest. (this is for tooltip caching and source quest resolution)
-		for key,value in pairs(t) do
-			if not NonQuestDataKeys[key] then
-				otherQuestData[key] = value;
-			end
-		end
-
-		-- Apply the faction specific quest data to this object.
-		for key,value in pairs(questData) do t[key] = value; end
-		t.otherQuestData = otherQuestData;
-		t.aqd = nil
-		t.hqd = nil
-		otherQuestData.nmr = 1;
-	else
-		error("Missing AQD / HQD: " .. (aqd and true or false) .. " " .. (hqd and true or false));
 	end
 end
 
@@ -1853,10 +1803,6 @@ local createQuest = app.CreateClass("Quest", "questID", {
 );
 
 app.CreateQuest = createQuest;
-app.CreateQuestWithFactionData = function(t)
-	ResolveQuestData(t);
-	return createQuest(t.questID, t);
-end
 app.CreateQuestObjective = app.CreateClass("Objective", "objectiveID", {
 	text = function(t)
 		return t.name;
@@ -2732,5 +2678,4 @@ app.IsQuestFlaggedCompleted = IsQuestFlaggedCompleted;
 app.IsQuestFlaggedCompletedForObject = IsQuestFlaggedCompletedForObject;
 app.IsQuestReadyForTurnIn = C_QuestLog_ReadyForTurnIn;
 app.IsQuestSaved = IsQuestSaved;
-app.ResolveQuestData = ResolveQuestData;
 end

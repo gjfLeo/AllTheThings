@@ -322,7 +322,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					["hqd"] = {
 						["provider"] = { "n", 73715 },	-- Rivett Clutchpop <Horde Supplies> [H]
 					},
-					["OnInit"] = [[function(t) _.ResolveQuestData(t); return t; end]],
 					["description"] = "Vendor spawns in after opening gate after the Malkorok Boss fight in Kor'kron Barracks.",
 					["g"] = {
 						i(23799, {	-- Schematic: Adamantite Rifle (RECIPE!)
@@ -341,7 +340,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					["hqd"] = n(73674, {	-- Blizzix Sparkshiv <Raid Finder Vendor> [H]
 						["coord"] = { 42.9, 74.7, 392 },
 					}),
-					["OnInit"] = [[function(t) _.ResolveQuestData(t); return t; end]],
 					["g"] = {
 						cl(WARRIOR, {
 							-- DPS
@@ -537,7 +535,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					["hqd"] = n(74010, {	-- Nadina Stargem <Raid Vendor> [H]
 						["coord"] = { 43.3, 76.0, 392 },
 					}),
-					["OnInit"] = [[function(t) _.ResolveQuestData(t); return t; end]],
 					["g"] = {
 						cl(WARRIOR, {
 							-- DPS
@@ -733,7 +730,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					["hqd"] = n(74012, {	-- Ki'agnuu <Heroic Vendor> [H]
 						["coord"] = { 43.1, 78.7, 392 },
 					}),
-					["OnInit"] = [[function(t) _.ResolveQuestData(t); return t; end]],
 					["g"] = {
 						cl(WARRIOR, {
 							-- DPS
@@ -929,7 +925,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, {
 					["hqd"] = n(74019, {	-- Tu'aho Pathcutter <Mythic Vendor> [H]
 						["coord"] = { 43.4, 80.4, 392 },
 					}),
-					["OnInit"] = [[function(t) _.ResolveQuestData(t); return t; end]],
 					["g"] = {
 						cl(WARRIOR, {
 							-- DPS
