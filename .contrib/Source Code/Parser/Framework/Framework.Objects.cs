@@ -1935,7 +1935,6 @@ end");
 
                     // Functions
                     case "OnInit":
-                    case "OnSourceInit":
                     case "OnClick":
                     case "OnUpdate":
                     case "OnTooltip":

@@ -180,11 +180,10 @@ namespace ATT
             fields.Sort(Framework.Compare);
 
             // Check if the body has OnInit, if so, rip it out and append it before the constructor
-            var hasOnInit = data.TryGetValue("OnInit", out object OnInitRef) || data.TryGetValue("OnSourceInit", out OnInitRef);
+            var hasOnInit = data.TryGetValue("OnInit", out object OnInitRef);
             if (hasOnInit)
             {
                 fields.Remove("OnInit");
-                fields.Remove("OnSourceInit");
                 var onInitBody = SimplifyLuaBody(OnInitRef);
                 if (!onInitBody.Contains("return"))
                 {
