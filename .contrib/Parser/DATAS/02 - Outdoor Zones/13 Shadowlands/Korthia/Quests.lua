@@ -1044,7 +1044,10 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 				["description"] = "At the end of the top level of the cave.",
 				["sourceQuests"] = { 64506 },	-- What Must Be Found
 				["provider"] = { "o", 368432 },	-- Whispering Book Binding
-				["coord"] = { 27.2, 56.8, KORTHIA },
+				["coords"] = {
+					{ 39.8, 47.6, 2007 },	-- Gromit Hollow
+					{ 27.2, 56.8, KORTHIA },
+				},
 				["g"] = {
 					i(187206),	-- Book of Binding: The Mad Witch (QI!)
 					i(185971),	-- Crimson Pages (QI!)
@@ -1129,7 +1132,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 			}),
 			q(63915, {	-- Drum of the Death Loa
 				["provider"] = { "o", 369287 },	-- Drum of the Death Loa
-				["coord"] = { 39.3, 52.4, KORTHIA },
+				["coord"] = { 52.3, 34.0, KORTHIA },
 				["cost"] = { { "i", 186718, 1 } },	-- Teleporter Repair Kit
 				["minReputation"] = { FACTION_THE_ARCHIVISTS_CODEX, 3 },	-- Tier 3
 				["g"] = {

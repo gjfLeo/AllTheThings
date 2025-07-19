@@ -204,8 +204,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 						ach(4525),	-- Don't Look Up
 					}),
 					n(ZONE_DROPS, {
-						i(50379),	-- Battered Hilt (Alliance)
-						i(50380),	-- Battered Hilt (Horde)
+						a(i(50379)),	-- Battered Hilt [A]
+						h(i(50380)),	-- Battered Hilt [H]
 						i(50318),	-- Ghostly Wristwraps
 						i(50315),	-- Seven-Fingered Claws
 						i(50319),	-- Unsharpened Ice Razor

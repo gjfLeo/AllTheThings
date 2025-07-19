@@ -3384,12 +3384,10 @@ root(ROOTS.Unsorted, {
 			i(166742),	-- Blue-Ribbon Pandaren Chili
 			i(166771),	-- Jury-Rigged Hand Cannon
 			i(166792),	-- Taste of Victory
-			i(166852),	-- Akil'zon's Mithril Bust
 			i(166853),	-- Gilded Egg of Pa'ku
 			i(166854),	-- Jade Sethraliss Effigy
 			i(166855),	-- Obsidian Statue of Kith'ix
 			i(166857),	-- Bethekk's Emerald Eyes
-			i(166860),	-- Azj'Aqir Onyx Stone
 			i(166863),	-- Farrakki Star Rubies
 			i(166864),	-- Engraved Amani Spearpoints
 			i(166871),	-- Jeweled Pyrium Goblet

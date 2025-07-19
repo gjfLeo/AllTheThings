@@ -332,7 +332,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			q(62898, {	-- The First New Growth
 				["sourceQuests"] = { 62897 },	-- Recovered Souls (technically can be acquired after 62837 Hopeful News, but requires Souls reward from 62897 anyway...)
 				["provider"] = { "n", 165702 },	-- Zayhad, The Builder
-				["coord"] = { 39.7, 55.7, THE_TRUNK },
+				["coord"] = { 39.7, 55.7, THE_ROOTS },
 			}),
 			q(61541, {	-- The Forge of Bonds
 				["altQuests"] = { 63008 },	-- The Forge of Bonds

@@ -93,8 +93,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					i(49855),	-- Plated Grips of Korth'azz
 					i(49853),	-- Titanium Links of Lore
 				}),
-				e(615, {	-- Brojahm
-					["creatureID"] = 36497,	-- Brojahm
+				e(615, {	-- Bronjahm
+					["creatureID"] = 36497,	-- Bronjahm
 					["groups"] = {
 						i(49783),	-- Lucky Old Sun
 						-- #if AFTER 7.3.5
@@ -167,14 +167,14 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
 					n(ZONE_DROPS, {
-						i(50379),	-- Battered Hilt (Alliance)
-						i(50380),	-- Battered Hilt (Horde)
+						a(i(50379)),	-- Battered Hilt [A]
+						h(i(50380)),	-- Battered Hilt [H]
 						i(50318),	-- Ghostly Wristwraps
 						i(50315),	-- Seven-Fingered Claws
 						i(50319),	-- Unsharpened Ice Razor
 					}),
-					e(615, {	-- Brojahm
-						["creatureID"] = 36497,	-- Brojahm
+					e(615, {	-- Bronjahm
+						["creatureID"] = 36497,	-- Bronjahm
 						["groups"] = {
 							ach(4522),	-- Soul Power
 							-- #if AFTER 7.3.5

@@ -255,6 +255,7 @@ i(10922);	-- Wound Poison IV
 -- #if AFTER CATA
 i(22393);	-- Codex: Prayer of Shadow Protection
 i(22891);	-- Grimoire of Shadow Ward
+i(18600);	-- Tome of Arcane Brilliance
 -- #endif
 i(62370);	-- Bear Whisker
 i(60406);	-- Blood-Caked Incisors
@@ -452,7 +453,9 @@ i(158773);	-- Wriggling Goop
 -----------------
 -- PATCH 8.1.0 --
 -----------------
+i(166852);	-- Akil'zon's Mithril Bust
 i(166874);	-- Azerothian Diamond Brooch
+i(166860);	-- Azj'Aqir Onyx Stone
 i(166856);	-- Bwonsamdi Ritual Scepter
 i(166868);	-- Chit of the Black Empire
 i(166798);	-- Crackling Tourmaline (Opulence Crown Consumable)
