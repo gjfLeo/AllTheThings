@@ -37,8 +37,11 @@ app.ReturnTrue = function() return true; end
 app.ReturnFalse = function() return false; end
 
 -- Faction Specific Data
-local NonQuestDataKeys = {
+local IgnoredOtherQuestFields = {
 	otherQuestData = 1,
+	coords = 1,
+	coord = 1,
+	maps = 1,
 	g = 1,
 }
 local HORDE_FACTION_ID = Enum.FlightPathFaction.Horde;
@@ -57,7 +60,7 @@ app.ResolveQuestData = function(t)
 
 		-- Apply this quest's current data into the other faction's quest. (this is for tooltip caching and source quest resolution)
 		for key,value in pairs(t) do
-			if not NonQuestDataKeys[key] and not otherQuestData[key] then
+			if not IgnoredOtherQuestFields[key] and not otherQuestData[key] then
 				otherQuestData[key] = value;
 			end
 		end
@@ -65,6 +68,11 @@ app.ResolveQuestData = function(t)
 		t.otherQuestData = otherQuestData;
 		otherQuestData.parent = t.parent
 		otherQuestData.nmr = 1;
+		if not getmetatable(otherQuestData) then
+			otherQuestData.coords = nil;
+			otherQuestData.coord = nil;
+			otherQuestData.maps = nil;
+		end
 
 		-- Move over the quest data's groups.
 		if questData.g then
