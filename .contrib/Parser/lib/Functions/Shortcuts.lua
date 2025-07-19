@@ -973,43 +973,9 @@ d = function(id, t)										-- Create a DIFFICULTY Object
 	end
 	return t;
 end
--- #if AFTER WRATH
 e = function(id, t)										-- Create an ENCOUNTER Object (Post-Wrath)
 	return struct("encounterID", id, t);
 end
--- #else
-e = function(id, t)										-- Create an ENCOUNTER Object (Pre-Wrath)
-	-- Not yet supported in classic.
-	if t then
-		if not isarray(t) then
-			-- Convert to a Header or NPC ID.
-			if t.npcID then
-				return t;
-			elseif t.creatureID then
-				t.npcID = t.creatureID;
-				t.creatureID = nil;
-				return t;
-			elseif t.cr then
-				t.npcID = t.cr;
-				t.cr = nil;
-				return t;
-			elseif t.crs then
-				t.npcID = t.crs[1];
-				table.remove(t.crs, 1);
-				if #t.crs < 1 then
-					t.crs = nil;
-				end
-				return t;
-			else
-				t.npcID = -1;
-				return t;
-			end
-		else
-			return { ["npcID"] = -1, ["groups"] = t };
-		end
-	end
-end
--- #endif
 elitepvp = function(t)									-- Flag all nested content as requiring Elite PvP gameplay
 	return bubbleDown({
 		["pvp"] = true,

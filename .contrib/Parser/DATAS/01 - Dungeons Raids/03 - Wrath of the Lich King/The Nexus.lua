@@ -277,20 +277,20 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 						}),
 					}),
 					-- #endif
-					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						["aqd"] = {
+					{	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
+						["aqd"] = e(833, {
 							["creatureID"] = 26798,	-- Commander Kolurg (A)
-						},
-						["hqd"] = {
+						}),
+						["hqd"] = e(617, {
 							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
-						},
+						}),
 						["groups"] = {
 							i(37728),	-- Cloak of the Enemy
 							i(37729),	-- Grips of Sculptured Icicles
 							i(37731),	-- Opposed Stasis Leggings
 							i(37730),	-- Cleric's Linen Shoes
 						},
-					}),
+					},
 					e(618, {	-- Grand Magus Telestra
 						["creatureID"] = 26731,	-- Grand Magus Telestra
 						["groups"] = {
@@ -386,19 +386,19 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(394435, 412991, 424196),
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
-					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						["aqd"] = {
+					{	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
+						["aqd"] = e(833, {
 							["creatureID"] = 26798,	-- Commander Kolurg (A)
-						},
-						["hqd"] = {
+						}),
+						["hqd"] = e(617, {
 							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
-						},
+						}),
 						["groups"] = {
 							i(39394),	-- Charmed Cierge
 							i(39398),	-- Massive Skeletal Ribcage
 							i(39390),	-- Resurgent Phantom Bindings
 						},
-					}),
+					},
 					e(618, {	-- Grand Magus Telestra
 						["creatureID"] = 26731,	-- Grand Magus Telestra
 						["groups"] = {
@@ -437,18 +437,18 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(412991, 424196),
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
-					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						["aqd"] = {
+					{	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
+						["aqd"] = e(833, {
 							["creatureID"] = 26798,	-- Commander Kolurg (A)
-						},
-						["hqd"] = {
+						}),
+						["hqd"] = e(617, {
 							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
-						},
+						}),
 						["groups"] = {
 							i(45832),	-- Mantle of the Preserver
 							i(45713),	-- Nurturing Touch
 						},
-					}),
+					},
 					e(618, {	-- Grand Magus Telestra
 						["creatureID"] = 26731,	-- Grand Magus Telestra
 						["groups"] = {
@@ -484,14 +484,14 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(424196),
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
-					e(617, {	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
-						["aqd"] = {
+					{	-- Commander [Commander Kolurg (A) / Commander Stoutbeard (H)]
+						["aqd"] = e(833, {
 							["creatureID"] = 26798,	-- Commander Kolurg (A)
-						},
-						["hqd"] = {
+						}),
+						["hqd"] = e(617, {
 							["creatureID"] = 26796,	-- Commander Stoutbeard (H)
-						},
-					}),
+						}),
+					},
 					e(618, {	-- Grand Magus Telestra
 						["creatureID"] = 26731,	-- Grand Magus Telestra
 						["groups"] = {
