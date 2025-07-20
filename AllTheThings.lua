@@ -1418,7 +1418,7 @@ local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB)
 	if app.MODE_DEBUG then
 		-- app.PrintDebug("+unavailable",#unavailable,"+unobtainable",#unobtainable)
 		app.ArrayAppend(character, unavailable, unobtainable)
-	elseif #character == 0 and not (paramA == "creatureID" or paramA == "encounterID") then
+	elseif #character == 0 and not (paramA == "npcID" or paramA == "creatureID" or paramA == "encounterID") then
 		-- no sources available to the character, add any unavailable/unobtainable sources
 		if #unavailable > 0 then
 			-- app.PrintDebug("+unavailable",#unavailable)
@@ -1524,7 +1524,7 @@ local function GetSearchResults(method, paramA, paramB, options)
 		-- Move all post processing here?
 		if #group > 0 then
 			-- For Creatures, Objects and Encounters that are inside of an instance, we only want the data relevant for the instance + difficulty.
-			if paramA == "creatureID" or paramA == "npcID" or paramA == "encounterID" or paramA == "objectID" then
+			if paramA == "npcID" or paramA == "creatureID" or paramA == "encounterID" or paramA == "objectID" then
 				local subgroup = {};
 				for _,j in ipairs(group) do
 					if not j.ShouldExcludeFromTooltip then
@@ -1616,7 +1616,7 @@ local function GetSearchResults(method, paramA, paramB, options)
 				paramA = "questID";
 				paramB = id;
 			elseif kind == "creatureid" or kind == "npcid" then
-				paramA = "creatureID";
+				paramA = "npcID";
 				paramB = id;
 			elseif kind == "achievementid" then
 				paramA = "achievementID";
@@ -2043,7 +2043,7 @@ local function BuildSourceParent(group)
 				end
 				-- Things tagged with an npcID should show that NPC as a Source
 				if thing.key ~= "npcID" and (thing.npcID or thing.creatureID) then
-					local parentNPC = CreateObject(SearchForObject("creatureID", thing.npcID or thing.creatureID, "field") or {["npcID"] = thing.npcID or thing.creatureID}, true)
+					local parentNPC = CreateObject(SearchForObject("npcID", thing.npcID or thing.creatureID, "field") or {["npcID"] = thing.npcID or thing.creatureID}, true)
 					parents[#parents + 1] = parentNPC
 					-- achievement criteria can nest inside their Source for clarity
 					if isAchievement and KeepSourced[thing.key] then
@@ -2055,7 +2055,7 @@ local function BuildSourceParent(group)
 					-- app.PrintDebug("thing.crs",#thing.crs)
 					local parentNPC;
 					for _,npcID in ipairs(thing.crs) do
-						parentNPC = CreateObject(SearchForObject("creatureID", npcID, "field") or {["npcID"] = npcID}, true)
+						parentNPC = CreateObject(SearchForObject("npcID", npcID, "field") or {["npcID"] = npcID}, true)
 						parents[#parents + 1] = parentNPC
 						-- achievement criteria can nest inside their Source for clarity
 						if isAchievement and KeepSourced[thing.key] then

@@ -1153,7 +1153,7 @@ else
 							if server_id and zone_uid and app.Settings:GetTooltipSetting("Layer") then
 								self:AddDoubleLine(L.LAYER, app.Modules.Color.Colorize((ServerUID ~= server_id and (server_id .. "-") or "") .. zone_uid, app.Colors.White));
 							end
-							AttachTooltipSearchResults(self, SearchForField, "creatureID", tonumber(npcID));
+							AttachTooltipSearchResults(self, SearchForField, "npcID", tonumber(npcID));
 						end
 
 						return true;
@@ -1344,7 +1344,7 @@ end);
 -- Don't worry about optimizing it for now.
 local function PrepareShoppingTooltips(owner, count)
 	if not owner then owner = GameTooltip; end
-	
+
 	-- Quick maths
 	-- Taken from https://github.com/Ennie/wow-ui-source/blob/master/FrameXML/GameTooltip.lua
 	---@diagnostic disable-next-line: undefined-field
@@ -1463,7 +1463,7 @@ if BattlePetTooltip then
 					end
 					return;
 				end
-				
+
 				---@diagnostic disable-next-line: undefined-field
 				shoppingTooltip = GameTooltip.shoppingTooltips[1];
 				if shoppingTooltip then

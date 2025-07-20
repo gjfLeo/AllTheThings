@@ -2216,7 +2216,7 @@ if app.IsRetail then
 			for i,sourceQuestID in ipairs(sourceQuests) do
 				if not addedQuests[sourceQuestID] then
 					addedQuests[sourceQuestID] = true;
-					local qs = sourceQuestID < 1 and SearchForField("creatureID", math.abs(sourceQuestID)) or SearchForField("questID", sourceQuestID);
+					local qs = sourceQuestID < 1 and SearchForField("npcID", math.abs(sourceQuestID)) or SearchForField("questID", sourceQuestID);
 					if qs and #qs > 0 then
 						local i, sq = #qs,nil;
 						while not sq and i > 0 do

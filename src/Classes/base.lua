@@ -48,12 +48,11 @@ local function CreateHash(t)
 			hash = hash .. ":" .. t.achievementID;
 		elseif key == "itemID" and t.modItemID and t.modItemID ~= t.itemID then
 			hash = key .. t.modItemID;
-		elseif key == "creatureID" then
-			if t.encounterID then hash = hash .. ":" .. t.encounterID; end
+		elseif key == "npcID" or key == "creatureID" then
 			local difficultyID = GetRelativeValue(t, "difficultyID");
 			if difficultyID then hash = hash .. "-" .. difficultyID; end
 		elseif key == "encounterID" then
-			if t.creatureID then hash = hash .. ":" .. t.creatureID; end
+			if t.npcID then hash = hash .. ":" .. t.npcID; end
 			local difficultyID = GetRelativeValue(t, "difficultyID");
 			if difficultyID then hash = hash .. "-" .. difficultyID; end
 			if t.crs then
