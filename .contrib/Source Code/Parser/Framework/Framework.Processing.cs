@@ -1595,6 +1595,7 @@ namespace ATT
                     // Check to see if we are exporting both an npcID and a creatureID that are the same.
                     if (npcID != creatureID)
                     {
+                        LogWarn($"Data with both npcID {npcID} and creatureID {creatureID}. Converting creatureID to crs", data);
                         // Uh oh, these are different.
                         NPCS_WITH_REFERENCES[creatureID] = true;
 
@@ -1615,12 +1616,17 @@ namespace ATT
             {
                 if (npcID < 0)
                 {
+                    LogWarn($"Data with negative npcID {npcID}. Converting npcID to headerID", data);
                     data.Remove("npcID");
                     data["headerID"] = npcID;
                 }
+
                 if (creatureID > 0)
                 {
+                    LogDebugWarn($"Data with creatureID {creatureID}. Converting creatureID to npcID", data);
                     NPCS_WITH_REFERENCES[creatureID] = true;
+                    data["npcID"] = creatureID;
+                    data.Remove("creatureID");
                 }
             }
         }
