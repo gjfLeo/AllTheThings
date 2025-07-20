@@ -5,8 +5,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 	m(KARESH, {
 		n(ZONE_REWARDS, {
 			n(ARMOR, {
-				filter(BACK_F, {
-				}),
 				filter(CLOTH, {
 					i(243507),	-- Wastelander Magi's Bands
 					i(243506),	-- Wastelander Magi's Cord
@@ -18,6 +16,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(243500),	-- Wastelander Magi's Vestments
 				}),
 				filter(FINGER_F, {
+					i(243496),	-- Wastelander's Gilded Band
+					i(243498),	-- Wastelander's Gilded Loop
+					i(243497),	-- Wastelander's Gilded Signet
 				}),
 				filter(LEATHER, {
 					i(243514),	-- Wastelander Scout's Belt
@@ -40,6 +41,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					i(243522),	-- Wastelander Skirmisher's Sash
 				}),
 				filter(NECK_F, {
+					i(243499),	-- Wastelander's Gilded Pendant
 				}),
 				filter(PLATE, {
 					i(243524),	-- Wastelander Brute's Breastplate
@@ -55,24 +57,24 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				}),
 				n(WEAPONS, {
 					--TODO: uncomment what is confirmed
-					--i(243532),	-- Wastelander's Gilded Cleaver
-					--i(243533),	-- Wastelander's Gilded Carver
-					--i(243534),	-- Wastelander's Gilded Chopper
-					--i(243535),	-- Wastelander's Gilded Stiletto
-					--i(243536),	-- Wastelander's Gilded Kris
-					--i(243537),	-- Wastelander's Gilded Mace
-					--i(243538),	-- Wastelander's Gilded Warmace
-					i(243539),	-- Wastelander's Gilded Falchion
-					--i(243540),	-- Wastelander's Gilded Longsword
-					--i(243541),	-- Wastelander's Gilded Blaster
-					i(243542),	-- Wastelander's Gilded Spear
-					--i(243543),	-- Wastelander's Gilded Bident
-					--i(243544),	-- Wastelander's Gilded Pole
-					--i(243545),	-- Wastelander's Gilded Staff
-					--i(243546),	-- Wastelander's Gilded Greatsword
-					--i(243547),	-- Wastelander's Gilded Blade
-					--i(243548),	-- Wastelander's Gilded Censer
 					--i(243549),	-- Wastelander's Gilded Bastion
+					--i(243543),	-- Wastelander's Gilded Bident
+					--i(243547),	-- Wastelander's Gilded Blade
+					--i(243541),	-- Wastelander's Gilded Blaster
+					--i(243533),	-- Wastelander's Gilded Carver
+					--i(243548),	-- Wastelander's Gilded Censer
+					--i(243534),	-- Wastelander's Gilded Chopper
+					--i(243532),	-- Wastelander's Gilded Cleaver
+					i(243539),	-- Wastelander's Gilded Falchion
+					--i(243546),	-- Wastelander's Gilded Greatsword
+					--i(243536),	-- Wastelander's Gilded Kris
+					i(243540),	-- Wastelander's Gilded Longsword
+					--i(243537),	-- Wastelander's Gilded Mace
+					--i(243544),	-- Wastelander's Gilded Pole
+					i(243542),	-- Wastelander's Gilded Spear
+					--i(243545),	-- Wastelander's Gilded Staff
+					--i(243535),	-- Wastelander's Gilded Stiletto
+					--i(243538),	-- Wastelander's Gilded Warmace
 					--i(243550),	-- Wastelander's Gilded Warglaive
 				}),
 			}),

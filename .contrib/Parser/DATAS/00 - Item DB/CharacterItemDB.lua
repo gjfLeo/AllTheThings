@@ -926,6 +926,17 @@ iq(240206, 90466);					-- Podium Upgrade: Yards Traveled
 ------------------
 -- PATCH 11.2.0 --
 ------------------
+ihqt(235865, 87255);				-- Ethereal Tome of Alchemy Knowledge
+ihqt(235864, 87266);				-- Ethereal Tome of Blacksmithing Knowledge
+ihqt(235863, 87265);				-- Ethereal Tome of Enchanting Knowledge
+ihqt(235862, 87264);				-- Ethereal Tome of Engineering Knowledge
+ihqt(235861, 87263);				-- Ethereal Tome of Herbalism Knowledge
+ihqt(235860, 87262);				-- Ethereal Tome of Inscription Knowledge
+ihqt(235859, 87261);				-- Ethereal Tome of Jewelcrafting Knowledge
+ihqt(235858, 87260);				-- Ethereal Tome of Leatherworking Knowledge
+ihqt(235857, 87259);				-- Ethereal Tome of Mining Knowledge
+ihqt(235856, 87258);				-- Ethereal Tome of Skinning Knowledge
+ihqt(235855, 87257);				-- Ethereal Tome of Tailoring Knowledge
 --ihqt(246737, ???);					-- K'areshi Voidstone
 is(0, 1239155);						-- Path of the All-Devouring
 is(0, 1237215);						-- Path of the Eco-Dome

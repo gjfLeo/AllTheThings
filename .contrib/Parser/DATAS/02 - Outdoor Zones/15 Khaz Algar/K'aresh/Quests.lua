@@ -944,7 +944,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				q(89380, {	-- Another World
 					--["sourceQuests"] = { ??? },	-- According to playthrough, this unlocks after HQT 91812 is Triggered
 					["provider"] = { "n", 241601 },	-- Shad'anis
-					["coord"] = { 75.9, 33.0, KARESH },
+					["coord"] = { 75.9, 33.0, KARESH },	-- Alex: 74.9, 31.1 as of 20/07
 				}),
 				q(89561, {	-- Wrapped Up
 					--["sourceQuests"] = { ??? },	-- According to playthrough, this unlocks after HQT 91812 is Triggered
@@ -1286,8 +1286,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					-- "The ruined town of Sufaad to the southeast of here was where I resided as a Wastelander."
 					q(85019, {	-- An Outcast's Request
 						--["sourceQuests"] = { ??? },
-						--["provider"] = { "n", 231699 or 231422 },	-- Outcast Hizfran
-						--["coord"] = { x, y, KARESH },
+						["provider"] = { "n", 231422 },	-- Outcast Hizfran
+						["coord"] = { 77.7, 39.8, KARESH },
 						["g"] = {
 							i(229902),	-- K'areshi Priest's Bowl (QI!)
 							i(229895),	-- Scepter of Priesthood (QI!)
@@ -1523,6 +1523,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["sourceQuests"] = { 84960 },	-- The Darkness Among Us
 					["coord"] = { 54.1, 63.7, KARESH_TAZAVESH },
 				}),
+				q(86447, {	-- Devourer Attack: Eco-dome: Primus
+					["isWeekly"] = true,
+					["g"] = {
+						i(246240),	-- Devoured Energy-Pod
+						i(238663),	-- Crystallized Anima (QS!)
+					},
+				}),
 				q(86465, {	-- Devourer Attack: Tazavesh
 					["isWeekly"] = true,
 					["g"] = {
@@ -1564,6 +1571,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["cr"] = 235104,	-- The Wallbreaker
 				["isWeekly"] = true,
 			}),
+			q(89061, {	-- Making a Deposit
+				["sourceQuests"] = { 86447 },	-- Devourer Attack: Eco-dome: Primus
+				["provider"] = { "i", 238663 },	-- Crystallized Anima (QS!)
+				["cr"] = 234970,	-- Miasmawrath
+				["isWeekly"] = true,
+			}),
 			-- Temp placement.
 			q(91093, {	-- More Than Just a Phase
 				["qgs"] = {
@@ -1581,7 +1594,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			q(86195),	--
 			q(86359),	--
 			q(86392),	--
-			q(86492),	--
+			--q(86492),	-- TODO: Alex - ach(42736),	-- Ixthar's Legacy
 			q(86607),	--
 			q(87294),	--
 			q(87415),	--
@@ -1606,13 +1619,16 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90812),	-- pop randomly at start/intro quest chain (spellID - 1234922 / Warrant)
 				q(90807),	-- Triggered at the completion of 'Warrant: Xy'vox the Twisted' (87345)
 				-- Devourer Attacks
+				-- Alex: they are probably fired cause boss in the end of event counted as 'rare' and you get one for loot lockout and 2nd for rep?
 				q(91286),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
 				q(91289),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91290),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 				q(91309),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
+				q(91310),	-- Triggered at the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
 				q(91311),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91312),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 				q(91433),	-- Triggered at the completion of 'Devourer Attack: The Oasis' (84993)
+				q(91434),	-- Triggered at the completion of 'Devourer Attack: Eco-dome: Primus' (86447)
 				q(91435),	-- Triggered at the completion of 'Devourer Attack: The Atrium' (86464)
 				q(91436),	-- Triggered at the completion of 'Devourer Attack: Tazavesh' (86465)
 

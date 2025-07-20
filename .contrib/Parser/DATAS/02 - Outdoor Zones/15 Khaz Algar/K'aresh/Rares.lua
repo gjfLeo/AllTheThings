@@ -38,6 +38,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 64.0, 43.6, KARESH },
 				["questID"] = 90596,
 				["g"] = {
+					i(240171),	-- Observer's Soul Fetters
 					i(240213),	-- Veiling Mana Shroud
 				},
 			}),
@@ -60,6 +61,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["coord"] = { 54.5, 54.5, KARESH },
 				["questID"] = 90594,
 				["g"] = {
+					i(240172),	-- Depleted K'areshi Battery
 					i(240214),	-- Miniature Reshii Sandgarden
 				},
 			}),
@@ -76,6 +78,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 58.9, 20.8, KARESH },
 				["questID"] = 90595,
+				["g"] = {
+					i(240172),	-- Depleted K'areshi Battery
+				},
 			}),
 			n(235422, {	-- Phase-Thief Tezra
 				--["coord"] = { x, y, KARESH },
@@ -111,6 +116,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
 				["coord"] = { 54.1, 49.1, KARESH },
 				["questID"] = 90583,
+				["g"] = {
+					i(239469),	-- Reshii Skirmisher's Pauldrons
+				},
 			}),
 			n(232193, {	-- Stalker of the Wastes
 				["description"] = "You need to Phasedive in order to see the Rare Creature.",
@@ -122,12 +130,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				},
 			}),
 			n(234845, {	-- Sthaarbs <the Mindroiler>
-				--["coord"] = { x, y, KARESH },
-				--["questID"] = ,
+				["coord"] = { 74.0, 32.2, KARESH },	-- a bit off
+				["questID"] = 91293,
 			}),
 			n(232111, {	-- The Nightreaver
 				["coord"] = { 52.7, 56.5, KARESH },
 				["questID"] = 90589,
+				["g"] = {
+					i(245254),	-- Duskthief (PET!)
+					i(239467),	-- Reshii Skirmisher's Cowl
+				},
 			}),
 			n(232195, {	-- Urmag <The Terror Below>
 				["coord"] = { 70.2, 49.7, KARESH },
@@ -138,13 +150,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["questID"] = 90584,
 				["g"] = {
 					i(239451),	-- Reshii Magi's Crown
+					i(239463),	-- Reshii Scout's Bracers
 				},
 			}),
 			n(238384, {	-- Xy'vox the Twisted
 				["description"] = "Rare can be summoned and killed only during a Warrant quest.",
 				["coord"] = { 31.2, 57.8, KARESH },
 				["questID"] = 90694,
-				-- rep 90695?
 				["g"] = {
 					i(239479),	-- Reshii Brute's Vambraces
 				},
@@ -199,6 +211,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(90681, {	-- Weekly reputation: Stalker of the Wastes
 					["name"] = "Stalker of the Wastes weekly reputation obtained.",
 				}),
+				q(91431, {	-- Weekly reputation: Sthaarbs (TODO: swipe with rare questID if wrong)
+					["name"] = "Sthaarbs weekly reputation obtained.",
+				}),
 				q(90678, {	-- Weekly reputation: The Nightreaver
 					["name"] = "The Nightreaver weekly reputation obtained.",
 				}),
@@ -207,6 +222,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				}),
 				q(90672, {	-- Weekly reputation: Xarran the Binder
 					["name"] = "Xarran the Binder weekly reputation obtained.",
+				}),
+				q(90695, {	-- Weekly reputation: Xy'vox the Twisted (TODO: swipe with rare questID if wrong)
+					["name"] = "Xy'vox the Twisted weekly reputation obtained.",
 				}),
 			}),
 		}),

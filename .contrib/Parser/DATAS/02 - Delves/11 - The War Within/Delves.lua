@@ -1040,7 +1040,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(MISC, {
 				i(242919, {	-- Cracked Keystone (QS!/QI!/CI!)
-					["timeline"] = { ADDED_11_1_5 },	-- TODO: REMOVED_11_2_0?
+					["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 				}),
 			}),
 			filter(NECK_F, {
@@ -1087,6 +1087,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(215172),	-- Silken Chain Weaver
 				i(225668),	-- Unstable Power Suit Core
 				i(225891),	-- Vile Vial of Kaheti Bile
+				i(238386, {	-- Void-Touched Fragment
+					["timeline"] = { ADDED_11_2_0_SEASONSTART },
+				}),
 			}),
 		}),
 		filter(BATTLE_PETS, {
@@ -1163,6 +1166,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235438),	-- Noxious Injector Manacles
 						})),
 						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+							i(237972),	-- Void-Scarred Seer's Bands
+							i(237971),	-- Void-Scarred Seer's Cord
+							i(237968),	-- Void-Scarred Seer's Crown
+							i(237967),	-- Void-Scarred Seer's Gloves
+							i(237969),	-- Void-Scarred Seer's Leggings
+							i(237966),	-- Void-Scarred Seer's Slippers
+							i(237970),	-- Void-Scarred Seer's Spines
+							i(237965),	-- Void-Scarred Seer's Vestments
 						})),
 					}),
 					filter(FINGER_F, {
@@ -1178,6 +1189,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235424),	-- Rich Uncle's Endowment
 						})),
 						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+							i(237958),	-- Void-Scarred Circle
+							i(237956),	-- Void-Scarred Band
+							i(237957),	-- Void-Scarred Hoop
+							i(237959),	-- Void-Scarred Signet
 						})),
 					}),
 					filter(LEATHER, {
@@ -1202,6 +1217,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235446),	-- Nitroclad Armguards
 						})),
 						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+							i(237979),	-- Void-Scarred Blade's Belt
+							i(237980),	-- Void-Scarred Blade's Bracers
+							i(237977),	-- Void-Scarred Blade's Breeches
+							i(237973),	-- Void-Scarred Blade's Jerkin
+							i(237976),	-- Void-Scarred Blade's Hood
+							i(237975),	-- Void-Scarred Blade's Grips
+							i(237978),	-- Void-Scarred Blade's Shoulderpads
+							i(237974),	-- Void-Scarred Blade's Soles
 						})),
 					}),
 					filter(MAIL, {
@@ -1226,6 +1249,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235454),	-- Blastborne Vambraces
 						})),
 						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+							i(237988),	-- Void-Scarred Striker's Armguards
+							i(237982),	-- Void-Scarred Striker's Boots
+							i(237981),	-- Void-Scarred Striker's Brigandine
+							i(237984),	-- Void-Scarred Striker's Cowl
+							i(237983),	-- Void-Scarred Striker's Gauntlets
+							i(237985),	-- Void-Scarred Striker's Legguards
+							i(237986),	-- Void-Scarred Striker's Pauldrons
+							i(237987),	-- Void-Scarred Striker's Sash
 						})),
 					}),
 					filter(NECK_F, {
@@ -1238,6 +1269,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235429),	-- Moneymaker's Collar
 						})),
 						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+							i(237963),	-- Void-Scarred Brooch
+							i(237962),	-- Void-Scarred Choker
 						})),
 					}),
 					filter(PLATE, {
@@ -1262,6 +1295,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 							i(235463),	-- Junkreaver's Coils
 						})),
 						n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+							i(237989),	-- Void-Scarred Captain's Breastplate
+							i(237994),	-- Void-Scarred Captain's Epaulettes
+							i(237995),	-- Void-Scarred Captain's Greatbelt
+							i(237993),	-- Void-Scarred Captain's Greaves
+							i(237991),	-- Void-Scarred Captain's Handguards
+							i(237992),	-- Void-Scarred Captain's Helmet
+							i(237990),	-- Void-Scarred Captain's Sollerets
+							i(237996),	-- Void-Scarred Captain's Vambraces
 						})),
 					}),
 				}),
@@ -1312,6 +1353,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(235422),	-- Venture Co Seal
 					})),
 					n(DELVES_TWW_S3, bubbleDown({ ["timeline"] = { ADDED_11_2_0_SEASONSTART, REMOVED_12_0_0 } }, {
+						i(238007),	-- Bulwark of the Great Dark
 					})),
 				}),
 			},
@@ -1562,9 +1604,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(239568, {	-- Audio Amplification Crystal [Rank 4]
 							--["bonusID"] = xx,
 						}),
-						--i(239569, {	-- Battered Aegis [Rank 4]
-						--	--["bonusID"] = xx,
-						--}),
+						i(239569, {	-- Battered Aegis [Rank 4]
+							--["bonusID"] = xx,
+						}),
 						i(239573, {	-- Ethereal Energy Converter [Rank 4]
 							--["bonusID"] = xx,
 						}),
@@ -1586,9 +1628,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(239567, {	-- Tailwind Conduit [Rank 4]
 							--["bonusID"] = xx,
 						}),
-						--i(239570, {	-- Temporal Decelerator Crystal [Rank 4]
-						--	--["bonusID"] = xx,
-						--}),
+						i(239570, {	-- Temporal Decelerator Crystal [Rank 4]
+							--["bonusID"] = xx,
+						}),
 					})),
 				}),
 			},
@@ -1906,11 +1948,12 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		}),
 		q(90779, {	-- Cracked Keystone
 			["provider"] = { "i", 242919 },	-- Cracked Keystone
-			["timeline"] = { ADDED_11_1_5 },	-- TODO: REMOVED_11_2_0?
+			["timeline"] = { ADDED_11_1_5, REMOVED_11_2_0 },
 		}),
 		-- Season 2 - Overload stuff
 		q(90968, {	-- Titanic Rumblings
 			["isBreadcrumb"] = true,
+			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
 		}),
 		q(90969, {	-- Titan Consoles
 			["sourceQuests"] = { 90968 },	-- Titanic Rumblings
@@ -1934,12 +1977,16 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = OVERCHARGED_DELVES,
 		}),
 		q(91009, {	-- Durable Information Storage Container
-			["sourceQuests"] = { 90971 },	-- Overcharged Console (TODO: re-check on live)
+			["sourceQuests"] = { 90971 },	-- Overcharged Console (TODO: with 11.2 ptr this quest exist but I will test out chain next time)
 			["qgs"] = {
+				-- #if BEFORE 11.2.0
 				235490,	-- Overcharged Titan Console
 				245191,	-- Dagran Thaurissan II
+				-- #elseif AFTER 11.2.0
+				249592,	-- Titan Console
+				-- #endif
 			},
-			["timeline"] = { ADDED_11_1_7, REMOVED_11_2_0 },
+			["timeline"] = { ADDED_11_1_7 },
 			["coord"] = { 48.0, 43.4, DORNOGAL },
 			["g"] = {
 				i(242664),	-- Durable Information Securing Container (cloth)
@@ -2084,8 +2131,14 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		n(244453, {	-- D'rude
 			["timeline"] = { ADDED_11_2_0 },
 		}),
+		n(244444, {	-- Great Devourer
+			["timeline"] = { ADDED_11_2_0 },
+		}),
 		n(236886, {	-- Hovering Menace
 			["timeline"] = { ADDED_11_1_0 },
+		}),
+		n(244444, {	-- Invasive Phasecrawler
+			["timeline"] = { ADDED_11_2_0 },
 		}),
 		n(207482),	-- Invasive Sporecap
 		n(236895, {	-- Malfuctioning Pummeler
@@ -2110,6 +2163,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				i(248764),	-- Artisanal Blink Trap
 				i(248954),	-- Nether-warped Seedlings (also from Nemesis Strongbox s3)
 				i(245524),	-- Shadowguard's Phasebound Visor (COSMETIC!)
+				n(248481),	-- Ky'veza's Shadow Clone (TODO: remove if nothing will be with it)
 			},
 		}),
 		o(567732, {	-- Kaja'6-Pack
@@ -2153,6 +2207,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 				-- No new objectID atm
 				i(248764, {	-- Artisanal Blink Trap
+					["timeline"] = { ADDED_11_2_0_SEASONSTART },
+				}),
+				i(248755, {	-- Star-in-a-jar
 					["timeline"] = { ADDED_11_2_0_SEASONSTART },
 				}),
 			},
@@ -3094,6 +3151,13 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 				i(210017),	-- Fungal Fish (QI!)
 				i(244900, {["timeline"] = { ADDED_11_1_7 }}),	-- Miniature Titan Disc: Spark Burst (CI!)
+				o(536065, {	-- Nuts and Bolts
+					["timeline"] = { ADDED_11_2_0 },
+					["g"] = {
+						i(250107),	-- Nuts and Bolts (QI!)
+					},
+				}),
+				i(238254, {["timeline"] = { ADDED_11_2_0 }}),	-- Nuts and Bolts (QI!)
 			}),
 			n(QUESTS, {
 				q(83758, {	-- Delver's Call: Fungal Folly
@@ -3925,7 +3989,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			--q(91783),	-- Delver's Cosmetic Surprise Bag (spellID 1246295) (itemID 248127)
 			--q(91784),	-- Delver's Starter Kit (spellID 1246296) (itemID 248126)
 			-- ??
-			--q(91453),	-- after completion 4th bountiful delve per day / new bonus rep hqt / first blue curio / seasonal 'limit' hqt for cloak threads upgrade
+			--q(91453),	-- after completion 4th bountiful delve per day / new bonus rep hqt / reset on weekly
 		})),
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve

@@ -10,6 +10,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				o(499082, {	-- Abandoned Lockbox
 					["coord"] = { 54.0, 55.0, KARESH },
 					-- Found at { 60.1, 60.9, KARESH }, 16.07.2025. Changed coordinates? Verification required for old coord
+					--^ Alex: this coords also up for me, yet treasure 'there is no loot'
 					["questID"] = 92348,
 					["g"] = {
 						i(246299),	-- Blade of Lost Hope (COSMETIC!)
@@ -21,7 +22,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["coord"] = { 60.9, 38.4, KARESH },
 					--["questID"] = 86416,	-- Wowhead data
 				}),
-				q(91058, {	-- Bladed Rifle Of Unfettered Momentum
+				o(548597, {	-- Bladed Rifle Of Unfettered Momentum
+					["coord"] = { 70.0, 70.8, KARESH },	-- could be KARESH_TAZAVESH
+					["questID"] = 91058,
+					["g"] = {
+						i(245673),	-- Bladed Rifle of Unfettered Momentum (COSMETIC!)
+					},
 				}),
 				o(502603, {	-- Crudely Stitched Sack
 					["coord"] = { 58.6, 34.3, KARESH },
@@ -31,7 +37,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						i(246296),	-- Off-Balance Mace of the Tazavesh Lookout
 					},
 				}),
-				q(90514, {	-- Efrats Forgotten Bulwark
+				o(529537, {	-- Efrat's Forgotten Bulwark
+					["coord"] = { 78.0, 49.0, KARESH },
+					["questID"] = 90514,
+					["g"] = {
+						i(243004),	-- Efrat's Forgotten Bulwark (COSMETIC!)
+					},
 				}),
 				q(89378, {	-- Ethereal Voidforged Container
 					-- TODO: I think this one is bugged as well. No matter how I get to the top of the pillar, there is no container. 25.06.2025. -Exo
@@ -83,7 +94,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 90532,
 					["g"] = { i(243153), },	-- Korgorath's Talon (COSMETIC!)
 				}),
-				q(90511, {	-- Light Soaked Cleaver
+				o(529525, {	-- Light Soaked Cleaver
+					["coord"] = { 52.5, 46.8, KARESH },
+					["questID"] = 90511,
+					["g"] = {
+						i(243002),	-- Light-Soaked Cleaver (COSMETIC!)
+					},
 				}),
 				o(499086, {	-- Lightly-Dented Luggage
 					["coord"] = { 54.9, 62.5, KARESH },
@@ -97,11 +113,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 86467,
 					["g"] = { i(245970), },	-- P.O.S.T. Master's Express Hearthstone (TOY!)
 				}),
-				q(91056, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
+				o(548001, {	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
+					["coord"] = { 47.5, 70.0, KARESH_TAZAVESH },
+					["questID"] = 91056,
+					["g"] = {
+						i(245669),	-- P.O.S.T. Master's Prototype Parcel and Postage Presser (COSMETIC!)
+					},
 				}),
-				q(90515, {	-- Petrified Branch Of Janaa
+				o(529539, {	-- Petrified Branch Of Janaa
+					["coord"] = { 78.3, 61.6, KARESH },
+					["questID"] = 90515,
+					["g"] = {
+						i(243006),	-- Petrified Branch of Janaa (COSMETIC!)
+					},
 				}),
-				q(91057, {	-- Phaseblade Of The Void Marches
+				o(548010, {	-- Phaseblade Of The Void Marches
+					["coord"] = { 50.8, 35.3, KARESH },
+					["questID"] = 91057,
+					["g"] = {
+						i(245671),	-- Phaseblade of the Void Marches (COSMETIC!)
+					},
 				}),
 				o(502471, {	-- Rashaal's Vase
 					["coords"] = {
@@ -122,7 +153,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						i(246298),	-- Cracked Staff of the Desperate Defender
 					},
 				}),
-				q(90527, {	-- Shadowguard Crusher
+				o(529664, {	-- Shadowguard Crusher
+					["description"] = "You need to Phasedive in order to see the Treasure Object.",
+					["coord"] = { 49.2, 18.0, KARESH },
+					["questID"] = 90527,
+					["g"] = {
+						i(243008),	-- Shadowguard Crusher (COSMETIC!)
+					},
 				}),
 				o(502485, {	-- Shattered Crystals
 					["coord"] = { 75.1, 55.3, KARESH },
@@ -134,11 +171,26 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 86322,
 					["g"] = { i(243158), },	-- Ixthal the Observling (PET!)
 				}),
-				q(90512, {	-- Spear Of Fallen Memories
+				o(529533, {	-- Spear Of Fallen Memories
+					["coord"] = { 23.7, 46.8, KARESH_TAZAVESH },
+					["questID"] = 90512,
+					["g"] = {
+						i(243003),	-- Spear of Fallen Memories (COSMETIC!)
+					},
 				}),
-				q(90521, {	-- Sufaadi Skiff Lantern
+				o(529591, {	-- Sufaadi Skiff Lantern
+					["coord"] = { 80.7, 52.7, KARESH },
+					["questID"] = 90521,
+					["g"] = {
+						i(243009),	-- Sufaadi Skiff Lantern (COSMETIC!)
+					},
 				}),
-				q(90522, {	-- Tulwar Of The Golden Guard
+				o(529643, {	-- Tulwar Of The Golden Guard
+					["coord"] = { 51.0, 65.1, KARESH },
+					["questID"] = 90522,
+					["g"] = {
+						i(243005),	-- Tulwar of the Golden Guard (COSMETIC!)
+					},
 				}),
 				o(502452, {	-- Tumbled Package
 					["coord"] = { 65.3, 63.6, KARESH },
@@ -148,7 +200,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						i(243160),	-- Tazavesh Shipping Manifest
 					},
 				}),
-				q(91055, {	-- Warglaive Of The Audacious Hunter
+				o(547995, {	-- Warglaive of the Audacious Hunter
+					["description"] = "You need to Phasedive in order to see the Treasure Object.",
+					["coord"] = { 72.1, 29.4, KARESH },
+					["questID"] = 91055,
+					["g"] = {
+						i(245667),	-- Warglaive of the Audacious Hunter (COSMETIC!)
+					},
 				}),
 				o(502437, {	-- Wastelander Stash
 					["coord"] = { 60.5, 42.1, KARESH },
@@ -203,18 +261,45 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					["questID"] = 91647,
 				}),
 			}),
+			-- Repeatable
+			-- None phase
 			o(516444, {	-- Ethereal Pocket-Storage
 				["description"] = "Spawns at random locations throughout K'aresh.",
 				["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
 				["maps"] = { KARESH_TAZAVESH, KARESH },
 				-- No quest attached to them.
+				["sym"] = {	-- Zone Drop
+					{"select","mapID",KHAZ_ALGAR},{"pop"},
+					{"where","mapID",KARESH},{"pop"},
+					{"where","headerID",ZONE_DROPS},{"pop"},
+				},
 				["g"] = {	-- Has a chance to drop following
 					-- 'World Drop' gray equipment and other junk
 					-- Currency, like Gold, Valorstones, Resonance Crystals
 					-- But... Then again... Has a chance to drop something like this:
-					i(244489),	-- Worn Shadowguard Blade's Breeches
-					i(244506),	-- Worn Shadowguard Captain's Epaulettes
-					i(244494),	-- Worn Shadowguard Striker's Boots
+					-- Alex: symed zone drop, added additional source of shared (?) stuff
+					i(243147),	-- Ethereal Defense Pylon
+					i(243219),	-- Phased Ethereal Bow
+					i(242529),	-- Shadowtrade Imports
+					i(242371),	-- Untethered Xy'bucha
+				},
+			}),
+			-- Phased
+			o(516626, {	-- Phase-Lost Pocket-Storage
+				["description"] = "Spawns at random locations throughout K'aresh while Phasedive.",
+				["minReputation"] = { FACTION_THE_KARESH_TRUST, 4 },	-- The K'aresh Trust Renown 4
+				["maps"] = { KARESH_TAZAVESH, KARESH },
+				-- No quest attached to them.
+				["sym"] = {	-- Zone Drop
+					{"select","mapID",KHAZ_ALGAR},{"pop"},
+					{"where","mapID",KARESH},{"pop"},
+					{"where","headerID",ZONE_DROPS},{"pop"},
+				},
+				["g"] = {	-- Has a chance to drop following
+					i(243147),	-- Ethereal Defense Pylon
+					i(243219),	-- Phased Ethereal Bow
+					i(242529),	-- Shadowtrade Imports
+					i(242371),	-- Untethered Xy'bucha
 				},
 			}),
 		}),

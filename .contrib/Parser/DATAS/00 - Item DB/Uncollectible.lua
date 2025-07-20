@@ -2538,13 +2538,16 @@ i(241633);	-- Tiny Decorative Rocket
 -- PATCH 11.2.0 --
 ------------------
 i(244358);	-- "Prophecies of the Void"
+i(238881);	-- Barbed Predator Tusk
 i(238834);	-- Burnished Void Claw
 i(238874);	-- Congealed Mana
 i(247686);	-- Crystallized Nightshade
 i(238882);	-- Cursed Eyeball Cluster
 i(238883);	-- Dimly Glowing Scrap
 i(238838);	-- Enlarged Nerve
+i(244359);	-- Ethereal Pylon Conduit
 i(238886);	-- Faintly Glowing Vellum
+i(238868);	-- Flickering Primeval Element
 i(238833);	-- Flowing Ridge Spikes
 i(238872);	-- Fragmented Fin
 i(238799);	-- Harrowed Ichor
@@ -2561,6 +2564,8 @@ i(238801);	-- Mite-Kissed Silver Tooth
 i(238855);	-- Netherclaw
 i(238880);	-- Oily Blubber
 i(247687);	-- Overly-Preserved K'areshi Preserves
+i(238870);	-- Pearly Incisor
+i(250305);	-- Phase-Lost Detritus
 i(238873);	-- Serrated Scale Shard
 i(238878);	-- Shadow-Touched Fang
 i(238832);	-- Sinuous Wing Membrane
@@ -2578,4 +2583,5 @@ i(238866);	-- Void Dust
 i(238848);	-- Void Tendril
 i(244361);	-- Void-Carved Amethyst
 i(238841);	-- Void-Seeping Eyeball
+i(238865);	-- Void-Warped Hoof
 i(244355);	-- Voidstorm Obsidian

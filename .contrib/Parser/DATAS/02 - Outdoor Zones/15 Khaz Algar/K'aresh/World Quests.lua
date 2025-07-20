@@ -19,10 +19,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 					}),
 					--
 					i(245611, {	-- Wriggling Box
-						-- TODO: move out if zone chest
 						i(242734),	-- Curious Slateback (MOUNT!)
 						i(245252),	-- Graceful Cosmic Ray Pup (PET!)
 						i(245253),	-- Inquisitive Cosmic Ray Pup (PET!)
+						i(245212),	-- Vitriolic Inchshifter (PET!)
 					}),
 				},
 			}),
@@ -53,13 +53,28 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 				["description"] = "You need to phasedive in order to get this World Quest.",
 				["coord"] = { 52.8, 61.7, KARESH },
 			}),
+			q(85864, {	-- Phase Diving: Fractured Laacunite
+				["description"] = "You need to phasedive in order to get this World Quest.",
+				["coord"] = { 55.2, 26.5, KARESH },
+				["g"] = {
+					i(232612),	-- Laacunite Shard (QI!)
+				},
+			}),
 			q(89291, {	-- Phase Diving: Oath-Breaker Desamirah
 				["description"] = "You need to phasedive in order to get this World Quest.",
 				["coord"] = { 43.7, 25.9, KARESH },
 			}),
+			q(89288, {	-- Phase Diving: Riftbreaker Tza'akir
+				["description"] = "You need to phasedive in order to get this World Quest.",
+				["coord"] = { 47.9, 15.9, KARESH },
+			}),
 			q(86869, {	-- Phase Diving: Shan'dorah Saboteurs
 				["description"] = "You need to phasedive in order to get this World Quest.",
 				["coord"] = { 58.9, 28.7, KARESH },
+			}),
+			q(85863, {	-- Phase Diving: Strange Storms
+				["description"] = "You need to phasedive in order to get this World Quest.",
+				["coord"] = { 75.4, 49.0, KARESH },
 			}),
 			q(86429, {	-- Phase Diving: The Bound Unbound
 				["description"] = "You need to phasedive in order to get this World Quest.",
@@ -114,6 +129,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			}),
 			q(89274, {	-- The Ugly Mirror
 				["coord"] = { 61.0, 28.1, KARESH },
+			}),
+			q(88818, {	-- Void Sweeper
+				["coord"] = { 46.5, 59.8, KARESH },
 			}),
 			q(86372, {	-- Wasting the Wastelanders
 				["coord"] = { 62.9, 41.2, KARESH },

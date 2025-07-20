@@ -4405,6 +4405,7 @@ i(239082, 4796);	-- Sa'bak's Blessed
 -- PATCH 11.2.0 --
 ------------------
 --- ITEM ---
+i(245254, 4842);	-- Duskthief
 i(245252, 4840);	-- Graceful Cosmic Ray Pup
 i(245272, 4846);	-- Heka'Tarnos, Bringer of Discord
 i(245253, 4844);	-- Inquisitive Cosmic Ray Pup
@@ -4412,6 +4413,7 @@ i(243158, 4813);	-- Ixthal the Observling
 i(244915, 4834);	-- Jimmy
 i(245214, 4838);	-- Palek'ti, the Mouth of Nothingness
 i(244910, 4829);	-- Penumbral Terror
+i(245212, 4836);	-- Vitriolic Inchshifter
 --- NPC ---
 --- UNSORTED ---
 i(0, 4824);	-- Baby Karesh Fox - Orange
@@ -4420,7 +4422,6 @@ i(245273, 4847);	-- Copper Lapbug
 i(244916, 4835);	-- Cyan Siphonmite
 i(244907, 4827);	-- Dread Horrorling
 i(246339, 4854);	-- Duskytooth Fel Snooter
-i(245254, 4842);	-- Duskthief
 i(244909, 4828);	-- Impartial Watcher
 i(0, 4832);	-- Looker Gaz'kreth Jr.
 i(245269, 4845);	-- Mr. Long-Legs
@@ -4435,7 +4436,6 @@ i(245215, 4839);	-- Shimmering Inchshifter
 i(0, 4841);	-- Starlight
 i(246723, 4860);	-- Unfazed Diver
 i(244467, 4825);	-- Veridian Thorntail
-i(245212, 4836);	-- Vitriolic Inchshifter
 i(0, 4837);	-- Worm, Cosmic - Critter (Red)
 i(244914, 4833);	-- Xanthous Siphonmite
 i(246694, 4859);	-- Zo'ya

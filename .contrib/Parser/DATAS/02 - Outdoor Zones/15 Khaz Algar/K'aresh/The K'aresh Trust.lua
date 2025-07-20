@@ -102,6 +102,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 						}, {	-- RENOWN 10 --
 						}, {	-- RENOWN 11 --
 						}, {	-- RENOWN 12 --
+							i(235865, {	-- Ethereal Tome of Alchemy Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = ALCHEMY,
+							}),
+							i(235864, {	-- Ethereal Tome of Blacksmithing Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = BLACKSMITHING,
+							}),
+							i(235863, {	-- Ethereal Tome of Enchanting Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = ENCHANTING,
+							}),
+							i(235862, {	-- Ethereal Tome of Engineering Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = ENGINEERING,
+							}),
 							i(235861, {	-- Ethereal Tome of Herbalism Knowledge (CI!)
 								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
 								["requireSkill"] = HERBALISM,
@@ -110,7 +126,23 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 								["cost"] = {{"i", ARTISANS_ACUITY, 50}},
 								["requireSkill"] = INSCRIPTION,
 							}),
+							i(235859, {	-- Ethereal Tome of Jewelcrafting Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = LEATHERWORKING,
+							}),
+							i(235858, {	-- Ethereal Tome of Leatherworking Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = LEATHERWORKING,
+							}),
 							i(235857, {	-- Ethereal Tome of Mining Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = MINING,
+							}),
+							i(235856, {	-- Ethereal Tome of Skinning Knowledge (CI!)
+								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
+								["requireSkill"] = SKINNING,
+							}),
+							i(235855, {	-- Ethereal Tome of Tailoring Knowledge (CI!)
 								["cost"] = {{"i", ARTISANS_ACUITY, 75}},
 								["requireSkill"] = TAILORING,
 							}),

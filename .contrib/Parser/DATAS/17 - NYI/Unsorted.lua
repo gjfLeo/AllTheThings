@@ -6,46 +6,6 @@ root(ROOTS.Unsorted, {
 	expansion(EXPANSION.TWW, {
 		expansion(EXPANSION.TWW, patch(2,0), bubbleDownSelf({ ["timeline"] = { ADDED_11_2_0 } }, {
 			n(ARMOR, {
-				-- Some Feature Rewards?
-				i(237956),	-- Void-Scarred Band
-				i(237957),	-- Void-Scarred Hoop
-				i(237958),	-- Void-Scarred Circle
-				i(237959),	-- Void-Scarred Signet
-				i(237962),	-- Void-Scarred Choker
-				i(237963),	-- Void-Scarred Brooch
-				i(237965),	-- Void-Scarred Seer's Vestments
-				i(237966),	-- Void-Scarred Seer's Slippers
-				i(237967),	-- Void-Scarred Seer's Gloves
-				i(237968),	-- Void-Scarred Seer's Crown
-				i(237969),	-- Void-Scarred Seer's Leggings
-				i(237970),	-- Void-Scarred Seer's Spines
-				i(237971),	-- Void-Scarred Seer's Cord
-				i(237972),	-- Void-Scarred Seer's Bands
-				i(237973),	-- Void-Scarred Blade's Jerkin
-				i(237974),	-- Void-Scarred Blade's Soles
-				i(237975),	-- Void-Scarred Blade's Grips
-				i(237976),	-- Void-Scarred Blade's Hood
-				i(237977),	-- Void-Scarred Blade's Breeches
-				i(237978),	-- Void-Scarred Blade's Shoulderpads
-				i(237979),	-- Void-Scarred Blade's Belt
-				i(237980),	-- Void-Scarred Blade's Bracers
-				i(237981),	-- Void-Scarred Striker's Brigandine
-				i(237982),	-- Void-Scarred Striker's Boots
-				i(237983),	-- Void-Scarred Striker's Gauntlets
-				i(237984),	-- Void-Scarred Striker's Cowl
-				i(237985),	-- Void-Scarred Striker's Legguards
-				i(237986),	-- Void-Scarred Striker's Pauldrons
-				i(237987),	-- Void-Scarred Striker's Sash
-				i(237988),	-- Void-Scarred Striker's Armguards
-				i(237989),	-- Void-Scarred Captain's Breastplate
-				i(237990),	-- Void-Scarred Captain's Sollerets
-				i(237991),	-- Void-Scarred Captain's Handguards
-				i(237992),	-- Void-Scarred Captain's Helmet
-				i(237993),	-- Void-Scarred Captain' s Greaves
-				i(237994),	-- Void-Scarred Captain's Epaulettes
-				i(237995),	-- Void-Scarred Captain's Greatbelt
-				i(237996),	-- Void-Scarred Captain's Vambraces
-
 				-- Unknown
 				i(237997),	-- Ethereal Handchopper
 				i(237998),	-- Void Assassin's Ritual Blade
@@ -57,7 +17,6 @@ root(ROOTS.Unsorted, {
 				i(238004),	-- Exile's Beacon
 				i(238005),	-- Void-Steeped Falchion
 				i(238006),	-- Soulbearer's Censer
-				i(238007),	-- Bulwark of the Great Dark
 				i(238008),	-- Wastelander's Folly
 				i(238027),	-- Harvested Creephide Cord
 				i(238028),	-- Bone-Melted Faceplate
@@ -82,12 +41,9 @@ root(ROOTS.Unsorted, {
 				i(239459),	-- Reshii Scout's Hood
 				i(239461),	-- Reshii Scout's Shoulderpads
 				i(239462),	-- Reshii Scout's Belt
-				i(239463),	-- Reshii Scout's Bracers
 				i(239465),	-- Reshii Skirmisher's Boots
 				i(239466),	-- Reshii Skirmisher's Gauntlets
-				i(239467),	-- Reshii Skirmisher's Cowl
 				i(239468),	-- Reshii Skirmisher's Legguards
-				i(239469),	-- Reshii Skirmisher's Pauldrons
 				i(239470),	-- Reshii Skirmisher's Sash
 				i(239471),	-- Reshii Skirmisher's Armguards
 				i(239472),	-- Reshii Brute's Breastplate
@@ -95,14 +51,8 @@ root(ROOTS.Unsorted, {
 				i(239474),	-- Reshii Brute's Handguards
 				i(239475),	-- Reshii Brute's Helmet
 				i(239476),	-- Reshii Brute's Greaves
-				i(240171),	-- Observer's Soul Fetters
-				i(240172),	-- Depleted K'areshi Battery
 
 				-- Zone Drops
-				i(243496),	-- Wastelander's Gilded Band
-				i(243497),	-- Wastelander's Gilded Signet
-				i(243498),	-- Wastelander's Gilded Loop
-				i(243499),	-- Wastelander's Gilded Pendant
 				i(244473),	-- Worn Shadowguard Band
 				i(244474),	-- Worn Shadowguard Signet
 				i(244475),	-- Worn Shadowguard Loop
@@ -110,7 +60,6 @@ root(ROOTS.Unsorted, {
 				i(244509),	-- Worn Shadowguard Cleaver
 				i(244510),	-- Worn Shadowguard Carver
 				i(244511),	-- Worn Shadowguard Chopper
-				i(244512),	-- Worn Shadowguard Stiletto
 				i(244513),	-- Worn Shadowguard Kris
 				i(244514),	-- Worn Shadowguard Mace
 				i(244515),	-- Worn Shadowguard Warmace
@@ -121,7 +70,6 @@ root(ROOTS.Unsorted, {
 				i(244520),	-- Worn Shadowguard Bident
 				i(244521),	-- Worn Shadowguard Pole
 				i(244522),	-- Worn Shadowguard Staff
-				i(244523),	-- Worn Shadowguard Greatsword
 				i(244524),	-- Worn Shadowguard Blade
 				i(244525),	-- Worn Shadowguard Censer
 				i(244526),	-- Worn Shadowguard Bastion
@@ -176,7 +124,6 @@ root(ROOTS.Unsorted, {
 				i(244909),	-- Impartial Watcher
 				i(244914),	-- Xanthous Siphonmite
 				i(244916),	-- Cyan Siphonmite
-				i(245212),	-- Vitriolic Inchshifter
 				i(245215),	-- Shimmering Inchshifter
 				i(245256),	-- Sao'rhon
 				i(245269),	-- Mr. Long-Legs
@@ -206,13 +153,6 @@ root(ROOTS.Unsorted, {
 				i(241351),	-- Brewer's Green Kilt
 
 				-- Cosmetic from karesh with grey replacements
-				i(243002),	-- Light-Soaked Cleaver
-				i(243003),	-- Spear of Fallen Memories
-				i(243004),	-- Efrat's Forgotten Bulwark
-				i(243005),	-- Tulwar of the Golden Guard
-				i(243006),	-- Petrified Branch of Janaa
-				i(243008),	-- Shadowguard Crusher
-				i(243009),	-- Sufaadi Skiff Lantern
 				-- Greys if you already looted cosmetic?
 				i(243014),	-- Light-Dimmed Cleaver
 				i(243015),	-- Spear of Forgotten Memories
@@ -222,13 +162,9 @@ root(ROOTS.Unsorted, {
 				i(243021),	-- Shadowguard Bonker
 				i(243022),	-- Sufaadi Skiff Candle
 				i(243154),	-- Korgorath's Broken Nail
-				i(245667),	-- Warglaive of the Audacious Hunter
 				i(245668),	-- Warglaive of the Subdued Tracker
-				i(245669),	-- P.O.S.T. Master's Prototype Parcel and Postage Presser
 				i(245670),	-- P.O.S.T. Employee's Backup Stamp
-				i(245671),	-- Phaseblade of the Void Marches
 				i(245672),	-- Blade of the Void Swamp
-				i(245673),	-- Bladed Rifle of Unfettered Momentum
 				i(245674),	-- Rifle of Leaden Movement
 				i(246293),	-- Buckler of the Last Stand
 				i(246294),	-- Shattered Buckler of the Last Stand
@@ -588,28 +524,20 @@ root(ROOTS.Unsorted, {
 				i(238851),	-- Fractured Dragon Scale
 				i(238853),	-- Netherbound Heart
 				i(238856),	-- Nightpiercer Feather
-				i(238865),	-- Void-Warped Hoof
-				i(238868),	-- Flickering Primeval Element
-				i(238870),	-- Pearly Incisor
 				i(238879),	-- Cracked Void Carapace
-				i(238881),	-- Barbed Predator Tusk
 				i(238885),	-- Unstable Power Source
 				i(238888),	-- Essence of Ephemeral Knowledge
 				i(238889),	-- Eldritch Signal Antenna
 				i(239109),	-- [NYI] Outdoor Voidforged Container - Ruins of Yaathron
 				i(239129),	-- Questionable Tentacle
 				i(241220),	-- Loose Parts
-				i(242371),	-- Untethered Xy'bucha
 				i(242380),	-- Black Blood Blower
-				i(243147),	-- Ethereal Defense Pylon
 				i(243152),	-- NEW ITem
-				i(243219),	-- Phased Ethereal Bow
 				i(243235),	-- Adventurer's Footlocker
 				i(243246),	-- Funny Candle
 				i(243580),	-- Etheric Pylon
 				i(244141),	-- Barley Soup
 				i(244142),	-- Brew Keg
-				i(244359),	-- Ethereal Pylon Conduit
 				i(244421),	-- Set Keystone Map: Eco-Dome Al'dani
 				i(245746),	-- Energy Barrel
 				i(245747),	-- Energy Urn
@@ -643,10 +571,7 @@ root(ROOTS.Unsorted, {
 				i(248126),	-- Delver's Starter Kit
 				i(248127),	-- Delver's Cosmetic Surprise Bag
 				i(248142),	-- Delver's Bounty
-				i(248755),	-- Star-in-a-jar
 				-- Curios
-				i(239569),	-- Battered Aegis
-				i(239570),	-- Temporal Decelerator Crystal
 				i(239580),	-- Nether Overlay Matrix
 
 				-- Valorstone
@@ -667,17 +592,6 @@ root(ROOTS.Unsorted, {
 				i(240935),	-- Glorious Cluster of Gilded Undermine Crests
 				i(240937),	-- Celebratory Pack of Runed Undermine Crests
 				i(240938),	-- Triumphant Satchel of Carved Undermine Crests
-
-
-				-- Reputation/Knowledge
-				i(235855),	-- Ethereal Tome of Tailoring Knowledge
-				i(235856),	-- Ethereal Tome of Skinning Knowledge
-				i(235858),	-- Ethereal Tome of Leatherworking Knowledge
-				i(235859),	-- Ethereal Tome of Jewelcrafting Knowledge
-				i(235862),	-- Ethereal Tome of Engineering Knowledge
-				i(235863),	-- Ethereal Tome of Enchanting Knowledge
-				i(235864),	-- Ethereal Tome of Blacksmithing Knowledge
-				i(235865),	-- Ethereal Tome of Alchemy Knowledge
 
 				-- Brewfest
 				i(243291),	-- Bag of Brewfest Merchandise
@@ -734,7 +648,6 @@ root(ROOTS.Unsorted, {
 				i(238044),	-- Pure Precise Fiber
 				i(238045),	-- Pure Chronomatic Fiber
 				i(238046),	-- Pure Energizing Fiber
-				i(240216),	-- K'areshi Resonating Stone
 				i(243821),	-- Contract: The K'aresh Trust
 				i(243822),	-- Contract: The K'aresh Trust
 				i(243823),	-- Contract: The K'aresh Trust
@@ -856,7 +769,6 @@ root(ROOTS.Unsorted, {
 				i(232554),	-- Waning Essence[DNT]
 				i(232568),	-- Priest's Remains[DNT]
 				i(232578),	-- Wastelander Artifact
-				i(232612),	-- Laacunite Shard
 				i(232625),	-- Wastelander Artifact
 				i(232626),	-- Wastelander Artifact
 				i(232627),	-- Wastelander Artifact
@@ -923,7 +835,6 @@ root(ROOTS.Unsorted, {
 				i(238242),	-- K'arroc Egg
 				i(238254),	-- Nuts and Bolts
 				i(238296),	-- Phase Disruptor
-				i(238663),	-- Crystallized Anima
 				i(238903),	-- Appropriated Azerothian Camera
 				i(238904),	-- Anima Vacuum
 				i(238905),	-- Condenser Disc

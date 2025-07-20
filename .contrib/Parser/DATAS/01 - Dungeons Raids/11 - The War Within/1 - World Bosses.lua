@@ -136,7 +136,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 				["timeline"] = { ADDED_11_1_0_SEASONSTART }
 			}),
 			Boss(RESHANOR, {	-- Reshanor <The Untethered>
-				--["questID"] = xx,
+				["questID"] = 87352,
 				["timeline"] = { ADDED_11_2_0_SEASONSTART },
 			}),
 			BossWorldQuest(RESHANOR, 87354, {	-- Reshanor, the Untethered (WQ)

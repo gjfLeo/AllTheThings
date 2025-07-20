@@ -2365,6 +2365,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(238201, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Ore+
 			i(238212, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Ore++
 			i(238213, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Ore+++
+			i(240216, {["timeline"]={ADDED_11_2_0}}),	-- K'areshi Resonating Stone
 			i(224838),	-- Null Sliver
 			i(210939),	-- Null Stone
 			i(224583),	-- Slab of Slate
@@ -2487,6 +2488,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			FirstSkin(91133, 232006, ADDED_11_2_0),	-- Skinning Sha'ryth the Cursed
 			FirstSkin(84259, 228439),	-- Skinning Slatefang
 			FirstSkin(83405, 221217),	-- Skinning Spore-infused Shalewing
+			FirstSkin(91130, 232193, ADDED_11_2_0),	-- Skinning Stalker of the Wastes
 			FirstSkin(85551, 221690),	-- Skinning Strength of Beledar
 			FirstSkin(83407, 221126),	-- Skinning Tephratennae
 			FirstSkin(81456, 220271),	-- Skinning Terror of the Forge

@@ -2423,7 +2423,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=13,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=20,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=7,["monthDay"]=27,["weekday"]=1,["year"]=2025}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=8,["monthDay"]=3,["weekday"]=1,["year"]=2025},{["hour"]=23,["month"]=8,["monthDay"]=3,["weekday"]=1,["year"]=2025}),
@@ -2475,7 +2474,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=12,["weekday"]=1,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=19,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
@@ -6613,6 +6613,8 @@ local ObjectNames = {
 	[210582] = "Dark Soil",
 	[210759] = "Arrow for Commander Hsieh",
 	[210887] = "Untainted Supplies",
+	[210964] = "Pei-Wu Forest Gate",
+	[210965] = "Mandori Village Gate",
 	[210986] = "Edict of Temperance",
 	[211017] = "Root Vegetable",
 	[211018] = "Root Vegetable",
@@ -18048,6 +18050,7 @@ local ObjectModels = {
 	[529289] = 5201692,
 	[529673] = 198168,
 	[529677] = 197685,
+	[536065] = 1842503,
 	[547529] = 1349039,
 	[558105] = 949611,
 	[558108] = 949619,
@@ -21708,10 +21711,12 @@ L.QUEST_NAMES = {
 	[90683] = "Maw of the Sands weekly reputation obtained.",
 	[90684] = "Orith the Dreadful weekly reputation obtained.",
 	[90685] = "Ixthar the Unblinking weekly reputation obtained.",
+	[90695] = "Xy'vox the Twisted weekly reputation obtained.",
 	[90699] = "Grubber weekly reputation obtained.",
 	[90732] = "Stay awhile and listen: Alleria Windrunner",
 	[91421] = "Malek'ta weekly reputation obtained.",
 	[91422] = "Heka'tamos weekly reputation obtained.",
+	[91431] = "Sthaarbs weekly reputation obtained.",
 	[91524] = "Stay awhile and listen: Captaion Roderick Brewston",
 	[91532] = "Stay awhile and listen: Faerin Lothar",
 	[91534] = "Stay awhile and listen: Eitrigg",

@@ -21,7 +21,49 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_2_0 } }, 
 			skyriding(ach(42727)),	-- K'aresh Glyph Hunter (automated)
 			ach(41978),	-- Moonlighter
 			ach(41808),	-- Otherworldly Ecologist (automated)
-			ach(61017),	-- Phase-Lost-and-Found
+			ach(61017, {	-- Phase-Lost-and-Found
+				-- TODO: is there a better way?
+				["coords"] = {
+					{ 44.2, 16.9, KARESH },
+					{ 47.2, 15.8, KARESH },
+					{ 50.1, 36.2, KARESH },
+					{ 51.0, 69.1, KARESH },
+					{ 51.2, 67.7, KARESH },
+					{ 53.4, 20.6, KARESH },
+					{ 54.9, 63.8, KARESH },
+					{ 56.0, 21.5, KARESH },
+					{ 56.5, 20.9, KARESH },
+					{ 60.5, 55.5, KARESH },
+					{ 60.6, 42.0, KARESH },
+					{ 61.1, 27.3, KARESH },
+					{ 61.2, 39.2, KARESH },
+					{ 64.9, 55.0, KARESH },
+					{ 64.9, 52.2, KARESH },
+					{ 69.7, 55.3, KARESH },
+					{ 70.3, 32.0, KARESH },
+					{ 74.0, 57.5, KARESH },
+					{ 76.0, 32.6, KARESH },
+					{ 77.3, 38.0, KARESH },
+					{ 34.9, 57.9, KARESH_TAZAVESH },
+					{ 40.2, 68.2, KARESH_TAZAVESH },
+					{ 44.3, 34.6, KARESH_TAZAVESH },
+					{ 45.2, 50.0, KARESH_TAZAVESH },
+					{ 55.8, 33.6, KARESH_TAZAVESH },
+					{ 56.5, 86.7, KARESH_TAZAVESH },
+					{ 60.7, 55.3, KARESH_TAZAVESH },
+				},
+				["g"] = {
+					i(250282),	--  Phase-Lost Bardiche (COSMETIC!)
+					i(250283),	--  Phase-Lost Carver (COSMETIC!)
+					i(250273),	--  Phase-Lost Carver (COSMETIC!)
+					i(250274),	--  Phase-Lost Hatchet (COSMETIC!)
+					i(250271),	--  Phase-Lost Hammer (COSMETIC!)
+					i(250277),	--  Phase-Lost Maul (COSMETIC!)
+					i(250270),	--  Phase-Lost Scimitar (COSMETIC!)
+					i(250296),	--  Phase-Lost Sigil (COSMETIC!)
+					i(250275),	--  Phase-Lost Zweihander (COSMETIC!)
+				},
+			}),
 			ach(42742, {	-- Power of the Reshii
 				i(247703),	-- Reshii Hood
 				i(247704),	-- Reshii Mantle
