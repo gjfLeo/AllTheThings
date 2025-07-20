@@ -1024,17 +1024,17 @@ local i = function(itemID, speciesID, altSpeciesID)
 	end
 	return item;
 end
-local n = function(npcID, speciesID)
-	local pet = { ["speciesID"] = speciesID, ["cr"] = npcID, ["ignoreBonus"] = true };
-	Pets[npcID] = pet;
+local n = function(creatureID, speciesID)
+	local pet = { ["speciesID"] = speciesID, ["cr"] = creatureID, ["ignoreBonus"] = true };
+	Pets[creatureID] = pet;
 	return pet;
 end
 
 -- If the pet is obtained from an item, use i(itemID, speciesID);
--- If the pet can be caught through pet battle use n(npcID, speciesID);
+-- If the pet can be caught through pet battle use n(creatureID, speciesID);
 -- Otherwise use i(0, speciesID);	example if the pet is obtained from store.
 -- At the end the comment should contain the pet name not npc or item name.
--- To acquire itemID, npcID and speciesID one can use wowhead. If you want speciesID from wowhead it can be found in "Summoned by" tab.
+-- To acquire itemID, creatureID and speciesID one can use wowhead. If you want speciesID from wowhead it can be found in "Summoned by" tab.
 -- To manually collect the speciesID in-game (live or PTR):
 	-- /dump C_PetJournal.FindPetIDByName("Cypress")
 -- The speciesID can also be found via various addons

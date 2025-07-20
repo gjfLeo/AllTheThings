@@ -1712,7 +1712,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- #if AFTER 4.0.3
 						["creatureID"] = 45412,	-- Lord Aurius Rivendare
 						-- #else
-						["npcID"] = 10440,	-- Baron Rivendare
+						["creatureID"] = 10440,	-- Baron Rivendare
 						-- #endif
 						["groups"] = {
 							i(13251),	-- Head of Baron Rivendare
