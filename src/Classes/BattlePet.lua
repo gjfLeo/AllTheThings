@@ -97,12 +97,12 @@ if C_PetJournal_GetPetStats then
 						index = index + 1;
 						if index == 1 then
 							tinsert(tooltipInfo, { left = " " });
-							tinsert(tooltipInfo, { left = "Owned Pets:" });
+							tinsert(tooltipInfo, { left = app.L.OWNED_PET });
 						end
 						health, maxHealth, power, speed, rarity = C_PetJournal_GetPetStats(petID);
 						tinsert(tooltipInfo, {
 							left = LEVEL .. " " .. level .. " (" .. _G["BATTLE_PET_BREED_QUALITY" .. rarity] .. ")",
-							right = tostring(health) .. " / " .. tostring(maxHealth) .. " [" .. power .. " | " .. power .. " | " .. speed .. "]"
+							right = health .. " / " .. maxHealth .. " [" .. power .. " | " .. speed .. "]"
 						});
 					end
 				end
