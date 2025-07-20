@@ -660,10 +660,10 @@ namespace ATT
                                 if (CUSTOM_HEADER_CONSTANTS.TryGetValue(isPetBattleHeader ? "PET_BATTLES" : "ACHIEVEMENTS", out long headerID))
                                 {
                                     var header = new Dictionary<string, object>
-                                                {
-                                                    { "npcID", headerID },
-                                                    { "g", new List<object>{ mergeObject } }
-                                                };
+                                    {
+                                        { "npcID", headerID },
+                                        { "g", new List<object>{ mergeObject } }
+                                    };
                                     if (isPetBattleHeader) header["pb"] = mergeObject["pb"];
                                     // track the data which is actually being merged into another group
                                     TrackPostProcessMergeKey(key, keyValue);
@@ -2294,32 +2294,6 @@ end");
                 // Merge the entry with the data.
                 PreMerge(entry, data2);
                 Merge(entry, data2);
-
-                // This bloats the DB size by A LOT due to way more item information being included for every item, vs. only in some places
-                // Wish there was a way to link to an ItemDB from Categories.lua so that item information in each reference is identical and only the ID is necessary in Categories.lua
-                // for any object type
-                // (same with Quest/NPC probably?)
-                //else if (entry.TryGetValue("itemID", out int itemID))
-                //{
-                //    // merge any item information from the item DB...
-                //    var item = Items.Get(itemID);
-                //    PreMerge(entry, item);
-                //    Merge(entry, item);
-                //}
-                //else if (entry.TryGetValue("creatureID", out int crID) && crID > 0)
-                //{
-                //    // merge any NPC information from the NPC DB...
-                //    var npc = NPC_DB[crID];
-                //    PreMerge(entry, npc);
-                //    Merge(entry, npc);
-                //}
-                //else if (entry.TryGetValue("npcID", out int npcID) && npcID > 0)
-                //{
-                //    // merge any NPC information from the NPC DB...
-                //    var npc = NPC_DB[npcID];
-                //    PreMerge(entry, npc);
-                //    Merge(entry, npc);
-                //}
             }
 
             /// <summary>
@@ -2380,7 +2354,7 @@ end");
                     return null;
                 }
 
-                // Determine the Most-Significant ID Type (itemID, questID, npcID, etc)
+                // Determine the Most-Significant ID Type
                 if (!ATT.Export.ObjectData.TryGetMostSignificantObjectType(data2, out Export.ObjectData objectData, out object keyObject))
                 {
                     // If there is no most significant ID field, then complain.

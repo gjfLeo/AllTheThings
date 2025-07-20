@@ -404,15 +404,15 @@ namespace ATT
                     case "isFlying":
                     case "isGround":
                     case "isJumping":
-                    case "creatureID":
                     //case "ignoreBonus":
                     case "displayID":
                     case "sourceText":
+                    case "creatureID":
                     case "cr":
                     case "crs":
+                    case "npcID":
                     case "qg":
                     case "qgs":
-                    case "npcID":
                     case "modelRotation":
                     case "modelScale":
                     case "model":

@@ -993,7 +993,7 @@ namespace ATT
             // only clean the name after other processing is complete
             if (data.TryGetValue("name", out string name))
             {
-                // Determine the Most-Significant ID Type (itemID, questID, npcID, etc)
+                // Determine the Most-Significant ID Type
                 if (ObjectData.TryGetMostSignificantObjectType(data, out ObjectData objectData, out object objKeyValue) && objKeyValue.TryConvert(out long id))
                 {
                     // Store the name of this object (or whatever it is) in our table.

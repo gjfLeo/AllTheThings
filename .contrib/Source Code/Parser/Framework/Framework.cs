@@ -163,12 +163,13 @@ namespace ATT
             new Dictionary<string, Dictionary<long, HashSet<IDictionary<string, object>>>>
         {
             { "achID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "itemID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "creatureID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "explorationID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
-            { "headerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "factionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "flightpathID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "followerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "headerID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
+            { "itemID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "mapID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "missionID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
             { "mountID", new Dictionary<long, HashSet<IDictionary<string, object>>>() },
@@ -1145,7 +1146,6 @@ namespace ATT
 
                 case "creatureId":
                 case "creatureID":
-                    //case "npcID": // TODO: eventually can we consolidate both of these into just one?
                     {
                         return "creatureID";
                     }
@@ -1519,7 +1519,7 @@ namespace ATT
                 case "name":
                 case "nextRecipeID":
                 case "nomerge":
-                case "npcID": // TODO: eventually consolidate with creatureID
+                case "npcID":
                 case "objectID":
                 case "order":
                 case "ordered":
