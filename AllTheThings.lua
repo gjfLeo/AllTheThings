@@ -1909,6 +1909,7 @@ app.ThingKeys = {
 	-- categoryID = true,
 	-- mapID = true,
 	npcID = true,
+	conduitID = true,
 	creatureID = true,
 	currencyID = true,
 	itemID = true,
@@ -6441,8 +6442,7 @@ customWindowUpdates.WorldQuests = function(self, force, got)
 				-- app.PrintDebug("Rebuild WQ Data")
 				self.retry = nil;
 				-- Put a 'Clear World Quests' click first in the list
-				local temp = {{
-					['text'] = L.CLEAR_WORLD_QUESTS,
+				local temp = {app.CreateRawText(L.CLEAR_WORLD_QUESTS, {
 					['icon'] = 2447782,
 					['description'] = L.CLEAR_WORLD_QUESTS_DESC,
 					['hash'] = "funClearWorldQuests",
@@ -6451,7 +6451,7 @@ customWindowUpdates.WorldQuests = function(self, force, got)
 						return true;
 					end,
 					['OnUpdate'] = app.AlwaysShowUpdate,
-				}};
+				})}
 
 				-- options when refreshing the list
 				self.includeAll = app.MODE_DEBUG;
