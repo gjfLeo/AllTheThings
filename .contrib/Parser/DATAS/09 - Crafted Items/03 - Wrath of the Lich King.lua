@@ -651,7 +651,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_
 		i(41805, {	-- Borean Man O' War
 			["description"] = "Schools can be found on the seaside.",
 			["maps"] = { BOREAN_TUNDRA },
-			["provider"] = { "o", 182958 },	-- Borean Man O' War School
+			["provider"] = { "o", 192051 },	-- Borean Man O' War School
 		}),
 		i(41800, {	-- Deep Sea Monsterbelly
 			["coords"] = {
