@@ -32,7 +32,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			battlepets({
 				["sym"] = {{"select","speciesID",
-					407,	-- Forest Spiderling (PET!)
 					404,	-- Long-tailed Mole (PET!)
 					424,	-- Roach (PET!)
 					401,	-- Strand Crab (PET!)
@@ -42,6 +41,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					pet(421, {	-- Crimson Moth (PET!)
 						["coord"] = { 41.8, 41.6, NORTHERN_STRANGLETHORN },
 					}),
+					pet(407),	-- Forest Spiderling (PET!)
 					pet(408),	-- Lizard Hatchling (PET!)
 					pet(409),	-- Polly (PET!)
 					pet(405),	-- Tree Python (PET!)
